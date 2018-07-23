@@ -167,8 +167,8 @@ VALUES (29317, 1, 42, 0, 0, 53) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (29317, 5, 32, 0, 0, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29317, 2, 12309, 0, 2, 0, False) /* Create Society Explorer Hat for Wield_DestinationType */
-     , (29317, 2, 12310, 0, 2, 0, False) /* Create Explorer Society Robe for Wield_DestinationType */;
+VALUES (29317, 2, 12309, 0, 12, 0.0179, False) /* Create Society Explorer Hat for Wield_DestinationType */
+     , (29317, 2, 12310, 0, 2, 0.0179, False) /* Create Explorer Society Robe for Wield_DestinationType */;
 	 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (29317, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
@@ -307,8 +307,8 @@ VALUES (29324, 1, 42, 0, 0, 53) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (29324, 5, 32, 0, 0, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29324, 2, 12309, 0, 2, 0, False) /* Create Society Explorer Hat for Wield_DestinationType */
-     , (29324, 2, 12310, 0, 2, 0, False) /* Create Explorer Society Robe for Wield_DestinationType */;
+VALUES (29324, 2, 12309, 0, 12, 0.0179, False) /* Create Society Explorer Hat for Wield_DestinationType */
+     , (29324, 2, 12310, 0, 2, 0.0179, False) /* Create Explorer Society Robe for Wield_DestinationType */;
 	 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (29324, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
@@ -447,8 +447,8 @@ VALUES (29325, 1, 42, 0, 0, 53) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (29325, 5, 32, 0, 0, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29325, 2, 12309, 0, 2, 0, False) /* Create Society Explorer Hat for Wield_DestinationType */
-     , (29325, 2, 12310, 0, 2, 0, False) /* Create Explorer Society Robe for Wield_DestinationType */;
+VALUES (29325, 2, 12309, 0, 12, 0.0179, False) /* Create Society Explorer Hat for Wield_DestinationType */
+     , (29325, 2, 12310, 0, 2, 0.0179, False) /* Create Explorer Society Robe for Wield_DestinationType */;
 	 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (29325, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
@@ -587,8 +587,8 @@ VALUES (29326, 1, 42, 0, 0, 53) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (29326, 5, 32, 0, 0, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29326, 2, 12309, 0, 2, 0, False) /* Create Society Explorer Hat for Wield_DestinationType */
-     , (29326, 2, 12310, 0, 2, 0, False) /* Create Explorer Society Robe for Wield_DestinationType */;
+VALUES (29326, 2, 12309, 0, 12, 0.0179, False) /* Create Society Explorer Hat for Wield_DestinationType */
+     , (29326, 2, 12310, 0, 2, 0.0179, False) /* Create Explorer Society Robe for Wield_DestinationType */;
 	 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (29326, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
