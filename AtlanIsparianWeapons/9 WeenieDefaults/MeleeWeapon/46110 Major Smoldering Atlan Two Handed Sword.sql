@@ -15,7 +15,7 @@ VALUES (46110,   1,          1) /* ItemType - MeleeWeapon */
      , (46110,   3,         14) /* PaletteTemplate - Red */
      , (46110,   5,        700) /* EncumbranceVal */
      , (46110,   8,        500) /* Mass */
-     , (46110,   9,    1048576) /* ValidLocations - TwoHandedWeapon */
+     , (46110,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (46110,  16,          1) /* ItemUseable - No */
      , (46110,  18,          1) /* UiEffects - Magical */
      , (46110,  19,       5000) /* Value */

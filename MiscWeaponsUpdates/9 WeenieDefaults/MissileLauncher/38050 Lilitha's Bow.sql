@@ -66,4 +66,5 @@ VALUES (38050,   1,   33554729) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38050,  1603,      2)  /* Aura of Defender IV */
-     , (38050,  1614,      2)  /* Aura of Blood Drinker IV */
+     , (38050,  1614,      2)  /* Aura of Blood Drinker IV */;
+

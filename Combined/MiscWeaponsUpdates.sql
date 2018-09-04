@@ -221,5 +221,256 @@ VALUES (38050,   1,   33554729) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38050,  1603,      2)  /* Aura of Defender IV */
-     , (38050,  1614,      2)  /* Aura of Blood Drinker IV */
+     , (38050,  1614,      2)  /* Aura of Blood Drinker IV */;
 
+/* Weenie - MeleeWeapons - Training Spadone (41512) */
+DELETE FROM weenie WHERE class_Id = 41512;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (41512, 'trainingspadone', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (41512,   1,          1) /* ItemType - MeleeWeapon */
+     , (41512,   3,          4) /* PaletteTemplate - Brown */
+     , (41512,   5,        550) /* EncumbranceVal */
+     , (41512,   8,        300) /* Mass */
+     , (41512,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (41512,  16,          1) /* ItemUseable - No */
+     , (41512,  19,        340) /* Value */
+     , (41512,  44,          8) /* Damage */
+     , (41512,  45,          1) /* DamageType - Slash */
+     , (41512,  46,          8) /* DefaultCombatStyle - TwoHanded */
+     , (41512,  47,          4) /* AttackType - Slash */
+     , (41512,  48,         41) /* WeaponSkill - TwoHanded */
+     , (41512,  49,         50) /* WeaponTime */
+     , (41512,  51,          1) /* CombatUse - Melee */
+     , (41512,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (41512, 150,        103) /* HookPlacement - Hook */
+     , (41512, 151,          2) /* HookType - Wall */
+     , (41512, 292,          2) /* Cleaving */
+	 , (41512, 353,         11) /* WeaponType - TwoHanded */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (41512,  22, True ) /* Inscribable */
+     , (41512,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (41512,  21,       0) /* WeaponLength */
+     , (41512,  22,     0.6) /* DamageVariance */
+     , (41512,  26,       0) /* MaximumVelocity */
+     , (41512,  29,       1) /* WeaponDefense */
+     , (41512,  62,       1) /* WeaponOffense */
+	 , (41512,  63,       1) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (41512,   1, 'Training Spadone') /* Name */
+     , (41512,  14, 'Use Oil of Rendering on this weapon to create an Academy Spadone.') /* Use */
+     , (41512,  15, 'A basic two handed spadone forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (41512,   1,   33559307) /* Setup */
+     , (41512,   3,  536870932) /* SoundTable */
+     , (41512,   6,   67115557) /* PaletteBase */
+     , (41512,   7,  268435772) /* ClothingBase */
+     , (41512,   8,  100690816) /* Icon */
+     , (41512,  22,  872415275) /* PhysicsEffectTable */
+     , (41512,  36,  234881044) /* MutateFilter */;
+
+/* Weenie - MeleeWeapons - Academy Spadone (41514) */
+DELETE FROM weenie WHERE class_Id = 41514;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (41514, 'academyspadone', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (41514,   1,          1) /* ItemType - MeleeWeapon */
+     , (41514,   3,         14) /* PaletteTemplate - Red */
+     , (41514,   5,        550) /* EncumbranceVal */
+     , (41514,   8,        140) /* Mass */
+     , (41514,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (41514,  16,          1) /* ItemUseable - No */
+     , (41514,  19,        340) /* Value */
+     , (41514,  33,          1) /* Bonded - Bonded */
+     , (41514,  44,         10) /* Damage */
+     , (41514,  45,          1) /* DamageType - Slash */
+     , (41514,  46,          8) /* DefaultCombatStyle - TwoHanded */
+     , (41514,  47,          4) /* AttackType - Slash */
+     , (41514,  48,         41) /* WeaponSkill - TwoHanded */
+     , (41514,  49,         50) /* WeaponTime */
+     , (41514,  51,          1) /* CombatUse - Melee */
+     , (41514,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (41514, 150,        103) /* HookPlacement - Hook */
+     , (41514, 151,          2) /* HookType - Wall */
+     , (41514, 292,          2) /* Cleaving */
+	 , (41514, 353,         11) /* WeaponType - TwoHanded */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (41514,  22, True ) /* Inscribable */
+     , (41514,  23, True ) /* DestroyOnSell */
+     , (41514,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (41514,  21,       0) /* WeaponLength */
+     , (41514,  22,     0.6) /* DamageVariance */
+     , (41514,  26,       0) /* MaximumVelocity */
+     , (41514,  29,    1.03) /* WeaponDefense */
+     , (41514,  62,    1.03) /* WeaponOffense */
+	 , (41514,  63,       1) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (41514,   1, 'Academy Spadone') /* Name */
+     , (41514,  15, 'An enhanced sword crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (41514,   1,   33559307) /* Setup */
+     , (41514,   3,  536870932) /* SoundTable */
+     , (41514,   6,   67115557) /* PaletteBase */
+     , (41514,   7,  268435772) /* ClothingBase */
+     , (41514,   8,  100690809) /* Icon */
+     , (41514,  22,  872415275) /* PhysicsEffectTable */
+     , (41514,  36,  234881044) /* MutateFilter */;
+
+/* Weenie - MeleeWeapons - Torch (293) */
+DELETE FROM weenie WHERE class_Id = 293;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('293', 'torch', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (293,   1,        128) /* ItemType - Misc */
+     , (293,   5,         10) /* EncumbranceVal */
+     , (293,   8,          5) /* Mass */
+     , (293,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (293,  16,          1) /* ItemUseable - No */
+     , (293,  19,         10) /* Value */
+     , (293,  44,          2) /* Damage */
+     , (293,  45,         16) /* DamageType - Fire */
+     , (293,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (293,  47,          4) /* AttackType - Slash */
+     , (293,  48,         45) /* WeaponSkill - Light */
+     , (293,  49,         40) /* WeaponTime */
+     , (293,  51,          1) /* CombatUse - Melee */
+     , (293,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (293, 150,        103) /* HookPlacement - Hook */
+     , (293, 151,          2) /* HookType - Wall */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (293,  15, True ) /* LightsStatus */
+     , (293,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (293,  21,    0.68) /* WeaponLength */
+     , (293,  22,     0.5) /* DamageVariance */
+     , (293,  39,    1.25) /* DefaultScale */
+     , (293,  44,       0) /* TimeToRot */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (293,   1, 'Torch') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (293,   1,   33555887) /* Setup */
+     , (293,   3,  536870932) /* SoundTable */
+     , (293,   8,  100667506) /* Icon */
+     , (293,  22,  872415275) /* PhysicsEffectTable */;
+
+/* Weenie - MeleeWeapons - Broken Haft (6777) */
+DELETE FROM weenie WHERE class_Id = 6777;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6777', 'brokenhaft', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (6777,   1,          1) /* ItemType - MeleeWeapon */
+     , (6777,   3,         14) /* PaletteTemplate - Red */
+     , (6777,   5,        225) /* EncumbranceVal */
+     , (6777,   8,         45) /* Mass */
+     , (6777,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6777,  16,          1) /* ItemUseable - No */
+     , (6777,  19,         30) /* Value */
+     , (6777,  33,          1) /* Bonded - Bonded */
+     , (6777,  44,          2) /* Damage */
+     , (6777,  45,          4) /* DamageType - Bludgeon */
+     , (6777,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6777,  47,          6) /* AttackType - Thrust, Slash */
+     , (6777,  48,         45) /* WeaponSkill - Light */
+     , (6777,  49,         10) /* WeaponTime */
+     , (6777,  51,          1) /* CombatUse - Melee */
+     , (6777,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6777, 114,          1) /* Attuned - Attuned */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (6777,  22, True ) /* Inscribable */
+     , (6777,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6777,  21,    0.67) /* WeaponLength */
+     , (6777,  22,     0.5) /* DamageVariance */
+     , (6777,  29,       1) /* WeaponDefense */
+     , (6777,  39,     1.2) /* DefaultScale */
+     , (6777,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6777,   1, 'Broken Haft') /* Name */
+     , (6777,  15, 'A reddish haft, splintered at one end.') /* ShortDesc */
+     , (6777,  16, 'A reddish steel silifi haft, splintered at the blade end. There are three notches on the remaining length of the haft, though there may have been more previously.') /* LongDesc */
+     , (6777,  33, 'crimsonbrokenhaft') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6777,   1,   33556554) /* Setup */
+     , (6777,   3,  536870932) /* SoundTable */
+     , (6777,   6,   67111919) /* PaletteBase */
+     , (6777,   7,  268435985) /* ClothingBase */
+     , (6777,   8,  100669105) /* Icon */
+     , (6777,  22,  872415275) /* PhysicsEffectTable */
+     , (6777,  36,  234881044) /* MutateFilter */;
+
+/* Weenie - MeleeWeapons - Repaired Haft (6778) */
+DELETE FROM weenie WHERE class_Id = 6778;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES ('6778', 'repairedhaft', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (6778,   1,          1) /* ItemType - MeleeWeapon */
+     , (6778,   3,         14) /* PaletteTemplate - Red */
+     , (6778,   5,        700) /* EncumbranceVal */
+     , (6778,   8,        235) /* Mass */
+     , (6778,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (6778,  16,          1) /* ItemUseable - No */
+     , (6778,  19,        250) /* Value */
+     , (6778,  33,          1) /* Bonded - Bonded */
+     , (6778,  44,          2) /* Damage */
+     , (6778,  45,          4) /* DamageType - Bludgeon */
+     , (6778,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (6778,  47,          6) /* AttackType - Thrust, Slash */
+     , (6778,  48,         45) /* WeaponSkill - Light */
+     , (6778,  49,         10) /* WeaponTime */
+     , (6778,  51,          1) /* CombatUse - Melee */
+     , (6778,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (6778, 114,          1) /* Attuned - Attuned */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (6778,  22, True ) /* Inscribable */
+     , (6778,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6778,  21,    0.67) /* WeaponLength */
+     , (6778,  22,     0.5) /* DamageVariance */
+     , (6778,  29,       1) /* WeaponDefense */
+     , (6778,  39,     1.2) /* DefaultScale */
+     , (6778,  62,       1) /* WeaponOffense */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6778,   1, 'Repaired Haft') /* Name */
+     , (6778,  15, 'A reddish haft, with obvious repairs made on one end. It awaits the addition of a permanent blade.') /* ShortDesc */
+     , (6778,  16, 'A reddish steel silifi haft, with obvious repairs made on the blade end. There are three notches on the original length of the haft, though there may have been more previously. It awaits the addition of a permanent blade.') /* LongDesc */
+     , (6778,  33, 'crimsonrepairedhaft') /* Quest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6778,   1,   33556555) /* Setup */
+     , (6778,   3,  536870932) /* SoundTable */
+     , (6778,   6,   67111919) /* PaletteBase */
+     , (6778,   7,  268435987) /* ClothingBase */
+     , (6778,   8,  100669105) /* Icon */
+     , (6778,  22,  872415275) /* PhysicsEffectTable */
+     , (6778,  36,  234881044) /* MutateFilter */;
