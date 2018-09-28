@@ -1,4 +1,5 @@
 /* todo: find real wcid */
+delete from weenie where class_Id=43231;
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
 VALUES ('43231', 'netherstreak', 33) /* ProjectileSpell */;
 

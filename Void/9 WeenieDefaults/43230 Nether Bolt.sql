@@ -1,3 +1,4 @@
+delete from weenie where class_Id=43230;
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
 VALUES ('43230', 'netherbolt', 33) /* ProjectileSpell */;
 

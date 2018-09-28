@@ -1,5 +1,6 @@
+delete from weenie where class_Id=43344;
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('43344', 'netherbolt', 33) /* ProjectileSpell */;
+VALUES ('43344', 'netherdot', 33) /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43344,   8,         25) /* Mass */

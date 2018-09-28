@@ -1,3 +1,4 @@
+delete from weenie where class_Id=43173;
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
 VALUES ('43173', 'packvoidessence', 1) /* Generic */;
 
