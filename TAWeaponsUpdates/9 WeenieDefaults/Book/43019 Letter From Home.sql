@@ -2,7 +2,7 @@
 DELETE FROM weenie WHERE class_Id = 43019;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (43019, 'notelettergreetinggea', 8 /* Book_WeenieType */);
+VALUES (43019, 'notelettergreetingsha', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43019, 001 /* NAME_STRING */, 'Letter From Home')
@@ -35,5 +35,9 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (43019, 1, 1000) /* Book Data */;
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (43019, 0, 4294967295, 'Primus Atamarr', 'prewritten', False, "You have been selected for a very important task. Of those of our people who were willing to see the truth in this world, you had the rare gifts necessary to excel outside the structure of the Houses. Use those gifts, and the skills I have added to your core, to interact and join with the diverse peoples of this world. Only through intergation and alliance can we thrive here, where we are cut off from our world by the insane Iron Blade Primus. Remember the honor of our people, and make them proud to call you both friend and ally.
+VALUES (43019, 0, 4294967295, 'Isin Dule', 'prewritten', False, "By embracing Shadow now that we have mingled our energies with the Lightbringer's Magics and Life Stones, you have become something more than just Shadows.
+
+The Umbrean and Penumbraen are the greatest evolution of ourselves as a people. Take the gifts you have been given, this new life, evolved from your last one, and use it to its fullest. Welcome to the Shadow Kingdom.
+
+Beware your older, more mindless cousins. They have fallen too far into the chaos, and will see you as they see all things outside of themselves. They are lost to us.
 ");
