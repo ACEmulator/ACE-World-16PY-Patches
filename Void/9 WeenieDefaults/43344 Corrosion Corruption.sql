@@ -30,4 +30,4 @@ VALUES (43344,   1,   33561129) /* Setup */
      , (43344,   8,  100667494) /* Icon */
      , (43344,  22,  872415436) /* PhysicsEffectTable */
      , (43344,  28,       5387) /* Spell - Corrosion I */
-     , (43344,  30,         89) /* PhysicsScript - Destroy */;
+     , (43344,  30,         90) /* PhysicsScript - ProjectileCollision */;
