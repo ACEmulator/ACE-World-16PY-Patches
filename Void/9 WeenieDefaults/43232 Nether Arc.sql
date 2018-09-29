@@ -32,4 +32,4 @@ VALUES (43232,   1,   33561128) /* Setup */
      , (43232,   8,  100667494) /* Icon */
      , (43232,  22,  872415436) /* PhysicsEffectTable */
      , (43232,  28,       5369) /* Spell - Nether Arc I */
-     , (43232,  30,         89) /* PhysicsScript - Destroy */;
+     , (43232,  30,         90) /* PhysicsScript - ProjectileCollision */;

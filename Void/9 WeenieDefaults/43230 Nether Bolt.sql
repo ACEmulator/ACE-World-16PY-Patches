@@ -30,4 +30,4 @@ VALUES (43230,   1,   33561128) /* Setup */
      , (43230,   8,  100667494) /* Icon */
      , (43230,  22,  872415436) /* PhysicsEffectTable */
      , (43230,  28,       5349) /* Spell - Nether Bolt I */
-     , (43230,  30,         89) /* PhysicsScript - Destroy */;
+     , (43230,  30,         90) /* PhysicsScript - ProjectileCollision */;

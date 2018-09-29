@@ -29,4 +29,4 @@ VALUES (43233,   1,   33561127) /* Setup */
      , (43233,   3,  536870968) /* SoundTable */
      , (43233,   8,  100667494) /* Icon */
      , (43233,  28,       5361) /* Spell - netherring */
-     , (43233,  30,         89) /* PhysicsScript - Destroy */;
+     , (43233,  30,         90) /* PhysicsScript - ProjectileCollision */;
