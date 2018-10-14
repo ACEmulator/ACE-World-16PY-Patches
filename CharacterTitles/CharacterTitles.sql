@@ -177,3 +177,8 @@ update weenie_properties_emote_action set amount=110 /* Queenslayer */ where emo
 update weenie_properties_emote_action set amount=110 /* Queenslayer */ where emote_Id=22969 and type=34; /* 10980 Aun Hareltah */
 update weenie_properties_emote_action set amount=110 /* Queenslayer */ where emote_Id=23117 and type=34; /* 10981 Aun Hareltah */
 update weenie_properties_emote_action set amount=50 /* Explorer */ where emote_Id=24936 and type=34; /* 25314 Undead Mechanic */
+update weenie_properties_emote_action set amount=137 /* Stonebreaker */ where emote_Id=299 and type=34; /* 11202 Aun Kahmaula */
+update weenie_properties_emote_action set amount=137 /* Stonebreaker */ where emote_Id=261 and type=34; /* 11200 Aun Gehaua */
+update weenie_properties_emote_action set amount=137 /* Stonebreaker */ where emote_Id=318 and type=34; /* 11203 Aun Tanaua */
+update weenie_properties_emote_action set amount=137 /* Stonebreaker */ where emote_Id=337 and type=34; /* 11204 Aun Laiaua */
+update weenie_properties_emote_action set amount=137 /* Stonebreaker */ where emote_Id=280 and type=34; /* 11201 Aun Aanaua */
