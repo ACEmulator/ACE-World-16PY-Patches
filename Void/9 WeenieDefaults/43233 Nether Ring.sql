@@ -1,4 +1,5 @@
 delete from weenie where class_Id=43233;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
 VALUES ('43233', 'netherring', 33) /* ProjectileSpell */;
 
@@ -30,3 +31,4 @@ VALUES (43233,   1,   33561127) /* Setup */
      , (43233,   8,  100667494) /* Icon */
      , (43233,  28,       5361) /* Spell - netherring */
      , (43233,  30,         90) /* PhysicsScript - ProjectileCollision */;
+

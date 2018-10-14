@@ -1,5 +1,6 @@
 /* todo: find real wcid */
 delete from weenie where class_Id=43231;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
 VALUES ('43231', 'netherstreak', 33) /* ProjectileSpell */;
 
@@ -32,3 +33,4 @@ VALUES (43231,   1,   33561128) /* Setup */
      , (43231,  22,  872415436) /* PhysicsEffectTable */
      , (43231,  28,       5357) /* Spell - Nether Streak I */
      , (43231,  30,         90) /* PhysicsScript - ProjectileCollision */;
+

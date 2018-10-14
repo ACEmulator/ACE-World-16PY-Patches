@@ -12,7 +12,7 @@ Content beyond Coldeve, 16 P.Y. - Infiltration - February 2005
 ## Getting Started
 
 * Before using database patches in this repository, the main 16PY World Database must be imported first.
-* Import the selected SQL files from the Combined folder into your SQL server.
+* Import the desired SQL files from the Combined folder into your SQL server.
 
 ## Contributions
 

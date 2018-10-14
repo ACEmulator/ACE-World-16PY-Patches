@@ -32,3 +32,4 @@ VALUES (37155,   1,   33555211) /* Setup */
      , (37155,   8,  100689829) /* Icon */
      , (37155,  22,  872415275) /* PhysicsEffectTable */
      , (37155,  29,        193) /* SpellComponent */;
+

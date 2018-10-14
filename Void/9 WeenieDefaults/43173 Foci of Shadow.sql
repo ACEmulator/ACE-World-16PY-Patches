@@ -1,4 +1,5 @@
 delete from weenie where class_Id=43173;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
 VALUES ('43173', 'packvoidessence', 1) /* Generic */;
 
@@ -36,3 +37,4 @@ VALUES (43173,   1,   33554769) /* Setup */
      , (43173,   8,  100671332) /* Icon */
      , (43173,  22,  872415275) /* PhysicsEffectTable */
      , (43173,  50,  100691578) /* IconOverlay */;
+
