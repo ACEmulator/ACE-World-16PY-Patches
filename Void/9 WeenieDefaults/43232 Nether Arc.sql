@@ -1,5 +1,6 @@
 /* todo: find real wcid */
 delete from weenie where class_Id=43232;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
 VALUES ('43232', 'netherarc', 33) /* ProjectileSpell */;
 
@@ -33,3 +34,4 @@ VALUES (43232,   1,   33561128) /* Setup */
      , (43232,  22,  872415436) /* PhysicsEffectTable */
      , (43232,  28,       5369) /* Spell - Nether Arc I */
      , (43232,  30,         90) /* PhysicsScript - ProjectileCollision */;
+
