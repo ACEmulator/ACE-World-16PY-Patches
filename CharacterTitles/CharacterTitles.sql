@@ -1,4 +1,5 @@
 update weenie_properties_emote_action set amount=32 /* CarenziSlayer */ where emote_Id=343 and type=34; /* 11330 Aun Papileona */
+update weenie_properties_emote_action set amount=144 /* Trapper */ where emote_Id=620 and type=34; /* 24214 Aun Teverea */
 update weenie_properties_emote_action set amount=44 /* Diplomat */ where emote_Id=746 and type=34; /* 27117 Translator Aun Laokhe */
 update weenie_properties_emote_action set amount=31 /* BunnyMaster */ where emote_Id=9927 and type=34; /* 09527 Larry the Rabbit Master */
 update weenie_properties_emote_action set amount=122 /* Sharpshooter */ where emote_Id=9938 and type=34; /* 09544 Eluard the Namer */
@@ -120,7 +121,13 @@ update weenie_properties_emote_action set amount=17 /* Annihilator */ where emot
 update weenie_properties_emote_action set amount=57 /* GaerlanSlayer */ where emote_Id=10573 and type=34; /* 12050 Agent of the Arcanum */
 update weenie_properties_emote_action set amount=119 /* SezzhereiSlayer */ where emote_Id=10591 and type=34; /* 12050 Agent of the Arcanum */
 update weenie_properties_emote_action set amount=34 /* ChampionofDereth */ where emote_Id=11819 and type=34; /* 21136 Emissary of Asheron */
+update weenie_properties_emote_action set amount=106 /* PondScum */ where emote_Id=12911 and type=34; /* 23336 Tackle Master */
+update weenie_properties_emote_action set amount=128 /* Skipper */ where emote_Id=12912 and type=34; /* 23336 Tackle Master */
+update weenie_properties_emote_action set amount=65 /* GuppyMaster */ where emote_Id=12913 and type=34; /* 23336 Tackle Master */
+update weenie_properties_emote_action set amount=84 /* Lakeman */ where emote_Id=12914 and type=34; /* 23336 Tackle Master */
+update weenie_properties_emote_action set amount=52 /* Fisherman */ where emote_Id=12915 and type=34; /* 23336 Tackle Master */
 update weenie_properties_emote_action set amount=107 /* ProFisherman */ where emote_Id=12916 and type=34; /* 23336 Tackle Master */
+update weenie_properties_emote_action set amount=142 /* Timberman */ where emote_Id=13423 and type=34; /* 24212 Caelis Renning */
 update weenie_properties_emote_action set amount=79 /* KeeperofDereth */ where emote_Id=13974 and type=34; /* 25682 Xavier, Royal Guard */
 update weenie_properties_emote_action set amount=42 /* DefenderofDereth */ where emote_Id=13975 and type=34; /* 25682 Xavier, Royal Guard */
 update weenie_properties_emote_action set amount=63 /* GuardianofDereth */ where emote_Id=13976 and type=34; /* 25682 Xavier, Royal Guard */
@@ -170,6 +177,7 @@ update weenie_properties_emote_action set amount=81 /* Kingslayer */ where emote
 update weenie_properties_emote_action set amount=82 /* KireeKiller */ where emote_Id=15196 and type=34; /* 29770 Guard Fassel */
 update weenie_properties_emote_action set amount=113 /* ReeshanKiller */ where emote_Id=15210 and type=34; /* 29771 Guard Ellyon */
 update weenie_properties_emote_action set amount=114 /* RehirKiller */ where emote_Id=15224 and type=34; /* 29772 Guard Lo Pan */
+update weenie_properties_emote_action set amount=92 /* Miner */ where emote_Id=16003 and type=34; /* 24213 Kreavon */
 update weenie_properties_emote_action set amount=57 /* GaerlanSlayer */ where emote_Id=16213 and type=34; /* 24577 Agent Dravos */
 update weenie_properties_emote_action set amount=119 /* SezzhereiSlayer */ where emote_Id=16230 and type=34; /* 24577 Agent Dravos */
 update weenie_properties_emote_action set amount=70 /* HonorarySnowman */ where emote_Id=19510 and type=34; /* 25792 The Mayor */
