@@ -6,23 +6,31 @@ set patchesdir=%cd%
 
 IF EXIST *.sql del *.sql
 
-
 FOR /D %%G IN ("*") DO (
 
-cd %%~nxG
+    cd %%~nxG
 
-echo /* %%~nxG */ >> %patchesdir%\%%~nxG.sql
-echo. >> %patchesdir%\%%~nxG.sql
+    IF EXIST optional.txt (
+        echo Skipping Optional Patch: %%~nxG
+        echo.
+    ) ELSE (
+        echo Found Patch: %%~nxG
+        echo compiling...
+        echo.
+        echo /* %%~nxG */ >> %patchesdir%\Patch-%%~nxG.sql
+        echo. >> %patchesdir%\Patch-%%~nxG.sql
 
-FOR /R %%H in (.) DO (
- Pushd %%H
- REM Echo now in %%H
- copy /b "%patchesdir%\%%~nxG.sql" + *.sql "%patchesdir%\%%~nxG.sql" 1>NUL
- Popd )
+        FOR /R %%H in (.) DO (
+            Pushd %%H
+            REM Echo now in %%H
+            copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
+            Popd 
+        )
 
-echo. >> %patchesdir%\%%~nxG.sql
+        echo. >> %patchesdir%\Patch-%%~nxG.sql
+    )
 
-cd ..
+    cd ..
 )
 
 cd ..\compiled

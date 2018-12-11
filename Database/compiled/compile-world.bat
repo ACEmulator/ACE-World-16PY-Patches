@@ -1,18 +1,17 @@
 @echo off
 IF EXIST *.sql del *.sql
-set thisdir=%cd%
-echo Compiling ACE-World-16PY Base Database...
-cd ..\ACE-World-16PY\Database\compiled
-call compile.bat
+echo Creating ACE-World-Database...
+echo.
+echo Compiling ACE-World-16PY Base...
+call compile-base.bat
 @echo off
-cd %thisdir%
 echo /* ACE-World-Database */ >> ACE-World-Database.sql
 echo. >> ACE-World-Database.sql
 echo /* ACE-World-16PY */ >> ACE-World-Database.sql
 echo. >> ACE-World-Database.sql
 copy /b ACE-World-Database.sql + ..\ACE-World-16PY\Database\compiled\*.sql ACE-World-Database.sql
 echo. >> ACE-World-Database.sql
-echo Compiling Patches...
+echo Compiling Patches, skipping patches marked optional...
 call compile-patches.bat
 @echo off
 echo /* ACE-World-16PY-Patches */ >> ACE-World-Database.sql
@@ -29,4 +28,7 @@ echo /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_SQL_SAFE_UPDATES */; >> ACE-World-Data
 echo /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_UNIQUE_CHECKS */; >> ACE-World-Database.sql
 echo /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */; >> ACE-World-Database.sql
 echo. >> ACE-World-Database.sql
+
+move ..\ACE-World-16PY\Database\compiled\*.sql
+move ..\Patches\*.sql
 @echo on
