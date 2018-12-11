@@ -24,8 +24,8 @@ echo. >> ACE-World-Database.sql
 
 copy /b ACE-World-Database.sql + ..\Patches\*.sql ACE-World-Database.sql
 
-echo /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_SQL_SAFE_UPDATES */; >> ACE-World-Database.sql
-echo /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_UNIQUE_CHECKS */; >> ACE-World-Database.sql
+echo /*!40014 SET SQL_SAFE_UPDATES=@OLD_SQL_SAFE_UPDATES */; >> ACE-World-Database.sql
+echo /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */; >> ACE-World-Database.sql
 echo /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */; >> ACE-World-Database.sql
 echo. >> ACE-World-Database.sql
 

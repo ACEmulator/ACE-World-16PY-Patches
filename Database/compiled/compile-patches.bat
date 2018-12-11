@@ -24,6 +24,7 @@ FOR /D %%G IN ("*") DO (
             Pushd %%H
             REM Echo now in %%H
             copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
+            echo. >> %patchesdir%\Patch-%%~nxG.sql
             Popd 
         )
 
