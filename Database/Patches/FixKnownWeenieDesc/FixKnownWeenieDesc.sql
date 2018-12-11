@@ -1,4 +1,4 @@
-SET FOREIGN_KEY_CHECKS=0;
+
 REPLACE INTO `weenie` (`class_Id`, `class_Name`) VALUES (31715, 'atlatldartacademy');
 REPLACE INTO `weenie` (`class_Id`, `class_Name`) VALUES (31716, 'boltacademy');
 REPLACE INTO `weenie` (`class_Id`, `class_Name`) VALUES (31717, 'arrowacademy');
@@ -53,4 +53,3 @@ REPLACE INTO `weenie` (`class_Id`, `class_Name`) VALUES (43348, 'shadowroot');
 REPLACE INTO `weenie` (`class_Id`, `class_Name`) VALUES (43349, 'soulweed');
 REPLACE INTO `weenie` (`class_Id`, `class_Name`) VALUES (43350, 'kemeroi');
 REPLACE INTO `weenie` (`class_Id`, `class_Name`) VALUES (43351, 'bottledrage');
-SET FOREIGN_KEY_CHECKS=1;
