@@ -1,0 +1,3 @@
+[submodule "Database/ACE-World-16PY"]
+	path = Database/ACE-World-16PY
+	url = https://github.com/ACEmulator/ACE-World-16PY.git
