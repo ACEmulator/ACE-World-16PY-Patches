@@ -4,12 +4,10 @@ cd ..\Patches
 
 set patchesdir=%cd%
 
-IF DEFINED skipdelete (
-    IF "%skipdelete%" EQU 1 (
-        echo Skipping delete...
-    ) ELSE (    
-        IF EXIST *.sql del *.sql
-    )
+IF "%skipdelete%" EQU "1" (
+    echo Skipping delete...
+) ELSE (    
+    IF EXIST *.sql del *.sql
 )
 
 FOR /D %%G IN ("*") DO (
