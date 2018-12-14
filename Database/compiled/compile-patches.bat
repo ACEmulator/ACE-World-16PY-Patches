@@ -11,9 +11,11 @@ FOR /D %%G IN ("*") DO (
     cd %%~nxG
 
     IF EXIST optional.txt (
+	echo.
         echo Skipping Optional Patch: %%~nxG
         echo.
     ) ELSE (
+	echo.
         echo Found Patch: %%~nxG
         echo compiling...
         echo.
@@ -147,6 +149,8 @@ FOR /D %%G IN ("*") DO (
         echo. >> %patchesdir%\Patch-%%~nxG.sql
 
         echo. >> %patchesdir%\Patch-%%~nxG.sql
+	
+	echo.
     )
 
     cd ..
