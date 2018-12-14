@@ -3,6 +3,7 @@
 #################
 Database/compiled/password.txt
 Database/compiled/*.sql
+Database/compiled/*.zip
 Database/Patches/*.sql
 
 
