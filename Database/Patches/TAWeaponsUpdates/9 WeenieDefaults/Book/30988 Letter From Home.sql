@@ -9,10 +9,10 @@ VALUES (30988, 001 /* NAME_STRING */, 'Letter From Home')
      , (30988, 016 /* LONG_DESC_STRING */, 'Double-click this note to read it.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30985, 001 /* SETUP_DID */, 33554773)
-     , (30985, 003 /* SOUND_TABLE_DID */, 536870932)
-     , (30985, 008 /* ICON_DID */, 100667503)
-     , (30985, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+VALUES (30988, 001 /* SETUP_DID */, 33554773)
+     , (30988, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (30988, 008 /* ICON_DID */, 100667503)
+     , (30988, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30988, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
