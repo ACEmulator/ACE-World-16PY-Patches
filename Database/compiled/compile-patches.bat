@@ -138,13 +138,15 @@ FOR /D %%G IN ("*") DO (
             echo. >> %patchesdir%\Patch-%%~nxG.sql
         )
         
-        echo Compiling misc scripts... No output will be displayed except if error occurs.
-        FOR %%H in (.) DO (
-            Pushd %%H
-            REM Echo now in %%H
-            copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
-            echo. >> %patchesdir%\Patch-%%~nxG.sql
-            Popd 
+        IF EXIST "*.sql" (
+            echo Compiling misc scripts... No output will be displayed except if error occurs.
+            FOR %%H in (.) DO (
+                Pushd %%H
+                REM Echo now in %%H
+                copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
+                echo. >> %patchesdir%\Patch-%%~nxG.sql
+                Popd 
+            )
         )
         echo. >> %patchesdir%\Patch-%%~nxG.sql
 
