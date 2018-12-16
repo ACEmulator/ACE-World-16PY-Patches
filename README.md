@@ -1,9 +1,9 @@
-# ACE-World-16PY Patches - World Database Patches for ACEmulator
+# ACE-World-16PY Patches - Complete World Database (ACE-World-16PY + ACE-World-16PY-Patches) for ACEmulator
 Content beyond Coldeve, 16 P.Y. - Infiltration - February 2005
 
-**ACE-World-16PY is the World Database for ACEmulator, an emulator of the Asheron's Call game server**
+**ACE-World-16PY-Patches is the World Database for ACEmulator, an emulator of the Asheron's Call game server**
  * MySQL and MariaDB are used as the database engine.
- * Currently intended for developers that wish to contribute to the ACEmulator project.
+ * Developement of world data, post Febuary 2005 is ongoing.
  
 ***
 ## Recommended Tools
@@ -11,8 +11,10 @@ Content beyond Coldeve, 16 P.Y. - Infiltration - February 2005
 
 ## Getting Started
 
-* Before using database patches in this repository, the main 16PY World Database must be imported first.
-* Import the desired SQL files from the Combined folder into your SQL server.
+* Click [here](https://github.com/ACEmulator/ACE-World-16PY-Patches/releases/latest) to download the [latest release](https://github.com/ACEmulator/ACE-World-16PY-Patches/releases/latest) of the database.
+* Extract the zip file.
+* Import the extracted SQL file into your SQL server.
+* Return to ACEmulator Github for additional instructions.
 
 ## Contributions
 
