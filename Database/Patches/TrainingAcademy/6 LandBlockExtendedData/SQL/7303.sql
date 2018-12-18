@@ -101,10 +101,6 @@ VALUES (1999646807,  5106, 1929577070, 65.799, -33.88, 0, 0, 0, 0, -1, False); /
 /* @teleloc 0x7303026E [65.799000 -33.880000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
-VALUES (1999646808, 31061, 1929577075, 70, -40, -0.06299996, 1, 0, 0, 0, False); /* Central Courtyard */
-/* @teleloc 0x73030273 [70.000000 -40.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
 VALUES (1999646809, 30997, 1929577080, 70.8626, -87.907, 0.004999995, -0.4205539, 0, 0, -0.9072676, False); /* Academy Researcher */
 /* @teleloc 0x73030278 [70.862600 -87.907000 0.005000] -0.420554 0.000000 0.000000 -0.907268 */
 
@@ -127,10 +123,6 @@ VALUES (1999646821,  8377, 1929577259, 73.3792, -72.9959, 12.793, 0.285455, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
 VALUES (1999646825, 30989, 1929577264, 83.4454, -73.52, 12, 0.3778579, 0, 0, -0.9258636, False); /* Treasure Chest */
 /* @teleloc 0x73030330 [83.445400 -73.520000 12.000000] 0.377858 0.000000 0.000000 -0.925864 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
-VALUES (1999646826, 29334, 1929577265, 90, -60, 11.937, -0.7071068, 0, 0, -0.7071068, False); /* Outer Courtyard */
-/* @teleloc 0x73030331 [90.000000 -60.000000 11.937000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
 VALUES (1999646827,   568, 1929577267, 85.25, -60, 12, -0.707107, 0, 0, -0.707107, False); /* Door */
@@ -430,8 +422,7 @@ VALUES (1999646884, 1999646885) /* Leather Leggings */
      , (1999646884, 1999646890) /* Guide to Raising Skills and Attributes */
      , (1999646884, 1999646891) /* Tinkering */
      , (1999646884, 1999646892) /* Combat and Spellcasting Guide */
-     , (1999646884, 1999646893) /* Guide to Healing */
-     , (1999646884, 1999646894) /* Exit to Sanamar */;
+     , (1999646884, 1999646893) /* Guide to Healing */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
 VALUES (1999646885, 13241, 1929576886, 17.7939, -41.728, -0.002500013, -0.481744, 0, 0, -0.876312,  True); /* Leather Leggings */
@@ -468,7 +459,3 @@ VALUES (1999646892, 12761, 1929577020, 58.4045, -32.0273, 0.95454, 0.939346, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
 VALUES (1999646893, 12762, 1929577020, 58.8709, -32.4703, 0.95454, 0.939346, 0, 0, -0.342971,  True); /* Guide to Healing */
 /* @teleloc 0x7303023C [58.870900 -32.470300 0.954540] 0.939346 0.000000 0.000000 -0.342971 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
-VALUES (1999646894, 29339, 1929576809, 158.641, -149.516, -6.063, 1, 0, 0, 0,  True); /* Exit to Sanamar */
-/* @teleloc 0x73030169 [158.641000 -149.516000 -6.063000] 1.000000 0.000000 0.000000 0.000000 */
