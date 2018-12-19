@@ -37,6 +37,10 @@ VALUES (2019569677, 30989, 2248343891, 145.879, -145.579, -6, -0.7071068, 0, 0, 
 /* @teleloc 0x86030153 [145.879000 -145.579000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2019569679, 29338, 2248343913, 158.641, -149.516, -6.063, 0.7071068, 0, 0, -0.7071068, False); /* Exit to Holtburg */
+/* @teleloc 0x86030169 [158.641000 -149.516000 -6.063000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
 VALUES (2019569680,  4451, 2248343920, 160, -194.991, -6, 1, 0, 0, 0, False); /* Door */
 /* @teleloc 0x86030170 [160.000000 -194.991000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
@@ -101,6 +105,13 @@ VALUES (2019569745,  5106, 2248344174, 65.799, -33.88, 0, 0, 0, 0, -1, False); /
 /* @teleloc 0x8603026E [65.799000 -33.880000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2019569746, 31061, 2248344179, 70, -40, -0.06299996, 1, 0, 0, 0, False); /* Central Courtyard */
+/* @teleloc 0x86030273 [70.000000 -40.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2019569746, 2019569832) /* Portal Linkspot */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
 VALUES (2019569747, 30997, 2248344184, 70.8626, -87.907, 0.004999995, -0.4205539, 0, 0, -0.9072676, False); /* Academy Researcher */
 /* @teleloc 0x86030278 [70.862600 -87.907000 0.005000] -0.420554 0.000000 0.000000 -0.907268 */
 
@@ -127,6 +138,13 @@ VALUES (2019569760,  8377, 2248344363, 73.3792, -72.9959, 12.793, 0.285455, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
 VALUES (2019569764, 30989, 2248344368, 83.4454, -73.52, 12, 0.3778579, 0, 0, -0.9258636, False); /* Treasure Chest */
 /* @teleloc 0x86030330 [83.445400 -73.520000 12.000000] 0.377858 0.000000 0.000000 -0.925864 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2019569765, 29334, 2248344369, 90, -60, 11.937, -0.7071068, 0, 0, -0.7071068, False); /* Outer Courtyard */
+/* @teleloc 0x86030331 [90.000000 -60.000000 11.937000] -0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2019569765, 2019569833) /* Portal Linkspot */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
 VALUES (2019569766,   568, 2248344371, 85.25, -60, 12, -0.707107, 0, 0, -0.707107, False); /* Door */
@@ -459,3 +477,11 @@ VALUES (2019569830, 12761, 2248344124, 58.4045, -32.0273, 0.95454, 0.939346, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
 VALUES (2019569831, 12762, 2248344124, 58.8709, -32.4703, 0.95454, 0.939346, 0, 0, -0.342971,  True); /* Guide to Healing */
 /* @teleloc 0x8603023C [58.870900 -32.470300 0.954540] 0.939346 0.000000 0.000000 -0.342971 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2019569832, 10762, 2248344094, 50, -54, 0.004999995, 0.01, 0, 0, 0.9,  True); /* Portal Linkspot */
+/* @teleloc 0x8603021E [50.000000 -54.000000 0.005000] 0.010000 0.000000 0.000000 0.900000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2019569833, 10762, 2248344259, 119, -141, 0.004999995, 1, 0, 0, 0,  True); /* Portal Linkspot */
+/* @teleloc 0x860302C3 [119.000000 -141.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
