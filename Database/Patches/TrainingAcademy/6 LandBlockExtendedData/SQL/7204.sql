@@ -424,8 +424,8 @@ VALUES (1998602403, 30993, 1912865474, 123.67, -132.951, 0.004999995, -0.281821,
 /* @teleloc 0x720402C2 [123.670000 -132.951000 0.005000] -0.281821 0.000000 0.000000 -0.959467 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
-VALUES (1998602404, 15759, 1912865206, 17.7939, -41.728, -0.002500013, -0.481744, 0, 0, -0.876312, False); /* Linkable Item Generator */
-/* @teleloc 0x720401B6 [17.793900 -41.728000 -0.002500] -0.481744 0.000000 0.000000 -0.876312 */
+VALUES (1998602404, 15759, 1912865206, 17.7939, -41.728, 0.005, -0.481744, 0, 0, -0.876312, False); /* Linkable Item Generator */
+/* @teleloc 0x720401B6 [17.793900 -41.728000 0.005000] -0.481744 0.000000 0.000000 -0.876312 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
 VALUES (1998602404, 1998602405) /* Leather Leggings */
@@ -480,8 +480,8 @@ VALUES (1998602414, 29339, 1912865129, 158.641, -149.516, -6.063, 1, 0, 0, 0,  T
 /* @teleloc 0x72040169 [158.641000 -149.516000 -6.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
-VALUES (1998602415, 10762, 1912865310, 50, -54, 0.004999995, 0.01, 0, 0, 0.9,  True); /* Portal Linkspot */
-/* @teleloc 0x7204021E [50.000000 -54.000000 0.005000] 0.010000 0.000000 0.000000 0.900000 */
+VALUES (1998602415, 10762, 1912865310, 50, -54, 1, 0.01, 0, 0, -1,  True); /* Portal Linkspot */
+/* @teleloc 0x7204021E [50.000000 -54.000000 1.000000] 0.010000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
 VALUES (1998602416, 10762, 1912865475, 119, -141, 0.004999995, 1, 0, 0, 0,  True); /* Portal Linkspot */
