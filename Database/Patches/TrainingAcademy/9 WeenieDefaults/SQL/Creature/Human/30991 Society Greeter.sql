@@ -1,90 +1,72 @@
-/* Weenie - Society Greeter (30991) */
-DELETE FROM weenie WHERE class_Id = 30991;
+DELETE FROM `weenie` WHERE `class_Id` = 30991;
 
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30991, 'academygreeter', 10 /* Creature_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30991, 001 /* NAME_STRING */, 'Society Greeter')
-     , (30991, 003 /* SEX_STRING */, 'Female')
-     , (30991, 004 /* HERITAGE_GROUP_STRING */, 'Gharu''ndim')
-     , (30991, 005 /* TEMPLATE_STRING */, 'Exploration Society Agent');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30991, 001 /* SETUP_DID */, 33554510)
-     , (30991, 002 /* MOTION_TABLE_DID */, 150994945)
-     , (30991, 003 /* SOUND_TABLE_DID */, 536870914)
-     , (30991, 004 /* COMBAT_TABLE_DID */, 805306368)
-     , (30991, 006 /* PALETTE_BASE_DID */, 67108990)
-     , (30991, 008 /* ICON_DID */, 100667446);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (30991, 'academygreeter', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30991, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
-     , (30991, 002 /* CREATURE_TYPE_INT */, 31 /* Human_CreatureType */)
-     , (30991, 003 /* PALETTE_TEMPLATE_INT */, 9 /* GREY_PALETTE_TEMPLATE */)
-     , (30991, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (30991, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (30991, 008 /* MASS_INT */, 120)
-     , (30991, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
-     , (30991, 025 /* LEVEL_INT */, 10)
-     , (30991, 027 /* ARMOR_TYPE_INT */, 0)
-     , (30991, 093 /* PHYSICS_STATE_INT */, 6292504 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS, EDGE_SLIDE_PS */)
-     , (30991, 095 /* RADARBLIP_COLOR_INT */, 8 /* Yellow */)
-     , (30991, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
-     , (30991, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
-     , (30991, 146 /* XP_OVERRIDE_INT */, 161);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30991, 003 /* HEALTH_RATE_FLOAT */, 0.16)
-     , (30991, 004 /* STAMINA_RATE_FLOAT */, 5)
-     , (30991, 005 /* MANA_RATE_FLOAT */, 1)
-     , (30991, 012 /* SHADE_FLOAT */, 1)
-     , (30991, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.9)
-     , (30991, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
-     , (30991, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.1)
-     , (30991, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
-     , (30991, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
-     , (30991, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
-     , (30991, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
-     , (30991, 054 /* USE_RADIUS_FLOAT */, 3)
-     , (30991, 064 /* RESIST_SLASH_FLOAT */, 1)
-     , (30991, 065 /* RESIST_PIERCE_FLOAT */, 1)
-     , (30991, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
-     , (30991, 067 /* RESIST_FIRE_FLOAT */, 1)
-     , (30991, 068 /* RESIST_COLD_FLOAT */, 1)
-     , (30991, 069 /* RESIST_ACID_FLOAT */, 1)
-     , (30991, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
-     , (30991, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
-     , (30991, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
-     , (30991, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
-     , (30991, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
-     , (30991, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
-     , (30991, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
-     , (30991, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
+VALUES (30991,   1,         16) /* ItemType - Creature */
+     , (30991,   2,         31) /* CreatureType - Human */
+     , (30991,   6,        255) /* ItemsCapacity */
+     , (30991,   7,        255) /* ContainersCapacity */
+     , (30991,  16,         32) /* ItemUseable - Remote */
+     , (30991,  25,         15) /* Level */
+     , (30991,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (30991,  95,          8) /* RadarBlipColor - Yellow */
+     , (30991, 113,          2) /* Gender - Female */
+     , (30991, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (30991, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (30991, 188,          3) /* HeritageGroup - Sho */
+     , (30991, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30991, 001 /* STUCK_BOOL */, True)
-     , (30991, 008 /* ALLOW_GIVE_BOOL */, True)
-     , (30991, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (30991, 013 /* ETHEREAL_BOOL */, False)
-     , (30991, 019 /* ATTACKABLE_BOOL */, False)
-     , (30991, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True)
-     , (30991, 042 /* ALLOW_EDGE_SLIDE_BOOL */, True)
-     , (30991, 052 /* AI_IMMOBILE_BOOL */, True);
+VALUES (30991,   1, True ) /* Stuck */
+     , (30991,   8, True ) /* AllowGive */
+     , (30991,  11, True ) /* IgnoreCollisions */
+     , (30991,  12, True ) /* ReportCollisions */
+     , (30991,  13, False) /* Ethereal */
+     , (30991,  14, True ) /* GravityStatus */
+     , (30991,  19, False) /* Attackable */
+     , (30991,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (30991,  42, True ) /* AllowEdgeSlide */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30991,  54,       3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30991,   1, 'Society Greeter') /* Name */
+     , (30991,   5, 'Exploration Society Agent') /* Template */
+     , (30991, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30991,   1,   33554510) /* Setup */
+     , (30991,   2,  150994945) /* MotionTable */
+     , (30991,   3,  536870914) /* SoundTable */
+     , (30991,   6,   67108990) /* PaletteBase */
+     , (30991,   8,  100667446) /* Icon */
+     , (30991, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
+     , (30991, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
+     , (30991, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (30991, 8040, 2248343981, 9.83607, -31.7347, 0.004999995, 0.925211, 0, 0, -0.379454) /* PCAPRecordedLocation */
+/* @teleloc 0x860301AD [9.836070 -31.734700 0.005000] 0.925211 0.000000 0.000000 -0.379454 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (30991, 8000, 3692779621) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (30991, 1, 60, 0, 0) /* STRENGTH_ATTRIBUTE */
-     , (30991, 2, 70, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (30991, 3, 80, 0, 0) /* QUICKNESS_ATTRIBUTE */
-     , (30991, 4, 50, 0, 0) /* COORDINATION_ATTRIBUTE */
-     , (30991, 5, 120, 0, 0) /* FOCUS_ATTRIBUTE */
-     , (30991, 6, 130, 0, 0) /* SELF_ATTRIBUTE */;
+VALUES (30991,   1,  65, 0, 0) /* Strength */
+     , (30991,   2,  85, 0, 0) /* Endurance */
+     , (30991,   3,  95, 0, 0) /* Quickness */
+     , (30991,   4,  45, 0, 0) /* Coordination */
+     , (30991,   5,  85, 0, 0) /* Focus */
+     , (30991,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30991, 1, 10, 0, 0, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (30991, 3, 10, 0, 0, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (30991, 5, 10, 0, 0, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
-
+VALUES (30991,   1,    10, 0, 0, 53) /* MaxHealth */
+     , (30991,   3,    10, 0, 0, 95) /* MaxStamina */
+     , (30991,   5,    10, 0, 0, 95) /* MaxMana */;
+     
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30991, 2, 12309, 0, 88, 0.0179, False) /* Create Society Explorer Hat for Wield_DestinationType */
      , (30991, 2, 12310, 0, 88, 0, False) /* Create Explorer Society Robe for Wield_DestinationType */;
