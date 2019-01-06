@@ -277,6 +277,13 @@ VALUES (2498, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe (591
      , (2498, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (2498, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
      , (2498, 4,  5539, -1, 0, 0, False) /* Create Wand (5539) for Shop */
+     , (2498, 4,  6322, -1, 0, 0, False) /* Create Axe Glyph (6322) for Shop */
+     , (2498, 4,  6323, -1, 0, 0, False) /* Create Claw Glyph (6323) for Shop */
+     , (2498, 4,  6324, -1, 0, 0, False) /* Create Dagger Glyph (6324) for Shop */
+     , (2498, 4,  6325, -1, 0, 0, False) /* Create Mace Glyph (6325) for Shop */
+     , (2498, 4,  6326, -1, 0, 0, False) /* Create Spear Glyph (6326) for Shop */
+     , (2498, 4,  6327, -1, 0, 0, False) /* Create Staff Glyph (6327) for Shop */
+     , (2498, 4,  6328, -1, 0, 0, False) /* Create Sword Glyph (6328) for Shop */
      , (2498, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
      , (2498, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
      , (2498, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
@@ -295,5 +302,8 @@ VALUES (2498, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe (591
      , (2498, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (2498, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
      , (2498, 4, 21346, -1, 0, 0, False) /* Create Fletching Tool Glyph (21346) for Shop */
+     , (2498, 4, 21972, -1, 0, 0, False) /* Create Atlatl Glyph (21972) for Shop */
+     , (2498, 4, 21973, -1, 0, 0, False) /* Create Bow Glyph (21973) for Shop */
+     , (2498, 4, 21974, -1, 0, 0, False) /* Create Crossbow Glyph (21974) for Shop */
      , (2498, 4, 27330, -1, 0, 0, False) /* Create Moderate Mana Stone (27330) for Shop */
      , (2498, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */;
