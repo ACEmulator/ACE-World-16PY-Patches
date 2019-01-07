@@ -1,0 +1,79 @@
+--
+-- Current Database: `ace_world`
+--
+
+USE `ace_world`;
+
+/* Weenie - MeleeWeapons - Major Smoldering Atlan Mace (46076) */
+DELETE FROM weenie WHERE class_Id = 46076;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (46076, 'majorsmolderingatlanmace', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (46076,   1,          1) /* ItemType - MeleeWeapon */
+     , (46076,   3,         14) /* PaletteTemplate - Red */
+     , (46076,   5,        600) /* EncumbranceVal */
+     , (46076,   8,        700) /* Mass */
+     , (46076,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (46076,  16,          1) /* ItemUseable - No */
+     , (46076,  18,          1) /* UiEffects - Magical */
+     , (46076,  19,       5000) /* Value */
+     , (46076,  33,          1) /* Bonded - Bonded */
+     , (46076,  44,         47) /* Damage */
+     , (46076,  45,         16) /* DamageType - Fire */
+     , (46076,  46,          2) /* DefaultCombatStyle - OneHanded */
+     , (46076,  47,          4) /* AttackType - Slash */
+     , (46076,  48,         45) /* WeaponSkill - Light */
+     , (46076,  49,         35) /* WeaponTime */
+     , (46076,  51,          1) /* CombatUse - Melee */
+     , (46076,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (46076, 106,        300) /* ItemSpellcraft */
+     , (46076, 107,        750) /* ItemCurMana */
+     , (46076, 108,        750) /* ItemMaxMana */
+     , (46076, 109,        170) /* ItemDifficulty */
+     , (46076, 114,          1) /* Attuned */
+     , (46076, 115,        200) /* ItemSkillLevelLimit */
+     , (46076, 150,        103) /* HookPlacement - Hook */
+     , (46076, 151,          2) /* HookType - Wall */
+     , (46076, 158,          2) /* WieldRequirements - Skill */
+     , (46076, 159,         45) /* WieldSkilltype - Light Weapons */
+     , (46076, 160,        350) /* WieldDifficulty */
+     , (46076, 263,         16) /* ResistanceModifierType - Fire */
+	 , (46076, 353,          4) /* WeaponType - Mace */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (46076,  22, True ) /* Inscribable */
+     , (46076,  23, True ) /* DestroyOnSell */
+     , (46076,  69, False) /* IsSellable */
+     , (46076,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (46076,   5,  -0.033) /* ManaRate */
+     , (46076,  21,    0.75) /* WeaponLength */
+     , (46076,  22,    0.45) /* DamageVariance */
+     , (46076,  29,    1.10) /* WeaponDefense */
+     , (46076,  39,       1) /* DefaultScale */
+     , (46076,  62,    1.10) /* WeaponOffense */
+     , (46076, 157,       1) /* ResistanceModifier */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (46076,   1, 'Major Smoldering Atlan Mace') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (46076,   1,   33556365) /* Setup */
+     , (46076,   3,  536870932) /* SoundTable */
+     , (46076,   6,   67111919) /* PaletteBase */
+     , (46076,   7,  268435944) /* ClothingBase */
+     , (46076,   8,  100670545) /* Icon */
+     , (46076,  22,  872415275) /* PhysicsEffectTable */
+     , (46076,  37,          5) /* ItemSkillLimit */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (46076,  2157,      2)  /* Fiery Blessing */
+     , (46076,  2504,      2)  /* Major Light Weapons Aptitude */
+     , (46076,  2087,      2)  /* Might of the Lugians */
+     , (46076,  2116,      2)  /* Aura of Atlan's Alacrity */
+     , (46076,  2101,      2)  /* Aura of Cragstone's Will */
+     , (46076,  2096,      2)  /* Aura of Infected Caress */
+     , (46076,  2106,      2)  /* Aura of Elysa's Sight */;
