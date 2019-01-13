@@ -1,0 +1,55 @@
+Added all Epic Cantrips except Legacy Weapon-Skill Epics & Newer Epics (Recklessness, Dual Wield, etc)...full list below:
+
+Epic Acid Bane
+Epic Acid Ward
+Epic Alchemical Prowess
+Epic Arcane Prowess
+Epic Armor
+Epic Armor Tinkering Expertise
+Epic Blood Thirst
+Epic Bludgeoning Bane
+Epic Bludgeoning Ward
+Epic Cooking Prowess
+Epic Coordination
+Epic Creature Enchantment Aptitude
+Epic Defender
+Epic Endurance
+Epic Fealty
+Epic Flame Bane
+Epic Flame Ward
+Epic Fletching Prowess
+Epic Focus
+Epic Frost Bane
+Epic Frost Ward
+Epic Healing Prowess
+Epic Health Gain
+Epic Heart Thirst
+Epic Hermetic Link
+Epic Impenetrability
+Epic Impregnability
+Epic Invulnerability
+Epic Item Enchantment Apt
+Epic Item Tink Exp
+Epic Jump Pro
+Epic Leader
+Epic Life Mag
+Epic Lockpick
+Epic Magic Item Tink
+Epic MagResi
+Epic Mana Conv
+Epic Mana Gain
+Epic Pierce Bane
+Epic Pierce Ward
+Epic Quickness
+Epic Slash Bane
+Epic Slash Ward
+Epic Spirit Thirst
+Epic Sprint
+Epic Stam Gain
+Epic Storm bane
+Epic Storm Ward
+Epic Strength
+Epic Swift Hunter
+Epic War Magic
+Epic Wep Tinkering
+Epic Willpower
