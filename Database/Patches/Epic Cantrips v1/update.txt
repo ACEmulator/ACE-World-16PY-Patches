@@ -1,3 +1,5 @@
+13 JAN 2019 -- Fixed Epic Sprint Cantrip, Stat Mod Key was 15, should be 24
+
 Added all Epic Cantrips except Legacy Weapon-Skill Epics & Newer Epics (Recklessness, Dual Wield, etc)...full list below:
 
 Epic Acid Bane
