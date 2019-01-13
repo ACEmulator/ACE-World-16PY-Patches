@@ -12,7 +12,7 @@ VALUES (46071, 'atlanmace', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46071,   1,          1) /* ItemType - MeleeWeapon */
-     , (46071,   3,         20) /* PaletteTemplate - Silver */
+     , (46071,   3,         61) /* PaletteTemplate - White */
      , (46071,   5,        600) /* EncumbranceVal */
      , (46071,   8,        700) /* Mass */
      , (46071,   9,    1048576) /* ValidLocations - MeleeWeapon */
@@ -51,7 +51,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46071,   1,   33556259) /* Setup */
      , (46071,   3,  536870932) /* SoundTable */
      , (46071,   6,   67111919) /* PaletteBase */
-     , (46071,   7,  268435944) /* ClothingBase */
+     , (46071,   7,  268435878) /* ClothingBase */
      , (46071,   8,  100670539) /* Icon */
      , (46071,  22,  872415275) /* PhysicsEffectTable */
      , (46071,  37,          5) /* ItemSkillLimit */;

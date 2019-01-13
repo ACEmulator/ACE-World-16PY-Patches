@@ -20,6 +20,7 @@ VALUES (46134,   1,      32768) /* ItemType - Caster */
      , (46134,  18,          1) /* UiEffects - Magical */
      , (46134,  19,       8000) /* Value */
      , (46134,  33,          1) /* Bonded - Bonded */
+	 , (46134,  45,         32) /* DamageType - Acid */
      , (46134,  46,        512) /* DefaultCombatStyle - Magic */
      , (46134,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46134,  94,         16) /* TargetType - Creature */
@@ -46,6 +47,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46134,   5,  -0.025) /* ManaRate */
      , (46134,  29,    1.10) /* WeaponDefense */
      , (46134, 144,    0.04) /* ManaConversionMod */
+	 , (46134, 152,    1.12) /* ElementalDamageMod */
      , (46134, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -53,7 +55,7 @@ VALUES (46134,   1, 'Minor Stinging Atlan Wand') /* Name */
      , (46134,  16, 'This weapon seems tough to master.') /* LongDescription */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46134,   1,   33557784) /* Setup */
+VALUES (46134,   1,   33557783) /* Setup */
      , (46134,   3,  536870932) /* SoundTable */
      , (46134,   6,   67111919) /* PaletteBase */
      , (46134,   7,  268436395) /* ClothingBase */

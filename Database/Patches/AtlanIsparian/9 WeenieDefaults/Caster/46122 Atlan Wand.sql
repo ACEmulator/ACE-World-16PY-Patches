@@ -12,7 +12,7 @@ VALUES (46122, 'atlanwand', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46122,   1,      32768) /* ItemType - Caster */
-     , (46122,   3,         20) /* PaletteTemplate - Silver */
+     , (46122,   3,         61) /* PaletteTemplate - White */
      , (46122,   5,        150) /* EncumbranceVal */
      , (46122,   8,         10) /* Mass */
      , (46122,   9,   16777216) /* ValidLocations - Held */
@@ -42,5 +42,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46122,   1,   33557782) /* Setup */
      , (46122,   3,  536870932) /* SoundTable */
      , (46122,   6,   67111919) /* PaletteBase */
+	 , (46122,   7,  268436395) /* ClothingBase */
      , (46122,   8,  100672989) /* Icon */
      , (46122,  22,  872415275) /* PhysicsEffectTable */;

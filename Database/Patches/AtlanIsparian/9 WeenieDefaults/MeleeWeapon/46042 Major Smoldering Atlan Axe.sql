@@ -64,7 +64,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46042,   1,   33556353) /* Setup */
      , (46042,   3,  536870932) /* SoundTable */
      , (46042,   6,   67111919) /* PaletteBase */
-     , (46042,   7,  268435932) /* ClothingBase */
+     , (46042,   7,  268435875) /* ClothingBase */
      , (46042,   8,  100670515) /* Icon */
      , (46042,  22,  872415275) /* PhysicsEffectTable */
      , (46042,  37,          1) /* ItemSkillLimit */;

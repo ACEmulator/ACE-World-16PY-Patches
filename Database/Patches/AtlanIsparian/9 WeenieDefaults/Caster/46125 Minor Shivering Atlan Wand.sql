@@ -20,6 +20,7 @@ VALUES (46125,   1,      32768) /* ItemType - Caster */
      , (46125,  18,          1) /* UiEffects - Magical */
      , (46125,  19,       8000) /* Value */
      , (46125,  33,          1) /* Bonded - Bonded */
+     , (46125,  45,          8) /* DamageType - Cold */
      , (46125,  46,        512) /* DefaultCombatStyle - Magic */
      , (46125,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46125,  94,         16) /* TargetType - Creature */
@@ -46,6 +47,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46125,   5,  -0.025) /* ManaRate */
      , (46125,  29,    1.10) /* WeaponDefense */
      , (46125, 144,    0.04) /* ManaConversionMod */
+     , (46125, 152,    1.12) /* ElementalDamageMod */
      , (46125, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -53,7 +55,7 @@ VALUES (46125,   1, 'Minor Shivering Atlan Wand') /* Name */
      , (46125,  16, 'This weapon seems tough to master.') /* LongDescription */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46125,   1,   33557782) /* Setup */
+VALUES (46125,   1,   33557781) /* Setup */
      , (46125,   3,  536870932) /* SoundTable */
      , (46125,   6,   67111919) /* PaletteBase */
      , (46125,   7,  268436395) /* ClothingBase */

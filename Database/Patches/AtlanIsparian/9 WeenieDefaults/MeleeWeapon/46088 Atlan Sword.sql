@@ -12,7 +12,7 @@ VALUES (46088, 'atlansword', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46088,   1,          1) /* ItemType - MeleeWeapon */
-     , (46088,   3,         20) /* PaletteTemplate - Silver */
+     , (46088,   3,         61) /* PaletteTemplate - White */
      , (46088,   5,        450) /* EncumbranceVal */
      , (46088,   8,        500) /* Mass */
      , (46088,   9,    1048576) /* ValidLocations - MeleeWeapon */
@@ -51,7 +51,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46088,   1,   33556262) /* Setup */
      , (46088,   3,  536870932) /* SoundTable */
      , (46088,   6,   67111919) /* PaletteBase */
-     , (46088,   7,  268435956) /* ClothingBase */
+     , (46088,   7,  268435955) /* ClothingBase */
      , (46088,   8,  100670569) /* Icon */
      , (46088,  22,  872415275) /* PhysicsEffectTable */
      , (46088,  37,         11) /* ItemSkillLimit */;

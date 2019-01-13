@@ -62,11 +62,11 @@ VALUES (46091,   1, 'Minor Shivering Atlan Sword') /* Name */
      , (46091,  16, 'This weapon seems tough to master.') /* LongDescription */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46091,   1,   33556377) /* Setup */
+VALUES (46091,   1,   33556385) /* Setup */
      , (46091,   3,  536870932) /* SoundTable */
      , (46091,   6,   67111919) /* PaletteBase */
      , (46091,   7,  268435956) /* ClothingBase */
-     , (46091,   8,  100670575) /* Icon */
+     , (46091,   8,  100670568) /* Icon */
      , (46091,  22,  872415275) /* PhysicsEffectTable */
      , (46091,  37,         11) /* ItemSkillLimit */;
 

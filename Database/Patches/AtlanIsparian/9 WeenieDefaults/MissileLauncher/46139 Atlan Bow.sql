@@ -12,7 +12,7 @@ VALUES (46139, 'atlanbow', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46139,   1,        256) /* ItemType - MissileWeapon */
-     , (46139,   3,         20) /* PaletteTemplate - Silver */
+     , (46139,   3,         61) /* PaletteTemplate - White */
      , (46139,   5,        980) /* EncumbranceVal */
      , (46139,   8,        700) /* Mass */
      , (46139,   9,    4194304) /* ValidLocations - MissileWeapon */
