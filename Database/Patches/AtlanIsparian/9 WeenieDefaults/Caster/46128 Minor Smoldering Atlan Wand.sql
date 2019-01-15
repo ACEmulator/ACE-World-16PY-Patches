@@ -20,6 +20,7 @@ VALUES (46128,   1,      32768) /* ItemType - Caster */
      , (46128,  18,          1) /* UiEffects - Magical */
      , (46128,  19,       8000) /* Value */
      , (46128,  33,          1) /* Bonded - Bonded */
+     , (46128,  45,         16) /* DamageType - Fire */
      , (46128,  46,        512) /* DefaultCombatStyle - Magic */
      , (46128,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46128,  94,         16) /* TargetType - Creature */
@@ -46,6 +47,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46128,   5,  -0.025) /* ManaRate */
      , (46128,  29,    1.10) /* WeaponDefense */
      , (46128, 144,    0.04) /* ManaConversionMod */
+	 , (46128, 152,    1.12) /* ElementalDamageMod */
      , (46128, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -53,7 +55,7 @@ VALUES (46128,   1, 'Minor Smoldering Atlan Wand') /* Name */
      , (46128,  16, 'This weapon seems tough to master.') /* LongDescription */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46128,   1,   33557789) /* Setup */
+VALUES (46128,   1,   33557788) /* Setup */
      , (46128,   3,  536870932) /* SoundTable */
      , (46128,   6,   67111919) /* PaletteBase */
      , (46128,   7,  268436395) /* ClothingBase */

@@ -12,7 +12,7 @@ VALUES (46062, 'majorsparkingatlanbow', 3) /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46062,   1,        256) /* ItemType - MissileWeapon */
-     , (46062,   3,         13) /* PaletteTemplate - Purple */
+     , (46062,   3,         82) /* PaletteTemplate - PinkPurple */
      , (46062,   5,        980) /* EncumbranceVal */
      , (46062,   8,        700) /* Mass */
      , (46062,   9,    4194304) /* ValidLocations - MissileWeapon */

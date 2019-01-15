@@ -12,7 +12,7 @@ VALUES (46105, 'atlantwohandedsword', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46105,   1,          1) /* ItemType - MeleeWeapon */
-     , (46105,   3,         20) /* PaletteTemplate - Silver */
+     , (46105,   3,         61) /* PaletteTemplate - White */
      , (46105,   5,        700) /* EncumbranceVal */
      , (46105,   8,        500) /* Mass */
      , (46105,   9,    1048576) /* ValidLocations - MeleeWeapon */
@@ -53,7 +53,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46105,   1,   33556262) /* Setup */
      , (46105,   3,  536870932) /* SoundTable */
      , (46105,   6,   67111919) /* PaletteBase */
-     , (46105,   7,  268435956) /* ClothingBase */
+     , (46105,   7,  268435955) /* ClothingBase */
      , (46105,   8,  100692937) /* Icon */
      , (46105,  22,  872415275) /* PhysicsEffectTable */
      , (46105,  37,         11) /* ItemSkillLimit */;

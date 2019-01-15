@@ -62,11 +62,11 @@ VALUES (46089,   1, 'Blackfire Shivering Atlan Sword') /* Name */
      , (46089,  16, 'This weapon seems tough to master.') /* LongDescription */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46089,   1,   33556377) /* Setup */
+VALUES (46089,   1,   33556385) /* Setup */
      , (46089,   3,  536870932) /* SoundTable */
      , (46089,   6,   67111919) /* PaletteBase */
-     , (46089,   7,  268435956) /* ClothingBase */
-     , (46089,   8,  100670575) /* Icon */
+     , (46089,   7,  268435955) /* ClothingBase */
+     , (46089,   8,  100670568) /* Icon */
      , (46089,  22,  872415275) /* PhysicsEffectTable */
      , (46089,  37,         11) /* ItemSkillLimit */;
 

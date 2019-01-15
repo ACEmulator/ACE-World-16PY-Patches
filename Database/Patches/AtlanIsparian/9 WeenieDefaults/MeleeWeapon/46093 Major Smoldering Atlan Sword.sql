@@ -58,7 +58,8 @@ VALUES (46093,   5,  -0.025) /* ManaRate */
      , (46093, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46093,   1, 'Major Smoldering Atlan Sword') /* Name */;
+VALUES (46093,   1, 'Major Smoldering Atlan Sword') /* Name */
+     , (46093,  16, 'This weapon seems tough to master.') /* LongDescription */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46093,   1,   33556377) /* Setup */

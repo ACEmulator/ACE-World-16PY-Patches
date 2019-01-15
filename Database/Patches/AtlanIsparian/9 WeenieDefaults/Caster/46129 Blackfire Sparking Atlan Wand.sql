@@ -12,7 +12,7 @@ VALUES (46129, 'blackfiresparkingatlanwand', 35) /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46129,   1,      32768) /* ItemType - Caster */
-     , (46129,   3,         13) /* PaletteTemplate - Purple */
+     , (46129,   3,         82) /* PaletteTemplate - PinkPurple */
      , (46129,   5,        150) /* EncumbranceVal */
      , (46129,   8,         10) /* Mass */
      , (46129,   9,   16777216) /* ValidLocations - Held */
