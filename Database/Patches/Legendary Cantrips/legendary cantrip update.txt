@@ -1,0 +1,3 @@
+Adds all Legendaries
+
+The Consolidated Skills (Finesse/Light/Heavy/etc) are in the All Consolidated Cantrips SQL Patch
