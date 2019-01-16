@@ -1,0 +1,10 @@
+Adds the follow Minor, Moderate, Major, Epic and, Legendary Cantrips for Consolidated Skills:
+Finesse Weapon Aptitude
+Light Weapon Aptitude
+Heavy Weapon Aptitude
+Two Handed Combat Aptitude
+Missile Weapon Aptitude
+Dirty Fighting Prowess
+Dual Wield Aptitude
+Sneak Attack Prowess
+Void Magic Aptitude
