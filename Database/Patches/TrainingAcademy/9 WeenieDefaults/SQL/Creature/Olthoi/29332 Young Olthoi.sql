@@ -1,9 +1,3 @@
---
---Current Database: `ace_world`
---
-
-USE `ace_world`;
-
 /* Weenie - Young Olthoi (29332) */
 DELETE FROM `weenie` WHERE `class_Id` = 29332;
 

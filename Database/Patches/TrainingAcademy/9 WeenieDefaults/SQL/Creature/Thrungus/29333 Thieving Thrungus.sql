@@ -1,9 +1,3 @@
---
---Current Database: `ace_world`
---
-
-USE `ace_world`;
-
 /* Weenie - Thieving Thrungus (29333) */
 DELETE FROM `weenie` WHERE `class_Id` = 29333;
 
