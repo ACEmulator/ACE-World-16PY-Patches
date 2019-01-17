@@ -16,7 +16,7 @@ VALUES (30991,   1,         16) /* ItemType - Creature */
      , (30991, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30991, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (30991, 188,          3) /* HeritageGroup - Sho */
-     , (30991, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30991, 8007,         0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30991,   1, True ) /* Stuck */
