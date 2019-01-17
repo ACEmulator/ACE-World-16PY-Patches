@@ -1,9 +1,3 @@
---
---Current Database: `ace_world`
---
-
-USE `ace_world`;
-
 /* Weenie - Pathwarden Diforsa Hauberk (33600) */
 DELETE FROM `weenie` WHERE `class_Id` = 33600;
 

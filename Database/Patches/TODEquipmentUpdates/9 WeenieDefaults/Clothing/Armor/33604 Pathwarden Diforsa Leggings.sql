@@ -1,9 +1,3 @@
---
---Current Database: `ace_world`
---
-
-USE `ace_world`;
-
 /* Weenie - Pathwarden Diforsa Leggings (33604) */
 DELETE FROM `weenie` WHERE `class_Id` = 33604;
 

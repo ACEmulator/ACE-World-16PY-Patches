@@ -1,9 +1,3 @@
---
---Current Database: `ace_world`
---
-
-USE `ace_world`;
-
 /* Weenie - Pathwarden Plate Leggings (33601) */
 DELETE FROM `weenie` WHERE `class_Id` = 33601;
 

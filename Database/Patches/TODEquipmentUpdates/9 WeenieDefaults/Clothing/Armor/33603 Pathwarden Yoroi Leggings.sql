@@ -1,9 +1,3 @@
---
---Current Database: `ace_world`
---
-
-USE `ace_world`;
-
 /* Weenie - Pathwarden Yoroi Leggings (33603) */
 DELETE FROM `weenie` WHERE `class_Id` = 33603;
 

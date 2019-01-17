@@ -1,9 +1,3 @@
---
---Current Database: `ace_world`
---
-
-USE `ace_world`;
-
 /* Weenie - Pathwarden Robe (40454) */
 DELETE FROM `weenie` WHERE `class_Id` = 40454;
 
