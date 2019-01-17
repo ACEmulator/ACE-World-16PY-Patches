@@ -34,7 +34,7 @@ VALUES (33611,  11,       1) /* ResetInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33611,   1, 'Sho Pathwarden Chest') /* Name */
-     , (33612,  12, 'pathwardenchestkey') /* LockCode */
+     , (33611,  12, 'pathwardenchestkey') /* LockCode */
      , (33611,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
