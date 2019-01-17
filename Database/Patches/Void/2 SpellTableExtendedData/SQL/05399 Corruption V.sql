@@ -1,4 +1,4 @@
-DELETE FROM `spell` WHERE `spell_Id` = 5399;
+DELETE FROM `spell` WHERE `id` = 5399;
 
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`, `e_Type`, `base_Intensity`, `variance`, `wcid`, `num_Projectiles`, `spread_Angle`)
 VALUES (5399, 'Corruption V', 36868 /* Int, SingleStat, Additive */, 330 /* NetherOverTime */, 189, 1024, 189, 0, 43344, 3, 90);
