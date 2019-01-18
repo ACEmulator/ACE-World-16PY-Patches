@@ -1,4 +1,4 @@
 DELETE FROM `spell` WHERE `id` = 5353;
 
-INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`, `e_Type`, `base_Intensity`, `variance`, `wcid`, `num_Projectiles`, `spread_Angle`)
-VALUES (5353, 'Nether Bolt V', 0 /* Undef */, 0, 0, 1024, 84, 94, 43230, 1, 0);
+INSERT INTO `spell` (`id`, `name`, `e_Type`, `base_Intensity`, `variance`, `wcid`, `num_Projectiles`, `spread_Angle`)
+VALUES (5353, 'Nether Bolt V', 1024 /* Nether */, 84, 94, 43230 /* Nether Bolt */, 1, 0);
