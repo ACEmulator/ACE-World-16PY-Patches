@@ -1,1 +1,1 @@
-https://ci.appveyor.com/api/buildjobs/nu6w39kmn3rl6ysa/artifacts/ACE-World-16PY-db-v0.7.1-uyyjqblw.sql.zip
+https://ci.appveyor.com/api/buildjobs/9218sjyscxsye84t/artifacts/ACE-World-16PY-db-v0.7.1-cpguhewh.sql.zip
