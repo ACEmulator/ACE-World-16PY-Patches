@@ -24,7 +24,8 @@ VALUES (33612,   1, True ) /* Stuck */
      , (33612,  11, True ) /* IgnoreCollisions */
      , (33612,  12, True ) /* ReportCollisions */
      , (33612,  14, True ) /* GravityStatus */
-     , (33612,  19, True ) /* Attackable */;
+     , (33612,  19, True ) /* Attackable */
+	 , (33612,  86, True ) /* ChestRegenOnClose */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33612,  11,       1) /* ResetInterval */
