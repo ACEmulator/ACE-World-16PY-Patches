@@ -23,7 +23,7 @@ VALUES (33608,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33608,   1, 'Pathwarden Supply Key') /* Name */
-     , (33608,  13, 'keypathwardenchest') /* KeyCode */
+     , (33608,  13, 'pathwardenchestkey') /* KeyCode */
      , (33608,  14, 'Use this item on a locked chest to unlock it.') /* Use */
      , (33608,  16, 'This key unlocks the Pathwarden Supply chests that can be found in Holtburg, Yaraq, Shoushi, and Sanamar.') /* ShortDesc */;
 
