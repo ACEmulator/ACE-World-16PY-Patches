@@ -1,3 +1,0 @@
-INSERT IGNORE INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (47939, 4623, 5, 2) /* Low Central Forest Mix Generator */
-     , (47939, 4623, 5, 3) /* Low Central Forest Mix Generator */;

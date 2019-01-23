@@ -1,6 +1,0 @@
-INSERT IGNORE INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
-VALUES (16239, 1968, 2, 3) /* High Direlands Shore Generator */
-     , (16239, 1968, 2, 6) /* High Direlands Shore Generator */
-     , (16239, 1968, 5, 0) /* High Direlands Shore Generator */
-     , (16239, 1968, 5, 1) /* High Direlands Shore Generator */
-     , (16239, 1968, 7, 2) /* High Direlands Shore Generator */;
