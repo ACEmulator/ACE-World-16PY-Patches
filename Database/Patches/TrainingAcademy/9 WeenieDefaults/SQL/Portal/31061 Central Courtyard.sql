@@ -25,7 +25,7 @@ VALUES (31061,  54, -0.100000001490116) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31061,   1, 'Central Courtyard') /* Name */
      , (31061,  16, 'Walk into this portal to enter the Central Courtyard. You must finish the Training Master''s task before you can use this portal.') /* LongDesc */
-     , (31061,  37, 'trainingmastercomplete') /* QuestRestriction */
+     , (31061,  37, 'academytokengiven') /* QuestRestriction */
      , (31061,  38, 'Central Courtyard') /* AppraisalPortalDestination */
      , (31061, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
