@@ -25,7 +25,7 @@ VALUES (29338,  54, -0.100000001490116) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29338,   1, 'Exit to Holtburg') /* Name */
      , (29338,  16, 'You must complete the Sentry''s quest before you may use this portal.') /* LongDesc */
-     , (29337,  37, 'ProtectionOrb') /* QuestRestriction */
+     , (29338,  37, 'ProtectionOrb') /* QuestRestriction */
      , (29338,  38, 'Exit to Holtburg (42.1N, 33.6E).') /* AppraisalPortalDestination */
      , (29338, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 

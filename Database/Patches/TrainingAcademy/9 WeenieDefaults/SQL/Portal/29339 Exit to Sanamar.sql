@@ -25,7 +25,7 @@ VALUES (29339,  54, -0.100000001490116) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29339,   1, 'Exit to Sanamar') /* Name */
      , (29339,  16, 'You must complete the Sentry''s quest before you may use this portal.') /* LongDesc */
-     , (29337,  37, 'ProtectionOrb') /* QuestRestriction */
+     , (29339,  37, 'ProtectionOrb') /* QuestRestriction */
      , (29339,  38, 'Exit to Sanamar (72.4N, 61.1W).') /* AppraisalPortalDestination */
      , (29339, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
