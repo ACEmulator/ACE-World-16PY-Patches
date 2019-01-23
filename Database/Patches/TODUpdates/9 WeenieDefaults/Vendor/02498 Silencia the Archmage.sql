@@ -306,4 +306,16 @@ VALUES (2498, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe (591
      , (2498, 4, 21973, -1, 0, 0, False) /* Create Bow Glyph (21973) for Shop */
      , (2498, 4, 21974, -1, 0, 0, False) /* Create Crossbow Glyph (21974) for Shop */
      , (2498, 4, 27330, -1, 0, 0, False) /* Create Moderate Mana Stone (27330) for Shop */
-     , (2498, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */;
+     , (2498, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
+     , (2498, 4, 46265, -1, 0, 0, False) /* Create Weeping Atlatl Cast (46265) for Shop */
+     , (2498, 4, 46266, -1, 0, 0, False) /* Create Weeping Axe Cast (46266) for Shop */
+     , (2498, 4, 46267, -1, 0, 0, False) /* Create Weeping Bow Cast (46267) for Shop */
+     , (2498, 4, 46268, -1, 0, 0, False) /* Create Weeping Crossbow Cast (46268) for Shop */
+     , (2498, 4, 46269, -1, 0, 0, False) /* Create Weeping Dagger Cast (46269) for Shop */
+     , (2498, 4, 46270, -1, 0, 0, False) /* Create Weeping Claw Cast (46270) for Shop */
+     , (2498, 4, 46271, -1, 0, 0, False) /* Create Weeping Mace Cast (46271) for Shop */
+     , (2498, 4, 46272, -1, 0, 0, False) /* Create Weeping Spear Cast (46272) for Shop */
+     , (2498, 4, 46273, -1, 0, 0, False) /* Create Weeping Staff Cast (46273) for Shop */
+     , (2498, 4, 46274, -1, 0, 0, False) /* Create Weeping Sword Cast (46274) for Shop */
+     , (2498, 4, 46275, -1, 0, 0, False) /* Create Weeping Two Handed Spear Cast (46275) for Shop */
+     , (2498, 4, 46276, -1, 0, 0, False) /* Create Weeping Wand Cast (46276) for Shop */;
