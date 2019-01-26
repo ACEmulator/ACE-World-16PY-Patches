@@ -102,7 +102,6 @@ VALUES (31012,  1, 0, 3, 0, 330, 0, 0) /* Axe                 Specialized */
      , (31012, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
      , (31012, 24, 0, 3, 0,  60, 0, 0) /* Run                 Specialized */
      , (31012, 31, 0, 3, 0, 280, 0, 0) /* CreatureEnchantment Specialized */
-     , (31012, 33, 0, 3, 0, 500, 0, 0) /* LifeMagic           Specialized */
      , (31012, 33, 0, 3, 0, 280, 0, 0) /* LifeMagic           Specialized */
      , (31012, 34, 0, 3, 0, 280, 0, 0) /* WarMagic            Specialized */;
 
