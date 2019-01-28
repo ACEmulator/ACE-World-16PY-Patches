@@ -1,2 +1,4 @@
+DELETE FROM `spell` WHERE `id` = 6101;
+
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`)
 VALUES (6101, 'Legendary Willpower', 36865 /* Attribute, SingleStat, Additive */, 6 /* Self */, 35);
