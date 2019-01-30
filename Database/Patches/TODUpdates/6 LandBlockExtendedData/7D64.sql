@@ -7,7 +7,7 @@ DELETE FROM `landblock_instance` WHERE `guid` = 2010529879; /* Portal to Khayyab
 DELETE FROM `landblock_instance` WHERE `guid` = 2010529880; /* Portal to Xarabydun */
 /* @teleloc 0x7D640183 [132.062000 17.031400 6.660000] 0.006112 0.000000 0.000000 -0.999981 */
 
-DELETE FROM `landblock_instance` WHERE `guid` = 2010529881,  1026, 2103705982; /* Portal to Samsur */
+DELETE FROM `landblock_instance` WHERE `guid` = 2010529881; /* Portal to Samsur */
 /* @teleloc 0x7D64017E [179.703000 174.764000 7.660000] 0.999979 0.000000 0.000000 -0.006478 */
 
 DELETE FROM `landblock_instance` WHERE `guid` = 2010529882; /* Portal to Al-Arqas */
