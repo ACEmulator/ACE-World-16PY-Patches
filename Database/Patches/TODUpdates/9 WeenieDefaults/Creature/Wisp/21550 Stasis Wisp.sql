@@ -25,8 +25,8 @@ VALUES (21550,   1, True ) /* Stuck */
      , (21550,  13, False) /* Ethereal */
      , (21550,  14, True ) /* GravityStatus */
      , (21550,  19, True ) /* Attackable */
-     , (21550,  29, True ) /* NoCorpse */
-     , (21550,  50, True ) /* NeverFailCasting */;
+     , (21550,  50, True ) /* NeverFailCasting */
+	 , (21550, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21550,   1,       5) /* HeartbeatInterval */
