@@ -59,5 +59,4 @@ VALUES (40455,  1328,      2)  /* Strength Self II */
      , (40455,  1350,      2)  /* Endurance Self II */
      , (40455,  1422,      2)  /* Focus Self II */
      , (40455,  1446,      2)  /* Willpower Self II */
-     , (40455,  1482,      2)  /* Impenetrability II */
      , (40455,  1482,      2)  /* Impenetrability II */;
