@@ -1,14 +1,8 @@
---
--- Current Database: `ace_world`
---
-
-USE `ace_world`;
-
 /* Weenie - Casters - Blackfire Shivering Atlan Wand (46123) */
 DELETE FROM weenie WHERE class_Id = 46123;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46123, 'blackfireshiveringatlanwand', 35) /* Caster */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46123, 'blackfireshiveringatlanwand', 35, '2019-02-04 06:52:23') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46123,   1,      32768) /* ItemType - Caster */

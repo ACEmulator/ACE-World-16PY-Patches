@@ -1,8 +1,8 @@
 /* Weenie - Eiichi (44897) */
 DELETE FROM weenie WHERE class_Id = 44897;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44897, 'eiichi', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44897, 'eiichi', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44897,   1,         16) /* ItemType - Creature */

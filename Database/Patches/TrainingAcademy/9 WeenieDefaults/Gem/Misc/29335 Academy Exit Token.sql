@@ -1,8 +1,8 @@
 /* Weenie - Academy Exit Token (29335) */
 DELETE FROM weenie WHERE class_Id = 29335;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('29335', 'tokentrainingexit', 38) /* Gem_WeenieType */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES ('29335', 'tokentrainingexit', 38, '2019-02-04 06:52:23') /* Gem_WeenieType */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29335,   1,       2048) /* ItemType - Misc */

@@ -1,8 +1,7 @@
-/* Weenie - Pathwarden Plate Hauberk (33597) */
 DELETE FROM `weenie` WHERE `class_Id` = 33597;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33597, 'pathwardenplatehauberk', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33597, 'ace33597-pathwardenplatehauberk', 2, '2019-02-04 06:52:23') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33597,   1,          2) /* ItemType - Armor */
@@ -55,6 +54,5 @@ VALUES (33597,   1,   33554644) /* Setup */
      , (33597,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33597,  1328,   2.05) 
-     , (33597,  1482,   2.05) ;
-
+VALUES (33597,  1328,   2.05)  /* Strength Self II */
+     , (33597,  1482,   2.05)  /* Impenetrability II */;

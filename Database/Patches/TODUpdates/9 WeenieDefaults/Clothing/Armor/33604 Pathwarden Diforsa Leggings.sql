@@ -1,8 +1,7 @@
-/* Weenie - Pathwarden Diforsa Leggings (33604) */
 DELETE FROM `weenie` WHERE `class_Id` = 33604;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33604, 'pathwardendiforsaleggings', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33604, 'ace33604-pathwardendiforsaleggings', 2, '2019-02-04 06:52:23') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33604,   1,          2) /* ItemType - Armor */
@@ -54,11 +53,10 @@ VALUES (33604,   1,   33559330) /* Setup */
      , (33604,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33604,    51,      2) 
-     , (33604,  1350,      2) 
-     , (33604,  1482,      2) 
-     , (33604,  1525,      2) 
-     , (33604,  1536,      2) 
-     , (33604,  1548,      2) 
-     , (33604,  1571,      2) ;
-
+VALUES (33604,    51,      2)  /* Impenetrability I */
+     , (33604,  1350,      2)  /* Endurance Self II */
+     , (33604,  1482,      2)  /* Impenetrability II */
+     , (33604,  1525,      2)  /* Frost Bane III */
+     , (33604,  1536,      2)  /* Lightning Bane II */
+     , (33604,  1548,      2)  /* Flame Bane II */
+     , (33604,  1571,      2)  /* Piercing Bane III */;

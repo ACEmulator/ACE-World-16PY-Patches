@@ -1,8 +1,7 @@
-/* Weenie - Pathwarden Robe (40454) */
 DELETE FROM `weenie` WHERE `class_Id` = 40454;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40454, 'pathwardenrobe40454', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40454, 'ace40454-pathwardenrobe', 2, '2019-02-04 06:52:23') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40454,   1,          4) /* ItemType - Clothing */
@@ -55,9 +54,8 @@ VALUES (40454,   1,   33554854) /* Setup */
      , (40454,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40454,  1328,      2) 
-     , (40454,  1350,      2) 
-     , (40454,  1422,      2) 
-     , (40454,  1446,      2) 
-     , (40454,  1482,      2);
-
+VALUES (40454,  1328,      2)  /* Strength Self II */
+     , (40454,  1350,      2)  /* Endurance Self II */
+     , (40454,  1422,      2)  /* Focus Self II */
+     , (40454,  1446,      2)  /* Willpower Self II */
+     , (40454,  1482,      2)  /* Impenetrability II */;

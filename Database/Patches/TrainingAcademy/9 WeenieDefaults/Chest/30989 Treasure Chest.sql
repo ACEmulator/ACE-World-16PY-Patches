@@ -1,44 +1,45 @@
-/* Weenie - Treasure Chest (30989) */
-DELETE FROM weenie WHERE class_Id = 30989;
+DELETE FROM `weenie` WHERE `class_Id` = 30989;
 
-INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30989, 'chesttutorial', 20 /* Chest_WeenieType */);
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30989, 001 /* NAME_STRING */, 'Treasure Chest')
-     , (30989, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
-
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30989, 001 /* SETUP_DID */, 33554556)
-     , (30989, 002 /* MOTION_TABLE_DID */, 150994948)
-     , (30989, 003 /* SOUND_TABLE_DID */, 536870945)
-     , (30989, 008 /* ICON_DID */, 100667426)
-     , (30989, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30989, 'chesttutorial', 20, '2019-02-04 06:52:23') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30989, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
-     , (30989, 005 /* ENCUMB_VAL_INT */, 6000)
-     , (30989, 006 /* ITEMS_CAPACITY_INT */, -1)
-     , (30989, 007 /* CONTAINERS_CAPACITY_INT */, -1)
-     , (30989, 008 /* MASS_INT */, 3000)
-     , (30989, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
-     , (30989, 019 /* VALUE_INT */, 200)
-     , (30989, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
-     , (30989, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (30989, 096 /* ENCUMB_CAPACITY_INT */, 500);
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30989, 054 /* USE_RADIUS_FLOAT */, 1);
+VALUES (30989,   1,        512) /* ItemType - Container */
+     , (30989,   5,       6065) /* EncumbranceVal */
+     , (30989,   6,        120) /* ItemsCapacity */
+     , (30989,   7,         10) /* ContainersCapacity */
+     , (30989,  16,         48) /* ItemUseable - ViewedRemote */
+     , (30989,  19,        200) /* Value */
+     , (30989,  82,          3) /* InitGeneratedObjects */
+     , (30989,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (30989, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30989, 001 /* STUCK_BOOL */, True)
-     , (30989, 002 /* OPEN_BOOL */, False)
-     , (30989, 012 /* REPORT_COLLISIONS_BOOL */, True)
-     , (30989, 013 /* ETHEREAL_BOOL */, False)
-     , (30989, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
-     , (30989, 034 /* DEFAULT_OPEN_BOOL */, False);
+VALUES (30989,   1, True ) /* Stuck */
+     , (30989,   2, False) /* Open */
+     , (30989,  11, True ) /* IgnoreCollisions */
+     , (30989,  12, True ) /* ReportCollisions */
+     , (30989,  14, True ) /* GravityStatus */
+     , (30989,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30989, 9, 2457, 1, 0, 0, False) /* Create Health Draught for ContainTreasure_DestinationType */
-     , (30989, 9, 5634, 1, 0, 0, False) /* Create Stamina Draught for ContainTreasure_DestinationType */
-	 , (30989, 9, 2460, 1, 0, 0, False) /* Create Mana Draught for ContainTreasure_DestinationType */;
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30989,  11,      30) /* ResetInterval */
+     , (30989,  41,      30) /* RegenerationInterval */
+     , (30989,  43,       1) /* GeneratorRadius */
+     , (30989,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30989,   1, 'Treasure Chest') /* Name */
+     , (30989,  14, 'Double-click this item to open it and see its contents.') /* Use */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30989,   1,   33554556) /* Setup */
+     , (30989,   2,  150994948) /* MotionTable */
+     , (30989,   3,  536870945) /* SoundTable */
+     , (30989,   8,  100667426) /* Icon */
+     , (30989,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (30989, -1, 31196, 30, 1, 1, 2, 8, 1, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0) /* Generate Mana Potion (31196) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (30989, -1, 31197, 30, 1, 1, 2, 8, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0) /* Generate Stamina Potion (31197) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (30989, -1, 31198, 30, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Potion of Healing (31198) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

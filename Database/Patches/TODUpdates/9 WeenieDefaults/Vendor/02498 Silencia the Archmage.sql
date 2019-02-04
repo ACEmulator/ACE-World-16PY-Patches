@@ -1,14 +1,7 @@
---
--- Current Database: `ace_world`
---
+DELETE FROM `weenie` WHERE `class_Id` = 2498;
 
-USE `ace_world`;
-
-/* Weenie - Vendor - Silencia the Archmage (2498) */
-DELETE FROM weenie WHERE class_Id = 2498;
-
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2498, 'craterlakearchmage', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2498, 'craterlakearchmage', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2498,   1,         16) /* ItemType - Creature */
@@ -18,7 +11,7 @@ VALUES (2498,   1,         16) /* ItemType - Creature */
      , (2498,   8,        120) /* Mass */
      , (2498,  16,         32) /* ItemUseable - Remote */
      , (2498,  25,         17) /* Level */
-     , (2498,  27,          0) /* ArmorType */
+     , (2498,  27,          0) /* ArmorType - None */
      , (2498,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (2498,  75,          0) /* MerchandiseMinValue */
      , (2498,  76,     100000) /* MerchandiseMaxValue */
@@ -44,19 +37,19 @@ VALUES (2498,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2498,   1,       5) /* HeartbeatInterval */
      , (2498,   2,       0) /* HeartbeatTimestamp */
-     , (2498,   3,    0.16) /* HealthRate */
+     , (2498,   3, 0.159999996423721) /* HealthRate */
      , (2498,   4,       5) /* StaminaRate */
      , (2498,   5,       1) /* ManaRate */
      , (2498,  11,     300) /* ResetInterval */
-     , (2498,  13,     0.9) /* ArmorModVsSlash */
+     , (2498,  13, 0.899999976158142) /* ArmorModVsSlash */
      , (2498,  14,       1) /* ArmorModVsPierce */
-     , (2498,  15,     1.1) /* ArmorModVsBludgeon */
-     , (2498,  16,     0.4) /* ArmorModVsCold */
-     , (2498,  17,     0.4) /* ArmorModVsFire */
+     , (2498,  15, 1.10000002384186) /* ArmorModVsBludgeon */
+     , (2498,  16, 0.400000005960464) /* ArmorModVsCold */
+     , (2498,  17, 0.400000005960464) /* ArmorModVsFire */
      , (2498,  18,       1) /* ArmorModVsAcid */
-     , (2498,  19,     0.6) /* ArmorModVsElectric */
-     , (2498,  37,     0.9) /* BuyPrice */
-     , (2498,  38,    1.55) /* SellPrice */
+     , (2498,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (2498,  37, 0.899999976158142) /* BuyPrice */
+     , (2498,  38, 1.54999995231628) /* SellPrice */
      , (2498,  54,       3) /* UseRadius */
      , (2498,  64,       1) /* ResistSlash */
      , (2498,  65,       1) /* ResistPierce */
@@ -101,7 +94,7 @@ VALUES (2498,   1,   120, 0, 0, 175) /* MaxHealth */
      , (2498,   5,   110, 0, 0, 190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (2498, 33, 0, 3, 0, 100, 0, 333.438518214409) /* LifeMagic           Specialized */;
+VALUES (2498, 33, 0, 3, 0, 100, 0, 0) /* LifeMagic           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (2498,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -290,12 +283,11 @@ VALUES (2498, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe (591
      , (2498, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
      , (2498, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
      , (2498, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
-     , (2498, 4, 19401, -1, 0, 0, False) /* Create Light Weapon Glyph (19401) for Shop */
-     , (2498, 4, 19402, -1, 0, 0, False) /* Create Missile Weapon Glyph (19402) for Shop */
-     , (2498, 4, 19405, -1, 0, 0, False) /* Create Finesse Weapon Glyph (19405) for Shop */
-     , (2498, 4, 19409, -1, 0, 0, False) /* Create Heavy Weapon Glyph (19409) for Shop */
+     , (2498, 4, 19401, -1, 0, 0, False) /* Create Light Weapons Glyph (19401) for Shop */
+     , (2498, 4, 19402, -1, 0, 0, False) /* Create Missile Weapons Glyph (19402) for Shop */
+     , (2498, 4, 19405, -1, 0, 0, False) /* Create Finesse Weapons Glyph (19405) for Shop */
+     , (2498, 4, 19409, -1, 0, 0, False) /* Create Heavy Weapons Glyph (19409) for Shop */
      , (2498, 4, 19410, -1, 0, 0, False) /* Create Magic Glyph (19410) for Shop */
-     , (2498, 4, 41619, -1, 0, 0, False) /* Create Two Handed Weapon Glyph (19408) for Shop */
      , (2498, 4, 20179, -1, 0, 0, False) /* Create Superb Mana Charge (20179) for Shop */
      , (2498, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (2498, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
@@ -306,4 +298,18 @@ VALUES (2498, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe (591
      , (2498, 4, 21973, -1, 0, 0, False) /* Create Bow Glyph (21973) for Shop */
      , (2498, 4, 21974, -1, 0, 0, False) /* Create Crossbow Glyph (21974) for Shop */
      , (2498, 4, 27330, -1, 0, 0, False) /* Create Moderate Mana Stone (27330) for Shop */
-     , (2498, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */;
+     , (2498, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
+     , (2498, 4, 41618, -1, 0, 0, False) /* Create Two Handed Spear Glyph (41618) for Shop */
+     , (2498, 4, 41619, -1, 0, 0, False) /* Create Two Handed Weapons Glyph (41619) for Shop */
+     , (2498, 4, 46265, -1, 0, 0, False) /* Create Weeping Atlatl Cast (46265) for Shop */
+     , (2498, 4, 46266, -1, 0, 0, False) /* Create Weeping Axe Cast (46266) for Shop */
+     , (2498, 4, 46267, -1, 0, 0, False) /* Create Weeping Bow Cast (46267) for Shop */
+     , (2498, 4, 46268, -1, 0, 0, False) /* Create Weeping Crossbow Cast (46268) for Shop */
+     , (2498, 4, 46269, -1, 0, 0, False) /* Create Weeping Dagger Cast (46269) for Shop */
+     , (2498, 4, 46270, -1, 0, 0, False) /* Create Weeping Claw Cast (46270) for Shop */
+     , (2498, 4, 46271, -1, 0, 0, False) /* Create Weeping Mace Cast (46271) for Shop */
+     , (2498, 4, 46272, -1, 0, 0, False) /* Create Weeping Spear Cast (46272) for Shop */
+     , (2498, 4, 46273, -1, 0, 0, False) /* Create Weeping Staff Cast (46273) for Shop */
+     , (2498, 4, 46274, -1, 0, 0, False) /* Create Weeping Sword Cast (46274) for Shop */
+     , (2498, 4, 46275, -1, 0, 0, False) /* Create Weeping Two Handed Spear Cast (46275) for Shop */
+     , (2498, 4, 46276, -1, 0, 0, False) /* Create Weeping Wand Cast (46276) for Shop */;

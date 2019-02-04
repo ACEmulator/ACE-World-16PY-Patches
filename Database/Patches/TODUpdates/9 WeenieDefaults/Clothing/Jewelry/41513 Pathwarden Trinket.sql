@@ -1,8 +1,7 @@
-/* Weenie - Pathwarden Trinket (41513) */
 DELETE FROM `weenie` WHERE `class_Id` = 41513;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41513, 'pathwardentrinket', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41513, 'ace41513-pathwardentrinket', 2, '2019-02-04 06:52:23') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41513,   1,          8) /* ItemType - Jewelry */
@@ -40,5 +39,4 @@ VALUES (41513,   1,   33554809) /* Setup */
      , (41513,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41513,  5154,      2) ;
-
+VALUES (41513,  5154,      2)  /* Augmented Understanding II */;
