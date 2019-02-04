@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30024;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30024, 'viascrivenercreatureextreme', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30024, 'viascrivenercreatureextreme', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30024,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30024,   1,         16) /* ItemType - Creature */
      , (30024,   8,        120) /* Mass */
      , (30024,  16,         32) /* ItemUseable - Remote */
      , (30024,  25,         77) /* Level */
-     , (30024,  27,          0) /* ArmorType */
+     , (30024,  27,          0) /* ArmorType - None */
      , (30024,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (30024,  75,          0) /* MerchandiseMinValue */
      , (30024,  76,     100000) /* MerchandiseMaxValue */
@@ -183,7 +183,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767239 /* Wave */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30024, 2, 28614,  0, 93, 0.5, False) /* Create Hooded Vestiri Robe (28614) for Wield */
+VALUES (30024, 2, 28614,  0, 93, 0.5, False) /* Create Vestiri Robe with Hood (28614) for Wield */
      , (30024, 4,  2638, -1, 0, 0, False) /* Create Scroll of Bafflement Other VI (2638) for Shop */
      , (30024, 4,  2643, -1, 0, 0, False) /* Create Scroll of Clumsiness Other VI (2643) for Shop */
      , (30024, 4,  2648, -1, 0, 0, False) /* Create Scroll of Coordination Other VI (2648) for Shop */
@@ -209,17 +209,17 @@ VALUES (30024, 2, 28614,  0, 93, 0.5, False) /* Create Hooded Vestiri Robe (2861
      , (30024, 4,  3152, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Expertise Self VI (3152) for Shop */
      , (30024, 4,  3157, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Ignorance VI (3157) for Shop */
      , (30024, 4,  3162, -1, 0, 0, False) /* Create Scroll of Axe Ineptitude Other VI (3162) for Shop */
-     , (30024, 4,  3167, -1, 0, 0, False) /* Create Scroll of Axe Mastery Other VI (3167) for Shop */
-     , (30024, 4,  3172, -1, 0, 0, False) /* Create Scroll of Axe Mastery Self VI (3172) for Shop */
+     , (30024, 4,  3167, -1, 0, 0, False) /* Create Scroll of Light Weapon Mastery Other VI (3167) for Shop */
+     , (30024, 4,  3172, -1, 0, 0, False) /* Create Scroll of Light Weapon Mastery Self VI (3172) for Shop */
      , (30024, 4,  3177, -1, 0, 0, False) /* Create Scroll of Bow Ineptitude Other VI (3177) for Shop */
-     , (30024, 4,  3182, -1, 0, 0, False) /* Create Scroll of Bow Mastery Other VI (3182) for Shop */
-     , (30024, 4,  3187, -1, 0, 0, False) /* Create Scroll of Bow Mastery Self VI (3187) for Shop */
+     , (30024, 4,  3182, -1, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Other VI (3182) for Shop */
+     , (30024, 4,  3187, -1, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Self VI (3187) for Shop */
      , (30024, 4,  3192, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Ineptitude VI (3192) for Shop */
      , (30024, 4,  3197, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Other VI (3197) for Shop */
      , (30024, 4,  3202, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Self VI (3202) for Shop */
      , (30024, 4,  3222, -1, 0, 0, False) /* Create Scroll of Dagger Ineptitude Other VI (3222) for Shop */
-     , (30024, 4,  3227, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Other VI (3227) for Shop */
-     , (30024, 4,  3232, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Self VI (3232) for Shop */
+     , (30024, 4,  3227, -1, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other VI (3227) for Shop */
+     , (30024, 4,  3232, -1, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Self VI (3232) for Shop */
      , (30024, 4,  3237, -1, 0, 0, False) /* Create Scroll of Deception Ineptitude VI (3237) for Shop */
      , (30024, 4,  3242, -1, 0, 0, False) /* Create Scroll of Deception Mastery Other VI (3242) for Shop */
      , (30024, 4,  3247, -1, 0, 0, False) /* Create Scroll of Deception Mastery Self VI (3247) for Shop */
@@ -268,8 +268,8 @@ VALUES (30024, 2, 28614,  0, 93, 0.5, False) /* Create Hooded Vestiri Robe (2861
      , (30024, 4,  3492, -1, 0, 0, False) /* Create Scroll of Sprint Other VI (3492) for Shop */
      , (30024, 4,  3497, -1, 0, 0, False) /* Create Scroll of Sprint Self VI (3497) for Shop */
      , (30024, 4,  3517, -1, 0, 0, False) /* Create Scroll of Sword Ineptitude Other VI (3517) for Shop */
-     , (30024, 4,  3522, -1, 0, 0, False) /* Create Scroll of Sword Mastery Other VI (3522) for Shop */
-     , (30024, 4,  3527, -1, 0, 0, False) /* Create Scroll of Sword Mastery Self VI (3527) for Shop */
+     , (30024, 4,  3522, -1, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Other VI (3522) for Shop */
+     , (30024, 4,  3527, -1, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Self VI (3527) for Shop */
      , (30024, 4,  3562, -1, 0, 0, False) /* Create Scroll of Vulnerability VI (3562) for Shop */
      , (30024, 4,  3567, -1, 0, 0, False) /* Create Scroll of War Magic Ineptitude VI (3567) for Shop */
      , (30024, 4,  3572, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Other VI (3572) for Shop */

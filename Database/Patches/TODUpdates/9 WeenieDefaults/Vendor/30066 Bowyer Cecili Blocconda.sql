@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30066;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30066, 'silyunfletcher', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30066, 'silyunfletcher', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30066,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30066,   1,         16) /* ItemType - Creature */
      , (30066,   8,        120) /* Mass */
      , (30066,  16,         32) /* ItemUseable - Remote */
      , (30066,  25,          6) /* Level */
-     , (30066,  27,          0) /* ArmorType */
+     , (30066,  27,          0) /* ArmorType - None */
      , (30066,  74,     262401) /* MerchandiseItemTypes - Weapon, PromissoryNote */
      , (30066,  75,          0) /* MerchandiseMinValue */
      , (30066,  76,     100000) /* MerchandiseMaxValue */

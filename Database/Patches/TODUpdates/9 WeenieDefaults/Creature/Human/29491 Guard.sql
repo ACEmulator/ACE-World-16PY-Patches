@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29491;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29491, 'knightkarlunguard_noagrro', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29491, 'knightkarlunguard_noagrro', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29491,   1,         16) /* ItemType - Creature */
@@ -10,16 +10,16 @@ VALUES (29491,   1,         16) /* ItemType - Creature */
      , (29491,   7,         -1) /* ContainersCapacity */
      , (29491,  16,         32) /* ItemUseable - Remote */
      , (29491,  25,         80) /* Level */
-     , (29491,  27,          0) /* ArmorType */
+     , (29491,  27,          0) /* ArmorType - None */
      , (29491,  40,          2) /* CombatMode - Melee */
-     , (29491,  67,         64) /* Tolerance */
-     , (29491,  68,          9) /* TargetingTactic */
+     , (29491,  67,         64) /* Tolerance - Retaliate */
+     , (29491,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (29491,  72,          1) /* FriendType - Olthoi */
      , (29491,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29491, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29491, 113,          1) /* Gender - Male */
      , (29491, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (29491, 140,          1) /* AiOptions */
+     , (29491, 140,          1) /* AiOptions - CanOpenDoors */
      , (29491, 146,      11500) /* XpOverride */
      , (29491, 188,          4) /* HeritageGroup - Viamontian */;
 
@@ -170,9 +170,9 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (29491, 2, 28621,  1, 20, 0.5, False) /* Create Diforsa Leggings (28621) for Wield */
      , (29491, 2, 28623,  1, 20, 0.5, False) /* Create Diforsa Pauldrons (28623) for Wield */
      , (29491, 2, 28625,  1, 20, 0.5, False) /* Create Diforsa Sollerets (28625) for Wield */
-     , (29491, 2, 28627,  1, 20, 0.5, False) /* Create BracersDiforsa (28627) for Wield */
+     , (29491, 2, 28627,  1, 20, 0.5, False) /* Create Diforsa Bracers (28627) for Wield */
      , (29491, 2, 28628,  1, 20, 0.5, False) /* Create Diforsa Breastplate (28628) for Wield */
-     , (29491, 2, 28630,  1, 20, 0.5, False) /* Create Platemail Diforsa Cuirass (28630) for Wield */
+     , (29491, 2, 28630,  1, 20, 0.5, False) /* Create Diforsa Cuirass (28630) for Wield */
      , (29491, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (29491, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (29491, 9, 45875,  0, 0, 0.01, False) /* Create  (45875) for ContainTreasure */

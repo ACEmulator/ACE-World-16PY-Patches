@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30051;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30051, 'viashopkeep', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30051, 'viashopkeep', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30051,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30051,   1,         16) /* ItemType - Creature */
      , (30051,   8,        120) /* Mass */
      , (30051,  16,         32) /* ItemUseable - Remote */
      , (30051,  25,          7) /* Level */
-     , (30051,  27,          0) /* ArmorType */
+     , (30051,  27,          0) /* ArmorType - None */
      , (30051,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (30051,  75,          0) /* MerchandiseMinValue */
      , (30051,  76,     100000) /* MerchandiseMaxValue */
@@ -292,19 +292,19 @@ VALUES (30051, 2,  2587,  0, 13, 0.5, False) /* Create Shirt (2587) for Wield */
      , (30051, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30051, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30051, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30051, 4, 29130, -1, 0, 0, False) /* Create Name Me Please (29130) for Shop */
-     , (30051, 4, 29131, -1, 0, 0, False) /* Create Name Me Please (29131) for Shop */
-     , (30051, 4, 29158, -1, 0, 0, False) /* Create Name Me Please (29158) for Shop */
+     , (30051, 4, 29130, -1, 0, 0, False) /* Create Ultra Green Hops (29130) for Shop */
+     , (30051, 4, 29131, -1, 0, 0, False) /* Create Vibrant Green Hops (29131) for Shop */
+     , (30051, 4, 29158, -1, 0, 0, False) /* Create Dried Yeast (29158) for Shop */
      , (30051, 4, 30556, -1, 0, 0, False) /* Create Hatchet (30556) for Shop */
-     , (30051, 4, 30581, -1, 0, 0, False) /* Create Viamont Medium Mace (30581) for Shop */
+     , (30051, 4, 30581, -1, 0, 0, False) /* Create Mazule (30581) for Shop */
      , (30051, 4, 30591, -1, 0, 0, False) /* Create Partizan (30591) for Shop */
      , (30051, 4, 30596, -1, 0, 0, False) /* Create Poniard (30596) for Shop */
      , (30051, 4, 30606, -1, 0, 0, False) /* Create Bastone (30606) for Shop */
      , (30051, 4, 30611, -1, 0, 0, False) /* Create Knuckles (30611) for Shop */
-     , (30051, 4, 30616, -1, 0, 0, False) /* Create Heavy Crossbow (30616) for Shop */
-     , (30051, 4, 30625, -1, 0, 0, False) /* Create Longbow (30625) for Shop */
+     , (30051, 4, 30616, -1, 0, 0, False) /* Create Arbalest (30616) for Shop */
+     , (30051, 4, 30625, -1, 0, 0, False) /* Create War Bow (30625) for Shop */
      , (30051, 4, 30746, -1, 0, 0, False) /* Create Dart Flinger (30746) for Shop */
-     , (30051, 4, 30957, -1, 0, 0, False) /* Create Name Me Please (30957) for Shop */
-     , (30051, 4, 30958, -1, 0, 0, False) /* Create Name Me Please (30958) for Shop */
-     , (30051, 4, 30959, -1, 0, 0, False) /* Create Name Me Please (30959) for Shop */
+     , (30051, 4, 30957, -1, 0, 0, False) /* Create Giant Mushrooms (30957) for Shop */
+     , (30051, 4, 30958, -1, 0, 0, False) /* Create Forgotten Chasm (30958) for Shop */
+     , (30051, 4, 30959, -1, 0, 0, False) /* Create Ruins of Geth Tukora (30959) for Shop */
      , (30051, 4, 45411, -1, 0, 0, False) /* Create Spada (45411) for Shop */;

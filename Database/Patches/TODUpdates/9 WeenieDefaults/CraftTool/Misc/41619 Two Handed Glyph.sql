@@ -1,14 +1,8 @@
---
--- Current Database: `ace_world`
---
-
-USE `ace_world`;
-
 /* Weenie - CraftTool - Two Handed Glyph (41619) */
 DELETE FROM weenie WHERE class_Id = 41619;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41619, 'glyphtwohanded', 44) /* CraftTool */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41619, 'glyphtwohanded', 44, '2019-02-04 06:52:23') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41619,   1,        128) /* ItemType - Misc */

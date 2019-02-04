@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14466;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14466, 'snowman2heads', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14466, 'snowman2heads', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14466,   1,         16) /* ItemType - Creature */
@@ -10,15 +10,15 @@ VALUES (14466,   1,         16) /* ItemType - Creature */
      , (14466,   7,         -1) /* ContainersCapacity */
      , (14466,  16,          1) /* ItemUseable - No */
      , (14466,  25,         15) /* Level */
-     , (14466,  27,          0) /* ArmorType */
+     , (14466,  27,          0) /* ArmorType - None */
      , (14466,  40,          2) /* CombatMode - Melee */
-     , (14466,  67,          2) /* Tolerance */
-     , (14466,  68,          9) /* TargetingTactic */
+     , (14466,  67,          2) /* Tolerance - Appraise */
+     , (14466,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (14466,  72,         39) /* FriendType - Snowman */
      , (14466,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (14466, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (14466, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (14466, 140,          1) /* AiOptions */
+     , (14466, 140,          1) /* AiOptions - CanOpenDoors */
      , (14466, 146,       2000) /* XpOverride */
      , (14466, 307,          5) /* DamageRating */;
 

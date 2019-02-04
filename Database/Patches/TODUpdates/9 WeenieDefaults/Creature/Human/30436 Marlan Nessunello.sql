@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30436;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30436, 'silyunmarlannessuno', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30436, 'silyunmarlannessuno', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30436,   1,         16) /* ItemType - Creature */
@@ -12,7 +12,7 @@ VALUES (30436,   1,         16) /* ItemType - Creature */
      , (30436,   8,        120) /* Mass */
      , (30436,  16,         32) /* ItemUseable - Remote */
      , (30436,  25,         11) /* Level */
-     , (30436,  27,          0) /* ArmorType */
+     , (30436,  27,          0) /* ArmorType - None */
      , (30436,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30436,  95,          8) /* RadarBlipColor - Yellow */
      , (30436, 113,          1) /* Gender - Male */
@@ -118,5 +118,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30436, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
-     , (30436, 2, 28606,  0, 9, 0.1, False) /* Create Viamontian Leggings (28606) for Wield */
+     , (30436, 2, 28606,  0, 9, 0.1, False) /* Create Viamontian Pants (28606) for Wield */
      , (30436, 2, 28607,  0, 1, 0, False) /* Create Lace Shirt (28607) for Wield */;

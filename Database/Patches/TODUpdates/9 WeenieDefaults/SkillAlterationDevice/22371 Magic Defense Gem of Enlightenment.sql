@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22371;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22371, 'skillgemupmagicdefense', 62) /* SkillAlterationDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22371, 'skillgemupmagicdefense', 62, '2019-02-04 06:52:23') /* SkillAlterationDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22371,   1,       2048) /* ItemType - Gem */

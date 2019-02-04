@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24475;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24475, 'simulacrumbanditharker', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24475, 'simulacrumbanditharker', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24475,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (24475,   1,         16) /* ItemType - Creature */
      , (24475,   8,        120) /* Mass */
      , (24475,  16,          1) /* ItemUseable - No */
      , (24475,  25,        100) /* Level */
-     , (24475,  27,          0) /* ArmorType */
-     , (24475,  68,         13) /* TargetingTactic */
+     , (24475,  27,          0) /* ArmorType - None */
+     , (24475,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (24475,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24475, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (24475, 113,          1) /* Gender - Male */
      , (24475, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24475, 140,          1) /* AiOptions */
+     , (24475, 140,          1) /* AiOptions - CanOpenDoors */
      , (24475, 146,      80000) /* XpOverride */
      , (24475, 188,          1) /* HeritageGroup - Aluvian */
      , (24475, 307,          5) /* DamageRating */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30268;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30268, 'gemportalsanamar', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30268, 'gemportalsanamar', 38, '2019-02-04 06:52:23') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30268,   1,       2048) /* ItemType - Gem */
@@ -42,7 +42,7 @@ VALUES (30268,   1,   33556769) /* Setup */
      , (30268,   8,  100674858) /* Icon */
      , (30268,  22,  872415275) /* PhysicsEffectTable */
      , (30268,  28,        157) /* Spell - Summon Primary Portal I */
-     , (30268,  31,      28709) /* LinkedPortalOne - Shoushi Portal */;
+     , (30268,  31,      28709) /* LinkedPortalOne - Portal to Sanamar */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30268,   157,      2)  /* Summon Primary Portal I */;

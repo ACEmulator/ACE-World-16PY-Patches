@@ -1,8 +1,8 @@
 /* Weenie - Gems - Blackmoor's Favor (31000) */
 DELETE FROM `weenie` WHERE class_Id = 31000;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31000, 'gemactdpurchaserewardarmor', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31000, 'gemactdpurchaserewardarmor', 38, '2019-02-04 06:52:23') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31000,   1,       2048) /* ItemType - Gem */

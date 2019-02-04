@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29490;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29490, 'knightkarlunsircoretto', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29490, 'knightkarlunsircoretto', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29490,   1,         16) /* ItemType - Creature */
@@ -10,16 +10,16 @@ VALUES (29490,   1,         16) /* ItemType - Creature */
      , (29490,   7,         -1) /* ContainersCapacity */
      , (29490,  16,         32) /* ItemUseable - Remote */
      , (29490,  25,         80) /* Level */
-     , (29490,  27,          0) /* ArmorType */
+     , (29490,  27,          0) /* ArmorType - None */
      , (29490,  40,          2) /* CombatMode - Melee */
-     , (29490,  67,         64) /* Tolerance */
-     , (29490,  68,          9) /* TargetingTactic */
+     , (29490,  67,         64) /* Tolerance - Retaliate */
+     , (29490,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (29490,  72,          1) /* FriendType - Olthoi */
      , (29490,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29490, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29490, 113,          1) /* Gender - Male */
      , (29490, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (29490, 140,          1) /* AiOptions */
+     , (29490, 140,          1) /* AiOptions - CanOpenDoors */
      , (29490, 146,      11500) /* XpOverride */
      , (29490, 188,          4) /* HeritageGroup - Viamontian */;
 
@@ -181,7 +181,7 @@ VALUES (29490, 2, 28622,  1, 20, 0.8082, False) /* Create Tenassa Leggings (2862
      , (29490, 2, 28625,  1, 20, 0.5, False) /* Create Diforsa Sollerets (28625) for Wield */
      , (29490, 2, 31026,  1, 20, 0.5, False) /* Create Tenassa Breastplate (31026) for Wield */
      , (29490, 9,     0,  0, 0, 1, True) /* Create nothing for ContainTreasure */
-     , (29490, 9, 29495,  1, 0, 1, True) /* Create Poem by Diyas al-Yat (29495) for ContainTreasure */
-     , (29490, 10, 29965,  1, 0, 0.4, False) /* Create Stone Mace (29965) for WieldTreasure */
-     , (29490, 10, 29972,  1, 0, 0.4, False) /* Create Stone Spear (29972) for WieldTreasure */
-     , (29490, 10, 29977,  1, 0, 0.2, False) /* Create Bone Sword (29977) for WieldTreasure */;
+     , (29490, 9, 29495,  1, 0, 1, True) /* Create Testament of Sir Coretto (29495) for ContainTreasure */
+     , (29490, 10, 29965,  1, 0, 0.4, False) /* Create Quadrelle (29965) for WieldTreasure */
+     , (29490, 10, 29972,  1, 0, 0.4, False) /* Create Partizan (29972) for WieldTreasure */
+     , (29490, 10, 29977,  1, 0, 0.2, False) /* Create Spadone (29977) for WieldTreasure */;

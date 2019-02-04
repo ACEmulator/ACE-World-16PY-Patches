@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24951;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24951, 'lugiantitanrenegade', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24951, 'lugiantitanrenegade', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24951,   1,         16) /* ItemType - Creature */
@@ -12,14 +12,14 @@ VALUES (24951,   1,         16) /* ItemType - Creature */
      , (24951,   8,       8000) /* Mass */
      , (24951,  16,          1) /* ItemUseable - No */
      , (24951,  25,        135) /* Level */
-     , (24951,  27,          0) /* ArmorType */
+     , (24951,  27,          0) /* ArmorType - None */
      , (24951,  40,          2) /* CombatMode - Melee */
-     , (24951,  68,         13) /* TargetingTactic */
+     , (24951,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (24951,  72,          6) /* FriendType - Tumerok */
      , (24951,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24951, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (24951, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (24951, 140,          1) /* AiOptions */
+     , (24951, 140,          1) /* AiOptions - CanOpenDoors */
      , (24951, 146,     250000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

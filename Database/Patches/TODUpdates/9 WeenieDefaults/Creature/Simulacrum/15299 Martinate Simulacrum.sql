@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 15299;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (15299, 'simulacrummartinate', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (15299, 'simulacrummartinate', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15299,   1,         16) /* ItemType - Creature */
@@ -11,8 +11,8 @@ VALUES (15299,   1,         16) /* ItemType - Creature */
      , (15299,   8,        120) /* Mass */
      , (15299,  16,          1) /* ItemUseable - No */
      , (15299,  25,         50) /* Level */
-     , (15299,  27,          0) /* ArmorType */
-     , (15299,  68,         13) /* TargetingTactic */
+     , (15299,  27,          0) /* ArmorType - None */
+     , (15299,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (15299,  72,         19) /* FriendType - Virindi */
      , (15299,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (15299, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */

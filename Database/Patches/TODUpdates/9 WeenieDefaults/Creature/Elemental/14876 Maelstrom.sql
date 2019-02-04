@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14876;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14876, 'stormelementalmaelstrom', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14876, 'stormelementalmaelstrom', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14876,   1,         16) /* ItemType - Creature */
@@ -10,12 +10,12 @@ VALUES (14876,   1,         16) /* ItemType - Creature */
      , (14876,   7,         -1) /* ContainersCapacity */
      , (14876,  16,          1) /* ItemUseable - No */
      , (14876,  25,        115) /* Level */
-     , (14876,  27,          0) /* ArmorType */
-     , (14876,  68,          5) /* TargetingTactic */
+     , (14876,  27,          0) /* ArmorType - None */
+     , (14876,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (14876,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (14876, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (14876, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (14876, 140,          1) /* AiOptions */
+     , (14876, 140,          1) /* AiOptions - CanOpenDoors */
      , (14876, 146,     125000) /* XpOverride */
      , (14876, 307,          5) /* DamageRating */;
 

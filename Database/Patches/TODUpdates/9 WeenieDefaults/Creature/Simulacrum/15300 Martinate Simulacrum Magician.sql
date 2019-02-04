@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 15300;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (15300, 'simulacrummartinatemage', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (15300, 'simulacrummartinatemage', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15300,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (15300,   1,         16) /* ItemType - Creature */
      , (15300,   8,        120) /* Mass */
      , (15300,  16,          1) /* ItemUseable - No */
      , (15300,  25,         50) /* Level */
-     , (15300,  27,          0) /* ArmorType */
-     , (15300,  68,         13) /* TargetingTactic */
+     , (15300,  27,          0) /* ArmorType - None */
+     , (15300,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (15300,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (15300, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (15300, 113,          1) /* Gender - Male */
      , (15300, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (15300, 140,          1) /* AiOptions */
+     , (15300, 140,          1) /* AiOptions - CanOpenDoors */
      , (15300, 146,      10000) /* XpOverride */
      , (15300, 188,          3) /* HeritageGroup - Sho */
      , (15300, 307,          5) /* DamageRating */;

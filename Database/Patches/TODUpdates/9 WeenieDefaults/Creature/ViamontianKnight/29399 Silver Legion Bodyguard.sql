@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29399;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29399, 'knightbodyguardsilver', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29399, 'knightbodyguardsilver', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29399,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (29399,   1,         16) /* ItemType - Creature */
      , (29399,   7,         -1) /* ContainersCapacity */
      , (29399,  16,          1) /* ItemUseable - No */
      , (29399,  25,        100) /* Level */
-     , (29399,  27,          0) /* ArmorType */
+     , (29399,  27,          0) /* ArmorType - None */
      , (29399,  40,          2) /* CombatMode - Melee */
-     , (29399,  68,          9) /* TargetingTactic */
+     , (29399,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (29399,  72,         83) /* FriendType - ViamontianKnight */
      , (29399,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29399, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29399, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (29399, 140,          1) /* AiOptions */
+     , (29399, 140,          1) /* AiOptions - CanOpenDoors */
      , (29399, 146,      80000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -154,8 +154,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29399, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
-     , (29399, 9, 29447,  1, 0, 0.5, False) /* Create Corcima Castle Silver Ward Portal Sending Gem (29447) for ContainTreasure */
-     , (29399, 10, 29966,  1, 0, 0.25, False) /* Create Stone Mace (29966) for WieldTreasure */
-     , (29399, 10, 29971,  1, 0, 0.25, False) /* Create Stone Spear (29971) for WieldTreasure */
-     , (29399, 10, 29976,  1, 0, 0.25, False) /* Create Bone Sword (29976) for WieldTreasure */
-     , (29399, 10, 29980, -1, 0, 0.25, False) /* Create Stone Hatchet (29980) for WieldTreasure */;
+     , (29399, 9, 29447,  1, 0, 0.5, False) /* Create Corcima Castle Silver Ward Portal Gem (29447) for ContainTreasure */
+     , (29399, 10, 29966,  1, 0, 0.25, False) /* Create Quadrelle (29966) for WieldTreasure */
+     , (29399, 10, 29971,  1, 0, 0.25, False) /* Create Partizan (29971) for WieldTreasure */
+     , (29399, 10, 29976,  1, 0, 0.25, False) /* Create Spadone (29976) for WieldTreasure */
+     , (29399, 10, 29980, -1, 0, 0.25, False) /* Create Throwing Axe (29980) for WieldTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7401;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7401, 'ashenbonesejan', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7401, 'ashenbonesejan', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7401,   1,         16) /* ItemType - Creature */
@@ -10,15 +10,15 @@ VALUES (7401,   1,         16) /* ItemType - Creature */
      , (7401,   7,         -1) /* ContainersCapacity */
      , (7401,  16,          1) /* ItemUseable - No */
      , (7401,  25,        100) /* Level */
-     , (7401,  27,          0) /* ArmorType */
+     , (7401,  27,          0) /* ArmorType - None */
      , (7401,  40,          1) /* CombatMode - NonCombat */
-     , (7401,  67,         64) /* Tolerance */
-     , (7401,  68,          5) /* TargetingTactic */
-     , (7401,  69,          4) /* CombatTactic */
+     , (7401,  67,         64) /* Tolerance - Retaliate */
+     , (7401,  68,          5) /* TargetingTactic - Random, LastDamager */
+     , (7401,  69,          4) /* CombatTactic - LastDamager */
      , (7401,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7401, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7401, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7401, 140,          1) /* AiOptions */
+     , (7401, 140,          1) /* AiOptions - CanOpenDoors */
      , (7401, 146,      80000) /* XpOverride */
      , (7401, 307,          5) /* DamageRating */;
 

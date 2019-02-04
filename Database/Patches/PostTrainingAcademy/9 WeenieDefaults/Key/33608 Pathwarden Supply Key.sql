@@ -1,8 +1,8 @@
 /* Weenie - Pathwarden Supply Key (33608) */
 DELETE FROM weenie WHERE class_Id = 33608;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33608, 'keychestpathwardensupply', 22) /* Key */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33608, 'keychestpathwardensupply', 22, '2019-02-04 06:52:23') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33608,   1,      16384) /* ItemType - Key */

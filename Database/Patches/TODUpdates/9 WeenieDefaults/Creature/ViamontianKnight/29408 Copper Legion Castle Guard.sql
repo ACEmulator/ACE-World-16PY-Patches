@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29408;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29408, 'knightcastleguardcopper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29408, 'knightcastleguardcopper', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29408,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (29408,   1,         16) /* ItemType - Creature */
      , (29408,   7,         -1) /* ContainersCapacity */
      , (29408,  16,          1) /* ItemUseable - No */
      , (29408,  25,         80) /* Level */
-     , (29408,  27,          0) /* ArmorType */
+     , (29408,  27,          0) /* ArmorType - None */
      , (29408,  40,          2) /* CombatMode - Melee */
-     , (29408,  68,          9) /* TargetingTactic */
+     , (29408,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (29408,  72,         83) /* FriendType - ViamontianKnight */
      , (29408,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29408, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29408, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (29408, 140,          1) /* AiOptions */
+     , (29408, 140,          1) /* AiOptions - CanOpenDoors */
      , (29408, 146,      30000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -157,7 +157,7 @@ VALUES (29408, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasu
      , (29408, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (29408, 9, 45875,  0, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
      , (29408, 9, 45876,  0, 0, 0.03, False) /* Create  (45876) for ContainTreasure */
-     , (29408, 10, 29967,  1, 0, 0.25, False) /* Create Stone Mace (29967) for WieldTreasure */
-     , (29408, 10, 29972,  1, 0, 0.25, False) /* Create Stone Spear (29972) for WieldTreasure */
-     , (29408, 10, 29977,  1, 0, 0.25, False) /* Create Bone Sword (29977) for WieldTreasure */
-     , (29408, 10, 29981, -1, 0, 0.25, False) /* Create Stone Hatchet (29981) for WieldTreasure */;
+     , (29408, 10, 29967,  1, 0, 0.25, False) /* Create Quadrelle (29967) for WieldTreasure */
+     , (29408, 10, 29972,  1, 0, 0.25, False) /* Create Partizan (29972) for WieldTreasure */
+     , (29408, 10, 29977,  1, 0, 0.25, False) /* Create Spadone (29977) for WieldTreasure */
+     , (29408, 10, 29981, -1, 0, 0.25, False) /* Create Throwing Axe (29981) for WieldTreasure */;

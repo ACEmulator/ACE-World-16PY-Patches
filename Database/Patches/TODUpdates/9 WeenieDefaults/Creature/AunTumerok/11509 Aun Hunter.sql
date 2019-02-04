@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11509;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11509, 'tumerokaunhunter_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11509, 'tumerokaunhunter_xp', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11509,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (11509,   1,         16) /* ItemType - Creature */
      , (11509,   7,         -1) /* ContainersCapacity */
      , (11509,  16,          1) /* ItemUseable - No */
      , (11509,  25,         20) /* Level */
-     , (11509,  27,          0) /* ArmorType */
-     , (11509,  67,         64) /* Tolerance */
-     , (11509,  68,          3) /* TargetingTactic */
+     , (11509,  27,          0) /* ArmorType - None */
+     , (11509,  67,         64) /* Tolerance - Retaliate */
+     , (11509,  68,          3) /* TargetingTactic - Random, Focused */
      , (11509,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11509, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11509, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11509, 140,          1) /* AiOptions */
+     , (11509, 140,          1) /* AiOptions - CanOpenDoors */
      , (11509, 146,       3500) /* XpOverride */
      , (11509, 307,          5) /* DamageRating */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21163;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (21163, 'fireelementalflamma_nosummon', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (21163, 'fireelementalflamma_nosummon', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21163,   1,         16) /* ItemType - Creature */
@@ -10,12 +10,12 @@ VALUES (21163,   1,         16) /* ItemType - Creature */
      , (21163,   7,         -1) /* ContainersCapacity */
      , (21163,  16,          1) /* ItemUseable - No */
      , (21163,  25,         60) /* Level */
-     , (21163,  27,          0) /* ArmorType */
-     , (21163,  68,          5) /* TargetingTactic */
+     , (21163,  27,          0) /* ArmorType - None */
+     , (21163,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (21163,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (21163, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (21163, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (21163, 140,          1) /* AiOptions */
+     , (21163, 140,          1) /* AiOptions - CanOpenDoors */
      , (21163, 146,      17500) /* XpOverride */
      , (21163, 307,          2) /* DamageRating */;
 

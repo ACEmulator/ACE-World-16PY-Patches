@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28670;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28670, 'ruschkfiend', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28670, 'ruschkfiend', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28670,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (28670,   1,         16) /* ItemType - Creature */
      , (28670,   7,         -1) /* ContainersCapacity */
      , (28670,  16,          1) /* ItemUseable - No */
      , (28670,  25,         50) /* Level */
-     , (28670,  27,          0) /* ArmorType */
-     , (28670,  68,          9) /* TargetingTactic */
+     , (28670,  27,          0) /* ArmorType - None */
+     , (28670,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (28670,  72,          1) /* FriendType - Olthoi */
      , (28670,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28670, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (28670, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28670, 140,          1) /* AiOptions */
+     , (28670, 140,          1) /* AiOptions - CanOpenDoors */
      , (28670, 146,      10000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -162,7 +162,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Ruschk mumbles s
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28670, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (28670, 9, 28746, -1, 0, 0.05, True) /* Create Name Me Please (28746) for ContainTreasure */
+     , (28670, 9, 28746, -1, 0, 0.05, True) /* Create Hardened Ice Shard (28746) for ContainTreasure */
      , (28670, 10,     0,  0, 0, 0.166667, False) /* Create nothing for WieldTreasure */
      , (28670, 10, 48589,  0, 0, 0.166667, False) /* Create Icy Club (48589) for WieldTreasure */
      , (28670, 10, 48590,  0, 0, 0.166667, False) /* Create Frozen Dagger (48590) for WieldTreasure */

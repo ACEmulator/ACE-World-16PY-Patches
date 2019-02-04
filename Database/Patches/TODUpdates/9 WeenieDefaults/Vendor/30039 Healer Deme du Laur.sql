@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30039;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30039, 'sanamarhealer', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30039, 'sanamarhealer', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30039,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30039,   1,         16) /* ItemType - Creature */
      , (30039,   8,        120) /* Mass */
      , (30039,  16,         32) /* ItemUseable - Remote */
      , (30039,  25,          7) /* Level */
-     , (30039,  27,          0) /* ArmorType */
+     , (30039,  27,          0) /* ArmorType - None */
      , (30039,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (30039,  75,          0) /* MerchandiseMinValue */
      , (30039,  76,      25000) /* MerchandiseMaxValue */
@@ -189,7 +189,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Though your skin be not o
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30039, 2, 12223,  0, 9, 1, False) /* Create Skull Wand (12223) for Wield */
-     , (30039, 2, 28614,  0, 9, 0.1, False) /* Create Hooded Vestiri Robe (28614) for Wield */
+     , (30039, 2, 28614,  0, 9, 0.1, False) /* Create Vestiri Robe with Hood (28614) for Wield */
      , (30039, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (30039, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (30039, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */

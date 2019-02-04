@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29303;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29303, 'knightmageroyalthaumaturge', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29303, 'knightmageroyalthaumaturge', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29303,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (29303,   1,         16) /* ItemType - Creature */
      , (29303,   7,         -1) /* ContainersCapacity */
      , (29303,  16,          1) /* ItemUseable - No */
      , (29303,  25,        135) /* Level */
-     , (29303,  27,          1) /* ArmorType */
+     , (29303,  27,          1) /* ArmorType - Cloth */
      , (29303,  40,          2) /* CombatMode - Melee */
-     , (29303,  68,         13) /* TargetingTactic */
+     , (29303,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (29303,  72,         83) /* FriendType - ViamontianKnight */
      , (29303,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29303, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29303, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (29303, 140,          1) /* AiOptions */
+     , (29303, 140,          1) /* AiOptions - CanOpenDoors */
      , (29303, 146,     250000) /* XpOverride */
      , (29303, 188,          4) /* HeritageGroup - Viamontian */;
 
@@ -198,8 +198,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29303, 2, 28614,  0, 11, 0.1786, True) /* Create Hooded Vestiri Robe (28614) for Wield */
+VALUES (29303, 2, 28614,  0, 11, 0.1786, True) /* Create Vestiri Robe with Hood (28614) for Wield */
      , (29303, 2, 28632,  0, 21, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
      , (29303, 8,     0,  0, 0, 0.993, False) /* Create nothing for Treasure */
      , (29303, 8, 34276,  0, 0, 0.007, False) /* Create Ancient Empyrean Trinket (34276) for Treasure */
-     , (29303, 10, 30947,  1, 0, 1, False) /* Create Bandit Dagger (30947) for WieldTreasure */;
+     , (29303, 10, 30947,  1, 0, 1, False) /* Create Poniard (30947) for WieldTreasure */;

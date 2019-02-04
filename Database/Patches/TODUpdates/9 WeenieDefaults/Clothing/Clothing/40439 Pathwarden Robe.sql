@@ -1,8 +1,7 @@
-/* Weenie - Pathwarden Robe (40439) */
 DELETE FROM `weenie` WHERE `class_Id` = 40439;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40439, 'pathwardenrobe40439', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40439, 'ace40439-pathwardenrobe', 2, '2019-02-04 06:52:23') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40439,   1,          4) /* ItemType - Clothing */
@@ -13,7 +12,7 @@ VALUES (40439,   1,          4) /* ItemType - Clothing */
      , (40439,   9,      32513) /* ValidLocations - HeadWear, Armor */
      , (40439,  16,          1) /* ItemUseable - No */
      , (40439,  19,          0) /* Value */
-     , (40439,  27,          1) /* ArmorType */
+     , (40439,  27,          1) /* ArmorType - Cloth */
      , (40439,  28,         50) /* ArmorLevel */
      , (40439,  33,          1) /* Bonded - Bonded */
      , (40439,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -55,9 +54,8 @@ VALUES (40439,   1,   33554854) /* Setup */
      , (40439,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40439,  1328,      2) 
-     , (40439,  1350,      2) 
-     , (40439,  1422,      2) 
-     , (40439,  1446,      2) 
-     , (40439,  1482,      2) ;
-
+VALUES (40439,  1328,      2)  /* Strength Self II */
+     , (40439,  1350,      2)  /* Endurance Self II */
+     , (40439,  1422,      2)  /* Focus Self II */
+     , (40439,  1446,      2)  /* Willpower Self II */
+     , (40439,  1482,      2)  /* Impenetrability II */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12132;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (12132, 'simulacrummastersouth', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (12132, 'simulacrummastersouth', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12132,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (12132,   1,         16) /* ItemType - Creature */
      , (12132,   8,        120) /* Mass */
      , (12132,  16,          1) /* ItemUseable - No */
      , (12132,  25,        135) /* Level */
-     , (12132,  27,          0) /* ArmorType */
-     , (12132,  68,         13) /* TargetingTactic */
+     , (12132,  27,          0) /* ArmorType - None */
+     , (12132,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (12132,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12132, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (12132, 113,          2) /* Gender - Female */
      , (12132, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (12132, 140,          1) /* AiOptions */
+     , (12132, 140,          1) /* AiOptions - CanOpenDoors */
      , (12132, 146,     250000) /* XpOverride */
      , (12132, 188,          1) /* HeritageGroup - Aluvian */;
 

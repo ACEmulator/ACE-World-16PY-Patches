@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7094;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7094, 'lightningelementalsynnast', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7094, 'lightningelementalsynnast', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7094,   1,         16) /* ItemType - Creature */
@@ -10,12 +10,12 @@ VALUES (7094,   1,         16) /* ItemType - Creature */
      , (7094,   7,         -1) /* ContainersCapacity */
      , (7094,  16,          1) /* ItemUseable - No */
      , (7094,  25,        115) /* Level */
-     , (7094,  27,          0) /* ArmorType */
-     , (7094,  68,          5) /* TargetingTactic */
+     , (7094,  27,          0) /* ArmorType - None */
+     , (7094,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (7094,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (7094, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7094, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7094, 140,          1) /* AiOptions */
+     , (7094, 140,          1) /* AiOptions - CanOpenDoors */
      , (7094, 146,     125000) /* XpOverride */
      , (7094, 307,          5) /* DamageRating */;
 

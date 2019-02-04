@@ -1,8 +1,7 @@
-/* Weenie - Pathwarden Sollerets (33605) */
 DELETE FROM `weenie` WHERE `class_Id` = 33605;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33605, 'pathwardensollerets', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33605, 'ace33605-pathwardensollerets', 2, '2019-02-04 06:52:23') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33605,   1,          2) /* ItemType - Armor */
@@ -55,6 +54,5 @@ VALUES (33605,   1,   33554654) /* Setup */
      , (33605,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33605,  1398,   2.05) 
-     , (33605,  1482,   2.05) ;
-
+VALUES (33605,  1398,   2.05)  /* Quickness Self II */
+     , (33605,  1482,   2.05)  /* Impenetrability II */;

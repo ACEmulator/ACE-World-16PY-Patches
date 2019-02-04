@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29363;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29363, 'knighttorturer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29363, 'knighttorturer', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29363,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (29363,   1,         16) /* ItemType - Creature */
      , (29363,   7,         -1) /* ContainersCapacity */
      , (29363,  16,          1) /* ItemUseable - No */
      , (29363,  25,         20) /* Level */
-     , (29363,  27,         16) /* ArmorType */
+     , (29363,  27,         16) /* ArmorType - Chainmail */
      , (29363,  40,          2) /* CombatMode - Melee */
-     , (29363,  68,         13) /* TargetingTactic */
+     , (29363,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (29363,  72,         83) /* FriendType - ViamontianKnight */
      , (29363,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29363, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29363, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (29363, 140,          1) /* AiOptions */
+     , (29363, 140,          1) /* AiOptions - CanOpenDoors */
      , (29363, 146,       1600) /* XpOverride */
      , (29363, 188,          4) /* HeritageGroup - Viamontian */;
 
@@ -166,4 +166,4 @@ VALUES (29363, 2, 28618,  0, 19, 0, True) /* Create Diforsa Helm (28618) for Wie
      , (29363, 2, 28621,  0, 19, 0, True) /* Create Diforsa Leggings (28621) for Wield */
      , (29363, 2, 28625,  0, 19, 0, True) /* Create Diforsa Sollerets (28625) for Wield */
      , (29363, 2, 28632,  0, 19, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (29363, 2, 30948,  0, 19, 0, True) /* Create shirt armor.  Covers upper arms, chest and abdomen (30948) for Wield */;
+     , (29363, 2, 30948,  0, 19, 0, True) /* Create Diforsa Hauberk (30948) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29504;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29504, 'aurochredbullsanamar', 15) /* Cow */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29504, 'aurochredbullsanamar', 15, '2019-02-04 06:52:23') /* Cow */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29504,   1,         16) /* ItemType - Creature */
@@ -11,10 +11,10 @@ VALUES (29504,   1,         16) /* ItemType - Creature */
      , (29504,   7,         -1) /* ContainersCapacity */
      , (29504,  16,         32) /* ItemUseable - Remote */
      , (29504,  25,         30) /* Level */
-     , (29504,  27,          0) /* ArmorType */
+     , (29504,  27,          0) /* ArmorType - None */
      , (29504,  40,          2) /* CombatMode - Melee */
-     , (29504,  67,         64) /* Tolerance */
-     , (29504,  68,          5) /* TargetingTactic */
+     , (29504,  67,         64) /* Tolerance - Retaliate */
+     , (29504,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (29504,  72,         12) /* FriendType - Cow */
      , (29504,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (29504, 133,          4) /* ShowableOnRadar - ShowAlways */

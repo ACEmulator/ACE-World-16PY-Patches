@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31030;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31030, 'thrungusmudwortsnowlily', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31030, 'thrungusmudwortsnowlily', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31030,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (31030,   1,         16) /* ItemType - Creature */
      , (31030,   7,         -1) /* ContainersCapacity */
      , (31030,  16,          1) /* ItemUseable - No */
      , (31030,  25,        185) /* Level */
-     , (31030,  27,          0) /* ArmorType */
+     , (31030,  27,          0) /* ArmorType - None */
      , (31030,  40,          2) /* CombatMode - Melee */
-     , (31030,  68,          9) /* TargetingTactic */
+     , (31030,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (31030,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (31030, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (31030, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (31030, 140,          1) /* AiOptions */
+     , (31030, 140,          1) /* AiOptions - CanOpenDoors */
      , (31030, 146,     120000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -142,7 +142,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, '', NUL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31030, 0,     0,  0, 0, 0.75, False) /* Create nothing for Undef */
-     , (31030, 0, 30983,  1, 0, 0.25, False) /* Create Name Me Please (30983) for Undef */
+     , (31030, 0, 30983,  1, 0, 0.25, False) /* Create Snow Lily (30983) for Undef */
      , (31030, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (31030, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (31030, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */

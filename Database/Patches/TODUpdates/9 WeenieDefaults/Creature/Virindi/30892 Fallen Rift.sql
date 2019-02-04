@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30892;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30892, 'riftbossuber0205', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30892, 'riftbossuber0205', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30892,   1,         16) /* ItemType - Creature */
@@ -10,10 +10,10 @@ VALUES (30892,   1,         16) /* ItemType - Creature */
      , (30892,   7,         -1) /* ContainersCapacity */
      , (30892,  16,          1) /* ItemUseable - No */
      , (30892,  25,        160) /* Level */
-     , (30892,  27,          0) /* ArmorType */
+     , (30892,  27,          0) /* ArmorType - None */
      , (30892,  40,          2) /* CombatMode - Melee */
-     , (30892,  68,          5) /* TargetingTactic */
-     , (30892,  69,          4) /* CombatTactic */
+     , (30892,  68,          5) /* TargetingTactic - Random, LastDamager */
+     , (30892,  69,          4) /* CombatTactic - LastDamager */
      , (30892,  81,          4) /* MaxGeneratedObjects */
      , (30892,  82,          0) /* InitGeneratedObjects */
      , (30892,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25864;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25864, 'margulstalking', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25864, 'margulstalking', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25864,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (25864,   1,         16) /* ItemType - Creature */
      , (25864,   7,         -1) /* ContainersCapacity */
      , (25864,  16,          1) /* ItemUseable - No */
      , (25864,  25,        135) /* Level */
-     , (25864,  27,          0) /* ArmorType */
+     , (25864,  27,          0) /* ArmorType - None */
      , (25864,  40,          2) /* CombatMode - Melee */
-     , (25864,  68,          9) /* TargetingTactic */
+     , (25864,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (25864,  72,         22) /* FriendType - Shadow */
      , (25864,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25864, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (25864, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (25864, 140,          1) /* AiOptions */
+     , (25864, 140,          1) /* AiOptions - CanOpenDoors */
      , (25864, 146,     250000) /* XpOverride */
      , (25864, 307,          2) /* DamageRating */;
 

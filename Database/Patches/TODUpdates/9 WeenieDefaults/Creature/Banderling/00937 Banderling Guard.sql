@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 937;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (937, 'banderlingguard', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (937, 'banderlingguard', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (937,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (937,   1,         16) /* ItemType - Creature */
      , (937,   7,         -1) /* ContainersCapacity */
      , (937,  16,          1) /* ItemUseable - No */
      , (937,  25,         15) /* Level */
-     , (937,  27,          0) /* ArmorType */
+     , (937,  27,          0) /* ArmorType - None */
      , (937,  40,          2) /* CombatMode - Melee */
-     , (937,  68,          5) /* TargetingTactic */
+     , (937,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (937,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (937, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (937, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (937, 140,          1) /* AiOptions */
+     , (937, 140,          1) /* AiOptions - CanOpenDoors */
      , (937, 146,       2000) /* XpOverride */
      , (937, 307,          5) /* DamageRating */;
 

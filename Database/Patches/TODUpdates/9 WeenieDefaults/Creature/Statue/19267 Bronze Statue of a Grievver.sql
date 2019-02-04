@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19267;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (19267, 'statuereplicaextremegrievversmall', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (19267, 'statuereplicaextremegrievversmall', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19267,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (19267,   1,         16) /* ItemType - Creature */
      , (19267,   7,         -1) /* ContainersCapacity */
      , (19267,  16,          1) /* ItemUseable - No */
      , (19267,  25,        115) /* Level */
-     , (19267,  27,          0) /* ArmorType */
+     , (19267,  27,          0) /* ArmorType - None */
      , (19267,  40,          2) /* CombatMode - Melee */
-     , (19267,  68,         13) /* TargetingTactic */
+     , (19267,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (19267,  72,         22) /* FriendType - Shadow */
      , (19267,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19267, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (19267, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (19267, 140,          1) /* AiOptions */
+     , (19267, 140,          1) /* AiOptions - CanOpenDoors */
      , (19267, 146,     125000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

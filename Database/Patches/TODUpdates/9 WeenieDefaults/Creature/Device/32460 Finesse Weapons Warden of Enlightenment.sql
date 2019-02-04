@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32460;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32460, 'ace32460-finesseweaponswardenofenlightenment', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32460, 'ace32460-finesseweaponswardenofenlightenment', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32460,   1,         16) /* ItemType - Creature */
@@ -10,7 +10,7 @@ VALUES (32460,   1,         16) /* ItemType - Creature */
      , (32460,   7,         -1) /* ContainersCapacity */
      , (32460,   8,        120) /* Mass */
      , (32460,  16,         32) /* ItemUseable - Remote */
-     , (32460,  27,          0) /* ArmorType */
+     , (32460,  27,          0) /* ArmorType - None */
      , (32460,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32460,  95,          3) /* RadarBlipColor - White */
      , (32460, 133,          1) /* ShowableOnRadar - ShowNever */
@@ -60,4 +60,4 @@ VALUES (32460,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   3 /* Give */, 0.1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 22359 /* Dagger Gem of Enlightenment */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   3 /* Give */, 0.1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 22359 /* Finesse Weapons Gem of Enlightenment */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

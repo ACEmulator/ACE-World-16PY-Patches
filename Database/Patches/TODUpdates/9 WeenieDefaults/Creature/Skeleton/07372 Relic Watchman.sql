@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7372;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7372, 'relicbonesportal', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7372, 'relicbonesportal', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7372,   1,         16) /* ItemType - Creature */
@@ -10,16 +10,16 @@ VALUES (7372,   1,         16) /* ItemType - Creature */
      , (7372,   7,         -1) /* ContainersCapacity */
      , (7372,  16,          1) /* ItemUseable - No */
      , (7372,  25,        100) /* Level */
-     , (7372,  27,          0) /* ArmorType */
+     , (7372,  27,          0) /* ArmorType - None */
      , (7372,  40,          1) /* CombatMode - NonCombat */
-     , (7372,  68,          5) /* TargetingTactic */
+     , (7372,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (7372,  81,          2) /* MaxGeneratedObjects */
      , (7372,  82,          2) /* InitGeneratedObjects */
      , (7372,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7372, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7372, 103,          3) /* GeneratorDestructionType - Kill */
      , (7372, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7372, 140,          1) /* AiOptions */
+     , (7372, 140,          1) /* AiOptions - CanOpenDoors */
      , (7372, 146,      80000) /* XpOverride */
      , (7372, 307,          5) /* DamageRating */;
 

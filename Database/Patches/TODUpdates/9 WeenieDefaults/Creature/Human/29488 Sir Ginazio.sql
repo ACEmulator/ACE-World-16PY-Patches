@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29488;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29488, 'npcknightkarlunsirginazio', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29488, 'npcknightkarlunsirginazio', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29488,   1,         16) /* ItemType - Creature */
@@ -108,7 +108,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 1, NULL, 'Karlun would not have approved of using fiendish beasts to do our fighting...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29488,  6 /* Give */,      1, 29492 /* Long Sword */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29488,  6 /* Give */,      1, 29492 /* Sir Ginazio's Sword */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -120,7 +120,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,  67 /* Goto */, 1, 1, NULL, 'ResetFacing', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29488,  6 /* Give */,      1, 29495 /* Poem by Diyas al-Yat */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29488,  6 /* Give */,      1, 29495 /* Testament of Sir Coretto */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

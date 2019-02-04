@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30053;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30053, 'viaarchmage', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30053, 'viaarchmage', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30053,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30053,   1,         16) /* ItemType - Creature */
      , (30053,   8,        120) /* Mass */
      , (30053,  16,         32) /* ItemUseable - Remote */
      , (30053,  25,         33) /* Level */
-     , (30053,  27,          0) /* ArmorType */
+     , (30053,  27,          0) /* ArmorType - None */
      , (30053,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (30053,  75,          0) /* MerchandiseMinValue */
      , (30053,  76,      25000) /* MerchandiseMaxValue */
@@ -247,7 +247,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'I''ve dealt with you long
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30053, 2,  2547,  0, 61, 0, False) /* Create Staff (2547) for Wield */
      , (30053, 2, 28605,  0, 9, 0.05, False) /* Create Beret (28605) for Wield */
-     , (30053, 2, 28606,  0, 6, 0.4136, False) /* Create Viamontian Leggings (28606) for Wield */
+     , (30053, 2, 28606,  0, 6, 0.4136, False) /* Create Viamontian Pants (28606) for Wield */
      , (30053, 2, 28607,  0, 93, 0.5, False) /* Create Lace Shirt (28607) for Wield */
      , (30053, 2, 28611,  0, 6, 0, False) /* Create Viamontian Laced Boots (28611) for Wield */
      , (30053, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
@@ -429,5 +429,5 @@ VALUES (30053, 2,  2547,  0, 61, 0, False) /* Create Staff (2547) for Wield */
      , (30053, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (30053, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
      , (30053, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
-     , (30053, 4, 28614, -1, 11, 0.51, False) /* Create Hooded Vestiri Robe (28614) for Shop */
-     , (30053, 4, 28615, -1, 10, 0.51, False) /* Create Non-hooded Vestiri Robe (28615) for Shop */;
+     , (30053, 4, 28614, -1, 11, 0.51, False) /* Create Vestiri Robe with Hood (28614) for Shop */
+     , (30053, 4, 28615, -1, 10, 0.51, False) /* Create Vestiri Robe (28615) for Shop */;

@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31228;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31228, 'ace31228-runicdoorguardian', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31228, 'ace31228-runicdoorguardian', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31228,   1,         16) /* ItemType - Creature */
      , (31228,   6,         -1) /* ItemsCapacity */
      , (31228,   7,         -1) /* ContainersCapacity */
      , (31228,  16,         32) /* ItemUseable - Remote */
-     , (31228,  67,         40) /* Tolerance */
+     , (31228,  67,         40) /* Tolerance - Provoke, Target */
      , (31228,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31228,  95,          3) /* RadarBlipColor - White */;
 

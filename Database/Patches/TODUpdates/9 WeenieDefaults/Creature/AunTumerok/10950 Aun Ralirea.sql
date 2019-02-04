@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10950;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (10950, 'tumerokchampionralirea_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (10950, 'tumerokchampionralirea_xp', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10950,   1,         16) /* ItemType - Creature */
@@ -11,16 +11,16 @@ VALUES (10950,   1,         16) /* ItemType - Creature */
      , (10950,   7,         -1) /* ContainersCapacity */
      , (10950,  16,          1) /* ItemUseable - No */
      , (10950,  25,         80) /* Level */
-     , (10950,  27,          0) /* ArmorType */
-     , (10950,  67,         64) /* Tolerance */
-     , (10950,  68,          5) /* TargetingTactic */
+     , (10950,  27,          0) /* ArmorType - None */
+     , (10950,  67,         64) /* Tolerance - Retaliate */
+     , (10950,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (10950,  81,          4) /* MaxGeneratedObjects */
      , (10950,  82,          4) /* InitGeneratedObjects */
      , (10950,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10950, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (10950, 103,          3) /* GeneratorDestructionType - Kill */
      , (10950, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (10950, 140,          1) /* AiOptions */
+     , (10950, 140,          1) /* AiOptions - CanOpenDoors */
      , (10950, 146,      30000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

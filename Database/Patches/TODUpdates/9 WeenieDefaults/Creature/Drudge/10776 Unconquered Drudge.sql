@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10776;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (10776, 'drudgeunconquered', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (10776, 'drudgeunconquered', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10776,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (10776,   1,         16) /* ItemType - Creature */
      , (10776,   7,         -1) /* ContainersCapacity */
      , (10776,  16,          1) /* ItemUseable - No */
      , (10776,  25,        115) /* Level */
-     , (10776,  27,          0) /* ArmorType */
+     , (10776,  27,          0) /* ArmorType - None */
      , (10776,  40,          2) /* CombatMode - Melee */
-     , (10776,  68,          9) /* TargetingTactic */
+     , (10776,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (10776,  72,         19) /* FriendType - Virindi */
      , (10776,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10776, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (10776, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (10776, 140,          1) /* AiOptions */
+     , (10776, 140,          1) /* AiOptions - CanOpenDoors */
      , (10776, 146,     125000) /* XpOverride */
      , (10776, 307,          5) /* DamageRating */;
 

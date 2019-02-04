@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30937;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30937, 'eaterswordswallower', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30937, 'eaterswordswallower', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30937,   1,         16) /* ItemType - Creature */
@@ -11,9 +11,9 @@ VALUES (30937,   1,         16) /* ItemType - Creature */
      , (30937,   7,         -1) /* ContainersCapacity */
      , (30937,  16,          1) /* ItemUseable - No */
      , (30937,  25,         80) /* Level */
-     , (30937,  27,          0) /* ArmorType */
+     , (30937,  27,          0) /* ArmorType - None */
      , (30937,  40,          2) /* CombatMode - Melee */
-     , (30937,  68,          9) /* TargetingTactic */
+     , (30937,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (30937,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (30937, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30937, 146,      30000) /* XpOverride */;
@@ -166,11 +166,11 @@ VALUES (30937, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasu
      , (30937, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (30937, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (30937, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (30937, 9, 28732,  0, 0, 0.01, False) /* Create Name Me Please (28732) for ContainTreasure */
-     , (30937, 9, 28733,  0, 0, 0.01, False) /* Create Name Me Please (28733) for ContainTreasure */
-     , (30937, 9, 28734,  0, 0, 0.01, False) /* Create Name Me Please (28734) for ContainTreasure */
-     , (30937, 9, 28735,  0, 0, 0.01, False) /* Create Name Me Please (28735) for ContainTreasure */
-     , (30937, 9, 28736,  0, 0, 0.01, False) /* Create Name Me Please (28736) for ContainTreasure */
-     , (30937, 9, 28737,  0, 0, 0.01, False) /* Create Name Me Please (28737) for ContainTreasure */
-     , (30937, 9, 28738,  0, 0, 0.01, False) /* Create Name Me Please (28738) for ContainTreasure */
-     , (30937, 9, 29492,  0, 0, 1, False) /* Create Long Sword (29492) for ContainTreasure */;
+     , (30937, 9, 28732,  0, 0, 0.01, False) /* Create Aluvian Leg (28732) for ContainTreasure */
+     , (30937, 9, 28733,  0, 0, 0.01, False) /* Create Gharu'ndim Arm (28733) for ContainTreasure */
+     , (30937, 9, 28734,  0, 0, 0.01, False) /* Create Sho Brain (28734) for ContainTreasure */
+     , (30937, 9, 28735,  0, 0, 0.01, False) /* Create Viamontian Torso (28735) for ContainTreasure */
+     , (30937, 9, 28736,  0, 0, 0.01, False) /* Create Penguin Wing (28736) for ContainTreasure */
+     , (30937, 9, 28737,  0, 0, 0.01, False) /* Create Rusty Lugian Axe (28737) for ContainTreasure */
+     , (30937, 9, 28738,  0, 0, 0.01, False) /* Create Half-Digested Virindi Mask (28738) for ContainTreasure */
+     , (30937, 9, 29492,  0, 0, 1, False) /* Create Sir Ginazio's Sword (29492) for ContainTreasure */;

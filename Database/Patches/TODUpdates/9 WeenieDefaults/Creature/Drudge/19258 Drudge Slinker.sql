@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19258;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (19258, 'drudgeslinker_noaggro', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (19258, 'drudgeslinker_noaggro', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19258,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (19258,   1,         16) /* ItemType - Creature */
      , (19258,   7,         -1) /* ContainersCapacity */
      , (19258,  16,          1) /* ItemUseable - No */
      , (19258,  25,          8) /* Level */
-     , (19258,  27,          0) /* ArmorType */
+     , (19258,  27,          0) /* ArmorType - None */
      , (19258,  40,          2) /* CombatMode - Melee */
-     , (19258,  67,         64) /* Tolerance */
-     , (19258,  68,          9) /* TargetingTactic */
+     , (19258,  67,         64) /* Tolerance - Retaliate */
+     , (19258,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (19258,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19258, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (19258, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (19258, 140,          1) /* AiOptions */
+     , (19258, 140,          1) /* AiOptions - CanOpenDoors */
      , (19258, 146,       1000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

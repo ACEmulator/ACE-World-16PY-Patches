@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7371;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7371, 'hellfirelethe', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7371, 'hellfirelethe', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7371,   1,         16) /* ItemType - Creature */
@@ -10,12 +10,12 @@ VALUES (7371,   1,         16) /* ItemType - Creature */
      , (7371,   7,         -1) /* ContainersCapacity */
      , (7371,  16,          1) /* ItemUseable - No */
      , (7371,  25,        100) /* Level */
-     , (7371,  27,          0) /* ArmorType */
-     , (7371,  68,          5) /* TargetingTactic */
+     , (7371,  27,          0) /* ArmorType - None */
+     , (7371,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (7371,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (7371, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7371, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7371, 140,          1) /* AiOptions */
+     , (7371, 140,          1) /* AiOptions - CanOpenDoors */
      , (7371, 146,      80000) /* XpOverride */
      , (7371, 307,          7) /* DamageRating */;
 

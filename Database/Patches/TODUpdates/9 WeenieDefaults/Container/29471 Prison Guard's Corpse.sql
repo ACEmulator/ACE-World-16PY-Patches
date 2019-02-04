@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29471;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29471, 'corpseknightprisonguard', 21) /* Container */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29471, 'corpseknightprisonguard', 21, '2019-02-04 06:52:23') /* Container */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29471,   1,        512) /* ItemType - Container */
@@ -42,4 +42,4 @@ VALUES (29471,   1,   33555323) /* Setup */
      , (29471,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29471, -1, 29478, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Note to my late captors (29478) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
+VALUES (29471, -1, 29478, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Note to a generous host (29478) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

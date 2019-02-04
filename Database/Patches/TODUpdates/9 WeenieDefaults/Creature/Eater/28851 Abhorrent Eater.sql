@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28851;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28851, 'eaterabhorrentjawdropper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28851, 'eaterabhorrentjawdropper', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28851,   1,         16) /* ItemType - Creature */
@@ -11,9 +11,9 @@ VALUES (28851,   1,         16) /* ItemType - Creature */
      , (28851,   7,         -1) /* ContainersCapacity */
      , (28851,  16,          1) /* ItemUseable - No */
      , (28851,  25,        115) /* Level */
-     , (28851,  27,          0) /* ArmorType */
+     , (28851,  27,          0) /* ArmorType - None */
      , (28851,  40,          2) /* CombatMode - Melee */
-     , (28851,  68,          9) /* TargetingTactic */
+     , (28851,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (28851,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28851, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (28851, 146,     125000) /* XpOverride */;
@@ -168,13 +168,13 @@ VALUES (28851, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasu
      , (28851, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (28851, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (28851, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (28851, 9, 28727,  0, 0, 1, False) /* Create Name Me Please (28727) for ContainTreasure */
-     , (28851, 9, 28731,  0, 0, 0.01, False) /* Create Name Me Please (28731) for ContainTreasure */
-     , (28851, 9, 28732,  0, 0, 0.01, False) /* Create Name Me Please (28732) for ContainTreasure */
-     , (28851, 9, 28733,  0, 0, 0.01, False) /* Create Name Me Please (28733) for ContainTreasure */
-     , (28851, 9, 28734,  0, 0, 0.01, False) /* Create Name Me Please (28734) for ContainTreasure */
-     , (28851, 9, 28735,  0, 0, 0.01, False) /* Create Name Me Please (28735) for ContainTreasure */
-     , (28851, 9, 28736,  0, 0, 0.01, False) /* Create Name Me Please (28736) for ContainTreasure */
-     , (28851, 9, 28737,  0, 0, 0.01, False) /* Create Name Me Please (28737) for ContainTreasure */
-     , (28851, 9, 28738,  0, 0, 0.01, False) /* Create Name Me Please (28738) for ContainTreasure */
+     , (28851, 9, 28727,  0, 0, 1, False) /* Create Abhorrent Eater Jaw (28727) for ContainTreasure */
+     , (28851, 9, 28731,  0, 0, 0.01, False) /* Create Identification Plate (28731) for ContainTreasure */
+     , (28851, 9, 28732,  0, 0, 0.01, False) /* Create Aluvian Leg (28732) for ContainTreasure */
+     , (28851, 9, 28733,  0, 0, 0.01, False) /* Create Gharu'ndim Arm (28733) for ContainTreasure */
+     , (28851, 9, 28734,  0, 0, 0.01, False) /* Create Sho Brain (28734) for ContainTreasure */
+     , (28851, 9, 28735,  0, 0, 0.01, False) /* Create Viamontian Torso (28735) for ContainTreasure */
+     , (28851, 9, 28736,  0, 0, 0.01, False) /* Create Penguin Wing (28736) for ContainTreasure */
+     , (28851, 9, 28737,  0, 0, 0.01, False) /* Create Rusty Lugian Axe (28737) for ContainTreasure */
+     , (28851, 9, 28738,  0, 0, 0.01, False) /* Create Half-Digested Virindi Mask (28738) for ContainTreasure */
      , (28851, 9, 34276,  0, 0, 0.01, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */;

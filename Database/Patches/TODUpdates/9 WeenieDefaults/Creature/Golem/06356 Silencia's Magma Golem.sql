@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6356;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (6356, 'craterlakemagma', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6356, 'craterlakemagma', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6356,   1,         16) /* ItemType - Creature */
@@ -10,7 +10,7 @@ VALUES (6356,   1,         16) /* ItemType - Creature */
      , (6356,   7,         -1) /* ContainersCapacity */
      , (6356,  16,         32) /* ItemUseable - Remote */
      , (6356,  25,         49) /* Level */
-     , (6356,  27,          0) /* ArmorType */
+     , (6356,  27,          0) /* ArmorType - None */
      , (6356,  40,          2) /* CombatMode - Melee */
      , (6356,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (6356,  95,          8) /* RadarBlipColor - Yellow */
@@ -165,7 +165,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 21962 /* Hollow Crossbow */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (6356,  6 /* Give */,      1, 19523 /* Perfect Isparian Staff Ingot */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (6356,  6 /* Give */,      1, 19523 /* Perfect Isparian Heavy Weapons Ingot */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -258,7 +258,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  3,   5 /* Motion */, 1, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (6356,  6 /* Give */,      1, 19503 /* Perfect Isparian Crossbow Ingot */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (6356,  6 /* Give */,      1, 19503 /* Perfect Isparian Missile Weapons Ingot */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -309,7 +309,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 6331 /* Quality Pyreal Ingot */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (6356,  6 /* Give */,      1, 19530 /* Perfect Isparian Wand Ingot */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (6356,  6 /* Give */,      1, 19530 /* Perfect Isparian Magic Ingot */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -339,7 +339,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (6356,  6 /* Give */,      1, 19507 /* Perfect Isparian Dagger Ingot */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (6356,  6 /* Give */,      1, 19507 /* Perfect Isparian Finesse Weapons Ingot */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -496,7 +496,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,   5 /* Motion */, 1, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (6356,  6 /* Give */,      1, 19519 /* Perfect Isparian Spear Ingot */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (6356,  6 /* Give */,      1, 19519 /* Perfect Isparian Light Weapons Ingot */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

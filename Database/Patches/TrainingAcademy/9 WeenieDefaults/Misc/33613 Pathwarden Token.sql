@@ -1,8 +1,8 @@
 /* Weenie - MiscObjects - Pathwarden Token (33613) */
 DELETE FROM weenie WHERE class_Id = 33613;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('33613', 'pathwardentoken', 1) /* Generic */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES ('33613', 'pathwardentoken', 1, '2019-02-04 06:52:23') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33613,   1,        128) /* ItemType - Misc */

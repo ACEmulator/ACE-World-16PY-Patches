@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20186;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (20186, 'acidelementalapozim', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (20186, 'acidelementalapozim', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20186,   1,         16) /* ItemType - Creature */
@@ -10,12 +10,12 @@ VALUES (20186,   1,         16) /* ItemType - Creature */
      , (20186,   7,         -1) /* ContainersCapacity */
      , (20186,  16,          1) /* ItemUseable - No */
      , (20186,  25,         80) /* Level */
-     , (20186,  27,          0) /* ArmorType */
-     , (20186,  68,          5) /* TargetingTactic */
+     , (20186,  27,          0) /* ArmorType - None */
+     , (20186,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (20186,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (20186, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (20186, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (20186, 140,          1) /* AiOptions */
+     , (20186, 140,          1) /* AiOptions - CanOpenDoors */
      , (20186, 146,      30000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

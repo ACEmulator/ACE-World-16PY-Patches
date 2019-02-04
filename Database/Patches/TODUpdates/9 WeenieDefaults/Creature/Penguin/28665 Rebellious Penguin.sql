@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28665;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28665, 'penguinrebellious', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28665, 'penguinrebellious', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28665,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (28665,   1,         16) /* ItemType - Creature */
      , (28665,   7,         -1) /* ContainersCapacity */
      , (28665,  16,          1) /* ItemUseable - No */
      , (28665,  25,         15) /* Level */
-     , (28665,  27,          0) /* ArmorType */
+     , (28665,  27,          0) /* ArmorType - None */
      , (28665,  40,          2) /* CombatMode - Melee */
-     , (28665,  68,          9) /* TargetingTactic */
+     , (28665,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (28665,  72,         80) /* FriendType - Penguin */
      , (28665,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28665, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (28665, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28665, 140,          1) /* AiOptions */
+     , (28665, 140,          1) /* AiOptions - CanOpenDoors */
      , (28665, 146,       2000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -137,4 +137,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28665, 8,     0,  0, 0, 0.93, False) /* Create nothing for Treasure */
-     , (28665, 8, 28741,  0, 0, 0.07, False) /* Create Name Me Please (28741) for Treasure */;
+     , (28665, 8, 28741,  0, 0, 0.07, False) /* Create Rebellious Penguin Beak (28741) for Treasure */;

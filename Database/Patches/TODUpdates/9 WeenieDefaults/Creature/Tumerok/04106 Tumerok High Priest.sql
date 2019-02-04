@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4106;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4106, 'tumerokhighpriestarcher', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4106, 'tumerokhighpriestarcher', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4106,   1,         16) /* ItemType - Creature */
@@ -11,12 +11,12 @@ VALUES (4106,   1,         16) /* ItemType - Creature */
      , (4106,   7,         -1) /* ContainersCapacity */
      , (4106,  16,          1) /* ItemUseable - No */
      , (4106,  25,        100) /* Level */
-     , (4106,  27,          0) /* ArmorType */
-     , (4106,  68,          5) /* TargetingTactic */
+     , (4106,  27,          0) /* ArmorType - None */
+     , (4106,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (4106,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4106, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (4106, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4106, 140,          1) /* AiOptions */
+     , (4106, 140,          1) /* AiOptions - CanOpenDoors */
      , (4106, 146,      80000) /* XpOverride */
      , (4106, 307,          5) /* DamageRating */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31280;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31280, 'ace31280-twistedshadow', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31280, 'ace31280-twistedshadow', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31280,   1,         16) /* ItemType - Creature */
@@ -12,12 +12,12 @@ VALUES (31280,   1,         16) /* ItemType - Creature */
      , (31280,   8,         90) /* Mass */
      , (31280,  16,          1) /* ItemUseable - No */
      , (31280,  25,        160) /* Level */
-     , (31280,  27,          0) /* ArmorType */
-     , (31280,  68,          3) /* TargetingTactic */
+     , (31280,  27,          0) /* ArmorType - None */
+     , (31280,  68,          3) /* TargetingTactic - Random, Focused */
      , (31280,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (31280, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (31280, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (31280, 140,          1) /* AiOptions */
+     , (31280, 140,          1) /* AiOptions - CanOpenDoors */
      , (31280, 146,     500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30032;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30032, 'sanamarscribe', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30032, 'sanamarscribe', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30032,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30032,   1,         16) /* ItemType - Creature */
      , (30032,   8,        120) /* Mass */
      , (30032,  16,         32) /* ItemUseable - Remote */
      , (30032,  25,          6) /* Level */
-     , (30032,  27,          0) /* ArmorType */
+     , (30032,  27,          0) /* ArmorType - None */
      , (30032,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (30032,  75,          0) /* MerchandiseMinValue */
      , (30032,  76,      25000) /* MerchandiseMaxValue */
@@ -246,7 +246,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Leave my sight.', NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30032, 2,  2547,  0, 9, 1, False) /* Create Staff (2547) for Wield */
      , (30032, 2, 13239,  0, 15, 0.5, False) /* Create Leather Cap (13239) for Wield */
-     , (30032, 2, 28615,  0, 15, 0.3929, False) /* Create Non-hooded Vestiri Robe (28615) for Wield */
+     , (30032, 2, 28615,  0, 15, 0.3929, False) /* Create Vestiri Robe (28615) for Wield */
      , (30032, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (30032, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (30032, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */

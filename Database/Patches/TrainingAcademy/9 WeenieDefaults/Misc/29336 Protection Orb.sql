@@ -1,8 +1,8 @@
 /* Weenie - MiscObjects - Protection Orb (29336) */
 DELETE FROM weenie WHERE class_Id = 29336;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29336, 'orbolthoitraining', 1) /* Generic */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29336, 'orbolthoitraining', 1, '2019-02-04 06:52:23') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29336,   1,        128) /* ItemType - Misc */

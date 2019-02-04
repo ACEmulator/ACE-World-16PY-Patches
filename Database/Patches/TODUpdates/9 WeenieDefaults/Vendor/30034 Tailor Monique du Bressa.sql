@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30034;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30034, 'sanamartailor', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30034, 'sanamartailor', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30034,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30034,   1,         16) /* ItemType - Creature */
      , (30034,   8,        120) /* Mass */
      , (30034,  16,         32) /* ItemUseable - Remote */
      , (30034,  25,          6) /* Level */
-     , (30034,  27,          0) /* ArmorType */
+     , (30034,  27,          0) /* ArmorType - None */
      , (30034,  74,     262148) /* MerchandiseItemTypes - Clothing, PromissoryNote */
      , (30034,  75,          0) /* MerchandiseMinValue */
      , (30034,  76,      25000) /* MerchandiseMaxValue */
@@ -262,7 +262,7 @@ VALUES (30034, 2,   118,  0, 6, 0.5, False) /* Create Cap (118) for Wield */
      , (30034, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30034, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (30034, 4, 28605, -1, 14, 0, False) /* Create Beret (28605) for Shop */
-     , (30034, 4, 28606, -1, 85, 0, False) /* Create Viamontian Leggings (28606) for Shop */
+     , (30034, 4, 28606, -1, 85, 0, False) /* Create Viamontian Pants (28606) for Shop */
      , (30034, 4, 28607, -1, 14, 0, False) /* Create Lace Shirt (28607) for Shop */
      , (30034, 4, 28608, -1, 85, 0, False) /* Create Poet's Shirt (28608) for Shop */
      , (30034, 4, 28609, -1, 16, 0, False) /* Create Vest (28609) for Shop */
@@ -270,6 +270,6 @@ VALUES (30034, 2,   118,  0, 6, 0.5, False) /* Create Cap (118) for Wield */
      , (30034, 4, 28611, -1, 4, 0, False) /* Create Viamontian Laced Boots (28611) for Shop */
      , (30034, 4, 28612, -1, 14, 0, False) /* Create Bandana (28612) for Shop */
      , (30034, 4, 28613, -1, 0, 0, False) /* Create Tessera Gown (28613) for Shop */
-     , (30034, 4, 28614, -1, 14, 0.3571, False) /* Create Hooded Vestiri Robe (28614) for Shop */
-     , (30034, 4, 28615, -1, 14, 0.6429, False) /* Create Non-hooded Vestiri Robe (28615) for Shop */
+     , (30034, 4, 28614, -1, 14, 0.3571, False) /* Create Vestiri Robe with Hood (28614) for Shop */
+     , (30034, 4, 28615, -1, 14, 0.6429, False) /* Create Vestiri Robe (28615) for Shop */
      , (30034, 4, 28616, -1, 14, 0, False) /* Create Toga (28616) for Shop */;

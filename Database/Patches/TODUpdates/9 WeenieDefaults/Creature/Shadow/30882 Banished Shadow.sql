@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30882;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30882, 'shadowbossmid0205', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30882, 'shadowbossmid0205', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30882,   1,         16) /* ItemType - Creature */
@@ -12,13 +12,13 @@ VALUES (30882,   1,         16) /* ItemType - Creature */
      , (30882,   8,         90) /* Mass */
      , (30882,  16,          1) /* ItemUseable - No */
      , (30882,  25,         80) /* Level */
-     , (30882,  27,          0) /* ArmorType */
-     , (30882,  68,          3) /* TargetingTactic */
+     , (30882,  27,          0) /* ArmorType - None */
+     , (30882,  68,          3) /* TargetingTactic - Random, Focused */
      , (30882,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (30882, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (30882, 113,          2) /* Gender - Female */
      , (30882, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (30882, 140,          1) /* AiOptions */
+     , (30882, 140,          1) /* AiOptions - CanOpenDoors */
      , (30882, 146,      30000) /* XpOverride */
      , (30882, 188,          1) /* HeritageGroup - Aluvian */;
 

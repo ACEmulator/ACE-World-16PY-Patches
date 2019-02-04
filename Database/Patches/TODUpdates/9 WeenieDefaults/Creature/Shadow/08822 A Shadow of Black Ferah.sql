@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8822;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8822, 'blackferahkillable', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8822, 'blackferahkillable', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8822,   1,         16) /* ItemType - Creature */
@@ -12,13 +12,13 @@ VALUES (8822,   1,         16) /* ItemType - Creature */
      , (8822,   8,         90) /* Mass */
      , (8822,  16,          1) /* ItemUseable - No */
      , (8822,  25,        135) /* Level */
-     , (8822,  27,          0) /* ArmorType */
-     , (8822,  68,          3) /* TargetingTactic */
+     , (8822,  27,          0) /* ArmorType - None */
+     , (8822,  68,          3) /* TargetingTactic - Random, Focused */
      , (8822,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8822, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8822, 113,          2) /* Gender - Female */
      , (8822, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (8822, 140,          1) /* AiOptions */
+     , (8822, 140,          1) /* AiOptions - CanOpenDoors */
      , (8822, 146,     250000) /* XpOverride */
      , (8822, 188,          1) /* HeritageGroup - Aluvian */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28837;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28837, 'penguincave', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28837, 'penguincave', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28837,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (28837,   1,         16) /* ItemType - Creature */
      , (28837,   7,         -1) /* ContainersCapacity */
      , (28837,  16,          1) /* ItemUseable - No */
      , (28837,  25,        115) /* Level */
-     , (28837,  27,          0) /* ArmorType */
+     , (28837,  27,          0) /* ArmorType - None */
      , (28837,  40,          2) /* CombatMode - Melee */
-     , (28837,  68,          9) /* TargetingTactic */
+     , (28837,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (28837,  72,         80) /* FriendType - Penguin */
      , (28837,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28837, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (28837, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28837, 140,          1) /* AiOptions */
+     , (28837, 140,          1) /* AiOptions - CanOpenDoors */
      , (28837, 146,     125000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -138,4 +138,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28837, 8,     0,  0, 0, 0.9, False) /* Create nothing for Treasure */
-     , (28837, 8, 28840,  0, 0, 0.1, False) /* Create Skeleton's Skull (28840) for Treasure */;
+     , (28837, 8, 28840,  0, 0, 0.1, False) /* Create Cave Penguin Egg (28840) for Treasure */;

@@ -1,8 +1,8 @@
 /* Weenie - Viamontian Pathwarden Chest (33612) */
 DELETE FROM weenie WHERE class_Id = 33612;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33612, 'chestviamontianpathwarden', 20) /* Chest */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33612, 'chestviamontianpathwarden', 20, '2019-02-04 06:52:23') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33612,   1,        512) /* ItemType - Container */

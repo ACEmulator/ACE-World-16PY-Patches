@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 619;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (619, 'zombierevenant', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (619, 'zombierevenant', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (619,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (619,   1,         16) /* ItemType - Creature */
      , (619,   7,         -1) /* ContainersCapacity */
      , (619,  16,          1) /* ItemUseable - No */
      , (619,  25,         60) /* Level */
-     , (619,  27,          0) /* ArmorType */
+     , (619,  27,          0) /* ArmorType - None */
      , (619,  40,          1) /* CombatMode - NonCombat */
-     , (619,  68,          3) /* TargetingTactic */
+     , (619,  68,          3) /* TargetingTactic - Random, Focused */
      , (619,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (619, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (619, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (619, 140,          1) /* AiOptions */
+     , (619, 140,          1) /* AiOptions - CanOpenDoors */
      , (619, 146,      17500) /* XpOverride */
      , (619, 307,          5) /* DamageRating */;
 

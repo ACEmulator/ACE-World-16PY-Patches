@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30068;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30068, 'silyunjeweler', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30068, 'silyunjeweler', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30068,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30068,   1,         16) /* ItemType - Creature */
      , (30068,   8,        120) /* Mass */
      , (30068,  16,         32) /* ItemUseable - Remote */
      , (30068,  25,          3) /* Level */
-     , (30068,  27,          0) /* ArmorType */
+     , (30068,  27,          0) /* ArmorType - None */
      , (30068,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */
      , (30068,  75,          0) /* MerchandiseMinValue */
      , (30068,  76,     100000) /* MerchandiseMaxValue */
@@ -201,7 +201,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Welcome!', NULL, NULL, NU
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30068, 2, 10696,  0, 90, 0, False) /* Create Apron (10696) for Wield */
      , (30068, 2, 28605,  0, 88, 0, False) /* Create Beret (28605) for Wield */
-     , (30068, 2, 28606,  0, 14, 0, False) /* Create Viamontian Leggings (28606) for Wield */
+     , (30068, 2, 28606,  0, 14, 0, False) /* Create Viamontian Pants (28606) for Wield */
      , (30068, 2, 28607,  0, 88, 0, False) /* Create Lace Shirt (28607) for Wield */
      , (30068, 2, 28611,  0, 39, 1, False) /* Create Viamontian Laced Boots (28611) for Wield */
      , (30068, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */

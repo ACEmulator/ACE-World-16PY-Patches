@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29489;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29489, 'knightkarlunsirbelfelor', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29489, 'knightkarlunsirbelfelor', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29489,   1,         16) /* ItemType - Creature */
@@ -10,16 +10,16 @@ VALUES (29489,   1,         16) /* ItemType - Creature */
      , (29489,   7,         -1) /* ContainersCapacity */
      , (29489,  16,         32) /* ItemUseable - Remote */
      , (29489,  25,         80) /* Level */
-     , (29489,  27,          0) /* ArmorType */
+     , (29489,  27,          0) /* ArmorType - None */
      , (29489,  40,          2) /* CombatMode - Melee */
-     , (29489,  67,         64) /* Tolerance */
-     , (29489,  68,          9) /* TargetingTactic */
+     , (29489,  67,         64) /* Tolerance - Retaliate */
+     , (29489,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (29489,  72,          1) /* FriendType - Olthoi */
      , (29489,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29489, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (29489, 113,          1) /* Gender - Male */
      , (29489, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (29489, 140,          1) /* AiOptions */
+     , (29489, 140,          1) /* AiOptions - CanOpenDoors */
      , (29489, 146,      11500) /* XpOverride */
      , (29489, 188,          4) /* HeritageGroup - Viamontian */;
 
@@ -177,9 +177,9 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You may have fooled Sir Gin
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29489, 2, 28620,  1, 20, 0.726, False) /* Create Alduressa Leggings (28620) for Wield */
      , (29489, 2, 28629,  1, 20, 0.726, False) /* Create Alduressa Coat (28629) for Wield */
-     , (29489, 2, 30950,  1, 20, 0.726, False) /* Create Template for boots.  Covers feet and lower legs. (30950) for Wield */
+     , (29489, 2, 30950,  1, 20, 0.726, False) /* Create Alduressa Boots (30950) for Wield */
      , (29489, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (29489, 9, 29493, -1, 0, 1, True) /* Create Ring (29493) for ContainTreasure */
+     , (29489, 9, 29493, -1, 0, 1, True) /* Create Ring of Karlun (29493) for ContainTreasure */
      , (29489, 10, 12083,  1, 0, 0.25, True) /* Create Bandit Yaoji (12083) for WieldTreasure */
      , (29489, 10, 12084,  1, 0, 0.25, False) /* Create Bandit Lightning Yaoji (12084) for WieldTreasure */
      , (29489, 10, 12085,  1, 0, 0.25, False) /* Create Bandit Flaming Yaoji (12085) for WieldTreasure */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14879;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14879, 'thermicelementalsirroccoboss', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14879, 'thermicelementalsirroccoboss', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14879,   1,         16) /* ItemType - Creature */
@@ -10,12 +10,12 @@ VALUES (14879,   1,         16) /* ItemType - Creature */
      , (14879,   7,         -1) /* ContainersCapacity */
      , (14879,  16,          1) /* ItemUseable - No */
      , (14879,  25,        115) /* Level */
-     , (14879,  27,          0) /* ArmorType */
-     , (14879,  68,          5) /* TargetingTactic */
+     , (14879,  27,          0) /* ArmorType - None */
+     , (14879,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (14879,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (14879, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (14879, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (14879, 140,          1) /* AiOptions */
+     , (14879, 140,          1) /* AiOptions - CanOpenDoors */
      , (14879, 146,     125000) /* XpOverride */
      , (14879, 307,          5) /* DamageRating */;
 

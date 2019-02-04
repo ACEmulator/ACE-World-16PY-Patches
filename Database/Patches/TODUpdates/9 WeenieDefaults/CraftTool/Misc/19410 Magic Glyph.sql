@@ -1,20 +1,12 @@
---
--- Current Database: `ace_world`
---
+DELETE FROM `weenie` WHERE `class_Id` = 19410;
 
-USE `ace_world`;
-
-/* Weenie - CraftTool - Magic Glyph (19410) */
-DELETE FROM weenie WHERE class_Id = 19410;
-
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (19410, 'glyphnewwand', 44) /* CraftTool */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (19410, 'glyphnewwand', 44, '2019-02-04 06:52:23') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19410,   1,        128) /* ItemType - Misc */
      , (19410,   5,         10) /* EncumbranceVal */
      , (19410,   8,         10) /* Mass */
-     , (19410,   9,          0) /* ValidLocations - None */
      , (19410,  11,          1) /* MaxStackSize */
      , (19410,  12,          1) /* StackSize */
      , (19410,  13,         10) /* StackUnitEncumbrance */
@@ -32,7 +24,7 @@ VALUES (19410,  22, True ) /* Inscribable */
      , (19410,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19410,  39,     0.2) /* DefaultScale */;
+VALUES (19410,  39, 0.200000002980232) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19410,   1, 'Magic Glyph') /* Name */

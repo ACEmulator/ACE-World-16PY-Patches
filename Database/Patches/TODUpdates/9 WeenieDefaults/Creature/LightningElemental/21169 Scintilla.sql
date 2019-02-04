@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21169;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (21169, 'lightningelementalscintilla_nosummon', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (21169, 'lightningelementalscintilla_nosummon', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21169,   1,         16) /* ItemType - Creature */
@@ -10,12 +10,12 @@ VALUES (21169,   1,         16) /* ItemType - Creature */
      , (21169,   7,         -1) /* ContainersCapacity */
      , (21169,  16,          1) /* ItemUseable - No */
      , (21169,  25,         60) /* Level */
-     , (21169,  27,          0) /* ArmorType */
-     , (21169,  68,          5) /* TargetingTactic */
+     , (21169,  27,          0) /* ArmorType - None */
+     , (21169,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (21169,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (21169, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (21169, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (21169, 140,          1) /* AiOptions */
+     , (21169, 140,          1) /* AiOptions - CanOpenDoors */
      , (21169, 146,      17500) /* XpOverride */
      , (21169, 307,          2) /* DamageRating */;
 

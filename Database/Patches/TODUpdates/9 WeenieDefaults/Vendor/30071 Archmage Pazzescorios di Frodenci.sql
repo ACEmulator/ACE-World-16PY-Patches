@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30071;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30071, 'silyunarchmage', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30071, 'silyunarchmage', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30071,   1,         16) /* ItemType - Creature */
@@ -183,7 +183,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'These are not toys to be played with. Are you certain of your choice? I ask only because you have the look of a dullard.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30071, 2, 28614,  0, 15, 0.5172, False) /* Create Hooded Vestiri Robe (28614) for Wield */
+VALUES (30071, 2, 28614,  0, 15, 0.5172, False) /* Create Vestiri Robe with Hood (28614) for Wield */
      , (30071, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (30071, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (30071, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
@@ -291,7 +291,7 @@ VALUES (30071, 2, 28614,  0, 15, 0.5172, False) /* Create Hooded Vestiri Robe (2
      , (30071, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
      , (30071, 4, 27330, -1, 0, 0, False) /* Create Moderate Mana Stone (27330) for Shop */
      , (30071, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
-     , (30071, 4, 31204, -1, 93, 0.0714, False) /* Create  (31204) for Shop */
+     , (30071, 4, 31204, -1, 93, 0.0714, False) /* Create Suikan War Master Robe (31204) for Shop */
      , (30071, 4, 31205, -1, 93, 0.0714, False) /* Create Vestiri Creature Master Robe (31205) for Shop */
      , (30071, 4, 31206, -1, 93, 0.0714, False) /* Create Vestiri Item Master Robe (31206) for Shop */
      , (30071, 4, 31207, -1, 93, 0.0714, False) /* Create Vestiri Life Master Robe (31207) for Shop */

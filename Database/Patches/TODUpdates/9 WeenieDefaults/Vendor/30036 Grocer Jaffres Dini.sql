@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30036;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30036, 'sanamargrocer', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30036, 'sanamargrocer', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30036,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30036,   1,         16) /* ItemType - Creature */
      , (30036,   8,        120) /* Mass */
      , (30036,  16,         32) /* ItemUseable - Remote */
      , (30036,  25,          6) /* Level */
-     , (30036,  27,          0) /* ArmorType */
+     , (30036,  27,          0) /* ArmorType - None */
      , (30036,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (30036,  75,          0) /* MerchandiseMinValue */
      , (30036,  76,      25000) /* MerchandiseMaxValue */
@@ -273,13 +273,13 @@ VALUES (30036, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (30036, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (30036, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
      , (30036, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */
-     , (30036, 4, 29123, -1, 0, 0, False) /* Create Name Me Please (29123) for Shop */
-     , (30036, 4, 29124, -1, 0, 0, False) /* Create Name Me Please (29124) for Shop */
-     , (30036, 4, 29126, -1, 0, 0, False) /* Create Name Me Please (29126) for Shop */
-     , (30036, 4, 29127, -1, 0, 0, False) /* Create Name Me Please (29127) for Shop */
-     , (30036, 4, 29128, -1, 0, 0, False) /* Create Name Me Please (29128) for Shop */
-     , (30036, 4, 29129, -1, 0, 0, False) /* Create Name Me Please (29129) for Shop */
-     , (30036, 4, 29144, -1, 0, 0, False) /* Create Name Me Please (29144) for Shop */
-     , (30036, 4, 29159, -1, 0, 0, False) /* Create Name Me Please (29159) for Shop */
-     , (30036, 4, 29160, -1, 0, 0, False) /* Create Name Me Please (29160) for Shop */
-     , (30036, 4, 29180, -1, 0, 0, False) /* Create Baking Pan (29180) for Shop */;
+     , (30036, 4, 29123, -1, 0, 0, False) /* Create Amber Barley (29123) for Shop */
+     , (30036, 4, 29124, -1, 0, 0, False) /* Create Plain Barley (29124) for Shop */
+     , (30036, 4, 29126, -1, 0, 0, False) /* Create Spoiled Barley (29126) for Shop */
+     , (30036, 4, 29127, -1, 0, 0, False) /* Create Brown Hops (29127) for Shop */
+     , (30036, 4, 29128, -1, 0, 0, False) /* Create Green Hops (29128) for Shop */
+     , (30036, 4, 29129, -1, 0, 0, False) /* Create Ruined Hops (29129) for Shop */
+     , (30036, 4, 29144, -1, 0, 0, False) /* Create Empty Stopped Keg (29144) for Shop */
+     , (30036, 4, 29159, -1, 0, 0, False) /* Create Liquid Yeast (29159) for Shop */
+     , (30036, 4, 29160, -1, 0, 0, False) /* Create Rancid Yeast (29160) for Shop */
+     , (30036, 4, 29180, -1, 0, 0, False) /* Create Empty Bottles (29180) for Shop */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30038;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30038, 'sanamararchmage', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30038, 'sanamararchmage', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30038,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30038,   1,         16) /* ItemType - Creature */
      , (30038,   8,        120) /* Mass */
      , (30038,  16,         32) /* ItemUseable - Remote */
      , (30038,  25,          7) /* Level */
-     , (30038,  27,          0) /* ArmorType */
+     , (30038,  27,          0) /* ArmorType - None */
      , (30038,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (30038,  75,          0) /* MerchandiseMinValue */
      , (30038,  76,      25000) /* MerchandiseMaxValue */
@@ -246,7 +246,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Be gone with you.', NULL,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30038, 2,  2366,  0, 9, 1, False) /* Create Orb (2366) for Wield */
      , (30038, 2,  9623,  0, 13, 0.5, False) /* Create Alchemist's Hat (9623) for Wield */
-     , (30038, 2, 28615,  0, 92, 0.5, False) /* Create Non-hooded Vestiri Robe (28615) for Wield */
+     , (30038, 2, 28615,  0, 92, 0.5, False) /* Create Vestiri Robe (28615) for Wield */
      , (30038, 4,   136, -1, 14, 1, False) /* Create Pack (136) for Shop */
      , (30038, 4,   139, -1, 85, 1, False) /* Create Small Belt Pouch (139) for Shop */
      , (30038, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
@@ -355,8 +355,8 @@ VALUES (30038, 2,  2366,  0, 9, 1, False) /* Create Orb (2366) for Wield */
      , (30038, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (30038, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
      , (30038, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
-     , (30038, 4, 30268, -1, 0, 0, False) /* Create Gem Template (30268) for Shop */
-     , (30038, 4, 31200, -1, 0, 1, False) /* Create  (31200) for Shop */
+     , (30038, 4, 30268, -1, 0, 0, False) /* Create Sanamar Portal Gem (30268) for Shop */
+     , (30038, 4, 31200, -1, 0, 1, False) /* Create Suikan War Apprentice Robe (31200) for Shop */
      , (30038, 4, 31201, -1, 0, 1, False) /* Create Vestiri Creature Apprentice Robe (31201) for Shop */
      , (30038, 4, 31202, -1, 0, 1, False) /* Create Vestiri Item Apprentice Robe (31202) for Shop */
      , (30038, 4, 31203, -1, 0, 1, False) /* Create Vestiri Life Apprentice Robe (31203) for Shop */

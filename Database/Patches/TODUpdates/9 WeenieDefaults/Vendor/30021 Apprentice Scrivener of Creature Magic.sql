@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30021;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30021, 'viascrivenercreature1starter', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30021, 'viascrivenercreature1starter', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30021,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30021,   1,         16) /* ItemType - Creature */
      , (30021,   8,        120) /* Mass */
      , (30021,  16,         32) /* ItemUseable - Remote */
      , (30021,  25,         14) /* Level */
-     , (30021,  27,          0) /* ArmorType */
+     , (30021,  27,          0) /* ArmorType - None */
      , (30021,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (30021,  75,          0) /* MerchandiseMinValue */
      , (30021,  76,     100000) /* MerchandiseMaxValue */
@@ -197,11 +197,11 @@ VALUES (30021, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (30021, 4,  1663, -1, 0, 0, False) /* Create Scroll of Impregnability Other (1663) for Shop */
      , (30021, 4,  1664, -1, 0, 0, False) /* Create Scroll of Impregnability Self (1664) for Shop */
      , (30021, 4,  1665, -1, 0, 0, False) /* Create Scroll of Defenselessness (1665) for Shop */
-     , (30021, 4,  1670, -1, 0, 0, False) /* Create Scroll of Axe Mastery Other (1670) for Shop */
-     , (30021, 4,  1671, -1, 0, 0, False) /* Create Scroll of Axe Mastery Self (1671) for Shop */
+     , (30021, 4,  1670, -1, 0, 0, False) /* Create Scroll of Light Weapon Mastery Other (1670) for Shop */
+     , (30021, 4,  1671, -1, 0, 0, False) /* Create Scroll of Light Weapon Mastery Self (1671) for Shop */
      , (30021, 4,  1672, -1, 0, 0, False) /* Create Scroll of Axe Ineptitude Other (1672) for Shop */
-     , (30021, 4,  1673, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Other (1673) for Shop */
-     , (30021, 4,  1674, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Self (1674) for Shop */
+     , (30021, 4,  1673, -1, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other (1673) for Shop */
+     , (30021, 4,  1674, -1, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Self (1674) for Shop */
      , (30021, 4,  1675, -1, 0, 0, False) /* Create Scroll of Dagger Ineptitude Other (1675) for Shop */
      , (30021, 4,  1679, -1, 0, 0, False) /* Create Scroll of Arcane Benightedness (1679) for Shop */
      , (30021, 4,  1680, -1, 0, 0, False) /* Create Scroll of Arcane Enlightenment (1680) for Shop */
@@ -210,8 +210,8 @@ VALUES (30021, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (30021, 4,  1683, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Expertise Self (1683) for Shop */
      , (30021, 4,  1684, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Ignorance (1684) for Shop */
      , (30021, 4,  1685, -1, 0, 0, False) /* Create Scroll of Bow Ineptitude Other (1685) for Shop */
-     , (30021, 4,  1686, -1, 0, 0, False) /* Create Scroll of Bow Mastery Other (1686) for Shop */
-     , (30021, 4,  1687, -1, 0, 0, False) /* Create Scroll of Bow Mastery Self (1687) for Shop */
+     , (30021, 4,  1686, -1, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Other (1686) for Shop */
+     , (30021, 4,  1687, -1, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Self (1687) for Shop */
      , (30021, 4,  1688, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Ineptitude (1688) for Shop */
      , (30021, 4,  1689, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Other (1689) for Shop */
      , (30021, 4,  1690, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Self (1690) for Shop */
@@ -257,8 +257,8 @@ VALUES (30021, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (30021, 4,  1736, -1, 0, 0, False) /* Create Scroll of Sprint Other (1736) for Shop */
      , (30021, 4,  1737, -1, 0, 0, False) /* Create Scroll of Sprint Self (1737) for Shop */
      , (30021, 4,  1741, -1, 0, 0, False) /* Create Scroll of Sword Ineptitude Other (1741) for Shop */
-     , (30021, 4,  1742, -1, 0, 0, False) /* Create Scroll of Sword Mastery Other (1742) for Shop */
-     , (30021, 4,  1743, -1, 0, 0, False) /* Create Scroll of Sword Mastery Self (1743) for Shop */
+     , (30021, 4,  1742, -1, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Other (1742) for Shop */
+     , (30021, 4,  1743, -1, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Self (1743) for Shop */
      , (30021, 4,  1750, -1, 0, 0, False) /* Create Scroll of War Magic Ineptitude (1750) for Shop */
      , (30021, 4,  1751, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Other (1751) for Shop */
      , (30021, 4,  1752, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Self (1752) for Shop */

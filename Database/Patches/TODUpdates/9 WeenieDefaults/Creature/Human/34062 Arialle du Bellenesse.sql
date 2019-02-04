@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34062;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34062, 'ace34062-arialledubellenesse', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34062, 'ace34062-arialledubellenesse', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34062,   1,         16) /* ItemType - Creature */
@@ -10,7 +10,7 @@ VALUES (34062,   1,         16) /* ItemType - Creature */
      , (34062,   7,        255) /* ContainersCapacity */
      , (34062,  16,         32) /* ItemUseable - Remote */
      , (34062,  25,        150) /* Level */
-     , (34062,  67,         40) /* Tolerance */
+     , (34062,  67,         40) /* Tolerance - Provoke, Target */
      , (34062,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34062,  95,          8) /* RadarBlipColor - Yellow */
      , (34062, 113,          2) /* Gender - Female */

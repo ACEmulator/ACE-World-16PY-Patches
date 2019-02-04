@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22613;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22613, 'tuskerplated_tusk', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22613, 'tuskerplated_tusk', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22613,   1,         16) /* ItemType - Creature */
@@ -11,9 +11,9 @@ VALUES (22613,   1,         16) /* ItemType - Creature */
      , (22613,   7,         -1) /* ContainersCapacity */
      , (22613,  16,          1) /* ItemUseable - No */
      , (22613,  25,        100) /* Level */
-     , (22613,  27,          0) /* ArmorType */
+     , (22613,  27,          0) /* ArmorType - None */
      , (22613,  40,          2) /* CombatMode - Melee */
-     , (22613,  68,          9) /* TargetingTactic */
+     , (22613,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (22613,  72,         19) /* FriendType - Virindi */
      , (22613,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22613, 133,          4) /* ShowableOnRadar - ShowAlways */

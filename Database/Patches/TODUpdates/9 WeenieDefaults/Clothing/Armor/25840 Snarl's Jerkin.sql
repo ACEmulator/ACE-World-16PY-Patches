@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25840;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25840, 'jerkinsnarl', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25840, 'jerkinsnarl', 2, '2019-02-04 06:52:23') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25840,   1,          2) /* ItemType - Armor */
@@ -12,7 +12,7 @@ VALUES (25840,   1,          2) /* ItemType - Armor */
      , (25840,   9,       1536) /* ValidLocations - ChestArmor, AbdomenArmor */
      , (25840,  16,          1) /* ItemUseable - No */
      , (25840,  19,       8250) /* Value */
-     , (25840,  27,          2) /* ArmorType */
+     , (25840,  27,          2) /* ArmorType - Leather */
      , (25840,  28,        330) /* ArmorLevel */
      , (25840,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25840, 106,        400) /* ItemSpellcraft */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30979;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30979, 'hermitsuicidal', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30979, 'hermitsuicidal', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30979,   1,         16) /* ItemType - Creature */
@@ -12,7 +12,7 @@ VALUES (30979,   1,         16) /* ItemType - Creature */
      , (30979,   8,        120) /* Mass */
      , (30979,  16,         32) /* ItemUseable - Remote */
      , (30979,  25,        200) /* Level */
-     , (30979,  27,          0) /* ArmorType */
+     , (30979,  27,          0) /* ArmorType - None */
      , (30979,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30979,  95,          8) /* RadarBlipColor - Yellow */
      , (30979, 113,          2) /* Gender - Female */
@@ -262,7 +262,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Stranger! Hear my words.', 
      , (@parent_id,  3,  10 /* Tell */, 3, 1, NULL, 'This melting of my body will continue until I die in twisted agony. My peace lasts but a moment as those accursed life stones will bring me back to life whereupon the cycle will begin anew.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  10 /* Tell */, 3, 1, NULL, 'My search for a cure has brought me here. Will you not help me find solace? The Thrungus within this cave possess a unique ability to process rocks by digesting them. Take these and feed them to the Thrungus. Bring me back a sample of the processed stones.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,  10 /* Tell */, 2, 1, NULL, 'Seek me out if you should need more of these.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  6,   3 /* Give */, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1 /* Contain */, 30972 /* Name Me Please */, 1, 0, 1, True, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  6,   3 /* Give */, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1 /* Contain */, 30972 /* Bag of Life Stone Chips */, 1, 0, 1, True, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (30979, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'ThrungusChipsDone', NULL, NULL, NULL);

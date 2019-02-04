@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5712;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (5712, 'fireelementalinferno', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5712, 'fireelementalinferno', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5712,   1,         16) /* ItemType - Creature */
@@ -10,15 +10,15 @@ VALUES (5712,   1,         16) /* ItemType - Creature */
      , (5712,   7,         -1) /* ContainersCapacity */
      , (5712,  16,          1) /* ItemUseable - No */
      , (5712,  25,        100) /* Level */
-     , (5712,  27,          0) /* ArmorType */
-     , (5712,  68,          5) /* TargetingTactic */
+     , (5712,  27,          0) /* ArmorType - None */
+     , (5712,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (5712,  81,          1) /* MaxGeneratedObjects */
      , (5712,  82,          1) /* InitGeneratedObjects */
      , (5712,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (5712, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (5712, 103,          3) /* GeneratorDestructionType - Kill */
      , (5712, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (5712, 140,          1) /* AiOptions */
+     , (5712, 140,          1) /* AiOptions - CanOpenDoors */
      , (5712, 146,      80000) /* XpOverride */
      , (5712, 307,          7) /* DamageRating */;
 

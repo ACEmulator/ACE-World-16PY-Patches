@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11996;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11996, 'lugianbossmonster', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11996, 'lugianbossmonster', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11996,   1,         16) /* ItemType - Creature */
@@ -12,16 +12,16 @@ VALUES (11996,   1,         16) /* ItemType - Creature */
      , (11996,   8,       8000) /* Mass */
      , (11996,  16,          1) /* ItemUseable - No */
      , (11996,  25,         60) /* Level */
-     , (11996,  27,          0) /* ArmorType */
+     , (11996,  27,          0) /* ArmorType - None */
      , (11996,  40,          2) /* CombatMode - Melee */
-     , (11996,  68,         13) /* TargetingTactic */
+     , (11996,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (11996,  81,          4) /* MaxGeneratedObjects */
      , (11996,  82,          4) /* InitGeneratedObjects */
      , (11996,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11996, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (11996, 103,          1) /* GeneratorDestructionType - Nothing */
      , (11996, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (11996, 140,          1) /* AiOptions */
+     , (11996, 140,          1) /* AiOptions - CanOpenDoors */
      , (11996, 146,      17500) /* XpOverride */
      , (11996, 307,          5) /* DamageRating */;
 

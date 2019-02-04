@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20214;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (20214, 'scriveneritemouter', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (20214, 'scriveneritemouter', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20214,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (20214,   1,         16) /* ItemType - Creature */
      , (20214,   8,        120) /* Mass */
      , (20214,  16,         32) /* ItemUseable - Remote */
      , (20214,  25,         14) /* Level */
-     , (20214,  27,          0) /* ArmorType */
+     , (20214,  27,          0) /* ArmorType - None */
      , (20214,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (20214,  75,          0) /* MerchandiseMinValue */
      , (20214,  76,     100000) /* MerchandiseMaxValue */
@@ -190,17 +190,17 @@ VALUES (20214, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (20214, 4,  2769, -1, 0, 0, False) /* Create Scroll of Acid Lure IV (2769) for Shop */
      , (20214, 4,  2774, -1, 0, 0, False) /* Create Scroll of Blade Bane IV (2774) for Shop */
      , (20214, 4,  2779, -1, 0, 0, False) /* Create Scroll of Blade Lure IV (2779) for Shop */
-     , (20214, 4,  2784, -1, 0, 0, False) /* Create Blood Drinker Scroll IV (2784) for Shop */
+     , (20214, 4,  2784, -1, 0, 0, False) /* Create Scroll of Aura of Blood Drinker Self IV (2784) for Shop */
      , (20214, 4,  2789, -1, 0, 0, False) /* Create Scroll of Blood Loather IV (2789) for Shop */
      , (20214, 4,  2794, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane IV (2794) for Shop */
      , (20214, 4,  2799, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure IV (2799) for Shop */
      , (20214, 4,  2804, -1, 0, 0, False) /* Create Scroll of Brittlemail IV (2804) for Shop */
-     , (20214, 4,  2809, -1, 0, 0, False) /* Create Scroll of Defender IV (2809) for Shop */
+     , (20214, 4,  2809, -1, 0, 0, False) /* Create Scroll of Aura of Defender Self IV (2809) for Shop */
      , (20214, 4,  2814, -1, 0, 0, False) /* Create Scroll of Flame Bane IV (2814) for Shop */
      , (20214, 4,  2819, -1, 0, 0, False) /* Create Scroll of Flame Lure IV (2819) for Shop */
      , (20214, 4,  2824, -1, 0, 0, False) /* Create Scroll of Frost Bane IV (2824) for Shop */
      , (20214, 4,  2829, -1, 0, 0, False) /* Create Scroll of Frost Lure IV (2829) for Shop */
-     , (20214, 4,  2834, -1, 0, 0, False) /* Create Scroll of Heartseeker IV (2834) for Shop */
+     , (20214, 4,  2834, -1, 0, 0, False) /* Create Scroll of Aura of Heartseeker Self IV (2834) for Shop */
      , (20214, 4,  2839, -1, 0, 0, False) /* Create Scroll of Hermetic Void IV (2839) for Shop */
      , (20214, 4,  2844, -1, 0, 0, False) /* Create Scroll of Impenetrability IV (2844) for Shop */
      , (20214, 4,  2849, -1, 0, 0, False) /* Create Scroll of Leaden Weapon IV (2849) for Shop */
@@ -210,15 +210,15 @@ VALUES (20214, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (20214, 4,  2869, -1, 0, 0, False) /* Create Scroll of Piercing Bane IV (2869) for Shop */
      , (20214, 4,  2874, -1, 0, 0, False) /* Create Scroll of Piercing Lure IV (2874) for Shop */
      , (20214, 4,  2879, -1, 0, 0, False) /* Create Scroll of Strengthen Lock IV (2879) for Shop */
-     , (20214, 4,  2884, -1, 0, 0, False) /* Create Scroll of Swift Killer IV (2884) for Shop */
-     , (20214, 4,  2889, -1, 0, 0, False) /* Create Scroll of Hermetic Link IV (2889) for Shop */
+     , (20214, 4,  2884, -1, 0, 0, False) /* Create Scroll of Aura of Swift Killer Self IV (2884) for Shop */
+     , (20214, 4,  2889, -1, 0, 0, False) /* Create Scroll of Aura of Hermetic Link Self IV (2889) for Shop */
      , (20214, 4,  2895, -1, 0, 0, False) /* Create Scroll of Turn Blade IV (2895) for Shop */
      , (20214, 4,  2900, -1, 0, 0, False) /* Create Scroll of Weaken Lock IV (2900) for Shop */
      , (20214, 4,  2904, -1, 0, 0, False) /* Create Scroll of Summon Primary Portal I (2904) for Shop */
      , (20214, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
      , (20214, 4, 20622, -1, 0, 0, False) /* Create Scroll of Summon Secondary Portal I (20622) for Shop */
-     , (20214, 4, 28005, -1, 0, 0, False) /* Create Spirit Drinker Scroll IV (28005) for Shop */
-     , (20214, 4, 28012, -1, 0, 0, False) /* Create Scroll of Blood Loather IV (28012) for Shop */
+     , (20214, 4, 28005, -1, 0, 0, False) /* Create Scroll of Aura of Spirit Drinker Self IV (28005) for Shop */
+     , (20214, 4, 28012, -1, 0, 0, False) /* Create Scroll of Spirit Loather IV (28012) for Shop */
      , (20214, 4, 46867, -1, 0, 0, False) /* Create Scroll of Aura of Blood Drinker Other IV (46867) for Shop */
      , (20214, 4, 46868, -1, 0, 0, False) /* Create Scroll of Aura of Defender Other IV (46868) for Shop */
      , (20214, 4, 46869, -1, 0, 0, False) /* Create Scroll of Aura of Heartseeker Other IV (46869) for Shop */

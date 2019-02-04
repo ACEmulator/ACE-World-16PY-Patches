@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27411;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27411, 'pillarlightning', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27411, 'pillarlightning', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27411,   1,         16) /* ItemType - Creature */
@@ -11,10 +11,10 @@ VALUES (27411,   1,         16) /* ItemType - Creature */
      , (27411,   7,         -1) /* ContainersCapacity */
      , (27411,  16,          1) /* ItemUseable - No */
      , (27411,  25,        100) /* Level */
-     , (27411,  27,          0) /* ArmorType */
+     , (27411,  27,          0) /* ArmorType - None */
      , (27411,  40,          2) /* CombatMode - Melee */
-     , (27411,  67,          1) /* Tolerance */
-     , (27411,  68,          5) /* TargetingTactic */
+     , (27411,  67,          1) /* Tolerance - NoAttack */
+     , (27411,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (27411,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (27411, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27411, 133,          4) /* ShowableOnRadar - ShowAlways */

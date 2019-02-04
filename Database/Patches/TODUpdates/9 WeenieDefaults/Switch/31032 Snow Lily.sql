@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31032;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31032, 'trapsnowlily', 26) /* Switch */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31032, 'trapsnowlily', 26, '2019-02-04 06:52:23') /* Switch */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31032,   1,        128) /* ItemType - Misc */
@@ -47,6 +47,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  77 /* DeleteSelf */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31032, -1, 31024, 300, 1, 1, 1, 4, -1, 0, 0, 0, 0, -8, 0, -0.7071068, 0, 0, -0.7071068) /* Generate CreatureName (31024) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (31032, -1, 31028, 300, 2, 2, 1, 4, -1, 0, 0, 0, -2, -2, 0, 0.7071068, 0, 0, -0.7071068) /* Generate CreatureName (31028) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (31032, -1, 31029, 300, 1, 1, 1, 4, -1, 0, 0, 0, 2, -2, 0, 0.7071068, 0, 0, -0.7071068) /* Generate CreatureName (31029) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (31032, -1, 31024, 300, 1, 1, 1, 4, -1, 0, 0, 0, 0, -8, 0, -0.7071068, 0, 0, -0.7071068) /* Generate Mudwort Thrungus (31024) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (31032, -1, 31028, 300, 2, 2, 1, 4, -1, 0, 0, 0, -2, -2, 0, 0.7071068, 0, 0, -0.7071068) /* Generate Bloated Eater (31028) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (31032, -1, 31029, 300, 1, 1, 1, 4, -1, 0, 0, 0, 2, -2, 0, 0.7071068, 0, 0, -0.7071068) /* Generate Insolent Penguin (31029) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

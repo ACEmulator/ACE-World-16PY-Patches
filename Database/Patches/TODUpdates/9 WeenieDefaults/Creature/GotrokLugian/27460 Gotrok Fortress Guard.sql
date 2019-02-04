@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27460;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27460, 'lugianrenegadefortressguard', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27460, 'lugianrenegadefortressguard', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27460,   1,         16) /* ItemType - Creature */
@@ -12,14 +12,14 @@ VALUES (27460,   1,         16) /* ItemType - Creature */
      , (27460,   8,       8000) /* Mass */
      , (27460,  16,          1) /* ItemUseable - No */
      , (27460,  25,        100) /* Level */
-     , (27460,  27,          0) /* ArmorType */
+     , (27460,  27,          0) /* ArmorType - None */
      , (27460,  40,          2) /* CombatMode - Melee */
-     , (27460,  68,         13) /* TargetingTactic */
+     , (27460,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (27460,  72,          6) /* FriendType - Tumerok */
      , (27460,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27460, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (27460, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (27460, 140,          1) /* AiOptions */
+     , (27460, 140,          1) /* AiOptions - CanOpenDoors */
      , (27460, 146,      80000) /* XpOverride */
      , (27460, 307,          5) /* DamageRating */;
 

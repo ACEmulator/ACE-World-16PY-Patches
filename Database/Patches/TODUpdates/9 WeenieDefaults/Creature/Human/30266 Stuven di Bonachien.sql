@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30266;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30266, 'sanamarstuven', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30266, 'sanamarstuven', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30266,   1,         16) /* ItemType - Creature */
@@ -12,7 +12,7 @@ VALUES (30266,   1,         16) /* ItemType - Creature */
      , (30266,   8,        120) /* Mass */
      , (30266,  16,         32) /* ItemUseable - Remote */
      , (30266,  25,          8) /* Level */
-     , (30266,  27,          0) /* ArmorType */
+     , (30266,  27,          0) /* ArmorType - None */
      , (30266,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30266,  95,          8) /* RadarBlipColor - Yellow */
      , (30266, 113,          1) /* Gender - Male */
@@ -114,6 +114,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I know that Eleonora du Bellenesse slew Prince Renlen, and for that she deserved her execution. But the manner in which it was done... It''s enough to make you weep.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30266, 2, 28606,  0, 0, 0, False) /* Create Viamontian Leggings (28606) for Wield */
+VALUES (30266, 2, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for Wield */
      , (30266, 2, 28608,  0, 84, 0.8706, False) /* Create Poet's Shirt (28608) for Wield */
      , (30266, 2, 28611,  0, 9, 0, False) /* Create Viamontian Laced Boots (28611) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8122;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8122, 'undeadfenmalain', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8122, 'undeadfenmalain', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8122,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (8122,   1,         16) /* ItemType - Creature */
      , (8122,   7,         -1) /* ContainersCapacity */
      , (8122,  16,          1) /* ItemUseable - No */
      , (8122,  25,         50) /* Level */
-     , (8122,  27,          0) /* ArmorType */
+     , (8122,  27,          0) /* ArmorType - None */
      , (8122,  40,          1) /* CombatMode - NonCombat */
-     , (8122,  68,          3) /* TargetingTactic */
+     , (8122,  68,          3) /* TargetingTactic - Random, Focused */
      , (8122,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (8122, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8122, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (8122, 140,          1) /* AiOptions */
+     , (8122, 140,          1) /* AiOptions - CanOpenDoors */
      , (8122, 146,      10000) /* XpOverride */
      , (8122, 307,          5) /* DamageRating */;
 

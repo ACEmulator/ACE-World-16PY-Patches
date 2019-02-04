@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8423;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8423, 'shadowchildmeditate', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8423, 'shadowchildmeditate', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8423,   1,         16) /* ItemType - Creature */
@@ -12,14 +12,14 @@ VALUES (8423,   1,         16) /* ItemType - Creature */
      , (8423,   8,         90) /* Mass */
      , (8423,  16,          1) /* ItemUseable - No */
      , (8423,  25,          8) /* Level */
-     , (8423,  27,          0) /* ArmorType */
-     , (8423,  67,          2) /* Tolerance */
-     , (8423,  68,          9) /* TargetingTactic */
+     , (8423,  27,          0) /* ArmorType - None */
+     , (8423,  67,          2) /* Tolerance - Appraise */
+     , (8423,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (8423,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (8423, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8423, 113,          2) /* Gender - Female */
      , (8423, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (8423, 140,          1) /* AiOptions */
+     , (8423, 140,          1) /* AiOptions - CanOpenDoors */
      , (8423, 146,       1000) /* XpOverride */
      , (8423, 188,          1) /* HeritageGroup - Aluvian */
      , (8423, 307,          5) /* DamageRating */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28856;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28856, 'holtburgrenaldeldest', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28856, 'holtburgrenaldeldest', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28856,   1,         16) /* ItemType - Creature */
@@ -12,7 +12,7 @@ VALUES (28856,   1,         16) /* ItemType - Creature */
      , (28856,   8,        120) /* Mass */
      , (28856,  16,         32) /* ItemUseable - Remote */
      , (28856,  25,         10) /* Level */
-     , (28856,  27,          0) /* ArmorType */
+     , (28856,  27,          0) /* ArmorType - None */
      , (28856,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28856,  95,          8) /* RadarBlipColor - Yellow */
      , (28856, 113,          1) /* Gender - Male */
@@ -107,7 +107,7 @@ VALUES (28856,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (28856,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28856,  6 /* Give */,      1, 28845 /* Scroll */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (28856,  6 /* Give */,      1, 28845 /* Renald the Eldest Trade Proposal */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -116,7 +116,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  21 /* InqQuest */, 0, 1, NULL, 'RenaldProposal', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28856,  6 /* Give */,      1, 28844 /* Skeleton's Skull */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (28856,  6 /* Give */,      1, 28844 /* Renald's Old Mug */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -150,7 +150,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Gyah! Me Da''s mug. Ya foun
      , (@parent_id,  6,  18 /* DirectBroadcast */, 0, 1, NULL, 'Renald the Eldest stares at you as if waiting for you to agree.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  7,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 7500, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  8,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 9 /* ContainTreasure */, 7374 /* Trade Note (15,000) */, 0, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  9,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 9 /* ContainTreasure */, 28846 /* Scroll */, 0, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  9,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 9 /* ContainTreasure */, 28846 /* Renald the Eldest Refusal */, 0, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 10,  31 /* EraseQuest */, 0, 1, NULL, 'RenaldMug', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)

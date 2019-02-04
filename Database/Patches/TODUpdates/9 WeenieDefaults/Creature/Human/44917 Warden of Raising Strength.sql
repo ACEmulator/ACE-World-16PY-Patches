@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44917;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44917, 'ace44917-wardenofraisingstrength', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44917, 'ace44917-wardenofraisingstrength', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44917,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (44917,   1,         16) /* ItemType - Creature */
      , (44917,   8,        120) /* Mass */
      , (44917,  16,         32) /* ItemUseable - Remote */
      , (44917,  25,        105) /* Level */
-     , (44917,  27,          0) /* ArmorType */
+     , (44917,  27,          0) /* ArmorType - None */
      , (44917,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44917,  95,          8) /* RadarBlipColor - Yellow */
      , (44917, 133,          1) /* ShowableOnRadar - ShowNever */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11505;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11505, 'humanpoacher_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11505, 'humanpoacher_xp', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11505,   1,         16) /* ItemType - Creature */
@@ -11,8 +11,8 @@ VALUES (11505,   1,         16) /* ItemType - Creature */
      , (11505,   8,        120) /* Mass */
      , (11505,  16,          1) /* ItemUseable - No */
      , (11505,  25,         80) /* Level */
-     , (11505,  27,          0) /* ArmorType */
-     , (11505,  68,         13) /* TargetingTactic */
+     , (11505,  27,          0) /* ArmorType - None */
+     , (11505,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (11505,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11505, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (11505, 113,          1) /* Gender - Male */

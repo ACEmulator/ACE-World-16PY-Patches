@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31702;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31702, 'ace31702-campblacksmith', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31702, 'ace31702-campblacksmith', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31702,   1,         16) /* ItemType - Creature */
@@ -12,7 +12,7 @@ VALUES (31702,   1,         16) /* ItemType - Creature */
      , (31702,   8,        120) /* Mass */
      , (31702,  16,         32) /* ItemUseable - Remote */
      , (31702,  25,         50) /* Level */
-     , (31702,  27,          4) /* ArmorType */
+     , (31702,  27,          4) /* ArmorType - StuddedLeather */
      , (31702,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31702,  95,          8) /* RadarBlipColor - Yellow */
      , (31702, 113,          1) /* Gender - Male */

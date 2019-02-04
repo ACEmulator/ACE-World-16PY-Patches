@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35273;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35273, 'ace35273-towerguardian', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35273, 'ace35273-towerguardian', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35273,   1,         16) /* ItemType - Creature */
@@ -10,10 +10,10 @@ VALUES (35273,   1,         16) /* ItemType - Creature */
      , (35273,   7,        255) /* ContainersCapacity */
      , (35273,  16,          1) /* ItemUseable - No */
      , (35273,  25,        750) /* Level */
-     , (35273,  27,         32) /* ArmorType */
+     , (35273,  27,         32) /* ArmorType - Metal */
      , (35273,  40,          2) /* CombatMode - Melee */
-     , (35273,  67,         64) /* Tolerance */
-     , (35273,  68,         13) /* TargetingTactic */
+     , (35273,  67,         64) /* Tolerance - Retaliate */
+     , (35273,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (35273,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35273, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (35273, 133,          2) /* ShowableOnRadar - ShowMovement */

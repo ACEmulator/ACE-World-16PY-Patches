@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30686;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30686, 'tumerokwarmongerwithered', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30686, 'tumerokwarmongerwithered', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30686,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (30686,   1,         16) /* ItemType - Creature */
      , (30686,   7,         -1) /* ContainersCapacity */
      , (30686,  16,          1) /* ItemUseable - No */
      , (30686,  25,        160) /* Level */
-     , (30686,  27,          0) /* ArmorType */
-     , (30686,  68,          5) /* TargetingTactic */
+     , (30686,  27,          0) /* ArmorType - None */
+     , (30686,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (30686,  72,          6) /* FriendType - Tumerok */
      , (30686,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (30686, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (30686, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (30686, 140,          1) /* AiOptions */
+     , (30686, 140,          1) /* AiOptions - CanOpenDoors */
      , (30686, 146,    1500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

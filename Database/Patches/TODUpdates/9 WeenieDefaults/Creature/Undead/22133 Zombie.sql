@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22133;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22133, 'zombiehauntedmansionscrollboss', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22133, 'zombiehauntedmansionscrollboss', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22133,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (22133,   1,         16) /* ItemType - Creature */
      , (22133,   7,         -1) /* ContainersCapacity */
      , (22133,  16,          1) /* ItemUseable - No */
      , (22133,  25,         50) /* Level */
-     , (22133,  27,          0) /* ArmorType */
+     , (22133,  27,          0) /* ArmorType - None */
      , (22133,  40,          1) /* CombatMode - NonCombat */
-     , (22133,  68,          3) /* TargetingTactic */
+     , (22133,  68,          3) /* TargetingTactic - Random, Focused */
      , (22133,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (22133, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (22133, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22133, 140,          1) /* AiOptions */
+     , (22133, 140,          1) /* AiOptions - CanOpenDoors */
      , (22133, 146,      10000) /* XpOverride */
      , (22133, 307,          5) /* DamageRating */;
 

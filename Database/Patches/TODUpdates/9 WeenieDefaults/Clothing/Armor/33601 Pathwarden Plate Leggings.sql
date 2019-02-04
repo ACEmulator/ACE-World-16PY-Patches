@@ -1,8 +1,7 @@
-/* Weenie - Pathwarden Plate Leggings (33601) */
 DELETE FROM `weenie` WHERE `class_Id` = 33601;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33601, 'pathwardenplateleggings', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33601, 'ace33601-pathwardenplateleggings', 2, '2019-02-04 06:52:23') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33601,   1,          2) /* ItemType - Armor */
@@ -55,6 +54,5 @@ VALUES (33601,   1,   33554856) /* Setup */
      , (33601,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33601,  1350,   2.05) 
-     , (33601,  1482,   2.05) ;
-
+VALUES (33601,  1350,   2.05)  /* Endurance Self II */
+     , (33601,  1482,   2.05)  /* Impenetrability II */;

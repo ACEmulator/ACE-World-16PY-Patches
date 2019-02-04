@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28878;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28878, 'scarecrownaughty', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28878, 'scarecrownaughty', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28878,   1,         16) /* ItemType - Creature */
@@ -11,15 +11,15 @@ VALUES (28878,   1,         16) /* ItemType - Creature */
      , (28878,   7,         -1) /* ContainersCapacity */
      , (28878,  16,          1) /* ItemUseable - No */
      , (28878,  25,         50) /* Level */
-     , (28878,  27,          0) /* ArmorType */
-     , (28878,  67,          2) /* Tolerance */
-     , (28878,  68,          3) /* TargetingTactic */
+     , (28878,  27,          0) /* ArmorType - None */
+     , (28878,  67,          2) /* Tolerance - Appraise */
+     , (28878,  68,          3) /* TargetingTactic - Random, Focused */
      , (28878,  81,          4) /* MaxGeneratedObjects */
      , (28878,  82,          2) /* InitGeneratedObjects */
      , (28878,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28878, 103,          1) /* GeneratorDestructionType - Nothing */
      , (28878, 133,          3) /* ShowableOnRadar - ShowAttacking */
-     , (28878, 140,          1) /* AiOptions */
+     , (28878, 140,          1) /* AiOptions - CanOpenDoors */
      , (28878, 146,      10000) /* XpOverride */
      , (28878, 307,          5) /* DamageRating */;
 

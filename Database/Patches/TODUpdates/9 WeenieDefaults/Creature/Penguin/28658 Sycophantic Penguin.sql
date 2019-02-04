@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28658;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28658, 'penguinsycophantic', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28658, 'penguinsycophantic', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28658,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (28658,   1,         16) /* ItemType - Creature */
      , (28658,   7,         -1) /* ContainersCapacity */
      , (28658,  16,          1) /* ItemUseable - No */
      , (28658,  25,         20) /* Level */
-     , (28658,  27,          0) /* ArmorType */
+     , (28658,  27,          0) /* ArmorType - None */
      , (28658,  40,          2) /* CombatMode - Melee */
-     , (28658,  68,          9) /* TargetingTactic */
+     , (28658,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (28658,  72,         80) /* FriendType - Penguin */
      , (28658,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28658, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (28658, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28658, 140,          1) /* AiOptions */
+     , (28658, 140,          1) /* AiOptions - CanOpenDoors */
      , (28658, 146,       3500) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -137,4 +137,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28658, 8,     0,  0, 0, 0.93, False) /* Create nothing for Treasure */
-     , (28658, 8, 28742,  0, 0, 0.07, False) /* Create Name Me Please (28742) for Treasure */;
+     , (28658, 8, 28742,  0, 0, 0.07, False) /* Create Sycophantic Penguin Beak (28742) for Treasure */;

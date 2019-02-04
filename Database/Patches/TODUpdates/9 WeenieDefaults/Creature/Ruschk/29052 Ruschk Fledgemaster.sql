@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29052;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29052, 'ruschkfledgemaster', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29052, 'ruschkfledgemaster', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29052,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (29052,   1,         16) /* ItemType - Creature */
      , (29052,   7,         -1) /* ContainersCapacity */
      , (29052,  16,          1) /* ItemUseable - No */
      , (29052,  25,         30) /* Level */
-     , (29052,  27,          0) /* ArmorType */
-     , (29052,  68,          9) /* TargetingTactic */
+     , (29052,  27,          0) /* ArmorType - None */
+     , (29052,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (29052,  72,          1) /* FriendType - Olthoi */
      , (29052,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29052, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (29052, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (29052, 140,          1) /* AiOptions */
+     , (29052, 140,          1) /* AiOptions - CanOpenDoors */
      , (29052, 146,       5000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -160,7 +160,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29052, 8, 29054,  0, 0, 1, False) /* Create Name Me Please (29054) for Treasure */
+VALUES (29052, 8, 29054,  0, 0, 1, False) /* Create Fledgemaster's Tusk (29054) for Treasure */
      , (29052, 10, 48584,  0, 0, 0.2, False) /* Create Icy Club (48584) for WieldTreasure */
      , (29052, 10, 48585,  0, 0, 0.2, False) /* Create Frozen Dagger (48585) for WieldTreasure */
      , (29052, 10, 48586,  0, 0, 0.2, False) /* Create Ice Shard (48586) for WieldTreasure */

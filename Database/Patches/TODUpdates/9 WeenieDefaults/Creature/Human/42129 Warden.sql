@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42129;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42129, 'ace42129-warden', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42129, 'ace42129-warden', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42129,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (42129,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (42129,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (42129,  6 /* Give */,      1, 29050 /* Template for leggings.  Covers upper and lower legs. */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (42129,  6 /* Give */,      1, 29050 /* Ruschk Hunter Leggings */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29473;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29473, 'corpseoswaldpatsy2', 21) /* Container */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29473, 'corpseoswaldpatsy2', 21, '2019-02-04 06:52:23') /* Container */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29473,   1,        512) /* ItemType - Container */
@@ -41,4 +41,4 @@ VALUES (29473,   1,   33555323) /* Setup */
      , (29473,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29473, -1, 29477, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Note to my late friend (29477) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
+VALUES (29473, -1, 29477, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Varette's Orders (29477) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

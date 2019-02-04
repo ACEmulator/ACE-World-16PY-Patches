@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30040;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30040, 'sanamarweaponsmith', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30040, 'sanamarweaponsmith', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30040,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30040,   1,         16) /* ItemType - Creature */
      , (30040,   8,        120) /* Mass */
      , (30040,  16,         32) /* ItemUseable - Remote */
      , (30040,  25,          6) /* Level */
-     , (30040,  27,          0) /* ArmorType */
+     , (30040,  27,          0) /* ArmorType - None */
      , (30040,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
      , (30040,  75,          0) /* MerchandiseMinValue */
      , (30040,  76,    1000000) /* MerchandiseMaxValue */
@@ -281,7 +281,7 @@ VALUES (30040, 2,   132,  0, 93, 0, False) /* Create Shoes (132) for Wield */
      , (30040, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
      , (30040, 4, 28625, -1, 0, 0, False) /* Create Diforsa Sollerets (28625) for Shop */
      , (30040, 4, 28626, -1, 0, 0, False) /* Create Diforsa Tassets (28626) for Shop */
-     , (30040, 4, 28627, -1, 0, 0, False) /* Create BracersDiforsa (28627) for Shop */
+     , (30040, 4, 28627, -1, 0, 0, False) /* Create Diforsa Bracers (28627) for Shop */
      , (30040, 4, 28628, -1, 0, 0, False) /* Create Diforsa Breastplate (28628) for Shop */
      , (30040, 4, 28632, -1, 0, 0, False) /* Create Diforsa Gauntlets (28632) for Shop */
      , (30040, 4, 28633, -1, 0, 0, False) /* Create Diforsa Girth (28633) for Shop */
@@ -289,9 +289,9 @@ VALUES (30040, 2,   132,  0, 93, 0, False) /* Create Shoes (132) for Wield */
      , (30040, 4, 30556, -1, 0, 0, False) /* Create Hatchet (30556) for Shop */
      , (30040, 4, 30561, -1, 0, 0, False) /* Create Dolabra (30561) for Shop */
      , (30040, 4, 30566, -1, 0, 0, False) /* Create Sabra (30566) for Shop */
-     , (30040, 4, 30571, -1, 0, 0, False) /* Create Cinqueda (30571) for Shop */
+     , (30040, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
      , (30040, 4, 30576, -1, 0, 0, False) /* Create Flamberge (30576) for Shop */
-     , (30040, 4, 30581, -1, 0, 0, False) /* Create Viamont Medium Mace (30581) for Shop */
+     , (30040, 4, 30581, -1, 0, 0, False) /* Create Mazule (30581) for Shop */
      , (30040, 4, 30586, -1, 0, 0, False) /* Create Flanged Mace (30586) for Shop */
      , (30040, 4, 30591, -1, 0, 0, False) /* Create Partizan (30591) for Shop */
      , (30040, 4, 30596, -1, 0, 0, False) /* Create Poniard (30596) for Shop */

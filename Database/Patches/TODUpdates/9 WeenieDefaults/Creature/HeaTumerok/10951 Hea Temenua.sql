@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10951;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (10951, 'tumerokchampiontemenua_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (10951, 'tumerokchampiontemenua_xp', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10951,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (10951,   1,         16) /* ItemType - Creature */
      , (10951,   7,         -1) /* ContainersCapacity */
      , (10951,  16,          1) /* ItemUseable - No */
      , (10951,  25,         80) /* Level */
-     , (10951,  27,          0) /* ArmorType */
-     , (10951,  68,          5) /* TargetingTactic */
+     , (10951,  27,          0) /* ArmorType - None */
+     , (10951,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (10951,  72,         19) /* FriendType - Virindi */
      , (10951,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10951, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (10951, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (10951, 140,          1) /* AiOptions */
+     , (10951, 140,          1) /* AiOptions - CanOpenDoors */
      , (10951, 146,      30000) /* XpOverride */
      , (10951, 307,          5) /* DamageRating */;
 

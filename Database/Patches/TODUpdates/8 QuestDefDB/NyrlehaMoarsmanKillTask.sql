@@ -1,5 +1,4 @@
 DELETE FROM `quest` WHERE `name` = 'NyrlehaMoarsmanKillTask';
 
-INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`)
-VALUES ('NyrlehaMoarsmanKillTask', 72000, -1, 'Nyr''leha Moarsman Kill Task');
-
+INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
+VALUES ('NyrlehaMoarsmanKillTask', 72000, -1, 'Nyr''leha Moarsman Kill Task', '2019-02-04 06:51:50');

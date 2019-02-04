@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31012;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31012, 'ghosteidolonhighyield', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31012, 'ghosteidolonhighyield', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31012,   1,         16) /* ItemType - Creature */
@@ -102,6 +102,7 @@ VALUES (31012,  1, 0, 3, 0, 330, 0, 0) /* Axe                 Specialized */
      , (31012, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
      , (31012, 24, 0, 3, 0,  60, 0, 0) /* Run                 Specialized */
      , (31012, 31, 0, 3, 0, 280, 0, 0) /* CreatureEnchantment Specialized */
+     , (31012, 33, 0, 3, 0, 500, 0, 0) /* LifeMagic           Specialized */
      , (31012, 33, 0, 3, 0, 280, 0, 0) /* LifeMagic           Specialized */
      , (31012, 34, 0, 3, 0, 280, 0, 0) /* WarMagic            Specialized */;
 

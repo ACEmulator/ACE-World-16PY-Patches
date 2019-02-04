@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12006;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (12006, 'mosswarthighbossmonster', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (12006, 'mosswarthighbossmonster', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12006,   1,         16) /* ItemType - Creature */
@@ -11,9 +11,9 @@ VALUES (12006,   1,         16) /* ItemType - Creature */
      , (12006,   7,         -1) /* ContainersCapacity */
      , (12006,  16,          1) /* ItemUseable - No */
      , (12006,  25,        100) /* Level */
-     , (12006,  27,          0) /* ArmorType */
+     , (12006,  27,          0) /* ArmorType - None */
      , (12006,  40,          2) /* CombatMode - Melee */
-     , (12006,  68,         13) /* TargetingTactic */
+     , (12006,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (12006,  72,         50) /* FriendType - Idol */
      , (12006,  81,          3) /* MaxGeneratedObjects */
      , (12006,  82,          3) /* InitGeneratedObjects */
@@ -21,7 +21,7 @@ VALUES (12006,   1,         16) /* ItemType - Creature */
      , (12006, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (12006, 103,          1) /* GeneratorDestructionType - Nothing */
      , (12006, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (12006, 140,          1) /* AiOptions */
+     , (12006, 140,          1) /* AiOptions - CanOpenDoors */
      , (12006, 146,      80000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

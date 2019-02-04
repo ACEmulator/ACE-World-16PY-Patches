@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22003;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22003, 'golemglacialmargraveportal1', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22003, 'golemglacialmargraveportal1', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22003,   1,         16) /* ItemType - Creature */
@@ -11,9 +11,9 @@ VALUES (22003,   1,         16) /* ItemType - Creature */
      , (22003,   7,         -1) /* ContainersCapacity */
      , (22003,  16,          1) /* ItemUseable - No */
      , (22003,  25,        100) /* Level */
-     , (22003,  27,          0) /* ArmorType */
+     , (22003,  27,          0) /* ArmorType - None */
      , (22003,  40,          2) /* CombatMode - Melee */
-     , (22003,  68,          9) /* TargetingTactic */
+     , (22003,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (22003,  72,         13) /* FriendType - Golem */
      , (22003,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22003, 133,          2) /* ShowableOnRadar - ShowMovement */

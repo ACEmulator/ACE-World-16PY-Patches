@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25663;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25663, 'shadowvoidknightvod', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25663, 'shadowvoidknightvod', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25663,   1,         16) /* ItemType - Creature */
@@ -12,14 +12,14 @@ VALUES (25663,   1,         16) /* ItemType - Creature */
      , (25663,   8,         90) /* Mass */
      , (25663,  16,          1) /* ItemUseable - No */
      , (25663,  25,        160) /* Level */
-     , (25663,  27,          0) /* ArmorType */
-     , (25663,  68,          3) /* TargetingTactic */
+     , (25663,  27,          0) /* ArmorType - None */
+     , (25663,  68,          3) /* TargetingTactic - Random, Focused */
      , (25663,  72,         44) /* FriendType - Grievver */
      , (25663,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (25663, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (25663, 113,          1) /* Gender - Male */
      , (25663, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (25663, 140,          1) /* AiOptions */
+     , (25663, 140,          1) /* AiOptions - CanOpenDoors */
      , (25663, 146,    1500000) /* XpOverride */
      , (25663, 188,          1) /* HeritageGroup - Aluvian */
      , (25663, 307,          5) /* DamageRating */;

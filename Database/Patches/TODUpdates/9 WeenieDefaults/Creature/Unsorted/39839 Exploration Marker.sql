@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 39839;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (39839, 'ace39839-explorationmarker', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (39839, 'ace39839-explorationmarker', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39839,   1,         16) /* ItemType - Creature */
      , (39839,   6,        255) /* ItemsCapacity */
      , (39839,   7,        255) /* ContainersCapacity */
      , (39839,  16,         32) /* ItemUseable - Remote */
-     , (39839,  67,         40) /* Tolerance */
+     , (39839,  67,         40) /* Tolerance - Provoke, Target */
      , (39839,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

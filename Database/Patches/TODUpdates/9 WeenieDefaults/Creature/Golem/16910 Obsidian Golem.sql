@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 16910;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (16910, 'golemobsidian_nofall', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (16910, 'golemobsidian_nofall', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (16910,   1,         16) /* ItemType - Creature */
@@ -10,9 +10,9 @@ VALUES (16910,   1,         16) /* ItemType - Creature */
      , (16910,   7,         -1) /* ContainersCapacity */
      , (16910,  16,          1) /* ItemUseable - No */
      , (16910,  25,         60) /* Level */
-     , (16910,  27,          0) /* ArmorType */
+     , (16910,  27,          0) /* ArmorType - None */
      , (16910,  40,          2) /* CombatMode - Melee */
-     , (16910,  68,          3) /* TargetingTactic */
+     , (16910,  68,          3) /* TargetingTactic - Random, Focused */
      , (16910,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (16910, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (16910, 146,      17500) /* XpOverride */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8595;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8595, 'skeletoncursedbonesmeditate', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8595, 'skeletoncursedbonesmeditate', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8595,   1,         16) /* ItemType - Creature */
@@ -10,14 +10,14 @@ VALUES (8595,   1,         16) /* ItemType - Creature */
      , (8595,   7,         -1) /* ContainersCapacity */
      , (8595,  16,          1) /* ItemUseable - No */
      , (8595,  25,         80) /* Level */
-     , (8595,  27,          0) /* ArmorType */
+     , (8595,  27,          0) /* ArmorType - None */
      , (8595,  40,          1) /* CombatMode - NonCombat */
-     , (8595,  67,         64) /* Tolerance */
-     , (8595,  68,         13) /* TargetingTactic */
+     , (8595,  67,         64) /* Tolerance - Retaliate */
+     , (8595,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (8595,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8595, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (8595, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (8595, 140,          1) /* AiOptions */
+     , (8595, 140,          1) /* AiOptions - CanOpenDoors */
      , (8595, 146,      30000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

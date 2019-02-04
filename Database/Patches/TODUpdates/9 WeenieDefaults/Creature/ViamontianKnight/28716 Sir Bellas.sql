@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28716;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28716, 'knightsirbellas', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28716, 'knightsirbellas', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28716,   1,         16) /* ItemType - Creature */
@@ -195,21 +195,21 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (28716, 0,     0,  0, 0, 0.94, False) /* Create nothing for Undef */
      , (28716, 0, 40523,  1, 0, 0.06, True) /* Create  (40523) for Undef */
      , (28716, 2, 31199,  1, 2, 1, False) /* Create The Fist of Bellenesse (31199) for Wield */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */
-     , (28716, 9, 29295,  0, 0, 1, False) /* Create Name Me Please (29295) for ContainTreasure */;
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
+     , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */;

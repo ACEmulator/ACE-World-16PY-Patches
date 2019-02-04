@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25601;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25601, 'poolelementalacidicnpc', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25601, 'poolelementalacidicnpc', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25601,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (25601,   1,         16) /* ItemType - Creature */
      , (25601,   7,         -1) /* ContainersCapacity */
      , (25601,   8,        600) /* Mass */
      , (25601,  16,         32) /* ItemUseable - Remote */
-     , (25601,  27,          0) /* ArmorType */
+     , (25601,  27,          0) /* ArmorType - None */
      , (25601,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25601,  95,          3) /* RadarBlipColor - White */
      , (25601, 133,          0) /* ShowableOnRadar - Undefined */

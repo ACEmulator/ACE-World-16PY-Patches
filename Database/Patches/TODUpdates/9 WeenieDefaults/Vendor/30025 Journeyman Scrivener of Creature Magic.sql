@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30025;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30025, 'viascrivenercreatureinner', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30025, 'viascrivenercreatureinner', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30025,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30025,   1,         16) /* ItemType - Creature */
      , (30025,   8,        120) /* Mass */
      , (30025,  16,         32) /* ItemUseable - Remote */
      , (30025,  25,         14) /* Level */
-     , (30025,  27,          0) /* ArmorType */
+     , (30025,  27,          0) /* ArmorType - None */
      , (30025,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (30025,  75,          0) /* MerchandiseMinValue */
      , (30025,  76,     100000) /* MerchandiseMaxValue */
@@ -205,17 +205,17 @@ VALUES (30025, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (30025, 4,  3149, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Expertise Self III (3149) for Shop */
      , (30025, 4,  3154, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Ignorance III (3154) for Shop */
      , (30025, 4,  3159, -1, 0, 0, False) /* Create Scroll of Axe Ineptitude Other III (3159) for Shop */
-     , (30025, 4,  3164, -1, 0, 0, False) /* Create Scroll of Axe Mastery Other III (3164) for Shop */
-     , (30025, 4,  3169, -1, 0, 0, False) /* Create Scroll of Axe Mastery Self III (3169) for Shop */
+     , (30025, 4,  3164, -1, 0, 0, False) /* Create Scroll of Light Weapon Mastery Other III (3164) for Shop */
+     , (30025, 4,  3169, -1, 0, 0, False) /* Create Scroll of Light Weapon Mastery Self III (3169) for Shop */
      , (30025, 4,  3174, -1, 0, 0, False) /* Create Scroll of Bow Ineptitude Other III (3174) for Shop */
-     , (30025, 4,  3179, -1, 0, 0, False) /* Create Scroll of Bow Mastery Other III (3179) for Shop */
-     , (30025, 4,  3184, -1, 0, 0, False) /* Create Scroll of Bow Mastery Self III (3184) for Shop */
+     , (30025, 4,  3179, -1, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Other III (3179) for Shop */
+     , (30025, 4,  3184, -1, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Self III (3184) for Shop */
      , (30025, 4,  3189, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Ineptitude III (3189) for Shop */
      , (30025, 4,  3194, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Other III (3194) for Shop */
      , (30025, 4,  3199, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Self III (3199) for Shop */
      , (30025, 4,  3219, -1, 0, 0, False) /* Create Scroll of Dagger Ineptitude Other III (3219) for Shop */
-     , (30025, 4,  3224, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Other III (3224) for Shop */
-     , (30025, 4,  3229, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Self III (3229) for Shop */
+     , (30025, 4,  3224, -1, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other III (3224) for Shop */
+     , (30025, 4,  3229, -1, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Self III (3229) for Shop */
      , (30025, 4,  3234, -1, 0, 0, False) /* Create Scroll of Deception Ineptitude III (3234) for Shop */
      , (30025, 4,  3239, -1, 0, 0, False) /* Create Scroll of Deception Mastery Other III (3239) for Shop */
      , (30025, 4,  3244, -1, 0, 0, False) /* Create Scroll of Deception Mastery Self III (3244) for Shop */
@@ -264,8 +264,8 @@ VALUES (30025, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (30025, 4,  3489, -1, 0, 0, False) /* Create Scroll of Sprint Other III (3489) for Shop */
      , (30025, 4,  3494, -1, 0, 0, False) /* Create Scroll of Sprint Self III (3494) for Shop */
      , (30025, 4,  3514, -1, 0, 0, False) /* Create Scroll of Sword Ineptitude Other III (3514) for Shop */
-     , (30025, 4,  3519, -1, 0, 0, False) /* Create Scroll of Sword Mastery Other III (3519) for Shop */
-     , (30025, 4,  3524, -1, 0, 0, False) /* Create Scroll of Sword Mastery Self III (3524) for Shop */
+     , (30025, 4,  3519, -1, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Other III (3519) for Shop */
+     , (30025, 4,  3524, -1, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Self III (3524) for Shop */
      , (30025, 4,  3559, -1, 0, 0, False) /* Create Scroll of Vulnerability III (3559) for Shop */
      , (30025, 4,  3564, -1, 0, 0, False) /* Create Scroll of War Magic Ineptitude III (3564) for Shop */
      , (30025, 4,  3569, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Other III (3569) for Shop */

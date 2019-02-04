@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1758;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1758, 'shadoclass', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1758, 'shadoclass', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1758,   1,         16) /* ItemType - Creature */
@@ -12,13 +12,13 @@ VALUES (1758,   1,         16) /* ItemType - Creature */
      , (1758,   8,         90) /* Mass */
      , (1758,  16,          1) /* ItemUseable - No */
      , (1758,  25,         30) /* Level */
-     , (1758,  27,          0) /* ArmorType */
-     , (1758,  68,          3) /* TargetingTactic */
+     , (1758,  27,          0) /* ArmorType - None */
+     , (1758,  68,          3) /* TargetingTactic - Random, Focused */
      , (1758,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1758, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (1758, 113,          1) /* Gender - Male */
      , (1758, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1758, 140,          1) /* AiOptions */
+     , (1758, 140,          1) /* AiOptions - CanOpenDoors */
      , (1758, 146,       5000) /* XpOverride */
      , (1758, 188,          1) /* HeritageGroup - Aluvian */
      , (1758, 307,          5) /* DamageRating */;

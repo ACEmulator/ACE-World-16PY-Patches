@@ -1,14 +1,8 @@
---
--- Current Database: `ace_world`
---
-
-USE `ace_world`;
-
 /* Weenie - MissileWeapons - Enhanced Shivering Atlan Bow (46067) */
 DELETE FROM weenie WHERE class_Id = 46067;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46067, 'enhancedshiveringatlanbow', 3) /* MissileLauncher */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46067, 'enhancedshiveringatlanbow', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46067,   1,        256) /* ItemType - MissileWeapon */

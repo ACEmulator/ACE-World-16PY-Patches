@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21550;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (21550, 'wispstasis', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (21550, 'wispstasis', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21550,   1,         16) /* ItemType - Creature */
@@ -10,9 +10,9 @@ VALUES (21550,   1,         16) /* ItemType - Creature */
      , (21550,   7,         -1) /* ContainersCapacity */
      , (21550,  16,          1) /* ItemUseable - No */
      , (21550,  25,        100) /* Level */
-     , (21550,  27,          0) /* ArmorType */
+     , (21550,  27,          0) /* ArmorType - None */
      , (21550,  40,          2) /* CombatMode - Melee */
-     , (21550,  68,          9) /* TargetingTactic */
+     , (21550,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (21550,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (21550, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (21550, 146,      80000) /* XpOverride */;
@@ -25,8 +25,8 @@ VALUES (21550,   1, True ) /* Stuck */
      , (21550,  13, False) /* Ethereal */
      , (21550,  14, True ) /* GravityStatus */
      , (21550,  19, True ) /* Attackable */
-     , (21550,  50, True ) /* NeverFailCasting */
-	 , (21550, 120, True ) /* TreasureCorpse */;
+     , (21550,  29, True ) /* NoCorpse */
+     , (21550,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21550,   1,       5) /* HeartbeatInterval */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23569;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (23569, 'virindiadjudicator', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (23569, 'virindiadjudicator', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23569,   1,         16) /* ItemType - Creature */
@@ -11,11 +11,11 @@ VALUES (23569,   1,         16) /* ItemType - Creature */
      , (23569,   7,         -1) /* ContainersCapacity */
      , (23569,  16,          1) /* ItemUseable - No */
      , (23569,  25,        115) /* Level */
-     , (23569,  27,          0) /* ArmorType */
-     , (23569,  68,          3) /* TargetingTactic */
+     , (23569,  27,          0) /* ArmorType - None */
+     , (23569,  68,          3) /* TargetingTactic - Random, Focused */
      , (23569,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23569, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23569, 140,          1) /* AiOptions */
+     , (23569, 140,          1) /* AiOptions - CanOpenDoors */
      , (23569, 146,     125000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

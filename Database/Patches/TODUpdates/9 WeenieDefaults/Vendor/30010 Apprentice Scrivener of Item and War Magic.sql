@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30010;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30010, 'viascriveneritemwar2starter', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30010, 'viascriveneritemwar2starter', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30010,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30010,   1,         16) /* ItemType - Creature */
      , (30010,   8,        120) /* Mass */
      , (30010,  16,         32) /* ItemUseable - Remote */
      , (30010,  25,         14) /* Level */
-     , (30010,  27,          0) /* ArmorType */
+     , (30010,  27,          0) /* ArmorType - None */
      , (30010,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (30010,  75,          0) /* MerchandiseMinValue */
      , (30010,  76,     100000) /* MerchandiseMaxValue */
@@ -182,17 +182,17 @@ VALUES (30010, 2,   115,  0, 14, 0.6, False) /* Create Leather Boots (115) for W
      , (30010, 4,  2767, -1, 0, 0, False) /* Create Scroll of Acid Lure II (2767) for Shop */
      , (30010, 4,  2772, -1, 0, 0, False) /* Create Scroll of Blade Bane II (2772) for Shop */
      , (30010, 4,  2777, -1, 0, 0, False) /* Create Scroll of Blade Lure II (2777) for Shop */
-     , (30010, 4,  2782, -1, 0, 0, False) /* Create Blood Drinker Scroll II (2782) for Shop */
+     , (30010, 4,  2782, -1, 0, 0, False) /* Create Scroll of Aura of Blood Drinker Self II (2782) for Shop */
      , (30010, 4,  2787, -1, 0, 0, False) /* Create Scroll of Blood Loather II (2787) for Shop */
      , (30010, 4,  2792, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane II (2792) for Shop */
      , (30010, 4,  2797, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure II (2797) for Shop */
      , (30010, 4,  2802, -1, 0, 0, False) /* Create Scroll of Brittlemail II (2802) for Shop */
-     , (30010, 4,  2807, -1, 0, 0, False) /* Create Scroll of Defender II (2807) for Shop */
+     , (30010, 4,  2807, -1, 0, 0, False) /* Create Scroll of Aura of Defender Self II (2807) for Shop */
      , (30010, 4,  2812, -1, 0, 0, False) /* Create Scroll of Flame Bane II (2812) for Shop */
      , (30010, 4,  2817, -1, 0, 0, False) /* Create Scroll of Flame Lure II (2817) for Shop */
      , (30010, 4,  2822, -1, 0, 0, False) /* Create Scroll of Frost Bane II (2822) for Shop */
      , (30010, 4,  2827, -1, 0, 0, False) /* Create Scroll of Frost Lure II (2827) for Shop */
-     , (30010, 4,  2832, -1, 0, 0, False) /* Create Scroll of Heartseeker II (2832) for Shop */
+     , (30010, 4,  2832, -1, 0, 0, False) /* Create Scroll of Aura of Heartseeker Self II (2832) for Shop */
      , (30010, 4,  2837, -1, 0, 0, False) /* Create Scroll of Hermetic Void II (2837) for Shop */
      , (30010, 4,  2842, -1, 0, 0, False) /* Create Scroll of Impenetrability II (2842) for Shop */
      , (30010, 4,  2847, -1, 0, 0, False) /* Create Scroll of Leaden Weapon II (2847) for Shop */
@@ -202,8 +202,8 @@ VALUES (30010, 2,   115,  0, 14, 0.6, False) /* Create Leather Boots (115) for W
      , (30010, 4,  2867, -1, 0, 0, False) /* Create Scroll of Piercing Bane II (2867) for Shop */
      , (30010, 4,  2872, -1, 0, 0, False) /* Create Scroll of Piercing Lure II (2872) for Shop */
      , (30010, 4,  2877, -1, 0, 0, False) /* Create Scroll of Strengthen Lock II (2877) for Shop */
-     , (30010, 4,  2882, -1, 0, 0, False) /* Create Scroll of Swift Killer II (2882) for Shop */
-     , (30010, 4,  2887, -1, 0, 0, False) /* Create Scroll of Hermetic Link II (2887) for Shop */
+     , (30010, 4,  2882, -1, 0, 0, False) /* Create Scroll of Aura of Swift Killer Self II (2882) for Shop */
+     , (30010, 4,  2887, -1, 0, 0, False) /* Create Scroll of Aura of Hermetic Link Self II (2887) for Shop */
      , (30010, 4,  2893, -1, 0, 0, False) /* Create Scroll of Turn Blade II (2893) for Shop */
      , (30010, 4,  2898, -1, 0, 0, False) /* Create Scroll of Weaken Lock II (2898) for Shop */
      , (30010, 4,  2907, -1, 0, 0, False) /* Create Scroll of Acid Stream II (2907) for Shop */
@@ -229,8 +229,8 @@ VALUES (30010, 2,   115,  0, 14, 0.6, False) /* Create Leather Boots (115) for W
      , (30010, 4, 21317, -1, 0, 0, False) /* Create Scroll of Frost Arc II (21317) for Shop */
      , (30010, 4, 21324, -1, 0, 0, False) /* Create Scroll of Lightning Arc II (21324) for Shop */
      , (30010, 4, 21331, -1, 0, 0, False) /* Create Scroll of Shock Arc II (21331) for Shop */
-     , (30010, 4, 28003, -1, 0, 0, False) /* Create Spirit Drinker Scroll II (28003) for Shop */
-     , (30010, 4, 28010, -1, 0, 0, False) /* Create Scroll of Blood Loather II (28010) for Shop */
+     , (30010, 4, 28003, -1, 0, 0, False) /* Create Scroll of Aura of Spirit Drinker Self II (28003) for Shop */
+     , (30010, 4, 28010, -1, 0, 0, False) /* Create Scroll of Spirit Loather II (28010) for Shop */
      , (30010, 4, 46873, -1, 0, 0, False) /* Create Scroll of Aura of Blood Drinker Other II (46873) for Shop */
      , (30010, 4, 46874, -1, 0, 0, False) /* Create Scroll of Aura of Defender Other II (46874) for Shop */
      , (30010, 4, 46875, -1, 0, 0, False) /* Create Scroll of Aura of Heartseeker Other II (46875) for Shop */

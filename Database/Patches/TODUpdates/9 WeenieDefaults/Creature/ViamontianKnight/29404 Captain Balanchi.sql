@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29404;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29404, 'knightcaptainbalanchi1', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29404, 'knightcaptainbalanchi1', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29404,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (29404,   1,         16) /* ItemType - Creature */
      , (29404,   7,         -1) /* ContainersCapacity */
      , (29404,  16,          1) /* ItemUseable - No */
      , (29404,  25,        180) /* Level */
-     , (29404,  27,          0) /* ArmorType */
+     , (29404,  27,          0) /* ArmorType - None */
      , (29404,  40,          2) /* CombatMode - Melee */
-     , (29404,  68,          9) /* TargetingTactic */
+     , (29404,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (29404,  72,         83) /* FriendType - ViamontianKnight */
      , (29404,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29404, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29404, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (29404, 140,          1) /* AiOptions */
+     , (29404, 140,          1) /* AiOptions - CanOpenDoors */
      , (29404, 146,     500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -158,13 +158,13 @@ VALUES (29404, 9, 29370,  0, 0, 1, False) /* Create Platinum Invader Lord Helm (
      , (29404, 9, 29370,  0, 0, 1, False) /* Create Platinum Invader Lord Helm (29370) for ContainTreasure */
      , (29404, 9, 29370,  0, 0, 1, False) /* Create Platinum Invader Lord Helm (29370) for ContainTreasure */
      , (29404, 9, 29370,  0, 0, 1, False) /* Create Platinum Invader Lord Helm (29370) for ContainTreasure */
-     , (29404, 9, 29392,  0, 0, 1, False) /* Create Captain Balanchi's Orders (29392) for ContainTreasure */
-     , (29404, 9, 29392,  0, 0, 1, False) /* Create Captain Balanchi's Orders (29392) for ContainTreasure */
-     , (29404, 9, 29392,  0, 0, 1, False) /* Create Captain Balanchi's Orders (29392) for ContainTreasure */
-     , (29404, 9, 29446,  0, 0, 1, False) /* Create Corcima Castle Platinum Ward Portal Sending Gem (29446) for ContainTreasure */
-     , (29404, 9, 29446,  0, 0, 1, False) /* Create Corcima Castle Platinum Ward Portal Sending Gem (29446) for ContainTreasure */
-     , (29404, 9, 29446,  0, 0, 1, False) /* Create Corcima Castle Platinum Ward Portal Sending Gem (29446) for ContainTreasure */
-     , (29404, 10, 29964,  0, 0, 0.25, False) /* Create Stone Hatchet (29964) for WieldTreasure */
-     , (29404, 10, 29965,  0, 0, 0.25, False) /* Create Stone Mace (29965) for WieldTreasure */
-     , (29404, 10, 29970,  0, 0, 0.25, False) /* Create Stone Spear (29970) for WieldTreasure */
-     , (29404, 10, 29975,  0, 0, 0.25, False) /* Create Bone Sword (29975) for WieldTreasure */;
+     , (29404, 9, 29392,  0, 0, 1, False) /* Create Dispatch to Captain Balanchi (29392) for ContainTreasure */
+     , (29404, 9, 29392,  0, 0, 1, False) /* Create Dispatch to Captain Balanchi (29392) for ContainTreasure */
+     , (29404, 9, 29392,  0, 0, 1, False) /* Create Dispatch to Captain Balanchi (29392) for ContainTreasure */
+     , (29404, 9, 29446,  0, 0, 1, False) /* Create Corcima Castle Platinum Ward Portal Gem (29446) for ContainTreasure */
+     , (29404, 9, 29446,  0, 0, 1, False) /* Create Corcima Castle Platinum Ward Portal Gem (29446) for ContainTreasure */
+     , (29404, 9, 29446,  0, 0, 1, False) /* Create Corcima Castle Platinum Ward Portal Gem (29446) for ContainTreasure */
+     , (29404, 10, 29964,  0, 0, 0.25, False) /* Create Throwing Axe (29964) for WieldTreasure */
+     , (29404, 10, 29965,  0, 0, 0.25, False) /* Create Quadrelle (29965) for WieldTreasure */
+     , (29404, 10, 29970,  0, 0, 0.25, False) /* Create Partizan (29970) for WieldTreasure */
+     , (29404, 10, 29975,  0, 0, 0.25, False) /* Create Spadone (29975) for WieldTreasure */;

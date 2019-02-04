@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6012;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (6012, 'tumerokhighpriestarchernofall', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6012, 'tumerokhighpriestarchernofall', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6012,   1,         16) /* ItemType - Creature */
@@ -11,12 +11,12 @@ VALUES (6012,   1,         16) /* ItemType - Creature */
      , (6012,   7,         -1) /* ContainersCapacity */
      , (6012,  16,          1) /* ItemUseable - No */
      , (6012,  25,        100) /* Level */
-     , (6012,  27,          0) /* ArmorType */
-     , (6012,  68,          5) /* TargetingTactic */
+     , (6012,  27,          0) /* ArmorType - None */
+     , (6012,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (6012,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (6012, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6012, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (6012, 140,          1) /* AiOptions */
+     , (6012, 140,          1) /* AiOptions - CanOpenDoors */
      , (6012, 146,      80000) /* XpOverride */
      , (6012, 307,          5) /* DamageRating */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7992;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7992, 'ursuinesper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7992, 'ursuinesper', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7992,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (7992,   1,         16) /* ItemType - Creature */
      , (7992,   7,         -1) /* ContainersCapacity */
      , (7992,  16,          1) /* ItemUseable - No */
      , (7992,  25,         40) /* Level */
-     , (7992,  27,          0) /* ArmorType */
+     , (7992,  27,          0) /* ArmorType - None */
      , (7992,  40,          2) /* CombatMode - Melee */
-     , (7992,  68,          9) /* TargetingTactic */
+     , (7992,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (7992,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7992, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (7992, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7992, 140,          1) /* AiOptions */
+     , (7992, 140,          1) /* AiOptions - CanOpenDoors */
      , (7992, 146,       7000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

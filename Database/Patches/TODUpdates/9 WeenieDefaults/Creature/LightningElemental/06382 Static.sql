@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6382;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (6382, 'lightningelementalstatic', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6382, 'lightningelementalstatic', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6382,   1,         16) /* ItemType - Creature */
@@ -10,13 +10,13 @@ VALUES (6382,   1,         16) /* ItemType - Creature */
      , (6382,   7,         -1) /* ContainersCapacity */
      , (6382,  16,          1) /* ItemUseable - No */
      , (6382,  25,          8) /* Level */
-     , (6382,  27,          0) /* ArmorType */
-     , (6382,  67,         64) /* Tolerance */
-     , (6382,  68,          5) /* TargetingTactic */
+     , (6382,  27,          0) /* ArmorType - None */
+     , (6382,  67,         64) /* Tolerance - Retaliate */
+     , (6382,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (6382,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (6382, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6382, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (6382, 140,          1) /* AiOptions */
+     , (6382, 140,          1) /* AiOptions - CanOpenDoors */
      , (6382, 146,       1000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

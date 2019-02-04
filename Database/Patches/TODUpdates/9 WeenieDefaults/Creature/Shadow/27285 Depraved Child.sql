@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27285;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27285, 'shadowchilddepraved', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27285, 'shadowchilddepraved', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27285,   1,         16) /* ItemType - Creature */
@@ -12,14 +12,14 @@ VALUES (27285,   1,         16) /* ItemType - Creature */
      , (27285,   8,         90) /* Mass */
      , (27285,  16,          1) /* ItemUseable - No */
      , (27285,  25,        135) /* Level */
-     , (27285,  27,          0) /* ArmorType */
-     , (27285,  68,          3) /* TargetingTactic */
+     , (27285,  27,          0) /* ArmorType - None */
+     , (27285,  68,          3) /* TargetingTactic - Random, Focused */
      , (27285,  72,         71) /* FriendType - Margul */
      , (27285,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (27285, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27285, 113,          1) /* Gender - Male */
      , (27285, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (27285, 140,          1) /* AiOptions */
+     , (27285, 140,          1) /* AiOptions - CanOpenDoors */
      , (27285, 146,     250000) /* XpOverride */
      , (27285, 188,          1) /* HeritageGroup - Aluvian */
      , (27285, 307,          2) /* DamageRating */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28717;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28717, 'collectoreater', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28717, 'collectoreater', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28717,   1,         16) /* ItemType - Creature */
@@ -60,7 +60,7 @@ VALUES (28717,   1,   135, 0, 0, 180) /* MaxHealth */
      , (28717,   5,   198, 0, 0, 288) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28717,  6 /* Give */,      1, 28718 /* Name Me Please */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (28717,  6 /* Give */,      1, 28718 /* Ravenous Eater Jaw */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -75,7 +75,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  7,  10 /* Tell */, 0, 1, NULL, 'I do now grant you the title of Ravenous Killer.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28717,  6 /* Give */,      1, 28725 /* Name Me Please */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (28717,  6 /* Give */,      1, 28725 /* Engorged Eater Jaw */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -89,7 +89,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  6,  10 /* Tell */, 0, 1, NULL, 'I do now grant you the title of Engorged Scourge.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28717,  6 /* Give */,      1, 28726 /* Name Me Please */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (28717,  6 /* Give */,      1, 28726 /* Voracious Eater Jaw */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -103,7 +103,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  6,  10 /* Tell */, 0, 1, NULL, 'I do now grant you the title of Voracious Flayer.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28717,  6 /* Give */,      1, 28727 /* Name Me Please */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (28717,  6 /* Give */,      1, 28727 /* Abhorrent Eater Jaw */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -140,6 +140,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'I am looking for warriors of exceptional ability to test against the kingdom''s weapons. There are five Eater dens that I wish you to infiltrate. Return to me with the jaws of the beasts therein and I will reward you appropriately.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28717, 2, 28606,  0, 85, 1, False) /* Create Viamontian Leggings (28606) for Wield */
+VALUES (28717, 2, 28606,  0, 85, 1, False) /* Create Viamontian Pants (28606) for Wield */
      , (28717, 2, 28609,  0, 2, 0, False) /* Create Vest (28609) for Wield */
      , (28717, 2, 28610,  0, 9, 0.25, False) /* Create Loafers (28610) for Wield */;

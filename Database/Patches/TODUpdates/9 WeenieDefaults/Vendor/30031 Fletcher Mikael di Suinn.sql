@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30031;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30031, 'sanamarfletcher', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30031, 'sanamarfletcher', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30031,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30031,   1,         16) /* ItemType - Creature */
      , (30031,   8,        120) /* Mass */
      , (30031,  16,         32) /* ItemUseable - Remote */
      , (30031,  25,          6) /* Level */
-     , (30031,  27,          0) /* ArmorType */
+     , (30031,  27,          0) /* ArmorType - None */
      , (30031,  74,     262401) /* MerchandiseItemTypes - Weapon, PromissoryNote */
      , (30031,  75,          0) /* MerchandiseMinValue */
      , (30031,  76,      25000) /* MerchandiseMaxValue */
@@ -277,8 +277,8 @@ VALUES (30031, 2,   132,  0, 4, 0.75, False) /* Create Shoes (132) for Wield */
      , (30031, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30031, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30031, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30031, 4, 30616, -1, 0, 0, False) /* Create Heavy Crossbow (30616) for Shop */
-     , (30031, 4, 30625, -1, 0, 0, False) /* Create Longbow (30625) for Shop */
+     , (30031, 4, 30616, -1, 0, 0, False) /* Create Arbalest (30616) for Shop */
+     , (30031, 4, 30625, -1, 0, 0, False) /* Create War Bow (30625) for Shop */
      , (30031, 4, 30746, -1, 0, 0, False) /* Create Dart Flinger (30746) for Shop */
      , (30031, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (30031, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */

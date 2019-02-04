@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11534;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11534, 'zefirenku_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11534, 'zefirenku_xp', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11534,   1,         16) /* ItemType - Creature */
@@ -12,7 +12,7 @@ VALUES (11534,   1,         16) /* ItemType - Creature */
      , (11534,  16,          1) /* ItemUseable - No */
      , (11534,  25,        100) /* Level */
      , (11534,  40,          2) /* CombatMode - Melee */
-     , (11534,  68,         13) /* TargetingTactic */
+     , (11534,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (11534,  72,         29) /* FriendType - Zefir */
      , (11534,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11534, 133,          2) /* ShowableOnRadar - ShowMovement */

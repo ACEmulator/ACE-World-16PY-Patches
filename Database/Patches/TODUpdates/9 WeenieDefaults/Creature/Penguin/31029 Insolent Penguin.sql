@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31029;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31029, 'penguininsolentsnowlily', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31029, 'penguininsolentsnowlily', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31029,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (31029,   1,         16) /* ItemType - Creature */
      , (31029,   7,         -1) /* ContainersCapacity */
      , (31029,  16,          1) /* ItemUseable - No */
      , (31029,  25,        185) /* Level */
-     , (31029,  27,          0) /* ArmorType */
+     , (31029,  27,          0) /* ArmorType - None */
      , (31029,  40,          2) /* CombatMode - Melee */
-     , (31029,  68,          9) /* TargetingTactic */
+     , (31029,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (31029,  72,         80) /* FriendType - Penguin */
      , (31029,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (31029, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (31029, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (31029, 140,          1) /* AiOptions */
+     , (31029, 140,          1) /* AiOptions - CanOpenDoors */
      , (31029, 146,     400000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -137,4 +137,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31029, 8, 30983,  1, 0, 1, False) /* Create Name Me Please (30983) for Treasure */;
+VALUES (31029, 8, 30983,  1, 0, 1, False) /* Create Snow Lily (30983) for Treasure */;

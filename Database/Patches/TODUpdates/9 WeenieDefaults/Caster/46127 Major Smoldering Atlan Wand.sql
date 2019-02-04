@@ -1,14 +1,8 @@
---
--- Current Database: `ace_world`
---
-
-USE `ace_world`;
-
 /* Weenie - Casters - Major Smoldering Atlan Wand (46127) */
 DELETE FROM weenie WHERE class_Id = 46127;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46127, 'majorsmolderingatlanwand', 35) /* Caster */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46127, 'majorsmolderingatlanwand', 35, '2019-02-04 06:52:23') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46127,   1,      32768) /* ItemType - Caster */

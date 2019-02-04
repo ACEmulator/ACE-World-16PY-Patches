@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12186;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (12186, 'humanzharalimfemale_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (12186, 'humanzharalimfemale_xp', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12186,   1,         16) /* ItemType - Creature */
@@ -11,8 +11,8 @@ VALUES (12186,   1,         16) /* ItemType - Creature */
      , (12186,   8,        120) /* Mass */
      , (12186,  16,          1) /* ItemUseable - No */
      , (12186,  25,        100) /* Level */
-     , (12186,  27,          0) /* ArmorType */
-     , (12186,  68,         13) /* TargetingTactic */
+     , (12186,  27,          0) /* ArmorType - None */
+     , (12186,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (12186,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12186, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (12186, 113,          2) /* Gender - Female */

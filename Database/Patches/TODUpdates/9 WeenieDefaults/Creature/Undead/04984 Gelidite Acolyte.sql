@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4984;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4984, 'lichfrore', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4984, 'lichfrore', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4984,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (4984,   1,         16) /* ItemType - Creature */
      , (4984,   7,         -1) /* ContainersCapacity */
      , (4984,  16,          1) /* ItemUseable - No */
      , (4984,  25,         80) /* Level */
-     , (4984,  27,          0) /* ArmorType */
+     , (4984,  27,          0) /* ArmorType - None */
      , (4984,  40,          1) /* CombatMode - NonCombat */
-     , (4984,  68,          3) /* TargetingTactic */
+     , (4984,  68,          3) /* TargetingTactic - Random, Focused */
      , (4984,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4984, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (4984, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4984, 140,          1) /* AiOptions */
+     , (4984, 140,          1) /* AiOptions - CanOpenDoors */
      , (4984, 146,      30000) /* XpOverride */
      , (4984, 307,          5) /* DamageRating */;
 

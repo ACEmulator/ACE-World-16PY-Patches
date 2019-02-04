@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28819;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28819, 'fiunseniorsageshibak', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28819, 'fiunseniorsageshibak', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28819,   1,         16) /* ItemType - Creature */
@@ -86,7 +86,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28819,  6 /* Give */,      1, 28818 /* Scroll */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (28819,  6 /* Give */,      1, 28818 /* Abayar's Research Notes */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

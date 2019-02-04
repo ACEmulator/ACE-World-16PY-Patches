@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30856;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30856, 'knightviamontianliveopspreactd', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30856, 'knightviamontianliveopspreactd', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30856,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (30856,   1,         16) /* ItemType - Creature */
      , (30856,   7,         -1) /* ContainersCapacity */
      , (30856,  16,          1) /* ItemUseable - No */
      , (30856,  25,        115) /* Level */
-     , (30856,  27,          0) /* ArmorType */
+     , (30856,  27,          0) /* ArmorType - None */
      , (30856,  40,          2) /* CombatMode - Melee */
-     , (30856,  68,          9) /* TargetingTactic */
+     , (30856,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (30856,  72,         83) /* FriendType - ViamontianKnight */
      , (30856,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (30856, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30856, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (30856, 140,          1) /* AiOptions */
+     , (30856, 140,          1) /* AiOptions - CanOpenDoors */
      , (30856, 146,     125000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -161,7 +161,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30856, 10, 29966,  1, 0, 0.25, False) /* Create Stone Mace (29966) for WieldTreasure */
-     , (30856, 10, 29971,  1, 0, 0.25, False) /* Create Stone Spear (29971) for WieldTreasure */
-     , (30856, 10, 29976,  1, 0, 0.25, False) /* Create Bone Sword (29976) for WieldTreasure */
-     , (30856, 10, 29980, -1, 0, 0.25, False) /* Create Stone Hatchet (29980) for WieldTreasure */;
+VALUES (30856, 10, 29966,  1, 0, 0.25, False) /* Create Quadrelle (29966) for WieldTreasure */
+     , (30856, 10, 29971,  1, 0, 0.25, False) /* Create Partizan (29971) for WieldTreasure */
+     , (30856, 10, 29976,  1, 0, 0.25, False) /* Create Spadone (29976) for WieldTreasure */
+     , (30856, 10, 29980, -1, 0, 0.25, False) /* Create Throwing Axe (29980) for WieldTreasure */;

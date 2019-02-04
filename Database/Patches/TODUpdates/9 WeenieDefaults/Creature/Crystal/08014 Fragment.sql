@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8014;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8014, 'crystalfragmentneclass', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8014, 'crystalfragmentneclass', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8014,   1,         16) /* ItemType - Creature */
@@ -11,10 +11,10 @@ VALUES (8014,   1,         16) /* ItemType - Creature */
      , (8014,   7,         -1) /* ContainersCapacity */
      , (8014,  16,          1) /* ItemUseable - No */
      , (8014,  25,         40) /* Level */
-     , (8014,  27,          0) /* ArmorType */
+     , (8014,  27,          0) /* ArmorType - None */
      , (8014,  40,          2) /* CombatMode - Melee */
-     , (8014,  68,          5) /* TargetingTactic */
-     , (8014,  69,          4) /* CombatTactic */
+     , (8014,  68,          5) /* TargetingTactic - Random, LastDamager */
+     , (8014,  69,          4) /* CombatTactic - LastDamager */
      , (8014,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (8014, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8014, 146,       7000) /* XpOverride */;

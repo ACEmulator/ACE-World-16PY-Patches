@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30434;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30434, 'silyunhonorguard', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30434, 'silyunhonorguard', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30434,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30434,   1,         16) /* ItemType - Creature */
      , (30434,   8,        120) /* Mass */
      , (30434,  16,         32) /* ItemUseable - Remote */
      , (30434,  25,         11) /* Level */
-     , (30434,  27,          0) /* ArmorType */
+     , (30434,  27,          0) /* ArmorType - None */
      , (30434,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30434,  95,          8) /* RadarBlipColor - Yellow */
      , (30434, 113,          1) /* Gender - Male */
@@ -192,4 +192,4 @@ VALUES (30434, 2,   309,  0, 0, 0, False) /* Create Club (309) for Wield */
      , (30434, 2, 28621,  0, 88, 0, False) /* Create Diforsa Leggings (28621) for Wield */
      , (30434, 2, 28625,  0, 88, 0, False) /* Create Diforsa Sollerets (28625) for Wield */
      , (30434, 2, 28632,  0, 88, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (30434, 2, 30948,  0, 88, 0, False) /* Create shirt armor.  Covers upper arms, chest and abdomen (30948) for Wield */;
+     , (30434, 2, 30948,  0, 88, 0, False) /* Create Diforsa Hauberk (30948) for Wield */;

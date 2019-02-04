@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6775;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (6775, 'skeletonwarriorcrimsonruby4', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6775, 'skeletonwarriorcrimsonruby4', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6775,   1,         16) /* ItemType - Creature */
@@ -10,13 +10,13 @@ VALUES (6775,   1,         16) /* ItemType - Creature */
      , (6775,   7,         -1) /* ContainersCapacity */
      , (6775,  16,          1) /* ItemUseable - No */
      , (6775,  25,         50) /* Level */
-     , (6775,  27,          0) /* ArmorType */
+     , (6775,  27,          0) /* ArmorType - None */
      , (6775,  40,          1) /* CombatMode - NonCombat */
-     , (6775,  68,          5) /* TargetingTactic */
+     , (6775,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (6775,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (6775, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6775, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (6775, 140,          1) /* AiOptions */
+     , (6775, 140,          1) /* AiOptions - CanOpenDoors */
      , (6775, 146,      10000) /* XpOverride */
      , (6775, 307,          5) /* DamageRating */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27287;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27287, 'shadowchildpandemic', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27287, 'shadowchildpandemic', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27287,   1,         16) /* ItemType - Creature */
@@ -12,14 +12,14 @@ VALUES (27287,   1,         16) /* ItemType - Creature */
      , (27287,   8,         90) /* Mass */
      , (27287,  16,          1) /* ItemUseable - No */
      , (27287,  25,        135) /* Level */
-     , (27287,  27,          0) /* ArmorType */
-     , (27287,  68,          3) /* TargetingTactic */
+     , (27287,  27,          0) /* ArmorType - None */
+     , (27287,  68,          3) /* TargetingTactic - Random, Focused */
      , (27287,  72,         71) /* FriendType - Margul */
      , (27287,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (27287, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27287, 113,          1) /* Gender - Male */
      , (27287, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (27287, 140,          1) /* AiOptions */
+     , (27287, 140,          1) /* AiOptions - CanOpenDoors */
      , (27287, 146,     250000) /* XpOverride */
      , (27287, 188,          1) /* HeritageGroup - Aluvian */
      , (27287, 307,          2) /* DamageRating */;

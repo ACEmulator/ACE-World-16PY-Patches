@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29413;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29413, 'knightdoorkeepergold', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29413, 'knightdoorkeepergold', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29413,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (29413,   1,         16) /* ItemType - Creature */
      , (29413,   7,         -1) /* ContainersCapacity */
      , (29413,  16,          1) /* ItemUseable - No */
      , (29413,  25,        115) /* Level */
-     , (29413,  27,          0) /* ArmorType */
+     , (29413,  27,          0) /* ArmorType - None */
      , (29413,  40,          2) /* CombatMode - Melee */
-     , (29413,  68,          9) /* TargetingTactic */
+     , (29413,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (29413,  72,         83) /* FriendType - ViamontianKnight */
      , (29413,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29413, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29413, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (29413, 140,          1) /* AiOptions */
+     , (29413, 140,          1) /* AiOptions - CanOpenDoors */
      , (29413, 146,     125000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -153,8 +153,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29413, 8, 29377,  0, 0, 1, False) /* Create Iron Key (29377) for Treasure */
-     , (29413, 10, 29966,  1, 0, 0.25, False) /* Create Stone Mace (29966) for WieldTreasure */
-     , (29413, 10, 29971,  1, 0, 0.25, False) /* Create Stone Spear (29971) for WieldTreasure */
-     , (29413, 10, 29976,  1, 0, 0.25, False) /* Create Bone Sword (29976) for WieldTreasure */
-     , (29413, 10, 29980, -1, 0, 0.25, False) /* Create Stone Hatchet (29980) for WieldTreasure */;
+VALUES (29413, 8, 29377,  0, 0, 1, False) /* Create Gold Legion Door Key (29377) for Treasure */
+     , (29413, 10, 29966,  1, 0, 0.25, False) /* Create Quadrelle (29966) for WieldTreasure */
+     , (29413, 10, 29971,  1, 0, 0.25, False) /* Create Partizan (29971) for WieldTreasure */
+     , (29413, 10, 29976,  1, 0, 0.25, False) /* Create Spadone (29976) for WieldTreasure */
+     , (29413, 10, 29980, -1, 0, 0.25, False) /* Create Throwing Axe (29980) for WieldTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30069;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30069, 'silyuntailor', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30069, 'silyuntailor', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30069,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30069,   1,         16) /* ItemType - Creature */
      , (30069,   8,        120) /* Mass */
      , (30069,  16,         32) /* ItemUseable - Remote */
      , (30069,  25,         11) /* Level */
-     , (30069,  27,          0) /* ArmorType */
+     , (30069,  27,          0) /* ArmorType - None */
      , (30069,  74,     262148) /* MerchandiseItemTypes - Clothing, PromissoryNote */
      , (30069,  75,          0) /* MerchandiseMinValue */
      , (30069,  76,     100000) /* MerchandiseMaxValue */
@@ -204,9 +204,9 @@ VALUES (30069, 2,   127,  0, 5, 1, False) /* Create Pants (127) for Wield */
      , (30069, 2, 28605,  0, 5, 0.2093, False) /* Create Beret (28605) for Wield */
      , (30069, 2, 28607,  0, 1, 0, False) /* Create Lace Shirt (28607) for Wield */
      , (30069, 2, 28611,  0, 4, 1, False) /* Create Viamontian Laced Boots (28611) for Wield */
-     , (30069, 4, 28606, -1, 2, 0.8, False) /* Create Viamontian Leggings (28606) for Shop */
-     , (30069, 4, 28606, -1, 3, 1, False) /* Create Viamontian Leggings (28606) for Shop */
-     , (30069, 4, 28606, -1, 5, 0.4941, False) /* Create Viamontian Leggings (28606) for Shop */
+     , (30069, 4, 28606, -1, 2, 0.8, False) /* Create Viamontian Pants (28606) for Shop */
+     , (30069, 4, 28606, -1, 3, 1, False) /* Create Viamontian Pants (28606) for Shop */
+     , (30069, 4, 28606, -1, 5, 0.4941, False) /* Create Viamontian Pants (28606) for Shop */
      , (30069, 4, 28607, -1, 2, 0, False) /* Create Lace Shirt (28607) for Shop */
      , (30069, 4, 28607, -1, 5, 0, False) /* Create Lace Shirt (28607) for Shop */
      , (30069, 4, 28607, -1, 3, 0, False) /* Create Lace Shirt (28607) for Shop */
@@ -223,5 +223,5 @@ VALUES (30069, 2,   127,  0, 5, 1, False) /* Create Pants (127) for Wield */
      , (30069, 4, 28611, -1, 3, 1, False) /* Create Viamontian Laced Boots (28611) for Shop */
      , (30069, 4, 28611, -1, 5, 0, False) /* Create Viamontian Laced Boots (28611) for Shop */
      , (30069, 4, 28613, -1, 1, 0.2963, False) /* Create Tessera Gown (28613) for Shop */
-     , (30069, 4, 28614, -1, 2, 0.1786, False) /* Create Hooded Vestiri Robe (28614) for Shop */
-     , (30069, 4, 28614, -1, 5, 0.0714, False) /* Create Hooded Vestiri Robe (28614) for Shop */;
+     , (30069, 4, 28614, -1, 2, 0.1786, False) /* Create Vestiri Robe with Hood (28614) for Shop */
+     , (30069, 4, 28614, -1, 5, 0.0714, False) /* Create Vestiri Robe with Hood (28614) for Shop */;

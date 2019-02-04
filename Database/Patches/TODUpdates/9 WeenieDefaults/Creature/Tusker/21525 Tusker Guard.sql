@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21525;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (21525, 'tuskerguard_noxp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (21525, 'tuskerguard_noxp', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21525,   1,         16) /* ItemType - Creature */
@@ -11,9 +11,9 @@ VALUES (21525,   1,         16) /* ItemType - Creature */
      , (21525,   7,         -1) /* ContainersCapacity */
      , (21525,  16,          1) /* ItemUseable - No */
      , (21525,  25,         80) /* Level */
-     , (21525,  27,          0) /* ArmorType */
+     , (21525,  27,          0) /* ArmorType - None */
      , (21525,  40,          2) /* CombatMode - Melee */
-     , (21525,  68,          9) /* TargetingTactic */
+     , (21525,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (21525,  72,         19) /* FriendType - Virindi */
      , (21525,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (21525, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -185,5 +185,5 @@ VALUES (21525, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasu
      , (21525, 9,  8147,  0, 0, 0.05, False) /* Create Tusker Head (8147) for ContainTreasure */
      , (21525, 9,  8701,  1, 0, 0.05, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */
      , (21525, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
-     , (21525, 9, 29204,  1, 0, 0.2, False) /* Create Name Me Please (29204) for ContainTreasure */
+     , (21525, 9, 29204,  1, 0, 0.2, False) /* Create Tusker Spit (29204) for ContainTreasure */
      , (21525, 9, 45876,  1, 0, 0.05, False) /* Create  (45876) for ContainTreasure */;

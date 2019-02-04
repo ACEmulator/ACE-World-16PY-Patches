@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29081;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29081, 'chestthrungussteaming1', 20) /* Chest */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29081, 'chestthrungussteaming1', 20, '2019-02-04 06:52:23') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29081,   1,        512) /* ItemType - Container */
@@ -44,4 +44,4 @@ VALUES (29081,   1,   33554556) /* Setup */
      , (29081,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29081, -1, 29090, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Name Me Please (29090) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
+VALUES (29081, -1, 29090, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Stolen Necklace (29090) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

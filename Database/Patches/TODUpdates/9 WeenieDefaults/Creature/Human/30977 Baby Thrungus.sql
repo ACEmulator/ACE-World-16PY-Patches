@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30977;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30977, 'thungusbabynpc5', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30977, 'thungusbabynpc5', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30977,   1,         16) /* ItemType - Creature */
@@ -12,7 +12,7 @@ VALUES (30977,   1,         16) /* ItemType - Creature */
      , (30977,   8,        120) /* Mass */
      , (30977,  16,         32) /* ItemUseable - Remote */
      , (30977,  25,          8) /* Level */
-     , (30977,  27,          0) /* ArmorType */
+     , (30977,  27,          0) /* ArmorType - None */
      , (30977,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30977,  95,          8) /* RadarBlipColor - Yellow */
      , (30977, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -97,7 +97,7 @@ VALUES (30977,  0, 32,  5,  0.3,   50,   45,   40,   50,   50,   40,   55,   50,
      , (30977, 22, 32,  5,  0.3,   50,   45,   40,   50,   50,   40,   55,   50,    0, 0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (30977,  1 /* Refuse */,      1, 30972 /* Name Me Please */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (30977,  1 /* Refuse */,      1, 30972 /* Bag of Life Stone Chips */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -234,4 +234,4 @@ VALUES (@parent_id,  0,  13 /* TextDirect */, 0, 1, NULL, 'The Baby Thrungus eat
      , (@parent_id,  1,  13 /* TextDirect */, 0, 1, NULL, 'The Baby Thrungus starts to cry.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30977, -1, 31025, 0, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate CreatureName (31025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
+VALUES (30977, -1, 31025, 0, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Fire Morel Thrungus (31025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;

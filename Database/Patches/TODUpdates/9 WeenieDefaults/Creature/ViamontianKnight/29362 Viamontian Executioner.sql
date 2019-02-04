@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29362;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29362, 'knightexecutioner', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29362, 'knightexecutioner', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29362,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (29362,   1,         16) /* ItemType - Creature */
      , (29362,   7,         -1) /* ContainersCapacity */
      , (29362,  16,          1) /* ItemUseable - No */
      , (29362,  25,         40) /* Level */
-     , (29362,  27,         16) /* ArmorType */
+     , (29362,  27,         16) /* ArmorType - Chainmail */
      , (29362,  40,          2) /* CombatMode - Melee */
-     , (29362,  68,         13) /* TargetingTactic */
+     , (29362,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (29362,  72,         83) /* FriendType - ViamontianKnight */
      , (29362,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29362, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29362, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (29362, 140,          1) /* AiOptions */
+     , (29362, 140,          1) /* AiOptions - CanOpenDoors */
      , (29362, 146,       7000) /* XpOverride */
      , (29362, 188,          4) /* HeritageGroup - Viamontian */;
 
@@ -165,8 +165,8 @@ VALUES (29362, 2, 28618,  0, 93, 0, True) /* Create Diforsa Helm (28618) for Wie
      , (29362, 2, 28621,  0, 93, 0, True) /* Create Diforsa Leggings (28621) for Wield */
      , (29362, 2, 28625,  0, 93, 0, True) /* Create Diforsa Sollerets (28625) for Wield */
      , (29362, 2, 28632,  0, 93, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (29362, 2, 30948,  0, 93, 0, True) /* Create shirt armor.  Covers upper arms, chest and abdomen (30948) for Wield */
-     , (29362, 10, 29967,  0, 0, 0.25, False) /* Create Stone Mace (29967) for WieldTreasure */
-     , (29362, 10, 29972,  0, 0, 0.25, False) /* Create Stone Spear (29972) for WieldTreasure */
-     , (29362, 10, 29977,  0, 0, 0.25, False) /* Create Bone Sword (29977) for WieldTreasure */
-     , (29362, 10, 29982,  0, 0, 0.25, False) /* Create Stone Hatchet (29982) for WieldTreasure */;
+     , (29362, 2, 30948,  0, 93, 0, True) /* Create Diforsa Hauberk (30948) for Wield */
+     , (29362, 10, 29967,  0, 0, 0.25, False) /* Create Quadrelle (29967) for WieldTreasure */
+     , (29362, 10, 29972,  0, 0, 0.25, False) /* Create Partizan (29972) for WieldTreasure */
+     , (29362, 10, 29977,  0, 0, 0.25, False) /* Create Spadone (29977) for WieldTreasure */
+     , (29362, 10, 29982,  0, 0, 0.25, False) /* Create Throwing Axe (29982) for WieldTreasure */;

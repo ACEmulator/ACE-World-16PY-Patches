@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2498;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2498, 'craterlakearchmage', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2498, 'craterlakearchmage', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2498,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (2498,   1,         16) /* ItemType - Creature */
      , (2498,   8,        120) /* Mass */
      , (2498,  16,         32) /* ItemUseable - Remote */
      , (2498,  25,         17) /* Level */
-     , (2498,  27,          0) /* ArmorType */
+     , (2498,  27,          0) /* ArmorType - None */
      , (2498,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (2498,  75,          0) /* MerchandiseMinValue */
      , (2498,  76,     100000) /* MerchandiseMaxValue */
@@ -283,11 +283,11 @@ VALUES (2498, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe (591
      , (2498, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
      , (2498, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
      , (2498, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
-     , (2498, 4, 19401, -1, 0, 0, False) /* Create New Axe Glyph (19401) for Shop */
-     , (2498, 4, 19402, -1, 0, 0, False) /* Create New Bow Glyph (19402) for Shop */
-     , (2498, 4, 19405, -1, 0, 0, False) /* Create New Dagger Glyph (19405) for Shop */
-     , (2498, 4, 19409, -1, 0, 0, False) /* Create New Sword Glyph (19409) for Shop */
-     , (2498, 4, 19410, -1, 0, 0, False) /* Create New Wand Glyph (19410) for Shop */
+     , (2498, 4, 19401, -1, 0, 0, False) /* Create Light Weapons Glyph (19401) for Shop */
+     , (2498, 4, 19402, -1, 0, 0, False) /* Create Missile Weapons Glyph (19402) for Shop */
+     , (2498, 4, 19405, -1, 0, 0, False) /* Create Finesse Weapons Glyph (19405) for Shop */
+     , (2498, 4, 19409, -1, 0, 0, False) /* Create Heavy Weapons Glyph (19409) for Shop */
+     , (2498, 4, 19410, -1, 0, 0, False) /* Create Magic Glyph (19410) for Shop */
      , (2498, 4, 20179, -1, 0, 0, False) /* Create Superb Mana Charge (20179) for Shop */
      , (2498, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (2498, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */

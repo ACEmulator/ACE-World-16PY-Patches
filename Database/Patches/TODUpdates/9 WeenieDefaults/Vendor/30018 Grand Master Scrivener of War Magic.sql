@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30018;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30018, 'viascrivenerwarextreme', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30018, 'viascrivenerwarextreme', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30018,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30018,   1,         16) /* ItemType - Creature */
      , (30018,   8,        120) /* Mass */
      , (30018,  16,         32) /* ItemUseable - Remote */
      , (30018,  25,         77) /* Level */
-     , (30018,  27,          0) /* ArmorType */
+     , (30018,  27,          0) /* ArmorType - None */
      , (30018,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
      , (30018,  75,          0) /* MerchandiseMinValue */
      , (30018,  76,     100000) /* MerchandiseMaxValue */
@@ -183,7 +183,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Go and fight. Bring glory to the great one.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30018, 2, 28614,  0, 93, 0.5, False) /* Create Hooded Vestiri Robe (28614) for Wield */
+VALUES (30018, 2, 28614,  0, 93, 0.5, False) /* Create Vestiri Robe with Hood (28614) for Wield */
      , (30018, 4,  2911, -1, 0, 0, False) /* Create Scroll of Acid Stream VI (2911) for Shop */
      , (30018, 4,  2915, -1, 0, 0, False) /* Create Scroll of Acid Volley VI (2915) for Shop */
      , (30018, 4,  2918, -1, 0, 0, False) /* Create Scroll of Blade Blast VI (2918) for Shop */

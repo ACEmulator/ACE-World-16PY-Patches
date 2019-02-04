@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28822;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28822, 'fiunmaddenedabayar', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28822, 'fiunmaddenedabayar', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28822,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (28822,   1,         16) /* ItemType - Creature */
      , (28822,   7,         -1) /* ContainersCapacity */
      , (28822,  16,          1) /* ItemUseable - No */
      , (28822,  25,        135) /* Level */
-     , (28822,  27,          0) /* ArmorType */
+     , (28822,  27,          0) /* ArmorType - None */
      , (28822,  40,          2) /* CombatMode - Melee */
-     , (28822,  68,          9) /* TargetingTactic */
+     , (28822,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (28822,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28822, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (28822, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28822, 140,          1) /* AiOptions */
+     , (28822, 140,          1) /* AiOptions - CanOpenDoors */
      , (28822, 146,     250000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -152,4 +152,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28822, 9, 28818,  1, 1, 1, True) /* Create Scroll (28818) for ContainTreasure */;
+VALUES (28822, 9, 28818,  1, 1, 1, True) /* Create Abayar's Research Notes (28818) for ContainTreasure */;

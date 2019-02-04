@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24302;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24302, 'olthoiswarmlegionary', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24302, 'olthoiswarmlegionary', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24302,   1,         16) /* ItemType - Creature */
@@ -12,13 +12,13 @@ VALUES (24302,   1,         16) /* ItemType - Creature */
      , (24302,   8,       8000) /* Mass */
      , (24302,  16,          1) /* ItemUseable - No */
      , (24302,  25,        100) /* Level */
-     , (24302,  27,          0) /* ArmorType */
+     , (24302,  27,          0) /* ArmorType - None */
      , (24302,  40,          2) /* CombatMode - Melee */
-     , (24302,  68,         13) /* TargetingTactic */
+     , (24302,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (24302,  72,         35) /* FriendType - OlthoiLarvae */
      , (24302,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24302, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24302, 140,          1) /* AiOptions */
+     , (24302, 140,          1) /* AiOptions - CanOpenDoors */
      , (24302, 146,      80000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

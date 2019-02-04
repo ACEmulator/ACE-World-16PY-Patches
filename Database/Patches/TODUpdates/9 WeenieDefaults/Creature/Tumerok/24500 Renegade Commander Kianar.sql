@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24500;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24500, 'tumerokrenegadecommander1archer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24500, 'tumerokrenegadecommander1archer', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24500,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (24500,   1,         16) /* ItemType - Creature */
      , (24500,   7,         -1) /* ContainersCapacity */
      , (24500,  16,          1) /* ItemUseable - No */
      , (24500,  25,        185) /* Level */
-     , (24500,  27,          0) /* ArmorType */
-     , (24500,  68,          5) /* TargetingTactic */
+     , (24500,  27,          0) /* ArmorType - None */
+     , (24500,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (24500,  72,         70) /* FriendType - GotrokLugian */
      , (24500,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24500, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (24500, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24500, 140,          1) /* AiOptions */
+     , (24500, 140,          1) /* AiOptions - CanOpenDoors */
      , (24500, 146,     800000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

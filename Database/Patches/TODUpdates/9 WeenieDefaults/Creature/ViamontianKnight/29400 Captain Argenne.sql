@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29400;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29400, 'knightcaptainargenne1', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29400, 'knightcaptainargenne1', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29400,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (29400,   1,         16) /* ItemType - Creature */
      , (29400,   7,         -1) /* ContainersCapacity */
      , (29400,  16,          1) /* ItemUseable - No */
      , (29400,  25,        115) /* Level */
-     , (29400,  27,          0) /* ArmorType */
+     , (29400,  27,          0) /* ArmorType - None */
      , (29400,  40,          2) /* CombatMode - Melee */
-     , (29400,  68,          9) /* TargetingTactic */
+     , (29400,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (29400,  72,         83) /* FriendType - ViamontianKnight */
      , (29400,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29400, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29400, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (29400, 140,          1) /* AiOptions */
+     , (29400, 140,          1) /* AiOptions - CanOpenDoors */
      , (29400, 146,     125000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -155,10 +155,10 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29400, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (29400, 9, 29364,  0, 0, 1, False) /* Create Silver Invader Lord Helm (29364) for ContainTreasure */
-     , (29400, 9, 29393,  0, 0, 1, False) /* Create Captain Argenne's Orders (29393) for ContainTreasure */
-     , (29400, 9, 29447,  0, 0, 1, False) /* Create Corcima Castle Silver Ward Portal Sending Gem (29447) for ContainTreasure */
+     , (29400, 9, 29393,  0, 0, 1, False) /* Create Dispatch to Captain Argenne (29393) for ContainTreasure */
+     , (29400, 9, 29447,  0, 0, 1, False) /* Create Corcima Castle Silver Ward Portal Gem (29447) for ContainTreasure */
      , (29400, 9, 42518,  0, 0, 0.05, False) /* Create  (42518) for ContainTreasure */
-     , (29400, 10, 29966,  1, 0, 0.25, False) /* Create Stone Mace (29966) for WieldTreasure */
-     , (29400, 10, 29971,  1, 0, 0.25, False) /* Create Stone Spear (29971) for WieldTreasure */
-     , (29400, 10, 29976,  1, 0, 0.25, False) /* Create Bone Sword (29976) for WieldTreasure */
-     , (29400, 10, 29980, -1, 0, 0.25, False) /* Create Stone Hatchet (29980) for WieldTreasure */;
+     , (29400, 10, 29966,  1, 0, 0.25, False) /* Create Quadrelle (29966) for WieldTreasure */
+     , (29400, 10, 29971,  1, 0, 0.25, False) /* Create Partizan (29971) for WieldTreasure */
+     , (29400, 10, 29976,  1, 0, 0.25, False) /* Create Spadone (29976) for WieldTreasure */
+     , (29400, 10, 29980, -1, 0, 0.25, False) /* Create Throwing Axe (29980) for WieldTreasure */;

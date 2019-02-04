@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20206;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (20206, 'scrivenercreature2starter', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (20206, 'scrivenercreature2starter', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20206,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (20206,   1,         16) /* ItemType - Creature */
      , (20206,   8,        120) /* Mass */
      , (20206,  16,         32) /* ItemUseable - Remote */
      , (20206,  25,         14) /* Level */
-     , (20206,  27,          0) /* ArmorType */
+     , (20206,  27,          0) /* ArmorType - None */
      , (20206,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (20206,  75,          0) /* MerchandiseMinValue */
      , (20206,  76,     100000) /* MerchandiseMaxValue */
@@ -212,17 +212,17 @@ VALUES (20206, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (20206, 4,  3148, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Expertise Self II (3148) for Shop */
      , (20206, 4,  3153, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Ignorance II (3153) for Shop */
      , (20206, 4,  3158, -1, 0, 0, False) /* Create Scroll of Axe Ineptitude Other II (3158) for Shop */
-     , (20206, 4,  3163, -1, 0, 0, False) /* Create Scroll of Axe Mastery Other II (3163) for Shop */
-     , (20206, 4,  3168, -1, 0, 0, False) /* Create Scroll of Axe Mastery Self II (3168) for Shop */
+     , (20206, 4,  3163, -1, 0, 0, False) /* Create Scroll of Light Weapon Mastery Other II (3163) for Shop */
+     , (20206, 4,  3168, -1, 0, 0, False) /* Create Scroll of Light Weapon Mastery Self II (3168) for Shop */
      , (20206, 4,  3173, -1, 0, 0, False) /* Create Scroll of Bow Ineptitude Other II (3173) for Shop */
-     , (20206, 4,  3178, -1, 0, 0, False) /* Create Scroll of Bow Mastery Other II (3178) for Shop */
-     , (20206, 4,  3183, -1, 0, 0, False) /* Create Scroll of Bow Mastery Self II (3183) for Shop */
+     , (20206, 4,  3178, -1, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Other II (3178) for Shop */
+     , (20206, 4,  3183, -1, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Self II (3183) for Shop */
      , (20206, 4,  3188, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Ineptitude II (3188) for Shop */
      , (20206, 4,  3193, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Other II (3193) for Shop */
      , (20206, 4,  3198, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Self II (3198) for Shop */
      , (20206, 4,  3218, -1, 0, 0, False) /* Create Scroll of Dagger Ineptitude Other II (3218) for Shop */
-     , (20206, 4,  3223, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Other II (3223) for Shop */
-     , (20206, 4,  3228, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Self II (3228) for Shop */
+     , (20206, 4,  3223, -1, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other II (3223) for Shop */
+     , (20206, 4,  3228, -1, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Self II (3228) for Shop */
      , (20206, 4,  3233, -1, 0, 0, False) /* Create Scroll of Deception Ineptitude II (3233) for Shop */
      , (20206, 4,  3238, -1, 0, 0, False) /* Create Scroll of Deception Mastery Other II (3238) for Shop */
      , (20206, 4,  3243, -1, 0, 0, False) /* Create Scroll of Deception Mastery Self II (3243) for Shop */
@@ -271,8 +271,8 @@ VALUES (20206, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (20206, 4,  3488, -1, 0, 0, False) /* Create Scroll of Sprint Other II (3488) for Shop */
      , (20206, 4,  3493, -1, 0, 0, False) /* Create Scroll of Sprint Self II (3493) for Shop */
      , (20206, 4,  3513, -1, 0, 0, False) /* Create Scroll of Sword Ineptitude Other II (3513) for Shop */
-     , (20206, 4,  3518, -1, 0, 0, False) /* Create Scroll of Sword Mastery Other II (3518) for Shop */
-     , (20206, 4,  3523, -1, 0, 0, False) /* Create Scroll of Sword Mastery Self II (3523) for Shop */
+     , (20206, 4,  3518, -1, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Other II (3518) for Shop */
+     , (20206, 4,  3523, -1, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Self II (3523) for Shop */
      , (20206, 4,  3558, -1, 0, 0, False) /* Create Scroll of Vulnerability II (3558) for Shop */
      , (20206, 4,  3563, -1, 0, 0, False) /* Create Scroll of War Magic Ineptitude II (3563) for Shop */
      , (20206, 4,  3568, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Other II (3568) for Shop */

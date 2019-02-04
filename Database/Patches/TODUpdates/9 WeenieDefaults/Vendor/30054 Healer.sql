@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30054;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30054, 'viahealer', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30054, 'viahealer', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30054,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30054,   1,         16) /* ItemType - Creature */
      , (30054,   8,        120) /* Mass */
      , (30054,  16,         32) /* ItemUseable - Remote */
      , (30054,  25,         32) /* Level */
-     , (30054,  27,          0) /* ArmorType */
+     , (30054,  27,          0) /* ArmorType - None */
      , (30054,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (30054,  75,          0) /* MerchandiseMinValue */
      , (30054,  76,      25000) /* MerchandiseMaxValue */
@@ -197,7 +197,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'I have pledged to heal al
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30054, 2, 28605,  0, 7, 0.5, False) /* Create Beret (28605) for Wield */
-     , (30054, 2, 28606,  0, 12, 0.439, False) /* Create Viamontian Leggings (28606) for Wield */
+     , (30054, 2, 28606,  0, 12, 0.439, False) /* Create Viamontian Pants (28606) for Wield */
      , (30054, 2, 28608,  0, 7, 0.3372, False) /* Create Poet's Shirt (28608) for Wield */
      , (30054, 2, 28611,  0, 6, 0, False) /* Create Viamontian Laced Boots (28611) for Wield */
      , (30054, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70000;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (70000, 'ace70000-aggressivepenguin', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (70000, 'ace70000-aggressivepenguin', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70000,   1,         16) /* ItemType - Creature */
@@ -11,14 +11,14 @@ VALUES (70000,   1,         16) /* ItemType - Creature */
      , (70000,   7,         -1) /* ContainersCapacity */
      , (70000,  16,          1) /* ItemUseable - No */
      , (70000,  25,          8) /* Level */
-     , (70000,  27,          0) /* ArmorType */
+     , (70000,  27,          0) /* ArmorType - None */
      , (70000,  40,          2) /* CombatMode - Melee */
-     , (70000,  68,          9) /* TargetingTactic */
+     , (70000,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (70000,  72,         80) /* FriendType - Penguin */
      , (70000,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (70000, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (70000, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (70000, 140,          1) /* AiOptions */
+     , (70000, 140,          1) /* AiOptions - CanOpenDoors */
      , (70000, 146,       1000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -138,4 +138,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (70000, 8,     0,  0, 0, 0.94, False) /* Create nothing for Treasure */
-     , (70000, 8, 28739,  0, 0, 0.06, False) /* Create Name Me Please (28739) for Treasure */;
+     , (70000, 8, 28739,  0, 0, 0.06, False) /* Create Penguin Beak (28739) for Treasure */;

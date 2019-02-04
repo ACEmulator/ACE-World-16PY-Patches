@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27461;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27461, 'tumerokcommanderkamenua', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27461, 'tumerokcommanderkamenua', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27461,   1,         16) /* ItemType - Creature */
@@ -11,13 +11,13 @@ VALUES (27461,   1,         16) /* ItemType - Creature */
      , (27461,   7,         -1) /* ContainersCapacity */
      , (27461,  16,          1) /* ItemUseable - No */
      , (27461,  25,        100) /* Level */
-     , (27461,  27,          0) /* ArmorType */
-     , (27461,  68,          5) /* TargetingTactic */
+     , (27461,  27,          0) /* ArmorType - None */
+     , (27461,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (27461,  72,         70) /* FriendType - GotrokLugian */
      , (27461,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27461, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (27461, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (27461, 140,          1) /* AiOptions */
+     , (27461, 140,          1) /* AiOptions - CanOpenDoors */
      , (27461, 146,      80000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

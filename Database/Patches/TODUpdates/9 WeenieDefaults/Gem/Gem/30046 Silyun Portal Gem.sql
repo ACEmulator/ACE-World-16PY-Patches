@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30046;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30046, 'gemportalsilyun', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30046, 'gemportalsilyun', 38, '2019-02-04 06:52:23') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30046,   1,       2048) /* ItemType - Gem */
@@ -47,5 +47,5 @@ VALUES (30046,   1,   33556769) /* Setup */
      , (30046,   8,  100674858) /* Icon */
      , (30046,  22,  872415275) /* PhysicsEffectTable */
      , (30046,  28,        157) /* Spell - Summon Primary Portal I */
-     , (30046,  31,      30555) /* LinkedPortalOne - Purple Portal Template */
+     , (30046,  31,      30555) /* LinkedPortalOne - Portal to Silyun */
      , (30046,  36,  234881046) /* MutateFilter */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30049;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30049, 'fiunarchmage', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30049, 'fiunarchmage', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30049,   1,         16) /* ItemType - Creature */
@@ -267,7 +267,7 @@ VALUES (30049, 4,   136, -1, 8, 0, False) /* Create Pack (136) for Shop */
      , (30049, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
      , (30049, 4, 27330, -1, 0, 0, False) /* Create Moderate Mana Stone (27330) for Shop */
      , (30049, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
-     , (30049, 4, 28614, -1, 11, 0, False) /* Create Hooded Vestiri Robe (28614) for Shop */
-     , (30049, 4, 28615, -1, 10, 0, False) /* Create Non-hooded Vestiri Robe (28615) for Shop */
+     , (30049, 4, 28614, -1, 11, 0, False) /* Create Vestiri Robe with Hood (28614) for Shop */
+     , (30049, 4, 28615, -1, 10, 0, False) /* Create Vestiri Robe (28615) for Shop */
      , (30049, 4, 41424, -1, 0, 0, False) /* Create  (41424) for Shop */
      , (30049, 4, 41425, -1, 0, 0, False) /* Create  (41425) for Shop */;

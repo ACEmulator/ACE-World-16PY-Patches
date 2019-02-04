@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30072;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30072, 'silyunhealer', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30072, 'silyunhealer', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30072,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30072,   1,         16) /* ItemType - Creature */
      , (30072,   8,        120) /* Mass */
      , (30072,  16,         32) /* ItemUseable - Remote */
      , (30072,  25,          5) /* Level */
-     , (30072,  27,          0) /* ArmorType */
+     , (30072,  27,          0) /* ArmorType - None */
      , (30072,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (30072,  75,          0) /* MerchandiseMinValue */
      , (30072,  76,     100000) /* MerchandiseMaxValue */
@@ -212,7 +212,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'By order of the King I must charge you an outsiders tax on these items. I''m sorry. The King has taken to unfairly punishing those who aren''t Viamontian.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30072, 2, 28615,  0, 9, 0.5172, False) /* Create Non-hooded Vestiri Robe (28615) for Wield */
+VALUES (30072, 2, 28615,  0, 9, 0.5172, False) /* Create Vestiri Robe (28615) for Wield */
      , (30072, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
      , (30072, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (30072, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */

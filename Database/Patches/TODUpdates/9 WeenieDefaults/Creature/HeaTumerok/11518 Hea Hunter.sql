@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11518;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11518, 'tumerokheahunter_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11518, 'tumerokheahunter_xp', 10, '2019-02-04 06:52:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11518,   1,         16) /* ItemType - Creature */
@@ -11,12 +11,12 @@ VALUES (11518,   1,         16) /* ItemType - Creature */
      , (11518,   7,         -1) /* ContainersCapacity */
      , (11518,  16,          1) /* ItemUseable - No */
      , (11518,  25,         30) /* Level */
-     , (11518,  27,          0) /* ArmorType */
-     , (11518,  68,          3) /* TargetingTactic */
+     , (11518,  27,          0) /* ArmorType - None */
+     , (11518,  68,          3) /* TargetingTactic - Random, Focused */
      , (11518,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11518, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11518, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11518, 140,          1) /* AiOptions */
+     , (11518, 140,          1) /* AiOptions - CanOpenDoors */
      , (11518, 146,       5000) /* XpOverride */
      , (11518, 307,          5) /* DamageRating */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30037;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30037, 'sanamarshopkeep', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30037, 'sanamarshopkeep', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30037,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (30037,   1,         16) /* ItemType - Creature */
      , (30037,   8,        120) /* Mass */
      , (30037,  16,         32) /* ItemUseable - Remote */
      , (30037,  25,          7) /* Level */
-     , (30037,  27,          0) /* ArmorType */
+     , (30037,  27,          0) /* ArmorType - None */
      , (30037,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (30037,  75,          0) /* MerchandiseMinValue */
      , (30037,  76,      25000) /* MerchandiseMaxValue */
@@ -286,7 +286,7 @@ VALUES (30037, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (30037, 4, 25652, -1, 0, 0, False) /* Create Leather Tassets (25652) for Shop */
      , (30037, 4, 25661, -1, 0, 0, False) /* Create Leather Boots (25661) for Shop */
      , (30037, 4, 30556, -1, 0, 0, False) /* Create Hatchet (30556) for Shop */
-     , (30037, 4, 30571, -1, 0, 0, False) /* Create Cinqueda (30571) for Shop */
+     , (30037, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
      , (30037, 4, 30591, -1, 0, 0, False) /* Create Partizan (30591) for Shop */
      , (30037, 4, 30606, -1, 0, 0, False) /* Create Bastone (30606) for Shop */
      , (30037, 4, 41396, -1, 0, 0, False) /* Create  (41396) for Shop */

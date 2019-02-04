@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20210;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (20210, 'scrivenercreatureouter', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (20210, 'scrivenercreatureouter', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20210,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (20210,   1,         16) /* ItemType - Creature */
      , (20210,   8,        120) /* Mass */
      , (20210,  16,         32) /* ItemUseable - Remote */
      , (20210,  25,         14) /* Level */
-     , (20210,  27,          0) /* ArmorType */
+     , (20210,  27,          0) /* ArmorType - None */
      , (20210,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (20210,  75,          0) /* MerchandiseMinValue */
      , (20210,  76,     100000) /* MerchandiseMaxValue */
@@ -212,17 +212,17 @@ VALUES (20210, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (20210, 4,  3150, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Expertise Self IV (3150) for Shop */
      , (20210, 4,  3155, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Ignorance IV (3155) for Shop */
      , (20210, 4,  3160, -1, 0, 0, False) /* Create Scroll of Axe Ineptitude Other IV (3160) for Shop */
-     , (20210, 4,  3165, -1, 0, 0, False) /* Create Scroll of Axe Mastery Other IV (3165) for Shop */
-     , (20210, 4,  3170, -1, 0, 0, False) /* Create Scroll of Axe Mastery Self IV (3170) for Shop */
+     , (20210, 4,  3165, -1, 0, 0, False) /* Create Scroll of Light Weapon Mastery Other IV (3165) for Shop */
+     , (20210, 4,  3170, -1, 0, 0, False) /* Create Scroll of Light Weapon Mastery Self IV (3170) for Shop */
      , (20210, 4,  3175, -1, 0, 0, False) /* Create Scroll of Bow Ineptitude Other IV (3175) for Shop */
-     , (20210, 4,  3180, -1, 0, 0, False) /* Create Scroll of Bow Mastery Other IV (3180) for Shop */
-     , (20210, 4,  3185, -1, 0, 0, False) /* Create Scroll of Bow Mastery Self IV (3185) for Shop */
+     , (20210, 4,  3180, -1, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Other IV (3180) for Shop */
+     , (20210, 4,  3185, -1, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Self IV (3185) for Shop */
      , (20210, 4,  3190, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Ineptitude IV (3190) for Shop */
      , (20210, 4,  3195, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Other IV (3195) for Shop */
      , (20210, 4,  3200, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Self IV (3200) for Shop */
      , (20210, 4,  3220, -1, 0, 0, False) /* Create Scroll of Dagger Ineptitude Other IV (3220) for Shop */
-     , (20210, 4,  3225, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Other IV (3225) for Shop */
-     , (20210, 4,  3230, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Self IV (3230) for Shop */
+     , (20210, 4,  3225, -1, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other IV (3225) for Shop */
+     , (20210, 4,  3230, -1, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Self IV (3230) for Shop */
      , (20210, 4,  3235, -1, 0, 0, False) /* Create Scroll of Deception Ineptitude IV (3235) for Shop */
      , (20210, 4,  3240, -1, 0, 0, False) /* Create Scroll of Deception Mastery Other IV (3240) for Shop */
      , (20210, 4,  3245, -1, 0, 0, False) /* Create Scroll of Deception Mastery Self IV (3245) for Shop */
@@ -271,8 +271,8 @@ VALUES (20210, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (20210, 4,  3490, -1, 0, 0, False) /* Create Scroll of Sprint Other IV (3490) for Shop */
      , (20210, 4,  3495, -1, 0, 0, False) /* Create Scroll of Sprint Self IV (3495) for Shop */
      , (20210, 4,  3515, -1, 0, 0, False) /* Create Scroll of Sword Ineptitude Other IV (3515) for Shop */
-     , (20210, 4,  3520, -1, 0, 0, False) /* Create Scroll of Sword Mastery Other IV (3520) for Shop */
-     , (20210, 4,  3525, -1, 0, 0, False) /* Create Scroll of Sword Mastery Self IV (3525) for Shop */
+     , (20210, 4,  3520, -1, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Other IV (3520) for Shop */
+     , (20210, 4,  3525, -1, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Self IV (3525) for Shop */
      , (20210, 4,  3560, -1, 0, 0, False) /* Create Scroll of Vulnerability IV (3560) for Shop */
      , (20210, 4,  3565, -1, 0, 0, False) /* Create Scroll of War Magic Ineptitude IV (3565) for Shop */
      , (20210, 4,  3570, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Other IV (3570) for Shop */

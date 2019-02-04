@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31224;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31224, 'ace31224-shopkeeper', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31224, 'ace31224-shopkeeper', 12, '2019-02-04 06:52:23') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31224,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (31224,   1,         16) /* ItemType - Creature */
      , (31224,   8,        120) /* Mass */
      , (31224,  16,         32) /* ItemUseable - Remote */
      , (31224,  25,         10) /* Level */
-     , (31224,  27,          0) /* ArmorType */
+     , (31224,  27,          0) /* ArmorType - None */
      , (31224,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (31224,  75,          0) /* MerchandiseMinValue */
      , (31224,  76,      25000) /* MerchandiseMaxValue */
@@ -196,7 +196,7 @@ VALUES (31224, 2,   132,  0, 5, 0, False) /* Create Shoes (132) for Wield */
      , (31224, 2,  2591,  0, 4, 0, False) /* Create Shirt (2591) for Wield */
      , (31224, 2, 10696,  0, 2, 0, False) /* Create Apron (10696) for Wield */
      , (31224, 2, 28605,  0, 14, 0.5, False) /* Create Beret (28605) for Wield */
-     , (31224, 2, 28606,  0, 8, 0, False) /* Create Viamontian Leggings (28606) for Wield */
+     , (31224, 2, 28606,  0, 8, 0, False) /* Create Viamontian Pants (28606) for Wield */
      , (31224, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
      , (31224, 4,   136, -1, 14, 0, False) /* Create Pack (136) for Shop */
      , (31224, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
