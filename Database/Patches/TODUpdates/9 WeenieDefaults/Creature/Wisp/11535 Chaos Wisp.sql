@@ -25,7 +25,7 @@ VALUES (11535,   1, True ) /* Stuck */
      , (11535,  13, False) /* Ethereal */
      , (11535,  14, True ) /* GravityStatus */
      , (11535,  19, True ) /* Attackable */
-     , (11535,  50, True ) /* NeverFailCasting */;
+     , (11535,  50, True ) /* NeverFailCasting */
      , (11535, 120, True ) /* Treasure Corpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
