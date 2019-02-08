@@ -1,5 +1,7 @@
+DELETE FROM `weenie` WHERE `class_Id` = 2623;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2623, 'tradenote1000', 51, '2005-02-09 10:00:00') /* Stackable */;
+VALUES (2623, 'tradenote1000', 51, '2019-02-08 00:45:15') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2623,   1,     262144) /* ItemType - PromissoryNote */
