@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14879;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14879, 'thermicelementalsirroccoboss', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (14879, 'thermicelementalsirroccoboss', 10, '2019-02-08 15:30:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14879,   1,         16) /* ItemType - Creature */
@@ -28,7 +28,7 @@ VALUES (14879,   1, True ) /* Stuck */
      , (14879,  14, True ) /* GravityStatus */
      , (14879,  15, True ) /* LightsStatus */
      , (14879,  19, True ) /* Attackable */
-     , (14879,  29, True ) /* NoCorpse */;
+     , (14879, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14879,   1,       5) /* HeartbeatInterval */

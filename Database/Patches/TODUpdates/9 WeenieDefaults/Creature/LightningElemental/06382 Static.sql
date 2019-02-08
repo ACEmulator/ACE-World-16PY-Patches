@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6382;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6382, 'lightningelementalstatic', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (6382, 'lightningelementalstatic', 10, '2019-02-08 15:30:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6382,   1,         16) /* ItemType - Creature */
@@ -28,7 +28,7 @@ VALUES (6382,   1, True ) /* Stuck */
      , (6382,  14, True ) /* GravityStatus */
      , (6382,  15, True ) /* LightsStatus */
      , (6382,  19, True ) /* Attackable */
-     , (6382,  29, True ) /* NoCorpse */;
+     , (6382, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6382,   1,       5) /* HeartbeatInterval */
