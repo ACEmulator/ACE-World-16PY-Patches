@@ -23,7 +23,6 @@ VALUES (28630,  11, True ) /* IgnoreCollisions */
      , (28630,  14, True ) /* GravityStatus */
      , (28630,  19, True ) /* Attackable */
      , (28630,  22, True ) /* Inscribable */
-     , (28630,  69, False) /* IsSellable */
      , (28630, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
