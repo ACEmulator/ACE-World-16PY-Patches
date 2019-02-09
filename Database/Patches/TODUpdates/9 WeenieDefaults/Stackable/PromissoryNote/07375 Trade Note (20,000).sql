@@ -1,29 +1,25 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7375;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7375, 'tradenote20000', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (7375, 'tradenote20000', 51, '2019-02-08 00:45:15') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7375,   1,     262144) /* ItemType - PromissoryNote */
-     , (7375,   5,          0) /* EncumbranceVal */
-     , (7375,   8,          0) /* Mass */
+     , (7375,   5,          1) /* EncumbranceVal */
+     , (7375,   8,          1) /* Mass */
+     , (7375,   9,          0) /* ValidLocations - None */
      , (7375,  11,        250) /* MaxStackSize */
      , (7375,  12,          1) /* StackSize */
-     , (7375,  13,          0) /* StackUnitEncumbrance */
-     , (7375,  14,          0) /* StackUnitMass */
+     , (7375,  13,          1) /* StackUnitEncumbrance */
+     , (7375,  14,          1) /* StackUnitMass */
      , (7375,  15,      20000) /* StackUnitValue */
      , (7375,  16,          1) /* ItemUseable - No */
      , (7375,  19,      20000) /* Value */
      , (7375,  33,          1) /* Bonded - Bonded */
-     , (7375,  53,        101) /* PlacementPosition */
      , (7375,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7375,  11, True ) /* IgnoreCollisions */
-     , (7375,  13, True ) /* Ethereal */
-     , (7375,  14, True ) /* GravityStatus */
-     , (7375,  19, True ) /* Attackable */
-     , (7375,  23, True ) /* DestroyOnSell */;
+VALUES (7375,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7375,   1, 'Trade Note (20,000)') /* Name */

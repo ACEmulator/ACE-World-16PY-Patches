@@ -1,29 +1,25 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20629;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20629, 'tradenote200000', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (20629, 'tradenote200000', 51, '2019-02-08 00:45:15') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20629,   1,     262144) /* ItemType - PromissoryNote */
-     , (20629,   5,          0) /* EncumbranceVal */
-     , (20629,   8,          0) /* Mass */
+     , (20629,   5,          1) /* EncumbranceVal */
+     , (20629,   8,          1) /* Mass */
+     , (20629,   9,          0) /* ValidLocations - None */
      , (20629,  11,        250) /* MaxStackSize */
      , (20629,  12,          1) /* StackSize */
-     , (20629,  13,          0) /* StackUnitEncumbrance */
-     , (20629,  14,          0) /* StackUnitMass */
+     , (20629,  13,          1) /* StackUnitEncumbrance */
+     , (20629,  14,          1) /* StackUnitMass */
      , (20629,  15,     200000) /* StackUnitValue */
      , (20629,  16,          1) /* ItemUseable - No */
      , (20629,  19,     200000) /* Value */
      , (20629,  33,          1) /* Bonded - Bonded */
-     , (20629,  53,        101) /* PlacementPosition */
      , (20629,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20629,  11, True ) /* IgnoreCollisions */
-     , (20629,  13, True ) /* Ethereal */
-     , (20629,  14, True ) /* GravityStatus */
-     , (20629,  19, True ) /* Attackable */
-     , (20629,  23, True ) /* DestroyOnSell */;
+VALUES (20629,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20629,   1, 'Trade Note (200,000)') /* Name */
