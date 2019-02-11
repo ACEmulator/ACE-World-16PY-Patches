@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29491;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29491, 'knightkarlunguard_noagrro', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29491, 'knightkarlunguard_noagrro', 10, '2019-02-11 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29491,   1,         16) /* ItemType - Creature */
@@ -167,12 +167,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Do not bother me. Speak with Sir Belfelor.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29491, 2, 28621,  1, 20, 0.5, False) /* Create Diforsa Leggings (28621) for Wield */
+VALUES (29491, 2, 28630,  1, 20, 0.5, False) /* Create Diforsa Cuirass (28630) for Wield */
      , (29491, 2, 28623,  1, 20, 0.5, False) /* Create Diforsa Pauldrons (28623) for Wield */
      , (29491, 2, 28625,  1, 20, 0.5, False) /* Create Diforsa Sollerets (28625) for Wield */
      , (29491, 2, 28627,  1, 20, 0.5, False) /* Create Diforsa Bracers (28627) for Wield */
-     , (29491, 2, 28628,  1, 20, 0.5, False) /* Create Diforsa Breastplate (28628) for Wield */
-     , (29491, 2, 28630,  1, 20, 0.5, False) /* Create Diforsa Cuirass (28630) for Wield */
+     , (29491, 2, 28621,  1, 20, 0.5, False) /* Create Diforsa Leggings (28621) for Wield */
      , (29491, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (29491, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (29491, 9, 45875,  0, 0, 0.01, False) /* Create  (45875) for ContainTreasure */

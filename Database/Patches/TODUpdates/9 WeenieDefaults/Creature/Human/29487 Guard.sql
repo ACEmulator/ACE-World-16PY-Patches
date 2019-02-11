@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29487;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29487, 'npcknightkarlunguard', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29487, 'npcknightkarlunguard', 10, '2019-02-11 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29487,   1,         16) /* ItemType - Creature */
@@ -115,5 +115,4 @@ VALUES (29487, 2, 28621,  1, 20, 0.5, False) /* Create Diforsa Leggings (28621) 
      , (29487, 2, 28623,  1, 20, 0.5, False) /* Create Diforsa Pauldrons (28623) for Wield */
      , (29487, 2, 28625,  1, 20, 0.5, False) /* Create Diforsa Sollerets (28625) for Wield */
      , (29487, 2, 28627,  1, 20, 0.5, False) /* Create Diforsa Bracers (28627) for Wield */
-     , (29487, 2, 28628,  1, 20, 0.5, False) /* Create Diforsa Breastplate (28628) for Wield */
      , (29487, 2, 28630,  1, 20, 0.5, False) /* Create Diforsa Cuirass (28630) for Wield */;
