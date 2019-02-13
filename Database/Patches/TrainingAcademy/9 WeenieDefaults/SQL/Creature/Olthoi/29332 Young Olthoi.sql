@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29332;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29332, 'olthoinewbieacademy', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29332, 'olthoinewbieacademy', 10, '2019-02-12 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29332,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,7 @@ VALUES (29332,   1,       5) /* HeartbeatInterval */
      , (29332,  17,       1) /* ArmorModVsFire */
      , (29332,  18, 1.20000004768372) /* ArmorModVsAcid */
      , (29332,  19,       1) /* ArmorModVsElectric */
-     , (29332,  31,     0.2) /* VisualAwarenessRange */
+     , (29332,  31,       5) /* VisualAwarenessRange */
      , (29332,  34,       1) /* PowerupTime */
      , (29332,  36,       1) /* ChargeSpeed */
      , (29332,  39,       1) /* DefaultScale */
@@ -94,10 +94,10 @@ VALUES (29332,   1,    35, 0, 0, 40) /* MaxHealth */
      , (29332,   5,     0, 0, 0, 10) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29332,  6, 0, 3, 0,  30, 0, 0) /* MeleeDefense        Specialized */
-     , (29332,  7, 0, 3, 0,  80, 0, 0) /* MissileDefense      Specialized */
-     , (29332, 13, 0, 3, 0,  40, 0, 0) /* UnarmedCombat       Specialized */
-     , (29332, 15, 0, 3, 0,  30, 0, 0) /* MagicDefense        Specialized */
+VALUES (29332,  6, 0, 3, 0,  23, 0, 0) /* MeleeDefense        Specialized */
+     , (29332,  7, 0, 3, 0,  76, 0, 0) /* MissileDefense      Specialized */
+     , (29332, 13, 0, 3, 0,  33, 0, 0) /* UnarmedCombat       Specialized */
+     , (29332, 15, 0, 3, 0,  23, 0, 0) /* MagicDefense        Specialized */
      , (29332, 22, 0, 2, 0,   2, 0, 0) /* Jump                Trained */
      , (29332, 24, 0, 2, 0,   2, 0, 0) /* Run                 Trained */;
 

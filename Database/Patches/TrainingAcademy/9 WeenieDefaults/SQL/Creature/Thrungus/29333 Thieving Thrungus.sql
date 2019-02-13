@@ -88,10 +88,10 @@ VALUES (29333,   1,    10, 0, 0, 15) /* MaxHealth */
      , (29333,   5,     0, 0, 0, 10) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29333,  6, 0, 3, 0,  30, 0, 0) /* MeleeDefense        Specialized */
-     , (29333,  7, 0, 3, 0,  65, 0, 0) /* MissileDefense      Specialized */
-     , (29333, 13, 0, 3, 0,  65, 0, 0) /* UnarmedCombat       Specialized */
-     , (29333, 15, 0, 3, 0,  25, 0, 0) /* MagicDefense        Specialized */
+VALUES (29333,  6, 0, 3, 0,  23, 0, 0) /* MeleeDefense        Specialized */
+     , (29333,  7, 0, 3, 0,  61, 0, 0) /* MissileDefense      Specialized */
+     , (29333, 13, 0, 3, 0,  58, 0, 0) /* UnarmedCombat       Specialized */
+     , (29333, 15, 0, 3, 0,  18, 0, 0) /* MagicDefense        Specialized */
      , (29333, 22, 0, 2, 0,   2, 0, 0) /* Jump                Trained */
      , (29333, 24, 0, 2, 0,   2, 0, 0) /* Run                 Trained */;
 
