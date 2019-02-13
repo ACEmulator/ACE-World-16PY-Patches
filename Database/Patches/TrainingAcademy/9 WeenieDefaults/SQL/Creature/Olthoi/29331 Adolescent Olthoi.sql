@@ -14,6 +14,7 @@ VALUES (29331,   1,         16) /* ItemType - Creature */
      , (29331,  25,          2) /* Level */
      , (29331,  27,          0) /* ArmorType */
      , (29331,  40,          2) /* CombatMode - Melee */
+     , (29331,  67,         64) /* Tolerance */
      , (29331,  68,         13) /* TargetingTactic */
      , (29331,  72,         35) /* FriendType - OlthoiLarvae */
      , (29331,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
