@@ -55,8 +55,4 @@ VALUES (33600,   1,   33559357) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33600,  1328,      2)  /* Strength Self II */
-     , (33600,  1482,      2)  /* Impenetrability II */
-     , (33600,  1525,      2)  /* Frost Bane III */
-     , (33600,  1536,      2)  /* Lightning Bane II */
-     , (33600,  1548,      2)  /* Flame Bane II */
-     , (33600,  1571,      2)  /* Piercing Bane III */;
+     , (33600,  1482,      2)  /* Impenetrability II */;
