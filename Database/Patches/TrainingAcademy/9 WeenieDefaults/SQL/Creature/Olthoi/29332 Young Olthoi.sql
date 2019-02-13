@@ -14,7 +14,6 @@ VALUES (29332,   1,         16) /* ItemType - Creature */
      , (29332,  25,          2) /* Level */
      , (29332,  27,          0) /* ArmorType */
      , (29332,  40,          2) /* CombatMode - Melee */
-     , (29332,  67,         64) /* Tolerance */
      , (29332,  68,         13) /* TargetingTactic */
      , (29332,  72,         35) /* FriendType - OlthoiLarvae */
      , (29332,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -44,7 +43,7 @@ VALUES (29332,   1,       5) /* HeartbeatInterval */
      , (29332,  17,       1) /* ArmorModVsFire */
      , (29332,  18, 1.20000004768372) /* ArmorModVsAcid */
      , (29332,  19,       1) /* ArmorModVsElectric */
-     , (29332,  31,       5) /* VisualAwarenessRange */
+     , (29332,  31,     0.2) /* VisualAwarenessRange */
      , (29332,  34,       1) /* PowerupTime */
      , (29332,  36,       1) /* ChargeSpeed */
      , (29332,  39,       1) /* DefaultScale */
