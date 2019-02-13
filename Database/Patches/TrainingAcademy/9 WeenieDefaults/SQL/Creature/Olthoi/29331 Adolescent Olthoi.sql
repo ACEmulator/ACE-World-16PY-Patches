@@ -43,7 +43,7 @@ VALUES (29331,   1,       5) /* HeartbeatInterval */
      , (29331,  17,       1) /* ArmorModVsFire */
      , (29331,  18, 1.20000004768372) /* ArmorModVsAcid */
      , (29331,  19,       1) /* ArmorModVsElectric */
-     , (29331,  31,      20) /* VisualAwarenessRange */
+     , (29331,  31,     0.2) /* VisualAwarenessRange */
      , (29331,  34,       1) /* PowerupTime */
      , (29331,  36,       1) /* ChargeSpeed */
      , (29331,  39,       1) /* DefaultScale */
