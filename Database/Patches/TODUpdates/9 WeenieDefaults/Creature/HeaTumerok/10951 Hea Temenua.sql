@@ -1,7 +1,5 @@
-DELETE FROM `weenie` WHERE `class_Id` = 10951;
-
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10951, 'tumerokchampiontemenua_xp', 10, '2019-02-19 23:43:22') /* Creature */;
+VALUES (10951, 'tumerokchampiontemenua_xp', 10, '2019-02-19 15:09:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10951,   1,         16) /* ItemType - Creature */
@@ -77,7 +75,7 @@ VALUES (10951,   1,   33559568) /* Setup */
      , (10951,   7,  268437022) /* ClothingBase */
      , (10951,   8,  100667452) /* Icon */
      , (10951,  22,  872415270) /* PhysicsEffectTable */
-     , (10951,  35,        450) /* DeathTreasureType */;
+     , (10951,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10951,   1, 250, 0, 0) /* Strength */

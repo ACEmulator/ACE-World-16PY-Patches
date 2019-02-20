@@ -1,7 +1,5 @@
-DELETE FROM `weenie` WHERE `class_Id` = 10937;
-
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10937, 'heatumeroknualuankanokeh_xp', 10, '2019-02-19 23:43:22') /* Creature */;
+VALUES (10937, 'heatumeroknualuankanokeh_xp', 10, '2019-02-19 15:09:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10937,   1,         16) /* ItemType - Creature */
@@ -74,8 +72,20 @@ VALUES (10937,   1,   33559556) /* Setup */
      , (10937,   7,  268437021) /* ClothingBase */
      , (10937,   8,  100667452) /* Icon */
      , (10937,  22,  872415270) /* PhysicsEffectTable */
-     , (10937,  32,        387) /* WieldedTreasureType */
-     , (10937,  35,        451) /* DeathTreasureType */;
+     , (10937,  32,        387) /* WieldedTreasureType - 
+                                   Wield Blade of the Quiddity (11916) | Probability: 25%
+                                   Wield Lance of the Quiddity (11913) | Probability: 25%
+                                   Wield Mace of the Quiddity (11907) | Probability: 25%
+                                   Wield Kaskara (324) | Probability: 3%
+                                   Wield Long Sword (351) | Probability: 3%
+                                   Wield Silifi (344) | Probability: 3%
+                                   Wield Tachi (353) | Probability: 2%
+                                   Wield War Hammer (359) | Probability: 2%
+                                   Wield 5x Javelin (320) | Probability: 3%
+                                   Wield 5x Djarid (317) | Probability: 3%
+                                   Wield 4x Throwing Club (310) | Probability: 3%
+                                   Wield 6x Throwing Axe (304) | Probability: 3% */
+     , (10937,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10937,   1, 150, 0, 0) /* Strength */

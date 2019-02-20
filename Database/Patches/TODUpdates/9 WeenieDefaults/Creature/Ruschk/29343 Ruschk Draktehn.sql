@@ -1,7 +1,5 @@
-DELETE FROM `weenie` WHERE `class_Id` = 29343;
-
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29343, 'ruschkdraktehn', 10, '2019-02-19 23:43:22') /* Creature */;
+VALUES (29343, 'ruschkdraktehn', 10, '2019-02-19 15:09:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29343,   1,         16) /* ItemType - Creature */
@@ -29,8 +27,7 @@ VALUES (29343,   1, True ) /* Stuck */
      , (29343,  13, False) /* Ethereal */
      , (29343,  14, True ) /* GravityStatus */
      , (29343,  19, True ) /* Attackable */
-     , (29343, 101, True ) /* CanGenerateRare */
-     , (29343, 102, True ) /* CorpseGeneratedRare */;
+     , (29343, 101, True ) /* CanGenerateRare */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29343,   1,       5) /* HeartbeatInterval */
@@ -77,7 +74,12 @@ VALUES (29343,   1,   33559104) /* Setup */
      , (29343,   7,  268436946) /* ClothingBase */
      , (29343,   8,  100677373) /* Icon */
      , (29343,  22,  872415364) /* PhysicsEffectTable */
-     , (29343,  32,        488) /* WieldedTreasureType */
+     , (29343,  32,        488) /* WieldedTreasureType - 
+                                   Wield Stone Mace (29997) | Probability: 20%
+                                   Wield Bone Dagger (30002) | Probability: 20%
+                                   Wield Stone Hatchet (30007) | Probability: 20%
+                                   Wield Stone Spear (29987) | Probability: 20%
+                                   Wield Bone Sword (29992) | Probability: 20% */
      , (29343,  35,       1000) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

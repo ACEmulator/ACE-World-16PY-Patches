@@ -1,7 +1,5 @@
-DELETE FROM `weenie` WHERE `class_Id` = 11518;
-
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11518, 'tumerokheahunter_xp', 10, '2019-02-19 23:43:22') /* Creature */;
+VALUES (11518, 'tumerokheahunter_xp', 10, '2019-02-19 15:09:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11518,   1,         16) /* ItemType - Creature */
@@ -75,8 +73,22 @@ VALUES (11518,   1,   33559553) /* Setup */
      , (11518,   7,  268437022) /* ClothingBase */
      , (11518,   8,  100667452) /* Icon */
      , (11518,  22,  872415270) /* PhysicsEffectTable */
-     , (11518,  32,        384) /* WieldedTreasureType */
-     , (11518,  35,        453) /* DeathTreasureType */;
+     , (11518,  32,        384) /* WieldedTreasureType - 
+                                   Wield Shortbow (307) | Probability: 5%
+                                   Wield 25x Arrow (300) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 5%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 10%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Balister of the Quiddity (11892) | Probability: 45%
+                                   Wield 20x Quarrel (305) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 10%
+                                   Wield 22x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 15%
+                                   Wield 15x Quarrel (305) | Probability: 100% */
+     , (11518,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11518,   1, 110, 0, 0) /* Strength */

@@ -1,7 +1,5 @@
-DELETE FROM `weenie` WHERE `class_Id` = 28666;
-
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28666, 'ruschkslayer', 10, '2019-02-19 23:43:22') /* Creature */;
+VALUES (28666, 'ruschkslayer', 10, '2019-02-19 15:09:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28666,   1,         16) /* ItemType - Creature */
@@ -72,8 +70,13 @@ VALUES (28666,   1,   33559104) /* Setup */
      , (28666,   7,  268436946) /* ClothingBase */
      , (28666,   8,  100677373) /* Icon */
      , (28666,  22,  872415364) /* PhysicsEffectTable */
-     , (28666,  32,        485) /* WieldedTreasureType */
-     , (28666,  35,        451) /* DeathTreasureType */;
+     , (28666,  32,        485) /* WieldedTreasureType - 
+                                   Wield Stone Mace (29999) | Probability: 20%
+                                   Wield Bone Dagger (30004) | Probability: 20%
+                                   Wield Stone Hatchet (29984) | Probability: 20%
+                                   Wield Stone Spear (29989) | Probability: 20%
+                                   Wield Bone Sword (29994) | Probability: 20% */
+     , (28666,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28666,   1, 150, 0, 0) /* Strength */

@@ -1,7 +1,5 @@
-DELETE FROM `weenie` WHERE `class_Id` = 29344;
-
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29344, 'ruschksadist', 10, '2019-02-19 23:43:22') /* Creature */;
+VALUES (29344, 'ruschksadist', 10, '2019-02-19 15:09:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29344,   1,         16) /* ItemType - Creature */
@@ -27,8 +25,7 @@ VALUES (29344,   1, True ) /* Stuck */
      , (29344,  13, False) /* Ethereal */
      , (29344,  14, True ) /* GravityStatus */
      , (29344,  19, True ) /* Attackable */
-     , (29344, 101, True ) /* CanGenerateRare */
-     , (29344, 102, True ) /* CorpseGeneratedRare */;
+     , (29344, 101, True ) /* CanGenerateRare */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29344,   1,       5) /* HeartbeatInterval */
@@ -75,8 +72,13 @@ VALUES (29344,   1,   33559104) /* Setup */
      , (29344,   7,  268436946) /* ClothingBase */
      , (29344,   8,  100677373) /* Icon */
      , (29344,  22,  872415364) /* PhysicsEffectTable */
-     , (29344,  32,        487) /* WieldedTreasureType */
-     , (29344,  35,        452) /* DeathTreasureType */;
+     , (29344,  32,        487) /* WieldedTreasureType - 
+                                   Wield Stone Mace (30001) | Probability: 20%
+                                   Wield Bone Dagger (30006) | Probability: 20%
+                                   Wield Ice Shard (29986) | Probability: 20%
+                                   Wield Frigid Splinter (29991) | Probability: 20%
+                                   Wield Bone Sword (29996) | Probability: 20% */
+     , (29344,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29344,   1, 220, 0, 0) /* Strength */

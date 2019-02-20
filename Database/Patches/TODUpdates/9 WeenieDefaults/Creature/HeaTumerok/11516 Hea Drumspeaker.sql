@@ -1,7 +1,5 @@
-DELETE FROM `weenie` WHERE `class_Id` = 11516;
-
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11516, 'tumerokheadrumspeaker_xp', 10, '2019-02-19 23:43:22') /* Creature */;
+VALUES (11516, 'tumerokheadrumspeaker_xp', 10, '2019-02-19 15:09:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11516,   1,         16) /* ItemType - Creature */
@@ -75,8 +73,14 @@ VALUES (11516,   1,   33559553) /* Setup */
      , (11516,   7,  268437022) /* ClothingBase */
      , (11516,   8,  100667452) /* Icon */
      , (11516,  22,  872415270) /* PhysicsEffectTable */
-     , (11516,  32,        220) /* WieldedTreasureType */
-     , (11516,  35,        453) /* DeathTreasureType */;
+     , (11516,  32,        220) /* WieldedTreasureType - 
+                                   Wield Katar (23676) | Probability: 14%
+                                   Wield Cestus (23639) | Probability: 7%
+                                   Wield Nekode (23682) | Probability: 6%
+                                   Wield Tachi (23702) | Probability: 6%
+                                   Wield Spear (23698) | Probability: 6%
+                                   Wield Kite Shield (23686) | Probability: 75% */
+     , (11516,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11516,   1,  80, 0, 0) /* Strength */
