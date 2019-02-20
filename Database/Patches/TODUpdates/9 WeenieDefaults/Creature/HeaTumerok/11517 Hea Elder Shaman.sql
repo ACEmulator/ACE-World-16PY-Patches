@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11517;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11517, 'tumerokheaeldershaman_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11517, 'tumerokheaeldershaman_xp', 10, '2019-02-19 23:43:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11517,   1,         16) /* ItemType - Creature */
      , (11517,   2,         58) /* CreatureType - HeaTumerok */
-     , (11517,   3,         17) /* PaletteTemplate - Yellow */
+     , (11517,   3,         37) /* PaletteTemplate - LightRedMetal */
      , (11517,   6,         -1) /* ItemsCapacity */
      , (11517,   7,         -1) /* ContainersCapacity */
      , (11517,  16,          1) /* ItemUseable - No */
@@ -35,7 +35,7 @@ VALUES (11517,   1,       5) /* HeartbeatInterval */
      , (11517,   3, 0.800000011920929) /* HealthRate */
      , (11517,   4,     0.5) /* StaminaRate */
      , (11517,   5,       2) /* ManaRate */
-     , (11517,  12,     0.5) /* Shade */
+     , (11517,  12, 0.571399986743927) /* Shade */
      , (11517,  13,       1) /* ArmorModVsSlash */
      , (11517,  14,       1) /* ArmorModVsPierce */
      , (11517,  15,       1) /* ArmorModVsBludgeon */
@@ -72,7 +72,7 @@ VALUES (11517,   1,   33559553) /* Setup */
      , (11517,   3,  536870931) /* SoundTable */
      , (11517,   4,  805306380) /* CombatTable */
      , (11517,   6,   67116625) /* PaletteBase */
-     , (11517,   7,  268436631) /* ClothingBase */
+     , (11517,   7,  268437022) /* ClothingBase */
      , (11517,   8,  100667452) /* Icon */
      , (11517,  22,  872415270) /* PhysicsEffectTable */
      , (11517,  32,        199) /* WieldedTreasureType */

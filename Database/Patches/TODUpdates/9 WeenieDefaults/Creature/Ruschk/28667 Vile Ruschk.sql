@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28667;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28667, 'ruschkvile', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28667, 'ruschkvile', 10, '2019-02-19 23:43:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28667,   1,         16) /* ItemType - Creature */
@@ -62,8 +62,7 @@ VALUES (28667,   1,       5) /* HeartbeatInterval */
      , (28667, 125,     0.5) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28667,   1, 'Vile Ruschk') /* Name */
-     , (28667,  15, 'Uses Ruschk Weapon Group 501 T2') /* ShortDesc */;
+VALUES (28667,   1, 'Vile Ruschk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28667,   1,   33559104) /* Setup */
@@ -74,7 +73,7 @@ VALUES (28667,   1,   33559104) /* Setup */
      , (28667,   7,  268436946) /* ClothingBase */
      , (28667,   8,  100677373) /* Icon */
      , (28667,  22,  872415364) /* PhysicsEffectTable */
-     , (28667,  32,        501) /* WieldedTreasureType */
+     , (28667,  32,        486) /* WieldedTreasureType */
      , (28667,  35,        450) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -173,10 +172,4 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Ruschk mumbles s
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28667, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (28667, 9, 28729, -1, 0, 0.05, True) /* Create Augmented Ice Shard (28729) for ContainTreasure */
-     , (28667, 10,     0,  0, 0, 0.166667, False) /* Create nothing for WieldTreasure */
-     , (28667, 10, 48589,  0, 0, 0.166667, False) /* Create Icy Club (48589) for WieldTreasure */
-     , (28667, 10, 48590,  0, 0, 0.166667, False) /* Create Frozen Dagger (48590) for WieldTreasure */
-     , (28667, 10, 48591,  0, 0, 0.166667, False) /* Create Ice Shard (48591) for WieldTreasure */
-     , (28667, 10, 48592,  0, 0, 0.166667, False) /* Create Frigid Splinter (48592) for WieldTreasure */
-     , (28667, 10, 48593,  0, 0, 0.166667, False) /* Create Glacial Blade (48593) for WieldTreasure */;
+     , (28667, 9, 28729, -1, 0, 0.05, True) /* Create Augmented Ice Shard (28729) for ContainTreasure */;

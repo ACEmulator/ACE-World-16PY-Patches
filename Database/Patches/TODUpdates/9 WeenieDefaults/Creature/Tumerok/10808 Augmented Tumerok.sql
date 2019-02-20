@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10808;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10808, 'tumerokaugmentedsummoned', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (10808, 'tumerokaugmentedsummoned', 10, '2019-02-19 23:43:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10808,   1,         16) /* ItemType - Creature */
      , (10808,   2,          6) /* CreatureType - Tumerok */
-     , (10808,   3,         61) /* PaletteTemplate - White */
+     , (10808,   3,         37) /* PaletteTemplate - LightRedMetal */
      , (10808,   6,         -1) /* ItemsCapacity */
      , (10808,   7,         -1) /* ContainersCapacity */
      , (10808,  16,          1) /* ItemUseable - No */
@@ -36,7 +36,7 @@ VALUES (10808,   1,       5) /* HeartbeatInterval */
      , (10808,   3, 2.79999995231628) /* HealthRate */
      , (10808,   4,     0.5) /* StaminaRate */
      , (10808,   5,       5) /* ManaRate */
-     , (10808,  12,     0.5) /* Shade */
+     , (10808,  12, 0.571399986743927) /* Shade */
      , (10808,  13,       1) /* ArmorModVsSlash */
      , (10808,  14,       1) /* ArmorModVsPierce */
      , (10808,  15,       1) /* ArmorModVsBludgeon */
@@ -73,7 +73,7 @@ VALUES (10808,   1,   33559566) /* Setup */
      , (10808,   3,  536870931) /* SoundTable */
      , (10808,   4,  805306380) /* CombatTable */
      , (10808,   6,   67116625) /* PaletteBase */
-     , (10808,   7,  268435647) /* ClothingBase */
+     , (10808,   7,  268437021) /* ClothingBase */
      , (10808,   8,  100667452) /* Icon */
      , (10808,  22,  872415270) /* PhysicsEffectTable */
      , (10808,  32,        203) /* WieldedTreasureType */
@@ -93,24 +93,24 @@ VALUES (10808,   1,   200, 0, 0, 350) /* MaxHealth */
      , (10808,   5,     0, 0, 0, 270) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (10808,  1, 0, 3, 0, 110, 0, 696.444641113281) /* Axe                 Specialized */
-     , (10808,  2, 0, 3, 0, 120, 0, 696.444641113281) /* Bow                 Specialized */
-     , (10808,  3, 0, 3, 0, 130, 0, 696.444641113281) /* Crossbow            Specialized */
-     , (10808,  4, 0, 3, 0, 200, 0, 696.444641113281) /* Dagger              Specialized */
-     , (10808,  5, 0, 3, 0, 200, 0, 696.444641113281) /* Mace                Specialized */
-     , (10808,  6, 0, 3, 0, 200, 0, 696.444641113281) /* MeleeDefense        Specialized */
-     , (10808,  7, 0, 3, 0, 200, 0, 696.444641113281) /* MissileDefense      Specialized */
-     , (10808,  9, 0, 3, 0, 200, 0, 696.444641113281) /* Spear               Specialized */
-     , (10808, 10, 0, 3, 0, 200, 0, 696.444641113281) /* Staff               Specialized */
-     , (10808, 11, 0, 3, 0, 200, 0, 696.444641113281) /* Sword               Specialized */
-     , (10808, 13, 0, 3, 0, 200, 0, 696.444641113281) /* UnarmedCombat       Specialized */
-     , (10808, 14, 0, 3, 0, 300, 0, 696.444641113281) /* ArcaneLore          Specialized */
-     , (10808, 15, 0, 3, 0, 180, 0, 696.444641113281) /* MagicDefense        Specialized */
-     , (10808, 20, 0, 3, 0, 150, 0, 696.444641113281) /* Deception           Specialized */
-     , (10808, 24, 0, 2, 0,  60, 0, 696.444641113281) /* Run                 Trained */
-     , (10808, 31, 0, 3, 0, 283, 0, 696.444641113281) /* CreatureEnchantment Specialized */
-     , (10808, 33, 0, 3, 0, 283, 0, 696.444641113281) /* LifeMagic           Specialized */
-     , (10808, 34, 0, 3, 0, 300, 0, 696.444641113281) /* WarMagic            Specialized */;
+VALUES (10808,  1, 0, 3, 0, 110, 0, 0) /* Axe                 Specialized */
+     , (10808,  2, 0, 3, 0, 120, 0, 0) /* Bow                 Specialized */
+     , (10808,  3, 0, 3, 0, 130, 0, 0) /* Crossbow            Specialized */
+     , (10808,  4, 0, 3, 0, 200, 0, 0) /* Dagger              Specialized */
+     , (10808,  5, 0, 3, 0, 200, 0, 0) /* Mace                Specialized */
+     , (10808,  6, 0, 3, 0, 200, 0, 0) /* MeleeDefense        Specialized */
+     , (10808,  7, 0, 3, 0, 200, 0, 0) /* MissileDefense      Specialized */
+     , (10808,  9, 0, 3, 0, 200, 0, 0) /* Spear               Specialized */
+     , (10808, 10, 0, 3, 0, 200, 0, 0) /* Staff               Specialized */
+     , (10808, 11, 0, 3, 0, 200, 0, 0) /* Sword               Specialized */
+     , (10808, 13, 0, 3, 0, 200, 0, 0) /* UnarmedCombat       Specialized */
+     , (10808, 14, 0, 3, 0, 300, 0, 0) /* ArcaneLore          Specialized */
+     , (10808, 15, 0, 3, 0, 180, 0, 0) /* MagicDefense        Specialized */
+     , (10808, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
+     , (10808, 24, 0, 2, 0,  60, 0, 0) /* Run                 Trained */
+     , (10808, 31, 0, 3, 0, 283, 0, 0) /* CreatureEnchantment Specialized */
+     , (10808, 33, 0, 3, 0, 283, 0, 0) /* LifeMagic           Specialized */
+     , (10808, 34, 0, 3, 0, 300, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (10808,  0,  4,  0,    0,  270,  270,  270,  270,  270,  270,  270,  270,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -168,7 +168,7 @@ VALUES (10808,  9 /* Generation */,   0.33, NULL, NULL, NULL, NULL, NULL, NULL, 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The rift pulses, and disgorges a creature!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
+VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The rift pulses, and disgorges a creature!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (10808,  9 /* Generation */,   0.66, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -176,7 +176,7 @@ VALUES (10808,  9 /* Generation */,   0.66, NULL, NULL, NULL, NULL, NULL, NULL, 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The rift surges with crackling energy, and a creature appears!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
+VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The rift surges with crackling energy, and a creature appears!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (10808,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -184,7 +184,7 @@ VALUES (10808,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The air becomes heavy with ozone, and another creature spawns from the rift!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
+VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The air becomes heavy with ozone, and another creature spawns from the rift!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10808, 1,  3695,  0, 0, 1, False) /* Create Gold Tumerok Insignia (3695) for Contain */;

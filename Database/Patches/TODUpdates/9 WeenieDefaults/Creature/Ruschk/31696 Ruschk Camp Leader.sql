@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31696;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31696, 'ace31696-ruschkcampleader', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (31696, 'ace31696-ruschkcampleader', 10, '2019-02-19 23:43:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31696,   1,         16) /* ItemType - Creature */
@@ -75,7 +75,7 @@ VALUES (31696,   1,   33559104) /* Setup */
      , (31696,   7,  268436946) /* ClothingBase */
      , (31696,   8,  100677373) /* Icon */
      , (31696,  22,  872415364) /* PhysicsEffectTable */
-     , (31696,  32,        502) /* WieldedTreasureType */
+     , (31696,  32,        487) /* WieldedTreasureType */
      , (31696,  35,        452) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -174,10 +174,4 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (31696, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (31696, 9, 31700,  1, 1, 1, False) /* Create Leatherworking Chest Key (31700) for ContainTreasure */
      , (31696, 9, 31700,  1, 1, 1, False) /* Create Leatherworking Chest Key (31700) for ContainTreasure */
-     , (31696, 9, 34276, -1, 0, 0.08, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */
-     , (31696, 10,     0,  0, 0, 0.166667, False) /* Create nothing for WieldTreasure */
-     , (31696, 10, 48594,  0, 0, 0.166667, False) /* Create Icy Club (48594) for WieldTreasure */
-     , (31696, 10, 48595,  0, 0, 0.166667, False) /* Create Frozen Dagger (48595) for WieldTreasure */
-     , (31696, 10, 48596,  0, 0, 0.166667, False) /* Create Ice Shard (48596) for WieldTreasure */
-     , (31696, 10, 48597,  0, 0, 0.166667, False) /* Create Frigid Splinter (48597) for WieldTreasure */
-     , (31696, 10, 48598,  0, 0, 0.166667, False) /* Create Glacial Blade (48598) for WieldTreasure */;
+     , (31696, 9, 34276, -1, 0, 0.08, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */;

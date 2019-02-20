@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29052;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29052, 'ruschkfledgemaster', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29052, 'ruschkfledgemaster', 10, '2019-02-19 23:43:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29052,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (29052,   1,   33559104) /* Setup */
      , (29052,   7,  268436946) /* ClothingBase */
      , (29052,   8,  100677373) /* Icon */
      , (29052,  22,  872415364) /* PhysicsEffectTable */
-     , (29052,  32,        500) /* WieldedTreasureType */
+     , (29052,  32,        485) /* WieldedTreasureType */
      , (29052,  35,        453) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -160,9 +160,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29052, 8, 29054,  0, 0, 1, False) /* Create Fledgemaster's Tusk (29054) for Treasure */
-     , (29052, 10, 48584,  0, 0, 0.2, False) /* Create Icy Club (48584) for WieldTreasure */
-     , (29052, 10, 48585,  0, 0, 0.2, False) /* Create Frozen Dagger (48585) for WieldTreasure */
-     , (29052, 10, 48586,  0, 0, 0.2, False) /* Create Ice Shard (48586) for WieldTreasure */
-     , (29052, 10, 48587,  0, 0, 0.2, False) /* Create Frigid Splinter (48587) for WieldTreasure */
-     , (29052, 10, 48588,  0, 0, 0.2, False) /* Create Glacial Blade (48588) for WieldTreasure */;
+VALUES (29052, 9, 29054,  1, 0, 1, False) /* Create Fledgemaster's Tusk (29054) for ContainTreasure */;

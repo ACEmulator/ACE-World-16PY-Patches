@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29342;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29342, 'ruschklaktar', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29342, 'ruschklaktar', 10, '2019-02-19 23:43:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29342,   1,         16) /* ItemType - Creature */
@@ -65,8 +65,7 @@ VALUES (29342,   1,       5) /* HeartbeatInterval */
      , (29342, 125,     0.5) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29342,   1, 'Ruschk Laktar') /* Name */
-     , (29342,  15, 'Uses Ruschk Weapon Group 503 T4, Drops seasonal trophy item, Drops Ruschk Scalp for Ruschk Challenger quest') /* ShortDesc */;
+VALUES (29342,   1, 'Ruschk Laktar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29342,   1,   33559104) /* Setup */
@@ -77,7 +76,7 @@ VALUES (29342,   1,   33559104) /* Setup */
      , (29342,   7,  268436946) /* ClothingBase */
      , (29342,   8,  100677373) /* Icon */
      , (29342,  22,  872415364) /* PhysicsEffectTable */
-     , (29342,  32,        503) /* WieldedTreasureType */
+     , (29342,  32,        488) /* WieldedTreasureType */
      , (29342,  35,       1000) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -195,10 +194,4 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (29342, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (29342, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
      , (29342, 9, 31037, -1, 0, 0.2, True) /* Create Ruschk Scalp (31037) for ContainTreasure */
-     , (29342, 9, 34277, -1, 0, 0.06, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
-     , (29342, 10,     0,  0, 0, 0.16667, False) /* Create nothing for WieldTreasure */
-     , (29342, 10, 48599,  0, 0, 0.16667, False) /* Create Icy Club (48599) for WieldTreasure */
-     , (29342, 10, 48600,  0, 0, 0.16667, False) /* Create Frozen Dagger (48600) for WieldTreasure */
-     , (29342, 10, 48601,  0, 0, 0.16667, False) /* Create Ice Shard (48601) for WieldTreasure */
-     , (29342, 10, 48602,  0, 0, 0.16667, False) /* Create Frigid Splinter (48602) for WieldTreasure */
-     , (29342, 10, 48603,  0, 0, 0.16667, False) /* Create Glacial Blade (48603) for WieldTreasure */;
+     , (29342, 9, 34277, -1, 0, 0.06, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */;

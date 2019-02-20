@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28669;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28669, 'ruschkbarbaric', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28669, 'ruschkbarbaric', 10, '2019-02-19 23:43:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28669,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (28669,   1,   33559104) /* Setup */
      , (28669,   7,  268436946) /* ClothingBase */
      , (28669,   8,  100677373) /* Icon */
      , (28669,  22,  872415364) /* PhysicsEffectTable */
-     , (28669,  32,        500) /* WieldedTreasureType */
+     , (28669,  32,        485) /* WieldedTreasureType */
      , (28669,  35,        453) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -156,10 +156,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28669, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (28669, 9, 28744, -1, 0, 0.05, True) /* Create Imperfect Ice Shard (28744) for ContainTreasure */
-     , (28669, 10,     0,  0, 0, 0.166667, False) /* Create nothing for WieldTreasure */
-     , (28669, 10, 48584,  0, 0, 0.166667, False) /* Create Icy Club (48584) for WieldTreasure */
-     , (28669, 10, 48585,  0, 0, 0.166667, False) /* Create Frozen Dagger (48585) for WieldTreasure */
-     , (28669, 10, 48586,  0, 0, 0.166667, False) /* Create Ice Shard (48586) for WieldTreasure */
-     , (28669, 10, 48587,  0, 0, 0.166667, False) /* Create Frigid Splinter (48587) for WieldTreasure */
-     , (28669, 10, 48588,  0, 0, 0.166667, False) /* Create Glacial Blade (48588) for WieldTreasure */;
+     , (28669, 9, 28744, -1, 0, 0.05, True) /* Create Imperfect Ice Shard (28744) for ContainTreasure */;

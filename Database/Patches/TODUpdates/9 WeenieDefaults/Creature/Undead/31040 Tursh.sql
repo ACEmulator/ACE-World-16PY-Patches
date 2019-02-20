@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31040;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31040, 'ace31040-tursh', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (31040, 'ace31040-tursh', 10, '2019-02-19 23:43:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31040,   1,         16) /* ItemType - Creature */
@@ -69,7 +69,7 @@ VALUES (31040,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31040,   1, 'Tursh') /* Name */
-     , (31040,  16, 'God of Hunger') /* LongDesc */;
+     , (31040,   5, 'Ruschk God of Hunger') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31040,   1,   33559507) /* Setup */
@@ -77,7 +77,6 @@ VALUES (31040,   1,   33559507) /* Setup */
      , (31040,   3,  536871101) /* SoundTable */
      , (31040,   4,  805306372) /* CombatTable */
      , (31040,   6,   67115447) /* PaletteBase */
-     , (31040,   7,  268436946) /* ClothingBase */
      , (31040,   8,  100677373) /* Icon */
      , (31040,  22,  872415364) /* PhysicsEffectTable */
      , (31040,  35,        445) /* DeathTreasureType */;

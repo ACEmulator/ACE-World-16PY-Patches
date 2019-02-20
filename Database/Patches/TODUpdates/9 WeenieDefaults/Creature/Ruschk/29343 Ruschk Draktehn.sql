@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29343;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29343, 'ruschkdraktehn', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29343, 'ruschkdraktehn', 10, '2019-02-19 23:43:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29343,   1,         16) /* ItemType - Creature */
@@ -77,7 +77,7 @@ VALUES (29343,   1,   33559104) /* Setup */
      , (29343,   7,  268436946) /* ClothingBase */
      , (29343,   8,  100677373) /* Icon */
      , (29343,  22,  872415364) /* PhysicsEffectTable */
-     , (29343,  32,        503) /* WieldedTreasureType */
+     , (29343,  32,        488) /* WieldedTreasureType */
      , (29343,  35,       1000) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -197,10 +197,4 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Stares into your
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29343, 9,     0,  0, 0, 0.82, False) /* Create nothing for ContainTreasure */
-     , (29343, 9, 31037, -1, 0, 0.18, True) /* Create Ruschk Scalp (31037) for ContainTreasure */
-     , (29343, 10,     0,  0, 0, 0.166667, False) /* Create nothing for WieldTreasure */
-     , (29343, 10, 48599,  0, 0, 0.166667, False) /* Create Icy Club (48599) for WieldTreasure */
-     , (29343, 10, 48600,  0, 0, 0.166667, False) /* Create Frozen Dagger (48600) for WieldTreasure */
-     , (29343, 10, 48601,  0, 0, 0.166667, False) /* Create Ice Shard (48601) for WieldTreasure */
-     , (29343, 10, 48602,  0, 0, 0.166667, False) /* Create Frigid Splinter (48602) for WieldTreasure */
-     , (29343, 10, 48603,  0, 0, 0.166667, False) /* Create Glacial Blade (48603) for WieldTreasure */;
+     , (29343, 9, 31037, -1, 0, 0.18, True) /* Create Ruschk Scalp (31037) for ContainTreasure */;
