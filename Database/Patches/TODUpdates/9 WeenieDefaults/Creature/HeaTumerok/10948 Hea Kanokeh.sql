@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10948;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10948, 'tumerokchampionkanokeh_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (10948, 'tumerokchampionkanokeh_xp', 10, '2019-02-19 15:09:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10948,   1,         16) /* ItemType - Creature */
      , (10948,   2,         58) /* CreatureType - HeaTumerok */
-     , (10948,   3,         17) /* PaletteTemplate - Yellow */
+     , (10948,   3,         28) /* PaletteTemplate - DarkPurpleMetal */
      , (10948,   6,         -1) /* ItemsCapacity */
      , (10948,   7,         -1) /* ContainersCapacity */
      , (10948,  16,          1) /* ItemUseable - No */
@@ -40,7 +40,7 @@ VALUES (10948,   1,       5) /* HeartbeatInterval */
      , (10948,   3, 0.800000011920929) /* HealthRate */
      , (10948,   4,     0.5) /* StaminaRate */
      , (10948,   5,       2) /* ManaRate */
-     , (10948,  12,     0.5) /* Shade */
+     , (10948,  12, 0.571399986743927) /* Shade */
      , (10948,  13,       1) /* ArmorModVsSlash */
      , (10948,  14,       1) /* ArmorModVsPierce */
      , (10948,  15,       1) /* ArmorModVsBludgeon */
@@ -82,10 +82,10 @@ VALUES (10948,   1,   33559568) /* Setup */
      , (10948,   3,  536870931) /* SoundTable */
      , (10948,   4,  805306380) /* CombatTable */
      , (10948,   6,   67116625) /* PaletteBase */
-     , (10948,   7,  268436628) /* ClothingBase */
+     , (10948,   7,  268437022) /* ClothingBase */
      , (10948,   8,  100667452) /* Icon */
      , (10948,  22,  872415270) /* PhysicsEffectTable */
-     , (10948,  35,        450) /* DeathTreasureType */;
+     , (10948,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10948,   1, 250, 0, 0) /* Strength */

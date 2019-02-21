@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7822;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7822, 'skeletonlord_melee', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7822, 'skeletonlord_melee', 10, '2019-02-19 15:09:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7822,   1,         16) /* ItemType - Creature */
@@ -70,8 +70,23 @@ VALUES (7822,   1,   33555464) /* Setup */
      , (7822,   6,   67116522) /* PaletteBase */
      , (7822,   8,  100669124) /* Icon */
      , (7822,  22,  872415269) /* PhysicsEffectTable */
-     , (7822,  32,        466) /* WieldedTreasureType */
-     , (7822,  35,        451) /* DeathTreasureType */;
+     , (7822,  32,        466) /* WieldedTreasureType - 
+                                   Wield Broad Sword (350) | Probability: 8%
+                                   Wield Long Sword (351) | Probability: 8%
+                                   Wield Ken (327) | Probability: 8%
+                                   Wield Scimitar (339) | Probability: 8%
+                                   Wield Tachi (353) | Probability: 8%
+                                   Wield Takuba (354) | Probability: 8%
+                                   Wield Kaskara (324) | Probability: 8%
+                                   Wield Shamshir (340) | Probability: 8%
+                                   Wield Battle Axe (301) | Probability: 8%
+                                   Wield Silifi (344) | Probability: 8%
+                                   Wield Ono (336) | Probability: 8%
+                                   Wield Morning Star (332) | Probability: 8%
+                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Large Round Shield (94) | Probability: 30%
+                                   Wield Kite Shield (91) | Probability: 20% */
+     , (7822,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7822,   1,  65, 0, 0) /* Strength */

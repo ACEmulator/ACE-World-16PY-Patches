@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10806;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10806, 'tumerokascendant', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (10806, 'tumerokascendant', 10, '2019-02-19 15:09:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10806,   1,         16) /* ItemType - Creature */
      , (10806,   2,          6) /* CreatureType - Tumerok */
-     , (10806,   3,         39) /* PaletteTemplate - Black */
+     , (10806,   3,         11) /* PaletteTemplate - Maroon */
      , (10806,   6,         -1) /* ItemsCapacity */
      , (10806,   7,         -1) /* ContainersCapacity */
      , (10806,  16,          1) /* ItemUseable - No */
@@ -37,7 +37,7 @@ VALUES (10806,   1,       5) /* HeartbeatInterval */
      , (10806,   3, 4.80000019073486) /* HealthRate */
      , (10806,   4,     3.5) /* StaminaRate */
      , (10806,   5,       8) /* ManaRate */
-     , (10806,  12,     0.5) /* Shade */
+     , (10806,  12, 0.571399986743927) /* Shade */
      , (10806,  13,       1) /* ArmorModVsSlash */
      , (10806,  14,       1) /* ArmorModVsPierce */
      , (10806,  15,       1) /* ArmorModVsBludgeon */
@@ -74,11 +74,24 @@ VALUES (10806,   1,   33559567) /* Setup */
      , (10806,   3,  536870931) /* SoundTable */
      , (10806,   4,  805306380) /* CombatTable */
      , (10806,   6,   67116625) /* PaletteBase */
-     , (10806,   7,  268435647) /* ClothingBase */
+     , (10806,   7,  268437022) /* ClothingBase */
      , (10806,   8,  100667452) /* Icon */
      , (10806,  22,  872415270) /* PhysicsEffectTable */
-     , (10806,  32,        203) /* WieldedTreasureType */
-     , (10806,  35,        448) /* DeathTreasureType */;
+     , (10806,  32,        203) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 20%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 40%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Katar (23674) | Probability: 12%
+                                   Wield Cestus (23637) | Probability: 12%
+                                   Wield Nekode (23680) | Probability: 12%
+                                   Wield Tachi (23700) | Probability: 12%
+                                   Wield Spear (23696) | Probability: 12%
+                                   Wield Fire Yaoji (23718) | Probability: 12%
+                                   Wield Yaoji (23710) | Probability: 12%
+                                   Wield Fire Tachi (23707) | Probability: 12%
+                                   Wield Kite Shield (23684) | Probability: 75% */
+     , (10806,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10806,   1, 280, 0, 0) /* Strength */

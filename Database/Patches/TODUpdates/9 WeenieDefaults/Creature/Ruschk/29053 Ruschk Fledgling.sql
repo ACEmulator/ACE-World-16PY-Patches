@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29053;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29053, 'ruschkfledge', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29053, 'ruschkfledge', 10, '2019-02-19 15:09:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29053,   1,         16) /* ItemType - Creature */
@@ -73,8 +73,13 @@ VALUES (29053,   1,   33559104) /* Setup */
      , (29053,   7,  268436946) /* ClothingBase */
      , (29053,   8,  100677373) /* Icon */
      , (29053,  22,  872415364) /* PhysicsEffectTable */
-     , (29053,  32,        500) /* WieldedTreasureType */
-     , (29053,  35,        453) /* DeathTreasureType */;
+     , (29053,  32,        485) /* WieldedTreasureType - 
+                                   Wield Stone Mace (29999) | Probability: 20%
+                                   Wield Bone Dagger (30004) | Probability: 20%
+                                   Wield Stone Hatchet (29984) | Probability: 20%
+                                   Wield Stone Spear (29989) | Probability: 20%
+                                   Wield Bone Sword (29994) | Probability: 20% */
+     , (29053,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29053,   1, 130, 0, 0) /* Strength */
@@ -158,11 +163,3 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29053, 10,     0,  0, 0, 0.166667, False) /* Create nothing for WieldTreasure */
-     , (29053, 10, 48584,  0, 0, 0.166667, False) /* Create Icy Club (48584) for WieldTreasure */
-     , (29053, 10, 48585,  0, 0, 0.166667, False) /* Create Frozen Dagger (48585) for WieldTreasure */
-     , (29053, 10, 48586,  0, 0, 0.166667, False) /* Create Ice Shard (48586) for WieldTreasure */
-     , (29053, 10, 48587,  0, 0, 0.166667, False) /* Create Frigid Splinter (48587) for WieldTreasure */
-     , (29053, 10, 48588,  0, 0, 0.166667, False) /* Create Glacial Blade (48588) for WieldTreasure */;

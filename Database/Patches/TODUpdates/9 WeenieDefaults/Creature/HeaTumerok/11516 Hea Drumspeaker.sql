@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11516;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11516, 'tumerokheadrumspeaker_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11516, 'tumerokheadrumspeaker_xp', 10, '2019-02-19 15:09:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11516,   1,         16) /* ItemType - Creature */
      , (11516,   2,         58) /* CreatureType - HeaTumerok */
-     , (11516,   3,          1) /* PaletteTemplate - AquaBlue */
+     , (11516,   3,         37) /* PaletteTemplate - LightRedMetal */
      , (11516,   6,         -1) /* ItemsCapacity */
      , (11516,   7,         -1) /* ContainersCapacity */
      , (11516,  16,          1) /* ItemUseable - No */
@@ -35,7 +35,7 @@ VALUES (11516,   1,       5) /* HeartbeatInterval */
      , (11516,   3,     0.5) /* HealthRate */
      , (11516,   4,     0.5) /* StaminaRate */
      , (11516,   5,       2) /* ManaRate */
-     , (11516,  12,     0.5) /* Shade */
+     , (11516,  12, 0.571399986743927) /* Shade */
      , (11516,  13,       1) /* ArmorModVsSlash */
      , (11516,  14,       1) /* ArmorModVsPierce */
      , (11516,  15,       1) /* ArmorModVsBludgeon */
@@ -72,11 +72,17 @@ VALUES (11516,   1,   33559553) /* Setup */
      , (11516,   3,  536870931) /* SoundTable */
      , (11516,   4,  805306380) /* CombatTable */
      , (11516,   6,   67116625) /* PaletteBase */
-     , (11516,   7,  268436629) /* ClothingBase */
+     , (11516,   7,  268437022) /* ClothingBase */
      , (11516,   8,  100667452) /* Icon */
      , (11516,  22,  872415270) /* PhysicsEffectTable */
-     , (11516,  32,        220) /* WieldedTreasureType */
-     , (11516,  35,        453) /* DeathTreasureType */;
+     , (11516,  32,        220) /* WieldedTreasureType - 
+                                   Wield Katar (23676) | Probability: 14%
+                                   Wield Cestus (23639) | Probability: 7%
+                                   Wield Nekode (23682) | Probability: 6%
+                                   Wield Tachi (23702) | Probability: 6%
+                                   Wield Spear (23698) | Probability: 6%
+                                   Wield Kite Shield (23686) | Probability: 75% */
+     , (11516,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11516,   1,  80, 0, 0) /* Strength */

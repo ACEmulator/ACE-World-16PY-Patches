@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28668;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28668, 'ruschkwarlord', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28668, 'ruschkwarlord', 10, '2019-02-19 15:09:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28668,   1,         16) /* ItemType - Creature */
@@ -27,8 +27,7 @@ VALUES (28668,   1, True ) /* Stuck */
      , (28668,  13, False) /* Ethereal */
      , (28668,  14, True ) /* GravityStatus */
      , (28668,  19, True ) /* Attackable */
-     , (28668, 101, True ) /* CanGenerateRare */
-     , (28668, 102, True ) /* CorpseGeneratedRare */;
+     , (28668, 101, True ) /* CanGenerateRare */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28668,   1,       5) /* HeartbeatInterval */
@@ -64,8 +63,7 @@ VALUES (28668,   1,       5) /* HeartbeatInterval */
      , (28668, 125,     0.5) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28668,   1, 'Ruschk Warlord') /* Name */
-     , (28668,  15, 'Uses Ruschk Weapon Group 502 T3 - Drops Seasonal Head Trophy') /* ShortDesc */;
+VALUES (28668,   1, 'Ruschk Warlord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28668,   1,   33559104) /* Setup */
@@ -76,8 +74,13 @@ VALUES (28668,   1,   33559104) /* Setup */
      , (28668,   7,  268436946) /* ClothingBase */
      , (28668,   8,  100677373) /* Icon */
      , (28668,  22,  872415364) /* PhysicsEffectTable */
-     , (28668,  32,        502) /* WieldedTreasureType */
-     , (28668,  35,        448) /* DeathTreasureType */;
+     , (28668,  32,        487) /* WieldedTreasureType - 
+                                   Wield Stone Mace (30001) | Probability: 20%
+                                   Wield Bone Dagger (30006) | Probability: 20%
+                                   Wield Ice Shard (29986) | Probability: 20%
+                                   Wield Frigid Splinter (29991) | Probability: 20%
+                                   Wield Bone Sword (29996) | Probability: 20% */
+     , (28668,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28668,   1, 210, 0, 0) /* Strength */
@@ -168,10 +171,4 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (28668, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
      , (28668, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (28668, 9,  6876,  0, 0, 0.08, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (28668, 9, 28730,  0, 0, 0.05, True) /* Create Perfect Ice Shard (28730) for ContainTreasure */
-     , (28668, 10,     0,  0, 0, 0.166667, False) /* Create nothing for WieldTreasure */
-     , (28668, 10, 48594,  0, 0, 0.166667, False) /* Create Icy Club (48594) for WieldTreasure */
-     , (28668, 10, 48595,  0, 0, 0.166667, False) /* Create Frozen Dagger (48595) for WieldTreasure */
-     , (28668, 10, 48596,  0, 0, 0.166667, False) /* Create Ice Shard (48596) for WieldTreasure */
-     , (28668, 10, 48597,  0, 0, 0.166667, False) /* Create Frigid Splinter (48597) for WieldTreasure */
-     , (28668, 10, 48598,  0, 0, 0.166667, False) /* Create Glacial Blade (48598) for WieldTreasure */;
+     , (28668, 9, 28730,  0, 0, 0.05, True) /* Create Perfect Ice Shard (28730) for ContainTreasure */;
