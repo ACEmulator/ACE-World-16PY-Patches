@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30245;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30245, 'gemrarevolatilewarmagic', 38, '2019-02-04 06:52:23') /* Gem */;
+VALUES (30245, 'gemrarevolatilewarmagic', 38, '2019-02-23 02:08:21') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30245,   1,       2048) /* ItemType - Gem */
@@ -19,7 +19,7 @@ VALUES (30245,   1,       2048) /* ItemType - Gem */
      , (30245,  19,          0) /* Value */
      , (30245,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30245,  33,         -1) /* Bonded - Slippery */
-     , (30245,  53,        101) /* PlacementPosition */
+     , (30245,  53,        101) /* PlacementPosition - Resting */
      , (30245,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30245,  94,         16) /* TargetType - Creature */
      , (30245, 106,        325) /* ItemSpellcraft */
@@ -36,7 +36,7 @@ VALUES (30245,  11, True ) /* IgnoreCollisions */
      , (30245, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30245,   1, 'Heiromancer''s Crystal') /* Name */
+VALUES (30245,   1, 'Hieromancer''s Crystal') /* Name */
      , (30245,  16, 'Using this gem will increase your War Magic skill by 250 for 15 minutes.') /* LongDesc */
      , (30245,  20, 'Hieromancer''s Crystals') /* PluralName */;
 
