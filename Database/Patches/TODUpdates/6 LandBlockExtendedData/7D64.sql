@@ -15,3 +15,6 @@ DELETE FROM `landblock_instance` WHERE `guid` = 2010529882; /* Portal to Al-Arqa
 
 DELETE FROM `landblock_instance` WHERE `guid` = 2010529883; /* Portal to Holtburg */
 /* @teleloc 0x7D640188 [35.874600 174.703000 4.660000] 0.999895 0.000000 0.000000 -0.014477 */
+
+DELETE FROM `landblock_instance` WHERE `guid` = 2010529884; /* Antius Blackmoor */
+/* @teleloc 0x7D640000 [76.145600 102.306000 12.005000] 0.342535 0.000000 0.000000 0.939505 */
