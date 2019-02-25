@@ -71,8 +71,8 @@ VALUES (1948151825, 29411, 1105657876, 67.50179, 87.87572, 160.005, 0.809065, 0,
 /* @teleloc 0x41E70014 [67.501790 87.875720 160.005000] 0.809065 0.000000 0.000000 -0.587720 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (1948151808, 1948151810, '2005-02-09 10:00:00') /* Silver Legion Castle Guard */
-     , (1948151808, 1948151811, '2005-02-09 10:00:00') /* Silver Legion Castle Guard */
+VALUES (1948151808, 1948151810, '2019-02-15 14:34:36') /* Silver Legion Castle Guard */
+     , (1948151808, 1948151811, '2019-02-15 14:34:36') /* Silver Legion Castle Guard */
      , (1948151808, 1948151812, '2019-02-15 14:34:36') /* Silver Legion Castle Guard */
      , (1948151808, 1948151813, '2019-02-15 14:34:36') /* Silver Legion Castle Guard */
      , (1948151808, 1948151814, '2019-02-15 14:34:36') /* Silver Legion Castle Guard */
