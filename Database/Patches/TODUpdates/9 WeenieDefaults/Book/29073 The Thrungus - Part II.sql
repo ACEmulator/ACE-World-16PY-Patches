@@ -37,7 +37,7 @@ VALUES (29073,   1,   33554771) /* Setup */
      , (29073,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (29073, 0, 0);
+VALUES (29073, 7, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (29073, 0, 4294967295, 'Sir Binwas Loc', 'prewritten', True, 'I had never seen the King so enraged. While he is always a generally unpleasant man even on the best of days, he now seemed a raving tyrant. Servants cowered in the halls when he passed. The Royal Guard, including the brave Ferrans, took a step back when he neared. He even took to personally torturing prisoners in the pits.')

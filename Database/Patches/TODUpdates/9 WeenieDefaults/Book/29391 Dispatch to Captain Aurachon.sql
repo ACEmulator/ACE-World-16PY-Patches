@@ -33,7 +33,7 @@ VALUES (29391,   1,   33554773) /* Setup */
      , (29391,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (29391, 0, 0);
+VALUES (29391, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (29391, 0, 4294967295, 'General Corcima', 'prewritten', True, 'Captain Aurachon,

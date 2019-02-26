@@ -30,7 +30,7 @@ VALUES (29478,   1,   33554773) /* Setup */
      , (29478,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (29478, 0, 0);
+VALUES (29478, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (29478, 0, 4294967295, 'O', 'prewritten', True, 'Sorry I couldn''t stick around, friend. I am made uncomfortable by enclosed spaces and homicidal brutes in armor, so I chose to leave. I would dearly have loved to meet your King face-to-face again, but I''m afraid he wants to do something terrible to me. I believe the stubborn ass just has not gotten over my attempted assassination of his father. I tried to explain that it was nothing personal, just a matter of business, but he has taken it quite personally. Please convey my sincerest regrets to your humorless tyrant.');

@@ -35,7 +35,7 @@ VALUES (31039,   1,   33554773) /* Setup */
      , (31039,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (31039, 0, 0);
+VALUES (31039, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (31039, 0, 4294967295, 'Unknown', 'prewritten', True, 'They told me to write this down. Somehow, they entered my mind and TOLD me to write this down. I don''t understand it. And I certainly don''t like it, but these things are in here now. These monsters are in my brain, and they won''t get out!

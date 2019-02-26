@@ -36,7 +36,7 @@ VALUES (28758,   1,   33554771) /* Setup */
      , (28758,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (28758, 0, 0);
+VALUES (28758, 8, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (28758, 0, 4294967295, 'Rand the Brewmaster', 'prewritten', False, 'The brewing of beer is a subject quite dear to my heart. My father and his father before him were renowned for their brewing abilities and were frequently sought after by the rulers of Viamont, Aluvia, Gharu''n, and even Milantos for their sweet brews. I learned my craft from them and have tried to set down as best I can the knowledge with which they have so graciously blessed me.')

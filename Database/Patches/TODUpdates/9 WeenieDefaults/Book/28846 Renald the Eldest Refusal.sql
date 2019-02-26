@@ -36,7 +36,7 @@ VALUES (28846,   1,   33554776) /* Setup */
      , (28846,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (28846, 0, 0);
+VALUES (28846, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (28846, 0, 4294967295, 'Renald the Eldest', 'prewritten', True, 'I would rather be a servant to the Olthoi than trade with you blue skinned Viamontian trash. So take your fork tongued words of trade and jump off the nearest cliff.

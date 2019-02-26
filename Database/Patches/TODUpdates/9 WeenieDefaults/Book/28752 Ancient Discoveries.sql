@@ -31,7 +31,7 @@ VALUES (28752,   1,   33554771) /* Setup */
      , (28752,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (28752, 0, 0);
+VALUES (28752, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (28752, 0, 4294967295, 'Sir Binwas Loc', 'prewritten', True, 'When we first came across this place, we assumed it had been created by the Ruschk who inhabit its cold corridors. This structure is unlike any other Ruschk structure we have encountered, but we had no other theory for its creation. However, the more we explore we this place, the more I have come to believe that the Ruschk are nothing more than this dungeon''s most recent inhabitants. The Ruschk did not build this place. Something else did - something ancient. Some race we have yet to encounter, perhaps? Some race that might even be native?

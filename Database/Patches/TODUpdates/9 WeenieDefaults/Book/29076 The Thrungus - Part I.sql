@@ -36,7 +36,7 @@ VALUES (29076,   1,   33554771) /* Setup */
      , (29076,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (29076, 0, 0);
+VALUES (29076, 7, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (29076, 0, 4294967295, 'Sir Binwas Loc', 'prewritten', True, 'This new world holds many strange mysteries. Creatures the like of which I could scarcely imagine on Ispar are commonplace in the forests and tundras of this curious realm. Most of these creatures are terrifying beyond comprehension, even to a warrior such as me. But the Thrungum - as my men have taken to calling them - are simply comical.
