@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5682;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5682, 'skeletoncharred', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (5682, 'skeletoncharred', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5682,   1,         16) /* ItemType - Creature */
      , (5682,   2,         30) /* CreatureType - Skeleton */
-     , (5682,   3,         51) /* PaletteTemplate - MidgGey */
+     , (5682,   3,          9) /* PaletteTemplate - Grey */
      , (5682,   6,         -1) /* ItemsCapacity */
      , (5682,   7,         -1) /* ContainersCapacity */
      , (5682,  16,          1) /* ItemUseable - No */
@@ -35,7 +35,7 @@ VALUES (5682,   1,       5) /* HeartbeatInterval */
      , (5682,   3, 0.100000001490116) /* HealthRate */
      , (5682,   4,     0.5) /* StaminaRate */
      , (5682,   5,       2) /* ManaRate */
-     , (5682,  12,     0.5) /* Shade */
+     , (5682,  12,       0) /* Shade */
      , (5682,  13, 0.370000004768372) /* ArmorModVsSlash */
      , (5682,  14, 0.159999996423721) /* ArmorModVsPierce */
      , (5682,  15,     0.5) /* ArmorModVsBludgeon */
@@ -73,8 +73,32 @@ VALUES (5682,   1,   33554521) /* Setup */
      , (5682,   7,  268435646) /* ClothingBase */
      , (5682,   8,  100669124) /* Icon */
      , (5682,  22,  872415269) /* PhysicsEffectTable */
-     , (5682,  32,        192) /* WieldedTreasureType */
-     , (5682,  35,        453) /* DeathTreasureType */;
+     , (5682,  32,        192) /* WieldedTreasureType - 
+                                   Wield 6x Throwing Axe (304) | Probability: 10%
+                                   Wield Nayin (334) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 10%
+                                   Wield 14x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 14%
+                                   Wield Broad Sword (350) | Probability: 7%
+                                   Wield Kaskara (324) | Probability: 6%
+                                   Wield Ken (327) | Probability: 6%
+                                   Wield Long Sword (351) | Probability: 6%
+                                   Wield Morning Star (332) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 6%
+                                   Wield Shamshir (340) | Probability: 6%
+                                   Wield Ono (336) | Probability: 13%
+                                   Wield Silifi (344) | Probability: 13%
+                                   Wield Tachi (353) | Probability: 6%
+                                   Wield Takuba (354) | Probability: 6%
+                                   Wield Buckler (44) | Probability: 20%
+                                   Wield Kite Shield (91) | Probability: 10%
+                                   Wield Round Shield (93) | Probability: 10% */
+     , (5682,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5682,   1,  35, 0, 0) /* Strength */
@@ -90,19 +114,19 @@ VALUES (5682,   1,    42, 0, 0, 65) /* MaxHealth */
      , (5682,   5,     0, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (5682,  1, 0, 3, 0,  80, 0, 436.018981933594) /* Axe                 Specialized */
-     , (5682,  2, 0, 3, 0,  80, 0, 436.018981933594) /* Bow                 Specialized */
-     , (5682,  3, 0, 3, 0,  80, 0, 436.018981933594) /* Crossbow            Specialized */
-     , (5682,  4, 0, 3, 0,  80, 0, 436.018981933594) /* Dagger              Specialized */
-     , (5682,  5, 0, 3, 0,  80, 0, 436.018981933594) /* Mace                Specialized */
-     , (5682,  6, 0, 3, 0,  50, 0, 436.018981933594) /* MeleeDefense        Specialized */
-     , (5682,  7, 0, 3, 0,  80, 0, 436.018981933594) /* MissileDefense      Specialized */
-     , (5682,  9, 0, 3, 0,  80, 0, 436.018981933594) /* Spear               Specialized */
-     , (5682, 10, 0, 3, 0,  80, 0, 436.018981933594) /* Staff               Specialized */
-     , (5682, 11, 0, 3, 0,  80, 0, 436.018981933594) /* Sword               Specialized */
-     , (5682, 13, 0, 3, 0,  80, 0, 436.018981933594) /* UnarmedCombat       Specialized */
-     , (5682, 15, 0, 3, 0,  70, 0, 436.018981933594) /* MagicDefense        Specialized */
-     , (5682, 20, 0, 3, 0,  70, 0, 436.018981933594) /* Deception           Specialized */;
+VALUES (5682,  1, 0, 3, 0,  80, 0, 0) /* Axe                 Specialized */
+     , (5682,  2, 0, 3, 0,  80, 0, 0) /* Bow                 Specialized */
+     , (5682,  3, 0, 3, 0,  80, 0, 0) /* Crossbow            Specialized */
+     , (5682,  4, 0, 3, 0,  80, 0, 0) /* Dagger              Specialized */
+     , (5682,  5, 0, 3, 0,  80, 0, 0) /* Mace                Specialized */
+     , (5682,  6, 0, 3, 0,  50, 0, 0) /* MeleeDefense        Specialized */
+     , (5682,  7, 0, 3, 0,  80, 0, 0) /* MissileDefense      Specialized */
+     , (5682,  9, 0, 3, 0,  80, 0, 0) /* Spear               Specialized */
+     , (5682, 10, 0, 3, 0,  80, 0, 0) /* Staff               Specialized */
+     , (5682, 11, 0, 3, 0,  80, 0, 0) /* Sword               Specialized */
+     , (5682, 13, 0, 3, 0,  80, 0, 0) /* UnarmedCombat       Specialized */
+     , (5682, 15, 0, 3, 0,  70, 0, 0) /* MagicDefense        Specialized */
+     , (5682, 20, 0, 3, 0,  70, 0, 0) /* Deception           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (5682,  0,  4,  0,    0,   50,   19,    8,   25,    3,   41,    9,   17,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -121,7 +145,7 @@ VALUES (5682,  5 /* HeartBeat */,    0.8, NULL, 2147483709 /* NonCombat */, 1090
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5682, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */

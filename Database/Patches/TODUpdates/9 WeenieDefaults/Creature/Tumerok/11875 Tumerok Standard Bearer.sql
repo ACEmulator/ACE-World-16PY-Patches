@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11875;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11875, 'tumerokbannerfalcon', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11875, 'tumerokbannerfalcon', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11875,   1,         16) /* ItemType - Creature */
      , (11875,   2,          6) /* CreatureType - Tumerok */
-     , (11875,   3,         19) /* PaletteTemplate - Copper */
+     , (11875,   3,         14) /* PaletteTemplate - Red */
      , (11875,   6,         -1) /* ItemsCapacity */
      , (11875,   7,         -1) /* ContainersCapacity */
      , (11875,  16,          1) /* ItemUseable - No */
@@ -33,7 +33,7 @@ VALUES (11875,   1,       5) /* HeartbeatInterval */
      , (11875,   3, 0.200000002980232) /* HealthRate */
      , (11875,   4,     0.5) /* StaminaRate */
      , (11875,   5,       2) /* ManaRate */
-     , (11875,  12,     0.5) /* Shade */
+     , (11875,  12, 0.571399986743927) /* Shade */
      , (11875,  13,       1) /* ArmorModVsSlash */
      , (11875,  14,       1) /* ArmorModVsPierce */
      , (11875,  15,       1) /* ArmorModVsBludgeon */
@@ -69,11 +69,13 @@ VALUES (11875,   1,   33559554) /* Setup */
      , (11875,   3,  536870931) /* SoundTable */
      , (11875,   4,  805306380) /* CombatTable */
      , (11875,   6,   67116625) /* PaletteBase */
-     , (11875,   7,  268435647) /* ClothingBase */
+     , (11875,   7,  268437021) /* ClothingBase */
      , (11875,   8,  100667452) /* Icon */
      , (11875,  22,  872415270) /* PhysicsEffectTable */
-     , (11875,  32,        366) /* WieldedTreasureType */
-     , (11875,  35,        453) /* DeathTreasureType */;
+     , (11875,  32,        366) /* WieldedTreasureType - 
+                                   Wield Hafted Falcon Spear (11751) | Probability: 80%
+                                   Wield Reinforced Falcon Spear (11777) | Probability: 20% */
+     , (11875,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11875,   1, 110, 0, 0) /* Strength */
@@ -89,19 +91,19 @@ VALUES (11875,   1,    40, 0, 0, 103) /* MaxHealth */
      , (11875,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11875,  1, 0, 3, 0,  90, 0, 769.371887207031) /* Axe                 Specialized */
-     , (11875,  2, 0, 3, 0,  90, 0, 769.371887207031) /* Bow                 Specialized */
-     , (11875,  3, 0, 3, 0,  90, 0, 769.371887207031) /* Crossbow            Specialized */
-     , (11875,  4, 0, 3, 0,  90, 0, 769.371887207031) /* Dagger              Specialized */
-     , (11875,  5, 0, 3, 0,  90, 0, 769.371887207031) /* Mace                Specialized */
-     , (11875,  6, 0, 3, 0,  72, 0, 769.371887207031) /* MeleeDefense        Specialized */
-     , (11875,  7, 0, 3, 0, 111, 0, 769.371887207031) /* MissileDefense      Specialized */
-     , (11875, 10, 0, 3, 0,  90, 0, 769.371887207031) /* Staff               Specialized */
-     , (11875, 11, 0, 3, 0,  90, 0, 769.371887207031) /* Sword               Specialized */
-     , (11875, 13, 0, 3, 0,  90, 0, 769.371887207031) /* UnarmedCombat       Specialized */
-     , (11875, 15, 0, 3, 0,  84, 0, 769.371887207031) /* MagicDefense        Specialized */
-     , (11875, 20, 0, 2, 0,  10, 0, 769.371887207031) /* Deception           Trained */
-     , (11875, 24, 0, 2, 0,  60, 0, 769.371887207031) /* Run                 Trained */;
+VALUES (11875,  1, 0, 3, 0,  90, 0, 0) /* Axe                 Specialized */
+     , (11875,  2, 0, 3, 0,  90, 0, 0) /* Bow                 Specialized */
+     , (11875,  3, 0, 3, 0,  90, 0, 0) /* Crossbow            Specialized */
+     , (11875,  4, 0, 3, 0,  90, 0, 0) /* Dagger              Specialized */
+     , (11875,  5, 0, 3, 0,  90, 0, 0) /* Mace                Specialized */
+     , (11875,  6, 0, 3, 0,  72, 0, 0) /* MeleeDefense        Specialized */
+     , (11875,  7, 0, 3, 0, 111, 0, 0) /* MissileDefense      Specialized */
+     , (11875, 10, 0, 3, 0,  90, 0, 0) /* Staff               Specialized */
+     , (11875, 11, 0, 3, 0,  90, 0, 0) /* Sword               Specialized */
+     , (11875, 13, 0, 3, 0,  90, 0, 0) /* UnarmedCombat       Specialized */
+     , (11875, 15, 0, 3, 0,  84, 0, 0) /* MagicDefense        Specialized */
+     , (11875, 20, 0, 2, 0,  10, 0, 0) /* Deception           Trained */
+     , (11875, 24, 0, 2, 0,  60, 0, 0) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11875,  0,  4,  0,    0,   20,   20,   20,   20,   20,   20,   20,   20,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

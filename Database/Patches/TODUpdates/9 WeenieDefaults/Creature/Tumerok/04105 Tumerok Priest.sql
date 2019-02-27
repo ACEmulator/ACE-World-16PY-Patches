@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4105;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4105, 'tumerokpriestarcher', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (4105, 'tumerokpriestarcher', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4105,   1,         16) /* ItemType - Creature */
      , (4105,   2,          6) /* CreatureType - Tumerok */
-     , (4105,   3,          1) /* PaletteTemplate - AquaBlue */
+     , (4105,   3,         76) /* PaletteTemplate - Orange */
      , (4105,   6,         -1) /* ItemsCapacity */
      , (4105,   7,         -1) /* ContainersCapacity */
      , (4105,  16,          1) /* ItemUseable - No */
@@ -35,7 +35,7 @@ VALUES (4105,   1,       5) /* HeartbeatInterval */
      , (4105,   3, 0.400000005960464) /* HealthRate */
      , (4105,   4,     0.5) /* StaminaRate */
      , (4105,   5,       2) /* ManaRate */
-     , (4105,  12,     0.5) /* Shade */
+     , (4105,  12, 0.428600013256073) /* Shade */
      , (4105,  13,       1) /* ArmorModVsSlash */
      , (4105,  14,       1) /* ArmorModVsPierce */
      , (4105,  15,       1) /* ArmorModVsBludgeon */
@@ -72,11 +72,15 @@ VALUES (4105,   1,   33559553) /* Setup */
      , (4105,   3,  536870931) /* SoundTable */
      , (4105,   4,  805306380) /* CombatTable */
      , (4105,   6,   67116625) /* PaletteBase */
-     , (4105,   7,  268436630) /* ClothingBase */
+     , (4105,   7,  268437022) /* ClothingBase */
      , (4105,   8,  100667452) /* Icon */
      , (4105,  22,  872415270) /* PhysicsEffectTable */
-     , (4105,  32,        222) /* WieldedTreasureType */
-     , (4105,  35,        450) /* DeathTreasureType */;
+     , (4105,  32,        222) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 20x Greater Arrow (5304) | Probability: 100%
+                                   Wield Heavy Crossbow (23667) | Probability: 50%
+                                   Wield 16x Greater Quarrel (5313) | Probability: 100% */
+     , (4105,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4105,   1,  80, 0, 0) /* Strength */
@@ -92,22 +96,22 @@ VALUES (4105,   1,   150, 0, 0, 185) /* MaxHealth */
      , (4105,   5,     0, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (4105,  1, 0, 3, 0, 230, 0, 379.830444335938) /* Axe                 Specialized */
-     , (4105,  4, 0, 3, 0,  50, 0, 379.830444335938) /* Dagger              Specialized */
-     , (4105,  5, 0, 3, 0, 230, 0, 379.830444335938) /* Mace                Specialized */
-     , (4105,  6, 0, 3, 0, 240, 0, 379.830444335938) /* MeleeDefense        Specialized */
-     , (4105,  7, 0, 3, 0, 325, 0, 379.830444335938) /* MissileDefense      Specialized */
-     , (4105,  9, 0, 3, 0, 230, 0, 379.830444335938) /* Spear               Specialized */
-     , (4105, 10, 0, 3, 0, 230, 0, 379.830444335938) /* Staff               Specialized */
-     , (4105, 11, 0, 3, 0, 230, 0, 379.830444335938) /* Sword               Specialized */
-     , (4105, 13, 0, 3, 0, 230, 0, 379.830444335938) /* UnarmedCombat       Specialized */
-     , (4105, 14, 0, 2, 0, 190, 0, 379.830444335938) /* ArcaneLore          Trained */
-     , (4105, 15, 0, 3, 0, 180, 0, 379.830444335938) /* MagicDefense        Specialized */
-     , (4105, 20, 0, 3, 0,  50, 0, 379.830444335938) /* Deception           Specialized */
-     , (4105, 24, 0, 2, 0,  60, 0, 379.830444335938) /* Run                 Trained */
-     , (4105, 31, 0, 3, 0, 140, 0, 379.830444335938) /* CreatureEnchantment Specialized */
-     , (4105, 33, 0, 3, 0, 140, 0, 379.830444335938) /* LifeMagic           Specialized */
-     , (4105, 34, 0, 3, 0, 140, 0, 379.830444335938) /* WarMagic            Specialized */;
+VALUES (4105,  1, 0, 3, 0, 230, 0, 0) /* Axe                 Specialized */
+     , (4105,  4, 0, 3, 0,  50, 0, 0) /* Dagger              Specialized */
+     , (4105,  5, 0, 3, 0, 230, 0, 0) /* Mace                Specialized */
+     , (4105,  6, 0, 3, 0, 240, 0, 0) /* MeleeDefense        Specialized */
+     , (4105,  7, 0, 3, 0, 325, 0, 0) /* MissileDefense      Specialized */
+     , (4105,  9, 0, 3, 0, 230, 0, 0) /* Spear               Specialized */
+     , (4105, 10, 0, 3, 0, 230, 0, 0) /* Staff               Specialized */
+     , (4105, 11, 0, 3, 0, 230, 0, 0) /* Sword               Specialized */
+     , (4105, 13, 0, 3, 0, 230, 0, 0) /* UnarmedCombat       Specialized */
+     , (4105, 14, 0, 2, 0, 190, 0, 0) /* ArcaneLore          Trained */
+     , (4105, 15, 0, 3, 0, 180, 0, 0) /* MagicDefense        Specialized */
+     , (4105, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
+     , (4105, 24, 0, 2, 0,  60, 0, 0) /* Run                 Trained */
+     , (4105, 31, 0, 3, 0, 140, 0, 0) /* CreatureEnchantment Specialized */
+     , (4105, 33, 0, 3, 0, 140, 0, 0) /* LifeMagic           Specialized */
+     , (4105, 34, 0, 3, 0, 140, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (4105,  0,  4,  0,    0,  110,  110,  110,  110,  110,  110,  110,  110,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -159,7 +163,7 @@ VALUES (4105,  5 /* HeartBeat */,   0.04, NULL, 2147483709 /* NonCombat */, 1090
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   7 /* PhysScript */, 0, 0.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 8 /* AttribUpOrange */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
+VALUES (@parent_id,  0,   7 /* PhysScript */, 0, 0.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 8 /* AttribUpOrange */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4105, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */

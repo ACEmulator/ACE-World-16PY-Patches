@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30253;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30253, 'lockpickrareeternalpeerless', 23, '2019-02-04 06:52:23') /* Lockpick */;
+VALUES (30253, 'lockpickrareeternalpeerless', 23, '2019-02-27 18:20:40') /* Lockpick */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30253,   1,        128) /* ItemType - Misc */
@@ -11,7 +11,7 @@ VALUES (30253,   1,        128) /* ItemType - Misc */
      , (30253,  17,        149) /* RareId */
      , (30253,  19,          0) /* Value */
      , (30253,  33,         -1) /* Bonded - Slippery */
-     , (30253,  53,        101) /* PlacementPosition */
+     , (30253,  53,        101) /* PlacementPosition - Resting */
      , (30253,  92,         -1) /* Structure */
      , (30253,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30253,  94,        640) /* TargetType - LockableMagicTarget */
@@ -35,6 +35,5 @@ VALUES (30253,   1, 'Limitless Lockpick') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30253,   1,   33554790) /* Setup */
      , (30253,   6,   67111092) /* PaletteBase */
-     , (30253,   7,  268436502) /* ClothingBase */
      , (30253,   8,  100686705) /* Icon */
      , (30253,  52,  100686604) /* IconUnderlay */;

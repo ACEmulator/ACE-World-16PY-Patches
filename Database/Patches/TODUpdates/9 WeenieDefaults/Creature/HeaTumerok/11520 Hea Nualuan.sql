@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11520;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11520, 'tumerokheanualuan_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11520, 'tumerokheanualuan_xp', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11520,   1,         16) /* ItemType - Creature */
      , (11520,   2,         58) /* CreatureType - HeaTumerok */
-     , (11520,   3,         14) /* PaletteTemplate - Red */
+     , (11520,   3,          5) /* PaletteTemplate - DarkBlue */
      , (11520,   6,         -1) /* ItemsCapacity */
      , (11520,   7,         -1) /* ContainersCapacity */
      , (11520,  16,          1) /* ItemUseable - No */
@@ -35,7 +35,7 @@ VALUES (11520,   1,       5) /* HeartbeatInterval */
      , (11520,   3, 0.800000011920929) /* HealthRate */
      , (11520,   4,     0.5) /* StaminaRate */
      , (11520,   5,       2) /* ManaRate */
-     , (11520,  12,     0.5) /* Shade */
+     , (11520,  12, 0.428600013256073) /* Shade */
      , (11520,  13,       1) /* ArmorModVsSlash */
      , (11520,  14,       1) /* ArmorModVsPierce */
      , (11520,  15,       1) /* ArmorModVsBludgeon */
@@ -72,11 +72,23 @@ VALUES (11520,   1,   33559556) /* Setup */
      , (11520,   3,  536870931) /* SoundTable */
      , (11520,   4,  805306380) /* CombatTable */
      , (11520,   6,   67116625) /* PaletteBase */
-     , (11520,   7,  268436630) /* ClothingBase */
+     , (11520,   7,  268437022) /* ClothingBase */
      , (11520,   8,  100667452) /* Icon */
      , (11520,  22,  872415270) /* PhysicsEffectTable */
-     , (11520,  32,        387) /* WieldedTreasureType */
-     , (11520,  35,        450) /* DeathTreasureType */;
+     , (11520,  32,        387) /* WieldedTreasureType - 
+                                   Wield Blade of the Quiddity (11916) | Probability: 25%
+                                   Wield Lance of the Quiddity (11913) | Probability: 25%
+                                   Wield Mace of the Quiddity (11907) | Probability: 25%
+                                   Wield Kaskara (324) | Probability: 3%
+                                   Wield Long Sword (351) | Probability: 3%
+                                   Wield Silifi (344) | Probability: 3%
+                                   Wield Tachi (353) | Probability: 2%
+                                   Wield War Hammer (359) | Probability: 2%
+                                   Wield 5x Javelin (320) | Probability: 3%
+                                   Wield 5x Djarid (317) | Probability: 3%
+                                   Wield 4x Throwing Club (310) | Probability: 3%
+                                   Wield 6x Throwing Axe (304) | Probability: 3% */
+     , (11520,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11520,   1, 220, 0, 0) /* Strength */
@@ -92,19 +104,19 @@ VALUES (11520,   1,   120, 0, 0, 210) /* MaxHealth */
      , (11520,   5,     0, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11520,  1, 0, 3, 0, 150, 0, 749.595031738281) /* Axe                 Specialized */
-     , (11520,  4, 0, 3, 0,  80, 0, 749.595031738281) /* Dagger              Specialized */
-     , (11520,  5, 0, 3, 0, 150, 0, 749.595031738281) /* Mace                Specialized */
-     , (11520,  6, 0, 3, 0, 205, 0, 749.595031738281) /* MeleeDefense        Specialized */
-     , (11520,  7, 0, 3, 0, 335, 0, 749.595031738281) /* MissileDefense      Specialized */
-     , (11520,  9, 0, 3, 0, 150, 0, 749.595031738281) /* Spear               Specialized */
-     , (11520, 10, 0, 3, 0, 150, 0, 749.595031738281) /* Staff               Specialized */
-     , (11520, 11, 0, 3, 0, 150, 0, 749.595031738281) /* Sword               Specialized */
-     , (11520, 13, 0, 3, 0, 150, 0, 749.595031738281) /* UnarmedCombat       Specialized */
-     , (11520, 14, 0, 2, 0, 250, 0, 749.595031738281) /* ArcaneLore          Trained */
-     , (11520, 15, 0, 3, 0, 223, 0, 749.595031738281) /* MagicDefense        Specialized */
-     , (11520, 20, 0, 2, 0,  40, 0, 749.595031738281) /* Deception           Trained */
-     , (11520, 24, 0, 2, 0,  40, 0, 749.595031738281) /* Run                 Trained */;
+VALUES (11520,  1, 0, 3, 0, 150, 0, 0) /* Axe                 Specialized */
+     , (11520,  4, 0, 3, 0,  80, 0, 0) /* Dagger              Specialized */
+     , (11520,  5, 0, 3, 0, 150, 0, 0) /* Mace                Specialized */
+     , (11520,  6, 0, 3, 0, 205, 0, 0) /* MeleeDefense        Specialized */
+     , (11520,  7, 0, 3, 0, 335, 0, 0) /* MissileDefense      Specialized */
+     , (11520,  9, 0, 3, 0, 150, 0, 0) /* Spear               Specialized */
+     , (11520, 10, 0, 3, 0, 150, 0, 0) /* Staff               Specialized */
+     , (11520, 11, 0, 3, 0, 150, 0, 0) /* Sword               Specialized */
+     , (11520, 13, 0, 3, 0, 150, 0, 0) /* UnarmedCombat       Specialized */
+     , (11520, 14, 0, 2, 0, 250, 0, 0) /* ArcaneLore          Trained */
+     , (11520, 15, 0, 3, 0, 223, 0, 0) /* MagicDefense        Specialized */
+     , (11520, 20, 0, 2, 0,  40, 0, 0) /* Deception           Trained */
+     , (11520, 24, 0, 2, 0,  40, 0, 0) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11520,  0,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

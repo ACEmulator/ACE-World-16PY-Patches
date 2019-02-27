@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10801;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10801, 'riftshalloclass', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (10801, 'riftshalloclass', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10801,   1,         16) /* ItemType - Creature */
@@ -30,8 +30,8 @@ VALUES (10801,   1, True ) /* Stuck */
      , (10801,  14, True ) /* GravityStatus */
      , (10801,  15, True ) /* LightsStatus */
      , (10801,  19, True ) /* Attackable */
-     , (10801,  29, True ) /* NoCorpse */
-     , (10801,  50, True ) /* NeverFailCasting */;
+     , (10801,  50, True ) /* NeverFailCasting */
+     , (10801, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10801,   1,       5) /* HeartbeatInterval */
@@ -79,7 +79,7 @@ VALUES (10801,   1,   33557100) /* Setup */
      , (10801,   4,  805306407) /* CombatTable */
      , (10801,   8,  100671702) /* Icon */
      , (10801,  22,  872415375) /* PhysicsEffectTable */
-     , (10801,  35,        465) /* DeathTreasureType */;
+     , (10801,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10801,   1,  50, 0, 0) /* Strength */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25851;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25851, 'carenzimottled', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25851, 'carenzimottled', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25851,   1,         16) /* ItemType - Creature */
@@ -33,7 +33,7 @@ VALUES (25851,   1,       5) /* HeartbeatInterval */
      , (25851,   3,       2) /* HealthRate */
      , (25851,   4,       5) /* StaminaRate */
      , (25851,   5,       2) /* ManaRate */
-     , (25851,  12,     0.5) /* Shade */
+     , (25851,  12,       0) /* Shade */
      , (25851,  13,       1) /* ArmorModVsSlash */
      , (25851,  14, 1.20000004768372) /* ArmorModVsPierce */
      , (25851,  15,       1) /* ArmorModVsBludgeon */
@@ -69,10 +69,10 @@ VALUES (25851,   1,   33557141) /* Setup */
      , (25851,   3,  536871035) /* SoundTable */
      , (25851,   4,  805306375) /* CombatTable */
      , (25851,   6,   67114722) /* PaletteBase */
-     , (25851,   7,  268436732) /* ClothingBase */
+     , (25851,   7,  268436195) /* ClothingBase */
      , (25851,   8,  100671754) /* Icon */
      , (25851,  22,  872415377) /* PhysicsEffectTable */
-     , (25851,  35,        455) /* DeathTreasureType */;
+     , (25851,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25851,   1, 190, 0, 0) /* Strength */

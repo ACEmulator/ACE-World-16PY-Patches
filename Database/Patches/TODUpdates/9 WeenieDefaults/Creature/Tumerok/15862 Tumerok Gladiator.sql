@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 15862;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (15862, 'tumerokgladiator_thorstenarmor', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (15862, 'tumerokgladiator_thorstenarmor', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15862,   1,         16) /* ItemType - Creature */
      , (15862,   2,          6) /* CreatureType - Tumerok */
-     , (15862,   3,         11) /* PaletteTemplate - Maroon */
+     , (15862,   3,         17) /* PaletteTemplate - Yellow */
      , (15862,   6,         -1) /* ItemsCapacity */
      , (15862,   7,         -1) /* ContainersCapacity */
      , (15862,  16,          1) /* ItemUseable - No */
@@ -34,7 +34,7 @@ VALUES (15862,   1,       5) /* HeartbeatInterval */
      , (15862,   3,     0.5) /* HealthRate */
      , (15862,   4,     0.5) /* StaminaRate */
      , (15862,   5,       2) /* ManaRate */
-     , (15862,  12,     0.5) /* Shade */
+     , (15862,  12, 0.571399986743927) /* Shade */
      , (15862,  13,       1) /* ArmorModVsSlash */
      , (15862,  14,       1) /* ArmorModVsPierce */
      , (15862,  15,       1) /* ArmorModVsBludgeon */
@@ -70,11 +70,17 @@ VALUES (15862,   1,   33559568) /* Setup */
      , (15862,   3,  536870931) /* SoundTable */
      , (15862,   4,  805306380) /* CombatTable */
      , (15862,   6,   67116625) /* PaletteBase */
-     , (15862,   7,  268436630) /* ClothingBase */
+     , (15862,   7,  268437022) /* ClothingBase */
      , (15862,   8,  100667452) /* Icon */
      , (15862,  22,  872415270) /* PhysicsEffectTable */
-     , (15862,  32,        220) /* WieldedTreasureType */
-     , (15862,  35,        450) /* DeathTreasureType */;
+     , (15862,  32,        220) /* WieldedTreasureType - 
+                                   Wield Katar (23676) | Probability: 14%
+                                   Wield Cestus (23639) | Probability: 7%
+                                   Wield Nekode (23682) | Probability: 6%
+                                   Wield Tachi (23702) | Probability: 6%
+                                   Wield Spear (23698) | Probability: 6%
+                                   Wield Kite Shield (23686) | Probability: 75% */
+     , (15862,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (15862,   1, 150, 0, 0) /* Strength */
@@ -90,20 +96,20 @@ VALUES (15862,   1,   140, 0, 0, 223) /* MaxHealth */
      , (15862,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (15862,  1, 0, 3, 0, 235, 0, 957.007507324219) /* Axe                 Specialized */
-     , (15862,  2, 0, 3, 0, 150, 0, 957.007507324219) /* Bow                 Specialized */
-     , (15862,  3, 0, 3, 0, 150, 0, 957.007507324219) /* Crossbow            Specialized */
-     , (15862,  4, 0, 3, 0, 120, 0, 957.007507324219) /* Dagger              Specialized */
-     , (15862,  5, 0, 3, 0, 235, 0, 957.007507324219) /* Mace                Specialized */
-     , (15862,  6, 0, 3, 0, 215, 0, 957.007507324219) /* MeleeDefense        Specialized */
-     , (15862,  7, 0, 3, 0, 310, 0, 957.007507324219) /* MissileDefense      Specialized */
-     , (15862,  9, 0, 3, 0, 235, 0, 957.007507324219) /* Spear               Specialized */
-     , (15862, 10, 0, 3, 0, 235, 0, 957.007507324219) /* Staff               Specialized */
-     , (15862, 11, 0, 3, 0, 235, 0, 957.007507324219) /* Sword               Specialized */
-     , (15862, 13, 0, 3, 0, 235, 0, 957.007507324219) /* UnarmedCombat       Specialized */
-     , (15862, 15, 0, 3, 0, 200, 0, 957.007507324219) /* MagicDefense        Specialized */
-     , (15862, 20, 0, 2, 0,   5, 0, 957.007507324219) /* Deception           Trained */
-     , (15862, 24, 0, 2, 0,  50, 0, 957.007507324219) /* Run                 Trained */;
+VALUES (15862,  1, 0, 3, 0, 235, 0, 0) /* Axe                 Specialized */
+     , (15862,  2, 0, 3, 0, 150, 0, 0) /* Bow                 Specialized */
+     , (15862,  3, 0, 3, 0, 150, 0, 0) /* Crossbow            Specialized */
+     , (15862,  4, 0, 3, 0, 120, 0, 0) /* Dagger              Specialized */
+     , (15862,  5, 0, 3, 0, 235, 0, 0) /* Mace                Specialized */
+     , (15862,  6, 0, 3, 0, 215, 0, 0) /* MeleeDefense        Specialized */
+     , (15862,  7, 0, 3, 0, 310, 0, 0) /* MissileDefense      Specialized */
+     , (15862,  9, 0, 3, 0, 235, 0, 0) /* Spear               Specialized */
+     , (15862, 10, 0, 3, 0, 235, 0, 0) /* Staff               Specialized */
+     , (15862, 11, 0, 3, 0, 235, 0, 0) /* Sword               Specialized */
+     , (15862, 13, 0, 3, 0, 235, 0, 0) /* UnarmedCombat       Specialized */
+     , (15862, 15, 0, 3, 0, 200, 0, 0) /* MagicDefense        Specialized */
+     , (15862, 20, 0, 2, 0,   5, 0, 0) /* Deception           Trained */
+     , (15862, 24, 0, 2, 0,  50, 0, 0) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (15862,  0,  4,  0,    0,  130,  130,  130,  130,  130,  130,  130,  130,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -121,5 +127,5 @@ VALUES (15862, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure 
      , (15862, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (15862, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (15862, 9, 15814,  1, 0, 1, False) /* Create Gate Key (15814) for ContainTreasure */
-     , (15862, 9, 45875,  1, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (15862, 9, 45876,  1, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+     , (15862, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (15862, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14558;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14558, 'energyclustervibrant', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (14558, 'energyclustervibrant', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14558,   1,         16) /* ItemType - Creature */
@@ -25,8 +25,8 @@ VALUES (14558,   1, True ) /* Stuck */
      , (14558,  13, False) /* Ethereal */
      , (14558,  14, True ) /* GravityStatus */
      , (14558,  19, True ) /* Attackable */
-     , (14558,  29, True ) /* NoCorpse */
-     , (14558,  50, True ) /* NeverFailCasting */;
+     , (14558,  50, True ) /* NeverFailCasting */
+     , (14558, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14558,   1,       5) /* HeartbeatInterval */
@@ -75,7 +75,7 @@ VALUES (14558,   1,   33557522) /* Setup */
      , (14558,  19,         87) /* ActivationAnimation */
      , (14558,  22,  872415373) /* PhysicsEffectTable */
      , (14558,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (14558,  35,        460) /* DeathTreasureType */;
+     , (14558,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14558,   1, 100, 0, 0) /* Strength */

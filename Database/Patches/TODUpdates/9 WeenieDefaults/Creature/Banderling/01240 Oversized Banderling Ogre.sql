@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1240;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1240, 'banderlingguardglenden', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (1240, 'banderlingguardglenden', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1240,   1,         16) /* ItemType - Creature */
      , (1240,   2,          2) /* CreatureType - Banderling */
-     , (1240,   3,         44) /* PaletteTemplate - Tanred */
+     , (1240,   3,         81) /* PaletteTemplate - LiteGreen */
      , (1240,   6,         -1) /* ItemsCapacity */
      , (1240,   7,         -1) /* ContainersCapacity */
      , (1240,  16,          1) /* ItemUseable - No */
@@ -74,8 +74,21 @@ VALUES (1240,   1,   33558024) /* Setup */
      , (1240,   7,  268436496) /* ClothingBase */
      , (1240,   8,  100667453) /* Icon */
      , (1240,  22,  872415255) /* PhysicsEffectTable */
-     , (1240,  32,        270) /* WieldedTreasureType */
-     , (1240,  35,        258) /* DeathTreasureType */;
+     , (1240,  32,        270) /* WieldedTreasureType - 
+                                   Wield 3x Throwing Axe (304) | Probability: 1%
+                                   Wield 3x Throwing Club (310) | Probability: 1%
+                                   Wield Battle Axe (301) | Probability: 15%
+                                   Wield Club (309) | Probability: 5%
+                                   Wield Dabus (313) | Probability: 10%
+                                   Wield Jo (322) | Probability: 3%
+                                   Wield Kasrullah (325) | Probability: 5%
+                                   Wield Mace (331) | Probability: 10%
+                                   Wield Morning Star (332) | Probability: 15%
+                                   Wield Nabut (333) | Probability: 3%
+                                   Wield Shou-ono (342) | Probability: 10%
+                                   Wield Silifi (344) | Probability: 10%
+                                   Wield Tofun (356) | Probability: 10% */
+     , (1240,  35,        258) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1240,   1, 130, 0, 0) /* Strength */
@@ -114,6 +127,14 @@ VALUES (1240,  0,  4,  0,    0,  100,   46,   31,   52,   46,   83,   31,  109, 
      , (1240,  6,  4,  0,    0,   90,   41,   28,   47,   41,   75,   28,   98,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (1240,  7,  4,  0,    0,   90,   41,   28,   47,   41,   75,   28,   98,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (1240,  8,  4, 15, 0.75,   90,   41,   28,   47,   41,   75,   28,   98,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (1240,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 1, NULL, 'As the Oversized Banderling Ogre hits the ground there is a large metallic thud, possibly the hauberk you search for.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (1240,  5 /* HeartBeat */,  0.045, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
@@ -172,9 +193,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1240, 1,    72,  0, 0, 0, False) /* Create Platemail Hauberk (72) for Contain */
-     , (1240, 1,  1247,  0, 0, 0, False) /* Create Key (1247) for Contain */
-     , (1240, 1,  1437, 250, 0, 0, False) /* Create Fire Arrow (1437) for Contain */
-     , (1240, 1,  1446,  3, 0, 0, False) /* Create Fire Auroch Meat (1446) for Contain */
+VALUES (1240, 1,  1247,  1, 0, 1, False) /* Create Key (1247) for Contain */
+     , (1240, 1,  1437, 250, 0, 1, False) /* Create Fire Arrow (1437) for Contain */
+     , (1240, 1,  1446,  3, 0, 1, False) /* Create Fire Auroch Meat (1446) for Contain */
+     , (1240, 1, 42121,  1, 0, 1, False) /* Create Platemail Hauberk of the Ogre (42121) for Contain */
      , (1240, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (1240, 9,  3693,  0, 0, 0.05, False) /* Create Banderling Scalp (3693) for ContainTreasure */;

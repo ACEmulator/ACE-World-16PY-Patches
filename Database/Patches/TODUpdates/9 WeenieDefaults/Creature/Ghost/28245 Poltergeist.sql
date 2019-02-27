@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28245;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28245, 'ghostpoltergeist', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28245, 'ghostpoltergeist', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28245,   1,         16) /* ItemType - Creature */
@@ -26,7 +26,7 @@ VALUES (28245,   1, True ) /* Stuck */
      , (28245,  13, False) /* Ethereal */
      , (28245,  14, True ) /* GravityStatus */
      , (28245,  19, True ) /* Attackable */
-     , (28245,  29, True ) /* NoCorpse */;
+     , (28245, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28245,   1,       5) /* HeartbeatInterval */
@@ -75,7 +75,7 @@ VALUES (28245,   1,   33558816) /* Setup */
      , (28245,   7,  268436835) /* ClothingBase */
      , (28245,   8,  100676679) /* Icon */
      , (28245,  22,  872415403) /* PhysicsEffectTable */
-     , (28245,  35,        464) /* DeathTreasureType */;
+     , (28245,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28245,   1, 300, 0, 0) /* Strength */

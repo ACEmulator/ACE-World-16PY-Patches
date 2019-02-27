@@ -1,11 +1,10 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46209;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46209, 'ace46209-blackfireshimmeringisparianspear', 6, '2019-02-04 06:52:23') /* MeleeWeapon */;
+VALUES (46209, 'ace46209-blackfireshimmeringisparianspear', 6, '2019-02-27 18:20:40') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46209,   1,          1) /* ItemType - MeleeWeapon */
-     , (46209,   3,          2) /* PaletteTemplate - Blue */
      , (46209,   5,        650) /* EncumbranceVal */
      , (46209,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (46209,  16,          1) /* ItemUseable - No */
@@ -19,7 +18,7 @@ VALUES (46209,   1,          1) /* ItemType - MeleeWeapon */
      , (46209,  48,         45) /* WeaponSkill - LightWeapons */
      , (46209,  49,         12) /* WeaponTime */
      , (46209,  51,          1) /* CombatUse - Melee */
-     , (46209,  53,        101) /* PlacementPosition */
+     , (46209,  53,        101) /* PlacementPosition - Resting */
      , (46209,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46209, 106,        325) /* ItemSpellcraft */
      , (46209, 107,        750) /* ItemCurMana */
@@ -42,7 +41,7 @@ VALUES (46209,  11, True ) /* IgnoreCollisions */
      , (46209,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46209,   5, -0.0333333350718021) /* ManaRate */
+VALUES (46209,   5, -0.0333333387970924) /* ManaRate */
      , (46209,  21,       0) /* WeaponLength */
      , (46209,  22, 0.449999988079071) /* DamageVariance */
      , (46209,  26,       0) /* MaximumVelocity */

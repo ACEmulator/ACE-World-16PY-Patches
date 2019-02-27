@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23093;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23093, 'tumeroktranscendant', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (23093, 'tumeroktranscendant', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23093,   1,         16) /* ItemType - Creature */
      , (23093,   2,          6) /* CreatureType - Tumerok */
-     , (23093,   3,          9) /* PaletteTemplate - Grey */
+     , (23093,   3,         12) /* PaletteTemplate - Navy */
      , (23093,   6,         -1) /* ItemsCapacity */
      , (23093,   7,         -1) /* ContainersCapacity */
      , (23093,  16,          1) /* ItemUseable - No */
@@ -37,7 +37,7 @@ VALUES (23093,   1,       5) /* HeartbeatInterval */
      , (23093,   3,      24) /* HealthRate */
      , (23093,   4,      23) /* StaminaRate */
      , (23093,   5,       8) /* ManaRate */
-     , (23093,  12,     0.5) /* Shade */
+     , (23093,  12, 0.571399986743927) /* Shade */
      , (23093,  13,       1) /* ArmorModVsSlash */
      , (23093,  14,       1) /* ArmorModVsPierce */
      , (23093,  15,       1) /* ArmorModVsBludgeon */
@@ -74,11 +74,17 @@ VALUES (23093,   1,   33559552) /* Setup */
      , (23093,   3,  536870931) /* SoundTable */
      , (23093,   4,  805306380) /* CombatTable */
      , (23093,   6,   67116625) /* PaletteBase */
-     , (23093,   7,  268436631) /* ClothingBase */
+     , (23093,   7,  268437022) /* ClothingBase */
      , (23093,   8,  100667452) /* Icon */
      , (23093,  22,  872415270) /* PhysicsEffectTable */
-     , (23093,  32,        426) /* WieldedTreasureType */
-     , (23093,  35,        449) /* DeathTreasureType */;
+     , (23093,  32,        426) /* WieldedTreasureType - 
+                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Kite Shield (23135) | Probability: 100%
+                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
+     , (23093,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23093,   1, 330, 0, 0) /* Strength */
@@ -94,24 +100,24 @@ VALUES (23093,   1,  4850, 0, 0, 5000) /* MaxHealth */
      , (23093,   5,  4650, 0, 0, 4920) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (23093,  1, 0, 3, 0, 285, 0, 1415.62487792969) /* Axe                 Specialized */
-     , (23093,  2, 0, 3, 0, 250, 0, 1415.62487792969) /* Bow                 Specialized */
-     , (23093,  3, 0, 3, 0, 250, 0, 1415.62487792969) /* Crossbow            Specialized */
-     , (23093,  4, 0, 3, 0, 285, 0, 1415.62487792969) /* Dagger              Specialized */
-     , (23093,  5, 0, 3, 0, 285, 0, 1415.62487792969) /* Mace                Specialized */
-     , (23093,  6, 0, 3, 0, 310, 0, 1415.62487792969) /* MeleeDefense        Specialized */
-     , (23093,  7, 0, 3, 0, 430, 0, 1415.62487792969) /* MissileDefense      Specialized */
-     , (23093,  9, 0, 3, 0, 285, 0, 1415.62487792969) /* Spear               Specialized */
-     , (23093, 10, 0, 3, 0, 285, 0, 1415.62487792969) /* Staff               Specialized */
-     , (23093, 11, 0, 3, 0, 285, 0, 1415.62487792969) /* Sword               Specialized */
-     , (23093, 13, 0, 3, 0, 285, 0, 1415.62487792969) /* UnarmedCombat       Specialized */
-     , (23093, 14, 0, 3, 0, 300, 0, 1415.62487792969) /* ArcaneLore          Specialized */
-     , (23093, 15, 0, 3, 0, 310, 0, 1415.62487792969) /* MagicDefense        Specialized */
-     , (23093, 20, 0, 3, 0, 150, 0, 1415.62487792969) /* Deception           Specialized */
-     , (23093, 24, 0, 3, 0, 160, 0, 1415.62487792969) /* Run                 Specialized */
-     , (23093, 31, 0, 3, 0, 230, 0, 1415.62487792969) /* CreatureEnchantment Specialized */
-     , (23093, 33, 0, 3, 0, 230, 0, 1415.62487792969) /* LifeMagic           Specialized */
-     , (23093, 34, 0, 3, 0, 230, 0, 1415.62487792969) /* WarMagic            Specialized */;
+VALUES (23093,  1, 0, 3, 0, 285, 0, 0) /* Axe                 Specialized */
+     , (23093,  2, 0, 3, 0, 250, 0, 0) /* Bow                 Specialized */
+     , (23093,  3, 0, 3, 0, 250, 0, 0) /* Crossbow            Specialized */
+     , (23093,  4, 0, 3, 0, 285, 0, 0) /* Dagger              Specialized */
+     , (23093,  5, 0, 3, 0, 285, 0, 0) /* Mace                Specialized */
+     , (23093,  6, 0, 3, 0, 310, 0, 0) /* MeleeDefense        Specialized */
+     , (23093,  7, 0, 3, 0, 430, 0, 0) /* MissileDefense      Specialized */
+     , (23093,  9, 0, 3, 0, 285, 0, 0) /* Spear               Specialized */
+     , (23093, 10, 0, 3, 0, 285, 0, 0) /* Staff               Specialized */
+     , (23093, 11, 0, 3, 0, 285, 0, 0) /* Sword               Specialized */
+     , (23093, 13, 0, 3, 0, 285, 0, 0) /* UnarmedCombat       Specialized */
+     , (23093, 14, 0, 3, 0, 300, 0, 0) /* ArcaneLore          Specialized */
+     , (23093, 15, 0, 3, 0, 310, 0, 0) /* MagicDefense        Specialized */
+     , (23093, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
+     , (23093, 24, 0, 3, 0, 160, 0, 0) /* Run                 Specialized */
+     , (23093, 31, 0, 3, 0, 230, 0, 0) /* CreatureEnchantment Specialized */
+     , (23093, 33, 0, 3, 0, 230, 0, 0) /* LifeMagic           Specialized */
+     , (23093, 34, 0, 3, 0, 230, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (23093,  0,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

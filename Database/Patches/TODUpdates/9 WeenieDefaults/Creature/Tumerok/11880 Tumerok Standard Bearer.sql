@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11880;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11880, 'tumerokbannershreth', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11880, 'tumerokbannershreth', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11880,   1,         16) /* ItemType - Creature */
      , (11880,   2,          6) /* CreatureType - Tumerok */
-     , (11880,   3,         20) /* PaletteTemplate - Silver */
+     , (11880,   3,         14) /* PaletteTemplate - Red */
      , (11880,   6,         -1) /* ItemsCapacity */
      , (11880,   7,         -1) /* ContainersCapacity */
      , (11880,  16,          1) /* ItemUseable - No */
@@ -35,7 +35,7 @@ VALUES (11880,   1,       5) /* HeartbeatInterval */
      , (11880,   3,     0.5) /* HealthRate */
      , (11880,   4,     0.5) /* StaminaRate */
      , (11880,   5,       2) /* ManaRate */
-     , (11880,  12,     0.5) /* Shade */
+     , (11880,  12, 0.571399986743927) /* Shade */
      , (11880,  13,       1) /* ArmorModVsSlash */
      , (11880,  14,       1) /* ArmorModVsPierce */
      , (11880,  15,       1) /* ArmorModVsBludgeon */
@@ -71,11 +71,13 @@ VALUES (11880,   1,   33559554) /* Setup */
      , (11880,   3,  536870931) /* SoundTable */
      , (11880,   4,  805306380) /* CombatTable */
      , (11880,   6,   67116625) /* PaletteBase */
-     , (11880,   7,  268435647) /* ClothingBase */
+     , (11880,   7,  268437017) /* ClothingBase */
      , (11880,   8,  100667452) /* Icon */
      , (11880,  22,  872415270) /* PhysicsEffectTable */
-     , (11880,  32,        371) /* WieldedTreasureType */
-     , (11880,  35,        453) /* DeathTreasureType */;
+     , (11880,  32,        371) /* WieldedTreasureType - 
+                                   Wield Hafted Shreth Spear (11756) | Probability: 80%
+                                   Wield Reinforced Shreth Spear (11782) | Probability: 20% */
+     , (11880,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11880,   1, 110, 0, 0) /* Strength */
@@ -91,22 +93,22 @@ VALUES (11880,   1,    50, 0, 0, 113) /* MaxHealth */
      , (11880,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11880,  1, 0, 3, 0,  90, 0, 769.786376953125) /* Axe                 Specialized */
-     , (11880,  4, 0, 3, 0,  90, 0, 769.786376953125) /* Dagger              Specialized */
-     , (11880,  5, 0, 3, 0,  90, 0, 769.786376953125) /* Mace                Specialized */
-     , (11880,  6, 0, 3, 0,  72, 0, 769.786376953125) /* MeleeDefense        Specialized */
-     , (11880,  7, 0, 3, 0, 111, 0, 769.786376953125) /* MissileDefense      Specialized */
-     , (11880,  9, 0, 3, 0,  90, 0, 769.786376953125) /* Spear               Specialized */
-     , (11880, 10, 0, 3, 0,  90, 0, 769.786376953125) /* Staff               Specialized */
-     , (11880, 11, 0, 3, 0,  90, 0, 769.786376953125) /* Sword               Specialized */
-     , (11880, 13, 0, 3, 0,  90, 0, 769.786376953125) /* UnarmedCombat       Specialized */
-     , (11880, 14, 0, 2, 0, 190, 0, 769.786376953125) /* ArcaneLore          Trained */
-     , (11880, 15, 0, 3, 0,  84, 0, 769.786376953125) /* MagicDefense        Specialized */
-     , (11880, 20, 0, 3, 0,  50, 0, 769.786376953125) /* Deception           Specialized */
-     , (11880, 24, 0, 2, 0,  60, 0, 769.786376953125) /* Run                 Trained */
-     , (11880, 31, 0, 3, 0,  66, 0, 769.786376953125) /* CreatureEnchantment Specialized */
-     , (11880, 33, 0, 3, 0,  66, 0, 769.786376953125) /* LifeMagic           Specialized */
-     , (11880, 34, 0, 3, 0,  66, 0, 769.786376953125) /* WarMagic            Specialized */;
+VALUES (11880,  1, 0, 3, 0,  90, 0, 0) /* Axe                 Specialized */
+     , (11880,  4, 0, 3, 0,  90, 0, 0) /* Dagger              Specialized */
+     , (11880,  5, 0, 3, 0,  90, 0, 0) /* Mace                Specialized */
+     , (11880,  6, 0, 3, 0,  72, 0, 0) /* MeleeDefense        Specialized */
+     , (11880,  7, 0, 3, 0, 111, 0, 0) /* MissileDefense      Specialized */
+     , (11880,  9, 0, 3, 0,  90, 0, 0) /* Spear               Specialized */
+     , (11880, 10, 0, 3, 0,  90, 0, 0) /* Staff               Specialized */
+     , (11880, 11, 0, 3, 0,  90, 0, 0) /* Sword               Specialized */
+     , (11880, 13, 0, 3, 0,  90, 0, 0) /* UnarmedCombat       Specialized */
+     , (11880, 14, 0, 2, 0, 190, 0, 0) /* ArcaneLore          Trained */
+     , (11880, 15, 0, 3, 0,  84, 0, 0) /* MagicDefense        Specialized */
+     , (11880, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
+     , (11880, 24, 0, 2, 0,  60, 0, 0) /* Run                 Trained */
+     , (11880, 31, 0, 3, 0,  66, 0, 0) /* CreatureEnchantment Specialized */
+     , (11880, 33, 0, 3, 0,  66, 0, 0) /* LifeMagic           Specialized */
+     , (11880, 34, 0, 3, 0,  66, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11880,  0,  4,  0,    0,  110,  110,  110,  110,  110,  110,  110,  110,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

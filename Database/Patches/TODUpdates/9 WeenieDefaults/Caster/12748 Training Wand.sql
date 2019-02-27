@@ -1,11 +1,10 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12748;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12748, 'wandtraining', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (12748, 'wandtraining', 35, '2019-02-27 18:20:40') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12748,   1,      32768) /* ItemType - Caster */
-     , (12748,   3,          4) /* PaletteTemplate - Brown */
      , (12748,   5,         50) /* EncumbranceVal */
      , (12748,   8,         25) /* Mass */
      , (12748,   9,   16777216) /* ValidLocations - Held */
