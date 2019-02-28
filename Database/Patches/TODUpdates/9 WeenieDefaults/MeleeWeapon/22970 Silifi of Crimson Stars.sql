@@ -45,7 +45,7 @@ VALUES (22970,   5, -0.0500000007450581) /* ManaRate */
      , (22970,  22,     0.5) /* DamageVariance */
      , (22970,  29, 1.12000000476837) /* WeaponDefense */
      , (22970,  39,    1.25) /* DefaultScale */
-     , (22970,  62, 1.12000000476837) /* WeaponOffense */;
+     , (22970,  62, 1.12000000476837) /* WeaponOffense */
      , (22970, 136,       3) /* CriticalMultiplier */
      , (22970, 147, 0.200000002980232) /* CriticalFrequency */;
 
