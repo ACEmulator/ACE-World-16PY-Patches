@@ -31,7 +31,8 @@ VALUES (30374,   1,      32768) /* ItemType - Caster */
      , (30374, 179,        256) /* ImbuedEffect - ElectricRending */
      , (30374, 265,         41) /* EquipmentSetId - RareDamageBoost */
      , (30374, 319,         50) /* ItemMaxLevel */
-     , (30374, 320,          1) /* ItemXpStyle - Fixed */;
+     , (30374, 320,          1) /* ItemXpStyle - Fixed */
+     , (30374, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30374,   4,          0) /* ItemTotalXp */

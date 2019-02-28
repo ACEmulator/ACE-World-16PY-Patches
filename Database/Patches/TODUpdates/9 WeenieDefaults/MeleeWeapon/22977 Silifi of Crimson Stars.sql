@@ -38,6 +38,8 @@ VALUES (22977,  21, 0.949999988079071) /* WeaponLength */
      , (22977,  29, 1.12000000476837) /* WeaponDefense */
      , (22977,  39,    1.25) /* DefaultScale */
      , (22977,  62, 1.12000000476837) /* WeaponOffense */;
+     , (22977, 136,       3) /* CriticalMultiplier */
+     , (22977, 147, 0.200000002980232) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22977,   1, 'Silifi of Crimson Stars') /* Name */

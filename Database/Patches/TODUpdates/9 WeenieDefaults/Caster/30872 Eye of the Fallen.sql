@@ -22,7 +22,8 @@ VALUES (30872,   1,      32768) /* ItemType - Caster */
      , (30872, 151,          2) /* HookType - Wall */
      , (30872, 158,          2) /* WieldRequirements - RawSkill */
      , (30872, 159,         34) /* WieldSkillType - WarMagic */
-     , (30872, 160,        330) /* WieldDifficulty */;
+     , (30872, 160,        330) /* WieldDifficulty */
+     , (30872, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30872,  11, True ) /* IgnoreCollisions */

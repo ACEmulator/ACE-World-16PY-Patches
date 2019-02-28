@@ -29,7 +29,8 @@ VALUES (30377,   1,      32768) /* ItemType - Caster */
      , (30377, 179,        512) /* ImbuedEffect - FireRending */
      , (30377, 265,         41) /* EquipmentSetId - RareDamageBoost */
      , (30377, 319,         50) /* ItemMaxLevel */
-     , (30377, 320,          1) /* ItemXpStyle - Fixed */;
+     , (30377, 320,          1) /* ItemXpStyle - Fixed */
+     , (30377, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30377,   4,          0) /* ItemTotalXp */

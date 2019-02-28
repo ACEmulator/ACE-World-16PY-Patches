@@ -21,7 +21,8 @@ VALUES (2031,   1,      32768) /* ItemType - Caster */
      , (2031, 115,        100) /* ItemSkillLevelLimit */
      , (2031, 117,         25) /* ItemManaCost */
      , (2031, 150,        103) /* HookPlacement - Hook */
-     , (2031, 151,          2) /* HookType - Wall */;
+     , (2031, 151,          2) /* HookType - Wall */
+     , (2031, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2031,  11, True ) /* IgnoreCollisions */

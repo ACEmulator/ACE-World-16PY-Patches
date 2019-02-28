@@ -29,7 +29,8 @@ VALUES (24207,   1,      32768) /* ItemType - Caster */
      , (24207, 158,          2) /* WieldRequirements - RawSkill */
      , (24207, 159,         33) /* WieldSkillType - LifeMagic */
      , (24207, 160,        300) /* WieldDifficulty */
-     , (24207, 166,         31) /* SlayerCreatureType - Human */;
+     , (24207, 166,         31) /* SlayerCreatureType - Human */
+     , (24207, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24207,  11, True ) /* IgnoreCollisions */

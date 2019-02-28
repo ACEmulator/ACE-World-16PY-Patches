@@ -23,7 +23,8 @@ VALUES (41898,   1,      32768) /* ItemType - Caster */
      , (41898, 159,          1) /* WieldSkillType - Axe */
      , (41898, 160,        130) /* WieldDifficulty */
      , (41898, 166,          6) /* SlayerCreatureType - Tumerok */
-     , (41898, 263,          1) /* ResistanceModifierType */;
+     , (41898, 263,          1) /* ResistanceModifierType */
+     , (41898, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41898,  11, True ) /* IgnoreCollisions */

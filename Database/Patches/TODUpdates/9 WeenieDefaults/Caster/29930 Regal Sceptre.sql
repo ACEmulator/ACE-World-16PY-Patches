@@ -24,7 +24,8 @@ VALUES (29930,   1,      32768) /* ItemType - Caster */
      , (29930, 158,          2) /* WieldRequirements - RawSkill */
      , (29930, 159,         16) /* WieldSkillType - ManaConversion */
      , (29930, 160,        240) /* WieldDifficulty */
-     , (29930, 166,         75) /* SlayerCreatureType - Burun */;
+     , (29930, 166,         75) /* SlayerCreatureType - Burun */
+     , (29930, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29930,  22, True ) /* Inscribable */
