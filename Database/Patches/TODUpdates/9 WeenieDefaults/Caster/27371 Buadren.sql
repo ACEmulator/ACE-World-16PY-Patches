@@ -16,7 +16,8 @@ VALUES (27371,   1,      32768) /* ItemType - Caster */
      , (27371,  94,         16) /* TargetType - Creature */
      , (27371, 114,          1) /* Attuned - Attuned */
      , (27371, 150,        103) /* HookPlacement - Hook */
-     , (27371, 151,          2) /* HookType - Wall */;
+     , (27371, 151,          2) /* HookType - Wall */
+     , (27371, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27371,  22, True ) /* Inscribable */

@@ -26,7 +26,8 @@ VALUES (23890,   1,      32768) /* ItemType - Caster */
      , (23890, 158,          7) /* WieldRequirements - Level */
      , (23890, 159,          1) /* WieldSkillType - Axe */
      , (23890, 160,         30) /* WieldDifficulty */
-     , (23890, 166,          6) /* SlayerCreatureType - Tumerok */;
+     , (23890, 166,          6) /* SlayerCreatureType - Tumerok */
+     , (23890, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23890,  11, True ) /* IgnoreCollisions */

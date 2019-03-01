@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2439;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2439, 'tumerokfighter', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (2439, 'tumerokfighter', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2439,   1,         16) /* ItemType - Creature */
      , (2439,   2,          6) /* CreatureType - Tumerok */
-     , (2439,   3,          1) /* PaletteTemplate - AquaBlue */
+     , (2439,   3,          4) /* PaletteTemplate - Brown */
      , (2439,   6,         -1) /* ItemsCapacity */
      , (2439,   7,         -1) /* ContainersCapacity */
      , (2439,  16,          1) /* ItemUseable - No */
@@ -34,7 +34,7 @@ VALUES (2439,   1,       5) /* HeartbeatInterval */
      , (2439,   3, 0.400000005960464) /* HealthRate */
      , (2439,   4,     0.5) /* StaminaRate */
      , (2439,   5,       2) /* ManaRate */
-     , (2439,  12,     0.5) /* Shade */
+     , (2439,  12, 0.714299976825714) /* Shade */
      , (2439,  13,       1) /* ArmorModVsSlash */
      , (2439,  14,       1) /* ArmorModVsPierce */
      , (2439,  15,       1) /* ArmorModVsBludgeon */
@@ -70,11 +70,49 @@ VALUES (2439,   1,   33559554) /* Setup */
      , (2439,   3,  536870931) /* SoundTable */
      , (2439,   4,  805306380) /* CombatTable */
      , (2439,   6,   67116625) /* PaletteBase */
-     , (2439,   7,  268436629) /* ClothingBase */
+     , (2439,   7,  268437022) /* ClothingBase */
      , (2439,   8,  100667452) /* Icon */
      , (2439,  22,  872415270) /* PhysicsEffectTable */
-     , (2439,  32,        226) /* WieldedTreasureType */
-     , (2439,  35,        453) /* DeathTreasureType */;
+     , (2439,  32,        226) /* WieldedTreasureType - 
+                                   Wield 5x Javelin (320) | Probability: 10%
+                                   Wield 6x Djarid (317) | Probability: 10%
+                                   Wield 4x Throwing Club (310) | Probability: 5%
+                                   Wield 6x Throwing Axe (304) | Probability: 5%
+                                   Wield Yag (360) | Probability: 5%
+                                   Wield 23x Arrow (300) | Probability: 100%
+                                   Wield Shortbow (307) | Probability: 5%
+                                   Wield 25x Arrow (300) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 5%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 16%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Nayin (334) | Probability: 6%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 11%
+                                   Wield 22x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 6%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 16%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 6%
+                                   Wield Budiaq (308) | Probability: 6%
+                                   Wield Dabus (313) | Probability: 6%
+                                   Wield Kaskara (324) | Probability: 5%
+                                   Wield Long Sword (351) | Probability: 5%
+                                   Wield Mace (331) | Probability: 7%
+                                   Wield Ono (336) | Probability: 5%
+                                   Wield Scimitar (339) | Probability: 10%
+                                   Wield Shamshir (340) | Probability: 5%
+                                   Wield Silifi (344) | Probability: 5%
+                                   Wield Spear (348) | Probability: 7%
+                                   Wield Tachi (353) | Probability: 5%
+                                   Wield Tofun (356) | Probability: 6%
+                                   Wield War Hammer (359) | Probability: 10%
+                                   Wield Yari (362) | Probability: 10%
+                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Kite Shield (91) | Probability: 20%
+                                   Wield Large Round Shield (94) | Probability: 20% */
+     , (2439,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2439,   1,  80, 0, 0) /* Strength */
@@ -90,19 +128,19 @@ VALUES (2439,   1,    35, 0, 0, 78) /* MaxHealth */
      , (2439,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (2439,  1, 0, 3, 0,  90, 0, 331.277038574219) /* Axe                 Specialized */
-     , (2439,  2, 0, 3, 0,  65, 0, 331.277038574219) /* Bow                 Specialized */
-     , (2439,  3, 0, 3, 0,  65, 0, 331.277038574219) /* Crossbow            Specialized */
-     , (2439,  4, 0, 3, 0,  75, 0, 331.277038574219) /* Dagger              Specialized */
-     , (2439,  5, 0, 3, 0,  90, 0, 331.277038574219) /* Mace                Specialized */
-     , (2439,  6, 0, 3, 0,  94, 0, 331.277038574219) /* MeleeDefense        Specialized */
-     , (2439,  7, 0, 3, 0, 119, 0, 331.277038574219) /* MissileDefense      Specialized */
-     , (2439, 10, 0, 3, 0,  90, 0, 331.277038574219) /* Staff               Specialized */
-     , (2439, 11, 0, 3, 0,  90, 0, 331.277038574219) /* Sword               Specialized */
-     , (2439, 13, 0, 3, 0,  90, 0, 331.277038574219) /* UnarmedCombat       Specialized */
-     , (2439, 15, 0, 3, 0,  62, 0, 331.277038574219) /* MagicDefense        Specialized */
-     , (2439, 20, 0, 3, 0,  30, 0, 331.277038574219) /* Deception           Specialized */
-     , (2439, 24, 0, 3, 0,  60, 0, 331.277038574219) /* Run                 Specialized */;
+VALUES (2439,  1, 0, 3, 0,  90, 0, 0) /* Axe                 Specialized */
+     , (2439,  2, 0, 3, 0,  65, 0, 0) /* Bow                 Specialized */
+     , (2439,  3, 0, 3, 0,  65, 0, 0) /* Crossbow            Specialized */
+     , (2439,  4, 0, 3, 0,  75, 0, 0) /* Dagger              Specialized */
+     , (2439,  5, 0, 3, 0,  90, 0, 0) /* Mace                Specialized */
+     , (2439,  6, 0, 3, 0,  94, 0, 0) /* MeleeDefense        Specialized */
+     , (2439,  7, 0, 3, 0, 119, 0, 0) /* MissileDefense      Specialized */
+     , (2439, 10, 0, 3, 0,  90, 0, 0) /* Staff               Specialized */
+     , (2439, 11, 0, 3, 0,  90, 0, 0) /* Sword               Specialized */
+     , (2439, 13, 0, 3, 0,  90, 0, 0) /* UnarmedCombat       Specialized */
+     , (2439, 15, 0, 3, 0,  62, 0, 0) /* MagicDefense        Specialized */
+     , (2439, 20, 0, 3, 0,  30, 0, 0) /* Deception           Specialized */
+     , (2439, 24, 0, 3, 0,  60, 0, 0) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (2439,  0,  4,  0,    0,   90,   90,   90,   90,   90,   90,   90,   90,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

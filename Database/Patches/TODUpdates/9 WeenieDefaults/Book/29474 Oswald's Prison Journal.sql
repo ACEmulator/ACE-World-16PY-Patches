@@ -38,7 +38,7 @@ VALUES (29474,   1,   33554771) /* Setup */
      , (29474,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (29474, 0, 0);
+VALUES (29474, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (29474, 0, 4294967295, 'O', 'prewritten', False, 'I have lost count of the years I have spent in this wretched new realm. I think, in retrospect, I should have simply taken my chances against the King''s dimwitted trackers. My old master once told me that my attraction to trouble for the sake of trouble would get me into a hole I could not dig myself out of, and I suppose that is what has occurred here. It was my instinct for trouble which compelled me to keep letting those trackers keep up and corner me in that house... the house with the swirling purple gate...')

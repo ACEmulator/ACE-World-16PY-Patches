@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23345;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23345, 'golemironsmallarchive', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (23345, 'golemironsmallarchive', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23345,   1,         16) /* ItemType - Creature */
      , (23345,   2,         13) /* CreatureType - Golem */
-     , (23345,   3,         19) /* PaletteTemplate - Copper */
+     , (23345,   3,          9) /* PaletteTemplate - Grey */
      , (23345,   6,         -1) /* ItemsCapacity */
      , (23345,   7,         -1) /* ContainersCapacity */
      , (23345,  16,          1) /* ItemUseable - No */
@@ -38,7 +38,7 @@ VALUES (23345,   1,       5) /* HeartbeatInterval */
      , (23345,   6, 0.100000001490116) /* HealthUponResurrection */
      , (23345,   7,    0.25) /* StaminaUponResurrection */
      , (23345,   8, 0.300000011920929) /* ManaUponResurrection */
-     , (23345,  12,     0.5) /* Shade */
+     , (23345,  12,       0) /* Shade */
      , (23345,  13, 0.439999997615814) /* ArmorModVsSlash */
      , (23345,  14, 0.579999983310699) /* ArmorModVsPierce */
      , (23345,  15, 0.860000014305115) /* ArmorModVsBludgeon */
@@ -76,7 +76,7 @@ VALUES (23345,   1,   33556426) /* Setup */
      , (23345,   7,  268435981) /* ClothingBase */
      , (23345,   8,  100667940) /* Icon */
      , (23345,  22,  872415321) /* PhysicsEffectTable */
-     , (23345,  35,        463) /* DeathTreasureType */;
+     , (23345,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23345,   1, 120, 0, 0) /* Strength */

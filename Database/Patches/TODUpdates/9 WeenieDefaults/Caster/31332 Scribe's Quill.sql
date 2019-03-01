@@ -19,7 +19,8 @@ VALUES (31332,   1,      32768) /* ItemType - Caster */
      , (31332, 114,          0) /* Attuned - Normal */
      , (31332, 115,        400) /* ItemSkillLevelLimit */
      , (31332, 151,          2) /* HookType - Wall */
-     , (31332, 176,         18) /* AppraisalItemSkill */;
+     , (31332, 176,         18) /* AppraisalItemSkill */
+     , (31332, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31332,  11, True ) /* IgnoreCollisions */

@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4126;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4126, 'skeletonaccursedminer', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (4126, 'skeletonaccursedminer', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4126,   1,         16) /* ItemType - Creature */
      , (4126,   2,         30) /* CreatureType - Skeleton */
-     , (4126,   3,         71) /* PaletteTemplate - DullRed */
+     , (4126,   3,         17) /* PaletteTemplate - Yellow */
      , (4126,   6,         -1) /* ItemsCapacity */
      , (4126,   7,         -1) /* ContainersCapacity */
      , (4126,  16,          1) /* ItemUseable - No */
@@ -35,7 +35,7 @@ VALUES (4126,   1,       5) /* HeartbeatInterval */
      , (4126,   3, 0.100000001490116) /* HealthRate */
      , (4126,   4,     0.5) /* StaminaRate */
      , (4126,   5,       2) /* ManaRate */
-     , (4126,  12,     0.5) /* Shade */
+     , (4126,  12,       0) /* Shade */
      , (4126,  13, 0.119999997317791) /* ArmorModVsSlash */
      , (4126,  14, 0.550000011920929) /* ArmorModVsPierce */
      , (4126,  15,     0.5) /* ArmorModVsBludgeon */
@@ -73,7 +73,31 @@ VALUES (4126,   1,   33554521) /* Setup */
      , (4126,   7,  268435646) /* ClothingBase */
      , (4126,   8,  100669124) /* Icon */
      , (4126,  22,  872415269) /* PhysicsEffectTable */
-     , (4126,  32,        192) /* WieldedTreasureType */
+     , (4126,  32,        192) /* WieldedTreasureType - 
+                                   Wield 6x Throwing Axe (304) | Probability: 10%
+                                   Wield Nayin (334) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 10%
+                                   Wield 14x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 14%
+                                   Wield Broad Sword (350) | Probability: 7%
+                                   Wield Kaskara (324) | Probability: 6%
+                                   Wield Ken (327) | Probability: 6%
+                                   Wield Long Sword (351) | Probability: 6%
+                                   Wield Morning Star (332) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 6%
+                                   Wield Shamshir (340) | Probability: 6%
+                                   Wield Ono (336) | Probability: 13%
+                                   Wield Silifi (344) | Probability: 13%
+                                   Wield Tachi (353) | Probability: 6%
+                                   Wield Takuba (354) | Probability: 6%
+                                   Wield Buckler (44) | Probability: 20%
+                                   Wield Kite Shield (91) | Probability: 10%
+                                   Wield Round Shield (93) | Probability: 10% */
      , (4126,  33,        193) /* UnknownGuessedname */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

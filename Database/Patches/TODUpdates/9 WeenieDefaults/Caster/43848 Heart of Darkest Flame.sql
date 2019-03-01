@@ -30,7 +30,8 @@ VALUES (43848,   1,      32768) /* ItemType - Caster */
      , (43848, 179,          2) /* ImbuedEffect - CripplingBlow */
      , (43848, 265,         41) /* EquipmentSetId - RareDamageBoost */
      , (43848, 319,         50) /* ItemMaxLevel */
-     , (43848, 320,          1) /* ItemXpStyle - Fixed */;
+     , (43848, 320,          1) /* ItemXpStyle - Fixed */
+     , (43848, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (43848,   4,          0) /* ItemTotalXp */

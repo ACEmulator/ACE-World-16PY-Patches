@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32205;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32205, 'ace32205-pumpkinbuffer', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (32205, 'ace32205-pumpkinbuffer', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32205,   1,         16) /* ItemType - Creature */
@@ -25,7 +25,6 @@ VALUES (32205,   1, True ) /* Stuck */
      , (32205,  13, False) /* Ethereal */
      , (32205,  14, True ) /* GravityStatus */
      , (32205,  19, True ) /* Attackable */
-     , (32205,  29, True ) /* NoCorpse */
      , (32205,  50, True ) /* NeverFailCasting */
      , (32205,  52, True ) /* AiImmobile */;
 
@@ -164,7 +163,7 @@ VALUES (32205,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The Pumpkin Buffer bursts open spraying treats.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
+VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The Pumpkin Buffer bursts open spraying treats.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasure */
@@ -211,9 +210,9 @@ VALUES (32205, 9,     0,  0, 0, 0.95, True) /* Create nothing for ContainTreasur
      , (32205, 9, 14763,  0, 0, 0.05, True) /* Create Peppermint Cookie (14763) for ContainTreasure */
      , (32205, 9, 14772,  0, 0, 0.05, True) /* Create Peppermint Monougat Chew (14772) for ContainTreasure */
      , (32205, 9, 14864,  0, 0, 0.05, True) /* Create Peppermint Chocolate Cookie (14864) for ContainTreasure */
-     , (32205, 9, 32188,  0, 0, 0.05, True) /* Create  (32188) for ContainTreasure */
+     , (32205, 9, 32188,  0, 0, 0.05, True) /* Create Festival Shirt (32188) for ContainTreasure */
      , (32205, 9, 32201,  0, 0, 0.05, True) /* Create Pumpkin Cookie Cutter (32201) for ContainTreasure */
      , (32205, 9, 32210,  0, 0, 0.05, True) /* Create Ginger Bread Pumpkin (32210) for ContainTreasure */
-     , (32205, 9, 34089,  0, 0, 0.05, True) /* Create  (34089) for ContainTreasure */
-     , (32205, 9, 36440,  0, 0, 0.05, True) /* Create  (36440) for ContainTreasure */
+     , (32205, 9, 34089,  0, 0, 0.05, True) /* Create Floating Candle (34089) for ContainTreasure */
+     , (32205, 9, 36440,  0, 0, 0.05, True) /* Create Festival Shirt (36440) for ContainTreasure */
      , (32205, 9, 43242,  0, 0, 0.05, True) /* Create Wooden Scarecrow Guise (43242) for ContainTreasure */;

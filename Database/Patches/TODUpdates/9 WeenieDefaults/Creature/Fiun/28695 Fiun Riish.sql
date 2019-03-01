@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28695;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28695, 'fiunriish', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28695, 'fiunriish', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28695,   1,         16) /* ItemType - Creature */
      , (28695,   2,         78) /* CreatureType - Fiun */
-     , (28695,   3,          9) /* PaletteTemplate - Grey */
+     , (28695,   3,         63) /* PaletteTemplate - GreenBrown */
      , (28695,   6,         -1) /* ItemsCapacity */
      , (28695,   7,         -1) /* ContainersCapacity */
      , (28695,   8,        120) /* Mass */
@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28695,   3, 0.159999996423721) /* HealthRate */
      , (28695,   4,       5) /* StaminaRate */
      , (28695,   5,       1) /* ManaRate */
-     , (28695,  12,       1) /* Shade */
+     , (28695,  12,       0) /* Shade */
      , (28695,  13, 0.899999976158142) /* ArmorModVsSlash */
      , (28695,  14,       1) /* ArmorModVsPierce */
      , (28695,  15, 1.10000002384186) /* ArmorModVsBludgeon */

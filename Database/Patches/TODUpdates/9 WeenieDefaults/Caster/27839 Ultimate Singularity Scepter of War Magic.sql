@@ -29,7 +29,7 @@ VALUES (27839,   1,      32768) /* ItemType - Caster */
      , (27839, 159,         34) /* WieldSkillType - WarMagic */
      , (27839, 160,        290) /* WieldDifficulty */
      , (27839, 166,         19) /* SlayerCreatureType - Virindi */
-     , (27839, 353,         12) /* WeaponType - Magic */;
+     , (27839, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27839,  11, True ) /* IgnoreCollisions */

@@ -24,7 +24,8 @@ VALUES (9601,   1,      32768) /* ItemType - Caster */
      , (9601, 115,        200) /* ItemSkillLevelLimit */
      , (9601, 150,        103) /* HookPlacement - Hook */
      , (9601, 151,          6) /* HookType - Wall, Ceiling */
-     , (9601, 176,         16) /* AppraisalItemSkill */;
+     , (9601, 176,         16) /* AppraisalItemSkill */
+     , (9601, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9601,  11, True ) /* IgnoreCollisions */

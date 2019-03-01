@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42133;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42133, 'ace42133-warden', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (42133, 'ace42133-warden', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42133,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (42133,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (42133,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (42133,  1 /* Refuse */,      1, 2016 /* Green Mire Yari */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (42133,  1 /* Refuse */,      1, 38048 /* Green Mire Yari */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -83,7 +83,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  21 /* InqQuest */, 0, 1, NULL, 'fachubgreenmiregrave', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (42133,  6 /* Give */,      1, 2017 /* Green Mire Yoroi Cuirass */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (42133,  6 /* Give */,      1, 38044 /* Green Mire Yoroi Cuirass */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

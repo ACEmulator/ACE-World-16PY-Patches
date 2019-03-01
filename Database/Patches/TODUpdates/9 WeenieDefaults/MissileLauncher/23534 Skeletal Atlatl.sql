@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23534;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23534, 'atlatlskeletonlowboss', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (23534, 'atlatlskeletonlowboss', 3, '2019-02-27 18:20:40') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23534,   1,        256) /* ItemType - MissileWeapon */
@@ -17,7 +17,7 @@ VALUES (23534,   1,        256) /* ItemType - MissileWeapon */
      , (23534,  49,         20) /* WeaponTime */
      , (23534,  50,          4) /* AmmoType - Atlatl */
      , (23534,  51,          2) /* CombatUse - Missle */
-     , (23534,  53,        101) /* PlacementPosition */
+     , (23534,  53,        101) /* PlacementPosition - Resting */
      , (23534,  60,        120) /* WeaponRange */
      , (23534,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23534, 106,        200) /* ItemSpellcraft */
@@ -52,7 +52,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23534,   1,   33558186) /* Setup */
      , (23534,   3,  536870932) /* SoundTable */
      , (23534,   6,   67111919) /* PaletteBase */
-     , (23534,   7,  268436304) /* ClothingBase */
      , (23534,   8,  100674030) /* Icon */
      , (23534,  22,  872415275) /* PhysicsEffectTable */
      , (23534,  37,         12) /* ItemSkillLimit */;

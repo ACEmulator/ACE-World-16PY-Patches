@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8108;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8108, 'crystalcaulnalainsatellite', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8108, 'crystalcaulnalainsatellite', 10, '2019-02-27 18:20:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8108,   1,         16) /* ItemType - Creature */
@@ -28,7 +28,7 @@ VALUES (8108,   1, True ) /* Stuck */
      , (8108,  14, True ) /* GravityStatus */
      , (8108,  15, True ) /* LightsStatus */
      , (8108,  19, True ) /* Attackable */
-     , (8108,  29, True ) /* NoCorpse */;
+     , (8108, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8108,   1,       5) /* HeartbeatInterval */
@@ -77,7 +77,7 @@ VALUES (8108,   1,   33556729) /* Setup */
      , (8108,   7,  268435859) /* ClothingBase */
      , (8108,   8,  100670283) /* Icon */
      , (8108,  22,  872415348) /* PhysicsEffectTable */
-     , (8108,  35,        463) /* DeathTreasureType */;
+     , (8108,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8108,   1, 100, 0, 0) /* Strength */

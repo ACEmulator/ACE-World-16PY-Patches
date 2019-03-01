@@ -1,11 +1,10 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12748;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12748, 'wandtraining', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (12748, 'wandtraining', 35, '2019-02-27 18:20:40') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12748,   1,      32768) /* ItemType - Caster */
-     , (12748,   3,          4) /* PaletteTemplate - Brown */
      , (12748,   5,         50) /* EncumbranceVal */
      , (12748,   8,         25) /* Mass */
      , (12748,   9,   16777216) /* ValidLocations - Held */
@@ -15,7 +14,8 @@ VALUES (12748,   1,      32768) /* ItemType - Caster */
      , (12748,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12748,  94,         16) /* TargetType - Creature */
      , (12748, 150,        103) /* HookPlacement - Hook */
-     , (12748, 151,          2) /* HookType - Wall */;
+     , (12748, 151,          2) /* HookType - Wall */
+     , (12748, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12748,  22, True ) /* Inscribable */

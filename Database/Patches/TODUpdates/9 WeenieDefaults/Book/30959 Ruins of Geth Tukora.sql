@@ -34,7 +34,7 @@ VALUES (30959,   1,   33554773) /* Setup */
      , (30959,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (30959, 0, 0);
+VALUES (30959, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (30959, 0, 4294967295, 'Prewritten', 'prewritten', True, 'There''s an old Lugian fort at 91.1N 48.0W called Geth Tukora. Of course, after Varicci unleashed his Eaters on it there''s nought there but rubble now.');

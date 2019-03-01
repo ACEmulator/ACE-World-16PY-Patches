@@ -35,7 +35,7 @@ VALUES (29509,   1,   33554772) /* Setup */
      , (29509,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (29509, 0, 0);
+VALUES (29509, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (29509, 0, 4294967295, 'Old Lascare', 'prewritten', True, 'I''ve had enough of this foul and evil bull! I thought taking care of some weird-looking red bull would be a nice retirement after all those years working in the slaughterhouse. Little did I know that the job would keep my hands bloodier and my dreams more twisted than even that one occasion when I worked at the sausage festival among the barbaric Aluvians! 
