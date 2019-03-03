@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49274;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49274, 'ace49274-galvanicknightessence', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49274, 'ace49274-galvanicknightessence', 70, '2019-02-10 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49274,   1,        128) /* ItemType - Misc */
@@ -22,16 +22,13 @@ VALUES (49274,   1,        128) /* ItemType - Misc */
      , (49274, 367,        570) /* UseRequiresSkillLevel */
      , (49274, 368,         54) /* UseRequiresSkillSpec */
      , (49274, 369,        185) /* UseRequiresLevel */
-     , (49274, 370,          9) /* GearDamage */
      , (49274, 371,          9) /* GearDamageResist */
      , (49274, 372,         17) /* GearCrit */
      , (49274, 373,          9) /* GearCritResist */
-     , (49274, 374,          1) /* GearCritDamage */
      , (49274, 375,         10) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49274,   1, False) /* Stuck */
-     , (49274,   2, True ) /* Open */
      , (49274,  11, True ) /* IgnoreCollisions */
      , (49274,  13, True ) /* Ethereal */
      , (49274,  14, True ) /* GravityStatus */
@@ -45,10 +42,7 @@ VALUES (49274,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49274,   1, 'Galvanic Knight Essence') /* Name */
-     , (49274,   7, '31 (19/9/14)') /* Inscription */
-     , (49274,   8, 'Jesse the Destroyer') /* ScribeName */
-     , (49274,  14, 'Use this essence to summon or dismiss your Galvanic Knight.') /* Use */
-     , (49274,  16, 'Killed by Mag-one.') /* LongDesc */;
+     , (49274,  14, 'Use this essence to summon or dismiss your Galvanic Knight.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49274,   1,   33554817) /* Setup */
@@ -57,18 +51,7 @@ VALUES (49274,   1,   33554817) /* Setup */
      , (49274,   8,  100670581) /* Icon */
      , (49274,  22,  872415275) /* PhysicsEffectTable */
      , (49274,  50,  100693032) /* IconOverlay */
-     , (49274,  52,  100693024) /* IconUnderlay */
-     , (49274, 8001, 1076366488) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, TargetType, Burden, IconOverlay */
-     , (49274, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49274, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49274, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49274, 8040, 23855548, 52.76697, -33.83558, -0.0009999946, 0.8511181, 0, 0, 0.5249743) /* PCAPRecordedLocation */
-/* @teleloc 0x016C01BC [52.766970 -33.835580 -0.001000] 0.851118 0.000000 0.000000 0.524974 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49274, 8000, 2689668522) /* PCAPRecordedObjectIID */;
+     , (49274,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49274, 67111921, 0, 0);

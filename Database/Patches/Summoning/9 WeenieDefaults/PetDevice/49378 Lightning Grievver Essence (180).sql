@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49378;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49378, 'ace49378-lightninggrievveressence180', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49378, 'ace49378-lightninggrievveressence180', 70, '2019-02-10 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49378,   1,        128) /* ItemType - Misc */
@@ -24,7 +24,6 @@ VALUES (49378,   1,        128) /* ItemType - Misc */
      , (49378, 370,         16) /* GearDamage */
      , (49378, 371,         11) /* GearDamageResist */
      , (49378, 372,         11) /* GearCrit */
-     , (49378, 373,          8) /* GearCritResist */
      , (49378, 374,          4) /* GearCritDamage */
      , (49378, 375,         13) /* GearCritDamageResist */;
 
@@ -52,15 +51,7 @@ VALUES (49378,   1,   33554817) /* Setup */
      , (49378,   8,  100670960) /* Icon */
      , (49378,  22,  872415275) /* PhysicsEffectTable */
      , (49378,  50,  100693031) /* IconOverlay */
-     , (49378,  52,  100693024) /* IconUnderlay */
-     , (49378, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
-     , (49378, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49378, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49378, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49378,   2, 2622707344) /* Container */
-     , (49378, 8000, 2622707354) /* PCAPRecordedObjectIID */;
+     , (49378,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49378, 67111921, 0, 0);

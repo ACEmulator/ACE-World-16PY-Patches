@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49351;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49351, 'ace49351-electrifiedmoaressence', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49351, 'ace49351-electrifiedmoaressence', 70, '2019-02-10 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49351,   1,        128) /* ItemType - Misc */
@@ -22,9 +22,6 @@ VALUES (49351,   1,        128) /* ItemType - Misc */
      , (49351, 367,        570) /* UseRequiresSkillLevel */
      , (49351, 368,         54) /* UseRequiresSkillSpec */
      , (49351, 369,        185) /* UseRequiresLevel */
-     , (49351, 370,         17) /* GearDamage */
-     , (49351, 371,         14) /* GearDamageResist */
-     , (49351, 372,         11) /* GearCrit */
      , (49351, 373,         14) /* GearCritResist */
      , (49351, 374,          9) /* GearCritDamage */
      , (49351, 375,         17) /* GearCritDamageResist */;
@@ -53,18 +50,7 @@ VALUES (49351,   1,   33554817) /* Setup */
      , (49351,   8,  100693034) /* Icon */
      , (49351,  22,  872415275) /* PhysicsEffectTable */
      , (49351,  50,  100693032) /* IconOverlay */
-     , (49351,  52,  100693024) /* IconUnderlay */
-     , (49351, 8001, 1076366488) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, TargetType, Burden, IconOverlay */
-     , (49351, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49351, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49351, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49351, 8040, 23855548, 50.45893, -34.61259, -0.0009999946, 0.8511181, 0, 0, 0.5249743) /* PCAPRecordedLocation */
-/* @teleloc 0x016C01BC [50.458930 -34.612590 -0.001000] 0.851118 0.000000 0.000000 0.524974 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49351, 8000, 2684821307) /* PCAPRecordedObjectIID */;
+     , (49351,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49351, 67111921, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48884;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (48884, 'ace48884-irongolemessence', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (48884, 'ace48884-irongolemessence', 70, '2019-02-10 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48884,   1,        128) /* ItemType - Misc */
@@ -12,7 +12,7 @@ VALUES (48884,   1,        128) /* ItemType - Misc */
      , (48884,  33,          1) /* Bonded - Bonded */
      , (48884,  65,        101) /* Placement - Resting */
      , (48884,  91,         50) /* MaxStructure */
-     , (48884,  92,         39) /* Structure */
+     , (48884,  92,         50) /* Structure */
      , (48884,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48884,  94,         16) /* TargetType - Creature */
      , (48884, 114,          0) /* Attuned - Normal */
@@ -45,15 +45,7 @@ VALUES (48884,   1,   33554817) /* Setup */
      , (48884,   8,  100693023) /* Icon */
      , (48884,  22,  872415275) /* PhysicsEffectTable */
      , (48884,  50,  100693030) /* IconOverlay */
-     , (48884,  52,  100693024) /* IconUnderlay */
-     , (48884, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
-     , (48884, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (48884, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (48884, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48884,   2, 1342180471) /* Container */
-     , (48884, 8000, 3138802604) /* PCAPRecordedObjectIID */;
+     , (48884,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48884, 67111927, 0, 0);

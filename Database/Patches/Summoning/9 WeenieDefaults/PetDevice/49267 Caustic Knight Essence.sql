@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49267;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49267, 'ace49267-causticknightessence', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49267, 'ace49267-causticknightessence', 70, '2019-02-10 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49267,   1,        128) /* ItemType - Misc */
@@ -17,19 +17,15 @@ VALUES (49267,   1,        128) /* ItemType - Misc */
      , (49267,  94,         16) /* TargetType - Creature */
      , (49267, 105,          7) /* ItemWorkmanship */
      , (49267, 114,          0) /* Attuned - Normal */
-     , (49267, 131,         29) /* MaterialType - LavenderJade */
-     , (49267, 172,          1) /* AppraisalLongDescDecoration */
      , (49267, 280,        213) /* SharedCooldown */
      , (49267, 366,         54) /* UseRequiresSkill */
      , (49267, 367,        570) /* UseRequiresSkillLevel */
      , (49267, 368,         54) /* UseRequiresSkillSpec */
      , (49267, 369,        185) /* UseRequiresLevel */
-     , (49267, 370,         14) /* GearDamage */
      , (49267, 371,         11) /* GearDamageResist */
      , (49267, 372,         10) /* GearCrit */
      , (49267, 373,          3) /* GearCritResist */
-     , (49267, 374,         10) /* GearCritDamage */
-     , (49267, 375,         10) /* GearCritDamageResist */;
+     , (49267, 374,         10) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49267,   1, False) /* Stuck */
@@ -46,8 +42,7 @@ VALUES (49267,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49267,   1, 'Caustic Knight Essence') /* Name */
-     , (49267,  14, 'Use this essence to summon or dismiss your Caustic Knight.') /* Use */
-     , (49267,  16, 'Gem') /* LongDesc */;
+     , (49267,  14, 'Use this essence to summon or dismiss your Caustic Knight.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49267,   1,   33554817) /* Setup */
@@ -56,15 +51,7 @@ VALUES (49267,   1,   33554817) /* Setup */
      , (49267,   8,  100672513) /* Icon */
      , (49267,  22,  872415275) /* PhysicsEffectTable */
      , (49267,  50,  100693032) /* IconOverlay */
-     , (49267,  52,  100693024) /* IconUnderlay */
-     , (49267, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
-     , (49267, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49267, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49267, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49267,   2, 2622707423) /* Container */
-     , (49267, 8000, 2622707500) /* PCAPRecordedObjectIID */;
+     , (49267,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49267, 67111920, 0, 0);

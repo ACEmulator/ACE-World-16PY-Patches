@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49259;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49259, 'ace49259-frostzombieessence180', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49259, 'ace49259-frostzombieessence180', 70, '2019-02-10 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49259,   1,        128) /* ItemType - Misc */
@@ -24,9 +24,7 @@ VALUES (49259,   1,        128) /* ItemType - Misc */
      , (49259, 370,         16) /* GearDamage */
      , (49259, 371,          9) /* GearDamageResist */
      , (49259, 372,          9) /* GearCrit */
-     , (49259, 373,          4) /* GearCritResist */
-     , (49259, 374,         10) /* GearCritDamage */
-     , (49259, 375,         16) /* GearCritDamageResist */;
+     , (49259, 374,         10) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49259,   1, False) /* Stuck */
@@ -52,15 +50,7 @@ VALUES (49259,   1,   33554817) /* Setup */
      , (49259,   8,  100667942) /* Icon */
      , (49259,  22,  872415275) /* PhysicsEffectTable */
      , (49259,  50,  100693031) /* IconOverlay */
-     , (49259,  52,  100693024) /* IconUnderlay */
-     , (49259, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
-     , (49259, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49259, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49259, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49259,   2, 1883000833) /* Container */
-     , (49259, 8000, 2992909664) /* PCAPRecordedObjectIID */;
+     , (49259,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49259, 67111919, 0, 0);

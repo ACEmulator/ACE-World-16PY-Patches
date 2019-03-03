@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48880;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (48880, 'ace48880-coralgolemessence', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (48880, 'ace48880-coralgolemessence', 70, '2019-02-10 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48880,   1,        128) /* ItemType - Misc */
@@ -45,15 +45,7 @@ VALUES (48880,   1,   33554817) /* Setup */
      , (48880,   8,  100693023) /* Icon */
      , (48880,  22,  872415275) /* PhysicsEffectTable */
      , (48880,  50,  100693029) /* IconOverlay */
-     , (48880,  52,  100693024) /* IconUnderlay */
-     , (48880, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
-     , (48880, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (48880, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (48880, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48880,   2, 2796386733) /* Container */
-     , (48880, 8000, 2903873765) /* PCAPRecordedObjectIID */;
+     , (48880,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48880, 67111927, 0, 0);

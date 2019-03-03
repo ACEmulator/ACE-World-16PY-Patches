@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49330;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49330, 'ace49330-incendiarywispessence', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49330, 'ace49330-incendiarywispessence', 70, '2019-02-10 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49330,   1,        128) /* ItemType - Misc */
@@ -12,7 +12,7 @@ VALUES (49330,   1,        128) /* ItemType - Misc */
      , (49330,  33,          0) /* Bonded - Normal */
      , (49330,  65,        101) /* Placement - Resting */
      , (49330,  91,         50) /* MaxStructure */
-     , (49330,  92,         47) /* Structure */
+     , (49330,  92,         50) /* Structure */
      , (49330,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49330,  94,         16) /* TargetType - Creature */
      , (49330, 105,          8) /* ItemWorkmanship */
@@ -26,8 +26,7 @@ VALUES (49330,   1,        128) /* ItemType - Misc */
      , (49330, 371,         11) /* GearDamageResist */
      , (49330, 372,         11) /* GearCrit */
      , (49330, 373,         12) /* GearCritResist */
-     , (49330, 374,         12) /* GearCritDamage */
-     , (49330, 375,         11) /* GearCritDamageResist */;
+     , (49330, 374,         12) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49330,   1, False) /* Stuck */
@@ -44,8 +43,6 @@ VALUES (49330,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49330,   1, 'Incendiary Wisp Essence') /* Name */
-     , (49330,   7, '56') /* Inscription */
-     , (49330,   8, 'Nihao Depot') /* ScribeName */
      , (49330,  14, 'Use this essence to summon or dismiss your Incendiary Wisp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -55,15 +52,7 @@ VALUES (49330,   1,   33554817) /* Setup */
      , (49330,   8,  100693035) /* Icon */
      , (49330,  22,  872415275) /* PhysicsEffectTable */
      , (49330,  50,  100693032) /* IconOverlay */
-     , (49330,  52,  100693024) /* IconUnderlay */
-     , (49330, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
-     , (49330, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49330, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49330, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49330,   2, 2274286819) /* Container */
-     , (49330, 8000, 2579565301) /* PCAPRecordedObjectIID */;
+     , (49330,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49330, 67111923, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31012;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31012, 'ghosteidolonhighyield', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (31012, 'ghosteidolonhighyield', 10, '2019-03-03 00:18:38') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31012,   1,         16) /* ItemType - Creature */
@@ -86,10 +86,10 @@ VALUES (31012,   1,   500, 0, 0, 635) /* MaxHealth */
      , (31012,   5,   350, 0, 0, 670) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (31012,  6, 0, 3, 0, 320, 0, 0) /* MeleeDefense        Specialized */
-     , (31012,  7, 0, 3, 0, 415, 0, 0) /* MissileDefense      Specialized */
+VALUES (31012,  6, 0, 3, 0, 170, 0, 0) /* MeleeDefense        Specialized */
+     , (31012,  7, 0, 3, 0, 336, 0, 0) /* MissileDefense      Specialized */
      , (31012, 14, 0, 3, 0, 300, 0, 0) /* ArcaneLore          Specialized */
-     , (31012, 15, 0, 3, 0, 295, 0, 0) /* MagicDefense        Specialized */
+     , (31012, 15, 0, 3, 0, 409, 0, 0) /* MagicDefense        Specialized */
      , (31012, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
      , (31012, 24, 0, 3, 0,  60, 0, 0) /* Run                 Specialized */
      , (31012, 31, 0, 3, 0, 280, 0, 0) /* CreatureEnchantment Specialized */
@@ -166,7 +166,3 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31012, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (31012, 9, 38456,  0, 0, 0.01, False) /* Create Mana Forge Key (38456) for ContainTreasure */;
