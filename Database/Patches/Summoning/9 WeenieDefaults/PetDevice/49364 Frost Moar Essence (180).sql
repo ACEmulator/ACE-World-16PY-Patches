@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49364;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49364, 'ace49364-frostmoaressence180', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49364, 'ace49364-frostmoaressence180', 70, '2019-02-10 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49364,   1,        128) /* ItemType - Misc */
@@ -22,15 +22,11 @@ VALUES (49364,   1,        128) /* ItemType - Misc */
      , (49364, 367,        530) /* UseRequiresSkillLevel */
      , (49364, 369,        170) /* UseRequiresLevel */
      , (49364, 370,         16) /* GearDamage */
-     , (49364, 371,          8) /* GearDamageResist */
      , (49364, 372,         10) /* GearCrit */
-     , (49364, 373,         15) /* GearCritResist */
-     , (49364, 374,         12) /* GearCritDamage */
      , (49364, 375,         14) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49364,   1, False) /* Stuck */
-     , (49364,   2, True ) /* Open */
      , (49364,  11, True ) /* IgnoreCollisions */
      , (49364,  13, True ) /* Ethereal */
      , (49364,  14, True ) /* GravityStatus */
@@ -44,8 +40,7 @@ VALUES (49364,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49364,   1, 'Frost Moar Essence (180)') /* Name */
-     , (49364,  14, 'Use this essence to summon or dismiss your Frost Moar.') /* Use */
-     , (49364,  16, 'Killed by Mag-four.') /* LongDesc */;
+     , (49364,  14, 'Use this essence to summon or dismiss your Frost Moar.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49364,   1,   33554817) /* Setup */
@@ -54,15 +49,7 @@ VALUES (49364,   1,   33554817) /* Setup */
      , (49364,   8,  100693034) /* Icon */
      , (49364,  22,  872415275) /* PhysicsEffectTable */
      , (49364,  50,  100693031) /* IconOverlay */
-     , (49364,  52,  100693024) /* IconUnderlay */
-     , (49364, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
-     , (49364, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49364, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49364, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49364,   2, 2173118737) /* Container */
-     , (49364, 8000, 3349441821) /* PCAPRecordedObjectIID */;
+     , (49364,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49364, 67111919, 0, 0);

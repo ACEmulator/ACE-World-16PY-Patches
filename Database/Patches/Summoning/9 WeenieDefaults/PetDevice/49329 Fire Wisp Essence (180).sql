@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49329;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49329, 'ace49329-firewispessence180', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49329, 'ace49329-firewispessence180', 70, '2019-02-10 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49329,   1,        128) /* ItemType - Misc */
@@ -23,14 +23,12 @@ VALUES (49329,   1,        128) /* ItemType - Misc */
      , (49329, 369,        170) /* UseRequiresLevel */
      , (49329, 370,         15) /* GearDamage */
      , (49329, 371,         15) /* GearDamageResist */
-     , (49329, 372,         18) /* GearCrit */
      , (49329, 373,         10) /* GearCritResist */
      , (49329, 374,         14) /* GearCritDamage */
      , (49329, 375,          7) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49329,   1, False) /* Stuck */
-     , (49329,   2, False) /* Open */
      , (49329,  11, True ) /* IgnoreCollisions */
      , (49329,  13, True ) /* Ethereal */
      , (49329,  14, True ) /* GravityStatus */
@@ -44,8 +42,7 @@ VALUES (49329,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49329,   1, 'Fire Wisp Essence (180)') /* Name */
-     , (49329,  14, 'Use this essence to summon or dismiss your Fire Wisp.') /* Use */
-     , (49329,  16, 'Killed by Mag-three.') /* LongDesc */;
+     , (49329,  14, 'Use this essence to summon or dismiss your Fire Wisp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49329,   1,   33554817) /* Setup */
@@ -54,15 +51,7 @@ VALUES (49329,   1,   33554817) /* Setup */
      , (49329,   8,  100693035) /* Icon */
      , (49329,  22,  872415275) /* PhysicsEffectTable */
      , (49329,  50,  100693031) /* IconOverlay */
-     , (49329,  52,  100693024) /* IconUnderlay */
-     , (49329, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
-     , (49329, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49329, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49329, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49329,   2, 1342476573) /* Container */
-     , (49329, 8000, 3310455091) /* PCAPRecordedObjectIID */;
+     , (49329,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49329, 67111923, 0, 0);

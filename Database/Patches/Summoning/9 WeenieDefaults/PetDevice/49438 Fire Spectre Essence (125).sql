@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49438;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49438, 'ace49438-firespectreessence125', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49438, 'ace49438-firespectreessence125', 70, '2019-02-10 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49438,   1,        128) /* ItemType - Misc */
@@ -21,11 +21,8 @@ VALUES (49438,   1,        128) /* ItemType - Misc */
      , (49438, 366,         54) /* UseRequiresSkill */
      , (49438, 367,        430) /* UseRequiresSkillLevel */
      , (49438, 369,        115) /* UseRequiresLevel */
-     , (49438, 370,         19) /* GearDamage */
      , (49438, 371,         13) /* GearDamageResist */
      , (49438, 372,         10) /* GearCrit */
-     , (49438, 373,         11) /* GearCritResist */
-     , (49438, 374,         13) /* GearCritDamage */
      , (49438, 375,         12) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -43,8 +40,7 @@ VALUES (49438,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49438,   1, 'Fire Spectre Essence (125)') /* Name */
-     , (49438,  14, 'Use this essence to summon or dismiss your Fire Spectre.') /* Use */
-     , (49438,  16, 'Killed by Callaway.') /* LongDesc */;
+     , (49438,  14, 'Use this essence to summon or dismiss your Fire Spectre.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49438,   1,   33554817) /* Setup */
@@ -53,15 +49,7 @@ VALUES (49438,   1,   33554817) /* Setup */
      , (49438,   8,  100676679) /* Icon */
      , (49438,  22,  872415275) /* PhysicsEffectTable */
      , (49438,  50,  100693029) /* IconOverlay */
-     , (49438,  52,  100693024) /* IconUnderlay */
-     , (49438, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
-     , (49438, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49438, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49438, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49438,   2, 2929821112) /* Container */
-     , (49438, 8000, 2930071564) /* PCAPRecordedObjectIID */;
+     , (49438,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49438, 67111923, 0, 0);

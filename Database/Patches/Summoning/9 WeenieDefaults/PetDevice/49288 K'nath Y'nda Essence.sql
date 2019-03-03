@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49288;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49288, 'ace49288-knathyndaessence', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49288, 'ace49288-knathyndaessence', 70, '2019-02-10 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49288,   1,        128) /* ItemType - Misc */
@@ -26,7 +26,6 @@ VALUES (49288,   1,        128) /* ItemType - Misc */
      , (49288, 371,         15) /* GearDamageResist */
      , (49288, 372,          9) /* GearCrit */
      , (49288, 373,         11) /* GearCritResist */
-     , (49288, 374,         19) /* GearCritDamage */
      , (49288, 375,         16) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,8 +43,6 @@ VALUES (49288,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49288,   1, 'K''nath Y''nda Essence') /* Name */
-     , (49288,   7, '55') /* Inscription */
-     , (49288,   8, 'Nihao Storage') /* ScribeName */
      , (49288,  14, 'Use this essence to summon or dismiss your K''nath Y''nda.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -55,15 +52,7 @@ VALUES (49288,   1,   33554817) /* Setup */
      , (49288,   8,  100693039) /* Icon */
      , (49288,  22,  872415275) /* PhysicsEffectTable */
      , (49288,  50,  100693032) /* IconOverlay */
-     , (49288,  52,  100693024) /* IconUnderlay */
-     , (49288, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
-     , (49288, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49288, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49288, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49288,   2, 1343249241) /* Container */
-     , (49288, 8000, 3079032870) /* PCAPRecordedObjectIID */;
+     , (49288,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49288, 67111920, 0, 0);

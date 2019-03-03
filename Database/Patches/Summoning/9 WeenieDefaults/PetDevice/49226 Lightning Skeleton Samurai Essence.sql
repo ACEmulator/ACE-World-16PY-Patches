@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49226;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49226, 'ace49226-lightningskeletonsamuraiessence', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49226, 'ace49226-lightningskeletonsamuraiessence', 70, '2019-02-10 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49226,   1,        128) /* ItemType - Misc */
@@ -24,14 +24,11 @@ VALUES (49226,   1,        128) /* ItemType - Misc */
      , (49226, 369,        185) /* UseRequiresLevel */
      , (49226, 370,         13) /* GearDamage */
      , (49226, 371,          8) /* GearDamageResist */
-     , (49226, 372,         11) /* GearCrit */
      , (49226, 373,         14) /* GearCritResist */
-     , (49226, 374,         14) /* GearCritDamage */
-     , (49226, 375,         11) /* GearCritDamageResist */;
+     , (49226, 374,         14) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49226,   1, False) /* Stuck */
-     , (49226,   2, False) /* Open */
      , (49226,  11, True ) /* IgnoreCollisions */
      , (49226,  13, True ) /* Ethereal */
      , (49226,  14, True ) /* GravityStatus */
@@ -45,8 +42,7 @@ VALUES (49226,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49226,   1, 'Lightning Skeleton Samurai Essence') /* Name */
-     , (49226,  14, 'Use this essence to summon or dismiss your Lightning Skeleton Samurai.') /* Use */
-     , (49226,  16, 'Killed by Mag-two.') /* LongDesc */;
+     , (49226,  14, 'Use this essence to summon or dismiss your Lightning Skeleton Samurai.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49226,   1,   33554817) /* Setup */
@@ -55,15 +51,7 @@ VALUES (49226,   1,   33554817) /* Setup */
      , (49226,   8,  100669124) /* Icon */
      , (49226,  22,  872415275) /* PhysicsEffectTable */
      , (49226,  50,  100693032) /* IconOverlay */
-     , (49226,  52,  100693024) /* IconUnderlay */
-     , (49226, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
-     , (49226, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49226, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49226, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49226,   2, 1343249144) /* Container */
-     , (49226, 8000, 2763877383) /* PCAPRecordedObjectIID */;
+     , (49226,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49226, 67111921, 0, 0);

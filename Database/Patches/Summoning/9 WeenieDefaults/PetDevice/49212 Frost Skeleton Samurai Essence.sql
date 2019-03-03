@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49212;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49212, 'ace49212-frostskeletonsamuraiessence', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49212, 'ace49212-frostskeletonsamuraiessence', 70, '2019-02-10 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49212,   1,        128) /* ItemType - Misc */
@@ -22,9 +22,7 @@ VALUES (49212,   1,        128) /* ItemType - Misc */
      , (49212, 367,        570) /* UseRequiresSkillLevel */
      , (49212, 368,         54) /* UseRequiresSkillSpec */
      , (49212, 369,        185) /* UseRequiresLevel */
-     , (49212, 370,         16) /* GearDamage */
      , (49212, 371,          9) /* GearDamageResist */
-     , (49212, 372,         10) /* GearCrit */
      , (49212, 373,          7) /* GearCritResist */
      , (49212, 374,          3) /* GearCritDamage */
      , (49212, 375,         14) /* GearCritDamageResist */;
@@ -44,8 +42,6 @@ VALUES (49212,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49212,   1, 'Frost Skeleton Samurai Essence') /* Name */
-     , (49212,   7, ' ') /* Inscription */
-     , (49212,   8, 'Toxygen') /* ScribeName */
      , (49212,  14, 'Use this essence to summon or dismiss your Frost Skeleton Samurai.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -55,15 +51,7 @@ VALUES (49212,   1,   33554817) /* Setup */
      , (49212,   8,  100669124) /* Icon */
      , (49212,  22,  872415275) /* PhysicsEffectTable */
      , (49212,  50,  100693032) /* IconOverlay */
-     , (49212,  52,  100693024) /* IconUnderlay */
-     , (49212, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
-     , (49212, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49212, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49212, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49212,   2, 2087358610) /* Container */
-     , (49212, 8000, 3690476349) /* PCAPRecordedObjectIID */;
+     , (49212,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49212, 67111919, 0, 0);
