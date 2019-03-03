@@ -32,4 +32,5 @@ The target loses 294 points of health over 30 seconds.') /* LongDesc */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43326,   1,   33554826) /* Setup */
      , (43326,   8,  100691570) /* Icon */
-     , (43326,  22,  872415275) /* PhysicsEffectTable */;
+     , (43326,  22,  872415275) /* PhysicsEffectTable */
+     , (43324,  28,       5337) /* Spell - CurseDestructionOther7 */;
