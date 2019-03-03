@@ -23,7 +23,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43320,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43320,   1, 'Scroll of Destructive Curse') /* Name */;
+VALUES (43320,   1, 'Scroll of Destructive Curse') /* Name */
      , (43320,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (43320,  15, 'A magic scroll.') /* ShortDesc */
      , (43320,  16, 'Inscribed spell: Destructive Curse
