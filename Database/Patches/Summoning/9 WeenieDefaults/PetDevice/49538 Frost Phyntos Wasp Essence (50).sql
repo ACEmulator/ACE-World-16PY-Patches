@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49538;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49538, 'ace49538-frostphyntoswaspessence50', 70, '2019-02-10 00:00:00') /* PetDevice */;
+VALUES (49538, 'ace49538-frostphyntoswaspessence50', 70, '2019-03-04 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49538,   1,        128) /* ItemType - Misc */
@@ -15,7 +15,6 @@ VALUES (49538,   1,        128) /* ItemType - Misc */
      , (49538,  92,         50) /* Structure */
      , (49538,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49538,  94,         16) /* TargetType - Creature */
-     , (49538, 105,          5) /* ItemWorkmanship */
      , (49538, 114,          0) /* Attuned - Normal */
      , (49538, 280,        213) /* SharedCooldown */
      , (49538, 366,         54) /* UseRequiresSkill */

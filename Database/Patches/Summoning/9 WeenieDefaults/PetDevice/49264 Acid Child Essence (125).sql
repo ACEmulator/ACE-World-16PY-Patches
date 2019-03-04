@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49264;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49264, 'ace49264-acidchildessence125', 70, '2019-02-10 00:00:00') /* PetDevice */;
+VALUES (49264, 'ace49264-acidchildessence125', 70, '2019-03-04 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49264,   1,        128) /* ItemType - Misc */
@@ -15,13 +15,11 @@ VALUES (49264,   1,        128) /* ItemType - Misc */
      , (49264,  92,         50) /* Structure */
      , (49264,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49264,  94,         16) /* TargetType - Creature */
-     , (49264, 105,          7) /* ItemWorkmanship */
      , (49264, 114,          0) /* Attuned - Normal */
      , (49264, 280,        213) /* SharedCooldown */
      , (49264, 366,         54) /* UseRequiresSkill */
      , (49264, 367,        430) /* UseRequiresSkillLevel */
-     , (49264, 369,        115) /* UseRequiresLevel */
-     , (49264, 370,         11) /* GearDamage */;
+     , (49264, 369,        115) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49264,   1, False) /* Stuck */

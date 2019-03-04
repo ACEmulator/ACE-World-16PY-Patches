@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49271;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49271, 'ace49271-lightningchildessence125', 70, '2019-02-10 00:00:00') /* PetDevice */;
+VALUES (49271, 'ace49271-lightningchildessence125', 70, '2019-03-04 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49271,   1,        128) /* ItemType - Misc */
@@ -15,15 +15,11 @@ VALUES (49271,   1,        128) /* ItemType - Misc */
      , (49271,  92,         50) /* Structure */
      , (49271,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49271,  94,         16) /* TargetType - Creature */
-     , (49271, 105,          7) /* ItemWorkmanship */
      , (49271, 114,          0) /* Attuned - Normal */
      , (49271, 280,        213) /* SharedCooldown */
      , (49271, 366,         54) /* UseRequiresSkill */
      , (49271, 367,        430) /* UseRequiresSkillLevel */
-     , (49271, 369,        115) /* UseRequiresLevel */
-     , (49271, 372,          8) /* GearCrit */
-     , (49271, 374,         10) /* GearCritDamage */
-     , (49271, 375,          8) /* GearCritDamageResist */;
+     , (49271, 369,        115) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49271,   1, False) /* Stuck */

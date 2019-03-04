@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49381;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49381, 'ace49381-firegrievveressence80', 70, '2019-02-10 00:00:00') /* PetDevice */;
+VALUES (49381, 'ace49381-firegrievveressence80', 70, '2019-03-04 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49381,   1,        128) /* ItemType - Misc */
@@ -15,14 +15,11 @@ VALUES (49381,   1,        128) /* ItemType - Misc */
      , (49381,  92,         50) /* Structure */
      , (49381,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49381,  94,         16) /* TargetType - Creature */
-     , (49381, 105,          8) /* ItemWorkmanship */
      , (49381, 114,          0) /* Attuned - Normal */
      , (49381, 280,        213) /* SharedCooldown */
      , (49381, 366,         54) /* UseRequiresSkill */
      , (49381, 367,        370) /* UseRequiresSkillLevel */
-     , (49381, 369,         70) /* UseRequiresLevel */
-     , (49381, 370,         11) /* GearDamage */
-     , (49381, 375,         12) /* GearCritDamageResist */;
+     , (49381, 369,         70) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49381,   1, False) /* Stuck */

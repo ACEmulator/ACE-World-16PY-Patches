@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49225;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49225, 'ace49225-lightningskeletonbushiessence180', 70, '2019-02-10 00:00:00') /* PetDevice */;
+VALUES (49225, 'ace49225-lightningskeletonbushiessence180', 70, '2019-03-04 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49225,   1,        128) /* ItemType - Misc */
@@ -15,7 +15,6 @@ VALUES (49225,   1,        128) /* ItemType - Misc */
      , (49225,  92,         50) /* Structure */
      , (49225,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49225,  94,         16) /* TargetType - Creature */
-     , (49225, 105,          8) /* ItemWorkmanship */
      , (49225, 114,          0) /* Attuned - Normal */
      , (49225, 280,        213) /* SharedCooldown */
      , (49225, 366,         54) /* UseRequiresSkill */
