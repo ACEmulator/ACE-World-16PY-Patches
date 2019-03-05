@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49541;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49541, 'ace49541-frostphyntoswaspessence125', 70, '2019-02-10 00:00:00') /* PetDevice */;
+VALUES (49541, 'ace49541-frostphyntoswaspessence125', 70, '2019-03-04 00:00:00') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49541,   1,        128) /* ItemType - Misc */
@@ -15,13 +15,11 @@ VALUES (49541,   1,        128) /* ItemType - Misc */
      , (49541,  92,         50) /* Structure */
      , (49541,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49541,  94,         16) /* TargetType - Creature */
-     , (49541, 105,          6) /* ItemWorkmanship */
      , (49541, 114,          0) /* Attuned - Normal */
      , (49541, 280,        213) /* SharedCooldown */
      , (49541, 366,         54) /* UseRequiresSkill */
      , (49541, 367,        430) /* UseRequiresSkillLevel */
-     , (49541, 369,        115) /* UseRequiresLevel */
-     , (49541, 371,         16) /* GearDamageResist */;
+     , (49541, 369,        115) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49541,   1, False) /* Stuck */
