@@ -223,5 +223,5 @@ VALUES (718, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wiel
      , (718, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff (22168) for Shop */
      , (718, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
      , (718, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings (23204) for Shop */
-     , (718, 4, 42979, -1, 0, 0, False) /* Create  (42979) for Shop */
-     , (718, 4, 43022, -1, 0, 0, False) /* Create  (43022) for Shop */;
+     , (718, 4, 42979, -1, 0, 0, False) /* Create Core Plating Integrator (42979) for Shop */
+     , (718, 4, 43022, -1, 0, 0, False) /* Create Core Plating Deintegrator (43022) for Shop */;
