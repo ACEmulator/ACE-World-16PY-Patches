@@ -189,15 +189,21 @@ VALUES (2012229741, 2012229742) /* Sparring Golem */
      , (2012229741, 2012229773) /* Carpenter Wasp */
      , (2012229741, 2012229774) /* Carpenter Wasp */
      , (2012229741, 2012229775) /* Carpenter Wasp */
-     , (2012229741, 2012229776) /* Carpenter Wasp */
-     , (2012229741, 2012229777) /* Young Olthoi */
-     , (2012229741, 2012229778) /* Young Olthoi */
-     , (2012229741, 2012229779) /* Young Olthoi */
-     , (2012229741, 2012229780) /* Young Olthoi */
-     , (2012229741, 2012229781) /* Young Olthoi */
-     , (2012229741, 2012229782) /* Young Olthoi */
-     , (2012229741, 2012229783) /* Young Olthoi */
-     , (2012229741, 2012229784) /* Adolescent Olthoi */;
+     , (2012229741, 2012229776) /* Carpenter Wasp */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2012229808, 15274, 2130903348, 119.849, -154.436, -5.995, 0.034997, 0, 0, 0.999387, False); /* Linkable Monster Gen - 1 min. */
+/* @teleloc 0x7F030134 [119.849281 -154.436234 -5.995000] 0.034997 0.000000 0.000000 0.999387 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2012229808, 2012229777) /* Young Olthoi */
+     , (2012229808, 2012229778) /* Young Olthoi */
+     , (2012229808, 2012229779) /* Young Olthoi */
+     , (2012229808, 2012229780) /* Young Olthoi */
+     , (2012229808, 2012229781) /* Young Olthoi */
+     , (2012229808, 2012229782) /* Young Olthoi */
+     , (2012229808, 2012229783) /* Young Olthoi */
+     , (2012229808, 2012229784) /* Adolescent Olthoi */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
 VALUES (2012229742, 12698, 2130903610, 60.9185, -20.011, 0.009000003, -0.715311, 0, 0, -0.698806,  True); /* Sparring Golem */
@@ -485,3 +491,4 @@ VALUES (2012229806, 10762, 2130903582, 50, -54, 1, 0.01, 0, 0, -1,  True); /* Po
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
 VALUES (2012229807, 10762, 2130903747, 119, -141, 0.004999995, 1, 0, 0, 0,  True); /* Portal Linkspot */
 /* @teleloc 0x7F0302C3 [119.000000 -141.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
+
