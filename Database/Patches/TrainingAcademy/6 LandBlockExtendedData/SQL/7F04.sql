@@ -189,15 +189,21 @@ VALUES (2012233837, 2012233838) /* Sparring Golem */
      , (2012233837, 2012233869) /* Carpenter Wasp */
      , (2012233837, 2012233870) /* Carpenter Wasp */
      , (2012233837, 2012233871) /* Carpenter Wasp */
-     , (2012233837, 2012233872) /* Carpenter Wasp */
-     , (2012233837, 2012233873) /* Young Olthoi */
-     , (2012233837, 2012233874) /* Young Olthoi */
-     , (2012233837, 2012233875) /* Young Olthoi */
-     , (2012233837, 2012233876) /* Young Olthoi */
-     , (2012233837, 2012233877) /* Young Olthoi */
-     , (2012233837, 2012233878) /* Young Olthoi */
-     , (2012233837, 2012233879) /* Young Olthoi */
-     , (2012233837, 2012233880) /* Adolescent Olthoi */;
+     , (2012233837, 2012233872) /* Carpenter Wasp */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2012233904, 15274, 2130968884, 119.849, -154.436, -5.995, 0.034997, 0, 0, 0.999387, False); /* Linkable Monster Gen - 1 min. */
+/* @teleloc 0x7F040134 [119.849281 -154.436234 -5.995000] 0.034997 0.000000 0.000000 0.999387 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`)
+VALUES (2012233904, 2012233873) /* Young Olthoi */
+     , (2012233904, 2012233874) /* Young Olthoi */
+     , (2012233904, 2012233875) /* Young Olthoi */
+     , (2012233904, 2012233876) /* Young Olthoi */
+     , (2012233904, 2012233877) /* Young Olthoi */
+     , (2012233904, 2012233878) /* Young Olthoi */
+     , (2012233904, 2012233879) /* Young Olthoi */
+     , (2012233904, 2012233880) /* Adolescent Olthoi */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
 VALUES (2012233838, 12698, 2130969146, 60.9185, -20.011, 0.009000003, -0.715311, 0, 0, -0.698806,  True); /* Sparring Golem */
