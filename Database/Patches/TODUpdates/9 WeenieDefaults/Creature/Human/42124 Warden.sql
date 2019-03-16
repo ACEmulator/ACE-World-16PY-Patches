@@ -74,7 +74,7 @@ VALUES (42124,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (42124,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (42124,  6 /* Give */,      1, 1481 /* Quarter Staff of Fire */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (42124,  1 /* Refuse */,      1, 1481 /* Quarter Staff of Fire */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
