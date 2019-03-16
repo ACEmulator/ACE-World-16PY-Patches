@@ -24,7 +24,7 @@ VALUES (34346,  39, 0.370000004768372) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34346,   1, 'Ancient Shard of Metal') /* Name */
      , (34346,  16, 'A piece of metal found in the chest in Folthid Cellar. It has faint designs illegibly carved onto the face. There is a small amount of purple corrosion on one side.') /* LongDesc */
-     , (34346,  33, 'FolthidShard34346') /* Quest */;
+     , (34346,  33, 'folthidshardpickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34346,   1,   33554683) /* Setup */
