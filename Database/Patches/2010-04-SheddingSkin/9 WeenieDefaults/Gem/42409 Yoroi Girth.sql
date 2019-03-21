@@ -46,13 +46,7 @@ VALUES (42409,   1,   33554647) /* Setup */
      , (42409,   6,   67108990) /* PaletteBase */
      , (42409,   8,  100668146) /* Icon */
      , (42409,  22,  872415275) /* PhysicsEffectTable */
-     , (42409,  50,  100667895) /* IconOverlay */
-     , (42409, 8001, 1076654104) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Priority, TargetType, Burden, IconOverlay */
-     , (42409, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (42409, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42409, 8000, 3354653794) /* PCAPRecordedObjectIID */;
+     , (42409,  50,  100667895) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42409, 67110015, 80, 12)
