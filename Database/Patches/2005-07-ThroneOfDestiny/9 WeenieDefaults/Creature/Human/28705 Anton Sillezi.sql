@@ -64,7 +64,6 @@ VALUES (28705,   3, 0.159999996423721) /* HealthRate */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28705,   1, 'Anton Sillezi') /* Name */
      , (28705,   3, 'Male') /* Sex */
-     , (28705,   4, 'Gharu''ndim') /* HeritageGroup */
      , (28705,   5, 'Trade Merchant') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
