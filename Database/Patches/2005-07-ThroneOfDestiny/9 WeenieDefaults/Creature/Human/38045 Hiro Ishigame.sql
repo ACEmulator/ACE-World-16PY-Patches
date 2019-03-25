@@ -11,7 +11,7 @@ VALUES (38045,   1,         16) /* ItemType - Creature */
      , (38045,   7,         -1) /* ContainersCapacity */
      , (38045,   8,        120) /* Mass */
      , (38045,  16,         32) /* ItemUseable - Remote */
-     , (38045,  25,         67) /* Level */
+     , (38045,  25,         15) /* Level */
      , (38045,  27,          0) /* ArmorType - None */
      , (38045,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38045,  95,          8) /* RadarBlipColor - Yellow */
@@ -64,7 +64,6 @@ VALUES (38045,   3, 0.159999996423721) /* HealthRate */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38045,   1, 'Hiro Ishigame') /* Name */
      , (38045,   3, 'Male') /* Sex */
-     , (38045,   4, 'Sho') /* HeritageGroup */
      , (38045,   5, 'Green Mire Scholar') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
