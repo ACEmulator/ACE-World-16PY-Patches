@@ -20,3 +20,7 @@ REPLACE INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modif
 VALUES (2107986054, 2107986056, '2019-02-19 06:17:23') /* Eiichi */
 	 , (2107986054, 2107986057, '2019-02-19 06:17:23') /* Benjirou */
 	 , (2107986054, 2107986058, '2019-02-19 06:17:23') /* Pathwarden Koro Ijida */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (2107986059, 38045, 3663004050, 81.415, 63.2578, 20.045, -0.703308, 0, 0, 0.710886, False, '2019-03-23 02:20:17'); /* Hiro Ishigame */
+/* @teleloc 0xDA550192 [81.415000 63.257800 20.045000] -0.703308 0.000000 0.000000 0.710886 */

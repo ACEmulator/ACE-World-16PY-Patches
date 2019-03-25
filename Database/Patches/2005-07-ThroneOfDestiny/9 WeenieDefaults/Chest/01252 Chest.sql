@@ -55,9 +55,6 @@ VALUES (1252,   1,   33554556) /* Setup */
      , (1252,  22,  872415275) /* PhysicsEffectTable */
      , (1252,  28,       1418) /* Spell - Slowness Other IV */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1252,  1418,      2)  /* Slowness Other IV */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1252, -1, 2197, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Iron Crown (2197) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (1252, -1, 38046, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Green Mire Yoroi Cuirass (38046) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

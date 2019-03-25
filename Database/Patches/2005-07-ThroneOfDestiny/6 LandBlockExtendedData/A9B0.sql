@@ -1,0 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `guid` = 2056978438; /* Holtburg South Training Academy Portal */
+/* @teleloc 0xA9B00000 [45.359000 108.007000 64.005000] -0.707107 0.000000 0.000000 -0.707107 */
+
+DELETE FROM `landblock_instance` WHERE `guid` = 2056978446; /* IMPORTANT SIGN  */
+/* @teleloc 0xA9B00000 [49.121000 108.009000 64.005000] -0.690242 0.000000 0.000000 -0.723579 */
