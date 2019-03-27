@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30423;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30423, 'halaetannewbiehighgen', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (30423, 'halaetannewbiehighgen', 1, '2019-03-26 20:02:53') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30423,  81,          1) /* MaxGeneratedObjects */
@@ -31,7 +31,7 @@ VALUES (30423, 0.08, 30406, 250, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /
      , (30423, 0.2023529, 1756, 250, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Shadow Child (1756) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (30423, 0.2535294, 24938, 250, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Olthoi Nettler (24938) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (30423, 0.3047059, 946, 250, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Mite Squire (946) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (30423, 0.3558823, 1240, 250, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Oversized Banderling Ogre (1240) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (30423, 0.3558823, 7136, 250, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Banderling Ogre Camp Generator (7136) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (30423, 0.4070588, 19, 250, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Bronze Armoredillo (19) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (30423, 0.4582353, 1241, 250, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Banderling Bloodblade (1241) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (30423, 0.5094118, 1669, 250, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Banderling Chief (1669) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

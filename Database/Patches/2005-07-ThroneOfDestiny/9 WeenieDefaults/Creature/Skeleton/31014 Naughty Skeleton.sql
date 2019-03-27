@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31014;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31014, 'skeletonnaughtyhighyield', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (31014, 'skeletonnaughtyhighyield', 10, '2019-03-26 20:02:53') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31014,   1,         16) /* ItemType - Creature */
@@ -78,8 +78,14 @@ VALUES (31014,   1,   33559535) /* Setup */
      , (31014,   8,  100669124) /* Icon */
      , (31014,  17,   67113400) /* SkinPalette */
      , (31014,  22,  872415269) /* PhysicsEffectTable */
-     , (31014,  32,        426) /* WieldedTreasureType */
-     , (31014,  35,        449) /* DeathTreasureType */
+     , (31014,  32,        426) /* WieldedTreasureType - 
+                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Kite Shield (23135) | Probability: 100%
+                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
+     , (31014,  35,        449) /* DeathTreasureType - Loot Tier: 6 */
      , (31014,  55,       1132) /* ProcSpell - Blade Vulnerability Other VI */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -140,7 +146,7 @@ VALUES (31014,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'naughtyskeletonkillcount@#kt', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'NaughtySkeletonKills@#kt', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31014, 9,     0,  0, 0, 0.915, False) /* Create nothing for ContainTreasure */
