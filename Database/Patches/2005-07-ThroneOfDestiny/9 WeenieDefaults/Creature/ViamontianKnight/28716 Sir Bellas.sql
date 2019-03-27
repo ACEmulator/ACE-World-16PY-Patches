@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28716;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28716, 'knightsirbellas', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28716, 'knightsirbellas', 10, '2019-03-26 20:02:53') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28716,   1,         16) /* ItemType - Creature */
@@ -70,7 +70,7 @@ VALUES (28716,   1,   33559125) /* Setup */
      , (28716,   7,  268436907) /* ClothingBase */
      , (28716,   8,  100677371) /* Icon */
      , (28716,  22,  872415269) /* PhysicsEffectTable */
-     , (28716,  35,         19) /* DeathTreasureType */;
+     , (28716,  35,         19) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28716,   1, 490, 0, 0) /* Strength */
@@ -86,19 +86,12 @@ VALUES (28716,   1, 11500, 0, 0, 12000) /* MaxHealth */
      , (28716,   5,  9500, 0, 0, 10000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28716,  1, 0, 3, 0, 270, 0, 0) /* Axe                 Specialized */
-     , (28716,  4, 0, 3, 0, 270, 0, 0) /* Dagger              Specialized */
-     , (28716,  5, 0, 3, 0, 270, 0, 0) /* Mace                Specialized */
-     , (28716,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
+VALUES (28716,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
      , (28716,  7, 0, 3, 0, 300, 0, 0) /* MissileDefense      Specialized */
-     , (28716,  9, 0, 3, 0, 270, 0, 0) /* Spear               Specialized */
-     , (28716, 10, 0, 3, 0, 270, 0, 0) /* Staff               Specialized */
-     , (28716, 11, 0, 3, 0, 270, 0, 0) /* Sword               Specialized */
-     , (28716, 12, 0, 3, 0, 160, 0, 0) /* ThrownWeapon        Specialized */
-     , (28716, 13, 0, 3, 0, 250, 0, 0) /* UnarmedCombat       Specialized */
      , (28716, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
      , (28716, 34, 0, 3, 0, 500, 0, 0) /* WarMagic            Specialized */
-     , (28716, 41, 0, 3, 0, 270, 0, 0) /* TwoHandedCombat     Specialized */;
+     , (28716, 41, 0, 3, 0, 270, 0, 0) /* TwoHandedCombat     Specialized */
+     , (28716, 45, 0, 3, 0, 270, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28716,  0,  4,  0,    0,  500,  600,  600,  500,  500,  400,  500,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -193,7 +186,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28716, 0,     0,  0, 0, 0.94, False) /* Create nothing for Undef */
-     , (28716, 0, 40523,  1, 0, 0.06, True) /* Create  (40523) for Undef */
+     , (28716, 0, 40523,  1, 0, 0.06, True) /* Create Contact Instructions (40523) for Undef */
      , (28716, 2, 31199,  1, 2, 1, False) /* Create The Fist of Bellenesse (31199) for Wield */
      , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */
      , (28716, 9, 29295,  0, 0, 1, False) /* Create Blank Augmentation Gem (29295) for ContainTreasure */

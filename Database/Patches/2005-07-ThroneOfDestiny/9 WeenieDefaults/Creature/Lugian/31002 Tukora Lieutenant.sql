@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31002;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31002, 'lugiantukoraliuetenanthighyield', 10, '2019-02-19 06:52:23') /* Creature */;
+VALUES (31002, 'lugiantukoraliuetenanthighyield', 10, '2019-03-26 20:02:53') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31002,   1,         16) /* ItemType - Creature */
@@ -18,7 +18,8 @@ VALUES (31002,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31002,   1, True ) /* Stuck */
-     , (31002, 101, True ) /* CanGenerateRare */;
+     , (31002, 101, True ) /* CanGenerateRare */
+     , (31002, 102, True ) /* CorpseGeneratedRare */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31002,   1,       5) /* HeartbeatInterval */
@@ -65,7 +66,10 @@ VALUES (31002,   1,   33557003) /* Setup */
      , (31002,   7,  268436618) /* ClothingBase */
      , (31002,   8,  100667447) /* Icon */
      , (31002,  22,  872415262) /* PhysicsEffectTable */
-     , (31002,  32,        425) /* WieldedTreasureType */
+     , (31002,  32,        425) /* WieldedTreasureType - 
+                                   Wield 10x Rock (23133) | Probability: 80%
+                                   Wield Lugian Morning Star (23134) | Probability: 10%
+                                   Wield Lugian Axe (23132) | Probability: 10% */
      , (31002,  35,       1000) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -110,7 +114,7 @@ VALUES (31002,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'tukoralieutenantkillcount@#kt', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'TukoraLieutenantKills@#kt', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31002, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */

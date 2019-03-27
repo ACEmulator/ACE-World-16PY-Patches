@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29970;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29970, 'spearknightextreme', 6, '2019-02-04 06:52:23') /* MeleeWeapon */;
+VALUES (29970, 'spearknightextreme', 6, '2019-03-26 20:02:53') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29970,   1,          1) /* ItemType - MeleeWeapon */
@@ -12,7 +12,7 @@ VALUES (29970,   1,          1) /* ItemType - MeleeWeapon */
      , (29970,  19,        425) /* Value */
      , (29970,  33,         -2) /* Bonded - Destroy */
      , (29970,  37,       9999) /* ResistItemAppraisal */
-     , (29970,  44,         44) /* Damage */
+     , (29970,  44,         72) /* Damage */
      , (29970,  45,          2) /* DamageType - Pierce */
      , (29970,  46,          8) /* DefaultCombatStyle - TwoHanded */
      , (29970,  47,          2) /* AttackType - Thrust */
