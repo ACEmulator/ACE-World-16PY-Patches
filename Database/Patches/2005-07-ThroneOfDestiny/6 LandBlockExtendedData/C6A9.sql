@@ -115,10 +115,6 @@ VALUES (2087358565, 43010, 3332964755, 111.514, 32.7621, 46.805, 0.0201526, 0, 0
 /* @teleloc 0xC6A90193 [111.514000 32.762100 46.805000] 0.020153 0.000000 0.000000 0.999797 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2087358566, 22934, 3332964782, 21.3329, 18.6804, 42.0891, 0.999929, 0, 0, 0.0119458, False, '2019-02-15 14:34:36'); /* Anasha */
-/* @teleloc 0xC6A901AE [21.332900 18.680400 42.089100] 0.999929 0.000000 0.000000 0.011946 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2087358567, 45479, 3332964379, 89.4065, 48.8316, 43.0225, -0.703054, 0, 0, 0.711137, False, '2019-02-15 14:34:36'); /* Staves Mastery */
 /* @teleloc 0xC6A9001B [89.406500 48.831600 43.022500] -0.703054 0.000000 0.000000 0.711137 */
 
