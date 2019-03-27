@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49485;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49485, 'ace49485-encapsulatedspirit', 44, '2019-02-10 00:00:00') /* CraftTool */;
+VALUES (49485, 'ace49485-encapsulatedspirit', 44, '2019-03-26 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49485,   1,        128) /* ItemType - Misc */
@@ -36,19 +36,4 @@ VALUES (49485,   1,   33561540) /* Setup */
      , (49485,   3,  536870932) /* SoundTable */
      , (49485,   6,   67111919) /* PaletteBase */
      , (49485,   8,  100693036) /* Icon */
-     , (49485,  22,  872415275) /* PhysicsEffectTable */
-     , (49485, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (49485, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (49485, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49485, 8000, 2237242412) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49485, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49485, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49485, 0, 16779181);
+     , (49485,  22,  872415275) /* PhysicsEffectTable */;
