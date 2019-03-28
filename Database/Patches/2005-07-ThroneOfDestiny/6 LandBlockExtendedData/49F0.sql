@@ -43,52 +43,16 @@ VALUES (1956577290, 42852, 1240465436, 87.5315, 74.7916, 170.198, 0.416555, 0, 0
 /* @teleloc 0x49F0001C [87.531500 74.791600 170.198000] 0.416555 0.000000 0.000000 -0.909110 */
 
 REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1956577291, 31219, 1240465443, 108, 62, 170, 0.707107, 0, 0, -0.707107, False, '2019-02-11 00:00:00'); /* Eastwatch Outpost */
+/* @teleloc 0x49F00023 [108.000000 62.000000 170.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1956577292, 30938, 1240465444, 105.2, 81.1, 170.16, 1, 0, 0, 0, False, '2019-02-11 00:00:00'); /* Door */
 /* @teleloc 0x49F00024 [105.200000 81.100000 170.160000] 1.000000 0.000000 0.000000 0.000000 */
 
 REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1956577293, 30938, 1240465451, 132.1, 57.1, 170.082, 1, 0, 0, 0, False, '2019-02-11 00:00:00'); /* Door */
 /* @teleloc 0x49F0002B [132.100000 57.100000 170.082000] 1.000000 0.000000 0.000000 0.000000 */
-
-REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1956577296, 31658, 1240465443, 103.344, 60.7348, 170.005, -0.966165, 0, 0, -0.257926, False, '2019-02-11 00:00:00'); /* Ruqaya al Mubarak */
-/* @teleloc 0x49F00023 [103.344000 60.734800 170.005000] -0.966165 0.000000 0.000000 -0.257926 */
-
-REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1956577299, 31657, 1240465443, 101.817, 60.8858, 170.005, -0.965321, 0, 0, 0.261065, False, '2019-02-11 00:00:00'); /* Taku Yukio */
-/* @teleloc 0x49F00023 [101.817000 60.885800 170.005000] -0.965321 0.000000 0.000000 0.261065 */
-
-REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1956577291, 31219, 1240465443, 108, 62, 170, 0.707107, 0, 0, -0.707107, False, '2019-02-11 00:00:00'); /* Eastwatch Outpost */
-/* @teleloc 0x49F00023 [108.000000 62.000000 170.000000] 0.707107 0.000000 0.000000 -0.707107 */
-
-REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1956577294, 31654, 1240465442, 102.992, 31.3927, 178.805, 0.199165, 0, 0, 0.979966, False, '2019-02-11 00:00:00'); /* Marcello */
-/* @teleloc 0x49F00022 [102.992000 31.392700 178.805000] 0.199165 0.000000 0.000000 0.979966 */
-
-REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1956577295, 31650, 1240465442, 110.964, 38.6567, 185.205, 0.490294, 0, 0, 0.871557, False, '2019-02-11 00:00:00'); /* Claire Artmad */
-/* @teleloc 0x49F00022 [110.964000 38.656700 185.205000] 0.490294 0.000000 0.000000 0.871557 */
-
-REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1956577297, 31653, 1240465442, 107.95, 29.8084, 170.005, -0.139658, 0, 0, 0.9902, False, '2019-02-11 00:00:00'); /* Orfeo Orlando */
-/* @teleloc 0x49F00022 [107.950000 29.808400 170.005000] -0.139658 0.000000 0.000000 0.990200 */
-
-REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1956577298, 31646, 1240465664, 104.929, 32.6865, 170.005, 0.945201, 0, 0, -0.326488, False, '2019-02-11 00:00:00'); /* Xun Yu */
-/* @teleloc 0x49F00100 [104.929000 32.686500 170.005000] 0.945201 0.000000 0.000000 -0.326488 */
-
-REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1956577300, 31316, 1240465443, 108.58, 66.9697, 170.005, -0.738118, 0, 0, -0.674671, False, '2019-02-11 00:00:00'); /* Ricardo */
-/* @teleloc 0x49F00023 [108.580000 66.969700 170.005000] -0.738118 0.000000 0.000000 -0.674671 */
-
-REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1956577301, 31647, 1240465444, 100.839, 87.4448, 170.005, 0.587867, 0, 0, 0.808958, False, '2019-02-11 00:00:00'); /* Moina */
-/* @teleloc 0x49F00024 [100.839000 87.444800 170.005000] 0.587867 0.000000 0.000000 0.808958 */
-
-REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1956577302, 31656, 1240465451, 135.709, 63.9408, 170.005, -0.819854, 0, 0, 0.572573, False, '2019-02-11 00:00:00'); /* Ryuichi Tai */
-/* @teleloc 0x49F0002B [135.709000 63.940800 170.005000] -0.819854 0.000000 0.000000 0.572573 */
 
 REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1956577303, 37441, 1240465455, 136.845, 163.086, 170.005, 0.988486, 0, 0, 0.151311, False, '2019-02-11 00:00:00'); /* Francisco the Hunter */

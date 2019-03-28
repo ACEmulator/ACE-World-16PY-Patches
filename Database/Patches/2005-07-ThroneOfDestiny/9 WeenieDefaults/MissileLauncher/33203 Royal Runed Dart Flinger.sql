@@ -56,8 +56,7 @@ VALUES (33203,   1,   33559927) /* Setup */
      , (33203,  55,       2074) /* ProcSpell - Gossamer Flesh */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33203,  2074,      0)  /* Gossamer Flesh */
-     , (33203,  2096,      2)  /* Aura of Infected Caress */
+VALUES (33203,  2096,      2)  /* Aura of Infected Caress */
      , (33203,  2101,      2)  /* Aura of Cragstone's Will */
      , (33203,  2116,      2)  /* Aura of Atlan's Alacrity */
      , (33203,  2687,      2)  /* Moderate Missile Weapon Aptitude */;
