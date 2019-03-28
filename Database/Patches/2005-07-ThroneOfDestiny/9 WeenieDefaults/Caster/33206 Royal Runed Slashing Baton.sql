@@ -53,8 +53,7 @@ VALUES (33206,   1,   33559932) /* Setup */
      , (33206,  50,  100688914) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33206,  2101,      2)  /* Aura of Cragstone's Will */
-     , (33206,  2117,      2)  /* Aura of Mystic's Blessing */
-     , (33206,  2282,      0)  /* Futility */
-     , (33206,  2812,      2)  /* Moderate War Magic Aptitude */
-     , (33206,  3259,      2)  /* Aura of Infected Spirit Caress */;
+VALUES (33206,  2117,      2)  /* Aura of Mystic's Blessing */
+     , (33206,  2101,      2)  /* Aura of Cragstone's Will */
+     , (33206,  3259,      2)  /* Aura of Infected Spirit Caress */
+     , (33206,  2812,      2)  /* Moderate War Magic Aptitude */;

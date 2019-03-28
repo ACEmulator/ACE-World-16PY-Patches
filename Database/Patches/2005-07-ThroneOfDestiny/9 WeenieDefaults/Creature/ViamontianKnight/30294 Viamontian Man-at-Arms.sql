@@ -159,7 +159,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30294, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (30294, 9, 31861,  1, 0, 0.05, False) /* Create Fort Tethana Portal Gem (31861) for ContainTreasure */
      , (30294, 10, 29966,  1, 0, 0.25, False) /* Create Quadrelle (29966) for WieldTreasure */
      , (30294, 10, 29971,  1, 0, 0.25, False) /* Create Partizan (29971) for WieldTreasure */
      , (30294, 10, 29976,  1, 0, 0.25, False) /* Create Spadone (29976) for WieldTreasure */
