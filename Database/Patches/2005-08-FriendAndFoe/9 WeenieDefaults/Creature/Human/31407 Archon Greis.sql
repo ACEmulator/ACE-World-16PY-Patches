@@ -131,8 +131,8 @@ VALUES (31407,    85,   2.02)  /* Flame Bolt VI */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31407, 2,    57,  1, 93, 0, True) /* Create Platemail Gauntlets (57) for Wield */
      , (31407, 2,   107,  1, 93, 0, True) /* Create Sollerets (107) for Wield */
-     , (31407, 2,  6043,  1, 93, 0.25, True) /* Create Celdon Girth (6043) for Wield */
-     , (31407, 2,  6045,  1, 93, 0.25, True) /* Create Celdon Leggings (6045) for Wield */
+     , (31407, 2,  6043,  1, 93, 0.25, False) /* Create Celdon Girth (6043) for Wield */
+     , (31407, 2,  6045,  1, 93, 0.25, False) /* Create Celdon Leggings (6045) for Wield */
      , (31407, 2,  6046,  1, 39, 0.232225, True) /* Create Amuli Coat (6046) for Wield */
      , (31407, 9, 31394,  0, 0, 1, False) /* Create Circle of Raven Might (31394) for ContainTreasure */
      , (31407, 9, 31394,  0, 0, 1, False) /* Create Circle of Raven Might (31394) for ContainTreasure */
