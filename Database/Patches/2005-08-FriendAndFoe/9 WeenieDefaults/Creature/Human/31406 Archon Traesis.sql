@@ -97,7 +97,6 @@ VALUES (31406,   1,   400, 0, 0, 600) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (31406,  6, 0, 2, 0, 300, 0, 0) /* MeleeDefense        Trained */
      , (31406,  7, 0, 2, 0, 330, 0, 0) /* MissileDefense      Trained */
-     , (31406, 11, 0, 3, 0, 360, 0, 0) /* Sword               Specialized */
      , (31406, 15, 0, 2, 0, 280, 0, 0) /* MagicDefense        Trained */
      , (31406, 24, 0, 2, 0,  25, 0, 0) /* Run                 Trained */
      , (31406, 33, 0, 2, 0, 200, 0, 0) /* LifeMagic           Trained */
@@ -136,4 +135,4 @@ VALUES (31406, 2,    57,  0, 93, 0, True) /* Create Platemail Gauntlets (57) for
      , (31406, 9, 31396,  0, 0, 1, False) /* Create Caliginous Aegis (31396) for ContainTreasure */
      , (31406, 9, 31396,  0, 0, 1, False) /* Create Caliginous Aegis (31396) for ContainTreasure */
      , (31406, 9, 31396,  0, 0, 1, False) /* Create Caliginous Aegis (31396) for ContainTreasure */
-     , (31406, 10, 31396,  0, 0, 1, False) /* Create Caliginous Aegis (31396) for WieldTreasure */;
+     , (31406, 10, 31396,  0, 0, 1, False) /* Create Raven Hand Aegis (31392) for WieldTreasure */;

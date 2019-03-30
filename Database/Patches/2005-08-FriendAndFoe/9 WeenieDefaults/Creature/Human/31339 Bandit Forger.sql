@@ -88,9 +88,9 @@ VALUES (31339,   1, 315, 0, 0) /* Strength */
      , (31339,   6, 146, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31339,   1,  165, 0, 0,  171) /* MaxHealth */
-     , (31339,   3,  900, 0, 0, 1000) /* MaxStamina */
-     , (31339,   5,    0, 0, 0,    0) /* MaxMana */;
+VALUES (31339,   1,  290, 0, 0,  293) /* MaxHealth */
+     , (31339,   3,  900, 0, 0, 1245) /* MaxStamina */
+     , (31339,   5,    0, 0, 0,  146) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (31339, 44, 0, 3, 0, 380, 0, 748.172180175781) /* Heavy               Specialized */
