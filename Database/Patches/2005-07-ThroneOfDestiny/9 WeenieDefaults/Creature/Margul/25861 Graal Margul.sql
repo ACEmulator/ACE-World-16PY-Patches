@@ -80,8 +80,8 @@ VALUES (25861,   1,   33558554) /* Setup */
      , (25861,   8,  100675661) /* Icon */
      , (25861,  19,         84) /* ActivationAnimation */
      , (25861,  22,  872415401) /* PhysicsEffectTable */
-     , (25861,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (25861,  35,        461) /* DeathTreasureType */;
+     , (25861,  30,         86) /* PhysicsScript - BreatheAcid */
+     , (25861,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25861,   1, 150, 0, 0) /* Strength */
