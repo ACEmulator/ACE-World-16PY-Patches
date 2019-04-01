@@ -77,7 +77,7 @@ VALUES (24909,   1,   33557165) /* Setup */
      , (24909,   8,  100667623) /* Icon */
      , (24909,  19,         86) /* ActivationAnimation */
      , (24909,  22,  872415379) /* PhysicsEffectTable */
-     , (24909,  30,         85) /* PhysicsScript - BreatheFrost */
+     , (24909,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24909,  35,         29) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

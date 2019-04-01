@@ -17,7 +17,6 @@ VALUES (21050,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21050,  19,         10) /* Value */
      , (21050,  33,          1) /* Bonded - Bonded */
      , (21050,  91,        100) /* MaxStructure */
-     , (21050,  92,        100) /* Structure */
      , (21050,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21050,  94,      32768) /* TargetType - Caster */
      , (21050, 105,         10) /* ItemWorkmanship */

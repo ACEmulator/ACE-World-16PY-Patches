@@ -85,7 +85,7 @@ VALUES (30897,   1,   33558554) /* Setup */
      , (30897,   8,  100675661) /* Icon */
      , (30897,  19,         84) /* ActivationAnimation */
      , (30897,  22,  872415401) /* PhysicsEffectTable */
-     , (30897,  30,         83) /* PhysicsScript - PortalExit */
+     , (30897,  30,         84) /* PhysicsScript - BreatheFlame */
      , (30897,  35,         32) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
