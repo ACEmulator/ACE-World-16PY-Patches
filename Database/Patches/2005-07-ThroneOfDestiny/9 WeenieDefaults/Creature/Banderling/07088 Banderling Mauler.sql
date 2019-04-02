@@ -79,7 +79,7 @@ VALUES (7088,   1,   33558024) /* Setup */
      , (7088,   8,  100667453) /* Icon */
      , (7088,  22,  872415255) /* PhysicsEffectTable */
      , (7088,  32,        269) /* WieldedTreasureType */
-     , (7088,  35,        450) /* DeathTreasureType */;
+     , (7088,  35,        448) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7088,   1, 200, 0, 0) /* Strength */
