@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5423;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5423, 'glendeneastoutpostbowyer', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (5423, 'glendeneastoutpostbowyer', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5423,   1,         16) /* ItemType - Creature */
@@ -181,20 +181,20 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5423, 2,   117,  0, 16, 1, False) /* Create Breeches (117) for Wield */
+VALUES (5423, 2,   307,  0, 0, 0, False) /* Create Shortbow (307) for Wield */
      , (5423, 2,   134,  0, 18, 1, False) /* Create Tunic (134) for Wield */
-     , (5423, 2,   307,  0, 0, 0, False) /* Create Shortbow (307) for Wield */
+     , (5423, 2,   117,  0, 16, 1, False) /* Create Breeches (117) for Wield */
      , (5423, 2,  2606,  0, 18, 1, False) /* Create Boots (2606) for Wield */
      , (5423, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
-     , (5423, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
-     , (5423, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
      , (5423, 4,   307, -1, 0, 0, False) /* Create Shortbow (307) for Shop */
+     , (5423, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (5423, 4,   312, -1, 0, 0, False) /* Create Light Crossbow (312) for Shop */
+     , (5423, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
+     , (5423, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
+     , (5423, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
+     , (5423, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
      , (5423, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (5423, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (5423, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (5423, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
-     , (5423, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
-     , (5423, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
      , (5423, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (5423, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;

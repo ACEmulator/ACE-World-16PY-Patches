@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22516;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22516, 'humantuskerworshippermage', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (22516, 'humantuskerworshippermage', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22516,   1,         16) /* ItemType - Creature */
@@ -82,8 +82,10 @@ VALUES (22516,   1,   33554433) /* Setup */
      , (22516,  16,   67110065) /* EyesPalette */
      , (22516,  17,   67109559) /* SkinPalette */
      , (22516,  22,  872415236) /* PhysicsEffectTable */
-     , (22516,  32,        416) /* WieldedTreasureType */
-     , (22516,  35,        450) /* DeathTreasureType */;
+     , (22516,  32,        416) /* WieldedTreasureType - 
+                                   Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
+                                   Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50% */
+     , (22516,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22516,   1, 120, 0, 0) /* Strength */
@@ -146,7 +148,7 @@ VALUES (22516,    62,   2.09)  /* Acid Stream V */
      , (22516,  1327,    2.1)  /* Imperil Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22516, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (22516, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (22516, 9, 45875,  1, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (22516, 9, 45876,  1, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+VALUES (22516, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (22516, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (22516, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (22516, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

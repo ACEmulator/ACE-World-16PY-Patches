@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30052;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30052, 'viaweaponsmith', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (30052, 'viaweaponsmith', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30052,   1,         16) /* ItemType - Creature */
@@ -245,9 +245,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Be gone with you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30052, 2,   127,  0, 4, 0.5, False) /* Create Pants (127) for Wield */
+VALUES (30052, 2, 28609,  0, 18, 0, False) /* Create Vest (28609) for Wield */
      , (30052, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
-     , (30052, 2, 28609,  0, 18, 0, False) /* Create Vest (28609) for Wield */
+     , (30052, 2,   127,  0, 4, 0.5, False) /* Create Pants (127) for Wield */
      , (30052, 2, 28611,  0, 6, 0, False) /* Create Viamontian Laced Boots (28611) for Wield */
      , (30052, 2, 45411,  0, 21, 0.01, False) /* Create Spada (45411) for Wield */
      , (30052, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
@@ -261,26 +261,26 @@ VALUES (30052, 2,   127,  0, 4, 0.5, False) /* Create Pants (127) for Wield */
      , (30052, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30052, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (30052, 4, 28618, -1, 0, 0, False) /* Create Diforsa Helm (28618) for Shop */
-     , (30052, 4, 28621, -1, 0, 0, False) /* Create Diforsa Leggings (28621) for Shop */
-     , (30052, 4, 28622, -1, 0, 0, False) /* Create Tenassa Leggings (28622) for Shop */
-     , (30052, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
-     , (30052, 4, 28624, -1, 0, 0, False) /* Create Tenassa Sleeves (28624) for Shop */
-     , (30052, 4, 28625, -1, 0, 0, False) /* Create Diforsa Sollerets (28625) for Shop */
-     , (30052, 4, 28626, -1, 0, 0, False) /* Create Diforsa Tassets (28626) for Shop */
      , (30052, 4, 28627, -1, 0, 0, False) /* Create Diforsa Bracers (28627) for Shop */
      , (30052, 4, 28628, -1, 0, 0, False) /* Create Diforsa Breastplate (28628) for Shop */
      , (30052, 4, 28630, -1, 0, 0, False) /* Create Diforsa Cuirass (28630) for Shop */
      , (30052, 4, 28632, -1, 0, 0, False) /* Create Diforsa Gauntlets (28632) for Shop */
      , (30052, 4, 28633, -1, 0, 0, False) /* Create Diforsa Girth (28633) for Shop */
+     , (30052, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
+     , (30052, 4, 28626, -1, 0, 0, False) /* Create Diforsa Tassets (28626) for Shop */
      , (30052, 4, 28634, -1, 0, 0, False) /* Create Diforsa Greaves (28634) for Shop */
+     , (30052, 4, 28621, -1, 0, 0, False) /* Create Diforsa Leggings (28621) for Shop */
+     , (30052, 4, 28625, -1, 0, 0, False) /* Create Diforsa Sollerets (28625) for Shop */
+     , (30052, 4, 28624, -1, 0, 0, False) /* Create Tenassa Sleeves (28624) for Shop */
+     , (30052, 4, 31026, -1, 0, 0, False) /* Create Tenassa Breastplate (31026) for Shop */
+     , (30052, 4, 28622, -1, 0, 0, False) /* Create Tenassa Leggings (28622) for Shop */
+     , (30052, 4, 45411, -1, 0, 0, False) /* Create Spada (45411) for Shop */
      , (30052, 4, 30556, -1, 0, 0, False) /* Create Hatchet (30556) for Shop */
      , (30052, 4, 30581, -1, 0, 0, False) /* Create Mazule (30581) for Shop */
      , (30052, 4, 30591, -1, 0, 0, False) /* Create Partizan (30591) for Shop */
-     , (30052, 4, 30593, -1, 0, 0, False) /* Create Lightning Partizan (30593) for Shop */
-     , (30052, 4, 30606, -1, 0, 0, False) /* Create Bastone (30606) for Shop */
      , (30052, 4, 30611, -1, 0, 0, False) /* Create Knuckles (30611) for Shop */
-     , (30052, 4, 30616, -1, 0, 0, False) /* Create Arbalest (30616) for Shop */
+     , (30052, 4, 30606, -1, 0, 0, False) /* Create Bastone (30606) for Shop */
+     , (30052, 4, 30593, -1, 0, 0, False) /* Create Lightning Partizan (30593) for Shop */
      , (30052, 4, 30625, -1, 0, 0, False) /* Create War Bow (30625) for Shop */
-     , (30052, 4, 30746, -1, 0, 0, False) /* Create Dart Flinger (30746) for Shop */
-     , (30052, 4, 31026, -1, 0, 0, False) /* Create Tenassa Breastplate (31026) for Shop */
-     , (30052, 4, 45411, -1, 0, 0, False) /* Create Spada (45411) for Shop */;
+     , (30052, 4, 30616, -1, 0, 0, False) /* Create Arbalest (30616) for Shop */
+     , (30052, 4, 30746, -1, 0, 0, False) /* Create Dart Flinger (30746) for Shop */;

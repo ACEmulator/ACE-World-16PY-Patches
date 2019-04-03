@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30435;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30435, 'silyunbeggar', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30435, 'silyunbeggar', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30435,   1,         16) /* ItemType - Creature */
@@ -234,7 +234,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Mendica Scarsolo
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'I would rather starve than receive charity from the Bloodless.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30435, 2,   132,  0, 6, 0.25, False) /* Create Shoes (132) for Wield */
-     , (30435, 2,   141,  0, 0, 0, False) /* Create Bowl (141) for Wield */
-     , (30435, 2,  2590,  0, 17, 0.6364, False) /* Create Shirt (2590) for Wield */
-     , (30435, 2,  2598,  0, 4, 0.2909, False) /* Create Pants (2598) for Wield */;
+VALUES (30435, 2,  2590,  0, 17, 0.6364, False) /* Create Shirt (2590) for Wield */
+     , (30435, 2,  2598,  0, 4, 0.2909, False) /* Create Pants (2598) for Wield */
+     , (30435, 2,   132,  0, 6, 0.25, False) /* Create Shoes (132) for Wield */
+     , (30435, 2,   141,  0, 0, 0, False) /* Create Bowl (141) for Wield */;

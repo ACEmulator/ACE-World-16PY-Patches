@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31290;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31290, 'ace31290-soldier', 10, '2019-03-26 23:43:22') /* Creature */;
+VALUES (31290, 'ace31290-soldier', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31290,   1,         16) /* ItemType - Creature */
@@ -68,10 +68,10 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 0, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 0, NULL, 'You seek Commander Kurth? He has been gone for some time. You''ll want to speak with Lieutenant Commander Margyle. The Renegades are tunneling beneath the fort. There''s a force of men down below to deal with the creatures before they can break through the earth. You can find the entrance to the pit just southwest of here. It''s still on the plateau, though.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31290, 2,    91,  0, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (31290, 2,   107,  0, 14, 0.5, False) /* Create Sollerets (107) for Wield */
-     , (31290, 2,  6043,  0, 14, 0.5, False) /* Create Celdon Girth (6043) for Wield */
-     , (31290, 2,  6044,  0, 14, 0.5, False) /* Create Celdon Breastplate (6044) for Wield */
+VALUES (31290, 2,  6044,  0, 14, 0.5, False) /* Create Celdon Breastplate (6044) for Wield */
      , (31290, 2,  6045,  0, 14, 0.5, False) /* Create Celdon Leggings (6045) for Wield */
      , (31290, 2,  6048,  0, 14, 0.5, False) /* Create Celdon Sleeves (6048) for Wield */
-     , (31290, 2, 30562,  0, 0, 0, False) /* Create Acid Dolabra (30562) for Wield */;
+     , (31290, 2,  6043,  0, 14, 0.5, False) /* Create Celdon Girth (6043) for Wield */
+     , (31290, 2,   107,  0, 14, 0.5, False) /* Create Sollerets (107) for Wield */
+     , (31290, 2, 30562,  0, 0, 0, False) /* Create Acid Dolabra (30562) for Wield */
+     , (31290, 2,    91,  0, 0, 0, False) /* Create Kite Shield (91) for Wield */;

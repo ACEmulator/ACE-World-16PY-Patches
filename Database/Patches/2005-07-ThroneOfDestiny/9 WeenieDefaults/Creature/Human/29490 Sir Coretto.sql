@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29490;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29490, 'knightkarlunsircoretto', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29490, 'knightkarlunsircoretto', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29490,   1,         16) /* ItemType - Creature */
@@ -78,7 +78,7 @@ VALUES (29490,   1,   33554433) /* Setup */
      , (29490,   8,  100667446) /* Icon */
      , (29490,  17,   67115902) /* SkinPalette */
      , (29490,  22,  872415269) /* PhysicsEffectTable */
-     , (29490,  35,        450) /* DeathTreasureType */;
+     , (29490,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29490,   1, 210, 0, 0) /* Strength */
@@ -176,12 +176,12 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I would wager my friend Sir
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'Please, put me out of my misery. Strike me down so I may die like a true Knight. And when I am dead, take my last testament to Ginazio... So he will know. So they all will know.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29490, 2, 28622,  1, 20, 0.8082, False) /* Create Tenassa Leggings (28622) for Wield */
+VALUES (29490, 2, 31026,  1, 20, 0.5, False) /* Create Tenassa Breastplate (31026) for Wield */
      , (29490, 2, 28624,  1, 20, 0.5, False) /* Create Tenassa Sleeves (28624) for Wield */
+     , (29490, 2, 28622,  1, 20, 0.8082, False) /* Create Tenassa Leggings (28622) for Wield */
      , (29490, 2, 28625,  1, 20, 0.5, False) /* Create Diforsa Sollerets (28625) for Wield */
-     , (29490, 2, 31026,  1, 20, 0.5, False) /* Create Tenassa Breastplate (31026) for Wield */
-     , (29490, 9,     0,  0, 0, 1, True) /* Create nothing for ContainTreasure */
      , (29490, 9, 29495,  1, 0, 1, True) /* Create Testament of Sir Coretto (29495) for ContainTreasure */
+     , (29490, 9,     0,  0, 0, 1, True) /* Create nothing for ContainTreasure */
      , (29490, 10, 29965,  1, 0, 0.4, False) /* Create Quadrelle (29965) for WieldTreasure */
      , (29490, 10, 29972,  1, 0, 0.4, False) /* Create Partizan (29972) for WieldTreasure */
      , (29490, 10, 29977,  1, 0, 0.2, False) /* Create Spadone (29977) for WieldTreasure */;

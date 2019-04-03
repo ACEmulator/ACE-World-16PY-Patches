@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22509;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22509, 'humantuskerkin', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (22509, 'humantuskerkin', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22509,   1,         16) /* ItemType - Creature */
@@ -79,8 +79,18 @@ VALUES (22509,   1,   33554510) /* Setup */
      , (22509,  16,   67110062) /* EyesPalette */
      , (22509,  17,   67109559) /* SkinPalette */
      , (22509,  22,  872415236) /* PhysicsEffectTable */
-     , (22509,  32,        415) /* WieldedTreasureType */
-     , (22509,  35,        453) /* DeathTreasureType */;
+     , (22509,  32,        415) /* WieldedTreasureType - 
+                                   Wield Towel (10757) | Palette: Blue (2) | Probability: 50%
+                                   Wield Towel (10757) | Palette: Green (8) | Probability: 50%
+                                   Wield Bandit Dagger (12052) | Probability: 12.5%
+                                   Wield Bandit Jambiya (12057) | Probability: 12.5%
+                                   Wield Bandit Khanjar (12062) | Probability: 12.5%
+                                   Wield Bandit Knife (12067) | Probability: 12.5%
+                                   Wield Bandit Simi (12072) | Probability: 12.5%
+                                   Wield Bandit Rapier (12076) | Probability: 2.77%
+                                   Wield Bandit Short Sword (12078) | Probability: 12.5%
+                                   Wield Bandit Yaoji (12083) | Probability: 12.5% */
+     , (22509,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22509,   1,  90, 0, 0) /* Strength */

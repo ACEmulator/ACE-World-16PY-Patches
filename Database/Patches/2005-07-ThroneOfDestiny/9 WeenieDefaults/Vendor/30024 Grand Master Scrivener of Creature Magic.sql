@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30024;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30024, 'viascrivenercreatureextreme', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (30024, 'viascrivenercreatureextreme', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30024,   1,         16) /* ItemType - Creature */
@@ -184,6 +184,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767239 /* Wave */, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30024, 2, 28614,  0, 93, 0.5, False) /* Create Vestiri Robe with Hood (28614) for Wield */
+     , (30024, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */
+     , (30024, 4, 28945, -1, 0, 0, False) /* Create Scroll of Arcanum Enlightenment VI (28945) for Shop */
+     , (30024, 4, 28938, -1, 0, 0, False) /* Create Scroll of Arcanum Salvaging VI (28938) for Shop */
      , (30024, 4,  2638, -1, 0, 0, False) /* Create Scroll of Bafflement Other VI (2638) for Shop */
      , (30024, 4,  2643, -1, 0, 0, False) /* Create Scroll of Clumsiness Other VI (2643) for Shop */
      , (30024, 4,  2648, -1, 0, 0, False) /* Create Scroll of Coordination Other VI (2648) for Shop */
@@ -202,6 +205,9 @@ VALUES (30024, 2, 28614,  0, 93, 0.5, False) /* Create Vestiri Robe with Hood (2
      , (30024, 4,  2751, -1, 0, 0, False) /* Create Scroll of Weakness Other VI (2751) for Shop */
      , (30024, 4,  2756, -1, 0, 0, False) /* Create Scroll of WillPower Other VI (2756) for Shop */
      , (30024, 4,  2761, -1, 0, 0, False) /* Create Scroll of WillPower Self VI (2761) for Shop */
+     , (30024, 4,  5985, -1, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other VI (5985) for Shop */
+     , (30024, 4,  5991, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Other VI (5991) for Shop */
+     , (30024, 4,  5997, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Self VI (5997) for Shop */
      , (30024, 4,  3132, -1, 0, 0, False) /* Create Scroll of Arcane Benightedness VI (3132) for Shop */
      , (30024, 4,  3137, -1, 0, 0, False) /* Create Scroll of Arcane Enlightenment VI (3137) for Shop */
      , (30024, 4,  3142, -1, 0, 0, False) /* Create Scroll of Arcane Enlightenment Self VI (3142) for Shop */
@@ -214,6 +220,9 @@ VALUES (30024, 2, 28614,  0, 93, 0.5, False) /* Create Vestiri Robe with Hood (2
      , (30024, 4,  3177, -1, 0, 0, False) /* Create Scroll of Bow Ineptitude Other VI (3177) for Shop */
      , (30024, 4,  3182, -1, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Other VI (3182) for Shop */
      , (30024, 4,  3187, -1, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Self VI (3187) for Shop */
+     , (30024, 4,  5949, -1, 0, 0, False) /* Create Scroll of Cooking Ineptitude Other VI (5949) for Shop */
+     , (30024, 4,  5955, -1, 0, 0, False) /* Create Scroll of Cooking Mastery Other VI (5955) for Shop */
+     , (30024, 4,  5961, -1, 0, 0, False) /* Create Scroll of Cooking Mastery Self VI (5961) for Shop */
      , (30024, 4,  3192, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Ineptitude VI (3192) for Shop */
      , (30024, 4,  3197, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Other VI (3197) for Shop */
      , (30024, 4,  3202, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Self VI (3202) for Shop */
@@ -227,6 +236,9 @@ VALUES (30024, 2, 28614,  0, 93, 0.5, False) /* Create Vestiri Robe with Hood (2
      , (30024, 4,  3257, -1, 0, 0, False) /* Create Scroll of Faithlessness VI (3257) for Shop */
      , (30024, 4,  3262, -1, 0, 0, False) /* Create Scroll of Fealty Other VI (3262) for Shop */
      , (30024, 4,  3267, -1, 0, 0, False) /* Create Scroll of Fealty Self VI (3267) for Shop */
+     , (30024, 4,  5967, -1, 0, 0, False) /* Create Scroll of Fletching Ineptitude Other VI (5967) for Shop */
+     , (30024, 4,  5973, -1, 0, 0, False) /* Create Scroll of Fletching Mastery Other VI (5973) for Shop */
+     , (30024, 4,  5979, -1, 0, 0, False) /* Create Scroll of Fletching Mastery Self VI (5979) for Shop */
      , (30024, 4,  3272, -1, 0, 0, False) /* Create Scroll of Healing Ineptitude VI (3272) for Shop */
      , (30024, 4,  3277, -1, 0, 0, False) /* Create Scroll of Healing Mastery Other VI (3277) for Shop */
      , (30024, 4,  3282, -1, 0, 0, False) /* Create Scroll of Healing Mastery Self VI (3282) for Shop */
@@ -240,6 +252,7 @@ VALUES (30024, 2, 28614,  0, 93, 0.5, False) /* Create Vestiri Robe with Hood (2
      , (30024, 4,  3322, -1, 0, 0, False) /* Create Scroll of Item Tinkering Expertise Other VI (3322) for Shop */
      , (30024, 4,  3327, -1, 0, 0, False) /* Create Scroll of Item Tinkering Expertise Self VI (3327) for Shop */
      , (30024, 4,  3332, -1, 0, 0, False) /* Create Scroll of Item Tinkering Ignorance VI (3332) for Shop */
+     , (30024, 4,  9629, -1, 0, 0, False) /* Create Scroll of Jumping Ineptitude VI (9629) for Shop */
      , (30024, 4,  3337, -1, 0, 0, False) /* Create Scroll of Jumping Mastery Other VI (3337) for Shop */
      , (30024, 4,  3342, -1, 0, 0, False) /* Create Scroll of Jumping Mastery Self VI (3342) for Shop */
      , (30024, 4,  3347, -1, 0, 0, False) /* Create Scroll of Leaden Feet VI (3347) for Shop */
@@ -258,7 +271,9 @@ VALUES (30024, 2, 28614,  0, 93, 0.5, False) /* Create Vestiri Robe with Hood (2
      , (30024, 4,  3427, -1, 0, 0, False) /* Create Scroll of Magic Yield Other VI (3427) for Shop */
      , (30024, 4,  3432, -1, 0, 0, False) /* Create Scroll of Mana Mastery Other VI (3432) for Shop */
      , (30024, 4,  3437, -1, 0, 0, False) /* Create Scroll of Mana Mastery Self VI (3437) for Shop */
+     , (30024, 4,  9613, -1, 0, 0, False) /* Create Scroll of Mana Ineptitude Other VI (9613) for Shop */
      , (30024, 4,  3442, -1, 0, 0, False) /* Create Scroll of Monster Attunement Other VI (3442) for Shop */
+     , (30024, 4,  5547, -1, 0, 0, False) /* Create Scroll of Monster Attunement Self VI (5547) for Shop */
      , (30024, 4,  3447, -1, 0, 0, False) /* Create Scroll of Monster Unfamiliarity VI (3447) for Shop */
      , (30024, 4,  3452, -1, 0, 0, False) /* Create Scroll of Person Attunement Other VI (3452) for Shop */
      , (30024, 4,  3457, -1, 0, 0, False) /* Create Scroll of Person Attunement Self VI (3457) for Shop */
@@ -277,33 +292,18 @@ VALUES (30024, 2, 28614,  0, 93, 0.5, False) /* Create Vestiri Robe with Hood (2
      , (30024, 4,  3582, -1, 0, 0, False) /* Create Scroll of Weapon Tinkering Expertise Other VI (3582) for Shop */
      , (30024, 4,  3587, -1, 0, 0, False) /* Create Scroll of Weapon Tinkering Expertise Self VI (3587) for Shop */
      , (30024, 4,  3592, -1, 0, 0, False) /* Create Scroll of Weapon Tinkering Ignorance VI (3592) for Shop */
-     , (30024, 4,  5547, -1, 0, 0, False) /* Create Scroll of Monster Attunement Self VI (5547) for Shop */
-     , (30024, 4,  5949, -1, 0, 0, False) /* Create Scroll of Cooking Ineptitude Other VI (5949) for Shop */
-     , (30024, 4,  5955, -1, 0, 0, False) /* Create Scroll of Cooking Mastery Other VI (5955) for Shop */
-     , (30024, 4,  5961, -1, 0, 0, False) /* Create Scroll of Cooking Mastery Self VI (5961) for Shop */
-     , (30024, 4,  5967, -1, 0, 0, False) /* Create Scroll of Fletching Ineptitude Other VI (5967) for Shop */
-     , (30024, 4,  5973, -1, 0, 0, False) /* Create Scroll of Fletching Mastery Other VI (5973) for Shop */
-     , (30024, 4,  5979, -1, 0, 0, False) /* Create Scroll of Fletching Mastery Self VI (5979) for Shop */
-     , (30024, 4,  5985, -1, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other VI (5985) for Shop */
-     , (30024, 4,  5991, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Other VI (5991) for Shop */
-     , (30024, 4,  5997, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Self VI (5997) for Shop */
-     , (30024, 4,  9613, -1, 0, 0, False) /* Create Scroll of Mana Ineptitude Other VI (9613) for Shop */
-     , (30024, 4,  9629, -1, 0, 0, False) /* Create Scroll of Jumping Ineptitude VI (9629) for Shop */
-     , (30024, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */
-     , (30024, 4, 28938, -1, 0, 0, False) /* Create Scroll of Arcanum Salvaging VI (28938) for Shop */
-     , (30024, 4, 28945, -1, 0, 0, False) /* Create Scroll of Arcanum Enlightenment VI (28945) for Shop */
-     , (30024, 4, 41261, -1, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Self VI (41261) for Shop */
-     , (30024, 4, 41261, -1, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Self VI (41261) for Shop */
-     , (30024, 4, 41293, -1, 0, 0, False) /* Create Scroll of Two Handed Weapons Ineptitude VI (41293) for Shop */
      , (30024, 4, 41293, -1, 0, 0, False) /* Create Scroll of Two Handed Weapons Ineptitude VI (41293) for Shop */
      , (30024, 4, 41301, -1, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Other VI (41301) for Shop */
+     , (30024, 4, 41261, -1, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Self VI (41261) for Shop */
+     , (30024, 4, 43364, -1, 0, 0, False) /* Create Scroll of Void Magic Ineptitude VI (43364) for Shop */
+     , (30024, 4, 43365, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Other VI (43365) for Shop */
+     , (30024, 4, 43366, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Self VI (43366) for Shop */
+     , (30024, 4, 41261, -1, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Self VI (41261) for Shop */
      , (30024, 4, 41301, -1, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Other VI (41301) for Shop */
-     , (30024, 4, 43364, -1, 0, 0, False) /* Create  (43364) for Shop */
-     , (30024, 4, 43365, -1, 0, 0, False) /* Create  (43365) for Shop */
-     , (30024, 4, 43366, -1, 0, 0, False) /* Create  (43366) for Shop */
-     , (30024, 4, 45265, -1, 0, 0, False) /* Create Scroll of Dual Wield Ineptitude Other VI (45265) for Shop */
-     , (30024, 4, 45273, -1, 0, 0, False) /* Create Scroll of Dual Wield Mastery Other VI (45273) for Shop */
+     , (30024, 4, 41293, -1, 0, 0, False) /* Create Scroll of Two Handed Weapons Ineptitude VI (41293) for Shop */
      , (30024, 4, 45281, -1, 0, 0, False) /* Create Scroll of Dual Wield Mastery Self VI (45281) for Shop */
-     , (30024, 4, 45313, -1, 0, 0, False) /* Create Scroll of Shield Ineptitude Other VI (45313) for Shop */
+     , (30024, 4, 45273, -1, 0, 0, False) /* Create Scroll of Dual Wield Mastery Other VI (45273) for Shop */
+     , (30024, 4, 45265, -1, 0, 0, False) /* Create Scroll of Dual Wield Ineptitude Other VI (45265) for Shop */
+     , (30024, 4, 45329, -1, 0, 0, False) /* Create Scroll of Shield Mastery Self VI (45329) for Shop */
      , (30024, 4, 45321, -1, 0, 0, False) /* Create Scroll of Shield Mastery Other VI (45321) for Shop */
-     , (30024, 4, 45329, -1, 0, 0, False) /* Create Scroll of Shield Mastery Self VI (45329) for Shop */;
+     , (30024, 4, 45313, -1, 0, 0, False) /* Create Scroll of Shield Ineptitude Other VI (45313) for Shop */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30385;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30385, 'fiunoutpostgianni', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30385, 'fiunoutpostgianni', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30385,   1,         16) /* ItemType - Creature */
@@ -115,7 +115,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'It is true that the Fiun are responsible for creating the Eaters. However, they did not do so out of malice. They thought they were doing the universe a great service. But the Eaters broke free of their bonds and decimated the Fiun homeworld. Now the Fiun focus their collective will in an effort to permanently eradicate the Eaters.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30385, 2,   133,  0, 2, 0.25, False) /* Create Slippers (133) for Wield */
-     , (30385, 2, 28605,  0, 14, 0.0116, False) /* Create Beret (28605) for Wield */
+VALUES (30385, 2, 28605,  0, 14, 0.0116, False) /* Create Beret (28605) for Wield */
+     , (30385, 2, 28609,  0, 4, 0, False) /* Create Vest (28609) for Wield */
      , (30385, 2, 28606,  0, 8, 0.0116, False) /* Create Viamontian Pants (28606) for Wield */
-     , (30385, 2, 28609,  0, 4, 0, False) /* Create Vest (28609) for Wield */;
+     , (30385, 2,   133,  0, 2, 0.25, False) /* Create Slippers (133) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28684;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28684, 'cragstonebrienne', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28684, 'cragstonebrienne', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28684,   1,         16) /* ItemType - Creature */
@@ -536,14 +536,14 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Find Fiun Rehlyun on the Halaetan Islands if you need a blank augmentation gem.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28684, 2,    35,  0, 21, 0.3636, False) /* Create Chainmail Basinet (35) for Wield */
-     , (28684, 2,    37,  0, 21, 0.2727, False) /* Create Scalemail Bracers (37) for Wield */
+VALUES (28684, 2,   348,  0, 0, 0, False) /* Create Spear (348) for Wield */
+     , (28684, 2,    91,  0, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (28684, 2,    35,  0, 21, 0.3636, False) /* Create Chainmail Basinet (35) for Wield */
      , (28684, 2,    41,  0, 21, 0.2727, False) /* Create Scalemail Breastplate (41) for Wield */
+     , (28684, 2,    88,  0, 21, 0.2727, False) /* Create Scalemail Pauldrons (88) for Wield */
+     , (28684, 2,    37,  0, 21, 0.2727, False) /* Create Scalemail Bracers (37) for Wield */
      , (28684, 2,    55,  0, 39, 0.3333, False) /* Create Chainmail Gauntlets (55) for Wield */
      , (28684, 2,    62,  0, 21, 0.2727, False) /* Create Scalemail Girth (62) for Wield */
-     , (28684, 2,    88,  0, 21, 0.2727, False) /* Create Scalemail Pauldrons (88) for Wield */
-     , (28684, 2,    91,  0, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (28684, 2,   107,  0, 21, 0.2727, False) /* Create Sollerets (107) for Wield */
      , (28684, 2,   108,  0, 21, 0.2727, False) /* Create Chainmail Tassets (108) for Wield */
-     , (28684, 2,   348,  0, 0, 0, False) /* Create Spear (348) for Wield */
-     , (28684, 2,  2605,  0, 21, 0.2727, False) /* Create Chainmail Greaves (2605) for Wield */;
+     , (28684, 2,  2605,  0, 21, 0.2727, False) /* Create Chainmail Greaves (2605) for Wield */
+     , (28684, 2,   107,  0, 21, 0.2727, False) /* Create Sollerets (107) for Wield */;

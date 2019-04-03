@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7082;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7082, 'armoredilloisland', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7082, 'armoredilloisland', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7082,   1,         16) /* ItemType - Creature */
@@ -70,7 +70,7 @@ VALUES (7082,   1,   33554436) /* Setup */
      , (7082,   7,  268435547) /* ClothingBase */
      , (7082,   8,  100667935) /* Icon */
      , (7082,  22,  872415253) /* PhysicsEffectTable */
-     , (7082,  35,        457) /* DeathTreasureType */;
+     , (7082,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7082,   1, 160, 0, 0) /* Strength */
@@ -134,7 +134,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7082, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
-     , (7082, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7082, 9,  8424,  0, 0, 0.07, False) /* Create Island Armoredillo Spine (8424) for ContainTreasure */
-     , (7082, 9,  8471,  0, 0, 0.05, False) /* Create Sturdy Armoredillo Hide (8471) for ContainTreasure */;
+VALUES (7082, 9,  8424,  0, 0, 0.07, False) /* Create Island Armoredillo Spine (8424) for ContainTreasure */
+     , (7082, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
+     , (7082, 9,  8471,  0, 0, 0.05, False) /* Create Sturdy Armoredillo Hide (8471) for ContainTreasure */
+     , (7082, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

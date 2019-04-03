@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25709;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25709, 'banditnoir', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25709, 'banditnoir', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25709,   1,         16) /* ItemType - Creature */
@@ -79,7 +79,7 @@ VALUES (25709,   1,   33554433) /* Setup */
      , (25709,  16,   67109566) /* EyesPalette */
      , (25709,  17,   67109562) /* SkinPalette */
      , (25709,  22,  872415236) /* PhysicsEffectTable */
-     , (25709,  35,        356) /* DeathTreasureType */;
+     , (25709,  35,        356) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25709,   1,  90, 0, 0) /* Strength */
@@ -137,7 +137,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'We''re under Attack!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25709, 2,   117,  0, 8, 1, False) /* Create Breeches (117) for Wield */
-     , (25709, 2,   133,  0, 14, 0, False) /* Create Slippers (133) for Wield */
+VALUES (25709, 2, 25702,  0, 0, 0, False) /* Create Bandit Mask (25702) for Wield */
+     , (25709, 2,   117,  0, 8, 1, False) /* Create Breeches (117) for Wield */
      , (25709, 2,  2591,  0, 14, 1, False) /* Create Shirt (2591) for Wield */
-     , (25709, 2, 25702,  0, 0, 0, False) /* Create Bandit Mask (25702) for Wield */;
+     , (25709, 2,   133,  0, 14, 0, False) /* Create Slippers (133) for Wield */;

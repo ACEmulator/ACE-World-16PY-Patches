@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29051;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29051, 'sanamarseneschaldalmour', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29051, 'sanamarseneschaldalmour', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29051,   1,         16) /* ItemType - Creature */
@@ -160,7 +160,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You''ve returned with anoth
      , (@parent_id,  7,  70 /* SetQuestCompletions */, 0, 1, NULL, 'FledgemasterTuskComplete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29051, 2,    56, -1, 4, 0.25, False) /* Create Leather Gauntlets (56) for Wield */
+VALUES (29051, 2, 28607, -1, 14, 0, False) /* Create Lace Shirt (28607) for Wield */
      , (29051, 2, 28606, -1, 5, 0.0116, False) /* Create Viamontian Pants (28606) for Wield */
-     , (29051, 2, 28607, -1, 14, 0, False) /* Create Lace Shirt (28607) for Wield */
+     , (29051, 2,    56, -1, 4, 0.25, False) /* Create Leather Gauntlets (56) for Wield */
      , (29051, 2, 28610, -1, 4, 0.25, False) /* Create Loafers (28610) for Wield */;

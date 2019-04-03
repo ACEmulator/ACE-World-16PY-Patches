@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25967;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25967, 'zharalimrayssidibnalhath', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25967, 'zharalimrayssidibnalhath', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25967,   1,         16) /* ItemType - Creature */
@@ -80,8 +80,24 @@ VALUES (25967,   1,   33554433) /* Setup */
      , (25967,  16,   67110063) /* EyesPalette */
      , (25967,  17,   67109550) /* SkinPalette */
      , (25967,  22,  872415236) /* PhysicsEffectTable */
-     , (25967,  32,        198) /* WieldedTreasureType */
-     , (25967,  35,        450) /* DeathTreasureType */;
+     , (25967,  32,        198) /* WieldedTreasureType - 
+                                   Wield Yumi (23733) | Probability: 12.5%
+                                   Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 12.5%
+                                   Wield 17x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 12.5%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 12.5%
+                                   Wield 16x Deadly Armor Piercing Quarrel (15440) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 12.5%
+                                   Wield 20x Deadly Broadhead Arrow (15433) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 12.5%
+                                   Wield 17x Deadly Blunt Arrow (15432) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 12.5%
+                                   Wield 20x Deadly Broadhead Quarrel (15442) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 12.5%
+                                   Wield 16x Deadly Blunt Quarrel (15441) | Probability: 100% */
+     , (25967,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25967,   1, 190, 0, 0) /* Strength */
@@ -135,15 +151,15 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073753, NULL, NULL, NULL, NU
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25967, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wield */
      , (25967, 2, 12193,  0, 39, 1, False) /* Create Dho Vest and Robe (12193) for Wield */
-     , (25967, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
+     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
+     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
+     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
+     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
+     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
+     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
+     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
+     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
+     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
      , (25967, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
-     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
-     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
-     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
-     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
-     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
-     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
-     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
-     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
-     , (25967, 9, 25960,  0, 0, 1, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */;
+     , (25967, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

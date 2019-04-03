@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28687;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28687, 'cragstonekris', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28687, 'cragstonekris', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28687,   1,         16) /* ItemType - Creature */
@@ -547,10 +547,10 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'If you haven''t already acquired one of these gems, you should seek out Fiun Rehlyun on the Halaetan Isles. Until you speak with it, there is nothing I can do for you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28687, 2,    57,  0, 20, 0.5333, False) /* Create Platemail Gauntlets (57) for Wield */
+VALUES (28687, 2,  8489,  0, 20, 0.5333, False) /* Create Heaume (8489) for Wield */
      , (28687, 2,    72,  0, 20, 0.5, False) /* Create Platemail Hauberk (72) for Wield */
+     , (28687, 2,    57,  0, 20, 0.5333, False) /* Create Platemail Gauntlets (57) for Wield */
      , (28687, 2,    82,  0, 20, 0.5333, False) /* Create Platemail Leggings (82) for Wield */
-     , (28687, 2,    91,  0, 0, 0, False) /* Create Kite Shield (91) for Wield */
      , (28687, 2,   107,  0, 20, 0.5333, False) /* Create Sollerets (107) for Wield */
-     , (28687, 2,   332,  0, 0, 0, False) /* Create Morning Star (332) for Wield */
-     , (28687, 2,  8489,  0, 20, 0.5333, False) /* Create Heaume (8489) for Wield */;
+     , (28687, 2,    91,  0, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (28687, 2,   332,  0, 0, 0, False) /* Create Morning Star (332) for Wield */;

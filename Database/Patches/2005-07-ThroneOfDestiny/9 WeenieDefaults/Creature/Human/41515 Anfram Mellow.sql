@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41515;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41515, 'ace41515-anframmellow', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (41515, 'ace41515-anframmellow', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41515,   1,         16) /* ItemType - Creature */
@@ -600,12 +600,12 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Bring me a blank augmentation gem and I will teach you my secret.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41515, 2,   351,  0, 0, 0, False) /* Create Long Sword (351) for Wield */
-     , (41515, 2, 25547,  0, 0, 0, False) /* Create Greater Olthoi Shield (25547) for Wield */
+VALUES (41515, 2, 37197,  0, 92, 0, False) /* Create Olthoi Celdon Helm (37197) for Wield */
      , (41515, 2, 37189,  0, 92, 0, False) /* Create Olthoi Celdon Gauntlets (37189) for Wield */
      , (41515, 2, 37192,  0, 92, 0, False) /* Create Olthoi Celdon Girth (37192) for Wield */
-     , (41515, 2, 37197,  0, 92, 0, False) /* Create Olthoi Celdon Helm (37197) for Wield */
-     , (41515, 2, 37202,  0, 92, 0, False) /* Create Olthoi Celdon Leggings (37202) for Wield */
      , (41515, 2, 37205,  0, 92, 0, False) /* Create Olthoi Celdon Sleeves (37205) for Wield */
+     , (41515, 2, 37202,  0, 92, 0, False) /* Create Olthoi Celdon Leggings (37202) for Wield */
      , (41515, 2, 37209,  0, 92, 0, False) /* Create Olthoi Celdon Sollerets (37209) for Wield */
-     , (41515, 2, 37214,  0, 92, 0, False) /* Create Olthoi Celdon Breastplate (37214) for Wield */;
+     , (41515, 2, 37214,  0, 92, 0, False) /* Create Olthoi Celdon Breastplate (37214) for Wield */
+     , (41515, 2, 25547,  0, 0, 0, False) /* Create Greater Olthoi Shield (25547) for Wield */
+     , (41515, 2,   351,  0, 0, 0, False) /* Create Long Sword (351) for Wield */;

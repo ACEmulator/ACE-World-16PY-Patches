@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11809;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11809, 'collectorbanneralu', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11809, 'collectorbanneralu', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11809,   1,         16) /* ItemType - Creature */
@@ -975,10 +975,10 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, '', NULL
      , (@parent_id,  5,  10 /* Tell */, 1, 1, NULL, 'If you have already investigated the camps, and you have some trophy to prove it, I will gladly reward you. I also accept Tumerok insignia.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11809, 2,    57,  0, 20, 1, False) /* Create Platemail Gauntlets (57) for Wield */
+VALUES (11809, 2,  2591,  0, 9, 1, False) /* Create Shirt (2591) for Wield */
      , (11809, 2,    72,  0, 20, 1, False) /* Create Platemail Hauberk (72) for Wield */
-     , (11809, 2,    82,  0, 20, 1, False) /* Create Platemail Leggings (82) for Wield */
-     , (11809, 2,    85,  0, 20, 1, False) /* Create Chainmail Coif (85) for Wield */
-     , (11809, 2,   107,  0, 20, 1, False) /* Create Sollerets (107) for Wield */
      , (11809, 2,   117,  0, 17, 1, False) /* Create Breeches (117) for Wield */
-     , (11809, 2,  2591,  0, 9, 1, False) /* Create Shirt (2591) for Wield */;
+     , (11809, 2,    85,  0, 20, 1, False) /* Create Chainmail Coif (85) for Wield */
+     , (11809, 2,    82,  0, 20, 1, False) /* Create Platemail Leggings (82) for Wield */
+     , (11809, 2,   107,  0, 20, 1, False) /* Create Sollerets (107) for Wield */
+     , (11809, 2,    57,  0, 20, 1, False) /* Create Platemail Gauntlets (57) for Wield */;

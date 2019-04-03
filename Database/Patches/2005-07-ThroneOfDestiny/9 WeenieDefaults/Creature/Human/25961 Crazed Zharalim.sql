@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25961;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25961, 'zharalimcrazed', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25961, 'zharalimcrazed', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25961,   1,         16) /* ItemType - Creature */
@@ -80,8 +80,12 @@ VALUES (25961,   1,   33554433) /* Setup */
      , (25961,  16,   67110063) /* EyesPalette */
      , (25961,  17,   67109550) /* SkinPalette */
      , (25961,  22,  872415236) /* PhysicsEffectTable */
-     , (25961,  32,        222) /* WieldedTreasureType */
-     , (25961,  35,        450) /* DeathTreasureType */;
+     , (25961,  32,        222) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 20x Greater Arrow (5304) | Probability: 100%
+                                   Wield Heavy Crossbow (23667) | Probability: 50%
+                                   Wield 16x Greater Quarrel (5313) | Probability: 100% */
+     , (25961,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25961,   1, 200, 0, 0) /* Strength */
@@ -133,9 +137,9 @@ VALUES (25961,  1161,   2.05)  /* Heal Self VI */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25961, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wield */
      , (25961, 2, 12193,  0, 14, 0, False) /* Create Dho Vest and Robe (12193) for Wield */
-     , (25961, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (25961, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (25961, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (25961, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (25961, 9, 45875,  1, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (25961, 9, 45876,  1, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+     , (25961, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (25961, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (25961, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (25961, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (25961, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

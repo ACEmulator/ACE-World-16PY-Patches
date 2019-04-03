@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14514;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14514, 'acidelementalmiasma', 10, '2019-02-08 15:36:00') /* Creature */;
+VALUES (14514, 'acidelementalmiasma', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14514,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (14514,   1,   33557486) /* Setup */
      , (14514,   4,  805306368) /* CombatTable */
      , (14514,   8,  100672513) /* Icon */
      , (14514,  22,  872415349) /* PhysicsEffectTable */
-     , (14514,  35,        464) /* DeathTreasureType */;
+     , (14514,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14514,   1, 150, 0, 0) /* Strength */
@@ -125,5 +125,5 @@ VALUES (14514,    63,  2.004)  /* Acid Stream VI */
      , (14514,  1795,  2.004)  /* Acid Streak VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14514, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (14514, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+VALUES (14514, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (14514, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

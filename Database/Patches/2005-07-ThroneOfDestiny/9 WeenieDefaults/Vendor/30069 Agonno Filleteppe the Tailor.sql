@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30069;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30069, 'silyuntailor', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (30069, 'silyuntailor', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30069,   1,         16) /* ItemType - Creature */
@@ -200,9 +200,9 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Come and see me again if 
      , (@parent_id,  3,   5 /* Motion */, 0.1, 1, 318767239 /* Wave */, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30069, 2,   127,  0, 5, 1, False) /* Create Pants (127) for Wield */
-     , (30069, 2, 28605,  0, 5, 0.2093, False) /* Create Beret (28605) for Wield */
+VALUES (30069, 2, 28605,  0, 5, 0.2093, False) /* Create Beret (28605) for Wield */
      , (30069, 2, 28607,  0, 1, 0, False) /* Create Lace Shirt (28607) for Wield */
+     , (30069, 2,   127,  0, 5, 1, False) /* Create Pants (127) for Wield */
      , (30069, 2, 28611,  0, 4, 1, False) /* Create Viamontian Laced Boots (28611) for Wield */
      , (30069, 4, 28606, -1, 2, 0.8, False) /* Create Viamontian Pants (28606) for Shop */
      , (30069, 4, 28606, -1, 3, 1, False) /* Create Viamontian Pants (28606) for Shop */
@@ -222,6 +222,6 @@ VALUES (30069, 2,   127,  0, 5, 1, False) /* Create Pants (127) for Wield */
      , (30069, 4, 28611, -1, 2, 1, False) /* Create Viamontian Laced Boots (28611) for Shop */
      , (30069, 4, 28611, -1, 3, 1, False) /* Create Viamontian Laced Boots (28611) for Shop */
      , (30069, 4, 28611, -1, 5, 0, False) /* Create Viamontian Laced Boots (28611) for Shop */
-     , (30069, 4, 28613, -1, 1, 0.2963, False) /* Create Tessera Gown (28613) for Shop */
      , (30069, 4, 28614, -1, 2, 0.1786, False) /* Create Vestiri Robe with Hood (28614) for Shop */
-     , (30069, 4, 28614, -1, 5, 0.0714, False) /* Create Vestiri Robe with Hood (28614) for Shop */;
+     , (30069, 4, 28614, -1, 5, 0.0714, False) /* Create Vestiri Robe with Hood (28614) for Shop */
+     , (30069, 4, 28613, -1, 1, 0.2963, False) /* Create Tessera Gown (28613) for Shop */;

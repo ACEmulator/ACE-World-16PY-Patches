@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5365;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5365, 'yaraqakyafi', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (5365, 'yaraqakyafi', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5365,   1,         16) /* ItemType - Creature */
@@ -188,7 +188,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  67 /* Goto */, 0, 1, NULL, 'ExplorerSocietyText', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (5365,  1 /* Refuse */,      1, 8701 /* Lucky Gold Letter */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (5365,  1 /* Refuse */,      1, 8701 /* Old Lucky Gold Letter */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -338,6 +338,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5365, 2,   124,  0, 10, 0.06, False) /* Create Jerkin (124) for Wield */
+     , (5365, 2,  2604,  0, 11, 1, False) /* Create Breeches (2604) for Wield */
      , (5365, 2,   133,  0, 7, 0.8, False) /* Create Slippers (133) for Wield */
-     , (5365, 2,   135,  0, 14, 0.8, False) /* Create Turban (135) for Wield */
-     , (5365, 2,  2604,  0, 11, 1, False) /* Create Breeches (2604) for Wield */;
+     , (5365, 2,   135,  0, 14, 0.8, False) /* Create Turban (135) for Wield */;

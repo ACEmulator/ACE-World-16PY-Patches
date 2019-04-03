@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41516;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41516, 'ace41516-neelanashua', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (41516, 'ace41516-neelanashua', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41516,   1,         16) /* ItemType - Creature */
@@ -558,8 +558,8 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'All I need from you is a blank augmentation gem. Bring one to me and I will share my secrets with you. I promise, you will be glad that you did.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41516, 2,   127,  0, 4, 1, False) /* Create Pants (127) for Wield */
-     , (41516, 2,   133,  0, 4, 0.5, False) /* Create Slippers (133) for Wield */
+VALUES (41516, 2, 25702,  0, 14, 0, False) /* Create Bandit Mask (25702) for Wield */
      , (41516, 2,  2591,  0, 7, 0.8182, False) /* Create Shirt (2591) for Wield */
-     , (41516, 2, 25702,  0, 14, 0, False) /* Create Bandit Mask (25702) for Wield */
+     , (41516, 2,   127,  0, 4, 1, False) /* Create Pants (127) for Wield */
+     , (41516, 2,   133,  0, 4, 0.5, False) /* Create Slippers (133) for Wield */
      , (41516, 2, 27178,  0, 0, 0, False) /* Create Bladed Bow of Impaling (27178) for Wield */;

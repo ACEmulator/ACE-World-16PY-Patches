@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41522;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41522, 'ace41522-carlitogallo', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (41522, 'ace41522-carlitogallo', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41522,   1,         16) /* ItemType - Creature */
@@ -589,8 +589,8 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'With an augmentation gem I can inscribe for you ancient teachings that will increase your abilities with all melee weapons. Visit Fiun Rehlyun if you don''t already have a blank gem.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41522, 2, 28622,  0, 90, 0.3108, False) /* Create Tenassa Leggings (28622) for Wield */
+VALUES (41522, 2, 31026,  0, 90, 0, False) /* Create Tenassa Breastplate (31026) for Wield */
      , (41522, 2, 28624,  0, 90, 0.3108, False) /* Create Tenassa Sleeves (28624) for Wield */
-     , (41522, 2, 28625,  0, 90, 0, False) /* Create Diforsa Sollerets (28625) for Wield */
      , (41522, 2, 28632,  0, 90, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (41522, 2, 31026,  0, 90, 0, False) /* Create Tenassa Breastplate (31026) for Wield */;
+     , (41522, 2, 28622,  0, 90, 0.3108, False) /* Create Tenassa Leggings (28622) for Wield */
+     , (41522, 2, 28625,  0, 90, 0, False) /* Create Diforsa Sollerets (28625) for Wield */;

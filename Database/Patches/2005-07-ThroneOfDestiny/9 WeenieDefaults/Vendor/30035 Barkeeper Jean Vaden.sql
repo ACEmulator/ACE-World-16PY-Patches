@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30035;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30035, 'sanamarbarkeeper', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (30035, 'sanamarbarkeeper', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30035,   1,         16) /* ItemType - Creature */
@@ -241,25 +241,35 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'The environment outside these walls may be a bit hostile for your kind, but in here you should feel free to kick back, have a drink, and relax!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30035, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
-     , (30035, 2,   161,  0, 9, 1, False) /* Create Mug (161) for Wield */
-     , (30035, 2,  2587,  0, 13, 0.5, False) /* Create Shirt (2587) for Wield */
+VALUES (30035, 2,  2587,  0, 13, 0.5, False) /* Create Shirt (2587) for Wield */
      , (30035, 2,  2597,  0, 13, 0.5, False) /* Create Pants (2597) for Wield */
-     , (30035, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
-     , (30035, 2, 28611,  0, 9, 0.25, False) /* Create Viamontian Laced Boots (28611) for Wield */
+     , (30035, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (30035, 2, 28612,  0, 14, 0, False) /* Create Bandana (28612) for Wield */
-     , (30035, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
-     , (30035, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
-     , (30035, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
-     , (30035, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (30035, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
-     , (30035, 4,   549, -1, 0, 0, False) /* Create Bowl of Stew (549) for Shop */
-     , (30035, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
-     , (30035, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
-     , (30035, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
+     , (30035, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
+     , (30035, 2,   161,  0, 9, 1, False) /* Create Mug (161) for Wield */
+     , (30035, 2, 28611,  0, 9, 0.25, False) /* Create Viamontian Laced Boots (28611) for Wield */
      , (30035, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (30035, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (30035, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (30035, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (30035, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
+     , (30035, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (30035, 4,  4713, -1, 0, 0, False) /* Create Beef Stew (4713) for Shop */
+     , (30035, 4,   549, -1, 0, 0, False) /* Create Bowl of Stew (549) for Shop */
+     , (30035, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
+     , (30035, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
+     , (30035, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (30035, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (30035, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (30035, 4,  4745, -1, 0, 0, False) /* Create Viamont Toast (4745) for Shop */
+     , (30035, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (30035, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (30035, 4, 44905, -1, 0, 0, False) /* Create Contract for The Beacon (44905) for Shop */
+     , (30035, 4, 44906, -1, 0, 0, False) /* Create Contract for The Missing Necklace (44906) for Shop */
+     , (30035, 4, 44907, -1, 0, 0, False) /* Create Contract for Facilty Hub (44907) for Shop */
+     , (30035, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (30035, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (30035, 4, 23306, -1, 0, 0, False) /* Create Fish (23306) for Shop */
      , (30035, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30035, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30035, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -267,16 +277,6 @@ VALUES (30035, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (30035, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (30035, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (30035, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (30035, 4,  4713, -1, 0, 0, False) /* Create Beef Stew (4713) for Shop */
-     , (30035, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
-     , (30035, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
-     , (30035, 4,  4745, -1, 0, 0, False) /* Create Viamont Toast (4745) for Shop */
-     , (30035, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (30035, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (30035, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30035, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (30035, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30035, 4, 23306, -1, 0, 0, False) /* Create Fish (23306) for Shop */
-     , (30035, 4, 44905, -1, 0, 0, False) /* Create  (44905) for Shop */
-     , (30035, 4, 44906, -1, 0, 0, False) /* Create  (44906) for Shop */
-     , (30035, 4, 44907, -1, 0, 0, False) /* Create  (44907) for Shop */;
+     , (30035, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

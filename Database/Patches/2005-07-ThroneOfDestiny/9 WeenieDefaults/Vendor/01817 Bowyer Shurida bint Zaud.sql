@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1817;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1817, 'tufabowyer', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (1817, 'tufabowyer', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1817,   1,         16) /* ItemType - Creature */
@@ -173,24 +173,24 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1817, 2,   117,  0, 9, 0, False) /* Create Breeches (117) for Wield */
+VALUES (1817, 2,   334,  0, 0, 0, False) /* Create Nayin (334) for Wield */
      , (1817, 2,   124,  0, 4, 0.6, False) /* Create Jerkin (124) for Wield */
+     , (1817, 2,   117,  0, 9, 0, False) /* Create Breeches (117) for Wield */
      , (1817, 2,   129,  0, 6, 0, False) /* Create Sandals (129) for Wield */
      , (1817, 2,   135,  0, 4, 0.6, False) /* Create Turban (135) for Wield */
-     , (1817, 2,   334,  0, 0, 0, False) /* Create Nayin (334) for Wield */
      , (1817, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */
-     , (1817, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
-     , (1817, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
-     , (1817, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
-     , (1817, 4,   334, -1, 0, 0, False) /* Create Nayin (334) for Shop */
      , (1817, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1817, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (1817, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (1817, 4,  3598, -1, 0, 0, False) /* Create Armor Piercing Arrow (3598) for Shop */
-     , (1817, 4,  3602, -1, 0, 0, False) /* Create Armor Piercing Quarrel (3602) for Shop */
-     , (1817, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
      , (1817, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
+     , (1817, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
      , (1817, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
      , (1817, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails (23857) for Shop */
+     , (1817, 4,  3602, -1, 0, 0, False) /* Create Armor Piercing Quarrel (3602) for Shop */
+     , (1817, 4,  3598, -1, 0, 0, False) /* Create Armor Piercing Arrow (3598) for Shop */
+     , (1817, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
+     , (1817, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (1817, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
+     , (1817, 4,   334, -1, 0, 0, False) /* Create Nayin (334) for Shop */
      , (1817, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (1817, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;

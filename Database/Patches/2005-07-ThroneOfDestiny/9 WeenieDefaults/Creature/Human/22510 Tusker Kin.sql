@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22510;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22510, 'humantuskerkinmage', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (22510, 'humantuskerkinmage', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22510,   1,         16) /* ItemType - Creature */
@@ -82,8 +82,10 @@ VALUES (22510,   1,   33554433) /* Setup */
      , (22510,  16,   67109566) /* EyesPalette */
      , (22510,  17,   67109558) /* SkinPalette */
      , (22510,  22,  872415236) /* PhysicsEffectTable */
-     , (22510,  32,        416) /* WieldedTreasureType */
-     , (22510,  35,        453) /* DeathTreasureType */;
+     , (22510,  32,        416) /* WieldedTreasureType - 
+                                   Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
+                                   Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50% */
+     , (22510,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22510,   1,  40, 0, 0) /* Strength */

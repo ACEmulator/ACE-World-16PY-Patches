@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30038;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30038, 'sanamararchmage', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (30038, 'sanamararchmage', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30038,   1,         16) /* ItemType - Creature */
@@ -244,45 +244,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Be gone with you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30038, 2,  2366,  0, 9, 1, False) /* Create Orb (2366) for Wield */
+VALUES (30038, 2, 28615,  0, 92, 0.5, False) /* Create Vestiri Robe (28615) for Wield */
      , (30038, 2,  9623,  0, 13, 0.5, False) /* Create Alchemist's Hat (9623) for Wield */
-     , (30038, 2, 28615,  0, 92, 0.5, False) /* Create Vestiri Robe (28615) for Wield */
-     , (30038, 4,   136, -1, 14, 1, False) /* Create Pack (136) for Shop */
-     , (30038, 4,   139, -1, 85, 1, False) /* Create Small Belt Pouch (139) for Shop */
-     , (30038, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
-     , (30038, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
-     , (30038, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
-     , (30038, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */
-     , (30038, 4,   687, -1, 0, 0, False) /* Create Gold Scarab (687) for Shop */
-     , (30038, 4,   688, -1, 0, 0, False) /* Create Silver Scarab (688) for Shop */
-     , (30038, 4,   689, -1, 0, 0, False) /* Create Iron Scarab (689) for Shop */
-     , (30038, 4,   690, -1, 0, 0, False) /* Create Pyreal Scarab (690) for Shop */
+     , (30038, 2,  2366,  0, 9, 1, False) /* Create Orb (2366) for Wield */
      , (30038, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
-     , (30038, 4,   740, -1, 0, 0, False) /* Create Ashwood Talisman (740) for Shop */
-     , (30038, 4,   741, -1, 0, 0, False) /* Create Birch Talisman (741) for Shop */
-     , (30038, 4,   742, -1, 0, 0, False) /* Create Blackthorn Talisman (742) for Shop */
-     , (30038, 4,   743, -1, 0, 0, False) /* Create Cedar Talisman (743) for Shop */
-     , (30038, 4,   744, -1, 0, 0, False) /* Create Ebony Talisman (744) for Shop */
-     , (30038, 4,   745, -1, 0, 0, False) /* Create Elder Talisman (745) for Shop */
-     , (30038, 4,   746, -1, 0, 0, False) /* Create Hazel Talisman (746) for Shop */
-     , (30038, 4,   747, -1, 0, 0, False) /* Create Hemlock Talisman (747) for Shop */
-     , (30038, 4,   748, -1, 0, 0, False) /* Create Oak Talisman (748) for Shop */
-     , (30038, 4,   749, -1, 0, 0, False) /* Create Poplar Talisman (749) for Shop */
-     , (30038, 4,   750, -1, 0, 0, False) /* Create Rowan Talisman (750) for Shop */
-     , (30038, 4,   751, -1, 0, 0, False) /* Create Willow Talisman (751) for Shop */
-     , (30038, 4,   752, -1, 0, 0, False) /* Create Yew Talisman (752) for Shop */
-     , (30038, 4,   753, -1, 0, 0, False) /* Create Brimstone (753) for Shop */
-     , (30038, 4,   754, -1, 0, 0, False) /* Create Cadmia (754) for Shop */
-     , (30038, 4,   755, -1, 0, 0, False) /* Create Cinnabar (755) for Shop */
-     , (30038, 4,   756, -1, 0, 0, False) /* Create Cobalt (756) for Shop */
-     , (30038, 4,   757, -1, 0, 0, False) /* Create Colcothar (757) for Shop */
-     , (30038, 4,   758, -1, 0, 0, False) /* Create Gypsum (758) for Shop */
-     , (30038, 4,   759, -1, 0, 0, False) /* Create Quicksilver (759) for Shop */
-     , (30038, 4,   760, -1, 0, 0, False) /* Create Realgar (760) for Shop */
-     , (30038, 4,   761, -1, 0, 0, False) /* Create Stibnite (761) for Shop */
-     , (30038, 4,   762, -1, 0, 0, False) /* Create Turpeth (762) for Shop */
-     , (30038, 4,   763, -1, 0, 0, False) /* Create Verdigris (763) for Shop */
-     , (30038, 4,   764, -1, 0, 0, False) /* Create Vitriol (764) for Shop */
+     , (30038, 4,   689, -1, 0, 0, False) /* Create Iron Scarab (689) for Shop */
+     , (30038, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */
+     , (30038, 4,   688, -1, 0, 0, False) /* Create Silver Scarab (688) for Shop */
+     , (30038, 4,   687, -1, 0, 0, False) /* Create Gold Scarab (687) for Shop */
+     , (30038, 4,   690, -1, 0, 0, False) /* Create Pyreal Scarab (690) for Shop */
+     , (30038, 4,  8897, -1, 0, 0, False) /* Create Platinum Scarab (8897) for Shop */
+     , (30038, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
      , (30038, 4,   765, -1, 0, 0, False) /* Create Amaranth (765) for Shop */
      , (30038, 4,   766, -1, 0, 0, False) /* Create Bistort (766) for Shop */
      , (30038, 4,   767, -1, 0, 0, False) /* Create Comfrey (767) for Shop */
@@ -290,6 +262,7 @@ VALUES (30038, 2,  2366,  0, 9, 1, False) /* Create Orb (2366) for Wield */
      , (30038, 4,   769, -1, 0, 0, False) /* Create Dragonsblood (769) for Shop */
      , (30038, 4,   770, -1, 0, 0, False) /* Create Eyebright (770) for Shop */
      , (30038, 4,   771, -1, 0, 0, False) /* Create Frankincense (771) for Shop */
+     , (30038, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (30038, 4,   772, -1, 0, 0, False) /* Create Hawthorn (772) for Shop */
      , (30038, 4,   773, -1, 0, 0, False) /* Create Henbane (773) for Shop */
      , (30038, 4,   774, -1, 0, 0, False) /* Create Hyssop (774) for Shop */
@@ -305,28 +278,65 @@ VALUES (30038, 2,  2366,  0, 9, 1, False) /* Create Orb (2366) for Wield */
      , (30038, 4,   784, -1, 0, 0, False) /* Create Powdered Azurite (784) for Shop */
      , (30038, 4,   785, -1, 0, 0, False) /* Create Powdered Bloodstone (785) for Shop */
      , (30038, 4,   786, -1, 0, 0, False) /* Create Powdered Carnelian (786) for Shop */
+     , (30038, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (30038, 4,   787, -1, 0, 0, False) /* Create Powdered Lapis Lazuli (787) for Shop */
      , (30038, 4,   788, -1, 0, 0, False) /* Create Powdered Malachite (788) for Shop */
      , (30038, 4,   789, -1, 0, 0, False) /* Create Powdered Moonstone (789) for Shop */
      , (30038, 4,   790, -1, 0, 0, False) /* Create Powdered Onyx (790) for Shop */
      , (30038, 4,   791, -1, 0, 0, False) /* Create Powdered Quartz (791) for Shop */
      , (30038, 4,   792, -1, 0, 0, False) /* Create Powdered Turquoise (792) for Shop */
-     , (30038, 4,  1643, -1, 0, 0, False) /* Create Blue Taper (1643) for Shop */
-     , (30038, 4,  1644, -1, 0, 0, False) /* Create Brown Taper (1644) for Shop */
-     , (30038, 4,  1645, -1, 0, 0, False) /* Create Green Taper (1645) for Shop */
-     , (30038, 4,  1646, -1, 0, 0, False) /* Create Grey Taper (1646) for Shop */
-     , (30038, 4,  1647, -1, 0, 0, False) /* Create Indigo Taper (1647) for Shop */
-     , (30038, 4,  1648, -1, 0, 0, False) /* Create Orange Taper (1648) for Shop */
-     , (30038, 4,  1649, -1, 0, 0, False) /* Create Pink Taper (1649) for Shop */
+     , (30038, 4,   753, -1, 0, 0, False) /* Create Brimstone (753) for Shop */
+     , (30038, 4,   754, -1, 0, 0, False) /* Create Cadmia (754) for Shop */
+     , (30038, 4,   755, -1, 0, 0, False) /* Create Cinnabar (755) for Shop */
+     , (30038, 4,   756, -1, 0, 0, False) /* Create Cobalt (756) for Shop */
+     , (30038, 4,   757, -1, 0, 0, False) /* Create Colcothar (757) for Shop */
+     , (30038, 4,   758, -1, 0, 0, False) /* Create Gypsum (758) for Shop */
+     , (30038, 4,   759, -1, 0, 0, False) /* Create Quicksilver (759) for Shop */
+     , (30038, 4,   760, -1, 0, 0, False) /* Create Realgar (760) for Shop */
+     , (30038, 4,   761, -1, 0, 0, False) /* Create Stibnite (761) for Shop */
+     , (30038, 4,   762, -1, 0, 0, False) /* Create Turpeth (762) for Shop */
+     , (30038, 4,   763, -1, 0, 0, False) /* Create Verdigris (763) for Shop */
+     , (30038, 4,   764, -1, 0, 0, False) /* Create Vitriol (764) for Shop */
+     , (30038, 4,   749, -1, 0, 0, False) /* Create Poplar Talisman (749) for Shop */
+     , (30038, 4,   742, -1, 0, 0, False) /* Create Blackthorn Talisman (742) for Shop */
+     , (30038, 4,   752, -1, 0, 0, False) /* Create Yew Talisman (752) for Shop */
+     , (30038, 4,   747, -1, 0, 0, False) /* Create Hemlock Talisman (747) for Shop */
+     , (30038, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
+     , (30038, 4,   744, -1, 0, 0, False) /* Create Ebony Talisman (744) for Shop */
+     , (30038, 4,   741, -1, 0, 0, False) /* Create Birch Talisman (741) for Shop */
+     , (30038, 4,   740, -1, 0, 0, False) /* Create Ashwood Talisman (740) for Shop */
+     , (30038, 4,   745, -1, 0, 0, False) /* Create Elder Talisman (745) for Shop */
+     , (30038, 4,   750, -1, 0, 0, False) /* Create Rowan Talisman (750) for Shop */
+     , (30038, 4,   751, -1, 0, 0, False) /* Create Willow Talisman (751) for Shop */
+     , (30038, 4,   743, -1, 0, 0, False) /* Create Cedar Talisman (743) for Shop */
+     , (30038, 4,   748, -1, 0, 0, False) /* Create Oak Talisman (748) for Shop */
+     , (30038, 4,   746, -1, 0, 0, False) /* Create Hazel Talisman (746) for Shop */
      , (30038, 4,  1650, -1, 0, 0, False) /* Create Red Taper (1650) for Shop */
-     , (30038, 4,  1651, -1, 0, 0, False) /* Create Violet Taper (1651) for Shop */
-     , (30038, 4,  1652, -1, 0, 0, False) /* Create White Taper (1652) for Shop */
+     , (30038, 4,  1649, -1, 0, 0, False) /* Create Pink Taper (1649) for Shop */
+     , (30038, 4,  1648, -1, 0, 0, False) /* Create Orange Taper (1648) for Shop */
      , (30038, 4,  1653, -1, 0, 0, False) /* Create Yellow Taper (1653) for Shop */
+     , (30038, 4,  1645, -1, 0, 0, False) /* Create Green Taper (1645) for Shop */
      , (30038, 4,  1654, -1, 0, 0, False) /* Create Turquoise Taper (1654) for Shop */
-     , (30038, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
+     , (30038, 4,  1643, -1, 0, 0, False) /* Create Blue Taper (1643) for Shop */
+     , (30038, 4,  1647, -1, 0, 0, False) /* Create Indigo Taper (1647) for Shop */
+     , (30038, 4,  1651, -1, 0, 0, False) /* Create Violet Taper (1651) for Shop */
+     , (30038, 4,  1644, -1, 0, 0, False) /* Create Brown Taper (1644) for Shop */
+     , (30038, 4,  1652, -1, 0, 0, False) /* Create White Taper (1652) for Shop */
+     , (30038, 4,  1646, -1, 0, 0, False) /* Create Grey Taper (1646) for Shop */
+     , (30038, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
      , (30038, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone (2434) for Shop */
-     , (30038, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
-     , (30038, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
+     , (30038, 4,  4612, -1, 0, 0, False) /* Create Tiny Mana Charge (4612) for Shop */
+     , (30038, 4,  4613, -1, 0, 0, False) /* Create Small Mana Charge (4613) for Shop */
+     , (30038, 4,  4614, -1, 0, 0, False) /* Create Moderate Mana Charge (4614) for Shop */
+     , (30038, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge (4615) for Shop */
+     , (30038, 4,  4616, -1, 0, 0, False) /* Create Great Mana Charge (4616) for Shop */
+     , (30038, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (30038, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (30038, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (30038, 4, 31201, -1, 0, 1, False) /* Create Vestiri Creature Apprentice Robe (31201) for Shop */
+     , (30038, 4, 31202, -1, 0, 1, False) /* Create Vestiri Item Apprentice Robe (31202) for Shop */
+     , (30038, 4, 31203, -1, 0, 1, False) /* Create Vestiri Life Apprentice Robe (31203) for Shop */
+     , (30038, 4, 31200, -1, 0, 1, False) /* Create Suikan War Apprentice Robe (31200) for Shop */
      , (30038, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30038, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30038, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -334,31 +344,21 @@ VALUES (30038, 2,  2366,  0, 9, 1, False) /* Create Orb (2366) for Wield */
      , (30038, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (30038, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (30038, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (30038, 4,  4612, -1, 0, 0, False) /* Create Tiny Mana Charge (4612) for Shop */
-     , (30038, 4,  4613, -1, 0, 0, False) /* Create Small Mana Charge (4613) for Shop */
-     , (30038, 4,  4614, -1, 0, 0, False) /* Create Moderate Mana Charge (4614) for Shop */
-     , (30038, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge (4615) for Shop */
-     , (30038, 4,  4616, -1, 0, 0, False) /* Create Great Mana Charge (4616) for Shop */
+     , (30038, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (30038, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (30038, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (30038, 4,   136, -1, 14, 1, False) /* Create Pack (136) for Shop */
+     , (30038, 4,   139, -1, 85, 1, False) /* Create Small Belt Pouch (139) for Shop */
      , (30038, 4,  4747, -1, 0, 0, False) /* Create Alembic (4747) for Shop */
      , (30038, 4,  4748, -1, 0, 0, False) /* Create Aqua Incanta (4748) for Shop */
      , (30038, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (30038, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
-     , (30038, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
-     , (30038, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
-     , (30038, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
      , (30038, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
      , (30038, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
      , (30038, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
-     , (30038, 4,  8897, -1, 0, 0, False) /* Create Platinum Scarab (8897) for Shop */
-     , (30038, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
-     , (30038, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (30038, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30038, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
-     , (30038, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
+     , (30038, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
+     , (30038, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
+     , (30038, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
      , (30038, 4, 30268, -1, 0, 0, False) /* Create Sanamar Portal Gem (30268) for Shop */
-     , (30038, 4, 31200, -1, 0, 1, False) /* Create Suikan War Apprentice Robe (31200) for Shop */
-     , (30038, 4, 31201, -1, 0, 1, False) /* Create Vestiri Creature Apprentice Robe (31201) for Shop */
-     , (30038, 4, 31202, -1, 0, 1, False) /* Create Vestiri Item Apprentice Robe (31202) for Shop */
-     , (30038, 4, 31203, -1, 0, 1, False) /* Create Vestiri Life Apprentice Robe (31203) for Shop */
-     , (30038, 4, 32081, -1, 0, 0, False) /* Create  (32081) for Shop */
+     , (30038, 4, 32081, -1, 0, 0, False) /* Create Redspire Portal Gem (32081) for Shop */
      , (30038, 4, 43020, -1, 0, 0, False) /* Create Town Network Portal Gem (43020) for Shop */;

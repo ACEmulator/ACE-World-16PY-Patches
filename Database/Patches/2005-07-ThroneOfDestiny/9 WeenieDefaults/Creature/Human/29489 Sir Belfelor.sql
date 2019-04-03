@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29489;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29489, 'knightkarlunsirbelfelor', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29489, 'knightkarlunsirbelfelor', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29489,   1,         16) /* ItemType - Creature */
@@ -78,7 +78,7 @@ VALUES (29489,   1,   33554433) /* Setup */
      , (29489,   8,  100667446) /* Icon */
      , (29489,  17,   67115902) /* SkinPalette */
      , (29489,  22,  872415269) /* PhysicsEffectTable */
-     , (29489,  35,        450) /* DeathTreasureType */;
+     , (29489,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29489,   1, 210, 0, 0) /* Strength */
@@ -175,11 +175,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You may have fooled Sir Ginazio, outsider, but I know you are working for someone else, and that you seek the Ring of Karlun. I will not attack you, but you will get nothing from me. You may as well leave.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29489, 2, 28620,  1, 20, 0.726, False) /* Create Alduressa Leggings (28620) for Wield */
-     , (29489, 2, 28629,  1, 20, 0.726, False) /* Create Alduressa Coat (28629) for Wield */
+VALUES (29489, 2, 28629,  1, 20, 0.726, False) /* Create Alduressa Coat (28629) for Wield */
+     , (29489, 2, 28620,  1, 20, 0.726, False) /* Create Alduressa Leggings (28620) for Wield */
      , (29489, 2, 30950,  1, 20, 0.726, False) /* Create Alduressa Boots (30950) for Wield */
-     , (29489, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (29489, 9, 29493, -1, 0, 1, True) /* Create Ring of Karlun (29493) for ContainTreasure */
+     , (29489, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (29489, 10, 12083,  1, 0, 0.25, True) /* Create Bandit Yaoji (12083) for WieldTreasure */
      , (29489, 10, 12084,  1, 0, 0.25, False) /* Create Bandit Lightning Yaoji (12084) for WieldTreasure */
      , (29489, 10, 12085,  1, 0, 0.25, False) /* Create Bandit Flaming Yaoji (12085) for WieldTreasure */

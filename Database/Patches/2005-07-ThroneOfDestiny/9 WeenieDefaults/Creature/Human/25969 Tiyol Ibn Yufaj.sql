@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25969;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25969, 'zharalimtiyolibnyufaj', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25969, 'zharalimtiyolibnyufaj', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25969,   1,         16) /* ItemType - Creature */
@@ -80,7 +80,7 @@ VALUES (25969,   1,   33554433) /* Setup */
      , (25969,  16,   67109567) /* EyesPalette */
      , (25969,  17,   67109553) /* SkinPalette */
      , (25969,  22,  872415236) /* PhysicsEffectTable */
-     , (25969,  35,        450) /* DeathTreasureType */;
+     , (25969,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25969,   1, 210, 0, 0) /* Strength */
@@ -133,19 +133,19 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073753, NULL, NULL, NULL, NU
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25969, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wield */
      , (25969, 2, 12193,  0, 39, 1, False) /* Create Dho Vest and Robe (12193) for Wield */
-     , (25969, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
+     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
      , (25969, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
-     , (25969, 9, 25959,  0, 0, 1, False) /* Create Woven Tassel of Discord (25959) for ContainTreasure */
-     , (25969, 10,  4912,  0, 0, 0.2, False) /* Create Overlord's Sword (4912) for WieldTreasure */
-     , (25969, 10, 23700,  0, 0, 0.2, False) /* Create Tachi (23700) for WieldTreasure */
+     , (25969, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (25969, 10, 23710,  0, 0, 0.2, False) /* Create Yaoji (23710) for WieldTreasure */
      , (25969, 10, 23707,  0, 0, 0.2, False) /* Create Fire Tachi (23707) for WieldTreasure */
-     , (25969, 10, 23710,  0, 0, 0.2, False) /* Create Yaoji (23710) for WieldTreasure */;
+     , (25969, 10, 23700,  0, 0, 0.2, False) /* Create Tachi (23700) for WieldTreasure */
+     , (25969, 10,  4912,  0, 0, 0.2, False) /* Create Overlord's Sword (4912) for WieldTreasure */;

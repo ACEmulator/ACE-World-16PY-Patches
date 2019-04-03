@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28689;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28689, 'zaikhalhusoon', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28689, 'zaikhalhusoon', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28689,   1,         16) /* ItemType - Creature */
@@ -540,10 +540,10 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28689, 2,    43,  0, 86, 0, False) /* Create Yoroi Breastplate (43) for Wield */
-     , (28689, 2,    64,  0, 86, 0.3056, False) /* Create Yoroi Girth (64) for Wield */
-     , (28689, 2,    69,  0, 86, 0, False) /* Create Yoroi Greaves (69) for Wield */
-     , (28689, 2,    78,  0, 86, 1, False) /* Create Kote (78) for Wield */
      , (28689, 2,    90,  0, 86, 0, False) /* Create Yoroi Pauldrons (90) for Wield */
+     , (28689, 2,    78,  0, 86, 1, False) /* Create Kote (78) for Wield */
+     , (28689, 2,    64,  0, 86, 0.3056, False) /* Create Yoroi Girth (64) for Wield */
      , (28689, 2,   113,  0, 86, 0, False) /* Create Yoroi Tassets (113) for Wield */
+     , (28689, 2,    69,  0, 86, 0, False) /* Create Yoroi Greaves (69) for Wield */
      , (28689, 2,   133,  0, 86, 0, False) /* Create Slippers (133) for Wield */
      , (28689, 2,   303,  0, 86, 0, False) /* Create Hand Axe (303) for Wield */;

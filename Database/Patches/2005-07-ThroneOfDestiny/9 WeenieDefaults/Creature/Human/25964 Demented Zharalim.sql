@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25964;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25964, 'zharalimdementedfemale', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25964, 'zharalimdementedfemale', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25964,   1,         16) /* ItemType - Creature */
@@ -81,8 +81,18 @@ VALUES (25964,   1,   33554510) /* Setup */
      , (25964,  16,   67109567) /* EyesPalette */
      , (25964,  17,   67109553) /* SkinPalette */
      , (25964,  22,  872415236) /* PhysicsEffectTable */
-     , (25964,  32,        419) /* WieldedTreasureType */
-     , (25964,  35,        450) /* DeathTreasureType */;
+     , (25964,  32,        419) /* WieldedTreasureType - 
+                                   Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
+                                   Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50%
+                                   Wield Bandit Dagger (22778) | Probability: 12.5%
+                                   Wield Jambiya (22781) | Probability: 12.5%
+                                   Wield Khanjar (22784) | Probability: 12.5%
+                                   Wield Knife (22787) | Probability: 12.5%
+                                   Wield Bandit Simi (22790) | Probability: 12.5%
+                                   Wield Bandit Rapier (22793) | Probability: 12.5%
+                                   Wield Bandit Short Sword (22796) | Probability: 12.5%
+                                   Wield Bandit Yaoji (22799) | Probability: 12.5% */
+     , (25964,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25964,   1, 210, 0, 0) /* Strength */
@@ -146,5 +156,5 @@ VALUES (25964,    61,   2.05)  /* Acid Stream IV */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25964, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wield */
      , (25964, 2, 12193,  0, 14, 0, False) /* Create Dho Vest and Robe (12193) for Wield */
-     , (25964, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (25964, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (25964, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (25964, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

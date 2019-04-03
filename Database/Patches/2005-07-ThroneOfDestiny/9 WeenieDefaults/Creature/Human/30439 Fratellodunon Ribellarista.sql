@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30439;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30439, 'silyunfratellodunonribellarista', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30439, 'silyunfratellodunonribellarista', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30439,   1,         16) /* ItemType - Creature */
@@ -146,8 +146,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  7,  10 /* Tell */, 0.2, 1, NULL, 'Not..too..late...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30439, 2,  2587,  0, 14, 0.0909, False) /* Create Shirt (2587) for Wield */
+VALUES (30439, 2, 30556,  0, 0, 0, False) /* Create Hatchet (30556) for Wield */
+     , (30439, 2,  2587,  0, 14, 0.0909, False) /* Create Shirt (2587) for Wield */
      , (30439, 2,  2600,  0, 4, 0, False) /* Create Pantaloons (2600) for Wield */
      , (30439, 2, 28611,  0, 6, 0, False) /* Create Viamontian Laced Boots (28611) for Wield */
-     , (30439, 2, 28612,  0, 14, 0, False) /* Create Bandana (28612) for Wield */
-     , (30439, 2, 30556,  0, 0, 0, False) /* Create Hatchet (30556) for Wield */;
+     , (30439, 2, 28612,  0, 14, 0, False) /* Create Bandana (28612) for Wield */;

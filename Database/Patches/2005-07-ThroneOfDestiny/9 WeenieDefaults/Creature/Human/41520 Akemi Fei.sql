@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41520;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41520, 'ace41520-akemifei', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (41520, 'ace41520-akemifei', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41520,   1,         16) /* ItemType - Creature */
@@ -589,6 +589,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'I can teach you how to use Life Magic without the use of a Focus. I can teach it to you, but I will need an augmentation gem. Visit Fiun Rehlyun on the Halaetan Islands if you have not already acquired one of these gems.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41520, 2,   133,  0, 93, 0, False) /* Create Slippers (133) for Wield */
-     , (41520, 2, 25983,  0, 0, 0, False) /* Create Sparring Pants (25983) for Wield */
-     , (41520, 2, 25984,  0, 0, 0, False) /* Create Sparring Shirt (25984) for Wield */;
+VALUES (41520, 2, 25983,  0, 0, 0, False) /* Create Sparring Pants (25983) for Wield */
+     , (41520, 2, 25984,  0, 0, 0, False) /* Create Sparring Shirt (25984) for Wield */
+     , (41520, 2,   133,  0, 93, 0, False) /* Create Slippers (133) for Wield */;

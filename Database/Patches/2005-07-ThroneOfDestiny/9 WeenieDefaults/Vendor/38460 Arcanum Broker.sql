@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38460;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38460, 'ace38460-arcanumbroker', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (38460, 'ace38460-arcanumbroker', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38460,   1,         16) /* ItemType - Creature */
@@ -128,19 +128,19 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38460, 2,   128, -1, 5, 0.25, False) /* Create Qafiya (128) for Wield */
-     , (38460, 2,  5852, -1, 5, 0.0139, False) /* Create Dho Vest and Robe (5852) for Wield */
+VALUES (38460, 2,  5852, -1, 5, 0.0139, False) /* Create Dho Vest and Robe (5852) for Wield */
+     , (38460, 2,   128, -1, 5, 0.25, False) /* Create Qafiya (128) for Wield */
      , (38460, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (38460, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (38460, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (38460, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
      , (38460, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
-     , (38460, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
-     , (38460, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (38460, 4,  7374, -1, 0, 0, False) /* Create Trade Note (15,000) (7374) for Shop */
      , (38460, 4,  7375, -1, 0, 0, False) /* Create Trade Note (20,000) (7375) for Shop */
      , (38460, 4,  7376, -1, 0, 0, False) /* Create Trade Note (25,000) (7376) for Shop */
+     , (38460, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (38460, 4,  7377, -1, 0, 0, False) /* Create Trade Note (75,000) (7377) for Shop */
+     , (38460, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (38460, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (38460, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (38460, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

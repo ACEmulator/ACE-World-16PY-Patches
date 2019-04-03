@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30050;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30050, 'fiunshopkeep', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (30050, 'fiunshopkeep', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30050,   1,         16) /* ItemType - Creature */
@@ -149,30 +149,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30050, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for Shop */
-     , (30050, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
-     , (30050, 4,   136, -1, 61, 0, False) /* Create Pack (136) for Shop */
-     , (30050, 4,   136, -1, 8, 0, False) /* Create Pack (136) for Shop */
-     , (30050, 4,   137, -1, 90, 0, False) /* Create Basket (137) for Shop */
-     , (30050, 4,   137, -1, 89, 0, False) /* Create Basket (137) for Shop */
-     , (30050, 4,   138, -1, 90, 0, False) /* Create Belt Pouch (138) for Shop */
-     , (30050, 4,   138, -1, 89, 0, False) /* Create Belt Pouch (138) for Shop */
-     , (30050, 4,   139, -1, 90, 0, False) /* Create Small Belt Pouch (139) for Shop */
-     , (30050, 4,   139, -1, 89, 0, False) /* Create Small Belt Pouch (139) for Shop */
-     , (30050, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
-     , (30050, 4,   166, -1, 61, 0, False) /* Create Sack (166) for Shop */
-     , (30050, 4,   166, -1, 8, 0, False) /* Create Sack (166) for Shop */
-     , (30050, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
-     , (30050, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
-     , (30050, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
-     , (30050, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
-     , (30050, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
-     , (30050, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (30050, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
-     , (30050, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
-     , (30050, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
-     , (30050, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
-     , (30050, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+VALUES (30050, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (30050, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (30050, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30050, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30050, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -180,40 +158,62 @@ VALUES (30050, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for S
      , (30050, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (30050, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (30050, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (30050, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (30050, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (30050, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (30050, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (30050, 4, 28618, -1, 0, 0, False) /* Create Diforsa Helm (28618) for Shop */
+     , (30050, 4, 28632, -1, 0, 0, False) /* Create Diforsa Gauntlets (28632) for Shop */
+     , (30050, 4, 28627, -1, 0, 0, False) /* Create Diforsa Bracers (28627) for Shop */
+     , (30050, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
+     , (30050, 4, 28628, -1, 0, 0, False) /* Create Diforsa Breastplate (28628) for Shop */
+     , (30050, 4, 28630, -1, 0, 0, False) /* Create Diforsa Cuirass (28630) for Shop */
+     , (30050, 4, 28633, -1, 0, 0, False) /* Create Diforsa Girth (28633) for Shop */
+     , (30050, 4, 28626, -1, 0, 0, False) /* Create Diforsa Tassets (28626) for Shop */
+     , (30050, 4, 28634, -1, 0, 0, False) /* Create Diforsa Greaves (28634) for Shop */
+     , (30050, 4, 30948, -1, 0, 0, False) /* Create Diforsa Hauberk (30948) for Shop */
+     , (30050, 4, 28621, -1, 0, 0, False) /* Create Diforsa Leggings (28621) for Shop */
+     , (30050, 4, 30949, -1, 0, 0, False) /* Create Diforsa Sleeves (30949) for Shop */
+     , (30050, 4, 28625, -1, 0, 0, False) /* Create Diforsa Sollerets (28625) for Shop */
+     , (30050, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for Shop */
+     , (30050, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
+     , (30050, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (30050, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (30050, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (30050, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
+     , (30050, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
+     , (30050, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
+     , (30050, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (30050, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
+     , (30050, 4, 30556, -1, 0, 0, False) /* Create Hatchet (30556) for Shop */
+     , (30050, 4, 30581, -1, 0, 0, False) /* Create Mazule (30581) for Shop */
+     , (30050, 4, 30591, -1, 0, 0, False) /* Create Partizan (30591) for Shop */
+     , (30050, 4, 30611, -1, 0, 0, False) /* Create Knuckles (30611) for Shop */
+     , (30050, 4, 30606, -1, 0, 0, False) /* Create Bastone (30606) for Shop */
+     , (30050, 4, 30596, -1, 0, 0, False) /* Create Poniard (30596) for Shop */
+     , (30050, 4, 30625, -1, 0, 0, False) /* Create War Bow (30625) for Shop */
+     , (30050, 4, 30616, -1, 0, 0, False) /* Create Arbalest (30616) for Shop */
+     , (30050, 4, 30746, -1, 0, 0, False) /* Create Dart Flinger (30746) for Shop */
+     , (30050, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (30050, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
      , (30050, 4,  3599, -1, 0, 0, False) /* Create Blunt Arrow (3599) for Shop */
      , (30050, 4,  3603, -1, 0, 0, False) /* Create Blunt Quarrel (3603) for Shop */
-     , (30050, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (30050, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (30050, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (30050, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
+     , (30050, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (30050, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
+     , (30050, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (30050, 4,  9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads (9359) for Shop */
      , (30050, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
      , (30050, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
      , (30050, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts (15298) for Shop */
-     , (30050, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
-     , (30050, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (30050, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30050, 4, 28618, -1, 0, 0, False) /* Create Diforsa Helm (28618) for Shop */
-     , (30050, 4, 28621, -1, 0, 0, False) /* Create Diforsa Leggings (28621) for Shop */
-     , (30050, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
-     , (30050, 4, 28625, -1, 0, 0, False) /* Create Diforsa Sollerets (28625) for Shop */
-     , (30050, 4, 28626, -1, 0, 0, False) /* Create Diforsa Tassets (28626) for Shop */
-     , (30050, 4, 28627, -1, 0, 0, False) /* Create Diforsa Bracers (28627) for Shop */
-     , (30050, 4, 28628, -1, 0, 0, False) /* Create Diforsa Breastplate (28628) for Shop */
-     , (30050, 4, 28630, -1, 0, 0, False) /* Create Diforsa Cuirass (28630) for Shop */
-     , (30050, 4, 28632, -1, 0, 0, False) /* Create Diforsa Gauntlets (28632) for Shop */
-     , (30050, 4, 28633, -1, 0, 0, False) /* Create Diforsa Girth (28633) for Shop */
-     , (30050, 4, 28634, -1, 0, 0, False) /* Create Diforsa Greaves (28634) for Shop */
-     , (30050, 4, 30556, -1, 0, 0, False) /* Create Hatchet (30556) for Shop */
-     , (30050, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
-     , (30050, 4, 30581, -1, 0, 0, False) /* Create Mazule (30581) for Shop */
-     , (30050, 4, 30591, -1, 0, 0, False) /* Create Partizan (30591) for Shop */
-     , (30050, 4, 30596, -1, 0, 0, False) /* Create Poniard (30596) for Shop */
-     , (30050, 4, 30606, -1, 0, 0, False) /* Create Bastone (30606) for Shop */
-     , (30050, 4, 30611, -1, 0, 0, False) /* Create Knuckles (30611) for Shop */
-     , (30050, 4, 30616, -1, 0, 0, False) /* Create Arbalest (30616) for Shop */
-     , (30050, 4, 30625, -1, 0, 0, False) /* Create War Bow (30625) for Shop */
-     , (30050, 4, 30746, -1, 0, 0, False) /* Create Dart Flinger (30746) for Shop */
-     , (30050, 4, 30948, -1, 0, 0, False) /* Create Diforsa Hauberk (30948) for Shop */
-     , (30050, 4, 30949, -1, 0, 0, False) /* Create Diforsa Sleeves (30949) for Shop */;
+     , (30050, 4,   166, -1, 61, 0, False) /* Create Sack (166) for Shop */
+     , (30050, 4,   136, -1, 61, 0, False) /* Create Pack (136) for Shop */
+     , (30050, 4,   139, -1, 90, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (30050, 4,   138, -1, 90, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (30050, 4,   137, -1, 90, 0, False) /* Create Basket (137) for Shop */
+     , (30050, 4,   166, -1, 8, 0, False) /* Create Sack (166) for Shop */
+     , (30050, 4,   136, -1, 8, 0, False) /* Create Pack (136) for Shop */
+     , (30050, 4,   139, -1, 89, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (30050, 4,   138, -1, 89, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (30050, 4,   137, -1, 89, 0, False) /* Create Basket (137) for Shop */;

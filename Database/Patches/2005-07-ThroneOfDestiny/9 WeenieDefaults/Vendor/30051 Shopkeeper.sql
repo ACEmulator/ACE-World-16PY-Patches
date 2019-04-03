@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30051;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30051, 'viashopkeep', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (30051, 'viashopkeep', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30051,   1,         16) /* ItemType - Creature */
@@ -242,36 +242,9 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Now leave me be.', NULL, 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30051, 2,  2587,  0, 13, 0.5, False) /* Create Shirt (2587) for Wield */
-     , (30051, 2,  2597,  0, 2, 0.5, False) /* Create Pants (2597) for Wield */
      , (30051, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */
+     , (30051, 2,  2597,  0, 2, 0.5, False) /* Create Pants (2597) for Wield */
      , (30051, 2, 28611,  0, 6, 0, False) /* Create Viamontian Laced Boots (28611) for Wield */
-     , (30051, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
-     , (30051, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
-     , (30051, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
-     , (30051, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
-     , (30051, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
-     , (30051, 4,    60, -1, 0, 0, False) /* Create Leather Girth (60) for Shop */
-     , (30051, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
-     , (30051, 4,    81, -1, 0, 0, False) /* Create Leather Leggings (81) for Shop */
-     , (30051, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
-     , (30051, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
-     , (30051, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
-     , (30051, 4,   136, -1, 77, 1, False) /* Create Pack (136) for Shop */
-     , (30051, 4,   136, -1, 14, 1, False) /* Create Pack (136) for Shop */
-     , (30051, 4,   139, -1, 91, 1, False) /* Create Small Belt Pouch (139) for Shop */
-     , (30051, 4,   139, -1, 85, 1, False) /* Create Small Belt Pouch (139) for Shop */
-     , (30051, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
-     , (30051, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
-     , (30051, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
-     , (30051, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
-     , (30051, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
-     , (30051, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
-     , (30051, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
-     , (30051, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
-     , (30051, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (30051, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
-     , (30051, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (30051, 4,   551, -1, 0, 0, False) /* Create Leather Basinet (551) for Shop */
      , (30051, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30051, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30051, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -279,32 +252,59 @@ VALUES (30051, 2,  2587,  0, 13, 0.5, False) /* Create Shirt (2587) for Wield */
      , (30051, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (30051, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (30051, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (30051, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
-     , (30051, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
-     , (30051, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (30051, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
-     , (30051, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
-     , (30051, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
-     , (30051, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
-     , (30051, 4,  7940, -1, 0, 0, False) /* Create Empty Flask (7940) for Shop */
-     , (30051, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
-     , (30051, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */
      , (30051, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30051, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30051, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30051, 4, 29130, -1, 0, 0, False) /* Create Ultra Green Hops (29130) for Shop */
-     , (30051, 4, 29131, -1, 0, 0, False) /* Create Vibrant Green Hops (29131) for Shop */
-     , (30051, 4, 29158, -1, 0, 0, False) /* Create Dried Yeast (29158) for Shop */
+     , (30051, 4,   551, -1, 0, 0, False) /* Create Leather Basinet (551) for Shop */
+     , (30051, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
+     , (30051, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (30051, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
+     , (30051, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
+     , (30051, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+     , (30051, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
+     , (30051, 4,    60, -1, 0, 0, False) /* Create Leather Girth (60) for Shop */
+     , (30051, 4,   109, -1, 0, 0, False) /* Create Leather Tassets (109) for Shop */
+     , (30051, 4,    81, -1, 0, 0, False) /* Create Leather Leggings (81) for Shop */
+     , (30051, 4,    65, -1, 0, 0, False) /* Create Leather Greaves (65) for Shop */
+     , (30051, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
+     , (30051, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (30051, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (30051, 4, 30958, -1, 0, 0, False) /* Create Forgotten Chasm (30958) for Shop */
+     , (30051, 4, 30957, -1, 0, 0, False) /* Create Giant Mushrooms (30957) for Shop */
+     , (30051, 4, 30959, -1, 0, 0, False) /* Create Ruins of Geth Tukora (30959) for Shop */
+     , (30051, 4,   136, -1, 77, 1, False) /* Create Pack (136) for Shop */
+     , (30051, 4,   136, -1, 14, 1, False) /* Create Pack (136) for Shop */
+     , (30051, 4,   139, -1, 91, 1, False) /* Create Small Belt Pouch (139) for Shop */
+     , (30051, 4,   139, -1, 85, 1, False) /* Create Small Belt Pouch (139) for Shop */
+     , (30051, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (30051, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (30051, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (30051, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (30051, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (30051, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (30051, 4, 45411, -1, 0, 0, False) /* Create Spada (45411) for Shop */
      , (30051, 4, 30556, -1, 0, 0, False) /* Create Hatchet (30556) for Shop */
      , (30051, 4, 30581, -1, 0, 0, False) /* Create Mazule (30581) for Shop */
      , (30051, 4, 30591, -1, 0, 0, False) /* Create Partizan (30591) for Shop */
-     , (30051, 4, 30596, -1, 0, 0, False) /* Create Poniard (30596) for Shop */
-     , (30051, 4, 30606, -1, 0, 0, False) /* Create Bastone (30606) for Shop */
      , (30051, 4, 30611, -1, 0, 0, False) /* Create Knuckles (30611) for Shop */
-     , (30051, 4, 30616, -1, 0, 0, False) /* Create Arbalest (30616) for Shop */
+     , (30051, 4, 30606, -1, 0, 0, False) /* Create Bastone (30606) for Shop */
+     , (30051, 4, 30596, -1, 0, 0, False) /* Create Poniard (30596) for Shop */
      , (30051, 4, 30625, -1, 0, 0, False) /* Create War Bow (30625) for Shop */
+     , (30051, 4, 30616, -1, 0, 0, False) /* Create Arbalest (30616) for Shop */
      , (30051, 4, 30746, -1, 0, 0, False) /* Create Dart Flinger (30746) for Shop */
-     , (30051, 4, 30957, -1, 0, 0, False) /* Create Giant Mushrooms (30957) for Shop */
-     , (30051, 4, 30958, -1, 0, 0, False) /* Create Forgotten Chasm (30958) for Shop */
-     , (30051, 4, 30959, -1, 0, 0, False) /* Create Ruins of Geth Tukora (30959) for Shop */
-     , (30051, 4, 45411, -1, 0, 0, False) /* Create Spada (45411) for Shop */;
+     , (30051, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
+     , (30051, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
+     , (30051, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (30051, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
+     , (30051, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
+     , (30051, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (30051, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
+     , (30051, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
+     , (30051, 4,  7940, -1, 0, 0, False) /* Create Empty Flask (7940) for Shop */
+     , (30051, 4, 29131, -1, 0, 0, False) /* Create Vibrant Green Hops (29131) for Shop */
+     , (30051, 4, 29130, -1, 0, 0, False) /* Create Ultra Green Hops (29130) for Shop */
+     , (30051, 4, 29158, -1, 0, 0, False) /* Create Dried Yeast (29158) for Shop */
+     , (30051, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
+     , (30051, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
+     , (30051, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
+     , (30051, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */;

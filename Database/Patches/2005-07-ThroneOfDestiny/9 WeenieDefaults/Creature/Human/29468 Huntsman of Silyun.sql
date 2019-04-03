@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29468;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29468, 'silyunhuntsman', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29468, 'silyunhuntsman', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29468,   1,         16) /* ItemType - Creature */
@@ -308,7 +308,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1 /* Contain */, 29475 /* Seven Habits of Effective Adventurers */, 1, 0, 1, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29468, 2,    81, -1, 4, 0, False) /* Create Leather Leggings (81) for Wield */
+VALUES (29468, 2,  9021, -1, 4, 0, False) /* Create Boots of the Vault (9021) for Wield */
      , (29468, 2,   130, -1, 8, 0.6667, False) /* Create Shirt (130) for Wield */
-     , (29468, 2,  9021, -1, 4, 0, False) /* Create Boots of the Vault (9021) for Wield */
-     , (29468, 2, 28605, -1, 8, 0.6047, False) /* Create Beret (28605) for Wield */;
+     , (29468, 2, 28605, -1, 8, 0.6047, False) /* Create Beret (28605) for Wield */
+     , (29468, 2,    81, -1, 4, 0, False) /* Create Leather Leggings (81) for Wield */;

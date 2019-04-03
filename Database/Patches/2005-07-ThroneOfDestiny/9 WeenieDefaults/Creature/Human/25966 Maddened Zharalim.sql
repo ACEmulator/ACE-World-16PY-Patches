@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25966;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25966, 'zharalimmaddenedfemale', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25966, 'zharalimmaddenedfemale', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25966,   1,         16) /* ItemType - Creature */
@@ -81,8 +81,18 @@ VALUES (25966,   1,   33554510) /* Setup */
      , (25966,  16,   67109567) /* EyesPalette */
      , (25966,  17,   67109551) /* SkinPalette */
      , (25966,  22,  872415236) /* PhysicsEffectTable */
-     , (25966,  32,        419) /* WieldedTreasureType */
-     , (25966,  35,        450) /* DeathTreasureType */;
+     , (25966,  32,        419) /* WieldedTreasureType - 
+                                   Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
+                                   Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50%
+                                   Wield Bandit Dagger (22778) | Probability: 12.5%
+                                   Wield Jambiya (22781) | Probability: 12.5%
+                                   Wield Khanjar (22784) | Probability: 12.5%
+                                   Wield Knife (22787) | Probability: 12.5%
+                                   Wield Bandit Simi (22790) | Probability: 12.5%
+                                   Wield Bandit Rapier (22793) | Probability: 12.5%
+                                   Wield Bandit Short Sword (22796) | Probability: 12.5%
+                                   Wield Bandit Yaoji (22799) | Probability: 12.5% */
+     , (25966,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25966,   1, 210, 0, 0) /* Strength */
@@ -133,16 +143,16 @@ VALUES (25966,  1161,   2.05)  /* Heal Self VI */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25966, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wield */
      , (25966, 2, 12193,  0, 14, 0, False) /* Create Dho Vest and Robe (12193) for Wield */
-     , (25966, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (25966, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (25966, 10,     0,  0, 0, 0, False) /* Create nothing for WieldTreasure */
-     , (25966, 10, 12187,  0, 0, 0.1, False) /* Create Assassin's Acid Jambiya (12187) for WieldTreasure */
+     , (25966, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (25966, 10, 12188,  0, 0, 0.1, False) /* Create Assassin's Jambiya (12188) for WieldTreasure */
+     , (25966, 10, 12187,  0, 0, 0.1, False) /* Create Assassin's Acid Jambiya (12187) for WieldTreasure */
      , (25966, 10, 12189,  0, 0, 0.1, False) /* Create Assassin's Lightning Jambiya (12189) for WieldTreasure */
      , (25966, 10, 12190,  0, 0, 0.1, False) /* Create Assassin's Flaming Jambiya (12190) for WieldTreasure */
      , (25966, 10, 12191,  0, 0, 0.1, False) /* Create Assassin's Frost Jambiya (12191) for WieldTreasure */
-     , (25966, 10, 12194,  0, 0, 0.1, False) /* Create Assassin's Acid Simi (12194) for WieldTreasure */
      , (25966, 10, 12195,  0, 0, 0.1, False) /* Create Assassin's Simi (12195) for WieldTreasure */
+     , (25966, 10, 12194,  0, 0, 0.1, False) /* Create Assassin's Acid Simi (12194) for WieldTreasure */
      , (25966, 10, 12196,  0, 0, 0.1, False) /* Create Assassin's Lightning Simi (12196) for WieldTreasure */
      , (25966, 10, 12197,  0, 0, 0.1, False) /* Create Assassin's Flaming Simi (12197) for WieldTreasure */
-     , (25966, 10, 12198,  0, 0, 0.1, False) /* Create Assassin's Frost Simi (12198) for WieldTreasure */;
+     , (25966, 10, 12198,  0, 0, 0.1, False) /* Create Assassin's Frost Simi (12198) for WieldTreasure */
+     , (25966, 10,     0,  0, 0, 0, False) /* Create nothing for WieldTreasure */;

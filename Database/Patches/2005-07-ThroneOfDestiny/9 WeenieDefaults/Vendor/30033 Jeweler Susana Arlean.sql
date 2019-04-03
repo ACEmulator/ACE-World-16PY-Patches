@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30033;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30033, 'sanamarjeweler', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (30033, 'sanamarjeweler', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30033,   1,         16) /* ItemType - Creature */
@@ -253,14 +253,20 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Leave my sight, you loath
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30033, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
-     , (30033, 2,  8871,  0, 85, 0.5, False) /* Create Kireth Gown with Band (8871) for Wield */
      , (30033, 2, 30740,  0, 0, 0, False) /* Create Tiara (30740) for Wield */
+     , (30033, 2,  8871,  0, 85, 0.5, False) /* Create Kireth Gown with Band (8871) for Wield */
+     , (30033, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
+     , (30033, 4, 41403, -1, 0, 0, False) /* Create  (41403) for Shop */
+     , (30033, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
+     , (30033, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
+     , (30033, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */
+     , (30033, 4, 41395, -1, 0, 0, False) /* Create Unfinished Lense (41395) for Shop */
      , (30033, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (30033, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
      , (30033, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
-     , (30033, 4,  2393, -1, 0, 0, False) /* Create Amethyst (2393) for Shop */
-     , (30033, 4,  2396, -1, 0, 0, False) /* Create Jet (2396) for Shop */
      , (30033, 4,  2414, -1, 0, 0, False) /* Create Azurite (2414) for Shop */
+     , (30033, 4,  2396, -1, 0, 0, False) /* Create Jet (2396) for Shop */
+     , (30033, 4,  2393, -1, 0, 0, False) /* Create Amethyst (2393) for Shop */
      , (30033, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30033, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30033, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -270,10 +276,4 @@ VALUES (30033, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (30033, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (30033, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30033, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (30033, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30033, 4, 41393, -1, 0, 0, False) /* Create  (41393) for Shop */
-     , (30033, 4, 41395, -1, 0, 0, False) /* Create  (41395) for Shop */
-     , (30033, 4, 41397, -1, 0, 0, False) /* Create  (41397) for Shop */
-     , (30033, 4, 41400, -1, 0, 0, False) /* Create  (41400) for Shop */
-     , (30033, 4, 41402, -1, 0, 0, False) /* Create  (41402) for Shop */
-     , (30033, 4, 41403, -1, 0, 0, False) /* Create  (41403) for Shop */;
+     , (30033, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

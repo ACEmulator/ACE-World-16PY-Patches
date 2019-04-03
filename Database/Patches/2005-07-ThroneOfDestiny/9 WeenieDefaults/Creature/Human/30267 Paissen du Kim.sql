@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30267;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30267, 'sanamarpaissen', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30267, 'sanamarpaissen', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30267,   1,         16) /* ItemType - Creature */
@@ -128,7 +128,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Tread lightly, friend. One false move and the King will feed you to his pets. You''ve seen them, haven''t you? If not, you''re sure to meet them soon enough.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30267, 2, 28605,  0, 18, 0.7093, False) /* Create Beret (28605) for Wield */
+VALUES (30267, 2, 28609,  0, 90, 0.6, False) /* Create Vest (28609) for Wield */
      , (30267, 2, 28606,  0, 17, 0.1, False) /* Create Viamontian Pants (28606) for Wield */
-     , (30267, 2, 28609,  0, 90, 0.6, False) /* Create Vest (28609) for Wield */
-     , (30267, 2, 28610,  0, 9, 0.25, False) /* Create Loafers (28610) for Wield */;
+     , (30267, 2, 28610,  0, 9, 0.25, False) /* Create Loafers (28610) for Wield */
+     , (30267, 2, 28605,  0, 18, 0.7093, False) /* Create Beret (28605) for Wield */;

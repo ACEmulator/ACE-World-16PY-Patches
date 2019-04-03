@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11510;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11510, 'tumerokaunitealuan_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11510, 'tumerokaunitealuan_xp', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11510,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,20 @@ VALUES (11510,   1,   33557117) /* Setup */
      , (11510,   7,  268436193) /* ClothingBase */
      , (11510,   8,  100671756) /* Icon */
      , (11510,  22,  872415270) /* PhysicsEffectTable */
-     , (11510,  32,        377) /* WieldedTreasureType */
-     , (11510,  35,        451) /* DeathTreasureType */;
+     , (11510,  32,        377) /* WieldedTreasureType - 
+                                   Wield Shortbow (307) | Probability: 22%
+                                   Wield 25x Greater Fire Arrow (5305) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 23%
+                                   Wield 20x Greater Acid Arrow (5306) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 11%
+                                   Wield 15x Greater Armor Piercing Quarrel (5318) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 16%
+                                   Wield 22x Greater Lightning Arrow (5308) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 14%
+                                   Wield 20x Greater Frost Arrow (5307) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 14%
+                                   Wield 15x Greater Armor Piercing Quarrel (5318) | Probability: 100% */
+     , (11510,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11510,   1, 220, 0, 0) /* Strength */
@@ -121,7 +133,7 @@ VALUES (11510,  0,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220,
      , (11510,  8,  4, 20, 0.75,  220,  220,  220,  220,  220,  220,  220,  220,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11510, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (11510, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+VALUES (11510, 9, 11355,  0, 0, 0.03, False) /* Create Aun Pendant (11355) for ContainTreasure */
+     , (11510, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (11510, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (11510, 9, 11355,  0, 0, 0.03, False) /* Create Aun Pendant (11355) for ContainTreasure */;
+     , (11510, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

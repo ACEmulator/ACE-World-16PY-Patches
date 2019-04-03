@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2564;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2564, 'armoredillofreshwater', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (2564, 'armoredillofreshwater', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2564,   1,         16) /* ItemType - Creature */
@@ -70,7 +70,7 @@ VALUES (2564,   1,   33554436) /* Setup */
      , (2564,   7,  268435547) /* ClothingBase */
      , (2564,   8,  100667935) /* Icon */
      , (2564,  22,  872415253) /* PhysicsEffectTable */
-     , (2564,  35,        459) /* DeathTreasureType */;
+     , (2564,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2564,   1, 130, 0, 0) /* Strength */
@@ -134,7 +134,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2564, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
-     , (2564, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (2564, 9,  3689,  0, 0, 0.08, False) /* Create Grey Spine (3689) for ContainTreasure */
-     , (2564, 9,  4234,  0, 0, 0.05, False) /* Create Large Armoredillo Hide (4234) for ContainTreasure */;
+VALUES (2564, 9,  3689,  0, 0, 0.08, False) /* Create Grey Spine (3689) for ContainTreasure */
+     , (2564, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
+     , (2564, 9,  4234,  0, 0, 0.05, False) /* Create Large Armoredillo Hide (4234) for ContainTreasure */
+     , (2564, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

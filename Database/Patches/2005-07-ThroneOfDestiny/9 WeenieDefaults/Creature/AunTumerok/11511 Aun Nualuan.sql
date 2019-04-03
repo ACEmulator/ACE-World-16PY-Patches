@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11511;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11511, 'tumerokaunnualuan_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11511, 'tumerokaunnualuan_xp', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11511,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,18 @@ VALUES (11511,   1,   33557117) /* Setup */
      , (11511,   7,  268436193) /* ClothingBase */
      , (11511,   8,  100671756) /* Icon */
      , (11511,  22,  872415270) /* PhysicsEffectTable */
-     , (11511,  32,        381) /* WieldedTreasureType */
-     , (11511,  35,        451) /* DeathTreasureType */;
+     , (11511,  32,        381) /* WieldedTreasureType - 
+                                   Wield Palenqual's Tewhate (12111) | Probability: 17%
+                                   Wield Palenqual's Okane (12114) | Probability: 17%
+                                   Wield Palenqual's Waaika (12117) | Probability: 17%
+                                   Wield Palenqual's Taiaha (12120) | Probability: 17%
+                                   Wield Palenqual's Hoeroa (12123) | Probability: 17%
+                                   Wield Kaskara (324) | Probability: 3%
+                                   Wield Long Sword (351) | Probability: 3%
+                                   Wield Silifi (344) | Probability: 3%
+                                   Wield Tachi (353) | Probability: 3%
+                                   Wield War Hammer (359) | Probability: 3% */
+     , (11511,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11511,   1, 228, 0, 0) /* Strength */
@@ -119,7 +129,7 @@ VALUES (11511,  0,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220,
      , (11511,  8,  4, 20, 0.75,  220,  220,  220,  220,  220,  220,  220,  220,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11511, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (11511, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+VALUES (11511, 9, 11355,  0, 0, 0.03, False) /* Create Aun Pendant (11355) for ContainTreasure */
+     , (11511, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (11511, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (11511, 9, 11355,  0, 0, 0.03, False) /* Create Aun Pendant (11355) for ContainTreasure */;
+     , (11511, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70036;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70036, 'ace70036-soldier', 10, '2019-03-26 23:43:22') /* Creature */;
+VALUES (70036, 'ace70036-soldier', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70036,   1,         16) /* ItemType - Creature */
@@ -96,9 +96,9 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 1.5, 1, NULL, NULL, NULL, NULL, 
      , (@parent_id,  1,  10 /* Tell */, 1.5, 1, NULL, 'The Renegades have been at our door for years. And in all that time, what reinforcement has the Queen shown us?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70036, 2,   107,  0, 2, 0.7091, False) /* Create Sollerets (107) for Wield */
-     , (70036, 2,   351,  0, 2, 0, False) /* Create Long Sword (351) for Wield */
-     , (70036, 2,  6043,  0, 2, 0.7091, False) /* Create Celdon Girth (6043) for Wield */
-     , (70036, 2,  6044,  0, 2, 0.7091, False) /* Create Celdon Breastplate (6044) for Wield */
+VALUES (70036, 2,  6044,  0, 2, 0.7091, False) /* Create Celdon Breastplate (6044) for Wield */
      , (70036, 2,  6045,  0, 2, 0.7091, False) /* Create Celdon Leggings (6045) for Wield */
-     , (70036, 2,  6048,  0, 2, 0.7091, False) /* Create Celdon Sleeves (6048) for Wield */;
+     , (70036, 2,  6048,  0, 2, 0.7091, False) /* Create Celdon Sleeves (6048) for Wield */
+     , (70036, 2,  6043,  0, 2, 0.7091, False) /* Create Celdon Girth (6043) for Wield */
+     , (70036, 2,   107,  0, 2, 0.7091, False) /* Create Sollerets (107) for Wield */
+     , (70036, 2,   351,  0, 2, 0, False) /* Create Long Sword (351) for Wield */;

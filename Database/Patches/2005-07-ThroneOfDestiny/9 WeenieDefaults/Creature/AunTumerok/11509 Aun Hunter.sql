@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11509;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11509, 'tumerokaunhunter_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11509, 'tumerokaunhunter_xp', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11509,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,20 @@ VALUES (11509,   1,   33557117) /* Setup */
      , (11509,   7,  268436193) /* ClothingBase */
      , (11509,   8,  100671756) /* Icon */
      , (11509,  22,  872415270) /* PhysicsEffectTable */
-     , (11509,  32,        378) /* WieldedTreasureType */
-     , (11509,  35,        453) /* DeathTreasureType */;
+     , (11509,  32,        378) /* WieldedTreasureType - 
+                                   Wield Shortbow (307) | Probability: 22%
+                                   Wield 25x Armor Piercing Arrow (3598) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 23%
+                                   Wield 20x Acid Arrow (4181) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 11%
+                                   Wield 15x Frost Quarrel (4186) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 16%
+                                   Wield 22x Fire Arrow (1437) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 14%
+                                   Wield 20x Lightning Arrow (4183) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 14%
+                                   Wield 15x Armor Piercing Quarrel (3602) | Probability: 100% */
+     , (11509,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11509,   1, 110, 0, 0) /* Strength */

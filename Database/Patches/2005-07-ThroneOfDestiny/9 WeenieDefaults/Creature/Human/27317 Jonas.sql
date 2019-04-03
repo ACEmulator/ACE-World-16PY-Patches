@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27317;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27317, 'npctuskerassaultjonas', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (27317, 'npctuskerassaultjonas', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27317,   1,         16) /* ItemType - Creature */
@@ -320,5 +320,5 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Can''t use these -- you tak
      , (@parent_id,  1,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 9482 /* Gan-Zo's High-Stakes Gambling Token */, 10, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27317, 2, 10757,  0, 0, 0, False) /* Create Towel (10757) for Wield */
-     , (27317, 2, 22546,  0, 0, 0, False) /* Create Coconut (22546) for Wield */;
+VALUES (27317, 2, 22546,  0, 0, 0, False) /* Create Coconut (22546) for Wield */
+     , (27317, 2, 10757,  0, 0, 0, False) /* Create Towel (10757) for Wield */;

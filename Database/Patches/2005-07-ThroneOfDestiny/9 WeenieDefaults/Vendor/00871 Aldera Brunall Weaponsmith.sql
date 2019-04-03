@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 871;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (871, 'hebianweaponsmith', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (871, 'hebianweaponsmith', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (871,   1,         16) /* ItemType - Creature */
@@ -165,19 +165,21 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (871, 2,   115,  0, 6, 0, False) /* Create Leather Boots (115) for Wield */
-     , (871, 2,   127,  0, 8, 0, False) /* Create Pants (127) for Wield */
+VALUES (871, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (871, 2,   134,  0, 10, 1, False) /* Create Tunic (134) for Wield */
-     , (871, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */
+     , (871, 2,   127,  0, 8, 0, False) /* Create Pants (127) for Wield */
+     , (871, 2,   115,  0, 6, 0, False) /* Create Leather Boots (115) for Wield */
      , (871, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */
+     , (871, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
      , (871, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
-     , (871, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
+     , (871, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */
      , (871, 4,   327, -1, 0, 0, False) /* Create Ken (327) for Shop */
      , (871, 4,   336, -1, 0, 0, False) /* Create Ono (336) for Shop */
      , (871, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */
      , (871, 4,   356, -1, 0, 0, False) /* Create Tofun (356) for Shop */
-     , (871, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
      , (871, 4,   362, -1, 0, 0, False) /* Create Yari (362) for Shop */
+     , (871, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
+     , (871, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
      , (871, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (871, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (871, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -185,10 +187,8 @@ VALUES (871, 2,   115,  0, 6, 0, False) /* Create Leather Boots (115) for Wield 
      , (871, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (871, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (871, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (871, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
      , (871, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (871, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (871, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (871, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */
      , (871, 4, 45683, -1, 0, 0, False) /* Create Left-hand Tether (45683) for Shop */
      , (871, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */;

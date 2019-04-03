@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 13242;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (13242, 'academycrier', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (13242, 'academycrier', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (13242,   1,         16) /* ItemType - Creature */
@@ -236,6 +236,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Many items, such as potions, that you''ll find in the world are stackable. This means that they will stack on top of each other in the same slot in your inventory.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (13242, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
-     , (13242, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
+VALUES (13242, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
+     , (13242, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
      , (13242, 2,  5850,  0, 93, 0.5, False) /* Create Faran Robe (5850) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28686;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28686, 'ayanbaqurrohula', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28686, 'ayanbaqurrohula', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28686,   1,         16) /* ItemType - Creature */
@@ -576,7 +576,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'I can teach you to lose fewer of your possessions when you fall in battle, but you will have to give me a blank augmentation gem in exchange. Speak with Fiun Rehlyun on the Halaetan Islands if you have not done so already.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28686, 2,   133,  0, 4, 0.25, False) /* Create Slippers (133) for Wield */
+VALUES (28686, 2, 25953,  0, 4, 0, False) /* Create Cowl of the Sand (25953) for Wield */
      , (28686, 2,  2601,  0, 4, 0.8036, False) /* Create Pants (2601) for Wield */
-     , (28686, 2,  8788,  0, 0, 0, False) /* Create Obsidian Dagger (8788) for Wield */
-     , (28686, 2, 25953,  0, 4, 0, False) /* Create Cowl of the Sand (25953) for Wield */;
+     , (28686, 2,   133,  0, 4, 0.25, False) /* Create Slippers (133) for Wield */
+     , (28686, 2,  8788,  0, 0, 0, False) /* Create Obsidian Dagger (8788) for Wield */;

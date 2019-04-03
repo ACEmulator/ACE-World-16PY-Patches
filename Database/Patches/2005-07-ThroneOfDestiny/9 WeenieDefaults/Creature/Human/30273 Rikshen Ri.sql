@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30273;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30273, 'hebianri', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30273, 'hebianri', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30273,   1,         16) /* ItemType - Creature */
@@ -587,6 +587,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Fiun Rehlyun of the Halaetan Islands can tell you how to get one of these gems.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30273, 2,  2547,  0, 0, 0, False) /* Create Staff (2547) for Wield */
+VALUES (30273, 2,  9623,  0, 11, 0.75, False) /* Create Alchemist's Hat (9623) for Wield */
      , (30273, 2,  5854,  0, 15, 0.4028, False) /* Create Suikan Robe (5854) for Wield */
-     , (30273, 2,  9623,  0, 11, 0.75, False) /* Create Alchemist's Hat (9623) for Wield */;
+     , (30273, 2,  2547,  0, 0, 0, False) /* Create Staff (2547) for Wield */;

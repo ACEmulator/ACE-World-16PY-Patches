@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20212;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20212, 'scriveneritemextreme', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (20212, 'scriveneritemextreme', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20212,   1,         16) /* ItemType - Creature */
@@ -184,42 +184,42 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Good luck in your travels, 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20212, 2, 28614,  0, 93, 0.5, False) /* Create Vestiri Robe with Hood (28614) for Wield */
+     , (20212, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
      , (20212, 4,  2766, -1, 0, 0, False) /* Create Scroll of Acid Bane VI (2766) for Shop */
      , (20212, 4,  2771, -1, 0, 0, False) /* Create Scroll of Acid Lure VI (2771) for Shop */
      , (20212, 4,  2776, -1, 0, 0, False) /* Create Scroll of Blade Bane VI (2776) for Shop */
      , (20212, 4,  2781, -1, 0, 0, False) /* Create Scroll of Blade Lure VI (2781) for Shop */
      , (20212, 4,  2786, -1, 0, 0, False) /* Create Scroll of Aura of Blood Drinker Self VI (2786) for Shop */
+     , (20212, 4, 46855, -1, 0, 0, False) /* Create Scroll of Aura of Blood Drinker Other VI (46855) for Shop */
      , (20212, 4,  2791, -1, 0, 0, False) /* Create Scroll of Blood Loather VI (2791) for Shop */
      , (20212, 4,  2796, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane VI (2796) for Shop */
      , (20212, 4,  2801, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure VI (2801) for Shop */
-     , (20212, 4,  2806, -1, 0, 0, False) /* Create Scroll of Brittlemail VI (2806) for Shop */
      , (20212, 4,  2811, -1, 0, 0, False) /* Create Scroll of Aura of Defender Self VI (2811) for Shop */
+     , (20212, 4, 46856, -1, 0, 0, False) /* Create Scroll of Aura of Defender Other VI (46856) for Shop */
+     , (20212, 4,  2866, -1, 0, 0, False) /* Create Scroll of Lure Blade VI (2866) for Shop */
      , (20212, 4,  2816, -1, 0, 0, False) /* Create Scroll of Flame Bane VI (2816) for Shop */
      , (20212, 4,  2821, -1, 0, 0, False) /* Create Scroll of Flame Lure VI (2821) for Shop */
      , (20212, 4,  2826, -1, 0, 0, False) /* Create Scroll of Frost Bane VI (2826) for Shop */
      , (20212, 4,  2831, -1, 0, 0, False) /* Create Scroll of Frost Lure VI (2831) for Shop */
      , (20212, 4,  2836, -1, 0, 0, False) /* Create Scroll of Aura of Heartseeker Self VI (2836) for Shop */
+     , (20212, 4, 46857, -1, 0, 0, False) /* Create Scroll of Aura of Heartseeker Other VI (46857) for Shop */
+     , (20212, 4,  2897, -1, 0, 0, False) /* Create Scroll of Turn Blade VI (2897) for Shop */
+     , (20212, 4,  2892, -1, 0, 0, False) /* Create Scroll of Aura of Hermetic Link Self VI (2892) for Shop */
+     , (20212, 4, 46858, -1, 0, 0, False) /* Create Scroll of Aura of Hermetic Link Other VI (46858) for Shop */
      , (20212, 4,  2841, -1, 0, 0, False) /* Create Scroll of Hermetic Void VI (2841) for Shop */
      , (20212, 4,  2846, -1, 0, 0, False) /* Create Scroll of Impenetrability VI (2846) for Shop */
-     , (20212, 4,  2851, -1, 0, 0, False) /* Create Scroll of Leaden Weapon VI (2851) for Shop */
+     , (20212, 4,  2806, -1, 0, 0, False) /* Create Scroll of Brittlemail VI (2806) for Shop */
      , (20212, 4,  2856, -1, 0, 0, False) /* Create Scroll of Lightning Bane VI (2856) for Shop */
      , (20212, 4,  2861, -1, 0, 0, False) /* Create Scroll of Lightning Lure VI (2861) for Shop */
-     , (20212, 4,  2866, -1, 0, 0, False) /* Create Scroll of Lure Blade VI (2866) for Shop */
      , (20212, 4,  2871, -1, 0, 0, False) /* Create Scroll of Piercing Bane VI (2871) for Shop */
      , (20212, 4,  2876, -1, 0, 0, False) /* Create Scroll of Piercing Lure VI (2876) for Shop */
+     , (20212, 4, 28007, -1, 0, 0, False) /* Create Scroll of Aura of Spirit Drinker Self VI (28007) for Shop */
+     , (20212, 4, 46859, -1, 0, 0, False) /* Create Scroll of Aura of Spirit Drinker Other VI (46859) for Shop */
+     , (20212, 4, 28014, -1, 0, 0, False) /* Create Scroll of Spirit Loather VI (28014) for Shop */
      , (20212, 4,  2881, -1, 0, 0, False) /* Create Scroll of Strengthen Lock VI (2881) for Shop */
-     , (20212, 4,  2886, -1, 0, 0, False) /* Create Scroll of Aura of Swift Killer Self VI (2886) for Shop */
-     , (20212, 4,  2892, -1, 0, 0, False) /* Create Scroll of Aura of Hermetic Link Self VI (2892) for Shop */
-     , (20212, 4,  2897, -1, 0, 0, False) /* Create Scroll of Turn Blade VI (2897) for Shop */
      , (20212, 4,  2902, -1, 0, 0, False) /* Create Scroll of Weaken Lock VI (2902) for Shop */
      , (20212, 4,  2906, -1, 0, 0, False) /* Create Scroll of Summon Primary Portal III (2906) for Shop */
-     , (20212, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
      , (20212, 4, 20624, -1, 0, 0, False) /* Create Scroll of Summon Secondary Portal III (20624) for Shop */
-     , (20212, 4, 28007, -1, 0, 0, False) /* Create Scroll of Aura of Spirit Drinker Self VI (28007) for Shop */
-     , (20212, 4, 28014, -1, 0, 0, False) /* Create Scroll of Spirit Loather VI (28014) for Shop */
-     , (20212, 4, 46855, -1, 0, 0, False) /* Create Scroll of Aura of Blood Drinker Other VI (46855) for Shop */
-     , (20212, 4, 46856, -1, 0, 0, False) /* Create Scroll of Aura of Defender Other VI (46856) for Shop */
-     , (20212, 4, 46857, -1, 0, 0, False) /* Create Scroll of Aura of Heartseeker Other VI (46857) for Shop */
-     , (20212, 4, 46858, -1, 0, 0, False) /* Create Scroll of Aura of Hermetic Link Other VI (46858) for Shop */
-     , (20212, 4, 46859, -1, 0, 0, False) /* Create Scroll of Aura of Spirit Drinker Other VI (46859) for Shop */
-     , (20212, 4, 46860, -1, 0, 0, False) /* Create Scroll of Aura of Swift Killer Other VI (46860) for Shop */;
+     , (20212, 4,  2886, -1, 0, 0, False) /* Create Scroll of Aura of Swift Killer Self VI (2886) for Shop */
+     , (20212, 4, 46860, -1, 0, 0, False) /* Create Scroll of Aura of Swift Killer Other VI (46860) for Shop */
+     , (20212, 4,  2851, -1, 0, 0, False) /* Create Scroll of Leaden Weapon VI (2851) for Shop */;

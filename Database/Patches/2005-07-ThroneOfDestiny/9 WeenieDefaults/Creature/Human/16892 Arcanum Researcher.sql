@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 16892;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (16892, 'researcherarcanumgreekgiftsii', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (16892, 'researcherarcanumgreekgiftsii', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (16892,   1,         16) /* ItemType - Creature */
@@ -1636,6 +1636,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'This is indeed an intriguin
      , (@parent_id,  1,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 15885 /* Bronze Quintessence Sickle */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (16892, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (16892, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+VALUES (16892, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (16892, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
      , (16892, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */;
