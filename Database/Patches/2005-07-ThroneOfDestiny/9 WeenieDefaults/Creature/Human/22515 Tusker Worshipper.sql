@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22515;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22515, 'humantuskerworshipper', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (22515, 'humantuskerworshipper', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22515,   1,         16) /* ItemType - Creature */
@@ -79,8 +79,18 @@ VALUES (22515,   1,   33554510) /* Setup */
      , (22515,  16,   67109566) /* EyesPalette */
      , (22515,  17,   67109558) /* SkinPalette */
      , (22515,  22,  872415236) /* PhysicsEffectTable */
-     , (22515,  32,        418) /* WieldedTreasureType */
-     , (22515,  35,        450) /* DeathTreasureType */;
+     , (22515,  32,        418) /* WieldedTreasureType - 
+                                   Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
+                                   Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50%
+                                   Wield Bandit Dagger (22777) | Probability: 12.5%
+                                   Wield Jambiya (22780) | Probability: 12.5%
+                                   Wield Khanjar (22783) | Probability: 12.5%
+                                   Wield Knife (22786) | Probability: 12.5%
+                                   Wield Bandit Simi (22789) | Probability: 12.5%
+                                   Wield Bandit Rapier (22792) | Probability: 12.5%
+                                   Wield Bandit Short Sword (22795) | Probability: 12.5%
+                                   Wield Bandit Yaoji (22798) | Probability: 12.5% */
+     , (22515,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22515,   1, 200, 0, 0) /* Strength */
@@ -121,7 +131,7 @@ VALUES (22515,  0,  4,  0,    0,  260,  234,  260,  286,  104,  104,  260,  156,
      , (22515,  8,  4,  2, 0.75,  260,  234,  260,  286,  104,  104,  260,  156,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22515, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (22515, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (22515, 9, 45875,  1, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (22515, 9, 45876,  1, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+VALUES (22515, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (22515, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (22515, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (22515, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

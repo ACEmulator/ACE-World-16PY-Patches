@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31364;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31364, 'ace31364-jacobdurstan', 10, '2019-02-28 15:44:59') /* Creature */;
+VALUES (31364, 'ace31364-jacobdurstan', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31364,   1,         16) /* ItemType - Creature */
@@ -130,9 +130,9 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  6,  10 /* Tell */, 1.5, 1, NULL, 'Good luck to you!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31364, 2,   107, -1, 20, 0.6667, False) /* Create Sollerets (107) for Wield */
-     , (31364, 2,   130, -1, 4, 0.6, False) /* Create Shirt (130) for Wield */
+VALUES (31364, 2, 25642, -1, 4, 0, False) /* Create Leather Gauntlets (25642) for Wield */
      , (31364, 2, 25641, -1, 4, 0, False) /* Create Leather Cuirass (25641) for Wield */
-     , (31364, 2, 25642, -1, 4, 0, False) /* Create Leather Gauntlets (25642) for Wield */
      , (31364, 2, 25645, -1, 4, 0, False) /* Create Leather Leggings (25645) for Wield */
-     , (31364, 2, 25651, -1, 4, 0, False) /* Create Leather Sleeves (25651) for Wield */;
+     , (31364, 2, 25651, -1, 4, 0, False) /* Create Leather Sleeves (25651) for Wield */
+     , (31364, 2,   130, -1, 4, 0.6, False) /* Create Shirt (130) for Wield */
+     , (31364, 2,   107, -1, 20, 0.6667, False) /* Create Sollerets (107) for Wield */;

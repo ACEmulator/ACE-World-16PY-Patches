@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30067;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30067, 'silyunscribe', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (30067, 'silyunscribe', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30067,   1,         16) /* ItemType - Creature */
@@ -243,13 +243,18 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Leave the door open on yo
      , (@parent_id,  1,  10 /* Tell */, 0.5, 1, NULL, 'Perhaps that was a bit too circumspect for you. Take a bath before your next visit.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30067, 2,   115,  1, 4, 0.75, False) /* Create Leather Boots (115) for Wield */
-     , (30067, 2,   127,  1, 8, 0, False) /* Create Pants (127) for Wield */
-     , (30067, 2,   134,  1, 7, 1, False) /* Create Tunic (134) for Wield */
+VALUES (30067, 2,   134,  1, 7, 1, False) /* Create Tunic (134) for Wield */
      , (30067, 2, 10696,  1, 18, 1, False) /* Create Apron (10696) for Wield */
-     , (30067, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+     , (30067, 2,   127,  1, 8, 0, False) /* Create Pants (127) for Wield */
+     , (30067, 2,   115,  1, 4, 0.75, False) /* Create Leather Boots (115) for Wield */
      , (30067, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (30067, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
+     , (30067, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+     , (30067, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (30067, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (30067, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
+     , (30067, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
+     , (30067, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (30067, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30067, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30067, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -257,11 +262,6 @@ VALUES (30067, 2,   115,  1, 4, 0.75, False) /* Create Leather Boots (115) for W
      , (30067, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (30067, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (30067, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (30067, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
-     , (30067, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
-     , (30067, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
-     , (30067, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
      , (30067, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30067, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (30067, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30067, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */;
+     , (30067, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

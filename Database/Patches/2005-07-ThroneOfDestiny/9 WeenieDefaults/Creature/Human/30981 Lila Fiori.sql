@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30981;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30981, 'silyunlilassfiori', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30981, 'silyunlilassfiori', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30981,   1,         16) /* ItemType - Creature */
@@ -175,8 +175,8 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'What am I to do? The Grand 
      , (@parent_id,  3,  10 /* Tell */, 0.5, 1, NULL, 'But I''m sure you''ll have no problem dealing with the nasty monsters.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30981, 2,  2600, -1, 4, 0, False) /* Create Pantaloons (2600) for Wield */
-     , (30981, 2, 14917, -1, 0, 0, False) /* Create Elegant Flower Bouquet (14917) for Wield */
-     , (30981, 2, 22883, -1, 5, 0, False) /* Create Stocking Cap (22883) for Wield */
+VALUES (30981, 2, 14917, -1, 0, 0, False) /* Create Elegant Flower Bouquet (14917) for Wield */
      , (30981, 2, 28607, -1, 2, 0, False) /* Create Lace Shirt (28607) for Wield */
-     , (30981, 2, 28610, -1, 4, 0.25, False) /* Create Loafers (28610) for Wield */;
+     , (30981, 2,  2600, -1, 4, 0, False) /* Create Pantaloons (2600) for Wield */
+     , (30981, 2, 28610, -1, 4, 0.25, False) /* Create Loafers (28610) for Wield */
+     , (30981, 2, 22883, -1, 5, 0, False) /* Create Stocking Cap (22883) for Wield */;

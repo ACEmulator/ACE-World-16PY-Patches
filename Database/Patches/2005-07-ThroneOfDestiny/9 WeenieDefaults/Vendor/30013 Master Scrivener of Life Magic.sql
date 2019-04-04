@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30013;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30013, 'viascrivenerlifedistant', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (30013, 'viascrivenerlifedistant', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30013,   1,         16) /* ItemType - Creature */
@@ -174,6 +174,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, '', NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30013, 2, 28614,  0, 14, 0.5, False) /* Create Vestiri Robe with Hood (28614) for Wield */
+     , (30013, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy (15270) for Shop */
+     , (30013, 4,  4388, -1, 0, 0, False) /* Create Scroll of Armor Other V (4388) for Shop */
+     , (30013, 4,  4393, -1, 0, 0, False) /* Create Scroll of Armor Self V (4393) for Shop */
      , (30013, 4,  2667, -1, 0, 0, False) /* Create Scroll of Enfeeble Other V (2667) for Shop */
      , (30013, 4,  2690, -1, 0, 0, False) /* Create Scroll of Harm Other V (2690) for Shop */
      , (30013, 4,  2695, -1, 0, 0, False) /* Create Scroll of Heal Other V (2695) for Shop */
@@ -212,21 +215,18 @@ VALUES (30013, 2, 28614,  0, 14, 0.5, False) /* Create Vestiri Robe with Hood (2
      , (30013, 4,  3116, -1, 0, 0, False) /* Create Scroll of Regenerate Self V (3116) for Shop */
      , (30013, 4,  3121, -1, 0, 0, False) /* Create Scroll of Rejuvenate Other V (3121) for Shop */
      , (30013, 4,  3126, -1, 0, 0, False) /* Create Scroll of Rejuvenate Self V (3126) for Shop */
+     , (30013, 4,  3935, -1, 0, 0, False) /* Create Scroll of Drain Health Other V (3935) for Shop */
+     , (30013, 4,  9664, -1, 0, 0, False) /* Create Scroll of Drain Mana Other V (9664) for Shop */
      , (30013, 4,  3729, -1, 0, 0, False) /* Create Scroll of Drain Stamina Other V (3729) for Shop */
+     , (30013, 4,  9633, -1, 0, 0, False) /* Create Scroll of Health to Mana Self V (9633) for Shop */
+     , (30013, 4,  9638, -1, 0, 0, False) /* Create Scroll of Health to Stamina Self V (9638) for Shop */
      , (30013, 4,  3734, -1, 0, 0, False) /* Create Scroll of Infuse Health V (3734) for Shop */
      , (30013, 4,  3739, -1, 0, 0, False) /* Create Scroll of Infuse Mana V (3739) for Shop */
      , (30013, 4,  3744, -1, 0, 0, False) /* Create Scroll of Infuse Stamina V (3744) for Shop */
-     , (30013, 4,  3935, -1, 0, 0, False) /* Create Scroll of Drain Health Other V (3935) for Shop */
-     , (30013, 4,  4388, -1, 0, 0, False) /* Create Scroll of Armor Other V (4388) for Shop */
-     , (30013, 4,  4393, -1, 0, 0, False) /* Create Scroll of Armor Self V (4393) for Shop */
-     , (30013, 4,  9633, -1, 0, 0, False) /* Create Scroll of Health to Mana Self V (9633) for Shop */
-     , (30013, 4,  9638, -1, 0, 0, False) /* Create Scroll of Health to Stamina Self V (9638) for Shop */
      , (30013, 4,  9643, -1, 0, 0, False) /* Create Scroll of Mana to Health Self V (9643) for Shop */
      , (30013, 4,  9648, -1, 0, 0, False) /* Create Scroll of Mana to Stamina Self V (9648) for Shop */
      , (30013, 4,  9653, -1, 0, 0, False) /* Create Scroll of Stamina to Health Self V (9653) for Shop */
      , (30013, 4,  9658, -1, 0, 0, False) /* Create Scroll of Stamina to Mana Self V (9658) for Shop */
-     , (30013, 4,  9664, -1, 0, 0, False) /* Create Scroll of Drain Mana Other V (9664) for Shop */
-     , (30013, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy (15270) for Shop */
-     , (30013, 4, 21099, -1, 0, 0, False) /* Create Scroll of Martyr's Hecatomb V (21099) for Shop */
      , (30013, 4, 21106, -1, 0, 0, False) /* Create Scroll of Martyr's Blight V (21106) for Shop */
-     , (30013, 4, 21113, -1, 0, 0, False) /* Create Scroll of Martyr's Tenacity V (21113) for Shop */;
+     , (30013, 4, 21113, -1, 0, 0, False) /* Create Scroll of Martyr's Tenacity V (21113) for Shop */
+     , (30013, 4, 21099, -1, 0, 0, False) /* Create Scroll of Martyr's Hecatomb V (21099) for Shop */;

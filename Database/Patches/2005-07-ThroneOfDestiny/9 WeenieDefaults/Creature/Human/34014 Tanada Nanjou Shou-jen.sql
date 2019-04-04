@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34014;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34014, 'ace34014-tanadananjoushoujen', 10, '2019-02-19 06:52:23') /* Creature */;
+VALUES (34014, 'ace34014-tanadananjoushoujen', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34014,   1,         16) /* ItemType - Creature */
@@ -27,7 +27,8 @@ VALUES (34014,   1, True ) /* Stuck */
      , (34014,  12, True ) /* ReportCollisions */
      , (34014,  13, False) /* Ethereal */
      , (34014,  58, True ) /* SpellQueueActive */
-     , (34014, 101, True ) /* CanGenerateRare */;
+     , (34014, 101, True ) /* CanGenerateRare */
+     , (34014, 102, True ) /* CorpseGeneratedRare */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34014,   1,       5) /* HeartbeatInterval */
@@ -73,7 +74,7 @@ VALUES (34014,   1,   33554433) /* Setup */
      , (34014,   4,  805306368) /* CombatTable */
      , (34014,   8,  100667446) /* Icon */
      , (34014,  22,  872415236) /* PhysicsEffectTable */
-     , (34014,  35,        455) /* DeathTreasureType */;
+     , (34014,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34014,   1, 300, 0, 0) /* Strength */
@@ -118,10 +119,10 @@ VALUES (34014,  2074,  2.035)  /* Gossamer Flesh */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34014, 2, 33973,  0, 0, 1, False) /* Create Shou-jen Jika-Tabi (33973) for Wield */
-     , (34014, 2, 33974,  0, 0, 1, False) /* Create Shou-jen Shozoku Sleeve Gauntlets (33974) for Wield */
-     , (34014, 2, 33975,  0, 0, 1, False) /* Create Shou-jen Shozoku Jacket (33975) for Wield */
      , (34014, 2, 33976,  0, 0, 1, False) /* Create Shou-jen Shozoku Mask (33976) for Wield */
+     , (34014, 2, 33975,  0, 0, 1, False) /* Create Shou-jen Shozoku Jacket (33975) for Wield */
+     , (34014, 2, 33974,  0, 0, 1, False) /* Create Shou-jen Shozoku Sleeve Gauntlets (33974) for Wield */
+     , (34014, 2, 46644,  0, 0, 1, False) /* Create Reinforced Shou-jen Shozoku Trousers (46644) for Wield */
      , (34014, 2, 33977,  0, 0, 1, False) /* Create Shou-jen Shozoku Trousers (33977) for Wield */
-     , (34014, 2, 46644,  0, 0, 1, False) /* Create  (46644) for Wield */
-     , (34014, 10, 34017,  1, 0, 0.5, False) /* Create Tachi (34017) for WieldTreasure */
-     , (34014, 10, 34018,  1, 0, 0.5, False) /* Create Frost Tachi (34018) for WieldTreasure */;
+     , (34014, 10, 34018,  1, 0, 0.5, False) /* Create Frost Tachi (34018) for WieldTreasure */
+     , (34014, 10, 34017,  1, 0, 0.5, False) /* Create Tachi (34017) for WieldTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27309;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27309, 'humanderangedsycophant', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (27309, 'humanderangedsycophant', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27309,   1,         16) /* ItemType - Creature */
@@ -80,8 +80,10 @@ VALUES (27309,   1,   33554433) /* Setup */
      , (27309,  16,   67110063) /* EyesPalette */
      , (27309,  17,   67109559) /* SkinPalette */
      , (27309,  22,  872415236) /* PhysicsEffectTable */
-     , (27309,  32,        416) /* WieldedTreasureType */
-     , (27309,  35,        458) /* DeathTreasureType */;
+     , (27309,  32,        416) /* WieldedTreasureType - 
+                                   Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
+                                   Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50% */
+     , (27309,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27309,   1, 130, 0, 0) /* Strength */
@@ -144,5 +146,5 @@ VALUES (27309,  2073,   2.08)  /* Adja's Intervention */
      , (27309,  3185,   2.08)  /* Eradicate Creature Magic Self */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27309, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (27309, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;
+VALUES (27309, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (27309, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

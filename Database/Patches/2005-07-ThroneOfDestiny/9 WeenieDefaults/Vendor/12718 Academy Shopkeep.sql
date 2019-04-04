@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12718;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12718, 'academyprovisioner', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (12718, 'academyprovisioner', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12718,   1,         16) /* ItemType - Creature */
@@ -145,14 +145,14 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Good luck in your travels!'
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12718, 2,   127,  0, 17, 0.67, False) /* Create Pants (127) for Wield */
      , (12718, 2,   128,  0, 17, 0.6, False) /* Create Qafiya (128) for Wield */
+     , (12718, 2, 10696,  0, 14, 0.5, False) /* Create Apron (10696) for Wield */
      , (12718, 2,   130,  0, 14, 0, False) /* Create Shirt (130) for Wield */
      , (12718, 2,   133,  0, 14, 0.1667, False) /* Create Slippers (133) for Wield */
-     , (12718, 2, 10696,  0, 14, 0.5, False) /* Create Apron (10696) for Wield */
      , (12718, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (12718, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
-     , (12718, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
-     , (12718, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
-     , (12718, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
      , (12718, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
      , (12718, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
-     , (12718, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */;
+     , (12718, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (12718, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
+     , (12718, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (12718, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
+     , (12718, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */;

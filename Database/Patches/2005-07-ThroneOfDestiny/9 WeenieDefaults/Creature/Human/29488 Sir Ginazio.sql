@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29488;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29488, 'npcknightkarlunsirginazio', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29488, 'npcknightkarlunsirginazio', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29488,   1,         16) /* ItemType - Creature */
@@ -222,7 +222,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  11 /* Turn */, 3, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 127.638, 87.727, 100.005, -0.707107, 0, 0, -0.707107);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29488, 2,  9021,  1, 0, 0, False) /* Create Boots of the Vault (9021) for Wield */
-     , (29488, 2, 28622,  1, 20, 0.5, False) /* Create Tenassa Leggings (28622) for Wield */
+VALUES (29488, 2, 31026,  1, 20, 0.5, False) /* Create Tenassa Breastplate (31026) for Wield */
      , (29488, 2, 28624,  1, 20, 0.5, False) /* Create Tenassa Sleeves (28624) for Wield */
-     , (29488, 2, 31026,  1, 20, 0.5, False) /* Create Tenassa Breastplate (31026) for Wield */;
+     , (29488, 2, 28622,  1, 20, 0.5, False) /* Create Tenassa Leggings (28622) for Wield */
+     , (29488, 2,  9021,  1, 0, 0, False) /* Create Boots of the Vault (9021) for Wield */;

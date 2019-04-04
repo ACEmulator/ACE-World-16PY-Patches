@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28681;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28681, 'oolutangalug', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28681, 'oolutangalug', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28681,   1,         16) /* ItemType - Creature */
@@ -588,8 +588,8 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'Arr!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28681, 2,  2587,  0, 90, 0.8182, False) /* Create Shirt (2587) for Wield */
-     , (28681, 2,  2597,  0, 4, 0, False) /* Create Pants (2597) for Wield */
-     , (28681, 2, 25557,  0, 39, 0, False) /* Create Eye Patch (25557) for Wield */
+VALUES (28681, 2, 25557,  0, 39, 0, False) /* Create Eye Patch (25557) for Wield */
+     , (28681, 2,  2587,  0, 90, 0.8182, False) /* Create Shirt (2587) for Wield */
      , (28681, 2, 28861,  0, 92, 0, False) /* Create Pirate Hook (28861) for Wield */
+     , (28681, 2,  2597,  0, 4, 0, False) /* Create Pants (2597) for Wield */
      , (28681, 2, 28868,  0, 0, 0, False) /* Create Right Peg Leg (28868) for Wield */;

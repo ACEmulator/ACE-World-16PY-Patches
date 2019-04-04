@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30755;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30755, 'acidelementalvirulence', 10, '2019-02-08 15:36:00') /* Creature */;
+VALUES (30755, 'acidelementalvirulence', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30755,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (30755,   1,   33557486) /* Setup */
      , (30755,   4,  805306368) /* CombatTable */
      , (30755,   8,  100672513) /* Icon */
      , (30755,  22,  872415349) /* PhysicsEffectTable */
-     , (30755,  35,        461) /* DeathTreasureType */;
+     , (30755,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30755,   1, 160, 0, 0) /* Strength */
@@ -126,5 +126,5 @@ VALUES (30755,   176,  2.017)  /* Fester Other VI */
      , (30755,  2159,  2.008)  /* Storm's Blessing */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30755, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (30755, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;
+VALUES (30755, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (30755, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30034;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30034, 'sanamartailor', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (30034, 'sanamartailor', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30034,   1,         16) /* ItemType - Creature */
@@ -244,13 +244,25 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Leave my sight, you loathsome dog.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30034, 2,   118,  0, 6, 0.5, False) /* Create Cap (118) for Wield */
-     , (30034, 2,   132,  0, 9, 0.1667, False) /* Create Shoes (132) for Wield */
+VALUES (30034, 2, 28607,  0, 11, 0.5, False) /* Create Lace Shirt (28607) for Wield */
      , (30034, 2,  2597,  0, 14, 0.5, False) /* Create Pants (2597) for Wield */
-     , (30034, 2, 28607,  0, 11, 0.5, False) /* Create Lace Shirt (28607) for Wield */
-     , (30034, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
-     , (30034, 4,   118, -1, 85, 0, False) /* Create Cap (118) for Shop */
+     , (30034, 2,   132,  0, 9, 0.1667, False) /* Create Shoes (132) for Wield */
+     , (30034, 2,   118,  0, 6, 0.5, False) /* Create Cap (118) for Wield */
      , (30034, 4,   127, -1, 85, 0, False) /* Create Pants (127) for Shop */
+     , (30034, 4, 28606, -1, 85, 0, False) /* Create Viamontian Pants (28606) for Shop */
+     , (30034, 4, 28607, -1, 14, 0, False) /* Create Lace Shirt (28607) for Shop */
+     , (30034, 4, 28608, -1, 85, 0, False) /* Create Poet's Shirt (28608) for Shop */
+     , (30034, 4, 28609, -1, 16, 0, False) /* Create Vest (28609) for Shop */
+     , (30034, 4, 28612, -1, 14, 0, False) /* Create Bandana (28612) for Shop */
+     , (30034, 4, 28605, -1, 14, 0, False) /* Create Beret (28605) for Shop */
+     , (30034, 4,   118, -1, 85, 0, False) /* Create Cap (118) for Shop */
+     , (30034, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
+     , (30034, 4, 28610, -1, 90, 0.5, False) /* Create Loafers (28610) for Shop */
+     , (30034, 4, 28611, -1, 4, 0, False) /* Create Viamontian Laced Boots (28611) for Shop */
+     , (30034, 4, 28614, -1, 14, 0.3571, False) /* Create Vestiri Robe with Hood (28614) for Shop */
+     , (30034, 4, 28615, -1, 14, 0.6429, False) /* Create Vestiri Robe (28615) for Shop */
+     , (30034, 4, 28616, -1, 14, 0, False) /* Create Toga (28616) for Shop */
+     , (30034, 4, 28613, -1, 0, 0, False) /* Create Tessera Gown (28613) for Shop */
      , (30034, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30034, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30034, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -260,16 +272,4 @@ VALUES (30034, 2,   118,  0, 6, 0.5, False) /* Create Cap (118) for Wield */
      , (30034, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (30034, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30034, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (30034, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30034, 4, 28605, -1, 14, 0, False) /* Create Beret (28605) for Shop */
-     , (30034, 4, 28606, -1, 85, 0, False) /* Create Viamontian Pants (28606) for Shop */
-     , (30034, 4, 28607, -1, 14, 0, False) /* Create Lace Shirt (28607) for Shop */
-     , (30034, 4, 28608, -1, 85, 0, False) /* Create Poet's Shirt (28608) for Shop */
-     , (30034, 4, 28609, -1, 16, 0, False) /* Create Vest (28609) for Shop */
-     , (30034, 4, 28610, -1, 90, 0.5, False) /* Create Loafers (28610) for Shop */
-     , (30034, 4, 28611, -1, 4, 0, False) /* Create Viamontian Laced Boots (28611) for Shop */
-     , (30034, 4, 28612, -1, 14, 0, False) /* Create Bandana (28612) for Shop */
-     , (30034, 4, 28613, -1, 0, 0, False) /* Create Tessera Gown (28613) for Shop */
-     , (30034, 4, 28614, -1, 14, 0.3571, False) /* Create Vestiri Robe with Hood (28614) for Shop */
-     , (30034, 4, 28615, -1, 14, 0.6429, False) /* Create Vestiri Robe (28615) for Shop */
-     , (30034, 4, 28616, -1, 14, 0, False) /* Create Toga (28616) for Shop */;
+     , (30034, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

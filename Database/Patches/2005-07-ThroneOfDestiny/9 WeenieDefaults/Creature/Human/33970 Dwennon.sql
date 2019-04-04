@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33970;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33970, 'ace33970-dwennon', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (33970, 'ace33970-dwennon', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33970,   1,         16) /* ItemType - Creature */
@@ -95,7 +95,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1.5, 1, NULL, 'Good, those cows will be 
      , (@parent_id,  1,  62 /* AwardNoShareXP */, 2, 1, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 500000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  34 /* AddCharacterTitle */, 1, 1, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 433, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  18 /* DirectBroadcast */, 1, 1, NULL, 'You are Obviously Bored, maybe you should check your titles.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  4,   3 /* Give */, 1, 1.5, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 33965, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  4,   3 /* Give */, 1, 1.5, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 33965 /* Tipped Pack Cow */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,  10 /* Tell */, 1, 1.5, NULL, 'Don''t tell them I gave that to you, you don''t want to see them when they get very mad.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  6,  31 /* EraseQuest */, 0.5, 1, NULL, 'cowtipcounter', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  7,  22 /* StampQuest */, 0.5, 1, NULL, 'CowTip', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -126,7 +126,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0.5, 1, NULL, 'You''ve seen them lingering around town, haven''t you? They''ve been here all along, you know that, don''t you? They have spies all over the place. They see and hear everything. They must be stopped, and stopped the only way we know how. Simply killing them isn''t good enough, we need to tip them and tip them often. Go, go tip the cows, they must be stopped!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33970, 2,   127,  1, 5, 0, False) /* Create Pants (127) for Wield */
-     , (33970, 2,   132,  1, 4, 0.75, False) /* Create Shoes (132) for Wield */
-     , (33970, 2,   134,  1, 5, 0, False) /* Create Tunic (134) for Wield */
-     , (33970, 2, 10696,  1, 5, 0.5, False) /* Create Apron (10696) for Wield */;
+VALUES (33970, 2,   134,  1, 5, 0, False) /* Create Tunic (134) for Wield */
+     , (33970, 2, 10696,  1, 5, 0.5, False) /* Create Apron (10696) for Wield */
+     , (33970, 2,   127,  1, 5, 0, False) /* Create Pants (127) for Wield */
+     , (33970, 2,   132,  1, 4, 0.75, False) /* Create Shoes (132) for Wield */;

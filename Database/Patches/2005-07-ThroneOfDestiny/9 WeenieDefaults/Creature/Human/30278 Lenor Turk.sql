@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30278;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30278, 'cragstonelenor', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30278, 'cragstonelenor', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30278,   1,         16) /* ItemType - Creature */
@@ -547,11 +547,11 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30278, 2,    35,  0, 39, 1, False) /* Create Chainmail Basinet (35) for Wield */
-     , (30278, 2,    55,  0, 39, 1, False) /* Create Chainmail Gauntlets (55) for Wield */
-     , (30278, 2,   107,  0, 39, 1, False) /* Create Sollerets (107) for Wield */
-     , (30278, 2,   108,  0, 39, 1, False) /* Create Chainmail Tassets (108) for Wield */
-     , (30278, 2,   413,  0, 39, 1, False) /* Create Chainmail Bracers (413) for Wield */
      , (30278, 2,   414,  0, 39, 1, False) /* Create Chainmail Breastplate (414) for Wield */
-     , (30278, 2,   415,  0, 39, 0.25, False) /* Create Chainmail Girth (415) for Wield */
+     , (30278, 2,    55,  0, 39, 1, False) /* Create Chainmail Gauntlets (55) for Wield */
      , (30278, 2,   416,  0, 39, 1, False) /* Create Chainmail Pauldrons (416) for Wield */
-     , (30278, 2,  2605,  0, 39, 1, False) /* Create Chainmail Greaves (2605) for Wield */;
+     , (30278, 2,  2605,  0, 39, 1, False) /* Create Chainmail Greaves (2605) for Wield */
+     , (30278, 2,   415,  0, 39, 0.25, False) /* Create Chainmail Girth (415) for Wield */
+     , (30278, 2,   413,  0, 39, 1, False) /* Create Chainmail Bracers (413) for Wield */
+     , (30278, 2,   108,  0, 39, 1, False) /* Create Chainmail Tassets (108) for Wield */
+     , (30278, 2,   107,  0, 39, 1, False) /* Create Sollerets (107) for Wield */;

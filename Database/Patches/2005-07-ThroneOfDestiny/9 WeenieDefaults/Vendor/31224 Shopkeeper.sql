@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31224;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31224, 'ace31224-shopkeeper', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (31224, 'ace31224-shopkeeper', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31224,   1,         16) /* ItemType - Creature */
@@ -192,24 +192,24 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'I can''t say I much like the thought of doing business with the Bloodless, but perhaps if I show you a kindness, you will choose to align yourself with our noble King rather than the Bloodless Queen.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31224, 2,   132,  0, 5, 0, False) /* Create Shoes (132) for Wield */
+VALUES (31224, 2, 28605,  0, 14, 0.5, False) /* Create Beret (28605) for Wield */
      , (31224, 2,  2591,  0, 4, 0, False) /* Create Shirt (2591) for Wield */
      , (31224, 2, 10696,  0, 2, 0, False) /* Create Apron (10696) for Wield */
-     , (31224, 2, 28605,  0, 14, 0.5, False) /* Create Beret (28605) for Wield */
      , (31224, 2, 28606,  0, 8, 0, False) /* Create Viamontian Pants (28606) for Wield */
+     , (31224, 2,   132,  0, 5, 0, False) /* Create Shoes (132) for Wield */
      , (31224, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
      , (31224, 4,   136, -1, 14, 0, False) /* Create Pack (136) for Shop */
      , (31224, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
-     , (31224, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
-     , (31224, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
      , (31224, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
-     , (31224, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */
-     , (31224, 4,   689, -1, 0, 0, False) /* Create Iron Scarab (689) for Shop */
-     , (31224, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (31224, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
      , (31224, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (31224, 4,  5634, -1, 0, 0, False) /* Create Stamina Draught (5634) for Shop */
+     , (31224, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
+     , (31224, 4,   689, -1, 0, 0, False) /* Create Iron Scarab (689) for Shop */
+     , (31224, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */
+     , (31224, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
+     , (31224, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (31224, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
      , (31224, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (31224, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (31224, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (31224, 4,  5634, -1, 0, 0, False) /* Create Stamina Draught (5634) for Shop */
-     , (31224, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */;
+     , (31224, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

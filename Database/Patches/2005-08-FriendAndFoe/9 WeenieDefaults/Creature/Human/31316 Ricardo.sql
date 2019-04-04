@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31316;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31316, 'ace31316-ricardo', 10, '2019-03-26 23:41:54') /* Creature */;
+VALUES (31316, 'ace31316-ricardo', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31316,   1,         16) /* ItemType - Creature */
@@ -60,7 +60,7 @@ VALUES (31316,   1,    10, 0, 0, 45) /* MaxHealth */
      , (31316,   5,    10, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (31316,  6 /* Give */,      1, 70023, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (31316,  6 /* Give */,      1, 70023 /* Blood Gem of Rikt Zir */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -91,7 +91,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 1.5, 1, NULL, NULL, NULL, NULL, 
      , (@parent_id, 12,  10 /* Tell */, 1.5, 1, NULL, 'Return the Blood Gem to me and may the Stag of Bellenesse watch over you!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31316, 2, 25642,  0, 9, 0, False) /* Create Leather Gauntlets (25642) for Wield */
-     , (31316, 2, 25649,  0, 4, 0, False) /* Create Leather Shirt (25649) for Wield */
+VALUES (31316, 2, 25649,  0, 4, 0, False) /* Create Leather Shirt (25649) for Wield */
+     , (31316, 2, 25642,  0, 9, 0, False) /* Create Leather Gauntlets (25642) for Wield */
      , (31316, 2, 25650,  0, 4, 0, False) /* Create Leather Shorts (25650) for Wield */
      , (31316, 2, 25661,  0, 9, 0, False) /* Create Leather Boots (25661) for Wield */;

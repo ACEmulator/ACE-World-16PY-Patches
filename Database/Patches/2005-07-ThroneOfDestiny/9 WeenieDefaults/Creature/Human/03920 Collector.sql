@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3920;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3920, 'collectorsho', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (3920, 'collectorsho', 10, '2019-04-03 17:45:01') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3920,   1,         16) /* ItemType - Creature */
@@ -1726,6 +1726,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  76 /* InqOwnsItems */, 0, 1, NULL, 'Has1GoldLetterAtStart', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 45875 /* Lucky Gold Letter */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3920, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (3920, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+VALUES (3920, 2,   130,  0, 9, 1, False) /* Create Shirt (130) for Wield */
+     , (3920, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
      , (3920, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */;

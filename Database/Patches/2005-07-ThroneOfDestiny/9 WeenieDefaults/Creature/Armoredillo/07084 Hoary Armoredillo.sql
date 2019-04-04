@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7084;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7084, 'armoredillohoary', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7084, 'armoredillohoary', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7084,   1,         16) /* ItemType - Creature */
@@ -70,7 +70,7 @@ VALUES (7084,   1,   33554436) /* Setup */
      , (7084,   7,  268435547) /* ClothingBase */
      , (7084,   8,  100667935) /* Icon */
      , (7084,  22,  872415253) /* PhysicsEffectTable */
-     , (7084,  35,        456) /* DeathTreasureType */;
+     , (7084,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7084,   1, 220, 0, 0) /* Strength */
@@ -134,11 +134,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7084, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
-     , (7084, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7084, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7084, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+VALUES (7084, 9, 22950,  0, 0, 0.07, False) /* Create Hoary Armoredillo Spine (22950) for ContainTreasure */
+     , (7084, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
      , (7084, 9,  4234,  0, 0, 0.05, False) /* Create Large Armoredillo Hide (4234) for ContainTreasure */
-     , (7084, 9, 22950,  0, 0, 0.07, False) /* Create Hoary Armoredillo Spine (22950) for ContainTreasure */
-     , (7084, 9, 45875,  1, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (7084, 9, 45876,  1, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+     , (7084, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (7084, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (7084, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (7084, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (7084, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

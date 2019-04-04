@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3917;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3917, 'collectoraluvian', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (3917, 'collectoraluvian', 10, '2019-04-03 17:45:01') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3917,   1,         16) /* ItemType - Creature */
@@ -1725,5 +1725,5 @@ VALUES (@parent_id,  0,  76 /* InqOwnsItems */, 0, 1, NULL, 'Has1GoldLetterAtSta
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (3917, 2,   130,  0, 2, 0.8, False) /* Create Shirt (130) for Wield */
-     , (3917, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */
-     , (3917, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */;
+     , (3917, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
+     , (3917, 2,   132,  0, 4, 0.8, False) /* Create Shoes (132) for Wield */;

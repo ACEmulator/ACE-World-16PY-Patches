@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30271;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30271, 'hebianrujen', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30271, 'hebianrujen', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30271,   1,         16) /* ItemType - Creature */
@@ -586,10 +586,10 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'I am master Rujen. Bring me an augmentation gem and I shall teach you the Drunken Drudge fighting technique which will increase your resistance to piercing attacks. Visit Fiun Rehlyun on the Halaetan Islands if you have not already acquired one of these gems.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30271, 2,   107,  0, 85, 0, False) /* Create Sollerets (107) for Wield */
-     , (30271, 2,   353,  0, 0, 0, False) /* Create Tachi (353) for Wield */
-     , (30271, 2,  6003,  0, 85, 0.8036, False) /* Create Koujia Breastplate (6003) for Wield */
-     , (30271, 2,  6004,  0, 85, 0.8036, False) /* Create Koujia Leggings (6004) for Wield */
+VALUES (30271, 2,  9392,  0, 85, 0.8036, False) /* Create Helm of the Crag (9392) for Wield */
      , (30271, 2,  6005,  0, 85, 0.8036, False) /* Create Koujia Sleeves (6005) for Wield */
-     , (30271, 2,  9392,  0, 85, 0.8036, False) /* Create Helm of the Crag (9392) for Wield */
-     , (30271, 2, 30525,  0, 85, 0, False) /* Create Gauntlets of Leikotha's Tears (30525) for Wield */;
+     , (30271, 2,  6003,  0, 85, 0.8036, False) /* Create Koujia Breastplate (6003) for Wield */
+     , (30271, 2, 30525,  0, 85, 0, False) /* Create Gauntlets of Leikotha's Tears (30525) for Wield */
+     , (30271, 2,  6004,  0, 85, 0.8036, False) /* Create Koujia Leggings (6004) for Wield */
+     , (30271, 2,   107,  0, 85, 0, False) /* Create Sollerets (107) for Wield */
+     , (30271, 2,   353,  0, 0, 0, False) /* Create Tachi (353) for Wield */;

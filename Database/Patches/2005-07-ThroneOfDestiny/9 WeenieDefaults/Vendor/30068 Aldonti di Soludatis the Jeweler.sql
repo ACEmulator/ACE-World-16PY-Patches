@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30068;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30068, 'silyunjeweler', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (30068, 'silyunjeweler', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30068,   1,         16) /* ItemType - Creature */
@@ -199,15 +199,21 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Welcome!', NULL, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 0.5, 1, NULL, 'All are welcome here as long as you have the pyreal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30068, 2, 10696,  0, 90, 0, False) /* Create Apron (10696) for Wield */
+VALUES (30068, 2, 28606,  0, 14, 0, False) /* Create Viamontian Pants (28606) for Wield */
      , (30068, 2, 28605,  0, 88, 0, False) /* Create Beret (28605) for Wield */
-     , (30068, 2, 28606,  0, 14, 0, False) /* Create Viamontian Pants (28606) for Wield */
-     , (30068, 2, 28607,  0, 88, 0, False) /* Create Lace Shirt (28607) for Wield */
      , (30068, 2, 28611,  0, 39, 1, False) /* Create Viamontian Laced Boots (28611) for Wield */
-     , (30068, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
-     , (30068, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
-     , (30068, 4,  2414, -1, 0, 0, False) /* Create Azurite (2414) for Shop */
+     , (30068, 2, 28607,  0, 88, 0, False) /* Create Lace Shirt (28607) for Wield */
+     , (30068, 2, 10696,  0, 90, 0, False) /* Create Apron (10696) for Wield */
      , (30068, 4,  2426, -1, 0, 0, False) /* Create Amber  (2426) for Shop */
+     , (30068, 4,  2414, -1, 0, 0, False) /* Create Azurite (2414) for Shop */
+     , (30068, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
+     , (30068, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
+     , (30068, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
+     , (30068, 4, 41403, -1, 0, 0, False) /* Create  (41403) for Shop */
+     , (30068, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
+     , (30068, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
+     , (30068, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */
+     , (30068, 4, 41395, -1, 0, 0, False) /* Create Unfinished Lense (41395) for Shop */
      , (30068, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30068, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30068, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -217,10 +223,4 @@ VALUES (30068, 2, 10696,  0, 90, 0, False) /* Create Apron (10696) for Wield */
      , (30068, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (30068, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30068, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (30068, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30068, 4, 41393, -1, 0, 0, False) /* Create  (41393) for Shop */
-     , (30068, 4, 41395, -1, 0, 0, False) /* Create  (41395) for Shop */
-     , (30068, 4, 41397, -1, 0, 0, False) /* Create  (41397) for Shop */
-     , (30068, 4, 41400, -1, 0, 0, False) /* Create  (41400) for Shop */
-     , (30068, 4, 41402, -1, 0, 0, False) /* Create  (41402) for Shop */
-     , (30068, 4, 41403, -1, 0, 0, False) /* Create  (41403) for Shop */;
+     , (30068, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

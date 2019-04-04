@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25968;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25968, 'zharalimrhethalthok', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25968, 'zharalimrhethalthok', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25968,   1,         16) /* ItemType - Creature */
@@ -81,8 +81,18 @@ VALUES (25968,   1,   33554433) /* Setup */
      , (25968,  16,   67109567) /* EyesPalette */
      , (25968,  17,   67109555) /* SkinPalette */
      , (25968,  22,  872415236) /* PhysicsEffectTable */
-     , (25968,  32,        418) /* WieldedTreasureType */
-     , (25968,  35,        450) /* DeathTreasureType */;
+     , (25968,  32,        418) /* WieldedTreasureType - 
+                                   Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
+                                   Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50%
+                                   Wield Bandit Dagger (22777) | Probability: 12.5%
+                                   Wield Jambiya (22780) | Probability: 12.5%
+                                   Wield Khanjar (22783) | Probability: 12.5%
+                                   Wield Knife (22786) | Probability: 12.5%
+                                   Wield Bandit Simi (22789) | Probability: 12.5%
+                                   Wield Bandit Rapier (22792) | Probability: 12.5%
+                                   Wield Bandit Short Sword (22795) | Probability: 12.5%
+                                   Wield Bandit Yaoji (22798) | Probability: 12.5% */
+     , (25968,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25968,   1, 210, 0, 0) /* Strength */
@@ -157,15 +167,15 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073753, NULL, NULL, NULL, NU
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25968, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wield */
      , (25968, 2, 12193,  0, 39, 1, False) /* Create Dho Vest and Robe (12193) for Wield */
-     , (25968, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
+     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
+     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
+     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
+     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
+     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
+     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
+     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
+     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
+     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
      , (25968, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
-     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
-     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
-     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
-     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
-     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
-     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
-     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
-     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
-     , (25968, 9, 25958,  0, 0, 1, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */;
+     , (25968, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30269;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30269, 'cragstonerobert', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30269, 'cragstonerobert', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30269,   1,         16) /* ItemType - Creature */
@@ -536,8 +536,8 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'You want to specialize your skill in Salvaging? Go to Fiun Rehlyun on the Halaetan Islands. Bring me a blank augmentation gem and I''ll see if I can help you out.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30269, 2,   127,  0, 18, 0.333, False) /* Create Pants (127) for Wield */
-     , (30269, 2,   133,  0, 9, 0.1667, False) /* Create Slippers (133) for Wield */
+VALUES (30269, 2, 24260,  0, 4, 0, False) /* Create Miner's Hat (24260) for Wield */
      , (30269, 2,  2587,  0, 12, 0.2727, False) /* Create Shirt (2587) for Wield */
-     , (30269, 2,  5753,  0, 0, 0, False) /* Create Pickaxe (5753) for Wield */
-     , (30269, 2, 24260,  0, 4, 0, False) /* Create Miner's Hat (24260) for Wield */;
+     , (30269, 2,   133,  0, 9, 0.1667, False) /* Create Slippers (133) for Wield */
+     , (30269, 2,   127,  0, 18, 0.333, False) /* Create Pants (127) for Wield */
+     , (30269, 2,  5753,  0, 0, 0, False) /* Create Pickaxe (5753) for Wield */;

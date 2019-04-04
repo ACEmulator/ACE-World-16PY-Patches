@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31338;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31338, 'ace31338-gronkthehammer', 10, '2019-03-27 05:36:05') /* Creature */;
+VALUES (31338, 'ace31338-gronkthehammer', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31338,   1,         16) /* ItemType - Creature */
@@ -24,7 +24,8 @@ VALUES (31338,   1, True ) /* Stuck */
      , (31338,  11, False) /* IgnoreCollisions */
      , (31338,  12, True ) /* ReportCollisions */
      , (31338,  13, False) /* Ethereal */
-     , (31338, 101, True ) /* CanGenerateRare */;
+     , (31338, 101, True ) /* CanGenerateRare */
+     , (31338, 102, True ) /* CorpseGeneratedRare */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31338,   1,       5) /* HeartbeatInterval */
@@ -80,15 +81,15 @@ VALUES (31338,   1, 400, 0, 0) /* Strength */
      , (31338,   6, 146, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31338,   1,  1500, 0, 0, 1501) /* MaxHealth */
-     , (31338,   3,   900, 0, 0, 1000) /* MaxStamina */
-     , (31338,   5,     0, 0, 0, 0) /* MaxMana */;
+VALUES (31338,   1,  1500, 0, 0, 1623) /* MaxHealth */
+     , (31338,   3,  1000, 0, 0, 1245) /* MaxStamina */
+     , (31338,   5,     0, 0, 0, 146) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (31338, 45, 0, 3, 0, 340, 0, 0) /* Light               Specialized */
-     , (31338, 46, 0, 3, 0, 440, 0, 0) /* Finesse             Specialized */
+VALUES (31338,  1, 0, 3, 0, 340, 0, 0) /* Axe                 Specialized */
      , (31338,  6, 0, 3, 0, 325, 0, 0) /* MeleeDefense        Specialized */
      , (31338,  7, 0, 3, 0, 340, 0, 0) /* MissileDefense      Specialized */
+     , (31338, 13, 0, 3, 0, 440, 0, 0) /* UnarmedCombat       Specialized */
      , (31338, 15, 0, 3, 0, 255, 0, 0) /* MagicDefense        Specialized */
      , (31338, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */;
 
@@ -107,8 +108,8 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (31338, 1, 31334,  0, 0, 1, False) /* Create Crate of Fake Niffis Pearls (31334) for Contain */
      , (31338, 2,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for Wield */
      , (31338, 2, 31838,  0, 0, 0, False) /* Create Hammer of Discipline (31838) for Wield */
-     , (31338, 10,    40,  0, 14, 1, False) /* Create Platemail Breastplate (40) for WieldTreasure */
      , (31338, 10,   133,  0, 9, 1, False) /* Create Slippers (133) for WieldTreasure */
      , (31338, 10,  2601,  0, 9, 1, False) /* Create Pants (2601) for WieldTreasure */
      , (31338, 10, 10701,  0, 14, 1, False) /* Create Niffis Shell Helm (10701) for WieldTreasure */
-     , (31338, 10, 10702,  0, 0, 1, False) /* Create Niffis Shell (10702) for WieldTreasure */;
+     , (31338, 10, 10702,  0, 0, 1, False) /* Create Niffis Shell (10702) for WieldTreasure */
+     , (31338, 10,    40,  0, 14, 1, False) /* Create Platemail Breastplate (40) for WieldTreasure */;

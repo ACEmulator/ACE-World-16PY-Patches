@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5195;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5195, 'shoushilouka', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (5195, 'shoushilouka', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5195,   1,         16) /* ItemType - Creature */
@@ -14,9 +14,11 @@ VALUES (5195,   1,         16) /* ItemType - Creature */
      , (5195,  27,          0) /* ArmorType - None */
      , (5195,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5195,  95,          8) /* RadarBlipColor - Yellow */
+     , (5195, 113,          1) /* Gender - Male */
      , (5195, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5195, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (5195, 146,         66) /* XpOverride */;
+     , (5195, 146,         66) /* XpOverride */
+     , (5195, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5195,   1, True ) /* Stuck */
@@ -84,9 +86,9 @@ VALUES (5195,   1,     5, 0, 0, 35) /* MaxHealth */
      , (5195,   5,     5, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (5195,  6, 0, 2, 0,   1, 0, 416.001312255859) /* MeleeDefense        Trained */
-     , (5195,  7, 0, 2, 0,   1, 0, 416.001312255859) /* MissileDefense      Trained */
-     , (5195, 13, 0, 2, 0,   1, 0, 416.001312255859) /* UnarmedCombat       Trained */;
+VALUES (5195,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */
+     , (5195,  7, 0, 2, 0,   1, 0, 0) /* MissileDefense      Trained */
+     , (5195, 13, 0, 2, 0,   1, 0, 0) /* UnarmedCombat       Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (5195,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -156,7 +158,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  67 /* Goto */, 0, 1, NULL, 'ExplorerSocietyText', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (5195,  1 /* Refuse */,      1, 8701 /* Lucky Gold Letter */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (5195,  1 /* Refuse */,      1, 8701 /* Old Lucky Gold Letter */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -360,6 +362,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Oi-Tong Ye is always talking about this type of thing. Why don''t you show this to him?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5195, 2,   133,  0, 16, 1, False) /* Create Slippers (133) for Wield */
-     , (5195, 2,  2596,  0, 4, 0.8, False) /* Create Doublet (2596) for Wield */
-     , (5195, 2,  2603,  0, 14, 0.8, False) /* Create Breeches (2603) for Wield */;
+VALUES (5195, 2,  2596,  0, 4, 0.8, False) /* Create Doublet (2596) for Wield */
+     , (5195, 2,  2603,  0, 14, 0.8, False) /* Create Breeches (2603) for Wield */
+     , (5195, 2,   133,  0, 16, 1, False) /* Create Slippers (133) for Wield */;

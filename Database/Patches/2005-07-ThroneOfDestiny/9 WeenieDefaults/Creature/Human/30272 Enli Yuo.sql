@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30272;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30272, 'hebianyuo', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30272, 'hebianyuo', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30272,   1,         16) /* ItemType - Creature */
@@ -586,9 +586,9 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'By using my special Diving Duo fighting technique you can increase your resistance to electrical attacks, visit Fiun Rehlyun on the Halaetan Islands. Bring a blank augmentation gem to me and I will teach you what I know.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30272, 2,   107,  0, 86, 0, False) /* Create Sollerets (107) for Wield */
-     , (30272, 2,  6003,  0, 86, 0.4028, False) /* Create Koujia Breastplate (6003) for Wield */
-     , (30272, 2,  6004,  0, 86, 0.4028, False) /* Create Koujia Leggings (6004) for Wield */
+VALUES (30272, 2,  9392,  0, 86, 0.4107, False) /* Create Helm of the Crag (9392) for Wield */
      , (30272, 2,  6005,  0, 86, 0.4107, False) /* Create Koujia Sleeves (6005) for Wield */
-     , (30272, 2,  9392,  0, 86, 0.4107, False) /* Create Helm of the Crag (9392) for Wield */
-     , (30272, 2, 30525,  0, 86, 0, False) /* Create Gauntlets of Leikotha's Tears (30525) for Wield */;
+     , (30272, 2,  6003,  0, 86, 0.4028, False) /* Create Koujia Breastplate (6003) for Wield */
+     , (30272, 2, 30525,  0, 86, 0, False) /* Create Gauntlets of Leikotha's Tears (30525) for Wield */
+     , (30272, 2,  6004,  0, 86, 0.4028, False) /* Create Koujia Leggings (6004) for Wield */
+     , (30272, 2,   107,  0, 86, 0, False) /* Create Sollerets (107) for Wield */;

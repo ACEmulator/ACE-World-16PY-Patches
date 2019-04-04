@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20216;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20216, 'scriveneritemwar2starter', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (20216, 'scriveneritemwar2starter', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20216,   1,         16) /* ItemType - Creature */
@@ -184,65 +184,65 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767239 /* Wave */, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20216, 2,   115,  0, 14, 0.6, False) /* Create Leather Boots (115) for Wield */
-     , (20216, 2,   124,  0, 14, 0.5, False) /* Create Jerkin (124) for Wield */
      , (20216, 2,   127,  0, 3, 0.67, False) /* Create Pants (127) for Wield */
+     , (20216, 2,   124,  0, 14, 0.5, False) /* Create Jerkin (124) for Wield */
      , (20216, 2, 10696,  0, 13, 0.5, False) /* Create Apron (10696) for Wield */
+     , (20216, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
+     , (20216, 4, 15271, -1, 0, 0, False) /* Create Foci of Strife (15271) for Shop */
      , (20216, 4,  2762, -1, 0, 0, False) /* Create Scroll of Acid Bane II (2762) for Shop */
      , (20216, 4,  2767, -1, 0, 0, False) /* Create Scroll of Acid Lure II (2767) for Shop */
      , (20216, 4,  2772, -1, 0, 0, False) /* Create Scroll of Blade Bane II (2772) for Shop */
      , (20216, 4,  2777, -1, 0, 0, False) /* Create Scroll of Blade Lure II (2777) for Shop */
      , (20216, 4,  2782, -1, 0, 0, False) /* Create Scroll of Aura of Blood Drinker Self II (2782) for Shop */
+     , (20216, 4, 46873, -1, 0, 0, False) /* Create Scroll of Aura of Blood Drinker Other II (46873) for Shop */
      , (20216, 4,  2787, -1, 0, 0, False) /* Create Scroll of Blood Loather II (2787) for Shop */
      , (20216, 4,  2792, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane II (2792) for Shop */
      , (20216, 4,  2797, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure II (2797) for Shop */
-     , (20216, 4,  2802, -1, 0, 0, False) /* Create Scroll of Brittlemail II (2802) for Shop */
      , (20216, 4,  2807, -1, 0, 0, False) /* Create Scroll of Aura of Defender Self II (2807) for Shop */
+     , (20216, 4, 46874, -1, 0, 0, False) /* Create Scroll of Aura of Defender Other II (46874) for Shop */
+     , (20216, 4,  2862, -1, 0, 0, False) /* Create Scroll of Lure Blade II (2862) for Shop */
      , (20216, 4,  2812, -1, 0, 0, False) /* Create Scroll of Flame Bane II (2812) for Shop */
      , (20216, 4,  2817, -1, 0, 0, False) /* Create Scroll of Flame Lure II (2817) for Shop */
      , (20216, 4,  2822, -1, 0, 0, False) /* Create Scroll of Frost Bane II (2822) for Shop */
      , (20216, 4,  2827, -1, 0, 0, False) /* Create Scroll of Frost Lure II (2827) for Shop */
      , (20216, 4,  2832, -1, 0, 0, False) /* Create Scroll of Aura of Heartseeker Self II (2832) for Shop */
+     , (20216, 4, 46875, -1, 0, 0, False) /* Create Scroll of Aura of Heartseeker Other II (46875) for Shop */
+     , (20216, 4,  2893, -1, 0, 0, False) /* Create Scroll of Turn Blade II (2893) for Shop */
+     , (20216, 4,  2887, -1, 0, 0, False) /* Create Scroll of Aura of Hermetic Link Self II (2887) for Shop */
+     , (20216, 4, 46876, -1, 0, 0, False) /* Create Scroll of Aura of Hermetic Link Other II (46876) for Shop */
      , (20216, 4,  2837, -1, 0, 0, False) /* Create Scroll of Hermetic Void II (2837) for Shop */
      , (20216, 4,  2842, -1, 0, 0, False) /* Create Scroll of Impenetrability II (2842) for Shop */
-     , (20216, 4,  2847, -1, 0, 0, False) /* Create Scroll of Leaden Weapon II (2847) for Shop */
+     , (20216, 4,  2802, -1, 0, 0, False) /* Create Scroll of Brittlemail II (2802) for Shop */
      , (20216, 4,  2852, -1, 0, 0, False) /* Create Scroll of Lightning Bane II (2852) for Shop */
      , (20216, 4,  2857, -1, 0, 0, False) /* Create Scroll of Lightning Lure II (2857) for Shop */
-     , (20216, 4,  2862, -1, 0, 0, False) /* Create Scroll of Lure Blade II (2862) for Shop */
      , (20216, 4,  2867, -1, 0, 0, False) /* Create Scroll of Piercing Bane II (2867) for Shop */
      , (20216, 4,  2872, -1, 0, 0, False) /* Create Scroll of Piercing Lure II (2872) for Shop */
-     , (20216, 4,  2877, -1, 0, 0, False) /* Create Scroll of Strengthen Lock II (2877) for Shop */
-     , (20216, 4,  2882, -1, 0, 0, False) /* Create Scroll of Aura of Swift Killer Self II (2882) for Shop */
-     , (20216, 4,  2887, -1, 0, 0, False) /* Create Scroll of Aura of Hermetic Link Self II (2887) for Shop */
-     , (20216, 4,  2893, -1, 0, 0, False) /* Create Scroll of Turn Blade II (2893) for Shop */
-     , (20216, 4,  2898, -1, 0, 0, False) /* Create Scroll of Weaken Lock II (2898) for Shop */
-     , (20216, 4,  2907, -1, 0, 0, False) /* Create Scroll of Acid Stream II (2907) for Shop */
-     , (20216, 4,  2941, -1, 0, 0, False) /* Create Scroll of Frost Bolt II (2941) for Shop */
-     , (20216, 4,  2955, -1, 0, 0, False) /* Create Scroll of Lightning Bolt II (2955) for Shop */
-     , (20216, 4,  2963, -1, 0, 0, False) /* Create Scroll of Shock Wave II (2963) for Shop */
-     , (20216, 4,  2968, -1, 0, 0, False) /* Create Scroll of Whirling Blade II (2968) for Shop */
-     , (20216, 4,  4395, -1, 0, 0, False) /* Create Scroll of Force Bolt II (4395) for Shop */
-     , (20216, 4,  5998, -1, 0, 0, False) /* Create Scroll of Flame Bolt II (5998) for Shop */
-     , (20216, 4,  8915, -1, 0, 0, False) /* Create Scroll of Acid Streak II (8915) for Shop */
-     , (20216, 4,  8921, -1, 0, 0, False) /* Create Scroll of Flame Streak II (8921) for Shop */
-     , (20216, 4,  8930, -1, 0, 0, False) /* Create Scroll of Force Streak II (8930) for Shop */
-     , (20216, 4,  8936, -1, 0, 0, False) /* Create Scroll of Frost Streak II (8936) for Shop */
-     , (20216, 4,  8942, -1, 0, 0, False) /* Create Scroll of Lightning Streak II (8942) for Shop */
-     , (20216, 4,  8948, -1, 0, 0, False) /* Create Scroll of Shock Wave Streak II (8948) for Shop */
-     , (20216, 4,  8954, -1, 0, 0, False) /* Create Scroll of Whirling Blade Streak II (8954) for Shop */
-     , (20216, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
-     , (20216, 4, 15271, -1, 0, 0, False) /* Create Foci of Strife (15271) for Shop */
-     , (20216, 4, 21289, -1, 0, 0, False) /* Create Scroll of Acid Arc II (21289) for Shop */
-     , (20216, 4, 21296, -1, 0, 0, False) /* Create Scroll of Blade Arc II (21296) for Shop */
-     , (20216, 4, 21303, -1, 0, 0, False) /* Create Scroll of Flame Arc II (21303) for Shop */
-     , (20216, 4, 21310, -1, 0, 0, False) /* Create Scroll of Force Arc II (21310) for Shop */
-     , (20216, 4, 21317, -1, 0, 0, False) /* Create Scroll of Frost Arc II (21317) for Shop */
-     , (20216, 4, 21324, -1, 0, 0, False) /* Create Scroll of Lightning Arc II (21324) for Shop */
-     , (20216, 4, 21331, -1, 0, 0, False) /* Create Scroll of Shock Arc II (21331) for Shop */
      , (20216, 4, 28003, -1, 0, 0, False) /* Create Scroll of Aura of Spirit Drinker Self II (28003) for Shop */
-     , (20216, 4, 28010, -1, 0, 0, False) /* Create Scroll of Spirit Loather II (28010) for Shop */
-     , (20216, 4, 46873, -1, 0, 0, False) /* Create Scroll of Aura of Blood Drinker Other II (46873) for Shop */
-     , (20216, 4, 46874, -1, 0, 0, False) /* Create Scroll of Aura of Defender Other II (46874) for Shop */
-     , (20216, 4, 46875, -1, 0, 0, False) /* Create Scroll of Aura of Heartseeker Other II (46875) for Shop */
-     , (20216, 4, 46876, -1, 0, 0, False) /* Create Scroll of Aura of Hermetic Link Other II (46876) for Shop */
      , (20216, 4, 46877, -1, 0, 0, False) /* Create Scroll of Aura of Spirit Drinker Other II (46877) for Shop */
-     , (20216, 4, 46878, -1, 0, 0, False) /* Create Scroll of Aura of Swift Killer Other II (46878) for Shop */;
+     , (20216, 4, 28010, -1, 0, 0, False) /* Create Scroll of Spirit Loather II (28010) for Shop */
+     , (20216, 4,  2877, -1, 0, 0, False) /* Create Scroll of Strengthen Lock II (2877) for Shop */
+     , (20216, 4,  2898, -1, 0, 0, False) /* Create Scroll of Weaken Lock II (2898) for Shop */
+     , (20216, 4,  2882, -1, 0, 0, False) /* Create Scroll of Aura of Swift Killer Self II (2882) for Shop */
+     , (20216, 4, 46878, -1, 0, 0, False) /* Create Scroll of Aura of Swift Killer Other II (46878) for Shop */
+     , (20216, 4,  2847, -1, 0, 0, False) /* Create Scroll of Leaden Weapon II (2847) for Shop */
+     , (20216, 4,  2907, -1, 0, 0, False) /* Create Scroll of Acid Stream II (2907) for Shop */
+     , (20216, 4,  8915, -1, 0, 0, False) /* Create Scroll of Acid Streak II (8915) for Shop */
+     , (20216, 4, 21289, -1, 0, 0, False) /* Create Scroll of Acid Arc II (21289) for Shop */
+     , (20216, 4,  5998, -1, 0, 0, False) /* Create Scroll of Flame Bolt II (5998) for Shop */
+     , (20216, 4,  8921, -1, 0, 0, False) /* Create Scroll of Flame Streak II (8921) for Shop */
+     , (20216, 4, 21303, -1, 0, 0, False) /* Create Scroll of Flame Arc II (21303) for Shop */
+     , (20216, 4,  4395, -1, 0, 0, False) /* Create Scroll of Force Bolt II (4395) for Shop */
+     , (20216, 4,  8930, -1, 0, 0, False) /* Create Scroll of Force Streak II (8930) for Shop */
+     , (20216, 4, 21310, -1, 0, 0, False) /* Create Scroll of Force Arc II (21310) for Shop */
+     , (20216, 4,  2941, -1, 0, 0, False) /* Create Scroll of Frost Bolt II (2941) for Shop */
+     , (20216, 4,  8936, -1, 0, 0, False) /* Create Scroll of Frost Streak II (8936) for Shop */
+     , (20216, 4, 21317, -1, 0, 0, False) /* Create Scroll of Frost Arc II (21317) for Shop */
+     , (20216, 4,  2955, -1, 0, 0, False) /* Create Scroll of Lightning Bolt II (2955) for Shop */
+     , (20216, 4,  8942, -1, 0, 0, False) /* Create Scroll of Lightning Streak II (8942) for Shop */
+     , (20216, 4, 21324, -1, 0, 0, False) /* Create Scroll of Lightning Arc II (21324) for Shop */
+     , (20216, 4,  2963, -1, 0, 0, False) /* Create Scroll of Shock Wave II (2963) for Shop */
+     , (20216, 4,  8948, -1, 0, 0, False) /* Create Scroll of Shock Wave Streak II (8948) for Shop */
+     , (20216, 4, 21331, -1, 0, 0, False) /* Create Scroll of Shock Arc II (21331) for Shop */
+     , (20216, 4,  2968, -1, 0, 0, False) /* Create Scroll of Whirling Blade II (2968) for Shop */
+     , (20216, 4,  8954, -1, 0, 0, False) /* Create Scroll of Whirling Blade Streak II (8954) for Shop */
+     , (20216, 4, 21296, -1, 0, 0, False) /* Create Scroll of Blade Arc II (21296) for Shop */;

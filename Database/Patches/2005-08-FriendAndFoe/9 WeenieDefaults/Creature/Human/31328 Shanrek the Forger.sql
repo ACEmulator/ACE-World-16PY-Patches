@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31328;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31328, 'ace31328-shanrektheforger', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (31328, 'ace31328-shanrektheforger', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31328,   1,         16) /* ItemType - Creature */
@@ -22,7 +22,6 @@ VALUES (31328,   1, True ) /* Stuck */
      , (31328,  11, True ) /* IgnoreCollisions */
      , (31328,  12, True ) /* ReportCollisions */
      , (31328,  14, True ) /* GravityStatus */
-     , (31328,  19, False) /* Attackable */
      , (31328,  41, True ) /* ReportCollisionsAsEnvironment */
      , (31328,  42, True ) /* AllowEdgeSlide */;
 
@@ -184,6 +183,6 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'CounterfeitWritStart'
      , (@parent_id,  8,  10 /* Tell */, 1.5, 1, NULL, 'Good luck!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31328, 2,   133,  0, 9, 0.1667, True) /* Create Slippers (133) for Wield */
-     , (31328, 2,  2587,  0, 4, 0.6364, True) /* Create Shirt (2587) for Wield */
-     , (31328, 2,  2601,  0, 9, 0.0179, True) /* Create Pants (2601) for Wield */;
+VALUES (31328, 2,  2587,  0, 4, 0.6364, True) /* Create Shirt (2587) for Wield */
+     , (31328, 2,  2601,  0, 9, 0.0179, True) /* Create Pants (2601) for Wield */
+     , (31328, 2,   133,  0, 9, 0.1667, True) /* Create Slippers (133) for Wield */;

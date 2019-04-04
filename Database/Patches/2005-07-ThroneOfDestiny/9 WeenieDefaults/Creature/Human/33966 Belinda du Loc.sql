@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33966;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33966, 'ace33966-belindaduloc', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (33966, 'ace33966-belindaduloc', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33966,   1,         16) /* ItemType - Creature */
@@ -307,9 +307,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'I will take any Banished Trophy that you are not wanting!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33966, 2, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for Wield */
-     , (33966, 2, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for Wield */
-     , (33966, 2, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for Wield */
+VALUES (33966, 2, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for Wield */
      , (33966, 2, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for Wield */
      , (33966, 2, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for Wield */
-     , (33966, 2, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for Wield */;
+     , (33966, 2, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for Wield */
+     , (33966, 2, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for Wield */
+     , (33966, 2, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29505;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29505, 'redbulllascare', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29505, 'redbulllascare', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29505,   1,         16) /* ItemType - Creature */
@@ -185,7 +185,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0.1, 1, NULL, 'Oh, so the old Grand Knight sent you here, eh? I figured that brute would need my help eventually. That bull has an ugly secret - so ugly I dare not speak it, ha ha! The answer to your problems lies in the Cannibal Caverns, 88.0N, 58.5W. You can figure the rest out if you read my journal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29505, 2,  2587,  0, 14, 0, False) /* Create Shirt (2587) for Wield */
+VALUES (29505, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
      , (29505, 2,  2601,  0, 9, 1, False) /* Create Pants (2601) for Wield */
-     , (29505, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
-     , (29505, 2, 28612,  0, 9, 0, False) /* Create Bandana (28612) for Wield */;
+     , (29505, 2, 28612,  0, 9, 0, False) /* Create Bandana (28612) for Wield */
+     , (29505, 2,  2587,  0, 14, 0, False) /* Create Shirt (2587) for Wield */;

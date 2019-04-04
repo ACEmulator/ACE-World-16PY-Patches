@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3923;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3923, 'collectorwingaluvian', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (3923, 'collectorwingaluvian', 10, '2019-04-03 17:45:01') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3923,   1,         16) /* ItemType - Creature */
@@ -257,6 +257,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'I collect only phyntos wasp wings.  If you happen to have any, I''ll pay you for them in pyreals.  If you get me a gold wasp wing, I will reward you with a little extra experience.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3923, 2,   132,  0, 17, 1, False) /* Create Shoes (132) for Wield */
-     , (3923, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
-     , (3923, 2,  2604,  0, 17, 1, False) /* Create Breeches (2604) for Wield */;
+VALUES (3923, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
+     , (3923, 2,  2604,  0, 17, 1, False) /* Create Breeches (2604) for Wield */
+     , (3923, 2,   132,  0, 17, 1, False) /* Create Shoes (132) for Wield */;

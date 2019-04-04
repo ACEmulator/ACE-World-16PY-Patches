@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30434;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30434, 'silyunhonorguard', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30434, 'silyunhonorguard', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30434,   1,         16) /* ItemType - Creature */
@@ -187,9 +187,9 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Do not disturb me. I must be ever vigilant.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30434, 2,   309,  0, 0, 0, False) /* Create Club (309) for Wield */
-     , (30434, 2, 28618,  0, 88, 0, False) /* Create Diforsa Helm (28618) for Wield */
+VALUES (30434, 2, 28618,  0, 88, 0, False) /* Create Diforsa Helm (28618) for Wield */
+     , (30434, 2, 30948,  0, 88, 0, False) /* Create Diforsa Hauberk (30948) for Wield */
      , (30434, 2, 28621,  0, 88, 0, False) /* Create Diforsa Leggings (28621) for Wield */
      , (30434, 2, 28625,  0, 88, 0, False) /* Create Diforsa Sollerets (28625) for Wield */
      , (30434, 2, 28632,  0, 88, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (30434, 2, 30948,  0, 88, 0, False) /* Create Diforsa Hauberk (30948) for Wield */;
+     , (30434, 2,   309,  0, 0, 0, False) /* Create Club (309) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5197;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5197, 'shoushinenai', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (5197, 'shoushinenai', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5197,   1,         16) /* ItemType - Creature */
@@ -204,7 +204,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  67 /* Goto */, 0, 1, NULL, 'ExplorerSocietyText', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (5197,  1 /* Refuse */,      1, 8701 /* Lucky Gold Letter */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (5197,  1 /* Refuse */,      1, 8701 /* Old Lucky Gold Letter */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -348,6 +348,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Oi-Tong Ye is always talking about this type of thing. Why don''t you show this to him?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5197, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */
-     , (5197, 2,   124,  0, 4, 0.8, False) /* Create Jerkin (124) for Wield */
-     , (5197, 2,  2603,  0, 9, 1, False) /* Create Breeches (2603) for Wield */;
+VALUES (5197, 2,   124,  0, 4, 0.8, False) /* Create Jerkin (124) for Wield */
+     , (5197, 2,  2603,  0, 9, 1, False) /* Create Breeches (2603) for Wield */
+     , (5197, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */;

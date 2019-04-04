@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28682;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28682, 'toutouujio', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28682, 'toutouujio', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28682,   1,         16) /* ItemType - Creature */
@@ -536,6 +536,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Visit Fiun Rehlyun on the Halaetan Islands if you have not already acquired a blank augmentation gem.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28682, 2,   133,  0, 9, 0, False) /* Create Slippers (133) for Wield */
-     , (28682, 2,  5851,  0, 3, 0.2, False) /* Create Faran Robe with Hood (5851) for Wield */
-     , (28682, 2, 46181,  0, 0, 0, False) /* Create Isparian Wand (46181) for Wield */;
+VALUES (28682, 2,  5851,  0, 3, 0.2, False) /* Create Faran Robe with Hood (5851) for Wield */
+     , (28682, 2, 46181,  0, 0, 0, False) /* Create Isparian Wand (46181) for Wield */
+     , (28682, 2,   133,  0, 9, 0, False) /* Create Slippers (133) for Wield */;

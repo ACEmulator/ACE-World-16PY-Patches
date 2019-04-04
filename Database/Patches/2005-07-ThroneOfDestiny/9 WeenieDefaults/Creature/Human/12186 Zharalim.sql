@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12186;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12186, 'humanzharalimfemale_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (12186, 'humanzharalimfemale_xp', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12186,   1,         16) /* ItemType - Creature */
@@ -82,7 +82,7 @@ VALUES (12186,   1,   33554510) /* Setup */
      , (12186,  16,   67109567) /* EyesPalette */
      , (12186,  17,   67109556) /* SkinPalette */
      , (12186,  22,  872415236) /* PhysicsEffectTable */
-     , (12186,  35,        448) /* DeathTreasureType */;
+     , (12186,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12186,   1, 150, 0, 0) /* Strength */
@@ -133,16 +133,16 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073753, NULL, NULL, NULL, NU
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12186, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wield */
      , (12186, 2, 12193,  0, 0, 1, False) /* Create Dho Vest and Robe (12193) for Wield */
-     , (12186, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (12186, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (12186, 10,     0,  0, 0, 0, False) /* Create nothing for WieldTreasure */
-     , (12186, 10, 12187,  0, 0, 0.1, False) /* Create Assassin's Acid Jambiya (12187) for WieldTreasure */
+     , (12186, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (12186, 10, 12188,  0, 0, 0.1, False) /* Create Assassin's Jambiya (12188) for WieldTreasure */
+     , (12186, 10, 12187,  0, 0, 0.1, False) /* Create Assassin's Acid Jambiya (12187) for WieldTreasure */
      , (12186, 10, 12189,  0, 0, 0.1, False) /* Create Assassin's Lightning Jambiya (12189) for WieldTreasure */
      , (12186, 10, 12190,  0, 0, 0.1, False) /* Create Assassin's Flaming Jambiya (12190) for WieldTreasure */
      , (12186, 10, 12191,  0, 0, 0.1, False) /* Create Assassin's Frost Jambiya (12191) for WieldTreasure */
-     , (12186, 10, 12194,  0, 0, 0.1, False) /* Create Assassin's Acid Simi (12194) for WieldTreasure */
      , (12186, 10, 12195,  0, 0, 0.1, False) /* Create Assassin's Simi (12195) for WieldTreasure */
+     , (12186, 10, 12194,  0, 0, 0.1, False) /* Create Assassin's Acid Simi (12194) for WieldTreasure */
      , (12186, 10, 12196,  0, 0, 0.1, False) /* Create Assassin's Lightning Simi (12196) for WieldTreasure */
      , (12186, 10, 12197,  0, 0, 0.1, False) /* Create Assassin's Flaming Simi (12197) for WieldTreasure */
-     , (12186, 10, 12198,  0, 0, 0.1, False) /* Create Assassin's Frost Simi (12198) for WieldTreasure */;
+     , (12186, 10, 12198,  0, 0, 0.1, False) /* Create Assassin's Frost Simi (12198) for WieldTreasure */
+     , (12186, 10,     0,  0, 0, 0, False) /* Create nothing for WieldTreasure */;

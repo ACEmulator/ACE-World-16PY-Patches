@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10950;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10950, 'tumerokchampionralirea_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (10950, 'tumerokchampionralirea_xp', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10950,   1,         16) /* ItemType - Creature */
@@ -81,7 +81,7 @@ VALUES (10950,   1,   33557117) /* Setup */
      , (10950,   7,  268436193) /* ClothingBase */
      , (10950,   8,  100671756) /* Icon */
      , (10950,  22,  872415270) /* PhysicsEffectTable */
-     , (10950,  35,        450) /* DeathTreasureType */;
+     , (10950,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10950,   1, 250, 0, 0) /* Strength */
@@ -267,19 +267,19 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Well, then. Defend yourself.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10950, 1, 10960,  1, 0, 1, False) /* Create Clay Figurine (10960) for Contain */
-     , (10950, 1, 10996,  1, 0, 1, False) /* Create Ebon Spine Harpoon (10996) for Contain */
+VALUES (10950, 1, 10996,  1, 0, 1, False) /* Create Ebon Spine Harpoon (10996) for Contain */
+     , (10950, 1, 10960,  1, 0, 1, False) /* Create Clay Figurine (10960) for Contain */
      , (10950, 2, 10995,  0, 0, 1, False) /* Create Ebon Spine Harpoon (10995) for Wield */
-     , (10950, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (10950, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (10950, 9,  4235,  0, 0, 0.1, False) /* Create Thin Gromnie Hide (4235) for ContainTreasure */
-     , (10950, 9,  4236,  0, 0, 0.2, False) /* Create Ivory Gromnie Hide (4236) for ContainTreasure */
+     , (10950, 9, 10997, 10, 0, 1, False) /* Create Ebon Spine Harpoon (10997) for ContainTreasure */
      , (10950, 9,  4237,  0, 0, 0.7, False) /* Create Thick Gromnie Hide (4237) for ContainTreasure */
-     , (10950, 9,  4240,  0, 0, 0.2, False) /* Create Small Mattekar Hide (4240) for ContainTreasure */
+     , (10950, 9,  4236,  0, 0, 0.2, False) /* Create Ivory Gromnie Hide (4236) for ContainTreasure */
+     , (10950, 9,  4235,  0, 0, 0.1, False) /* Create Thin Gromnie Hide (4235) for ContainTreasure */
+     , (10950, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (10950, 9,  4241,  0, 0, 0.7, False) /* Create Mattekar Hide (4241) for ContainTreasure */
+     , (10950, 9,  4240,  0, 0, 0.2, False) /* Create Small Mattekar Hide (4240) for ContainTreasure */
      , (10950, 9,  9412,  0, 0, 0.05, False) /* Create Dire Mattekar Paw (9412) for ContainTreasure */
      , (10950, 9,  9413,  0, 0, 0.05, False) /* Create Dread Mattekar Paw (9413) for ContainTreasure */
-     , (10950, 9, 10997, 10, 0, 1, False) /* Create Ebon Spine Harpoon (10997) for ContainTreasure */;
+     , (10950, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10950, -1, 11508, 90, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Aun Elder Shaman (11508) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

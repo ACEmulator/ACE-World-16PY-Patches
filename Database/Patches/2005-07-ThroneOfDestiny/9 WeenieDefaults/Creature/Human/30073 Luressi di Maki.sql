@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30073;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30073, 'sanamarluressi', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30073, 'sanamarluressi', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30073,   1,         16) /* ItemType - Creature */
@@ -161,12 +161,12 @@ VALUES (@parent_id,  0,  11 /* Turn */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30073, 2,    92,  1, 0, 0, False) /* Create Large Kite Shield (92) for Wield */
+     , (30073, 2, 30561,  1, 0, 0, False) /* Create Dolabra (30561) for Wield */
+     , (30073, 2, 28628,  1, 21, 0, False) /* Create Diforsa Breastplate (28628) for Wield */
      , (30073, 2, 28618,  1, 21, 0, False) /* Create Diforsa Helm (28618) for Wield */
      , (30073, 2, 28621,  1, 21, 0, False) /* Create Diforsa Leggings (28621) for Wield */
-     , (30073, 2, 28623,  1, 21, 0, False) /* Create Diforsa Pauldrons (28623) for Wield */
      , (30073, 2, 28625,  1, 21, 0, False) /* Create Diforsa Sollerets (28625) for Wield */
-     , (30073, 2, 28627,  1, 21, 0, False) /* Create Diforsa Bracers (28627) for Wield */
-     , (30073, 2, 28628,  1, 21, 0, False) /* Create Diforsa Breastplate (28628) for Wield */
      , (30073, 2, 28632,  1, 21, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
      , (30073, 2, 28633,  1, 21, 0, False) /* Create Diforsa Girth (28633) for Wield */
-     , (30073, 2, 30561,  1, 0, 0, False) /* Create Dolabra (30561) for Wield */;
+     , (30073, 2, 28623,  1, 21, 0, False) /* Create Diforsa Pauldrons (28623) for Wield */
+     , (30073, 2, 28627,  1, 21, 0, False) /* Create Diforsa Bracers (28627) for Wield */;

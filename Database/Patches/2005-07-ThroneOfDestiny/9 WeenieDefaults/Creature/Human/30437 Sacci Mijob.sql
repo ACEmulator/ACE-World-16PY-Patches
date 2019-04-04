@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30437;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30437, 'silyunsaccimijob', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30437, 'silyunsaccimijob', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30437,   1,         16) /* ItemType - Creature */
@@ -117,6 +117,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 0.5, 1, NULL, 'I must contemplate on this some more.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30437, 2,  2547,  0, 0, 0, False) /* Create Staff (2547) for Wield */
+VALUES (30437, 2,  5901,  0, 18, 0.6111, False) /* Create Kasa (5901) for Wield */
      , (30437, 2,  5854,  0, 18, 0.6111, False) /* Create Suikan Robe (5854) for Wield */
-     , (30437, 2,  5901,  0, 18, 0.6111, False) /* Create Kasa (5901) for Wield */;
+     , (30437, 2,  2547,  0, 0, 0, False) /* Create Staff (2547) for Wield */;

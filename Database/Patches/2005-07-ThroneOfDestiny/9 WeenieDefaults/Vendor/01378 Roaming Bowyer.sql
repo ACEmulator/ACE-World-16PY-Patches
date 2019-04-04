@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1378;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1378, 'bowyeraluvian', 12, '2019-02-04 06:52:23') /* Vendor */;
+VALUES (1378, 'bowyeraluvian', 12, '2019-04-03 06:09:58') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1378,   1,         16) /* ItemType - Creature */
@@ -164,15 +164,31 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1378, 2,   117,  0, 1, 1, False) /* Create Breeches (117) for Wield */
-     , (1378, 2,   132,  0, 9, 0.8, False) /* Create Shoes (132) for Wield */
+VALUES (1378, 2,   307,  0, 0, 0, False) /* Create Shortbow (307) for Wield */
      , (1378, 2,   134,  0, 16, 1, False) /* Create Tunic (134) for Wield */
-     , (1378, 2,   307,  0, 0, 0, False) /* Create Shortbow (307) for Wield */
+     , (1378, 2,   117,  0, 1, 1, False) /* Create Breeches (117) for Wield */
+     , (1378, 2,   132,  0, 9, 0.8, False) /* Create Shoes (132) for Wield */
      , (1378, 2, 10696,  0, 14, 0.6, False) /* Create Apron (10696) for Wield */
-     , (1378, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (1378, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
      , (1378, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
      , (1378, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
-     , (1378, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
+     , (1378, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (1378, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
+     , (1378, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
+     , (1378, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
+     , (1378, 4,  3599, -1, 0, 0, False) /* Create Blunt Arrow (3599) for Shop */
+     , (1378, 4,  3603, -1, 0, 0, False) /* Create Blunt Quarrel (3603) for Shop */
+     , (1378, 4,  3601, -1, 0, 0, False) /* Create Frog Crotch Arrow (3601) for Shop */
+     , (1378, 4,  3605, -1, 0, 0, False) /* Create Frog Crotch Quarrel (3605) for Shop */
+     , (1378, 4,  3598, -1, 0, 0, False) /* Create Armor Piercing Arrow (3598) for Shop */
+     , (1378, 4,  3602, -1, 0, 0, False) /* Create Armor Piercing Quarrel (3602) for Shop */
+     , (1378, 4,  9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads (9359) for Shop */
+     , (1378, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads (9363) for Shop */
+     , (1378, 4,  9362, -1, 0, 0, False) /* Create Wrapped Bundle of Blunt Arrowheads (9362) for Shop */
+     , (1378, 4,  9361, -1, 0, 0, False) /* Create Wrapped Bundle of Armor Piercing Arrowheads (9361) for Shop */
+     , (1378, 4,  9366, -1, 0, 0, False) /* Create Wrapped Bundle of Frog Crotch Arrowheads (9366) for Shop */
+     , (1378, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
+     , (1378, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
      , (1378, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1378, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (1378, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -180,22 +196,6 @@ VALUES (1378, 2,   117,  0, 1, 1, False) /* Create Breeches (117) for Wield */
      , (1378, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (1378, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (1378, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (1378, 4,  3598, -1, 0, 0, False) /* Create Armor Piercing Arrow (3598) for Shop */
-     , (1378, 4,  3599, -1, 0, 0, False) /* Create Blunt Arrow (3599) for Shop */
-     , (1378, 4,  3601, -1, 0, 0, False) /* Create Frog Crotch Arrow (3601) for Shop */
-     , (1378, 4,  3602, -1, 0, 0, False) /* Create Armor Piercing Quarrel (3602) for Shop */
-     , (1378, 4,  3603, -1, 0, 0, False) /* Create Blunt Quarrel (3603) for Shop */
-     , (1378, 4,  3605, -1, 0, 0, False) /* Create Frog Crotch Quarrel (3605) for Shop */
-     , (1378, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
-     , (1378, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
-     , (1378, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
-     , (1378, 4,  9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads (9359) for Shop */
-     , (1378, 4,  9361, -1, 0, 0, False) /* Create Wrapped Bundle of Armor Piercing Arrowheads (9361) for Shop */
-     , (1378, 4,  9362, -1, 0, 0, False) /* Create Wrapped Bundle of Blunt Arrowheads (9362) for Shop */
-     , (1378, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads (9363) for Shop */
-     , (1378, 4,  9366, -1, 0, 0, False) /* Create Wrapped Bundle of Frog Crotch Arrowheads (9366) for Shop */
-     , (1378, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
-     , (1378, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
      , (1378, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (1378, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (1378, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

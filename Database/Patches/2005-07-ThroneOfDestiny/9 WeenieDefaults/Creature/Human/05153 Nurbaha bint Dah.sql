@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5153;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5153, 'alarqasnurbaha', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (5153, 'alarqasnurbaha', 10, '2019-04-03 06:36:28') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5153,   1,         16) /* ItemType - Creature */
@@ -171,6 +171,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'The Unfinished Temple is to the northwest of here.  We fled pretty far into the ruins before we realized we had to leave.  I think we were at least two levels down when we lost the knives.  Last I was there, I found only one knife.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5153, 2,   117,  0, 14, 0.6, False) /* Create Breeches (117) for Wield */
-     , (5153, 2,   124,  0, 18, 1, False) /* Create Jerkin (124) for Wield */
+VALUES (5153, 2,   124,  0, 18, 1, False) /* Create Jerkin (124) for Wield */
+     , (5153, 2,   117,  0, 14, 0.6, False) /* Create Breeches (117) for Wield */
      , (5153, 2,   133,  0, 4, 0.8, False) /* Create Slippers (133) for Wield */;
