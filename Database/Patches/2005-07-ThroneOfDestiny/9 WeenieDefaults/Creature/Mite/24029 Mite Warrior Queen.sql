@@ -108,6 +108,6 @@ VALUES (24029,  0,  4,  0,    0,   45,   27,   18,   18,   27,   23,   23,   18,
      , (24029,  8,  4, 40, 0.75,   34,   21,   13,   13,   20,   17,   17,   13,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24029, 1,  8211, 1, 0, 0, False) /* Create Discus (8211) for Contain */
+VALUES (24029, 1,  8211, 250, 0, 0, False) /* Create Discus (8211) for Contain */
      , (24029, 1, 24033, 1, 0, 0, False) /* Create Mite Queen's Staff (24033) for Contain */
      , (24029, 1, 24126, 1, 0, 0, False) /* Create A Crumpled Letter (24126) for Contain */;
