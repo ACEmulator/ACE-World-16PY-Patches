@@ -14,7 +14,7 @@ VALUES (49563,   1,       2048) /* ItemType - Gem */
      , (49563,  12,          1) /* StackSize */
      , (49563,  16,          8) /* ItemUseable - Contained */
      , (49563,  18,          1) /* UiEffects - Magical */
-     , (49563,  19,       1500) /* Value */
+     , (49563,  19,          0) /* Value */
      , (49563,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49563,  94,         16) /* TargetType - Creature */
      , (49563, 106,        210) /* ItemSpellcraft */
