@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43407;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43407, 'ace43407-corruptorscrystal', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (43407, 'ace43407-corruptorscrystal', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43407,   1,       2048) /* ItemType - Gem */
@@ -44,6 +44,3 @@ VALUES (43407,   1,   33554809) /* Setup */
      , (43407,  28,       5436) /* Spell - Prodigal Void Magic Mastery */
      , (43407,  50,  100691567) /* IconOverlay */
      , (43407,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43407,  5436,      0)  /* Prodigal Void Magic Mastery */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29104;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29104, 'aleamberape', 18, '2019-04-08 04:23:57') /* Food */;
+VALUES (29104, 'aleamberape', 18, '2019-04-08 05:00:15') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29104,   1,         32) /* ItemType - Food */
@@ -40,6 +40,3 @@ VALUES (29104,   1,   33559128) /* Setup */
      , (29104,  28,       3533) /* Spell - Brighteyes' Favor */
      , (29104,  50,  100687554) /* IconOverlay */
      , (29104,  52,  100687547) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29104,  3533,      2)  /* Brighteyes' Favor */;

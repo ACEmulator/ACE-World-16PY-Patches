@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32271;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32271, 'ace32271-dukeraoulsdistillation', 18, '2019-04-08 04:23:57') /* Food */;
+VALUES (32271, 'ace32271-dukeraoulsdistillation', 18, '2019-04-08 05:00:15') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32271,   1,         32) /* ItemType - Food */
@@ -41,6 +41,3 @@ VALUES (32271,   1,   33559128) /* Setup */
      , (32271,  28,       3862) /* Spell - Duke Raoul's Pride */
      , (32271,  50,  100687554) /* IconOverlay */
      , (32271,  52,  100687547) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32271,  3862,      2)  /* Duke Raoul's Pride */;

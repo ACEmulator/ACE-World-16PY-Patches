@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30122;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30122, 'gemrareeternalblooddrinker', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (30122, 'gemrareeternalblooddrinker', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30122,   1,       2048) /* ItemType - Gem */
@@ -49,6 +49,3 @@ VALUES (30122,   1,   33556903) /* Setup */
      , (30122,  28,       4395) /* Spell - Aura of Incantation of Blood Drinker Self */
      , (30122,  50,  100686635) /* IconOverlay */
      , (30122,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30122,  4395,      2)  /* Aura of Incantation of Blood Drinker Self */;

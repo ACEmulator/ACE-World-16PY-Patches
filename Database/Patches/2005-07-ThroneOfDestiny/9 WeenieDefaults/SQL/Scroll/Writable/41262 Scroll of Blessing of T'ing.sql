@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41262;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41262, 'ace41262-scrollofblessingofting', 34, '2019-04-08 04:23:57') /* Scroll */;
+VALUES (41262, 'ace41262-scrollofblessingofting', 34, '2019-04-08 05:00:15') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41262,   1,       8192) /* ItemType - Writable */
@@ -30,6 +30,3 @@ VALUES (41262,   1,   33554826) /* Setup */
      , (41262,   8,  100690644) /* Icon */
      , (41262,  22,  872415275) /* PhysicsEffectTable */
      , (41262,  28,       5105) /* Spell - Blessing of T'ing */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41262,  5105,      2)  /* Blessing of T'ing */;

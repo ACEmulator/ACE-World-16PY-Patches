@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34257;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34257, 'ace34257-asheronslesserbenediction', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (34257, 'ace34257-asheronslesserbenediction', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34257,   1,       2048) /* ItemType - Gem */
@@ -40,6 +40,3 @@ VALUES (34257,   1,   33554809) /* Setup */
      , (34257,   8,  100683150) /* Icon */
      , (34257,  22,  872415275) /* PhysicsEffectTable */
      , (34257,  28,       4024) /* Spell - Asherons Lesser Benediction */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34257,  4024,      2)  /* Asherons Lesser Benediction */;

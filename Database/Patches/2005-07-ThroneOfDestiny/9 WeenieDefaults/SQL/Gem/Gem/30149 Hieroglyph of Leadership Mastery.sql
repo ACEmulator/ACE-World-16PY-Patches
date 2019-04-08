@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30149;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30149, 'gemrareeternalleadership', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (30149, 'gemrareeternalleadership', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30149,   1,       2048) /* ItemType - Gem */
@@ -50,6 +50,3 @@ VALUES (30149,   1,   33556903) /* Setup */
      , (30149,  28,       4578) /* Spell - Incantation of Leadership Mastery Self */
      , (30149,  50,  100686663) /* IconOverlay */
      , (30149,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30149,  4578,      2)  /* Incantation of Leadership Mastery Self */;

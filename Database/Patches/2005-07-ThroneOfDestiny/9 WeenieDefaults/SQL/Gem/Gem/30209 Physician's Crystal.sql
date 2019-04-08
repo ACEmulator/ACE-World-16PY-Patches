@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30209;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30209, 'gemrarevolatilehealing', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (30209, 'gemrarevolatilehealing', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30209,   1,       2048) /* ItemType - Gem */
@@ -51,6 +51,3 @@ VALUES (30209,   1,   33554809) /* Setup */
      , (30209,  28,       3707) /* Spell - Prodigal Healing Mastery */
      , (30209,  50,  100686655) /* IconOverlay */
      , (30209,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30209,  3707,      0)  /* Prodigal Healing Mastery */;

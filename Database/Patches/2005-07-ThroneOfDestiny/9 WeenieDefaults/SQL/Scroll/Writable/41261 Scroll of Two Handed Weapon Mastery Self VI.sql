@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41261;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41261, 'ace41261-scrolloftwohandedweaponmasteryselfvi', 34, '2019-04-08 04:23:57') /* Scroll */;
+VALUES (41261, 'ace41261-scrolloftwohandedweaponmasteryselfvi', 34, '2019-04-08 05:00:15') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41261,   1,       8192) /* ItemType - Writable */
@@ -30,6 +30,3 @@ VALUES (41261,   1,   33554826) /* Setup */
      , (41261,   8,  100690644) /* Icon */
      , (41261,  22,  872415275) /* PhysicsEffectTable */
      , (41261,  28,       5104) /* Spell - Two Handed Combat Mastery Self VI */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41261,  5104,      2)  /* Two Handed Combat Mastery Self VI */;

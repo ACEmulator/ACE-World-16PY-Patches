@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28842;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28842, 'potioneggpenguincave', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (28842, 'potioneggpenguincave', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28842,   1,        128) /* ItemType - Misc */
@@ -40,6 +40,3 @@ VALUES (28842,   1,   33554603) /* Setup */
      , (28842,   8,  100686396) /* Icon */
      , (28842,  22,  872415275) /* PhysicsEffectTable */
      , (28842,  28,       3571) /* Spell - Health Boost */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28842,  3571,      2)  /* Health Boost */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30121;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30121, 'gemrareeternalbladebane', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (30121, 'gemrareeternalbladebane', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30121,   1,       2048) /* ItemType - Gem */
@@ -49,6 +49,3 @@ VALUES (30121,   1,   33556903) /* Setup */
      , (30121,  28,       4393) /* Spell - Incantation of Blade Bane */
      , (30121,  50,  100686634) /* IconOverlay */
      , (30121,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30121,  4393,      2)  /* Incantation of Blade Bane */;

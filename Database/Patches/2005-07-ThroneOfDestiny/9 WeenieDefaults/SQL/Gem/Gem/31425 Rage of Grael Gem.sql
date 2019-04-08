@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31425;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31425, 'ace31425-rageofgraelgem', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (31425, 'ace31425-rageofgraelgem', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31425,   1,       2048) /* ItemType - Gem */
@@ -43,6 +43,3 @@ VALUES (31425,   1,   33554809) /* Setup */
      , (31425,   8,  100687889) /* Icon */
      , (31425,  22,  872415275) /* PhysicsEffectTable */
      , (31425,  28,       3828) /* Spell - Rage of Grael */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31425,  3828,      2)  /* Rage of Grael */;

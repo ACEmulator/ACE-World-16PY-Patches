@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30191;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30191, 'gemrarevolatileblooddrinker', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (30191, 'gemrarevolatileblooddrinker', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30191,   1,       2048) /* ItemType - Gem */
@@ -51,6 +51,3 @@ VALUES (30191,   1,   33554809) /* Setup */
      , (30191,  28,       3688) /* Spell - Prodigal Blood Drinker */
      , (30191,  50,  100686635) /* IconOverlay */
      , (30191,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30191,  3688,      0)  /* Prodigal Blood Drinker */;

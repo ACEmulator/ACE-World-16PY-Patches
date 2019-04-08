@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30214;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30214, 'gemrarevolatileitemenchantment', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (30214, 'gemrarevolatileitemenchantment', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30214,   1,       2048) /* ItemType - Gem */
@@ -51,6 +51,3 @@ VALUES (30214,   1,   33554809) /* Setup */
      , (30214,  28,       3713) /* Spell - Prodigal Item Enchantment Mastery */
      , (30214,  50,  100686660) /* IconOverlay */
      , (30214,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30214,  3713,      0)  /* Prodigal Item Enchantment Mastery */;

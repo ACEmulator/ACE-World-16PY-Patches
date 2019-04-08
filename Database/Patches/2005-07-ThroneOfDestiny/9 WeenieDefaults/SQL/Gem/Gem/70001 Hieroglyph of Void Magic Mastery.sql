@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70001;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70001, 'ace70001-hieroglyphofvoidmagicmastery', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (70001, 'ace70001-hieroglyphofvoidmagicmastery', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70001,   1,       2048) /* ItemType - Gem */
@@ -49,6 +49,3 @@ VALUES (70001,   1,   33556903) /* Setup */
      , (70001,  28,       5418) /* Spell - Incantation of Void Magic Mastery Self */
      , (70001,  50,  100691567) /* IconOverlay */
      , (70001,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (70001,  5418,      2)  /* Incantation of Void Magic Mastery Self */;

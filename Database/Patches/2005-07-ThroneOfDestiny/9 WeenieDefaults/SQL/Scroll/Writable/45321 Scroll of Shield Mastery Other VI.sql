@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45321;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45321, 'ace45321-scrollofshieldmasteryothervi', 34, '2019-04-08 04:23:57') /* Scroll */;
+VALUES (45321, 'ace45321-scrollofshieldmasteryothervi', 34, '2019-04-08 05:00:15') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45321,   1,       8192) /* ItemType - Writable */
@@ -30,6 +30,3 @@ VALUES (45321,   1,   33554826) /* Setup */
      , (45321,   8,  100692252) /* Icon */
      , (45321,  22,  872415275) /* PhysicsEffectTable */
      , (45321,  28,       5848) /* Spell - Shield Mastery Other VI */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45321,  5848,      2)  /* Shield Mastery Other VI */;

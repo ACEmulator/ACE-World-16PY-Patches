@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32272;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32272, 'ace32272-huntersstockamber', 18, '2019-04-08 04:23:57') /* Food */;
+VALUES (32272, 'ace32272-huntersstockamber', 18, '2019-04-08 05:00:15') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32272,   1,         32) /* ItemType - Food */
@@ -41,6 +41,3 @@ VALUES (32272,   1,   33559128) /* Setup */
      , (32272,  28,       3863) /* Spell - Hunter's Hardiness */
      , (32272,  50,  100687554) /* IconOverlay */
      , (32272,  52,  100687547) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32272,  3863,      2)  /* Hunter's Hardiness */;

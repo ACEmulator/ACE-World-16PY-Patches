@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30241;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30241, 'gemrarevolatileswiftkiller', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (30241, 'gemrarevolatileswiftkiller', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30241,   1,       2048) /* ItemType - Gem */
@@ -51,6 +51,3 @@ VALUES (30241,   1,   33554809) /* Setup */
      , (30241,  28,       3739) /* Spell - Prodigal Swift Killer */
      , (30241,  50,  100686689) /* IconOverlay */
      , (30241,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30241,  3739,      0)  /* Prodigal Swift Killer */;

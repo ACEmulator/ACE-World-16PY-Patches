@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8974;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8974, 'gemportalceldiseth', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (8974, 'gemportalceldiseth', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8974,   1,       2048) /* ItemType - Gem */
@@ -54,6 +54,3 @@ VALUES (8974,   1,   33556769) /* Setup */
      , (8974,  28,        157) /* Spell - Summon Primary Portal I */
      , (8974,  31,       8987) /* LinkedPortalOne - Celdiseth's Portal */
      , (8974,  36,  234881046) /* MutateFilter */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8974,   157,      0)  /* Summon Primary Portal I */;

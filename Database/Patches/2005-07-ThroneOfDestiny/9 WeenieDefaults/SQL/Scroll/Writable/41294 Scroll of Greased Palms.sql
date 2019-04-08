@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41294;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41294, 'ace41294-scrollofgreasedpalms', 34, '2019-04-08 04:23:57') /* Scroll */;
+VALUES (41294, 'ace41294-scrollofgreasedpalms', 34, '2019-04-08 05:00:15') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41294,   1,       8192) /* ItemType - Writable */
@@ -30,6 +30,3 @@ VALUES (41294,   1,   33554826) /* Setup */
      , (41294,   8,  100690644) /* Icon */
      , (41294,  22,  872415275) /* PhysicsEffectTable */
      , (41294,  28,       5081) /* Spell - Greased Palms */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41294,  5081,      2)  /* Greased Palms */;

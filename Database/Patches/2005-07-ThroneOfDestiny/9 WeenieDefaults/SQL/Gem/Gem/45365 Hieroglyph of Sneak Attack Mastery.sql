@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45365;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45365, 'ace45365-hieroglyphofsneakattackmastery', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (45365, 'ace45365-hieroglyphofsneakattackmastery', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45365,   1,       2048) /* ItemType - Gem */
@@ -49,6 +49,3 @@ VALUES (45365,   1,   33556903) /* Setup */
      , (45365,  28,       5882) /* Spell - Incantation of Sneak Attack Mastery Self */
      , (45365,  50,  100692247) /* IconOverlay */
      , (45365,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45365,  5882,      2)  /* Incantation of Sneak Attack Mastery Self */;

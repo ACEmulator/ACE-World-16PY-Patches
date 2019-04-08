@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30168;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30168, 'gemrareeternalself', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (30168, 'gemrareeternalself', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30168,   1,       2048) /* ItemType - Gem */
@@ -49,6 +49,3 @@ VALUES (30168,   1,   33556903) /* Setup */
      , (30168,  28,       4329) /* Spell - Incantation of Willpower Self */
      , (30168,  50,  100686682) /* IconOverlay */
      , (30168,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30168,  4329,      2)  /* Incantation of Willpower Self */;

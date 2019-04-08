@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43020;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43020, 'ace43020-townnetworkportalgem', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (43020, 'ace43020-townnetworkportalgem', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43020,   1,       2048) /* ItemType - Gem */
@@ -46,6 +46,3 @@ VALUES (43020,   1,   33556769) /* Setup */
      , (43020,  22,  872415275) /* PhysicsEffectTable */
      , (43020,  28,        157) /* Spell - Summon Primary Portal I */
      , (43020,  31,      42852) /* LinkedPortalOne - Portal to Town Network */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43020,   157,      0)  /* Summon Primary Portal I */;

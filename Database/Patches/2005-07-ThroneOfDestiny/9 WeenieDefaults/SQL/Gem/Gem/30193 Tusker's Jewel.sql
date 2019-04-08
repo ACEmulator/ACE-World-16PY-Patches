@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30193;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30193, 'gemrarevolatilebludgeoningprotection', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (30193, 'gemrarevolatilebludgeoningprotection', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30193,   1,       2048) /* ItemType - Gem */
@@ -51,6 +51,3 @@ VALUES (30193,   1,   33554809) /* Setup */
      , (30193,  28,       3690) /* Spell - Prodigal Bludgeon Protection */
      , (30193,  50,  100686637) /* IconOverlay */
      , (30193,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30193,  3690,      0)  /* Prodigal Bludgeon Protection */;

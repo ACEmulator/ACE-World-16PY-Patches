@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28843;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28843, 'cakeeggpenguincave', 18, '2019-04-08 04:23:57') /* Food */;
+VALUES (28843, 'cakeeggpenguincave', 18, '2019-04-08 05:00:15') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28843,   1,         32) /* ItemType - Food */
@@ -37,6 +37,3 @@ VALUES (28843,   1,   33555193) /* Setup */
      , (28843,   8,  100686397) /* Icon */
      , (28843,  22,  872415275) /* PhysicsEffectTable */
      , (28843,  28,       3569) /* Spell - Mana Boost */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28843,  3569,      2)  /* Mana Boost */;

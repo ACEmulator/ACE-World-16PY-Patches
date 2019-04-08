@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30153;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30153, 'gemrareeternallightningprotection', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (30153, 'gemrareeternallightningprotection', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30153,   1,       2048) /* ItemType - Gem */
@@ -49,6 +49,3 @@ VALUES (30153,   1,   33556903) /* Setup */
      , (30153,  28,       4470) /* Spell - Incantation of Lightning Protection Self */
      , (30153,  50,  100686667) /* IconOverlay */
      , (30153,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30153,  4470,      2)  /* Incantation of Lightning Protection Self */;

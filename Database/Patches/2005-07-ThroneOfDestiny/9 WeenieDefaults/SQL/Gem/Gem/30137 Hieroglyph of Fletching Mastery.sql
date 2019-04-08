@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30137;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30137, 'gemrareeternalfletching', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (30137, 'gemrareeternalfletching', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30137,   1,       2048) /* ItemType - Gem */
@@ -50,6 +50,3 @@ VALUES (30137,   1,   33556903) /* Setup */
      , (30137,  28,       4552) /* Spell - Incantation of Fletching Mastery Self */
      , (30137,  50,  100686651) /* IconOverlay */
      , (30137,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30137,  4552,      2)  /* Incantation of Fletching Mastery Self */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27116;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27116, 'orbelysawondrous2', 35, '2019-04-08 04:23:57') /* Caster */;
+VALUES (27116, 'orbelysawondrous2', 35, '2019-04-08 05:00:15') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27116,   1,      32768) /* ItemType - Caster */
@@ -55,6 +55,3 @@ VALUES (27116,   1,   33558643) /* Setup */
      , (27116,  22,  872415275) /* PhysicsEffectTable */
      , (27116,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (27116,  28,       1702) /* Spell - Health to Mana Self IV */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27116,  1702,      0)  /* Health to Mana Self IV */;

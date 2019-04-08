@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30151;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30151, 'gemrareeternallifestonerecall', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (30151, 'gemrareeternallifestonerecall', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30151,   1,       2048) /* ItemType - Gem */
@@ -49,6 +49,3 @@ VALUES (30151,   1,   33556903) /* Setup */
      , (30151,  28,       1635) /* Spell - Lifestone Recall */
      , (30151,  50,  100686665) /* IconOverlay */
      , (30151,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30151,  1635,      2)  /* Lifestone Recall */;

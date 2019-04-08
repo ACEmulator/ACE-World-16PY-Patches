@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30226;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30226, 'gemrarevolatilemanaconversion', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (30226, 'gemrarevolatilemanaconversion', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30226,   1,       2048) /* ItemType - Gem */
@@ -51,6 +51,3 @@ VALUES (30226,   1,   33554809) /* Setup */
      , (30226,  28,       3724) /* Spell - Prodigal Mana Conversion Mastery */
      , (30226,  50,  100686673) /* IconOverlay */
      , (30226,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30226,  3724,      0)  /* Prodigal Mana Conversion Mastery */;

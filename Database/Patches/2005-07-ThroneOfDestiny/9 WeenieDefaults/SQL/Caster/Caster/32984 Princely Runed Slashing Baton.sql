@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32984;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32984, 'ace32984-princelyrunedslashingbaton', 35, '2019-04-08 04:23:57') /* Caster */;
+VALUES (32984, 'ace32984-princelyrunedslashingbaton', 35, '2019-04-08 05:00:15') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32984,   1,      32768) /* ItemType - Caster */
@@ -52,5 +52,4 @@ VALUES (32984,   1,   33559863) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32984,  2101,      2)  /* Aura of Cragstone's Will */
      , (32984,  2117,      2)  /* Aura of Mystic's Blessing */
-     , (32984,  2282,      0)  /* Futility */
      , (32984,  3259,      2)  /* Aura of Infected Spirit Caress */;

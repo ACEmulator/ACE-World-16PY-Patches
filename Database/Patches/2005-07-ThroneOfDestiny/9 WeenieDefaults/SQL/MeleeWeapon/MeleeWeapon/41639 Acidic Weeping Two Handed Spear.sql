@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41639;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41639, 'ace41639-acidicweepingtwohandedspear', 6, '2019-04-08 04:23:57') /* MeleeWeapon */;
+VALUES (41639, 'ace41639-acidicweepingtwohandedspear', 6, '2019-04-08 05:00:15') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41639,   1,          1) /* ItemType - MeleeWeapon */
@@ -62,7 +62,6 @@ VALUES (41639,   1, 'Acidic Weeping Two Handed Spear') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41639,   1,   33558480) /* Setup */
      , (41639,   3,  536870932) /* SoundTable */
-     , (41639,   6,   67114522) /* PaletteBase */
      , (41639,   6,   67114522) /* PaletteBase */
      , (41639,   7,  268436698) /* ClothingBase */
      , (41639,   8,  100690831) /* Icon */

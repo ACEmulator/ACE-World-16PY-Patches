@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41257;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41257, 'ace41257-tingscrystal', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (41257, 'ace41257-tingscrystal', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41257,   1,       2048) /* ItemType - Gem */
@@ -45,6 +45,3 @@ VALUES (41257,   1,   33554809) /* Setup */
      , (41257,  28,       5026) /* Spell - Prodigal Two Handed Combat Mastery */
      , (41257,  50,  100690691) /* IconOverlay */
      , (41257,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41257,  5026,      0)  /* Prodigal Two Handed Combat Mastery */;

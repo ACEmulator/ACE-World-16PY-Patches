@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30138;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30138, 'gemrareeternalfocus', 38, '2019-04-08 04:23:57') /* Gem */;
+VALUES (30138, 'gemrareeternalfocus', 38, '2019-04-08 05:00:15') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30138,   1,       2048) /* ItemType - Gem */
@@ -49,6 +49,3 @@ VALUES (30138,   1,   33556903) /* Setup */
      , (30138,  28,       4305) /* Spell - Incantation of Focus Self */
      , (30138,  50,  100686652) /* IconOverlay */
      , (30138,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30138,  4305,      2)  /* Incantation of Focus Self */;
