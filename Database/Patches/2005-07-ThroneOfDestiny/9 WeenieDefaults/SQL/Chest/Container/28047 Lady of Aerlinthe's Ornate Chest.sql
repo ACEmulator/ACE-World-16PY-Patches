@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28047;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28047, 'chestaerfalleuber', 20, '2019-04-08 01:17:43') /* Chest */;
+VALUES (28047, 'chestaerfalleuber', 20, '2019-04-08 03:46:06') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28047,   1,        512) /* ItemType - Container */
@@ -54,7 +54,7 @@ VALUES (28047,   1,   33558394) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28047, -1, 9010, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unreadable Scroll (9010) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (28047, -1, 28046, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Aerfalle's Supreme Pallium (28046) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (28047, -1, 28059, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate War Staff of Aerfalle (28059) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (28047, -1, 28046, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Aerfalle's Supreme Pallium (28046) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (28047, -1, 28067, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Superior Ashbane (28067) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (28047, -1, 317, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 5 from Death Treasure Table id: 317 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

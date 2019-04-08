@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44946;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44946, 'ace44946-volatilestrengthtoendurancegem', 63, '2019-04-08 01:17:43') /* AttributeTransferDevice */;
+VALUES (44946, 'ace44946-volatilestrengthtoendurancegem', 63, '2019-04-08 03:46:06') /* AttributeTransferDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44946,   1,        128) /* ItemType - Misc */
