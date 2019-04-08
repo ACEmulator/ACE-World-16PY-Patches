@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38920;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38920, 'ace38920-reinforcedmanaforgekey', 22, '2019-04-08 03:46:06') /* Key */;
+VALUES (38920, 'ace38920-reinforcedmanaforgekey', 22, '2019-04-08 04:23:57') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38920,   1,      16384) /* ItemType - Key */
