@@ -1,5 +1,0 @@
-DELETE FROM `landblock_instance` WHERE `guid` = 2112163841; /* Shoushi Southeast Training Academy Portal */
-/* @teleloc 0xDE510000 [84.048000 121.921000 16.005000] 1.000000 0.000000 0.000000 0.000000 */
-
-DELETE FROM `landblock_instance` WHERE `guid` = 2112163848; /* IMPORTANT SIGN  */
-/* @teleloc 0xDE510000 [84.502500 119.276000 16.005000] 0.994904 0.000000 0.000000 0.100830 */
