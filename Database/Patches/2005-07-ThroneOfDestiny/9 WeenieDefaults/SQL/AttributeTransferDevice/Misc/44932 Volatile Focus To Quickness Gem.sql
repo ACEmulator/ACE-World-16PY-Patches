@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44932;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44932, 'ace44932-volatilefocustoquicknessgem', 63, '2019-04-08 00:35:10') /* AttributeTransferDevice */;
+VALUES (44932, 'ace44932-volatilefocustoquicknessgem', 63, '2019-04-08 01:17:43') /* AttributeTransferDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44932,   1,        128) /* ItemType - Misc */
