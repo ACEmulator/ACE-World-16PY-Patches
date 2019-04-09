@@ -80,7 +80,7 @@ VALUES (28668,   1,   33559104) /* Setup */
                                    Wield Ice Shard (29986) | Probability: 20%
                                    Wield Frigid Splinter (29991) | Probability: 20%
                                    Wield Bone Sword (29996) | Probability: 20% */
-     , (28668,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
+     , (28668,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28668,   1, 210, 0, 0) /* Strength */

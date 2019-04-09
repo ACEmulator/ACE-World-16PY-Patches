@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28644;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28644, 'fiunfrenzied', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28644, 'fiunfrenzied', 10, '2019-04-08 22:22:59') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28644,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (28644,   1,   33559202) /* Setup */
      , (28644,   7,  268436942) /* ClothingBase */
      , (28644,   8,  100677372) /* Icon */
      , (28644,  22,  872415410) /* PhysicsEffectTable */
-     , (28644,  35,        452) /* DeathTreasureType */;
+     , (28644,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28644,   1, 160, 0, 0) /* Strength */
@@ -90,10 +90,10 @@ VALUES (28644,   1,   315, 0, 0, 380) /* MaxHealth */
      , (28644,   5,   250, 0, 0, 270) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28644,  6, 0, 3, 0, 340, 0, 0) /* MeleeDefense        Specialized */
+VALUES (28644,  6, 0, 3, 0, 240, 0, 0) /* MeleeDefense        Specialized */
      , (28644,  7, 0, 3, 0, 315, 0, 0) /* MissileDefense      Specialized */
      , (28644, 13, 0, 3, 0, 315, 0, 0) /* UnarmedCombat       Specialized */
-     , (28644, 15, 0, 3, 0, 335, 0, 0) /* MagicDefense        Specialized */
+     , (28644, 15, 0, 3, 0, 295, 0, 0) /* MagicDefense        Specialized */
      , (28644, 22, 0, 2, 0,   2, 0, 0) /* Jump                Trained */
      , (28644, 24, 0, 2, 0,   2, 0, 0) /* Run                 Trained */
      , (28644, 33, 0, 3, 0, 335, 0, 0) /* LifeMagic           Specialized */
@@ -149,7 +149,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28644, 9,     0,  1, 0, 0.85, False) /* Create nothing for ContainTreasure */
-     , (28644, 9,     0,  1, 0, 0.997, False) /* Create nothing for ContainTreasure */
-     , (28644, 9, 32179,  1, 0, 0.15, False) /* Create  (32179) for ContainTreasure */
-     , (28644, 9, 34276,  1, 0, 0.003, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */;
+VALUES (28644, 9, 32179,  1, 0, 0.15, False) /* Create Fiun Head (32179) for ContainTreasure */
+     , (28644, 9,     0,  1, 0, 0.85, False) /* Create nothing for ContainTreasure */
+     , (28644, 9, 34276,  1, 0, 0.002, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */
+     , (28644, 9,     0,  1, 0, 0.998, False) /* Create nothing for ContainTreasure */;

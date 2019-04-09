@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2576;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2576, 'monougawild', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (2576, 'monougawild', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2576,   1,         16) /* ItemType - Creature */
@@ -75,8 +75,15 @@ VALUES (2576,   1,   33555199) /* Setup */
      , (2576,   7,  268435726) /* ClothingBase */
      , (2576,   8,  100669117) /* Icon */
      , (2576,  22,  872415257) /* PhysicsEffectTable */
-     , (2576,  32,        120) /* WieldedTreasureType */
-     , (2576,  35,        451) /* DeathTreasureType */;
+     , (2576,  32,        120) /* WieldedTreasureType - 
+                                   Wield Club (3943) | Probability: 20%
+                                   Wield Dabus (3944) | Probability: 10%
+                                   Wield Kasrullah (3945) | Probability: 10%
+                                   Wield Mace (3947) | Probability: 10%
+                                   Wield Morning Star (3948) | Probability: 20%
+                                   Wield Tofun (3946) | Probability: 10%
+                                   Wield 10x Throwing Club (310) | Probability: 20% */
+     , (2576,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2576,   1, 170, 0, 0) /* Strength */
@@ -150,5 +157,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2576, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (2576, 9, 12253,  0, 0, 0.06, False) /* Create Monougat (12253) for ContainTreasure */;
+VALUES (2576, 9, 12253,  0, 0, 0.06, False) /* Create Monougat (12253) for ContainTreasure */
+     , (2576, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10949;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10949, 'tumerokchampionkarenua_xp', 10, '2019-02-19 15:09:35') /* Creature */;
+VALUES (10949, 'tumerokchampionkarenua_xp', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10949,   1,         16) /* ItemType - Creature */
@@ -179,5 +179,5 @@ VALUES (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Co
      , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */
      , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */
      , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */
-     , (10949, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (10949, 9, 10969,  0, 0, 1, False) /* Create Awakener (10969) for ContainTreasure */;
+     , (10949, 9, 10969,  0, 0, 1, False) /* Create Awakener (10969) for ContainTreasure */
+     , (10949, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

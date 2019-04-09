@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31004;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31004, 'lugiantukorasentinelhighyield', 10, '2019-02-19 06:52:23') /* Creature */;
+VALUES (31004, 'lugiantukorasentinelhighyield', 10, '2019-04-08 23:21:20') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31004,   1,         16) /* ItemType - Creature */
@@ -65,7 +65,10 @@ VALUES (31004,   1,   33557003) /* Setup */
      , (31004,   7,  268436618) /* ClothingBase */
      , (31004,   8,  100667447) /* Icon */
      , (31004,  22,  872415262) /* PhysicsEffectTable */
-     , (31004,  32,        425) /* WieldedTreasureType */
+     , (31004,  32,        425) /* WieldedTreasureType - 
+                                   Wield 10x Rock (23133) | Probability: 80%
+                                   Wield Lugian Morning Star (23134) | Probability: 10%
+                                   Wield Lugian Axe (23132) | Probability: 10% */
      , (31004,  35,       1000) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -105,7 +108,7 @@ VALUES (31004,  0,  4,  2,  0.3,  440,  264,  264,  264,  154,  110,  374,  352,
      , (31004,  8,  4, 140, 0.75,  440,  264,  264,  264,  154,  110,  374,  352,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31004, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (31004, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (31004, 9, 31348,  1, 0, 0.01, False) /* Create Lugian Sentinel's Insignia (31348) for ContainTreasure */
+     , (31004, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (31004, 9, 24477,  1, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (31004, 9, 31348,  1, 0, 0.01, False) /* Create Lugian Sentinel's Insignia (31348) for ContainTreasure */;
+     , (31004, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

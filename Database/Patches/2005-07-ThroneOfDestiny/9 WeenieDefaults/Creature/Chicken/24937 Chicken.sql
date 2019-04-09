@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24937;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24937, 'chickenhen', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (24937, 'chickenhen', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24937,   1,         16) /* ItemType - Creature */
@@ -538,7 +538,7 @@ VALUES (@parent_id,  0,   6 /* Move */, 0, 2, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24937, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
-     , (24937, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (24937, 9,   262,  0, 0, 0.75, False) /* Create Chicken (262) for ContainTreasure */
-     , (24937, 9, 25558,  0, 0, 0.05, False) /* Create Whole Chicken (25558) for ContainTreasure */;
+VALUES (24937, 9,   262,  0, 0, 0.75, False) /* Create Chicken (262) for ContainTreasure */
+     , (24937, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
+     , (24937, 9, 25558,  0, 0, 0.05, False) /* Create Whole Chicken (25558) for ContainTreasure */
+     , (24937, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

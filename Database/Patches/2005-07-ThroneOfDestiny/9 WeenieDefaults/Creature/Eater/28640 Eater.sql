@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28640;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28640, 'eater', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28640, 'eater', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28640,   1,         16) /* ItemType - Creature */
@@ -35,7 +35,7 @@ VALUES (28640,   1,   33559121) /* Setup */
      , (28640,   7,  268436888) /* ClothingBase */
      , (28640,   8,  100677365) /* Icon */
      , (28640,  22,  872415409) /* PhysicsEffectTable */
-     , (28640,  35,        450) /* DeathTreasureType */;
+     , (28640,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28640,   1, 350, 0, 0) /* Strength */
@@ -117,14 +117,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28640, 8,     0,  1, 0, 0.999325, False) /* Create nothing for Treasure */
-     , (28640, 8,  6876,  1, 0, 0.0125, True) /* Create Sturdy Iron Key (6876) for Treasure */
-     , (28640, 8, 28732,  1, 0, 0.005, True) /* Create Aluvian Leg (28732) for Treasure */
+VALUES (28640, 8, 28732,  1, 0, 0.005, True) /* Create Aluvian Leg (28732) for Treasure */
      , (28640, 8, 28733,  1, 0, 0.005, True) /* Create Gharu'ndim Arm (28733) for Treasure */
      , (28640, 8, 28734,  1, 0, 0.005, True) /* Create Sho Brain (28734) for Treasure */
      , (28640, 8, 28735,  1, 0, 0.005, True) /* Create Viamontian Torso (28735) for Treasure */
      , (28640, 8, 28736,  1, 0, 0.005, True) /* Create Penguin Wing (28736) for Treasure */
      , (28640, 8, 28737,  1, 0, 0.005, True) /* Create Rusty Lugian Axe (28737) for Treasure */
      , (28640, 8, 28738,  1, 0, 0.005, True) /* Create Half-Digested Virindi Mask (28738) for Treasure */
-     , (28640, 8, 45875,  1, 0, 0.005, True) /* Create  (45875) for Treasure */
-     , (28640, 8, 45876,  1, 0, 0.005, True) /* Create  (45876) for Treasure */;
+     , (28640, 8,  6876,  1, 0, 0.0125, True) /* Create Sturdy Iron Key (6876) for Treasure */
+     , (28640, 8, 45876,  1, 0, 0.005, True) /* Create Scarlet Red Letter (45876) for Treasure */
+     , (28640, 8, 45875,  1, 0, 0.005, True) /* Create Lucky Gold Letter (45875) for Treasure */
+     , (28640, 8,     0,  1, 0, 0.999325, False) /* Create nothing for Treasure */;

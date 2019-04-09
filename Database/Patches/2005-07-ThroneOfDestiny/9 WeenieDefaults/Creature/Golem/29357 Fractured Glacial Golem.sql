@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29357;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29357, 'golemglacialfractured', 10, '2019-02-19 06:52:23') /* Creature */;
+VALUES (29357, 'golemglacialfractured', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29357,   1,         16) /* ItemType - Creature */
@@ -27,7 +27,8 @@ VALUES (29357,   1, False) /* Stuck */
      , (29357,  14, True ) /* GravityStatus */
      , (29357,  19, True ) /* Attackable */
      , (29357,  50, True ) /* NeverFailCasting */
-     , (29357, 101, True ) /* CanGenerateRare */;
+     , (29357, 101, True ) /* CanGenerateRare */
+     , (29357, 102, True ) /* CorpseGeneratedRare */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29357,   1,       5) /* HeartbeatInterval */
@@ -77,7 +78,7 @@ VALUES (29357,   1,   33557484) /* Setup */
      , (29357,   7,  268436246) /* ClothingBase */
      , (29357,   8,  100667940) /* Icon */
      , (29357,  22,  872415323) /* PhysicsEffectTable */
-     , (29357,  35,         87) /* DeathTreasureType */;
+     , (29357,  35,         87) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29357,   1, 230, 0, 0) /* Strength */
@@ -140,9 +141,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, '', NULL
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29357, 0,     0,  0, 0, 0.98, False) /* Create nothing for Undef */
-     , (29357, 0,     0,  0, 0, 0.95, False) /* Create nothing for Undef */
-     , (29357, 0,     0,  0, 0, 0.94, False) /* Create nothing for Undef */
-     , (29357, 0,  6353,  0, 0, 0.02, False) /* Create Pyreal Mote (6353) for Undef */
+VALUES (29357, 0,  6353,  0, 0, 0.02, False) /* Create Pyreal Mote (6353) for Undef */
+     , (29357, 0,     0,  0, 0, 0.98, False) /* Create nothing for Undef */
      , (29357, 0, 23201,  0, 0, 0.05, False) /* Create Glacial Golem Heart (23201) for Undef */
-     , (29357, 0, 34276,  0, 0, 0.06, False) /* Create Ancient Empyrean Trinket (34276) for Undef */;
+     , (29357, 0,     0,  0, 0, 0.95, False) /* Create nothing for Undef */
+     , (29357, 0, 34276,  0, 0, 0.06, False) /* Create Ancient Empyrean Trinket (34276) for Undef */
+     , (29357, 0,     0,  0, 0, 0.94, False) /* Create nothing for Undef */;

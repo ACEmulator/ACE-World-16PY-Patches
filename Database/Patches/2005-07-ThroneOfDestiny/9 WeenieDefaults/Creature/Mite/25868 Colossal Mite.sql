@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25868;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25868, 'mitecolossal', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25868, 'mitecolossal', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25868,   1,         16) /* ItemType - Creature */
@@ -17,7 +17,7 @@ VALUES (25868,   1,         16) /* ItemType - Creature */
      , (25868,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25868, 101,        129) /* AiAllowedCombatStyle - Unarmed, ThrownWeapon */
      , (25868, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (25868, 146,     500000) /* XpOverride */;
+     , (25868, 146,    3400000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25868,   1, True ) /* Stuck */
@@ -72,7 +72,7 @@ VALUES (25868,   1,   33558656) /* Setup */
      , (25868,   7,  268436816) /* ClothingBase */
      , (25868,   8,  100667448) /* Icon */
      , (25868,  22,  872415263) /* PhysicsEffectTable */
-     , (25868,  35,         26) /* DeathTreasureType */;
+     , (25868,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25868,   1, 500, 0, 0) /* Strength */
@@ -88,14 +88,14 @@ VALUES (25868,   1, 49750, 0, 0, 50000) /* MaxHealth */
      , (25868,   5,     0, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25868,  6, 0, 3, 0, 275, 0, 1676.59655761719) /* MeleeDefense        Specialized */
-     , (25868,  7, 0, 3, 0, 415, 0, 1676.59655761719) /* MissileDefense      Specialized */
-     , (25868, 12, 0, 3, 0,  80, 0, 1676.59655761719) /* ThrownWeapon        Specialized */
-     , (25868, 13, 0, 3, 0, 250, 0, 1676.59655761719) /* UnarmedCombat       Specialized */
-     , (25868, 15, 0, 3, 0, 365, 0, 1676.59655761719) /* MagicDefense        Specialized */
-     , (25868, 20, 0, 3, 0,  20, 0, 1676.59655761719) /* Deception           Specialized */
-     , (25868, 22, 0, 3, 0,  70, 0, 1676.59655761719) /* Jump                Specialized */
-     , (25868, 24, 0, 3, 0,  80, 0, 1676.59655761719) /* Run                 Specialized */;
+VALUES (25868,  6, 0, 3, 0, 275, 0, 0) /* MeleeDefense        Specialized */
+     , (25868,  7, 0, 3, 0, 415, 0, 0) /* MissileDefense      Specialized */
+     , (25868, 15, 0, 3, 0, 365, 0, 0) /* MagicDefense        Specialized */
+     , (25868, 20, 0, 3, 0,  20, 0, 0) /* Deception           Specialized */
+     , (25868, 22, 0, 3, 0,  70, 0, 0) /* Jump                Specialized */
+     , (25868, 24, 0, 3, 0,  80, 0, 0) /* Run                 Specialized */
+     , (25868, 45, 0, 3, 0, 250, 0, 0) /* LightWeapons        Specialized */
+     , (25868, 47, 0, 3, 0,  80, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25868,  0,  4,  0,    0,  500,  325,  375,  375,  500,  500,  500,  500,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -109,7 +109,7 @@ VALUES (25868,  0,  4,  0,    0,  500,  325,  375,  375,  500,  500,  500,  500,
      , (25868,  8,  4, 220, 0.75,  500,  325,  375,  375,  500,  500,  500,  500,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25868, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (25868, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (25868, 9, 25899,  1, 0, 1, False) /* Create Mite Leg Bone (25899) for ContainTreasure */
-     , (25868, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
+VALUES (25868, 9, 25899,  1, 0, 1, False) /* Create Mite Leg Bone (25899) for ContainTreasure */
+     , (25868, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (25868, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (25868, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24939;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24939, 'lugianamplothrenegade', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (24939, 'lugianamplothrenegade', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24939,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,13 @@ VALUES (24939,   1,   33557003) /* Setup */
      , (24939,   7,  268436156) /* ClothingBase */
      , (24939,   8,  100667447) /* Icon */
      , (24939,  22,  872415262) /* PhysicsEffectTable */
-     , (24939,  32,        437) /* WieldedTreasureType */
-     , (24939,  35,        453) /* DeathTreasureType */;
+     , (24939,  32,        437) /* WieldedTreasureType - 
+                                   Wield Rock (23747) | Probability: 80%
+                                   Wield Rock (7578) | Probability: 10%
+                                   Wield Lugian Axe (23741) | Probability: 80%
+                                   Wield Lugian Morning Star (23765) | Probability: 5%
+                                   Wield Lugian Axe (7577) | Probability: 5% */
+     , (24939,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24939,   1, 200, 0, 0) /* Strength */
@@ -172,5 +177,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24939, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (24939, 9,  7042,  0, 0, 0.02, False) /* Create Small Lugian Sinew (7042) for ContainTreasure */;
+VALUES (24939, 9,  7042,  0, 0, 0.02, False) /* Create Small Lugian Sinew (7042) for ContainTreasure */
+     , (24939, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

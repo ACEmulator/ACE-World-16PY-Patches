@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8466;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8466, 'idol', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8466, 'idol', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8466,   1,         16) /* ItemType - Creature */
@@ -71,8 +71,8 @@ VALUES (8466,   1,   33556893) /* Setup */
      , (8466,   8,  100671204) /* Icon */
      , (8466,  19,         84) /* ActivationAnimation */
      , (8466,  22,  872415369) /* PhysicsEffectTable */
-     , (8466,  30,         83) /* PhysicsScript - PortalExit */
-     , (8466,  35,        463) /* DeathTreasureType */;
+     , (8466,  30,         84) /* PhysicsScript - BreatheFlame */
+     , (8466,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8466,   1, 180, 0, 0) /* Strength */
@@ -130,5 +130,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8466, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (8466, 9,  8425,  0, 0, 0.05, False) /* Create Idol Gem (8425) for ContainTreasure */;
+VALUES (8466, 9,  8425,  0, 0, 0.05, False) /* Create Idol Gem (8425) for ContainTreasure */
+     , (8466, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

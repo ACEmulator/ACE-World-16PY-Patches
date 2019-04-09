@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27459;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27459, 'lugianrenegadeeliteguardb', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (27459, 'lugianrenegadeeliteguardb', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27459,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,17 @@ VALUES (27459,   1,   33557003) /* Setup */
      , (27459,   7,  268436795) /* ClothingBase */
      , (27459,   8,  100667447) /* Icon */
      , (27459,  22,  872415262) /* PhysicsEffectTable */
-     , (27459,  32,        445) /* WieldedTreasureType */
-     , (27459,  35,         31) /* DeathTreasureType */;
+     , (27459,  32,        445) /* WieldedTreasureType - 
+                                   Wield Rock (23744) | Probability: 90%
+                                   Wield Rock (23745) | Probability: 10%
+                                   Wield Lugian Club (23750) | Probability: 20%
+                                   Wield Lugian Mace (23758) | Probability: 20%
+                                   Wield Lugian Hammer (23754) | Probability: 20%
+                                   Wield Lugian Axe (23738) | Probability: 15%
+                                   Wield Lugian Morning Star (23762) | Probability: 15%
+                                   Wield Lugian Axe (23739) | Probability: 5%
+                                   Wield Lugian Morning Star (23763) | Probability: 5% */
+     , (27459,  35,         31) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27459,   1, 340, 0, 0) /* Strength */
@@ -204,5 +213,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Did a wasp just sting me?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27459, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (27459, 9, 27454,  0, 0, 1, False) /* Create Renegade Leggings (27454) for ContainTreasure */;
+VALUES (27459, 9, 27454,  0, 0, 1, False) /* Create Renegade Leggings (27454) for ContainTreasure */
+     , (27459, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

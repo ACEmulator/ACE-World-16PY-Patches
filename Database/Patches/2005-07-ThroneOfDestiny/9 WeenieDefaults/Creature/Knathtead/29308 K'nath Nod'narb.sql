@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29308;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29308, 'knathnodnarb', 10, '2019-02-19 06:52:23') /* Creature */;
+VALUES (29308, 'knathnodnarb', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29308,   1,         16) /* ItemType - Creature */
@@ -26,7 +26,8 @@ VALUES (29308,   1, True ) /* Stuck */
      , (29308,  14, True ) /* GravityStatus */
      , (29308,  19, True ) /* Attackable */
      , (29308,  50, True ) /* NeverFailCasting */
-     , (29308, 101, True ) /* CanGenerateRare */;
+     , (29308, 101, True ) /* CanGenerateRare */
+     , (29308, 102, True ) /* CorpseGeneratedRare */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29308,   1,       5) /* HeartbeatInterval */
@@ -72,7 +73,7 @@ VALUES (29308,   1,   33555629) /* Setup */
      , (29308,   4,  805306394) /* CombatTable */
      , (29308,   8,  100668443) /* Icon */
      , (29308,  22,  872415261) /* PhysicsEffectTable */
-     , (29308,  35,        460) /* DeathTreasureType */;
+     , (29308,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29308,   1, 140, 0, 0) /* Strength */
@@ -133,7 +134,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29308, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+VALUES (29308, 9,  5789,  0, 0, 0.2, False) /* Create Brown Lump (5789) for ContainTreasure */
      , (29308, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (29308, 9,  5789,  0, 0, 0.2, False) /* Create Brown Lump (5789) for ContainTreasure */
-     , (29308, 9,  6876, -1, 0, 0.2, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (29308, 9,  6876, -1, 0, 0.2, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (29308, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;

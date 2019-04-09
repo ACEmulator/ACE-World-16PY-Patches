@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25755;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25755, 'golemmagmadfdsmall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25755, 'golemmagmadfdsmall', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25755,   1,         16) /* ItemType - Creature */
@@ -208,5 +208,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Looks like I''m harder to hit now, eh?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25755, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (25755, 9, 25798,  1, 0, 1, False) /* Create Scold's Heart (25798) for ContainTreasure */;
+VALUES (25755, 9, 25798,  1, 0, 1, False) /* Create Scold's Heart (25798) for ContainTreasure */
+     , (25755, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

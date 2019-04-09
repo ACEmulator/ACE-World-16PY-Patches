@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8012;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8012, 'crystaldualfragmentneclass', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8012, 'crystaldualfragmentnew', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8012,   1,         16) /* ItemType - Creature */
@@ -77,7 +77,7 @@ VALUES (8012,   1,   33556730) /* Setup */
      , (8012,   7,  268435859) /* ClothingBase */
      , (8012,   8,  100670283) /* Icon */
      , (8012,  22,  872415348) /* PhysicsEffectTable */
-     , (8012,  35,        462) /* DeathTreasureType */;
+     , (8012,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8012,   1, 140, 0, 0) /* Strength */
@@ -129,11 +129,11 @@ VALUES (8012,    83,  2.115)  /* Flame Bolt IV */
      , (8012,  1419,  2.042)  /* Slowness Other V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8012, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (8012, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (8012, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (8012, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (8012, 9,  6056,  0, 0, 0.02, False) /* Create Small Shard (6056) for ContainTreasure */
+VALUES (8012, 9,  6056,  0, 0, 0.02, False) /* Create Small Shard (6056) for ContainTreasure */
+     , (8012, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (8012, 9, 20860,  0, 0, 0.04, False) /* Create Herald Stamp (20860) for ContainTreasure */
-     , (8012, 9, 45875,  1, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (8012, 9, 45876,  1, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+     , (8012, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (8012, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (8012, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (8012, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (8012, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

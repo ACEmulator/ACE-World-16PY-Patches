@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11528;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11528, 'golemelaniwood_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11528, 'golemelaniwood_xp', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11528,   1,         16) /* ItemType - Creature */
@@ -69,7 +69,7 @@ VALUES (11528,   1,   33556428) /* Setup */
      , (11528,   4,  805306376) /* CombatTable */
      , (11528,   8,  100667940) /* Icon */
      , (11528,  22,  872415326) /* PhysicsEffectTable */
-     , (11528,  35,        465) /* DeathTreasureType */;
+     , (11528,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11528,   1, 100, 0, 0) /* Strength */
@@ -126,9 +126,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11528, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (11528, 9,     0,  0, 0, 0.985, False) /* Create nothing for ContainTreasure */
-     , (11528, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (11528, 9, 11350,  0, 0, 0.05, False) /* Create Elaniwood Golem Heart (11350) for ContainTreasure */
+     , (11528, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (11528, 9,  6353,  0, 0, 0.015, False) /* Create Pyreal Mote (6353) for ContainTreasure */
-     , (11528, 9, 11350,  0, 0, 0.05, False) /* Create Elaniwood Golem Heart (11350) for ContainTreasure */
-     , (11528, 9, 20859,  0, 0, 0.03, False) /* Create Fletching Stamp (20859) for ContainTreasure */;
+     , (11528, 9,     0,  0, 0, 0.985, False) /* Create nothing for ContainTreasure */
+     , (11528, 9, 20859,  0, 0, 0.03, False) /* Create Fletching Stamp (20859) for ContainTreasure */
+     , (11528, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

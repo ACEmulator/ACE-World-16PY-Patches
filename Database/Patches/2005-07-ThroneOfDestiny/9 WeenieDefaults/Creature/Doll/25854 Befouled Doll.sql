@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25854;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25854, 'dollbefouled', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25854, 'dollbefouled', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25854,   1,         16) /* ItemType - Creature */
@@ -72,8 +72,8 @@ VALUES (25854,   1,   33558545) /* Setup */
      , (25854,   8,  100671421) /* Icon */
      , (25854,  19,         87) /* ActivationAnimation */
      , (25854,  22,  872415373) /* PhysicsEffectTable */
-     , (25854,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (25854,  35,        461) /* DeathTreasureType */;
+     , (25854,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (25854,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25854,   1, 190, 0, 0) /* Strength */
@@ -169,7 +169,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25854, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (25854, 9,     0,  0, 0, 0.9925, False) /* Create nothing for ContainTreasure */
+VALUES (25854, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (25854, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (25854, 9, 25893,  0, 0, 0.0075, False) /* Create Doll's Eye (25893) for ContainTreasure */
-     , (25854, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
+     , (25854, 9,     0,  0, 0, 0.9925, False) /* Create nothing for ContainTreasure */;

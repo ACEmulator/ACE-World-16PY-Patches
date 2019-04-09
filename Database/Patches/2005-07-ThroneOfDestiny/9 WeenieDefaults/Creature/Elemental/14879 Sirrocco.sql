@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14879;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14879, 'thermicelementalsirroccoboss', 10, '2019-02-08 15:30:00') /* Creature */;
+VALUES (14879, 'thermicelementalsirroccoboss', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14879,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (14879,   1,   33557589) /* Setup */
      , (14879,   4,  805306368) /* CombatTable */
      , (14879,   8,  100670274) /* Icon */
      , (14879,  22,  872415349) /* PhysicsEffectTable */
-     , (14879,  35,        464) /* DeathTreasureType */;
+     , (14879,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14879,   1, 150, 0, 0) /* Strength */
@@ -130,6 +130,6 @@ VALUES (14879,    74,  2.004)  /* Frost Bolt VI */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14879, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
-     , (14879, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (14879, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (14879, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (14879, 9, 14882,  0, 0, 1, False) /* Create Ring of a Singularity Key (14882) for ContainTreasure */;

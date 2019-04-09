@@ -538,12 +538,13 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Find Fiun Rehlyun on the Halaetan Islands if you need a blank augmentation gem.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44886, 2,    95,  0, 14, 0, False) /* Create Tower Shield (95) for Wield */
-     , (44886, 2,  2588,  0, 14, 0, False) /* Create Shirt (2588) for Wield */
-     , (44886, 2, 21156,  0, 14, 0.2, False) /* Create Covenant Helm (21156) for Wield */
-     , (44886, 2, 27220,  0, 14, 0.2, False) /* Create Lorica Boots (27220) for Wield */
+VALUES (44886, 2, 27220,  0, 14, 0.2, False) /* Create Lorica Boots (27220) for Wield */
      , (44886, 2, 27221,  0, 14, 0.2, False) /* Create Lorica Breastplate (27221) for Wield */
      , (44886, 2, 27222,  0, 14, 0.2, False) /* Create Lorica Gauntlets (27222) for Wield */
-     , (44886, 2, 27224,  0, 14, 0.2, False) /* Create Lorica Leggings (27224) for Wield */
      , (44886, 2, 27225,  0, 14, 0.2, False) /* Create Lorica Sleeves (27225) for Wield */
-     , (44886, 2, 33064,  0, 14, 0, False) /* Create  (33064) for Wield */;
+     , (44886, 2, 27224,  0, 14, 0.2, False) /* Create Lorica Leggings (27224) for Wield */
+     , (44886, 2, 21156,  0, 14, 0.2, False) /* Create Covenant Helm (21156) for Wield */
+     , (44886, 2,  2588,  0, 14, 0, False) /* Create Shirt (2588) for Wield */
+     , (44886, 2,    95,  0, 14, 0, False) /* Create Tower Shield (95) for Wield */
+     , (44886, 2, 33064,  0, 14, 0, False) /* Create Red Rune Silveran Spear (33064) for Wield */;
+

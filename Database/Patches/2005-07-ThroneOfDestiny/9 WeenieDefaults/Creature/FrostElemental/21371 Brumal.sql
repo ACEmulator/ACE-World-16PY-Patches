@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21371;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (21371, 'frostelementalbrumal_nosummon', 10, '2019-02-08 15:00:00') /* Creature */;
+VALUES (21371, 'frostelementalbrumal_nosummon', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21371,   1,         16) /* ItemType - Creature */
@@ -71,7 +71,7 @@ VALUES (21371,   1,   33557487) /* Setup */
      , (21371,   4,  805306368) /* CombatTable */
      , (21371,   8,  100672514) /* Icon */
      , (21371,  22,  872415349) /* PhysicsEffectTable */
-     , (21371,  35,        460) /* DeathTreasureType */;
+     , (21371,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21371,   1, 130, 0, 0) /* Strength */
@@ -125,5 +125,5 @@ VALUES (21371,    73,  2.138)  /* Frost Bolt V */
      , (21371,  1812,  2.004)  /* Frost Streak V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (21371, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (21371, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+VALUES (21371, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (21371, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

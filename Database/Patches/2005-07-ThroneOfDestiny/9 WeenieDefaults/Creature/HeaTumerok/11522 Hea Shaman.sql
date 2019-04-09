@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11522;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11522, 'tumerokheashaman_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11522, 'tumerokheashaman_xp', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11522,   1,         16) /* ItemType - Creature */
@@ -73,8 +73,21 @@ VALUES (11522,   1,   33559550) /* Setup */
      , (11522,   6,   67116625) /* PaletteBase */
      , (11522,   8,  100667452) /* Icon */
      , (11522,  22,  872415270) /* PhysicsEffectTable */
-     , (11522,  32,        203) /* WieldedTreasureType */
-     , (11522,  35,        448) /* DeathTreasureType */;
+     , (11522,  32,        203) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 20%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 40%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Katar (23674) | Probability: 12%
+                                   Wield Cestus (23637) | Probability: 12%
+                                   Wield Nekode (23680) | Probability: 12%
+                                   Wield Tachi (23700) | Probability: 12%
+                                   Wield Spear (23696) | Probability: 12%
+                                   Wield Fire Yaoji (23718) | Probability: 12%
+                                   Wield Yaoji (23710) | Probability: 12%
+                                   Wield Fire Tachi (23707) | Probability: 12%
+                                   Wield Kite Shield (23684) | Probability: 75% */
+     , (11522,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11522,   1, 240, 0, 0) /* Strength */
@@ -137,11 +150,11 @@ VALUES (11522,    62,   2.04)  /* Acid Stream V */
      , (11522,  1222,  2.023)  /* Mana Drain Other IV */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11522, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+VALUES (11522, 9, 11456,  0, 0, 0.04, False) /* Create Totem of Volkama (11456) for ContainTreasure */
      , (11522, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (11522, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (11522, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (11522, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (11522, 9, 11454,  0, 0, 0.04, False) /* Create Totem of Audetaunga (11454) for ContainTreasure */
      , (11522, 9, 11455,  0, 0, 0.04, False) /* Create Totem of Tanae (11455) for ContainTreasure */
-     , (11522, 9, 11456,  0, 0, 0.04, False) /* Create Totem of Volkama (11456) for ContainTreasure */;
+     , (11522, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (11522, 9, 11454,  0, 0, 0.04, False) /* Create Totem of Audetaunga (11454) for ContainTreasure */
+     , (11522, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (11522, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11522, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

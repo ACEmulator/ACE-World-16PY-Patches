@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11496;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11496, 'carenzisentry_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11496, 'carenzisentry_xp', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11496,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (11496,   1,   33557141) /* Setup */
      , (11496,   7,  268436195) /* ClothingBase */
      , (11496,   8,  100671754) /* Icon */
      , (11496,  22,  872415377) /* PhysicsEffectTable */
-     , (11496,  35,        459) /* DeathTreasureType */;
+     , (11496,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11496,   1,  70, 0, 0) /* Strength */
@@ -119,5 +119,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11496, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (11496, 9, 11342,  0, 0, 0.05, False) /* Create Carenzi Sentry Pelt (11342) for ContainTreasure */;
+VALUES (11496, 9, 11342,  0, 0, 0.05, False) /* Create Carenzi Sentry Pelt (11342) for ContainTreasure */
+     , (11496, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

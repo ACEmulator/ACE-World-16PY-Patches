@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11537;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11537, 'dollvirtuous_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11537, 'dollvirtuous_xp', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11537,   1,         16) /* ItemType - Creature */
@@ -73,8 +73,8 @@ VALUES (11537,   1,   33556996) /* Setup */
      , (11537,   8,  100671421) /* Icon */
      , (11537,  19,         87) /* ActivationAnimation */
      , (11537,  22,  872415373) /* PhysicsEffectTable */
-     , (11537,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (11537,  35,        465) /* DeathTreasureType */;
+     , (11537,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (11537,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11537,   1,  50, 0, 0) /* Strength */
@@ -164,5 +164,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11537, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (11537, 9, 12206,  0, 0, 0.05, False) /* Create Doll Mask (12206) for ContainTreasure */;
+VALUES (11537, 9, 12206,  0, 0, 0.05, False) /* Create Doll Mask (12206) for ContainTreasure */
+     , (11537, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

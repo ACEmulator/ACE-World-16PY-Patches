@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11316;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11316, 'tumerokshamantanua_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11316, 'tumerokshamantanua_xp', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11316,   1,         16) /* ItemType - Creature */
@@ -73,8 +73,34 @@ VALUES (11316,   1,   33559553) /* Setup */
      , (11316,   6,   67116625) /* PaletteBase */
      , (11316,   8,  100667452) /* Icon */
      , (11316,  22,  872415270) /* PhysicsEffectTable */
-     , (11316,  32,        373) /* WieldedTreasureType */
-     , (11316,  35,        451) /* DeathTreasureType */;
+     , (11316,  32,        373) /* WieldedTreasureType - 
+                                   Wield 5x Javelin (320) | Probability: 10%
+                                   Wield 5x Djarid (317) | Probability: 10%
+                                   Wield 4x Throwing Club (310) | Probability: 5%
+                                   Wield 6x Throwing Axe (304) | Probability: 5%
+                                   Wield Shortbow (307) | Probability: 3%
+                                   Wield 25x Arrow (300) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 3%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 11%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Balister of the Quiddity (11891) | Probability: 26%
+                                   Wield 20x Quarrel (305) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 6%
+                                   Wield 22x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 4%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 14%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Blade of the Quiddity (11915) | Probability: 25%
+                                   Wield Lance of the Quiddity (11912) | Probability: 25%
+                                   Wield Mace of the Quiddity (11906) | Probability: 25%
+                                   Wield Kaskara (324) | Probability: 3%
+                                   Wield Long Sword (351) | Probability: 3%
+                                   Wield Silifi (344) | Probability: 5%
+                                   Wield Tachi (353) | Probability: 5%
+                                   Wield War Hammer (359) | Probability: 5% */
+     , (11316,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11316,   1, 100, 0, 0) /* Strength */
@@ -143,15 +169,15 @@ VALUES (11316,    59,   2.05)  /* Acid Stream II */
      , (11316,  1221,   2.05)  /* Mana Drain Other III */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11316, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+VALUES (11316, 9, 11320,  0, 0, 1, False) /* Create Vault Key (11320) for ContainTreasure */
      , (11316, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (11316, 9, 11320,  0, 0, 1, False) /* Create Vault Key (11320) for ContainTreasure */
      , (11316, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (11316, 9, 11320,  0, 0, 1, False) /* Create Vault Key (11320) for ContainTreasure */
      , (11316, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (11316, 9, 11320,  0, 0, 1, False) /* Create Vault Key (11320) for ContainTreasure */
      , (11316, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (11316, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (11316, 9, 11320,  0, 0, 1, False) /* Create Vault Key (11320) for ContainTreasure */
+     , (11316, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (11316, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (11316, 9, 11320,  0, 0, 1, False) /* Create Vault Key (11320) for ContainTreasure */
-     , (11316, 9, 11320,  0, 0, 1, False) /* Create Vault Key (11320) for ContainTreasure */
-     , (11316, 9, 11320,  0, 0, 1, False) /* Create Vault Key (11320) for ContainTreasure */
-     , (11316, 9, 11320,  0, 0, 1, False) /* Create Vault Key (11320) for ContainTreasure */
-     , (11316, 9, 11320,  0, 0, 1, False) /* Create Vault Key (11320) for ContainTreasure */;
+     , (11316, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

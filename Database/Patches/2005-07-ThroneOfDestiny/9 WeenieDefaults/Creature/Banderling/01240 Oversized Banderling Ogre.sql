@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1240;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1240, 'banderlingguardglenden', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (1240, 'banderlingguardglenden', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1240,   1,         16) /* ItemType - Creature */
@@ -195,7 +195,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1240, 1,  1247,  1, 0, 1, False) /* Create Key (1247) for Contain */
      , (1240, 1,  1437, 250, 0, 1, False) /* Create Fire Arrow (1437) for Contain */
-     , (1240, 1,  1446,  3, 0, 1, False) /* Create Fire Auroch Meat (1446) for Contain */
      , (1240, 1, 42121,  1, 0, 1, False) /* Create Platemail Hauberk of the Ogre (42121) for Contain */
-     , (1240, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1240, 9,  3693,  0, 0, 0.05, False) /* Create Banderling Scalp (3693) for ContainTreasure */;
+     , (1240, 1,  1446,  3, 0, 1, False) /* Create Fire Auroch Meat (1446) for Contain */
+     , (1240, 9,  3693,  0, 0, 0.05, False) /* Create Banderling Scalp (3693) for ContainTreasure */
+     , (1240, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

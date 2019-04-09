@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8269;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8269, 'hollowminiontumideon', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8269, 'hollowminiontumideon', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8269,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (8269,   1,   33556792) /* Setup */
      , (8269,   7,  268436085) /* ClothingBase */
      , (8269,   8,  100671140) /* Icon */
      , (8269,  22,  872415367) /* PhysicsEffectTable */
-     , (8269,  35,        463) /* DeathTreasureType */;
+     , (8269,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8269,   1, 200, 0, 0) /* Strength */
@@ -123,5 +123,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8269, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (8269, 9,  9292,  0, 0, 0.04, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */;
+VALUES (8269, 9,  9292,  0, 0, 0.04, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (8269, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

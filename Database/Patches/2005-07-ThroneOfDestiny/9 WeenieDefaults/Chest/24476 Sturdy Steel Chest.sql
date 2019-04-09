@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24476;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24476, 'chestgeneralextremelocked', 20, '2019-02-04 06:52:23') /* Chest */;
+VALUES (24476, 'chestgeneralextremelocked', 20, '2019-04-08 04:44:07') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24476,   1,        512) /* ItemType - Container */
@@ -49,10 +49,13 @@ VALUES (24476,   1,   33558394) /* Setup */
      , (24476,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24476, 0.07407407, 32974, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Princely Runed Dart Flinger (32974) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (24476, 0.1851852, 32977, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Princely Runed Arbalest (32977) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+VALUES (24476, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 449 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
+     , (24476, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 449 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
+     , (24476, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 449 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
+     , (24476, 0.07407407, 32974, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Princely Runed Dart Flinger (32974) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (24476, 0.2111111, 32975, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Princely Runed Dolabra (32975) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (24476, 0.2181481, 32976, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Princely Runed War Bow (32976) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (24476, 0.1851852, 32977, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Princely Runed Arbalest (32977) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (24476, 0.2222222, 32979, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Princely Runed Mazule (32979) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (24476, 0.2592593, 32980, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Princely Runed Partizan (32980) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (24476, 0.2962963, 32981, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Princely Runed Bastone (32981) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
@@ -70,7 +73,4 @@ VALUES (24476, 0.07407407, 32974, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
      , (24476, 0.7407407, 33210, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Royal Runed Partizan (33210) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (24476, 0.7777778, 33211, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Royal Runed Bastone (33211) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (24476, 0.8148148, 33212, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Royal Runed Flamberge (33212) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (24476, 0.8518519, 33213, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Royal Runed Knuckles (33213) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (24476, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate UNKNOWN RANDOMLY GENERATED TREASURE (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
-     , (24476, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate UNKNOWN RANDOMLY GENERATED TREASURE (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
-     , (24476, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate UNKNOWN RANDOMLY GENERATED TREASURE (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
+     , (24476, 0.8518519, 33213, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Royal Runed Knuckles (33213) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

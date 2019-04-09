@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30891;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30891, 'drudgebossuber0205', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30891, 'drudgebossuber0205', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30891,   1,         16) /* ItemType - Creature */
@@ -73,8 +73,12 @@ VALUES (30891,   1,   33556445) /* Setup */
      , (30891,   7,  268436614) /* ClothingBase */
      , (30891,   8,  100667445) /* Icon */
      , (30891,  22,  872415258) /* PhysicsEffectTable */
-     , (30891,  32,        423) /* WieldedTreasureType */
-     , (30891,  35,        449) /* DeathTreasureType */;
+     , (30891,  32,        423) /* WieldedTreasureType - 
+                                   Wield 25x Frost Throwing Club (23130) | Probability: 20%
+                                   Wield 25x Fire Throwing Club (23129) | Probability: 20%
+                                   Wield Flaming Club (23127) | Probability: 25%
+                                   Wield Frost Club (23128) | Probability: 25% */
+     , (30891,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30891,   1, 480, 0, 0) /* Strength */
@@ -202,12 +206,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30891, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (30891, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (30891, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (30891, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
-     , (30891, 9,  3669,  0, 0, 0.03, False) /* Create Drudge Charm (3669) for ContainTreasure */
+VALUES (30891, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (30891, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (30891, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
-     , (30891, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (30891, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (30891, 9,  3669,  0, 0, 0.03, False) /* Create Drudge Charm (3669) for ContainTreasure */
+     , (30891, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (30891, 9, 30871,  0, 0, 1, False) /* Create Mace of the Fallen (30871) for ContainTreasure */
      , (30891, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
-     , (30891, 9, 30871,  0, 0, 1, False) /* Create Mace of the Fallen (30871) for ContainTreasure */;
+     , (30891, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */;

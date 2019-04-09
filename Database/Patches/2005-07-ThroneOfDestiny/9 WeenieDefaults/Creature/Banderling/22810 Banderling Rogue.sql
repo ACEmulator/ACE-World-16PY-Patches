@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22810;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22810, 'banderlingrogue', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (22810, 'banderlingrogue', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22810,   1,         16) /* ItemType - Creature */
@@ -73,8 +73,12 @@ VALUES (22810,   1,   33558024) /* Setup */
      , (22810,   7,  268436496) /* ClothingBase */
      , (22810,   8,  100667453) /* Icon */
      , (22810,  22,  872415255) /* PhysicsEffectTable */
-     , (22810,  32,        300) /* WieldedTreasureType */
-     , (22810,  35,        451) /* DeathTreasureType */;
+     , (22810,  32,        300) /* WieldedTreasureType - 
+                                   Wield Club (23647) | Probability: 20%
+                                   Wield 15x Frost Throwing Club (23662) | Probability: 20%
+                                   Wield 15x Throwing Club (23654) | Probability: 20%
+                                   Wield Club (23650) | Probability: 20% */
+     , (22810,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22810,   1, 190, 0, 0) /* Strength */
@@ -174,5 +178,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22810, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (22810, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;
+VALUES (22810, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (22810, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

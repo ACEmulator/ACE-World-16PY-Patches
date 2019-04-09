@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25851;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25851, 'carenzimottled', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (25851, 'carenzimottled', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25851,   1,         16) /* ItemType - Creature */
@@ -33,7 +33,7 @@ VALUES (25851,   1,       5) /* HeartbeatInterval */
      , (25851,   3,       2) /* HealthRate */
      , (25851,   4,       5) /* StaminaRate */
      , (25851,   5,       2) /* ManaRate */
-     , (25851,  12,       0) /* Shade */
+     , (25851,  12,     0.5) /* Shade */
      , (25851,  13,       1) /* ArmorModVsSlash */
      , (25851,  14, 1.20000004768372) /* ArmorModVsPierce */
      , (25851,  15,       1) /* ArmorModVsBludgeon */
@@ -69,7 +69,7 @@ VALUES (25851,   1,   33557141) /* Setup */
      , (25851,   3,  536871035) /* SoundTable */
      , (25851,   4,  805306375) /* CombatTable */
      , (25851,   6,   67114722) /* PaletteBase */
-     , (25851,   7,  268436195) /* ClothingBase */
+     , (25851,   7,  268436732) /* ClothingBase */
      , (25851,   8,  100671754) /* Icon */
      , (25851,  22,  872415377) /* PhysicsEffectTable */
      , (25851,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
@@ -108,7 +108,7 @@ VALUES (25851,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'MottledCarenziKills@#kt', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'mottledcarenzikillcount@#kt', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25851,  5 /* HeartBeat */,  0.025, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
@@ -127,5 +127,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25851, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (25851, 9, 30823,  0, 0, 0.01, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
+VALUES (25851, 9, 30823,  0, 0, 0.01, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (25851, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

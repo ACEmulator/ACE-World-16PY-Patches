@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24278;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24278, 'drudgecabalist', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (24278, 'drudgecabalist', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24278,   1,         16) /* ItemType - Creature */
@@ -78,8 +78,11 @@ VALUES (24278,   1,   33556445) /* Setup */
      , (24278,   7,  268436614) /* ClothingBase */
      , (24278,   8,  100667445) /* Icon */
      , (24278,  22,  872415258) /* PhysicsEffectTable */
-     , (24278,  32,        297) /* WieldedTreasureType */
-     , (24278,  35,        449) /* DeathTreasureType */;
+     , (24278,  32,        297) /* WieldedTreasureType - 
+                                   Wield Tachi (23699) | Probability: 33%
+                                   Wield Yaoji (23709) | Probability: 33%
+                                   Wield Acid Yari (23721) | Probability: 34% */
+     , (24278,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24278,   1, 220, 0, 0) /* Strength */
@@ -207,9 +210,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24278, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+VALUES (24278, 9, 24477,  0, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (24278, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (24278, 9, 24836,  0, 0, 0.03, False) /* Create Cabalist Drudge Charm (24836) for ContainTreasure */
      , (24278, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (24278, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (24278, 9,  8145,  0, 0, 0.05, False) /* Create Drudge Head (8145) for ContainTreasure */
-     , (24278, 9, 24477,  0, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (24278, 9, 24836,  0, 0, 0.03, False) /* Create Cabalist Drudge Charm (24836) for ContainTreasure */;
+     , (24278, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24029;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24029, 'mitequeen', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (24029, 'mitequeen', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24029,   1,         16) /* ItemType - Creature */
@@ -71,7 +71,7 @@ VALUES (24029,   1,   33558658) /* Setup */
      , (24029,   7,  268436816) /* ClothingBase */
      , (24029,   8,  100667448) /* Icon */
      , (24029,  22,  872415263) /* PhysicsEffectTable */
-     , (24029,  35,        456) /* DeathTreasureType */;
+     , (24029,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24029,   1, 180, 0, 0) /* Strength */
@@ -109,5 +109,5 @@ VALUES (24029,  0,  4,  0,    0,   45,   27,   18,   18,   27,   23,   23,   18,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24029, 1,  8211, 250, 0, 0, False) /* Create Discus (8211) for Contain */
-     , (24029, 1, 24033, 1, 0, 0, False) /* Create Mite Queen's Staff (24033) for Contain */
-     , (24029, 1, 24126, 1, 0, 0, False) /* Create A Crumpled Letter (24126) for Contain */;
+     , (24029, 1, 24033,   1, 0, 0, False) /* Create Mite Queen's Staff (24033) for Contain */
+     , (24029, 1, 24126,   1, 0, 0, False) /* Create A Crumpled Letter (24126) for Contain */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11994;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11994, 'golemmidbossmonster', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11994, 'golemmidbossmonster', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11994,   1,         16) /* ItemType - Creature */
@@ -78,7 +78,7 @@ VALUES (11994,   1,   33556440) /* Setup */
      , (11994,   7,  268436255) /* ClothingBase */
      , (11994,   8,  100667940) /* Icon */
      , (11994,  22,  872415327) /* PhysicsEffectTable */
-     , (11994,  35,         21) /* DeathTreasureType */;
+     , (11994,  35,         21) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11994,   1, 220, 0, 0) /* Strength */
@@ -156,16 +156,16 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11994, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (11994, 9,     0,  0, 0, 0.6, False) /* Create nothing for ContainTreasure */
-     , (11994, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (11994, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (11994, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (11994, 9,  3692,  0, 0, 0.03, False) /* Create Black Stone (3692) for ContainTreasure */
+VALUES (11994, 9,  3692,  0, 0, 0.03, False) /* Create Black Stone (3692) for ContainTreasure */
+     , (11994, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (11994, 9,  6354,  0, 0, 0.4, False) /* Create Pyreal Nugget (6354) for ContainTreasure */
+     , (11994, 9,     0,  0, 0, 0.6, False) /* Create nothing for ContainTreasure */
      , (11994, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11994, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (11994, 9,  9324,  0, 0, 0.3, False) /* Create Obsidian Heart (9324) for ContainTreasure */
-     , (11994, 9, 23538,  0, 0, 0.3, False) /* Create Basalt Blade (23538) for ContainTreasure */;
+     , (11994, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
+     , (11994, 9, 23538,  0, 0, 0.3, False) /* Create Basalt Blade (23538) for ContainTreasure */
+     , (11994, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11994, 0.25, 201, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Obsidian Golem (201) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1521;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1521, 'drudgecolier', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (1521, 'drudgecolier', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1521,   1,         16) /* ItemType - Creature */
@@ -74,8 +74,24 @@ VALUES (1521,   1,   33556445) /* Setup */
      , (1521,   7,  268435972) /* ClothingBase */
      , (1521,   8,  100667445) /* Icon */
      , (1521,  22,  872415258) /* PhysicsEffectTable */
-     , (1521,  32,         74) /* WieldedTreasureType */
-     , (1521,  35,         77) /* DeathTreasureType */;
+     , (1521,  32,         74) /* WieldedTreasureType - 
+                                   Wield Club (309) | Probability: 5%
+                                   Wield Dabus (313) | Probability: 10%
+                                   Wield Dagger (314) | Probability: 5%
+                                   Wield Kasrullah (325) | Probability: 5%
+                                   Wield Khanjar (328) | Probability: 5%
+                                   Wield Mace (331) | Probability: 10%
+                                   Wield Short Sword (352) | Probability: 10%
+                                   Wield Simi (345) | Probability: 10%
+                                   Wield Tofun (356) | Probability: 10%
+                                   Wield Yaoji (361) | Probability: 10%
+                                   Wield Drudge Board with Nail (7767) | Probability: 15%
+                                   Wield 10x Shouken (343) | Probability: 4%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5%
+                                   Wield 4x Javelin (320) | Probability: 2%
+                                   Wield Djarid (317) | Probability: 1%
+                                   Wield 4x Throwing Club (310) | Probability: 1% */
+     , (1521,  35,         77) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1521,   1,  30, 0, 0) /* Strength */
@@ -150,5 +166,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1521, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (1521, 9,  1531,  0, 0, 1, False) /* Create Cell Key (1531) for ContainTreasure */;
+VALUES (1521, 9,  1531,  0, 0, 1, False) /* Create Cell Key (1531) for ContainTreasure */
+     , (1521, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

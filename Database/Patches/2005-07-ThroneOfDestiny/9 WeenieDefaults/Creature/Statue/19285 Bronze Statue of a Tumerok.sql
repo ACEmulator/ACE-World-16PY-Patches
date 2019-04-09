@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19285;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19285, 'statuereplicahightumeroksmall', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (19285, 'statuereplicahightumeroksmall', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19285,   1,         16) /* ItemType - Creature */
@@ -35,7 +35,6 @@ VALUES (19285,   1,       5) /* HeartbeatInterval */
      , (19285,   3, 0.800000011920929) /* HealthRate */
      , (19285,   4,     0.5) /* StaminaRate */
      , (19285,   5,       2) /* ManaRate */
-     , (19285,  12,       0) /* Shade */
      , (19285,  13, 0.300000011920929) /* ArmorModVsSlash */
      , (19285,  14, 0.300000011920929) /* ArmorModVsPierce */
      , (19285,  15,     0.5) /* ArmorModVsBludgeon */
@@ -72,7 +71,7 @@ VALUES (19285,   1,   33559553) /* Setup */
      , (19285,   3,  536871052) /* SoundTable */
      , (19285,   4,  805306380) /* CombatTable */
      , (19285,   6,   67116625) /* PaletteBase */
-     , (19285,   7,  268437022) /* ClothingBase */
+     , (19285,   7,  268437016) /* ClothingBase */
      , (19285,   8,  100667452) /* Icon */
      , (19285,  22,  872415349) /* PhysicsEffectTable */
      , (19285,  32,        400) /* WieldedTreasureType - 
@@ -171,5 +170,5 @@ VALUES (19285,    62,  2.015)  /* Acid Stream V */
      , (19285,  1401,  2.011)  /* Quickness Self V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19285, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (19285, 9, 19255,  0, 0, 0.05, False) /* Create Bronze Spring from a Statue (19255) for ContainTreasure */;
+VALUES (19285, 9, 19255,  0, 0, 0.05, False) /* Create Bronze Spring from a Statue (19255) for ContainTreasure */
+     , (19285, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

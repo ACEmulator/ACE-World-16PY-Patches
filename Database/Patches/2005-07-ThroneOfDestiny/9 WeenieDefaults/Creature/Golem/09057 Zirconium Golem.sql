@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9057;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9057, 'golemzirconium', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (9057, 'golemzirconium', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9057,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (9057,   1,   33556439) /* Setup */
      , (9057,   7,  268435983) /* ClothingBase */
      , (9057,   8,  100667940) /* Icon */
      , (9057,  22,  872415326) /* PhysicsEffectTable */
-     , (9057,  35,        465) /* DeathTreasureType */;
+     , (9057,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9057,   1,  80, 0, 0) /* Strength */
@@ -136,5 +136,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9057, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (9057, 9,  6353,  0, 0, 0.005, False) /* Create Pyreal Mote (6353) for ContainTreasure */;
+VALUES (9057, 9,  6353,  0, 0, 0.005, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (9057, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

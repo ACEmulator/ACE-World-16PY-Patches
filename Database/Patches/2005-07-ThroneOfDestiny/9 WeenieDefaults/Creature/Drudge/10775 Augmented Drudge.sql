@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10775;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10775, 'drudgeaugmentedsummoned', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (10775, 'drudgeaugmentedsummoned', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10775,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,12 @@ VALUES (10775,   1,   33556445) /* Setup */
      , (10775,   7,  268435977) /* ClothingBase */
      , (10775,   8,  100667445) /* Icon */
      , (10775,  22,  872415258) /* PhysicsEffectTable */
-     , (10775,  32,        274) /* WieldedTreasureType */
-     , (10775,  35,        450) /* DeathTreasureType */;
+     , (10775,  32,        274) /* WieldedTreasureType - 
+                                   Wield Fire Tachi (23708) | Probability: 25%
+                                   Wield Tachi (23702) | Probability: 25%
+                                   Wield Fire Yaoji (23720) | Probability: 25%
+                                   Wield Yaoji (23712) | Probability: 25% */
+     , (10775,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10775,   1, 190, 0, 0) /* Strength */
@@ -228,7 +232,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The air becomes heavy with ozone, and another creature spawns from the rift!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10775, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (10775, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (10775, 9, 45875,  1, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (10775, 9, 45876,  1, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+VALUES (10775, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (10775, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (10775, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (10775, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

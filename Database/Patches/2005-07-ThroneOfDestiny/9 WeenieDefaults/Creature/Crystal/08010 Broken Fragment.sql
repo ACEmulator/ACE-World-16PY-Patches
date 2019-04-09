@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8010;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8010, 'crystalbrokenfragmentneclass', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8010, 'crystalbrokenfragmentnew', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8010,   1,         16) /* ItemType - Creature */
@@ -77,7 +77,7 @@ VALUES (8010,   1,   33556731) /* Setup */
      , (8010,   7,  268435859) /* ClothingBase */
      , (8010,   8,  100670283) /* Icon */
      , (8010,  22,  872415348) /* PhysicsEffectTable */
-     , (8010,  35,        465) /* DeathTreasureType */;
+     , (8010,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8010,   1,  40, 0, 0) /* Strength */
@@ -129,7 +129,7 @@ VALUES (8010,     6,   2.04)  /* Heal Self I */
      , (8010,  1415,  2.044)  /* Slowness Other I */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8010, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+VALUES (8010, 9,  6055,  0, 0, 0.02, False) /* Create Cracked Shard (6055) for ContainTreasure */
      , (8010, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (8010, 9,  6055,  0, 0, 0.02, False) /* Create Cracked Shard (6055) for ContainTreasure */
-     , (8010, 9, 20860,  0, 0, 0.02, False) /* Create Herald Stamp (20860) for ContainTreasure */;
+     , (8010, 9, 20860,  0, 0, 0.02, False) /* Create Herald Stamp (20860) for ContainTreasure */
+     , (8010, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

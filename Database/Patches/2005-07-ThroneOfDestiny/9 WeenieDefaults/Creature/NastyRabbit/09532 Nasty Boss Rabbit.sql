@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9532;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9532, 'rabbitgardengreenboss', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (9532, 'rabbitgardengreenboss', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9532,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (9532,   1,   33555579) /* Setup */
      , (9532,   7,  268435725) /* ClothingBase */
      , (9532,   8,  100669116) /* Icon */
      , (9532,  22,  872415277) /* PhysicsEffectTable */
-     , (9532,  35,        156) /* DeathTreasureType */;
+     , (9532,  35,        156) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9532,   1, 200, 0, 0) /* Strength */
@@ -118,6 +118,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9532, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (9532, 9,  9539,  0, 0, 0.05, False) /* Create Green Marshmallow Eep (9539) for ContainTreasure */
+VALUES (9532, 9,  9539,  0, 0, 0.05, False) /* Create Green Marshmallow Eep (9539) for ContainTreasure */
+     , (9532, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (9532, 9, 25995,  0, 8, 1, False) /* Create Lucky Rabbit's Foot (25995) for ContainTreasure */;

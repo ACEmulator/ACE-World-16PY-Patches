@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29349;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29349, 'lugiankroktok', 10, '2019-02-19 06:52:23') /* Creature */;
+VALUES (29349, 'lugiankroktok', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29349,   1,         16) /* ItemType - Creature */
@@ -30,7 +30,8 @@ VALUES (29349,   1, True ) /* Stuck */
      , (29349,  13, False) /* Ethereal */
      , (29349,  14, True ) /* GravityStatus */
      , (29349,  19, True ) /* Attackable */
-     , (29349, 101, True ) /* CanGenerateRare */;
+     , (29349, 101, True ) /* CanGenerateRare */
+     , (29349, 102, True ) /* CorpseGeneratedRare */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29349,   1,       5) /* HeartbeatInterval */
@@ -77,8 +78,12 @@ VALUES (29349,   1,   33557003) /* Setup */
      , (29349,   7,  268436158) /* ClothingBase */
      , (29349,   8,  100667447) /* Icon */
      , (29349,  22,  872415262) /* PhysicsEffectTable */
-     , (29349,  32,        110) /* WieldedTreasureType */
-     , (29349,  35,        452) /* DeathTreasureType */;
+     , (29349,  32,        110) /* WieldedTreasureType - 
+                                   Wield Lugian Axe (23741) | Probability: 40%
+                                   Wield Lugian Mace (23759) | Probability: 20%
+                                   Wield Lugian Hammer (23755) | Probability: 15%
+                                   Wield Lugian Morning Star (23767) | Probability: 20% */
+     , (29349,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29349,   1, 340, 0, 0) /* Strength */
@@ -261,5 +266,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Do you wish to incite a war between our people? I must teach you a lesson for your own good.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29349, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (29349, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+VALUES (29349, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (29349, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

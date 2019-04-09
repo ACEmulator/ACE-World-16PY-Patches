@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24292;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24292, 'monougapugnacious', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (24292, 'monougapugnacious', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24292,   1,         16) /* ItemType - Creature */
@@ -75,8 +75,10 @@ VALUES (24292,   1,   33555199) /* Setup */
      , (24292,   7,  268436619) /* ClothingBase */
      , (24292,   8,  100669117) /* Icon */
      , (24292,  22,  872415257) /* PhysicsEffectTable */
-     , (24292,  32,        271) /* WieldedTreasureType */
-     , (24292,  35,        448) /* DeathTreasureType */;
+     , (24292,  32,        271) /* WieldedTreasureType - 
+                                   Wield Club (23646) | Probability: 30%
+                                   Wield Club (23649) | Probability: 30% */
+     , (24292,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24292,   1, 250, 0, 0) /* Strength */
@@ -149,5 +151,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24292, 9,     0,  0, 0, 0.91, False) /* Create nothing for ContainTreasure */
-     , (24292, 9, 12253,  0, 0, 0.09, False) /* Create Monougat (12253) for ContainTreasure */;
+VALUES (24292, 9, 12253,  0, 0, 0.09, False) /* Create Monougat (12253) for ContainTreasure */
+     , (24292, 9,     0,  0, 0, 0.91, False) /* Create nothing for ContainTreasure */;

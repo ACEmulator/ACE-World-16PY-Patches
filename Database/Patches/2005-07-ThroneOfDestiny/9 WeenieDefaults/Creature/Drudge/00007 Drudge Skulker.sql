@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7, 'drudgeskulker', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7, 'drudgeskulker', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7,   1,         16) /* ItemType - Creature */
@@ -73,8 +73,13 @@ VALUES (7,   1,   33556445) /* Setup */
      , (7,   7,  268435974) /* ClothingBase */
      , (7,   8,  100667445) /* Icon */
      , (7,  22,  872415258) /* PhysicsEffectTable */
-     , (7,  32,         80) /* WieldedTreasureType */
-     , (7,  35,        453) /* DeathTreasureType */;
+     , (7,  32,         80) /* WieldedTreasureType - 
+                                   Wield Jambiya (319) | Probability: 16%
+                                   Wield Knife (329) | Probability: 17%
+                                   Wield 10x Throwing Dart (316) | Probability: 5%
+                                   Wield 10x Shouken (343) | Probability: 4%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5% */
+     , (7,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7,   1,  70, 0, 0) /* Strength */
@@ -186,9 +191,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (7, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (7, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7, 9,  3669,  0, 0, 0.02, False) /* Create Drudge Charm (3669) for ContainTreasure */
+VALUES (7, 9,  3669,  0, 0, 0.02, False) /* Create Drudge Charm (3669) for ContainTreasure */
+     , (7, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (7, 9, 13222,  0, 0, 0.1, False) /* Create Peppermint Stick (13222) for ContainTreasure */
-     , (7, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */;
+     , (7, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (7, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */
+     , (7, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

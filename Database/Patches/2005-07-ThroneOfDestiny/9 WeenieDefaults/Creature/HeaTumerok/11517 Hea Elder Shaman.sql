@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11517;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11517, 'tumerokheaeldershaman_xp', 10, '2019-02-19 15:09:35') /* Creature */;
+VALUES (11517, 'tumerokheaeldershaman_xp', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11517,   1,         16) /* ItemType - Creature */
@@ -101,7 +101,7 @@ VALUES (11517,   1,   33559553) /* Setup */
                                    Wield Yaoji (23709) | Probability: 12%
                                    Wield Fire Tachi (23706) | Probability: 12%
                                    Wield Kite Shield (23683) | Probability: 75% */
-     , (11517,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
+     , (11517,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11517,   1, 250, 0, 0) /* Strength */
@@ -186,5 +186,5 @@ VALUES (11517,    62,  2.015)  /* Acid Stream V */
      , (11517,  1401,  2.011)  /* Quickness Self V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11517, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (11517, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+VALUES (11517, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11517, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

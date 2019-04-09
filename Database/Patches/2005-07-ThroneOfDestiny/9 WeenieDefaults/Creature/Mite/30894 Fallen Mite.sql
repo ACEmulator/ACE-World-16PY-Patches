@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30894;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30894, 'mitebossuber0205', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30894, 'mitebossuber0205', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30894,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (30894,   1,   33558656) /* Setup */
      , (30894,   7,  268436816) /* ClothingBase */
      , (30894,   8,  100667448) /* Icon */
      , (30894,  22,  872415263) /* PhysicsEffectTable */
-     , (30894,  35,         26) /* DeathTreasureType */;
+     , (30894,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30894,   1, 420, 0, 0) /* Strength */
@@ -109,6 +109,6 @@ VALUES (30894,  0,  4,  0,    0,  500,  325,  375,  375,  500,  500,  500,  500,
      , (30894,  8,  4, 150, 0.75,  500,  325,  375,  375,  500,  500,  500,  500,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30894, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
-     , (30894, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
+VALUES (30894, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
+     , (30894, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
      , (30894, 9, 30869,  0, 0, 1, False) /* Create Dirk of the Fallen (30869) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19312;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19312, 'statuereplicamidthorstensmall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (19312, 'statuereplicamidthorstensmall', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19312,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,10 @@ VALUES (19312,   1,   33554433) /* Setup */
      , (19312,   7,  268436347) /* ClothingBase */
      , (19312,   8,  100667446) /* Icon */
      , (19312,  22,  872415349) /* PhysicsEffectTable */
-     , (19312,  32,        403) /* WieldedTreasureType */
-     , (19312,  35,        451) /* DeathTreasureType */;
+     , (19312,  32,        403) /* WieldedTreasureType - 
+                                   Wield Cragstone's Axe (15389) | Probability: 100%
+                                   Wield Cragstone's Shield (15402) | Probability: 100% */
+     , (19312,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19312,   1, 230, 0, 0) /* Strength */
@@ -119,5 +121,5 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19312,  1159,      2)  /* Heal Self IV */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19312, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (19312, 9, 19213,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19213) for ContainTreasure */;
+VALUES (19312, 9, 19213,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19213) for ContainTreasure */
+     , (19312, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

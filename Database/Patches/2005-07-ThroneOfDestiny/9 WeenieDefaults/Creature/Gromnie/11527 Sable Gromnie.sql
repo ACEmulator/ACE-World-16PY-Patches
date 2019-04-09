@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11527;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11527, 'gromniesable_xp', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (11527, 'gromniesable_xp', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11527,   1,         16) /* ItemType - Creature */
      , (11527,   2,         15) /* CreatureType - Gromnie */
-     , (11527,   3,         13) /* PaletteTemplate - Purple */
+     , (11527,   3,          7) /* PaletteTemplate - DeepGreen */
      , (11527,   6,         -1) /* ItemsCapacity */
      , (11527,   7,         -1) /* ContainersCapacity */
      , (11527,  16,          1) /* ItemUseable - No */
@@ -73,7 +73,7 @@ VALUES (11527,   1,   33554487) /* Setup */
      , (11527,   8,  100667938) /* Icon */
      , (11527,  19,         87) /* ActivationAnimation */
      , (11527,  22,  872415260) /* PhysicsEffectTable */
-     , (11527,  30,         86) /* PhysicsScript - BreatheAcid */
+     , (11527,  30,         87) /* PhysicsScript - BreatheLightning */
      , (11527,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -144,9 +144,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11527, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (11527, 9, 28210,  0, 0, 0.05, False) /* Create Sable Gromnie Tooth (28210) for ContainTreasure */
      , (11527, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (11527, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (11527, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (11527, 9, 28204,  0, 0, 0.05, False) /* Create Sturdy Gromnie Hide (28204) for ContainTreasure */
-     , (11527, 9, 28210,  0, 0, 0.05, False) /* Create Sable Gromnie Tooth (28210) for ContainTreasure */;
+     , (11527, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (11527, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11527, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

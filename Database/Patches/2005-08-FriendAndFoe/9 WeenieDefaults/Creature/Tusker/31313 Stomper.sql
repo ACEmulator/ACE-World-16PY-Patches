@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31313;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31313, 'ace31313-stomper', 10, '2019-03-27 07:14:36') /* Creature */;
+VALUES (31313, 'ace31313-stomper', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31313,   1,         16) /* ItemType - Creature */
@@ -173,9 +173,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31313, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+VALUES (31313, 9, 11692,  0, 0, 0.01, False) /* Create Little Green Seeds (11692) for ContainTreasure */
      , (31313, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (31313, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (31313, 9, 11692,  0, 0, 0.01, False) /* Create Little Green Seeds (11692) for ContainTreasure */
      , (31313, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
-     , (31313, 9, 29204,  0, 0, 0.01, False) /* Create Tusker Spit (29204) for ContainTreasure */;
+     , (31313, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (31313, 9, 29204,  0, 0, 0.01, False) /* Create Tusker Spit (29204) for ContainTreasure */
+     , (31313, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

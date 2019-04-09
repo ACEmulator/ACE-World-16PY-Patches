@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27282;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27282, 'margulyaruldi', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (27282, 'margulyaruldi', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27282,   1,         16) /* ItemType - Creature */
@@ -81,7 +81,7 @@ VALUES (27282,   1,   33558554) /* Setup */
      , (27282,  19,         85) /* ActivationAnimation */
      , (27282,  22,  872415401) /* PhysicsEffectTable */
      , (27282,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (27282,  35,         20) /* DeathTreasureType */;
+     , (27282,  35,         20) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27282,   1, 420, 0, 0) /* Strength */
@@ -179,7 +179,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27282, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (27282, 9, 27297,  0, 0, 1, False) /* Create Key to Yaruldi's Hoard (27297) for ContainTreasure */
      , (27282, 9, 27297,  0, 0, 1, False) /* Create Key to Yaruldi's Hoard (27297) for ContainTreasure */
      , (27282, 9, 27297,  0, 0, 1, False) /* Create Key to Yaruldi's Hoard (27297) for ContainTreasure */
      , (27282, 9, 27297,  0, 0, 1, False) /* Create Key to Yaruldi's Hoard (27297) for ContainTreasure */
@@ -189,5 +189,5 @@ VALUES (27282, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasu
      , (27282, 9, 27297,  0, 0, 1, False) /* Create Key to Yaruldi's Hoard (27297) for ContainTreasure */
      , (27282, 9, 27297,  0, 0, 1, False) /* Create Key to Yaruldi's Hoard (27297) for ContainTreasure */
      , (27282, 9, 27297,  0, 0, 1, False) /* Create Key to Yaruldi's Hoard (27297) for ContainTreasure */
-     , (27282, 9, 27297,  0, 0, 1, False) /* Create Key to Yaruldi's Hoard (27297) for ContainTreasure */
-     , (27282, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
+     , (27282, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (27282, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

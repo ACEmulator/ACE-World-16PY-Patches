@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14466;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14466, 'snowman2heads', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (14466, 'snowman2heads', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14466,   1,         16) /* ItemType - Creature */
@@ -75,7 +75,7 @@ VALUES (14466,   1,   33557482) /* Setup */
      , (14466,   4,  805306406) /* CombatTable */
      , (14466,   8,  100669125) /* Icon */
      , (14466,  22,  872415346) /* PhysicsEffectTable */
-     , (14466,  35,        465) /* DeathTreasureType */;
+     , (14466,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14466,   1,  70, 0, 0) /* Strength */
@@ -307,7 +307,7 @@ VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'That was pretty good, you al
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14466, 1,  5758,  2, 0, 0, False) /* Create Carrot (5758) for Contain */
-     , (14466, 1,  5768,  2, 0, 0, False) /* Create Poofy Snowball (5768) for Contain */
      , (14466, 1,  7835,  2, 0, 0, False) /* Create Magic Iceball (7835) for Contain */
+     , (14466, 1,  5768,  2, 0, 0, False) /* Create Poofy Snowball (5768) for Contain */
      , (14466, 1, 22825,  1, 0, 0, False) /* Create A Lump of Coal (22825) for Contain */
      , (14466, 2,  5769, 12, 0, 0, False) /* Create Iceball (5769) for Wield */;

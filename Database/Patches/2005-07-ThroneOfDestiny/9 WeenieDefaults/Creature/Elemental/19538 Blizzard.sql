@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19538;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19538, 'eluvicelementalblizzard', 10, '2019-02-08 15:30:00') /* Creature */;
+VALUES (19538, 'eluvicelementalblizzard', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19538,   1,         16) /* ItemType - Creature */
@@ -27,8 +27,8 @@ VALUES (19538,   1, True ) /* Stuck */
      , (19538,  14, True ) /* GravityStatus */
      , (19538,  15, True ) /* LightsStatus */
      , (19538,  19, True ) /* Attackable */
-     , (19538, 120, True ) /* TreasureCorpse */
-     , (19538,  50, True ) /* NeverFailCasting */;
+     , (19538,  50, True ) /* NeverFailCasting */
+     , (19538, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19538,   1,       5) /* HeartbeatInterval */
@@ -72,7 +72,7 @@ VALUES (19538,   1,   33557675) /* Setup */
      , (19538,   4,  805306368) /* CombatTable */
      , (19538,   8,  100670581) /* Icon */
      , (19538,  22,  872415349) /* PhysicsEffectTable */
-     , (19538,  35,        464) /* DeathTreasureType */;
+     , (19538,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19538,   1, 150, 0, 0) /* Strength */
@@ -129,5 +129,5 @@ VALUES (19538,    80,  2.004)  /* Lightning Bolt VI */
      , (19538,  2136,  2.004)  /* Icy Torment */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19538, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (19538, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;
+VALUES (19538, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (19538, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

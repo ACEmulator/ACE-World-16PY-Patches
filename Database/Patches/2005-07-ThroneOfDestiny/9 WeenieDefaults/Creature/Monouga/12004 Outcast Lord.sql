@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12004;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12004, 'monougabossmonster', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (12004, 'monougabossmonster', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12004,   1,         16) /* ItemType - Creature */
@@ -79,8 +79,15 @@ VALUES (12004,   1,   33555199) /* Setup */
      , (12004,   7,  268435726) /* ClothingBase */
      , (12004,   8,  100669117) /* Icon */
      , (12004,  22,  872415257) /* PhysicsEffectTable */
-     , (12004,  32,        118) /* WieldedTreasureType */
-     , (12004,  35,         24) /* DeathTreasureType */;
+     , (12004,  32,        118) /* WieldedTreasureType - 
+                                   Wield Club (3943) | Probability: 20%
+                                   Wield Dabus (3944) | Probability: 10%
+                                   Wield Kasrullah (3945) | Probability: 10%
+                                   Wield Mace (3947) | Probability: 10%
+                                   Wield Morning Star (3948) | Probability: 20%
+                                   Wield Tofun (3946) | Probability: 10%
+                                   Wield 10x Throwing Club (310) | Probability: 20% */
+     , (12004,  35,         24) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12004,   1,  70, 0, 0) /* Strength */

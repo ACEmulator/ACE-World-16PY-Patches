@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7095;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7095, 'lightningelementalscathisa', 10, '2019-02-08 15:30:00') /* Creature */;
+VALUES (7095, 'lightningelementalscathisa', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7095,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (7095,   1,   33556140) /* Setup */
      , (7095,   4,  805306368) /* CombatTable */
      , (7095,   8,  100670581) /* Icon */
      , (7095,  22,  872415349) /* PhysicsEffectTable */
-     , (7095,  35,        464) /* DeathTreasureType */;
+     , (7095,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7095,   1, 130, 0, 0) /* Strength */
@@ -127,5 +127,5 @@ VALUES (7095,    80,  2.004)  /* Lightning Bolt VI */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7095, 2,  6383,  3, 0, 0, False) /* Create Ball of Electricity (6383) for Wield */
-     , (7095, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (7095, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (7095, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7095, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

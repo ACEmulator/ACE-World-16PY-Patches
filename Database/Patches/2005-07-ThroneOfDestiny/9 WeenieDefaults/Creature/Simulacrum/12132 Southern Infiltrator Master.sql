@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12132;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12132, 'simulacrummastersouth', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (12132, 'simulacrummastersouth', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12132,   1,         16) /* ItemType - Creature */
@@ -82,8 +82,34 @@ VALUES (12132,   1,   33554510) /* Setup */
      , (12132,  16,   67109567) /* EyesPalette */
      , (12132,  17,   67109558) /* SkinPalette */
      , (12132,  22,  872415381) /* PhysicsEffectTable */
-     , (12132,  32,        372) /* WieldedTreasureType */
-     , (12132,  35,        391) /* DeathTreasureType */;
+     , (12132,  32,        372) /* WieldedTreasureType - 
+                                   Wield 5x Javelin (320) | Probability: 10%
+                                   Wield 5x Djarid (317) | Probability: 10%
+                                   Wield 4x Throwing Club (310) | Probability: 5%
+                                   Wield 6x Throwing Axe (304) | Probability: 5%
+                                   Wield Shortbow (307) | Probability: 3%
+                                   Wield 25x Arrow (300) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 3%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 11%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Balister of the Quiddity (11892) | Probability: 26%
+                                   Wield 20x Quarrel (305) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 6%
+                                   Wield 22x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 4%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 14%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Blade of the Quiddity (11916) | Probability: 25%
+                                   Wield Lance of the Quiddity (11913) | Probability: 25%
+                                   Wield Mace of the Quiddity (11907) | Probability: 25%
+                                   Wield Kaskara (324) | Probability: 3%
+                                   Wield Long Sword (351) | Probability: 3%
+                                   Wield Silifi (344) | Probability: 5%
+                                   Wield Tachi (353) | Probability: 5%
+                                   Wield War Hammer (359) | Probability: 5% */
+     , (12132,  35,        391) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12132,   1, 240, 0, 0) /* Strength */
@@ -208,6 +234,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Do you think me to be as we
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12132, 1, 12138,  0, 0, 0, False) /* Create Helm of the Simulacra (12138) for Contain */
      , (12132, 1, 12145,  0, 0, 0, False) /* Create Southern Infiltrator Message Shard (12145) for Contain */
-     , (12132, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
      , (12132, 2,  6046,  0, 2, 0.6, False) /* Create Amuli Coat (6046) for Wield */
-     , (12132, 2,  6047,  0, 2, 0.6, False) /* Create Amuli Leggings (6047) for Wield */;
+     , (12132, 2,  6047,  0, 2, 0.6, False) /* Create Amuli Leggings (6047) for Wield */
+     , (12132, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */;

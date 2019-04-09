@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 942;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (942, 'golemwood', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (942, 'golemwood', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (942,   1,         16) /* ItemType - Creature */
@@ -69,7 +69,7 @@ VALUES (942,   1,   33556428) /* Setup */
      , (942,   4,  805306376) /* CombatTable */
      , (942,   8,  100667940) /* Icon */
      , (942,  22,  872415326) /* PhysicsEffectTable */
-     , (942,  35,        465) /* DeathTreasureType */;
+     , (942,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (942,   1,  80, 0, 0) /* Strength */
@@ -131,11 +131,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (942, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (942, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (942, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (942, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (942, 9,  3673,  0, 0, 0.1, False) /* Create Wood Heart (3673) for ContainTreasure */
+VALUES (942, 9,  3673,  0, 0, 0.1, False) /* Create Wood Heart (3673) for ContainTreasure */
+     , (942, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (942, 9,  5779,  0, 0, 0.05, False) /* Create Strange Stick (5779) for ContainTreasure */
+     , (942, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (942, 9,  6353,  0, 0, 0.005, False) /* Create Pyreal Mote (6353) for ContainTreasure */
-     , (942, 9, 20859,  0, 0, 0.03, False) /* Create Fletching Stamp (20859) for ContainTreasure */;
+     , (942, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
+     , (942, 9, 20859,  0, 0, 0.03, False) /* Create Fletching Stamp (20859) for ContainTreasure */
+     , (942, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

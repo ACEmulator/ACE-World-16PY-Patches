@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1608;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1608, 'drudgelurker', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (1608, 'drudgelurker', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1608,   1,         16) /* ItemType - Creature */
@@ -77,8 +77,11 @@ VALUES (1608,   1,   33556445) /* Setup */
      , (1608,   7,  268435976) /* ClothingBase */
      , (1608,   8,  100667445) /* Icon */
      , (1608,  22,  872415258) /* PhysicsEffectTable */
-     , (1608,  32,         71) /* WieldedTreasureType */
-     , (1608,  35,        451) /* DeathTreasureType */;
+     , (1608,  32,         71) /* WieldedTreasureType - 
+                                   Wield Yari (23731) | Probability: 50%
+                                   Wield Tachi (23701) | Probability: 25%
+                                   Wield Spear (23697) | Probability: 25% */
+     , (1608,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1608,   1, 110, 0, 0) /* Strength */
@@ -206,9 +209,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1608, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (1608, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (1608, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (1608, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+VALUES (1608, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (1608, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (1608, 9, 15760,  0, 0, 0.02, False) /* Create Ruined Amulet of the Atlatl (15760) for ContainTreasure */
-     , (1608, 9, 27390,  0, 0, 0.005, False) /* Create Drudge Fight (27390) for ContainTreasure */;
+     , (1608, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (1608, 9, 27390,  0, 0, 0.005, False) /* Create Drudge Fight (27390) for ContainTreasure */
+     , (1608, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19306;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19306, 'statuereplicamidsclavussmall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (19306, 'statuereplicamidsclavussmall', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19306,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,16 @@ VALUES (19306,   1,   33555608) /* Setup */
      , (19306,   7,  268435727) /* ClothingBase */
      , (19306,   8,  100669120) /* Icon */
      , (19306,  22,  872415349) /* PhysicsEffectTable */
-     , (19306,  32,        402) /* WieldedTreasureType */
-     , (19306,  35,        451) /* DeathTreasureType */;
+     , (19306,  32,        402) /* WieldedTreasureType - 
+                                   Wield Bronze Longbow (15873) | Probability: 67%
+                                   Wield 20x Greater Acid Arrow (5306) | Probability: 16%
+                                   Wield 20x Greater Lightning Arrow (5308) | Probability: 16%
+                                   Wield 20x Greater Fire Arrow (5305) | Probability: 17%
+                                   Wield 20x Greater Frost Arrow (5307) | Probability: 17%
+                                   Wield 20x Greater Armor Piercing Arrow (5309) | Probability: 17%
+                                   Wield 20x Greater Frog Crotch Arrow (5312) | Probability: 17%
+                                   Wield Bronze Morning Star (15877) | Probability: 100% */
+     , (19306,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19306,   1, 190, 0, 0) /* Strength */
@@ -137,5 +145,5 @@ VALUES (19306,    60,   2.05)  /* Acid Stream III */
      , (19306,  1263,   2.01)  /* Drain Mana Other IV */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19306, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (19306, 9, 19211,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19211) for ContainTreasure */;
+VALUES (19306, 9, 19211,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19211) for ContainTreasure */
+     , (19306, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

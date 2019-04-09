@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14520;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14520, 'golempyreal', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (14520, 'golempyreal', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14520,   1,         16) /* ItemType - Creature */
@@ -79,7 +79,7 @@ VALUES (14520,   1,   33556426) /* Setup */
      , (14520,   7,  268435981) /* ClothingBase */
      , (14520,   8,  100667940) /* Icon */
      , (14520,  22,  872415323) /* PhysicsEffectTable */
-     , (14520,  35,        460) /* DeathTreasureType */;
+     , (14520,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14520,   1, 250, 0, 0) /* Strength */
@@ -152,9 +152,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14520, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (14520, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+VALUES (14520, 9, 23203,  0, 0, 0.05, False) /* Create Pyreal Golem Heart (23203) for ContainTreasure */
      , (14520, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (14520, 9,  6353,  0, 0, 0.05, False) /* Create Pyreal Mote (6353) for ContainTreasure */
      , (14520, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (14520, 9, 23203,  0, 0, 0.05, False) /* Create Pyreal Golem Heart (23203) for ContainTreasure */;
+     , (14520, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (14520, 9,  6353,  0, 0, 0.05, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (14520, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

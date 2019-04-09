@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8011;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8011, 'crystalcaulnalain', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8011, 'crystalcaulnalain', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8011,   1,         16) /* ItemType - Creature */
@@ -76,7 +76,7 @@ VALUES (8011,   1,   33556732) /* Setup */
      , (8011,   7,  268435859) /* ClothingBase */
      , (8011,   8,  100670283) /* Icon */
      , (8011,  22,  872415347) /* PhysicsEffectTable */
-     , (8011,  35,         27) /* DeathTreasureType */;
+     , (8011,  35,         27) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8011,   1, 150, 0, 0) /* Strength */
@@ -127,13 +127,13 @@ VALUES (8011,    78,   2.04)  /* Lightning Bolt IV */
      , (8011,  1418,   2.06)  /* Slowness Other IV */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8011, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (8011, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (8011, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (8011, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+VALUES (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem (8111) for ContainTreasure */
      , (8011, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem (8111) for ContainTreasure */
+     , (8011, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem (8111) for ContainTreasure */
+     , (8011, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem (8111) for ContainTreasure */
+     , (8011, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem (8111) for ContainTreasure */
-     , (8011, 9,  8111,  0, 0, 1, False) /* Create Caulnalain Gem (8111) for ContainTreasure */;
+     , (8011, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

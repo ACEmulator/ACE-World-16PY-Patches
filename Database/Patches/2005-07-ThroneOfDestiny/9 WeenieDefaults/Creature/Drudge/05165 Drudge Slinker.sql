@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5165;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5165, 'drudgecoveapple', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (5165, 'drudgecoveapple', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5165,   1,         16) /* ItemType - Creature */
@@ -74,8 +74,24 @@ VALUES (5165,   1,   33556445) /* Setup */
      , (5165,   7,  268435974) /* ClothingBase */
      , (5165,   8,  100667445) /* Icon */
      , (5165,  22,  872415258) /* PhysicsEffectTable */
-     , (5165,  32,         82) /* WieldedTreasureType */
-     , (5165,  35,        453) /* DeathTreasureType */;
+     , (5165,  32,         82) /* WieldedTreasureType - 
+                                   Wield Club (309) | Probability: 15%
+                                   Wield Dabus (313) | Probability: 3%
+                                   Wield Dagger (314) | Probability: 10%
+                                   Wield Kasrullah (325) | Probability: 15%
+                                   Wield Khanjar (328) | Probability: 10%
+                                   Wield Mace (331) | Probability: 4%
+                                   Wield Short Sword (352) | Probability: 7%
+                                   Wield Simi (345) | Probability: 7%
+                                   Wield Tofun (356) | Probability: 3%
+                                   Wield Yaoji (361) | Probability: 6%
+                                   Wield 10x Throwing Dart (316) | Probability: 5%
+                                   Wield 10x Shouken (343) | Probability: 4%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5%
+                                   Wield 4x Javelin (320) | Probability: 2%
+                                   Wield Djarid (317) | Probability: 1%
+                                   Wield 4x Throwing Club (310) | Probability: 1% */
+     , (5165,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5165,   1,  70, 0, 0) /* Strength */

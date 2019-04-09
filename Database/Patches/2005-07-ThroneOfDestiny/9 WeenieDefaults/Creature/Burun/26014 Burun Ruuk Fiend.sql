@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 26014;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (26014, 'burunruukfiend', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (26014, 'burunruukfiend', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26014,   1,         16) /* ItemType - Creature */
@@ -74,8 +74,13 @@ VALUES (26014,   1,   33558582) /* Setup */
      , (26014,   7,  268436789) /* ClothingBase */
      , (26014,   8,  100675761) /* Icon */
      , (26014,  22,  872415402) /* PhysicsEffectTable */
-     , (26014,  32,        467) /* WieldedTreasureType */
-     , (26014,  35,        452) /* DeathTreasureType */;
+     , (26014,  32,        467) /* WieldedTreasureType - 
+                                   Wield Stone Axe (26022) | Probability: 20%
+                                   Wield Bone Dagger (26031) | Probability: 20%
+                                   Wield Stone Mace (26043) | Probability: 20%
+                                   Wield Stone Spear (26048) | Probability: 20%
+                                   Wield Bone Sword (26052) | Probability: 20% */
+     , (26014,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26014,   1, 180, 0, 0) /* Strength */
@@ -174,7 +179,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26014, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (26014, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (26014, 9, 28318,  0, 0, 0.05, False) /* Create Untranslated Writing (28318) for ContainTreasure */
-     , (26014, 9, 28984,  0, 0, 0.04, False) /* Create Bloodied Burun Hide (28984) for ContainTreasure */;
+VALUES (26014, 9, 28318,  0, 0, 0.05, False) /* Create Untranslated Writing (28318) for ContainTreasure */
+     , (26014, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (26014, 9, 28984,  0, 0, 0.04, False) /* Create Bloodied Burun Hide (28984) for ContainTreasure */
+     , (26014, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22599;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22599, 'tuskerrampager_tusk', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (22599, 'tuskerrampager_tusk', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22599,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (22599,   1,   33556836) /* Setup */
      , (22599,   7,  268436064) /* ClothingBase */
      , (22599,   8,  100667443) /* Icon */
      , (22599,  22,  872415271) /* PhysicsEffectTable */
-     , (22599,  35,        454) /* DeathTreasureType */;
+     , (22599,  35,        454) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22599,   1, 230, 0, 0) /* Strength */
@@ -173,7 +173,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22599, 1, 22429,  1, 0, 0, False) /* Create Rampager Tusk (22429) for Contain */
-     , (22599, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (22599, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (22599, 9, 11692,  0, 0, 0.01, False) /* Create Little Green Seeds (11692) for ContainTreasure */
-     , (22599, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */;
+     , (22599, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (22599, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
+     , (22599, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

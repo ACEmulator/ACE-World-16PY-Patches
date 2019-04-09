@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4244;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4244, 'chittickstinging', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (4244, 'chittickstinging', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4244,   1,         16) /* ItemType - Creature */
@@ -71,7 +71,7 @@ VALUES (4244,   1,   33558118) /* Setup */
      , (4244,   7,  268436515) /* ClothingBase */
      , (4244,   8,  100669115) /* Icon */
      , (4244,  22,  872415336) /* PhysicsEffectTable */
-     , (4244,  35,        456) /* DeathTreasureType */;
+     , (4244,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4244,   1, 170, 0, 0) /* Strength */
@@ -121,5 +121,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4244, 2, 22541,  0, 0, 0, False) /* Create Acid Spines (22541) for Wield */
-     , (4244, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (4244, 9, 28888,  0, 0, 0.05, False) /* Create Chittick Head (28888) for ContainTreasure */;
+     , (4244, 9, 28888,  0, 0, 0.05, False) /* Create Chittick Head (28888) for ContainTreasure */
+     , (4244, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

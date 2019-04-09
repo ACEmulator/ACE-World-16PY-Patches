@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8866;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8866, 'moarsmanputridadja', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8866, 'moarsmanputridadja', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8866,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,8 @@ VALUES (8866,   1,   33556882) /* Setup */
      , (8866,   8,  100671185) /* Icon */
      , (8866,  19,         84) /* ActivationAnimation */
      , (8866,  22,  872415337) /* PhysicsEffectTable */
-     , (8866,  30,         83) /* PhysicsScript - PortalExit */
-     , (8866,  35,        460) /* DeathTreasureType */;
+     , (8866,  30,         84) /* PhysicsScript - BreatheFlame */
+     , (8866,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8866,   1, 170, 0, 0) /* Strength */

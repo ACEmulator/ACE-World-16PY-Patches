@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10778;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10778, 'drudgeunconqueredsummoned', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (10778, 'drudgeunconqueredsummoned', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10778,   1,         16) /* ItemType - Creature */
@@ -77,8 +77,11 @@ VALUES (10778,   1,   33556445) /* Setup */
      , (10778,   7,  268436614) /* ClothingBase */
      , (10778,   8,  100667445) /* Icon */
      , (10778,  22,  872415258) /* PhysicsEffectTable */
-     , (10778,  32,        297) /* WieldedTreasureType */
-     , (10778,  35,        452) /* DeathTreasureType */;
+     , (10778,  32,        297) /* WieldedTreasureType - 
+                                   Wield Tachi (23699) | Probability: 33%
+                                   Wield Yaoji (23709) | Probability: 33%
+                                   Wield Acid Yari (23721) | Probability: 34% */
+     , (10778,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10778,   1, 210, 0, 0) /* Strength */

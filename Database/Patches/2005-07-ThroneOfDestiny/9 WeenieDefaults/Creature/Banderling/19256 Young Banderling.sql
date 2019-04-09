@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19256;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19256, 'banderlingyoung_noaggro', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (19256, 'banderlingyoung_noaggro', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19256,   1,         16) /* ItemType - Creature */
@@ -75,8 +75,21 @@ VALUES (19256,   1,   33558024) /* Setup */
      , (19256,   7,  268436496) /* ClothingBase */
      , (19256,   8,  100667453) /* Icon */
      , (19256,  22,  872415255) /* PhysicsEffectTable */
-     , (19256,  32,         57) /* WieldedTreasureType */
-     , (19256,  35,        453) /* DeathTreasureType */;
+     , (19256,  32,         57) /* WieldedTreasureType - 
+                                   Wield Jo (322) | Probability: 3%
+                                   Wield Nabut (333) | Probability: 3%
+                                   Wield Quarter Staff (338) | Probability: 4%
+                                   Wield Shou-ono (342) | Probability: 8%
+                                   Wield Tungi (357) | Probability: 8%
+                                   Wield Hand Axe (303) | Probability: 9%
+                                   Wield Budiaq (308) | Probability: 12%
+                                   Wield Spear (348) | Probability: 13%
+                                   Wield Kasrullah (325) | Probability: 17%
+                                   Wield Club (309) | Probability: 38%
+                                   Wield 2x Javelin (320) | Probability: 1%
+                                   Wield 3x Throwing Club (310) | Probability: 1%
+                                   Wield Djarid (317) | Probability: 1% */
+     , (19256,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19256,   1, 110, 0, 0) /* Strength */
@@ -174,5 +187,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19256, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (19256, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;
+VALUES (19256, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (19256, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 16909;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (16909, 'golemgranite_nofall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (16909, 'golemgranite_nofall', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (16909,   1,         16) /* ItemType - Creature */
@@ -70,7 +70,7 @@ VALUES (16909,   1,   33556426) /* Setup */
      , (16909,   4,  805306376) /* CombatTable */
      , (16909,   8,  100667940) /* Icon */
      , (16909,  22,  872415328) /* PhysicsEffectTable */
-     , (16909,  35,        463) /* DeathTreasureType */;
+     , (16909,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (16909,   1, 150, 0, 0) /* Strength */
@@ -138,7 +138,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (16909, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (16909, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (16909, 9,  3671,  0, 0, 0.05, False) /* Create Granite Heart (3671) for ContainTreasure */
-     , (16909, 9,  6353,  0, 0, 0.03, False) /* Create Pyreal Mote (6353) for ContainTreasure */;
+VALUES (16909, 9,  3671,  0, 0, 0.05, False) /* Create Granite Heart (3671) for ContainTreasure */
+     , (16909, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (16909, 9,  6353,  0, 0, 0.03, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (16909, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

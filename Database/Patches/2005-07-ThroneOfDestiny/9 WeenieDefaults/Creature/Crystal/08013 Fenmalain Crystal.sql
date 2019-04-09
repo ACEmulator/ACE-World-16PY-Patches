@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8013;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8013, 'crystalfenmalain', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8013, 'crystalfenmalain', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8013,   1,         16) /* ItemType - Creature */
@@ -77,7 +77,7 @@ VALUES (8013,   1,   33556732) /* Setup */
      , (8013,   7,  268435859) /* ClothingBase */
      , (8013,   8,  100670283) /* Icon */
      , (8013,  22,  872415347) /* PhysicsEffectTable */
-     , (8013,  35,         28) /* DeathTreasureType */;
+     , (8013,  35,         28) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8013,   1, 120, 0, 0) /* Strength */
@@ -130,13 +130,13 @@ VALUES (8013,    76,   2.11)  /* Lightning Bolt II */
      , (8013,  1417,   2.04)  /* Slowness Other III */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8013, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (8013, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (8013, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (8013, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+VALUES (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */
      , (8013, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */
+     , (8013, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */
+     , (8013, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */
+     , (8013, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */
-     , (8013, 9,  8113,  0, 0, 1, False) /* Create Fenmalain Gem (8113) for ContainTreasure */;
+     , (8013, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

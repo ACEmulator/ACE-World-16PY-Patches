@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22507;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22507, 'chittickobsidian', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (22507, 'chittickobsidian', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22507,   1,         16) /* ItemType - Creature */
@@ -71,7 +71,7 @@ VALUES (22507,   1,   33558118) /* Setup */
      , (22507,   7,  268436515) /* ClothingBase */
      , (22507,   8,  100669115) /* Icon */
      , (22507,  22,  872415336) /* PhysicsEffectTable */
-     , (22507,  35,        455) /* DeathTreasureType */;
+     , (22507,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22507,   1, 200, 0, 0) /* Strength */
@@ -121,7 +121,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22507, 2, 22545,  0, 0, 0, False) /* Create Obsidian Spines (22545) for Wield */
-     , (22507, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (22507, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (22507, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (22507, 9, 28888,  0, 0, 0.05, False) /* Create Chittick Head (28888) for ContainTreasure */;
+     , (22507, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (22507, 9, 28888,  0, 0, 0.05, False) /* Create Chittick Head (28888) for ContainTreasure */
+     , (22507, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29350;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29350, 'niffisehlyis', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29350, 'niffisehlyis', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29350,   1,         16) /* ItemType - Creature */
@@ -77,7 +77,7 @@ VALUES (29350,   1,   33556774) /* Setup */
      , (29350,   7,  268436039) /* ClothingBase */
      , (29350,   8,  100670961) /* Icon */
      , (29350,  22,  872415365) /* PhysicsEffectTable */
-     , (29350,  35,        463) /* DeathTreasureType */;
+     , (29350,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29350,   1, 170, 0, 0) /* Strength */
@@ -142,5 +142,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29350, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (29350, 9, 10705,  0, 0, 0.03, False) /* Create Niffis Pearl (10705) for ContainTreasure */;
+VALUES (29350, 9, 10705,  0, 0, 0.03, False) /* Create Niffis Pearl (10705) for ContainTreasure */
+     , (29350, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

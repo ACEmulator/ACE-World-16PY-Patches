@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8139;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8139, 'lugiangigasraider', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8139, 'lugiangigasraider', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8139,   1,         16) /* ItemType - Creature */
@@ -74,8 +74,11 @@ VALUES (8139,   1,   33557003) /* Setup */
      , (8139,   7,  268436153) /* ClothingBase */
      , (8139,   8,  100667447) /* Icon */
      , (8139,  22,  872415262) /* PhysicsEffectTable */
-     , (8139,  32,        325) /* WieldedTreasureType */
-     , (8139,  35,        451) /* DeathTreasureType */;
+     , (8139,  32,        325) /* WieldedTreasureType - 
+                                   Wield Rock (7578) | Probability: 100%
+                                   Wield Lugian Axe (7577) | Probability: 50%
+                                   Wield Lugian Morning Star (23765) | Probability: 50% */
+     , (8139,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8139,   1, 250, 0, 0) /* Strength */
@@ -194,7 +197,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Cruath Quafeth.  Your kind says that often when hunting us.  Does it mean kill me now?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8139, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (8139, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (8139, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (8139, 9,  7043,  0, 0, 0.03, False) /* Create Large Lugian Sinew (7043) for ContainTreasure */;
+VALUES (8139, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (8139, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (8139, 9,  7043,  0, 0, 0.03, False) /* Create Large Lugian Sinew (7043) for ContainTreasure */
+     , (8139, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

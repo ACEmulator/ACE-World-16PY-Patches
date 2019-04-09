@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 15299;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (15299, 'simulacrummartinate', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (15299, 'simulacrummartinate', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15299,   1,         16) /* ItemType - Creature */
@@ -78,8 +78,16 @@ VALUES (15299,   1,   33554433) /* Setup */
      , (15299,  16,   67109565) /* EyesPalette */
      , (15299,  17,   67110054) /* SkinPalette */
      , (15299,  22,  872415381) /* PhysicsEffectTable */
-     , (15299,  32,        396) /* WieldedTreasureType */
-     , (15299,  35,         86) /* DeathTreasureType */;
+     , (15299,  32,        396) /* WieldedTreasureType - 
+                                   Wield Bow of the Quiddity (9597) | Probability: 100%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Blade of the Quiddity (11916) | Probability: 34%
+                                   Wield Lance of the Quiddity (11913) | Probability: 33%
+                                   Wield Mace of the Quiddity (11907) | Probability: 33%
+                                   Wield Cap (118) | Palette: Red (14) | Shade: 1 | Probability: 100%
+                                   Wield Canescent Mattekar Robe (10870) | Palette: Yellow (17) | Shade: 0.7 | Probability: 100%
+                                   Wield Pants (12254) | Palette: Purple (13) | Shade: 0.8 | Probability: 100% */
+     , (15299,  35,         86) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (15299,   1, 250, 0, 0) /* Strength */

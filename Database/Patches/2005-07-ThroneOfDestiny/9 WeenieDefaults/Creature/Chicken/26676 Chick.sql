@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 26676;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (26676, 'chickenbaby', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (26676, 'chickenbaby', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26676,   1,         16) /* ItemType - Creature */
@@ -453,5 +453,5 @@ VALUES (@parent_id,  0,   6 /* Move */, 0, 4, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26676, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (26676, 9, 27249,  0, 0, 0.01, False) /* Create Spring Cleaner Title Token (27249) for ContainTreasure */;
+VALUES (26676, 9, 27249,  0, 0, 0.01, False) /* Create Spring Cleaner Title Token (27249) for ContainTreasure */
+     , (26676, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22933;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22933, 'golemmist', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (22933, 'golemmist', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22933,   1,         16) /* ItemType - Creature */
@@ -71,7 +71,7 @@ VALUES (22933,   1,   33556642) /* Setup */
      , (22933,   4,  805306376) /* CombatTable */
      , (22933,   8,  100667940) /* Icon */
      , (22933,  22,  872415322) /* PhysicsEffectTable */
-     , (22933,  35,        462) /* DeathTreasureType */;
+     , (22933,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22933,   1, 160, 0, 0) /* Strength */
@@ -139,11 +139,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22933, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (22933, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (22933, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (22933, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (22933, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+VALUES (22933, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (22933, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (22933, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (22933, 9, 45875,  1, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (22933, 9, 45876,  1, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+     , (22933, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (22933, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (22933, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (22933, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (22933, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
