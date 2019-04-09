@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1467;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1467, 'mitefood', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (1467, 'mitefood', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1467,   1,         16) /* ItemType - Creature */
@@ -71,7 +71,7 @@ VALUES (1467,   1,   33558656) /* Setup */
      , (1467,   7,  268436816) /* ClothingBase */
      , (1467,   8,  100667448) /* Icon */
      , (1467,  22,  872415263) /* PhysicsEffectTable */
-     , (1467,  35,        459) /* DeathTreasureType */;
+     , (1467,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1467,   1,  40, 0, 0) /* Strength */
@@ -108,4 +108,4 @@ VALUES (1467,  0,  4,  0,    0,   10,    0,    0,    0,    1,    5,    5,    0, 
      , (1467,  8,  4, 10, 0.75,   10,    0,    0,    0,    1,    5,    5,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1467, 1, 114, 600, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate UNKNOWN RANDOMLY GENERATED TREASURE (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
+VALUES (1467, 1, 114, 600, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate 1x Fire Auroch Meat (1446), 1x Super Cheese (1452), 1x Fresh Fish (1445), 1x Wheat Bread (1448), 1x Tart Apple (1447), 1x Royal Cabbage (1449), 1x Salmon (1450), 1x Special Cheese (1451) from Wielded Treasure Table id: 114 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20885;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20885, 'somaticelementaltempest', 10, '2019-02-08 15:30:00') /* Creature */;
+VALUES (20885, 'somaticelementaltempest', 10, '2019-04-08 06:24:12') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20885,   1,         16) /* ItemType - Creature */
@@ -30,7 +30,7 @@ VALUES (20885,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (20885,   1,       5) /* HeartbeatInterval */
      , (20885,   2,       0) /* HeartbeatTimestamp */
-     , (20885,   3,     0.9) /* HealthRate */
+     , (20885,   3, 0.899999976158142) /* HealthRate */
      , (20885,   4,     0.5) /* StaminaRate */
      , (20885,   5,       2) /* ManaRate */
      , (20885,  13,       1) /* ArmorModVsSlash */
@@ -38,16 +38,16 @@ VALUES (20885,   1,       5) /* HeartbeatInterval */
      , (20885,  15,       1) /* ArmorModVsBludgeon */
      , (20885,  16,       1) /* ArmorModVsCold */
      , (20885,  17,       1) /* ArmorModVsFire */
-     , (20885,  18,     1.1) /* ArmorModVsAcid */
+     , (20885,  18, 1.10000002384186) /* ArmorModVsAcid */
      , (20885,  19,       1) /* ArmorModVsElectric */
      , (20885,  31,      20) /* VisualAwarenessRange */
-     , (20885,  39,     1.4) /* DefaultScale */
-     , (20885,  64,     0.3) /* ResistSlash */
-     , (20885,  65,     0.3) /* ResistPierce */
-     , (20885,  66,     0.3) /* ResistBludgeon */
-     , (20885,  67,     0.3) /* ResistFire */
-     , (20885,  68,     0.3) /* ResistCold */
-     , (20885,  69,     0.4) /* ResistAcid */
+     , (20885,  39, 1.39999997615814) /* DefaultScale */
+     , (20885,  64, 0.300000011920929) /* ResistSlash */
+     , (20885,  65, 0.300000011920929) /* ResistPierce */
+     , (20885,  66, 0.300000011920929) /* ResistBludgeon */
+     , (20885,  67, 0.300000011920929) /* ResistFire */
+     , (20885,  68, 0.300000011920929) /* ResistCold */
+     , (20885,  69, 0.400000005960464) /* ResistAcid */
      , (20885,  70,       0) /* ResistElectric */
      , (20885,  71,       1) /* ResistHealthBoost */
      , (20885,  72,    0.25) /* ResistStaminaDrain */
@@ -85,17 +85,17 @@ VALUES (20885,   1, 19600, 0, 0, 19800) /* MaxHealth */
      , (20885,   5,   500, 0, 0, 1000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (20885,  6, 0, 3, 0,   1, 0, 1265.39431947978) /* MeleeDefense        Specialized */
-     , (20885,  7, 0, 3, 0,  50, 0, 1265.39431947978) /* MissileDefense      Specialized */
-     , (20885, 12, 0, 3, 0,  70, 0, 1265.39431947978) /* ThrownWeapon        Specialized */
-     , (20885, 13, 0, 3, 0,   1, 0, 1265.39431947978) /* UnarmedCombat       Specialized */
-     , (20885, 14, 0, 3, 0, 170, 0, 1265.39431947978) /* ArcaneLore          Specialized */
-     , (20885, 15, 0, 3, 0,  69, 0, 1265.39431947978) /* MagicDefense        Specialized */
-     , (20885, 20, 0, 3, 0, 150, 0, 1265.39431947978) /* Deception           Specialized */
-     , (20885, 24, 0, 3, 0, 100, 0, 1265.39431947978) /* Run                 Specialized */
-     , (20885, 31, 0, 3, 0, 150, 0, 1265.39431947978) /* CreatureEnchantment Specialized */
-     , (20885, 33, 0, 3, 0, 150, 0, 1265.39431947978) /* LifeMagic           Specialized */
-     , (20885, 34, 0, 3, 0, 150, 0, 1265.39431947978) /* WarMagic            Specialized */;
+VALUES (20885,  6, 0, 3, 0,   1, 0, 1265.39428710938) /* MeleeDefense        Specialized */
+     , (20885,  7, 0, 3, 0,  50, 0, 1265.39428710938) /* MissileDefense      Specialized */
+     , (20885, 12, 0, 3, 0,  70, 0, 1265.39428710938) /* ThrownWeapon        Specialized */
+     , (20885, 13, 0, 3, 0,   1, 0, 1265.39428710938) /* UnarmedCombat       Specialized */
+     , (20885, 14, 0, 3, 0, 170, 0, 1265.39428710938) /* ArcaneLore          Specialized */
+     , (20885, 15, 0, 3, 0,  69, 0, 1265.39428710938) /* MagicDefense        Specialized */
+     , (20885, 20, 0, 3, 0, 150, 0, 1265.39428710938) /* Deception           Specialized */
+     , (20885, 24, 0, 3, 0, 100, 0, 1265.39428710938) /* Run                 Specialized */
+     , (20885, 31, 0, 3, 0, 150, 0, 1265.39428710938) /* CreatureEnchantment Specialized */
+     , (20885, 33, 0, 3, 0, 150, 0, 1265.39428710938) /* LifeMagic           Specialized */
+     , (20885, 34, 0, 3, 0, 150, 0, 1265.39428710938) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (20885,  0, 64,  0,    0,  200,  200,  200,  200,  200,  200,  220,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

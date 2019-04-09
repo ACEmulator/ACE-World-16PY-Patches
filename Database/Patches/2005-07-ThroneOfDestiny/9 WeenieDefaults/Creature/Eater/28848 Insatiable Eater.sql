@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28848;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28848, 'eaterinsatiablejawdropper', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28848, 'eaterinsatiablejawdropper', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28848,   1,         16) /* ItemType - Creature */
@@ -69,7 +69,7 @@ VALUES (28848,   1,   33559121) /* Setup */
      , (28848,   7,  268436888) /* ClothingBase */
      , (28848,   8,  100677365) /* Icon */
      , (28848,  22,  872415409) /* PhysicsEffectTable */
-     , (28848,  35,        455) /* DeathTreasureType */;
+     , (28848,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28848,   1, 460, 0, 0) /* Strength */
@@ -159,25 +159,25 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28848, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+VALUES (28848, 9, 28732,  0, 0, 0.01, False) /* Create Aluvian Leg (28732) for ContainTreasure */
      , (28848, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28848, 9, 28733,  0, 0, 0.01, False) /* Create Gharu'ndim Arm (28733) for ContainTreasure */
      , (28848, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28848, 9, 28738,  0, 0, 0.01, False) /* Create Half-Digested Virindi Mask (28738) for ContainTreasure */
      , (28848, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28848, 9, 28736,  0, 0, 0.01, False) /* Create Penguin Wing (28736) for ContainTreasure */
      , (28848, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28848, 9, 28737,  0, 0, 0.01, False) /* Create Rusty Lugian Axe (28737) for ContainTreasure */
      , (28848, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28848, 9, 28734,  0, 0, 0.01, False) /* Create Sho Brain (28734) for ContainTreasure */
      , (28848, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (28848, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (28848, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28848, 9, 28735,  0, 0, 0.01, False) /* Create Viamontian Torso (28735) for ContainTreasure */
      , (28848, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (28848, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (28848, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (28848, 9, 42104,  0, 0, 1, False) /* Create Upper Insatiable Eater Jaw (42104) for ContainTreasure */
      , (28848, 9, 28719,  0, 0, 1, False) /* Create Insatiable Eater Jaw (28719) for ContainTreasure */
-     , (28848, 9, 28731,  0, 0, 0.01, False) /* Create Identification Plate (28731) for ContainTreasure */
-     , (28848, 9, 28732,  0, 0, 0.01, False) /* Create Aluvian Leg (28732) for ContainTreasure */
-     , (28848, 9, 28733,  0, 0, 0.01, False) /* Create Gharu'ndim Arm (28733) for ContainTreasure */
-     , (28848, 9, 28734,  0, 0, 0.01, False) /* Create Sho Brain (28734) for ContainTreasure */
-     , (28848, 9, 28735,  0, 0, 0.01, False) /* Create Viamontian Torso (28735) for ContainTreasure */
-     , (28848, 9, 28736,  0, 0, 0.01, False) /* Create Penguin Wing (28736) for ContainTreasure */
-     , (28848, 9, 28737,  0, 0, 0.01, False) /* Create Rusty Lugian Axe (28737) for ContainTreasure */
-     , (28848, 9, 28738,  0, 0, 0.01, False) /* Create Half-Digested Virindi Mask (28738) for ContainTreasure */
      , (28848, 9, 34277,  0, 0, 0.01, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
-     , (28848, 9, 42104,  0, 0, 1, False) /* Create Upper Insatiable Eater Jaw (42104) for ContainTreasure */;
+     , (28848, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28848, 9, 28731,  0, 0, 0.01, False) /* Create Identification Plate (28731) for ContainTreasure */
+     , (28848, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

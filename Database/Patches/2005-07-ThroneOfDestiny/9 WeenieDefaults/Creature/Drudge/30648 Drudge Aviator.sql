@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30648;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30648, 'drudgeaviator', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30648, 'drudgeaviator', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30648,   1,         16) /* ItemType - Creature */
@@ -79,8 +79,15 @@ VALUES (30648,   1,   33556445) /* Setup */
      , (30648,   7,  268435975) /* ClothingBase */
      , (30648,   8,  100667445) /* Icon */
      , (30648,  22,  872415258) /* PhysicsEffectTable */
-     , (30648,  32,        273) /* WieldedTreasureType */
-     , (30648,  35,        452) /* DeathTreasureType */;
+     , (30648,  32,        273) /* WieldedTreasureType - 
+                                   Wield 10x Frost Throwing Club (23660) | Probability: 33%
+                                   Wield 10x Fire Throwing Club (23656) | Probability: 33%
+                                   Wield 10x Throwing Club (23652) | Probability: 34%
+                                   Wield Lightning Tachi (23703) | Probability: 25%
+                                   Wield Yaoji (23709) | Probability: 25%
+                                   Wield Fire Tachi (23706) | Probability: 25%
+                                   Wield Tachi (23699) | Probability: 25% */
+     , (30648,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30648,   1, 210, 0, 0) /* Strength */

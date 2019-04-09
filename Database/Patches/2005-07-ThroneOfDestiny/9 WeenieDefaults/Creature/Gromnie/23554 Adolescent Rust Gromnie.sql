@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23554;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23554, 'gromnierustadolescent', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (23554, 'gromnierustadolescent', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23554,   1,         16) /* ItemType - Creature */
@@ -33,7 +33,7 @@ VALUES (23554,   1,       5) /* HeartbeatInterval */
      , (23554,   3,       5) /* HealthRate */
      , (23554,   4,      10) /* StaminaRate */
      , (23554,   5,       2) /* ManaRate */
-     , (23554,  12,       0) /* Shade */
+     , (23554,  12,     0.5) /* Shade */
      , (23554,  13,       1) /* ArmorModVsSlash */
      , (23554,  14,       1) /* ArmorModVsPierce */
      , (23554,  15,       1) /* ArmorModVsBludgeon */
@@ -72,7 +72,7 @@ VALUES (23554,   1,   33554487) /* Setup */
      , (23554,   8,  100667938) /* Icon */
      , (23554,  19,         85) /* ActivationAnimation */
      , (23554,  22,  872415260) /* PhysicsEffectTable */
-     , (23554,  30,         84) /* PhysicsScript - BreatheFlame */
+     , (23554,  30,         85) /* PhysicsScript - BreatheFrost */
      , (23554,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -143,15 +143,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23554, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (23554, 9, 28197,  0, 0, 0.03, False) /* Create Adolescent Rust Gromnie Eye (28197) for ContainTreasure */
      , (23554, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (23554, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
-     , (23554, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
-     , (23554, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (23554, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (23554, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
-     , (23554, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
-     , (23554, 9, 28197,  0, 0, 0.03, False) /* Create Adolescent Rust Gromnie Eye (28197) for ContainTreasure */
-     , (23554, 9, 28203,  0, 0, 0.25, False) /* Create Ruddy Gromnie Hide (28203) for ContainTreasure */
+     , (23554, 9, 28214,  0, 0, 0.03, False) /* Create Rust Gromnie Wings (28214) for ContainTreasure */
+     , (23554, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (23554, 9, 28209,  0, 0, 0.25, False) /* Create Rust Gromnie Tooth (28209) for ContainTreasure */
-     , (23554, 9, 28214,  0, 0, 0.03, False) /* Create Rust Gromnie Wings (28214) for ContainTreasure */;
+     , (23554, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
+     , (23554, 9, 28203,  0, 0, 0.25, False) /* Create Ruddy Gromnie Hide (28203) for ContainTreasure */
+     , (23554, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
+     , (23554, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (23554, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (23554, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
+     , (23554, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

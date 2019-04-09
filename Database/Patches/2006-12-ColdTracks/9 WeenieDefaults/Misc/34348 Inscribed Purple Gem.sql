@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34348;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34348, 'ace34348-inscribedpurplegem', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (34348, 'ace34348-inscribedpurplegem', 1, '2019-04-08 04:44:07') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34348,   1,        128) /* ItemType - Misc */
@@ -9,7 +9,7 @@ VALUES (34348,   1,        128) /* ItemType - Misc */
      , (34348,  16,          1) /* ItemUseable - No */
      , (34348,  19,      10000) /* Value */
      , (34348,  33,          1) /* Bonded - Bonded */
-     , (34348,  53,        101) /* PlacementPosition */
+     , (34348,  53,        101) /* PlacementPosition - Resting */
      , (34348,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34348, 114,          1) /* Attuned - Attuned */;
 

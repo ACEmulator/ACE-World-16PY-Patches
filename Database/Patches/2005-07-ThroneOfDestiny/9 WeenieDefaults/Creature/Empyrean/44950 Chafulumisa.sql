@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44950;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44950, 'ace44950-chafulumisa', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (44950, 'ace44950-chafulumisa', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44950,   1,         16) /* ItemType - Creature */
@@ -808,9 +808,9 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 0, NULL, 'You don''t have enough Lumi
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44950, 2,   127,  0, 18, 0.2364, False) /* Create Pants (127) for Wield */
      , (44950, 2,   130,  0, 18, 0.2364, False) /* Create Shirt (130) for Wield */
-     , (44950, 2, 43048,  0, 16, 0.2364, False) /* Create  (43048) for Wield */
+     , (44950, 2, 43048,  0, 16, 0.2364, False) /* Create Knorr Academy Breastplate (43048) for Wield */
+     , (44950, 2, 43051,  0, 2, 0.2364, False) /* Create Knorr Academy Greaves (43051) for Wield */
      , (44950, 2, 43050,  0, 16, 0.2364, False) /* Create Knorr Academy Girth (43050) for Wield */
-     , (44950, 2, 43051,  0, 2, 0.2364, False) /* Create  (43051) for Wield */
-     , (44950, 2, 43052,  0, 16, 0.2364, False) /* Create  (43052) for Wield */
-     , (44950, 2, 43053,  0, 2, 0.2364, False) /* Create  (43053) for Wield */
-     , (44950, 2, 43054,  0, 2, 0.2364, False) /* Create  (43054) for Wield */;
+     , (44950, 2, 43052,  0, 16, 0.2364, False) /* Create Knorr Academy Pauldrons (43052) for Wield */
+     , (44950, 2, 43053,  0, 2, 0.2364, False) /* Create Knorr Academy Boots (43053) for Wield */
+     , (44950, 2, 43054,  0, 2, 0.2364, False) /* Create Knorr Academy Tassets (43054) for Wield */;

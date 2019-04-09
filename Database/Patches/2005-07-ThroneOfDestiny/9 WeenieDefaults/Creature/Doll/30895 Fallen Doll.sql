@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30895;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30895, 'dollbossuber0205', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30895, 'dollbossuber0205', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30895,   1,         16) /* ItemType - Creature */
@@ -72,8 +72,8 @@ VALUES (30895,   1,   33558545) /* Setup */
      , (30895,   8,  100671421) /* Icon */
      , (30895,  19,         87) /* ActivationAnimation */
      , (30895,  22,  872415373) /* PhysicsEffectTable */
-     , (30895,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (30895,  35,        461) /* DeathTreasureType */;
+     , (30895,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (30895,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30895,   1, 190, 0, 0) /* Strength */
@@ -169,8 +169,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30895, 9,     0,  0, 0, 0.9925, False) /* Create nothing for ContainTreasure */
-     , (30895, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
-     , (30895, 9, 25893,  0, 0, 0.0075, False) /* Create Doll's Eye (25893) for ContainTreasure */
+VALUES (30895, 9, 25893,  0, 0, 0.0075, False) /* Create Doll's Eye (25893) for ContainTreasure */
+     , (30895, 9,     0,  0, 0, 0.9925, False) /* Create nothing for ContainTreasure */
+     , (30895, 9, 30870,  0, 0, 1, False) /* Create Katar of the Fallen (30870) for ContainTreasure */
      , (30895, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
-     , (30895, 9, 30870,  0, 0, 1, False) /* Create Katar of the Fallen (30870) for ContainTreasure */;
+     , (30895, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1407;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1407, 'lostlightsamsurdrudge', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (1407, 'lostlightsamsurdrudge', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1407,   1,         16) /* ItemType - Creature */
@@ -74,8 +74,34 @@ VALUES (1407,   1,   33556445) /* Setup */
      , (1407,   7,  268435971) /* ClothingBase */
      , (1407,   8,  100667445) /* Icon */
      , (1407,  22,  872415258) /* PhysicsEffectTable */
-     , (1407,  32,         68) /* WieldedTreasureType */
-     , (1407,  35,         69) /* DeathTreasureType */;
+     , (1407,  32,         68) /* WieldedTreasureType - 
+                                   Wield Budiaq (308) | Probability: 3%
+                                   Wield Club (309) | Probability: 3%
+                                   Wield Dabus (313) | Probability: 3%
+                                   Wield Dagger (314) | Probability: 3%
+                                   Wield Hand Axe (303) | Probability: 3%
+                                   Wield Jambiya (319) | Probability: 1%
+                                   Wield Jitte (321) | Probability: 3%
+                                   Wield Kasrullah (325) | Probability: 3%
+                                   Wield Katar (326) | Probability: 3%
+                                   Wield Khanjar (328) | Probability: 3%
+                                   Wield Knife (329) | Probability: 2%
+                                   Wield Mace (331) | Probability: 3%
+                                   Wield Short Sword (352) | Probability: 3%
+                                   Wield Shou-ono (342) | Probability: 3%
+                                   Wield Simi (345) | Probability: 3%
+                                   Wield Spear (348) | Probability: 3%
+                                   Wield Tofun (356) | Probability: 5%
+                                   Wield Yaoji (361) | Probability: 5%
+                                   Wield Yari (362) | Probability: 3%
+                                   Wield 10x Throwing Dart (316) | Probability: 2%
+                                   Wield 10x Shouken (343) | Probability: 3%
+                                   Wield 6x Throwing Dagger (315) | Probability: 3%
+                                   Wield 4x Javelin (320) | Probability: 5%
+                                   Wield Djarid (317) | Probability: 5%
+                                   Wield 5x Throwing Club (310) | Probability: 5%
+                                   Wield 5x Throwing Axe (304) | Probability: 5% */
+     , (1407,  35,         69) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1407,   1,  80, 0, 0) /* Strength */

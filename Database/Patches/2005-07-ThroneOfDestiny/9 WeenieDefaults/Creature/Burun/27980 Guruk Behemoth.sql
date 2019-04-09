@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27980;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27980, 'burungurukbehemoth', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (27980, 'burungurukbehemoth', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27980,   1,         16) /* ItemType - Creature */
@@ -72,8 +72,12 @@ VALUES (27980,   1,   33558749) /* Setup */
      , (27980,   7,  268436827) /* ClothingBase */
      , (27980,   8,  100676549) /* Icon */
      , (27980,  22,  872415402) /* PhysicsEffectTable */
-     , (27980,  32,        476) /* WieldedTreasureType */
-     , (27980,  35,        449) /* DeathTreasureType */;
+     , (27980,  32,        476) /* WieldedTreasureType - 
+                                   Wield Stone Axe (27868) | Probability: 22%
+                                   Wield 10x Muck Ball (27876) | Probability: 22%
+                                   Wield Tree Trunk (27872) | Probability: 22%
+                                   Wield Bone Sword (27880) | Probability: 22% */
+     , (27980,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27980,   1, 520, 0, 0) /* Strength */
@@ -177,5 +181,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27980, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (27980, 9, 28984,  0, 0, 0.05, False) /* Create Bloodied Burun Hide (28984) for ContainTreasure */;
+VALUES (27980, 9, 28984,  0, 0, 0.05, False) /* Create Bloodied Burun Hide (28984) for ContainTreasure */
+     , (27980, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

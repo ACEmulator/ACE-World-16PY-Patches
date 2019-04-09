@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1242;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1242, 'drudgeprowlerglenden', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (1242, 'drudgeprowlerglenden', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1242,   1,         16) /* ItemType - Creature */
@@ -224,11 +224,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1242, 1,  1248,  0, 0, 0, False) /* Create Key (1248) for Contain */
-     , (1242, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
-     , (1242, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1242, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1242, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (1242, 9,  3669,  0, 0, 0.08, False) /* Create Drudge Charm (3669) for ContainTreasure */
+     , (1242, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
      , (1242, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (1242, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (1242, 9, 13222,  0, 0, 0.05, False) /* Create Peppermint Stick (13222) for ContainTreasure */
-     , (1242, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */;
+     , (1242, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (1242, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */
+     , (1242, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

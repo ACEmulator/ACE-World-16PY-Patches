@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19258;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19258, 'drudgeslinker_noaggro', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (19258, 'drudgeslinker_noaggro', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19258,   1,         16) /* ItemType - Creature */
@@ -74,8 +74,24 @@ VALUES (19258,   1,   33556445) /* Setup */
      , (19258,   7,  268435970) /* ClothingBase */
      , (19258,   8,  100667445) /* Icon */
      , (19258,  22,  872415258) /* PhysicsEffectTable */
-     , (19258,  32,         82) /* WieldedTreasureType */
-     , (19258,  35,        453) /* DeathTreasureType */;
+     , (19258,  32,         82) /* WieldedTreasureType - 
+                                   Wield Club (309) | Probability: 15%
+                                   Wield Dabus (313) | Probability: 3%
+                                   Wield Dagger (314) | Probability: 10%
+                                   Wield Kasrullah (325) | Probability: 15%
+                                   Wield Khanjar (328) | Probability: 10%
+                                   Wield Mace (331) | Probability: 4%
+                                   Wield Short Sword (352) | Probability: 7%
+                                   Wield Simi (345) | Probability: 7%
+                                   Wield Tofun (356) | Probability: 3%
+                                   Wield Yaoji (361) | Probability: 6%
+                                   Wield 10x Throwing Dart (316) | Probability: 5%
+                                   Wield 10x Shouken (343) | Probability: 4%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5%
+                                   Wield 4x Javelin (320) | Probability: 2%
+                                   Wield Djarid (317) | Probability: 1%
+                                   Wield 4x Throwing Club (310) | Probability: 1% */
+     , (19258,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19258,   1,  60, 0, 0) /* Strength */
@@ -187,9 +203,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19258, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (19258, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (19258, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+VALUES (19258, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (19258, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (19258, 9,  3669,  0, 0, 0.02, False) /* Create Drudge Charm (3669) for ContainTreasure */
-     , (19258, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (19258, 9, 13222,  0, 0, 0.1, False) /* Create Peppermint Stick (13222) for ContainTreasure */;
+     , (19258, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (19258, 9, 13222,  0, 0, 0.1, False) /* Create Peppermint Stick (13222) for ContainTreasure */
+     , (19258, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

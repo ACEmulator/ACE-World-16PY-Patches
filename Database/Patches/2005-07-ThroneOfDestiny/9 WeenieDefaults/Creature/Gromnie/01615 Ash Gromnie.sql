@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1615;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1615, 'gromnieash', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (1615, 'gromnieash', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1615,   1,         16) /* ItemType - Creature */
      , (1615,   2,         15) /* CreatureType - Gromnie */
-     , (1615,   3,          3) /* PaletteTemplate - BluePurple */
+     , (1615,   3,          9) /* PaletteTemplate - Grey */
      , (1615,   6,         -1) /* ItemsCapacity */
      , (1615,   7,         -1) /* ContainersCapacity */
      , (1615,  16,          1) /* ItemUseable - No */
@@ -32,7 +32,7 @@ VALUES (1615,   1,       5) /* HeartbeatInterval */
      , (1615,   3, 0.699999988079071) /* HealthRate */
      , (1615,   4,       5) /* StaminaRate */
      , (1615,   5,       2) /* ManaRate */
-     , (1615,  12,       0) /* Shade */
+     , (1615,  12,     0.5) /* Shade */
      , (1615,  13,       1) /* ArmorModVsSlash */
      , (1615,  14,       1) /* ArmorModVsPierce */
      , (1615,  15,       1) /* ArmorModVsBludgeon */
@@ -73,7 +73,7 @@ VALUES (1615,   1,   33554487) /* Setup */
      , (1615,   8,  100667938) /* Icon */
      , (1615,  19,         87) /* ActivationAnimation */
      , (1615,  22,  872415260) /* PhysicsEffectTable */
-     , (1615,  30,         86) /* PhysicsScript - BreatheAcid */
+     , (1615,  30,         87) /* PhysicsScript - BreatheLightning */
      , (1615,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -144,7 +144,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1615, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1615, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (1615, 9,  3674,  0, 0, 0.05, False) /* Create Ash Gromnie Tooth (3674) for ContainTreasure */
-     , (1615, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+VALUES (1615, 9,  3674,  0, 0, 0.05, False) /* Create Ash Gromnie Tooth (3674) for ContainTreasure */
+     , (1615, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (1615, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (1615, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

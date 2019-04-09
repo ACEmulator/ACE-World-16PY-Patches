@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7097;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7097, 'golemplatinum', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7097, 'golemplatinum', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7097,   1,         16) /* ItemType - Creature */
@@ -79,7 +79,7 @@ VALUES (7097,   1,   33556426) /* Setup */
      , (7097,   7,  268436615) /* ClothingBase */
      , (7097,   8,  100667940) /* Icon */
      , (7097,  22,  872415325) /* PhysicsEffectTable */
-     , (7097,  35,        461) /* DeathTreasureType */;
+     , (7097,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7097,   1, 270, 0, 0) /* Strength */
@@ -198,9 +198,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Give me some sugar, baby.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7097, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (7097, 9,  6355,  0, 0, 0.05, False) /* Create Pyreal Sliver (6355) for ContainTreasure */
      , (7097, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7097, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7097, 9,  6355,  0, 0, 0.05, False) /* Create Pyreal Sliver (6355) for ContainTreasure */
      , (7097, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (7097, 9, 23202,  0, 0, 0.05, False) /* Create Platinum Golem Heart (23202) for ContainTreasure */;
+     , (7097, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (7097, 9, 23202,  0, 0, 0.05, False) /* Create Platinum Golem Heart (23202) for ContainTreasure */
+     , (7097, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

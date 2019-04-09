@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11987;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11987, 'crystalbossmonster', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11987, 'crystalbossmonster', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11987,   1,         16) /* ItemType - Creature */
@@ -81,7 +81,7 @@ VALUES (11987,   1,   33556226) /* Setup */
      , (11987,   7,  268435869) /* ClothingBase */
      , (11987,   8,  100670395) /* Icon */
      , (11987,  22,  872415348) /* PhysicsEffectTable */
-     , (11987,  35,         21) /* DeathTreasureType */;
+     , (11987,  35,         21) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11987,   1, 160, 0, 0) /* Strength */
@@ -133,10 +133,10 @@ VALUES (11987,    83,  2.115)  /* Flame Bolt IV */
      , (11987,  1419,  2.042)  /* Slowness Other V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11987, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
-     , (11987, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (11987, 9,  6056,  0, 0, 0.5, False) /* Create Small Shard (6056) for ContainTreasure */
-     , (11987, 9, 23541,  0, 0, 0.3, False) /* Create Crystal Sword (23541) for ContainTreasure */;
+VALUES (11987, 9,  6056,  0, 0, 0.5, False) /* Create Small Shard (6056) for ContainTreasure */
+     , (11987, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
+     , (11987, 9, 23541,  0, 0, 0.3, False) /* Create Crystal Sword (23541) for ContainTreasure */
+     , (11987, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11987, 0.25, 6041, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dual Fragment (6041) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

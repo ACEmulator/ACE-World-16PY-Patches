@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 197;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (197, 'golemiron', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (197, 'golemiron', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (197,   1,         16) /* ItemType - Creature */
      , (197,   2,         13) /* CreatureType - Golem */
-     , (197,   3,          9) /* PaletteTemplate - Grey */
+     , (197,   3,         19) /* PaletteTemplate - Copper */
      , (197,   6,         -1) /* ItemsCapacity */
      , (197,   7,         -1) /* ContainersCapacity */
      , (197,  16,          1) /* ItemUseable - No */
@@ -38,7 +38,7 @@ VALUES (197,   1,       5) /* HeartbeatInterval */
      , (197,   6, 0.100000001490116) /* HealthUponResurrection */
      , (197,   7,    0.25) /* StaminaUponResurrection */
      , (197,   8, 0.300000011920929) /* ManaUponResurrection */
-     , (197,  12,       0) /* Shade */
+     , (197,  12,     0.5) /* Shade */
      , (197,  13, 0.439999997615814) /* ArmorModVsSlash */
      , (197,  14, 0.579999983310699) /* ArmorModVsPierce */
      , (197,  15, 0.860000014305115) /* ArmorModVsBludgeon */
@@ -139,7 +139,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (197, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (197, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (197, 9,  3672,  0, 0, 0.1, False) /* Create Iron Heart (3672) for ContainTreasure */
-     , (197, 9,  6353,  0, 0, 0.03, False) /* Create Pyreal Mote (6353) for ContainTreasure */;
+VALUES (197, 9,  3672,  0, 0, 0.1, False) /* Create Iron Heart (3672) for ContainTreasure */
+     , (197, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (197, 9,  6353,  0, 0, 0.03, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (197, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

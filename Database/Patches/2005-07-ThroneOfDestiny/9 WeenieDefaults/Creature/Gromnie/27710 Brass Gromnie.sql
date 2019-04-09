@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27710;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27710, 'gromniebrass', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (27710, 'gromniebrass', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27710,   1,         16) /* ItemType - Creature */
@@ -32,7 +32,7 @@ VALUES (27710,   1,       5) /* HeartbeatInterval */
      , (27710,   3, 0.699999988079071) /* HealthRate */
      , (27710,   4,       5) /* StaminaRate */
      , (27710,   5,       2) /* ManaRate */
-     , (27710,  12,       0) /* Shade */
+     , (27710,  12,     0.5) /* Shade */
      , (27710,  13,       1) /* ArmorModVsSlash */
      , (27710,  14,       1) /* ArmorModVsPierce */
      , (27710,  15,       1) /* ArmorModVsBludgeon */
@@ -73,7 +73,7 @@ VALUES (27710,   1,   33554487) /* Setup */
      , (27710,   8,  100667938) /* Icon */
      , (27710,  19,         87) /* ActivationAnimation */
      , (27710,  22,  872415260) /* PhysicsEffectTable */
-     , (27710,  30,         86) /* PhysicsScript - BreatheAcid */
+     , (27710,  30,         87) /* PhysicsScript - BreatheLightning */
      , (27710,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -144,9 +144,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27710, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (27710, 9, 28206,  0, 0, 0.05, False) /* Create Brass Gromnie Tooth (28206) for ContainTreasure */
      , (27710, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (27710, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (27710, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (27710, 9, 28199,  0, 0, 0.05, False) /* Create Rugged Gromnie Hide (28199) for ContainTreasure */
-     , (27710, 9, 28206,  0, 0, 0.05, False) /* Create Brass Gromnie Tooth (28206) for ContainTreasure */;
+     , (27710, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (27710, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (27710, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

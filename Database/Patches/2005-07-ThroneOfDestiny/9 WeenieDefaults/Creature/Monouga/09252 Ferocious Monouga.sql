@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9252;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9252, 'monougaferocious', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (9252, 'monougaferocious', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9252,   1,         16) /* ItemType - Creature */
@@ -75,8 +75,14 @@ VALUES (9252,   1,   33555199) /* Setup */
      , (9252,   7,  268436143) /* ClothingBase */
      , (9252,   8,  100669117) /* Icon */
      , (9252,  22,  872415257) /* PhysicsEffectTable */
-     , (9252,  32,        119) /* WieldedTreasureType */
-     , (9252,  35,        451) /* DeathTreasureType */;
+     , (9252,  32,        119) /* WieldedTreasureType - 
+                                   Wield Club (3943) | Probability: 45%
+                                   Wield Dabus (3944) | Probability: 5%
+                                   Wield Kasrullah (3945) | Probability: 5%
+                                   Wield Mace (3947) | Probability: 10%
+                                   Wield Tofun (3946) | Probability: 5%
+                                   Wield 10x Throwing Club (310) | Probability: 30% */
+     , (9252,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9252,   1, 210, 0, 0) /* Strength */
@@ -149,7 +155,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9252, 9,     0,  0, 0, 0.91, False) /* Create nothing for ContainTreasure */
-     , (9252, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (9252, 9, 12253,  0, 0, 0.09, False) /* Create Monougat (12253) for ContainTreasure */
-     , (9252, 9, 15769,  0, 0, 0.02, False) /* Create Ruined Amulet of the Spear (15769) for ContainTreasure */;
+VALUES (9252, 9, 12253,  0, 0, 0.09, False) /* Create Monougat (12253) for ContainTreasure */
+     , (9252, 9,     0,  0, 0, 0.91, False) /* Create nothing for ContainTreasure */
+     , (9252, 9, 15769,  0, 0, 0.02, False) /* Create Ruined Amulet of the Spear (15769) for ContainTreasure */
+     , (9252, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

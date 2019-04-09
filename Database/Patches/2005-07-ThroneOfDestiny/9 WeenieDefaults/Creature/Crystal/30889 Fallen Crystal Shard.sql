@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30889;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30889, 'crystalshardbossuber0205', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30889, 'crystalshardbossuber0205', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30889,   1,         16) /* ItemType - Creature */
@@ -81,7 +81,7 @@ VALUES (30889,   1,   33556732) /* Setup */
      , (30889,   7,  268435859) /* ClothingBase */
      , (30889,   8,  100670283) /* Icon */
      , (30889,  22,  872415347) /* PhysicsEffectTable */
-     , (30889,  35,        461) /* DeathTreasureType */;
+     , (30889,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30889,   1, 220, 0, 0) /* Strength */
@@ -128,22 +128,22 @@ VALUES (30889,  2056,  2.083)  /* Ataxia */
      , (30889,  2328,  2.083)  /* Vitality Siphon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30889, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (30889, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (30889, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (30889, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
-     , (30889, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
-     , (30889, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
-     , (30889, 9, 23849,  0, 0, 0.0125, False) /* Create Scored Shard (23849) for ContainTreasure */
-     , (30889, 9, 23850,  0, 0, 0.0125, False) /* Create Brilliant Shard (23850) for ContainTreasure */
-     , (30889, 9, 23851,  0, 0, 0.0125, False) /* Create Solid Shard (23851) for ContainTreasure */
-     , (30889, 9, 23852,  0, 0, 0.0125, False) /* Create Plated Shard (23852) for ContainTreasure */
-     , (30889, 9, 23853,  0, 0, 0.0125, False) /* Create Seared Shard (23853) for ContainTreasure */
+VALUES (30889, 9, 23853,  0, 0, 0.0125, False) /* Create Seared Shard (23853) for ContainTreasure */
      , (30889, 9, 23854,  0, 0, 0.0125, False) /* Create Chilled Shard (23854) for ContainTreasure */
+     , (30889, 9, 23849,  0, 0, 0.0125, False) /* Create Scored Shard (23849) for ContainTreasure */
      , (30889, 9, 23855,  0, 0, 0.0125, False) /* Create Charged Shard (23855) for ContainTreasure */
+     , (30889, 9, 23851,  0, 0, 0.0125, False) /* Create Solid Shard (23851) for ContainTreasure */
      , (30889, 9, 23856,  0, 0, 0.0125, False) /* Create Hardened Shard (23856) for ContainTreasure */
+     , (30889, 9, 23852,  0, 0, 0.0125, False) /* Create Plated Shard (23852) for ContainTreasure */
+     , (30889, 9, 23850,  0, 0, 0.0125, False) /* Create Brilliant Shard (23850) for ContainTreasure */
+     , (30889, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (30889, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (30889, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (30889, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
+     , (30889, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (30889, 9, 30866,  0, 0, 1, False) /* Create Hammer of the Fallen (30866) for ContainTreasure */
      , (30889, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
-     , (30889, 9, 30866,  0, 0, 1, False) /* Create Hammer of the Fallen (30866) for ContainTreasure */;
+     , (30889, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30889, -1, 23549, 5, 10, 10, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystal Shard Sentinel (23549) (x10 up to max of 10) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

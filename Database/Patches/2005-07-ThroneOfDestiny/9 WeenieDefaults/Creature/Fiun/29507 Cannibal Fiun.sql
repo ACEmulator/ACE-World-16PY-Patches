@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29507;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29507, 'fiunmaddenedcannibal', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29507, 'fiunmaddenedcannibal', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29507,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (29507,   1,   33559202) /* Setup */
      , (29507,   7,  268436942) /* ClothingBase */
      , (29507,   8,  100677372) /* Icon */
      , (29507,  22,  872415410) /* PhysicsEffectTable */
-     , (29507,  35,        448) /* DeathTreasureType */;
+     , (29507,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29507,   1, 250, 0, 0) /* Strength */
@@ -147,5 +147,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29507, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (29507, 9, 29508,  0, 0, 0.01, False) /* Create Maddened Fiun Heart (29508) for ContainTreasure */;
+VALUES (29507, 9, 29508,  0, 0, 0.01, False) /* Create Maddened Fiun Heart (29508) for ContainTreasure */
+     , (29507, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

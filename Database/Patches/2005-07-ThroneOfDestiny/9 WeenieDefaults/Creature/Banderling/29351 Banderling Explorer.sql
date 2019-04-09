@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29351;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29351, 'banderlingexplorer', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29351, 'banderlingexplorer', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29351,   1,         16) /* ItemType - Creature */
@@ -69,8 +69,10 @@ VALUES (29351,   1,   33558024) /* Setup */
      , (29351,   7,  268436610) /* ClothingBase */
      , (29351,   8,  100667453) /* Icon */
      , (29351,  22,  872415255) /* PhysicsEffectTable */
-     , (29351,  32,        295) /* WieldedTreasureType */
-     , (29351,  35,        450) /* DeathTreasureType */;
+     , (29351,  32,        295) /* WieldedTreasureType - 
+                                   Wield 15x Frost Throwing Club (23663) | Probability: 50%
+                                   Wield Club (23648) | Probability: 50% */
+     , (29351,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29351,   1, 200, 0, 0) /* Strength */

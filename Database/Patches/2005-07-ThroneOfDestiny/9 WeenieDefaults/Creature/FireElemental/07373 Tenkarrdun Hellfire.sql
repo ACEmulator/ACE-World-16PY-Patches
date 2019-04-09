@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7373;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7373, 'hellfiretenkarrdun', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7373, 'hellfiretenkarrdun', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7373,   1,         16) /* ItemType - Creature */
@@ -26,7 +26,8 @@ VALUES (7373,   1, True ) /* Stuck */
      , (7373,  13, False) /* Ethereal */
      , (7373,  14, True ) /* GravityStatus */
      , (7373,  15, True ) /* LightsStatus */
-     , (7373,  19, True ) /* Attackable */;
+     , (7373,  19, True ) /* Attackable */
+     , (7073, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7373,   1,       5) /* HeartbeatInterval */
@@ -70,7 +71,7 @@ VALUES (7373,   1,   33556637) /* Setup */
      , (7373,   4,  805306368) /* CombatTable */
      , (7373,   8,  100670274) /* Icon */
      , (7373,  22,  872415363) /* PhysicsEffectTable */
-     , (7373,  35,         25) /* DeathTreasureType */;
+     , (7373,  35,         25) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7373,   1, 320, 0, 0) /* Strength */
@@ -140,21 +141,21 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As %s smites the 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7373, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
      , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
-     , (7373, 9,  7442,  0, 0, 1, False) /* Create Red Fire Infusion (7442) for ContainTreasure */;
+     , (7373, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

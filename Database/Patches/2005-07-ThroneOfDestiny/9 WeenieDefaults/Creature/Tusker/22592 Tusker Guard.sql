@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22592;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22592, 'tuskerguard_nofall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (22592, 'tuskerguard_nofall', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22592,   1,         16) /* ItemType - Creature */
@@ -69,7 +69,7 @@ VALUES (22592,   1,   33556836) /* Setup */
      , (22592,   7,  268436063) /* ClothingBase */
      , (22592,   8,  100667443) /* Icon */
      , (22592,  22,  872415271) /* PhysicsEffectTable */
-     , (22592,  35,        456) /* DeathTreasureType */;
+     , (22592,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22592,   1, 210, 0, 0) /* Strength */
@@ -177,13 +177,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22592, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (22592, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (22592, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+VALUES (22592, 9,  8147,  0, 0, 0.05, False) /* Create Tusker Head (8147) for ContainTreasure */
      , (22592, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (22592, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (22592, 9,  8147,  0, 0, 0.05, False) /* Create Tusker Head (8147) for ContainTreasure */
      , (22592, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
-     , (22592, 9, 29204,  1, 0, 0.2, False) /* Create Tusker Spit (29204) for ContainTreasure */
-     , (22592, 9, 45875,  1, 0, 0.05, False) /* Create  (45875) for ContainTreasure */
-     , (22592, 9, 45876,  1, 0, 0.05, False) /* Create  (45876) for ContainTreasure */;
+     , (22592, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (22592, 9, 29204,  1, 0, 0.13, False) /* Create Tusker Spit (29204) for ContainTreasure */
+     , (22592, 9,     0,  0, 0, 0.87, False) /* Create nothing for ContainTreasure */
+     , (22592, 9, 45875,  1, 0, 0.05, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (22592, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (22592, 9, 45876,  1, 0, 0.05, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (22592, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

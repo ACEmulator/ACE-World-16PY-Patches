@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1356;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1356, 'alfrethbanderlingcaptain', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (1356, 'alfrethbanderlingcaptain', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1356,   1,         16) /* ItemType - Creature */
@@ -72,8 +72,21 @@ VALUES (1356,   1,   33558024) /* Setup */
      , (1356,   7,  268436498) /* ClothingBase */
      , (1356,   8,  100667453) /* Icon */
      , (1356,  22,  872415255) /* PhysicsEffectTable */
-     , (1356,  32,         47) /* WieldedTreasureType */
-     , (1356,  35,         48) /* DeathTreasureType */;
+     , (1356,  32,         47) /* WieldedTreasureType - 
+                                   Wield 3x Throwing Axe (304) | Probability: 1%
+                                   Wield 3x Throwing Club (310) | Probability: 1%
+                                   Wield Battle Axe (301) | Probability: 15%
+                                   Wield Club (309) | Probability: 5%
+                                   Wield Dabus (313) | Probability: 10%
+                                   Wield Jo (322) | Probability: 3%
+                                   Wield Kasrullah (325) | Probability: 5%
+                                   Wield Mace (331) | Probability: 10%
+                                   Wield Morning Star (332) | Probability: 15%
+                                   Wield Nabut (333) | Probability: 3%
+                                   Wield Shou-ono (342) | Probability: 10%
+                                   Wield Silifi (344) | Probability: 10%
+                                   Wield Tofun (356) | Probability: 10% */
+     , (1356,  35,         48) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1356,   1, 120, 0, 0) /* Strength */

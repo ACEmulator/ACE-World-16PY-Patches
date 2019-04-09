@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24133;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24133, 'crystalmoiety', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (24133, 'crystalmoiety', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24133,   1,         16) /* ItemType - Creature */
@@ -76,7 +76,7 @@ VALUES (24133,   1,   33556226) /* Setup */
      , (24133,   7,  268436613) /* ClothingBase */
      , (24133,   8,  100670395) /* Icon */
      , (24133,  22,  872415347) /* PhysicsEffectTable */
-     , (24133,  35,        464) /* DeathTreasureType */;
+     , (24133,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24133,   1, 200, 0, 0) /* Strength */
@@ -124,14 +124,14 @@ VALUES (24133,   170,  2.083)  /* Regeneration Self VI */
      , (24133,  2745,    2.1)  /* Flame Arc VII */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24133, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (24133, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (24133, 9,  6056,  0, 0, 0.04, False) /* Create Small Shard (6056) for ContainTreasure */
-     , (24133, 9, 23849,  0, 0, 0.00625, False) /* Create Scored Shard (23849) for ContainTreasure */
-     , (24133, 9, 23850,  0, 0, 0.00625, False) /* Create Brilliant Shard (23850) for ContainTreasure */
-     , (24133, 9, 23851,  0, 0, 0.00625, False) /* Create Solid Shard (23851) for ContainTreasure */
-     , (24133, 9, 23852,  0, 0, 0.00625, False) /* Create Plated Shard (23852) for ContainTreasure */
-     , (24133, 9, 23853,  0, 0, 0.00625, False) /* Create Seared Shard (23853) for ContainTreasure */
+VALUES (24133, 9, 23853,  0, 0, 0.00625, False) /* Create Seared Shard (23853) for ContainTreasure */
      , (24133, 9, 23854,  0, 0, 0.00625, False) /* Create Chilled Shard (23854) for ContainTreasure */
+     , (24133, 9, 23849,  0, 0, 0.00625, False) /* Create Scored Shard (23849) for ContainTreasure */
      , (24133, 9, 23855,  0, 0, 0.00625, False) /* Create Charged Shard (23855) for ContainTreasure */
-     , (24133, 9, 23856,  0, 0, 0.00625, False) /* Create Hardened Shard (23856) for ContainTreasure */;
+     , (24133, 9, 23851,  0, 0, 0.00625, False) /* Create Solid Shard (23851) for ContainTreasure */
+     , (24133, 9, 23856,  0, 0, 0.00625, False) /* Create Hardened Shard (23856) for ContainTreasure */
+     , (24133, 9, 23852,  0, 0, 0.00625, False) /* Create Plated Shard (23852) for ContainTreasure */
+     , (24133, 9, 23850,  0, 0, 0.00625, False) /* Create Brilliant Shard (23850) for ContainTreasure */
+     , (24133, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (24133, 9,  6056,  0, 0, 0.04, False) /* Create Small Shard (6056) for ContainTreasure */
+     , (24133, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28551;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28551, 'crystaldualfragmentsparkling', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28551, 'crystaldualfragmentsparkling', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28551,   1,         16) /* ItemType - Creature */
@@ -77,7 +77,7 @@ VALUES (28551,   1,   33556730) /* Setup */
      , (28551,   7,  268435859) /* ClothingBase */
      , (28551,   8,  100670283) /* Icon */
      , (28551,  22,  872415348) /* PhysicsEffectTable */
-     , (28551,  35,        462) /* DeathTreasureType */;
+     , (28551,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28551,   1, 160, 0, 0) /* Strength */
@@ -129,5 +129,5 @@ VALUES (28551,    83,  2.115)  /* Flame Bolt IV */
      , (28551,  1419,  2.042)  /* Slowness Other V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28551, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (28551, 9,  6056,  0, 0, 0.02, False) /* Create Small Shard (6056) for ContainTreasure */;
+VALUES (28551, 9,  6056,  0, 0, 0.02, False) /* Create Small Shard (6056) for ContainTreasure */
+     , (28551, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

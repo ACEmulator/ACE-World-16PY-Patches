@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12698;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12698, 'golemsparringtokennewbieacademy', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (12698, 'golemsparringtokennewbieacademy', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12698,   1,         16) /* ItemType - Creature */
@@ -168,5 +168,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'For more information about a target, select it and then click on the magnifying glass icon.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12698, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (12698, 9, 12709,  0, 0, 1, False) /* Create Academy Token (12709) for ContainTreasure */;
+VALUES (12698, 9, 12709,  0, 0, 1, False) /* Create Academy Token (12709) for ContainTreasure */
+     , (12698, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19270;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19270, 'statuereplicaextremeshadowsmall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (19270, 'statuereplicaextremeshadowsmall', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19270,   1,         16) /* ItemType - Creature */
@@ -78,8 +78,11 @@ VALUES (19270,   1,   33554433) /* Setup */
      , (19270,   7,  268435632) /* ClothingBase */
      , (19270,   8,  100670397) /* Icon */
      , (19270,  22,  872415349) /* PhysicsEffectTable */
-     , (19270,  32,        399) /* WieldedTreasureType */
-     , (19270,  35,        407) /* DeathTreasureType */;
+     , (19270,  32,        399) /* WieldedTreasureType - 
+                                   Wield Bronze Tower Shield (15865) | Probability: 100%
+                                   Wield Bronze Spear (15879) | Probability: 50%
+                                   Wield Bronze Long Sword (15880) | Probability: 50% */
+     , (19270,  35,        407) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19270,   1, 200, 0, 0) /* Strength */
@@ -150,5 +153,5 @@ VALUES (19270,    73,  2.032)  /* Frost Bolt V */
      , (19270,  1467,  2.023)  /* Feeblemind Other V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19270, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (19270, 9, 19250,  0, 0, 0.05, False) /* Create Bronze Nuts and Bolts from a Statue (19250) for ContainTreasure */;
+VALUES (19270, 9, 19250,  0, 0, 0.05, False) /* Create Bronze Nuts and Bolts from a Statue (19250) for ContainTreasure */
+     , (19270, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

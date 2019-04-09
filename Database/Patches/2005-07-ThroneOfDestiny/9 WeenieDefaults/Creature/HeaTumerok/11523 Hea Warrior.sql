@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11523;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11523, 'tumerokheawarrior_xp', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (11523, 'tumerokheawarrior_xp', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11523,   1,         16) /* ItemType - Creature */
@@ -34,7 +34,7 @@ VALUES (11523,   1,       5) /* HeartbeatInterval */
      , (11523,   3,     0.5) /* HealthRate */
      , (11523,   4,     0.5) /* StaminaRate */
      , (11523,   5,       2) /* ManaRate */
-     , (11523,  12, 0.571399986743927) /* Shade */
+     , (11523,  12,     0.5) /* Shade */
      , (11523,  13,       1) /* ArmorModVsSlash */
      , (11523,  14,       1) /* ArmorModVsPierce */
      , (11523,  15,       1) /* ArmorModVsBludgeon */
@@ -70,7 +70,7 @@ VALUES (11523,   1,   33559550) /* Setup */
      , (11523,   3,  536870931) /* SoundTable */
      , (11523,   4,  805306380) /* CombatTable */
      , (11523,   6,   67116625) /* PaletteBase */
-     , (11523,   7,  268437022) /* ClothingBase */
+     , (11523,   7,  268436630) /* ClothingBase */
      , (11523,   8,  100667452) /* Icon */
      , (11523,  22,  872415270) /* PhysicsEffectTable */
      , (11523,  32,        389) /* WieldedTreasureType - 
@@ -102,18 +102,18 @@ VALUES (11523,   1,    40, 0, 0, 123) /* MaxHealth */
      , (11523,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11523,  1, 0, 3, 0,  50, 0, 0) /* Axe                 Specialized */
-     , (11523,  4, 0, 3, 0,  50, 0, 0) /* Dagger              Specialized */
-     , (11523,  5, 0, 3, 0,  50, 0, 0) /* Mace                Specialized */
-     , (11523,  6, 0, 3, 0,  78, 0, 0) /* MeleeDefense        Specialized */
-     , (11523,  7, 0, 3, 0, 160, 0, 0) /* MissileDefense      Specialized */
-     , (11523,  9, 0, 3, 0,  50, 0, 0) /* Spear               Specialized */
-     , (11523, 10, 0, 3, 0,  50, 0, 0) /* Staff               Specialized */
-     , (11523, 11, 0, 3, 0,  50, 0, 0) /* Sword               Specialized */
-     , (11523, 13, 0, 3, 0,  50, 0, 0) /* UnarmedCombat       Specialized */
-     , (11523, 15, 0, 3, 0, 125, 0, 0) /* MagicDefense        Specialized */
-     , (11523, 20, 0, 2, 0,   5, 0, 0) /* Deception           Trained */
-     , (11523, 24, 0, 2, 0,  40, 0, 0) /* Run                 Trained */;
+VALUES (11523,  1, 0, 3, 0,  50, 0, 749.839599609375) /* Axe                 Specialized */
+     , (11523,  4, 0, 3, 0,  50, 0, 749.839599609375) /* Dagger              Specialized */
+     , (11523,  5, 0, 3, 0,  50, 0, 749.839599609375) /* Mace                Specialized */
+     , (11523,  6, 0, 3, 0,  78, 0, 749.839599609375) /* MeleeDefense        Specialized */
+     , (11523,  7, 0, 3, 0, 160, 0, 749.839599609375) /* MissileDefense      Specialized */
+     , (11523,  9, 0, 3, 0,  50, 0, 749.839599609375) /* Spear               Specialized */
+     , (11523, 10, 0, 3, 0,  50, 0, 749.839599609375) /* Staff               Specialized */
+     , (11523, 11, 0, 3, 0,  50, 0, 749.839599609375) /* Sword               Specialized */
+     , (11523, 13, 0, 3, 0,  50, 0, 749.839599609375) /* UnarmedCombat       Specialized */
+     , (11523, 15, 0, 3, 0, 125, 0, 749.839599609375) /* MagicDefense        Specialized */
+     , (11523, 20, 0, 2, 0,   5, 0, 749.839599609375) /* Deception           Trained */
+     , (11523, 24, 0, 2, 0,  40, 0, 749.839599609375) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11523,  0,  4,  0,    0,  100,  100,  100,  100,  100,  100,  100,  100,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -127,9 +127,9 @@ VALUES (11523,  0,  4,  0,    0,  100,  100,  100,  100,  100,  100,  100,  100,
      , (11523,  8,  4, 25, 0.75,  100,  100,  100,  100,  100,  100,  100,  100,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11523, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (11523, 9, 11454,  0, 0, 0.03, False) /* Create Totem of Audetaunga (11454) for ContainTreasure */
      , (11523, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (11523, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (11523, 9, 11454,  0, 0, 0.03, False) /* Create Totem of Audetaunga (11454) for ContainTreasure */
      , (11523, 9, 11455,  0, 0, 0.03, False) /* Create Totem of Tanae (11455) for ContainTreasure */
-     , (11523, 9, 11456,  0, 0, 0.03, False) /* Create Totem of Volkama (11456) for ContainTreasure */;
+     , (11523, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (11523, 9, 11456,  0, 0, 0.03, False) /* Create Totem of Volkama (11456) for ContainTreasure */
+     , (11523, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

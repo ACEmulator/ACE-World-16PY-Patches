@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7088;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7088, 'banderlingmauler', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7088, 'banderlingmauler', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7088,   1,         16) /* ItemType - Creature */
@@ -78,8 +78,10 @@ VALUES (7088,   1,   33558024) /* Setup */
      , (7088,   7,  268436498) /* ClothingBase */
      , (7088,   8,  100667453) /* Icon */
      , (7088,  22,  872415255) /* PhysicsEffectTable */
-     , (7088,  32,        269) /* WieldedTreasureType */
-     , (7088,  35,        448) /* DeathTreasureType */;
+     , (7088,  32,        269) /* WieldedTreasureType - 
+                                   Wield 15x Fire Throwing Club (23658) | Probability: 50%
+                                   Wield Club (23644) | Probability: 50% */
+     , (7088,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7088,   1, 200, 0, 0) /* Strength */
@@ -190,7 +192,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7088, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7088, 9,     0,  0, 0, 0.05, False) /* Create nothing for ContainTreasure */
-     , (7088, 9,  3693,  0, 0, 0.05, False) /* Create Banderling Scalp (3693) for ContainTreasure */
-     , (7088, 9,  8144,  0, 0, 0.05, False) /* Create Banderling Head (8144) for ContainTreasure */;
+VALUES (7088, 9,  3693,  0, 0, 0.05, False) /* Create Banderling Scalp (3693) for ContainTreasure */
+     , (7088, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (7088, 9,  8144,  0, 0, 0.05, False) /* Create Banderling Head (8144) for ContainTreasure */
+     , (7088, 9,     0,  0, 0, 0.05, False) /* Create nothing for ContainTreasure */;

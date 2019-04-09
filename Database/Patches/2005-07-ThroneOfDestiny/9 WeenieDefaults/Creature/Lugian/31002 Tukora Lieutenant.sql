@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31002;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31002, 'lugiantukoraliuetenanthighyield', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (31002, 'lugiantukoraliuetenanthighyield', 10, '2019-04-08 23:21:20') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31002,   1,         16) /* ItemType - Creature */
@@ -117,7 +117,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'TukoraLieutenantKills@#kt', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31002, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (31002, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (31002, 9, 31347,  0, 0, 0.01, False) /* Create Lugian Lieutenant's Insignia (31347) for ContainTreasure */
+     , (31002, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (31002, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (31002, 9, 31347,  0, 0, 0.01, False) /* Create Lugian Lieutenant's Insignia (31347) for ContainTreasure */;
+     , (31002, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

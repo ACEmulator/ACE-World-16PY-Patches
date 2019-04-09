@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1616;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1616, 'gromnieswamp', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (1616, 'gromnieswamp', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1616,   1,         16) /* ItemType - Creature */
@@ -32,7 +32,7 @@ VALUES (1616,   1,       5) /* HeartbeatInterval */
      , (1616,   3, 0.349999994039536) /* HealthRate */
      , (1616,   4,       5) /* StaminaRate */
      , (1616,   5,       2) /* ManaRate */
-     , (1616,  12,       0) /* Shade */
+     , (1616,  12,     0.5) /* Shade */
      , (1616,  13, 0.109999999403954) /* ArmorModVsSlash */
      , (1616,  14, 1.20000004768372) /* ArmorModVsPierce */
      , (1616,  15,       1) /* ArmorModVsBludgeon */
@@ -71,7 +71,7 @@ VALUES (1616,   1,   33554487) /* Setup */
      , (1616,   8,  100667938) /* Icon */
      , (1616,  19,         86) /* ActivationAnimation */
      , (1616,  22,  872415260) /* PhysicsEffectTable */
-     , (1616,  30,         85) /* PhysicsScript - BreatheFrost */
+     , (1616,  30,         86) /* PhysicsScript - BreatheAcid */
      , (1616,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -142,9 +142,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1616, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (1616, 9,  3677,  0, 0, 0.05, False) /* Create Swamp Gromnie Tooth (3677) for ContainTreasure */
      , (1616, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1616, 9,     0,  0, 0, 0.999, False) /* Create nothing for ContainTreasure */
-     , (1616, 9,  3677,  0, 0, 0.05, False) /* Create Swamp Gromnie Tooth (3677) for ContainTreasure */
      , (1616, 9,  4237,  0, 0, 0.05, False) /* Create Thick Gromnie Hide (4237) for ContainTreasure */
-     , (1616, 9, 23307,  0, 0, 0.001, False) /* Create Ball of Gunk (23307) for ContainTreasure */;
+     , (1616, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (1616, 9, 23307,  0, 0, 0.001, False) /* Create Ball of Gunk (23307) for ContainTreasure */
+     , (1616, 9,     0,  0, 0, 0.999, False) /* Create nothing for ContainTreasure */;

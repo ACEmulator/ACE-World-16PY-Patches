@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12749;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12749, 'xbowtraining', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (12749, 'xbowtraining', 3, '2019-04-08 04:44:07') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12749,   1,        256) /* ItemType - MissileWeapon */
@@ -17,8 +17,8 @@ VALUES (12749,   1,        256) /* ItemType - MissileWeapon */
      , (12749,  49,         70) /* WeaponTime */
      , (12749,  50,          2) /* AmmoType - Bolt */
      , (12749,  51,          2) /* CombatUse - Missle */
-     , (12749,  52,          2) /* ParentLocation */
-     , (12749,  53,          3) /* PlacementPosition */
+     , (12749,  52,          2) /* ParentLocation - LeftHand */
+     , (12749,  53,          3) /* PlacementPosition - LeftHand */
      , (12749,  60,        145) /* WeaponRange */
      , (12749,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12749, 150,        103) /* HookPlacement - Hook */

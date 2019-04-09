@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 192;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (192, 'drudgeprowler', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (192, 'drudgeprowler', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (192,   1,         16) /* ItemType - Creature */
@@ -74,8 +74,24 @@ VALUES (192,   1,   33556445) /* Setup */
      , (192,   7,  268435972) /* ClothingBase */
      , (192,   8,  100667445) /* Icon */
      , (192,  22,  872415258) /* PhysicsEffectTable */
-     , (192,  32,         74) /* WieldedTreasureType */
-     , (192,  35,        453) /* DeathTreasureType */;
+     , (192,  32,         74) /* WieldedTreasureType - 
+                                   Wield Club (309) | Probability: 5%
+                                   Wield Dabus (313) | Probability: 10%
+                                   Wield Dagger (314) | Probability: 5%
+                                   Wield Kasrullah (325) | Probability: 5%
+                                   Wield Khanjar (328) | Probability: 5%
+                                   Wield Mace (331) | Probability: 10%
+                                   Wield Short Sword (352) | Probability: 10%
+                                   Wield Simi (345) | Probability: 10%
+                                   Wield Tofun (356) | Probability: 10%
+                                   Wield Yaoji (361) | Probability: 10%
+                                   Wield Drudge Board with Nail (7767) | Probability: 15%
+                                   Wield 10x Shouken (343) | Probability: 4%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5%
+                                   Wield 4x Javelin (320) | Probability: 2%
+                                   Wield Djarid (317) | Probability: 1%
+                                   Wield 4x Throwing Club (310) | Probability: 1% */
+     , (192,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (192,   1,  60, 0, 0) /* Strength */
@@ -188,13 +204,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (192, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
-     , (192, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (192, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (192, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (192, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (192, 9,  3669,  0, 0, 0.08, False) /* Create Drudge Charm (3669) for ContainTreasure */
+VALUES (192, 9,  3669,  0, 0, 0.08, False) /* Create Drudge Charm (3669) for ContainTreasure */
+     , (192, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
      , (192, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (192, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (192, 9,  8145,  0, 0, 0.05, False) /* Create Drudge Head (8145) for ContainTreasure */
+     , (192, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (192, 9, 13222,  0, 0, 0.1, False) /* Create Peppermint Stick (13222) for ContainTreasure */
-     , (192, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */;
+     , (192, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (192, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */
+     , (192, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

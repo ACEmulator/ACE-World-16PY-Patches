@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23551;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23551, 'gromnieashadolescent', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (23551, 'gromnieashadolescent', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23551,   1,         16) /* ItemType - Creature */
      , (23551,   2,         15) /* CreatureType - Gromnie */
-     , (23551,   3,          3) /* PaletteTemplate - BluePurple */
+     , (23551,   3,          9) /* PaletteTemplate - Grey */
      , (23551,   6,         -1) /* ItemsCapacity */
      , (23551,   7,         -1) /* ContainersCapacity */
      , (23551,  16,          1) /* ItemUseable - No */
@@ -33,7 +33,7 @@ VALUES (23551,   1,       5) /* HeartbeatInterval */
      , (23551,   3,       5) /* HealthRate */
      , (23551,   4,       6) /* StaminaRate */
      , (23551,   5,       2) /* ManaRate */
-     , (23551,  12,       0) /* Shade */
+     , (23551,  12,     0.5) /* Shade */
      , (23551,  13,       1) /* ArmorModVsSlash */
      , (23551,  14,       1) /* ArmorModVsPierce */
      , (23551,  15,       1) /* ArmorModVsBludgeon */
@@ -74,7 +74,7 @@ VALUES (23551,   1,   33554487) /* Setup */
      , (23551,   8,  100667938) /* Icon */
      , (23551,  19,         87) /* ActivationAnimation */
      , (23551,  22,  872415260) /* PhysicsEffectTable */
-     , (23551,  30,         86) /* PhysicsScript - BreatheAcid */
+     , (23551,  30,         87) /* PhysicsScript - BreatheLightning */
      , (23551,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -145,15 +145,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23551, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (23551, 9, 28192,  0, 0, 0.03, False) /* Create Adolescent Ash Gromnie Eye (28192) for ContainTreasure */
      , (23551, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (23551, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
+     , (23551, 9, 28211,  0, 0, 0.03, False) /* Create Ash Gromnie Wings (28211) for ContainTreasure */
      , (23551, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (23551, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (23551, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (23551, 9,  3674,  0, 0, 0.25, False) /* Create Ash Gromnie Tooth (3674) for ContainTreasure */
-     , (23551, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
-     , (23551, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (23551, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
      , (23551, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (23551, 9, 28192,  0, 0, 0.03, False) /* Create Adolescent Ash Gromnie Eye (28192) for ContainTreasure */
-     , (23551, 9, 28211,  0, 0, 0.03, False) /* Create Ash Gromnie Wings (28211) for ContainTreasure */;
+     , (23551, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (23551, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (23551, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (23551, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
+     , (23551, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

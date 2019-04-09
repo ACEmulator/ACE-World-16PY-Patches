@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27892;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27892, 'burunruukscampmosswartexodus', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (27892, 'burunruukscampmosswartexodus', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27892,   1,         16) /* ItemType - Creature */
@@ -74,8 +74,13 @@ VALUES (27892,   1,   33558582) /* Setup */
      , (27892,   7,  268436789) /* ClothingBase */
      , (27892,   8,  100675761) /* Icon */
      , (27892,  22,  872415402) /* PhysicsEffectTable */
-     , (27892,  32,        469) /* WieldedTreasureType */
-     , (27892,  35,        451) /* DeathTreasureType */;
+     , (27892,  32,        469) /* WieldedTreasureType - 
+                                   Wield Stone Axe (26024) | Probability: 20%
+                                   Wield Bone Dagger (26033) | Probability: 20%
+                                   Wield Stone Mace (26045) | Probability: 20%
+                                   Wield Stone Spear (26050) | Probability: 20%
+                                   Wield Bone Sword (26054) | Probability: 20% */
+     , (27892,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27892,   1, 180, 0, 0) /* Strength */
@@ -174,17 +179,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27892, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+VALUES (27892, 9, 27896,  1, 0, 1, False) /* Create A Smelly Key (27896) for ContainTreasure */
      , (27892, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (27892, 9, 27896,  1, 0, 1, False) /* Create A Smelly Key (27896) for ContainTreasure */
      , (27892, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (27892, 9, 27896,  1, 0, 1, False) /* Create A Smelly Key (27896) for ContainTreasure */
      , (27892, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (27892, 9, 27896,  1, 0, 1, False) /* Create A Smelly Key (27896) for ContainTreasure */
      , (27892, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (27892, 9, 27896,  1, 0, 1, False) /* Create A Smelly Key (27896) for ContainTreasure */
      , (27892, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (27892, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (27892, 9, 27896,  1, 0, 1, False) /* Create A Smelly Key (27896) for ContainTreasure */
-     , (27892, 9, 27896,  1, 0, 1, False) /* Create A Smelly Key (27896) for ContainTreasure */
-     , (27892, 9, 27896,  1, 0, 1, False) /* Create A Smelly Key (27896) for ContainTreasure */
-     , (27892, 9, 27896,  1, 0, 1, False) /* Create A Smelly Key (27896) for ContainTreasure */
-     , (27892, 9, 27896,  1, 0, 1, False) /* Create A Smelly Key (27896) for ContainTreasure */
-     , (27892, 9, 27896,  1, 0, 1, False) /* Create A Smelly Key (27896) for ContainTreasure */
-     , (27892, 9, 28984,  0, 0, 0.02, False) /* Create Bloodied Burun Hide (28984) for ContainTreasure */;
+     , (27892, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (27892, 9, 28984,  0, 0, 0.02, False) /* Create Bloodied Burun Hide (28984) for ContainTreasure */
+     , (27892, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

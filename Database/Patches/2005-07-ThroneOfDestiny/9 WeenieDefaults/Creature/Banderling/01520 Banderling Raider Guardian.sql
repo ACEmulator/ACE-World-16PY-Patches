@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1520;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1520, 'banderlingcolier', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (1520, 'banderlingcolier', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1520,   1,         16) /* ItemType - Creature */
@@ -73,8 +73,21 @@ VALUES (1520,   1,   33558024) /* Setup */
      , (1520,   7,  268436496) /* ClothingBase */
      , (1520,   8,  100667453) /* Icon */
      , (1520,  22,  872415255) /* PhysicsEffectTable */
-     , (1520,  32,         47) /* WieldedTreasureType */
-     , (1520,  35,         48) /* DeathTreasureType */;
+     , (1520,  32,         47) /* WieldedTreasureType - 
+                                   Wield 3x Throwing Axe (304) | Probability: 1%
+                                   Wield 3x Throwing Club (310) | Probability: 1%
+                                   Wield Battle Axe (301) | Probability: 15%
+                                   Wield Club (309) | Probability: 5%
+                                   Wield Dabus (313) | Probability: 10%
+                                   Wield Jo (322) | Probability: 3%
+                                   Wield Kasrullah (325) | Probability: 5%
+                                   Wield Mace (331) | Probability: 10%
+                                   Wield Morning Star (332) | Probability: 15%
+                                   Wield Nabut (333) | Probability: 3%
+                                   Wield Shou-ono (342) | Probability: 10%
+                                   Wield Silifi (344) | Probability: 10%
+                                   Wield Tofun (356) | Probability: 10% */
+     , (1520,  35,         48) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1520,   1,  95, 0, 0) /* Strength */
@@ -144,5 +157,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1520, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (1520, 9,  1533,  0, 0, 1, False) /* Create Small Rusted Key (1533) for ContainTreasure */;
+VALUES (1520, 9,  1533,  0, 0, 1, False) /* Create Small Rusted Key (1533) for ContainTreasure */
+     , (1520, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

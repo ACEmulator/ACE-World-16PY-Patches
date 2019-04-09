@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 949;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (949, 'ratred', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (949, 'ratred', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (949,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (949,   1,   33554493) /* Setup */
      , (949,   7,  268435555) /* ClothingBase */
      , (949,   8,  100667451) /* Icon */
      , (949,  22,  872415267) /* PhysicsEffectTable */
-     , (949,  35,        459) /* DeathTreasureType */;
+     , (949,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (949,   1,  50, 0, 0) /* Strength */
@@ -133,5 +133,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (949, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
-     , (949, 9,  3684,  0, 0, 0.15, False) /* Create Red Rat Tail (3684) for ContainTreasure */;
+VALUES (949, 9,  3684,  0, 0, 0.15, False) /* Create Red Rat Tail (3684) for ContainTreasure */
+     , (949, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24496;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24496, 'lugianrenegadegeneral', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (24496, 'lugianrenegadegeneral', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24496,   1,         16) /* ItemType - Creature */
@@ -76,7 +76,7 @@ VALUES (24496,   1,   33557003) /* Setup */
      , (24496,   7,  268436632) /* ClothingBase */
      , (24496,   8,  100667447) /* Icon */
      , (24496,  22,  872415262) /* PhysicsEffectTable */
-     , (24496,  35,         26) /* DeathTreasureType */;
+     , (24496,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24496,   1, 380, 0, 0) /* Strength */
@@ -116,7 +116,7 @@ VALUES (24496,  0,  4,  2,  0.3,  460,  262,  262,  262,  166,   78,  396,  368,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24496, 2, 24567,  0, 0, 0, False) /* Create Quadruple-bladed Axe (24567) for Wield */
-     , (24496, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (24496, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (24496, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (24496, 9, 24557,  0, 0, 1, False) /* Create Quadruple-bladed Axe (24557) for ContainTreasure */;
+     , (24496, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (24496, 9, 24557,  0, 0, 1, False) /* Create Quadruple-bladed Axe (24557) for ContainTreasure */
+     , (24496, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

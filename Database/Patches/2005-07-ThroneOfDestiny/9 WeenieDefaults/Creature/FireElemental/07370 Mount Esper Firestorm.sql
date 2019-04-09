@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7370;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7370, 'firestormesper', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7370, 'firestormesper', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7370,   1,         16) /* ItemType - Creature */
@@ -27,7 +27,8 @@ VALUES (7370,   1, True ) /* Stuck */
      , (7370,  13, False) /* Ethereal */
      , (7370,  14, True ) /* GravityStatus */
      , (7370,  15, True ) /* LightsStatus */
-     , (7370,  19, True ) /* Attackable */;
+     , (7370,  19, True ) /* Attackable */
+     , (7070, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7370,   1,       5) /* HeartbeatInterval */
@@ -71,7 +72,7 @@ VALUES (7370,   1,   33556636) /* Setup */
      , (7370,   4,  805306368) /* CombatTable */
      , (7370,   8,  100670274) /* Icon */
      , (7370,  22,  872415363) /* PhysicsEffectTable */
-     , (7370,  35,         25) /* DeathTreasureType */;
+     , (7370,  35,         25) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7370,   1, 130, 0, 0) /* Strength */
@@ -141,21 +142,21 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As %s smites the 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7370, 2,  7799,  3, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7370, 9,  7419,  0, 0, 1, False) /* Create White Fire Infusion (7419) for ContainTreasure */
      , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7370, 9,  7419,  0, 0, 1, False) /* Create White Fire Infusion (7419) for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7370, 9,  7419,  0, 0, 1, False) /* Create White Fire Infusion (7419) for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7370, 9,  7419,  0, 0, 1, False) /* Create White Fire Infusion (7419) for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7370, 9,  7419,  0, 0, 1, False) /* Create White Fire Infusion (7419) for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7370, 9,  7419,  0, 0, 1, False) /* Create White Fire Infusion (7419) for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7370, 9,  7419,  0, 0, 1, False) /* Create White Fire Infusion (7419) for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7370, 9,  7419,  0, 0, 1, False) /* Create White Fire Infusion (7419) for ContainTreasure */
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7370, 9,  7419,  0, 0, 1, False) /* Create White Fire Infusion (7419) for ContainTreasure */
-     , (7370, 9,  7419,  0, 0, 1, False) /* Create White Fire Infusion (7419) for ContainTreasure */;
+     , (7370, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

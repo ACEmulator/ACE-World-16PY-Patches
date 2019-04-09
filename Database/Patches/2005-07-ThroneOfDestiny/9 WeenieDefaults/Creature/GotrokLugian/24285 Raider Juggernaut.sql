@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24285;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24285, 'lugianjuggernautraider', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (24285, 'lugianjuggernautraider', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24285,   1,         16) /* ItemType - Creature */
@@ -75,8 +75,11 @@ VALUES (24285,   1,   33557003) /* Setup */
      , (24285,   7,  268436618) /* ClothingBase */
      , (24285,   8,  100667447) /* Icon */
      , (24285,  22,  872415262) /* PhysicsEffectTable */
-     , (24285,  32,        424) /* WieldedTreasureType */
-     , (24285,  35,        452) /* DeathTreasureType */;
+     , (24285,  32,        424) /* WieldedTreasureType - 
+                                   Wield 10x Rock (23133) | Probability: 20%
+                                   Wield Lugian Morning Star (23134) | Probability: 40%
+                                   Wield Lugian Axe (23132) | Probability: 40% */
+     , (24285,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24285,   1, 360, 0, 0) /* Strength */
@@ -195,7 +198,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Our former masters have given us but one true gift. You have just felt its weight. Perhaps you would do better at catching my assault!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24285, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (24285, 9,  7043,  0, 0, 0.03, False) /* Create Large Lugian Sinew (7043) for ContainTreasure */
      , (24285, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (24285, 9,  7043,  0, 0, 0.03, False) /* Create Large Lugian Sinew (7043) for ContainTreasure */
-     , (24285, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;
+     , (24285, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (24285, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19303;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19303, 'statuereplicamidbentensmall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (19303, 'statuereplicamidbentensmall', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19303,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,9 @@ VALUES (19303,   1,   33554510) /* Setup */
      , (19303,   7,  268436345) /* ClothingBase */
      , (19303,   8,  100667446) /* Icon */
      , (19303,  22,  872415349) /* PhysicsEffectTable */
-     , (19303,  32,        398) /* WieldedTreasureType */
-     , (19303,  35,        451) /* DeathTreasureType */;
+     , (19303,  32,        398) /* WieldedTreasureType - 
+                                   Wield Ben Ten's Tachi (15391) | Probability: 100% */
+     , (19303,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19303,   1, 210, 0, 0) /* Strength */
@@ -119,5 +120,5 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19303,  1159,      2)  /* Heal Self IV */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19303, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (19303, 9, 19210,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19210) for ContainTreasure */;
+VALUES (19303, 9, 19210,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19210) for ContainTreasure */
+     , (19303, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11531;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11531, 'golemsand_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11531, 'golemsand_xp', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11531,   1,         16) /* ItemType - Creature */
@@ -71,7 +71,7 @@ VALUES (11531,   1,   33556426) /* Setup */
      , (11531,   7,  268435984) /* ClothingBase */
      , (11531,   8,  100667940) /* Icon */
      , (11531,  22,  872415329) /* PhysicsEffectTable */
-     , (11531,  35,        465) /* DeathTreasureType */;
+     , (11531,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11531,   1, 110, 0, 0) /* Strength */
@@ -129,7 +129,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11531, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (11531, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (11531, 9,  6353,  0, 0, 0.01, False) /* Create Pyreal Mote (6353) for ContainTreasure */
-     , (11531, 9, 11352,  0, 0, 0.05, False) /* Create Sand Golem Heart (11352) for ContainTreasure */;
+VALUES (11531, 9,  6353,  0, 0, 0.01, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (11531, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (11531, 9, 11352,  0, 0, 0.05, False) /* Create Sand Golem Heart (11352) for ContainTreasure */
+     , (11531, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

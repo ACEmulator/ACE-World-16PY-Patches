@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7507;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7507, 'golemcoral', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7507, 'golemcoral', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7507,   1,         16) /* ItemType - Creature */
@@ -76,7 +76,7 @@ VALUES (7507,   1,   33556426) /* Setup */
      , (7507,   7,  268436009) /* ClothingBase */
      , (7507,   8,  100667940) /* Icon */
      , (7507,  22,  872415321) /* PhysicsEffectTable */
-     , (7507,  35,        462) /* DeathTreasureType */;
+     , (7507,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7507,   1, 250, 0, 0) /* Strength */
@@ -144,7 +144,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7507, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (7507, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7507, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
-     , (7507, 9,  7605,  0, 0, 0.05, False) /* Create Coral Heart (7605) for ContainTreasure */;
+VALUES (7507, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (7507, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (7507, 9,  7605,  0, 0, 0.05, False) /* Create Coral Heart (7605) for ContainTreasure */
+     , (7507, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

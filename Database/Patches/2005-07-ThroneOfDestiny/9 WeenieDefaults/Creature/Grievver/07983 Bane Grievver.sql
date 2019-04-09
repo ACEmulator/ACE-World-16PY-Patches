@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7983;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7983, 'grievverbane', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7983, 'grievverbane', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7983,   1,         16) /* ItemType - Creature */
@@ -80,8 +80,8 @@ VALUES (7983,   1,   33556698) /* Setup */
      , (7983,   8,  100670960) /* Icon */
      , (7983,  19,         86) /* ActivationAnimation */
      , (7983,  22,  872415364) /* PhysicsEffectTable */
-     , (7983,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (7983,  35,        464) /* DeathTreasureType */;
+     , (7983,  30,         86) /* PhysicsScript - BreatheAcid */
+     , (7983,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7983,   1, 220, 0, 0) /* Strength */
@@ -164,9 +164,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7983, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7983, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7983, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (7983, 9,  8021,  0, 0, 0.03, False) /* Create Shendolain Key (8021) for ContainTreasure */
+VALUES (7983, 9,  8021,  0, 0, 0.03, False) /* Create Shendolain Key (8021) for ContainTreasure */
+     , (7983, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (7983, 9,  9098,  0, 0, 0.05, False) /* Create Vial of Organic Acid (9098) for ContainTreasure */
-     , (7983, 9, 20856,  0, 0, 0.01, False) /* Create Bael'Zharon Stamp (20856) for ContainTreasure */;
+     , (7983, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (7983, 9, 20856,  0, 0, 0.01, False) /* Create Bael'Zharon Stamp (20856) for ContainTreasure */
+     , (7983, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

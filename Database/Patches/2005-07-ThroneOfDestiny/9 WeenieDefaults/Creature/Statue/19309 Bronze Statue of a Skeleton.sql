@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19309;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19309, 'statuereplicamidskeletonsmall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (19309, 'statuereplicamidskeletonsmall', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19309,   1,         16) /* ItemType - Creature */
@@ -75,8 +75,16 @@ VALUES (19309,   1,   33554521) /* Setup */
      , (19309,   7,  268435646) /* ClothingBase */
      , (19309,   8,  100669124) /* Icon */
      , (19309,  22,  872415349) /* PhysicsEffectTable */
-     , (19309,  32,        402) /* WieldedTreasureType */
-     , (19309,  35,        451) /* DeathTreasureType */;
+     , (19309,  32,        402) /* WieldedTreasureType - 
+                                   Wield Bronze Longbow (15873) | Probability: 67%
+                                   Wield 20x Greater Acid Arrow (5306) | Probability: 16%
+                                   Wield 20x Greater Lightning Arrow (5308) | Probability: 16%
+                                   Wield 20x Greater Fire Arrow (5305) | Probability: 17%
+                                   Wield 20x Greater Frost Arrow (5307) | Probability: 17%
+                                   Wield 20x Greater Armor Piercing Arrow (5309) | Probability: 17%
+                                   Wield 20x Greater Frog Crotch Arrow (5312) | Probability: 17%
+                                   Wield Bronze Morning Star (15877) | Probability: 100% */
+     , (19309,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19309,   1, 190, 0, 0) /* Strength */
@@ -138,5 +146,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19309, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (19309, 9, 19212,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19212) for ContainTreasure */;
+VALUES (19309, 9, 19212,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19212) for ContainTreasure */
+     , (19309, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

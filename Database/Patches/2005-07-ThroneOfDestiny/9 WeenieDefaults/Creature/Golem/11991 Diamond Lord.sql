@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11991;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11991, 'golemhighbossmonster', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11991, 'golemhighbossmonster', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11991,   1,         16) /* ItemType - Creature */
@@ -81,7 +81,7 @@ VALUES (11991,   1,   33556439) /* Setup */
      , (11991,   7,  268435983) /* ClothingBase */
      , (11991,   8,  100667940) /* Icon */
      , (11991,  22,  872415322) /* PhysicsEffectTable */
-     , (11991,  35,         19) /* DeathTreasureType */;
+     , (11991,  35,         19) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11991,   1, 400, 0, 0) /* Strength */
@@ -148,16 +148,16 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11991, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
-     , (11991, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
-     , (11991, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (11991, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (11991, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (11991, 9,  6353,  0, 0, 1, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+VALUES (11991, 9,  7338,  0, 0, 0.75, False) /* Create Diamond Heart (7338) for ContainTreasure */
+     , (11991, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
      , (11991, 9,  6876,  0, 0, 0.5, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (11991, 9,  7338,  0, 0, 0.75, False) /* Create Diamond Heart (7338) for ContainTreasure */
+     , (11991, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
+     , (11991, 9,  6353,  0, 0, 1, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (11991, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (11991, 9, 23615,  0, 0, 0.3, False) /* Create Diamond Shield (23615) for ContainTreasure */
+     , (11991, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
      , (11991, 9, 12689,  0, 0, 0.2, False) /* Create Diamond Powder (12689) for ContainTreasure */
-     , (11991, 9, 23615,  0, 0, 0.3, False) /* Create Diamond Shield (23615) for ContainTreasure */;
+     , (11991, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11991, 0.33, 4216, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Diamond Golem (4216) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19315;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19315, 'statuereplicamidzharalimsmall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (19315, 'statuereplicamidzharalimsmall', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19315,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,22 @@ VALUES (19315,   1,   33554433) /* Setup */
      , (19315,   7,  268436405) /* ClothingBase */
      , (19315,   8,  100667446) /* Icon */
      , (19315,  22,  872415349) /* PhysicsEffectTable */
-     , (19315,  32,        404) /* WieldedTreasureType */
-     , (19315,  35,        451) /* DeathTreasureType */;
+     , (19315,  32,        404) /* WieldedTreasureType - 
+                                   Wield Bronze Longbow (15873) | Probability: 40%
+                                   Wield 20x Greater Fire Arrow (5305) | Probability: 25%
+                                   Wield 20x Greater Arrow (5304) | Probability: 25%
+                                   Wield 20x Greater Frost Arrow (5307) | Probability: 25%
+                                   Wield 20x Greater Armor Piercing Arrow (5309) | Probability: 25%
+                                   Wield Bronze Atlatl (15870) | Probability: 60%
+                                   Wield 20x Armor Piercing Atlatl Dart (15280) | Probability: 16%
+                                   Wield 20x Greater Fire Atlatl Dart (15293) | Probability: 16%
+                                   Wield 20x Greater Atlatl Dart (15287) | Probability: 17%
+                                   Wield 20x Armor Piercing Atlatl Dart (15280) | Probability: 17%
+                                   Wield 20x Greater Frost Atlatl Dart (15295) | Probability: 17%
+                                   Wield 20x Greater Lightning Atlatl Dart (15292) | Probability: 17%
+                                   Wield Bronze Zharalim Simi (15390) | Probability: 50%
+                                   Wield Bronze Quarter Staff (15878) | Probability: 50% */
+     , (19315,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19315,   1, 180, 0, 0) /* Strength */
@@ -124,8 +138,8 @@ VALUES (19315,  5 /* HeartBeat */,    0.8, NULL, 2147483709 /* NonCombat */, 109
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073753, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073756 /* MeditateState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19315, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (19315, 9, 19214,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19214) for ContainTreasure */;
+VALUES (19315, 9, 19214,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19214) for ContainTreasure */
+     , (19315, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

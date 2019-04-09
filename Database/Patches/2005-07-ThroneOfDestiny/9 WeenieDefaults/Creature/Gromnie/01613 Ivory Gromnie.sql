@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1613;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1613, 'gromnieivory', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (1613, 'gromnieivory', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1613,   1,         16) /* ItemType - Creature */
@@ -32,7 +32,7 @@ VALUES (1613,   1,       5) /* HeartbeatInterval */
      , (1613,   3, 0.400000005960464) /* HealthRate */
      , (1613,   4,       5) /* StaminaRate */
      , (1613,   5,       2) /* ManaRate */
-     , (1613,  12,       0) /* Shade */
+     , (1613,  12,     0.5) /* Shade */
      , (1613,  13,       1) /* ArmorModVsSlash */
      , (1613,  14,       1) /* ArmorModVsPierce */
      , (1613,  15,       1) /* ArmorModVsBludgeon */
@@ -71,7 +71,7 @@ VALUES (1613,   1,   33554487) /* Setup */
      , (1613,   8,  100667938) /* Icon */
      , (1613,  19,         84) /* ActivationAnimation */
      , (1613,  22,  872415260) /* PhysicsEffectTable */
-     , (1613,  30,         83) /* PhysicsScript - PortalExit */
+     , (1613,  30,         84) /* PhysicsScript - BreatheFlame */
      , (1613,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -142,9 +142,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1613, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (1613, 9,  3675,  0, 0, 0.05, False) /* Create Ivory Gromnie Tooth (3675) for ContainTreasure */
      , (1613, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1613, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (1613, 9,  3675,  0, 0, 0.05, False) /* Create Ivory Gromnie Tooth (3675) for ContainTreasure */
      , (1613, 9,  4236,  0, 0, 0.05, False) /* Create Ivory Gromnie Hide (4236) for ContainTreasure */
-     , (1613, 9,  5794,  0, 0, 0.1, False) /* Create Hot Pepper (5794) for ContainTreasure */;
+     , (1613, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (1613, 9,  5794,  0, 0, 0.1, False) /* Create Hot Pepper (5794) for ContainTreasure */
+     , (1613, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

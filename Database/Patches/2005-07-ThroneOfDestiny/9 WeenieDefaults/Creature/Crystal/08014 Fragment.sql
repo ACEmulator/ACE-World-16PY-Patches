@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8014;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8014, 'crystalfragmentneclass', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8014, 'crystalfragmentnew', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8014,   1,         16) /* ItemType - Creature */
@@ -77,7 +77,7 @@ VALUES (8014,   1,   33556729) /* Setup */
      , (8014,   7,  268435859) /* ClothingBase */
      , (8014,   8,  100670283) /* Icon */
      , (8014,  22,  872415348) /* PhysicsEffectTable */
-     , (8014,  35,        463) /* DeathTreasureType */;
+     , (8014,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8014,   1,  90, 0, 0) /* Strength */
@@ -129,9 +129,9 @@ VALUES (8014,    81,  2.115)  /* Flame Bolt II */
      , (8014,  1416,  2.044)  /* Slowness Other II */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8014, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+VALUES (8014, 9,  6057,  0, 0, 0.02, False) /* Create Tiny Shard (6057) for ContainTreasure */
      , (8014, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (8014, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (8014, 9,  6055,  0, 0, 0.02, False) /* Create Cracked Shard (6055) for ContainTreasure */
-     , (8014, 9,  6057,  0, 0, 0.02, False) /* Create Tiny Shard (6057) for ContainTreasure */
-     , (8014, 9, 20860,  0, 0, 0.03, False) /* Create Herald Stamp (20860) for ContainTreasure */;
+     , (8014, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (8014, 9, 20860,  0, 0, 0.03, False) /* Create Herald Stamp (20860) for ContainTreasure */
+     , (8014, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

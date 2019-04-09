@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10951;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10951, 'tumerokchampiontemenua_xp', 10, '2019-02-19 15:09:35') /* Creature */;
+VALUES (10951, 'tumerokchampiontemenua_xp', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10951,   1,         16) /* ItemType - Creature */
@@ -244,9 +244,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Karenua? Some help.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10951, 1, 10962,  1, 0, 1, False) /* Create Hea Totem (10962) for Contain */
-     , (10951, 1, 10999,  1, 0, 1, False) /* Create Greenwood Haft (10999) for Contain */
+VALUES (10951, 1, 10999,  1, 0, 1, False) /* Create Greenwood Haft (10999) for Contain */
      , (10951, 1, 11000,  1, 0, 1, False) /* Create Gromnie Sinew Bowstring (11000) for Contain */
+     , (10951, 1, 10962,  1, 0, 1, False) /* Create Hea Totem (10962) for Contain */
      , (10951, 2, 10998,  1, 0, 1, False) /* Create Exquisite Elari Wood Bow (10998) for Wield */
      , (10951, 2, 11002,  1, 0, 0.5, False) /* Create Hollow Point Armor Piercing Arrow (11002) for Wield */
      , (10951, 2, 11003,  1, 0, 0.5, False) /* Create Hollow Point Explosive Tipped Arrow (11003) for Wield */;

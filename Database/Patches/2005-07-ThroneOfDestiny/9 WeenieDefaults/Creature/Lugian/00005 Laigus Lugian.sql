@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5, 'lugianlaigus', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (5, 'lugianlaigus', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,13 @@ VALUES (5,   1,   33557003) /* Setup */
      , (5,   7,  268436152) /* ClothingBase */
      , (5,   8,  100667447) /* Icon */
      , (5,  22,  872415262) /* PhysicsEffectTable */
-     , (5,  32,        109) /* WieldedTreasureType */
-     , (5,  35,        453) /* DeathTreasureType */;
+     , (5,  32,        109) /* WieldedTreasureType - 
+                                   Wield Rock (23747) | Probability: 75%
+                                   Wield Lugian Axe (23741) | Probability: 15%
+                                   Wield Lugian Club (23751) | Probability: 20%
+                                   Wield Lugian Hammer (23755) | Probability: 20%
+                                   Wield Lugian Morning Star (23767) | Probability: 20% */
+     , (5,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5,   1, 150, 0, 0) /* Strength */

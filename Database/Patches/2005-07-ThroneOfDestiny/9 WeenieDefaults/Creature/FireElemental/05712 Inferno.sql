@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5712;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5712, 'fireelementalinferno', 10, '2019-02-08 15:30:00') /* Creature */;
+VALUES (5712, 'fireelementalinferno', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5712,   1,         16) /* ItemType - Creature */
@@ -78,7 +78,7 @@ VALUES (5712,   1,   33556131) /* Setup */
      , (5712,   4,  805306368) /* CombatTable */
      , (5712,   8,  100670274) /* Icon */
      , (5712,  22,  872415349) /* PhysicsEffectTable */
-     , (5712,  35,        460) /* DeathTreasureType */;
+     , (5712,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5712,   1, 130, 0, 0) /* Strength */
@@ -132,8 +132,8 @@ VALUES (5712,    84,  2.004)  /* Flame Bolt V */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5712, 2,  5709,  3, 0, 0, False) /* Create Ball of fire (5709) for Wield */
-     , (5712, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (5712, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (5712, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (5712, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5712, 1, 5711, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Flamma (5711) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

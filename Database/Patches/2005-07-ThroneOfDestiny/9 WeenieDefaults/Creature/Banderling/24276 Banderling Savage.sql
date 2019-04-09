@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24276;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24276, 'banderlingsavage', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (24276, 'banderlingsavage', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24276,   1,         16) /* ItemType - Creature */
@@ -77,7 +77,7 @@ VALUES (24276,   1,   33558024) /* Setup */
      , (24276,   7,  268436611) /* ClothingBase */
      , (24276,   8,  100667453) /* Icon */
      , (24276,  22,  872415255) /* PhysicsEffectTable */
-     , (24276,  35,        452) /* DeathTreasureType */;
+     , (24276,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24276,   1, 245, 0, 0) /* Strength */
@@ -183,9 +183,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24276, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (24276, 9, 24829,  0, 0, 0.03, False) /* Create Banderling Savage Arm (24829) for ContainTreasure */
      , (24276, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (24276, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
      , (24276, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (24276, 9, 24829,  0, 0, 0.03, False) /* Create Banderling Savage Arm (24829) for ContainTreasure */
-     , (24276, 9, 30400,  0, 0, 0.005, False) /* Create Niffis Fighting Pits (30400) for ContainTreasure */;
+     , (24276, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (24276, 9, 30400,  0, 0, 0.005, False) /* Create Niffis Fighting Pits (30400) for ContainTreasure */
+     , (24276, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;

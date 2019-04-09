@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19542;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19542, 'golemcrystalimperator', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (19542, 'golemcrystalimperator', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19542,   1,         16) /* ItemType - Creature */
@@ -80,7 +80,7 @@ VALUES (19542,   1,   33556439) /* Setup */
      , (19542,   7,  268435983) /* ClothingBase */
      , (19542,   8,  100667940) /* Icon */
      , (19542,  22,  872415322) /* PhysicsEffectTable */
-     , (19542,  35,        461) /* DeathTreasureType */;
+     , (19542,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19542,   1, 300, 0, 0) /* Strength */

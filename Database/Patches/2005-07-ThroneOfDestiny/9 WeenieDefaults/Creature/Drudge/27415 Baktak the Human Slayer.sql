@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27415;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27415, 'drudgeravenerfighter2', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (27415, 'drudgeravenerfighter2', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27415,   1,         16) /* ItemType - Creature */
@@ -76,7 +76,7 @@ VALUES (27415,   1,   33556445) /* Setup */
      , (27415,   7,  268435977) /* ClothingBase */
      , (27415,   8,  100667445) /* Icon */
      , (27415,  22,  872415258) /* PhysicsEffectTable */
-     , (27415,  35,        450) /* DeathTreasureType */;
+     , (27415,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27415,   1, 190, 0, 0) /* Strength */
@@ -186,12 +186,12 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435558 /* AttackMed2 */, NULL
      , (@parent_id,  1,   5 /* Motion */, 1, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27415, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (27415, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (27415, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (27415, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (27415, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+VALUES (27415, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (27415, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (27415, 9,  7040,  0, 0, 0.03, False) /* Create Ravener Guts (7040) for ContainTreasure */
+     , (27415, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (27415, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (27415, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (27415, 9, 15768,  0, 0, 0.02, False) /* Create Ruined Amulet of the Mace (15768) for ContainTreasure */
+     , (27415, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (27415, 9, 27407,  0, 0, 1, False) /* Create Drudge Championship Belt (27407) for ContainTreasure */;

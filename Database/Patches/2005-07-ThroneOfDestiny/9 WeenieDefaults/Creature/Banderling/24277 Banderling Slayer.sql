@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24277;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24277, 'banderlingslayer', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (24277, 'banderlingslayer', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24277,   1,         16) /* ItemType - Creature */
@@ -78,8 +78,10 @@ VALUES (24277,   1,   33558024) /* Setup */
      , (24277,   7,  268436610) /* ClothingBase */
      , (24277,   8,  100667453) /* Icon */
      , (24277,  22,  872415255) /* PhysicsEffectTable */
-     , (24277,  32,        269) /* WieldedTreasureType */
-     , (24277,  35,        448) /* DeathTreasureType */;
+     , (24277,  32,        269) /* WieldedTreasureType - 
+                                   Wield 15x Fire Throwing Club (23658) | Probability: 50%
+                                   Wield Club (23644) | Probability: 50% */
+     , (24277,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24277,   1, 200, 0, 0) /* Strength */
@@ -190,5 +192,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24277, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (24277, 9, 24834,  0, 0, 0.03, False) /* Create Banderling Slayer Scalp (24834) for ContainTreasure */;
+VALUES (24277, 9, 24834,  0, 0, 0.03, False) /* Create Banderling Slayer Scalp (24834) for ContainTreasure */
+     , (24277, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

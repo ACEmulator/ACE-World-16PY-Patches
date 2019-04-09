@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30684;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30684, 'banderlingheirophantwitheredboss', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30684, 'banderlingheirophantwitheredboss', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30684,   1,         16) /* ItemType - Creature */
@@ -75,8 +75,12 @@ VALUES (30684,   1,   33559220) /* Setup */
      , (30684,   7,  268436897) /* ClothingBase */
      , (30684,   8,  100667453) /* Icon */
      , (30684,  22,  872415255) /* PhysicsEffectTable */
-     , (30684,  32,        423) /* WieldedTreasureType */
-     , (30684,  35,        449) /* DeathTreasureType */;
+     , (30684,  32,        423) /* WieldedTreasureType - 
+                                   Wield 25x Frost Throwing Club (23130) | Probability: 20%
+                                   Wield 25x Fire Throwing Club (23129) | Probability: 20%
+                                   Wield Flaming Club (23127) | Probability: 25%
+                                   Wield Frost Club (23128) | Probability: 25% */
+     , (30684,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30684,   1, 350, 0, 0) /* Strength */
@@ -190,12 +194,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30684, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (30684, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (30684, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (30684, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (30684, 9,  3693,  0, 0, 0.3, False) /* Create Banderling Scalp (3693) for ContainTreasure */
-     , (30684, 9,  7825,  0, 0, 0.1, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (30684, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
+VALUES (30684, 9,  3693,  0, 0, 0.3, False) /* Create Banderling Scalp (3693) for ContainTreasure */
+     , (30684, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
      , (30684, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (30684, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (30684, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
+     , (30684, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (30684, 9,  7825,  0, 0, 0.1, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (30684, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (30684, 9, 30676,  0, 0, 1, False) /* Create Barren Bow (30676) for ContainTreasure */;

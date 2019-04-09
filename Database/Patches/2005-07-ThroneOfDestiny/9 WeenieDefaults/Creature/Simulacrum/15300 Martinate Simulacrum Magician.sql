@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 15300;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (15300, 'simulacrummartinatemage', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (15300, 'simulacrummartinatemage', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15300,   1,         16) /* ItemType - Creature */
@@ -82,8 +82,16 @@ VALUES (15300,   1,   33554433) /* Setup */
      , (15300,  16,   67110062) /* EyesPalette */
      , (15300,  17,   67110052) /* SkinPalette */
      , (15300,  22,  872415381) /* PhysicsEffectTable */
-     , (15300,  32,        396) /* WieldedTreasureType */
-     , (15300,  35,        391) /* DeathTreasureType */;
+     , (15300,  32,        396) /* WieldedTreasureType - 
+                                   Wield Bow of the Quiddity (9597) | Probability: 100%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Blade of the Quiddity (11916) | Probability: 34%
+                                   Wield Lance of the Quiddity (11913) | Probability: 33%
+                                   Wield Mace of the Quiddity (11907) | Probability: 33%
+                                   Wield Cap (118) | Palette: Red (14) | Shade: 1 | Probability: 100%
+                                   Wield Canescent Mattekar Robe (10870) | Palette: Yellow (17) | Shade: 0.7 | Probability: 100%
+                                   Wield Pants (12254) | Palette: Purple (13) | Shade: 0.8 | Probability: 100% */
+     , (15300,  35,        391) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (15300,   1, 190, 0, 0) /* Strength */
@@ -191,5 +199,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Must you still use such mundane materials to coalesce your spells. The master can release you of those feeble trappings.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (15300, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (15300, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+VALUES (15300, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (15300, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25869;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25869, 'mitegiant', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25869, 'mitegiant', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25869,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (25869,   1,   33558656) /* Setup */
      , (25869,   7,  268436816) /* ClothingBase */
      , (25869,   8,  100667448) /* Icon */
      , (25869,  22,  872415263) /* PhysicsEffectTable */
-     , (25869,  35,         26) /* DeathTreasureType */;
+     , (25869,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25869,   1, 400, 0, 0) /* Strength */
@@ -109,7 +109,7 @@ VALUES (25869,  0,  4,  0,    0,  475,  309,  356,  356,  475,  475,  475,  475,
      , (25869,  8,  4, 140, 0.75,  475,  309,  356,  356,  475,  475,  475,  475,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25869, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (25869, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (25869, 9, 30823,  0, 0, 0.01, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (25869, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (25869, 9, 28889,  0, 0, 0.05, False) /* Create Mite Head (28889) for ContainTreasure */
-     , (25869, 9, 30823,  0, 0, 0.01, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
+     , (25869, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

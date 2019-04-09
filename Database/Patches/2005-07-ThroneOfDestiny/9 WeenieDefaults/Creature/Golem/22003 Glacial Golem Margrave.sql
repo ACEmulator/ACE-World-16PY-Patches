@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22003;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22003, 'golemglacialmargraveportal1', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (22003, 'golemglacialmargraveportal1', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22003,   1,         16) /* ItemType - Creature */
@@ -78,7 +78,7 @@ VALUES (22003,   1,   33557484) /* Setup */
      , (22003,   8,  100667940) /* Icon */
      , (22003,  22,  872415323) /* PhysicsEffectTable */
      , (22003,  31,      21405) /* LinkedPortalOne - Citadel Valley */
-     , (22003,  35,        462) /* DeathTreasureType */;
+     , (22003,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22003, 12, 1464008980, 10.121, -32.81, -5.995, -4.371139E-08, 0, 0, -1) /* PortalSummonLoc */
@@ -154,5 +154,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22003, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (22003, 9,  6354,  0, 0, 0.2, False) /* Create Pyreal Nugget (6354) for ContainTreasure */;
+VALUES (22003, 9,  6354,  0, 0, 0.2, False) /* Create Pyreal Nugget (6354) for ContainTreasure */
+     , (22003, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;

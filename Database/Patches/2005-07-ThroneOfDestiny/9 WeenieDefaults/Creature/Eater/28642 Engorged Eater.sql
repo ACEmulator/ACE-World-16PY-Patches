@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28642;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28642, 'eaterengorged', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28642, 'eaterengorged', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28642,   1,         16) /* ItemType - Creature */
@@ -69,7 +69,7 @@ VALUES (28642,   1,   33559121) /* Setup */
      , (28642,   7,  268436888) /* ClothingBase */
      , (28642,   8,  100677365) /* Icon */
      , (28642,  22,  872415409) /* PhysicsEffectTable */
-     , (28642,  35,        456) /* DeathTreasureType */;
+     , (28642,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28642,   1, 350, 0, 0) /* Strength */
@@ -87,7 +87,7 @@ VALUES (28642,   1,   200, 0, 0, 380) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (28642,  6, 0, 3, 0, 230, 0, 0) /* MeleeDefense        Specialized */
      , (28642,  7, 0, 3, 0, 350, 0, 0) /* MissileDefense      Specialized */
-     , (28642, 13, 0, 3, 0, 250, 0, 0) /* UnarmedCombat       Specialized */
+     , (28642, 13, 0, 3, 0, 210, 0, 0) /* UnarmedCombat       Specialized */
      , (28642, 15, 0, 3, 0, 265, 0, 0) /* MagicDefense        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
@@ -151,23 +151,23 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28642, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+VALUES (28642, 9, 28732,  0, 0, 0.01, False) /* Create Aluvian Leg (28732) for ContainTreasure */
      , (28642, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (28642, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (28642, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (28642, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (28642, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (28642, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (28642, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (28642, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (28642, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (28642, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (28642, 9, 28732,  0, 0, 0.01, False) /* Create Aluvian Leg (28732) for ContainTreasure */
      , (28642, 9, 28733,  0, 0, 0.01, False) /* Create Gharu'ndim Arm (28733) for ContainTreasure */
-     , (28642, 9, 28734,  0, 0, 0.01, False) /* Create Sho Brain (28734) for ContainTreasure */
-     , (28642, 9, 28735,  0, 0, 0.01, False) /* Create Viamontian Torso (28735) for ContainTreasure */
-     , (28642, 9, 28736,  0, 0, 0.01, False) /* Create Penguin Wing (28736) for ContainTreasure */
-     , (28642, 9, 28737,  0, 0, 0.01, False) /* Create Rusty Lugian Axe (28737) for ContainTreasure */
+     , (28642, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (28642, 9, 28738,  0, 0, 0.01, False) /* Create Half-Digested Virindi Mask (28738) for ContainTreasure */
-     , (28642, 9, 45875,  0, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (28642, 9, 45876,  0, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+     , (28642, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28642, 9, 45875,  0, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (28642, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28642, 9, 28736,  0, 0, 0.01, False) /* Create Penguin Wing (28736) for ContainTreasure */
+     , (28642, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28642, 9, 28737,  0, 0, 0.01, False) /* Create Rusty Lugian Axe (28737) for ContainTreasure */
+     , (28642, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28642, 9, 45876,  0, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (28642, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (28642, 9, 28734,  0, 0, 0.01, False) /* Create Sho Brain (28734) for ContainTreasure */
+     , (28642, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28642, 9, 28735,  0, 0, 0.01, False) /* Create Viamontian Torso (28735) for ContainTreasure */
+     , (28642, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (28642, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (28642, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

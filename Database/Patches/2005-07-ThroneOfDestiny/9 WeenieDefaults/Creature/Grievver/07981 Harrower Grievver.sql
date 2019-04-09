@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7981;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7981, 'grievverharrower', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7981, 'grievverharrower', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7981,   1,         16) /* ItemType - Creature */
@@ -80,8 +80,8 @@ VALUES (7981,   1,   33556698) /* Setup */
      , (7981,   8,  100670960) /* Icon */
      , (7981,  19,         86) /* ActivationAnimation */
      , (7981,  22,  872415364) /* PhysicsEffectTable */
-     , (7981,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (7981,  35,        460) /* DeathTreasureType */;
+     , (7981,  30,         86) /* PhysicsScript - BreatheAcid */
+     , (7981,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7981,   1, 210, 0, 0) /* Strength */
@@ -164,7 +164,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7981, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7981, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7981, 9,  8021,  0, 0, 0.03, False) /* Create Shendolain Key (8021) for ContainTreasure */
-     , (7981, 9,  9098,  0, 0, 0.05, False) /* Create Vial of Organic Acid (9098) for ContainTreasure */;
+VALUES (7981, 9,  8021,  0, 0, 0.03, False) /* Create Shendolain Key (8021) for ContainTreasure */
+     , (7981, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (7981, 9,  9098,  0, 0, 0.05, False) /* Create Vial of Organic Acid (9098) for ContainTreasure */
+     , (7981, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

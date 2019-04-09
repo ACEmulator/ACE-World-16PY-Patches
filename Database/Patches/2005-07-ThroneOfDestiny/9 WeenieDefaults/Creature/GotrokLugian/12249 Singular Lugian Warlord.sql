@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12249;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12249, 'lugianextaswarlord', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (12249, 'lugianextaswarlord', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12249,   1,         16) /* ItemType - Creature */
@@ -74,8 +74,11 @@ VALUES (12249,   1,   33557003) /* Setup */
      , (12249,   7,  268436157) /* ClothingBase */
      , (12249,   8,  100667447) /* Icon */
      , (12249,  22,  872415262) /* PhysicsEffectTable */
-     , (12249,  32,        326) /* WieldedTreasureType */
-     , (12249,  35,        448) /* DeathTreasureType */;
+     , (12249,  32,        326) /* WieldedTreasureType - 
+                                   Wield Rock (23746) | Probability: 100%
+                                   Wield Lugian Axe (23740) | Probability: 60%
+                                   Wield Lugian Morning Star (23764) | Probability: 40% */
+     , (12249,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12249,   1, 290, 0, 0) /* Strength */
@@ -179,7 +182,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Human weakling!  Have you c
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12249, 8, 12250,  1, 0, 0, False) /* Create Lugian Warlord's Scepter (12250) for Treasure */
      , (12249, 8, 12278,  1, 0, 0, False) /* Create Singular Chorizite Message Shard (12278) for Treasure */
-     , (12249, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (12249, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (12249, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (12249, 9,  7043,  0, 0, 0.03, False) /* Create Large Lugian Sinew (7043) for ContainTreasure */;
+     , (12249, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (12249, 9,  7043,  0, 0, 0.03, False) /* Create Large Lugian Sinew (7043) for ContainTreasure */
+     , (12249, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

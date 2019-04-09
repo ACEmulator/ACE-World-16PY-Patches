@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7487;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7487, 'fireelementalinferno_nospawn', 10, '2019-02-08 15:30:00') /* Creature */;
+VALUES (7487, 'fireelementalinferno_nospawn', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7487,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (7487,   1,   33556131) /* Setup */
      , (7487,   4,  805306368) /* CombatTable */
      , (7487,   8,  100670274) /* Icon */
      , (7487,  22,  872415349) /* PhysicsEffectTable */
-     , (7487,  35,        460) /* DeathTreasureType */;
+     , (7487,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7487,   1, 130, 0, 0) /* Strength */
@@ -128,5 +128,5 @@ VALUES (7487,    83,  2.138)  /* Flame Bolt IV */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7487, 2,  5709,  3, 0, 0, False) /* Create Ball of fire (5709) for Wield */
-     , (7487, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (7487, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (7487, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7487, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

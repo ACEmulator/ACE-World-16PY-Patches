@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19279;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19279, 'statuereplicahighsclavussmall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (19279, 'statuereplicahighsclavussmall', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19279,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,17 @@ VALUES (19279,   1,   33555608) /* Setup */
      , (19279,   7,  268435727) /* ClothingBase */
      , (19279,   8,  100669120) /* Icon */
      , (19279,  22,  872415349) /* PhysicsEffectTable */
-     , (19279,  32,        400) /* WieldedTreasureType */
-     , (19279,  35,        406) /* DeathTreasureType */;
+     , (19279,  32,        400) /* WieldedTreasureType - 
+                                   Wield Bronze Heavy Crossbow (15875) | Probability: 67%
+                                   Wield 20x Greater Acid Quarrel (5314) | Probability: 16%
+                                   Wield 20x Greater Lightning Quarrel (5316) | Probability: 16%
+                                   Wield 20x Greater Fire Quarrel (5317) | Probability: 17%
+                                   Wield 20x Greater Frost Quarrel (5315) | Probability: 17%
+                                   Wield 20x Greater Armor Piercing Quarrel (5318) | Probability: 17%
+                                   Wield 20x Frog Crotch Quarrel (3605) | Probability: 17%
+                                   Wield Bronze Cestus (15874) | Probability: 50%
+                                   Wield Bronze Battle Axe (15871) | Probability: 50% */
+     , (19279,  35,        406) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19279,   1, 235, 0, 0) /* Strength */
@@ -137,5 +146,5 @@ VALUES (19279,    63,  2.093)  /* Acid Stream VI */
      , (19279,  1265,   2.01)  /* Drain Mana Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19279, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (19279, 9, 19253,  0, 0, 0.05, False) /* Create Bronze Spring from a Statue (19253) for ContainTreasure */;
+VALUES (19279, 9, 19253,  0, 0, 0.05, False) /* Create Bronze Spring from a Statue (19253) for ContainTreasure */
+     , (19279, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23035;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23035, 'golemobsidiancrystalmine_nofall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (23035, 'golemobsidiancrystalmine_nofall', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23035,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (23035,   1,   33556440) /* Setup */
      , (23035,   4,  805306376) /* CombatTable */
      , (23035,   8,  100667940) /* Icon */
      , (23035,  22,  872415327) /* PhysicsEffectTable */
-     , (23035,  35,        463) /* DeathTreasureType */;
+     , (23035,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23035,   1, 280, 0, 0) /* Strength */
@@ -150,11 +150,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23035, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (23035, 9,  3692,  0, 0, 0.03, False) /* Create Black Stone (3692) for ContainTreasure */
      , (23035, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (23035, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (23035, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (23035, 9,  3692,  0, 0, 0.03, False) /* Create Black Stone (3692) for ContainTreasure */
      , (23035, 9,  6353,  0, 0, 0.03, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (23035, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (23035, 9,  9324,  0, 0, 0.1, False) /* Create Obsidian Heart (9324) for ContainTreasure */
-     , (23035, 9, 23038,  0, 0, 0.4, False) /* Create Valara Crystal (23038) for ContainTreasure */;
+     , (23035, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (23035, 9, 23038,  0, 0, 0.4, False) /* Create Valara Crystal (23038) for ContainTreasure */
+     , (23035, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

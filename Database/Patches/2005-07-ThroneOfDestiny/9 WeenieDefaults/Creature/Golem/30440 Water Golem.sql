@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30440;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30440, 'golemwater_nofall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30440, 'golemwater_nofall', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30440,   1,         16) /* ItemType - Creature */
@@ -69,7 +69,7 @@ VALUES (30440,   1,   33556454) /* Setup */
      , (30440,   4,  805306376) /* CombatTable */
      , (30440,   8,  100667940) /* Icon */
      , (30440,  22,  872415330) /* PhysicsEffectTable */
-     , (30440,  35,        465) /* DeathTreasureType */;
+     , (30440,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30440,   1,  80, 0, 0) /* Strength */
@@ -132,9 +132,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, '', NULL
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30440, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (30440, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (30440, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (30440, 9,  6353,  0, 0, 0.01, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+VALUES (30440, 9,  6353,  0, 0, 0.01, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (30440, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (30440, 9, 10760,  0, 0, 0.03, False) /* Create Wet Towel (10760) for ContainTreasure */
-     , (30440, 9, 11354,  0, 0, 0.05, False) /* Create Water Golem Heart (11354) for ContainTreasure */;
+     , (30440, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (30440, 9, 11354,  0, 0, 0.05, False) /* Create Water Golem Heart (11354) for ContainTreasure */
+     , (30440, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

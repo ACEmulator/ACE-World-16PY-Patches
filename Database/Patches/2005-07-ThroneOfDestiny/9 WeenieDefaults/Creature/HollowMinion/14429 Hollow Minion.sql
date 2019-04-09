@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14429;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14429, 'hollowminionregicidehusk', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (14429, 'hollowminionregicidehusk', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14429,   1,         16) /* ItemType - Creature */
@@ -69,7 +69,7 @@ VALUES (14429,   1,   33556792) /* Setup */
      , (14429,   4,  805306413) /* CombatTable */
      , (14429,   8,  100671140) /* Icon */
      , (14429,  22,  872415367) /* PhysicsEffectTable */
-     , (14429,  35,         86) /* DeathTreasureType */;
+     , (14429,  35,         86) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14429,   1, 160, 0, 0) /* Strength */

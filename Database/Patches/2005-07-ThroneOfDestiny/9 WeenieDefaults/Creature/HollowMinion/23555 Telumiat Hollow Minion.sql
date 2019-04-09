@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23555;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23555, 'hollowminiontelumiat', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (23555, 'hollowminiontelumiat', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23555,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (23555,   1,   33556792) /* Setup */
      , (23555,   7,  268436617) /* ClothingBase */
      , (23555,   8,  100671140) /* Icon */
      , (23555,  22,  872415367) /* PhysicsEffectTable */
-     , (23555,  35,        464) /* DeathTreasureType */;
+     , (23555,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23555,   1, 300, 0, 0) /* Strength */
@@ -123,9 +123,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23555, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
-     , (23555, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (23555, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (23555, 9,  9292,  0, 0, 0.08, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+VALUES (23555, 9,  9292,  0, 0, 0.08, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (23555, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
      , (23555, 9, 24842,  0, 0, 0.03, False) /* Create Telumiat Hollow Minion Essence (24842) for ContainTreasure */
-     , (23555, 9, 25559,  0, 0, 0.05, False) /* Create Hollow Minion's Face (25559) for ContainTreasure */;
+     , (23555, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (23555, 9, 25559,  0, 0, 0.05, False) /* Create Hollow Minion's Face (25559) for ContainTreasure */
+     , (23555, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
