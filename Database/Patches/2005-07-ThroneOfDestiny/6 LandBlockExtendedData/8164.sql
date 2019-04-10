@@ -1,5 +1,0 @@
-DELETE FROM `landblock_instance` WHERE `guid` = 2014724097; /* Yaraq East Training Academy Portal */
-/* @teleloc 0x81640000 [20.722300 107.854000 30.005000] -0.707107 0.000000 0.000000 -0.707107 */
-
-DELETE FROM `landblock_instance` WHERE `guid` = 2014724101; /* IMPORTANT SIGN  */
-/* @teleloc 0x81640000 [24.938900 107.653000 30.084900] 0.690344 0.000000 0.000000 0.723482 */
