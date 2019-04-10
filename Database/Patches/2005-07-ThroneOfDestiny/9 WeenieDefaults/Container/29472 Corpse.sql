@@ -13,7 +13,7 @@ VALUES (29472,   1,        512) /* ItemType - Container */
      , (29472,  19,          0) /* Value */
      , (29472,  81,          1) /* MaxGeneratedObjects */
      , (29472,  82,          1) /* InitGeneratedObjects */
-     , (29472,  83,          1) /* ActivationResponse - 1 */
+     , (29472,  83,          2) /* ActivationResponse - Use */
      , (29472,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (29472,  96,        500) /* EncumbranceCapacity */
      , (29472, 100,          1) /* GeneratorType - Relative */;

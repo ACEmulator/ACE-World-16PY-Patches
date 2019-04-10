@@ -63,10 +63,6 @@ VALUES (1920909327, 30435, 669777957, 99.4314, 113.906, 80.005, -0.608023, 0, 0,
 /* @teleloc 0x27EC0025 [99.431400 113.906000 80.005000] -0.608023 0.000000 0.000000 -0.793919 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1920909328, 31728, 669777946, 77.1676, 44.4825, 80.005, -0.999941, 0, 0, -0.0108742, False, '2019-02-11 00:00:00'); /* Mancanza the Wanderer */
-/* @teleloc 0x27EC001A [77.167600 44.482500 80.005000] -0.999941 0.000000 0.000000 -0.010874 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1920909329, 30072, 669778179, 66.582, 137.864, 80.005, -0.807559, 0, 0, -0.589786, False, '2019-02-11 00:00:00'); /* Benedetta du Lucrezza the Healer */
 /* @teleloc 0x27EC0103 [66.582000 137.864000 80.005000] -0.807559 0.000000 0.000000 -0.589786 */
 
