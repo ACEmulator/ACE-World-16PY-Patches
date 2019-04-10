@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23090;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23090, 'shadowspecter', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (23090, 'shadowspecter', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23090,   1,         16) /* ItemType - Creature */
@@ -89,7 +89,7 @@ VALUES (23090,   1,   33556251) /* Setup */
      , (23090,  16,   67109564) /* EyesPalette */
      , (23090,  17,   67109562) /* SkinPalette */
      , (23090,  22,  872415331) /* PhysicsEffectTable */
-     , (23090,  35,        452) /* DeathTreasureType */;
+     , (23090,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23090,   1, 150, 0, 0) /* Strength */
@@ -157,11 +157,11 @@ VALUES (23090,    74,  2.032)  /* Frost Bolt VI */
      , (23090,  1468,  2.023)  /* Feeblemind Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23090, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+VALUES (23090, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (23090, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (23090, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (23090, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (23090, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (23090, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (23090, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (23090, 9, 23108,  0, 0, 0.01, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
-     , (23090, 9, 27388,  0, 0, 0.005, False) /* Create Dark Towers (27388) for ContainTreasure */;
+     , (23090, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (23090, 9, 27388,  0, 0, 0.005, False) /* Create Dark Towers (27388) for ContainTreasure */
+     , (23090, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;

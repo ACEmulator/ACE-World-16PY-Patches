@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1258;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1258, 'mosswartfeedergreenmire', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (1258, 'mosswartfeedergreenmire', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1258,   1,         16) /* ItemType - Creature */
@@ -191,5 +191,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1258, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (1258, 9,  1266,  0, 0, 1, False) /* Create Key (1266) for ContainTreasure */;
+VALUES (1258, 9,  1266,  0, 0, 1, False) /* Create Key (1266) for ContainTreasure */
+     , (1258, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

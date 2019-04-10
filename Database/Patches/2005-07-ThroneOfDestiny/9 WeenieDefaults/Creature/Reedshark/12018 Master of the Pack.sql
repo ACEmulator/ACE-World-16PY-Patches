@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12018;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12018, 'reedsharkbossmonster', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (12018, 'reedsharkbossmonster', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12018,   1,         16) /* ItemType - Creature */
@@ -75,7 +75,7 @@ VALUES (12018,   1,   33554489) /* Setup */
      , (12018,   7,  268435556) /* ClothingBase */
      , (12018,   8,  100667939) /* Icon */
      , (12018,  22,  872415268) /* PhysicsEffectTable */
-     , (12018,  35,         24) /* DeathTreasureType */;
+     , (12018,  35,         24) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12018,   1, 105, 0, 0) /* Strength */
@@ -170,10 +170,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12018, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
-     , (12018, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (12018, 9,  4239,  0, 0, 0.25, False) /* Create Reedshark Hide (4239) for ContainTreasure */
-     , (12018, 9, 23536,  0, 0, 0.3, False) /* Create Fetid Dirk (23536) for ContainTreasure */;
+VALUES (12018, 9,  4239,  0, 0, 0.25, False) /* Create Reedshark Hide (4239) for ContainTreasure */
+     , (12018, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
+     , (12018, 9, 23536,  0, 0, 0.3, False) /* Create Fetid Dirk (23536) for ContainTreasure */
+     , (12018, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12018, 0.25, 18, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Reedshark Elder (18) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

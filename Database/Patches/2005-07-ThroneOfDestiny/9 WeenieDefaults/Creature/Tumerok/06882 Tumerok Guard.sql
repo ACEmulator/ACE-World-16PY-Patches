@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6882;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6882, 'tumerokdryreachguard', 10, '2019-03-03 00:18:38') /* Creature */;
+VALUES (6882, 'tumerokdryreachguard', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6882,   1,         16) /* ItemType - Creature */
@@ -160,5 +160,5 @@ VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Alarm!', NULL, NULL, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6882, 1,  6880,  0, 0, 1, False) /* Create Bone Engraved Key (6880) for Contain */
-     , (6882, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
-     , (6882, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */;
+     , (6882, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (6882, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */;

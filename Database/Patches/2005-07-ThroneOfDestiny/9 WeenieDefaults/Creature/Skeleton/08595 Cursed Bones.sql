@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8595;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8595, 'skeletoncursedbonesmeditate', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8595, 'skeletoncursedbonesmeditate', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8595,   1,         16) /* ItemType - Creature */
@@ -70,8 +70,12 @@ VALUES (8595,   1,   33559531) /* Setup */
      , (8595,   6,   67116522) /* PaletteBase */
      , (8595,   8,  100669124) /* Icon */
      , (8595,  22,  872415269) /* PhysicsEffectTable */
-     , (8595,  32,        287) /* WieldedTreasureType */
-     , (8595,  35,        450) /* DeathTreasureType */;
+     , (8595,  32,        287) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 16x Greater Fire Arrow (5305) | Probability: 100%
+                                   Wield Kite Shield (23686) | Probability: 50%
+                                   Wield Fire Tachi (23708) | Probability: 50% */
+     , (8595,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8595,   1, 115, 0, 0) /* Strength */
@@ -118,12 +122,12 @@ VALUES (8595,  5 /* HeartBeat */,    0.8, NULL, 2147483709 /* NonCombat */, 1090
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073753, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073756 /* MeditateState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8595, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+VALUES (8595, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (8595, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (8595, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
      , (8595, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (8595, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (8595, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
-     , (8595, 9, 45875,  1, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (8595, 9, 45876,  1, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+     , (8595, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (8595, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

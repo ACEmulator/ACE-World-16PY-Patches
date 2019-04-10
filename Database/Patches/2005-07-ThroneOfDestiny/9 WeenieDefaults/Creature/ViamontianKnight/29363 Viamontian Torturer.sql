@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29363;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29363, 'knighttorturer', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29363, 'knighttorturer', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29363,   1,         16) /* ItemType - Creature */
@@ -80,7 +80,7 @@ VALUES (29363,   1,   33554433) /* Setup */
      , (29363,  17,   67115901) /* SkinPalette */
      , (29363,  22,  872415236) /* PhysicsEffectTable */
      , (29363,  32,       2000) /* WieldedTreasureType */
-     , (29363,  35,        459) /* DeathTreasureType */;
+     , (29363,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29363,   1, 140, 0, 0) /* Strength */
@@ -162,8 +162,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29363, 2, 28618,  0, 19, 0, True) /* Create Diforsa Helm (28618) for Wield */
+VALUES (29363, 2, 28632,  0, 19, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
+     , (29363, 2, 28618,  0, 19, 0, True) /* Create Diforsa Helm (28618) for Wield */
      , (29363, 2, 28621,  0, 19, 0, True) /* Create Diforsa Leggings (28621) for Wield */
-     , (29363, 2, 28625,  0, 19, 0, True) /* Create Diforsa Sollerets (28625) for Wield */
-     , (29363, 2, 28632,  0, 19, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (29363, 2, 30948,  0, 19, 0, True) /* Create Diforsa Hauberk (30948) for Wield */;
+     , (29363, 2, 30948,  0, 19, 0, True) /* Create Diforsa Hauberk (30948) for Wield */
+     , (29363, 2, 28625,  0, 19, 0, True) /* Create Diforsa Sollerets (28625) for Wield */;

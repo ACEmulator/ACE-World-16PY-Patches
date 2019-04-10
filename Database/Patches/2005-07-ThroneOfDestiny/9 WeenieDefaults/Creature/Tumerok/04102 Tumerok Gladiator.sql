@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4102;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4102, 'tumerokgladiatorarcher', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (4102, 'tumerokgladiatorarcher', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4102,   1,         16) /* ItemType - Creature */
@@ -123,18 +123,18 @@ VALUES (4102,  0,  4,  0,    0,  130,  130,  130,  130,  130,  130,  130,  130, 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4102, 8,   301,  0, 0, 0.14, False) /* Create Battle Axe (301) for Treasure */
+     , (4102, 8,   350,  0, 0, 0.07, False) /* Create Broad Sword (350) for Treasure */
      , (4102, 8,   324,  0, 0, 0.06, False) /* Create Kaskara (324) for Treasure */
      , (4102, 8,   327,  0, 0, 0.06, False) /* Create Ken (327) for Treasure */
+     , (4102, 8,   351,  0, 0, 0.06, False) /* Create Long Sword (351) for Treasure */
      , (4102, 8,   332,  0, 0, 0.1, False) /* Create Morning Star (332) for Treasure */
      , (4102, 8,   336,  0, 0, 0.13, False) /* Create Ono (336) for Treasure */
      , (4102, 8,   339,  0, 0, 0.06, False) /* Create Scimitar (339) for Treasure */
      , (4102, 8,   340,  0, 0, 0.06, False) /* Create Shamshir (340) for Treasure */
      , (4102, 8,   344,  0, 0, 0.13, False) /* Create Silifi (344) for Treasure */
-     , (4102, 8,   350,  0, 0, 0.07, False) /* Create Broad Sword (350) for Treasure */
-     , (4102, 8,   351,  0, 0, 0.06, False) /* Create Long Sword (351) for Treasure */
      , (4102, 8,   353,  0, 0, 0.06, False) /* Create Tachi (353) for Treasure */
      , (4102, 8,   354,  0, 0, 0.06, False) /* Create Takuba (354) for Treasure */
+     , (4102, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
      , (4102, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (4102, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (4102, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
-     , (4102, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */;
+     , (4102, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

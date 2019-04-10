@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8672;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8672, 'zombierisen', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8672, 'zombierisen', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8672,   1,         16) /* ItemType - Creature */
@@ -77,8 +77,32 @@ VALUES (8672,   1,   33554839) /* Setup */
      , (8672,   7,  268435558) /* ClothingBase */
      , (8672,   8,  100667942) /* Icon */
      , (8672,  22,  872415272) /* PhysicsEffectTable */
-     , (8672,  32,        248) /* WieldedTreasureType */
-     , (8672,  35,        451) /* DeathTreasureType */;
+     , (8672,  32,        248) /* WieldedTreasureType - 
+                                   Wield 6x Throwing Axe (304) | Probability: 10%
+                                   Wield Nayin (334) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 10%
+                                   Wield 14x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 14%
+                                   Wield Broad Sword (350) | Probability: 7%
+                                   Wield Kaskara (324) | Probability: 6%
+                                   Wield Ken (327) | Probability: 6%
+                                   Wield Long Sword (351) | Probability: 6%
+                                   Wield Morning Star (332) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 6%
+                                   Wield Shamshir (340) | Probability: 6%
+                                   Wield Ono (336) | Probability: 13%
+                                   Wield Silifi (344) | Probability: 13%
+                                   Wield Tachi (353) | Probability: 6%
+                                   Wield Takuba (354) | Probability: 6%
+                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Kite Shield (91) | Probability: 20%
+                                   Wield Large Round Shield (94) | Probability: 20% */
+     , (8672,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8672,   1,  80, 0, 0) /* Strength */
@@ -121,7 +145,7 @@ VALUES (8672,  0,  4,  0,    0,  150,  120,   71,   98,    5,   75,   98,  108, 
      , (8672,  8,  4,  3, 0.75,  160,  128,   75,  104,    5,   80,  104,  115,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8672, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (8672, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone (7041) for ContainTreasure */
      , (8672, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (8672, 9,  5873,  0, 0, 0.03, False) /* Create Seal (5873) for ContainTreasure */
-     , (8672, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone (7041) for ContainTreasure */;
+     , (8672, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

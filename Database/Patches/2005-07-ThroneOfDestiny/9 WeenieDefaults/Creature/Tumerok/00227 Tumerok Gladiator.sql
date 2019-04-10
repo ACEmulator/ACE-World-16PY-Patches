@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 227;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (227, 'tumerokgladiator', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (227, 'tumerokgladiator', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (227,   1,         16) /* ItemType - Creature */
@@ -122,7 +122,7 @@ VALUES (227,  0,  4,  0,    0,  175,  175,  175,  175,  175,  175,  175,  175,  
      , (227,  8,  4, 10, 0.75,  175,  175,  175,  175,  175,  175,  175,  175,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (227, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (227, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+VALUES (227, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (227, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (227, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
-     , (227, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */;
+     , (227, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1759;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1759, 'skeleton', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (1759, 'skeleton', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1759,   1,         16) /* ItemType - Creature */
@@ -71,8 +71,46 @@ VALUES (1759,   1,   33554521) /* Setup */
      , (1759,   8,  100669124) /* Icon */
      , (1759,  20,   50332893) /* InitMotion */
      , (1759,  22,  872415269) /* PhysicsEffectTable */
-     , (1759,  32,        186) /* WieldedTreasureType */
-     , (1759,  35,        188) /* DeathTreasureType */;
+     , (1759,  32,        186) /* WieldedTreasureType - 
+                                   Wield 10x Throwing Dart (316) | Probability: 5%
+                                   Wield 10x Shouken (343) | Probability: 5%
+                                   Wield 10x Throwing Dagger (315) | Probability: 8%
+                                   Wield 5x Javelin (320) | Probability: 8%
+                                   Wield 4x Djarid (317) | Probability: 8%
+                                   Wield 4x Throwing Club (310) | Probability: 8%
+                                   Wield 6x Throwing Axe (304) | Probability: 8%
+                                   Wield Yag (360) | Probability: 8%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Shortbow (307) | Probability: 9%
+                                   Wield 17x Arrow (300) | Probability: 100%
+                                   Wield Shouyumi (341) | Probability: 8%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Light Crossbow (312) | Probability: 20%
+                                   Wield 16x Quarrel (305) | Probability: 100%
+                                   Wield Budiaq (308) | Probability: 5%
+                                   Wield Club (309) | Probability: 5%
+                                   Wield Dabus (313) | Probability: 5%
+                                   Wield Dagger (314) | Probability: 5%
+                                   Wield Hand Axe (303) | Probability: 5%
+                                   Wield Jambiya (319) | Probability: 2%
+                                   Wield Jitte (321) | Probability: 5%
+                                   Wield Kasrullah (325) | Probability: 5%
+                                   Wield Katar (326) | Probability: 5%
+                                   Wield Khanjar (328) | Probability: 5%
+                                   Wield Knife (329) | Probability: 3%
+                                   Wield Mace (331) | Probability: 5%
+                                   Wield Short Sword (352) | Probability: 5%
+                                   Wield Shou-ono (342) | Probability: 5%
+                                   Wield Simi (345) | Probability: 5%
+                                   Wield Spear (348) | Probability: 5%
+                                   Wield Tofun (356) | Probability: 5%
+                                   Wield Tungi (357) | Probability: 5%
+                                   Wield Yaoji (361) | Probability: 5%
+                                   Wield Yari (362) | Probability: 5%
+                                   Wield Buckler (44) | Probability: 20%
+                                   Wield Kite Shield (91) | Probability: 10%
+                                   Wield Round Shield (93) | Probability: 10% */
+     , (1759,  35,        188) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1759,   1,  25, 0, 0) /* Strength */
@@ -123,5 +161,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1759, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (1759, 9,  9314,  0, 0, 0.03, False) /* Create A Tiny Mnemosyne (9314) for ContainTreasure */;
+VALUES (1759, 9,  9314,  0, 0, 0.03, False) /* Create A Tiny Mnemosyne (9314) for ContainTreasure */
+     , (1759, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

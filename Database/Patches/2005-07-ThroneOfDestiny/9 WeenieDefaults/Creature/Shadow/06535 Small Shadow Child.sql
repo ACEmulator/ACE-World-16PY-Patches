@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6535;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6535, 'shadowchildsmall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (6535, 'shadowchildsmall', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6535,   1,         16) /* ItemType - Creature */
@@ -90,7 +90,7 @@ VALUES (6535,   1,   33554433) /* Setup */
      , (6535,  16,   67110062) /* EyesPalette */
      , (6535,  17,   67109561) /* SkinPalette */
      , (6535,  22,  872415331) /* PhysicsEffectTable */
-     , (6535,  35,        465) /* DeathTreasureType */;
+     , (6535,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6535,   1,  40, 0, 0) /* Strength */
@@ -177,5 +177,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'You think you hear a little voice say "Mommy..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6535, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (6535, 9,  6060,  0, 0, 0.01, False) /* Create Dark Speck (6060) for ContainTreasure */;
+VALUES (6535, 9,  6060,  0, 0, 0.01, False) /* Create Dark Speck (6060) for ContainTreasure */
+     , (6535, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

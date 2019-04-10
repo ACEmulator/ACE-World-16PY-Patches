@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31280;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31280, 'ace31280-twistedshadow', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (31280, 'ace31280-twistedshadow', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31280,   1,         16) /* ItemType - Creature */
@@ -81,7 +81,7 @@ VALUES (31280,   1,   33556251) /* Setup */
      , (31280,   7,  268435871) /* ClothingBase */
      , (31280,   8,  100670398) /* Icon */
      , (31280,  22,  872415331) /* PhysicsEffectTable */
-     , (31280,  35,        459) /* DeathTreasureType */;
+     , (31280,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31280,   1, 180, 0, 0) /* Strength */
@@ -129,7 +129,7 @@ VALUES (31280,   284,   2.03)  /* Magic Yield Other V */
      , (31280,  2146,   2.02)  /* Evisceration */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31280, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (31280, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (31280, 9,  6058, -1, 0, 0.2, False) /* Create Dark Shard (6058) for ContainTreasure */
-     , (31280, 9, 34029, -1, 0, 0.05, False) /* Create  (34029) for ContainTreasure */;
+VALUES (31280, 9,  6058, -1, 0, 0.2, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (31280, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (31280, 9, 34029, -1, 0, 0.05, False) /* Create Shadow Head (34029) for ContainTreasure */
+     , (31280, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

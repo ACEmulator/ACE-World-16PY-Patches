@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 216;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (216, 'phyntoswaspgreen', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (216, 'phyntoswaspgreen', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (216,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (216,   1,   33558817) /* Setup */
      , (216,   7,  268436836) /* ClothingBase */
      , (216,   8,  100667450) /* Icon */
      , (216,  22,  872415266) /* PhysicsEffectTable */
-     , (216,  35,        465) /* DeathTreasureType */;
+     , (216,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (216,   1,  35, 0, 0) /* Strength */
@@ -109,5 +109,5 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (216,    58,  2.038)  /* Acid Stream I */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (216, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
-     , (216, 9,  3701,  0, 0, 0.15, False) /* Create Green Phyntos Wasp Wing (3701) for ContainTreasure */;
+VALUES (216, 9,  3701,  0, 0, 0.15, False) /* Create Green Phyntos Wasp Wing (3701) for ContainTreasure */
+     , (216, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */;

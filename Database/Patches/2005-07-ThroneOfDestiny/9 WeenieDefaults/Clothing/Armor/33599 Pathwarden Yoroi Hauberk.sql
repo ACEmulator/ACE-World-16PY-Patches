@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33599;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33599, 'ace33599-pathwardenyoroihauberk', 2, '2019-03-29 04:10:13') /* Clothing */;
+VALUES (33599, 'ace33599-pathwardenyoroihauberk', 2, '2019-04-09 23:37:09') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33599,   1,          2) /* ItemType - Armor */
@@ -31,7 +31,7 @@ VALUES (33599,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33599,   5, -0.0333333015441895) /* ManaRate */
-     , (33599,  12, 0.666700005531311) /* Shade */
+     , (33599,  12, 0.714299976825714) /* Shade */
      , (33599,  13, 1.29999995231628) /* ArmorModVsSlash */
      , (33599,  14,       1) /* ArmorModVsPierce */
      , (33599,  15,       1) /* ArmorModVsBludgeon */
@@ -39,7 +39,6 @@ VALUES (33599,   5, -0.0333333015441895) /* ManaRate */
      , (33599,  17, 0.400000005960464) /* ArmorModVsFire */
      , (33599,  18, 0.600000023841858) /* ArmorModVsAcid */
      , (33599,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (33599,  84, 0.239399999380112) /* Shade2 */
      , (33599, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

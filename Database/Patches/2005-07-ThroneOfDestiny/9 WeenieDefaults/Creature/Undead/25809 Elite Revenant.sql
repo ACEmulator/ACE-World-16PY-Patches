@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25809;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25809, 'zombieeliterevenant', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25809, 'zombieeliterevenant', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25809,   1,         16) /* ItemType - Creature */
@@ -75,8 +75,33 @@ VALUES (25809,   1,   33558541) /* Setup */
      , (25809,   7,  268436726) /* ClothingBase */
      , (25809,   8,  100667942) /* Icon */
      , (25809,  22,  872415272) /* PhysicsEffectTable */
-     , (25809,  32,        199) /* WieldedTreasureType */
-     , (25809,  35,        452) /* DeathTreasureType */;
+     , (25809,  32,        199) /* WieldedTreasureType - 
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 17x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 16x Deadly Armor Piercing Quarrel (15440) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 20x Deadly Broadhead Arrow (15433) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 17x Deadly Blunt Arrow (15432) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 20x Deadly Broadhead Quarrel (15442) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 16x Deadly Blunt Quarrel (15441) | Probability: 100%
+                                   Wield Katar (23673) | Probability: 12%
+                                   Wield Cestus (23636) | Probability: 12%
+                                   Wield Nekode (23679) | Probability: 12%
+                                   Wield Tachi (23699) | Probability: 12%
+                                   Wield Spear (23695) | Probability: 12%
+                                   Wield Fire Yaoji (23717) | Probability: 12%
+                                   Wield Yaoji (23709) | Probability: 12%
+                                   Wield Fire Tachi (23706) | Probability: 12%
+                                   Wield Kite Shield (23683) | Probability: 75% */
+     , (25809,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25809,   1, 180, 0, 0) /* Strength */
@@ -119,17 +144,17 @@ VALUES (25809,  0,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,
      , (25809,  8,  4, 90, 0.75,  450,  450,  450,  450,  450,  450,  450,  450,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25809, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (25809, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (25809, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (25809, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (25809, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (25809, 9,  7045,  0, 0, 0.04, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
      , (25809, 9,  9310,  0, 0, 0.05, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (25809, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (25809, 9, 28872,  0, 0, 0.05, False) /* Create Armored Undead Arm  (28872) for ContainTreasure */
+     , (25809, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (25809, 9,  7045,  0, 0, 0.04, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
+     , (25809, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (25809, 9, 28875,  0, 0, 0.05, False) /* Create Armored Undead Legs (28875) for ContainTreasure */
-     , (25809, 9, 28893,  0, 0, 0.05, False) /* Create Armored Undead Torso (28893) for ContainTreasure */;
+     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (25809, 9, 28872,  0, 0, 0.05, False) /* Create Armored Undead Arm  (28872) for ContainTreasure */
+     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (25809, 9, 28893,  0, 0, 0.05, False) /* Create Armored Undead Torso (28893) for ContainTreasure */
+     , (25809, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

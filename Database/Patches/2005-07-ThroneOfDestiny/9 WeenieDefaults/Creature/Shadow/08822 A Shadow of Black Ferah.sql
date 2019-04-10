@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8822;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8822, 'blackferahkillable', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8822, 'blackferahkillable', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8822,   1,         16) /* ItemType - Creature */
@@ -89,7 +89,7 @@ VALUES (8822,   1,   33556251) /* Setup */
      , (8822,  16,   67110065) /* EyesPalette */
      , (8822,  17,   67109562) /* SkinPalette */
      , (8822,  22,  872415331) /* PhysicsEffectTable */
-     , (8822,  35,        461) /* DeathTreasureType */;
+     , (8822,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8822,   1, 280, 0, 0) /* Strength */
@@ -175,7 +175,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As Black Ferah falls, you hear a cold, contemptuous voice declare, "Do with the blood as thy will, outlander. My true form stays close to my master, who you cannot kill!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8822, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+VALUES (8822, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (8822, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (8822, 9, 23107,  0, 0, 0.02, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
-     , (8822, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;
+     , (8822, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

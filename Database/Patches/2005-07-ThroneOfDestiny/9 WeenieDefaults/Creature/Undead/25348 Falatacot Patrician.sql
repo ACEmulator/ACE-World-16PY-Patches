@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25348;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25348, 'zombieundeadpatrician', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25348, 'zombieundeadpatrician', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25348,   1,         16) /* ItemType - Creature */
@@ -77,8 +77,9 @@ VALUES (25348,   1,   33558436) /* Setup */
      , (25348,   7,  268436673) /* ClothingBase */
      , (25348,   8,  100674805) /* Icon */
      , (25348,  22,  872415272) /* PhysicsEffectTable */
-     , (25348,  32,        447) /* WieldedTreasureType */
-     , (25348,  35,        452) /* DeathTreasureType */;
+     , (25348,  32,        447) /* WieldedTreasureType - 
+                                   Wield Khopesh (25500) | Probability: 98% */
+     , (25348,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25348,   1, 205, 0, 0) /* Strength */
@@ -158,5 +159,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Im iakvi av tiu ikni Viliakti, Ij fiak kilt zakiik.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25348, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (25348, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;
+VALUES (25348, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (25348, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

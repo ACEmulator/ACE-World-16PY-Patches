@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8429;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8429, 'mosswartzealot', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8429, 'mosswartzealot', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8429,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,10 @@ VALUES (8429,   1,   33557327) /* Setup */
      , (8429,   7,  268436294) /* ClothingBase */
      , (8429,   8,  100667449) /* Icon */
      , (8429,  22,  872415264) /* PhysicsEffectTable */
-     , (8429,  32,        332) /* WieldedTreasureType */
-     , (8429,  35,        451) /* DeathTreasureType */;
+     , (8429,  32,        332) /* WieldedTreasureType - 
+                                   Wield Fire Yaoji (23719) | Probability: 95%
+                                   Wield Tachi (23701) | Probability: 5% */
+     , (8429,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8429,   1, 130, 0, 0) /* Strength */
@@ -177,11 +179,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8429, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
-     , (8429, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (8429, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (8429, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (8429, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone (3694) for ContainTreasure */
+VALUES (8429, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone (3694) for ContainTreasure */
+     , (8429, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
      , (8429, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (8429, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (8429, 9, 15766,  0, 0, 0.02, False) /* Create Ruined Amulet of the Right Hand (15766) for ContainTreasure */
+     , (8429, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (8429, 9,  8146,  0, 0, 0.05, False) /* Create Mosswart Head (8146) for ContainTreasure */
-     , (8429, 9, 15766,  0, 0, 0.02, False) /* Create Ruined Amulet of the Right Hand (15766) for ContainTreasure */;
+     , (8429, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

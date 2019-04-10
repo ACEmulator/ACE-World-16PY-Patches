@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28705;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28705, 'sanamaranton', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28705, 'sanamaranton', 10, '2019-04-09 02:19:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28705,   1,         16) /* ItemType - Creature */
@@ -262,6 +262,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  21 /* InqQuest */, 0, 1, NULL, 'TradeAlliance', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28705, 2,  2601,  0, 4, 0, False) /* Create Pants (2601) for Wield */
-     , (28705, 2, 28607,  0, 16, 0.9, False) /* Create Lace Shirt (28607) for Wield */
+VALUES (28705, 2, 28607,  0, 16, 0.9, False) /* Create Lace Shirt (28607) for Wield */
+     , (28705, 2,  2601,  0, 4, 0, False) /* Create Pants (2601) for Wield */
      , (28705, 2, 31249,  0, 39, 0.9, False) /* Create Viamontian Laced Boots (31249) for Wield */;

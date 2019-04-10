@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45271;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45271, 'ace45271-scrollofdualwieldmasteryotheriv', 34, '2019-02-04 06:52:23') /* Scroll */;
+VALUES (45271, 'ace45271-scrollofdualwieldmasteryotheriv', 34, '2019-04-09 23:37:09') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45271,   1,       8192) /* ItemType - Writable */
      , (45271,   5,         30) /* EncumbranceVal */
      , (45271,  16,          8) /* ItemUseable - Contained */
      , (45271,  19,        100) /* Value */
-     , (45271,  53,        101) /* PlacementPosition */
+     , (45271,  53,        101) /* PlacementPosition - Resting */
      , (45271,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,6 +30,3 @@ VALUES (45271,   1,   33554826) /* Setup */
      , (45271,   8,  100692251) /* Icon */
      , (45271,  22,  872415275) /* PhysicsEffectTable */
      , (45271,  28,       5798) /* Spell - Dual Wield Mastery Other IV */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45271,  5798,      2)  /* Dual Wield Mastery Other IV */;

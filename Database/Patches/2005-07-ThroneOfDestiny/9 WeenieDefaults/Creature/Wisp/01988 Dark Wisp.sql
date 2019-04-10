@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1988;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1988, 'wispdark', 10, '2019-02-08 06:52:23') /* Creature */;
+VALUES (1988, 'wispdark', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1988,   1,         16) /* ItemType - Creature */
@@ -26,7 +26,7 @@ VALUES (1988,   1, True ) /* Stuck */
      , (1988,  14, True ) /* GravityStatus */
      , (1988,  19, True ) /* Attackable */
      , (1988,  50, True ) /* NeverFailCasting */
-     , (1988, 120, True ) /* Treasure Corpse */;
+     , (1988, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1988,   1,       5) /* HeartbeatInterval */
@@ -71,7 +71,7 @@ VALUES (1988,   1,   33555869) /* Setup */
      , (1988,   4,  805306398) /* CombatTable */
      , (1988,   8,  100668442) /* Icon */
      , (1988,  22,  872415274) /* PhysicsEffectTable */
-     , (1988,  35,        465) /* DeathTreasureType */;
+     , (1988,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1988,   1,  70, 0, 0) /* Strength */
@@ -120,5 +120,5 @@ VALUES (1988,    70,    2.3)  /* Frost Bolt II */
      , (1988,  1261,   2.67)  /* Drain Mana Other II */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1988, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (1988, 9,  8668,  0, 0, 0.03, False) /* Create Sickly Wisp Heart (8668) for ContainTreasure */;
+VALUES (1988, 9,  8668,  0, 0, 0.03, False) /* Create Sickly Wisp Heart (8668) for ContainTreasure */
+     , (1988, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

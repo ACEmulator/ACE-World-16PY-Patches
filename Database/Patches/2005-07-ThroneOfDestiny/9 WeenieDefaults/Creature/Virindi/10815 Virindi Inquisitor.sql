@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10815;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10815, 'virindibossmonstersummoned', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (10815, 'virindibossmonstersummoned', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10815,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (10815,   1,   33556982) /* Setup */
      , (10815,   7,  268435649) /* ClothingBase */
      , (10815,   8,  100667943) /* Icon */
      , (10815,  22,  872415273) /* PhysicsEffectTable */
-     , (10815,  35,        460) /* DeathTreasureType */;
+     , (10815,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10815,   1, 250, 0, 0) /* Strength */
@@ -218,9 +218,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The air becomes heavy with ozone, and another creature spawns from the rift!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10815, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
+VALUES (10815, 9,  6876,  0, 0, 0.8, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (10815, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (10815, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (10815, 9,  6876,  0, 0, 0.8, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (10815, 9, 10804,  0, 0, 0.8, False) /* Create Obsidian Shard (10804) for ContainTreasure */
+     , (10815, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
      , (10815, 9,  9292,  0, 0, 0.03, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
-     , (10815, 9, 10804,  0, 0, 0.8, False) /* Create Obsidian Shard (10804) for ContainTreasure */;
+     , (10815, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

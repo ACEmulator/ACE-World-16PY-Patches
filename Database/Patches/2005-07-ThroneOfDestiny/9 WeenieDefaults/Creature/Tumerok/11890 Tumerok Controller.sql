@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11890;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11890, 'tumerokcrestshreth', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (11890, 'tumerokcrestshreth', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11890,   1,         16) /* ItemType - Creature */
@@ -147,5 +147,5 @@ VALUES (11890,    60,  2.013)  /* Acid Stream III */
      , (11890,  1197,  2.008)  /* Enfeeble Other III */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11890, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (11890, 9, 11817,  0, 0, 0.05, False) /* Create Shreth Crest (11817) for ContainTreasure */;
+VALUES (11890, 9, 11817,  0, 0, 0.05, False) /* Create Shreth Crest (11817) for ContainTreasure */
+     , (11890, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

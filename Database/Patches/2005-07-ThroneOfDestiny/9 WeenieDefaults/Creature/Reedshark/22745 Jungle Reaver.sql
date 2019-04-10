@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22745;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22745, 'reedsharkjunglereaver', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (22745, 'reedsharkjunglereaver', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22745,   1,         16) /* ItemType - Creature */
@@ -70,7 +70,7 @@ VALUES (22745,   1,   33554489) /* Setup */
      , (22745,   7,  268435556) /* ClothingBase */
      , (22745,   8,  100667939) /* Icon */
      , (22745,  22,  872415268) /* PhysicsEffectTable */
-     , (22745,  35,        457) /* DeathTreasureType */;
+     , (22745,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22745,   1, 105, 0, 0) /* Strength */

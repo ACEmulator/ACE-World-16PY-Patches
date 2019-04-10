@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8122;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8122, 'undeadfenmalain', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8122, 'undeadfenmalain', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8122,   1,         16) /* ItemType - Creature */
@@ -78,7 +78,7 @@ VALUES (8122,   1,   33554839) /* Setup */
      , (8122,   7,  268435558) /* ClothingBase */
      , (8122,   8,  100667942) /* Icon */
      , (8122,  22,  872415272) /* PhysicsEffectTable */
-     , (8122,  35,        451) /* DeathTreasureType */;
+     , (8122,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8122,   1, 110, 0, 0) /* Strength */
@@ -150,6 +150,6 @@ VALUES (8122,    59,   2.03)  /* Acid Stream II */
      , (8122,  1465,   2.01)  /* Feeblemind Other III */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8122, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (8122, 9,  8087,  0, 0, 1, False) /* Create Urgently Written Note (8087) for ContainTreasure */
+VALUES (8122, 9,  8087,  0, 0, 1, False) /* Create Urgently Written Note (8087) for ContainTreasure */
+     , (8122, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (8122, 10,  7973,  0, 0, 1, False) /* Create Flaming Tachi (7973) for WieldTreasure */;

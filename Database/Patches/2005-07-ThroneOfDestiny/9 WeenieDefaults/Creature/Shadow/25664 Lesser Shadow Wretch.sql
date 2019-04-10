@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25664;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25664, 'shadowwretch', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25664, 'shadowwretch', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25664,   1,         16) /* ItemType - Creature */
@@ -89,7 +89,7 @@ VALUES (25664,   1,   33556251) /* Setup */
      , (25664,  16,   67110062) /* EyesPalette */
      , (25664,  17,   67109559) /* SkinPalette */
      , (25664,  22,  872415331) /* PhysicsEffectTable */
-     , (25664,  35,        179) /* DeathTreasureType */;
+     , (25664,  35,        179) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25664,   1, 280, 0, 0) /* Strength */
@@ -158,9 +158,9 @@ VALUES (25664,    73,  2.032)  /* Frost Bolt V */
      , (25664,  1467,  2.023)  /* Feeblemind Other V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25664, 9,     0,  0, 0, 0.985, False) /* Create nothing for ContainTreasure */
-     , (25664, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (25664, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (25664, 9,  6058,  0, 0, 0.015, False) /* Create Dark Shard (6058) for ContainTreasure */
+VALUES (25664, 9,  6058,  0, 0, 0.015, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (25664, 9,     0,  0, 0, 0.985, False) /* Create nothing for ContainTreasure */
      , (25664, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (25664, 9, 25678,  0, 0, 1, False) /* Create Repugnant Bracelet (25678) for ContainTreasure */;
+     , (25664, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (25664, 9, 25678,  0, 0, 1, False) /* Create Repugnant Bracelet (25678) for ContainTreasure */
+     , (25664, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;

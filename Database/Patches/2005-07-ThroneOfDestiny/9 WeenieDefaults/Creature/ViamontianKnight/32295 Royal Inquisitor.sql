@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32295;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32295, 'ace32295-royalinquisitor', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (32295, 'ace32295-royalinquisitor', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32295,   1,         16) /* ItemType - Creature */
@@ -79,7 +79,7 @@ VALUES (32295,   1,   33554433) /* Setup */
      , (32295,  16,   67110065) /* EyesPalette */
      , (32295,  17,   67115908) /* SkinPalette */
      , (32295,  22,  872415236) /* PhysicsEffectTable */
-     , (32295,  35,        449) /* DeathTreasureType */;
+     , (32295,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32295,   1, 270, 0, 0) /* Strength */
@@ -191,6 +191,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32295, 2, 28614,  0, 11, 0.1786, True) /* Create Vestiri Robe with Hood (28614) for Wield */
      , (32295, 2, 28632,  0, 21, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
+     , (32295, 8, 32924,  0, 0, 0.003, False) /* Create Mukkir Nest Portal Gem (32924) for Treasure */
      , (32295, 8,     0,  0, 0, 0.997, False) /* Create nothing for Treasure */
-     , (32295, 8, 32924,  0, 0, 0.003, False) /* Create  (32924) for Treasure */
      , (32295, 10, 30947,  1, 0, 1, False) /* Create Poniard (30947) for WieldTreasure */;

@@ -30,6 +30,3 @@ VALUES (41259,   1,   33554826) /* Setup */
      , (41259,   8,  100690644) /* Icon */
      , (41259,  22,  872415275) /* PhysicsEffectTable */
      , (41259,  28,       5102) /* Spell - Two Handed Combat Mastery Self IV */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41259,  5102,      2)  /* Two Handed Combat Mastery Self IV */;

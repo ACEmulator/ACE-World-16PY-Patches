@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31279;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31279, 'ace31279-bonescourge', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (31279, 'ace31279-bonescourge', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31279,   1,         16) /* ItemType - Creature */
@@ -81,8 +81,14 @@ VALUES (31279,   1,   33559521) /* Setup */
      , (31279,   8,  100669124) /* Icon */
      , (31279,  17,   67113400) /* SkinPalette */
      , (31279,  22,  872415269) /* PhysicsEffectTable */
-     , (31279,  32,        426) /* WieldedTreasureType */
-     , (31279,  35,        449) /* DeathTreasureType */
+     , (31279,  32,        426) /* WieldedTreasureType - 
+                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Kite Shield (23135) | Probability: 100%
+                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
+     , (31279,  35,        449) /* DeathTreasureType - Loot Tier: 6 */
      , (31279,  55,       1132) /* ProcSpell - Blade Vulnerability Other VI */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

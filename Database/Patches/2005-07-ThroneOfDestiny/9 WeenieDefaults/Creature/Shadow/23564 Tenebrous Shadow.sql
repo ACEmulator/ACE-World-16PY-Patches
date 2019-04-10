@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23564;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23564, 'shadowtenebrous', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (23564, 'shadowtenebrous', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23564,   1,         16) /* ItemType - Creature */
@@ -90,7 +90,7 @@ VALUES (23564,   1,   33556251) /* Setup */
      , (23564,  16,   67109564) /* EyesPalette */
      , (23564,  17,   67109560) /* SkinPalette */
      , (23564,  22,  872415331) /* PhysicsEffectTable */
-     , (23564,  35,        448) /* DeathTreasureType */;
+     , (23564,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23564,   1, 140, 0, 0) /* Strength */
@@ -159,9 +159,9 @@ VALUES (23564,    73,  2.032)  /* Frost Bolt V */
      , (23564,  1467,  2.023)  /* Feeblemind Other V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23564, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (23564, 9,  6058,  0, 0, 0.03, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (23564, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (23564, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (23564, 9,  6058,  0, 0, 0.03, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (23564, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (23564, 9, 20856,  0, 0, 0.02, False) /* Create Bael'Zharon Stamp (20856) for ContainTreasure */;
+     , (23564, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (23564, 9, 20856,  0, 0, 0.02, False) /* Create Bael'Zharon Stamp (20856) for ContainTreasure */
+     , (23564, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

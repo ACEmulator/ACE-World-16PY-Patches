@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24639;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24639, 'olthoibroodqueenhigh', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (24639, 'olthoibroodqueenhigh', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24639,   1,         16) /* ItemType - Creature */
@@ -78,7 +78,7 @@ VALUES (24639,   1,   33557165) /* Setup */
      , (24639,  19,         86) /* ActivationAnimation */
      , (24639,  22,  872415379) /* PhysicsEffectTable */
      , (24639,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (24639,  35,         29) /* DeathTreasureType */;
+     , (24639,  35,         29) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24639,   1, 390, 0, 0) /* Strength */
@@ -128,9 +128,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24639, 9, 24648,  0, 0, 0.33, False) /* Create Adolescent Brood Queen Carapace (24648) for ContainTreasure */
-     , (24639, 9, 24650,  0, 0, 0.34, False) /* Create Adolescent Brood Queen Claw (24650) for ContainTreasure */
+VALUES (24639, 9, 24658,  0, 0, 0.33, False) /* Create Adolescent Brood Queen Metathorax (24658) for ContainTreasure */
+     , (24639, 9, 24648,  0, 0, 0.33, False) /* Create Adolescent Brood Queen Carapace (24648) for ContainTreasure */
+     , (24639, 9, 24656,  0, 0, 0.34, False) /* Create Adolescent Brood Queen Head (24656) for ContainTreasure */
      , (24639, 9, 24652,  0, 0, 0.33, False) /* Create Adolescent Brood Queen Crest (24652) for ContainTreasure */
      , (24639, 9, 24654,  0, 0, 0.33, False) /* Create Adolescent Brood Queen Femur (24654) for ContainTreasure */
-     , (24639, 9, 24656,  0, 0, 0.34, False) /* Create Adolescent Brood Queen Head (24656) for ContainTreasure */
-     , (24639, 9, 24658,  0, 0, 0.33, False) /* Create Adolescent Brood Queen Metathorax (24658) for ContainTreasure */;
+     , (24639, 9, 24650,  0, 0, 0.34, False) /* Create Adolescent Brood Queen Claw (24650) for ContainTreasure */;

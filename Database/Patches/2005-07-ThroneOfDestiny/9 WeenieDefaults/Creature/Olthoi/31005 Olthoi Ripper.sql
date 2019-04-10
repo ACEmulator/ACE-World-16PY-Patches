@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31005;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31005, 'olthoiripperhighyield', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (31005, 'olthoiripperhighyield', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31005,   1,         16) /* ItemType - Creature */
@@ -10,7 +10,6 @@ VALUES (31005,   1,         16) /* ItemType - Creature */
      , (31005,   7,        255) /* ContainersCapacity */
      , (31005,  16,          1) /* ItemUseable - No */
      , (31005,  25,        185) /* Level */
-     , (31005,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (31005,  81,          2) /* MaxGeneratedObjects */
      , (31005,  82,          0) /* InitGeneratedObjects */
      , (31005,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -154,10 +153,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31005, 9,     0,  0, 0, 0.955, False) /* Create nothing for ContainTreasure */
-     , (31005, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (31005, 9, 31354,  0, 0, 0.045, False) /* Create Olthoi Ripper Spine (31354) for ContainTreasure */
+     , (31005, 9,     0,  0, 0, 0.955, False) /* Create nothing for ContainTreasure */
      , (31005, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (31005, 9, 31354,  0, 0, 0.045, False) /* Create Olthoi Ripper Spine (31354) for ContainTreasure */;
+     , (31005, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31005, 1, 34014, 0, 2, 2, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Tanada Nanjou Shou-jen (34014) (x2 up to max of 2) - Regenerate upon Death - Location to (re)Generate: OnTop */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31008;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31008, 'olthoilaceratorhighyield', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (31008, 'olthoilaceratorhighyield', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31008,   1,         16) /* ItemType - Creature */
@@ -39,6 +39,7 @@ VALUES (31008,   1,       5) /* HeartbeatInterval */
      , (31008,  31,      24) /* VisualAwarenessRange */
      , (31008,  34,     0.5) /* PowerupTime */
      , (31008,  36,       1) /* ChargeSpeed */
+     , (31008,  39, 1.10000002384186) /* DefaultScale */
      , (31008,  64,    0.75) /* ResistSlash */
      , (31008,  65,       1) /* ResistPierce */
      , (31008,  66,       1) /* ResistBludgeon */
@@ -119,7 +120,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31008, 9,     0,  0, 0, 0.955, False) /* Create nothing for ContainTreasure */
-     , (31008, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (31008, 9, 31352,  0, 0, 0.045, False) /* Create Olthoi Slayer Carapace (31352) for ContainTreasure */
+     , (31008, 9,     0,  0, 0, 0.955, False) /* Create nothing for ContainTreasure */
      , (31008, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (31008, 9, 31352,  0, 0, 0.045, False) /* Create Olthoi Slayer Carapace (31352) for ContainTreasure */;
+     , (31008, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

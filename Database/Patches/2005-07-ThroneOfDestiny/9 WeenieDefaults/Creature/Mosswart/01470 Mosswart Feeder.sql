@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1470;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1470, 'mosswartfood', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (1470, 'mosswartfood', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1470,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (1470,   1,   33557327) /* Setup */
      , (1470,   7,  268436292) /* ClothingBase */
      , (1470,   8,  100667449) /* Icon */
      , (1470,  22,  872415264) /* PhysicsEffectTable */
-     , (1470,  35,        453) /* DeathTreasureType */;
+     , (1470,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1470,   1, 100, 0, 0) /* Strength */
@@ -173,10 +173,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1470, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (1470, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
      , (1470, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (1470, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (1470, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */;
+     , (1470, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */
+     , (1470, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1470, 1, 131, 600, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate UNKNOWN RANDOMLY GENERATED TREASURE (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
+VALUES (1470, 1, 131, 600, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate 1x Fire Auroch Meat (1446), 1x Super Cheese (1452), 1x Fresh Fish (1445), 1x Wheat Bread (1448), 1x Tart Apple (1447), 1x Royal Cabbage (1449), 1x Salmon (1450), 1x Special Cheese (1451) from Wielded Treasure Table id: 131 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

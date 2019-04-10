@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7989;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7989, 'ursuinscavenger', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7989, 'ursuinscavenger', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7989,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (7989,   1,   33556773) /* Setup */
      , (7989,   4,  805306409) /* CombatTable */
      , (7989,   8,  100670959) /* Icon */
      , (7989,  22,  872415366) /* PhysicsEffectTable */
-     , (7989,  35,        459) /* DeathTreasureType */;
+     , (7989,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7989,   1,  50, 0, 0) /* Strength */
@@ -134,5 +134,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7989, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7989, 9,  8674,  0, 0, 0.03, False) /* Create Small Ursuin Hide (8674) for ContainTreasure */;
+VALUES (7989, 9,  8674,  0, 0, 0.03, False) /* Create Small Ursuin Hide (8674) for ContainTreasure */
+     , (7989, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

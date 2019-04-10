@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8430;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8430, 'mosswartsoultrapper', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8430, 'mosswartsoultrapper', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8430,   1,         16) /* ItemType - Creature */
@@ -77,8 +77,11 @@ VALUES (8430,   1,   33557327) /* Setup */
      , (8430,   7,  268436295) /* ClothingBase */
      , (8430,   8,  100667449) /* Icon */
      , (8430,  22,  872415264) /* PhysicsEffectTable */
-     , (8430,  32,        333) /* WieldedTreasureType */
-     , (8430,  35,        451) /* DeathTreasureType */;
+     , (8430,  32,        333) /* WieldedTreasureType - 
+                                   Wield Spear (23697) | Probability: 35%
+                                   Wield Tachi (23701) | Probability: 25%
+                                   Wield Yari (23731) | Probability: 40% */
+     , (8430,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8430,   1, 150, 0, 0) /* Strength */
@@ -198,9 +201,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8430, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
-     , (8430, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (8430, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (8430, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone (3694) for ContainTreasure */
+VALUES (8430, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone (3694) for ContainTreasure */
+     , (8430, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
      , (8430, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (8430, 9, 15767,  0, 0, 0.02, False) /* Create Ruined Amulet of the Heart (15767) for ContainTreasure */;
+     , (8430, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (8430, 9, 15767,  0, 0, 0.02, False) /* Create Ruined Amulet of the Heart (15767) for ContainTreasure */
+     , (8430, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

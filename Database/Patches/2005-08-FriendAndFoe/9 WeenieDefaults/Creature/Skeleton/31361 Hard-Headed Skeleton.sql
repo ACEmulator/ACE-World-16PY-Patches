@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31361;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31361, 'ace31361-hardheadedskeleton', 10, '2019-03-27 07:14:36') /* Creature */;
+VALUES (31361, 'ace31361-hardheadedskeleton', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31361,   1,         16) /* ItemType - Creature */
@@ -156,11 +156,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31361, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (31361, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (31361, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (31361, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (31361, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+VALUES (31361, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (31361, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (31361, 9,  9312,  0, 0, 0.05, False) /* Create A Small Mnemosyne (9312) for ContainTreasure */
+     , (31361, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (31361, 9, 22100,  0, 0, 0.01, False) /* Create Skull Stamp (22100) for ContainTreasure */
-     , (31361, 9, 31362,  1, 0, 1, True) /* Create Jacob's Axe (31362) for ContainTreasure */;
+     , (31361, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (31361, 9, 31362,  1, 0, 1, True) /* Create Jacob's Axe (31362) for ContainTreasure */
+     , (31361, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

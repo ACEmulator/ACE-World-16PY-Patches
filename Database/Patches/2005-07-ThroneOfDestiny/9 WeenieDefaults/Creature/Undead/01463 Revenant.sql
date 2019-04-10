@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1463;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1463, 'undeadspecial', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (1463, 'undeadspecial', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1463,   1,         16) /* ItemType - Creature */
@@ -77,8 +77,13 @@ VALUES (1463,   1,   33554839) /* Setup */
      , (1463,   7,  268435558) /* ClothingBase */
      , (1463,   8,  100667942) /* Icon */
      , (1463,  22,  872415272) /* PhysicsEffectTable */
-     , (1463,  32,        250) /* WieldedTreasureType */
-     , (1463,  35,        451) /* DeathTreasureType */;
+     , (1463,  32,        250) /* WieldedTreasureType - 
+                                   Wield Katar (23675) | Probability: 25%
+                                   Wield Nekode (23681) | Probability: 25%
+                                   Wield Cestus (23638) | Probability: 25%
+                                   Wield Tachi (23701) | Probability: 25%
+                                   Wield Kite Shield (23685) | Probability: 85% */
+     , (1463,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1463,   1, 120, 0, 0) /* Strength */
@@ -160,11 +165,11 @@ VALUES (1463,    61,  2.028)  /* Acid Stream IV */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1463, 8,  1436,  0, 0, 1, False) /* Create Hammer of Lightning  (1436) for Treasure */
-     , (1463, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (1463, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (1463, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (1463, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone (7041) for ContainTreasure */
      , (1463, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (1463, 9,  5873,  0, 0, 0.03, False) /* Create Seal (5873) for ContainTreasure */
+     , (1463, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (1463, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (1463, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone (7041) for ContainTreasure */
-     , (1463, 9,  9310,  0, 0, 0.03, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */;
+     , (1463, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (1463, 9,  9310,  0, 0, 0.03, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (1463, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12020;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12020, 'sclavusbossmonster', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (12020, 'sclavusbossmonster', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12020,   1,         16) /* ItemType - Creature */
@@ -81,8 +81,15 @@ VALUES (12020,   1,   33555608) /* Setup */
      , (12020,   7,  268435727) /* ClothingBase */
      , (12020,   8,  100669120) /* Icon */
      , (12020,  22,  872415280) /* PhysicsEffectTable */
-     , (12020,  32,        376) /* WieldedTreasureType */
-     , (12020,  35,         19) /* DeathTreasureType */;
+     , (12020,  32,        376) /* WieldedTreasureType - 
+                                   Wield 5x Javelin (8620) | Probability: 25%
+                                   Wield 4x Acid Javelin (8621) | Probability: 25%
+                                   Wield Serpent's Fang (12028) | Probability: 100%
+                                   Wield Large Kite Shield (92) | Probability: 10%
+                                   Wield Kite Shield (91) | Probability: 10%
+                                   Wield Large Round Shield (94) | Probability: 20%
+                                   Wield Tower Shield (95) | Probability: 15% */
+     , (12020,  35,         19) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12020,   1, 265, 0, 0) /* Strength */
@@ -142,14 +149,14 @@ VALUES (12020,    63,  2.093)  /* Acid Stream VI */
      , (12020,  1265,   2.01)  /* Drain Mana Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12020, 9,     0,  0, 0, 0.4, False) /* Create nothing for ContainTreasure */
-     , (12020, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
-     , (12020, 9,     0,  0, 0, 0.15, False) /* Create nothing for ContainTreasure */
-     , (12020, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (12020, 9,  6876,  0, 0, 0.6, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+VALUES (12020, 9,  6876,  0, 0, 0.6, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (12020, 9,     0,  0, 0, 0.4, False) /* Create nothing for ContainTreasure */
      , (12020, 9,  7046,  0, 0, 0.75, False) /* Create Sclavus Tongue (7046) for ContainTreasure */
+     , (12020, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
      , (12020, 9,  9259,  0, 0, 0.85, False) /* Create Large Sclavus Hide (9259) for ContainTreasure */
-     , (12020, 9, 23539,  0, 0, 0.3, False) /* Create Serpent's Fang (23539) for ContainTreasure */;
+     , (12020, 9,     0,  0, 0, 0.15, False) /* Create nothing for ContainTreasure */
+     , (12020, 9, 23539,  0, 0, 0.3, False) /* Create Serpent's Fang (23539) for ContainTreasure */
+     , (12020, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12020, 0.5, 7112, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Chomu Sclavus (7112) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

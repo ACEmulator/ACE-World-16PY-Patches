@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11899;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11899, 'tumerokhaftreinforcedhigh', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (11899, 'tumerokhaftreinforcedhigh', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11899,   1,         16) /* ItemType - Creature */
@@ -172,7 +172,7 @@ VALUES (11899,    59,  2.013)  /* Acid Stream II */
      , (11899,  1196,  2.008)  /* Enfeeble Other II */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11899, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (11899, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (11899, 9, 11838,  0, 0, 0.05, False) /* Create Perfect Banner Haft (11838) for ContainTreasure */
+     , (11899, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (11899, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (11899, 9, 11838,  0, 0, 0.05, False) /* Create Perfect Banner Haft (11838) for ContainTreasure */;
+     , (11899, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

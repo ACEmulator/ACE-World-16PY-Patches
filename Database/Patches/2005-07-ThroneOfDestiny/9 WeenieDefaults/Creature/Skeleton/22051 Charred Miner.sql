@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22051;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22051, 'skeletoncharredneclass', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (22051, 'skeletoncharrednew', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22051,   1,         16) /* ItemType - Creature */
@@ -68,8 +68,12 @@ VALUES (22051,   1,   33554521) /* Setup */
      , (22051,   6,   67116522) /* PaletteBase */
      , (22051,   8,  100669124) /* Icon */
      , (22051,  22,  872415269) /* PhysicsEffectTable */
-     , (22051,  32,        287) /* WieldedTreasureType */
-     , (22051,  35,        263) /* DeathTreasureType */;
+     , (22051,  32,        287) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 16x Greater Fire Arrow (5305) | Probability: 100%
+                                   Wield Kite Shield (23686) | Probability: 50%
+                                   Wield Fire Tachi (23708) | Probability: 50% */
+     , (22051,  35,        263) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22051,   1, 155, 0, 0) /* Strength */
@@ -144,6 +148,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Release...me...', NULL, NUL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22051, 2,  5753,  0, 0, 0, False) /* Create Pickaxe (5753) for Wield */
+     , (22051, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
      , (22051, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (22051, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (22051, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */;
+     , (22051, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

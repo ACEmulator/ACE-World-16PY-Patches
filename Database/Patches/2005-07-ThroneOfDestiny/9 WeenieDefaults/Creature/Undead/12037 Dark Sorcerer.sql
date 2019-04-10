@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12037;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12037, 'undeadbossmonster', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (12037, 'undeadbossmonster', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12037,   1,         16) /* ItemType - Creature */
@@ -80,8 +80,17 @@ VALUES (12037,   1,   33554839) /* Setup */
      , (12037,   7,  268435558) /* ClothingBase */
      , (12037,   8,  100667942) /* Icon */
      , (12037,  22,  872415272) /* PhysicsEffectTable */
-     , (12037,  32,        291) /* WieldedTreasureType */
-     , (12037,  35,         21) /* DeathTreasureType */;
+     , (12037,  32,        291) /* WieldedTreasureType - 
+                                   Wield 5x Frost Throwing Club (23663) | Probability: 40%
+                                   Wield 5x Throwing Club (23655) | Probability: 30%
+                                   Wield Yumi (23736) | Probability: 30%
+                                   Wield 18x Greater Arrow (5304) | Probability: 100%
+                                   Wield Frost Yari (23728) | Probability: 25%
+                                   Wield Yari (23732) | Probability: 25%
+                                   Wield Frost Spear (23694) | Probability: 15%
+                                   Wield Spear (23698) | Probability: 15%
+                                   Wield Tachi (23702) | Probability: 20% */
+     , (12037,  35,         21) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12037,   1, 240, 0, 0) /* Strength */
@@ -162,14 +171,14 @@ VALUES (12037,    62,   2.01)  /* Acid Stream V */
      , (12037,  1468,  2.011)  /* Feeblemind Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12037, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
-     , (12037, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (12037, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (12037, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (12037, 9,  6876,  0, 0, 0.5, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+VALUES (12037, 9,  6876,  0, 0, 0.5, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (12037, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
      , (12037, 9,  7045,  0, 0, 0.8, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
+     , (12037, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
      , (12037, 9,  9310,  0, 0, 0.3, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
-     , (12037, 9, 23611,  0, 0, 0.3, False) /* Create Dark Sorcerer's Phylactery (23611) for ContainTreasure */;
+     , (12037, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
+     , (12037, 9, 23611,  0, 0, 0.3, False) /* Create Dark Sorcerer's Phylactery (23611) for ContainTreasure */
+     , (12037, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12037, 0.5, 7124, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dark Magus (7124) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

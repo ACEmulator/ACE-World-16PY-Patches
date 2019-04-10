@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25807;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25807, 'zombiechimera', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25807, 'zombiechimera', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25807,   1,         16) /* ItemType - Creature */
@@ -77,8 +77,14 @@ VALUES (25807,   1,   33554839) /* Setup */
      , (25807,   7,  268435558) /* ClothingBase */
      , (25807,   8,  100667942) /* Icon */
      , (25807,  22,  872415272) /* PhysicsEffectTable */
-     , (25807,  32,        426) /* WieldedTreasureType */
-     , (25807,  35,        449) /* DeathTreasureType */;
+     , (25807,  32,        426) /* WieldedTreasureType - 
+                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Kite Shield (23135) | Probability: 100%
+                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
+     , (25807,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25807,   1, 320, 0, 0) /* Strength */
@@ -131,9 +137,9 @@ VALUES (25807,  2162,    2.1)  /* Olthoi's Gift */
      , (25807,  2174,    2.1)  /* Archer's Gift */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25807, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (25807, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (25807, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
-     , (25807, 9,  9310,  0, 0, 0.07, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+VALUES (25807, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (25807, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (25807, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
-     , (25807, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;
+     , (25807, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (25807, 9,  9310,  0, 0, 0.07, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (25807, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */;

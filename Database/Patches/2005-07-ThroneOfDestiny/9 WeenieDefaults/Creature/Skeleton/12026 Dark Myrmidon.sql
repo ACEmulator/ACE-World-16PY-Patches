@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12026;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12026, 'skeletonhighbossmonster', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (12026, 'skeletonhighbossmonster', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12026,   1,         16) /* ItemType - Creature */
@@ -141,12 +141,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12026, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (12026, 9,     0,  0, 0, 0.4, False) /* Create nothing for ContainTreasure */
-     , (12026, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (12026, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+VALUES (12026, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (12026, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (12026, 9,  9310,  0, 0, 0.6, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
-     , (12026, 9, 23537,  0, 0, 0.3, False) /* Create Osseous Mace (23537) for ContainTreasure */;
+     , (12026, 9,     0,  0, 0, 0.4, False) /* Create nothing for ContainTreasure */
+     , (12026, 9, 23537,  0, 0, 0.3, False) /* Create Osseous Mace (23537) for ContainTreasure */
+     , (12026, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12026, 0.25, 7179, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Relic Bones (7179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

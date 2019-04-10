@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25663;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25663, 'shadowvoidknightvod', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25663, 'shadowvoidknightvod', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25663,   1,         16) /* ItemType - Creature */
@@ -91,8 +91,14 @@ VALUES (25663,   1,   33554433) /* Setup */
      , (25663,  16,   67110065) /* EyesPalette */
      , (25663,  17,   67109559) /* SkinPalette */
      , (25663,  22,  872415331) /* PhysicsEffectTable */
-     , (25663,  32,        426) /* WieldedTreasureType */
-     , (25663,  35,        449) /* DeathTreasureType */;
+     , (25663,  32,        426) /* WieldedTreasureType - 
+                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Kite Shield (23135) | Probability: 100%
+                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
+     , (25663,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25663,   1, 360, 0, 0) /* Strength */
@@ -155,9 +161,9 @@ VALUES (25663,    74,  2.036)  /* Frost Bolt VI */
      , (25663,  2318,   2.01)  /* Gravity Well */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25663, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+VALUES (25663, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (25663, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (25663, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (25663, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (25663, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (25663, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (25663, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
-     , (25663, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;
+     , (25663, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

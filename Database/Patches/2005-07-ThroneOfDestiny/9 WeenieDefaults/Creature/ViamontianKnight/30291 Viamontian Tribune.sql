@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30291;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30291, 'knighttribune_nofall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30291, 'knighttribune_nofall', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30291,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (30291,   1,   33559125) /* Setup */
      , (30291,   7,  268436907) /* ClothingBase */
      , (30291,   8,  100677371) /* Icon */
      , (30291,  22,  872415269) /* PhysicsEffectTable */
-     , (30291,  35,        449) /* DeathTreasureType */;
+     , (30291,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30291,   1, 395, 0, 0) /* Strength */
@@ -154,8 +154,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30291, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (30291, 9, 34276,  0, 0, 0.01, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */
+VALUES (30291, 9, 34276,  0, 0, 0.01, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */
+     , (30291, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (30291, 10, 29964,  0, 0, 0.25, False) /* Create Throwing Axe (29964) for WieldTreasure */
      , (30291, 10, 29965,  0, 0, 0.25, False) /* Create Quadrelle (29965) for WieldTreasure */
      , (30291, 10, 29970,  0, 0, 0.25, False) /* Create Partizan (29970) for WieldTreasure */

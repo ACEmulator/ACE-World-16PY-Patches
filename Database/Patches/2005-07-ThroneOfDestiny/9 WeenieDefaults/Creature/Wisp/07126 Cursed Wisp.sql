@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7126;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7126, 'wispcursed', 10, '2019-02-08 06:52:23') /* Creature */;
+VALUES (7126, 'wispcursed', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7126,   1,         16) /* ItemType - Creature */
@@ -26,7 +26,7 @@ VALUES (7126,   1, True ) /* Stuck */
      , (7126,  14, True ) /* GravityStatus */
      , (7126,  19, True ) /* Attackable */
      , (7126,  50, True ) /* NeverFailCasting */
-     , (7126, 120, True ) /* Treasure Corpse */;
+     , (7126, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7126,   1,       5) /* HeartbeatInterval */
@@ -71,7 +71,7 @@ VALUES (7126,   1,   33555867) /* Setup */
      , (7126,   4,  805306398) /* CombatTable */
      , (7126,   8,  100668442) /* Icon */
      , (7126,  22,  872415274) /* PhysicsEffectTable */
-     , (7126,  35,        462) /* DeathTreasureType */;
+     , (7126,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7126,   1, 120, 0, 0) /* Strength */
@@ -119,9 +119,9 @@ VALUES (7126,    72,   2.15)  /* Frost Bolt IV */
      , (7126,  1263,   2.67)  /* Drain Mana Other IV */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7126, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (7126, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (7126, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (7126, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (7126, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (7126, 9, 45875,  1, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (7126, 9, 45876,  1, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+     , (7126, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (7126, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (7126, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (7126, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

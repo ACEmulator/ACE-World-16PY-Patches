@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19294;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19294, 'statuereplicalowmosswartsmall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (19294, 'statuereplicalowmosswartsmall', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19294,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (19294,   1,   33557327) /* Setup */
      , (19294,   7,  268436295) /* ClothingBase */
      , (19294,   8,  100667449) /* Icon */
      , (19294,  22,  872415264) /* PhysicsEffectTable */
-     , (19294,  35,        453) /* DeathTreasureType */;
+     , (19294,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19294,   1, 125, 0, 0) /* Strength */
@@ -173,5 +173,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19294, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (19294, 9, 19217,  0, 0, 0.05, False) /* Create Bronze Gear from a Statue (19217) for ContainTreasure */;
+VALUES (19294, 9, 19217,  0, 0, 0.05, False) /* Create Bronze Gear from a Statue (19217) for ContainTreasure */
+     , (19294, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

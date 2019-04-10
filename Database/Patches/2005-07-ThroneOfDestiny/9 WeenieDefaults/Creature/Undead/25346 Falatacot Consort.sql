@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25346;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25346, 'zombieundeadconsort', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25346, 'zombieundeadconsort', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25346,   1,         16) /* ItemType - Creature */
@@ -77,8 +77,9 @@ VALUES (25346,   1,   33558436) /* Setup */
      , (25346,   7,  268436672) /* ClothingBase */
      , (25346,   8,  100674805) /* Icon */
      , (25346,  22,  872415272) /* PhysicsEffectTable */
-     , (25346,  32,        446) /* WieldedTreasureType */
-     , (25346,  35,        452) /* DeathTreasureType */;
+     , (25346,  32,        446) /* WieldedTreasureType - 
+                                   Wield Khopesh (25499) | Probability: 98% */
+     , (25346,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25346,   1, 185, 0, 0) /* Strength */
@@ -151,5 +152,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Im vaik av tiu ikni liViliakti.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25346, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (25346, 9, 24477,  0, 0, 0.005, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;
+VALUES (25346, 9, 24477,  0, 0, 0.005, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (25346, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;

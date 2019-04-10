@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11533;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11533, 'zefirazael_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11533, 'zefirazael_xp', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11533,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (11533,   1,   33555610) /* Setup */
      , (11533,   7,  268435811) /* ClothingBase */
      , (11533,   8,  100669123) /* Icon */
      , (11533,  22,  872415279) /* PhysicsEffectTable */
-     , (11533,  35,        462) /* DeathTreasureType */;
+     , (11533,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11533,   1, 300, 0, 0) /* Strength */
@@ -117,5 +117,5 @@ VALUES (11533,    67,  2.014)  /* Shock Wave IV */
      , (11533,  1263,   2.01)  /* Drain Mana Other IV */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11533, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (11533, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+VALUES (11533, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11533, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 26516;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (26516, 'undeadancientsoul', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (26516, 'undeadancientsoul', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26516,   1,         16) /* ItemType - Creature */
@@ -78,8 +78,9 @@ VALUES (26516,   1,   33558436) /* Setup */
      , (26516,   7,  268436673) /* ClothingBase */
      , (26516,   8,  100674805) /* Icon */
      , (26516,  22,  872415272) /* PhysicsEffectTable */
-     , (26516,  32,        447) /* WieldedTreasureType */
-     , (26516,  35,        449) /* DeathTreasureType */;
+     , (26516,  32,        447) /* WieldedTreasureType - 
+                                   Wield Khopesh (25500) | Probability: 98% */
+     , (26516,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26516,   1, 205, 0, 0) /* Strength */

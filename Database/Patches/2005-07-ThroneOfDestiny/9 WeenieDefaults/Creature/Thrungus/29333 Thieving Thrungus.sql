@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29333;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29333, 'thrungusthievingnewbieacademy', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29333, 'thrungusthievingnewbieacademy', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29333,   1,         16) /* ItemType - Creature */
@@ -11,10 +11,10 @@ VALUES (29333,   1,         16) /* ItemType - Creature */
      , (29333,   7,         -1) /* ContainersCapacity */
      , (29333,  16,          1) /* ItemUseable - No */
      , (29333,  25,          2) /* Level */
-     , (29333,  27,          0) /* ArmorType */
+     , (29333,  27,          0) /* ArmorType - None */
      , (29333,  40,          2) /* CombatMode - Melee */
-     , (29333,  67,         64) /* Tolerance */
-     , (29333,  68,          9) /* TargetingTactic */
+     , (29333,  67,         64) /* Tolerance - Retaliate */
+     , (29333,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (29333,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29333, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29333, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -88,10 +88,10 @@ VALUES (29333,   1,    10, 0, 0, 15) /* MaxHealth */
      , (29333,   5,     0, 0, 0, 10) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29333,  6, 0, 3, 0,  23, 0, 0) /* MeleeDefense        Specialized */
-     , (29333,  7, 0, 3, 0,  61, 0, 0) /* MissileDefense      Specialized */
-     , (29333, 13, 0, 3, 0,  58, 0, 0) /* UnarmedCombat       Specialized */
-     , (29333, 15, 0, 3, 0,  18, 0, 0) /* MagicDefense        Specialized */
+VALUES (29333,  6, 0, 3, 0,  30, 0, 0) /* MeleeDefense        Specialized */
+     , (29333,  7, 0, 3, 0,  65, 0, 0) /* MissileDefense      Specialized */
+     , (29333, 13, 0, 3, 0,  65, 0, 0) /* UnarmedCombat       Specialized */
+     , (29333, 15, 0, 3, 0,  25, 0, 0) /* MagicDefense        Specialized */
      , (29333, 22, 0, 2, 0,   2, 0, 0) /* Jump                Trained */
      , (29333, 24, 0, 2, 0,   2, 0, 0) /* Run                 Trained */;
 
@@ -132,5 +132,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29333, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (29333, 9, 12710,  1, 0, 0.3, True) /* Create Bellows (12710) for ContainTreasure */;
+VALUES (29333, 9, 12710,  1, 0, 0.3, True) /* Create Bellows (12710) for ContainTreasure */
+     , (29333, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;

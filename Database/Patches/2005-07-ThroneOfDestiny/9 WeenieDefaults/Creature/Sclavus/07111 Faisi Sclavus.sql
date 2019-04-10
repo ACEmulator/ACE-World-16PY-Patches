@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7111;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7111, 'sclavusfaisi', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7111, 'sclavusfaisi', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7111,   1,         16) /* ItemType - Creature */
@@ -77,8 +77,22 @@ VALUES (7111,   1,   33555608) /* Setup */
      , (7111,   7,  268435727) /* ClothingBase */
      , (7111,   8,  100669120) /* Icon */
      , (7111,  22,  872415280) /* PhysicsEffectTable */
-     , (7111,  32,        284) /* WieldedTreasureType */
-     , (7111,  35,        450) /* DeathTreasureType */;
+     , (7111,  32,        284) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 80%
+                                   Wield 14x Greater Arrow (5304) | Probability: 100%
+                                   Wield Katar (23676) | Probability: 10%
+                                   Wield Kite Shield (23686) | Probability: 100%
+                                   Wield Nekode (23682) | Probability: 10%
+                                   Wield Kite Shield (23686) | Probability: 100%
+                                   Wield Cestus (23639) | Probability: 10%
+                                   Wield Kite Shield (23686) | Probability: 100%
+                                   Wield Spear (23698) | Probability: 10%
+                                   Wield Kite Shield (23686) | Probability: 100%
+                                   Wield Tachi (23702) | Probability: 10%
+                                   Wield Kite Shield (23686) | Probability: 100%
+                                   Wield Yari (23732) | Probability: 50%
+                                   Wield Kite Shield (23686) | Probability: 100% */
+     , (7111,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7111,   1, 170, 0, 0) /* Strength */
@@ -138,21 +152,21 @@ VALUES (7111,    61,  2.093)  /* Acid Stream IV */
      , (7111,  1263,   2.01)  /* Drain Mana Other IV */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7111, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.05, False) /* Create nothing for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7111, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7111, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+VALUES (7111, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (7111, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue (7046) for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (7111, 9,  9259,  0, 0, 0.03, False) /* Create Large Sclavus Hide (9259) for ContainTreasure */
-     , (7111, 9, 12216,  0, 0, 0.05, False) /* Create Sclavus Head (12216) for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (7111, 9, 20861,  0, 0, 0.04, False) /* Create Moons Stamp (20861) for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (7111, 9, 27386,  0, 0, 0.005, False) /* Create Gold Hill Ruins (27386) for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
+     , (7111, 9, 12216,  0, 0, 0.05, False) /* Create Sclavus Head (12216) for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.05, False) /* Create nothing for ContainTreasure */
      , (7111, 9, 22026,  0, 0, 0.05, False) /* Create Sclavus Arm (22026) for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (7111, 9, 22030,  0, 0, 0.05, False) /* Create Sclavus Leg (22030) for ContainTreasure */
+     , (7111, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (7111, 9, 22046,  0, 0, 0.05, False) /* Create Sclavus Torso (22046) for ContainTreasure */
-     , (7111, 9, 27386,  0, 0, 0.005, False) /* Create Gold Hill Ruins (27386) for ContainTreasure */;
+     , (7111, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

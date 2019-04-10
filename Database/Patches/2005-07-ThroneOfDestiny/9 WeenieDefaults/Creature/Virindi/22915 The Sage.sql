@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22915;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22915, 'virindiprofanesage', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (22915, 'virindiprofanesage', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22915,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (22915,   1,   33558343) /* Setup */
      , (22915,   7,  268436609) /* ClothingBase */
      , (22915,   8,  100674323) /* Icon */
      , (22915,  22,  872415273) /* PhysicsEffectTable */
-     , (22915,  35,        355) /* DeathTreasureType */;
+     , (22915,  35,        355) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22915,   1, 325, 0, 0) /* Strength */
@@ -190,31 +190,31 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22915, 9,     0,  0, 0, 0.985, False) /* Create nothing for ContainTreasure */
-     , (22915, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (22915, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+VALUES (22915, 9,  7604,  0, 0, 0.015, False) /* Create Yellow Jewel (7604) for ContainTreasure */
+     , (22915, 9,     0,  0, 0, 0.985, False) /* Create nothing for ContainTreasure */
      , (22915, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (22915, 9,  7604,  0, 0, 0.015, False) /* Create Yellow Jewel (7604) for ContainTreasure */
+     , (22915, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (22915, 9,  9292,  0, 0, 0.01, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (22915, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (22915, 9, 22925,  0, 0, 1, False) /* Create Athenaeum Key (22925) for ContainTreasure */
+     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22915, 9, 25948,  0, 0, 1, False) /* Create Dark Amber Ring (25948) for ContainTreasure */
+     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22915, 9, 25948,  0, 0, 1, False) /* Create Dark Amber Ring (25948) for ContainTreasure */
+     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22915, 9, 25948,  0, 0, 1, False) /* Create Dark Amber Ring (25948) for ContainTreasure */
+     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22915, 9, 25948,  0, 0, 1, False) /* Create Dark Amber Ring (25948) for ContainTreasure */
+     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22915, 9, 25948,  0, 0, 1, False) /* Create Dark Amber Ring (25948) for ContainTreasure */
+     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22915, 9, 25948,  0, 0, 1, False) /* Create Dark Amber Ring (25948) for ContainTreasure */
+     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22915, 9, 25948,  0, 0, 1, False) /* Create Dark Amber Ring (25948) for ContainTreasure */
+     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22915, 9, 25948,  0, 0, 1, False) /* Create Dark Amber Ring (25948) for ContainTreasure */
+     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (22915, 9, 25948,  0, 0, 1, False) /* Create Dark Amber Ring (25948) for ContainTreasure */
-     , (22915, 9, 25948,  0, 0, 1, False) /* Create Dark Amber Ring (25948) for ContainTreasure */;
+     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (22915, 9, 25948,  0, 0, 1, False) /* Create Dark Amber Ring (25948) for ContainTreasure */
+     , (22915, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

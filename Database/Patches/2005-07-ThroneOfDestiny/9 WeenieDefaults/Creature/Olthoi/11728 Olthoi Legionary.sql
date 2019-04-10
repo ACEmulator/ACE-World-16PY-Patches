@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11728;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11728, 'olthoilegionaryspecial_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11728, 'olthoilegionaryspecial_xp', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11728,   1,         16) /* ItemType - Creature */
@@ -77,7 +77,7 @@ VALUES (11728,   1,   33557162) /* Setup */
      , (11728,  19,         86) /* ActivationAnimation */
      , (11728,  22,  872415265) /* PhysicsEffectTable */
      , (11728,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (11728,  35,        450) /* DeathTreasureType */;
+     , (11728,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11728,   1, 280, 0, 0) /* Strength */
@@ -126,5 +126,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11728, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (11728, 9, 10846,  0, 0, 1, False) /* Create Legionary Pincer (10846) for ContainTreasure */;
+VALUES (11728, 9, 10846,  0, 0, 1, False) /* Create Legionary Pincer (10846) for ContainTreasure */
+     , (11728, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11876;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11876, 'tumerokbannergromnie', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11876, 'tumerokbannergromnie', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11876,   1,         16) /* ItemType - Creature */
@@ -71,8 +71,10 @@ VALUES (11876,   1,   33559554) /* Setup */
      , (11876,   6,   67116625) /* PaletteBase */
      , (11876,   8,  100667452) /* Icon */
      , (11876,  22,  872415270) /* PhysicsEffectTable */
-     , (11876,  32,        367) /* WieldedTreasureType */
-     , (11876,  35,        453) /* DeathTreasureType */;
+     , (11876,  32,        367) /* WieldedTreasureType - 
+                                   Wield Hafted Gromnie Spear (11752) | Probability: 80%
+                                   Wield Reinforced Gromnie Spear (11778) | Probability: 20% */
+     , (11876,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11876,   1, 110, 0, 0) /* Strength */
@@ -119,9 +121,9 @@ VALUES (11876,  0,  4,  0,    0,  120,  120,  120,  120,  120,  120,  120,  120,
      , (11876,  8,  4,  5, 0.75,  125,  125,  125,  125,  125,  125,  125,  125,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11876, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (11876, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (11876, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (11876, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+VALUES (11876, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (11876, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (11876, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (11876, 9, 11738,  0, 0, 0.05, False) /* Create Gromnie Banner (11738) for ContainTreasure */;
+     , (11876, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (11876, 9, 11738,  0, 0, 0.05, False) /* Create Gromnie Banner (11738) for ContainTreasure */
+     , (11876, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

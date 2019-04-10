@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4106;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4106, 'tumerokhighpriestarcher', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (4106, 'tumerokhighpriestarcher', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4106,   1,         16) /* ItemType - Creature */
@@ -163,7 +163,7 @@ VALUES (4106,    62,   2.04)  /* Acid Stream V */
      , (4106,  1223,  2.023)  /* Mana Drain Other V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4106, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (4106, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (4106, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
-     , (4106, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;
+VALUES (4106, 9,  3695,  0, 0, 0.1, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (4106, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (4106, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (4106, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

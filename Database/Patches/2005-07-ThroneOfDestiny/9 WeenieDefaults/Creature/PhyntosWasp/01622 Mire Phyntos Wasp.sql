@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1622;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1622, 'phyntoswaspmire', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (1622, 'phyntoswaspmire', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1622,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (1622,   1,   33558817) /* Setup */
      , (1622,   7,  268436836) /* ClothingBase */
      , (1622,   8,  100667450) /* Icon */
      , (1622,  22,  872415266) /* PhysicsEffectTable */
-     , (1622,  35,        465) /* DeathTreasureType */;
+     , (1622,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1622,   1,  45, 0, 0) /* Strength */
@@ -110,5 +110,5 @@ VALUES (1622,    59,   2.25)  /* Acid Stream II */
      , (1622,    81,   2.25)  /* Flame Bolt II */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1622, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
-     , (1622, 9,  3702,  0, 0, 0.15, False) /* Create Mire Phyntos Wasp Wing (3702) for ContainTreasure */;
+VALUES (1622, 9,  3702,  0, 0, 0.15, False) /* Create Mire Phyntos Wasp Wing (3702) for ContainTreasure */
+     , (1622, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */;

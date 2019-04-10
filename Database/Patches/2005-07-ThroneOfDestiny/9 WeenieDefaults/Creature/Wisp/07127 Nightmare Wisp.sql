@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7127;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7127, 'wispnightmare', 10, '2019-02-08 06:52:23') /* Creature */;
+VALUES (7127, 'wispnightmare', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7127,   1,         16) /* ItemType - Creature */
@@ -26,7 +26,7 @@ VALUES (7127,   1, True ) /* Stuck */
      , (7127,  14, True ) /* GravityStatus */
      , (7127,  19, True ) /* Attackable */
      , (7127,  50, True ) /* NeverFailCasting */
-     , (7127, 120, True ) /* Treasure Corpse */;
+     , (7127, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7127,   1,       5) /* HeartbeatInterval */
@@ -72,7 +72,7 @@ VALUES (7127,   1,   33556634) /* Setup */
      , (7127,   4,  805306398) /* CombatTable */
      , (7127,   8,  100668442) /* Icon */
      , (7127,  22,  872415274) /* PhysicsEffectTable */
-     , (7127,  35,        464) /* DeathTreasureType */;
+     , (7127,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7127,   1, 150, 0, 0) /* Strength */
@@ -120,7 +120,7 @@ VALUES (7127,    80,    2.3)  /* Lightning Bolt VI */
      , (7127,  1265,      2)  /* Drain Mana Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7127, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (7127, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7127, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (7127, 9,  8667,  0, 0, 0.03, False) /* Create Glowing Wisp Heart (8667) for ContainTreasure */;
+VALUES (7127, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7127, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (7127, 9,  8667,  0, 0, 0.03, False) /* Create Glowing Wisp Heart (8667) for ContainTreasure */
+     , (7127, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

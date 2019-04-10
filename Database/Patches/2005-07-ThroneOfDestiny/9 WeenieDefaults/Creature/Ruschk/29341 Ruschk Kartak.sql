@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29341;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29341, 'ruschkkartak', 10, '2019-02-19 15:09:35') /* Creature */;
+VALUES (29341, 'ruschkkartak', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29341,   1,         16) /* ItemType - Creature */
@@ -174,7 +174,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Ruschk mumbles something incoherent...an icy chill comes over you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29341, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (29341, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+VALUES (29341, 9, 34277, -1, 0, 0.06, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+     , (29341, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (29341, 9, 31037, -1, 0, 0.15, False) /* Create Ruschk Scalp (31037) for ContainTreasure */
-     , (29341, 9, 34277, -1, 0, 0.06, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */;
+     , (29341, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

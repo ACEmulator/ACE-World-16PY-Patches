@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12300;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12300, 'virindiservantsingular', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (12300, 'virindiservantsingular', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12300,   1,         16) /* ItemType - Creature */
@@ -69,7 +69,7 @@ VALUES (12300,   1,   33554497) /* Setup */
      , (12300,   4,  805306381) /* CombatTable */
      , (12300,   8,  100667943) /* Icon */
      , (12300,  22,  872415273) /* PhysicsEffectTable */
-     , (12300,  35,        245) /* DeathTreasureType */;
+     , (12300,  35,        245) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12300,   1,  30, 0, 0) /* Strength */
@@ -201,9 +201,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12300, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (12300, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (12300, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (12300, 9,  3696,  0, 0, 0.05, False) /* Create Blue Gem (3696) for ContainTreasure */
+VALUES (12300, 9,  3696,  0, 0, 0.05, False) /* Create Blue Gem (3696) for ContainTreasure */
+     , (12300, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (12300, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (12300, 9,  9291,  0, 0, 0.03, False) /* Create Virindi Master Key (9291) for ContainTreasure */;
+     , (12300, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (12300, 9,  9291,  0, 0, 0.03, False) /* Create Virindi Master Key (9291) for ContainTreasure */
+     , (12300, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8816;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8816, 'undeadmausoleumguardian', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8816, 'undeadmausoleumguardian', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8816,   1,         16) /* ItemType - Creature */
@@ -77,8 +77,29 @@ VALUES (8816,   1,   33554839) /* Setup */
      , (8816,   7,  268435558) /* ClothingBase */
      , (8816,   8,  100667942) /* Icon */
      , (8816,  22,  872415272) /* PhysicsEffectTable */
-     , (8816,  32,        249) /* WieldedTreasureType */
-     , (8816,  35,        239) /* DeathTreasureType */;
+     , (8816,  32,        249) /* WieldedTreasureType - 
+                                   Wield 4x Throwing Club (23654) | Probability: 10%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 18x Arrow (300) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 20x Fire Arrow (1437) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 10x Acid Arrow (4181) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 12x Quarrel (305) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 14x Fire Quarrel (4188) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 16x Acid Quarrel (4185) | Probability: 100%
+                                   Wield Katar (23675) | Probability: 15%
+                                   Wield Cestus (23638) | Probability: 15%
+                                   Wield Nekode (23681) | Probability: 15%
+                                   Wield Spear (23697) | Probability: 15%
+                                   Wield Tachi (23701) | Probability: 15%
+                                   Wield Yari (23731) | Probability: 15%
+                                   Wield Kite Shield (23685) | Probability: 50%
+                                   Wield Tower Shield (95) | Probability: 25% */
+     , (8816,  35,        239) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8816,   1, 150, 0, 0) /* Strength */
@@ -159,7 +180,7 @@ VALUES (8816,    61,  2.013)  /* Acid Stream IV */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8816, 1,  8785,  0, 0, 0, False) /* Create Empyrean Scalemail Shirt (8785) for Contain */
-     , (8816, 1,  8786,  0, 0, 0, False) /* Create Barbed Fletching Tool (8786) for Contain */
      , (8816, 1,  8788,  0, 0, 0, False) /* Create Obsidian Dagger (8788) for Contain */
-     , (8816, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (8816, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (8816, 1,  8786,  0, 0, 0, False) /* Create Barbed Fletching Tool (8786) for Contain */
+     , (8816, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (8816, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

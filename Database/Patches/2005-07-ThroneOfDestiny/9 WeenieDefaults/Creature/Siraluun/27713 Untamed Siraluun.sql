@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27713;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27713, 'siraluununtamed', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (27713, 'siraluununtamed', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27713,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (27713,   1,   33557059) /* Setup */
      , (27713,   7,  268436194) /* ClothingBase */
      , (27713,   8,  100671751) /* Icon */
      , (27713,  22,  872415376) /* PhysicsEffectTable */
-     , (27713,  35,        454) /* DeathTreasureType */;
+     , (27713,  35,        454) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27713,   1, 350, 0, 0) /* Strength */
@@ -119,11 +119,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27713, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (27713, 9, 29907,  0, 0, 0.05, False) /* Create Untamed Siraluun Claw (29907) for ContainTreasure */
      , (27713, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (27713, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (27713, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (27713, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (27713, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (27713, 9, 29904,  0, 0, 0.05, False) /* Create Small Bundle of Untamed Siraluun Feathers (29904) for ContainTreasure */
-     , (27713, 9, 29907,  0, 0, 0.05, False) /* Create Untamed Siraluun Claw (29907) for ContainTreasure */;
+     , (27713, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (27713, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (27713, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (27713, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (27713, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

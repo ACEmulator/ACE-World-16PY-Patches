@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24326;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24326, 'zombierisenlord', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (24326, 'zombierisenlord', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24326,   1,         16) /* ItemType - Creature */
@@ -77,8 +77,21 @@ VALUES (24326,   1,   33554839) /* Setup */
      , (24326,   7,  268436626) /* ClothingBase */
      , (24326,   8,  100667942) /* Icon */
      , (24326,  22,  872415272) /* PhysicsEffectTable */
-     , (24326,  32,        203) /* WieldedTreasureType */
-     , (24326,  35,        450) /* DeathTreasureType */;
+     , (24326,  32,        203) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 20%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 40%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Katar (23674) | Probability: 12%
+                                   Wield Cestus (23637) | Probability: 12%
+                                   Wield Nekode (23680) | Probability: 12%
+                                   Wield Tachi (23700) | Probability: 12%
+                                   Wield Spear (23696) | Probability: 12%
+                                   Wield Fire Yaoji (23718) | Probability: 12%
+                                   Wield Yaoji (23710) | Probability: 12%
+                                   Wield Fire Tachi (23707) | Probability: 12%
+                                   Wield Kite Shield (23684) | Probability: 75% */
+     , (24326,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24326,   1, 150, 0, 0) /* Strength */
@@ -121,15 +134,15 @@ VALUES (24326,  0,  4,  0,    0,  360,  360,  360,  360,  360,  360,  360,  360,
      , (24326,  8,  4, 80, 0.75,  360,  360,  360,  360,  360,  360,  360,  360,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24326, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (24326, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (24326, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (24326, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (24326, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (24326, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (24326, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (24326, 9,  9310,  0, 0, 0.05, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
      , (24326, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (24326, 9,  5873,  0, 0, 0.03, False) /* Create Seal (5873) for ContainTreasure */
-     , (24326, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (24326, 9,  9310,  0, 0, 0.05, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (24326, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (24326, 9, 22028,  0, 0, 0.05, False) /* Create Undead Arm (22028) for ContainTreasure */
+     , (24326, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (24326, 9, 22032,  0, 0, 0.05, False) /* Create Undead Leg (22032) for ContainTreasure */
-     , (24326, 9, 22048,  0, 0, 0.05, False) /* Create Undead Torso (22048) for ContainTreasure */;
+     , (24326, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (24326, 9, 22048,  0, 0, 0.05, False) /* Create Undead Torso (22048) for ContainTreasure */
+     , (24326, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

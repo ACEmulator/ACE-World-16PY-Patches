@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29402;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29402, 'knightcaptainaurachon1', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29402, 'knightcaptainaurachon1', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29402,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (29402,   1,   33559125) /* Setup */
      , (29402,   7,  268436907) /* ClothingBase */
      , (29402,   8,  100677371) /* Icon */
      , (29402,  22,  872415269) /* PhysicsEffectTable */
-     , (29402,  35,        449) /* DeathTreasureType */;
+     , (29402,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29402,   1, 395, 0, 0) /* Strength */
@@ -153,17 +153,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29402, 9, 29368,  0, 0, 1, False) /* Create Gold Invader Lord Helm (29368) for ContainTreasure */
-     , (29402, 9, 29368,  0, 0, 1, False) /* Create Gold Invader Lord Helm (29368) for ContainTreasure */
-     , (29402, 9, 29368,  0, 0, 1, False) /* Create Gold Invader Lord Helm (29368) for ContainTreasure */
-     , (29402, 9, 29368,  0, 0, 1, False) /* Create Gold Invader Lord Helm (29368) for ContainTreasure */
-     , (29402, 9, 29368,  0, 0, 1, False) /* Create Gold Invader Lord Helm (29368) for ContainTreasure */
-     , (29402, 9, 29391,  0, 0, 1, False) /* Create Dispatch to Captain Aurachon (29391) for ContainTreasure */
+VALUES (29402, 9, 29391,  0, 0, 1, False) /* Create Dispatch to Captain Aurachon (29391) for ContainTreasure */
      , (29402, 9, 29391,  0, 0, 1, False) /* Create Dispatch to Captain Aurachon (29391) for ContainTreasure */
      , (29402, 9, 29391,  0, 0, 1, False) /* Create Dispatch to Captain Aurachon (29391) for ContainTreasure */
      , (29402, 9, 29445,  0, 0, 1, False) /* Create Corcima Castle Gold Ward Portal Gem (29445) for ContainTreasure */
      , (29402, 9, 29445,  0, 0, 1, False) /* Create Corcima Castle Gold Ward Portal Gem (29445) for ContainTreasure */
      , (29402, 9, 29445,  0, 0, 1, False) /* Create Corcima Castle Gold Ward Portal Gem (29445) for ContainTreasure */
+     , (29402, 9, 29368,  0, 0, 1, False) /* Create Gold Invader Lord Helm (29368) for ContainTreasure */
+     , (29402, 9, 29368,  0, 0, 1, False) /* Create Gold Invader Lord Helm (29368) for ContainTreasure */
+     , (29402, 9, 29368,  0, 0, 1, False) /* Create Gold Invader Lord Helm (29368) for ContainTreasure */
+     , (29402, 9, 29368,  0, 0, 1, False) /* Create Gold Invader Lord Helm (29368) for ContainTreasure */
+     , (29402, 9, 29368,  0, 0, 1, False) /* Create Gold Invader Lord Helm (29368) for ContainTreasure */
      , (29402, 10, 29964,  0, 0, 0.25, False) /* Create Throwing Axe (29964) for WieldTreasure */
      , (29402, 10, 29965,  0, 0, 0.25, False) /* Create Quadrelle (29965) for WieldTreasure */
      , (29402, 10, 29970,  0, 0, 0.25, False) /* Create Partizan (29970) for WieldTreasure */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8121;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8121, 'shadowfenmalain', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8121, 'shadowfenmalain', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8121,   1,         16) /* ItemType - Creature */
@@ -88,8 +88,22 @@ VALUES (8121,   1,   33554433) /* Setup */
      , (8121,  16,   67110064) /* EyesPalette */
      , (8121,  17,   67109559) /* SkinPalette */
      , (8121,  22,  872415331) /* PhysicsEffectTable */
-     , (8121,  32,        175) /* WieldedTreasureType */
-     , (8121,  35,        451) /* DeathTreasureType */;
+     , (8121,  32,        175) /* WieldedTreasureType - 
+                                   Wield Yumi (23735) | Probability: 20%
+                                   Wield 14x Fire Arrow (1437) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 20%
+                                   Wield 14x Arrow (300) | Probability: 100%
+                                   Wield Katar (23675) | Probability: 10%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Nekode (23681) | Probability: 10%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Cestus (23638) | Probability: 10%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Tachi (23701) | Probability: 35%
+                                   Wield Kite Shield (23685) | Probability: 100%
+                                   Wield Fire Yaoji (23719) | Probability: 35%
+                                   Wield Kite Shield (23685) | Probability: 100% */
+     , (8121,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8121,   1,  90, 0, 0) /* Strength */
@@ -157,5 +171,5 @@ VALUES (8121,    71,   2.04)  /* Frost Bolt III */
      , (8121,  1678,   2.01)  /* Stamina to Mana Self III */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8121, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (8121, 9,  8085,  0, 0, 1, False) /* Create Oozing Lump (8085) for ContainTreasure */;
+VALUES (8121, 9,  8085,  0, 0, 1, False) /* Create Oozing Lump (8085) for ContainTreasure */
+     , (8121, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

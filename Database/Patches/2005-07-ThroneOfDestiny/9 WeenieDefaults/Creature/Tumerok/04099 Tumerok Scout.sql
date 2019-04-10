@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4099;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4099, 'tumerokscoutarcher', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (4099, 'tumerokscoutarcher', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4099,   1,         16) /* ItemType - Creature */
@@ -164,11 +164,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4099, 8,   303,  0, 0, 0.05, False) /* Create Hand Axe (303) for Treasure */
-     , (4099, 8,   308,  0, 0, 0.05, False) /* Create Budiaq (308) for Treasure */
+VALUES (4099, 8,   308,  0, 0, 0.05, False) /* Create Budiaq (308) for Treasure */
      , (4099, 8,   309,  0, 0, 0.05, False) /* Create Club (309) for Treasure */
      , (4099, 8,   313,  0, 0, 0.05, False) /* Create Dabus (313) for Treasure */
      , (4099, 8,   314,  0, 0, 0.05, False) /* Create Dagger (314) for Treasure */
+     , (4099, 8,   303,  0, 0, 0.05, False) /* Create Hand Axe (303) for Treasure */
      , (4099, 8,   319,  0, 0, 0.02, False) /* Create Jambiya (319) for Treasure */
      , (4099, 8,   321,  0, 0, 0.05, False) /* Create Jitte (321) for Treasure */
      , (4099, 8,   325,  0, 0, 0.05, False) /* Create Kasrullah (325) for Treasure */
@@ -176,13 +176,13 @@ VALUES (4099, 8,   303,  0, 0, 0.05, False) /* Create Hand Axe (303) for Treasur
      , (4099, 8,   328,  0, 0, 0.05, False) /* Create Khanjar (328) for Treasure */
      , (4099, 8,   329,  0, 0, 0.03, False) /* Create Knife (329) for Treasure */
      , (4099, 8,   331,  0, 0, 0.05, False) /* Create Mace (331) for Treasure */
+     , (4099, 8,   352,  0, 0, 0.05, False) /* Create Short Sword (352) for Treasure */
      , (4099, 8,   342,  0, 0, 0.05, False) /* Create Shou-ono (342) for Treasure */
      , (4099, 8,   345,  0, 0, 0.05, False) /* Create Simi (345) for Treasure */
      , (4099, 8,   348,  0, 0, 0.05, False) /* Create Spear (348) for Treasure */
-     , (4099, 8,   352,  0, 0, 0.05, False) /* Create Short Sword (352) for Treasure */
      , (4099, 8,   356,  0, 0, 0.05, False) /* Create Tofun (356) for Treasure */
      , (4099, 8,   357,  0, 0, 0.05, False) /* Create Tungi (357) for Treasure */
      , (4099, 8,   361,  0, 0, 0.05, False) /* Create Yaoji (361) for Treasure */
      , (4099, 8,   362,  0, 0, 0.05, False) /* Create Yari (362) for Treasure */
-     , (4099, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (4099, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;
+     , (4099, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (4099, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

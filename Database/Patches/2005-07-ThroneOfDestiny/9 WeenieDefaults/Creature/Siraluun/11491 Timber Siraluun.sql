@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11491;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11491, 'siraluuntimber_xp', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (11491, 'siraluuntimber_xp', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11491,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (11491,   1,   33557059) /* Setup */
      , (11491,   7,  268436194) /* ClothingBase */
      , (11491,   8,  100671751) /* Icon */
      , (11491,  22,  872415376) /* PhysicsEffectTable */
-     , (11491,  35,        456) /* DeathTreasureType */;
+     , (11491,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11491,   1, 280, 0, 0) /* Strength */
@@ -119,13 +119,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11491, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (11491, 9, 11370,  0, 0, 0.05, False) /* Create Timber Siraluun Claw (11370) for ContainTreasure */
      , (11491, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (11491, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (11491, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (11491, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (11491, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (11491, 9, 11370,  0, 0, 0.05, False) /* Create Timber Siraluun Claw (11370) for ContainTreasure */
      , (11491, 9, 29903,  0, 0, 0.05, False) /* Create Small Bundle of Timber Siraluun Feathers (29903) for ContainTreasure */
-     , (11491, 9, 45875,  1, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (11491, 9, 45876,  1, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+     , (11491, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (11491, 9,  6876,  0, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (11491, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (11491, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (11491, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (11491, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (11491, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

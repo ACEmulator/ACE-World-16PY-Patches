@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70038;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70038, 'ace70038-eternalharvester', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (70038, 'ace70038-eternalharvester', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70038,   1,         16) /* ItemType - Creature */
@@ -159,11 +159,11 @@ VALUES (70038,    63,   2.01)  /* Acid Stream VI */
      , (70038,  1468,  2.011)  /* Feeblemind Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70038, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (70038, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (70038, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (70038, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (70038, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (70038, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (70038, 9,  9310,  0, 0, 0.05, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (70038, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (70038, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (70038, 9, 31667,  1, 0, 1, False) /* Create Crypt of Adhorix Portal Gem (31667) for ContainTreasure */;
+     , (70038, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (70038, 9, 31667,  1, 0, 1, False) /* Create Crypt of Adhorix Portal Gem (31667) for ContainTreasure */
+     , (70038, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

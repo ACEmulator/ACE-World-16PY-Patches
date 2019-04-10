@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38045;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38045, 'ace38045-hiroishigame', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (38045, 'ace38045-hiroishigame', 10, '2019-04-09 02:19:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38045,   1,         16) /* ItemType - Creature */
@@ -206,5 +206,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  6,  10 /* Tell */, 0.2, 1, NULL, 'You will find the Green Mire Grave at 27.8S, 71.6E, northeast of here, upon a small hill to the east side of the river.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38045, 2,  5854,  0, 7, 1, False) /* Create Suikan Robe (5854) for Wield */
-     , (38045, 2, 27217,  0, 8, 0.2, False) /* Create Chiran Helm (27217) for Wield */;
+VALUES (38045, 2, 27217,  0, 8, 0.2, False) /* Create Chiran Helm (27217) for Wield */
+     , (38045, 2,  5854,  0, 7, 1, False) /* Create Suikan Robe (5854) for Wield */;

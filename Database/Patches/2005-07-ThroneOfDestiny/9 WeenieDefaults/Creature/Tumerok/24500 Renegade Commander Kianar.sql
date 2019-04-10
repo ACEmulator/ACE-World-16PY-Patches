@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24500;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24500, 'tumerokrenegadecommander1archer', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (24500, 'tumerokrenegadecommander1archer', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24500,   1,         16) /* ItemType - Creature */
@@ -115,9 +115,9 @@ VALUES (24500,  0,  4,  0,    0,  430,  430,  430,  430,  430,  430,  430,  430,
      , (24500,  8,  4,  3, 0.75,  430,  430,  430,  430,  430,  430,  430,  430,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24500, 2, 15431, 250, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
-     , (24500, 2, 24568,  0, 0, 0, False) /* Create Renegade Bow (24568) for Wield */
-     , (24500, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (24500, 2, 24568,  0, 0, 0, False) /* Create Renegade Bow (24568) for Wield */
+     , (24500, 2, 15431, 250, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
      , (24500, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (24500, 9, 24556,  0, 0, 0.335, False) /* Create Tumerok Hunting Brace (24556) for ContainTreasure */
-     , (24500, 9, 24558,  0, 0, 0.665, False) /* Create Renegade Bow (24558) for ContainTreasure */;
+     , (24500, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (24500, 9, 24558,  0, 0, 0.665, False) /* Create Renegade Bow (24558) for ContainTreasure */
+     , (24500, 9, 24556,  0, 0, 0.335, False) /* Create Tumerok Hunting Brace (24556) for ContainTreasure */;

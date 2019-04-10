@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25667;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25667, 'wispdarkvapor', 10, '2019-02-08 06:52:23') /* Creature */;
+VALUES (25667, 'wispdarkvapor', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25667,   1,         16) /* ItemType - Creature */
@@ -26,7 +26,7 @@ VALUES (25667,   1, True ) /* Stuck */
      , (25667,  14, True ) /* GravityStatus */
      , (25667,  19, True ) /* Attackable */
      , (25667,  50, True ) /* NeverFailCasting */
-     , (25667, 120, True ) /* Treasure Corpse */;
+     , (25667, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25667,   1,       5) /* HeartbeatInterval */
@@ -73,7 +73,7 @@ VALUES (25667,   1,   33558511) /* Setup */
      , (25667,   8,  100668442) /* Icon */
      , (25667,  22,  872415274) /* PhysicsEffectTable */
      , (25667,  31,      25674) /* LinkedPortalOne - Caliginous Bethel */
-     , (25667,  35,        464) /* DeathTreasureType */;
+     , (25667,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25667,   1, 210, 0, 0) /* Strength */
@@ -128,5 +128,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 157 /* Summon Primary Portal I */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25667, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (25667, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+VALUES (25667, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (25667, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

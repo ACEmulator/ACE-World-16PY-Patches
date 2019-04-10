@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27285;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27285, 'shadowchilddepraved', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (27285, 'shadowchilddepraved', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27285,   1,         16) /* ItemType - Creature */
@@ -91,7 +91,7 @@ VALUES (27285,   1,   33554433) /* Setup */
      , (27285,  16,   67110065) /* EyesPalette */
      , (27285,  17,   67109562) /* SkinPalette */
      , (27285,  22,  872415331) /* PhysicsEffectTable */
-     , (27285,  35,        461) /* DeathTreasureType */;
+     , (27285,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27285,   1, 160, 0, 0) /* Strength */
@@ -189,9 +189,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'An uncontrollable hate seeps into your thoughts as the Depraved Shadow Child falls before you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27285, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (27285, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (27285, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (27285, 9,  6058,  0, 0, 0.05, False) /* Create Dark Shard (6058) for ContainTreasure */
+VALUES (27285, 9,  6058,  0, 0, 0.05, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (27285, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (27285, 9, 24477,  0, 0, 0.01, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (27285, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
+     , (27285, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (27285, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (27285, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

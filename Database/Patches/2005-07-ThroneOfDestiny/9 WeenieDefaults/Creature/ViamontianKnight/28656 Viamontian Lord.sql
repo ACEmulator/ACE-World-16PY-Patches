@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28656;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28656, 'knightlord', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (28656, 'knightlord', 10, '2019-04-10 02:24:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28656,   1,         16) /* ItemType - Creature */
@@ -149,10 +149,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28656, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (28656, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+VALUES (28656, 9, 34277,  0, 0, 0.005, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+     , (28656, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
      , (28656, 9, 32924,  1, 0, 0.02, False) /* Create Mukkir Nest Portal Gem (32924) for ContainTreasure */
-     , (28656, 9, 34277,  0, 0, 0.005, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+     , (28656, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (28656, 10, 29964,  0, 0, 0.25, False) /* Create Throwing Axe (29964) for WieldTreasure */
      , (28656, 10, 29965,  0, 0, 0.25, False) /* Create Quadrelle (29965) for WieldTreasure */
      , (28656, 10, 29970,  0, 0, 0.25, False) /* Create Partizan (29970) for WieldTreasure */

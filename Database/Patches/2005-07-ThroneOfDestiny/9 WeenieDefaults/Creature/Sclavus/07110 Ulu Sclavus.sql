@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7110;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7110, 'sclavusulu', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7110, 'sclavusulu', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7110,   1,         16) /* ItemType - Creature */
@@ -77,8 +77,17 @@ VALUES (7110,   1,   33555608) /* Setup */
      , (7110,   7,  268435727) /* ClothingBase */
      , (7110,   8,  100669120) /* Icon */
      , (7110,  22,  872415280) /* PhysicsEffectTable */
-     , (7110,  32,        285) /* WieldedTreasureType */
-     , (7110,  35,        450) /* DeathTreasureType */;
+     , (7110,  32,        285) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 60%
+                                   Wield 14x Greater Arrow (5304) | Probability: 100%
+                                   Wield Katar (23676) | Probability: 10%
+                                   Wield Nekode (23682) | Probability: 10%
+                                   Wield Cestus (23639) | Probability: 10%
+                                   Wield Spear (23698) | Probability: 10%
+                                   Wield Tachi (23702) | Probability: 10%
+                                   Wield Yari (23732) | Probability: 50%
+                                   Wield Kite Shield (23686) | Probability: 70% */
+     , (7110,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7110,   1, 170, 0, 0) /* Strength */
@@ -138,15 +147,15 @@ VALUES (7110,    61,  2.093)  /* Acid Stream IV */
      , (7110,  1263,   2.01)  /* Drain Mana Other IV */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7110, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (7110, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7110, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7110, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7110, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (7110, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (7110, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (7110, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (7110, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue (7046) for ContainTreasure */
+     , (7110, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (7110, 9,  9259,  0, 0, 0.03, False) /* Create Large Sclavus Hide (9259) for ContainTreasure */
+     , (7110, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (7110, 9, 20861,  0, 0, 0.03, False) /* Create Moons Stamp (20861) for ContainTreasure */
-     , (7110, 9, 45875,  1, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (7110, 9, 45876,  1, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+     , (7110, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (7110, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (7110, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (7110, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (7110, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

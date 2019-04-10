@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29358;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29358, 'phyntoswaspwoodland', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29358, 'phyntoswaspwoodland', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29358,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (29358,   1,   33558817) /* Setup */
      , (29358,   7,  268436836) /* ClothingBase */
      , (29358,   8,  100667450) /* Icon */
      , (29358,  22,  872415266) /* PhysicsEffectTable */
-     , (29358,  35,        462) /* DeathTreasureType */;
+     , (29358,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29358,   1, 120, 0, 0) /* Strength */
@@ -111,9 +111,9 @@ VALUES (29358,    73,   2.15)  /* Frost Bolt V */
      , (29358,  2729,    2.1)  /* Frost Arc V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29358, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (29358, 9,  6876,  1, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (29358, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (29358, 9,  8701,  1, 0, 0.08, False) /* Create Old Lucky Gold Letter (8701) for ContainTreasure */
      , (29358, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
-     , (29358, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
-     , (29358, 9,  6876,  1, 0, 0.05, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (29358, 9,  8701,  1, 0, 0.08, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */
-     , (29358, 9, 45876,  1, 0, 0.08, False) /* Create  (45876) for ContainTreasure */;
+     , (29358, 9, 45876,  1, 0, 0.08, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (29358, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;

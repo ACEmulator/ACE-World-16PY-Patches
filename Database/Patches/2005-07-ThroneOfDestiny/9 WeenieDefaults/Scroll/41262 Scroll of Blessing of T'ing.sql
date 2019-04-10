@@ -30,6 +30,3 @@ VALUES (41262,   1,   33554826) /* Setup */
      , (41262,   8,  100690644) /* Icon */
      , (41262,  22,  872415275) /* PhysicsEffectTable */
      , (41262,  28,       5105) /* Spell - Blessing of T'ing */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41262,  5105,      2)  /* Blessing of T'ing */;

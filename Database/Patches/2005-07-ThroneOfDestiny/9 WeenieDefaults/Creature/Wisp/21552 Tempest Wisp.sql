@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21552;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (21552, 'wisptempest', 10, '2019-02-08 06:52:23') /* Creature */;
+VALUES (21552, 'wisptempest', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21552,   1,         16) /* ItemType - Creature */
@@ -26,7 +26,7 @@ VALUES (21552,   1, True ) /* Stuck */
      , (21552,  14, True ) /* GravityStatus */
      , (21552,  19, True ) /* Attackable */
      , (21552,  50, True ) /* NeverFailCasting */
-     , (21552, 120, True ) /* Treasure Corpse */;
+     , (21552, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21552,   1,       5) /* HeartbeatInterval */
@@ -70,7 +70,7 @@ VALUES (21552,   1,   33556979) /* Setup */
      , (21552,   3,  536870985) /* SoundTable */
      , (21552,   4,  805306368) /* CombatTable */
      , (21552,   8,  100671383) /* Icon */
-     , (21552,  35,        460) /* DeathTreasureType */;
+     , (21552,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21552,   1, 220, 0, 0) /* Strength */
@@ -116,5 +116,5 @@ VALUES (21552,    79,   2.15)  /* Lightning Bolt V */
      , (21552,  1395,   2.17)  /* Clumsiness Other V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (21552, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (21552, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+VALUES (21552, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (21552, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

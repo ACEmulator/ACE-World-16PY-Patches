@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14874;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14874, 'olthoiaugmentedholloclass', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (14874, 'olthoiaugmentedhollow', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14874,   1,         16) /* ItemType - Creature */
@@ -80,8 +80,8 @@ VALUES (14874,   1,   33557587) /* Setup */
      , (14874,   8,  100667623) /* Icon */
      , (14874,  19,         87) /* ActivationAnimation */
      , (14874,  22,  872415265) /* PhysicsEffectTable */
-     , (14874,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (14874,  35,        448) /* DeathTreasureType */;
+     , (14874,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (14874,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14874,   1, 310, 0, 0) /* Strength */
@@ -177,7 +177,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'A voice echoes through your mind as the darkness takes you. ''The Old Man will suffer, I will see it done.''', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14874, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (14874, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (14874, 9,  9292,  0, 0, 0.01, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (14874, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (14874, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (14874, 9,  9292,  0, 0, 0.01, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */;
+     , (14874, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

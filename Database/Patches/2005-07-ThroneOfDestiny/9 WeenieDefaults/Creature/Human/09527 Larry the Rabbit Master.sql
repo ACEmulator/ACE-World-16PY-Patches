@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9527;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9527, 'farmerofrabbits', 10, '2019-03-03 00:18:38') /* Creature */;
+VALUES (9527, 'farmerofrabbits', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9527,   1,         16) /* ItemType - Creature */
@@ -216,10 +216,10 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 2, 1, NULL, 'Larry shakes his
      , (@parent_id, 10,   5 /* Motion */, 0, 1, 318767225 /* ShakeFist */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9527, 2,    46,  0, 19, 0, False) /* Create Metal Cap (46) for Wield */
-     , (9527, 2,    84,  0, 16, 1, False) /* Create Studded Leather Leggings (84) for Wield */
-     , (9527, 2,    99,  0, 11, 0.4, False) /* Create Studded Leather Shirt (99) for Wield */
-     , (9527, 2,  2596,  0, 2, 0.8, False) /* Create Doublet (2596) for Wield */
+VALUES (9527, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */
+     , (9527, 2,  5753,  0, 0, 0, False) /* Create Pickaxe (5753) for Wield */
      , (9527, 2,  2604,  0, 9, 1, False) /* Create Breeches (2604) for Wield */
-     , (9527, 2,  2606,  0, 4, 0.8, False) /* Create Boots (2606) for Wield */
-     , (9527, 2,  5753,  0, 0, 0, False) /* Create Pickaxe (5753) for Wield */;
+     , (9527, 2,    84,  0, 16, 1, False) /* Create Studded Leather Leggings (84) for Wield */
+     , (9527, 2,  2596,  0, 2, 0.8, False) /* Create Doublet (2596) for Wield */
+     , (9527, 2,    46,  0, 19, 0, False) /* Create Metal Cap (46) for Wield */
+     , (9527, 2,    99,  0, 11, 0.4, False) /* Create Studded Leather Shirt (99) for Wield */;

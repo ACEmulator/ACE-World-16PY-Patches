@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8817;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8817, 'shadowheartleaderlower', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8817, 'shadowheartleaderlower', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8817,   1,         16) /* ItemType - Creature */
@@ -88,8 +88,22 @@ VALUES (8817,   1,   33554433) /* Setup */
      , (8817,  16,   67110063) /* EyesPalette */
      , (8817,  17,   67109559) /* SkinPalette */
      , (8817,  22,  872415331) /* PhysicsEffectTable */
-     , (8817,  32,        178) /* WieldedTreasureType */
-     , (8817,  35,        183) /* DeathTreasureType */;
+     , (8817,  32,        178) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 20%
+                                   Wield 14x Deadly Fire Arrow (15435) | Probability: 100%
+                                   Wield Yumi (23734) | Probability: 20%
+                                   Wield 14x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Katar (23674) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Nekode (23680) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Cestus (23637) | Probability: 10%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Tachi (23700) | Probability: 35%
+                                   Wield Kite Shield (23684) | Probability: 100%
+                                   Wield Fire Tachi (23707) | Probability: 35%
+                                   Wield Kite Shield (23684) | Probability: 100% */
+     , (8817,  35,        183) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8817,   1, 280, 0, 0) /* Strength */
@@ -157,9 +171,9 @@ VALUES (8817,    74,  2.032)  /* Frost Bolt VI */
      , (8817,  1468,  2.023)  /* Feeblemind Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8817, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (8817, 9,  6059,  0, 0, 0.05, False) /* Create Dark Sliver (6059) for ContainTreasure */
      , (8817, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (8817, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (8817, 9,  6059,  0, 0, 0.05, False) /* Create Dark Sliver (6059) for ContainTreasure */
      , (8817, 9,  8019,  0, 0, 0.05, False) /* Create Caulnalain Key (8019) for ContainTreasure */
-     , (8817, 9, 23108,  0, 0, 0.01, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;
+     , (8817, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (8817, 9, 23108,  0, 0, 0.01, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (8817, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

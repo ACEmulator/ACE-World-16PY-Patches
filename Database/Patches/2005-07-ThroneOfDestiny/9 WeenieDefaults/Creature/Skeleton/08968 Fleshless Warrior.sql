@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8968;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8968, 'skeletonfleshlesswarrior', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8968, 'skeletonfleshlesswarrior', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8968,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,13 @@ VALUES (8968,   1,   33559529) /* Setup */
      , (8968,   7,  268435646) /* ClothingBase */
      , (8968,   8,  100669124) /* Icon */
      , (8968,  22,  872415269) /* PhysicsEffectTable */
-     , (8968,  32,        286) /* WieldedTreasureType */
-     , (8968,  35,        450) /* DeathTreasureType */;
+     , (8968,  32,        286) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 16x Greater Acid Arrow (5306) | Probability: 100%
+                                   Wield Kite Shield (23686) | Probability: 50%
+                                   Wield Acid Spear (23690) | Probability: 25%
+                                   Wield Acid Yari (23724) | Probability: 25% */
+     , (8968,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8968,   1, 115, 0, 0) /* Strength */
@@ -133,11 +138,11 @@ VALUES (8968,    61,   2.05)  /* Acid Stream IV */
      , (8968,  1466,   2.03)  /* Feeblemind Other IV */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8968, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (8968, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (8968, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (8968, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (8968, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+VALUES (8968, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (8968, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (8968, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (8968, 9, 45875,  1, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (8968, 9, 45876,  1, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+     , (8968, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (8968, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (8968, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (8968, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (8968, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

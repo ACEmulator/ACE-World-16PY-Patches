@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11886;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11886, 'tumerokcrestgromnie', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (11886, 'tumerokcrestgromnie', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11886,   1,         16) /* ItemType - Creature */
@@ -150,5 +150,5 @@ VALUES (11886,    60,  2.013)  /* Acid Stream III */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11886, 1,  3695,  0, 0, 0.8, False) /* Create Gold Tumerok Insignia (3695) for Contain */
      , (11886, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (11886, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (11886, 9, 11813,  0, 0, 0.05, False) /* Create Gromnie Crest (11813) for ContainTreasure */;
+     , (11886, 9, 11813,  0, 0, 0.05, False) /* Create Gromnie Crest (11813) for ContainTreasure */
+     , (11886, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
