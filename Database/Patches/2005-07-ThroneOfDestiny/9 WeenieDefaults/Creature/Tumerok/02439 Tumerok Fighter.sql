@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2439;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2439, 'tumerokfighter', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (2439, 'tumerokfighter', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2439,   1,         16) /* ItemType - Creature */
@@ -154,5 +154,5 @@ VALUES (2439,  0,  4,  0,    0,   90,   90,   90,   90,   90,   90,   90,   90, 
      , (2439,  8,  4, 10, 0.75,   80,   80,   80,   80,   80,   80,   80,   80,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2439, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (2439, 9, 20855,  0, 0, 0.03, False) /* Create Alchemy Stamp (20855) for ContainTreasure */;
+VALUES (2439, 9, 20855,  0, 0, 0.03, False) /* Create Alchemy Stamp (20855) for ContainTreasure */
+     , (2439, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

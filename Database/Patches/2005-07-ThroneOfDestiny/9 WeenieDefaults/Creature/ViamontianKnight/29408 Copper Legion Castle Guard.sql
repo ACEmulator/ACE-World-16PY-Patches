@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29408;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29408, 'knightcastleguardcopper', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29408, 'knightcastleguardcopper', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29408,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (29408,   1,   33559125) /* Setup */
      , (29408,   7,  268436907) /* ClothingBase */
      , (29408,   8,  100677371) /* Icon */
      , (29408,  22,  872415269) /* PhysicsEffectTable */
-     , (29408,  35,        450) /* DeathTreasureType */;
+     , (29408,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29408,   1, 310, 0, 0) /* Strength */
@@ -153,10 +153,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29408, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+VALUES (29408, 9, 45875,  0, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (29408, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (29408, 9, 45876,  0, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
      , (29408, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (29408, 9, 45875,  0, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (29408, 9, 45876,  0, 0, 0.03, False) /* Create  (45876) for ContainTreasure */
      , (29408, 10, 29967,  1, 0, 0.25, False) /* Create Quadrelle (29967) for WieldTreasure */
      , (29408, 10, 29972,  1, 0, 0.25, False) /* Create Partizan (29972) for WieldTreasure */
      , (29408, 10, 29977,  1, 0, 0.25, False) /* Create Spadone (29977) for WieldTreasure */

@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45317;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45317, 'ace45317-scrollofshieldmasteryotherii', 34, '2019-02-04 06:52:23') /* Scroll */;
+VALUES (45317, 'ace45317-scrollofshieldmasteryotherii', 34, '2019-04-09 23:37:09') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45317,   1,       8192) /* ItemType - Writable */
      , (45317,   5,         30) /* EncumbranceVal */
      , (45317,  16,          8) /* ItemUseable - Contained */
      , (45317,  19,          5) /* Value */
-     , (45317,  53,        101) /* PlacementPosition */
+     , (45317,  53,        101) /* PlacementPosition - Resting */
      , (45317,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,6 +30,3 @@ VALUES (45317,   1,   33554826) /* Setup */
      , (45317,   8,  100692252) /* Icon */
      , (45317,  22,  872415275) /* PhysicsEffectTable */
      , (45317,  28,       5844) /* Spell - Shield Mastery Other II */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45317,  5844,      2)  /* Shield Mastery Other II */;

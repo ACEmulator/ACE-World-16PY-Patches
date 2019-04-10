@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10842;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10842, 'maraebehdo_xp', 10, '2019-03-31 22:38:17') /* Creature */;
+VALUES (10842, 'maraebehdo_xp', 10, '2019-04-09 02:33:36') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10842,   1,         16) /* ItemType - Creature */
@@ -84,9 +84,9 @@ VALUES (10842,   1,    50, 0, 0, 65) /* MaxHealth */
      , (10842,   5,    10, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (10842,  6, 0, 2, 0,   1, 0, 698.211853027344) /* MeleeDefense        Trained */
-     , (10842,  7, 0, 2, 0,   1, 0, 698.211853027344) /* MissileDefense      Trained */
-     , (10842, 13, 0, 2, 0,   1, 0, 698.211853027344) /* UnarmedCombat       Trained */;
+VALUES (10842,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */
+     , (10842,  7, 0, 2, 0,   1, 0, 0) /* MissileDefense      Trained */
+     , (10842, 13, 0, 2, 0,   1, 0, 0) /* UnarmedCombat       Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (10842,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -381,6 +381,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'What are you doing loiterin
      , (@parent_id,  1,   5 /* Motion */, 1, 1, 318767225 /* ShakeFist */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10842, 2,   127,  0, 2, 0.8, False) /* Create Pants (127) for Wield */
-     , (10842, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */
-     , (10842, 2,  2588,  0, 14, 0.8, False) /* Create Shirt (2588) for Wield */;
+VALUES (10842, 2,  2588,  0, 14, 0.8, False) /* Create Shirt (2588) for Wield */
+     , (10842, 2,   127,  0, 2, 0.8, False) /* Create Pants (127) for Wield */
+     , (10842, 2,   132,  0, 2, 0.5, False) /* Create Shoes (132) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31030;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31030, 'thrungusmudwortsnowlily', 10, '2019-02-19 06:52:23') /* Creature */;
+VALUES (31030, 'thrungusmudwortsnowlily', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31030,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (31030,   1,   33559123) /* Setup */
      , (31030,   7,  268436890) /* ClothingBase */
      , (31030,   8,  100677367) /* Icon */
      , (31030,  22,  872415411) /* PhysicsEffectTable */
-     , (31030,  35,        455) /* DeathTreasureType */;
+     , (31030,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31030,   1, 442, 0, 0) /* Strength */
@@ -140,11 +140,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31030, 0,     0,  0, 0, 0.75, False) /* Create nothing for Undef */
-     , (31030, 0, 30983,  1, 0, 0.25, False) /* Create Snow Lily (30983) for Undef */
-     , (31030, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (31030, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (31030, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+VALUES (31030, 0, 30983,  1, 0, 0.25, False) /* Create Snow Lily (30983) for Undef */
+     , (31030, 0,     0,  0, 0, 0.75, False) /* Create nothing for Undef */
      , (31030, 9, 34855,  1, 0, 0.1, False) /* Create Tiriun Mushroom Cap (34855) for ContainTreasure */
+     , (31030, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (31030, 9, 34857,  1, 0, 0.1, False) /* Create Tiriun Mushroom Spores (34857) for ContainTreasure */
+     , (31030, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (31030, 9, 34856,  1, 0, 0.1, False) /* Create Tiriun Mushroom Stalk (34856) for ContainTreasure */
-     , (31030, 9, 34857,  1, 0, 0.1, False) /* Create Tiriun Mushroom Spores (34857) for ContainTreasure */;
+     , (31030, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

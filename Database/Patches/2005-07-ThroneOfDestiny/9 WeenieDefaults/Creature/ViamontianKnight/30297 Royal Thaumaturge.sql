@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30297;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30297, 'knightmageroyalthaumaturge_nofall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30297, 'knightmageroyalthaumaturge_nofall', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30297,   1,         16) /* ItemType - Creature */
@@ -79,7 +79,7 @@ VALUES (30297,   1,   33554433) /* Setup */
      , (30297,  16,   67110065) /* EyesPalette */
      , (30297,  17,   67115901) /* SkinPalette */
      , (30297,  22,  872415236) /* PhysicsEffectTable */
-     , (30297,  35,        449) /* DeathTreasureType */;
+     , (30297,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30297,   1, 240, 0, 0) /* Strength */
@@ -201,6 +201,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30297, 2, 28614,  0, 11, 0.1786, True) /* Create Vestiri Robe with Hood (28614) for Wield */
      , (30297, 2, 28632,  0, 21, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (30297, 8,     0,  0, 0, 0.993, False) /* Create nothing for Treasure */
      , (30297, 8, 34276,  0, 0, 0.007, False) /* Create Ancient Empyrean Trinket (34276) for Treasure */
+     , (30297, 8,     0,  0, 0, 0.993, False) /* Create nothing for Treasure */
      , (30297, 10, 30947,  1, 0, 1, False) /* Create Poniard (30947) for WieldTreasure */;

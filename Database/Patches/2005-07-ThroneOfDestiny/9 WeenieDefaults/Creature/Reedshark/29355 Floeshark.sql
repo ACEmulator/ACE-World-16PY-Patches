@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29355;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29355, 'reedsharkfloe', 10, '2019-02-19 06:52:23') /* Creature */;
+VALUES (29355, 'reedsharkfloe', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29355,   1,         16) /* ItemType - Creature */
@@ -71,7 +71,7 @@ VALUES (29355,   1,   33554489) /* Setup */
      , (29355,   7,  268435556) /* ClothingBase */
      , (29355,   8,  100667939) /* Icon */
      , (29355,  22,  872415268) /* PhysicsEffectTable */
-     , (29355,  35,        146) /* DeathTreasureType */;
+     , (29355,  35,        146) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29355,   1, 520, 0, 0) /* Strength */
@@ -107,7 +107,7 @@ VALUES (29355,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'floesharkkillcount@#kt', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'FloesharkKills@#kt', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29355,  5 /* HeartBeat */,   0.05, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
@@ -174,8 +174,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29355, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (29355, 9, 34277,  0, 0, 0.05, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+     , (29355, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (29355, 9, 45875,  0, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
      , (29355, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (29355, 9, 34277,  0, 0, 0.05, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
-     , (29355, 9, 45875,  0, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (29355, 9, 45876,  0, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+     , (29355, 9, 45876,  0, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */;

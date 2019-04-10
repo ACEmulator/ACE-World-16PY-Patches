@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23569;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23569, 'virindiadjudicator', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (23569, 'virindiadjudicator', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23569,   1,         16) /* ItemType - Creature */
@@ -202,11 +202,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'We have been dispatched for harvesting errant energy that believes itself greater than the will of the collective. We were warned of your lacking abilities but never did we believe such impotence was possible.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23569, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (23569, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel (7604) for ContainTreasure */
      , (23569, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (23569, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (23569, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (23569, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel (7604) for ContainTreasure */
      , (23569, 9,  9292,  0, 0, 0.05, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (23569, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (23569, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (23569, 9, 27392,  0, 0, 0.005, False) /* Create Oubliette (27392) for ContainTreasure */;
+     , (23569, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (23569, 9, 27392,  0, 0, 0.005, False) /* Create Oubliette (27392) for ContainTreasure */
+     , (23569, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;

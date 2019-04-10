@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11487;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11487, 'siraluunlittoral_xp', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (11487, 'siraluunlittoral_xp', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11487,   1,         16) /* ItemType - Creature */
@@ -127,9 +127,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11487, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (11487, 9, 11366,  0, 0, 0.05, False) /* Create Littoral Siraluun Claw (11366) for ContainTreasure */
      , (11487, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (11487, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (11487, 9, 29899,  0, 0, 0.05, False) /* Create Small Bundle of Littoral Siraluun Feathers (29899) for ContainTreasure */
+     , (11487, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (11487, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (11487, 9, 11366,  0, 0, 0.05, False) /* Create Littoral Siraluun Claw (11366) for ContainTreasure */
-     , (11487, 9, 29899,  0, 0, 0.05, False) /* Create Small Bundle of Littoral Siraluun Feathers (29899) for ContainTreasure */;
+     , (11487, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

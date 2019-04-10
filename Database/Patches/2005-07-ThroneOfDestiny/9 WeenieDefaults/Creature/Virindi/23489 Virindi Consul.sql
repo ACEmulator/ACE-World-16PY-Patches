@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23489;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23489, 'virindiconsul', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (23489, 'virindiconsul', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23489,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (23489,   1,   33558343) /* Setup */
      , (23489,   7,  268436609) /* ClothingBase */
      , (23489,   8,  100674323) /* Icon */
      , (23489,  22,  872415273) /* PhysicsEffectTable */
-     , (23489,  35,        464) /* DeathTreasureType */;
+     , (23489,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23489,   1, 300, 0, 0) /* Strength */
@@ -210,15 +210,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Fleshling. Try not my patience my humor is at an end.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23489, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (23489, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel (7604) for ContainTreasure */
      , (23489, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (23489, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (23489, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (23489, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (23489, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (23489, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel (7604) for ContainTreasure */
      , (23489, 9,  9292,  0, 0, 0.05, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (23489, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (23489, 9, 20863,  0, 0, 0.04, False) /* Create Virindi Stamp (20863) for ContainTreasure */
+     , (23489, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (23489, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (23489, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (23489, 9, 25339,  0, 0, 0.03, False) /* Create Broken Virindi Consul Mask (25339) for ContainTreasure */
-     , (23489, 9, 27392,  0, 0, 0.005, False) /* Create Oubliette (27392) for ContainTreasure */;
+     , (23489, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (23489, 9, 27392,  0, 0, 0.005, False) /* Create Oubliette (27392) for ContainTreasure */
+     , (23489, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;

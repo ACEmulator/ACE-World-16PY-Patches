@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8423;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8423, 'shadowchildmeditate', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8423, 'shadowchildmeditate', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8423,   1,         16) /* ItemType - Creature */
@@ -91,7 +91,7 @@ VALUES (8423,   1,   33554433) /* Setup */
      , (8423,  16,   67109565) /* EyesPalette */
      , (8423,  17,   67109558) /* SkinPalette */
      , (8423,  22,  872415331) /* PhysicsEffectTable */
-     , (8423,  35,        172) /* DeathTreasureType */;
+     , (8423,  35,        172) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8423,   1,  40, 0, 0) /* Strength */
@@ -183,8 +183,8 @@ VALUES (8423,  5 /* HeartBeat */,    0.8, NULL, 2147483709 /* NonCombat */, 1090
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073753, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073756 /* MeditateState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8423, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (8423, 9,  6060,  0, 0, 0.01, False) /* Create Dark Speck (6060) for ContainTreasure */;
+VALUES (8423, 9,  6060,  0, 0, 0.01, False) /* Create Dark Speck (6060) for ContainTreasure */
+     , (8423, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32108;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32108, 'ace32108-ricocellini', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (32108, 'ace32108-ricocellini', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32108,   1,         16) /* ItemType - Creature */
@@ -174,7 +174,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I see you haven''t completed your task. Return to me when you''ve killed 25 Littoral Siraluuns.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32108, 2, 28621,  0, 2, 0.6364, False) /* Create Diforsa Leggings (28621) for Wield */
+VALUES (32108, 2, 30948,  0, 2, 0.6364, False) /* Create Diforsa Hauberk (30948) for Wield */
      , (32108, 2, 28625,  0, 2, 0.6364, False) /* Create Diforsa Sollerets (28625) for Wield */
      , (32108, 2, 28632,  0, 2, 0.6364, False) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (32108, 2, 30948,  0, 2, 0.6364, False) /* Create Diforsa Hauberk (30948) for Wield */;
+     , (32108, 2, 28621,  0, 2, 0.6364, False) /* Create Diforsa Leggings (28621) for Wield */;

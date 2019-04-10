@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24316;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24316, 'skeletonmate', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (24316, 'skeletonmate', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24316,   1,         16) /* ItemType - Creature */
@@ -73,8 +73,33 @@ VALUES (24316,   1,   33559525) /* Setup */
      , (24316,   7,  268435646) /* ClothingBase */
      , (24316,   8,  100669124) /* Icon */
      , (24316,  22,  872415269) /* PhysicsEffectTable */
-     , (24316,  32,        199) /* WieldedTreasureType */
-     , (24316,  35,        452) /* DeathTreasureType */;
+     , (24316,  32,        199) /* WieldedTreasureType - 
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 17x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 16x Deadly Armor Piercing Quarrel (15440) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 20x Deadly Broadhead Arrow (15433) | Probability: 100%
+                                   Wield Yumi (23733) | Probability: 6%
+                                   Wield 17x Deadly Blunt Arrow (15432) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 20x Deadly Broadhead Quarrel (15442) | Probability: 100%
+                                   Wield Heavy Crossbow (23664) | Probability: 6%
+                                   Wield 16x Deadly Blunt Quarrel (15441) | Probability: 100%
+                                   Wield Katar (23673) | Probability: 12%
+                                   Wield Cestus (23636) | Probability: 12%
+                                   Wield Nekode (23679) | Probability: 12%
+                                   Wield Tachi (23699) | Probability: 12%
+                                   Wield Spear (23695) | Probability: 12%
+                                   Wield Fire Yaoji (23717) | Probability: 12%
+                                   Wield Yaoji (23709) | Probability: 12%
+                                   Wield Fire Tachi (23706) | Probability: 12%
+                                   Wield Kite Shield (23683) | Probability: 75% */
+     , (24316,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24316,   1, 135, 0, 0) /* Strength */
@@ -124,5 +149,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24316, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (24316, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */;
+VALUES (24316, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (24316, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

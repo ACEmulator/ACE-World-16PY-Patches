@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27423;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27423, 'mosswartzealotenthralled', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (27423, 'mosswartzealotenthralled', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27423,   1,         16) /* ItemType - Creature */
@@ -77,7 +77,7 @@ VALUES (27423,   1,   33557327) /* Setup */
      , (27423,   7,  268436295) /* ClothingBase */
      , (27423,   8,  100667449) /* Icon */
      , (27423,  22,  872415264) /* PhysicsEffectTable */
-     , (27423,  35,        452) /* DeathTreasureType */;
+     , (27423,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27423,   1, 220, 0, 0) /* Strength */
@@ -191,9 +191,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27423, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (27423, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (27423, 9, 27391,  0, 0, 0.005, False) /* Create Lair of The Homunculus (27391) for ContainTreasure */
+     , (27423, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
      , (27423, 9,  8146,  0, 0, 0.05, False) /* Create Mosswart Head (8146) for ContainTreasure */
-     , (27423, 9, 27391,  0, 0, 0.005, False) /* Create Lair of The Homunculus (27391) for ContainTreasure */
+     , (27423, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (27423, 10, 23688,  0, 0, 0.4, False) /* Create Acid Spear (23688) for WieldTreasure */
      , (27423, 10, 23692,  0, 0, 0.4, False) /* Create Frost Spear (23692) for WieldTreasure */;

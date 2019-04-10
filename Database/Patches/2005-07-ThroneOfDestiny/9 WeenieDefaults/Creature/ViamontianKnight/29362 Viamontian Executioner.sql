@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29362;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29362, 'knightexecutioner', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (29362, 'knightexecutioner', 10, '2019-04-10 02:24:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29362,   1,         16) /* ItemType - Creature */
@@ -157,12 +157,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29362, 2, 28618,  0, 93, 0, True) /* Create Diforsa Helm (28618) for Wield */
+VALUES (29362, 2, 28632,  0, 93, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
+     , (29362, 2, 28618,  0, 93, 0, True) /* Create Diforsa Helm (28618) for Wield */
      , (29362, 2, 28621,  0, 93, 0, True) /* Create Diforsa Leggings (28621) for Wield */
-     , (29362, 2, 28625,  0, 93, 0, True) /* Create Diforsa Sollerets (28625) for Wield */
-     , (29362, 2, 28632,  0, 93, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
      , (29362, 2, 30948,  0, 93, 0, True) /* Create Diforsa Hauberk (30948) for Wield */
-     , (29362, 10, 29967,  0, 0, 0.25, False) /* Create Quadrelle (29967) for WieldTreasure */
-     , (29362, 10, 29972,  0, 0, 0.25, False) /* Create Partizan (29972) for WieldTreasure */
+     , (29362, 2, 28625,  0, 93, 0, True) /* Create Diforsa Sollerets (28625) for Wield */
+     , (29362, 10, 29982,  0, 0, 0.25, False) /* Create Throwing Axe (29982) for WieldTreasure */
      , (29362, 10, 29977,  0, 0, 0.25, False) /* Create Spadone (29977) for WieldTreasure */
-     , (29362, 10, 29982,  0, 0, 0.25, False) /* Create Throwing Axe (29982) for WieldTreasure */;
+     , (29362, 10, 29972,  0, 0, 0.25, False) /* Create Partizan (29972) for WieldTreasure */
+     , (29362, 10, 29967,  0, 0, 0.25, False) /* Create Quadrelle (29967) for WieldTreasure */;

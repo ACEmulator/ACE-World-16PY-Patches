@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1465;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1465, 'undeadflaminghelm', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (1465, 'undeadflaminghelm', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1465,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,10 @@ VALUES (1465,   1,   33554839) /* Setup */
      , (1465,   7,  268435558) /* ClothingBase */
      , (1465,   8,  100667942) /* Icon */
      , (1465,  22,  872415272) /* PhysicsEffectTable */
-     , (1465,  32,        237) /* WieldedTreasureType */
-     , (1465,  35,        236) /* DeathTreasureType */;
+     , (1465,  32,        237) /* WieldedTreasureType - 
+                                   Wield Fiery Shield (1517) | Probability: 100%
+                                   Wield Superior Helmet (1518) | Probability: 100% */
+     , (1465,  35,        236) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1465,   1,  80, 0, 0) /* Strength */

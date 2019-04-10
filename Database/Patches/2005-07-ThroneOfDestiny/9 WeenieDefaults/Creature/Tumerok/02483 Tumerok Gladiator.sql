@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2483;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2483, 'tumerokkeyc', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (2483, 'tumerokkeyc', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2483,   1,         16) /* ItemType - Creature */
@@ -143,7 +143,7 @@ VALUES (2483,  0,  4,  0,    0,  130,  130,  130,  130,  130,  130,  130,  130, 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2483, 1,  2203,  0, 0, 1, False) /* Create Tumerok Gladiator's Key (2203) for Contain */
+     , (2483, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
      , (2483, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (2483, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (2483, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
-     , (2483, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */;
+     , (2483, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

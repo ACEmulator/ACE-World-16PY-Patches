@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7994;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7994, 'ursuindire', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7994, 'ursuindire', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7994,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (7994,   1,   33556773) /* Setup */
      , (7994,   7,  268436040) /* ClothingBase */
      , (7994,   8,  100670959) /* Icon */
      , (7994,  22,  872415366) /* PhysicsEffectTable */
-     , (7994,  35,        457) /* DeathTreasureType */;
+     , (7994,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7994,   1, 280, 0, 0) /* Strength */
@@ -133,9 +133,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7994, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (7994, 9,  8665,  0, 0, 0.03, False) /* Create Ursuin Scalp (8665) for ContainTreasure */
      , (7994, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7994, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7994, 9,  8665,  0, 0, 0.03, False) /* Create Ursuin Scalp (8665) for ContainTreasure */
      , (7994, 9,  9261,  0, 0, 0.03, False) /* Create Ursuin Fang (9261) for ContainTreasure */
-     , (7994, 9, 12219,  0, 0, 0.05, False) /* Create Ursuin Head (12219) for ContainTreasure */;
+     , (7994, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (7994, 9, 12219,  0, 0, 0.05, False) /* Create Ursuin Head (12219) for ContainTreasure */
+     , (7994, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

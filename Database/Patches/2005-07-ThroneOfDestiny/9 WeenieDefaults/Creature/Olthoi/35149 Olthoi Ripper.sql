@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35149;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35149, 'ace35149-olthoiripper', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (35149, 'ace35149-olthoiripper', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35149,   1,         16) /* ItemType - Creature */
@@ -100,7 +100,7 @@ VALUES (35149,  0,  4,  5,    5,  350,  242,  280,  210,  350,  350,  385,  350,
      , (35149, 22, 32, 200,  200,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35149, 9,     0,  0, 0, 0.955, False) /* Create nothing for ContainTreasure */
-     , (35149, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (35149, 9, 31354,  0, 0, 0.045, False) /* Create Olthoi Ripper Spine (31354) for ContainTreasure */
+     , (35149, 9,     0,  0, 0, 0.955, False) /* Create nothing for ContainTreasure */
      , (35149, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (35149, 9, 31354,  0, 0, 0.045, False) /* Create Olthoi Ripper Spine (31354) for ContainTreasure */;
+     , (35149, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

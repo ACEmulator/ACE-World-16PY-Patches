@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11870;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11870, 'tumerokattackgromnie', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (11870, 'tumerokattackgromnie', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11870,   1,         16) /* ItemType - Creature */
@@ -150,6 +150,6 @@ VALUES (11870,    60,  2.013)  /* Acid Stream III */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11870, 1,  3695,  0, 0, 0.8, False) /* Create Gold Tumerok Insignia (3695) for Contain */
      , (11870, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (11870, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (11870, 9, 11832,  0, 0, 0.05, False) /* Create Gromnie Spear-Head (11832) for ContainTreasure */
-     , (11870, 9, 11833,  0, 0, 0.05, False) /* Create Gromnie Symbol (11833) for ContainTreasure */;
+     , (11870, 9, 11833,  0, 0, 0.05, False) /* Create Gromnie Symbol (11833) for ContainTreasure */
+     , (11870, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

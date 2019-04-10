@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31017;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31017, 'zefirkirithighyield', 10, '2019-02-19 06:52:23') /* Creature */;
+VALUES (31017, 'zefirkirithighyield', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31017,   1,         16) /* ItemType - Creature */
@@ -78,7 +78,7 @@ VALUES (31017,   1,   33555610) /* Setup */
      , (31017,   7,  268436729) /* ClothingBase */
      , (31017,   8,  100669123) /* Icon */
      , (31017,  22,  872415279) /* PhysicsEffectTable */
-     , (31017,  35,        461) /* DeathTreasureType */;
+     , (31017,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31017,   1, 400, 0, 0) /* Strength */
@@ -162,8 +162,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31017, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (31017, 9, 31359,  1, 0, 0.1, True) /* Create Kirit Zefir Wing (31359) for ContainTreasure */;
+VALUES (31017, 9, 31359,  1, 0, 0.1, True) /* Create Kirit Zefir Wing (31359) for ContainTreasure */
+     , (31017, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31017, -1, 34014, 0, 2, 2, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tanada Nanjou Shou-jen (34014) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;

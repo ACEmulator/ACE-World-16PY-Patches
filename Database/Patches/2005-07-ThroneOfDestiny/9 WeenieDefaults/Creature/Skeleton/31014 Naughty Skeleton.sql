@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31014;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31014, 'skeletonnaughtyhighyield', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (31014, 'skeletonnaughtyhighyield', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31014,   1,         16) /* ItemType - Creature */
@@ -149,7 +149,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'NaughtySkeletonKills@#kt', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31014, 9,     0,  0, 0, 0.915, False) /* Create nothing for ContainTreasure */
-     , (31014, 9,     0,  0, 0, 0.935, False) /* Create nothing for ContainTreasure */
+VALUES (31014, 9, 31344,  0, 0, 0.085, False) /* Create Skeletal Jawbone (31344) for ContainTreasure */
+     , (31014, 9,     0,  0, 0, 0.915, False) /* Create nothing for ContainTreasure */
      , (31014, 9, 24477,  0, 0, 0.065, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (31014, 9, 31344,  0, 0, 0.085, False) /* Create Skeletal Jawbone (31344) for ContainTreasure */;
+     , (31014, 9,     0,  0, 0, 0.935, False) /* Create nothing for ContainTreasure */;

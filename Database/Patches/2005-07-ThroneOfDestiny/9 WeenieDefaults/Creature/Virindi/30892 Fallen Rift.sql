@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30892;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30892, 'riftbossuber0205', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (30892, 'riftbossuber0205', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30892,   1,         16) /* ItemType - Creature */
@@ -124,8 +124,8 @@ VALUES (30892,  2122,  2.115)  /* Disintegration */
      , (30892,  2717,  2.115)  /* Acid Arc VII */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30892, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
-     , (30892, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
+VALUES (30892, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
+     , (30892, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
      , (30892, 9, 30868,  0, 0, 1, False) /* Create Crossbow of the Fallen (30868) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27428;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27428, 'shadowphantomboss', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (27428, 'shadowphantomboss', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27428,   1,         16) /* ItemType - Creature */
@@ -90,8 +90,14 @@ VALUES (27428,   1,   33554433) /* Setup */
      , (27428,  17,   67109562) /* SkinPalette */
      , (27428,  22,  872415331) /* PhysicsEffectTable */
      , (27428,  31,      27559) /* LinkedPortalOne - Second Tower */
-     , (27428,  32,        426) /* WieldedTreasureType */
-     , (27428,  35,        464) /* DeathTreasureType */;
+     , (27428,  32,        426) /* WieldedTreasureType - 
+                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Kite Shield (23135) | Probability: 100%
+                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
+     , (27428,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27428,   1, 160, 0, 0) /* Strength */
@@ -162,7 +168,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 157 /* Summon Primary Portal I */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27428, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+VALUES (27428, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (27428, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (27428, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
-     , (27428, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (27428, 9,  6876,  0, 0, 0.04, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (27428, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

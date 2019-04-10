@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27799;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27799, 'skeletonbloodfiend', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (27799, 'skeletonbloodfiend', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27799,   1,         16) /* ItemType - Creature */
@@ -141,14 +141,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27799, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (27799, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (27799, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
-     , (27799, 9,  9310,  0, 0, 0.05, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+VALUES (27799, 9,  9310,  0, 0, 0.05, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (27799, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (27799, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (27799, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (27799, 9, 27810,  0, 0, 0.07, False) /* Create Warding Ring (27810) for ContainTreasure */
-     , (27799, 10,     0,  0, 0, 0.9, False) /* Create nothing for WieldTreasure */
-     , (27799, 10,  7312,  0, 0, 0.1, False) /* Create Kite Shield (7312) for WieldTreasure */
-     , (27799, 10, 23699,  0, 0, 0.3, False) /* Create Tachi (23699) for WieldTreasure */
+     , (27799, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
      , (27799, 10, 23703,  0, 0, 0.3, False) /* Create Lightning Tachi (23703) for WieldTreasure */
-     , (27799, 10, 23706,  0, 0, 0.4, False) /* Create Fire Tachi (23706) for WieldTreasure */;
+     , (27799, 10, 23699,  0, 0, 0.3, False) /* Create Tachi (23699) for WieldTreasure */
+     , (27799, 10, 23706,  0, 0, 0.4, False) /* Create Fire Tachi (23706) for WieldTreasure */
+     , (27799, 10,  7312,  0, 0, 0.1, False) /* Create Kite Shield (7312) for WieldTreasure */
+     , (27799, 10,     0,  0, 0, 0.9, False) /* Create nothing for WieldTreasure */;

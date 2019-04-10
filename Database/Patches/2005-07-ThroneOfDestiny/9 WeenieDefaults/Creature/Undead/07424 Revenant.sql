@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7424;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7424, 'zombierevenantnofall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7424, 'zombierevenantnofall', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7424,   1,         16) /* ItemType - Creature */
@@ -78,8 +78,13 @@ VALUES (7424,   1,   33558541) /* Setup */
      , (7424,   7,  268436726) /* ClothingBase */
      , (7424,   8,  100667942) /* Icon */
      , (7424,  22,  872415272) /* PhysicsEffectTable */
-     , (7424,  32,        250) /* WieldedTreasureType */
-     , (7424,  35,        451) /* DeathTreasureType */;
+     , (7424,  32,        250) /* WieldedTreasureType - 
+                                   Wield Katar (23675) | Probability: 25%
+                                   Wield Nekode (23681) | Probability: 25%
+                                   Wield Cestus (23638) | Probability: 25%
+                                   Wield Tachi (23701) | Probability: 25%
+                                   Wield Kite Shield (23685) | Probability: 85% */
+     , (7424,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7424,   1, 110, 0, 0) /* Strength */
@@ -149,9 +154,9 @@ VALUES (7424,    60,  2.028)  /* Acid Stream III */
      , (7424,  1465,  2.013)  /* Feeblemind Other III */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7424, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7424, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (7424, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+VALUES (7424, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone (7041) for ContainTreasure */
+     , (7424, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (7424, 9,  5873,  0, 0, 0.01, False) /* Create Seal (5873) for ContainTreasure */
+     , (7424, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (7424, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (7424, 9,  7041,  0, 0, 0.03, False) /* Create Undead Thighbone (7041) for ContainTreasure */;
+     , (7424, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

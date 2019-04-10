@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4254;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4254, 'shadowumbris', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (4254, 'shadowumbris', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4254,   1,         16) /* ItemType - Creature */
@@ -90,7 +90,7 @@ VALUES (4254,   1,   33556251) /* Setup */
      , (4254,  16,   67110065) /* EyesPalette */
      , (4254,  17,   67109560) /* SkinPalette */
      , (4254,  22,  872415331) /* PhysicsEffectTable */
-     , (4254,  35,        462) /* DeathTreasureType */;
+     , (4254,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4254,   1, 100, 0, 0) /* Strength */
@@ -160,13 +160,13 @@ VALUES (4254,    72,  2.032)  /* Frost Bolt IV */
      , (4254,  1466,  2.023)  /* Feeblemind Other IV */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4254, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+VALUES (4254, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (4254, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (4254, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (4254, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (4254, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (4254, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (4254, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (4254, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (4254, 9, 20856,  0, 0, 0.01, False) /* Create Bael'Zharon Stamp (20856) for ContainTreasure */
-     , (4254, 9, 45875,  1, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (4254, 9, 45876,  1, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+     , (4254, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (4254, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (4254, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (4254, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (4254, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8562;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8562, 'skeletonlordfortarcher', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8562, 'skeletonlordfortarcher', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8562,   1,         16) /* ItemType - Creature */
@@ -73,8 +73,10 @@ VALUES (8562,   1,   33555464) /* Setup */
      , (8562,   6,   67116522) /* PaletteBase */
      , (8562,   8,  100669124) /* Icon */
      , (8562,  22,  872415269) /* PhysicsEffectTable */
-     , (8562,  32,        336) /* WieldedTreasureType */
-     , (8562,  35,        451) /* DeathTreasureType */;
+     , (8562,  32,        336) /* WieldedTreasureType - 
+                                   Wield Dericostian Longbow (8560) | Probability: 100%
+                                   Wield 20x Arrow (300) | Probability: 100% */
+     , (8562,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8562,   1,  65, 0, 0) /* Strength */

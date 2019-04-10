@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7401;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7401, 'ashenbonesejan', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7401, 'ashenbonesejan', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7401,   1,         16) /* ItemType - Creature */
@@ -72,8 +72,12 @@ VALUES (7401,   1,   33555465) /* Setup */
      , (7401,   6,   67116522) /* PaletteBase */
      , (7401,   8,  100669124) /* Icon */
      , (7401,  22,  872415269) /* PhysicsEffectTable */
-     , (7401,  32,        311) /* WieldedTreasureType */
-     , (7401,  35,        448) /* DeathTreasureType */;
+     , (7401,  32,        311) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 16x Greater Fire Arrow (5305) | Probability: 100%
+                                   Wield Kite Shield (23686) | Probability: 50%
+                                   Wield Fire Tachi (23708) | Probability: 50% */
+     , (7401,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7401,   1, 125, 0, 0) /* Strength */
@@ -219,5 +223,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'In your mind, the dusty voice of Ejan whispers, "Yes, Mistress? I come."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7401, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (7401, 9,  7379,  0, 0, 1, False) /* Create Singed Note (7379) for ContainTreasure */;
+VALUES (7401, 9,  7379,  0, 0, 1, False) /* Create Singed Note (7379) for ContainTreasure */
+     , (7401, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

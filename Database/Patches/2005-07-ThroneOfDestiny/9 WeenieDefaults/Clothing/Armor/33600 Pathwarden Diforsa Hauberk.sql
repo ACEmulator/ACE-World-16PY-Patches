@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33600;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33600, 'ace33600-pathwardendiforsahauberk', 2, '2019-03-29 04:10:13') /* Clothing */;
+VALUES (33600, 'ace33600-pathwardendiforsahauberk', 2, '2019-04-09 23:37:09') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33600,   1,          2) /* ItemType - Armor */
@@ -31,7 +31,7 @@ VALUES (33600,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33600,   5, -0.0333333015441895) /* ManaRate */
-     , (33600,  12, 0.545499980449677) /* Shade */
+     , (33600,  12, 0.100000001490116) /* Shade */
      , (33600,  13, 1.29999995231628) /* ArmorModVsSlash */
      , (33600,  14,       1) /* ArmorModVsPierce */
      , (33600,  15,       1) /* ArmorModVsBludgeon */
@@ -55,4 +55,8 @@ VALUES (33600,   1,   33559357) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33600,  1328,      2)  /* Strength Self II */
-     , (33600,  1482,      2)  /* Impenetrability II */;
+     , (33600,  1482,      2)  /* Impenetrability II */
+     , (33600,  1525,      2)  /* Frost Bane III */
+     , (33600,  1536,      2)  /* Lightning Bane II */
+     , (33600,  1548,      2)  /* Flame Bane II */
+     , (33600,  1571,      2)  /* Piercing Bane III */;

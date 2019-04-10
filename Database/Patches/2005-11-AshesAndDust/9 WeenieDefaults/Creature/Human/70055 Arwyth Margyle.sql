@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70055;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70055, 'ace70055-arwythmargyle', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (70055, 'ace70055-arwythmargyle', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70055,   1,         16) /* ItemType - Creature */
@@ -100,7 +100,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I tire of supposed diplomats who think that their own desires are more important than the needs of a tired fortress beseiged on all sides by enemies.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  18 /* DirectBroadcast */, 0, 1, NULL, 'Lieutenant Commander Margyle appraises you with a steady eye, then nods.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'I do not think you are of the same cloth as them. I have a letter prepared. I trust you to deliver it to whoever you feel is most likely to aid Fort Tethana, be they a Queen...or a King. Let them send men to reinforce us, and then perchance we will consider alliance.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  3,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 70005, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  3,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 70005 /* Tethana's Price */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (70055,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -113,11 +113,11 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'I have assumed command with the absence of Commander Kurth. Speak quickly if you have business - we have a war of our own to fight around here.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70055, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (70055, 2,   331,  1, 0, 0, False) /* Create Mace (331) for Wield */
-     , (70055, 2, 27220,  1, 39, 0.2222, False) /* Create Lorica Boots (27220) for Wield */
+VALUES (70055, 2, 27223,  1, 39, 0.2222, False) /* Create Lorica Helm (27223) for Wield */
      , (70055, 2, 27221,  1, 39, 0.2222, False) /* Create Lorica Breastplate (27221) for Wield */
+     , (70055, 2, 27225,  1, 39, 0.2222, False) /* Create Lorica Sleeves (27225) for Wield */
      , (70055, 2, 27222,  1, 39, 0.2222, False) /* Create Lorica Gauntlets (27222) for Wield */
-     , (70055, 2, 27223,  1, 39, 0.2222, False) /* Create Lorica Helm (27223) for Wield */
      , (70055, 2, 27224,  1, 39, 0.2222, False) /* Create Lorica Leggings (27224) for Wield */
-     , (70055, 2, 27225,  1, 39, 0.2222, False) /* Create Lorica Sleeves (27225) for Wield */;
+     , (70055, 2, 27220,  1, 39, 0.2222, False) /* Create Lorica Boots (27220) for Wield */
+     , (70055, 2,   331,  1, 0, 0, False) /* Create Mace (331) for Wield */
+     , (70055, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */;

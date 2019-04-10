@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1524;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1524, 'undeadminer', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (1524, 'undeadminer', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1524,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (1524,   1,   33554839) /* Setup */
      , (1524,   7,  268435558) /* ClothingBase */
      , (1524,   8,  100667942) /* Icon */
      , (1524,  22,  872415272) /* PhysicsEffectTable */
-     , (1524,  35,         16) /* DeathTreasureType */;
+     , (1524,  35,         16) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1524,   1,  85, 0, 0) /* Strength */
@@ -148,8 +148,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1524, 10,   301,  0, 0, 0.1, False) /* Create Battle Axe (301) for WieldTreasure */
-     , (1524, 10,   331,  0, 0, 0.1, False) /* Create Mace (331) for WieldTreasure */
+VALUES (1524, 10,   331,  0, 0, 0.1, False) /* Create Mace (331) for WieldTreasure */
+     , (1524, 10,  5753,  0, 0, 0.1, False) /* Create Pickaxe (5753) for WieldTreasure */
      , (1524, 10,   352,  0, 0, 0.1, False) /* Create Short Sword (352) for WieldTreasure */
-     , (1524, 10,  4190,  0, 0, 0.1, False) /* Create Cestus (4190) for WieldTreasure */
-     , (1524, 10,  5753,  0, 0, 0.1, False) /* Create Pickaxe (5753) for WieldTreasure */;
+     , (1524, 10,   301,  0, 0, 0.1, False) /* Create Battle Axe (301) for WieldTreasure */
+     , (1524, 10,  4190,  0, 0, 0.1, False) /* Create Cestus (4190) for WieldTreasure */;

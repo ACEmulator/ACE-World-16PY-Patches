@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12264;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12264, 'virindidirectorsingular', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (12264, 'virindidirectorsingular', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12264,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (12264,   1,   33554497) /* Setup */
      , (12264,   7,  268435649) /* ClothingBase */
      , (12264,   8,  100667943) /* Icon */
      , (12264,  22,  872415273) /* PhysicsEffectTable */
-     , (12264,  35,        243) /* DeathTreasureType */;
+     , (12264,  35,        243) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12264,   1,  40, 0, 0) /* Strength */
@@ -207,7 +207,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'The Director has charged me
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12264, 8, 12252,  1, 0, 0, False) /* Create Obsidian Director's Mask (12252) for Treasure */
      , (12264, 8, 12280,  1, 0, 0, False) /* Create Singular Obsidian Message Shard (12280) for Treasure */
-     , (12264, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (12264, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (12264, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
-     , (12264, 9,  8154,  0, 0, 0.1, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */;
+     , (12264, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (12264, 9,  8154,  0, 0, 0.1, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */
+     , (12264, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

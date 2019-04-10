@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27863;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27863, 'mosswartcringer', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (27863, 'mosswartcringer', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27863,   1,         16) /* ItemType - Creature */
@@ -77,7 +77,7 @@ VALUES (27863,   1,   33557327) /* Setup */
      , (27863,   7,  268436295) /* ClothingBase */
      , (27863,   8,  100667449) /* Icon */
      , (27863,  22,  872415264) /* PhysicsEffectTable */
-     , (27863,  35,        450) /* DeathTreasureType */;
+     , (27863,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27863,   1, 235, 0, 0) /* Strength */
@@ -198,16 +198,16 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27863, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
-     , (27863, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (27863, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (27863, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (27863, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone (3694) for ContainTreasure */
-     , (27863, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+VALUES (27863, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone (3694) for ContainTreasure */
+     , (27863, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
      , (27863, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (27863, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (27863, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (27863, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (27863, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */
+     , (27863, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (27863, 10, 23676,  0, 0, 0.2, False) /* Create Katar (23676) for WieldTreasure */
-     , (27863, 10, 23690,  0, 0, 0.2, False) /* Create Acid Spear (23690) for WieldTreasure */
-     , (27863, 10, 23694,  0, 0, 0.2, False) /* Create Frost Spear (23694) for WieldTreasure */
      , (27863, 10, 23702,  0, 0, 0.2, False) /* Create Tachi (23702) for WieldTreasure */
-     , (27863, 10, 23708,  0, 0, 0.2, False) /* Create Fire Tachi (23708) for WieldTreasure */;
+     , (27863, 10, 23708,  0, 0, 0.2, False) /* Create Fire Tachi (23708) for WieldTreasure */
+     , (27863, 10, 23690,  0, 0, 0.2, False) /* Create Acid Spear (23690) for WieldTreasure */
+     , (27863, 10, 23694,  0, 0, 0.2, False) /* Create Frost Spear (23694) for WieldTreasure */;

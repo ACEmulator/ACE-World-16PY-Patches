@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22936;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22936, 'warehousemanager', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (22936, 'warehousemanager', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22936,   1,         16) /* ItemType - Creature */
@@ -71,7 +71,8 @@ VALUES (22936,   1,   33557175) /* Setup */
      , (22936,   6,   67113280) /* PaletteBase */
      , (22936,   7,  268436193) /* ClothingBase */
      , (22936,   8,  100671756) /* Icon */
-     , (22936,  32,        380) /* WieldedTreasureType */;
+     , (22936,  32,        380) /* WieldedTreasureType - 
+                                   Wield Buadren (11971) | Probability: 100% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22936,   1, 100, 0, 0) /* Strength */

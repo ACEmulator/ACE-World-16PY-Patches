@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45277;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45277, 'ace45277-scrollofdualwieldmasteryselfii', 34, '2019-02-04 06:52:23') /* Scroll */;
+VALUES (45277, 'ace45277-scrollofdualwieldmasteryselfii', 34, '2019-04-09 23:37:09') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45277,   1,       8192) /* ItemType - Writable */
      , (45277,   5,         30) /* EncumbranceVal */
      , (45277,  16,          8) /* ItemUseable - Contained */
      , (45277,  19,          5) /* Value */
-     , (45277,  53,        101) /* PlacementPosition */
+     , (45277,  53,        101) /* PlacementPosition - Resting */
      , (45277,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,6 +30,3 @@ VALUES (45277,   1,   33554826) /* Setup */
      , (45277,   8,  100692251) /* Icon */
      , (45277,  22,  872415275) /* PhysicsEffectTable */
      , (45277,  28,       5804) /* Spell - Dual Wield Mastery Self II */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45277,  5804,      2)  /* Dual Wield Mastery Self II */;

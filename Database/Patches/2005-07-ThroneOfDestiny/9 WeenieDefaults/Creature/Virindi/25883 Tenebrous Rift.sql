@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25883;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25883, 'rifttenebrous', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25883, 'rifttenebrous', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25883,   1,         16) /* ItemType - Creature */
@@ -30,8 +30,8 @@ VALUES (25883,   1, True ) /* Stuck */
      , (25883,  14, True ) /* GravityStatus */
      , (25883,  15, True ) /* LightsStatus */
      , (25883,  19, True ) /* Attackable */
-     , (25883,  29, True ) /* NoCorpse */
-     , (25883,  50, True ) /* NeverFailCasting */;
+     , (25883,  50, True ) /* NeverFailCasting */
+     , (25883, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25883,   1,       5) /* HeartbeatInterval */
@@ -79,7 +79,7 @@ VALUES (25883,   1,   33558552) /* Setup */
      , (25883,   4,  805306407) /* CombatTable */
      , (25883,   8,  100671702) /* Icon */
      , (25883,  22,  872415375) /* PhysicsEffectTable */
-     , (25883,  35,        461) /* DeathTreasureType */;
+     , (25883,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25883,   1, 160, 0, 0) /* Strength */
@@ -124,8 +124,8 @@ VALUES (25883,    85,  2.115)  /* Flame Bolt VI */
      , (25883,  2744,  2.115)  /* Flame Arc VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25883, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (25883, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
+VALUES (25883, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (25883, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25883, 0.25, 25857, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765) /* Generate Desecrated Doll (25857) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */

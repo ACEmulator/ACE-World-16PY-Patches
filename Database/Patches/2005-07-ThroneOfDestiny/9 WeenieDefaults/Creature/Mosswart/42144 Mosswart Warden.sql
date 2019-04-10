@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42144;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42144, 'ace42144-mosswartwarden', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (42144, 'ace42144-mosswartwarden', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42144,   1,         16) /* ItemType - Creature */
@@ -66,7 +66,7 @@ VALUES (42144,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (42144,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (42144,  1 /* Refuse */,      1, 3645 /* Tibri's Fire Spear */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (42144,  6 /* Give */,      1, 3645 /* Tibri's Fire Spear */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

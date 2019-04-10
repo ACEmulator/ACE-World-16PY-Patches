@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24315;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24315, 'skeletonhero', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (24315, 'skeletonhero', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24315,   1,         16) /* ItemType - Creature */
@@ -72,8 +72,21 @@ VALUES (24315,   1,   33559527) /* Setup */
      , (24315,   7,  268435646) /* ClothingBase */
      , (24315,   8,  100669124) /* Icon */
      , (24315,  22,  872415269) /* PhysicsEffectTable */
-     , (24315,  32,        203) /* WieldedTreasureType */
-     , (24315,  35,        448) /* DeathTreasureType */;
+     , (24315,  32,        203) /* WieldedTreasureType - 
+                                   Wield Yumi (23734) | Probability: 20%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23665) | Probability: 40%
+                                   Wield 20x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Katar (23674) | Probability: 12%
+                                   Wield Cestus (23637) | Probability: 12%
+                                   Wield Nekode (23680) | Probability: 12%
+                                   Wield Tachi (23700) | Probability: 12%
+                                   Wield Spear (23696) | Probability: 12%
+                                   Wield Fire Yaoji (23718) | Probability: 12%
+                                   Wield Yaoji (23710) | Probability: 12%
+                                   Wield Fire Tachi (23707) | Probability: 12%
+                                   Wield Kite Shield (23684) | Probability: 75% */
+     , (24315,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24315,   1, 135, 0, 0) /* Strength */
@@ -123,7 +136,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24315, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (24315, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+VALUES (24315, 9, 24852,  0, 0, 0.03, False) /* Create Skull of a Skeletal Hero (24852) for ContainTreasure */
+     , (24315, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (24315, 9,  9310,  0, 0, 0.04, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
-     , (24315, 9, 24852,  0, 0, 0.03, False) /* Create Skull of a Skeletal Hero (24852) for ContainTreasure */;
+     , (24315, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

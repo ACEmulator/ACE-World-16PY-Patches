@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24501;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24501, 'tumerokrenegadecommander2mage', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (24501, 'tumerokrenegadecommander2mage', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24501,   1,         16) /* ItemType - Creature */
@@ -148,9 +148,9 @@ VALUES (24501,   234,  2.012)  /* Vulnerability Other VI */
      , (24501,  2146,  2.015)  /* Evisceration */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24501, 2, 15440, 250, 0, 0, False) /* Create Deadly Armor Piercing Quarrel (15440) for Wield */
-     , (24501, 2, 24569,  0, 0, 0, False) /* Create Renegade Crossbow (24569) for Wield */
-     , (24501, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (24501, 2, 24569,  0, 0, 0, False) /* Create Renegade Crossbow (24569) for Wield */
+     , (24501, 2, 15440, 250, 0, 0, False) /* Create Deadly Armor Piercing Quarrel (15440) for Wield */
      , (24501, 9, 24477,  0, 0, 0.05, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (24501, 9, 24556,  0, 0, 0.335, False) /* Create Tumerok Hunting Brace (24556) for ContainTreasure */
-     , (24501, 9, 24559,  0, 0, 0.665, False) /* Create Renegade Crossbow (24559) for ContainTreasure */;
+     , (24501, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (24501, 9, 24559,  0, 0, 0.665, False) /* Create Renegade Crossbow (24559) for ContainTreasure */
+     , (24501, 9, 24556,  0, 0, 0.335, False) /* Create Tumerok Hunting Brace (24556) for ContainTreasure */;

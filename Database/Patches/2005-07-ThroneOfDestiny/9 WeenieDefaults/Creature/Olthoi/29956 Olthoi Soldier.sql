@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29956;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29956, 'olthoisoldierperilbeneath', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29956, 'olthoisoldierperilbeneath', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29956,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (29956,   1,   33557162) /* Setup */
      , (29956,  19,         86) /* ActivationAnimation */
      , (29956,  22,  872415265) /* PhysicsEffectTable */
      , (29956,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (29956,  35,        451) /* DeathTreasureType */;
+     , (29956,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29956,   1, 280, 0, 0) /* Strength */
@@ -122,11 +122,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29956, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
-     , (29956, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (29956, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (29956, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (29956, 9,    56,  0, 0, 0.06, False) /* Create Leather Gauntlets (56) for ContainTreasure */
-     , (29956, 9,  3679,  0, 0, 0.08, False) /* Create Olthoi Claw (3679) for ContainTreasure */
+VALUES (29956, 9,  3679,  0, 0, 0.08, False) /* Create Olthoi Claw (3679) for ContainTreasure */
+     , (29956, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
      , (29956, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (29956, 9, 20862,  0, 0, 0.02, False) /* Create Olthoi Stamp (20862) for ContainTreasure */;
+     , (29956, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (29956, 9, 20862,  0, 0, 0.02, False) /* Create Olthoi Stamp (20862) for ContainTreasure */
+     , (29956, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (29956, 9,    56,  0, 0, 0.06, False) /* Create Leather Gauntlets (56) for ContainTreasure */
+     , (29956, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */;

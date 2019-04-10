@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31009;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31009, 'mosswartworshipperhighyield', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (31009, 'mosswartworshipperhighyield', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31009,   1,         16) /* ItemType - Creature */
@@ -189,7 +189,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31009, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (31009, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (31009, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (31009, 9, 31350,  0, 0, 0.02, False) /* Create Mosswart Armband (31350) for ContainTreasure */;
+VALUES (31009, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (31009, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (31009, 9, 31350,  0, 0, 0.02, False) /* Create Mosswart Armband (31350) for ContainTreasure */
+     , (31009, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

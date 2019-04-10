@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20632;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20632, 'skeletonrelicgelid_nofall', 10, '2019-03-31 22:38:17') /* Creature */;
+VALUES (20632, 'skeletonrelicgelid_nofall', 10, '2019-04-10 01:48:55') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20632,   1,         16) /* ItemType - Creature */
@@ -158,5 +158,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Within the Blood I have bathed. Your fledgling magics are piteous.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20632, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (20632, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */;
+VALUES (20632, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (20632, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

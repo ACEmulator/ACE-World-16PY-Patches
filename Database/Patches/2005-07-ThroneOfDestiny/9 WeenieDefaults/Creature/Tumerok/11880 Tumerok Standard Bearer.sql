@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11880;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11880, 'tumerokbannershreth', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (11880, 'tumerokbannershreth', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11880,   1,         16) /* ItemType - Creature */
@@ -122,7 +122,7 @@ VALUES (11880,  0,  4,  0,    0,  110,  110,  110,  110,  110,  110,  110,  110,
      , (11880,  8,  4,  5, 0.75,  110,  110,  110,  110,  110,  110,  110,  110,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11880, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (11880, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (11880, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (11880, 9, 11790,  0, 0, 0.05, False) /* Create Shreth Banner (11790) for ContainTreasure */;
+VALUES (11880, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (11880, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (11880, 9, 11790,  0, 0, 0.05, False) /* Create Shreth Banner (11790) for ContainTreasure */
+     , (11880, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

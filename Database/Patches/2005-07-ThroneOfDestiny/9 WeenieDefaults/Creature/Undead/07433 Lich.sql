@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7433;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7433, 'zombiesoulfearingacolytetower3', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7433, 'zombiesoulfearingacolytetower3', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7433,   1,         16) /* ItemType - Creature */
@@ -78,8 +78,13 @@ VALUES (7433,   1,   33554839) /* Setup */
      , (7433,   8,  100667942) /* Icon */
      , (7433,  22,  872415272) /* PhysicsEffectTable */
      , (7433,  31,       7341) /* LinkedPortalOne - Soul-Fearing Vestry Dungeon */
-     , (7433,  32,        296) /* WieldedTreasureType */
-     , (7433,  35,        453) /* DeathTreasureType */;
+     , (7433,  32,        296) /* WieldedTreasureType - 
+                                   Wield Yumi (23735) | Probability: 50%
+                                   Wield 16x Acid Arrow (4181) | Probability: 100%
+                                   Wield Kite Shield (23685) | Probability: 50%
+                                   Wield Acid Spear (23689) | Probability: 25%
+                                   Wield Acid Yari (23723) | Probability: 25% */
+     , (7433,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7433, 12, 1896939577, 190.1, 21.1, 94, -0.7071068, 0, 0, -0.7071068) /* PortalSummonLoc */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70033;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70033, 'ace70033-farmerkao', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (70033, 'ace70033-farmerkao', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70033,   1,         16) /* ItemType - Creature */
@@ -108,7 +108,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (70033,  6 /* Give */,      1, 70025, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (70033,  6 /* Give */,      1, 70025 /* Farmer Kao's Feed Bag */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -126,7 +126,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Hey! My missing shovel! Thi
      , (@parent_id,  1,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 75000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (70033,  6 /* Give */,      1, 70026, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (70033,  6 /* Give */,      1, 70026 /* Farmer Kao's Water Bucket */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -135,7 +135,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'My water bucket! Where did 
      , (@parent_id,  1,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 75000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (70033,  6 /* Give */,      1, 70027, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (70033,  6 /* Give */,      1, 70027 /* Farmer Kao's Gardening Gloves */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -144,7 +144,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'There they are! I''ve been 
      , (@parent_id,  1,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 75000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (70033,  6 /* Give */,      1, 70028, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (70033,  6 /* Give */,      1, 70028 /* Head of Fazenda Terror */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -167,8 +167,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'My crops! My livestock! Some vile creature has been ravaging my farm at night! Would you help me stop this terror? I have followed its tracks to a cave south of here, but I am too afraid to continue. Please help me.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70033, 2,    45,  1, 4, 0, True) /* Create Leather Cap (45) for Wield */
+VALUES (70033, 2,   109,  1, 4, 0, True) /* Create Leather Tassets (109) for Wield */
+     , (70033, 2,  8685,  1, 4, 0.6, True) /* Create A Pair Of Society Leather Bracers (8685) for Wield */
      , (70033, 2,    60,  1, 4, 0.4727, True) /* Create Leather Girth (60) for Wield */
-     , (70033, 2,   109,  1, 4, 0, True) /* Create Leather Tassets (109) for Wield */
      , (70033, 2,  7772,  1, 4, 14, True) /* Create Trident (7772) for Wield */
-     , (70033, 2,  8685,  1, 4, 0.6, True) /* Create A Pair Of Society Leather Bracers (8685) for Wield */;
+     , (70033, 2,    45,  1, 4, 0, True) /* Create Leather Cap (45) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29767;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29767, 'rewardclutchbrowerk', 10, '2019-03-03 00:18:38') /* Creature */;
+VALUES (29767, 'rewardclutchbrowerk', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29767,   1,         16) /* ItemType - Creature */
@@ -259,5 +259,5 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'This is for your efforts ag
      , (@parent_id,  5,  31 /* EraseQuest */, 0, 1, NULL, 'BrowerkBeaten', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29767, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */
-     , (29767, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */;
+VALUES (29767, 2, 10870,  0, 17, 0.7, False) /* Create Canescent Mattekar Robe (10870) for Wield */
+     , (29767, 2,   118,  0, 14, 1, False) /* Create Cap (118) for Wield */;

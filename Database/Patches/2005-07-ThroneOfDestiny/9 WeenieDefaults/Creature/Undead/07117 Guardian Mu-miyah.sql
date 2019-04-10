@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7117;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7117, 'mumiyahguardian', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7117, 'mumiyahguardian', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7117,   1,         16) /* ItemType - Creature */
@@ -78,7 +78,7 @@ VALUES (7117,   1,   33554433) /* Setup */
      , (7117,   7,  268435645) /* ClothingBase */
      , (7117,   8,  100669122) /* Icon */
      , (7117,  22,  872415272) /* PhysicsEffectTable */
-     , (7117,  35,        462) /* DeathTreasureType */;
+     , (7117,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7117,   1, 110, 0, 0) /* Strength */
@@ -178,17 +178,17 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7117, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (7117, 9,     0,  0, 0, 0.975, False) /* Create nothing for ContainTreasure */
-     , (7117, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7117, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7117, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (7117, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (7117, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (7117, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (7117, 9, 22025,  0, 0, 0.05, False) /* Create Mu-miyah Arm (22025) for ContainTreasure */
-     , (7117, 9, 22029,  0, 0, 0.05, False) /* Create Mu-miyah Leg (22029) for ContainTreasure */
-     , (7117, 9, 22045,  0, 0, 0.1, False) /* Create Mu-miyah Torso (22045) for ContainTreasure */
+VALUES (7117, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7117, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (7117, 9, 22060,  0, 0, 0.05, False) /* Create Mu-miyah Torso with a Head (22060) for ContainTreasure */
-     , (7117, 9, 45875,  1, 0, 0.01, False) /* Create  (45875) for ContainTreasure */
-     , (7117, 9, 45876,  1, 0, 0.03, False) /* Create  (45876) for ContainTreasure */;
+     , (7117, 9,     0,  0, 0, 0.975, False) /* Create nothing for ContainTreasure */
+     , (7117, 9, 22025,  0, 0, 0.05, False) /* Create Mu-miyah Arm (22025) for ContainTreasure */
+     , (7117, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (7117, 9, 22029,  0, 0, 0.05, False) /* Create Mu-miyah Leg (22029) for ContainTreasure */
+     , (7117, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (7117, 9, 22045,  0, 0, 0.1, False) /* Create Mu-miyah Torso (22045) for ContainTreasure */
+     , (7117, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (7117, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (7117, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (7117, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (7117, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

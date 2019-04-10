@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23568;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23568, 'ursuindread', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (23568, 'ursuindread', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23568,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (23568,   1,   33556773) /* Setup */
      , (23568,   7,  268436633) /* ClothingBase */
      , (23568,   8,  100670959) /* Icon */
      , (23568,  22,  872415366) /* PhysicsEffectTable */
-     , (23568,  35,        455) /* DeathTreasureType */;
+     , (23568,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23568,   1, 360, 0, 0) /* Strength */
@@ -133,7 +133,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23568, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (23568, 9,  8665,  0, 0, 0.05, False) /* Create Ursuin Scalp (8665) for ContainTreasure */
      , (23568, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (23568, 9,  8665,  0, 0, 0.05, False) /* Create Ursuin Scalp (8665) for ContainTreasure */
-     , (23568, 9, 12219,  0, 0, 0.05, False) /* Create Ursuin Head (12219) for ContainTreasure */;
+     , (23568, 9, 12219,  0, 0, 0.05, False) /* Create Ursuin Head (12219) for ContainTreasure */
+     , (23568, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

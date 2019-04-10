@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22910;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22910, 'shadowpandem', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (22910, 'shadowpandem', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22910,   1,         16) /* ItemType - Creature */
@@ -89,7 +89,7 @@ VALUES (22910,   1,   33558345) /* Setup */
      , (22910,  16,   67110064) /* EyesPalette */
      , (22910,  17,   67109561) /* SkinPalette */
      , (22910,  22,  872415331) /* PhysicsEffectTable */
-     , (22910,  35,        462) /* DeathTreasureType */;
+     , (22910,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22910,   1, 100, 0, 0) /* Strength */
@@ -176,9 +176,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Darkness penultimate thrust within the essence of the world, that is not a world, turns to the shadow that we have become, our time within the confines of your terror will not last and then we shall return to haunt your waking dreams.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22910, 9,     0,  0, 0, 0.985, False) /* Create nothing for ContainTreasure */
-     , (22910, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (22910, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (22910, 9,  6058,  0, 0, 0.015, False) /* Create Dark Shard (6058) for ContainTreasure */
+VALUES (22910, 9,  6058,  0, 0, 0.015, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (22910, 9,     0,  0, 0, 0.985, False) /* Create nothing for ContainTreasure */
      , (22910, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (22910, 9,  9292,  0, 0, 0.005, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */;
+     , (22910, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (22910, 9,  9292,  0, 0, 0.005, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (22910, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */;

@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41291;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41291, 'ace41291-scrolloftwohandedweaponsineptitudeiv', 34, '2019-02-04 06:52:23') /* Scroll */;
+VALUES (41291, 'ace41291-scrolloftwohandedweaponsineptitudeiv', 34, '2019-04-09 23:37:09') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41291,   1,       8192) /* ItemType - Writable */
      , (41291,   5,         30) /* EncumbranceVal */
      , (41291,  16,          8) /* ItemUseable - Contained */
      , (41291,  19,        100) /* Value */
-     , (41291,  53,        101) /* PlacementPosition */
+     , (41291,  53,        101) /* PlacementPosition - Resting */
      , (41291,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,6 +30,3 @@ VALUES (41291,   1,   33554826) /* Setup */
      , (41291,   8,  100690644) /* Icon */
      , (41291,  22,  872415275) /* PhysicsEffectTable */
      , (41291,  28,       5078) /* Spell - Two Handed Combat Ineptitude Other IV */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41291,  5078,      2)  /* Two Handed Combat Ineptitude Other IV */;

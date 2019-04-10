@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23093;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23093, 'tumeroktranscendant', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (23093, 'tumeroktranscendant', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23093,   1,         16) /* ItemType - Creature */
@@ -146,7 +146,7 @@ VALUES (23093,    62,  2.015)  /* Acid Stream V */
      , (23093,  1443,  2.012)  /* Bafflement Other V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23093, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (23093, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+VALUES (23093, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (23093, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (23093, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
-     , (23093, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;
+     , (23093, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

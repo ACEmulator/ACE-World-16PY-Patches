@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7780;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7780, 'skeletonashenbones', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7780, 'skeletonashenbones', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7780,   1,         16) /* ItemType - Creature */
@@ -74,8 +74,12 @@ VALUES (7780,   1,   33554521) /* Setup */
      , (7780,   6,   67116522) /* PaletteBase */
      , (7780,   8,  100669124) /* Icon */
      , (7780,  22,  872415269) /* PhysicsEffectTable */
-     , (7780,  32,        311) /* WieldedTreasureType */
-     , (7780,  35,        450) /* DeathTreasureType */;
+     , (7780,  32,        311) /* WieldedTreasureType - 
+                                   Wield Yumi (23736) | Probability: 50%
+                                   Wield 16x Greater Fire Arrow (5305) | Probability: 100%
+                                   Wield Kite Shield (23686) | Probability: 50%
+                                   Wield Fire Tachi (23708) | Probability: 50% */
+     , (7780,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7780,   1,  95, 0, 0) /* Strength */
@@ -136,13 +140,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7780, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (7780, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
-     , (7780, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7780, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7780, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (7780, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+VALUES (7780, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (7780, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (7780, 9,  9310,  0, 0, 0.07, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (7780, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
      , (7780, 9, 22027,  0, 0, 0.05, False) /* Create Skeletal Arm (22027) for ContainTreasure */
+     , (7780, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (7780, 9, 22031,  0, 0, 0.05, False) /* Create Skeletal Leg (22031) for ContainTreasure */
-     , (7780, 9, 22047,  0, 0, 0.05, False) /* Create Skeletal Torso (22047) for ContainTreasure */;
+     , (7780, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (7780, 9, 22047,  0, 0, 0.05, False) /* Create Skeletal Torso (22047) for ContainTreasure */
+     , (7780, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

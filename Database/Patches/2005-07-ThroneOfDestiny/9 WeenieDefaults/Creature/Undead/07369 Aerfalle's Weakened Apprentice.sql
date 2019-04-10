@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7369;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7369, 'darkmagusaerfalle', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7369, 'darkmagusaerfalle', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7369,   1,         16) /* ItemType - Creature */
@@ -77,7 +77,7 @@ VALUES (7369,   1,   33554839) /* Setup */
      , (7369,   7,  268436018) /* ClothingBase */
      , (7369,   8,  100667942) /* Icon */
      , (7369,  22,  872415272) /* PhysicsEffectTable */
-     , (7369,  35,         25) /* DeathTreasureType */;
+     , (7369,  35,         25) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7369,   1, 220, 0, 0) /* Strength */
@@ -338,23 +338,23 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'A coolly amused voice seeps across your mind, "Is that the extent of thy powers, child? I shall show thee true power!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7369, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+VALUES (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
      , (7369, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
      , (7369, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
      , (7369, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
      , (7369, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
      , (7369, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
      , (7369, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
      , (7369, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
      , (7369, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
      , (7369, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (7369, 9,  7380,  0, 0, 1, False) /* Create Sheets of Paper (7380) for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */
-     , (7369, 9,  7409,  1, 0, 1, False) /* Create Ashen Key (7409) for ContainTreasure */;
+     , (7369, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

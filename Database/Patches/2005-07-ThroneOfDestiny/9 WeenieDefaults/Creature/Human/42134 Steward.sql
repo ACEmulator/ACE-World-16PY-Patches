@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42134;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42134, 'ace42134-steward', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (42134, 'ace42134-steward', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42134,   1,         16) /* ItemType - Creature */
@@ -105,11 +105,11 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  5,  10 /* Tell */, 1.5, 1, NULL, 'To my left are the easier tasks, to my right are the harder tasks. If you go straight you''ll find access to other tasks for which we won''t be able to reward you but are worth the effort.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42134, 2, 28618,  1, 20, 0.909, False) /* Create Diforsa Helm (28618) for Wield */
-     , (42134, 2, 28621,  1, 20, 0.909, False) /* Create Diforsa Leggings (28621) for Wield */
-     , (42134, 2, 28623,  1, 20, 0.909, False) /* Create Diforsa Pauldrons (28623) for Wield */
+VALUES (42134, 2, 28628,  1, 20, 0.909, False) /* Create Diforsa Breastplate (28628) for Wield */
      , (42134, 2, 28625,  1, 20, 0.909, False) /* Create Diforsa Sollerets (28625) for Wield */
-     , (42134, 2, 28627,  1, 20, 0.909, False) /* Create Diforsa Bracers (28627) for Wield */
-     , (42134, 2, 28628,  1, 20, 0.909, False) /* Create Diforsa Breastplate (28628) for Wield */
+     , (42134, 2, 28623,  1, 20, 0.909, False) /* Create Diforsa Pauldrons (28623) for Wield */
      , (42134, 2, 28630,  1, 20, 0.909, False) /* Create Diforsa Cuirass (28630) for Wield */
-     , (42134, 2, 28632,  1, 20, 0.909, False) /* Create Diforsa Gauntlets (28632) for Wield */;
+     , (42134, 2, 28627,  1, 20, 0.909, False) /* Create Diforsa Bracers (28627) for Wield */
+     , (42134, 2, 28621,  1, 20, 0.909, False) /* Create Diforsa Leggings (28621) for Wield */
+     , (42134, 2, 28632,  1, 20, 0.909, False) /* Create Diforsa Gauntlets (28632) for Wield */
+     , (42134, 2, 28618,  1, 20, 0.909, False) /* Create Diforsa Helm (28618) for Wield */;

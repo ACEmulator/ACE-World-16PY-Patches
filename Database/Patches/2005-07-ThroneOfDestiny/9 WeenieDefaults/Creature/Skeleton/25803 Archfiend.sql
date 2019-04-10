@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25803;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25803, 'skeletonarchfiend', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (25803, 'skeletonarchfiend', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25803,   1,         16) /* ItemType - Creature */
@@ -131,9 +131,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25803, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (25803, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (25803, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (25803, 9,  9310,  0, 0, 0.1, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+VALUES (25803, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (25803, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (25803, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
-     , (25803, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */;
+     , (25803, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (25803, 9,  9310,  0, 0, 0.1, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (25803, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

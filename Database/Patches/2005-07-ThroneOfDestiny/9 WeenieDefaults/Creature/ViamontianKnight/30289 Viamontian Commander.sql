@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30289;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30289, 'knightcommander_nofall', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (30289, 'knightcommander_nofall', 10, '2019-04-10 02:24:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30289,   1,         16) /* ItemType - Creature */
@@ -150,8 +150,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30289, 8,     0,  0, 0, 0.995, True) /* Create nothing for Treasure */
-     , (30289, 8, 34276,  0, 0, 0.005, False) /* Create Ancient Empyrean Trinket (34276) for Treasure */
+VALUES (30289, 8, 34276,  0, 0, 0.005, False) /* Create Ancient Empyrean Trinket (34276) for Treasure */
+     , (30289, 8,     0,  0, 0, 0.995, True) /* Create nothing for Treasure */
      , (30289, 10, 29966,  1, 0, 0.25, False) /* Create Quadrelle (29966) for WieldTreasure */
      , (30289, 10, 29971,  1, 0, 0.25, False) /* Create Partizan (29971) for WieldTreasure */
      , (30289, 10, 29976,  1, 0, 0.25, False) /* Create Spadone (29976) for WieldTreasure */

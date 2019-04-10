@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7125;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7125, 'wispaffliction', 10, '2019-02-08 06:52:23') /* Creature */;
+VALUES (7125, 'wispaffliction', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7125,   1,         16) /* ItemType - Creature */
@@ -26,7 +26,7 @@ VALUES (7125,   1, True ) /* Stuck */
      , (7125,  14, True ) /* GravityStatus */
      , (7125,  19, True ) /* Attackable */
      , (7125,  50, True ) /* NeverFailCasting */
-     , (7125, 120, True ) /* Treasure Corpse */;
+     , (7125, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7125,   1,       5) /* HeartbeatInterval */
@@ -71,7 +71,7 @@ VALUES (7125,   1,   33556634) /* Setup */
      , (7125,   4,  805306398) /* CombatTable */
      , (7125,   8,  100668442) /* Icon */
      , (7125,  22,  872415274) /* PhysicsEffectTable */
-     , (7125,  35,        464) /* DeathTreasureType */;
+     , (7125,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7125,   1, 150, 0, 0) /* Strength */
@@ -120,5 +120,5 @@ VALUES (7125,    80,   2.15)  /* Lightning Bolt VI */
      , (7125,  2762,   2.17)  /* Martyr's Hecatomb III */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7125, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (7125, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+VALUES (7125, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7125, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

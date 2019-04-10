@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28837;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28837, 'penguincave', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28837, 'penguincave', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28837,   1,         16) /* ItemType - Creature */
@@ -75,7 +75,7 @@ VALUES (28837,   1,   33559122) /* Setup */
      , (28837,   7,  268436889) /* ClothingBase */
      , (28837,   8,  100677366) /* Icon */
      , (28837,  22,  872415411) /* PhysicsEffectTable */
-     , (28837,  35,        448) /* DeathTreasureType */;
+     , (28837,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28837,   1, 400, 0, 0) /* Strength */
@@ -137,5 +137,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28837, 8,     0,  0, 0, 0.9, False) /* Create nothing for Treasure */
-     , (28837, 8, 28840,  0, 0, 0.1, False) /* Create Cave Penguin Egg (28840) for Treasure */;
+VALUES (28837, 8, 28840,  0, 0, 0.1, False) /* Create Cave Penguin Egg (28840) for Treasure */
+     , (28837, 8,     0,  0, 0, 0.9, False) /* Create nothing for Treasure */;

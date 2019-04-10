@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2583;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2583, 'sclavusse', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (2583, 'sclavusse', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2583,   1,         16) /* ItemType - Creature */
@@ -77,8 +77,16 @@ VALUES (2583,   1,   33555608) /* Setup */
      , (2583,   7,  268435727) /* ClothingBase */
      , (2583,   8,  100669120) /* Icon */
      , (2583,  22,  872415280) /* PhysicsEffectTable */
-     , (2583,  32,        169) /* WieldedTreasureType */
-     , (2583,  35,        453) /* DeathTreasureType */;
+     , (2583,  32,        169) /* WieldedTreasureType - 
+                                   Wield 5x Javelin (320) | Probability: 60%
+                                   Wield 4x Djarid (317) | Probability: 40%
+                                   Wield Budiaq (308) | Probability: 25%
+                                   Wield Spear (348) | Probability: 50%
+                                   Wield Yari (362) | Probability: 50%
+                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Kite Shield (91) | Probability: 20%
+                                   Wield Large Round Shield (94) | Probability: 20% */
+     , (2583,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2583,   1,  90, 0, 0) /* Strength */
@@ -134,7 +142,7 @@ VALUES (2583,     2,   2.05)  /* Strength Self I */
      , (2583,  1397,   2.05)  /* Quickness Self I */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2583, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (2583, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (2583, 9,  9260,  0, 0, 0.03, False) /* Create Small Sclavus Hide (9260) for ContainTreasure */
-     , (2583, 9, 20861,  0, 0, 0.01, False) /* Create Moons Stamp (20861) for ContainTreasure */;
+VALUES (2583, 9,  9260,  0, 0, 0.03, False) /* Create Small Sclavus Hide (9260) for ContainTreasure */
+     , (2583, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (2583, 9, 20861,  0, 0, 0.01, False) /* Create Moons Stamp (20861) for ContainTreasure */
+     , (2583, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8, 'mosswartcreeper', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8, 'mosswartcreeper', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8,   1,         16) /* ItemType - Creature */
@@ -74,8 +74,15 @@ VALUES (8,   1,   33557327) /* Setup */
      , (8,   7,  268436292) /* ClothingBase */
      , (8,   8,  100667449) /* Icon */
      , (8,  22,  872415264) /* PhysicsEffectTable */
-     , (8,  32,        128) /* WieldedTreasureType */
-     , (8,  35,        453) /* DeathTreasureType */;
+     , (8,  32,        128) /* WieldedTreasureType - 
+                                   Wield Budiaq (308) | Probability: 12%
+                                   Wield Khanjar (328) | Probability: 25%
+                                   Wield Spear (348) | Probability: 13%
+                                   Wield 10x Throwing Dart (316) | Probability: 5%
+                                   Wield 10x Shouken (343) | Probability: 5%
+                                   Wield 6x Throwing Dagger (315) | Probability: 5%
+                                   Wield Djarid (317) | Probability: 10% */
+     , (8,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8,   1, 100, 0, 0) /* Strength */
@@ -176,9 +183,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (8, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+VALUES (8, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
      , (8, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (8, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
      , (8, 9, 13222,  0, 0, 0.1, False) /* Create Peppermint Stick (13222) for ContainTreasure */
-     , (8, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */;
+     , (8, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (8, 9, 20854,  0, 0, 0.03, False) /* Create Academy Stamp (20854) for ContainTreasure */
+     , (8, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 238;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (238, 'virindipuppet', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (238, 'virindipuppet', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (238,   1,         16) /* ItemType - Creature */
@@ -70,7 +70,7 @@ VALUES (238,   1,   33554497) /* Setup */
      , (238,   7,  268435648) /* ClothingBase */
      , (238,   8,  100667943) /* Icon */
      , (238,  22,  872415273) /* PhysicsEffectTable */
-     , (238,  35,        465) /* DeathTreasureType */;
+     , (238,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (238,   1, 150, 0, 0) /* Strength */
@@ -186,7 +186,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (238, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (238, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (238, 9,  3697,  0, 0, 0.05, False) /* Create Red Jewel (3697) for ContainTreasure */
-     , (238, 9,  9291,  0, 0, 0.02, False) /* Create Virindi Master Key (9291) for ContainTreasure */;
+VALUES (238, 9,  3697,  0, 0, 0.05, False) /* Create Red Jewel (3697) for ContainTreasure */
+     , (238, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (238, 9,  9291,  0, 0, 0.02, False) /* Create Virindi Master Key (9291) for ContainTreasure */
+     , (238, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

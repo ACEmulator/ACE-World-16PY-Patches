@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28250;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28250, 'phyntoswaspblackswarm', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28250, 'phyntoswaspblackswarm', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28250,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (28250,   1,   33558818) /* Setup */
      , (28250,   7,  268436836) /* ClothingBase */
      , (28250,   8,  100667450) /* Icon */
      , (28250,  22,  872415266) /* PhysicsEffectTable */
-     , (28250,  35,        462) /* DeathTreasureType */;
+     , (28250,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28250,   1, 130, 0, 0) /* Strength */
@@ -113,5 +113,5 @@ VALUES (28250,    79,   2.05)  /* Lightning Bolt V */
      , (28250,  2735,   2.05)  /* Lightning Arc IV */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28250, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (28250, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+VALUES (28250, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (28250, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31697;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31697, 'ace31697-ruschkcampleader', 10, '2019-02-19 15:09:35') /* Creature */;
+VALUES (31697, 'ace31697-ruschkcampleader', 10, '2019-04-10 02:07:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31697,   1,         16) /* ItemType - Creature */
@@ -175,7 +175,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Ruschk mumbles something incoherent...an icy chill comes over you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31697, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (31697, 9, 31701,  1, 1, 1, False) /* Create Blacksmithing Chest Key (31701) for ContainTreasure */
      , (31697, 9, 31701,  1, 1, 1, False) /* Create Blacksmithing Chest Key (31701) for ContainTreasure */
-     , (31697, 9, 31701,  1, 1, 1, False) /* Create Blacksmithing Chest Key (31701) for ContainTreasure */
-     , (31697, 9, 34276, -1, 0, 0.08, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */;
+     , (31697, 9, 34276, -1, 0, 0.08, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */
+     , (31697, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8427;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8427, 'mosswartfanatic', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (8427, 'mosswartfanatic', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8427,   1,         16) /* ItemType - Creature */
@@ -76,8 +76,16 @@ VALUES (8427,   1,   33557327) /* Setup */
      , (8427,   7,  268436294) /* ClothingBase */
      , (8427,   8,  100667449) /* Icon */
      , (8427,  22,  872415264) /* PhysicsEffectTable */
-     , (8427,  32,        330) /* WieldedTreasureType */
-     , (8427,  35,        451) /* DeathTreasureType */;
+     , (8427,  32,        330) /* WieldedTreasureType - 
+                                   Wield Budiaq (308) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 10%
+                                   Wield Shamshir (340) | Probability: 10%
+                                   Wield Spear (348) | Probability: 20%
+                                   Wield Tachi (353) | Probability: 10%
+                                   Wield Yari (362) | Probability: 40%
+                                   Wield 4x Javelin (320) | Probability: 5%
+                                   Wield Djarid (317) | Probability: 5% */
+     , (8427,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8427,   1, 130, 0, 0) /* Strength */
@@ -177,9 +185,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8427, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
-     , (8427, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (8427, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (8427, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone (3694) for ContainTreasure */
+VALUES (8427, 9,  3694,  0, 0, 0.25, False) /* Create Swamp Stone (3694) for ContainTreasure */
+     , (8427, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
      , (8427, 9,  7825,  0, 0, 0.05, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (8427, 9, 15763,  0, 0, 0.02, False) /* Create Ruined Amulet of the Left Hand (15763) for ContainTreasure */;
+     , (8427, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (8427, 9, 15763,  0, 0, 0.02, False) /* Create Ruined Amulet of the Left Hand (15763) for ContainTreasure */
+     , (8427, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

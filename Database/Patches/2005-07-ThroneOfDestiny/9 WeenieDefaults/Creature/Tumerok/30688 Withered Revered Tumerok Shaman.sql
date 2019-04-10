@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30688;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30688, 'tumerokreveredshamanwitheredboss', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30688, 'tumerokreveredshamanwitheredboss', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30688,   1,         16) /* ItemType - Creature */
@@ -75,8 +75,13 @@ VALUES (30688,   1,   33559217) /* Setup */
      , (30688,   7,  268436899) /* ClothingBase */
      , (30688,   8,  100667452) /* Icon */
      , (30688,  22,  872415270) /* PhysicsEffectTable */
-     , (30688,  32,        490) /* WieldedTreasureType */
-     , (30688,  35,        449) /* DeathTreasureType */;
+     , (30688,  32,        490) /* WieldedTreasureType - 
+                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
+     , (30688,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30688,   1, 260, 0, 0) /* Strength */
@@ -145,8 +150,8 @@ VALUES (30688,    63,  2.015)  /* Acid Stream VI */
      , (30688,  1468,  2.012)  /* Feeblemind Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30688, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (30688, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+VALUES (30688, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (30688, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (30688, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
-     , (30688, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (30688, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (30688, 9, 30678,  0, 0, 1, False) /* Create Insensate Axe (30678) for ContainTreasure */;

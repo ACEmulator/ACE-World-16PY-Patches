@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12704;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12704, 'phyntoswaspcarpenternewbieacademy', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (12704, 'phyntoswaspcarpenternewbieacademy', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12704,   1,         16) /* ItemType - Creature */
@@ -99,5 +99,5 @@ VALUES (12704,  0,  2,  3,  0.5,   15,   12,   12,   12,    5,    4,    4,    4,
      , (12704, 21,  4,  0,    0,   15,   12,   12,   12,    5,    4,    4,    4,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12704, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (12704, 9, 13089,  0, 0, 0.3, False) /* Create Carpenter Wasp Wing (13089) for ContainTreasure */;
+VALUES (12704, 9, 13089,  0, 0, 0.3, False) /* Create Carpenter Wasp Wing (13089) for ContainTreasure */
+     , (12704, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;

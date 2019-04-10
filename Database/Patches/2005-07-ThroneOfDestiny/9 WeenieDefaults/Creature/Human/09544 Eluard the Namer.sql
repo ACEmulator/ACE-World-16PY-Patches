@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9544;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9544, 'bestowercollectoralu', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (9544, 'bestowercollectoralu', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9544,   1,         16) /* ItemType - Creature */
@@ -566,5 +566,5 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9544, 2,   118,  0, 13, 0.6, False) /* Create Cap (118) for Wield */
      , (9544, 2,   127,  0, 9, 0, False) /* Create Pants (127) for Wield */
-     , (9544, 2,   130,  0, 2, 0.8, False) /* Create Shirt (130) for Wield */
-     , (9544, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */;
+     , (9544, 2,  7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */
+     , (9544, 2,   130,  0, 2, 0.8, False) /* Create Shirt (130) for Wield */;

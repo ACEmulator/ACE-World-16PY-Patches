@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7183;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7183, 'phyntoswaspjungle', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (7183, 'phyntoswaspjungle', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7183,   1,         16) /* ItemType - Creature */
@@ -73,7 +73,7 @@ VALUES (7183,   1,   33558817) /* Setup */
      , (7183,   7,  268436836) /* ClothingBase */
      , (7183,   8,  100667450) /* Icon */
      , (7183,  22,  872415266) /* PhysicsEffectTable */
-     , (7183,  35,        463) /* DeathTreasureType */;
+     , (7183,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7183,   1,  90, 0, 0) /* Strength */
@@ -110,7 +110,7 @@ VALUES (7183,    77,   2.07)  /* Lightning Bolt III */
      , (7183,   139,   2.07)  /* Lightning Volley III */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7183, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
-     , (7183, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+VALUES (7183, 9,  8426,  0, 0, 0.08, False) /* Create Jungle Phyntos Wasp Wing (8426) for ContainTreasure */
+     , (7183, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
      , (7183, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (7183, 9,  8426,  0, 0, 0.08, False) /* Create Jungle Phyntos Wasp Wing (8426) for ContainTreasure */;
+     , (7183, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

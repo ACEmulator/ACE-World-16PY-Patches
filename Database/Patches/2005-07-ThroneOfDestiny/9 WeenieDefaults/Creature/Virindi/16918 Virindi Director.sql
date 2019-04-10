@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 16918;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (16918, 'virindidirector_nofall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (16918, 'virindidirector_nofall', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (16918,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (16918,   1,   33554497) /* Setup */
      , (16918,   7,  268435649) /* ClothingBase */
      , (16918,   8,  100667943) /* Icon */
      , (16918,  22,  872415273) /* PhysicsEffectTable */
-     , (16918,  35,        463) /* DeathTreasureType */;
+     , (16918,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (16918,   1,  40, 0, 0) /* Strength */
@@ -230,7 +230,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Your weakling magics are laughable, human.  We will show you what true power feels like...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (16918, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (16918, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (16918, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
-     , (16918, 9,  8154,  0, 0, 0.1, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */;
+VALUES (16918, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
+     , (16918, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (16918, 9,  8154,  0, 0, 0.1, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */
+     , (16918, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

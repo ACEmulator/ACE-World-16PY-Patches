@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12023;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12023, 'shadowbossmonster', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (12023, 'shadowbossmonster', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12023,   1,         16) /* ItemType - Creature */
@@ -82,7 +82,7 @@ VALUES (12023,   1,   33554433) /* Setup */
      , (12023,   7,  268435632) /* ClothingBase */
      , (12023,   8,  100670397) /* Icon */
      , (12023,  22,  872415331) /* PhysicsEffectTable */
-     , (12023,  35,         19) /* DeathTreasureType */;
+     , (12023,  35,         19) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12023,   1, 240, 0, 0) /* Strength */
@@ -153,12 +153,12 @@ VALUES (12023,    73,  2.032)  /* Frost Bolt V */
      , (12023,  1467,  2.023)  /* Feeblemind Other V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12023, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
+VALUES (12023, 9,  6058,  0, 0, 0.8, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (12023, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (12023, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
-     , (12023, 9,  6058,  0, 0, 0.8, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (12023, 9,  6876,  0, 0, 0.8, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (12023, 9, 12022,  0, 0, 0.3, False) /* Create Scroll of Dark Rain (12022) for ContainTreasure */;
+     , (12023, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
+     , (12023, 9, 12022,  0, 0, 0.3, False) /* Create Scroll of Dark Rain (12022) for ContainTreasure */
+     , (12023, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12023, 0.5, 4254, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Umbris Shadow (4254) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31007;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31007, 'olthoislasherhighyield', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (31007, 'olthoislasherhighyield', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31007,   1,         16) /* ItemType - Creature */
@@ -119,7 +119,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31007, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (31007, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+VALUES (31007, 9, 31355,  0, 0, 0.05, False) /* Create Olthoi Slasher Carapace (31355) for ContainTreasure */
+     , (31007, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (31007, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (31007, 9, 31355,  0, 0, 0.05, False) /* Create Olthoi Slasher Carapace (31355) for ContainTreasure */;
+     , (31007, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

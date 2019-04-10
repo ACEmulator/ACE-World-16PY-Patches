@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1535;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1535, 'wispethereal', 10, '2019-02-08 06:52:23') /* Creature */;
+VALUES (1535, 'wispethereal', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1535,   1,         16) /* ItemType - Creature */
@@ -9,14 +9,14 @@ VALUES (1535,   1,         16) /* ItemType - Creature */
      , (1535,   6,         -1) /* ItemsCapacity */
      , (1535,   7,         -1) /* ContainersCapacity */
      , (1535,  16,          1) /* ItemUseable - No */
-     , (1535,  25,          8) /* Level */
+     , (1535,  25,          5) /* Level */
      , (1535,  27,          0) /* ArmorType - None */
      , (1535,  40,          2) /* CombatMode - Melee */
      , (1535,  67,          2) /* Tolerance - Appraise */
      , (1535,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (1535,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1535, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (1535, 146,       1000) /* XpOverride */;
+     , (1535, 146,        225) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1535,   1, True ) /* Stuck */
@@ -24,10 +24,8 @@ VALUES (1535,   1, True ) /* Stuck */
      , (1535,  11, False) /* IgnoreCollisions */
      , (1535,  12, True ) /* ReportCollisions */
      , (1535,  13, False) /* Ethereal */
-     , (1535,  14, True ) /* GravityStatus */
-     , (1535,  19, True ) /* Attackable */
      , (1535,  50, True ) /* NeverFailCasting */
-     , (1535, 120, True ) /* Treasure Corpse */;
+     , (1535, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1535,   1,       5) /* HeartbeatInterval */
@@ -72,7 +70,7 @@ VALUES (1535,   1,   33555866) /* Setup */
      , (1535,   4,  805306398) /* CombatTable */
      , (1535,   8,  100668442) /* Icon */
      , (1535,  22,  872415274) /* PhysicsEffectTable */
-     , (1535,  35,        465) /* DeathTreasureType */;
+     , (1535,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1535,   1,  15, 0, 0) /* Strength */

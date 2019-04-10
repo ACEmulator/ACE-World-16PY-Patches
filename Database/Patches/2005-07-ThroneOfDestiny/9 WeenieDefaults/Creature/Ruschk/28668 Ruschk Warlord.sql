@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28668;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28668, 'ruschkwarlord', 10, '2019-02-19 15:09:35') /* Creature */;
+VALUES (28668, 'ruschkwarlord', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28668,   1,         16) /* ItemType - Creature */
@@ -27,7 +27,8 @@ VALUES (28668,   1, True ) /* Stuck */
      , (28668,  13, False) /* Ethereal */
      , (28668,  14, True ) /* GravityStatus */
      , (28668,  19, True ) /* Attackable */
-     , (28668, 101, True ) /* CanGenerateRare */;
+     , (28668, 101, True ) /* CanGenerateRare */
+     , (28668, 102, True ) /* CorpseGeneratedRare */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28668,   1,       5) /* HeartbeatInterval */
@@ -80,7 +81,7 @@ VALUES (28668,   1,   33559104) /* Setup */
                                    Wield Ice Shard (29986) | Probability: 20%
                                    Wield Frigid Splinter (29991) | Probability: 20%
                                    Wield Bone Sword (29996) | Probability: 20% */
-     , (28668,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
+     , (28668,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28668,   1, 210, 0, 0) /* Strength */
@@ -168,7 +169,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Ruschk mumbles something incoherent...an icy chill comes over you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28668, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
-     , (28668, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (28668, 9,  6876,  0, 0, 0.08, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (28668, 9, 28730,  0, 0, 0.05, True) /* Create Perfect Ice Shard (28730) for ContainTreasure */;
+VALUES (28668, 9,  6876,  0, 0, 0.08, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (28668, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */
+     , (28668, 9, 28730,  0, 0, 0.05, True) /* Create Perfect Ice Shard (28730) for ContainTreasure */
+     , (28668, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

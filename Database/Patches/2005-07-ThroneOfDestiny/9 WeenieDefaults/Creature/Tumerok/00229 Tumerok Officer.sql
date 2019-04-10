@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 229;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (229, 'tumeroklieutenant', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (229, 'tumeroklieutenant', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (229,   1,         16) /* ItemType - Creature */
@@ -164,11 +164,11 @@ VALUES (229,    60,  2.014)  /* Acid Stream III */
      , (229,  1197,   2.02)  /* Enfeeble Other III */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (229, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
-     , (229, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (229, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (229, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (229, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+VALUES (229, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (229, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
      , (229, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (229, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (229, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (229, 9, 20855,  0, 0, 0.03, False) /* Create Alchemy Stamp (20855) for ContainTreasure */;
+     , (229, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (229, 9, 20855,  0, 0, 0.03, False) /* Create Alchemy Stamp (20855) for ContainTreasure */
+     , (229, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

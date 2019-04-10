@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31015;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31015, 'mumiyahsentinelhighyield', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (31015, 'mumiyahsentinelhighyield', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31015,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (31015,   1,   33554433) /* Setup */
      , (31015,   7,  268435645) /* ClothingBase */
      , (31015,   8,  100669122) /* Icon */
      , (31015,  22,  872415272) /* PhysicsEffectTable */
-     , (31015,  35,        449) /* DeathTreasureType */;
+     , (31015,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31015,   1, 160, 0, 0) /* Strength */
@@ -147,7 +147,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31015, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
+VALUES (31015, 9, 31345,  0, 0, 0.06, False) /* Create Rotting Bandage (31345) for ContainTreasure */
      , (31015, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (31015, 9, 24477,  0, 0, 0.06, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (31015, 9, 31345,  0, 0, 0.06, False) /* Create Rotting Bandage (31345) for ContainTreasure */;
+     , (31015, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */;

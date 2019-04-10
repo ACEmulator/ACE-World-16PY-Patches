@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31921;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31921, 'ace31921-mosswartagitator', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (31921, 'ace31921-mosswartagitator', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31921,   1,         16) /* ItemType - Creature */
@@ -171,7 +171,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31921, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (31921, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+VALUES (31921, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (31921, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (31921, 10, 32123,  1, 0, 0.5, False) /* Create Acid Spear (32123) for WieldTreasure */
      , (31921, 10, 32124,  1, 0, 0.5, False) /* Create Frost Spear (32124) for WieldTreasure */;

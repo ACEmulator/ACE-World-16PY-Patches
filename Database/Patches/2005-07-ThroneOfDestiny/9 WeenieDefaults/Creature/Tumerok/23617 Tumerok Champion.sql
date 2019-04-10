@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23617;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23617, 'tumerokchampion', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (23617, 'tumerokchampion', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23617,   1,         16) /* ItemType - Creature */
@@ -165,6 +165,6 @@ VALUES (23617,    62,  2.015)  /* Acid Stream V */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23617, 1,  3695,  0, 0, 1, False) /* Create Gold Tumerok Insignia (3695) for Contain */
-     , (23617, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (23617, 9, 30907,  0, 0, 0.05, False) /* Create Halaetan Magic Page 2 (30907) for ContainTreasure */
+     , (23617, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (23617, 10,    91,  0, 0, 1, False) /* Create Kite Shield (91) for WieldTreasure */;

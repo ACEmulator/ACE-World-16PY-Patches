@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25885;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25885, 'zefirdark', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (25885, 'zefirdark', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25885,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (25885,   1,   33555610) /* Setup */
      , (25885,   7,  268436729) /* ClothingBase */
      , (25885,   8,  100669123) /* Icon */
      , (25885,  22,  872415279) /* PhysicsEffectTable */
-     , (25885,  35,         29) /* DeathTreasureType */;
+     , (25885,  35,         29) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25885,   1, 350, 0, 0) /* Strength */
@@ -122,5 +122,5 @@ VALUES (25885,    69,   2.03)  /* Shock Wave VI */
      , (25885,  1420,   2.02)  /* Slowness Other VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25885, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (25885, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;
+VALUES (25885, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (25885, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

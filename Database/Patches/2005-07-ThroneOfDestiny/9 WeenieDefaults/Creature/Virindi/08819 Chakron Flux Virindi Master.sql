@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8819;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8819, 'virindimasterchakron', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (8819, 'virindimasterchakron', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8819,   1,         16) /* ItemType - Creature */
@@ -178,9 +178,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8819, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+VALUES (8819, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel (7604) for ContainTreasure */
      , (8819, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (8819, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (8819, 9,  7604,  0, 0, 0.05, False) /* Create Yellow Jewel (7604) for ContainTreasure */
      , (8819, 9,  9292,  0, 0, 0.05, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
-     , (8819, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */;
+     , (8819, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (8819, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (8819, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

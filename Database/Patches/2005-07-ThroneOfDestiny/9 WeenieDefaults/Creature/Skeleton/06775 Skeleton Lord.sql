@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6775;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6775, 'skeletonwarriorcrimsonruby4', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (6775, 'skeletonwarriorcrimsonruby4', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6775,   1,         16) /* ItemType - Creature */
@@ -72,8 +72,32 @@ VALUES (6775,   1,   33555465) /* Setup */
      , (6775,   6,   67116522) /* PaletteBase */
      , (6775,   8,  100669124) /* Icon */
      , (6775,  22,  872415269) /* PhysicsEffectTable */
-     , (6775,  32,        189) /* WieldedTreasureType */
-     , (6775,  35,        190) /* DeathTreasureType */;
+     , (6775,  32,        189) /* WieldedTreasureType - 
+                                   Wield Battle Axe (301) | Probability: 9%
+                                   Wield Broad Sword (350) | Probability: 4%
+                                   Wield Kaskara (324) | Probability: 4%
+                                   Wield Ken (327) | Probability: 4%
+                                   Wield Long Sword (351) | Probability: 4%
+                                   Wield Morning Star (332) | Probability: 6%
+                                   Wield Scimitar (339) | Probability: 4%
+                                   Wield Shamshir (340) | Probability: 4%
+                                   Wield Ono (336) | Probability: 8%
+                                   Wield Silifi (344) | Probability: 8%
+                                   Wield Tachi (353) | Probability: 5%
+                                   Wield Takuba (354) | Probability: 5%
+                                   Wield 6x Throwing Axe (304) | Probability: 6%
+                                   Wield Nayin (334) | Probability: 6%
+                                   Wield 16x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 6%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 6%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 11%
+                                   Wield 16x Quarrel (305) | Probability: 100%
+                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Kite Shield (91) | Probability: 20%
+                                   Wield Large Round Shield (94) | Probability: 20% */
+     , (6775,  35,        190) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6775,   1,  85, 0, 0) /* Strength */
@@ -136,9 +160,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6775, 8,  6663,  0, 0, 1, False) /* Create The Ruby Yujazik (6663) for Treasure */
-     , (6775, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (6775, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (6775, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (6775, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (6775, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (6775, 9,  9312,  0, 0, 0.05, False) /* Create A Small Mnemosyne (9312) for ContainTreasure */
-     , (6775, 9, 22100,  0, 0, 0.01, False) /* Create Skull Stamp (22100) for ContainTreasure */;
+     , (6775, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (6775, 9, 22100,  0, 0, 0.01, False) /* Create Skull Stamp (22100) for ContainTreasure */
+     , (6775, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

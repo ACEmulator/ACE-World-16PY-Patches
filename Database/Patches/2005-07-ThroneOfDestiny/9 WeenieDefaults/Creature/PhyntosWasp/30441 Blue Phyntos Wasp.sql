@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30441;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30441, 'phyntoswaspblue_nofall', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (30441, 'phyntoswaspblue_nofall', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30441,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (30441,   1,   33558817) /* Setup */
      , (30441,   7,  268436836) /* ClothingBase */
      , (30441,   8,  100667450) /* Icon */
      , (30441,  22,  872415266) /* PhysicsEffectTable */
-     , (30441,  35,        465) /* DeathTreasureType */;
+     , (30441,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30441,   1,  35, 0, 0) /* Strength */
@@ -109,7 +109,7 @@ VALUES (30441,    27,  2.036)  /* Flame Bolt I */
      , (30441,    28,   2.04)  /* Frost Bolt I */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30441, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
-     , (30441, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (30441, 9,  3699,  0, 0, 0.15, False) /* Create Blue Phyntos Wasp Wing (3699) for ContainTreasure */
-     , (30441, 9,  8701,  0, 0, 0.03, False) /* Create Lucky Gold Letter (8701) for ContainTreasure */;
+VALUES (30441, 9,  3699,  0, 0, 0.15, False) /* Create Blue Phyntos Wasp Wing (3699) for ContainTreasure */
+     , (30441, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
+     , (30441, 9,  8701,  0, 0, 0.03, False) /* Create Old Lucky Gold Letter (8701) for ContainTreasure */
+     , (30441, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

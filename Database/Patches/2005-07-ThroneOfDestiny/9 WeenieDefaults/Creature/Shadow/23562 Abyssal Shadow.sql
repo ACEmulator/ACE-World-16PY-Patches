@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23562;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23562, 'shadowabyssal', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (23562, 'shadowabyssal', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23562,   1,         16) /* ItemType - Creature */
@@ -88,7 +88,7 @@ VALUES (23562,   1,   33556251) /* Setup */
      , (23562,  16,   67109564) /* EyesPalette */
      , (23562,  17,   67109559) /* SkinPalette */
      , (23562,  22,  872415331) /* PhysicsEffectTable */
-     , (23562,  35,        460) /* DeathTreasureType */;
+     , (23562,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23562,   1, 150, 0, 0) /* Strength */
@@ -158,9 +158,9 @@ VALUES (23562,    73,  2.032)  /* Frost Bolt V */
      , (23562,  1467,  2.023)  /* Feeblemind Other V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23562, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (23562, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (23562, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (23562, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
+VALUES (23562, 9,  6058,  0, 0, 0.04, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (23562, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (23562, 9,  6876,  0, 0, 0.03, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (23562, 9, 20856,  0, 0, 0.02, False) /* Create Bael'Zharon Stamp (20856) for ContainTreasure */;
+     , (23562, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (23562, 9, 20856,  0, 0, 0.02, False) /* Create Bael'Zharon Stamp (20856) for ContainTreasure */
+     , (23562, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

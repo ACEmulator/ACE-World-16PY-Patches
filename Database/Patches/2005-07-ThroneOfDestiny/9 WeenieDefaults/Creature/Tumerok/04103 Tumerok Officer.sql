@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4103;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4103, 'tumeroklieutenantarcher', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (4103, 'tumeroklieutenantarcher', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4103,   1,         16) /* ItemType - Creature */
@@ -155,20 +155,20 @@ VALUES (4103,    61,  2.014)  /* Acid Stream IV */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4103, 8,   301,  0, 0, 0.14, False) /* Create Battle Axe (301) for Treasure */
+     , (4103, 8,   350,  0, 0, 0.07, False) /* Create Broad Sword (350) for Treasure */
      , (4103, 8,   324,  0, 0, 0.06, False) /* Create Kaskara (324) for Treasure */
      , (4103, 8,   327,  0, 0, 0.06, False) /* Create Ken (327) for Treasure */
+     , (4103, 8,   351,  0, 0, 0.06, False) /* Create Long Sword (351) for Treasure */
      , (4103, 8,   332,  0, 0, 0.08, False) /* Create Morning Star (332) for Treasure */
      , (4103, 8,   336,  0, 0, 0.13, False) /* Create Ono (336) for Treasure */
      , (4103, 8,   339,  0, 0, 0.06, False) /* Create Scimitar (339) for Treasure */
      , (4103, 8,   340,  0, 0, 0.06, False) /* Create Shamshir (340) for Treasure */
      , (4103, 8,   344,  0, 0, 0.13, False) /* Create Silifi (344) for Treasure */
-     , (4103, 8,   350,  0, 0, 0.07, False) /* Create Broad Sword (350) for Treasure */
-     , (4103, 8,   351,  0, 0, 0.06, False) /* Create Long Sword (351) for Treasure */
      , (4103, 8,   353,  0, 0, 0.06, False) /* Create Tachi (353) for Treasure */
      , (4103, 8,   354,  0, 0, 0.06, False) /* Create Takuba (354) for Treasure */
-     , (4103, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (4103, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
-     , (4103, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (4103, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
      , (4103, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (4103, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */;
+     , (4103, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (4103, 9,  3695,  0, 0, 0.15, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (4103, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */
+     , (4103, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (4103, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

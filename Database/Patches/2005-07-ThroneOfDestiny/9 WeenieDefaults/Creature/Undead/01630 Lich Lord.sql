@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1630;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1630, 'zombielichlord', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (1630, 'zombielichlord', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1630,   1,         16) /* ItemType - Creature */
@@ -77,8 +77,29 @@ VALUES (1630,   1,   33554839) /* Setup */
      , (1630,   7,  268435558) /* ClothingBase */
      , (1630,   8,  100667942) /* Icon */
      , (1630,  22,  872415272) /* PhysicsEffectTable */
-     , (1630,  32,        249) /* WieldedTreasureType */
-     , (1630,  35,        451) /* DeathTreasureType */;
+     , (1630,  32,        249) /* WieldedTreasureType - 
+                                   Wield 4x Throwing Club (23654) | Probability: 10%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 18x Arrow (300) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 20x Fire Arrow (1437) | Probability: 100%
+                                   Wield Yumi (23735) | Probability: 10%
+                                   Wield 10x Acid Arrow (4181) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 12x Quarrel (305) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 14x Fire Quarrel (4188) | Probability: 100%
+                                   Wield Heavy Crossbow (23666) | Probability: 10%
+                                   Wield 16x Acid Quarrel (4185) | Probability: 100%
+                                   Wield Katar (23675) | Probability: 15%
+                                   Wield Cestus (23638) | Probability: 15%
+                                   Wield Nekode (23681) | Probability: 15%
+                                   Wield Spear (23697) | Probability: 15%
+                                   Wield Tachi (23701) | Probability: 15%
+                                   Wield Yari (23731) | Probability: 15%
+                                   Wield Kite Shield (23685) | Probability: 50%
+                                   Wield Tower Shield (95) | Probability: 25% */
+     , (1630,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1630,   1, 100, 0, 0) /* Strength */
@@ -147,19 +168,19 @@ VALUES (1630,    60,  2.013)  /* Acid Stream III */
      , (1630,  1465,  2.009)  /* Feeblemind Other III */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1630, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (1630, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+VALUES (1630, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */
      , (1630, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1630, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) for ContainTreasure */
      , (1630, 9,  9312,  0, 0, 0.04, False) /* Create A Small Mnemosyne (9312) for ContainTreasure */
-     , (1630, 9, 12225,  0, 0, 0.05, False) /* Create Zombie Head (12225) for ContainTreasure */
+     , (1630, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (1630, 9, 15770,  0, 0, 0.02, False) /* Create Ruined Amulet of the Staff (15770) for ContainTreasure */
+     , (1630, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (1630, 9, 19477,  0, 0, 0.05, False) /* Create Undead Femur bone (19477) for ContainTreasure */
+     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (1630, 9, 12225,  0, 0, 0.05, False) /* Create Zombie Head (12225) for ContainTreasure */
+     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (1630, 9, 22028,  0, 0, 0.05, False) /* Create Undead Arm (22028) for ContainTreasure */
+     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (1630, 9, 22032,  0, 0, 0.05, False) /* Create Undead Leg (22032) for ContainTreasure */
-     , (1630, 9, 22048,  0, 0, 0.05, False) /* Create Undead Torso (22048) for ContainTreasure */;
+     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (1630, 9, 22048,  0, 0, 0.05, False) /* Create Undead Torso (22048) for ContainTreasure */
+     , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

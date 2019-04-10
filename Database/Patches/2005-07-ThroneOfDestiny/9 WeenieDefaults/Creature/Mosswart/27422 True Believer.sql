@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27422;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27422, 'mosswarttruebeliever', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (27422, 'mosswarttruebeliever', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27422,   1,         16) /* ItemType - Creature */
@@ -78,7 +78,7 @@ VALUES (27422,   1,   33557327) /* Setup */
      , (27422,   7,  268436294) /* ClothingBase */
      , (27422,   8,  100667449) /* Icon */
      , (27422,  22,  872415264) /* PhysicsEffectTable */
-     , (27422,  35,        448) /* DeathTreasureType */;
+     , (27422,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27422,   1, 200, 0, 0) /* Strength */
@@ -193,7 +193,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27422, 9,     0,  0, 0, 0.999, False) /* Create nothing for ContainTreasure */
-     , (27422, 9, 27391,  0, 0, 0.001, False) /* Create Lair of The Homunculus (27391) for ContainTreasure */
+VALUES (27422, 9, 27391,  0, 0, 0.001, False) /* Create Lair of The Homunculus (27391) for ContainTreasure */
+     , (27422, 9,     0,  0, 0, 0.999, False) /* Create nothing for ContainTreasure */
      , (27422, 10, 23688,  0, 0, 0.4, False) /* Create Acid Spear (23688) for WieldTreasure */
      , (27422, 10, 23692,  0, 0, 0.4, False) /* Create Frost Spear (23692) for WieldTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31016;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31016, 'phyntoswaspagitatedhighyield', 10, '2019-02-19 06:52:23') /* Creature */;
+VALUES (31016, 'phyntoswaspagitatedhighyield', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31016,   1,         16) /* ItemType - Creature */
@@ -26,6 +26,7 @@ VALUES (31016,   1, True ) /* Stuck */
      , (31016,  19, True ) /* Attackable */
      , (31016,  50, True ) /* NeverFailCasting */
      , (31016, 101, True ) /* CanGenerateRare */
+     , (31016, 102, True ) /* CorpseGeneratedRare */
      , (31016, 103, True ) /* NonProjectileMagicImmune */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -73,7 +74,7 @@ VALUES (31016,   1,   33558817) /* Setup */
      , (31016,   7,  268436836) /* ClothingBase */
      , (31016,   8,  100667450) /* Icon */
      , (31016,  22,  872415266) /* PhysicsEffectTable */
-     , (31016,  35,        461) /* DeathTreasureType */;
+     , (31016,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31016,   1, 340, 0, 0) /* Strength */
@@ -145,7 +146,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31016, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+VALUES (31016, 9, 24477,  1, 0, 0.1, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (31016, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (31016, 9, 24477,  1, 0, 0.1, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (31016, 9, 31358,  1, 0, 0.1, False) /* Create Phyntos Stinger (31358) for ContainTreasure */;
+     , (31016, 9, 31358,  1, 0, 0.1, False) /* Create Phyntos Stinger (31358) for ContainTreasure */
+     , (31016, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

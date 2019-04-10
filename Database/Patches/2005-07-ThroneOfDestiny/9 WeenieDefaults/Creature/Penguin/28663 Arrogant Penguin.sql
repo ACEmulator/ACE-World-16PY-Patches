@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28663;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28663, 'penguinarrogant', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (28663, 'penguinarrogant', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28663,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (28663,   1,   33559122) /* Setup */
      , (28663,   7,  268436889) /* ClothingBase */
      , (28663,   8,  100677366) /* Icon */
      , (28663,  22,  872415411) /* PhysicsEffectTable */
-     , (28663,  35,        457) /* DeathTreasureType */;
+     , (28663,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28663,   1,  60, 0, 0) /* Strength */
@@ -136,5 +136,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28663, 8,     0,  0, 0, 0.93, False) /* Create nothing for Treasure */
-     , (28663, 8, 28740,  0, 0, 0.07, False) /* Create Arrogant Penguin Beak (28740) for Treasure */;
+VALUES (28663, 8, 28740,  0, 0, 0.07, False) /* Create Arrogant Penguin Beak (28740) for Treasure */
+     , (28663, 8,     0,  0, 0, 0.93, False) /* Create nothing for Treasure */;

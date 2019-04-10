@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29406;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29406, 'knightcaptainramelle1', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (29406, 'knightcaptainramelle1', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29406,   1,         16) /* ItemType - Creature */
@@ -72,7 +72,7 @@ VALUES (29406,   1,   33559125) /* Setup */
      , (29406,   7,  268436907) /* ClothingBase */
      , (29406,   8,  100677371) /* Icon */
      , (29406,  22,  872415269) /* PhysicsEffectTable */
-     , (29406,  35,        448) /* DeathTreasureType */;
+     , (29406,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29406,   1, 330, 0, 0) /* Strength */
@@ -153,11 +153,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29406, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (29406, 9, 29366,  0, 0, 1, False) /* Create Copper Invader Lord Helm (29366) for ContainTreasure */
-     , (29406, 9, 29390,  0, 0, 1, False) /* Create Dispatch to Captain Ramelle (29390) for ContainTreasure */
+VALUES (29406, 9, 29366,  0, 0, 1, False) /* Create Copper Invader Lord Helm (29366) for ContainTreasure */
      , (29406, 9, 29444,  0, 0, 1, False) /* Create Corcima Castle Copper Ward Portal Gem (29444) for ContainTreasure */
-     , (29406, 9, 42518,  0, 0, 0.05, False) /* Create  (42518) for ContainTreasure */
+     , (29406, 9, 29390,  0, 0, 1, False) /* Create Dispatch to Captain Ramelle (29390) for ContainTreasure */
+     , (29406, 9, 42518,  0, 0, 0.05, False) /* Create Coalesced Mana (42518) for ContainTreasure */
+     , (29406, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (29406, 10, 29966,  1, 0, 0.25, False) /* Create Quadrelle (29966) for WieldTreasure */
      , (29406, 10, 29971,  1, 0, 0.25, False) /* Create Partizan (29971) for WieldTreasure */
      , (29406, 10, 29976,  1, 0, 0.25, False) /* Create Spadone (29976) for WieldTreasure */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24907;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24907, 'olthoibroodmatronhivesextreme', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (24907, 'olthoibroodmatronhivesextreme', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24907,   1,         16) /* ItemType - Creature */
@@ -78,7 +78,7 @@ VALUES (24907,   1,   33557165) /* Setup */
      , (24907,  19,         86) /* ActivationAnimation */
      , (24907,  22,  872415379) /* PhysicsEffectTable */
      , (24907,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (24907,  35,        146) /* DeathTreasureType */;
+     , (24907,  35,        146) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24907,   1, 380, 0, 0) /* Strength */

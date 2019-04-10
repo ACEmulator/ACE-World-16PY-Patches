@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27573;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27573, 'olthoiworkerspecial', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (27573, 'olthoiworkerspecial', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27573,   1,         16) /* ItemType - Creature */
@@ -75,7 +75,7 @@ VALUES (27573,   1,   33557164) /* Setup */
      , (27573,   7,  268436196) /* ClothingBase */
      , (27573,   8,  100667623) /* Icon */
      , (27573,  22,  872415265) /* PhysicsEffectTable */
-     , (27573,  35,        451) /* DeathTreasureType */;
+     , (27573,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27573,   1, 265, 0, 0) /* Strength */
@@ -123,5 +123,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27573, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
-     , (27573, 9, 27591,  0, 0, 1, False) /* Create Worker Pincer (27591) for ContainTreasure */;
+VALUES (27573, 9, 27591,  0, 0, 1, False) /* Create Worker Pincer (27591) for ContainTreasure */
+     , (27573, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

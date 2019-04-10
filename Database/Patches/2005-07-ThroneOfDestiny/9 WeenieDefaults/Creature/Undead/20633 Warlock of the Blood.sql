@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20633;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20633, 'zombiemagusgelid_nofall', 10, '2019-03-31 22:38:17') /* Creature */;
+VALUES (20633, 'zombiemagusgelid_nofall', 10, '2019-04-10 01:48:55') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20633,   1,         16) /* ItemType - Creature */
@@ -165,7 +165,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'These magics you use. They are not native. You do not have control of true Heiromancy. Feeble.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20633, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (20633, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (20633, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (20633, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */;
+VALUES (20633, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (20633, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (20633, 9,  7045,  0, 0, 0.03, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
+     , (20633, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

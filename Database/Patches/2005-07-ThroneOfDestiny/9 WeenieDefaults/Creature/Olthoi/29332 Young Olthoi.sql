@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29332;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29332, 'olthoinewbieacademy', 10, '2019-02-12 00:00:00') /* Creature */;
+VALUES (29332, 'olthoinewbieacademy', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29332,   1,         16) /* ItemType - Creature */
@@ -12,13 +12,14 @@ VALUES (29332,   1,         16) /* ItemType - Creature */
      , (29332,   8,       8000) /* Mass */
      , (29332,  16,          1) /* ItemUseable - No */
      , (29332,  25,          2) /* Level */
-     , (29332,  27,          0) /* ArmorType */
+     , (29332,  27,          0) /* ArmorType - None */
      , (29332,  40,          2) /* CombatMode - Melee */
-     , (29332,  68,         13) /* TargetingTactic */
+     , (29332,  67,         64) /* Tolerance - Retaliate */
+     , (29332,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (29332,  72,         35) /* FriendType - OlthoiLarvae */
      , (29332,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29332, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (29332, 140,          1) /* AiOptions */
+     , (29332, 140,          1) /* AiOptions - CanOpenDoors */
      , (29332, 146,          0) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -77,7 +78,7 @@ VALUES (29332,   1,   33557164) /* Setup */
      , (29332,   8,  100667623) /* Icon */
      , (29332,  19,         86) /* ActivationAnimation */
      , (29332,  22,  872415265) /* PhysicsEffectTable */
-     , (29332,  35,         81) /* DeathTreasureType */;
+     , (29332,  35,         81) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29332,   1,  10, 0, 0) /* Strength */
@@ -93,10 +94,10 @@ VALUES (29332,   1,    35, 0, 0, 40) /* MaxHealth */
      , (29332,   5,     0, 0, 0, 10) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29332,  6, 0, 3, 0,  23, 0, 0) /* MeleeDefense        Specialized */
-     , (29332,  7, 0, 3, 0,  76, 0, 0) /* MissileDefense      Specialized */
-     , (29332, 13, 0, 3, 0,  33, 0, 0) /* UnarmedCombat       Specialized */
-     , (29332, 15, 0, 3, 0,  23, 0, 0) /* MagicDefense        Specialized */
+VALUES (29332,  6, 0, 3, 0,  30, 0, 0) /* MeleeDefense        Specialized */
+     , (29332,  7, 0, 3, 0,  80, 0, 0) /* MissileDefense      Specialized */
+     , (29332, 13, 0, 3, 0,  40, 0, 0) /* UnarmedCombat       Specialized */
+     , (29332, 15, 0, 3, 0,  30, 0, 0) /* MagicDefense        Specialized */
      , (29332, 22, 0, 2, 0,   2, 0, 0) /* Jump                Trained */
      , (29332, 24, 0, 2, 0,   2, 0, 0) /* Run                 Trained */;
 
