@@ -8,8 +8,10 @@ VALUES (43353,   1,         16) /* ItemType - Creature */
      , (43353,   2,         22) /* CreatureType - Shadow */
      , (43353,   6,         -1) /* ItemsCapacity */
      , (43353,   7,         -1) /* ContainersCapacity */
+     , (43353,   8,        120) /* Mass */
      , (43353,  16,         32) /* ItemUseable - Remote */
      , (43353,  25,         14) /* Level */
+     , (43353,  27,          0) /* ArmorType - None */
      , (43353,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (43353,  75,          0) /* MerchandiseMinValue */
      , (43353,  76,     100000) /* MerchandiseMaxValue */
