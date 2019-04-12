@@ -8,13 +8,17 @@ VALUES (43352,   1,         16) /* ItemType - Creature */
      , (43352,   2,         22) /* CreatureType - Shadow */
      , (43352,   6,         -1) /* ItemsCapacity */
      , (43352,   7,         -1) /* ContainersCapacity */
+     , (43352,   8,        120) /* Mass */
      , (43352,  16,         32) /* ItemUseable - Remote */
      , (43352,  25,         14) /* Level */
+     , (43352,  27,          0) /* ArmorType - None */
      , (43352,  74,     270464) /* MerchandiseItemTypes - Misc, Writable, PromissoryNote */
      , (43352,  75,          0) /* MerchandiseMinValue */
      , (43352,  76,     100000) /* MerchandiseMaxValue */
      , (43352,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (43352, 113,          2) /* Gender - Female */
+     , (43352, 126,      10000) /* VendorHappyMean */
+     , (43352, 127,       4000) /* VendorHappyVariance */
      , (43352, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (43352, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (43352, 188,         10) /* HeritageGroup - Penumbraen */;
@@ -24,8 +28,12 @@ VALUES (43352,   1, True ) /* Stuck */
      , (43352,  11, True ) /* IgnoreCollisions */
      , (43352,  12, True ) /* ReportCollisions */
      , (43352,  14, True ) /* GravityStatus */
+     , (43352,  19, False) /* Attackable */
      , (43352,  39, True ) /* DealMagicalItems */
-     , (43352,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (43352,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (43352,  50, True ) /* NeverFailCasting */
+     , (43352,  51, True ) /* VendorService */
+     , (43352,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43352,  37,     0.5) /* BuyPrice */

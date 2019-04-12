@@ -175,4 +175,4 @@ VALUES (28827, 9, 28732,  0, 0, 0.01, False) /* Create Aluvian Leg (28732) for C
      , (28827, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (28827, 9, 28731,  0, 0, 0.01, False) /* Create Identification Plate (28731) for ContainTreasure */
      , (28827, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (28827, 9, 28743,  1, 0, 0, False) /* Create Marauder's Jaw (28743) for ContainTreasure */;
+     , (28827, 9, 28743,  1, 0,    1, False) /* Create Marauder's Jaw (28743) for ContainTreasure */;

@@ -1,13 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29503;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29503, 'portalkarlunhallexit', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (29503, 'portalkarlunhallexit', 7, '2019-04-11 01:22:38') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29503,   1,      65536) /* ItemType - Portal */
      , (29503,  16,         32) /* ItemUseable - Remote */
      , (29503,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
-     , (29503,  86,         60) /* MinLevel */
      , (29503,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (29503, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (29503, 133,          4) /* ShowableOnRadar - ShowAlways */;
