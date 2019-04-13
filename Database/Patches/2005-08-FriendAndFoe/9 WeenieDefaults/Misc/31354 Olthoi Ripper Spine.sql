@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31354;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31354, 'ace31354-olthoiripperspine', 1, '2019-03-27 07:14:36') /* Generic */;
+VALUES (31354, 'ace31354-olthoiripperspine', 1, '2019-04-13 09:04:22') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31354,   1,        128) /* ItemType - Misc */
@@ -22,7 +22,8 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31354,  11, True ) /* IgnoreCollisions */
      , (31354,  13, True ) /* Ethereal */
      , (31354,  14, True ) /* GravityStatus */
-     , (31354,  19, True ) /* Attackable */;
+     , (31354,  19, True ) /* Attackable */
+     , (31354,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31354,   1, 'Olthoi Ripper Spine') /* Name */

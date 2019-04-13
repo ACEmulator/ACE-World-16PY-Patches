@@ -162,5 +162,4 @@ VALUES (31361, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) fo
      , (31361, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (31361, 9, 22100,  0, 0, 0.01, False) /* Create Skull Stamp (22100) for ContainTreasure */
      , (31361, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (31361, 9, 31362,  1, 0, 1, True) /* Create Jacob's Axe (31362) for ContainTreasure */
-     , (31361, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;
+     , (31361, 9, 31362,  1, 0,    1, True) /* Create Jacob's Axe (31362) for ContainTreasure */;

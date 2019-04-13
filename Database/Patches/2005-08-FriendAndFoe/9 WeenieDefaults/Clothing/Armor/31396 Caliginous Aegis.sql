@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31396;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31396, 'ace31396-caliginousaegis', 2, '2019-02-04 06:52:23') /* Clothing */;
+VALUES (31396, 'ace31396-caliginousaegis', 2, '2019-04-13 05:36:03') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31396,   1,          2) /* ItemType - Armor */
@@ -12,7 +12,7 @@ VALUES (31396,   1,          2) /* ItemType - Armor */
      , (31396,  28,        440) /* ArmorLevel */
      , (31396,  36,       9999) /* ResistMagic */
      , (31396,  51,          4) /* CombatUse - Shield */
-     , (31396,  52,          3) /* ParentLocation */
+     , (31396,  52,          3) /* ParentLocation - Shield */
      , (31396,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31396, 106,        350) /* ItemSpellcraft */
      , (31396, 107,       3000) /* ItemCurMana */
@@ -45,7 +45,8 @@ VALUES (31396,   5, -0.025000000372529) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31396,   1, 'Caliginous Aegis') /* Name */
-     , (31396,  16, 'A now powerless Aegis taken from the body of Archon Traesis. The Archon''s death has drained the magic absorbing abilities of the Aegis and returned it to what it once was. Perhaps with the right solution, you could restore its original abilities.') /* LongDesc */;
+     , (31396,  16, 'A now powerless Aegis taken from the body of Archon Traesis. The Archon''s death has drained the magic absorbing abilities of the Aegis and returned it to what it once was. Perhaps with the right solution, you could restore its original abilities.') /* LongDesc */
+     , (31396,  33, 'caligaegis') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31396,   1,   33559618) /* Setup */
