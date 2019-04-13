@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31355;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31355, 'ace31355-olthoislashercarapace', 1, '2019-03-27 07:14:36') /* Generic */;
+VALUES (31355, 'ace31355-olthoislashercarapace', 1, '2019-04-13 09:04:22') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31355,   1,        128) /* ItemType - Misc */
@@ -22,7 +22,8 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31355,  11, True ) /* IgnoreCollisions */
      , (31355,  13, True ) /* Ethereal */
      , (31355,  14, True ) /* GravityStatus */
-     , (31355,  19, True ) /* Attackable */;
+     , (31355,  19, True ) /* Attackable */
+     , (31355,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31355,   1, 'Olthoi Slasher Carapace') /* Name */
