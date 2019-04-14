@@ -65,7 +65,7 @@ VALUES (2136313872, 25990, 4116250685, 186.564, 105.419, 20, 0.45742, 0, 0, -0.8
 /* @teleloc 0xF559003D [186.564000 105.419000 20.000000] 0.457420 0.000000 0.000000 -0.889251 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2136313873, 52272, 4116250685, 184.934, 115.53, 20.005, -0.870684, 0, 0, 0.491842, False, '2019-04-14 03:38:31'); /* Royal Guard */
+VALUES (213631389, 52272, 4116250685, 184.934, 115.53, 20.005, -0.870684, 0, 0, 0.491842, False, '2019-04-14 03:38:31'); /* Royal Guard */
 /* @teleloc 0xF559003D [184.934000 115.530000 20.005000] -0.870684 0.000000 0.000000 0.491842 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
