@@ -174,7 +174,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 0, 1, NULL, 'Venture into the swamps near the Sho hovel of Sawato. Look for the hideout of a Sclavus named Ssavish at 23.2 S, 58.3 E. That creature holds the knowledge of certain archives with... useful information. Go to the archives it speaks of, and bring me whatever books you find there.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (31430, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'FinishedGraelsRage', NULL, NULL, NULL);
+VALUES (31431, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'FinishedGraelsRage', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
