@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22863;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22863, 'scrollulgrimrecall', 34, '2005-02-09 10:00:00') /* Scroll */;
+VALUES (22863, 'scrollulgrimrecall', 34, '2019-04-15 00:00:00') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22863,   1,       8192) /* ItemType - Writable */
@@ -30,4 +30,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22863,   1,   33554826) /* Setup */
      , (22863,   8,  100673884) /* Icon */
      , (22863,  22,  872415275) /* PhysicsEffectTable */
-     , (22863,  28,       3856) /* Spell - Ulgrim's Recall */;
+     , (22863,  28,       2941) /* Spell - Ulgrim's Recall */;
