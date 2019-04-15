@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28840;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28840, 'eggpenguincave', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (28840, 'eggpenguincave', 1, '2019-04-15 19:00:54') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28840,   1,        128) /* ItemType - Misc */
@@ -28,7 +28,8 @@ VALUES (28840,  39,       1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28840,   1, 'Cave Penguin Egg') /* Name */
-     , (28840,  16, 'This egg is slightly larger than a normal cave penguin egg. ') /* LongDesc */;
+     , (28840,  16, 'This egg is slightly larger than a normal cave penguin egg. ') /* LongDesc */
+     , (28840,  33, 'cavepenguinegg') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28840,   1,   33559141) /* Setup */
