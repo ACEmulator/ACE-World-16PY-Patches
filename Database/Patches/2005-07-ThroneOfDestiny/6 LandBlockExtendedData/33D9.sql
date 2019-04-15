@@ -85,3 +85,7 @@ VALUES (509, 1933414429, 869859336, 12.1586, 179.951, 52, 0.6581542, 0, 0, -0.75
 /* ContainersChests */
 REPLACE INTO `landblock_instance` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (33612, 1933414430, 869859348, 50, 88, 52, -4.37114E-08, 0, 0, -1, False, '2019-02-19 06:17:23') /* Viamontian Pathwarden Chest */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1933414436, 30036, 869859585, 31.8061, 38.6913, 52.085, 0.985564, 0, 0, -0.169305, False, '2019-04-14 03:38:31'); /* Grocer Jaffres Dini */
+/* @teleloc 0x33D90101 [31.806100 38.691300 52.085000] 0.985564 0.000000 0.000000 -0.169305 */

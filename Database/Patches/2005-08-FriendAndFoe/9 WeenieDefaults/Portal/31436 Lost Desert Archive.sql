@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31436;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31436, 'ace31436-lostdesertarchive', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (31436, 'ace31436-lostdesertarchive', 7, '2019-04-14 23:52:37') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31436,   1,      65536) /* ItemType - Portal */
@@ -26,6 +26,7 @@ VALUES (31436,  54, -0.100000001490116) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31436,   1, 'Lost Desert Archive') /* Name */
      , (31436,  16, 'This dungeon is quest restricted.  Royal scholars in Cragstone or Sanamar might be interested in the secrets it holds.') /* LongDesc */
+     , (31436,  37, 'GraelsRage') /* QuestRestriction */
      , (31436,  38, 'Lost Desert Archive') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
