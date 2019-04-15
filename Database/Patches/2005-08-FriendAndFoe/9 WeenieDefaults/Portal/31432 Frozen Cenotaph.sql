@@ -27,7 +27,7 @@ VALUES (31432,  54, -0.100000001490116) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31432,   1, 'Frozen Cenotaph') /* Name */
      , (31432,  16, 'This dungeon is quest restricted.  Royal scholars in Cragstone or Sanamar might be interested in the secrets it holds.') /* LongDesc */
-     , (31432,  37, 'FrozenCenotaph') /* QuestRestriction */
+     , (31432,  37, 'GraelsRage') /* QuestRestriction */
      , (31432,  38, 'Frozen Cenotaph') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
