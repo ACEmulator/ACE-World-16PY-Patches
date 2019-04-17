@@ -24,7 +24,8 @@ VALUES (70035,   1, True ) /* Stuck */
      , (70035,  14, True ) /* GravityStatus */
      , (70035,  19, False) /* Attackable */
      , (70035,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (70035,  42, True ) /* AllowEdgeSlide */;
+     , (70035,  42, True ) /* AllowEdgeSlide */
+     , (70035,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (70035,  54,       3) /* UseRadius */;
