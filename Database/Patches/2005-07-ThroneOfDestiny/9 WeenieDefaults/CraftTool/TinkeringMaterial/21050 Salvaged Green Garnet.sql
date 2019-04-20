@@ -8,6 +8,7 @@ VALUES (21050,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21050,   3,          2) /* PaletteTemplate - Blue */
      , (21050,   5,        100) /* EncumbranceVal */
      , (21050,   8,        100) /* Mass */
+     , (21050,   9,          0) /* ValidLocations - None */
      , (21050,  11,          1) /* MaxStackSize */
      , (21050,  12,          1) /* StackSize */
      , (21050,  13,        100) /* StackUnitEncumbrance */
@@ -19,11 +20,9 @@ VALUES (21050,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21050,  91,        100) /* MaxStructure */
      , (21050,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21050,  94,      32768) /* TargetType - Caster */
-     , (21050, 105,         10) /* ItemWorkmanship */
      , (21050, 131,         23) /* MaterialType - GreenGarnet */
      , (21050, 150,        103) /* HookPlacement - Hook */
-     , (21050, 151,          9) /* HookType - Floor, Yard */
-     , (21050, 170,         10) /* NumItemsInMaterial */;
+     , (21050, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21050,  22, True ) /* Inscribable */
