@@ -15,7 +15,7 @@ VALUES (1882185731, 28779, 50200836, 57.98064, -17.76502, -47.995, 0.683378, 0, 
 /* @teleloc 0x02FE0104 [57.980640 -17.765020 -47.995000] 0.683378 0.000000 0.000000 -0.730065 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1882185732, 28771, 50200836, 63.34, -21.61, -47.07, 0.75, 0, 0, -0.66, False, '2019-02-15 14:34:36'); /* Ruschk Iceberg Key */
+VALUES (1882185732, 28771, 50200836, 63.34, -21.61, -47.07, 0.75, 0, 0, -0.66, True, '2019-02-15 14:34:36'); /* Ruschk Iceberg Key */
 /* @teleloc 0x02FE0104 [63.340000 -21.610000 -47.070000] 0.750000 0.000000 0.000000 -0.660000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

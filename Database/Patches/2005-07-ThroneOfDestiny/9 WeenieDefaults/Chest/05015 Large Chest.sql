@@ -11,8 +11,8 @@ VALUES (5015,   1,        512) /* ItemType - Container */
      , (5015,   8,       3000) /* Mass */
      , (5015,  16,         48) /* ItemUseable - ViewedRemote */
      , (5015,  19,       3000) /* Value */
-     , (5015,  81,          1) /* MaxGeneratedObjects */
-     , (5015,  82,          1) /* InitGeneratedObjects */
+     , (5015,  81,          2) /* MaxGeneratedObjects */
+     , (5015,  82,          2) /* InitGeneratedObjects */
      , (5015,  83,          2) /* ActivationResponse - Use */
      , (5015,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (5015,  96,        500) /* EncumbranceCapacity */

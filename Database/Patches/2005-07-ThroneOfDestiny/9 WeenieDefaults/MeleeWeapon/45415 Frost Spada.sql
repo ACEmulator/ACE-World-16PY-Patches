@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45415;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45415, 'ace45415-frostspada', 6, '2019-02-04 06:52:23') /* MeleeWeapon */;
+VALUES (45415, 'ace45415-frostspada', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45415,   1,          1) /* ItemType - MeleeWeapon */
@@ -18,10 +18,9 @@ VALUES (45415,   1,          1) /* ItemType - MeleeWeapon */
      , (45415,  48,         45) /* WeaponSkill - LightWeapons */
      , (45415,  49,         30) /* WeaponTime */
      , (45415,  51,          1) /* CombatUse - Melee */
-     , (45415,  53,        101) /* PlacementPosition */
+     , (45415,  53,        101) /* PlacementPosition - Resting */
      , (45415,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45415, 151,          2) /* HookType - Wall */
-     , (45415, 159,         45) /* WieldSkillType - LightWeapons */
      , (45415, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

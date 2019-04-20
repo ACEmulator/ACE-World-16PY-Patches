@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30556;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30556, 'axehatchet', 6, '2019-02-04 06:52:23') /* MeleeWeapon */;
+VALUES (30556, 'axehatchet', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30556,   1,          1) /* ItemType - MeleeWeapon */
@@ -18,11 +18,10 @@ VALUES (30556,   1,          1) /* ItemType - MeleeWeapon */
      , (30556,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (30556,  49,         30) /* WeaponTime */
      , (30556,  51,          1) /* CombatUse - Melee */
-     , (30556,  53,        101) /* PlacementPosition */
+     , (30556,  53,        101) /* PlacementPosition - Resting */
      , (30556,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30556, 150,        103) /* HookPlacement - Hook */
      , (30556, 151,          2) /* HookType - Wall */
-     , (30556, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (30556, 169,  101188618) /* TsysMutationData */
      , (30556, 353,          3) /* WeaponType - Axe */;
 

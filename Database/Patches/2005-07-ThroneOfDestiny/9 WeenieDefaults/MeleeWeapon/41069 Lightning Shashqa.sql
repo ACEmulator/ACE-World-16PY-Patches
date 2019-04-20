@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41069;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41069, 'ace41069-lightningshashqa', 6, '2019-02-04 06:52:23') /* MeleeWeapon */;
+VALUES (41069, 'ace41069-lightningshashqa', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41069,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,6 @@ VALUES (41069,   1,          1) /* ItemType - MeleeWeapon */
      , (41069,  49,         50) /* WeaponTime */
      , (41069,  51,          5) /* CombatUse - TwoHanded */
      , (41069,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41069, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41069, 169,  101255170) /* TsysMutationData */
      , (41069, 292,          2) /* Cleaving */
      , (41069, 353,         11) /* WeaponType - TwoHanded */;

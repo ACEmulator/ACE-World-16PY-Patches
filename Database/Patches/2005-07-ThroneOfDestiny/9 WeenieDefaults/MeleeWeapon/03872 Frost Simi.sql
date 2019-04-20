@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3872;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3872, 'simifrost', 6, '2019-02-04 06:52:23') /* MeleeWeapon */;
+VALUES (3872, 'simifrost', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3872,   1,          1) /* ItemType - MeleeWeapon */
@@ -22,7 +22,6 @@ VALUES (3872,   1,          1) /* ItemType - MeleeWeapon */
      , (3872,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3872, 150,        103) /* HookPlacement - Hook */
      , (3872, 151,          2) /* HookType - Wall */
-     , (3872, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (3872, 169,  101254914) /* TsysMutationData */
      , (3872, 353,          2) /* WeaponType - Sword */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31791;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31791, 'ace31791-flamingstick', 6, '2019-02-04 06:52:23') /* MeleeWeapon */;
+VALUES (31791, 'ace31791-flamingstick', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31791,   1,          1) /* ItemType - MeleeWeapon */
@@ -18,7 +18,7 @@ VALUES (31791,   1,          1) /* ItemType - MeleeWeapon */
      , (31791,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (31791,  49,         30) /* WeaponTime */
      , (31791,  51,          1) /* CombatUse - Melee */
-     , (31791,  53,        101) /* PlacementPosition */
+     , (31791,  53,        101) /* PlacementPosition - Resting */
      , (31791,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31791, 151,          2) /* HookType - Wall */
      , (31791, 353,          7) /* WeaponType - Staff */;
