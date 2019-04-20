@@ -8,6 +8,7 @@ VALUES (20988,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (20988,   3,         14) /* PaletteTemplate - Red */
      , (20988,   5,        100) /* EncumbranceVal */
      , (20988,   8,        100) /* Mass */
+     , (20988,   9,          0) /* ValidLocations - None */
      , (20988,  11,          1) /* MaxStackSize */
      , (20988,  12,          1) /* StackSize */
      , (20988,  13,        100) /* StackUnitEncumbrance */
@@ -16,22 +17,15 @@ VALUES (20988,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (20988,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (20988,  19,         10) /* Value */
      , (20988,  33,          1) /* Bonded - Bonded */
-     , (20988,  53,        101) /* PlacementPosition */
      , (20988,  91,        100) /* MaxStructure */
      , (20988,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20988,  94,        256) /* TargetType - MissileWeapon */
-     , (20988, 105,         27) /* ItemWorkmanship */
      , (20988, 131,         74) /* MaterialType - Mahogany */
      , (20988, 150,        103) /* HookPlacement - Hook */
-     , (20988, 151,          9) /* HookType - Floor, Yard */
-     , (20988, 170,          4) /* NumItemsInMaterial */;
+     , (20988, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20988,  11, True ) /* IgnoreCollisions */
-     , (20988,  13, True ) /* Ethereal */
-     , (20988,  14, True ) /* GravityStatus */
-     , (20988,  19, True ) /* Attackable */
-     , (20988,  22, True ) /* Inscribable */
+VALUES (20988,  22, True ) /* Inscribable */
      , (20988,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
