@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40639;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40639, 'ace40639-frosttetsubo', 6, '2019-02-04 06:52:23') /* MeleeWeapon */;
+VALUES (40639, 'ace40639-frosttetsubo', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40639,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,6 @@ VALUES (40639,   1,          1) /* ItemType - MeleeWeapon */
      , (40639,  49,         50) /* WeaponTime */
      , (40639,  51,          5) /* CombatUse - TwoHanded */
      , (40639,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (40639, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (40639, 169,  101255170) /* TsysMutationData */
      , (40639, 292,          2) /* Cleaving */
      , (40639, 353,         11) /* WeaponType - TwoHanded */;

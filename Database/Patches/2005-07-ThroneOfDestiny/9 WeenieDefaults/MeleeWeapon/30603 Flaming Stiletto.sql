@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30603;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30603, 'daggerstilettofire', 6, '2019-02-04 06:52:23') /* MeleeWeapon */;
+VALUES (30603, 'daggerstilettofire', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30603,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,9 +19,8 @@ VALUES (30603,   1,          1) /* ItemType - MeleeWeapon */
      , (30603,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (30603,  49,         40) /* WeaponTime */
      , (30603,  51,          1) /* CombatUse - Melee */
-     , (30603,  53,        101) /* PlacementPosition */
+     , (30603,  53,        101) /* PlacementPosition - Resting */
      , (30603,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30603, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (30603, 169,  101254146) /* TsysMutationData */
      , (30603, 353,          6) /* WeaponType - Dagger */;
 

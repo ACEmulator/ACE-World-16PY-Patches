@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30947;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30947, 'daggerbanditmageextreme', 6, '2019-02-04 06:52:23') /* MeleeWeapon */;
+VALUES (30947, 'daggerbanditmageextreme', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30947,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,8 +19,8 @@ VALUES (30947,   1,          1) /* ItemType - MeleeWeapon */
      , (30947,  48,          4) /* WeaponSkill - Dagger */
      , (30947,  49,          1) /* WeaponTime */
      , (30947,  51,          1) /* CombatUse - Melee */
-     , (30947,  52,          1) /* ParentLocation */
-     , (30947,  53,          1) /* PlacementPosition */
+     , (30947,  52,          1) /* ParentLocation - RightHand */
+     , (30947,  53,          1) /* PlacementPosition - RightHandCombat */
      , (30947,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30947, 114,          1) /* Attuned - Attuned */
      , (30947, 179,          4) /* ImbuedEffect - ArmorRending */

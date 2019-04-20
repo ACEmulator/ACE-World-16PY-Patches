@@ -1,8 +1,7 @@
-/* Weenie - MeleeWeapons - Knife (40734) */
-DELETE FROM weenie WHERE class_Id = 40734;
+DELETE FROM `weenie` WHERE `class_Id` = 40734;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40734, 'knifenew', 6, '2019-02-04 06:52:23') /* MeleeWeapon */;
+VALUES (40734, 'knifenew', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40734,   1,          1) /* ItemType - MeleeWeapon */
@@ -12,24 +11,24 @@ VALUES (40734,   1,          1) /* ItemType - MeleeWeapon */
      , (40734,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (40734,  16,          1) /* ItemUseable - No */
      , (40734,  19,         30) /* Value */
-     , (40734,  33,          0) /* Bonded - Not Bonded */
+     , (40734,  33,          0) /* Bonded - Normal */
      , (40734,  44,          4) /* Damage */
      , (40734,  45,          3) /* DamageType - Slash, Pierce */
      , (40734,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (40734,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
-     , (40734,  48,         46) /* WeaponSkill - Finesse */
+     , (40734,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (40734,  49,         10) /* WeaponTime */
      , (40734,  51,          1) /* CombatUse - Melee */
      , (40734,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (40734, 114,          0) /* Attuned */
+     , (40734, 114,          0) /* Attuned - Normal */
      , (40734, 150,        103) /* HookPlacement - Hook */
      , (40734, 151,          2) /* HookType - Wall */
      , (40734, 169,  101188610) /* TsysMutationData */
-	 , (40734, 353,          6) /* WeaponType - Dagger */;
+     , (40734, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40734,  22, True  ) /* Inscribable */
-     , (40734,  99, False ) /* Ivoryable */;
+VALUES (40734,  22, True ) /* Inscribable */
+     , (40734,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40734,  21,     0.3) /* WeaponLength */

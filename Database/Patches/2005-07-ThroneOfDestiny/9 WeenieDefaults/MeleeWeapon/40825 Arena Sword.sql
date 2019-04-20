@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40825;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40825, 'ace40825-arenasword', 6, '2019-02-04 06:52:23') /* MeleeWeapon */;
+VALUES (40825, 'ace40825-arenasword', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40825,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,7 @@ VALUES (40825,   1,          1) /* ItemType - MeleeWeapon */
      , (40825,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (40825,  49,          0) /* WeaponTime */
      , (40825,  51,          1) /* CombatUse - Melee */
-     , (40825,  53,        101) /* PlacementPosition */
+     , (40825,  53,        101) /* PlacementPosition - Resting */
      , (40825,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40825, 106,        300) /* ItemSpellcraft */
      , (40825, 107,        800) /* ItemCurMana */
@@ -28,7 +28,6 @@ VALUES (40825,   1,          1) /* ItemType - MeleeWeapon */
      , (40825, 150,        103) /* HookPlacement - Hook */
      , (40825, 151,          2) /* HookType - Wall */
      , (40825, 158,          2) /* WieldRequirements - RawSkill */
-     , (40825, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (40825, 160,        325) /* WieldDifficulty */
      , (40825, 166,         31) /* SlayerCreatureType - Human */
      , (40825, 267,        300) /* Lifespan */
