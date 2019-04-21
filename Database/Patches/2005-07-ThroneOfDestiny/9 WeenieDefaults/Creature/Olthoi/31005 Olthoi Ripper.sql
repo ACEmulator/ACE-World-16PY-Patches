@@ -41,7 +41,6 @@ VALUES (31005,   1,       5) /* HeartbeatInterval */
      , (31005,  31,      24) /* VisualAwarenessRange */
      , (31005,  34,     0.5) /* PowerupTime */
      , (31005,  36,       1) /* ChargeSpeed */
-     , (31005,  41,     300) /* RegenerationInterval */
      , (31005,  43,       1) /* GeneratorRadius */
      , (31005,  64,    0.75) /* ResistSlash */
      , (31005,  65,       1) /* ResistPierce */
