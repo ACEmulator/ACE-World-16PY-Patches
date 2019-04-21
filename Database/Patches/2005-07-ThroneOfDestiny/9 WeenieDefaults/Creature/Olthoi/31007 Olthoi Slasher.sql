@@ -13,6 +13,7 @@ VALUES (31007,   1,         16) /* ItemType - Creature */
      , (31007,  25,        185) /* Level */
      , (31007,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (31007, 133,          2) /* ShowableOnRadar - ShowMovement */
+	 , (31007, 140,          1) /* AiOptions */
      , (31007, 146,     800000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
