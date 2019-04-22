@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46097;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46097, 'ace46097-minorsparkingatlansword', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46097, 'ace46097-minorsparkingatlansword', 6, '2019-04-22 04:33:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46097,   1,          1) /* ItemType - MeleeWeapon */
+     , (46097,   3,         82) /* PaletteTemplate - PinkPurple */
      , (46097,   5,        600) /* EncumbranceVal */
      , (46097,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (46097,  16,          1) /* ItemUseable - No */
@@ -18,7 +19,7 @@ VALUES (46097,   1,          1) /* ItemType - MeleeWeapon */
      , (46097,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (46097,  49,         35) /* WeaponTime */
      , (46097,  51,          1) /* CombatUse - Melee */
-     , (46097,  52,          1) /* ParentLocation */
+     , (46097,  52,          1) /* ParentLocation - RightHand */
      , (46097,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46097, 106,        300) /* ItemSpellcraft */
      , (46097, 107,        750) /* ItemCurMana */
@@ -55,8 +56,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46097,   1,   33556376) /* Setup */
      , (46097,   3,  536870932) /* SoundTable */
      , (46097,   6,   67111919) /* PaletteBase */
+     , (46097,   7,  268435955) /* ClothingBase */
      , (46097,   8,  100670571) /* Icon */
-     , (46097,  22,  872415275) /* PhysicsEffectTable */;
+     , (46097,  22,  872415275) /* PhysicsEffectTable */
+	 , (46097,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46097,  1071,      2)  /* Lightning Protection Self VI */

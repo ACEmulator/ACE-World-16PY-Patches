@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46112;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46112, 'ace46112-blackfiresparkingatlantwohandedsword', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46112, 'ace46112-blackfiresparkingatlantwohandedsword', 6, '2019-04-22 04:33:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46112,   1,          1) /* ItemType - MeleeWeapon */
+     , (46112,   3,         82) /* PaletteTemplate - PinkPurple */
      , (46112,   5,        700) /* EncumbranceVal */
      , (46112,   9,   33554432) /* ValidLocations - TwoHanded */
      , (46112,  16,          1) /* ItemUseable - No */
@@ -18,8 +19,8 @@ VALUES (46112,   1,          1) /* ItemType - MeleeWeapon */
      , (46112,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46112,  49,         50) /* WeaponTime */
      , (46112,  51,          5) /* CombatUse - TwoHanded */
-     , (46112,  52,          1) /* ParentLocation */
-     , (46112,  53,          1) /* PlacementPosition */
+     , (46112,  52,          1) /* ParentLocation - RightHand */
+     , (46112,  53,          1) /* PlacementPosition - RightHandCombat */
      , (46112,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46112, 106,        325) /* ItemSpellcraft */
      , (46112, 107,        400) /* ItemCurMana */
@@ -61,8 +62,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46112,   1,   33556376) /* Setup */
      , (46112,   3,  536870932) /* SoundTable */
      , (46112,   6,   67111919) /* PaletteBase */
+     , (46112,   7,  268435955) /* ClothingBase */
      , (46112,   8,  100692940) /* Icon */
-     , (46112,  22,  872415275) /* PhysicsEffectTable */;
+     , (46112,  22,  872415275) /* PhysicsEffectTable */
+	 , (46112,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46112,  2061,      2)  /* Perseverance */

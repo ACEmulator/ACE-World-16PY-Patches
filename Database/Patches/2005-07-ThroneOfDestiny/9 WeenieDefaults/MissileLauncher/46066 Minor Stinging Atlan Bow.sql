@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46066;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46066, 'ace46066-minorstingingatlanbow', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (46066, 'ace46066-minorstingingatlanbow', 3, '2019-04-22 03:43:49') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46066,   1,        256) /* ItemType - MissileWeapon */
+     , (46066,   3,          8) /* PaletteTemplate - Green */
      , (46066,   5,        980) /* EncumbranceVal */
      , (46066,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (46066,  16,          1) /* ItemUseable - No */
@@ -18,7 +19,7 @@ VALUES (46066,   1,        256) /* ItemType - MissileWeapon */
      , (46066,  49,         45) /* WeaponTime */
      , (46066,  50,          1) /* AmmoType - Arrow */
      , (46066,  51,          2) /* CombatUse - Missle */
-     , (46066,  52,          2) /* ParentLocation */
+     , (46066,  52,          2) /* ParentLocation - LeftHand */
      , (46066,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46066, 106,        275) /* ItemSpellcraft */
      , (46066, 107,        400) /* ItemCurMana */
@@ -58,8 +59,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46066,   1,   33557754) /* Setup */
      , (46066,   3,  536870932) /* SoundTable */
      , (46066,   6,   67111919) /* PaletteBase */
+     , (46066,   7,  268437562) /* ClothingBase */
      , (46066,   8,  100673015) /* Icon */
-     , (46066,  22,  872415275) /* PhysicsEffectTable */;
+     , (46066,  22,  872415275) /* PhysicsEffectTable */
+	 , (46066,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46066,   520,      2)  /* Acid Protection Self VI */

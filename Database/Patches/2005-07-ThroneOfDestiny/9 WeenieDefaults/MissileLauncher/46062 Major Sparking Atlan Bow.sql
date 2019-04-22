@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46062;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46062, 'ace46062-majorsparkingatlanbow', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (46062, 'ace46062-majorsparkingatlanbow', 3, '2019-04-22 03:43:49') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46062,   1,        256) /* ItemType - MissileWeapon */
+     , (46062,   3,         82) /* PaletteTemplate - PinkPurple */
      , (46062,   5,        980) /* EncumbranceVal */
      , (46062,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (46062,  16,          1) /* ItemUseable - No */
@@ -18,7 +19,7 @@ VALUES (46062,   1,        256) /* ItemType - MissileWeapon */
      , (46062,  49,         45) /* WeaponTime */
      , (46062,  50,          1) /* AmmoType - Arrow */
      , (46062,  51,          2) /* CombatUse - Missle */
-     , (46062,  52,          2) /* ParentLocation */
+     , (46062,  52,          2) /* ParentLocation - LeftHand */
      , (46062,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46062, 106,        300) /* ItemSpellcraft */
      , (46062, 107,        400) /* ItemCurMana */
@@ -43,6 +44,7 @@ VALUES (46062,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46062,   5, -0.025000000372529) /* ManaRate */
+     , (46062,  12,       0) /* Shade */
      , (46062,  26, 27.2999992370605) /* MaximumVelocity */
      , (46062,  29, 1.10000002384186) /* WeaponDefense */
      , (46062,  39, 1.10000002384186) /* DefaultScale */
@@ -58,8 +60,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46062,   1,   33557757) /* Setup */
      , (46062,   3,  536870932) /* SoundTable */
      , (46062,   6,   67111919) /* PaletteBase */
+     , (46062,   7,  268437562) /* ClothingBase */
      , (46062,   8,  100673012) /* Icon */
-     , (46062,  22,  872415275) /* PhysicsEffectTable */;
+     , (46062,  22,  872415275) /* PhysicsEffectTable */
+	 , (46062,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46062,  2061,      2)  /* Perseverance */

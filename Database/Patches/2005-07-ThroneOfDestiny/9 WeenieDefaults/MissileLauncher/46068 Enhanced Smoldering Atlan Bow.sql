@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46068;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46068, 'enhancedsmolderingatlanbow', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (46068, 'ace46068-enhancedsmolderingatlanbow', 3, '2019-04-22 03:43:49') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46068,   1,        256) /* ItemType - MissileWeapon */
+     , (46068,   3,         14) /* PaletteTemplate - Red */
      , (46068,   5,        980) /* EncumbranceVal */
      , (46068,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (46068,  16,          1) /* ItemUseable - No */
@@ -43,6 +44,7 @@ VALUES (46068,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46068,   5, -0.025000000372529) /* ManaRate */
+     , (46068,  12,       0) /* Shade */
      , (46068,  21,       0) /* WeaponLength */
      , (46068,  26, 27.2999992370605) /* MaximumVelocity */
      , (46068,  29, 1.13999998569489) /* WeaponDefense */
@@ -59,8 +61,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46068,   1,   33557759) /* Setup */
      , (46068,   3,  536870932) /* SoundTable */
      , (46068,   6,   67111919) /* PaletteBase */
+     , (46068,   7,  268437562) /* ClothingBase */
      , (46068,   8,  100673016) /* Icon */
-     , (46068,  22,  872415275) /* PhysicsEffectTable */;
+     , (46068,  22,  872415275) /* PhysicsEffectTable */
+	 , (46068,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46068,  2087,      2)  /* Might of the Lugians */

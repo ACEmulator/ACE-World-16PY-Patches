@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46103;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46103, 'ace46103-enhancedsparkingatlansword', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46103, 'ace46103-enhancedsparkingatlansword', 6, '2019-04-22 04:33:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46103,   1,          1) /* ItemType - MeleeWeapon */
+     , (46103,   3,         82) /* PaletteTemplate - PinkPurple */
      , (46103,   5,        450) /* EncumbranceVal */
      , (46103,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (46103,  16,          1) /* ItemUseable - No */
@@ -41,6 +42,7 @@ VALUES (46103,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46103,   5, -0.0329999998211861) /* ManaRate */
+     , (46103,  12,       0) /* Shade */
      , (46103,  22, 0.430000007152557) /* DamageVariance */
      , (46103,  29, 1.13999998569489) /* WeaponDefense */
      , (46103,  62, 1.13999998569489) /* WeaponOffense */
@@ -54,8 +56,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46103,   1,   33556376) /* Setup */
      , (46103,   3,  536870932) /* SoundTable */
      , (46103,   6,   67111919) /* PaletteBase */
+     , (46103,   7,  268435955) /* ClothingBase */
      , (46103,   8,  100670571) /* Icon */
-     , (46103,  22,  872415275) /* PhysicsEffectTable */;
+     , (46103,  22,  872415275) /* PhysicsEffectTable */
+	 , (46103,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46103,  2061,      2)  /* Perseverance */

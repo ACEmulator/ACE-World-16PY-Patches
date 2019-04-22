@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46088;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46088, 'ace46088-atlansword', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46088, 'ace46088-atlansword', 6, '2019-04-22 04:33:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46088,   1,          1) /* ItemType - MeleeWeapon */
+     , (46088,   3,         39) /* PaletteTemplate - Black */
      , (46088,   5,        450) /* EncumbranceVal */
      , (46088,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (46088,  16,          1) /* ItemUseable - No */
@@ -17,7 +18,7 @@ VALUES (46088,   1,          1) /* ItemType - MeleeWeapon */
      , (46088,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (46088,  49,         35) /* WeaponTime */
      , (46088,  51,          1) /* CombatUse - Melee */
-     , (46088,  52,          1) /* ParentLocation */
+     , (46088,  52,          1) /* ParentLocation - RightHand */
      , (46088,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46088, 151,          2) /* HookType - Wall */;
 
@@ -30,7 +31,8 @@ VALUES (46088,  11, True ) /* IgnoreCollisions */
      , (46088,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46088,  21,       0) /* WeaponLength */
+VALUES (46088,  12,       0) /* Shade */
+     , (46088,  21,       0) /* WeaponLength */
      , (46088,  22, 0.430000007152557) /* DamageVariance */
      , (46088,  26,       0) /* MaximumVelocity */
      , (46088,  29, 1.08000004291534) /* WeaponDefense */
@@ -45,5 +47,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46088,   1,   33556262) /* Setup */
      , (46088,   3,  536870932) /* SoundTable */
      , (46088,   6,   67111919) /* PaletteBase */
+     , (46088,   7,  268435874) /* ClothingBase */
      , (46088,   8,  100670569) /* Icon */
-     , (46088,  22,  872415275) /* PhysicsEffectTable */;
+     , (46088,  22,  872415275) /* PhysicsEffectTable */
+	 , (46088,  52,  100667851) /* IconUnderlay */;

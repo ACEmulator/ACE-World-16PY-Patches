@@ -1,12 +1,11 @@
-/* Weenie - MissileWeapons - Enhanced Shivering Atlan Bow (46067) */
 DELETE FROM weenie WHERE class_Id = 46067;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46067, 'enhancedshiveringatlanbow', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (46067, 'ace46067-enhancedshiveringatlanbow', 3, '2019-04-22 03:33:15') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46067,   1,        256) /* ItemType - MissileWeapon */
-     , (46067,   3,          2) /* PaletteTemplate - Sky Blue */
+     , (46067,   3,          2) /* PaletteTemplate - Blue */
      , (46067,   5,        980) /* EncumbranceVal */
      , (46067,   8,        700) /* Mass */
      , (46067,   9,    4194304) /* ValidLocations - MissileWeapon */
@@ -37,8 +36,7 @@ VALUES (46067,   1,        256) /* ItemType - MissileWeapon */
      , (46067, 159,         47) /* WieldSkilltype - Missile Weapons */
      , (46067, 160,        360) /* WieldDifficulty */
      , (46067, 204,         11) /* ElementalDamageBonus */
-     , (46067, 263,          8) /* ResistanceModifierType - Cold */
-	 , (46067, 353,          8) /* WeaponType - Bow */;
+     , (46067, 263,          8) /* ResistanceModifierType - Cold */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46067,  22, True ) /* Inscribable */
@@ -64,10 +62,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46067,   1,   33557752) /* Setup */
      , (46067,   3,  536870932) /* SoundTable */
      , (46067,   6,   67111919) /* PaletteBase */
-     , (46067,   7,  268436394) /* ClothingBase */
+     , (46067,   7,  268437562) /* ClothingBase */
      , (46067,   8,  100673009) /* Icon */
      , (46067,  22,  872415275) /* PhysicsEffectTable */
-     , (46067,  37,          2) /* ItemSkillLimit */;
+	 , (46067,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46067,  2155,      2)  /* Icy Blessing */

@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46044;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46044, 'ace46044-blackfiresparkingatlanaxe', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46044, 'ace46044-blackfiresparkingatlanaxe', 6, '2019-04-22 04:33:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46044,   1,          1) /* ItemType - MeleeWeapon */
+     , (46044,   3,         82) /* PaletteTemplate - PinkPurple */
      , (46044,   5,        800) /* EncumbranceVal */
      , (46044,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (46044,  16,          1) /* ItemUseable - No */
@@ -18,7 +19,7 @@ VALUES (46044,   1,          1) /* ItemType - MeleeWeapon */
      , (46044,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (46044,  49,         55) /* WeaponTime */
      , (46044,  51,          1) /* CombatUse - Melee */
-     , (46044,  52,          1) /* ParentLocation */
+     , (46044,  52,          1) /* ParentLocation - RightHand */
      , (46044,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46044, 106,        325) /* ItemSpellcraft */
      , (46044, 107,        750) /* ItemCurMana */
@@ -55,8 +56,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46044,   1,   33556352) /* Setup */
      , (46044,   3,  536870932) /* SoundTable */
      , (46044,   6,   67111919) /* PaletteBase */
+     , (46044,   7,  268435931) /* ClothingBase */
      , (46044,   8,  100670511) /* Icon */
-     , (46044,  22,  872415275) /* PhysicsEffectTable */;
+     , (46044,  22,  872415275) /* PhysicsEffectTable */
+	 , (46044,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46044,  2061,      2)  /* Perseverance */

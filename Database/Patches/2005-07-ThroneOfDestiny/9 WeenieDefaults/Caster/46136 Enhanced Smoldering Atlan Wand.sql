@@ -1,8 +1,7 @@
-/* Weenie - Casters - Enhanced Smoldering Atlan Wand (46136) */
 DELETE FROM weenie WHERE class_Id = 46136;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46136, 'enhancedsmolderingatlanwand', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (46136, 'ace46136-enhancedsmolderingatlanwand', 35, '2019-04-22 03:43:49') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46136,   1,      32768) /* ItemType - Caster */
@@ -52,9 +51,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46136,   1,   33557788) /* Setup */
      , (46136,   3,  536870932) /* SoundTable */
      , (46136,   6,   67111919) /* PaletteBase */
-     , (46136,   7,  268436395) /* ClothingBase */
+     , (46136,   7,  268437561) /* ClothingBase */
      , (46136,   8,  100672996) /* Icon */
-     , (46136,  22,  872415275) /* PhysicsEffectTable */;
+     , (46136,  22,  872415275) /* PhysicsEffectTable */
+	 , (46136,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46136,  2287,      2)  /* Major War Magic Aptitude*/

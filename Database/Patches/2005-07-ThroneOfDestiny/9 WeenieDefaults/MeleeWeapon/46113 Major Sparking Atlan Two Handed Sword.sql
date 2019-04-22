@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46113;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46113, 'ace46113-majorsparkingatlantwohandedsword', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46113, 'ace46113-majorsparkingatlantwohandedsword', 6, '2019-04-22 04:33:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46113,   1,          1) /* ItemType - MeleeWeapon */
+     , (46113,   3,         82) /* PaletteTemplate - PinkPurple */
      , (46113,   5,        700) /* EncumbranceVal */
      , (46113,   9,   33554432) /* ValidLocations - TwoHanded */
      , (46113,  16,          1) /* ItemUseable - No */
@@ -18,8 +19,8 @@ VALUES (46113,   1,          1) /* ItemType - MeleeWeapon */
      , (46113,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46113,  49,         50) /* WeaponTime */
      , (46113,  51,          5) /* CombatUse - TwoHanded */
-     , (46113,  52,          1) /* ParentLocation */
-     , (46113,  53,          1) /* PlacementPosition */
+     , (46113,  52,          1) /* ParentLocation - RightHand */
+     , (46113,  53,          1) /* PlacementPosition - RightHandCombat */
      , (46113,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46113, 106,        300) /* ItemSpellcraft */
      , (46113, 107,        400) /* ItemCurMana */
@@ -61,8 +62,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46113,   1,   33556376) /* Setup */
      , (46113,   3,  536870932) /* SoundTable */
      , (46113,   6,   67111919) /* PaletteBase */
+     , (46113,   7,  268435955) /* ClothingBase */
      , (46113,   8,  100692940) /* Icon */
-     , (46113,  22,  872415275) /* PhysicsEffectTable */;
+     , (46113,  22,  872415275) /* PhysicsEffectTable */
+	 , (46113,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46113,  2061,      2)  /* Perseverance */

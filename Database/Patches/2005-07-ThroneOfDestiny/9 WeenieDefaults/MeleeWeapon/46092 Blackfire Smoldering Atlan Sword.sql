@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46092;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46092, 'ace46092-blackfiresmolderingatlansword', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46092, 'ace46092-blackfiresmolderingatlansword', 6, '2019-04-22 04:33:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46092,   1,          1) /* ItemType - MeleeWeapon */
+     , (46092,   3,         14) /* PaletteTemplate - Red */
      , (46092,   5,        450) /* EncumbranceVal */
      , (46092,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (46092,  16,          1) /* ItemUseable - No */
@@ -41,6 +42,7 @@ VALUES (46092,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46092,   5, -0.0329999998211861) /* ManaRate */
+     , (46092,  12,       0) /* Shade */
      , (46092,  22, 0.430000007152557) /* DamageVariance */
      , (46092,  29, 1.12000000476837) /* WeaponDefense */
      , (46092,  62, 1.12000000476837) /* WeaponOffense */
@@ -54,8 +56,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46092,   1,   33556377) /* Setup */
      , (46092,   3,  536870932) /* SoundTable */
      , (46092,   6,   67111919) /* PaletteBase */
+     , (46092,   7,  268435956) /* ClothingBase */
      , (46092,   8,  100670575) /* Icon */
-     , (46092,  22,  872415275) /* PhysicsEffectTable */;
+     , (46092,  22,  872415275) /* PhysicsEffectTable */
+	 , (46092,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46092,  2087,      2)  /* Might of the Lugians */
