@@ -1,8 +1,7 @@
-/* Weenie - Casters - Enhanced Stinging Atlan Wand (46138) */
 DELETE FROM weenie WHERE class_Id = 46138;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46138, 'enhancedstingingatlanwand', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (46138, 'ace46138-enhancedstingingatlanwand', 35, '2019-04-22 03:43:49') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46138,   1,      32768) /* ItemType - Caster */
@@ -54,7 +53,8 @@ VALUES (46138,   1,   33557783) /* Setup */
      , (46138,   6,   67111919) /* PaletteBase */
      , (46138,   7,  268436395) /* ClothingBase */
      , (46138,   8,  100672995) /* Icon */
-     , (46138,  22,  872415275) /* PhysicsEffectTable */;
+     , (46138,  22,  872415275) /* PhysicsEffectTable */
+	 , (46138,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46138,  2287,      2)  /* Major War Magic Aptitude*/

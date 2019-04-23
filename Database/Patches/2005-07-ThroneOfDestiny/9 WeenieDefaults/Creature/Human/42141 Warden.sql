@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42141;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42141, 'ace42141-warden', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (42141, 'ace42141-warden', 10, '2019-04-23 00:59:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42141,   1,         16) /* ItemType - Creature */
@@ -120,9 +120,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  6,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 550000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42141, 2,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for Wield */
-     , (42141, 2,    77,  0, 0, 0, False) /* Create Kabuton (77) for Wield */
-     , (42141, 2,   107,  0, 0, 0, False) /* Create Sollerets (107) for Wield */
-     , (42141, 2,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for Wield */
-     , (42141, 2,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for Wield */
-     , (42141, 2,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for Wield */;
+VALUES (42141, 2,  6003,  0, 20, 0.0139, False) /* Create Koujia Breastplate (6003) for Wield */
+     , (42141, 2,  6004,  0, 20, 0.0139, False) /* Create Koujia Leggings (6004) for Wield */
+     , (42141, 2,  6005,  0, 9, 0.0139, False) /* Create Koujia Sleeves (6005) for Wield */
+     , (42141, 2,   107,  0, 20, 0.0139, False) /* Create Sollerets (107) for Wield */
+     , (42141, 2,    55,  0, 20, 0.0139, False) /* Create Chainmail Gauntlets (55) for Wield */
+     , (42141, 2,    77,  0, 20, 0.0139, False) /* Create Kabuton (77) for Wield */;

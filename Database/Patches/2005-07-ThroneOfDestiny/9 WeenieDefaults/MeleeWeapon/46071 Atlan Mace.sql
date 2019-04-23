@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46071;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46071, 'ace46071-atlanmace', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46071, 'ace46071-atlanmace', 6, '2019-04-22 04:33:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46071,   1,          1) /* ItemType - MeleeWeapon */
+     , (46071,   3,         39) /* PaletteTemplate - Black */
      , (46071,   5,        600) /* EncumbranceVal */
      , (46071,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (46071,  16,          1) /* ItemUseable - No */
@@ -29,7 +30,8 @@ VALUES (46071,  11, True ) /* IgnoreCollisions */
      , (46071,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46071,  22, 0.449999988079071) /* DamageVariance */
+VALUES (46071,  12,       0) /* Shade */
+     , (46071,  22, 0.449999988079071) /* DamageVariance */
      , (46071,  29, 1.08000004291534) /* WeaponDefense */
      , (46071,  62, 1.08000004291534) /* WeaponOffense */;
 
@@ -41,5 +43,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46071,   1,   33556259) /* Setup */
      , (46071,   3,  536870932) /* SoundTable */
      , (46071,   6,   67111919) /* PaletteBase */
+     , (46071,   7,  268435878) /* ClothingBase */
      , (46071,   8,  100670539) /* Icon */
-     , (46071,  22,  872415275) /* PhysicsEffectTable */;
+     , (46071,  22,  872415275) /* PhysicsEffectTable */
+	 , (46071,  52,  100667851) /* IconUnderlay */;

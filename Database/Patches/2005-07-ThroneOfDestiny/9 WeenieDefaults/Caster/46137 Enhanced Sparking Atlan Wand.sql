@@ -1,12 +1,11 @@
-/* Weenie - Casters - Enhanced Sparking Atlan Wand (46137) */
 DELETE FROM weenie WHERE class_Id = 46137;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46137, 'enhancedsparkingatlanwand', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (46137, 'ace46137-enhancedsparkingatlanwand', 35, '2019-04-22 03:43:49') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46137,   1,      32768) /* ItemType - Caster */
-     , (46137,   3,         13) /* PaletteTemplate - Purple */
+     , (46137,   3,         82) /* PaletteTemplate - PinkPurple */
      , (46137,   5,        150) /* EncumbranceVal */
      , (46137,   8,         10) /* Mass */
      , (46137,   9,   16777216) /* ValidLocations - Held */
@@ -54,7 +53,8 @@ VALUES (46137,   1,   33557786) /* Setup */
      , (46137,   6,   67111919) /* PaletteBase */
      , (46137,   7,  268436395) /* ClothingBase */
      , (46137,   8,  100672992) /* Icon */
-     , (46137,  22,  872415275) /* PhysicsEffectTable */;
+     , (46137,  22,  872415275) /* PhysicsEffectTable */
+	 , (46137,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46137,  2287,      2)  /* Major War Magic Aptitude*/

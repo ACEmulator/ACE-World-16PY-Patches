@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46059;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46059, 'ace46059-majorsmolderingatlanbow', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (46059, 'ace46059-majorsmolderingatlanbow', 3, '2019-04-22 03:43:49') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46059,   1,        256) /* ItemType - MissileWeapon */
+     , (46059,   3,         14) /* PaletteTemplate - Red */
      , (46059,   5,        980) /* EncumbranceVal */
      , (46059,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (46059,  16,          1) /* ItemUseable - No */
@@ -18,7 +19,7 @@ VALUES (46059,   1,        256) /* ItemType - MissileWeapon */
      , (46059,  49,         45) /* WeaponTime */
      , (46059,  50,          1) /* AmmoType - Arrow */
      , (46059,  51,          2) /* CombatUse - Missle */
-     , (46059,  52,          2) /* ParentLocation */
+     , (46059,  52,          2) /* ParentLocation - LeftHand */
      , (46059,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46059, 106,        300) /* ItemSpellcraft */
      , (46059, 107,        400) /* ItemCurMana */
@@ -43,6 +44,7 @@ VALUES (46059,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46059,   5, -0.025000000372529) /* ManaRate */
+     , (46059,  12,       0) /* Shade */
      , (46059,  26, 27.2999992370605) /* MaximumVelocity */
      , (46059,  29, 1.10000002384186) /* WeaponDefense */
      , (46059,  39, 1.10000002384186) /* DefaultScale */
@@ -58,8 +60,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46059,   1,   33557759) /* Setup */
      , (46059,   3,  536870932) /* SoundTable */
      , (46059,   6,   67111919) /* PaletteBase */
+     , (46059,   7,  268437562) /* ClothingBase */
      , (46059,   8,  100673016) /* Icon */
-     , (46059,  22,  872415275) /* PhysicsEffectTable */;
+     , (46059,  22,  872415275) /* PhysicsEffectTable */
+	 , (46059,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46059,  2087,      2)  /* Might of the Lugians */
