@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42110;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42110, 'ace42110-warden', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (42110, 'ace42110-warden', 10, '2019-04-23 00:59:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42110,   1,         16) /* ItemType - Creature */
@@ -120,10 +120,10 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2850000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42110, 2, 27226,  0, 20, 0, False) /* Create Nariyid Boots (27226) for Wield */
-     , (42110, 2, 27227,  0, 20, 0, False) /* Create Nariyid Breastplate (27227) for Wield */
-     , (42110, 2, 27228,  0, 20, 0, False) /* Create Nariyid Gauntlets (27228) for Wield */
-     , (42110, 2, 27229,  0, 20, 0, False) /* Create Nariyid Girth (27229) for Wield */
-     , (42110, 2, 27230,  0, 20, 0, False) /* Create Nariyid Helm (27230) for Wield */
-     , (42110, 2, 27231,  0, 20, 0, False) /* Create Nariyid Leggings (27231) for Wield */
-     , (42110, 2, 27232,  0, 20, 0, False) /* Create Nariyid Sleeves (27232) for Wield */;
+VALUES (42110, 2, 27226,  0, 20, 0.1, False) /* Create Nariyid Boots (27226) for Wield */
+     , (42110, 2, 27227,  0, 20, 0.1, False) /* Create Nariyid Breastplate (27227) for Wield */
+     , (42110, 2, 27228,  0, 20, 0.1, False) /* Create Nariyid Gauntlets (27228) for Wield */
+     , (42110, 2, 27229,  0, 20, 0.1, False) /* Create Nariyid Girth (27229) for Wield */
+     , (42110, 2, 27230,  0, 20, 0.1, False) /* Create Nariyid Helm (27230) for Wield */
+     , (42110, 2, 27231,  0, 20, 0.1, False) /* Create Nariyid Leggings (27231) for Wield */
+     , (42110, 2, 27232,  0, 20, 0.1, False) /* Create Nariyid Sleeves (27232) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42128;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42128, 'ace42128-warden', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (42128, 'ace42128-warden', 10, '2019-04-23 00:59:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42128,   1,         16) /* ItemType - Creature */
@@ -121,13 +121,12 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2850000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42128, 2,   127,  0, 2, 0, False) /* Create Pants (127) for Wield */
-     , (42128, 2,   130,  0, 2, 1, False) /* Create Shirt (130) for Wield */
-     , (42128, 2,  2606,  0, 2, 0.8, False) /* Create Boots (2606) for Wield */
-     , (42128, 2, 24945,  0, 0, 0, False) /* Create Antius' Celdon Breastplate (24945) for Wield */
-     , (42128, 2, 24946,  0, 0, 0, False) /* Create Antius' Celdon Gauntlets (24946) for Wield */
-     , (42128, 2, 24947,  0, 0, 0, False) /* Create Antius' Celdon Girth (24947) for Wield */
-     , (42128, 2, 24948,  0, 0, 0, False) /* Create Antius' Celdon Helm (24948) for Wield */
-     , (42128, 2, 24949,  0, 0, 0, False) /* Create Antius' Celdon Leggings (24949) for Wield */
-     , (42128, 2, 24950,  0, 0, 0, False) /* Create Antius' Celdon Sollerets (24950) for Wield */
-     , (42128, 2, 24956,  0, 0, 0, False) /* Create Antius' Celdon Sleeves (24956) for Wield */;
+VALUES (42128, 2,  2606,  0, 2, 0.8, False) /* Create Boots (2606) for Wield */
+     , (42128, 2, 24945,  0, 20, 0.0135, False) /* Create Antius' Celdon Breastplate (24945) for Wield */
+     , (42128, 2, 24946,  0, 20, 0.0135, False) /* Create Antius' Celdon Gauntlets (24946) for Wield */
+     , (42128, 2, 24947,  0, 20, 0.0135, False) /* Create Antius' Celdon Girth (24947) for Wield */
+     , (42128, 2, 24948,  0, 20, 0.0135, False) /* Create Antius' Celdon Helm (24948) for Wield */
+     , (42128, 2, 24949,  0, 20, 0.0135, False) /* Create Antius' Celdon Leggings (24949) for Wield */
+     , (42128, 2, 24956,  0, 20, 0.0135, False) /* Create Antius' Celdon Sleeves (24956) for Wield */
+     , (42128, 2, 24950,  0, 20, 0.0135, False) /* Create Antius' Celdon Sollerets (24950) for Wield */
+     , (42128, 2,   130,  0, 17, 0.333, False) /* Create Shirt (130) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42133;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42133, 'ace42133-warden', 10, '2019-02-27 18:20:40') /* Creature */;
+VALUES (42133, 'ace42133-warden', 10, '2019-04-23 00:59:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42133,   1,         16) /* ItemType - Creature */
@@ -130,12 +130,12 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 175000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42133, 2,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for Wield */
-     , (42133, 2,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for Wield */
-     , (42133, 2,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Wield */
-     , (42133, 2,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for Wield */
-     , (42133, 2,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for Wield */
-     , (42133, 2,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for Wield */
-     , (42133, 2,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for Wield */
-     , (42133, 2,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for Wield */
-     , (42133, 2,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for Wield */;
+VALUES (42133, 2,    38,  0, 9, 0.0179, False) /* Create Studded Leather Bracers (38) for Wield */
+     , (42133, 2,    42,  0, 9, 0.0179, False) /* Create Studded Leather Breastplate (42) for Wield */
+     , (42133, 2,    59,  0, 9, 0.0179, False) /* Create Studded Leather Gauntlets (59) for Wield */
+     , (42133, 2,    68,  0, 9, 0.0179, False) /* Create Studded Leather Greaves (68) for Wield */
+     , (42133, 2,    63,  0, 9, 0.0179, False) /* Create Studded Leather Girth (63) for Wield */
+     , (42133, 2,    89,  0, 9, 0.0179, False) /* Create Studded Leather Pauldrons (89) for Wield */
+     , (42133, 2,   554,  0, 9, 0.0179, False) /* Create Studded Leather Basinet (554) for Wield */
+     , (42133, 2,   116,  0, 9, 0.0179, False) /* Create Studded Leather Boots (116) for Wield */
+     , (42133, 2,   112,  0, 9, 0.0179, False) /* Create Studded Leather Tassets (112) for Wield */;

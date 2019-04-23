@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42123;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42123, 'ace42123-warden', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (42123, 'ace42123-warden', 10, '2019-04-23 00:59:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42123,   1,         16) /* ItemType - Creature */
@@ -120,8 +120,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1650000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42123, 2, 27215,  0, 20, 0, False) /* Create Chiran Coat (27215) for Wield */
+VALUES (42123, 2, 27215,  0, 20, 0.1, False) /* Create Chiran Coat (27215) for Wield */
      , (42123, 2, 27216,  0, 20, 0, False) /* Create Chiran Gauntlets (27216) for Wield */
-     , (42123, 2, 27217,  0, 20, 0, False) /* Create Chiran Helm (27217) for Wield */
+     , (42123, 2, 27217,  0, 20, 0.1, False) /* Create Chiran Helm (27217) for Wield */
      , (42123, 2, 27218,  0, 20, 0, False) /* Create Chiran Leggings (27218) for Wield */
      , (42123, 2, 27219,  0, 20, 0, False) /* Create Chiran Sandals (27219) for Wield */;

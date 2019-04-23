@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42135;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42135, 'ace42135-warden', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (42135, 'ace42135-warden', 10, '2019-04-23 00:59:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42135,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (42135,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (42135,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (42135,  1 /* Refuse */,      1, 1436 /* Hammer of Lightning  */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (42135,  1 /* Refuse */,      1, 1436 /* Hammer of Lightning */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -119,8 +119,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2850000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42135, 2, 37187,  0, 0, 0, False) /* Create  (37187) for Wield */
-     , (42135, 2, 37195,  0, 0, 0, False) /* Create  (37195) for Wield */
-     , (42135, 2, 37200,  0, 0, 0, False) /* Create  (37200) for Wield */
-     , (42135, 2, 37207,  0, 0, 0, False) /* Create  (37207) for Wield */
-     , (42135, 2, 37217,  0, 0, 0, False) /* Create  (37217) for Wield */;
+VALUES (42135, 2, 37187,  0, 9, 0.0135, False) /* Create Olthoi Alduressa Gauntlets (37187) for Wield */
+     , (42135, 2, 37195,  0, 9, 0.0135, False) /* Create Olthoi Alduressa Helm (37195) for Wield */
+     , (42135, 2, 37200,  0, 9, 0.0135, False) /* Create Olthoi Alduressa Leggings (37200) for Wield */
+     , (42135, 2, 37207,  0, 9, 0.0135, False) /* Create Olthoi Alduressa Boots (37207) for Wield */
+     , (42135, 2, 37217,  0, 9, 0.0135, False) /* Create Olthoi Alduressa Coat (37217) for Wield */
+     , (42135, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */;

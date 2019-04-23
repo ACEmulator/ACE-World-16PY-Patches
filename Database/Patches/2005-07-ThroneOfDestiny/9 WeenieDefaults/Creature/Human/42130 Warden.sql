@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42130;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42130, 'ace42130-warden', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (42130, 'ace42130-warden', 10, '2019-04-23 00:59:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42130,   1,         16) /* ItemType - Creature */
@@ -127,8 +127,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 100000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42130, 2,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for Wield */
-     , (42130, 2,    72,  0, 0, 0, False) /* Create Platemail Hauberk (72) for Wield */
-     , (42130, 2,    82,  0, 0, 0, False) /* Create Platemail Leggings (82) for Wield */
-     , (42130, 2,   107,  0, 0, 0, False) /* Create Sollerets (107) for Wield */
-     , (42130, 2,  8396,  0, 0, 0, False) /* Create Heaume (8396) for Wield */;
+VALUES (42130, 2,  8396,  0, 39, 0.0139, False) /* Create Heaume (8396) for Wield */
+     , (42130, 2,    82,  0, 39, 0.0139, False) /* Create Platemail Leggings (82) for Wield */
+     , (42130, 2,    72,  0, 39, 0.0139, False) /* Create Platemail Hauberk (72) for Wield */
+     , (42130, 2,   107,  0, 39, 0.0139, False) /* Create Sollerets (107) for Wield */
+     , (42130, 2,    57,  0, 39, 0.0139, False) /* Create Platemail Gauntlets (57) for Wield */;
