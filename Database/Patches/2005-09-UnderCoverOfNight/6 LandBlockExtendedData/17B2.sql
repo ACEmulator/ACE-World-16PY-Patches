@@ -29,13 +29,9 @@ VALUES (1903894549, 32073, 397541412, 109.482, 73.2946, 44.005, 0.342888, 0, 0, 
 /* @teleloc 0x17B20024 [109.482000 73.294600 44.005000] 0.342888 0.000000 0.000000 0.939376 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1903894550, 31648, 397541419, 135.931, 70.4125, 44.005, -0.992339, 0, 0, 0.123543, False, '2019-02-15 14:34:36'); /* Afra bint Abbas */
-/* @teleloc 0x17B2002B [135.931000 70.412500 44.005000] -0.992339 0.000000 0.000000 0.123543 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1903894551, 11322, 397541419, 127.606, 65.2235, 49.205, -0.531658, 0, 0, -0.846959, False, '2019-02-15 14:34:36'); /* Bachus Flufens */
+VALUES (1903894550, 11322, 397541419, 127.606, 65.2235, 49.205, -0.531658, 0, 0, -0.846959, False, '2019-02-15 14:34:36'); /* Bachus Flufens */
 /* @teleloc 0x17B2002B [127.606000 65.223500 49.205000] -0.531658 0.000000 0.000000 -0.846959 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1903894552, 32072, 397541389, 24.2423, 102.925, 46.005, 0.930096, 0, 0, 0.367317, False, '2019-02-15 14:34:36'); /* Niccolo Brasi */
+VALUES (1903894551, 32072, 397541389, 24.2423, 102.925, 46.005, 0.930096, 0, 0, 0.367317, False, '2019-02-15 14:34:36'); /* Niccolo Brasi */
 /* @teleloc 0x17B2000D [24.242300 102.925000 46.005000] 0.930096 0.000000 0.000000 0.367317 */
