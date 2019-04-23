@@ -3,10 +3,6 @@ VALUES (2076832776, 41186, 3164536861, 76.747, 115.994, 54.005, -0.962258, 0, 0,
 /* @teleloc 0xBC9F001D [76.747000 115.994000 54.005000] -0.962258 0.000000 0.000000 -0.272137 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2076832780, 24248, 3164536860, 93.0647, 74.7292, 48.7217, -0.955851, 0, 0, -0.293851, False, '2019-04-08 08:19:57'); /* Royal Guard */
-/* @teleloc 0xBC9F001C [93.064700 74.729200 48.721700] -0.955851 0.000000 0.000000 -0.293851 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2076832781, 32618, 3164536888, 145.319, 173.103, 32.005, -0.22283, 0, 0, -0.974857, False, '2019-04-08 08:19:57'); /* Royal Guard Qumasha */
 /* @teleloc 0xBC9F0038 [145.319000 173.103000 32.005000] -0.222830 0.000000 0.000000 -0.974857 */
 

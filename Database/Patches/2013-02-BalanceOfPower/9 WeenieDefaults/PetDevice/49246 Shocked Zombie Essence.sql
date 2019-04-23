@@ -37,8 +37,6 @@ VALUES (49246,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49246,   1, 'Shocked Zombie Essence') /* Name */
-     , (49246,   7, '21dam/13res') /* Inscription */
-     , (49246,   8, 'Damien Ash') /* ScribeName */
      , (49246,  14, 'Use this essence to summon or dismiss your Shocked Zombie.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
