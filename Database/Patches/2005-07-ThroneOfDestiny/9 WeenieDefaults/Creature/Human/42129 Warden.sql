@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42129;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42129, 'ace42129-warden', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (42129, 'ace42129-warden', 10, '2019-04-23 00:59:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42129,   1,         16) /* ItemType - Creature */
@@ -120,8 +120,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 550000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42129, 2, 28618,  0, 0, 0, False) /* Create Diforsa Helm (28618) for Wield */
-     , (42129, 2, 28625,  0, 0, 0, False) /* Create Diforsa Sollerets (28625) for Wield */
-     , (42129, 2, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (42129, 2, 33600,  0, 0, 0, False) /* Create Pathwarden Diforsa Hauberk (33600) for Wield */
-     , (42129, 2, 33604,  0, 0, 0, False) /* Create Pathwarden Diforsa Leggings (33604) for Wield */;
+VALUES (42129, 2, 28618,  0, 20, 0.0909, False) /* Create Diforsa Helm (28618) for Wield */
+     , (42129, 2, 31026,  0, 20, 0.0909, False) /* Create Tenassa Breastplate (31026) for Wield */
+     , (42129, 2, 28622,  0, 20, 0.0909, False) /* Create Tenassa Leggings (28622) for Wield */
+     , (42129, 2, 28625,  0, 39, 0.1667, False) /* Create Diforsa Sollerets (28625) for Wield */
+     , (42129, 2, 28632,  0, 39, 0.1667, False) /* Create Diforsa Gauntlets (28632) for Wield */
+     , (42129, 2, 28624,  0, 20, 0.0909, False) /* Create Tenassa Sleeves (28624) for Wield */;

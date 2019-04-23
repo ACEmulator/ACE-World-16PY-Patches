@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46049;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46049, 'ace46049-minorstingingatlanaxe', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46049, 'ace46049-minorstingingatlanaxe', 6, '2019-04-22 04:33:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46049,   1,          1) /* ItemType - MeleeWeapon */
+     , (46049,   3,          8) /* PaletteTemplate - Green */
      , (46049,   5,        800) /* EncumbranceVal */
      , (46049,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (46049,  16,          1) /* ItemUseable - No */
@@ -54,8 +55,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46049,   1,   33556351) /* Setup */
      , (46049,   3,  536870932) /* SoundTable */
      , (46049,   6,   67111919) /* PaletteBase */
+     , (46049,   7,  268435930) /* ClothingBase */
      , (46049,   8,  100670514) /* Icon */
-     , (46049,  22,  872415275) /* PhysicsEffectTable */;
+     , (46049,  22,  872415275) /* PhysicsEffectTable */
+	 , (46049,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46049,   520,      2)  /* Acid Protection Self VI */

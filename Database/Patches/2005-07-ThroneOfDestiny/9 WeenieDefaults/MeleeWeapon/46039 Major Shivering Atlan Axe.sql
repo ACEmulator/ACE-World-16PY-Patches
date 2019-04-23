@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46039;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46039, 'ace46039-majorshiveringatlanaxe', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46039, 'ace46039-majorshiveringatlanaxe', 6, '2019-04-22 04:33:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46039,   1,          1) /* ItemType - MeleeWeapon */
+     , (46039,   3,          2) /* PaletteTemplate - Blue */
      , (46039,   5,        800) /* EncumbranceVal */
      , (46039,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (46039,  16,          1) /* ItemUseable - No */
@@ -54,8 +55,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46039,   1,   33556379) /* Setup */
      , (46039,   3,  536870932) /* SoundTable */
      , (46039,   6,   67111919) /* PaletteBase */
+     , (46039,   7,  268435958) /* ClothingBase */
      , (46039,   8,  100670508) /* Icon */
-     , (46039,  22,  872415275) /* PhysicsEffectTable */;
+     , (46039,  22,  872415275) /* PhysicsEffectTable */
+	 , (46039,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46039,  2081,      2)  /* Hastening */

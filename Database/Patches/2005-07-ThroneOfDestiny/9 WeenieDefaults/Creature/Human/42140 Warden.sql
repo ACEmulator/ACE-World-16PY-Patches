@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42140;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42140, 'ace42140-warden', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (42140, 'ace42140-warden', 10, '2019-04-22 03:43:49') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42140,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,7 @@ VALUES (42140,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (42140,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (42140,  1 /* Refuse */,      1, 8363 /* Mace of the Explorer */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (42140,  6 /* Give */,      1, 8363 /* Mace of the Explorer */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -120,10 +120,10 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 550000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42140, 2,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for Wield */
-     , (42140, 2,    76,  0, 0, 0, False) /* Create Horned Helm (76) for Wield */
-     , (42140, 2,   107,  0, 0, 0, False) /* Create Sollerets (107) for Wield */
-     , (42140, 2,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for Wield */
-     , (42140, 2,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for Wield */
-     , (42140, 2,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for Wield */
-     , (42140, 2,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for Wield */;
+VALUES (42140, 2,    76,  0, 39, 0, False) /* Create Horned Helm (76) for Wield */
+     , (42140, 2,  6043,  0, 39, 0.0179, False) /* Create Celdon Girth (6043) for Wield */
+     , (42140, 2,  6044,  0, 39, 0.0179, False) /* Create Celdon Breastplate (6044) for Wield */
+     , (42140, 2,  6045,  0, 39, 0.0179, False) /* Create Celdon Leggings (6045) for Wield */
+     , (42140, 2,  6048,  0, 39, 0.0179, False) /* Create Celdon Sleeves (6048) for Wield */
+     , (42140, 2,    57,  0, 39, 0.1667, False) /* Create Platemail Gauntlets (57) for Wield */
+     , (42140, 2,   107,  0, 0, 0.1667, False) /* Create Sollerets (107) for Wield */;

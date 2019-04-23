@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46109;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46109, 'ace46109-blackfiresmolderingatlantwohandedsword', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46109, 'ace46109-blackfiresmolderingatlantwohandedsword', 6, '2019-04-22 04:33:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46109,   1,          1) /* ItemType - MeleeWeapon */
+     , (46109,   3,         14) /* PaletteTemplate - Red */
      , (46109,   5,        700) /* EncumbranceVal */
      , (46109,   9,   33554432) /* ValidLocations - TwoHanded */
      , (46109,  16,          1) /* ItemUseable - No */
@@ -18,8 +19,8 @@ VALUES (46109,   1,          1) /* ItemType - MeleeWeapon */
      , (46109,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46109,  49,         50) /* WeaponTime */
      , (46109,  51,          5) /* CombatUse - TwoHanded */
-     , (46109,  52,          1) /* ParentLocation */
-     , (46109,  53,          1) /* PlacementPosition */
+     , (46109,  52,          1) /* ParentLocation - RightHand */
+     , (46109,  53,          1) /* PlacementPosition - RightHandCombat */
      , (46109,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46109, 106,        325) /* ItemSpellcraft */
      , (46109, 107,        400) /* ItemCurMana */
@@ -44,6 +45,7 @@ VALUES (46109,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46109,   5, -0.025000000372529) /* ManaRate */
+     , (46109,  12,       0) /* Shade */
      , (46109,  21,       1) /* WeaponLength */
      , (46109,  22, 0.28999999165535) /* DamageVariance */
      , (46109,  26,       0) /* MaximumVelocity */
@@ -61,8 +63,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46109,   1,   33556377) /* Setup */
      , (46109,   3,  536870932) /* SoundTable */
      , (46109,   6,   67111919) /* PaletteBase */
+     , (46109,   7,  268435956) /* ClothingBase */
      , (46109,   8,  100692939) /* Icon */
-     , (46109,  22,  872415275) /* PhysicsEffectTable */;
+     , (46109,  22,  872415275) /* PhysicsEffectTable */
+	 , (46109,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46109,  2087,      2)  /* Might of the Lugians */

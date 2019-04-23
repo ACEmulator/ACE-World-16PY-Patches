@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2031;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2031, 'quarterstaffbranith', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (2031, 'quarterstaffbranith', 35, '2019-04-21 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2031,   1,      32768) /* ItemType - Caster */
@@ -29,9 +29,7 @@ VALUES (2031,  11, True ) /* IgnoreCollisions */
      , (2031,  13, True ) /* Ethereal */
      , (2031,  14, True ) /* GravityStatus */
      , (2031,  19, True ) /* Attackable */
-     , (2031,  22, True ) /* Inscribable */
-     , (2031,  69, False) /* IsSellable */
-     , (2031,  99, True ) /* Ivoryable */;
+     , (2031,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2031,   5, -0.025000000372529) /* ManaRate */

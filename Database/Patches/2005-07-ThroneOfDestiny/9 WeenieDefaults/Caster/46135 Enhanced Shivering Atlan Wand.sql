@@ -1,8 +1,7 @@
-/* Weenie - Casters - Enhanced Shivering Atlan Wand (46135) */
 DELETE FROM weenie WHERE class_Id = 46135;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46135, 'enhancedshiveringatlanwand', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (46135, 'ace46135-enhancedshiveringatlanwand', 35, '2019-04-22 03:43:49') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46135,   1,      32768) /* ItemType - Caster */
@@ -52,9 +51,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46135,   1,   33557781) /* Setup */
      , (46135,   3,  536870932) /* SoundTable */
      , (46135,   6,   67111919) /* PaletteBase */
-     , (46135,   7,  268436395) /* ClothingBase */
+     , (46135,   7,  268437561) /* ClothingBase */
      , (46135,   8,  100672989) /* Icon */
-     , (46135,  22,  872415275) /* PhysicsEffectTable */;
+     , (46135,  22,  872415275) /* PhysicsEffectTable */
+	 , (46135,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46135,  2287,      2)  /* Major War Magic Aptitude*/

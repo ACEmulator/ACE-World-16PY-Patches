@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46114;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46114, 'ace46114-minorsparkingatlantwohandedsword', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46114, 'ace46114-minorsparkingatlantwohandedsword', 6, '2019-04-22 04:33:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46114,   1,          1) /* ItemType - MeleeWeapon */
+     , (46114,   3,         82) /* PaletteTemplate - PinkPurple */
      , (46114,   5,        700) /* EncumbranceVal */
      , (46114,   9,   33554432) /* ValidLocations - TwoHanded */
      , (46114,  16,          1) /* ItemUseable - No */
@@ -18,8 +19,8 @@ VALUES (46114,   1,          1) /* ItemType - MeleeWeapon */
      , (46114,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46114,  49,         50) /* WeaponTime */
      , (46114,  51,          5) /* CombatUse - TwoHanded */
-     , (46114,  52,          1) /* ParentLocation */
-     , (46114,  53,          1) /* PlacementPosition */
+     , (46114,  52,          1) /* ParentLocation - RightHand */
+     , (46114,  53,          1) /* PlacementPosition - RightHandCombat */
      , (46114,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46114, 106,        300) /* ItemSpellcraft */
      , (46114, 107,        750) /* ItemCurMana */
@@ -61,8 +62,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46114,   1,   33556376) /* Setup */
      , (46114,   3,  536870932) /* SoundTable */
      , (46114,   6,   67111919) /* PaletteBase */
+     , (46114,   7,  268435955) /* ClothingBase */
      , (46114,   8,  100692940) /* Icon */
-     , (46114,  22,  872415275) /* PhysicsEffectTable */;
+     , (46114,  22,  872415275) /* PhysicsEffectTable */
+	 , (46114,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46114,  1071,      2)  /* Lightning Protection Self VI */

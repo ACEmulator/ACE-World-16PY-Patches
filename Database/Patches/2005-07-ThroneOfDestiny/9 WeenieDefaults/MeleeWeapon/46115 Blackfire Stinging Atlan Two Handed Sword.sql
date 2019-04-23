@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46115;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46115, 'ace46115-blackfirestingingatlantwohandedsword', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46115, 'ace46115-blackfirestingingatlantwohandedsword', 6, '2019-04-22 04:33:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46115,   1,          1) /* ItemType - MeleeWeapon */
+     , (46115,   3,          8) /* PaletteTemplate - Green */
      , (46115,   5,        700) /* EncumbranceVal */
      , (46115,   9,   33554432) /* ValidLocations - TwoHanded */
      , (46115,  16,          1) /* ItemUseable - No */
@@ -18,8 +19,8 @@ VALUES (46115,   1,          1) /* ItemType - MeleeWeapon */
      , (46115,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46115,  49,         50) /* WeaponTime */
      , (46115,  51,          5) /* CombatUse - TwoHanded */
-     , (46115,  52,          1) /* ParentLocation */
-     , (46115,  53,          1) /* PlacementPosition */
+     , (46115,  52,          1) /* ParentLocation - RightHand */
+     , (46115,  53,          1) /* PlacementPosition - RightHandCombat */
      , (46115,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46115, 106,        325) /* ItemSpellcraft */
      , (46115, 107,        400) /* ItemCurMana */
@@ -61,8 +62,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46115,   1,   33556375) /* Setup */
      , (46115,   3,  536870932) /* SoundTable */
      , (46115,   6,   67111919) /* PaletteBase */
+     , (46115,   7,  268435954) /* ClothingBase */
      , (46115,   8,  100692941) /* Icon */
-     , (46115,  22,  872415275) /* PhysicsEffectTable */;
+     , (46115,  22,  872415275) /* PhysicsEffectTable */
+	 , (46115,  52,  100667851) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46115,  2059,      2)  /* Honed Control */

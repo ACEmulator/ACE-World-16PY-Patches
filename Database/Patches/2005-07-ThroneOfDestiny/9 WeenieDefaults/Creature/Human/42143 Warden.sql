@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42143;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42143, 'ace42143-warden', 10, '2019-02-04 06:52:23') /* Creature */;
+VALUES (42143, 'ace42143-warden', 10, '2019-04-23 00:59:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42143,   1,         16) /* ItemType - Creature */
@@ -129,8 +129,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 175000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42143, 2,    35,  0, 0, 0, False) /* Create Chainmail Basinet (35) for Wield */
-     , (42143, 2,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for Wield */
-     , (42143, 2,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for Wield */
-     , (42143, 2,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for Wield */
-     , (42143, 2,   107,  0, 0, 0, False) /* Create Sollerets (107) for Wield */;
+VALUES (42143, 2,    35,  0, 39, 0.1667, False) /* Create Chainmail Basinet (35) for Wield */
+     , (42143, 2,    55,  0, 39, 0.1667, False) /* Create Chainmail Gauntlets (55) for Wield */
+     , (42143, 2,    80,  0, 39, 0.1667, False) /* Create Chainmail Leggings (80) for Wield */
+     , (42143, 2,    71,  0, 39, 0.0179, False) /* Create Chainmail Hauberk (71) for Wield */
+     , (42143, 2,   107,  0, 39, 0.1667, False) /* Create Sollerets (107) for Wield */;
