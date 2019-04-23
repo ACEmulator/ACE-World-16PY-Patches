@@ -5,11 +5,11 @@ VALUES (1903894538, 31955, 397541674, 100.911, 79.975, 43.705, 0.313628, 0, 0, -
 /* @teleloc 0x17B2012A [100.911000 79.975000 43.705000] 0.313628 0.000000 0.000000 -0.949546 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1903894544, 28709, 397541412, 115.888, 86.8911, 43.7902, -0.992565, 0, 0, 0.121715, False, '2019-02-15 14:34:36'); /* Portal to Sanamar */
+VALUES (1903894553, 28709, 397541412, 115.888, 86.8911, 43.7902, -0.992565, 0, 0, 0.121715, False, '2019-02-15 14:34:36'); /* Portal to Sanamar */
 /* @teleloc 0x17B20024 [115.888000 86.891100 43.790200] -0.992565 0.000000 0.000000 0.121715 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1903894545, 32074, 397541419, 137.554, 48.9581, 44.005, 0.526587, 0, 0, -0.850121, False, '2019-02-15 14:34:36'); /* Lucio Murrio */
+VALUES (1903894554, 32074, 397541419, 137.554, 48.9581, 44.005, 0.526587, 0, 0, -0.850121, False, '2019-02-15 14:34:36'); /* Lucio Murrio */
 /* @teleloc 0x17B2002B [137.554000 48.958100 44.005000] 0.526587 0.000000 0.000000 -0.850121 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
