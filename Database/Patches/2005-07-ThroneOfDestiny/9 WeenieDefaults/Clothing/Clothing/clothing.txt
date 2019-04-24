@@ -1,0 +1,69 @@
+00117 Breeches.sql
+00118 Cap.sql
+00119 Cowl.sql
+00120 Quilted Drawers.sql
+00121 Gloves.sql
+00126 Leggings.sql
+00127 Pants.sql
+00128 Qafiya.sql
+00133 Slippers.sql
+00134 Tunic.sql
+00135 Turban.sql
+02589 Smock.sql
+02592 Tunic.sql
+02593 Tunic.sql
+02594 Tunic.sql
+02595 Tunic.sql
+02597 Pants.sql
+02598 Pants.sql
+02599 Trousers.sql
+02600 Pantaloons.sql
+02601 Pants.sql
+02602 Breeches.sql
+02603 Breeches.sql
+02604 Breeches.sql
+05894 Fez.sql
+05901 Kasa.sql
+07428 Aerlinthe Patron Shirt.sql
+07429 Aerlinthe Monarch Shirt.sql
+10757 Towel.sql
+10758 Clean, Dry Towel.sql
+12254 Pants.sql
+12309 Society Explorer Hat.sql
+12310 Explorer Society Robe.sql
+14798 Empyrean Pants.sql
+22136 Frest Greelving's Puffy Shirt.sql
+24264 Olthoi Fighter Shirt (Female).sql
+24265 Olthoi Fighter Shirt (Male).sql
+27654 Coarse Hide Shirt.sql
+28071 Aphus Wading Pants.sql
+28072 Aphus Lounging Shirt.sql
+28605 Beret.sql
+28606 Viamontian Pants.sql
+28607 Lace Shirt.sql
+28608 Poet's Shirt.sql
+28609 Vest.sql
+28610 Loafers.sql
+28612 Bandana.sql
+28613 Tessera Gown.sql
+28614 Vestiri Robe with Hood.sql
+28615 Vestiri Robe.sql
+28616 Toga.sql
+31201 Vestiri Creature Apprentice Robe.sql
+31202 Vestiri Item Apprentice Robe.sql
+31203 Vestiri Life Apprentice Robe.sql
+31205 Vestiri Creature Master Robe.sql
+31206 Vestiri Item Master Robe.sql
+31207 Vestiri Life Master Robe.sql
+31236 Beret.sql
+31237 Loafers.sql
+31238 Viamontian Leggings.sql
+31239 Poet's Shirt.sql
+35180 Hulking Bunny Slippers.sql
+40439 Pathwarden Robe.sql
+40454 Pathwarden Robe.sql
+40455 Pathwarden Robe.sql
+40456 Pathwarden Robe.sql
+43242 Wooden Scarecrow Guise.sql
+44975 Hood.sql
+clothing.txt
