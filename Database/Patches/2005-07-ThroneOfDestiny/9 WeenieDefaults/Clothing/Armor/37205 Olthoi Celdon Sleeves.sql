@@ -5,7 +5,7 @@ VALUES (37205, 'ace37205-olthoiceldonsleeves', 2, '2019-02-04 06:52:23') /* Clot
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37205,   1,          2) /* ItemType - Armor */
-     , (37205,   4,       1024) /* ClothingPriority - OuterwearChest */
+     , (37205,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (37205,   5,        930) /* EncumbranceVal */
      , (37205,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
      , (37205,  16,          1) /* ItemUseable - No */

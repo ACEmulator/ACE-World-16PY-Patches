@@ -5,7 +5,7 @@ VALUES (37192, 'ace37192-olthoiceldongirth', 2, '2019-02-04 06:52:23') /* Clothi
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37192,   1,          2) /* ItemType - Armor */
-     , (37192,   4,       1024) /* ClothingPriority - OuterwearChest */
+     , (37192,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
      , (37192,   5,        820) /* EncumbranceVal */
      , (37192,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (37192,  16,          1) /* ItemUseable - No */

@@ -5,7 +5,7 @@ VALUES (37209, 'ace37209-olthoiceldonsollerets', 2, '2019-02-04 06:52:23') /* Cl
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37209,   1,          2) /* ItemType - Armor */
-     , (37209,   4,       1024) /* ClothingPriority - OuterwearChest */
+     , (37209,   4,      65536) /* ClothingPriority - Feet */
      , (37209,   5,        319) /* EncumbranceVal */
      , (37209,   9,        256) /* ValidLocations - FootWear */
      , (37209,  16,          1) /* ItemUseable - No */
