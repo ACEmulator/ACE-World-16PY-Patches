@@ -10,7 +10,6 @@ VALUES (37214,   1,          2) /* ItemType - Armor */
      , (37214,   5,       1681) /* EncumbranceVal */
      , (37214,   9,        512) /* ValidLocations - ChestArmor */
      , (37214,  16,          1) /* ItemUseable - No */
-     , (37214,  18,          1) /* UiEffects - Magical */
      , (37214,  19,      22603) /* Value */
      , (37214,  28,        259) /* ArmorLevel */
      , (37214,  53,        101) /* PlacementPosition */

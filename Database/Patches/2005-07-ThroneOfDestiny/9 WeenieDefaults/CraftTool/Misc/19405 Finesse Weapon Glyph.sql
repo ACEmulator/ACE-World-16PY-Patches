@@ -7,8 +7,8 @@ USE `ace_world`;
 /* Weenie - CraftTool - Finesse Weapons Glyph (19405) */
 DELETE FROM weenie WHERE class_Id = 19405;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (19405, 'glyphnewdagger', 44) /* CraftTool */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (19405, 'glyphnewdagger', 44, '2019-04-25 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19405,   1,        128) /* ItemType - Misc */
