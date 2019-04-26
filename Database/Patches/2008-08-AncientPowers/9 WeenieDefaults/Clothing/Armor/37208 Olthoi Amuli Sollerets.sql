@@ -6,11 +6,13 @@ VALUES (37208, 'ace37208-olthoiamulisollerets', 2, '2019-04-22 04:33:31') /* Clo
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37208,   1,          2) /* ItemType - Armor */
      , (37208,   4,      65536) /* ClothingPriority - Feet */
+     , (37208,   5,        365) /* EncumbranceVal */
      , (37208,   9,        256) /* ValidLocations - FootWear */
      , (37208,  16,          1) /* ItemUseable - No */
      , (37208,  28,        300) /* ArmorLevel */
      , (37208,  53,        101) /* PlacementPosition - Resting */
-     , (37208,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (37208,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37208, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37208,  11, True ) /* IgnoreCollisions */

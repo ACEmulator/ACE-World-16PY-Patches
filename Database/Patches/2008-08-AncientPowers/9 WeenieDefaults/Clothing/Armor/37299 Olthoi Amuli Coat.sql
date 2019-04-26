@@ -6,12 +6,13 @@ VALUES (37299, 'ace37299-olthoiamulicoat', 2, '2019-04-22 04:33:31') /* Clothing
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37299,   1,          2) /* ItemType - Armor */
      , (37299,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
-     , (37299,   5,       1173) /* EncumbranceVal */
+     , (37299,   5,       1080) /* EncumbranceVal */
      , (37299,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (37299,  16,          1) /* ItemUseable - No */
      , (37299,  28,        272) /* ArmorLevel */
      , (37299,  53,        101) /* PlacementPosition - Resting */
-     , (37299,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (37299,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37299, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37299,  11, True ) /* IgnoreCollisions */

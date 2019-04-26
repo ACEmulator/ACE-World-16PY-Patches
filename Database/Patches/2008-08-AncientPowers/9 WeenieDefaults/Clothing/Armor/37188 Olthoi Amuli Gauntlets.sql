@@ -6,12 +6,14 @@ VALUES (37188, 'ace37188-olthoiamuligauntlets', 2, '2019-04-22 04:33:31') /* Clo
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37188,   1,          2) /* ItemType - Armor */
      , (37188,   4,      32768) /* ClothingPriority - Hands */
+     , (37188,   5,        538) /* EncumbranceVal */
      , (37188,   9,         32) /* ValidLocations - HandWear */
      , (37188,  16,          1) /* ItemUseable - No */
      , (37188,  18,          1) /* UiEffects - Magical */
      , (37188,  28,        225) /* ArmorLevel */
      , (37188,  53,        101) /* PlacementPosition - Resting */
-     , (37188,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (37188,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37188, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37188,  11, True ) /* IgnoreCollisions */
