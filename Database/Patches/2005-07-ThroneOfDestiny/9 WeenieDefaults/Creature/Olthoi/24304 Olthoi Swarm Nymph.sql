@@ -77,7 +77,7 @@ VALUES (24304,   1,   33557163) /* Setup */
      , (24304,   8,  100667623) /* Icon */
      , (24304,  19,         86) /* ActivationAnimation */
      , (24304,  22,  872415265) /* PhysicsEffectTable */
-     , (24304,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
+     , (24304,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24304,   1, 280, 0, 0) /* Strength */
