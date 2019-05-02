@@ -1,6 +1,8 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 398;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1880678400, 24129, 26084218, 3.03164, -140.972, -0.063, -0.707107, 0, 0, -0.707107, False, '2019-02-15 14:34:36'); /* Linkable Monster Generator ( 2 Min.) */
-/* @teleloc 0x018E037A [3.031640 -140.972000 -0.063000] -0.707107 0.000000 0.000000 -0.707107 */
+VALUES (1880678400, 24129, 26084218, 26.721, -149.887, -5.995, 0.713819, 0, 0, -0.700330, False, '2019-02-15 14:34:36'); /* Linkable Monster Generator ( 2 Min.) */
+/* @teleloc  0x018E024C [26.721476 -149.886734 -5.995000] 0.713819 0.000000 0.000000 -0.700330 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880678401, 28826, 26084218, 3.03164, -149.972, -0.063, -0.707107, 0, 0, -0.707107, False, '2019-02-15 14:34:36'); /* Surface */
