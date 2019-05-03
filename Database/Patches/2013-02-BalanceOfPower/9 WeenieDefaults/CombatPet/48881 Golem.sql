@@ -81,7 +81,7 @@ VALUES (48881,   1,   33556426) /* Setup */
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (48881,   1, 190, 0, 0) /* Strength */
      , (48881,   2, 220, 0, 0) /* Endurance */
-     , (48881,   3, 2300, 0, 0) /* Quickness */
+     , (48881,   3, 230, 0, 0) /* Quickness */
      , (48881,   4, 140, 0, 0) /* Coordination */
      , (48881,   5, 150, 0, 0) /* Focus */
      , (48881,   6, 150, 0, 0) /* Self */;
