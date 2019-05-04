@@ -8,7 +8,7 @@ VALUES (8031,   1,          2) /* ItemType - Armor */
      , (8031,   3,         13) /* PaletteTemplate - Purple */
      , (8031,   5,        690) /* EncumbranceVal */
      , (8031,   8,        460) /* Mass */
-     , (8031,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (8031,   9,    2097152) /* ValidLocations - Shield */
      , (8031,  16,          1) /* ItemUseable - No */
      , (8031,  18,          1) /* UiEffects - Magical */
      , (8031,  19,       2000) /* Value */
