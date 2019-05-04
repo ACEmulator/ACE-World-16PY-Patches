@@ -8,7 +8,7 @@ VALUES (1270,   1,          2) /* ItemType - Armor */
      , (1270,   3,         39) /* PaletteTemplate - Black */
      , (1270,   5,        600) /* EncumbranceVal */
      , (1270,   8,        230) /* Mass */
-     , (1270,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (1270,   9,    2097152) /* ValidLocations - Shield */
      , (1270,  16,          1) /* ItemUseable - No */
      , (1270,  18,          1) /* UiEffects - Magical */
      , (1270,  19,        320) /* Value */
