@@ -20,8 +20,6 @@ VALUES (31395,   1,          2) /* ItemType - Armor */
      , (31395, 106,        350) /* ItemSpellcraft */
      , (31395, 107,       3000) /* ItemCurMana */
      , (31395, 108,       3000) /* ItemMaxMana */
-     , (31395, 114,          1) /* Attuned - Attuned */
-     , (31395, 115,        400) /* ItemSkillLevelLimit */
      , (31395, 151,          2) /* HookType - Wall */
      , (31395, 158,          7) /* WieldRequirements - Level */
      , (31395, 159,          1) /* WieldSkillType - Axe */
@@ -36,7 +34,7 @@ VALUES (31395,  11, True ) /* IgnoreCollisions */
      , (31395,  19, True ) /* Attackable */
      , (31395,  22, True ) /* Inscribable */
      , (31395,  69, False) /* IsSellable */
-     , (31395,  99, True ) /* Ivoryable */;
+     , (31395,  85, True ) /* AppraisalHasAllowedWielder */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31395,   5, -0.025000000372529) /* ManaRate */
