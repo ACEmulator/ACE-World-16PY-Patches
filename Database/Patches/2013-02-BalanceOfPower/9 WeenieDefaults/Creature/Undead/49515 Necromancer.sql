@@ -17,30 +17,6 @@ VALUES (49515,   1,         16) /* ItemType - Creature */
      , (49515,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (49515,  95,          8) /* RadarBlipColor - Yellow */
      , (49515, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (49515, 307,          0) /* DamageRating */
-     , (49515, 308,          0) /* DamageResistRating */
-     , (49515, 313,          0) /* CritRating */
-     , (49515, 314,          0) /* CritDamageRating */
-     , (49515, 315,          0) /* CritResistRating */
-     , (49515, 316,          0) /* CritDamageResistRating */
-     , (49515, 370,          0) /* GearDamage */
-     , (49515, 371,          0) /* GearDamageResist */
-     , (49515, 372,          0) /* GearCrit */
-     , (49515, 373,          0) /* GearCritResist */
-     , (49515, 374,          0) /* GearCritDamage */
-     , (49515, 375,          0) /* GearCritDamageResist */
-     , (49515, 376,          0) /* GearHealingBoost */
-     , (49515, 377,          0) /* GearNetherResist */
-     , (49515, 378,          0) /* GearLifeResist */
-     , (49515, 379,          0) /* GearMaxHealth */
-     , (49515, 381,          0) /* PKDamageRating */
-     , (49515, 382,          0) /* PKDamageResistRating */
-     , (49515, 383,          0) /* GearPKDamageRating */
-     , (49515, 384,          0) /* GearPKDamageResistRating */
-     , (49515, 386,          0) /* Overpower */
-     , (49515, 387,          0) /* OverpowerResist */
-     , (49515, 388,          0) /* GearOverpower */
-     , (49515, 389,          0) /* GearOverpowerResist */
      , (49515, 8007,          0) /* PCAPRecordedAutonomousMovement */
      , (49515, 8030,          0);
 
