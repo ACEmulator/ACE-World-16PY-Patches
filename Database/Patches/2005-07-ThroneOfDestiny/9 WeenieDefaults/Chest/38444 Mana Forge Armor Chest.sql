@@ -28,10 +28,11 @@ VALUES (38444,   1, True ) /* Stuck */
      , (38444,  13, False) /* Ethereal */
      , (38444,  33, False) /* ResetMessagePending */
      , (38444,  34, False) /* DefaultOpen */
-     , (38444,  35, True ) /* DefaultLocked */;
+     , (38444,  35, True ) /* DefaultLocked */
+     , (38444,  86, True ) /* ChestRegenOnClose */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38444,  11,      30) /* ResetInterval */
+VALUES (38444,  11,     180) /* ResetInterval */
      , (38444,  43,       1) /* GeneratorRadius */
      , (38444,  54,       1) /* UseRadius */;
 

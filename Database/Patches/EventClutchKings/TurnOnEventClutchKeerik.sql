@@ -1,1 +1,1 @@
-UPDATE `event` SET `state` = '4' WHERE (`name` = 'EventClutchKeerik');
+UPDATE `event` SET `state` = '3' WHERE (`name` = 'EventClutchKeerik');
