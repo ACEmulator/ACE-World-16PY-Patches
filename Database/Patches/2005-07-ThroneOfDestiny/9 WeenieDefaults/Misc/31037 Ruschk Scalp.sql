@@ -1,15 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31037;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31037, 'ace31037-ruschkscalp', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (31037, 'ace31037-ruschkscalp', 1, '2019-05-10 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31037,   1,        128) /* ItemType - Misc */
      , (31037,   5,         50) /* EncumbranceVal */
      , (31037,   8,         10) /* Mass */
-     , (31037,  11,          5) /* MaxStackSize */
-     , (31037,  13,         50) /* StackUnitEncumbrance */
-     , (31037,  14,         10) /* StackUnitMass */
      , (31037,  16,          1) /* ItemUseable - No */
      , (31037,  19,          0) /* Value */
      , (31037,  33,          1) /* Bonded - Bonded */
@@ -27,7 +24,6 @@ VALUES (31037,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31037,   1, 'Ruschk Scalp') /* Name */
-     , (31037,  15, 'Ruschk Challenger Quest') /* ShortDesc */
      , (31037,  16, 'A bloody Ruschk scalp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
