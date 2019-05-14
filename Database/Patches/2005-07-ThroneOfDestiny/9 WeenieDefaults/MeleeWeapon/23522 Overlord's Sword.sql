@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23522;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23522, 'swordoverlordneclass', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (23522, 'swordoverlordneclass', 6, '2019-05-14 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23522,   1,          1) /* ItemType - MeleeWeapon */
@@ -10,6 +10,7 @@ VALUES (23522,   1,          1) /* ItemType - MeleeWeapon */
      , (23522,   8,        420) /* Mass */
      , (23522,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (23522,  16,          1) /* ItemUseable - No */
+     , (23522,  18,          1) /* UiEffects - Magical */
      , (23522,  19,       1550) /* Value */
      , (23522,  33,          1) /* Bonded - Bonded */
      , (23522,  44,         74) /* Damage */
@@ -40,18 +41,17 @@ VALUES (23522,  11, True ) /* IgnoreCollisions */
      , (23522,  19, True ) /* Attackable */
      , (23522,  22, True ) /* Inscribable */
      , (23522,  23, True ) /* DestroyOnSell */
-     , (23522,  85, True ) /* AppraisalHasAllowedWielder */
      , (23522,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23522,   5, -0.0500000007450581) /* ManaRate */
-     , (23522,  21, 0.949999988079071) /* WeaponLength */
-     , (23522,  22,     0.5) /* DamageVariance */
-     , (23522,  26,       0) /* MaximumVelocity */
-     , (23522,  29, 1.14999997615814) /* WeaponDefense */
-     , (23522,  39, 1.29999995231628) /* DefaultScale */
-     , (23522,  62, 1.14999997615814) /* WeaponOffense */
-     , (23522,  63,       1) /* DamageMod */;
+VALUES (23522,   5, -0.05) /* ManaRate */
+     , (23522,  21,  0.94) /* WeaponLength */
+     , (23522,  22,   0.5) /* DamageVariance */
+     , (23522,  26,     0) /* MaximumVelocity */
+     , (23522,  29,  1.15) /* WeaponDefense */
+     , (23522,  39,   1.3) /* DefaultScale */
+     , (23522,  62,  1.14) /* WeaponOffense */
+     , (23522,  63,     1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23522,   1, 'Overlord''s Sword') /* Name */
