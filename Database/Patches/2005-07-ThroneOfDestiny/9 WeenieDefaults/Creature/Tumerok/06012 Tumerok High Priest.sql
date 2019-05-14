@@ -86,7 +86,7 @@ VALUES (6012,   1,   33559553) /* Setup */
                                    Wield 20x Deadly Quarrel (15438) | Probability: 100%
                                    Wield Heavy Crossbow (23665) | Probability: 25%
                                    Wield 16x Deadly Armor Piercing Quarrel (15440) | Probability: 100% */
-     , (6012,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
+     , (6012,  35,        988) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6012,   1, 240, 0, 0) /* Strength */

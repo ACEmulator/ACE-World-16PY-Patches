@@ -81,7 +81,7 @@ VALUES (1608,   1,   33556445) /* Setup */
                                    Wield Yari (23731) | Probability: 50%
                                    Wield Tachi (23701) | Probability: 25%
                                    Wield Spear (23697) | Probability: 25% */
-     , (1608,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
+     , (1608,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1608,   1, 110, 0, 0) /* Strength */

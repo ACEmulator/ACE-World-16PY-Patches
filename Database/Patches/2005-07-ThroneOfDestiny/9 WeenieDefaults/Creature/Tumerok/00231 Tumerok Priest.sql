@@ -81,7 +81,7 @@ VALUES (231,   1,   33559553) /* Setup */
                                    Wield 20x Greater Arrow (5304) | Probability: 100%
                                    Wield Heavy Crossbow (23667) | Probability: 50%
                                    Wield 16x Greater Quarrel (5313) | Probability: 100% */
-     , (231,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
+     , (231,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (231,   1,  80, 0, 0) /* Strength */

@@ -112,7 +112,7 @@ VALUES (232,   1,   33559553) /* Setup */
                                    Wield Buckler (44) | Probability: 20%
                                    Wield Kite Shield (91) | Probability: 10%
                                    Wield Round Shield (93) | Probability: 10% */
-     , (232,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
+     , (232,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (232,   1,  60, 0, 0) /* Strength */

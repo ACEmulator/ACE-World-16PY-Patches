@@ -81,7 +81,7 @@ VALUES (10775,   1,   33556445) /* Setup */
                                    Wield Tachi (23702) | Probability: 25%
                                    Wield Fire Yaoji (23720) | Probability: 25%
                                    Wield Yaoji (23712) | Probability: 25% */
-     , (10775,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
+     , (10775,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10775,   1, 190, 0, 0) /* Strength */
