@@ -103,7 +103,7 @@ VALUES (8268,   1,   33554433) /* Setup */
                                    Wield Kite Shield (23685) | Probability: 100%
                                    Wield Fire Yaoji (23719) | Probability: 35%
                                    Wield Kite Shield (23685) | Probability: 100% */
-     , (8268,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
+     , (8268,  35,        951) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8268,   1, 100, 0, 0) /* Strength */

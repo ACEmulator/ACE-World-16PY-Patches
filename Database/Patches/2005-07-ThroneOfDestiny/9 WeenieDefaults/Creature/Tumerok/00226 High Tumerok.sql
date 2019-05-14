@@ -86,7 +86,7 @@ VALUES (226,   1,   33559560) /* Setup */
                                    Wield Tachi (23701) | Probability: 6%
                                    Wield Spear (23697) | Probability: 6%
                                    Wield Kite Shield (23685) | Probability: 75% */
-     , (226,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
+     , (226,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (226,   1, 170, 0, 0) /* Strength */

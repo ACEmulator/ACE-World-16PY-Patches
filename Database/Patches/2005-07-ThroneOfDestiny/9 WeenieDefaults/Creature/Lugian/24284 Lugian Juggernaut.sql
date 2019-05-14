@@ -79,7 +79,7 @@ VALUES (24284,   1,   33557003) /* Setup */
                                    Wield Rock (24885) | Probability: 100%
                                    Wield Lugian Axe (24884) | Probability: 50%
                                    Wield Lugian Mace (24886) | Probability: 50% */
-     , (24284,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
+     , (24284,  35,        982) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24284,   1, 360, 0, 0) /* Strength */

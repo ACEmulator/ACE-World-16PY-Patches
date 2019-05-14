@@ -100,7 +100,7 @@ VALUES (4107,   1,   33559553) /* Setup */
                                    Wield Tofun (356) | Probability: 10%
                                    Wield Yaoji (361) | Probability: 15%
                                    Wield Yari (362) | Probability: 5% */
-     , (4107,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
+     , (4107,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4107,   1,  70, 0, 0) /* Strength */

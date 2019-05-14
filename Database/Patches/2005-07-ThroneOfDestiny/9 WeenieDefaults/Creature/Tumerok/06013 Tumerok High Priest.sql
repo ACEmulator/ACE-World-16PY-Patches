@@ -91,7 +91,7 @@ VALUES (6013,   1,   33559553) /* Setup */
                                    Wield Yaoji (23710) | Probability: 12%
                                    Wield Fire Tachi (23707) | Probability: 12%
                                    Wield Kite Shield (23684) | Probability: 75% */
-     , (6013,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
+     , (6013,  35,        988) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6013,   1, 240, 0, 0) /* Strength */

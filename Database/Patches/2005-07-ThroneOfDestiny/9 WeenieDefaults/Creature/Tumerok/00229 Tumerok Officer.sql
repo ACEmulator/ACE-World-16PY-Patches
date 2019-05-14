@@ -103,7 +103,7 @@ VALUES (229,   1,   33559555) /* Setup */
                                    Wield Large Round Shield (94) | Probability: 20%
                                    Wield Round Shield (93) | Probability: 20%
                                    Wield Tower Shield (95) | Probability: 15% */
-     , (229,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
+     , (229,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (229,   1, 100, 0, 0) /* Strength */
