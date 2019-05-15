@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28853;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28853, 'shieldkamshirloclass', 2, '2019-02-04 06:52:23') /* Clothing */;
+VALUES (28853, 'shieldkamshirloclass', 1, '2019-05-15 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28853,   1,          2) /* ItemType - Armor */
@@ -30,16 +30,16 @@ VALUES (28853,  11, True ) /* IgnoreCollisions */
      , (28853,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28853,   5, -0.0500000007450581) /* ManaRate */
-     , (28853,  13,       1) /* ArmorModVsSlash */
-     , (28853,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (28853,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (28853,  16, 1.20000004768372) /* ArmorModVsCold */
-     , (28853,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (28853,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (28853,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (28853,  39, 0.800000011920929) /* DefaultScale */
-     , (28853, 165,       1) /* ArmorModVsNether */;
+VALUES (28853,   5, -0.05) /* ManaRate */
+     , (28853,  13,     1) /* ArmorModVsSlash */
+     , (28853,  14,   0.8) /* ArmorModVsPierce */
+     , (28853,  15,   0.8) /* ArmorModVsBludgeon */
+     , (28853,  16,   1.2) /* ArmorModVsCold */
+     , (28853,  17,   0.6) /* ArmorModVsFire */
+     , (28853,  18,   0.6) /* ArmorModVsAcid */
+     , (28853,  19,   0.6) /* ArmorModVsElectric */
+     , (28853,  39,   0.8) /* DefaultScale */
+     , (28853, 165,     1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28853,   1, 'Kam''shir') /* Name */;
