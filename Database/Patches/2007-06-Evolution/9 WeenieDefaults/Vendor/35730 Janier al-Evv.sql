@@ -92,7 +92,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (35730, 2,  5852,  0, 5, 0, False) /* Create Dho Vest and Robe (5852) for Wield */
      , (35730, 2,  9623,  0, 5, 0, False) /* Create Alchemist's Hat (9623) for Wield */
      , (35730, 4, 35725, -1, 0, 0, False) /* Create A Treatise on the Combat Uses of Alchemical Phials (35725) for Shop */
-     , (35730, 4, 39330, -1, 0, 0, False) /* Create Alchemical Phials and Mana Forges, Latest Discoveries(39330) for Shop */
+     , (35730, 4, 39330, -1, 0, 0, False) /* Create Alchemical Phials and Mana Forges, Latest Discoveries (39330) for Shop */
      , (35730, 4, 36210, -1, 0, 0, False) /* Create Guide to Fighting the Harbinger (36210) for Shop */
      , (35730, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (35730, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */

@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46220;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46220, 'ace46220-blackfiredissolvingisparianwand', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (46220, 'ace46220-blackfiredissolvingisparianwand', 35, '2019-05-28 05:23:14') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46220,   1,      32768) /* ItemType - Caster */
+     , (46220,   3,          8) /* PaletteTemplate - Green */
      , (46220,   5,        150) /* EncumbranceVal */
      , (46220,   8,        150) /* Mass */
      , (46220,   9,   16777216) /* ValidLocations - Held */
@@ -15,8 +16,8 @@ VALUES (46220,   1,      32768) /* ItemType - Caster */
      , (46220,  45,         32) /* DamageType - Acid */
      , (46220,  46,        512) /* DefaultCombatStyle - Magic */
      , (46220,  48,         34) /* WeaponSkill - WarMagic */
-     , (46220,  52,          1) /* ParentLocation */
-     , (46220,  53,          3) /* PlacementPosition */
+     , (46220,  52,          1) /* ParentLocation - RightHand */
+     , (46220,  53,          3) /* PlacementPosition - LeftHand */
      , (46220,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46220, 106,        325) /* ItemSpellcraft */
      , (46220, 107,        500) /* ItemCurMana */
@@ -53,6 +54,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46220,   1,   33557783) /* Setup */
      , (46220,   3,  536870932) /* SoundTable */
      , (46220,   6,   67111919) /* PaletteBase */
+     , (46220,   7,  268436395) /* ClothingBase */
      , (46220,   8,  100672995) /* Icon */
      , (46220,  22,  872415275) /* PhysicsEffectTable */;
 

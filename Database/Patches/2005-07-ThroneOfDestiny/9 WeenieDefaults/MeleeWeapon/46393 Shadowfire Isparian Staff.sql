@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46393;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46393, 'ace46393-shadowfireisparianstaff', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46393, 'ace46393-shadowfireisparianstaff', 6, '2019-05-18 23:01:22') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46393,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,7 +20,7 @@ VALUES (46393,   1,          1) /* ItemType - MeleeWeapon */
      , (46393,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (46393,  49,          1) /* WeaponTime */
      , (46393,  51,          1) /* CombatUse - Melee */
-     , (46393,  53,        101) /* PlacementPosition */
+     , (46393,  53,        101) /* PlacementPosition - Resting */
      , (46393,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46393, 114,          1) /* Attuned - Attuned */
      , (46393, 151,          2) /* HookType - Wall */

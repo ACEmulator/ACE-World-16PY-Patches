@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46216;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46216, 'ace46216-blackfireshimmeringisparianwand', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (46216, 'ace46216-blackfireshimmeringisparianwand', 35, '2019-05-18 23:01:22') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46216,   1,      32768) /* ItemType - Caster */
@@ -13,7 +13,7 @@ VALUES (46216,   1,      32768) /* ItemType - Caster */
      , (46216,  19,       8000) /* Value */
      , (46216,  33,          1) /* Bonded - Bonded */
      , (46216,  45,          1) /* DamageType - Slash */
-     , (46216,  53,        101) /* PlacementPosition */
+     , (46216,  53,        101) /* PlacementPosition - Resting */
      , (46216,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46216,  94,         16) /* TargetType - Creature */
      , (46216, 106,        325) /* ItemSpellcraft */

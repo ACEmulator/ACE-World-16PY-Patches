@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37807;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37807, 'ace37807-inscriptionofhealingmasteryself', 34, '2019-02-04 06:52:23') /* Scroll */;
+VALUES (37807, 'ace37807-inscriptionofhealingmasteryself', 34, '2019-05-18 23:01:22') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37807,   1,       8192) /* ItemType - Writable */
@@ -30,6 +30,6 @@ VALUES (37807,   1, 'Inscription of Healing Mastery Self') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37807,   1,   33554826) /* Setup */
-     , (37807,   8,  100676931) /* Icon */
+     , (37807,   8,  100676459) /* Icon */
      , (37807,  22,  872415275) /* PhysicsEffectTable */
      , (37807,  28,       4556) /* Spell - Incantation of Healing Mastery Self */;

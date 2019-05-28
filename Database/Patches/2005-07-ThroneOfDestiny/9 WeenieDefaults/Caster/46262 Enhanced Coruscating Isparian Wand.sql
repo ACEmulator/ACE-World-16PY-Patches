@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46262;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46262, 'ace46262-enhancedcoruscatingisparianwand', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (46262, 'ace46262-enhancedcoruscatingisparianwand', 35, '2019-05-28 05:23:14') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46262,   1,      32768) /* ItemType - Caster */
+     , (46262,   3,         82) /* PaletteTemplate - PinkPurple */
      , (46262,   5,        150) /* EncumbranceVal */
      , (46262,   9,   16777216) /* ValidLocations - Held */
      , (46262,  16,          1) /* ItemUseable - No */
@@ -12,7 +13,7 @@ VALUES (46262,   1,      32768) /* ItemType - Caster */
      , (46262,  19,       8000) /* Value */
      , (46262,  33,          1) /* Bonded - Bonded */
      , (46262,  45,         64) /* DamageType - Electric */
-     , (46262,  53,        101) /* PlacementPosition */
+     , (46262,  53,        101) /* PlacementPosition - Resting */
      , (46262,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46262,  94,         16) /* TargetType - Creature */
      , (46262, 106,        350) /* ItemSpellcraft */
@@ -50,6 +51,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46262,   1,   33557786) /* Setup */
      , (46262,   3,  536870932) /* SoundTable */
      , (46262,   6,   67111919) /* PaletteBase */
+     , (46262,   7,  268436395) /* ClothingBase */
      , (46262,   8,  100672992) /* Icon */
      , (46262,  22,  872415275) /* PhysicsEffectTable */;
 

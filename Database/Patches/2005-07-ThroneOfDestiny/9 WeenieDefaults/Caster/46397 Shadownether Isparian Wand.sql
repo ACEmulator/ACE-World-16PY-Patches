@@ -1,20 +1,20 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46397;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46397, 'ace46397-shadownetherisparianwand', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (46397, 'ace46397-shadownetherisparianwand', 35, '2019-05-28 05:23:14') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46397,   1,      32768) /* ItemType - Caster */
-     , (46397,   3,         39) /* PaletteTemplate - Black */
      , (46397,   5,        150) /* EncumbranceVal */
      , (46397,   9,   16777216) /* ValidLocations - Held */
+     , (46397,  13,          0) /* StackUnitEncumbrance */
      , (46397,  16,          1) /* ItemUseable - No */
      , (46397,  18,          1) /* UiEffects - Magical */
      , (46397,  19,      10000) /* Value */
      , (46397,  33,          1) /* Bonded - Bonded */
      , (46397,  36,       9999) /* ResistMagic */
      , (46397,  45,       1024) /* DamageType - Nether */
-     , (46397,  53,        101) /* PlacementPosition */
+     , (46397,  53,        101) /* PlacementPosition - Resting */
      , (46397,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46397,  94,         16) /* TargetType - Creature */
      , (46397, 114,          1) /* Attuned - Attuned */

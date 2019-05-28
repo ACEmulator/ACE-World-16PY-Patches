@@ -11,7 +11,7 @@ VALUES (51445,   1,       2048) /* ItemType - Gem */
      , (51445,  13,         10) /* StackUnitEncumbrance */
      , (51445,  15,          1) /* StackUnitValue */
      , (51445,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (51445,  19,          1) /* Value */
+     , (51445,  19,          5) /* Value */
      , (51445,  65,        101) /* Placement - Resting */
      , (51445,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51445,  94,      33025) /* TargetType - WeaponOrCaster */;

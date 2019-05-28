@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38050;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38050, 'ace38050-lilithasbow', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (38050, 'ace38050-lilithasbow', 3, '2019-05-27 08:24:50') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38050,   1,        256) /* ItemType - MissileWeapon */
@@ -17,8 +17,8 @@ VALUES (38050,   1,        256) /* ItemType - MissileWeapon */
      , (38050,  49,         40) /* WeaponTime */
      , (38050,  50,          1) /* AmmoType - Arrow */
      , (38050,  51,          2) /* CombatUse - Missle */
-     , (38050,  52,          2) /* ParentLocation */
-     , (38050,  53,          3) /* PlacementPosition */
+     , (38050,  52,          2) /* ParentLocation - LeftHand */
+     , (38050,  53,          3) /* PlacementPosition - LeftHand */
      , (38050,  60,        280) /* WeaponRange */
      , (38050,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38050, 106,        150) /* ItemSpellcraft */
@@ -40,7 +40,8 @@ VALUES (38050,  11, True ) /* IgnoreCollisions */
      , (38050,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38050,  21,       0) /* WeaponLength */
+VALUES (38050,   5, -0.0329999998211861) /* ManaRate */
+     , (38050,  21,       0) /* WeaponLength */
      , (38050,  22,       0) /* DamageVariance */
      , (38050,  26,    27.5) /* MaximumVelocity */
      , (38050,  29, 1.08000004291534) /* WeaponDefense */

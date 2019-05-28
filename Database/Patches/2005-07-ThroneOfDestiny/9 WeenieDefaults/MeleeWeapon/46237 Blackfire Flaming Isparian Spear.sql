@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46237;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46237, 'ace46237-blackfireflamingisparianspear', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46237, 'ace46237-blackfireflamingisparianspear', 6, '2019-05-28 05:23:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46237,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,7 @@ VALUES (46237,   1,          1) /* ItemType - MeleeWeapon */
      , (46237,  48,         45) /* WeaponSkill - LightWeapons */
      , (46237,  49,         35) /* WeaponTime */
      , (46237,  51,          1) /* CombatUse - Melee */
-     , (46237,  53,        101) /* PlacementPosition */
+     , (46237,  53,        101) /* PlacementPosition - Resting */
      , (46237,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46237, 106,        325) /* ItemSpellcraft */
      , (46237, 107,        750) /* ItemCurMana */
@@ -42,7 +42,7 @@ VALUES (46237,  11, True ) /* IgnoreCollisions */
      , (46237,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46237,   5, -0.0333333350718021) /* ManaRate */
+VALUES (46237,   5, -0.0333333387970924) /* ManaRate */
      , (46237,  21,       0) /* WeaponLength */
      , (46237,  22, 0.449999988079071) /* DamageVariance */
      , (46237,  26,       0) /* MaximumVelocity */
