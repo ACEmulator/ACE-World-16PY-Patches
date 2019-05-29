@@ -1,11 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46203;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46203, 'ace46203-shimmeringispariantwohandedsword', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (46203, 'ace46203-shimmeringispariantwohandedsword', 6, '2019-05-28 05:23:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46203,   1,          1) /* ItemType - MeleeWeapon */
-     , (46203,   3,         20) /* PaletteTemplate - Silver */
+     , (46203,   3,          2) /* PaletteTemplate - Blue */
      , (46203,   5,        650) /* EncumbranceVal */
      , (46203,   9,   33554432) /* ValidLocations - TwoHanded */
      , (46203,  16,          1) /* ItemUseable - No */
@@ -19,7 +19,7 @@ VALUES (46203,   1,          1) /* ItemType - MeleeWeapon */
      , (46203,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46203,  49,         50) /* WeaponTime */
      , (46203,  51,          1) /* CombatUse - Melee */
-     , (46203,  53,        101) /* PlacementPosition */
+     , (46203,  53,        101) /* PlacementPosition - Resting */
      , (46203,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46203, 106,        300) /* ItemSpellcraft */
      , (46203, 107,        750) /* ItemCurMana */

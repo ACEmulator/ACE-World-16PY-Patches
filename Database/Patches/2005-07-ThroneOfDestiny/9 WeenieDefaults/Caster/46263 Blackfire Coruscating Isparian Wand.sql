@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46263;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46263, 'ace46263-blackfirecoruscatingisparianwand', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (46263, 'ace46263-blackfirecoruscatingisparianwand', 35, '2019-05-28 05:23:14') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46263,   1,      32768) /* ItemType - Caster */
@@ -13,7 +13,7 @@ VALUES (46263,   1,      32768) /* ItemType - Caster */
      , (46263,  19,       8000) /* Value */
      , (46263,  33,          1) /* Bonded - Bonded */
      , (46263,  45,         64) /* DamageType - Electric */
-     , (46263,  53,        101) /* PlacementPosition */
+     , (46263,  53,        101) /* PlacementPosition - Resting */
      , (46263,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46263,  94,         16) /* TargetType - Creature */
      , (46263, 106,        325) /* ItemSpellcraft */
@@ -52,7 +52,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46263,   1,   33557786) /* Setup */
      , (46263,   3,  536870932) /* SoundTable */
      , (46263,   6,   67111919) /* PaletteBase */
-     , (46263,   7,  268437561) /* ClothingBase */
+     , (46263,   7,  268436395) /* ClothingBase */
      , (46263,   8,  100672992) /* Icon */
      , (46263,  22,  872415275) /* PhysicsEffectTable */;
 

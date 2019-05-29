@@ -1,17 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31363;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31363, 'ace31363-axeheadhelm', 2, '2019-02-04 06:52:23') /* Clothing */;
+VALUES (31363, 'ace31363-axeheadhelm', 2, '2019-05-18 23:01:22') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31363,   1,          2) /* ItemType - Armor */
+     , (31363,   3,          4) /* PaletteTemplate - Brown */
      , (31363,   4,      16384) /* ClothingPriority - Head */
      , (31363,   5,        500) /* EncumbranceVal */
      , (31363,   9,          1) /* ValidLocations - HeadWear */
      , (31363,  16,          1) /* ItemUseable - No */
      , (31363,  19,       5000) /* Value */
      , (31363,  28,        220) /* ArmorLevel */
-     , (31363,  53,        101) /* PlacementPosition */
+     , (31363,  53,        101) /* PlacementPosition - Resting */
      , (31363,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31363, 106,        200) /* ItemSpellcraft */
      , (31363, 107,       1500) /* ItemCurMana */

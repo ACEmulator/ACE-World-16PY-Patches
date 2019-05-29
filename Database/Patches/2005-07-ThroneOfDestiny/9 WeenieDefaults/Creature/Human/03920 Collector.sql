@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3920;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3920, 'collectorsho', 10, '2019-04-15 18:47:52') /* Creature */;
+VALUES (3920, 'collectorsho', 10, '2019-05-19 21:21:01') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3920,   1,         16) /* ItemType - Creature */
@@ -1094,7 +1094,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 273 /* Pyreal */, 1500, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (3920,  6 /* Give */,      1, 29986 /* Ice Shard */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (3920,  6 /* Give */,      1, 28745 /* Ice Shard */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
