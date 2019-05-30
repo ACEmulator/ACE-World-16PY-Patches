@@ -15,7 +15,7 @@ VALUES (30949,   1,          2) /* ItemType - Armor */
      , (30949,  28,        110) /* ArmorLevel */
      , (30949,  53,        101) /* PlacementPosition - Resting */
      , (30949,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30949, 169,  118097678) /* TsysMutationData */;
+     , (30949, 169,  118096132) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30949,  11, True ) /* IgnoreCollisions */
