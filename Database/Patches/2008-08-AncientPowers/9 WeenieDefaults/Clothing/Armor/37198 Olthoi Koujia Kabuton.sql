@@ -9,10 +9,11 @@ VALUES (37198,   1,          2) /* ItemType - Armor */
      , (37198,   5,        426) /* EncumbranceVal */
      , (37198,   9,          1) /* ValidLocations - HeadWear */
      , (37198,  16,          1) /* ItemUseable - No */
-     , (37198,  19,        900) /* Value */
      , (37198,  28,        110) /* ArmorLevel */
      , (37198,  53,        101) /* PlacementPosition */
-     , (37198,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (37198,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37198, 151,          2) /* HookType - Wall */
+	 , (37198, 169,  168429060) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37198,  11, True ) /* IgnoreCollisions */

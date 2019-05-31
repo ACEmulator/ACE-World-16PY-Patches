@@ -12,7 +12,8 @@ VALUES (37196,   1,          2) /* ItemType - Armor */
      , (37196,  28,        288) /* ArmorLevel */
      , (37196,  53,        101) /* PlacementPosition - Resting */
      , (37196,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37196, 151,          2) /* HookType - Wall */;
+     , (37196, 151,          2) /* HookType - Wall */
+	 , (37196, 169,  168429060) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37196,  11, True ) /* IgnoreCollisions */
@@ -23,8 +24,7 @@ VALUES (37196,  11, True ) /* IgnoreCollisions */
      , (37196, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37196,   5, -0.055555559694767) /* ManaRate */
-     , (37196,  13, 1.29999995231628) /* ArmorModVsSlash */
+VALUES (37196,  13, 1.29999995231628) /* ArmorModVsSlash */
      , (37196,  14,       1) /* ArmorModVsPierce */
      , (37196,  15,       1) /* ArmorModVsBludgeon */
      , (37196,  16, 0.941725313663483) /* ArmorModVsCold */

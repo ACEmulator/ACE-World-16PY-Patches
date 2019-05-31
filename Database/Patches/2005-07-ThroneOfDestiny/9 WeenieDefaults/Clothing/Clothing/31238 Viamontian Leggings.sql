@@ -5,14 +5,19 @@ VALUES (31238, 'ace31238-viamontianleggings', 2, '2019-03-21 18:13:30') /* Cloth
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31238,   1,          4) /* ItemType - Clothing */
+     , (31238,   3,         14) /* PaletteTemplate - Red */
      , (31238,   4,          3) /* ClothingPriority - Unknown, UnderwearUpperLegs */
      , (31238,   5,        135) /* EncumbranceVal */
      , (31238,   9,         68) /* ValidLocations - AbdomenWear, UpperLegWear */
      , (31238,  16,          1) /* ItemUseable - No */
      , (31238,  19,         30) /* Value */
+     , (31238,  27,          1) /* ArmorType - Cloth */
      , (31238,  28,          0) /* ArmorLevel */
      , (31238,  53,        101) /* PlacementPosition - Resting */
-     , (31238,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (31238,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (31238, 150,        103) /* HookPlacement - Hook */
+     , (31238, 151,          2) /* HookType - Wall */
+     , (31238, 169,  201326864) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31238,  11, True ) /* IgnoreCollisions */

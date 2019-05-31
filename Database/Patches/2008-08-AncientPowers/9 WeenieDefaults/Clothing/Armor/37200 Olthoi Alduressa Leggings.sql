@@ -9,9 +9,11 @@ VALUES (37200,   1,          2) /* ItemType - Armor */
      , (37200,   5,       2461) /* EncumbranceVal */
      , (37200,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (37200,  16,          1) /* ItemUseable - No */
-     , (37200,  19,      12854) /* Value */
      , (37200,  28,        704) /* ArmorLevel */
-     , (37200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (37200,  53,        101) /* PlacementPosition - Resting */
+     , (37200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37200, 151,          2) /* HookType - Wall */
+	 , (37200, 169,  252313860) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37200,  11, True ) /* IgnoreCollisions */
@@ -22,8 +24,7 @@ VALUES (37200,  11, True ) /* IgnoreCollisions */
      , (37200, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37200,   5, -0.0666666701436043) /* ManaRate */
-     , (37200,  13, 1.20000004768372) /* ArmorModVsSlash */
+VALUES (37200,  13, 1.20000004768372) /* ArmorModVsSlash */
      , (37200,  14, 0.800000011920929) /* ArmorModVsPierce */
      , (37200,  15,       1) /* ArmorModVsBludgeon */
      , (37200,  16,     0.5) /* ArmorModVsCold */
