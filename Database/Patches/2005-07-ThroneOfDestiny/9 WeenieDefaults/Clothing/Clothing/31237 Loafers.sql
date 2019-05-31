@@ -5,6 +5,7 @@ VALUES (31237, 'ace31237-loafers', 2, '2019-03-21 00:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31237,   1,          4) /* ItemType - Clothing */
+     , (31237,   3,          5) /* PaletteTemplate - DarkBlue */
      , (31237,   4,      65536) /* ClothingPriority - Feet */
      , (31237,   5,         90) /* EncumbranceVal */
      , (31237,   9,        256) /* ValidLocations - FootWear */
@@ -15,7 +16,8 @@ VALUES (31237,   1,          4) /* ItemType - Clothing */
      , (31237,  65,        101) /* Placement - Resting */
      , (31237,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31237, 150,        103) /* HookPlacement - Hook */
-     , (31237, 151,          2) /* HookType - Wall */;
+     , (31237, 151,          2) /* HookType - Wall */
+     , (31237, 169,  184550672) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31237,   1, False) /* Stuck */
@@ -43,5 +45,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31237,   1,   33559324) /* Setup */
      , (31237,   3,  536870932) /* SoundTable */
      , (31237,   6,   67108990) /* PaletteBase */
+     , (31237,   7,  268436912) /* ClothingBase */
      , (31237,   8,  100682418) /* Icon */
      , (31237,  22,  872415275) /* PhysicsEffectTable */;

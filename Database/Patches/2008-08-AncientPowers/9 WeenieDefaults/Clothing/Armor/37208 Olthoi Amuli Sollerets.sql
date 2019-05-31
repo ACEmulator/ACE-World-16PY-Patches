@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37208;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37208, 'ace37208-olthoiamulisollerets', 2, '2019-04-22 04:33:31') /* Clothing */;
+VALUES (37208, 'ace37208-olthoiamulisollerets', 2, '2019-05-30 01:39:42') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37208,   1,          2) /* ItemType - Armor */
@@ -12,7 +12,8 @@ VALUES (37208,   1,          2) /* ItemType - Armor */
      , (37208,  28,        300) /* ArmorLevel */
      , (37208,  53,        101) /* PlacementPosition - Resting */
      , (37208,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37208, 151,          2) /* HookType - Wall */;
+     , (37208, 151,          2) /* HookType - Wall */
+     , (37208, 169,  168429060) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37208,  11, True ) /* IgnoreCollisions */
@@ -23,8 +24,7 @@ VALUES (37208,  11, True ) /* IgnoreCollisions */
      , (37208, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37208,   5, -0.0666666701436043) /* ManaRate */
-     , (37208,  13, 1.29999995231628) /* ArmorModVsSlash */
+VALUES (37208,  13, 1.29999995231628) /* ArmorModVsSlash */
      , (37208,  14,       1) /* ArmorModVsPierce */
      , (37208,  15,       1) /* ArmorModVsBludgeon */
      , (37208,  16, 0.983739674091339) /* ArmorModVsCold */

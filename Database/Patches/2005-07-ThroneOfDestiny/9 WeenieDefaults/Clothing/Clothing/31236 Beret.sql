@@ -5,6 +5,7 @@ VALUES (31236, 'ace31236-beret', 2, '2019-03-21 00:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31236,   1,          4) /* ItemType - Clothing */
+     , (31236,   3,         14) /* PaletteTemplate - Red */
      , (31236,   4,      16384) /* ClothingPriority - Head */
      , (31236,   5,         23) /* EncumbranceVal */
      , (31236,   9,          1) /* ValidLocations - HeadWear */
@@ -15,7 +16,8 @@ VALUES (31236,   1,          4) /* ItemType - Clothing */
      , (31236,  53,        101) /* PlacementPosition */
      , (31236,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31236, 150,        103) /* HookPlacement - Hook */
-     , (31236, 151,          2) /* HookType - Wall */;
+     , (31236, 151,          2) /* HookType - Wall */
+     , (31236, 169,  218104336) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31236,   1, False) /* Stuck */

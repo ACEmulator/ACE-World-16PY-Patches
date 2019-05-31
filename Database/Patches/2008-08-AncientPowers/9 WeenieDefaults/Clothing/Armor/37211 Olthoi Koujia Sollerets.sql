@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37211;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37211, 'ace37211-olthoisollerets', 2, '2019-04-23 00:59:22') /* Clothing */;
+VALUES (37211, 'ace37211-olthoikoujiasollerets', 2, '2019-05-30 01:39:42') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37211,   1,          2) /* ItemType - Armor */
@@ -9,11 +9,11 @@ VALUES (37211,   1,          2) /* ItemType - Armor */
      , (37211,   5,        275) /* EncumbranceVal */
      , (37211,   9,        256) /* ValidLocations - FootWear */
      , (37211,  16,          1) /* ItemUseable - No */
-     , (37211,  19,      40163) /* Value */
-     , (37211,  28,        483) /* ArmorLevel */
-     , (37211,  36,       9999) /* ResistMagic */
+     , (37211,  28,        330) /* ArmorLevel */
      , (37211,  53,        101) /* PlacementPosition - Resting */
-     , (37211,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (37211,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37211, 151,          2) /* HookType - Wall */
+     , (37211, 169,  168429060) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37211,  11, True ) /* IgnoreCollisions */
@@ -24,8 +24,7 @@ VALUES (37211,  11, True ) /* IgnoreCollisions */
      , (37211, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37211,   5, -0.0666666701436043) /* ManaRate */
-     , (37211,  13, 1.29999995231628) /* ArmorModVsSlash */
+VALUES (37211,  13, 1.29999995231628) /* ArmorModVsSlash */
      , (37211,  14, 1.29999995231628) /* ArmorModVsPierce */
      , (37211,  15, 1.29999995231628) /* ArmorModVsBludgeon */
      , (37211,  16, 0.600000023841858) /* ArmorModVsCold */
@@ -35,7 +34,7 @@ VALUES (37211,   5, -0.0666666701436043) /* ManaRate */
      , (37211, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (37211,   1, 'Olthoi Sollerets') /* Name */;
+VALUES (37211,   1, 'Olthoi Koujia Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37211,   1,   33554654) /* Setup */

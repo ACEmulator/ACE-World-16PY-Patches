@@ -20,6 +20,7 @@ VALUES (31788,   1,          1) /* ItemType - MeleeWeapon */
      , (31788,  53,        101) /* PlacementPosition - Resting */
      , (31788,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31788, 151,          2) /* HookType - Wall */
+     , (31788, 169,  101189386) /* TsysMutationData */
      , (31788, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

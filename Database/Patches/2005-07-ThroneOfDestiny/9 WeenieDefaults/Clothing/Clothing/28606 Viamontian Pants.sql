@@ -16,7 +16,9 @@ VALUES (28606,   1,          4) /* ItemType - Clothing */
      , (28606,  28,          0) /* ArmorLevel */
      , (28606,  53,        101) /* PlacementPosition */
      , (28606,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28606, 172,          5) /* AppraisalLongDescDecoration */;
+     , (28606, 150,        103) /* HookPlacement - Hook */
+     , (28606, 151,          2) /* HookType - Wall */
+     , (28606, 169,  201326864) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28606,  11, True ) /* IgnoreCollisions */
@@ -38,8 +40,7 @@ VALUES (28606,  12, 0.600000023841858) /* Shade */
      , (28606, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28606,   1, 'Viamontian Pants') /* Name */
-     , (28606,  16, 'Viamontian Pants') /* LongDesc */;
+VALUES (28606,   1, 'Viamontian Pants') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28606,   1,   33554653) /* Setup */
