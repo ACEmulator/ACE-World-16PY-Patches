@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29494;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29494, 'breastplatekarlun', 2, '2019-02-04 06:52:23') /* Clothing */;
+VALUES (29494, 'breastplatekarlun', 2, '2019-06-02 07:52:34') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29494,   1,          2) /* ItemType - Armor */
+     , (29494,   3,         39) /* PaletteTemplate - Black */
      , (29494,   4,       1024) /* ClothingPriority - OuterwearChest */
      , (29494,   5,       2100) /* EncumbranceVal */
      , (29494,   9,        512) /* ValidLocations - ChestArmor */
@@ -32,6 +33,7 @@ VALUES (29494,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29494,   5, -0.0329999998211861) /* ManaRate */
+     , (29494,  12,       0) /* Shade */
      , (29494,  13, 1.10000002384186) /* ArmorModVsSlash */
      , (29494,  14,       1) /* ArmorModVsPierce */
      , (29494,  15, 1.20000004768372) /* ArmorModVsBludgeon */
