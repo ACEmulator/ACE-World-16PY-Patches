@@ -5,8 +5,7 @@ VALUES (1881813992,  7924, 44237056, -3.63826, -1.331, 0.005, 0.683673, 0, 0, -0
 /* @teleloc 0x02A30100 [-3.638260 -1.331000 0.005000] 0.683673 0.000000 0.000000 -0.729788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (1881813992, 1881813995, '2019-06-02 19:50:48') /* Yoked Virindi */
-     , (1881813992, 1881813996, '2019-06-02 19:50:48') /* Conquered Virindi */
+VALUES (1881813992, 1881813996, '2019-06-02 19:50:48') /* Conquered Virindi */
      , (1881813992, 1881813997, '2019-06-02 19:50:48') /* Leashed Virindi */
      , (1881813992, 1881813998, '2019-06-02 19:50:48') /* Tamed Virindi */
      , (1881813992, 1881813999, '2019-06-02 19:50:48') /* Beaten Virindi */
@@ -27,10 +26,6 @@ VALUES (1881813993,  9162, 44237060, 13.2282, 4.88946, 2.10013, 0, 0, 0, -1, Fal
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881813994,  9167, 44237063, 9.892, -31.153, -0.063, 0, 0, 0, -1, False, '2019-06-02 19:50:48'); /* Surface */
 /* @teleloc 0x02A30107 [9.892000 -31.153000 -0.063000] 0.000000 0.000000 0.000000 -1.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1881813995, 41852, 44237064, 23.4697, -0.141697, 0.029, -0.71854, 0, 0, -0.695486,  True, '2019-06-02 19:50:48'); /* Yoked Virindi */
-/* @teleloc 0x02A30108 [23.469700 -0.141697 0.029000] -0.718540 0.000000 0.000000 -0.695486 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1881813996,  9133, 44237064, 23.8021, -4.86423, 0.029, -0.71854, 0, 0, -0.695486,  True, '2019-06-02 19:50:48'); /* Conquered Virindi */
