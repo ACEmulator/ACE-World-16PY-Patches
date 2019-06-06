@@ -20,7 +20,8 @@ VALUES (34250,   1, True ) /* Stuck */
      , (34250,  14, True ) /* GravityStatus */
      , (34250,  19, False) /* Attackable */
      , (34250,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (34250,  42, True ) /* AllowEdgeSlide */;
+     , (34250,  42, True ) /* AllowEdgeSlide */
+	 , (34250,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34250,  54,       5) /* UseRadius */;
