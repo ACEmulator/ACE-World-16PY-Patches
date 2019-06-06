@@ -19,6 +19,7 @@ VALUES (44075,   1, True ) /* Stuck */
      , (44075,  13, True ) /* Ethereal */
      , (44075,  14, True ) /* GravityStatus */
      , (44075,  15, True ) /* LightsStatus */
+	 , (44075,  19, False) /* Attackable */
      , (44075,  41, True ) /* ReportCollisionsAsEnvironment */
      , (44075,  42, True ) /* AllowEdgeSlide */
      , (44075,  83, True ) /* NpcLooksLikeObject */;
