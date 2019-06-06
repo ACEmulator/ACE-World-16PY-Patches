@@ -16,7 +16,7 @@ VALUES (306,   1,        256) /* ItemType - MissileWeapon */
      , (306,  48,         47) /* WeaponSkill - MissileWeapons */
      , (306,  49,         45) /* WeaponTime */
      , (306,  50,          1) /* AmmoType - Arrow */
-     , (306,  51,          2) /* CombatUse - Missle */
+     , (306,  51,          2) /* CombatUse - Missile */
      , (306,  52,          2) /* ParentLocation */
      , (306,  53,          3) /* PlacementPosition */
      , (306,  60,        175) /* WeaponRange */
