@@ -30,7 +30,7 @@ VALUES (21073,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21073,   1, 'Salvaged Sandstone') /* Name */
-     , (21073,  14, 'Apply this material to a treasure-generated item in order to remove that item\'s "Retained" status.') /* Use */
+     , (21073,  14, 'Apply this material to a treasure-generated item in order to remove that item''s "Retained" status.') /* Use */
      , (21073,  15, 'A brick of sandstone material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
