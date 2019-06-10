@@ -5,7 +5,7 @@ VALUES (43955, 'ace43955-prismaticatlatldart', 5, '2019-02-04 06:52:23') /* Ammu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43955,   1,        256) /* ItemType - MissileWeapon */
-     , (43955,   3,         61) /* PaletteTemplate - White */
+     , (43955,   3,         20) /* PaletteTemplate - Silver */
      , (43955,   5,          1) /* EncumbranceVal */
      , (43955,   8,          2) /* Mass */
      , (43955,   9,    8388608) /* ValidLocations - MissileAmmo */
@@ -15,7 +15,7 @@ VALUES (43955,   1,        256) /* ItemType - MissileWeapon */
      , (43955,  14,          2) /* StackUnitMass */
      , (43955,  15,        100) /* StackUnitValue */
      , (43955,  16,          1) /* ItemUseable - No */
-     , (43955,  18,        128) /* UiEffects - Frost */
+     , (43955,  18,          1) /* UiEffects - Magical */
      , (43955,  19,        100) /* Value */
      , (43955,  44,         28) /* Damage */
      , (43955,  45,  268435456) /* DamageType - Base */
@@ -52,5 +52,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43955,   1,   33561224) /* Setup */
      , (43955,   3,  536870932) /* SoundTable */
      , (43955,   6,   67111919) /* PaletteBase */
+     , (43955,   7,  268436306) /* ClothingBase */
      , (43955,   8,  100691916) /* Icon */
      , (43955,  22,  872415275) /* PhysicsEffectTable */;

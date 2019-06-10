@@ -6,7 +6,7 @@ VALUES (32051, 'ace32051-merwarturglurg', 10, '2019-06-05 22:59:56') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32051,   1,         16) /* ItemType - Creature */
      , (32051,   2,         90) /* CreatureType - Merwart */
-     , (32051,   3,          2) /* PaletteTemplate - Blue */
+     , (32051,   3,         77) /* PaletteTemplate - BlueGreen */
      , (32051,   6,        255) /* ItemsCapacity */
      , (32051,   7,        255) /* ContainersCapacity */
      , (32051,  16,         32) /* ItemUseable - Remote */

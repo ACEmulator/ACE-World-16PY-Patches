@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11524;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11524, 'tumerokheawindreave_xp', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (11524, 'tumerokheawindreave_xp', 10, '2019-06-07 14:25:05') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11524,   1,         16) /* ItemType - Creature */
      , (11524,   2,         58) /* CreatureType - HeaTumerok */
-     , (11524,   3,         17) /* PaletteTemplate - Yellow */
+     , (11524,   3,         29) /* PaletteTemplate - DarkRedMetal */
      , (11524,   6,         -1) /* ItemsCapacity */
      , (11524,   7,         -1) /* ContainersCapacity */
      , (11524,  16,          1) /* ItemUseable - No */
@@ -34,7 +34,7 @@ VALUES (11524,   1,       5) /* HeartbeatInterval */
      , (11524,   3,     0.5) /* HealthRate */
      , (11524,   4,     0.5) /* StaminaRate */
      , (11524,   5,       2) /* ManaRate */
-     , (11524,  12,     0.5) /* Shade */
+     , (11524,  12, 0.571399986743927) /* Shade */
      , (11524,  13,       1) /* ArmorModVsSlash */
      , (11524,  14,       1) /* ArmorModVsPierce */
      , (11524,  15,       1) /* ArmorModVsBludgeon */
@@ -70,7 +70,7 @@ VALUES (11524,   1,   33559553) /* Setup */
      , (11524,   3,  536870931) /* SoundTable */
      , (11524,   4,  805306380) /* CombatTable */
      , (11524,   6,   67116625) /* PaletteBase */
-     , (11524,   7,  268436629) /* ClothingBase */
+     , (11524,   7,  268437022) /* ClothingBase */
      , (11524,   8,  100667452) /* Icon */
      , (11524,  22,  872415270) /* PhysicsEffectTable */
      , (11524,  32,        384) /* WieldedTreasureType - 
@@ -104,20 +104,20 @@ VALUES (11524,   1,    85, 0, 0, 163) /* MaxHealth */
      , (11524,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11524,  1, 0, 3, 0,  90, 0, 749.920776367188) /* Axe                 Specialized */
-     , (11524,  2, 0, 3, 0,  90, 0, 749.920776367188) /* Bow                 Specialized */
-     , (11524,  3, 0, 3, 0,  90, 0, 749.920776367188) /* Crossbow            Specialized */
-     , (11524,  4, 0, 3, 0,  90, 0, 749.920776367188) /* Dagger              Specialized */
-     , (11524,  5, 0, 3, 0,  90, 0, 749.920776367188) /* Mace                Specialized */
-     , (11524,  6, 0, 3, 0, 134, 0, 749.920776367188) /* MeleeDefense        Specialized */
-     , (11524,  7, 0, 3, 0, 226, 0, 749.920776367188) /* MissileDefense      Specialized */
-     , (11524,  9, 0, 3, 0,  90, 0, 749.920776367188) /* Spear               Specialized */
-     , (11524, 10, 0, 3, 0,  90, 0, 749.920776367188) /* Staff               Specialized */
-     , (11524, 11, 0, 3, 0,  90, 0, 749.920776367188) /* Sword               Specialized */
-     , (11524, 13, 0, 3, 0,  90, 0, 749.920776367188) /* UnarmedCombat       Specialized */
-     , (11524, 15, 0, 3, 0, 158, 0, 749.920776367188) /* MagicDefense        Specialized */
-     , (11524, 20, 0, 2, 0,   5, 0, 749.920776367188) /* Deception           Trained */
-     , (11524, 24, 0, 2, 0,  40, 0, 749.920776367188) /* Run                 Trained */;
+VALUES (11524,  1, 0, 3, 0,  90, 0, 0) /* Axe                 Specialized */
+     , (11524,  2, 0, 3, 0,  90, 0, 0) /* Bow                 Specialized */
+     , (11524,  3, 0, 3, 0,  90, 0, 0) /* Crossbow            Specialized */
+     , (11524,  4, 0, 3, 0,  90, 0, 0) /* Dagger              Specialized */
+     , (11524,  5, 0, 3, 0,  90, 0, 0) /* Mace                Specialized */
+     , (11524,  6, 0, 3, 0, 134, 0, 0) /* MeleeDefense        Specialized */
+     , (11524,  7, 0, 3, 0, 226, 0, 0) /* MissileDefense      Specialized */
+     , (11524,  9, 0, 3, 0,  90, 0, 0) /* Spear               Specialized */
+     , (11524, 10, 0, 3, 0,  90, 0, 0) /* Staff               Specialized */
+     , (11524, 11, 0, 3, 0,  90, 0, 0) /* Sword               Specialized */
+     , (11524, 13, 0, 3, 0,  90, 0, 0) /* UnarmedCombat       Specialized */
+     , (11524, 15, 0, 3, 0, 158, 0, 0) /* MagicDefense        Specialized */
+     , (11524, 20, 0, 2, 0,   5, 0, 0) /* Deception           Trained */
+     , (11524, 24, 0, 2, 0,  40, 0, 0) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11524,  0,  4,  0,    0,  170,  170,  170,  170,  170,  170,  170,  170,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -129,3 +129,11 @@ VALUES (11524,  0,  4,  0,    0,  170,  170,  170,  170,  170,  170,  170,  170,
      , (11524,  6,  4,  0,    0,  170,  170,  170,  170,  170,  170,  170,  170,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (11524,  7,  4,  0,    0,  170,  170,  170,  170,  170,  170,  170,  170,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (11524,  8,  4, 35, 0.75,  170,  170,  170,  170,  170,  170,  170,  170,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (11524,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'heawindreavekillcount@#kt', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

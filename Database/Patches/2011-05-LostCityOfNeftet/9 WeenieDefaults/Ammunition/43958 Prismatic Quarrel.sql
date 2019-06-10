@@ -1,11 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43958;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43958, 'ace43958-prismaticquarrel', 5, '2019-02-04 06:52:23') /* Ammunition */;
+VALUES (43958, 'ace43958-prismaticquarrel', 5, '2019-06-09 06:52:23') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43958,   1,        256) /* ItemType - MissileWeapon */
-     , (43958,   3,         61) /* PaletteTemplate - White */
+     , (43958,   3,         20) /* PaletteTemplate - Silver */
      , (43958,   5,          1) /* EncumbranceVal */
      , (43958,   8,          2) /* Mass */
      , (43958,   9,    8388608) /* ValidLocations - MissileAmmo */
@@ -15,7 +15,7 @@ VALUES (43958,   1,        256) /* ItemType - MissileWeapon */
      , (43958,  14,          2) /* StackUnitMass */
      , (43958,  15,        100) /* StackUnitValue */
      , (43958,  16,          1) /* ItemUseable - No */
-     , (43958,  18,        128) /* UiEffects - Frost */
+     , (43958,  18,          1) /* UiEffects - Magical */
      , (43958,  19,        100) /* Value */
      , (43958,  44,         28) /* Damage */
      , (43958,  45,  268435456) /* DamageType - Base */
@@ -52,5 +52,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43958,   1,   33561225) /* Setup */
      , (43958,   3,  536870932) /* SoundTable */
      , (43958,   6,   67111919) /* PaletteBase */
+     , (43958,   7,  268436306) /* ClothingBase */
      , (43958,   8,  100691919) /* Icon */
      , (43958,  22,  872415275) /* PhysicsEffectTable */;

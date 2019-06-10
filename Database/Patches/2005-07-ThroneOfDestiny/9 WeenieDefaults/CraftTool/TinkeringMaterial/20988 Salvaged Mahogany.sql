@@ -17,6 +17,7 @@ VALUES (20988,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (20988,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (20988,  19,         10) /* Value */
      , (20988,  33,          1) /* Bonded - Bonded */
+     , (20988,  53,        101) /* PlacementPosition - Resting */
      , (20988,  91,        100) /* MaxStructure */
      , (20988,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20988,  94,        256) /* TargetType - MissileWeapon */
