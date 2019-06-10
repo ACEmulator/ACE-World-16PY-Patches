@@ -508,4 +508,3 @@ VALUES (8003, 21073 /* Salvaged Sandstone */,    35 /* Chainmail Basinet */, '20
      , (8003, 21073 /* Salvaged Sandstone */, 29263 /* Frost Sceptre */, '2019-06-06 10:00:00')
      , (8003, 21073 /* Salvaged Sandstone */, 29264 /* Piercing Sceptre */, '2019-06-06 10:00:00')
      , (8003, 21073 /* Salvaged Sandstone */, 29265 /* Slashing Sceptre */, '2019-06-06 10:00:00');
-	 
