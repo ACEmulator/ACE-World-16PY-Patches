@@ -7,15 +7,18 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32032,   1,         16) /* ItemType - Creature */
      , (32032,   2,         47) /* CreatureType - Crystal */
      , (32032,   3,          8) /* PaletteTemplate - Green */
-     , (32032,   6,        255) /* ItemsCapacity */
-     , (32032,   7,        255) /* ContainersCapacity */
+     , (32032,   6,         -1) /* ItemsCapacity */
+     , (32032,   7,         -1) /* ContainersCapacity */
      , (32032,  16,          1) /* ItemUseable - No */
      , (32032,  25,        160) /* Level */
      , (32032,  27,          0) /* ArmorType - None */
-     , (32032,  40,          8) /* CombatMode - Magic */
+     , (32032,  40,          2) /* CombatMode - Melee */
      , (32032,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (32032,  69,          4) /* CombatTactic - LastDamager */
+     , (32032,  81,          9) /* MaxGeneratedObjects */
+     , (32032,  82,          0) /* InitGeneratedObjects */
      , (32032,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (32032, 100,          1) /* GeneratorType - Relative */
      , (32032, 133,          4) /* ShowableOnRadar - ShowAlways */
 	 , (32032, 146,          0) /* XpOverride */;
 
@@ -27,8 +30,10 @@ VALUES (32032,   1, True ) /* Stuck */
      , (32032,  13, False) /* Ethereal */
      , (32032,  14, True ) /* GravityStatus */
      , (32032,  19, True ) /* Attackable */
+	 , (32032,  29, True ) /* NoCorpse */
      , (32032,  50, True ) /* NeverFailCasting */
-	 , (32032,  52, True ) /* AiImmobile */;
+	 , (32032,  52, True ) /* AiImmobile */
+	 , (32032,  82, True ) /* DontTurnOrMoveWhenGiving */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32032,   1,       5) /* HeartbeatInterval */
@@ -47,13 +52,13 @@ VALUES (32032,   1,       5) /* HeartbeatInterval */
      , (32032,  31,      12) /* VisualAwarenessRange */
      , (32032,  34,       1) /* PowerupTime */
      , (32032,  36,       1) /* ChargeSpeed */
-     , (32032,  64,     0.1) /* ResistSlash */
-     , (32032,  65,     0.1) /* ResistPierce */
-     , (32032,  66,     0.1) /* ResistBludgeon */
-     , (32032,  67,     0.1) /* ResistFire */
-     , (32032,  68,     0.1) /* ResistCold */
-     , (32032,  69,     0.1) /* ResistAcid */
-     , (32032,  70,     0.1) /* ResistElectric */
+     , (32032,  64,       1) /* ResistSlash */
+     , (32032,  65,       1) /* ResistPierce */
+     , (32032,  66,       1) /* ResistBludgeon */
+     , (32032,  67,       1) /* ResistFire */
+     , (32032,  68,       1) /* ResistCold */
+     , (32032,  69,       1) /* ResistAcid */
+     , (32032,  70,       1) /* ResistElectric */
      , (32032,  71,       1) /* ResistHealthBoost */
      , (32032,  72,       0) /* ResistStaminaDrain */
      , (32032,  73,       1) /* ResistStaminaBoost */
@@ -91,7 +96,8 @@ VALUES (32032,   1,    10, 0, 0, 5001) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (32032,  6, 0, 3, 0, 374, 0, 0) /* MeleeDefense        Specialized */
      , (32032,  7, 0, 3, 0, 464, 0, 0) /* MissileDefense      Specialized */
-     , (32032, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
+     , (32032, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
+	 , (32032, 45, 0, 3, 0, 366, 0, 0) /* LightWeatpons       Specialized */
      , (32032, 20, 0, 3, 0, 200, 0, 0) /* Deception           Specialized */
      , (32032, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */
      , (32032, 31, 0, 3, 0, 144, 0, 0) /* CreatureEnchantment Specialized */
@@ -118,5 +124,13 @@ VALUES (32032,  2056,  2.083)  /* Ataxia */
      , (32032,  2185,  2.083)  /* Robustify */
      , (32032,  2328,  2.083)  /* Vitality Siphon */;
 
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32032, 9, 31879,  0, 0, 0, False) /* Create Radiant Shard (31879) for ContainTreasure */;
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (32032,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  72 /* Generate */, 10.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 9, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (32032, 1, 31879, 1, 9, 9, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Radiant Shard (31879) (x9 up to max of 9) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
