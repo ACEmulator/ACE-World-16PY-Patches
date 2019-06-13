@@ -5,22 +5,24 @@ VALUES (43956, 'ace43956-deadlyprismaticquarrel', 5, '2019-03-03 00:18:38') /* A
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43956,   1,        256) /* ItemType - MissileWeapon */
+     , (43956,   3,         20) /* PaletteTemplate - Silver */
      , (43956,   5,          1) /* EncumbranceVal */
+     , (43956,   8,          2) /* Mass */
      , (43956,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (43956,  11,       3000) /* MaxStackSize */
      , (43956,  12,          1) /* StackSize */
      , (43956,  13,          1) /* StackUnitEncumbrance */
+     , (43956,  14,          2) /* StackUnitMass */
      , (43956,  15,          0) /* StackUnitValue */
      , (43956,  16,          1) /* ItemUseable - No */
-     , (43956,  18,       8191) /* UiEffects - Magical, Poisoned, BoostHealth, BoostMana, BoostStamina, Fire, Lightning, Frost, Acid, Bludgeoning, Slashing, Piercing, Nether */
+     , (43956,  18,          1) /* UiEffects - Magical */
      , (43956,  19,          0) /* Value */
      , (43956,  44,         53) /* Damage */
      , (43956,  45,  268435456) /* DamageType - Base */
-     , (43956,  48,         53) /* WeaponSkill - Challenge */
-     , (43956,  49,         -1) /* WeaponTime */
-     , (43956,  50,          1) /* AmmoType - Arrow */
+     , (43956,  50,          2) /* AmmoType - Bolt */
      , (43956,  51,          3) /* CombatUse - Ammo */
      , (43956,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
+     , (43956, 150,        103) /* HookPlacement - Hook */
      , (43956, 151,          2) /* HookType - Wall */
      , (43956, 158,          8) /* WieldRequirements - Training */
      , (43956, 159,         37) /* WieldSkillType - Fletching */
@@ -34,7 +36,8 @@ VALUES (43956,   1,        256) /* ItemType - MissileWeapon */
      , (43956, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43956,  69, False) /* IsSellable */;
+VALUES (43956,  17, True ) /* Inelastic */
+     , (43956,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43956,  21,       0) /* WeaponLength */
@@ -56,5 +59,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43956,   1,   33561225) /* Setup */
      , (43956,   3,  536870932) /* SoundTable */
      , (43956,   6,   67111919) /* PaletteBase */
+     , (43956,   7,  268436306) /* ClothingBase */
      , (43956,   8,  100691917) /* Icon */
      , (43956,  22,  872415275) /* PhysicsEffectTable */;

@@ -26,6 +26,7 @@ VALUES (32125,  54, -0.100000001490116) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32125,   1, 'Gatekeepers') /* Name */
      , (32125,  16, 'You must obtain the blessing of the Gatekeepers before using this portal.') /* LongDesc */
+	 , (32125,  37, 'GateKeepersFlagComplete') /* QuestRestriction */
      , (32125,  38, 'Gatekeepers (87.6S, 4.4W).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

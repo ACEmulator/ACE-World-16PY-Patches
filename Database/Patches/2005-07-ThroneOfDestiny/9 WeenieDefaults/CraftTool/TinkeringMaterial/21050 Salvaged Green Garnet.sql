@@ -17,6 +17,7 @@ VALUES (21050,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21050,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (21050,  19,         10) /* Value */
      , (21050,  33,          1) /* Bonded - Bonded */
+     , (21050,  53,        101) /* PlacementPosition - Resting */
      , (21050,  91,        100) /* MaxStructure */
      , (21050,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21050,  94,      32768) /* TargetType - Caster */
@@ -37,6 +38,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21050,   1,   33554817) /* Setup */
      , (21050,   3,  536870932) /* SoundTable */
      , (21050,   6,   67111919) /* PaletteBase */
+     , (21050,   7,  268436430) /* ClothingBase */
      , (21050,   8,  100673214) /* Icon */
      , (21050,  22,  872415275) /* PhysicsEffectTable */
      , (21050,  50,  100673274) /* IconOverlay */;

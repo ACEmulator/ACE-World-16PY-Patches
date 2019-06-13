@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43952;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43952, 'ace43952-prismaticarrow', 5, '2019-02-04 06:52:23') /* Ammunition */;
+VALUES (43952, 'ace43952-prismaticarrow', 5, '2019-06-09 06:52:23') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43952,   1,        256) /* ItemType - MissileWeapon */
+     , (43952,   3,         20) /* PaletteTemplate - Silver */
      , (43952,   5,          1) /* EncumbranceVal */
      , (43952,   8,          2) /* Mass */
      , (43952,   9,    8388608) /* ValidLocations - MissileAmmo */
@@ -14,14 +15,14 @@ VALUES (43952,   1,        256) /* ItemType - MissileWeapon */
      , (43952,  14,          2) /* StackUnitMass */
      , (43952,  15,          0) /* StackUnitValue */
      , (43952,  16,          1) /* ItemUseable - No */
-     , (43952,  18,        128) /* UiEffects - Frost */
+     , (43952,  18,          1) /* UiEffects - Magical */
      , (43952,  19,          0) /* Value */
      , (43952,  44,         26) /* Damage */
      , (43952,  45,  268435456) /* DamageType - Base */
      , (43952,  50,          1) /* AmmoType - Arrow */
      , (43952,  51,          3) /* CombatUse - Ammo */
-     , (43952,  53,        101) /* PlacementPosition */
      , (43952,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
+     , (43952, 150,        103) /* HookPlacement - Hook */
      , (43952, 151,          2) /* HookType - Wall */
      , (43952, 158,          2) /* WieldRequirements - RawSkill */
      , (43952, 159,         37) /* WieldSkillType - Fletching */
@@ -52,5 +53,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43952,   1,   33561223) /* Setup */
      , (43952,   3,  536870932) /* SoundTable */
      , (43952,   6,   67111919) /* PaletteBase */
+     , (43952,   7,  268436306) /* ClothingBase */
      , (43952,   8,  100691913) /* Icon */
      , (43952,  22,  872415275) /* PhysicsEffectTable */;
