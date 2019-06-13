@@ -67,7 +67,7 @@ VALUES (31948,   1,   33558816) /* Setup */
      , (31948,   2,  150995302) /* MotionTable */
      , (31948,   3,  536871094) /* SoundTable */
      , (31948,   6,   67115251) /* PaletteBase */
-	 , (31012,   7,  268436835) /* ClothingBase */
+	 , (31948,   7,  268436835) /* ClothingBase */
      , (31948,   8,  100676679) /* Icon */
      , (31948,  22,  872415403) /* PhysicsEffectTable */
 	 , (31948,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
