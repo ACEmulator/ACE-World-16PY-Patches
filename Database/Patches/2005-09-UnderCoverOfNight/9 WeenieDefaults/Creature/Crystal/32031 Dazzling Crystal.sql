@@ -12,12 +12,12 @@ VALUES (32031,   1,         16) /* ItemType - Creature */
      , (32031,  16,          1) /* ItemUseable - No */
      , (32031,  25,        160) /* Level */
      , (32031,  27,          0) /* ArmorType - None */
-     , (32031,  40,          2) /* CombatMode - Melee */
+     , (32031,  40,          8) /* CombatMode - Magic */
      , (32031,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (32031,  69,          4) /* CombatTactic - LastDamager */
      , (32031,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (32031, 133,          4) /* ShowableOnRadar - ShowAlways */
-	 , (32031, 146,     500000) /* XpOverride */;
+	 , (32031, 146,          0) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32031,   1, True ) /* Stuck */
@@ -27,7 +27,8 @@ VALUES (32031,   1, True ) /* Stuck */
      , (32031,  13, False) /* Ethereal */
      , (32031,  14, True ) /* GravityStatus */
      , (32031,  19, True ) /* Attackable */
-     , (32031,  50, True ) /* NeverFailCasting */;
+     , (32031,  50, True ) /* NeverFailCasting */
+	 , (32031,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32031,   1,       5) /* HeartbeatInterval */
@@ -90,7 +91,6 @@ VALUES (32031,   1,    10, 0, 0, 5001) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (32031,  6, 0, 3, 0, 374, 0, 0) /* MeleeDefense        Specialized */
      , (32031,  7, 0, 3, 0, 464, 0, 0) /* MissileDefense      Specialized */
-     , (32031, 13, 0, 3, 0, 366, 0, 0) /* UnarmedCombat       Specialized */
      , (32031, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
      , (32031, 20, 0, 3, 0, 200, 0, 0) /* Deception           Specialized */
      , (32031, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */

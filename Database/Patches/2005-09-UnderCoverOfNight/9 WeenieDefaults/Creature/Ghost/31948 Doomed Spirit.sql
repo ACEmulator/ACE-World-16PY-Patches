@@ -22,6 +22,7 @@ VALUES (31948,   1, True ) /* Stuck */
      , (31948,  11, False) /* IgnoreCollisions */
      , (31948,  12, True ) /* ReportCollisions */
      , (31948,  13, False) /* Ethereal */
+	 , (31948,  19, True ) /* Attackable */
      , (31948, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
