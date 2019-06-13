@@ -119,4 +119,4 @@ VALUES (32032,  2056,  2.083)  /* Ataxia */
      , (32032,  2328,  2.083)  /* Vitality Siphon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32032, 9, 31879,  0, 0, 0, False) /* Create Radiant Shard (31879) for ContainTreasure */
+VALUES (32032, 9, 31879,  0, 0, 0, False) /* Create Radiant Shard (31879) for ContainTreasure */;
