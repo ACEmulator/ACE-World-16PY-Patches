@@ -37,4 +37,4 @@ VALUES (70077, -1, 70024, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* G
      , (70077, -1, 70024, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tomb Rubble (70024) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (70077, -1, 70024, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tomb Rubble (70024) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (70077, -1, 70024, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tomb Rubble (70024) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (70077, -1, 70024, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tomb Rubble (70024) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (70077, -1, 70024, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tomb Rubble (70024) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
