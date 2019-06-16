@@ -474,3 +474,7 @@ VALUES (1879277569, 1879277574, '2019-03-23 02:20:17') /* Great Revenant */
 	 , (1879277569, 1879277655, '2019-03-23 02:20:17') /* Elite Revenant */
 	 , (1879277569, 1879277656, '2019-03-23 02:20:17') /* Elite Revenant */
 	 , (1879277569, 1879277657, '2019-03-23 02:20:17') /* Elite Revenant */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1879277664, 70077, 3670769, 229.368484, -30.032377, 0.005, 0.999921, 0, 0, -0.0126, False, '2019-06-16 02:20:17'); /* Tomb Rubble Generator */
+/* @teleloc 0x003802F1 [229.368484 -30.032377 0.005000] 0.999921 0.000000 0.000000 -0.012600 */
