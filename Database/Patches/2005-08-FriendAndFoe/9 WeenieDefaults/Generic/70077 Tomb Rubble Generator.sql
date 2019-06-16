@@ -18,7 +18,7 @@ VALUES (70077,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (70077,  41,      60) /* RegenerationInterval */
      , (70077,  43,      10) /* GeneratorRadius */
-     , (70077, 121,       8) /* GeneratorInitialDelay */;
+     , (70077, 121,       5) /* GeneratorInitialDelay */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70077,   1, 'Tomb Rubble Generator') /* Name */
