@@ -19,6 +19,9 @@ VALUES (70024,  11, True ) /* IgnoreCollisions */
      , (70024,  14, True ) /* GravityStatus */
      , (70024,  19, True ) /* Attackable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (70024,  39, 0.400000005960464) /* DefaultScale */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70024,   1, 'Tomb Rubble') /* Name */
      , (70024,  16, 'A piece of rubble from the tomb of Adhorix. Bring this object back to Ssavashka as proof of the tomb''s destruction.') /* LongDesc */
