@@ -64,10 +64,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70078,   1, 'Tomb Rubble') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (70078,   1,   33558434) /* Setup */
+VALUES (70078,   1,   33556108) /* Setup */
      , (70078,   2,  150995252) /* MotionTable */
-     , (70078,   3,  536870949) /* SoundTable */
-     , (70078,   8,  100674798) /* Icon */;
+     , (70078,   3,  536870932) /* SoundTable */
+     , (70078,   8,  100687847) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (70078,   1, 200, 0, 0) /* Strength */
