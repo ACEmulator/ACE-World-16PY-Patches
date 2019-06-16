@@ -38,5 +38,8 @@ echo.
 IF DEFINED "%localdbcompile%" move ..\ACE-World-16PY\Database\compiled\*.sql
 move ..\Patches\*.sql
 
+echo UPDATE `version` SET `patch_Version` = 'v%APPVEYOR_BUILD_VERSION%' WHERE (`id` = '1'); >> ACE-World-Database.sql
+echo. >> ACE-World-Database.sql
+
 echo.
 @echo on
