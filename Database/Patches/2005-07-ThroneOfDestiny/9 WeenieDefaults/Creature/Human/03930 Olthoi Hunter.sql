@@ -517,7 +517,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Here, some protection for your hands to help keep them soft and insect-smooth.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (3930,  6 /* Give */,     0.5, 24354 /* Brood Matron Carapace */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (3930,  6 /* Give */,    0.5, 24354 /* Brood Matron Carapace */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
