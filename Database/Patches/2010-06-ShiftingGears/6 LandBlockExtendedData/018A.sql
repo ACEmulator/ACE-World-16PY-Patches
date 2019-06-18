@@ -108,11 +108,11 @@ VALUES (1880662098,  6825, 25821782, 120.11, -123.218, 0.005, 1, 0, 0, 0,  True,
 /* @teleloc 0x018A0256 [120.110000 -123.218000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1880662105, 11953, 25821440, 93.4792, -29.7542, -11.995, 0.714421, 0, 0, -0.699716, False, '2005-02-09 10:00:00'); /* Portal to Bluespire */
+VALUES (1880662105, 42825, 25821440, 93.4792, -29.7542, -11.995, 0.714421, 0, 0, -0.699716, False, '2005-02-09 10:00:00'); /* Portal to Bluespire */
 /* @teleloc 0x018A0100 [93.479200 -29.754200 -11.995000] 0.714421 0.000000 0.000000 -0.699716 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1880662106, 11960, 25821441, 93.154, -39.7525, -11.995, 0.682746, 0, 0, -0.730656, False, '2005-02-09 10:00:00'); /* Portal to Redspire */
+VALUES (1880662106, 42836, 25821441, 93.154, -39.7525, -11.995, 0.682746, 0, 0, -0.730656, False, '2005-02-09 10:00:00'); /* Portal to Redspire */
 /* @teleloc 0x018A0101 [93.154000 -39.752500 -11.995000] 0.682746 0.000000 0.000000 -0.730656 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -248,7 +248,7 @@ VALUES (1880662139,  4043, 25821670, 99.9928, -23.8072, -5.995, 1, 0, 0, -4.3711
 /* @teleloc 0x018A01E6 [99.992800 -23.807200 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1880662140, 11954, 25821671, 96.4269, -26.426, -5.995, 0.944725, 0, 0, 0.327865, False, '2005-02-09 10:00:00'); /* Portal to Greenspire */
+VALUES (1880662140, 42826, 25821671, 96.4269, -26.426, -5.995, 0.944725, 0, 0, 0.327865, False, '2005-02-09 10:00:00'); /* Portal to Greenspire */
 /* @teleloc 0x018A01E7 [96.426900 -26.426000 -5.995000] 0.944725 0.000000 0.000000 0.327865 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -264,7 +264,7 @@ VALUES (1880662143,  4042, 25821674, 99.9928, -56.9105, -5.995, 1, 0, 0, 0, Fals
 /* @teleloc 0x018A01EA [99.992800 -56.910500 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1880662144,  1027, 25821676, 109.993, -23.8072, -5.995, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Portal to Shoushi */
+VALUES (1880662144,  42840, 25821676, 109.993, -23.8072, -5.995, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Portal to Shoushi */
 /* @teleloc 0x018A01EC [109.993000 -23.807200 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -272,7 +272,7 @@ VALUES (1880662145, 11960, 25821677, 105.057, -26.357, -5.995, 0.999953, 0, 0, 0
 /* @teleloc 0x018A01ED [105.057000 -26.357000 -5.995000] 0.999953 0.000000 0.000000 0.009678 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1880662146,  4569, 25821680, 109.993, -56.9105, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Portal to Nanto */
+VALUES (1880662146,  42843, 25821680, 109.993, -56.9105, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Portal to Nanto */
 /* @teleloc 0x018A01F0 [109.993000 -56.910500 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -376,7 +376,7 @@ VALUES (1880662171,  9684, 25821701, 83.09, -20.007, 0.005, 0.707107, 0, 0, -0.7
 /* @teleloc 0x018A0205 [83.090000 -20.007000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1880662172,  1015, 25821702, 83.09, -30.007, 0.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Cragstone Portal */
+VALUES (1880662172,  42818, 25821702, 83.09, -30.007, 0.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Cragstone Portal */
 /* @teleloc 0x018A0206 [83.090000 -30.007000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -631,7 +631,7 @@ VALUES (1880662226,  6825, 25821782, 122.509, -123.218, 0.005, 1, 0, 0, 0,  True
 /* @teleloc 0x018A0256 [122.509000 -123.218000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1880662227,  1018, 25821786, 129.993, -13.8072, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Portal to Hebian-To */
+VALUES (1880662227,  42846, 25821786, 129.993, -13.8072, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Portal to Hebian-To */
 /* @teleloc 0x018A025A [129.993000 -13.807200 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -727,7 +727,7 @@ VALUES (1880662250, 22332, 25821803, 134.004, -115.948, 0.004999, 0.522633, 0, 0
 /* @teleloc 0x018A026B [134.004000 -115.948000 0.004999] 0.522633 0.000000 0.000000 -0.852558 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1880662251,  1020, 25821804, 136.193, -20.007, 0.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Portal to Holtburg */
+VALUES (1880662251,  42820, 25821804, 136.193, -20.007, 0.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Portal to Holtburg */
 /* @teleloc 0x018A026C [136.193000 -20.007000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
