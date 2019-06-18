@@ -7,7 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1027,   1,      65536) /* ItemType - Portal */
      , (1027,  16,          1) /* ItemUseable - No */
      , (1027,  93,       3092) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (1027, 111,         49) /* PortalBitmask - Unrestricted *//;
+     , (1027, 111,         49) /* PortalBitmask - Unrestricted */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1027,   1, True ) /* Stuck */
