@@ -7,8 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1020,   1,      65536) /* ItemType - Portal */
      , (1020,  16,          1) /* ItemUseable - No */
      , (1020,  93,       3092) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (1020, 111,         49) /* PortalBitmask - Unrestricted */
-     , (1020, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (1020, 111,         49) /* PortalBitmask - Unrestricted */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1020,   1, True ) /* Stuck */
@@ -22,10 +21,13 @@ VALUES (1020,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1020,   1, 'Destroyed Portal to Holtburg') /* Name */
-     , (1020,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-	 , (1020,  38, 'Destroyed Portal to Holtburg (42.1N, 33.6E).') /* Portal Destination String */;
+     , (1020,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1020,   1,   33561060) /* Setup */
      , (1020,   2,  150995314) /* MotionTable */
      , (1020,   8,  100667499) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (1020, 2, 2847146009, 84, 7.1, 94, 0.9969173, 0, 0, -0.0784591) /* Destination */
+/* @teleloc 0xA9B40019 [84.000000 7.100000 94.000000] 0.996917 0.000000 0.000000 -0.078459 */;
