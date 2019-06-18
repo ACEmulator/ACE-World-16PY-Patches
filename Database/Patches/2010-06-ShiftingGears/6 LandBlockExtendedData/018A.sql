@@ -268,7 +268,7 @@ VALUES (1880662144,  42840, 25821676, 109.993, -23.8072, -5.995, 1, 0, 0, -4.371
 /* @teleloc 0x018A01EC [109.993000 -23.807200 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1880662145, 11960, 25821677, 105.057, -26.357, -5.995, 0.999953, 0, 0, 0.00967818, False, '2005-02-09 10:00:00'); /* Portal to Redspire */
+VALUES (1880662145, 42824, 25821677, 105.057, -26.357, -5.995, 0.999953, 0, 0, 0.00967818, False, '2005-02-09 10:00:00'); /* Portal to Yaraq */
 /* @teleloc 0x018A01ED [105.057000 -26.357000 -5.995000] 0.999953 0.000000 0.000000 0.009678 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
