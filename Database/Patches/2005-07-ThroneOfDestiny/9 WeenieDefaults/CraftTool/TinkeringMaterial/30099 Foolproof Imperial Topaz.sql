@@ -19,6 +19,7 @@ VALUES (30099,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (30099,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30099,  94,      33025) /* TargetType - WeaponOrCaster */
      , (30099, 105,        100) /* ItemWorkmanship */
+	 , (30099, 131,         26) /* MaterialType - ImperialTopaz */
      , (30099, 151,          9) /* HookType - Floor, Yard */
      , (30099, 170,         10) /* NumItemsInMaterial */;
 

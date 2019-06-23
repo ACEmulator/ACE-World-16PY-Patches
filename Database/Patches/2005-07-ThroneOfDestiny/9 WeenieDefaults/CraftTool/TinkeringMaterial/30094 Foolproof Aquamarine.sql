@@ -19,6 +19,7 @@ VALUES (30094,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (30094,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30094,  94,      33025) /* TargetType - WeaponOrCaster */
      , (30094, 105,        100) /* ItemWorkmanship */
+	 , (30094, 131,         13) /* MaterialType - Aquamarine */
      , (30094, 151,          9) /* HookType - Floor, Yard */
      , (30094, 170,         10) /* NumItemsInMaterial */;
 

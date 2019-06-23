@@ -19,6 +19,7 @@ VALUES (30098,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (30098,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30098,  94,      33025) /* TargetType - WeaponOrCaster */
      , (30098, 105,        100) /* ItemWorkmanship */
+	 , (30098, 131,         22) /* MaterialType - FireOpal */
      , (30098, 151,          9) /* HookType - Floor, Yard */
      , (30098, 170,         10) /* NumItemsInMaterial */;
 

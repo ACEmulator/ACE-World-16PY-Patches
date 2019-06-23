@@ -19,6 +19,7 @@ VALUES (30100,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (30100,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30100,  94,      33025) /* TargetType - WeaponOrCaster */
      , (30100, 105,        100) /* ItemWorkmanship */
+	 , (30100, 131,         27) /* MaterialType - Jet */
      , (30100, 151,          9) /* HookType - Floor, Yard */
      , (30100, 170,         10) /* NumItemsInMaterial */;
 
