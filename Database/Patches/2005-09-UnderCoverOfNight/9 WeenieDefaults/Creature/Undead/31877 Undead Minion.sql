@@ -6,7 +6,7 @@ VALUES (31877, 'ace31877-undeadminion', 10, '2019-06-23 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31877,   1,         16) /* ItemType - Creature */
      , (31877,   2,         14) /* CreatureType - Undead */
-     , (31877,   3,         20) /* PaletteTemplate - Silver */
+     , (31877,   3,          9) /* PaletteTemplate - Grey */
      , (31877,   6,         -1) /* ItemsCapacity */
      , (31877,   7,         -1) /* ContainersCapacity */
      , (31877,  16,          1) /* ItemUseable - No */
@@ -72,7 +72,9 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31877,   1,   33554839) /* Setup */
      , (31877,   2,  150994967) /* MotionTable */
      , (31877,   3,  536870934) /* SoundTable */
+	 , (31877,   4,  805306368) /* CombatTable */
      , (31877,   6,   67110722) /* PaletteBase */
+	 , (31877,   7,  268436626) /* ClothingBase */
      , (31877,   8,  100667942) /* Icon */
      , (31877,  22,  872415272) /* PhysicsEffectTable */
      , (31877,  32,        426) /* WieldedTreasureType - 
@@ -93,9 +95,9 @@ VALUES (31877,   1, 180, 0, 0) /* Strength */
      , (31877,   6, 230, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31877,   1,    10, 0, 0, 785) /* MaxHealth */
-     , (31877,   3,    10, 0, 0, 940) /* MaxStamina */
-     , (31877,   5,    10, 0, 0, 780) /* MaxMana */;
+VALUES (31877,   1,   700, 0, 0, 785) /* MaxHealth */
+     , (31877,   3,   770, 0, 0, 940) /* MaxStamina */
+     , (31877,   5,   550, 0, 0, 780) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (31877, 44, 0, 3, 0, 313, 0, 0) /* HeavyWeapons        Specialized */
