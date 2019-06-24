@@ -80,7 +80,7 @@ VALUES (1879286760, 1879286789, '2019-06-24 05:25:54') /* Doomed Spirit */
      , (1879286760, 1879286861, '2019-06-24 05:25:54') /* Doomed Spirit */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1879286761, 31884, 3802433, 237.606, -42.2234, -0.063, -0.216964, 0, 0, -0.97618, False, '2019-06-24 05:25:54'); /* Surface */
+VALUES (1879286761, 31885, 3802433, 237.606, -42.2234, -0.063, -0.216964, 0, 0, -0.97618, False, '2019-06-24 05:25:54'); /* Surface */
 /* @teleloc 0x003A0541 [237.606000 -42.223400 -0.063000] -0.216964 0.000000 0.000000 -0.976180 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
