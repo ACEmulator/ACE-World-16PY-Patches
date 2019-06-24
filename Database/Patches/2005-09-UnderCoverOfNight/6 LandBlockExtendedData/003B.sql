@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 59;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1879290856,  7923, 3867406, 80.29103, -60.41598, -5.995, -0.999777, 0, 0, -0.021133, False, '2019-04-08 08:19:56'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x003B030E [80.291030 -60.415980 -5.995000] -0.999777 0.000000 0.000000 -0.021133 */
@@ -756,3 +758,15 @@ VALUES (1879291014, 31279, 3867359, 289.4668, -198.7316, -17.995, -0.997521, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1879291015, 31279, 3867230, 291.9142, -179.9206, -23.995, -0.681326, 0, 0, 0.73198,  True, '2019-04-08 08:19:56'); /* Bone Scourge */
 /* @teleloc 0x003B025E [291.914200 -179.920600 -23.995000] -0.681326 0.000000 0.000000 0.731980 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1879291016,  79996, 3867071, 70.4438, -174.5145, -35.995, -0.999995, 0, 0, -0.003053,  False, '2019-04-08 08:19:56'); /* Radiant Shard Generator */
+/* @teleloc  0x003B01BF [70.443802 -174.514526 -35.994999] -0.999995 0.000000 0.000000 -0.003053 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1879291017,  79997, 3867127, 170.1809, -260.5781, -35.995, 0.999664, 0, 0, -0.025918, False, '2019-04-08 08:19:56'); /* Dazzling Shard Generator */
+/* @teleloc 0x003B01F7 [170.180900 -260.578100 -35.995000] 0.999664 0.000000 0.000000 -0.025918 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1879291018,  79998, 3867191, 421.5819, -211.9701, -29.995, 0.923693, 0, 0, 0.383135, False, '2019-04-08 08:19:56'); /* Brilliant Shard Generator */
+/* @teleloc 0x003B0237 [421.581900 -211.970100 -29.995000] 0.923693 0.000000 0.000000 0.383135 */
