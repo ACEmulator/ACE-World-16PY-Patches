@@ -67,6 +67,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31948,   1,   33558816) /* Setup */
      , (31948,   2,  150995302) /* MotionTable */
      , (31948,   3,  536871094) /* SoundTable */
+	 , (31948,   4,  805306429) /* CombatTable */
      , (31948,   6,   67115251) /* PaletteBase */
 	 , (31948,   7,  268436835) /* ClothingBase */
      , (31948,   8,  100676679) /* Icon */
@@ -90,7 +91,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (31948,  6, 0, 3, 0, 170, 0, 0) /* MeleeDefense        Specialized */
      , (31948,  7, 0, 3, 0, 336, 0, 0) /* MissileDefense      Specialized */
      , (31948, 14, 0, 3, 0, 300, 0, 0) /* ArcaneLore          Specialized */
-     , (31948, 15, 0, 3, 0, 409, 0, 0) /* MagicDefense        Specialized */
+     , (31948, 15, 0, 3, 0, 309, 0, 0) /* MagicDefense        Specialized */
      , (31948, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
      , (31948, 24, 0, 3, 0,  60, 0, 0) /* Run                 Specialized */
      , (31948, 31, 0, 3, 0, 280, 0, 0) /* CreatureEnchantment Specialized */
