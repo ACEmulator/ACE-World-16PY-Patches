@@ -18,7 +18,7 @@ VALUES (32030,   1,         16) /* ItemType - Creature */
      , (32030,  81,          9) /* MaxGeneratedObjects */
      , (32030,  82,          0) /* InitGeneratedObjects */
      , (32030,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (32030, 100,          1) /* GeneratorType - Relative */
+     , (32030, 101,          1) /* AiAllowedCombatStyle - Unarmed */
      , (32030, 133,          4) /* ShowableOnRadar - ShowAlways */
 	 , (32030, 146,          0) /* XpOverride */;
 
@@ -98,7 +98,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (32030,  6, 0, 3, 0, 374, 0, 0) /* MeleeDefense        Specialized */
      , (32030,  7, 0, 3, 0, 464, 0, 0) /* MissileDefense      Specialized */
      , (32030, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
-	 , (32030, 45, 0, 3, 0, 366, 0, 0) /* LightWeatpons       Specialized */
+	 , (32030, 46, 0, 3, 0, 366, 0, 0) /* FinesseWeapons      Specialized */
      , (32030, 20, 0, 3, 0, 200, 0, 0) /* Deception           Specialized */
      , (32030, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */
      , (32030, 31, 0, 3, 0, 144, 0, 0) /* CreatureEnchantment Specialized */
