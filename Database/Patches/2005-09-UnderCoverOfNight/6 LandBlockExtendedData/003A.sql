@@ -84,10 +84,6 @@ VALUES (1879286761, 31885, 3802433, 237.606, -42.2234, -0.063, -0.216964, 0, 0, 
 /* @teleloc 0x003A0541 [237.606000 -42.223400 -0.063000] -0.216964 0.000000 0.000000 -0.976180 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1879286762,   278, 3802029, 214.662, -19.9695, -11.995, 0.711533, 0, 0, -0.702652, False, '2019-06-24 05:25:54'); /* Door */
-/* @teleloc 0x003A03AD [214.662000 -19.969500 -11.995000] 0.711533 0.000000 0.000000 -0.702652 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1879286763,   568, 3802547, 19.9544, -215.147, 6.005, 0.017019, 0, 0, 0.999855, False, '2019-06-24 05:25:54'); /* Door */
 /* @teleloc 0x003A05B3 [19.954400 -215.147000 6.005000] 0.017019 0.000000 0.000000 0.999855 */
 
