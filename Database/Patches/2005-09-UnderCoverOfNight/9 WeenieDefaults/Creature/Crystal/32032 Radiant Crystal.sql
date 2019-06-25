@@ -18,7 +18,7 @@ VALUES (32032,   1,         16) /* ItemType - Creature */
      , (32032,  81,          9) /* MaxGeneratedObjects */
      , (32032,  82,          0) /* InitGeneratedObjects */
      , (32032,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (32032, 100,          1) /* GeneratorType - Relative */
+	 , (32032, 101,          1) /* AiAllowedCombatStyle - Unarmed */
      , (32032, 133,          4) /* ShowableOnRadar - ShowAlways */
 	 , (32032, 146,          0) /* XpOverride */;
 
@@ -75,6 +75,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32032,   1,   33558690) /* Setup */
      , (32032,   2,  150995290) /* MotionTable */
      , (32032,   3,  536871001) /* SoundTable */
+	 , (32032,   4,  805306407) /* CombatTable */
      , (32032,   6,   67113876) /* PaletteBase */
 	 , (32032,   7,  268436443) /* ClothingBase */
      , (32032,   8,  100676420) /* Icon */
@@ -97,7 +98,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (32032,  6, 0, 3, 0, 374, 0, 0) /* MeleeDefense        Specialized */
      , (32032,  7, 0, 3, 0, 464, 0, 0) /* MissileDefense      Specialized */
      , (32032, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
-	 , (32032, 45, 0, 3, 0, 366, 0, 0) /* LightWeatpons       Specialized */
+	 , (32032, 46, 0, 3, 0, 366, 0, 0) /* FinesseWeapons      Specialized */
      , (32032, 20, 0, 3, 0, 200, 0, 0) /* Deception           Specialized */
      , (32032, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */
      , (32032, 31, 0, 3, 0, 144, 0, 0) /* CreatureEnchantment Specialized */
@@ -130,7 +131,12 @@ VALUES (32032,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  72 /* Generate */, 10.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 9, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  23 /* StartEvent */, 0, 1, NULL, 'RadiantShardEvent', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32032, 1, 31879, 1, 9, 9, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Radiant Shard (31879) (x9 up to max of 9) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (32032,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  24 /* StopEvent */, 0, 1, NULL, 'RadiantShardEvent', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -19,6 +19,7 @@ VALUES (30103,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (30103,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30103,  94,      33025) /* TargetType - WeaponOrCaster */
      , (30103, 105,        100) /* ItemWorkmanship */
+	 , (30103, 131,         41) /* MaterialType - Sunstone */
      , (30103, 151,          9) /* HookType - Floor, Yard */
      , (30103, 170,         10) /* NumItemsInMaterial */;
 

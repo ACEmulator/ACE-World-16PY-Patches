@@ -19,6 +19,7 @@ VALUES (30105,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (30105,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30105,  94,          2) /* TargetType - Armor */
      , (30105, 105,        100) /* ItemWorkmanship */
+	 , (30105, 131,         49) /* MaterialType - YellowTopaz */
      , (30105, 151,          9) /* HookType - Floor, Yard */
      , (30105, 170,         10) /* NumItemsInMaterial */;
 

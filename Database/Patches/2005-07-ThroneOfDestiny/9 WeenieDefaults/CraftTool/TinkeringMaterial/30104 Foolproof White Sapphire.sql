@@ -19,6 +19,7 @@ VALUES (30104,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (30104,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30104,  94,      33025) /* TargetType - WeaponOrCaster */
      , (30104, 105,        100) /* ItemWorkmanship */
+	 , (30104, 131,         47) /* MaterialType - WhiteSapphire */
      , (30104, 151,          9) /* HookType - Floor, Yard */
      , (30104, 170,         10) /* NumItemsInMaterial */;
 

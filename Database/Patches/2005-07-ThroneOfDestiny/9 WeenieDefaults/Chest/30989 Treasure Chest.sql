@@ -10,6 +10,7 @@ VALUES (30989,   1,        512) /* ItemType - Container */
      , (30989,   7,         10) /* ContainersCapacity */
      , (30989,  16,         48) /* ItemUseable - ViewedRemote */
      , (30989,  19,        200) /* Value */
+     , (30989,  81,          3) /* MaxGeneratedObjects */
      , (30989,  82,          3) /* InitGeneratedObjects */
      , (30989,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (30989, 100,          1) /* GeneratorType - Relative */;

@@ -19,6 +19,7 @@ VALUES (30095,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (30095,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30095,  94,      33025) /* TargetType - WeaponOrCaster */
      , (30095, 105,        100) /* ItemWorkmanship */
+	 , (30095, 131,         15) /* MaterialType - BlackGarnet */
      , (30095, 151,          9) /* HookType - Floor, Yard */
      , (30095, 170,         10) /* NumItemsInMaterial */;
 

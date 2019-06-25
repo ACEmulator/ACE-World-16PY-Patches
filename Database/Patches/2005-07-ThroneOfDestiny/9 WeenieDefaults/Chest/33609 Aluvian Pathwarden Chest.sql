@@ -12,6 +12,7 @@ VALUES (33609,   1,        512) /* ItemType - Container */
      , (33609,  16,         48) /* ItemUseable - ViewedRemote */
      , (33609,  19,       2500) /* Value */
      , (33609,  38,       9999) /* ResistLockpick */
+	 , (33609,  81,          8) /* MaxGeneratedObjects */
      , (33609,  82,          8) /* InitGeneratedObjects */
      , (33609,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (33609, 100,          1) /* GeneratorType - Relative */

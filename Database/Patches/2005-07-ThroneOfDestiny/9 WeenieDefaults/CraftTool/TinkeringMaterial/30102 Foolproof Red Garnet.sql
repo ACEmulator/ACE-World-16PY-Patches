@@ -19,6 +19,7 @@ VALUES (30102,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (30102,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30102,  94,      33025) /* TargetType - WeaponOrCaster */
      , (30102, 105,        100) /* ItemWorkmanship */
+	 , (30102, 131,         35) /* MaterialType - RedGarnet */
      , (30102, 151,          9) /* HookType - Floor, Yard */
      , (30102, 170,         10) /* NumItemsInMaterial */;
 
