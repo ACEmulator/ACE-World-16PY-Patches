@@ -6,6 +6,7 @@ VALUES (31972, 'ace31972-flameguardian', 10, '2019-03-26 20:02:53') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31972,   1,         16) /* ItemType - Creature */
      , (31972,   2,         62) /* CreatureType - Elemental */
+     , (31972,   3,         14) /* PaletteTemplate - Red */
      , (31972,   6,        255) /* ItemsCapacity */
      , (31972,   7,        255) /* ContainersCapacity */
      , (31972,  16,         32) /* ItemUseable - Remote */
@@ -30,6 +31,7 @@ VALUES (31972,   1,   33559683) /* Setup */
      , (31972,   2,  150994945) /* MotionTable */
      , (31972,   3,  536870998) /* SoundTable */
      , (31972,   6,   67116522) /* PaletteBase */
+     , (31972,   7,  268437042) /* ClothingBase */
      , (31972,   8,  100670274) /* Icon */
      , (31972,  31,     112006) /* LinkedPortalOne */;
 

@@ -6,6 +6,7 @@ VALUES (31971, 'ace31971-waterguardian', 10, '2019-03-26 20:02:53') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31971,   1,         16) /* ItemType - Creature */
      , (31971,   2,         62) /* CreatureType - Elemental */
+     , (31971,   3,          2) /* PaletteTemplate - Blue */
      , (31971,   6,        255) /* ItemsCapacity */
      , (31971,   7,        255) /* ContainersCapacity */
      , (31971,  16,         32) /* ItemUseable - Remote */
@@ -30,6 +31,7 @@ VALUES (31971,   1,   33559686) /* Setup */
      , (31971,   2,  150994945) /* MotionTable */
      , (31971,   3,  536871066) /* SoundTable */
      , (31971,   6,   67116522) /* PaletteBase */
+     , (31971,   7,  268437042) /* ClothingBase */
      , (31971,   8,  100672514) /* Icon */
      , (31971,  31,     112007) /* LinkedPortalOne */;
 
