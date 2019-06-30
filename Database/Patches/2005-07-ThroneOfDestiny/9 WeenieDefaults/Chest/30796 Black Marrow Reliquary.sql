@@ -12,8 +12,8 @@ VALUES (30796,   1,        512) /* ItemType - Container */
      , (30796,  16,         48) /* ItemUseable - ViewedRemote */
      , (30796,  19,       2500) /* Value */
      , (30796,  38,       9999) /* ResistLockpick */
-     , (30796,  81,          4) /* MaxGeneratedObjects */
-     , (30796,  82,          6) /* InitGeneratedObjects */
+     , (30796,  81,          2) /* MaxGeneratedObjects */
+     , (30796,  82,          2) /* InitGeneratedObjects */
      , (30796,  83,          2) /* ActivationResponse - Use */
      , (30796,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (30796,  96,       1200) /* EncumbranceCapacity */
@@ -49,7 +49,7 @@ VALUES (30796,   1,   33559268) /* Setup */
      , (30796,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30796, -1, 449, 0, 3, 6, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 449 (x3 up to max of 6) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
+VALUES (30796, -1, 449, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 449 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
      , (30796, 0.05, 11710, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Writ of Refuge (11710) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (30796, 0.1, 20630, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Trade Note (250,000) (20630) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (30796, 0.15, 2625, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Trade Note (10,000) (2625) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
