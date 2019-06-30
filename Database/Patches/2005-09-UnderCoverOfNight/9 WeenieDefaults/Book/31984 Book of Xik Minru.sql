@@ -33,7 +33,7 @@ VALUES (31984,   1,   33559593) /* Setup */
      , (31984,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (31984, 0, 0);
+VALUES (31984, 10, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (31984, 0, 4294967295, 'Fanzen San', '', False, 'The word we have from our spies in Haebrous has been most interesting. It seems that the games of mortality that the Haebreans find so diverting have recently become a bitter spectacle. A gladiator in their great arena united their slaves and led a rebellion that devastated the city. Their obnoxious little queen died at the center of the arena, beheaded by the rebel leader, a barbarian outlander named Grael. We have heard that the gladiator went so far as to cut out her heart and eat it in front of his cheering followers.')
