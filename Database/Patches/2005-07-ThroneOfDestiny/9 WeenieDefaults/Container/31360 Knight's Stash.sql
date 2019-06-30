@@ -1,19 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31360;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31360, 'ace31360-knightsstash', 21, '2019-03-03 00:18:38') /* Container */;
+VALUES (31360, 'ace31360-knightsstash', 20, '2019-06-30 00:00:00') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31360,   1,        512) /* ItemType - Container */
      , (31360,   5,       9000) /* EncumbranceVal */
-     , (31360,   6,        120) /* ItemsCapacity */
-     , (31360,   7,         10) /* ContainersCapacity */
+     , (31360,   6,         -1) /* ItemsCapacity */
+     , (31360,   7,         -1) /* ContainersCapacity */
      , (31360,   8,       3000) /* Mass */
      , (31360,  16,         48) /* ItemUseable - ViewedRemote */
      , (31360,  19,       2500) /* Value */
-     , (31360,  37,         50) /* ResistItemAppraisal */
-     , (31360,  81,         20) /* MaxGeneratedObjects */
-     , (31360,  82,         20) /* InitGeneratedObjects */
+     , (31360,  81,          1) /* MaxGeneratedObjects */
+     , (31360,  82,          1) /* InitGeneratedObjects */
      , (31360,  83,          2) /* ActivationResponse - Use */
      , (31360,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (31360,  96,        500) /* EncumbranceCapacity */
@@ -47,4 +46,4 @@ VALUES (31360,   1,   33558095) /* Setup */
      , (31360,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31360, -1, 341, 0, 20, 20, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 5 from Death Treasure Table id: 341 (x20 up to max of 20) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
+VALUES (31360, -1, 341, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 5 from Death Treasure Table id: 341 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
