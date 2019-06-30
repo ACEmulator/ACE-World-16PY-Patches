@@ -35,7 +35,7 @@ VALUES (31416,   1,   33554776) /* Setup */
      , (31416,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (31416, 0, 0);
+VALUES (31416, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (31416, 0, 4294967295, 'Lucane Kraest', '', True, 'Many nights I have spent here, within this dark sepulcher, attempting to decipher the crystal and the means with which to free the creature it contains. The books I have discovered on my journeys across Dereth have been of great aid, but now my time is pressed.

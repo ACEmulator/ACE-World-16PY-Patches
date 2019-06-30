@@ -34,7 +34,7 @@ VALUES (70005,   1,   33554773) /* Setup */
      , (70005,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (70005, 0, 0);
+VALUES (70005, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (70005, 0, 4294967295, 'Lieutenant Commander Arwyth Margyle', '', False, 'Although I freely acknowledge that what the Viamontians did to Commander Kurth was abhorrent, you have little to be proud of yourself. Men under my command die daily in defense against an enemy that you seem to have forgotten in lieu of your war with the Viamontians. When Elysa remembers that there is a war being waged here and sends us reinforcements, we may remember our oath of fealty.');

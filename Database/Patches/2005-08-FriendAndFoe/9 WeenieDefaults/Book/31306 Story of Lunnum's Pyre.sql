@@ -34,7 +34,7 @@ VALUES (31306,   1,   33554773) /* Setup */
      , (31306,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (31306, 0, 0);
+VALUES (31306, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (31306, 0, 4294967295, 'Gaya', '', False, 'Many years ago when the Fiun escaped to Dereth, only one Fiun female fled with them. Her name was Fiun Lunnum and with her rested the fate of all the Fiun. For as long as Lunnum survived there remained hope that the Fiun race would somehow survive and rebuild. Unfortunately, hope soon turned to horror as one day Lunnum was found brutally murdered by one of their own.')

@@ -37,7 +37,7 @@ VALUES (8676,   1,   33554771) /* Setup */
      , (8676,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8676, 0, 0);
+VALUES (8676, 11, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (8676, 0, 4294967295, '0', '', False, 'Welcome to the land of Dereth, fellow traveler! 

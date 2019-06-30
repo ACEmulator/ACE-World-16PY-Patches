@@ -35,7 +35,7 @@ VALUES (31440,   1,   33559593) /* Setup */
      , (31440,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (31440, 0, 0);
+VALUES (31440, 11, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (31440, 0, 4294967295, 'Lord Alashorn', '', False, 'An account by Lord Alashorn, Diplomat of the Seaborne Empire of Yalain, Ambassador to the Court of His Majesty King Braletain of Haebrous.')

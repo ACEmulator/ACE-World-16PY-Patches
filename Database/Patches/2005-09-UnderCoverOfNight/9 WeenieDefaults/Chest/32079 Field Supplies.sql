@@ -12,7 +12,7 @@ VALUES (32079,   1,        512) /* ItemType - Container */
      , (32079,   8,       3000) /* Mass */
      , (32079,  16,         48) /* ItemUseable - ViewedRemote */
      , (32079,  19,       2500) /* Value */
-     , (32079,  81,          5) /* MaxGeneratedObjects */
+     , (32079,  81,          2) /* MaxGeneratedObjects */
      , (32079,  82,          2) /* InitGeneratedObjects */
      , (32079,  83,          2) /* ActivationResponse - Use */
      , (32079,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
@@ -48,4 +48,4 @@ VALUES (32079,   1,   33554556) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32079, 1, 32083, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Instructions (32083) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (32079, 1, 448, 0, 3, 7, 2, 72, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 4 from Death Treasure Table id: 448 (x3 up to max of 7) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
+     , (32079, 1, 448, 0, 1, 1, 2, 72, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 4 from Death Treasure Table id: 448 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
