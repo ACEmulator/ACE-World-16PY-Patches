@@ -15,7 +15,7 @@ VALUES (79990,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (79990,  41,      60) /* RegenerationInterval */
-     , (79990,  43,       5) /* GeneratorRadius */;
+     , (79990,  43,      10) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (79990,   1, 'Grimy Moarsman Camp Generator') /* Name */;
