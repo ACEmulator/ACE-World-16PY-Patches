@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42636;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42636, 'ace42636-aetheria', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (42636, 'ace42636-aetheria', 38, '2019-07-04 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42636,   1,       2048) /* ItemType - Gem */
@@ -35,7 +35,7 @@ VALUES (42636,   1, False) /* Stuck */
      , (42636,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (42636,   1, 'Aetheria') /* Name */
+VALUES (42636,   1, 'Coalesced Aetheria') /* Name */
      , (42636,  16, 'A glowing ball of Coalesced Aetheria.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
