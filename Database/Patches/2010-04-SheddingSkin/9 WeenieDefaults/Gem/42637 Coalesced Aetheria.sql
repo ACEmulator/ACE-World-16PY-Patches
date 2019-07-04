@@ -14,10 +14,8 @@ VALUES (42637,   1,       2048) /* ItemType - Gem */
      , (42637,  16,          1) /* ItemUseable - No */
      , (42637,  18,          1) /* UiEffects - Magical */
      , (42637,  19,      10000) /* Value */
-     , (42637,  65,        101) /* Placement - Resting */
      , (42637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42637, 158,          7) /* WieldRequirements - Level */
-     , (42637, 159,          1) /* WieldSkillType - Axe */
      , (42637, 160,        150) /* WieldDifficulty */
      , (42637, 319,          1) /* ItemMaxLevel */
      , (42637, 320,          2) /* ItemXpStyle - ScalesWithLevel */;
@@ -27,12 +25,7 @@ VALUES (42637,   4,          0) /* ItemTotalXp */
      , (42637,   5, 1000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42637,   1, False) /* Stuck */
-     , (42637,  11, True ) /* IgnoreCollisions */
-     , (42637,  13, True ) /* Ethereal */
-     , (42637,  14, True ) /* GravityStatus */
-     , (42637,  19, True ) /* Attackable */
-     , (42637,  22, True ) /* Inscribable */;
+VALUES (42637,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42637,   1, 'Coalesced Aetheria') /* Name */
