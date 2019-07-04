@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42646;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42646, 'ace42646-aetheriadesiccant', 44, '2019-03-17 00:00:00') /* CraftTool */;
+VALUES (42646, 'ace42646-aetheriadesiccant', 44, '2019-07-04 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42646,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
@@ -13,17 +13,11 @@ VALUES (42646,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (42646,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (42646,  18,         16) /* UiEffects - BoostStamina */
      , (42646,  19,       1000) /* Value */
-     , (42646,  65,        101) /* Placement - Resting */
      , (42646,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42646,  94,       2048) /* TargetType - Gem */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42646,   1, False) /* Stuck */
-     , (42646,  11, True ) /* IgnoreCollisions */
-     , (42646,  13, True ) /* Ethereal */
-     , (42646,  14, True ) /* GravityStatus */
-     , (42646,  19, True ) /* Attackable */
-     , (42646,  69, False) /* IsSellable */;
+VALUES (42646,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42646,   1, 'Aetheria Desiccant') /* Name */
