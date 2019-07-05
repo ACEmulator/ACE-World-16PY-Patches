@@ -116,20 +116,6 @@ VALUES (33033,  0,  4,  0,    0,  300,  240,  240,  240,  300,  300,  300,  300,
      , (33033,  7,  4,  0,    0,  300,  240,  240,  240,  300,  300,  300,  300,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (33033,  8,  4, 130, 0.75,  300,  240,  240,  240,  300,  300,  300,  300,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33033,    69,  2.055)  /* Shock Wave VI */
-     , (33033,    91,  2.008)  /* Force Bolt VI */
-     , (33033,    97,  2.055)  /* Whirling Blade VI */
-     , (33033,   170,      2)  /* Regeneration Self VI */
-     , (33033,   234,    2.1)  /* Vulnerability Other VI */
-     , (33033,  1242,   2.01)  /* Drain Health Other VI */
-     , (33033,  1254,   2.01)  /* Drain Stamina Other VI */
-     , (33033,  1265,   2.01)  /* Drain Mana Other VI */
-     , (33033,  2164,   2.08)  /* Swordsman's Gift */
-     , (33033,  2166,   2.08)  /* Tusker's Gift */
-     , (33033,  2174,   2.08)  /* Archer's Gift */
-     , (33033,  2763,   2.01)  /* Martyr's Hecatomb IV */;
-
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (33033,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (33033, 414) /* PLAYER_DEATH_EVENT */;
