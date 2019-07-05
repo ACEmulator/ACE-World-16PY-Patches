@@ -100,18 +100,6 @@ VALUES (42668,  0, 32, 50,  0.5,   50,   50,   42,   42,   42,   42,  100,   42,
      , (42668, 17, 32,  5, 0.75,   50,   50,   42,   42,   42,   42,  100,   42,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
      , (42668, 21, 32,  0,    0,   40,   40,   34,   34,   34,   34,   80,   34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42668,    62,   2.15)  /* Acid Stream V */
-     , (42668,   222,   2.17)  /* Mana Depletion Other V */
-     , (42668,  1160,    2.1)  /* Heal Self V */
-     , (42668,  1175,   2.17)  /* Harm Other V */
-     , (42668,  1199,   2.17)  /* Enfeeble Other V */
-     , (42668,  1223,   2.17)  /* Mana Drain Other V */
-     , (42668,  1241,   2.67)  /* Drain Health Other V */
-     , (42668,  1253,   2.67)  /* Drain Stamina Other V */
-     , (42668,  1264,   2.67)  /* Drain Mana Other V */
-     , (42668,  1371,   2.67)  /* Frailty Other V */;
-
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (42668,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (42668, 414) /* PLAYER_DEATH_EVENT */;
