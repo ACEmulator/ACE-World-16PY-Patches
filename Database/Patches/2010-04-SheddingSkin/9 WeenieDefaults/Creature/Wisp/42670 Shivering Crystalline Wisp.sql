@@ -101,16 +101,8 @@ VALUES (42670,  0,  8, 50,  0.5,   50,   50,   42,   42,  500,  128,  128,   42,
      , (42670, 21, 16,  0,    0,   40,   40,   34,   34,  400,  102,  102,   34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42670,    73,   2.15)  /* Frost Bolt V */
-     , (42670,   222,   2.17)  /* Mana Depletion Other V */
-     , (42670,  1160,    2.1)  /* Heal Self V */
-     , (42670,  1175,   2.17)  /* Harm Other V */
-     , (42670,  1199,   2.17)  /* Enfeeble Other V */
-     , (42670,  1223,   2.17)  /* Mana Drain Other V */
-     , (42670,  1241,   2.67)  /* Drain Health Other V */
-     , (42670,  1253,   2.67)  /* Drain Stamina Other V */
-     , (42670,  1264,   2.67)  /* Drain Mana Other V */
-     , (42670,  1419,   2.17)  /* Slowness Other V */;
+VALUES (42670,    74,   2.15)  /* Frost Bolt VI */
+     , (42670,   138,   2.17)  /* Frost Volley VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (42670,  94) /* ATTACK_NOTIFICATION_EVENT */
