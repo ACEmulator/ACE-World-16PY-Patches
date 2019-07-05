@@ -5,6 +5,7 @@ VALUES (42635, 'ace42635-aetheria', 38, '2019-07-04 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42635,   1,       2048) /* ItemType - Gem */
+     , (42635,   3,          2) /* PaletteTemplate - Blue */
      , (42635,   5,         50) /* EncumbranceVal */
      , (42635,   9,          0) /* ValidLocations - None */
      , (42635,  11,          1) /* MaxStackSize */
@@ -35,6 +36,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42635,   1,   33554809) /* Setup */
      , (42635,   3,  536870932) /* SoundTable */
      , (42635,   6,   67111919) /* PaletteBase */
+     , (42635,   7,  268435723) /* ClothingBase */
      , (42635,   8,  100690954) /* Icon */
      , (42635,  22,  872415275) /* PhysicsEffectTable */
      , (42635,  50,  100690996) /* IconOverlay */;
