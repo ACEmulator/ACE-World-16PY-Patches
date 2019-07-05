@@ -17,6 +17,7 @@ VALUES (42637,   1,       2048) /* ItemType - Gem */
      , (42637,  19,      10000) /* Value */
      , (42637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42637, 158,          7) /* WieldRequirements - Level */
+     , (42637, 159,          1) /* WieldSkillType - Axe */
      , (42637, 160,        150) /* WieldDifficulty */
      , (42637, 319,          1) /* ItemMaxLevel */
      , (42637, 320,          2) /* ItemXpStyle - ScalesWithLevel */;
