@@ -101,10 +101,6 @@ VALUES (42671,  0,  8, 50,  0.5,   50,   50,   42,   42,   42,  100,   42,   42,
      , (42671, 17, 16,  5, 0.75,   50,   50,   42,   42,   42,  100,   42,   42,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
      , (42671, 21, 16,  0,    0,   50,   50,   42,   42,   42,  100,   42,   42,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42671,    85,   2.15)  /* Flame Bolt VI */
-     , (42671,   146,   2.17)  /* Flame Volley VI */;
-
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (42671,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (42671, 414) /* PLAYER_DEATH_EVENT */;
