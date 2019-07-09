@@ -106,4 +106,6 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'shallowsgorgerkillcou
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31909, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
-     , (31909, 9, 24477,  1, 0, 0.04, True) /* Create Sturdy Steel Key (24477) for ContainTreasure */;
+     , (31909, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (31909, 9, 24477,  1, 0, 0.04, True) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+	 , (31909, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;
