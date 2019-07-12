@@ -19,8 +19,8 @@ VALUES (1882054660, 28768, 48103935, 50.12, -104.24, -6, 1, 0, 0, 0.03, False, '
 /* @teleloc 0x02DE01FF [50.120000 -104.240000 -6.000000] 1.000000 0.000000 0.000000 0.030000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1882054661, 29063, 48103770, 210.63, -99.75, -35.99, 0.72, 0, 0, -0.7, False, '2019-02-15 14:34:36'); /* Old Chest */
-/* @teleloc 0x02DE015A [210.630000 -99.750000 -35.990000] 0.720000 0.000000 0.000000 -0.700000 */
+VALUES (1882054661, 29063, 48103770, 210.63, -99.75, -34.994, 0.707107, 0, 0, -0.707107, False, '2019-07-12 14:34:36'); /* Old Chest */
+/* @teleloc 0x02DE015A [210.630000 -99.750000 -34.994000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1882054662, 28668, 48104105, 140.24, -243.3067, 0.005, -0.019996, 0, 0, 0.9998, True, '2019-02-15 14:34:36'); /* Ruschk Warlord */
