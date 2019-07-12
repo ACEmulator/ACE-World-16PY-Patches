@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31757;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31757, 'ace31757-fertilizedpitcherplant', 1, '2019-02-27 18:20:40') /* Generic */;
+VALUES (31757, 'ace31757-fertilizedpitcherplant', 64, '2019-07-12 18:20:40') /* Hooker */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31757,   1,        128) /* ItemType - Misc */
@@ -10,13 +10,12 @@ VALUES (31757,   1,        128) /* ItemType - Misc */
      , (31757,  19,        100) /* Value */
      , (31757,  53,        101) /* PlacementPosition - Resting */
      , (31757,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31757, 151,          9) /* HookType - Floor, Yard */;
+     , (31757, 150,        103) /* HookPlacement - Hook */
+     , (31757, 151,          9) /* HookType - Floor, Yard */
+     , (31757, 197,          1) /* HookGroup */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31757,  11, True ) /* IgnoreCollisions */
-     , (31757,  13, True ) /* Ethereal */
-     , (31757,  14, True ) /* GravityStatus */
-     , (31757,  19, True ) /* Attackable */
+VALUES (31757,  13, True ) /* Ethereal */
      , (31757,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
