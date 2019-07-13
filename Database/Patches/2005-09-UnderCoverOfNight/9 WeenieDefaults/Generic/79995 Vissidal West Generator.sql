@@ -15,7 +15,7 @@ VALUES (79995,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (79995,  41,     600) /* RegenerationInterval */
-     , (79995,  43,      15) /* GeneratorRadius */;
+     , (79995,  43,      20) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (79995,   1, 'Vissidal West Generator') /* Name */;
@@ -56,7 +56,7 @@ VALUES (79995,  0.01964, 79987, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
      , (79995, 0.7237338, 31914, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scummy Moarsman (31914) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (79995, 0.7531938, 79992, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Moarsman Camp Generator (79992) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (79995, 0.7826537, 31915, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Grimy Moarsman (31915) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (79995, 0.8121137, 22809, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gold Moarsman (31913) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (79995, 0.8121137, 31913, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gold Moarsman (31913) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (79995, 0.8366637, 79991, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Vissidal Niffis Camp Generator (79991) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (79995, 0.8612137, 79987, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wave Golem Camp Generator (79987) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (79995, 0.8857636, 32034, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gold Niffis (32034) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
