@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28697;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28697, 'fiunnoress', 10, '2019-04-15 00:00:00') /* Creature */;
+VALUES (28697, 'fiunnoress', 10, '2019-07-13 00:58:48') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28697,   1,         16) /* ItemType - Creature */
      , (28697,   2,         78) /* CreatureType - Fiun */
-     , (28697,   3,          9) /* PaletteTemplate - Grey */
+     , (28697,   3,          8) /* PaletteTemplate - Green */
      , (28697,   6,         -1) /* ItemsCapacity */
      , (28697,   7,         -1) /* ContainersCapacity */
      , (28697,   8,        120) /* Mass */
@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28697,   3, 0.159999996423721) /* HealthRate */
      , (28697,   4,       5) /* StaminaRate */
      , (28697,   5,       1) /* ManaRate */
-     , (28697,  12,       1) /* Shade */
+     , (28697,  12,       0) /* Shade */
      , (28697,  13, 0.899999976158142) /* ArmorModVsSlash */
      , (28697,  14,       1) /* ArmorModVsPierce */
      , (28697,  15, 1.10000002384186) /* ArmorModVsBludgeon */
@@ -381,17 +381,6 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (28697,  6 /* Give */,      1, 29294 /* Reinforcement of the Lugians */, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  10 /* Tell */, 0.5, 1, NULL, 'Empowered with my teachings is this gem. Use this to improve one''s self.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  2,  10 /* Tell */, 0.5, 1, NULL, 'Forewarned are you to read the inscription before using.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  3,   3 /* Give */, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 29293 /* Steadfast Will */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28697,  6 /* Give */,      1, 29295 /* Blank Augmentation Gem */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
