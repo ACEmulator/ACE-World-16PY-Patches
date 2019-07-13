@@ -1,4 +1,4 @@
 DELETE FROM `spell` WHERE `id` = 4132;
 
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`, `last_Modified`)
-VALUES (4132, 'Spectral Blood Drinker', 36880 /* Skill, SingleStat, Additive */, 14 /* ArcaneLore */, 10, '2019-03-18 09:00:00');
+VALUES (4132, 'Spectral Blood Drinker', 33591300 /* Int, SingleStat, Additive, Beneficial */, 360 /* WeaponAuraDamage */, 30, '2019-07-11 00:00:00');
