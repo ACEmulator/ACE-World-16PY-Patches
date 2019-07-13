@@ -116,5 +116,5 @@ VALUES (31907,  2054,  2)  /* Synaptic Misfire */
 	 , (31907,  2132,  2)  /* The Spike */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31907, 9, 34277,  1, 0, 0.02, True) /* Create Gold Remoran Eggs (34277) for ContainTreasure */
+VALUES (31907, 9, 31905,  1, 0, 0.02, True) /* Create Gold Remoran Eggs (31905) for ContainTreasure */
      , (31907, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
