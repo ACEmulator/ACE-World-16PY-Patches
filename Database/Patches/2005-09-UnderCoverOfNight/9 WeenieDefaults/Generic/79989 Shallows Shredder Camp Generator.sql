@@ -5,7 +5,7 @@ VALUES (79989, 'ace79989-shallowsshreddercampgen', 1, '2005-02-09 10:00:00') /* 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (79989,  81,          3) /* MaxGeneratedObjects */
-     , (79989,  82,          3) /* InitGeneratedObjects */
+     , (79989,  82,          1) /* InitGeneratedObjects */
      , (79989,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
