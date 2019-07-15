@@ -90,11 +90,11 @@ VALUES (32034,   1,  6180, 0, 0, 6360) /* MaxHealth */
      , (32034,   5,  4700, 0, 0, 5180) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (32034,  6, 0, 3, 0, 381, 0, 0) /* MeleeDefense        Specialized */
-     , (32034,  7, 0, 3, 0, 475, 0, 0) /* MissileDefense      Specialized */
-     , (32034, 13, 0, 3, 0, 350, 0, 0) /* UnarmedCombat       Specialized */
+VALUES (32034,  6, 0, 3, 0, 180, 0, 0) /* MeleeDefense        Specialized */
+     , (32034,  7, 0, 3, 0, 230, 0, 0) /* MissileDefense      Specialized */
+     , (32034, 45, 0, 3, 0, 178, 0, 0) /* Light Weapons       Specialized */
      , (32034, 14, 0, 3, 0,  70, 0, 0) /* ArcaneLore          Specialized */
-     , (32034, 15, 0, 3, 0, 280, 0, 0) /* MagicDefense        Specialized */
+     , (32034, 15, 0, 3, 0, 230, 0, 0) /* MagicDefense        Specialized */
      , (32034, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
      , (32034, 31, 0, 3, 0, 175, 0, 0) /* CreatureEnchantment Specialized */
      , (32034, 32, 0, 3, 0, 175, 0, 0) /* ItemEnchantment     Specialized */
