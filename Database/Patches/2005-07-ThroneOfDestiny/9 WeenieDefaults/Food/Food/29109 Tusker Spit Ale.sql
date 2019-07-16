@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29109;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29109, 'aletuskerspit', 18, '2019-02-04 06:52:23') /* Food */;
+VALUES (29109, 'aletuskerspit', 18, '2019-07-16 14:01:15') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29109,   1,         32) /* ItemType - Food */
@@ -37,9 +37,7 @@ VALUES (29109,   1,   33559128) /* Setup */
      , (29109,   3,  536870932) /* SoundTable */
      , (29109,   8,  100686437) /* Icon */
      , (29109,  22,  872415275) /* PhysicsEffectTable */
+     , (29109,  23,         65) /* UseSound - Drink1 */
      , (29109,  28,       3530) /* Spell - Ketnan's Eye */
      , (29109,  50,  100687554) /* IconOverlay */
      , (29109,  52,  100687547) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29109,  3530,      2)  /* Ketnan's Eye */;
