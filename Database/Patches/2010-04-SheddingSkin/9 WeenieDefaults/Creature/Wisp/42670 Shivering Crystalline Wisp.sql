@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42670;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42670, 'ace42670-shiveringcrystallinewisp', 10, '2019-07-03 00:00:00') /* Creature */;
+VALUES (42670, 'ace42670-shiveringcrystallinewisp', 10, '2019-07-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42670,   1,         16) /* ItemType - Creature */
@@ -13,7 +13,7 @@ VALUES (42670,   1,         16) /* ItemType - Creature */
      , (42670,  27,          0) /* ArmorType - None */
      , (42670,  40,          2) /* CombatMode - Melee */
      , (42670,  68,          9) /* TargetingTactic - Random, TopDamager */
-     , (42670,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (42670,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (42670, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42670, 146,     125000) /* XpOverride */;
 
@@ -23,6 +23,7 @@ VALUES (42670,   1, True ) /* Stuck */
      , (42670,  11, False) /* IgnoreCollisions */
      , (42670,  12, True ) /* ReportCollisions */
      , (42670,  13, False) /* Ethereal */
+     , (42670,  42, True ) /* AllowEdgeSlide */
      , (42670,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
