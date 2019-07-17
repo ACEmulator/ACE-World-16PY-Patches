@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31839;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31839, 'ace31839-markis', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (31839, 'ace31839-markis', 10, '2019-07-13 00:58:48') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31839,   1,         16) /* ItemType - Creature */
@@ -61,7 +61,7 @@ VALUES (31839,   1,    10, 0, 0, 45) /* MaxHealth */
      , (31839,   5,   130, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (31839,  7 /* Use */,    100, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (31839,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

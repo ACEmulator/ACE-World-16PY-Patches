@@ -4,8 +4,8 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (79986, 'ace79986-aqueousgolemcampgen', 1, '2019-06-30 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (79986,  81,          6) /* MaxGeneratedObjects */
-     , (79986,  82,          4) /* InitGeneratedObjects */
+VALUES (79986,  81,          4) /* MaxGeneratedObjects */
+     , (79986,  82,          2) /* InitGeneratedObjects */
      , (79986,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
