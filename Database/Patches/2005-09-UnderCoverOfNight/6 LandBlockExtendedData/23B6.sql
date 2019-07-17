@@ -39,3 +39,7 @@ VALUES (1916493833, 31954, 599130395, 8.0014, 38.4203, -3.195, 0.8406041, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1916493834, 32110, 599130426, 46.8945, 40.1646, -3.195, 0.3071991, 0, 0, 0.9516453, False, '2019-06-07 00:00:00') /* Robert Gutsmasher */
 /* @teleloc 0x23B6013A [46.894500 40.164600 -3.195000] 0.307199 0.000000 0.000000 0.951645 */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1916494835, 70087, 599130383, 52.38343, 35.63641, -15.195, 0.719477, 0, 0, 0.694516, False, '2019-07-16 01:21:57'); /* Back Tunnels */
+/* @teleloc 0x23B6010F [52.383430 35.636410 -15.195000] 0.719477 0.000000 0.000000 0.694516 */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42668;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42668, 'ace42668-intensecorrodingcrystallinewisp', 10, '2019-07-04 00:00:00') /* Creature */;
+VALUES (42668, 'ace42668-intensecorrodingcrystallinewisp', 10, '2019-07-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42668,   1,         16) /* ItemType - Creature */
@@ -13,7 +13,7 @@ VALUES (42668,   1,         16) /* ItemType - Creature */
      , (42668,  27,          0) /* ArmorType - None */
      , (42668,  40,          2) /* CombatMode - Melee */
      , (42668,  68,          9) /* TargetingTactic - Random, TopDamager */
-     , (42668,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (42668,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (42668, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42668, 146,     125000) /* XpOverride */;
 
@@ -23,6 +23,7 @@ VALUES (42668,   1, True ) /* Stuck */
      , (42668,  11, False) /* IgnoreCollisions */
      , (42668,  12, True ) /* ReportCollisions */
      , (42668,  13, False) /* Ethereal */
+     , (42668,  42, True ) /* AllowEdgeSlide */
      , (42668,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -84,7 +85,7 @@ VALUES (42668,   1,   920, 0, 0, 1020) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (42668,  6, 0, 3, 0, 265, 0, 1314.36890009751) /* MeleeDefense        Specialized */
-     , (42668,  7, 0, 3, 0, 370, 0, 1314.36890009751) /* MissileDefense      Specialized */
+     , (42668,  7, 0, 3, 0, 355, 0, 1314.36890009751) /* MissileDefense      Specialized */
      , (42668, 13, 0, 3, 0,  84, 0, 1314.36890009751) /* UnarmedCombat       Specialized */
      , (42668, 14, 0, 3, 0, 300, 0, 1314.36890009751) /* ArcaneLore          Specialized */
      , (42668, 15, 0, 3, 0, 230, 0, 1314.36890009751) /* MagicDefense        Specialized */

@@ -89,11 +89,11 @@ VALUES (31907,   1, 10860, 0, 0, 11020) /* MaxHealth */
      , (31907,   5,  2680, 0, 0,  3020) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (31907,  6, 0, 3, 0, 381, 0, 0) /* MeleeDefense        Specialized */
-     , (31907,  7, 0, 3, 0, 475, 0, 0) /* MissileDefense      Specialized */
-     , (31907, 45, 0, 3, 0, 350, 0, 0) /* Light Weapons       Specialized */
+VALUES (31907,  6, 0, 3, 0, 180, 0, 0) /* MeleeDefense        Specialized */
+     , (31907,  7, 0, 3, 0, 230, 0, 0) /* MissileDefense      Specialized */
+     , (31907, 45, 0, 3, 0, 178, 0, 0) /* Light Weapons       Specialized */
      , (31907, 14, 0, 3, 0,  70, 0, 0) /* ArcaneLore          Specialized */
-     , (31907, 15, 0, 3, 0, 280, 0, 0) /* MagicDefense        Specialized */
+     , (31907, 15, 0, 3, 0, 230, 0, 0) /* MagicDefense        Specialized */
      , (31907, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
      , (31907, 31, 0, 3, 0, 175, 0, 0) /* CreatureEnchantment Specialized */
      , (31907, 32, 0, 3, 0, 175, 0, 0) /* ItemEnchantment     Specialized */
@@ -116,5 +116,5 @@ VALUES (31907,  2054,  2)  /* Synaptic Misfire */
 	 , (31907,  2132,  2)  /* The Spike */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31907, 9, 34277,  1, 0, 0.02, True) /* Create Gold Remoran Eggs (34277) for ContainTreasure */
+VALUES (31907, 9, 31905,  1, 0, 0.02, True) /* Create Gold Remoran Eggs (31905) for ContainTreasure */
      , (31907, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
