@@ -1,6 +1,6 @@
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2103288808, 32045, 3587834190, 180.083, 184.47, 0.012, 0.009657, 0, 0, 0.999953, False, '2019-07-16 01:21:57'); /* Temple of Xik Minru */
-/* @teleloc 0xD5DA014E [180.083000 184.470000 0.012000] 0.009657 0.000000 0.000000 0.999953 */
+VALUES (2103288808, 32045, 3587834190, 180.083, 184.47, 0.005, 0.009657, 0, 0, 0.999953, False, '2019-07-16 01:21:57'); /* Temple of Xik Minru */
+/* @teleloc 0xD5DA014E [180.083000 184.470000 0.005000] 0.009657 0.000000 0.000000 0.999953 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2103288809, 32044, 3587833909, 167.841, 108.204, 115.937, 0.707107, 0, 0, -0.707107, False, '2019-07-16 01:21:57'); /* Upper Sanctum of Xik Minru */
