@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22135;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22135, 'jewelemeraldhauntedmansion', 38, '2019-02-04 06:52:23') /* Gem */;
+VALUES (22135, 'jewelemeraldhauntedmansion', 38, '2019-07-24 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22135,   1,       2048) /* ItemType - Gem */
@@ -18,9 +18,7 @@ VALUES (22135,   1,       2048) /* ItemType - Gem */
      , (22135,  33,          1) /* Bonded - Bonded */
      , (22135,  53,        101) /* PlacementPosition */
      , (22135,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22135, 114,          1) /* Attuned - Attuned */
-     , (22135, 131,         21) /* MaterialType - Emerald */
-     , (22135, 169,   16777216) /* TsysMutationData */;
+     , (22135, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22135,  11, True ) /* IgnoreCollisions */
@@ -38,5 +36,4 @@ VALUES (22135,   1,   33554809) /* Setup */
      , (22135,   6,   67111919) /* PaletteBase */
      , (22135,   7,  268435723) /* ClothingBase */
      , (22135,   8,  100668362) /* Icon */
-     , (22135,  22,  872415275) /* PhysicsEffectTable */
-     , (22135,  36,  234881046) /* MutateFilter */;
+     , (22135,  22,  872415275) /* PhysicsEffectTable */;
