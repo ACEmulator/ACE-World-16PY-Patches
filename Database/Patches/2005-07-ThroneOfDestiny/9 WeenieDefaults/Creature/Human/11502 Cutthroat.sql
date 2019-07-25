@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11502;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11502, 'humancutthroat_xp', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (11502, 'humancutthroat_xp', 10, '2019-07-25 20:02:17') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11502,   1,         16) /* ItemType - Creature */
@@ -18,8 +18,7 @@ VALUES (11502,   1,         16) /* ItemType - Creature */
      , (11502, 113,          1) /* Gender - Male */
      , (11502, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11502, 146,      17500) /* XpOverride */
-     , (11502, 188,          1) /* HeritageGroup - Aluvian */
-     , (11502, 307,          5) /* DamageRating */;
+     , (11502, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11502,   1, True ) /* Stuck */

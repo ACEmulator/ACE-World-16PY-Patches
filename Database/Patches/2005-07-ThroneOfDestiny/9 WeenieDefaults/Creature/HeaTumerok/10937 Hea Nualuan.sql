@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10937;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10937, 'heatumeroknualuankanokeh_xp', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (10937, 'heatumeroknualuankanokeh_xp', 10, '2019-07-25 20:02:17') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10937,   1,         16) /* ItemType - Creature */
@@ -18,8 +18,7 @@ VALUES (10937,   1,         16) /* ItemType - Creature */
      , (10937, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (10937, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10937, 140,          1) /* AiOptions - CanOpenDoors */
-     , (10937, 146,      10000) /* XpOverride */
-     , (10937, 307,          5) /* DamageRating */;
+     , (10937, 146,      10000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10937,   1, True ) /* Stuck */

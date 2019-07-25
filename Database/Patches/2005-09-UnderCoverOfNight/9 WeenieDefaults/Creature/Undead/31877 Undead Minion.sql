@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31877;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31877, 'ace31877-undeadminion', 10, '2019-06-23 00:00:00') /* Creature */;
+VALUES (31877, 'ace31877-undeadminion', 10, '2019-07-25 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31877,   1,         16) /* ItemType - Creature */
@@ -104,8 +104,8 @@ VALUES (31877, 44, 0, 3, 0, 313, 0, 0) /* HeavyWeapons        Specialized */
      , (31877, 47, 0, 3, 0, 200, 0, 0) /* MissileWeapons      Specialized */
      , (31877, 45, 0, 3, 0, 313, 0, 0) /* LightWeapons        Specialized */
      , (31877, 46, 0, 3, 0, 353, 0, 0) /* FinesseWeapons      Specialized */
-     , (31877,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
-     , (31877,  7, 0, 3, 0, 410, 0, 0) /* MissileDefense      Specialized */
+     , (31877,  6, 0, 3, 0, 200, 0, 0) /* MeleeDefense        Specialized */
+     , (31877,  7, 0, 3, 0, 210, 0, 0) /* MissileDefense      Specialized */
      , (31877, 15, 0, 3, 0, 279, 0, 0) /* MagicDefense        Specialized */
      , (31877, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
      , (31877, 31, 0, 3, 0, 240, 0, 0) /* CreatureEnchantment Specialized */

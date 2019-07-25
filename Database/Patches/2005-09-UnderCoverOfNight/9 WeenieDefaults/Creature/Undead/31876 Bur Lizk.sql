@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31876;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31876, 'ace31876-burlizk', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (31876, 'ace31876-burlizk', 10, '2019-07-25 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31876,   1,         16) /* ItemType - Creature */
@@ -96,8 +96,8 @@ VALUES (31876,   1,  7800, 0, 0, 8000) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (31876, 44, 0, 3, 0, 313, 0, 0) /* HeavyWeapons        Specialized */
-     , (31876,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
-     , (31876,  7, 0, 3, 0, 410, 0, 0) /* MissileDefense      Specialized */
+     , (31876,  6, 0, 3, 0, 200, 0, 0) /* MeleeDefense        Specialized */
+     , (31876,  7, 0, 3, 0, 210, 0, 0) /* MissileDefense      Specialized */
      , (31876, 15, 0, 3, 0, 279, 0, 0) /* MagicDefense        Specialized */
      , (31876, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
      , (31876, 31, 0, 3, 0, 240, 0, 0) /* CreatureEnchantment Specialized */

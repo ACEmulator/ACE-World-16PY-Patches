@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32003;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32003, 'ace32003-wormfeast', 10, '2019-07-20 17:24:37') /* Creature */;
+VALUES (32003, 'ace32003-wormfeast', 10, '2019-07-25 17:24:37') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32003,   1,         16) /* ItemType - Creature */
@@ -89,9 +89,9 @@ VALUES (32003,   1,  3850, 0, 0, 4035) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (32003,  6, 0, 3, 0, 203, 0, 0) /* MeleeDefense        Specialized */
-     , (32003,  7, 0, 3, 0, 345, 0, 0) /* MissileDefense      Specialized */
+     , (32003,  7, 0, 3, 0, 245, 0, 0) /* MissileDefense      Specialized */
      , (32003, 14, 0, 3, 0, 240, 0, 0) /* ArcaneLore          Specialized */
-     , (32003, 15, 0, 3, 0, 332, 0, 0) /* MagicDefense        Specialized */
+     , (32003, 15, 0, 3, 0, 232, 0, 0) /* MagicDefense        Specialized */
      , (32003, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
      , (32003, 31, 0, 3, 0, 290, 0, 0) /* CreatureEnchantment Specialized */
      , (32003, 33, 0, 3, 0, 258, 0, 0) /* LifeMagic           Specialized */
