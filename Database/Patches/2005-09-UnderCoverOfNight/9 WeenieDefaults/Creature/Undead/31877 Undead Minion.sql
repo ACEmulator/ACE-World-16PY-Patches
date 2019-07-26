@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31877;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31877, 'ace31877-undeadminion', 10, '2019-07-25 00:00:00') /* Creature */;
+VALUES (31877, 'ace31877-undeadminion', 10, '2019-07-25 22:10:59') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31877,   1,         16) /* ItemType - Creature */
@@ -18,8 +18,7 @@ VALUES (31877,   1,         16) /* ItemType - Creature */
      , (31877, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (31877, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (31877, 140,          1) /* AiOptions - CanOpenDoors */
-     , (31877, 146,    1500000) /* XpOverride */
-     , (31877, 307,          5) /* DamageRating */;
+     , (31877, 146,     800000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31877,   1, True ) /* Stuck */
@@ -72,9 +71,9 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31877,   1,   33554839) /* Setup */
      , (31877,   2,  150994967) /* MotionTable */
      , (31877,   3,  536870934) /* SoundTable */
-	 , (31877,   4,  805306368) /* CombatTable */
+     , (31877,   4,  805306368) /* CombatTable */
      , (31877,   6,   67110722) /* PaletteBase */
-	 , (31877,   7,  268436626) /* ClothingBase */
+     , (31877,   7,  268436626) /* ClothingBase */
      , (31877,   8,  100667942) /* Icon */
      , (31877,  22,  872415272) /* PhysicsEffectTable */
      , (31877,  32,        426) /* WieldedTreasureType - 
@@ -100,44 +99,40 @@ VALUES (31877,   1,   700, 0, 0, 785) /* MaxHealth */
      , (31877,   5,   550, 0, 0, 780) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (31877, 44, 0, 3, 0, 313, 0, 0) /* HeavyWeapons        Specialized */
-     , (31877, 47, 0, 3, 0, 200, 0, 0) /* MissileWeapons      Specialized */
-     , (31877, 45, 0, 3, 0, 313, 0, 0) /* LightWeapons        Specialized */
-     , (31877, 46, 0, 3, 0, 353, 0, 0) /* FinesseWeapons      Specialized */
-     , (31877,  6, 0, 3, 0, 200, 0, 0) /* MeleeDefense        Specialized */
-     , (31877,  7, 0, 3, 0, 210, 0, 0) /* MissileDefense      Specialized */
-     , (31877, 15, 0, 3, 0, 279, 0, 0) /* MagicDefense        Specialized */
-     , (31877, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
-     , (31877, 31, 0, 3, 0, 240, 0, 0) /* CreatureEnchantment Specialized */
-     , (31877, 32, 0, 3, 0, 240, 0, 0) /* ItemEnchantment     Specialized */
-     , (31877, 33, 0, 3, 0, 240, 0, 0) /* LifeMagic           Specialized */
-     , (31877, 34, 0, 3, 0, 240, 0, 0) /* WarMagic            Specialized */;
+VALUES (31877,  6, 0, 3, 0, 280, 0, 0) /* MeleeDefense        Specialized */
+     , (31877,  7, 0, 3, 0, 247, 0, 0) /* MissileDefense      Specialized */
+     , (31877, 15, 0, 3, 0, 221, 0, 0) /* MagicDefense        Specialized */
+     , (31877, 31, 0, 3, 0, 327, 0, 0) /* CreatureEnchantment Specialized */
+     , (31877, 32, 0, 3, 0, 327, 0, 0) /* ItemEnchantment     Specialized */
+     , (31877, 33, 0, 3, 0, 327, 0, 0) /* LifeMagic           Specialized */
+     , (31877, 34, 0, 3, 0, 327, 0, 0) /* WarMagic            Specialized */
+     , (31877, 44, 0, 3, 0, 398, 0, 0) /* HeavyWeapons        Specialized */
+     , (31877, 45, 0, 3, 0, 398, 0, 0) /* LightWeapons        Specialized */
+     , (31877, 46, 0, 3, 0, 393, 0, 0) /* FinesseWeapons      Specialized */
+     , (31877, 47, 0, 3, 0, 280, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (31877,  0,  4,  0,    0,  500,  400,  275,  350,  125,  300,  350,  375,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (31877,  1,  4,  0,    0,  500,  400,  275,  350,  125,  300,  350,  375,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (31877,  2,  4,  0,    0,  500,  400,  275,  350,  125,  300,  350,  375,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (31877,  3,  4,  0,    0,  500,  400,  275,  350,  125,  300,  350,  375,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (31877,  4,  4,  0,    0,  500,  400,  275,  350,  125,  300,  350,  375,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (31877,  5,  4, 80, 0.75,  500,  400,  275,  350,  125,  300,  350,  375,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (31877,  6,  4,  0,    0,  500,  400,  275,  350,  125,  300,  350,  375,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (31877,  7,  4,  0,    0,  500,  400,  275,  350,  125,  300,  350,  375,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (31877,  8,  4, 80, 0.75,  500,  400,  275,  350,  125,  300,  350,  375,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (31877,  0,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (31877,  1,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (31877,  2,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (31877,  3,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (31877,  4,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (31877,  5,  4, 100, 0.75,  475,  475,  475,  475,  475,  475,  475,  475,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (31877,  6,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (31877,  7,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (31877,  8,  4, 100, 0.75,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31877,   176,   2.04)  /* Fester Other VI */
-     , (31877,  1161,   2.04)  /* Heal Self VI */
-     , (31877,  1242,   2.04)  /* Drain Health Other VI */
-     , (31877,  1254,   2.04)  /* Drain Stamina Other VI */
-     , (31877,  2084,   2.04)  /* Belly of Lead */
-     , (31877,  2088,   2.04)  /* Senescence */;
+VALUES (31877,   234,   2.02)  /* Vulnerability Other VI */
+     , (31877,   526,   2.02)  /* Acid Vulnerability Other VI */
+     , (31877,  1065,   2.02)  /* Cold Vulnerability Other VI */
+     , (31877,  2121,   2.02)  /* Corrosive Flash */
+     , (31877,  2137,   2.02)  /* Sudden Frost */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31877, 9,  9310,  0, 0, 0.1, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
-     , (31877, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (31877, 9,  7045,  0, 0, 0.05, False) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
-     , (31877, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (31877, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
-     , (31877, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (31877, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
-     , (31877, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
+VALUES (31877, 9,  7045,  1, 0, 0.05, True) /* Create Dark Revenant Thighbone (7045) for ContainTreasure */
+     , (31877, 9,     0,  1, 0, 0.95, True) /* Create nothing for ContainTreasure */
+     , (31877, 9,  9310,  1, 0, 0.1, True) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (31877, 9,     0,  1, 0, 0.9, True) /* Create nothing for ContainTreasure */
+     , (31877, 9, 23108,  1, 0, 0.02, True) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (31877, 9,     0,  1, 0, 0.98, True) /* Create nothing for ContainTreasure */;
