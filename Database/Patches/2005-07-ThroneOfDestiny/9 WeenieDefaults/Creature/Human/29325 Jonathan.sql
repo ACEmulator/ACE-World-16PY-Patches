@@ -1,8 +1,7 @@
-/* Weenie - Jonathan (29325) */
-DELETE FROM weenie WHERE class_Id = 29325;
+DELETE FROM `weenie` WHERE `class_Id` = 29325;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES ('29325', 'academyguardexitsanamar', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29325, 'academyguardexitsanamar', 10, '2019-07-27 19:23:38') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29325,   1,         16) /* ItemType - Creature */
@@ -12,9 +11,9 @@ VALUES (29325,   1,         16) /* ItemType - Creature */
      , (29325,   7,         -1) /* ContainersCapacity */
      , (29325,   8,        120) /* Mass */
      , (29325,  16,         32) /* ItemUseable - Remote */
-     , (29325,  25,         9) /* Level */
-     , (29325,  27,          0) /* ArmorType */
-     , (29325,  93,    6292504) /* PhysicsState */
+     , (29325,  25,          9) /* Level */
+     , (29325,  27,          0) /* ArmorType - None */
+     , (29325,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (29325,  95,          8) /* RadarBlipColor - Yellow */
      , (29325, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (29325, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -31,17 +30,17 @@ VALUES (29325,   1, True ) /* Stuck */
      , (29325,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29325,   3,    0.16) /* HealthRate */
+VALUES (29325,   3, 0.159999996423721) /* HealthRate */
      , (29325,   4,       5) /* StaminaRate */
      , (29325,   5,       1) /* ManaRate */
      , (29325,  12,       1) /* Shade */
-     , (29325,  13,     0.9) /* ArmorModVsSlash */
+     , (29325,  13, 0.899999976158142) /* ArmorModVsSlash */
      , (29325,  14,       1) /* ArmorModVsPierce */
-     , (29325,  15,     1.1) /* ArmorModVsBludgeon */
-     , (29325,  16,     0.4) /* ArmorModVsCold */
-     , (29325,  17,     0.4) /* ArmorModVsFire */
+     , (29325,  15, 1.10000002384186) /* ArmorModVsBludgeon */
+     , (29325,  16, 0.400000005960464) /* ArmorModVsCold */
+     , (29325,  17, 0.400000005960464) /* ArmorModVsFire */
      , (29325,  18,       1) /* ArmorModVsAcid */
-     , (29325,  19,     0.6) /* ArmorModVsElectric */
+     , (29325,  19, 0.600000023841858) /* ArmorModVsElectric */
      , (29325,  54,       3) /* UseRadius */
      , (29325,  64,       1) /* ResistSlash */
      , (29325,  65,       1) /* ResistPierce */
@@ -78,8 +77,8 @@ VALUES (29325,   1,  90, 0, 0) /* Strength */
      , (29325,   2,  85, 0, 0) /* Endurance */
      , (29325,   3,  90, 0, 0) /* Quickness */
      , (29325,   4,  50, 0, 0) /* Coordination */
-     , (29325,   5, 70, 0, 0) /* Focus */
-     , (29325,   6, 60, 0, 0) /* Self */;
+     , (29325,   5,  70, 0, 0) /* Focus */
+     , (29325,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (29325,   1,    10, 0, 0, 53) /* MaxHealth */
@@ -98,12 +97,12 @@ VALUES (29325,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (29325,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29325,  5 /* HeartBeat */,    0.001, NULL, 2147483709 /* Standing */, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL);
+VALUES (29325,  5 /* HeartBeat */,  0.001, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 8 /* Say */, 0, 100, NULL, 'Double-click on me to hear what I have to say.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   8 /* Say */, 0, 100, NULL, 'Double-click on me to hear what I have to say.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29325,  6 /* Give */,      1, 29335 /* Academy Exit Token */, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -115,11 +114,12 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 12711 /* Oil of Rendering */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 12711 /* Oil of Rendering */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 13219 /* Academy Coat */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  4,  63 /* SetSanctuaryPosition */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 869859336, 5.703595, 186.283, 52.005, 0.300286, 0, 0, -0.953849)
+     , (@parent_id,  4,  63 /* SetSanctuaryPosition */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2847146009 /* @teleloc 0xA9B40019 [84.000000 7.100000 94.000000] 0.996917 0.000000 0.000000 -0.078459 */, 84, 7.1, 94, 0.996917, 0, 0, -0.0784591)
      , (@parent_id,  5,  69 /* SetBoolStat */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 107, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  6,  31 /* EraseQuest */, 0, 1, NULL, 'AcademeyExitTokenGiven', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  7,  19 /* CastSpellInstant */, 0.1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3535 /* Free Ride to Sanamar */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  8,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  7,  19 /* CastSpellInstant */, 0.1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3815 /* Free Ride to Holtburg */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  8,  68 /* PopUp */, 1, 1, NULL, 'Make sure you talk to Rufina to continue your journey.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  9,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29325,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
