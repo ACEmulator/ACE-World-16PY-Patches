@@ -173,7 +173,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (710, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+VALUES (710, 2,   124,  0, 7, 0.33, False) /* Create Jerkin (124) for Wield */
+     , (710, 2,   127,  0, 8, 0.67, False) /* Create Pants (127) for Wield */
+     , (710, 2,   115,  0, 18, 1, False) /* Create Leather Boots (115) for Wield */
+     , (710, 2, 10696,  0, 6, 0, False) /* Create Apron (10696) for Wield */
+     , (710, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (710, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (710, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (710, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
