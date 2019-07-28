@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42803;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42803, 'ace42803-barkeepdevra', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42803, 'ace42803-barkeepdevra', 12, '2019-02-10 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42803,   1,         16) /* ItemType - Creature */
@@ -72,22 +72,30 @@ VALUES (42803,   1, 100, 0, 0) /* Strength */
      , (42803,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42803,   1,   140, 0, 0, 140) /* MaxHealth */
-     , (42803,   3,   210, 0, 0, 210) /* MaxStamina */
-     , (42803,   5,    80, 0, 0, 80) /* MaxMana */;
+VALUES (42803,   1,   100, 0, 0, 140) /* MaxHealth */
+     , (42803,   3,   130, 0, 0, 210) /* MaxStamina */
+     , (42803,   5,    60, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42803, 4,  2459, -1, 0, 0, False) /* Create  (2459) for Shop */
-     , (42803, 4,  2465, -1, 0, 0, False) /* Create  (2465) for Shop */
-     , (42803, 4,  2469, -1, 0, 0, False) /* Create  (2469) for Shop */
-     , (42803, 4,  4723, -1, 0, 0, False) /* Create  (4723) for Shop */
-     , (42803, 4,  4726, -1, 0, 0, False) /* Create  (4726) for Shop */
-     , (42803, 4,  4730, -1, 0, 0, False) /* Create  (4730) for Shop */
-     , (42803, 4,  4740, -1, 0, 0, False) /* Create  (4740) for Shop */
-     , (42803, 4,  4746, -1, 0, 0, False) /* Create  (4746) for Shop */
-     , (42803, 4,  5136, -1, 0, 0, False) /* Create  (5136) for Shop */
-     , (42803, 4,  5163, -1, 0, 0, False) /* Create  (5163) for Shop */
-     , (42803, 4,  8378, -1, 0, 0, False) /* Create  (8378) for Shop */;
+VALUES (42803, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (42803, 4,  5136, -1, 0, 0, False) /* Create Cove Apple Cider (5136) for Shop */
+     , (42803, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
+     , (42803, 4,  2459, -1, 0, 0, False) /* Create Kumiss (2459) for Shop */
+     , (42803, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (42803, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (42803, 4,  4723, -1, 0, 0, False) /* Create Fish Kebab (4723) for Shop */
+     , (42803, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
+     , (42803, 4,  4726, -1, 0, 0, False) /* Create Fish Stew (4726) for Shop */
+     , (42803, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish (4740) for Shop */
+     , (42803, 4,  5163, -1, 0, 0, False) /* Create Directions to the Sea Temple Catacombs (5163) for Shop */
+     , (42803, 4, 45028, -1, 0, 0, False) /* Create Contract for Jailbreak: General Population (45028) for Shop */
+     , (42803, 4, 45026, -1, 0, 0, False) /* Create Contract for Jailbreak: Ardent Leader (45026) for Shop */
+     , (42803, 4, 45027, -1, 0, 0, False) /* Create Contract for Jailbreak: Blessed Leader (45027) for Shop */
+     , (42803, 4, 45029, -1, 0, 0, False) /* Create Contract for Jailbreak: Verdant Leader (45029) for Shop */
+     , (42803, 4, 46905, -1, 0, 0, False) /* Create Contract for Ninja Academy (46905) for Shop */
+     , (42803, 4, 46906, -1, 0, 0, False) /* Create Contract for Tanada Intercept (46906) for Shop */
+     , (42803, 4, 46907, -1, 0, 0, False) /* Create Contract for Tanada Slaughter (46907) for Shop */
+     , (42803, 4, 47163, -1, 0, 0, False) /* Create Contract for Nanjou Stockade (47163) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42803, 67109557, 0, 24)

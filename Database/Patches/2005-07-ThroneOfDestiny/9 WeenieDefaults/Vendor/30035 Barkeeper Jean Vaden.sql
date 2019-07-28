@@ -96,9 +96,9 @@ VALUES (30035,   1,  45, 0, 0) /* Strength */
      , (30035,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30035,   1,   110, 0, 0, 120) /* MaxHealth */
-     , (30035,   3,    90, 0, 0, 110) /* MaxStamina */
-     , (30035,   5,   120, 0, 0, 140) /* MaxMana */;
+VALUES (30035,   1,   110, 0, 0, 135) /* MaxHealth */
+     , (30035,   3,    90, 0, 0, 140) /* MaxStamina */
+     , (30035,   5,   120, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (30035,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -264,12 +264,9 @@ VALUES (30035, 2,  2587,  0, 13, 0.5, False) /* Create Shirt (2587) for Wield */
      , (30035, 4,  4745, -1, 0, 0, False) /* Create Viamont Toast (4745) for Shop */
      , (30035, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (30035, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
-     , (30035, 4, 44905, -1, 0, 0, False) /* Create Contract for The Beacon (44905) for Shop */
-     , (30035, 4, 44906, -1, 0, 0, False) /* Create Contract for The Missing Necklace (44906) for Shop */
-     , (30035, 4, 44907, -1, 0, 0, False) /* Create Contract for Facilty Hub (44907) for Shop */
      , (30035, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (30035, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
-     , (30035, 4, 23306, -1, 0, 0, False) /* Create Fish (23306) for Shop */
+     , (30035, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
      , (30035, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30035, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30035, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -279,4 +276,7 @@ VALUES (30035, 2,  2587,  0, 13, 0.5, False) /* Create Shirt (2587) for Wield */
      , (30035, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (30035, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30035, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (30035, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
+     , (30035, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (30035, 4, 44905, -1, 0, 0, False) /* Create Contract for The Beacon (44905) for Shop */
+     , (30035, 4, 44906, -1, 0, 0, False) /* Create Contract for The Missing Necklace (44906) for Shop */
+     , (30035, 4, 44907, -1, 0, 0, False) /* Create Contract for Facilty Hub (44907) for Shop */;

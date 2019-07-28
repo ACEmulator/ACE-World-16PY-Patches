@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42809;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42809, 'ace42809-junjiethebarkeeper', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42809, 'ace42809-junjiethebarkeeper', 12, '2019-02-10 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42809,   1,         16) /* ItemType - Creature */
@@ -72,21 +72,34 @@ VALUES (42809,   1,  55, 0, 0) /* Strength */
      , (42809,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42809,   1,    75, 0, 0, 75) /* MaxHealth */
-     , (42809,   3,   135, 0, 0, 135) /* MaxStamina */
-     , (42809,   5,    65, 0, 0, 65) /* MaxMana */;
+VALUES (42809,   1,    45, 0, 0, 75) /* MaxHealth */
+     , (42809,   3,    75, 0, 0, 135) /* MaxStamina */
+     , (42809,   5,    40, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42809, 4,   620, -1, 0, 0, False) /* Create  (620) for Shop */
-     , (42809, 4,  2451, -1, 0, 0, False) /* Create  (2451) for Shop */
-     , (42809, 4,  2455, -1, 0, 0, False) /* Create  (2455) for Shop */
-     , (42809, 4,  2456, -1, 0, 0, False) /* Create  (2456) for Shop */
-     , (42809, 4,  2467, -1, 0, 0, False) /* Create  (2467) for Shop */
-     , (42809, 4,  2469, -1, 0, 0, False) /* Create  (2469) for Shop */
-     , (42809, 4,  4709, -1, 0, 0, False) /* Create  (4709) for Shop */
-     , (42809, 4,  4728, -1, 0, 0, False) /* Create  (4728) for Shop */
-     , (42809, 4,  4732, -1, 0, 0, False) /* Create  (4732) for Shop */
-     , (42809, 4,  8378, -1, 0, 0, False) /* Create  (8378) for Shop */;
+VALUES (42809, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
+     , (42809, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
+     , (42809, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (42809, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
+     , (42809, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
+     , (42809, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (42809, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (42809, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
+     , (42809, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
+     , (42809, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (42809, 4, 44820, -1, 0, 0, False) /* Create Contract for Quest of the Month: Weekly #1 (44820) for Shop */
+     , (42809, 4, 44821, -1, 0, 0, False) /* Create Contract for Quest of the Month: Weekly #2 (44821) for Shop */
+     , (42809, 4, 44822, -1, 0, 0, False) /* Create Contract for Quest of the Month: Weekly #3 (44822) for Shop */
+     , (42809, 4, 44885, -1, 0, 0, False) /* Create Contract for Yanshi Tunnels (44885) for Shop */
+     , (42809, 4, 44881, -1, 0, 0, False) /* Create Contract for Aerbax's Prodigal Tusker (44881) for Shop */
+     , (42809, 4, 47159, -1, 0, 0, False) /* Create Contract for Crystalline Killer (47159) for Shop */
+     , (42809, 4, 47162, -1, 0, 0, False) /* Create Contract for Crystalline Bound Wisp (47162) for Shop */
+     , (42809, 4, 47160, -1, 0, 0, False) /* Create Contract for Crystalline Markers (47160) for Shop */
+     , (42809, 4, 47161, -1, 0, 0, False) /* Create Contract for Crystalline Adventurer (47161) for Shop */
+     , (42809, 4, 52018, -1, 0, 0, False) /* Create Contract for Changing Gears (52018) for Shop */
+     , (42809, 4, 52019, -1, 0, 0, False) /* Create Contract for Fear Factory (52019) for Shop */
+     , (42809, 4, 52017, -1, 0, 0, False) /* Create Contract for Rynthid Genesis (52017) for Shop */
+     , (42809, 4, 52020, -1, 0, 0, False) /* Create Contract for Spirited Halls (52020) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42809, 67109964, 92, 4)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42808;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42808, 'ace42808-hanadithebarkeeper', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42808, 'ace42808-hanadithebarkeeper', 12, '2019-02-10 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42808,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,24 @@ VALUES (42808,   1,  55, 0, 0) /* Strength */
      , (42808,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42808,   1,    75, 0, 0, 75) /* MaxHealth */
-     , (42808,   3,   135, 0, 0, 135) /* MaxStamina */
-     , (42808,   5,    65, 0, 0, 65) /* MaxMana */;
+VALUES (42808,   1,    45, 0, 0, 75) /* MaxHealth */
+     , (42808,   3,    75, 0, 0, 135) /* MaxStamina */
+     , (42808,   5,    40, 0, 0, 65) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42808, 4, 44397, -1, 0, 0, False) /* Create Contract for Aerbax's Defeat (44397) for Shop */
+     , (42808, 4, 44586, -1, 0, 0, False) /* Create Contract for Harlune's Diplomacy (44586) for Shop */
+     , (42808, 4, 44583, -1, 0, 0, False) /* Create Contract for Menhir Research (44583) for Shop */
+     , (42808, 4, 44587, -1, 0, 0, False) /* Create Contract for Saving Asheron (44587) for Shop */
+     , (42808, 4, 44657, -1, 0, 0, False) /* Create Contract for Nexus Crawl (44657) for Shop */
+     , (42808, 4, 51222, -1, 0, 0, False) /* Create Contract for Golem Hunters: Mud Golem Sludge Lord (51222) for Shop */
+     , (42808, 4, 51223, -1, 0, 0, False) /* Create Contract for Golem Hunters: Copper Golem Kingpin (51223) for Shop */
+     , (42808, 4, 51224, -1, 0, 0, False) /* Create Contract for Golem Hunters: Glacial Golem Margrave (51224) for Shop */
+     , (42808, 4, 51225, -1, 0, 0, False) /* Create Contract for Golem Hunters: Magma Golem Exarch (51225) for Shop */
+     , (42808, 4, 51226, -1, 0, 0, False) /* Create Contract for Golem Hunters: Coral Golem Viceroy (51226) for Shop */
+     , (42808, 4, 51227, -1, 0, 0, False) /* Create Contract for Golem Hunters: Platinum Golem Mountain King (51227) for Shop */
+     , (42808, 4, 42979, -1, 0, 0, False) /* Create Core Plating Integrator (42979) for Shop */
+     , (42808, 4, 43022, -1, 0, 0, False) /* Create Core Plating Deintegrator (43022) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42808, 67109964, 92, 4)
