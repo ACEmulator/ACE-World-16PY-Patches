@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42810;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42810, 'ace42810-xiaohongthebarkeeper', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42810, 'ace42810-xiaohongthebarkeeper', 12, '2019-02-10 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42810,   1,         16) /* ItemType - Creature */
@@ -72,21 +72,31 @@ VALUES (42810,   1,  55, 0, 0) /* Strength */
      , (42810,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42810,   1,    75, 0, 0, 75) /* MaxHealth */
-     , (42810,   3,   135, 0, 0, 135) /* MaxStamina */
-     , (42810,   5,    65, 0, 0, 65) /* MaxMana */;
+VALUES (42810,   1,    45, 0, 0, 75) /* MaxHealth */
+     , (42810,   3,    75, 0, 0, 135) /* MaxStamina */
+     , (42810,   5,    40, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42810, 4,   620, -1, 0, 0, False) /* Create  (620) for Shop */
-     , (42810, 4,  2451, -1, 0, 0, False) /* Create  (2451) for Shop */
-     , (42810, 4,  2455, -1, 0, 0, False) /* Create  (2455) for Shop */
-     , (42810, 4,  2456, -1, 0, 0, False) /* Create  (2456) for Shop */
-     , (42810, 4,  2467, -1, 0, 0, False) /* Create  (2467) for Shop */
-     , (42810, 4,  2469, -1, 0, 0, False) /* Create  (2469) for Shop */
-     , (42810, 4,  4709, -1, 0, 0, False) /* Create  (4709) for Shop */
-     , (42810, 4,  4728, -1, 0, 0, False) /* Create  (4728) for Shop */
-     , (42810, 4,  4732, -1, 0, 0, False) /* Create  (4732) for Shop */
-     , (42810, 4,  8378, -1, 0, 0, False) /* Create  (8378) for Shop */;
+VALUES (42810, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
+     , (42810, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
+     , (42810, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (42810, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
+     , (42810, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
+     , (42810, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (42810, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (42810, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
+     , (42810, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
+     , (42810, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (42810, 4, 46376, -1, 0, 0, False) /* Create Contract for Clutch of Kings: Reeshan (46376) for Shop */
+     , (42810, 4, 46377, -1, 0, 0, False) /* Create Contract for Clutch of Kings: Kiree (46377) for Shop */
+     , (42810, 4, 46378, -1, 0, 0, False) /* Create Contract for Clutch of Kings: Broodu (46378) for Shop */
+     , (42810, 4, 46379, -1, 0, 0, False) /* Create Contract for Clutch of Kings: Keerik (46379) for Shop */
+     , (42810, 4, 46380, -1, 0, 0, False) /* Create Contract for Clutch of Kings: Rehir (46380) for Shop */
+     , (42810, 4, 46381, -1, 0, 0, False) /* Create Contract for Clutch of Kings: Browerk (46381) for Shop */
+     , (42810, 4, 46382, -1, 0, 0, False) /* Create Contract for Clutch of Kings: All (46382) for Shop */
+     , (42810, 4, 49765, -1, 0, 0, False) /* Create Contract for Graverobber (49765) for Shop */
+     , (42810, 4, 49766, -1, 0, 0, False) /* Create Contract for Deconstruction (49766) for Shop */
+     , (42810, 4, 49767, -1, 0, 0, False) /* Create Contract for Escape (49767) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42810, 67109964, 92, 4)

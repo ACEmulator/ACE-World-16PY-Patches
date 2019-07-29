@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42805;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42805, 'ace42805-barkeeperlazzaro', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42805, 'ace42805-barkeeperlazzaro', 12, '2019-02-10 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42805,   1,         16) /* ItemType - Creature */
@@ -72,40 +72,55 @@ VALUES (42805,   1,  45, 0, 0) /* Strength */
      , (42805,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42805,   1,   135, 0, 0, 135) /* MaxHealth */
-     , (42805,   3,   140, 0, 0, 140) /* MaxStamina */
-     , (42805,   5,   155, 0, 0, 155) /* MaxMana */;
+VALUES (42805,   1,   110, 0, 0, 135) /* MaxHealth */
+     , (42805,   3,    90, 0, 0, 140) /* MaxStamina */
+     , (42805,   5,   120, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42805, 4,   258, -1, 0, 0, False) /* Create  (258) for Shop */
-     , (42805, 4,   259, -1, 0, 0, False) /* Create  (259) for Shop */
-     , (42805, 4,   260, -1, 0, 0, False) /* Create  (260) for Shop */
-     , (42805, 4,   261, -1, 0, 0, False) /* Create  (261) for Shop */
-     , (42805, 4,   262, -1, 0, 0, False) /* Create  (262) for Shop */
-     , (42805, 4,   263, -1, 0, 0, False) /* Create  (263) for Shop */
-     , (42805, 4,   549, -1, 0, 0, False) /* Create  (549) for Shop */
-     , (42805, 4,   620, -1, 0, 0, False) /* Create  (620) for Shop */
-     , (42805, 4,  2451, -1, 0, 0, False) /* Create  (2451) for Shop */
-     , (42805, 4,  2452, -1, 0, 0, False) /* Create  (2452) for Shop */
-     , (42805, 4,  2453, -1, 0, 0, False) /* Create  (2453) for Shop */
-     , (42805, 4,  2462, -1, 0, 0, False) /* Create  (2462) for Shop */
-     , (42805, 4,  2471, -1, 0, 0, False) /* Create  (2471) for Shop */
-     , (42805, 4,  2621, -1, 0, 0, False) /* Create  (2621) for Shop */
-     , (42805, 4,  2622, -1, 0, 0, False) /* Create  (2622) for Shop */
-     , (42805, 4,  2623, -1, 0, 0, False) /* Create  (2623) for Shop */
-     , (42805, 4,  2624, -1, 0, 0, False) /* Create  (2624) for Shop */
-     , (42805, 4,  2625, -1, 0, 0, False) /* Create  (2625) for Shop */
-     , (42805, 4,  2626, -1, 0, 0, False) /* Create  (2626) for Shop */
-     , (42805, 4,  2627, -1, 0, 0, False) /* Create  (2627) for Shop */
-     , (42805, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
-     , (42805, 4,  4725, -1, 0, 0, False) /* Create  (4725) for Shop */
-     , (42805, 4,  4741, -1, 0, 0, False) /* Create  (4741) for Shop */
-     , (42805, 4,  4745, -1, 0, 0, False) /* Create  (4745) for Shop */
-     , (42805, 4,  4746, -1, 0, 0, False) /* Create  (4746) for Shop */
-     , (42805, 4,  8378, -1, 0, 0, False) /* Create  (8378) for Shop */
-     , (42805, 4, 20628, -1, 0, 0, False) /* Create  (20628) for Shop */
-     , (42805, 4, 20629, -1, 0, 0, False) /* Create  (20629) for Shop */
-     , (42805, 4, 20630, -1, 0, 0, False) /* Create  (20630) for Shop */;
+VALUES (42805, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (42805, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (42805, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (42805, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (42805, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
+     , (42805, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (42805, 4,  4713, -1, 0, 0, False) /* Create Beef Stew (4713) for Shop */
+     , (42805, 4,   549, -1, 0, 0, False) /* Create Bowl of Stew (549) for Shop */
+     , (42805, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
+     , (42805, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
+     , (42805, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (42805, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (42805, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (42805, 4,  4745, -1, 0, 0, False) /* Create Viamont Toast (4745) for Shop */
+     , (42805, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
+     , (42805, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (42805, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (42805, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (42805, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
+     , (42805, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (42805, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (42805, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (42805, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (42805, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (42805, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (42805, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (42805, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (42805, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (42805, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (42805, 4, 44393, -1, 0, 0, False) /* Create Contract for Aug Gem: Sir Bellas (44393) for Shop */
+     , (42805, 4, 44447, -1, 0, 0, False) /* Create Contract for Deewain's Dark Cavern (44447) for Shop */
+     , (42805, 4, 44584, -1, 0, 0, False) /* Create Contract for Kill: Tenebrous Rifts (44584) for Shop */
+     , (42805, 4, 44585, -1, 0, 0, False) /* Create Contract for Kill: Umbral Rifts (44585) for Shop */
+     , (42805, 4, 44656, -1, 0, 0, False) /* Create Contract for Jester Released (44656) for Shop */
+     , (42805, 4, 44818, -1, 0, 0, False) /* Create Contract for Death's Allure (44818) for Shop */
+     , (42805, 4, 45686, -1, 0, 0, False) /* Create Contract for Aerbax's Prodigal Drudge (45686) for Shop */
+     , (42805, 4, 45687, -1, 0, 0, False) /* Create Contract for Aerbax's Prodigal Human (45687) for Shop */
+     , (42805, 4, 45689, -1, 0, 0, False) /* Create Contract for Chasing Oswald (45689) for Shop */
+     , (42805, 4, 45690, -1, 0, 0, False) /* Create Contract for Hunting Aun Ralirea (45690) for Shop */
+     , (42805, 4, 52300, -1, 0, 0, False) /* Create Contract for Kill: Tou-Tou Shadow Flyers (52300) for Shop */
+     , (42805, 4, 52301, -1, 0, 0, False) /* Create Contract for Kill: Tou-Tou Grievver Shredders (52301) for Shop */
+     , (42805, 4, 52302, -1, 0, 0, False) /* Create Contract for Kill: Tou-Tou Devourer Marguls (52302) for Shop */
+     , (42805, 4, 52303, -1, 0, 0, False) /* Create Contract for Kill: Tou-Tou Shadows (52303) for Shop */
+     , (42805, 4, 52304, -1, 0, 0, False) /* Create Contract for Kill: Tou-Tou Void Lords (52304) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42805, 67109964, 92, 4)
