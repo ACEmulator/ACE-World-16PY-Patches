@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10807;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10807, 'tumerokaugmented', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (10807, 'tumerokaugmented', 10, '2019-07-25 20:02:17') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10807,   1,         16) /* ItemType - Creature */
@@ -18,8 +18,7 @@ VALUES (10807,   1,         16) /* ItemType - Creature */
      , (10807, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (10807, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10807, 140,          1) /* AiOptions - CanOpenDoors */
-     , (10807, 146,      80000) /* XpOverride */
-     , (10807, 307,          5) /* DamageRating */;
+     , (10807, 146,      80000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10807,   1, True ) /* Stuck */
@@ -91,7 +90,7 @@ VALUES (10807,   1,   33559566) /* Setup */
                                    Wield Yaoji (23710) | Probability: 12%
                                    Wield Fire Tachi (23707) | Probability: 12%
                                    Wield Kite Shield (23684) | Probability: 75% */
-     , (10807,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
+     , (10807,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10807,   1, 250, 0, 0) /* Strength */

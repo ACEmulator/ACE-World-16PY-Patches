@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32120;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32120, 'ace32120-bloodmouthremoran', 10, '2019-07-06 00:00:00') /* Creature */;
+VALUES (32120, 'ace32120-bloodmouthremoran', 10, '2019-07-28 01:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32120,   1,         16) /* ItemType - Creature */
@@ -25,7 +25,7 @@ VALUES (32120,   1, True ) /* Stuck */
      , (32120,  12, True ) /* ReportCollisions */
      , (32120,  14, True ) /* GravityStatus */
      , (32120,  19, True ) /* Attackable */
-	 , (32120,  50, True ) /* NeverFailCasting */;
+     , (32120,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32120,   1,       5) /* HeartbeatInterval */
@@ -68,9 +68,9 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32120,   1,   33559700) /* Setup */
      , (32120,   2,  150995342) /* MotionTable */
      , (32120,   3,  536871103) /* SoundTable */
-	 , (32120,   4,  805306396) /* CombatTable */
+     , (32120,   4,  805306396) /* CombatTable */
      , (32120,   6,   67116726) /* PaletteBase */
-	 , (32120,   7,  268437046) /* ClothingBase */
+     , (32120,   7,  268437046) /* ClothingBase */
      , (32120,   8,  100667937) /* Icon */
      , (32120,  22,  872415414) /* PhysicsEffectTable */
      , (32120,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
@@ -91,26 +91,33 @@ VALUES (32120,   1, 4350, 0, 0, 4505) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (32120,  6, 0, 3, 0, 180, 0, 0) /* MeleeDefense        Specialized */
      , (32120,  7, 0, 3, 0, 230, 0, 0) /* MissileDefense      Specialized */
-     , (32120, 45, 0, 3, 0, 178, 0, 0) /* Light Weapons       Specialized */
      , (32120, 14, 0, 3, 0,  70, 0, 0) /* ArcaneLore          Specialized */
      , (32120, 15, 0, 3, 0, 230, 0, 0) /* MagicDefense        Specialized */
      , (32120, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
      , (32120, 31, 0, 3, 0, 175, 0, 0) /* CreatureEnchantment Specialized */
      , (32120, 32, 0, 3, 0, 175, 0, 0) /* ItemEnchantment     Specialized */
      , (32120, 33, 0, 3, 0, 175, 0, 0) /* LifeMagic           Specialized */
-     , (32120, 34, 0, 3, 0, 175, 0, 0) /* WarMagic            Specialized */;
+     , (32120, 34, 0, 3, 0, 175, 0, 0) /* WarMagic            Specialized */
+     , (32120, 45, 0, 3, 0, 178, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (32120,  0,  2, 130,  0.5,  425,  595,  340,  638,  255,  404,  319,  276,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (32120,  5,  4, 130,  0.6,  425,  595,  340,  638,  255,  404,  319,  276,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Hand */
      , (32120, 16,  4, 130,    0,  425,  595,  340,  638,  255,  404,  319,  276,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
      , (32120, 17,  1, 130, 0.75,  425,  595,  340,  638,  255,  404,  319,  276,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (32120, 19,  4,  0,    0,  425,  595,  340,  638,  255,  404,  319,  276,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Leg */
      , (32120, 21,  4,  0,    0,  425,  595,  340,  638,  255,  404,  319,  276,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 	 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32120,  2088,  2)  /* Senescence */
-     , (32120,  1420,  2)  /* Slowness Other VI */
-     , (32120,  1156,  2)  /* Piercing Vulnerability Other VI */
-     , (32120,  1132,  2)  /* Blade Vulnerability Other VI */;
+VALUES (32120,   234,   2.06)  /* Vulnerability Other VI */
+     , (32120,  1132,   2.06)  /* Blade Vulnerability Other VI */
+     , (32120,  1156,   2.06)  /* Piercing Vulnerability Other VI */
+     , (32120,  1372,   2.06)  /* Frailty Other VI */
+     , (32120,  1420,   2.06)  /* Slowness Other VI */
+     , (32120,  1444,   2.03)  /* Bafflement Other VI */
+     , (32120,  2088,   2.06)  /* Senescence */
+     , (32120,  2132,   2.03)  /* The Spike */
+     , (32120,  2146,   2.03)  /* Evisceration */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32120, 9, 70051,  1, 0, 0.02, True) /* Create Bloodmouth Maw (70051) for ContainTreasure */

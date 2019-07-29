@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42801;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42801, 'ace42801-barkeepercreighton', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42801, 'ace42801-barkeepercreighton', 12, '2019-02-10 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42801,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,22 @@ VALUES (42801,   1,  35, 0, 0) /* Strength */
      , (42801,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42801,   1,    80, 0, 0, 80) /* MaxHealth */
-     , (42801,   3,   115, 0, 0, 115) /* MaxStamina */
-     , (42801,   5,    50, 0, 0, 50) /* MaxMana */;
+VALUES (42801,   1,    55, 0, 0, 80) /* MaxHealth */
+     , (42801,   3,    65, 0, 0, 115) /* MaxStamina */
+     , (42801,   5,    20, 0, 0, 50) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42801, 4, 45848, -1, 0, 0, False) /* Create Contract for Splitting Grael (Low) (45848) for Shop */
+     , (42801, 4, 45849, -1, 0, 0, False) /* Create Contract for Splitting Grael (Mid) (45849) for Shop */
+     , (42801, 4, 45847, -1, 0, 0, False) /* Create Contract for Splitting Grael (High) (45847) for Shop */
+     , (42801, 4, 45846, -1, 0, 0, False) /* Create Contract for Geraine's Study (45846) for Shop */
+     , (42801, 4, 45845, -1, 0, 0, False) /* Create Contract for Geraine's Hosts (45845) for Shop */
+     , (42801, 4, 48727, -1, 0, 0, False) /* Create Contract for Mage Academy (48727) for Shop */
+     , (42801, 4, 48728, -1, 0, 0, False) /* Create Contract for Apostate Finale (48728) for Shop */
+     , (42801, 4, 51279, -1, 0, 0, False) /* Create Contract for Olthoi Hive Queen (51279) for Shop */
+     , (42801, 4, 52171, -1, 0, 0, False) /* Create Contract for End of Days (52171) for Shop */
+     , (42801, 4, 52172, -1, 0, 0, False) /* Create Contract for Lugian Assault (52172) for Shop */
+     , (42801, 4, 52174, -1, 0, 0, False) /* Create Contract for Rynthid Training (52174) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42801, 67109558, 0, 24)

@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31906;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31906, 'ace31906-remoransearaptor', 10, '2019-07-06 00:00:00') /* Creature */;
+VALUES (31906, 'ace31906-remoransearaptor', 10, '2019-07-28 01:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31906,   1,         16) /* ItemType - Creature */
      , (31906,   2,         84) /* CreatureType - Remoran */
-	 , (31906,   3,          2) /* PaletteTemplate - Blue */
+     , (31906,   3,          2) /* PaletteTemplate - Blue */
      , (31906,   6,         -1) /* ItemsCapacity */
      , (31906,   7,         -1) /* ContainersCapacity */
      , (31906,  16,          1) /* ItemUseable - No */
@@ -25,7 +25,7 @@ VALUES (31906,   1, True ) /* Stuck */
      , (31906,  12, True ) /* ReportCollisions */
      , (31906,  14, True ) /* GravityStatus */
      , (31906,  19, True ) /* Attackable */
-	 , (31906,  50, True ) /* NeverFailCasting */;
+     , (31906,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31906,   1,       5) /* HeartbeatInterval */
@@ -68,12 +68,12 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31906,   1,   33559700) /* Setup */
      , (31906,   2,  150995342) /* MotionTable */
      , (31906,   3,  536871103) /* SoundTable */
-	 , (31906,   4,  805306396) /* CombatTable */
+     , (31906,   4,  805306396) /* CombatTable */
      , (31906,   6,   67116726) /* PaletteBase */
-	 , (31906,   7,  268437046) /* ClothingBase */
+     , (31906,   7,  268437046) /* ClothingBase */
      , (31906,   8,  100667937) /* Icon */
      , (31906,  22,  872415414) /* PhysicsEffectTable */
-	 , (31906,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
+     , (31906,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31906,   1, 400, 0, 0) /* Strength */
@@ -84,36 +84,40 @@ VALUES (31906,   1, 400, 0, 0) /* Strength */
      , (31906,   6, 340, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31906,   1,    10, 0, 0, 5510) /* MaxHealth */
-     , (31906,   3,    10, 0, 0, 5020) /* MaxStamina */
-     , (31906,   5,    10, 0, 0, 3020) /* MaxMana */;
+VALUES (31906,   1,  5350, 0, 0, 5510) /* MaxHealth */
+     , (31906,   3,  4700, 0, 0, 5020) /* MaxStamina */
+     , (31906,   5,  2680, 0, 0, 3020) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (31906,  6, 0, 3, 0, 180, 0, 0) /* MeleeDefense        Specialized */
      , (31906,  7, 0, 3, 0, 230, 0, 0) /* MissileDefense      Specialized */
-     , (31906, 45, 0, 3, 0, 178, 0, 0) /* Light Weapons       Specialized */
      , (31906, 14, 0, 3, 0,  70, 0, 0) /* ArcaneLore          Specialized */
      , (31906, 15, 0, 3, 0, 230, 0, 0) /* MagicDefense        Specialized */
      , (31906, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
      , (31906, 31, 0, 3, 0, 175, 0, 0) /* CreatureEnchantment Specialized */
      , (31906, 32, 0, 3, 0, 175, 0, 0) /* ItemEnchantment     Specialized */
      , (31906, 33, 0, 3, 0, 175, 0, 0) /* LifeMagic           Specialized */
-     , (31906, 34, 0, 3, 0, 175, 0, 0) /* WarMagic            Specialized */;
+     , (31906, 34, 0, 3, 0, 175, 0, 0) /* WarMagic            Specialized */
+     , (31906, 45, 0, 3, 0, 178, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (31906,  0,  2, 130,  0.5,  425,  595,  340,  638,  255,  404,  319,  276,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (31906,  5,  4, 130,  0.5,  425,  595,  340,  638,  255,  404,  319,  276,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Hand */
      , (31906, 16,  4, 130,    0,  425,  595,  340,  638,  255,  404,  319,  276,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
      , (31906, 17,  1, 130, 0.75,  425,  595,  340,  638,  255,  404,  319,  276,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (31906, 19,  4,  0,    0,  425,  595,  340,  638,  255,  404,  319,  276,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Leg */
      , (31906, 21,  4,  0,    0,  425,  595,  340,  638,  255,  404,  319,  276,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
-	 
+
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31906,  2054,  2)  /* Synaptic Misfire */
-     , (31906,  1420,  2)  /* Slowness Other VI */
-     , (31906,  1156,  2)  /* Piercing Vulnerability Other VI */
-     , (31906,  1132,  2)  /* Blade Vulnerability Other VI */
-	 , (31906,   234,  2)  /* Vulnerability Other VI */
-	 , (31906,  1372,  2)  /* Frailty Other VI */
-	 , (31906,  2132,  2)  /* The Spike */;
+VALUES (31906,   234,   2.08)  /* Vulnerability Other VI */
+     , (31906,  1132,   2.08)  /* Blade Vulnerability Other VI */
+     , (31906,  1156,   2.08)  /* Piercing Vulnerability Other VI */
+     , (31906,  1372,   2.08)  /* Frailty Other VI */
+     , (31906,  1420,   2.08)  /* Slowness Other VI */
+     , (31906,  2054,   2.08)  /* Synaptic Misfire */
+     , (31906,  2088,   2.08)  /* Senescence */
+     , (31906,  2132,   2.05)  /* The Spike */
+     , (31906,  2146,   2.05)  /* Evisceration */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (31906,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -127,4 +131,4 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (31906, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (31906, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (31906, 9, 24477,  1, 0, 0.04, True) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-	 , (31906, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;
+     , (31906, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;
