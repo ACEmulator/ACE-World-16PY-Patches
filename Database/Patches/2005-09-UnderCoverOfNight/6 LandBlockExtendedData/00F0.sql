@@ -981,3 +981,7 @@ VALUES (1880032432, 32002, 15730304, 27.50231, -108.9284, 54.005, -0.738088, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880032433, 32005, 15730304, 27.28646, -111.3291, 54.005, -0.738088, 0, 0, -0.674705,  True, '2019-07-16 01:21:57'); /* Sodden Cadaver */
 /* @teleloc 0x00F00680 [27.286460 -111.329100 54.005000] -0.738088 0.000000 0.000000 -0.674705 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1880032434, 33522, 15729001, 70.079941, -31.003, 6.005, -0.014647, 0, 0, -0.999893, False, '2019-07-27 00:00:00'); /* Skittering Mukkir */
+/* @teleloc 0x00F00169 [70.079941 -31.003115 6.005000] -0.014647 0.000000 0.000000 -0.999893 */	 
