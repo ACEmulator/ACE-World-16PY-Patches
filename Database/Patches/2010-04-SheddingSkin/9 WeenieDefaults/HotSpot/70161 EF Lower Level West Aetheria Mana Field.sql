@@ -16,7 +16,7 @@ VALUES (70161,   1,        128) /* ItemType - Misc */
      , (70161,  82,          4) /* InitGeneratedObjects */
      , (70161,  93,         12) /* PhysicsState - Ethereal, ReportCollisions */
      , (70161, 119,          0) /* Active */
-     , (70161, 290,          1) /* HearLocalSignals */;
+     , (70161, 290,          1) /* HearLocalSignals */
      , (70161, 291,          0) /* HearLocalSignalsRadius */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
