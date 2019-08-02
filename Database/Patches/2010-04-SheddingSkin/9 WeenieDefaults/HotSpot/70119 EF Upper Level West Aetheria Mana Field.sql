@@ -15,7 +15,9 @@ VALUES (70119,   1,        128) /* ItemType - Misc */
      , (70119,  81,          4) /* MaxGeneratedObjects */
      , (70119,  82,          4) /* InitGeneratedObjects */
      , (70119,  93,         12) /* PhysicsState - Ethereal, ReportCollisions */
-     , (70119, 119,          0) /* Active */;
+     , (70119, 119,          0) /* Active */
+     , (70119, 290,          1) /* HearLocalSignals */
+     , (70119, 291,          0) /* HearLocalSignalsRadius */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70119,   1, True ) /* Stuck */
