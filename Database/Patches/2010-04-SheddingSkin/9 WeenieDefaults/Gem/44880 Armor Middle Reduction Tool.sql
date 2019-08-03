@@ -22,10 +22,13 @@ VALUES (44880,   1, False) /* Stuck */
      , (44880,  13, True ) /* Ethereal */
      , (44880,  14, True ) /* GravityStatus */
      , (44880,  19, True ) /* Attackable */
-     , (44880,  22, True ) /* Inscribable */;
+     , (44880,  22, True ) /* Inscribable */
+     , (44880,  69, False ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44880,   1, 'Armor Middle Reduction Tool') /* Name */;
+VALUES (44880,   1, 'Armor Middle Reduction Tool') /* Name */
+	 , (44880,  14, 'Use this tool on any loot generated multi-slot armor in order to reduce it to a single slot. It will still cover the same slots in appearance but only a single slot in armor coverage.') /* Use */
+	 , (44880,  16, 'This tool will reduce Leggings to Tasset coverage.'); /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44880,   1,   33555677) /* Setup */
