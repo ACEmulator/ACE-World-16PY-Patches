@@ -9,9 +9,11 @@ VALUES (37201,   1,          2) /* ItemType - Armor */
      , (37201,   5,       2634) /* EncumbranceVal */
      , (37201,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (37201,  16,          1) /* ItemUseable - No */
+	 , (37201,  27,          8) /* ArmorType - Scalemail */
      , (37201,  28,        205) /* ArmorLevel */
      , (37201,  53,        101) /* PlacementPosition - Resting */
      , (37201,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+	 , (37201, 124,          2) /* Version */
      , (37201, 151,          2) /* HookType - Wall */
 	 , (37201, 169,  252313860) /* TsysMutationData */;
 

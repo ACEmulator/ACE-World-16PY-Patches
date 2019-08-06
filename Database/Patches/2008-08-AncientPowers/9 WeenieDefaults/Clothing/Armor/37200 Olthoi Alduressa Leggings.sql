@@ -9,9 +9,11 @@ VALUES (37200,   1,          2) /* ItemType - Armor */
      , (37200,   5,       2461) /* EncumbranceVal */
      , (37200,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (37200,  16,          1) /* ItemUseable - No */
+	 , (37200,  27,         32) /* ArmorType - Metal */
      , (37200,  28,        225) /* ArmorLevel */
      , (37200,  53,        101) /* PlacementPosition - Resting */
      , (37200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+	 , (37200, 124,          2) /* Version */
      , (37200, 151,          2) /* HookType - Wall */
 	 , (37200, 169,  252313860) /* TsysMutationData */;
 

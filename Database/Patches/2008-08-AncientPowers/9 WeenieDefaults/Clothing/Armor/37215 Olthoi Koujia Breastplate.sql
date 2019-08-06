@@ -9,9 +9,11 @@ VALUES (37215,   1,          2) /* ItemType - Armor */
      , (37215,   5,       1063) /* EncumbranceVal */
      , (37215,   9,        512) /* ValidLocations - ChestArmor */
      , (37215,  16,          1) /* ItemUseable - No */
+	 , (37215,  27,         32) /* ArmorType - Metal */
      , (37215,  28,        225) /* ArmorLevel */
      , (37215,  53,        101) /* PlacementPosition */
      , (37215,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+	 , (37215, 124,          2) /* Version */
      , (37215, 151,          2) /* HookType - Wall */
      , (37215, 169,  118097668) /* TsysMutationData */;
 
