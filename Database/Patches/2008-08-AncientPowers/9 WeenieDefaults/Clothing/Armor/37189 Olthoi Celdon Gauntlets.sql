@@ -9,9 +9,11 @@ VALUES (37189,   1,          2) /* ItemType - Armor */
      , (37189,   5,        560) /* EncumbranceVal */
      , (37189,   9,         32) /* ValidLocations - HandWear */
      , (37189,  16,          1) /* ItemUseable - No */
+	 , (37189,  27,         32) /* ArmorType - Metal */
      , (37189,  28,        225) /* ArmorLevel */
      , (37189,  53,        101) /* PlacementPosition */
      , (37189,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+	 , (37189, 124,          2) /* Version */
      , (37189, 151,          2) /* HookType - Wall */
 	 , (37189, 169,  151651588) /* TsysMutationData */;
 
