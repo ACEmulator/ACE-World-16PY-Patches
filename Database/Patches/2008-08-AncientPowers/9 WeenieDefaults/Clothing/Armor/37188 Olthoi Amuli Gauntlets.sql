@@ -9,7 +9,7 @@ VALUES (37188,   1,          2) /* ItemType - Armor */
      , (37188,   5,        538) /* EncumbranceVal */
      , (37188,   9,         32) /* ValidLocations - HandWear */
      , (37188,  16,          1) /* ItemUseable - No */
-     , (37188,  28,        225) /* ArmorLevel */
+     , (37188,  28,        205) /* ArmorLevel */
      , (37188,  53,        101) /* PlacementPosition - Resting */
      , (37188,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37188, 151,          2) /* HookType - Wall */
