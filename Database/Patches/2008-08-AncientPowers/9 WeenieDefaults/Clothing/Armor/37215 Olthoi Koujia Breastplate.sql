@@ -9,7 +9,7 @@ VALUES (37215,   1,          2) /* ItemType - Armor */
      , (37215,   5,       1063) /* EncumbranceVal */
      , (37215,   9,        512) /* ValidLocations - ChestArmor */
      , (37215,  16,          1) /* ItemUseable - No */
-     , (37215,  28,        110) /* ArmorLevel */
+     , (37215,  28,        225) /* ArmorLevel */
      , (37215,  53,        101) /* PlacementPosition */
      , (37215,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37215, 151,          2) /* HookType - Wall */

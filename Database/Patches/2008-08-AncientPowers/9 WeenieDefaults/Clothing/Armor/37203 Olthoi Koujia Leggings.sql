@@ -9,7 +9,7 @@ VALUES (37203,   1,          2) /* ItemType - Armor */
      , (37203,   5,       1251) /* EncumbranceVal */
      , (37203,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (37203,  16,          1) /* ItemUseable - No */
-     , (37203,  28,        110) /* ArmorLevel */
+     , (37203,  28,        225) /* ArmorLevel */
      , (37203,  53,        101) /* PlacementPosition */
      , (37203,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37203, 151,          2) /* HookType - Wall */

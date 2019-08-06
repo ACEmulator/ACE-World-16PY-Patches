@@ -9,7 +9,7 @@ VALUES (37196,   1,          2) /* ItemType - Armor */
      , (37196,   5,        322) /* EncumbranceVal */
      , (37196,   9,          1) /* ValidLocations - HeadWear */
      , (37196,  16,          1) /* ItemUseable - No */
-     , (37196,  28,        288) /* ArmorLevel */
+     , (37196,  28,        205) /* ArmorLevel */
      , (37196,  53,        101) /* PlacementPosition - Resting */
      , (37196,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37196, 151,          2) /* HookType - Wall */

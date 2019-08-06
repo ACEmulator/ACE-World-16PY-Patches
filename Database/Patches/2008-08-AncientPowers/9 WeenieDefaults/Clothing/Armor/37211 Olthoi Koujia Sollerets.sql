@@ -9,7 +9,7 @@ VALUES (37211,   1,          2) /* ItemType - Armor */
      , (37211,   5,        275) /* EncumbranceVal */
      , (37211,   9,        256) /* ValidLocations - FootWear */
      , (37211,  16,          1) /* ItemUseable - No */
-     , (37211,  28,        330) /* ArmorLevel */
+     , (37211,  28,        225) /* ArmorLevel */
      , (37211,  53,        101) /* PlacementPosition - Resting */
      , (37211,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37211, 151,          2) /* HookType - Wall */
