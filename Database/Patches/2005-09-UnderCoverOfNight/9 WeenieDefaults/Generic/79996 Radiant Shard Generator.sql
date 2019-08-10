@@ -17,7 +17,7 @@ VALUES (79996,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (79996,  41,      60) /* RegenerationInterval */
-     , (79996,  43,      10) /* GeneratorRadius */
+     , (79996,  43,       3) /* GeneratorRadius */
      , (79996, 121,       1) /* GeneratorInitialDelay */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
