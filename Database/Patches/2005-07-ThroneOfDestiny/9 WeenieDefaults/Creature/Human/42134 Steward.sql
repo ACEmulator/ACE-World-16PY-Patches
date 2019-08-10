@@ -110,6 +110,7 @@ VALUES (42134, 2, 28628,  1, 20, 0.909, False) /* Create Diforsa Breastplate (28
      , (42134, 2, 28623,  1, 20, 0.909, False) /* Create Diforsa Pauldrons (28623) for Wield */
      , (42134, 2, 28630,  1, 20, 0.909, False) /* Create Diforsa Cuirass (28630) for Wield */
      , (42134, 2, 28627,  1, 20, 0.909, False) /* Create Diforsa Bracers (28627) for Wield */
+     , (42134, 2, 28633,  1, 20, 0.909, False) /* Create Diforsa Girth (28633) for Wield */
      , (42134, 2, 28621,  1, 20, 0.909, False) /* Create Diforsa Leggings (28621) for Wield */
      , (42134, 2, 28632,  1, 20, 0.909, False) /* Create Diforsa Gauntlets (28632) for Wield */
      , (42134, 2, 28618,  1, 20, 0.909, False) /* Create Diforsa Helm (28618) for Wield */;
