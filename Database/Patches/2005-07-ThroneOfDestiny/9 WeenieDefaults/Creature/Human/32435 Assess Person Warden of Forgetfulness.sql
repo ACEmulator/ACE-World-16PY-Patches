@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32435;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32435, 'ace32435-assesspersonwardenofforgetfulness', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (32435, 'ace32435-assesspersonwardenofforgetfulness', 10, '2019-08-07 04:56:13') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32435,   1,         16) /* ItemType - Creature */
@@ -41,6 +41,19 @@ VALUES (32435,   1,   33555352) /* Setup */
      , (32435,   3,  536871052) /* SoundTable */
      , (32435,   8,  100667624) /* Icon */
      , (32435,  22,  872415274) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (32435,   1,   1, 0, 0) /* Strength */
+     , (32435,   2,   1, 0, 0) /* Endurance */
+     , (32435,   3,   1, 0, 0) /* Quickness */
+     , (32435,   4,   1, 0, 0) /* Coordination */
+     , (32435,   5,   1, 0, 0) /* Focus */
+     , (32435,   6,   1, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (32435,   1,     1, 0, 0, 1) /* MaxHealth */
+     , (32435,   3,     1, 0, 0, 2) /* MaxStamina */
+     , (32435,   5,     1, 0, 0, 1) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (32435,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

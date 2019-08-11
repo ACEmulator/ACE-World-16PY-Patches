@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32034;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32034, 'ace32034-goldniffis', 10, '2019-06-30 00:00:00') /* Creature */;
+VALUES (32034, 'ace32034-goldniffis', 10, '2019-08-02 15:11:13') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32034,   1,         16) /* ItemType - Creature */
@@ -79,8 +79,8 @@ VALUES (32034,   1,   33556774) /* Setup */
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32034,   1, 360, 0, 0) /* Strength */
      , (32034,   2, 360, 0, 0) /* Endurance */
-     , (32034,   3, 340, 0, 0) /* Quickness */
-     , (32034,   4, 320, 0, 0) /* Coordination */
+     , (32034,   3, 320, 0, 0) /* Quickness */
+     , (32034,   4, 340, 0, 0) /* Coordination */
      , (32034,   5, 430, 0, 0) /* Focus */
      , (32034,   6, 480, 0, 0) /* Self */;
 
@@ -92,14 +92,14 @@ VALUES (32034,   1,  6180, 0, 0, 6360) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (32034,  6, 0, 3, 0, 180, 0, 0) /* MeleeDefense        Specialized */
      , (32034,  7, 0, 3, 0, 230, 0, 0) /* MissileDefense      Specialized */
-     , (32034, 45, 0, 3, 0, 178, 0, 0) /* Light Weapons       Specialized */
      , (32034, 14, 0, 3, 0,  70, 0, 0) /* ArcaneLore          Specialized */
      , (32034, 15, 0, 3, 0, 230, 0, 0) /* MagicDefense        Specialized */
      , (32034, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
      , (32034, 31, 0, 3, 0, 175, 0, 0) /* CreatureEnchantment Specialized */
      , (32034, 32, 0, 3, 0, 175, 0, 0) /* ItemEnchantment     Specialized */
      , (32034, 33, 0, 3, 0, 175, 0, 0) /* LifeMagic           Specialized */
-     , (32034, 34, 0, 3, 0, 175, 0, 0) /* WarMagic            Specialized */;
+     , (32034, 34, 0, 3, 0, 175, 0, 0) /* WarMagic            Specialized */
+     , (32034, 45, 0, 3, 0, 210, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (32034,  0,  4, 140, 0.75,  650,  650,  553,  553,  618,  553,  618,  553,    0, 1, 0.44,  0.3,    0,  0.4,  0.1,    0, 0.44,  0.3,    0,  0.4,  0.1,    0) /* Head */
@@ -109,21 +109,18 @@ VALUES (32034,  0,  4, 140, 0.75,  650,  650,  553,  553,  618,  553,  618,  553
      , (32034, 25,  4, 140,  0.5,  650,  650,  553,  553,  618,  553,  618,  553,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32034,    85,   2.04)  /* Flame Bolt VI */
-     , (32034,    97,   2.04)  /* Whirling Blade VI */
-     , (32034,  1491,  2.005)  /* Brittlemail V */
-     , (32034,  1556,  2.005)  /* Blade Lure V */
-     , (32034,  1596,  2.005)  /* Turn Blade IV */
-     , (32034,  1609,  2.005)  /* Lure Blade IV */
-     , (32034,  2056,   2.02)  /* Ataxia */
-     , (32034,  2062,   2.02)  /* Anemia */
-     , (32034,  2064,   2.02)  /* Self Loathing */
-     , (32034,  2074,   2.02)  /* Gossamer Flesh */
-     , (32034,  2164,   2.02)  /* Swordsman's Gift */
-     , (32034,  2170,   2.02)  /* Inferno's Gift */
-     , (32034,  2318,   2.02)  /* Gravity Well */
-     , (32034,  2744,   2.04)  /* Flame Arc VI */
-     , (32034,  2758,   2.04)  /* Blade Arc VI */;
+VALUES (32034,  1252,   2.04)  /* Drain Stamina Other IV */
+     , (32034,  2056,   2.06)  /* Ataxia */
+     , (32034,  2062,   2.04)  /* Anemia */
+     , (32034,  2064,   2.06)  /* Self Loathing */
+     , (32034,  2074,   2.04)  /* Gossamer Flesh */
+     , (32034,  2128,   2.06)  /* Ilservian's Flame */
+     , (32034,  2146,   2.06)  /* Evisceration */
+     , (32034,  2164,   2.06)  /* Swordsman's Gift */
+     , (32034,  2170,   2.06)  /* Inferno's Gift */
+     , (32034,  2318,   2.04)  /* Gravity Well */
+     , (32034,  2745,   2.06)  /* Flame Arc VII */
+     , (32034,  2759,   2.06)  /* Blade Arc VII */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (32034,  94) /* ATTACK_NOTIFICATION_EVENT */
@@ -148,5 +145,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32034, 9, 30400,  0, 0, 0.01, False) /* Create Niffis Fighting Pits (30400) for ContainTreasure */
      , (32034, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-	 , (32034, 9, 32036,  0, 0, 0.04, False) /* Create Gold Niffis Tentacle (32036) for ContainTreasure */
+     , (32034, 9, 32036,  0, 0, 0.04, False) /* Create Gold Niffis Tentacle (32036) for ContainTreasure */
      , (32034, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;

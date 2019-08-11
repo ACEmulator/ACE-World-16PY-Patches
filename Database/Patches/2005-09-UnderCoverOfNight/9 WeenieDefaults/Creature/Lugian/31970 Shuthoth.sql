@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31970;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31970, 'ace31970-shuthoth', 10, '2019-06-08 00:00:00') /* Creature */;
+VALUES (31970, 'ace31970-shuthoth', 10, '2019-08-02 04:49:51') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31970,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,6 @@ VALUES (31970,   1,         16) /* ItemType - Creature */
      , (31970,   7,        255) /* ContainersCapacity */
      , (31970,  16,         32) /* ItemUseable - Remote */
      , (31970,  25,         53) /* Level */
-     , (31970,  27,          0) /* ArmorType - None */
      , (31970,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31970,  95,          8) /* RadarBlipColor - Yellow */
      , (31970, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -19,43 +18,11 @@ VALUES (31970,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31970,   1, True ) /* Stuck */
-     , (31970,  11, True ) /* IgnoreCollisions */
-     , (31970,  12, True ) /* ReportCollisions */
-     , (31970,  13, False) /* Ethereal */
-     , (31970,  14, True ) /* GravityStatus */
-     , (31970,  19, False) /* Attackable */
-     , (31970,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (31970,  42, True ) /* AllowEdgeSlide */
-	 , (31970,  52, True ) /* AiImmobile */;
+     , (31970,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31970,   1,       5) /* HeartbeatInterval */
-     , (31970,   2,       0) /* HeartbeatTimestamp */
-     , (31970,   3,    0.16) /* HealthRate */
-     , (31970,   4,       5) /* StaminaRate */
-     , (31970,   5,       1) /* ManaRate */
-     , (31970,  13,     0.9) /* ArmorModVsSlash */
-     , (31970,  14,       1) /* ArmorModVsPierce */
-     , (31970,  15,     1.1) /* ArmorModVsBludgeon */
-     , (31970,  16,     0.4) /* ArmorModVsCold */
-     , (31970,  17,     0.4) /* ArmorModVsFire */
-     , (31970,  18,       1) /* ArmorModVsAcid */
-     , (31970,  19,     0.6) /* ArmorModVsElectric */
-     , (31970,  54,       3) /* UseRadius */
-     , (31970,  64,       1) /* ResistSlash */
-     , (31970,  65,       1) /* ResistPierce */
-     , (31970,  66,       1) /* ResistBludgeon */
-     , (31970,  67,       1) /* ResistFire */
-     , (31970,  68,       1) /* ResistCold */
-     , (31970,  69,       1) /* ResistAcid */
-     , (31970,  70,       1) /* ResistElectric */
-     , (31970,  71,       1) /* ResistHealthBoost */
-     , (31970,  72,       1) /* ResistStaminaDrain */
-     , (31970,  73,       1) /* ResistStaminaBoost */
-     , (31970,  74,       1) /* ResistManaDrain */
-     , (31970,  75,       1) /* ResistManaBoost */
-     , (31970, 104,      10) /* ObviousRadarRange */
-     , (31970, 125,       1) /* ResistHealthDrain */;
+VALUES (31970,  12,       0) /* Shade */
+     , (31970,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31970,   1, 'Shuthoth') /* Name */
@@ -78,9 +45,9 @@ VALUES (31970,   1, 120, 0, 0) /* Strength */
      , (31970,   6, 340, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31970,   1,    10, 0, 0, 171) /* MaxHealth */
-     , (31970,   3,    10, 0, 0, 262) /* MaxStamina */
-     , (31970,   5,    10, 0, 0, 435) /* MaxMana */;
+VALUES (31970,   1,    65, 0, 0, 171) /* MaxHealth */
+     , (31970,   3,    50, 0, 0, 262) /* MaxStamina */
+     , (31970,   5,    95, 0, 0, 435) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (31970,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
