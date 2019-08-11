@@ -1,60 +1,52 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31877;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31877, 'ace31877-undeadminion', 10, '2019-07-25 22:10:59') /* Creature */;
+VALUES (31877, 'ace31877-undeadminion', 10, '2019-08-07 04:56:13') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31877,   1,         16) /* ItemType - Creature */
      , (31877,   2,         14) /* CreatureType - Undead */
      , (31877,   3,          9) /* PaletteTemplate - Grey */
-     , (31877,   6,         -1) /* ItemsCapacity */
-     , (31877,   7,         -1) /* ContainersCapacity */
+     , (31877,   6,        255) /* ItemsCapacity */
+     , (31877,   7,        255) /* ContainersCapacity */
      , (31877,  16,          1) /* ItemUseable - No */
      , (31877,  25,        160) /* Level */
      , (31877,  27,          0) /* ArmorType - None */
-     , (31877,  40,          1) /* CombatMode - NonCombat */
-     , (31877,  68,          3) /* TargetingTactic - Random, Focused */
-     , (31877,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (31877, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
+     , (31877,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (31877, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (31877, 140,          1) /* AiOptions - CanOpenDoors */
      , (31877, 146,     800000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31877,   1, True ) /* Stuck */
-     , (31877,   6, True ) /* AiUsesMana */
-     , (31877,  11, False) /* IgnoreCollisions */
      , (31877,  12, True ) /* ReportCollisions */
      , (31877,  13, False) /* Ethereal */
      , (31877,  14, True ) /* GravityStatus */
-     , (31877,  19, True ) /* Attackable */
-     , (31877,  42, True ) /* AllowEdgeSlide */;
+     , (31877,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31877,   1,       5) /* HeartbeatInterval */
-     , (31877,   2,       0) /* HeartbeatTimestamp */
-     , (31877,   3,      15) /* HealthRate */
-     , (31877,   4,     150) /* StaminaRate */
+     , (31877,   3,     0.8) /* HealthRate */
+     , (31877,   4,     0.5) /* StaminaRate */
      , (31877,   5,       2) /* ManaRate */
      , (31877,  12,     0.5) /* Shade */
-     , (31877,  13,     0.8) /* ArmorModVsSlash */
-     , (31877,  14,    0.55) /* ArmorModVsPierce */
-     , (31877,  15,     0.7) /* ArmorModVsBludgeon */
-     , (31877,  16,    0.25) /* ArmorModVsCold */
-     , (31877,  17,     0.6) /* ArmorModVsFire */
-     , (31877,  18,     0.7) /* ArmorModVsAcid */
-     , (31877,  19,    0.75) /* ArmorModVsElectric */
+     , (31877,  13,       1) /* ArmorModVsSlash */
+     , (31877,  14,       1) /* ArmorModVsPierce */
+     , (31877,  15,       1) /* ArmorModVsBludgeon */
+     , (31877,  16,       1) /* ArmorModVsCold */
+     , (31877,  17,       1) /* ArmorModVsFire */
+     , (31877,  18,       1) /* ArmorModVsAcid */
+     , (31877,  19,       1) /* ArmorModVsElectric */
      , (31877,  31,      18) /* VisualAwarenessRange */
      , (31877,  34,       1) /* PowerupTime */
      , (31877,  36,       1) /* ChargeSpeed */
-     , (31877,  39,     1.1) /* DefaultScale */
-     , (31877,  64,     0.9) /* ResistSlash */
+     , (31877,  39,     1.2) /* DefaultScale */
+     , (31877,  64,    0.75) /* ResistSlash */
      , (31877,  65,     0.5) /* ResistPierce */
      , (31877,  66,     0.7) /* ResistBludgeon */
-     , (31877,  67,     0.9) /* ResistFire */
-     , (31877,  68,    0.15) /* ResistCold */
-     , (31877,  69,    0.75) /* ResistAcid */
-     , (31877,  70,    0.85) /* ResistElectric */
+     , (31877,  67,    0.75) /* ResistFire */
+     , (31877,  68,     0.1) /* ResistCold */
+     , (31877,  69,     0.7) /* ResistAcid */
+     , (31877,  70,    0.75) /* ResistElectric */
      , (31877,  71,       1) /* ResistHealthBoost */
      , (31877,  72,       1) /* ResistStaminaDrain */
      , (31877,  73,       1) /* ResistStaminaBoost */
@@ -76,13 +68,6 @@ VALUES (31877,   1,   33554839) /* Setup */
      , (31877,   7,  268436626) /* ClothingBase */
      , (31877,   8,  100667942) /* Icon */
      , (31877,  22,  872415272) /* PhysicsEffectTable */
-     , (31877,  32,        426) /* WieldedTreasureType - 
-                                   Wield Tachi (23136) | Probability: 30%
-                                   Wield Kite Shield (23135) | Probability: 100%
-                                   Wield Yumi (23137) | Probability: 30%
-                                   Wield 20x Deadly Arrow (15429) | Probability: 100%
-                                   Wield Heavy Crossbow (23131) | Probability: 30%
-                                   Wield 50x Deadly Quarrel (15438) | Probability: 100% */
      , (31877,  35,        420) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -103,13 +88,9 @@ VALUES (31877,  6, 0, 3, 0, 280, 0, 0) /* MeleeDefense        Specialized */
      , (31877,  7, 0, 3, 0, 247, 0, 0) /* MissileDefense      Specialized */
      , (31877, 15, 0, 3, 0, 221, 0, 0) /* MagicDefense        Specialized */
      , (31877, 31, 0, 3, 0, 327, 0, 0) /* CreatureEnchantment Specialized */
-     , (31877, 32, 0, 3, 0, 327, 0, 0) /* ItemEnchantment     Specialized */
      , (31877, 33, 0, 3, 0, 327, 0, 0) /* LifeMagic           Specialized */
      , (31877, 34, 0, 3, 0, 327, 0, 0) /* WarMagic            Specialized */
-     , (31877, 44, 0, 3, 0, 398, 0, 0) /* HeavyWeapons        Specialized */
-     , (31877, 45, 0, 3, 0, 398, 0, 0) /* LightWeapons        Specialized */
-     , (31877, 46, 0, 3, 0, 393, 0, 0) /* FinesseWeapons      Specialized */
-     , (31877, 47, 0, 3, 0, 280, 0, 0) /* MissileWeapons      Specialized */;
+     , (31877, 45, 0, 3, 0, 398, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (31877,  0,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

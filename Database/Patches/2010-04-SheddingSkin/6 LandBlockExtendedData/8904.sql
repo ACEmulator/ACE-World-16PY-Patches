@@ -404,7 +404,7 @@ VALUES (2022719790, 33033, 2298741277, 35, -50, 12.011, 1, 0, 0, 0,  True, '2019
 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2022719842, 70104, 2298741563, 50, -20, 24.005, 1, 0, 0, 0, False, '2019-07-03 00:00:00'); /* Upper Level North Aetheria Mana Field */
+VALUES (2022719842, 70167, 2298741563, 50, -20, 24.005, 1, 0, 0, 0, False, '2019-07-03 00:00:00'); /* Upper Level North Aetheria Mana Field */
 /* @teleloc 0x8904033B [50.000000 -20.000000 24.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -416,11 +416,11 @@ VALUES (2022719844, 70120, 2298741568, 50, -40, 24.005, 1, 0, 0, 0, False, '2019
 /* @teleloc 0x89040340 [50.000000 -40.000000 24.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2022719845, 70114, 2298741637, 80, -40, 24.005, 1, 0, 0, 0, False, '2019-07-03 00:00:00'); /* Upper Level East Aetheria Mana Field */
+VALUES (2022719845, 70177, 2298741637, 80, -40, 24.005, 1, 0, 0, 0, False, '2019-07-03 00:00:00'); /* Upper Level East Aetheria Mana Field */
 /* @teleloc 0x89040385 [80.000000 -40.000000 24.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2022719846, 70109, 2298741577, 50, -60, 24.005, 1, 0, 0, 0, False, '2019-07-03 00:00:00'); /* Upper Level South Aetheria Mana Field */
+VALUES (2022719846, 70172, 2298741577, 50, -60, 24.005, 1, 0, 0, 0, False, '2019-07-03 00:00:00'); /* Upper Level South Aetheria Mana Field */
 /* @teleloc 0x89040349 [50.000000 -60.000000 24.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
