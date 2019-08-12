@@ -51,6 +51,3 @@ VALUES (30204,   1,   33554809) /* Setup */
      , (30204,  28,       3703) /* Spell - Prodigal Flame Bane */
      , (30204,  50,  100686650) /* IconOverlay */
      , (30204,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30204,  3703,      0)  /* Prodigal Flame Bane */;

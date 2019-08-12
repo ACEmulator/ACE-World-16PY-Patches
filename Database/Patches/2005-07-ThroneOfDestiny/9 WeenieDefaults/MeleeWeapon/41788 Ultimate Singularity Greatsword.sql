@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41788;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41788, 'ace41788-ultimatesingularitygreatsword', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (41788, 'ace41788-ultimatesingularitygreatsword', 6, '2019-08-11 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41788,   1,          1) /* ItemType - MeleeWeapon */
@@ -70,4 +70,4 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41788,  1337,      2)  /* Strength Other VI */
      , (41788,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (41788,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (41788,  2583,      1)  /* Minor Strength */;
+     , (41788,  2583,      2)  /* Minor Strength */;

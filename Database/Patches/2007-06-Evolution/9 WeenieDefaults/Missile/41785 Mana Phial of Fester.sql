@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41785;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41785, 'ace41785-manaphialoffester', 4, '2019-02-10 00:00:00') /* Missile */;
+VALUES (41785, 'ace41785-manaphialoffester', 4, '2019-08-11 00:00:00') /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41785,   1,        256) /* ItemType - MissileWeapon */
@@ -67,5 +67,4 @@ VALUES (41785,   1,   33560312) /* Setup */
      , (41785,  55,       2178) /* ProcSpell - FesterOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41785,  2178,      0) /* Fester Other 7 */
-     , (41785,  4017,      2) /* Phial's Accuracy */;
+VALUES (41785,  4017,      2) /* Phial's Accuracy */;

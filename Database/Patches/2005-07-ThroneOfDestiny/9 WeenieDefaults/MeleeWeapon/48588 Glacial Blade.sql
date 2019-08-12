@@ -15,7 +15,7 @@ VALUES (48588,   1,          1) /* ItemType - MeleeWeapon */
      , (48588,  45,          8) /* DamageType - Cold */
      , (48588,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (48588,  47,          6) /* AttackType - Thrust, Slash */
-     , (48588,  48,         11) /* WeaponSkill - Sword */
+     , (48588,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (48588,  49,         35) /* WeaponTime */
      , (48588,  51,          1) /* CombatUse - Melee */
      , (48588,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

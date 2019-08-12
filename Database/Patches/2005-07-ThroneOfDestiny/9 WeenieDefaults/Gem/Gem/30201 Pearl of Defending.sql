@@ -51,6 +51,3 @@ VALUES (30201,   1,   33554809) /* Setup */
      , (30201,  28,       3699) /* Spell - Prodigal Defender */
      , (30201,  50,  100686646) /* IconOverlay */
      , (30201,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30201,  3699,      0)  /* Prodigal Defender */;

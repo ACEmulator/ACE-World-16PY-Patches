@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33917;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33917, 'ace33917-ironphialofimperil', 4, '2019-05-19 00:00:00') /* Missile */;
+VALUES (33917, 'ace33917-ironphialofimperil', 4, '2019-08-11 00:00:00') /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33917,   1,        256) /* ItemType - MissileWeapon */
@@ -67,5 +67,4 @@ VALUES (33917,   1,   33560312) /* Setup */
      , (33917,  55,       1323) /* ProcSpell - Imperil Other 2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33917,  1323,      0) /* Imperil Other 2 */
-     , (33917,  4017,      2) /* Phial's Accuracy */;
+VALUES (33917,  4017,      2) /* Phial's Accuracy */;

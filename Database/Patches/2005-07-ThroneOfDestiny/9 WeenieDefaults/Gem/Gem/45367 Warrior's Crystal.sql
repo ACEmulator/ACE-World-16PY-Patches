@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45367;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45367, 'ace45367-warriorscrystal', 38, '2019-02-04 06:52:23') /* Gem */;
+VALUES (45367, 'ace45367-warriorscrystal', 38, '2019-08-11 06:52:23') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45367,   1,       2048) /* ItemType - Gem */
@@ -45,6 +45,3 @@ VALUES (45367,   1,   33554809) /* Setup */
      , (45367,  28,       5903) /* Spell - Prodigal Dual Wield Mastery */
      , (45367,  50,  100692245) /* IconOverlay */
      , (45367,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45367,  5903,      0)  /* Prodigal Dual Wield Mastery */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48587;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48587, 'ace48587-frigidsplinter', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (48587, 'ace48587-frigidsplinter', 6, '2019-08-12 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48587,   1,          1) /* ItemType - MeleeWeapon */
@@ -15,12 +15,13 @@ VALUES (48587,   1,          1) /* ItemType - MeleeWeapon */
      , (48587,  45,          8) /* DamageType - Cold */
      , (48587,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (48587,  47,          2) /* AttackType - Thrust */
-     , (48587,  48,          9) /* WeaponSkill - Spear */
+     , (48587,  48,         45) /* WeaponSkill - LightWeapons */
      , (48587,  49,         30) /* WeaponTime */
      , (48587,  51,          1) /* CombatUse - Melee */
      , (48587,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48587, 150,        103) /* HookPlacement - Hook */
-     , (48587, 151,          2) /* HookType - Wall */;
+     , (48587, 151,          2) /* HookType - Wall */
+	 , (48587, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48587,  13, True ) /* Ethereal */

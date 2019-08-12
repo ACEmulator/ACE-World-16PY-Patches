@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31861;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31861, 'ace31861-forttethanaportalgem', 38, '2019-02-04 06:52:23') /* Gem */;
+VALUES (31861, 'ace31861-forttethanaportalgem', 38, '2019-08-11 06:52:23') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31861,   1,       2048) /* ItemType - Gem */
@@ -46,6 +46,3 @@ VALUES (31861,   1,   33556769) /* Setup */
      , (31861,  22,  872415275) /* PhysicsEffectTable */
      , (31861,  28,        157) /* Spell - Summon Primary Portal I */
      , (31861,  31,      19131) /* LinkedPortalOne - Portal to Fort Tethana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31861,   157,      0)  /* Summon Primary Portal I */;

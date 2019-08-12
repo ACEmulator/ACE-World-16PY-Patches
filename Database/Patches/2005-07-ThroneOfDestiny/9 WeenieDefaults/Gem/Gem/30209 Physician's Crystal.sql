@@ -51,6 +51,3 @@ VALUES (30209,   1,   33554809) /* Setup */
      , (30209,  28,       3707) /* Spell - Prodigal Healing Mastery */
      , (30209,  50,  100686655) /* IconOverlay */
      , (30209,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30209,  3707,      0)  /* Prodigal Healing Mastery */;

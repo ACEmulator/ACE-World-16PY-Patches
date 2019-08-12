@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24207;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24207, 'wandisparianperfectweeping', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (24207, 'wandisparianperfectweeping', 35, '2019-08-11 06:52:23') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24207,   1,      32768) /* ItemType - Caster */
@@ -67,5 +67,4 @@ VALUES (24207,   616,      2)  /* Life Magic Mastery Other VI */
      , (24207,   640,      2)  /* War Magic Mastery Other VI */
      , (24207,  1426,      2)  /* Focus Self VI */
      , (24207,  1450,      2)  /* Willpower Self VI */
-     , (24207,  2691,      2)  /* Moderate Mana Conversion Prowess */
-     , (24207,  2970,      0)  /* Hunter's Lash */;
+     , (24207,  2691,      2)  /* Moderate Mana Conversion Prowess */;
