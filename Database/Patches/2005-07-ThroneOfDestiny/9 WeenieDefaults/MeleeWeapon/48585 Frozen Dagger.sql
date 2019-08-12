@@ -21,7 +21,7 @@ VALUES (48585,   1,          1) /* ItemType - MeleeWeapon */
      , (48585,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48585, 150,        103) /* HookPlacement - Hook */
      , (48585, 151,          2) /* HookType - Wall */
-	 , (23526, 353,          6) /* WeaponType - Dagger */;
+	 , (48585, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48585,  19, True ) /* Attackable */
