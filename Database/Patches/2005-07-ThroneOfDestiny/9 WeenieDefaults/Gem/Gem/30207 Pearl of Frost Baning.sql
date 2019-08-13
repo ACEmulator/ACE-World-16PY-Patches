@@ -51,6 +51,3 @@ VALUES (30207,   1,   33554809) /* Setup */
      , (30207,  28,       3706) /* Spell - Prodigal Frost Bane */
      , (30207,  50,  100686653) /* IconOverlay */
      , (30207,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30207,  3706,      0)  /* Prodigal Frost Bane */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48585;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48585, 'ace48585-frozendagger', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (48585, 'ace48585-frozendagger', 6, '2019-08-12 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48585,   1,          1) /* ItemType - MeleeWeapon */
@@ -15,12 +15,13 @@ VALUES (48585,   1,          1) /* ItemType - MeleeWeapon */
      , (48585,  45,          8) /* DamageType - Cold */
      , (48585,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (48585,  47,          6) /* AttackType - Thrust, Slash */
-     , (48585,  48,          4) /* WeaponSkill - Dagger */
+     , (48585,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (48585,  49,         20) /* WeaponTime */
      , (48585,  51,          1) /* CombatUse - Melee */
      , (48585,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48585, 150,        103) /* HookPlacement - Hook */
-     , (48585, 151,          2) /* HookType - Wall */;
+     , (48585, 151,          2) /* HookType - Wall */
+	 , (48585, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48585,  19, True ) /* Attackable */

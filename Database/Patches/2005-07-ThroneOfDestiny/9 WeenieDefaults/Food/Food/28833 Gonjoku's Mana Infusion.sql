@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28833;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28833, 'potiongonjokudenherb', 18, '2019-02-04 06:52:23') /* Food */;
+VALUES (28833, 'potiongonjokudenherb', 18, '2019-08-11 06:52:23') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28833,   1,         32) /* ItemType - Food */
@@ -41,6 +41,3 @@ VALUES (28833,   1,   33554603) /* Setup */
      , (28833,  23,         65) /* UseSound - Drink1 */
      , (28833,  28,       1999) /* Spell - Mana Giver */
      , (28833,  52,  100667860) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28833,  1999,      0)  /* Mana Giver */;

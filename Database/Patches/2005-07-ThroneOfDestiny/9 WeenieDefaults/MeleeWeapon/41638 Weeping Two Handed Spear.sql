@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41638;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41638, 'ace41638-weepingtwohandedspear', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (41638, 'ace41638-weepingtwohandedspear', 6, '2019-08-12 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41638,   1,          1) /* ItemType - MeleeWeapon */
@@ -31,7 +31,8 @@ VALUES (41638,   1,          1) /* ItemType - MeleeWeapon */
      , (41638, 158,          2) /* WieldRequirements - RawSkill */
      , (41638, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41638, 160,        325) /* WieldDifficulty */
-     , (41638, 166,         31) /* SlayerCreatureType - Human */;
+     , (41638, 166,         31) /* SlayerCreatureType - Human */
+	 , (41638, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41638,  11, True ) /* IgnoreCollisions */

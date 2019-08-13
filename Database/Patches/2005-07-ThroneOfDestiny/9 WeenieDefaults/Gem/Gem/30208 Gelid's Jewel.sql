@@ -51,6 +51,3 @@ VALUES (30208,   1,   33554809) /* Setup */
      , (30208,  28,       3692) /* Spell - Prodigal Cold Protection */
      , (30208,  50,  100686654) /* IconOverlay */
      , (30208,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30208,  3692,      0)  /* Prodigal Cold Protection */;

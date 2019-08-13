@@ -16,7 +16,7 @@ VALUES (48599,   1,          1) /* ItemType - MeleeWeapon */
      , (48599,  45,          8) /* DamageType - Cold */
      , (48599,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (48599,  47,          4) /* AttackType - Slash */
-     , (48599,  48,          5) /* WeaponSkill - Mace */
+     , (48599,  48,         45) /* WeaponSkill - LightWeapons */
      , (48599,  49,         40) /* WeaponTime */
      , (48599,  51,          1) /* CombatUse - Melee */
      , (48599,  52,          1) /* ParentLocation */

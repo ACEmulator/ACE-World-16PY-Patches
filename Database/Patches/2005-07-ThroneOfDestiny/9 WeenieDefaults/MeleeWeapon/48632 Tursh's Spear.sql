@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48632;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48632, 'ace48632-turshsspear', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (48632, 'ace48632-turshsspear', 6, '2019-08-12 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48632,   1,          1) /* ItemType - MeleeWeapon */
@@ -15,10 +15,11 @@ VALUES (48632,   1,          1) /* ItemType - MeleeWeapon */
      , (48632,  45,          2) /* DamageType - Pierce */
      , (48632,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (48632,  47,          2) /* AttackType - Thrust */
-     , (48632,  48,          9) /* WeaponSkill - Spear */
+     , (48632,  48,         45) /* WeaponSkill - LightWeapons */
      , (48632,  49,         -1) /* WeaponTime */
      , (48632,  51,          1) /* CombatUse - Melee */
-     , (48632,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (48632,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+	 , (48632, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48632,  13, True ) /* Ethereal */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43848;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43848, 'ace43848-heartofdarkestflame', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (43848, 'ace43848-heartofdarkestflame', 35, '2019-08-11 06:52:23') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43848,   1,      32768) /* ItemType - Caster */
@@ -77,5 +77,4 @@ VALUES (43848,  4305,      2)  /* Incantation of Focus Self */
      , (43848,  4542,      2)  /* Incantation of Deception Mastery Self */
      , (43848,  4670,      2)  /* Epic Spirit Thirst */
      , (43848,  4705,      2)  /* Epic Mana Conversion Prowess */
-     , (43848,  5355,      0)  /* Nether Bolt VII */
      , (43848,  5418,      2)  /* Incantation of Void Magic Mastery Self */;

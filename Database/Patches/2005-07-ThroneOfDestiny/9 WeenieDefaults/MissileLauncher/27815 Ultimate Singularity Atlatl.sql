@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27815;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27815, 'atlatlsingularitymaraenew', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (27815, 'atlatlsingularitymaraenew', 3, '2019-08-11 06:52:23') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27815,   1,        256) /* ItemType - MissileWeapon */
@@ -68,4 +68,4 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27815,  1337,      2)  /* Strength Other VI */
      , (27815,  1605,      2)  /* Aura of Defender Self VI */
      , (27815,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (27815,  2583,      1)  /* Minor Strength */;
+     , (27815,  2583,      2)  /* Minor Strength */;
