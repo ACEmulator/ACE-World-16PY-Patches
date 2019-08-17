@@ -26,11 +26,7 @@ VALUES (44266,   1,          1) /* ItemType - MeleeWeapon */
      , (44266, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44266,  11, True ) /* IgnoreCollisions */
-     , (44266,  13, True ) /* Ethereal */
-     , (44266,  14, True ) /* GravityStatus */
-     , (44266,  19, True ) /* Attackable */
-     , (44266,  22, True ) /* Inscribable */;
+VALUES (44266,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44266,  12,       0) /* Shade */
