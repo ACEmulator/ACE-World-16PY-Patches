@@ -61,7 +61,7 @@ VALUES (37604,   1,       5) /* HeartbeatInterval */
      , (37604, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (37604,   1, 'Infested Rat') /* Name */;
+VALUES (37604,   1, 'Blight Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37604,   1,   33554493) /* Setup */
