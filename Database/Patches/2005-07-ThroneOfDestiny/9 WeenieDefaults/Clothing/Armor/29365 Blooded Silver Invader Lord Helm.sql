@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29365;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29365, 'helminvaderlordsilverblooded', 2, '2019-02-04 06:52:23') /* Clothing */;
+VALUES (29365, 'helminvaderlordsilverblooded', 2, '2019-08-16 14:09:58') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29365,   1,          2) /* ItemType - Armor */
+     , (29365,   3,          1) /* PaletteTemplate - AquaBlue */
      , (29365,   4,      16384) /* ClothingPriority - Head */
      , (29365,   5,        500) /* EncumbranceVal */
      , (29365,   9,          1) /* ValidLocations - HeadWear */
@@ -13,7 +14,7 @@ VALUES (29365,   1,          2) /* ItemType - Armor */
      , (29365,  19,       3000) /* Value */
      , (29365,  28,        250) /* ArmorLevel */
      , (29365,  33,          0) /* Bonded - Normal */
-     , (29365,  53,        101) /* PlacementPosition */
+     , (29365,  53,        101) /* PlacementPosition - Resting */
      , (29365,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29365, 106,        200) /* ItemSpellcraft */
      , (29365, 107,        850) /* ItemCurMana */
@@ -36,6 +37,7 @@ VALUES (29365,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29365,   5, -0.0500000007450581) /* ManaRate */
+     , (29365,  12,       0) /* Shade */
      , (29365,  13,       1) /* ArmorModVsSlash */
      , (29365,  14,       1) /* ArmorModVsPierce */
      , (29365,  15, 1.20000004768372) /* ArmorModVsBludgeon */
