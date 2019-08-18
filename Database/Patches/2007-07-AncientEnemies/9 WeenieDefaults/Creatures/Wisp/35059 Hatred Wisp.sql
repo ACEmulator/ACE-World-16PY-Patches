@@ -68,7 +68,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35059,   1, 'Hatred Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35059,   1,   33556634) /* Setup */
+VALUES (35059,   1,   33556955) /* Setup */
      , (35059,   2,  150994993) /* MotionTable */
      , (35059,   3,  536870985) /* SoundTable */
      , (35059,   4,  805306398) /* CombatTable */
