@@ -13,8 +13,11 @@ VALUES (32007,   1,         16) /* ItemType - Creature */
      , (32007,  25,        750) /* Level */
      , (32007,  27,          0) /* ArmorType - None */
      , (32007,  40,          1) /* CombatMode - NonCombat */
+     , (32007,  81,          8) /* MaxGeneratedObjects */
+     , (32007,  82,          8) /* InitGeneratedObjects */
      , (32007,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (32007, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
+     , (32007, 103,          2) /* GeneratorDestructionType - Destroy */
      , (32007, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (32007, 140,          1) /* AiOptions - CanOpenDoors */
      , (32007, 146,     200000) /* XpOverride */;
@@ -117,6 +120,14 @@ VALUES (32007,  2120,   2.04)  /* Dissolving Vortex */
      , (32007,  4427,   2.03)  /* Incantation of Shock Arc */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (32007,  9 /* Generation */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (32007,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
@@ -162,3 +173,13 @@ VALUES (32007, 9, 31983,  1, 0, 1, True) /* Create Unreadable Falatacot Volume (
      , (32007, 9, 32014,  1, 0, 1, True) /* Create Aurulent Key (32014) for ContainTreasure */
      , (32007, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
      , (32007, 10, 31997,  1, 0, 1, True) /* Create Vaikiakvi (31997) for WieldTreasure */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (32007, -1, 32004, 0, 1, 1, 1, 4, 0, 0, 0, 3587833885, 74.41645, 98.42779, 116.005, 0.71436, 0, 0, -0.699779) /* Generate Shambling Adherent (32004) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (32007, -1, 32004, 0, 1, 1, 1, 4, 0, 0, 0, 3587833885, 74.74965, 117.7374, 116.005, 0.553758, 0, 0, -0.832678) /* Generate Shambling Adherent (32004) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (32007, -1, 32002, 0, 1, 1, 1, 4, 0, 0, 0, 3587833901, 141.372, 99.89897, 116.005, -0.796634, 0, 0, -0.604462) /* Generate Ghastly Priestess (32002) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (32007, -1, 32002, 0, 1, 1, 1, 4, 0, 0, 0, 3587833901, 141.8154, 116.8487, 116.005, -0.707061, 0, 0, -0.707153) /* Generate Ghastly Priestess (32002) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (32007, -1, 32005, 0, 1, 1, 1, 4, 0, 0, 0, 3587833894, 99.09608, 141.6752, 116.005, -0.029035, 0, 0, 0.999578) /* Generate Sodden Cadaver (32005) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (32007, -1, 32005, 0, 1, 1, 1, 4, 0, 0, 0, 3587833894, 116.7873, 140.9033, 116.005, -0.067614, 0, 0, 0.997712) /* Generate Sodden Cadaver (32005) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (32007, -1, 32003, 0, 1, 1, 1, 4, 0, 0, 0, 3587833892, 116.8535, 75.31868, 116.005, -0.998162, 0, 0, -0.0606) /* Generate Worm Feast (32003) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (32007, -1, 32003, 0, 1, 1, 1, 4, 0, 0, 0, 3587833892, 99.9474, 74.42673, 116.005, -0.997568, 0, 0, 0.069694) /* Generate Worm Feast (32003) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
