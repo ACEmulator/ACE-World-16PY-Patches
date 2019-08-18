@@ -78,13 +78,6 @@ VALUES (40926,   1,   33558396) /* Setup */
      , (40926,  22,  872415269) /* PhysicsEffectTable */
      , (40926,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40926, 8040, 3052405382, 177.6532, -77.12003, -33.1975, 0.9800313, 0, 0, -0.1988436) /* PCAPRecordedLocation */
-/* @teleloc 0xB5F00286 [177.653200 -77.120030 -33.197500] 0.980031 0.000000 0.000000 -0.198844 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40926, 8000, 2631053716) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40926,   1, 302, 0, 0) /* Strength */
      , (40926,   2, 318, 0, 0) /* Endurance */
@@ -97,6 +90,15 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (40926,   1,  3341, 0, 0, 3500) /* MaxHealth */
      , (40926,   3,  3600, 0, 0, 3918) /* MaxStamina */
      , (40926,   5,  2700, 0, 0, 3062) /* MaxMana */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (40926,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
+     , (40926,  7, 0, 3, 0, 377, 0, 0) /* MissileDefense      Specialized */
+     , (40926, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
+     , (40926, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
+     , (40926, 33, 0, 3, 0, 260, 0, 0) /* LifeMagic           Specialized */
+     , (40926, 34, 0, 3, 0, 260, 0, 0) /* WarMagic            Specialized */
+     , (40926, 45, 0, 3, 0, 345, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (40926,  0,  4,   0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
