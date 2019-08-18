@@ -73,7 +73,7 @@ VALUES (35097,   1,   33560230) /* Setup */
      , (35097,   3,  536870942) /* SoundTable */
      , (35097,   4,  805306368) /* CombatTable */
      , (35097,   6,   67116522) /* PaletteBase */
-     , (35097,   7,  268435646) /* ClothingBase */
+     , (35097,   7,  268437008) /* ClothingBase */
      , (35097,   8,  100669124) /* Icon */
      , (35097,  22,  872415269) /* PhysicsEffectTable */
      , (35097,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
