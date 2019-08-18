@@ -70,16 +70,11 @@ VALUES (41971,   1, 'Sorrow Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41971,   1,   33557033) /* Setup */
-     , (41971,   2,  150994993) /* MotionTable */
+     , (41971,   2,  150995087) /* MotionTable */
      , (41971,   3,  536870985) /* SoundTable */
-     , (41971,   4,  805306398) /* CombatTable */
-     , (41971,   8,  100668442) /* Icon */
-     , (41971,  22,  872415274) /* PhysicsEffectTable */
+     , (41971,   4,  805306368) /* CombatTable */
+     , (41971,   8,  100671612) /* Icon */
      , (41971,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41971, 8040, 1177354248, 14.17742, 190.5743, 68.0065, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
-/* @teleloc 0x462D0008 [14.177420 190.574300 68.006500] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (41971,   1, 220, 0, 0) /* Strength */

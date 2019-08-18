@@ -1,7 +1,9 @@
 DELETE FROM `encounter` WHERE `landblock` = 18477;
 
 INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`, `last_Modified`)
-VALUES (18477, 80006, 1, 3, '2019-08-16 00:00:00') /* Graveyard Gen */
+VALUES (18477, 80006, 0, 1, '2019-08-16 00:00:00') /* Graveyard Gen */
+     , (18477, 80006, 1, 2, '2019-08-16 00:00:00') /* Graveyard Gen */
+     , (18477, 80006, 1, 3, '2019-08-16 00:00:00') /* Graveyard Gen */
      , (18477, 80006, 2, 0, '2019-08-16 00:00:00') /* Graveyard Gen */
      , (18477, 80006, 2, 4, '2019-08-16 00:00:00') /* Graveyard Gen */
      , (18477, 80006, 3, 2, '2019-08-16 00:00:00') /* Graveyard Gen */

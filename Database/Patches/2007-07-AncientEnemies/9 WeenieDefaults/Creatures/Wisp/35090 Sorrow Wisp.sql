@@ -69,11 +69,10 @@ VALUES (35090,   1, 'Sorrow Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35090,   1,   33557033) /* Setup */
-     , (35090,   2,  150994993) /* MotionTable */
+     , (35090,   2,  150995087) /* MotionTable */
      , (35090,   3,  536870985) /* SoundTable */
-     , (35090,   4,  805306398) /* CombatTable */
-     , (35090,   8,  100668442) /* Icon */
-     , (35090,  22,  872415274) /* PhysicsEffectTable */
+     , (35090,   4,  805306368) /* CombatTable */
+     , (35090,   8,  100671612) /* Icon */
      , (35090,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

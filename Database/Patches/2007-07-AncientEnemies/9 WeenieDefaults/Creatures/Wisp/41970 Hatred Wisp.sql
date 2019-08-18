@@ -70,11 +70,10 @@ VALUES (41970,   1, 'Hatred Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41970,   1,   33556955) /* Setup */
-     , (41970,   2,  150994993) /* MotionTable */
+     , (41970,   2,  150995087) /* MotionTable */
      , (41970,   3,  536870985) /* SoundTable */
-     , (41970,   4,  805306398) /* CombatTable */
-     , (41970,   8,  100668442) /* Icon */
-     , (41970,  22,  872415274) /* PhysicsEffectTable */
+     , (41970,   4,  805306368) /* CombatTable */
+     , (41970,   8,  100671332) /* Icon */
      , (41970,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

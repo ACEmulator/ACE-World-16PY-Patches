@@ -70,11 +70,10 @@ VALUES (35089,   1, 'Despair Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35089,   1,   33557068) /* Setup */
-     , (35089,   2,  150994993) /* MotionTable */
+     , (35089,   2,  150995087) /* MotionTable */
      , (35089,   3,  536870985) /* SoundTable */
-     , (35089,   4,  805306398) /* CombatTable */
-     , (35089,   8,  100668442) /* Icon */
-     , (35089,  22,  872415274) /* PhysicsEffectTable */
+     , (35089,   4,  805306368) /* CombatTable */
+     , (35089,   8,  100671683) /* Icon */
      , (35089,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
