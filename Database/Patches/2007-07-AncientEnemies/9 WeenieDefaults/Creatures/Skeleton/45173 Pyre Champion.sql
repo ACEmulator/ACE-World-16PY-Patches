@@ -136,7 +136,7 @@ VALUES (45173, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield
      , (45173, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (45173, 9, 35504,  0, 0, 0.06, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
      , (45173, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (45173, 9, 45151,  1, 0, 0.06.06, False) /* Create Mhoire Oubliette Portal Glyph (45151) for ContainTreasure */
+     , (45173, 9, 45151,  1, 0, 0.06, False) /* Create Mhoire Oubliette Portal Glyph (45151) for ContainTreasure */
      , (45173, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (45173, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
      , (45173, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
