@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32034;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32034, 'ace32034-goldniffis', 10, '2019-08-02 15:11:13') /* Creature */;
+VALUES (32034, 'ace32034-goldniffis', 10, '2019-08-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32034,   1,         16) /* ItemType - Creature */
@@ -145,5 +145,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32034, 9, 30400,  0, 0, 0.01, False) /* Create Niffis Fighting Pits (30400) for ContainTreasure */
      , (32034, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (32034, 9, 32036,  0, 0, 0.04, False) /* Create Gold Niffis Tentacle (32036) for ContainTreasure */
-     , (32034, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;
+     , (32034, 9, 32036,  0, 0, 1, False) /* Create Gold Niffis Tentacle (32036) for ContainTreasure */
+     , (32034, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

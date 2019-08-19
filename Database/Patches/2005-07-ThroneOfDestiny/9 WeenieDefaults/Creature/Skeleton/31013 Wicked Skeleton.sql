@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31013;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31013, 'skeletonwickedhighyield', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (31013, 'skeletonwickedhighyield', 10, '2019-08-16 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31013,   1,         16) /* ItemType - Creature */
@@ -97,9 +97,9 @@ VALUES (31013,   1, 300, 0, 0) /* Strength */
      , (31013,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31013,   1,  2800, 0, 0, 0) /* MaxHealth */
-     , (31013,   3,  3600, 0, 0, 0) /* MaxStamina */
-     , (31013,   5,  2700, 0, 0, 0) /* MaxMana */;
+VALUES (31013,   1,  2800, 0, 0, 3000) /* MaxHealth */
+     , (31013,   3,  3600, 0, 0, 4000) /* MaxStamina */
+     , (31013,   5,  2700, 0, 0, 3000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (31013,  1, 0, 3, 0, 345, 0, 0) /* Axe                 Specialized */

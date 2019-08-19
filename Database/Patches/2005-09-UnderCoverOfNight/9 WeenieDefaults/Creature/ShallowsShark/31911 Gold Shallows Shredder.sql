@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31911;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31911, 'ace31911-goldshallowsshredder', 10, '2019-06-07 14:25:05') /* Creature */;
+VALUES (31911, 'ace31911-goldshallowsshredder', 10, '2019-08-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31911,   1,         16) /* ItemType - Creature */
@@ -162,5 +162,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31911, 9, 31904,  1, 0, 0.04, False) /* Create Gold Shallows Shredder Fin (31904) for ContainTreasure */
-     , (31911, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;
+VALUES (31911, 9, 31904,  1, 0, 1, False) /* Create Gold Shallows Shredder Fin (31904) for ContainTreasure */;

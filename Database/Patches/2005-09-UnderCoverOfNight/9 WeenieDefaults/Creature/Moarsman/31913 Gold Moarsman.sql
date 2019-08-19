@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31913;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31913, 'ace31913-goldmoarsman', 10, '2019-06-02 07:52:34') /* Creature */;
+VALUES (31913, 'ace31913-goldmoarsman', 10, '2019-08-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31913,   1,         16) /* ItemType - Creature */
@@ -109,5 +109,7 @@ VALUES (31913,  0,  4, 10,    0,  375,  300,  350,  350,  300,  350,  350,  250,
      , (31913, 22, 16, 550,  0.5,  375,  300,  350,  350,  300,  350,  350,  250,    0, 0,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* Breath */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31913, 9, 31903,  0, 0, 0.04, True) /* Create Gold Moarsman Tooth (31903) for ContainTreasure */
-     , (31913, 9, 32274,  0, 0, 0.4, True) /* Create Moarsmuck (32274) for ContainTreasure */;
+VALUES (31913, 9, 31903,  0, 0, 1, True) /* Create Gold Moarsman Tooth (31903) for ContainTreasure */
+     , (31913, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (31913, 9, 32274,  0, 0, 0.4, True) /* Create Moarsmuck (32274) for ContainTreasure */
+     , (31913, 9,     0,  0, 0, 0.6, False) /* Create nothing for ContainTreasure */;
