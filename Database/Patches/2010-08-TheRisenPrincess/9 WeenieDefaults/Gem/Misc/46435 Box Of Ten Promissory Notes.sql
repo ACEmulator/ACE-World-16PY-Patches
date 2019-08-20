@@ -34,4 +34,4 @@ VALUES (46435,   1,   33554718) /* Setup */
      , (46435,   3,  536870932) /* SoundTable */
      , (46435,   8,  100692715) /* Icon */
      , (46435,  22,  872415275) /* PhysicsEffectTable */
-     , (46441,  38,      43901) /* UseCreateItem - Promissory Note */;
+     , (46435,  38,      43901) /* UseCreateItem - Promissory Note */;
