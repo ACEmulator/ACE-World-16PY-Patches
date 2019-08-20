@@ -35,16 +35,16 @@ VALUES (29769,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29769,   1,       5) /* HeartbeatInterval */
      , (29769,   2,       0) /* HeartbeatTimestamp */
-     , (29769,   3, 0.159999996423721) /* HealthRate */
+     , (29769,   3,    0.16) /* HealthRate */
      , (29769,   4,       5) /* StaminaRate */
      , (29769,   5,       1) /* ManaRate */
-     , (29769,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (29769,  13,     0.9) /* ArmorModVsSlash */
      , (29769,  14,       1) /* ArmorModVsPierce */
-     , (29769,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (29769,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (29769,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (29769,  15,     1.1) /* ArmorModVsBludgeon */
+     , (29769,  16,     0.4) /* ArmorModVsCold */
+     , (29769,  17,     0.4) /* ArmorModVsFire */
      , (29769,  18,       1) /* ArmorModVsAcid */
-     , (29769,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (29769,  19,     0.6) /* ArmorModVsElectric */
      , (29769,  54,       3) /* UseRadius */
      , (29769,  64,       1) /* ResistSlash */
      , (29769,  65,       1) /* ResistPierce */
@@ -71,13 +71,7 @@ VALUES (29769,   1,   33554433) /* Setup */
      , (29769,   3,  536870913) /* SoundTable */
      , (29769,   4,  805306368) /* CombatTable */
      , (29769,   6,   67108990) /* PaletteBase */
-     , (29769,   8,  100667446) /* Icon */
-     , (29769,   9,   83890495) /* EyesTexture */
-     , (29769,  10,   83890560) /* NoseTexture */
-     , (29769,  11,   83890589) /* MouthTexture */
-     , (29769,  15,   67117022) /* HairPalette */
-     , (29769,  16,   67110065) /* EyesPalette */
-     , (29769,  17,   67109559) /* SkinPalette */;
+     , (29769,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29769,   1, 160, 0, 0) /* Strength */
@@ -88,9 +82,9 @@ VALUES (29769,   1, 160, 0, 0) /* Strength */
      , (29769,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29769,   1,     0, 0, 0, 90) /* MaxHealth */
-     , (29769,   3,     0, 0, 0, 180) /* MaxStamina */
-     , (29769,   5,     0, 0, 0, 220) /* MaxMana */;
+VALUES (29769,   1,   125, 0, 0, 215) /* MaxHealth */
+     , (29769,   3,   110, 0, 0, 290) /* MaxStamina */
+     , (29769,   5,    55, 0, 0, 275) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (29769,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */
@@ -115,6 +109,15 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767242 /* Salute */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (29769,  6 /* Give */,      1, 29806 /* Title Token 'Kingslayer' */, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 0, NULL, 'Guard Devon announces, "Let it be known that %s has faced and defeated all six of the Burun Kings! Let it be known that from this day forth %s shall be known as Kingslayer! Huzzah! Huzzah! Huzzah!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29769,  6 /* Give */,      1, 30259 /* Combined Kukuur Hides */, NULL, NULL, NULL, NULL, NULL, NULL);

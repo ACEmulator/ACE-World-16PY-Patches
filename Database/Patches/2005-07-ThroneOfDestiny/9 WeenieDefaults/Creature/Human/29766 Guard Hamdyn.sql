@@ -35,16 +35,16 @@ VALUES (29766,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29766,   1,       5) /* HeartbeatInterval */
      , (29766,   2,       0) /* HeartbeatTimestamp */
-     , (29766,   3, 0.159999996423721) /* HealthRate */
+     , (29766,   3,    0.16) /* HealthRate */
      , (29766,   4,       5) /* StaminaRate */
      , (29766,   5,       1) /* ManaRate */
-     , (29766,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (29766,  13,     0.9) /* ArmorModVsSlash */
      , (29766,  14,       1) /* ArmorModVsPierce */
-     , (29766,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (29766,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (29766,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (29766,  15,     1.1) /* ArmorModVsBludgeon */
+     , (29766,  16,     0.4) /* ArmorModVsCold */
+     , (29766,  17,     0.4) /* ArmorModVsFire */
      , (29766,  18,       1) /* ArmorModVsAcid */
-     , (29766,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (29766,  19,     0.6) /* ArmorModVsElectric */
      , (29766,  54,       3) /* UseRadius */
      , (29766,  64,       1) /* ResistSlash */
      , (29766,  65,       1) /* ResistPierce */
@@ -71,13 +71,7 @@ VALUES (29766,   1,   33554433) /* Setup */
      , (29766,   3,  536870913) /* SoundTable */
      , (29766,   4,  805306368) /* CombatTable */
      , (29766,   6,   67108990) /* PaletteBase */
-     , (29766,   8,  100667446) /* Icon */
-     , (29766,   9,   83890481) /* EyesTexture */
-     , (29766,  10,   83890522) /* NoseTexture */
-     , (29766,  11,   83890587) /* MouthTexture */
-     , (29766,  15,   67117025) /* HairPalette */
-     , (29766,  16,   67109567) /* EyesPalette */
-     , (29766,  17,   67109562) /* SkinPalette */;
+     , (29766,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29766,   1, 160, 0, 0) /* Strength */
@@ -88,9 +82,9 @@ VALUES (29766,   1, 160, 0, 0) /* Strength */
      , (29766,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29766,   1,     0, 0, 0, 90) /* MaxHealth */
-     , (29766,   3,     0, 0, 0, 180) /* MaxStamina */
-     , (29766,   5,     0, 0, 0, 220) /* MaxMana */;
+VALUES (29766,   1,   125, 0, 0, 215) /* MaxHealth */
+     , (29766,   3,   110, 0, 0, 290) /* MaxStamina */
+     , (29766,   5,    55, 0, 0, 275) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (29766,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */
@@ -115,6 +109,16 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767242 /* Salute */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (29766,  6 /* Give */,      1, 29803 /* Title Token 'Broodu Killer' */, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  17 /* LocalBroadcast */, 1.5, 0, NULL, 'Let it be known that %s has faced and defeated Broodu! Let it be known that from this day forth %s shall be known as Broodu Killer! Huzzah! Huzzah! Huzzah!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,  34 /* AddCharacterTitle */, 1.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 27, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29766,  6 /* Give */,      1, 29561 /* Broodu's Hide */, NULL, NULL, NULL, NULL, NULL, NULL);
