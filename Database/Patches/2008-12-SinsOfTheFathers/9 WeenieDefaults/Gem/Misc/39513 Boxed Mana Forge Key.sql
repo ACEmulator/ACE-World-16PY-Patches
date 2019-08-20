@@ -16,7 +16,7 @@ VALUES (39513,   1,        128) /* ItemType - Misc */
      , (39513,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39513,  94,         16) /* TargetType - Creature */
      , (39513, 151,          1) /* HookType - Floor */
-     , (39513, 269,          1) /* UseCreateQuanity */;
+     , (39513, 269,          1) /* UseCreateQuantity */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (39513,  39,    0.25) /* DefaultScale */;

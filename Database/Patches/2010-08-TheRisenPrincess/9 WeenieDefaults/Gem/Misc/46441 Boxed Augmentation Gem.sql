@@ -16,7 +16,7 @@ VALUES (46441,   1,        128) /* ItemType - Misc */
      , (46441,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46441,  94,         16) /* TargetType - Creature */
      , (46441, 114,          1) /* Attuned - Attuned */
-     , (46441, 269,          1) /* UseCreateQuanity */;
+     , (46441, 269,          1) /* UseCreateQuantity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46441,  69, False) /* IsSellable */;
