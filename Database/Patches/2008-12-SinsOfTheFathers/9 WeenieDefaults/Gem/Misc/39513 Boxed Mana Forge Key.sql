@@ -29,5 +29,5 @@ VALUES (39513,   1,   33558433) /* Setup */
      , (39513,   3,  536870945) /* SoundTable */
      , (39513,   8,  100674799) /* Icon */
      , (39513,  22,  872415275) /* PhysicsEffectTable */
-     , (39513,  50,  100686710) /* IconOverlay */
-     , (39513,  38,      38456) /* UseCreateItem - Mana Forge Key */;
+     , (39513,  38,      38456) /* UseCreateItem - Mana Forge Key */
+     , (39513,  50,  100686710) /* IconOverlay */;
