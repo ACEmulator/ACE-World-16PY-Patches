@@ -80,6 +80,10 @@ VALUES (31876,   1,   33558437) /* Setup */
      , (31876,  32,        447) /* WieldedTreasureType - 
                                    Wield Khopesh (25500) | Probability: 98% */;
 
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (31876, 12, 3932435, 90.014, -178.704, -71.995, 0.010461, 0, 0, 0.999945) /* PortalSummonLoc */
+/* @teleloc 0x003C0113 [90.014404 -178.704178 -71.994995] 0.010461 0.000000 0.000000 0.999945 */;
+
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31876,   1, 380, 0, 0) /* Strength */
      , (31876,   2, 400, 0, 0) /* Endurance */
