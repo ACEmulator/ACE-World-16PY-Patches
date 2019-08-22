@@ -3,7 +3,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41965;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41965, 'ace41965-pyreminion', 10, '2019-08-16 00:00:00') /* Creature */;
+VALUES (41965, 'ace41965-pyreminion', 10, '2019-08-22 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41965,   1,         16) /* ItemType - Creature */
@@ -128,7 +128,7 @@ VALUES (41965, 9, 38714,  0, 0, 0.085, False) /* Create Pyre Skeleton Jaw (38714
      , (41965, 9,     0,  0, 0, 0.915, False) /* Create nothing for ContainTreasure */
      , (41965, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (41965, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (41965, 9, 35383,  0, 0, 0.06, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
-     , (41965, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
+     , (41965, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
+     , (41965, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (41965, 9, 41957,  0, 0, 0.06, False) /* Create Mhoire Castle Treasury Key (41957) for ContainTreasure */
      , (41965, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */;
