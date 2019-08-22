@@ -1,20 +1,20 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48991;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48991, 'ace48991-flaminghatchet', 6, '2019-05-06 00:00:00') /* MeleeWeapon */;
+VALUES (48991, 'ace48991-flaminghatchet', 6, '2019-08-19 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48991,   1,          1) /* ItemType - MeleeWeapon */
      , (48991,   3,         21) /* PaletteTemplate - Gold */
      , (48991,   5,        450) /* EncumbranceVal */
      , (48991,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (48991,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (48991,  16,          1) /* ItemUseable - No */
      , (48991,  18,         32) /* UiEffects - Fire */
      , (48991,  19,        130) /* Value */
      , (48991,  33,         -2) /* Bonded - Destroy */
      , (48991,  44,         -1) /* Damage */
-     , (48991,  45,          0) /* DamageType - Undef */
+     , (48991,  45,         16) /* DamageType - Fire */
+     , (48991,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (48991,  47,          4) /* AttackType - Slash */
      , (48991,  48,         45) /* WeaponSkill - LightWeapons */
      , (48991,  49,         -1) /* WeaponTime */
