@@ -12,6 +12,7 @@ VALUES (35095,   1,          1) /* ItemType - MeleeWeapon */
      , (35095,  16,          1) /* ItemUseable - No */
      , (35095,  18,         32) /* UiEffects - Fire */
      , (35095,  19,        125) /* Value */
+     , (35095,  33,         -2) /* Bonded - Destroy */
      , (35095,  44,        150) /* Damage */
      , (35095,  45,         16) /* DamageType - Fire */
      , (35095,  46,          1) /* DefaultCombatStyle - Unarmed */
