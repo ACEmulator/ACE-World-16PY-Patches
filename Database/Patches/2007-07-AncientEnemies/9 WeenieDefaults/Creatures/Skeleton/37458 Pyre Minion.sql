@@ -3,7 +3,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37458;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37458, 'ace37458-pyreminion', 10, '2019-08-16 00:00:00') /* Creature */;
+VALUES (37458, 'ace37458-pyreminion', 10, '2019-08-22 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37458,   1,         16) /* ItemType - Creature */
@@ -127,7 +127,7 @@ VALUES (37458, 9, 38714,  0, 0, 0.085, False) /* Create Pyre Skeleton Jaw (38714
      , (37458, 9,     0,  0, 0, 0.915, False) /* Create nothing for ContainTreasure */
      , (37458, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (37458, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (37458, 9, 35383,  0, 0, 0.06, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
-     , (37458, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
+     , (37458, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
+     , (37458, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (37458, 9, 37290,  0, 0, 0.06, False) /* Create Jester's Token (35383) for ContainTreasure */
      , (37458, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */;

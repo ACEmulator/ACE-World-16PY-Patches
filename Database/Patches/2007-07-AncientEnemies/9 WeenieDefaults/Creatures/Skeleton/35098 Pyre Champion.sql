@@ -3,7 +3,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35098;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35098, 'ace35098-pyrechampion', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (35098, 'ace35098-pyrechampion', 10, '2019-08-22 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35098,   1,         16) /* ItemType - Creature */
@@ -132,8 +132,8 @@ VALUES (35098, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield
      , (35098, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (35098, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (35098, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (35098, 9, 35383,  0, 0, 0.06, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
-     , (35098, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
+     , (35098, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
+     , (35098, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (35098, 9, 35504,  0, 0, 0.06, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
      , (35098, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (35098, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
