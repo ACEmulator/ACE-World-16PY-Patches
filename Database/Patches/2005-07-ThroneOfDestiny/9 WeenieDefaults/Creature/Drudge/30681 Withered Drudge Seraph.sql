@@ -66,12 +66,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30681,   1, 'Withered Drudge Seraph') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30681,   1,   33559218) /* Setup */
+VALUES (30681,   1,   33556445) /* Setup */
      , (30681,   2,  150994952) /* MotionTable */
      , (30681,   3,  536870919) /* SoundTable */
      , (30681,   4,  805306372) /* CombatTable */
      , (30681,   6,   67112812) /* PaletteBase */
-     , (30681,   7,  268436896) /* ClothingBase */
+     , (30681,   7,  268436614) /* ClothingBase */
      , (30681,   8,  100667445) /* Icon */
      , (30681,  22,  872415258) /* PhysicsEffectTable */
      , (30681,  32,        423) /* WieldedTreasureType - 
