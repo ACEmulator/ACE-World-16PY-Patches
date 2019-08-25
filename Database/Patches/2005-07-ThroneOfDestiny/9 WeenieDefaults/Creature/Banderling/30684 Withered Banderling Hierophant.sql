@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30684;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30684, 'banderlingheirophantwitheredboss', 10, '2019-08-24 00:00:00') /* Creature */;
+VALUES (30684, 'banderlingheirophantwitheredboss', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30684,   1,         16) /* ItemType - Creature */
@@ -67,12 +67,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30684,   1, 'Withered Banderling Hierophant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30684,   1,   33558024) /* Setup */
+VALUES (30684,   1,   33559220) /* Setup */
      , (30684,   2,  150994951) /* MotionTable */
      , (30684,   3,  536870917) /* SoundTable */
      , (30684,   4,  805306370) /* CombatTable */
      , (30684,   6,   67114021) /* PaletteBase */
-     , (30684,   7,  268436611) /* ClothingBase */
+     , (30684,   7,  268436897) /* ClothingBase */
      , (30684,   8,  100667453) /* Icon */
      , (30684,  22,  872415255) /* PhysicsEffectTable */
      , (30684,  32,        423) /* WieldedTreasureType - 

@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30688;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30688, 'tumerokreveredshamanwitheredboss', 10, '2019-08-24 00:00:00') /* Creature */;
+VALUES (30688, 'tumerokreveredshamanwitheredboss', 10, '2019-04-09 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30688,   1,         16) /* ItemType - Creature */
      , (30688,   2,          6) /* CreatureType - Tumerok */
-     , (30688,   3,         21) /* PaletteTemplate - Gold */
+     , (30688,   3,         39) /* PaletteTemplate - Black */
      , (30688,   6,         -1) /* ItemsCapacity */
      , (30688,   7,         -1) /* ContainersCapacity */
      , (30688,  16,          1) /* ItemUseable - No */
@@ -35,7 +35,7 @@ VALUES (30688,   1,       5) /* HeartbeatInterval */
      , (30688,   3,       6) /* HealthRate */
      , (30688,   4,      10) /* StaminaRate */
      , (30688,   5,       5) /* ManaRate */
-     , (30688,  12,  0.5714) /* Shade */
+     , (30688,  12,     0.5) /* Shade */
      , (30688,  13,       1) /* ArmorModVsSlash */
      , (30688,  14,       1) /* ArmorModVsPierce */
      , (30688,  15,       1) /* ArmorModVsBludgeon */
@@ -67,12 +67,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30688,   1, 'Withered Revered Tumerok Shaman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30688,   1,   33559551) /* Setup */
+VALUES (30688,   1,   33559217) /* Setup */
      , (30688,   2,  150994954) /* MotionTable */
      , (30688,   3,  536870931) /* SoundTable */
      , (30688,   4,  805306380) /* CombatTable */
-     , (30688,   6,   67116625) /* PaletteBase */
-     , (30688,   7,  268437016) /* ClothingBase */
+     , (30688,   6,   67109314) /* PaletteBase */
+     , (30688,   7,  268436899) /* ClothingBase */
      , (30688,   8,  100667452) /* Icon */
      , (30688,  22,  872415270) /* PhysicsEffectTable */
      , (30688,  32,        490) /* WieldedTreasureType - 

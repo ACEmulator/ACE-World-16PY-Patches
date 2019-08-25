@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30681;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30681, 'drudgeseraphwitheredboss', 10, '2019-08-24 00:00:00') /* Creature */;
+VALUES (30681, 'drudgeseraphwitheredboss', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30681,   1,         16) /* ItemType - Creature */
@@ -71,7 +71,7 @@ VALUES (30681,   1,   33556445) /* Setup */
      , (30681,   3,  536870919) /* SoundTable */
      , (30681,   4,  805306372) /* CombatTable */
      , (30681,   6,   67112812) /* PaletteBase */
-     , (30681,   7,  268436614) /* ClothingBase */
+     , (30681,   7,  268436896) /* ClothingBase */
      , (30681,   8,  100667445) /* Icon */
      , (30681,  22,  872415258) /* PhysicsEffectTable */
      , (30681,  32,        423) /* WieldedTreasureType - 

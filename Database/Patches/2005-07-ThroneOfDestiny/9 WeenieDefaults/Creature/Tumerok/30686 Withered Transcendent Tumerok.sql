@@ -6,7 +6,7 @@ VALUES (30686, 'tumerokwarmongerwithered', 10, '2019-04-09 23:37:09') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30686,   1,         16) /* ItemType - Creature */
      , (30686,   2,          6) /* CreatureType - Tumerok */
-     , (30686,   3,         12) /* PaletteTemplate - Navy */
+     , (30686,   3,          9) /* PaletteTemplate - Grey */
      , (30686,   6,         -1) /* ItemsCapacity */
      , (30686,   7,         -1) /* ContainersCapacity */
      , (30686,  16,          1) /* ItemUseable - No */
@@ -67,12 +67,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30686,   1, 'Withered Transcendent Tumerok') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30686,   1,   33559551) /* Setup */
+VALUES (30686,   1,   33559217) /* Setup */
      , (30686,   2,  150994954) /* MotionTable */
      , (30686,   3,  536870931) /* SoundTable */
      , (30686,   4,  805306380) /* CombatTable */
-     , (30686,   6,   67116625) /* PaletteBase */
-     , (30686,   7,  268437016) /* ClothingBase */
+     , (30686,   6,   67109314) /* PaletteBase */
+     , (30686,   7,  268436899) /* ClothingBase */
      , (30686,   8,  100667452) /* Icon */
      , (30686,  22,  872415270) /* PhysicsEffectTable */
      , (30686,  32,        490) /* WieldedTreasureType - 

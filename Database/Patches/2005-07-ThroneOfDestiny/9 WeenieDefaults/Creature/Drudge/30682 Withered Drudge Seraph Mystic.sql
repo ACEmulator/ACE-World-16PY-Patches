@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30682,   1, 'Withered Drudge Seraph Mystic') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30682,   1,   33556445) /* Setup */
+VALUES (30682,   1,   33559218) /* Setup */
      , (30682,   2,  150994952) /* MotionTable */
      , (30682,   3,  536870919) /* SoundTable */
      , (30682,   4,  805306372) /* CombatTable */
      , (30682,   6,   67112812) /* PaletteBase */
-     , (30682,   7,  268436614) /* ClothingBase */
+     , (30682,   7,  268436896) /* ClothingBase */
      , (30682,   8,  100667445) /* Icon */
      , (30682,  22,  872415258) /* PhysicsEffectTable */
      , (30682,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
