@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30676;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30676, 'bowbarren', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (30676, 'bowbarren', 3, '2019-08-23 06:12:54') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30676,   1,        256) /* ItemType - MissileWeapon */
@@ -17,8 +17,8 @@ VALUES (30676,   1,        256) /* ItemType - MissileWeapon */
      , (30676,  49,         40) /* WeaponTime */
      , (30676,  50,          1) /* AmmoType - Arrow */
      , (30676,  51,          2) /* CombatUse - Missle */
-     , (30676,  52,          2) /* ParentLocation */
-     , (30676,  53,          3) /* PlacementPosition */
+     , (30676,  52,          2) /* ParentLocation - LeftHand */
+     , (30676,  53,          3) /* PlacementPosition - LeftHand */
      , (30676,  60,        175) /* WeaponRange */
      , (30676,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30676, 106,        300) /* ItemSpellcraft */
@@ -49,7 +49,7 @@ VALUES (30676,   5, -0.0500000007450581) /* ManaRate */
      , (30676,  29, 1.11000001430511) /* WeaponDefense */
      , (30676,  62,       1) /* WeaponOffense */
      , (30676,  63, 2.54999995231628) /* DamageMod */
-     , (30676, 136,       7) /* CriticalMultiplier */;
+     , (30676, 136,     2.5) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30676,   1, 'Barren Bow') /* Name */
