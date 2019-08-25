@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30683;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30683, 'banderlingheirophantwithered', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (30683, 'banderlingheirophantwithered', 10, '2019-08-24 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30683,   1,         16) /* ItemType - Creature */
@@ -18,8 +18,7 @@ VALUES (30683,   1,         16) /* ItemType - Creature */
      , (30683, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30683, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30683, 140,          1) /* AiOptions - CanOpenDoors */
-     , (30683, 146,    1500000) /* XpOverride */
-     , (30683, 307,         10) /* DamageRating */;
+     , (30683, 146,    1500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30683,   1, True ) /* Stuck */
@@ -75,7 +74,7 @@ VALUES (30683,   1,   33558024) /* Setup */
      , (30683,   3,  536870917) /* SoundTable */
      , (30683,   4,  805306370) /* CombatTable */
      , (30683,   6,   67114021) /* PaletteBase */
-     , (30683,   7,  268436897) /* ClothingBase */
+     , (30683,   7,  268436611) /* ClothingBase */
      , (30683,   8,  100667453) /* Icon */
      , (30683,  22,  872415255) /* PhysicsEffectTable */
      , (30683,  32,        423) /* WieldedTreasureType - 

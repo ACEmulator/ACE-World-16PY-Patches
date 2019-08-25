@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30680;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30680, 'drudgeseraphwithered', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (30680, 'drudgeseraphwithered', 10, '2019-08-24 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30680,   1,         16) /* ItemType - Creature */
@@ -18,8 +18,7 @@ VALUES (30680,   1,         16) /* ItemType - Creature */
      , (30680, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30680, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30680, 140,          1) /* AiOptions - CanOpenDoors */
-     , (30680, 146,    1500000) /* XpOverride */
-     , (30680, 307,          7) /* DamageRating */;
+     , (30680, 146,    1500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30680,   1, True ) /* Stuck */
@@ -72,7 +71,7 @@ VALUES (30680,   1,   33556445) /* Setup */
      , (30680,   3,  536870919) /* SoundTable */
      , (30680,   4,  805306372) /* CombatTable */
      , (30680,   6,   67112812) /* PaletteBase */
-     , (30680,   7,  268436896) /* ClothingBase */
+     , (30680,   7,  268436614) /* ClothingBase */
      , (30680,   8,  100667445) /* Icon */
      , (30680,  22,  872415258) /* PhysicsEffectTable */
      , (30680,  32,        423) /* WieldedTreasureType - 
