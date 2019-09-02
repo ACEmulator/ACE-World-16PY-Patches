@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE landblock = 766;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1882185728,  7924, 50201665, 80.41, -292.41, 0, 0.71, 0, 0, -0.71, False, '2019-02-15 14:34:36'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x02FE0441 [80.410000 -292.410000 0.000000] 0.710000 0.000000 0.000000 -0.710000 */
@@ -55,12 +57,12 @@ VALUES (1882185741,  9108, 50200840, 75.71, -19.98, -47.99, 0.702057, 0, 0, -0.7
 /* @teleloc 0x02FE0108 [75.710000 -19.980000 -47.990000] 0.702057 0.000000 0.000000 -0.712121 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1882185742,  3975, 50200909, 48.1, -23.3, -41.99, 1, 0, 0, 0.01, False, '2019-02-15 14:34:36'); /* Chest */
-/* @teleloc 0x02FE014D [48.100000 -23.300000 -41.990000] 1.000000 0.000000 0.000000 0.010000 */
+VALUES (1882185742,  3975, 50200909, 53.44367, -23.17211, -42, 0.7071068, 0, 0, -0.7071068, False, '2019-09-02 14:34:36'); /* Chest */
+/* @teleloc 0x02FE014D [53.44367 -23.17211 -42.000000] 0.7071068 0.000000 0.000000 -0.7071068 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1882185743,  3963, 50200853, 15.92, -6.69, -41.99, 0.7, 0, 0, -0.71, False, '2019-02-15 14:34:36'); /* Chest */
-/* @teleloc 0x02FE0115 [15.920000 -6.690000 -41.990000] 0.700000 0.000000 0.000000 -0.710000 */
+VALUES (1882185743,  3963, 50200853, 16.3607, -6.807631, -42, -0.7071068, 0, 0, -0.7071068, False, '2019-09-02 14:34:36'); /* Chest */
+/* @teleloc 0x02FE0115 [16.3607 -6.807631 -42.000000] -0.7071068 0.000000 0.000000 -0.7071068 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1882185744, 28636, 50201669, 89.8, -259.87, -2.995, 0.678557, 0, 0, 0.734548, True, '2019-02-15 14:34:36'); /* Rabid Eater */
