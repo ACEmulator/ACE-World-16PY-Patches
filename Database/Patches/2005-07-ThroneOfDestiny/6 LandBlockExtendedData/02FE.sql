@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE landblock = 766;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1882186728,  7924, 50201665, 80.41, -292.41, 0, 0.71, 0, 0, -0.71, False, '2019-09-02 05:10:59'); /* Linkable Monster Generator ( 5 Min.) */
-/* @teleloc 0x02FE0441 [80.410000 -292.410000 0.000000] 0.710000 0.000000 0.000000 -0.710000 */
+VALUES (1882186728,  7924, 50201665, 80.41, -292.41, 0, 1, 0, 0, 0, False, '2019-09-02 05:10:59'); /* Linkable Monster Generator ( 5 Min.) */
+/* @teleloc 0x02FE0441 [80.410000 -292.410000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (1882186728, 1882186744, '2019-09-02 05:10:59') /* Rabid Eater */
