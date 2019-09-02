@@ -21,8 +21,7 @@ VALUES (11989,   1,         16) /* ItemType - Creature */
      , (11989, 103,          1) /* GeneratorDestructionType - Nothing */
      , (11989, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11989, 140,          1) /* AiOptions - CanOpenDoors */
-     , (11989, 146,       2000) /* XpOverride */
-     , (11989, 307,          5) /* DamageRating */;
+     , (11989, 146,       2000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11989,   1, True ) /* Stuck */
