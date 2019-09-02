@@ -30,7 +30,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70306,   1,   33556921) /* Setup */
      , (70306,   3,  536870932) /* SoundTable */
      , (70306,   8,  100671216) /* Icon */
-     , (70306,  22,  7030615275) /* PhysicsEffectTable */;
+     , (70306,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (70306, 2, 1000);
