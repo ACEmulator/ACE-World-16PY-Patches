@@ -29,7 +29,7 @@ VALUES (70247,   1,          1) /* ItemType - MeleeWeapon */
      , (70247, 159,         45) /* WeaponSkill - LightWeapons */
      , (70247, 160,        325) /* WieldDifficulty */
      , (70247, 263,          1) /* ResistanceModifierType */
-     , (70247, 353,          3) /* WeaponType - Axe */;
+     , (70247, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70247,  22, True ) /* Inscribable */
