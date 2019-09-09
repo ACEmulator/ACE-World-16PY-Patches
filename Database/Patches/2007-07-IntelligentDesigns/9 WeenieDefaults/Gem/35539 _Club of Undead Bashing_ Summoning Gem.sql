@@ -37,6 +37,6 @@ VALUES (35539,   1,   33556223) /* Setup */
      , (35539,   7,  268435841) /* ClothingBase */
      , (35539,   8,  100673039) /* Icon */
      , (35539,  22,  872415275) /* PhysicsEffectTable */
-     , (35539,  38,      80020) /* UseCreateItem - Club of Undead Bashing */;
+     , (35539,  38,      80020) /* UseCreateItem - Club of Undead Bashing */
      , (35539,  50,  100673774) /* IconOverlay */
      , (35539,  52,  100689403) /* IconUnderlay */;
