@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34250;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34250, 'ace34250-diseasedpolarcarenziliver', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (34250, 'ace34250-diseasedpolarcarenziliver', 10, '2019-08-25 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34250,   1,         16) /* ItemType - Creature */
@@ -10,8 +10,7 @@ VALUES (34250,   1,         16) /* ItemType - Creature */
      , (34250,  16,         32) /* ItemUseable - Remote */
      , (34250,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34250,  95,          3) /* RadarBlipColor - White */
-     , (34250, 267,        240) /* Lifespan */
-     , (34250, 268,        240) /* RemainingLifespan */;
+     , (34250, 267,        240) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34250,   1, True ) /* Stuck */

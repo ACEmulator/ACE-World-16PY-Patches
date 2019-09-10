@@ -15,12 +15,13 @@ VALUES (46010,   1,          4) /* ItemType - Clothing */
      , (46010,  65,        101) /* Placement - Resting */
      , (46010,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46010, 106,        250) /* ItemSpellcraft */
-     , (46010, 107,        148) /* ItemCurMana */
+     , (46010, 107,        400) /* ItemCurMana */
      , (46010, 108,        400) /* ItemMaxMana */
      , (46010, 109,         85) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46010,  22, True ) /* Inscribable */
+     , (46010,  69, False) /* IsSellable */
      , (46010, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

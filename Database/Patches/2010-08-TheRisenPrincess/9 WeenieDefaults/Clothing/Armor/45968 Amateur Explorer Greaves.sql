@@ -23,11 +23,8 @@ VALUES (45968,   1,          2) /* ItemType - Armor */
      , (45968, 160,         40) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45968,  11, True ) /* IgnoreCollisions */
-     , (45968,  13, True ) /* Ethereal */
-     , (45968,  14, True ) /* GravityStatus */
-     , (45968,  19, True ) /* Attackable */
-     , (45968,  22, True ) /* Inscribable */
+VALUES (45968,  22, True ) /* Inscribable */
+     , (45968,  69, False) /* IsSellable */
      , (45968, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

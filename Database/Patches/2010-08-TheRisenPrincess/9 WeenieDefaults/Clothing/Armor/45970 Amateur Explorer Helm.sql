@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45970;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45970, 'ace45970-amateurexplorerhelm', 2, '2019-03-31 22:38:17') /* Clothing */;
+VALUES (45970, 'ace45970-amateurexplorerhelm', 2, '2019-08-25 00:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45970,   1,          2) /* ItemType - Armor */
@@ -23,11 +23,8 @@ VALUES (45970,   1,          2) /* ItemType - Armor */
      , (45970, 160,         40) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45970,  11, True ) /* IgnoreCollisions */
-     , (45970,  13, True ) /* Ethereal */
-     , (45970,  14, True ) /* GravityStatus */
-     , (45970,  19, True ) /* Attackable */
-     , (45970,  22, True ) /* Inscribable */
+VALUES (45970,  22, True ) /* Inscribable */
+     , (45970,  69, False) /* IsSellable */
      , (45970, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -55,7 +52,7 @@ VALUES (45970,   1,   33559082) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45970,   243,      2)  /* Invulnerability Other V */
-     , (45970,   254,      2)  /* Impregnability Other V */
      , (45970,   272,      2)  /* Magic Resistance Other V */
+     , (45970,   254,      2)  /* Impregnability Other V */
      , (45970,   567,      2)  /* Creature Enchantment Mastery Other V */
      , (45970,  1485,      2)  /* Impenetrability V */;

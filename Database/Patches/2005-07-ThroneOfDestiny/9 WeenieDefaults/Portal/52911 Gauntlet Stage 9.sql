@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52911;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52911, 'ace52911-gauntletstage9', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (52911, 'ace52911-gauntletstage9', 7, '2019-08-25 00:00:00') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52911,   1,      65536) /* ItemType - Portal */
@@ -10,8 +10,7 @@ VALUES (52911,   1,      65536) /* ItemType - Portal */
      , (52911,  98, 1485829571) /* CreationTimestamp */
      , (52911, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (52911, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (52911, 267,         60) /* Lifespan */
-     , (52911, 268,         58) /* RemainingLifespan */;
+     , (52911, 267,         60) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52911,   1, True ) /* Stuck */
