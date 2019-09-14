@@ -99,7 +99,7 @@ VALUES (24292,  5, 0, 3, 0, 270, 0, 1542.30712890625) /* Mace                Spe
      , (24292,  7, 0, 3, 0, 381, 0, 1542.30712890625) /* MissileDefense      Specialized */
      , (24292,  9, 0, 3, 0, 270, 0, 1542.30712890625) /* Spear               Specialized */
      , (24292, 10, 0, 3, 0, 270, 0, 1542.30712890625) /* Staff               Specialized */
-     , (24292, 11, 0, 3, 0, 270, 0, 1542.30712890625) /* Sword               Specialized */
+     , (24292, 11, 0, 3, 0, 270, 0, 1542.30712890625) /* HeavyWeapons        Specialized */
      , (24292, 12, 0, 3, 0, 170, 0, 1542.30712890625) /* ThrownWeapon        Specialized */
      , (24292, 13, 0, 3, 0, 270, 0, 1542.30712890625) /* UnarmedCombat       Specialized */
      , (24292, 15, 0, 3, 0, 235, 0, 1542.30712890625) /* MagicDefense        Specialized */

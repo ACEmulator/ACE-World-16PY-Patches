@@ -95,7 +95,7 @@ VALUES (8143,   1,    50, 0, 0, 125) /* MaxHealth */
      , (8143,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (8143,  1, 0, 3, 0,  75, 0, 571.452087402344) /* Axe                 Specialized */
+VALUES (8143,  1, 0, 3, 0,  75, 0, 571.452087402344) /* LightWeapons        Specialized */
      , (8143,  5, 0, 3, 0,  75, 0, 571.452087402344) /* Mace                Specialized */
      , (8143,  6, 0, 3, 0, 135, 0, 571.452087402344) /* MeleeDefense        Specialized */
      , (8143,  7, 0, 3, 0, 225, 0, 571.452087402344) /* MissileDefense      Specialized */

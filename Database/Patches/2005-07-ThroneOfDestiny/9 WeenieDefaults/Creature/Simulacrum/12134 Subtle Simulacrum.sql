@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12134;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12134, 'simulacrumsubtle', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (12134, 'simulacrumsubtle', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12134,   1,         16) /* ItemType - Creature */
@@ -19,8 +19,7 @@ VALUES (12134,   1,         16) /* ItemType - Creature */
      , (12134, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12134, 140,          1) /* AiOptions - CanOpenDoors */
      , (12134, 146,      17500) /* XpOverride */
-     , (12134, 188,          1) /* HeritageGroup - Aluvian */
-     , (12134, 307,          5) /* DamageRating */;
+     , (12134, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12134,   1, True ) /* Stuck */
@@ -107,23 +106,17 @@ VALUES (12134,   1,   104, 0, 0, 154) /* MaxHealth */
      , (12134,   5,   112, 0, 0, 362) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (12134,  1, 0, 3, 0, 200, 0, 789.09033203125) /* Axe                 Specialized */
-     , (12134,  2, 0, 3, 0, 220, 0, 789.09033203125) /* Bow                 Specialized */
-     , (12134,  3, 0, 3, 0, 220, 0, 789.09033203125) /* Crossbow            Specialized */
-     , (12134,  4, 0, 3, 0, 180, 0, 789.09033203125) /* Dagger              Specialized */
-     , (12134,  5, 0, 3, 0, 200, 0, 789.09033203125) /* Mace                Specialized */
-     , (12134,  6, 0, 3, 0, 230, 0, 789.09033203125) /* MeleeDefense        Specialized */
-     , (12134,  7, 0, 3, 0, 290, 0, 789.09033203125) /* MissileDefense      Specialized */
-     , (12134,  9, 0, 3, 0, 200, 0, 789.09033203125) /* Spear               Specialized */
-     , (12134, 10, 0, 3, 0, 200, 0, 789.09033203125) /* Staff               Specialized */
-     , (12134, 11, 0, 3, 0, 200, 0, 789.09033203125) /* Sword               Specialized */
-     , (12134, 12, 0, 3, 0, 220, 0, 789.09033203125) /* ThrownWeapon        Specialized */
-     , (12134, 13, 0, 3, 0, 200, 0, 789.09033203125) /* UnarmedCombat       Specialized */
-     , (12134, 15, 0, 3, 0, 165, 0, 789.09033203125) /* MagicDefense        Specialized */
-     , (12134, 24, 0, 3, 0, 100, 0, 789.09033203125) /* Run                 Specialized */
-     , (12134, 31, 0, 3, 0, 180, 0, 789.09033203125) /* CreatureEnchantment Specialized */
-     , (12134, 33, 0, 3, 0, 180, 0, 789.09033203125) /* LifeMagic           Specialized */
-     , (12134, 34, 0, 3, 0, 180, 0, 789.09033203125) /* WarMagic            Specialized */;
+VALUES (12134, 45, 0, 3, 0, 200, 0, 0) /* LightWeapons        Specialized */
+     , (12134, 47, 0, 3, 0, 220, 0, 0) /* MissileWeapons      Specialized */
+     , (12134, 46, 0, 3, 0, 180, 0, 0) /* FinesseWeapons      Specialized */
+     , (12134,  6, 0, 3, 0, 230, 0, 0) /* MeleeDefense        Specialized */
+     , (12134,  7, 0, 3, 0, 290, 0, 0) /* MissileDefense      Specialized */
+     , (12134, 44, 0, 3, 0, 200, 0, 0) /* HeavyWeapons        Specialized */
+     , (12134, 15, 0, 3, 0, 165, 0, 0) /* MagicDefense        Specialized */
+     , (12134, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */
+     , (12134, 31, 0, 3, 0, 180, 0, 0) /* CreatureEnchantment Specialized */
+     , (12134, 33, 0, 3, 0, 180, 0, 0) /* LifeMagic           Specialized */
+     , (12134, 34, 0, 3, 0, 180, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (12134,  0,  4,  0,    0,  270,  270,  270,  270,  270,  270,  270,  270,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

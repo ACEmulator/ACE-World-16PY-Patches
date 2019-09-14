@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6013;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6013, 'tumerokhighpriestnofall', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (6013, 'tumerokhighpriestnofall', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6013,   1,         16) /* ItemType - Creature */
@@ -17,8 +17,7 @@ VALUES (6013,   1,         16) /* ItemType - Creature */
      , (6013, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6013, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6013, 140,          1) /* AiOptions - CanOpenDoors */
-     , (6013, 146,      80000) /* XpOverride */
-     , (6013, 307,          5) /* DamageRating */;
+     , (6013, 146,      80000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6013,   1, True ) /* Stuck */
@@ -107,17 +106,13 @@ VALUES (6013,   1,   200, 0, 0, 325) /* MaxHealth */
      , (6013,   5,   120, 0, 0, 400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (6013,  1, 0, 3, 0, 250, 0, 0) /* Axe                 Specialized */
-     , (6013,  2, 0, 3, 0, 160, 0, 0) /* Bow                 Specialized */
-     , (6013,  3, 0, 3, 0, 160, 0, 0) /* Crossbow            Specialized */
-     , (6013,  4, 0, 3, 0,  95, 0, 0) /* Dagger              Specialized */
-     , (6013,  5, 0, 3, 0, 250, 0, 0) /* Mace                Specialized */
+VALUES (6013, 45, 0, 3, 0, 250, 0, 0) /* LightWeapons        Specialized */
+     , (6013, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */
+     , (6013, 46, 0, 3, 0,  95, 0, 0) /* FinesseWeapons      Specialized */
      , (6013,  6, 0, 3, 0, 260, 0, 0) /* MeleeDefense        Specialized */
      , (6013,  7, 0, 3, 0, 380, 0, 0) /* MissileDefense      Specialized */
-     , (6013,  9, 0, 3, 0, 250, 0, 0) /* Spear               Specialized */
-     , (6013, 10, 0, 3, 0, 250, 0, 0) /* Staff               Specialized */
-     , (6013, 11, 0, 3, 0, 250, 0, 0) /* Sword               Specialized */
-     , (6013, 13, 0, 3, 0, 250, 0, 0) /* UnarmedCombat       Specialized */
+     , (6013, 44, 0, 3, 0, 250, 0, 0) /* HeavyWeapons        Specialized */
+     , (6013, 48, 0, 3, 0, 250, 0, 0) /* Shield              Specialized */
      , (6013, 14, 0, 3, 0, 200, 0, 0) /* ArcaneLore          Specialized */
      , (6013, 15, 0, 3, 0, 205, 0, 0) /* MagicDefense        Specialized */
      , (6013, 20, 0, 3, 0,  70, 0, 0) /* Deception           Specialized */

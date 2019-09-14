@@ -120,16 +120,16 @@ VALUES (8105,   1,   225, 0, 0, 285) /* MaxHealth */
      , (8105,   5,   250, 0, 0, 310) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (8105,  1, 0, 3, 0, 120, 0, 569.014221191406) /* Axe                 Specialized */
-     , (8105,  2, 0, 3, 0, 150, 0, 569.014221191406) /* Bow                 Specialized */
+VALUES (8105,  1, 0, 3, 0, 120, 0, 569.014221191406) /* LightWeapons        Specialized */
+     , (8105,  2, 0, 3, 0, 150, 0, 569.014221191406) /* MissileWeapons      Specialized */
      , (8105,  3, 0, 2, 0, 150, 0, 569.014221191406) /* Crossbow            Trained */
-     , (8105,  4, 0, 3, 0, 120, 0, 569.014221191406) /* Dagger              Specialized */
+     , (8105,  4, 0, 3, 0, 120, 0, 569.014221191406) /* FinesseWeapons      Specialized */
      , (8105,  5, 0, 3, 0, 120, 0, 569.014221191406) /* Mace                Specialized */
      , (8105,  6, 0, 3, 0, 140, 0, 569.014221191406) /* MeleeDefense        Specialized */
      , (8105,  7, 0, 3, 0, 200, 0, 569.014221191406) /* MissileDefense      Specialized */
      , (8105,  9, 0, 2, 0, 120, 0, 569.014221191406) /* Spear               Trained */
      , (8105, 10, 0, 2, 0, 120, 0, 569.014221191406) /* Staff               Trained */
-     , (8105, 11, 0, 3, 0, 120, 0, 569.014221191406) /* Sword               Specialized */
+     , (8105, 11, 0, 3, 0, 120, 0, 569.014221191406) /* HeavyWeapons        Specialized */
      , (8105, 13, 0, 3, 0, 120, 0, 569.014221191406) /* UnarmedCombat       Specialized */
      , (8105, 14, 0, 2, 0, 200, 0, 569.014221191406) /* ArcaneLore          Trained */
      , (8105, 15, 0, 3, 0, 300, 0, 569.014221191406) /* MagicDefense        Specialized */

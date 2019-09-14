@@ -95,12 +95,12 @@ VALUES (28669,   1,    50, 0, 0, 105) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (28669,  1, 0, 2, 0,  90, 0, 0) /* Axe                 Trained */
-     , (28669,  4, 0, 3, 0,  90, 0, 0) /* Dagger              Specialized */
+     , (28669,  4, 0, 3, 0,  90, 0, 0) /* FinesseWeapons      Specialized */
      , (28669,  5, 0, 2, 0,  90, 0, 0) /* Mace                Trained */
      , (28669,  6, 0, 2, 0, 100, 0, 0) /* MeleeDefense        Trained */
      , (28669,  7, 0, 2, 0, 100, 0, 0) /* MissileDefense      Trained */
      , (28669,  9, 0, 2, 0,  90, 0, 0) /* Spear               Trained */
-     , (28669, 11, 0, 3, 0,  90, 0, 0) /* Sword               Specialized */
+     , (28669, 11, 0, 3, 0,  90, 0, 0) /* HeavyWeapons        Specialized */
      , (28669, 12, 0, 3, 0,  80, 0, 0) /* ThrownWeapon        Specialized */
      , (28669, 13, 0, 3, 0, 110, 0, 0) /* UnarmedCombat       Specialized */
      , (28669, 14, 0, 2, 0, 140, 0, 0) /* ArcaneLore          Trained */

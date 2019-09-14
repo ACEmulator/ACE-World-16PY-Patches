@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6774;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6774, 'skeletonlordcrimsonruby5', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (6774, 'skeletonlordcrimsonruby5', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6774,   1,         16) /* ItemType - Creature */
@@ -17,8 +17,7 @@ VALUES (6774,   1,         16) /* ItemType - Creature */
      , (6774, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (6774, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6774, 140,          1) /* AiOptions - CanOpenDoors */
-     , (6774, 146,      10000) /* XpOverride */
-     , (6774, 307,          5) /* DamageRating */;
+     , (6774, 146,      10000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6774,   1, True ) /* Stuck */
@@ -112,17 +111,12 @@ VALUES (6774,   1,    98, 0, 0, 146) /* MaxHealth */
      , (6774,   5,   100, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (6774,  1, 0, 2, 0, 140, 0, 494.860107421875) /* Axe                 Trained */
-     , (6774,  2, 0, 3, 0, 140, 0, 494.860107421875) /* Bow                 Specialized */
-     , (6774,  3, 0, 2, 0,  80, 0, 494.860107421875) /* Crossbow            Trained */
-     , (6774,  4, 0, 2, 0,  50, 0, 494.860107421875) /* Dagger              Trained */
-     , (6774,  5, 0, 3, 0, 140, 0, 494.860107421875) /* Mace                Specialized */
+VALUES (6774, 45, 0, 2, 0, 140, 0, 494.860107421875) /* LightWeapons        Trained */
+     , (6774, 47, 0, 3, 0, 140, 0, 494.860107421875) /* MissileWeapons      Specialized */
+     , (6774, 46, 0, 2, 0,  50, 0, 494.860107421875) /* FinesseWeapons      Trained */
      , (6774,  6, 0, 2, 0,  80, 0, 494.860107421875) /* MeleeDefense        Trained */
      , (6774,  7, 0, 2, 0, 120, 0, 494.860107421875) /* MissileDefense      Trained */
-     , (6774,  9, 0, 2, 0, 140, 0, 494.860107421875) /* Spear               Trained */
-     , (6774, 10, 0, 2, 0, 140, 0, 494.860107421875) /* Staff               Trained */
-     , (6774, 11, 0, 3, 0, 140, 0, 494.860107421875) /* Sword               Specialized */
-     , (6774, 13, 0, 2, 0, 140, 0, 494.860107421875) /* UnarmedCombat       Trained */
+     , (6774, 44, 0, 3, 0, 140, 0, 494.860107421875) /* HeavyWeapons        Specialized */
      , (6774, 14, 0, 3, 0, 110, 0, 494.860107421875) /* ArcaneLore          Specialized */
      , (6774, 15, 0, 2, 0, 110, 0, 494.860107421875) /* MagicDefense        Trained */
      , (6774, 20, 0, 2, 0, 120, 0, 494.860107421875) /* Deception           Trained */

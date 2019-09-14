@@ -110,7 +110,7 @@ VALUES (1669,  5, 0, 3, 0,  90, 0, 311.383422851563) /* Mace                Spec
      , (1669,  7, 0, 3, 0, 103, 0, 311.383422851563) /* MissileDefense      Specialized */
      , (1669,  9, 0, 3, 0,  90, 0, 311.383422851563) /* Spear               Specialized */
      , (1669, 10, 0, 3, 0,  90, 0, 311.383422851563) /* Staff               Specialized */
-     , (1669, 11, 0, 3, 0,  90, 0, 311.383422851563) /* Sword               Specialized */
+     , (1669, 11, 0, 3, 0,  90, 0, 311.383422851563) /* HeavyWeapons        Specialized */
      , (1669, 12, 0, 3, 0,  85, 0, 311.383422851563) /* ThrownWeapon        Specialized */
      , (1669, 13, 0, 3, 0,  90, 0, 311.383422851563) /* UnarmedCombat       Specialized */
      , (1669, 14, 0, 3, 0, 100, 0, 311.383422851563) /* ArcaneLore          Specialized */

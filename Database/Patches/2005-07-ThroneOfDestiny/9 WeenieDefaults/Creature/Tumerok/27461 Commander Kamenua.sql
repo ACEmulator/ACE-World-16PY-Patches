@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27461;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27461, 'tumerokcommanderkamenua', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (27461, 'tumerokcommanderkamenua', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27461,   1,         16) /* ItemType - Creature */
@@ -118,17 +118,13 @@ VALUES (27461,   1,  1835, 0, 0, 2000) /* MaxHealth */
      , (27461,   5,  1750, 0, 0, 2000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (27461,  1, 0, 3, 0, 260, 0, 0) /* Axe                 Specialized */
-     , (27461,  2, 0, 3, 0, 185, 0, 0) /* Bow                 Specialized */
-     , (27461,  3, 0, 3, 0, 185, 0, 0) /* Crossbow            Specialized */
-     , (27461,  4, 0, 3, 0, 200, 0, 0) /* Dagger              Specialized */
-     , (27461,  5, 0, 3, 0, 260, 0, 0) /* Mace                Specialized */
+VALUES (27461, 45, 0, 3, 0, 260, 0, 0) /* LightWeapons        Specialized */
+     , (27461, 47, 0, 3, 0, 185, 0, 0) /* MissileWeapons      Specialized */
+     , (27461, 46, 0, 3, 0, 200, 0, 0) /* FinesseWeapons      Specialized */
      , (27461,  6, 0, 3, 0, 287, 0, 0) /* MeleeDefense        Specialized */
      , (27461,  7, 0, 3, 0, 380, 0, 0) /* MissileDefense      Specialized */
-     , (27461,  9, 0, 3, 0, 260, 0, 0) /* Spear               Specialized */
-     , (27461, 10, 0, 3, 0, 260, 0, 0) /* Staff               Specialized */
-     , (27461, 11, 0, 3, 0, 260, 0, 0) /* Sword               Specialized */
-     , (27461, 13, 0, 3, 0, 260, 0, 0) /* UnarmedCombat       Specialized */
+     , (27461, 44, 0, 3, 0, 260, 0, 0) /* HeavyWeapons        Specialized */
+     , (27461, 48, 0, 3, 0, 260, 0, 0) /* Shield              Specialized */
      , (27461, 14, 0, 3, 0, 300, 0, 0) /* ArcaneLore          Specialized */
      , (27461, 15, 0, 3, 0, 255, 0, 0) /* MagicDefense        Specialized */
      , (27461, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */

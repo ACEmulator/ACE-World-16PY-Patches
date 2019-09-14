@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8121;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8121, 'shadowfenmalain', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (8121, 'shadowfenmalain', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8121,   1,         16) /* ItemType - Creature */
@@ -20,8 +20,7 @@ VALUES (8121,   1,         16) /* ItemType - Creature */
      , (8121, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8121, 140,          1) /* AiOptions - CanOpenDoors */
      , (8121, 146,      10000) /* XpOverride */
-     , (8121, 188,          1) /* HeritageGroup - Aluvian */
-     , (8121, 307,          5) /* DamageRating */;
+     , (8121, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8121,   1, True ) /* Stuck */
@@ -119,23 +118,18 @@ VALUES (8121,   1,    90, 0, 0, 150) /* MaxHealth */
      , (8121,   5,   160, 0, 0, 220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (8121,  1, 0, 3, 0, 103, 0, 569.947692871094) /* Axe                 Specialized */
-     , (8121,  2, 0, 3, 0, 115, 0, 569.947692871094) /* Bow                 Specialized */
-     , (8121,  3, 0, 3, 0, 115, 0, 569.947692871094) /* Crossbow            Specialized */
-     , (8121,  4, 0, 3, 0,  97, 0, 569.947692871094) /* Dagger              Specialized */
-     , (8121,  5, 0, 3, 0, 103, 0, 569.947692871094) /* Mace                Specialized */
-     , (8121,  6, 0, 3, 0, 102, 0, 569.947692871094) /* MeleeDefense        Specialized */
-     , (8121,  7, 0, 3, 0, 202, 0, 569.947692871094) /* MissileDefense      Specialized */
-     , (8121,  9, 0, 3, 0, 103, 0, 569.947692871094) /* Spear               Specialized */
-     , (8121, 10, 0, 3, 0, 103, 0, 569.947692871094) /* Staff               Specialized */
-     , (8121, 11, 0, 3, 0, 103, 0, 569.947692871094) /* Sword               Specialized */
-     , (8121, 13, 0, 3, 0, 103, 0, 569.947692871094) /* UnarmedCombat       Specialized */
-     , (8121, 14, 0, 2, 0, 230, 0, 569.947692871094) /* ArcaneLore          Trained */
-     , (8121, 15, 0, 3, 0, 128, 0, 569.947692871094) /* MagicDefense        Specialized */
-     , (8121, 20, 0, 3, 0, 150, 0, 569.947692871094) /* Deception           Specialized */
-     , (8121, 31, 0, 3, 0,  97, 0, 569.947692871094) /* CreatureEnchantment Specialized */
-     , (8121, 33, 0, 3, 0,  97, 0, 569.947692871094) /* LifeMagic           Specialized */
-     , (8121, 34, 0, 3, 0,  97, 0, 569.947692871094) /* WarMagic            Specialized */;
+VALUES (8121, 45, 0, 3, 0, 103, 0, 0) /* LightWeapons        Specialized */
+     , (8121, 47, 0, 3, 0, 115, 0, 0) /* MissileWeapons      Specialized */
+     , (8121, 46, 0, 3, 0,  97, 0, 0) /* FinesseWeapons      Specialized */
+     , (8121,  6, 0, 3, 0, 102, 0, 0) /* MeleeDefense        Specialized */
+     , (8121,  7, 0, 3, 0, 202, 0, 0) /* MissileDefense      Specialized */
+     , (8121, 44, 0, 3, 0, 103, 0, 0) /* HeavyWeapons        Specialized */
+     , (8121, 14, 0, 2, 0, 230, 0, 0) /* ArcaneLore          Trained */
+     , (8121, 15, 0, 3, 0, 128, 0, 0) /* MagicDefense        Specialized */
+     , (8121, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
+     , (8121, 31, 0, 3, 0,  97, 0, 0) /* CreatureEnchantment Specialized */
+     , (8121, 33, 0, 3, 0,  97, 0, 0) /* LifeMagic           Specialized */
+     , (8121, 34, 0, 3, 0,  97, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8121,  0,  4,  0,    0,  100,  100,  120,  120,  120,  100,  150,  150,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

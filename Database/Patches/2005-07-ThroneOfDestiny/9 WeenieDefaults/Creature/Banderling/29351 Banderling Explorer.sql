@@ -93,7 +93,7 @@ VALUES (29351,  5, 0, 3, 0, 225, 0, 0) /* Mace                Specialized */
      , (29351,  7, 0, 3, 0, 285, 0, 0) /* MissileDefense      Specialized */
      , (29351,  9, 0, 3, 0, 225, 0, 0) /* Spear               Specialized */
      , (29351, 10, 0, 3, 0, 225, 0, 0) /* Staff               Specialized */
-     , (29351, 11, 0, 3, 0, 225, 0, 0) /* Sword               Specialized */
+     , (29351, 11, 0, 3, 0, 225, 0, 0) /* HeavyWeapons        Specialized */
      , (29351, 12, 0, 3, 0, 225, 0, 0) /* ThrownWeapon        Specialized */
      , (29351, 13, 0, 3, 0, 225, 0, 0) /* UnarmedCombat       Specialized */
      , (29351, 14, 0, 2, 0, 200, 0, 0) /* ArcaneLore          Trained */

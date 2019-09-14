@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7369;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7369, 'darkmagusaerfalle', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (7369, 'darkmagusaerfalle', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7369,   1,         16) /* ItemType - Creature */
@@ -93,17 +93,13 @@ VALUES (7369,   1,   350, 0, 0, 500) /* MaxHealth */
      , (7369,   5,   300, 0, 0, 600) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (7369,  1, 0, 3, 0, 313, 0, 0) /* Axe                 Specialized */
-     , (7369,  2, 0, 3, 0, 120, 0, 0) /* Bow                 Specialized */
-     , (7369,  3, 0, 3, 0, 120, 0, 0) /* Crossbow            Specialized */
-     , (7369,  4, 0, 3, 0, 120, 0, 0) /* Dagger              Specialized */
-     , (7369,  5, 0, 3, 0, 313, 0, 0) /* Mace                Specialized */
+VALUES (7369, 45, 0, 3, 0, 313, 0, 0) /* LightWeapons        Specialized */
+     , (7369, 47, 0, 3, 0, 120, 0, 0) /* MissileWeapons      Specialized */
+     , (7369, 46, 0, 3, 0, 120, 0, 0) /* FinesseWeapons      Specialized */
      , (7369,  6, 0, 3, 0, 283, 0, 0) /* MeleeDefense        Specialized */
      , (7369,  7, 0, 3, 0, 382, 0, 0) /* MissileDefense      Specialized */
-     , (7369,  9, 0, 3, 0, 313, 0, 0) /* Spear               Specialized */
-     , (7369, 10, 0, 3, 0, 313, 0, 0) /* Staff               Specialized */
-     , (7369, 11, 0, 3, 0, 313, 0, 0) /* Sword               Specialized */
-     , (7369, 13, 0, 3, 0, 313, 0, 0) /* UnarmedCombat       Specialized */
+     , (7369, 44, 0, 3, 0, 313, 0, 0) /* HeavyWeapons        Specialized */
+     , (7369, 48, 0, 3, 0, 313, 0, 0) /* Shield              Specialized */
      , (7369, 14, 0, 3, 0, 230, 0, 0) /* ArcaneLore          Specialized */
      , (7369, 15, 0, 3, 0, 199, 0, 0) /* MagicDefense        Specialized */
      , (7369, 16, 0, 3, 0, 200, 0, 0) /* ManaConversion      Specialized */

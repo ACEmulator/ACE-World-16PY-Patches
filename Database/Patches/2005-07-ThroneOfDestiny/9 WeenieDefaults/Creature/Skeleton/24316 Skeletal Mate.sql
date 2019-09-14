@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24316;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24316, 'skeletonmate', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (24316, 'skeletonmate', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24316,   1,         16) /* ItemType - Creature */
@@ -18,8 +18,7 @@ VALUES (24316,   1,         16) /* ItemType - Creature */
      , (24316, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (24316, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24316, 140,          1) /* AiOptions - CanOpenDoors */
-     , (24316, 146,     125000) /* XpOverride */
-     , (24316, 307,          5) /* DamageRating */;
+     , (24316, 146,     125000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24316,   1, True ) /* Stuck */
@@ -115,17 +114,13 @@ VALUES (24316,   1,   478, 0, 0, 551) /* MaxHealth */
      , (24316,   5,    50, 0, 0, 225) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24316,  1, 0, 3, 0, 315, 0, 0) /* Axe                 Specialized */
-     , (24316,  2, 0, 3, 0, 170, 0, 0) /* Bow                 Specialized */
-     , (24316,  3, 0, 3, 0, 170, 0, 0) /* Crossbow            Specialized */
-     , (24316,  4, 0, 3, 0, 280, 0, 0) /* Dagger              Specialized */
-     , (24316,  5, 0, 3, 0, 315, 0, 0) /* Mace                Specialized */
+VALUES (24316, 45, 0, 3, 0, 315, 0, 0) /* LightWeapons        Specialized */
+     , (24316, 47, 0, 3, 0, 170, 0, 0) /* MissileWeapons      Specialized */
+     , (24316, 46, 0, 3, 0, 280, 0, 0) /* FinesseWeapons      Specialized */
      , (24316,  6, 0, 3, 0, 305, 0, 0) /* MeleeDefense        Specialized */
      , (24316,  7, 0, 3, 0, 410, 0, 0) /* MissileDefense      Specialized */
-     , (24316,  9, 0, 3, 0, 315, 0, 0) /* Spear               Specialized */
-     , (24316, 10, 0, 3, 0, 315, 0, 0) /* Staff               Specialized */
-     , (24316, 11, 0, 3, 0, 315, 0, 0) /* Sword               Specialized */
-     , (24316, 13, 0, 3, 0, 315, 0, 0) /* UnarmedCombat       Specialized */
+     , (24316, 44, 0, 3, 0, 315, 0, 0) /* HeavyWeapons        Specialized */
+     , (24316, 48, 0, 3, 0, 315, 0, 0) /* Shield              Specialized */
      , (24316, 15, 0, 3, 0, 280, 0, 0) /* MagicDefense        Specialized */
      , (24316, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */;
 

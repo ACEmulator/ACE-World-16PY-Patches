@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25665;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25665, 'shadowwretchvod', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (25665, 'shadowwretchvod', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25665,   1,         16) /* ItemType - Creature */
@@ -21,8 +21,7 @@ VALUES (25665,   1,         16) /* ItemType - Creature */
      , (25665, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25665, 140,          1) /* AiOptions - CanOpenDoors */
      , (25665, 146,    1500000) /* XpOverride */
-     , (25665, 188,          1) /* HeritageGroup - Aluvian */
-     , (25665, 307,          5) /* DamageRating */;
+     , (25665, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25665,   1, True ) /* Stuck */
@@ -106,17 +105,12 @@ VALUES (25665,   1,  1950, 0, 0, 2150) /* MaxHealth */
      , (25665,   5,  1900, 0, 0, 2160) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25665,  1, 0, 3, 0, 355, 0, 0) /* Axe                 Specialized */
-     , (25665,  2, 0, 3, 0, 160, 0, 0) /* Bow                 Specialized */
-     , (25665,  3, 0, 3, 0, 160, 0, 0) /* Crossbow            Specialized */
-     , (25665,  4, 0, 3, 0,   0, 0, 0) /* Dagger              Specialized */
-     , (25665,  5, 0, 3, 0, 355, 0, 0) /* Mace                Specialized */
+VALUES (25665, 45, 0, 3, 0, 355, 0, 0) /* LightWeapons        Specialized */
+     , (25665, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */
+     , (25665, 46, 0, 3, 0,   0, 0, 0) /* FinesseWeapons      Specialized */
      , (25665,  6, 0, 3, 0, 350, 0, 0) /* MeleeDefense        Specialized */
      , (25665,  7, 0, 3, 0, 460, 0, 0) /* MissileDefense      Specialized */
-     , (25665,  9, 0, 3, 0, 355, 0, 0) /* Spear               Specialized */
-     , (25665, 10, 0, 3, 0, 355, 0, 0) /* Staff               Specialized */
-     , (25665, 11, 0, 3, 0, 355, 0, 0) /* Sword               Specialized */
-     , (25665, 13, 0, 3, 0, 355, 0, 0) /* UnarmedCombat       Specialized */
+     , (25665, 44, 0, 3, 0, 355, 0, 0) /* HeavyWeapons        Specialized */
      , (25665, 14, 0, 3, 0, 320, 0, 0) /* ArcaneLore          Specialized */
      , (25665, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
      , (25665, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */

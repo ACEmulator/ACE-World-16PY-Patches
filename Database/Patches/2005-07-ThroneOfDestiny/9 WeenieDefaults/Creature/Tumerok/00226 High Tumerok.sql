@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 226;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (226, 'tumerokcaptain', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (226, 'tumerokcaptain', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (226,   1,         16) /* ItemType - Creature */
@@ -102,17 +102,13 @@ VALUES (226,   1,    70, 0, 0, 160) /* MaxHealth */
      , (226,   5,     0, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (226,  1, 0, 3, 0, 150, 0, 0) /* Axe                 Specialized */
-     , (226,  2, 0, 3, 0, 140, 0, 0) /* Bow                 Specialized */
-     , (226,  3, 0, 3, 0, 140, 0, 0) /* Crossbow            Specialized */
-     , (226,  4, 0, 3, 0,  80, 0, 0) /* Dagger              Specialized */
-     , (226,  5, 0, 3, 0, 150, 0, 0) /* Mace                Specialized */
+VALUES (226, 45, 0, 3, 0, 150, 0, 0) /* LightWeapons        Specialized */
+     , (226, 47, 0, 3, 0, 140, 0, 0) /* MissileWeapons      Specialized */
+     , (226, 46, 0, 3, 0,  80, 0, 0) /* FinesseWeapons      Specialized */
      , (226,  6, 0, 3, 0, 120, 0, 0) /* MeleeDefense        Specialized */
      , (226,  7, 0, 3, 0, 275, 0, 0) /* MissileDefense      Specialized */
-     , (226,  9, 0, 3, 0, 150, 0, 0) /* Spear               Specialized */
-     , (226, 10, 0, 3, 0, 150, 0, 0) /* Staff               Specialized */
-     , (226, 11, 0, 3, 0, 150, 0, 0) /* Sword               Specialized */
-     , (226, 13, 0, 3, 0, 150, 0, 0) /* UnarmedCombat       Specialized */
+     , (226, 44, 0, 3, 0, 150, 0, 0) /* HeavyWeapons        Specialized */
+     , (226, 48, 0, 3, 0, 150, 0, 0) /* Shield              Specialized */
      , (226, 14, 0, 2, 0, 250, 0, 0) /* ArcaneLore          Trained */
      , (226, 15, 0, 3, 0, 130, 0, 0) /* MagicDefense        Specialized */
      , (226, 20, 0, 2, 0,  40, 0, 0) /* Deception           Trained */

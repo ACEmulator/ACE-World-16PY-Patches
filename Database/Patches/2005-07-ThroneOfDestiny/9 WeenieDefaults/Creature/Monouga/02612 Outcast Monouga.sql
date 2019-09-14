@@ -103,7 +103,7 @@ VALUES (2612,  5, 0, 3, 0,  35, 0, 337.121490478516) /* Mace                Spec
      , (2612,  7, 0, 3, 0,  45, 0, 337.121490478516) /* MissileDefense      Specialized */
      , (2612,  9, 0, 3, 0,  35, 0, 337.121490478516) /* Spear               Specialized */
      , (2612, 10, 0, 3, 0,  35, 0, 337.121490478516) /* Staff               Specialized */
-     , (2612, 11, 0, 3, 0,  35, 0, 337.121490478516) /* Sword               Specialized */
+     , (2612, 11, 0, 3, 0,  35, 0, 337.121490478516) /* HeavyWeapons        Specialized */
      , (2612, 12, 0, 3, 0,  20, 0, 337.121490478516) /* ThrownWeapon        Specialized */
      , (2612, 13, 0, 3, 0,  35, 0, 337.121490478516) /* UnarmedCombat       Specialized */
      , (2612, 15, 0, 3, 0,   7, 0, 337.121490478516) /* MagicDefense        Specialized */

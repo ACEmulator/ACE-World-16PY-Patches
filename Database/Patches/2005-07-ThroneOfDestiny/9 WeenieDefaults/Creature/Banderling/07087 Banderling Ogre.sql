@@ -108,7 +108,7 @@ VALUES (7087,  5, 0, 3, 0,  90, 0, 518.424438476563) /* Mace                Spec
      , (7087,  7, 0, 3, 0, 120, 0, 518.424438476563) /* MissileDefense      Specialized */
      , (7087,  9, 0, 3, 0,  90, 0, 518.424438476563) /* Spear               Specialized */
      , (7087, 10, 0, 3, 0,  90, 0, 518.424438476563) /* Staff               Specialized */
-     , (7087, 11, 0, 3, 0,  90, 0, 518.424438476563) /* Sword               Specialized */
+     , (7087, 11, 0, 3, 0,  90, 0, 518.424438476563) /* HeavyWeapons        Specialized */
      , (7087, 12, 0, 3, 0,  85, 0, 518.424438476563) /* ThrownWeapon        Specialized */
      , (7087, 13, 0, 3, 0,  90, 0, 518.424438476563) /* UnarmedCombat       Specialized */
      , (7087, 15, 0, 3, 0,  72, 0, 518.424438476563) /* MagicDefense        Specialized */

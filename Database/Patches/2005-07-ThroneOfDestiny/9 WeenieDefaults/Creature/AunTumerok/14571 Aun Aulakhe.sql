@@ -87,7 +87,7 @@ VALUES (14571,   1,    50, 0, 0, 185) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (14571,  1, 0, 2, 0,  50, 0, 896.942504882813) /* Axe                 Trained */
-     , (14571,  4, 0, 3, 0,  50, 0, 896.942504882813) /* Dagger              Specialized */
+     , (14571,  4, 0, 3, 0,  50, 0, 896.942504882813) /* FinesseWeapons      Specialized */
      , (14571,  5, 0, 2, 0,  50, 0, 896.942504882813) /* Mace                Trained */
      , (14571,  6, 0, 2, 0,  75, 0, 896.942504882813) /* MeleeDefense        Trained */
      , (14571,  7, 0, 2, 0,  60, 0, 896.942504882813) /* MissileDefense      Trained */

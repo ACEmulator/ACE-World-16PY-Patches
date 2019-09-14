@@ -98,7 +98,7 @@ VALUES (28555,  5, 0, 3, 0, 123, 0, 2038.99267578125) /* Mace                Spe
      , (28555,  7, 0, 3, 0, 272, 0, 2038.99267578125) /* MissileDefense      Specialized */
      , (28555,  9, 0, 3, 0, 123, 0, 2038.99267578125) /* Spear               Specialized */
      , (28555, 10, 0, 3, 0, 123, 0, 2038.99267578125) /* Staff               Specialized */
-     , (28555, 11, 0, 3, 0, 123, 0, 2038.99267578125) /* Sword               Specialized */
+     , (28555, 11, 0, 3, 0, 123, 0, 2038.99267578125) /* HeavyWeapons        Specialized */
      , (28555, 12, 0, 3, 0, 100, 0, 2038.99267578125) /* ThrownWeapon        Specialized */
      , (28555, 13, 0, 3, 0, 123, 0, 2038.99267578125) /* UnarmedCombat       Specialized */
      , (28555, 15, 0, 3, 0, 161, 0, 2038.99267578125) /* MagicDefense        Specialized */

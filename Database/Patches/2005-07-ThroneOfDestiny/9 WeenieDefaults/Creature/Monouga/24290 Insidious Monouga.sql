@@ -101,7 +101,7 @@ VALUES (24290,  5, 0, 3, 0, 270, 0, 1542.06640625) /* Mace                Specia
      , (24290,  7, 0, 3, 0, 421, 0, 1542.06640625) /* MissileDefense      Specialized */
      , (24290,  9, 0, 3, 0, 270, 0, 1542.06640625) /* Spear               Specialized */
      , (24290, 10, 0, 3, 0, 270, 0, 1542.06640625) /* Staff               Specialized */
-     , (24290, 11, 0, 3, 0, 270, 0, 1542.06640625) /* Sword               Specialized */
+     , (24290, 11, 0, 3, 0, 270, 0, 1542.06640625) /* HeavyWeapons        Specialized */
      , (24290, 12, 0, 3, 0, 190, 0, 1542.06640625) /* ThrownWeapon        Specialized */
      , (24290, 13, 0, 3, 0, 270, 0, 1542.06640625) /* UnarmedCombat       Specialized */
      , (24290, 15, 0, 3, 0, 250, 0, 1542.06640625) /* MagicDefense        Specialized */

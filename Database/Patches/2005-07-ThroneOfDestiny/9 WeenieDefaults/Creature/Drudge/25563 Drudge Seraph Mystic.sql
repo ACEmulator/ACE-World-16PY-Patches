@@ -89,14 +89,14 @@ VALUES (25563,   1,  2337, 0, 0, 2500) /* MaxHealth */
      , (25563,   5,  2000, 0, 0, 2255) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25563,  1, 0, 3, 0, 282, 0, 1640.0703125) /* Axe                 Specialized */
-     , (25563,  4, 0, 3, 0, 210, 0, 1640.0703125) /* Dagger              Specialized */
+VALUES (25563,  1, 0, 3, 0, 282, 0, 1640.0703125) /* LightWeapons        Specialized */
+     , (25563,  4, 0, 3, 0, 210, 0, 1640.0703125) /* FinesseWeapons      Specialized */
      , (25563,  5, 0, 3, 0, 282, 0, 1640.0703125) /* Mace                Specialized */
      , (25563,  6, 0, 3, 0, 310, 0, 1640.0703125) /* MeleeDefense        Specialized */
      , (25563,  7, 0, 3, 0, 445, 0, 1640.0703125) /* MissileDefense      Specialized */
      , (25563,  9, 0, 3, 0, 282, 0, 1640.0703125) /* Spear               Specialized */
      , (25563, 10, 0, 3, 0, 282, 0, 1640.0703125) /* Staff               Specialized */
-     , (25563, 11, 0, 3, 0, 282, 0, 1640.0703125) /* Sword               Specialized */
+     , (25563, 11, 0, 3, 0, 282, 0, 1640.0703125) /* HeavyWeapons        Specialized */
      , (25563, 12, 0, 3, 0, 215, 0, 1640.0703125) /* ThrownWeapon        Specialized */
      , (25563, 13, 0, 3, 0, 282, 0, 1640.0703125) /* UnarmedCombat       Specialized */
      , (25563, 14, 0, 3, 0, 350, 0, 1640.0703125) /* ArcaneLore          Specialized */

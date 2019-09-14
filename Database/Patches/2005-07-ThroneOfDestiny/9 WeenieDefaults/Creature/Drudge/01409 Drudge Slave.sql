@@ -117,14 +117,14 @@ VALUES (1409,   1,    25, 0, 0, 60) /* MaxHealth */
      , (1409,   5,     0, 0, 0, 25) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1409,  1, 0, 3, 0,  95, 0, 304.41796875) /* Axe                 Specialized */
-     , (1409,  4, 0, 3, 0,  80, 0, 304.41796875) /* Dagger              Specialized */
+VALUES (1409,  1, 0, 3, 0,  95, 0, 304.41796875) /* LightWeapons        Specialized */
+     , (1409,  4, 0, 3, 0,  80, 0, 304.41796875) /* FinesseWeapons      Specialized */
      , (1409,  5, 0, 3, 0,  95, 0, 304.41796875) /* Mace                Specialized */
      , (1409,  6, 0, 3, 0,  90, 0, 304.41796875) /* MeleeDefense        Specialized */
      , (1409,  7, 0, 3, 0, 100, 0, 304.41796875) /* MissileDefense      Specialized */
      , (1409,  9, 0, 3, 0,  95, 0, 304.41796875) /* Spear               Specialized */
      , (1409, 10, 0, 3, 0,  95, 0, 304.41796875) /* Staff               Specialized */
-     , (1409, 11, 0, 3, 0,  95, 0, 304.41796875) /* Sword               Specialized */
+     , (1409, 11, 0, 3, 0,  95, 0, 304.41796875) /* HeavyWeapons        Specialized */
      , (1409, 13, 0, 3, 0,  95, 0, 304.41796875) /* UnarmedCombat       Specialized */
      , (1409, 15, 0, 3, 0,  87, 0, 304.41796875) /* MagicDefense        Specialized */
      , (1409, 20, 0, 3, 0,  50, 0, 304.41796875) /* Deception           Specialized */

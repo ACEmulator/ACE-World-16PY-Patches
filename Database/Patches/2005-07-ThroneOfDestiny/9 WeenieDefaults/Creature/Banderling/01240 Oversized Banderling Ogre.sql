@@ -108,7 +108,7 @@ VALUES (1240,  5, 0, 3, 0,  90, 0, 0) /* Mace                Specialized */
      , (1240,  7, 0, 3, 0, 120, 0, 0) /* MissileDefense      Specialized */
      , (1240,  9, 0, 3, 0,  90, 0, 0) /* Spear               Specialized */
      , (1240, 10, 0, 3, 0,  90, 0, 0) /* Staff               Specialized */
-     , (1240, 11, 0, 3, 0,  90, 0, 0) /* Sword               Specialized */
+     , (1240, 11, 0, 3, 0,  90, 0, 0) /* HeavyWeapons        Specialized */
      , (1240, 12, 0, 3, 0,  85, 0, 0) /* ThrownWeapon        Specialized */
      , (1240, 13, 0, 3, 0,  90, 0, 0) /* UnarmedCombat       Specialized */
      , (1240, 15, 0, 3, 0,  72, 0, 0) /* MagicDefense        Specialized */

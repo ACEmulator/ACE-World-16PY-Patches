@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7397;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7397, 'revenantsylsfear', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (7397, 'revenantsylsfear', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7397,   1,         16) /* ItemType - Creature */
@@ -18,8 +18,7 @@ VALUES (7397,   1,         16) /* ItemType - Creature */
      , (7397, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (7397, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7397, 140,          1) /* AiOptions - CanOpenDoors */
-     , (7397, 146,      30000) /* XpOverride */
-     , (7397, 307,          5) /* DamageRating */;
+     , (7397, 146,      30000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7397,   1, True ) /* Stuck */
@@ -98,23 +97,19 @@ VALUES (7397,   1,   100, 0, 0, 200) /* MaxHealth */
      , (7397,   5,   150, 0, 0, 360) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (7397,  1, 0, 3, 0, 125, 0, 528.968811035156) /* Axe                 Specialized */
-     , (7397,  2, 0, 2, 0, 110, 0, 528.968811035156) /* Bow                 Trained */
-     , (7397,  3, 0, 2, 0, 110, 0, 528.968811035156) /* Crossbow            Trained */
-     , (7397,  4, 0, 3, 0, 120, 0, 528.968811035156) /* Dagger              Specialized */
-     , (7397,  5, 0, 3, 0, 120, 0, 528.968811035156) /* Mace                Specialized */
-     , (7397,  6, 0, 2, 0, 130, 0, 528.968811035156) /* MeleeDefense        Trained */
-     , (7397,  7, 0, 2, 0, 120, 0, 528.968811035156) /* MissileDefense      Trained */
-     , (7397,  9, 0, 2, 0, 100, 0, 528.968811035156) /* Spear               Trained */
-     , (7397, 10, 0, 2, 0, 100, 0, 528.968811035156) /* Staff               Trained */
-     , (7397, 11, 0, 3, 0, 120, 0, 528.968811035156) /* Sword               Specialized */
-     , (7397, 13, 0, 2, 0, 200, 0, 528.968811035156) /* UnarmedCombat       Trained */
-     , (7397, 14, 0, 2, 0, 230, 0, 528.968811035156) /* ArcaneLore          Trained */
-     , (7397, 15, 0, 2, 0, 182, 0, 528.968811035156) /* MagicDefense        Trained */
-     , (7397, 20, 0, 2, 0,  90, 0, 528.968811035156) /* Deception           Trained */
-     , (7397, 31, 0, 2, 0, 230, 0, 528.968811035156) /* CreatureEnchantment Trained */
-     , (7397, 33, 0, 2, 0, 230, 0, 528.968811035156) /* LifeMagic           Trained */
-     , (7397, 34, 0, 2, 0, 230, 0, 528.968811035156) /* WarMagic            Trained */;
+VALUES (7397, 45, 0, 3, 0, 125, 0, 0) /* LightWeapons        Specialized */
+     , (7397, 47, 0, 2, 0, 110, 0, 0) /* MissileWeapons      Trained */
+     , (7397, 46, 0, 3, 0, 120, 0, 0) /* FinesseWeapons      Specialized */
+     , (7397,  6, 0, 2, 0, 130, 0, 0) /* MeleeDefense        Trained */
+     , (7397,  7, 0, 2, 0, 120, 0, 0) /* MissileDefense      Trained */
+     , (7397, 44, 0, 3, 0, 120, 0, 0) /* HeavyWeapons        Specialized */
+     , (7397, 48, 0, 3, 0, 200, 0, 0) /* Shield              Specialized */
+     , (7397, 14, 0, 2, 0, 230, 0, 0) /* ArcaneLore          Trained */
+     , (7397, 15, 0, 2, 0, 182, 0, 0) /* MagicDefense        Trained */
+     , (7397, 20, 0, 2, 0,  90, 0, 0) /* Deception           Trained */
+     , (7397, 31, 0, 2, 0, 230, 0, 0) /* CreatureEnchantment Trained */
+     , (7397, 33, 0, 2, 0, 230, 0, 0) /* LifeMagic           Trained */
+     , (7397, 34, 0, 2, 0, 230, 0, 0) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7397,  0,  4,  0,    0,  150,  120,   71,   98,    5,   75,   98,  108,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

@@ -106,11 +106,11 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (15299,  1, 0, 2, 0, 180, 0, 931.742431640625) /* Axe                 Trained */
      , (15299,  2, 0, 2, 0, 180, 0, 931.742431640625) /* Bow                 Trained */
      , (15299,  3, 0, 2, 0, 180, 0, 931.742431640625) /* Crossbow            Trained */
-     , (15299,  4, 0, 3, 0, 180, 0, 931.742431640625) /* Dagger              Specialized */
+     , (15299,  4, 0, 3, 0, 180, 0, 931.742431640625) /* FinesseWeapons      Specialized */
      , (15299,  5, 0, 2, 0, 180, 0, 931.742431640625) /* Mace                Trained */
      , (15299,  6, 0, 2, 0, 180, 0, 931.742431640625) /* MeleeDefense        Trained */
      , (15299,  7, 0, 2, 0, 180, 0, 931.742431640625) /* MissileDefense      Trained */
-     , (15299, 11, 0, 3, 0, 180, 0, 931.742431640625) /* Sword               Specialized */
+     , (15299, 11, 0, 3, 0, 180, 0, 931.742431640625) /* HeavyWeapons        Specialized */
      , (15299, 12, 0, 2, 0, 180, 0, 931.742431640625) /* ThrownWeapon        Trained */
      , (15299, 13, 0, 2, 0, 180, 0, 931.742431640625) /* UnarmedCombat       Trained */
      , (15299, 15, 0, 2, 0, 180, 0, 931.742431640625) /* MagicDefense        Trained */

@@ -89,8 +89,8 @@ VALUES (1461,   1,    25, 0, 0, 75) /* MaxHealth */
      , (1461,   5,     0, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1461,  1, 0, 3, 0,  75, 0, 306.100891113281) /* Axe                 Specialized */
-     , (1461,  2, 0, 3, 0,  60, 0, 306.100891113281) /* Bow                 Specialized */
+VALUES (1461,  1, 0, 3, 0,  75, 0, 306.100891113281) /* LightWeapons        Specialized */
+     , (1461,  2, 0, 3, 0,  60, 0, 306.100891113281) /* MissileWeapons      Specialized */
      , (1461,  3, 0, 2, 0,  60, 0, 306.100891113281) /* Crossbow            Trained */
      , (1461,  4, 0, 2, 0,  70, 0, 306.100891113281) /* Dagger              Trained */
      , (1461,  5, 0, 3, 0,  70, 0, 306.100891113281) /* Mace                Specialized */
@@ -98,7 +98,7 @@ VALUES (1461,  1, 0, 3, 0,  75, 0, 306.100891113281) /* Axe                 Spec
      , (1461,  7, 0, 2, 0,  60, 0, 306.100891113281) /* MissileDefense      Trained */
      , (1461,  9, 0, 2, 0,  60, 0, 306.100891113281) /* Spear               Trained */
      , (1461, 10, 0, 2, 0,  70, 0, 306.100891113281) /* Staff               Trained */
-     , (1461, 11, 0, 3, 0,  75, 0, 306.100891113281) /* Sword               Specialized */
+     , (1461, 11, 0, 3, 0,  75, 0, 306.100891113281) /* HeavyWeapons        Specialized */
      , (1461, 13, 0, 2, 0,  50, 0, 306.100891113281) /* UnarmedCombat       Trained */
      , (1461, 15, 0, 2, 0,  75, 0, 306.100891113281) /* MagicDefense        Trained */
      , (1461, 20, 0, 2, 0,  50, 0, 306.100891113281) /* Deception           Trained */

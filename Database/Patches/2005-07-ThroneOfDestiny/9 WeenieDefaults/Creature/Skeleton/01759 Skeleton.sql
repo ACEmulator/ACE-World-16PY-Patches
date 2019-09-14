@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1759;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1759, 'skeleton', 10, '2019-07-14 06:08:01') /* Creature */;
+VALUES (1759, 'skeleton', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1759,   1,         16) /* ItemType - Creature */
@@ -17,8 +17,7 @@ VALUES (1759,   1,         16) /* ItemType - Creature */
      , (1759, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (1759, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1759, 140,          1) /* AiOptions - CanOpenDoors */
-     , (1759, 146,       1000) /* XpOverride */
-     , (1759, 307,          5) /* DamageRating */;
+     , (1759, 146,       1000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1759,   1, True ) /* Stuck */

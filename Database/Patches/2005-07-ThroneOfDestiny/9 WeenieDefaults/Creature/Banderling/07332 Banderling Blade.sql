@@ -108,7 +108,7 @@ VALUES (7332,  5, 0, 3, 0,  90, 0, 526.25927734375) /* Mace                Speci
      , (7332,  7, 0, 3, 0, 114, 0, 526.25927734375) /* MissileDefense      Specialized */
      , (7332,  9, 0, 3, 0,  90, 0, 526.25927734375) /* Spear               Specialized */
      , (7332, 10, 0, 3, 0,  90, 0, 526.25927734375) /* Staff               Specialized */
-     , (7332, 11, 0, 3, 0,  90, 0, 526.25927734375) /* Sword               Specialized */
+     , (7332, 11, 0, 3, 0,  90, 0, 526.25927734375) /* HeavyWeapons        Specialized */
      , (7332, 12, 0, 3, 0,  85, 0, 526.25927734375) /* ThrownWeapon        Specialized */
      , (7332, 13, 0, 3, 0,  90, 0, 526.25927734375) /* UnarmedCombat       Specialized */
      , (7332, 15, 0, 3, 0,  66, 0, 526.25927734375) /* MagicDefense        Specialized */

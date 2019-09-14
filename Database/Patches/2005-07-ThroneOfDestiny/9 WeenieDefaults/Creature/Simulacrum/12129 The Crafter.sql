@@ -124,11 +124,11 @@ VALUES (12129,   1,   750, 0, 0, 845) /* MaxHealth */
      , (12129,   5,   712, 0, 0, 1022) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (12129,  4, 0, 3, 0, 225, 0, 788.5859375) /* Dagger              Specialized */
+VALUES (12129,  4, 0, 3, 0, 225, 0, 788.5859375) /* FinesseWeapons      Specialized */
      , (12129,  6, 0, 3, 0, 220, 0, 788.5859375) /* MeleeDefense        Specialized */
      , (12129,  7, 0, 3, 0, 170, 0, 788.5859375) /* MissileDefense      Specialized */
      , (12129, 10, 0, 3, 0, 220, 0, 788.5859375) /* Staff               Specialized */
-     , (12129, 11, 0, 3, 0, 225, 0, 788.5859375) /* Sword               Specialized */
+     , (12129, 11, 0, 3, 0, 225, 0, 788.5859375) /* HeavyWeapons        Specialized */
      , (12129, 13, 0, 3, 0, 220, 0, 788.5859375) /* UnarmedCombat       Specialized */
      , (12129, 15, 0, 3, 0, 200, 0, 788.5859375) /* MagicDefense        Specialized */
      , (12129, 24, 0, 3, 0, 100, 0, 788.5859375) /* Run                 Specialized */

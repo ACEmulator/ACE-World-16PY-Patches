@@ -94,14 +94,14 @@ VALUES (29304,   1,   350, 0, 0, 430) /* MaxHealth */
      , (29304,   5,   200, 0, 0, 430) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29304,  1, 0, 3, 0, 255, 0, 0) /* Axe                 Specialized */
-     , (29304,  4, 0, 3, 0, 215, 0, 0) /* Dagger              Specialized */
+VALUES (29304,  1, 0, 3, 0, 255, 0, 0) /* LightWeapons        Specialized */
+     , (29304,  4, 0, 3, 0, 215, 0, 0) /* FinesseWeapons      Specialized */
      , (29304,  5, 0, 3, 0, 255, 0, 0) /* Mace                Specialized */
      , (29304,  6, 0, 3, 0, 225, 0, 0) /* MeleeDefense        Specialized */
      , (29304,  7, 0, 3, 0, 285, 0, 0) /* MissileDefense      Specialized */
      , (29304,  9, 0, 3, 0, 255, 0, 0) /* Spear               Specialized */
      , (29304, 10, 0, 3, 0, 255, 0, 0) /* Staff               Specialized */
-     , (29304, 11, 0, 3, 0, 255, 0, 0) /* Sword               Specialized */
+     , (29304, 11, 0, 3, 0, 255, 0, 0) /* HeavyWeapons        Specialized */
      , (29304, 12, 0, 3, 0, 160, 0, 0) /* ThrownWeapon        Specialized */
      , (29304, 13, 0, 3, 0, 250, 0, 0) /* UnarmedCombat       Specialized */
      , (29304, 15, 0, 3, 0, 230, 0, 0) /* MagicDefense        Specialized */

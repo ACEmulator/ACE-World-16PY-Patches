@@ -101,7 +101,7 @@ VALUES (7088,  5, 0, 3, 0, 160, 0, 518.517456054688) /* Mace                Spec
      , (7088,  7, 0, 3, 0, 300, 0, 518.517456054688) /* MissileDefense      Specialized */
      , (7088,  9, 0, 3, 0, 160, 0, 518.517456054688) /* Spear               Specialized */
      , (7088, 10, 0, 3, 0, 160, 0, 518.517456054688) /* Staff               Specialized */
-     , (7088, 11, 0, 3, 0, 160, 0, 518.517456054688) /* Sword               Specialized */
+     , (7088, 11, 0, 3, 0, 160, 0, 518.517456054688) /* HeavyWeapons        Specialized */
      , (7088, 12, 0, 3, 0, 100, 0, 518.517456054688) /* ThrownWeapon        Specialized */
      , (7088, 13, 0, 3, 0, 160, 0, 518.517456054688) /* UnarmedCombat       Specialized */
      , (7088, 14, 0, 2, 0, 200, 0, 518.517456054688) /* ArcaneLore          Trained */

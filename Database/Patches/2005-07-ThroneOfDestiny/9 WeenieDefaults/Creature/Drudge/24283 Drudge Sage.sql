@@ -99,7 +99,7 @@ VALUES (24283,   1,   280, 0, 0, 375) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (24283,  6, 0, 3, 0, 235, 0, 1540.99194335938) /* MeleeDefense        Specialized */
      , (24283,  7, 0, 3, 0, 345, 0, 1540.99194335938) /* MissileDefense      Specialized */
-     , (24283, 11, 0, 3, 0, 185, 0, 1540.99194335938) /* Sword               Specialized */
+     , (24283, 11, 0, 3, 0, 185, 0, 1540.99194335938) /* HeavyWeapons        Specialized */
      , (24283, 13, 0, 3, 0, 185, 0, 1540.99194335938) /* UnarmedCombat       Specialized */
      , (24283, 14, 0, 2, 0, 200, 0, 1540.99194335938) /* ArcaneLore          Trained */
      , (24283, 15, 0, 3, 0, 210, 0, 1540.99194335938) /* MagicDefense        Specialized */

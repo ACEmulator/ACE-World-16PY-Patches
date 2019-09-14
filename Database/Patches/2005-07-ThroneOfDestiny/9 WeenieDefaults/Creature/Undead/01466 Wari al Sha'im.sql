@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1466;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1466, 'undeaddefender', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (1466, 'undeaddefender', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1466,   1,         16) /* ItemType - Creature */
@@ -18,8 +18,7 @@ VALUES (1466,   1,         16) /* ItemType - Creature */
      , (1466, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (1466, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1466, 140,          1) /* AiOptions - CanOpenDoors */
-     , (1466, 146,       5000) /* XpOverride */
-     , (1466, 307,          5) /* DamageRating */;
+     , (1466, 146,       5000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1466,   1, True ) /* Stuck */
@@ -128,7 +127,7 @@ VALUES (1466,  1, 0, 2, 0, 100, 0, 306.339965820313) /* Axe                 Trai
      , (1466,  7, 0, 2, 0, 100, 0, 306.339965820313) /* MissileDefense      Trained */
      , (1466,  9, 0, 3, 0, 100, 0, 306.339965820313) /* Spear               Specialized */
      , (1466, 10, 0, 2, 0,  90, 0, 306.339965820313) /* Staff               Trained */
-     , (1466, 11, 0, 3, 0, 110, 0, 306.339965820313) /* Sword               Specialized */
+     , (1466, 11, 0, 3, 0, 110, 0, 306.339965820313) /* HeavyWeapons        Specialized */
      , (1466, 13, 0, 2, 0, 100, 0, 306.339965820313) /* UnarmedCombat       Trained */
      , (1466, 14, 0, 2, 0, 150, 0, 306.339965820313) /* ArcaneLore          Trained */
      , (1466, 15, 0, 2, 0, 115, 0, 306.339965820313) /* MagicDefense        Trained */

@@ -104,14 +104,14 @@ VALUES (11520,   1,   120, 0, 0, 210) /* MaxHealth */
      , (11520,   5,     0, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11520,  1, 0, 3, 0, 150, 0, 749.595031738281) /* Axe                 Specialized */
-     , (11520,  4, 0, 3, 0,  80, 0, 749.595031738281) /* Dagger              Specialized */
+VALUES (11520,  1, 0, 3, 0, 150, 0, 749.595031738281) /* LightWeapons        Specialized */
+     , (11520,  4, 0, 3, 0,  80, 0, 749.595031738281) /* FinesseWeapons      Specialized */
      , (11520,  5, 0, 3, 0, 150, 0, 749.595031738281) /* Mace                Specialized */
      , (11520,  6, 0, 3, 0, 205, 0, 749.595031738281) /* MeleeDefense        Specialized */
      , (11520,  7, 0, 3, 0, 335, 0, 749.595031738281) /* MissileDefense      Specialized */
      , (11520,  9, 0, 3, 0, 150, 0, 749.595031738281) /* Spear               Specialized */
      , (11520, 10, 0, 3, 0, 150, 0, 749.595031738281) /* Staff               Specialized */
-     , (11520, 11, 0, 3, 0, 150, 0, 749.595031738281) /* Sword               Specialized */
+     , (11520, 11, 0, 3, 0, 150, 0, 749.595031738281) /* HeavyWeapons        Specialized */
      , (11520, 13, 0, 3, 0, 150, 0, 749.595031738281) /* UnarmedCombat       Specialized */
      , (11520, 14, 0, 2, 0, 250, 0, 749.595031738281) /* ArcaneLore          Trained */
      , (11520, 15, 0, 3, 0, 223, 0, 749.595031738281) /* MagicDefense        Specialized */

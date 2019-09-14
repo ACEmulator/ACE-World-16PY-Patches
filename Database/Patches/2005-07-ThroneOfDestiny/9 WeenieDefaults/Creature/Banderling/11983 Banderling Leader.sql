@@ -108,13 +108,13 @@ VALUES (11983,   1,    75, 0, 0, 135) /* MaxHealth */
      , (11983,   5,     0, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11983,  4, 0, 3, 0,  90, 0, 777.352233886719) /* Dagger              Specialized */
+VALUES (11983,  4, 0, 3, 0,  90, 0, 777.352233886719) /* FinesseWeapons      Specialized */
      , (11983,  5, 0, 3, 0,  90, 0, 777.352233886719) /* Mace                Specialized */
      , (11983,  6, 0, 3, 0,  40, 0, 777.352233886719) /* MeleeDefense        Specialized */
      , (11983,  7, 0, 3, 0,  85, 0, 777.352233886719) /* MissileDefense      Specialized */
      , (11983,  9, 0, 3, 0,  90, 0, 777.352233886719) /* Spear               Specialized */
      , (11983, 10, 0, 3, 0,  90, 0, 777.352233886719) /* Staff               Specialized */
-     , (11983, 11, 0, 3, 0,  90, 0, 777.352233886719) /* Sword               Specialized */
+     , (11983, 11, 0, 3, 0,  90, 0, 777.352233886719) /* HeavyWeapons        Specialized */
      , (11983, 12, 0, 3, 0,  50, 0, 777.352233886719) /* ThrownWeapon        Specialized */
      , (11983, 13, 0, 3, 0,  90, 0, 777.352233886719) /* UnarmedCombat       Specialized */
      , (11983, 14, 0, 2, 0,  50, 0, 777.352233886719) /* ArcaneLore          Trained */

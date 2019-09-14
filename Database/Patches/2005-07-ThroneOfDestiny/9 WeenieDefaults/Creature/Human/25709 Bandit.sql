@@ -95,15 +95,15 @@ VALUES (25709,   1,    25, 0, 0, 50) /* MaxHealth */
      , (25709,   5,    15, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25709,  1, 0, 3, 0,  20, 0, 1658.06591796875) /* Axe                 Specialized */
-     , (25709,  2, 0, 3, 0,  20, 0, 1658.06591796875) /* Bow                 Specialized */
-     , (25709,  4, 0, 3, 0,  20, 0, 1658.06591796875) /* Dagger              Specialized */
+VALUES (25709,  1, 0, 3, 0,  20, 0, 1658.06591796875) /* LightWeapons        Specialized */
+     , (25709,  2, 0, 3, 0,  20, 0, 1658.06591796875) /* MissileWeapons      Specialized */
+     , (25709,  4, 0, 3, 0,  20, 0, 1658.06591796875) /* FinesseWeapons      Specialized */
      , (25709,  5, 0, 3, 0,  20, 0, 1658.06591796875) /* Mace                Specialized */
      , (25709,  6, 0, 3, 0,   5, 0, 1658.06591796875) /* MeleeDefense        Specialized */
      , (25709,  7, 0, 3, 0,  35, 0, 1658.06591796875) /* MissileDefense      Specialized */
      , (25709,  9, 0, 3, 0,  20, 0, 1658.06591796875) /* Spear               Specialized */
      , (25709, 10, 0, 3, 0,  20, 0, 1658.06591796875) /* Staff               Specialized */
-     , (25709, 11, 0, 3, 0,  20, 0, 1658.06591796875) /* Sword               Specialized */
+     , (25709, 11, 0, 3, 0,  20, 0, 1658.06591796875) /* HeavyWeapons        Specialized */
      , (25709, 13, 0, 3, 0,  20, 0, 1658.06591796875) /* UnarmedCombat       Specialized */
      , (25709, 15, 0, 3, 0,  25, 0, 1658.06591796875) /* MagicDefense        Specialized */
      , (25709, 20, 0, 3, 0,  10, 0, 1658.06591796875) /* Deception           Specialized */

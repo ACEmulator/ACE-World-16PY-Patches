@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31015;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31015, 'mumiyahsentinelhighyield', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (31015, 'mumiyahsentinelhighyield', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31015,   1,         16) /* ItemType - Creature */
@@ -90,17 +90,13 @@ VALUES (31015,   1,  1320, 0, 0, 1405) /* MaxHealth */
      , (31015,   5,   500, 0, 0, 760) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (31015,  1, 0, 3, 0, 303, 0, 0) /* Axe                 Specialized */
-     , (31015,  2, 0, 3, 0, 200, 0, 0) /* Bow                 Specialized */
-     , (31015,  3, 0, 3, 0, 200, 0, 0) /* Crossbow            Specialized */
-     , (31015,  4, 0, 3, 0, 303, 0, 0) /* Dagger              Specialized */
-     , (31015,  5, 0, 3, 0, 303, 0, 0) /* Mace                Specialized */
+VALUES (31015, 45, 0, 3, 0, 303, 0, 0) /* LightWeapons        Specialized */
+     , (31015, 47, 0, 3, 0, 200, 0, 0) /* MissileWeapons      Specialized */
+     , (31015, 46, 0, 3, 0, 303, 0, 0) /* FinesseWeapons      Specialized */
      , (31015,  6, 0, 3, 0, 310, 0, 0) /* MeleeDefense        Specialized */
      , (31015,  7, 0, 3, 0, 425, 0, 0) /* MissileDefense      Specialized */
-     , (31015,  9, 0, 3, 0, 303, 0, 0) /* Spear               Specialized */
-     , (31015, 10, 0, 3, 0, 303, 0, 0) /* Staff               Specialized */
-     , (31015, 11, 0, 3, 0, 303, 0, 0) /* Sword               Specialized */
-     , (31015, 13, 0, 3, 0, 303, 0, 0) /* UnarmedCombat       Specialized */
+     , (31015, 44, 0, 3, 0, 303, 0, 0) /* HeavyWeapons        Specialized */
+     , (31015, 48, 0, 3, 0, 303, 0, 0) /* Shield              Specialized */
      , (31015, 14, 0, 3, 0, 240, 0, 0) /* ArcaneLore          Specialized */
      , (31015, 15, 0, 3, 0, 304, 0, 0) /* MagicDefense        Specialized */
      , (31015, 20, 0, 3, 0, 140, 0, 0) /* Deception           Specialized */

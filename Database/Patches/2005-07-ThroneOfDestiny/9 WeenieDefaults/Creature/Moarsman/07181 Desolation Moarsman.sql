@@ -93,13 +93,13 @@ VALUES (7181,   1,   450, 0, 0, 540) /* MaxHealth */
      , (7181,   5,   100, 0, 0, 240) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (7181,  1, 0, 3, 0, 335, 0, 0) /* Axe                 Specialized */
+VALUES (7181,  1, 0, 3, 0, 335, 0, 0) /* LightWeapons        Specialized */
      , (7181,  5, 0, 3, 0, 335, 0, 0) /* Mace                Specialized */
      , (7181,  6, 0, 3, 0, 332, 0, 0) /* MeleeDefense        Specialized */
      , (7181,  7, 0, 3, 0, 432, 0, 0) /* MissileDefense      Specialized */
      , (7181,  9, 0, 3, 0, 335, 0, 0) /* Spear               Specialized */
      , (7181, 10, 0, 3, 0, 335, 0, 0) /* Staff               Specialized */
-     , (7181, 11, 0, 3, 0, 335, 0, 0) /* Sword               Specialized */
+     , (7181, 11, 0, 3, 0, 335, 0, 0) /* HeavyWeapons        Specialized */
      , (7181, 12, 0, 3, 0,   0, 0, 0) /* ThrownWeapon        Specialized */
      , (7181, 13, 0, 3, 0, 335, 0, 0) /* UnarmedCombat       Specialized */
      , (7181, 15, 0, 3, 0, 282, 0, 0) /* MagicDefense        Specialized */

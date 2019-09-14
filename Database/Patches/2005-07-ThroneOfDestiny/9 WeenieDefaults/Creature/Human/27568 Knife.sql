@@ -377,11 +377,11 @@ VALUES (27568,   1,    95, 0, 0, 145) /* MaxHealth */
      , (27568,   5,     0, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (27568,  2, 0, 3, 0, 100, 0, 1924.52856445313) /* Bow                 Specialized */
-     , (27568,  4, 0, 3, 0, 145, 0, 1924.52856445313) /* Dagger              Specialized */
+VALUES (27568,  2, 0, 3, 0, 100, 0, 1924.52856445313) /* MissileWeapons      Specialized */
+     , (27568,  4, 0, 3, 0, 145, 0, 1924.52856445313) /* FinesseWeapons      Specialized */
      , (27568,  6, 0, 3, 0, 142, 0, 1924.52856445313) /* MeleeDefense        Specialized */
      , (27568,  7, 0, 3, 0, 230, 0, 1924.52856445313) /* MissileDefense      Specialized */
-     , (27568, 11, 0, 3, 0, 120, 0, 1924.52856445313) /* Sword               Specialized */
+     , (27568, 11, 0, 3, 0, 120, 0, 1924.52856445313) /* HeavyWeapons        Specialized */
      , (27568, 15, 0, 3, 0, 192, 0, 1924.52856445313) /* MagicDefense        Specialized */
      , (27568, 20, 0, 3, 0, 150, 0, 1924.52856445313) /* Deception           Specialized */
      , (27568, 24, 0, 3, 0,  80, 0, 1924.52856445313) /* Run                 Specialized */;

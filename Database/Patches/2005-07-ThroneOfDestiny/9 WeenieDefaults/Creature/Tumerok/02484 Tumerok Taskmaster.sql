@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2484;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2484, 'tumerokkeyd', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (2484, 'tumerokkeyd', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2484,   1,         16) /* ItemType - Creature */
@@ -90,17 +90,13 @@ VALUES (2484,   1,   180, 0, 0, 330) /* MaxHealth */
      , (2484,   5,     0, 0, 0, 270) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (2484,  1, 0, 3, 0, 210, 0, 0) /* Axe                 Specialized */
-     , (2484,  2, 0, 3, 0, 130, 0, 0) /* Bow                 Specialized */
-     , (2484,  3, 0, 3, 0, 130, 0, 0) /* Crossbow            Specialized */
-     , (2484,  4, 0, 3, 0, 200, 0, 0) /* Dagger              Specialized */
-     , (2484,  5, 0, 3, 0, 210, 0, 0) /* Mace                Specialized */
+VALUES (2484, 45, 0, 3, 0, 210, 0, 0) /* LightWeapons        Specialized */
+     , (2484, 47, 0, 3, 0, 130, 0, 0) /* MissileWeapons      Specialized */
+     , (2484, 46, 0, 3, 0, 200, 0, 0) /* FinesseWeapons      Specialized */
      , (2484,  6, 0, 3, 0, 200, 0, 0) /* MeleeDefense        Specialized */
      , (2484,  7, 0, 3, 0, 340, 0, 0) /* MissileDefense      Specialized */
-     , (2484,  9, 0, 3, 0, 210, 0, 0) /* Spear               Specialized */
-     , (2484, 10, 0, 3, 0, 210, 0, 0) /* Staff               Specialized */
-     , (2484, 11, 0, 3, 0, 210, 0, 0) /* Sword               Specialized */
-     , (2484, 13, 0, 3, 0, 210, 0, 0) /* UnarmedCombat       Specialized */
+     , (2484, 44, 0, 3, 0, 210, 0, 0) /* HeavyWeapons        Specialized */
+     , (2484, 48, 0, 3, 0, 210, 0, 0) /* Shield              Specialized */
      , (2484, 14, 0, 2, 0, 300, 0, 0) /* ArcaneLore          Trained */
      , (2484, 15, 0, 3, 0, 190, 0, 0) /* MagicDefense        Specialized */
      , (2484, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */

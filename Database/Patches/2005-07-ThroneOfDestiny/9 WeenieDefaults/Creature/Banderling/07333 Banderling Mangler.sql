@@ -101,7 +101,7 @@ VALUES (7333,  5, 0, 3, 0, 160, 0, 526.324523925781) /* Mace                Spec
      , (7333,  7, 0, 3, 0, 290, 0, 526.324523925781) /* MissileDefense      Specialized */
      , (7333,  9, 0, 3, 0, 160, 0, 526.324523925781) /* Spear               Specialized */
      , (7333, 10, 0, 3, 0, 160, 0, 526.324523925781) /* Staff               Specialized */
-     , (7333, 11, 0, 3, 0, 160, 0, 526.324523925781) /* Sword               Specialized */
+     , (7333, 11, 0, 3, 0, 160, 0, 526.324523925781) /* HeavyWeapons        Specialized */
      , (7333, 12, 0, 3, 0, 100, 0, 526.324523925781) /* ThrownWeapon        Specialized */
      , (7333, 13, 0, 3, 0, 160, 0, 526.324523925781) /* UnarmedCombat       Specialized */
      , (7333, 14, 0, 2, 0, 200, 0, 526.324523925781) /* ArcaneLore          Trained */

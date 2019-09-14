@@ -98,7 +98,7 @@ VALUES (30884,  5, 0, 3, 0, 230, 0, 2313.34692382813) /* Mace                Spe
      , (30884,  7, 0, 3, 0, 361, 0, 2313.34692382813) /* MissileDefense      Specialized */
      , (30884,  9, 0, 3, 0, 230, 0, 2313.34692382813) /* Spear               Specialized */
      , (30884, 10, 0, 3, 0, 230, 0, 2313.34692382813) /* Staff               Specialized */
-     , (30884, 11, 0, 3, 0, 230, 0, 2313.34692382813) /* Sword               Specialized */
+     , (30884, 11, 0, 3, 0, 230, 0, 2313.34692382813) /* HeavyWeapons        Specialized */
      , (30884, 12, 0, 3, 0, 150, 0, 2313.34692382813) /* ThrownWeapon        Specialized */
      , (30884, 13, 0, 3, 0, 230, 0, 2313.34692382813) /* UnarmedCombat       Specialized */
      , (30884, 15, 0, 3, 0, 220, 0, 2313.34692382813) /* MagicDefense        Specialized */

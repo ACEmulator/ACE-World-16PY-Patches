@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12741;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12741, 'bowtraining', 3, '2019-04-08 04:44:07') /* MissileLauncher */;
+VALUES (12741, 'bowtraining', 3, '2019-09-11 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12741,   1,        256) /* ItemType - MissileWeapon */
@@ -13,7 +13,7 @@ VALUES (12741,   1,        256) /* ItemType - MissileWeapon */
      , (12741,  19,         25) /* Value */
      , (12741,  44,          0) /* Damage */
      , (12741,  46,         16) /* DefaultCombatStyle - Bow */
-     , (12741,  48,          2) /* WeaponSkill - Bow */
+     , (12741,  48,         47) /* WeaponSkill - MissileWeapons */
      , (12741,  49,         40) /* WeaponTime */
      , (12741,  50,          1) /* AmmoType - Arrow */
      , (12741,  51,          2) /* CombatUse - Missle */
@@ -22,7 +22,8 @@ VALUES (12741,   1,        256) /* ItemType - MissileWeapon */
      , (12741,  60,        125) /* WeaponRange */
      , (12741,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12741, 150,        103) /* HookPlacement - Hook */
-     , (12741, 151,          2) /* HookType - Wall */;
+     , (12741, 151,          2) /* HookType - Wall */
+     , (12741, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12741,  22, True ) /* Inscribable */

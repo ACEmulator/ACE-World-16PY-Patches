@@ -108,7 +108,7 @@ VALUES (12004,  5, 0, 3, 0,  40, 0, 779.065246582031) /* Mace                Spe
      , (12004,  7, 0, 3, 0,  64, 0, 779.065246582031) /* MissileDefense      Specialized */
      , (12004,  9, 0, 3, 0,  40, 0, 779.065246582031) /* Spear               Specialized */
      , (12004, 10, 0, 3, 0,  40, 0, 779.065246582031) /* Staff               Specialized */
-     , (12004, 11, 0, 3, 0,  40, 0, 779.065246582031) /* Sword               Specialized */
+     , (12004, 11, 0, 3, 0,  40, 0, 779.065246582031) /* HeavyWeapons        Specialized */
      , (12004, 12, 0, 3, 0,  20, 0, 779.065246582031) /* ThrownWeapon        Specialized */
      , (12004, 13, 0, 3, 0,  40, 0, 779.065246582031) /* UnarmedCombat       Specialized */
      , (12004, 15, 0, 3, 0,  44, 0, 779.065246582031) /* MagicDefense        Specialized */

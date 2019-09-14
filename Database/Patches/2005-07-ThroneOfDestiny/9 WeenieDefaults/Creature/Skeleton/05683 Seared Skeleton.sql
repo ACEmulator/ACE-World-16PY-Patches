@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5683;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5683, 'skeletonseared', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (5683, 'skeletonseared', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5683,   1,         16) /* ItemType - Creature */
@@ -17,8 +17,7 @@ VALUES (5683,   1,         16) /* ItemType - Creature */
      , (5683, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (5683, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5683, 140,          1) /* AiOptions - CanOpenDoors */
-     , (5683, 146,       3500) /* XpOverride */
-     , (5683, 307,          5) /* DamageRating */;
+     , (5683, 146,       3500) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5683,   1, True ) /* Stuck */
@@ -111,17 +110,12 @@ VALUES (5683,   1,    65, 0, 0, 95) /* MaxHealth */
      , (5683,   5,     0, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (5683,  1, 0, 3, 0, 120, 0, 436.077087402344) /* Axe                 Specialized */
-     , (5683,  2, 0, 3, 0,  60, 0, 436.077087402344) /* Bow                 Specialized */
-     , (5683,  3, 0, 3, 0,  60, 0, 436.077087402344) /* Crossbow            Specialized */
-     , (5683,  4, 0, 3, 0, 120, 0, 436.077087402344) /* Dagger              Specialized */
-     , (5683,  5, 0, 3, 0, 120, 0, 436.077087402344) /* Mace                Specialized */
+VALUES (5683, 45, 0, 3, 0, 120, 0, 436.077087402344) /* LightWeapons        Specialized */
+     , (5683, 47, 0, 3, 0,  60, 0, 436.077087402344) /* MissileWeapons      Specialized */
+     , (5683, 46, 0, 3, 0, 120, 0, 436.077087402344) /* FinesseWeapons      Specialized */
      , (5683,  6, 0, 3, 0,  60, 0, 436.077087402344) /* MeleeDefense        Specialized */
      , (5683,  7, 0, 3, 0, 110, 0, 436.077087402344) /* MissileDefense      Specialized */
-     , (5683,  9, 0, 3, 0, 120, 0, 436.077087402344) /* Spear               Specialized */
-     , (5683, 10, 0, 3, 0, 120, 0, 436.077087402344) /* Staff               Specialized */
-     , (5683, 11, 0, 3, 0, 120, 0, 436.077087402344) /* Sword               Specialized */
-     , (5683, 13, 0, 3, 0, 120, 0, 436.077087402344) /* UnarmedCombat       Specialized */
+     , (5683, 44, 0, 3, 0, 120, 0, 436.077087402344) /* HeavyWeapons        Specialized */
      , (5683, 15, 0, 3, 0,  90, 0, 436.077087402344) /* MagicDefense        Specialized */
      , (5683, 20, 0, 3, 0, 100, 0, 436.077087402344) /* Deception           Specialized */;
 

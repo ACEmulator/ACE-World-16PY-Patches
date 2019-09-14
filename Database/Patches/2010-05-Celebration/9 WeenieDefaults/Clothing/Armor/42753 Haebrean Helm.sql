@@ -1,11 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42753;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42753, 'ace42753-haebreanhelm', 2, '2019-08-20 00:00:00') /* Clothing */;
+VALUES (42753, 'ace42753-haebreanhelm', 2, '2019-09-13 02:11:06') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42753,   1,          2) /* ItemType - Armor */
-     , (42753,   3,         21) /* PaletteTemplate - Gold */
+     , (42753,   3,         20) /* PaletteTemplate - Silver */
      , (42753,   4,      16384) /* ClothingPriority - Head */
      , (42753,   5,        378) /* EncumbranceVal */
      , (42753,   9,          1) /* ValidLocations - HeadWear */
@@ -21,7 +21,7 @@ VALUES (42753,  22, True ) /* Inscribable */
      , (42753, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42753,  12, 0.4464) /* Shade */
+VALUES (42753,  12,   0.33) /* Shade */
      , (42753,  13,    1.3) /* ArmorModVsSlash */
      , (42753,  14,      1) /* ArmorModVsPierce */
      , (42753,  15,      1) /* ArmorModVsBludgeon */

@@ -101,7 +101,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (30899,  5, 0, 3, 0, 185, 0, 2315.96752929688) /* Mace                Specialized */
      , (30899,  6, 0, 3, 0, 185, 0, 2315.96752929688) /* MeleeDefense        Specialized */
      , (30899,  7, 0, 3, 0, 250, 0, 2315.96752929688) /* MissileDefense      Specialized */
-     , (30899, 11, 0, 3, 0, 185, 0, 2315.96752929688) /* Sword               Specialized */
+     , (30899, 11, 0, 3, 0, 185, 0, 2315.96752929688) /* HeavyWeapons        Specialized */
      , (30899, 12, 0, 3, 0, 175, 0, 2315.96752929688) /* ThrownWeapon        Specialized */
      , (30899, 13, 0, 3, 0, 185, 0, 2315.96752929688) /* UnarmedCombat       Specialized */
      , (30899, 14, 0, 3, 0, 200, 0, 2315.96752929688) /* ArcaneLore          Specialized */

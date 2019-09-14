@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24315;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24315, 'skeletonhero', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (24315, 'skeletonhero', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24315,   1,         16) /* ItemType - Creature */
@@ -102,17 +102,13 @@ VALUES (24315,   1,   478, 0, 0, 551) /* MaxHealth */
      , (24315,   5,    50, 0, 0, 225) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24315,  1, 0, 3, 0, 290, 0, 0) /* Axe                 Specialized */
-     , (24315,  2, 0, 3, 0, 160, 0, 0) /* Bow                 Specialized */
-     , (24315,  3, 0, 3, 0, 160, 0, 0) /* Crossbow            Specialized */
-     , (24315,  4, 0, 3, 0,   0, 0, 0) /* Dagger              Specialized */
-     , (24315,  5, 0, 3, 0, 290, 0, 0) /* Mace                Specialized */
+VALUES (24315, 45, 0, 3, 0, 290, 0, 0) /* LightWeapons        Specialized */
+     , (24315, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */
+     , (24315, 46, 0, 3, 0,   0, 0, 0) /* FinesseWeapons      Specialized */
      , (24315,  6, 0, 3, 0, 290, 0, 0) /* MeleeDefense        Specialized */
      , (24315,  7, 0, 3, 0, 390, 0, 0) /* MissileDefense      Specialized */
-     , (24315,  9, 0, 3, 0, 290, 0, 0) /* Spear               Specialized */
-     , (24315, 10, 0, 3, 0, 290, 0, 0) /* Staff               Specialized */
-     , (24315, 11, 0, 3, 0, 290, 0, 0) /* Sword               Specialized */
-     , (24315, 13, 0, 3, 0, 290, 0, 0) /* UnarmedCombat       Specialized */
+     , (24315, 44, 0, 3, 0, 290, 0, 0) /* HeavyWeapons        Specialized */
+     , (24315, 48, 0, 3, 0, 290, 0, 0) /* Shield              Specialized */
      , (24315, 15, 0, 3, 0, 242, 0, 0) /* MagicDefense        Specialized */
      , (24315, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */;
 

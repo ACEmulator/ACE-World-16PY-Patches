@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24323;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24323, 'zombielichsailor', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (24323, 'zombielichsailor', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24323,   1,         16) /* ItemType - Creature */
@@ -106,17 +106,13 @@ VALUES (24323,   1,   275, 0, 0, 425) /* MaxHealth */
      , (24323,   5,   100, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24323,  1, 0, 3, 0, 300, 0, 0) /* Axe                 Specialized */
-     , (24323,  2, 0, 3, 0, 160, 0, 0) /* Bow                 Specialized */
-     , (24323,  3, 0, 3, 0, 160, 0, 0) /* Crossbow            Specialized */
-     , (24323,  4, 0, 3, 0, 300, 0, 0) /* Dagger              Specialized */
-     , (24323,  5, 0, 3, 0, 300, 0, 0) /* Mace                Specialized */
+VALUES (24323, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */
+     , (24323, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */
+     , (24323, 46, 0, 3, 0, 300, 0, 0) /* FinesseWeapons      Specialized */
      , (24323,  6, 0, 3, 0, 325, 0, 0) /* MeleeDefense        Specialized */
      , (24323,  7, 0, 3, 0, 430, 0, 0) /* MissileDefense      Specialized */
-     , (24323,  9, 0, 3, 0, 300, 0, 0) /* Spear               Specialized */
-     , (24323, 10, 0, 3, 0, 300, 0, 0) /* Staff               Specialized */
-     , (24323, 11, 0, 3, 0, 300, 0, 0) /* Sword               Specialized */
-     , (24323, 13, 0, 3, 0, 300, 0, 0) /* UnarmedCombat       Specialized */
+     , (24323, 44, 0, 3, 0, 300, 0, 0) /* HeavyWeapons        Specialized */
+     , (24323, 48, 0, 3, 0, 300, 0, 0) /* Shield              Specialized */
      , (24323, 14, 0, 3, 0, 240, 0, 0) /* ArcaneLore          Specialized */
      , (24323, 15, 0, 3, 0, 290, 0, 0) /* MagicDefense        Specialized */
      , (24323, 20, 0, 3, 0,  90, 0, 0) /* Deception           Specialized */

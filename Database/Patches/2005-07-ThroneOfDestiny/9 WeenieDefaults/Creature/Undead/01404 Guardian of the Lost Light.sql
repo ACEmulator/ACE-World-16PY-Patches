@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1404;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1404, 'lostlightguardian', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (1404, 'lostlightguardian', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1404,   1,         16) /* ItemType - Creature */
@@ -99,17 +99,13 @@ VALUES (1404,   1,   100, 0, 0, 200) /* MaxHealth */
      , (1404,   5,   150, 0, 0, 360) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1404,  1, 0, 3, 0, 200, 0, 304.203338623047) /* Axe                 Specialized */
-     , (1404,  2, 0, 3, 0, 150, 0, 304.203338623047) /* Bow                 Specialized */
-     , (1404,  3, 0, 3, 0, 150, 0, 304.203338623047) /* Crossbow            Specialized */
-     , (1404,  4, 0, 3, 0, 120, 0, 304.203338623047) /* Dagger              Specialized */
-     , (1404,  5, 0, 3, 0, 200, 0, 304.203338623047) /* Mace                Specialized */
+VALUES (1404, 45, 0, 3, 0, 200, 0, 304.203338623047) /* LightWeapons        Specialized */
+     , (1404, 47, 0, 3, 0, 150, 0, 304.203338623047) /* MissileWeapons      Specialized */
+     , (1404, 46, 0, 3, 0, 120, 0, 304.203338623047) /* FinesseWeapons      Specialized */
      , (1404,  6, 0, 3, 0,  75, 0, 304.203338623047) /* MeleeDefense        Specialized */
      , (1404,  7, 0, 3, 0, 300, 0, 304.203338623047) /* MissileDefense      Specialized */
-     , (1404,  9, 0, 3, 0, 200, 0, 304.203338623047) /* Spear               Specialized */
-     , (1404, 10, 0, 3, 0, 200, 0, 304.203338623047) /* Staff               Specialized */
-     , (1404, 11, 0, 3, 0, 150, 0, 304.203338623047) /* Sword               Specialized */
-     , (1404, 13, 0, 3, 0, 200, 0, 304.203338623047) /* UnarmedCombat       Specialized */
+     , (1404, 44, 0, 3, 0, 150, 0, 304.203338623047) /* HeavyWeapons        Specialized */
+     , (1404, 48, 0, 3, 0, 200, 0, 304.203338623047) /* Shield              Specialized */
      , (1404, 14, 0, 2, 0, 230, 0, 304.203338623047) /* ArcaneLore          Trained */
      , (1404, 15, 0, 3, 0, 165, 0, 304.203338623047) /* MagicDefense        Specialized */
      , (1404, 20, 0, 2, 0,  90, 0, 304.203338623047) /* Deception           Trained */

@@ -99,15 +99,15 @@ VALUES (19270,   1,   500, 0, 0, 620) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (19270,  1, 0, 2, 0, 180, 0, 1113.37475585938) /* Axe                 Trained */
-     , (19270,  2, 0, 3, 0, 220, 0, 1113.37475585938) /* Bow                 Specialized */
+     , (19270,  2, 0, 3, 0, 220, 0, 1113.37475585938) /* MissileWeapons      Specialized */
      , (19270,  3, 0, 2, 0, 220, 0, 1113.37475585938) /* Crossbow            Trained */
-     , (19270,  4, 0, 3, 0, 180, 0, 1113.37475585938) /* Dagger              Specialized */
+     , (19270,  4, 0, 3, 0, 180, 0, 1113.37475585938) /* FinesseWeapons      Specialized */
      , (19270,  5, 0, 2, 0, 180, 0, 1113.37475585938) /* Mace                Trained */
      , (19270,  6, 0, 2, 0, 180, 0, 1113.37475585938) /* MeleeDefense        Trained */
      , (19270,  7, 0, 3, 0, 220, 0, 1113.37475585938) /* MissileDefense      Specialized */
      , (19270,  9, 0, 3, 0, 180, 0, 1113.37475585938) /* Spear               Specialized */
      , (19270, 10, 0, 2, 0, 180, 0, 1113.37475585938) /* Staff               Trained */
-     , (19270, 11, 0, 3, 0, 180, 0, 1113.37475585938) /* Sword               Specialized */
+     , (19270, 11, 0, 3, 0, 180, 0, 1113.37475585938) /* HeavyWeapons        Specialized */
      , (19270, 13, 0, 2, 0, 110, 0, 1113.37475585938) /* UnarmedCombat       Trained */
      , (19270, 14, 0, 2, 0, 320, 0, 1113.37475585938) /* ArcaneLore          Trained */
      , (19270, 15, 0, 3, 0, 300, 0, 1113.37475585938) /* MagicDefense        Specialized */

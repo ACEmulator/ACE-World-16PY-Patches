@@ -96,11 +96,11 @@ VALUES (25969,   1,   150, 0, 0, 220) /* MaxHealth */
      , (25969,   5,    50, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25969,  2, 0, 3, 0, 180, 0, 1686.01513671875) /* Bow                 Specialized */
-     , (25969,  4, 0, 3, 0, 200, 0, 1686.01513671875) /* Dagger              Specialized */
+VALUES (25969,  2, 0, 3, 0, 180, 0, 1686.01513671875) /* MissileWeapons      Specialized */
+     , (25969,  4, 0, 3, 0, 200, 0, 1686.01513671875) /* FinesseWeapons      Specialized */
      , (25969,  6, 0, 3, 0, 240, 0, 1686.01513671875) /* MeleeDefense        Specialized */
      , (25969,  7, 0, 3, 0, 350, 0, 1686.01513671875) /* MissileDefense      Specialized */
-     , (25969, 11, 0, 3, 0, 200, 0, 1686.01513671875) /* Sword               Specialized */
+     , (25969, 11, 0, 3, 0, 200, 0, 1686.01513671875) /* HeavyWeapons        Specialized */
      , (25969, 15, 0, 3, 0, 225, 0, 1686.01513671875) /* MagicDefense        Specialized */
      , (25969, 24, 0, 3, 0, 100, 0, 1686.01513671875) /* Run                 Specialized */
      , (25969, 31, 0, 3, 0, 250, 0, 1686.01513671875) /* CreatureEnchantment Specialized */

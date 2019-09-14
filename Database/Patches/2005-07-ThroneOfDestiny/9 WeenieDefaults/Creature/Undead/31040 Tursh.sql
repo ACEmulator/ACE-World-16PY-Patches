@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31040;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31040, 'ace31040-tursh', 10, '2019-07-13 00:58:48') /* Creature */;
+VALUES (31040, 'ace31040-tursh', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31040,   1,         16) /* ItemType - Creature */
@@ -19,8 +19,7 @@ VALUES (31040,   1,         16) /* ItemType - Creature */
      , (31040, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (31040, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (31040, 140,          1) /* AiOptions - CanOpenDoors */
-     , (31040, 146,    1850000) /* XpOverride */
-     , (31040, 307,          5) /* DamageRating */;
+     , (31040, 146,    1850000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31040,   1, True ) /* Stuck */
@@ -96,7 +95,7 @@ VALUES (31040,   1,  5000, 0, 0, 3225) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (31040,  6, 0, 3, 0, 460, 0, 0) /* MeleeDefense        Specialized */
      , (31040,  7, 0, 3, 0, 515, 0, 0) /* MissileDefense      Specialized */
-     , (31040,  9, 0, 3, 0, 480, 0, 0) /* Spear               Specialized */
+     , (31040, 45, 0, 3, 0, 480, 0, 0) /* LightWeapons        Specialized */
      , (31040, 13, 0, 3, 0, 450, 0, 0) /* UnarmedCombat       Specialized */
      , (31040, 15, 0, 3, 0, 335, 0, 0) /* MagicDefense        Specialized */
      , (31040, 22, 0, 2, 0,  20, 0, 0) /* Jump                Trained */

@@ -102,7 +102,7 @@ VALUES (9251,  5, 0, 3, 0, 135, 0, 632.419555664063) /* Mace                Spec
      , (9251,  7, 0, 3, 0, 255, 0, 632.419555664063) /* MissileDefense      Specialized */
      , (9251,  9, 0, 3, 0, 135, 0, 632.419555664063) /* Spear               Specialized */
      , (9251, 10, 0, 3, 0, 135, 0, 632.419555664063) /* Staff               Specialized */
-     , (9251, 11, 0, 3, 0, 135, 0, 632.419555664063) /* Sword               Specialized */
+     , (9251, 11, 0, 3, 0, 135, 0, 632.419555664063) /* HeavyWeapons        Specialized */
      , (9251, 12, 0, 3, 0, 100, 0, 632.419555664063) /* ThrownWeapon        Specialized */
      , (9251, 13, 0, 3, 0, 135, 0, 632.419555664063) /* UnarmedCombat       Specialized */
      , (9251, 15, 0, 3, 0, 134, 0, 632.419555664063) /* MagicDefense        Specialized */
