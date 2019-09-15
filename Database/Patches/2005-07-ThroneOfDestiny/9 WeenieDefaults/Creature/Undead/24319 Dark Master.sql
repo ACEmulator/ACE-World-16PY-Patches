@@ -108,7 +108,6 @@ VALUES (24319, 45, 0, 3, 0, 280, 0, 0) /* LightWeapons        Specialized */
      , (24319,  6, 0, 3, 0, 265, 0, 0) /* MeleeDefense        Specialized */
      , (24319,  7, 0, 3, 0, 380, 0, 0) /* MissileDefense      Specialized */
      , (24319, 44, 0, 3, 0, 280, 0, 0) /* HeavyWeapons        Specialized */
-     , (24319, 12, 0, 3, 0, 160, 0, 0) /* ThrownWeapon        Specialized */
      , (24319, 48, 0, 3, 0, 280, 0, 0) /* Shield              Specialized */
      , (24319, 14, 0, 3, 0, 240, 0, 0) /* ArcaneLore          Specialized */
      , (24319, 15, 0, 3, 0, 215, 0, 0) /* MagicDefense        Specialized */

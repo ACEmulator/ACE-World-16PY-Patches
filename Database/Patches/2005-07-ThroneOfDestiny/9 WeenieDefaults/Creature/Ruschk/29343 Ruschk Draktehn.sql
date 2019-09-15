@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29343;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29343, 'ruschkdraktehn', 10, '2019-07-13 00:58:48') /* Creature */;
+VALUES (29343, 'ruschkdraktehn', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29343,   1,         16) /* ItemType - Creature */
@@ -19,8 +19,7 @@ VALUES (29343,   1,         16) /* ItemType - Creature */
      , (29343, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29343, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (29343, 140,          1) /* AiOptions - CanOpenDoors */
-     , (29343, 146,    1400000) /* XpOverride */
-     , (29343, 307,          5) /* DamageRating */;
+     , (29343, 146,    1400000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29343,   1, True ) /* Stuck */
@@ -29,8 +28,7 @@ VALUES (29343,   1, True ) /* Stuck */
      , (29343,  13, False) /* Ethereal */
      , (29343,  14, True ) /* GravityStatus */
      , (29343,  19, True ) /* Attackable */
-     , (29343, 101, True ) /* CanGenerateRare */
-     , (29343, 102, True ) /* CorpseGeneratedRare */;
+     , (29343, 101, True ) /* CanGenerateRare */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29343,   1,       5) /* HeartbeatInterval */
@@ -99,14 +97,12 @@ VALUES (29343,   1,  3000, 0, 0, 3225) /* MaxHealth */
      , (29343,   5,   250, 0, 0, 570) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29343,  4, 0, 3, 0, 320, 0, 0) /* FinesseWeapons      Specialized */
-     , (29343,  5, 0, 3, 0, 290, 0, 0) /* Mace                Specialized */
+VALUES (29343, 46, 0, 3, 0, 320, 0, 0) /* FinesseWeapons      Specialized */
      , (29343,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
      , (29343,  7, 0, 3, 0, 310, 0, 0) /* MissileDefense      Specialized */
-     , (29343,  9, 0, 3, 0, 290, 0, 0) /* Spear               Specialized */
-     , (29343, 11, 0, 3, 0, 290, 0, 0) /* HeavyWeapons        Specialized */
-     , (29343, 12, 0, 3, 0, 190, 0, 0) /* ThrownWeapon        Specialized */
-     , (29343, 13, 0, 3, 0, 290, 0, 0) /* UnarmedCombat       Specialized */
+     , (29343, 44, 0, 3, 0, 290, 0, 0) /* HeavyWeapons        Specialized */
+     , (29343, 47, 0, 3, 0, 190, 0, 0) /* MissileWeapons      Specialized */
+     , (29343, 45, 0, 3, 0, 320, 0, 0) /* LightWeapons        Specialized */
      , (29343, 15, 0, 3, 0, 335, 0, 0) /* MagicDefense        Specialized */
      , (29343, 22, 0, 2, 0,  20, 0, 0) /* Jump                Trained */
      , (29343, 24, 0, 2, 0,  20, 0, 0) /* Run                 Trained */

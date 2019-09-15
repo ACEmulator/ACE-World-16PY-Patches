@@ -119,7 +119,7 @@ VALUES (11517,   1,   315, 0, 0, 440) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (11517, 45, 0, 3, 0, 250, 0, 0) /* LightWeapons        Specialized */
      , (11517, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */
-     , (11517, 46, 0, 3, 0,  95, 0, 0) /* FinesseWeapons      Specialized */
+     , (11517, 46, 0, 3, 0, 250, 0, 0) /* FinesseWeapons      Specialized */
      , (11517,  6, 0, 3, 0, 288, 0, 0) /* MeleeDefense        Specialized */
      , (11517,  7, 0, 3, 0, 380, 0, 0) /* MissileDefense      Specialized */
      , (11517, 44, 0, 3, 0, 250, 0, 0) /* HeavyWeapons        Specialized */
