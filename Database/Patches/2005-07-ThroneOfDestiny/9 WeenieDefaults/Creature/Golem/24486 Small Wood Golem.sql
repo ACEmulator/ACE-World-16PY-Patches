@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24486;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24486, 'golemwoodmini', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (24486, 'golemwoodmini', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24486,   1,         16) /* ItemType - Creature */
@@ -15,8 +15,7 @@ VALUES (24486,   1,         16) /* ItemType - Creature */
      , (24486,  68,          3) /* TargetingTactic - Random, Focused */
      , (24486,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24486, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24486, 146,     125000) /* XpOverride */
-     , (24486, 307,          2) /* DamageRating */;
+     , (24486, 146,     125000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24486,   1, True ) /* Stuck */
@@ -87,16 +86,16 @@ VALUES (24486,   1,   410, 0, 0, 555) /* MaxHealth */
      , (24486,   5,   285, 0, 0, 475) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24486,  6, 0, 3, 0, 300, 0, 1556.46826171875) /* MeleeDefense        Specialized */
-     , (24486,  7, 0, 3, 0, 395, 0, 1556.46826171875) /* MissileDefense      Specialized */
-     , (24486, 13, 0, 3, 0, 255, 0, 1556.46826171875) /* UnarmedCombat       Specialized */
-     , (24486, 14, 0, 3, 0,  50, 0, 1556.46826171875) /* ArcaneLore          Specialized */
-     , (24486, 15, 0, 3, 0, 250, 0, 1556.46826171875) /* MagicDefense        Specialized */
-     , (24486, 20, 0, 3, 0,  80, 0, 1556.46826171875) /* Deception           Specialized */
-     , (24486, 22, 0, 3, 0,  10, 0, 1556.46826171875) /* Jump                Specialized */
-     , (24486, 24, 0, 3, 0,  10, 0, 1556.46826171875) /* Run                 Specialized */
-     , (24486, 33, 0, 3, 0, 175, 0, 1556.46826171875) /* LifeMagic           Specialized */
-     , (24486, 34, 0, 3, 0, 175, 0, 1556.46826171875) /* WarMagic            Specialized */;
+VALUES (24486,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
+     , (24486,  7, 0, 3, 0, 395, 0, 0) /* MissileDefense      Specialized */
+     , (24486, 45, 0, 3, 0, 255, 0, 0) /* LightWeapons        Specialized */
+     , (24486, 14, 0, 3, 0,  50, 0, 0) /* ArcaneLore          Specialized */
+     , (24486, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
+     , (24486, 20, 0, 3, 0,  80, 0, 0) /* Deception           Specialized */
+     , (24486, 22, 0, 3, 0,  10, 0, 0) /* Jump                Specialized */
+     , (24486, 24, 0, 3, 0,  10, 0, 0) /* Run                 Specialized */
+     , (24486, 33, 0, 3, 0, 175, 0, 0) /* LifeMagic           Specialized */
+     , (24486, 34, 0, 3, 0, 175, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24486,  0,  4,  0,    0,  250,  198,  138,  138,  178,   75,   98,  145,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

@@ -16,8 +16,7 @@ VALUES (7097,   1,         16) /* ItemType - Creature */
      , (7097,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (7097,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7097, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7097, 146,     250000) /* XpOverride */
-     , (7097, 307,          2) /* DamageRating */;
+     , (7097, 146,     250000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7097,   1, True ) /* Stuck */
@@ -97,7 +96,7 @@ VALUES (7097,   1,   400, 0, 0, 540) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (7097,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
      , (7097,  7, 0, 3, 0, 429, 0, 0) /* MissileDefense      Specialized */
-     , (7097, 13, 0, 3, 0, 275, 0, 0) /* UnarmedCombat       Specialized */
+     , (7097, 45, 0, 3, 0, 275, 0, 0) /* LightWeapons        Specialized */
      , (7097, 14, 0, 3, 0, 300, 0, 0) /* ArcaneLore          Specialized */
      , (7097, 15, 0, 3, 0, 265, 0, 0) /* MagicDefense        Specialized */
      , (7097, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */

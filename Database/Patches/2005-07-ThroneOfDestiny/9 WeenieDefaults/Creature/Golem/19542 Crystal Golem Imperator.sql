@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19542;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19542, 'golemcrystalimperator', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (19542, 'golemcrystalimperator', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19542,   1,         16) /* ItemType - Creature */
@@ -98,7 +98,7 @@ VALUES (19542,   1,  9500, 0, 0, 10000) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (19542,  6, 0, 3, 0, 264, 0, 1127.2421875) /* MeleeDefense        Specialized */
      , (19542,  7, 0, 3, 0, 401, 0, 1127.2421875) /* MissileDefense      Specialized */
-     , (19542, 13, 0, 3, 0, 234, 0, 1127.2421875) /* UnarmedCombat       Specialized */
+     , (19542, 45, 0, 3, 0, 234, 0, 1127.2421875) /* LightWeapons        Specialized */
      , (19542, 14, 0, 2, 0, 150, 0, 1127.2421875) /* ArcaneLore          Trained */
      , (19542, 15, 0, 3, 0, 270, 0, 1127.2421875) /* MagicDefense        Specialized */
      , (19542, 20, 0, 3, 0, 400, 0, 1127.2421875) /* Deception           Specialized */
