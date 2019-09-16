@@ -96,7 +96,6 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (31040,  6, 0, 3, 0, 460, 0, 0) /* MeleeDefense        Specialized */
      , (31040,  7, 0, 3, 0, 515, 0, 0) /* MissileDefense      Specialized */
      , (31040, 45, 0, 3, 0, 480, 0, 0) /* LightWeapons        Specialized */
-     , (31040, 13, 0, 3, 0, 450, 0, 0) /* UnarmedCombat       Specialized */
      , (31040, 15, 0, 3, 0, 335, 0, 0) /* MagicDefense        Specialized */
      , (31040, 22, 0, 2, 0,  20, 0, 0) /* Jump                Trained */
      , (31040, 24, 0, 2, 0,  20, 0, 0) /* Run                 Trained */

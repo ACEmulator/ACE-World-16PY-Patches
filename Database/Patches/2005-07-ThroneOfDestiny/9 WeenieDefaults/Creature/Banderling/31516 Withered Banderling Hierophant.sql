@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31516;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31516, 'ace31516-witheredbanderlinghierophant', 10, '2019-05-18 23:01:22') /* Creature */;
+VALUES (31516, 'ace31516-witheredbanderlinghierophant', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31516,   1,         16) /* ItemType - Creature */
@@ -18,8 +18,7 @@ VALUES (31516,   1,         16) /* ItemType - Creature */
      , (31516, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (31516, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (31516, 140,          1) /* AiOptions - CanOpenDoors */
-     , (31516, 146,    1500000) /* XpOverride */
-     , (31516, 307,         10) /* DamageRating */;
+     , (31516, 146,    1500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31516,   1, True ) /* Stuck */
@@ -99,11 +98,10 @@ VALUES (31516,   1,  1850, 0, 0, 2000) /* MaxHealth */
      , (31516,   5,     0, 0, 0, 275) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (31516,  5, 0, 3, 0, 283, 0, 0) /* Mace                Specialized */
-     , (31516,  6, 0, 3, 0, 327, 0, 0) /* MeleeDefense        Specialized */
+VALUES (31516,  6, 0, 3, 0, 327, 0, 0) /* MeleeDefense        Specialized */
      , (31516,  7, 0, 3, 0, 444, 0, 0) /* MissileDefense      Specialized */
-     , (31516, 12, 0, 3, 0, 290, 0, 0) /* ThrownWeapon        Specialized */
-     , (31516, 13, 0, 3, 0, 283, 0, 0) /* UnarmedCombat       Specialized */
+     , (31516, 47, 0, 3, 0, 290, 0, 0) /* MissileWeapons      Specialized */
+     , (31516, 45, 0, 3, 0, 283, 0, 0) /* LightWeapons        Specialized */
      , (31516, 14, 0, 3, 0, 200, 0, 0) /* ArcaneLore          Specialized */
      , (31516, 15, 0, 3, 0, 350, 0, 0) /* MagicDefense        Specialized */
      , (31516, 20, 0, 3, 0,  40, 0, 0) /* Deception           Specialized */

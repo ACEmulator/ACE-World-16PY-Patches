@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30298;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30298, 'knightmagecounselor_nofall', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (30298, 'knightmagecounselor_nofall', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30298,   1,         16) /* ItemType - Creature */
@@ -95,16 +95,12 @@ VALUES (30298,   1,   402, 0, 0, 490) /* MaxHealth */
      , (30298,   5,   300, 0, 0, 695) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (30298,  1, 0, 3, 0, 275, 0, 0) /* LightWeapons        Specialized */
-     , (30298,  4, 0, 3, 0, 275, 0, 0) /* FinesseWeapons      Specialized */
-     , (30298,  5, 0, 3, 0, 275, 0, 0) /* Mace                Specialized */
+VALUES (30298, 45, 0, 3, 0, 275, 0, 0) /* LightWeapons        Specialized */
+     , (30298, 46, 0, 3, 0, 275, 0, 0) /* FinesseWeapons      Specialized */
      , (30298,  6, 0, 3, 0, 225, 0, 0) /* MeleeDefense        Specialized */
      , (30298,  7, 0, 3, 0, 285, 0, 0) /* MissileDefense      Specialized */
-     , (30298,  9, 0, 3, 0, 275, 0, 0) /* Spear               Specialized */
-     , (30298, 10, 0, 3, 0, 275, 0, 0) /* Staff               Specialized */
-     , (30298, 11, 0, 3, 0, 275, 0, 0) /* HeavyWeapons        Specialized */
-     , (30298, 12, 0, 3, 0, 160, 0, 0) /* ThrownWeapon        Specialized */
-     , (30298, 13, 0, 3, 0, 275, 0, 0) /* UnarmedCombat       Specialized */
+     , (30298, 44, 0, 3, 0, 275, 0, 0) /* HeavyWeapons        Specialized */
+     , (30298, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */
      , (30298, 15, 0, 3, 0, 238, 0, 0) /* MagicDefense        Specialized */
      , (30298, 33, 0, 3, 0, 230, 0, 0) /* LifeMagic           Specialized */
      , (30298, 34, 0, 3, 0, 230, 0, 0) /* WarMagic            Specialized */

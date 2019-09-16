@@ -92,15 +92,11 @@ VALUES (11880,   1,    50, 0, 0, 113) /* MaxHealth */
      , (11880,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11880,  1, 0, 3, 0,  90, 0, 0) /* LightWeapons        Specialized */
-     , (11880,  4, 0, 3, 0,  90, 0, 0) /* FinesseWeapons      Specialized */
-     , (11880,  5, 0, 3, 0,  90, 0, 0) /* Mace                Specialized */
+VALUES (11880, 45, 0, 3, 0,  90, 0, 0) /* LightWeapons        Specialized */
+     , (11880, 46, 0, 3, 0,  90, 0, 0) /* FinesseWeapons      Specialized */
      , (11880,  6, 0, 3, 0,  72, 0, 0) /* MeleeDefense        Specialized */
      , (11880,  7, 0, 3, 0, 111, 0, 0) /* MissileDefense      Specialized */
-     , (11880,  9, 0, 3, 0,  90, 0, 0) /* Spear               Specialized */
-     , (11880, 10, 0, 3, 0,  90, 0, 0) /* Staff               Specialized */
-     , (11880, 11, 0, 3, 0,  90, 0, 0) /* HeavyWeapons        Specialized */
-     , (11880, 13, 0, 3, 0,  90, 0, 0) /* UnarmedCombat       Specialized */
+     , (11880, 44, 0, 3, 0,  90, 0, 0) /* HeavyWeapons        Specialized */
      , (11880, 14, 0, 2, 0, 190, 0, 0) /* ArcaneLore          Trained */
      , (11880, 15, 0, 3, 0,  84, 0, 0) /* MagicDefense        Specialized */
      , (11880, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */

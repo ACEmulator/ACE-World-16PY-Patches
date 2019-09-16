@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1240;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1240, 'banderlingguardglenden', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (1240, 'banderlingguardglenden', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1240,   1,         16) /* ItemType - Creature */
@@ -103,14 +103,11 @@ VALUES (1240,   1,    70, 0, 0, 130) /* MaxHealth */
      , (1240,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1240,  5, 0, 3, 0,  90, 0, 0) /* Mace                Specialized */
-     , (1240,  6, 0, 3, 0,  74, 0, 0) /* MeleeDefense        Specialized */
+VALUES (1240,  6, 0, 3, 0,  74, 0, 0) /* MeleeDefense        Specialized */
      , (1240,  7, 0, 3, 0, 120, 0, 0) /* MissileDefense      Specialized */
-     , (1240,  9, 0, 3, 0,  90, 0, 0) /* Spear               Specialized */
-     , (1240, 10, 0, 3, 0,  90, 0, 0) /* Staff               Specialized */
      , (1240, 11, 0, 3, 0,  90, 0, 0) /* HeavyWeapons        Specialized */
-     , (1240, 12, 0, 3, 0,  85, 0, 0) /* ThrownWeapon        Specialized */
-     , (1240, 13, 0, 3, 0,  90, 0, 0) /* UnarmedCombat       Specialized */
+     , (1240, 47, 0, 3, 0,  85, 0, 0) /* MissileWeapons      Specialized */
+     , (1240, 45, 0, 3, 0,  90, 0, 0) /* LightWeapons        Specialized */
      , (1240, 15, 0, 3, 0,  72, 0, 0) /* MagicDefense        Specialized */
      , (1240, 20, 0, 3, 0,  40, 0, 0) /* Deception           Specialized */
      , (1240, 22, 0, 3, 0,  40, 0, 0) /* Jump                Specialized */

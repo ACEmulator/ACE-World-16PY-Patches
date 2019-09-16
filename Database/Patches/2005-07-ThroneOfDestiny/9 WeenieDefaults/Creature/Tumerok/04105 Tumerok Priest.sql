@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4105;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4105, 'tumerokpriestarcher', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (4105, 'tumerokpriestarcher', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4105,   1,         16) /* ItemType - Creature */
@@ -96,15 +96,12 @@ VALUES (4105,   1,   150, 0, 0, 185) /* MaxHealth */
      , (4105,   5,     0, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (4105,  1, 0, 3, 0, 230, 0, 0) /* LightWeapons        Specialized */
-     , (4105,  4, 0, 3, 0,  50, 0, 0) /* FinesseWeapons      Specialized */
-     , (4105,  5, 0, 3, 0, 230, 0, 0) /* Mace                Specialized */
+VALUES (4105, 45, 0, 3, 0, 230, 0, 0) /* LightWeapons        Specialized */
+     , (4105, 47, 0, 3, 0, 200, 0, 0) /* MissileWeapons      Specialized */
+     , (4105, 46, 0, 3, 0, 230, 0, 0) /* FinesseWeapons      Specialized */
      , (4105,  6, 0, 3, 0, 240, 0, 0) /* MeleeDefense        Specialized */
      , (4105,  7, 0, 3, 0, 325, 0, 0) /* MissileDefense      Specialized */
-     , (4105,  9, 0, 3, 0, 230, 0, 0) /* Spear               Specialized */
-     , (4105, 10, 0, 3, 0, 230, 0, 0) /* Staff               Specialized */
-     , (4105, 11, 0, 3, 0, 230, 0, 0) /* HeavyWeapons        Specialized */
-     , (4105, 13, 0, 3, 0, 230, 0, 0) /* UnarmedCombat       Specialized */
+     , (4105, 44, 0, 3, 0, 230, 0, 0) /* HeavyWeapons        Specialized */
      , (4105, 14, 0, 2, 0, 190, 0, 0) /* ArcaneLore          Trained */
      , (4105, 15, 0, 3, 0, 180, 0, 0) /* MagicDefense        Specialized */
      , (4105, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */

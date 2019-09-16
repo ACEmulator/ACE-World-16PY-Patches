@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32295;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32295, 'ace32295-royalinquisitor', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (32295, 'ace32295-royalinquisitor', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32295,   1,         16) /* ItemType - Creature */
@@ -95,16 +95,12 @@ VALUES (32295,   1,   785, 0, 0, 890) /* MaxHealth */
      , (32295,   5,   530, 0, 0, 1000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (32295,  1, 0, 3, 0, 260, 0, 0) /* LightWeapons        Specialized */
-     , (32295,  4, 0, 3, 0, 270, 0, 0) /* FinesseWeapons      Specialized */
-     , (32295,  5, 0, 3, 0, 270, 0, 0) /* Mace                Specialized */
+VALUES (32295, 45, 0, 3, 0, 260, 0, 0) /* LightWeapons        Specialized */
+     , (32295, 46, 0, 3, 0, 260, 0, 0) /* FinesseWeapons      Specialized */
      , (32295,  6, 0, 3, 0, 270, 0, 0) /* MeleeDefense        Specialized */
      , (32295,  7, 0, 3, 0, 280, 0, 0) /* MissileDefense      Specialized */
-     , (32295,  9, 0, 3, 0, 260, 0, 0) /* Spear               Specialized */
-     , (32295, 10, 0, 3, 0, 260, 0, 0) /* Staff               Specialized */
-     , (32295, 11, 0, 3, 0, 260, 0, 0) /* HeavyWeapons        Specialized */
-     , (32295, 12, 0, 3, 0, 160, 0, 0) /* ThrownWeapon        Specialized */
-     , (32295, 13, 0, 3, 0, 260, 0, 0) /* UnarmedCombat       Specialized */
+     , (32295, 44, 0, 3, 0, 260, 0, 0) /* HeavyWeapons        Specialized */
+     , (32295, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */
      , (32295, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
      , (32295, 20, 0, 2, 0,  50, 0, 0) /* Deception           Trained */
      , (32295, 31, 0, 3, 0, 225, 0, 0) /* CreatureEnchantment Specialized */

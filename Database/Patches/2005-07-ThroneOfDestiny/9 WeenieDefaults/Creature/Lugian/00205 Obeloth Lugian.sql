@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 205;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (205, 'lugianobeloth', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (205, 'lugianobeloth', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (205,   1,         16) /* ItemType - Creature */
@@ -20,8 +20,7 @@ VALUES (205,   1,         16) /* ItemType - Creature */
      , (205, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (205, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (205, 140,          1) /* AiOptions - CanOpenDoors */
-     , (205, 146,       5000) /* XpOverride */
-     , (205, 307,          5) /* DamageRating */;
+     , (205, 146,       5000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (205,   1, True ) /* Stuck */
@@ -97,16 +96,14 @@ VALUES (205,   1,    50, 0, 0, 150) /* MaxHealth */
      , (205,   5,     0, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (205,  1, 0, 3, 0,  90, 0, 271.521026611328) /* LightWeapons        Specialized */
-     , (205,  5, 0, 3, 0,  90, 0, 271.521026611328) /* Mace                Specialized */
-     , (205,  6, 0, 3, 0,  72, 0, 271.521026611328) /* MeleeDefense        Specialized */
-     , (205,  7, 0, 3, 0, 118, 0, 271.521026611328) /* MissileDefense      Specialized */
-     , (205, 12, 0, 3, 0,  70, 0, 271.521026611328) /* ThrownWeapon        Specialized */
-     , (205, 13, 0, 3, 0,  90, 0, 271.521026611328) /* UnarmedCombat       Specialized */
-     , (205, 15, 0, 3, 0,  84, 0, 271.521026611328) /* MagicDefense        Specialized */
-     , (205, 20, 0, 3, 0,  40, 0, 271.521026611328) /* Deception           Specialized */
-     , (205, 22, 0, 3, 0, 140, 0, 271.521026611328) /* Jump                Specialized */
-     , (205, 24, 0, 3, 0,  50, 0, 271.521026611328) /* Run                 Specialized */;
+VALUES (205,  6, 0, 3, 0,  72, 0, 0) /* MeleeDefense        Specialized */
+     , (205,  7, 0, 3, 0, 118, 0, 0) /* MissileDefense      Specialized */
+     , (205, 47, 0, 3, 0,  70, 0, 0) /* MissileWeapons      Specialized */
+     , (205, 45, 0, 3, 0,  90, 0, 0) /* LightWeapons        Specialized */
+     , (205, 15, 0, 3, 0,  84, 0, 0) /* MagicDefense        Specialized */
+     , (205, 20, 0, 3, 0,  40, 0, 0) /* Deception           Specialized */
+     , (205, 22, 0, 3, 0, 140, 0, 0) /* Jump                Specialized */
+     , (205, 24, 0, 3, 0,  50, 0, 0) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (205,  0,  4,  2,  0.3,  100,   51,   51,   51,   26,    3,   84,   80,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
