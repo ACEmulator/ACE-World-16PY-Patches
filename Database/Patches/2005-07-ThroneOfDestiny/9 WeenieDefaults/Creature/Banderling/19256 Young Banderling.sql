@@ -110,7 +110,6 @@ VALUES (19256, 45, 0, 3, 0,  10, 0, 0) /* LightWeapons        Specialized */
      , (19256,  7, 0, 3, 0,  30, 0, 0) /* MissileDefense      Specialized */
      , (19256, 44, 0, 3, 0,  10, 0, 0) /* HeavyWeapons        Specialized */
      , (19256, 47, 0, 3, 0,  10, 0, 0) /* MissileWeapons      Specialized */
-     , (19256, 45, 0, 3, 0,  10, 0, 0) /* LightWeapons        Specialized */
      , (19256, 15, 0, 3, 0,   3, 0, 0) /* MagicDefense        Specialized */
      , (19256, 22, 0, 3, 0,  70, 0, 0) /* Jump                Specialized */
      , (19256, 24, 0, 2, 0,  50, 0, 0) /* Run                 Trained */;
