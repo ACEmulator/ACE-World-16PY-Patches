@@ -4,7 +4,7 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
 VALUES (6798, 0, 0, 0, 0, 0, 0, 'You attach the left-hand tether to the weapon.', 0, 0, '', 1, 1, '', 0, 0, '', 1, 1, '', 0, 0, '', 0, '2019-05-21 00:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (6798, 0, 46, 2, 2, 'The tether can only be applied to a one handed melee weapon.') /* DefaultCombatStyle - OneHanded */;
+VALUES (6798, 0, 46, 2, 0, 'The tether can only be applied to a one handed melee weapon.') /* DefaultCombatStyle - OneHanded */;
 
 INSERT INTO `recipe_requirements_bool` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (6798, 0, 130, True, 3, 'This weapon has already been tethered.') /* AutowieldLeft */;
