@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1989;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1989, 'wispshadow', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (1989, 'wispshadow', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1989,   1,         16) /* ItemType - Creature */
@@ -87,17 +87,17 @@ VALUES (1989,   1,    60, 0, 0, 120) /* MaxHealth */
      , (1989,   5,   100, 0, 0, 280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1989,  6, 0, 3, 0,  60, 0, 320.07470703125) /* MeleeDefense        Specialized */
-     , (1989,  7, 0, 3, 0, 175, 0, 320.07470703125) /* MissileDefense      Specialized */
-     , (1989, 13, 0, 3, 0, 100, 0, 320.07470703125) /* UnarmedCombat       Specialized */
-     , (1989, 14, 0, 2, 0, 300, 0, 320.07470703125) /* ArcaneLore          Trained */
-     , (1989, 15, 0, 3, 0, 105, 0, 320.07470703125) /* MagicDefense        Specialized */
-     , (1989, 20, 0, 2, 0, 100, 0, 320.07470703125) /* Deception           Trained */
-     , (1989, 24, 0, 2, 0,  50, 0, 320.07470703125) /* Run                 Trained */
-     , (1989, 31, 0, 3, 0,  75, 0, 320.07470703125) /* CreatureEnchantment Specialized */
-     , (1989, 32, 0, 3, 0,  75, 0, 320.07470703125) /* ItemEnchantment     Specialized */
-     , (1989, 33, 0, 3, 0,  75, 0, 320.07470703125) /* LifeMagic           Specialized */
-     , (1989, 34, 0, 3, 0,  75, 0, 320.07470703125) /* WarMagic            Specialized */;
+VALUES (1989,  6, 0, 3, 0,  60, 0, 0) /* MeleeDefense        Specialized */
+     , (1989,  7, 0, 3, 0, 175, 0, 0) /* MissileDefense      Specialized */
+     , (1989, 45, 0, 3, 0, 100, 0, 0) /* LightWeapons        Specialized */
+     , (1989, 14, 0, 2, 0, 300, 0, 0) /* ArcaneLore          Trained */
+     , (1989, 15, 0, 3, 0, 105, 0, 0) /* MagicDefense        Specialized */
+     , (1989, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */
+     , (1989, 24, 0, 2, 0,  50, 0, 0) /* Run                 Trained */
+     , (1989, 31, 0, 3, 0,  75, 0, 0) /* CreatureEnchantment Specialized */
+     , (1989, 32, 0, 3, 0,  75, 0, 0) /* ItemEnchantment     Specialized */
+     , (1989, 33, 0, 3, 0,  75, 0, 0) /* LifeMagic           Specialized */
+     , (1989, 34, 0, 3, 0,  75, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1989,  0,  8, 20,  0.5,   20,   20,   20,   20,  200,   16,   16,    4,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */

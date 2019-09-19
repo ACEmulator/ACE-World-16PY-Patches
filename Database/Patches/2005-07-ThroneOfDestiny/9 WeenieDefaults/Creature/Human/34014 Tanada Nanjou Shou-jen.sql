@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34014;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34014, 'ace34014-tanadananjoushoujen', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (34014, 'ace34014-tanadananjoushoujen', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34014,   1,         16) /* ItemType - Creature */
@@ -93,7 +93,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (34014,  6, 0, 3, 0, 325, 0, 0) /* MeleeDefense        Specialized */
      , (34014,  7, 0, 3, 0, 340, 0, 0) /* MissileDefense      Specialized */
      , (34014, 11, 0, 3, 0, 340, 0, 0) /* HeavyWeapons        Specialized */
-     , (34014, 13, 0, 3, 0, 440, 0, 0) /* UnarmedCombat       Specialized */
+     , (34014, 45, 0, 3, 0, 440, 0, 0) /* LightWeapons        Specialized */
      , (34014, 15, 0, 3, 0, 255, 0, 0) /* MagicDefense        Specialized */
      , (34014, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */
      , (34014, 33, 0, 3, 0, 265, 0, 0) /* LifeMagic           Specialized */

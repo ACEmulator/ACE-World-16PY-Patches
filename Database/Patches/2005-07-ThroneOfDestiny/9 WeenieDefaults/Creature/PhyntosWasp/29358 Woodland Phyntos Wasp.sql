@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29358;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29358, 'phyntoswaspwoodland', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (29358, 'phyntoswaspwoodland', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29358,   1,         16) /* ItemType - Creature */
@@ -90,7 +90,7 @@ VALUES (29358,   1,   166, 0, 0, 176) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (29358,  6, 0, 3, 0, 242, 0, 0) /* MeleeDefense        Specialized */
      , (29358,  7, 0, 3, 0, 360, 0, 0) /* MissileDefense      Specialized */
-     , (29358, 13, 0, 3, 0, 242, 0, 0) /* UnarmedCombat       Specialized */
+     , (29358, 45, 0, 3, 0, 242, 0, 0) /* LightWeapons        Specialized */
      , (29358, 14, 0, 3, 0, 285, 0, 0) /* ArcaneLore          Specialized */
      , (29358, 15, 0, 3, 0, 236, 0, 0) /* MagicDefense        Specialized */
      , (29358, 20, 0, 3, 0,   5, 0, 0) /* Deception           Specialized */

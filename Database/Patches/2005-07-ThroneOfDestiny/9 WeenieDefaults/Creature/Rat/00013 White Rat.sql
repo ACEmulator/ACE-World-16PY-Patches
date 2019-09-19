@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 13;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (13, 'ratwhite', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (13, 'ratwhite', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (13,   1,         16) /* ItemType - Creature */
@@ -87,12 +87,12 @@ VALUES (13,   1,     5, 0, 0, 10) /* MaxHealth */
      , (13,   5,     0, 0, 0, 10) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (13,  6, 0, 3, 0,  15, 0, 272.855560302734) /* MeleeDefense        Specialized */
-     , (13,  7, 0, 3, 0,  38, 0, 272.855560302734) /* MissileDefense      Specialized */
-     , (13, 13, 0, 3, 0,  15, 0, 272.855560302734) /* UnarmedCombat       Specialized */
-     , (13, 15, 0, 3, 0,  21, 0, 272.855560302734) /* MagicDefense        Specialized */
-     , (13, 22, 0, 3, 0,  20, 0, 272.855560302734) /* Jump                Specialized */
-     , (13, 24, 0, 3, 0,  20, 0, 272.855560302734) /* Run                 Specialized */;
+VALUES (13,  6, 0, 3, 0,  15, 0, 0) /* MeleeDefense        Specialized */
+     , (13,  7, 0, 3, 0,  38, 0, 0) /* MissileDefense      Specialized */
+     , (13, 45, 0, 3, 0,  15, 0, 0) /* LightWeapons        Specialized */
+     , (13, 15, 0, 3, 0,  21, 0, 0) /* MagicDefense        Specialized */
+     , (13, 22, 0, 3, 0,  20, 0, 0) /* Jump                Specialized */
+     , (13, 24, 0, 3, 0,  20, 0, 0) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (13,  0,  2,  2, 0.75,    8,    8,    4,    4,    8,    3,    6,    6,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */

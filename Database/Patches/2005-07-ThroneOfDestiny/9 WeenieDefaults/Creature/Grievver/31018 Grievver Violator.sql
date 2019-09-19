@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31018;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31018, 'grievverviolatorhighyield', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (31018, 'grievverviolatorhighyield', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31018,   1,         16) /* ItemType - Creature */
@@ -98,7 +98,7 @@ VALUES (31018,   1,   700, 0, 0, 780) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (31018,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
      , (31018,  7, 0, 3, 0, 375, 0, 0) /* MissileDefense      Specialized */
-     , (31018, 13, 0, 3, 0, 380, 0, 0) /* UnarmedCombat       Specialized */
+     , (31018, 45, 0, 3, 0, 380, 0, 0) /* LightWeapons        Specialized */
      , (31018, 14, 0, 3, 0, 220, 0, 0) /* ArcaneLore          Specialized */
      , (31018, 15, 0, 3, 0, 265, 0, 0) /* MagicDefense        Specialized */
      , (31018, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
