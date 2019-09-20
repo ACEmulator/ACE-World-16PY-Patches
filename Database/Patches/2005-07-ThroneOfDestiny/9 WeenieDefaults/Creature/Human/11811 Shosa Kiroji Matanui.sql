@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11811;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11811, 'collectorbannersho', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (11811, 'collectorbannersho', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11811,   1,         16) /* ItemType - Creature */
@@ -84,9 +84,9 @@ VALUES (11811,   1,   100, 0, 0, 175) /* MaxHealth */
      , (11811,   5,    60, 0, 0, 170) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11811,  6, 0, 2, 0,   1, 0, 765.198059082031) /* MeleeDefense        Trained */
-     , (11811,  7, 0, 2, 0,   1, 0, 765.198059082031) /* MissileDefense      Trained */
-     , (11811, 45, 0, 2, 0,   1, 0, 765.198059082031) /* UnarmedCombat       Trained */;
+VALUES (11811,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */
+     , (11811,  7, 0, 2, 0,   1, 0, 0) /* MissileDefense      Trained */
+     , (11811, 45, 0, 2, 0,   1, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11811,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

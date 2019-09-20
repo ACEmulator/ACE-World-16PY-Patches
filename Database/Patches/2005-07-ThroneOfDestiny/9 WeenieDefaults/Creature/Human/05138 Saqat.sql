@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5138;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5138, 'samsursaqat', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (5138, 'samsursaqat', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5138,   1,         16) /* ItemType - Creature */
@@ -84,9 +84,9 @@ VALUES (5138,   1,    80, 0, 0, 125) /* MaxHealth */
      , (5138,   5,    40, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (5138,  6, 0, 2, 0,   1, 0, 413.747131347656) /* MeleeDefense        Trained */
-     , (5138,  7, 0, 2, 0,   1, 0, 413.747131347656) /* MissileDefense      Trained */
-     , (5138, 45, 0, 2, 0,   1, 0, 413.747131347656) /* UnarmedCombat       Trained */;
+VALUES (5138,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */
+     , (5138,  7, 0, 2, 0,   1, 0, 0) /* MissileDefense      Trained */
+     , (5138, 45, 0, 2, 0,   1, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (5138,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
