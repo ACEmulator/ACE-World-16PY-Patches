@@ -112,16 +112,12 @@ VALUES (2487,   1,    10, 0, 0, 48) /* MaxHealth */
      , (2487,   5,     0, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (2487,  1, 0, 2, 0,  50, 0, 0) /* Axe                 Trained */
-     , (2487,  2, 0, 2, 0,  50, 0, 0) /* Bow                 Trained */
-     , (2487,  3, 0, 2, 0,  50, 0, 0) /* Crossbow            Trained */
-     , (2487,  4, 0, 2, 0,  50, 0, 0) /* Dagger              Trained */
-     , (2487,  5, 0, 2, 0,  30, 0, 0) /* Mace                Trained */
+VALUES (2487, 45, 0, 2, 0,  50, 0, 0) /* LightWeapons        Trained */
+     , (2487, 47, 0, 2, 0,  50, 0, 0) /* MissileWeapons      Trained */
+     , (2487, 46, 0, 2, 0,  50, 0, 0) /* FinesseWeapons      Trained */
      , (2487,  6, 0, 2, 0,  25, 0, 0) /* MeleeDefense        Trained */
      , (2487,  7, 0, 2, 0,  25, 0, 0) /* MissileDefense      Trained */
-     , (2487, 10, 0, 2, 0,  45, 0, 0) /* Staff               Trained */
-     , (2487, 11, 0, 2, 0,  45, 0, 0) /* Sword               Trained */
-     , (2487, 13, 0, 2, 0,  90, 0, 0) /* UnarmedCombat       Trained */
+     , (2487, 44, 0, 2, 0,  45, 0, 0) /* HeavyWeapons        Trained */
      , (2487, 14, 0, 2, 0,  80, 0, 0) /* ArcaneLore          Trained */
      , (2487, 15, 0, 2, 0,  30, 0, 0) /* MagicDefense        Trained */
      , (2487, 20, 0, 2, 0,  10, 0, 0) /* Deception           Trained */

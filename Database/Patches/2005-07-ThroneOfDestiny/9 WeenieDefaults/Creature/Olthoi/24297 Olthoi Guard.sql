@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24297;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24297, 'olthoiguard', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (24297, 'olthoiguard', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24297,   1,         16) /* ItemType - Creature */
@@ -96,7 +96,7 @@ VALUES (24297,   1,   125, 0, 0, 275) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (24297,  6, 0, 3, 0, 225, 0, 1542.96325683594) /* MeleeDefense        Specialized */
      , (24297,  7, 0, 3, 0, 325, 0, 1542.96325683594) /* MissileDefense      Specialized */
-     , (24297, 13, 0, 3, 0, 210, 0, 1542.96325683594) /* UnarmedCombat       Specialized */
+     , (24297, 45, 0, 3, 0, 210, 0, 1542.96325683594) /* LightWeapons        Specialized */
      , (24297, 15, 0, 3, 0, 225, 0, 1542.96325683594) /* MagicDefense        Specialized */
      , (24297, 20, 0, 2, 0, 150, 0, 1542.96325683594) /* Deception           Trained */
      , (24297, 22, 0, 2, 0, 200, 0, 1542.96325683594) /* Jump                Trained */

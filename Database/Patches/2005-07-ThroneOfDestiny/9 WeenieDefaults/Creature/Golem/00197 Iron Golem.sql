@@ -16,8 +16,7 @@ VALUES (197,   1,         16) /* ItemType - Creature */
      , (197,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (197,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (197, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (197, 146,       7000) /* XpOverride */
-     , (197, 307,          2) /* DamageRating */;
+     , (197, 146,       7000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (197,   1, True ) /* Stuck */

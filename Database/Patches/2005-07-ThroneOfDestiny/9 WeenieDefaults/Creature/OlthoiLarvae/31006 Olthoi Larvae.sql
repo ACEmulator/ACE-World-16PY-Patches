@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31006;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31006, 'olthoilarvaehighyield', 10, '2019-07-13 00:58:48') /* Creature */;
+VALUES (31006, 'olthoilarvaehighyield', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31006,   1,         16) /* ItemType - Creature */
@@ -27,8 +27,7 @@ VALUES (31006,   1, True ) /* Stuck */
      , (31006,  13, False) /* Ethereal */
      , (31006,  14, True ) /* GravityStatus */
      , (31006,  19, True ) /* Attackable */
-     , (31006, 101, True ) /* CanGenerateRare */
-     , (31006, 102, True ) /* CorpseGeneratedRare */;
+     , (31006, 101, True ) /* CanGenerateRare */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31006,   1,       5) /* HeartbeatInterval */

@@ -21,8 +21,7 @@ VALUES (30887,   1,         16) /* ItemType - Creature */
      , (30887, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30887, 140,          1) /* AiOptions - CanOpenDoors */
      , (30887, 146,     500000) /* XpOverride */
-     , (30887, 188,          1) /* HeritageGroup - Aluvian */
-     , (30887, 307,          5) /* DamageRating */;
+     , (30887, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30887,   1, True ) /* Stuck */

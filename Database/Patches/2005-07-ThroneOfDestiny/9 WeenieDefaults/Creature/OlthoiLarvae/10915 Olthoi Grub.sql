@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10915;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10915, 'boygrubolthoigrub_xp', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (10915, 'boygrubolthoigrub_xp', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10915,   1,         16) /* ItemType - Creature */
@@ -91,13 +91,13 @@ VALUES (10915,   1,    30, 0, 0, 90) /* MaxHealth */
      , (10915,   5,     0, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (10915,  6, 0, 2, 0, 130, 0, 703.953308105469) /* MeleeDefense        Trained */
-     , (10915,  7, 0, 2, 0,  60, 0, 703.953308105469) /* MissileDefense      Trained */
-     , (10915, 13, 0, 2, 0, 120, 0, 703.953308105469) /* UnarmedCombat       Trained */
-     , (10915, 15, 0, 2, 0, 150, 0, 703.953308105469) /* MagicDefense        Trained */
-     , (10915, 20, 0, 2, 0,  50, 0, 703.953308105469) /* Deception           Trained */
-     , (10915, 22, 0, 2, 0,  50, 0, 703.953308105469) /* Jump                Trained */
-     , (10915, 24, 0, 2, 0,  30, 0, 703.953308105469) /* Run                 Trained */;
+VALUES (10915,  6, 0, 2, 0, 130, 0, 0) /* MeleeDefense        Trained */
+     , (10915,  7, 0, 2, 0,  60, 0, 0) /* MissileDefense      Trained */
+     , (10915, 45, 0, 2, 0, 120, 0, 0) /* LightWeapons        Trained */
+     , (10915, 15, 0, 2, 0, 150, 0, 0) /* MagicDefense        Trained */
+     , (10915, 20, 0, 2, 0,  50, 0, 0) /* Deception           Trained */
+     , (10915, 22, 0, 2, 0,  50, 0, 0) /* Jump                Trained */
+     , (10915, 24, 0, 2, 0,  30, 0, 0) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (10915,  0,  2, 35, 0.75,   90,   56,   72,   54,   56,   56,   29,   10,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
