@@ -10,7 +10,7 @@ VALUES (32974,   1,        256) /* ItemType - MissileWeapon */
      , (32974,  16,          1) /* ItemUseable - No */
      , (32974,  19,      10000) /* Value */
      , (32974,  44,         10) /* Damage */
-     , (32974,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
+     , (32974,  46,       1024) /* DefaultCombatStyle - Atlatl */
      , (32974,  48,         47) /* WeaponSkill - MissileWeapons */
      , (32974,  49,         50) /* WeaponTime */
      , (32974,  50,          4) /* AmmoType - Atlatl */
