@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30685;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30685, 'banderlingaggressorwithered', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (30685, 'banderlingaggressorwithered', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30685,   1,         16) /* ItemType - Creature */
@@ -93,11 +93,10 @@ VALUES (30685,   1,  2330, 0, 0, 2500) /* MaxHealth */
      , (30685,   5,     0, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (30685,  5, 0, 3, 0, 272, 0, 0) /* Mace                Specialized */
-     , (30685,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
+VALUES (30685,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
      , (30685,  7, 0, 3, 0, 436, 0, 0) /* MissileDefense      Specialized */
-     , (30685, 12, 0, 3, 0, 270, 0, 0) /* ThrownWeapon        Specialized */
-     , (30685, 13, 0, 3, 0, 272, 0, 0) /* UnarmedCombat       Specialized */
+     , (30685, 47, 0, 3, 0, 270, 0, 0) /* MissileWeapons      Specialized */
+     , (30685, 45, 0, 3, 0, 272, 0, 0) /* LightWeapons        Specialized */
      , (30685, 14, 0, 3, 0, 200, 0, 0) /* ArcaneLore          Specialized */
      , (30685, 15, 0, 3, 0, 360, 0, 0) /* MagicDefense        Specialized */
      , (30685, 20, 0, 3, 0, 140, 0, 0) /* Deception           Specialized */

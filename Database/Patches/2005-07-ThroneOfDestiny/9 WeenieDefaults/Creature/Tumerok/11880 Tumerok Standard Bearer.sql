@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11880;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11880, 'tumerokbannershreth', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (11880, 'tumerokbannershreth', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11880,   1,         16) /* ItemType - Creature */
@@ -17,8 +17,7 @@ VALUES (11880,   1,         16) /* ItemType - Creature */
      , (11880, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (11880, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11880, 140,          1) /* AiOptions - CanOpenDoors */
-     , (11880, 146,       5000) /* XpOverride */
-     , (11880, 307,          5) /* DamageRating */;
+     , (11880, 146,       5000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11880,   1, True ) /* Stuck */
@@ -93,15 +92,11 @@ VALUES (11880,   1,    50, 0, 0, 113) /* MaxHealth */
      , (11880,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11880,  1, 0, 3, 0,  90, 0, 0) /* Axe                 Specialized */
-     , (11880,  4, 0, 3, 0,  90, 0, 0) /* Dagger              Specialized */
-     , (11880,  5, 0, 3, 0,  90, 0, 0) /* Mace                Specialized */
+VALUES (11880, 45, 0, 3, 0,  90, 0, 0) /* LightWeapons        Specialized */
+     , (11880, 46, 0, 3, 0,  90, 0, 0) /* FinesseWeapons      Specialized */
      , (11880,  6, 0, 3, 0,  72, 0, 0) /* MeleeDefense        Specialized */
      , (11880,  7, 0, 3, 0, 111, 0, 0) /* MissileDefense      Specialized */
-     , (11880,  9, 0, 3, 0,  90, 0, 0) /* Spear               Specialized */
-     , (11880, 10, 0, 3, 0,  90, 0, 0) /* Staff               Specialized */
-     , (11880, 11, 0, 3, 0,  90, 0, 0) /* Sword               Specialized */
-     , (11880, 13, 0, 3, 0,  90, 0, 0) /* UnarmedCombat       Specialized */
+     , (11880, 44, 0, 3, 0,  90, 0, 0) /* HeavyWeapons        Specialized */
      , (11880, 14, 0, 2, 0, 190, 0, 0) /* ArcaneLore          Trained */
      , (11880, 15, 0, 3, 0,  84, 0, 0) /* MagicDefense        Specialized */
      , (11880, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */

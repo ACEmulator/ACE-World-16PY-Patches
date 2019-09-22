@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44886;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44886, 'ace44886-ariannatheadept', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (44886, 'ace44886-ariannatheadept', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44886,   1,         16) /* ItemType - Creature */
@@ -15,8 +15,7 @@ VALUES (44886,   1,         16) /* ItemType - Creature */
      , (44886, 113,          2) /* Gender - Female */
      , (44886, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (44886, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (44886, 188,          1) /* HeritageGroup - Aluvian */
-     , (44886, 307,          5) /* DamageRating */;
+     , (44886, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44886,   1, True ) /* Stuck */

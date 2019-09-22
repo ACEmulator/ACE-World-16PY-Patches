@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4103;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4103, 'tumeroklieutenantarcher', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (4103, 'tumeroklieutenantarcher', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4103,   1,         16) /* ItemType - Creature */
@@ -17,8 +17,7 @@ VALUES (4103,   1,         16) /* ItemType - Creature */
      , (4103, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (4103, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4103, 140,          1) /* AiOptions - CanOpenDoors */
-     , (4103, 146,      10000) /* XpOverride */
-     , (4103, 307,          5) /* DamageRating */;
+     , (4103, 146,      10000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4103,   1, True ) /* Stuck */
@@ -101,16 +100,12 @@ VALUES (4103,   1,    60, 0, 0, 110) /* MaxHealth */
      , (4103,   5,     0, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (4103,  1, 0, 3, 0, 115, 0, 0) /* Axe                 Specialized */
-     , (4103,  2, 0, 3, 0, 110, 0, 0) /* Bow                 Specialized */
-     , (4103,  3, 0, 3, 0, 110, 0, 0) /* Crossbow            Specialized */
-     , (4103,  4, 0, 3, 0, 100, 0, 0) /* Dagger              Specialized */
-     , (4103,  5, 0, 3, 0, 115, 0, 0) /* Mace                Specialized */
+VALUES (4103, 45, 0, 3, 0, 115, 0, 0) /* LightWeapons        Specialized */
+     , (4103, 47, 0, 3, 0, 110, 0, 0) /* MissileWeapons      Specialized */
+     , (4103, 46, 0, 3, 0, 100, 0, 0) /* FinesseWeapons      Specialized */
      , (4103,  6, 0, 3, 0, 120, 0, 0) /* MeleeDefense        Specialized */
      , (4103,  7, 0, 3, 0, 230, 0, 0) /* MissileDefense      Specialized */
-     , (4103,  9, 0, 3, 0, 115, 0, 0) /* Spear               Specialized */
-     , (4103, 11, 0, 3, 0, 115, 0, 0) /* Sword               Specialized */
-     , (4103, 13, 0, 3, 0, 115, 0, 0) /* UnarmedCombat       Specialized */
+     , (4103, 44, 0, 3, 0, 115, 0, 0) /* HeavyWeapons        Specialized */
      , (4103, 14, 0, 2, 0, 250, 0, 0) /* ArcaneLore          Trained */
      , (4103, 15, 0, 3, 0, 140, 0, 0) /* MagicDefense        Specialized */
      , (4103, 20, 0, 2, 0,  30, 0, 0) /* Deception           Trained */

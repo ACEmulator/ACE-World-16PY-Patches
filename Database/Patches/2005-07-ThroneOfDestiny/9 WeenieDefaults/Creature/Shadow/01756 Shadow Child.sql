@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1756;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1756, 'shadowchild', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (1756, 'shadowchild', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1756,   1,         16) /* ItemType - Creature */
@@ -20,8 +20,7 @@ VALUES (1756,   1,         16) /* ItemType - Creature */
      , (1756, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1756, 140,          1) /* AiOptions - CanOpenDoors */
      , (1756, 146,       2000) /* XpOverride */
-     , (1756, 188,          1) /* HeritageGroup - Aluvian */
-     , (1756, 307,          5) /* DamageRating */;
+     , (1756, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1756,   1, True ) /* Stuck */
@@ -123,23 +122,18 @@ VALUES (1756,   1,    40, 0, 0, 75) /* MaxHealth */
      , (1756,   5,    60, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1756,  1, 0, 3, 0,  70, 0, 313.181365966797) /* Axe                 Specialized */
-     , (1756,  2, 0, 3, 0,  90, 0, 313.181365966797) /* Bow                 Specialized */
-     , (1756,  3, 0, 3, 0,  90, 0, 313.181365966797) /* Crossbow            Specialized */
-     , (1756,  4, 0, 3, 0,  70, 0, 313.181365966797) /* Dagger              Specialized */
-     , (1756,  5, 0, 3, 0,  70, 0, 313.181365966797) /* Mace                Specialized */
-     , (1756,  6, 0, 3, 0,  72, 0, 313.181365966797) /* MeleeDefense        Specialized */
-     , (1756,  7, 0, 3, 0, 104, 0, 313.181365966797) /* MissileDefense      Specialized */
-     , (1756,  9, 0, 3, 0,  70, 0, 313.181365966797) /* Spear               Specialized */
-     , (1756, 10, 0, 3, 0,  70, 0, 313.181365966797) /* Staff               Specialized */
-     , (1756, 11, 0, 3, 0,  70, 0, 313.181365966797) /* Sword               Specialized */
-     , (1756, 13, 0, 3, 0,  70, 0, 313.181365966797) /* UnarmedCombat       Specialized */
-     , (1756, 14, 0, 3, 0, 180, 0, 313.181365966797) /* ArcaneLore          Specialized */
-     , (1756, 15, 0, 3, 0,  84, 0, 313.181365966797) /* MagicDefense        Specialized */
-     , (1756, 20, 0, 3, 0, 150, 0, 313.181365966797) /* Deception           Specialized */
-     , (1756, 31, 0, 3, 0,  64, 0, 313.181365966797) /* CreatureEnchantment Specialized */
-     , (1756, 33, 0, 3, 0,  64, 0, 313.181365966797) /* LifeMagic           Specialized */
-     , (1756, 34, 0, 3, 0,  64, 0, 313.181365966797) /* WarMagic            Specialized */;
+VALUES (1756, 45, 0, 3, 0,  70, 0, 0) /* LightWeapons        Specialized */
+     , (1756, 47, 0, 3, 0,  90, 0, 0) /* MissileWeapons      Specialized */
+     , (1756, 46, 0, 3, 0,  70, 0, 0) /* FinesseWeapons      Specialized */
+     , (1756,  6, 0, 3, 0,  72, 0, 0) /* MeleeDefense        Specialized */
+     , (1756,  7, 0, 3, 0, 104, 0, 0) /* MissileDefense      Specialized */
+     , (1756, 44, 0, 3, 0,  70, 0, 0) /* HeavyWeapons        Specialized */
+     , (1756, 14, 0, 3, 0, 180, 0, 0) /* ArcaneLore          Specialized */
+     , (1756, 15, 0, 3, 0,  84, 0, 0) /* MagicDefense        Specialized */
+     , (1756, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
+     , (1756, 31, 0, 3, 0,  64, 0, 0) /* CreatureEnchantment Specialized */
+     , (1756, 33, 0, 3, 0,  64, 0, 0) /* LifeMagic           Specialized */
+     , (1756, 34, 0, 3, 0,  64, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1756,  0,  4,  0,    0,   80,   80,   49,   59,   24,   80,   30,   49,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

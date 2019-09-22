@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12274;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12274, 'lugiantiatussingular', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (12274, 'lugiantiatussingular', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12274,   1,         16) /* ItemType - Creature */
@@ -19,8 +19,7 @@ VALUES (12274,   1,         16) /* ItemType - Creature */
      , (12274, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (12274, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12274, 140,          1) /* AiOptions - CanOpenDoors */
-     , (12274, 146,     125000) /* XpOverride */
-     , (12274, 307,          5) /* DamageRating */;
+     , (12274, 146,     125000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12274,   1, True ) /* Stuck */
@@ -95,11 +94,10 @@ VALUES (12274,   1,   290, 0, 0, 450) /* MaxHealth */
      , (12274,   5,     0, 0, 0, 220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (12274,  1, 0, 2, 0, 140, 0, 800.124633789063) /* Axe                 Trained */
-     , (12274,  6, 0, 2, 0, 140, 0, 800.124633789063) /* MeleeDefense        Trained */
+VALUES (12274,  6, 0, 2, 0, 140, 0, 800.124633789063) /* MeleeDefense        Trained */
      , (12274,  7, 0, 2, 0, 200, 0, 800.124633789063) /* MissileDefense      Trained */
-     , (12274, 12, 0, 2, 0, 180, 0, 800.124633789063) /* ThrownWeapon        Trained */
-     , (12274, 13, 0, 2, 0, 140, 0, 800.124633789063) /* UnarmedCombat       Trained */
+     , (12274, 47, 0, 2, 0, 180, 0, 800.124633789063) /* MissileWeapons      Trained */
+     , (12274, 45, 0, 2, 0, 140, 0, 800.124633789063) /* LightWeapons        Trained */
      , (12274, 15, 0, 3, 0, 999, 0, 800.124633789063) /* MagicDefense        Specialized */
      , (12274, 20, 0, 2, 0,  80, 0, 800.124633789063) /* Deception           Trained */
      , (12274, 22, 0, 2, 0,  80, 0, 800.124633789063) /* Jump                Trained */

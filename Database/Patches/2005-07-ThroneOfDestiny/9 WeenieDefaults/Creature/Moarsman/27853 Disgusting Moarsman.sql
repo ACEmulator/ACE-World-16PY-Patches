@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27853;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27853, 'moarsmandisgusting', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (27853, 'moarsmandisgusting', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27853,   1,         16) /* ItemType - Creature */
@@ -95,8 +95,8 @@ VALUES (27853,   1,   200, 0, 0, 275) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (27853,  6, 0, 3, 0, 205, 0, 0) /* MeleeDefense        Specialized */
      , (27853,  7, 0, 3, 0, 347, 0, 0) /* MissileDefense      Specialized */
-     , (27853, 11, 0, 3, 0, 220, 0, 0) /* Sword               Specialized */
-     , (27853, 13, 0, 3, 0, 220, 0, 0) /* UnarmedCombat       Specialized */
+     , (27853, 44, 0, 3, 0, 220, 0, 0) /* HeavyWeapons        Specialized */
+     , (27853, 45, 0, 3, 0, 220, 0, 0) /* LightWeapons        Specialized */
      , (27853, 14, 0, 2, 0, 200, 0, 0) /* ArcaneLore          Trained */
      , (27853, 15, 0, 3, 0, 200, 0, 0) /* MagicDefense        Specialized */
      , (27853, 20, 0, 2, 0, 120, 0, 0) /* Deception           Trained */

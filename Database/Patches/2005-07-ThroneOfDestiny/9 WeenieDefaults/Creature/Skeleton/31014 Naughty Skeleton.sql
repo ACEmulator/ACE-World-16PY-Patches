@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31014;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31014, 'skeletonnaughtyhighyield', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (31014, 'skeletonnaughtyhighyield', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31014,   1,         16) /* ItemType - Creature */
@@ -102,17 +102,13 @@ VALUES (31014,   1,  2300, 0, 0, 0) /* MaxHealth */
      , (31014,   5,  2700, 0, 0, 0) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (31014,  1, 0, 3, 0, 345, 0, 0) /* Axe                 Specialized */
-     , (31014,  2, 0, 3, 0, 185, 0, 0) /* Bow                 Specialized */
-     , (31014,  3, 0, 3, 0, 185, 0, 0) /* Crossbow            Specialized */
-     , (31014,  4, 0, 3, 0, 280, 0, 0) /* Dagger              Specialized */
-     , (31014,  5, 0, 3, 0, 345, 0, 0) /* Mace                Specialized */
+VALUES (31014, 45, 0, 3, 0, 345, 0, 0) /* LightWeapons        Specialized */
+     , (31014, 47, 0, 3, 0, 185, 0, 0) /* MissileWeapons      Specialized */
+     , (31014, 46, 0, 3, 0, 280, 0, 0) /* FinesseWeapons      Specialized */
      , (31014,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (31014,  7, 0, 3, 0, 477, 0, 0) /* MissileDefense      Specialized */
-     , (31014,  9, 0, 3, 0, 345, 0, 0) /* Spear               Specialized */
-     , (31014, 10, 0, 3, 0, 345, 0, 0) /* Staff               Specialized */
-     , (31014, 11, 0, 3, 0, 345, 0, 0) /* Sword               Specialized */
-     , (31014, 13, 0, 3, 0, 345, 0, 0) /* UnarmedCombat       Specialized */
+     , (31014, 44, 0, 3, 0, 345, 0, 0) /* HeavyWeapons        Specialized */
+     , (31014, 48, 0, 3, 0, 345, 0, 0) /* Shield              Specialized */
      , (31014, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
      , (31014, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
      , (31014, 33, 0, 3, 0, 260, 0, 0) /* LifeMagic           Specialized */

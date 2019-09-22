@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35273;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35273, 'ace35273-towerguardian', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (35273, 'ace35273-towerguardian', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35273,   1,         16) /* ItemType - Creature */
@@ -17,8 +17,7 @@ VALUES (35273,   1,         16) /* ItemType - Creature */
      , (35273,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35273, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (35273, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35273, 146,   86000000) /* XpOverride */
-     , (35273, 307,          5) /* DamageRating */;
+     , (35273, 146,   86000000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35273,   1, True ) /* Stuck */

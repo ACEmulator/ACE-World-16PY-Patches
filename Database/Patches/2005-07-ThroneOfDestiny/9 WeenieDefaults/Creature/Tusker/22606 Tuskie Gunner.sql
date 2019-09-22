@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22606;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22606, 'tuskiegunner_nofall', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (22606, 'tuskiegunner_nofall', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22606,   1,         16) /* ItemType - Creature */
@@ -16,8 +16,7 @@ VALUES (22606,   1,         16) /* ItemType - Creature */
      , (22606,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (22606,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (22606, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (22606, 146,      30000) /* XpOverride */
-     , (22606, 307,          5) /* DamageRating */;
+     , (22606, 146,      30000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22606,   1, True ) /* Stuck */
@@ -90,8 +89,8 @@ VALUES (22606,   1,   105, 0, 0, 200) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (22606,  6, 0, 3, 0, 230, 0, 0) /* MeleeDefense        Specialized */
      , (22606,  7, 0, 3, 0, 325, 0, 0) /* MissileDefense      Specialized */
-     , (22606, 12, 0, 3, 0, 200, 0, 0) /* ThrownWeapon        Specialized */
-     , (22606, 13, 0, 3, 0, 200, 0, 0) /* UnarmedCombat       Specialized */
+     , (22606, 47, 0, 3, 0, 200, 0, 0) /* MissileWeapons      Specialized */
+     , (22606, 45, 0, 3, 0, 200, 0, 0) /* LightWeapons        Specialized */
      , (22606, 15, 0, 3, 0, 235, 0, 0) /* MagicDefense        Specialized */
      , (22606, 20, 0, 3, 0,  25, 0, 0) /* Deception           Specialized */
      , (22606, 22, 0, 3, 0, 115, 0, 0) /* Jump                Specialized */

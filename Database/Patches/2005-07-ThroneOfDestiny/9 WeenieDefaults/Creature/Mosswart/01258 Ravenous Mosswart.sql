@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1258;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1258, 'mosswartfeedergreenmire', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (1258, 'mosswartfeedergreenmire', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1258,   1,         16) /* ItemType - Creature */
@@ -100,17 +100,12 @@ VALUES (1258,   1,    30, 0, 0, 75) /* MaxHealth */
      , (1258,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1258,  1, 0, 3, 0,  80, 0, 0) /* Axe                 Specialized */
-     , (1258,  2, 0, 3, 0,  40, 0, 0) /* Bow                 Specialized */
-     , (1258,  3, 0, 3, 0,  40, 0, 0) /* Crossbow            Specialized */
-     , (1258,  4, 0, 3, 0,  55, 0, 0) /* Dagger              Specialized */
-     , (1258,  5, 0, 3, 0,  80, 0, 0) /* Mace                Specialized */
+VALUES (1258, 45, 0, 3, 0,  80, 0, 0) /* LightWeapons        Specialized */
+     , (1258, 47, 0, 3, 0,  40, 0, 0) /* MissileWeapons      Specialized */
+     , (1258, 46, 0, 3, 0,  55, 0, 0) /* FinesseWeapons      Specialized */
      , (1258,  6, 0, 3, 0,  58, 0, 0) /* MeleeDefense        Specialized */
      , (1258,  7, 0, 3, 0,  66, 0, 0) /* MissileDefense      Specialized */
-     , (1258,  9, 0, 3, 0,  80, 0, 0) /* Spear               Specialized */
-     , (1258, 10, 0, 3, 0,  80, 0, 0) /* Staff               Specialized */
-     , (1258, 11, 0, 3, 0,  80, 0, 0) /* Sword               Specialized */
-     , (1258, 13, 0, 3, 0,  80, 0, 0) /* UnarmedCombat       Specialized */
+     , (1258, 44, 0, 3, 0,  80, 0, 0) /* HeavyWeapons        Specialized */
      , (1258, 15, 0, 3, 0,  55, 0, 0) /* MagicDefense        Specialized */
      , (1258, 20, 0, 2, 0,  60, 0, 0) /* Deception           Trained */
      , (1258, 24, 0, 2, 0,  40, 0, 0) /* Run                 Trained */;

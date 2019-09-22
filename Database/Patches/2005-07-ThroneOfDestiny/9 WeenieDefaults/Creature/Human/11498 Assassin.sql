@@ -395,11 +395,11 @@ VALUES (11498,   1,   117, 0, 0, 180) /* MaxHealth */
      , (11498,   5,     0, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11498,  2, 0, 3, 0, 110, 0, 747.685119628906) /* Bow                 Specialized */
-     , (11498,  4, 0, 3, 0, 175, 0, 747.685119628906) /* Dagger              Specialized */
+VALUES (11498,  2, 0, 3, 0, 110, 0, 747.685119628906) /* MissileWeapons      Specialized */
+     , (11498,  4, 0, 3, 0, 175, 0, 747.685119628906) /* FinesseWeapons      Specialized */
      , (11498,  6, 0, 3, 0, 253, 0, 747.685119628906) /* MeleeDefense        Specialized */
      , (11498,  7, 0, 3, 0, 350, 0, 747.685119628906) /* MissileDefense      Specialized */
-     , (11498, 11, 0, 3, 0, 175, 0, 747.685119628906) /* Sword               Specialized */
+     , (11498, 11, 0, 3, 0, 175, 0, 747.685119628906) /* HeavyWeapons        Specialized */
      , (11498, 15, 0, 3, 0, 255, 0, 747.685119628906) /* MagicDefense        Specialized */
      , (11498, 20, 0, 3, 0, 150, 0, 747.685119628906) /* Deception           Specialized */
      , (11498, 24, 0, 3, 0,  20, 0, 747.685119628906) /* Run                 Specialized */;

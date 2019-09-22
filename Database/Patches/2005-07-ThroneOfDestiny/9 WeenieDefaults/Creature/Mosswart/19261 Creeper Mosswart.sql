@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19261;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19261, 'mosswartcreeper_noaggro', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (19261, 'mosswartcreeper_noaggro', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19261,   1,         16) /* ItemType - Creature */
@@ -19,8 +19,7 @@ VALUES (19261,   1,         16) /* ItemType - Creature */
      , (19261, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (19261, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19261, 140,          1) /* AiOptions - CanOpenDoors */
-     , (19261, 146,       1000) /* XpOverride */
-     , (19261, 307,          5) /* DamageRating */;
+     , (19261, 146,       1000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19261,   1, True ) /* Stuck */
@@ -99,22 +98,16 @@ VALUES (19261,   1,     2, 0, 0, 47) /* MaxHealth */
      , (19261,   5,     0, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (19261,  1, 0, 3, 0,  35, 0, 1112.77563476563) /* Axe                 Specialized */
-     , (19261,  2, 0, 3, 0,  45, 0, 1112.77563476563) /* Bow                 Specialized */
-     , (19261,  3, 0, 3, 0,  45, 0, 1112.77563476563) /* Crossbow            Specialized */
-     , (19261,  4, 0, 3, 0,  35, 0, 1112.77563476563) /* Dagger              Specialized */
-     , (19261,  5, 0, 3, 0,  35, 0, 1112.77563476563) /* Mace                Specialized */
-     , (19261,  6, 0, 3, 0,  34, 0, 1112.77563476563) /* MeleeDefense        Specialized */
-     , (19261,  7, 0, 3, 0,  52, 0, 1112.77563476563) /* MissileDefense      Specialized */
-     , (19261,  9, 0, 3, 0,  35, 0, 1112.77563476563) /* Spear               Specialized */
-     , (19261, 10, 0, 3, 0,  35, 0, 1112.77563476563) /* Staff               Specialized */
-     , (19261, 11, 0, 3, 0,  35, 0, 1112.77563476563) /* Sword               Specialized */
-     , (19261, 12, 0, 3, 0,  45, 0, 1112.77563476563) /* ThrownWeapon        Specialized */
-     , (19261, 13, 0, 3, 0,  35, 0, 1112.77563476563) /* UnarmedCombat       Specialized */
-     , (19261, 14, 0, 3, 0,  40, 0, 1112.77563476563) /* ArcaneLore          Specialized */
-     , (19261, 15, 0, 3, 0,  34, 0, 1112.77563476563) /* MagicDefense        Specialized */
-     , (19261, 20, 0, 3, 0,  40, 0, 1112.77563476563) /* Deception           Specialized */
-     , (19261, 24, 0, 3, 0,  40, 0, 1112.77563476563) /* Run                 Specialized */;
+VALUES (19261, 45, 0, 3, 0,  35, 0, 0) /* LightWeapons        Specialized */
+     , (19261, 47, 0, 3, 0,  45, 0, 0) /* MissileWeapons      Specialized */
+     , (19261, 46, 0, 3, 0,  35, 0, 0) /* FinesseWeapons      Specialized */
+     , (19261,  6, 0, 3, 0,  34, 0, 0) /* MeleeDefense        Specialized */
+     , (19261,  7, 0, 3, 0,  52, 0, 0) /* MissileDefense      Specialized */
+     , (19261, 44, 0, 3, 0,  35, 0, 0) /* HeavyWeapons        Specialized */
+     , (19261, 14, 0, 3, 0,  40, 0, 0) /* ArcaneLore          Specialized */
+     , (19261, 15, 0, 3, 0,  34, 0, 0) /* MagicDefense        Specialized */
+     , (19261, 20, 0, 3, 0,  40, 0, 0) /* Deception           Specialized */
+     , (19261, 24, 0, 3, 0,  40, 0, 0) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (19261,  0,  4,  0,    0,   20,    4,    0,    0,    7,    8,   12,   14,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

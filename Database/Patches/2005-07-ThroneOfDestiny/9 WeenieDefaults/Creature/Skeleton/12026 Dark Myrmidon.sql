@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12026;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12026, 'skeletonhighbossmonster', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (12026, 'skeletonhighbossmonster', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12026,   1,         16) /* ItemType - Creature */
@@ -21,8 +21,7 @@ VALUES (12026,   1,         16) /* ItemType - Creature */
      , (12026, 103,          1) /* GeneratorDestructionType - Nothing */
      , (12026, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12026, 140,          1) /* AiOptions - CanOpenDoors */
-     , (12026, 146,      30000) /* XpOverride */
-     , (12026, 307,          5) /* DamageRating */;
+     , (12026, 146,      30000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12026,   1, True ) /* Stuck */
@@ -102,17 +101,12 @@ VALUES (12026,   1,   300, 0, 0, 450) /* MaxHealth */
      , (12026,   5,   240, 0, 0, 540) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (12026,  1, 0, 3, 0, 200, 0, 0) /* Axe                 Specialized */
-     , (12026,  2, 0, 3, 0, 230, 0, 0) /* Bow                 Specialized */
-     , (12026,  3, 0, 3, 0, 230, 0, 0) /* Crossbow            Specialized */
-     , (12026,  4, 0, 3, 0, 160, 0, 0) /* Dagger              Specialized */
-     , (12026,  5, 0, 3, 0, 200, 0, 0) /* Mace                Specialized */
+VALUES (12026, 45, 0, 3, 0, 200, 0, 0) /* LightWeapons        Specialized */
+     , (12026, 47, 0, 3, 0, 230, 0, 0) /* MissileWeapons      Specialized */
+     , (12026, 46, 0, 3, 0, 160, 0, 0) /* FinesseWeapons      Specialized */
      , (12026,  6, 0, 3, 0, 175, 0, 0) /* MeleeDefense        Specialized */
      , (12026,  7, 0, 3, 0, 310, 0, 0) /* MissileDefense      Specialized */
-     , (12026,  9, 0, 3, 0, 200, 0, 0) /* Spear               Specialized */
-     , (12026, 10, 0, 3, 0, 200, 0, 0) /* Staff               Specialized */
-     , (12026, 11, 0, 3, 0, 200, 0, 0) /* Sword               Specialized */
-     , (12026, 13, 0, 3, 0, 200, 0, 0) /* UnarmedCombat       Specialized */
+     , (12026, 44, 0, 3, 0, 200, 0, 0) /* HeavyWeapons        Specialized */
      , (12026, 15, 0, 3, 0, 180, 0, 0) /* MagicDefense        Specialized */
      , (12026, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
      , (12026, 33, 0, 3, 0, 120, 0, 0) /* LifeMagic           Specialized */;

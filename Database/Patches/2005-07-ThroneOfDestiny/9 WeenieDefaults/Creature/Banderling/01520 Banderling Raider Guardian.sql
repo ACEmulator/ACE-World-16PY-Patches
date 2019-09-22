@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1520;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1520, 'banderlingcolier', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (1520, 'banderlingcolier', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1520,   1,         16) /* ItemType - Creature */
@@ -103,15 +103,13 @@ VALUES (1520,   1,    40, 0, 0, 83) /* MaxHealth */
      , (1520,   5,     0, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1520,  6, 0, 2, 0,  40, 0, 307.515899658203) /* MeleeDefense        Trained */
-     , (1520,  7, 0, 2, 0,  40, 0, 307.515899658203) /* MissileDefense      Trained */
-     , (1520,  9, 0, 2, 0,  50, 0, 307.515899658203) /* Spear               Trained */
-     , (1520, 10, 0, 2, 0,  50, 0, 307.515899658203) /* Staff               Trained */
-     , (1520, 12, 0, 2, 0,  25, 0, 307.515899658203) /* ThrownWeapon        Trained */
-     , (1520, 13, 0, 2, 0,  50, 0, 307.515899658203) /* UnarmedCombat       Trained */
-     , (1520, 15, 0, 2, 0,  40, 0, 307.515899658203) /* MagicDefense        Trained */
-     , (1520, 22, 0, 3, 0,  50, 0, 307.515899658203) /* Jump                Specialized */
-     , (1520, 24, 0, 2, 0,  50, 0, 307.515899658203) /* Run                 Trained */;
+VALUES (1520,  6, 0, 2, 0,  40, 0, 0) /* MeleeDefense        Trained */
+     , (1520,  7, 0, 2, 0,  40, 0, 0) /* MissileDefense      Trained */
+     , (1520, 47, 0, 2, 0,  25, 0, 0) /* MissileWeapons      Trained */
+     , (1520, 45, 0, 2, 0,  50, 0, 0) /* LightWeapons        Trained */
+     , (1520, 15, 0, 2, 0,  40, 0, 0) /* MagicDefense        Trained */
+     , (1520, 22, 0, 3, 0,  50, 0, 0) /* Jump                Specialized */
+     , (1520, 24, 0, 2, 0,  50, 0, 0) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1520,  0,  4,  0,    0,   50,   18,    8,   16,   18,   35,    8,   30,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

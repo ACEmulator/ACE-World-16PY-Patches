@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 227;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (227, 'tumerokgladiator', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (227, 'tumerokgladiator', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (227,   1,         16) /* ItemType - Creature */
@@ -95,17 +95,13 @@ VALUES (227,   1,   140, 0, 0, 223) /* MaxHealth */
      , (227,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (227,  1, 0, 3, 0, 235, 0, 0) /* Axe                 Specialized */
-     , (227,  2, 0, 3, 0, 150, 0, 0) /* Bow                 Specialized */
-     , (227,  3, 0, 3, 0, 150, 0, 0) /* Crossbow            Specialized */
-     , (227,  4, 0, 3, 0, 120, 0, 0) /* Dagger              Specialized */
-     , (227,  5, 0, 3, 0, 235, 0, 0) /* Mace                Specialized */
+VALUES (227, 45, 0, 3, 0, 235, 0, 0) /* LightWeapons        Specialized */
+     , (227, 47, 0, 3, 0, 150, 0, 0) /* MissileWeapons      Specialized */
+     , (227, 46, 0, 3, 0, 120, 0, 0) /* FinesseWeapons      Specialized */
      , (227,  6, 0, 3, 0, 215, 0, 0) /* MeleeDefense        Specialized */
      , (227,  7, 0, 3, 0, 310, 0, 0) /* MissileDefense      Specialized */
-     , (227,  9, 0, 3, 0, 235, 0, 0) /* Spear               Specialized */
-     , (227, 10, 0, 3, 0, 235, 0, 0) /* Staff               Specialized */
-     , (227, 11, 0, 3, 0, 235, 0, 0) /* Sword               Specialized */
-     , (227, 13, 0, 3, 0, 235, 0, 0) /* UnarmedCombat       Specialized */
+     , (227, 44, 0, 3, 0, 235, 0, 0) /* HeavyWeapons        Specialized */
+     , (227, 48, 0, 3, 0, 235, 0, 0) /* Shield              Specialized */
      , (227, 15, 0, 3, 0, 200, 0, 0) /* MagicDefense        Specialized */
      , (227, 20, 0, 2, 0,   5, 0, 0) /* Deception           Trained */
      , (227, 24, 0, 2, 0,  50, 0, 0) /* Run                 Trained */;

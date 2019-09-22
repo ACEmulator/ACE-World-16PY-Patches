@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24286;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24286, 'lugiantitan', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (24286, 'lugiantitan', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24286,   1,         16) /* ItemType - Creature */
@@ -93,12 +93,10 @@ VALUES (24286,   1,   400, 0, 0, 565) /* MaxHealth */
      , (24286,   5,     0, 0, 0, 220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24286,  1, 0, 3, 0, 350, 0, 0) /* Axe                 Specialized */
-     , (24286,  5, 0, 3, 0, 350, 0, 0) /* Mace                Specialized */
-     , (24286,  6, 0, 3, 0, 360, 0, 0) /* MeleeDefense        Specialized */
+VALUES (24286,  6, 0, 3, 0, 360, 0, 0) /* MeleeDefense        Specialized */
      , (24286,  7, 0, 3, 0, 450, 0, 0) /* MissileDefense      Specialized */
-     , (24286, 12, 0, 3, 0, 185, 0, 0) /* ThrownWeapon        Specialized */
-     , (24286, 13, 0, 3, 0, 350, 0, 0) /* UnarmedCombat       Specialized */
+     , (24286, 47, 0, 3, 0, 185, 0, 0) /* MissileWeapons      Specialized */
+     , (24286, 45, 0, 3, 0, 350, 0, 0) /* LightWeapons        Specialized */
      , (24286, 15, 0, 3, 0, 315, 0, 0) /* MagicDefense        Specialized */
      , (24286, 20, 0, 2, 0,  80, 0, 0) /* Deception           Trained */
      , (24286, 22, 0, 2, 0,  80, 0, 0) /* Jump                Trained */

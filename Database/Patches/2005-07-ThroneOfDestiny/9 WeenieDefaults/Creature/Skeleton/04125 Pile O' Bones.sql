@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4125;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4125, 'skeletonpileobones', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (4125, 'skeletonpileobones', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4125,   1,         16) /* ItemType - Creature */
@@ -114,17 +114,12 @@ VALUES (4125,   1,     0, 0, 0, 33) /* MaxHealth */
      , (4125,   5,     0, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (4125,  1, 0, 2, 0,  40, 0, 380.774383544922) /* Axe                 Trained */
-     , (4125,  2, 0, 3, 0,  50, 0, 380.774383544922) /* Bow                 Specialized */
-     , (4125,  3, 0, 3, 0,  50, 0, 380.774383544922) /* Crossbow            Specialized */
-     , (4125,  4, 0, 3, 0,  50, 0, 380.774383544922) /* Dagger              Specialized */
-     , (4125,  5, 0, 2, 0,  55, 0, 380.774383544922) /* Mace                Trained */
+VALUES (4125, 45, 0, 2, 0,  40, 0, 380.774383544922) /* LightWeapons        Trained */
+     , (4125, 47, 0, 3, 0,  50, 0, 380.774383544922) /* MissileWeapons      Specialized */
+     , (4125, 46, 0, 3, 0,  50, 0, 380.774383544922) /* FinesseWeapons      Specialized */
      , (4125,  6, 0, 2, 0,  50, 0, 380.774383544922) /* MeleeDefense        Trained */
      , (4125,  7, 0, 2, 0,  80, 0, 380.774383544922) /* MissileDefense      Trained */
-     , (4125,  9, 0, 2, 0,  40, 0, 380.774383544922) /* Spear               Trained */
-     , (4125, 10, 0, 2, 0,  55, 0, 380.774383544922) /* Staff               Trained */
-     , (4125, 11, 0, 3, 0,  50, 0, 380.774383544922) /* Sword               Specialized */
-     , (4125, 13, 0, 2, 0,  80, 0, 380.774383544922) /* UnarmedCombat       Trained */
+     , (4125, 44, 0, 3, 0,  50, 0, 380.774383544922) /* HeavyWeapons        Specialized */
      , (4125, 15, 0, 2, 0,  70, 0, 380.774383544922) /* MagicDefense        Trained */
      , (4125, 20, 0, 3, 0,  70, 0, 380.774383544922) /* Deception           Specialized */;
 

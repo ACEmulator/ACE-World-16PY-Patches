@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31002;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31002, 'lugiantukoraliuetenanthighyield', 10, '2019-04-08 23:21:20') /* Creature */;
+VALUES (31002, 'lugiantukoraliuetenanthighyield', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31002,   1,         16) /* ItemType - Creature */
@@ -18,8 +18,7 @@ VALUES (31002,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31002,   1, True ) /* Stuck */
-     , (31002, 101, True ) /* CanGenerateRare */
-     , (31002, 102, True ) /* CorpseGeneratedRare */;
+     , (31002, 101, True ) /* CanGenerateRare */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31002,   1,       5) /* HeartbeatInterval */
@@ -86,12 +85,10 @@ VALUES (31002,   1,  4500, 0, 0, 4670) /* MaxHealth */
      , (31002,   5,     0, 0, 0, 240) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (31002,  1, 0, 3, 0, 378, 0, 0) /* Axe                 Specialized */
-     , (31002,  5, 0, 3, 0, 378, 0, 0) /* Mace                Specialized */
-     , (31002,  6, 0, 3, 0, 440, 0, 0) /* MeleeDefense        Specialized */
+VALUES (31002,  6, 0, 3, 0, 440, 0, 0) /* MeleeDefense        Specialized */
      , (31002,  7, 0, 3, 0, 463, 0, 0) /* MissileDefense      Specialized */
-     , (31002, 12, 0, 3, 0, 305, 0, 0) /* ThrownWeapon        Specialized */
-     , (31002, 13, 0, 3, 0, 378, 0, 0) /* UnarmedCombat       Specialized */
+     , (31002, 47, 0, 3, 0, 305, 0, 0) /* MissileWeapons      Specialized */
+     , (31002, 45, 0, 3, 0, 378, 0, 0) /* LightWeapons        Specialized */
      , (31002, 15, 0, 3, 0, 375, 0, 0) /* MagicDefense        Specialized */
      , (31002, 20, 0, 2, 0,  45, 0, 0) /* Deception           Trained */
      , (31002, 22, 0, 2, 0, 180, 0, 0) /* Jump                Trained */

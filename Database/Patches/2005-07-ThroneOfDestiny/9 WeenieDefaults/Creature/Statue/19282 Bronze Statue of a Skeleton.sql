@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19282;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (19282, 'statuereplicahighskeletonsmall', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (19282, 'statuereplicahighskeletonsmall', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19282,   1,         16) /* ItemType - Creature */
@@ -18,8 +18,7 @@ VALUES (19282,   1,         16) /* ItemType - Creature */
      , (19282, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (19282, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19282, 140,          1) /* AiOptions - CanOpenDoors */
-     , (19282, 146,      80000) /* XpOverride */
-     , (19282, 307,          5) /* DamageRating */;
+     , (19282, 146,      80000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19282,   1, True ) /* Stuck */
@@ -103,17 +102,12 @@ VALUES (19282,   1,   130, 0, 0, 230) /* MaxHealth */
      , (19282,   5,   100, 0, 0, 320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (19282,  1, 0, 2, 0, 140, 0, 0) /* Axe                 Trained */
-     , (19282,  2, 0, 3, 0, 170, 0, 0) /* Bow                 Specialized */
-     , (19282,  3, 0, 2, 0, 170, 0, 0) /* Crossbow            Trained */
-     , (19282,  4, 0, 2, 0, 140, 0, 0) /* Dagger              Trained */
-     , (19282,  5, 0, 3, 0, 140, 0, 0) /* Mace                Specialized */
+VALUES (19282, 45, 0, 2, 0, 140, 0, 0) /* LightWeapons        Trained */
+     , (19282, 47, 0, 3, 0, 170, 0, 0) /* MissileWeapons      Specialized */
+     , (19282, 46, 0, 2, 0, 140, 0, 0) /* FinesseWeapons      Trained */
      , (19282,  6, 0, 2, 0, 140, 0, 0) /* MeleeDefense        Trained */
      , (19282,  7, 0, 2, 0, 170, 0, 0) /* MissileDefense      Trained */
-     , (19282,  9, 0, 2, 0, 140, 0, 0) /* Spear               Trained */
-     , (19282, 10, 0, 2, 0, 140, 0, 0) /* Staff               Trained */
-     , (19282, 11, 0, 3, 0, 140, 0, 0) /* Sword               Specialized */
-     , (19282, 13, 0, 2, 0, 140, 0, 0) /* UnarmedCombat       Trained */
+     , (19282, 44, 0, 3, 0, 140, 0, 0) /* HeavyWeapons        Specialized */
      , (19282, 14, 0, 3, 0, 200, 0, 0) /* ArcaneLore          Specialized */
      , (19282, 15, 0, 2, 0, 160, 0, 0) /* MagicDefense        Trained */
      , (19282, 20, 0, 2, 0, 120, 0, 0) /* Deception           Trained */

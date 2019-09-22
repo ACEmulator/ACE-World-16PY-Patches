@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4126;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4126, 'skeletonaccursedminer', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (4126, 'skeletonaccursedminer', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4126,   1,         16) /* ItemType - Creature */
@@ -114,17 +114,12 @@ VALUES (4126,   1,     0, 0, 0, 33) /* MaxHealth */
      , (4126,   5,     0, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (4126,  1, 0, 2, 0,  40, 0, 0) /* Axe                 Trained */
-     , (4126,  2, 0, 3, 0,  50, 0, 0) /* Bow                 Specialized */
-     , (4126,  3, 0, 3, 0,  50, 0, 0) /* Crossbow            Specialized */
-     , (4126,  4, 0, 3, 0,  50, 0, 0) /* Dagger              Specialized */
-     , (4126,  5, 0, 2, 0,  55, 0, 0) /* Mace                Trained */
+VALUES (4126, 45, 0, 2, 0,  40, 0, 0) /* LightWeapons        Trained */
+     , (4126, 47, 0, 3, 0,  50, 0, 0) /* MissileWeapons      Specialized */
+     , (4126, 46, 0, 3, 0,  50, 0, 0) /* FinesseWeapons      Specialized */
      , (4126,  6, 0, 2, 0,  50, 0, 0) /* MeleeDefense        Trained */
      , (4126,  7, 0, 2, 0,  80, 0, 0) /* MissileDefense      Trained */
-     , (4126,  9, 0, 2, 0,  40, 0, 0) /* Spear               Trained */
-     , (4126, 10, 0, 2, 0,  55, 0, 0) /* Staff               Trained */
-     , (4126, 11, 0, 3, 0,  50, 0, 0) /* Sword               Specialized */
-     , (4126, 13, 0, 2, 0,  80, 0, 0) /* UnarmedCombat       Trained */
+     , (4126, 44, 0, 3, 0,  50, 0, 0) /* HeavyWeapons        Specialized */
      , (4126, 15, 0, 2, 0,  70, 0, 0) /* MagicDefense        Trained */
      , (4126, 20, 0, 3, 0,  70, 0, 0) /* Deception           Specialized */;
 

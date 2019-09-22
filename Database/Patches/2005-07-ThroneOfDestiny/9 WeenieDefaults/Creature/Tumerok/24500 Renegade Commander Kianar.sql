@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24500;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24500, 'tumerokrenegadecommander1archer', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (24500, 'tumerokrenegadecommander1archer', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24500,   1,         16) /* ItemType - Creature */
@@ -89,16 +89,13 @@ VALUES (24500,   1,  4850, 0, 0, 5000) /* MaxHealth */
      , (24500,   5,  4730, 0, 0, 5000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24500,  1, 0, 3, 0, 330, 0, 0) /* Axe                 Specialized */
-     , (24500,  2, 0, 3, 0, 280, 0, 0) /* Bow                 Specialized */
-     , (24500,  3, 0, 3, 0, 280, 0, 0) /* Crossbow            Specialized */
-     , (24500,  4, 0, 3, 0, 285, 0, 0) /* Dagger              Specialized */
-     , (24500,  5, 0, 3, 0, 330, 0, 0) /* Mace                Specialized */
+VALUES (24500, 45, 0, 3, 0, 330, 0, 0) /* LightWeapons        Specialized */
+     , (24500, 47, 0, 3, 0, 280, 0, 0) /* MissileWeapons      Specialized */
+     , (24500, 46, 0, 3, 0, 285, 0, 0) /* FinesseWeapons      Specialized */
      , (24500,  6, 0, 3, 0, 325, 0, 0) /* MeleeDefense        Specialized */
      , (24500,  7, 0, 3, 0, 445, 0, 0) /* MissileDefense      Specialized */
-     , (24500, 10, 0, 3, 0, 330, 0, 0) /* Staff               Specialized */
-     , (24500, 11, 0, 3, 0, 330, 0, 0) /* Sword               Specialized */
-     , (24500, 13, 0, 3, 0, 330, 0, 0) /* UnarmedCombat       Specialized */
+     , (24500, 44, 0, 3, 0, 330, 0, 0) /* HeavyWeapons        Specialized */
+     , (24500, 48, 0, 3, 0, 330, 0, 0) /* Shield              Specialized */
      , (24500, 15, 0, 3, 0, 320, 0, 0) /* MagicDefense        Specialized */
      , (24500, 20, 0, 3, 0,  40, 0, 0) /* Deception           Specialized */
      , (24500, 24, 0, 3, 0,  60, 0, 0) /* Run                 Specialized */;

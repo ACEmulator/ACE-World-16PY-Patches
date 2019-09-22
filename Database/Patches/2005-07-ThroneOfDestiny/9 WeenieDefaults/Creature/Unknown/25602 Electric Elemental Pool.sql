@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25602;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25602, 'poolelementalelectricnpc', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (25602, 'poolelementalelectricnpc', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25602,   1,         16) /* ItemType - Creature */
@@ -16,31 +16,7 @@ VALUES (25602,   1,         16) /* ItemType - Creature */
      , (25602,  95,          3) /* RadarBlipColor - White */
      , (25602, 133,          0) /* ShowableOnRadar - Undefined */
      , (25602, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (25602, 146,       3619) /* XpOverride */
-     , (25602, 307,          0) /* DamageRating */
-     , (25602, 308,          0) /* DamageResistRating */
-     , (25602, 313,          0) /* CritRating */
-     , (25602, 314,          0) /* CritDamageRating */
-     , (25602, 315,          0) /* CritResistRating */
-     , (25602, 316,          0) /* CritDamageResistRating */
-     , (25602, 370,          0) /* GearDamage */
-     , (25602, 371,          0) /* GearDamageResist */
-     , (25602, 372,          0) /* GearCrit */
-     , (25602, 373,          0) /* GearCritResist */
-     , (25602, 374,          0) /* GearCritDamage */
-     , (25602, 375,          0) /* GearCritDamageResist */
-     , (25602, 376,          0) /* GearHealingBoost */
-     , (25602, 377,          0) /* GearNetherResist */
-     , (25602, 378,          0) /* GearLifeResist */
-     , (25602, 379,          0) /* GearMaxHealth */
-     , (25602, 381,          0) /* PKDamageRating */
-     , (25602, 382,          0) /* PKDamageResistRating */
-     , (25602, 383,          0) /* GearPKDamageRating */
-     , (25602, 384,          0) /* GearPKDamageResistRating */
-     , (25602, 386,          0) /* Overpower */
-     , (25602, 387,          0) /* OverpowerResist */
-     , (25602, 388,          0) /* GearOverpower */
-     , (25602, 389,          0) /* GearOverpowerResist */;
+     , (25602, 146,       3619) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25602,   1, True ) /* Stuck */

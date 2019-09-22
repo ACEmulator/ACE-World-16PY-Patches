@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1615;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1615, 'gromnieash', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (1615, 'gromnieash', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1615,   1,         16) /* ItemType - Creature */
@@ -92,7 +92,7 @@ VALUES (1615,   1,    40, 0, 0, 90) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (1615,  6, 0, 3, 0,  54, 0, 0) /* MeleeDefense        Specialized */
      , (1615,  7, 0, 3, 0, 108, 0, 0) /* MissileDefense      Specialized */
-     , (1615, 13, 0, 3, 0,  80, 0, 0) /* UnarmedCombat       Specialized */
+     , (1615, 45, 0, 3, 0,  80, 0, 0) /* LightWeapons        Specialized */
      , (1615, 15, 0, 3, 0,  62, 0, 0) /* MagicDefense        Specialized */
      , (1615, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
      , (1615, 22, 0, 3, 0,  40, 0, 0) /* Jump                Specialized */

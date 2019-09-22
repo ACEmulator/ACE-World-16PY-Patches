@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6882;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6882, 'tumerokdryreachguard', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (6882, 'tumerokdryreachguard', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6882,   1,         16) /* ItemType - Creature */
@@ -91,16 +91,13 @@ VALUES (6882,   1,   120, 0, 0, 170) /* MaxHealth */
      , (6882,   5,     0, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (6882,  1, 0, 3, 0, 200, 0, 0) /* Axe                 Specialized */
-     , (6882,  2, 0, 3, 0, 110, 0, 0) /* Bow                 Specialized */
-     , (6882,  3, 0, 3, 0, 110, 0, 0) /* Crossbow            Specialized */
-     , (6882,  4, 0, 3, 0, 100, 0, 0) /* Dagger              Specialized */
-     , (6882,  5, 0, 3, 0, 200, 0, 0) /* Mace                Specialized */
+VALUES (6882, 45, 0, 3, 0, 200, 0, 0) /* LightWeapons        Specialized */
+     , (6882, 47, 0, 3, 0, 110, 0, 0) /* MissileWeapons      Specialized */
+     , (6882, 46, 0, 3, 0, 100, 0, 0) /* FinesseWeapons      Specialized */
      , (6882,  6, 0, 3, 0, 120, 0, 0) /* MeleeDefense        Specialized */
      , (6882,  7, 0, 3, 0, 310, 0, 0) /* MissileDefense      Specialized */
-     , (6882,  9, 0, 3, 0, 200, 0, 0) /* Spear               Specialized */
-     , (6882, 11, 0, 3, 0, 200, 0, 0) /* Sword               Specialized */
-     , (6882, 13, 0, 3, 0, 200, 0, 0) /* UnarmedCombat       Specialized */
+     , (6882, 44, 0, 3, 0, 200, 0, 0) /* HeavyWeapons        Specialized */
+     , (6882, 48, 0, 3, 0, 200, 0, 0) /* Shield              Specialized */
      , (6882, 14, 0, 2, 0,  90, 0, 0) /* ArcaneLore          Trained */
      , (6882, 15, 0, 3, 0, 190, 0, 0) /* MagicDefense        Specialized */
      , (6882, 20, 0, 2, 0,  30, 0, 0) /* Deception           Trained */

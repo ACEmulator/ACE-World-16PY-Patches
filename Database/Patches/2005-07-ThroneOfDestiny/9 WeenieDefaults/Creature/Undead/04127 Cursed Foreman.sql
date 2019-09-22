@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4127;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4127, 'zombielichcursedforeman', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (4127, 'zombielichcursedforeman', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4127,   1,         16) /* ItemType - Creature */
@@ -113,17 +113,13 @@ VALUES (4127,   1,     0, 0, 0, 89) /* MaxHealth */
      , (4127,   5,     0, 0, 0, 135) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (4127,  1, 0, 3, 0, 120, 0, 0) /* Axe                 Specialized */
-     , (4127,  2, 0, 3, 0, 110, 0, 0) /* Bow                 Specialized */
-     , (4127,  3, 0, 2, 0, 100, 0, 0) /* Crossbow            Trained */
-     , (4127,  4, 0, 2, 0,  90, 0, 0) /* Dagger              Trained */
-     , (4127,  5, 0, 3, 0, 120, 0, 0) /* Mace                Specialized */
+VALUES (4127, 45, 0, 3, 0, 120, 0, 0) /* LightWeapons        Specialized */
+     , (4127, 47, 0, 3, 0, 110, 0, 0) /* MissileWeapons      Specialized */
+     , (4127, 46, 0, 2, 0,  90, 0, 0) /* FinesseWeapons      Trained */
      , (4127,  6, 0, 2, 0, 180, 0, 0) /* MeleeDefense        Trained */
      , (4127,  7, 0, 2, 0, 100, 0, 0) /* MissileDefense      Trained */
-     , (4127,  9, 0, 2, 0,  90, 0, 0) /* Spear               Trained */
-     , (4127, 10, 0, 2, 0,  80, 0, 0) /* Staff               Trained */
-     , (4127, 11, 0, 3, 0, 120, 0, 0) /* Sword               Specialized */
-     , (4127, 13, 0, 2, 0,  95, 0, 0) /* UnarmedCombat       Trained */
+     , (4127, 44, 0, 3, 0, 120, 0, 0) /* HeavyWeapons        Specialized */
+     , (4127, 48, 0, 2, 0,  95, 0, 0) /* Shield              Trained */
      , (4127, 14, 0, 2, 0, 200, 0, 0) /* ArcaneLore          Trained */
      , (4127, 15, 0, 2, 0, 125, 0, 0) /* MagicDefense        Trained */
      , (4127, 20, 0, 2, 0,  70, 0, 0) /* Deception           Trained */

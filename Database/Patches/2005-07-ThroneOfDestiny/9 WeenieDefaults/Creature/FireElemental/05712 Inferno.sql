@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5712;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5712, 'fireelementalinferno', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (5712, 'fireelementalinferno', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5712,   1,         16) /* ItemType - Creature */
@@ -19,8 +19,7 @@ VALUES (5712,   1,         16) /* ItemType - Creature */
      , (5712, 103,          3) /* GeneratorDestructionType - Kill */
      , (5712, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (5712, 140,          1) /* AiOptions - CanOpenDoors */
-     , (5712, 146,      80000) /* XpOverride */
-     , (5712, 307,          7) /* DamageRating */;
+     , (5712, 146,      80000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5712,   1, True ) /* Stuck */
@@ -96,8 +95,8 @@ VALUES (5712,   1,   500, 0, 0, 575) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (5712,  6, 0, 3, 0, 315, 0, 437.500640869141) /* MeleeDefense        Specialized */
      , (5712,  7, 0, 3, 0, 402, 0, 437.500640869141) /* MissileDefense      Specialized */
-     , (5712, 12, 0, 3, 0, 200, 0, 437.500640869141) /* ThrownWeapon        Specialized */
-     , (5712, 13, 0, 3, 0, 279, 0, 437.500640869141) /* UnarmedCombat       Specialized */
+     , (5712, 47, 0, 3, 0, 200, 0, 437.500640869141) /* MissileWeapons      Specialized */
+     , (5712, 45, 0, 3, 0, 279, 0, 437.500640869141) /* LightWeapons        Specialized */
      , (5712, 14, 0, 2, 0, 170, 0, 437.500640869141) /* ArcaneLore          Trained */
      , (5712, 15, 0, 3, 0, 252, 0, 437.500640869141) /* MagicDefense        Specialized */
      , (5712, 20, 0, 2, 0, 150, 0, 437.500640869141) /* Deception           Trained */

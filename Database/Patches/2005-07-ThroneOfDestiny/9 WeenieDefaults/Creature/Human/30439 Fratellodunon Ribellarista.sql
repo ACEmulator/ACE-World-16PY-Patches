@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30439;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30439, 'silyunfratellodunonribellarista', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (30439, 'silyunfratellodunonribellarista', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30439,   1,         16) /* ItemType - Creature */
@@ -18,8 +18,7 @@ VALUES (30439,   1,         16) /* ItemType - Creature */
      , (30439, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30439, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (30439, 146,        161) /* XpOverride */
-     , (30439, 188,          4) /* HeritageGroup - Viamontian */
-     , (30439, 307,          5) /* DamageRating */;
+     , (30439, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30439,   1, True ) /* Stuck */

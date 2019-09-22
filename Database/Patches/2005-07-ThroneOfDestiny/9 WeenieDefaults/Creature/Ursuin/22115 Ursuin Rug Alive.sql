@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22115;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22115, 'ursuinrugalivemonster1', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (22115, 'ursuinrugalivemonster1', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22115,   1,         16) /* ItemType - Creature */
@@ -86,10 +86,10 @@ VALUES (22115,   1,    35, 0, 0, 80) /* MaxHealth */
      , (22115,   5,     0, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (22115,  6, 0, 3, 0,  46, 0, 1331.59216308594) /* MeleeDefense        Specialized */
-     , (22115,  7, 0, 3, 0,  86, 0, 1331.59216308594) /* MissileDefense      Specialized */
-     , (22115, 13, 0, 3, 0,  30, 0, 1331.59216308594) /* UnarmedCombat       Specialized */
-     , (22115, 15, 0, 3, 0,  42, 0, 1331.59216308594) /* MagicDefense        Specialized */;
+VALUES (22115,  6, 0, 3, 0,  46, 0, 0) /* MeleeDefense        Specialized */
+     , (22115,  7, 0, 3, 0,  86, 0, 0) /* MissileDefense      Specialized */
+     , (22115, 45, 0, 3, 0,  30, 0, 0) /* LightWeapons        Specialized */
+     , (22115, 15, 0, 3, 0,  42, 0, 0) /* MagicDefense        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (22115,  0,  2, 15, 0.75,   45,    2,   36,    2,    2,   25,    2,    2,    0, 1,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */

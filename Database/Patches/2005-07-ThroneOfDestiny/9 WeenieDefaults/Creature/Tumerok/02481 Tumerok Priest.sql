@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2481;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2481, 'tumerokkeya', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (2481, 'tumerokkeya', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2481,   1,         16) /* ItemType - Creature */
@@ -17,8 +17,7 @@ VALUES (2481,   1,         16) /* ItemType - Creature */
      , (2481, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (2481, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2481, 140,          1) /* AiOptions - CanOpenDoors */
-     , (2481, 146,      17500) /* XpOverride */
-     , (2481, 307,          5) /* DamageRating */;
+     , (2481, 146,      17500) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2481,   1, True ) /* Stuck */
@@ -97,15 +96,11 @@ VALUES (2481,   1,    50, 0, 0, 85) /* MaxHealth */
      , (2481,   5,     0, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (2481,  1, 0, 3, 0, 230, 0, 0) /* Axe                 Specialized */
-     , (2481,  4, 0, 3, 0,  50, 0, 0) /* Dagger              Specialized */
-     , (2481,  5, 0, 3, 0, 230, 0, 0) /* Mace                Specialized */
+VALUES (2481, 45, 0, 3, 0, 230, 0, 0) /* LightWeapons        Specialized */
+     , (2481, 46, 0, 3, 0,  50, 0, 0) /* FinesseWeapons      Specialized */
      , (2481,  6, 0, 3, 0, 240, 0, 0) /* MeleeDefense        Specialized */
      , (2481,  7, 0, 3, 0, 330, 0, 0) /* MissileDefense      Specialized */
-     , (2481,  9, 0, 3, 0, 230, 0, 0) /* Spear               Specialized */
-     , (2481, 10, 0, 3, 0, 230, 0, 0) /* Staff               Specialized */
-     , (2481, 11, 0, 3, 0, 230, 0, 0) /* Sword               Specialized */
-     , (2481, 13, 0, 3, 0, 230, 0, 0) /* UnarmedCombat       Specialized */
+     , (2481, 44, 0, 3, 0, 230, 0, 0) /* HeavyWeapons        Specialized */
      , (2481, 14, 0, 2, 0, 190, 0, 0) /* ArcaneLore          Trained */
      , (2481, 15, 0, 3, 0, 170, 0, 0) /* MagicDefense        Specialized */
      , (2481, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */

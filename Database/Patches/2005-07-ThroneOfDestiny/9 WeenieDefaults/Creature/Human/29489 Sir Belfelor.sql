@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29489;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29489, 'knightkarlunsirbelfelor', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (29489, 'knightkarlunsirbelfelor', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29489,   1,         16) /* ItemType - Creature */
@@ -94,16 +94,12 @@ VALUES (29489,   1,   130, 0, 0, 180) /* MaxHealth */
      , (29489,   5,     0, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29489,  1, 0, 3, 0, 240, 0, 0) /* Axe                 Specialized */
-     , (29489,  4, 0, 3, 0, 240, 0, 0) /* Dagger              Specialized */
-     , (29489,  5, 0, 3, 0, 240, 0, 0) /* Mace                Specialized */
+VALUES (29489, 45, 0, 3, 0, 240, 0, 0) /* LightWeapons        Specialized */
+     , (29489, 46, 0, 3, 0, 240, 0, 0) /* FinesseWeapons      Specialized */
      , (29489,  6, 0, 3, 0, 205, 0, 0) /* MeleeDefense        Specialized */
      , (29489,  7, 0, 3, 0, 330, 0, 0) /* MissileDefense      Specialized */
-     , (29489,  9, 0, 3, 0, 240, 0, 0) /* Spear               Specialized */
-     , (29489, 10, 0, 3, 0, 240, 0, 0) /* Staff               Specialized */
-     , (29489, 11, 0, 3, 0, 240, 0, 0) /* Sword               Specialized */
-     , (29489, 12, 0, 3, 0, 170, 0, 0) /* ThrownWeapon        Specialized */
-     , (29489, 13, 0, 3, 0, 240, 0, 0) /* UnarmedCombat       Specialized */
+     , (29489, 44, 0, 3, 0, 240, 0, 0) /* HeavyWeapons        Specialized */
+     , (29489, 47, 0, 3, 0, 170, 0, 0) /* MissileWeapons      Specialized */
      , (29489, 15, 0, 3, 0, 210, 0, 0) /* MagicDefense        Specialized */
      , (29489, 41, 0, 3, 0, 240, 0, 0) /* TwoHandedCombat     Specialized */;
 

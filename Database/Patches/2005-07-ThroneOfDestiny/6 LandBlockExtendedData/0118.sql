@@ -7,7 +7,7 @@ VALUES (1880195073, 28791, 18350648, 107.6282, -289.9906, 6.005, -0.748524, 0, 0
 /* @teleloc 0x01180238 [107.628200 -289.990600 6.005000] -0.748524 0.000000 0.000000 -0.663108 */
 
 REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
-VALUES (1880195074, 28775, 18350647, 95.20573, -289.9774, 6.005, -0.702792, 0, 0, -0.711395, False); /* Academy Practice Area Door */
+VALUES (1880195074, 28775, 18350647, 95.20573, -289.9774, 6.005, 0.696627, 0, 0, -0.717434, False); /* Wine Cellar Door */
 /* @teleloc 0x01180237 [95.205730 -289.977400 6.005000] -0.702792 0.000000 0.000000 -0.711395 */
 
 REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)

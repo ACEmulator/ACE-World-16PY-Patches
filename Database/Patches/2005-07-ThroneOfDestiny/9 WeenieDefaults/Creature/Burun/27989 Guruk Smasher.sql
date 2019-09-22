@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27989;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27989, 'burunguruksmasher', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (27989, 'burunguruksmasher', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27989,   1,         16) /* ItemType - Creature */
@@ -16,8 +16,7 @@ VALUES (27989,   1,         16) /* ItemType - Creature */
      , (27989,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (27989,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27989, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (27989, 146,     125000) /* XpOverride */
-     , (27989, 307,          5) /* DamageRating */;
+     , (27989, 146,     125000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27989,   1, True ) /* Stuck */
@@ -93,18 +92,12 @@ VALUES (27989,   1,   200, 0, 0, 525) /* MaxHealth */
      , (27989,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (27989,  1, 0, 3, 0, 331, 0, 1976.61987304688) /* Axe                 Specialized */
-     , (27989,  2, 0, 3, 0, 216, 0, 1976.61987304688) /* Bow                 Specialized */
-     , (27989,  3, 0, 3, 0, 216, 0, 1976.61987304688) /* Crossbow            Specialized */
-     , (27989,  4, 0, 3, 0, 266, 0, 1976.61987304688) /* Dagger              Specialized */
-     , (27989,  5, 0, 3, 0, 331, 0, 1976.61987304688) /* Mace                Specialized */
+VALUES (27989, 45, 0, 3, 0, 331, 0, 1976.61987304688) /* LightWeapons        Specialized */
+     , (27989, 47, 0, 3, 0, 216, 0, 1976.61987304688) /* MissileWeapons      Specialized */
+     , (27989, 46, 0, 3, 0, 266, 0, 1976.61987304688) /* FinesseWeapons      Specialized */
      , (27989,  6, 0, 3, 0, 366, 0, 1976.61987304688) /* MeleeDefense        Specialized */
      , (27989,  7, 0, 3, 0, 440, 0, 1976.61987304688) /* MissileDefense      Specialized */
-     , (27989,  9, 0, 3, 0, 331, 0, 1976.61987304688) /* Spear               Specialized */
-     , (27989, 10, 0, 3, 0, 331, 0, 1976.61987304688) /* Staff               Specialized */
-     , (27989, 11, 0, 3, 0, 331, 0, 1976.61987304688) /* Sword               Specialized */
-     , (27989, 12, 0, 3, 0, 216, 0, 1976.61987304688) /* ThrownWeapon        Specialized */
-     , (27989, 13, 0, 3, 0, 331, 0, 1976.61987304688) /* UnarmedCombat       Specialized */
+     , (27989, 44, 0, 3, 0, 331, 0, 1976.61987304688) /* HeavyWeapons        Specialized */
      , (27989, 15, 0, 3, 0, 302, 0, 1976.61987304688) /* MagicDefense        Specialized */
      , (27989, 20, 0, 3, 0,  50, 0, 1976.61987304688) /* Deception           Specialized */
      , (27989, 24, 0, 3, 0,  50, 0, 1976.61987304688) /* Run                 Specialized */

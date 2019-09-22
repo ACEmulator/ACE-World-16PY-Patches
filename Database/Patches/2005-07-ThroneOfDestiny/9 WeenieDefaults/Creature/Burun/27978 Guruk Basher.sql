@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27978;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27978, 'burungurukbasher', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (27978, 'burungurukbasher', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27978,   1,         16) /* ItemType - Creature */
@@ -92,18 +92,12 @@ VALUES (27978,   1,   200, 0, 0, 400) /* MaxHealth */
      , (27978,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (27978,  1, 0, 3, 0, 331, 0, 1975.13220214844) /* Axe                 Specialized */
-     , (27978,  2, 0, 3, 0, 216, 0, 1975.13220214844) /* Bow                 Specialized */
-     , (27978,  3, 0, 3, 0, 216, 0, 1975.13220214844) /* Crossbow            Specialized */
-     , (27978,  4, 0, 3, 0, 266, 0, 1975.13220214844) /* Dagger              Specialized */
-     , (27978,  5, 0, 3, 0, 331, 0, 1975.13220214844) /* Mace                Specialized */
+VALUES (27978, 45, 0, 3, 0, 331, 0, 1975.13220214844) /* LightWeapons        Specialized */
+     , (27978, 47, 0, 3, 0, 216, 0, 1975.13220214844) /* MissileWeapons      Specialized */
+     , (27978, 46, 0, 3, 0, 266, 0, 1975.13220214844) /* FinesseWeapons      Specialized */
      , (27978,  6, 0, 3, 0, 316, 0, 1975.13220214844) /* MeleeDefense        Specialized */
      , (27978,  7, 0, 3, 0, 400, 0, 1975.13220214844) /* MissileDefense      Specialized */
-     , (27978,  9, 0, 3, 0, 331, 0, 1975.13220214844) /* Spear               Specialized */
-     , (27978, 10, 0, 3, 0, 331, 0, 1975.13220214844) /* Staff               Specialized */
-     , (27978, 11, 0, 3, 0, 331, 0, 1975.13220214844) /* Sword               Specialized */
-     , (27978, 12, 0, 3, 0, 216, 0, 1975.13220214844) /* ThrownWeapon        Specialized */
-     , (27978, 13, 0, 3, 0, 331, 0, 1975.13220214844) /* UnarmedCombat       Specialized */
+     , (27978, 44, 0, 3, 0, 331, 0, 1975.13220214844) /* HeavyWeapons        Specialized */
      , (27978, 15, 0, 3, 0, 264, 0, 1975.13220214844) /* MagicDefense        Specialized */
      , (27978, 20, 0, 3, 0,  50, 0, 1975.13220214844) /* Deception           Specialized */
      , (27978, 24, 0, 3, 0,  50, 0, 1975.13220214844) /* Run                 Specialized */

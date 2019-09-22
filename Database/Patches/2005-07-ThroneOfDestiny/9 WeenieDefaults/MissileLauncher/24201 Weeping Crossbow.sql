@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24201;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24201, 'crossbowisparianperfectweeping', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (24201, 'crossbowisparianperfectweeping', 3, '2019-09-11 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24201,   1,        256) /* ItemType - MissileWeapon */
@@ -33,7 +33,8 @@ VALUES (24201,   1,        256) /* ItemType - MissileWeapon */
      , (24201, 158,          2) /* WieldRequirements - RawSkill */
      , (24201, 159,         47) /* WieldSkillType - MissileWeapons */
      , (24201, 160,        290) /* WieldDifficulty */
-     , (24201, 166,         31) /* SlayerCreatureType - Human */;
+     , (24201, 166,         31) /* SlayerCreatureType - Human */
+     , (24201, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24201,  11, True ) /* IgnoreCollisions */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29354;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29354, 'miteemissary', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (29354, 'miteemissary', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29354,   1,         16) /* ItemType - Creature */
@@ -90,8 +90,8 @@ VALUES (29354,   1,   100, 0, 0, 110) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (29354,  6, 0, 3, 0, 160, 0, 0) /* MeleeDefense        Specialized */
      , (29354,  7, 0, 3, 0, 261, 0, 0) /* MissileDefense      Specialized */
-     , (29354, 12, 0, 3, 0,  90, 0, 0) /* ThrownWeapon        Specialized */
-     , (29354, 13, 0, 3, 0, 310, 0, 0) /* UnarmedCombat       Specialized */
+     , (29354, 47, 0, 3, 0,  90, 0, 0) /* MissileWeapons      Specialized */
+     , (29354, 45, 0, 3, 0, 310, 0, 0) /* LightWeapons        Specialized */
      , (29354, 15, 0, 3, 0, 160, 0, 0) /* MagicDefense        Specialized */
      , (29354, 20, 0, 3, 0,  30, 0, 0) /* Deception           Specialized */
      , (29354, 22, 0, 3, 0,  80, 0, 0) /* Jump                Specialized */

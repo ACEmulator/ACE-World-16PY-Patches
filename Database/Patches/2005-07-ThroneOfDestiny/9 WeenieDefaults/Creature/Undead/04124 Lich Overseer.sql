@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4124;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4124, 'zombielichoverseer', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (4124, 'zombielichoverseer', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4124,   1,         16) /* ItemType - Creature */
@@ -21,8 +21,7 @@ VALUES (4124,   1,         16) /* ItemType - Creature */
      , (4124, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (4124, 103,          3) /* GeneratorDestructionType - Kill */
      , (4124, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (4124, 146,      10000) /* XpOverride */
-     , (4124, 307,          5) /* DamageRating */;
+     , (4124, 146,      10000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4124,   1, True ) /* Stuck */
@@ -119,17 +118,13 @@ VALUES (4124,   1,     0, 0, 0, 89) /* MaxHealth */
      , (4124,   5,   150, 0, 0, 305) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (4124,  1, 0, 3, 0, 130, 0, 0) /* Axe                 Specialized */
-     , (4124,  2, 0, 3, 0, 120, 0, 0) /* Bow                 Specialized */
-     , (4124,  3, 0, 2, 0, 100, 0, 0) /* Crossbow            Trained */
-     , (4124,  4, 0, 2, 0, 100, 0, 0) /* Dagger              Trained */
-     , (4124,  5, 0, 3, 0, 130, 0, 0) /* Mace                Specialized */
+VALUES (4124, 45, 0, 3, 0, 130, 0, 0) /* LightWeapons        Specialized */
+     , (4124, 47, 0, 3, 0, 120, 0, 0) /* MissileWeapons      Specialized */
+     , (4124, 46, 0, 2, 0, 100, 0, 0) /* FinesseWeapons      Trained */
      , (4124,  6, 0, 2, 0, 180, 0, 0) /* MeleeDefense        Trained */
      , (4124,  7, 0, 2, 0, 100, 0, 0) /* MissileDefense      Trained */
-     , (4124,  9, 0, 2, 0, 100, 0, 0) /* Spear               Trained */
-     , (4124, 10, 0, 2, 0,  90, 0, 0) /* Staff               Trained */
-     , (4124, 11, 0, 3, 0, 130, 0, 0) /* Sword               Specialized */
-     , (4124, 13, 0, 2, 0, 100, 0, 0) /* UnarmedCombat       Trained */
+     , (4124, 44, 0, 3, 0, 130, 0, 0) /* HeavyWeapons        Specialized */
+     , (4124, 48, 0, 2, 0, 100, 0, 0) /* Shield              Trained */
      , (4124, 14, 0, 2, 0, 200, 0, 0) /* ArcaneLore          Trained */
      , (4124, 15, 0, 2, 0, 125, 0, 0) /* MagicDefense        Trained */
      , (4124, 20, 0, 2, 0,  70, 0, 0) /* Deception           Trained */

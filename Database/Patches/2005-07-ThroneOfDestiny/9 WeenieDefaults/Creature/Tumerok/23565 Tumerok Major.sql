@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23565;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23565, 'tumerokmajor', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (23565, 'tumerokmajor', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23565,   1,         16) /* ItemType - Creature */
@@ -98,17 +98,13 @@ VALUES (23565,   1,   190, 0, 0, 300) /* MaxHealth */
      , (23565,   5,     0, 0, 0, 180) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (23565,  1, 0, 3, 0, 240, 0, 0) /* Axe                 Specialized */
-     , (23565,  2, 0, 3, 0, 160, 0, 0) /* Bow                 Specialized */
-     , (23565,  3, 0, 3, 0, 160, 0, 0) /* Crossbow            Specialized */
-     , (23565,  4, 0, 3, 0, 130, 0, 0) /* Dagger              Specialized */
-     , (23565,  5, 0, 3, 0, 240, 0, 0) /* Mace                Specialized */
+VALUES (23565, 45, 0, 3, 0, 240, 0, 0) /* LightWeapons        Specialized */
+     , (23565, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */
+     , (23565, 46, 0, 3, 0, 130, 0, 0) /* FinesseWeapons      Specialized */
      , (23565,  6, 0, 3, 0, 225, 0, 0) /* MeleeDefense        Specialized */
      , (23565,  7, 0, 3, 0, 325, 0, 0) /* MissileDefense      Specialized */
-     , (23565,  9, 0, 3, 0, 240, 0, 0) /* Spear               Specialized */
-     , (23565, 10, 0, 3, 0, 240, 0, 0) /* Staff               Specialized */
-     , (23565, 11, 0, 3, 0, 240, 0, 0) /* Sword               Specialized */
-     , (23565, 13, 0, 3, 0, 240, 0, 0) /* UnarmedCombat       Specialized */
+     , (23565, 44, 0, 3, 0, 240, 0, 0) /* HeavyWeapons        Specialized */
+     , (23565, 48, 0, 3, 0, 240, 0, 0) /* Shield              Specialized */
      , (23565, 15, 0, 3, 0, 205, 0, 0) /* MagicDefense        Specialized */
      , (23565, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
      , (23565, 24, 0, 3, 0, 105, 0, 0) /* Run                 Specialized */

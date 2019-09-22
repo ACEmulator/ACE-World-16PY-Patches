@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29342;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29342, 'ruschklaktar', 10, '2019-07-13 00:58:48') /* Creature */;
+VALUES (29342, 'ruschklaktar', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29342,   1,         16) /* ItemType - Creature */
@@ -28,8 +28,7 @@ VALUES (29342,   1, True ) /* Stuck */
      , (29342,  13, False) /* Ethereal */
      , (29342,  14, True ) /* GravityStatus */
      , (29342,  19, True ) /* Attackable */
-     , (29342, 101, True ) /* CanGenerateRare */
-     , (29342, 102, True ) /* CorpseGeneratedRare */;
+     , (29342, 101, True ) /* CanGenerateRare */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29342,   1,       5) /* HeartbeatInterval */
@@ -98,14 +97,12 @@ VALUES (29342,   1,   800, 0, 0, 920) /* MaxHealth */
      , (29342,   5,   600, 0, 0, 780) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29342,  4, 0, 3, 0, 450, 0, 0) /* Dagger              Specialized */
-     , (29342,  5, 0, 3, 0, 450, 0, 0) /* Mace                Specialized */
+VALUES (29342, 46, 0, 3, 0, 450, 0, 0) /* FinesseWeapons      Specialized */
      , (29342,  6, 0, 3, 0, 420, 0, 0) /* MeleeDefense        Specialized */
      , (29342,  7, 0, 3, 0, 396, 0, 0) /* MissileDefense      Specialized */
-     , (29342,  9, 0, 3, 0, 450, 0, 0) /* Spear               Specialized */
-     , (29342, 11, 0, 3, 0, 450, 0, 0) /* Sword               Specialized */
-     , (29342, 12, 0, 3, 0, 180, 0, 0) /* ThrownWeapon        Specialized */
-     , (29342, 13, 0, 3, 0, 420, 0, 0) /* UnarmedCombat       Specialized */
+     , (29342, 44, 0, 3, 0, 450, 0, 0) /* HeavyWeapons        Specialized */
+     , (29342, 47, 0, 3, 0, 180, 0, 0) /* MissileWeapons      Specialized */
+     , (29342, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */
      , (29342, 15, 0, 3, 0, 330, 0, 0) /* MagicDefense        Specialized */
      , (29342, 22, 0, 2, 0,  20, 0, 0) /* Jump                Trained */
      , (29342, 24, 0, 2, 0,  20, 0, 0) /* Run                 Trained */

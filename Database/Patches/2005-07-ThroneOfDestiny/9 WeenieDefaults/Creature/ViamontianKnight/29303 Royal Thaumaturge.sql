@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29303;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29303, 'knightmageroyalthaumaturge', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (29303, 'knightmageroyalthaumaturge', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29303,   1,         16) /* ItemType - Creature */
@@ -94,16 +94,12 @@ VALUES (29303,   1,   420, 0, 0, 510) /* MaxHealth */
      , (29303,   5,   350, 0, 0, 790) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29303,  1, 0, 3, 0, 290, 0, 0) /* Axe                 Specialized */
-     , (29303,  4, 0, 3, 0, 290, 0, 0) /* Dagger              Specialized */
-     , (29303,  5, 0, 3, 0, 290, 0, 0) /* Mace                Specialized */
+VALUES (29303, 45, 0, 3, 0, 290, 0, 0) /* LightWeapons        Specialized */
+     , (29303, 46, 0, 3, 0, 290, 0, 0) /* FinesseWeapons      Specialized */
      , (29303,  6, 0, 3, 0, 260, 0, 0) /* MeleeDefense        Specialized */
      , (29303,  7, 0, 3, 0, 300, 0, 0) /* MissileDefense      Specialized */
-     , (29303,  9, 0, 3, 0, 290, 0, 0) /* Spear               Specialized */
-     , (29303, 10, 0, 3, 0, 290, 0, 0) /* Staff               Specialized */
-     , (29303, 11, 0, 3, 0, 290, 0, 0) /* Sword               Specialized */
-     , (29303, 12, 0, 3, 0, 160, 0, 0) /* ThrownWeapon        Specialized */
-     , (29303, 13, 0, 3, 0, 290, 0, 0) /* UnarmedCombat       Specialized */
+     , (29303, 44, 0, 3, 0, 290, 0, 0) /* HeavyWeapons        Specialized */
+     , (29303, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */
      , (29303, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
      , (29303, 20, 0, 2, 0,  30, 0, 0) /* Deception           Trained */
      , (29303, 33, 0, 3, 0, 235, 0, 0) /* LifeMagic           Specialized */

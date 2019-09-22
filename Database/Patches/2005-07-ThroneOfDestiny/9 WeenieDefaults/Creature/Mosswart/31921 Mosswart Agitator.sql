@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31921;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31921, 'ace31921-mosswartagitator', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (31921, 'ace31921-mosswartagitator', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31921,   1,         16) /* ItemType - Creature */
@@ -88,17 +88,12 @@ VALUES (31921,   1,   750, 0, 0, 875) /* MaxHealth */
      , (31921,   5,   390, 0, 0, 555) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (31921,  1, 0, 3, 0, 430, 0, 0) /* Axe                 Specialized */
-     , (31921,  2, 0, 3, 0, 430, 0, 0) /* Bow                 Specialized */
-     , (31921,  3, 0, 3, 0, 430, 0, 0) /* Crossbow            Specialized */
-     , (31921,  4, 0, 3, 0, 430, 0, 0) /* Dagger              Specialized */
-     , (31921,  5, 0, 3, 0, 430, 0, 0) /* Mace                Specialized */
+VALUES (31921, 45, 0, 3, 0, 430, 0, 0) /* LightWeapons        Specialized */
+     , (31921, 47, 0, 3, 0, 430, 0, 0) /* MissileWeapons      Specialized */
+     , (31921, 46, 0, 3, 0, 430, 0, 0) /* FinesseWeapons      Specialized */
      , (31921,  6, 0, 3, 0, 420, 0, 0) /* MeleeDefense        Specialized */
      , (31921,  7, 0, 3, 0, 460, 0, 0) /* MissileDefense      Specialized */
-     , (31921,  9, 0, 3, 0, 430, 0, 0) /* Spear               Specialized */
-     , (31921, 10, 0, 3, 0, 430, 0, 0) /* Staff               Specialized */
-     , (31921, 11, 0, 3, 0, 430, 0, 0) /* Sword               Specialized */
-     , (31921, 13, 0, 3, 0, 430, 0, 0) /* UnarmedCombat       Specialized */
+     , (31921, 44, 0, 3, 0, 430, 0, 0) /* HeavyWeapons        Specialized */
      , (31921, 14, 0, 3, 0, 250, 0, 0) /* ArcaneLore          Specialized */
      , (31921, 15, 0, 3, 0, 320, 0, 0) /* MagicDefense        Specialized */
      , (31921, 24, 0, 3, 0,  50, 0, 0) /* Run                 Specialized */;

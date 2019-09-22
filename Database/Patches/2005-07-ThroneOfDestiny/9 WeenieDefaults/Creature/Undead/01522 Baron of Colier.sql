@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1522;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1522, 'undeadbaronminer', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (1522, 'undeadbaronminer', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1522,   1,         16) /* ItemType - Creature */
@@ -18,8 +18,7 @@ VALUES (1522,   1,         16) /* ItemType - Creature */
      , (1522, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (1522, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1522, 140,          1) /* AiOptions - CanOpenDoors */
-     , (1522, 146,       5000) /* XpOverride */
-     , (1522, 307,          5) /* DamageRating */;
+     , (1522, 146,       5000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1522,   1, True ) /* Stuck */
@@ -92,16 +91,16 @@ VALUES (1522,   1,    50, 0, 0, 113) /* MaxHealth */
      , (1522,   5,   150, 0, 0, 270) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1522,  6, 0, 2, 0, 120, 0, 307.604095458984) /* MeleeDefense        Trained */
-     , (1522,  7, 0, 2, 0, 100, 0, 307.604095458984) /* MissileDefense      Trained */
-     , (1522, 11, 0, 2, 0, 140, 0, 307.604095458984) /* Sword               Trained */
-     , (1522, 13, 0, 2, 0, 100, 0, 307.604095458984) /* UnarmedCombat       Trained */
-     , (1522, 14, 0, 2, 0, 150, 0, 307.604095458984) /* ArcaneLore          Trained */
-     , (1522, 15, 0, 2, 0, 100, 0, 307.604095458984) /* MagicDefense        Trained */
-     , (1522, 20, 0, 2, 0,  80, 0, 307.604095458984) /* Deception           Trained */
-     , (1522, 31, 0, 2, 0, 130, 0, 307.604095458984) /* CreatureEnchantment Trained */
-     , (1522, 33, 0, 2, 0, 130, 0, 307.604095458984) /* LifeMagic           Trained */
-     , (1522, 34, 0, 2, 0, 150, 0, 307.604095458984) /* WarMagic            Trained */;
+VALUES (1522,  6, 0, 2, 0, 120, 0, 0) /* MeleeDefense        Trained */
+     , (1522,  7, 0, 2, 0, 100, 0, 0) /* MissileDefense      Trained */
+     , (1522, 44, 0, 2, 0, 140, 0, 0) /* HeavyWeapons        Trained */
+     , (1522, 45, 0, 2, 0, 100, 0, 0) /* LightWeapons        Trained */
+     , (1522, 14, 0, 2, 0, 150, 0, 0) /* ArcaneLore          Trained */
+     , (1522, 15, 0, 2, 0, 100, 0, 0) /* MagicDefense        Trained */
+     , (1522, 20, 0, 2, 0,  80, 0, 0) /* Deception           Trained */
+     , (1522, 31, 0, 2, 0, 130, 0, 0) /* CreatureEnchantment Trained */
+     , (1522, 33, 0, 2, 0, 130, 0, 0) /* LifeMagic           Trained */
+     , (1522, 34, 0, 2, 0, 150, 0, 0) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1522,  0,  4,  0,    0,  150,  120,   63,   93,   57,   75,   93,  105,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

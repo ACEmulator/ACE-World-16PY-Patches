@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1257;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1257, 'mosswartchiefgreenmire', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (1257, 'mosswartchiefgreenmire', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1257,   1,         16) /* ItemType - Creature */
@@ -97,10 +97,9 @@ VALUES (1257,   1,    50, 0, 0, 110) /* MaxHealth */
      , (1257,   5,     0, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1257,  1, 0, 2, 0,  30, 0, 0) /* Axe                 Trained */
-     , (1257,  6, 0, 2, 0,  85, 0, 0) /* MeleeDefense        Trained */
+VALUES (1257,  6, 0, 2, 0,  85, 0, 0) /* MeleeDefense        Trained */
      , (1257,  7, 0, 2, 0,  80, 0, 0) /* MissileDefense      Trained */
-     , (1257, 13, 0, 2, 0, 120, 0, 0) /* UnarmedCombat       Trained */
+     , (1257, 45, 0, 2, 0, 120, 0, 0) /* LightWeapons        Trained */
      , (1257, 15, 0, 2, 0, 120, 0, 0) /* MagicDefense        Trained */
      , (1257, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */
      , (1257, 24, 0, 2, 0,  40, 0, 0) /* Run                 Trained */;

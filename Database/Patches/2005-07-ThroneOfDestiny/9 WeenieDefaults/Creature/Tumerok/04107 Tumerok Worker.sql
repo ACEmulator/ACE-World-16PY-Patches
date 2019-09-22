@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4107;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4107, 'tumerokworkerarcher', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (4107, 'tumerokworkerarcher', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4107,   1,         16) /* ItemType - Creature */
@@ -17,8 +17,7 @@ VALUES (4107,   1,         16) /* ItemType - Creature */
      , (4107, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (4107, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4107, 140,          1) /* AiOptions - CanOpenDoors */
-     , (4107, 146,       1000) /* XpOverride */
-     , (4107, 307,          5) /* DamageRating */;
+     , (4107, 146,       1000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4107,   1, True ) /* Stuck */
@@ -116,16 +115,12 @@ VALUES (4107,   1,    10, 0, 0, 48) /* MaxHealth */
      , (4107,   5,     0, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (4107,  1, 0, 3, 0,  30, 0, 0) /* Axe                 Specialized */
-     , (4107,  2, 0, 3, 0,  30, 0, 0) /* Bow                 Specialized */
-     , (4107,  3, 0, 3, 0,  30, 0, 0) /* Crossbow            Specialized */
-     , (4107,  4, 0, 3, 0,  30, 0, 0) /* Dagger              Specialized */
-     , (4107,  5, 0, 3, 0,  30, 0, 0) /* Mace                Specialized */
+VALUES (4107, 45, 0, 3, 0,  30, 0, 0) /* LightWeapons        Specialized */
+     , (4107, 47, 0, 3, 0,  30, 0, 0) /* MissileWeapons      Specialized */
+     , (4107, 46, 0, 3, 0,  30, 0, 0) /* FinesseWeapons      Specialized */
      , (4107,  6, 0, 3, 0,  38, 0, 0) /* MeleeDefense        Specialized */
      , (4107,  7, 0, 3, 0,  62, 0, 0) /* MissileDefense      Specialized */
-     , (4107, 10, 0, 3, 0,  30, 0, 0) /* Staff               Specialized */
-     , (4107, 11, 0, 3, 0,  30, 0, 0) /* Sword               Specialized */
-     , (4107, 13, 0, 3, 0,  30, 0, 0) /* UnarmedCombat       Specialized */
+     , (4107, 44, 0, 3, 0,  30, 0, 0) /* HeavyWeapons        Specialized */
      , (4107, 15, 0, 3, 0,  37, 0, 0) /* MagicDefense        Specialized */
      , (4107, 20, 0, 3, 0,  10, 0, 0) /* Deception           Specialized */
      , (4107, 24, 0, 3, 0,  60, 0, 0) /* Run                 Specialized */;

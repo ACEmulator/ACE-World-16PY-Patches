@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25597;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25597, 'gromnieemerald', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (25597, 'gromnieemerald', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25597,   1,         16) /* ItemType - Creature */
@@ -90,13 +90,13 @@ VALUES (25597,   1,   400, 0, 0, 600) /* MaxHealth */
      , (25597,   5,     0, 0, 0, 180) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25597,  6, 0, 3, 0, 350, 0, 1643.66528320313) /* MeleeDefense        Specialized */
-     , (25597,  7, 0, 3, 0, 260, 0, 1643.66528320313) /* MissileDefense      Specialized */
-     , (25597, 13, 0, 3, 0, 370, 0, 1643.66528320313) /* UnarmedCombat       Specialized */
-     , (25597, 15, 0, 3, 0, 270, 0, 1643.66528320313) /* MagicDefense        Specialized */
-     , (25597, 20, 0, 3, 0,  50, 0, 1643.66528320313) /* Deception           Specialized */
-     , (25597, 22, 0, 3, 0,  40, 0, 1643.66528320313) /* Jump                Specialized */
-     , (25597, 24, 0, 3, 0, 150, 0, 1643.66528320313) /* Run                 Specialized */;
+VALUES (25597,  6, 0, 3, 0, 350, 0, 0) /* MeleeDefense        Specialized */
+     , (25597,  7, 0, 3, 0, 260, 0, 0) /* MissileDefense      Specialized */
+     , (25597, 45, 0, 3, 0, 370, 0, 0) /* LightWeapons        Specialized */
+     , (25597, 15, 0, 3, 0, 270, 0, 0) /* MagicDefense        Specialized */
+     , (25597, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
+     , (25597, 22, 0, 3, 0,  40, 0, 0) /* Jump                Specialized */
+     , (25597, 24, 0, 3, 0, 150, 0, 0) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25597,  0, 32, 140, 0.75,  300,  450,  450,  450,  450,  450,  600,  270,    0, 1, 0.44,  0.3,    0, 0.44,    0,    0,    0,    0,    0,    0,    0,    0) /* Head */

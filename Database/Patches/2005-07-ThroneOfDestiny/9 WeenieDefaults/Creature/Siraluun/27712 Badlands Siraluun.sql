@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27712;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27712, 'siraluunbadlands', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (27712, 'siraluunbadlands', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27712,   1,         16) /* ItemType - Creature */
@@ -88,12 +88,12 @@ VALUES (27712,   1,   332, 0, 0, 500) /* MaxHealth */
      , (27712,   5,    10, 0, 0, 225) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (27712,  6, 0, 3, 0, 320, 0, 1937.23071289063) /* MeleeDefense        Specialized */
-     , (27712,  7, 0, 3, 0, 405, 0, 1937.23071289063) /* MissileDefense      Specialized */
-     , (27712, 13, 0, 3, 0, 220, 0, 1937.23071289063) /* UnarmedCombat       Specialized */
-     , (27712, 15, 0, 3, 0, 270, 0, 1937.23071289063) /* MagicDefense        Specialized */
-     , (27712, 22, 0, 2, 0,  10, 0, 1937.23071289063) /* Jump                Trained */
-     , (27712, 24, 0, 3, 0,  80, 0, 1937.23071289063) /* Run                 Specialized */;
+VALUES (27712,  6, 0, 3, 0, 320, 0, 0) /* MeleeDefense        Specialized */
+     , (27712,  7, 0, 3, 0, 405, 0, 0) /* MissileDefense      Specialized */
+     , (27712, 45, 0, 3, 0, 220, 0, 0) /* LightWeapons        Specialized */
+     , (27712, 15, 0, 3, 0, 270, 0, 0) /* MagicDefense        Specialized */
+     , (27712, 22, 0, 2, 0,  10, 0, 0) /* Jump                Trained */
+     , (27712, 24, 0, 3, 0,  80, 0, 0) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (27712,  0,  2, 110, 0.75,  410,  410,  492,  390,  410,  410,  410,  410,    0, 1, 0.44,  0.3,    0,  0.4,  0.1,    0, 0.44,  0.3,    0,  0.4,  0.1,    0) /* Head */

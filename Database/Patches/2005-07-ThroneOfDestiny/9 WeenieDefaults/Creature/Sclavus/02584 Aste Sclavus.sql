@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2584;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2584, 'sclavusaste', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (2584, 'sclavusaste', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2584,   1,         16) /* ItemType - Creature */
@@ -17,8 +17,7 @@ VALUES (2584,   1,         16) /* ItemType - Creature */
      , (2584, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (2584, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (2584, 140,          1) /* AiOptions - CanOpenDoors */
-     , (2584, 146,       3500) /* XpOverride */
-     , (2584, 307,          5) /* DamageRating */;
+     , (2584, 146,       3500) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2584,   1, True ) /* Stuck */
@@ -98,23 +97,19 @@ VALUES (2584,   1,    50, 0, 0, 85) /* MaxHealth */
      , (2584,   5,    20, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (2584,  1, 0, 3, 0,  70, 0, 336.544586181641) /* Axe                 Specialized */
-     , (2584,  2, 0, 3, 0,  90, 0, 336.544586181641) /* Bow                 Specialized */
-     , (2584,  3, 0, 3, 0,  90, 0, 336.544586181641) /* Crossbow            Specialized */
-     , (2584,  4, 0, 3, 0,  70, 0, 336.544586181641) /* Dagger              Specialized */
-     , (2584,  5, 0, 3, 0,  70, 0, 336.544586181641) /* Mace                Specialized */
-     , (2584,  6, 0, 3, 0,  63, 0, 336.544586181641) /* MeleeDefense        Specialized */
-     , (2584,  7, 0, 3, 0, 106, 0, 336.544586181641) /* MissileDefense      Specialized */
-     , (2584, 10, 0, 3, 0,  70, 0, 336.544586181641) /* Staff               Specialized */
-     , (2584, 11, 0, 3, 0,  70, 0, 336.544586181641) /* Sword               Specialized */
-     , (2584, 13, 0, 3, 0,  70, 0, 336.544586181641) /* UnarmedCombat       Specialized */
-     , (2584, 14, 0, 3, 0, 110, 0, 336.544586181641) /* ArcaneLore          Specialized */
-     , (2584, 15, 0, 3, 0,  63, 0, 336.544586181641) /* MagicDefense        Specialized */
-     , (2584, 20, 0, 3, 0,  70, 0, 336.544586181641) /* Deception           Specialized */
-     , (2584, 24, 0, 3, 0,  40, 0, 336.544586181641) /* Run                 Specialized */
-     , (2584, 31, 0, 3, 0,  14, 0, 336.544586181641) /* CreatureEnchantment Specialized */
-     , (2584, 33, 0, 3, 0,  14, 0, 336.544586181641) /* LifeMagic           Specialized */
-     , (2584, 34, 0, 3, 0,  14, 0, 336.544586181641) /* WarMagic            Specialized */;
+VALUES (2584, 45, 0, 3, 0,  70, 0, 0) /* LightWeapons        Specialized */
+     , (2584, 47, 0, 3, 0,  90, 0, 0) /* MissileWeapons      Specialized */
+     , (2584, 46, 0, 3, 0,  70, 0, 0) /* FinesseWeapons      Specialized */
+     , (2584,  6, 0, 3, 0,  63, 0, 0) /* MeleeDefense        Specialized */
+     , (2584,  7, 0, 3, 0, 106, 0, 0) /* MissileDefense      Specialized */
+     , (2584, 44, 0, 3, 0,  70, 0, 0) /* HeavyWeapons        Specialized */
+     , (2584, 14, 0, 3, 0, 110, 0, 0) /* ArcaneLore          Specialized */
+     , (2584, 15, 0, 3, 0,  63, 0, 0) /* MagicDefense        Specialized */
+     , (2584, 20, 0, 3, 0,  70, 0, 0) /* Deception           Specialized */
+     , (2584, 24, 0, 3, 0,  40, 0, 0) /* Run                 Specialized */
+     , (2584, 31, 0, 3, 0,  14, 0, 0) /* CreatureEnchantment Specialized */
+     , (2584, 33, 0, 3, 0,  14, 0, 0) /* LifeMagic           Specialized */
+     , (2584, 34, 0, 3, 0,  14, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (2584,  0,  4,  0,    0,   90,   72,   52,   25,   63,   52,   34,   34,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

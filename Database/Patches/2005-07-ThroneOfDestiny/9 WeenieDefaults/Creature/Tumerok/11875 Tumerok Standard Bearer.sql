@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11875;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11875, 'tumerokbannerfalcon', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (11875, 'tumerokbannerfalcon', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11875,   1,         16) /* ItemType - Creature */
@@ -91,16 +91,13 @@ VALUES (11875,   1,    40, 0, 0, 103) /* MaxHealth */
      , (11875,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11875,  1, 0, 3, 0,  90, 0, 0) /* Axe                 Specialized */
-     , (11875,  2, 0, 3, 0,  90, 0, 0) /* Bow                 Specialized */
-     , (11875,  3, 0, 3, 0,  90, 0, 0) /* Crossbow            Specialized */
-     , (11875,  4, 0, 3, 0,  90, 0, 0) /* Dagger              Specialized */
-     , (11875,  5, 0, 3, 0,  90, 0, 0) /* Mace                Specialized */
+VALUES (11875, 45, 0, 3, 0,  90, 0, 0) /* LightWeapons        Specialized */
+     , (11875, 47, 0, 3, 0,  90, 0, 0) /* MissileWeapons      Specialized */
+     , (11875, 46, 0, 3, 0,  90, 0, 0) /* FinesseWeapons      Specialized */
      , (11875,  6, 0, 3, 0,  72, 0, 0) /* MeleeDefense        Specialized */
      , (11875,  7, 0, 3, 0, 111, 0, 0) /* MissileDefense      Specialized */
-     , (11875, 10, 0, 3, 0,  90, 0, 0) /* Staff               Specialized */
-     , (11875, 11, 0, 3, 0,  90, 0, 0) /* Sword               Specialized */
-     , (11875, 13, 0, 3, 0,  90, 0, 0) /* UnarmedCombat       Specialized */
+     , (11875, 44, 0, 3, 0,  90, 0, 0) /* HeavyWeapons        Specialized */
+     , (11875, 48, 0, 3, 0,  90, 0, 0) /* Shield              Specialized */
      , (11875, 15, 0, 3, 0,  84, 0, 0) /* MagicDefense        Specialized */
      , (11875, 20, 0, 2, 0,  10, 0, 0) /* Deception           Trained */
      , (11875, 24, 0, 2, 0,  60, 0, 0) /* Run                 Trained */;

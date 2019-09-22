@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5119;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5119, 'nantoinuokonkou', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (5119, 'nantoinuokonkou', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5119,   1,         16) /* ItemType - Creature */
@@ -84,10 +84,10 @@ VALUES (5119,   1,     0, 0, 0, 33) /* MaxHealth */
      , (5119,   5,     0, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (5119,  6, 0, 2, 0,   4, 0, 413.002288818359) /* MeleeDefense        Trained */
-     , (5119,  7, 0, 2, 0,   5, 0, 413.002288818359) /* MissileDefense      Trained */
-     , (5119, 13, 0, 2, 0,   5, 0, 413.002288818359) /* UnarmedCombat       Trained */
-     , (5119, 32, 0, 2, 0, 200, 0, 413.002288818359) /* ItemEnchantment     Trained */;
+VALUES (5119,  6, 0, 2, 0,   4, 0, 0) /* MeleeDefense        Trained */
+     , (5119,  7, 0, 2, 0,   5, 0, 0) /* MissileDefense      Trained */
+     , (5119, 45, 0, 2, 0,   5, 0, 0) /* LightWeapons        Trained */
+     , (5119, 32, 0, 2, 0, 200, 0, 0) /* ItemEnchantment     Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (5119,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

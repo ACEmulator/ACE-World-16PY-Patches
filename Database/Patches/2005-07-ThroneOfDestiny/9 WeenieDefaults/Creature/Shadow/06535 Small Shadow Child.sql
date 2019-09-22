@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6535;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6535, 'shadowchildsmall', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (6535, 'shadowchildsmall', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6535,   1,         16) /* ItemType - Creature */
@@ -20,8 +20,7 @@ VALUES (6535,   1,         16) /* ItemType - Creature */
      , (6535, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6535, 140,          1) /* AiOptions - CanOpenDoors */
      , (6535, 146,       1000) /* XpOverride */
-     , (6535, 188,          1) /* HeritageGroup - Aluvian */
-     , (6535, 307,          5) /* DamageRating */;
+     , (6535, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6535,   1, True ) /* Stuck */
@@ -106,23 +105,18 @@ VALUES (6535,   1,    10, 0, 0, 40) /* MaxHealth */
      , (6535,   5,    30, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (6535,  1, 0, 3, 0,  75, 0, 479.05908203125) /* Axe                 Specialized */
-     , (6535,  2, 0, 3, 0,  80, 0, 479.05908203125) /* Bow                 Specialized */
-     , (6535,  3, 0, 3, 0,  80, 0, 479.05908203125) /* Crossbow            Specialized */
-     , (6535,  4, 0, 3, 0,  75, 0, 479.05908203125) /* Dagger              Specialized */
-     , (6535,  5, 0, 3, 0,  75, 0, 479.05908203125) /* Mace                Specialized */
-     , (6535,  6, 0, 3, 0,  44, 0, 479.05908203125) /* MeleeDefense        Specialized */
-     , (6535,  7, 0, 3, 0,  78, 0, 479.05908203125) /* MissileDefense      Specialized */
-     , (6535,  9, 0, 3, 0,  75, 0, 479.05908203125) /* Spear               Specialized */
-     , (6535, 10, 0, 3, 0,  75, 0, 479.05908203125) /* Staff               Specialized */
-     , (6535, 11, 0, 3, 0,  75, 0, 479.05908203125) /* Sword               Specialized */
-     , (6535, 13, 0, 3, 0,  75, 0, 479.05908203125) /* UnarmedCombat       Specialized */
-     , (6535, 14, 0, 3, 0,  50, 0, 479.05908203125) /* ArcaneLore          Specialized */
-     , (6535, 15, 0, 3, 0,  46, 0, 479.05908203125) /* MagicDefense        Specialized */
-     , (6535, 20, 0, 3, 0,  80, 0, 479.05908203125) /* Deception           Specialized */
-     , (6535, 31, 0, 3, 0,  34, 0, 479.05908203125) /* CreatureEnchantment Specialized */
-     , (6535, 33, 0, 3, 0,  34, 0, 479.05908203125) /* LifeMagic           Specialized */
-     , (6535, 34, 0, 3, 0,  34, 0, 479.05908203125) /* WarMagic            Specialized */;
+VALUES (6535, 45, 0, 3, 0,  75, 0, 0) /* LightWeapons        Specialized */
+     , (6535, 47, 0, 3, 0,  80, 0, 0) /* MissileWeapons      Specialized */
+     , (6535, 46, 0, 3, 0,  75, 0, 0) /* FinesseWeapons      Specialized */
+     , (6535,  6, 0, 3, 0,  44, 0, 0) /* MeleeDefense        Specialized */
+     , (6535,  7, 0, 3, 0,  78, 0, 0) /* MissileDefense      Specialized */
+     , (6535, 44, 0, 3, 0,  75, 0, 0) /* HeavyWeapons        Specialized */
+     , (6535, 14, 0, 3, 0,  50, 0, 0) /* ArcaneLore          Specialized */
+     , (6535, 15, 0, 3, 0,  46, 0, 0) /* MagicDefense        Specialized */
+     , (6535, 20, 0, 3, 0,  80, 0, 0) /* Deception           Specialized */
+     , (6535, 31, 0, 3, 0,  34, 0, 0) /* CreatureEnchantment Specialized */
+     , (6535, 33, 0, 3, 0,  34, 0, 0) /* LifeMagic           Specialized */
+     , (6535, 34, 0, 3, 0,  34, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (6535,  0,  4,  0,    0,   80,   80,   49,   59,   24,   80,   30,   49,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
