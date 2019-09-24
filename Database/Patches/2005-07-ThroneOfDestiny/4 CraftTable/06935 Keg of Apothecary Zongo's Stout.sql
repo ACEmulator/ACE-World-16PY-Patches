@@ -6,4 +6,4 @@ VALUES (6935, 0, 39 /* Cooking */, 200, 0, 32267 /* Keg of Apothecary Zongo's St
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6935;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6935, 29144 /* Empty Stopped Keg */, 32264 /* Apothecary Zongo's Stout Brew */, '2019-04-15 18:20:10');
+VALUES (6935, 29144 /* Empty Stopped Keg */, 32264 /* Apothecary Zongo's Stout Brew */, '2019-09-23 18:20:10');

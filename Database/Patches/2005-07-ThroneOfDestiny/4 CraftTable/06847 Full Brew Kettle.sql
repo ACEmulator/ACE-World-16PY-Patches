@@ -6,4 +6,4 @@ VALUES (6847, 0, 39 /* Cooking */, 200, 0, 29201 /* Full Brew Kettle */, 1, 'You
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6847;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6847, 29161 /* Brew Kettle */,  4746 /* Water */, '2019-04-15 18:20:10');
+VALUES (6847, 29161 /* Brew Kettle */,  4746 /* Water */, '2019-09-23 18:20:10');

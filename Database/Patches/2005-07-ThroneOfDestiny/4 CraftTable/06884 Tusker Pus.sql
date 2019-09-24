@@ -6,4 +6,4 @@ VALUES (6884, 0, 39 /* Cooking */, 200, 0, 29108 /* Tusker Pus */, 50, 'You fill
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6884;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6884, 29180 /* Empty Bottles */, 29142 /* Keg of Tusker Pus */, '2019-04-15 18:20:10');
+VALUES (6884, 29180 /* Empty Bottles */, 29142 /* Keg of Tusker Pus */, '2019-09-23 18:20:10');

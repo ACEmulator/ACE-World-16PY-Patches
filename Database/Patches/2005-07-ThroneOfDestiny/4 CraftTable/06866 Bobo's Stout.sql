@@ -6,4 +6,4 @@ VALUES (6866, 0, 39 /* Cooking */, 300, 0, 29106 /* Bobo's Stout */, 50, 'You fi
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6866;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6866, 29180 /* Empty Bottles */, 29140 /* Keg of Bobo's Stout */, '2019-04-15 18:20:10');
+VALUES (6866, 29180 /* Empty Bottles */, 29140 /* Keg of Bobo's Stout */, '2019-09-23 18:20:10');

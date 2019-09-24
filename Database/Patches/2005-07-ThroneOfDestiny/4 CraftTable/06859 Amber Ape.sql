@@ -6,4 +6,4 @@ VALUES (6859, 0, 39 /* Cooking */, 300, 0, 29104 /* Amber Ape */, 50, 'You fill 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6859;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6859, 29180 /* Empty Bottles */, 29132 /* Keg of Amber Ape */, '2019-04-15 18:20:10');
+VALUES (6859, 29180 /* Empty Bottles */, 29132 /* Keg of Amber Ape */, '2019-09-23 18:20:10');

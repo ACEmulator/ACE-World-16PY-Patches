@@ -6,4 +6,4 @@ VALUES (6920, 0, 39 /* Cooking */, 200, 0, 29157 /* Keg of Tasty Stout */, 1, 'Y
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6920;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6920, 29144 /* Empty Stopped Keg */, 29190 /* Tasty Dark Brew */, '2019-04-15 18:20:10');
+VALUES (6920, 29144 /* Empty Stopped Keg */, 29190 /* Tasty Dark Brew */, '2019-09-23 18:20:10');

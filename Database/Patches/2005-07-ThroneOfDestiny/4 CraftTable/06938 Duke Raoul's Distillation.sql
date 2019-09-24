@@ -6,4 +6,4 @@ VALUES (6938, 0, 39 /* Cooking */, 300, 0, 32271 /* Duke Raoul's Distillation */
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6938;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6938, 29144 /* Empty Stopped Keg */, 32266 /* Duke Raoul's Distillation Brew */, '2019-04-15 18:20:10');
+VALUES (6938, 29144 /* Empty Stopped Keg */, 32266 /* Duke Raoul's Distillation Brew */, '2019-09-23 18:20:10');

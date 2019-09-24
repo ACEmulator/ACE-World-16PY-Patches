@@ -6,4 +6,4 @@ VALUES (6914, 0, 39 /* Cooking */, 200, 0, 29113 /* Homemade Lager */, 50, 'You 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6914;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6914, 29180 /* Empty Bottles */, 29148 /* Keg of Homemade Lager */, '2019-04-15 18:20:10');
+VALUES (6914, 29180 /* Empty Bottles */, 29148 /* Keg of Homemade Lager */, '2019-09-23 18:20:10');

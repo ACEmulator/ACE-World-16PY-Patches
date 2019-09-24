@@ -6,4 +6,4 @@ VALUES (6893, 0, 39 /* Cooking */, 200, 0, 29141 /* Keg of Rancid Ale */, 1, 'Yo
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6893;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6893, 29144 /* Empty Stopped Keg */, 29198 /* Rancid Fermented Brew */, '2019-04-15 18:20:10');
+VALUES (6893, 29144 /* Empty Stopped Keg */, 29198 /* Rancid Fermented Brew */, '2019-09-23 18:20:10');

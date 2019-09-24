@@ -6,4 +6,4 @@ VALUES (6936, 0, 39 /* Cooking */, 200, 0, 32269 /* Keg of Hunter's Stock Amber 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6936;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6936, 29144 /* Empty Stopped Keg */, 32265 /* Hunter's Stock Amber Brew */, '2019-04-15 18:20:10');
+VALUES (6936, 29144 /* Empty Stopped Keg */, 32265 /* Hunter's Stock Amber Brew */, '2019-09-23 18:20:10');

@@ -6,4 +6,4 @@ VALUES (6899, 0, 39 /* Cooking */, 200, 0, 29134 /* Keg of Distasteful Amber Ale
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6899;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6899, 29144 /* Empty Stopped Keg */, 29183 /* Distasteful Amber Brew */, '2019-04-15 18:20:10');
+VALUES (6899, 29144 /* Empty Stopped Keg */, 29183 /* Distasteful Amber Brew */, '2019-09-23 18:20:10');
