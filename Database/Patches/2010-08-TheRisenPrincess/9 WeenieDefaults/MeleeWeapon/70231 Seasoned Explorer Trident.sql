@@ -34,7 +34,8 @@ VALUES (70231,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70231,  22, True ) /* Inscribable */
-     , (70231,  69, False) /* IsSellable */;
+     , (70231,  69, False) /* IsSellable */
+     , (70231,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (70231,   5, -0.025) /* ManaRate */
