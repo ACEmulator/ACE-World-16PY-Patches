@@ -22,6 +22,7 @@ VALUES (70249,   1,          1) /* ItemType - MeleeWeapon */
      , (70249, 106,        250) /* ItemSpellcraft */
      , (70249, 107,        400) /* ItemCurMana */
      , (70249, 108,        400) /* ItemMaxMana */
+     , (70249, 114,          1) /* Attuned - Attuned */
      , (70249, 109,        100) /* ItemDifficulty */
      , (70249, 150,        103) /* HookPlacement - Hook */
      , (70249, 151,          2) /* HookType - Wall */

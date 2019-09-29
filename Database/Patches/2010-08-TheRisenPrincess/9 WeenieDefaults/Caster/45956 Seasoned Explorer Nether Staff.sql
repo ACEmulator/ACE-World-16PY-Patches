@@ -38,7 +38,7 @@ VALUES (45956,   5,  -0.025) /* ManaRate */
      , (45956,  39,     0.6) /* DefaultScale */
      , (45956, 144,    0.08) /* ManaConversionMod */
      , (45956, 147,       1) /* CriticalFrequency */
-     , (45956, 152,    1.17) /* ElementalDamageMod */;
+     , (45956, 152,    1.10) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45956,   1, 'Seasoned Explorer Nether Staff') /* Name */;

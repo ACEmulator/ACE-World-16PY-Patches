@@ -23,6 +23,7 @@ VALUES (70233,   1,          1) /* ItemType - MeleeWeapon */
      , (70233, 107,        400) /* ItemCurMana */
      , (70233, 108,        400) /* ItemMaxMana */
      , (70233, 109,        100) /* ItemDifficulty */
+     , (70233, 114,          1) /* Attuned - Attuned */
      , (70233, 150,        103) /* HookPlacement - Hook */
      , (70233, 151,          2) /* HookType - Wall */
      , (70233, 158,          2) /* WieldRequirements - RawSkill */
