@@ -23,6 +23,7 @@ VALUES (70241,   1,          1) /* ItemType - MeleeWeapon */
      , (70241, 107,        400) /* ItemCurMana */
      , (70241, 108,        400) /* ItemMaxMana */
      , (70241, 109,        100) /* ItemDifficulty */
+     , (70241, 114,          1) /* Attuned - Attuned */
      , (70241, 150,        103) /* HookPlacement - Hook */
      , (70241, 151,          2) /* HookType - Wall */
      , (70241, 158,          2) /* WieldRequirements - RawSkill */
@@ -33,7 +34,8 @@ VALUES (70241,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70241,  22, True ) /* Inscribable */
-     , (70241,  69, False) /* IsSellable */;
+     , (70241,  69, False) /* IsSellable */
+     , (70241,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (70241,   5, -0.025) /* ManaRate */
