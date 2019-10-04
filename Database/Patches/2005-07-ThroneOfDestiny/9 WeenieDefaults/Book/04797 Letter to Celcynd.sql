@@ -24,7 +24,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4797,   1, 'Letter to Celcynd') /* Name */
      , (4797,   7, 'To Celcynd') /* Inscription */
      , (4797,   8, 'Brentsella') /* ScribeName */
-     , (5059,  33, 'LetterToCelcyndQuest') /* Quest */;
+     , (4797,  33, 'LetterToCelcyndQuest') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4797,   1,   33554773) /* Setup */
