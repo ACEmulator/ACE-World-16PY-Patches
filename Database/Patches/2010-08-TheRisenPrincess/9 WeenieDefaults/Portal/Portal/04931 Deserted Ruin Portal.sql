@@ -25,7 +25,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4931,   1, 'Deserted Ruin Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4931,   1,   33555922) /* Setup */
+VALUES (4931,   1,   33555923) /* Setup */
      , (4931,   2,  150994947) /* MotionTable */
      , (4931,   8,  100667499) /* Icon */;
 
