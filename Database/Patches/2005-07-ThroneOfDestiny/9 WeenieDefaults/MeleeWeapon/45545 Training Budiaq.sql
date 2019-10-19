@@ -12,7 +12,7 @@ VALUES (45545,   1,          1) /* ItemType - MeleeWeapon */
      , (45545,  44,          9) /* Damage */
      , (45545,  45,          2) /* DamageType - Pierce */
      , (45545,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (45545,  47,          1) /* AttackType - Punch */
+     , (45545,  47,          2) /* AttackType - Thrust */
      , (45545,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (45545,  49,         25) /* WeaponTime */
      , (45545,  51,          1) /* CombatUse - Melee */
