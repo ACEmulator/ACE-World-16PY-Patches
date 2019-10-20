@@ -21,10 +21,13 @@ VALUES (42724,   1, False) /* Stuck */
      , (42724,  11, True ) /* IgnoreCollisions */
      , (42724,  13, True ) /* Ethereal */
      , (42724,  14, True ) /* GravityStatus */
-     , (42724,  19, True ) /* Attackable */;
+     , (42724,  19, True ) /* Attackable */
+     , (42724,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (42724,   1, 'Armor Layering Tool (Top)') /* Name */;
+VALUES (42724,   1, 'Armor Layering Tool (Top)') /* Name */
+     , (42724,  14, 'Use this tool on any loot generated piece of armor and make it show on top of other armor visually covering the same locations.') /* Use */
+     , (42724,  16, 'A tool used to determine the layering of armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42724,   1,   33555677) /* Setup */
