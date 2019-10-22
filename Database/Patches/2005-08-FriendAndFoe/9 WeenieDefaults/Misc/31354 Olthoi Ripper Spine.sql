@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31354;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31354, 'ace31354-olthoiripperspine', 1, '2019-04-13 09:04:22') /* Generic */;
+VALUES (31354, 'ace31354-olthoiripperspine', 51, '2019-10-22 00:00:00') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31354,   1,        128) /* ItemType - Misc */
@@ -14,7 +14,7 @@ VALUES (31354,   1,        128) /* ItemType - Misc */
      , (31354,  16,          1) /* ItemUseable - No */
      , (31354,  19,      10000) /* Value */
      , (31354,  33,          1) /* Bonded - Bonded */
-     , (31354,  53,        101) /* PlacementPosition - Resting */
+     , (31354,  53,        101) /* PlacementPosition */
      , (31354,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31354, 114,          1) /* Attuned - Attuned */;
 
@@ -22,8 +22,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31354,  11, True ) /* IgnoreCollisions */
      , (31354,  13, True ) /* Ethereal */
      , (31354,  14, True ) /* GravityStatus */
-     , (31354,  19, True ) /* Attackable */
-     , (31354,  69, False) /* IsSellable */;
+     , (31354,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31354,   1, 'Olthoi Ripper Spine') /* Name */
