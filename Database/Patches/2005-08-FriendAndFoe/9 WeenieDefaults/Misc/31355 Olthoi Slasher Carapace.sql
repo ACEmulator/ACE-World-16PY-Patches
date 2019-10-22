@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31355;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31355, 'ace31355-olthoislashercarapace', 1, '2019-04-13 09:04:22') /* Generic */;
+VALUES (31355, 'ace31355-olthoislashercarapace', 51, '2019-10-21 09:04:22') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31355,   1,        128) /* ItemType - Misc */
@@ -14,7 +14,6 @@ VALUES (31355,   1,        128) /* ItemType - Misc */
      , (31355,  16,          1) /* ItemUseable - No */
      , (31355,  19,      10000) /* Value */
      , (31355,  33,          1) /* Bonded - Bonded */
-     , (31355,  53,        101) /* PlacementPosition - Resting */
      , (31355,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31355, 114,          1) /* Attuned - Attuned */;
 
@@ -22,13 +21,11 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31355,  11, True ) /* IgnoreCollisions */
      , (31355,  13, True ) /* Ethereal */
      , (31355,  14, True ) /* GravityStatus */
-     , (31355,  19, True ) /* Attackable */
-     , (31355,  69, False) /* IsSellable */;
+     , (31355,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31355,   1, 'Olthoi Slasher Carapace') /* Name */
-     , (31355,  16, 'The pristine carapace of an Olthoi Slasher.') /* LongDesc */
-     , (31355,  20, 'Olthoi Slasher Carapaces') /* PluralName */;
+     , (31355,  16, 'The pristine carapace of an Olthoi Slasher.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31355,   1,   33554817) /* Setup */
