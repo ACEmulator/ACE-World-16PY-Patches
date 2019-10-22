@@ -19,7 +19,7 @@ VALUES (31344,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31344,   1, 'Skeletal Jawbone') /* Name */
-     , (31344,  16, 'A severed jawbone from a Naughty Skeleton.') /* LongDesc */
+     , (31344,  16, 'A severed jawbone from a Naughty Skeleton.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31344,   1,   33554817) /* Setup */
