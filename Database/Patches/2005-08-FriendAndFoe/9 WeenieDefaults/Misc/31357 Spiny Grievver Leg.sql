@@ -18,7 +18,8 @@ VALUES (31357,   1,        128) /* ItemType - Misc */
      , (31357, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31357,   1, 'Spiny Grievver Leg') /* Name */;
+VALUES (31357,   1, 'Spiny Grievver Leg') /* Name */
+     , (31357,  16, 'A spiny leg from a Burrowing Grievver.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31357,   1,   33554817) /* Setup */
