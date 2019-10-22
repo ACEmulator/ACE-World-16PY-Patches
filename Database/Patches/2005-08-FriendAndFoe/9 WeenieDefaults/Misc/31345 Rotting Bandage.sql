@@ -18,7 +18,8 @@ VALUES (31345,   1,        128) /* ItemType - Misc */
      , (31345, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31345,   1, 'Rotting Bandage') /* Name */;
+VALUES (31345,   1, 'Rotting Bandage') /* Name */
+     , (31345,  16, 'This rare piece of material was salvaged from the remains of a Mu-Miyah Sentinel. Although it has rotted beyond any practical use, it may still have some value to a collector.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31345,   1,   33554817) /* Setup */
