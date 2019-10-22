@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29204;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29204, 'tuskerspit', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (29204, 'tuskerspit', 44, '2019-10-22 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29204,   1,        128) /* ItemType - Misc */
@@ -12,7 +12,6 @@ VALUES (29204,   1,        128) /* ItemType - Misc */
      , (29204,  15,          0) /* StackUnitValue */
      , (29204,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29204,  19,          0) /* Value */
-     , (29204,  53,        101) /* PlacementPosition */
      , (29204,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29204,  94,    4194336) /* TargetType - Food, CraftCookingBase */
      , (29204, 151,          2) /* HookType - Wall */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31344;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31344, 'ace31344-skeletaljawbone', 1, '2019-03-27 07:14:36') /* Generic */;
+VALUES (31344, 'ace31344-skeletaljawbone', 51, '2019-10-22 00:00:00') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31344,   1,        128) /* ItemType - Misc */
@@ -18,7 +18,8 @@ VALUES (31344,   1,        128) /* ItemType - Misc */
      , (31344, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31344,   1, 'Skeletal Jawbone') /* Name */;
+VALUES (31344,   1, 'Skeletal Jawbone') /* Name */
+     , (31344,  16, 'A severed jawbone from a Naughty Skeleton.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31344,   1,   33554817) /* Setup */

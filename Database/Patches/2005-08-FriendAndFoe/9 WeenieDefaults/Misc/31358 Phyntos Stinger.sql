@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31358;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31358, 'ace31358-phyntosstinger', 1, '2019-03-27 07:14:36') /* Generic */;
+VALUES (31358, 'ace31358-phyntosstinger', 51, '2019-10-22 00:00:00') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31358,   1,        128) /* ItemType - Misc */
@@ -18,7 +18,8 @@ VALUES (31358,   1,        128) /* ItemType - Misc */
      , (31358, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31358,   1, 'Phyntos Stinger') /* Name */;
+VALUES (31358,   1, 'Phyntos Stinger') /* Name */
+     , (31358,  16, 'A perfectly intact stinger from an Agitated Phyntos Wasp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31358,   1,   33554817) /* Setup */
