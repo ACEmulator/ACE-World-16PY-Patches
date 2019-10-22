@@ -12,7 +12,6 @@ VALUES (29204,   1,        128) /* ItemType - Misc */
      , (29204,  15,          0) /* StackUnitValue */
      , (29204,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29204,  19,          0) /* Value */
-     , (29204,  53,        101) /* PlacementPosition */
      , (29204,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29204,  94,    4194336) /* TargetType - Food, CraftCookingBase */
      , (29204, 151,          2) /* HookType - Wall */;
