@@ -18,7 +18,8 @@ VALUES (31349,   1,        128) /* ItemType - Misc */
      , (31349, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31349,   1, 'Mosswart Armband') /* Name */;
+VALUES (31349,   1, 'Mosswart Armband') /* Name */
+     , (31349,  16, 'A decorative armband from a Mosswart Elder.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31349,   1,   33554817) /* Setup */
