@@ -18,7 +18,8 @@ VALUES (31358,   1,        128) /* ItemType - Misc */
      , (31358, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31358,   1, 'Phyntos Stinger') /* Name */;
+VALUES (31358,   1, 'Phyntos Stinger') /* Name */
+     , (31358,  16, 'A perfectly intact stinger from an Agitated Phyntos Wasp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31358,   1,   33554817) /* Setup */
