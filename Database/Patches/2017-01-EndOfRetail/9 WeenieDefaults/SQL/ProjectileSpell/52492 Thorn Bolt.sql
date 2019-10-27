@@ -29,6 +29,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52492,   1,   33561630) /* Setup */
      , (52492,   3,  536870971) /* SoundTable */
      , (52492,   8,  100667494) /* Icon */
-     , (52492,  19,         90) /* ActivationAnimation */
+     , (52492,  30,         90) /* PhysicsScript - ProjectileCollision */
      , (52492,  22,  872415445) /* PhysicsEffectTable */
      , (52492,  28,         86) /* Spell - Force Bolt I */;
