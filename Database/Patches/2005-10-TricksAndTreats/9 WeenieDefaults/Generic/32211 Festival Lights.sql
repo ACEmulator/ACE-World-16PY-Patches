@@ -17,6 +17,7 @@ VALUES (32211,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32211,  39, 0.300000011920929) /* DefaultScale */
+     , (32211,  44,      30) /* TimeToRot */
      , (32211,  76, 0.300000011920929) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
