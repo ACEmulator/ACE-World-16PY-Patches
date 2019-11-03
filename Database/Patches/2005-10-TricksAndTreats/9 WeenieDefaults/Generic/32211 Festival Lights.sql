@@ -10,18 +10,14 @@ VALUES (32211,   1,        128) /* ItemType - Misc */
      , (32211,  19,       5000) /* Value */
      , (32211,  53,        101) /* PlacementPosition - Resting */
      , (32211,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32211, 151,          6) /* HookType - Wall, Ceiling */
-     , (32211, 267,         30) /* Lifespan */;
+     , (32211, 151,          6) /* HookType - Wall, Ceiling */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32211,  11, True ) /* IgnoreCollisions */
-     , (32211,  13, True ) /* Ethereal */
-     , (32211,  14, True ) /* GravityStatus */
-     , (32211,  19, True ) /* Attackable */
-     , (32211,  22, True ) /* Inscribable */;
+VALUES (32211,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32211,  39, 0.300000011920929) /* DefaultScale */
+     , (32211,  44,      30) /* TimeToRot */
      , (32211,  76, 0.300000011920929) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
