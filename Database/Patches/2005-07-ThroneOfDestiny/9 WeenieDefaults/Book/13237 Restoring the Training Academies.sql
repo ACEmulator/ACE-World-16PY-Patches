@@ -15,10 +15,6 @@ VALUES (13237,   1,       8192) /* ItemType - Writable */
      , (13237, 174,          3) /* AppraisalPages */
      , (13237, 175,          3) /* AppraisalMaxPages */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13237,  22, False) /* Inscribable */
-     , (13237,  23, True ) /* DestroyOnSell */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (13237,  54,       1) /* UseRadius */;
 
@@ -32,7 +28,7 @@ VALUES (13237,   1,   33554773) /* Setup */
      , (13237,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (13237, 1, 1000);
+VALUES (13237, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (13237, 0, 4294967295, 'Einrik Gaul, Leader of the Society', 'prewritten', False, 'With the arrival of the Viamontians, Queen Elysa has called all of her forces to active duty. She can no longer afford to maintain the Training Academies as she once did. However, I was able to come to an agreement with her whereby the Dereth Exploration Society assumes full ownership of the Academies. 
