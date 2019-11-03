@@ -23,7 +23,9 @@ VALUES (2048536589,  5086, 2711814449, 88.8657, 149.142, 48.737, -4.37114E-08, 0
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (2048536589, 2048536590, '2019-11-03 10:00:00') /* Cavern */
      , (2048536589, 2048536591, '2019-11-03 10:00:00') /* Fletching Forge */
-     , (2048536589, 2048536592, '2019-11-03 10:00:00') /* Pyreal Target Drudge */;
+     , (2048536589, 2048536592, '2019-11-03 10:00:00') /* Pyreal Target Drudge */
+     , (2048536589, 2048536593, '2019-11-03 10:00:00') /* Pyreal Target Drudge */
+     , (2048536589, 2048536594, '2019-11-03 10:00:00') /* Pyreal Target Drudge */;
      
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2048536590, 44075, 2711814449, 88.8657, 149.142, 48.737, -4.37114E-08, 0, 0, -1, True, '2019-11-03 19:50:48'); /* Cavern */
@@ -36,3 +38,11 @@ VALUES (2048536591, 30467, 2711814424, 109.949, 139.008, 36.8, -0.707107, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2048536592, 24888, 2711814410, 126.626, 120.927, 36.8042, -1, 0, 0, 4.37114E-08, True, '2019-11-03 19:50:48'); /* Pyreal Target Drudge */
 /* @teleloc 0xA1A3010A [126.626000 120.927000 36.804200] -1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (2048536593, 24888, 2711814410, 131.011, 120.96, 36.8042, -1, 0, 0, 4.37114E-08,  True, '2019-11-03 00:00:00'); /* Pyreal Target Drudge */
+/* @teleloc 0xA1A3010A [131.011000 120.960000 36.804200] -1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (2048536594, 24888, 2711814410, 128.841, 120.921, 36.8042, -1, 0, 0, 4.37114E-08,  True, '2019-11-03 00:00:00'); /* Pyreal Target Drudge */
+/* @teleloc 0xA1A3010A [128.841000 120.921000 36.804200] -1.000000 0.000000 0.000000 0.000000 */
