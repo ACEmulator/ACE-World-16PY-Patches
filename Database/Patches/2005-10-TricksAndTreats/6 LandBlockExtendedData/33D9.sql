@@ -1,0 +1,3 @@
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1933414437, 80022, 869859349, 62.5383, 108.5556, 52.005, -0.124675, 0, 0, -0.992198, False, '2019-11-03 00:00:00'); /* Pumpkin Buffer Generator */
+/* @teleloc 0x33D90015 [62.538357 108.555611 52.005001] -0.124675 0.000000 0.000000 -0.992198 */

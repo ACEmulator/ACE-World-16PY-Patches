@@ -22,7 +22,7 @@ VALUES (80021,  41,      30) /* RegenerationInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80021,   1, 'Festival Vendor Generator') /* Name */
-     , (80021,  34, 'EventFestivalVendor') /* GeneratorEvent */;
+     , (80021,  34, 'EventFallFestival') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (80021,   1,   33555051) /* Setup */
