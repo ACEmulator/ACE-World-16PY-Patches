@@ -29,33 +29,28 @@ VALUES (8676,   1,   33554771) /* Setup */
      , (8676,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
-VALUES (8676, 12, 1000);
+VALUES (8676, 11, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8676, 0, 4294967295, '', 'prewritten', False, 'Welcome to the land of Dereth, fellow traveler! 
+VALUES (8676, 0, 4294967295, '', 'prewritten', False, 'Welcome to the land of Dereth, fellow traveler!
 
-I know that your arrival to the Kingdom of New Aluvia may have been a turbulent one. You have been thrust into a land fraught with dangers and challenges around every turn. Our Explorers are visiting the length and breadth of Dereth to examine its creatures and wildlife. If we cannot leave Dereth, then we will make it our own.
+I know that your arrival to the Kingdom of New Aluvia may have been a turbulent one.  You have been thrust into a land fraught with dangers and challenges around every turn. Our Explorers are visiting the length and breadth of Dereth to examine its creatures and wildlife.  If we cannot leave Dereth, then we will make it our own.
 ')
-     , (8676, 1, 4294967295, '', 'prewritten', False, 'To that end, we at the Society are providing an adventure for all new travelers to Dereth. Throughout the civilized lands of Osteth we have scattered official Red and Gold Letters amongst the hostile creatures that our young adventurers are most prone to encounter. Occasionally these creatures will leave behind a Red, or perhaps even a Gold Letter. Acquiring the possession of such a letter is only the first step, however.
+     , (8676, 1, 4294967295, '', 'prewritten', False, 'To that end, we at the Society are providing an adventure for all new travelers to Dereth.  Throughout the civilized lands of Osteth we have scattered official Red and Gold Letters amongst the hostile creatures that our young adventurers are most prone to encounter. Occasionally these creatures will leave behind a Red, or perhaps even a Gold Letter.  Acquiring the possession of such a letter is only the first step, however.
 ')
-     , (8676, 2, 4294967295, '', 'prewritten', False, 'We have contacted  residents of nine cities located in Osteth. These residents have agreed to don the green cap and robes of the Agents of the Society.  They have hidden their official town stamp in dungeons near each of their towns. Find the Town Stamp and use it on your Red or Gold Letter.  This will create a Stamped Red or Gold Letter, marked with the name of the town whose stamp you used. Take this Stamped Letter to one of the Agents and exchange for it a reward.
+     , (8676, 2, 4294967295, '', 'prewritten', False, 'We have contacted  residents of six cities located in Osteth. These residents have agreed to don the green cap and robes of the Agents of the Society.  They have hidden their official town stamp in dungeons near each of their towns. Find the Town Stamp and use it on your Red or Gold Letter.  This will create a Stamped Red or Gold Letter, marked with the name of the town whose stamp you used. Take this Stamped Letter to one of the Agents and exchange it for a reward.
 ')
-     , (8676, 3, 4294967295, '', 'prewritten', False, 'We have contacted residents of six cities located in Osteth. These residents have agreed to don the green cap and robes of the Agents of the Society. They have hidden their official town stamp in dungeons near each of their towns. Find the Town Stamp and use it on your Red or Gold Letter. This will create a Stamped Red or Gold Letter, marked with the name of the town whose stamp you used. Take this Stamped Letter to one of the Agents and exchange it for a reward.
-
-Turning in red stamped letters will yield a Society reward while gold stamped letter will yield a more powerful Explorer reward. We created these rewards in the hope that they will aid you in adapting and eventually thriving in your new home.
-')
-     , (8676, 4, 4294967295, '', 'prewritten', False, 'The reward you will receive depends on what town stamped letter is being turned in at which town. Keep in mind that in order to encourage exploration and give you experience in using the Town Network, which many of us use to travel around Dereth, Society Agents will no longer accept letters from their own towns! 
+     , (8676, 3, 4294967295, '', 'prewritten', False, 'The reward you will receive depends on what town stamped letter is being turned in at which town. Keep in mind that in order to encourage exploration and give you experience in using the Town Network, which many of us use to travel around Dereth, Society Agents will no longer accept letters from their own towns!
 
 Turning in red stamped letters will yield an Amateur Explorer reward while gold stamped letter will yield a more powerful Seasoned Explorer reward. We created these rewards in the hope that they will aid you in adapting and eventually thriving in your new home.
 ')
-     , (8676, 5, 4294967295, '', 'prewritten', False, 'I wish you the best of luck in your journey. 
+     , (8676, 4, 4294967295, '', 'prewritten', False, 'I wish you the best of luck in your journey.   
 
-
-Sir Alayne, Founder of the Dereth Exploration Society 
+Sir Alayne, Founder of the Dereth Exploration Society
 
 I''ve listed the names of the Society Agents and their towns in the following pages of this book. I have also listed the rewards you will recieve for bringing them stamped letters.
 ')
-     , (8676, 6, 4294967295, '', 'prewritten', False, 'Al-Arqas
+     , (8676, 5, 4294967295, '', 'prewritten', False, 'Al-Arqas
 
      Agent: Jilsaya bint Dah
      Rewards:
@@ -65,7 +60,7 @@ I''ve listed the names of the Society Agents and their towns in the following pa
         Samsur Letter: Sollerets
         Yanshi Letter: Axe    
 ')
-     , (8676, 7, 4294967295, '', 'prewritten', False, 'Lytelthorpe
+     , (8676, 6, 4294967295, '', 'prewritten', False, 'Lytelthorpe
 
      Agent: Lord Aleval
      Rewards:
@@ -75,7 +70,7 @@ I''ve listed the names of the Society Agents and their towns in the following pa
         Samsur Letter: Ring of Quickness
         Yanshi Letter: Breastplate
 ')
-     , (8676, 8, 4294967295, '', 'prewritten', False, 'Nanto
+     , (8676, 7, 4294967295, '', 'prewritten', False, 'Nanto
 
      Agent: Shin Ro
      Rewards:
@@ -85,7 +80,7 @@ I''ve listed the names of the Society Agents and their towns in the following pa
         Samsur Letter: Shirt of Self
         Yanshi Letter: Greaves
 ')
-     , (8676, 9, 4294967295, '', 'prewritten', False, 'Rithwic
+     , (8676, 8, 4294967295, '', 'prewritten', False, 'Rithwic
 
      Agent: Celcynd the Dour
      Rewards:
@@ -93,8 +88,9 @@ I''ve listed the names of the Society Agents and their towns in the following pa
         Lytelthorpe Letter: Unarmed Weapon
         Nanto Letter: Gauntlets
         Samsur Letter: Nether Staff
-        Yanshi Letter: Bracelet of Coordination')
-     , (8676, 10, 4294967295, '', 'prewritten', False, 'Samsur
+        Yanshi Letter: Bracelet of Coordination
+')
+     , (8676, 9, 4294967295, '', 'prewritten', False, 'Samsur
 
      Agent (located at the Northwest Oupost): Rubid al-Jurma
      Rewards:
@@ -102,8 +98,9 @@ I''ve listed the names of the Society Agents and their towns in the following pa
         Lytelthorpe Letter: Bracelet of Strength
         Nanto Letter: Pauldrons
         Rithwic Letter: Helm
-        Yanshi Letter: Bow')
-     , (8676, 11, 4294967295, '', 'prewritten', False, 'Yanshi
+        Yanshi Letter: Bow
+')
+     , (8676, 10, 4294967295, '', 'prewritten', False, 'Yanshi
 
      Agent: Dai Ya
      Rewards:
@@ -111,4 +108,5 @@ I''ve listed the names of the Society Agents and their towns in the following pa
         Lytelthorpe Letter: Shield
         Nanto Letter: Slingshot
         Rithwic Letter: War Wand
-        Samsur Letter: Mace');
+        Samsur Letter: Mace
+');
