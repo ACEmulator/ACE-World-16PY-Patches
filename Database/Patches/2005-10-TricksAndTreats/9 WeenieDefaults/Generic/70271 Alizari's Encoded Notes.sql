@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70271;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70271, 'ace70271-alizarisencodednotes', 1, '2019-09-09 14:38:55') /* Generic */;
+VALUES (70271, 'ace70271-alizarisencodednotes', 1, '2019-11-10 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70271,   1,        128) /* ItemType - Misc */
@@ -23,7 +23,8 @@ VALUES (70271,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70271,   1, 'Alizari''s Encoded Notes') /* Name */
-     , (70271,  16, 'A set of notes written by Master Alizari in a strange, elaborate cipher') /* LongDesc */;
+     , (70271,  16, 'A set of notes written by Master Alizari in a strange, elaborate cipher') /* LongDesc */
+     , (70271,  33, 'plainmukkirorbnotespickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70271,   1,   33554771) /* Setup */
