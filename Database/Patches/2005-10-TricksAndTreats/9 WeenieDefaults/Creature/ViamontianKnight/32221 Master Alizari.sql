@@ -152,7 +152,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32221,  9, 70271,  0,  0,    1, False) /* Create Alizari's Encoded Notes (70271) for ContainTreasure */
-     , (32221, 10, 29966,  1,  0, 0.25, False) /* Create Quadrelle (29966) for WieldTreasure */
-     , (32221, 10, 29971,  1,  0, 0.25, False) /* Create Partizan (29971) for WieldTreasure */
-     , (32221, 10, 29976,  1,  0, 0.25, False) /* Create Spadone (29976) for WieldTreasure */
-     , (32221, 10, 29980, -1,  0, 0.25, False) /* Create Throwing Axe (29980) for WieldTreasure */;
+     , (32221,  2, 29966,  1,  0, 0.25, False) /* Create Quadrelle (29966) for Wield */
+     , (32221,  2, 29971,  1,  0, 0.25, False) /* Create Partizan (29971) for Wield */
+     , (32221,  2, 29976,  1,  0, 0.25, False) /* Create Spadone (29976) for Wield */
+     , (32221,  2, 29980, -1,  0, 0.25, False) /* Create Throwing Axe (29980) for Wield */;
