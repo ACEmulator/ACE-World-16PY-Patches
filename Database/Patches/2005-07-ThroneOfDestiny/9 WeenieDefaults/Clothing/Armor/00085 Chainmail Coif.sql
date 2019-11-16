@@ -17,7 +17,7 @@ VALUES (85,   1,          2) /* ItemType - Armor */
      , (85,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (85, 150,        103) /* HookPlacement - Hook */
      , (85, 151,          2) /* HookType - Wall */
-	 , (85, 124,          3) /* Version */
+     , (85, 124,          3) /* Version */
      , (85, 169,  168427780) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

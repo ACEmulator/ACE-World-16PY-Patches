@@ -15,7 +15,7 @@ VALUES (35,   1,          2) /* ItemType - Armor */
      , (35,  27,         16) /* ArmorType - Chainmail */
      , (35,  28,        140) /* ArmorLevel */
      , (35,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-	 , (35, 124,          3) /* Version */
+     , (35, 124,          3) /* Version */
      , (35, 150,        103) /* HookPlacement - Hook */
      , (35, 151,          2) /* HookType - Wall */
      , (35, 169,  168429060) /* TsysMutationData */;

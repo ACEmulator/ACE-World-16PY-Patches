@@ -15,7 +15,7 @@ VALUES (42,   1,          2) /* ItemType - Armor */
      , (42,  27,          4) /* ArmorType - StuddedLeather */
      , (42,  28,         90) /* ArmorLevel */
      , (42,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-	 , (42, 124,          3) /* Version */
+     , (42, 124,          3) /* Version */
      , (42, 169,  118163214) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

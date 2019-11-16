@@ -17,7 +17,7 @@ VALUES (115,   1,          2) /* ItemType - Armor */
      , (115,  44,          1) /* Damage */
      , (115,  45,          4) /* DamageType - Bludgeon */
      , (115,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-	 , (115, 124,          3) /* Version */
+     , (115, 124,          3) /* Version */
      , (115, 169,  185271566) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
