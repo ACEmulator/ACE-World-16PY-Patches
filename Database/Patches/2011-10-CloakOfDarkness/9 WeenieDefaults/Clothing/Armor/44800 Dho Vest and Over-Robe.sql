@@ -14,6 +14,7 @@ VALUES (44800,   1,          2) /* ItemType - Armor */
      , (44800,  27,          2) /* ArmorType - Leather */
      , (44800,  28,         20) /* ArmorLevel */
      , (44800,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+	 , (44800, 124,          3) /* Version */
      , (44800, 169,  118161678) /* TsysMutationData */
      , (44800, 9013,     81664) /* VisualClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */;
 

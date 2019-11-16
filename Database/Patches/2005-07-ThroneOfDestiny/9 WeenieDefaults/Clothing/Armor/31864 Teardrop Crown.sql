@@ -15,6 +15,7 @@ VALUES (31864,   1,          2) /* ItemType - Armor */
      , (31864,  27,         32) /* ArmorType - Metal */
      , (31864,  28,         30) /* ArmorLevel */
      , (31864,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+	 , (31864, 124,          3) /* Version */
      , (31864, 150,        103) /* HookPlacement - Hook */
      , (31864, 151,          2) /* HookType - Wall */
      , (31864, 169,   51054852) /* TsysMutationData */;
