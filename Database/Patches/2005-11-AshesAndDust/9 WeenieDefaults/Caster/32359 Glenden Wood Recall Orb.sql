@@ -40,7 +40,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32359,   5, 0.0199999995529652) /* ManaRate */
      , (32359,  29,     1) /* WeaponDefense */
      , (32359,  39,   0.6) /* DefaultScale */
-     , (32359, 144,  1.82) /* ManaConversionMod */;
+     , (32359, 144,     0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32359,   1, 'Glenden Wood Recall Orb') /* Name */
