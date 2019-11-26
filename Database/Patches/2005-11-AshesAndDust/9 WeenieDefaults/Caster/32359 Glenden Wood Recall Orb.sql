@@ -17,7 +17,7 @@ VALUES (32359,   1,      32768) /* ItemType - Caster */
      , (32359,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (32359,  94,         16) /* TargetType - Creature */
      , (32359, 106,        200) /* ItemSpellcraft */
-     , (32359, 107,        600) /* ItemCurMana */
+     , (32359, 107,        300) /* ItemCurMana */
      , (32359, 108,        300) /* ItemMaxMana */
      , (32359, 109,         90) /* ItemDifficulty */
      , (32359, 117,         50) /* ItemManaCost */
