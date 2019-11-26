@@ -1,14 +1,23 @@
+DELETE FROM `landblock_instance` WHERE `guid`= 2048540699; /* Fyrdina Ellic the Weaponsmith */
+/* @teleloc 0xA1A40100 [55.800000 150.660000 49.925000] -0.131391 0.000000 0.000000 -0.991331 */
+
+DELETE FROM `landblock_instance` WHERE `guid`= 2048540700; /* Londigul Ellic the Armorer */
+/* @teleloc 0xA1A40104 [66.000000 151.080000 49.925000] 0.920505 0.000000 0.000000 -0.390731 */
+
+DELETE FROM `landblock_instance` WHERE `guid`= 2048540702; /* Danifa Gondmad the Healer */
+/* @teleloc 0xA1A40111 [105.186000 160.443000 50.045000] -0.535919 0.000000 0.000000 -0.844269 */
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2048540774,   739, 2711879940, 66.4332, 155.387, 49.925, 0.661667, 0, 0, -0.749798, False, '2019-04-08 08:19:57'); /* Fyrdina Ellic the Weaponsmith */
+VALUES (2048540699,   739, 2711879940, 66.4332, 155.387, 49.925, 0.661667, 0, 0, -0.749798, False, '2019-04-08 08:19:57'); /* Fyrdina Ellic the Weaponsmith */
 /* @teleloc 0xA1A40104 [66.433200 155.387000 49.925000] 0.661667 0.000000 0.000000 -0.749798 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2048540775,   735, 2711879950, 68.941, 162.386, 49.925, 0.0191363, 0, 0, -0.999817, False, '2019-04-08 08:19:57'); /* Danifa Gondmad the Healer  */
-/* @teleloc 0xA1A4010E [68.941000 162.386000 49.925000] 0.019136 0.000000 0.000000 -0.999817 */
+VALUES (2048540700, 32360, 2711879940, 66, 151.08, 49.925, 0.920505, 0, 0, -0.390731, False, '2019-10-29 00:00:00'); /* Londigul Ellic the Armorer */
+/* @teleloc 0xA1A40104 [66.000000 151.080000 49.925000] 0.920505 0.000000 0.000000 -0.390731 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2048540776, 32360, 2711879940, 66, 151.08, 49.925, 0.920505, 0, 0, -0.390731, False, '2019-04-08 08:19:57'); /* Londigul Ellic the Armorer */
-/* @teleloc 0xA1A40104 [66.000000 151.080000 49.925000] 0.920505 0.000000 0.000000 -0.390731 */
+VALUES (2048540702,   735, 2711879950, 68.941, 162.386, 49.925, 0.0191363, 0, 0, -0.999817, False, '2019-04-08 08:19:57'); /* Danifa Gondmad the Healer  */
+/* @teleloc 0xA1A4010E [68.941000 162.386000 49.925000] 0.019136 0.000000 0.000000 -0.999817 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2048540777, 32362, 2711879940, 61.8207, 150.627, 49.925, -0.999425, 0, 0, -0.0338962, False, '2019-04-08 08:19:57'); /* Tomo Genza */
