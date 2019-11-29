@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32315;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32315, 'ace32315-famishedeater', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (32315, 'ace32315-famishedeater', 10, '2019-11-21 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32315,   1,         16) /* ItemType - Creature */
@@ -85,10 +85,10 @@ VALUES (32315,   1,   120, 0, 0, 290) /* MaxHealth */
      , (32315,   5,     0, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (32315,  6, 0, 3, 0, 215, 0, 0) /* MeleeDefense        Specialized */
-     , (32315,  7, 0, 3, 0, 330, 0, 0) /* MissileDefense      Specialized */
+VALUES (32315,  6, 0, 3, 0, 145, 0, 0) /* MeleeDefense        Specialized */
+     , (32315,  7, 0, 3, 0, 270, 0, 0) /* MissileDefense      Specialized */
      , (32315, 45, 0, 3, 0, 140, 0, 0) /* LightWeapons        Specialized */
-     , (32315, 15, 0, 3, 0, 255, 0, 0) /* MagicDefense        Specialized */;
+     , (32315, 15, 0, 3, 0, 205, 0, 0) /* MagicDefense        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (32315,  0,  2, 65,    0,  400,  280,  280,  560,  400,  400,  560,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
