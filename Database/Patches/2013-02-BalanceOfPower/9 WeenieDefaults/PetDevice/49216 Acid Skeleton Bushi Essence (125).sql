@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49216;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49216, 'ace49216-acidskeletonbushiessence125', 70, '2019-03-04 00:00:00') /* PetDevice */;
+VALUES (49216, 'ace49216-acidskeletonbushiessence125', 70, '2019-12-07 05:48:21') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49216,   1,        128) /* ItemType - Misc */
      , (49216,   5,         50) /* EncumbranceVal */
      , (49216,  16,          8) /* ItemUseable - Contained */
      , (49216,  18,        256) /* UiEffects - Acid */
-     , (49216,  19,       7000) /* Value */
+     , (49216,  19,       4000) /* Value */
      , (49216,  33,          0) /* Bonded - Normal */
      , (49216,  65,        101) /* Placement - Resting */
      , (49216,  91,         50) /* MaxStructure */
@@ -16,7 +16,9 @@ VALUES (49216,   1,        128) /* ItemType - Misc */
      , (49216,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49216,  94,         16) /* TargetType - Creature */
      , (49216, 114,          0) /* Attuned - Normal */
+     , (49216, 266,      49167) /* PetClass */
      , (49216, 280,        213) /* SharedCooldown */
+     , (49216, 362,          2) /* SummoningMastery - Necromancer */
      , (49216, 366,         54) /* UseRequiresSkill */
      , (49216, 367,        430) /* UseRequiresSkillLevel */
      , (49216, 369,        115) /* UseRequiresLevel */;
@@ -46,15 +48,3 @@ VALUES (49216,   1,   33554817) /* Setup */
      , (49216,  22,  872415275) /* PhysicsEffectTable */
      , (49216,  50,  100693029) /* IconOverlay */
      , (49216,  52,  100693024) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49216, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49216, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49216, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49216, 0, 16777882);

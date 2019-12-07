@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49222;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49222, 'ace49222-lightningskeletonminionessence100', 70, '2019-03-04 00:00:00') /* PetDevice */;
+VALUES (49222, 'ace49222-lightningskeletonminionessence100', 70, '2019-12-07 05:48:21') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49222,   1,        128) /* ItemType - Misc */
      , (49222,   5,         50) /* EncumbranceVal */
      , (49222,  16,          8) /* ItemUseable - Contained */
      , (49222,  18,         64) /* UiEffects - Lightning */
-     , (49222,  19,       6000) /* Value */
+     , (49222,  19,       4000) /* Value */
      , (49222,  33,          0) /* Bonded - Normal */
      , (49222,  65,        101) /* Placement - Resting */
      , (49222,  91,         50) /* MaxStructure */
@@ -16,7 +16,9 @@ VALUES (49222,   1,        128) /* ItemType - Misc */
      , (49222,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49222,  94,         16) /* TargetType - Creature */
      , (49222, 114,          0) /* Attuned - Normal */
+     , (49222, 266,      49173) /* PetClass */
      , (49222, 280,        213) /* SharedCooldown */
+     , (49222, 362,          2) /* SummoningMastery - Necromancer */
      , (49222, 366,         54) /* UseRequiresSkill */
      , (49222, 367,        400) /* UseRequiresSkillLevel */
      , (49222, 369,         90) /* UseRequiresLevel */;
@@ -46,12 +48,3 @@ VALUES (49222,   1,   33554817) /* Setup */
      , (49222,  22,  872415275) /* PhysicsEffectTable */
      , (49222,  50,  100693028) /* IconOverlay */
      , (49222,  52,  100693024) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49222, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49222, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49222, 0, 16777882);

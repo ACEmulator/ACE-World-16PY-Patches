@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48959;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48959, 'ace48959-fireelementalessence50', 70, '2019-03-04 00:00:00') /* PetDevice */;
+VALUES (48959, 'ace48959-fireelementalessence50', 70, '2019-12-07 05:48:21') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48959,   1,        128) /* ItemType - Misc */
@@ -16,7 +16,9 @@ VALUES (48959,   1,        128) /* ItemType - Misc */
      , (48959,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48959,  94,         16) /* TargetType - Creature */
      , (48959, 114,          0) /* Attuned - Normal */
+     , (48959, 266,      48960) /* PetClass */
      , (48959, 280,        213) /* SharedCooldown */
+     , (48959, 362,          1) /* SummoningMastery - Primalist */
      , (48959, 366,         54) /* UseRequiresSkill */
      , (48959, 367,        310) /* UseRequiresSkillLevel */
      , (48959, 369,         40) /* UseRequiresLevel */;
@@ -42,16 +44,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48959,   1,   33554817) /* Setup */
      , (48959,   3,  536870932) /* SoundTable */
      , (48959,   6,   67111919) /* PaletteBase */
-     , (48959,   8,  100670274) /* Icon */
+     , (48959,   8,  100670581) /* Icon */
      , (48959,  22,  872415275) /* PhysicsEffectTable */
      , (48959,  50,  100693026) /* IconOverlay */
      , (48959,  52,  100693024) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (48959, 67111923, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (48959, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (48959, 0, 16777882);

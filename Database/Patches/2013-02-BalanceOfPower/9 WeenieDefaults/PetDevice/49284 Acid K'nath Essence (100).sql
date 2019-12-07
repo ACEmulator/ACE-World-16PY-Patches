@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49284;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49284, 'ace49284-acidknathessence100', 70, '2019-03-04 00:00:00') /* PetDevice */;
+VALUES (49284, 'ace49284-acidknathessence100', 70, '2019-12-07 05:48:22') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49284,   1,        128) /* ItemType - Misc */
      , (49284,   5,         50) /* EncumbranceVal */
      , (49284,  16,          8) /* ItemUseable - Contained */
      , (49284,  18,        256) /* UiEffects - Acid */
-     , (49284,  19,       6000) /* Value */
+     , (49284,  19,       4000) /* Value */
      , (49284,  33,          0) /* Bonded - Normal */
      , (49284,  65,        101) /* Placement - Resting */
      , (49284,  91,         50) /* MaxStructure */
@@ -16,7 +16,9 @@ VALUES (49284,   1,        128) /* ItemType - Misc */
      , (49284,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49284,  94,         16) /* TargetType - Creature */
      , (49284, 114,          0) /* Attuned - Normal */
+     , (49284, 266,      49082) /* PetClass */
      , (49284, 280,        213) /* SharedCooldown */
+     , (49284, 362,          1) /* SummoningMastery - Primalist */
      , (49284, 366,         54) /* UseRequiresSkill */
      , (49284, 367,        400) /* UseRequiresSkillLevel */
      , (49284, 369,         90) /* UseRequiresLevel */;
@@ -46,12 +48,3 @@ VALUES (49284,   1,   33554817) /* Setup */
      , (49284,  22,  872415275) /* PhysicsEffectTable */
      , (49284,  50,  100693028) /* IconOverlay */
      , (49284,  52,  100693024) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49284, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49284, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49284, 0, 16777882);

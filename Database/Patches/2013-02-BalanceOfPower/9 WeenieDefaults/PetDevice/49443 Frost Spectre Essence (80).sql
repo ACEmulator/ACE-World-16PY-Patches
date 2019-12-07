@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49443;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49443, 'ace49443-frostspectreessence80', 70, '2019-03-04 00:00:00') /* PetDevice */;
+VALUES (49443, 'ace49443-frostspectreessence80', 70, '2019-12-07 05:48:25') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49443,   1,        128) /* ItemType - Misc */
      , (49443,   5,         50) /* EncumbranceVal */
      , (49443,  16,          8) /* ItemUseable - Contained */
      , (49443,  18,        128) /* UiEffects - Frost */
-     , (49443,  19,       5000) /* Value */
+     , (49443,  19,       4000) /* Value */
      , (49443,  33,          0) /* Bonded - Normal */
      , (49443,  65,        101) /* Placement - Resting */
      , (49443,  91,         50) /* MaxStructure */
@@ -16,7 +16,9 @@ VALUES (49443,   1,        128) /* ItemType - Misc */
      , (49443,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49443,  94,         16) /* TargetType - Creature */
      , (49443, 114,          0) /* Attuned - Normal */
+     , (49443, 266,      49416) /* PetClass */
      , (49443, 280,        213) /* SharedCooldown */
+     , (49443, 362,          2) /* SummoningMastery - Necromancer */
      , (49443, 366,         54) /* UseRequiresSkill */
      , (49443, 367,        370) /* UseRequiresSkillLevel */
      , (49443, 369,         70) /* UseRequiresLevel */;
@@ -46,12 +48,3 @@ VALUES (49443,   1,   33554817) /* Setup */
      , (49443,  22,  872415275) /* PhysicsEffectTable */
      , (49443,  50,  100693027) /* IconOverlay */
      , (49443,  52,  100693024) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49443, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49443, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49443, 0, 16777882);

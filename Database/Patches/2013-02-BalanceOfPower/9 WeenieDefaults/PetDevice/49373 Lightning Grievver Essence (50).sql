@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49373;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49373, 'ace49373-lightninggrievveressence50', 70, '2019-03-04 00:00:00') /* PetDevice */;
+VALUES (49373, 'ace49373-lightninggrievveressence50', 70, '2019-12-07 05:48:24') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49373,   1,        128) /* ItemType - Misc */
@@ -16,9 +16,11 @@ VALUES (49373,   1,        128) /* ItemType - Misc */
      , (49373,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49373,  94,         16) /* TargetType - Creature */
      , (49373, 114,          0) /* Attuned - Normal */
+     , (49373, 266,      49059) /* PetClass */
      , (49373, 280,        213) /* SharedCooldown */
+     , (49373, 362,          3) /* SummoningMastery - Naturalist */
      , (49373, 366,         54) /* UseRequiresSkill */
-     , (49373, 367,        320) /* UseRequiresSkillLevel */
+     , (49373, 367,        310) /* UseRequiresSkillLevel */
      , (49373, 369,         40) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -46,12 +48,3 @@ VALUES (49373,   1,   33554817) /* Setup */
      , (49373,  22,  872415275) /* PhysicsEffectTable */
      , (49373,  50,  100693026) /* IconOverlay */
      , (49373,  52,  100693024) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49373, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49373, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49373, 0, 16777882);

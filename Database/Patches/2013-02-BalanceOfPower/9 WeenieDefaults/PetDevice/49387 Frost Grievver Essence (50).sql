@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49387;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49387, 'ace49387-frostgrievveressence50', 70, '2019-03-04 00:00:00') /* PetDevice */;
+VALUES (49387, 'ace49387-frostgrievveressence50', 70, '2019-12-07 05:48:24') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49387,   1,        128) /* ItemType - Misc */
@@ -16,7 +16,9 @@ VALUES (49387,   1,        128) /* ItemType - Misc */
      , (49387,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49387,  94,         16) /* TargetType - Creature */
      , (49387, 114,          0) /* Attuned - Normal */
+     , (49387, 266,      49073) /* PetClass */
      , (49387, 280,        213) /* SharedCooldown */
+     , (49387, 362,          3) /* SummoningMastery - Naturalist */
      , (49387, 366,         54) /* UseRequiresSkill */
      , (49387, 367,        310) /* UseRequiresSkillLevel */
      , (49387, 369,         40) /* UseRequiresLevel */;
@@ -46,12 +48,3 @@ VALUES (49387,   1,   33554817) /* Setup */
      , (49387,  22,  872415275) /* PhysicsEffectTable */
      , (49387,  50,  100693026) /* IconOverlay */
      , (49387,  52,  100693024) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49387, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49387, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49387, 0, 16777882);

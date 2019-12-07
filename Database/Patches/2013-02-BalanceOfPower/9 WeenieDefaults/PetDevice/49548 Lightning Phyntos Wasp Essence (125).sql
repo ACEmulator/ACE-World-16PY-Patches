@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49548;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49548, 'ace49548-lightningphyntoswaspessence125', 70, '2019-03-04 00:00:00') /* PetDevice */;
+VALUES (49548, 'ace49548-lightningphyntoswaspessence125', 70, '2019-12-07 05:48:25') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49548,   1,        128) /* ItemType - Misc */
      , (49548,   5,         50) /* EncumbranceVal */
      , (49548,  16,          8) /* ItemUseable - Contained */
      , (49548,  18,         64) /* UiEffects - Lightning */
-     , (49548,  19,       7000) /* Value */
+     , (49548,  19,       4000) /* Value */
      , (49548,  33,          0) /* Bonded - Normal */
      , (49548,  65,        101) /* Placement - Resting */
      , (49548,  91,         50) /* MaxStructure */
@@ -16,7 +16,9 @@ VALUES (49548,   1,        128) /* ItemType - Misc */
      , (49548,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49548,  94,         16) /* TargetType - Creature */
      , (49548, 114,          0) /* Attuned - Normal */
+     , (49548, 266,      49160) /* PetClass */
      , (49548, 280,        213) /* SharedCooldown */
+     , (49548, 362,          3) /* SummoningMastery - Naturalist */
      , (49548, 366,         54) /* UseRequiresSkill */
      , (49548, 367,        430) /* UseRequiresSkillLevel */
      , (49548, 369,        115) /* UseRequiresLevel */;
@@ -46,12 +48,3 @@ VALUES (49548,   1,   33554817) /* Setup */
      , (49548,  22,  872415275) /* PhysicsEffectTable */
      , (49548,  50,  100693029) /* IconOverlay */
      , (49548,  52,  100693024) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49548, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49548, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49548, 0, 16777882);
