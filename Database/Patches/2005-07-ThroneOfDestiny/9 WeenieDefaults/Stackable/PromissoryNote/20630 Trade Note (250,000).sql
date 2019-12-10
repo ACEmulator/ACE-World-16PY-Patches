@@ -1,16 +1,16 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20630;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20630, 'tradenote250000', 51, '2019-02-08 00:45:15') /* Stackable */;
+VALUES (20630, 'tradenote250000', 51, '2019-12-10 00:00:00') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20630,   1,     262144) /* ItemType - PromissoryNote */
-     , (20630,   5,          1) /* EncumbranceVal */
+     , (20630,   5,          0) /* EncumbranceVal */
      , (20630,   8,          1) /* Mass */
      , (20630,   9,          0) /* ValidLocations - None */
      , (20630,  11,        250) /* MaxStackSize */
      , (20630,  12,          1) /* StackSize */
-     , (20630,  13,          1) /* StackUnitEncumbrance */
+     , (20630,  13,          0) /* StackUnitEncumbrance */
      , (20630,  14,          1) /* StackUnitMass */
      , (20630,  15,     250000) /* StackUnitValue */
      , (20630,  16,          1) /* ItemUseable - No */
