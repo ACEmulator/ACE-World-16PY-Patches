@@ -71,4 +71,4 @@ VALUES (49182,  0,  8, 150, 0.75,  475,  475,  475,  475,  475,  475,  475,  475
      , (49182,  8,  8, 150, 0.75,  475,  475,  475,  475,  475,  475,  475,  475,  475, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49182, 2, 48995,  1, 0, 0, False) /* Create Frost Hatchet (48995) for Wield */;
+VALUES (49182, 2, 48996,  1, 0, 0, False) /* Create Frost Hatchet (48996) for Wield */;

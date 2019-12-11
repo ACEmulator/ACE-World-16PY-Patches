@@ -71,4 +71,4 @@ VALUES (48943,  0, 16, 50, 0.75,  310,  310,  310,  310,  310,  310,  310,  310,
      , (48943,  8, 16, 50, 0.75,  310,  310,  310,  310,  310,  310,  310,  310,  310, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (48943, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */;
+VALUES (48943, 2, 48985,  1, 0, 0, False) /* Create Flaming Hatchet (48985) for Wield */;
