@@ -10,7 +10,7 @@ VALUES (48881,   1,         16) /* ItemType - Creature */
      , (48881,   6,         -1) /* ItemsCapacity */
      , (48881,   7,         -1) /* ContainersCapacity */
      , (48881,  16,          1) /* ItemUseable - No */
-     , (48881,  25,        100) /* Level */
+     , (48881,  25,        125) /* Level */
      , (48881,  27,          0) /* ArmorType - None */
      , (48881,  68,         64) /* TargetingTactic - Nearest */
      , (48881,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
