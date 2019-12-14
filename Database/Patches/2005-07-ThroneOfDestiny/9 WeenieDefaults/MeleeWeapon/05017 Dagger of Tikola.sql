@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5017;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5017, 'daggertikola', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (5017, 'daggertikola', 6, '2019-12-09 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5017,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,7 +20,6 @@ VALUES (5017,   1,          1) /* ItemType - MeleeWeapon */
      , (5017,  48,         45) /* WeaponSkill - LightWeapons */
      , (5017,  49,         20) /* WeaponTime */
      , (5017,  51,          1) /* CombatUse - Melee */
-     , (5017,  53,        101) /* PlacementPosition */
      , (5017,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5017, 106,        105) /* ItemSpellcraft */
      , (5017, 107,       1000) /* ItemCurMana */
@@ -42,15 +41,15 @@ VALUES (5017,  11, True ) /* IgnoreCollisions */
      , (5017,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5017,   5, -0.025000000372529) /* ManaRate */
-     , (5017,  21, 0.349999994039536) /* WeaponLength */
-     , (5017,  22,    0.75) /* DamageVariance */
-     , (5017,  26,       0) /* MaximumVelocity */
-     , (5017,  29, 1.02999997138977) /* WeaponDefense */
-     , (5017,  39,    1.25) /* DefaultScale */
-     , (5017,  62, 1.02999997138977) /* WeaponOffense */
-     , (5017,  63,       1) /* DamageMod */
-     , (5017, 147,       1) /* CriticalFrequency */;
+VALUES (5017,   5, -0.025) /* ManaRate */
+     , (5017,  21,   0.35) /* WeaponLength */
+     , (5017,  22,   0.75) /* DamageVariance */
+     , (5017,  26,      0) /* MaximumVelocity */
+     , (5017,  29,   1.03) /* WeaponDefense */
+     , (5017,  39,   1.25) /* DefaultScale */
+     , (5017,  62,   1.03) /* WeaponOffense */
+     , (5017,  63,      1) /* DamageMod */
+     , (5017, 147,    0.2) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5017,   1, 'Dagger of Tikola') /* Name */
