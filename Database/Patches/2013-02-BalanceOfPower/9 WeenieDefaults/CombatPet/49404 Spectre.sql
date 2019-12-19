@@ -13,6 +13,7 @@ VALUES (49404,   1,         16) /* ItemType - Creature */
      , (49404,  25,        125) /* Level */
      , (49404,  68,         64) /* TargetingTactic - Nearest */
      , (49404,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
+     , (49404, 124,          2) /* Version */;
      , (49404, 133,          1) /* ShowableOnRadar - ShowNever */
      , (49404, 267,         43) /* Lifespan */;
 

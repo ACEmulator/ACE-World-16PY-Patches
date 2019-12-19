@@ -13,6 +13,7 @@ VALUES (49170,   1,         16) /* ItemType - Creature */
      , (49170,  40,          1) /* CombatMode - NonCombat */
      , (49170,  68,         64) /* TargetingTactic - Nearest */
      , (49170,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
+     , (49170, 124,          2) /* Version */;
      , (49170, 133,          1) /* ShowableOnRadar - ShowNever */
      , (49170, 267,         43) /* Lifespan */;
 
