@@ -12,7 +12,6 @@ VALUES (49056,   1,         16) /* ItemType - Creature */
      , (49056,  25,        150) /* Level */
      , (49056,  68,         64) /* TargetingTactic - Nearest */
      , (49056,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
-     , (49056, 124,          2) /* Version */;
      , (49056, 133,          1) /* ShowableOnRadar - ShowNever */
      , (49056, 267,         43) /* Lifespan */;
 

@@ -15,7 +15,6 @@ VALUES (48889,   1,         16) /* ItemType - Creature */
      , (48889,  40,          2) /* CombatMode - Melee */
      , (48889,  68,         64) /* TargetingTactic - Nearest */
      , (48889,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (48889, 124,          2) /* Version */;
      , (48889, 133,          1) /* ShowableOnRadar - ShowNever */
      , (48889, 267,         43) /* Lifespan */;
 

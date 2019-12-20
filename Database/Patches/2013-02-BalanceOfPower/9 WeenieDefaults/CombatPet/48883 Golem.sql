@@ -14,7 +14,6 @@ VALUES (48883,   1,         16) /* ItemType - Creature */
      , (48883,  27,          0) /* ArmorType - None */
      , (48883,  68,         64) /* TargetingTactic - Nearest */
      , (48883,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (48883, 124,          2) /* Version */;
      , (48883, 133,          1) /* ShowableOnRadar - ShowNever */
      , (48883, 267,         43) /* Lifespan */;
 
