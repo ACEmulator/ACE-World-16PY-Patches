@@ -16,6 +16,7 @@ VALUES (48888,   1,        128) /* ItemType - Misc */
      , (48888,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48888,  94,         16) /* TargetType - Creature */
      , (48888, 114,          0) /* Attuned - Normal */
+     , (48888, 124,          2) /* Version */;
      , (48888, 266,      48889) /* PetClass */
      , (48888, 280,        213) /* SharedCooldown */
      , (48888, 366,         54) /* UseRequiresSkill */
