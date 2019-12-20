@@ -16,7 +16,6 @@ VALUES (49351,   1,        128) /* ItemType - Misc */
      , (49351,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49351,  94,         16) /* TargetType - Creature */
      , (49351, 114,          0) /* Attuned - Normal */
-     , (49351, 124,          2) /* Version */;
      , (49351, 266,      49121) /* PetClass */
      , (49351, 280,        213) /* SharedCooldown */
      , (49351, 362,          3) /* SummoningMastery - Naturalist */

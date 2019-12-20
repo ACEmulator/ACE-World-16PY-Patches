@@ -16,7 +16,6 @@ VALUES (49430,   1,        128) /* ItemType - Misc */
      , (49430,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49430,  94,         16) /* TargetType - Creature */
      , (49430, 114,          0) /* Attuned - Normal */
-     , (49430, 124,          2) /* Version */;
      , (49430, 266,      49403) /* PetClass */
      , (49430, 280,        213) /* SharedCooldown */
      , (49430, 362,          2) /* SummoningMastery - Necromancer */
