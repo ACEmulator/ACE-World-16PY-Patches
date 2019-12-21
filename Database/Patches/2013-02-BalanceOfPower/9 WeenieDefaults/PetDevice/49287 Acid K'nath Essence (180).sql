@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49287;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49287, 'ace49287-acidknathessence180', 70, '2019-03-04 00:00:00') /* PetDevice */;
+VALUES (49287, 'ace49287-acidknathessence180', 70, '2019-12-07 05:48:22') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49287,   1,        128) /* ItemType - Misc */
      , (49287,   5,         50) /* EncumbranceVal */
      , (49287,  16,          8) /* ItemUseable - Contained */
      , (49287,  18,        256) /* UiEffects - Acid */
-     , (49287,  19,       9000) /* Value */
+     , (49287,  19,       4000) /* Value */
      , (49287,  33,          0) /* Bonded - Normal */
      , (49287,  65,        101) /* Placement - Resting */
      , (49287,  91,         50) /* MaxStructure */
@@ -16,7 +16,10 @@ VALUES (49287,   1,        128) /* ItemType - Misc */
      , (49287,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49287,  94,         16) /* TargetType - Creature */
      , (49287, 114,          0) /* Attuned - Normal */
+     , (49287, 124,          2) /* Version */
+     , (49287, 266,      49085) /* PetClass */
      , (49287, 280,        213) /* SharedCooldown */
+     , (49287, 362,          1) /* SummoningMastery - Primalist */
      , (49287, 366,         54) /* UseRequiresSkill */
      , (49287, 367,        530) /* UseRequiresSkillLevel */
      , (49287, 369,        170) /* UseRequiresLevel */;
@@ -46,12 +49,3 @@ VALUES (49287,   1,   33554817) /* Setup */
      , (49287,  22,  872415275) /* PhysicsEffectTable */
      , (49287,  50,  100693031) /* IconOverlay */
      , (49287,  52,  100693024) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49287, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49287, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49287, 0, 16777882);

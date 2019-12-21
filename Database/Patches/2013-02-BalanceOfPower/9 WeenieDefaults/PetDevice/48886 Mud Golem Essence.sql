@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48886;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48886, 'petdevicegolemmud', 70, '2019-03-04 00:00:00') /* PetDevice */;
+VALUES (48886, 'petdevicegolemmud', 70, '2019-12-07 05:48:21') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48886,   1,        128) /* ItemType - Misc */
@@ -10,19 +10,20 @@ VALUES (48886,   1,        128) /* ItemType - Misc */
      , (48886,  18,          1) /* UiEffects - Magical */
      , (48886,  19,          5) /* Value */
      , (48886,  33,          1) /* Bonded - Bonded */
-     , (48886,  65,        101) /* Placement - Resting */
+     , (48886,  53,        101) /* PlacementPosition - Resting */
      , (48886,  91,         50) /* MaxStructure */
      , (48886,  92,         50) /* Structure */
      , (48886,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48886,  94,         16) /* TargetType - Creature */
      , (48886, 114,          0) /* Attuned - Normal */
+     , (48886, 124,          2) /* Version */
+     , (48886, 266,      48887) /* PetClass */
      , (48886, 280,        213) /* SharedCooldown */
      , (48886, 366,         54) /* UseRequiresSkill */
      , (48886, 367,         50) /* UseRequiresSkillLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48886,   1, False) /* Stuck */
-     , (48886,  11, True ) /* IgnoreCollisions */
+VALUES (48886,  11, True ) /* IgnoreCollisions */
      , (48886,  13, True ) /* Ethereal */
      , (48886,  14, True ) /* GravityStatus */
      , (48886,  19, True ) /* Attackable */
@@ -45,12 +46,3 @@ VALUES (48886,   1,   33554817) /* Setup */
      , (48886,  22,  872415275) /* PhysicsEffectTable */
      , (48886,  50,  100693037) /* IconOverlay */
      , (48886,  52,  100693024) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (48886, 67111927, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (48886, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (48886, 0, 16777882);
