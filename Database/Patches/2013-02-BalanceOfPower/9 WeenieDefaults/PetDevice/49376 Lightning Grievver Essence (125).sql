@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49376;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49376, 'ace49376-lightninggrievveressence125', 70, '2019-03-04 00:00:00') /* PetDevice */;
+VALUES (49376, 'ace49376-lightninggrievveressence125', 70, '2019-12-07 05:48:24') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49376,   1,        128) /* ItemType - Misc */
      , (49376,   5,         50) /* EncumbranceVal */
      , (49376,  16,          8) /* ItemUseable - Contained */
      , (49376,  18,         64) /* UiEffects - Lightning */
-     , (49376,  19,       7000) /* Value */
+     , (49376,  19,       4000) /* Value */
      , (49376,  33,          0) /* Bonded - Normal */
      , (49376,  65,        101) /* Placement - Resting */
      , (49376,  91,         50) /* MaxStructure */
@@ -16,7 +16,10 @@ VALUES (49376,   1,        128) /* ItemType - Misc */
      , (49376,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49376,  94,         16) /* TargetType - Creature */
      , (49376, 114,          0) /* Attuned - Normal */
+     , (49376, 124,          2) /* Version */
+     , (49376, 266,      49062) /* PetClass */
      , (49376, 280,        213) /* SharedCooldown */
+     , (49376, 362,          3) /* SummoningMastery - Naturalist */
      , (49376, 366,         54) /* UseRequiresSkill */
      , (49376, 367,        430) /* UseRequiresSkillLevel */
      , (49376, 369,        115) /* UseRequiresLevel */;
@@ -46,12 +49,3 @@ VALUES (49376,   1,   33554817) /* Setup */
      , (49376,  22,  872415275) /* PhysicsEffectTable */
      , (49376,  50,  100693029) /* IconOverlay */
      , (49376,  52,  100693024) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49376, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49376, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49376, 0, 16777882);

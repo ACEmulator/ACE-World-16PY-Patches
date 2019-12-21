@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49390;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49390, 'ace49390-frostgrievveressence125', 70, '2019-03-04 00:00:00') /* PetDevice */;
+VALUES (49390, 'ace49390-frostgrievveressence125', 70, '2019-12-07 05:48:24') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49390,   1,        128) /* ItemType - Misc */
      , (49390,   5,         50) /* EncumbranceVal */
      , (49390,  16,          8) /* ItemUseable - Contained */
      , (49390,  18,        128) /* UiEffects - Frost */
-     , (49390,  19,       7000) /* Value */
+     , (49390,  19,       4000) /* Value */
      , (49390,  33,          0) /* Bonded - Normal */
      , (49390,  65,        101) /* Placement - Resting */
      , (49390,  91,         50) /* MaxStructure */
@@ -16,7 +16,10 @@ VALUES (49390,   1,        128) /* ItemType - Misc */
      , (49390,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49390,  94,         16) /* TargetType - Creature */
      , (49390, 114,          0) /* Attuned - Normal */
+     , (49390, 124,          2) /* Version */
+     , (49390, 266,      49076) /* PetClass */
      , (49390, 280,        213) /* SharedCooldown */
+     , (49390, 362,          3) /* SummoningMastery - Naturalist */
      , (49390, 366,         54) /* UseRequiresSkill */
      , (49390, 367,        430) /* UseRequiresSkillLevel */
      , (49390, 369,        115) /* UseRequiresLevel */;
@@ -46,15 +49,3 @@ VALUES (49390,   1,   33554817) /* Setup */
      , (49390,  22,  872415275) /* PhysicsEffectTable */
      , (49390,  50,  100693029) /* IconOverlay */
      , (49390,  52,  100693024) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49390, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49390, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49390, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49390, 0, 16777882);
