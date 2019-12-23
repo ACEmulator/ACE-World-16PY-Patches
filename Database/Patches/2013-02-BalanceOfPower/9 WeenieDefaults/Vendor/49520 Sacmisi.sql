@@ -15,8 +15,10 @@ VALUES (49520,   1,         16) /* ItemType - Creature */
      , (49520,  75,          0) /* MerchandiseMinValue */
      , (49520,  76,    1000000) /* MerchandiseMaxValue */
      , (49520,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
+     , (49520, 113,          2) /* Gender - Female */
      , (49520, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (49520, 134,         16) /* PlayerKillerStatus - RubberGlue */;
+     , (49520, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (49520, 188,          9) /* HeritageGroup - Empyrean */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49520,   1, True ) /* Stuck */
