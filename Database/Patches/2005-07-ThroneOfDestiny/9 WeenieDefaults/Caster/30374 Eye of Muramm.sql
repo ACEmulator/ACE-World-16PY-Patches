@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30374;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30374, 'wandrareeyemuramm', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (30374, 'wandrareeyemuramm', 35, '2019-12-23 17:14:28') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30374,   1,      32768) /* ItemType - Caster */
@@ -15,8 +15,8 @@ VALUES (30374,   1,      32768) /* ItemType - Caster */
      , (30374,  19,      50000) /* Value */
      , (30374,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30374,  45,         64) /* DamageType - Electric */
-     , (30374,  52,          1) /* ParentLocation */
-     , (30374,  53,        101) /* PlacementPosition */
+     , (30374,  46,        512) /* DefaultCombatStyle - Magic */
+     , (30374,  52,          1) /* ParentLocation - RightHand */
      , (30374,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30374,  94,         16) /* TargetType - Creature */
      , (30374, 106,        500) /* ItemSpellcraft */
@@ -45,12 +45,12 @@ VALUES (30374,  11, True ) /* IgnoreCollisions */
      , (30374,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30374,   5, -0.0500000007450581) /* ManaRate */
-     , (30374,  12, 0.660000026226044) /* Shade */
-     , (30374,  29, 1.17999994754791) /* WeaponDefense */
-     , (30374,  39, 1.20000004768372) /* DefaultScale */
+VALUES (30374,   5,   -0.05) /* ManaRate */
+     , (30374,  12,    0.66) /* Shade */
+     , (30374,  29,    1.18) /* WeaponDefense */
+     , (30374,  39,     1.2) /* DefaultScale */
      , (30374, 138,       2) /* SlayerDamageBonus */
-     , (30374, 144, 0.180000007152557) /* ManaConversionMod */
+     , (30374, 144,    0.18) /* ManaConversionMod */
      , (30374, 152,    1.25) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

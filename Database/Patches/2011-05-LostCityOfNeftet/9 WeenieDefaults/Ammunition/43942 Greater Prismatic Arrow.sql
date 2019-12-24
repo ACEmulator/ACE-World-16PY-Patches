@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43942;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43942, 'ace43942-greaterprismaticarrow', 5, '2019-06-09 00:18:38') /* Ammunition */;
+VALUES (43942, 'ace43942-greaterprismaticarrow', 5, '2019-12-23 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43942,   1,        256) /* ItemType - MissileWeapon */
@@ -13,10 +13,10 @@ VALUES (43942,   1,        256) /* ItemType - MissileWeapon */
      , (43942,  12,          1) /* StackSize */
      , (43942,  13,          1) /* StackUnitEncumbrance */
      , (43942,  14,          2) /* StackUnitMass */
-     , (43942,  15,          0) /* StackUnitValue */
+     , (43942,  15,        100) /* StackUnitValue */
      , (43942,  16,          1) /* ItemUseable - No */
      , (43942,  18,          1) /* UiEffects - Magical */
-     , (43942,  19,          0) /* Value */
+     , (43942,  19,        100) /* Value */
      , (43942,  44,         36) /* Damage */
      , (43942,  45,  268435456) /* DamageType - Base */
      , (43942,  50,          1) /* AmmoType - Arrow */
@@ -36,12 +36,10 @@ VALUES (43942,  17, True ) /* Inelastic */
      , (43942,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43942,  21,       0) /* WeaponLength */
-     , (43942,  22, 0.300000011920929) /* DamageVariance */
-     , (43942,  26,       0) /* MaximumVelocity */
+VALUES (43942,  12,       0) /* Shade */
+     , (43942,  22,     0.3) /* DamageVariance */
      , (43942,  29,       1) /* WeaponDefense */
      , (43942,  62,       1) /* WeaponOffense */
-     , (43942,  63,       1) /* DamageMod */
      , (43942,  78,       1) /* Friction */
      , (43942,  79,       0) /* Elasticity */;
 
@@ -58,6 +56,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43942,   1,   33561223) /* Setup */
      , (43942,   3,  536870932) /* SoundTable */
      , (43942,   6,   67111919) /* PaletteBase */
-     , (43942,   7,  268436306) /* ClothingBase */
+     , (43942,   7,  268436303) /* ClothingBase */
      , (43942,   8,  100691912) /* Icon */
      , (43942,  22,  872415275) /* PhysicsEffectTable */;

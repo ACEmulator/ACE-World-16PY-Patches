@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43953;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43953, 'ace43953-deadlyprismaticatlatldart', 5, '2019-03-03 00:18:38') /* Ammunition */;
+VALUES (43953, 'ace43953-deadlyprismaticatlatldart', 5, '2019-12-23 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43953,   1,        256) /* ItemType - MissileWeapon */
@@ -13,10 +13,10 @@ VALUES (43953,   1,        256) /* ItemType - MissileWeapon */
      , (43953,  12,          1) /* StackSize */
      , (43953,  13,          1) /* StackUnitEncumbrance */
      , (43953,  14,          2) /* StackUnitMass */
-     , (43953,  15,          0) /* StackUnitValue */
+     , (43953,  15,        100) /* StackUnitValue */
      , (43953,  16,          1) /* ItemUseable - No */
      , (43953,  18,          1) /* UiEffects - Magical */
-     , (43953,  19,          0) /* Value */
+     , (43953,  19,        100) /* Value */
      , (43953,  44,         42) /* Damage */
      , (43953,  45,  268435456) /* DamageType - Base */
      , (43953,  50,          4) /* AmmoType - Atlatl */
