@@ -6,12 +6,12 @@ VALUES (23525, 'atlatldartcrystaltip', 5, '2019-12-25 00:00:00') /* Ammunition *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23525,   1,        256) /* ItemType - MissileWeapon */
      , (23525,   3,          2) /* PaletteTemplate - Blue */
-     , (23525,   5,         10) /* EncumbranceVal */
+     , (23525,   5,          5) /* EncumbranceVal */
      , (23525,   8,          2) /* Mass */
      , (23525,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (23525,  11,       1000) /* MaxStackSize */
      , (23525,  12,          1) /* StackSize */
-     , (23525,  13,         10) /* StackUnitEncumbrance */
+     , (23525,  13,          5) /* StackUnitEncumbrance */
      , (23525,  14,          2) /* StackUnitMass */
      , (23525,  15,          7) /* StackUnitValue */
      , (23525,  16,          1) /* ItemUseable - No */

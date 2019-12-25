@@ -5,12 +5,12 @@ VALUES (24131, 'atlatldartfleshripper', 5, '2019-12-25 00:00:00') /* Ammunition 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24131,   1,        256) /* ItemType - MissileWeapon */
-     , (24131,   5,         10) /* EncumbranceVal */
+     , (24131,   5,          5) /* EncumbranceVal */
      , (24131,   8,          2) /* Mass */
      , (24131,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (24131,  11,       1000) /* MaxStackSize */
      , (24131,  12,          1) /* StackSize */
-     , (24131,  13,         10) /* StackUnitEncumbrance */
+     , (24131,  13,          5) /* StackUnitEncumbrance */
      , (24131,  14,          2) /* StackUnitMass */
      , (24131,  15,          7) /* StackUnitValue */
      , (24131,  16,          1) /* ItemUseable - No */

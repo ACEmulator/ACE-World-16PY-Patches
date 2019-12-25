@@ -6,12 +6,12 @@ VALUES (20971, 'atlatldartdeadlyfrogcrotch', 5, '2019-12-25 00:00:00') /* Ammuni
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20971,   1,        256) /* ItemType - MissileWeapon */
      , (20971,   3,         77) /* PaletteTemplate - BlueGreen */
-     , (20971,   5,         10) /* EncumbranceVal */
+     , (20971,   5,          5) /* EncumbranceVal */
      , (20971,   8,          2) /* Mass */
      , (20971,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (20971,  11,       1000) /* MaxStackSize */
      , (20971,  12,          1) /* StackSize */
-     , (20971,  13,         10) /* StackUnitEncumbrance */
+     , (20971,  13,          5) /* StackUnitEncumbrance */
      , (20971,  14,          2) /* StackUnitMass */
      , (20971,  15,          9) /* StackUnitValue */
      , (20971,  16,          1) /* ItemUseable - No */

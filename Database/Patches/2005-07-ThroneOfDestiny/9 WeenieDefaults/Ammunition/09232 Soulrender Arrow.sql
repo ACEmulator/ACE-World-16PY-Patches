@@ -5,12 +5,12 @@ VALUES (9232, 'arrowsoulrender', 5, '2019-12-25 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9232,   1,        256) /* ItemType - MissileWeapon */
-     , (9232,   5,         10) /* EncumbranceVal */
+     , (9232,   5,          5) /* EncumbranceVal */
      , (9232,   8,          2) /* Mass */
      , (9232,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (9232,  11,       1000) /* MaxStackSize */
      , (9232,  12,          1) /* StackSize */
-     , (9232,  13,         10) /* StackUnitEncumbrance */
+     , (9232,  13,          5) /* StackUnitEncumbrance */
      , (9232,  14,          2) /* StackUnitMass */
      , (9232,  15,         10) /* StackUnitValue */
      , (9232,  16,          1) /* ItemUseable - No */

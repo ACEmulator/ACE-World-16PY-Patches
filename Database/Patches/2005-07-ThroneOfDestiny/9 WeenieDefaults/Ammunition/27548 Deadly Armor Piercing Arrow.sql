@@ -6,12 +6,12 @@ VALUES (27548, 'arrowdeadlyarmorpiercingtest2', 5, '2019-12-25 00:00:00') /* Amm
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27548,   1,        256) /* ItemType - MissileWeapon */
      , (27548,   3,         61) /* PaletteTemplate - White */
-     , (27548,   5,         10) /* EncumbranceVal */
+     , (27548,   5,          5) /* EncumbranceVal */
      , (27548,   8,          2) /* Mass */
      , (27548,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (27548,  11,       1000) /* MaxStackSize */
      , (27548,  12,          1) /* StackSize */
-     , (27548,  13,         10) /* StackUnitEncumbrance */
+     , (27548,  13,          5) /* StackUnitEncumbrance */
      , (27548,  14,          2) /* StackUnitMass */
      , (27548,  15,          9) /* StackUnitValue */
      , (27548,  16,          1) /* ItemUseable - No */

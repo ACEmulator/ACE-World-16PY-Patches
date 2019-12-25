@@ -6,12 +6,12 @@ VALUES (20968, 'atlatldartdeadlybroad', 5, '2019-12-25 00:00:00') /* Ammunition 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20968,   1,        256) /* ItemType - MissileWeapon */
      , (20968,   3,         39) /* PaletteTemplate - Black */
-     , (20968,   5,         10) /* EncumbranceVal */
+     , (20968,   5,          5) /* EncumbranceVal */
      , (20968,   8,          2) /* Mass */
      , (20968,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (20968,  11,       1000) /* MaxStackSize */
      , (20968,  12,          1) /* StackSize */
-     , (20968,  13,         10) /* StackUnitEncumbrance */
+     , (20968,  13,          5) /* StackUnitEncumbrance */
      , (20968,  14,          2) /* StackUnitMass */
      , (20968,  15,          7) /* StackUnitValue */
      , (20968,  16,          1) /* ItemUseable - No */

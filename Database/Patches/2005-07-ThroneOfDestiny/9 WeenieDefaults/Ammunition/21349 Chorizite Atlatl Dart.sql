@@ -6,12 +6,12 @@ VALUES (21349, 'atlatldartchorizite', 5, '2019-12-25 00:00:00') /* Ammunition */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21349,   1,        256) /* ItemType - MissileWeapon */
      , (21349,   3,         82) /* PaletteTemplate - PinkPurple */
-     , (21349,   5,         10) /* EncumbranceVal */
+     , (21349,   5,          5) /* EncumbranceVal */
      , (21349,   8,          2) /* Mass */
      , (21349,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (21349,  11,       1000) /* MaxStackSize */
      , (21349,  12,          1) /* StackSize */
-     , (21349,  13,         10) /* StackUnitEncumbrance */
+     , (21349,  13,          5) /* StackUnitEncumbrance */
      , (21349,  14,          2) /* StackUnitMass */
      , (21349,  15,          2) /* StackUnitValue */
      , (21349,  16,          1) /* ItemUseable - No */

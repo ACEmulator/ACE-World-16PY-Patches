@@ -5,12 +5,12 @@ VALUES (9236, 'boltbloodletter', 5, '2019-12-25 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9236,   1,        256) /* ItemType - MissileWeapon */
-     , (9236,   5,         10) /* EncumbranceVal */
+     , (9236,   5,          5) /* EncumbranceVal */
      , (9236,   8,          2) /* Mass */
      , (9236,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (9236,  11,       1000) /* MaxStackSize */
      , (9236,  12,          1) /* StackSize */
-     , (9236,  13,         10) /* StackUnitEncumbrance */
+     , (9236,  13,          5) /* StackUnitEncumbrance */
      , (9236,  14,          2) /* StackUnitMass */
      , (9236,  15,          6) /* StackUnitValue */
      , (9236,  16,          1) /* ItemUseable - No */

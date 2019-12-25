@@ -6,12 +6,12 @@ VALUES (15429, 'arrowdeadly', 5, '2019-12-25 00:00:00') /* Ammunition */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15429,   1,        256) /* ItemType - MissileWeapon */
      , (15429,   3,          4) /* PaletteTemplate - Brown */
-     , (15429,   5,         10) /* EncumbranceVal */
+     , (15429,   5,          5) /* EncumbranceVal */
      , (15429,   8,          2) /* Mass */
      , (15429,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (15429,  11,       1000) /* MaxStackSize */
      , (15429,  12,          1) /* StackSize */
-     , (15429,  13,         10) /* StackUnitEncumbrance */
+     , (15429,  13,          5) /* StackUnitEncumbrance */
      , (15429,  14,          2) /* StackUnitMass */
      , (15429,  15,          7) /* StackUnitValue */
      , (15429,  16,          1) /* ItemUseable - No */

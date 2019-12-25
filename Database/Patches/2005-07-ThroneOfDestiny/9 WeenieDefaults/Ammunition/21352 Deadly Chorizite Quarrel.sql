@@ -6,12 +6,12 @@ VALUES (21352, 'boltchorizitedeadly', 5, '2019-12-25 00:00:00') /* Ammunition */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21352,   1,        256) /* ItemType - MissileWeapon */
      , (21352,   3,         82) /* PaletteTemplate - PinkPurple */
-     , (21352,   5,         10) /* EncumbranceVal */
+     , (21352,   5,          5) /* EncumbranceVal */
      , (21352,   8,          2) /* Mass */
      , (21352,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (21352,  11,       1000) /* MaxStackSize */
      , (21352,  12,          1) /* StackSize */
-     , (21352,  13,         10) /* StackUnitEncumbrance */
+     , (21352,  13,          5) /* StackUnitEncumbrance */
      , (21352,  14,          2) /* StackUnitMass */
      , (21352,  15,          2) /* StackUnitValue */
      , (21352,  16,          1) /* ItemUseable - No */

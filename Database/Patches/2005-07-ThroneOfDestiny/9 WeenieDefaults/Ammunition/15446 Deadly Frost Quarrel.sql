@@ -6,12 +6,12 @@ VALUES (15446, 'boltdeadlyfrost', 5, '2019-12-25 00:00:00') /* Ammunition */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15446,   1,        256) /* ItemType - MissileWeapon */
      , (15446,   3,          2) /* PaletteTemplate - Blue */
-     , (15446,   5,         10) /* EncumbranceVal */
+     , (15446,   5,          5) /* EncumbranceVal */
      , (15446,   8,          2) /* Mass */
      , (15446,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (15446,  11,       1000) /* MaxStackSize */
      , (15446,  12,          1) /* StackSize */
-     , (15446,  13,         10) /* StackUnitEncumbrance */
+     , (15446,  13,          5) /* StackUnitEncumbrance */
      , (15446,  14,          2) /* StackUnitMass */
      , (15446,  15,         11) /* StackUnitValue */
      , (15446,  16,          1) /* ItemUseable - No */
