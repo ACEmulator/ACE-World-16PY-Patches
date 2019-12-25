@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43150;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43150, 'ace43150-gearbladeslashingarrow', 5, '2019-12-23 17:55:19') /* Ammunition */;
+VALUES (43150, 'ace43150-gearbladeslashingarrow', 5, '2019-12-25 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43150,   1,        256) /* ItemType - MissileWeapon */
@@ -19,8 +19,8 @@ VALUES (43150,   1,        256) /* ItemType - MissileWeapon */
      , (43150,  45,          1) /* DamageType - Slash */
      , (43150,  50,          1) /* AmmoType - Arrow */
      , (43150,  51,          3) /* CombatUse - Ammo */
-     , (43150,  53,        103) /* PlacementPosition - Hook */
      , (43150,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
+     , (43150, 150,        103) /* HookPlacement - Hook */
      , (43150, 151,          2) /* HookType - Wall */
      , (43150, 158,          2) /* WieldRequirements - RawSkill */
      , (43150, 159,         47) /* WieldSkillType - MissileWeapons */
@@ -32,9 +32,9 @@ VALUES (43150,  17, True ) /* Inelastic */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43150,  12,       0) /* Shade */
-     , (43150,  22, 0.300000011920929) /* DamageVariance */
+     , (43150,  22,     0.3) /* DamageVariance */
      , (43150,  29,       1) /* WeaponDefense */
-     , (43150,  39, 1.10000002384186) /* DefaultScale */
+     , (43150,  39,     1.1) /* DefaultScale */
      , (43150,  62,       1) /* WeaponOffense */
      , (43150,  78,       1) /* Friction */
      , (43150,  79,       0) /* Elasticity */;

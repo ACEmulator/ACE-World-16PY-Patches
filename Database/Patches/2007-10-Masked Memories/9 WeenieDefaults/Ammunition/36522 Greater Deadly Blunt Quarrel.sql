@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36522;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36522, 'ace36522-greaterdeadlybluntquarrel', 5, '2019-12-23 17:14:28') /* Ammunition */;
+VALUES (36522, 'ace36522-greaterdeadlybluntquarrel', 5, '2019-12-25 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36522,   1,        256) /* ItemType - MissileWeapon */
@@ -14,7 +14,7 @@ VALUES (36522,   1,        256) /* ItemType - MissileWeapon */
      , (36522,  15,          1) /* StackUnitValue */
      , (36522,  16,          1) /* ItemUseable - No */
      , (36522,  19,          1) /* Value */
-     , (36522,  44,         53) /* Damage */
+     , (36522,  44,         42) /* Damage */
      , (36522,  45,          4) /* DamageType - Bludgeon */
      , (36522,  50,          2) /* AmmoType - Bolt */
      , (36522,  51,          3) /* CombatUse - Ammo */
@@ -31,9 +31,9 @@ VALUES (36522,  17, True ) /* Inelastic */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36522,  12,       0) /* Shade */
-     , (36522,  22, 0.400000005960464) /* DamageVariance */
+     , (36522,  22,     0.4) /* DamageVariance */
      , (36522,  29,       1) /* WeaponDefense */
-     , (36522,  39, 1.10000002384186) /* DefaultScale */
+     , (36522,  39,     1.1) /* DefaultScale */
      , (36522,  62,       1) /* WeaponOffense */
      , (36522,  78,       1) /* Friction */
      , (36522,  79,       0) /* Elasticity */;

@@ -31,9 +31,9 @@ VALUES (36521,  17, True ) /* Inelastic */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36521,  12,       0) /* Shade */
-     , (36521,  22, 0.300000011920929) /* DamageVariance */
+     , (36521,  22,     0.3) /* DamageVariance */
      , (36521,  29,       1) /* WeaponDefense */
-     , (36521,  39, 1.10000002384186) /* DefaultScale */
+     , (36521,  39,     1.1) /* DefaultScale */
      , (36521,  62,       1) /* WeaponOffense */
      , (36521,  78,       1) /* Friction */
      , (36521,  79,       0) /* Elasticity */;

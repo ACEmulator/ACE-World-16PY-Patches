@@ -32,7 +32,7 @@ VALUES (24549,  17, True ) /* Inelastic */
      , (24549,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24549,  22,     0.3) /* DamageVariance */
+VALUES (24549,  22,    0.43) /* DamageVariance */
      , (24549,  29,       1) /* WeaponDefense */
      , (24549,  39,     1.1) /* DefaultScale */
      , (24549,  62,       1) /* WeaponOffense */
