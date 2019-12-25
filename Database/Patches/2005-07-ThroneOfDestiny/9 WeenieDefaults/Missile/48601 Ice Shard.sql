@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48601;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48601, 'ace48601-iceshard', 4, '2019-02-04 06:52:23') /* Missile */;
+VALUES (48601, 'ace48601-iceshard', 4, '2019-12-25 00:00:00') /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48601,   1,        256) /* ItemType - MissileWeapon */
@@ -19,12 +19,13 @@ VALUES (48601,   1,        256) /* ItemType - MissileWeapon */
      , (48601,  44,         50) /* Damage */
      , (48601,  45,          8) /* DamageType - Cold */
      , (48601,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
-     , (48601,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (48601,  48,         47) /* WeaponSkill - MissileWeapons */
      , (48601,  49,         15) /* WeaponTime */
-     , (48601,  51,          2) /* CombatUse - Missle */
+     , (48601,  51,          2) /* CombatUse - Missile */
      , (48601,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (48601, 150,        103) /* HookPlacement - Hook */
-     , (48601, 151,          2) /* HookType - Wall */;
+     , (48601, 151,          2) /* HookType - Wall */
+     , (48601, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48601,  17, True ) /* Inelastic */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23878;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23878, 'spikefire', 4, '2019-12-23 17:50:28') /* Missile */;
+VALUES (23878, 'spikefire', 4, '2019-12-25 00:00:00') /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23878,   1,        256) /* ItemType - MissileWeapon */
@@ -21,17 +21,18 @@ VALUES (23878,   1,        256) /* ItemType - MissileWeapon */
      , (23878,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (23878,  48,         47) /* WeaponSkill - MissileWeapons */
      , (23878,  49,         10) /* WeaponTime */
-     , (23878,  51,          2) /* CombatUse - Missle */
+     , (23878,  51,          2) /* CombatUse - Missile */
      , (23878,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (23878, 150,        103) /* HookPlacement - Hook */
-     , (23878, 151,          2) /* HookType - Wall */;
+     , (23878, 151,          2) /* HookType - Wall */
+     , (23878, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23878,  17, True ) /* Inelastic */
      , (23878,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23878,  22, 0.200000002980232) /* DamageVariance */
+VALUES (23878,  22,     0.2) /* DamageVariance */
      , (23878,  27,       0) /* RotationSpeed */
      , (23878,  29,       1) /* WeaponDefense */
      , (23878,  39,       1) /* DefaultScale */

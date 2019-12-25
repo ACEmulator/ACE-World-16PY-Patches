@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29983;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29983, 'axethrowingknightmid', 4, '2019-02-04 06:52:23') /* Missile */;
+VALUES (29983, 'axethrowingknightmid', 4, '2019-12-25 00:00:00') /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29983,   1,        256) /* ItemType - MissileWeapon */
@@ -20,16 +20,12 @@ VALUES (29983,   1,        256) /* ItemType - MissileWeapon */
      , (29983,  44,         27) /* Damage */
      , (29983,  45,          4) /* DamageType - Bludgeon */
      , (29983,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
-     , (29983,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (29983,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29983,  49,         20) /* WeaponTime */
-     , (29983,  51,          2) /* CombatUse - Missle */
+     , (29983,  51,          2) /* CombatUse - Missile */
      , (29983,  52,          1) /* ParentLocation */
      , (29983,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (29983, 307,          5) /* DamageRating */
-     , (29983, 313,          0) /* CritRating */
-     , (29983, 314,          0) /* CritDamageRating */
-     , (29983, 353,         10) /* WeaponType - Thrown */
-     , (29983, 386,          0) /* Overpower */;
+     , (29983, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29983,  11, True ) /* IgnoreCollisions */
