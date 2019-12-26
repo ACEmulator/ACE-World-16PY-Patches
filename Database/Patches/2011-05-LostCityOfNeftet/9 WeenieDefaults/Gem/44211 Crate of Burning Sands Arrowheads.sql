@@ -8,8 +8,8 @@ VALUES (44211,   1,        128) /* ItemType - Misc */
      , (44211,   5,        150) /* EncumbranceVal */
      , (44211,  11,        100) /* MaxStackSize */
      , (44211,  12,          1) /* StackSize */
-     , (44211,  13,         50) /* StackUnitEncumbrance */
-     , (44211,  15,          4) /* StackUnitValue */
+     , (44211,  13,        150) /* StackUnitEncumbrance */
+     , (44211,  15,          1) /* StackUnitValue */
      , (44211,  16,          8) /* ItemUseable - Contained */
      , (44211,  19,          1) /* Value */
      , (44211,  33,          1) /* Bonded - Bonded */
