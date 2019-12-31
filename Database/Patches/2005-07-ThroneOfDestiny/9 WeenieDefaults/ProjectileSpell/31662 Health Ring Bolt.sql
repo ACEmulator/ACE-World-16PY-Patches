@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31662;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31662, 'ace31662-healthringbolt', 33, '2019-04-09 23:37:09') /* ProjectileSpell */;
+VALUES (31662, 'ace31662-healthringbolt', 33, '2019-12-26 23:37:09') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31662,   1,          0) /* ItemType - None */
@@ -17,7 +17,8 @@ VALUES (31662,   1, True ) /* Stuck */
      , (31662,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31662,  77,       1) /* PhysicsScriptIntensity */
+VALUES (31662,  26,      10) /* MaximumVelocity */
+     , (31662,  77,       1) /* PhysicsScriptIntensity */
      , (31662,  78,       1) /* Friction */
      , (31662,  79,       0) /* Elasticity */;
 
