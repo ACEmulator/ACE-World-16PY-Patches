@@ -9,7 +9,7 @@ VALUES (40464,   1,         16) /* ItemType - Creature */
      , (40464,   6,         -1) /* ItemsCapacity */
      , (40464,   7,         -1) /* ContainersCapacity */
      , (40464,  16,         32) /* ItemUseable - Remote */
-     , (40464,  25,         24) /* Level */
+     , (40464,  25,         21) /* Level */
      , (40464,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (40464,  95,          8) /* RadarBlipColor - Yellow */
      , (40464, 113,          2) /* Gender - Female */
