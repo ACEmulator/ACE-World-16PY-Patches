@@ -58,9 +58,9 @@ VALUES (40464,   1, 'Rare Exchanger') /* Name */
      , (40464,   5, 'Gamesmaster') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40464,   1,   33554433) /* Setup */
+VALUES (40464,   1,   33554510) /* Setup */
      , (40464,   2,  150994945) /* MotionTable */
-     , (40464,   3,  536870913) /* SoundTable */
+     , (40464,   3,  536870914) /* SoundTable */
      , (40464,   6,   67108990) /* PaletteBase */
      , (40464,   8,  100667446) /* Icon */;
 
