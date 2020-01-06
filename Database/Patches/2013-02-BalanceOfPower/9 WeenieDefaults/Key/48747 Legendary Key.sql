@@ -17,7 +17,6 @@ VALUES (48747,   1,      16384) /* ItemType - Key */
      , (48747,  94,        640) /* TargetType - LockableMagicTarget */
      , (48747, 114,          0) /* Attuned - Normal */
      , (48747, 267,      86400) /* Lifespan */
-     , (48747, 268,      86400) /* RemainingLifespan */
      , (48747, 369,        150) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
