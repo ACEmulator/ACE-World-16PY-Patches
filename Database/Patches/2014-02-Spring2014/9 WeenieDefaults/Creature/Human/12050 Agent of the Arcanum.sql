@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12050;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12050, 'agentwritrefuge_xp', 10, '2019-08-20 00:00:00') /* Creature */;
+VALUES (12050, 'agentwritrefuge_xp', 10, '2020-01-27 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12050,   1,         16) /* ItemType - Creature */
@@ -35,16 +35,16 @@ VALUES (12050,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12050,   1,       5) /* HeartbeatInterval */
      , (12050,   2,       0) /* HeartbeatTimestamp */
-     , (12050,   3, 0.159999996423721) /* HealthRate */
+     , (12050,   3,    0.16) /* HealthRate */
      , (12050,   4,       5) /* StaminaRate */
      , (12050,   5,       1) /* ManaRate */
-     , (12050,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (12050,  13,     0.9) /* ArmorModVsSlash */
      , (12050,  14,       1) /* ArmorModVsPierce */
-     , (12050,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (12050,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (12050,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (12050,  15,     1.1) /* ArmorModVsBludgeon */
+     , (12050,  16,     0.4) /* ArmorModVsCold */
+     , (12050,  17,     0.4) /* ArmorModVsFire */
      , (12050,  18,       1) /* ArmorModVsAcid */
-     , (12050,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (12050,  19,     0.6) /* ArmorModVsElectric */
      , (12050,  54,       3) /* UseRadius */
      , (12050,  64,       1) /* ResistSlash */
      , (12050,  65,       1) /* ResistPierce */
