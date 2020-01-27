@@ -101,7 +101,8 @@ VALUES (46425, 2, 25642, -1, 4, 0, False) /* Create Leather Gauntlets (25642) fo
      , (46425, 2, 25645, -1, 4, 0, False) /* Create Leather Leggings (25645) for Wield */
      , (46425, 2, 25651, -1, 4, 0, False) /* Create Leather Sleeves (25651) for Wield */
      , (46425, 2,   130, -1, 88, 1, False) /* Create Shirt (130) for Wield */
-     , (46425, 2,   107, -1, 4, 0, False) /* Create Sollerets (107) for Wield */
+     , (46425, 2,   127, -1, 88, 1, False) /* Create Pants (127) for Wield */
+     , (46425, 2, 25661, -1, 4, 0, False) /* Create Leather Boots (25661) for Wield */
      , (46425, 4, 46441, -1, 0, 0, False) /* Create Boxed Augmentation Gem (46441) for Shop */
      , (46425, 4, 46421, -1, 0, 0, False) /* Create Attribute Reset Certificate (46421) for Shop */
      , (46425, 4, 46420, -1, 0, 0, False) /* Create Skill Reset Certificate (46420) for Shop */
