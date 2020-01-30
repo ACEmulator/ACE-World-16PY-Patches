@@ -61,13 +61,6 @@ VALUES (39748,   1,   33560703) /* Setup */
      , (39748,   8,  100671368) /* Icon */
      , (39748,  22,  872415275) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39748,   1,   33555499) /* Setup */
-     , (39748,   2,  150995147) /* MotionTable */
-     , (39748,   3,  536871052) /* SoundTable */
-     , (39748,   4,  805306368) /* CombatTable */
-     , (39748,   8,  100675745) /* Icon */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (39748,   1, 100, 0, 0) /* Strength */
      , (39748,   2, 100, 0, 0) /* Endurance */
