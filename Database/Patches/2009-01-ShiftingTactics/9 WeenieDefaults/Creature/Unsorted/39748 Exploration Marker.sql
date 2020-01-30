@@ -31,7 +31,6 @@ VALUES (39748,   1,       5) /* HeartbeatInterval */
      , (39748,  17,     0.4) /* ArmorModVsFire */
      , (39748,  18,       1) /* ArmorModVsAcid */
      , (39748,  19,     0.6) /* ArmorModVsElectric */
-     , (39748,  39,     0.5) /* DefaultScale */
      , (39748,  54,       3) /* UseRadius */
      , (39748,  64,       1) /* ResistSlash */
      , (39748,  65,       1) /* ResistPierce */
