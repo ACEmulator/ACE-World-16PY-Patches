@@ -37,7 +37,6 @@ VALUES (39746,   1,       5) /* HeartbeatInterval */
      , (39746,  17,     0.4) /* ArmorModVsFire */
      , (39746,  18,       1) /* ArmorModVsAcid */
      , (39746,  19,     0.6) /* ArmorModVsElectric */
-     , (39746,  39,     0.5) /* DefaultScale */
      , (39746,  54,       3) /* UseRadius */
      , (39746,  64,       1) /* ResistSlash */
      , (39746,  65,       1) /* ResistPierce */
@@ -1039,6 +1038,6 @@ VALUES (@parent_id, 0, 18 /* DirectBroadcast */, 0, 1, NULL, 'You have found a t
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (39746, 2, 12309,  0, 14, 0.7143, False) /* Create Society Explorer Hat (12309) for Wield */
-     , (39746, 2,   130,  0, 7, 0.5455, False) /* Create Shirt (130) for Wield */
-     , (39746, 2,  2601,  0, 85, 0.6071, False) /* Create Pants (2601) for Wield */
+     , (39746, 2,  2590,  0, 7, 0.5455, False) /* Create Shirt (2590) for Wield */
+     , (39746, 2,  2598,  0, 85, 0.6071, False) /* Create Pants (2598) for Wield */
      , (39746, 2,   115,  0, 6, 0.5000, False) /* Create Leather Boots (115) for Wield */;
