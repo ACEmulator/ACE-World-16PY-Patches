@@ -93,13 +93,13 @@ VALUES (42941,   1, 290, 0, 0) /* Strength */
      , (42941,   4, 290, 0, 0) /* Coordination */
      , (42941,   5, 260, 0, 0) /* Focus */
      , (42941,   6, 200, 0, 0) /* Self */;
-	 
+
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (42941,   1,   196, 0, 0, 296) /* MaxHealth */
      , (42941,   3,   196, 0, 0, 396) /* MaxStamina */
      , (42941,   5,   196, 0, 0, 396) /* MaxMana */;
-	 
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (42941,  5 /* HeartBeat */,  0.085, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
@@ -139,7 +139,6 @@ VALUES (42941, 2,  42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal 
 	 , (42941, 2, 21156,  0, 93, 1, False) /* Create Covenant Helm for Wield */
 	 , (42941, 2, 21157,  0, 93, 1, False) /* Create Covenant Pauldrons for Wield */
 	 , (42941, 2, 21159,  0, 93, 1, False) /* Create Covenant Tassets for Wield */
-     , (42941, 2, 29541,  0, 93, 1, False) /* Create Covenant for Wield*/
 	 , (42941, 2, 71356,  0,  0, 1, False) /* Create Royal Knight Cloak for Wield */;
 
 
@@ -153,14 +152,14 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 318767242 /* Motion Salute */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  10 /* Tell */, 0.5, 1, NULL, 'Greetings Citizen!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
 
 
 
