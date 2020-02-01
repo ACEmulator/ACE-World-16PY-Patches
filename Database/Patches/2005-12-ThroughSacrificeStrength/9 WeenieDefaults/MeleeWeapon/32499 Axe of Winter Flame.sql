@@ -33,15 +33,15 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32499,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32499,   5, -0.0333329997956753) /* ManaRate */
+VALUES (32499,   5,  -0.033) /* ManaRate */
      , (32499,  21,       0) /* WeaponLength */
      , (32499,  22,     0.5) /* DamageVariance */
      , (32499,  26,       0) /* MaximumVelocity */
      , (32499,  29,       1) /* WeaponDefense */
      , (32499,  62,       1) /* WeaponOffense */
      , (32499,  63,       1) /* DamageMod */
-     , (32499, 136,       1) /* CriticalMultiplier */
-     , (32499, 147,       1) /* CriticalFrequency */;
+     , (32499, 136,       2) /* CriticalMultiplier */
+     , (32499, 147,     0.2) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32499,   1, 'Axe of Winter Flame') /* Name */
