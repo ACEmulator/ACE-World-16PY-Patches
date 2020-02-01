@@ -1,23 +1,24 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45956;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45956, 'ace45956-seasonedexplorernetherstaff', 35, '2019-08-23 00:00:00') /* Caster */;
+VALUES (45956, 'ace45956-seasonedexplorernetherstaff', 35, '2020-02-01 21:01:19') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45956,   1,      32768) /* ItemType - Caster */
      , (45956,   3,          8) /* PaletteTemplate - Green */
      , (45956,   5,         50) /* EncumbranceVal */
      , (45956,   9,   16777216) /* ValidLocations - Held */
-     , (45956,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (45956,  16,          1) /* ItemUseable - No */
      , (45956,  19,        100) /* Value */
      , (45956,  33,          1) /* Bonded - Bonded */
      , (45956,  45,       1024) /* DamageType - Nether */
-     , (45956,  65,          1) /* Placement - RightHandCombat */
+     , (45956,  46,        512) /* DefaultCombatStyle - Magic */
+     , (45956,  52,          1) /* ParentLocation - RightHand */
+     , (45956,  53,          1) /* PlacementPosition - RightHandCombat */
      , (45956,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45956,  94,         16) /* TargetType - Creature */
      , (45956, 106,        250) /* ItemSpellcraft */
-     , (45956, 107,        386) /* ItemCurMana */
+     , (45956, 107,        400) /* ItemCurMana */
      , (45956, 108,        400) /* ItemMaxMana */
      , (45956, 109,        100) /* ItemDifficulty */
      , (45956, 114,          1) /* Attuned - Attuned */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30309;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30309, 'crossbowrareassassinswhisper', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (30309, 'crossbowrareassassinswhisper', 3, '2020-02-01 21:01:19') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30309,   1,        256) /* ItemType - MissileWeapon */
@@ -21,8 +21,8 @@ VALUES (30309,   1,        256) /* ItemType - MissileWeapon */
      , (30309,  49,         90) /* WeaponTime */
      , (30309,  50,          2) /* AmmoType - Bolt */
      , (30309,  51,          2) /* CombatUse - Missle */
-     , (30309,  52,          2) /* ParentLocation */
-     , (30309,  53,          3) /* PlacementPosition */
+     , (30309,  52,          2) /* ParentLocation - LeftHand */
+     , (30309,  53,          3) /* PlacementPosition - LeftHand */
      , (30309,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30309, 106,        400) /* ItemSpellcraft */
      , (30309, 107,       3150) /* ItemCurMana */
@@ -51,18 +51,18 @@ VALUES (30309,  11, True ) /* IgnoreCollisions */
      , (30309, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30309,   5, -0.0333329997956753) /* ManaRate */
-     , (30309,  12, 0.660000026226044) /* Shade */
+VALUES (30309,   5,  -0.033) /* ManaRate */
+     , (30309,  12,    0.66) /* Shade */
      , (30309,  21,       0) /* WeaponLength */
      , (30309,  22,       0) /* DamageVariance */
-     , (30309,  26, 27.2999992370605) /* MaximumVelocity */
-     , (30309,  29, 1.17999994754791) /* WeaponDefense */
-     , (30309,  39, 1.20000004768372) /* DefaultScale */
+     , (30309,  26,    27.3) /* MaximumVelocity */
+     , (30309,  29,    1.18) /* WeaponDefense */
+     , (30309,  39,     1.2) /* DefaultScale */
      , (30309,  63,       2) /* DamageMod */
-     , (30309, 110, 1.66999995708466) /* BulkMod */
+     , (30309, 110,    1.67) /* BulkMod */
      , (30309, 111,       1) /* SizeMod */
-     , (30309, 136,       1) /* CriticalMultiplier */
-     , (30309, 147,       1) /* CriticalFrequency */;
+     , (30309, 136,    0.23) /* CriticalMultiplier */
+     , (30309, 147,       3) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30309,   1, 'Assassin''s Whisper') /* Name */

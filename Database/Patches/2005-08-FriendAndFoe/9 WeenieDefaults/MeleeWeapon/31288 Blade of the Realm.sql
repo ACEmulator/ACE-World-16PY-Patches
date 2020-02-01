@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31288;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31288, 'ace31288-bladeoftherealm', 6, '2019-03-26 20:02:53') /* MeleeWeapon */;
+VALUES (31288, 'ace31288-bladeoftherealm', 6, '2020-02-01 21:01:19') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31288,   1,          1) /* ItemType - MeleeWeapon */
@@ -43,8 +43,8 @@ VALUES (31288,   5, -0.0329999998211861) /* ManaRate */
      , (31288,  29, 1.04999995231628) /* WeaponDefense */
      , (31288,  62, 1.0900000333786) /* WeaponOffense */
      , (31288,  63,       1) /* DamageMod */
-     , (31288, 136,       1) /* CriticalMultiplier */
-     , (31288, 147,       1) /* CriticalFrequency */;
+     , (31288, 136, 0.180000007152557) /* CriticalMultiplier */
+     , (31288, 147,       3) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31288,   1, 'Blade of the Realm') /* Name */;

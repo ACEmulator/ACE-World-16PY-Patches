@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30345;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30345, 'atlatlraredartflicker', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (30345, 'atlatlraredartflicker', 3, '2020-02-01 21:01:19') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30345,   1,        256) /* ItemType - MissileWeapon */
@@ -20,8 +20,8 @@ VALUES (30345,   1,        256) /* ItemType - MissileWeapon */
      , (30345,  49,         15) /* WeaponTime */
      , (30345,  50,          4) /* AmmoType - Atlatl */
      , (30345,  51,          2) /* CombatUse - Missle */
-     , (30345,  52,          2) /* ParentLocation */
-     , (30345,  53,          3) /* PlacementPosition */
+     , (30345,  52,          2) /* ParentLocation - LeftHand */
+     , (30345,  53,          3) /* PlacementPosition - LeftHand */
      , (30345,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30345, 106,        350) /* ItemSpellcraft */
      , (30345, 107,       2000) /* ItemCurMana */
@@ -50,17 +50,17 @@ VALUES (30345,  11, True ) /* IgnoreCollisions */
      , (30345, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30345,   5, -0.0333329997956753) /* ManaRate */
-     , (30345,  12, 0.660000026226044) /* Shade */
-     , (30345,  21,       0) /* WeaponLength */
-     , (30345,  22,       0) /* DamageVariance */
-     , (30345,  26, 27.2999992370605) /* MaximumVelocity */
-     , (30345,  29, 1.17999994754791) /* WeaponDefense */
-     , (30345,  39, 1.20000004768372) /* DefaultScale */
-     , (30345,  63, 2.90000009536743) /* DamageMod */
-     , (30345, 110, 1.39999997615814) /* BulkMod */
-     , (30345, 111,       1) /* SizeMod */
-     , (30345, 147,       1) /* CriticalFrequency */;
+VALUES (30345,   5, -0.033) /* ManaRate */
+     , (30345,  12,   0.66) /* Shade */
+     , (30345,  21,      0) /* WeaponLength */
+     , (30345,  22,      0) /* DamageVariance */
+     , (30345,  26,   27.3) /* MaximumVelocity */
+     , (30345,  29,   1.18) /* WeaponDefense */
+     , (30345,  39,   1.20) /* DefaultScale */
+     , (30345,  63,   2.90) /* DamageMod */
+     , (30345, 110,    1.4) /* BulkMod */
+     , (30345, 111,      1) /* SizeMod */
+     , (30345, 147,    0.3) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30345,   1, 'Dart Flicker ') /* Name */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32852;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32852, 'ace32852-bladeoftherealm', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (32852, 'ace32852-bladeoftherealm', 6, '2020-02-01 21:01:19') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32852,   1,          1) /* ItemType - MeleeWeapon */
@@ -16,7 +16,6 @@ VALUES (32852,   1,          1) /* ItemType - MeleeWeapon */
      , (32852,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (32852,  49,         40) /* WeaponTime */
      , (32852,  51,          1) /* CombatUse - Melee */
-     , (32852,  52,          1) /* ParentLocation */
      , (32852,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32852, 106,        400) /* ItemSpellcraft */
      , (32852, 107,       2000) /* ItemCurMana */
@@ -43,8 +42,8 @@ VALUES (32852,   5, -0.0329999998211861) /* ManaRate */
      , (32852,  29, 1.04999995231628) /* WeaponDefense */
      , (32852,  62, 1.0900000333786) /* WeaponOffense */
      , (32852,  63,       1) /* DamageMod */
-     , (32852, 136,       1) /* CriticalMultiplier */
-     , (32852, 147,       1) /* CriticalFrequency */;
+     , (32852, 136, 0.180000007152557) /* CriticalMultiplier */
+     , (32852, 147,       3) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32852,   1, 'Blade of the Realm') /* Name */;
