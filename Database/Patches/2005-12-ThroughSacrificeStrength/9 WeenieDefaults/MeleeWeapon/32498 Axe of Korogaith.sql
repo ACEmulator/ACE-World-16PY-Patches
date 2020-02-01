@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32498;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32498, 'ace32498-axeofkorogaith', 6, '2019-11-30 18:55:47') /* MeleeWeapon */;
+VALUES (32498, 'ace32498-axeofkorogaith', 6, '2020-02-01 21:01:19') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32498,   1,          1) /* ItemType - MeleeWeapon */
@@ -33,7 +33,7 @@ VALUES (32498,  22, True ) /* Inscribable */
      , (32498,  84, True ) /* IgnoreCloIcons */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32498,   5, -0.0333329997956753) /* ManaRate */
+VALUES (32498,   5,  -0.033) /* ManaRate */
      , (32498,  12,       0) /* Shade */
      , (32498,  21,       0) /* WeaponLength */
      , (32498,  22,     0.6) /* DamageVariance */
@@ -41,13 +41,13 @@ VALUES (32498,   5, -0.0333329997956753) /* ManaRate */
      , (32498,  29,       1) /* WeaponDefense */
      , (32498,  62,       1) /* WeaponOffense */
      , (32498,  63,       1) /* DamageMod */
-     , (32498, 136,       1) /* CriticalMultiplier */
-     , (32498, 147,       1) /* CriticalFrequency */;
+     , (32498, 136,       2) /* CriticalMultiplier */
+     , (32498, 147,     0.2) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32498,   1, 'Axe of Korogaith') /* Name */
      , (32498,  16, 'An axe once wielded by the ancient slave Korogaith.') /* LongDesc */
-     , (32498,  33, 'axeofkorogaith') /* Quest */;
+     , (32498,  33, 'AxeOfKorogaith') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32498,   1,   33554725) /* Setup */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32496;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32496, 'ace32496-spearofbaranaith', 6, '2019-11-30 18:55:47') /* MeleeWeapon */;
+VALUES (32496, 'ace32496-spearofbaranaith', 6, '2020-02-01 21:01:19') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32496,   1,          1) /* ItemType - MeleeWeapon */
@@ -33,7 +33,7 @@ VALUES (32496,  22, True ) /* Inscribable */
      , (32496,  84, True ) /* IgnoreCloIcons */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32496,   5, -0.0333329997956753) /* ManaRate */
+VALUES (32496,   5,  -0.033) /* ManaRate */
      , (32496,  12,       0) /* Shade */
      , (32496,  21,       0) /* WeaponLength */
      , (32496,  22,     0.6) /* DamageVariance */
@@ -41,13 +41,13 @@ VALUES (32496,   5, -0.0333329997956753) /* ManaRate */
      , (32496,  29,       1) /* WeaponDefense */
      , (32496,  62,       1) /* WeaponOffense */
      , (32496,  63,       1) /* DamageMod */
-     , (32496, 136,       1) /* CriticalMultiplier */
-     , (32496, 147,       1) /* CriticalFrequency */;
+     , (32496, 136,       2) /* CriticalMultiplier */
+     , (32496, 147,     0.2) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32496,   1, 'Spear of Baranaith') /* Name */
      , (32496,  16, 'A spear once weilded by the ancient slave Baranaith.') /* LongDesc */
-     , (32496,  33, 'spearofbaranaith') /* Quest */;
+     , (32496,  33, 'SpearOfBaranaith') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32496,   1,   33554756) /* Setup */

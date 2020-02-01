@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32494;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32494, 'ace32494-maceofhiranaith', 6, '2019-11-30 18:55:47') /* MeleeWeapon */;
+VALUES (32494, 'ace32494-maceofhiranaith', 6, '2020-02-01 21:01:19') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32494,   1,          1) /* ItemType - MeleeWeapon */
@@ -33,7 +33,7 @@ VALUES (32494,  22, True ) /* Inscribable */
      , (32494,  84, True ) /* IgnoreCloIcons */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32494,   5, -0.0333329997956753) /* ManaRate */
+VALUES (32494,   5,  -0.033) /* ManaRate */
      , (32494,  12,       0) /* Shade */
      , (32494,  21,       0) /* WeaponLength */
      , (32494,  22,    0.55) /* DamageVariance */
@@ -41,13 +41,13 @@ VALUES (32494,   5, -0.0333329997956753) /* ManaRate */
      , (32494,  29,       1) /* WeaponDefense */
      , (32494,  62,       1) /* WeaponOffense */
      , (32494,  63,       1) /* DamageMod */
-     , (32494, 136,       1) /* CriticalMultiplier */
-     , (32494, 147,       1) /* CriticalFrequency */;
+     , (32494, 136,       2) /* CriticalMultiplier */
+     , (32494, 147,     0.2) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32494,   1, 'Mace of Hiranaith') /* Name */
      , (32494,  16, 'A mace once wielded by the ancient slave Hiranaith.') /* LongDesc */
-     , (32494,  33, 'maceofhiranaith') /* Quest */;
+     , (32494,  33, 'MaceOfHiranaith') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32494,   1,   33554748) /* Setup */
