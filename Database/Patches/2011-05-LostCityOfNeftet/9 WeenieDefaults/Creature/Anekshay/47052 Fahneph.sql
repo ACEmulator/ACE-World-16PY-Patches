@@ -10,9 +10,11 @@ VALUES (47052,   1,         16) /* ItemType - Creature */
      , (47052,   7,        -1) /* ContainersCapacity */
      , (47052,  16,         32) /* ItemUseable - Remote */
      , (47052,  25,        250) /* Level */
+	 , (47052,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (47052,   3,          9) /* PaletteTemplate - Grey */
      , (47052,  95,          8) /* RadarBlipColor - Yellow */
-     , (47052, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (47052, 133,          4) /* ShowableOnRadar - ShowAlways */
+	 , (47052, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47052,   1, True ) /* Stuck */
@@ -52,3 +54,15 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (47052,   1,  8275, 0, 0, 8430) /* MaxHealth */
      , (47052,   3, 12110, 0, 0, 12420) /* MaxStamina */
      , (47052,   5,  9075, 0, 0, 9355) /* MaxMana */;
+	 
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (47052,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
+     , (47052,  7, 0, 2, 0, 500, 0, 0) /* MissileDefense      Trained */
+     , (47052, 15, 0, 2, 0, 500, 0, 0) /* MagicDefense        Trained */
+     , (47052, 41, 0, 2, 0, 500, 0, 0) /* TwoHandedCombat     Trained */
+     , (47052, 44, 0, 2, 0, 500, 0, 0) /* HeavyWeapons        Trained */
+     , (47052, 45, 0, 2, 0, 500, 0, 0) /* LightWeapons        Trained */
+     , (47052, 46, 0, 2, 0, 500, 0, 0) /* FinesseWeapons      Trained */
+     , (47052, 47, 0, 2, 0, 500, 0, 0) /* MissileWeapons      Trained */;
+	 
+	 

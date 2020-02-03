@@ -30,17 +30,17 @@ VALUES (48907,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48907,   1,       5) /* HeartbeatInterval */
      , (48907,   2,       0) /* HeartbeatTimestamp */
-     , (48907,   3, 0.159999996423721) /* HealthRate */
+     , (48907,   3, 	  1) /* HealthRate */
      , (48907,   4,       5) /* StaminaRate */
      , (48907,   5,       1) /* ManaRate */
 	 , (48907,  12,  0.7667) /* Shade */
-     , (48907,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (48907,  13, 	  1) /* ArmorModVsSlash */
      , (48907,  14,       1) /* ArmorModVsPierce */
-     , (48907,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (48907,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (48907,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (48907,  15, 	  1) /* ArmorModVsBludgeon */
+     , (48907,  16, 	  1) /* ArmorModVsCold */
+     , (48907,  17, 	  1) /* ArmorModVsFire */
      , (48907,  18,       1) /* ArmorModVsAcid */
-     , (48907,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (48907,  19, 	  1) /* ArmorModVsElectric */
 	 , (48907,  39,       1) /* DefaultScale */
      , (48907,  54,       3) /* UseRadius */
      , (48907,  64,       1) /* ResistSlash */
@@ -81,6 +81,16 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (48907,   1,  8175, 0, 0, 8330) /* MaxHealth */
      , (48907,   3, 11110, 0, 0, 11420) /* MaxStamina */
      , (48907,   5,  9975, 0, 0, 10255) /* MaxMana */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (48907,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
+     , (48907,  7, 0, 2, 0, 500, 0, 0) /* MissileDefense      Trained */
+     , (48907, 15, 0, 2, 0, 500, 0, 0) /* MagicDefense        Trained */
+     , (48907, 41, 0, 2, 0, 500, 0, 0) /* TwoHandedCombat     Trained */
+     , (48907, 44, 0, 2, 0, 500, 0, 0) /* HeavyWeapons        Trained */
+     , (48907, 45, 0, 2, 0, 500, 0, 0) /* LightWeapons        Trained */
+     , (48907, 46, 0, 2, 0, 500, 0, 0) /* FinesseWeapons      Trained */
+     , (48907, 47, 0, 2, 0, 500, 0, 0) /* MissileWeapons      Trained */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (48907,  5 /* HeartBeat */,  0.085, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

@@ -11,9 +11,11 @@ VALUES (42941,   1,         16) /* ItemType - Creature */
      , (42941,   7,         -1) /* ContainersCapacity */
      , (42941,  16,         32) /* ItemUseable - Remote */
      , (42941,  25,        275) /* Level */
+	 , (42941,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42941,  95,          8) /* RadarBlipColor - Yellow */
      , (42941, 113,          2) /* Gender - Male */
      , (42941, 133,          4) /* ShowableOnRadar - ShowAlways */
+	 , (42941, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (42941, 188,          10) /* HeritageGroup - Penumbraen  */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,17 +32,17 @@ VALUES (42941,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42941,   1,       5) /* HeartbeatInterval */
      , (42941,   2,       0) /* HeartbeatTimestamp */
-     , (42941,   3, 0.159999996423721) /* HealthRate */
+     , (42941,   3,    0.15) /* HealthRate */
      , (42941,   4,       5) /* StaminaRate */
      , (42941,   5,       1) /* ManaRate */
 	 , (42941,  12,  0.7083) /* Shade */
-     , (42941,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (42941,  13,    0.89) /* ArmorModVsSlash */
      , (42941,  14,       1) /* ArmorModVsPierce */
-     , (42941,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (42941,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (42941,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (42941,  15,     1.1) /* ArmorModVsBludgeon */
+     , (42941,  16,     0.4) /* ArmorModVsCold */
+     , (42941,  17,     0.4) /* ArmorModVsFire */
      , (42941,  18,       1) /* ArmorModVsAcid */
-     , (42941,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (42941,  19,     0.6) /* ArmorModVsElectric */
      , (42941,  54,       3) /* UseRadius */
      , (42941,  64,       1) /* ResistSlash */
      , (42941,  65,       1) /* ResistPierce */
@@ -70,9 +72,14 @@ VALUES (42941,   1,   33560941) /* Setup */
 
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (42941,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */
-     , (42941,  7, 0, 2, 0,   1, 0, 0) /* MissileDefense      Trained */
-     , (42941, 13, 0, 2, 0,   1, 0, 0) /* UnarmedCombat       Trained */;
+VALUES (42941,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
+     , (42941,  7, 0, 2, 0, 500, 0, 0) /* MissileDefense      Trained */
+     , (42941, 15, 0, 2, 0, 500, 0, 0) /* MagicDefense        Trained */
+     , (42941, 41, 0, 2, 0, 500, 0, 0) /* TwoHandedCombat     Trained */
+     , (42941, 44, 0, 2, 0, 500, 0, 0) /* HeavyWeapons        Trained */
+     , (42941, 45, 0, 2, 0, 500, 0, 0) /* LightWeapons        Trained */
+     , (42941, 46, 0, 2, 0, 500, 0, 0) /* FinesseWeapons      Trained */
+     , (42941, 47, 0, 2, 0, 500, 0, 0) /* MissileWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (42941,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

@@ -31,17 +31,17 @@ VALUES (44261,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44261,   1,       5) /* HeartbeatInterval */
      , (44261,   2,       0) /* HeartbeatTimestamp */
-     , (44261,   3, 0.159999996423721) /* HealthRate */
+     , (44261,   3, 	0.1) /* HealthRate */
      , (44261,   4,       5) /* StaminaRate */
      , (44261,   5,       1) /* ManaRate */
 	 , (44261,  12,  0.7083) /* Shade */
-     , (44261,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (44261,  13, 	0.8) /* ArmorModVsSlash */
      , (44261,  14,       1) /* ArmorModVsPierce */
-     , (44261,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (44261,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (44261,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (44261,  15, 	1.1) /* ArmorModVsBludgeon */
+     , (44261,  16, 	0.4) /* ArmorModVsCold */
+     , (44261,  17, 	0.4) /* ArmorModVsFire */
      , (44261,  18,       1) /* ArmorModVsAcid */
-     , (44261,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (44261,  19, 	0.6) /* ArmorModVsElectric */
      , (44261,  54,       3) /* UseRadius */
      , (44261,  64,       1) /* ResistSlash */
      , (44261,  65,       1) /* ResistPierce */

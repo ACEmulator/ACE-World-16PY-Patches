@@ -11,9 +11,11 @@ VALUES (44299,   1,         16) /* ItemType - Creature */
      , (44299,   7,         -1) /* ContainersCapacity */
      , (44299,  16,         32) /* ItemUseable - Remote */
      , (44299,  25,        200) /* Level */
+	 , (44299,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44299,  95,          8) /* RadarBlipColor - Yellow */
      , (44299, 113,          2) /* Gender - Female */
      , (44299, 133,          4) /* ShowableOnRadar - ShowAlways */
+	 , (44299, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (44299, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -71,9 +73,14 @@ VALUES (44299,   1,   33554510) /* Setup */
 
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (44299,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */
-     , (44299,  7, 0, 2, 0,   1, 0, 0) /* MissileDefense      Trained */
-     , (44299, 13, 0, 2, 0,   1, 0, 0) /* UnarmedCombat       Trained */;
+VALUES (44299,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
+     , (44299,  7, 0, 2, 0, 500, 0, 0) /* MissileDefense      Trained */
+     , (44299, 15, 0, 2, 0, 500, 0, 0) /* MagicDefense        Trained */
+     , (44299, 41, 0, 2, 0, 500, 0, 0) /* TwoHandedCombat     Trained */
+     , (44299, 44, 0, 2, 0, 500, 0, 0) /* HeavyWeapons        Trained */
+     , (44299, 45, 0, 2, 0, 500, 0, 0) /* LightWeapons        Trained */
+     , (44299, 46, 0, 2, 0, 500, 0, 0) /* FinesseWeapons      Trained */
+     , (44299, 47, 0, 2, 0, 500, 0, 0) /* MissileWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (44299,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

@@ -11,9 +11,11 @@ VALUES (44288,   1,         16) /* ItemType - Creature */
      , (44288,   7,         -1) /* ContainersCapacity */
      , (44288,  16,         32) /* ItemUseable - Remote */
      , (44288,  25,        200) /* Level */
+	 , (44288,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44288,  95,          8) /* RadarBlipColor - Yellow */
      , (44288, 113,          1) /* Gender - Male */
-     , (44288, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (44288, 133,          4) /* ShowableOnRadar - ShowAlways */
+	 , (44288, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44288,   1, True ) /* Stuck */
@@ -56,6 +58,16 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (44288,   1,     0, 0, 0, 135) /* MaxHealth */
      , (44288,   3,     0, 0, 0, 270) /* MaxStamina */
      , (44288,   5,     0, 0, 0, 290) /* MaxMana */;
+	 
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (44288,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
+     , (44288,  7, 0, 2, 0, 500, 0, 0) /* MissileDefense      Trained */
+     , (44288, 15, 0, 2, 0, 500, 0, 0) /* MagicDefense        Trained */
+     , (44288, 41, 0, 2, 0, 500, 0, 0) /* TwoHandedCombat     Trained */
+     , (44288, 44, 0, 2, 0, 500, 0, 0) /* HeavyWeapons        Trained */
+     , (44288, 45, 0, 2, 0, 500, 0, 0) /* LightWeapons        Trained */
+     , (44288, 46, 0, 2, 0, 500, 0, 0) /* FinesseWeapons      Trained */
+     , (44288, 47, 0, 2, 0, 500, 0, 0) /* MissileWeapons      Trained */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44288,  5 /* HeartBeat */,  0.085, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
