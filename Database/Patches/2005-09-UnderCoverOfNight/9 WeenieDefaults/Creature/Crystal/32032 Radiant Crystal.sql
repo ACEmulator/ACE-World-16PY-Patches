@@ -48,13 +48,13 @@ VALUES (32032,   1,       5) /* HeartbeatInterval */
      , (32032,  31,      12) /* VisualAwarenessRange */
      , (32032,  34,       1) /* PowerupTime */
      , (32032,  36,       1) /* ChargeSpeed */
-     , (32031,  64,     1.1) /* ResistSlash */
-     , (32031,  65,     0.7) /* ResistPierce */
-     , (32031,  66,     0.7) /* ResistBludgeon */
-     , (32031,  67,     0.7) /* ResistFire */
-     , (32031,  68,     0.7) /* ResistCold */
-     , (32031,  69,     0.7) /* ResistAcid */
-     , (32031,  70,     0.7) /* ResistElectric */
+     , (32032,  64,     1.1) /* ResistSlash */
+     , (32032,  65,     0.7) /* ResistPierce */
+     , (32032,  66,     0.7) /* ResistBludgeon */
+     , (32032,  67,     0.7) /* ResistFire */
+     , (32032,  68,     0.7) /* ResistCold */
+     , (32032,  69,     0.7) /* ResistAcid */
+     , (32032,  70,     0.7) /* ResistElectric */
      , (32032,  71,       1) /* ResistHealthBoost */
      , (32032,  72,       0) /* ResistStaminaDrain */
      , (32032,  73,       1) /* ResistStaminaBoost */
