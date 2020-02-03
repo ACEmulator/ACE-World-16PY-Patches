@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70017;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70017, 'ace70017-tombofadhorix', 10, '2020-02-03 00:26:15') /* Creature */;
+VALUES (70017, 'ace70017-tombofadhorix', 10, '2019-04-08 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70017,   1,         16) /* ItemType - Creature */
@@ -13,7 +13,6 @@ VALUES (70017,   1,         16) /* ItemType - Creature */
      , (70017,  67,          1) /* Tolerance - NoAttack */
      , (70017,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (70017,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (70017, 100,          1) /* GeneratorType - Relative */
      , (70017, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (70017, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (70017, 146,          0) /* XpOverride */;
