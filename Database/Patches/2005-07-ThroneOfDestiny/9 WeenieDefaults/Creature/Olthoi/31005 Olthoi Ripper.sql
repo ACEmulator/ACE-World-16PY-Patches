@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31005;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31005, 'olthoiripperhighyield', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (31005, 'olthoiripperhighyield', 10, '2020-02-03 00:26:15') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31005,   1,         16) /* ItemType - Creature */
@@ -10,11 +10,12 @@ VALUES (31005,   1,         16) /* ItemType - Creature */
      , (31005,   7,        255) /* ContainersCapacity */
      , (31005,  16,          1) /* ItemUseable - No */
      , (31005,  25,        185) /* Level */
+     , (31005,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (31005,  81,          2) /* MaxGeneratedObjects */
      , (31005,  82,          0) /* InitGeneratedObjects */
      , (31005,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (31005, 133,          2) /* ShowableOnRadar - ShowMovement */
-	 , (31005, 140,          1) /* AiOptions */
+     , (31005, 140,          1) /* AiOptions - CanOpenDoors */
      , (31005, 146,    1100000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -41,6 +42,7 @@ VALUES (31005,   1,       5) /* HeartbeatInterval */
      , (31005,  31,      24) /* VisualAwarenessRange */
      , (31005,  34,     0.5) /* PowerupTime */
      , (31005,  36,       1) /* ChargeSpeed */
+     , (31005,  41,     300) /* RegenerationInterval */
      , (31005,  43,       1) /* GeneratorRadius */
      , (31005,  64,    0.75) /* ResistSlash */
      , (31005,  65,       1) /* ResistPierce */
@@ -145,7 +147,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (31005,  5 /* HeartBeat */,   0.15, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (31005,  5 /* HeartBeat */,  0.2, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
