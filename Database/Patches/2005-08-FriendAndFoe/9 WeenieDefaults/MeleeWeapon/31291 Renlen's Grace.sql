@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31291;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31291, 'ace31291-renlensgrace', 6, '2020-02-01 21:01:19') /* MeleeWeapon */;
+VALUES (31291, 'ace31291-renlensgrace', 6, '2020-02-08 06:48:56') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31291,   1,          1) /* ItemType - MeleeWeapon */
@@ -42,8 +42,8 @@ VALUES (31291,   5, -0.0329999998211861) /* ManaRate */
      , (31291,  29, 1.0900000333786) /* WeaponDefense */
      , (31291,  62, 1.04999995231628) /* WeaponOffense */
      , (31291,  63,       1) /* DamageMod */
-     , (31291, 136, 0.180000007152557) /* CriticalMultiplier */
-     , (31291, 147,       3) /* CriticalFrequency */;
+     , (31291, 136,       3) /* CriticalMultiplier */
+     , (31291, 147, 0.180000007152557) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31291,   1, 'Renlen''s Grace') /* Name */;
