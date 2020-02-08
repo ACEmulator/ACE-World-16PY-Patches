@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30309;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30309, 'crossbowrareassassinswhisper', 3, '2020-02-01 21:01:19') /* MissileLauncher */;
+VALUES (30309, 'crossbowrareassassinswhisper', 3, '2020-02-08 06:48:56') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30309,   1,        256) /* ItemType - MissileWeapon */
@@ -61,8 +61,8 @@ VALUES (30309,   5,  -0.033) /* ManaRate */
      , (30309,  63,       2) /* DamageMod */
      , (30309, 110,    1.67) /* BulkMod */
      , (30309, 111,       1) /* SizeMod */
-     , (30309, 136,    0.23) /* CriticalMultiplier */
-     , (30309, 147,       3) /* CriticalFrequency */;
+     , (30309, 136,       3) /* CriticalMultiplier */
+     , (30309, 147,    0.23) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30309,   1, 'Assassin''s Whisper') /* Name */

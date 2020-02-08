@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30345;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30345, 'atlatlraredartflicker', 3, '2020-02-01 21:01:19') /* MissileLauncher */;
+VALUES (30345, 'atlatlraredartflicker', 3, '2020-02-08 06:48:56') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30345,   1,        256) /* ItemType - MissileWeapon */
@@ -63,7 +63,7 @@ VALUES (30345,   5, -0.033) /* ManaRate */
      , (30345, 147,    0.3) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30345,   1, 'Dart Flicker ') /* Name */
+VALUES (30345,   1, 'Dart Flicker') /* Name */
      , (30345,  16, 'A menacing looking atlatl with spikes potruding from the cup. By the looks of the intricately carved designs this atlatl once belonged to someone of great import, who probably did not actually use the weapon very often. Wealthy nobles of Milantos took great pleasure in collecting gaudily decorated weapons, but left most of the killing to their minions. For all of that, however, this is a very well-crafted atlatl, and would make an excellent weapon if anyone decided to make it more useful than ornamental.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
