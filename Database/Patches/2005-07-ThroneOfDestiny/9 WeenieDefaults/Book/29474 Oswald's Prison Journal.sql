@@ -23,12 +23,12 @@ VALUES (29474,  11, True ) /* IgnoreCollisions */
      , (29474,  22, False) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29474,  39, 1.22000002861023) /* DefaultScale */
-     , (29474,  54, 0.300000011920929) /* UseRadius */;
+VALUES (29474,  39, 1.22) /* DefaultScale */
+     , (29474,  54,  0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29474,   1, 'Oswald''s Prison Journal') /* Name */
-     , (29474,  15, 'A book.') /* ShortDesc */;
+     , (29474,  16, 'A journal. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29474,   1,   33554771) /* Setup */

@@ -22,12 +22,12 @@ VALUES (29475,  11, True ) /* IgnoreCollisions */
      , (29475,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29475,  39, 1.22000002861023) /* DefaultScale */
-     , (29475,  54, 0.300000011920929) /* UseRadius */;
+VALUES (29475,  39, 1.22) /* DefaultScale */
+     , (29475,  54,  0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29475,   1, 'Seven Habits of Effective Adventurers') /* Name */
-     , (29475,  15, 'A sturdy leather book, written in a language you cannot decipher.') /* ShortDesc */;
+     , (29475,  16, 'A sturdy leather book, written in a language you cannot decipher.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29475,   1,   33559160) /* Setup */
