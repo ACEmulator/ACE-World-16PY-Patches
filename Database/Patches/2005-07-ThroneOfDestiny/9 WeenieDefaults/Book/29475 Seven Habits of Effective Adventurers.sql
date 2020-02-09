@@ -27,8 +27,7 @@ VALUES (29475,  39, 1.22000002861023) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29475,   1, 'Seven Habits of Effective Adventurers') /* Name */
-     , (29475,  15, 'A sturdy leather book, written in a language you cannot decipher.') /* ShortDesc */
-     , (29475,  33, 'SevenHabitsBookPickedUp') /* Quest */;
+     , (29475,  15, 'A sturdy leather book, written in a language you cannot decipher.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29475,   1,   33559160) /* Setup */
@@ -40,6 +39,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (29475, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29475, 0, 4294967295, 'O', '', False, 'Yuan Hanzu
+VALUES (29475, 0, 4294967295, 'O', 'prewritten', False, 'Yuan Hanzu
 
 (This book is written in an unintelligible script, probably an elaborate code.)');
