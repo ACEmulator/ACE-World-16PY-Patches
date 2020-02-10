@@ -13,8 +13,6 @@ VALUES (45957,   1,      32768) /* ItemType - Caster */
      , (45957,  33,          1) /* Bonded - Bonded */
      , (45957,  45,       1024) /* DamageType - Nether */
      , (45957,  46,        512) /* DefaultCombatStyle - Magic */
-     , (45957,  52,          1) /* ParentLocation - RightHand */
-     , (45957,  53,          1) /* PlacementPosition - RightHandCombat */
      , (45957,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45957,  94,         16) /* TargetType - Creature */
      , (45957, 106,        250) /* ItemSpellcraft */

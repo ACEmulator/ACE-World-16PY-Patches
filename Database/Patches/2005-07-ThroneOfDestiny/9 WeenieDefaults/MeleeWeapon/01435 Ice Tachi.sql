@@ -19,8 +19,6 @@ VALUES (1435,   1,          1) /* ItemType - MeleeWeapon */
      , (1435,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (1435,  49,         35) /* WeaponTime */
      , (1435,  51,          1) /* CombatUse - Melee */
-     , (1435,  52,          1) /* ParentLocation - RightHand */
-     , (1435,  53,          1) /* PlacementPosition - RightHandCombat */
      , (1435,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (1435, 106,         15) /* ItemSpellcraft */
      , (1435, 107,       1000) /* ItemCurMana */
@@ -31,22 +29,17 @@ VALUES (1435,   1,          1) /* ItemType - MeleeWeapon */
      , (1435, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1435,  11, True ) /* IgnoreCollisions */
-     , (1435,  13, True ) /* Ethereal */
-     , (1435,  14, True ) /* GravityStatus */
-     , (1435,  19, True ) /* Attackable */
-     , (1435,  22, True ) /* Inscribable */
+VALUES (1435,  22, True ) /* Inscribable */
      , (1435,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1435,   5, -0.0219999998807907) /* ManaRate */
-     , (1435,  21, 1.10000002384186) /* WeaponLength */
+VALUES (1435,   5,  -0.022) /* ManaRate */
+     , (1435,  21,     1.1) /* WeaponLength */
      , (1435,  22,     0.5) /* DamageVariance */
-     , (1435,  26,       0) /* MaximumVelocity */
-     , (1435,  29, 1.04999995231628) /* WeaponDefense */
-     , (1435,  62, 1.04999995231628) /* WeaponOffense */
+     , (1435,  29,    1.05) /* WeaponDefense */
+     , (1435,  62,    1.05) /* WeaponOffense */
      , (1435,  63,       1) /* DamageMod */
-     , (1435, 147, 0.180000007152557) /* CriticalFrequency */;
+     , (1435, 147,    0.18) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1435,   1, 'Ice Tachi') /* Name */
