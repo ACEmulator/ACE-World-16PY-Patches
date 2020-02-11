@@ -61,7 +61,7 @@ VALUES (31292,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31292,   1, 'Viamontian Man-at-Arms') /* Name */
-     , (31292,  45, 'viamontianmanatarmskillcount') /* KillQuest */;
+     , (31292,  45, 'viamomankillcount') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31292,   1,   33559125) /* Setup */
