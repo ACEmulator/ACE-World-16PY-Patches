@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32628;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32628, 'ace32628-hashina', 10, '2020-02-16 19:55:35') /* Creature */;
+VALUES (32628, 'ace32628-hashina', 10, '2020-02-17 16:29:51') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32628,   1,         16) /* ItemType - Creature */
@@ -30,16 +30,16 @@ VALUES (32628,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32628,   1,       5) /* HeartbeatInterval */
      , (32628,   2,       0) /* HeartbeatTimestamp */
-     , (32628,   3,    0.16) /* HealthRate */
+     , (32628,   3, 0.1599999964237213) /* HealthRate */
      , (32628,   4,       5) /* StaminaRate */
      , (32628,   5,       1) /* ManaRate */
-     , (32628,  13,     0.9) /* ArmorModVsSlash */
+     , (32628,  13, 0.8999999761581421) /* ArmorModVsSlash */
      , (32628,  14,       1) /* ArmorModVsPierce */
-     , (32628,  15,     1.1) /* ArmorModVsBludgeon */
-     , (32628,  16,     0.4) /* ArmorModVsCold */
-     , (32628,  17,     0.4) /* ArmorModVsFire */
+     , (32628,  15, 1.100000023841858) /* ArmorModVsBludgeon */
+     , (32628,  16, 0.4000000059604645) /* ArmorModVsCold */
+     , (32628,  17, 0.4000000059604645) /* ArmorModVsFire */
      , (32628,  18,       1) /* ArmorModVsAcid */
-     , (32628,  19,     0.6) /* ArmorModVsElectric */
+     , (32628,  19, 0.6000000238418579) /* ArmorModVsElectric */
      , (32628,  54,       3) /* UseRadius */
      , (32628,  64,       1) /* ResistSlash */
      , (32628,  65,       1) /* ResistPierce */
@@ -85,9 +85,9 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (32628,   1,     0, 0, 0, 215) /* MaxHealth */
      , (32628,   3,     0, 0, 0, 290) /* MaxStamina */
      , (32628,   5,     0, 0, 0, 275) /* MaxMana */;
-	 
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (32628,  6 /* Give */,      1, 70755 /* Morgluuk's Flesh */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (32628,  6 /* Give */,      1, 70755 /* Entemarre's Head */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -97,15 +97,15 @@ VALUES (@parent_id,  0,  20 /* UpdateQuest */, 0, 1, NULL, 'EntemarreKiller', NU
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (32628,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-SET @parent_id = LAST_INSERT_ID();	 
-	 
+SET @parent_id = LAST_INSERT_ID();
+
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Queen Elysa has sent me here to establish a formal relationship with the good people of Silyun, who have rebelled against Varicci''s tyranny.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'In order to aid them in their fight, I would ask you to journey into the Direlands near Ayan Baqur. The Viamontians have built a fortress at 62.7S, 82.5W.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Bring me the head of Baron Entemarre, the garrison commander. The people of Silyun seek vengeance upon Entemarre for his brutal tactics in the earlier rebellion.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  70 /* SetQuestCompletions */, 0, 1, NULL, 'CampEntemarreFlagComplete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  5,  22 /* StampQuest */, 0, 1, NULL, 'EntemarreKiller', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-	 
+     , (@parent_id,  4,  22 /* StampQuest */, 0, 1, NULL, 'EntemarreKiller', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (32628, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'EntemarreKiller', NULL, NULL, NULL);
 
@@ -123,10 +123,65 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  2,   5 /* Motion */, 0, 1, 318767229 /* BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)	 
+     , (@parent_id,  2,   5 /* Motion */, 0, 1, 318767229 /* BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'Yes, at last... This wretch Entemarre was responsible for great suffering among the people of Silyun. You must realize that there can be no official acknowledgement of your deed. However, I can reward you through my own resources...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  9,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 32630 /* Whispering gloves */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)	 
-     , (@parent_id, 12,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 30000000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 32630 /* Whispering Blade Gloves */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  5,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 30000000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32628, 2,  5914,  0, 0, 0.5, False) /* Create Suikan Item Master Robe (5914) for Wield */;	 
+VALUES (32628, 2,  6046,  1, 88, 0.5, False) /* Create Amuli Coat (6046) for Wield */
+     , (32628, 2,  6047,  1, 88, 0.5, True) /* Create Amuli Leggings (6047) for Wield */
+     , (32628, 2,    77,  1, 13, 1, True) /* Create Kabuton (77) for Wield */
+     , (32628, 2,    57,  1, 88, 0, True) /* Create Platemail Gauntlets (57) for Wield */
+     , (32628, 2,   107,  0, 88, 0, True) /* Create Sollerets (107) for Wield */;
+
+/* Lifestoned Changelog:
+{
+  "LastModified": "2020-02-17T11:27:42.5764818-05:00",
+  "ModifiedBy": "MasterAilan",
+  "Changelog": [
+    {
+      "created": "0001-01-01T00:00:00",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "0001-01-01T00:00:00",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "0001-01-01T00:00:00",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "0001-01-01T00:00:00",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "0001-01-01T00:00:00",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "0001-01-01T00:00:00",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "0001-01-01T00:00:00",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    },
+    {
+      "created": "0001-01-01T00:00:00",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    }
+  ],
+  "UserChangeSummary": "Weenie exported from ACEmulator world database using ACE.Adapter",
+  "IsDone": false
+}
+*/
