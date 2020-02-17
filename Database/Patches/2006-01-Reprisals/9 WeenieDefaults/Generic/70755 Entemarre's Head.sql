@@ -19,7 +19,8 @@ VALUES (70755,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70755,   1, 'Entemarre''s Head') /* Name */
-     , (70755,  16, 'The severed head of the brutal Viamontian warlord known as Baron Entemarre.') /* LongDesc */;
+     , (70755,  16, 'The severed head of the brutal Viamontian warlord known as Baron Entemarre.') /* LongDesc */
+     , (70755,  33, 'PickedUpEntemarresHead') /* Quest */ ;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70755,   1,   33554769) /* Setup */
