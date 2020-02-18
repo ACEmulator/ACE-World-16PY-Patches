@@ -264,7 +264,7 @@ VALUES (1879417051,   568, 5898983, 55.25, -130, -18, -0.707107, 0, 0, -0.707107
 /* @teleloc 0x005A02E7 [55.250000 -130.000000 -18.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1879417052, 32351, 5898984, 64.75, -130, -18, -0.707107, 0, 0, -0.707107, True, '2019-11-30 00:00:00'); /* Gate near L7 */
+VALUES (1879417052, 32351, 5898984, 64.75, -130, -18, -0.707107, 0, 0, -0.707107, True, '2019-11-30 00:00:00'); /* Gate */
 /* @teleloc 0x005A02E8 [64.750000 -130.000000 -18.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -397,9 +397,35 @@ INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `ori
 VALUES (1879417080, 25456, 0x005A021D, 30.035526, -139.5013, -30.067999, -0.99999034, 0, 0, 0.0043945704, True, '2020-02-16 23:57:18'); /* Reinforced Door */
 /* @teleloc 0x005A021D [30.035526 -139.501297 -30.067999] -0.999990 0.000000 0.000000 0.004395 */
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1879417081, 80027, 0x005A0132, 64.78564, -40.019474, -72, 0.714156, 0, 0, 0.699986, True, '2020-02-17 17:33:17'); /* Mana Barrier */
+/* @teleloc 0x005A0132 [64.785637 -40.019474 -72.000000] 0.714156 0.000000 0.000000 0.699986 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1879417082, 80031, 0x005A0134, 66.283798, -40.013939, -71.995, -0.708246, 0, 0, -0.705966, True, '2020-02-17 17:33:17'); /* Royal Vivimancer */
+/* @teleloc 0x005A0134 [66.283798 -40.013939 -71.994995] -0.708246 0.000000 0.000000 -0.705966 */
+
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (1879417075, 1879417076, '2020-02-15 00:00:00') /* Reinforced Door */
      , (1879417075, 1879417077, '2020-02-15 00:00:00') /* Reinforced Door */
      , (1879417075, 1879417078, '2020-02-15 00:00:00') /* Reinforced Door */
      , (1879417075, 1879417079, '2020-02-15 00:00:00') /* Reinforced Door */
-     , (1879417075, 1879417080, '2020-02-15 00:00:00') /* Reinforced Door */;
+     , (1879417075, 1879417080, '2020-02-15 00:00:00') /* Reinforced Door */
+     , (1879417075, 1879417081, '2020-02-17 00:00:00') /* Mana Barrier */
+     , (1879417075, 1879417082, '2020-02-17 00:00:00') /* Royal Vivimancer */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1879417083, 80026, 0x005A0162, 79.97664, -14.650611, -48.07486, -0.00031702121, 0, -0, -0.99999994, False, '2020-02-17 07:03:14'); /* Reinforced Door */
+/* @teleloc 0x005A0162 [79.976639 -14.650611 -48.074860] -0.000317 0.000000 -0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1879417084, 80026, 0x005A0102, 64.91019, -40.014374, -101.94499, 0.70186484, 0, 0, -0.71231014, False, '2020-02-17 07:17:24'); /* Reinforced Door */
+/* @teleloc 0x005A0102 [64.910187 -40.014374 -101.944992] 0.701865 0.000000 0.000000 -0.712310 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1879417085, 32557, 0x005A010C, 81.04015, -39.96689, -102.062996, -0.711088, 0, 0, -0.703103, False, '2020-02-17 17:08:07'); /* Surface Portal */
+/* @teleloc 0x005A010C [81.040154 -39.966888 -102.062996] -0.711088 0.000000 0.000000 -0.703103 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1879417086, 80029, 0x005A0130, 55.0136, -40.0292, -72, -0.702612, 0, 0, 0.711574, False, '2020-02-17 17:21:50'); /* Mana Barrier Generator */
+/* @teleloc 0x005A0130 [55.013599 -40.029202 -72.000000] -0.702612 0.000000 0.000000 0.711574 */
