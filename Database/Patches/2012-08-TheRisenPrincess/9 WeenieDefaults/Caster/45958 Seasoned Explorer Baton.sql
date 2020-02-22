@@ -14,7 +14,7 @@ VALUES (45958,   1,      32768) /* ItemType - Caster */
      , (45958,  19,        100) /* Value */
      , (45958,  33,          1) /* Bonded - Bonded */
      , (45958,  45,          1) /* DamageType - Slash */
-     , (45958,  65,          1) /* Placement - RightHandCombat */
+     , (45958,  46,        512) /* DefaultCombatStyle - Magic */
      , (45958,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45958,  94,         16) /* TargetType - Creature */
      , (45958, 106,        250) /* ItemSpellcraft */
