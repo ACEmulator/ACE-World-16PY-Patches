@@ -59,7 +59,7 @@ VALUES (21525,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21525,   1, 'Tusker Guard') /* Name */
-     , (21525,  45, 'KillTask-TuskerGuard') /* KillQuest */;
+     , (21525,  45, 'TuskerGkillcount') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21525,   1,   33556836) /* Setup */
