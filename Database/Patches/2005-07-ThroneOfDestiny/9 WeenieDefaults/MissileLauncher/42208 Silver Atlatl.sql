@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42208;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42208, 'ace42208-silveratlatl', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (42208, 'ace42208-silveratlatl', 3, '2020-02-01 21:01:19') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42208,   1,        256) /* ItemType - MissileWeapon */
@@ -16,7 +16,6 @@ VALUES (42208,   1,        256) /* ItemType - MissileWeapon */
      , (42208,  49,         15) /* WeaponTime */
      , (42208,  50,          4) /* AmmoType - Atlatl */
      , (42208,  51,          2) /* CombatUse - Missle */
-     , (42208,  53,        101) /* PlacementPosition */
      , (42208,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42208, 106,        150) /* ItemSpellcraft */
      , (42208, 107,        400) /* ItemCurMana */
@@ -33,15 +32,15 @@ VALUES (42208,  11, True ) /* IgnoreCollisions */
      , (42208,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42208,   5, -0.025000000372529) /* ManaRate */
-     , (42208,  21,       0) /* WeaponLength */
-     , (42208,  22,       0) /* DamageVariance */
-     , (42208,  26, 24.8999996185303) /* MaximumVelocity */
-     , (42208,  29,       1) /* WeaponDefense */
-     , (42208,  39, 1.10000002384186) /* DefaultScale */
-     , (42208,  62,       1) /* WeaponOffense */
-     , (42208,  63, 2.20000004768372) /* DamageMod */
-     , (42208, 147,       1) /* CriticalFrequency */;
+VALUES (42208,   5, -0.025) /* ManaRate */
+     , (42208,  21,      0) /* WeaponLength */
+     , (42208,  22,      0) /* DamageVariance */
+     , (42208,  26,   24.9) /* MaximumVelocity */
+     , (42208,  29,      1) /* WeaponDefense */
+     , (42208,  39,    1.1) /* DefaultScale */
+     , (42208,  62,      1) /* WeaponOffense */
+     , (42208,  63,    2.2) /* DamageMod */
+     , (42208, 147,   0.18) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42208,   1, 'Silver Atlatl') /* Name */;

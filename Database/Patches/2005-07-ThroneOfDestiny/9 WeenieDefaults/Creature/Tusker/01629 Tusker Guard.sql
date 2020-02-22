@@ -183,7 +183,7 @@ VALUES (1629, 9,  8147,  0, 0, 0.05, False) /* Create Tusker Head (8147) for Con
      , (1629, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (1629, 9, 29204,  1, 0, 0.13, False) /* Create Tusker Spit (29204) for ContainTreasure */
      , (1629, 9,     0,  0, 0, 0.87, False) /* Create nothing for ContainTreasure */
-     , (1629, 9, 45875,  1, 0, 0.05, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
-     , (1629, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (1629, 9, 45876,  1, 0, 0.05, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
-     , (1629, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
+     , (1629, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (1629, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (1629, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (1629, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
