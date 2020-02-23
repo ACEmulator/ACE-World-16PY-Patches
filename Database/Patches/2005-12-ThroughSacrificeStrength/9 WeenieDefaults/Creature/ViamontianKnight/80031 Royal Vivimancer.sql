@@ -196,6 +196,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  24 /* StopEvent */, 0, 1, NULL, 'viahighmanabarrier', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (80031, 2, 28614,  0, 11, 0.1786, True) /* Create Vestiri Robe with Hood (28614) for Wield */
-     , (80031, 2, 28632,  0, 21, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (80031, 2, 31824,  1, 0, 1, True) /* Create Frost Baton (31824) for Wield */;
+VALUES (80031, 2, 28614,  0, 93, 0.4643, True) /* Create Vestiri Robe with Hood (28614) for Wield */
+     , (80031, 2, 28632,  0, 93, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
+     , (80031, 2, 80036,  1, 0, 1, True) /* Create Baton (80036) for Wield */;

@@ -20,7 +20,7 @@ VALUES (32358,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32358,   1, 'Viamont Staging Area Key') /* Name */
-     , (32358,  13, '_viamont_staging_area_key_') /* KeyCode */
+     , (32358,  13, 'viamont_staging_area') /* KeyCode */
      , (32358,  14, 'Use this key to open locked gates in the Glenden Wood Invasion Dungeon.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
