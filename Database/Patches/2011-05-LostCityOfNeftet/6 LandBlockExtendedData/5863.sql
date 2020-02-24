@@ -1,7 +1,7 @@
 /* Desert Dwelling - Janthef's Release Quest */
 
 
-DELETE FROM `landblock_instance` WHERE `landblock` = 22627;
+DELETE FROM `landblock_instance` WHERE `landblock` = 0x5863;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1971728398, 48744, 1482883329, 102.958, -90.0163, -138, 0.714421, 0, 0, 0.699716, False, '2019-02-10 00:00:00'); /* Legendary Weapon Chest */

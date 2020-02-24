@@ -80,7 +80,7 @@ VALUES (44037,   1,   33554433) /* Setup */
      , (44037,   6,   67108990) /* PaletteBase */
 	 , (44037,   7,  268435645) /* ClothingBase */
      , (44037,   8,  100669122) /* Icon */
-     , (44037,   4,  805306376) /* CombatTable */
+     , (44037,   4,  805306368) /* CombatTable */
      , (44037,  22,  872415272) /* PhysicsEffectTable */
 	 , (44037,  32,       3001) /* WieldedTreasureType */
      , (44037,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;

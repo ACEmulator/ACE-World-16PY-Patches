@@ -1,4 +1,4 @@
-DELETE FROM `landblock_instance` WHERE `landblock` = 22356;
+DELETE FROM `landblock_instance` WHERE `landblock` = 0x5754;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1970618374,   278, 1465123149, 0, -125.25, -1.862645E-09, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Door */
