@@ -28,7 +28,7 @@ INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_C
 VALUES (71408, 0.25, 71404, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Neftet Boss Gen A (71404) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (71408, 0.50, 71405, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Neftet Boss Gen B (71405) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
 	 , (71408, 0.75, 71406, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Neftet Boss Gen C (71406) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-	 , (71408, 0.99, 71407, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Neftet Boss Gen D (71407) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+	 , (71408,    1, 71407, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Neftet Boss Gen D (71407) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
 	 
 
  

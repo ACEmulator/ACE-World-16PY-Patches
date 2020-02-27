@@ -14,7 +14,7 @@ VALUES (52290,   1,         16) /* ItemType - Creature */
      , (52290,  40,          1) /* CombatMode - NonCombat */
      , (52290,  67,         64) /* Tolerance - Retaliate */
      , (52290,  68,          5) /* TargetingTactic - Random, LastDamager */
-	 , (52290,  81,         10) /* MaxGeneratedObjects */
+	 , (52290,  81,          4) /* MaxGeneratedObjects */
      , (52290,  82,          0) /* InitGeneratedObjects */
      , (52290,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52290, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
@@ -49,6 +49,7 @@ VALUES (52290,   1,       5) /* HeartbeatInterval */
      , (52290,  34,       1) /* PowerupTime */
      , (52290,  36,       1) /* ChargeSpeed */
 	 , (52290,  39,       2) /* DefaultScale */
+	 , (52290,  41,       0) /* RegenerationInterval */
      , (52290,  64,    0.75) /* ResistSlash */
      , (52290,  65,    0.75) /* ResistPierce */
      , (52290,  66,    0.75) /* ResistBludgeon */

@@ -25,8 +25,8 @@ VALUES (71402,   1,   33555051) /* Setup */
      , (71402,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (71402, 25, 44110, 360, 1, 1, 1, 4, -1, 0, 0, 0x57600472, 146.000000, -30.000000, 12.000000, 1, 0, 0, 0) /* Generate Fallen Rock (44110) (x1 up to max of 1)  Location to (re)Generate: Specific */
-     , (71402, 25, 44110, 180, 1, 1, 1, 4, -1, 0, 0, 0x5760028F, 235.1597, -90.20216, -17.994001, 0.7168582, 0, 0, -0.69721895) /* Generate Fallen Rock (44110) (x1 up to max of 1)  Location to (re)Generate: Specific */
-     , (71402, 25, 44110, 180, 1, 1, 1, 4, -1, 0, 0, 0x57600122, 23.700000, -209.900000, -18.000000, 1, 0, 0, 0) /* Generate Fallen Rock (44110) (x1 up to max of 1)  Location to (re)Generate: Specific */
-	 , (71402, 25, 44110, 180, 1, 1, 1, 4, -1, 0, 0, 0x5760030E, 54.919285, -70.13753, -5.994, 0.42057166, 0, 0, 0.9483972) /* Generate Fallen Rock (44110) (x1 up to max of 1)  Location to (re)Generate: Specific */;
+VALUES (71402, -1, 44110, 360, 1, 1, 1, 4, -1, 0, 0, 0x57600472, 146.000000, -30.000000, 12.000000, 1, 0, 0, 0) /* Generate Fallen Rock (44110) (x1 up to max of 1)  Location to (re)Generate: Specific */
+     , (71402, -1, 44110, 180, 1, 1, 1, 4, -1, 0, 0, 0x5760028F, 235.1597, -90.20216, -17.994001, 0.7168582, 0, 0, -0.69721895) /* Generate Fallen Rock (44110) (x1 up to max of 1)  Location to (re)Generate: Specific */
+     , (71402, -1, 44110, 180, 1, 1, 1, 4, -1, 0, 0, 0x57600122, 23.700000, -209.900000, -18.000000, 1, 0, 0, 0) /* Generate Fallen Rock (44110) (x1 up to max of 1)  Location to (re)Generate: Specific */
+	 , (71402, -1, 44110, 180, 1, 1, 1, 4, -1, 0, 0, 0x5760030E, 54.919285, -70.13753, -5.994, 0.42057166, 0, 0, 0.9483972) /* Generate Fallen Rock (44110) (x1 up to max of 1)  Location to (re)Generate: Specific */;
 	

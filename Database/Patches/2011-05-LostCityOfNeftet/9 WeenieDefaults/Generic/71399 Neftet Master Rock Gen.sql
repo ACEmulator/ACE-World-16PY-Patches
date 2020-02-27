@@ -28,6 +28,6 @@ INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_C
 VALUES (71399, 0.25, 71400, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Neftet Rock Gen A (71400) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (71399, 0.50, 71401, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Neftet Rock Gen B (71401) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
 	 , (71399, 0.75, 71402, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Neftet Rock Gen C (71402) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-	 , (71399, 0.99, 71403, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Neftet Rock Gen D (71403) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+	 , (71399,    1, 71403, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Neftet Rock Gen D (71403) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
 	 
 

@@ -25,6 +25,6 @@ VALUES (71406,   1,   33555051) /* Setup */
      , (71406,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (71406, 20, 44108, 360, 1, 1, 1, 4, -1, 0, 0, 0x57600499, 207.500000, -10.000000, 12.008000, 1, 0, 0, 0) /* Generate Mu-miyah Soothsayer (44108) (x1 up to max of 1)  Location to (re)Generate: Specific */
-     , (71406, 20, 44109, 180, 1, 1, 1, 4, -1, 0, 0, 0x57600437, 272.265717, -217.066696, 0.006000, 1, 0, 0, 0) /* Generate Mu-miyah Channeler (44109) (x1 up to max of 1)  Location to (re)Generate: Specific */;
+VALUES (71406, -1, 44108, 360, 1, 1, 1, 4, -1, 0, 0, 0x57600499, 207.500000, -10.000000, 12.008000, 1, 0, 0, 0) /* Generate Mu-miyah Soothsayer (44108) (x1 up to max of 1)  Location to (re)Generate: Specific */
+     , (71406, -1, 44109, 180, 1, 1, 1, 4, -1, 0, 0, 0x57600437, 272.265717, -217.066696, 0.006000, 1, 0, 0, 0) /* Generate Mu-miyah Channeler (44109) (x1 up to max of 1)  Location to (re)Generate: Specific */;
 
