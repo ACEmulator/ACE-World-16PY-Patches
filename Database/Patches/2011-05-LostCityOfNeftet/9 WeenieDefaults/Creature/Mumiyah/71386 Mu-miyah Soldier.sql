@@ -67,7 +67,8 @@ VALUES (71386,   1,       5) /* HeartbeatInterval */
      , (71386, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (71386,   1, 'Mu-miyah Soldier') /* Name */;
+VALUES (71386,   1, 'Mu-miyah Soldier') /* Name */
+	 , (71386,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (71386,   1,   33554433) /* Setup */

@@ -59,7 +59,8 @@ VALUES (44054,   1,       5) /* HeartbeatInterval */
      , (44054, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44054,   1, 'War Reaper') /* Name */;
+VALUES (44054,   1, 'War Reaper') /* Name */
+	 , (44054,  45, 'KilltaskDesertAreaReedshark_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44054,   1,   33554489) /* Setup */

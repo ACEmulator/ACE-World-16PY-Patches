@@ -59,7 +59,8 @@ VALUES (44052,   1,       5) /* HeartbeatInterval */
      , (44052, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44052,   1, 'Tamed Reaper') /* Name */;
+VALUES (44052,   1, 'Tamed Reaper') /* Name */
+	 , (44052,  45, 'KilltaskDesertAreaReedshark_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44052,   1,   33554489) /* Setup */
@@ -176,3 +177,6 @@ VALUES (44052, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44052, 9, 44295,  1, 0, 0.2, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44052, 9, 44294,  1, 0, 0.2, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44052, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */;
+	 
+	 
+	 
