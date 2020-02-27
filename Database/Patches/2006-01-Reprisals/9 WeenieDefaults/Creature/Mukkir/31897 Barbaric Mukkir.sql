@@ -23,7 +23,38 @@ VALUES (31897,   1, True ) /* Stuck */
      , (31897,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31897,  77,       1) /* PhysicsScriptIntensity */;
+VALUES (31897,   1,       5) /* HeartbeatInterval */
+     , (31897,   2,       0) /* HeartbeatTimestamp */
+     , (31897,   3, 0.699999988079071) /* HealthRate */
+     , (31897,   4,       4) /* StaminaRate */
+     , (31897,   5,       2) /* ManaRate */
+     , (31897,  12,     0.5) /* Shade */
+     , (31897,  13, 0.689999997615814) /* ArmorModVsSlash */
+     , (31897,  14, 0.800000011920929) /* ArmorModVsPierce */
+     , (31897,  15, 0.600000023841858) /* ArmorModVsBludgeon */
+     , (31897,  16,       1) /* ArmorModVsCold */
+     , (31897,  17,       1) /* ArmorModVsFire */
+     , (31897,  18, 1.10000002384186) /* ArmorModVsAcid */
+     , (31897,  19,       1) /* ArmorModVsElectric */
+     , (31897,  31,      24) /* VisualAwarenessRange */
+     , (31897,  34,     0.5) /* PowerupTime */
+     , (31897,  36,       1) /* ChargeSpeed */
+     , (31897,  64,    0.75) /* ResistSlash */
+     , (31897,  65,       1) /* ResistPierce */
+     , (31897,  66,       1) /* ResistBludgeon */
+     , (31897,  67,    0.75) /* ResistFire */
+     , (31897,  68,    0.75) /* ResistCold */
+     , (31897,  69, 0.419999986886978) /* ResistAcid */
+     , (31897,  70,    0.25) /* ResistElectric */
+     , (31897,  71,    0.25) /* ResistHealthBoost */
+     , (31897,  72,    0.25) /* ResistStaminaDrain */
+     , (31897,  73,       1) /* ResistStaminaBoost */
+     , (31897,  74,     0.5) /* ResistManaDrain */
+     , (31897,  75,       1) /* ResistManaBoost */
+     , (31897,  77,       1) /* PhysicsScriptIntensity */
+     , (31897, 104,      10) /* ObviousRadarRange */
+     , (31897, 117, 0.600000023841858) /* FocusedProbability */
+     , (31897, 125,    0.25) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31897,   1, 'Barbaric Mukkir') /* Name */;
