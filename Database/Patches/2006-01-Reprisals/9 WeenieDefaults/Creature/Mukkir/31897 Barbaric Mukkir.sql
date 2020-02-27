@@ -28,7 +28,6 @@ VALUES (31897,   1,       5) /* HeartbeatInterval */
      , (31897,   3, 0.699999988079071) /* HealthRate */
      , (31897,   4,       4) /* StaminaRate */
      , (31897,   5,       2) /* ManaRate */
-     , (31897,  12,     0.5) /* Shade */
      , (31897,  13, 0.689999997615814) /* ArmorModVsSlash */
      , (31897,  14, 0.800000011920929) /* ArmorModVsPierce */
      , (31897,  15, 0.600000023841858) /* ArmorModVsBludgeon */
