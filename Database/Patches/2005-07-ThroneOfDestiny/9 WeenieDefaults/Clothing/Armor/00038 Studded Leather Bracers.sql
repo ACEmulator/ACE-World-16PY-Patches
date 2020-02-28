@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38, 'bracersstuddedleather', 2, '2019-02-04 06:52:23') /* Clothing */;
+VALUES (38, 'bracersstuddedleather', 2, '2019-11-05 00:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38,   1,          2) /* ItemType - Armor */
@@ -13,31 +13,24 @@ VALUES (38,   1,          2) /* ItemType - Armor */
      , (38,  16,          1) /* ItemUseable - No */
      , (38,  19,        110) /* Value */
      , (38,  27,          4) /* ArmorType - StuddedLeather */
-     , (38,  28,         30) /* ArmorLevel */
-     , (38,  53,        101) /* PlacementPosition */
+     , (38,  28,         90) /* ArmorLevel */
      , (38,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38, 105,          4) /* ItemWorkmanship */
-     , (38, 131,         52) /* MaterialType - Leather */
-     , (38, 169,  118162702) /* TsysMutationData */
-     , (38, 172,          1) /* AppraisalLongDescDecoration */;
+     , (38, 124,          3) /* Version */
+     , (38, 169,  118162702) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38,  11, True ) /* IgnoreCollisions */
-     , (38,  13, True ) /* Ethereal */
-     , (38,  14, True ) /* GravityStatus */
-     , (38,  19, True ) /* Attackable */
-     , (38,  22, True ) /* Inscribable */
+VALUES (38,  22, True ) /* Inscribable */
      , (38, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38,  12, 0.660000026226044) /* Shade */
-     , (38,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (38,  14, 1.10000002384186) /* ArmorModVsPierce */
+VALUES (38,  12,    0.66) /* Shade */
+     , (38,  13,     1.2) /* ArmorModVsSlash */
+     , (38,  14,     1.1) /* ArmorModVsPierce */
      , (38,  15,       1) /* ArmorModVsBludgeon */
-     , (38,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (38,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (38,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (38,  19, 0.200000002980232) /* ArmorModVsElectric */
+     , (38,  16,     0.2) /* ArmorModVsCold */
+     , (38,  17,     0.2) /* ArmorModVsFire */
+     , (38,  18,     0.1) /* ArmorModVsAcid */
+     , (38,  19,     0.2) /* ArmorModVsElectric */
      , (38, 110,     1.5) /* BulkMod */
      , (38, 111,       1) /* SizeMod */
      , (38, 165,       1) /* ArmorModVsNether */;

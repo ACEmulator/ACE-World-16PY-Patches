@@ -1,28 +1,24 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37198;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37198, 'ace37198-olthoikoujiakabuton', 2, '2019-02-04 06:52:23') /* Clothing */;
+VALUES (37198, 'ace37198-olthoikoujiakabuton', 2, '2019-11-05 00:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37198,   1,          2) /* ItemType - Armor */
+     , (37198,   3,          2) /* PaletteTemplate - Blue */
      , (37198,   4,      16384) /* ClothingPriority - Head */
      , (37198,   5,        426) /* EncumbranceVal */
      , (37198,   9,          1) /* ValidLocations - HeadWear */
      , (37198,  16,          1) /* ItemUseable - No */
 	 , (37198,  27,         32) /* ArmorType - Metal */
-     , (37198,  28,        225) /* ArmorLevel */
-     , (37198,  53,        101) /* PlacementPosition */
+     , (37198,  28,        150) /* ArmorLevel */
      , (37198,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-	 , (37198, 124,          2) /* Version */
+	 , (37198, 124,          3) /* Version */
      , (37198, 151,          2) /* HookType - Wall */
 	 , (37198, 169,  168429060) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37198,  11, True ) /* IgnoreCollisions */
-     , (37198,  13, True ) /* Ethereal */
-     , (37198,  14, True ) /* GravityStatus */
-     , (37198,  19, True ) /* Attackable */
-     , (37198,  22, True ) /* Inscribable */
+VALUES (37198,  22, True ) /* Inscribable */
      , (37198, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

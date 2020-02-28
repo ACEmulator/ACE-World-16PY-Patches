@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42754;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42754, 'ace42754-haebreanpauldrons', 2, '2019-09-13 02:11:06') /* Clothing */;
+VALUES (42754, 'ace42754-haebreanpauldrons', 2, '2019-11-05 00:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42754,   1,          2) /* ItemType - Armor */
@@ -12,8 +12,9 @@ VALUES (42754,   1,          2) /* ItemType - Armor */
      , (42754,  16,          1) /* ItemUseable - No */
      , (42754,  19,        653) /* Value */
      , (42754,  27,         32) /* ArmorType - Metal */
-     , (42754,  28,        100) /* ArmorLevel */
+     , (42754,  28,        110) /* ArmorLevel */
      , (42754,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+	 , (42754, 124,          3) /* Version */
      , (42754, 169,  118096132) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
