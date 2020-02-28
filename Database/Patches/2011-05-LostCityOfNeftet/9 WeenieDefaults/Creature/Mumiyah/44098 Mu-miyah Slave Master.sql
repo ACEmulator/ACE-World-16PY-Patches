@@ -145,10 +145,10 @@ VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, 
 
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44098, 25, 44046, 0, 2, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Mumiyah Grand Vizier (44046) (x3)  - Location to (re)Generate: Scatter */
-	 , (44098, 25, 44036, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Mumiyah Champion (44036) (x1)  - Location to (re)Generate: Scatter */
-	 , (44098, 25, 44044, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Mumiyah Soldier (44044) (x1)  - Location to (re)Generate: Scatter */
-	 , (44098, 25, 44038, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Mumiyah Guardian (44038) (x1)  - Location to (re)Generate: Scatter */;
+VALUES (44098, -1, 44046, 0, 2, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Mumiyah Grand Vizier (44046) (x3)  - Location to (re)Generate: Scatter */
+	 , (44098, -1, 44036, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Mumiyah Champion (44036) (x1)  - Location to (re)Generate: Scatter */
+	 , (44098, -1, 44044, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Mumiyah Soldier (44044) (x1)  - Location to (re)Generate: Scatter */
+	 , (44098, -1, 44038, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Mumiyah Guardian (44038) (x1)  - Location to (re)Generate: Scatter */;
      
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
