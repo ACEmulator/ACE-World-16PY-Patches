@@ -15,6 +15,7 @@ VALUES (44260,   1,         16) /* ItemType - Creature */
      , (44260, 113,          2) /* Gender - Female */
 	 , (44260, 307,          5) /* DamageRating */
      , (44260, 133,          4) /* ShowableOnRadar - ShowAlways */
+	 , (44260, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (44260, 188,          2) /* HeritageGroup - Gharundim  */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
