@@ -61,7 +61,7 @@ VALUES (44263,   1,       5) /* HeartbeatInterval */
 	 , (44263, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44263,   1, 'Hassim bin Tamarek') /* Name */
+VALUES (44263,   1, 'Sir Hassim bin Tamarek') /* Name */
 	 , (44263,   5, 'Royal Knight') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
