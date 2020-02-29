@@ -14,13 +14,14 @@ VALUES (44909,   1,         16) /* ItemType - Creature */
      , (44909,  27,          0) /* ArmorType - None */
      , (44909,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44909,  95,          8) /* RadarBlipColor - Yellow */
-     , (44909, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (44909, 133,          1) /* ShowableOnRadar - ShowNever */
      , (44909, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (44909, 146,         78) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44909,   1, True ) /* Stuck */
-     , (44909,  19, False) /* Attackable */;
+     , (44909,  19, False) /* Attackable */
+     , (44909,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44909,  39,     0.5) /* DefaultScale */
