@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33920;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33920, 'ace33920-icedancerspetarmoredillopup', 69) /* Pet */;
+VALUES (33920, 'ace33920-petarmoredillopup', 69) /* Pet */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33920,   1,         16) /* ItemType - Creature */
@@ -28,7 +28,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33920,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33920,   1, 'Icedancer''s Pet Armoredillo Pup') /* Name */
+VALUES (33920,   1, 'Pet Armoredillo Pup') /* Name */
      , (33920, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
