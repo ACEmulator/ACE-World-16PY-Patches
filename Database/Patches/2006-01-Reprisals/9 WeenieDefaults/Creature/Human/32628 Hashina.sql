@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32628;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32628, 'ace32628-hashina', 10, '2020-02-17 19:18:23') /* Creature */;
+VALUES (32628, 'ace32628-hashina', 10, '2020-02-29 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32628,   1,         16) /* ItemType - Creature */
@@ -19,42 +19,15 @@ VALUES (32628,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32628,   1, True ) /* Stuck */
-     , (32628,   8, True ) /* AllowGive */
+     , (32628,  11, True ) /* IgnoreCollisions */
      , (32628,  12, True ) /* ReportCollisions */
-     , (32628,  13, False) /* Ethereal */
+     , (32628,  14, True ) /* GravityStatus */
      , (32628,  19, False) /* Attackable */
      , (32628,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (32628,  42, True ) /* AllowEdgeSlide */
-     , (32628,  52, True ) /* AiImmobile */;
+     , (32628,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32628,   1,       5) /* HeartbeatInterval */
-     , (32628,   2,       0) /* HeartbeatTimestamp */
-     , (32628,   3, 0.1599999964237213) /* HealthRate */
-     , (32628,   4,       5) /* StaminaRate */
-     , (32628,   5,       1) /* ManaRate */
-     , (32628,  13, 0.8999999761581421) /* ArmorModVsSlash */
-     , (32628,  14,       1) /* ArmorModVsPierce */
-     , (32628,  15, 1.100000023841858) /* ArmorModVsBludgeon */
-     , (32628,  16, 0.4000000059604645) /* ArmorModVsCold */
-     , (32628,  17, 0.4000000059604645) /* ArmorModVsFire */
-     , (32628,  18,       1) /* ArmorModVsAcid */
-     , (32628,  19, 0.6000000238418579) /* ArmorModVsElectric */
-     , (32628,  54,       3) /* UseRadius */
-     , (32628,  64,       1) /* ResistSlash */
-     , (32628,  65,       1) /* ResistPierce */
-     , (32628,  66,       1) /* ResistBludgeon */
-     , (32628,  67,       1) /* ResistFire */
-     , (32628,  68,       1) /* ResistCold */
-     , (32628,  69,       1) /* ResistAcid */
-     , (32628,  70,       1) /* ResistElectric */
-     , (32628,  71,       1) /* ResistHealthBoost */
-     , (32628,  72,       1) /* ResistStaminaDrain */
-     , (32628,  73,       1) /* ResistStaminaBoost */
-     , (32628,  74,       1) /* ResistManaDrain */
-     , (32628,  75,       1) /* ResistManaBoost */
-     , (32628, 104,      10) /* ObviousRadarRange */
-     , (32628, 125,       1) /* ResistHealthDrain */;
+VALUES (32628,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32628,   1, 'Hashina') /* Name */
@@ -64,14 +37,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32628,   1,   33554510) /* Setup */
      , (32628,   2,  150994945) /* MotionTable */
      , (32628,   3,  536870913) /* SoundTable */
-     , (32628,   6,   67108990) /* PaletteBase */
-     , (32628,   8,  100667446) /* Icon */
-     , (32628,   9,   83890263) /* EyesTexture */
-     , (32628,  10,   83890294) /* NoseTexture */
-     , (32628,  11,   83890331) /* MouthTexture */
-     , (32628,  15,   67117079) /* HairPalette */
-     , (32628,  16,   67110062) /* EyesPalette */
-     , (32628,  17,   67109550) /* SkinPalette */;
+     , (32628,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32628,   1, 160, 0, 0) /* Strength */
@@ -130,11 +96,11 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Queen Elysa has sent me her
      , (@parent_id,  3,  70 /* SetQuestCompletions */, 0, 1, NULL, 'CampEntemarreFlagComplete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 1, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32628, 2,  6046,  1, 88, 0.5, False) /* Create Amuli Coat (6046) for Wield */
-     , (32628, 2,  6047,  1, 88, 0.5, True) /* Create Amuli Leggings (6047) for Wield */
-     , (32628, 2,    77,  1, 13, 1, True) /* Create Kabuton (77) for Wield */
-     , (32628, 2,    57,  1, 88, 0, True) /* Create Platemail Gauntlets (57) for Wield */
-     , (32628, 2,   107,  0, 88, 0, True) /* Create Sollerets (107) for Wield */;
+VALUES (32628, 2,   128,  0, 13, 1, False) /* Create Qafiya (128) for Wield */
+     , (32628, 2,  6046,  0, 88, 0.5, False) /* Create Amuli Coat (6046) for Wield */
+     , (32628, 2,  6047,  0, 88, 0.5, False) /* Create Amuli Leggings (6047) for Wield */
+     , (32628, 2,   107,  0, 88, 0, False) /* Create Sollerets (107) for Wield */
+     , (32628, 2,    57,  0, 88, 0, False) /* Create Platemail Gauntlets (57) for Wield */;
 
 /* Lifestoned Changelog:
 {

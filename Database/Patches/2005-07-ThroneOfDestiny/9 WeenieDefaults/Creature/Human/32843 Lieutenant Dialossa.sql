@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32843;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32843, 'ace32843-lieutenantdialossa', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (32843, 'ace32843-lieutenantdialossa', 10, '2020-02-29 18:15:46') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32843,   1,         16) /* ItemType - Creature */
@@ -33,14 +33,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32843,   1,   33554433) /* Setup */
      , (32843,   2,  150994945) /* MotionTable */
      , (32843,   3,  536870913) /* SoundTable */
-     , (32843,   6,   67108990) /* PaletteBase */
-     , (32843,   8,  100667446) /* Icon */
-     , (32843,   9,   83890506) /* EyesTexture */
-     , (32843,  10,   83890521) /* NoseTexture */
-     , (32843,  11,   83890634) /* MouthTexture */
-     , (32843,  15,   67117080) /* HairPalette */
-     , (32843,  16,   67109564) /* EyesPalette */
-     , (32843,  17,   67115903) /* SkinPalette */;
+     , (32843,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32843,   1,  10, 0, 0) /* Strength */
@@ -54,3 +47,9 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (32843,   1,     0, 0, 0, 5) /* MaxHealth */
      , (32843,   3,     0, 0, 0, 0) /* MaxStamina */
      , (32843,   5,     0, 0, 0, 0) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32843, 2, 28612,  0, 93, 0, False) /* Create Bandana (28612) for Wield */
+     , (32843, 2,    48,  0, 93, 0.5, False) /* Create Studded Leather Coat (48) for Wield */
+     , (32843, 2,  2606,  0, 93, 0, False) /* Create Boots (2606) for Wield */
+     , (32843, 2, 28606,  0, 93, 0, False) /* Create Viamontian Pants (28606) for Wield */;
