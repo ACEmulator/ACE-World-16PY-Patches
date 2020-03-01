@@ -39,7 +39,7 @@ VALUES (31001,   1,   33554809) /* Setup */
      , (31001,   3,  536870932) /* SoundTable */
      , (31001,   8,  100683150) /* Icon */
      , (31001,  22,  872415275) /* PhysicsEffectTable */
-     , (31001,  28,       3810) /* Spell - Asheron''s Benediction */;
+     , (31001,  28,       3810) /* Spell - Asheron's Benediction */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31001,  3810,      2)  /* Asheron''s Benediction */;
+VALUES (31001,  3810,      2)  /* Asheron's Benediction */;
