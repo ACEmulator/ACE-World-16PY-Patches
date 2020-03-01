@@ -61,7 +61,8 @@ VALUES (11524,   1,       5) /* HeartbeatInterval */
      , (11524, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11524,   1, 'Hea Windreave') /* Name */;
+VALUES (11524,   1, 'Hea Windreave') /* Name */
+     , (11524,  45, 'heawindreavekillcount') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11524,   1,   33559553) /* Setup */
@@ -72,7 +73,7 @@ VALUES (11524,   1,   33559553) /* Setup */
      , (11524,   7,  268437022) /* ClothingBase */
      , (11524,   8,  100667452) /* Icon */
      , (11524,  22,  872415270) /* PhysicsEffectTable */
-     , (11524,  32,        384) /* WieldedTreasureType - 
+     , (11524,  32,        384) /* WieldedTreasureType -
                                    Wield Shortbow (307) | Probability: 5%
                                    Wield 25x Arrow (300) | Probability: 100%
                                    Wield Shouyumi (341) | Probability: 5%
@@ -123,11 +124,3 @@ VALUES (11524,  0,  4,  0,    0,  170,  170,  170,  170,  170,  170,  170,  170,
      , (11524,  6,  4,  0,    0,  170,  170,  170,  170,  170,  170,  170,  170,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (11524,  7,  4,  0,    0,  170,  170,  170,  170,  170,  170,  170,  170,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (11524,  8,  4, 35, 0.75,  170,  170,  170,  170,  170,  170,  170,  170,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (11524,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'heawindreavekillcount@#kt', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31329;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31329, 'ace31329-bluecoralreef', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (31329, 'ace31329-bluecoralreef', 10, '2020-02-03 00:26:15') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31329,   1,         16) /* ItemType - Creature */
@@ -22,7 +22,8 @@ VALUES (31329,   1, True ) /* Stuck */
 	 , (31329,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31329,  54,       3) /* UseRadius */;
+VALUES (31329,  43,       5) /* GeneratorRadius */
+     , (31329,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31329,   1, 'Blue Coral Reef') /* Name */;

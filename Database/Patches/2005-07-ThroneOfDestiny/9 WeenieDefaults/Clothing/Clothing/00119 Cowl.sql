@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 119;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (119, 'cowlcloth', 2, '2019-02-04 06:52:23') /* Clothing */;
+VALUES (119, 'cowlcloth', 2, '2019-11-05 00:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (119,   1,          4) /* ItemType - Clothing */
@@ -14,30 +14,25 @@ VALUES (119,   1,          4) /* ItemType - Clothing */
      , (119,  19,          5) /* Value */
      , (119,  27,          1) /* ArmorType - Cloth */
      , (119,  28,         20) /* ArmorLevel */
-     , (119,  53,        101) /* PlacementPosition */
      , (119,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (119, 150,        103) /* HookPlacement - Hook */
      , (119, 151,          2) /* HookType - Wall */
      , (119, 169,  218104080) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (119,  11, True ) /* IgnoreCollisions */
-     , (119,  13, True ) /* Ethereal */
-     , (119,  14, True ) /* GravityStatus */
-     , (119,  19, True ) /* Attackable */
-     , (119,  22, True ) /* Inscribable */
+VALUES (119,  22, True ) /* Inscribable */
      , (119, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (119,  12, 0.660000026226044) /* Shade */
-     , (119,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (119,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (119,  15,       1) /* ArmorModVsBludgeon */
-     , (119,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (119,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (119,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (119,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (119, 165,       1) /* ArmorModVsNether */;
+VALUES (119,  12, 0.66) /* Shade */
+     , (119,  13,  1.2) /* ArmorModVsSlash */
+     , (119,  14,  0.8) /* ArmorModVsPierce */
+     , (119,  15,    1) /* ArmorModVsBludgeon */
+     , (119,  16,  0.5) /* ArmorModVsCold */
+     , (119,  17,  0.5) /* ArmorModVsFire */
+     , (119,  18,  0.3) /* ArmorModVsAcid */
+     , (119,  19,  0.8) /* ArmorModVsElectric */
+     , (119, 165,    1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (119,   1, 'Cowl') /* Name */;
