@@ -7,26 +7,24 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33931,   1,        128) /* ItemType - Misc */
      , (33931,   5,         15) /* EncumbranceVal */
      , (33931,  16,          1) /* ItemUseable - No */
+	 , (33931,  19,          0) /* Value */
+     , (33931,  33,          1) /* Bonded - Bonded */
      , (33931,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33931, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+	 , (33931, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33931,  22, True ) /* Inscribable */;
+VALUES (33931,  22, True ) /* Inscribable */
+	 , (33931,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33931,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33931,   1, 'May''ad ibn Ibsar''s Reply') /* Name */;
+VALUES (33931,   1, 'May''ad ibn Ibsar''s Reply') /* Name */
+     , (33931,  16, 'A closed scroll, addressed to Larinne Kerendova, located at 35.2N 39.4E, between Holtburg and Cragstone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33931,   1,   33554776) /* Setup */
      , (33931,   3,  536870932) /* SoundTable */
      , (33931,   8,  100667503) /* Icon */
-     , (33931,  22,  872415275) /* PhysicsEffectTable */
-     , (33931, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
-     , (33931, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (33931, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33931, 8000, 2623009453) /* PCAPRecordedObjectIID */;
+     , (33931,  22,  872415275) /* PhysicsEffectTable */;
