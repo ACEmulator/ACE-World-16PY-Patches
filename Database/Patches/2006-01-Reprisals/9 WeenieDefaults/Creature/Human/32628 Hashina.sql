@@ -27,7 +27,33 @@ VALUES (32628,   1, True ) /* Stuck */
      , (32628,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32628,  54,       3) /* UseRadius */;
+VALUES (32628,   1,       5) /* HeartbeatInterval */
+     , (32628,   2,       0) /* HeartbeatTimestamp */
+     , (32628,   3,    0.16) /* HealthRate */
+     , (32628,   4,       5) /* StaminaRate */
+     , (32628,   5,       1) /* ManaRate */
+     , (32628,  13,     0.9) /* ArmorModVsSlash */
+     , (32628,  14,       1) /* ArmorModVsPierce */
+     , (32628,  15,     1.1) /* ArmorModVsBludgeon */
+     , (32628,  16,     0.4) /* ArmorModVsCold */
+     , (32628,  17,     0.4) /* ArmorModVsFire */
+     , (32628,  18,       1) /* ArmorModVsAcid */
+     , (32628,  19,     0.6) /* ArmorModVsElectric */
+     , (32628,  54,       3) /* UseRadius */
+     , (32628,  64,       1) /* ResistSlash */
+     , (32628,  65,       1) /* ResistPierce */
+     , (32628,  66,       1) /* ResistBludgeon */
+     , (32628,  67,       1) /* ResistFire */
+     , (32628,  68,       1) /* ResistCold */
+     , (32628,  69,       1) /* ResistAcid */
+     , (32628,  70,       1) /* ResistElectric */
+     , (32628,  71,       1) /* ResistHealthBoost */
+     , (32628,  72,       1) /* ResistStaminaDrain */
+     , (32628,  73,       1) /* ResistStaminaBoost */
+     , (32628,  74,       1) /* ResistManaDrain */
+     , (32628,  75,       1) /* ResistManaBoost */
+     , (32628, 104,      10) /* ObviousRadarRange */
+     , (32628, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32628,   1, 'Hashina') /* Name */
