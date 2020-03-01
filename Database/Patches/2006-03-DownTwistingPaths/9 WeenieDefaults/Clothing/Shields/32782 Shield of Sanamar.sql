@@ -56,3 +56,4 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32782,   249,      2)  /* Invulnerability Self VI */
      , (32782,  2108,      2)  /* Brogard's Defiance */
      , (32782,  2663,      2)  /* Moderate Strength */;
+	 

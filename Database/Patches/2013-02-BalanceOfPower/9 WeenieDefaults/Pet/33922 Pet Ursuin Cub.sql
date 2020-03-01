@@ -60,3 +60,4 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (33922,   1,    25, 0, 0, 25) /* MaxHealth */
      , (33922,   3,   110, 0, 0, 110) /* MaxStamina */
      , (33922,   5,    20, 0, 0, 20) /* MaxMana */;
+	 

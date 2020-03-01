@@ -181,3 +181,4 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (28856, 2,  2593,  0, 8, 0, False) /* Create Tunic (2593) for Wield */
      , (28856, 2,  2601,  0, 4, 0, False) /* Create Pants (2601) for Wield */
      , (28856, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */;
+	 

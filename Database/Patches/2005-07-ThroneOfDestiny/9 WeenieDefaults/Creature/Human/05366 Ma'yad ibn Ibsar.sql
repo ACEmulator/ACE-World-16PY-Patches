@@ -344,3 +344,4 @@ VALUES (5366, 2,   333,  0, 0, 0, False) /* Create Nabut (333) for Wield */
      , (5366, 2,   134,  0, 17, 1, False) /* Create Tunic (134) for Wield */
      , (5366, 2,   127,  0, 0, 0, False) /* Create Pants (127) for Wield */
      , (5366, 2,  2606,  0, 6, 1, False) /* Create Boots (2606) for Wield */;
+	 

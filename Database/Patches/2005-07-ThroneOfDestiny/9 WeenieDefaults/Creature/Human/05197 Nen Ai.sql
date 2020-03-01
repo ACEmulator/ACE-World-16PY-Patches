@@ -360,3 +360,4 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (5197, 2,   124,  0, 4, 0.8, False) /* Create Jerkin (124) for Wield */
      , (5197, 2,  2603,  0, 9, 1, False) /* Create Breeches (2603) for Wield */
      , (5197, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */;
+	 
