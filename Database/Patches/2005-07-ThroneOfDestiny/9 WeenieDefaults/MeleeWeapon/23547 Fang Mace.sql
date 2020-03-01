@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23547;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23547, 'macefangnew', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (23547, 'macefangnew', 6, '2020-02-01 21:01:19') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23547,   1,          1) /* ItemType - MeleeWeapon */
@@ -17,7 +17,6 @@ VALUES (23547,   1,          1) /* ItemType - MeleeWeapon */
      , (23547,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (23547,  49,         60) /* WeaponTime */
      , (23547,  51,          1) /* CombatUse - Melee */
-     , (23547,  53,        101) /* PlacementPosition */
      , (23547,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23547, 150,        103) /* HookPlacement - Hook */
      , (23547, 151,          2) /* HookType - Wall */
@@ -40,7 +39,7 @@ VALUES (23547,  21, 0.620000004768372) /* WeaponLength */
      , (23547,  29, 1.04999995231628) /* WeaponDefense */
      , (23547,  62, 1.04999995231628) /* WeaponOffense */
      , (23547,  63,       1) /* DamageMod */
-     , (23547, 147,       1) /* CriticalFrequency */;
+     , (23547, 147, 0.200000002980232) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23547,   1, 'Fang Mace') /* Name */

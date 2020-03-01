@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30351;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30351, 'bowraredragonspinebow', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (30351, 'bowraredragonspinebow', 3, '2020-02-01 21:01:19') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30351,   1,        256) /* ItemType - MissileWeapon */
@@ -21,8 +21,7 @@ VALUES (30351,   1,        256) /* ItemType - MissileWeapon */
      , (30351,  49,         70) /* WeaponTime */
      , (30351,  50,          1) /* AmmoType - Arrow */
      , (30351,  51,          2) /* CombatUse - Missle */
-     , (30351,  52,          2) /* ParentLocation */
-     , (30351,  53,        101) /* PlacementPosition */
+     , (30351,  52,          2) /* ParentLocation - LeftHand */
      , (30351,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30351, 106,        350) /* ItemSpellcraft */
      , (30351, 107,       3200) /* ItemCurMana */
@@ -52,18 +51,18 @@ VALUES (30351,  11, True ) /* IgnoreCollisions */
      , (30351, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30351,   5, -0.0333333015441895) /* ManaRate */
-     , (30351,  12, 0.660000026226044) /* Shade */
+VALUES (30351,   5, -0.0330) /* ManaRate */
+     , (30351,  12,   0.660) /* Shade */
      , (30351,  21,       0) /* WeaponLength */
      , (30351,  22,       0) /* DamageVariance */
-     , (30351,  26, 27.2999992370605) /* MaximumVelocity */
-     , (30351,  29, 1.17999994754791) /* WeaponDefense */
-     , (30351,  39, 1.29999995231628) /* DefaultScale */
+     , (30351,  26,    27.3) /* MaximumVelocity */
+     , (30351,  29,    1.18) /* WeaponDefense */
+     , (30351,  39,     1.3) /* DefaultScale */
      , (30351,  62,       1) /* WeaponOffense */
-     , (30351,  63, 2.70000004768372) /* DamageMod */
-     , (30351, 110, 1.66999995708466) /* BulkMod */
+     , (30351,  63,     2.7) /* DamageMod */
+     , (30351, 110,    1.67) /* BulkMod */
      , (30351, 111,       1) /* SizeMod */
-     , (30351, 147,       1) /* CriticalFrequency */;
+     , (30351, 147,     0.3) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30351,   1, 'Dragonspine Bow') /* Name */

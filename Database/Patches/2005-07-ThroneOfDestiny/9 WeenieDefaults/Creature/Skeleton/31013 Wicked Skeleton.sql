@@ -66,7 +66,8 @@ VALUES (31013,   1,       5) /* HeartbeatInterval */
      , (31013, 156,       1) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31013,   1, 'Wicked Skeleton') /* Name */;
+VALUES (31013,   1, 'Wicked Skeleton') /* Name */
+     , (31013,  45, 'wickedskeletonkillcount') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31013,   1,   33558396) /* Setup */
@@ -78,7 +79,7 @@ VALUES (31013,   1,   33558396) /* Setup */
      , (31013,   8,  100669124) /* Icon */
      , (31013,  17,   67113400) /* SkinPalette */
      , (31013,  22,  872415269) /* PhysicsEffectTable */
-     , (31013,  32,        426) /* WieldedTreasureType - 
+     , (31013,  32,        426) /* WieldedTreasureType -
                                    Wield Tachi (23136) | Probability: 30%
                                    Wield Kite Shield (23135) | Probability: 100%
                                    Wield Yumi (23137) | Probability: 30%
@@ -135,14 +136,6 @@ VALUES (31013,  2074,    2.1)  /* Gossamer Flesh */
      , (31013,  2166,    2.1)  /* Tusker's Gift */
      , (31013,  2168,    2.1)  /* Gelidite's Gift */
      , (31013,  2174,    2.1)  /* Archer's Gift */;
-
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (31013,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'wickedskeletonkillcount@#kt', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31013, 9, 31343,  0, 0, 0.085, False) /* Create Skeletal Jawbone (31343) for ContainTreasure */

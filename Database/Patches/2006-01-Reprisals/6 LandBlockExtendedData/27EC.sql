@@ -1,0 +1,3 @@
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x727EC038, 32628, 0x27EC0015, 63.1373, 103.816, 80.005, 0.3389251, 0, 0, 0.9408134, False, '2019-02-10 00:00:00'); /* Hashina */
+/* @teleloc 0x27EC0111 [67.008400 127.222000 80.005000] -0.713574 0.000000 0.000000 -0.700580 */

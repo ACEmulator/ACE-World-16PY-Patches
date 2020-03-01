@@ -1,12 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30370;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30370, 'shieldraretwinward', 1, '2019-05-03 00:00:00') /* Generic */;
+VALUES (30370, 'shieldraretwinward', 1, '2020-02-01 21:01:19') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30370,   1,          2) /* ItemType - Armor */
      , (30370,   3,          4) /* PaletteTemplate - Brown */
-     , (30370,   4,      65536) /* ClothingPriority - Feet */
      , (30370,   5,        690) /* EncumbranceVal */
      , (30370,   8,         90) /* Mass */
      , (30370,   9,    2097152) /* ValidLocations - Shield */
@@ -17,8 +16,8 @@ VALUES (30370,   1,          2) /* ItemType - Armor */
      , (30370,  27,          8) /* ArmorType - Scalemail */
      , (30370,  28,        480) /* ArmorLevel */
      , (30370,  51,          4) /* CombatUse - Shield */
-     , (30370,  52,          3) /* ParentLocation */
-     , (30370,  53,        101) /* PlacementPosition */
+     , (30370,  52,          3) /* ParentLocation - Shield */
+     , (30370,  53,        101) /* PlacementPosition - Resting */
      , (30370,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30370, 106,        350) /* ItemSpellcraft */
      , (30370, 107,       4000) /* ItemCurMana */
