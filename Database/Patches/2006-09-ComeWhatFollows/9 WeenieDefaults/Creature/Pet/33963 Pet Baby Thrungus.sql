@@ -33,10 +33,6 @@ VALUES (33963,   1,   33559123) /* Setup */
      , (33963,   8,  100677367) /* Icon */
      , (33963,  22,  872415411) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33963, 8040, 2963996930, 116.56, 87.7835, 58, 0.958696, 0, 0, -0.284434) /* PCAPRecordedLocation */
-/* @teleloc 0xB0AB0102 [116.560000 87.783500 58.000000] 0.958696 0.000000 0.000000 -0.284434 */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33963,   1,  45, 0, 0) /* Strength */
      , (33963,   2,  25, 0, 0) /* Endurance */
@@ -49,5 +45,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (33963,   1,    28, 0, 0, 28) /* MaxHealth */
      , (33963,   3,    120, 0, 0, 120) /* MaxStamina */
      , (33963,   5,    30, 0, 0, 30) /* MaxMana */;
+	 
 	 
 
