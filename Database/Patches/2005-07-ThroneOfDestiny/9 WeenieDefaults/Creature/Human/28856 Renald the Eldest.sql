@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28856;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28856, 'holtburgrenaldeldest', 10, '2019-04-09 02:19:52') /* Creature */;
+VALUES (28856, 'holtburgrenaldeldest', 10, '2020-02-29 19:03:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28856,   1,         16) /* ItemType - Creature */
@@ -64,23 +64,16 @@ VALUES (28856,   3, 0.159999996423721) /* HealthRate */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28856,   1, 'Renald the Eldest') /* Name */
      , (28856,   3, 'Male') /* Sex */
-     , (28856,   4, 'Gharu''ndim') /* HeritageGroup */
-     , (28856,   5, 'Give Me A Title') /* Template */;
+     , (28856,   4, 'Aluvian') /* HeritageGroup */
+     , (28856,   5, 'Wood Carver') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28856,   1,   33554433) /* Setup */
      , (28856,   2,  150994945) /* MotionTable */
      , (28856,   3,  536870913) /* SoundTable */
      , (28856,   4,  805306368) /* CombatTable */
-     , (28856,   6,   67108990) /* PaletteBase */
      , (28856,   7,  268435545) /* ClothingBase */
-     , (28856,   8,  100667446) /* Icon */
-     , (28856,   9,   83890481) /* EyesTexture */
-     , (28856,  10,   83890561) /* NoseTexture */
-     , (28856,  11,   83890663) /* MouthTexture */
-     , (28856,  15,   67116984) /* HairPalette */
-     , (28856,  16,   67110062) /* EyesPalette */
-     , (28856,  17,   67109558) /* SkinPalette */;
+     , (28856,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28856,   1,  60, 0, 0) /* Strength */
@@ -170,5 +163,5 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I tell ya what. I needs tim
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28856, 2,  2593,  0, 8, 0, False) /* Create Tunic (2593) for Wield */
-     , (28856, 2,  2601,  0, 4, 0, False) /* Create Pants (2601) for Wield */
-     , (28856, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */;
+     , (28856, 2,  2599,  0, 4, 0, False) /* Create Trousers (2599) for Wield */
+     , (28856, 2,  2606,  0, 90, 0, False) /* Create Boots (2606) for Wield */;

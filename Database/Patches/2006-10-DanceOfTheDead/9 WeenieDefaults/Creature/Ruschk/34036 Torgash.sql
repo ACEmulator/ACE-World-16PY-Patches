@@ -1,11 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34036;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34036, 'ace34036-torgash', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (34036, 'ace34036-torgash', 10, '2020-02-29 19:03:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34036,   1,         16) /* ItemType - Creature */
      , (34036,   2,         81) /* CreatureType - Ruschk */
+     , (34036,   3,         77) /* PaletteTemplate - BlueGreen */
      , (34036,   6,        255) /* ItemsCapacity */
      , (34036,   7,        255) /* ContainersCapacity */
      , (34036,  16,         32) /* ItemUseable - Remote */
@@ -40,6 +41,7 @@ VALUES (34036,   1,   33559104) /* Setup */
      , (34036,   2,  150994951) /* MotionTable */
      , (34036,   3,  536871101) /* SoundTable */
      , (34036,   6,   67115447) /* PaletteBase */
+     , (34036,   7,  268436946) /* ClothingBase */
      , (34036,   8,  100677373) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -25,11 +25,12 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48744,   1, True ) /* Stuck */
      , (48744,   2, False) /* Open */
      , (48744,   3, True ) /* Locked */
-     , (48744,  11, True ) /* IgnoreCollisions */
      , (48744,  12, True ) /* ReportCollisions */
      , (48744,  13, False) /* Ethereal */
-     , (48744,  14, True ) /* GravityStatus */
-     , (48744,  19, True ) /* Attackable */;
+     , (48744,  33, False) /* ResetMessagePending */
+     , (48744,  34, False) /* DefaultOpen */
+     , (48744,  35, True ) /* DefaultLocked */
+     , (48744,  86, True ) /* ChestRegenOnClose */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48744,  39, 1.10000002384186) /* DefaultScale */

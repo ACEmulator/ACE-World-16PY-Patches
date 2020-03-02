@@ -1,0 +1,53 @@
+DELETE FROM `weenie` WHERE `class_Id` = 32504;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32504, 'ace32504-ourbitterwinter', 8, '2019-11-30 18:55:47') /* Book */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (32504,   1,       8192) /* ItemType - Writable */
+     , (32504,   5,        200) /* EncumbranceVal */
+     , (32504,  16,          8) /* ItemUseable - Contained */
+     , (32504,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (32504, 151,          2) /* HookType - Wall */
+     , (32504, 174,         15) /* AppraisalPages */
+     , (32504, 175,         15) /* AppraisalMaxPages */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (32504,  11, True ) /* IgnoreCollisions */
+     , (32504,  13, True ) /* Ethereal */
+     , (32504,  14, True ) /* GravityStatus */
+     , (32504,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (32504,  39, 1.22000002861023) /* DefaultScale */
+     , (32504,  54, 0.300000011920929) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (32504,   1, 'Our Bitter Winter') /* Name */
+     , (32504,  15, 'The translated journal of the ancient slave, Farelaith') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (32504,   1,   33554771) /* Setup */
+     , (32504,   3,  536870932) /* SoundTable */
+     , (32504,   8,  100668117) /* Icon */
+     , (32504,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (32504, 15, 1000);
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (32504, 0, 4294967295, 'Farelaith', 'prewritten', True, 'I do not know what madness it was that possessed us to follow Grael. I could see the madness and the rage burning in his eyes, his terrible red eyes. I feared the bloodlust that came over him in the gladiatorial pits. My brothers all worshipped him for his strength and his ferocity, and for how he never seemed to let his enslavement bow his head. The pit-masters used all their tricks on Grael, the same tricks they had used to break my will and the will of all the other slaves. On Grael, however, it had no effect. We assumed it was because he was too simple and brutal to understand. I know now that is not the case.')
+     , (32504, 1, 4294967295, 'Farelaith', 'prewritten', True, 'This savage outlander somehow managed to conceal his true nature from the pit-masters. Perhaps the pit-masters were not eager to interfere with their new star attraction. The northern barbarian''s savage spectacles filled the seats time after time, and the Queen herself became a regular attendee of the combats. Grael''s fights became high fashion. And it seemed a common assumption that such a fierce warrior would, of course, be simple to control. They never suspected how much cold cunning lurked behind those burning eyes.')
+     , (32504, 2, 4294967295, 'Farelaith', 'prewritten', True, 'Perhaps I was flattered when Grael came to me in private and asked me, in a halting but understandable accent of our language, to join the rebellion he planned. I know now that Grael had noticed how well my brothers fought together, and how my brothers looked to me for guidance outside of the bloody fighting pit. He knew that my three brothers, under my direction, would serve a valued purpose in an operation that demanded coordination and intelligence.')
+     , (32504, 3, 4294967295, 'Farelaith', 'prewritten', True, 'When we won our freedom from the pit with the takeover of the arena and the monstrous execution of the Queen, another fear struck me. I realized that we were still just a band of slaves loose in the capital of one of the world''s great kingdoms; a kingdom that had destroyed my village, enslaved my brothers, and had similarly eradicated Grael''s own fearsome tribe of warriors. We had killed our masters, but our masters'' masters, I knew, would come upon us with terrible wrath. I knew what the royal wizards were capable of.')
+     , (32504, 4, 4294967295, 'Farelaith', 'prewritten', True, 'So over the protests of my brothers, I decided we should separate from Grael and the rest of the rebel slaves immediately after we left the arena. We took advantage of the first few days of confusion in the city and fled to the coast. As we escaped the city, we did see the pillars of fire streaking down from the heavens to burn away the remainder of the rebels. Little did we know that Grael had escaped, as well. I do not know how he did it. All I know is that the rebels perished in a fiery maelstrom, and Grael lived on.')
+     , (32504, 5, 4294967295, 'Farelaith', 'prewritten', True, 'For our own part, my brothers and I escaped to the coast. Convinced that we were being chased by royal guards, we found a ship in a small fishing village south of the capital and put out to sea. That may have been our first mistake, because not one of us knew anything about ships or sailing. We were quickly carried out to sea, beyond sight of land. I no longer know how long we drifted. I know that I succumbed to heat and thirst before my brothers did, and that they kept me alive through my weakness.')
+     , (32504, 6, 4294967295, 'Farelaith', 'prewritten', True, 'We finally reached solid ground, parched of thirst and delirious from exposure, on an unknown shore. Luckily, we landed near a river mouth. Fresh water and game brought down by Korogaith''s axe restored us to our health. We took some time to explore the new land upon which we found ourselves. Shore and the distant mountains seemed to have a dark and terrible energy about it, visible in the sight of the learned. I attributed my misgivings, however, to the lingering effects of our ordeal. I was more worried about the coming winter, which could be quite lethal as far north as we were.')
+     , (32504, 7, 4294967295, 'Farelaith', 'prewritten', True, 'We headed inland, to a forest we could see in the distance. We knew that the woods would provide us with fire and shelter to keep us warm, and fruit and game to keep us fed. If we survived the winter, we thought we could keep going long enough to get our bearings and search out our old homeland, far to the south. On our journey inland, Korogaith found the trail of another traveler in the woods. Determined to keep all threats in front of us, I decided we should track this other wayfarer and see what he, she, or it was about.')
+     , (32504, 8, 4294967295, 'Farelaith', 'prewritten', True, 'That was another mistake. Because after our third day of following this trail, our quarry came upon us in the night, though we''d gone to pains to conceal our presence and lit no fires. The shadow that came out of the darkness to us was Grael himself, untouched by the fiery doom that had befallen our erstwhile slave brethren. Grael seemed to be glad to see us, and expressed enthusiastic relief and pleasure at finding us again. He told us he did not think less of us for fleeing, since he did the same just two days later. He congratulated us for being crafty enough to survive the city and to make our way to this new land.')
+     , (32504, 9, 4294967295, 'Farelaith', 'prewritten', True, 'Grael was very enthusiastic about the wild place in which we''d found him. He named it a land of power, crisscrossed with lines of magical essence. He said that a voice in the dark called him north, to a source of true power. The voice promised him revenge. This time my brothers would not be swayed. We joined Grael in his pilgrimage north to find the voice which spoke to Grael in the darkness, even as winter advanced upon the land. I did not wish to follow Grael, but neither did I wish to be left behind. I knew I would not survive a winter in this untamed land on my own.')
+     , (32504, 10, 4294967295, 'Farelaith', 'prewritten', True, 'The first snowfall came in the dark moon, just a few days after we rejoined with Grael. He kept leading us implacably northward, and not even waist-deep snowdrifts would slow his progress. My brothers and I were content to move through the wide wake he cleared. The day after the first snowfall was bitterly cold. Even wrapped in furs provided by the game Grael and my brothers brought down, I was barely able to stand up straight in the bone-deep chill. I fell into a stupor, automatically lifting one foot after the other through frozen snow drifts as my mind retreated from the world.')
+     , (32504, 11, 4294967295, 'Farelaith', 'prewritten', True, 'I came to under the dark moon. Neither Grael nor my brothers were visible, but I could make out an eldritch glow in the woods ahead. Whether it was hallucination or no, I could see terrible shapes forming, vanishing, and re-forming in the weird light. I crawled forward, unable to resist the desire to look upon this evil spectacle. Eventually I came upon a clearing in the woods. I found Grael and my brothers there.')
+     , (32504, 12, 4294967295, 'Farelaith', 'prewritten', True, 'Grael was suspended off the ground, arms stretched to the dark moon above. His eyes were glowing as vividly as they had when he''d eaten the Queen''s heart. He was calling out in a guttural tongue, and tendrils of darkness were forming around him, wrapping around him, extending outward from him... Toward my brothers. My brothers were kneeling on the frozen ground around Grael, bathed in the unholy light of the gladiator''s transformation.')
+     , (32504, 13, 4294967295, 'Farelaith', 'prewritten', True, 'Baranaith was the first victim of the living tendrils. As the darkness wrapped around him, he screamed. It was a sound unlike any I had ever heard him make. The terror in his wail shook me, and I closed my eyes and fell face-first into the snow, paralyzed. I felt as if some great, malevolent power had snatched up my brother, and was seeking me out. Then Korogaith''s voice joined his, and so too the voice of strong Hiranaith. My three brothers were dying or being subjected to the most unholy torment, and I was too frozen with terror to help them.')
+     , (32504, 14, 4294967295, 'Farelaith', 'prewritten', False, 'When the screaming stopped, I fled. I crawled at first, and then terror lent strength to my limbs. I made my way to my feet by hoisting myself up the side of a gnarled and twisted tree. I ran then, as far as my legs would take me. In my fear of Grael, I did not even look back to see what had become of my brothers.');

@@ -54,7 +54,8 @@ VALUES (31002,   1,       5) /* HeartbeatInterval */
      , (31002, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31002,   1, 'Tukora Lieutenant') /* Name */;
+VALUES (31002,   1, 'Tukora Lieutenant') /* Name */
+     , (31002,  45, 'tukoralieutenantkillcount') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31002,   1,   33557003) /* Setup */
@@ -65,7 +66,7 @@ VALUES (31002,   1,   33557003) /* Setup */
      , (31002,   7,  268436618) /* ClothingBase */
      , (31002,   8,  100667447) /* Icon */
      , (31002,  22,  872415262) /* PhysicsEffectTable */
-     , (31002,  32,        425) /* WieldedTreasureType - 
+     , (31002,  32,        425) /* WieldedTreasureType -
                                    Wield 10x Rock (23133) | Probability: 80%
                                    Wield Lugian Morning Star (23134) | Probability: 10%
                                    Wield Lugian Axe (23132) | Probability: 10% */
@@ -104,14 +105,6 @@ VALUES (31002,  0,  4,  2,  0.3,  440,  264,  264,  264,  154,  110,  374,  352,
      , (31002,  6,  4,  2,  0.3,  440,  264,  264,  264,  154,  110,  374,  352,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (31002,  7,  4, 25,  0.3,  440,  264,  264,  264,  154,  110,  374,  352,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (31002,  8,  4, 180, 0.75,  440,  264,  264,  264,  154,  110,  374,  352,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (31002,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'tukoralieutenantkillcount@#kt', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31002, 9, 31347,  0, 0, 0.01, False) /* Create Lugian Lieutenant's Insignia (31347) for ContainTreasure */
