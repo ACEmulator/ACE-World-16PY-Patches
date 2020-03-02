@@ -19,7 +19,12 @@ VALUES (33935,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33935,   1, True ) /* Stuck */
-     , (33935,  19, False) /* Attackable */;
+     , (33935,  11, True ) /* IgnoreCollisions */
+     , (33935,  12, True ) /* ReportCollisions */
+     , (33935,  14, True ) /* GravityStatus */
+     , (33935,  19, False) /* Attackable */
+     , (33935,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (33935,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33935,  54,       3) /* UseRadius */;
@@ -32,7 +37,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33935,   1,   33554433) /* Setup */
      , (33935,   2,  150994945) /* MotionTable */
      , (33935,   3,  536870913) /* SoundTable */
-     , (33935,   6,   67108990) /* PaletteBase */
      , (33935,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -69,4 +73,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'I am a trader in fine Armoredillo Eggs. These eggs are enchanted to allow you to call forth from inside a docile Armoredillo Pup, who will follow you in your travels.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 	 , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'Simply bring me a Baby Pet Token, and I will give you an Armoredillo Egg in return. If you seek a token, ask Larinne Kerendova, by the entrance to this humble shop.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+	 
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33935, 2,  5852,  0, 42, 0.493, False) /* Create Dho Vest and Robe (5852) for Wield */
+     , (33935, 2,   135,  0, 4, 0.3333, False) /* Create Turban (135) for Wield */;
 	 

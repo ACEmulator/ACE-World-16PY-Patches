@@ -19,7 +19,12 @@ VALUES (33938,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33938,   1, True ) /* Stuck */
-     , (33938,  19, False) /* Attackable */;
+     , (33938,  11, True ) /* IgnoreCollisions */
+     , (33938,  12, True ) /* ReportCollisions */
+     , (33938,  14, True ) /* GravityStatus */
+     , (33938,  19, False) /* Attackable */
+     , (33938,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (33938,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33938,  54,       3) /* UseRadius */;
@@ -32,7 +37,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33938,   1,   33554510) /* Setup */
      , (33938,   2,  150994945) /* MotionTable */
      , (33938,   3,  536870914) /* SoundTable */
-     , (33938,   6,   67108990) /* PaletteBase */
      , (33938,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -70,3 +74,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'I train and sell Ursuin Cubs. Want one?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 	 , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'If you do, bring me a Baby Pet Token, and I''ll give you one of my cubs. If you seek a token, ask Larinne Kerendova, over by the entrance to the shop.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 	 
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33938, 2,  5850,  0, 84, 0, False) /* Create Faran Robe (5850) for Wield */;

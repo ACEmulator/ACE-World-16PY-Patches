@@ -19,7 +19,12 @@ VALUES (33937,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33937,   1, True ) /* Stuck */
-     , (33937,  19, False) /* Attackable */;
+     , (33937,  11, True ) /* IgnoreCollisions */
+     , (33937,  12, True ) /* ReportCollisions */
+     , (33937,  14, True ) /* GravityStatus */
+     , (33937,  19, False) /* Attackable */
+     , (33937,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (33937,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33937,  54,       3) /* UseRadius */;
@@ -32,7 +37,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33937,   1,   33554510) /* Setup */
      , (33937,   2,  150994945) /* MotionTable */
      , (33937,   3,  536870914) /* SoundTable */
-     , (33937,   6,   67108990) /* PaletteBase */
      , (33937,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -69,4 +73,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  1,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'I trade in baby Thrungus, catering to those who like unusual and... creative Pet Shop Quest.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 	 , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'Simply bring me a Baby Pet Token, and I will give you a Baby Thrungus Crate. If you need a token, ask Larinne Kerendova, over by the door.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-	 
+	
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33937, 2, 28615,  0, 93, 0.25, False) /* Create Vestiri Robe (28615) for Wield */;
+	
