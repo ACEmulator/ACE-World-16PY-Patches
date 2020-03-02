@@ -1,0 +1,3 @@
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x733D9027, 30265, 0x33D90004, 11.69745, 77.956261, 52.006, -0.041077, 0, 0, 0.99915, False, '2019-04-14 03:38:31'); /* Fabian Strinjelli */
+/* @teleloc  0x33D90004 [11.697457 77.956261 52.006001] -0.041077 0.000000 0.000000 0.999156 */
