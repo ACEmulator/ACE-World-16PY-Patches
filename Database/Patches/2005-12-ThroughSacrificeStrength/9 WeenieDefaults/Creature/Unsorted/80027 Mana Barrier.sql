@@ -14,8 +14,11 @@ VALUES (80027,   1,         16) /* ItemType - Creature */
      , (80027,  40,          1) /* CombatMode - NonCombat */
      , (80027,  67,          1) /* Tolerance - NoAttack */
      , (80027,  68,          5) /* TargetingTactic - Random, LastDamager */
+     , (80027,  81,          1) /* MaxGeneratedObjects */
+     , (80027,  82,          1) /* InitGeneratedObjects */
      , (80027,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (80027, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
+     , (80027, 103,          2) /* GeneratorDestructionType - Destroy */
      , (80027, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (80027, 146,          0) /* XpOverride */;
 
@@ -100,3 +103,6 @@ VALUES (80027,  0,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,
      , (80027,  6,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (80027,  7,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (80027,  8,  4,  1, 0.75,  200,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (80027, -1, 22174, 1, 1, 1, 1, 4, -1, 0, 0, 0x005A012E, 64.776517, -40.165, -71.994995, -0.716487, 0, 0, 0.697600) /* Generate Small LiveOp Wall (22176) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
