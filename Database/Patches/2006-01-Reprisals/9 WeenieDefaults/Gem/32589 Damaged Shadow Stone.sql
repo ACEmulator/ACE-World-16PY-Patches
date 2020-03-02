@@ -25,7 +25,7 @@ VALUES (32589,  11, True ) /* IgnoreCollisions */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32589,   1, 'Damaged Shadow Stone') /* Name */
      , (32589,  16, 'A Shadow Stone designed for use with Empyrean Weapons. This one seems to be badly damaged. Perhaps someone knowledgeable about Shadows would know something about this?') /* LongDesc */
-     , (32589,  33, 'shadowstone') /* Quest */;
+     , (32589,  33, 'damagedshadowstone') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32589,   1,   33559809) /* Setup */
