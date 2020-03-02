@@ -32,7 +32,5 @@ VALUES (44450,   1,   33554867) /* Setup */
      , (44450,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44450, 2, 0x5754014B, 110.000000, -112.5, 0.006, 1, 0, 0, 0) /* Destination */
-/*  0x575402B8 [110.090248 -112.887100 0.006000] 1 0 0 0 */ ;
-
-
+VALUES (44450, 2, 0x5754014B, 110.000000, -112.5, 0.006, 1, 0, 0, 0) /* Destination */;
+/*  0x575402B8 [110.090248 -112.887100 0.006000] 1 0 0 0 */

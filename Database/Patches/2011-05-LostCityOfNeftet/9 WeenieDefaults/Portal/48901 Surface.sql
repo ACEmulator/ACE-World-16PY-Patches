@@ -29,11 +29,6 @@ VALUES (48901,   1,   33554867) /* Setup */
      , (48901,   2,  150994947) /* MotionTable */
      , (48901,   8,  100667499) /* Icon */;
 
-
-
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48901, 2, 0x8865002B, 131.5, 61.5, 40.006, 0.745433, 0, 0, -0.666581) /* Destination */
-/* @teleloc 0x8865002B [131.582214 61.572506 0.006000] 0.745433 0.000000 0.000000 -0.666581 */;
-
-
-
+VALUES (48901, 2, 0x8865002B, 131.5, 61.5, 40.006, 0.745433, 0, 0, -0.666581) /* Destination */;
+/* @teleloc 0x8865002B [131.582214 61.572506 0.006000] 0.745433 0.000000 0.000000 -0.666581 */
