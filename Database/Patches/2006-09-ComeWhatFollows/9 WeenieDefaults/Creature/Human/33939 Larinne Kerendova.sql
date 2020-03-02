@@ -15,8 +15,7 @@ VALUES (33939,   1,         16) /* ItemType - Creature */
      , (33939, 113,          2) /* Gender - Female */
      , (33939, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (33939, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (33939, 188,          1) /* HeritageGroup - Aluvian */
-     , (33939, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (33939, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33939,   1, True ) /* Stuck */
@@ -27,8 +26,7 @@ VALUES (33939,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33939,   1, 'Larinne Kerendova') /* Name */
-     , (33939,   5, 'Pet Store Manager') /* Template */
-     , (33939, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (33939,   5, 'Pet Store Manager') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33939,   1,   33554510) /* Setup */
@@ -41,17 +39,7 @@ VALUES (33939,   1,   33554510) /* Setup */
      , (33939,  11,   83890326) /* MouthTexture */
      , (33939,  15,   67117075) /* HairPalette */
      , (33939,  16,   67110064) /* EyesPalette */
-     , (33939,  17,   67109559) /* SkinPalette */
-     , (33939, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (33939, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (33939, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33939, 8040, 2963996928, 108.646, 87.2406, 58.005, 0.955069, 0, 0, -0.296383) /* PCAPRecordedLocation */
-/* @teleloc 0xB0AB0100 [108.646000 87.240600 58.005000] 0.955069 0.000000 0.000000 -0.296383 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33939, 8000, 3710889233) /* PCAPRecordedObjectIID */;
+     , (33939,  17,   67109559) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33939,   1,  50, 0, 0) /* Strength */
@@ -189,53 +177,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Welcome to my shop!', NULL,
      , (@parent_id,  9,  10 /* Tell */, 1, 1, NULL, 'Hurry, I''ll need the answers as soon as possible. Those supplies are vital to the proper care and raising of these cute little Pet Shop Quest.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 	 , (@parent_id,  10,  18 /* DirectBroadcast */, 1, 1, NULL, '%n smiles.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 	 , (@parent_id,  11,  33 /* IncrementQuest */, 0, 1, NULL, 'petshopquestacquired', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (33939, 67109559, 0, 24)
-     , (33939, 67110064, 32, 8)
-     , (33939, 67110365, 40, 24)
-     , (33939, 67110365, 160, 8)
-     , (33939, 67110382, 64, 8)
-     , (33939, 67110540, 72, 8)
-     , (33939, 67110548, 92, 4)
-     , (33939, 67117075, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (33939, 0, 83889072, 83890012)
-     , (33939, 0, 83889342, 83890011)
-     , (33939, 1, 83887064, 83886241)
-     , (33939, 2, 83887066, 83887051)
-     , (33939, 3, 83889344, 83887054)
-     , (33939, 4, 83887068, 83887054)
-     , (33939, 5, 83887064, 83886241)
-     , (33939, 6, 83887066, 83887051)
-     , (33939, 7, 83889344, 83887054)
-     , (33939, 8, 83887068, 83887054)
-     , (33939, 9, 83887070, 83890009)
-     , (33939, 9, 83887062, 83890010)
-     , (33939, 16, 83886232, 83890685)
-     , (33939, 16, 83886668, 83890277)
-     , (33939, 16, 83886837, 83890314)
-     , (33939, 16, 83886684, 83890326);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (33939, 0, 16781875)
-     , (33939, 1, 16778430)
-     , (33939, 2, 16781908)
-     , (33939, 3, 16781841)
-     , (33939, 4, 16783485)
-     , (33939, 5, 16778438)
-     , (33939, 6, 16781909)
-     , (33939, 7, 16781840)
-     , (33939, 8, 16783487)
-     , (33939, 9, 16778425)
-     , (33939, 10, 16778431)
-     , (33939, 11, 16778429)
-     , (33939, 12, 16778423)
-     , (33939, 13, 16778434)
-     , (33939, 14, 16778424)
-     , (33939, 15, 16778435)
-     , (33939, 16, 16795641);
-	 
 	 
