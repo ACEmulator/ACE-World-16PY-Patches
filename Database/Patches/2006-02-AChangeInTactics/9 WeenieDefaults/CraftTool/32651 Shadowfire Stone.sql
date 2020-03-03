@@ -19,7 +19,7 @@ VALUES (32651,   1,       2048) /* ItemType - Gem */
      , (32651, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32651,  22, True ) /* Inscribable */;
+VALUES (32651,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32651,   1, 'Shadowfire Stone') /* Name */
