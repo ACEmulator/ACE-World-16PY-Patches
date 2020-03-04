@@ -35,13 +35,17 @@ VALUES (33964,   1,   33556773) /* Setup */
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33964,   1,  50, 0, 0) /* Strength */
      , (33964,   2,  10, 0, 0) /* Endurance */
-     , (33964,   3,  30, 0, 0) /* Quickness */
-     , (33964,   4,  40, 0, 0) /* Coordination */
+     , (33964,   3,  40, 0, 0) /* Quickness */
+     , (33964,   4,  30, 0, 0) /* Coordination */
      , (33964,   5,  40, 0, 0) /* Focus */
      , (33964,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33964,   1,    25, 0, 0, 25) /* MaxHealth */
-     , (33964,   3,   110, 0, 0, 110) /* MaxStamina */
-     , (33964,   5,    20, 0, 0, 20) /* MaxMana */;
+VALUES (33964,   1,    20, 0, 0, 25) /* MaxHealth */
+     , (33964,   3,   100, 0, 0, 110) /* MaxStamina */
+     , (33964,   5,     0, 0, 0, 20) /* MaxMana */;
+	 
+
+	 
+
 	 
