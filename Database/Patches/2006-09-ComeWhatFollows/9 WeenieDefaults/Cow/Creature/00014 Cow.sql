@@ -10,14 +10,14 @@ VALUES (14,   1,         16) /* ItemType - Creature */
      , (14,   6,         -1) /* ItemsCapacity */
      , (14,   7,         -1) /* ContainersCapacity */
      , (14,  16,         32) /* ItemUseable - Remote */
-     , (14,  25,          2) /* Level */
+     , (14,  25,          8) /* Level */
      , (14,  27,          0) /* ArmorType - None */
      , (14,  40,          2) /* CombatMode - Melee */
      , (14,  67,         64) /* Tolerance - Retaliate */
      , (14,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (14,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (14, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (14, 146,         19) /* XpOverride */;
+     , (14, 146,       1000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14,   1, True ) /* Stuck */
@@ -31,7 +31,7 @@ VALUES (14,   1,       5) /* HeartbeatInterval */
      , (14,   3,   0.067) /* HealthRate */
      , (14,   4,       5) /* StaminaRate */
      , (14,   5,       2) /* ManaRate */
-     , (14,  12,     0.5) /* Shade */
+     , (14,  12,       0) /* Shade */
      , (14,  13,    0.34) /* ArmorModVsSlash */
      , (14,  14,    0.18) /* ArmorModVsPierce */
      , (14,  15,    0.26) /* ArmorModVsBludgeon */
@@ -66,7 +66,7 @@ VALUES (14,   1,   33554438) /* Setup */
      , (14,   2,  150994957) /* MotionTable */
      , (14,   3,  536870918) /* SoundTable */
      , (14,   4,  805306374) /* CombatTable */
-     , (14,   6,   67109304) /* PaletteBase */
+     , (14,   6,   67116472) /* PaletteBase */
      , (14,   7,  268435550) /* ClothingBase */
      , (14,   8,  100667444) /* Icon */
      , (14,  22,  872415256) /* PhysicsEffectTable */;
