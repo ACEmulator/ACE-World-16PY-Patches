@@ -228,6 +228,6 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'Welcome to my shop!', NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33939, 2,  10696,  0, 5, 0, False) /* Create Apron (10696) for Wield */
 	 , (33939, 2,  127,    0, 2, 0.6727, False) /* Create Pants (127) for Wield */
-	 , (33939, 2,  124,    0, 5, 3, False) /* Create Jerkin (124) for Wield */
+	 , (33939, 2,  124,    0, 5, 0.3, False) /* Create Jerkin (124) for Wield */
 	 , (33939, 2,  115,    0, 5, 0, False) /* Create Leather Boots (115) for Wield */;
 	 
