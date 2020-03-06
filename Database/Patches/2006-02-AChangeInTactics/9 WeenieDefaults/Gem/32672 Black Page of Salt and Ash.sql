@@ -42,7 +42,3 @@ VALUES (32672,   1,   33554809) /* Setup */
      , (32672,   8,  100688622) /* Icon */
      , (32672,  22,  872415275) /* PhysicsEffectTable */
      , (32672,  28,       3869) /* Spell - CantripSaltAshAttackMod */;
-	 
-	 
-	 
-	 
