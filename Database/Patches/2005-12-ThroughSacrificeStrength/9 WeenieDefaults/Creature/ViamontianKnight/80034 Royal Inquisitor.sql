@@ -5,7 +5,7 @@ VALUES (80034, 'ace80034-royalinquisitor', 10, '2020-02-22 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80034,   1,         16) /* ItemType - Creature */
-     , (80034,   2,         31) /* CreatureType - Human */
+     , (80034,   2,         83) /* CreatureType - ViamontianKnight */
      , (80034,   3,         11) /* PaletteTemplate - Maroon */
      , (80034,   6,         -1) /* ItemsCapacity */
      , (80034,   7,         -1) /* ContainersCapacity */
@@ -17,6 +17,7 @@ VALUES (80034,   1,         16) /* ItemType - Creature */
      , (80034,  72,         83) /* FriendType - ViamontianKnight */
      , (80034,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (80034, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
+     , (80034, 113,          1) /* Gender - Male */
      , (80034, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (80034, 140,          1) /* AiOptions - CanOpenDoors */
      , (80034, 146,     800000) /* XpOverride */

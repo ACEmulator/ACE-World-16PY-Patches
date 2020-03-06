@@ -5,7 +5,7 @@ VALUES (80032, 'ace80032-mastervivimancer', 10, '2020-02-17 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80032,   1,         16) /* ItemType - Creature */
-     , (80032,   2,         31) /* CreatureType - Human */
+     , (80032,   2,         83) /* CreatureType - ViamontianKnight */
      , (80032,   3,         11) /* PaletteTemplate - Maroon */
      , (80032,   6,         -1) /* ItemsCapacity */
      , (80032,   7,         -1) /* ContainersCapacity */
@@ -17,6 +17,7 @@ VALUES (80032,   1,         16) /* ItemType - Creature */
      , (80032,  72,         83) /* FriendType - ViamontianKnight */
      , (80032,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (80032, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
+     , (80032, 113,          1) /* Gender - Male */
      , (80032, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (80032, 140,          1) /* AiOptions - CanOpenDoors */
      , (80032, 146,     250000) /* XpOverride */

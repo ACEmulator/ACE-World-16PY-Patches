@@ -5,7 +5,7 @@ VALUES (80049, 'ace80049-royalthaumaturge', 10, '2020-03-03 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80049,   1,         16) /* ItemType - Creature */
-     , (80049,   2,         31) /* CreatureType - Human */
+     , (80049,   2,         83) /* CreatureType - ViamontianKnight */
      , (80049,   3,         11) /* PaletteTemplate - Maroon */
      , (80049,   6,         -1) /* ItemsCapacity */
      , (80049,   7,         -1) /* ContainersCapacity */
@@ -17,6 +17,7 @@ VALUES (80049,   1,         16) /* ItemType - Creature */
      , (80049,  72,         83) /* FriendType - ViamontianKnight */
      , (80049,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (80049, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
+     , (80049, 113,          1) /* Gender - Male */
      , (80049, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (80049, 140,          1) /* AiOptions - CanOpenDoors */
      , (80049, 146,     250000) /* XpOverride */

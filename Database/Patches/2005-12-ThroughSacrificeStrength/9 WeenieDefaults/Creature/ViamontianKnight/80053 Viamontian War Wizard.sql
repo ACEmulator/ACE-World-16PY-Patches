@@ -5,7 +5,7 @@ VALUES (80053, 'ace80053-magewarwizard', 10, '2020-03-03 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80053,   1,         16) /* ItemType - Creature */
-     , (80053,   2,         31) /* CreatureType - Human */
+     , (80053,   2,         83) /* CreatureType - ViamontianKnight */
      , (80053,   3,         11) /* PaletteTemplate - Maroon */
      , (80053,   6,         -1) /* ItemsCapacity */
      , (80053,   7,         -1) /* ContainersCapacity */
@@ -17,6 +17,7 @@ VALUES (80053,   1,         16) /* ItemType - Creature */
      , (80053,  72,         83) /* FriendType - ViamontianKnight */
      , (80053,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (80053, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
+     , (80053, 113,          1) /* Gender - Male */
      , (80053, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (80053, 140,          1) /* AiOptions - CanOpenDoors */
      , (80053, 146,     125000) /* XpOverride */
