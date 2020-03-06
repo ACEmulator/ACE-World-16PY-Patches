@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32295;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32295, 'ace32295-royalinquisitor', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (32295, 'ace32295-royalinquisitor', 10, '2020-03-05 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32295,   1,         16) /* ItemType - Creature */
@@ -17,6 +17,7 @@ VALUES (32295,   1,         16) /* ItemType - Creature */
      , (32295,  72,         83) /* FriendType - ViamontianKnight */
      , (32295,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (32295, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
+     , (32295, 113,          1) /* Gender - Male */
      , (32295, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (32295, 140,          1) /* AiOptions - CanOpenDoors */
      , (32295, 146,     800000) /* XpOverride */
@@ -72,11 +73,6 @@ VALUES (32295,   1,   33554433) /* Setup */
      , (32295,   4,  805306368) /* CombatTable */
      , (32295,   6,   67108990) /* PaletteBase */
      , (32295,   8,  100667446) /* Icon */
-     , (32295,   9,   83890451) /* EyesTexture */
-     , (32295,  10,   83890550) /* NoseTexture */
-     , (32295,  11,   83890632) /* MouthTexture */
-     , (32295,  15,   67117072) /* HairPalette */
-     , (32295,  16,   67110065) /* EyesPalette */
      , (32295,  17,   67115908) /* SkinPalette */
      , (32295,  22,  872415236) /* PhysicsEffectTable */
      , (32295,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
