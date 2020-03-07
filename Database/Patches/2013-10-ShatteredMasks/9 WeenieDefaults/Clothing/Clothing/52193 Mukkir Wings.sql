@@ -50,7 +50,4 @@ VALUES (52193,   1,   33561386) /* Setup */
      , (52193,  22,  872415275) /* PhysicsEffectTable */
      , (52193,  50,  100690999) /* IconOverlay */
 	 , (52193,  55,       5361) /* ProcSpell - Clouded Soul */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52193,  5361,      2) ;
-
+	 
