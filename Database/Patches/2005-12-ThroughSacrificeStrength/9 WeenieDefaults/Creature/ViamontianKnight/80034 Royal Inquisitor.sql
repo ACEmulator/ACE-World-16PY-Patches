@@ -17,6 +17,7 @@ VALUES (80034,   1,         16) /* ItemType - Creature */
      , (80034,  72,         83) /* FriendType - ViamontianKnight */
      , (80034,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (80034, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
+     , (80034, 113,          1) /* Gender - Male */
      , (80034, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (80034, 140,          1) /* AiOptions - CanOpenDoors */
      , (80034, 146,     800000) /* XpOverride */
@@ -64,7 +65,8 @@ VALUES (80034,   1,       5) /* HeartbeatInterval */
      , (80034, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (80034,   1, 'Royal Inquisitor') /* Name */;
+VALUES (80034,   1, 'Royal Inquisitor') /* Name */
+     , (80034,   5, 'Viamontian Knight') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (80034,   1,   33554433) /* Setup */
@@ -73,11 +75,6 @@ VALUES (80034,   1,   33554433) /* Setup */
      , (80034,   4,  805306368) /* CombatTable */
      , (80034,   6,   67108990) /* PaletteBase */
      , (80034,   8,  100667446) /* Icon */
-     , (80034,   9,   83890451) /* EyesTexture */
-     , (80034,  10,   83890550) /* NoseTexture */
-     , (80034,  11,   83890632) /* MouthTexture */
-     , (80034,  15,   67117072) /* HairPalette */
-     , (80034,  16,   67110065) /* EyesPalette */
      , (80034,  17,   67115908) /* SkinPalette */
      , (80034,  22,  872415236) /* PhysicsEffectTable */
      , (80034,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
@@ -97,28 +94,25 @@ VALUES (80034,   1,   785, 0, 0, 890) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (80034, 45, 0, 3, 0, 260, 0, 0) /* LightWeapons        Specialized */
-     , (80034, 46, 0, 3, 0, 260, 0, 0) /* FinesseWeapons      Specialized */
      , (80034,  6, 0, 3, 0, 270, 0, 0) /* MeleeDefense        Specialized */
      , (80034,  7, 0, 3, 0, 280, 0, 0) /* MissileDefense      Specialized */
-     , (80034, 44, 0, 3, 0, 260, 0, 0) /* HeavyWeapons        Specialized */
      , (80034, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */
      , (80034, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
      , (80034, 20, 0, 2, 0,  50, 0, 0) /* Deception           Trained */
      , (80034, 31, 0, 3, 0, 225, 0, 0) /* CreatureEnchantment Specialized */
      , (80034, 33, 0, 3, 0, 225, 0, 0) /* LifeMagic           Specialized */
-     , (80034, 34, 0, 3, 0, 225, 0, 0) /* WarMagic            Specialized */
-     , (80034, 41, 0, 3, 0, 260, 0, 0) /* TwoHandedCombat     Specialized */;
+     , (80034, 34, 0, 3, 0, 225, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (80034,  0,  4,  0,    0,  605,  605,  605,  605,  605,  445,  605,  445,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (80034,  1,  4,  0,    0,  605,  605,  605,  605,  605,  445,  605,  445,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (80034,  2,  4,  0,    0,  605,  605,  605,  605,  605,  445,  605,  445,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (80034,  3,  4,  0,    0,  605,  605,  605,  605,  605,  445,  605,  445,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (80034,  4,  4,  0,    0,  605,  605,  605,  605,  605,  445,  605,  445,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (80034,  5,  4, 140,  0.4,  605,  605,  605,  605,  605,  445,  605,  445,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (80034,  6,  4,  0,    0,  605,  605,  605,  605,  605,  445,  605,  445,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (80034,  7,  4,  0,    0,  605,  605,  605,  605,  605,  445,  605,  445,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (80034,  8,  4, 140,  0.4,  605,  605,  605,  605,  605,  445,  605,  445,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (80034,  0,  4,  0,    0,  544,  544,  544,  544,  544,  412,  544,  412,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (80034,  1,  4,  0,    0,  544,  544,  544,  544,  544,  412,  544,  412,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (80034,  2,  4,  0,    0,  544,  544,  544,  544,  544,  412,  544,  412,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (80034,  3,  4,  0,    0,  544,  544,  544,  544,  544,  412,  544,  412,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (80034,  4,  4,  0,    0,  544,  544,  544,  544,  544,  412,  544,  412,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (80034,  5,  4, 125,  0.4,  544,  544,  544,  544,  544,  412,  544,  412,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (80034,  6,  4,  0,    0,  544,  544,  544,  544,  544,  412,  544,  412,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (80034,  7,  4,  0,    0,  544,  544,  544,  544,  544,  412,  544,  412,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (80034,  8,  4, 125,  0.4,  544,  544,  544,  544,  544,  412,  544,  412,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (80034,  2074,   2.02)  /* Gossamer Flesh */
