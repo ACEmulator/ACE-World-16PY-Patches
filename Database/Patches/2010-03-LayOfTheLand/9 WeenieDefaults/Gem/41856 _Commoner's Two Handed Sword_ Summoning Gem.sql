@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41856,  39, 0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41856,   1, '"Commoner''s Two Handed Sword" Summoning Gem') /* Name */;
+VALUES (41856,   1, '"Commoner''s Two Handed Sword" Summoning Gem') /* Name */
      , (41856,  14, 'Use this gem to summon the weapon it is bound to.') /* Use */
      , (41856,  16, 'A gem, seeming made of congealed portal energy. You know that using this gem will summon forth the weapon known as the "Commoner''s Two Handed Sword". Once summoned, the weapon will only be in the world for 3 hours. (BE WARNED: 1 - This duration will continue to count down, even if the character bearing the weapon is logged out. 2 - Have a free space in your main pack when you use this gem.)') /* LongDesc */;
 
