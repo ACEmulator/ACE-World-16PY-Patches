@@ -31,7 +31,7 @@ VALUES (35557,   1,        256) /* ItemType - MissileWeapon */
      , (35557, 314,          0) /* CritDamageRating */
      , (35557, 353,         10) /* WeaponType - Thrown */
      , (35557, 381,          0) /* PKDamageRating */
-     , (35557, 386,          0) /* Overpower */);
+     , (35557, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35557,  11, True ) /* IgnoreCollisions */
