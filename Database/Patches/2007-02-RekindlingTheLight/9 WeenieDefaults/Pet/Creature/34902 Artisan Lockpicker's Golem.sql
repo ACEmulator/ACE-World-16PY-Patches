@@ -61,7 +61,7 @@ VALUES (34902,   1,       5) /* HeartbeatInterval */
      , (34902, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34902,   1, '34902 Artisan Lockpicker''s Golem') /* Name */;
+VALUES (34902,   1, 'Artisan Lockpicker''s Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34902,   1,   33559702) /* Setup */
