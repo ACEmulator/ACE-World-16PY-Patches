@@ -22,9 +22,6 @@ VALUES (34902,   1, True ) /* Stuck */
      , (34902,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34902,  39,     0.5) /* DefaultScale */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34902,   1,       5) /* HeartbeatInterval */
      , (34902,   2,       0) /* HeartbeatTimestamp */
      , (34902,   3,     0.5) /* HealthRate */
