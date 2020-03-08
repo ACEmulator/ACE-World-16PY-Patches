@@ -19,6 +19,7 @@ VALUES (46024,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46024,   1, True ) /* Stuck */
+     , (46024,   8, True ) /* AllowGive */
      , (46024,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
