@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6873;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6873, 'ayanbaqurdrunkenscholar', 10, '2020-02-29 18:15:46') /* Creature */;
+VALUES (6873, 'ayanbaqurdrunkenscholar', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6873,   1,         16) /* ItemType - Creature */
      , (6873,   2,         31) /* CreatureType - Human */
-     , (6873,   3,          4) /* PaletteTemplate - Brown */
+     , (6873,   3,          9) /* PaletteTemplate - Grey */
      , (6873,   6,         -1) /* ItemsCapacity */
      , (6873,   7,         -1) /* ContainersCapacity */
      , (6873,   8,        120) /* Mass */
@@ -36,7 +36,7 @@ VALUES (6873,   1,       5) /* HeartbeatInterval */
      , (6873,   4,       5) /* StaminaRate */
      , (6873,   5,       1) /* ManaRate */
      , (6873,  11,     300) /* ResetInterval */
-     , (6873,  12,     0.5) /* Shade */
+     , (6873,  12,       1) /* Shade */
      , (6873,  13, 0.899999976158142) /* ArmorModVsSlash */
      , (6873,  14,       1) /* ArmorModVsPierce */
      , (6873,  15, 1.10000002384186) /* ArmorModVsBludgeon */
@@ -72,7 +72,7 @@ VALUES (6873,   1,   33554433) /* Setup */
      , (6873,   3,  536871084) /* SoundTable */
      , (6873,   4,  805306368) /* CombatTable */
      , (6873,   6,   67108990) /* PaletteBase */
-     , (6873,   7,  268437394) /* ClothingBase */
+     , (6873,   7,  268435545) /* ClothingBase */
      , (6873,   8,  100667446) /* Icon */
      , (6873,  22,  872415236) /* PhysicsEffectTable */
      , (6873,  31,      23889) /* LinkedPortalOne - Tower of the Madman */;
@@ -1410,4 +1410,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Thanks, but I don''t need anymore splinters.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6873, 2,   161,  0, 0, 0, False) /* Create Mug (161) for Wield */;
+VALUES (6873, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
+     , (6873, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
+     , (6873, 2,  5850,  0, 4, 0.5, False) /* Create Faran Robe (5850) for Wield */
+     , (6873, 2,   161,  0, 0, 0, False) /* Create Mug (161) for Wield */;

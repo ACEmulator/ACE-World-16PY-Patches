@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29304;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29304, 'knightmage', 10, '2020-03-05 00:00:00') /* Creature */;
+VALUES (29304, 'knightmage', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29304,   1,         16) /* ItemType - Creature */
@@ -17,7 +17,6 @@ VALUES (29304,   1,         16) /* ItemType - Creature */
      , (29304,  72,         83) /* FriendType - ViamontianKnight */
      , (29304,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29304, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
-     , (29304, 113,          1) /* Gender - Male */
      , (29304, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (29304, 140,          1) /* AiOptions - CanOpenDoors */
      , (29304, 146,      80000) /* XpOverride */
@@ -72,6 +71,11 @@ VALUES (29304,   1,   33554433) /* Setup */
      , (29304,   4,  805306368) /* CombatTable */
      , (29304,   6,   67108990) /* PaletteBase */
      , (29304,   8,  100667446) /* Icon */
+     , (29304,   9,   83890485) /* EyesTexture */
+     , (29304,  10,   83890546) /* NoseTexture */
+     , (29304,  11,   83890656) /* MouthTexture */
+     , (29304,  15,   67116982) /* HairPalette */
+     , (29304,  16,   67110065) /* EyesPalette */
      , (29304,  17,   67115906) /* SkinPalette */
      , (29304,  22,  872415236) /* PhysicsEffectTable */
      , (29304,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
