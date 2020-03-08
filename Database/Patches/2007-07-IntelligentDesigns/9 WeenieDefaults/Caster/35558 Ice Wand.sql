@@ -12,6 +12,7 @@ VALUES (35558,   1,      32768) /* ItemType - Caster */
      , (35558,  33,         -1) /* Bonded - Slippery */
      , (35558,  36,       9999) /* ResistMagic */
      , (35558,  45,          8) /* DamageType - Cold */
+     , (35558,  46,        512) /* DefaultCombatStyle - Magic */
      , (35558,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35558,  94,         16) /* TargetType - Creature */
      , (35558, 106,        500) /* ItemSpellcraft */
