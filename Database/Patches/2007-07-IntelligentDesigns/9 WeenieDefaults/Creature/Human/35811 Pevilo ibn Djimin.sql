@@ -86,6 +86,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Return with more stories of
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35811, 2,   135,  0, 14, 0.4, False) /* Create Turban (135) for Wield */
      , (35811, 2,  5852,  0,  5,   1, False) /* Create Dho Vest and Robe (5852) for Wield */
+     , (35811, 2, 24946,  0, 85,   0, False) /* Create Antius'' Celdon Gauntlets (24946) for Wield */
      , (35811, 4, 35535, -1,  0,   0, False) /* Create "Doom Hammer" Summoning Gem (35535) for Shop */
      , (35811, 4, 35536, -1,  0,   0, False) /* Create "Burning Bow" Summoning Gem (35536) for Shop */
      , (35811, 4, 35537, -1,  0,   0, False) /* Create "Assassin's Crossbow" Summoning Gem (35537) for Shop */
