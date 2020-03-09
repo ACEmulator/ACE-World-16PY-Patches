@@ -5,7 +5,7 @@ VALUES (39981, 'ace39981-protectiveleggings', 2, '2020-03-09 00:00:00') /* Cloth
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39981,   1,          4) /* ItemType - Clothing */
-     , (39981,   3,         93) /* PaletteTemplate - Spring Black */
+     , (39981,   3,          8) /* PaletteTemplate - Green */
      , (39981,   4,         22) /* ClothingPriority - UnderwearUpperLegs, UnderwearLowerLegs, UnderwearAbdomen */
      , (39981,   5,         50) /* EncumbranceVal */
      , (39981,   9,        196) /* ValidLocations - AbdomenWear, UpperLegWear, LowerLegWear */
