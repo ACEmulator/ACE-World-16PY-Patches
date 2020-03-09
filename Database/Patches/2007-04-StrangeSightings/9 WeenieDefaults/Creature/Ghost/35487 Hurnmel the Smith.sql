@@ -15,8 +15,7 @@ VALUES (35487,   1,         16) /* ItemType - Creature */
      , (35487,  76,     100000) /* MerchandiseMaxValue */
      , (35487,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (35487, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (35487, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (35487, 307,          5) /* DamageRating */;
+     , (35487, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35487,   1, True ) /* Stuck */
