@@ -35,7 +35,7 @@ VALUES (45358,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45358,   1, 'Spectral Recklessness Mastery Crystal') /* Name */
-     , (45357,  16, 'Using this gem will increase your Recklessness skill by 150 for 9 minutes.') /* LongDesc */
+     , (45358,  16, 'Using this gem will increase your Recklessness skill by 150 for 9 minutes.') /* LongDesc */
      , (45358,  20, 'Spectral Recklessness Mastery Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
