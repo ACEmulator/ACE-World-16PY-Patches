@@ -5,7 +5,7 @@ VALUES (39982, 'ace39982-protectivetunic', 2, '2020-03-09 00:00:00') /* Clothing
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39982,   1,          4) /* ItemType - Clothing */
-     , (39981,   3,          8) /* PaletteTemplate - Green */
+     , (39982,   3,          8) /* PaletteTemplate - Green */
      , (39982,   4,        104) /* ClothingPriority - UnderwearChest, UnderwearUpperArms, UnderwearLowerArms */
      , (39982,   5,         50) /* EncumbranceVal */
      , (39982,   9,         30) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
