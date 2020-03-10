@@ -5,7 +5,7 @@ VALUES (39977, 'ace39977-gladiatorialleggings', 2, '2020-03-09 00:00:00') /* Clo
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39977,   1,          4) /* ItemType - Clothing */
-     , (39981,   3,         11) /* PaletteTemplate - Maroon */
+     , (39977,   3,         11) /* PaletteTemplate - Maroon */
      , (39977,   4,         22) /* ClothingPriority - UnderwearUpperLegs, UnderwearLowerLegs, UnderwearAbdomen */
      , (39977,   5,         50) /* EncumbranceVal */
      , (39977,   9,        196) /* ValidLocations - AbdomenWear, UpperLegWear, LowerLegWear */
