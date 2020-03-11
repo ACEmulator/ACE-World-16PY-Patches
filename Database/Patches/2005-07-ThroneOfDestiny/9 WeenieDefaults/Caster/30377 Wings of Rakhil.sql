@@ -14,8 +14,8 @@ VALUES (30377,   1,      32768) /* ItemType - Caster */
      , (30377,  19,      50000) /* Value */
      , (30377,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30377,  45,         16) /* DamageType - Fire */
+     , (30377,  46,        512) /* DefaultCombatStyle - Magic */
      , (30377,  52,          1) /* ParentLocation */
-     , (30377,  53,        101) /* PlacementPosition */
      , (30377,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30377,  94,         16) /* TargetType - Creature */
      , (30377, 106,        500) /* ItemSpellcraft */
