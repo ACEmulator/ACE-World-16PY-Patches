@@ -16,7 +16,7 @@ VALUES (44175,   1,       2048) /* ItemType - Gem */
      , (44175,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44175,  94,         16) /* TargetType - Creature */
      , (44175, 280,        100) /* SharedCooldown */
-     , (44175, 349,         47) /* UseCreatesContractId */;
+     , (44175, 349,         32) /* UseCreatesContractId */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44175,   1, False) /* Stuck */

@@ -238,7 +238,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  5,  67 /* Goto */, 0, 1, NULL, 'FirstContact_OrdersGiven', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (4795, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'FirstContact_OrdersGiven', NULL, NULL, NULL);
+VALUES (27117, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'FirstContact_OrdersGiven', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -247,7 +247,7 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'FirstContact_ThreeDoc
      , (@parent_id,  1,  30 /* InqQuestSolves */, 0, 1, NULL, 'FirstContact_ThreeDocumentsGiven', NULL, 3, 99999, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (31641, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'FirstContact_ThreeDocumentsGiven', NULL, NULL, NULL);
+VALUES (27117, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'FirstContact_ThreeDocumentsGiven', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -258,7 +258,7 @@ VALUES (@parent_id,  0,  31 /* EraseQuest */, 0, 1, NULL, 'FirstContact_Document
      , (@parent_id,  3,  21 /* InqQuest */, 0, 1, NULL, 'FirstContact_FirstCompletion', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (27476, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'FirstContact_FirstCompletion', NULL, NULL, NULL);
+VALUES (27117, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'FirstContact_FirstCompletion', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
