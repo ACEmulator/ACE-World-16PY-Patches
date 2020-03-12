@@ -6,6 +6,7 @@ VALUES (35487, 'ace35487-hurnmelthesmith', 12, '2020-03-08 00:00:00') /* Vendor 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35487,   1,         16) /* ItemType - Creature */
      , (35487,   2,         77) /* CreatureType - Ghost */
+     , (35487,   3,         90) /* PaletteTemplate - DyeWinterSilver */
      , (35487,   6,        255) /* ItemsCapacity */
      , (35487,   7,        255) /* ContainersCapacity */
      , (35487,  16,         32) /* ItemUseable - Remote */
@@ -23,7 +24,8 @@ VALUES (35487,   1, True ) /* Stuck */
      , (35487,  39, True ) /* DealMagicalItems */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35487,  37,     0.9) /* BuyPrice */
+VALUES (35487,  12,  0.2321) /* Shade */
+     , (35487,  37,     0.9) /* BuyPrice */
      , (35487,  38,       1) /* SellPrice */
      , (35487,  39,     1.2) /* DefaultScale */
      , (35487,  54,       3) /* UseRadius */
@@ -38,6 +40,7 @@ VALUES (35487,   1,   33554433) /* Setup */
      , (35487,   2,  150994945) /* MotionTable */
      , (35487,   3,  536870913) /* SoundTable */
      , (35487,   6,   67108990) /* PaletteBase */
+     , (35487,   7,  268437206) /* ClothingBase */
      , (35487,   8,  100667446) /* Icon */
      , (35487,  57,      35383) /* AlternateCurrency - Ancient Mhoire Coin */;
 

@@ -6,6 +6,7 @@ VALUES (37477, 'ace37477-hurnmelthesmith', 12, '2020-03-08 00:00:00') /* Vendor 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37477,   1,         16) /* ItemType - Creature */
      , (37477,   2,         77) /* CreatureType - Ghost */
+     , (37477,   3,         90) /* PaletteTemplate - DyeWinterSilver */
      , (37477,   6,        255) /* ItemsCapacity */
      , (37477,   7,        255) /* ContainersCapacity */
      , (37477,  16,         32) /* ItemUseable - Remote */
@@ -23,7 +24,8 @@ VALUES (37477,   1, True ) /* Stuck */
      , (37477,  39, True ) /* DealMagicalItems */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37477,  37,     0.9) /* BuyPrice */
+VALUES (37477,  12,  0.2321) /* Shade */
+     , (37477,  37,     0.9) /* BuyPrice */
      , (37477,  38,       1) /* SellPrice */
      , (37477,  39,     1.2) /* DefaultScale */
      , (37477,  54,       3) /* UseRadius */
@@ -38,6 +40,7 @@ VALUES (37477,   1,   33554433) /* Setup */
      , (37477,   2,  150994945) /* MotionTable */
      , (37477,   3,  536870913) /* SoundTable */
      , (37477,   6,   67108990) /* PaletteBase */
+     , (37477,   7,  268437206) /* ClothingBase */
      , (37477,   8,  100667446) /* Icon */
      , (37477,  57,      37492) /* AlternateCurrency - Spectral Ingot */;
 
