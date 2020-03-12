@@ -78,65 +78,74 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Enjoy your time in the Colosseum!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36519, 4, 36515, -1, 0, 0, False) /* Create Wrapped Pyreal Sliver (36515) for Shop */
-     , (36519, 4, 36517, -1, 0, 0, False) /* Create Wrapped Dark Sliver (36517) for Shop */
-     , (36519, 4, 36516, -1, 0, 0, False) /* Create Wrapped Cracked Shard (36516) for Shop */
-     , (36519, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */
-     , (36519, 4, 34449, -1, 0, 0, False) /* Create Colosseum Ticket (34449) for Shop */
-     , (36519, 4, 36544, -1, 0, 0, False) /* Create The Master Pass (36544) for Shop */
-     , (36519, 4, 36543, -1, 0, 0, False) /* Create Gladiator Diemos Pass (36543) for Shop */
-     , (36519, 4, 36565, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Green Garnet (36565) for Shop */
-     , (36519, 4, 36575, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Opal (36575) for Shop */
-     , (36519, 4, 36564, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Granite (36564) for Shop */
-     , (36519, 4, 36569, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Velvet (36569) for Shop */
-     , (36519, 4, 36567, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Mahogany (36567) for Shop */
-     , (36519, 4, 36563, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Brass (36563) for Shop */
-     , (36519, 4, 36566, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Iron (36566) for Shop */
-     , (36519, 4, 36568, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Steel (36568) for Shop */
-     , (36519, 4, 36619, -1, 0, 0, False) /* Create Foolproof Aquamarine (36619) for Shop */
-     , (36519, 4, 36620, -1, 0, 0, False) /* Create Foolproof (36620) for Shop */
-     , (36519, 4, 36621, -1, 0, 0, False) /* Create Foolproof (36621) for Shop */
-     , (36519, 4, 36622, -1, 0, 0, False) /* Create Foolproof Emerald (36622) for Shop */
-     , (36519, 4, 36623, -1, 0, 0, False) /* Create Foolproof (36623) for Shop */
-     , (36519, 4, 36624, -1, 0, 0, False) /* Create Foolproof (36624) for Shop */
-     , (36519, 4, 36625, -1, 0, 0, False) /* Create Foolproof Jet (36625) for Shop */
-     , (36519, 4, 36626, -1, 0, 0, False) /* Create Foolproof (36626) for Shop */
-     , (36519, 4, 36627, -1, 0, 0, False) /* Create Foolproof Sunstone (36627) for Shop */
-     , (36519, 4, 36628, -1, 0, 0, False) /* Create Foolproof (36628) for Shop */
-     , (36519, 4, 36618, -1, 0, 0, False) /* Create Gladiator's Defense Armor Augmentation (36618) for Shop */
-     , (36519, 4, 36510, -1, 0, 0, False) /* Create Gem of Knowledge (36510) for Shop */
-     , (36519, 4, 43185, -1, 0, 0, False) /* Create Gem of Knowledge (43185) for Shop */
-     , (36519, 4, 43189, -1, 0, 0, False) /* Create Gem of Knowledge (43189) for Shop */
-     , (36519, 4, 43188, -1, 0, 0, False) /* Create Gem of Knowledge (43188) for Shop */
-     , (36519, 4, 43187, -1, 0, 0, False) /* Create Gem of Knowledge (43187) for Shop */
-     , (36519, 4, 43186, -1, 0, 0, False) /* Create Gem of Knowledge (43186) for Shop */
-     , (36519, 4, 36509, -1, 0, 0, False) /* Create Greater Gem of Knowledge (36509) for Shop */
-     , (36519, 4, 36498, -1, 0, 0, False) /* Create Gold Hill Ruins (36498) for Shop */
-     , (36519, 4, 36501, -1, 0, 0, False) /* Create Drudge Fight (36501) for Shop */
-     , (36519, 4, 36503, -1, 0, 0, False) /* Create Lair of The Homunculus (36503) for Shop */
-     , (36519, 4, 36505, -1, 0, 0, False) /* Create Mukkir Nest Portal Gem (36505) for Shop */
-     , (36519, 4, 36506, -1, 0, 0, False) /* Create Resting Place (36506) for Shop */
-     , (36519, 4, 36500, -1, 0, 0, False) /* Create Dark Towers (36500) for Shop */
-     , (36519, 4, 36502, -1, 0, 0, False) /* Create Oubliette (36502) for Shop */
-     , (36519, 4, 36504, -1, 0, 0, False) /* Create Niffis Fighting Pits (36504) for Shop */
-     , (36519, 4, 36507, -1, 0, 0, False) /* Create Son of Pooky's Den (36507) for Shop */
-     , (36519, 4, 36499, -1, 0, 0, False) /* Create Dark Monolith Caverns (36499) for Shop */
-     , (36519, 4, 36561, -1, 0, 0, False) /* Create Colosseum Backpack (36561) for Shop */
-     , (36519, 4, 42399, -1, 0, 0, False) /* Create Crate of Greater Deadly Blunt Arrowheads (42399) for Shop */
-     , (36519, 4, 36542, -1, 0, 0, False) /* Create Scroll of Tusker Fists (36542) for Shop */
-     , (36519, 4, 36537, -1, 0, 0, False) /* Create Scroll of Colosseum Recall (36537) for Shop */
-     , (36519, 4, 38886, -1, 0, 0, False) /* Create Colosseum Medallion of Honor (38886) for Shop */
-     , (36519, 4, 39914, -1, 0, 0, False) /* Create Empyrean Crystal (39914) for Shop */
-     , (36519, 4, 39977, -1, 0, 0, False) /* Create Gladiatorial Leggings (39977) for Shop */
-     , (36519, 4, 39978, -1, 0, 0, False) /* Create Gladiatorial Tunic (39978) for Shop */
-     , (36519, 4, 40140, -1, 0, 0, False) /* Create Tome of Flame (40140) for Shop */
-     , (36519, 4, 40605, -1, 0, 0, False) /* Create Armor Upgrade Kit Containment Gem (40605) for Shop */
-     , (36519, 4, 41917, -1, 0, 0, False) /* Create Weapon Upgrade Kit Containment Gem (41917) for Shop */
-     , (36519, 4, 40515, -1, 0, 0, False) /* Create Inert Shadowfire Infusion (40515) for Shop */
-     , (36519, 4, 41875, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Sapphire (41875) for Shop */
-     , (36519, 4, 41860, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Amber (41860) for Shop */
-     , (36519, 4, 41863, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Diamond (41863) for Shop */
-     , (36519, 4, 41866, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Gromnie Hide (41866) for Shop */
-     , (36519, 4, 41869, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Pyreal (41869) for Shop */
-     , (36519, 4, 41872, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Ruby (41872) for Shop */;
+VALUES (36519, 4, 36515, -1,  0, 0, False) /* Create Wrapped Pyreal Sliver (36515) for Shop */
+     , (36519, 4, 36517, -1,  0, 0, False) /* Create Wrapped Dark Sliver (36517) for Shop */
+     , (36519, 4, 36516, -1,  0, 0, False) /* Create Wrapped Cracked Shard (36516) for Shop */
+     , (36519, 4, 41508, -1,  0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */
+     , (36519, 4, 34449, -1,  0, 0, False) /* Create Colosseum Ticket (34449) for Shop */
+     , (36519, 4, 36544, -1,  0, 0, False) /* Create The Master Pass (36544) for Shop */
+     , (36519, 4, 36543, -1,  0, 0, False) /* Create Gladiator Diemos Pass (36543) for Shop */
+     , (36519, 4, 36565, -1,  0, 0, False) /* Create Sealed Bag of Salvaged Green Garnet (36565) for Shop */
+     , (36519, 4, 36575, -1,  0, 0, False) /* Create Sealed Bag of Salvaged Opal (36575) for Shop */
+     , (36519, 4, 36564, -1,  0, 0, False) /* Create Sealed Bag of Salvaged Granite (36564) for Shop */
+     , (36519, 4, 36569, -1,  0, 0, False) /* Create Sealed Bag of Salvaged Velvet (36569) for Shop */
+     , (36519, 4, 36567, -1,  0, 0, False) /* Create Sealed Bag of Salvaged Mahogany (36567) for Shop */
+     , (36519, 4, 36563, -1,  0, 0, False) /* Create Sealed Bag of Salvaged Brass (36563) for Shop */
+     , (36519, 4, 36566, -1,  0, 0, False) /* Create Sealed Bag of Salvaged Iron (36566) for Shop */
+     , (36519, 4, 36568, -1,  0, 0, False) /* Create Sealed Bag of Salvaged Steel (36568) for Shop */
+     , (36519, 4, 36619, -1,  0, 0, False) /* Create Foolproof Aquamarine (36619) for Shop */
+     , (36519, 4, 36620, -1,  0, 0, False) /* Create Foolproof (36620) for Shop */
+     , (36519, 4, 36621, -1,  0, 0, False) /* Create Foolproof (36621) for Shop */
+     , (36519, 4, 36622, -1,  0, 0, False) /* Create Foolproof Emerald (36622) for Shop */
+     , (36519, 4, 36623, -1,  0, 0, False) /* Create Foolproof (36623) for Shop */
+     , (36519, 4, 36624, -1,  0, 0, False) /* Create Foolproof (36624) for Shop */
+     , (36519, 4, 36625, -1,  0, 0, False) /* Create Foolproof Jet (36625) for Shop */
+     , (36519, 4, 36626, -1,  0, 0, False) /* Create Foolproof (36626) for Shop */
+     , (36519, 4, 36627, -1,  0, 0, False) /* Create Foolproof Sunstone (36627) for Shop */
+     , (36519, 4, 36628, -1,  0, 0, False) /* Create Foolproof (36628) for Shop */
+     , (36519, 4, 36618, -1,  0, 0, False) /* Create Gladiator's Defense Armor Augmentation (36618) for Shop */
+     , (36519, 4, 36510, -1,  0, 0, False) /* Create Gem of Knowledge (36510) for Shop */
+     , (36519, 4, 43185, -1,  0, 0, False) /* Create Gem of Knowledge (43185) for Shop */
+     , (36519, 4, 43189, -1,  0, 0, False) /* Create Gem of Knowledge (43189) for Shop */
+     , (36519, 4, 43188, -1,  0, 0, False) /* Create Gem of Knowledge (43188) for Shop */
+     , (36519, 4, 43187, -1,  0, 0, False) /* Create Gem of Knowledge (43187) for Shop */
+     , (36519, 4, 43186, -1,  0, 0, False) /* Create Gem of Knowledge (43186) for Shop */
+     , (36519, 4, 36509, -1,  0, 0, False) /* Create Greater Gem of Knowledge (36509) for Shop */
+     , (36519, 4, 36498, -1,  0, 0, False) /* Create Gold Hill Ruins (36498) for Shop */
+     , (36519, 4, 36501, -1,  0, 0, False) /* Create Drudge Fight (36501) for Shop */
+     , (36519, 4, 36503, -1,  0, 0, False) /* Create Lair of The Homunculus (36503) for Shop */
+     , (36519, 4, 36505, -1,  0, 0, False) /* Create Mukkir Nest Portal Gem (36505) for Shop */
+     , (36519, 4, 36506, -1,  0, 0, False) /* Create Resting Place (36506) for Shop */
+     , (36519, 4, 36500, -1,  0, 0, False) /* Create Dark Towers (36500) for Shop */
+     , (36519, 4, 36502, -1,  0, 0, False) /* Create Oubliette (36502) for Shop */
+     , (36519, 4, 36504, -1,  0, 0, False) /* Create Niffis Fighting Pits (36504) for Shop */
+     , (36519, 4, 36507, -1,  0, 0, False) /* Create Son of Pooky's Den (36507) for Shop */
+     , (36519, 4, 36499, -1,  0, 0, False) /* Create Dark Monolith Caverns (36499) for Shop */
+     , (36519, 4, 36561, -1, 21, 0, False) /* Create Colosseum Backpack Gold (36561) for Shop */
+     , (36519, 4, 36561, -1, 14, 0, False) /* Create Colosseum Backpack Red (36561) for Shop */
+     , (36519, 4, 36561, -1, 17, 0, False) /* Create Colosseum Backpack Yellow (36561) for Shop */
+     , (36519, 4, 36561, -1,  8, 0, False) /* Create Colosseum Backpack Green (36561) for Shop */
+     , (36519, 4, 36561, -1,  2, 0, False) /* Create Colosseum Backpack Blue (36561) for Shop */
+     , (36519, 4, 36561, -1, 39, 0, False) /* Create Colosseum Backpack Black (36561) for Shop */
+     , (36519, 4, 36561, -1, 13, 0, False) /* Create Colosseum Backpack Purple (36561) for Shop */
+     , (36519, 4, 36561, -1,  9, 0, False) /* Create Colosseum Backpack Gray (36561) for Shop */
+     , (36519, 4, 36561, -1, 61, 0, False) /* Create Colosseum Backpack White (36561) for Shop */
+     , (36519, 4, 36561, -1, 77, 0, False) /* Create Colosseum Backpack BlueGreen (36561) for Shop */
+     , (36519, 4, 42399, -1,  0, 0, False) /* Create Crate of Greater Deadly Blunt Arrowheads (42399) for Shop */
+     , (36519, 4, 36542, -1,  0, 0, False) /* Create Scroll of Tusker Fists (36542) for Shop */
+     , (36519, 4, 36537, -1,  0, 0, False) /* Create Scroll of Colosseum Recall (36537) for Shop */
+     , (36519, 4, 38886, -1,  0, 0, False) /* Create Colosseum Medallion of Honor (38886) for Shop */
+     , (36519, 4, 39914, -1,  0, 0, False) /* Create Empyrean Crystal (39914) for Shop */
+     , (36519, 4, 39977, -1,  0, 0, False) /* Create Gladiatorial Leggings (39977) for Shop */
+     , (36519, 4, 39978, -1,  0, 0, False) /* Create Gladiatorial Tunic (39978) for Shop */
+     , (36519, 4, 40140, -1,  0, 0, False) /* Create Tome of Flame (40140) for Shop */
+     , (36519, 4, 40605, -1,  0, 0, False) /* Create Armor Upgrade Kit Containment Gem (40605) for Shop */
+     , (36519, 4, 41917, -1,  0, 0, False) /* Create Weapon Upgrade Kit Containment Gem (41917) for Shop */
+     , (36519, 4, 40515, -1,  0, 0, False) /* Create Inert Shadowfire Infusion (40515) for Shop */
+     , (36519, 4, 41875, -1,  0, 0, False) /* Create Sealed Bag of Salvaged Sapphire (41875) for Shop */
+     , (36519, 4, 41860, -1,  0, 0, False) /* Create Sealed Bag of Salvaged Amber (41860) for Shop */
+     , (36519, 4, 41863, -1,  0, 0, False) /* Create Sealed Bag of Salvaged Diamond (41863) for Shop */
+     , (36519, 4, 41866, -1,  0, 0, False) /* Create Sealed Bag of Salvaged Gromnie Hide (41866) for Shop */
+     , (36519, 4, 41869, -1,  0, 0, False) /* Create Sealed Bag of Salvaged Pyreal (41869) for Shop */
+     , (36519, 4, 41872, -1,  0, 0, False) /* Create Sealed Bag of Salvaged Ruby (41872) for Shop */;
 
