@@ -83,11 +83,6 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'The years have stolen memor
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37477, 2,   359,  1,  0,      0, False) /* Create War Hammer (359) for Wield */
-     , (37477, 2,   127,  0,  9, 0.4909, False) /* Create Pants (127) for Wield */
-     , (37477, 2,   130,  0,  9,    0.5, False) /* Create Shirt (130) for Wield */
-     , (37477, 2, 28612,  0,  9,      0, False) /* Create Bandana (28612) for Wield */
-     , (37477, 2, 10696,  0, 90,      0, False) /* Create Apron (10696) for Wield */
-     , (37477, 2,   115,  0,  9,    0.4, False) /* Leather Boots (115) for Wield */
      , (37477, 4, 37465, -1,  0,      0, False) /* Create Axe Stamped Spectral Ingot (37465) for Shop */
      , (37477, 4, 37469, -1,  0,      0, False) /* Create Claw Stamped Spectral Ingot (37469) for Shop */
      , (37477, 4, 37471, -1,  0,      0, False) /* Create Dagger Stamped Spectral Ingot (37471) for Shop */
