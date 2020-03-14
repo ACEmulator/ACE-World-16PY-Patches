@@ -49,7 +49,7 @@ VALUES (35550,   5,  -0.033) /* ManaRate */
      , (35550,  63,       1) /* DamageMod */
      , (35550,  76,     0.7) /* Translucency */
      , (35550, 136,       1) /* CriticalMultiplier */
-     , (35550, 147,       1) /* CriticalFrequency */
+     , (35550, 147,    0.25) /* CriticalFrequency */
 	 , (35550, 156,    0.05) /* ProcSpellRate */
      , (35550, 157,       1) /* ResistanceModifier */;
 

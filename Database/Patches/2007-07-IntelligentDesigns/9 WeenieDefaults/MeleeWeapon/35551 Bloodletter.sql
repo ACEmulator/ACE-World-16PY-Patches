@@ -47,7 +47,7 @@ VALUES (35551,   5,  -0.033) /* ManaRate */
      , (35551,  62,    1.52) /* WeaponOffense */
      , (35551,  63,       1) /* DamageMod */
      , (35551, 136,       1) /* CriticalMultiplier */
-     , (35551, 147,       1) /* CriticalFrequency */
+     , (35551, 147,    0.25) /* CriticalFrequency */
 	 , (35551, 156,    0.05) /* ProcSpellRate */
      , (35551, 157,       1) /* ResistanceModifier */;
 

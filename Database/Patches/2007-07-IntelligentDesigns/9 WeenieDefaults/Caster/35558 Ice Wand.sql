@@ -38,7 +38,7 @@ VALUES (35558,   5,  -0.033) /* ManaRate */
      , (35558,  39,     0.8) /* DefaultScale */
      , (35558, 136,       1) /* CriticalMultiplier */
      , (35558, 144,    0.34) /* ManaConversionMod */
-     , (35558, 147,       1) /* CriticalFrequency */
+     , (35558, 147,    0.25) /* CriticalFrequency */
 	 , (35558, 150,    1.05) /* WeaponMagicDefense */
      , (35558, 152,     1.5) /* ElementalDamageMod */
      , (35558, 157,       1) /* ResistanceModifier */;
