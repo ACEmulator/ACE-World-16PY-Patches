@@ -29,8 +29,8 @@ VALUES (43068,  12,  0.4286) /* Shade */
      , (43068,  14,     0.8) /* ArmorModVsPierce */
      , (43068,  15,       1) /* ArmorModVsBludgeon */
      , (43068,  16,     0.5) /* ArmorModVsCold */
-     , (43068,  17,  0.9335) /* ArmorModVsFire */
-     , (43068,  18,   0.772) /* ArmorModVsAcid */
+     , (43068,  17,    0.93) /* ArmorModVsFire */
+     , (43068,  18,    0.77) /* ArmorModVsAcid */
      , (43068,  19,     0.8) /* ArmorModVsElectric */
      , (43068, 165,       1) /* ArmorModVsNether */;
 
