@@ -15,10 +15,10 @@ VALUES (41459,   1,       2048) /* ItemType - Gem */
      , (41459,  19,          0) /* Value */
      , (41459,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41459,  94,         16) /* TargetType - Creature */
-     , (41459, 115,         75) /* ItemSkillLevelLimit */
      , (41459, 151,         11) /* HookType - Floor, Wall, Yard */
      , (41459, 176,         35) /* AppraisalItemSkill */
      , (41459, 366,         35) /* Use Requires Skill - Leadership  */
+     , (41459, 367,         75) /* UseRequiresSkillLevel */
      , (41459, 280,          6) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
