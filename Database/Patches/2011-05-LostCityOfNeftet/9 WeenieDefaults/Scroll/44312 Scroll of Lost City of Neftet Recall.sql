@@ -19,7 +19,8 @@ VALUES (44312,   1, False) /* Stuck */
      , (44312,  13, True ) /* Ethereal */
      , (44312,  14, True ) /* GravityStatus */
      , (44312,  19, True ) /* Attackable */
-     , (44312,  22, True ) /* Inscribable */;
+     , (44312,  22, True ) /* Inscribable */
+     , (44312,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44312,  39,     1.5) /* DefaultScale */;
@@ -27,8 +28,7 @@ VALUES (44312,  39,     1.5) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44312,   1, 'Scroll of Lost City of Neftet Recall') /* Name */
      , (44312,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (44312,  16, 'Inscribed spell: Lost City of Neftet Recall
-Sends the caster to the Lost City of Neftet.') /* LongDesc */;
+     , (44312,  16, 'Inscribed spell: Lost City of Neftet Recall sends the caster to the Lost City of Neftet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44312,   1,   33554826) /* Setup */
