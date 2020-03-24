@@ -24,12 +24,12 @@ VALUES (43053,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43053,  12,       1) /* Shade */
      , (43053,  13,       1) /* ArmorModVsSlash */
-     , (43053,  14, 0.800000011920929) /* ArmorModVsPierce */
+     , (43053,  14,     0.8) /* ArmorModVsPierce */
      , (43053,  15,       1) /* ArmorModVsBludgeon */
-     , (43053,  16, 0.938957393169403) /* ArmorModVsCold */
+     , (43053,  16,    0.94) /* ArmorModVsCold */
      , (43053,  17,     0.5) /* ArmorModVsFire */
-     , (43053,  18, 0.660831034183502) /* ArmorModVsAcid */
-     , (43053,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (43053,  18,    0.66) /* ArmorModVsAcid */
+     , (43053,  19,     0.6) /* ArmorModVsElectric */
      , (43053, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
