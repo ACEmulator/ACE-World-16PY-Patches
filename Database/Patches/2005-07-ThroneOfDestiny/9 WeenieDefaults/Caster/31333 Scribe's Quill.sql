@@ -10,7 +10,7 @@ VALUES (31333,   1,      32768) /* ItemType - Caster */
      , (31333,  16,          1) /* ItemUseable - No */
      , (31333,  19,      12357) /* Value */
      , (31333,  33,          0) /* Bonded - Normal */
-     , (31333,  53,        101) /* PlacementPosition */
+     , (31333,  46,        512) /* DefaultCombatStyle - Magic */
      , (31333,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31333,  94,         16) /* TargetType - Creature */
      , (31333, 106,        350) /* ItemSpellcraft */

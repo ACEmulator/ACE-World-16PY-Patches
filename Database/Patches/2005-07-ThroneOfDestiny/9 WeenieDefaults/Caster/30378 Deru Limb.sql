@@ -15,8 +15,8 @@ VALUES (30378,   1,      32768) /* ItemType - Caster */
      , (30378,  19,      50000) /* Value */
      , (30378,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30378,  45,          2) /* DamageType - Pierce */
+     , (30378,  46,        512) /* DefaultCombatStyle - Magic */
      , (30378,  52,          1) /* ParentLocation */
-     , (30378,  53,        101) /* PlacementPosition */
      , (30378,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30378,  94,         16) /* TargetType - Creature */
      , (30378, 106,        350) /* ItemSpellcraft */

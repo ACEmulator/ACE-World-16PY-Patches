@@ -10,6 +10,7 @@ VALUES (41898,   1,      32768) /* ItemType - Caster */
      , (41898,  16,          8) /* ItemUseable - Contained */
      , (41898,  18,          1) /* UiEffects - Magical */
      , (41898,  19,      25000) /* Value */
+     , (41898,  46,        512) /* DefaultCombatStyle - Magic */
      , (41898,  52,          1) /* ParentLocation */
      , (41898,  53,          1) /* PlacementPosition */
      , (41898,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */

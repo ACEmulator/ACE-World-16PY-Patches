@@ -12,7 +12,7 @@ VALUES (46181,   1,      32768) /* ItemType - Caster */
      , (46181,  18,          1) /* UiEffects - Magical */
      , (46181,  19,       8000) /* Value */
      , (46181,  33,          1) /* Bonded - Bonded */
-     , (46181,  53,        101) /* PlacementPosition - Resting */
+     , (46181,  46,        512) /* DefaultCombatStyle - Magic */
      , (46181,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46181,  94,         16) /* TargetType - Creature */
      , (46181, 151,          2) /* HookType - Wall */;

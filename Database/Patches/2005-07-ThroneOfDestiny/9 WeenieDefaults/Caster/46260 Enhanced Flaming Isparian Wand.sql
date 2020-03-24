@@ -13,7 +13,7 @@ VALUES (46260,   1,      32768) /* ItemType - Caster */
      , (46260,  19,       8000) /* Value */
      , (46260,  33,          1) /* Bonded - Bonded */
      , (46260,  45,         16) /* DamageType - Fire */
-     , (46260,  53,        101) /* PlacementPosition - Resting */
+     , (46260,  46,        512) /* DefaultCombatStyle - Magic */
      , (46260,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46260,  94,         16) /* TargetType - Creature */
      , (46260, 106,        350) /* ItemSpellcraft */

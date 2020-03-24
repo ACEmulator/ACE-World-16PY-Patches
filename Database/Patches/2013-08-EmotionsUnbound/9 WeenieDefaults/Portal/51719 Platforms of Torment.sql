@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51719;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51719, 'ace51719-platformsoftorment', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (51719, 'ace51719-platformsoftorment', 7, '2020-03-10 14:01:44') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51719,   1,      65536) /* ItemType - Portal */
@@ -33,5 +33,5 @@ VALUES (51719,   1,   33555925) /* Setup */
      , (51719,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51719, 2, 1484325866, 229.987, -121.558, -17.995, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x587903EA [229.987000 -121.558000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (51719, 2, 758186030, 128.3558, 140.3746, 224.765, -0.700131, 0, 0, -0.714014) /* Destination */
+/* @teleloc 0x2D31002E [128.355800 140.374600 224.765000] -0.700131 0.000000 0.000000 -0.714014 */;
