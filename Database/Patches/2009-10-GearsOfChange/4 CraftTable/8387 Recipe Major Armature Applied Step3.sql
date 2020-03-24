@@ -17,7 +17,7 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
  `fail_Destroy_Target_Amount`,
  `fail_Destroy_Target_Message`,
  `data_Id`, `last_Modified`)
-VALUES (8387, 0, 18 /* ItemTinkering */, 0, 1, 0, 0, 'You apply the Sapphire prepared Major Item Tinkering Armature.', 0, 0, 'You apply the Sapphire prepared Major Item Tinkering Armature, but in the process you destroy the target.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2020-02-28 10:00:00');
+VALUES (8387, 0, 18 /* ItemTinkering */, 0, 2, 0, 0, 'You apply the Sapphire prepared Major Item Tinkering Armature.', 0, 0, 'You apply the Sapphire prepared Major Item Tinkering Armature, but in the process you destroy the target.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2020-02-28 10:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8387, 0, 105, 1, 2, 'The target item cannot be tinkered!') /* Target.ItemWorkmanship LessThan 1 */
@@ -44,6 +44,14 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id, 3,  39, NULL, 3, 0) /* On Player.SuccessResult CopyFromSourceToTarget TinkerName to Result */;
+
+INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
+VALUES (8387, True, 0, 0, 0, False, 939524158, 0, 0);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 0,  52, 100676440, 1, 1) /* On SuccessResult SetValue IconUnderlay to Target */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8387;
 

@@ -47,7 +47,7 @@ VALUES (8398, True, 0, 0, 0, False, 939524158, 0, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  52, 100676437, 1, 1) /* On SuccessResult SetValue IconUnderlay to Target */;
+VALUES (@parent_id, 0,  52, 100676444, 1, 1) /* On SuccessResult SetValue IconUnderlay to Target */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8398;
 

@@ -45,6 +45,14 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id, 3,  39, NULL, 3, 0) /* On Player.SuccessResult CopyFromSourceToTarget TinkerName to Result */;
 
+INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
+VALUES (8375, True, 0, 0, 0, False, 939524158, 0, 0);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 0,  52, 100676443, 1, 1) /* On SuccessResult SetValue IconUnderlay to Target */;
+
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8375;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
