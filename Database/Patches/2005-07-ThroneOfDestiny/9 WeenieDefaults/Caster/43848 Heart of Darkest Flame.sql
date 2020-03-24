@@ -14,8 +14,8 @@ VALUES (43848,   1,      32768) /* ItemType - Caster */
      , (43848,  19,      50000) /* Value */
      , (43848,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (43848,  45,       1024) /* DamageType - Nether */
+     , (43848,  46,        512) /* DefaultCombatStyle - Magic */
      , (43848,  52,          1) /* ParentLocation */
-     , (43848,  53,        101) /* PlacementPosition */
      , (43848,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43848,  94,         16) /* TargetType - Creature */
      , (43848, 106,        500) /* ItemSpellcraft */
