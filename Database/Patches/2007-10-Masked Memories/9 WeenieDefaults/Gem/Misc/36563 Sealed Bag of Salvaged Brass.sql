@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36563;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36563, 'ace36563-sealedbagofsalvagedbrass', 38, '2020-03-25 00:00:00') /* Gem */;
+VALUES (36563, 'ace36563-sealedbagofsalvagedbrass', 38, '2020-03-26 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36563,   1,        128) /* ItemType - Misc */
+     , (36563,   3,          2) /* PaletteTemplate - Blue */
      , (36563,   5,        100) /* EncumbranceVal */
      , (36563,  11,          1) /* MaxStackSize */
      , (36563,  12,          1) /* StackSize */
@@ -32,6 +33,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36563,   1,   33556223) /* Setup */
      , (36563,   3,  536870932) /* SoundTable */
      , (36563,   6,   67111928) /* PaletteBase */
+     , (36563,   7,  268435841) /* ClothingBase */
      , (36563,   8,  100689649) /* Icon */
      , (36563,  22,  872415275) /* PhysicsEffectTable */
      , (36563,  38,      36570) /* UseCreateItem - Salvaged Brass */
