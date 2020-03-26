@@ -11,6 +11,7 @@ VALUES (36570,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (36570,  11,          1) /* MaxStackSize */
      , (36570,  12,          1) /* StackSize */
      , (36570,  13,        100) /* StackUnitEncumbrance */
+     , (36570,  14,        100) /* StackUnitMass */
      , (36570,  15,         10) /* StackUnitValue */
      , (36570,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36570,  19,         10) /* Value */
@@ -21,6 +22,7 @@ VALUES (36570,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (36570,  94,      33025) /* TargetType - WeaponOrCaster */
      , (36570, 105,        100) /* ItemWorkmanship */
      , (36570, 131,         57) /* MaterialType - Brass */
+     , (36570, 150,        103) /* HookPlacement - Hook */
      , (36570, 151,          9) /* HookType - Floor, Yard */
      , (36570, 170,         10) /* NumItemsInMaterial */;
 
