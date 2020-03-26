@@ -5,7 +5,7 @@ VALUES (41771, 'ace41771-sealedbagofsalvagedsapphire', 38, '2020-03-26 00:00:00'
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41771,   1,        128) /* ItemType - Misc */
-     , (41871,   3,          2) /* PaletteTemplate - Blue */
+     , (41771,   3,          2) /* PaletteTemplate - Blue */
      , (41771,   5,        100) /* EncumbranceVal */
      , (41771,  11,          1) /* MaxStackSize */
      , (41771,  12,          1) /* StackSize */
@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41771,   1,   33556223) /* Setup */
      , (41771,   3,  536870932) /* SoundTable */
      , (41771,   6,   67111928) /* PaletteBase */
-     , (41871,   7,  268435841) /* ClothingBase */
+     , (41771,   7,  268435841) /* ClothingBase */
      , (41771,   8,  100667436) /* Icon */
      , (41771,  22,  872415275) /* PhysicsEffectTable */
      , (41771,  38,      70736) /* UseCreateItem - Salvaged Sapphire */
