@@ -31,7 +31,7 @@ VALUES (36570,  22, True ) /* Inscribable */
      , (36570,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36570,   1, 'Salvaged') /* Name */
+VALUES (36570,   1, 'Salvage') /* Name */
      , (36570,  14, 'Apply this material to a treasure-generated weapon to increase the weapon''s melee defense bonus by 1%.') /* Use */
      , (36570,  15, 'A bar of brass material salvaged from old items.') /* ShortDesc */;
 

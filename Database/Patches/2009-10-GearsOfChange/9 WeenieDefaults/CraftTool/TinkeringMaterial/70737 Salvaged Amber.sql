@@ -31,7 +31,7 @@ VALUES (70737,  22, True ) /* Inscribable */
      , (70737,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (70737,   1, 'Salvaged') /* Name */
+VALUES (70737,   1, 'Salvage') /* Name */
      , (70737,  14, 'Apply this material to a Minor, Moderate or Major Armature to prepare it. Then apply this material to the prepared Armature. This Armaturecan then be used on a magical loot-generated Trinket to add Minor, Moderate or Major Augmented Stamina. This also increases the Spellcraft and Arcane Lore of the trinket by 25.') /* Use */
      , (70737,  15, 'Chips of amber material salvaged from old items.') /* ShortDesc */;
 
