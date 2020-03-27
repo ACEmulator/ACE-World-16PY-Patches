@@ -30,7 +30,8 @@ VALUES (40141,  11, True ) /* IgnoreCollisions */
      , (40141,  13, True ) /* Ethereal */
      , (40141,  14, True ) /* GravityStatus */
      , (40141,  19, True ) /* Attackable */
-     , (40141,  22, True ) /* Inscribable */;
+     , (40141,  22, True ) /* Inscribable */
+     , (40141,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40141,   5,   -0.05) /* ManaRate */
