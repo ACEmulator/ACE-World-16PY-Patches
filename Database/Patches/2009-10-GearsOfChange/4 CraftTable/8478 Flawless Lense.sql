@@ -6,5 +6,5 @@ VALUES (8478, 0, 18 /* ItemTinkering  */, 375, 0, 41464 /* Flawless Lense */, 1,
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8478;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8478, 41394 /*Framed Lense*/,  41388 /* Pyreal Handle */, '2020-03-07 21:42:55');
+VALUES (8478, 41394 /*Framed Lense*/,  41389 /* Carved Pyreal Handle */, '2020-03-07 21:42:55');
 
