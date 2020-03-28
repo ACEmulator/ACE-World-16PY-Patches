@@ -15,7 +15,7 @@ VALUES (41466,   1,      32768) /* ItemType - Caster */
 	 , (41466,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
 	 , (41466,  94,         16) /* TargetType - Creature */
 	 , (41466, 106,        520) /* ItemSpellcraft */
-	 , (41466, 107,       5111) /* ItemCurMana */
+	 , (41466, 107,       6000) /* ItemCurMana */
 	 , (41466, 108,       6000) /* ItemMaxMana */
 	 , (41466, 151,          2) /* HookType - Wall */
 	 , (41466, 158,          2) /* Wield Requirements */

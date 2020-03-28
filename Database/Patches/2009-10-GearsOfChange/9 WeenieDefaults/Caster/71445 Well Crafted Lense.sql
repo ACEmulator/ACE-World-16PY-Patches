@@ -15,7 +15,7 @@ VALUES (71445,   1,      32768) /* ItemType - Caster */
 	 , (71445,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
 	 , (71445,  94,         16) /* TargetType - Creature */
 	 , (71445, 106,        100) /* ItemSpellcraft */
-	 , (71445, 107,       5111) /* ItemCurMana */
+	 , (71445, 107,       6000) /* ItemCurMana */
 	 , (71445, 108,       6000) /* ItemMaxMana */
 	 , (71445, 151,          2) /* HookType - Wall */
 	 , (71445, 158,          2) /* Wield Requirements */

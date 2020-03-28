@@ -15,7 +15,7 @@ VALUES (41462,   1,      32768) /* ItemType - Caster */
 	 , (41462,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
 	 , (41462,  94,         16) /* TargetType - Creature */
 	 , (41462, 106,        270) /* ItemSpellcraft */
-	 , (41462, 107,       5111) /* ItemCurMana */
+	 , (41462, 107,       6000) /* ItemCurMana */
 	 , (41462, 108,       6000) /* ItemMaxMana */
 	 , (41462, 151,          2) /* HookType - Wall */
 	 , (41462, 158,          2) /* Wield Requirements */
@@ -32,7 +32,7 @@ VALUES (41462,   5,   -0.05) /* ManaRate */
      , (41462,  12,  0.8182) /* Shade */
 	 , (41462,  29,    1.15) /* WeaponDefense */
 	 , (41462,  39,     1.5) /* DefaultScale */
-	 , (41462, 144,       0) /* ManaConversionMod */;
+     , (41462, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41462,   1, 'Magnificent Lense') /* Name */
