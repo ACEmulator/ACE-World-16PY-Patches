@@ -27,7 +27,7 @@ VALUES (29579,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (29579, 170,         10) /* NumItemsInMaterial */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29579,  22, True ) /* Inscribable */;
+VALUES (29579,  22, True ) /* Inscribable */
      , (29579,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
