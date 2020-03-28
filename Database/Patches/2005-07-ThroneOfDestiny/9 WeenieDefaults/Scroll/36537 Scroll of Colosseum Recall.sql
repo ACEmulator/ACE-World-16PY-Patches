@@ -17,7 +17,8 @@ VALUES (36537,   1, False) /* Stuck */
      , (36537,  13, True ) /* Ethereal */
      , (36537,  14, True ) /* GravityStatus */
      , (36537,  19, True ) /* Attackable */
-     , (36537,  22, True ) /* Inscribable */;
+     , (36537,  22, True ) /* Inscribable */
+     , (36537,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36537,  39,     1.5) /* DefaultScale */;
