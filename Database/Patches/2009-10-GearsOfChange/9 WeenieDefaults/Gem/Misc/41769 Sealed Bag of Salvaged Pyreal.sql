@@ -15,7 +15,7 @@ VALUES (41769,   1,        128) /* ItemType - Misc */
      , (41769,  19,          1) /* Value */
      , (41769,  33,          1) /* Bonded - Bonded */
      , (41769,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41769,  94,         16) /* TargetType - Creature */;
+     , (41769,  94,         16) /* TargetType - Creature */
      , (41769, 269,          1) /* UseCreateQuantity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
