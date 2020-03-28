@@ -17,6 +17,7 @@ VALUES (41464,   1,      32768) /* ItemType - Caster */
 	 , (41464, 106,        400) /* ItemSpellcraft */
 	 , (41464, 107,       6000) /* ItemCurMana */
 	 , (41464, 108,       6000) /* ItemMaxMana */
+     , (41464, 117,        100) /* ItemManaCost */
 	 , (41464, 151,          2) /* HookType - Wall */
 	 , (41464, 158,          2) /* Wield Requirements */
 	 , (41464, 159,         27) /* Wield Skill Type - Asses Creature */
