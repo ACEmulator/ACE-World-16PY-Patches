@@ -12,10 +12,13 @@ VALUES (38809,   1,        128) /* ItemType - Misc */
      , (38809,  15,         10) /* StackUnitValue */
      , (38809,  16,          1) /* ItemUseable - No */
      , (38809,  19,         10) /* Value */
-     , (38809,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (38809,  33,          1) /* Bonded - Bonded */
+     , (38809,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38809, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38809,  39,     0.9) /* DefaultScale */;
+VALUES (38809,  39,     0.9) /* DefaultScale */
+     , (38809,  69,   False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38809,   1, 'Ancient Emblem of Mhoire') /* Name */
