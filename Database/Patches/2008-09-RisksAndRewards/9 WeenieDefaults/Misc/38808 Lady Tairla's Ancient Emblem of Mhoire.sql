@@ -15,10 +15,12 @@ VALUES (38808,   1,        128) /* ItemType - Misc */
      , (38808,  33,          1) /* Bonded - Bonded */
      , (38808,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38808, 114,          1) /* Attuned - Attuned */;
+     
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (38808,  69,   False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38808,  39,     0.9) /* DefaultScale */
-     , (38808,  69,   False) /* IsSellable */;
+VALUES (38808,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38808,   1, 'Lady Tairla''s Ancient Emblem of Mhoire') /* Name */
