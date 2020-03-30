@@ -24,7 +24,7 @@ VALUES (38808,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38808,   1, 'Lady Tairla''s Ancient Emblem of Mhoire') /* Name */
-     , (38808,  16, 'This bronze medaillion bears the symbol of the ancient house of Mhoire. It might be of interest to the Arcanumn in specific the Mana-smiths.') /* LongDesc */;
+     , (38808,  16, 'This bronze medallion bears the symbol of the ancient house of Mhoire. It might be of interest to the Arcanum, in specific the Mana-smiths.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38808,   1,   33554669) /* Setup */
