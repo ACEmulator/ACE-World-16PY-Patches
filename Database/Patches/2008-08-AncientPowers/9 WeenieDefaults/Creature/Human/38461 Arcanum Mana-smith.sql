@@ -154,3 +154,4 @@ VALUES (38461,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38461, 2,  5850,  0, 5, 0, False) /* Create Faran Robe (5850) for Wield */;
+
