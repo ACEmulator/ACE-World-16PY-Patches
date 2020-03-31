@@ -1,25 +1,20 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36518;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36518, 'ace36518-colosseumcoin', 1, '2019-07-16 14:01:15') /* Generic */;
+VALUES (36518, 'ace36518-colosseumcoin', 51, '2020-03-29 14:01:15') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36518,   1,        128) /* ItemType - Misc */
      , (36518,   5,          5) /* EncumbranceVal */
      , (36518,  11,        100) /* MaxStackSize */
      , (36518,  12,          1) /* StackSize */
+     , (36518,  13,          5) /* StackUnitEncumbrance */
+     , (36518,  15,          0) /* StackUnitValue */
      , (36518,  16,          1) /* ItemUseable - No */
      , (36518,  19,          0) /* Value */
      , (36518,  33,          1) /* Bonded - Bonded */
-     , (36518,  53,        101) /* PlacementPosition - Resting */
      , (36518,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36518, 114,          1) /* Attuned - Attuned */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36518,  11, True ) /* IgnoreCollisions */
-     , (36518,  13, True ) /* Ethereal */
-     , (36518,  14, True ) /* GravityStatus */
-     , (36518,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36518,   1, 'Colosseum Coin') /* Name */
