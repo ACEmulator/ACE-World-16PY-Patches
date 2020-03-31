@@ -82,6 +82,7 @@ VALUES (35109,   1,     0, 0, 0, 30250) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (35109,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */
      , (35109,  7, 0, 2, 0,   1, 0, 0) /* MissileDefense      Trained */
+     , (35109, 20, 0, 3, 0, 999, 0, 0) /* Deception           Specialized */
      , (35109, 45, 0, 2, 0,   1, 0, 0) /* LightWeapons        Trained */;
      
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
