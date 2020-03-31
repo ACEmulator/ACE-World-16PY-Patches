@@ -33,7 +33,7 @@ VALUES (33621,  11, True ) /* IgnoreCollisions */
      , (33621,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33621,   1, 'Salvaged Steel') /* Name */
+VALUES (33621,   1, 'Salvage') /* Name */
      , (33621,  14, 'Apply this material to treasure-generated armor to increase the armor''s armor level by 20. This material cannot be used on Covenant Armor.') /* Use */
      , (33621,  16, 'A bundle of steel material salvaged from old items.') /* LongDesc */;
 
