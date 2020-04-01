@@ -5,6 +5,7 @@ VALUES (41507, 'ace41507-moderateitemtinkeringarmature', 44, '2019-02-10 00:00:0
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41507,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (41507,   3,          4) /* PaletteTemplate - Brown */
      , (41507,   5,        100) /* EncumbranceVal */
      , (41507,  11,        100) /* MaxStackSize */
      , (41507,  12,          1) /* StackSize */
