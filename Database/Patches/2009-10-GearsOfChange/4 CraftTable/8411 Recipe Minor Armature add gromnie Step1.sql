@@ -22,6 +22,5 @@ VALUES (8411, 0, 18 /* Item Tinkering */, 0, 0, 41506 /* Salvaged Gromnie hide M
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8411;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8411, 21052 /*  Salvaged Gromnie Hide */,  41509 /* Minor Item Tinkering Armature */, '2020-02-28 21:42:55');
-
-
+VALUES (8411, 21052 /*  Salvaged Gromnie Hide */,  41509 /* Minor Item Tinkering Armature */, '2020-02-28 21:42:55')
+     , (8411, 41777 /*  Salvaged Gromnie Hide */,  41509 /* Minor Item Tinkering Armature */, '2020-03-31 00:00:00');
