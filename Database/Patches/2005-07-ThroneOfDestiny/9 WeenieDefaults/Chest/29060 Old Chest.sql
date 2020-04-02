@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29060;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29060, 'chesthealingtihn', 20, '2019-04-08 04:44:07') /* Chest */;
+VALUES (29060, 'chesthealingtihn', 20, '2020-03-30 00:00:00') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29060,   1,        512) /* ItemType - Container */
@@ -11,6 +11,7 @@ VALUES (29060,   1,        512) /* ItemType - Container */
      , (29060,  16,         48) /* ItemUseable - ViewedRemote */
      , (29060,  19,        200) /* Value */
      , (29060,  38,        250) /* ResistLockpick */
+     , (29060,  81,          1) /* MaxGeneratedObjects */
      , (29060,  82,          1) /* InitGeneratedObjects */
      , (29060,  83,          2) /* ActivationResponse - Use */
      , (29060,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
