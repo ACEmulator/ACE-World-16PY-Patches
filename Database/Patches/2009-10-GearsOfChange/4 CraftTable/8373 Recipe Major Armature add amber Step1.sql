@@ -22,6 +22,5 @@ VALUES (8373, 0, 18 /* Item Tinkering */, 0, 0, 71420 /* Salvaged Amber Major It
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8373;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8373, 21035 /*  Salvaged Amber */,  41508 /* Major Item Tinkering Armature */, '2020-02-28 21:42:55');
-
-
+VALUES (8373, 21035 /*  Salvaged Amber */,  41508 /* Major Item Tinkering Armature */, '2020-02-28 21:42:55')
+     , (8373, 70737 /*  Salvaged Amber */,  41508 /* Major Item Tinkering Armature */, '2020-03-31 00:00:00');

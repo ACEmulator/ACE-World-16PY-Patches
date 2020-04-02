@@ -22,7 +22,7 @@ VALUES (8421, 0, 18 /* ItemTinkering */, 0, 1, 0, 0, 'You apply the Ruby.', 0, 0
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8421, 1,  92, 100, 2, 'The material is not complete!') /* Source.Structure LessThan 100 */
      , (8421, 0,  92, 100, 6, 'The armature has already been completed!') /* Target.Structure Equal to 100 */;
-    
+
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (8421, True, 0, 0, 0, False, 939524161, 0, 0);
 
@@ -32,7 +32,7 @@ INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`
 VALUES (@parent_id, 0,  92, 100, 1, 1) /* On Player.SuccessTarget SET Strcture 100 to Target */
      , (@parent_id, 0, 105, 0, 3, 1) /* On Player.SuccessTarget CopyFromSourceToTarget ItemWorkmanship to Target */
      , (@parent_id, 0, 170, 0, 3, 1) /* On Player.SuccessTarget CopyFromSourceToTarget NumItemsInMaterial to Target */;
-     
+
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (8421, True, 0, 0, 0, False, 0, 0, 0);
 
@@ -52,4 +52,5 @@ VALUES (@parent_id, 0,  52, 100676441, 1, 1) /* On SuccessResult SetValue IconUn
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8421;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8421, 21072 /* Salvaged Ruby */,   41493 /* Minor Item Tinkering Armature */, '2020-02-28 10:00:00');
+VALUES (8421, 21072 /* Salvaged Ruby */,   41493 /* Minor Item Tinkering Armature */, '2020-02-28 10:00:00')
+     , (8421, 70741 /* Salvaged Ruby */,   41493 /* Minor Item Tinkering Armature */, '2020-03-31 00:00:00');

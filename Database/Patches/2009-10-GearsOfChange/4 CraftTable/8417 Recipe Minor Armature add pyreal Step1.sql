@@ -22,6 +22,5 @@ VALUES (8417, 0, 18 /* Item Tinkering */, 0, 0, 71426 /* Salvaged Pyreal Minor I
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8417;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8417, 21068 /*  Salvaged Pyreal */,  41509 /* Minor Item Tinkering Armature */, '2020-02-28 21:42:55');
-
-
+VALUES (8417, 21068 /*  Salvaged Pyreal */,  41509 /* Minor Item Tinkering Armature */, '2020-02-28 21:42:55')
+     , (8417, 41772 /*  Salvaged Pyreal */,  41509 /* Minor Item Tinkering Armature */, '2020-03-31 00:00:00');

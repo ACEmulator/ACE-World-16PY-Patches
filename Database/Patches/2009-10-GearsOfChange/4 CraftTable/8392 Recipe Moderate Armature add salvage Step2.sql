@@ -52,6 +52,5 @@ VALUES (@parent_id, 0,  52, 100676442, 1, 1) /* On SuccessResult SetValue IconUn
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8392;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8392, 21046 /* Salvaged Diamond */,   41500 /* Moderate Item Tinkering Armature */, '2020-02-28 10:00:00');
-
-
+VALUES (8392, 21046 /* Salvaged Diamond */,   41500 /* Moderate Item Tinkering Armature */, '2020-02-28 10:00:00')
+     , (8392, 70738 /* Salvaged Diamond */,   41500 /* Moderate Item Tinkering Armature */, '2020-03-31 00:00:00');
