@@ -14,8 +14,9 @@ VALUES (38887,   1,        128) /* ItemType - Misc */
      , (38887,  18,          1) /* UiEffects - Magical */
      , (38887,  19,         10) /* Value */
      , (38887,  33,          1) /* Bonded - Bonded */
-     , (38887,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (38887,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38887, 114,          1) /* Attuned - Attuned */;
+     
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38887,  69,   False) /* IsSellable */;
 
