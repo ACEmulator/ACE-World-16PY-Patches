@@ -23,4 +23,4 @@ DELETE FROM `cook_book` WHERE `recipe_Id` = 8423;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
 VALUES (8423, 21074 /*  Salvaged Sapphire */,  41509 /* Minor Item Tinkering Armature */, '2020-02-28 21:42:55')
-     , (8385, 70736 /*  Salvaged Sapphire */,  41509 /* Minor Item Tinkering Armature */, '2020-03-31 00:00:00');
+     , (8423, 70736 /*  Salvaged Sapphire */,  41509 /* Minor Item Tinkering Armature */, '2020-03-31 00:00:00');
