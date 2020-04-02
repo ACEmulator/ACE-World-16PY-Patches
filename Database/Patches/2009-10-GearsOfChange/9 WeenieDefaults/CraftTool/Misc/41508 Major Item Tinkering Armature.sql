@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41508;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41508, 'ace41508-majoritemtinkeringarmature', 44, '2019-02-10 00:00:00') /* CraftTool */;
+VALUES (41508, 'ace41508-majoritemtinkeringarmature', 44, '2020-04-01 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41508,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
+     , (41508,   3,          4) /* PaletteTemplate - Brown */
      , (41508,   5,        100) /* EncumbranceVal */
      , (41508,  11,        100) /* MaxStackSize */
      , (41508,  12,          1) /* StackSize */
