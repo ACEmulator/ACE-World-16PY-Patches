@@ -1,4 +1,4 @@
-  
+
 DELETE FROM `recipe` WHERE `id` = 8414;
 
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`,
@@ -23,6 +23,5 @@ VALUES (8414, 0, 18 /* Item Tinkering */, 0, 0, 41501 /* Salvaged Diamond Minor 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8414;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8414, 21046 /*  Salvaged Diamond */,  41509 /* Minor Item Tinkering Armature */, '2020-02-28 21:42:55');
-
-
+VALUES (8414, 21046 /*  Salvaged Diamond */,  41509 /* Minor Item Tinkering Armature */, '2020-02-28 21:42:55')
+     , (8414, 70738 /*  Salvaged Diamond */,  41509 /* Minor Item Tinkering Armature */, '2020-03-31 00:00:00');
