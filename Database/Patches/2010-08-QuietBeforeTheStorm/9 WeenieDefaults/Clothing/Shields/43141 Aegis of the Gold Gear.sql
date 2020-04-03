@@ -26,7 +26,8 @@ VALUES (43141,   1,          2) /* ItemType - Armor */
      , (43141, 272,        475) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43141,  22, True ) /* Inscribable */;
+VALUES (43141,  22, True ) /* Inscribable */
+     , (43141,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43141,   5,  -0.025) /* ManaRate */
