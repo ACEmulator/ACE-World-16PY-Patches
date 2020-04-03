@@ -17,7 +17,8 @@ VALUES (36517,   1,        128) /* ItemType - Misc */
      , (36517, 269,          1) /* UseCreateQuantity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36517,  22, True ) /* Inscribable */;
+VALUES (36517,  22, True ) /* Inscribable */
+     , (36517,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36517,   1, 'Wrapped Dark Sliver') /* Name */

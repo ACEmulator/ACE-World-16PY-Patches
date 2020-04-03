@@ -17,7 +17,8 @@ VALUES (36516,   1,        128) /* ItemType - Misc */
      , (36516, 269,          1) /* UseCreateQuantity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36516,  22, True ) /* Inscribable */;
+VALUES (36516,  22, True ) /* Inscribable */
+     , (36516,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36516,   1, 'Wrapped Cracked Shard') /* Name */

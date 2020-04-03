@@ -18,7 +18,8 @@ VALUES (36515,   1,        128) /* ItemType - Misc */
      , (36515, 269,          1) /* UseCreateQuantity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36515,  22, True ) /* Inscribable */;
+VALUES (36515,  22, True ) /* Inscribable */
+     , (36515,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36515,  39,     0.8) /* DefaultScale */;
