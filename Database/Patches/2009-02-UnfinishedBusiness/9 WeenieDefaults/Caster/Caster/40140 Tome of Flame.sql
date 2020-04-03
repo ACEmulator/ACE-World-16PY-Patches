@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40140;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40140, 'ace40140-tomeofflame', 35, '2020-03-10 00:00:00') /* Caster */;
+VALUES (40140, 'ace40140-tomeofflame', 35, '2020-04-02 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40140,   1,      32768) /* ItemType - Caster */
@@ -40,7 +40,7 @@ VALUES (40140,   5,   -0.05) /* ManaRate */
      , (40140, 150,   1.025) /* WeaponMagicDefense */
      , (40140, 152,     1.1) /* ElementalDamageMod */
      , (40140, 157,       1) /* ResistanceModifier */
-     , (40140, 159,       1) /* AbsorbMagicDamage */;
+     , (40140, 159,    0.25) /* AbsorbMagicDamage */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40140,   1, 'Tome of Flame') /* Name */;
