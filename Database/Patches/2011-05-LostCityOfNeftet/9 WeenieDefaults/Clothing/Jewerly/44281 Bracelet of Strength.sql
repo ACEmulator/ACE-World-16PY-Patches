@@ -21,7 +21,8 @@ VALUES (44281,   1,          8) /* ItemType - Jewelry */
      , (44281, 160,        150) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44281,  22, True ) /* Inscribable */;
+VALUES (44281,  22, True ) /* Inscribable */
+     , (44281,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44281,   5, -0.0333333015441895) /* ManaRate */
