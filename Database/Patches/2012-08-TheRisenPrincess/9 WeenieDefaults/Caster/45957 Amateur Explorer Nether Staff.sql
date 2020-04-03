@@ -34,7 +34,7 @@ VALUES (45957,   5, -0.025) /* ManaRate */
      , (45957,  29,   1.08) /* WeaponDefense */
      , (45957,  39,    0.6) /* DefaultScale */
      , (45957, 144,   0.08) /* ManaConversionMod */
-     , (45957, 147,   0.25) /* CriticalFrequency */
+     , (45957, 147,    0.2) /* CriticalFrequency */
      , (45957, 152,    1.1) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
