@@ -1,26 +1,23 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35383;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35383, 'ace35383-ancientmhoirecoin', 1, '2019-07-16 14:01:15') /* Generic */;
+VALUES (35383, 'ace35383-ancientmhoirecoin', 51, '2020-04-02 00:00:00') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35383,   1,        128) /* ItemType - Misc */
      , (35383,   5,          1) /* EncumbranceVal */
      , (35383,  11,        100) /* MaxStackSize */
      , (35383,  12,          1) /* StackSize */
+     , (35383,  13,          1) /* StackUnitEncumbrance */
+     , (35383,  15,          1) /* StackUnitValue */
      , (35383,  16,          1) /* ItemUseable - No */
      , (35383,  19,          1) /* Value */
      , (35383,  33,          1) /* Bonded - Bonded */
-     , (35383,  53,        101) /* PlacementPosition - Resting */
      , (35383,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35383, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35383,  11, True ) /* IgnoreCollisions */
-     , (35383,  13, True ) /* Ethereal */
-     , (35383,  14, True ) /* GravityStatus */
-     , (35383,  19, True ) /* Attackable */
-     , (35383,  69, False) /* IsSellable */;
+VALUES (35383,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35383,   1, 'Ancient Mhoire Coin') /* Name */
