@@ -24,7 +24,7 @@ VALUES (80113,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80113,   1, 'Count Dardante''s Notes') /* Name */
-     , (80113,  16, 'The private notes of Count Dardante, Chief Thamaturgical Counsellor to King Varicci II.') /* Inscription */;
+     , (80113,  16, 'The private notes of Count Dardante, Chief Thamaturgical Counsellor to King Varicci II.') /* Inscription */
      , (80113,  33, 'CountDardantesNotesPickupTimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
