@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34037;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34037, 'ace34037-commanderrylanedicinghalle', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (34037, 'ace34037-commanderrylanedicinghalle', 10, '2020-04-08 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34037,   1,         16) /* ItemType - Creature */
@@ -40,23 +40,28 @@ VALUES (34037,   1,   33554433) /* Setup */
      , (34037,   2,  150994945) /* MotionTable */
      , (34037,   3,  536870913) /* SoundTable */
      , (34037,   6,   67108990) /* PaletteBase */
-     , (34037,   8,  100667377) /* Icon */
-     , (34037,   9,   83890508) /* EyesTexture */
-     , (34037,  10,   83890558) /* NoseTexture */
-     , (34037,  11,   83890665) /* MouthTexture */
-     , (34037,  15,   67117072) /* HairPalette */
-     , (34037,  16,   67110065) /* EyesPalette */
-     , (34037,  17,   67115902) /* SkinPalette */;
+     , (34037,   8,  100667377) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (34037,   1,  10, 0, 0) /* Strength */
-     , (34037,   2,  10, 0, 0) /* Endurance */
-     , (34037,   3,  10, 0, 0) /* Quickness */
-     , (34037,   4,  10, 0, 0) /* Coordination */
-     , (34037,   5,  10, 0, 0) /* Focus */
-     , (34037,   6,  10, 0, 0) /* Self */;
+VALUES (34037,   1,  240, 0, 0) /* Strength */
+     , (34037,   2,  210, 0, 0) /* Endurance */
+     , (34037,   3,  280, 0, 0) /* Quickness */
+     , (34037,   4,  280, 0, 0) /* Coordination */
+     , (34037,   5,  170, 0, 0) /* Focus */
+     , (34037,   6,  170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34037,   1,     0, 0, 0, 5) /* MaxHealth */
-     , (34037,   3,     0, 0, 0, 0) /* MaxStamina */
-     , (34037,   5,     0, 0, 0, 0) /* MaxMana */;
+VALUES (34037,   1,     150, 0, 0, 255) /* MaxHealth */
+     , (34037,   3,     200, 0, 0, 410) /* MaxStamina */
+     , (34037,   5,     200, 0, 0, 370) /* MaxMana */;
+     
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34037, 2, 30625,  0,  0,      0, False) /* Create War Bow (30625) for Wield */
+     , (34037, 2, 127,    0, 93, 0.0909, False) /* Create Pants (127) for Wield */
+     , (34037, 2, 130,    0, 91, 0.1000, False) /* Create Shirt (130)) for Wield */
+     , (34037, 2, 25661,  0, 84,      0, False) /* Create Leather Boots (25661) for Wield */
+     , (34037, 2, 25642,  0, 84,      0, False) /* Create Leather Gauntlets (25642) for Wield */
+     , (34037, 2, 25639,  0, 84,      0, False) /* Create Leather Jerkin (25639) for Wield */
+     , (34037, 2, 34143,  0,  8,      0, False) /* Create The Boar of Cinghalle (34143) for Wield */
+     , (34037, 2, 25645,  0, 84,      0, False) /* Create Leather Leggings (25645) for Wield */;
+     
