@@ -11,6 +11,9 @@ VALUES (46422,   1,        128) /* ItemType - Misc */
      , (46422,  33,          1) /* Bonded - Bonded */
      , (46422,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46422, 114,          1) /* Attuned - Attuned */;
+     
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (46422,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46422,  39,    0.37) /* DefaultScale */;
