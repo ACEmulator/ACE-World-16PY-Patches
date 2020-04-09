@@ -21,7 +21,7 @@ VALUES (70752,  54, -0.1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70752,   1, 'Camp Entemarre') /* Name */
      , (70752,  16, 'You must speak to Hashina in Silyun before you may use this portal.') /* LongDesc */
-     , (70752,  37, 'CampEntemarreFlagged') /* QuestRestriction */
+     , (70752,  37, 'CampEntemarreStarted') /* QuestRestriction */
      , (70752,  38, 'Camp Entemarre') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
