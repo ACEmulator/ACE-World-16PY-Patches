@@ -32,7 +32,9 @@ VALUES (80020,   1,          1) /* ItemType - MeleeWeapon */
      , (80020, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (80020,  22, True ) /* Inscribable */;
+VALUES (80020,  22, True ) /* Inscribable */
+     , (80020,  69, False) /* IsSellable */
+     , (80020,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80020,   5, -0.0333333350718021) /* ManaRate */
@@ -41,7 +43,7 @@ VALUES (80020,   5, -0.0333333350718021) /* ManaRate */
      , (80020,  29,    1.32) /* WeaponDefense */
      , (80020,  39,    1.25) /* DefaultScale */
      , (80020,  62,    1.57) /* WeaponOffense */
-     , (80020, 138,     1.5) /* SlayerDamageBonus */
+     , (80020, 138,       2) /* SlayerDamageBonus */
 	 , (80020, 156,    0.05) /* ProcSpellRate */
      , (80020, 157,       1) /* ResistanceModifier */;
 
