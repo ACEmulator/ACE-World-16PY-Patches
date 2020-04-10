@@ -42,7 +42,7 @@ VALUES (80020,   5, -0.0333333350718021) /* ManaRate */
      , (80020,  39,    1.25) /* DefaultScale */
      , (80020,  62,    1.57) /* WeaponOffense */
      , (80020, 138,     1.5) /* SlayerDamageBonus */
-	 , (80020, 156, 0.0500000007450581) /* ProcSpellRate */
+	 , (80020, 156,    0.05) /* ProcSpellRate */
      , (80020, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
