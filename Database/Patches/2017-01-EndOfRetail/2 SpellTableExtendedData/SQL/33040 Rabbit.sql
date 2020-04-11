@@ -7,7 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33040,   8,         25) /* Mass */
      , (33040,   9,          0) /* ValidLocations - None */
      , (33040,  66,          0) /* CheckpointStatus */
-     , (33040,  93,     166728) /* PhysicsState - ReportCollisions, Missile, AlignPath, PathClipped, LightingOn, ScriptedCollision, Inelastic */;
+     , (33040,  93,     133140) /* PhysicsState - Ethereal, IgnoreCollisions, LightingOn, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33040,   1, True ) /* Stuck */
@@ -33,5 +33,5 @@ VALUES (33040,   1,   33556870) /* Setup */
      , (33040,   8,  100669116) /* Icon */
      , (33040,  22,  872415240) /* PhysicsEffectTable */
      , (33040,  28,       3902) /* Spell - RabbitRing */
-     , (33040,  30,         89) /* PhysicsScript - Destroy */;
+     , (33040,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
