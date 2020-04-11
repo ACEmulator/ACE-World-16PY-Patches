@@ -45,7 +45,7 @@ VALUES (32549,   5,  -0.033) /* ManaRate */
      , (32549,  62,       1) /* WeaponOffense */
      , (32549,  63,     2.6) /* DamageMod */
      , (32549, 136,       1) /* CriticalMultiplier */
-     , (32549, 147,       1) /* CriticalFrequency */;
+     , (32549, 147,    0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32549,   1, 'True Strike Bow') /* Name */
