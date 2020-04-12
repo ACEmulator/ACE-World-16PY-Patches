@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32628;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32628, 'ace32628-hashina', 10, '2020-04-09 00:00:00') /* Creature */;
+VALUES (32628, 'ace32628-hashina', 10, '2020-04-04 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32628,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,9 @@ VALUES (32628,   1, 160, 0, 0) /* Strength */
      , (32628,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32628,   1,   125, 0, 0, 215) /* MaxHealth */
-     , (32628,   3,   110, 0, 0, 290) /* MaxStamina */
-     , (32628,   5,    50, 0, 0, 275) /* MaxMana */;
+VALUES (32628,   1, 125, 0, 0, 215) /* MaxHealth */
+     , (32628,   3, 110, 0, 0, 290) /* MaxStamina */
+     , (32628,   5,  55, 0, 0, 275) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (32628,  1 /* Refuse */,      1, 70755 /* Entemarre's Head */, NULL, NULL, NULL, NULL, NULL, NULL);
