@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42804;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42804, 'ace42804-barkeepjauhar', 12, '2019-02-10 00:00:00') /* Vendor */;
+VALUES (42804, 'ace42804-barkeepjauhar', 12, '2020-04-11 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42804,   1,         16) /* ItemType - Creature */
@@ -17,8 +17,7 @@ VALUES (42804,   1,         16) /* ItemType - Creature */
      , (42804, 113,          1) /* Gender - Male */
      , (42804, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42804, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (42804, 188,          2) /* HeritageGroup - Gharundim */
-     , (42804, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (42804, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42804,   1, True ) /* Stuck */
@@ -37,31 +36,14 @@ VALUES (42804,  37, 0.899999976158142) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42804,   1, 'Barkeep Jauhar') /* Name */
-     , (42804,   5, 'Barkeeper') /* Template */
-     , (42804, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (42804,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42804,   1,   33554433) /* Setup */
      , (42804,   2,  150994945) /* MotionTable */
      , (42804,   3,  536870913) /* SoundTable */
      , (42804,   6,   67108990) /* PaletteBase */
-     , (42804,   8,  100667446) /* Icon */
-     , (42804,   9,   83890475) /* EyesTexture */
-     , (42804,  10,   83890539) /* NoseTexture */
-     , (42804,  11,   83890610) /* MouthTexture */
-     , (42804,  15,   67117018) /* HairPalette */
-     , (42804,  16,   67110062) /* EyesPalette */
-     , (42804,  17,   67109557) /* SkinPalette */
-     , (42804, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (42804, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (42804, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42804, 8040, 459028, 15.1859, -69.912, 0.004999995, -0.8766442, 0, 0, -0.4811392) /* PCAPRecordedLocation */
-/* @teleloc 0x00070114 [15.185900 -69.912000 0.005000] -0.876644 0.000000 0.000000 -0.481139 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42804, 8000, 1879076880) /* PCAPRecordedObjectIID */;
+     , (42804,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42804,   1, 100, 0, 0) /* Strength */
@@ -77,7 +59,11 @@ VALUES (42804,   1,   100, 0, 0, 140) /* MaxHealth */
      , (42804,   5,    60, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42804, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+VALUES (42804, 2,  2598,  0, 17, 0.9818, False) /* Create Baggy Pants (2598) for Wield */
+     , (42804, 2,   124,  0, 14, 0.3000, False) /* Create Shirt (130) for Wield */
+     , (42804, 2,   115,  0, 17, 1, False) /* Create Leather Boots (115) for Wield */
+     , (42804, 2, 10696,  0, 9, 1, False) /* Create Apron (10696) for Wield */
+     , (42804, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (42804, 4,  5136, -1, 0, 0, False) /* Create Cove Apple Cider (5136) for Shop */
      , (42804, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
      , (42804, 4,  2459, -1, 0, 0, False) /* Create Kumiss (2459) for Shop */
@@ -93,50 +79,3 @@ VALUES (42804, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (42804, 4, 49567, -1, 0, 0, False) /* Create Contract for Ritual Disruption (49567) for Shop */
      , (42804, 4, 49771, -1, 0, 0, False) /* Create Contract for Uziz Abductions (49771) for Shop */;
 
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (42804, 67109557, 0, 24)
-     , (42804, 67110026, 72, 8)
-     , (42804, 67110062, 32, 8)
-     , (42804, 67110317, 64, 8)
-     , (42804, 67110317, 160, 8)
-     , (42804, 67110338, 40, 24)
-     , (42804, 67110548, 92, 4)
-     , (42804, 67111245, 216, 24)
-     , (42804, 67117018, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (42804, 0, 83889072, 83890012)
-     , (42804, 0, 83889342, 83890011)
-     , (42804, 1, 83887064, 83886241)
-     , (42804, 2, 83887066, 83887051)
-     , (42804, 3, 83889344, 83887054)
-     , (42804, 4, 83887068, 83887054)
-     , (42804, 5, 83887064, 83886241)
-     , (42804, 6, 83887066, 83887051)
-     , (42804, 7, 83889344, 83887054)
-     , (42804, 8, 83887068, 83887054)
-     , (42804, 9, 83887061, 83890009)
-     , (42804, 9, 83887060, 83890010)
-     , (42804, 16, 83886232, 83890685)
-     , (42804, 16, 83886668, 83890475)
-     , (42804, 16, 83886837, 83890539)
-     , (42804, 16, 83886684, 83890610);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (42804, 0, 16781835)
-     , (42804, 1, 16781845)
-     , (42804, 2, 16781866)
-     , (42804, 3, 16781841)
-     , (42804, 4, 16781838)
-     , (42804, 5, 16781846)
-     , (42804, 6, 16781864)
-     , (42804, 7, 16781840)
-     , (42804, 8, 16781839)
-     , (42804, 9, 16777300)
-     , (42804, 10, 16777301)
-     , (42804, 11, 16777302)
-     , (42804, 12, 16777304)
-     , (42804, 13, 16777303)
-     , (42804, 14, 16777305)
-     , (42804, 15, 16777307)
-     , (42804, 16, 16795665);
