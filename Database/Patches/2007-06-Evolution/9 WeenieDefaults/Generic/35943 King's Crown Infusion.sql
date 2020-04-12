@@ -5,6 +5,7 @@ VALUES (35943, 'ace35943-kingscrowninfusion', 1, '2020-04-11 00:00:00') /* Gener
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35943,   1,        128) /* ItemType - Misc */
+     , (35943,   3,         61) /* PaletteTemplate - White */
      , (35943,   5,        250) /* EncumbranceVal */
      , (35943,  16,          1) /* ItemUseable - No */
      , (35943,  19,          0) /* Value */
@@ -24,6 +25,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35943,   1,   33555965) /* Setup */
      , (35943,   3,  536870932) /* SoundTable */
      , (35943,   6,   67111919) /* PaletteBase */
+     , (35943,   7,  268435814) /* ClothingBase */
      , (35943,   8,  100670747) /* Icon */
      , (35943,  22,  872415275) /* PhysicsEffectTable */;
 
