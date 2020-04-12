@@ -1,0 +1,4 @@
+DELETE FROM `quest` WHERE `name` = 'RedBullComplete';
+
+INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
+VALUES ('RedBullComplete', 0, 1, 'Red Bull Complete', '2020-04-09 00:00:00');
