@@ -33,7 +33,18 @@ VALUES (35772,   1,   33554510) /* Setup */
      , (35772,   2,  150994945) /* MotionTable */
      , (35772,   3,  536870914) /* SoundTable */
      , (35772,   8,  100667446) /* Icon */
-     , (35772,  22,  872415236) /* PhysicsEffectTable */;
+     , (35772,  22,  872415236) /* PhysicsEffectTable */
+     , (35772,  32,        415) /* WieldedTreasureType - 
+                                   Wield Towel (10757) | Palette: Blue (2) | Probability: 50%
+                                   Wield Towel (10757) | Palette: Green (8) | Probability: 50%
+                                   Wield Bandit Dagger (12052) | Probability: 12.5%
+                                   Wield Bandit Jambiya (12057) | Probability: 12.5%
+                                   Wield Bandit Khanjar (12062) | Probability: 12.5%
+                                   Wield Bandit Knife (12067) | Probability: 12.5%
+                                   Wield Bandit Simi (12072) | Probability: 12.5%
+                                   Wield Bandit Rapier (12076) | Probability: 2.77%
+                                   Wield Bandit Short Sword (12078) | Probability: 12.5%
+                                   Wield Bandit Yaoji (12083) | Probability: 12.5% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35772,   1, 220, 0, 0) /* Strength */
@@ -70,15 +81,4 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'Now that King Oolutanga is free of Mudmouth''s hold I can treat him for the Jungle Orchid poison Mudmouth gave him. It''s amazing he survived really. That much poison would have killed any normal Tusker. To create more of the potion he needs I''ll need more King''s Crown.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 	 , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'You can find the King''s Crown water lily at the base of a giant tree overlooking the Chapel of Xi Ru on the last of the Vesayen Islands. Be careful, I hear it is protected by Moarsmen.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'Oh, if you are able to find and destroy Mudmouth, I have been honored by Oolutanga to reward you in exchange for any befouled treasures he may have wrought.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-     
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35772, 2, 12057,  1, 0, 0, False) /* Create Bandit Jambiya (12057) for Wield */
-     , (35772, 2, 12067,  1, 0, 0, False) /* Create Bandit Knife (12067) for Wield */
-     , (35772, 2, 12078,  1, 0, 0, False) /* Create Bandit Short Sword (12078) for Wield */
-     , (35772, 2, 12052,  1, 0, 0, False) /* Create Bandit Dagger (12052) for Wield */
-     , (35772, 2, 12083,  1, 0, 0, False) /* Create Bandit Yaoji (12083) for Wield */
-     , (35772, 2, 12062,  1, 0, 0, False) /* Create Bandit Khanjar (12062) for Wield */
-     , (35772, 2, 12072,  1, 0, 0, False) /* Create Bandit Simi (12072) for Wield */
-     , (35772, 2, 12076,  1, 0, 0, False) /* Create Bandit Rapier (12076) for Wield */
-     , (35772, 2, 10757,  0, 2, 1, False) /* Create Towel (10757) for Wield */;
      
