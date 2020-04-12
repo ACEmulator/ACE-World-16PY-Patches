@@ -47,8 +47,7 @@ VALUES (8999,   1,   33554556) /* Setup */
      , (8999,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8999, -1, 338, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 338 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
-     , (8999, -1, 20179, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Superb Mana Charge (20179) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+VALUES (8999, -1, 20179, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Superb Mana Charge (20179) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8999, 0.005, 7509, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Searing Disc (7509) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8999, 0.01, 7510, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Horizon's Blades (7510) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8999, 0.015, 7511, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Cassius' Ring of Fire (7511) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
@@ -79,4 +78,5 @@ VALUES (8999, -1, 338, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Gene
      , (8999, 0.14, 20438, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Thousand Fists (20438) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8999, 0.145, 43319, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Clouded Soul (43319) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8999, 0.84, 20179, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Superb Mana Charge (20179) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (8999, 1, 9060, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Titan Mana Charge (9060) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
+     , (8999, 1, 9060, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Titan Mana Charge (9060) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (8999, -1, 338, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 338 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

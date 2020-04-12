@@ -10,7 +10,7 @@ VALUES (31331,   1,      32768) /* ItemType - Caster */
      , (31331,  16,          1) /* ItemUseable - No */
      , (31331,  19,      12357) /* Value */
      , (31331,  33,          0) /* Bonded - Normal */
-     , (31331,  53,        101) /* PlacementPosition */
+     , (31331,  46,        512) /* DefaultCombatStyle - Magic */
      , (31331,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31331,  94,         16) /* TargetType - Creature */
      , (31331, 106,        350) /* ItemSpellcraft */

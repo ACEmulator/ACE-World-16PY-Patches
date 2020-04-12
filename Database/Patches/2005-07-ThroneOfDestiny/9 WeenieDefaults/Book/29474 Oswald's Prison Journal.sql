@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29474;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29474, 'bookoswaldprisonjournal', 8, '2019-02-04 06:52:23') /* Book */;
+VALUES (29474, 'bookoswaldprisonjournal', 8, '2020-02-08 06:48:56') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29474,   1,       8192) /* ItemType - Writable */
@@ -10,7 +10,6 @@ VALUES (29474,   1,       8192) /* ItemType - Writable */
      , (29474,  16,          8) /* ItemUseable - Contained */
      , (29474,  19,          0) /* Value */
      , (29474,  33,          1) /* Bonded - Bonded */
-     , (29474,  53,        101) /* PlacementPosition */
      , (29474,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29474, 114,          1) /* Attuned - Attuned */
      , (29474, 174,          4) /* AppraisalPages */
@@ -24,12 +23,12 @@ VALUES (29474,  11, True ) /* IgnoreCollisions */
      , (29474,  22, False) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29474,  39, 1.22000002861023) /* DefaultScale */
-     , (29474,  54, 0.300000011920929) /* UseRadius */;
+VALUES (29474,  39, 1.22) /* DefaultScale */
+     , (29474,  54,  0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29474,   1, 'Oswald''s Prison Journal') /* Name */
-     , (29474,  15, 'A book.') /* ShortDesc */;
+     , (29474,  16, 'A journal. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29474,   1,   33554771) /* Setup */

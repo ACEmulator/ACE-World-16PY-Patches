@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28856;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28856, 'holtburgrenaldeldest', 10, '2019-04-09 02:19:52') /* Creature */;
+VALUES (28856, 'holtburgrenaldeldest', 10, '2020-02-29 19:03:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28856,   1,         16) /* ItemType - Creature */
@@ -64,23 +64,16 @@ VALUES (28856,   3, 0.159999996423721) /* HealthRate */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28856,   1, 'Renald the Eldest') /* Name */
      , (28856,   3, 'Male') /* Sex */
-     , (28856,   4, 'Gharu''ndim') /* HeritageGroup */
-     , (28856,   5, 'Give Me A Title') /* Template */;
+     , (28856,   4, 'Aluvian') /* HeritageGroup */
+     , (28856,   5, 'Wood Carver') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28856,   1,   33554433) /* Setup */
      , (28856,   2,  150994945) /* MotionTable */
      , (28856,   3,  536870913) /* SoundTable */
      , (28856,   4,  805306368) /* CombatTable */
-     , (28856,   6,   67108990) /* PaletteBase */
      , (28856,   7,  268435545) /* ClothingBase */
-     , (28856,   8,  100667446) /* Icon */
-     , (28856,   9,   83890481) /* EyesTexture */
-     , (28856,  10,   83890561) /* NoseTexture */
-     , (28856,  11,   83890663) /* MouthTexture */
-     , (28856,  15,   67116984) /* HairPalette */
-     , (28856,  16,   67110062) /* EyesPalette */
-     , (28856,  17,   67109558) /* SkinPalette */;
+     , (28856,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28856,   1,  60, 0, 0) /* Strength */
@@ -123,6 +116,17 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  21 /* InqQuest */, 0, 1, NULL, 'RenaldMug', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (28856,  6 /* Give */,      1, 33926 /* Letter to Renald the Eldest, from Larinne Kerendova */, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'Another shipment of Ursuin toys, eh? She goes through these awful fast. Well, either that, or the little Ursuin do...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+	 , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'Here, bring her this response. I''ll ship those toys to her directly.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+	 , (@parent_id,  3,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 33933 /* Renald the Eldest's Reply */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (28856,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -170,5 +174,5 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I tell ya what. I needs tim
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28856, 2,  2593,  0, 8, 0, False) /* Create Tunic (2593) for Wield */
-     , (28856, 2,  2601,  0, 4, 0, False) /* Create Pants (2601) for Wield */
-     , (28856, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */;
+     , (28856, 2,  2599,  0, 4, 0, False) /* Create Trousers (2599) for Wield */
+     , (28856, 2,  2606,  0, 90, 0, False) /* Create Boots (2606) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31921;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31921, 'ace31921-mosswartagitator', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (31921, 'ace31921-mosswartagitator', 10, '2020-02-29 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31921,   1,         16) /* ItemType - Creature */
@@ -10,7 +10,7 @@ VALUES (31921,   1,         16) /* ItemType - Creature */
      , (31921,   6,         -1) /* ItemsCapacity */
      , (31921,   7,         -1) /* ContainersCapacity */
      , (31921,  16,          1) /* ItemUseable - No */
-     , (31921,  25,        185) /* Level */
+     , (31921,  25,        175) /* Level */
      , (31921,  27,          0) /* ArmorType - None */
      , (31921,  40,          2) /* CombatMode - Melee */
      , (31921,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
@@ -19,7 +19,7 @@ VALUES (31921,   1,         16) /* ItemType - Creature */
      , (31921, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (31921, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (31921, 140,          1) /* AiOptions - CanOpenDoors */
-     , (31921, 146,     800000) /* XpOverride */;
+     , (31921, 146,     175000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31921,   1, True ) /* Stuck */
@@ -34,24 +34,24 @@ VALUES (31921,   1,       5) /* HeartbeatInterval */
      , (31921,   4,       5) /* StaminaRate */
      , (31921,   5,       2) /* ManaRate */
      , (31921,  12,       0) /* Shade */
-     , (31921,  13, 1.29999995231628) /* ArmorModVsSlash */
+     , (31921,  13,     1.3) /* ArmorModVsSlash */
      , (31921,  14,     1.5) /* ArmorModVsPierce */
-     , (31921,  15, 1.39999997615814) /* ArmorModVsBludgeon */
+     , (31921,  15,     1.4) /* ArmorModVsBludgeon */
      , (31921,  16,       1) /* ArmorModVsCold */
-     , (31921,  17, 0.699999988079071) /* ArmorModVsFire */
-     , (31921,  18, 1.29999995231628) /* ArmorModVsAcid */
-     , (31921,  19, 0.899999976158142) /* ArmorModVsElectric */
+     , (31921,  17,     0.7) /* ArmorModVsFire */
+     , (31921,  18,     1.3) /* ArmorModVsAcid */
+     , (31921,  19,     0.9) /* ArmorModVsElectric */
      , (31921,  31,      24) /* VisualAwarenessRange */
-     , (31921,  34, 0.899999976158142) /* PowerupTime */
+     , (31921,  34,     0.9) /* PowerupTime */
      , (31921,  36,       1) /* ChargeSpeed */
-     , (31921,  39, 1.20000004768372) /* DefaultScale */
+     , (31921,  39,     1.2) /* DefaultScale */
      , (31921,  64,     0.5) /* ResistSlash */
-     , (31921,  65, 0.800000011920929) /* ResistPierce */
-     , (31921,  66, 0.800000011920929) /* ResistBludgeon */
+     , (31921,  65,     0.8) /* ResistPierce */
+     , (31921,  66,     0.8) /* ResistBludgeon */
      , (31921,  67,       1) /* ResistFire */
-     , (31921,  68, 0.400000005960464) /* ResistCold */
-     , (31921,  69, 0.699999988079071) /* ResistAcid */
-     , (31921,  70, 1.10000002384186) /* ResistElectric */
+     , (31921,  68,     0.4) /* ResistCold */
+     , (31921,  69,     0.7) /* ResistAcid */
+     , (31921,  70,     1.1) /* ResistElectric */
      , (31921,  71,       1) /* ResistHealthBoost */
      , (31921,  72,       1) /* ResistStaminaDrain */
      , (31921,  73,       1) /* ResistStaminaBoost */
@@ -72,7 +72,7 @@ VALUES (31921,   1,   33557327) /* Setup */
      , (31921,   7,  268436295) /* ClothingBase */
      , (31921,   8,  100667449) /* Icon */
      , (31921,  22,  872415264) /* PhysicsEffectTable */
-     , (31921,  35,       1000) /* DeathTreasureType */;
+     , (31921,  35,        420) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31921,   1, 260, 0, 0) /* Strength */
@@ -168,5 +168,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31921, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (31921, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (31921, 10, 32123,  1, 0, 0.5, False) /* Create Acid Spear (32123) for WieldTreasure */
-     , (31921, 10, 32124,  1, 0, 0.5, False) /* Create Frost Spear (32124) for WieldTreasure */;
+     , (31921, 2, 32123,  1, 0, 0.25, False) /* Create Acid Spear (32123) for Wield */
+     , (31921, 2, 32124,  1, 0, 0.25, False) /* Create Frost Spear (32124) for Wield */
+     , (31921, 2, 23692,  1, 0, 0.25, False) /* Create Frost Spear (23692) for Wield */
+     , (31921, 2, 23688,  1, 0, 0.25, False) /* Create Acid Spear (23688) for Wield */;

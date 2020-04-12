@@ -29,7 +29,8 @@ VALUES (48742,   1, True ) /* Stuck */
      , (48742,  13, False) /* Ethereal */
      , (48742,  33, False) /* ResetMessagePending */
      , (48742,  34, False) /* DefaultOpen */
-     , (48742,  35, True ) /* DefaultLocked */;
+     , (48742,  35, True ) /* DefaultLocked */
+     , (48742,  86, True ) /* ChestRegenOnClose */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48742,  11,      30) /* ResetInterval */
