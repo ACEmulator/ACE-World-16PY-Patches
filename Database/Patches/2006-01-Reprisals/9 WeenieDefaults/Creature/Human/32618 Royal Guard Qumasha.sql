@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32618;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32618, 'ace32618-royalguardqumasha', 10, '2020-02-29 18:15:46') /* Creature */;
+VALUES (32618, 'ace32618-royalguardqumasha', 10, '2020-04-04 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32618,   1,         16) /* ItemType - Creature */
@@ -19,12 +19,7 @@ VALUES (32618,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32618,   1, True ) /* Stuck */
-     , (32618,  11, True ) /* IgnoreCollisions */
-     , (32618,  12, True ) /* ReportCollisions */
-     , (32618,  14, True ) /* GravityStatus */
-     , (32618,  19, False) /* Attackable */
-     , (32618,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (32618,  42, True ) /* AllowEdgeSlide */;
+     , (32618,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32618,  54,       3) /* UseRadius */;

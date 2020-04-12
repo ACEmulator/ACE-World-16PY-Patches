@@ -17,7 +17,7 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
  `fail_Destroy_Target_Amount`,
  `fail_Destroy_Target_Message`,
  `data_Id`, `last_Modified`)
-VALUES (8384, 0, 18 /* ItemTinkering */, 0, 1, 0, 0, 'You apply the Pyreal prepared Major Item Tinkering Armature.', 0, 0, 'You apply the Pyreal prepared Major Item Tinkering Armature, but in the process you destroy the target.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2020-02-28 10:00:00');
+VALUES (8384, 0, 18 /* ItemTinkering */, 0, 2, 0, 0, 'You apply the Pyreal prepared Major Item Tinkering Armature.', 0, 0, 'You apply the Pyreal prepared Major Item Tinkering Armature, but in the process you destroy the target.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2020-02-28 10:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8384, 0, 105, 1, 2, 'The target item cannot be tinkered!') /* Target.ItemWorkmanship LessThan 1 */
