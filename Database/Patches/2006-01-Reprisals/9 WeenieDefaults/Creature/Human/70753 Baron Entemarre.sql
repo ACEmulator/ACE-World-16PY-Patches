@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70753;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70753, 'ace70753-baronentemarre', 10, '2020-02-16 23:34:59') /* Creature */;
+VALUES (70753, 'ace70753-baronentemarre', 10, '2020-04-04 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70753,   1,         16) /* ItemType - Creature */
@@ -23,35 +23,33 @@ VALUES (70753,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70753,   1, True ) /* Stuck */
-     , (70753,  11, False) /* IgnoreCollisions */
-     , (70753,  12, True ) /* ReportCollisions */
-     , (70753,  13, False) /* Ethereal */;
+     , (70753,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (70753,   1,       5) /* HeartbeatInterval */
      , (70753,   2,       0) /* HeartbeatTimestamp */
-     , (70753,   3, 0.06700000166893005) /* HealthRate */
+     , (70753,   3,   0.067) /* HealthRate */
      , (70753,   4,       3) /* StaminaRate */
      , (70753,   5,       1) /* ManaRate */
      , (70753,  12,     0.5) /* Shade */
-     , (70753,  13, 1.2000000476837158) /* ArmorModVsSlash */
-     , (70753,  14, 1.2000000476837158) /* ArmorModVsPierce */
+     , (70753,  13,     1.2) /* ArmorModVsSlash */
+     , (70753,  14,     1.2) /* ArmorModVsPierce */
      , (70753,  15,       1) /* ArmorModVsBludgeon */
      , (70753,  16,       1) /* ArmorModVsCold */
-     , (70753,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (70753,  17,     0.8) /* ArmorModVsFire */
      , (70753,  18,       1) /* ArmorModVsAcid */
-     , (70753,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (70753,  19,     0.8) /* ArmorModVsElectric */
      , (70753,  31,      12) /* VisualAwarenessRange */
      , (70753,  34,       1) /* PowerupTime */
      , (70753,  36,       1) /* ChargeSpeed */
-     , (70753,  39, 1.2000000476837158) /* DefaultScale */
-     , (70753,  64, 0.800000011920929) /* ResistSlash */
-     , (70753,  65, 0.800000011920929) /* ResistPierce */
-     , (70753,  66, 0.8999999761581421) /* ResistBludgeon */
-     , (70753,  67, 1.2000000476837158) /* ResistFire */
-     , (70753,  68, 0.8999999761581421) /* ResistCold */
-     , (70753,  69, 0.8999999761581421) /* ResistAcid */
-     , (70753,  70, 1.2000000476837158) /* ResistElectric */
+     , (70753,  39,     1.2) /* DefaultScale */
+     , (70753,  64,     0.8) /* ResistSlash */
+     , (70753,  65,     0.8) /* ResistPierce */
+     , (70753,  66,     0.9) /* ResistBludgeon */
+     , (70753,  67,     1.2) /* ResistFire */
+     , (70753,  68,     0.9) /* ResistCold */
+     , (70753,  69,     0.9) /* ResistAcid */
+     , (70753,  70,     1.2) /* ResistElectric */
      , (70753,  71,       1) /* ResistHealthBoost */
      , (70753,  72,       1) /* ResistStaminaDrain */
      , (70753,  73,       1) /* ResistStaminaBoost */
@@ -76,16 +74,16 @@ VALUES (70753,   1,   33559125) /* Setup */
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (70753,   1, 370, 0, 0) /* Strength */
-     , (70753,   2, 950, 0, 0) /* Endurance */
+     , (70753,   2, 350, 0, 0) /* Endurance */
      , (70753,   3, 305, 0, 0) /* Quickness */
      , (70753,   4, 305, 0, 0) /* Coordination */
      , (70753,   5,  80, 0, 0) /* Focus */
      , (70753,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (70753,   1,   990, 0, 0, 990) /* MaxHealth */
-     , (70753,   3,   550, 0, 0, 550) /* MaxStamina */
-     , (70753,   5,    80, 0, 0, 80) /* MaxMana */;
+VALUES (70753,   1,   815, 0, 0, 990) /* MaxHealth */
+     , (70753,   3,   200, 0, 0, 550) /* MaxStamina */
+     , (70753,   5,     0, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (70753,  6, 0, 3, 0, 325, 0, 0) /* MeleeDefense        Specialized */
@@ -151,7 +149,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (70753, 8, 34276,  0, 0, 0.005, True) /* Create Ancient Empyrean Trinket (34276) for Treasure */
      , (70753, 10, 29966,  1, 0, 0.25, False) /* Create Quadrelle (29966) for WieldTreasure */
-     , (70753, 9, 70755,  1, 0, 	1, 	True) /* Create Entemarre's Head WieldTreasure */	 
+     , (70753, 9, 70755,  1, 0, 	1, 	True) /* Create Entemarre's Head WieldTreasure */
      , (70753, 10, 29971,  1, 0, 0.25, False) /* Create Partizan (29971) for WieldTreasure */
      , (70753, 10, 29976,  1, 0, 0.25, False) /* Create Spadone (29976) for WieldTreasure */
      , (70753, 10, 29980, -1, 0, 0.25, False) /* Create Throwing Axe (29980) for WieldTreasure */;

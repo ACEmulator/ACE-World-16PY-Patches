@@ -1,25 +1,20 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31297;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31297, 'ace31297-fiunhatchet', 1, '2019-03-27 07:14:36') /* Generic */;
+VALUES (31297, 'ace31297-fiunhatchet', 1, '2020-04-04 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31297,   1,        128) /* ItemType - Misc */
      , (31297,   5,        450) /* EncumbranceVal */
-     , (31297,  11,          1) /* MaxStackSize */
-     , (31297,  12,          1) /* StackSize */
      , (31297,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (31297,  19,          0) /* Value */
-     , (31297,  53,        101) /* PlacementPosition - Resting */
+     , (31297,  33,          1) /* Bonded - Bonded */
      , (31297,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31297,  94,        128) /* TargetType - Misc */;
+     , (31297,  94,        128) /* TargetType - Misc */
+     , (31297, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31297,  11, True ) /* IgnoreCollisions */
-     , (31297,  13, True ) /* Ethereal */
-     , (31297,  14, True ) /* GravityStatus */
-     , (31297,  19, True ) /* Attackable */
-     , (31297,  69, False) /* IsSellable */;
+VALUES (31297,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31297,   1, 'Fiun Hatchet') /* Name */
