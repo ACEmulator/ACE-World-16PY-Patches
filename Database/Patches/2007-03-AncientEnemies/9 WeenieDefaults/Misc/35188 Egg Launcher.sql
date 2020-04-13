@@ -42,5 +42,3 @@ VALUES (35188,    1,   33560288) /* Setup */
      , (35188,   22,  872415275) /* PhysicsEffectTable */
      , (35188,   27, 1090519043) /* UseUserAnimation - Ready */
      , (35188,   28,       4078) /* Spell - EggBolt */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
