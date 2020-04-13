@@ -8,7 +8,7 @@ VALUES (35179,   1,          0) /* ItemType - None */
      , (35179,   8,         25) /* Mass */
      , (35179,   9,          0) /* ValidLocations - None */
      , (35179,  66,          0) /* CheckpointStatus */
-     , (35179,  93,     133960) /* PhysicsState - ReportCollisions, Missile, AlignPath, PathClipped, LightingOn, Inelastic */;
+     , (35179,  93,     133960) /* PhysicsState - Ethereal, IgnoreCollisions, LightingOn, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35179,   1, True ) /* Stuck */
