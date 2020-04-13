@@ -21,7 +21,8 @@ VALUES (35188,   1,      32768) /* ItemType - Caster */
      , (35188, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35188,  22, True ) /* Inscribable */;
+VALUES (35188,  22, True ) /* Inscribable */
+     , (35188,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35188,  29,       1) /* WeaponDefense */
