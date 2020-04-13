@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28699;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28699, 'silyungrandmother', 10, '2019-08-20 00:00:00') /* Creature */;
+VALUES (28699, 'silyungrandmother', 10, '2020-04-04 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28699,   1,         16) /* ItemType - Creature */
@@ -24,27 +24,21 @@ VALUES (28699,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28699,   1, True ) /* Stuck */
      , (28699,   8, True ) /* AllowGive */
-     , (28699,  11, True ) /* IgnoreCollisions */
-     , (28699,  12, True ) /* ReportCollisions */
-     , (28699,  13, False) /* Ethereal */
-     , (28699,  14, True ) /* GravityStatus */
      , (28699,  19, False) /* Attackable */
-     , (28699,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (28699,  42, True ) /* AllowEdgeSlide */
      , (28699,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28699,   3, 0.159999996423721) /* HealthRate */
+VALUES (28699,   3,     0.6) /* HealthRate */
      , (28699,   4,       5) /* StaminaRate */
      , (28699,   5,       1) /* ManaRate */
-     , (28699,  12, 0.100000001490116) /* Shade */
-     , (28699,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (28699,  12,     0.1) /* Shade */
+     , (28699,  13,     0.9) /* ArmorModVsSlash */
      , (28699,  14,       1) /* ArmorModVsPierce */
-     , (28699,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (28699,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (28699,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (28699,  15,     1.1) /* ArmorModVsBludgeon */
+     , (28699,  16,     0.4) /* ArmorModVsCold */
+     , (28699,  17,     0.4) /* ArmorModVsFire */
      , (28699,  18,       1) /* ArmorModVsAcid */
-     , (28699,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (28699,  19,     0.6) /* ArmorModVsElectric */
      , (28699,  54,       3) /* UseRadius */
      , (28699,  64,       1) /* ResistSlash */
      , (28699,  65,       1) /* ResistPierce */
@@ -63,8 +57,6 @@ VALUES (28699,   3, 0.159999996423721) /* HealthRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28699,   1, 'Grand Mother') /* Name */
-     , (28699,   3, 'Male') /* Sex */
-     , (28699,   4, 'Gharu''ndim') /* HeritageGroup */
      , (28699,   5, 'Mother of Silyun') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -75,11 +67,6 @@ VALUES (28699,   1,   33554510) /* Setup */
      , (28699,   6,   67108990) /* PaletteBase */
      , (28699,   7,  268436923) /* ClothingBase */
      , (28699,   8,  100667446) /* Icon */
-     , (28699,   9,   83890284) /* EyesTexture */
-     , (28699,  10,   83890302) /* NoseTexture */
-     , (28699,  11,   83890354) /* MouthTexture */
-     , (28699,  15,   67116985) /* HairPalette */
-     , (28699,  16,   67110063) /* EyesPalette */
      , (28699,  17,   67115903) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -94,6 +81,29 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (28699,   1,   162, 0, 0, 162) /* MaxHealth */
      , (28699,   3,   180, 0, 0, 180) /* MaxStamina */
      , (28699,   5,   273, 0, 0, 273) /* MaxMana */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (28699,  1 /* Refuse */,      1, 32591, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 1, 0, 0, 0)
+     , (@parent_id,  1,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 1, 0, 0, 0)
+     , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'Why would you show me this man''s sketch?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 1, 0, 0, 0)
+     , (@parent_id,  3,  10 /* Tell */, 0, 1, NULL, 'No matter, I''ve never seen this shabby man before.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 1, 0, 0, 0);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (28699,  1 /* Refuse */,      1, 73052, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 1, 0, 0, 0)
+     , (@parent_id,  1,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 1, 0, 0, 0)
+     , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'No, I cannot say I know what this token means. I would think a hero wouldn''t give an important token like this away...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 1, 0, 0, 0)
+     , (@parent_id,  3,  10 /* Tell */, 0, 1, NULL, 'Where did you find this?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 1, 0, 0, 0)
+     , (@parent_id,  4,  10 /* Tell */, 0, 1, NULL, 'If you are responsible for taking this token from a hero I wouldn''t dare show it to anyone else. There might be... repercussions.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 1, 0, 0, 0);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (28699,  1 /* Refuse */,      1, 28752 /* Ancient Discoveries */, NULL, NULL, NULL, NULL, NULL, NULL);

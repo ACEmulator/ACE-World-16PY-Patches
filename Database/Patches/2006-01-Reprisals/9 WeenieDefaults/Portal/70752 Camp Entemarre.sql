@@ -13,20 +13,15 @@ VALUES (70752,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70752,   1, True ) /* Stuck */
-     , (70752,  11, False) /* IgnoreCollisions */
-     , (70752,  12, True ) /* ReportCollisions */
-     , (70752,  13, True ) /* Ethereal */
-     , (70752,  14, True ) /* GravityStatus */
-     , (70752,  15, True ) /* LightsStatus */
      , (70752,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (70752,  54, -0.10000000149011612) /* UseRadius */;
+VALUES (70752,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70752,   1, 'Camp Entemarre') /* Name */
      , (70752,  16, 'You must speak to Hashina in Silyun before you may use this portal.') /* LongDesc */
-     , (70752,  37, 'CampEntemarreFlagComplete') /* QuestRestriction */
+     , (70752,  37, 'CampEntemarreStarted') /* QuestRestriction */
      , (70752,  38, 'Camp Entemarre') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

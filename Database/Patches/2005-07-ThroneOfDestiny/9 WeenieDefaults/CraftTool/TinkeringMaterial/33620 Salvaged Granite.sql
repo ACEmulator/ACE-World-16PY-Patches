@@ -35,7 +35,7 @@ VALUES (33620,  11, True ) /* IgnoreCollisions */
      , (33620,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33620,   1, 'Salvaged Granite') /* Name */
+VALUES (33620,   1, 'Salvage') /* Name */
      , (33620,  14, 'Apply this material to a treasure-generated weapon to improve the weapon''s variance by 20%.') /* Use */
      , (33620,  16, 'A brick of granite material salvaged from old items.') /* LongDesc */;
 

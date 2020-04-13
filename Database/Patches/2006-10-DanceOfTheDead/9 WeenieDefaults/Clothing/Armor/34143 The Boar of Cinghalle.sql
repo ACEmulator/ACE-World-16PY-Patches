@@ -12,6 +12,7 @@ VALUES (34143,   1,          2) /* ItemType - Armor */
      , (34143,  16,          1) /* ItemUseable - No */
      , (34143,  18,          1) /* UiEffects - Magical */
      , (34143,  19,       4000) /* Value */
+     , (34143,  28,        250) /* ArmorLevel */
      , (34143,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34143, 151,          2) /* HookType - Wall */;
 
