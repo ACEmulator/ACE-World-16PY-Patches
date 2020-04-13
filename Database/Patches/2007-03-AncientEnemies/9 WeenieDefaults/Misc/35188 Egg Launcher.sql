@@ -43,6 +43,5 @@ VALUES (35188,    1,   33560288) /* Setup */
      , (35188,   28,       4078) /* Spell - EggBolt */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35188,  4078,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
