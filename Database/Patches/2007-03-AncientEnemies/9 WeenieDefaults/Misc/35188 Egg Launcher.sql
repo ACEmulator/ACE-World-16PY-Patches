@@ -12,6 +12,7 @@ VALUES (35188,   1,      32768) /* ItemType - Caster */
      , (35188,  18,          1) /* UiEffects - Magical */
      , (35188,  19,       2300) /* Value */
      , (35188,  33,          1) /* Bonded - Bonded */
+     , (35188,  46,        512) /* DefaultCombatStyle - Magic */
      , (35188,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (35188,  94,         16) /* TargetType - Creature */
      , (35188, 106,         10) /* ItemSpellcraft */
