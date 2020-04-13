@@ -38,7 +38,7 @@ VALUES (35188,    1,   33560288) /* Setup */
      , (35188,    6,   67110219) /* PaletteBase */
      , (35188,    8,  100674625) /* Icon */
      , (35188,   22,  872415275) /* PhysicsEffectTable */
-     , (35188,   27, 1090519043) /* UseUserAnimation - UseMagicWand */
+     , (35188,   27, 1090519043) /* UseUserAnimation - Ready */
      , (35188,   28,       4078) /* Spell - EggBolt */;
 
 
