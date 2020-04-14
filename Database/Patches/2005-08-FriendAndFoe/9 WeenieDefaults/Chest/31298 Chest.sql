@@ -10,7 +10,7 @@ VALUES (31298,   1,        512) /* ItemType - Container */
      , (31298,   7,         10) /* ContainersCapacity */
      , (31298,   8,       6000) /* Mass */
      , (31298,  16,         48) /* ItemUseable - ViewedRemote */
-     , (31298,  19,       2500) /* Value */
+     , (31298,  19,        200) /* Value */
      , (31298,  81,         10) /* MaxGeneratedObjects */
      , (31298,  82,          6) /* InitGeneratedObjects */
      , (31298,  83,          2) /* ActivationResponse - Use */
