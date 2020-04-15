@@ -54,7 +54,7 @@ VALUES (32650,   1,     0, 0, 0, 110) /* MaxHealth */
      , (32650,   5,     0, 0, 0, 90) /* MaxMana */;
      
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44261, 7 /* Use */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (32650, 7 /* Use */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -64,7 +64,7 @@ VALUES (@parent_id, 0, 5  /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NULL
      , (@parent_id, 2, 21 /* InqQuest */, 0, 1, NULL, 'KilltaskTumerokGladiatorWait', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44261, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'KilltaskTumerokGladiatorWait', NULL, NULL, NULL);
+VALUES (32650, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'KilltaskTumerokGladiatorWait', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -75,7 +75,7 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'The Queen thanks you for your
      , (@parent_id, 3, 18 /* DirectBroadcast */, 1, 1, NULL, 'You may complete this quest again in %tqt.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44261, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'KilltaskTumerokGladiatorWait', NULL, NULL, NULL);
+VALUES (32650, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'KilltaskTumerokGladiatorWait', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -83,7 +83,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'KilltaskTumerokGladiatorWait@KillTaskInProgress', NULL, 1, 2147483647, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44261, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'KilltaskTumerokGladiatorWait@KillTaskInProgress', NULL, NULL, NULL);
+VALUES (32650, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'KilltaskTumerokGladiatorWait@KillTaskInProgress', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -91,7 +91,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 21 /* InqQuest */, 0, 1, NULL, 'KilltaskTumerokGladiatorWait@KillTaskCompleted', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44261, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'KilltaskTumerokGladiatorWait@KillTaskCompleted', NULL, NULL, NULL);
+VALUES (32650, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'KilltaskTumerokGladiatorWait@KillTaskCompleted', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -104,7 +104,7 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'Excellent work, friend! You h
      , (@parent_id, 5, 10 /* Tell */, 1, 1, NULL, 'In the name of Queen Elysa, I officially recognize you as a member of the Dryreach Militia. May you serve long and well.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44261, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'KilltaskTumerokGladiator@KillTaskCompleted', NULL, NULL, NULL);
+VALUES (32650, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'KilltaskTumerokGladiator@KillTaskCompleted', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -113,7 +113,7 @@ VALUES (@parent_id, 0, 18 /* DirectBroadcast */, 0, 1, NULL, 'You''ve killed %tq
      , (@parent_id, 1, 10 /* Tell */, 1, 1, NULL, 'Return to me after you have killed %tqm Tumerok Gladiators and I will reward you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44261, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'KilltaskTumerokGladiator@KillTaskInProgress', NULL, NULL, NULL);
+VALUES (32650, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'KilltaskTumerokGladiator@KillTaskInProgress', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
