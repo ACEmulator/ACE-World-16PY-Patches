@@ -44,8 +44,8 @@ VALUES (32548,   5,  -0.033) /* ManaRate */
      , (32548,  39,     1.1) /* DefaultScale */
      , (32548,  62,       1) /* WeaponOffense */
      , (32548,  63,     2.5) /* DamageMod */
-     , (32548, 136,       1) /* CriticalMultiplier */
-     , (32548, 147,    0.25) /* CriticalFrequency */;
+     , (32548, 136,       3) /* CriticalMultiplier */
+     , (32548, 147,     0.2) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32548,   1, 'Unerring Strike Bow') /* Name */
