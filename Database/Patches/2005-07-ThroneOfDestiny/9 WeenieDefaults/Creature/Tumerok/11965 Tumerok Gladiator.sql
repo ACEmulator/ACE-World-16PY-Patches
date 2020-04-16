@@ -89,20 +89,15 @@ VALUES (11965,   1,    40, 0, 0, 123) /* MaxHealth */
      , (11965,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11965,  1, 0, 3, 0, 120, 0, 776.267765664978) /* Axe                 Specialized */
-     , (11965,  2, 0, 3, 0, 100, 0, 776.267765664978) /* Bow                 Specialized */
-     , (11965,  3, 0, 2, 0, 100, 0, 776.267765664978) /* Crossbow            Trained */
-     , (11965,  4, 0, 2, 0, 120, 0, 776.267765664978) /* Dagger              Trained */
-     , (11965,  5, 0, 2, 0, 120, 0, 776.267765664978) /* Mace                Trained */
-     , (11965,  6, 0, 2, 0, 130, 0, 776.267765664978) /* MeleeDefense        Trained */
-     , (11965,  7, 0, 2, 0, 100, 0, 776.267765664978) /* MissileDefense      Trained */
-     , (11965,  9, 0, 2, 0, 120, 0, 776.267765664978) /* Spear               Trained */
-     , (11965, 10, 0, 2, 0, 120, 0, 776.267765664978) /* Staff               Trained */
-     , (11965, 11, 0, 3, 0, 120, 0, 776.267765664978) /* Sword               Specialized */
-     , (11965, 13, 0, 2, 0, 120, 0, 776.267765664978) /* UnarmedCombat       Trained */
-     , (11965, 15, 0, 2, 0,  53, 0, 776.267765664978) /* MagicDefense        Trained */
-     , (11965, 20, 0, 2, 0,   5, 0, 776.267765664978) /* Deception           Trained */
-     , (11965, 24, 0, 2, 0,  50, 0, 776.267765664978) /* Run                 Trained */;
+VALUES (11965, 45, 0, 3, 0, 120, 0, 0) /* LightWeapons        Specialized */
+     , (11965, 47, 0, 3, 0, 100, 0, 0) /* MissileWeapons      Specialized */
+     , (11965, 46, 0, 3, 0, 120, 0, 0) /* FinesseWeapons      Specialized */
+     , (11965, 44, 0, 3, 0, 120, 0, 0) /* HeavyWeapons        Specialized */
+     , (11965,  6, 0, 2, 0, 130, 0, 0) /* MeleeDefense        Trained */
+     , (11965,  7, 0, 2, 0, 100, 0, 0) /* MissileDefense      Trained */
+     , (11965, 15, 0, 2, 0,  53, 0, 0) /* MagicDefense        Trained */
+     , (11965, 20, 0, 2, 0,   5, 0, 0) /* Deception           Trained */
+     , (11965, 24, 0, 2, 0,  50, 0, 0) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11965,  0,  4,  0,    0,  130,  130,  130,  130,  130,  130,  130,  130,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
