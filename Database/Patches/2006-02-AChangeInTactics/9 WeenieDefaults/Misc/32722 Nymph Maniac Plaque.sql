@@ -21,7 +21,7 @@ VALUES (32722,  22, True ) /* Inscribable */
      , (32722,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (32722,   1, 'Nymph Maniac Plaque') /* Name */;
+VALUES (32722,   1, 'Nymph Maniac Plaque') /* Name */
      , (32722,  15, 'The owner of this plaque is a verified "Nymph Manic"!') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
