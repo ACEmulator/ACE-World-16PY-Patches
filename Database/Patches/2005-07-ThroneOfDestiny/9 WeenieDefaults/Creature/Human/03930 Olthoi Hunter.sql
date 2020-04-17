@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3930;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3930, 'olthoihunter', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (3930, 'olthoihunter', 10, '2020-04-17 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3930,   1,         16) /* ItemType - Creature */
@@ -14,9 +14,11 @@ VALUES (3930,   1,         16) /* ItemType - Creature */
      , (3930,  27,          0) /* ArmorType - None */
      , (3930,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (3930,  95,          8) /* RadarBlipColor - Yellow */
+     , (3930, 113,          2) /* Gender - Female */
      , (3930, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (3930, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (3930, 146,        516) /* XpOverride */;
+     , (3930, 146,        516) /* XpOverride */
+     , (3930, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3930,   1, True ) /* Stuck */
@@ -68,6 +70,7 @@ VALUES (3930,   1,   33554510) /* Setup */
      , (3930,   2,  150994945) /* MotionTable */
      , (3930,   3,  536870914) /* SoundTable */
      , (3930,   4,  805306368) /* CombatTable */
+     , (3930,   6,   67108990) /* PaletteBase */
      , (3930,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
