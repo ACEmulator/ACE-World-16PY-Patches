@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6033;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6033, 'katarhamudspyreal', 6, '2020-04-18 17:38:22') /* MeleeWeapon */;
+VALUES (6033, 'katarhamudspyreal', 6, '2020-04-18 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6033,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,7 +20,6 @@ VALUES (6033,   1,          1) /* ItemType - MeleeWeapon */
      , (6033,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (6033,  49,         15) /* WeaponTime */
      , (6033,  51,          1) /* CombatUse - Melee */
-     , (6033,  53,        101) /* PlacementPosition - Resting */
      , (6033,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6033, 106,        150) /* ItemSpellcraft */
      , (6033, 107,        300) /* ItemCurMana */
@@ -32,18 +31,14 @@ VALUES (6033,   1,          1) /* ItemType - MeleeWeapon */
      , (6033, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6033,  11, True ) /* IgnoreCollisions */
-     , (6033,  13, True ) /* Ethereal */
-     , (6033,  14, True ) /* GravityStatus */
-     , (6033,  19, True ) /* Attackable */
-     , (6033,  22, True ) /* Inscribable */
+VALUES (6033,  22, True ) /* Inscribable */
      , (6033,  23, True ) /* DestroyOnSell */
      , (6033,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6033,   5, -0.100000001490116) /* ManaRate */
+VALUES (6033,   5,    -0.1) /* ManaRate */
      , (6033,  21,       0) /* WeaponLength */
-     , (6033,  22, 0.600000023841858) /* DamageVariance */
+     , (6033,  22,     0.6) /* DamageVariance */
      , (6033,  26,       0) /* MaximumVelocity */
      , (6033,  29,       1) /* WeaponDefense */
      , (6033,  39,    1.25) /* DefaultScale */

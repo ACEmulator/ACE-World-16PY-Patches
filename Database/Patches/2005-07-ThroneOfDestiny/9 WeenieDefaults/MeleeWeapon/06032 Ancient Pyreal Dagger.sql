@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6032;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6032, 'daggerancientpyreal', 6, '2020-04-18 17:38:22') /* MeleeWeapon */;
+VALUES (6032, 'daggerancientpyreal', 6, '2020-04-18 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6032,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,6 @@ VALUES (6032,   1,          1) /* ItemType - MeleeWeapon */
      , (6032,  48,         45) /* WeaponSkill - LightWeapons */
      , (6032,  49,          8) /* WeaponTime */
      , (6032,  51,          1) /* CombatUse - Melee */
-     , (6032,  53,        101) /* PlacementPosition - Resting */
      , (6032,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6032, 114,          1) /* Attuned - Attuned */
      , (6032, 150,        103) /* HookPlacement - Hook */
@@ -27,14 +26,11 @@ VALUES (6032,   1,          1) /* ItemType - MeleeWeapon */
      , (6032, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6032,  11, True ) /* IgnoreCollisions */
-     , (6032,  13, True ) /* Ethereal */
-     , (6032,  14, True ) /* GravityStatus */
-     , (6032,  19, True ) /* Attackable */
+VALUES (6032,  19, True ) /* Attackable */
      , (6032,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6032,  21, 0.349999994039536) /* WeaponLength */
+VALUES (6032,  21,    0.35) /* WeaponLength */
      , (6032,  22,     0.5) /* DamageVariance */
      , (6032,  26,       0) /* MaximumVelocity */
      , (6032,  29,       1) /* WeaponDefense */
