@@ -22,6 +22,7 @@ VALUES (31842,   1, True ) /* Stuck */
      , (31842,  11, True ) /* IgnoreCollisions */
      , (31842,  12, True ) /* ReportCollisions */
      , (31842,  14, True ) /* GravityStatus */
+     , (31842,  19, False) /* Attackable */
      , (31842,  41, True ) /* ReportCollisionsAsEnvironment */
      , (31842,  42, True ) /* AllowEdgeSlide */;
 
