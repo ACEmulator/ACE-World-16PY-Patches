@@ -10,7 +10,6 @@ VALUES (32720,   1,        128) /* ItemType - Misc */
      , (32720,  16,          1) /* ItemUseable - No */
      , (32720,  19,          0) /* Value */
      , (32720,  33,          1) /* Bonded - Bonded */
-     , (32720,  53,        101) /* PlacementPosition - Resting */
      , (32720,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32720, 114,          1) /* Attuned - Attuned */
      , (32720, 150,        103) /* HookPlacement - Hook */
