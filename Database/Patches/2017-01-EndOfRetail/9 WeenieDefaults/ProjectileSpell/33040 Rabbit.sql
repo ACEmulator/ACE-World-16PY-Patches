@@ -19,7 +19,7 @@ VALUES (33040,   1, True ) /* Stuck */
      , (33040,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33040,  26,       2) /* MaximumVelocity */
+VALUES (33040,  26,       4) /* MaximumVelocity */
      , (33040,  77,       1) /* PhysicsScriptIntensity */
      , (33040,  78,       1) /* Friction */
      , (33040,  79,       0) /* Elasticity */;
