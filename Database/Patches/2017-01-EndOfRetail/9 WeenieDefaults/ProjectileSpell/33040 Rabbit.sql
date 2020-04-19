@@ -4,7 +4,8 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (33040, 'ace33040-rabbit', 33, '2020-04-11 06:52:23') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (33040,   8,         25) /* Mass */
+VALUES (33040,   3,         61) /* PaletteTemplate - White */
+     , (33040,   8,         25) /* Mass */
      , (33040,   9,          0) /* ValidLocations - None */
      , (33040,  66,          0) /* CheckpointStatus */
      , (33040,  93,     133140) /* PhysicsState - Ethereal, IgnoreCollisions, LightingOn, Inelastic */;
@@ -30,6 +31,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33040,   1,   33556870) /* Setup */
      , (33040,   3,  536871108) /* SoundTable */
      , (33040,   6,   67109300) /* PaletteBase */
+     , (33040,   7,  268435725) /* ClothingBase */
      , (33040,   8,  100669116) /* Icon */
      , (33040,  22,  872415240) /* PhysicsEffectTable */
      , (33040,  28,       3902) /* Spell - RabbitRing */
