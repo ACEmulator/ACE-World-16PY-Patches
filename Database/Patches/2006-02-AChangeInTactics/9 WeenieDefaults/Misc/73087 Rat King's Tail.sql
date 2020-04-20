@@ -23,6 +23,7 @@ VALUES (73087,  39,     0.4) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (73087,   1, 'Rat King''s Tail') /* Name */
      , (73087,  16, 'This has no apparent use.') /* LongDesc */
+     , (73087,  33, 'PickedUpRatKingsTail') /* Quest */
      , (73087,  37, 'ratcatcherquestacquired') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
