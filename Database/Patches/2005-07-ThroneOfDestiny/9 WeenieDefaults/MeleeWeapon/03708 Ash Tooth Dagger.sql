@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3708;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3708, 'daggerashtooth', 6, '2019-08-21 00:00:00') /* MeleeWeapon */;
+VALUES (3708, 'daggerashtooth', 6, '2020-04-18 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3708,   1,          1) /* ItemType - MeleeWeapon */
@@ -29,8 +29,10 @@ VALUES (3708,  22, True ) /* Inscribable */;
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3708,  21,     0.4) /* WeaponLength */
      , (3708,  22,     0.5) /* DamageVariance */
+     , (3708,  26,       0) /* MaximumVelocity */
      , (3708,  29,    1.05) /* WeaponDefense */
-     , (3708,  62,    1.05) /* WeaponOffense */;
+     , (3708,  62,    1.05) /* WeaponOffense */
+     , (3708,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3708,   1, 'Ash Tooth Dagger') /* Name */

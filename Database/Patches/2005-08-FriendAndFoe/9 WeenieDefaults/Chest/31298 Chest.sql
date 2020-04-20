@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31298;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31298, 'ace31298-chest', 20, '2019-03-26 20:02:53') /* Chest */;
+VALUES (31298, 'ace31298-chest', 20, '2020-04-13 00:00:00') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31298,   1,        512) /* ItemType - Container */
@@ -10,9 +10,7 @@ VALUES (31298,   1,        512) /* ItemType - Container */
      , (31298,   7,         10) /* ContainersCapacity */
      , (31298,   8,       6000) /* Mass */
      , (31298,  16,         48) /* ItemUseable - ViewedRemote */
-     , (31298,  19,       2500) /* Value */
-     , (31298,  37,        240) /* ResistItemAppraisal */
-     , (31298,  38,       5000) /* ResistLockpick */
+     , (31298,  19,        200) /* Value */
      , (31298,  81,         10) /* MaxGeneratedObjects */
      , (31298,  82,          6) /* InitGeneratedObjects */
      , (31298,  83,          2) /* ActivationResponse - Use */
@@ -28,7 +26,7 @@ VALUES (31298,   1, True ) /* Stuck */
      , (31298,  13, False) /* Ethereal */
      , (31298,  33, False) /* ResetMessagePending */
      , (31298,  34, False) /* DefaultOpen */
-     , (31298,  35, True ) /* DefaultLocked */;
+     , (31298,  35, False) /* DefaultLocked */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31298,  11,      30) /* ResetInterval */

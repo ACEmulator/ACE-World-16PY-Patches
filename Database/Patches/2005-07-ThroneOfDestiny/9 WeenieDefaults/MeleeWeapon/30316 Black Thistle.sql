@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30316;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30316, 'daggerrareblackthistle', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (30316, 'daggerrareblackthistle', 6, '2020-04-18 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30316,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,8 +20,6 @@ VALUES (30316,   1,          1) /* ItemType - MeleeWeapon */
      , (30316,  48,         45) /* WeaponSkill - LightWeapons */
      , (30316,  49,         20) /* WeaponTime */
      , (30316,  51,          1) /* CombatUse - Melee */
-     , (30316,  52,          2) /* ParentLocation */
-     , (30316,  53,          3) /* PlacementPosition */
      , (30316,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30316, 106,        500) /* ItemSpellcraft */
      , (30316, 107,       2100) /* ItemCurMana */
@@ -47,17 +45,18 @@ VALUES (30316,  11, True ) /* IgnoreCollisions */
      , (30316,  19, True ) /* Attackable */
      , (30316,  22, True ) /* Inscribable */
      , (30316,  65, True ) /* IgnoreMagicResist */
+     , (30316,  66, True ) /* IgnoreMagicArmor */
      , (30316, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30316,   5, -0.0333329997956753) /* ManaRate */
      , (30316,  12, 0.660000026226044) /* Shade */
      , (30316,  21,       1) /* WeaponLength */
-     , (30316,  22, 0.19200000166893) /* DamageVariance */
-     , (30316,  29, 1.17999994754791) /* WeaponDefense */
+     , (30316,  22,   0.192) /* DamageVariance */
+     , (30316,  29,    1.18) /* WeaponDefense */
      , (30316,  39,       1) /* DefaultScale */
-     , (30316,  62, 1.17999994754791) /* WeaponOffense */
-     , (30316, 138, 1.20000004768372) /* SlayerDamageBonus */
+     , (30316,  62,    1.18) /* WeaponOffense */
+     , (30316, 138,     1.2) /* SlayerDamageBonus */
      , (30316, 151,       1) /* IgnoreShield */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
