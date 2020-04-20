@@ -71,10 +71,6 @@ VALUES (32727,   1,   33554493) /* Setup */
      , (32727,  30,         87) /* PhysicsScript - BreatheLightning */
      , (32727,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32727, 8040, 3612737794, 119.352, 22.5199, 28.82, -0.9660356, 0, 0, 0.2584089) /* PCAPRecordedLocation */
-/* @teleloc 0xD7560102 [119.352000 22.519900 28.820000] -0.966036 0.000000 0.000000 0.258409 */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32727,   1, 120, 0, 0) /* Strength */
      , (32727,   2, 120, 0, 0) /* Endurance */
