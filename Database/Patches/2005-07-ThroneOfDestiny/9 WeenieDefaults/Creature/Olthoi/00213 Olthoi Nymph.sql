@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 213;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (213, 'olthoinymph', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (213, 'olthoinymph', 10, '2020-04-17 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (213,   1,         16) /* ItemType - Creature */
@@ -64,7 +64,8 @@ VALUES (213,   1,       5) /* HeartbeatInterval */
      , (213, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (213,   1, 'Olthoi Nymph') /* Name */;
+VALUES (213,   1, 'Olthoi Nymph') /* Name */
+     , (213,  45, 'KilltaskOlthoiNymph') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (213,   1,   33557163) /* Setup */
