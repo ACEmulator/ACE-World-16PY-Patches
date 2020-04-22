@@ -2,7 +2,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44044;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44044, 'ace44044-mumiyahsoldier', 10, '2019-08-16 00:00:00') /* Creature */;
+VALUES (44044, 'ace44044-mumiyahsoldier', 10, '2020-04-22 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44044,   1,         16) /* ItemType - Creature */
@@ -39,7 +39,7 @@ VALUES (44044,   1,       5) /* HeartbeatInterval */
      , (44044,   5,       3) /* ManaRate */
      , (44044,  12,     0.0) /* Shade */
 	 , (44044,  39,     1.2) /* DefaultScale */
-      , (44044,  13,    0.67) /* ArmorModVsSlash */
+     , (44044,  13,    0.67) /* ArmorModVsSlash */
      , (44044,  14,     0.9) /* ArmorModVsPierce */
      , (44044,  15,    0.75) /* ArmorModVsBludgeon */
      , (44044,  16,       1) /* ArmorModVsCold */
@@ -47,7 +47,7 @@ VALUES (44044,   1,       5) /* HeartbeatInterval */
      , (44044,  18,    0.67) /* ArmorModVsAcid */
      , (44044,  19,       1) /* ArmorModVsElectric */
      , (44044,  27,    5.01) /* RotationSpeed */
-     , (44044,  31,      16) /* VisualAwarenessRange */
+     , (44044,  31,      24) /* VisualAwarenessRange */
      , (44044,  34,       1) /* PowerupTime */
      , (44044,  36,       1) /* ChargeSpeed */
      , (44044,  64,     0.8) /* ResistSlash */
