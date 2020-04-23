@@ -44,7 +44,7 @@ VALUES (44032,   1,       5) /* HeartbeatInterval */
      , (44032,  17,     0.8) /* ArmorModVsFire */
      , (44032,  18,    0.67) /* ArmorModVsAcid */
      , (44032,  19,     0.8) /* ArmorModVsElectric */
-     , (44032,  31,      12) /* VisualAwarenessRange */
+     , (44032,  31,      22) /* VisualAwarenessRange */
      , (44032,  64,    0.67) /* ResistSlash */
      , (44032,  65,    0.67) /* ResistPierce */
      , (44032,  66,    0.67) /* ResistBludgeon */
@@ -88,14 +88,14 @@ VALUES (44032,   1,  9815, 0, 0, 10000) /* MaxHealth */
      , (44032,   5,  5000, 0, 0, 5260) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (44032,  6, 0, 2, 0, 290, 0, 0) /* MeleeDefense        Trained */
-     , (44032,  7, 0, 2, 0, 320, 0, 0) /* MissileDefense      Trained */
-     , (44032, 15, 0, 2, 0, 270, 0, 0) /* MagicDefense        Trained */
-     , (44032, 24, 0, 2, 0,  25, 0, 0) /* Run                 Trained */
-     , (44032, 33, 0, 2, 0, 200, 0, 0) /* LifeMagic           Trained */
-     , (44032, 34, 0, 2, 0, 200, 0, 0) /* WarMagic            Trained */
-     , (44032, 45, 0, 3, 0, 380, 0, 0) /* LightWeapons        Specialized */
-     , (44032, 46, 0, 3, 0, 380, 0, 0) /* FinesseWeapons      Specialized */;
+VALUES (44032,  6, 0, 2, 0, 400, 0, 0) /* MeleeDefense        Trained */
+     , (44032,  7, 0, 2, 0, 490, 0, 0) /* MissileDefense      Trained */
+     , (44032, 15, 0, 2, 0, 425, 0, 0) /* MagicDefense        Trained */
+     , (44032, 24, 0, 2, 0, 350, 0, 0) /* Run                 Trained */
+     , (44032, 33, 0, 2, 0, 500, 0, 0) /* LifeMagic           Trained */
+     , (44032, 34, 0, 2, 0, 425, 0, 0) /* WarMagic            Trained */
+     , (44032, 45, 0, 3, 0, 500, 0, 0) /* LightWeapons        Specialized */
+     , (44032, 46, 0, 3, 0, 500, 0, 0) /* FinesseWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (44032,  0,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -103,10 +103,10 @@ VALUES (44032,  0,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,
      , (44032,  2,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (44032,  3,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (44032,  4,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (44032,  5,  4,  4, 0.75,  250,  250,  150,  275,  250,  100,  250,  150,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (44032,  5,  4, 480, 0.75,  250,  250,  150,  275,  250,  100,  250,  150,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (44032,  6,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (44032,  7,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (44032,  8,  4,  8, 0.75,  250,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (44032,  8,  4, 480, 0.75,  250,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44032,  3878,   2.06)  /* Incendiary Strike */

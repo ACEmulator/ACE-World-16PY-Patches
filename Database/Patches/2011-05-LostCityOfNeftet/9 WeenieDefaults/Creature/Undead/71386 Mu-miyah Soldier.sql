@@ -44,7 +44,7 @@ VALUES (71386,   1,       5) /* HeartbeatInterval */
      , (71386,  18,    0.67) /* ArmorModVsAcid */
      , (71386,  19,       1) /* ArmorModVsElectric */
      , (71386,  27,    5.01) /* RotationSpeed */
-     , (71386,  31,      16) /* VisualAwarenessRange */
+     , (71386,  31,      22) /* VisualAwarenessRange */
      , (71386,  34,       1) /* PowerupTime */
      , (71386,  36,       1) /* ChargeSpeed */
      , (71386,  64,     0.8) /* ResistSlash */
@@ -119,9 +119,9 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (71386,  2170,   1.06)  /* Inferno's Gift */
      , (71386,  4423,   1.06)  /*  Incantation of Flame Arc */
 	 , (71386,  2074,   1.06)  /* Gossamer Flesh */;
-	 
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (71386, 9, 71355,  1, 0, 1, False) /* Create MuMiyah Sacrifical Dagger (71355) for ContainTreasure */;
-	 
-	 
-	 
+
+
+

@@ -45,7 +45,7 @@ VALUES (44099,   1,       5) /* HeartbeatInterval */
      , (44099,  18,    0.67) /* ArmorModVsAcid */
      , (44099,  19,       1) /* ArmorModVsElectric */
      , (44099,  27,    5.01) /* RotationSpeed */
-     , (44099,  31,      16) /* VisualAwarenessRange */
+     , (44099,  31,      22) /* VisualAwarenessRange */
      , (44099,  34,       1) /* PowerupTime */
      , (44099,  36,       1) /* ChargeSpeed */
      , (44099,  64,     0.8) /* ResistSlash */
@@ -66,7 +66,7 @@ VALUES (44099,   1,       5) /* HeartbeatInterval */
      , (44099, 104,      10) /* ObviousRadarRange */
      , (44099, 122,       2) /* AiAcquireHealth */
      , (44099, 125,       1) /* ResistHealthDrain */;
-	 
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44099,   1, 'Mu-miyah Sentinel') /* Name */
 	 , (44099,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;

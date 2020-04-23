@@ -46,7 +46,7 @@ VALUES (44038,   1,       5) /* HeartbeatInterval */
      , (44038,  18,    0.67) /* ArmorModVsAcid */
      , (44038,  19,       1) /* ArmorModVsElectric */
      , (44038,  27,    5.01) /* RotationSpeed */
-     , (44038,  31,      16) /* VisualAwarenessRange */
+     , (44038,  31,      22) /* VisualAwarenessRange */
      , (44038,  34,       1) /* PowerupTime */
      , (44038,  36,       1) /* ChargeSpeed */
      , (44038,  64,     0.8) /* ResistSlash */
@@ -142,4 +142,4 @@ VALUES (44038, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44038, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44038, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44038, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-	 
+

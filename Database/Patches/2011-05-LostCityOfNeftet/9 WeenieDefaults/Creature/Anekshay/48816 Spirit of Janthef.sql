@@ -34,17 +34,17 @@ VALUES (48816,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48816,   1,       5) /* HeartbeatInterval */
      , (48816,   2,       0) /* HeartbeatTimestamp */
-     , (48816,   3, 0.159999996423721) /* HealthRate */
+     , (48816,   3,     0.6) /* HealthRate */
      , (48816,   4,       5) /* StaminaRate */
      , (48816,   5,       1) /* ManaRate */
 	 , (48816,  12,  0.1000) /* Shade */
-     , (48816,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (48816,  13,     0.9) /* ArmorModVsSlash */
      , (48816,  14,       1) /* ArmorModVsPierce */
-     , (48816,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (48816,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (48816,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (48816,  15,     1.1) /* ArmorModVsBludgeon */
+     , (48816,  16,     0.4) /* ArmorModVsCold */
+     , (48816,  17,     0.4) /* ArmorModVsFire */
      , (48816,  18,       1) /* ArmorModVsAcid */
-     , (48816,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (48816,  19,     0.6) /* ArmorModVsElectric */
 	 , (48816,  39,     1.1) /* DefaultScale */
      , (48816,  54,       3) /* UseRadius */
      , (48816,  64,       1) /* ResistSlash */
@@ -59,7 +59,7 @@ VALUES (48816,   1,       5) /* HeartbeatInterval */
      , (48816,  73,       1) /* ResistStaminaBoost */
      , (48816,  74,       1) /* ResistManaDrain */
      , (48816,  75,       1) /* ResistManaBoost */
-	 , (48816,  76,      0.4) /* Translucency */
+	 , (48816,  76,     0.4) /* Translucency */
      , (48816, 104,      10) /* ObviousRadarRange */
      , (48816, 125,       1) /* ResistHealthDrain */;
 
@@ -130,12 +130,12 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I....I...', NULL, NULL, NUL
 	 , (@parent_id,  3,  10 /* Tell */, 0.5, 1, NULL, 'A lifetime in the blink of an eye. The priestess can hide from me no more. Revenge will be mine.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 	 , (@parent_id,  4,  10 /* Tell */, 0.5, 1, NULL, 'My eternal thanks.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,  22 /* StampQuest */, 0, 1, NULL, 'EscapeCompleted_0213', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  6,  31 /* EraseQuest */, 0, 1, NULL, 'EscapeStarted_0213', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)   
+     , (@parent_id,  6,  31 /* EraseQuest */, 0, 1, NULL, 'EscapeStarted_0213', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  7,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 321876548, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  8, 113 /* AwardLuminance */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 20000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)    
+     , (@parent_id,  8, 113 /* AwardLuminance */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 20000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 	 , (@parent_id,  9,   3 /* Give */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1 /* Contain */, 48748 /* Two Use Legendary Key */, 1, 0, 1, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  10,  3 /* Give */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 20630 /* Trade Note (250,000) (x8) 20630 */, 8, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-    
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (48816, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'EscapeStarted_0213', NULL, NULL, NULL);
 

@@ -42,7 +42,7 @@ VALUES (48801,   1,       5) /* HeartbeatInterval */
      , (48801,  54,       3) /* UseRadius */
 	 , (48801,  76,     0.4) /* Translucency */
      , (48801, 104,      10) /* ObviousRadarRange */
-     , (48801, 125,       1) /* ResistHealthDrain */ 
+     , (48801, 125,       1) /* ResistHealthDrain */
 	 , (48801,  13,       1) /* ArmorModVsSlash */
      , (48801,  14,     0.9) /* ArmorModVsPierce */
      , (48801,  15,    0.75) /* ArmorModVsBludgeon */
@@ -51,7 +51,7 @@ VALUES (48801,   1,       5) /* HeartbeatInterval */
      , (48801,  18,    0.67) /* ArmorModVsAcid */
      , (48801,  19,       1) /* ArmorModVsElectric */
      , (48801,  27,    5.01) /* RotationSpeed */
-     , (48801,  31,      16) /* VisualAwarenessRange */
+     , (48801,  31,      22) /* VisualAwarenessRange */
      , (48801,  34,       1) /* PowerupTime */
      , (48801,  36,       1) /* ChargeSpeed */
      , (48801,  64,    0.25) /* ResistSlash */
@@ -68,9 +68,9 @@ VALUES (48801,   1,       5) /* HeartbeatInterval */
      , (48801,  74,       1) /* ResistManaDrain */
      , (48801,  75,       1) /* ResistManaBoost */
      , (48801,  80,       3) /* AiUseMagicDelay */
-	 , (48801, 117,     0.5) /* FocusedProbability */     
+	 , (48801, 117,     0.5) /* FocusedProbability */
      , (48801, 122,       2) /* AiAcquireHealth */;
-   
+
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48801,   1, 'Janthef') /* Name */;
@@ -83,7 +83,7 @@ VALUES (48801,   1,   33561251) /* Setup */
      , (48801,   8,  100670274) /* Icon */
 	 , (48801,   4,  805306368) /* CombatTable */
      , (48801,  22,  872415269) /* PhysicsEffectTable */;
-	 
+
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (48801,   1, 350, 0, 0) /* Strength */
@@ -134,10 +134,10 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
- 
+
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48801, 1, 48816, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Spirit of Janthef  - Location to (re)Generate: Scatter */;
-     
+
 
 

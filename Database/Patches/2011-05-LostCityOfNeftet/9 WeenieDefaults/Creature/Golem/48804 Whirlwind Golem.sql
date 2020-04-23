@@ -44,7 +44,7 @@ VALUES (48804,   1,       5) /* HeartbeatInterval */
      , (48804,  18,       1) /* ArmorModVsAcid */
      , (48804,  19,       1) /* ArmorModVsElectric */
      , (48804,  27,     3.0) /* RotationSpeed */
-     , (48804,  31,      16) /* VisualAwarenessRange */
+     , (48804,  31,      22) /* VisualAwarenessRange */
      , (48804,  34,       1) /* PowerupTime */
      , (48804,  36,       1) /* ChargeSpeed */
      , (48804,  64,    0.25) /* ResistSlash */

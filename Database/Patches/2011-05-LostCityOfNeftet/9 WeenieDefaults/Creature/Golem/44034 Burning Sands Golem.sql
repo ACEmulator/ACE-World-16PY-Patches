@@ -91,10 +91,10 @@ VALUES (44034,   1,  9815, 0, 0, 10000) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (44034,  6, 0, 2, 0, 470, 0, 0) /* MeleeDefense        Trained */
      , (44034,  7, 0, 2, 0, 390, 0, 0) /* MissileDefense      Trained */
-     , (44034, 15, 0, 2, 0, 400, 0, 0) /* MagicDefense        Trained */
+     , (44034, 15, 0, 2, 0, 445, 0, 0) /* MagicDefense        Trained */
      , (44034, 24, 0, 2, 0, 255, 0, 0) /* Run                 Trained */
      , (44034, 33, 0, 2, 0, 500, 0, 0) /* LifeMagic           Trained */
-     , (44034, 34, 0, 2, 0, 400, 0, 0) /* WarMagic            Trained */
+     , (44034, 34, 0, 2, 0, 450, 0, 0) /* WarMagic            Trained */
      , (44034, 45, 0, 3, 0, 600, 0, 0) /* LightWeapons        Specialized */
      , (44034, 46, 0, 3, 0, 600, 0, 0) /* FinesseWeapons      Specialized */;
 
@@ -104,10 +104,10 @@ VALUES (44034,  0,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,
      , (44034,  2,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (44034,  3,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (44034,  4,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (44034,  5,  4,  4, 0.75,  250,  250,  150,  275,  250,  100,  250,  150,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (44034,  5,  4, 600, 0.75,  250,  250,  150,  275,  250,  100,  250,  150,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (44034,  6,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (44034,  7,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (44034,  8,  4,  8, 0.75,  250,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (44034,  8,  4, 600, 0.75,  250,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44034,  5542,   2.06)  /* Burning Sands Infliction */
@@ -116,7 +116,7 @@ VALUES (44034,  5542,   2.06)  /* Burning Sands Infliction */
      , (44034,  5011,   2.06)  /* Geomantic Raze */
      , (44034,  4643,   2.06)  /* Incantation of Drain Health */
      , (44034,  4645,   2.06)  /* Incantation of Drain Stamina Other */;
-	 
+
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44034,  5 /* HeartBeat */,  0.075, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
@@ -145,7 +145,7 @@ VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, 
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44034, 1, 24517, -1, 3, 3, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Small Sand Golem (24517) (x3)  - Location to (re)Generate: Scatter */;
-     
+
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44034, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
@@ -159,6 +159,6 @@ VALUES (44034, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44034, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44034, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44034, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
+
+
+

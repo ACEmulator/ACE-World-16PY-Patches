@@ -44,7 +44,7 @@ VALUES (44091,   1,       5) /* HeartbeatInterval */
      , (44091,  18,    0.67) /* ArmorModVsAcid */
      , (44091,  19,       1) /* ArmorModVsElectric */
      , (44091,  27,    5.01) /* RotationSpeed */
-     , (44091,  31,      16) /* VisualAwarenessRange */
+     , (44091,  31,      22) /* VisualAwarenessRange */
      , (44091,  34,       1) /* PowerupTime */
      , (44091,  36,       1) /* ChargeSpeed */
      , (44091,  64,    0.25) /* ResistSlash */
@@ -64,7 +64,7 @@ VALUES (44091,   1,       5) /* HeartbeatInterval */
 	 , (44091, 117,     0.5) /* FocusedProbability */
      , (44091, 104,      10) /* ObviousRadarRange */
      , (44091, 122,       2) /* AiAcquireHealth */
-     , (44091, 125,       1) /* ResistHealthDrain */														
+     , (44091, 125,       1) /* ResistHealthDrain */
 	,  (44091,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -74,7 +74,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44091,   1,   33561252) /* Setup */
      , (44091,   2,  150994945) /* MotionTable */
      , (44091,   3,  536870933) /* SoundTable */
-     , (44091,   4,  805306368) /* CombatTable */												 
+     , (44091,   4,  805306368) /* CombatTable */
      , (44091,   6,   67108990) /* PaletteBase */
      , (44091,   8,  100670274) /* Icon */
      , (44091,  22,  872415269) /* PhysicsEffectTable */
@@ -137,4 +137,4 @@ VALUES (44091, 9, 48908,  1, 0, 0.03, False) /* Create Shattered Legendary Key (
      , (44091, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
      , (44091, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
 
-	 
+

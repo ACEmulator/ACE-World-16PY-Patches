@@ -44,7 +44,7 @@ VALUES (44028,   1,       5) /* HeartbeatInterval */
      , (44028,  18,    0.67) /* ArmorModVsAcid */
      , (44028,  19,       1) /* ArmorModVsElectric */
      , (44028,  27,    5.01) /* RotationSpeed */
-     , (44028,  31,      16) /* VisualAwarenessRange */
+     , (44028,  31,      22) /* VisualAwarenessRange */
      , (44028,  34,       1) /* PowerupTime */
      , (44028,  36,       1) /* ChargeSpeed */
      , (44028,  64,    0.25) /* ResistSlash */
@@ -74,7 +74,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44028,   1,   33561251) /* Setup */
      , (44028,   2,  150994945) /* MotionTable */
      , (44028,   3,  536870933) /* SoundTable */
-     , (44028,   4,  805306368) /* CombatTable */												 
+     , (44028,   4,  805306368) /* CombatTable */
      , (44028,   6,   67108990) /* PaletteBase */
      , (44028,   8,  100670274) /* Icon */
      , (44028,  22,  872415269) /* PhysicsEffectTable */
@@ -149,4 +149,4 @@ VALUES (@parent_id, 0, 15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NU
 
 
 
-	 
+

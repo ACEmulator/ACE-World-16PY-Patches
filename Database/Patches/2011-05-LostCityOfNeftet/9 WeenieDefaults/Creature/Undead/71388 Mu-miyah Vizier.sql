@@ -45,7 +45,7 @@ VALUES (71388,   1,       5) /* HeartbeatInterval */
      , (71388,  18,    0.67) /* ArmorModVsAcid */
      , (71388,  19,       1) /* ArmorModVsElectric */
      , (71388,  27,    5.01) /* RotationSpeed */
-     , (71388,  31,      16) /* VisualAwarenessRange */
+     , (71388,  31,      22) /* VisualAwarenessRange */
      , (71388,  34,       1) /* PowerupTime */
      , (71388,  36,       1) /* ChargeSpeed */
      , (71388,  64,     0.8) /* ResistSlash */
@@ -121,7 +121,7 @@ VALUES (71388,  4442,   2.06)  /* Incantation of Force Blast */
 	 , (71388,  6192,   2.06)  /* Nuhmudira's Spines */
 	 , (71388,  2174,   2.06)  /*  Archer's Gift */
 	 , (71388,  4489,   2.06)  /*  Incantation of Fester Other */;
-		 
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (71388, 9, 71355,  1, 0, 1, False) /* Create MuMiyah Sacrifical Dagger (71355) for ContainTreasure */;
 

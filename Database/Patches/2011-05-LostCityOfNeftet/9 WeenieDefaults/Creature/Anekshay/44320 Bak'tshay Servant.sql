@@ -44,7 +44,7 @@ VALUES (44320,   1,       5) /* HeartbeatInterval */
 	 , (44320,  18,    0.67) /* ArmorModVsAcid */
 	 , (44320,  19,       1) /* ArmorModVsElectric */
 	 , (44320,  27,    5.01) /* RotationSpeed */
-	 , (44320,  31,      16) /* VisualAwarenessRange */
+	 , (44320,  31,      22) /* VisualAwarenessRange */
 	 , (44320,  34,       1) /* PowerupTime */
 	 , (44320,  36,       1) /* ChargeSpeed */
 	 , (44320,  64,    0.25) /* ResistSlash */
@@ -64,7 +64,7 @@ VALUES (44320,   1,       5) /* HeartbeatInterval */
 	 , (44320, 117,     0.5) /* FocusedProbability */
 	 , (44320, 104,      10) /* ObviousRadarRange */
 	 , (44320, 122,       2) /* AiAcquireHealth */
-	 , (44320, 125,       1) /* ResistHealthDrain */														
+	 , (44320, 125,       1) /* ResistHealthDrain */
 	 ,  (44320,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -75,7 +75,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44320,   1,   33561252) /* Setup */
 	 , (44320,   2,  150994945) /* MotionTable */
 	 , (44320,   3,  536870933) /* SoundTable */
-	 , (44320,   4,  805306368) /* CombatTable */												 
+	 , (44320,   4,  805306368) /* CombatTable */
 	 , (44320,   6,   67108990) /* PaletteBase */
 	 , (44320,   8,  100670274) /* Icon */
 	 , (44320,  22,  872415269) /* PhysicsEffectTable */
@@ -127,7 +127,7 @@ VALUES (44320,  1785,   2.06)  /* Cassius' Ring of Fire */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44320, 9, 44303,  1, 0, 0.99, False) /* Create Ancient Sacred A'nekshay Crystal for ContainTreasure */
-	 , (44320, 9,     0,  0, 0, 0.01, False) /* Create nothing for ContainTreasure */;				 
+	 , (44320, 9,     0,  0, 0, 0.01, False) /* Create nothing for ContainTreasure */;
 
 
 

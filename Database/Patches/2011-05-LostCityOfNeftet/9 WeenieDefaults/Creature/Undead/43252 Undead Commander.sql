@@ -6,7 +6,7 @@ VALUES (43252, 'ace43252-undeadcommander', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43252,   1,         16) /* ItemType - Creature */
      , (43252,   2,         14) /* CreatureType - Undead */
-    ,  (43252,   3,         69) /* PaletteTemplate - Yellow Slime */																			   
+    ,  (43252,   3,         69) /* PaletteTemplate - Yellow Slime */
      , (43252,   6,          -1) /* ItemsCapacity */
      , (43252,   7,          -1) /* ContainersCapacity */
      , (43252,  16,          1) /* ItemUseable - No */
@@ -19,7 +19,7 @@ VALUES (43252,   1,         16) /* ItemType - Creature */
      , (43252, 146,    1250000) /* XpOverride */
      , (43252, 332,        100) /* LuminanceAward */;
 
-	 	 
+
 	 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43252,   1, True ) /* Stuck */
      , (43252,   6, True ) /* AiUsesMana */
@@ -38,7 +38,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43252,   1,   33558541) /* Setup */
      , (43252,   2,  150994967) /* MotionTable */
      , (43252,   3,  536870934) /* SoundTable */
-     , (43252,   4,  805306368) /* CombatTable */																  
+     , (43252,   4,  805306368) /* CombatTable */
      , (43252,   6,   67114692) /* PaletteBase */
      , (43252,   8,  100667942) /* Icon */
      , (43252,  22,  872415272) /* PhysicsEffectTable */
@@ -51,7 +51,7 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (43252,   1,     59950, 0, 0, 60250) /* MaxHealth */
      , (43252,   3,    59950, 0, 0, 60500) /* MaxStamina */
      , (43252,   5,  4200, 0, 0, 4500) /* MaxMana */;
-	 
+
 	 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43252,   1, 500, 0, 0) /* Strength */
      , (43252,   2, 500, 0, 0) /* Endurance */
@@ -78,7 +78,7 @@ VALUES (43252,   1,       5) /* HeartbeatInterval */
      , (43252,  18,    0.95) /* ArmorModVsAcid */
      , (43252,  19,       1) /* ArmorModVsElectric */
      , (43252,  27,    5.01) /* RotationSpeed */
-     , (43252,  31,      16) /* VisualAwarenessRange */
+     , (43252,  31,      34) /* VisualAwarenessRange */
      , (43252,  34,       1) /* PowerupTime */
      , (43252,  36,       1) /* ChargeSpeed */
      , (43252,  64,    0.65) /* ResistSlash */
@@ -99,7 +99,7 @@ VALUES (43252,   1,       5) /* HeartbeatInterval */
      , (43252, 104,      10) /* ObviousRadarRange */
      , (43252, 122,       2) /* AiAcquireHealth */
      , (43252, 125,       1) /* ResistHealthDrain */;
-	 
+
 	 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43252,  3878,   2.06)  /* Incendiary Strike */
      , (43252,  3948,   2.06)  /* Flame Wave */
@@ -107,7 +107,7 @@ VALUES (43252,  3878,   2.06)  /* Incendiary Strike */
      , (43252,  4644,   2.06)  /* Incantation of Drain Mana Other */
      , (43252,  4643,   2.06)  /* Incantation of Drain Health */
      , (43252,  4645,   2.06)  /* Incantation of Drain Stamina Other */;
-	 
+
 	 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (43252, 45, 0, 3, 0, 290, 0, 0) /* LightWeapons        Specialized */
      , (43252, 47, 0, 3, 0, 155, 0, 0) /* MissileWeapons      Specialized */
@@ -133,12 +133,11 @@ VALUES (43252,  0,  4,  0,    0,  390,  290,  290,  290,  290,  290,  290,  290,
      , (43252,  6,  4,  0,    0,  390,  290,  290,  290,  290,  290,  290,  290,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (43252,  7,  4,  0,    0,  390,  290,  290,  290,  290,  290,  290,  290,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (43252,  8,  4, 500, 0.75,  390,  290,  290,  290,  290,  290,  290,  290,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-	 
-	 
+
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES  (43252, 9, 41979,  1, 0, 0.1, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
-      , (43252, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;				
+      , (43252, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;
 
 
 
-	 

@@ -1,6 +1,5 @@
 /* Overworld Spawn Only */
 
-
 DELETE FROM `weenie` WHERE `class_Id` = 44031;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -48,7 +47,7 @@ VALUES (44031,   1,       5) /* HeartbeatInterval */
      , (44031,  18,       1) /* ArmorModVsAcid */
      , (44031,  19,       1) /* ArmorModVsElectric */
      , (44031,  27,     3.0) /* RotationSpeed */
-     , (44031,  31,      16) /* VisualAwarenessRange */
+     , (44031,  31,      34) /* VisualAwarenessRange */
      , (44031,  34,       1) /* PowerupTime */
      , (44031,  36,       1) /* ChargeSpeed */
      , (44031,  64,    0.25) /* ResistSlash */
@@ -139,3 +138,5 @@ VALUES (44031, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44031, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44031, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44031, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
+	 
+	 

@@ -8,7 +8,7 @@ VALUES (48814, 'ace48814-janthef', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48814,   1,         16) /* ItemType - Creature */
 	 , (48814,   3,         19) /* Palette Template Copper */
-     , (48814,   2,         77) /* CreatureType - Ghost*/ 
+     , (48814,   2,         77) /* CreatureType - Ghost*/
      , (48814,   6,         -1) /* ItemsCapacity */
      , (48814,   7,         -1) /* ContainersCapacity */
      , (48814,  16,         32) /* ItemUseable - Remote */
@@ -33,17 +33,17 @@ VALUES (48814,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48814,   1,       5) /* HeartbeatInterval */
      , (48814,   2,       0) /* HeartbeatTimestamp */
-     , (48814,   3, 0.159999996423721) /* HealthRate */
+     , (48814,   3,     0.6) /* HealthRate */
      , (48814,   4,       5) /* StaminaRate */
      , (48814,   5,       1) /* ManaRate */
 	 , (48814,  12,  0.1000) /* Shade */
-     , (48814,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (48814,  13,     0.9) /* ArmorModVsSlash */
      , (48814,  14,       1) /* ArmorModVsPierce */
-     , (48814,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (48814,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (48814,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (48814,  15,     1.1) /* ArmorModVsBludgeon */
+     , (48814,  16,     0.4) /* ArmorModVsCold */
+     , (48814,  17,     0.4) /* ArmorModVsFire */
      , (48814,  18,       1) /* ArmorModVsAcid */
-     , (48814,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (48814,  19,     0.6) /* ArmorModVsElectric */
 	 , (48814,  39,     1.1) /* DefaultScale */
      , (48814,  54,       3) /* UseRadius */
      , (48814,  64,       1) /* ResistSlash */
@@ -73,7 +73,7 @@ VALUES (48814,   1,   33561251) /* Setup */
      , (48814,   8,  100670274) /* Icon */
 	 , (48814,   7,  268437566) /* ClothingBase */
      , (48814,  22,  872415269) /* PhysicsEffectTable */;
-	 
+
 	 	 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (48814,   1, 230, 0, 0) /* Strength */
      , (48814,   2, 240, 0, 0) /* Endurance */
@@ -92,8 +92,8 @@ VALUES (48814,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (48814,  6,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (48814,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (48814,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-	 
-	 
+
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (48814,   1,  11305, 0, 0,11425) /* MaxHealth */
      , (48814,   3,  3500, 0, 0, 3740) /* MaxStamina */

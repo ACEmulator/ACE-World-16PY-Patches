@@ -45,7 +45,7 @@ VALUES (44026,   1,       5) /* HeartbeatInterval */
      , (44026,  18,    0.67) /* ArmorModVsAcid */
      , (44026,  19,       1) /* ArmorModVsElectric */
      , (44026,  27,    5.01) /* RotationSpeed */
-     , (44026,  31,      16) /* VisualAwarenessRange */
+     , (44026,  31,      22) /* VisualAwarenessRange */
      , (44026,  34,       1) /* PowerupTime */
      , (44026,  36,       1) /* ChargeSpeed */
      , (44026,  64,    0.25) /* ResistSlash */
@@ -65,7 +65,7 @@ VALUES (44026,   1,       5) /* HeartbeatInterval */
 	 , (44026, 117,     0.5) /* FocusedProbability */
      , (44026, 104,      10) /* ObviousRadarRange */
      , (44026, 122,       2) /* AiAcquireHealth */
-     , (44026, 125,       1) /* ResistHealthDrain */														
+     , (44026, 125,       1) /* ResistHealthDrain */
 	,  (44026,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -75,7 +75,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44026,   1,   33561252) /* Setup */
      , (44026,   2,  150994945) /* MotionTable */
      , (44026,   3,  536870933) /* SoundTable */
-     , (44026,   4,  805306368) /* CombatTable */												 
+     , (44026,   4,  805306368) /* CombatTable */
      , (44026,   6,   67108990) /* PaletteBase */
      , (44026,   8,  100670274) /* Icon */
      , (44026,  22,  872415269) /* PhysicsEffectTable */
@@ -136,7 +136,7 @@ VALUES (44026, 9, 48908,  1, 0, 0.03, False) /* Create Shattered Legendary Key (
      , (44026, 9, 44296,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Idol (Level 180+) (44296) for ContainTreasure */
      , (44026, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44026, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
-     , (44026, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;													 
+     , (44026, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44026, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

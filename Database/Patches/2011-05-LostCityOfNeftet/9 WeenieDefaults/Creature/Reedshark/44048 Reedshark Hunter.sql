@@ -12,7 +12,7 @@ VALUES (44048,   1,         16) /* ItemType - Creature */
      , (44048,  16,          1) /* ItemUseable - No */
      , (44048,  25,        220) /* Level */
      , (44048,  40,          2) /* CombatMode - Melee */
-	 , (44048, 307,          10) /* DamageRating */	 
+	 , (44048, 307,          10) /* DamageRating */
      , (44048,  68,          3) /* TargetingTactic - Random, Focused */
      , (44048,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44048, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -39,7 +39,7 @@ VALUES (44048,   1,       5) /* HeartbeatInterval */
      , (44048,  17,       1) /* ArmorModVsFire */
      , (44048,  18, 0.649999976158142) /* ArmorModVsAcid */
      , (44048,  19,     0.5) /* ArmorModVsElectric */
-     , (44048,  31,      20) /* VisualAwarenessRange */
+     , (44048,  31,      28) /* VisualAwarenessRange */
      , (44048,  34,       1) /* PowerupTime */
      , (44048,  36,       1) /* ChargeSpeed */
      , (44048,  39,     2.5) /* DefaultScale */
@@ -177,7 +177,6 @@ VALUES (44048, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44048, 9, 44295,  1, 0, 0.2, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44048, 9, 44294,  1, 0, 0.2, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44048, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
-	 
+
+
+

@@ -44,7 +44,7 @@ VALUES (44092,   1,       5) /* HeartbeatInterval */
      , (44092,  18,    0.67) /* ArmorModVsAcid */
      , (44092,  19,       1) /* ArmorModVsElectric */
      , (44092,  27,    5.01) /* RotationSpeed */
-     , (44092,  31,      16) /* VisualAwarenessRange */
+     , (44092,  31,      22) /* VisualAwarenessRange */
      , (44092,  34,       1) /* PowerupTime */
      , (44092,  36,       1) /* ChargeSpeed */
      , (44092,  64,    0.25) /* ResistSlash */
@@ -74,7 +74,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44092,   1,   33561251) /* Setup */
      , (44092,   2,  150994945) /* MotionTable */
      , (44092,   3,  536870933) /* SoundTable */
-     , (44092,   4,  805306368) /* CombatTable */												 
+     , (44092,   4,  805306368) /* CombatTable */
      , (44092,   6,   67108990) /* PaletteBase */
      , (44092,   8,  100670274) /* Icon */
      , (44092,  22,  872415269) /* PhysicsEffectTable */
@@ -142,4 +142,4 @@ VALUES (44092, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
 
 
 
-	 
+

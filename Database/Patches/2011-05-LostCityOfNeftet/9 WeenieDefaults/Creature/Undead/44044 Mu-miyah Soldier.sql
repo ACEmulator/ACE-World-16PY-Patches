@@ -47,7 +47,7 @@ VALUES (44044,   1,       5) /* HeartbeatInterval */
      , (44044,  18,    0.67) /* ArmorModVsAcid */
      , (44044,  19,       1) /* ArmorModVsElectric */
      , (44044,  27,    5.01) /* RotationSpeed */
-     , (44044,  31,      16) /* VisualAwarenessRange */
+     , (44044,  31,      22) /* VisualAwarenessRange */
      , (44044,  34,       1) /* PowerupTime */
      , (44044,  36,       1) /* ChargeSpeed */
      , (44044,  64,     0.8) /* ResistSlash */
@@ -123,7 +123,7 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44044,  2170,   1.06)  /* Inferno's Gift */
      , (44044,  4423,   1.06)  /*  Incantation of Flame Arc */
 	 , (44044,  2074,   1.06)  /* Gossamer Flesh */;
-	 
+
 	 	 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44044,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -143,6 +143,6 @@ VALUES (44044, 9, 44240,  1, 0, 0.03, False) /* Create A'nekshay Token (44240) f
      , (44044, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44044, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44044, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
+
+
+

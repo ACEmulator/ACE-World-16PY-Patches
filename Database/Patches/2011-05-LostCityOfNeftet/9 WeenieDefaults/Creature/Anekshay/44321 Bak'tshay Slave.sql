@@ -44,7 +44,7 @@ VALUES (44321,   1,       5) /* HeartbeatInterval */
 	 , (44321,  18,    0.67) /* ArmorModVsAcid */
 	 , (44321,  19,       1) /* ArmorModVsElectric */
 	 , (44321,  27,    5.01) /* RotationSpeed */
-	 , (44321,  31,      16) /* VisualAwarenessRange */
+	 , (44321,  31,      22) /* VisualAwarenessRange */
 	 , (44321,  34,       1) /* PowerupTime */
 	 , (44321,  36,       1) /* ChargeSpeed */
 	 , (44321,  64,    0.25) /* ResistSlash */
@@ -62,10 +62,10 @@ VALUES (44321,   1,       5) /* HeartbeatInterval */
 	 , (44321,  80,       4) /* AiUseMagicDelay */
 	 , (44321, 104,      10) /* ObviousRadarRange */
 	 , (44321, 122,       2) /* AiAcquireHealth */
-	 , (44321, 125,       1) /* ResistHealthDrain */												
+	 , (44321, 125,       1) /* ResistHealthDrain */
 	 , (44321,  39,     1.1) /* DefaultScale */;
-	
-	
+
+
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44321,   1, 'Bak''tshay Slave') /* Name */
@@ -75,7 +75,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44321,   1,   33561251) /* Setup */
 	 , (44321,   2,  150994945) /* MotionTable */
 	 , (44321,   3,  536870933) /* SoundTable */
-	 , (44321,   4,  805306368) /* CombatTable */												 
+	 , (44321,   4,  805306368) /* CombatTable */
 	 , (44321,   6,   67108990) /* PaletteBase */
 	 , (44321,   8,  100670274) /* Icon */
 	 , (44321,  22,  872415269) /* PhysicsEffectTable */
@@ -126,7 +126,7 @@ VALUES (44321,  1785,   2.06)  /* Cassius' Ring of Fire */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44321, 9, 44303,  1, 0, 0.99, False) /* Create Ancient Sacred A'nekshay Crystal for ContainTreasure */
-	 , (44321, 9,     0,  0, 0, 0.01, False) /* Create nothing for ContainTreasure */;				 
+	 , (44321, 9,     0,  0, 0, 0.01, False) /* Create nothing for ContainTreasure */;
 
 
 

@@ -38,7 +38,7 @@ VALUES (48813,  76,       1) /* Translucency */
      , (48813,  18,    0.67) /* ArmorModVsAcid */
      , (48813,  19,       1) /* ArmorModVsElectric */
      , (48813,  27,    5.01) /* RotationSpeed */
-     , (48813,  31,      16) /* VisualAwarenessRange */
+     , (48813,  31,      22) /* VisualAwarenessRange */
      , (48813,  34,       1) /* PowerupTime */
      , (48813,  36,       1) /* ChargeSpeed */
      , (48813,  64,    0.25) /* ResistSlash */
@@ -59,7 +59,7 @@ VALUES (48813,  76,       1) /* Translucency */
      , (48813, 104,      10) /* ObviousRadarRange */
      , (48813, 122,       2) /* AiAcquireHealth */
      , (48813, 125,       1) /* ResistHealthDrain */
-	 , (48813,  39,     1.0) /* DefaultScale */;	
+	 , (48813,  39,     1.0) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48813,   1, 'Ensorcelled Weapon') /* Name */;
@@ -71,7 +71,7 @@ VALUES (48813,   1,   33561511) /* Setup */
 	 , (48813,   4,  805306368) /* CombatTable */
      , (48813,   8,  100669124) /* Icon */
      , (48813,  22,  872415269) /* PhysicsEffectTable */;
-	 
+
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (48813,   1, 300, 0, 0) /* Strength */
      , (48813,   2, 220, 0, 0) /* Endurance */

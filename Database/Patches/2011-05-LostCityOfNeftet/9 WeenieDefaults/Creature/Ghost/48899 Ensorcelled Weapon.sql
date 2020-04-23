@@ -41,7 +41,7 @@ VALUES (48899,  76,       1) /* Translucency */
      , (48899,  18,    0.67) /* ArmorModVsAcid */
      , (48899,  19,       1) /* ArmorModVsElectric */
      , (48899,  27,    5.01) /* RotationSpeed */
-     , (48899,  31,      16) /* VisualAwarenessRange */
+     , (48899,  31,      22) /* VisualAwarenessRange */
      , (48899,  34,       1) /* PowerupTime */
      , (48899,  36,       1) /* ChargeSpeed */
      , (48899,  64,    0.25) /* ResistSlash */
@@ -62,7 +62,7 @@ VALUES (48899,  76,       1) /* Translucency */
      , (48899, 104,      10) /* ObviousRadarRange */
      , (48899, 122,       2) /* AiAcquireHealth */
      , (48899, 125,       1) /* ResistHealthDrain */
-	 , (48899,  39,     1.0) /* DefaultScale */;	
+	 , (48899,  39,     1.0) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48899,   1, 'Ensorcelled Weapon') /* Name */;
@@ -126,7 +126,7 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-     
+
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48899, 1, 48900, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Whirlwind Golem (48900) (x1)  - Location to (re)Generate: Scatter */;
-     
+

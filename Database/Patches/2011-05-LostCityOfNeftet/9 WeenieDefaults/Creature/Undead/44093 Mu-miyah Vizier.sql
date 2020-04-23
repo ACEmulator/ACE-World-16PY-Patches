@@ -45,7 +45,7 @@ VALUES (44093,   1,       5) /* HeartbeatInterval */
      , (44093,  18,    0.67) /* ArmorModVsAcid */
      , (44093,  19,       1) /* ArmorModVsElectric */
      , (44093,  27,    5.01) /* RotationSpeed */
-     , (44093,  31,      16) /* VisualAwarenessRange */
+     , (44093,  31,      22) /* VisualAwarenessRange */
      , (44093,  34,       1) /* PowerupTime */
      , (44093,  36,       1) /* ChargeSpeed */
      , (44093,  64,     0.8) /* ResistSlash */
@@ -133,6 +133,6 @@ VALUES (44093, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44093, 9, 44123,  1, 0, 0.20, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
      , (44093, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
      , (44093, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
+
+
+

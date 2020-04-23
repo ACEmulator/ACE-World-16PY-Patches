@@ -44,7 +44,7 @@ VALUES (44030,   1,       5) /* HeartbeatInterval */
      , (44030,  18,    0.67) /* ArmorModVsAcid */
      , (44030,  19,       1) /* ArmorModVsElectric */
      , (44030,  27,    5.01) /* RotationSpeed */
-     , (44030,  31,      16) /* VisualAwarenessRange */
+     , (44030,  31,      22) /* VisualAwarenessRange */
      , (44030,  34,       1) /* PowerupTime */
      , (44030,  36,       1) /* ChargeSpeed */
      , (44030,  64,    0.25) /* ResistSlash */
@@ -64,7 +64,7 @@ VALUES (44030,   1,       5) /* HeartbeatInterval */
 	 , (44030, 117,     0.5) /* FocusedProbability */
      , (44030, 104,      10) /* ObviousRadarRange */
      , (44030, 122,       2) /* AiAcquireHealth */
-     , (44030, 125,       1) /* ResistHealthDrain */												
+     , (44030, 125,       1) /* ResistHealthDrain */
 	 , (44030,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -125,9 +125,9 @@ VALUES (44030,  1785,   2.06)  /* Cassius' Ring of Fire */
 	 , (44030,  2053,   2.06)  /* ArmorSelf VII */
 	 , (44030,  2155,   2.06)  /* Icy Blessing VII */
      , (44030,  1841,   2.06)  /* Slithering Flames */;
-	 
-	 
-	 
+
+
+
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44030, 9, 48908,  1, 0, 0.03, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */

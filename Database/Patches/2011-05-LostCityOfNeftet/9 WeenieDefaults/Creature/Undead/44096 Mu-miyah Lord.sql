@@ -45,7 +45,7 @@ VALUES (44096,   1,       5) /* HeartbeatInterval */
      , (44096,  18,    0.67) /* ArmorModVsAcid */
      , (44096,  19,       1) /* ArmorModVsElectric */
      , (44096,  27,    5.01) /* RotationSpeed */
-     , (44096,  31,      16) /* VisualAwarenessRange */
+     , (44096,  31,      22) /* VisualAwarenessRange */
      , (44096,  34,       1) /* PowerupTime */
      , (44096,  36,       1) /* ChargeSpeed */
      , (44096,  64,     0.8) /* ResistSlash */
@@ -94,7 +94,7 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (44096,   1,  6870, 0, 0, 7000) /* MaxHealth */
      , (44096,   3,  6000, 0, 0, 6260) /* MaxStamina */
      , (44096,   5,  2000, 0, 0, 2370) /* MaxMana */;
-	 
+
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (44096,  6, 0, 2, 0, 470, 0, 0) /* MeleeDefense        Trained */
      , (44096,  7, 0, 2, 0, 420, 0, 0) /* MissileDefense      Trained */
@@ -122,7 +122,7 @@ VALUES (44096,  1841,   2.06)  /* Slithering Flames */
      , (44096,  2130,   2.06)  /* Infernae */
      , (44096,  2042,   2.06)  /* Demon's Tongues */
      , (44096,  5532,   2.06)  /* Incantation of Bloodstone Bolt */
-     , (44096,  1832,   2.06)  /* Torrential Acid */ 
+     , (44096,  1832,   2.06)  /* Torrential Acid */
 	 , (44096,  2710,   2.06)  /* Volcanic Blast */
      , (44096,  2123,   2.06)  /* Celdiseth's Searing */
      , (44096,  3905,   2.06)  /* Essence's Fury */
@@ -145,8 +145,8 @@ VALUES (44096, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44096, 9, 44123,  1, 0, 0.20, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
      , (44096, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
      , (44096, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
-	 
-	 
+
+
+
+
+

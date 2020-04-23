@@ -38,7 +38,7 @@ VALUES (44100,   1,       5) /* HeartbeatInterval */
      , (44100,   5,       3) /* ManaRate */
      , (44100,  12,     0.0) /* Shade */
 	 , (44100,  39,     1.2) /* DefaultScale */
-      , (44100,  13,    0.67) /* ArmorModVsSlash */
+     , (44100,  13,    0.67) /* ArmorModVsSlash */
      , (44100,  14,     0.9) /* ArmorModVsPierce */
      , (44100,  15,    0.75) /* ArmorModVsBludgeon */
      , (44100,  16,       1) /* ArmorModVsCold */
@@ -46,7 +46,7 @@ VALUES (44100,   1,       5) /* HeartbeatInterval */
      , (44100,  18,    0.67) /* ArmorModVsAcid */
      , (44100,  19,       1) /* ArmorModVsElectric */
      , (44100,  27,    5.01) /* RotationSpeed */
-     , (44100,  31,      16) /* VisualAwarenessRange */
+     , (44100,  31,      22) /* VisualAwarenessRange */
      , (44100,  34,       1) /* PowerupTime */
      , (44100,  36,       1) /* ChargeSpeed */
      , (44100,  64,     0.8) /* ResistSlash */
@@ -122,7 +122,7 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44100,  2170,   1.06)  /* Inferno's Gift */
      , (44100,  4423,   1.06)  /*  Incantation of Flame Arc */
 	 , (44100,  2074,   1.06)  /* Gossamer Flesh */;
-	 
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44100, 9, 44240,  1, 0, 0.03, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44100, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
@@ -133,6 +133,6 @@ VALUES (44100, 9, 44240,  1, 0, 0.03, False) /* Create A'nekshay Token (44240) f
      , (44100, 9, 44123,  1, 0, 0.20, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
      , (44100, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
      , (44100, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
+
+
+

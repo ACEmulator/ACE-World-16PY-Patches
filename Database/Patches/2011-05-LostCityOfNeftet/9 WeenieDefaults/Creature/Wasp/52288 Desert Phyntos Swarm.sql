@@ -13,9 +13,9 @@ VALUES (52288,   1,         16) /* ItemType - Creature */
      , (52288,  25,        185) /* Level */
 	 , (52288,  27,          0) /* ArmorType - None */
 	 , (52288,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-     , (52288,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */	    
+     , (52288,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52288, 133,          4) /* ShowableOnRadar - ShowAlways */
-	 , (52288, 146,     800000) /* XpOverride */ 
+	 , (52288, 146,     800000) /* XpOverride */
 	 , (52288, 307,          5) /* DamageRating */
      , (52288, 332,          0) /* LuminanceAward */;
 
@@ -41,7 +41,7 @@ VALUES (52288,  39,     1.2) /* DefaultScale */
      , (52288,  17,     0.8) /* ArmorModVsFire */
      , (52288,  18,     0.4) /* ArmorModVsAcid */
      , (52288,  19,     0.8) /* ArmorModVsElectric */
-     , (52288,  31,      12) /* VisualAwarenessRange */
+     , (52288,  31,      33) /* VisualAwarenessRange */
      , (52288,  64,    0.67) /* ResistSlash */
      , (52288,  65,    0.67) /* ResistPierce */
      , (52288,  66,     1.0) /* ResistBludgeon */
@@ -84,34 +84,34 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (52288,   1,  1750, 0, 0, 1850) /* MaxHealth */
      , (52288,   3,  1800, 0, 0, 2000) /* MaxStamina */
      , (52288,   5,  1600, 0, 0, 1760) /* MaxMana */;
-	 
+
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52288,  6, 0, 2, 0, 290, 0, 0) /* MeleeDefense        Trained */
-     , (52288,  7, 0, 2, 0, 320, 0, 0) /* MissileDefense      Trained */
-     , (52288, 15, 0, 2, 0, 270, 0, 0) /* MagicDefense        Trained */
-     , (52288, 24, 0, 2, 0,  25, 0, 0) /* Run                 Trained */
-     , (52288, 33, 0, 2, 0, 200, 0, 0) /* LifeMagic           Trained */
-     , (52288, 34, 0, 2, 0, 200, 0, 0) /* WarMagic            Trained */
-     , (52288, 45, 0, 3, 0, 380, 0, 0) /* LightWeapons        Specialized */
-     , (52288, 46, 0, 3, 0, 380, 0, 0) /* FinesseWeapons      Specialized */;
-	 
+VALUES (52288,  6, 0, 2, 0, 470, 0, 0) /* MeleeDefense        Trained */
+     , (52288,  7, 0, 2, 0, 470, 0, 0) /* MissileDefense      Trained */
+     , (52288, 15, 0, 2, 0, 425, 0, 0) /* MagicDefense        Trained */
+     , (52288, 24, 0, 2, 0, 300, 0, 0) /* Run                 Trained */
+     , (52288, 33, 0, 2, 0, 500, 0, 0) /* LifeMagic           Trained */
+     , (52288, 34, 0, 2, 0, 475, 0, 0) /* WarMagic            Trained */
+     , (52288, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */
+     , (52288, 46, 0, 3, 0, 450, 0, 0) /* FinesseWeapons      Specialized */;
+
 	 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (52288,  2128,   2.06)  /* Ilservian's Flame */
      , (52288,  2170,   2.06)  /* Inferno's Gift */
      , (52288,  2745,   2.06)  /* Flame Arc VII */
      , (52288,  1841,   2.06)  /* Slithering Flames */;
-	 
-	 
+
+
 	 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (52288,  0,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
      , (52288,  1,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
      , (52288,  2,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (52288,  3,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (52288,  4,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (52288,  5,  4,  4, 0.75,  250,  250,  150,  275,  250,  100,  250,  150,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (52288,  5,  4, 400, 0.75,  250,  250,  150,  275,  250,  100,  250,  150,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (52288,  6,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (52288,  7,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (52288,  8,  4,  8, 0.75,  250,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (52288,  8,  4, 400, 0.75,  250,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52288, 9, 44192,  1, 0, 0.3, False) /* Create Prickly Pear (44192) for ContainTreasure */

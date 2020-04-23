@@ -37,7 +37,7 @@ VALUES (48803,  76,       1) /* Translucency */
      , (48803,  18,    0.67) /* ArmorModVsAcid */
      , (48803,  19,       1) /* ArmorModVsElectric */
      , (48803,  27,    5.01) /* RotationSpeed */
-     , (48803,  31,      16) /* VisualAwarenessRange */
+     , (48803,  31,      22) /* VisualAwarenessRange */
      , (48803,  34,       1) /* PowerupTime */
      , (48803,  36,       1) /* ChargeSpeed */
      , (48803,  64,    0.25) /* ResistSlash */
@@ -58,7 +58,7 @@ VALUES (48803,  76,       1) /* Translucency */
      , (48803, 104,      10) /* ObviousRadarRange */
      , (48803, 122,       2) /* AiAcquireHealth */
      , (48803, 125,       1) /* ResistHealthDrain */
-	 , (48803,  39,     1.0) /* DefaultScale */;	
+	 , (48803,  39,     1.0) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48803,   1, 'Ensorcelled Weapon') /* Name */;

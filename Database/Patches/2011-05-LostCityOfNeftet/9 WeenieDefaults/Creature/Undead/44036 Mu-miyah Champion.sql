@@ -45,7 +45,7 @@ VALUES (44036,   1,       5) /* HeartbeatInterval */
      , (44036,  18,    0.67) /* ArmorModVsAcid */
      , (44036,  19,       1) /* ArmorModVsElectric */
      , (44036,  27,    5.01) /* RotationSpeed */
-     , (44036,  31,      16) /* VisualAwarenessRange */
+     , (44036,  31,      22) /* VisualAwarenessRange */
      , (44036,  34,       1) /* PowerupTime */
      , (44036,  36,       1) /* ChargeSpeed */
      , (44036,  64,     0.8) /* ResistSlash */
@@ -120,7 +120,7 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44036,  4423,   2.06)  /* Incantation of Flame Arc */
      , (44036,  2170,   2.06)  /* Inferno's Gift */
      , (44036,  2074,   2.06)  /* Gossamer Flesh */;
-	 
+
 	 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44036,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -140,5 +140,5 @@ VALUES (44036, 2, 44265,  1, 0, 0.1, False) /* Wield Burning Sands Katar (44265)
      , (44036, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44036, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44036, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-	 
-	 
+
+

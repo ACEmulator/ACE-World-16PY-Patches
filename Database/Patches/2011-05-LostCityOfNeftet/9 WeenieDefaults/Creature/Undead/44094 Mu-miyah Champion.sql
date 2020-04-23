@@ -44,7 +44,7 @@ VALUES (44094,   1,       5) /* HeartbeatInterval */
      , (44094,  18,    0.67) /* ArmorModVsAcid */
      , (44094,  19,       1) /* ArmorModVsElectric */
      , (44094,  27,    5.01) /* RotationSpeed */
-     , (44094,  31,      16) /* VisualAwarenessRange */
+     , (44094,  31,      22) /* VisualAwarenessRange */
      , (44094,  34,       1) /* PowerupTime */
      , (44094,  36,       1) /* ChargeSpeed */
      , (44094,  64,     0.8) /* ResistSlash */
@@ -131,6 +131,6 @@ VALUES (44094, 2, 44265,  1, 0, 0.1, False) /* Wield Burning Sands Katar (44265)
      , (44094, 9, 44123,  1, 0, 0.20, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
      , (44094, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
      , (44094, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
+
+
+

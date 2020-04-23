@@ -45,7 +45,7 @@ VALUES (44024,   1,       5) /* HeartbeatInterval */
      , (44024,  18,    0.67) /* ArmorModVsAcid */
      , (44024,  19,       1) /* ArmorModVsElectric */
      , (44024,  27,    5.01) /* RotationSpeed */
-     , (44024,  31,      16) /* VisualAwarenessRange */
+     , (44024,  31,      22) /* VisualAwarenessRange */
      , (44024,  34,       1) /* PowerupTime */
      , (44024,  36,       1) /* ChargeSpeed */
      , (44024,  64,    0.25) /* ResistSlash */
@@ -66,7 +66,7 @@ VALUES (44024,   1,       5) /* HeartbeatInterval */
      , (44024, 104,      10) /* ObviousRadarRange */
      , (44024, 122,       2) /* AiAcquireHealth */
      , (44024, 125,       1) /* ResistHealthDrain */
-	 , (44024,  39,     1.0) /* DefaultScale */;																	
+	 , (44024,  39,     1.0) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44024,   1, 'Bak''tshay Guard') /* Name */;
@@ -143,4 +143,3 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id, 0, 15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-	 

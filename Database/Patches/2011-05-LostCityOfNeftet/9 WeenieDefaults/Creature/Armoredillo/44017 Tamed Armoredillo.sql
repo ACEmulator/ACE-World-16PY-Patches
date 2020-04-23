@@ -8,7 +8,7 @@ VALUES (44017, 'ace44017-tamedarmoredillo', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44017,   1,         16) /* ItemType - Creature */
      , (44017,   2,         17) /* CreatureType - Armoredillo */
-     , (44017,   3,          8) /* PaletteTemplate - Green */
+     , (44017,   3,          8) /* PaletteTemplate - Green */														   
      , (44017,   6,         -1) /* ItemsCapacity */
      , (44017,   7,         -1) /* ContainersCapacity */
      , (44017,  16,          1) /* ItemUseable - No */
@@ -19,7 +19,7 @@ VALUES (44017,   1,         16) /* ItemType - Creature */
      , (44017,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44017, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44017, 146,    1400000) /* XpOverride */
-     , (44017, 332,        120) /* LuminanceAward */;
+     , (44017, 332,        120) /* LuminanceAward */;											
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44017,   1, True ) /* Stuck */
@@ -45,7 +45,7 @@ VALUES (44017,   1,       5) /* HeartbeatInterval */
      , (44017,  18,    0.95) /* ArmorModVsAcid */
      , (44017,  19,       1) /* ArmorModVsElectric */
      , (44017,  27,    5.01) /* RotationSpeed */
-     , (44017,  31,      16) /* VisualAwarenessRange */
+     , (44017,  31,      32) /* VisualAwarenessRange */
      , (44017,  34,       1) /* PowerupTime */
      , (44017,  36,       1) /* ChargeSpeed */
      , (44017,  64,    0.65) /* ResistSlash */
@@ -77,7 +77,7 @@ VALUES (44017,   1,   33554436) /* Setup */
      , (44017,   2,  150994972) /* MotionTable */
      , (44017,   3,  536870915) /* SoundTable */
      , (44017,   4,  805306382) /* CombatTable */
-     , (44017,   7,  268435547) /* ClothingBase */
+     , (44017,   7,  268435547) /* ClothingBase */													 
      , (44017,   6,   67109301) /* PaletteBase */
      , (44017,   8,  100667935) /* Icon */
      , (44017,  22,  872415253) /* PhysicsEffectTable */
@@ -139,4 +139,17 @@ VALUES (44017, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44017, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44017, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44017, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 

@@ -47,7 +47,7 @@ VALUES (44097,   1,       5) /* HeartbeatInterval */
      , (44097,  18,    0.67) /* ArmorModVsAcid */
      , (44097,  19,       1) /* ArmorModVsElectric */
      , (44097,  27,    5.01) /* RotationSpeed */
-     , (44097,  31,      16) /* VisualAwarenessRange */
+     , (44097,  31,      22) /* VisualAwarenessRange */
      , (44097,  34,       1) /* PowerupTime */
      , (44097,  36,       1) /* ChargeSpeed */
      , (44097,  64,     0.8) /* ResistSlash */
@@ -68,7 +68,7 @@ VALUES (44097,   1,       5) /* HeartbeatInterval */
      , (44097, 104,      10) /* ObviousRadarRange */
      , (44097, 122,       2) /* AiAcquireHealth */
      , (44097, 125,       1) /* ResistHealthDrain */;
-	 
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44097,   1, 'Mu-miyah Grand Vizier') /* Name */
 	 , (44097,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
@@ -135,7 +135,7 @@ VALUES (44097, 9, 44240,  3, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44097, 9, 44123,  1, 0, 0.20, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
      , (44097, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
      , (44097, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
-	 
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44097, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

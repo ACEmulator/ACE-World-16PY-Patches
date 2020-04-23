@@ -47,7 +47,7 @@ VALUES (44040,   1,       5) /* HeartbeatInterval */
 	 , (44040,  18,    0.67) /* ArmorModVsAcid */
 	 , (44040,  19,       1) /* ArmorModVsElectric */
 	 , (44040,  27,    5.01) /* RotationSpeed */
-	 , (44040,  31,      16) /* VisualAwarenessRange */
+	 , (44040,  31,      22) /* VisualAwarenessRange */
 	 , (44040,  34,       1) /* PowerupTime */
 	 , (44040,  36,       1) /* ChargeSpeed */
 	 , (44040,  64,     0.8) /* ResistSlash */
@@ -96,7 +96,7 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (44040,   1,  6870, 0, 0, 7000) /* MaxHealth */
 	 , (44040,   3,  6000, 0, 0, 6260) /* MaxStamina */
 	 , (44040,   5,  2000, 0, 0, 2370) /* MaxMana */;
-	 
+
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (44040,  6, 0, 2, 0, 470, 0, 0) /* MeleeDefense        Trained */
 	 , (44040,  7, 0, 2, 0, 420, 0, 0) /* MissileDefense      Trained */
@@ -124,7 +124,7 @@ VALUES (44040,  1841,   2.06)  /* Slithering Flames */
 	 , (44040,  2130,   2.06)  /* Infernae */
 	 , (44040,  2042,   2.06)  /* Demon's Tongues */
 	 , (44040,  5532,   2.06)  /* Incantation of Bloodstone Bolt */
-	 , (44040,  1832,   2.06)  /* Torrential Acid */ 
+	 , (44040,  1832,   2.06)  /* Torrential Acid */
 	 , (44040,  2710,   2.06)  /* Volcanic Blast */
 	 , (44040,  2123,   2.06)  /* Celdiseth's Searing */
 	 , (44040,  3905,   2.06)  /* Essence's Fury */
@@ -132,8 +132,8 @@ VALUES (44040,  1841,   2.06)  /* Slithering Flames */
 	 , (44040,  3908,   2.06)  /* Mana Blast */
 	 , (44040,  3886,   2.08)  /* Magic Disarmament */
 	 , (44040,  3883,   2.06)  /* Pyroclastic Explosion */;
-	 
-	 
+
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44040,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -157,5 +157,5 @@ VALUES (44040, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
 	 , (44040, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
 	 , (44040, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
 	 , (44040, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-	 
-	 
+
+

@@ -45,7 +45,7 @@ VALUES (44109,   1,       5) /* HeartbeatInterval */
      , (44109,  17,     0.8) /* ArmorModVsFire */
      , (44109,  18,    0.67) /* ArmorModVsAcid */
      , (44109,  19,     0.8) /* ArmorModVsElectric */
-     , (44109,  31,      12) /* VisualAwarenessRange */
+     , (44109,  31,      22) /* VisualAwarenessRange */
      , (44109,  64,    0.67) /* ResistSlash */
      , (44109,  65,    0.67) /* ResistPierce */
      , (44109,  66,    0.67) /* ResistBludgeon */
@@ -128,7 +128,7 @@ VALUES (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135
 	 , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
 	 , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
 	 , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */;
-	 
-	 
+
+
 
 

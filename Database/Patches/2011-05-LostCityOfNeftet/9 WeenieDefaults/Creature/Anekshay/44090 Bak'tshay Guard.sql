@@ -44,7 +44,7 @@ VALUES (44090,   1,       5) /* HeartbeatInterval */
      , (44090,  18,    0.67) /* ArmorModVsAcid */
      , (44090,  19,       1) /* ArmorModVsElectric */
      , (44090,  27,    5.01) /* RotationSpeed */
-     , (44090,  31,      16) /* VisualAwarenessRange */
+     , (44090,  31,      22) /* VisualAwarenessRange */
      , (44090,  34,       1) /* PowerupTime */
      , (44090,  36,       1) /* ChargeSpeed */
      , (44090,  64,    0.25) /* ResistSlash */
@@ -65,7 +65,7 @@ VALUES (44090,   1,       5) /* HeartbeatInterval */
      , (44090, 104,      10) /* ObviousRadarRange */
      , (44090, 122,       2) /* AiAcquireHealth */
      , (44090, 125,       1) /* ResistHealthDrain */
-	 , (44090,  39,     1.0) /* DefaultScale */;																	
+	 , (44090,  39,     1.0) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44090,   1, 'Bak''tshay Guard') /* Name */;
@@ -133,5 +133,4 @@ VALUES (44090, 9, 44267,  1, 0, 0.2, False) /* Create Engraved A'nekshay Bracers
      , (44090, 9, 44123,  1, 0, 0.20, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
      , (44090, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
      , (44090, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
-	 
-	 
+
