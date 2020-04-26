@@ -12,12 +12,6 @@ VALUES (33954,   1,       8192) /* ItemType - Writable */
      , (33954, 174,          1) /* AppraisalPages */
      , (33954, 175,          1) /* AppraisalMaxPages */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33954,  11, True ) /* IgnoreCollisions */
-     , (33954,  13, True ) /* Ethereal */
-     , (33954,  14, True ) /* GravityStatus */
-     , (33954,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33954,  54,       1) /* UseRadius */;
 
