@@ -8,7 +8,6 @@ VALUES (33954,   1,       8192) /* ItemType - Writable */
      , (33954,   5,         15) /* EncumbranceVal */
      , (33954,  16,          8) /* ItemUseable - Contained */
      , (33954,  19,          0) /* Value */
-     , (33954,  53,        101) /* PlacementPosition - Resting */
      , (33954,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33954, 174,          1) /* AppraisalPages */
      , (33954, 175,          1) /* AppraisalMaxPages */;
