@@ -175,3 +175,4 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I see you haven''t complete
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31641, 2, 12268,  1, 90, 0.0179, True) /* Create Virindi Shroud (12268) for Wield */;
+
