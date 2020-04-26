@@ -61,7 +61,8 @@ VALUES (2610,   1,       5) /* HeartbeatInterval */
      , (2610, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2610,   1, 'Kilif Zefir') /* Name */;
+VALUES (2610,   1, 'Kilif Zefir') /* Name */
+     , (2610,  45, 'KilltaskKilifZefir') /* Kill Task */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2610,   1,   33555610) /* Setup */
