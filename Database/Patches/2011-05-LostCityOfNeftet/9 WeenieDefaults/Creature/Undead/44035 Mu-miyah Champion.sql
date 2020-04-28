@@ -122,7 +122,7 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44035,  4423,   2.06)  /* Incantation of Flame Arc */
 	 , (44035,  2170,   2.06)  /* Inferno's Gift */
 	 , (44035,  2074,   2.06)  /* Gossamer Flesh */;
-	 
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44035, 2, 44265,  1, 0, 0.1, False) /* Wield Burning Sands Katar (44265) for Wield */
 	 , (44035, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
@@ -134,5 +134,4 @@ VALUES (44035, 2, 44265,  1, 0, 0.1, False) /* Wield Burning Sands Katar (44265)
 	 , (44035, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
 	 , (44035, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
 	 , (44035, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-	 
-	 
+

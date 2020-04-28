@@ -63,7 +63,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44016,   1, 'Guardian Armoredillo') /* Name */
 	 , (44016,  45, 'KilltaskDesertAreaArmoredillo_0511') /* KillQuest */;
 
-
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44016,   1,   33554436) /* Setup */
 	 , (44016,   2,  150994972) /* MotionTable */
@@ -74,8 +73,6 @@ VALUES (44016,   1,   33554436) /* Setup */
 	 , (44016,   8,  100667935) /* Icon */
 	 , (44016,  22,  872415253) /* PhysicsEffectTable */
 	 , (44016,  35,        1000) /* DeathTreasureType - Loot Tier: 7 */;
-
-
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44016,   1, 340, 0, 0) /* Strength */
@@ -150,5 +147,4 @@ VALUES (44016, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
 	 , (44016, 9, 44295,  1, 0, 0.2, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
 	 , (44016, 9, 44294,  1, 0, 0.2, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
 	 , (44016, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */;
-
 
