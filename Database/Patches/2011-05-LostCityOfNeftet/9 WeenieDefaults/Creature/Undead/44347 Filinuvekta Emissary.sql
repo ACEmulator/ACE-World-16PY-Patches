@@ -106,7 +106,6 @@ VALUES (44347,   1,       5) /* HeartbeatInterval */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (44347, 45, 0, 3, 0, 290, 0, 0) /* LightWeapons        Specialized */
 	 , (44347, 47, 0, 3, 0, 350, 0, 0) /* MissileWeapons      Specialized */
-	 , (44347, 13, 0, 3, 0, 470, 0, 0) /* UnarmedCombat       Specialized */
 	 , (44347, 46, 0, 3, 0, 280, 0, 0) /* FinesseWeapons      Specialized */
 	 , (44347,  6, 0, 3, 0, 365, 0, 0) /* MeleeDefense        Specialized */
 	 , (44347,  7, 0, 3, 0, 397, 0, 0) /* MissileDefense      Specialized */
