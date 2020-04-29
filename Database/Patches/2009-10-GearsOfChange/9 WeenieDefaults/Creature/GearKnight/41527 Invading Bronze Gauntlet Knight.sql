@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41527;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41527, 'ace41527-invadingbronzegauntletknight', 10, '2020-04-13 19:54:54') /* Creature */;
+VALUES (41527, 'ace41527-invadingbronzegauntletknight', 10, '2020-04-28 19:54:54') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41527,   1,         16) /* ItemType - Creature */
@@ -12,8 +12,7 @@ VALUES (41527,   1,         16) /* ItemType - Creature */
      , (41527,  25,        185) /* Level */
      , (41527,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41527, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (41527, 146,     800000) /* XpOverride */
-     , (41527, 307,          5) /* DamageRating */;
+     , (41527, 146,     800000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41527,   1, True ) /* Stuck */
@@ -115,3 +114,4 @@ VALUES (41527, 9, 41528,  1, 0, 0.35, False) /* Create  (41528) for ContainTreas
      , (41527, 10, 41247,  1, 0, 0.15, False) /* Create  (41247) for WieldTreasure */
      , (41527, 10, 41248,  1, 0, 0.15, False) /* Create  (41248) for WieldTreasure */
      , (41527, 10, 41249,  1, 0, 0.15, False) /* Create  (41249) for WieldTreasure */;
+

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44984;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44984, 'ace44984-largetome', 8, '2020-02-08 00:01:31') /* Book */;
+VALUES (44984, 'ace44984-largetome', 8, '2020-04-28 00:01:31') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44984,   1,       8192) /* ItemType - Writable */
@@ -9,7 +9,6 @@ VALUES (44984,   1,       8192) /* ItemType - Writable */
      , (44984,  16,          8) /* ItemUseable - Contained */
      , (44984,  19,          0) /* Value */
      , (44984,  33,          1) /* Bonded - Bonded */
-     , (44984,  53,        101) /* PlacementPosition - Resting */
      , (44984,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44984, 114,          1) /* Attuned - Attuned */
      , (44984, 174,          1) /* AppraisalPages */
@@ -17,10 +16,6 @@ VALUES (44984,   1,       8192) /* ItemType - Writable */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44984,   1, True ) /* Stuck */
-     , (44984,  11, True ) /* IgnoreCollisions */
-     , (44984,  13, True ) /* Ethereal */
-     , (44984,  14, True ) /* GravityStatus */
-     , (44984,  19, True ) /* Attackable */
      , (44984,  22, True ) /* Inscribable */
      , (44984,  69, False) /* IsSellable */;
 
@@ -43,3 +38,4 @@ VALUES (44984, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
 VALUES (44984, 0, 4294967295, 'Unknown', '', True, '[You cannot translate this text]');
+
