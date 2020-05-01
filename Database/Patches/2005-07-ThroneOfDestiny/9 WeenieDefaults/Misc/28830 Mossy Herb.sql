@@ -13,16 +13,11 @@ VALUES (28830,   1,        128) /* ItemType - Misc */
      , (28830,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28830, 114,          1) /* Attuned - Attuned */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28830,  11, True ) /* IgnoreCollisions */
-     , (28830,  13, True ) /* Ethereal */
-     , (28830,  14, True ) /* GravityStatus */
-     , (28830,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28830,   1, 'Mossy Herb') /* Name */
      , (28830,  16, 'A strange plant that appears to be part moss and part vine.') /* LongDesc */
-     , (28830,  33, 'tradealliancemossyherb') /* Quest */;
+     , (28830,  33, 'tradealliancemossyherb') /* Quest */
+     , (28830,  37, 'GonjokuAgreement') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28830,   1,   33559149) /* Setup */
