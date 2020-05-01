@@ -11,10 +11,6 @@ VALUES (44583,   1,       2048) /* ItemType - Gem */
      , (44583,  15,        100) /* StackUnitValue */
      , (44583,  16,          8) /* ItemUseable - Contained */
      , (44583,  18,          2) /* UiEffects - Poisoned */
-     , (44583,  19,        100) /* Value */
-     , (44583,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (44583,  94,         16) /* TargetType - Creature */
-     , (44583, 280,        100) /* SharedCooldown */
      , (44583, 349,        168) /* UseCreatesContractId */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
