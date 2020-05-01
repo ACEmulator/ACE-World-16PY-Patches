@@ -222,3 +222,7 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+/.vs/slnx.sqlite-journal
+/.vs/slnx.sqlite
+/.vs/tasks.vs.json
+/.vs/ProjectSettings.json
