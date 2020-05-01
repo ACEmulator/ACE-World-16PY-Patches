@@ -11,6 +11,7 @@ VALUES (44583,   1,       2048) /* ItemType - Gem */
      , (44583,  15,        100) /* StackUnitValue */
      , (44583,  16,          8) /* ItemUseable - Contained */
      , (44583,  18,          2) /* UiEffects - Poisoned */
+     , (44583, 280,        100) /* SharedCooldown */
      , (44583, 349,        168) /* UseCreatesContractId */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -22,6 +23,7 @@ VALUES (44583, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44583,   1, 'Contract for Menhir Research') /* Name */
+     , (44583,  14, 'Recommended Level: 90') /* Use */
      , (44583,  16, 'Cara needs your help in collecting Menhir Mana Field signatures.') /* LongDescription */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
