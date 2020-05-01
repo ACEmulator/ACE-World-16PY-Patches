@@ -1,11 +1,3 @@
-USE ace_world;
-
-/*
-    42519 Cara The Apprentice NPC w/ Clothing (Body Parts need reviewed and updated)
-    
-    MISSING Menhir Research Content ie Enchanted Mana Stone
-*/
-
 DELETE FROM `weenie` WHERE `class_Id` = 42519;
 
 
