@@ -14,7 +14,7 @@ VALUES (44583,   1,       2048) /* ItemType - Gem */
      , (44583,  19,        100) /* Value */
      , (44583,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44583,  94,         16) /* TargetType - Creature */
-     , (44583, 280,        100) /* SharedCooldown */
+     , (44583, 280,        100) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44583,  22, True ) /* Inscribable */;
@@ -29,4 +29,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44583,   1,   33557625) /* Setup */
      , (44583,   3,  536870932) /* SoundTable */
      , (44583,   8,  100691926) /* Icon */
-     , (44583,  22,  872415275) /* PhysicsEffectTable */
+     , (44583,  22,  872415275) /* PhysicsEffectTable */;
