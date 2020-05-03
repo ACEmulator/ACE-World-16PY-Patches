@@ -66,7 +66,7 @@ VALUES (4110,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4110,   1, 'Blood Shreth') /* Name */
-     , (4110,  45, 'bloodshrethkillcount') /* KillQuest */;
+     , (4110,  45, 'KilltaskBloodShreth') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4110,   1,   33555879) /* Setup */
