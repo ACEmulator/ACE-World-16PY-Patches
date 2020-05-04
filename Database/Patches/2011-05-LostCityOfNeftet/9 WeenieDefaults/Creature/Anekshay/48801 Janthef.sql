@@ -104,7 +104,6 @@ VALUES (48801,  6, 0, 2, 0, 470, 0, 0) /* MeleeDefense        Trained */
      , (48801, 24, 0, 2, 0, 255, 0, 0) /* Run                 Trained */
      , (48801, 33, 0, 2, 0, 500, 0, 0) /* LifeMagic           Trained */
      , (48801, 34, 0, 2, 0, 480, 0, 0) /* WarMagic            Trained */
-     , (48801, 13, 0, 3, 0, 490, 0, 0) /* UnarmedCombat       Specialized */
      , (48801, 45, 0, 3, 0, 600, 0, 0) /* LightWeapons        Specialized */
      , (48801, 46, 0, 3, 0, 600, 0, 0) /* FinesseWeapons      Specialized */;
 
