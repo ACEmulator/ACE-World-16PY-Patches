@@ -199,15 +199,15 @@ VALUES (2023768120, 2023768121, '2019-10-19 05:18:30') /* Night Club Shirt */
      , (2023768120, 2023768123, '2019-10-19 05:18:30') /* Night Club Shirt */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2023768121,  69996, 2315518493, 125.7, -74, 13, -0.707107, 0, 0, -0.707107,  True, '2019-10-19 05:18:30'); /* Night Club Shirt */
+VALUES (2023768121,  69993, 2315518493, 125.7, -74, 13, -0.707107, 0, 0, -0.707107,  True, '2019-10-19 05:18:30'); /* Night Club Shirt */
 /* @teleloc 0x8A04021D [125.700000 -74.000000 13.000000] -0.707107 0.000000 0.000000 -0.707107  */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2023768122,  69996, 2315518493, 125.7, -73, 13, -0.707107, 0, 0, -0.707107,  True, '2019-10-19 05:18:30'); /* Night Club Shirt */
+VALUES (2023768122,  69993, 2315518493, 125.7, -73, 13, -0.707107, 0, 0, -0.707107,  True, '2019-10-19 05:18:30'); /* Night Club Shirt */
 /* @teleloc 0x8A04021D [125.700000 -74.000000 13.000000] -0.707107 0.000000 0.000000 -0.707107  */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2023768123,  69996, 2315518493, 125.7, -72, 13, -0.707107, 0, 0, -0.707107,  True, '2019-10-19 05:18:30'); /* Night Club Shirt */
+VALUES (2023768123,  69993, 2315518493, 125.7, -72, 13, -0.707107, 0, 0, -0.707107,  True, '2019-10-19 05:18:30'); /* Night Club Shirt */
 /* @teleloc 0x8A04021D [125.700000 -74.000000 13.000000] -0.707107 0.000000 0.000000 -0.707107  */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

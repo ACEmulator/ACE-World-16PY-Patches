@@ -137,7 +137,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767441 /* DrudgeDance */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (69994,  6 /* Give */,  1, 69995 /* 20th Anniversary Night Club Ticket */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (69994,  6 /* Give */,  1, 69992 /* 21st Anniversary Night Club Ticket */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -159,6 +159,6 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (69994, 2,  5893,  0, 9, 1, False) /* Create Hoary Mattekar Robe (5893) for Wield */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (69994, 1, 69995, 10, 1, 1, 2, 4, -1, 0, 0, 0, -0.4, -0.4, 0, 1, 0, 0, 0) /* Generate 20th Anniversary Night Club Ticket (69995) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
-     , (69994, 1, 69995, 10, 1, 1, 2, 4, -1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0) /* Generate 20th Anniversary Night Club Ticket (69995) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
-     , (69994, 1, 69995, 10, 1, 1, 2, 4, -1, 0, 0, 0, 0.4, -0.4, 0, 1, 0, 0, 0) /* Generate 20th Anniversary Night Club Ticket (69995) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */;
+VALUES (69994, 1, 69992, 10, 1, 1, 2, 4, -1, 0, 0, 0, -0.4, -0.4, 0, 1, 0, 0, 0) /* Generate 21st Anniversary Night Club Ticket (69992) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
+     , (69994, 1, 69992, 10, 1, 1, 2, 4, -1, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0) /* Generate 21st Anniversary Night Club Ticket (69992) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
+     , (69994, 1, 69992, 10, 1, 1, 2, 4, -1, 0, 0, 0, 0.4, -0.4, 0, 1, 0, 0, 0) /* Generate 21st Anniversary Night Club Ticket (69992) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */;
