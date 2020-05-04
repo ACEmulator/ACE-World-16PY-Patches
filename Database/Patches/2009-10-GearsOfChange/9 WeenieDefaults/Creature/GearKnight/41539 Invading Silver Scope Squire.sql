@@ -12,8 +12,7 @@ VALUES (41539,   1,         16) /* ItemType - Creature */
      , (41539,  25,        160) /* Level */
      , (41539,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41539, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (41539, 146,     500000) /* XpOverride */
-     , (41539, 307,          5) /* DamageRating */;
+     , (41539, 146,     500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41539,   1, True ) /* Stuck */
@@ -34,6 +33,10 @@ VALUES (41539,   1,       5) /* HeartbeatInterval */
      , (41539,  17,     1.4) /* ArmorModVsFire */
      , (41539,  18,     0.4) /* ArmorModVsAcid */
      , (41539,  19,     0.6) /* ArmorModVsElectric */
+     , (41539,  27,    5.01) /* RotationSpeed */
+     , (41539,  31,      33) /* VisualAwarenessRange */
+     , (41539,  34,       1) /* PowerupTime */
+     , (41539,  36,       1) /* ChargeSpeed */
      , (41539,  39,     1.5) /* DefaultScale */
      , (41539,  64,     0.6) /* ResistSlash */
      , (41539,  65,     0.6) /* ResistPierce */
@@ -45,7 +48,7 @@ VALUES (41539,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41539,   1, 'Invading Silver Scope Squire') /* Name */
-	 , (41539,  45, 'GearknightInvasionSquireKilltask_0513') /* KillQuest */;
+     , (41539,  45, 'GearknightInvasionSquireKilltask_0513') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41539,   1,   33560844) /* Setup */
@@ -109,3 +112,4 @@ VALUES (41539, 2, 43132,  1, 0, 0, False) /* Create Gear Crossbow (43132) for Wi
      , (41539, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (41539, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (41539, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+

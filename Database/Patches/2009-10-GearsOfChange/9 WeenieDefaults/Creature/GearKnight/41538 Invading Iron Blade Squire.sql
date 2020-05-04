@@ -12,8 +12,7 @@ VALUES (41538,   1,         16) /* ItemType - Creature */
      , (41538,  25,        160) /* Level */
      , (41538,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41538, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (41538, 146,     500000) /* XpOverride */
-     , (41538, 307,          5) /* DamageRating */;
+     , (41538, 146,     500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41538,   1, True ) /* Stuck */
@@ -34,6 +33,10 @@ VALUES (41538,   1,       5) /* HeartbeatInterval */
      , (41538,  17,     1.3) /* ArmorModVsFire */
      , (41538,  18,     0.4) /* ArmorModVsAcid */
      , (41538,  19,     0.6) /* ArmorModVsElectric */
+     , (41538,  27,    5.01) /* RotationSpeed */
+     , (41538,  31,      33) /* VisualAwarenessRange */
+     , (41538,  34,       1) /* PowerupTime */
+     , (41538,  36,       1) /* ChargeSpeed */
      , (41538,  39,     1.5) /* DefaultScale */
      , (41538,  64,     0.6) /* ResistSlash */
      , (41538,  65,     0.6) /* ResistPierce */
@@ -45,7 +48,7 @@ VALUES (41538,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41538,   1, 'Invading Iron Blade Squire') /* Name */
-	 , (41538,  45, 'GearknightInvasionSquireKilltask_0513') /* KillQuest */;
+     , (41538,  45, 'GearknightInvasionSquireKilltask_0513') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41538,   1,   33560841) /* Setup */
@@ -113,3 +116,4 @@ VALUES (41538, 9, 41528,  1, 0, 0.35, False) /* Create  (41528) for ContainTreas
      , (41538, 10, 41247,  1, 0, 0.15, False) /* Create  (41247) for WieldTreasure */
      , (41538, 10, 41248,  1, 0, 0.15, False) /* Create  (41248) for WieldTreasure */
      , (41538, 10, 41249,  1, 0, 0.15, False) /* Create  (41249) for WieldTreasure */;
+

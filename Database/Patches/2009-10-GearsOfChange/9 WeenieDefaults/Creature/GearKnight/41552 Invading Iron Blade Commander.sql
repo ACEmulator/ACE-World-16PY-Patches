@@ -12,8 +12,7 @@ VALUES (41552,   1,         16) /* ItemType - Creature */
      , (41552,  25,        185) /* Level */
      , (41552,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41552, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (41552, 146,     800000) /* XpOverride */
-     , (41552, 307,          5) /* DamageRating */;
+     , (41552, 146,     800000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41552,   1, True ) /* Stuck */
@@ -34,6 +33,10 @@ VALUES (41552,   1,       5) /* HeartbeatInterval */
      , (41552,  17,     1.5) /* ArmorModVsFire */
      , (41552,  18,     0.5) /* ArmorModVsAcid */
      , (41552,  19,    0.75) /* ArmorModVsElectric */
+     , (41552,  27,    5.01) /* RotationSpeed */
+     , (41552,  31,      33) /* VisualAwarenessRange */
+     , (41552,  34,       1) /* PowerupTime */
+     , (41552,  36,       1) /* ChargeSpeed */
      , (41552,  39,     1.6) /* DefaultScale */
      , (41552,  64,     0.5) /* ResistSlash */
      , (41552,  65,     0.5) /* ResistPierce */
@@ -108,3 +111,4 @@ VALUES (41552, 9, 42114,  1, 0, 0.05, True) /* Create Aetherium-infused Gear (42
      , (41552, 10, 41247,  1, 0, 0.15, True) /* Create  (41247) for WieldTreasure */
      , (41552, 10, 41248,  1, 0, 0.15, True) /* Create  (41248) for WieldTreasure */
      , (41552, 10, 41249,  1, 0, 0.15, True) /* Create  (41249) for WieldTreasure */;
+

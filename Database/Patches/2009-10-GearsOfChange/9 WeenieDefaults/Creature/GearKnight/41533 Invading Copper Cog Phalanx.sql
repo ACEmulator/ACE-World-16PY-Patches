@@ -12,8 +12,7 @@ VALUES (41533,   1,         16) /* ItemType - Creature */
      , (41533,  25,        135) /* Level */
      , (41533,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41533, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (41533, 146,     250000) /* XpOverride */
-     , (41533, 307,          5) /* DamageRating */;
+     , (41533, 146,     250000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41533,   1, True ) /* Stuck */
@@ -34,6 +33,10 @@ VALUES (41533,   1,       5) /* HeartbeatInterval */
      , (41533,  17,     1.3) /* ArmorModVsFire */
      , (41533,  18,     0.3) /* ArmorModVsAcid */
      , (41533,  19,     0.5) /* ArmorModVsElectric */
+     , (41533,  27,    5.01) /* RotationSpeed */
+     , (41533,  31,      33) /* VisualAwarenessRange */
+     , (41533,  34,       1) /* PowerupTime */
+     , (41533,  36,       1) /* ChargeSpeed */
      , (41533,  39,     1.5) /* DefaultScale */
      , (41533,  64,     0.7) /* ResistSlash */
      , (41533,  65,     0.7) /* ResistPierce */
@@ -110,3 +113,4 @@ VALUES (41533, 9, 41528,  1, 0, 0.35, False) /* Create Aetherium Power Core (415
      , (41533, 10, 41249,  1, 0, 0.2, False) /* Create Frost Gearknight Sword (41249) for WieldTreasure */
      , (41533, 10, 43130,  1, 0, 0.25, False) /* Create Iron Blade Aegis (43130) for WieldTreasure */
      , (41533, 10, 43131,  1, 0, 0.25, False) /* Create Iron Blade Shield (43131) for WieldTreasure */;
+

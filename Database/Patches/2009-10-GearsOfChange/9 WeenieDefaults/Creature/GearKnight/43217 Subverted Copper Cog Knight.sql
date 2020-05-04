@@ -12,8 +12,7 @@ VALUES (43217,   1,         16) /* ItemType - Creature */
      , (43217,  25,        185) /* Level */
      , (43217,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (43217, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (43217, 146,     848000) /* XpOverride */
-     , (43217, 307,          5) /* DamageRating */;
+     , (43217, 146,     848000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43217,   1, True ) /* Stuck */
@@ -34,6 +33,10 @@ VALUES (43217,   1,       5) /* HeartbeatInterval */
      , (43217,  17,     1.5) /* ArmorModVsFire */
      , (43217,  18,     0.5) /* ArmorModVsAcid */
      , (43217,  19,    0.75) /* ArmorModVsElectric */
+     , (43217,  27,    5.01) /* RotationSpeed */
+     , (43217,  31,      33) /* VisualAwarenessRange */
+     , (43217,  34,       1) /* PowerupTime */
+     , (43217,  36,       1) /* ChargeSpeed */
      , (43217,  39,     1.6) /* DefaultScale */
      , (43217,  64,     0.5) /* ResistSlash */
      , (43217,  65,     0.5) /* ResistPierce */
@@ -106,3 +109,4 @@ VALUES (43217, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket
      , (43217, 10, 41247,  1, 0, 0.15, False) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
      , (43217, 10, 41248,  1, 0, 0.15, False) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
      , (43217, 10, 41249,  1, 0, 0.15, False) /* Create Frost Gearknight Sword (41249) for WieldTreasure */;
+

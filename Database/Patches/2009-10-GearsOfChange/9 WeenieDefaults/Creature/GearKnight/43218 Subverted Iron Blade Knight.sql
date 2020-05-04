@@ -24,7 +24,7 @@ VALUES (43218,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43218,   1,       5) /* HeartbeatInterval */
      , (43218,   2,       0) /* HeartbeatTimestamp */
-     , (43218,   3, 0.10000000149011612) /* HealthRate */
+     , (43218,   3,     0.1) /* HealthRate */
      , (43218,   4,       3) /* StaminaRate */
      , (43218,   5,       1) /* ManaRate */
      , (43218,  13,       1) /* ArmorModVsSlash */
@@ -34,13 +34,17 @@ VALUES (43218,   1,       5) /* HeartbeatInterval */
      , (43218,  17,     1.5) /* ArmorModVsFire */
      , (43218,  18,     0.5) /* ArmorModVsAcid */
      , (43218,  19,    0.75) /* ArmorModVsElectric */
-     , (43218,  39, 1.600000023841858) /* DefaultScale */
+     , (43218,  27,    5.01) /* RotationSpeed */
+     , (43218,  31,      33) /* VisualAwarenessRange */
+     , (43218,  34,       1) /* PowerupTime */
+     , (43218,  36,       1) /* ChargeSpeed */
+     , (43218,  39,     1.6) /* DefaultScale */
      , (43218,  64,     0.5) /* ResistSlash */
      , (43218,  65,     0.5) /* ResistPierce */
      , (43218,  66,     0.5) /* ResistBludgeon */
      , (43218,  67,     0.5) /* ResistFire */
      , (43218,  68,     0.5) /* ResistCold */
-     , (43218,  69, 1.399999976158142) /* ResistAcid */
+     , (43218,  69,     1.4) /* ResistAcid */
      , (43218,  70,       1) /* ResistElectric */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -107,3 +111,4 @@ VALUES (43218, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket 
      , (43218, 10, 41249,  1, 0, 0.2, True) /* Create Frost Gearknight Sword (41249) for WieldTreasure */
      , (43218, 10, 43130,  1, 0, 0.25, True) /* Create Iron Blade Aegis (43130) for WieldTreasure */
      , (43218, 10, 43131,  1, 0, 0.25, True) /* Create Iron Blade Shield (43131) for WieldTreasure */;
+

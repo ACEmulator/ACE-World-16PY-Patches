@@ -12,8 +12,7 @@ VALUES (43219,   1,         16) /* ItemType - Creature */
      , (43219,  25,        185) /* Level */
      , (43219,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (43219, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (43219, 146,     848000) /* XpOverride */
-     , (43219, 307,          5) /* DamageRating */;
+     , (43219, 146,     848000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43219,   1, True ) /* Stuck */
@@ -24,7 +23,7 @@ VALUES (43219,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43219,   1,       5) /* HeartbeatInterval */
      , (43219,   2,       0) /* HeartbeatTimestamp */
-     , (43219,   3, 0.10000000149011612) /* HealthRate */
+     , (43219,   3,     0.1) /* HealthRate */
      , (43219,   4,       3) /* StaminaRate */
      , (43219,   5,       1) /* ManaRate */
      , (43219,  13,       1) /* ArmorModVsSlash */
@@ -34,13 +33,17 @@ VALUES (43219,   1,       5) /* HeartbeatInterval */
      , (43219,  17,     1.5) /* ArmorModVsFire */
      , (43219,  18,     0.5) /* ArmorModVsAcid */
      , (43219,  19,    0.75) /* ArmorModVsElectric */
-     , (43219,  39, 1.600000023841858) /* DefaultScale */
+     , (43219,  27,    5.01) /* RotationSpeed */
+     , (43219,  31,      33) /* VisualAwarenessRange */
+     , (43219,  34,       1) /* PowerupTime */
+     , (43219,  36,       1) /* ChargeSpeed */
+     , (43219,  39,     1.6) /* DefaultScale */
      , (43219,  64,     0.5) /* ResistSlash */
      , (43219,  65,     0.5) /* ResistPierce */
      , (43219,  66,     0.5) /* ResistBludgeon */
      , (43219,  67,     0.5) /* ResistFire */
      , (43219,  68,     0.5) /* ResistCold */
-     , (43219,  69, 1.399999976158142) /* ResistAcid */
+     , (43219,  69,     1.4) /* ResistAcid */
      , (43219,  70,       1) /* ResistElectric */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -106,3 +109,4 @@ VALUES (43219, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket
      , (43219, 10, 41247,  1, 0, 0.15, False) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
      , (43219, 10, 41248,  1, 0, 0.15, False) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
      , (43219, 10, 41249,  1, 0, 0.15, False) /* Create Frost Gearknight Sword (41249) for WieldTreasure */;
+

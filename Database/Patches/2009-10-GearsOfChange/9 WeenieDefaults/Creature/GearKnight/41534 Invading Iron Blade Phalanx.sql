@@ -12,8 +12,7 @@ VALUES (41534,   1,         16) /* ItemType - Creature */
      , (41534,  25,        135) /* Level */
      , (41534,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41534, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (41534, 146,     250000) /* XpOverride */
-     , (41534, 307,          5) /* DamageRating */;
+     , (41534, 146,     250000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41534,   1, True ) /* Stuck */
@@ -34,6 +33,10 @@ VALUES (41534,   1,       5) /* HeartbeatInterval */
      , (41534,  17,     1.3) /* ArmorModVsFire */
      , (41534,  18,     0.3) /* ArmorModVsAcid */
      , (41534,  19,     0.5) /* ArmorModVsElectric */
+     , (41534,  27,    5.01) /* RotationSpeed */
+     , (41534,  31,      33) /* VisualAwarenessRange */
+     , (41534,  34,       1) /* PowerupTime */
+     , (41534,  36,       1) /* ChargeSpeed */
      , (41534,  39,     1.5) /* DefaultScale */
      , (41534,  64,     0.7) /* ResistSlash */
      , (41534,  65,     0.7) /* ResistPierce */
@@ -105,3 +108,4 @@ VALUES (41534, 2, 43132,  1, 0, 0, False) /* Create Gear Crossbow (43132) for Wi
      , (41534, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (41534, 9, 34276,  1, 0, 0.02, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */
      , (41534, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+

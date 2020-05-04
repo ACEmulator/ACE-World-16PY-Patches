@@ -12,8 +12,7 @@ VALUES (41551,   1,         16) /* ItemType - Creature */
      , (41551,  25,        300) /* Level */
      , (41551,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41551, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (41551, 146,   18000000) /* XpOverride */
-     , (41551, 307,          5) /* DamageRating */;
+     , (41551, 146,   18000000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41551,   1, True ) /* Stuck */
@@ -24,7 +23,7 @@ VALUES (41551,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41551,   1,       5) /* HeartbeatInterval */
      , (41551,   2,       0) /* HeartbeatTimestamp */
-     , (41551,   3, 0.10000000149011612) /* HealthRate */
+     , (41551,   3,     0.1) /* HealthRate */
      , (41551,   4,       3) /* StaminaRate */
      , (41551,   5,       1) /* ManaRate */
      , (41551,  13,       1) /* ArmorModVsSlash */
@@ -34,13 +33,17 @@ VALUES (41551,   1,       5) /* HeartbeatInterval */
      , (41551,  17,     1.5) /* ArmorModVsFire */
      , (41551,  18,     0.5) /* ArmorModVsAcid */
      , (41551,  19,    0.75) /* ArmorModVsElectric */
-     , (41551,  39, 1.600000023841858) /* DefaultScale */
+     , (41551,  27,    5.01) /* RotationSpeed */
+     , (41551,  31,      33) /* VisualAwarenessRange */
+     , (41551,  34,       1) /* PowerupTime */
+     , (41551,  36,       1) /* ChargeSpeed */
+     , (41551,  39,     1.6) /* DefaultScale */
      , (41551,  64,     0.5) /* ResistSlash */
      , (41551,  65,     0.5) /* ResistPierce */
      , (41551,  66,     0.5) /* ResistBludgeon */
      , (41551,  67,     0.5) /* ResistFire */
      , (41551,  68,     0.5) /* ResistCold */
-     , (41551,  69, 1.399999976158142) /* ResistAcid */
+     , (41551,  69,     1.4) /* ResistAcid */
      , (41551,  70,       1) /* ResistElectric */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -120,12 +123,3 @@ VALUES (41551, 9, 41528,  1, 0, 0.8, True) /* Create  (41528) for ContainTreasur
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (41551, 1, 70350, 0, 1, 1, 4, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate  (70350) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */;
 
-/* Lifestoned Changelog:
-{
-  "LastModified": "2019-12-08T18:49:25.9859777-05:00",
-  "ModifiedBy": "TectonicRifts",
-  "Changelog": [],
-  "UserChangeSummary": "Initial update.",
-  "IsDone": false
-}
-*/

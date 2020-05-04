@@ -12,8 +12,7 @@ VALUES (70709,   1,         16) /* ItemType - Creature */
      , (70709,  25,        185) /* Level */
      , (70709,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (70709, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (70709, 146,          0) /* XpOverride */
-     , (70709, 307,          5) /* DamageRating */;
+     , (70709, 146,          0) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70709,   1, True ) /* Stuck */
@@ -35,6 +34,10 @@ VALUES (70709,   1,       5) /* HeartbeatInterval */
      , (70709,  17,     1.5) /* ArmorModVsFire */
      , (70709,  18,     0.5) /* ArmorModVsAcid */
      , (70709,  19,    0.75) /* ArmorModVsElectric */
+     , (70709,  27,    5.01) /* RotationSpeed */
+     , (70709,  31,      33) /* VisualAwarenessRange */
+     , (70709,  34,       1) /* PowerupTime */
+     , (70709,  36,       1) /* ChargeSpeed */
      , (70709,  39,     1.6) /* DefaultScale */
      , (70709,  64,     0.5) /* ResistSlash */
      , (70709,  65,     0.5) /* ResistPierce */
@@ -104,3 +107,4 @@ VALUES (70709, 10, 41245,  1, 0, 0.2, True) /* Create  (41245) for WieldTreasure
      , (70709, 10, 41247,  1, 0, 0.15, True) /* Create  (41247) for WieldTreasure */
      , (70709, 10, 41248,  1, 0, 0.15, True) /* Create  (41248) for WieldTreasure */
      , (70709, 10, 41249,  1, 0, 0.15, True) /* Create  (41249) for WieldTreasure */;
+

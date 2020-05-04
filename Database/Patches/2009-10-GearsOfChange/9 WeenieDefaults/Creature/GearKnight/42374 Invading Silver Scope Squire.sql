@@ -12,8 +12,7 @@ VALUES (42374,   1,         16) /* ItemType - Creature */
      , (42374,  25,        160) /* Level */
      , (42374,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (42374, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (42374, 146,     500000) /* XpOverride */
-     , (42374, 307,          5) /* DamageRating */;
+     , (42374, 146,     500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42374,   1, True ) /* Stuck */
@@ -34,6 +33,10 @@ VALUES (42374,   1,       5) /* HeartbeatInterval */
      , (42374,  17,     1.4) /* ArmorModVsFire */
      , (42374,  18,     0.4) /* ArmorModVsAcid */
      , (42374,  19,     0.6) /* ArmorModVsElectric */
+     , (42374,  27,    5.01) /* RotationSpeed */
+     , (42374,  31,      33) /* VisualAwarenessRange */
+     , (42374,  34,       1) /* PowerupTime */
+     , (42374,  36,       1) /* ChargeSpeed */
      , (42374,  39,     1.5) /* DefaultScale */
      , (42374,  64,     0.6) /* ResistSlash */
      , (42374,  65,     0.6) /* ResistPierce */
@@ -108,3 +111,4 @@ VALUES (42374, 2, 43132,  1, 0, 0, True) /* Create Gear Crossbow (43132) for Wie
      , (42374, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (42374, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (42374, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+

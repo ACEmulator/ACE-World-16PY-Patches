@@ -12,8 +12,7 @@ VALUES (41532,   1,         16) /* ItemType - Creature */
      , (41532,  25,        135) /* Level */
      , (41532,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41532, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (41532, 146,     250000) /* XpOverride */
-     , (41532, 307,          5) /* DamageRating */;
+     , (41532, 146,     250000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41532,   1, True ) /* Stuck */
@@ -34,6 +33,10 @@ VALUES (41532,   1,       5) /* HeartbeatInterval */
      , (41532,  17,     1.3) /* ArmorModVsFire */
      , (41532,  18,     0.3) /* ArmorModVsAcid */
      , (41532,  19,     0.5) /* ArmorModVsElectric */
+     , (41532,  27,    5.01) /* RotationSpeed */
+     , (41532,  31,      33) /* VisualAwarenessRange */
+     , (41532,  34,       1) /* PowerupTime */
+     , (41532,  36,       1) /* ChargeSpeed */
      , (41532,  39,     1.5) /* DefaultScale */
      , (41532,  64,     0.7) /* ResistSlash */
      , (41532,  65,     0.7) /* ResistPierce */
@@ -109,3 +112,4 @@ VALUES (41532, 9, 41528,  1, 0, 0.35, False) /* Create Aetherium Power Core (415
      , (41532, 10, 41247,  1, 0, 0.15, False) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
      , (41532, 10, 41248,  1, 0, 0.15, False) /* Create Fire Gearknight Sword (41248) for WieldTreasure */
      , (41532, 10, 41249,  1, 0, 0.15, False) /* Create Frost Gearknight Sword (41249) for WieldTreasure */;
+
