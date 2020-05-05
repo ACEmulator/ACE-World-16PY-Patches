@@ -18,7 +18,7 @@ VALUES (34257,   1,       2048) /* ItemType - Gem */
      , (34257,  94,         16) /* TargetType - Creature */
      , (34257, 114,          1) /* Attuned - Attuned */
      , (34257, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (34257, 280,          2) /* SharedCooldown */
+     , (34257, 280,          2) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34257,  22, True ) /* Inscribable */
