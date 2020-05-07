@@ -28,16 +28,16 @@ VALUES (24373,  22, True ) /* Inscribable */
      , (24373, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24373,   5, -0.02500000037252903) /* ManaRate */
-     , (24373,  12, 0.33000001311302185) /* Shade */
-     , (24373,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (24373,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (24373,  15,       1) /* ArmorModVsBludgeon */
-     , (24373,  16, 0.20000000298023224) /* ArmorModVsCold */
-     , (24373,  17, 0.20000000298023224) /* ArmorModVsFire */
-     , (24373,  18, 0.10000000149011612) /* ArmorModVsAcid */
-     , (24373,  19, 0.20000000298023224) /* ArmorModVsElectric */
-     , (24373, 165,       1) /* ArmorModVsNether */;
+VALUES (24373,   5, -0.025) /* ManaRate */
+     , (24373,  12, 0.33) /* Shade */
+     , (24373,  13, 0.80) /* ArmorModVsSlash */
+     , (24373,  14, 0.80) /* ArmorModVsPierce */
+     , (24373,  15,    1) /* ArmorModVsBludgeon */
+     , (24373,  16, 0.20) /* ArmorModVsCold */
+     , (24373,  17, 0.20) /* ArmorModVsFire */
+     , (24373,  18, 0.10) /* ArmorModVsAcid */
+     , (24373,  19, 0.20) /* ArmorModVsElectric */
+     , (24373, 165,    1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24373,   1, 'Asheron''s Lesser Raiment') /* Name */
