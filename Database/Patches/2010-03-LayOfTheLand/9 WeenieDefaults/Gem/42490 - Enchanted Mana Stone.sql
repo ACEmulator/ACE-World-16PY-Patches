@@ -17,7 +17,7 @@ VALUES (42490,   1,       2048) /* ItemType - Gem */
      , (42490,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42490,  94,         16) /* TargetType - Creature */
      , (42490, 114,          1) /* Attuned - Attuned */
-     , (42490, 280,         51) /* SharedCooldown */;
+     , (42490, 280,        168) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42490,  22, True ) /* Inscribable */;
@@ -27,7 +27,8 @@ VALUES (42490, 167,      10) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42490,   1, 'Enchanted Mana Stone') /* Name */
-     , (42490,  16, 'A normal looking mana stone enchanted to pick up energy from the environment on use, but won''t hold a charge.') /* LongDesc */;
+     , (42490,  16, 'A normal looking mana stone enchanted to pick up energy from the environment on use, but won''t hold a charge.') /* LongDesc */
+     , (42710,  51, 'UseEnchantedManaStone') /* UseSendsSignal */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42490,   1,   33555641) /* Setup */
