@@ -1,6 +1,5 @@
 /* Located in Crystal Sword Dungeon Only */
 
-
 DELETE FROM `weenie` WHERE `class_Id` = 71387;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -14,7 +13,7 @@ VALUES (71387,   1,         16) /* ItemType - Creature */
      , (71387,   7,         -1) /* ContainersCapacity */
      , (71387,  16,          1) /* ItemUseable - No */
      , (71387,  25,        220) /* Level */
-	 , (71387, 307,          7) /* DamageRating */
+     , (71387, 307,          7) /* DamageRating */
      , (71387,  27,          0) /* ArmorType - None */
      , (71387,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (71387,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -38,7 +37,7 @@ VALUES (71387,   1,       5) /* HeartbeatInterval */
      , (71387,   4,      10) /* StaminaRate */
      , (71387,   5,       3) /* ManaRate */
      , (71387,  12,     0.0) /* Shade */
-	 , (71387,  39,     1.2) /* DefaultScale */
+     , (71387,  39,     1.2) /* DefaultScale */
      , (71387,  13,    0.67) /* ArmorModVsSlash */
      , (71387,  14,     0.9) /* ArmorModVsPierce */
      , (71387,  15,    0.60) /* ArmorModVsBludgeon */
@@ -47,7 +46,7 @@ VALUES (71387,   1,       5) /* HeartbeatInterval */
      , (71387,  18,    0.67) /* ArmorModVsAcid */
      , (71387,  19,       1) /* ArmorModVsElectric */
      , (71387,  27,    5.01) /* RotationSpeed */
-     , (71387,  31,      16) /* VisualAwarenessRange */
+     , (71387,  31,      22) /* VisualAwarenessRange */
      , (71387,  34,       1) /* PowerupTime */
      , (71387,  36,       1) /* ChargeSpeed */
      , (71387,  64,     0.8) /* ResistSlash */
@@ -57,28 +56,28 @@ VALUES (71387,   1,       5) /* HeartbeatInterval */
      , (71387,  68,     0.3) /* ResistCold */
      , (71387,  69,     0.8) /* ResistAcid */
      , (71387,  70,     0.4) /* ResistElectric */
-	 , (71387, 166,     1.0) /* ResistNether */
+     , (71387, 166,     1.0) /* ResistNether */
      , (71387,  71,       1) /* ResistHealthBoost */
      , (71387,  72,       1) /* ResistStaminaDrain */
      , (71387,  73,       1) /* ResistStaminaBoost */
      , (71387,  74,       1) /* ResistManaDrain */
      , (71387,  75,       1) /* ResistManaBoost */
      , (71387,  80,       3) /* AiUseMagicDelay */
-	 , (71387, 117,     0.5) /* FocusedProbability */
+     , (71387, 117,     0.5) /* FocusedProbability */
      , (71387, 104,      10) /* ObviousRadarRange */
      , (71387, 122,       2) /* AiAcquireHealth */
-     , (71387, 125,       1) /* ResistHealthDrain */	;
+     , (71387, 125,       1) /* ResistHealthDrain */    ;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71387,   1, 'Mu-miyah Champion') /* Name */
-	 , (71387,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
+     , (71387,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (71387,   1,   33554433) /* Setup */
      , (71387,   2,  150995189) /* MotionTable */
      , (71387,   3,  536870942) /* SoundTable */
      , (71387,   6,   67108990) /* PaletteBase */
-	 , (71387,   7,  268435645) /* ClothingBase */
+     , (71387,   7,  268435645) /* ClothingBase */
      , (71387,   8,  100669122) /* Icon */
      , (71387,   4,  805306376) /* CombatTable */
      , (71387,  22,  872415272) /* PhysicsEffectTable */;
@@ -121,7 +120,7 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (71387,  4423,   2.06)  /* Incantation of Flame Arc */
      , (71387,  2170,   2.06)  /* Inferno's Gift */
      , (71387,  2074,   2.06)  /* Gossamer Flesh */;
-	 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (71387, 9, 71355,  1, 0, 1, False) /* Create MuMiyah Sacrifical Dagger (71355) for ContainTreasure */;
+

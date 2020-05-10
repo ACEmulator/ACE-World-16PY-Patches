@@ -17,7 +17,7 @@ VALUES (71388,   1,         16) /* ItemType - Creature */
      , (71388,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (71388, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (71388, 146,    1850000) /* XpOverride */
-	 , (71388, 307,          4) /* DamageRating */;
+     , (71388, 307,          4) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (71388,   1, True ) /* Stuck */
@@ -36,7 +36,7 @@ VALUES (71388,   1,       5) /* HeartbeatInterval */
      , (71388,   4,      10) /* StaminaRate */
      , (71388,   5,       3) /* ManaRate */
      , (71388,  12,     0.0) /* Shade */
-	 , (71388,  39,     1.2) /* DefaultScale */
+     , (71388,  39,     1.2) /* DefaultScale */
      , (71388,  13,    0.67) /* ArmorModVsSlash */
      , (71388,  14,     0.9) /* ArmorModVsPierce */
      , (71388,  15,    0.75) /* ArmorModVsBludgeon */
@@ -45,7 +45,7 @@ VALUES (71388,   1,       5) /* HeartbeatInterval */
      , (71388,  18,    0.67) /* ArmorModVsAcid */
      , (71388,  19,       1) /* ArmorModVsElectric */
      , (71388,  27,    5.01) /* RotationSpeed */
-     , (71388,  31,      16) /* VisualAwarenessRange */
+     , (71388,  31,      22) /* VisualAwarenessRange */
      , (71388,  34,       1) /* PowerupTime */
      , (71388,  36,       1) /* ChargeSpeed */
      , (71388,  64,     0.8) /* ResistSlash */
@@ -55,28 +55,28 @@ VALUES (71388,   1,       5) /* HeartbeatInterval */
      , (71388,  68,     0.3) /* ResistCold */
      , (71388,  69,     0.8) /* ResistAcid */
      , (71388,  70,     0.4) /* ResistElectric */
-	 , (71388, 166,     1.0) /* ResistNether */
+     , (71388, 166,     1.0) /* ResistNether */
      , (71388,  71,       1) /* ResistHealthBoost */
      , (71388,  72,       1) /* ResistStaminaDrain */
      , (71388,  73,       1) /* ResistStaminaBoost */
      , (71388,  74,       1) /* ResistManaDrain */
      , (71388,  75,       1) /* ResistManaBoost */
      , (71388,  80,       3) /* AiUseMagicDelay */
-	 , (71388, 117,     0.5) /* FocusedProbability */
+     , (71388, 117,     0.5) /* FocusedProbability */
      , (71388, 104,      10) /* ObviousRadarRange */
      , (71388, 122,       2) /* AiAcquireHealth */
      , (71388, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71388,   1, 'Mu-miyah Vizier') /* Name */
-	 , (71388,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
+     , (71388,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (71388,   1,   33554433) /* Setup */
      , (71388,   2,  150995189) /* MotionTable */
      , (71388,   3,  536870942) /* SoundTable */
      , (71388,   6,   67108990) /* PaletteBase */
-	 , (71388,   7,  268435645) /* ClothingBase */
+     , (71388,   7,  268435645) /* ClothingBase */
      , (71388,   8,  100669122) /* Icon */
      , (71388,   4,  805306368) /* CombatTable */
      , (71388,  22,  872415272) /* PhysicsEffectTable */;
@@ -118,10 +118,10 @@ VALUES (71388,  0,  4,  0,    0,  460,  250,  150,  275,  250,  100,  250,  150,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (71388,  4442,   2.06)  /* Incantation of Force Blast */
      , (71388,  4424,   2.06)  /*  Incantation of Force Arc */
-	 , (71388,  6192,   2.06)  /* Nuhmudira's Spines */
-	 , (71388,  2174,   2.06)  /*  Archer's Gift */
-	 , (71388,  4489,   2.06)  /*  Incantation of Fester Other */;
-		 
+     , (71388,  6192,   2.06)  /* Nuhmudira's Spines */
+     , (71388,  2174,   2.06)  /*  Archer's Gift */
+     , (71388,  4489,   2.06)  /*  Incantation of Fester Other */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (71388, 9, 71355,  1, 0, 1, False) /* Create MuMiyah Sacrifical Dagger (71355) for ContainTreasure */;
 

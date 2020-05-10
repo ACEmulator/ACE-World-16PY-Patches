@@ -1,6 +1,5 @@
 /* Overworld Only */
 
-
 DELETE FROM `weenie` WHERE `class_Id` = 44049;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -15,7 +14,7 @@ VALUES (44049,   1,         16) /* ItemType - Creature */
      , (44049,  16,          1) /* ItemUseable - No */
      , (44049,  25,        220) /* Level */
      , (44049,  40,          2) /* CombatMode - Melee */
-	 , (44049, 307,          20) /* DamageRating */
+     , (44049, 307,          20) /* DamageRating */
      , (44049,  68,          3) /* TargetingTactic - Random, Focused */
      , (44049,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44049, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -35,7 +34,7 @@ VALUES (44049,   1,       5) /* HeartbeatInterval */
      , (44049,   4,       5) /* StaminaRate */
      , (44049,   5,       2) /* ManaRate */
      , (44049,  12,     0.5) /* Shade */
-	 , (44049,  39,     2.5) /* DefaultScale */
+     , (44049,  39,     2.5) /* DefaultScale */
      , (44049,  13,     0.5) /* ArmorModVsSlash */
      , (44049,  14,     0.6) /* ArmorModVsPierce */
      , (44049,  15,    0.75) /* ArmorModVsBludgeon */
@@ -44,7 +43,7 @@ VALUES (44049,   1,       5) /* HeartbeatInterval */
      , (44049,  18,    0.95) /* ArmorModVsAcid */
      , (44049,  19,       1) /* ArmorModVsElectric */
      , (44049,  27,    5.01) /* RotationSpeed */
-     , (44049,  31,      16) /* VisualAwarenessRange */
+     , (44049,  31,      32) /* VisualAwarenessRange */
      , (44049,  34,       1) /* PowerupTime */
      , (44049,  36,       1) /* ChargeSpeed */
      , (44049,  64,     0.8) /* ResistSlash */
@@ -54,14 +53,14 @@ VALUES (44049,   1,       5) /* HeartbeatInterval */
      , (44049,  68,     0.3) /* ResistCold */
      , (44049,  69,     0.3) /* ResistAcid */
      , (44049,  70,    0.67) /* ResistElectric */
-	 , (44049, 166,     1.1) /* ResistNether */
+     , (44049, 166,     1.1) /* ResistNether */
      , (44049,  71,       1) /* ResistHealthBoost */
      , (44049,  72,       1) /* ResistStaminaDrain */
      , (44049,  73,       1) /* ResistStaminaBoost */
      , (44049,  74,       1) /* ResistManaDrain */
      , (44049,  75,       1) /* ResistManaBoost */
      , (44049,  80,       3) /* AiUseMagicDelay */
-	 , (44049, 117,     0.5) /* FocusedProbability */
+     , (44049, 117,     0.5) /* FocusedProbability */
      , (44049, 104,      10) /* ObviousRadarRange */
      , (44049, 122,       2) /* AiAcquireHealth */
      , (44049, 125,       1) /* ResistHealthDrain */;
@@ -69,7 +68,7 @@ VALUES (44049,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44049,   1, 'Reedshark Seeker') /* Name */
-	 , (44049,  45, 'KilltaskDesertAreaReedshark_0511') /* KillQuest */;
+     , (44049,  45, 'KilltaskDesertAreaReedshark_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44049,   1,   33554489) /* Setup */
@@ -108,7 +107,6 @@ VALUES (44049,  0,  2, 500, 0.75,  500,  275,  250,  275,  215,  275,  250,  215
      , (44049, 10,  2, 500,  0.5,  500,  250,  275,  250,  215,  275,  250,  275,    0, 2,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
      , (44049, 13,  2, 500,  0.5,  500,  250,  275,  250,  215,  275,  250,  275,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
      , (44049, 16,  4, 500,    0,  500,  250,  275,  250,  215,  275,  250,  275,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */;
-	 
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44049,  5 /* HeartBeat */,   0.05, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
@@ -142,7 +140,6 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44049, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44049, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
@@ -153,9 +150,4 @@ VALUES (44049, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44049, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44049, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44049, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
-	 
-	 
-	 
+

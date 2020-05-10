@@ -36,7 +36,7 @@ VALUES (44017,   1,       5) /* HeartbeatInterval */
      , (44017,   4,    1.79) /* StaminaRate */
      , (44017,   5,       2) /* ManaRate */
      , (44017,  12,     0.5) /* Shade */
-	 , (44017,  39,     1.6) /* DefaultScale */
+     , (44017,  39,     1.6) /* DefaultScale */
      , (44017,  13,     0.6) /* ArmorModVsSlash */
      , (44017,  14,    0.66) /* ArmorModVsPierce */
      , (44017,  15,    0.75) /* ArmorModVsBludgeon */
@@ -45,7 +45,7 @@ VALUES (44017,   1,       5) /* HeartbeatInterval */
      , (44017,  18,    0.95) /* ArmorModVsAcid */
      , (44017,  19,       1) /* ArmorModVsElectric */
      , (44017,  27,    5.01) /* RotationSpeed */
-     , (44017,  31,      16) /* VisualAwarenessRange */
+     , (44017,  31,      32) /* VisualAwarenessRange */
      , (44017,  34,       1) /* PowerupTime */
      , (44017,  36,       1) /* ChargeSpeed */
      , (44017,  64,    0.65) /* ResistSlash */
@@ -55,21 +55,21 @@ VALUES (44017,   1,       5) /* HeartbeatInterval */
      , (44017,  68,     0.3) /* ResistCold */
      , (44017,  69,     0.3) /* ResistAcid */
      , (44017,  70,    0.70) /* ResistElectric */
-	 , (44017, 166,     1.0) /* ResistNether */
+     , (44017, 166,     1.0) /* ResistNether */
      , (44017,  71,       1) /* ResistHealthBoost */
      , (44017,  72,       1) /* ResistStaminaDrain */
      , (44017,  73,       1) /* ResistStaminaBoost */
      , (44017,  74,       1) /* ResistManaDrain */
      , (44017,  75,       1) /* ResistManaBoost */
      , (44017,  80,       3) /* AiUseMagicDelay */
-	 , (44017, 117,     0.5) /* FocusedProbability */
+     , (44017, 117,     0.5) /* FocusedProbability */
      , (44017, 104,      10) /* ObviousRadarRange */
      , (44017, 122,       2) /* AiAcquireHealth */
      , (44017, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44017,   1, 'Tamed Armoredillo') /* Name */
-	 , (44017,  45, 'KilltaskDesertAreaArmoredillo_0511') /* KillQuest */;
+     , (44017,  45, 'KilltaskDesertAreaArmoredillo_0511') /* KillQuest */;
 
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -81,8 +81,7 @@ VALUES (44017,   1,   33554436) /* Setup */
      , (44017,   6,   67109301) /* PaletteBase */
      , (44017,   8,  100667935) /* Icon */
      , (44017,  22,  872415253) /* PhysicsEffectTable */
-	 , (44017,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
-
+     , (44017,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44017,   1, 350, 0, 0) /* Strength */

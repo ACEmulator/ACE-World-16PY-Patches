@@ -10,12 +10,12 @@ VALUES (48802,   1,         16) /* ItemType - Creature */
      , (48802,   7,         -1) /* ContainersCapacity */
      , (48802,  16,          1) /* ItemUseable - No */
      , (48802,  25,        220) /* Level */
-	 , (48802,  27,          0) /* ArmorType - None */
-	 , (48802,  68,          3) /* TargetingTactic - Random, Focused */
+     , (48802,  27,          0) /* ArmorType - None */
+     , (48802,  68,          3) /* TargetingTactic - Random, Focused */
      , (48802,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-	 , (48802, 101,        263) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, DualWield */
-	 , (48802, 133,          2) /* ShowableOnRadar - ShowMovement */
-	 , (48802, 146,     800500) /* XpOverride */;
+     , (48802, 101,        263) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, DualWield */
+     , (48802, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (48802, 146,     800500) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48802,   1, True ) /* Stuck */
@@ -37,7 +37,7 @@ VALUES (48802,  76,       1) /* Translucency */
      , (48802,  18,    0.67) /* ArmorModVsAcid */
      , (48802,  19,       1) /* ArmorModVsElectric */
      , (48802,  27,    5.01) /* RotationSpeed */
-     , (48802,  31,      16) /* VisualAwarenessRange */
+     , (48802,  31,      22) /* VisualAwarenessRange */
      , (48802,  34,       1) /* PowerupTime */
      , (48802,  36,       1) /* ChargeSpeed */
      , (48802,  64,    0.25) /* ResistSlash */
@@ -47,18 +47,18 @@ VALUES (48802,  76,       1) /* Translucency */
      , (48802,  68,     0.3) /* ResistCold */
      , (48802,  69,     0.9) /* ResistAcid */
      , (48802,  70,     0.4) /* ResistElectric */
-	 , (48802, 166,     1.2) /* ResistNether */
+     , (48802, 166,     1.2) /* ResistNether */
      , (48802,  71,       1) /* ResistHealthBoost */
      , (48802,  72,       1) /* ResistStaminaDrain */
      , (48802,  73,       1) /* ResistStaminaBoost */
      , (48802,  74,       1) /* ResistManaDrain */
      , (48802,  75,       1) /* ResistManaBoost */
      , (48802,  80,       3) /* AiUseMagicDelay */
-	 , (48802, 117,     0.5) /* FocusedProbability */
+     , (48802, 117,     0.5) /* FocusedProbability */
      , (48802, 104,      10) /* ObviousRadarRange */
      , (48802, 122,       2) /* AiAcquireHealth */
      , (48802, 125,       1) /* ResistHealthDrain */
-	 , (48802,  39,     1.0) /* DefaultScale */;	
+     , (48802,  39,     1.0) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48802,   1, 'Ensorcelled Weapon') /* Name */;
@@ -67,7 +67,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48802,   1,   33561513) /* Setup */
      , (48802,   2,  150994945) /* MotionTable */
      , (48802,   3,  536870942) /* SoundTable */
-	 , (48802,   4,  805306368) /* CombatTable */
+     , (48802,   4,  805306368) /* CombatTable */
      , (48802,   8,  100669124) /* Icon */;
 
 
@@ -95,9 +95,9 @@ VALUES (48802,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
      , (48802, 34, 0, 2, 0, 380, 0, 0) /* WarMagic            Trained */
      , (48802, 45, 0, 3, 0, 460, 0, 0) /* LightWeapons        Specialized */
      , (48802, 46, 0, 3, 0, 460, 0, 0) /* FinesseWeapons      Specialized */
-	 , (48802, 48, 0, 3, 0, 460, 0, 0) /* Shield		      Specialized */
-	 , (48802, 49, 0, 3, 0, 460, 0, 0) /* DualWield		      Specialized */
-	 , (48802, 51, 0, 3, 0, 460, 0, 0) /* SneakAttack	      Specialized */;
+     , (48802, 48, 0, 3, 0, 460, 0, 0) /* Shield              Specialized */
+     , (48802, 49, 0, 3, 0, 460, 0, 0) /* DualWield           Specialized */
+     , (48802, 51, 0, 3, 0, 460, 0, 0) /* SneakAttack         Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (48802,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -114,3 +114,4 @@ VALUES (48802,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48802, 2, 47219,  1, 0, 0, False) /* Create Ensorcelled Sword (47219) for Wield */
      , (48802, 2, 47227,  1, 0, 0, False) /* Create Ensorcelled Mace (47227) for Wield */;
+

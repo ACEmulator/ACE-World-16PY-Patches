@@ -12,7 +12,7 @@ VALUES (44050,   1,         16) /* ItemType - Creature */
      , (44050,  16,          1) /* ItemUseable - No */
      , (44050,  25,        220) /* Level */
      , (44050,  40,          2) /* CombatMode - Melee */
-	 , (44050, 307,          20) /* DamageRating */
+     , (44050, 307,          20) /* DamageRating */
      , (44050,  68,          3) /* TargetingTactic - Random, Focused */
      , (44050,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44050, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,28 +28,28 @@ VALUES (44050,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44050,   1,       5) /* HeartbeatInterval */
      , (44050,   2,       0) /* HeartbeatTimestamp */
-     , (44050,   3, 0.0670000016689301) /* HealthRate */
+     , (44050,   3,    0.07) /* HealthRate */
      , (44050,   4,       5) /* StaminaRate */
      , (44050,   5,       2) /* ManaRate */
      , (44050,  12,     0.5) /* Shade */
      , (44050,  13,       1) /* ArmorModVsSlash */
-     , (44050,  14, 0.649999976158142) /* ArmorModVsPierce */
+     , (44050,  14,    0.65) /* ArmorModVsPierce */
      , (44050,  15,       1) /* ArmorModVsBludgeon */
      , (44050,  16,     0.5) /* ArmorModVsCold */
      , (44050,  17,       1) /* ArmorModVsFire */
-     , (44050,  18, 0.649999976158142) /* ArmorModVsAcid */
+     , (44050,  18,    0.65) /* ArmorModVsAcid */
      , (44050,  19,     0.5) /* ArmorModVsElectric */
-     , (44050,  31,      20) /* VisualAwarenessRange */
+     , (44050,  31,      28) /* VisualAwarenessRange */
      , (44050,  34,       1) /* PowerupTime */
      , (44050,  36,       1) /* ChargeSpeed */
      , (44050,  39,     2.5) /* DefaultScale */
      , (44050,  64,     0.5) /* ResistSlash */
-     , (44050,  65, 0.850000023841858) /* ResistPierce */
-     , (44050,  66, 0.600000023841858) /* ResistBludgeon */
-     , (44050,  67, 0.600000023841858) /* ResistFire */
-     , (44050,  68, 1.10000002384186) /* ResistCold */
-     , (44050,  69, 0.850000023841858) /* ResistAcid */
-     , (44050,  70, 1.10000002384186) /* ResistElectric */
+     , (44050,  65,    0.85) /* ResistPierce */
+     , (44050,  66,     0.6) /* ResistBludgeon */
+     , (44050,  67,     0.6) /* ResistFire */
+     , (44050,  68,     1.1) /* ResistCold */
+     , (44050,  69,    0.85) /* ResistAcid */
+     , (44050,  70,     1.1) /* ResistElectric */
      , (44050,  71,       1) /* ResistHealthBoost */
      , (44050,  72,       1) /* ResistStaminaDrain */
      , (44050,  73,       1) /* ResistStaminaBoost */
@@ -60,7 +60,7 @@ VALUES (44050,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44050,   1, 'Reedshark Seeker') /* Name */
-	 , (44050,  45, 'KilltaskDesertAreaReedshark_0511') /* KillQuest */;
+     , (44050,  45, 'KilltaskDesertAreaReedshark_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44050,   1,   33554489) /* Setup */
@@ -164,15 +164,6 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44050,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'KilltaskDesertAreaReedshark_0511count', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'KilltaskDesertAreaReedshark_0511@#kt', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44050, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44050, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
@@ -185,8 +176,4 @@ VALUES (44050, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44050, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44050, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44050, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
-	 
-	 
+

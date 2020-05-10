@@ -43,7 +43,7 @@ VALUES (44022,   1,       5) /* HeartbeatInterval */
      , (44022,  18,    0.67) /* ArmorModVsAcid */
      , (44022,  19,       1) /* ArmorModVsElectric */
      , (44022,  27,    5.01) /* RotationSpeed */
-     , (44022,  31,      16) /* VisualAwarenessRange */
+     , (44022,  31,      20) /* VisualAwarenessRange */
      , (44022,  34,       1) /* PowerupTime */
      , (44022,  36,       1) /* ChargeSpeed */
      , (44022,  64,    0.25) /* ResistSlash */
@@ -122,7 +122,7 @@ VALUES (44022,  1785,   2.06)  /* Cassius' Ring of Fire */
      , (44022,  2074,   2.06)  /* Gossamer Flesh */
      , (44022,  2745,   2.06)  /* Flame Arc VII */
      , (44022,  1841,   2.06)  /* Slithering Flames */;
-	 
+
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44022, 9, 44267,  1, 0, 0.2, False) /* Create Engraved A'nekshay Bracers (44267) for ContainTreasure */
@@ -132,7 +132,7 @@ VALUES (44022, 9, 44267,  1, 0, 0.2, False) /* Create Engraved A'nekshay Bracers
      , (44022, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44022, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44022, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-	 
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44022, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

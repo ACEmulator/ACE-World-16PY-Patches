@@ -11,7 +11,7 @@ VALUES (48900,   1,         16) /* ItemType - Creature */
      , (48900,   7,         -1) /* ContainersCapacity */
      , (48900,  16,          1) /* ItemUseable - No */
      , (48900,  25,        240) /* Level */
-	 , (48900, 307,         10) /* DamageRating */
+     , (48900, 307,         10) /* DamageRating */
      , (48900,  27,          0) /* ArmorType - None */
      , (48900,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (48900,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -36,7 +36,7 @@ VALUES (48900,   1,       5) /* HeartbeatInterval */
      , (48900,   4,      10) /* StaminaRate */
      , (48900,   5,       3) /* ManaRate */
      , (48900,  12,  0.0667) /* Shade */
-	 , (48900,  39,     1.1) /* DefaultScale */
+     , (48900,  39,     1.1) /* DefaultScale */
      , (48900,  13,       1) /* ArmorModVsSlash */
      , (48900,  14,     0.9) /* ArmorModVsPierce */
      , (48900,  15,       1) /* ArmorModVsBludgeon */
@@ -45,7 +45,7 @@ VALUES (48900,   1,       5) /* HeartbeatInterval */
      , (48900,  18,       1) /* ArmorModVsAcid */
      , (48900,  19,       1) /* ArmorModVsElectric */
      , (48900,  27,     3.0) /* RotationSpeed */
-     , (48900,  31,      16) /* VisualAwarenessRange */
+     , (48900,  31,      22) /* VisualAwarenessRange */
      , (48900,  34,       1) /* PowerupTime */
      , (48900,  36,       1) /* ChargeSpeed */
      , (48900,  64,    0.25) /* ResistSlash */
@@ -55,14 +55,14 @@ VALUES (48900,   1,       5) /* HeartbeatInterval */
      , (48900,  68,     1.0) /* ResistCold */
      , (48900,  69,     0.3) /* ResistAcid */
      , (48900,  70,     0.4) /* ResistElectric */
-	 , (48900, 166,     1.3) /* ResistNether */
+     , (48900, 166,     1.3) /* ResistNether */
      , (48900,  71,       1) /* ResistHealthBoost */
      , (48900,  72,       1) /* ResistStaminaDrain */
      , (48900,  73,       1) /* ResistStaminaBoost */
      , (48900,  74,       1) /* ResistManaDrain */
      , (48900,  75,       1) /* ResistManaBoost */
      , (48900,  80,       3) /* AiUseMagicDelay */
-	 , (48900, 117,     0.5) /* FocusedProbability */
+     , (48900, 117,     0.5) /* FocusedProbability */
      , (48900, 104,      10) /* ObviousRadarRange */
      , (48900, 122,       2) /* AiAcquireHealth */
      , (48900, 125,       1) /* ResistHealthDrain */;
@@ -100,7 +100,7 @@ VALUES (48900,  6, 0, 2, 0, 400, 0, 0) /* MeleeDefense        Trained */
      , (48900, 24, 0, 2, 0, 200, 0, 0) /* Run                 Trained */
      , (48900, 33, 0, 2, 0, 435, 0, 0) /* LifeMagic           Trained */
      , (48900, 34, 0, 2, 0, 445, 0, 0) /* WarMagic            Trained */
-	 , (48900, 13, 0, 3, 0, 490, 0, 0) /* UnarmedCombat       Specialized */
+     , (48900, 13, 0, 3, 0, 490, 0, 0) /* UnarmedCombat       Specialized */
      , (48900, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */
      , (48900, 46, 0, 3, 0, 450, 0, 0) /* FinesseWeapons      Specialized */;
 
@@ -121,15 +121,8 @@ VALUES (48900,  3948,   2.06)   /* Flame Wave -  not implemented in ACE */
      , (48900,  4644,   2.06)  /* Incantation of Drain Mana Other */
      , (48900,  4643,   2.06)  /* Incantation of Drain Health */
      , (48900,  4645,   2.06)  /* Incantation of Drain Stamina Other */
-	 , (48900,  3878,   2.06)  /* Incendiary Strike */ ;
+     , (48900,  3878,   2.06)  /* Incendiary Strike */ ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48900, 9, 48898,  0, 0, 0, False) /* Create Cracked Key (48898) for ContainTreasure */;
-
-
-
-
-
-
-
 

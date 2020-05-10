@@ -6,7 +6,7 @@ VALUES (44020, 'ace44020-tamedarmoredillo', 10, '2019-02-10 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44020,   1,         16) /* ItemType - Creature */
      , (44020,   2,         17) /* CreatureType - Armoredillo */
-     , (44020,   3,          13) /* PaletteTemplate - Purple */														   
+     , (44020,   3,          13) /* PaletteTemplate - Purple */
      , (44020,   6,         -1) /* ItemsCapacity */
      , (44020,   7,         -1) /* ContainersCapacity */
      , (44020,  16,          1) /* ItemUseable - No */
@@ -15,7 +15,7 @@ VALUES (44020,   1,         16) /* ItemType - Creature */
      , (44020,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (44020,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44020, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44020, 146,    1850000) /* XpOverride */;											
+     , (44020, 146,    1850000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44020,   1, True ) /* Stuck */
@@ -28,18 +28,18 @@ VALUES (44020,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44020,   1,       5) /* HeartbeatInterval */
      , (44020,   2,       0) /* HeartbeatTimestamp */
-     , (44020,   3, 1.79999995231628) /* HealthRate */
-     , (44020,   4, 1.79999995231628) /* StaminaRate */
+     , (44020,   3,     1.8) /* HealthRate */
+     , (44020,   4,     1.8) /* StaminaRate */
      , (44020,   5,       2) /* ManaRate */
      , (44020,  12,       0) /* Shade */
-     , (44020,  13, 0.349999994039536) /* ArmorModVsSlash */
-     , (44020,  14, 0.699999988079071) /* ArmorModVsPierce */
-     , (44020,  15, 0.349999994039536) /* ArmorModVsBludgeon */
+     , (44020,  13,    0.35) /* ArmorModVsSlash */
+     , (44020,  14,     0.7) /* ArmorModVsPierce */
+     , (44020,  15,    0.35) /* ArmorModVsBludgeon */
      , (44020,  16,    0.75) /* ArmorModVsCold */
-     , (44020,  17, 0.649999976158142) /* ArmorModVsFire */
+     , (44020,  17,    0.65) /* ArmorModVsFire */
      , (44020,  18,     0.5) /* ArmorModVsAcid */
      , (44020,  19,    0.75) /* ArmorModVsElectric */
-     , (44020,  31,      22) /* VisualAwarenessRange */
+     , (44020,  31,      28) /* VisualAwarenessRange */
      , (44020,  34,       1) /* PowerupTime */
      , (44020,  36,       1) /* ChargeSpeed */
      , (44020,  39,     1.6) /* DefaultScale */
@@ -47,9 +47,9 @@ VALUES (44020,   1,       5) /* HeartbeatInterval */
      , (44020,  65,       1) /* ResistPierce */
      , (44020,  66,     0.5) /* ResistBludgeon */
      , (44020,  67,     0.5) /* ResistFire */
-     , (44020,  68, 0.949999988079071) /* ResistCold */
-     , (44020,  69, 0.699999988079071) /* ResistAcid */
-     , (44020,  70, 0.949999988079071) /* ResistElectric */
+     , (44020,  68,    0.95) /* ResistCold */
+     , (44020,  69,     0.7) /* ResistAcid */
+     , (44020,  70,    0.95) /* ResistElectric */
      , (44020,  71,       1) /* ResistHealthBoost */
      , (44020,  72,       1) /* ResistStaminaDrain */
      , (44020,  73,       1) /* ResistStaminaBoost */
@@ -60,18 +60,18 @@ VALUES (44020,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44020,   1, 'War Armoredillo') /* Name */
-	 , (44020,  45, 'KilltaskDesertAreaArmoredillo_0511') /* KillQuest */;
+     , (44020,  45, 'KilltaskDesertAreaArmoredillo_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44020,   1,   33554436) /* Setup */
      , (44020,   2,  150994972) /* MotionTable */
      , (44020,   3,  536870915) /* SoundTable */
      , (44020,   4,  805306382) /* CombatTable */
-     , (44020,   7,  268435547) /* ClothingBase */													 
+     , (44020,   7,  268435547) /* ClothingBase */
      , (44020,   6,   67109301) /* PaletteBase */
      , (44020,   8,  100667935) /* Icon */
      , (44020,  22,  872415253) /* PhysicsEffectTable */
-	 , (44020,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
+     , (44020,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44020,   1, 350, 0, 0) /* Strength */
@@ -147,5 +147,4 @@ VALUES (44020, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44020, 9, 44295,  1, 0, 0.2, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44020, 9, 44294,  1, 0, 0.2, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44020, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */;
-	 
-	 
+

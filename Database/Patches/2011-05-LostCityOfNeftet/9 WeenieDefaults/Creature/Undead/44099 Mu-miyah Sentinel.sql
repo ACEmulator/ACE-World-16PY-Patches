@@ -18,8 +18,8 @@ VALUES (44099,   1,         16) /* ItemType - Creature */
      , (44099,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44099, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (44099, 133,          2) /* ShowableOnRadar - ShowMovement */
-	 , (44099, 307,          4) /* DamageRating */
-	 , (44099, 316,         10) /* CritDamResistRating */
+     , (44099, 307,          4) /* DamageRating */
+     , (44099, 316,         10) /* CritDamResistRating */
      , (44099, 146,    1850000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -36,7 +36,7 @@ VALUES (44099,   1,       5) /* HeartbeatInterval */
      , (44099,   4,     0.5) /* StaminaRate */
      , (44099,   5,       2) /* ManaRate */
      , (44099,  12,     0.5) /* Shade */
-	 , (44099,  39,     1.2) /* DefaultScale */
+     , (44099,  39,     1.2) /* DefaultScale */
      , (44099,  13,    0.67) /* ArmorModVsSlash */
      , (44099,  14,     0.9) /* ArmorModVsPierce */
      , (44099,  15,    0.75) /* ArmorModVsBludgeon */
@@ -45,7 +45,7 @@ VALUES (44099,   1,       5) /* HeartbeatInterval */
      , (44099,  18,    0.67) /* ArmorModVsAcid */
      , (44099,  19,       1) /* ArmorModVsElectric */
      , (44099,  27,    5.01) /* RotationSpeed */
-     , (44099,  31,      16) /* VisualAwarenessRange */
+     , (44099,  31,      22) /* VisualAwarenessRange */
      , (44099,  34,       1) /* PowerupTime */
      , (44099,  36,       1) /* ChargeSpeed */
      , (44099,  64,     0.8) /* ResistSlash */
@@ -55,21 +55,21 @@ VALUES (44099,   1,       5) /* HeartbeatInterval */
      , (44099,  68,     0.3) /* ResistCold */
      , (44099,  69,     0.7) /* ResistAcid */
      , (44099,  70,     0.4) /* ResistElectric */
-	 , (44099, 166,     1.1) /* ResistNether */
+     , (44099, 166,     1.1) /* ResistNether */
      , (44099,  71,       1) /* ResistHealthBoost */
      , (44099,  72,       1) /* ResistStaminaDrain */
      , (44099,  73,       1) /* ResistStaminaBoost */
      , (44099,  74,       1) /* ResistManaDrain */
      , (44099,  75,       1) /* ResistManaBoost */
      , (44099,  80,       3) /* AiUseMagicDelay */
-	 , (44099, 117,     0.5) /* FocusedProbability */
+     , (44099, 117,     0.5) /* FocusedProbability */
      , (44099, 104,      10) /* ObviousRadarRange */
      , (44099, 122,       2) /* AiAcquireHealth */
      , (44099, 125,       1) /* ResistHealthDrain */;
-	 
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44099,   1, 'Mu-miyah Sentinel') /* Name */
-	 , (44099,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
+     , (44099,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44099,   1,   33554433) /* Setup */
@@ -80,7 +80,7 @@ VALUES (44099,   1,   33554433) /* Setup */
      , (44099,   7,  268435645) /* ClothingBase */
      , (44099,   8,  100669122) /* Icon */
      , (44099,  22,  872415272) /* PhysicsEffectTable */
-	 , (44099,  32,       3001) /* WieldedTreasureType */
+     , (44099,  32,       3001) /* WieldedTreasureType */
      , (44099,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -104,7 +104,7 @@ VALUES (44099,  6, 0, 3, 0, 510, 0, 0) /* MeleeDefense        Specialized */
      , (44099, 44, 0, 3, 0, 503, 0, 0) /* HeavyWeapons        Specialized */
      , (44099, 45, 0, 3, 0, 503, 0, 0) /* LightWeapons        Specialized */
      , (44099, 46, 0, 3, 0, 503, 0, 0) /* FinesseWeapons      Specialized */
-	 , (44099, 33, 0, 2, 0, 400, 0, 0) /* LifeMagic           Trained */
+     , (44099, 33, 0, 2, 0, 400, 0, 0) /* LifeMagic           Trained */
      , (44099, 34, 0, 2, 0, 410, 0, 0) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
@@ -141,6 +141,4 @@ VALUES (44099, 9, 44240,  1, 0, 0.03, False) /* Create A'nekshay Token (44240) f
      , (44099, 9, 44123,  1, 0, 0.20, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
      , (44099, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
      , (44099, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
-
-
 

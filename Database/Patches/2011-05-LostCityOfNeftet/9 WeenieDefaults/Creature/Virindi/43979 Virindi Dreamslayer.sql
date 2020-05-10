@@ -23,7 +23,6 @@ VALUES (43979,   1, True ) /* Stuck */
      , (43979,  13, False) /* Ethereal */
      , (43979,  58, True ) /* SpellQueueActive */;
 
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43979,   1, 'Virindi Dreamslayer') /* Name */;
 
@@ -32,10 +31,9 @@ VALUES (43979,   1,   33561227) /* Setup */
      , (43979,   2,  150994984) /* MotionTable */
      , (43979,   3,  536870930) /* SoundTable */
      , (43979,   6,   67111346) /* PaletteBase */
-	 , (43979,   4,  805306381) /* CombatTable */
+     , (43979,   4,  805306381) /* CombatTable */
      , (43979,   8,  100667943) /* Icon */
      , (43979,  22,  872415273) /* PhysicsEffectTable */;
-
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43979,   1,       5) /* HeartbeatInterval */
@@ -52,7 +50,7 @@ VALUES (43979,   1,       5) /* HeartbeatInterval */
      , (43979,  18,    0.67) /* ArmorModVsAcid */
      , (43979,  19,       1) /* ArmorModVsElectric */
      , (43979,  27,    5.01) /* RotationSpeed */
-     , (43979,  31,      16) /* VisualAwarenessRange */
+     , (43979,  31,      22) /* VisualAwarenessRange */
      , (43979,  34,       1) /* PowerupTime */
      , (43979,  36,       1) /* ChargeSpeed */
      , (43979,  64,    0.25) /* ResistSlash */
@@ -70,15 +68,15 @@ VALUES (43979,   1,       5) /* HeartbeatInterval */
      , (43979,  80,       4) /* AiUseMagicDelay */
      , (43979, 104,      10) /* ObviousRadarRange */
      , (43979, 122,       2) /* AiAcquireHealth */
-     , (43979, 125,       1) /* ResistHealthDrain */												
-	 , (43979,  39,     1.1) /* DefaultScale */;
+     , (43979, 125,       1) /* ResistHealthDrain */
+     , (43979,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (43979,   1,  12000, 0, 0, 12250) /* MaxHealth */
      , (43979,   3,  3000, 0, 0, 3230) /* MaxStamina */
      , (43979,   5,  2000, 0, 0, 2270) /* MaxMana */;
-	 
-	 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+
+     INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43979,   1, 210, 0, 0) /* Strength */
      , (43979,   2, 230, 0, 0) /* Endurance */
      , (43979,   3, 230, 0, 0) /* Quickness */
@@ -89,10 +87,10 @@ VALUES (43979,   1, 210, 0, 0) /* Strength */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (43979,  6, 0, 2, 0, 425, 0, 0) /* MeleeDefense        Trained */
      , (43979,  7, 0, 2, 0, 450, 0, 0) /* MissileDefense      Trained */
-     , (43979, 15, 0, 2, 0, 380, 0, 0) /* MagicDefense        Trained */
+     , (43979, 15, 0, 2, 0, 425, 0, 0) /* MagicDefense        Trained */
      , (43979, 24, 0, 2, 0, 300, 0, 0) /* Run                 Trained */
-     , (43979, 33, 0, 2, 0, 380, 0, 0) /* LifeMagic           Trained */
-     , (43979, 34, 0, 2, 0, 380, 0, 0) /* WarMagic            Trained */
+     , (43979, 33, 0, 2, 0, 425, 0, 0) /* LifeMagic           Trained */
+     , (43979, 34, 0, 2, 0, 425, 0, 0) /* WarMagic            Trained */
      , (43979, 45, 0, 3, 0, 440, 0, 0) /* LightWeapons        Specialized */
      , (43979, 46, 0, 3, 0, 440, 0, 0) /* FinesseWeapons      Specialized */;
 
@@ -117,6 +115,5 @@ VALUES (43979,  1785,   2.06)  /* Cassius' Ring of Fire */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43979, 9, 44303,  1, 0, 0.99, False) /* Create Ancient Sacred A'nekshay Crystal for ContainTreasure */
-     , (43979, 9,     0,  0, 0, 0.01, False) /* Create nothing for ContainTreasure */;	
-
+     , (43979, 9,     0,  0, 0, 0.01, False) /* Create nothing for ContainTreasure */;
 

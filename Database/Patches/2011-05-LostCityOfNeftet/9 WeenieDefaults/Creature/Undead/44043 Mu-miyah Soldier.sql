@@ -1,6 +1,5 @@
 /* Overworld Landscape Spawn Only */
 
-
 DELETE FROM `weenie` WHERE `class_Id` = 44043;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -19,9 +18,9 @@ VALUES (44043,   1,         16) /* ItemType - Creature */
      , (44043,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44043, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44043, 146,    1850000) /* XpOverride */
-	 , (44043, 307,          9) /* DamageRating */
-	 , (44043, 315,         10) /* CritResistRating */
-	 , (44043, 316,         20) /* CritDamResistRating */
+     , (44043, 307,          9) /* DamageRating */
+     , (44043, 315,         10) /* CritResistRating */
+     , (44043, 316,         20) /* CritDamResistRating */
      , (44043, 332,        180) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -41,7 +40,7 @@ VALUES (44043,   1,       5) /* HeartbeatInterval */
      , (44043,   4,      10) /* StaminaRate */
      , (44043,   5,       3) /* ManaRate */
      , (44043,  12,     0.0) /* Shade */
-	 , (44043,  39,     1.2) /* DefaultScale */
+     , (44043,  39,     1.2) /* DefaultScale */
       , (44043,  13,    0.67) /* ArmorModVsSlash */
      , (44043,  14,     0.9) /* ArmorModVsPierce */
      , (44043,  15,    0.75) /* ArmorModVsBludgeon */
@@ -50,7 +49,7 @@ VALUES (44043,   1,       5) /* HeartbeatInterval */
      , (44043,  18,    0.67) /* ArmorModVsAcid */
      , (44043,  19,       1) /* ArmorModVsElectric */
      , (44043,  27,    5.01) /* RotationSpeed */
-     , (44043,  31,      16) /* VisualAwarenessRange */
+     , (44043,  31,      34) /* VisualAwarenessRange */
      , (44043,  34,       1) /* PowerupTime */
      , (44043,  36,       1) /* ChargeSpeed */
      , (44043,  64,     0.8) /* ResistSlash */
@@ -60,32 +59,32 @@ VALUES (44043,   1,       5) /* HeartbeatInterval */
      , (44043,  68,     0.3) /* ResistCold */
      , (44043,  69,     0.7) /* ResistAcid */
      , (44043,  70,     0.4) /* ResistElectric */
-	 , (44043, 166,     1.1) /* ResistNether */
+     , (44043, 166,     1.1) /* ResistNether */
      , (44043,  71,       1) /* ResistHealthBoost */
      , (44043,  72,       1) /* ResistStaminaDrain */
      , (44043,  73,       1) /* ResistStaminaBoost */
      , (44043,  74,       1) /* ResistManaDrain */
      , (44043,  75,       1) /* ResistManaBoost */
      , (44043,  80,       3) /* AiUseMagicDelay */
-	 , (44043, 117,     0.5) /* FocusedProbability */
+     , (44043, 117,     0.5) /* FocusedProbability */
      , (44043, 104,      10) /* ObviousRadarRange */
      , (44043, 122,       2) /* AiAcquireHealth */
      , (44043, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44043,   1, 'Mu-miyah Guardian') /* Name */
-	 , (44043,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
+     , (44043,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44043,   1,   33554433) /* Setup */
      , (44043,   2,  150995189) /* MotionTable */
      , (44043,   3,  536870942) /* SoundTable */
      , (44043,   6,   67108990) /* PaletteBase */
-	 , (44043,   7,  268435645) /* ClothingBase */
+     , (44043,   7,  268435645) /* ClothingBase */
      , (44043,   8,  100669122) /* Icon */
      , (44043,   4,  805306368) /* CombatTable */
      , (44043,  22,  872415272) /* PhysicsEffectTable */
-	 , (44043,  32,       3001) /* WieldedTreasureType */
+     , (44043,  32,       3001) /* WieldedTreasureType */
      , (44043,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -125,8 +124,7 @@ VALUES (44043,  0,  4,  0,    0,  450,  250,  150,  275,  250,  100,  250,  150,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44043,  2170,   1.06)  /* Inferno's Gift */
      , (44043,  4423,   1.06)  /*  Incantation of Flame Arc */
-	 , (44043,  2074,   1.06)  /* Gossamer Flesh */;
-
+     , (44043,  2074,   1.06)  /* Gossamer Flesh */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44043, 9, 44240,  1, 0, 0.03, False) /* Create A'nekshay Token (44240) for ContainTreasure */
@@ -138,6 +136,4 @@ VALUES (44043, 9, 44240,  1, 0, 0.03, False) /* Create A'nekshay Token (44240) f
      , (44043, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44043, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44043, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
+

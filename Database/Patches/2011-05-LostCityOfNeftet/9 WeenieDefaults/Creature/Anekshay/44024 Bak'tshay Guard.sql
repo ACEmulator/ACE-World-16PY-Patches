@@ -14,7 +14,7 @@ VALUES (44024,   1,         16) /* ItemType - Creature */
      , (44024,  25,        200) /* Level */
      , (44024,  27,          0) /* ArmorType - None */
      , (44024,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-	 , (44024, 307,          5) /* DamageRating */
+     , (44024, 307,          5) /* DamageRating */
      , (44024,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44024, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44024, 146,    1100000) /* XpOverride */;
@@ -28,7 +28,7 @@ VALUES (44024,   1, True ) /* Stuck */
      , (44024,  12, True ) /* ReportCollisions */
      , (44024,  13, False) /* Ethereal */
      , (44024,  58, True ) /* SpellQueueActive */
-	 , (44024, 120, True ) /* TreasureCorpse */;
+     , (44024, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44024,   1,       5) /* HeartbeatInterval */
@@ -45,7 +45,7 @@ VALUES (44024,   1,       5) /* HeartbeatInterval */
      , (44024,  18,    0.67) /* ArmorModVsAcid */
      , (44024,  19,       1) /* ArmorModVsElectric */
      , (44024,  27,    5.01) /* RotationSpeed */
-     , (44024,  31,      16) /* VisualAwarenessRange */
+     , (44024,  31,      22) /* VisualAwarenessRange */
      , (44024,  34,       1) /* PowerupTime */
      , (44024,  36,       1) /* ChargeSpeed */
      , (44024,  64,    0.25) /* ResistSlash */
@@ -55,18 +55,18 @@ VALUES (44024,   1,       5) /* HeartbeatInterval */
      , (44024,  68,     0.3) /* ResistCold */
      , (44024,  69,     0.8) /* ResistAcid */
      , (44024,  70,     0.4) /* ResistElectric */
-	 , (44024, 166,     1.1) /* ResistNether */
+     , (44024, 166,     1.1) /* ResistNether */
      , (44024,  71,       1) /* ResistHealthBoost */
      , (44024,  72,       1) /* ResistStaminaDrain */
      , (44024,  73,       1) /* ResistStaminaBoost */
      , (44024,  74,       1) /* ResistManaDrain */
      , (44024,  75,       1) /* ResistManaBoost */
      , (44024,  80,       3) /* AiUseMagicDelay */
-	 , (44024, 117,     0.5) /* FocusedProbability */
+     , (44024, 117,     0.5) /* FocusedProbability */
      , (44024, 104,      10) /* ObviousRadarRange */
      , (44024, 122,       2) /* AiAcquireHealth */
      , (44024, 125,       1) /* ResistHealthDrain */
-	 , (44024,  39,     1.0) /* DefaultScale */;																	
+     , (44024,  39,     1.0) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44024,   1, 'Bak''tshay Guard') /* Name */;
@@ -78,7 +78,7 @@ VALUES (44024,   1,   33561252) /* Setup */
      , (44024,   4,  805306368) /* CombatTable */
      , (44024,   6,   67108990) /* PaletteBase */
      , (44024,   8,  100670274) /* Icon */
-	 , (44024,   7,  268437456) /* ClothingBase */
+     , (44024,   7,  268437456) /* ClothingBase */
      , (44024,  22,  872415269) /* PhysicsEffectTable */
      , (44024,  32,       3001) /* WieldedTreasureType */
      , (44024,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
@@ -143,4 +143,3 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id, 0, 15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-	 

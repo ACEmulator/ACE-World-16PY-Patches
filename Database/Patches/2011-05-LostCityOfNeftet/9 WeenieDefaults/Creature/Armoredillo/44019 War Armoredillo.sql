@@ -13,7 +13,7 @@ VALUES (44019,   1,         16) /* ItemType - Creature */
      , (44019,   7,         -1) /* ContainersCapacity */
      , (44019,  16,          1) /* ItemUseable - No */
      , (44019,  25,        265) /* Level */
-	 , (44019, 316,         15) /* CritDamageResistRating */
+     , (44019, 316,         15) /* CritDamageResistRating */
      , (44019,  40,          2) /* CombatMode - Melee */
      , (44019,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (44019,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -36,7 +36,7 @@ VALUES (44019,   1,       5) /* HeartbeatInterval */
      , (44019,   4,    1.79) /* StaminaRate */
      , (44019,   5,       2) /* ManaRate */
      , (44019,  12,       0) /* Shade */
-	 , (44019,  39,     1.6) /* DefaultScale */
+     , (44019,  39,     1.6) /* DefaultScale */
      , (44019,  13,     0.6) /* ArmorModVsSlash */
      , (44019,  14,    0.66) /* ArmorModVsPierce */
      , (44019,  15,    0.75) /* ArmorModVsBludgeon */
@@ -45,7 +45,7 @@ VALUES (44019,   1,       5) /* HeartbeatInterval */
      , (44019,  18,    0.95) /* ArmorModVsAcid */
      , (44019,  19,       1) /* ArmorModVsElectric */
      , (44019,  27,    5.01) /* RotationSpeed */
-     , (44019,  31,      16) /* VisualAwarenessRange */
+     , (44019,  31,      32) /* VisualAwarenessRange */
      , (44019,  34,       1) /* PowerupTime */
      , (44019,  36,       1) /* ChargeSpeed */
      , (44019,  64,    0.65) /* ResistSlash */
@@ -55,21 +55,21 @@ VALUES (44019,   1,       5) /* HeartbeatInterval */
      , (44019,  68,     0.3) /* ResistCold */
      , (44019,  69,     0.3) /* ResistAcid */
      , (44019,  70,    0.70) /* ResistElectric */
-	 , (44019, 166,     1.0) /* ResistNether */
+     , (44019, 166,     1.0) /* ResistNether */
      , (44019,  71,       1) /* ResistHealthBoost */
      , (44019,  72,       1) /* ResistStaminaDrain */
      , (44019,  73,       1) /* ResistStaminaBoost */
      , (44019,  74,       1) /* ResistManaDrain */
      , (44019,  75,       1) /* ResistManaBoost */
      , (44019,  80,       3) /* AiUseMagicDelay */
-	 , (44019, 117,     0.5) /* FocusedProbability */
+     , (44019, 117,     0.5) /* FocusedProbability */
      , (44019, 104,      10) /* ObviousRadarRange */
      , (44019, 122,       2) /* AiAcquireHealth */
      , (44019, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44019,   1, 'War Armoredillo') /* Name */
-	 , (44019,  45, 'KilltaskDesertAreaArmoredillo_0511') /* KillQuest */;
+     , (44019,  45, 'KilltaskDesertAreaArmoredillo_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44019,   1,   33554436) /* Setup */
@@ -80,7 +80,7 @@ VALUES (44019,   1,   33554436) /* Setup */
      , (44019,   6,   67109301) /* PaletteBase */
      , (44019,   8,  100667935) /* Icon */
      , (44019,  22,  872415253) /* PhysicsEffectTable */
-	 , (44019,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (44019,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44019,   1, 350, 0, 0) /* Strength */
@@ -136,9 +136,4 @@ VALUES (44019, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44019, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44019, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44019, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-
-
-
-
-
 

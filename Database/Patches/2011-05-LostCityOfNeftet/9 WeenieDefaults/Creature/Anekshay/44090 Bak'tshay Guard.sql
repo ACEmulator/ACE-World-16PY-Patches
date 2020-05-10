@@ -13,7 +13,7 @@ VALUES (44090,   1,         16) /* ItemType - Creature */
      , (44090,  25,        200) /* Level */
      , (44090,  27,          0) /* ArmorType - None */
      , (44090,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-	 , (44090, 307,          5) /* DamageRating */
+     , (44090, 307,          5) /* DamageRating */
      , (44090,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44090, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44090, 146,    1100000) /* XpOverride */;
@@ -27,7 +27,7 @@ VALUES (44090,   1, True ) /* Stuck */
      , (44090,  12, True ) /* ReportCollisions */
      , (44090,  13, False) /* Ethereal */
      , (44090,  58, True ) /* SpellQueueActive */
-	 , (44090, 120, True ) /* TreasureCorpse */;
+     , (44090, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44090,   1,       5) /* HeartbeatInterval */
@@ -44,7 +44,7 @@ VALUES (44090,   1,       5) /* HeartbeatInterval */
      , (44090,  18,    0.67) /* ArmorModVsAcid */
      , (44090,  19,       1) /* ArmorModVsElectric */
      , (44090,  27,    5.01) /* RotationSpeed */
-     , (44090,  31,      16) /* VisualAwarenessRange */
+     , (44090,  31,      22) /* VisualAwarenessRange */
      , (44090,  34,       1) /* PowerupTime */
      , (44090,  36,       1) /* ChargeSpeed */
      , (44090,  64,    0.25) /* ResistSlash */
@@ -54,18 +54,18 @@ VALUES (44090,   1,       5) /* HeartbeatInterval */
      , (44090,  68,     0.3) /* ResistCold */
      , (44090,  69,     0.8) /* ResistAcid */
      , (44090,  70,     0.4) /* ResistElectric */
-	 , (44090, 166,     1.1) /* ResistNether */
+     , (44090, 166,     1.1) /* ResistNether */
      , (44090,  71,       1) /* ResistHealthBoost */
      , (44090,  72,       1) /* ResistStaminaDrain */
      , (44090,  73,       1) /* ResistStaminaBoost */
      , (44090,  74,       1) /* ResistManaDrain */
      , (44090,  75,       1) /* ResistManaBoost */
      , (44090,  80,       3) /* AiUseMagicDelay */
-	 , (44090, 117,     0.5) /* FocusedProbability */
+     , (44090, 117,     0.5) /* FocusedProbability */
      , (44090, 104,      10) /* ObviousRadarRange */
      , (44090, 122,       2) /* AiAcquireHealth */
      , (44090, 125,       1) /* ResistHealthDrain */
-	 , (44090,  39,     1.0) /* DefaultScale */;																	
+     , (44090,  39,     1.0) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44090,   1, 'Bak''tshay Guard') /* Name */;
@@ -77,7 +77,7 @@ VALUES (44090,   1,   33561252) /* Setup */
      , (44090,   4,  805306368) /* CombatTable */
      , (44090,   6,   67108990) /* PaletteBase */
      , (44090,   8,  100670274) /* Icon */
-	 , (44090,   7,  268437456) /* ClothingBase */
+     , (44090,   7,  268437456) /* ClothingBase */
      , (44090,  22,  872415269) /* PhysicsEffectTable */
      , (44090,  32,       3001) /* WieldedTreasureType */
      , (44090,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
@@ -133,5 +133,4 @@ VALUES (44090, 9, 44267,  1, 0, 0.2, False) /* Create Engraved A'nekshay Bracers
      , (44090, 9, 44123,  1, 0, 0.20, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
      , (44090, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
      , (44090, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
-	 
-	 
+

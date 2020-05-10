@@ -29,7 +29,7 @@ VALUES (44029,   1, True ) /* Stuck */
      , (44029,  12, True ) /* ReportCollisions */
      , (44029,  13, False) /* Ethereal */
      , (44029,  58, True ) /* SpellQueueActive */
-	 , (44029, 120, True ) /* TreasureCorpse */;
+     , (44029, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44029,   1,       5) /* HeartbeatInterval */
@@ -46,7 +46,7 @@ VALUES (44029,   1,       5) /* HeartbeatInterval */
      , (44029,  18,    0.67) /* ArmorModVsAcid */
      , (44029,  19,       1) /* ArmorModVsElectric */
      , (44029,  27,    5.01) /* RotationSpeed */
-     , (44029,  31,      16) /* VisualAwarenessRange */
+     , (44029,  31,      32) /* VisualAwarenessRange */
      , (44029,  34,       1) /* PowerupTime */
      , (44029,  36,       1) /* ChargeSpeed */
      , (44029,  64,    0.25) /* ResistSlash */
@@ -56,18 +56,18 @@ VALUES (44029,   1,       5) /* HeartbeatInterval */
      , (44029,  68,     0.3) /* ResistCold */
      , (44029,  69,     0.8) /* ResistAcid */
      , (44029,  70,     0.4) /* ResistElectric */
-	 , (44029, 166,     1.1) /* ResistNether */
+     , (44029, 166,     1.1) /* ResistNether */
      , (44029,  71,       1) /* ResistHealthBoost */
      , (44029,  72,       1) /* ResistStaminaDrain */
      , (44029,  73,       1) /* ResistStaminaBoost */
      , (44029,  74,       1) /* ResistManaDrain */
      , (44029,  75,       1) /* ResistManaBoost */
      , (44029,  80,       3) /* AiUseMagicDelay */
-	 , (44029, 117,     0.5) /* FocusedProbability */
+     , (44029, 117,     0.5) /* FocusedProbability */
      , (44029, 104,      10) /* ObviousRadarRange */
      , (44029, 122,       2) /* AiAcquireHealth */
-     , (44029, 125,       1) /* ResistHealthDrain */												
-	 , (44029,  39,     1.1) /* DefaultScale */;
+     , (44029, 125,       1) /* ResistHealthDrain */
+     , (44029,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44029,   1, 'Bak''tshay Soldier') /* Name */;
@@ -79,7 +79,7 @@ VALUES (44029,   1,   33561251) /* Setup */
      , (44029,   4,  805306368) /* CombatTable */
      , (44029,   6,   67108990) /* PaletteBase */
      , (44029,   8,  100670274) /* Icon */
-	 , (44029,   7,  268437456) /* ClothingBase */
+     , (44029,   7,  268437456) /* ClothingBase */
      , (44029,  22,  872415269) /* PhysicsEffectTable */
      , (44029,  32,       3001) /* WieldedTreasureType */
      , (44029,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
@@ -124,12 +124,9 @@ VALUES (44029,  1785,   2.06)  /* Cassius' Ring of Fire */
      , (44029,  2170,   2.06)  /* Inferno's Gift */
      , (44029,  2074,   2.06)  /* Gossamer Flesh */
      , (44029,  2745,   2.06)  /* Flame Arc VII */
-	 , (44029,  2053,   2.06)  /* ArmorSelf VII */
-	 , (44029,  2155,   2.06)  /* Icy Blessing VII */
+     , (44029,  2053,   2.06)  /* ArmorSelf VII */
+     , (44029,  2155,   2.06)  /* Icy Blessing VII */
      , (44029,  1841,   2.06)  /* Slithering Flames */;
-	 
-	 
-	 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44029, 9, 48908,  1, 0, 0.03, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
@@ -141,3 +138,4 @@ VALUES (44029, 9, 48908,  1, 0, 0.03, False) /* Create Shattered Legendary Key (
      , (44029, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44029, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44029, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
+

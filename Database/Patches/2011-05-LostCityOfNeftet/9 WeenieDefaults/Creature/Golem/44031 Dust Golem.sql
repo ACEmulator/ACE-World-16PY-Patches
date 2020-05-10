@@ -1,6 +1,5 @@
 /* Overworld Spawn Only */
 
-
 DELETE FROM `weenie` WHERE `class_Id` = 44031;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -14,7 +13,7 @@ VALUES (44031,   1,         16) /* ItemType - Creature */
      , (44031,   7,         -1) /* ContainersCapacity */
      , (44031,  16,          1) /* ItemUseable - No */
      , (44031,  25,        300) /* Level */
-	 , (44031, 307,         10) /* DamageRating */
+     , (44031, 307,         10) /* DamageRating */
      , (44031,  27,          0) /* ArmorType - None */
      , (44031,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (44031,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -39,7 +38,7 @@ VALUES (44031,   1,       5) /* HeartbeatInterval */
      , (44031,   4,      10) /* StaminaRate */
      , (44031,   5,       3) /* ManaRate */
      , (44031,  12,  0.0667) /* Shade */
-	 , (44031,  39,     1.5) /* DefaultScale */
+     , (44031,  39,     1.5) /* DefaultScale */
      , (44031,  13,       1) /* ArmorModVsSlash */
      , (44031,  14,     0.9) /* ArmorModVsPierce */
      , (44031,  15,       1) /* ArmorModVsBludgeon */
@@ -48,7 +47,7 @@ VALUES (44031,   1,       5) /* HeartbeatInterval */
      , (44031,  18,       1) /* ArmorModVsAcid */
      , (44031,  19,       1) /* ArmorModVsElectric */
      , (44031,  27,     3.0) /* RotationSpeed */
-     , (44031,  31,      16) /* VisualAwarenessRange */
+     , (44031,  31,      34) /* VisualAwarenessRange */
      , (44031,  34,       1) /* PowerupTime */
      , (44031,  36,       1) /* ChargeSpeed */
      , (44031,  64,    0.25) /* ResistSlash */
@@ -58,21 +57,21 @@ VALUES (44031,   1,       5) /* HeartbeatInterval */
      , (44031,  68,     1.0) /* ResistCold */
      , (44031,  69,     0.3) /* ResistAcid */
      , (44031,  70,     0.4) /* ResistElectric */
-	 , (44031, 166,     1.3) /* ResistNether */
+     , (44031, 166,     1.3) /* ResistNether */
      , (44031,  71,       1) /* ResistHealthBoost */
      , (44031,  72,       1) /* ResistStaminaDrain */
      , (44031,  73,       1) /* ResistStaminaBoost */
      , (44031,  74,       1) /* ResistManaDrain */
      , (44031,  75,       1) /* ResistManaBoost */
      , (44031,  80,       3) /* AiUseMagicDelay */
-	 , (44031, 117,     0.5) /* FocusedProbability */
+     , (44031, 117,     0.5) /* FocusedProbability */
      , (44031, 104,      10) /* ObviousRadarRange */
      , (44031, 122,       2) /* AiAcquireHealth */
      , (44031, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44031,   1, 'Dust Golem') /* Name */
-	 , (44031,  45, 'KilltaskDesertAreaGolem_0511') /* KillQuest */;
+     , (44031,  45, 'KilltaskDesertAreaGolem_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44031,   1,   33561253) /* Setup */
@@ -104,7 +103,7 @@ VALUES (44031,  6, 0, 2, 0, 425, 0, 0) /* MeleeDefense        Trained */
      , (44031, 24, 0, 2, 0, 200, 0, 0) /* Run                 Trained */
      , (44031, 33, 0, 2, 0, 435, 0, 0) /* LifeMagic           Trained */
      , (44031, 34, 0, 2, 0, 445, 0, 0) /* WarMagic            Trained */
-	 , (44031, 13, 0, 3, 0, 490, 0, 0) /* UnarmedCombat       Specialized */
+     , (44031, 13, 0, 3, 0, 490, 0, 0) /* UnarmedCombat       Specialized */
      , (44031, 45, 0, 3, 0, 480, 0, 0) /* LightWeapons        Specialized */
      , (44031, 46, 0, 3, 0, 480, 0, 0) /* FinesseWeapons      Specialized */;
 
@@ -125,7 +124,7 @@ VALUES (44031,  4007,   2.06)   /* Flame Wave -  not implemented in ACE */
      , (44031,  4644,   2.06)  /* Incantation of Drain Mana Other */
      , (44031,  4643,   2.06)  /* Incantation of Drain Health */
      , (44031,  4645,   2.06)  /* Incantation of Drain Stamina Other */
-	 , (44031,  3878,   2.06)  /* Incendiary Strike */ ;
+     , (44031,  3878,   2.06)  /* Incendiary Strike */ ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44031, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
@@ -139,3 +138,4 @@ VALUES (44031, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44031, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44031, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44031, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
+
