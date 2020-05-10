@@ -13,7 +13,7 @@ VALUES (44028,   1,         16) /* ItemType - Creature */
      , (44028,  25,        220) /* Level */
      , (44028,  27,          0) /* ArmorType - None */
      , (44028,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-	 , (44028, 307,          2) /* DamageRating */
+     , (44028, 307,          2) /* DamageRating */
      , (44028,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44028, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44028, 146,    1400000) /* XpOverride */;
@@ -27,7 +27,7 @@ VALUES (44028,   1, True ) /* Stuck */
      , (44028,  12, True ) /* ReportCollisions */
      , (44028,  13, False) /* Ethereal */
      , (44028,  58, True ) /* SpellQueueActive */
-	 , (44028, 120, True ) /* TreasureCorpse */;
+     , (44028, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44028,   1,       5) /* HeartbeatInterval */
@@ -44,7 +44,7 @@ VALUES (44028,   1,       5) /* HeartbeatInterval */
      , (44028,  18,    0.67) /* ArmorModVsAcid */
      , (44028,  19,       1) /* ArmorModVsElectric */
      , (44028,  27,    5.01) /* RotationSpeed */
-     , (44028,  31,      16) /* VisualAwarenessRange */
+     , (44028,  31,      22) /* VisualAwarenessRange */
      , (44028,  34,       1) /* PowerupTime */
      , (44028,  36,       1) /* ChargeSpeed */
      , (44028,  64,    0.25) /* ResistSlash */
@@ -54,18 +54,18 @@ VALUES (44028,   1,       5) /* HeartbeatInterval */
      , (44028,  68,     0.3) /* ResistCold */
      , (44028,  69,     0.8) /* ResistAcid */
      , (44028,  70,     0.4) /* ResistElectric */
-	 , (44028, 166,     1.1) /* ResistNether */
+     , (44028, 166,     1.1) /* ResistNether */
      , (44028,  71,       1) /* ResistHealthBoost */
      , (44028,  72,       1) /* ResistStaminaDrain */
      , (44028,  73,       1) /* ResistStaminaBoost */
      , (44028,  74,       1) /* ResistManaDrain */
      , (44028,  75,       1) /* ResistManaBoost */
      , (44028,  80,       3) /* AiUseMagicDelay */
-	 , (44028, 117,     0.5) /* FocusedProbability */
+     , (44028, 117,     0.5) /* FocusedProbability */
      , (44028, 104,      10) /* ObviousRadarRange */
      , (44028, 122,       2) /* AiAcquireHealth */
      , (44028, 125,       1) /* ResistHealthDrain */
-	 , (44028,  39,     1.1) /* DefaultScale */;
+     , (44028,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44028,   1, 'Bak''tshay Servant') /* Name */;
@@ -74,12 +74,12 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44028,   1,   33561251) /* Setup */
      , (44028,   2,  150994945) /* MotionTable */
      , (44028,   3,  536870933) /* SoundTable */
-     , (44028,   4,  805306368) /* CombatTable */												 
+     , (44028,   4,  805306368) /* CombatTable */
      , (44028,   6,   67108990) /* PaletteBase */
      , (44028,   8,  100670274) /* Icon */
      , (44028,  22,  872415269) /* PhysicsEffectTable */
-	 , (44028,   7,  268437456) /* ClothingBase */
-	 , (44028,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
+     , (44028,   7,  268437456) /* ClothingBase */
+     , (44028,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -145,8 +145,3 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id, 0, 15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-
-
-
-
-	 

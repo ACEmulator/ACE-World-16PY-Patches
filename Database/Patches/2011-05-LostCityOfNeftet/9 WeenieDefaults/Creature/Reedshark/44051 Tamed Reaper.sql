@@ -14,7 +14,7 @@ VALUES (44051,   1,         16) /* ItemType - Creature */
      , (44051,  16,          1) /* ItemUseable - No */
      , (44051,  25,        240) /* Level */
      , (44051,  40,          2) /* CombatMode - Melee */
-	 , (44051, 307,          30) /* DamageRating */
+     , (44051, 307,          30) /* DamageRating */
      , (44051,  68,          3) /* TargetingTactic - Random, Focused */
      , (44051,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44051, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -34,7 +34,7 @@ VALUES (44051,   1,       5) /* HeartbeatInterval */
      , (44051,   4,       5) /* StaminaRate */
      , (44051,   5,       2) /* ManaRate */
      , (44051,  12,     0.5) /* Shade */
-	 , (44051,  39,     2.5) /* DefaultScale */
+     , (44051,  39,     2.5) /* DefaultScale */
      , (44051,  13,     0.5) /* ArmorModVsSlash */
      , (44051,  14,     0.6) /* ArmorModVsPierce */
      , (44051,  15,    0.75) /* ArmorModVsBludgeon */
@@ -43,7 +43,7 @@ VALUES (44051,   1,       5) /* HeartbeatInterval */
      , (44051,  18,    0.95) /* ArmorModVsAcid */
      , (44051,  19,       1) /* ArmorModVsElectric */
      , (44051,  27,    5.01) /* RotationSpeed */
-     , (44051,  31,      16) /* VisualAwarenessRange */
+     , (44051,  31,      32) /* VisualAwarenessRange */
      , (44051,  34,       1) /* PowerupTime */
      , (44051,  36,       1) /* ChargeSpeed */
      , (44051,  64,     0.8) /* ResistSlash */
@@ -53,21 +53,21 @@ VALUES (44051,   1,       5) /* HeartbeatInterval */
      , (44051,  68,     0.3) /* ResistCold */
      , (44051,  69,     0.3) /* ResistAcid */
      , (44051,  70,    0.67) /* ResistElectric */
-	 , (44051, 166,     1.1) /* ResistNether */
+     , (44051, 166,     1.1) /* ResistNether */
      , (44051,  71,       1) /* ResistHealthBoost */
      , (44051,  72,       1) /* ResistStaminaDrain */
      , (44051,  73,       1) /* ResistStaminaBoost */
      , (44051,  74,       1) /* ResistManaDrain */
      , (44051,  75,       1) /* ResistManaBoost */
      , (44051,  80,       3) /* AiUseMagicDelay */
-	 , (44051, 117,     0.5) /* FocusedProbability */
+     , (44051, 117,     0.5) /* FocusedProbability */
      , (44051, 104,      10) /* ObviousRadarRange */
      , (44051, 122,       2) /* AiAcquireHealth */
      , (44051, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44051,   1, 'Tamed Reaper') /* Name */
-	 , (44051,  45, 'KilltaskDesertAreaReedshark_0511') /* KillQuest */;
+     , (44051,  45, 'KilltaskDesertAreaReedshark_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44051,   1,   33554489) /* Setup */
@@ -150,15 +150,4 @@ VALUES (44051, 9, 24847,  1, 0, 0.1, False) /* Create Reaper Hide (24847) for Co
      , (44051, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44051, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44051, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
+

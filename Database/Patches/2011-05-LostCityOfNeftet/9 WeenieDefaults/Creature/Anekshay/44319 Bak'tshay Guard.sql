@@ -44,7 +44,7 @@ VALUES (44319,   1,       5) /* HeartbeatInterval */
 	 , (44319,  18,    0.67) /* ArmorModVsAcid */
 	 , (44319,  19,       1) /* ArmorModVsElectric */
 	 , (44319,  27,    5.01) /* RotationSpeed */
-	 , (44319,  31,      16) /* VisualAwarenessRange */
+	 , (44319,  31,      22) /* VisualAwarenessRange */
 	 , (44319,  34,       1) /* PowerupTime */
 	 , (44319,  36,       1) /* ChargeSpeed */
 	 , (44319,  64,    0.25) /* ResistSlash */
@@ -65,7 +65,7 @@ VALUES (44319,   1,       5) /* HeartbeatInterval */
 	 , (44319, 104,      10) /* ObviousRadarRange */
 	 , (44319, 122,       2) /* AiAcquireHealth */
 	 , (44319, 125,       1) /* ResistHealthDrain */
-	 , (44319,  39,     1.0) /* DefaultScale */;																
+	 , (44319,  39,     1.0) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44319,   1, 'Bak''tshay Guard') /* Name */
@@ -127,7 +127,7 @@ VALUES (44319,  1785,   2.06)  /* Cassius' Ring of Fire */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44319, 9, 44303,  1, 0, 0.99, False) /* Create Ancient Sacred A'nekshay Crystal for ContainTreasure */
-	 , (44319, 9,     0,  0, 0, 0.01, False) /* Create nothing for ContainTreasure */;				 
+	 , (44319, 9,     0,  0, 0, 0.01, False) /* Create nothing for ContainTreasure */;
 
 
 

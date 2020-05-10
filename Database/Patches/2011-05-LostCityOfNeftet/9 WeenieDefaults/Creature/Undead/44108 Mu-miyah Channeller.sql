@@ -16,8 +16,8 @@ VALUES (44108,   1,         16) /* ItemType - Creature */
      , (44108,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44108, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44108, 146,    4000000) /* XpOverride */
-	 , (44108, 307,         10) /* DamageRating */
-	 , (44108, 315,       9999) /* CritResistRating */
+     , (44108, 307,         10) /* DamageRating */
+     , (44108, 315,       9999) /* CritResistRating */
      , (44108, 332,        300) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -37,7 +37,7 @@ VALUES (44108,   1,       5) /* HeartbeatInterval */
      , (44108,   4,      10) /* StaminaRate */
      , (44108,   5,       3) /* ManaRate */
      , (44108,  12,     0.0) /* Shade */
-	 , (44108,  39,     1.6) /* DefaultScale */
+     , (44108,  39,     1.6) /* DefaultScale */
      , (44108,  13,       1) /* ArmorModVsSlash */
      , (44108,  14,       1) /* ArmorModVsPierce */
      , (44108,  15,     0.4) /* ArmorModVsBludgeon */
@@ -45,7 +45,7 @@ VALUES (44108,   1,       5) /* HeartbeatInterval */
      , (44108,  17,     0.8) /* ArmorModVsFire */
      , (44108,  18,    0.67) /* ArmorModVsAcid */
      , (44108,  19,     0.8) /* ArmorModVsElectric */
-     , (44108,  31,      12) /* VisualAwarenessRange */
+     , (44108,  31,      22) /* VisualAwarenessRange */
      , (44108,  64,    0.67) /* ResistSlash */
      , (44108,  65,    0.67) /* ResistPierce */
      , (44108,  66,    0.67) /* ResistBludgeon */
@@ -63,14 +63,14 @@ VALUES (44108,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44108,   1, 'Mu-miyah Channeler') /* Name */
-	 , (44108,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
+     , (44108,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44108,   1,   33554433) /* Setup */
      , (44108,   2,  150995189) /* MotionTable */
      , (44108,   3,  536870942) /* SoundTable */
      , (44108,   6,   67108990) /* PaletteBase */
-	 , (44108,   7,  268435645) /* ClothingBase */
+     , (44108,   7,  268435645) /* ClothingBase */
      , (44108,   8,  100669122) /* Icon */
      , (44108,   4,  805306376) /* CombatTable */
      , (44108,  22,  872415272) /* PhysicsEffectTable */
@@ -120,12 +120,12 @@ VALUES (44108,  5542,   2.06)  /* Burning Sands Infliction */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
-	 , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
-	 , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
-	 , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
-	 , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
-	 , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
-	 , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
-	 , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
-	 , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */;
+     , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
+     , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
+     , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
+     , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
+     , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
+     , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
+     , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
+     , (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */;
 

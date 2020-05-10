@@ -15,7 +15,7 @@ VALUES (44322,   1,         16) /* ItemType - Creature */
      , (44322,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (44322,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44322, 133,          2) /* ShowableOnRadar - ShowMovement */
-	 , (44322, 307,          4) /* DamageRating */
+     , (44322, 307,          4) /* DamageRating */
      , (44322, 146,    1400000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -27,7 +27,7 @@ VALUES (44322,   1, True ) /* Stuck */
      , (44322,  12, True ) /* ReportCollisions */
      , (44322,  13, False) /* Ethereal */
      , (44322,  58, True ) /* SpellQueueActive */
-	 , (44322, 120, True ) /* TreasureCorpse */;
+     , (44322, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44322,   1,       5) /* HeartbeatInterval */
@@ -44,7 +44,7 @@ VALUES (44322,   1,       5) /* HeartbeatInterval */
      , (44322,  18,    0.67) /* ArmorModVsAcid */
      , (44322,  19,       1) /* ArmorModVsElectric */
      , (44322,  27,    5.01) /* RotationSpeed */
-     , (44322,  31,      16) /* VisualAwarenessRange */
+     , (44322,  31,      22) /* VisualAwarenessRange */
      , (44322,  34,       1) /* PowerupTime */
      , (44322,  36,       1) /* ChargeSpeed */
      , (44322,  64,    0.25) /* ResistSlash */
@@ -54,22 +54,22 @@ VALUES (44322,   1,       5) /* HeartbeatInterval */
      , (44322,  68,     0.3) /* ResistCold */
      , (44322,  69,     0.8) /* ResistAcid */
      , (44322,  70,     0.4) /* ResistElectric */
-	 , (44322, 166,     1.0) /* ResistNether */
+     , (44322, 166,     1.0) /* ResistNether */
      , (44322,  71,       1) /* ResistHealthBoost */
      , (44322,  72,       1) /* ResistStaminaDrain */
      , (44322,  73,       1) /* ResistStaminaBoost */
      , (44322,  74,       1) /* ResistManaDrain */
      , (44322,  75,       1) /* ResistManaBoost */
      , (44322,  80,       3) /* AiUseMagicDelay */
-	 , (44322, 117,     0.5) /* FocusedProbability */
+     , (44322, 117,     0.5) /* FocusedProbability */
      , (44322, 104,      10) /* ObviousRadarRange */
      , (44322, 122,       2) /* AiAcquireHealth */
-     , (44322, 125,       1) /* ResistHealthDrain */												
-	 , (44322,  39,     1.1) /* DefaultScale */;
+     , (44322, 125,       1) /* ResistHealthDrain */
+     , (44322,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44322,   1, 'Bak''tshay Soldier') /* Name */
-	 , (44322,  45, 'crystalidolneftetkillcount') /* KillQuest */;
+     , (44322,  45, 'crystalidolneftetkillcount') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44322,   1,   33561251) /* Setup */
@@ -78,7 +78,7 @@ VALUES (44322,   1,   33561251) /* Setup */
      , (44322,   4,  805306368) /* CombatTable */
      , (44322,   6,   67108990) /* PaletteBase */
      , (44322,   8,  100670274) /* Icon */
-	 , (44322,   7,  268437456) /* ClothingBase */
+     , (44322,   7,  268437456) /* ClothingBase */
      , (44322,  22,  872415269) /* PhysicsEffectTable */
      , (44322,  32,       3001) /* WieldedTreasureType */;
 
@@ -104,7 +104,7 @@ VALUES (44322,  6, 0, 2, 0, 425, 0, 0) /* MeleeDefense        Trained */
      , (44322, 34, 0, 2, 0, 380, 0, 0) /* WarMagic            Trained */
      , (44322, 45, 0, 3, 0, 440, 0, 0) /* LightWeapons        Specialized */
      , (44322, 46, 0, 3, 0, 440, 0, 0) /* FinesseWeapons      Specialized */;
-	 
+
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (44322,  0,  4,  0,    0,  800,  275,  275,  225,  250,  400,  225,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
      , (44322,  1,  4,  0,    0,  800,  275,  275,  225,  250,  400,  225,  400,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
@@ -126,7 +126,5 @@ VALUES (44322,  1785,   2.06)  /* Cassius' Ring of Fire */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44322, 9, 44303,  1, 0, 0.99, False) /* Create Ancient Sacred A'nekshay Crystal for ContainTreasure */
-     , (44322, 9,     0,  0, 0, 0.01, False) /* Create nothing for ContainTreasure */;				 
-
-
+     , (44322, 9,     0,  0, 0, 0.01, False) /* Create nothing for ContainTreasure */;
 

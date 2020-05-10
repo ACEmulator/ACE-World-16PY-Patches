@@ -1,6 +1,5 @@
 /* Overworld Landscape Spawn Only */
 
-
 DELETE FROM `weenie` WHERE `class_Id` = 44039;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -19,8 +18,8 @@ VALUES (44039,   1,         16) /* ItemType - Creature */
      , (44039,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44039, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44039, 146,    2000000) /* XpOverride */
-	 , (44039, 307,          8) /* DamageRating */
-	 , (44039, 315,         20) /* CritResistRating */
+     , (44039, 307,          8) /* DamageRating */
+     , (44039, 315,         20) /* CritResistRating */
      , (44039, 332,        300) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -40,7 +39,7 @@ VALUES (44039,   1,       5) /* HeartbeatInterval */
      , (44039,   4,      10) /* StaminaRate */
      , (44039,   5,       3) /* ManaRate */
      , (44039,  12,     0.0) /* Shade */
-	 , (44039,  39,     1.2) /* DefaultScale */
+     , (44039,  39,     1.2) /* DefaultScale */
      , (44039,  13,    0.67) /* ArmorModVsSlash */
      , (44039,  14,     0.9) /* ArmorModVsPierce */
      , (44039,  15,    0.75) /* ArmorModVsBludgeon */
@@ -49,7 +48,7 @@ VALUES (44039,   1,       5) /* HeartbeatInterval */
      , (44039,  18,    0.67) /* ArmorModVsAcid */
      , (44039,  19,       1) /* ArmorModVsElectric */
      , (44039,  27,    5.01) /* RotationSpeed */
-     , (44039,  31,      16) /* VisualAwarenessRange */
+     , (44039,  31,      34) /* VisualAwarenessRange */
      , (44039,  34,       1) /* PowerupTime */
      , (44039,  36,       1) /* ChargeSpeed */
      , (44039,  64,     0.8) /* ResistSlash */
@@ -59,28 +58,28 @@ VALUES (44039,   1,       5) /* HeartbeatInterval */
      , (44039,  68,     0.3) /* ResistCold */
      , (44039,  69,     0.8) /* ResistAcid */
      , (44039,  70,     0.4) /* ResistElectric */
-	 , (44039, 166,     1.1) /* ResistNether */
+     , (44039, 166,     1.1) /* ResistNether */
      , (44039,  71,       1) /* ResistHealthBoost */
      , (44039,  72,       1) /* ResistStaminaDrain */
      , (44039,  73,       1) /* ResistStaminaBoost */
      , (44039,  74,       1) /* ResistManaDrain */
      , (44039,  75,       1) /* ResistManaBoost */
      , (44039,  80,       3) /* AiUseMagicDelay */
-	 , (44039, 117,     0.5) /* FocusedProbability */
+     , (44039, 117,     0.5) /* FocusedProbability */
      , (44039, 104,      10) /* ObviousRadarRange */
      , (44039, 122,       2) /* AiAcquireHealth */
      , (44039, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44039,   1, 'Mu-miyah Lord') /* Name */
-	 , (44039,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
+     , (44039,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44039,   1,   33554433) /* Setup */
      , (44039,   2,  150995189) /* MotionTable */
      , (44039,   3,  536870942) /* SoundTable */
      , (44039,   6,   67108990) /* PaletteBase */
-	 , (44039,   7,  268435645) /* ClothingBase */
+     , (44039,   7,  268435645) /* ClothingBase */
      , (44039,   8,  100669122) /* Icon */
      , (44039,   4,  805306376) /* CombatTable */
      , (44039,  22,  872415272) /* PhysicsEffectTable */
@@ -98,7 +97,7 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (44039,   1,  6870, 0, 0, 7000) /* MaxHealth */
      , (44039,   3,  6000, 0, 0, 6260) /* MaxStamina */
      , (44039,   5,  2000, 0, 0, 2370) /* MaxMana */;
-	 
+
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (44039,  6, 0, 2, 0, 470, 0, 0) /* MeleeDefense        Trained */
      , (44039,  7, 0, 2, 0, 420, 0, 0) /* MissileDefense      Trained */
@@ -126,8 +125,8 @@ VALUES (44039,  1841,   2.06)  /* Slithering Flames */
      , (44039,  2130,   2.06)  /* Infernae */
      , (44039,  2042,   2.06)  /* Demon's Tongues */
      , (44039,  5532,   2.06)  /* Incantation of Bloodstone Bolt */
-     , (44039,  1832,   2.06)  /* Torrential Acid */ 
-	 , (44039,  2710,   2.06)  /* Volcanic Blast */
+     , (44039,  1832,   2.06)  /* Torrential Acid */
+     , (44039,  2710,   2.06)  /* Volcanic Blast */
      , (44039,  2123,   2.06)  /* Celdiseth's Searing */
      , (44039,  3905,   2.06)  /* Essence's Fury */
      , (44039,  3119,   2.06)  /* Sear Flesh */
@@ -135,13 +134,12 @@ VALUES (44039,  1841,   2.06)  /* Slithering Flames */
      , (44039,  3886,   2.08)  /* Magic Disarmament */
      , (44039,  3883,   2.06)  /* Pyroclastic Explosion */;
 
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44039, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44039, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-	 , (44039, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
+     , (44039, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44039, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-	 , (44039, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
+     , (44039, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44039, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (44039, 9, 48908,  1, 0, 0.03, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (44039, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
@@ -150,3 +148,4 @@ VALUES (44039, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44039, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44039, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44039, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
+

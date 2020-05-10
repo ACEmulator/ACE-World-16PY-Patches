@@ -14,8 +14,8 @@ VALUES (44053,   1,         16) /* ItemType - Creature */
      , (44053,  16,          1) /* ItemUseable - No */
      , (44053,  25,        265) /* Level */
      , (44053,  40,          2) /* CombatMode - Melee */
-	 , (44053, 307,          40) /* DamageRating */
-	 , (44053, 316,          5) /* CritDamageResist */
+     , (44053, 307,          40) /* DamageRating */
+     , (44053, 316,          5) /* CritDamageResist */
      , (44053,  68,          3) /* TargetingTactic - Random, Focused */
      , (44053,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44053, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -35,7 +35,7 @@ VALUES (44053,   1,       5) /* HeartbeatInterval */
      , (44053,   4,       5) /* StaminaRate */
      , (44053,   5,       2) /* ManaRate */
      , (44053,  12,     0.5) /* Shade */
-	 , (44053,  39,     2.5) /* DefaultScale */
+     , (44053,  39,     2.5) /* DefaultScale */
      , (44053,  13,     0.6) /* ArmorModVsSlash */
      , (44053,  14,     0.66) /* ArmorModVsPierce */
      , (44053,  15,    0.75) /* ArmorModVsBludgeon */
@@ -44,7 +44,7 @@ VALUES (44053,   1,       5) /* HeartbeatInterval */
      , (44053,  18,    0.95) /* ArmorModVsAcid */
      , (44053,  19,       1) /* ArmorModVsElectric */
      , (44053,  27,    5.01) /* RotationSpeed */
-     , (44053,  31,      16) /* VisualAwarenessRange */
+     , (44053,  31,      32) /* VisualAwarenessRange */
      , (44053,  34,       1) /* PowerupTime */
      , (44053,  36,       1) /* ChargeSpeed */
      , (44053,  64,    0.75) /* ResistSlash */
@@ -54,21 +54,21 @@ VALUES (44053,   1,       5) /* HeartbeatInterval */
      , (44053,  68,     0.3) /* ResistCold */
      , (44053,  69,     0.3) /* ResistAcid */
      , (44053,  70,    0.67) /* ResistElectric */
-	 , (44053, 166,     1.0) /* ResistNether */
+     , (44053, 166,     1.0) /* ResistNether */
      , (44053,  71,       1) /* ResistHealthBoost */
      , (44053,  72,       1) /* ResistStaminaDrain */
      , (44053,  73,       1) /* ResistStaminaBoost */
      , (44053,  74,       1) /* ResistManaDrain */
      , (44053,  75,       1) /* ResistManaBoost */
      , (44053,  80,       3) /* AiUseMagicDelay */
-	 , (44053, 117,     0.5) /* FocusedProbability */
+     , (44053, 117,     0.5) /* FocusedProbability */
      , (44053, 104,      10) /* ObviousRadarRange */
      , (44053, 122,       2) /* AiAcquireHealth */
      , (44053, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44053,   1, 'War Reaper') /* Name */
-	 , (44053,  45, 'KilltaskDesertAreaReedshark_0511') /* KillQuest */;
+     , (44053,  45, 'KilltaskDesertAreaReedshark_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44053,   1,   33554489) /* Setup */
@@ -140,7 +140,6 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44053, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44053, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
@@ -153,9 +152,4 @@ VALUES (44053, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44053, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44053, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44053, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
-	 
-	 
-	 
+

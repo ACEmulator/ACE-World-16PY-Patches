@@ -35,7 +35,7 @@ VALUES (71386,   1,       5) /* HeartbeatInterval */
      , (71386,   4,      10) /* StaminaRate */
      , (71386,   5,       3) /* ManaRate */
      , (71386,  12,     0.0) /* Shade */
-	 , (71386,  39,     1.2) /* DefaultScale */
+     , (71386,  39,     1.2) /* DefaultScale */
      , (71386,  13,    0.67) /* ArmorModVsSlash */
      , (71386,  14,     0.9) /* ArmorModVsPierce */
      , (71386,  15,    0.75) /* ArmorModVsBludgeon */
@@ -44,7 +44,7 @@ VALUES (71386,   1,       5) /* HeartbeatInterval */
      , (71386,  18,    0.67) /* ArmorModVsAcid */
      , (71386,  19,       1) /* ArmorModVsElectric */
      , (71386,  27,    5.01) /* RotationSpeed */
-     , (71386,  31,      16) /* VisualAwarenessRange */
+     , (71386,  31,      22) /* VisualAwarenessRange */
      , (71386,  34,       1) /* PowerupTime */
      , (71386,  36,       1) /* ChargeSpeed */
      , (71386,  64,     0.8) /* ResistSlash */
@@ -54,32 +54,32 @@ VALUES (71386,   1,       5) /* HeartbeatInterval */
      , (71386,  68,     0.3) /* ResistCold */
      , (71386,  69,     0.7) /* ResistAcid */
      , (71386,  70,     0.4) /* ResistElectric */
-	 , (71386, 166,       1) /* ResistNether */
+     , (71386, 166,       1) /* ResistNether */
      , (71386,  71,       1) /* ResistHealthBoost */
      , (71386,  72,       1) /* ResistStaminaDrain */
      , (71386,  73,       1) /* ResistStaminaBoost */
      , (71386,  74,       1) /* ResistManaDrain */
      , (71386,  75,       1) /* ResistManaBoost */
      , (71386,  80,       3) /* AiUseMagicDelay */
-	 , (71386, 117,     0.5) /* FocusedProbability */
+     , (71386, 117,     0.5) /* FocusedProbability */
      , (71386, 104,      10) /* ObviousRadarRange */
      , (71386, 122,       2) /* AiAcquireHealth */
      , (71386, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71386,   1, 'Mu-miyah Soldier') /* Name */
-	 , (71386,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
+     , (71386,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (71386,   1,   33554433) /* Setup */
      , (71386,   2,  150995189) /* MotionTable */
      , (71386,   3,  536870942) /* SoundTable */
      , (71386,   6,   67108990) /* PaletteBase */
-	 , (71386,   7,  268435645) /* ClothingBase */
+     , (71386,   7,  268435645) /* ClothingBase */
      , (71386,   8,  100669122) /* Icon */
      , (71386,   4,  805306368) /* CombatTable */
      , (71386,  22,  872415272) /* PhysicsEffectTable */
-	 , (71386,  32,       3001) /* WieldedTreasureType */;
+     , (71386,  32,       3001) /* WieldedTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (71386,   1, 210, 0, 0) /* Strength */
@@ -118,10 +118,8 @@ VALUES (71386,  0,  4,  0,    0,  450,  250,  150,  275,  250,  100,  250,  150,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (71386,  2170,   1.06)  /* Inferno's Gift */
      , (71386,  4423,   1.06)  /*  Incantation of Flame Arc */
-	 , (71386,  2074,   1.06)  /* Gossamer Flesh */;
-	 
+     , (71386,  2074,   1.06)  /* Gossamer Flesh */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (71386, 9, 71355,  1, 0, 1, False) /* Create MuMiyah Sacrifical Dagger (71355) for ContainTreasure */;
-	 
-	 
-	 
+

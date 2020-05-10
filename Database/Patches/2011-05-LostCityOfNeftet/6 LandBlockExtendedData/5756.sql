@@ -1,4 +1,4 @@
-DELETE FROM `landblock_instance` WHERE `landblock` = 0x5456;
+DELETE FROM `landblock_instance` WHERE `landblock` = 0x5756;
 
 
 

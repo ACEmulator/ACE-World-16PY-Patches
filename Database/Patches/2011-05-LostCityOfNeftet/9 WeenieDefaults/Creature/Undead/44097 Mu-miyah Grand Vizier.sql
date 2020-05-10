@@ -12,13 +12,13 @@ VALUES (44097,   1,         16) /* ItemType - Creature */
      , (44097,  16,          1) /* ItemUseable - No */
      , (44097,  25,        250) /* Level */
      , (44097,  27,          0) /* ArmorType - None */
-	 , (44097,  67,         64) /* Tolerance - Retaliate */
+     , (44097,  67,         64) /* Tolerance - Retaliate */
      , (44097,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (44097,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44097, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44097, 146,    1850000) /* XpOverride */
-	 , (44097, 307,          4) /* DamageRating */
-	 , (44097, 315,         10) /* CritResistRating */
+     , (44097, 307,          4) /* DamageRating */
+     , (44097, 315,         10) /* CritResistRating */
      , (44097, 332,        180) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -38,7 +38,7 @@ VALUES (44097,   1,       5) /* HeartbeatInterval */
      , (44097,   4,      10) /* StaminaRate */
      , (44097,   5,       3) /* ManaRate */
      , (44097,  12,     0.0) /* Shade */
-	 , (44097,  39,     1.6) /* DefaultScale */
+     , (44097,  39,     1.6) /* DefaultScale */
      , (44097,  13,    0.67) /* ArmorModVsSlash */
      , (44097,  14,     0.9) /* ArmorModVsPierce */
      , (44097,  15,    0.75) /* ArmorModVsBludgeon */
@@ -47,7 +47,7 @@ VALUES (44097,   1,       5) /* HeartbeatInterval */
      , (44097,  18,    0.67) /* ArmorModVsAcid */
      , (44097,  19,       1) /* ArmorModVsElectric */
      , (44097,  27,    5.01) /* RotationSpeed */
-     , (44097,  31,      16) /* VisualAwarenessRange */
+     , (44097,  31,      22) /* VisualAwarenessRange */
      , (44097,  34,       1) /* PowerupTime */
      , (44097,  36,       1) /* ChargeSpeed */
      , (44097,  64,     0.8) /* ResistSlash */
@@ -57,28 +57,28 @@ VALUES (44097,   1,       5) /* HeartbeatInterval */
      , (44097,  68,     0.3) /* ResistCold */
      , (44097,  69,     0.8) /* ResistAcid */
      , (44097,  70,     0.4) /* ResistElectric */
-	 , (44097, 166,     1.1) /* ResistNether */
+     , (44097, 166,     1.1) /* ResistNether */
      , (44097,  71,       1) /* ResistHealthBoost */
      , (44097,  72,       1) /* ResistStaminaDrain */
      , (44097,  73,       1) /* ResistStaminaBoost */
      , (44097,  74,       1) /* ResistManaDrain */
      , (44097,  75,       1) /* ResistManaBoost */
      , (44097,  80,       3) /* AiUseMagicDelay */
-	 , (44097, 117,     0.5) /* FocusedProbability */
+     , (44097, 117,     0.5) /* FocusedProbability */
      , (44097, 104,      10) /* ObviousRadarRange */
      , (44097, 122,       2) /* AiAcquireHealth */
      , (44097, 125,       1) /* ResistHealthDrain */;
-	 
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44097,   1, 'Mu-miyah Grand Vizier') /* Name */
-	 , (44097,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
+     , (44097,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44097,   1,   33554433) /* Setup */
      , (44097,   2,  150995189) /* MotionTable */
      , (44097,   3,  536870942) /* SoundTable */
      , (44097,   6,   67108990) /* PaletteBase */
-	 , (44097,   7,  268435645) /* ClothingBase */
+     , (44097,   7,  268435645) /* ClothingBase */
      , (44097,   8,  100669122) /* Icon */
      , (44097,   4,  805306368) /* CombatTable */
      , (44097,  22,  872415272) /* PhysicsEffectTable */
@@ -121,9 +121,9 @@ VALUES (44097,  0,  4,  0,    0,  460,  250,  150,  275,  250,  100,  250,  150,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44097,  4442,   2.06)  /* Incantation of Force Blast */
      , (44097,  4424,   2.06)  /*  Incantation of Force Arc */
-	 , (44097,  6192,   2.06)  /* Nuhmudira's Spines */
-	 , (44097,  2174,   2.06)  /*  Archer's Gift */
-	 , (44097,  4489,   2.06)  /*  Incantation of Fester Other */;
+     , (44097,  6192,   2.06)  /* Nuhmudira's Spines */
+     , (44097,  2174,   2.06)  /*  Archer's Gift */
+     , (44097,  4489,   2.06)  /*  Incantation of Fester Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44097, 9, 44240,  3, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
@@ -135,7 +135,7 @@ VALUES (44097, 9, 44240,  3, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44097, 9, 44123,  1, 0, 0.20, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
      , (44097, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
      , (44097, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
-	 
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44097, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

@@ -14,7 +14,7 @@ VALUES (44047,   1,         16) /* ItemType - Creature */
      , (44047,  16,          1) /* ItemUseable - No */
      , (44047,  25,        200) /* Level */
      , (44047,  40,          2) /* CombatMode - Melee */
-	 , (44047, 307,          10) /* DamageRating */
+     , (44047, 307,          10) /* DamageRating */
      , (44047,  68,          3) /* TargetingTactic - Random, Focused */
      , (44047,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44047, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -34,7 +34,7 @@ VALUES (44047,   1,       5) /* HeartbeatInterval */
      , (44047,   4,       5) /* StaminaRate */
      , (44047,   5,       2) /* ManaRate */
      , (44047,  12,     0.5) /* Shade */
-	 , (44047,  39,     2.5) /* DefaultScale */
+     , (44047,  39,     2.5) /* DefaultScale */
      , (44047,  13,     0.5) /* ArmorModVsSlash */
      , (44047,  14,     0.6) /* ArmorModVsPierce */
      , (44047,  15,    0.75) /* ArmorModVsBludgeon */
@@ -43,7 +43,7 @@ VALUES (44047,   1,       5) /* HeartbeatInterval */
      , (44047,  18,    0.95) /* ArmorModVsAcid */
      , (44047,  19,       1) /* ArmorModVsElectric */
      , (44047,  27,    5.01) /* RotationSpeed */
-     , (44047,  31,      16) /* VisualAwarenessRange */
+     , (44047,  31,      32) /* VisualAwarenessRange */
      , (44047,  34,       1) /* PowerupTime */
      , (44047,  36,       1) /* ChargeSpeed */
      , (44047,  64,     0.8) /* ResistSlash */
@@ -53,21 +53,21 @@ VALUES (44047,   1,       5) /* HeartbeatInterval */
      , (44047,  68,     0.3) /* ResistCold */
      , (44047,  69,     0.3) /* ResistAcid */
      , (44047,  70,    0.67) /* ResistElectric */
-	 , (44047, 166,     1.1) /* ResistNether */
+     , (44047, 166,     1.1) /* ResistNether */
      , (44047,  71,       1) /* ResistHealthBoost */
      , (44047,  72,       1) /* ResistStaminaDrain */
      , (44047,  73,       1) /* ResistStaminaBoost */
      , (44047,  74,       1) /* ResistManaDrain */
      , (44047,  75,       1) /* ResistManaBoost */
      , (44047,  80,       3) /* AiUseMagicDelay */
-	 , (44047, 117,     0.5) /* FocusedProbability */
+     , (44047, 117,     0.5) /* FocusedProbability */
      , (44047, 104,      10) /* ObviousRadarRange */
      , (44047, 122,       2) /* AiAcquireHealth */
      , (44047, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44047,   1, 'Reedshark Hunter') /* Name */
-	 , (44047,  45, 'KilltaskDesertAreaReedshark_0511') /* KillQuest */;
+     , (44047,  45, 'KilltaskDesertAreaReedshark_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44047,   1,   33554489) /* Setup */
@@ -141,8 +141,4 @@ VALUES (44047, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44047, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44047, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44047, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
-	 
-	 
+

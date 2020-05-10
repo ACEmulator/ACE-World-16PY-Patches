@@ -15,7 +15,7 @@ VALUES (44025,   1,         16) /* ItemType - Creature */
      , (44025,  25,        220) /* Level */
      , (44025,  27,          0) /* ArmorType - None */
      , (44025,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-	 , (44025, 307,          2) /* DamageRating */
+     , (44025, 307,          2) /* DamageRating */
      , (44025,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44025, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44025, 146,    1400000) /* XpOverride */
@@ -30,7 +30,7 @@ VALUES (44025,   1, True ) /* Stuck */
      , (44025,  12, True ) /* ReportCollisions */
      , (44025,  13, False) /* Ethereal */
      , (44025,  58, True ) /* SpellQueueActive */
-	 , (44025, 120, True ) /* TreasureCorpse */;
+     , (44025, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44025,   1,       5) /* HeartbeatInterval */
@@ -47,7 +47,7 @@ VALUES (44025,   1,       5) /* HeartbeatInterval */
      , (44025,  18,    0.67) /* ArmorModVsAcid */
      , (44025,  19,       1) /* ArmorModVsElectric */
      , (44025,  27,    5.01) /* RotationSpeed */
-     , (44025,  31,      16) /* VisualAwarenessRange */
+     , (44025,  31,      34) /* VisualAwarenessRange */
      , (44025,  34,       1) /* PowerupTime */
      , (44025,  36,       1) /* ChargeSpeed */
      , (44025,  64,    0.25) /* ResistSlash */
@@ -57,18 +57,18 @@ VALUES (44025,   1,       5) /* HeartbeatInterval */
      , (44025,  68,     0.3) /* ResistCold */
      , (44025,  69,     0.8) /* ResistAcid */
      , (44025,  70,     0.4) /* ResistElectric */
-	 , (44025, 166,     1.1) /* ResistNether */
+     , (44025, 166,     1.1) /* ResistNether */
      , (44025,  71,       1) /* ResistHealthBoost */
      , (44025,  72,       1) /* ResistStaminaDrain */
      , (44025,  73,       1) /* ResistStaminaBoost */
      , (44025,  74,       1) /* ResistManaDrain */
      , (44025,  75,       1) /* ResistManaBoost */
      , (44025,  80,       3) /* AiUseMagicDelay */
-	 , (44025, 117,     0.5) /* FocusedProbability */
+     , (44025, 117,     0.5) /* FocusedProbability */
      , (44025, 104,      10) /* ObviousRadarRange */
      , (44025, 122,       2) /* AiAcquireHealth */
-     , (44025, 125,       1) /* ResistHealthDrain */														
-	,  (44025,  39,     1.1) /* DefaultScale */;
+     , (44025, 125,       1) /* ResistHealthDrain */
+    ,  (44025,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44025,   1, 'Bak''tshay Servant') /* Name */;
@@ -77,12 +77,12 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44025,   1,   33561252) /* Setup */
      , (44025,   2,  150994945) /* MotionTable */
      , (44025,   3,  536870933) /* SoundTable */
-     , (44025,   4,  805306368) /* CombatTable */												 
+     , (44025,   4,  805306368) /* CombatTable */
      , (44025,   6,   67108990) /* PaletteBase */
      , (44025,   8,  100670274) /* Icon */
      , (44025,  22,  872415269) /* PhysicsEffectTable */
-	 , (44025,   7,  268437456) /* ClothingBase */
-	 , (44025,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (44025,   7,  268437456) /* ClothingBase */
+     , (44025,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -125,8 +125,8 @@ VALUES (44025,  1785,   2.06)  /* Cassius' Ring of Fire */
      , (44025,  2170,   2.06)  /* Inferno's Gift */
      , (44025,  2074,   2.06)  /* Gossamer Flesh */
      , (44025,  2745,   2.06)  /* Flame Arc VII */
-	 , (44025,  2053,   2.06)  /* ArmorSelf VII */
-	 , (44025,  2155,   2.06)  /* Icy Blessing VII */
+     , (44025,  2053,   2.06)  /* ArmorSelf VII */
+     , (44025,  2155,   2.06)  /* Icy Blessing VII */
      , (44025,  1841,   2.06)  /* Slithering Flames */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
@@ -138,4 +138,5 @@ VALUES (44025, 9, 48908,  1, 0, 0.03, False) /* Create Shattered Legendary Key (
      , (44025, 9, 44296,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Idol (Level 180+) (44296) for ContainTreasure */
      , (44025, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44025, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
-     , (44025, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;													 
+     , (44025, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
+

@@ -11,7 +11,7 @@ VALUES (44094,   1,         16) /* ItemType - Creature */
      , (44094,   7,         -1) /* ContainersCapacity */
      , (44094,  16,          1) /* ItemUseable - No */
      , (44094,  25,        220) /* Level */
-	 , (44094, 307,          7) /* DamageRating */
+     , (44094, 307,          7) /* DamageRating */
      , (44094,  27,          0) /* ArmorType - None */
      , (44094,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (44094,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -35,7 +35,7 @@ VALUES (44094,   1,       5) /* HeartbeatInterval */
      , (44094,   4,      10) /* StaminaRate */
      , (44094,   5,       3) /* ManaRate */
      , (44094,  12,     0.0) /* Shade */
-	 , (44094,  39,     1.2) /* DefaultScale */
+     , (44094,  39,     1.2) /* DefaultScale */
      , (44094,  13,    0.67) /* ArmorModVsSlash */
      , (44094,  14,     0.9) /* ArmorModVsPierce */
      , (44094,  15,    0.75) /* ArmorModVsBludgeon */
@@ -44,7 +44,7 @@ VALUES (44094,   1,       5) /* HeartbeatInterval */
      , (44094,  18,    0.67) /* ArmorModVsAcid */
      , (44094,  19,       1) /* ArmorModVsElectric */
      , (44094,  27,    5.01) /* RotationSpeed */
-     , (44094,  31,      16) /* VisualAwarenessRange */
+     , (44094,  31,      22) /* VisualAwarenessRange */
      , (44094,  34,       1) /* PowerupTime */
      , (44094,  36,       1) /* ChargeSpeed */
      , (44094,  64,     0.8) /* ResistSlash */
@@ -54,28 +54,28 @@ VALUES (44094,   1,       5) /* HeartbeatInterval */
      , (44094,  68,     0.3) /* ResistCold */
      , (44094,  69,     0.8) /* ResistAcid */
      , (44094,  70,     0.4) /* ResistElectric */
-	 , (44094, 166,     1.1) /* ResistNether */
+     , (44094, 166,     1.1) /* ResistNether */
      , (44094,  71,       1) /* ResistHealthBoost */
      , (44094,  72,       1) /* ResistStaminaDrain */
      , (44094,  73,       1) /* ResistStaminaBoost */
      , (44094,  74,       1) /* ResistManaDrain */
      , (44094,  75,       1) /* ResistManaBoost */
      , (44094,  80,       3) /* AiUseMagicDelay */
-	 , (44094, 117,     0.5) /* FocusedProbability */
+     , (44094, 117,     0.5) /* FocusedProbability */
      , (44094, 104,      10) /* ObviousRadarRange */
      , (44094, 122,       2) /* AiAcquireHealth */
-     , (44094, 125,       1) /* ResistHealthDrain */	;
+     , (44094, 125,       1) /* ResistHealthDrain */    ;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44094,   1, 'Mu-miyah Champion') /* Name */
-	 , (44094,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
+     , (44094,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44094,   1,   33554433) /* Setup */
      , (44094,   2,  150995189) /* MotionTable */
      , (44094,   3,  536870942) /* SoundTable */
      , (44094,   6,   67108990) /* PaletteBase */
-	 , (44094,   7,  268435645) /* ClothingBase */
+     , (44094,   7,  268435645) /* ClothingBase */
      , (44094,   8,  100669122) /* Icon */
      , (44094,   4,  805306376) /* CombatTable */
      , (44094,  22,  872415272) /* PhysicsEffectTable */
@@ -122,7 +122,7 @@ VALUES (44094,  4423,   2.06)  /* Incantation of Flame Arc */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44094, 2, 44265,  1, 0, 0.1, False) /* Wield Burning Sands Katar (44265) for Wield */
-	 , (44094, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
+     , (44094, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44094, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (44094, 9, 48908,  1, 0, 0.03, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (44094, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
@@ -131,6 +131,4 @@ VALUES (44094, 2, 44265,  1, 0, 0.1, False) /* Wield Burning Sands Katar (44265)
      , (44094, 9, 44123,  1, 0, 0.20, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
      , (44094, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
      , (44094, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
+

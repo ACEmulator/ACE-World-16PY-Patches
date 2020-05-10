@@ -16,8 +16,8 @@ VALUES (44093,   1,         16) /* ItemType - Creature */
      , (44093,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44093, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44093, 146,    1850000) /* XpOverride */
-	 , (44093, 307,          4) /* DamageRating */
-	 , (44093, 315,         10) /* CritResistRating */;
+     , (44093, 307,          4) /* DamageRating */
+     , (44093, 315,         10) /* CritResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44093,   1, True ) /* Stuck */
@@ -36,7 +36,7 @@ VALUES (44093,   1,       5) /* HeartbeatInterval */
      , (44093,   4,      10) /* StaminaRate */
      , (44093,   5,       3) /* ManaRate */
      , (44093,  12,     0.0) /* Shade */
-	 , (44093,  39,     1.2) /* DefaultScale */
+     , (44093,  39,     1.2) /* DefaultScale */
      , (44093,  13,    0.67) /* ArmorModVsSlash */
      , (44093,  14,     0.9) /* ArmorModVsPierce */
      , (44093,  15,    0.75) /* ArmorModVsBludgeon */
@@ -45,7 +45,7 @@ VALUES (44093,   1,       5) /* HeartbeatInterval */
      , (44093,  18,    0.67) /* ArmorModVsAcid */
      , (44093,  19,       1) /* ArmorModVsElectric */
      , (44093,  27,    5.01) /* RotationSpeed */
-     , (44093,  31,      16) /* VisualAwarenessRange */
+     , (44093,  31,      22) /* VisualAwarenessRange */
      , (44093,  34,       1) /* PowerupTime */
      , (44093,  36,       1) /* ChargeSpeed */
      , (44093,  64,     0.8) /* ResistSlash */
@@ -55,28 +55,28 @@ VALUES (44093,   1,       5) /* HeartbeatInterval */
      , (44093,  68,     0.3) /* ResistCold */
      , (44093,  69,     0.8) /* ResistAcid */
      , (44093,  70,     0.4) /* ResistElectric */
-	 , (44093, 166,     1.1) /* ResistNether */
+     , (44093, 166,     1.1) /* ResistNether */
      , (44093,  71,       1) /* ResistHealthBoost */
      , (44093,  72,       1) /* ResistStaminaDrain */
      , (44093,  73,       1) /* ResistStaminaBoost */
      , (44093,  74,       1) /* ResistManaDrain */
      , (44093,  75,       1) /* ResistManaBoost */
      , (44093,  80,       3) /* AiUseMagicDelay */
-	 , (44093, 117,     0.5) /* FocusedProbability */
+     , (44093, 117,     0.5) /* FocusedProbability */
      , (44093, 104,      10) /* ObviousRadarRange */
      , (44093, 122,       2) /* AiAcquireHealth */
      , (44093, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44093,   1, 'Mu-miyah Vizier') /* Name */
-	 , (44093,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
+     , (44093,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44093,   1,   33554433) /* Setup */
      , (44093,   2,  150995189) /* MotionTable */
      , (44093,   3,  536870942) /* SoundTable */
      , (44093,   6,   67108990) /* PaletteBase */
-	 , (44093,   7,  268435645) /* ClothingBase */
+     , (44093,   7,  268435645) /* ClothingBase */
      , (44093,   8,  100669122) /* Icon */
      , (44093,   4,  805306368) /* CombatTable */
      , (44093,  22,  872415272) /* PhysicsEffectTable */
@@ -119,9 +119,9 @@ VALUES (44093,  0,  4,  0,    0,  460,  250,  150,  275,  250,  100,  250,  150,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44093,  4442,   2.06)  /* Incantation of Force Blast */
      , (44093,  4424,   2.06)  /*  Incantation of Force Arc */
-	 , (44093,  6192,   2.06)  /* Nuhmudira's Spines */
-	 , (44093,  2174,   2.06)  /*  Archer's Gift */
-	 , (44093,  4489,   2.06)  /*  Incantation of Fester Other */;
+     , (44093,  6192,   2.06)  /* Nuhmudira's Spines */
+     , (44093,  2174,   2.06)  /*  Archer's Gift */
+     , (44093,  4489,   2.06)  /*  Incantation of Fester Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44093, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
@@ -133,6 +133,4 @@ VALUES (44093, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44093, 9, 44123,  1, 0, 0.20, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
      , (44093, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
      , (44093, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
+

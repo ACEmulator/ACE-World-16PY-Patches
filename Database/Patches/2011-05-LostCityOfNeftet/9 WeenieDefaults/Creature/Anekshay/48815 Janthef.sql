@@ -7,8 +7,8 @@ VALUES (48815, 'ace48815-janthef', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48815,   1,         16) /* ItemType - Creature */
-	 , (48815,   3,         19) /* Palette Template Copper */
-     , (48815,   2,         77) /* CreatureType - Ghost*/ 
+     , (48815,   3,         19) /* Palette Template Copper */
+     , (48815,   2,         77) /* CreatureType - Ghost*/
      , (48815,   6,         -1) /* ItemsCapacity */
      , (48815,   7,         -1) /* ContainersCapacity */
      , (48815,  16,         32) /* ItemUseable - Remote */
@@ -33,18 +33,18 @@ VALUES (48815,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48815,   1,       5) /* HeartbeatInterval */
      , (48815,   2,       0) /* HeartbeatTimestamp */
-     , (48815,   3, 0.159999996423721) /* HealthRate */
+     , (48815,   3,     0.6) /* HealthRate */
      , (48815,   4,       5) /* StaminaRate */
      , (48815,   5,       1) /* ManaRate */
-	 , (48815,  12,  0.1000) /* Shade */
-     , (48815,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (48815,  12,  0.1000) /* Shade */
+     , (48815,  13,     0.9) /* ArmorModVsSlash */
      , (48815,  14,       1) /* ArmorModVsPierce */
-     , (48815,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (48815,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (48815,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (48815,  15,     1.1) /* ArmorModVsBludgeon */
+     , (48815,  16,     0.4) /* ArmorModVsCold */
+     , (48815,  17,     0.4) /* ArmorModVsFire */
      , (48815,  18,       1) /* ArmorModVsAcid */
-     , (48815,  19, 0.600000023841858) /* ArmorModVsElectric */
-	 , (48815,  39,     1.1) /* DefaultScale */
+     , (48815,  19,     0.6) /* ArmorModVsElectric */
+     , (48815,  39,     1.1) /* DefaultScale */
      , (48815,  54,       3) /* UseRadius */
      , (48815,  64,       1) /* ResistSlash */
      , (48815,  65,       1) /* ResistPierce */
@@ -58,7 +58,7 @@ VALUES (48815,   1,       5) /* HeartbeatInterval */
      , (48815,  73,       1) /* ResistStaminaBoost */
      , (48815,  74,       1) /* ResistManaDrain */
      , (48815,  75,       1) /* ResistManaBoost */
-	 , (48815,  76,      0.4) /* Translucency */
+     , (48815,  76,      0.4) /* Translucency */
      , (48815, 104,      10) /* ObviousRadarRange */
      , (48815, 125,       1) /* ResistHealthDrain */;
 
@@ -71,10 +71,10 @@ VALUES (48815,   1,   33561251) /* Setup */
      , (48815,   3,  536870933) /* SoundTable */
      , (48815,   6,   67108990) /* PaletteBase */
      , (48815,   8,  100670274) /* Icon */
-	 , (48815,   7,  268437566) /* ClothingBase */
+     , (48815,   7,  268437566) /* ClothingBase */
      , (48815,  22,  872415269) /* PhysicsEffectTable */;
-	 
-	 	 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+
+         INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (48815,   1, 230, 0, 0) /* Strength */
      , (48815,   2, 240, 0, 0) /* Endurance */
      , (48815,   3, 240, 0, 0) /* Quickness */
@@ -92,8 +92,8 @@ VALUES (48815,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (48815,  6,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (48815,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (48815,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-	 
-	 
+
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (48815,   1,  11305, 0, 0,11425) /* MaxHealth */
      , (48815,   3,  3500, 0, 0, 3740) /* MaxStamina */
@@ -107,7 +107,7 @@ VALUES (48815,  6, 0, 2, 0, 290, 0, 0) /* MeleeDefense        Trained */
      , (48815, 33, 0, 2, 0, 200, 0, 0) /* LifeMagic           Trained */
      , (48815, 43, 0, 2, 0, 650, 0, 0) /* VoidMagic            Trained */
      , (48815, 45, 0, 3, 0, 380, 0, 0) /* LightWeapons        Specialized */
-	 , (48815, 34, 0, 2, 0, 200, 0, 0) /* WarMagic            Trained */
+     , (48815, 34, 0, 2, 0, 200, 0, 0) /* WarMagic            Trained */
      , (48815, 46, 0, 3, 0, 380, 0, 0) /* FinesseWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
@@ -142,8 +142,8 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   8 /* Say */, 1.2, 1, NULL, 'Almost as much as I love the sound of a beaten soul racing to the lifestone', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,   8 /* Say */, 1.3, 1, NULL, 'After excaping death and Izexi, your efforts cannot hope to exceed.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,   8 /* Say */, 1.4, 1, NULL, 'I escaped death through the misguided visions of the priestess. I will not be taken down by the likes of you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  5,   5 /* Motion */, 1, 1, 318767232 /* Laugh */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)    
-	 , (@parent_id,  6,   8 /* Say */, 1.5, 1, NULL, 'Be a good little mortal and die now, would you?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  5,   5 /* Motion */, 1, 1, 318767232 /* Laugh */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  6,   8 /* Say */, 1.5, 1, NULL, 'Be a good little mortal and die now, would you?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  7,  72 /* Generate */, 1.6, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  8,  14 /* CastSpell */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 157 /* Summon Primary Portal I */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  9,  77 /* DeleteSelf */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -153,11 +153,4 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48815, -1, 48899, 0, 1, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate 48899-ensorcelledweapon (x1 up to max of 1) - Regenerate upon Undef - Location to (re)Generate: Scatter */;
-     
-
-
-
-
-
-
 

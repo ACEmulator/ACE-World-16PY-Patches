@@ -17,9 +17,9 @@ VALUES (44044,   1,         16) /* ItemType - Creature */
      , (44044,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44044, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44044, 146,    1850000) /* XpOverride */
-	 , (44044, 307,          9) /* DamageRating */
-	 , (44044, 315,         10) /* CritResistRating */
-	 , (44044, 316,         20) /* CritDamResistRating */;
+     , (44044, 307,          9) /* DamageRating */
+     , (44044, 315,         10) /* CritResistRating */
+     , (44044, 316,         20) /* CritDamResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44044,   1, True ) /* Stuck */
@@ -38,7 +38,7 @@ VALUES (44044,   1,       5) /* HeartbeatInterval */
      , (44044,   4,      10) /* StaminaRate */
      , (44044,   5,       3) /* ManaRate */
      , (44044,  12,     0.0) /* Shade */
-	 , (44044,  39,     1.2) /* DefaultScale */
+     , (44044,  39,     1.2) /* DefaultScale */
       , (44044,  13,    0.67) /* ArmorModVsSlash */
      , (44044,  14,     0.9) /* ArmorModVsPierce */
      , (44044,  15,    0.75) /* ArmorModVsBludgeon */
@@ -47,7 +47,7 @@ VALUES (44044,   1,       5) /* HeartbeatInterval */
      , (44044,  18,    0.67) /* ArmorModVsAcid */
      , (44044,  19,       1) /* ArmorModVsElectric */
      , (44044,  27,    5.01) /* RotationSpeed */
-     , (44044,  31,      16) /* VisualAwarenessRange */
+     , (44044,  31,      22) /* VisualAwarenessRange */
      , (44044,  34,       1) /* PowerupTime */
      , (44044,  36,       1) /* ChargeSpeed */
      , (44044,  64,     0.8) /* ResistSlash */
@@ -57,32 +57,32 @@ VALUES (44044,   1,       5) /* HeartbeatInterval */
      , (44044,  68,     0.3) /* ResistCold */
      , (44044,  69,     0.7) /* ResistAcid */
      , (44044,  70,     0.4) /* ResistElectric */
-	 , (44044, 166,     1.1) /* ResistNether */
+     , (44044, 166,     1.1) /* ResistNether */
      , (44044,  71,       1) /* ResistHealthBoost */
      , (44044,  72,       1) /* ResistStaminaDrain */
      , (44044,  73,       1) /* ResistStaminaBoost */
      , (44044,  74,       1) /* ResistManaDrain */
      , (44044,  75,       1) /* ResistManaBoost */
      , (44044,  80,       3) /* AiUseMagicDelay */
-	 , (44044, 117,     0.5) /* FocusedProbability */
+     , (44044, 117,     0.5) /* FocusedProbability */
      , (44044, 104,      10) /* ObviousRadarRange */
      , (44044, 122,       2) /* AiAcquireHealth */
      , (44044, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44044,   1, 'Mu-miyah Guardian') /* Name */
-	 , (44044,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
+     , (44044,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44044,   1,   33554433) /* Setup */
      , (44044,   2,  150995189) /* MotionTable */
      , (44044,   3,  536870942) /* SoundTable */
      , (44044,   6,   67108990) /* PaletteBase */
-	 , (44044,   7,  268435645) /* ClothingBase */
+     , (44044,   7,  268435645) /* ClothingBase */
      , (44044,   8,  100669122) /* Icon */
      , (44044,   4,  805306368) /* CombatTable */
      , (44044,  22,  872415272) /* PhysicsEffectTable */
-	 , (44044,  32,       3001) /* WieldedTreasureType */
+     , (44044,  32,       3001) /* WieldedTreasureType */
      , (44044,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -122,16 +122,15 @@ VALUES (44044,  0,  4,  0,    0,  450,  250,  150,  275,  250,  100,  250,  150,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44044,  2170,   1.06)  /* Inferno's Gift */
      , (44044,  4423,   1.06)  /*  Incantation of Flame Arc */
-	 , (44044,  2074,   1.06)  /* Gossamer Flesh */;
-	 
-	 	 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+     , (44044,  2074,   1.06)  /* Gossamer Flesh */;
+
+         INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44044,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  15 /* Activate */  , 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44044, 9, 44240,  1, 0, 0.03, False) /* Create A'nekshay Token (44240) for ContainTreasure */
@@ -143,6 +142,4 @@ VALUES (44044, 9, 44240,  1, 0, 0.03, False) /* Create A'nekshay Token (44240) f
      , (44044, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44044, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44044, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
+

@@ -12,7 +12,7 @@ VALUES (44052,   1,         16) /* ItemType - Creature */
      , (44052,  16,          1) /* ItemUseable - No */
      , (44052,  25,        240) /* Level */
      , (44052,  40,          2) /* CombatMode - Melee */
-	 , (44052, 307,          30) /* DamageRating */
+     , (44052, 307,          30) /* DamageRating */
      , (44052,  68,          3) /* TargetingTactic - Random, Focused */
      , (44052,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44052, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,28 +28,28 @@ VALUES (44052,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44052,   1,       5) /* HeartbeatInterval */
      , (44052,   2,       0) /* HeartbeatTimestamp */
-     , (44052,   3, 0.0670000016689301) /* HealthRate */
+     , (44052,   3,    0.07) /* HealthRate */
      , (44052,   4,       5) /* StaminaRate */
      , (44052,   5,       2) /* ManaRate */
      , (44052,  12,     0.5) /* Shade */
      , (44052,  13,       1) /* ArmorModVsSlash */
-     , (44052,  14, 0.649999976158142) /* ArmorModVsPierce */
+     , (44052,  14,    0.65) /* ArmorModVsPierce */
      , (44052,  15,       1) /* ArmorModVsBludgeon */
      , (44052,  16,     0.5) /* ArmorModVsCold */
      , (44052,  17,       1) /* ArmorModVsFire */
-     , (44052,  18, 0.649999976158142) /* ArmorModVsAcid */
+     , (44052,  18,    0.65) /* ArmorModVsAcid */
      , (44052,  19,     0.5) /* ArmorModVsElectric */
-     , (44052,  31,      20) /* VisualAwarenessRange */
+     , (44052,  31,      22) /* VisualAwarenessRange */
      , (44052,  34,       1) /* PowerupTime */
      , (44052,  36,       1) /* ChargeSpeed */
      , (44052,  39,     2.5) /* DefaultScale */
      , (44052,  64,     0.5) /* ResistSlash */
-     , (44052,  65, 0.850000023841858) /* ResistPierce */
-     , (44052,  66, 0.600000023841858) /* ResistBludgeon */
-     , (44052,  67, 0.600000023841858) /* ResistFire */
-     , (44052,  68, 1.10000002384186) /* ResistCold */
-     , (44052,  69, 0.850000023841858) /* ResistAcid */
-     , (44052,  70, 1.10000002384186) /* ResistElectric */
+     , (44052,  65,    0.85) /* ResistPierce */
+     , (44052,  66,     0.6) /* ResistBludgeon */
+     , (44052,  67,     0.6) /* ResistFire */
+     , (44052,  68,     1.1) /* ResistCold */
+     , (44052,  69,    0.85) /* ResistAcid */
+     , (44052,  70,     1.1) /* ResistElectric */
      , (44052,  71,       1) /* ResistHealthBoost */
      , (44052,  72,       1) /* ResistStaminaDrain */
      , (44052,  73,       1) /* ResistStaminaBoost */
@@ -60,7 +60,7 @@ VALUES (44052,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44052,   1, 'Tamed Reaper') /* Name */
-	 , (44052,  45, 'KilltaskDesertAreaReedshark_0511') /* KillQuest */;
+     , (44052,  45, 'KilltaskDesertAreaReedshark_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44052,   1,   33554489) /* Setup */
@@ -164,7 +164,6 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44052, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44052, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
@@ -177,6 +176,4 @@ VALUES (44052, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44052, 9, 44295,  1, 0, 0.2, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44052, 9, 44294,  1, 0, 0.2, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44052, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */;
-	 
-	 
-	 
+
