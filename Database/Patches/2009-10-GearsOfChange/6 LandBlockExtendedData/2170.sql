@@ -5,10 +5,6 @@ VALUES (1914109960, 41548, 560988201, 129.396, 18.5098, 178.005, 0.965962, 0, 0,
 /* T'ing Douzen, TYPE_CREATURE, Seen 24 times at this location. 0x21700029 129.396 18.5098 178.005 0.965962 0 0 -0.258684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1914109961, 43213, 560988201, 135.028, 5.36284, 178.005, -0.728804, 0, 0, 0.684722, False, '2019-11-15 00:00:00');
-/* Emissary of Asheron, TYPE_CREATURE, Seen 17 times at this location. 0x21700029 135.028 5.36284 178.005 -0.728804 0 0 0.684722 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1914109962, 41546, 560988201, 142.895, 19.093, 178.005, -0.997659, 0, 0, 0.0683884, False, '2019-11-15 00:00:00');
 /* Dame Trielle, TYPE_CREATURE, Seen 17 times at this location. 0x21700029 142.895 19.093 178.005 -0.997659 0 0 0.0683884 */
 
@@ -19,10 +15,6 @@ VALUES (1914109963, 43145, 560988201, 139.349, 14.3138, 178.0075, 0.903265, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1914109964, 42360, 560988201, 140.903, 13.4105, 178.005, 0.998053, 0, 0, 0.062366, False, '2019-11-15 00:00:00');
 /* Sir Durnstad, TYPE_CREATURE, Seen 17 times at this location. 0x21700029 140.903 13.4105 178.005 0.998053 0 0 0.062366 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1914109965, 43144, 560988209, 154.492, 4.03965, 178.0065, 0.5159391, 0, 0, -0.8566253, False, '2019-11-15 00:00:00');
-/* Lintareal, TYPE_CREATURE, Seen 13 times at this location. 0x21700031 154.492 4.03965 178.0065 0.5159391 0 0 -0.8566253 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1914109966, 41545, 560988419, 155.005, 13.6376, 177.705, 0.569814, 0, 0, 0.821774, False, '2019-11-15 00:00:00');
