@@ -27,7 +27,7 @@ VALUES (47158,   1, 'A''nekshay Luminance Certificate') /* Name */
 	 , (47158,  16, 'A certificate that grants the bearer 5,000 luminance. You may turn in 10 of these per month to an Agent of the Arcanum.') /* Long Desc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47158,   1,   33556223) /* Setup */
+VALUES (47158,   1,   33554659) /* Setup */
      , (47158,   3,  536870932) /* SoundTable */
      , (47158,   6,   67111928) /* PaletteBase */
      , (47158,   8,  100692973) /* Icon */
