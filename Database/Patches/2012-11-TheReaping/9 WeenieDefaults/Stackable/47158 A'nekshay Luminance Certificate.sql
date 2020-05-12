@@ -19,9 +19,6 @@ VALUES (47158,   1,        128) /* ItemType - Misc */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47158,  69, False) /* IsSellable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47158,  39, 0.8) /* DefaultScale */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47158,   1, 'A''nekshay Luminance Certificate') /* Name */
 	 , (47158,  16, 'A certificate that grants the bearer 5,000 luminance. You may turn in 10 of these per month to an Agent of the Arcanum.') /* Long Desc */;
