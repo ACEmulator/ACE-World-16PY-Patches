@@ -29,7 +29,6 @@ VALUES (47158,   1, 'A''nekshay Luminance Certificate') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47158,   1,   33554659) /* Setup */
      , (47158,   3,  536870932) /* SoundTable */
-     , (47158,   6,   67111928) /* PaletteBase */
      , (47158,   8,  100692973) /* Icon */
      , (47158,  22,  872415275) /* PhysicsEffectTable */;
      
