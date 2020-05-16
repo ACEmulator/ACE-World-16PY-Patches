@@ -13,6 +13,7 @@ VALUES (46124,   1,      32768) /* ItemType - Caster */
      , (46124,  19,       4000) /* Value */
      , (46124,  33,          1) /* Bonded - Bonded */
      , (46124,  45,          8) /* DamageType - Cold */
+     , (46124,  46,        512) /* DefaultCombatStyle - Magic */
      , (46124,  52,          1) /* ParentLocation - RightHand */
      , (46124,  53,          1) /* PlacementPosition - RightHandCombat */
      , (46124,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

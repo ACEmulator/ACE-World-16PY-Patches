@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46262;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46262, 'ace46262-enhancedcoruscatingisparianwand', 35, '2019-05-28 05:23:14') /* Caster */;
+VALUES (46262, 'ace46262-enhancedcoruscatingisparianwand', 35, '2020-02-01 21:01:19') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46262,   1,      32768) /* ItemType - Caster */
@@ -13,7 +13,7 @@ VALUES (46262,   1,      32768) /* ItemType - Caster */
      , (46262,  19,       8000) /* Value */
      , (46262,  33,          1) /* Bonded - Bonded */
      , (46262,  45,         64) /* DamageType - Electric */
-     , (46262,  53,        101) /* PlacementPosition - Resting */
+     , (46262,  46,        512) /* DefaultCombatStyle - Magic */
      , (46262,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46262,  94,         16) /* TargetType - Creature */
      , (46262, 106,        350) /* ItemSpellcraft */
@@ -40,7 +40,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46262,   5, -0.025000000372529) /* ManaRate */
      , (46262,  29, 1.13999998569489) /* WeaponDefense */
      , (46262, 144, 0.0799999982118607) /* ManaConversionMod */
-     , (46262, 147,       1) /* CriticalFrequency */
+     , (46262, 147, 0.219999998807907) /* CriticalFrequency */
      , (46262, 152, 1.19000005722046) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

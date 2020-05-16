@@ -6,7 +6,7 @@ VALUES (5606, 'portalfolthidcellar', 7, '2019-02-04 06:52:23') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5606,   1,      65536) /* ItemType - Portal */
      , (5606,  16,         32) /* ItemUseable - Remote */
-     , (5606,  86,         12) /* MinLevel */
+     , (5606,  86,         10) /* MinLevel */
      , (5606,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (5606, 111,          1) /* PortalBitmask - Unrestricted */
      , (5606, 133,          4) /* ShowableOnRadar - ShowAlways */;
@@ -22,7 +22,7 @@ VALUES (5606,   1, True ) /* Stuck */
      , (5606,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5606,  54, -0.100000001490116) /* UseRadius */;
+VALUES (5606,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5606,   1, 'Folthid Cellar Portal') /* Name */

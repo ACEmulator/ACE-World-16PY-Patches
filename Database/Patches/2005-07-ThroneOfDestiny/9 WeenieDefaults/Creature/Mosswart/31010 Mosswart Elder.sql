@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31010;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31010, 'mosswartelderhighyield', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (31010, 'mosswartelderhighyield', 10, '2020-02-29 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31010,   1,         16) /* ItemType - Creature */
@@ -35,24 +35,24 @@ VALUES (31010,   1,       5) /* HeartbeatInterval */
      , (31010,   4,       5) /* StaminaRate */
      , (31010,   5,       2) /* ManaRate */
      , (31010,  12,       0) /* Shade */
-     , (31010,  13, 1.29999995231628) /* ArmorModVsSlash */
+     , (31010,  13,     1.3) /* ArmorModVsSlash */
      , (31010,  14,     1.5) /* ArmorModVsPierce */
-     , (31010,  15, 1.39999997615814) /* ArmorModVsBludgeon */
+     , (31010,  15,     1.4) /* ArmorModVsBludgeon */
      , (31010,  16,       1) /* ArmorModVsCold */
-     , (31010,  17, 0.699999988079071) /* ArmorModVsFire */
-     , (31010,  18, 1.29999995231628) /* ArmorModVsAcid */
-     , (31010,  19, 0.899999976158142) /* ArmorModVsElectric */
+     , (31010,  17,     0.7) /* ArmorModVsFire */
+     , (31010,  18,     1.3) /* ArmorModVsAcid */
+     , (31010,  19,     0.9) /* ArmorModVsElectric */
      , (31010,  31,      24) /* VisualAwarenessRange */
-     , (31010,  34, 0.899999976158142) /* PowerupTime */
+     , (31010,  34,     0.9) /* PowerupTime */
      , (31010,  36,       1) /* ChargeSpeed */
-     , (31010,  39, 1.20000004768372) /* DefaultScale */
+     , (31010,  39,     1.2) /* DefaultScale */
      , (31010,  64,     0.5) /* ResistSlash */
-     , (31010,  65, 0.800000011920929) /* ResistPierce */
-     , (31010,  66, 0.800000011920929) /* ResistBludgeon */
+     , (31010,  65,     0.8) /* ResistPierce */
+     , (31010,  66,     0.8) /* ResistBludgeon */
      , (31010,  67,       1) /* ResistFire */
-     , (31010,  68, 0.400000005960464) /* ResistCold */
-     , (31010,  69, 0.699999988079071) /* ResistAcid */
-     , (31010,  70, 1.10000002384186) /* ResistElectric */
+     , (31010,  68,     0.4) /* ResistCold */
+     , (31010,  69,     0.7) /* ResistAcid */
+     , (31010,  70,     1.1) /* ResistElectric */
      , (31010,  71,       1) /* ResistHealthBoost */
      , (31010,  72,       1) /* ResistStaminaDrain */
      , (31010,  73,       1) /* ResistStaminaBoost */
@@ -73,7 +73,7 @@ VALUES (31010,   1,   33557327) /* Setup */
      , (31010,   7,  268436295) /* ClothingBase */
      , (31010,   8,  100667449) /* Icon */
      , (31010,  22,  872415264) /* PhysicsEffectTable */
-     , (31010,  35,       1000) /* DeathTreasureType */;
+     , (31010,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31010,   1, 250, 0, 0) /* Strength */
@@ -178,5 +178,5 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31010, 9, 31349,  0, 0, 0.02, False) /* Create Mosswart Armband (31349) for ContainTreasure */
      , (31010, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (31010, 10, 32123,  0, 0, 0.5, False) /* Create Acid Spear (32123) for WieldTreasure */
-     , (31010, 10, 32124,  0, 0, 0.5, False) /* Create Frost Spear (32124) for WieldTreasure */;
+     , (31010, 2, 32123,  0, 0, 0.5, True) /* Create Acid Spear (32123) for Wield */
+     , (31010, 2, 32124,  0, 0, 0.5, True) /* Create Frost Spear (32124) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44863;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44863, 'ace44863-rynthidenergytentacles', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (44863, 'ace44863-rynthidenergytentacles', 38, '2019-11-28 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44863,   1,       2048) /* ItemType - Gem */
@@ -16,7 +16,7 @@ VALUES (44863,   1,       2048) /* ItemType - Gem */
      , (44863,  28,          0) /* ArmorLevel */
      , (44863,  65,        101) /* Placement - Resting */
      , (44863,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44863,  94,          4) /* TargetType - Clothing */;
+     , (44863,  94,          6) /* TargetType - Vestements */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44863,   1, False) /* Stuck */

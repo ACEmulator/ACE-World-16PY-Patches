@@ -15,7 +15,7 @@ VALUES (12743,   1,          1) /* ItemType - MeleeWeapon */
      , (12743,  45,          4) /* DamageType - Bludgeon */
      , (12743,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (12743,  47,          6) /* AttackType - Thrust, Slash */
-     , (12743,  48,         10) /* WeaponSkill - Staff */
+     , (12743,  48,         44) /* WeaponSkill - Heavy Weapons */
      , (12743,  49,         35) /* WeaponTime */
      , (12743,  51,          1) /* CombatUse - Melee */
      , (12743,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

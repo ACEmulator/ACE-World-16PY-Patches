@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32841;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32841, 'ace32841-lieutenantallandal', 10, '2019-03-30 05:09:26') /* Creature */;
+VALUES (32841, 'ace32841-lieutenantallandal', 10, '2020-02-29 18:15:46') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32841,   1,         16) /* ItemType - Creature */
@@ -25,8 +25,7 @@ VALUES (32841,   1, True ) /* Stuck */
      , (32841, 118, True ) /* NeverAttack */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32841,  12,       0) /* Shade */
-     , (32841,  54,       3) /* UseRadius */;
+VALUES (32841,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32841,   1, 'Lieutenant Allandal') /* Name */;
@@ -35,14 +34,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32841,   1,   33554510) /* Setup */
      , (32841,   2,  150994945) /* MotionTable */
      , (32841,   3,  536870913) /* SoundTable */
-     , (32841,   6,   67108990) /* PaletteBase */
-     , (32841,   8,  100667446) /* Icon */
-     , (32841,   9,   83890284) /* EyesTexture */
-     , (32841,  10,   83890316) /* NoseTexture */
-     , (32841,  11,   83890356) /* MouthTexture */
-     , (32841,  15,   67117080) /* HairPalette */
-     , (32841,  16,   67110063) /* EyesPalette */
-     , (32841,  17,   67109557) /* SkinPalette */;
+     , (32841,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32841,   1,   0, 0, 0) /* Strength */
@@ -71,13 +63,13 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  5,  10 /* Tell */, 1, 1, NULL, "Also, if you have ventured to the fortifications between here and Fort Tethana, I will accept any Viamontian banners you may have retrieved.", NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32841, 2,   130,  0, 14, 0, False) /* Create Shirt (130) for Wield */
-     , (32841, 2,   127,  0, 14, 0, False) /* Create Pants (127) for Wield */
-     , (32841, 2, 21153,  0, 21, 0, False) /* Create Covenant Gauntlets (21153) for Wield */
-     , (32841, 2, 21150,  0, 21, 0, False) /* Create Covenant Sollerets (21150) for Wield */
-     , (32841, 2, 21154,  0, 21, 0, False) /* Create Covenant Girth (21154) for Wield */
-     , (32841, 2, 21152,  0, 21, 0, False) /* Create Covenant Breastplate (21152) for Wield */
-     , (32841, 2, 21157,  0, 21, 0, False) /* Create Covenant Pauldrons (21157) for Wield */
-     , (32841, 2, 21151,  0, 21, 0, False) /* Create Covenant Bracers (21151) for Wield */
-     , (32841, 2, 21159,  0, 21, 0, False) /* Create Covenant Tassets (21159) for Wield */
-     , (32841, 2, 21155,  0, 21, 0, False) /* Create Covenant Greaves (21155) for Wield */;
+VALUES (32841, 2, 21152,  1, 21, 0.5, True) /* Create Covenant Breastplate (21152) for Wield */
+     , (32841, 2,  2587,  1, 14, 0.4, True) /* Create Shirt (2587) for Wield */
+     , (32841, 2,   127,  1, 14, 0.4, True) /* Create Pants (127) for Wield */
+     , (32841, 2, 21157,  1, 21, 0.5, True) /* Create Covenant Pauldrons (21157) for Wield */
+     , (32841, 2, 21151,  1, 21, 0.5, True) /* Create Covenant Bracers (21151) for Wield */
+     , (32841, 2, 21154,  1, 21, 0.5, True) /* Create Covenant Girth (21154) for Wield */
+     , (32841, 2, 21155,  1, 21, 0.5, True) /* Create Covenant Greaves (21155) for Wield */
+     , (32841, 2, 21150,  1, 21, 0.5, True) /* Create Covenant Sollerets (21150) for Wield */
+     , (32841, 2, 21159,  1, 21, 0.5, True) /* Create Covenant Tassets (21159) for Wield */
+     , (32841, 2, 21153,  1, 21, 0.5, True) /* Create Covenant Gauntlets (21153) for Wield */;
