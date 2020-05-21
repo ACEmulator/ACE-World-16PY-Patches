@@ -15,7 +15,7 @@ VALUES (34604,   1,         16) /* ItemType - Creature */
      , (34604, 103,          2) /* GeneratorDestructionType - Destroy */
      , (34604, 145,          2) /* GeneratorEndDestructionType - Destroy */
      , (34604, 290,          1) /* HearLocalSignals */
-     , (34604, 291,         20) /* HearLocalSignalsRadius */;
+     , (34604, 291,         21) /* HearLocalSignalsRadius */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34604,   1, True ) /* Stuck */
