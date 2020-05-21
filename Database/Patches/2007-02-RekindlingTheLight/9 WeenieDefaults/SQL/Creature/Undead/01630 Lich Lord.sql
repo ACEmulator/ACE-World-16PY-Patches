@@ -76,7 +76,7 @@ VALUES (1630,   1,   33554839) /* Setup */
      , (1630,   7,  268435558) /* ClothingBase */
      , (1630,   8,  100667942) /* Icon */
      , (1630,  22,  872415272) /* PhysicsEffectTable */
-     , (1630,  32,        249) /* WieldedTreasureType - 
+     , (1630,  32,        249) /* WieldedTreasureType -
                                    Wield 4x Throwing Club (23654) | Probability: 10%
                                    Wield Yumi (23735) | Probability: 10%
                                    Wield 18x Arrow (300) | Probability: 100%
@@ -180,3 +180,11 @@ VALUES (1630, 9,  7041,  0, 0, 0.02, False) /* Create Undead Thighbone (7041) fo
      , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (1630, 9, 22048,  0, 0, 0.05, False) /* Create Undead Torso (22048) for ContainTreasure */
      , (1630, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (1630, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'ColoCritterKilled', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

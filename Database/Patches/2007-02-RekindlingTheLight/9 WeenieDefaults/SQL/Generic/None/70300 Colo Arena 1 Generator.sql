@@ -17,7 +17,7 @@ VALUES (70300,   1, True ) /* Stuck */
      , (70300,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (70300,  41,      60) /* RegenerationInterval */;
+VALUES (70300,  41,       5) /* RegenerationInterval */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70300,   1, 'Colo Arena One Generator') /* Name */

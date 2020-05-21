@@ -161,6 +161,10 @@ VALUES (1879775473, 70300, 11534698, 30, -1560, 0.105, 1, 0, 0, 0,  False, '2019
 /* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (1879775474, 70500, 11534698, 30, -1560, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena 1 Boot Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1879775475, 34719, 11534692, 30, -1380, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B00164 [30.000000 -1380.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
 
