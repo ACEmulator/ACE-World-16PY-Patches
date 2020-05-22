@@ -15,5 +15,3 @@ Use:
                     - Tell: Greetings, Adventurer! We are looking for adventurers to help Dame Alistra.
                     - Delay: 1, Tell: She is near the Inner Sea where the gearknight have formed a stronghold.
                     - Delay: 1, Tell: Help her with her metallic menace and I shall reward you upon your return.      
-
-                    
