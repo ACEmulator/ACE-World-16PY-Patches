@@ -12,7 +12,6 @@ VALUES (32615,   1,          8) /* ItemType - Jewelry */
      , (32615,  19,      10000) /* Value */
      , (32615,  33,          0) /* Bonded - Normal */
      , (32615,  36,       9999) /* ResistMagic */
-     , (32615,  53,        101) /* PlacementPosition - Resting */
      , (32615,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32615, 106,        350) /* ItemSpellcraft */
      , (32615, 107,       6000) /* ItemCurMana */
