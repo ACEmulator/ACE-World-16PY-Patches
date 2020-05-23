@@ -23,7 +23,7 @@ VALUES (71040,  11, True ) /* IgnoreCollisions */
      , (71040,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (71040,  39, 0.4000000059604645) /* DefaultScale */;
+VALUES (71040,  39, 0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71040,   1, 'Barely Comprehensible Magic Scroll') /* Name */
