@@ -11,7 +11,6 @@ VALUES (71040,   1,        128) /* ItemType - Misc */
      , (71040,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (71040,  19,        200) /* Value */
      , (71040,  33,          1) /* Bonded - Bonded */
-     , (71040,  53,        101) /* PlacementPosition - Resting */
      , (71040,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71040,  94,        128) /* TargetType - Misc */
      , (71040, 114,          1) /* Attuned - Attuned */;
