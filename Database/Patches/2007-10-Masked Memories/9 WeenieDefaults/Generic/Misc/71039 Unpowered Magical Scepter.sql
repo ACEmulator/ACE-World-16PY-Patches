@@ -12,7 +12,6 @@ VALUES (71039,   1,        128) /* ItemType - Misc */
      , (71039,  16,     655364) /* ItemUseable - 655364 */
      , (71039,  19,       1575) /* Value */
      , (71039,  33,          1) /* Bonded - Bonded */
-     , (71039,  53,        101) /* PlacementPosition - Resting */
      , (71039,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71039, 114,          1) /* Attuned - Attuned */;
 
