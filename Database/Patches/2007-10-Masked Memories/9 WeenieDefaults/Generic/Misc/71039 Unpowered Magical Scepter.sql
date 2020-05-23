@@ -6,10 +6,6 @@ VALUES (71039, 'ace71039-unpoweredmagicalscepter', 1, '2020-05-14 04:35:39') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71039,   1,        128) /* ItemType - Misc */
      , (71039,   5,        480) /* EncumbranceVal */
-     , (71039,   9,   16777216) /* ValidLocations - Held */
-     , (71039,  11,          1) /* MaxStackSize */
-     , (71039,  12,          1) /* StackSize */
-     , (71039,  16,     655364) /* ItemUseable - 655364 */
      , (71039,  19,       1575) /* Value */
      , (71039,  33,          1) /* Bonded - Bonded */
      , (71039,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
