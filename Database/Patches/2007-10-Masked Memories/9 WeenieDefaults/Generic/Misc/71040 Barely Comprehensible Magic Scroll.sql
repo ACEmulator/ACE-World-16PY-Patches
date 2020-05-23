@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71040;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71040, 'ace71040-barelycomprehensiblemagicscroll', 1, '2020-05-14 04:35:42') /* Generic */;
+VALUES (71040, 'ace71040-barelycomprehensiblemagicscroll', 44, '2020-05-14 04:35:42') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71040,   1,        128) /* ItemType - Misc */
