@@ -9,7 +9,6 @@ VALUES (36546,   1,        128) /* ItemType - Misc */
      , (36546,  16,          1) /* ItemUseable - No */
      , (36546,  19,          5) /* Value */
      , (36546,  33,          1) /* Bonded - Bonded */
-     , (36546,  53,        101) /* PlacementPosition - Resting */
      , (36546,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36546, 114,          1) /* Attuned - Attuned */;
 
@@ -21,7 +20,7 @@ VALUES (36546,  11, True ) /* IgnoreCollisions */
      , (36546,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36546,  39, 0.4000000059604645) /* DefaultScale */;
+VALUES (36546,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36546,   1, 'Carved Wooden Shaft') /* Name */

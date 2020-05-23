@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36547;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36547, 'ace36547-hardenedbluecrystal', 38, '2020-05-09 06:00:51') /* Gem */;
+VALUES (36547, 'ace36547-hardenedbluecrystal', 44, '2020-05-09 06:00:51') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36547,   1,       2048) /* ItemType - Gem */
@@ -24,7 +24,7 @@ VALUES (36547,  11, True ) /* IgnoreCollisions */
      , (36547,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36547,  39, 0.4000000059604645) /* DefaultScale */;
+VALUES (36547,  39,     0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36547,   1, 'Hardened Blue Crystal') /* Name */
