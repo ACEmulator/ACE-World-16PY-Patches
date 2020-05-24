@@ -84,20 +84,11 @@ VALUES (0x700AF112,  1154, 0x00AF0117, 38, 4.4, 0, -4.371139E-08, 0, 0, -1, Fals
 /* @teleloc 0x00AF0117 [38.000000 4.400000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES /*(0x700AF112, 0x700AF113, '2019-02-10 00:00:00') /* Arena One Statue */
-     /*,*/ (0x700AF112, 0x700AF114, '2019-02-10 00:00:00') /* Master Arbitrator */
+VALUES (0x700AF112, 0x700AF114, '2019-02-10 00:00:00') /* Master Arbitrator */
      , (0x700AF112, 0x700AF115, '2019-02-10 00:00:00') /* Colosseum Ticket Vendor */
      , (0x700AF112, 0x700AF116, '2019-02-10 00:00:00') /* Gladiator Diemos */
      , (0x700AF112, 0x700AF117, '2019-02-10 00:00:00') /* The Master */
-     /*, (0x700AF112, 0x700AF118, '2019-02-10 00:00:00') /* Arena Two Statue */
-     /*, (0x700AF112, 0x700AF119, '2019-02-10 00:00:00') /* Arena Three Statue */
-     /*, (0x700AF112, 0x700AF11A, '2019-02-10 00:00:00') /* Arena Four Statue */
-     /*, (0x700AF112, 0x700AF11B, '2019-02-10 00:00:00') /* Arena Five Statue */
      , (0x700AF112, 0x700AF11C, '2019-02-10 00:00:00') /* Arena of the Pumpkin King */;
-/*
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AF113, 35321, 0x00AF0117, 38, 4.4, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Arena One Statue */
-/* @teleloc 0x00AF0117 [38.000000 4.400000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF113, 70302, 0x00AF0117, 38, 4.4, 0, -4.371139E-08, 0, 0, -1,  False, '2019-02-10 00:00:00'); /* Colo Arena One Stopgap Generator */
@@ -118,21 +109,21 @@ VALUES (0x700AF116, 35869, 0x00AF0142, 60, -37.3, 0.008000016, 0, 0, 0, -1,  Tru
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF117, 35870, 0x00AF0133, 42.5, -70, 0, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* The Master */
 /* @teleloc 0x00AF0133 [42.500000 -70.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
-/*
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AF118, 35322, 0x00AF0117, 39, 4.4, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Arena Two Statue */
+VALUES (0x700AF118, 70511, 0x00AF0117, 39, 4.4, 0, -4.371139E-08, 0, 0, -1,  False, '2019-02-10 00:00:00'); /* Colo Arena Two Stopgap Generator */
 /* @teleloc 0x00AF0117 [39.000000 4.400000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
-/*
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AF119, 35323, 0x00AF0117, 40, 4.39999, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Arena Three Statue */
+VALUES (0x700AF119, 70512, 0x00AF0117, 40, 4.39999, 0, -4.371139E-08, 0, 0, -1,  False, '2019-02-10 00:00:00'); /* Colo Arena Three Stopgap Generator */
 /* @teleloc 0x00AF0117 [40.000000 4.399990 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
-/*
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AF11A, 35324, 0x00AF0117, 41, 4.4, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Arena Four Statue */
+VALUES (0x700AF11A, 70513, 0x00AF0117, 41, 4.4, 0, -4.371139E-08, 0, 0, -1,  False, '2019-02-10 00:00:00'); /* Colo Arena Four Stopgap Generator */
 /* @teleloc 0x00AF0117 [41.000000 4.400000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
-/*
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AF11B, 35325, 0x00AF0117, 42, 4.4, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Arena Five Statue */
+VALUES (0x700AF11B, 70514, 0x00AF0117, 42, 4.4, 0, -4.371139E-08, 0, 0, -1,  False, '2019-02-10 00:00:00'); /* Colo Arena Five Stopgap Generator */
 /* @teleloc 0x00AF0117 [42.000000 4.400000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
