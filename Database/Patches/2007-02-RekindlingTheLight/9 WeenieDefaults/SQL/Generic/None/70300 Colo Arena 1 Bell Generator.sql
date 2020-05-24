@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70300;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70300, 'coloarenaonegen', 1, '2005-02-09 10:00:00') /* Generic */;
+VALUES (70300, 'coloarenaonebellgen', 1, '2020-05-23 10:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70300,  81,          2) /* MaxGeneratedObjects */
@@ -17,10 +17,10 @@ VALUES (70300,   1, True ) /* Stuck */
      , (70300,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (70300,  41,       5) /* RegenerationInterval */;
+VALUES (70300,  41,       1) /* RegenerationInterval */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (70300,   1, 'Colo Arena One Generator') /* Name */
+VALUES (70300,   1, 'Colo Arena One Bell Generator') /* Name */
      , (70300,  34, 'ColoArenaOneInUse') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
