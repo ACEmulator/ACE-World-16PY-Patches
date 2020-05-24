@@ -71,79 +71,79 @@ VALUES (0x700B0032, 34775, 0x00B00168, 30, -1484.9, 0, -0.00975594, 0, 0, -0.999
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B0036, 34775, 0x00B0016B, 30, -1574.9, 0, -0.00975594, 0, 0, -0.999952, False, '2019-02-10 00:00:00'); /* Locked Door */
 /* @teleloc 0x00B0016B [30.000000 -1574.900000 0.000000] -0.009756 0.000000 0.000000 -0.999952 */
-
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18E3,  1154, 0x00B0015B, 30, -1110, 0.105, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x00B0015B [30.000000 -1110.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
-
+/*
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x700B18E3, 0x700B18E4, '2019-02-10 00:00:00') /* Arena Bell */
-     , (0x700B18E3, 0x700B18E5, '2019-02-10 00:00:00') /* Arena Bell */
-     , (0x700B18E3, 0x700B18E6, '2019-02-10 00:00:00') /* Arena Bell */
-     , (0x700B18E3, 0x700B18E7, '2019-02-10 00:00:00') /* Arena Bell */
-     , (0x700B18E3, 0x700B18E8, '2019-02-10 00:00:00') /* Arena Bell */
-     , (0x700B18E3, 0x700B18E9, '2019-02-10 00:00:00') /* Arena Bell */
-     , (0x700B18E3, 0x700B18EA, '2019-02-10 00:00:00') /* Arena Bell */
-     , (0x700B18E3, 0x700B18EB, '2019-02-10 00:00:00') /* Arena Bell */
-     , (0x700B18E3, 0x700B18EC, '2019-02-10 00:00:00') /* Arena Bell */
-     , (0x700B18E3, 0x700B18ED, '2019-02-10 00:00:00') /* Arena Bell */
-     , (0x700B18E3, 0x700B18EE, '2019-02-10 00:00:00') /* Arena Bell */
-     , (0x700B18E3, 0x700B18EF, '2019-02-10 00:00:00') /* Arena Bell */
-     , (0x700B18E3, 0x700B18F0, '2019-02-10 00:00:00') /* Arena Bell */
+     /*, (0x700B18E3, 0x700B18E5, '2019-02-10 00:00:00') /* Arena Bell */
+     /*, (0x700B18E3, 0x700B18E6, '2019-02-10 00:00:00') /* Arena Bell */
+     /*, (0x700B18E3, 0x700B18E7, '2019-02-10 00:00:00') /* Arena Bell */
+     /*, (0x700B18E3, 0x700B18E8, '2019-02-10 00:00:00') /* Arena Bell */
+     /*, (0x700B18E3, 0x700B18E9, '2019-02-10 00:00:00') /* Arena Bell */
+     /*, (0x700B18E3, 0x700B18EA, '2019-02-10 00:00:00') /* Arena Bell */
+     /*, (0x700B18E3, 0x700B18EB, '2019-02-10 00:00:00') /* Arena Bell */
+     /*, (0x700B18E3, 0x700B18EC, '2019-02-10 00:00:00') /* Arena Bell */
+     /*, (0x700B18E3, 0x700B18ED, '2019-02-10 00:00:00') /* Arena Bell */
+     /*, (0x700B18E3, 0x700B18EE, '2019-02-10 00:00:00') /* Arena Bell */
+     /*, (0x700B18E3, 0x700B18EF, '2019-02-10 00:00:00') /* Arena Bell */
+     /*, (0x700B18E3, 0x700B18F0, '2019-02-10 00:00:00') /* Arena Bell */
      /*, (0x700B18E3, 0x700B18F1, '2019-02-10 00:00:00') /* Arena Bell */
      /*, (0x700B18E3, 0x700B18F2, '2019-02-10 00:00:00') /* Arena Bell */
      /*, (0x700B18E3, 0x700B18F3, '2019-02-10 00:00:00') /* Arena Bell */
      /*, (0x700B18E3, 0x700B18F4, '2019-02-10 00:00:00') /* Arena Bell */
-     , (0x700B18E3, 0x700B18F5, '2019-02-10 00:00:00') /* Arena Bell */;
-
+     /*, (0x700B18E3, 0x700B18F5, '2019-02-10 00:00:00') /* Arena Bell */;
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18E4, 34722, 0x00B0015B, 30, -1110, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B0015B [30.000000 -1110.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
-
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18E5, 34723, 0x00B00158, 30, -1020, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B00158 [30.000000 -1020.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
-
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18E6, 34724, 0x00B00155, 30, -930, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B00155 [30.000000 -930.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
-
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18E7, 34725, 0x00B00152, 30, -840, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B00152 [30.000000 -840.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
-
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18E8, 34709, 0x00B0014F, 30, -750, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B0014F [30.000000 -750.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
-
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18E9, 34710, 0x00B0014C, 30, -660, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B0014C [30.000000 -660.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
-
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18EA, 34711, 0x00B00149, 30, -570, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B00149 [30.000000 -570.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
-
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18EB, 34712, 0x00B00146, 30, -480, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B00146 [30.000000 -480.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
-
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18EC, 34713, 0x00B00143, 30, -390, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B00143 [30.000000 -390.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
-
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18ED, 34714, 0x00B00140, 30, -300, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B00140 [30.000000 -300.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
-
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18EE, 34715, 0x00B0013D, 30, -210, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B0013D [30.000000 -210.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
-
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18EF, 34716, 0x00B0013A, 30, -120, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B0013A [30.000000 -120.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
-
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18F0, 34717, 0x00B00137, 30, -30, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B00137 [30.000000 -30.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
@@ -179,7 +179,7 @@ VALUES (0x700B18F3, 34719, 0x00B00164, 30, -1380, 0.105, 1, 0, 0, 0,  True, '201
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18F4, 34720, 0x00B00161, 30, -1290, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B00161 [30.000000 -1290.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
-
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18F5, 34721, 0x00B0015E, 30, -1200, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena Bell */
 /* @teleloc 0x00B0015E [30.000000 -1200.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
