@@ -62,7 +62,8 @@ VALUES (23570,   1,       5) /* HeartbeatInterval */
      , (23570, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23570,   1, 'Virindi Paradox') /* Name */;
+VALUES (23570,   1, 'Virindi Paradox') /* Name */
+     , (23570,  45, 'virindiparadoxkillcount') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23570,   1,   33558343) /* Setup */
