@@ -6,7 +6,7 @@ VALUES (34517, 'ace34517-arena2', 7, '2019-02-10 00:00:00') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34517,   1,      65536) /* ItemType - Portal */
      , (34517,  16,         32) /* ItemUseable - Remote */
-     , (34517,  93,      66576) /* PhysicsState - IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (34517,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (34517, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (34517, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
@@ -18,10 +18,11 @@ VALUES (34517,   1, True ) /* Stuck */
      , (34517,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34517,  54, 0.300000011920929) /* UseRadius */;
+VALUES (34517,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34517,   1, 'Arena 2') /* Name */;
+VALUES (34517,   1, 'Arena 2') /* Name */
+     , (34517,  33, 'ColoR1Completed') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34517,   1,   33560143) /* Setup */
