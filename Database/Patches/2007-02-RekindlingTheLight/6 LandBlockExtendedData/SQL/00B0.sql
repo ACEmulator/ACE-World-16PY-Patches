@@ -167,7 +167,7 @@ VALUES (0x700B18F2, 70500, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  False, '20
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18F3, 70509, 0x00B00169, 30, -1546, 0, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena 1 Portal Generator */
 /* @teleloc 0x00B00169 [30.000000 -1546.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
-
+/*
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B18F4, 70510, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena 1 Wave Generator */
 /* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
@@ -284,3 +284,157 @@ VALUES (0x700B1911,  8359, 0x00B00137, 30, -30, 0.19, 1, 0, 0, 0,  True, '2019-0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B191B, 34521, 0x00B0015D, 30, -1186, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Arena 6 */
 /* @teleloc 0x00B0015D [30.000000 -1186.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B18F4, 70546, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena Linkable Wave 1 A Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B18F4, 0x700B18F7, '2019-02-10 00:00:00') /* Colo R1W1 Generator */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B18F7, 70501, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Colo R1W1 Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B18F8, 70547, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena Linkable Wave 1 B Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B18F8, 0x700B18F9, '2019-02-10 00:00:00') /* Colo R1W1 Generator */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B18F9, 70501, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Colo R1W1 Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B18FA, 70548, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena Linkable Wave 2 A Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B18FA, 0x700B18FB, '2019-02-10 00:00:00') /* Colo R1W1 Generator */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B18FB, 70501, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Colo R1W1 Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B18FC, 70549, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena Linkable Wave 2 B Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B18FC, 0x700B18FD, '2019-02-10 00:00:00') /* Colo R1W1 Generator */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B18FD, 70501, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Colo R1W1 Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B18FE, 70550, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena Linkable Wave 3 A Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B18FE, 0x700B18FF, '2019-02-10 00:00:00') /* Colo R1W3 Generator */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B18FF, 70505, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Colo R1W3 Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B1900, 70551, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena Linkable Wave 3 B Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B1900, 0x700B1901, '2019-02-10 00:00:00') /* Colo R1W1 Generator */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B1901, 70505, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Colo R1W3 Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B1902, 70552, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena Linkable Wave 4 A Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B1902, 0x700B1903, '2019-02-10 00:00:00') /* Colo R1W3 Generator */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B1903, 70505, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Colo R1W3 Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B1904, 70553, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena Linkable Wave 4 B Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B1904, 0x700B1905, '2019-02-10 00:00:00') /* Colo R1W1 Generator */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B1905, 70505, 0x00B0016A, 30, -1560, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Colo R1W3 Generator */
+/* @teleloc 0x00B0016A [30.000000 -1560.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B1906, 70546, 0x00B00167, 30, -1470, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena Linkable Wave 1 A Generator */
+/* @teleloc 0x00B00167 [30.000000 -1470.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B1906, 0x700B1907, '2019-02-10 00:00:00') /* Colo R2W1 Generator */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B1907, 70502, 0x00B00167, 30, -1470, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Colo R2W1 Generator */
+/* @teleloc 0x00B00167 [30.000000 -1470.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B1908, 70547, 0x00B00167, 30, -1470, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena Linkable Wave 1 B Generator */
+/* @teleloc 0x00B00167 [30.000000 -1470.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B1908, 0x700B1909, '2019-02-10 00:00:00') /* Colo R2W1 Generator */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B1909, 70502, 0x00B00167, 30, -1470, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Colo R2W1 Generator */
+/* @teleloc 0x00B00167 [30.000000 -1470.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B190A, 70548, 0x00B00167, 30, -1470, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena Linkable Wave 2 A Generator */
+/* @teleloc 0x00B00167 [30.000000 -1470.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B190A, 0x700B190B, '2019-02-10 00:00:00') /* Colo R2W2 Generator */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B190B, 70503, 0x00B00167, 30, -1470, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Colo R2W2 Generator */
+/* @teleloc 0x00B00167 [30.000000 -1470.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B190C, 70549, 0x00B00167, 30, -1470, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena Linkable Wave 2 B Generator */
+/* @teleloc 0x00B00167 [30.000000 -1470.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B190C, 0x700B190D, '2019-02-10 00:00:00') /* Colo R2W2 Generator */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B190D, 70503, 0x00B00167, 30, -1470, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Colo R2W2 Generator */
+/* @teleloc 0x00B00167 [30.000000 -1470.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B190E, 70550, 0x00B00167, 30, -1470, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena Linkable Wave 3 A Generator */
+/* @teleloc 0x00B00167 [30.000000 -1470.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B190E, 0x700B190F, '2019-02-10 00:00:00') /* Colo R2W2 Generator */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B190F, 70503, 0x00B00167, 30, -1470, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Colo R2W2 Generator */
+/* @teleloc 0x00B00167 [30.000000 -1470.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B1910, 70551, 0x00B00167, 30, -1470, 0.105, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Colo Arena Linkable Wave 3 B Generator */
+/* @teleloc 0x00B00167 [30.000000 -1470.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B1910, 0x700B1911, '2019-02-10 00:00:00') /* Colo R2W2 Generator */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B1911, 70503, 0x00B00167, 30, -1470, 0.105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Colo R2W2 Generator */
+/* @teleloc 0x00B00167 [30.000000 -1470.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */
