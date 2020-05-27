@@ -75,7 +75,7 @@ VALUES (231,   1,   33559553) /* Setup */
      , (231,   7,  268437022) /* ClothingBase */
      , (231,   8,  100667452) /* Icon */
      , (231,  22,  872415270) /* PhysicsEffectTable */
-     , (231,  32,        222) /* WieldedTreasureType - 
+     , (231,  32,        222) /* WieldedTreasureType -
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 20x Greater Arrow (5304) | Probability: 100%
                                    Wield Heavy Crossbow (23667) | Probability: 50%
@@ -155,3 +155,11 @@ VALUES (231, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for Cont
      , (231, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (231, 9, 20855,  0, 0, 0.03, False) /* Create Alchemy Stamp (20855) for ContainTreasure */
      , (231, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (231, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'ColoCritterKilled', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

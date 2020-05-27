@@ -73,7 +73,7 @@ VALUES (4102,   1,   33559568) /* Setup */
      , (4102,   7,  268437022) /* ClothingBase */
      , (4102,   8,  100667452) /* Icon */
      , (4102,  22,  872415270) /* PhysicsEffectTable */
-     , (4102,  32,        220) /* WieldedTreasureType - 
+     , (4102,  32,        220) /* WieldedTreasureType -
                                    Wield Katar (23676) | Probability: 14%
                                    Wield Cestus (23639) | Probability: 7%
                                    Wield Nekode (23682) | Probability: 6%
@@ -135,4 +135,11 @@ VALUES (4102, 8,   301,  0, 0, 0.14, False) /* Create Battle Axe (301) for Treas
      , (4102, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (4102, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
      , (4102, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
-     
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (4102, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'ColoCritterKilled', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

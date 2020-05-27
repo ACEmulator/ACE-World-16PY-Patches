@@ -80,7 +80,7 @@ VALUES (25963,   1,   33554433) /* Setup */
      , (25963,  16,   67109567) /* EyesPalette */
      , (25963,  17,   67109557) /* SkinPalette */
      , (25963,  22,  872415236) /* PhysicsEffectTable */
-     , (25963,  32,        419) /* WieldedTreasureType - 
+     , (25963,  32,        419) /* WieldedTreasureType -
                                    Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
                                    Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50%
                                    Wield Bandit Dagger (22778) | Probability: 12.5%
@@ -158,3 +158,11 @@ VALUES (25963, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wi
      , (25963, 2, 12193,  0, 14, 0, False) /* Create Dho Vest and Robe (12193) for Wield */
      , (25963, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (25963, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (25963, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'ColoCritterKilled', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

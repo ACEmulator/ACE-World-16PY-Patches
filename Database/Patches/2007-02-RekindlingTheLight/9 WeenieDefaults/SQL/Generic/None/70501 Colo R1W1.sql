@@ -8,9 +8,7 @@ VALUES (70501,  81,          5) /* MaxGeneratedObjects */
      , (70501,  82,          5) /* InitGeneratedObjects */
      , (70501,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70501, 103,          2) /* GeneratorDestructionType - Destroy */
-     , (70501, 145,          2) /* GeneratorEndDestructionType - Destroy */
-     , (70501, 290,          1) /* HearLocalSignals */
-     , (70501, 291,         20) /* HearLocalSignalsRadius */;
+     , (70501, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70501,   1, True ) /* Stuck */
@@ -19,7 +17,7 @@ VALUES (70501,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (70501,  41,        1) /* RegenerationInterval */
-     , (70501,  43,       18) /* GeneratorRadius */;
+     , (70501,  43,       16) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70501,   1, 'Colo Arena Room 1 Wave 1 Generator') /* Name */;
