@@ -71,7 +71,7 @@ VALUES (35254,   1,   33556633) /* Setup */
      , (35254,   3,  536870985) /* SoundTable */
      , (35254,   4,  805306398) /* CombatTable */
      , (35254,   8,  100668442) /* Icon */
-     , (35254,  22,  872415274) /* PhysicsEffectTable */;
+     , (35254,  22,  872415274) /* PhysicsEffectTable */
      , (35254,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
