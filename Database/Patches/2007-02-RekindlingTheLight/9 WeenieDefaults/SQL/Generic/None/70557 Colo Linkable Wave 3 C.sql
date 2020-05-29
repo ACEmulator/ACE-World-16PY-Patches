@@ -1,34 +1,34 @@
-DELETE FROM `weenie` WHERE `class_Id` = 70549;
+DELETE FROM `weenie` WHERE `class_Id` = 70557;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70549, 'ColoLinkW2bGEN', 1, '2020-05-20 10:00:00') /* Generic */;
+VALUES (70557, 'ColoLinkW3cGEN', 1, '2020-05-20 10:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (70549,  81,          0) /* MaxGeneratedObjects */
-     , (70549,  82,          0) /* InitGeneratedObjects */
-     , (70549,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (70549, 103,          2) /* GeneratorDestructionType - Destroy */
-     , (70549, 145,          2) /* GeneratorEndDestructionType - Destroy */
-     , (70549, 290,          1) /* HearLocalSignals */
-     , (70549, 291,         20) /* HearLocalSignalsRadius */;
+VALUES (70557,  81,          0) /* MaxGeneratedObjects */
+     , (70557,  82,          0) /* InitGeneratedObjects */
+     , (70557,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (70557, 103,          2) /* GeneratorDestructionType - Destroy */
+     , (70557, 145,          2) /* GeneratorEndDestructionType - Destroy */
+     , (70557, 290,          1) /* HearLocalSignals */
+     , (70557, 291,         20) /* HearLocalSignalsRadius */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (70549,   1, True ) /* Stuck */
-     , (70549,  11, True ) /* IgnoreCollisions */
-     , (70549,  18, True ) /* Visibility */;
+VALUES (70557,   1, True ) /* Stuck */
+     , (70557,  11, True ) /* IgnoreCollisions */
+     , (70557,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (70549,  41,        0) /* RegenerationInterval */;
+VALUES (70557,  41,        0) /* RegenerationInterval */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (70549,   1, 'Colo Arena Linkable Wave 2 B Generator') /* Name */;
+VALUES (70557,   1, 'Colo Arena Linkable Wave 3 C Generator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (70549,   1,   33555051) /* Setup */
-     , (70549,   8,  100667494) /* Icon */;
+VALUES (70557,   1,   33555051) /* Setup */
+     , (70557,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (70549, 37 /* ReceiveLocalSignal */, 1, NULL, NULL, NULL, 'SpawnWave2B', NULL, NULL, NULL);
+VALUES (70557, 37 /* ReceiveLocalSignal */, 1, NULL, NULL, NULL, 'SpawnWave1C', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -36,4 +36,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (70549, -1, 3666, 3600, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Place Holder Object (3666) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
+VALUES (70557, -1, 3666, 3600, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Place Holder Object (3666) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
