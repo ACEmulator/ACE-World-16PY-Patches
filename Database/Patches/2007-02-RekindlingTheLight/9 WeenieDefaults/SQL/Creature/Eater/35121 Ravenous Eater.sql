@@ -65,7 +65,7 @@ VALUES (35121,   1,   33559121) /* Setup */
      , (35121,   6,   67115387) /* PaletteBase */
      , (35121,   7,  268436888) /* ClothingBase */
      , (35121,   8,  100677365) /* Icon */
-     , (35121,  22,  872415409) /* PhysicsEffectTable */;
+     , (35121,  22,  872415409) /* PhysicsEffectTable */
      , (35121,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -174,4 +174,4 @@ VALUES (35121, 9, 28732,  0, 0, 0.01, False) /* Create Aluvian Leg (28732) for C
      , (35121, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (35121, 9, 28731,  0, 0, 0.01, False) /* Create Identification Plate (28731) for ContainTreasure */
      , (35121, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
-     
+

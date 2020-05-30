@@ -77,7 +77,7 @@ VALUES (35139,   1,   33557327) /* Setup */
      , (35139,   7,  268436292) /* ClothingBase */
      , (35139,   8,  100667449) /* Icon */
      , (35139,  22,  872415264) /* PhysicsEffectTable */
-     , (35139,  32,        297) /* WieldedTreasureType - 
+     , (35139,  32,        297) /* WieldedTreasureType -
                                    Wield Tachi (23699) | Probability: 33%
                                    Wield Yaoji (23709) | Probability: 33%
                                    Wield Acid Yari (23721) | Probability: 34% */
@@ -133,6 +133,14 @@ VALUES (35139,    84,   2.06)  /* Flame Bolt V */
      , (35139,  1343,  2.045)  /* Weakness Other VI */
      , (35139,  1396,  2.045)  /* Clumsiness Other VI */
      , (35139,  1420,  2.045)  /* Slowness Other VI */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (35139, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'ColoCritterKilled', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35139,  5 /* HeartBeat */,  0.025, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

@@ -41,7 +41,7 @@ VALUES (35131,   1,       5) /* HeartbeatInterval */
      , (35131,  31,      12) /* VisualAwarenessRange */
      , (35131,  34,       1) /* PowerupTime */
      , (35131,  36,       1) /* ChargeSpeed */
-     , (35131,  39,     1.3) /* DefaultScale */;
+     , (35131,  39,     1.3) /* DefaultScale */
      , (35131,  64,     0.8) /* ResistSlash */
      , (35131,  65,     0.8) /* ResistPierce */
      , (35131,  66,     0.9) /* ResistBludgeon */
@@ -68,7 +68,7 @@ VALUES (35131,   1,   33559125) /* Setup */
      , (35131,   6,   67115468) /* PaletteBase */
      , (35131,   7,  268436907) /* ClothingBase */
      , (35131,   8,  100677371) /* Icon */
-     , (35131,  22,  872415269) /* PhysicsEffectTable */;
+     , (35131,  22,  872415269) /* PhysicsEffectTable */
      , (35131,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -163,4 +163,4 @@ VALUES (35131, 9, 34276,  0, 0, 0.01, False) /* Create Ancient Empyrean Trinket 
      , (35131, 10, 29965,  0, 0, 0.25, False) /* Create Quadrelle (29965) for WieldTreasure */
      , (35131, 10, 29970,  0, 0, 0.25, False) /* Create Partizan (29970) for WieldTreasure */
      , (35131, 10, 29975,  0, 0, 0.25, False) /* Create Spadone (29975) for WieldTreasure */;
-     
+
