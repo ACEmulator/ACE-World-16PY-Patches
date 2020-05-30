@@ -14,8 +14,6 @@ VALUES (35167,   1,         16) /* ItemType - Creature */
      , (35167,  40,          2) /* CombatMode - Melee */
      , (35167,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (35167,  72,         29) /* FriendType - Zefir */
-     , (35167,  81,          2) /* MaxGeneratedObjects */
-     , (35167,  82,          0) /* InitGeneratedObjects */
      , (35167,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35167, 103,          1) /* GeneratorDestructionType - Nothing */
      , (35167, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -174,7 +172,3 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435540 /* Twitch4 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35167, 9, 31359,  1, 0, 0.1, True) /* Create Kirit Zefir Wing (31359) for ContainTreasure */
      , (35167, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;
-
-INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35167, -1, 34014, 0, 2, 2, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tanada Nanjou Shou-jen (34014) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
-

@@ -120,7 +120,7 @@ VALUES (35166,    69,   2.03)  /* Shock Wave VI */
      , (35166,  1264,   2.01)  /* Drain Mana Other V */
      , (35166,  1372,   2.02)  /* Frailty Other VI */
      , (35166,  1420,   2.02)  /* Slowness Other VI */;
-     
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35166, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -132,4 +132,3 @@ VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'ColoCritterKilled', 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35166, 9, 30823,  0, 0, 0.05, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
      , (35166, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
-     

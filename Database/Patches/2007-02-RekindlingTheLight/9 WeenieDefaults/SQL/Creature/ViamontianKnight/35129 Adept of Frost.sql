@@ -64,6 +64,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35129,   1,   33554433) /* Setup */
      , (35129,   2,  150994945) /* MotionTable */
      , (35129,   3,  536870913) /* SoundTable */
+     , (35129,   4,  805306368) /* CombatTable */
      , (35129,   8,  100667446) /* Icon */
      , (35129,  17,   67115904) /* SkinPalette */
      , (35129,  22,  872415236) /* PhysicsEffectTable */
@@ -112,7 +113,7 @@ VALUES (35129,   234,   2.02)  /* Vulnerability Other VI */
      , (35129,  2135,   2.02)  /* Winter's Embrace */
      , (35129,  2136,   2.02)  /* Icy Torment */
      , (35129,  2731,   2.02)  /* Frost Arc VII */;
-     
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35129, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -165,4 +166,4 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (35129, 2, 31824,  1, 4, 0.6, True) /* Create Ice Wand (31824) for Wield */
      , (35129, 2, 28614,  0, 1, 0.25, True) /* Create Vestiri Robe with Hood (28614) for Wield */
      , (35129, 2, 28632,  0, 2, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */;
-     
+

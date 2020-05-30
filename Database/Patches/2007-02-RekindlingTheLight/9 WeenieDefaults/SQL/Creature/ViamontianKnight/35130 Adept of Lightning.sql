@@ -64,6 +64,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35130,   1,   33554433) /* Setup */
      , (35130,   2,  150994945) /* MotionTable */
      , (35130,   3,  536870913) /* SoundTable */
+     , (35130,   4,  805306368) /* CombatTable */
      , (35130,   8,  100667446) /* Icon */
      , (35130,  17,   67115903) /* SkinPalette */
      , (35130,  22,  872415236) /* PhysicsEffectTable */
@@ -113,7 +114,7 @@ VALUES (35130,   234,   2.02)  /* Vulnerability Other VI */
      , (35130,  2139,   2.02)  /* Luminous Wrath */
      , (35130,  2141,   2.02)  /* Lhen's Flare */
      , (35130,  2738,   2.02)  /* Lightning Arc VII */;
-     
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35130, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -166,4 +167,4 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (35130, 2, 31822,  1, 4, 0.6, True) /* Create Electric Baton (31822) for Wield */
      , (35130, 2, 28614,  0, 13, 0.1429, True) /* Create Vestiri Robe with Hood (28614) for Wield */
      , (35130, 2, 28632,  0, 13, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */;
-     
+
