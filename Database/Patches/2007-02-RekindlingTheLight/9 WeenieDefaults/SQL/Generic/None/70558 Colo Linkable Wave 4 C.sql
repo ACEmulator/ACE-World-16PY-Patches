@@ -28,7 +28,7 @@ VALUES (70558,   1,   33555051) /* Setup */
      , (70558,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (70558, 37 /* ReceiveLocalSignal */, 1, NULL, NULL, NULL, 'SpawnWave1C', NULL, NULL, NULL);
+VALUES (70558, 37 /* ReceiveLocalSignal */, 1, NULL, NULL, NULL, 'SpawnWave4C', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
