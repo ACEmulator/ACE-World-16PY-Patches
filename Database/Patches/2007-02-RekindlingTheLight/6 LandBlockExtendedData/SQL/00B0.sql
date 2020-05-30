@@ -735,3 +735,179 @@ VALUES (0x700B00A5, 0x700B00A6, '2020-05-29 14:03:15') /* Colo Arena Room 5 Spaw
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B00A6, 70582, 0x00B0015E, 30, -1200, 0.16, 1, 0, 0, 0,  True, '2020-05-29 14:03:15'); /* Colo Arena Room 5 Spawn 4 B Generator */
 /* @teleloc 0x00B0015E [30.000000 -1200.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00A7, 70546, 0x00B0015B, 30, -1110, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:08:02'); /* Colo Arena Linkable Wave 1 A Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00A7, 0x700B00A8, '2020-05-30 02:08:47') /* Colo Arena Room 6 Spawn 1 A Generator (70583) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00A8, 70583, 0x00B0015B, 30, -1110, 0.16, 1, 0, 0, 0,  True, '2020-05-30 02:08:47'); /* Colo Arena Room 6 Spawn 1 A Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00A9, 70547, 0x00B0015B, 30, -1110, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:09:18'); /* Colo Arena Linkable Wave 1 B Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00A9, 0x700B00AA, '2020-05-30 02:09:25') /* Colo Arena Room 6 Spawn 1 B Generator (70584) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00AA, 70584, 0x00B0015B, 30, -1110, 0.16, 1, 0, 0, 0,  True, '2020-05-30 02:09:25'); /* Colo Arena Room 6 Spawn 1 B Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00AB, 70548, 0x00B0015B, 30, -1110, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:09:32'); /* Colo Arena Linkable Wave 2 A Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00AB, 0x700B00AC, '2020-05-30 02:09:43') /* Colo Arena Room 6 Spawn 2 A Generator (70585) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00AC, 70585, 0x00B0015B, 30, -1110, 0.16, 1, 0, 0, 0,  True, '2020-05-30 02:09:43'); /* Colo Arena Room 6 Spawn 2 A Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00AD, 70549, 0x00B0015B, 30, -1110, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:09:52'); /* Colo Arena Linkable Wave 2 B Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00AD, 0x700B00AE, '2020-05-30 02:09:59') /* Colo Arena Room 6 Spawn 2 B Generator (70586) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00AE, 70586, 0x00B0015B, 30, -1110, 0.16, 1, 0, 0, 0,  True, '2020-05-30 02:09:59'); /* Colo Arena Room 6 Spawn 2 B Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00AF, 70550, 0x00B0015B, 30, -1110, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:10:07'); /* Colo Arena Linkable Wave 3 A Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00AF, 0x700B00B0, '2020-05-30 02:10:13') /* Colo Arena Room 6 Spawn 3 A Generator (70587) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00B0, 70587, 0x00B0015B, 30, -1110, 0.16, 1, 0, 0, 0,  True, '2020-05-30 02:10:13'); /* Colo Arena Room 6 Spawn 3 A Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00B1, 70551, 0x00B0015B, 30, -1110, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:10:18'); /* Colo Arena Linkable Wave 3 B Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00B1, 0x700B00B2, '2020-05-30 02:10:28') /* Colo Arena Room 6 Spawn 3 B Generator (70588) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00B2, 70588, 0x00B0015B, 30, -1110, 0.16, 1, 0, 0, 0,  True, '2020-05-30 02:10:28'); /* Colo Arena Room 6 Spawn 3 B Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00B3, 70552, 0x00B0015B, 30, -1110, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:10:35'); /* Colo Arena Linkable Wave 4 A Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00B3, 0x700B00B4, '2020-05-30 02:10:45') /* Colo Arena Room 6 Spawn 4 A Generator (70589) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00B4, 70589, 0x00B0015B, 30, -1110, 0.16, 1, 0, 0, 0,  True, '2020-05-30 02:10:45'); /* Colo Arena Room 6 Spawn 4 A Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00B5, 70553, 0x00B0015B, 30, -1110, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:10:50'); /* Colo Arena Linkable Wave 4 B Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00B5, 0x700B00B6, '2020-05-30 02:11:00') /* Colo Arena Room 6 Spawn 4 B Generator (70590) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00B6, 70590, 0x00B0015B, 30, -1110, 0.15999998, 1, 0, 0, 0,  True, '2020-05-30 02:11:00'); /* Colo Arena Room 6 Spawn 4 B Generator */
+/* @teleloc 0x00B0015B [30.000000 -1110.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00B7, 70546, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:17:27'); /* Colo Arena Linkable Wave 1 A Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00B7, 0x700B00B8, '2020-05-30 02:18:08') /* Colo Arena Room 7 Spawn 1 A Generator (70591) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00B8, 70591, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0,  True, '2020-05-30 02:18:08'); /* Colo Arena Room 7 Spawn 1 A Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00B9, 70547, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:18:17'); /* Colo Arena Linkable Wave 1 B Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00B9, 0x700B00BA, '2020-05-30 02:18:23') /* Colo Arena Room 7 Spawn 1 B Generator (70592) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00BA, 70592, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0,  True, '2020-05-30 02:18:23'); /* Colo Arena Room 7 Spawn 1 B Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00BB, 70548, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:18:30'); /* Colo Arena Linkable Wave 2 A Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00BB, 0x700B00BC, '2020-05-30 02:18:36') /* Colo Arena Room 7 Spawn 2 A Generator (70593) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00BC, 70593, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0,  True, '2020-05-30 02:18:36'); /* Colo Arena Room 7 Spawn 2 A Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00BD, 70549, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:18:44'); /* Colo Arena Linkable Wave 2 B Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00BD, 0x700B00BE, '2020-05-30 02:18:50') /* Colo Arena Room 7 Spawn 2 B Generator (70594) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00BE, 70594, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0,  True, '2020-05-30 02:18:50'); /* Colo Arena Room 7 Spawn 2 B Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00BF, 70550, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:18:57'); /* Colo Arena Linkable Wave 3 A Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00BF, 0x700B00C0, '2020-05-30 02:19:03') /* Colo Arena Room 7 Spawn 3 A Generator (70595) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00C0, 70595, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0,  True, '2020-05-30 02:19:03'); /* Colo Arena Room 7 Spawn 3 A Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00C1, 70551, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:19:35'); /* Colo Arena Linkable Wave 3 B Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00C1, 0x700B00C2, '2020-05-30 02:19:45') /* Colo Arena Room 7 Spawn 3 B Generator (70596) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00C2, 70596, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0,  True, '2020-05-30 02:19:45'); /* Colo Arena Room 7 Spawn 3 B Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00C3, 70552, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:20:03'); /* Colo Arena Linkable Wave 4 A Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00C3, 0x700B00C4, '2020-05-30 02:20:09') /* Colo Arena Room 7 Spawn 4 A Generator (70597) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00C4, 70597, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0,  True, '2020-05-30 02:20:09'); /* Colo Arena Room 7 Spawn 4 A Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00C5, 70553, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0, False, '2020-05-30 02:20:15'); /* Colo Arena Linkable Wave 4 B Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700B00C5, 0x700B00C6, '2020-05-30 02:20:20') /* Colo Arena Room 7 Spawn 4 B Generator (70598) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700B00C6, 70598, 0x00B00158, 30, -1020, 0.16, 1, 0, 0, 0,  True, '2020-05-30 02:20:20'); /* Colo Arena Room 7 Spawn 4 B Generator */
+/* @teleloc 0x00B00158 [30.000000 -1020.000000 0.160000] 1.000000 0.000000 0.000000 0.000000 */

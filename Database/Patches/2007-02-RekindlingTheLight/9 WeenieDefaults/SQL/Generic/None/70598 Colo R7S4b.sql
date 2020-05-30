@@ -4,8 +4,8 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (70598, 'ColoR7S4bGEN', 1, '2020-05-20 10:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (70598,  81,          5) /* MaxGeneratedObjects */
-     , (70598,  82,          7) /* InitGeneratedObjects */
+VALUES (70598,  81,          7) /* MaxGeneratedObjects */
+     , (70598,  82,          5) /* InitGeneratedObjects */
      , (70598,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70598, 103,          2) /* GeneratorDestructionType - Destroy */
      , (70598, 145,          2) /* GeneratorEndDestructionType - Destroy */;
@@ -16,7 +16,7 @@ VALUES (70598,   1, True ) /* Stuck */
      , (70598,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (70598,  41,        2) /* RegenerationInterval */
+VALUES (70598,  41,        5) /* RegenerationInterval */
      , (70598,  43,       10) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
