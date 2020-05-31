@@ -19,7 +19,7 @@ VALUES (70576,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (70576,  41,       1) /* RegenerationInterval */
-     , (70576,  43,      10) /* GeneratorRadius */;
+     , (70576,  43,      12) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70576,   1, 'Colo Arena Room 5 Spawn 1 B Generator') /* Name */;
