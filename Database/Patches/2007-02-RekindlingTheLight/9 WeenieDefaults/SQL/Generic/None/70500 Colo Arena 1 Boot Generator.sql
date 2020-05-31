@@ -45,4 +45,4 @@ VALUES (70500, -1, 70499, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0.1, 1, 0, 0, 0) /* 
      , (70500, -1, 70499, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1260, 0.1, 1, 0, 0, 0) /* Generate Master Arbitrator (70499) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (70500, -1, 70499, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1350, 0.1, 1, 0, 0, 0) /* Generate Master Arbitrator (70499) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (70500, -1, 70499, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1440, 0.1, 1, 0, 0, 0) /* Generate Master Arbitrator (70499) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70500, -1, 70499, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1550, 0.1, 1, 0, 0, 0) /* Generate Master Arbitrator (70499) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (70500, -1, 70499, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1530, 0.1, 1, 0, 0, 0) /* Generate Master Arbitrator (70499) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
