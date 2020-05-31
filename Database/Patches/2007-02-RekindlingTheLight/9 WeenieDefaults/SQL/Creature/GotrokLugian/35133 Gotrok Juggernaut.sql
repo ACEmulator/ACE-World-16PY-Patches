@@ -57,7 +57,7 @@ VALUES (35133,   1,      10) /* HeartbeatInterval */
      , (35133, 104,      10) /* ObviousRadarRange */
      , (35133, 117,     0.5) /* FocusedProbability */
      , (35133, 125,       1) /* ResistHealthDrain */;
-     
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35133,   1, 'Gotrok Juggernaut') /* Name */;
 
@@ -70,7 +70,7 @@ VALUES (35133,   1,   33557003) /* Setup */
      , (35133,   7,  268436618) /* ClothingBase */
      , (35133,   8,  100667447) /* Icon */
      , (35133,  22,  872415262) /* PhysicsEffectTable */
-     , (35133,  32,        436) /* WieldedTreasureType - 
+     , (35133,  32,        436) /* WieldedTreasureType -
                                    Wield Rock (24885) | Probability: 100%
                                    Wield Lugian Axe (24884) | Probability: 50%
                                    Wield Lugian Mace (24886) | Probability: 50% */
@@ -109,7 +109,7 @@ VALUES (35133,  0,  4,  2,  0.1,  450,  400,  317,  400,  400,  413,  400,  317,
      , (35133,  6,  4,  2,  0.1,  450,  400,  400,  400,  413,  413,  400,  317,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (35133,  7,  4, 25,  0.1,  450,  400,  400,  400,  413,  413,  400,  317,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (35133,  8,  4, 100,  0.1,  450,  400,  317,  400,  400,  413,  400,  317,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-     
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35133, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -142,9 +142,17 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'A magic light show? You should probably run now mage.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (35133,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'ColoWaveSpawn1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35133, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (35133, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (35133, 9, 34276,  0, 0, 0.05, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */
      , (35133, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
-     
+
