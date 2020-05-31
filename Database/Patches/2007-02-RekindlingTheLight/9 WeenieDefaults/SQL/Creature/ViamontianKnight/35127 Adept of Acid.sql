@@ -24,7 +24,8 @@ VALUES (35127,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35127,   1, True ) /* Stuck */
-     , (35127,   6, False) /* AiUsesMana */;
+     , (35127,   6, False) /* AiUsesMana */
+     , (35127,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35127,   1,       5) /* HeartbeatInterval */
