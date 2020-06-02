@@ -56,8 +56,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x700AF093, 0x700AF094, '2019-02-10 00:00:00') /* Garbage Barrel */
      , (0x700AF093, 0x700AF095, '2019-02-10 00:00:00') /* Garbage Barrel */
      , (0x700AF093, 0x700AF096, '2019-02-10 00:00:00') /* Colosseum Arena */
-     , (0x700AF093, 0x700AF097, '2019-02-10 00:00:00') /* Advanced Colosseum Arena */
-     , (0x700AF093, 0x700AF098, '2019-02-10 00:00:00') /* Thunder Chicken */;
+     , (0x700AF093, 0x700AF097, '2019-02-10 00:00:00') /* Advanced Colosseum Arena */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF094, 34726, 0x00AF0118, 37, -13.0434, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Garbage Barrel */
@@ -74,10 +73,6 @@ VALUES (0x700AF096, 34727, 0x00AF010F, 30.8082, 4.51301, 0, 1, 0, 0, 0,  True, '
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF097, 34728, 0x00AF0138, 49.1829, 4.27901, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Advanced Colosseum Arena */
 /* @teleloc 0x00AF0138 [49.182900 4.279010 0.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AF098, 35191, 0x00AF0169, 303.1848, -51.06689, -0.03200006, 0.08818281, 0, 0, -0.9961043,  True, '2019-02-10 00:00:00'); /* Thunder Chicken */
-/* @teleloc 0x00AF0169 [303.184800 -51.066890 -0.032000] 0.088183 0.000000 0.000000 -0.996104 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF112,  1154, 0x00AF0117, 40, 0, 0.00750005, 0, 0, 0, -1,  False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
