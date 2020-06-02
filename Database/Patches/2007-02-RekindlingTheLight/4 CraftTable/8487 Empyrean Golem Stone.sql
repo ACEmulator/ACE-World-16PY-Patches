@@ -7,4 +7,4 @@ DELETE FROM `cook_book` WHERE `recipe_Id` = 8487;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
 VALUES (8487, 34911 /* Stone of Alb'arel */,  34944 /* Empyrean Sun and Moon Stone */, '2020-06-01 10:00:00')
-     , (8487, 34912 /* Stone of Rez'arel */,  71080 /* Empyrean Moon and Sun Stone */, '2020-06-01 10:00:00');
+     , (8487, 34912 /* Stone of Rez'arel */,  71080 /* Empyrean Sun and Moon Stone */, '2020-06-01 10:00:00');
