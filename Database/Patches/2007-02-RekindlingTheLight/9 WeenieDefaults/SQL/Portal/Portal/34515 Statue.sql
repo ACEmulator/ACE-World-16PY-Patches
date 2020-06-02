@@ -8,7 +8,7 @@ VALUES (34515,   1,      65536) /* ItemType - Portal */
      , (34515,  16,         32) /* ItemUseable - Remote */
      , (34515,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (34515,  95,          8) /* RadarBlipColor - Yellow */
-     , (34515, 111,         49) /* PortalBitmask - NotPassable, Unrestricted, NoSummon, NoRecall */
+     , (34515, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (34515, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -24,7 +24,6 @@ VALUES (34515,  39,       2) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34515,   1, 'Statue') /* Name */
      , (34515,  14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* Use */
-     , (34515,  38, 'Statue') /* AppraisalPortalDestination */
      , (34515,  37, 'ArbitratorEggGivenComplete') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -37,4 +36,3 @@ VALUES (34515,   1,   33558422) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34515, 2, 0x00AF0166, 290, -53, 0, 1, 0, 0, 0) /* Destination */
 /* @teleloc  0x00AF0166 [290 -53 0] 1.000000 0.000000 0.000000 0.000000 */;
-

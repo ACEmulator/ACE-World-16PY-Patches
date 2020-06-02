@@ -15,8 +15,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34511,   1, True ) /* Stuck */
      , (34511,  11, True ) /* IgnoreCollisions */
      , (34511,  14, True ) /* GravityStatus */
-     , (34511,  19, True ) /* Attackable */
-     , (34511,  88, True ) /* PortalShowDestination */;
+     , (34511,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34511,  39,       2) /* DefaultScale */;

@@ -15,8 +15,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34513,   1, True ) /* Stuck */
      , (34513,  11, True ) /* IgnoreCollisions */
      , (34513,  14, True ) /* GravityStatus */
-     , (34513,  19, True ) /* Attackable */
-     , (34513,  88, True ) /* PortalShowDestination */;
+     , (34513,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34513,  39, 0.9) /* DefaultScale */;
@@ -24,8 +23,7 @@ VALUES (34513,  39, 0.9) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34513,   1, 'Demon Swarm Matron') /* Name */
      , (34513,  14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* Use */
-     , (34513,  37, 'AccessBoss8') /* QuestRestriction */
-     , (34513,  38, 'Demon Swarm Matron') /* AppraisalPortalDestination */;
+     , (34513,  37, 'AccessBoss8') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34513,   1,   33557165) /* Setup */
@@ -37,5 +35,3 @@ VALUES (34513,   1,   33557165) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34513, 2, 11927849, 220, -193, -11.995, 1, 0, 0, 0) /* Destination */
 /* @teleloc 0x00B60129 [220.000000 -193.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */;
-
-

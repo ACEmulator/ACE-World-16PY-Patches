@@ -15,8 +15,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34510,   1, True ) /* Stuck */
      , (34510,  11, True ) /* IgnoreCollisions */
      , (34510,  14, True ) /* GravityStatus */
-     , (34510,  19, True ) /* Attackable */
-     , (34510,  88, True ) /* PortalShowDestination */;
+     , (34510,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34510,  39, 1.4) /* DefaultScale */;
@@ -24,8 +23,7 @@ VALUES (34510,  39, 1.4) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34510,   1, 'Stone Fists') /* Name */
      , (34510,  14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* Use */
-     , (34510,  37, 'AccessBoss3') /* QuestRestriction */
-     , (34510,  38, 'Stone Fists') /* AppraisalPortalDestination */;
+     , (34510,  37, 'AccessBoss3') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34510,   1,   33556426) /* Setup */

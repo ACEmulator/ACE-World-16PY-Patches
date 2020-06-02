@@ -15,15 +15,13 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34535,   1, True ) /* Stuck */
      , (34535,  11, True ) /* IgnoreCollisions */
      , (34535,  14, True ) /* GravityStatus */
-     , (34535,  19, True ) /* Attackable */
-     , (34535,  88, True ) /* PortalShowDestination */;
+     , (34535,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34535,  54, 0.300000011920929) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34535,   1, 'Locked Door') /* Name */
-     , (34535,  38, 'Locked Door') /* AppraisalPortalDestination */
      , (34535,  37, 'ArbitratorEggGivenComplete') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

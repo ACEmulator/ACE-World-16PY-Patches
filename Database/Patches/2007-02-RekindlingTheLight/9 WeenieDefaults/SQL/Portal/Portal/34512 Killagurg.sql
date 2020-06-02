@@ -24,8 +24,7 @@ VALUES (34512,  39,       2) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34512,   1, 'Killagurg') /* Name */
      , (34512,  14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* Use */
-     , (34512,  37, 'AccessBoss7') /* QuestRestriction */
-     , (34512,  38, 'Killagurg') /* AppraisalPortalDestination */;
+     , (34512,  37, 'AccessBoss7') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34512,   1,   33557327) /* Setup */
@@ -36,6 +35,4 @@ VALUES (34512,   1,   33557327) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34512, 2, 0x00B6010E, 30, -192.812, -12, -1.000000, 0, 0,  -0.000276) /* Destination */
-/* @teleloc  0x00B6010E [30.087885 -192.812057 -11.993999] -1.000000 0.000000 0.000000 -0.000276 */;
-
-
+/* @teleloc 0x00B6010E [30.087885 -192.812057 -11.993999] -1.000000 0.000000 0.000000 -0.000276 */;
