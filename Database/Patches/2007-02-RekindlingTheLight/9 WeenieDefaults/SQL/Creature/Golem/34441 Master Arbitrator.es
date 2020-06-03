@@ -177,7 +177,13 @@ GotoSet: PlayerRoomCompletions
 			- DirectBroadcast: You have won four Colosseum Coins!
 			- Give: Colosseum Coin (36518), 4
 			- LocalBroadcast: Let it be known that %tn is a Colosseum Champion!
-			- Goto: ErasePlayerQuestFlags
+			- StampQuest: CompletedColosseum
+			- InqQuestSolves: CompletedColosseum, 10 - 10
+				QuestSuccess:
+					- StampQuest: AccessBoss10x
+					- Goto: ErasePlayerQuestFlags
+				QuestFailure:
+					- Goto: ErasePlayerQuestFlags
 		QuestFailure:
 			- InqQuest: ColoR17Completed
 				QuestSuccess:
