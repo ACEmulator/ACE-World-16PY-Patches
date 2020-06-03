@@ -24,7 +24,8 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34620,   1, True ) /* Stuck */
      , (34620,  11, False) /* IgnoreCollisions */
      , (34620,  12, True ) /* ReportCollisions */
-     , (34620,  13, False) /* Ethereal */;
+     , (34620,  13, False) /* Ethereal */
+     , (34620,  29, True ) /* NoCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34620,   1,       5) /* HeartbeatInterval */
@@ -70,8 +71,7 @@ VALUES (34620,   1,   33555199) /* Setup */
      , (34620,   6,   67111302) /* PaletteBase */
      , (34620,   7,  268435726) /* ClothingBase */
      , (34620,   8,  100669117) /* Icon */
-     , (34620,  22,  872415257) /* PhysicsEffectTable */
-     , (34620,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
+     , (34620,  22,  872415257) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34620,   1, 900, 0, 0) /* Strength */
