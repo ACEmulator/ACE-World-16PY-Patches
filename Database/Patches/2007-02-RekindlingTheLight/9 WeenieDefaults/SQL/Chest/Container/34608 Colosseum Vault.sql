@@ -49,5 +49,5 @@ VALUES (34608,   -1,  1001, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /*
      , (34608, 0.40, 34705, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Green Empyrean Ring (34705) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (34608, 0.60, 34706, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Red Empyrean Ring (34706) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (34608, 0.80, 34707, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate White Empyrean Ring (34707) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (34608,    1, 34708, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Yellow Empyrean Ring (34708) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (34608,    1, 34708, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Yellow Empyrean Ring (34708) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
 

@@ -14,7 +14,7 @@ VALUES (35164,   1,         16) /* ItemType - Creature */
      , (35164,  27,          0) /* ArmorType - None */
      , (35164,  68,          3) /* TargetingTactic - Random, Focused */
      , (35164,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35164, 133,          2) /* ShowableOnRadar - ShowMovement */;
+     , (35164, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (35164, 140,          1) /* AiOptions - CanOpenDoors */
      , (35164, 146,    4000000) /* XpOverride */;
 

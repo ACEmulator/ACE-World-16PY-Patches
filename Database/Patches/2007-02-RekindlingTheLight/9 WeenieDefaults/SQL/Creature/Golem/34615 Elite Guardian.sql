@@ -108,7 +108,7 @@ VALUES (34615,  0,  4,  0,    0,  650,  720,  720,  720,  560,  480,  430,  600,
      , (34615,  8,  4,  2, 0.75,  650,  720,  720,  720,  560,  480,  430,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34615, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+VALUES (34615, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (34615, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

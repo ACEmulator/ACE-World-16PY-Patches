@@ -69,7 +69,7 @@ VALUES (35153,   1,   33559104) /* Setup */
      , (35153,   6,   67115447) /* PaletteBase */
      , (35153,   7,  268436946) /* ClothingBase */
      , (35153,   8,  100677373) /* Icon */
-     , (35153,  22,  872415364) /* PhysicsEffectTable */;
+     , (35153,  22,  872415364) /* PhysicsEffectTable */
      , (35153,  32,        488) /* WieldedTreasureType -
                                    Wield Stone Mace (29997) | Probability: 20%
                                    Wield Bone Dagger (30002) | Probability: 20%
