@@ -137,8 +137,3 @@ VALUES (2075783204, 34726, 3147759892, 134.189, 113.163, 63.655, 0.92388, 0, 0, 
 REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2075783205, 34726, 3147759895, 158.619, 110.607, 70.0618, 0.92388, 0, 0, -0.382683, False, '2019-02-09 06:17:23'); /* Garbage Barrel */
 /* @teleloc 0xBB9F0117 [158.619000 110.607000 70.061800] 0.923880 0.000000 0.000000 -0.382683 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9F028, 34726, 0xBB9F0114, 134.209, 102.86, 63.71, 0.92388, 0, 0, -0.382683, False, '2020-05-17 02:17:07'); /* Garbage Barrel */
-/* @teleloc 0xBB9F0114 [134.209000 102.860001 63.709999] 0.923880 0.000000 0.000000 -0.382683 */
-
