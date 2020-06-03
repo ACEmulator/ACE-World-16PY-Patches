@@ -5,8 +5,8 @@ VALUES (35869, 'ace35869-gladiatordiemos', 10, '2019-02-10 00:00:00') /* Creatur
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35869,   1,         16) /* ItemType - Creature */
-     , (35869,   6,        255) /* ItemsCapacity */
-     , (35869,   7,        255) /* ContainersCapacity */
+     , (35869,   6,         -1) /* ItemsCapacity */
+     , (35869,   7,         -1) /* ContainersCapacity */
      , (35869,  16,         32) /* ItemUseable - Remote */
      , (35869,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (35869,  95,          8) /* RadarBlipColor - Yellow */
@@ -19,11 +19,14 @@ VALUES (35869,   1, True ) /* Stuck */
      , (35869,  13, False) /* Ethereal */
      , (35869,  14, True ) /* GravityStatus */
      , (35869,  19, False) /* Attackable */
-     , (35869,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (35869,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (35869,  52, True ) /* AiImmobile */
+     , (35869,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (35869,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35869,  39, 1.60000002384186) /* DefaultScale */
-     , (35869,  54, 0.100000001490116) /* UseRadius */;
+VALUES (35869,  39,     1.6) /* DefaultScale */
+     , (35869,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35869,   1, 'Gladiator Diemos') /* Name */
