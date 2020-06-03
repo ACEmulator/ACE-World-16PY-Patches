@@ -5,7 +5,7 @@ VALUES (35505, 'ace35505-guardianstatue', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35505,   1,         16) /* ItemType - Creature */
-     , (35505,   2,         71) /* CreatureType - Margul */
+     , (35505,   2,         63) /* CreatureType - Statue */
      , (35505,   3,         21) /* PaletteTemplate - Gold */
      , (35505,   6,         -1) /* ItemsCapacity */
      , (35505,   7,         -1) /* ContainersCapacity */
@@ -78,7 +78,7 @@ VALUES (35505,   1,   33558554) /* Setup */
      , (35505,  22,  872415401) /* PhysicsEffectTable */
      , (35505,  30,         85) /* PhysicsScript - BreatheFrost */
      , (35505,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
-     
+
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35505,   1, 420, 0, 0) /* Strength */
      , (35505,   2, 500, 0, 0) /* Endurance */

@@ -5,7 +5,7 @@ VALUES (35506, 'ace35506-guardianstatue', 10, '2020-06-02 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35506,   1,         16) /* ItemType - Creature */
-     , (35506,   2,         71) /* CreatureType - Margul */
+     , (35506,   2,         63) /* CreatureType - Statue */
      , (35506,   3,         21) /* PaletteTemplate - Gold */
      , (35506,   6,         -1) /* ItemsCapacity */
      , (35506,   7,         -1) /* ContainersCapacity */
