@@ -23,7 +23,8 @@ VALUES (34608,   1, True ) /* Stuck */
      , (34608,   3, True ) /* Locked */
      , (34608,  33, False) /* ResetMessagePending */
      , (34608,  34, False) /* DefaultOpen */
-     , (34608,  35, True ) /* DefaultLocked */;
+     , (34608,  35, True ) /* DefaultLocked */
+     , (34608,  86, True ) /* ChestRegenOnClose */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34608,  11,      30) /* ResetInterval */
@@ -44,7 +45,7 @@ VALUES (34608,   1,   33560226) /* Setup */
      , (34608,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34608,   -1,  1001, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 7 from Death Treasure Table id: 1001 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
+VALUES (34608,   -1,  1005, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 7 from Death Treasure Table id: 1005 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
      , (34608, 0.20, 34704, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blue Empyrean Ring (34704) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (34608, 0.40, 34705, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Green Empyrean Ring (34705) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (34608, 0.60, 34706, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Red Empyrean Ring (34706) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
