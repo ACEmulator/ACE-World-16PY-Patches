@@ -20,8 +20,8 @@ VALUES (34622,   1,         16) /* ItemType - Creature */
      , (34622,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (34622, 103,          3) /* GeneratorDestructionType - Kill */
      , (34622, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (34622, 145,          2) /* GeneratorEndDestructionType - Destroy */     
-     , (34622, 146,      80000) /* XpOverride */;  
+     , (34622, 145,          2) /* GeneratorEndDestructionType - Destroy */
+     , (34622, 146,      80000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34622,   1, True ) /* Stuck */;
@@ -61,7 +61,7 @@ VALUES (34622,   1,       5) /* HeartbeatInterval */
      , (34622,  77,       1) /* PhysicsScriptIntensity */
      , (34622, 104,      10) /* ObviousRadarRange */
      , (34622, 117,     0.6) /* FocusedProbability */
-     , (34622, 125,     0.5) /* ResistHealthDrain */;  
+     , (34622, 125,     0.5) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34622,   1, 'Demon Swarm Matron') /* Name */;
@@ -76,7 +76,7 @@ VALUES (34622,   1,   33557165) /* Setup */
      , (34622,   8,  100667623) /* Icon */
      , (34622,  22,  872415379) /* PhysicsEffectTable */
      , (34622,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (34622,  35,        146) /* DeathTreasureType - Loot Tier: 5 */;
+     , (34622,  35,        409) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34622,   1, 380, 0, 0) /* Strength */
@@ -99,7 +99,7 @@ VALUES (34622,  6, 0, 3, 0, 298, 0, 0) /* MeleeDefense        Specialized */
      , (34622, 20, 0, 2, 0, 500, 0, 0) /* Deception           Trained */
      , (34622, 22, 0, 2, 0, 200, 0, 0) /* Jump                Trained */
      , (34622, 24, 0, 2, 0,  50, 0, 0) /* Run                 Trained */;
-     
+
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (34622,  0,  2, 80, 0.75,  400,  440,  320,  320,  400,  440,  440,  400,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
      , (34622, 16,  4,  5,    0,  400,  440,  320,  320,  400,  440,  440,  400,    0, 2, 0.45,  0.2, 0.35, 0.45,  0.2, 0.35, 0.45,  0.2, 0.35, 0.45,  0.2, 0.35) /* Torso */
@@ -108,7 +108,7 @@ VALUES (34622,  0,  2, 80, 0.75,  400,  440,  320,  320,  400,  440,  440,  400,
      , (34622, 19,  1, 80,    0,  400,  440,  320,  320,  400,  440,  440,  400,    0, 3,    0,  0.2, 0.35,    0,  0.2, 0.35,    0,  0.2, 0.35,    0,  0.2, 0.35) /* Leg */
      , (34622, 20,  1, 80, 0.75,  400,  440,  320,  320,  400,  440,  440,  400,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Claw */
      , (34622, 22, 32, 70,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
-     
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34622, 9, 34451,  0, 0, 1, False) /* Create Demon Swarm Matron Token (34451) for ContainTreasure */
      , (34622, 9, 34451,  0, 0, 1, False) /* Create Demon Swarm Matron Token (34451) for ContainTreasure */
@@ -120,7 +120,7 @@ VALUES (34622, 9, 34451,  0, 0, 1, False) /* Create Demon Swarm Matron Token (34
      , (34622, 9, 34451,  0, 0, 1, False) /* Create Demon Swarm Matron Token (34451) for ContainTreasure */
      , (34622, 9, 34451,  0, 0, 1, False) /* Create Demon Swarm Matron Token (34451) for ContainTreasure */
      , (34622, 9, 34451,  0, 0, 1, False) /* Create Demon Swarm Matron Token (34451) for ContainTreasure */;
-     
+
  INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (34622,  5 /* HeartBeat */,   0.15, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
@@ -167,9 +167,8 @@ VALUES (34622, -1, 35662, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Ge
      , (34622, -1, 35662, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Demon Swarm Clawbearer (35662) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
 
 
-     
-     
-     
-     
-     
-     
+
+
+
+
+

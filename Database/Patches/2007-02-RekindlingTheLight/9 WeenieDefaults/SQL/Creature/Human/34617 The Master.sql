@@ -21,7 +21,7 @@ VALUES (34617,   1,         16) /* ItemType - Creature */
      , (34617, 113,          1) /* Gender - Male */
      , (34617, 103,          3) /* GeneratorDestructionType - Kill */
      , (34617, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (34617, 145,          2) /* GeneratorEndDestructionType - Destroy */     
+     , (34617, 145,          2) /* GeneratorEndDestructionType - Destroy */
      , (34617, 146,     500000) /* XpOverride */
      , (34617, 188,          3) /* HeritageGroup - Sho */;
 
@@ -74,7 +74,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34617,   1, 'The Master') /* Name */
      , (34617,   3, 'Male') /* Sex */
      , (34617,   4, 'Sho') /* HeritageGroup */;
-     
+
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34617,   1,   33554433) /* Setup */
      , (34617,   2,  150994945) /* MotionTable */
@@ -84,7 +84,7 @@ VALUES (34617,   1,   33554433) /* Setup */
      , (34617,   7,   268437191) /* ClothingBase */
      , (34617,   8,  100667446) /* Icon */
      , (34617,  22,  872415236) /* PhysicsEffectTable */
-     , (34617,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
+     , (34617,  35,        361) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34617,   1, 490, 0, 0) /* Strength */
@@ -98,7 +98,7 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (34617,   1, 499500, 0, 0, 500000) /* MaxHealth */
      , (34617,   3,  9000, 0, 0, 10000) /* MaxStamina */
      , (34617,   5,     0, 0, 0, 500) /* MaxMana */;
-     
+
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (34617,  6, 0, 3, 0, 325, 0, 0) /* MeleeDefense        Specialized */
      , (34617,  7, 0, 3, 0, 340, 0, 0) /* MissileDefense      Specialized */
@@ -119,12 +119,12 @@ VALUES (34617,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,
      , (34617,  6,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (34617,  7,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (34617,  8,  4,  8, 0.75,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-     
+
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34617,  4101,  2.115)  /* Champion's Skullduggery */
      , (34617,  4102,  2.115)  /* Champion's Clever Ruse */
      , (34617,  97,  2.115)  /* Whirling Blade VI */;
-     
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34617, 2, 35873,  1, 0, 0, False) /* Create Ghost Blade (35873) for Wield */
      , (34617, 9, 35871,  0, 0, 1, False) /* Create The Master Token (35871) for ContainTreasure */
@@ -136,7 +136,7 @@ VALUES (34617, 2, 35873,  1, 0, 0, False) /* Create Ghost Blade (35873) for Wiel
      , (34617, 9, 35871,  0, 0, 1, False) /* Create The Master Token (35871) for ContainTreasure */
      , (34617, 9, 35871,  0, 0, 1, False) /* Create The Master Token (35871) for ContainTreasure */
      , (34617, 9, 35871,  0, 0, 1, False) /* Create The Master Token (35871) for ContainTreasure */
-     , (34617, 9, 35871,  0, 0, 1, False) /* Create The Master Token (35871) for ContainTreasure */;    
+     , (34617, 9, 35871,  0, 0, 1, False) /* Create The Master Token (35871) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (34617,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

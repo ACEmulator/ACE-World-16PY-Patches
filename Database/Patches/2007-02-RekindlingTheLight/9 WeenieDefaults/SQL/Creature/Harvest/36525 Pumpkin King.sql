@@ -18,7 +18,7 @@ VALUES (36525,   1,         16) /* ItemType - Creature */
      , (36525,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36525, 103,          1) /* GeneratorDestructionType - Nothing */
      , (36525, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36525, 145,          1) /* GeneratorEndDestructionType - Nothing */  
+     , (36525, 145,          1) /* GeneratorEndDestructionType - Nothing */
      , (36525, 146,  100000000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -37,26 +37,26 @@ VALUES (36525,   1,       5) /* HeartbeatInterval */
      , (36525,   3,    0.35) /* HealthRate */
      , (36525,   4,       5) /* StaminaRate */
      , (36525,   5,       2) /* ManaRate */
-     , (36525,  13,     1.3) /* ArmorModVsSlash */
-     , (36525,  14,     1.7) /* ArmorModVsPierce */
+     , (36525,  13,     0.5) /* ArmorModVsSlash */
+     , (36525,  14,     0.9) /* ArmorModVsPierce */
      , (36525,  15,     1.2) /* ArmorModVsBludgeon */
-     , (36525,  16,     0.4) /* ArmorModVsCold */
+     , (36525,  16,     1.0) /* ArmorModVsCold */
      , (36525,  17,     1.6) /* ArmorModVsFire */
-     , (36525,  18,     0.6) /* ArmorModVsAcid */
+     , (36525,  18,     1.0) /* ArmorModVsAcid */
      , (36525,  19,     1.6) /* ArmorModVsElectric */
-     , (36525,  31,      20) /* VisualAwarenessRange */
+     , (36525,  31,      22) /* VisualAwarenessRange */
      , (36525,  34,     2.5) /* PowerupTime */
      , (36525,  36,       1) /* ChargeSpeed */
      , (36525,  39,     1.1) /* DefaultScale */
      , (36525,  41,      30) /* RegenerationInterval */
      , (36525,  43,      12) /* GeneratorRadius */
-     , (36525,  64,     0.5) /* ResistSlash */
-     , (36525,  65,     0.9) /* ResistPierce */
-     , (36525,  66,       1) /* ResistBludgeon */
+     , (36525,  64,     0.9) /* ResistSlash */
+     , (36525,  65,     0.7) /* ResistPierce */
+     , (36525,  66,     0.6) /* ResistBludgeon */
      , (36525,  67,     0.4) /* ResistFire */
      , (36525,  68,     0.1) /* ResistCold */
      , (36525,  69,     0.3) /* ResistAcid */
-     , (36525,  70,     0.4) /* ResistElectric */
+     , (36525,  70,     0.3) /* ResistElectric */
      , (36525,  71,       1) /* ResistHealthBoost */
      , (36525,  72,       1) /* ResistStaminaDrain */
      , (36525,  73,       1) /* ResistStaminaBoost */
@@ -75,7 +75,8 @@ VALUES (36525,   1,   33559753) /* Setup */
      , (36525,   3,  536871065) /* SoundTable */
      , (36525,   4,  805306376) /* CombatTable */
      , (36525,   8,  100688453) /* Icon */
-     , (36525,  22,  872415326) /* PhysicsEffectTable */;
+     , (36525,  22,  872415326) /* PhysicsEffectTable */
+     , (36525,  35,        361) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36525, 8040, 11469166, 380, -40, 0.117, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
@@ -108,20 +109,19 @@ VALUES (36525,  6, 0, 3, 0, 350, 0, 0) /* MeleeDefense        Specialized */
      , (36525, 45, 0, 3, 0, 400, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (36525,  0,  4,  0,    0,  100,  131,  174,  120,   44,  163,   58,  163,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (36525,  1,  4,  0,    0,  100,  131,  174,  120,   44,  163,   58,  163,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (36525,  2,  4,  0,    0,  100,  131,  174,  120,   44,  163,   58,  163,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (36525,  3,  4,  0,    0,  100,  131,  174,  120,   44,  163,   58,  163,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (36525,  4,  4,  0,    0,  100,  131,  174,  120,   44,  163,   58,  163,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (36525,  5,  4, 450, 0.75,  100,  131,  174,  120,   44,  163,   58,  163,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (36525,  6,  4,  0,    0,  100,  131,  174,  120,   44,  163,   58,  163,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (36525,  7,  4,  0,    0,  100,  131,  174,  120,   44,  163,   58,  163,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (36525,  8,  4, 450, 0.75,  100,  131,  174,  120,   44,  163,   58,  163,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (36525,  0,  4,  0,    0,  900,  131,  174,  120,   44,  163,   58,  163,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (36525,  1,  4,  0,    0,  900,  131,  174,  120,   44,  163,   58,  163,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (36525,  2,  4,  0,    0,  900,  131,  174,  120,   44,  163,   58,  163,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (36525,  3,  4,  0,    0,  900,  131,  174,  120,   44,  163,   58,  163,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (36525,  4,  4,  0,    0,  900,  131,  174,  120,   44,  163,   58,  163,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (36525,  5,  4, 450, 0.75, 900,  131,  174,  120,   44,  163,   58,  163,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (36525,  6,  4,  0,    0,  900,  131,  174,  120,   44,  163,   58,  163,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (36525,  7,  4,  0,    0,  900,  131,  174,  120,   44,  163,   58,  163,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (36525,  8,  4, 450, 0.75, 900,  131,  174,  120,   44,  163,   58,  163,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36525,    66,   2.06)  /* Shock Wave III */
-     , (36525,    94,   2.06)  /* Whirling Blade III */
-     , (36525,   103,  2.013)  /* Shock Blast III */;
+VALUES (36525,   4425,   2.06)  /* Incantation of Frost Arc */
+     , (36525,   4455,  2.013)  /* Incantation of Shock Wave */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36525, 9, 36528,  0, 0, 1, False) /* Create Pumpkin King Token (36528) for ContainTreasure */
@@ -154,11 +154,11 @@ VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'PumpkinKingIsDead', 
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36525, -1, 36527, 0, 4, 4, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pumpkin Vine (36527) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (36525, -1, 32203, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pumpkin Kin (32203) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (36525, -1, 32203, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pumpkin Kin (32203) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (36525, -1, 32203, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pumpkin Kin (32203) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (36525, -1, 32203, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pumpkin Kin (32203) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (36525, -1, 32203, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pumpkin Kin (32203) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (36525, -1, 32203, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pumpkin Kin (32203) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (36525, -1, 32203, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pumpkin Kin (32203) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+     , (36525, -1, 36526, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pumpkin Kin (36526) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (36525, -1, 36526, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pumpkin Kin (36526) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (36525, -1, 36526, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pumpkin Kin (36526) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (36525, -1, 36526, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pumpkin Kin (36526) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (36525, -1, 36526, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pumpkin Kin (36526) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (36525, -1, 36526, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pumpkin Kin (36526) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (36525, -1, 36526, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pumpkin Kin (36526) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
 
