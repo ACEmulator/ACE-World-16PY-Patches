@@ -4,8 +4,8 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (70300, 'coloarenaonebellgen', 1, '2020-05-23 10:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (70300,  81,         36) /* MaxGeneratedObjects */
-     , (70300,  82,         36) /* InitGeneratedObjects */
+VALUES (70300,  81,         19) /* MaxGeneratedObjects */
+     , (70300,  82,         19) /* InitGeneratedObjects */
      , (70300,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70300, 103,          2) /* GeneratorDestructionType - Destroy */
      , (70300, 142,          3) /* GeneratorTimeType - Event */
@@ -46,21 +46,4 @@ VALUES (70300, -1, 34604, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Ge
      , (70300, -1, 34715, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1350, 0, 1, 0, 0, 0) /* Generate Arena Bell (34715) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (70300, -1, 34716, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1440, 0, 1, 0, 0, 0) /* Generate Arena Bell (34716) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (70300, -1, 34717, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1530, 0, 1, 0, 0, 0) /* Generate Arena Bell (34717) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 90, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 180, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 270, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 360, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 450, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 540, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 630, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 720, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 810, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 900, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 990, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1080, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1170, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1260, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1350, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70701, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1440, 0.1, 1, 0, 0, 0) /* Generate Colo Room Coordinator (70701) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (70300, -1, 70702, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1530, 0.1, 1, 0, 0, 0) /* Generate Colo Final Room Coordinator (70702) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (70300, -1, 80000, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Landblock KeepAlive (80000) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
