@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70532;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70532, 'coloA1R4exitgen', 1, '2020-05-20 10:00:00') /* Generic */;
+VALUES (70532, 'coloR4exitgen', 1, '2020-05-20 10:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70532,  81,          1) /* MaxGeneratedObjects */
      , (70532,  82,          1) /* InitGeneratedObjects */
      , (70532,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70532, 103,          2) /* GeneratorDestructionType - Destroy */
-     , (70532, 142,          3) /* GeneratorTimeType - Event */
      , (70532, 145,          2) /* GeneratorEndDestructionType - Destroy */
      , (70532, 290,          1) /* HearLocalSignals */
      , (70532, 291,         20) /* HearLocalSignalsRadius */;
@@ -19,12 +18,10 @@ VALUES (70532,   1, True ) /* Stuck */
      , (70532,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (70532,  41,        1) /* RegenerationInterval */
-     , (70532, 121,        5) /* GeneratorInitialDelay */;
+VALUES (70532,  41,        0) /* RegenerationInterval */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (70532,   1, 'Colo Arena 1 Room 4 Exit Portal Generator') /* Name */
-     , (70532,  34, 'ColoArenaOneR4Complete') /* GeneratorEvent */;
+VALUES (70532,   1, 'Colo Arena Room 4 Exit Portal Generator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70532,   1,   33555051) /* Setup */
@@ -36,7 +33,7 @@ VALUES (70532, 37 /* ReceiveLocalSignal */,      1, NULL, NULL, NULL, 'RevealPor
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  23 /* StartEvent */, 0, 1, NULL, 'ColoArenaOneR4Complete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 72 /* Generate */, 5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (70532, -1, 34520, 0, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Arena 5 (34520) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
