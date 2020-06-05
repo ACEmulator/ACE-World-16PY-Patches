@@ -15,7 +15,6 @@ VALUES (35130,   1,         16) /* ItemType - Creature */
      , (35130,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (35130,  72,         83) /* FriendType - ViamontianKnight */
      , (35130,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35130, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (35130, 113,          1) /* Gender - Male */
      , (35130, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (35130, 140,          1) /* AiOptions - CanOpenDoors */
@@ -54,7 +53,6 @@ VALUES (35130,   1,       5) /* HeartbeatInterval */
      , (35130,  73,       1) /* ResistStaminaBoost */
      , (35130,  74,       1) /* ResistManaDrain */
      , (35130,  75,       1) /* ResistManaBoost */
-     , (35130,  80,       4) /* AiUseMagicDelay */
      , (35130, 104,      12) /* ObviousRadarRange */
      , (35130, 125,       1) /* ResistHealthDrain */;
 
@@ -90,6 +88,7 @@ VALUES (35130, 45, 0, 3, 0, 290, 0, 0) /* LightWeapons        Specialized */
      , (35130,  7, 0, 3, 0, 300, 0, 0) /* MissileDefense      Specialized */
      , (35130, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
      , (35130, 20, 0, 2, 0,  30, 0, 0) /* Deception           Trained */
+     , (35130, 31, 0, 2, 0, 225, 0, 0) /* CreatureEnchantment Trained */
      , (35130, 33, 0, 3, 0, 235, 0, 0) /* LifeMagic           Specialized */
      , (35130, 34, 0, 3, 0, 235, 0, 0) /* WarMagic            Specialized */;
 
@@ -105,16 +104,16 @@ VALUES (35130,  0,  4,  0,    0,  544,  544,  544,  544,  544,  412,  544,  412,
      , (35130,  8,  4, 125,  0.4,  544,  544,  544,  544,  544,  412,  544,  412,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35130,   234,   2.02)  /* Vulnerability Other VI */
-     , (35130,   574,   2.02)  /* Creature Enchantment Ineptitude Other VI */
-     , (35130,   628,   2.02)  /* Life Magic Ineptitude Other VI */
-     , (35130,   652,   2.02)  /* War Magic Ineptitude Other VI */
-     , (35130,  1089,   2.02)  /* Lightning Vulnerability Other VI */
-     , (35130,  1327,   2.02)  /* Imperil Other VI */
-     , (35130,  2140,   2.02)  /* Alset's Coil */
-     , (35130,  2139,   2.02)  /* Luminous Wrath */
-     , (35130,  2141,   2.02)  /* Lhen's Flare */
-     , (35130,  2738,   2.02)  /* Lightning Arc VII */;
+VALUES (35130,   234,  2.02)  /* Vulnerability Other VI */
+     , (35130,   574,  2.47)  /* Creature Enchantment Ineptitude Other VI */
+     , (35130,   628,  2.02)  /* Life Magic Ineptitude Other VI */
+     , (35130,   652,  2.11)  /* War Magic Ineptitude Other VI */
+     , (35130,  1089,  2.02)  /* Lightning Vulnerability Other VI */
+     , (35130,  1327,   2.5)  /* Imperil Other VI */
+     , (35130,  2140,  2.02)  /* Alset's Coil */
+     , (35130,  2139, 2.071)  /* Luminous Wrath */
+     , (35130,  2141, 2.077)  /* Lhen's Flare */
+     , (35130,  2738,     3)  /* Lightning Arc VII */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35130, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
