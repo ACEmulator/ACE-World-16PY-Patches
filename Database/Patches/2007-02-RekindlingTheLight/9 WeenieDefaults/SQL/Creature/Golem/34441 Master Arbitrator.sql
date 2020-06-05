@@ -110,7 +110,7 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'You do not wish to keep this 
      , (@parent_id, 1, 75 /* InqYesNo */, 0, 1, NULL, 'InqYesNo', 'Exchange Empyrean Ring for up to 140 million experience and two Colosseum Coins?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (34441, 22 /* TestSuccess */, 1, NULL, NULL, NULL, 'OwnsItem-34704', NULL, NULL, NULL);
+VALUES (34441, 22 /* TestSuccess */, 1, NULL, NULL, NULL, 'InqYesNo', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -121,7 +121,7 @@ VALUES (@parent_id, 0, 74 /* TakeItems */, 0, 1, NULL, NULL, NULL, NULL, NULL, N
      , (@parent_id, 3, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 36518 /* Colosseum Coin */, 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (34441, 23 /* TestFailure */, 1, NULL, NULL, NULL, 'OwnsItem-34704', NULL, NULL, NULL);
+VALUES (34441, 23 /* TestFailure */, 1, NULL, NULL, NULL, 'InqYesNo', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -146,7 +146,7 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'You do not wish to keep this 
      , (@parent_id, 1, 75 /* InqYesNo */, 0, 1, NULL, 'InqYesNo_2', 'Exchange Empyrean Ring for up to 140 million experience and two Colosseum Coins?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (34441, 22 /* TestSuccess */, 1, NULL, NULL, NULL, 'OwnsItem-34705', NULL, NULL, NULL);
+VALUES (34441, 22 /* TestSuccess */, 1, NULL, NULL, NULL, 'InqYesNo_2', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -157,7 +157,7 @@ VALUES (@parent_id, 0, 74 /* TakeItems */, 0, 1, NULL, NULL, NULL, NULL, NULL, N
      , (@parent_id, 3, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 36518 /* Colosseum Coin */, 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (34441, 23 /* TestFailure */, 1, NULL, NULL, NULL, 'OwnsItem-34705', NULL, NULL, NULL);
+VALUES (34441, 23 /* TestFailure */, 1, NULL, NULL, NULL, 'InqYesNo_2', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
