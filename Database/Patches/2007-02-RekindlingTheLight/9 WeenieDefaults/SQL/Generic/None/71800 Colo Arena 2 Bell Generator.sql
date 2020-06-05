@@ -46,4 +46,4 @@ VALUES (71800, -1, 34604, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Ge
      , (71800, -1, 34715, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1350, 0, 1, 0, 0, 0) /* Generate Arena Bell (34715) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (71800, -1, 34716, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1440, 0, 1, 0, 0, 0) /* Generate Arena Bell (34716) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (71800, -1, 34717, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1530, 0, 1, 0, 0, 0) /* Generate Arena Bell (34717) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (71800, -1, 80000, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Landblock KeepAlive (80000) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (71800, -1, 80007, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Landblock KeepAlive (80007) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
