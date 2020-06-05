@@ -19,7 +19,7 @@ VALUES (34607,   1,         16) /* ItemType - Creature */
      , (34607, 145,          2) /* GeneratorEndDestructionType - Destroy */
      , (34607, 146,    1000000) /* XpOverride */
      , (34607, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (34607, 307,          5) /* DamageRating */;     
+     , (34607, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34607,   1, True ) /* Stuck */;
@@ -69,7 +69,7 @@ VALUES (34607,   1,   33556426) /* Setup */
      , (34607,   4,  805306376) /* CombatTable */
      , (34607,   8,  100667940) /* Icon */
      , (34607,  22,  872415328) /* PhysicsEffectTable */
-     , (34607,  35,         19) /* DeathTreasureType - Loot Tier: 4 */;
+     , (34607,  35,        395) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34607, 8040, 11927818, 30, -30, -11.881, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
@@ -87,7 +87,7 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (34607,   1,  4900, 0, 0, 5000) /* MaxHealth */
      , (34607,   3,   100, 0, 0, 300) /* MaxStamina */
      , (34607,   5,   150, 0, 0, 210) /* MaxMana */;
-     
+
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (34607, 45, 0, 3, 0, 430, 0, 0) /* LightWeapons        Specialized */
      , (34607, 47, 0, 3, 0, 430, 0, 0) /* MissileWeapons      Specialized */
@@ -108,8 +108,8 @@ VALUES (34607,  0,  4,  0,    0,  340,  420,  440,  440,  440,  355,  440,  440,
      , (34607,  5,  4, 60, 0.75,  340,  440,  440,  440,  440,  355,  440,  440,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (34607,  6,  4,  0,    0,  340,  420,  440,  440,  440,  355,  440,  440,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (34607,  7,  4,  0,    0,  340,  420,  440,  440,  440,  355,  440,  440,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (34607,  8,  4, 60, 0.75,  340,  420,  440,  440,  440,  355,  440,  440,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;     
-     
+     , (34607,  8,  4, 60, 0.75,  340,  420,  440,  440,  440,  355,  440,  440,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34607, 9, 34454,  0, 0, 1, False) /* Create Stone Fists Token (34454) for ContainTreasure */
      , (34607, 9, 34454,  0, 0, 1, False) /* Create Stone Fists Token (34454) for ContainTreasure */
@@ -121,7 +121,7 @@ VALUES (34607, 9, 34454,  0, 0, 1, False) /* Create Stone Fists Token (34454) fo
      , (34607, 9, 34454,  0, 0, 1, False) /* Create Stone Fists Token (34454) for ContainTreasure */
      , (34607, 9, 34454,  0, 0, 1, False) /* Create Stone Fists Token (34454) for ContainTreasure */
      , (34607, 9, 34454,  0, 0, 1, False) /* Create Stone Fists Token (34454) for ContainTreasure */;
-    
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (34607,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -147,4 +147,3 @@ VALUES (34607, -1, 00199, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Ge
      , (34607, -1, 00199, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Enthralled Idolator (00199) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (34607, -1, 14800, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Enthralled Zealot (14800) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (34607, -1, 00199, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Enthralled Idolator (00199) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
-     

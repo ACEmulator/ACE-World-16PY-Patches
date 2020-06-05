@@ -20,7 +20,7 @@ VALUES (34621,   1,         16) /* ItemType - Creature */
      , (34621, 146,    1000000) /* XpOverride */
      , (34621, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (34621, 307,          5) /* DamageRating */;
-     
+
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34621,   1, True ) /* Stuck */;
@@ -71,7 +71,7 @@ VALUES (34621,   1,   33554490) /* Setup */
      , (34621,   6,   67109310) /* PaletteBase */
      , (34621,   8,  100667449) /* Icon */
      , (34621,  22,  872415264) /* PhysicsEffectTable */
-     , (34621,  35,        420) /* DeathTreasureType - Loot Tier: 6 */;
+     , (34621,  35,        409) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34621,   1, 450, 0, 0) /* Strength */
@@ -85,7 +85,7 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (34621,   1, 99825, 0, 0, 100000) /* MaxHealth */
      , (34621,   3,    60, 0, 0, 410) /* MaxStamina */
      , (34621,   5,     0, 0, 0, 400) /* MaxMana */;
-     
+
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (34621, 45, 0, 3, 0, 430, 0, 0) /* LightWeapons        Specialized */
      , (34621, 47, 0, 3, 0, 430, 0, 0) /* MissileWeapons      Specialized */
@@ -154,5 +154,5 @@ VALUES (34621, -1, 27421, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Ge
      , (34621, -1, 27421, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Enthralled Idolator (27421) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (34621, -1, 27423, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Enthralled Zealot (27423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (34621, -1, 27421, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Enthralled Idolator (27421) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
-     
+
 
