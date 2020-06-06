@@ -24,8 +24,8 @@ VALUES (36544,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36544,   1, 'The Master Pass') /* Name */
-     , (36543,  14, 'Hand this ticket to the statue of The Master to gain access to his Arena for 24 hours.') /* Use */
-     , (36543,  16, 'A pass that grants limited access to the Master''s Arena.') /* LongDesc */;
+     , (36544,  14, 'Hand this ticket to the statue of The Master to gain access to his Arena for 24 hours.') /* Use */
+     , (36544,  16, 'A pass that grants limited access to the Master''s Arena.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36544,   1,   33554773) /* Setup */
