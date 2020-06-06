@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32056;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32056, 'ace32056-archmagemoldurg', 12, '2019-06-08 00:00:00') /* Vendor */;
+VALUES (32056, 'ace32056-archmagemoldurg', 12, '2020-06-06 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32056,   1,         16) /* ItemType - Creature */
@@ -249,5 +249,4 @@ VALUES (32056, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop
      , (32056, 4,  5539, -1, 0, 0, False) /* Create Wand (5539) for Shop */
      , (32056, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (32056, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
-     , (32056, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
-     , (32056, 4,  2436, -1, 0, 0, False) /* Create Greater Mana Stone (2436) for Shop */;
+     , (32056, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
