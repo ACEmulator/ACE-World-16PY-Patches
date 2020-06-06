@@ -17,7 +17,7 @@ VALUES (34621,   1,         16) /* ItemType - Creature */
      , (34621, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (34621, 103,          3) /* GeneratorDestructionType - Kill */
      , (34621, 145,          2) /* GeneratorEndDestructionType - Destroy */
-     , (34621, 146,    1000000) /* XpOverride */
+     , (34621, 146,      50000) /* XpOverride */
      , (34621, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (34621, 307,          5) /* DamageRating */;
 
@@ -33,7 +33,7 @@ VALUES (34621,   1,       5) /* HeartbeatInterval */
      , (34621,   5,       2) /* ManaRate */
      , (34621,  12,       0) /* Shade */
      , (34621,  13,     1.3) /* ArmorModVsSlash */
-     , (34621,  14,     1.5) /* ArmorModVsPierce */
+     , (34621,  14,     0.7) /* ArmorModVsPierce */
      , (34621,  15,     1.4) /* ArmorModVsBludgeon */
      , (34621,  16,       1) /* ArmorModVsCold */
      , (34621,  17,     0.7) /* ArmorModVsFire */
@@ -46,12 +46,12 @@ VALUES (34621,   1,       5) /* HeartbeatInterval */
      , (34621,  41,       0) /* RegenerationInterval */
      , (34621,  43,      14) /* GeneratorRadius */
      , (34621,  64,     0.5) /* ResistSlash */
-     , (34621,  65,     0.8) /* ResistPierce */
+     , (34621,  65,     0.7) /* ResistPierce */
      , (34621,  66,     0.8) /* ResistBludgeon */
-     , (34621,  67,       1) /* ResistFire */
+     , (34621,  67,     0.9) /* ResistFire */
      , (34621,  68,     0.4) /* ResistCold */
-     , (34621,  69,     0.7) /* ResistAcid */
-     , (34621,  70,     1.1) /* ResistElectric */
+     , (34621,  69,     0.5) /* ResistAcid */
+     , (34621,  70,     0.6) /* ResistElectric */
      , (34621,  71,       1) /* ResistHealthBoost */
      , (34621,  72,       1) /* ResistStaminaDrain */
      , (34621,  73,       1) /* ResistStaminaBoost */
