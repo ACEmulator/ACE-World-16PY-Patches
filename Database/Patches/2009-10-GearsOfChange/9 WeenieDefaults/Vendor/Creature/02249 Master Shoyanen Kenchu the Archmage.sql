@@ -396,5 +396,4 @@ VALUES (2249, 2,  5914,  0, 0, 0, False) /* Create Suikan Item Master Robe (5914
      , (2249, 4,  8981, -1, 0, 0, False) /* Create Shoushi Portal Gem (8981) for Shop */
      , (2249, 4,  8983, -1, 0, 0, False) /* Create Yanshi Portal Gem (8983) for Shop */
      , (2249, 4,  8984, -1, 0, 0, False) /* Create Yaraq Portal Gem (8984) for Shop */
-     , (2249, 4, 43020, -1, 0, 0, False) /* Create Town Network Portal Gem (43020) for Shop */
-     , (2249, 4, 27328, -1, 0, 0, False) /* Create Major Mana Stone (27328) for Shop */;
+     , (2249, 4, 43020, -1, 0, 0, False) /* Create Town Network Portal Gem (43020) for Shop */;
