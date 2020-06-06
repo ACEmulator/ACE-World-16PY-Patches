@@ -16,7 +16,7 @@ VALUES (34623,   1,         16) /* ItemType - Creature */
      , (34623, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (34623, 103,          3) /* GeneratorDestructionType - Kill */
      , (34623, 145,          2) /* GeneratorEndDestructionType - Destroy */
-     , (34623, 146,    1000000) /* XpOverride */
+     , (34623, 146,      80000) /* XpOverride */
      , (34623, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -29,7 +29,7 @@ VALUES (34623,   1,       5) /* HeartbeatInterval */
      , (34623,   4,       5) /* StaminaRate */
      , (34623,   5,       2) /* ManaRate */
      , (34623,  12,       0) /* Shade */
-     , (34623,  13,     1.3) /* ArmorModVsSlash */
+     , (34623,  13,     0.7) /* ArmorModVsSlash */
      , (34623,  14,     1.5) /* ArmorModVsPierce */
      , (34623,  15,     1.4) /* ArmorModVsBludgeon */
      , (34623,  16,       1) /* ArmorModVsCold */
@@ -42,12 +42,12 @@ VALUES (34623,   1,       5) /* HeartbeatInterval */
      , (34623,  39,       1) /* DefaultScale */
      , (34623,  41,       0) /* RegenerationInterval */
      , (34623,  43,      14) /* GeneratorRadius */
-     , (34623,  64,     0.5) /* ResistSlash */
-     , (34623,  65,     0.8) /* ResistPierce */
-     , (34623,  66,     0.8) /* ResistBludgeon */
-     , (34623,  67,       1) /* ResistFire */
+     , (34623,  64,     0.8) /* ResistSlash */
+     , (34623,  65,     0.3) /* ResistPierce */
+     , (34623,  66,     0.7) /* ResistBludgeon */
+     , (34623,  67,     0.8) /* ResistFire */
      , (34623,  68,     0.4) /* ResistCold */
-     , (34623,  69,     0.7) /* ResistAcid */
+     , (34623,  69,     0.5) /* ResistAcid */
      , (34623,  70,     1.1) /* ResistElectric */
      , (34623,  71,       1) /* ResistHealthBoost */
      , (34623,  72,       1) /* ResistStaminaDrain */
@@ -90,14 +90,14 @@ VALUES (34623,   1, 24900, 0, 0, 25000) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (34623,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
-     , (34623,  7, 0, 3, 0, 420, 0, 0) /* MissileDefense      Specialized */
+     , (34623,  7, 0, 3, 0, 450, 0, 0) /* MissileDefense      Specialized */
      , (34623, 14, 0, 3, 0, 300, 0, 0) /* ArcaneLore          Specialized */
      , (34623, 15, 0, 3, 0, 295, 0, 0) /* MagicDefense        Specialized */
      , (34623, 20, 0, 3, 0, 250, 0, 0) /* Deception           Specialized */
      , (34623, 24, 0, 3, 0,  90, 0, 0) /* Run                 Specialized */
-     , (34623, 31, 0, 3, 0, 210, 0, 0) /* CreatureEnchantment Specialized */
-     , (34623, 33, 0, 3, 0, 210, 0, 0) /* LifeMagic           Specialized */
-     , (34623, 34, 0, 3, 0, 210, 0, 0) /* WarMagic            Specialized */
+     , (34623, 31, 0, 3, 0, 250, 0, 0) /* CreatureEnchantment Specialized */
+     , (34623, 33, 0, 3, 0, 250, 0, 0) /* LifeMagic           Specialized */
+     , (34623, 34, 0, 3, 0, 250, 0, 0) /* WarMagic            Specialized */
      , (34623, 45, 0, 3, 0, 355, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
@@ -106,7 +106,7 @@ VALUES (34623,  0,  1,  0,    0,  500,  500,  500,  500,  360,  500,  500,  360,
      , (34623,  2,  1,  0,    0,  500,  500,  500,  500,  360,  500,  500,  360,    0, 3,    0, 0.23,  0.1,    0, 0.23,  0.2,    0, 0.17, 0.45,    0, 0.17, 0.45) /* Abdomen */
      , (34623,  3,  1,  0,    0,  500,  500,  500,  500,  360,  500,  500,  360,    0, 1, 0.23, 0.04,  0.2, 0.23, 0.04,  0.1, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (34623,  4,  1,  0,    0,  500,  500,  500,  500,  360,  500,  500,  360,    0, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
-     , (34623,  5,  1, 145, 0.75,  500,  500,  500,  500,  360,  500,  500,  360,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (34623,  5,  1, 200, 0.75,  500,  500,  500,  500,  360,  500,  500,  360,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (34623, 17,  1,  0,    0,  500,  500,  500,  500,  360,  500,  500,  360,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
