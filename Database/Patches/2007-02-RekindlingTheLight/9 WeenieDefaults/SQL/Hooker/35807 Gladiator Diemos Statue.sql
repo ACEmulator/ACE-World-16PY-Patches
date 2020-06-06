@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35807;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35807, 'ace35807-gladiatordiemosstatue', 1, '2020-05-23 00:00:00') /* Generic */;
+VALUES (35807, 'ace35807-gladiatordiemosstatue', 64, '2020-05-23 00:00:00') /* Hooker */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35807,   1,        128) /* ItemType - Misc */
@@ -27,7 +27,7 @@ VALUES (35807,   1,   33560265) /* Setup */
      , (35807,   7,  268437188) /* ClothingBase */
      , (35807,   8,  100674350) /* Icon */
      , (35807,  22,  872415275) /* PhysicsEffectTable */;
-     
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35807,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
