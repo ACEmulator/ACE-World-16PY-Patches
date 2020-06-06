@@ -15,15 +15,10 @@ VALUES (34449,   1,        128) /* ItemType - Misc */
      , (34449,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34449,   1, False) /* Stuck */
-     , (34449,  11, True ) /* IgnoreCollisions */
-     , (34449,  13, True ) /* Ethereal */
-     , (34449,  14, True ) /* GravityStatus */
-     , (34449,  19, True ) /* Attackable */
-     , (34449,  69, False) /* IsSellable */;
+VALUES (34449,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34449,  39, 0.670000016689301) /* DefaultScale */;
+VALUES (34449,  39,    0.67) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34449,   1, 'Colosseum Ticket') /* Name */
