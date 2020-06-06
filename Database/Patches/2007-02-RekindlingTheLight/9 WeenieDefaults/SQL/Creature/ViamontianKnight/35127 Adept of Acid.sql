@@ -15,17 +15,14 @@ VALUES (35127,   1,         16) /* ItemType - Creature */
      , (35127,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (35127,  72,         83) /* FriendType - ViamontianKnight */
      , (35127,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35127, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (35127, 113,          1) /* Gender - Male */
      , (35127, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35127, 140,          1) /* AiOptions - CanOpenDoors */
      , (35127, 146,     250000) /* XpOverride */
      , (35127, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35127,   1, True ) /* Stuck */
-     , (35127,   6, False) /* AiUsesMana */
-     , (35127,  52, True ) /* AiImmobile */;
+     , (35127,   6, False) /* AiUsesMana */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35127,   1,       5) /* HeartbeatInterval */
@@ -54,7 +51,6 @@ VALUES (35127,   1,       5) /* HeartbeatInterval */
      , (35127,  73,       1) /* ResistStaminaBoost */
      , (35127,  74,       1) /* ResistManaDrain */
      , (35127,  75,       1) /* ResistManaBoost */
-     , (35127,  80,       4) /* AiUseMagicDelay */
      , (35127, 104,      12) /* ObviousRadarRange */
      , (35127, 125,       1) /* ResistHealthDrain */;
 
@@ -90,6 +86,7 @@ VALUES (35127, 45, 0, 3, 0, 290, 0, 0) /* LightWeapons        Specialized */
      , (35127,  7, 0, 3, 0, 300, 0, 0) /* MissileDefense      Specialized */
      , (35127, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
      , (35127, 20, 0, 2, 0,  30, 0, 0) /* Deception           Trained */
+     , (35127, 31, 0, 2, 0, 225, 0, 0) /* CreatureEnchantment Trained */
      , (35127, 33, 0, 3, 0, 235, 0, 0) /* LifeMagic           Specialized */
      , (35127, 34, 0, 3, 0, 235, 0, 0) /* WarMagic            Specialized */;
 
@@ -105,15 +102,15 @@ VALUES (35127,  0,  4,  0,    0,  544,  544,  544,  544,  544,  412,  544,  412,
      , (35127,  8,  4, 125,  0.4,  544,  544,  544,  544,  544,  412,  544,  412,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35127,   234,   2.02)  /* Vulnerability Other VI */
-     , (35127,   526,   2.02)  /* Acid Vulnerability Other VI */
-     , (35127,   574,   2.02)  /* Creature Enchantment Ineptitude Other VI */
-     , (35127,   628,   2.02)  /* Life Magic Ineptitude Other VI */
-     , (35127,   652,   2.02)  /* War Magic Ineptitude Other VI */
-     , (35127,  1327,   2.02)  /* Imperil Other VI */
+VALUES (35127,   234,   2.077)  /* Vulnerability Other VI */
+     , (35127,   526,   2.071)  /* Acid Vulnerability Other VI */
+     , (35127,   574,   2.1)  /* Creature Enchantment Ineptitude Other VI */
+     , (35127,   628,   2.111)  /* Life Magic Ineptitude Other VI */
+     , (35127,   652,   2.143)  /* War Magic Ineptitude Other VI */
+     , (35127,  1327,   2.167)  /* Imperil Other VI */
      , (35127,  2120,   2.02)  /* Dissolving Vortex */
-     , (35127,  2121,   2.02)  /* Corrosive Flash */
-     , (35127,  2123,   2.02)  /* Celdiseth's Searing */;
+     , (35127,  2121,   2.5)  /* Corrosive Flash */
+     , (35127,  2123,     3)  /* Celdiseth's Searing */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35127, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

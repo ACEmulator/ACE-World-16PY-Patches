@@ -15,7 +15,6 @@ VALUES (35129,   1,         16) /* ItemType - Creature */
      , (35129,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (35129,  72,         83) /* FriendType - ViamontianKnight */
      , (35129,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35129, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (35129, 113,          1) /* Gender - Male */
      , (35129, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (35129, 140,          1) /* AiOptions - CanOpenDoors */
@@ -54,7 +53,6 @@ VALUES (35129,   1,       5) /* HeartbeatInterval */
      , (35129,  73,       1) /* ResistStaminaBoost */
      , (35129,  74,       1) /* ResistManaDrain */
      , (35129,  75,       1) /* ResistManaBoost */
-     , (35129,  80,       4) /* AiUseMagicDelay */
      , (35129, 104,      12) /* ObviousRadarRange */
      , (35129, 125,       1) /* ResistHealthDrain */;
 
@@ -90,6 +88,7 @@ VALUES (35129, 45, 0, 3, 0, 290, 0, 0) /* LightWeapons        Specialized */
      , (35129,  7, 0, 3, 0, 300, 0, 0) /* MissileDefense      Specialized */
      , (35129, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
      , (35129, 20, 0, 2, 0,  30, 0, 0) /* Deception           Trained */
+     , (35129, 31, 0, 2, 0, 225, 0, 0) /* CreatureEnchantment Trained */
      , (35129, 33, 0, 3, 0, 235, 0, 0) /* LifeMagic           Specialized */
      , (35129, 34, 0, 3, 0, 235, 0, 0) /* WarMagic            Specialized */;
 
@@ -105,15 +104,15 @@ VALUES (35129,  0,  4,  0,    0,  544,  544,  544,  544,  544,  412,  544,  412,
      , (35129,  8,  4, 125,  0.4,  544,  544,  544,  544,  544,  412,  544,  412,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35129,   234,   2.02)  /* Vulnerability Other VI */
-     , (35129,   574,   2.02)  /* Creature Enchantment Ineptitude Other VI */
-     , (35129,   628,   2.02)  /* Life Magic Ineptitude Other VI */
-     , (35129,   652,   2.02)  /* War Magic Ineptitude Other VI */
-     , (35129,  1065,   2.02)  /* Cold Vulnerability Other VI */
-     , (35129,  1327,   2.02)  /* Imperil Other VI */
-     , (35129,  2135,   2.02)  /* Winter's Embrace */
-     , (35129,  2136,   2.02)  /* Icy Torment */
-     , (35129,  2731,   2.02)  /* Frost Arc VII */;
+VALUES (35129,   234,    2.06)  /* Vulnerability Other VI */
+     , (35129,   574,    2.02)  /* Creature Enchantment Ineptitude Other VI */
+     , (35129,   628,    2.41)  /* Life Magic Ineptitude Other VI */
+     , (35129,   652,   2.147)  /* War Magic Ineptitude Other VI */
+     , (35129,  1065,    2.02)  /* Cold Vulnerability Other VI */
+     , (35129,  1327,     2.5)  /* Imperil Other VI */
+     , (35129,  2135,   2.071)  /* Winter's Embrace */
+     , (35129,  2136,   2.077)  /* Icy Torment */
+     , (35129,  2731,       3)  /* Frost Arc VII */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35129, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
