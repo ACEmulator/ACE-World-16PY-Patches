@@ -126,7 +126,7 @@ Give: Crowley's Champion Token (34456)
 Give: Demon Swarm Matron Token (34451)
 	- Tell: I see that you have proved you skill against the Champion, the Demon Swarm Matron. Well done. I hereby grant you the title, Champion of the Hive.
 	- AddCharacterTitle: 468
-	- Delay: 1, AwardLevelProportionalXP: 25%, 0 - 54455312
+	- Delay: 1, AwardLevelProportionalXP: 25%, 0 - 52598758
 	- Delay: 1, Give: Demon Swarm Sword (35804)
 
 Give: The Master Token (35871)
