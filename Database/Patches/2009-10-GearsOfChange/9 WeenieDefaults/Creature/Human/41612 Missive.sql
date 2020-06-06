@@ -463,7 +463,6 @@ VALUES (41612, 2,  5851,  1, 88, 0, True) /* Create Faran Robe with Hood (5851) 
      , (41612, 4,   743, -1, 0, 0, False) /* Create Cedar Talisman (743) for Shop */
      , (41612, 4,   748, -1, 0, 0, False) /* Create Oak Talisman (748) for Shop */
      , (41612, 4,   746, -1, 0, 0, False) /* Create Hazel Talisman (746) for Shop */
-     , (41612, 4, 25730, -1, 0, 0, False) /* Create Banyan Talisman (25730) for Shop */
      , (41612, 4,  1650, -1, 0, 0, False) /* Create Red Taper (1650) for Shop */
      , (41612, 4,  1649, -1, 0, 0, False) /* Create Pink Taper (1649) for Shop */
      , (41612, 4,  1648, -1, 0, 0, False) /* Create Orange Taper (1648) for Shop */
@@ -481,7 +480,6 @@ VALUES (41612, 2,  5851,  1, 88, 0, True) /* Create Faran Robe with Hood (5851) 
      , (41612, 4,  2435, -1, 0, 0, False) /* Create Mana Stone (2435) for Shop */
      , (41612, 4, 27330, -1, 0, 0, False) /* Create Moderate Mana Stone (27330) for Shop */
      , (41612, 4,  2436, -1, 0, 0, False) /* Create Greater Mana Stone (2436) for Shop */
-     , (41612, 4, 27328, -1, 0, 0, False) /* Create Major Mana Stone (27328) for Shop */
      , (41612, 4,  4612, -1, 0, 0, False) /* Create Tiny Mana Charge (4612) for Shop */
      , (41612, 4,  4613, -1, 0, 0, False) /* Create Small Mana Charge (4613) for Shop */
      , (41612, 4,  4614, -1, 0, 0, False) /* Create Moderate Mana Charge (4614) for Shop */
@@ -505,88 +503,14 @@ VALUES (41612, 2,  5851,  1, 88, 0, True) /* Create Faran Robe with Hood (5851) 
      , (41612, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
      , (41612, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
      , (41612, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
-     , (41612, 4,  8329, -1, 0, 0, False) /* Create Lead Pea (8329) for Shop */
-     , (41612, 4,  8328, -1, 0, 0, False) /* Create Iron Pea (8328) for Shop */
-     , (41612, 4,  8326, -1, 0, 0, False) /* Create Copper Pea (8326) for Shop */
-     , (41612, 4,  8331, -1, 0, 0, False) /* Create Silver Pea (8331) for Shop */
-     , (41612, 4,  8327, -1, 0, 0, False) /* Create Gold Pea (8327) for Shop */
-     , (41612, 4,  8330, -1, 0, 0, False) /* Create Pyreal Pea (8330) for Shop */
-     , (41612, 4,  8294, -1, 0, 0, False) /* Create Hyssop Pea (8294) for Shop */
-     , (41612, 4,  8295, -1, 0, 0, False) /* Create Mandrake Pea (8295) for Shop */
-     , (41612, 4,  8298, -1, 0, 0, False) /* Create Saffron Pea (8298) for Shop */
-     , (41612, 4,  8287, -1, 0, 0, False) /* Create Damiana Pea (8287) for Shop */
-     , (41612, 4,  8296, -1, 0, 0, False) /* Create Mugwort Pea (8296) for Shop */
-     , (41612, 4,  8285, -1, 0, 0, False) /* Create Bistort Pea (8285) for Shop */
-     , (41612, 4,  8300, -1, 0, 0, False) /* Create Wormwood Pea (8300) for Shop */
-     , (41612, 4,  8284, -1, 0, 0, False) /* Create Amaranth Pea (8284) for Shop */
-     , (41612, 4,  8291, -1, 0, 0, False) /* Create Ginseng Pea (8291) for Shop */
-     , (41612, 4,  8292, -1, 0, 0, False) /* Create Hawthorn Pea (8292) for Shop */
-     , (41612, 4,  8289, -1, 0, 0, False) /* Create Eyebright Pea (8289) for Shop */
-     , (41612, 4,  8290, -1, 0, 0, False) /* Create Frankincense Pea (8290) for Shop */
-     , (41612, 4,  8288, -1, 0, 0, False) /* Create Dragonsblood Pea (8288) for Shop */
-     , (41612, 4,  8293, -1, 0, 0, False) /* Create Henbane Pea (8293) for Shop */
-     , (41612, 4,  8286, -1, 0, 0, False) /* Create Comfrey Pea (8286) for Shop */
-     , (41612, 4,  8301, -1, 0, 0, False) /* Create Yarrow Pea (8301) for Shop */
-     , (41612, 4,  8299, -1, 0, 0, False) /* Create Vervain Pea (8299) for Shop */
-     , (41612, 4,  8297, -1, 0, 0, False) /* Create Myrrh Pea (8297) for Shop */
-     , (41612, 4,  8314, -1, 0, 0, False) /* Create Powdered Agate Pea (8314) for Shop */
-     , (41612, 4,  8315, -1, 0, 0, False) /* Create Powdered Amber Pea (8315) for Shop */
-     , (41612, 4,  8316, -1, 0, 0, False) /* Create Powdered Azurite Pea (8316) for Shop */
-     , (41612, 4,  8317, -1, 0, 0, False) /* Create Powdered Bloodstone Pea (8317) for Shop */
-     , (41612, 4,  8318, -1, 0, 0, False) /* Create Powdered Carnelian Pea (8318) for Shop */
-     , (41612, 4,  8319, -1, 0, 0, False) /* Create Powdered Hematite Pea (8319) for Shop */
-     , (41612, 4,  8320, -1, 0, 0, False) /* Create Powdered Lapis Lazuli Pea (8320) for Shop */
-     , (41612, 4,  8321, -1, 0, 0, False) /* Create Powdered Malachite Pea (8321) for Shop */
-     , (41612, 4,  8322, -1, 0, 0, False) /* Create Powdered Moonstone Pea (8322) for Shop */
-     , (41612, 4,  8323, -1, 0, 0, False) /* Create Powdered Onyx Pea (8323) for Shop */
-     , (41612, 4,  8324, -1, 0, 0, False) /* Create Powdered Quartz Pea (8324) for Shop */
-     , (41612, 4,  8325, -1, 0, 0, False) /* Create Powdered Turquoise Pea (8325) for Shop */
-     , (41612, 4,  8302, -1, 0, 0, False) /* Create Brimstone Pea (8302) for Shop */
-     , (41612, 4,  8303, -1, 0, 0, False) /* Create Cadmia Pea (8303) for Shop */
-     , (41612, 4,  8304, -1, 0, 0, False) /* Create Cinnabar Pea (8304) for Shop */
-     , (41612, 4,  8305, -1, 0, 0, False) /* Create Cobalt Pea (8305) for Shop */
-     , (41612, 4,  8306, -1, 0, 0, False) /* Create Colcothar Pea (8306) for Shop */
-     , (41612, 4,  8307, -1, 0, 0, False) /* Create Gypsum Pea (8307) for Shop */
-     , (41612, 4,  8308, -1, 0, 0, False) /* Create Quicksilver Pea (8308) for Shop */
-     , (41612, 4,  8309, -1, 0, 0, False) /* Create Realgar Pea (8309) for Shop */
-     , (41612, 4,  8310, -1, 0, 0, False) /* Create Stibnite Pea (8310) for Shop */
-     , (41612, 4,  8311, -1, 0, 0, False) /* Create Turpeth Pea (8311) for Shop */
-     , (41612, 4,  8312, -1, 0, 0, False) /* Create Verdigris Pea (8312) for Shop */
-     , (41612, 4,  8313, -1, 0, 0, False) /* Create Vitriol Pea (8313) for Shop */
-     , (41612, 4,  8342, -1, 0, 0, False) /* Create Poplar Pea (8342) for Shop */
-     , (41612, 4,  8335, -1, 0, 0, False) /* Create Blackthorn Pea (8335) for Shop */
-     , (41612, 4,  8345, -1, 0, 0, False) /* Create Yew Pea (8345) for Shop */
-     , (41612, 4,  8340, -1, 0, 0, False) /* Create Hemlock Pea (8340) for Shop */
-     , (41612, 4,  8332, -1, 0, 0, False) /* Create Alder Pea (8332) for Shop */
-     , (41612, 4,  8337, -1, 0, 0, False) /* Create Ebony Pea (8337) for Shop */
-     , (41612, 4,  8334, -1, 0, 0, False) /* Create Birch Pea (8334) for Shop */
-     , (41612, 4,  8333, -1, 0, 0, False) /* Create Ashwood Pea (8333) for Shop */
-     , (41612, 4,  8338, -1, 0, 0, False) /* Create Elder Pea (8338) for Shop */
-     , (41612, 4,  8343, -1, 0, 0, False) /* Create Rowan Pea (8343) for Shop */
-     , (41612, 4,  8344, -1, 0, 0, False) /* Create Willow Pea (8344) for Shop */
-     , (41612, 4,  8336, -1, 0, 0, False) /* Create Cedar Pea (8336) for Shop */
-     , (41612, 4,  8341, -1, 0, 0, False) /* Create Oak Pea (8341) for Shop */
-     , (41612, 4,  8339, -1, 0, 0, False) /* Create Hazel Pea (8339) for Shop */
-     , (41612, 4,  8353, -1, 0, 0, False) /* Create Red Pea (8353) for Shop */
-     , (41612, 4,  8352, -1, 0, 0, False) /* Create Pink Pea (8352) for Shop */
-     , (41612, 4,  8351, -1, 0, 0, False) /* Create Orange Pea (8351) for Shop */
-     , (41612, 4,  8357, -1, 0, 0, False) /* Create Yellow Pea (8357) for Shop */
-     , (41612, 4,  8348, -1, 0, 0, False) /* Create Green Pea (8348) for Shop */
-     , (41612, 4,  8354, -1, 0, 0, False) /* Create Turquoise Pea (8354) for Shop */
-     , (41612, 4,  8346, -1, 0, 0, False) /* Create Blue Pea (8346) for Shop */
-     , (41612, 4,  8350, -1, 0, 0, False) /* Create Indigo Pea (8350) for Shop */
-     , (41612, 4,  8355, -1, 0, 0, False) /* Create Violet Pea (8355) for Shop */
-     , (41612, 4,  8347, -1, 0, 0, False) /* Create Brown Pea (8347) for Shop */
-     , (41612, 4,  8356, -1, 0, 0, False) /* Create White Pea (8356) for Shop */
-     , (41612, 4,  8349, -1, 0, 0, False) /* Create Grey Pea (8349) for Shop */
      , (41612, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
      , (41612, 4,  4747, -1, 0, 0, False) /* Create Alembic (4747) for Shop */
      , (41612, 4,  4748, -1, 0, 0, False) /* Create Aqua Incanta (4748) for Shop */
      , (41612, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (41612, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
-     , (41612, 4, 41424, -1, 0, 0, False) /* Create  (41424) for Shop */
-     , (41612, 4, 41425, -1, 0, 0, False) /* Create  (41425) for Shop */
-     , (41612, 4,  5539, -1, 0, 0, False) /* Create Wand (5539) for Shop */
+     , (41612, 4, 41424, -1, 0, 0, False) /* Create Refining Polish (Mana) (41424) for Shop */
+     , (41612, 4, 41425, -1, 0, 0, False) /* Create Refining Polish (Stamina) (41425) for Shop */
+     , (41612, 4,  5540, -1, 0, 0, False) /* Create Wand (5540) for Shop */
      , (41612, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (41612, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (41612, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
@@ -599,6 +523,7 @@ VALUES (41612, 2,  5851,  1, 88, 0, True) /* Create Faran Robe with Hood (5851) 
      , (41612, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
      , (41612, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
      , (41612, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails (23858) for Shop */
+     , (41612, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails (23857) for Shop */
      , (41612, 4,  9359, -1, 0, 0, True) /* Create Wrapped Bundle of Arrowheads (9359) for Shop */
      , (41612, 4,  9363, -1, 0, 0, True) /* Create Wrapped Bundle of Broad Arrowheads (9363) for Shop */
      , (41612, 4,  9362, -1, 0, 0, True) /* Create Wrapped Bundle of Blunt Arrowheads (9362) for Shop */
