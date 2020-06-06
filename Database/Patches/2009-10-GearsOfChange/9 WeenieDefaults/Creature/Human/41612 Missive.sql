@@ -1,3 +1,5 @@
+DELETE FROM `weenie` WHERE `class_Id` = 41612;
+
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (41612, 'ace41612-missive', 12, '2020-06-06 19:56:08') /* Vendor */;
 
