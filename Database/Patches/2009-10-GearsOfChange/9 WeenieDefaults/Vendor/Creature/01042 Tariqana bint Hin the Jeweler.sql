@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1042;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1042, 'yaraqjeweler', 12, '2020-06-06 10:00:00') /* Vendor */;
+VALUES (1042, 'yaraqjeweler', 12, '2005-02-09 10:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1042,   1,         16) /* ItemType - Creature */
@@ -182,39 +182,4 @@ VALUES (1042, 2,   130,  0, 7, 0.33, False) /* Create Shirt (130) for Wield */
      , (1042, 4,  2413, -1, 0, 0, False) /* Create Agate (2413) for Shop */
      , (1042, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1042, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (1042, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (1042, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */
-     , (1042, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (1042, 4,  2423, -1, 0, 0, False) /* Create Gem (2423) for Shop */
-     , (1042, 4,  2431, -1, 0, 0, False) /* Create Gem (2431) for Shop */
-     , (1042, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
-     , (1042, 4,  2367, -1, 0, 0, False) /* Create Gorget (2367) for Shop */
-     , (1042, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
-     , (1042, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
-     , (1042, 4,  2394, -1, 0, 0, False) /* Create Gem (2394) for Shop */
-     , (1042, 4,  2393, -1, 0, 0, False) /* Create Gem (2393) for Shop */
-     , (1042, 4,  2430, -1, 0, 0, False) /* Create Gem (2430) for Shop */
-     , (1042, 4,  2421, -1, 0, 0, False) /* Create Gem (2421) for Shop */
-     , (1042, 4,  2428, -1, 0, 0, False) /* Create Gem (2428) for Shop */
-     , (1042, 4,  2403, -1, 0, 0, False) /* Create Gem (2403) for Shop */
-     , (1042, 4,  2399, -1, 0, 0, False) /* Create Gem (2399) for Shop */
-     , (1042, 4,  2398, -1, 0, 0, False) /* Create Gem (2398) for Shop */
-     , (1042, 4,  2397, -1, 0, 0, False) /* Create Gem (2397) for Shop */
-     , (1042, 4,  2408, -1, 0, 0, False) /* Create Gem (2408) for Shop */
-     , (1042, 4,  2395, -1, 0, 0, False) /* Create Gem (2395) for Shop */
-     , (1042, 4,  2404, -1, 0, 0, False) /* Create Gem (2404) for Shop */
-     , (1042, 4,  2419, -1, 0, 0, False) /* Create Gem (2419) for Shop */
-     , (1042, 4,  2396, -1, 0, 0, False) /* Create Gem (2396) for Shop */
-     , (1042, 4,  2407, -1, 0, 0, False) /* Create Gem (2407) for Shop */
-     , (1042, 4, 41484, -1, 0, 0, False) /* Create Goggles (41484) for Shop */
-     , (1042, 4, 41483, -1, 0, 0, False) /* Create Compass (41483) for Shop */
-     , (1042, 4,  2417, -1, 0, 0, False) /* Create Gem (2417) for Shop */
-     , (1042, 4,  2415, -1, 0, 0, False) /* Create Gem (2415) for Shop */
-     , (1042, 4,  2432, -1, 0, 0, False) /* Create Gem (2432) for Shop */
-     , (1042, 4,  2418, -1, 0, 0, False) /* Create Gem (2418) for Shop */
-     , (1042, 4,  2420, -1, 0, 0, False) /* Create Gem (2420) for Shop */
-     , (1042, 4,  2433, -1, 0, 0, False) /* Create Gem (2433) for Shop */
-     , (1042, 4,  2427, -1, 0, 0, False) /* Create Gem (2427) for Shop */
-     , (1042, 4, 41487, -1, 0, 0, False) /* Create Mechanical Scarab (41487) for Shop */
-     , (1042, 4,  2414, -1, 0, 0, False) /* Create Gem (2414) for Shop */
-     , (1042, 4, 41485, -1, 0, 0, False) /* Create Pocket Watch (41485) for Shop */;
+     , (1042, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;
