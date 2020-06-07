@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35154;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35154, 'ace35154-degenerateshadow', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (35154, 'ace35154-degenerateshadow', 10, '2020-06-03 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35154,   1,         16) /* ItemType - Creature */
@@ -11,12 +11,12 @@ VALUES (35154,   1,         16) /* ItemType - Creature */
      , (35154,   7,         -1) /* ContainersCapacity */
      , (35154,   8,         90) /* Mass */
      , (35154,  16,          1) /* ItemUseable - No */
-     , (35154,  25,        115) /* Level */
+     , (35154,  25,        185) /* Level */
      , (35154,  27,          0) /* ArmorType - None */
      , (35154,  68,          3) /* TargetingTactic - Random, Focused */
      , (35154,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (35154, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
-     , (35154, 113,          1) /* Gender - Male */
+     , (35154, 113,          2) /* Gender - Female */
      , (35154, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (35154, 140,          1) /* AiOptions - CanOpenDoors */
      , (35154, 146,     125000) /* XpOverride */
@@ -62,7 +62,6 @@ VALUES (35154,   1,       5) /* HeartbeatInterval */
      , (35154,  73,       1) /* ResistStaminaBoost */
      , (35154,  74,       1) /* ResistManaDrain */
      , (35154,  75,       1) /* ResistManaBoost */
-     , (35154,  76,     0.5) /* Translucency */
      , (35154,  80,       3) /* AiUseMagicDelay */
      , (35154, 104,      10) /* ObviousRadarRange */
      , (35154, 122,       2) /* AiAcquireHealth */
@@ -77,11 +76,9 @@ VALUES (35154,   1,   33554510) /* Setup */
      , (35154,   3,  536870914) /* SoundTable */
      , (35154,   4,  805306368) /* CombatTable */
      , (35154,   6,   67108990) /* PaletteBase */
-     , (35154,   7,  268435632) /* ClothingBase */
+     , (35154,   7,  268435871) /* ClothingBase */
      , (35154,   8,  100670398) /* Icon */
      , (35154,  22,  872415331) /* PhysicsEffectTable */;
-
-
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35154,   1, 300, 0, 0) /* Strength */
@@ -139,7 +136,18 @@ VALUES (35154,    74,  2.036)  /* Frost Bolt VI */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35154, 2, 32852,  1, 0, 0, False) /* Create Blade of the Realm (32852) for Wield */
-     , (35154, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */;
+     , (35154, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (40760) for Wield */
+     , (35154, 2, 2587,   0, 14, 0, False) /* Create Shirt for Wield */
+     , (35154, 2, 2601,   0, 14, 0, False) /* Create Pants for Wield */
+     , (35154, 2, 21150,  0, 21, 0, False) /* Create Covenant Sollerets for Wield */
+     , (35154, 2, 21151,  0, 21, 0, False) /* Create Covenant Bracers for Wield */
+     , (35154, 2, 21152,  0, 21, 0, False) /* Create Covenant Breastplate for Wield */
+     , (35154, 2, 21153,  0, 21, 0, False) /* Create Covenant Gauntlets for Wield */
+     , (35154, 2, 21154,  0, 21, 0, False) /* Create Covenant Girth for Wield */
+     , (35154, 2, 21155,  0, 21, 0, False) /* Create Covenant Greaves for Wield */
+     , (35154, 2, 34027,  0, 21, 0, False) /* Create Shadow Mask for Wield */
+     , (35154, 2, 21157,  0, 21, 0, False) /* Create Covenant Pauldrons for Wield */
+     , (35154, 2, 21159,  0, 21, 0, False) /* Create Covenant Tassets for Wield */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35154, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
