@@ -31,7 +31,7 @@ VALUES (36519,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36519,  37,       1) /* BuyPrice */
      , (36519,  38,       1) /* SellPrice */
-     , (36519,  39, 1.29999995231628) /* DefaultScale */
+     , (36519,  39,     1.3) /* DefaultScale */
      , (36519,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
