@@ -21,7 +21,7 @@ VALUES (36519,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36519,   1, True ) /* Stuck */
      , (36519,  19, False) /* Attackable */
-     , (36519,  39, True ) /* DealMagicalItems */
+     , (36519,  39, True ) /* DealMagicalItems */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36519,  37,       1) /* BuyPrice */
