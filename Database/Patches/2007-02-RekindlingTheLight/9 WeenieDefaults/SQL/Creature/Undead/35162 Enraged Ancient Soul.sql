@@ -74,7 +74,7 @@ VALUES (35162,   1,   33558436) /* Setup */
      , (35162,   3,  536870934) /* SoundTable */
      , (35162,   4,  805306368) /* CombatTable */
      , (35162,   6,   67114480) /* PaletteBase */
-     , (35162,   7,  268436671) /* ClothingBase */
+     , (35162,   7,  268436673) /* ClothingBase */
      , (35162,   8,  100674805) /* Icon */
      , (35162,  22,  872415272) /* PhysicsEffectTable */
      , (35162,  32,        447) /* WieldedTreasureType -
