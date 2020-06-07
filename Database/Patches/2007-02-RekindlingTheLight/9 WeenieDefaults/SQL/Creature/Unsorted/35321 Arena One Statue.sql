@@ -8,8 +8,12 @@ VALUES (35321,   1,         16) /* ItemType - Creature */
      , (35321,   6,         -1) /* ItemsCapacity */
      , (35321,   7,         -1) /* ContainersCapacity */
      , (35321,  16,         32) /* ItemUseable - Remote */
+     , (35321,  81,          1) /* MaxGeneratedObjects */
+     , (35321,  82,          1) /* InitGeneratedObjects */
      , (35321,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (35321,  95,          8) /* RadarBlipColor - Yellow */
+     , (35321, 103,          2) /* GeneratorDestructionType - Destroy */
+     , (35321, 145,          2) /* GeneratorEndDestructionType - Destroy */
      , (35321, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -29,6 +33,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35321,   1,       1) /* HeartbeatInterval */
      , (35321,   2,       0) /* HeartbeatTimestamp */
      , (35321,  39,     0.6) /* DefaultScale */
+     , (35321,  41,       0) /* RegenerationInterval */
      , (35321,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -176,3 +181,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 23 /* StartEvent */, 0, 1, NULL, 'ColoArenaOneInActive', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 1, 24 /* StopEvent */, 0, 1, NULL, 'ColoArenaOneInUse', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 2, 77 /* DeleteSelf */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (35321, -1, 80007, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, -3.0, 0, 1, 0, 0, 0) /* Generate Landblock KeepAlive (80007) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -165,7 +165,3 @@ VALUES (0x700AF126, 71078, 0x00AF015C, 199.817, -38.8083, 0.11, -0.0102795, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF127, 71075, 0x00AF015C, 201.016, -39.8285, 0.161, 0.0147197, 0, 0, -0.999892, False, '2020-05-29 18:54:45'); /* VeryMadCowWave1 */
 /* @teleloc 0x00AF015C [201.016006 -39.828499 0.161000] 0.014720 0.000000 0.000000 -0.999892 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AF128, 71812, 0x00AF0110, 27.289091, -6.0450277, 0.054999996, -0.6950934, 0, 0, 0.7189194,  True, '2020-06-05 03:24:29'); /* Colo Lobby KeepAlive Generator */
-/* @teleloc 0x00AF0110 [27.289091 -6.045028 0.055000] -0.695093 0.000000 0.000000 0.718919 */
