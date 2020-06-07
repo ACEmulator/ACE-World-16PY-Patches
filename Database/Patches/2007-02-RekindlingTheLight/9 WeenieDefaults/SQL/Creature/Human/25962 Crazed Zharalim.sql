@@ -73,12 +73,6 @@ VALUES (25962,   1,   33554510) /* Setup */
      , (25962,   4,  805306368) /* CombatTable */
      , (25962,   6,   67108990) /* PaletteBase */
      , (25962,   8,  100667446) /* Icon */
-     , (25962,   9,   83890258) /* EyesTexture */
-     , (25962,  10,   83890293) /* NoseTexture */
-     , (25962,  11,   83890335) /* MouthTexture */
-     , (25962,  15,   67117021) /* HairPalette */
-     , (25962,  16,   67110062) /* EyesPalette */
-     , (25962,  17,   67109552) /* SkinPalette */
      , (25962,  22,  872415236) /* PhysicsEffectTable */
      , (25962,  32,        222) /* WieldedTreasureType -
                                    Wield Yumi (23736) | Probability: 50%

@@ -73,12 +73,6 @@ VALUES (25963,   1,   33554433) /* Setup */
      , (25963,   4,  805306368) /* CombatTable */
      , (25963,   6,   67108990) /* PaletteBase */
      , (25963,   8,  100667446) /* Icon */
-     , (25963,   9,   83890484) /* EyesTexture */
-     , (25963,  10,   83890517) /* NoseTexture */
-     , (25963,  11,   83890657) /* MouthTexture */
-     , (25963,  15,   67117072) /* HairPalette */
-     , (25963,  16,   67109567) /* EyesPalette */
-     , (25963,  17,   67109557) /* SkinPalette */
      , (25963,  22,  872415236) /* PhysicsEffectTable */
      , (25963,  32,        419) /* WieldedTreasureType -
                                    Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
