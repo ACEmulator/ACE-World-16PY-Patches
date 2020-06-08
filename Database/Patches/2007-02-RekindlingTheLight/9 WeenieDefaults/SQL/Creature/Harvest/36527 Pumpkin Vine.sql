@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36527;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36527, 'ace36527-pumpkinvine', 10, '2020-05-29 00:00:00') /* Creature */;
+VALUES (36527, 'ace36527-pumpkinvine', 10, '2020-06-08 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36527,   1,         16) /* ItemType - Creature */
      , (36527,   2,         36) /* CreatureType - Slithis */
-     , (36527,   3,         17) /* Platette - Yellow */     
+     , (36527,   3,         17) /* Platette - Yellow */
      , (36527,   6,         -1) /* ItemsCapacity */
      , (36527,   7,         -1) /* ContainersCapacity */
      , (36527,  16,          1) /* ItemUseable - No */
@@ -26,7 +26,7 @@ VALUES (36527,   1, True ) /* Stuck */
      , (36527,  13, False) /* Ethereal */
      , (36527,  50, True ) /* NeverFailCasting */
      , (36527,  52, True ) /* AiImmobile */;
-     
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36527,   1, 'Pumpkin Vine') /* Name */;
 
@@ -106,15 +106,9 @@ VALUES (36527,  0, 64, 150, 0.75,  450,  383,  383,  450,  405,  450,  428,  225
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36527,   176,   2.03)  /* Fester Other VI */
      , (36527,  2228,  2.015)  /* Broadside of a Barn */
-     , (36527,  1176,   2.15)  /* Harm Other VI */
-     , (36527,  88,  2.015)  /* Force Bolt III */
-     , (36527,  82,  2.015)  /* Flame Bolt III */
+     , (36527,  2170,   2.15)  /* Inferno's Gift */
+     , (36527,    88,  2.015)  /* Force Bolt III */
+     , (36527,    82,  2.015)  /* Flame Bolt III */
      , (36527,  2074,   2.03)  /* Gossamer Flesh */
      , (36527,  2282,   2.03)  /* Futility */
-     , (36527,  2763,   2.05)  /* Martyr's Hecatomb IV */;
-     
-
-  
-  
-  
-  
+     , (36527,  2318,   2.05)  /* Gravity Well */;

@@ -35,7 +35,7 @@ VALUES (34622,   1,       5) /* HeartbeatInterval */
      , (34622,  12,     0.5) /* Shade */
      , (34622,  13,     1.1) /* ArmorModVsSlash */
      , (34622,  14,     0.8) /* ArmorModVsPierce */
-     , (34622,  15,     0.4) /* ArmorModVsBludgeon */
+     , (34622,  15,     0.3) /* ArmorModVsBludgeon */
      , (34622,  16,     0.4) /* ArmorModVsCold */
      , (34622,  17,     1.1) /* ArmorModVsFire */
      , (34622,  18,     1.1) /* ArmorModVsAcid */
