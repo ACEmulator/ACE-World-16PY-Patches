@@ -25,7 +25,7 @@ VALUES (36626,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (36626, 170,         10) /* NumItemsInMaterial */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36626,  22, True ) /* Inscribable */;
+VALUES (36626,  22, True ) /* Inscribable */
      , (36626,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -41,4 +41,4 @@ VALUES (36626,   1,   33554817) /* Setup */
      , (36626,   8,  100686616) /* Icon */
      , (36626,  22,  872415275) /* PhysicsEffectTable */
      , (36626,  50,  100673292) /* IconOverlay */;
-     
+
