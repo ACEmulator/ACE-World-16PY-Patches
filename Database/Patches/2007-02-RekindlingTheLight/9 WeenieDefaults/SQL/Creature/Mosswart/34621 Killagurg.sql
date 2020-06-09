@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34621;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34621, 'ace34621-killagurg', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (34621, 'ace34621-killagurg', 10, '2020-06-08 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34621,   1,         16) /* ItemType - Creature */
@@ -33,10 +33,10 @@ VALUES (34621,   1,       5) /* HeartbeatInterval */
      , (34621,   5,       2) /* ManaRate */
      , (34621,  12,       0) /* Shade */
      , (34621,  13,     1.3) /* ArmorModVsSlash */
-     , (34621,  14,     0.7) /* ArmorModVsPierce */
+     , (34621,  14,     0.5) /* ArmorModVsPierce */
      , (34621,  15,     1.4) /* ArmorModVsBludgeon */
      , (34621,  16,       1) /* ArmorModVsCold */
-     , (34621,  17,     0.7) /* ArmorModVsFire */
+     , (34621,  17,     0.6) /* ArmorModVsFire */
      , (34621,  18,     1.3) /* ArmorModVsAcid */
      , (34621,  19,     0.9) /* ArmorModVsElectric */
      , (34621,  31,      24) /* VisualAwarenessRange */
@@ -46,12 +46,13 @@ VALUES (34621,   1,       5) /* HeartbeatInterval */
      , (34621,  41,       0) /* RegenerationInterval */
      , (34621,  43,      14) /* GeneratorRadius */
      , (34621,  64,     0.5) /* ResistSlash */
-     , (34621,  65,     0.7) /* ResistPierce */
+     , (34621,  65,     1.0) /* ResistPierce */
      , (34621,  66,     0.8) /* ResistBludgeon */
-     , (34621,  67,     0.9) /* ResistFire */
+     , (34621,  67,       2) /* ResistFire */
      , (34621,  68,     0.4) /* ResistCold */
      , (34621,  69,     0.5) /* ResistAcid */
      , (34621,  70,     0.6) /* ResistElectric */
+     , (34621, 166,       2) /* ResistNether */
      , (34621,  71,       1) /* ResistHealthBoost */
      , (34621,  72,       1) /* ResistStaminaDrain */
      , (34621,  73,       1) /* ResistStaminaBoost */
