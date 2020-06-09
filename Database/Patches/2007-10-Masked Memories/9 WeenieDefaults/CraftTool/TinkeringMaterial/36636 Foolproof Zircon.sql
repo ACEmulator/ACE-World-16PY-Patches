@@ -29,7 +29,7 @@ VALUES (36636,  22, True ) /* Inscribable */
      , (36636,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36636,   1, 'Foolproof Zircon') /* Name */
+VALUES (36636,   1, 'Foolproof') /* Name */
      , (36636,  14, 'Apply this material to treasure-generated armor to imbue the target with a +1 bonus to Magic Defense.') /* Use */
      , (36636,  15, 'Chips of zircon. This material is of such exquisite quality that using it to imbue an item is guaranteed to succeed.') /* ShortDesc */;
 
