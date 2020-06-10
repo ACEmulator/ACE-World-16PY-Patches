@@ -62,7 +62,8 @@ VALUES (23571,   1,       5) /* HeartbeatInterval */
      , (23571, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23571,   1, 'Virindi Quidiox') /* Name */;
+VALUES (23571,   1, 'Virindi Quidiox') /* Name */
+     , (23571,  45, 'virindiquidioxkillcount') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23571,   1,   33556982) /* Setup */

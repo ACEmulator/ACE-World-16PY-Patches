@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2498;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2498, 'craterlakearchmage', 12, '2019-04-09 02:19:52') /* Vendor */;
+VALUES (2498, 'craterlakearchmage', 12, '2020-06-06 02:19:52') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2498,   1,         16) /* ItemType - Creature */
@@ -173,6 +173,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2498, 2,  5916,  0, 0, 0, False) /* Create Dho Creature Master Robe (5916) for Wield */
+     , (2498, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
+     , (2498, 4, 41424, -1, 0, 0, False) /* Create Refining Polish (Mana) (41424) for Shop */
+     , (2498, 4, 41425, -1, 0, 0, False) /* Create Refining Polish (Stamina) (41425) for Shop */
      , (2498, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (2498, 4,   689, -1, 0, 0, False) /* Create Iron Scarab (689) for Shop */
      , (2498, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */

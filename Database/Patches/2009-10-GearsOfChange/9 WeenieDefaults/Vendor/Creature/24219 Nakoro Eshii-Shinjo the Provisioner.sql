@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24219;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24219, 'waijhoushopkeep', 12, '2005-02-09 10:00:00') /* Vendor */;
+VALUES (24219, 'waijhoushopkeep', 12, '2020-06-06 10:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24219,   1,         16) /* ItemType - Creature */
@@ -258,6 +258,9 @@ VALUES (24219, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (24219, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
      , (24219, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */
      , (24219, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
+     , (24219, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (24219, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (24219, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (24219, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
      , (24219, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
      , (24219, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */

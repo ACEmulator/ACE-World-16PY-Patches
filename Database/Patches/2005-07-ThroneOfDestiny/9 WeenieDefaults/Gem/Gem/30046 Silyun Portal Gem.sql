@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30046;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30046, 'gemportalsilyun', 38, '2019-02-04 06:52:23') /* Gem */;
+VALUES (30046, 'gemportalsilyun', 38, '2020-05-13 06:52:23') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30046,   1,       2048) /* ItemType - Gem */
@@ -25,7 +25,7 @@ VALUES (30046,   1,       2048) /* ItemType - Gem */
      , (30046, 110,          0) /* ItemAllegianceRankLimit */
      , (30046, 150,        103) /* HookPlacement - Hook */
      , (30046, 151,          2) /* HookType - Wall */
-     , (30046, 280,         60) /* SharedCooldown */;
+     , (30046, 280,       1000) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30046,  15, True ) /* LightsStatus */
