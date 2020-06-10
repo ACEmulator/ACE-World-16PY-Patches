@@ -9,7 +9,7 @@ VALUES (35191,   1,         16) /* ItemType - Creature */
      , (35191,   6,         -1) /* ItemsCapacity */
      , (35191,   7,         -1) /* ContainersCapacity */
      , (35191,  16,         32) /* ItemUseable - Remote */
-     , (35191,  25,          7) /* Level */
+     , (35191,  25,        235) /* Level */
      , (35191,  27,          0) /* ArmorType - None */
      , (35191,  40,          2) /* CombatMode - Melee */
      , (35191,  68,          5) /* TargetingTactic - Random, LastDamager */
@@ -97,18 +97,18 @@ VALUES (35191,  6, 0, 3, 0, 230, 0, 0) /* MeleeDefense        Specialized */
      , (35191, 20, 0, 3, 0,   1, 0, 0) /* Deception           Specialized */
      , (35191, 24, 0, 2, 0,  40, 0, 0) /* Run                 Trained */
      , (35191, 34, 0, 2, 0, 100, 0, 0) /* WarMagic            Trained */
-     , (35191, 44, 0, 3, 0, 350, 0, 0) /* HeavyWeapons        Specialized */
-     , (35191, 45, 0, 3, 0, 350, 0, 0) /* LightWeapons        Specialized */
-     , (35191, 46, 0, 3, 0, 350, 0, 0) /* FinesseWeapons      Specialized */;
+     , (35191, 44, 0, 3, 0, 250, 0, 0) /* HeavyWeapons        Specialized */
+     , (35191, 45, 0, 3, 0, 250, 0, 0) /* LightWeapons        Specialized */
+     , (35191, 46, 0, 3, 0, 250, 0, 0) /* FinesseWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (35191,  0,  2, 100, 0.75,   700,    7,    4,    5,    7,   12,    4,   12,    0, 1,  0.5,  0.2,    0,  0.5,  0.2,    0,    0,    0,    0,    0,    0,    0) /* Head */
-     , (35191, 10,  4,   0,    0,   700,    3,    2,    3,    3,    6,    2,    6,    0, 2,  0.2,  0.4,  0.5,  0.2,  0.4,  0.5,    0,    0,    0,    0,    0,    0) /* FrontLeg */
-     , (35191, 12,  1, 100,  0.3,   700,    3,    2,    3,    2,    6,    2,    6,    0, 3,    0,    0, 0.25,    0,    0, 0.25,    0,    0,    0,    0,    0,    0) /* FrontFoot */
-     , (35191, 13,  4,   0,    0,   700,    3,    2,    3,    3,    6,    2,    6,    0, 2,    0,    0,    0,    0,    0,    0,  0.3,  0.4,  0.5,  0.3,  0.4,  0.5) /* RearLeg */
-     , (35191, 15,  1, 100,  0.3,   700,    3,    2,    3,    3,    6,    2,    6,    0, 3,    0,    0,    0,    0,    0,    0,    0,    0, 0.25,    0,    0, 0.25) /* RearFoot */
-     , (35191, 16,  4,   0,    0,   700,    4,    2,    3,    4,    7,    2,    7,    0, 2,  0.3,  0.4, 0.25,  0.3,  0.4, 0.25,  0.6,  0.5, 0.25,  0.6,  0.5, 0.25) /* Torso */
-     , (35191, 17,  4, 100,  0.9,   700,    3,    2,    3,    3,    6,    2,    6,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
+VALUES (35191,  0,  0,  75, 0.75,   700,    7,    4,    5,    7,   12,    4,   12,    0, 1,  0.5,  0.2,    0,  0.5,  0.2,    0,    0,    0,    0,    0,    0,    0) /* Head */
+     , (35191, 10,  0,   0,    0,   700,    3,    2,    3,    3,    6,    2,    6,    0, 2,  0.2,  0.4,  0.5,  0.2,  0.4,  0.5,    0,    0,    0,    0,    0,    0) /* FrontLeg */
+     , (35191, 12,  0,  75,  0.3,   700,    3,    2,    3,    2,    6,    2,    6,    0, 3,    0,    0, 0.25,    0,    0, 0.25,    0,    0,    0,    0,    0,    0) /* FrontFoot */
+     , (35191, 13,  0,   0,    0,   700,    3,    2,    3,    3,    6,    2,    6,    0, 2,    0,    0,    0,    0,    0,    0,  0.3,  0.4,  0.5,  0.3,  0.4,  0.5) /* RearLeg */
+     , (35191, 15,  0,  75,  0.3,   700,    3,    2,    3,    3,    6,    2,    6,    0, 3,    0,    0,    0,    0,    0,    0,    0,    0, 0.25,    0,    0, 0.25) /* RearFoot */
+     , (35191, 16,  0,   0,    0,   700,    4,    2,    3,    4,    7,    2,    7,    0, 2,  0.3,  0.4, 0.25,  0.3,  0.4, 0.25,  0.6,  0.5, 0.25,  0.6,  0.5, 0.25) /* Torso */
+     , (35191, 17,  0,  75,  0.9,   700,    3,    2,    3,    3,    6,    2,    6,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35191, 9, 34457,  0, 0, 1, False) /* Create Thunder Chicken Token (34457) for ContainTreasure */
@@ -123,12 +123,12 @@ VALUES (35191, 9, 34457,  0, 0, 1, False) /* Create Thunder Chicken Token (34457
      , (35191, 9, 34457,  0, 0, 1, False) /* Create Thunder Chicken Token (34457) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35191,  3974,   2.04)  /* lightning bomb */
+VALUES (35191,  3974,   2.04)  /* Lightning BombT */
      , (35191,  3941,   2.04)  /* Heavy Lightning Ring */
      , (35191,  5969,   2.04)  /* Galvanic Strike */
-     , (35191,  5972,   2.04)  /* Galvanic Bomb */
-     , (35191,  4426,   2.04)  /* Incantation of Lightning Arc */
-     , (35191,  2140,   2.06)  /* Alsets coil */;
+     , (35191,  3885,   2.04)  /* Galvanic Ring */
+     , (35191,  2738,   2.04)  /* Lightning Arc VII */
+     , (35191,  2140,   2.06)  /* Alsets Coil */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35191, 9, 34610,  1, 0, 0.02, False) /* Create Golden Egg (34610) for ContainTreasure */
