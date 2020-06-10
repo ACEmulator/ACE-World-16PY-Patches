@@ -4,7 +4,7 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (36624, 'ace36624-foolproofimperialtopaz', 44, '2020-06-08 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (36624,   1, 1073741824) /* ItemType - TinkeringMaterial */
+VALUES (36624,   1,        128) /* ItemType - Misc */
      , (36624,   3,         14) /* PaletteTemplate - Red */
      , (36624,   5,          5) /* EncumbranceVal */
      , (36624,  11,          1) /* MaxStackSize */
