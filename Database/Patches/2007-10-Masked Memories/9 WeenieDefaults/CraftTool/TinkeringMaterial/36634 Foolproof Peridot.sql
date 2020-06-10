@@ -18,7 +18,7 @@ VALUES (36634,   1,        128) /* ItemType - Misc */
      , (36634,  91,        100) /* MaxStructure */
      , (36634,  92,        100) /* Structure */
      , (36634,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36634,  94,          6) /* TargetType - Vestements */
+     , (36634,  94,          2) /* TargetType - Armor */
      , (36634, 105,        100) /* ItemWorkmanship */
      , (36634, 131,         34) /* MaterialType - Peridot */
      , (36634, 151,          9) /* HookType - Floor, Yard */

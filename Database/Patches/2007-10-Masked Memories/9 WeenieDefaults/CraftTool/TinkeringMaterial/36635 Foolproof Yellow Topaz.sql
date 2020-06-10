@@ -18,7 +18,7 @@ VALUES (36635,   1,        128) /* ItemType - Misc */
      , (36635,  91,        100) /* MaxStructure */
      , (36635,  92,        100) /* Structure */
      , (36635,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36635,  94,          6) /* TargetType - Vestements */
+     , (36635,  94,          2) /* TargetType - Armor */
      , (36635, 105,        100) /* ItemWorkmanship */
      , (36635, 131,         49) /* MaterialType - YellowTopaz */
      , (36635, 151,          9) /* HookType - Floor, Yard */
