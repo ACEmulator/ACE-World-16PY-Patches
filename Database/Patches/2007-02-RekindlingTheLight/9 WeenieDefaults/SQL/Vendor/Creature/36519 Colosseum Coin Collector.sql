@@ -53,7 +53,7 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (36519,   1,   800, 0, 0, 1120) /* MaxHealth */
      , (36519,   3,   851, 0, 0, 1491) /* MaxStamina */
      , (36519,   5,   500, 0, 0, 1085) /* MaxMana */;
-     
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (36519,  2 /* Vendor */,    1, NULL, NULL, NULL, NULL, 1 /* Open */, NULL, NULL);
 
@@ -137,8 +137,8 @@ VALUES (36519, 4, 36515, -1,  0, 0, False) /* Create Wrapped Pyreal Sliver (3651
      , (36519, 4, 36537, -1,  0, 0, False) /* Create Scroll of Colosseum Recall (36537) for Shop */
      , (36519, 4, 38886, -1,  0, 0, False) /* Create Colosseum Medallion of Honor (38886) for Shop */
      , (36519, 4, 39914, -1,  0, 0, False) /* Create Empyrean Crystal (39914) for Shop */
-     , (36519, 4, 39977, -1,  0, 0, False) /* Create Gladiatorial Leggings (39977) for Shop */
-     , (36519, 4, 39978, -1,  0, 0, False) /* Create Gladiatorial Tunic (39978) for Shop */
+     , (36519, 4, 39977, -1,  11, 0.7, False) /* Create Gladiatorial Leggings (39977) for Shop */
+     , (36519, 4, 39978, -1,  11, 0, False) /* Create Gladiatorial Tunic (39978) for Shop */
      , (36519, 4, 40140, -1,  0, 0, False) /* Create Tome of Flame (40140) for Shop */
      , (36519, 4, 40605, -1,  0, 0, False) /* Create Armor Upgrade Kit Containment Gem (40605) for Shop */
      , (36519, 4, 41917, -1,  0, 0, False) /* Create Weapon Upgrade Kit Containment Gem (41917) for Shop */
