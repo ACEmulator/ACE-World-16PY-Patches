@@ -1,5 +1,3 @@
-/* The Janthef you fight at the bottom */
-
 DELETE FROM `weenie` WHERE `class_Id` = 48801;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -7,13 +5,15 @@ VALUES (48801, 'ace48801-janthef', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48801,   1,         16) /* ItemType - Creature */
-     , (48801,   3,         19) /* Palette Template Copper */
      , (48801,   2,         77) /* CreatureType - Ghost */
+     , (48801,   3,         19) /* PaletteTemplate - Copper */
      , (48801,   6,         -1) /* ItemsCapacity */
      , (48801,   7,         -1) /* ContainersCapacity */
      , (48801,  16,          1) /* ItemUseable - No */
      , (48801,  25,        240) /* Level */
      , (48801,  27,          0) /* ArmorType - None */
+     , (48801,  81,          1) /* MaxGeneratedObjects */
+     , (48801,  82,          0) /* InitGeneratedObjects */
      , (48801,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (48801,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (48801, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,8 +28,8 @@ VALUES (48801,   1, True ) /* Stuck */
      , (48801,  11, False) /* IgnoreCollisions */
      , (48801,  12, True ) /* ReportCollisions */
      , (48801,  13, False) /* Ethereal */
-     , (48801,  58, True ) /* SpellQueueActive */
-     , (48801,  29, True ) /* No Corpse */;
+     , (48801,  29, True ) /* NoCorpse */
+     , (48801,  58, True ) /* SpellQueueActive */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48801,   1,       5) /* HeartbeatInterval */
@@ -37,12 +37,7 @@ VALUES (48801,   1,       5) /* HeartbeatInterval */
      , (48801,   3,    0.15) /* HealthRate */
      , (48801,   4,       5) /* StaminaRate */
      , (48801,   5,       1) /* ManaRate */
-     , (48801,  12,  0.1000) /* Shade */
-     , (48801,  39,     1.1) /* DefaultScale */
-     , (48801,  54,       3) /* UseRadius */
-     , (48801,  76,     0.4) /* Translucency */
-     , (48801, 104,      10) /* ObviousRadarRange */
-     , (48801, 125,       1) /* ResistHealthDrain */
+     , (48801,  12,     0.1) /* Shade */
      , (48801,  13,       1) /* ArmorModVsSlash */
      , (48801,  14,     0.9) /* ArmorModVsPierce */
      , (48801,  15,    0.75) /* ArmorModVsBludgeon */
@@ -54,6 +49,8 @@ VALUES (48801,   1,       5) /* HeartbeatInterval */
      , (48801,  31,      22) /* VisualAwarenessRange */
      , (48801,  34,       1) /* PowerupTime */
      , (48801,  36,       1) /* ChargeSpeed */
+     , (48801,  39,     1.1) /* DefaultScale */
+     , (48801,  54,       3) /* UseRadius */
      , (48801,  64,    0.25) /* ResistSlash */
      , (48801,  65,    0.25) /* ResistPierce */
      , (48801,  66,     0.9) /* ResistBludgeon */
@@ -61,15 +58,18 @@ VALUES (48801,   1,       5) /* HeartbeatInterval */
      , (48801,  68,     0.3) /* ResistCold */
      , (48801,  69,     0.9) /* ResistAcid */
      , (48801,  70,     0.4) /* ResistElectric */
-     , (48801, 166,     1.2) /* ResistNether */
      , (48801,  71,       1) /* ResistHealthBoost */
      , (48801,  72,       1) /* ResistStaminaDrain */
      , (48801,  73,       1) /* ResistStaminaBoost */
      , (48801,  74,       1) /* ResistManaDrain */
      , (48801,  75,       1) /* ResistManaBoost */
+     , (48801,  76,     0.4) /* Translucency */
      , (48801,  80,       3) /* AiUseMagicDelay */
+     , (48801, 104,      10) /* ObviousRadarRange */
      , (48801, 117,     0.5) /* FocusedProbability */
-     , (48801, 122,       2) /* AiAcquireHealth */;
+     , (48801, 122,       2) /* AiAcquireHealth */
+     , (48801, 125,       1) /* ResistHealthDrain */
+     , (48801, 166,     1.2) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48801,   1, 'Janthef') /* Name */;
@@ -78,11 +78,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48801,   1,   33561251) /* Setup */
      , (48801,   2,  150994945) /* MotionTable */
      , (48801,   3,  536870933) /* SoundTable */
+     , (48801,   4,  805306368) /* CombatTable */
      , (48801,   6,   67108990) /* PaletteBase */
      , (48801,   8,  100670274) /* Icon */
-     , (48801,   4,  805306368) /* CombatTable */
      , (48801,  22,  872415269) /* PhysicsEffectTable */;
-
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (48801,   1, 350, 0, 0) /* Strength */
@@ -93,7 +92,7 @@ VALUES (48801,   1, 350, 0, 0) /* Strength */
      , (48801,   6, 450, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48801,   1, 16225, 0, 0,16425) /* MaxHealth */
+VALUES (48801,   1, 16225, 0, 0, 16425) /* MaxHealth */
      , (48801,   3,  5400, 0, 0, 5620) /* MaxStamina */
      , (48801,   5,  1550, 0, 0, 1880) /* MaxMana */;
 
@@ -120,7 +119,7 @@ VALUES (48801,  0,  4,  0,    0,  400,  400,  400,  400,  250,  400,  400,  400,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (48801,  4422,   2.06)  /* Incantation of Blade Arc */
-     , (48801,  4435,   2.06)  /*  Incantation of Blade Blast */
+     , (48801,  4435,   2.06)  /* Incantation of Blade Blast */
      , (48801,  4475,   2.06)  /* Incantation of Blade Vulnerability Other */
      , (48801,  4633,   2.16)  /* Incantation of Vulnerability Other */;
 
@@ -133,5 +132,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48801, 1, 48816, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Spirit of Janthef  - Location to (re)Generate: Scatter */;
-
+VALUES (48801, 1, 48816, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Spirit of Janthef (48816) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
