@@ -115,8 +115,8 @@ VALUES (35487, 2,   359,  1,  0,      0, False) /* Create War Hammer (359) for W
      , (35487, 4, 35377, -1,  0,      0, False) /* Create Replica BloodScorch (35377) for Shop */
      , (35487, 4, 40652, -1,  0,      0, False) /* Create Great BloodScorch (40652) for Shop */
      , (35487, 4, 38809, -1,  0,      0, False) /* Create Ancient Emblem of Mhoire (38809) for Shop */
-     , (35487, 4, 39979, -1,  0,      0, False) /* Create Ceremonial Leggings (39979) for Shop */
-     , (35487, 4, 39980, -1,  0,      0, False) /* Create Ceremonial Tunic (39980) for Shop */
+     , (35487, 4, 39979, -1,  9, 0.6047, False) /* Create Ceremonial Leggings (39979) for Shop */
+     , (35487, 4, 39980, -1,  9,      0, False) /* Create Ceremonial Tunic (39980) for Shop */
      , (35487, 4, 40141, -1,  0,      0, False) /* Create Tome of Chill (40141) for Shop */
      , (35487, 4, 40606, -1,  0,      0, False) /* Create Armor Upgrade Kit Containment Gem (40606) for Shop */
      , (35487, 4, 41918, -1,  0,      0, False) /* Create Weapon Upgrade Kit Containment Gem (41918) for Shop */
