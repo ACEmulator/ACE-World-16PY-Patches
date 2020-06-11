@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44858;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44858, 'ace44858-quarteredcloak', 2, '2020-06-07 10:36:24') /* Clothing */;
+VALUES (44858, 'ace44858-quarteredcloak', 2, '2020-06-05 18:19:11') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44858,   1,          4) /* ItemType - Clothing */
@@ -36,14 +36,14 @@ VALUES (44858,  11, True ) /* IgnoreCollisions */
      , (44858, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44858,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (44858,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (44858,  15,       1) /* ArmorModVsBludgeon */
-     , (44858,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (44858,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (44858,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (44858,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (44858, 165,       1) /* ArmorModVsNether */;
+VALUES (44858,  13, 0.8) /* ArmorModVsSlash */
+     , (44858,  14, 0.8) /* ArmorModVsPierce */
+     , (44858,  15,   1) /* ArmorModVsBludgeon */
+     , (44858,  16, 0.2) /* ArmorModVsCold */
+     , (44858,  17, 0.2) /* ArmorModVsFire */
+     , (44858,  18, 0.1) /* ArmorModVsAcid */
+     , (44858,  19, 0.2) /* ArmorModVsElectric */
+     , (44858, 165,   1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44858,   1, 'Quartered Cloak') /* Name */
@@ -57,13 +57,3 @@ VALUES (44858,   1,   33561386) /* Setup */
      , (44858,   8,  100692132) /* Icon */
      , (44858,  22,  872415275) /* PhysicsEffectTable */
      , (44858,  36,  234881054) /* MutateFilter */;
-
-/* Lifestoned Changelog:
-{
-  "LastModified": "2020-04-25T20:12:44.9590982-04:00",
-  "ModifiedBy": "Morosity",
-  "Changelog": [],
-  "UserChangeSummary": null,
-  "IsDone": false
-}
-*/
