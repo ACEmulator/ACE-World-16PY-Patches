@@ -28,4 +28,5 @@ VALUES (@parent_id, 3,  40, '', 3, 0) /* ImbuerName */;
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8012;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8012, 30098 /* Foolproof Fire Opal */,   314 /* Dagger */, '2019-04-23 05:27:10');
+VALUES (8012, 30098 /* Foolproof Fire Opal */,   314 /* Dagger */, '2019-04-23 05:27:10')
+     , (8012, 36623 /* Foolproof Fire Opal */,   314 /* Dagger */, '2019-04-23 05:27:10');
