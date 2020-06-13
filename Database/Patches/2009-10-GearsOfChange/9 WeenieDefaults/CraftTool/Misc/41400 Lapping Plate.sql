@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41400;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41400, 'ace41400-lappingplate', 44, '2019-02-10 00:00:00') /* CraftTool */;
+VALUES (41400, 'ace41400-lappingplate', 44, '2020-06-13 06:25:59') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41400,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
@@ -29,3 +29,19 @@ VALUES (41400,   1,   33554817) /* Setup */
      , (41400,   3,  536870932) /* SoundTable */
      , (41400,   8,  100690577) /* Icon */
      , (41400,  22,  872415275) /* PhysicsEffectTable */;
+
+/* Lifestoned Changelog:
+{
+  "LastModified": null,
+  "ModifiedBy": null,
+  "Changelog": [
+    {
+      "created": "2020-03-29T04:09:46.2634731Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    }
+  ],
+  "UserChangeSummary": "Submission by Drid",
+  "IsDone": false
+}
+*/
