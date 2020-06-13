@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32672;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32672, 'ace32672-blackpageofsaltandash', 38, '2019-11-02 03:08:29') /* Gem */;
+VALUES (32672, 'ace32672-blackpageofsaltandash', 38, '2020-06-12 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32672,   1,       2048) /* ItemType - Gem */
@@ -12,7 +12,6 @@ VALUES (32672,   1,       2048) /* ItemType - Gem */
      , (32672,  18,          1) /* UiEffects - Magical */
      , (32672,  19,          0) /* Value */
 	 , (32672,  33,          1) /* Bonded YES */
-     , (32672,  53,        101) /* PlacementPosition - Resting */
      , (32672,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32672,  94,      32768) /* TargetType - Caster */
      , (32672, 106,        300) /* ItemSpellcraft */
@@ -34,7 +33,7 @@ VALUES (32672,   1, 'Black Page of Salt and Ash') /* Name */
      , (32672,  14, 'Use this page to infuse your wielded weapon with the Invocation of the Black Book, adding a 10% bonus to its Attack modifier.  This spell stacks with other spells and cantrips.') /* Use */
      , (32672,  15, 'A page of an ancient book with runes that are unintelligible, but still seem to make sense to your eyes...') /* ShortDesc */
      , (32672,  20, 'Black Pages of Salt and Ash') /* PluralName */;
-	 
+
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32672,   1,   33554809) /* Setup */
      , (32672,   3,  536870932) /* SoundTable */
