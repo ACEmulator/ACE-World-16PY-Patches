@@ -5,6 +5,7 @@ VALUES (53161, 'ace53161-luminousamberofthe16thtierparagon', 44, '2019-02-10 00:
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53161,   1,       2048) /* ItemType - Gem */
+     , (53161,   3,         83) /* PaletteTemplate - Amber */
      , (53161,   5,        100) /* EncumbranceVal */
      , (53161,  11,          1) /* MaxStackSize */
      , (53161,  12,          1) /* StackSize */
@@ -15,8 +16,7 @@ VALUES (53161,   1,       2048) /* ItemType - Gem */
      , (53161,  19,         25) /* Value */
      , (53161,  33,          1) /* Bonded - Bonded */
      , (53161,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53161,  94,      33025) /* TargetType - WeaponOrCaster */
-     , (53161, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (53161,  94,      33025) /* TargetType - WeaponOrCaster */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53161,  22, True ) /* Inscribable */
@@ -32,22 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53161,   1,   33554809) /* Setup */
      , (53161,   3,  536870932) /* SoundTable */
      , (53161,   6,   67111919) /* PaletteBase */
+     , (53161,   7,  268435723) /* ClothingBase */
      , (53161,   8,  100693327) /* Icon */
      , (53161,  22,  872415275) /* PhysicsEffectTable */
-     , (53161,  52,  100691593) /* IconUnderlay */
-     , (53161, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (53161, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (53161, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (53161, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53161, 8000, 3434237500) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (53161, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (53161, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (53161, 0, 16779181);
+     , (53161,  52,  100691593) /* IconUnderlay */;
