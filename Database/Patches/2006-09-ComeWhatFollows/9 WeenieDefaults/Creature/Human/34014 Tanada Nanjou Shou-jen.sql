@@ -116,12 +116,11 @@ VALUES (34014,  2074,  2.035)  /* Gossamer Flesh */
      , (34014,  4021,  2.035)  /* Flurry of Stars */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34014, 1, 34015,  1, 0, 1, False) /* Create  (34015) for Contain */
+VALUES (34014, 1, 34015,  1, 0, 1, False) /* Create Golden Shuriken of Tanada (34015) for Contain */
      , (34014, 2, 33973,  0, 0, 1, False) /* Create Shou-jen Jika-Tabi (33973) for Wield */
      , (34014, 2, 33976,  0, 0, 1, False) /* Create Shou-jen Shozoku Mask (33976) for Wield */
      , (34014, 2, 33975,  0, 0, 1, False) /* Create Shou-jen Shozoku Jacket (33975) for Wield */
      , (34014, 2, 33974,  0, 0, 1, False) /* Create Shou-jen Shozoku Sleeve Gauntlets (33974) for Wield */
-     , (34014, 2, 46644,  0, 0, 1, False) /* Create  (46644) for Wield */
      , (34014, 2, 33977,  0, 0, 1, False) /* Create Shou-jen Shozoku Trousers (33977) for Wield */
      , (34014, 10, 34018,  1, 0, 0.5, False) /* Create Frost Tachi (34018) for WieldTreasure */
      , (34014, 10, 34017,  1, 0, 0.5, False) /* Create Tachi (34017) for WieldTreasure */;
