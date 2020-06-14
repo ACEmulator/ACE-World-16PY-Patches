@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21074;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (21074, 'materialsapphire', 44, '2005-02-09 10:00:00') /* CraftTool */;
+VALUES (21074, 'materialsapphire', 44, '2020-06-14 10:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21074,   1, 1073741824) /* ItemType - TinkeringMaterial */
@@ -30,7 +30,7 @@ VALUES (21074,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21074,   1, 'Salvaged Sapphire') /* Name */
-     , (21074,  14, 'Apply this material to a Minor, Moderate or Major Armature to prepare it. Then apply this material to the prepared Armature. This Armature can then be used on a magical loot-generated Trinket to add Minor, Moderate or Major Augmented Damage. This also increases the Spellcraft and Arcane Lore of the trinket by 25.') /* Use */
+     , (21074,  14, 'Apply this material to a Minor, Moderate or Major Armature to prepare it. Then apply this material to the prepared Armature. This Armature can then be used on a magical loot-generated Trinket to add Minor, Moderate or Major Augmented Mana. This also increases the Spellcraft and Arcane Lore of the trinket by 25.') /* Use */
      , (21074,  15, 'Chips of sapphire material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
