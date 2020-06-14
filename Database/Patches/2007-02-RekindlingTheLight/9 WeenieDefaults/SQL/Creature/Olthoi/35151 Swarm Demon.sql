@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35151;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35151, 'ace35151-swarmdemon', 10, '2020-06-04 00:00:00') /* Creature */;
+VALUES (35151, 'ace35151-swarmdemon', 10, '2020-06-14 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35151,   1,         16) /* ItemType - Creature */
@@ -21,8 +21,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35151,   1, True ) /* Stuck */
      , (35151,  12, True ) /* ReportCollisions */
      , (35151,  14, True ) /* GravityStatus */
-     , (35151,  19, True ) /* Attackable */
-     , (35151, 103, True ) /* NonProjectileMagicImmune */;
+     , (35151,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35151,   1,       5) /* HeartbeatInterval */
