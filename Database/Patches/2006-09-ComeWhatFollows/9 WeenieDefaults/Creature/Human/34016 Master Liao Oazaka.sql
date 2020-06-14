@@ -6,8 +6,8 @@ VALUES (34016, 'ace34016-masterliaooazaka', 10, '2020-06-07 05:12:04') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34016,   1,         16) /* ItemType - Creature */
      , (34016,   2,         31) /* CreatureType - Human */
-     , (34016,   6,        255) /* ItemsCapacity */
-     , (34016,   7,        255) /* ContainersCapacity */
+     , (34016,   6,         -1) /* ItemsCapacity */
+     , (34016,   7,         -1) /* ContainersCapacity */
      , (34016,  16,         32) /* ItemUseable - Remote */
      , (34016,  25,        275) /* Level */
      , (34016,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -15,11 +15,11 @@ VALUES (34016,   1,         16) /* ItemType - Creature */
      , (34016, 113,          1) /* Gender - Male */
      , (34016, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (34016, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (34016, 188,          3) /* HeritageGroup - Sho */
-     , (34016, 307,          5) /* DamageRating */;
+     , (34016, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34016,   1, True ) /* Stuck */
+     , (34016,   8, True ) /* AllowGive */
      , (34016,  11, True ) /* IgnoreCollisions */
      , (34016,  12, True ) /* ReportCollisions */
      , (34016,  14, True ) /* GravityStatus */
@@ -166,4 +166,3 @@ VALUES (34016, 2,   130,  0, 93, 0.5, False) /* Create Shirt (130) for Wield */
      , (34016, 2, 27219,  0, 14, 0, False) /* Create Chiran Sandals (27219) for Wield */
      , (34016, 2, 27216,  0, 14, 0, False) /* Create Chiran Gauntlets (27216) for Wield */
      , (34016, 2, 27217,  0, 14, 0, False) /* Create Chiran Helm (27217) for Wield */;
-

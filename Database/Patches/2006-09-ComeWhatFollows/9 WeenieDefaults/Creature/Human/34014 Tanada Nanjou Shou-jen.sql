@@ -26,9 +26,7 @@ VALUES (34014,   1, True ) /* Stuck */
      , (34014,  11, False) /* IgnoreCollisions */
      , (34014,  12, True ) /* ReportCollisions */
      , (34014,  13, False) /* Ethereal */
-     , (34014,  58, True ) /* SpellQueueActive */
-     , (34014, 101, True ) /* CanGenerateRare */
-     , (34014, 102, True ) /* CorpseGeneratedRare */;
+     , (34014,  58, True ) /* SpellQueueActive */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34014,   1,       5) /* HeartbeatInterval */
@@ -127,5 +125,4 @@ VALUES (34014, 1, 34015,  1, 0, 1, False) /* Create  (34015) for Contain */
      , (34014, 2, 33977,  0, 0, 1, False) /* Create Shou-jen Shozoku Trousers (33977) for Wield */
      , (34014, 10, 34018,  1, 0, 0.5, False) /* Create Frost Tachi (34018) for WieldTreasure */
      , (34014, 10, 34017,  1, 0, 0.5, False) /* Create Tachi (34017) for WieldTreasure */;
-
 
