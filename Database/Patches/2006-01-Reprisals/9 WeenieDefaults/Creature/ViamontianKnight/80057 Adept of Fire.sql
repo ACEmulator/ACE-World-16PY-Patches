@@ -105,13 +105,13 @@ VALUES (80057,  0,  4,  0,    0,  544,  544,  544,  544,  544,  412,  544,  412,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (80057,   234,   2.02)  /* Vulnerability Other VI */
      , (80057,   574,   2.02)  /* Creature Enchantment Ineptitude Other VI */
-     , (80057,   628,   2.02)  /* Life Magic Ineptitude Other VI */
+     , (80057,   628,    2.5)  /* Life Magic Ineptitude Other VI */
      , (80057,   652,   2.02)  /* War Magic Ineptitude Other VI */
      , (80057,  1108,   2.02)  /* Fire Vulnerability Other VI */
      , (80057,  1327,   2.02)  /* Imperil Other VI */
-     , (80057,  2127,   2.02)  /* Silencia's Scorn */
-     , (80057,  2128,   2.02)  /* Ilservian's Flame */
-     , (80057,  2129,   2.02)  /* Sizzling Fury */;
+     , (80057,  2127,  2.074)  /* Silencia's Scorn */
+     , (80057,  2128,  2.077)  /* Ilservian's Flame */
+     , (80057,  2129,      3)  /* Sizzling Fury */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (80057,  5 /* HeartBeat */,  0.025, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

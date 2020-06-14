@@ -103,16 +103,16 @@ VALUES (80059,  0,  4,  0,    0,  544,  544,  544,  544,  544,  412,  544,  412,
      , (80059,  8,  4, 125,  0.4,  544,  544,  544,  544,  544,  412,  544,  412,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (80059,   234,   2.02)  /* Vulnerability Other VI */
-     , (80059,   574,   2.02)  /* Creature Enchantment Ineptitude Other VI */
-     , (80059,   628,   2.02)  /* Life Magic Ineptitude Other VI */
-     , (80059,   652,   2.02)  /* War Magic Ineptitude Other VI */
-     , (80059,  1089,   2.02)  /* Lightning Vulnerability Other VI */
-     , (80059,  1327,   2.02)  /* Imperil Other VI */
-     , (80059,  2140,   2.02)  /* Alset's Coil */
-     , (80059,  2139,   2.02)  /* Luminous Wrath */
-     , (80059,  2141,   2.02)  /* Lhen's Flare */
-     , (80059,  2738,   2.02)  /* Lightning Arc VII */;
+VALUES (80059,   234,  2.02)  /* Vulnerability Other VI */
+     , (80059,   574,  2.47)  /* Creature Enchantment Ineptitude Other VI */
+     , (80059,   628,  2.02)  /* Life Magic Ineptitude Other VI */
+     , (80059,   652,  2.11)  /* War Magic Ineptitude Other VI */
+     , (80059,  1089,  2.02)  /* Lightning Vulnerability Other VI */
+     , (80059,  1327,   2.5)  /* Imperil Other VI */
+     , (80059,  2140,  2.02)  /* Alset's Coil */
+     , (80059,  2139, 2.071)  /* Luminous Wrath */
+     , (80059,  2141, 2.077)  /* Lhen's Flare */
+     , (80059,  2738,     3)  /* Lightning Arc VII */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (80059,  5 /* HeartBeat */,  0.025, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

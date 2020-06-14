@@ -104,15 +104,15 @@ VALUES (80056,  0,  4,  0,    0,  544,  544,  544,  544,  544,  412,  544,  412,
      , (80056,  8,  4, 125,  0.4,  544,  544,  544,  544,  544,  412,  544,  412,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (80056,   234,   2.02)  /* Vulnerability Other VI */
-     , (80056,   526,   2.02)  /* Acid Vulnerability Other VI */
-     , (80056,   574,   2.02)  /* Creature Enchantment Ineptitude Other VI */
-     , (80056,   628,   2.02)  /* Life Magic Ineptitude Other VI */
-     , (80056,   652,   2.02)  /* War Magic Ineptitude Other VI */
-     , (80056,  1327,   2.02)  /* Imperil Other VI */
+VALUES (80056,   234,   2.077)  /* Vulnerability Other VI */
+     , (80056,   526,   2.071)  /* Acid Vulnerability Other VI */
+     , (80056,   574,   2.1)  /* Creature Enchantment Ineptitude Other VI */
+     , (80056,   628,   2.111)  /* Life Magic Ineptitude Other VI */
+     , (80056,   652,   2.143)  /* War Magic Ineptitude Other VI */
+     , (80056,  1327,   2.167)  /* Imperil Other VI */
      , (80056,  2120,   2.02)  /* Dissolving Vortex */
-     , (80056,  2121,   2.02)  /* Corrosive Flash */
-     , (80056,  2123,   2.02)  /* Celdiseth's Searing */;
+     , (80056,  2121,   2.5)  /* Corrosive Flash */
+     , (80056,  2123,     3)  /* Celdiseth's Searing */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (80056,  5 /* HeartBeat */,  0.025, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

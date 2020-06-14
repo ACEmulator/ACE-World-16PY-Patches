@@ -103,15 +103,15 @@ VALUES (80058,  0,  4,  0,    0,  544,  544,  544,  544,  544,  412,  544,  412,
      , (80058,  8,  4, 125,  0.4,  544,  544,  544,  544,  544,  412,  544,  412,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (80058,   234,   2.02)  /* Vulnerability Other VI */
-     , (80058,   574,   2.02)  /* Creature Enchantment Ineptitude Other VI */
-     , (80058,   628,   2.02)  /* Life Magic Ineptitude Other VI */
-     , (80058,   652,   2.02)  /* War Magic Ineptitude Other VI */
-     , (80058,  1065,   2.02)  /* Cold Vulnerability Other VI */
-     , (80058,  1327,   2.02)  /* Imperil Other VI */
-     , (80058,  2135,   2.02)  /* Winter's Embrace */
-     , (80058,  2136,   2.02)  /* Icy Torment */
-     , (80058,  2731,   2.02)  /* Frost Arc VII */;
+VALUES (80058,   234,    2.06)  /* Vulnerability Other VI */
+     , (80058,   574,    2.02)  /* Creature Enchantment Ineptitude Other VI */
+     , (80058,   628,    2.41)  /* Life Magic Ineptitude Other VI */
+     , (80058,   652,   2.147)  /* War Magic Ineptitude Other VI */
+     , (80058,  1065,    2.02)  /* Cold Vulnerability Other VI */
+     , (80058,  1327,     2.5)  /* Imperil Other VI */
+     , (80058,  2135,   2.071)  /* Winter's Embrace */
+     , (80058,  2136,   2.077)  /* Icy Torment */
+     , (80058,  2731,       3)  /* Frost Arc VII */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (80058,  5 /* HeartBeat */,  0.025, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
