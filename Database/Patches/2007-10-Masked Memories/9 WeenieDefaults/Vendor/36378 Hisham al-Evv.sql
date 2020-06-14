@@ -107,7 +107,7 @@ VALUES (36378, 2,  5852,  0, 5, 0, False) /* Create Dho Vest and Robe (5852) for
      , (36378, 4, 41867, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Gromnie Hide (41867) for Shop */
      , (36378, 4, 41870, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Pyreal (41870) for Shop */
      , (36378, 4, 41873, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Ruby (41873) for Shop */
-     , (36378, 4, 39981, -1, 8, 0.7, False) /* Create Protective Leggings (39981) for Shop */
+     , (36378, 4, 39981, -1, 8, 0.6047, False) /* Create Protective Leggings (39981) for Shop */
      , (36378, 4, 39982, -1, 8, 0, False) /* Create Protective Tunic (39982) for Shop */
      , (36378, 4, 40139, -1, 0, 0, False) /* Create Tome of Caustics (40139) for Shop */
      , (36378, 4, 40607, -1, 0, 0, False) /* Create Armor Upgrade Kit Containment Gem (40607) for Shop */
