@@ -18,11 +18,7 @@ VALUES (37467,   1,        128) /* ItemType - Misc */
      , (37467, 269,          1) /* UseCreateQuantity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37467,  11, True ) /* IgnoreCollisions */
-     , (37467,  13, True ) /* Ethereal */
-     , (37467,  14, True ) /* GravityStatus */
-     , (37467,  19, True ) /* Attackable */
-     , (37467,  22, True ) /* Inscribable */;
+VALUES (37467,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37467,   1, 'Bow Stamped Spectral Ingot') /* Name */

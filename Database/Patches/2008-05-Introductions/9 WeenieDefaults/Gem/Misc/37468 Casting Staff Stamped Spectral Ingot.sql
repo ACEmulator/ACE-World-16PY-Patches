@@ -18,11 +18,7 @@ VALUES (37468,   1,        128) /* ItemType - Misc */
      , (37468, 269,          1) /* UseCreateQuantity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37468,  11, True ) /* IgnoreCollisions */
-     , (37468,  13, True ) /* Ethereal */
-     , (37468,  14, True ) /* GravityStatus */
-     , (37468,  19, True ) /* Attackable */
-     , (37468,  22, True ) /* Inscribable */;
+VALUES (37468,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37468,   1, 'Casting Staff Stamped Spectral Ingot') /* Name */

@@ -18,11 +18,7 @@ VALUES (37464,   1,        128) /* ItemType - Misc */
      , (37464, 269,          1) /* UseCreateQuantity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37464,  11, True ) /* IgnoreCollisions */
-     , (37464,  13, True ) /* Ethereal */
-     , (37464,  14, True ) /* GravityStatus */
-     , (37464,  19, True ) /* Attackable */
-     , (37464,  22, True ) /* Inscribable */;
+VALUES (37464,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37464,   1, 'Atlatl Stamped Spectral Ingot') /* Name */

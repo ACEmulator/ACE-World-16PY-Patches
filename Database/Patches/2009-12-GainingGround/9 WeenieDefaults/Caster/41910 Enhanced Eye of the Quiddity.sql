@@ -29,21 +29,16 @@ VALUES (41910,   1,      32768) /* ItemType - Caster */
      , (41910, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41910,  11, True ) /* IgnoreCollisions */
-     , (41910,  13, True ) /* Ethereal */
-     , (41910,  14, True ) /* GravityStatus */
-     , (41910,  15, True ) /* LightsStatus */
-     , (41910,  19, True ) /* Attackable */
-     , (41910,  22, True ) /* Inscribable */
+VALUES (41910,  22, True ) /* Inscribable */
      , (41910,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41910,   5, -0.025000000372529) /* ManaRate */
-     , (41910,  29, 1.12000000476837) /* WeaponDefense */
-     , (41910,  39, 0.800000011920929) /* DefaultScale */
-     , (41910, 144, 0.100000001490116) /* ManaConversionMod */
-     , (41910, 152, 1.08000004291534) /* ElementalDamageMod */
-     , (41910, 157,       1) /* ResistanceModifier */;
+VALUES (41910,   5, -0.025) /* ManaRate */
+     , (41910,  29,   1.12) /* WeaponDefense */
+     , (41910,  39,    0.8) /* DefaultScale */
+     , (41910, 144,    0.1) /* ManaConversionMod */
+     , (41910, 152,   1.08) /* ElementalDamageMod */
+     , (41910, 157,      1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41910,   1, 'Enhanced Eye of the Quiddity') /* Name */

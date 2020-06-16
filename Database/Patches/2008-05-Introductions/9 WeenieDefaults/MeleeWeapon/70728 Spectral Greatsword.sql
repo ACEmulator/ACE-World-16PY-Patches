@@ -33,24 +33,19 @@ VALUES (70728,   1,          1) /* ItemType - MeleeWeapon */
      , (70728, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (70728,  11, True ) /* IgnoreCollisions */
-     , (70728,  13, True ) /* Ethereal */
-     , (70728,  14, True ) /* GravityStatus */
-     , (70728,  15, True ) /* LightsStatus */
-     , (70728,  19, True ) /* Attackable */
-     , (70728,  22, True ) /* Inscribable */
+VALUES (70728,  22, True ) /* Inscribable */
      , (70728,  69, False) /* IsSellable */
      , (70728,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (70728,   5, -0.0500000007450581) /* ManaRate */
+VALUES (70728,   5,   -0.05) /* ManaRate */
      , (70728,  21,       0) /* WeaponLength */
-     , (70728,  22, 0.300000011920929) /* DamageVariance */
+     , (70728,  22,     0.3) /* DamageVariance */
      , (70728,  26,       0) /* MaximumVelocity */
-     , (70728,  29, 1.14999997615814) /* WeaponDefense */
-     , (70728,  62, 1.20000004768372) /* WeaponOffense */
+     , (70728,  29,    1.15) /* WeaponDefense */
+     , (70728,  62,     1.2) /* WeaponOffense */
      , (70728,  63,       1) /* DamageMod */
-     , (70728,  76, 0.699999988079071) /* Translucency */
+     , (70728,  76,     0.7) /* Translucency */
      , (70728, 136,       2) /* CriticalMultiplier */
      , (70728, 138,       2) /* SlayerDamageBonus */
      , (70728, 155,       1) /* IgnoreArmor */;

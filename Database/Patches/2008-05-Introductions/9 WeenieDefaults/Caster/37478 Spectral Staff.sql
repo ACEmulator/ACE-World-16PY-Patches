@@ -30,25 +30,20 @@ VALUES (37478,   1,      32768) /* ItemType - Caster */
      , (37478, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37478,  11, True ) /* IgnoreCollisions */
-     , (37478,  13, True ) /* Ethereal */
-     , (37478,  14, True ) /* GravityStatus */
-     , (37478,  15, True ) /* LightsStatus */
-     , (37478,  19, True ) /* Attackable */
-     , (37478,  22, True ) /* Inscribable */
+VALUES (37478,  22, True ) /* Inscribable */
      , (37478,  69, False) /* IsSellable */
      , (37478,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37478,   5, -0.0500000007450581) /* ManaRate */
-     , (37478,  29, 1.20000004768372) /* WeaponDefense */
-     , (37478,  39, 0.699999988079071) /* DefaultScale */
-     , (37478,  76, 0.699999988079071) /* Translucency */
+VALUES (37478,   5,   -0.05) /* ManaRate */
+     , (37478,  29,     1.2) /* WeaponDefense */
+     , (37478,  39,     0.7) /* DefaultScale */
+     , (37478,  76,     0.7) /* Translucency */
      , (37478, 136,       2) /* CriticalMultiplier */
      , (37478, 138,       2) /* SlayerDamageBonus */
-     , (37478, 144, 0.150000005960464) /* ManaConversionMod */
-     , (37478, 147, 0.300000011920929) /* CriticalFrequency */
-     , (37478, 152, 1.20000004768372) /* ElementalDamageMod */
+     , (37478, 144,     0.15) /* ManaConversionMod */
+     , (37478, 147,     0.3) /* CriticalFrequency */
+     , (37478, 152,     1.2) /* ElementalDamageMod */
      , (37478, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

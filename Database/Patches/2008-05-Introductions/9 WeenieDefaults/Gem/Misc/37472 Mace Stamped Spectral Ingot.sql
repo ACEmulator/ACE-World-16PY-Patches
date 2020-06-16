@@ -18,11 +18,7 @@ VALUES (37472,   1,        128) /* ItemType - Misc */
      , (37472, 269,          1) /* UseCreateQuantity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37472,  11, True ) /* IgnoreCollisions */
-     , (37472,  13, True ) /* Ethereal */
-     , (37472,  14, True ) /* GravityStatus */
-     , (37472,  19, True ) /* Attackable */
-     , (37472,  22, True ) /* Inscribable */;
+VALUES (37472,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37472,   1, 'Mace Stamped Spectral Ingot') /* Name */

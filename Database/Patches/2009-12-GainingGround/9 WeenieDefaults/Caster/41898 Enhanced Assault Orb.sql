@@ -28,22 +28,18 @@ VALUES (41898,   1,      32768) /* ItemType - Caster */
      , (41898, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41898,  11, True ) /* IgnoreCollisions */
-     , (41898,  13, True ) /* Ethereal */
-     , (41898,  14, True ) /* GravityStatus */
-     , (41898,  15, True ) /* LightsStatus */
-     , (41898,  19, True ) /* Attackable */
-     , (41898,  22, True ) /* Inscribable */;
+VALUES (41898,  22, True ) /* Inscribable */
+     , (41898,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41898,   5, -0.025000000372529) /* ManaRate */
-     , (41898,  29, 1.14999997615814) /* WeaponDefense */
-     , (41898,  39, 0.800000011920929) /* DefaultScale */
-     , (41898,  77,       1) /* PhysicsScriptIntensity */
-     , (41898, 138,     2.5) /* SlayerDamageBonus */
-     , (41898, 144, 0.150000005960464) /* ManaConversionMod */
-     , (41898, 152, 1.10000002384186) /* ElementalDamageMod */
-     , (41898, 157,       1) /* ResistanceModifier */;
+VALUES (41898,   5, -0.025) /* ManaRate */
+     , (41898,  29,   1.15) /* WeaponDefense */
+     , (41898,  39,    0.8) /* DefaultScale */
+     , (41898,  77,      1) /* PhysicsScriptIntensity */
+     , (41898, 138,    2.5) /* SlayerDamageBonus */
+     , (41898, 144,   0.15) /* ManaConversionMod */
+     , (41898, 152,    1.1) /* ElementalDamageMod */
+     , (41898, 157,      1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41898,   1, 'Enhanced Assault Orb') /* Name */

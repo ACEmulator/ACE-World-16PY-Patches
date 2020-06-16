@@ -34,25 +34,20 @@ VALUES (37579,   1,        256) /* ItemType - MissileWeapon */
      , (37579, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37579,  11, True ) /* IgnoreCollisions */
-     , (37579,  13, True ) /* Ethereal */
-     , (37579,  14, True ) /* GravityStatus */
-     , (37579,  15, True ) /* LightsStatus */
-     , (37579,  19, True ) /* Attackable */
-     , (37579,  22, True ) /* Inscribable */
+VALUES (37579,  22, True ) /* Inscribable */
      , (37579,  69, False) /* IsSellable */
      , (37579,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37579,   5, -0.0500000007450581) /* ManaRate */
+VALUES (37579,   5,   -0.05) /* ManaRate */
      , (37579,  21,       0) /* WeaponLength */
      , (37579,  22,       0) /* DamageVariance */
-     , (37579,  26, 27.2999992370605) /* MaximumVelocity */
-     , (37579,  29, 1.20000004768372) /* WeaponDefense */
+     , (37579,  26,    27.3) /* MaximumVelocity */
+     , (37579,  29,     1.2) /* WeaponDefense */
      , (37579,  39,    1.25) /* DefaultScale */
      , (37579,  62,       1) /* WeaponOffense */
      , (37579,  63,       3) /* DamageMod */
-     , (37579,  76, 0.699999988079071) /* Translucency */
+     , (37579,  76,     0.7) /* Translucency */
      , (37579, 136,       2) /* CriticalMultiplier */
      , (37579, 138,       2) /* SlayerDamageBonus */
      , (37579, 155,       1) /* IgnoreArmor */;

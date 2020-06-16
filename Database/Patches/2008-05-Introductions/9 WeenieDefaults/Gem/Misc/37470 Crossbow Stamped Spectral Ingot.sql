@@ -18,11 +18,7 @@ VALUES (37470,   1,        128) /* ItemType - Misc */
      , (37470, 269,          1) /* UseCreateQuantity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37470,  11, True ) /* IgnoreCollisions */
-     , (37470,  13, True ) /* Ethereal */
-     , (37470,  14, True ) /* GravityStatus */
-     , (37470,  19, True ) /* Attackable */
-     , (37470,  22, True ) /* Inscribable */;
+VALUES (37470,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37470,   1, 'Crossbow Stamped Spectral Ingot') /* Name */

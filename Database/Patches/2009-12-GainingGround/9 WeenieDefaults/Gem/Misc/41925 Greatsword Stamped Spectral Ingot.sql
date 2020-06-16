@@ -12,18 +12,13 @@ VALUES (41925,   1,        128) /* ItemType - Misc */
      , (41925,  16,          8) /* ItemUseable - Contained */
      , (41925,  19,          1) /* Value */
      , (41925,  33,         -1) /* Bonded - Slippery */
-     , (41925,  53,        101) /* PlacementPosition - Resting */
      , (41925,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41925,  94,         16) /* TargetType - Creature */
      , (41925, 114,          0) /* Attuned - Normal */
      , (41925, 269,          1) /* UseCreateQuantity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41925,  11, True ) /* IgnoreCollisions */
-     , (41925,  13, True ) /* Ethereal */
-     , (41925,  14, True ) /* GravityStatus */
-     , (41925,  19, True ) /* Attackable */
-     , (41925,  22, True ) /* Inscribable */;
+VALUES (41925,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41925,   1, 'Greatsword Stamped Spectral Ingot') /* Name */

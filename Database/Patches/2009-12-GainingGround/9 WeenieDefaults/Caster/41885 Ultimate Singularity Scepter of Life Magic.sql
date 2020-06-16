@@ -30,22 +30,18 @@ VALUES (41885,   1,      32768) /* ItemType - Caster */
      , (41885, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41885,  11, True ) /* IgnoreCollisions */
-     , (41885,  13, True ) /* Ethereal */
-     , (41885,  14, True ) /* GravityStatus */
-     , (41885,  19, True ) /* Attackable */
-     , (41885,  22, True ) /* Inscribable */
+VALUES (41885,  22, True ) /* Inscribable */
      , (41885,  23, True ) /* DestroyOnSell */
      , (41885,  84, True ) /* IgnoreCloIcons */
      , (41885,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41885,   5, -0.0329999998211861) /* ManaRate */
-     , (41885,  29, 1.14999997615814) /* WeaponDefense */
-     , (41885, 138,       2) /* SlayerDamageBonus */
-     , (41885, 144, 0.150000005960464) /* ManaConversionMod */
-     , (41885, 147, 0.300000011920929) /* CriticalFrequency */
-     , (41885, 152, 1.14999997615814) /* ElementalDamageMod */;
+VALUES (41885,   5, -0.032) /* ManaRate */
+     , (41885,  29,   1.15) /* WeaponDefense */
+     , (41885, 138,      2) /* SlayerDamageBonus */
+     , (41885, 144,   0.15) /* ManaConversionMod */
+     , (41885, 147,    0.3) /* CriticalFrequency */
+     , (41885, 152,   1.15) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41885,   1, 'Ultimate Singularity Scepter of Life Magic') /* Name */
