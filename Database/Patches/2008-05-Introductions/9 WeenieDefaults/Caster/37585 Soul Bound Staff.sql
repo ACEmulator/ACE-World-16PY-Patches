@@ -26,7 +26,8 @@ VALUES (37585,   1,      32768) /* ItemType - Caster */
      , (37585, 159,          1) /* WieldSkillType - Axe */
      , (37585, 160,        160) /* WieldDifficulty */
      , (37585, 166,         77) /* SlayerCreatureType - Ghost */
-     , (37585, 263,          2) /* ResistanceModifierType */;
+     , (37585, 263,          2) /* ResistanceModifierType */
+     , (37585, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37585,  11, True ) /* IgnoreCollisions */

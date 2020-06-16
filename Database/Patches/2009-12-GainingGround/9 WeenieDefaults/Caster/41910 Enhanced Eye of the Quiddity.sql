@@ -26,7 +26,7 @@ VALUES (41910,   1,      32768) /* ItemType - Caster */
      , (41910, 160,        330) /* WieldDifficulty */
      , (41910, 176,         16) /* AppraisalItemSkill */
      , (41910, 263,          1) /* ResistanceModifierType */
-     , (41898, 353,          0) /* WeaponType - Undef */;
+     , (41910, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41910,  11, True ) /* IgnoreCollisions */
