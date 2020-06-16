@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41893;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41893, 'ace41893-enhancedassaultbow', 3, '2019-09-27 11:34:19') /* MissileLauncher */;
+VALUES (41893, 'ace41893-enhancedassaultbow', 3, '2020-06-16 01:55:02') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41893,   1,        256) /* ItemType - MissileWeapon */
@@ -23,7 +23,7 @@ VALUES (41893,   1,        256) /* ItemType - MissileWeapon */
      , (41893,  53,          3) /* PlacementPosition - LeftHand */
      , (41893,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41893, 106,        400) /* ItemSpellcraft */
-     , (41893, 107,        478) /* ItemCurMana */
+     , (41893, 107,        600) /* ItemCurMana */
      , (41893, 108,        600) /* ItemMaxMana */
      , (41893, 109,        120) /* ItemDifficulty */
      , (41893, 151,          2) /* HookType - Wall */
@@ -40,8 +40,7 @@ VALUES (41893,  11, True ) /* IgnoreCollisions */
      , (41893,  14, True ) /* GravityStatus */
      , (41893,  15, True ) /* LightsStatus */
      , (41893,  19, True ) /* Attackable */
-     , (41893,  22, True ) /* Inscribable */
-     , (41893,  69, False) /* IsSellable */;
+     , (41893,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41893,   5, -0.025000000372529) /* ManaRate */
@@ -51,7 +50,7 @@ VALUES (41893,   5, -0.025000000372529) /* ManaRate */
      , (41893,  29, 1.14999997615814) /* WeaponDefense */
      , (41893,  39, 1.20000004768372) /* DefaultScale */
      , (41893,  62,       1) /* WeaponOffense */
-     , (41893,  63, 2.29999995231628) /* DamageMod */
+     , (41893,  63,     2.5) /* DamageMod */
      , (41893,  77,       1) /* PhysicsScriptIntensity */
      , (41893, 138,     2.5) /* SlayerDamageBonus */
      , (41893, 157,       1) /* ResistanceModifier */;

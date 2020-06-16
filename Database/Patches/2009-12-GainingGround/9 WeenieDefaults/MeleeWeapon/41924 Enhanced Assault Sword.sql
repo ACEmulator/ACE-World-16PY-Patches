@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41924;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41924, 'ace41924-enhancedassaultsword', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (41924, 'ace41924-enhancedassaultsword', 6, '2020-06-16 01:55:02') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41924,   1,          1) /* ItemType - MeleeWeapon */
@@ -17,8 +17,6 @@ VALUES (41924,   1,          1) /* ItemType - MeleeWeapon */
      , (41924,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (41924,  49,         40) /* WeaponTime */
      , (41924,  51,          1) /* CombatUse - Melee */
-     , (41924,  52,          1) /* ParentLocation */
-     , (41924,  53,          1) /* PlacementPosition */
      , (41924,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41924, 106,        400) /* ItemSpellcraft */
      , (41924, 107,        600) /* ItemCurMana */
@@ -50,6 +48,7 @@ VALUES (41924,   5, -0.025000000372529) /* ManaRate */
      , (41924,  62, 1.14999997615814) /* WeaponOffense */
      , (41924,  63,       1) /* DamageMod */
      , (41924,  77,       1) /* PhysicsScriptIntensity */
+     , (41924, 138,     2.5) /* SlayerDamageBonus */
      , (41924, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
