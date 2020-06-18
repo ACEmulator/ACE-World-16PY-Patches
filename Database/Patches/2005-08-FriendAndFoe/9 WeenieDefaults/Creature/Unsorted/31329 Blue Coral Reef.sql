@@ -9,7 +9,7 @@ VALUES (31329,   1,         16) /* ItemType - Creature */
      , (31329,   7,         -1) /* ContainersCapacity */
      , (31329,  16,         32) /* ItemUseable - Remote */
      , (31329,  81,          4) /* MaxGeneratedObjects */
-     , (31329,  82,          4) /* InitGeneratedObjects */
+     , (31329,  82,          0) /* InitGeneratedObjects */
      , (31329,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31329,  95,          3) /* RadarBlipColor - White */;
 
@@ -60,4 +60,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 4, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31329, -1, 31340, 0, 1, 4, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Guardian Blue Coral Golem (31340) (x1 up to max of 4) - Regenerate upon Undef - Location to (re)Generate: Scatter */;
+VALUES (31329, -1, 31340, 0, 4, 4, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Guardian Blue Coral Golem (31340) (x4 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
