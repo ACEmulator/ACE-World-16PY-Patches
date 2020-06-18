@@ -25,7 +25,33 @@ VALUES (32841,   1, True ) /* Stuck */
      , (32841, 118, True ) /* NeverAttack */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32841,  54,       3) /* UseRadius */;
+VALUES (32841,   1,       5) /* HeartbeatInterval */
+     , (32841,   2,       0) /* HeartbeatTimestamp */
+     , (32841,   3,    0.16) /* HealthRate */
+     , (32841,   4,       5) /* StaminaRate */
+     , (32841,   5,       1) /* ManaRate */
+     , (32841,  13,     0.9) /* ArmorModVsSlash */
+     , (32841,  14,       1) /* ArmorModVsPierce */
+     , (32841,  15,     1.1) /* ArmorModVsBludgeon */
+     , (32841,  16,     0.4) /* ArmorModVsCold */
+     , (32841,  17,     0.4) /* ArmorModVsFire */
+     , (32841,  18,       1) /* ArmorModVsAcid */
+     , (32841,  19,     0.6) /* ArmorModVsElectric */
+     , (32841,  54,       3) /* UseRadius */
+     , (32841,  64,       1) /* ResistSlash */
+     , (32841,  65,       1) /* ResistPierce */
+     , (32841,  66,       1) /* ResistBludgeon */
+     , (32841,  67,       1) /* ResistFire */
+     , (32841,  68,       1) /* ResistCold */
+     , (32841,  69,       1) /* ResistAcid */
+     , (32841,  70,       1) /* ResistElectric */
+     , (32841,  71,       1) /* ResistHealthBoost */
+     , (32841,  72,       1) /* ResistStaminaDrain */
+     , (32841,  73,       1) /* ResistStaminaBoost */
+     , (32841,  74,       1) /* ResistManaDrain */
+     , (32841,  75,       1) /* ResistManaBoost */
+     , (32841, 104,      10) /* ObviousRadarRange */
+     , (32841, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32841,   1, 'Lieutenant Allandal') /* Name */;
