@@ -22,7 +22,8 @@ VALUES (32546,   1, True ) /* Stuck */
      , (32546,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32546,  54, -0.1) /* UseRadius */;
+VALUES (32546,  41,      60) /* RegenerationInterval */
+     , (32546,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32546,   1, 'Viamont Staging Area Portal') /* Name */

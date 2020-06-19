@@ -28,4 +28,5 @@ VALUES (@parent_id, 3,  40, '', 3, 0) /* ImbuerName */;
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8013;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8013, 30103 /* Foolproof Sunstone */,   314 /* Dagger */, '2019-04-23 05:27:10');
+VALUES (8013, 30103 /* Foolproof Sunstone */,   314 /* Dagger */, '2019-04-23 05:27:10')
+     , (8013, 36627 /* Foolproof Sunstone */,   314 /* Dagger */, '2019-04-23 05:27:10');

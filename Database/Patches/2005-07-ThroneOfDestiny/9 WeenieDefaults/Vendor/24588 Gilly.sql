@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24588;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24588, 'candethkeeparchmage', 12, '2019-07-13 00:58:48') /* Vendor */;
+VALUES (24588, 'candethkeeparchmage', 12, '2020-06-06 00:58:48') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24588,   1,         16) /* ItemType - Creature */
@@ -247,6 +247,9 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767238 /* Shrug */, NULL, NUL
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24588, 2,  8399,  0, 87, 1, False) /* Create Kireth Gown with Band (8399) for Wield */
      , (24588, 2, 21372,  0, 0, 1, False) /* Create Circlet of Supremacy (21372) for Wield */
+     , (24588, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
+     , (24588, 4, 41424, -1, 0, 0, False) /* Create Refining Polish (Mana) (41424) for Shop */
+     , (24588, 4, 41425, -1, 0, 0, False) /* Create Refining Polish (Stamina) (41425) for Shop */
      , (24588, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (24588, 4,   689, -1, 0, 0, False) /* Create Iron Scarab (689) for Shop */
      , (24588, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */

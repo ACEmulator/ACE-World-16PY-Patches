@@ -7,28 +7,23 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29972,   1,          1) /* ItemType - MeleeWeapon */
      , (29972,   5,        700) /* EncumbranceVal */
      , (29972,   8,        140) /* Mass */
-     , (29972,   9,   33554432) /* ValidLocations - TwoHanded */
+     , (29972,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (29972,  16,          1) /* ItemUseable - No */
      , (29972,  19,        425) /* Value */
      , (29972,  33,         -2) /* Bonded - Destroy */
      , (29972,  37,       9999) /* ResistItemAppraisal */
      , (29972,  44,         21) /* Damage */
      , (29972,  45,          2) /* DamageType - Pierce */
-     , (29972,  46,          8) /* DefaultCombatStyle - TwoHanded */
+     , (29972,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (29972,  47,          2) /* AttackType - Thrust */
-     , (29972,  48,         41) /* WeaponSkill - TwoHandedCombat */
+     , (29972,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (29972,  49,          0) /* WeaponTime */
      , (29972,  51,          1) /* CombatUse - Melee */
-     , (29972,  52,          1) /* ParentLocation - RightHand */
      , (29972,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29972, 353,         11) /* WeaponType - TwoHanded */;
+     , (29972, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29972,  11, True ) /* IgnoreCollisions */
-     , (29972,  13, True ) /* Ethereal */
-     , (29972,  14, True ) /* GravityStatus */
-     , (29972,  19, True ) /* Attackable */
-     , (29972,  22, True ) /* Inscribable */
+VALUES (29972,  22, True ) /* Inscribable */
      , (29972,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

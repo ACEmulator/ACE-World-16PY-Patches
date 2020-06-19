@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2249;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2249, 'mastershoarchmage', 12, '2020-04-10 00:00:00') /* Vendor */;
+VALUES (2249, 'mastershoarchmage', 12, '2020-06-06 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2249,   1,         16) /* ItemType - Creature */
@@ -187,10 +187,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2249, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
+VALUES (2249, 2,  5914,  0, 0, 0, False) /* Create Suikan Item Master Robe (5914) for Wield */
+     , (2249, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
      , (2249, 4, 41424, -1, 0, 0, False) /* Create Refining Polish (Mana) (41424) for Shop */
      , (2249, 4, 41425, -1, 0, 0, False) /* Create Refining Polish (Stamina) (41425) for Shop */
-     , (2249, 2,  5914,  0, 0, 0, False) /* Create Suikan Item Master Robe (5914) for Wield */
      , (2249, 4,  5908, -1, 0, 0, False) /* Create Suikan Life Master Robe (5908) for Shop */
      , (2249, 4,  5911, -1, 0, 0, False) /* Create Suikan War Master Robe (5911) for Shop */
      , (2249, 4,  5917, -1, 0, 0, False) /* Create Suikan Creature Master Robe (5917) for Shop */
@@ -376,6 +376,9 @@ VALUES (2249, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2249, 4,  8356, -1, 0, 0, False) /* Create White Pea (8356) for Shop */
      , (2249, 4,  8349, -1, 0, 0, False) /* Create Grey Pea (8349) for Shop */
      , (2249, 4,  8283, -1, 0, 0, False) /* Create Splitting Tool (8283) for Shop */
+     , (2249, 4,  4747, -1, 0, 0, False) /* Create Alembic (4747) for Shop */
+     , (2249, 4,  4748, -1, 0, 0, False) /* Create Aqua Incanta (4748) for Shop */
+     , (2249, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (2249, 4,  9342, -1, 0, 0, False) /* Create Concentrated Aqua Incanta (9342) for Shop */
      , (2249, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
      , (2249, 4,  9379, -1, 0, 0, False) /* Create Eye Dropper (9379) for Shop */
@@ -383,10 +386,6 @@ VALUES (2249, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2249, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (2249, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
      , (2249, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
-     , (2249, 4,  5917, -1, 0, 0, False) /* Create Suikan Creature Master Robe (5917) for Shop */
-     , (2249, 4,  5914, -1, 0, 0, False) /* Create Suikan Item Master Robe (5914) for Shop */
-     , (2249, 4,  5908, -1, 0, 0, False) /* Create Suikan Life Master Robe (5908) for Shop */
-     , (2249, 4,  5911, -1, 0, 0, False) /* Create Suikan War Master Robe (5911) for Shop */
      , (2249, 4,  8982, -1, 0, 0, False) /* Create Shoyanen's Portal Gem (8982) for Shop */
      , (2249, 4,  8973, -1, 0, 0, False) /* Create Al-Arqas Portal Gem (8973) for Shop */
      , (2249, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
