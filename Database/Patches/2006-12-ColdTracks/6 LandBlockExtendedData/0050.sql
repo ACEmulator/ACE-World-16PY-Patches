@@ -542,3 +542,15 @@ VALUES (0x70050071, 25348, 0x00500261, 69.4169, -380.599, 6.00975, -0.0206805, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70050072, 25348, 0x0050026C, 80.04773, -381.05795, 6.0097504, -0.013467757, 0, 0, 0.9999093,  True, '2020-06-13 10:17:16'); /* Falatacot Patrician */
 /* @teleloc 0x0050026C [80.047729 -381.057953 6.009750] -0.013468 0.000000 0.000000 0.999909 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70050073, 34541, 0x00500174, 40, -683, -0.06299996, 1, 0, 0, 0, False, '2020-06-19 00:00:00'); /* Surface */
+/* @teleloc 0x00500174 [40.000000 -683.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70050074, 34543, 0x005001EB, 480, -346, -0.06299996, 1, 0, 0, -4.371140, False, '2020-06-19 00:00:00'); /* Surface */
+/* @teleloc 0x005001EB [480.000000 -346.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70050075, 34539, 0x005003AA, 233, -460, 11.937, -0.7071068, 0, 0, -0.7071068, False, '2020-06-19 00:00:00'); /* Surface */
+/* @teleloc 0x005003AA [233.000000 -460.000000 11.937000] -0.707107 0.000000 0.000000 -0.707107 */
