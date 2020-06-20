@@ -10,10 +10,10 @@ VALUES (44840,   1,          4) /* ItemType - Clothing */
      , (44840,   5,         75) /* EncumbranceVal */
      , (44840,   9,  134217728) /* ValidLocations - Cloak */
      , (44840,  16,          1) /* ItemUseable - No */
-     , (44840,  19,         40) /* Value */
+	 , (44840,  18,          1) /* UiEffects - Magical */
+	 , (44840,  19,         35) /* Value */
      , (44840,  28,          0) /* ArmorLevel */
      , (44840,  36,       9999) /* ResistMagic */
-     , (44840,  53,        101) /* PlacementPosition - Resting */
      , (44840,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44840, 158,          7) /* WieldRequirements - Level */
      , (44840, 159,          1) /* WieldSkillType - Axe */
@@ -25,11 +25,7 @@ VALUES (44840,   4,          0) /* ItemTotalXp */
      , (44840,   5, 1000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44840,  11, True ) /* IgnoreCollisions */
-     , (44840,  13, True ) /* Ethereal */
-     , (44840,  14, True ) /* GravityStatus */
-     , (44840,  19, True ) /* Attackable */
-     , (44840,  22, True ) /* Inscribable */
+VALUES (44840,  22, True ) /* Inscribable */
      , (44840,  84, True ) /* IgnoreCloIcons */
      , (44840, 100, False) /* Dyable */;
 
@@ -46,7 +42,7 @@ VALUES (44840,  13, 0.8) /* ArmorModVsSlash */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44840,   1, 'Cloak') /* Name */
      , (44840,  16, 'Cloak') /* LongDesc */;
-
+	 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44840,   1,   33561386) /* Setup */
      , (44840,   3,  536870932) /* SoundTable */

@@ -14,13 +14,10 @@ VALUES (44852,   1,          4) /* ItemType - Clothing */
      , (44852,  19,         35) /* Value */
      , (44852,  28,          0) /* ArmorLevel */
      , (44852,  36,       9999) /* ResistMagic */
-     , (44852,  53,        101) /* PlacementPosition - Resting */
      , (44852,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44852, 158,          7) /* WieldRequirements - Level */
      , (44852, 159,          1) /* WieldSkillType - Axe */
      , (44852, 169,         16) /* TsysMutationData */
-     , (44852, 172,          1) /* AppraisalLongDescDecoration */
-     , (44852, 319,          1) /* ItemMaxLevel */
      , (44852, 320,          2) /* ItemXpStyle - ScalesWithLevel */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
@@ -28,11 +25,7 @@ VALUES (44852,   4,          0) /* ItemTotalXp */
      , (44852,   5, 1000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44852,  11, True ) /* IgnoreCollisions */
-     , (44852,  13, True ) /* Ethereal */
-     , (44852,  14, True ) /* GravityStatus */
-     , (44852,  19, True ) /* Attackable */
-     , (44852,  22, True ) /* Inscribable */
+VALUES (44852,  22, True ) /* Inscribable */
      , (44852,  84, True ) /* IgnoreCloIcons */
      , (44852, 100, False) /* Dyable */;
 
