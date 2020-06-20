@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9511;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9511, 'dollrewardgoldgromnie', 1, '2005-02-09 10:00:00') /* Generic */;
+VALUES (9511, 'dollrewardgoldgromnie', 1, '2020-06-19 10:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9511,   1,       2048) /* ItemType - Gem */
@@ -30,7 +30,7 @@ VALUES (9511,   1, 'Golden Gromnie') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9511,   1,   33554487) /* Setup */
      , (9511,   2,  150995122) /* MotionTable */
-     , (9511,   6,   67109547) /* PaletteBase */
+     , (9511,   6,   67109307) /* PaletteBase */
      , (9511,   7,  268436171) /* ClothingBase */
      , (9511,   8,  100671514) /* Icon */
      , (9511,  22,  872415260) /* PhysicsEffectTable */
