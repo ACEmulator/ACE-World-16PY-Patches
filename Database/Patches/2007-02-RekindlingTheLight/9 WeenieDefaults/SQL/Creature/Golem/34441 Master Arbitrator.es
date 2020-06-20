@@ -467,7 +467,7 @@ GotoSet: PlayerHasFellow
 											- Give: Colosseum Ticket (34449)
 										QuestFailure:
 											- Goto: IsArenaOneAvailable
-#                                            - InqEvent: ColoArenaOneInUse@GiveTicket
+#                                           - InqEvent: ColoArenaOneInUse@GiveTicket
 #												EventSuccess:
 #													- InqEvent: ColoArenaTwoInUse@GiveTicket
 #														EventSuccess:
