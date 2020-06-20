@@ -49,7 +49,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 18 /* DirectBroadcast */, 0, 1, NULL, "You have taken pages too recently from the Black Book of Salt and Ash. You will be able to take more pages from the book in %tqt", NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (32715, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'TakenBlackBookPages', NULL, NULL, NULL);
+VALUES (32751, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'TakenBlackBookPages', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
