@@ -41,7 +41,7 @@ VALUES (44851,  13, 0.8) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44851,   1, 'Chevron Cloak') /* Name */
-     , (44849,  16, 'Chevron Cloak') /* LongDesc */;
+     , (44851,  16, 'Chevron Cloak') /* LongDesc */;
 	 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44851,   1,   33561386) /* Setup */
