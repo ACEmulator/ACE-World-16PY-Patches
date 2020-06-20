@@ -467,7 +467,7 @@ GotoSet: PlayerHasFellow
 											- Give: Colosseum Ticket (34449)
 										QuestFailure:
 											- Goto: IsArenaOneAvailable
-#                                           - InqEvent: ColoArenaOneInUse@GiveTicket
+#											- InqEvent: ColoArenaOneInUse@GiveTicket
 #												EventSuccess:
 #													- InqEvent: ColoArenaTwoInUse@GiveTicket
 #														EventSuccess:
@@ -531,128 +531,128 @@ GotoSet: PlayerHasFellow
 #													- Say: Attention Patrons! Combat will soon begin in Arena One.
 
 GotoSet: IsArenaOneAvailable
-    - InqEvent: ColoArenaOneInUse@GiveTicket
-        EventSuccess:
-            - Goto: IsArenaTwoAvailable
-        EventFailure:
-            - InqMyQuest: ColoArenaOneWait
-                QuestSuccess:
-                    - Goto: IsArenaTwoAvailable
-                QuestFailure:
-                    - StampMyQuest: ColoArenaOneWait
-                    - LockFellow
-                    - StampFellowQuest: ColoArenaOneAccess
-                    - Give: Colosseum Ticket Stub (35055)
-                    - Delay 2, TellFellow: Your fellowship will be battling in Arena One.
-                    - LocalSignal: ActivateArenaOne
-                    - Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
-                    - TellFellow: Good Luck!
-                    - TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
-                    - Say: Attention Patrons! Combat will soon begin in Arena One.
-                    - EraseMyQuest: ColoArenaOneWait
+	- InqEvent: ColoArenaOneInUse@GiveTicket
+		EventSuccess:
+			- Goto: IsArenaTwoAvailable
+		EventFailure:
+			- InqMyQuest: ColoArenaOneWait
+				QuestSuccess:
+					- Goto: IsArenaTwoAvailable
+				QuestFailure:
+					- StampMyQuest: ColoArenaOneWait
+					- LockFellow
+					- StampFellowQuest: ColoArenaOneAccess
+					- Give: Colosseum Ticket Stub (35055)
+					- Delay 2, TellFellow: Your fellowship will be battling in Arena One.
+					- LocalSignal: ActivateArenaOne
+					- Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
+					- TellFellow: Good Luck!
+					- TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
+					- Say: Attention Patrons! Combat will soon begin in Arena One.
+					- EraseMyQuest: ColoArenaOneWait
 
 GotoSet: IsArenaTwoAvailable
-    - InqEvent: ColoArenaTwoInUse@GiveTicket
-        EventSuccess:
-            - Goto: IsArenaThreeAvailable
-        EventFailure:
-            - InqMyQuest: ColoArenaTwoWait
-                QuestSuccess:
-                    - Goto: IsArenaThreeAvailable
-                QuestFailure:
-                    - StampMyQuest: ColoArenaTwoWait
-                    - LockFellow
-                    - StampFellowQuest: ColoArenaTwoAccess
-                    - Give: Colosseum Ticket Stub (35055)
-                    - Delay 2, TellFellow: Your fellowship will be battling in Arena Two.
-                    - LocalSignal: ActivateArenaTwo
-                    - Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
-                    - TellFellow: Good Luck!
-                    - TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
-                    - Say: Attention Patrons! Combat will soon begin in Arena Two.
-                    - EraseMyQuest: ColoArenaTwoWait
+	- InqEvent: ColoArenaTwoInUse@GiveTicket
+		EventSuccess:
+			- Goto: IsArenaThreeAvailable
+		EventFailure:
+			- InqMyQuest: ColoArenaTwoWait
+				QuestSuccess:
+					- Goto: IsArenaThreeAvailable
+				QuestFailure:
+					- StampMyQuest: ColoArenaTwoWait
+					- LockFellow
+					- StampFellowQuest: ColoArenaTwoAccess
+					- Give: Colosseum Ticket Stub (35055)
+					- Delay 2, TellFellow: Your fellowship will be battling in Arena Two.
+					- LocalSignal: ActivateArenaTwo
+					- Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
+					- TellFellow: Good Luck!
+					- TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
+					- Say: Attention Patrons! Combat will soon begin in Arena Two.
+					- EraseMyQuest: ColoArenaTwoWait
 
 GotoSet: IsArenaThreeAvailable
-    - InqEvent: ColoArenaThreeInUse@GiveTicket
-        EventSuccess:
-            - Goto: IsArenaFourAvailable
-        EventFailure:
-            - InqMyQuest: ColoArenaThreeWait
-                QuestSuccess:
-                    - Goto: IsArenaFourAvailable
-                QuestFailure:
-                    - StampMyQuest: ColoArenaThreeWait
-                    - LockFellow
-                    - StampFellowQuest: ColoArenaThreeAccess
-                    - Give: Colosseum Ticket Stub (35055)
-                    - Delay 2, TellFellow: Your fellowship will be battling in Arena Three.
-                    - LocalSignal: ActivateArenaThree
-                    - Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
-                    - TellFellow: Good Luck!
-                    - TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
-                    - Say: Attention Patrons! Combat will soon begin in Arena Three.
-                    - EraseMyQuest: ColoArenaThreeWait
+	- InqEvent: ColoArenaThreeInUse@GiveTicket
+		EventSuccess:
+			- Goto: IsArenaFourAvailable
+		EventFailure:
+			- InqMyQuest: ColoArenaThreeWait
+				QuestSuccess:
+					- Goto: IsArenaFourAvailable
+				QuestFailure:
+					- StampMyQuest: ColoArenaThreeWait
+					- LockFellow
+					- StampFellowQuest: ColoArenaThreeAccess
+					- Give: Colosseum Ticket Stub (35055)
+					- Delay 2, TellFellow: Your fellowship will be battling in Arena Three.
+					- LocalSignal: ActivateArenaThree
+					- Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
+					- TellFellow: Good Luck!
+					- TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
+					- Say: Attention Patrons! Combat will soon begin in Arena Three.
+					- EraseMyQuest: ColoArenaThreeWait
 
 GotoSet: IsArenaFourAvailable
-    - InqEvent: ColoArenaFourInUse@GiveTicket
-        EventSuccess:
-            - Goto: IsArenaFiveAvailable
-        EventFailure:
-            - InqMyQuest: ColoArenaFourWait
-                QuestSuccess:
-                    - Goto: IsArenaFiveAvailable
-                QuestFailure:
-                    - StampMyQuest: ColoArenaFourWait
-                    - LockFellow
-                    - StampFellowQuest: ColoArenaFourAccess
-                    - Give: Colosseum Ticket Stub (35055)
-                    - Delay 2, TellFellow: Your fellowship will be battling in Arena Four.
-                    - LocalSignal: ActivateArenaFour
-                    - Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
-                    - TellFellow: Good Luck!
-                    - TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
-                    - Say: Attention Patrons! Combat will soon begin in Arena Four.
-                    - EraseMyQuest: ColoArenaFourWait
+	- InqEvent: ColoArenaFourInUse@GiveTicket
+		EventSuccess:
+			- Goto: IsArenaFiveAvailable
+		EventFailure:
+			- InqMyQuest: ColoArenaFourWait
+				QuestSuccess:
+					- Goto: IsArenaFiveAvailable
+				QuestFailure:
+					- StampMyQuest: ColoArenaFourWait
+					- LockFellow
+					- StampFellowQuest: ColoArenaFourAccess
+					- Give: Colosseum Ticket Stub (35055)
+					- Delay 2, TellFellow: Your fellowship will be battling in Arena Four.
+					- LocalSignal: ActivateArenaFour
+					- Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
+					- TellFellow: Good Luck!
+					- TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
+					- Say: Attention Patrons! Combat will soon begin in Arena Four.
+					- EraseMyQuest: ColoArenaFourWait
 
 GotoSet: IsArenaFiveAvailable
-    - InqEvent: ColoArenaFiveInUse@GiveTicket
-        EventSuccess:
-            - Goto: NoArenasAvailable
-        EventFailure:
-            - InqMyQuest: ColoArenaFiveWait
-                QuestSuccess:
-                    - Goto: NoArenasAvailable
-                QuestFailure:
-                    - StampMyQuest: ColoArenaFiveWait
-                    - LockFellow
-                    - StampFellowQuest: ColoArenaFiveAccess
-                    - Give: Colosseum Ticket Stub (35055)
-                    - Delay 2, TellFellow: Your fellowship will be battling in Arena Five.
-                    - LocalSignal: ActivateArenaFive
-                    - Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
-                    - TellFellow: Good Luck!
-                    - TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
-                    - Say: Attention Patrons! Combat will soon begin in Arena Five.
-                    - EraseMyQuest: ColoArenaFiveWait
+	- InqEvent: ColoArenaFiveInUse@GiveTicket
+		EventSuccess:
+			- Goto: NoArenasAvailable
+		EventFailure:
+			- InqMyQuest: ColoArenaFiveWait
+				QuestSuccess:
+					- Goto: NoArenasAvailable
+				QuestFailure:
+					- StampMyQuest: ColoArenaFiveWait
+					- LockFellow
+					- StampFellowQuest: ColoArenaFiveAccess
+					- Give: Colosseum Ticket Stub (35055)
+					- Delay 2, TellFellow: Your fellowship will be battling in Arena Five.
+					- LocalSignal: ActivateArenaFive
+					- Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
+					- TellFellow: Good Luck!
+					- TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
+					- Say: Attention Patrons! Combat will soon begin in Arena Five.
+					- EraseMyQuest: ColoArenaFiveWait
 
 GotoSet: NoArenasAvailable
-    - Tell: All Arenas are currently occupied. Please come back later and try again.
+	- Tell: All Arenas are currently occupied. Please come back later and try again.
 	- Give: Colosseum Ticket (34449)
 
 ReceiveLocalSignal: ColoArenaOneWait
-    - StampMyQuest: ColoArenaOneWait
+	- StampMyQuest: ColoArenaOneWait
 
 ReceiveLocalSignal: ColoArenaTwoWait
-    - StampMyQuest: ColoArenaTwoWait
+	- StampMyQuest: ColoArenaTwoWait
 
 ReceiveLocalSignal: ColoArenaThreeWait
-    - StampMyQuest: ColoArenaThreeWait
+	- StampMyQuest: ColoArenaThreeWait
 
 ReceiveLocalSignal: ColoArenaFourWait
-    - StampMyQuest: ColoArenaFourWait
+	- StampMyQuest: ColoArenaFourWait
 
 ReceiveLocalSignal: ColoArenaFiveWait
-    - StampMyQuest: ColoArenaFiveWait
+	- StampMyQuest: ColoArenaFiveWait
 
 GotoSet: WelcomeText
 	- Tell: Welcome to Colosseum! Colosseum begins. Enter the Colosseum. This is the time for challenge. Be strong, and you will be rewarded.
