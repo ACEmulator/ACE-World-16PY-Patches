@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9511;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9511, 'dollrewardgoldgromnie', 38, '2019-04-09 23:37:09') /* Gem */;
+VALUES (9511, 'dollrewardgoldgromnie', 1, '2020-06-19 10:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9511,   1,       2048) /* ItemType - Gem */
@@ -16,16 +16,12 @@ VALUES (9511,   1,       2048) /* ItemType - Gem */
      , (9511, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9511,  11, True ) /* IgnoreCollisions */
-     , (9511,  13, True ) /* Ethereal */
-     , (9511,  14, True ) /* GravityStatus */
-     , (9511,  19, True ) /* Attackable */
-     , (9511,  22, True ) /* Inscribable */
+VALUES (9511,  22, True ) /* Inscribable */
      , (9511,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9511,  12,     0.5) /* Shade */
-     , (9511,  39, 0.300000011920929) /* DefaultScale */;
+     , (9511,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9511,   1, 'Golden Gromnie') /* Name */
