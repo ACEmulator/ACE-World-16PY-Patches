@@ -22,5 +22,5 @@ VALUES (0x7DB74021,  6847, 0xDB740007, 11.00007, 161.6496, 18.005, 1, 0, 0, 0,  
 /* @teleloc 0xDB740007 [11.000070 161.649600 18.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB74022,  6848, 0xDB74010A, 110.6549, 41.60025, 12.005, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Dansha-Ki */
+VALUES (0x7DB74022,  6848, 0xDB74010A, 110.6549, 41.60025, 12.005, -0.7071068, 0, 0, -0.7071068,  True, '2020-06-24 00:00:00'); /* Dansha-Ki */
 /* @teleloc 0xDB74010A [110.654900 41.600250 12.005000] -0.707107 0.000000 0.000000 -0.707107 */
