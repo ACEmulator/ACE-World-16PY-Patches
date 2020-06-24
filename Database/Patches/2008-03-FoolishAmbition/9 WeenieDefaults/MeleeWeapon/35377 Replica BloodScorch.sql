@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35377;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35377, 'ace35377-replicabloodscorch', 6, '2020-03-12 00:00:00') /* MeleeWeapon */;
+VALUES (35377, 'ace35377-replicabloodscorch', 6, '2020-06-24 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35377,   1,          1) /* ItemType - MeleeWeapon */
@@ -46,6 +46,7 @@ VALUES (35377,   5,  -0.033) /* ManaRate */
      , (35377,  62,     1.2) /* WeaponOffense */
      , (35377,  63,       1) /* DamageMod */
      , (35377, 147,    0.25) /* CriticalFrequency */
+     , (35377, 156,    0.05) /* ProcSpellRate */
      , (35377, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
