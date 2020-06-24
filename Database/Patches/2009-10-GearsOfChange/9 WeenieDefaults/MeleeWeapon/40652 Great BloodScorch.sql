@@ -45,7 +45,6 @@ VALUES (40652,   5,  -0.033) /* ManaRate */
      , (40652,  29,     1.1) /* WeaponDefense */
      , (40652,  62,     1.2) /* WeaponOffense */
      , (40652,  63,       1) /* DamageMod */
-     , (40652, 136,       2) /* CriticalMultiplier */
      , (40652, 138,       2) /* SlayerDamageBonus */
      , (40652, 147,     0.3) /* CriticalFrequency */
      , (40652, 156,    0.05) /* ProcSpellRate */
