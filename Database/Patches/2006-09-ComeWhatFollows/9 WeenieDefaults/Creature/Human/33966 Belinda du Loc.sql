@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33966;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33966, 'ace33966-belindaduloc', 10, '2020-06-25 01:16:57') /* Creature */;
+VALUES (33966, 'ace33966-belindaduloc', 10, '2020-06-25 03:46:21') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33966,   1,         16) /* ItemType - Creature */
@@ -285,7 +285,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  49 /* AwardLevelProportionalXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, 1000, 3500000, NULL, NULL, NULL, False, NULL, NULL, NULL, 0.009999999776482582, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (33966,  6 /* Give */,      1, 12030 /* Crystal Sword */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (33966,  6 /* Give */,      1, 23541 /* Crystal Sword */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -324,7 +324,7 @@ VALUES (33966, 2, 25642,  0, 4, 0, False) /* Create Leather Gauntlets (25642) fo
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2020-06-24T21:03:11.499784-04:00",
+  "LastModified": "2020-06-24T23:42:08.9795393-04:00",
   "ModifiedBy": "Streeter",
   "Changelog": [
     {
