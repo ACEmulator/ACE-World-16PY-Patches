@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33940;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33940, 'ace33940-enhancedcrystalsword', 6, '2020-06-25 03:12:20') /* MeleeWeapon */;
+VALUES (33940, 'ace33940-enhancedcrystalsword', 6, '2020-06-25 13:02:06') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33940,   1,          1) /* ItemType - MeleeWeapon */
@@ -27,11 +27,8 @@ VALUES (33940,   1,          1) /* ItemType - MeleeWeapon */
      , (33940, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33940,  11, True ) /* IgnoreCollisions */
-     , (33940,  13, True ) /* Ethereal */
-     , (33940,  14, True ) /* GravityStatus */
-     , (33940,  19, True ) /* Attackable */
-     , (33940,  22, True ) /* Inscribable */;
+VALUES (33940,  22, True ) /* Inscribable */
+     , (33940,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33940,   5, -0.032999999821186066) /* ManaRate */
@@ -65,7 +62,7 @@ VALUES (33940,  1094,      2)  /* Fire Protection Self VI */
 
 /* Lifestoned Changelog:
 {
-  "LastModified": "2020-06-24T23:07:37.5813473-04:00",
+  "LastModified": "2020-06-25T08:59:00.3366593-04:00",
   "ModifiedBy": "Streeter",
   "Changelog": [],
   "UserChangeSummary": "Removed the vul from the spellbook (it's added as spell proc)\nAdded the proc rate",
