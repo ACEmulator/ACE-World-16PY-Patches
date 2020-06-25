@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33940;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33940, 'ace33940-enhancedcrystalsword', 6, '2020-06-25 01:16:17') /* MeleeWeapon */;
+VALUES (33940, 'ace33940-enhancedcrystalsword', 6, '2020-06-25 03:12:20') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33940,   1,          1) /* ItemType - MeleeWeapon */
@@ -16,7 +16,6 @@ VALUES (33940,   1,          1) /* ItemType - MeleeWeapon */
      , (33940,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (33940,  49,         40) /* WeaponTime */
      , (33940,  51,          1) /* CombatUse - Melee */
-     , (33940,  53,        101) /* PlacementPosition - Resting */
      , (33940,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33940, 106,        275) /* ItemSpellcraft */
      , (33940, 107,       1500) /* ItemCurMana */
@@ -42,7 +41,8 @@ VALUES (33940,   5, -0.032999999821186066) /* ManaRate */
      , (33940,  29, 1.1200000047683716) /* WeaponDefense */
      , (33940,  39, 1.100000023841858) /* DefaultScale */
      , (33940,  62, 1.1200000047683716) /* WeaponOffense */
-     , (33940,  63,       1) /* DamageMod */;
+     , (33940,  63,       1) /* DamageMod */
+     , (33940, 156, 0.05000000074505806) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33940,   1, 'Enhanced Crystal Sword') /* Name */
@@ -58,8 +58,17 @@ VALUES (33940,   1,   33557340) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33940,  1094,      2)  /* Fire Protection Self VI */
-     , (33940,  1155,      2)  /* Piercing Vulnerability Other V */
      , (33940,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (33940,  1605,      2)  /* Aura of Defender Self VI */
      , (33940,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (33940,  1627,      2)  /* Aura of Swift Killer Self VI */;
+
+/* Lifestoned Changelog:
+{
+  "LastModified": "2020-06-24T23:07:37.5813473-04:00",
+  "ModifiedBy": "Streeter",
+  "Changelog": [],
+  "UserChangeSummary": "Removed the vul from the spellbook (it's added as spell proc)\nAdded the proc rate",
+  "IsDone": false
+}
+*/
