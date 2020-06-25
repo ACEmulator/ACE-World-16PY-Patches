@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33581;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33581, 'ace33581-ancientrelichelm', 2, '2019-08-12 00:40:47') /* Clothing */;
+VALUES (33581, 'ace33581-ancientrelichelm', 2, '2020-06-19 00:40:47') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33581,   1,          2) /* ItemType - Armor */
@@ -13,7 +13,6 @@ VALUES (33581,   1,          2) /* ItemType - Armor */
      , (33581,  18,          1) /* UiEffects - Magical */
      , (33581,  19,      20000) /* Value */
      , (33581,  28,        440) /* ArmorLevel */
-     , (33581,  53,        101) /* PlacementPosition - Resting */
      , (33581,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33581, 106,        400) /* ItemSpellcraft */
      , (33581, 107,        800) /* ItemCurMana */
@@ -25,20 +24,16 @@ VALUES (33581,   1,          2) /* ItemType - Armor */
      , (33581, 265,          6) /* EquipmentSetId - AncientRelic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33581,  11, True ) /* IgnoreCollisions */
-     , (33581,  13, True ) /* Ethereal */
-     , (33581,  14, True ) /* GravityStatus */
-     , (33581,  19, True ) /* Attackable */
-     , (33581,  22, True ) /* Inscribable */;
+VALUES (33581,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33581,   5, -0.0329999998211861) /* ManaRate */
-     , (33581,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (33581,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (33581,  15, 1.29999995231628) /* ArmorModVsBludgeon */
+VALUES (33581,   5,  -0.033) /* ManaRate */
+     , (33581,  13,     1.3) /* ArmorModVsSlash */
+     , (33581,  14,     0.8) /* ArmorModVsPierce */
+     , (33581,  15,     1.3) /* ArmorModVsBludgeon */
      , (33581,  16,       1) /* ArmorModVsCold */
      , (33581,  17,       1) /* ArmorModVsFire */
-     , (33581,  18, 1.10000002384186) /* ArmorModVsAcid */
+     , (33581,  18,     1.1) /* ArmorModVsAcid */
      , (33581,  19,     0.5) /* ArmorModVsElectric */
      , (33581, 165,       1) /* ArmorModVsNether */;
 
