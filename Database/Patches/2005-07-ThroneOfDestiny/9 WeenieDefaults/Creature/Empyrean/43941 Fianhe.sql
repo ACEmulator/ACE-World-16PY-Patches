@@ -33,8 +33,7 @@ VALUES (43941,   1,   33561110) /* Setup */
      , (43941,   2,  150995463) /* MotionTable */
      , (43941,   3,  536870913) /* SoundTable */
      , (43941,   6,   67108990) /* PaletteBase */
-     , (43941,   8,  100667446) /* Icon */
-     , (43941,  17,   67109558) /* SkinPalette */;
+     , (43941,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43941,   1, 110, 0, 0) /* Strength */
