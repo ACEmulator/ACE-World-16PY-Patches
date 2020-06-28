@@ -100,4 +100,4 @@ VALUES (51155, 1,  6621,  1, 83, 0, False) /* Create Scintillating Gem (6621) fo
      , (51155, 4, 49786, -1, 92, 0.0667, False) /* Create Shadow Greaves (49786) for Shop */
      , (51155, 4, 49788, -1, 92, 0.0667, False) /* Create Shadow Pauldrons (49788) for Shop */
      , (51155, 4, 49789, -1, 92, 0, False) /* Create Shadow Sollerets (49789) for Shop */
-     , (51155, 4, 49781, -1, 92, 0.0667, False) /* Create Shadow Tassets (49781) for Shop */;
+     , (51155, 4, 49772, -1, 92, 0.0667, False) /* Create Shadow Tassets (49772) for Shop */;
