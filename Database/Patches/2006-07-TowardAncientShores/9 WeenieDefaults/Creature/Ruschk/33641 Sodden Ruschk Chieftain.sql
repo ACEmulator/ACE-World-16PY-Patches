@@ -17,6 +17,7 @@ VALUES (33641,   1,         16) /* ItemType - Creature */
      , (33641,  81,          2) /* MaxGeneratedObjects */
      , (33641,  82,          2) /* InitGeneratedObjects */
      , (33641,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (33641, 103,          3) /* GeneratorDestructionType - Kill */
      , (33641, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (33641, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (33641, 140,          1) /* AiOptions - CanOpenDoors */
@@ -132,5 +133,5 @@ VALUES (33641, 9, 44470,  1, 0, 0, False) /* Create Corrupted Essence (44470) fo
      , (33641, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33641, -1, 33642, -1, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Sodden Undead Ruschk (33642) (x2)  - Location to (re)Generate: Scatter */;     
+VALUES (33641, -1, 33642, -1, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Sodden Undead Ruschk (33642) (x2)  - Location to (re)Generate: Scatter */;
 
