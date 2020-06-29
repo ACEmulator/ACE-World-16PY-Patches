@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20206;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20206, 'scrivenercreature2starter', 12, '2019-08-10 20:27:57') /* Vendor */;
+VALUES (20206, 'scrivenercreature2starter', 12, '2020-06-28 20:27:57') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20206,   1,         16) /* ItemType - Creature */
@@ -185,6 +185,7 @@ VALUES (20206, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (20206, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (20206, 2, 10696,  0, 1, 0.5, False) /* Create Apron (10696) for Wield */
      , (20206, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
+     , (20206, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */
      , (20206, 4, 28941, -1, 0, 0, False) /* Create Scroll of Arcanum Enlightenment II (28941) for Shop */
      , (20206, 4, 28934, -1, 0, 0, False) /* Create Scroll of Arcanum Salvaging II (28934) for Shop */
      , (20206, 4,  2634, -1, 0, 0, False) /* Create Scroll of Bafflement Other II (2634) for Shop */
@@ -203,8 +204,8 @@ VALUES (20206, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (20206, 4,  2737, -1, 0, 0, False) /* Create Scroll of Strength Other II (2737) for Shop */
      , (20206, 4,  2742, -1, 0, 0, False) /* Create Scroll of Self Strength II (2742) for Shop */
      , (20206, 4,  2747, -1, 0, 0, False) /* Create Scroll of Weakness Other II (2747) for Shop */
-     , (20206, 4,  2752, -1, 0, 0, False) /* Create Scroll of WillPower Other II (2752) for Shop */
-     , (20206, 4,  2757, -1, 0, 0, False) /* Create Scroll of WillPower Self II (2757) for Shop */
+     , (20206, 4,  2752, -1, 0, 0, False) /* Create Scroll of Willpower Other II (2752) for Shop */
+     , (20206, 4,  2757, -1, 0, 0, False) /* Create Scroll of Willpower Self II (2757) for Shop */
      , (20206, 4,  5981, -1, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other II (5981) for Shop */
      , (20206, 4,  5987, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Other II (5987) for Shop */
      , (20206, 4,  5993, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Self II (5993) for Shop */
@@ -300,6 +301,9 @@ VALUES (20206, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (20206, 4, 45349, -1, 0, 0, False) /* Create Scroll of Sneak Attack Mastery Self II (45349) for Shop */
      , (20206, 4,  3488, -1, 0, 0, False) /* Create Scroll of Sprint Other II (3488) for Shop */
      , (20206, 4,  3493, -1, 0, 0, False) /* Create Scroll of Sprint Self II (3493) for Shop */
+     , (20206, 4, 49457, -1, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other II (49457) for Shop */
+     , (20206, 4, 49464, -1, 0, 0, False) /* Create Scroll of Summoning Mastery Other II (49464) for Shop */
+     , (20206, 4, 49471, -1, 0, 0, False) /* Create Scroll of Summoning Mastery Self II (49471) for Shop */
      , (20206, 4,  3558, -1, 0, 0, False) /* Create Scroll of Vulnerability II (3558) for Shop */
      , (20206, 4,  3563, -1, 0, 0, False) /* Create Scroll of War Magic Ineptitude II (3563) for Shop */
      , (20206, 4,  3568, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Other II (3568) for Shop */
@@ -312,5 +316,4 @@ VALUES (20206, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (20206, 4, 41305, -1, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Self II (41305) for Shop */
      , (20206, 4, 43358, -1, 0, 0, False) /* Create Scroll of Void Magic Ineptitude II (43358) for Shop */
      , (20206, 4, 43359, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Other II (43359) for Shop */
-     , (20206, 4, 43360, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Self II (43360) for Shop */
-     , (20206, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */;
+     , (20206, 4, 43360, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Self II (43360) for Shop */;
