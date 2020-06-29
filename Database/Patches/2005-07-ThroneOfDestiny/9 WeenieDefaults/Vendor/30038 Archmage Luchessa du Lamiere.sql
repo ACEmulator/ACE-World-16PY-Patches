@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30038;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30038, 'sanamararchmage', 12, '2019-07-13 00:58:48') /* Vendor */;
+VALUES (30038, 'sanamararchmage', 12, '2020-06-28 00:58:48') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30038,   1,         16) /* ItemType - Creature */
@@ -247,13 +247,11 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (30038, 2, 28615,  0, 92, 0.5, False) /* Create Vestiri Robe (28615) for Wield */
      , (30038, 2,  9623,  0, 13, 0.5, False) /* Create Alchemist's Hat (9623) for Wield */
      , (30038, 2,  2366,  0, 9, 1, False) /* Create Orb (2366) for Wield */
+     , (30038, 4, 42646, -1, 0, 0, False) /* Create Aetheria Desiccant (42646) for Shop */
      , (30038, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (30038, 4,   689, -1, 0, 0, False) /* Create Iron Scarab (689) for Shop */
      , (30038, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */
      , (30038, 4,   688, -1, 0, 0, False) /* Create Silver Scarab (688) for Shop */
-     , (30038, 4,   687, -1, 0, 0, False) /* Create Gold Scarab (687) for Shop */
-     , (30038, 4,   690, -1, 0, 0, False) /* Create Pyreal Scarab (690) for Shop */
-     , (30038, 4,  8897, -1, 0, 0, False) /* Create Platinum Scarab (8897) for Shop */
      , (30038, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
      , (30038, 4,   765, -1, 0, 0, False) /* Create Amaranth (765) for Shop */
      , (30038, 4,   766, -1, 0, 0, False) /* Create Bistort (766) for Shop */
@@ -272,7 +270,6 @@ VALUES (30038, 2, 28615,  0, 92, 0.5, False) /* Create Vestiri Robe (28615) for 
      , (30038, 4,   778, -1, 0, 0, False) /* Create Saffron (778) for Shop */
      , (30038, 4,   779, -1, 0, 0, False) /* Create Vervain (779) for Shop */
      , (30038, 4,   780, -1, 0, 0, False) /* Create Wormwood (780) for Shop */
-     , (30038, 4,   781, -1, 0, 0, False) /* Create Yarrow (781) for Shop */
      , (30038, 4,   782, -1, 0, 0, False) /* Create Powdered Agate (782) for Shop */
      , (30038, 4,   783, -1, 0, 0, False) /* Create Powdered Amber (783) for Shop */
      , (30038, 4,   784, -1, 0, 0, False) /* Create Powdered Azurite (784) for Shop */
@@ -349,6 +346,7 @@ VALUES (30038, 2, 28615,  0, 92, 0.5, False) /* Create Vestiri Robe (28615) for 
      , (30038, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (30038, 4,   136, -1, 14, 1, False) /* Create Pack (136) for Shop */
      , (30038, 4,   139, -1, 85, 1, False) /* Create Small Belt Pouch (139) for Shop */
+     , (30038, 4,  5539, -1, 0, 0, False) /* Create Wand (5539) for Shop */
      , (30038, 4,  4747, -1, 0, 0, False) /* Create Alembic (4747) for Shop */
      , (30038, 4,  4748, -1, 0, 0, False) /* Create Aqua Incanta (4748) for Shop */
      , (30038, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
@@ -356,7 +354,6 @@ VALUES (30038, 2, 28615,  0, 92, 0.5, False) /* Create Vestiri Robe (28615) for 
      , (30038, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
      , (30038, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
      , (30038, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
-     , (30038, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (30038, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (30038, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
      , (30038, 4, 30268, -1, 0, 0, False) /* Create Sanamar Portal Gem (30268) for Shop */
