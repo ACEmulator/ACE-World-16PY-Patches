@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27254;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27254, 'golemironkingpin', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (27254, 'golemironkingpin', 10, '2020-06-29 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27254,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,7 @@ VALUES (27254,   1,         16) /* ItemType - Creature */
      , (27254,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27254, 103,          3) /* GeneratorDestructionType - Kill */
      , (27254, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (27254, 146,       7000) /* XpOverride */;
+     , (27254, 146,      14000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27254,   1, True ) /* Stuck */
@@ -33,30 +33,30 @@ VALUES (27254,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27254,   1,       5) /* HeartbeatInterval */
      , (27254,   2,       0) /* HeartbeatTimestamp */
-     , (27254,   3, 0.600000023841858) /* HealthRate */
+     , (27254,   3,     0.6) /* HealthRate */
      , (27254,   4,     0.5) /* StaminaRate */
      , (27254,   5,       2) /* ManaRate */
-     , (27254,   6, 0.100000001490116) /* HealthUponResurrection */
+     , (27254,   6,     0.1) /* HealthUponResurrection */
      , (27254,   7,    0.25) /* StaminaUponResurrection */
-     , (27254,   8, 0.300000011920929) /* ManaUponResurrection */
+     , (27254,   8,     0.3) /* ManaUponResurrection */
      , (27254,  12,     0.5) /* Shade */
-     , (27254,  13, 0.579999983310699) /* ArmorModVsSlash */
-     , (27254,  14, 0.689999997615814) /* ArmorModVsPierce */
-     , (27254,  15, 0.899999976158142) /* ArmorModVsBludgeon */
+     , (27254,  13,     0.6) /* ArmorModVsSlash */
+     , (27254,  14,     0.7) /* ArmorModVsPierce */
+     , (27254,  15,     0.9) /* ArmorModVsBludgeon */
      , (27254,  16,     0.5) /* ArmorModVsCold */
-     , (27254,  17, 0.439999997615814) /* ArmorModVsFire */
-     , (27254,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (27254,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (27254,  17,    0.44) /* ArmorModVsFire */
+     , (27254,  18,     0.3) /* ArmorModVsAcid */
+     , (27254,  19,     0.6) /* ArmorModVsElectric */
      , (27254,  31,      13) /* VisualAwarenessRange */
-     , (27254,  34, 3.29999995231628) /* PowerupTime */
+     , (27254,  34,     3.3) /* PowerupTime */
      , (27254,  39,       2) /* DefaultScale */
      , (27254,  41,     300) /* RegenerationInterval */
      , (27254,  43,      15) /* GeneratorRadius */
-     , (27254,  64, 0.330000013113022) /* ResistSlash */
+     , (27254,  64,    0.33) /* ResistSlash */
      , (27254,  65,     0.5) /* ResistPierce */
-     , (27254,  66, 0.829999983310699) /* ResistBludgeon */
-     , (27254,  67, 0.100000001490116) /* ResistFire */
-     , (27254,  68, 0.200000002980232) /* ResistCold */
+     , (27254,  66,    0.83) /* ResistBludgeon */
+     , (27254,  67,     0.1) /* ResistFire */
+     , (27254,  68,     0.2) /* ResistCold */
      , (27254,  69,       1) /* ResistAcid */
      , (27254,  70,       1) /* ResistElectric */
      , (27254,  71,       1) /* ResistHealthBoost */
@@ -80,7 +80,7 @@ VALUES (27254,   1,   33556426) /* Setup */
      , (27254,   7,  268435981) /* ClothingBase */
      , (27254,   8,  100667940) /* Icon */
      , (27254,  22,  872415321) /* PhysicsEffectTable */
-     , (27254,  35,         34) /* DeathTreasureType - Loot Tier: 2 */;
+     , (27254,  35,         33) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27254,   1, 130, 0, 0) /* Strength */
@@ -159,4 +159,4 @@ VALUES (27254, 9,  3672,  0, 0, 0.05, False) /* Create Iron Heart (3672) for Con
      , (27254, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27254, -1, 197, 10, 8, 8, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Iron Golem (197) (x8 up to max of 8) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (27254, -1, 194, 10, 8, 8, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Copper Golem (194) (x8 up to max of 8) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
