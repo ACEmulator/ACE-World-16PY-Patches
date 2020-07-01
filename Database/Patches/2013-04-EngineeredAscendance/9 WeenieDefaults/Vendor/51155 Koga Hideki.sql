@@ -45,12 +45,6 @@ VALUES (51155,   1,   33554433) /* Setup */
      , (51155,   3,  536870913) /* SoundTable */
      , (51155,   6,   67108990) /* PaletteBase */
      , (51155,   8,  100667446) /* Icon */
-     , (51155,   9,   83890447) /* EyesTexture */
-     , (51155,  10,   83890548) /* NoseTexture */
-     , (51155,  11,   83890642) /* MouthTexture */
-     , (51155,  15,   67116998) /* HairPalette */
-     , (51155,  16,   67110063) /* EyesPalette */
-     , (51155,  17,   67110053) /* SkinPalette */
      , (51155,  57,       6621) /* AlternateCurrency - Scintillating Gem */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -100,4 +94,4 @@ VALUES (51155, 1,  6621,  1, 83, 0, False) /* Create Scintillating Gem (6621) fo
      , (51155, 4, 49786, -1, 92, 0.0667, False) /* Create Shadow Greaves (49786) for Shop */
      , (51155, 4, 49788, -1, 92, 0.0667, False) /* Create Shadow Pauldrons (49788) for Shop */
      , (51155, 4, 49789, -1, 92, 0, False) /* Create Shadow Sollerets (49789) for Shop */
-     , (51155, 4, 49781, -1, 92, 0.0667, False) /* Create Shadow Tassets (49781) for Shop */;
+     , (51155, 4, 49772, -1, 92, 0.0667, False) /* Create Shadow Tassets (49772) for Shop */;
