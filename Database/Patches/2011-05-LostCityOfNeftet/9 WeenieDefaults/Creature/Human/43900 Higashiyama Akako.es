@@ -22,7 +22,7 @@ Refuse: Small Olthoi Venom Sac (36376)
         TestSuccess:
             - InqYesNo: Would you like to exchange 10 Small Olthoi Venom Sacs for 20 Promissory Notes?
                 TestSuccess:
-                    - TakeItems: Small Olthoi Venom Sac (36518), 10
+                    - TakeItems: Small Olthoi Venom Sac (36376), 10
                     - Delay: 1, Give: Promissory Note (43901), 20
                     - Delay: 1, Tell: I appreciate the business.
                 TestFailure:

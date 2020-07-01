@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1387;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1387, 'merchantaluvian', 12, '2019-04-09 02:25:16') /* Vendor */;
+VALUES (1387, 'merchantaluvian', 12, '2020-06-28 02:25:16') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1387,   1,         16) /* ItemType - Creature */
@@ -206,5 +206,4 @@ VALUES (1387, 2,   130,  0, 17, 1, False) /* Create Shirt (130) for Wield */
      , (1387, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (1387, 4,   166, -1, 17, 1, False) /* Create Sack (166) for Shop */
      , (1387, 4,   136, -1, 17, 1, False) /* Create Pack (136) for Shop */
-     , (1387, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
-     , (1387, 4, 31721, -1, 0, 0, False) /* Create Torn Journal Page - Page 2 (31721) for Shop */;
+     , (1387, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */;
