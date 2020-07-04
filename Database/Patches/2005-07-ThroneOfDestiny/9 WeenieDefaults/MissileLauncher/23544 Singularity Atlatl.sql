@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23544;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23544, 'atlatlsingularity', 3, '2019-09-11 00:00:00') /* MissileLauncher */;
+VALUES (23544, 'atlatlsingularity', 3, '2020-07-04 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23544,   1,        256) /* ItemType - MissileWeapon */
@@ -27,6 +27,8 @@ VALUES (23544,   1,        256) /* ItemType - MissileWeapon */
      , (23544, 109,        175) /* ItemDifficulty */
      , (23544, 114,          1) /* Attuned - Attuned */
      , (23544, 115,        275) /* ItemSkillLevelLimit */
+     , (23544, 150,        103) /* HookPlacement - Hook */
+     , (23544, 151,          2) /* HookType - Wall */
      , (23544, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

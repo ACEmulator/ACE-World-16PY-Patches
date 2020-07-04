@@ -33,23 +33,20 @@ VALUES (41884,   1,          1) /* ItemType - MeleeWeapon */
      , (41884, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41884,  11, True ) /* IgnoreCollisions */
-     , (41884,  13, True ) /* Ethereal */
-     , (41884,  14, True ) /* GravityStatus */
-     , (41884,  19, True ) /* Attackable */
-     , (41884,  22, True ) /* Inscribable */
+VALUES (41884,  22, True ) /* Inscribable */
      , (41884,  23, True ) /* DestroyOnSell */
      , (41884,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41884,   5, -0.0329999998211861) /* ManaRate */
-     , (41884,  21, 0.620000004768372) /* WeaponLength */
+VALUES (41884,   5,  -0.033) /* ManaRate */
+     , (41884,  21,    0.62) /* WeaponLength */
      , (41884,  22,     0.5) /* DamageVariance */
-     , (41884,  29, 1.14999997615814) /* WeaponDefense */
-     , (41884,  62, 1.14999997615814) /* WeaponOffense */
+     , (41884,  29,    1.15) /* WeaponDefense */
+     , (41884,  62,    1.15) /* WeaponOffense */
      , (41884, 136,     2.5) /* CriticalMultiplier */
      , (41884, 138,       2) /* SlayerDamageBonus */
-     , (41884, 147,    0.25) /* CriticalFrequency */;
+     , (41884, 147,    0.25) /* CriticalFrequency */
+     , (41884, 155,       1) /* IgnoreArmor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41884,   1, 'Ultimate Singularity Mace') /* Name */

@@ -12,7 +12,7 @@ VALUES (41890,   1,          1) /* ItemType - MeleeWeapon */
      , (41890,  18,          1) /* UiEffects - Magical */
      , (41890,  19,          0) /* Value */
      , (41890,  33,          1) /* Bonded - Bonded */
-     , (41890,  44,         31) /* Damage */
+     , (41890,  44,         32) /* Damage */
      , (41890,  45,          1) /* DamageType - Slash */
      , (41890,  46,          8) /* DefaultCombatStyle - TwoHanded */
      , (41890,  47,          4) /* AttackType - Slash */
@@ -33,26 +33,23 @@ VALUES (41890,   1,          1) /* ItemType - MeleeWeapon */
      , (41890, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41890,  11, True ) /* IgnoreCollisions */
-     , (41890,  13, True ) /* Ethereal */
-     , (41890,  14, True ) /* GravityStatus */
-     , (41890,  19, True ) /* Attackable */
-     , (41890,  22, True ) /* Inscribable */
+VALUES (41890,  22, True ) /* Inscribable */
      , (41890,  23, True ) /* DestroyOnSell */
      , (41890,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41890,   5, -0.0329999998211861) /* ManaRate */
+VALUES (41890,   5,  -0.033) /* ManaRate */
      , (41890,  21,       0) /* WeaponLength */
-     , (41890,  22, 0.550000011920929) /* DamageVariance */
+     , (41890,  22,    0.55) /* DamageVariance */
      , (41890,  26,       0) /* MaximumVelocity */
-     , (41890,  29, 1.14999997615814) /* WeaponDefense */
-     , (41890,  39, 1.29999995231628) /* DefaultScale */
-     , (41890,  62, 1.14999997615814) /* WeaponOffense */
+     , (41890,  29,    1.15) /* WeaponDefense */
+     , (41890,  39,     1.3) /* DefaultScale */
+     , (41890,  62,    1.15) /* WeaponOffense */
      , (41890,  63,       1) /* DamageMod */
      , (41890, 136,     2.5) /* CriticalMultiplier */
      , (41890, 138,       2) /* SlayerDamageBonus */
-     , (41890, 147,    0.25) /* CriticalFrequency */;
+     , (41890, 147,    0.25) /* CriticalFrequency */
+     , (41890, 155,       1) /* IgnoreArmor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41890,   1, 'Ultimate Singularity Greatsword') /* Name */

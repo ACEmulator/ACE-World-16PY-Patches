@@ -13,7 +13,7 @@ VALUES (41879,   1,          1) /* ItemType - MeleeWeapon */
      , (41879,  18,          1) /* UiEffects - Magical */
      , (41879,  19,          0) /* Value */
      , (41879,  33,          1) /* Bonded - Bonded */
-     , (41879,  44,         52) /* Damage */
+     , (41879,  44,         56) /* Damage */
      , (41879,  45,          1) /* DamageType - Slash */
      , (41879,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (41879,  47,          4) /* AttackType - Slash */
@@ -33,24 +33,20 @@ VALUES (41879,   1,          1) /* ItemType - MeleeWeapon */
      , (41879, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41879,  11, True ) /* IgnoreCollisions */
-     , (41879,  13, True ) /* Ethereal */
-     , (41879,  14, True ) /* GravityStatus */
-     , (41879,  19, True ) /* Attackable */
-     , (41879,  22, True ) /* Inscribable */
+VALUES (41879,  22, True ) /* Inscribable */
      , (41879,  23, True ) /* DestroyOnSell */
      , (41879,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41879,   5, -0.0329999998211861) /* ManaRate */
+VALUES (41879,   5,  -0.033) /* ManaRate */
      , (41879,  21,    0.75) /* WeaponLength */
      , (41879,  22,     0.5) /* DamageVariance */
-     , (41879,  29, 1.14999997615814) /* WeaponDefense */
-     , (41879,  62, 1.14999997615814) /* WeaponOffense */
-     , (41879,  77,       1) /* PhysicsScriptIntensity */
+     , (41879,  29,    1.15) /* WeaponDefense */
+     , (41879,  62,    1.15) /* WeaponOffense */
      , (41879, 136,     2.5) /* CriticalMultiplier */
      , (41879, 138,       2) /* SlayerDamageBonus */
-     , (41879, 147,    0.25) /* CriticalFrequency */;
+     , (41879, 147,    0.25) /* CriticalFrequency */
+     , (41879, 155,       1) /* IgnoreArmor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41879,   1, 'Ultimate Singularity Axe') /* Name */
@@ -62,9 +58,7 @@ VALUES (41879,   1,   33557311) /* Setup */
      , (41879,   6,   67111919) /* PaletteBase */
      , (41879,   7,  268436125) /* ClothingBase */
      , (41879,   8,  100672041) /* Icon */
-     , (41879,  19,         88) /* ActivationAnimation */
      , (41879,  22,  872415275) /* PhysicsEffectTable */
-     , (41879,  30,         87) /* PhysicsScript - BreatheLightning */
      , (41879,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

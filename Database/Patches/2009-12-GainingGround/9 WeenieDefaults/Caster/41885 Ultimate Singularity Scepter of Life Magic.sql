@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41885;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41885, 'ace41885-ultimatesingularityscepteroflifemagic', 35, '2020-06-16 01:55:02') /* Caster */;
+VALUES (41885, 'ace41885-ultimatesingularityscepteroflifemagic', 35, '2020-07-04 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41885,   1,      32768) /* ItemType - Caster */
@@ -13,6 +13,7 @@ VALUES (41885,   1,      32768) /* ItemType - Caster */
      , (41885,  18,          1) /* UiEffects - Magical */
      , (41885,  19,          0) /* Value */
      , (41885,  33,          1) /* Bonded - Bonded */
+     , (41885,  45,          1) /* DamageType - Slash */
      , (41885,  46,        512) /* DefaultCombatStyle - Magic */
      , (41885,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41885,  94,         16) /* TargetType - Creature */
@@ -36,7 +37,7 @@ VALUES (41885,  22, True ) /* Inscribable */
      , (41885,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41885,   5, -0.032) /* ManaRate */
+VALUES (41885,   5, -0.033) /* ManaRate */
      , (41885,  29,   1.15) /* WeaponDefense */
      , (41885, 138,      2) /* SlayerDamageBonus */
      , (41885, 144,   0.15) /* ManaConversionMod */
