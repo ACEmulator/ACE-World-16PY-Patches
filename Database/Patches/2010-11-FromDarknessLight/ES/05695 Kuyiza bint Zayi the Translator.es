@@ -281,7 +281,7 @@ Give: Unreadable Scroll (9010)
     - Motion: Ready
     - TurnToTarget
     - Delay: 1, Tell: Ah, yes, this appears to be a unique teleport spell. Give me a moment, and I can teach it to you.
-    - TeachSpell: RecallAerlinthe - Aerlinthe Recall
+    - TeachSpell: 2041
 
 Give: Slip of Paper (9063)
     - Motion: Ready
