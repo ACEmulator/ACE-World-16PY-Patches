@@ -21,11 +21,11 @@ VALUES (32516,   1, True ) /* Stuck */
      , (32516,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32516,  54, -0.100000001490116) /* UseRadius */;
+VALUES (32516,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (32516,   1, 'Surface Portal') /* Name */
-     , (32516,  38, 'Surface Portal (11.7S, 39.2E).') /* AppraisalPortalDestination */;
+VALUES (32516,   1, 'Surface') /* Name */
+     , (32516,  38, 'Surface (11.7S, 39.2E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32516,   1,   33554867) /* Setup */
