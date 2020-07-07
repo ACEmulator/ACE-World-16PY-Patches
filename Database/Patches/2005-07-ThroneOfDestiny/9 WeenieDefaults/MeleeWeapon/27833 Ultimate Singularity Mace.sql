@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27833;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27833, 'macesingularitymaraenew', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (27833, 'macesingularitymaraenew', 6, '2020-07-04 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27833,   1,          1) /* ItemType - MeleeWeapon */
@@ -33,22 +33,18 @@ VALUES (27833,   1,          1) /* ItemType - MeleeWeapon */
      , (27833, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27833,  11, True ) /* IgnoreCollisions */
-     , (27833,  13, True ) /* Ethereal */
-     , (27833,  14, True ) /* GravityStatus */
-     , (27833,  19, True ) /* Attackable */
-     , (27833,  22, True ) /* Inscribable */
+VALUES (27833,  22, True ) /* Inscribable */
      , (27833,  23, True ) /* DestroyOnSell */
      , (27833,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27833,   5, -0.0329999998211861) /* ManaRate */
-     , (27833,  21, 0.620000004768372) /* WeaponLength */
+VALUES (27833,   5,  -0.033) /* ManaRate */
+     , (27833,  21,    0.62) /* WeaponLength */
      , (27833,  22,     0.5) /* DamageVariance */
-     , (27833,  29, 1.08000004291534) /* WeaponDefense */
-     , (27833,  62, 1.08000004291534) /* WeaponOffense */
+     , (27833,  29,    1.08) /* WeaponDefense */
+     , (27833,  62,    1.08) /* WeaponOffense */
      , (27833, 136,     2.5) /* CriticalMultiplier */
-     , (27833, 138, 1.79999995231628) /* SlayerDamageBonus */
+     , (27833, 138,     1.8) /* SlayerDamageBonus */
      , (27833, 147,    0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

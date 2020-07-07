@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27820;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27820, 'axesingularitynew2', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (27820, 'axesingularitynew2', 6, '2020-07-04 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27820,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,8 +20,6 @@ VALUES (27820,   1,          1) /* ItemType - MeleeWeapon */
      , (27820,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (27820,  49,         60) /* WeaponTime */
      , (27820,  51,          1) /* CombatUse - Melee */
-     , (27820,  52,          1) /* ParentLocation */
-     , (27820,  53,          1) /* PlacementPosition */
      , (27820,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27820, 106,        200) /* ItemSpellcraft */
      , (27820, 107,        700) /* ItemCurMana */
@@ -35,22 +33,18 @@ VALUES (27820,   1,          1) /* ItemType - MeleeWeapon */
      , (27820, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27820,  11, True ) /* IgnoreCollisions */
-     , (27820,  13, True ) /* Ethereal */
-     , (27820,  14, True ) /* GravityStatus */
-     , (27820,  19, True ) /* Attackable */
-     , (27820,  22, True ) /* Inscribable */
+VALUES (27820,  22, True ) /* Inscribable */
      , (27820,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27820,   5, -0.0329999998211861) /* ManaRate */
+VALUES (27820,   5,  -0.033) /* ManaRate */
      , (27820,  21,    0.75) /* WeaponLength */
      , (27820,  22,     0.5) /* DamageVariance */
-     , (27820,  29, 1.07000005245209) /* WeaponDefense */
-     , (27820,  62, 1.07000005245209) /* WeaponOffense */
+     , (27820,  29,    1.07) /* WeaponDefense */
+     , (27820,  62,    1.07) /* WeaponOffense */
      , (27820,  77,       1) /* PhysicsScriptIntensity */
      , (27820, 136,     2.5) /* CriticalMultiplier */
-     , (27820, 138, 1.79999995231628) /* SlayerDamageBonus */
+     , (27820, 138,     1.8) /* SlayerDamageBonus */
      , (27820, 147,    0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

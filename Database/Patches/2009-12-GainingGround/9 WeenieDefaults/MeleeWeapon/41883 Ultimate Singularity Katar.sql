@@ -13,7 +13,7 @@ VALUES (41883,   1,          1) /* ItemType - MeleeWeapon */
      , (41883,  18,          1) /* UiEffects - Magical */
      , (41883,  19,          0) /* Value */
      , (41883,  33,          1) /* Bonded - Bonded */
-     , (41883,  44,         41) /* Damage */
+     , (41883,  44,         40) /* Damage */
      , (41883,  45,          3) /* DamageType - Slash, Pierce */
      , (41883,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (41883,  47,          1) /* AttackType - Punch */
@@ -33,23 +33,20 @@ VALUES (41883,   1,          1) /* ItemType - MeleeWeapon */
      , (41883, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41883,  11, True ) /* IgnoreCollisions */
-     , (41883,  13, True ) /* Ethereal */
-     , (41883,  14, True ) /* GravityStatus */
-     , (41883,  19, True ) /* Attackable */
-     , (41883,  22, True ) /* Inscribable */
+VALUES (41883,  22, True ) /* Inscribable */
      , (41883,  23, True ) /* DestroyOnSell */
      , (41883,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41883,   5, -0.0329999998211861) /* ManaRate */
-     , (41883,  21, 0.519999980926514) /* WeaponLength */
-     , (41883,  22, 0.709999978542328) /* DamageVariance */
-     , (41883,  29, 1.14999997615814) /* WeaponDefense */
-     , (41883,  62, 1.14999997615814) /* WeaponOffense */
+VALUES (41883,   5,  -0.033) /* ManaRate */
+     , (41883,  21,    0.51) /* WeaponLength */
+     , (41883,  22,    0.71) /* DamageVariance */
+     , (41883,  29,    1.15) /* WeaponDefense */
+     , (41883,  62,    1.15) /* WeaponOffense */
      , (41883, 136,     2.5) /* CriticalMultiplier */
      , (41883, 138,       2) /* SlayerDamageBonus */
-     , (41883, 147,    0.25) /* CriticalFrequency */;
+     , (41883, 147,    0.25) /* CriticalFrequency */
+     , (41883, 155,       1) /* IgnoreArmor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41883,   1, 'Ultimate Singularity Katar') /* Name */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41789;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41789, 'ace41789-singularitygreatsword', 6, '2020-06-16 01:55:02') /* MeleeWeapon */;
+VALUES (41789, 'ace41789-singularitygreatsword', 6, '2020-07-04 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41789,   1,          1) /* ItemType - MeleeWeapon */
@@ -33,24 +33,20 @@ VALUES (41789,   1,          1) /* ItemType - MeleeWeapon */
      , (41789, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41789,  11, True ) /* IgnoreCollisions */
-     , (41789,  13, True ) /* Ethereal */
-     , (41789,  14, True ) /* GravityStatus */
-     , (41789,  19, True ) /* Attackable */
-     , (41789,  22, True ) /* Inscribable */
+VALUES (41789,  22, True ) /* Inscribable */
      , (41789,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41789,   5, -0.0329999998211861) /* ManaRate */
+VALUES (41789,   5,  -0.033) /* ManaRate */
      , (41789,  21,       0) /* WeaponLength */
-     , (41789,  22, 0.550000011920929) /* DamageVariance */
+     , (41789,  22,    0.55) /* DamageVariance */
      , (41789,  26,       0) /* MaximumVelocity */
-     , (41789,  29, 1.07000005245209) /* WeaponDefense */
-     , (41789,  39, 1.29999995231628) /* DefaultScale */
-     , (41789,  62, 1.07000005245209) /* WeaponOffense */
+     , (41789,  29,    1.07) /* WeaponDefense */
+     , (41789,  39,     1.3) /* DefaultScale */
+     , (41789,  62,    1.07) /* WeaponOffense */
      , (41789,  63,       1) /* DamageMod */
      , (41789, 136,     2.5) /* CriticalMultiplier */
-     , (41789, 138, 1.79999995231628) /* SlayerDamageBonus */
+     , (41789, 138,     1.8) /* SlayerDamageBonus */
      , (41789, 147,    0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

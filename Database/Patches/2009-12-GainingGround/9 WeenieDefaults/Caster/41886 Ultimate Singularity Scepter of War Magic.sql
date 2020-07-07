@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41886;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41886, 'ace41886-ultimatesingularityscepterofwarmagic', 35, '2020-06-16 01:55:02') /* Caster */;
+VALUES (41886, 'ace41886-ultimatesingularityscepterofwarmagic', 35, '2020-07-04 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41886,   1,      32768) /* ItemType - Caster */
@@ -13,6 +13,7 @@ VALUES (41886,   1,      32768) /* ItemType - Caster */
      , (41886,  18,          1) /* UiEffects - Magical */
      , (41886,  19,          0) /* Value */
      , (41886,  33,          1) /* Bonded - Bonded */
+     , (41886,  45,          1) /* DamageType - Slash */
      , (41886,  46,        512) /* DefaultCombatStyle - Magic */
      , (41886,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41886,  94,         16) /* TargetType - Creature */
@@ -30,17 +31,18 @@ VALUES (41886,   1,      32768) /* ItemType - Caster */
      , (41886, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41886,  23, True ) /* DestroyOnSell */
+VALUES (41886,  22, True ) /* Inscribable */
+     , (41886,  23, True ) /* DestroyOnSell */
      , (41886,  84, True ) /* IgnoreCloIcons */
      , (41886,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41886,   5, -0.032) /* ManaRate */
+VALUES (41886,   5, -0.033) /* ManaRate */
      , (41886,  29,   1.15) /* WeaponDefense */
      , (41886, 138,      2) /* SlayerDamageBonus */
      , (41886, 144,   0.15) /* ManaConversionMod */
      , (41886, 147,    0.3) /* CriticalFrequency */
-     , (41886, 152,   1.14) /* ElementalDamageMod */;
+     , (41886, 152,   1.15) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41886,   1, 'Ultimate Singularity Scepter of War Magic') /* Name */

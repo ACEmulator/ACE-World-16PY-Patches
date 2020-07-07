@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27824;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27824, 'crossbowsingularitymaraenew', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (27824, 'crossbowsingularitymaraenew', 3, '2020-07-04 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27824,   1,        256) /* ItemType - MissileWeapon */
@@ -18,9 +18,9 @@ VALUES (27824,   1,        256) /* ItemType - MissileWeapon */
      , (27824,  48,         47) /* WeaponSkill - MissileWeapons */
      , (27824,  49,        100) /* WeaponTime */
      , (27824,  50,          2) /* AmmoType - Bolt */
-     , (27824,  51,          2) /* CombatUse - Missle */
-     , (27824,  52,          2) /* ParentLocation */
-     , (27824,  53,          3) /* PlacementPosition */
+     , (27824,  51,          2) /* CombatUse - Missile */
+     , (27824,  52,          2) /* ParentLocation - LeftHand */
+     , (27824,  53,          3) /* PlacementPosition - LeftHand */
      , (27824,  60,        192) /* WeaponRange */
      , (27824,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27824, 106,        200) /* ItemSpellcraft */
@@ -35,12 +35,10 @@ VALUES (27824,   1,        256) /* ItemType - MissileWeapon */
      , (27824, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27824,  11, True ) /* IgnoreCollisions */
-     , (27824,  13, True ) /* Ethereal */
-     , (27824,  14, True ) /* GravityStatus */
-     , (27824,  19, True ) /* Attackable */
-     , (27824,  22, True ) /* Inscribable */
-     , (27824,  23, True ) /* DestroyOnSell */;
+VALUES (27824,  22, True ) /* Inscribable */
+     , (27824,  23, True ) /* DestroyOnSell */
+     , (27824,  84, True ) /* IgnoreCloIcons */
+     , (27824,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27824,   5, -0.0329999998211861) /* ManaRate */

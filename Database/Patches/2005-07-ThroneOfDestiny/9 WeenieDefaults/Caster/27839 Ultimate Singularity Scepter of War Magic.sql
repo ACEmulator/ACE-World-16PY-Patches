@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27839;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27839, 'sceptersingularitymaraewarnew', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (27839, 'sceptersingularitymaraewarnew', 35, '2020-07-04 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27839,   1,      32768) /* ItemType - Caster */
@@ -14,8 +14,6 @@ VALUES (27839,   1,      32768) /* ItemType - Caster */
      , (27839,  19,          0) /* Value */
      , (27839,  33,          1) /* Bonded - Bonded */
      , (27839,  46,        512) /* DefaultCombatStyle - Magic */
-     , (27839,  52,          1) /* ParentLocation */
-     , (27839,  53,          1) /* PlacementPosition */
      , (27839,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27839,  94,         16) /* TargetType - Creature */
      , (27839, 106,        200) /* ItemSpellcraft */
@@ -32,22 +30,17 @@ VALUES (27839,   1,      32768) /* ItemType - Caster */
      , (27839, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27839,  11, True ) /* IgnoreCollisions */
-     , (27839,  13, True ) /* Ethereal */
-     , (27839,  14, True ) /* GravityStatus */
-     , (27839,  19, True ) /* Attackable */
-     , (27839,  22, True ) /* Inscribable */
+VALUES (27839,  22, True ) /* Inscribable */
      , (27839,  23, True ) /* DestroyOnSell */
      , (27839,  84, True ) /* IgnoreCloIcons */
-     , (27839,  85, True ) /* AppraisalHasAllowedWielder */
      , (27839,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27839,   5, -0.0329999998211861) /* ManaRate */
-     , (27839,  29, 1.08000004291534) /* WeaponDefense */
-     , (27839, 138, 1.39999997615814) /* SlayerDamageBonus */
-     , (27839, 144, 0.0799999982118607) /* ManaConversionMod */
-     , (27839, 147, 0.300000011920929) /* CriticalFrequency */;
+VALUES (27839,   5,  -0.033) /* ManaRate */
+     , (27839,  29,    1.08) /* WeaponDefense */
+     , (27839, 138,     1.4) /* SlayerDamageBonus */
+     , (27839, 144,    0.07) /* ManaConversionMod */
+     , (27839, 147,     0.3) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27839,   1, 'Ultimate Singularity Scepter of War Magic') /* Name */

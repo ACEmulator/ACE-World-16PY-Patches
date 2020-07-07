@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41790;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41790, 'ace41790-boundsingularitygreatsword', 6, '2020-06-16 01:55:02') /* MeleeWeapon */;
+VALUES (41790, 'ace41790-boundsingularitygreatsword', 6, '2020-07-04 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41790,   1,          1) /* ItemType - MeleeWeapon */
@@ -33,24 +33,20 @@ VALUES (41790,   1,          1) /* ItemType - MeleeWeapon */
      , (41790, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41790,  11, True ) /* IgnoreCollisions */
-     , (41790,  13, True ) /* Ethereal */
-     , (41790,  14, True ) /* GravityStatus */
-     , (41790,  19, True ) /* Attackable */
-     , (41790,  22, True ) /* Inscribable */
+VALUES (41790,  22, True ) /* Inscribable */
      , (41790,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41790,   5, -0.0329999998211861) /* ManaRate */
+VALUES (41790,   5,  -0.033) /* ManaRate */
      , (41790,  21,       0) /* WeaponLength */
-     , (41790,  22, 0.550000011920929) /* DamageVariance */
+     , (41790,  22,    0.55) /* DamageVariance */
      , (41790,  26,       0) /* MaximumVelocity */
-     , (41790,  29, 1.07000005245209) /* WeaponDefense */
-     , (41790,  39, 1.29999995231628) /* DefaultScale */
-     , (41790,  62, 1.07000005245209) /* WeaponOffense */
+     , (41790,  29,    1.07) /* WeaponDefense */
+     , (41790,  39,     1.3) /* DefaultScale */
+     , (41790,  62,    1.07) /* WeaponOffense */
      , (41790,  63,       1) /* DamageMod */
      , (41790, 136,     2.5) /* CriticalMultiplier */
-     , (41790, 138, 1.79999995231628) /* SlayerDamageBonus */
+     , (41790, 138,     1.8) /* SlayerDamageBonus */
      , (41790, 147,    0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
