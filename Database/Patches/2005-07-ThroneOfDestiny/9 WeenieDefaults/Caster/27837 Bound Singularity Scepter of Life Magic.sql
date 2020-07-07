@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27837;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27837, 'sceptersingularitylifenew2', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (27837, 'sceptersingularitylifenew2', 35, '2020-07-04 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27837,   1,      32768) /* ItemType - Caster */
@@ -14,8 +14,6 @@ VALUES (27837,   1,      32768) /* ItemType - Caster */
      , (27837,  19,          0) /* Value */
      , (27837,  33,          1) /* Bonded - Bonded */
      , (27837,  46,        512) /* DefaultCombatStyle - Magic */
-     , (27837,  52,          1) /* ParentLocation */
-     , (27837,  53,          1) /* PlacementPosition */
      , (27837,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27837,  94,         16) /* TargetType - Creature */
      , (27837, 106,        200) /* ItemSpellcraft */
@@ -32,19 +30,15 @@ VALUES (27837,   1,      32768) /* ItemType - Caster */
      , (27837, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27837,  11, True ) /* IgnoreCollisions */
-     , (27837,  13, True ) /* Ethereal */
-     , (27837,  14, True ) /* GravityStatus */
-     , (27837,  19, True ) /* Attackable */
-     , (27837,  22, True ) /* Inscribable */
+VALUES (27837,  22, True ) /* Inscribable */
      , (27837,  23, True ) /* DestroyOnSell */
      , (27837,  84, True ) /* IgnoreCloIcons */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27837,   5, -0.0329999998211861) /* ManaRate */
-     , (27837,  29, 1.07000005245209) /* WeaponDefense */
-     , (27837, 138, 1.39999997615814) /* SlayerDamageBonus */
-     , (27837, 144, 0.0700000002980232) /* ManaConversionMod */
+VALUES (27837,   5,  -0.033) /* ManaRate */
+     , (27837,  29,    1.07) /* WeaponDefense */
+     , (27837, 138,     1.4) /* SlayerDamageBonus */
+     , (27837, 144,    0.07) /* ManaConversionMod */
      , (27837, 147,    0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
