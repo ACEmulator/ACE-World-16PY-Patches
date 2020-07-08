@@ -18,9 +18,9 @@ VALUES (27826,   1,        256) /* ItemType - MissileWeapon */
      , (27826,  48,         47) /* WeaponSkill - MissileWeapons */
      , (27826,  49,        100) /* WeaponTime */
      , (27826,  50,          2) /* AmmoType - Bolt */
-     , (27826,  51,          2) /* CombatUse - Missle */
-     , (27826,  52,          2) /* ParentLocation */
-     , (27826,  53,          3) /* PlacementPosition */
+     , (27826,  51,          2) /* CombatUse - Missile */
+     , (27826,  52,          2) /* ParentLocation - LeftHand */
+     , (27826,  53,          3) /* PlacementPosition - LeftHand */
      , (27826,  60,        192) /* WeaponRange */
      , (27826,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27826, 106,        200) /* ItemSpellcraft */
@@ -43,15 +43,15 @@ VALUES (27826,  11, True ) /* IgnoreCollisions */
      , (27826,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27826,   5, -0.0329999998211861) /* ManaRate */
-     , (27826,  26, 27.2999992370605) /* MaximumVelocity */
-     , (27826,  29, 1.07000005245209) /* WeaponDefense */
-     , (27826,  39,    1.25) /* DefaultScale */
-     , (27826,  62,       1) /* WeaponOffense */
-     , (27826,  63, 2.09999990463257) /* DamageMod */
-     , (27826, 136,     2.5) /* CriticalMultiplier */
-     , (27826, 138, 1.79999995231628) /* SlayerDamageBonus */
-     , (27826, 147,    0.25) /* CriticalFrequency */;
+VALUES (27826,   5, -0.033) /* ManaRate */
+     , (27826,  26,   27.3) /* MaximumVelocity */
+     , (27826,  29,   1.07) /* WeaponDefense */
+     , (27826,  39,   1.25) /* DefaultScale */
+     , (27826,  62,      1) /* WeaponOffense */
+     , (27826,  63,    2.1) /* DamageMod */
+     , (27826, 136,    2.5) /* CriticalMultiplier */
+     , (27826, 138,    1.8) /* SlayerDamageBonus */
+     , (27826, 147,   0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27826,   1, 'Bound Singularity Crossbow') /* Name */

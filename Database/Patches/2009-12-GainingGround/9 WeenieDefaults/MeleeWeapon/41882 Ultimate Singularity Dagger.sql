@@ -33,23 +33,20 @@ VALUES (41882,   1,          1) /* ItemType - MeleeWeapon */
      , (41882, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41882,  11, True ) /* IgnoreCollisions */
-     , (41882,  13, True ) /* Ethereal */
-     , (41882,  14, True ) /* GravityStatus */
-     , (41882,  19, True ) /* Attackable */
-     , (41882,  22, True ) /* Inscribable */
+VALUES (41882,  22, True ) /* Inscribable */
      , (41882,  23, True ) /* DestroyOnSell */
      , (41882,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41882,   5, -0.0329999998211861) /* ManaRate */
-     , (41882,  21, 0.400000005960464) /* WeaponLength */
-     , (41882,  22, 0.150000005960464) /* DamageVariance */
-     , (41882,  29, 1.14999997615814) /* WeaponDefense */
-     , (41882,  62, 1.14999997615814) /* WeaponOffense */
-     , (41882, 136,     2.5) /* CriticalMultiplier */
-     , (41882, 138,       2) /* SlayerDamageBonus */
-     , (41882, 147,    0.25) /* CriticalFrequency */;
+VALUES (41882,   5, -0.033) /* ManaRate */
+     , (41882,  21,    0.4) /* WeaponLength */
+     , (41882,  22,   0.15) /* DamageVariance */
+     , (41882,  29,   1.15) /* WeaponDefense */
+     , (41882,  62,   1.15) /* WeaponOffense */
+     , (41882, 136,    2.5) /* CriticalMultiplier */
+     , (41882, 138,      2) /* SlayerDamageBonus */
+     , (41882, 147,   0.25) /* CriticalFrequency */
+     , (41882, 155,      1) /* IgnoreArmor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41882,   1, 'Ultimate Singularity Dagger') /* Name */

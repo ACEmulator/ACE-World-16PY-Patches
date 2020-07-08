@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27848;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27848, 'swordsingularitymaraenew', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (27848, 'swordsingularitymaraenew', 6, '2020-07-04 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27848,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,8 +20,6 @@ VALUES (27848,   1,          1) /* ItemType - MeleeWeapon */
      , (27848,  48,         45) /* WeaponSkill - LightWeapons */
      , (27848,  49,         40) /* WeaponTime */
      , (27848,  51,          1) /* CombatUse - Melee */
-     , (27848,  52,          1) /* ParentLocation */
-     , (27848,  53,          1) /* PlacementPosition */
      , (27848,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27848, 106,        200) /* ItemSpellcraft */
      , (27848, 107,       1000) /* ItemCurMana */
@@ -37,24 +35,20 @@ VALUES (27848,   1,          1) /* ItemType - MeleeWeapon */
      , (27848, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27848,  11, True ) /* IgnoreCollisions */
-     , (27848,  13, True ) /* Ethereal */
-     , (27848,  14, True ) /* GravityStatus */
-     , (27848,  19, True ) /* Attackable */
-     , (27848,  22, True ) /* Inscribable */
+VALUES (27848,  22, True ) /* Inscribable */
      , (27848,  23, True ) /* DestroyOnSell */
      , (27848,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27848,   5, -0.0329999998211861) /* ManaRate */
-     , (27848,  21, 0.949999988079071) /* WeaponLength */
-     , (27848,  22, 0.159999996423721) /* DamageVariance */
-     , (27848,  29, 1.08000004291534) /* WeaponDefense */
-     , (27848,  39, 1.10000002384186) /* DefaultScale */
-     , (27848,  62, 1.08000004291534) /* WeaponOffense */
-     , (27848, 136,     2.5) /* CriticalMultiplier */
-     , (27848, 138, 1.79999995231628) /* SlayerDamageBonus */
-     , (27848, 147,    0.25) /* CriticalFrequency */;
+VALUES (27848,   5, -0.033) /* ManaRate */
+     , (27848,  21,   0.95) /* WeaponLength */
+     , (27848,  22,   0.16) /* DamageVariance */
+     , (27848,  29,   1.08) /* WeaponDefense */
+     , (27848,  39,    1.1) /* DefaultScale */
+     , (27848,  62,   1.08) /* WeaponOffense */
+     , (27848, 136,    2.5) /* CriticalMultiplier */
+     , (27848, 138,    1.8) /* SlayerDamageBonus */
+     , (27848, 147,   0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27848,   1, 'Ultimate Singularity Sword') /* Name */
