@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14, 'cow', 15, '2020-05-29 00:00:00') /* Cow */;
+VALUES (14, 'cow', 15, '2020-07-08 00:00:00') /* Cow */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14,   1,         16) /* ItemType - Creature */
@@ -20,10 +20,7 @@ VALUES (14,   1,         16) /* ItemType - Creature */
      , (14, 146,       1000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14,   1, True ) /* Stuck */
-     , (14,  11, False) /* IgnoreCollisions */
-     , (14,  12, True ) /* ReportCollisions */
-     , (14,  13, False) /* Ethereal */;
+VALUES (14,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14,   1,       5) /* HeartbeatInterval */
@@ -265,3 +262,8 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  30 /* InqQuestSolves */, 0, 1, NULL, 'CowTipCounter@1-1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (14, 9, 36359,  0, 0, 0.05, False) /* Create Cow Head (36359) for ContainTreasure */
+     , (14, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
+     
