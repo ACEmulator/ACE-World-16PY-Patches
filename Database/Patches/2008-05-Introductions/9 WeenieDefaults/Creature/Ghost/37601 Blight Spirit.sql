@@ -60,7 +60,8 @@ VALUES (37601,   1,       5) /* HeartbeatInterval */
      , (37601, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (37601,   1, 'Blight Spirit') /* Name */;
+VALUES (37601,   1, 'Blight Spirit') /* Name */
+     , (37601,  45, 'KillTask-BlightSpirit') /* KillQuest */;;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37601,   1,   33558816) /* Setup */
@@ -80,7 +81,7 @@ VALUES (37601,   1, 300, 0, 0) /* Strength */
      , (37601,   4, 280, 0, 0) /* Coordination */
      , (37601,   5, 320, 0, 0) /* Focus */
      , (37601,   6, 320, 0, 0) /* Self */;
-     
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (37601,   1,   325, 0, 0, 475) /* MaxHealth */
      , (37601,   3,   200, 0, 0, 500) /* MaxStamina */
