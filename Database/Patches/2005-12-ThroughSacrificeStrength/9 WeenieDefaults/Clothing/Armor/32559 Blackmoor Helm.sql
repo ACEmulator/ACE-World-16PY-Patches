@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32559;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32559, 'ace32559-blackmoorhelm', 2, '2019-11-13 15:37:58') /* Clothing */;
+VALUES (32559, 'ace32559-blackmoorhelm', 2, '2020-07-09 15:37:58') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32559,   1,          2) /* ItemType - Armor */
@@ -17,26 +17,26 @@ VALUES (32559,   1,          2) /* ItemType - Armor */
      , (32559,  33,          1) /* Bonded - Bonded */
      , (32559,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32559, 106,        400) /* ItemSpellcraft */
+     , (32559, 107,       3000) /* ItemCurMana */
      , (32559, 108,       3000) /* ItemMaxMana */
      , (32559, 150,        103) /* HookPlacement - Hook */
-     , (32559, 151,          2) /* HookType - Wall */
-     , (32559, 176,          7) /* AppraisalItemSkill */;
+     , (32559, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32559,  22, True ) /* Inscribable */
      , (32559, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32559,   5, -0.0500000007450581) /* ManaRate */
+VALUES (32559,   5,   -0.05) /* ManaRate */
      , (32559,  12,       0) /* Shade */
-     , (32559,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (32559,  14, 0.899999976158142) /* ArmorModVsPierce */
+     , (32559,  13,     1.2) /* ArmorModVsSlash */
+     , (32559,  14,     0.9) /* ArmorModVsPierce */
      , (32559,  15,       1) /* ArmorModVsBludgeon */
-     , (32559,  16, 0.699999988079071) /* ArmorModVsCold */
-     , (32559,  17, 0.800000011920929) /* ArmorModVsFire */
-     , (32559,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (32559,  19, 0.699999988079071) /* ArmorModVsElectric */
-     , (32559, 110, 0.800000011920929) /* BulkMod */
+     , (32559,  16,     0.7) /* ArmorModVsCold */
+     , (32559,  17,     0.8) /* ArmorModVsFire */
+     , (32559,  18,     0.6) /* ArmorModVsAcid */
+     , (32559,  19,     0.7) /* ArmorModVsElectric */
+     , (32559, 110,     0.8) /* BulkMod */
      , (32559, 111,       1) /* SizeMod */
      , (32559, 165,       1) /* ArmorModVsNether */;
 
