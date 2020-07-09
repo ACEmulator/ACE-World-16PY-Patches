@@ -26,7 +26,7 @@ VALUES (37602,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37602,   1, 'Candrus Steady-Hand') /* Name */
-     , (37603,   5, 'Scout of the Hand') /* Template */;
+     , (37602,   5, 'Scout of the Hand') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37602,   1,   33554433) /* Setup */
