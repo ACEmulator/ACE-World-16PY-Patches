@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41880;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41880, 'ace41880-ultimatesingularitybow', 3, '2020-06-16 01:55:02') /* MissileLauncher */;
+VALUES (41880, 'ace41880-ultimatesingularitybow', 3, '2020-07-04 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41880,   1,        256) /* ItemType - MissileWeapon */
@@ -18,7 +18,7 @@ VALUES (41880,   1,        256) /* ItemType - MissileWeapon */
      , (41880,  48,         47) /* WeaponSkill - MissileWeapons */
      , (41880,  49,         50) /* WeaponTime */
      , (41880,  50,          1) /* AmmoType - Arrow */
-     , (41880,  51,          2) /* CombatUse - Missle */
+     , (41880,  51,          2) /* CombatUse - Missile */
      , (41880,  52,          2) /* ParentLocation - LeftHand */
      , (41880,  53,          3) /* PlacementPosition - LeftHand */
      , (41880,  60,        192) /* WeaponRange */
@@ -37,25 +37,23 @@ VALUES (41880,   1,        256) /* ItemType - MissileWeapon */
      , (41880, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41880,  11, True ) /* IgnoreCollisions */
-     , (41880,  13, True ) /* Ethereal */
-     , (41880,  14, True ) /* GravityStatus */
-     , (41880,  19, True ) /* Attackable */
-     , (41880,  22, True ) /* Inscribable */
+VALUES (41880,  22, True ) /* Inscribable */
      , (41880,  23, True ) /* DestroyOnSell */
+     , (41880,  84, True ) /* IgnoreCloIcons */
      , (41880,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41880,   5, -0.0329999998211861) /* ManaRate */
+VALUES (41880,   5,  -0.033) /* ManaRate */
      , (41880,  21,       0) /* WeaponLength */
      , (41880,  22,       0) /* DamageVariance */
-     , (41880,  26, 27.2999992370605) /* MaximumVelocity */
-     , (41880,  29, 1.10000002384186) /* WeaponDefense */
+     , (41880,  26,    27.3) /* MaximumVelocity */
+     , (41880,  29,     1.1) /* WeaponDefense */
      , (41880,  62,       1) /* WeaponOffense */
-     , (41880,  63, 2.29999995231628) /* DamageMod */
+     , (41880,  63,     2.3) /* DamageMod */
      , (41880, 136,     2.5) /* CriticalMultiplier */
      , (41880, 138,       2) /* SlayerDamageBonus */
-     , (41880, 147,    0.25) /* CriticalFrequency */;
+     , (41880, 147,    0.25) /* CriticalFrequency */
+     , (41880, 155,       1) /* IgnoreArmor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41880,   1, 'Ultimate Singularity Bow') /* Name */

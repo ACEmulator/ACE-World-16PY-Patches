@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27815;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27815, 'atlatlsingularitymaraenew', 3, '2019-08-11 06:52:23') /* MissileLauncher */;
+VALUES (27815, 'atlatlsingularitymaraenew', 3, '2020-07-04 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27815,   1,        256) /* ItemType - MissileWeapon */
@@ -18,7 +18,7 @@ VALUES (27815,   1,        256) /* ItemType - MissileWeapon */
      , (27815,  48,         47) /* WeaponSkill - MissileWeapons */
      , (27815,  49,         25) /* WeaponTime */
      , (27815,  50,          4) /* AmmoType - Atlatl */
-     , (27815,  51,          2) /* CombatUse - Missle */
+     , (27815,  51,          2) /* CombatUse - Missile */
      , (27815,  60,        152) /* WeaponRange */
      , (27815,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27815, 106,        200) /* ItemSpellcraft */
@@ -33,24 +33,21 @@ VALUES (27815,   1,        256) /* ItemType - MissileWeapon */
      , (27815, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27815,  11, True ) /* IgnoreCollisions */
-     , (27815,  13, True ) /* Ethereal */
-     , (27815,  14, True ) /* GravityStatus */
-     , (27815,  19, True ) /* Attackable */
-     , (27815,  22, True ) /* Inscribable */
+VALUES (27815,  22, True ) /* Inscribable */
      , (27815,  23, True ) /* DestroyOnSell */
-     , (27815,  84, True ) /* IgnoreCloIcons */;
+     , (27815,  84, True ) /* IgnoreCloIcons */
+     , (27815,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27815,   5, -0.0329999998211861) /* ManaRate */
-     , (27815,  26, 24.8999996185303) /* MaximumVelocity */
-     , (27815,  29, 1.10000002384186) /* WeaponDefense */
-     , (27815,  39, 1.10000002384186) /* DefaultScale */
-     , (27815,  62,       1) /* WeaponOffense */
-     , (27815,  63, 2.20000004768372) /* DamageMod */
-     , (27815, 136,     2.5) /* CriticalMultiplier */
-     , (27815, 138, 1.79999995231628) /* SlayerDamageBonus */
-     , (27815, 147,    0.25) /* CriticalFrequency */;
+VALUES (27815,   5, -0.033) /* ManaRate */
+     , (27815,  26,   24.9) /* MaximumVelocity */
+     , (27815,  29,    1.1) /* WeaponDefense */
+     , (27815,  39,    1.1) /* DefaultScale */
+     , (27815,  62,      1) /* WeaponOffense */
+     , (27815,  63,    2.2) /* DamageMod */
+     , (27815, 136,    2.5) /* CriticalMultiplier */
+     , (27815, 138,    1.8) /* SlayerDamageBonus */
+     , (27815, 147,   0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27815,   1, 'Ultimate Singularity Atlatl') /* Name */
