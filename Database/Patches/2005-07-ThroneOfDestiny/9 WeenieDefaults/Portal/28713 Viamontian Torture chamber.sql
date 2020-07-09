@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28713;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28713, 'portalviamontiantorturechamber', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (28713, 'portalviamontiantorturechamber', 7, '2020-07-09 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28713,   1,      65536) /* ItemType - Portal */
@@ -13,17 +13,13 @@ VALUES (28713,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28713,   1, True ) /* Stuck */
-     , (28713,  11, False) /* IgnoreCollisions */
-     , (28713,  12, True ) /* ReportCollisions */
-     , (28713,  13, True ) /* Ethereal */
-     , (28713,  15, True ) /* LightsStatus */
      , (28713,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28713,  54, -0.100000001490116) /* UseRadius */;
+VALUES (28713,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28713,   1, 'Viamontian Torture chamber') /* Name */
+VALUES (28713,   1, 'Viamontian Torture Chamber') /* Name */
      , (28713,  38, 'Viamontian Torture Chamber') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
