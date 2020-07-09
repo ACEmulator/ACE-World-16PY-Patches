@@ -47,7 +47,7 @@ Give: Tenets of the Radiant Blood (37616)
 					- Goto: IsTurnInComplete
 
 Use:
-    - TurnToTarget
+	- TurnToTarget
 	- InqQuest: SpokeToJondor
 		QuestSuccess:
 			- Tell: If you have a manifesto that you would be willing to allow me to copy, I will reward you with practical knowledge. Just hand it over to me for a few moments and I'll be quite happy.
