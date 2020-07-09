@@ -55,7 +55,7 @@ VALUES (37598,   1,    75, 0, 0, 165) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37598, 2,  2588,  0, 13, 0, False) /* Create Shirt (2588) for Wield */
      , (37598, 2,  2597,  0, 13, 0, False) /* Create Pants (2597) for Wield */
-     , (37598, 2,   104,  0, 0, 0, False) /* Create Scalemail Sleeves (106) for Wield */
+     , (37598, 2,   104,  0, 0, 0, False) /* Create Scalemail Sleeves (104) for Wield */
      , (37598, 2,    83,  0, 39, 0, False) /* Create Scalemail Leggings (83) for Wield */
      , (37598, 2,    57,  0, 39, 0, False) /* Create Platemail Gauntlets (57) for Wield */
      , (37598, 2,   107,  0, 39, 0, False) /* Create Sollerets (107) for Wield */
