@@ -1,32 +1,23 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4567;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4567, 'portallin', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (4567, 'portallin', 7, '2020-07-09 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4567,   1,      65536) /* ItemType - Portal */
-     , (4567,  16,         32) /* ItemUseable - Remote */
-     , (4567,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (4567, 111,          1) /* PortalBitmask - Unrestricted */
-     , (4567, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (4567,  16,          1) /* ItemUseable - No */
+     , (4567,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (4567, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4567,   1, True ) /* Stuck */
-     , (4567,  11, False) /* IgnoreCollisions */
-     , (4567,  12, True ) /* ReportCollisions */
-     , (4567,  13, True ) /* Ethereal */
-     , (4567,  14, True ) /* GravityStatus */
-     , (4567,  15, True ) /* LightsStatus */
-     , (4567,  19, True ) /* Attackable */
-     , (4567,  88, True ) /* PortalShowDestination */;
+VALUES (4567,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4567,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4567,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4567,   1, 'Lin Portal') /* Name */
-     , (4567,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (4567,  38, 'Destroyed Lin Portal (53.9S, 74.3E).') /* AppraisalPortalDestination */;
+VALUES (4567,   1, 'Destroyed Lin Portal') /* Name */
+     , (4567,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4567,   1,   33554867) /* Setup */
