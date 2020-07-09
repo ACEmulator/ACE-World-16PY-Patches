@@ -55,7 +55,7 @@ VALUES (37599,   1,    75, 0, 0, 155) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37599, 2,  2588,  0, 2, 0, False) /* Create Shirt (2588) for Wield */
      , (37599, 2,  2597,  0, 2, 0, False) /* Create Pants (2597) for Wield */
-     , (37599, 2,   106,  0, 0, 0, False) /* Create Yoroi Sleeves (106) for Wield */
+     , (37599, 2,   106,  0, 20, 1, False) /* Create Yoroi Sleeves (106) for Wield */
      , (37599, 2,  2437,  0, 20, 1, False) /* Create Yoroi Leggings (2437) for Wield */
      , (37599, 2,    57,  0, 20, 1, False) /* Create Platemail Gauntlets (57) for Wield */
      , (37599, 2,   107,  0, 20, 1, False) /* Create Sollerets (107) for Wield */
