@@ -1,12 +1,4 @@
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1897087077, 37600, 288620817, 137.373, 82.534, 42.005, 0.168682, 0, 0, 0.985671, False, '2019-06-02 21:54:14'); /* Vierana du Canamorra */
-/* @teleloc 0x11340111 [137.373000 82.534000 42.005000] 0.168682 0.000000 0.000000 0.985671 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1897087059, 38462, 288620851, 91.674, 156.404, 45.205, 0.530105, 0, 0, 0.847932, False, '2019-06-02 21:54:14'); /* Gaston Shadowbound */
-/* @teleloc 0x11340133 [91.674000 156.404000 45.205000] 0.530105 0.000000 0.000000 0.847932 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1897087060, 32991, 288620856, 87.5, 157.5, 42.005, 1, 0, 0, 0, False, '2019-06-02 21:54:14'); /* Harkwull the Discreet */
 /* @teleloc 0x11340138 [87.500000 157.500000 42.005000] 1.000000 0.000000 0.000000 0.000000 */
 
@@ -27,10 +19,6 @@ VALUES (1897087064, 33877, 288620893, 87.5, 179, 41.705, 1, 0, 0, 0, False, '201
 /* @teleloc 0x1134015D [87.500000 179.000000 41.705000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1897087065, 37599, 288620571, 91, 55.4, 45.605, -0.745709, 0, 0, -0.666272, False, '2019-06-02 21:54:14'); /* Joku Shunja */
-/* @teleloc 0x1134001B [91.000000 55.400000 45.605000] -0.745709 0.000000 0.000000 -0.666272 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1897087066, 35962, 288620579, 99, 67, 42.005, 1, 0, 0, 0, False, '2019-06-02 21:54:14'); /* Havala bint Mylos */
 /* @teleloc 0x11340023 [99.000000 67.000000 42.005000] 1.000000 0.000000 0.000000 0.000000 */
 
@@ -45,10 +33,6 @@ VALUES (1897087068, 36534, 288620572, 90.1444, 82.7602, 42.005, 0.00330687, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1897087069, 38211, 288620573, 89.6356, 103.934, 42.005, 0.105314, 0, 0, -0.994439, False, '2019-06-02 21:54:14'); /* Laedron the Geomancer */
 /* @teleloc 0x1134001D [89.635600 103.934000 42.005000] 0.105314 0.000000 0.000000 -0.994439 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1897087070, 37598, 288620581, 118, 105, 42.005, -0.707107, 0, 0, -0.707107, False, '2019-06-02 21:54:14'); /* Qurakh al-Taal */
-/* @teleloc 0x11340025 [118.000000 105.000000 42.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1897087071, 37445, 288620558, 27.2326, 134.412, 42.005, 0.581059, 0, 0, 0.813862, False, '2019-06-02 21:54:14'); /* Guard Bey */
