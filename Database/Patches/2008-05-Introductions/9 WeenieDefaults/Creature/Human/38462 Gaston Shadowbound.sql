@@ -33,13 +33,7 @@ VALUES (38462,   1,   33554433) /* Setup */
      , (38462,   2,  150994945) /* MotionTable */
      , (38462,   3,  536870913) /* SoundTable */
      , (38462,   6,   67108990) /* PaletteBase */
-     , (38462,   8,  100667377) /* Icon */
-     , (38462,   9,   83890511) /* EyesTexture */
-     , (38462,  10,   83890553) /* NoseTexture */
-     , (38462,  11,   83890639) /* MouthTexture */
-     , (38462,  15,   67117025) /* HairPalette */
-     , (38462,  16,   67109564) /* EyesPalette */
-     , (38462,  17,   67115908) /* SkinPalette */;
+     , (38462,   8,  100667377) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38462, 8040, 288620851, 91.674, 156.404, 45.205, 0.530105, 0, 0, 0.847932) /* PCAPRecordedLocation */
@@ -57,3 +51,11 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38462,   1,   196, 0, 0, 296) /* MaxHealth */
      , (38462,   3,   196, 0, 0, 396) /* MaxStamina */
      , (38462,   5,   196, 0, 0, 396) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38462, 2, 25639,  0, 93, 0, False) /* Create Leather Jerkin (25639) for Wield */
+     , (38462, 2, 25645,  0, 93, 0, False) /* Create Leather Leggings (25637) for Wield */
+     , (38462, 2, 25661,  0, 93, 0, False) /* Create Leather Boots (25661) for Wield */
+     , (38462, 2, 25642,  0, 93, 0, False) /* Create Leather Gauntlets (25642) for Wield */
+     , (38462, 2,   127,  0, 92, 0.0909, False) /* Create Pants (127) for Wield */
+     , (38462, 2,   130,  0, 92, 0.1000, False) /* Create Shirt (130) for Wield */;
