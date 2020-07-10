@@ -16,18 +16,15 @@ VALUES (31280,   1,         16) /* ItemType - Creature */
      , (31280,  68,          3) /* TargetingTactic - Random, Focused */
      , (31280,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (31280, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
+     , (31280, 113,          2) /* Gender - Female */
      , (31280, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (31280, 140,          1) /* AiOptions - CanOpenDoors */
-     , (31280, 146,     500000) /* XpOverride */;
+     , (31280, 146,     500000) /* XpOverride */
+     , (31280, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31280,   1, True ) /* Stuck */
      , (31280,   6, True ) /* AiUsesMana */
-     , (31280,  11, False) /* IgnoreCollisions */
-     , (31280,  12, True ) /* ReportCollisions */
-     , (31280,  13, False) /* Ethereal */
-     , (31280,  14, True ) /* GravityStatus */
-     , (31280,  19, True ) /* Attackable */
      , (31280,  42, True ) /* AllowEdgeSlide */
      , (31280,  50, True ) /* NeverFailCasting */;
 
@@ -68,9 +65,7 @@ VALUES (31280,   1,       5) /* HeartbeatInterval */
      , (31280, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31280,   1, 'Twisted Shadow') /* Name */
-     , (31280,   3, 'Female') /* Sex */
-     , (31280,   4, 'Aluvian') /* HeritageGroup */;
+VALUES (31280,   1, 'Twisted Shadow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31280,   1,   33556251) /* Setup */
