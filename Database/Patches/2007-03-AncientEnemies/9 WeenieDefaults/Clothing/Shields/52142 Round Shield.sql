@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52142;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52142, 'ace52142-roundshield', 1, '2019-08-17 00:00:00') /* Generic */;
+VALUES (52142, 'ace52142-roundshield', 1, '2020-07-09 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52142,   1,          2) /* ItemType - Armor */
@@ -24,12 +24,12 @@ VALUES (52142,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52142,  13,       1) /* ArmorModVsSlash */
-     , (52142,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (52142,  15, 1.20000004768372) /* ArmorModVsBludgeon */
-     , (52142,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (52142,  17, 0.600000023841858) /* ArmorModVsFire */
+     , (52142,  14,     0.8) /* ArmorModVsPierce */
+     , (52142,  15,     1.2) /* ArmorModVsBludgeon */
+     , (52142,  16,     0.6) /* ArmorModVsCold */
+     , (52142,  17,     0.6) /* ArmorModVsFire */
      , (52142,  18,       1) /* ArmorModVsAcid */
-     , (52142,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (52142,  19,     0.6) /* ArmorModVsElectric */
      , (52142, 165,       1) /* ArmorModVsNether */
      , (52142,  39,       1) /* DefaultScale */
      , (52142, 110,       1) /* BulkMod */
