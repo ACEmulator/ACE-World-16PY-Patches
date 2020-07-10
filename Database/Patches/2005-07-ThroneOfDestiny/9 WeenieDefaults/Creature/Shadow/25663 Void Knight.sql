@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25663;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25663, 'shadowvoidknightvod', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (25663, 'shadowvoidknightvod', 10, '2020-07-07 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25663,   1,         16) /* ItemType - Creature */
@@ -26,12 +26,6 @@ VALUES (25663,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25663,   1, True ) /* Stuck */
      , (25663,   6, False) /* AiUsesMana */
-     , (25663,  11, False) /* IgnoreCollisions */
-     , (25663,  12, True ) /* ReportCollisions */
-     , (25663,  13, False) /* Ethereal */
-     , (25663,  14, True ) /* GravityStatus */
-     , (25663,  19, True ) /* Attackable */
-     , (25663,  42, True ) /* AllowEdgeSlide */
      , (25663,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -49,15 +43,15 @@ VALUES (25663,   1,       5) /* HeartbeatInterval */
      , (25663,  18,       1) /* ArmorModVsAcid */
      , (25663,  19,       1) /* ArmorModVsElectric */
      , (25663,  31,      25) /* VisualAwarenessRange */
-     , (25663,  34, 1.20000004768372) /* PowerupTime */
+     , (25663,  34,     1.2) /* PowerupTime */
      , (25663,  36,       1) /* ChargeSpeed */
      , (25663,  39,       1) /* DefaultScale */
      , (25663,  64,       1) /* ResistSlash */
      , (25663,  65,     0.5) /* ResistPierce */
-     , (25663,  66, 0.670000016689301) /* ResistBludgeon */
+     , (25663,  66,    0.67) /* ResistBludgeon */
      , (25663,  67,       1) /* ResistFire */
-     , (25663,  68, 0.100000001490116) /* ResistCold */
-     , (25663,  69, 0.200000002980232) /* ResistAcid */
+     , (25663,  68,     0.1) /* ResistCold */
+     , (25663,  69,     0.2) /* ResistAcid */
      , (25663,  70,     0.5) /* ResistElectric */
      , (25663,  71,       1) /* ResistHealthBoost */
      , (25663,  72,       1) /* ResistStaminaDrain */
@@ -71,9 +65,7 @@ VALUES (25663,   1,       5) /* HeartbeatInterval */
      , (25663, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25663,   1, 'Void Knight') /* Name */
-     , (25663,   3, 'Male') /* Sex */
-     , (25663,   4, 'Aluvian') /* HeritageGroup */;
+VALUES (25663,   1, 'Void Knight') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25663,   1,   33554433) /* Setup */
@@ -83,14 +75,8 @@ VALUES (25663,   1,   33554433) /* Setup */
      , (25663,   6,   67108990) /* PaletteBase */
      , (25663,   7,  268435632) /* ClothingBase */
      , (25663,   8,  100670397) /* Icon */
-     , (25663,   9,   83890508) /* EyesTexture */
-     , (25663,  10,   83890521) /* NoseTexture */
-     , (25663,  11,   83890630) /* MouthTexture */
-     , (25663,  15,   67117000) /* HairPalette */
-     , (25663,  16,   67110065) /* EyesPalette */
-     , (25663,  17,   67109559) /* SkinPalette */
      , (25663,  22,  872415331) /* PhysicsEffectTable */
-     , (25663,  32,        426) /* WieldedTreasureType - 
+     , (25663,  32,        426) /* WieldedTreasureType -
                                    Wield Tachi (23136) | Probability: 30%
                                    Wield Kite Shield (23135) | Probability: 100%
                                    Wield Yumi (23137) | Probability: 30%
@@ -113,18 +99,17 @@ VALUES (25663,   1,  1950, 0, 0, 2150) /* MaxHealth */
      , (25663,   5,  1900, 0, 0, 2160) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25663, 45, 0, 3, 0, 345, 0, 0) /* LightWeapons        Specialized */
-     , (25663, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */
-     , (25663, 46, 0, 3, 0,   0, 0, 0) /* FinesseWeapons      Specialized */
-     , (25663,  6, 0, 3, 0, 335, 0, 0) /* MeleeDefense        Specialized */
-     , (25663,  7, 0, 3, 0, 455, 0, 0) /* MissileDefense      Specialized */
-     , (25663, 44, 0, 3, 0, 345, 0, 0) /* HeavyWeapons        Specialized */
-     , (25663, 14, 0, 3, 0, 200, 0, 0) /* ArcaneLore          Specialized */
-     , (25663, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
-     , (25663, 20, 0, 3, 0, 190, 0, 0) /* Deception           Specialized */
-     , (25663, 31, 0, 3, 0, 175, 0, 0) /* CreatureEnchantment Specialized */
-     , (25663, 33, 0, 3, 0, 175, 0, 0) /* LifeMagic           Specialized */
-     , (25663, 34, 0, 3, 0, 175, 0, 0) /* WarMagic            Specialized */;
+VALUES (25663, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */
+     , (25663, 47, 0, 3, 0,  90, 0, 0) /* MissileWeapons      Specialized */
+     , (25663, 46, 0, 3, 0, 300, 0, 0) /* FinesseWeapons      Specialized */
+     , (25663,  6, 0, 3, 0, 245, 0, 0) /* MeleeDefense        Specialized */
+     , (25663,  7, 0, 3, 0, 350, 0, 0) /* MissileDefense      Specialized */
+     , (25663, 44, 0, 3, 0, 300, 0, 0) /* HeavyWeapons        Specialized */
+     , (25663, 14, 0, 3, 0, 320, 0, 0) /* ArcaneLore          Specialized */
+     , (25663, 15, 0, 3, 0, 315, 0, 0) /* MagicDefense        Specialized */
+     , (25663, 31, 0, 3, 0, 250, 0, 0) /* CreatureEnchantment Specialized */
+     , (25663, 33, 0, 3, 0, 250, 0, 0) /* LifeMagic           Specialized */
+     , (25663, 34, 0, 3, 0, 250, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25663,  0,  4,  0,    0,  430,  430,  430,  430,  430,  430,  430,  430,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
