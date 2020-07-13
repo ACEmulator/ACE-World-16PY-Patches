@@ -5,8 +5,8 @@ VALUES (80063, 'ace80063-atlanslaboratory', 7, '2020-07-05 00:00:00') /* Portal 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80063,   1,      65536) /* ItemType - Portal */
-     , (80063,   9,          0) /* ValidLocations - None */
      , (80063,  16,         32) /* ItemUseable - Remote */
+     , (80063,  86,        125) /* MinLevel */
      , (80063,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (80063, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (80063, 133,          4) /* ShowableOnRadar - ShowAlways */;
@@ -19,7 +19,7 @@ VALUES (80063,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80063,   1, 'Atlan''s Laboratory') /* Name */
-     , (80063,  37, 'AtlansLaboratoryAccess') /* QuestRestriction */;
+     , (80063,  37, 'AccessAtlansLaboratory') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (80063,   1,   33558268) /* Setup */
