@@ -38,8 +38,8 @@ VALUES (33738,   1,       5) /* HeartbeatInterval */
      , (33738,   5,       1) /* ManaRate */
      , (33738,  12,     0.5) /* Shade */
      , (33738,  13,       1) /* ArmorModVsSlash */
-     , (33738,  14,    0.55) /* ArmorModVsPierce */
-     , (33738,  15,    0.45) /* ArmorModVsBludgeon */
+     , (33738,  14,    0.65) /* ArmorModVsPierce */
+     , (33738,  15,     0.6) /* ArmorModVsBludgeon */
      , (33738,  16,    0.95) /* ArmorModVsCold */
      , (33738,  17,    0.85) /* ArmorModVsFire */
      , (33738,  18,    0.95) /* ArmorModVsAcid */
@@ -77,7 +77,7 @@ VALUES (33738,   1,   33559712) /* Setup */
      , (33738,   7,  268437049) /* ClothingBase */
      , (33738,   8,  100670961) /* Icon */
      , (33738,  22,  872415416) /* PhysicsEffectTable */
-     , (33738,  35,       1011) /* DeathTreasureType - Loot Tier: 7 */;     
+     , (33738,  35,       1011) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33738,   1, 370, 0, 0) /* Strength */
@@ -121,7 +121,7 @@ VALUES (33738, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key 
      , (33738, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (33738, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (33738, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
-    
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (33738,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

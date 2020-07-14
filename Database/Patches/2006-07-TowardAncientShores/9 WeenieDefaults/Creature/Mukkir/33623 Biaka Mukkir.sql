@@ -73,6 +73,19 @@ VALUES (33623,   1,   33559990) /* Setup */
      , (33623,  22,  872415417) /* PhysicsEffectTable */
      , (33623,  30,         86) /* PhysicsScript - BreatheAcid */
      , (33623,  35,       1012) /* DeathTreasureType - Loot Tier: 7 */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (33623,   1, 460, 0, 0) /* Strength */
+     , (33623,   2, 410, 0, 0) /* Endurance */
+     , (33623,   3, 365, 0, 0) /* Quickness */
+     , (33623,   4, 400, 0, 0) /* Coordination */
+     , (33623,   5, 285, 0, 0) /* Focus */
+     , (33623,   6, 285, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (33623,   1,  12000, 0, 0, 12205) /* MaxHealth */
+     , (33623,   3,  3000, 0, 0, 3410) /* MaxStamina */
+     , (33623,   5,   220, 0, 0, 505) /* MaxMana */;
     
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (33623,  6, 0, 3, 0, 500, 0, 0) /* MeleeDefense        Specialized */

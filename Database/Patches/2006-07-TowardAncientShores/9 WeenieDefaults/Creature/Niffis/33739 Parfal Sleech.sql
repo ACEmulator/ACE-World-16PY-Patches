@@ -38,8 +38,8 @@ VALUES (33739,   1,       5) /* HeartbeatInterval */
      , (33739,   5,       1) /* ManaRate */
      , (33739,  12,     0.5) /* Shade */
      , (33739,  13,       1) /* ArmorModVsSlash */
-     , (33739,  14,    0.55) /* ArmorModVsPierce */
-     , (33739,  15,    0.45) /* ArmorModVsBludgeon */
+     , (33739,  14,    0.65) /* ArmorModVsPierce */
+     , (33739,  15,     0.6) /* ArmorModVsBludgeon */
      , (33739,  16,    0.95) /* ArmorModVsCold */
      , (33739,  17,    0.85) /* ArmorModVsFire */
      , (33739,  18,    0.95) /* ArmorModVsAcid */
@@ -121,7 +121,7 @@ VALUES (33739, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key 
      , (33739, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (33739, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (33739, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
-    
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (33739,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -132,4 +132,3 @@ VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, 
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33739, -1, 33636, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Glissnal Sleech (33636) (x1)  - Location to (re)Generate: Scatter */;
-   

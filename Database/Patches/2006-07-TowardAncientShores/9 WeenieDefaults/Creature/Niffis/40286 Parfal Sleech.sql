@@ -36,8 +36,8 @@ VALUES (40286,   1,       5) /* HeartbeatInterval */
      , (40286,   5,       1) /* ManaRate */
      , (40286,  12,     0.5) /* Shade */
      , (40286,  13,       1) /* ArmorModVsSlash */
-     , (40286,  14,    0.55) /* ArmorModVsPierce */
-     , (40286,  15,    0.45) /* ArmorModVsBludgeon */
+     , (40286,  14,    0.65) /* ArmorModVsPierce */
+     , (40286,  15,     0.6) /* ArmorModVsBludgeon */
      , (40286,  16,    0.95) /* ArmorModVsCold */
      , (40286,  17,    0.85) /* ArmorModVsFire */
      , (40286,  18,    0.95) /* ArmorModVsAcid */
@@ -112,10 +112,9 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40286,  2074,   2.15)  /* Gossamer Flesh */
      , (40286,  2122,   2.15)  /* Disintegration */
      , (40286,  2162,   2.02)   /* Olthoi's Gift */;
-     
+
  INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40286, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (40286, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (40286, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (40286, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
-     

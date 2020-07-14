@@ -87,15 +87,15 @@ VALUES (33633,   1,   33556251) /* Setup */
      , (33633,  35,       1011) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (33633,   1, 190, 0, 0) /* Strength */
-     , (33633,   2, 210, 0, 0) /* Endurance */
-     , (33633,   3, 260, 0, 0) /* Quickness */
-     , (33633,   4, 240, 0, 0) /* Coordination */
-     , (33633,   5, 220, 0, 0) /* Focus */
-     , (33633,   6, 140, 0, 0) /* Self */;
+VALUES (33633,   1, 310, 0, 0) /* Strength */
+     , (33633,   2, 420, 0, 0) /* Endurance */
+     , (33633,   3, 310, 0, 0) /* Quickness */
+     , (33633,   4, 310, 0, 0) /* Coordination */
+     , (33633,   5, 550, 0, 0) /* Focus */
+     , (33633,   6, 570, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33633,   1,   700, 0, 0, 805) /* MaxHealth */
+VALUES (33633,   1, 12000, 0, 0, 12205) /* MaxHealth */
      , (33633,   3,  1000, 0, 0, 1210) /* MaxStamina */
      , (33633,   5,  1000, 0, 0, 1140) /* MaxMana */;
 
@@ -121,7 +121,7 @@ VALUES (33633,  0,  4,  0,    0,  500,  500,  400,  425,  300,  550,  350,  375,
      , (33633,  5,  4, 50, 0.75,  500,  500,  400,  425,  300,  550,  350,  375,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (33633,  6,  4,  0,    0,  500,  500,  400,  425,  300,  550,  350,  375,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (33633,  7,  4,  0,    0,  500,  500,  400,  425,  300,  550,  350,  375,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (33633,  8,  4, 60, 0.75,   60,   60,   48,   51,   36,   66,   42,   45,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (33633,  8,  4, 60, 0.75,  500,   60,   48,   51,   36,   66,   42,   45,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33633,  2140,  2.036)  /* Alset's Coil */
@@ -135,7 +135,7 @@ VALUES (33633,  2140,  2.036)  /* Alset's Coil */
      , (33633,  2172,  2.005)  /* Astyrrian's Gift */
      , (33633,  2168,   2.01)  /* Gelidite's Gift */
      , (33633,  2074,   2.01)  /* Gossamer Flesh */
-     , (33633,  2318,   2.01)  /* Gravity Well */   
+     , (33633,  2318,   2.01)  /* Gravity Well */
      , (33633,  1161,  2.009)  /* Heal Self VI */
      , (33633,  2282,  2.02)  /* Futility */
      , (33633,  2164,  2.02)  /* Swordsman's Gift */
@@ -148,4 +148,4 @@ VALUES (33633, 9, 44470,  1, 0, 0, False) /* Create Corrupted Essence (44470) fo
      , (33633, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33633, -1, 40295, -1, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Depraved Shadow (40295) (x1)  - Location to (re)Generate: Scatter */;     
+VALUES (33633, -1, 40295, -1, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Depraved Shadow (40295) (x1)  - Location to (re)Generate: Scatter */;

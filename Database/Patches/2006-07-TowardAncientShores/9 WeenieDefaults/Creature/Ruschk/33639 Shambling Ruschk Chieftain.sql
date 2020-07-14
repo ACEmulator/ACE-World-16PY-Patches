@@ -87,19 +87,19 @@ VALUES (33639,   1, 460, 0, 0) /* Strength */
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (33639,   1,  9000, 0, 0, 9195) /* MaxHealth */
      , (33639,   3,  3000, 0, 0, 3390) /* MaxStamina */
-     , (33639,   5,    20, 0, 0, 410) /* MaxMana */;
+     , (33639,   5,   390, 0, 0, 410) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (33639,  6, 0, 3, 0, 385, 0, 0) /* MeleeDefense        Specialized */
-     , (33639,  7, 0, 3, 0, 360, 0, 0) /* MissileDefense      Specialized */
+VALUES (33639,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
+     , (33639,  7, 0, 3, 0, 400, 0, 0) /* MissileDefense      Specialized */
      , (33639, 14, 0, 3, 0,  70, 0, 0) /* ArcaneLore          Specialized */
-     , (33639, 15, 0, 3, 0, 410, 0, 0) /* MagicDefense        Specialized */
+     , (33639, 15, 0, 3, 0, 400, 0, 0) /* MagicDefense        Specialized */
      , (33639, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
-     , (33639, 31, 0, 3, 0, 175, 0, 0) /* CreatureEnchantment Specialized */
-     , (33639, 32, 0, 3, 0, 175, 0, 0) /* ItemEnchantment     Specialized */
-     , (33639, 33, 0, 3, 0, 175, 0, 0) /* LifeMagic           Specialized */
-     , (33639, 34, 0, 3, 0, 310, 0, 0) /* WarMagic            Specialized */
-     , (33639, 45, 0, 3, 0, 250, 0, 0) /* LightWeapons        Specialized */;
+     , (33639, 31, 0, 3, 0, 275, 0, 0) /* CreatureEnchantment Specialized */
+     , (33639, 32, 0, 3, 0, 275, 0, 0) /* ItemEnchantment     Specialized */
+     , (33639, 33, 0, 3, 0, 325, 0, 0) /* LifeMagic           Specialized */
+     , (33639, 34, 0, 3, 0, 330, 0, 0) /* WarMagic            Specialized */
+     , (33639, 45, 0, 3, 0, 400, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (33639,  0,  4,  0,    0,  300,  400,  330,  430,  430,  350,  430,  430,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -122,15 +122,12 @@ VALUES (33639, 2, 48633,  1, 0, 0, False) /* Create Glacial Blade (48633) for Wi
      , (33639, 2, 48630,  1, 0, 0, False) /* Create Frozen Dagger (48630) for Wield */
      , (33639, 2, 48631,  1, 0, 0, False) /* Create Ice Shard (48631) for Wield */
      , (33639, 2, 48632,  1, 0, 0, False) /* Create Frigid Splinter (48632) for Wield */
-     , (33639, 2, 48629,  1, 0, 0, False) /* Create Icy Club (48629) for Wield */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33639, 9, 44469,  1, 0, 0, False) /* Create Lesser Corrupted Essence (44469) for ContainTreasure */
+     , (33639, 2, 48629,  1, 0, 0, False) /* Create Icy Club (48629) for Wield */
+     , (33639, 9, 44469,  1, 0, 0, False) /* Create Lesser Corrupted Essence (44469) for ContainTreasure */
      , (33639, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (33639, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (33639, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (33639, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
-     
+
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33639, -1, 40287, -1, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Shambling Undead Ruschk (40287) (x1)  - Location to (re)Generate: Scatter */;      
-     
+VALUES (33639, -1, 40287, -1, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Shambling Undead Ruschk (40287) (x1)  - Location to (re)Generate: Scatter */;

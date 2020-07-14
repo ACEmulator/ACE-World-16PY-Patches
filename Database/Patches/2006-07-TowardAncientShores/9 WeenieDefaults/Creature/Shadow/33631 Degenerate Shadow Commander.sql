@@ -42,11 +42,11 @@ VALUES (33631,   1,       5) /* HeartbeatInterval */
      , (33631,   4,     2.5) /* StaminaRate */
      , (33631,   5,       1) /* ManaRate */
      , (33631,  12,     0.5) /* Shade */
-     , (33631,  13,       1) /* ArmorModVsSlash */
+     , (33631,  13,     0.6) /* ArmorModVsSlash */
      , (33631,  14,     0.8) /* ArmorModVsPierce */
      , (33631,  15,    0.85) /* ArmorModVsBludgeon */
-     , (33631,  16,     0.6) /* ArmorModVsCold */
-     , (33631,  17,     1.1) /* ArmorModVsFire */
+     , (33631,  16,     0.9) /* ArmorModVsCold */
+     , (33631,  17,     0.5) /* ArmorModVsFire */
      , (33631,  18,     0.7) /* ArmorModVsAcid */
      , (33631,  19,    0.75) /* ArmorModVsElectric */
      , (33631,  31,      20) /* VisualAwarenessRange */
@@ -55,10 +55,10 @@ VALUES (33631,   1,       5) /* HeartbeatInterval */
      , (33631,  39,     1.2) /* DefaultScale */
      , (33631,  41,       0) /* RegenerationInterval */
      , (33631,  43,       4) /* GeneratorRadius */
-     , (33631,  64,       1) /* ResistSlash */
+     , (33631,  64,     0.7) /* ResistSlash */
      , (33631,  65,     0.5) /* ResistPierce */
      , (33631,  66,     0.7) /* ResistBludgeon */
-     , (33631,  67,       1) /* ResistFire */
+     , (33631,  67,     0.8) /* ResistFire */
      , (33631,  68,     0.1) /* ResistCold */
      , (33631,  69,     0.2) /* ResistAcid */
      , (33631,  70,     0.5) /* ResistElectric */
