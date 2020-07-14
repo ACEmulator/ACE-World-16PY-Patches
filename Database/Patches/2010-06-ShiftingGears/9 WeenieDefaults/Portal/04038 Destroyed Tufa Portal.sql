@@ -1,20 +1,16 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4038;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4038, 'portaltufa', 7, '2020-03-30 00:00:00') /* Portal */;
+VALUES (4038, 'portaltufa', 7, '2020-07-09 00:00:00') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4038,   1,      65536) /* ItemType - Portal */
      , (4038,  16,          1) /* ItemUseable - No */
-     , (4038,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (4038,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (4038, 111,         49) /* PortalBitmask - Unrestricted */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4038,   1, True ) /* Stuck */
-     , (4038,  11, True ) /* IgnoreCollisions */
-     , (4038,  12, False) /* ReportCollisions */
-     , (4038,  13, True ) /* Ethereal */
-     , (4038,  15, True ) /* LightsStatus */;
+VALUES (4038,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4038,  54, -0.1) /* UseRadius */;
