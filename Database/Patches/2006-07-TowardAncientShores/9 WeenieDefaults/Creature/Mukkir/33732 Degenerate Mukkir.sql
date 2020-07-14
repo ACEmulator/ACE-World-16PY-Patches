@@ -41,8 +41,8 @@ VALUES (33732,   1,       5) /* HeartbeatInterval */
      , (33732,  36,       1) /* ChargeSpeed */
      , (33732,  43,       5) /* GeneratorRadius */
      , (33732,  64,    0.75) /* ResistSlash */
-     , (33732,  65,       1) /* ResistPierce */
-     , (33732,  66,       1) /* ResistBludgeon */
+     , (33732,  65,     0.8) /* ResistPierce */
+     , (33732,  66,     0.8) /* ResistBludgeon */
      , (33732,  67,    0.75) /* ResistFire */
      , (33732,  68,    0.75) /* ResistCold */
      , (33732,  69,    0.42) /* ResistAcid */

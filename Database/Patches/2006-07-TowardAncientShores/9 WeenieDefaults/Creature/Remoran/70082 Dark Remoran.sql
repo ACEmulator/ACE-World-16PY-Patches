@@ -20,7 +20,7 @@ VALUES (70082,   1,         16) /* ItemType - Creature */
      , (70082,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (70082, 103,          3) /* GeneratorDestructionType - Kill */
      , (70082, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (70082, 146,     750000) /* XpOverride */;
+     , (70082, 146,     395000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70082,   1, True ) /* Stuck */
@@ -38,8 +38,8 @@ VALUES (70082,   1,       5) /* HeartbeatInterval */
      , (70082,   5,       1) /* ManaRate */
      , (70082,  12,       0) /* Shade */
      , (70082,  13,    0.95) /* ArmorModVsSlash */
-     , (70082,  14,    0.95) /* ArmorModVsPierce */
-     , (70082,  15,    0.95) /* ArmorModVsBludgeon */
+     , (70082,  14,    0.55) /* ArmorModVsPierce */
+     , (70082,  15,    0.45) /* ArmorModVsBludgeon */
      , (70082,  16,    0.95) /* ArmorModVsCold */
      , (70082,  17,    0.75) /* ArmorModVsFire */
      , (70082,  18,    0.95) /* ArmorModVsAcid */
@@ -50,9 +50,9 @@ VALUES (70082,   1,       5) /* HeartbeatInterval */
      , (70082,  39,     1.5) /* DefaultScale */
      , (70082,  43,       4) /* GeneratorRadius */
      , (70082,  64,    0.58) /* ResistSlash */
-     , (70082,  65,    0.58) /* ResistPierce */
-     , (70082,  66,    0.58) /* ResistBludgeon */
-     , (70082,  67,    0.86) /* ResistFire */
+     , (70082,  65,    0.68) /* ResistPierce */
+     , (70082,  66,    0.68) /* ResistBludgeon */
+     , (70082,  67,    0.36) /* ResistFire */
      , (70082,  68,    0.58) /* ResistCold */
      , (70082,  69,    0.58) /* ResistAcid */
      , (70082,  70,    0.58) /* ResistElectric */

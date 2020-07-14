@@ -6,7 +6,6 @@ VALUES (40287, 'ace40287-shamblingundeadruschk', 10, '2020-06-24 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40287,   1,         16) /* ItemType - Creature */
      , (40287,   2,         14) /* CreatureType - Undead */
-  /*   , (40287,   3,         12) /* PaletteTemplate - Navy */
      , (40287,   6,         -1) /* ItemsCapacity */
      , (40287,   7,         -1) /* ContainersCapacity */
      , (40287,  16,          1) /* ItemUseable - No */
@@ -47,9 +46,9 @@ VALUES (40287,   1,       5) /* HeartbeatInterval */
      , (40287,  36,       1) /* ChargeSpeed */
      , (40287,  39,       1) /* DefaultScale */
      , (40287,  64,     0.7) /* ResistSlash */
-     , (40287,  65,       8) /* ResistPierce */
+     , (40287,  65,     0.7) /* ResistPierce */
      , (40287,  66,     0.5) /* ResistBludgeon */
-     , (40287,  67,     0.9) /* ResistFire */
+     , (40287,  67,     0.8) /* ResistFire */
      , (40287,  68,     0.5) /* ResistCold */
      , (40287,  69,     0.4) /* ResistAcid */
      , (40287,  70,     0.4) /* ResistElectric */
@@ -69,7 +68,6 @@ VALUES (40287,   1,   33560013) /* Setup */
      , (40287,   2,  150994951) /* MotionTable */
      , (40287,   3,  536871101) /* SoundTable */
      , (40287,   4,  805306372) /* CombatTable */
-  /*   , (40287,   7,  268436946) /* ClothingBase */
      , (40287,   8,  100677373) /* Icon */
      , (40287,  22,  872415364) /* PhysicsEffectTable */
      , (40287,  35,       1011) /* DeathTreasureType T7 */;

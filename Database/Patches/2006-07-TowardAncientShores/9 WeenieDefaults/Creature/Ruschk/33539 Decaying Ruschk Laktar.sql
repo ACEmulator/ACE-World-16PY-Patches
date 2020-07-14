@@ -6,7 +6,6 @@ VALUES (33539, 'ace33539-decayingruschklaktar', 10, '2020-06-23 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33539,   1,         16) /* ItemType - Creature */
      , (33539,   2,         81) /* CreatureType - Ruschk */
-   /*  , (33539,   3,         14) /* PaletteTemplate - Red */
      , (33539,   6,         -1) /* ItemsCapacity */
      , (33539,   7,         -1) /* ContainersCapacity */
      , (33539,  16,          1) /* ItemUseable - No */
@@ -26,8 +25,7 @@ VALUES (33539,   1, True ) /* Stuck */
      , (33539,  12, True ) /* ReportCollisions */
      , (33539,  13, False) /* Ethereal */
      , (33539,  14, True ) /* GravityStatus */
-     , (33539,  19, True ) /* Attackable */
-     , (33539, 101, True ) /* CanGenerateRare */;
+     , (33539,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33539,   1,       5) /* HeartbeatInterval */

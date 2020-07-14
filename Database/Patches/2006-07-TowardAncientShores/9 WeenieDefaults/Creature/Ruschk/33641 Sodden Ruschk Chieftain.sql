@@ -6,7 +6,6 @@ VALUES (33641, 'ace33641-soddenruschkchieftain', 10, '2020-06-24 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33641,   1,         16) /* ItemType - Creature */
      , (33641,   2,         14) /* CreatureType - Undead */
-  /*   , (33641,   3,         12) /* PaletteTemplate - Navy */
      , (33641,   6,         -1) /* ItemsCapacity */
      , (33641,   7,         -1) /* ContainersCapacity */
      , (33641,  16,          1) /* ItemUseable - No */
@@ -17,11 +16,10 @@ VALUES (33641,   1,         16) /* ItemType - Creature */
      , (33641,  81,          2) /* MaxGeneratedObjects */
      , (33641,  82,          2) /* InitGeneratedObjects */
      , (33641,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (33641, 103,          3) /* GeneratorDestructionType - Kill */
      , (33641, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (33641, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (33641, 140,          1) /* AiOptions - CanOpenDoors */
-     , (33641, 146,     200000) /* XpOverride */;
+     , (33641, 146,     260000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33641,   1, True ) /* Stuck */
@@ -39,21 +37,21 @@ VALUES (33641,   1,       5) /* HeartbeatInterval */
      , (33641,   5,     1.5) /* ManaRate */
      , (33641,  12,       0) /* Shade */
      , (33641,  13,     0.9) /* ArmorModVsSlash */
-     , (33641,  14,     0.6) /* ArmorModVsPierce */
+     , (33641,  14,     0.7) /* ArmorModVsPierce */
      , (33641,  15,     1.1) /* ArmorModVsBludgeon */
      , (33641,  16,     0.8) /* ArmorModVsCold */
-     , (33641,  17,     0.5) /* ArmorModVsFire */
+     , (33641,  17,     0.6) /* ArmorModVsFire */
      , (33641,  18,       1) /* ArmorModVsAcid */
      , (33641,  19,     0.8) /* ArmorModVsElectric */
      , (33641,  31,      17) /* VisualAwarenessRange */
      , (33641,  34,       1) /* PowerupTime */
      , (33641,  36,       1) /* ChargeSpeed */
-     , (33641,  39,      1.3) /* DefaultScale */
+     , (33641,  39,     1.3) /* DefaultScale */
      , (33641,  43,       4) /* GeneratorRadius */
      , (33641,  64,     0.7) /* ResistSlash */
-     , (33641,  65,       8) /* ResistPierce */
+     , (33641,  65,     0.7) /* ResistPierce */
      , (33641,  66,     0.5) /* ResistBludgeon */
-     , (33641,  67,     0.9) /* ResistFire */
+     , (33641,  67,     0.8) /* ResistFire */
      , (33641,  68,     0.5) /* ResistCold */
      , (33641,  69,     0.4) /* ResistAcid */
      , (33641,  70,     0.4) /* ResistElectric */
@@ -133,5 +131,5 @@ VALUES (33641, 9, 44470,  1, 0, 0, False) /* Create Corrupted Essence (44470) fo
      , (33641, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33641, -1, 33642, -1, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Sodden Undead Ruschk (33642) (x2)  - Location to (re)Generate: Scatter */;
+VALUES (33641, -1, 33642, -1, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Sodden Undead Ruschk (33642) (x2)  - Location to (re)Generate: Scatter */;     
 

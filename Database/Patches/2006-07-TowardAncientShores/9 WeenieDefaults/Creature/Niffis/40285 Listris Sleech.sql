@@ -18,7 +18,7 @@ VALUES (40285,   1,         16) /* ItemType - Creature */
      , (40285, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (40285, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (40285, 140,          1) /* AiOptions - CanOpenDoors */
-     , (40285, 146,     900000) /* XpOverride */;
+     , (40285, 146,     215000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40285,   1, True ) /* Stuck */
@@ -35,9 +35,9 @@ VALUES (40285,   1,       5) /* HeartbeatInterval */
      , (40285,   4,       3) /* StaminaRate */
      , (40285,   5,       1) /* ManaRate */
      , (40285,  12,     0.5) /* Shade */
-     , (40285,  13,       1) /* ArmorModVsSlash */
-     , (40285,  14,    0.85) /* ArmorModVsPierce */
-     , (40285,  15,    0.85) /* ArmorModVsBludgeon */
+     , (40285,  13,     0.6) /* ArmorModVsSlash */
+     , (40285,  14,    0.65) /* ArmorModVsPierce */
+     , (40285,  15,    0.55) /* ArmorModVsBludgeon */
      , (40285,  16,    0.95) /* ArmorModVsCold */
      , (40285,  17,    0.85) /* ArmorModVsFire */
      , (40285,  18,    0.95) /* ArmorModVsAcid */
@@ -46,12 +46,12 @@ VALUES (40285,   1,       5) /* HeartbeatInterval */
      , (40285,  34,       1) /* PowerupTime */
      , (40285,  36,       1) /* ChargeSpeed */
      , (40285,  39,     0.9) /* DefaultScale */
-     , (40285,  64,       1) /* ResistSlash */
-     , (40285,  65,     0.5) /* ResistPierce */
-     , (40285,  66,     0.5) /* ResistBludgeon */
+     , (40285,  64,     0.6) /* ResistSlash */
+     , (40285,  65,     0.6) /* ResistPierce */
+     , (40285,  66,     0.7) /* ResistBludgeon */
      , (40285,  67,     0.5) /* ResistFire */
-     , (40285,  68,     0.9) /* ResistCold */
-     , (40285,  69,     0.9) /* ResistAcid */
+     , (40285,  68,     0.5) /* ResistCold */
+     , (40285,  69,     0.5) /* ResistAcid */
      , (40285,  70,     0.5) /* ResistElectric */
      , (40285,  71,       1) /* ResistHealthBoost */
      , (40285,  72,       1) /* ResistStaminaDrain */

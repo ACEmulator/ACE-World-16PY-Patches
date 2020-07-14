@@ -19,7 +19,7 @@ VALUES (40292,   1,         16) /* ItemType - Creature */
      , (40292, 113,          1) /* Gender - Male */
      , (40292, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (40292, 140,          1) /* AiOptions - CanOpenDoors */
-     , (40292, 146,     125000) /* XpOverride */;
+     , (40292, 146,     200000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40292,   1, True ) /* Stuck */
@@ -38,7 +38,7 @@ VALUES (40292,   1,       5) /* HeartbeatInterval */
      , (40292,   4,     2.5) /* StaminaRate */
      , (40292,   5,       1) /* ManaRate */
      , (40292,  12,       0) /* Shade */
-     , (40292,  13,       1) /* ArmorModVsSlash */
+     , (40292,  13,     0.6) /* ArmorModVsSlash */
      , (40292,  14,     0.8) /* ArmorModVsPierce */
      , (40292,  15,    0.85) /* ArmorModVsBludgeon */
      , (40292,  16,     1.1) /* ArmorModVsCold */
@@ -49,10 +49,10 @@ VALUES (40292,   1,       5) /* HeartbeatInterval */
      , (40292,  34,     1.2) /* PowerupTime */
      , (40292,  36,       1) /* ChargeSpeed */
      , (40292,  39,       1) /* DefaultScale */
-     , (40292,  64,       1) /* ResistSlash */
+     , (40292,  64,     0.8) /* ResistSlash */
      , (40292,  65,     0.5) /* ResistPierce */
      , (40292,  66,     0.7) /* ResistBludgeon */
-     , (40292,  67,       1) /* ResistFire */
+     , (40292,  67,     0.8) /* ResistFire */
      , (40292,  68,     0.1) /* ResistCold */
      , (40292,  69,     0.2) /* ResistAcid */
      , (40292,  70,     0.5) /* ResistElectric */

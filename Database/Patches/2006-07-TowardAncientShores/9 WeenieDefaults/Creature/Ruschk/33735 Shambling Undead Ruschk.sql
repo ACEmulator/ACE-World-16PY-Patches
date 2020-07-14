@@ -6,7 +6,6 @@ VALUES (33735, 'ace33735-shamblingundeadruschk', 10, '2020-06-24 00:00:00') /* C
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33735,   1,         16) /* ItemType - Creature */
      , (33735,   2,         14) /* CreatureType - Undead */
-  /*   , (33735,   3,         12) /* PaletteTemplate - Navy */
      , (33735,   6,         -1) /* ItemsCapacity */
      , (33735,   7,         -1) /* ContainersCapacity */
      , (33735,  16,          1) /* ItemUseable - No */
@@ -50,9 +49,9 @@ VALUES (33735,   1,       5) /* HeartbeatInterval */
      , (33735,  39,       1) /* DefaultScale */
      , (33735,  43,       4) /* GeneratorRadius */
      , (33735,  64,     0.7) /* ResistSlash */
-     , (33735,  65,       8) /* ResistPierce */
+     , (33735,  65,     0.7) /* ResistPierce */
      , (33735,  66,     0.5) /* ResistBludgeon */
-     , (33735,  67,     0.9) /* ResistFire */
+     , (33735,  67,     0.8) /* ResistFire */
      , (33735,  68,     0.5) /* ResistCold */
      , (33735,  69,     0.4) /* ResistAcid */
      , (33735,  70,     0.4) /* ResistElectric */

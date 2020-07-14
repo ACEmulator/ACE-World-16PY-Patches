@@ -37,8 +37,8 @@ VALUES (33736,   1,       5) /* HeartbeatInterval */
      , (33736,   5,       1) /* ManaRate */
      , (33736,  12,       0) /* Shade */
      , (33736,  13,    0.95) /* ArmorModVsSlash */
-     , (33736,  14,    0.95) /* ArmorModVsPierce */
-     , (33736,  15,    0.95) /* ArmorModVsBludgeon */
+     , (33736,  14,    0.55) /* ArmorModVsPierce */
+     , (33736,  15,    0.45) /* ArmorModVsBludgeon */
      , (33736,  16,    0.95) /* ArmorModVsCold */
      , (33736,  17,    0.75) /* ArmorModVsFire */
      , (33736,  18,    0.95) /* ArmorModVsAcid */
@@ -49,9 +49,9 @@ VALUES (33736,   1,       5) /* HeartbeatInterval */
      , (33736,  39,     1.1) /* DefaultScale */
      , (33736,  43,       4) /* GeneratorRadius */
      , (33736,  64,    0.58) /* ResistSlash */
-     , (33736,  65,    0.58) /* ResistPierce */
-     , (33736,  66,    0.58) /* ResistBludgeon */
-     , (33736,  67,    0.86) /* ResistFire */
+     , (33736,  65,    0.68) /* ResistPierce */
+     , (33736,  66,    0.68) /* ResistBludgeon */
+     , (33736,  67,    0.36) /* ResistFire */
      , (33736,  68,    0.58) /* ResistCold */
      , (33736,  69,    0.58) /* ResistAcid */
      , (33736,  70,    0.58) /* ResistElectric */

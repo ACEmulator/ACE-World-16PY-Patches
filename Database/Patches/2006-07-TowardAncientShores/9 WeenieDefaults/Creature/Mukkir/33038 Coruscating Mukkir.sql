@@ -7,14 +7,15 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33038,   1,         16) /* ItemType - Creature */
      , (33038,   2,         89) /* CreatureType - Mukkir */
      , (33038,   3,         13) /* PaletteTemplate - Purple */
-     , (33038,   6,        255) /* ItemsCapacity */
-     , (33038,   7,        255) /* ContainersCapacity */
+     , (33038,   6,         -1) /* ItemsCapacity */
+     , (33038,   7,         -1) /* ContainersCapacity */
      , (33038,  16,          1) /* ItemUseable - No */
      , (33038,  25,        185) /* Level */
      , (33038,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (33038, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (33038, 307,          5) /* DamageRating */
-     , (33038, 308,          5) /* DamageResistRating */;
+     , (33038, 308,          5) /* DamageResistRating */
+     , (33038, 146,     290000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33038,   1, True ) /* Stuck */
@@ -67,7 +68,8 @@ VALUES (33038,   1,   33559741) /* Setup */
      , (33038,   7,   268437061) /* PaletteBase */
      , (33038,   8,  100688542) /* Icon */
      , (33038,  22,  872415417) /* PhysicsEffectTable */
-     , (33038,  30,         86) /* PhysicsScript - BreatheAcid */;
+     , (33038,  30,         86) /* PhysicsScript - BreatheAcid */
+     , (33038,  35,       1012) /* DeathTreasureType - Loot Tier: 7 */
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33038,   1, 455, 0, 0) /* Strength */

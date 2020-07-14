@@ -21,7 +21,7 @@ VALUES (70331,   1,         16) /* ItemType - Creature */
      , (70331, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (70331, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (70331, 140,          1) /* AiOptions - CanOpenDoors */
-     , (70331, 146,    2000000) /* XpOverride */;
+     , (70331, 146,     415000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70331,   1, True ) /* Stuck */
@@ -39,23 +39,23 @@ VALUES (70331,   1,       5) /* HeartbeatInterval */
      , (70331,   5,       1) /* ManaRate */
      , (70331,  12,     0.5) /* Shade */
      , (70331,  13,       1) /* ArmorModVsSlash */
-     , (70331,  14,    0.85) /* ArmorModVsPierce */
-     , (70331,  15,    0.85) /* ArmorModVsBludgeon */
+     , (70331,  14,    0.55) /* ArmorModVsPierce */
+     , (70331,  15,    0.45) /* ArmorModVsBludgeon */
      , (70331,  16,    0.95) /* ArmorModVsCold */
      , (70331,  17,    0.85) /* ArmorModVsFire */
      , (70331,  18,    0.95) /* ArmorModVsAcid */
      , (70331,  19,    0.85) /* ArmorModVsElectric */
-     , (70331,  31,      24) /* VisualAwarenessRange */
+     , (70331,  31,      20) /* VisualAwarenessRange */
      , (70331,  34,       1) /* PowerupTime */
      , (70331,  36,       1) /* ChargeSpeed */
      , (70331,  39,     1.1) /* DefaultScale */
      , (70331,  43,       4) /* GeneratorRadius */
-     , (70331,  64,       1) /* ResistSlash */
-     , (70331,  65,     0.5) /* ResistPierce */
-     , (70331,  66,     0.5) /* ResistBludgeon */
+     , (70331,  64,     0.6) /* ResistSlash */
+     , (70331,  65,     0.6) /* ResistPierce */
+     , (70331,  66,     0.7) /* ResistBludgeon */
      , (70331,  67,     0.5) /* ResistFire */
-     , (70331,  68,     0.9) /* ResistCold */
-     , (70331,  69,     0.9) /* ResistAcid */
+     , (70331,  68,     0.5) /* ResistCold */
+     , (70331,  69,     0.5) /* ResistAcid */
      , (70331,  70,     0.5) /* ResistElectric */
      , (70331,  71,       1) /* ResistHealthBoost */
      , (70331,  72,       1) /* ResistStaminaDrain */
@@ -75,7 +75,6 @@ VALUES (70331,   1,   33559712) /* Setup */
      , (70331,   3,  536871010) /* SoundTable */
      , (70331,   4,  805306410) /* CombatTable */
      , (70331,   6,   67116764) /* PaletteBase */
-   /*  , (70331,   7,  268437049) /* ClothingBase */
      , (70331,   8,  100670961) /* Icon */
      , (70331,  22,  872415416) /* PhysicsEffectTable */
      , (70331,  35,       1012) /* DeathTreasureType - Loot Tier: 7 */;

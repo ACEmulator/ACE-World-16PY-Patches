@@ -19,7 +19,7 @@ VALUES (33737,   1,         16) /* ItemType - Creature */
      , (33737,  82,          0) /* InitGeneratedObjects */
      , (33737,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (33737, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (33737, 146,     250000) /* XpOverride */;
+     , (33737, 146,     270000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33737,   1, True ) /* Stuck */
@@ -37,21 +37,21 @@ VALUES (33737,   1,       5) /* HeartbeatInterval */
      , (33737,   5,       1) /* ManaRate */
      , (33737,  12,       0) /* Shade */
      , (33737,  13,    0.95) /* ArmorModVsSlash */
-     , (33737,  14,    0.95) /* ArmorModVsPierce */
-     , (33737,  15,    0.95) /* ArmorModVsBludgeon */
+     , (33737,  14,    0.55) /* ArmorModVsPierce */
+     , (33737,  15,    0.45) /* ArmorModVsBludgeon */
      , (33737,  16,    0.95) /* ArmorModVsCold */
      , (33737,  17,    0.75) /* ArmorModVsFire */
      , (33737,  18,    0.95) /* ArmorModVsAcid */
      , (33737,  19,    0.85) /* ArmorModVsElectric */
-     , (33737,  31,      24) /* VisualAwarenessRange */
+     , (33737,  31,      19) /* VisualAwarenessRange */
      , (33737,  34,       1) /* PowerupTime */
      , (33737,  36,       1) /* ChargeSpeed */
      , (33737,  39,     1.1) /* DefaultScale */
      , (33737,  43,       4) /* GeneratorRadius */
      , (33737,  64,    0.58) /* ResistSlash */
-     , (33737,  65,    0.58) /* ResistPierce */
-     , (33737,  66,    0.58) /* ResistBludgeon */
-     , (33737,  67,    0.86) /* ResistFire */
+     , (33737,  65,    0.68) /* ResistPierce */
+     , (33737,  66,    0.68) /* ResistBludgeon */
+     , (33737,  67,    0.46) /* ResistFire */
      , (33737,  68,    0.58) /* ResistCold */
      , (33737,  69,    0.58) /* ResistAcid */
      , (33737,  70,    0.58) /* ResistElectric */

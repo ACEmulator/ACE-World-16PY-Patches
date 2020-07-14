@@ -15,7 +15,8 @@ VALUES (33626,   1,         16) /* ItemType - Creature */
      , (33626,  82,          2) /* InitGeneratedObjects */
      , (33626,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (33626, 103,          3) /* GeneratorDestructionType - Kill */
-     , (33626, 133,          2) /* ShowableOnRadar - ShowMovement */;
+     , (33626, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (33626, 146,     370000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33626,   1, True ) /* Stuck */
@@ -41,8 +42,8 @@ VALUES (33626,   1,       5) /* HeartbeatInterval */
      , (33626,  36,       1) /* ChargeSpeed */
      , (33626,  43,       4) /* GeneratorRadius */
      , (33626,  64,    0.75) /* ResistSlash */
-     , (33626,  65,       1) /* ResistPierce */
-     , (33626,  66,       1) /* ResistBludgeon */
+     , (33626,  65,     0.9) /* ResistPierce */
+     , (33626,  66,     0.9) /* ResistBludgeon */
      , (33626,  67,    0.75) /* ResistFire */
      , (33626,  68,    0.75) /* ResistCold */
      , (33626,  69,    0.42) /* ResistAcid */
@@ -55,7 +56,6 @@ VALUES (33626,   1,       5) /* HeartbeatInterval */
      , (33626,  77,       1) /* PhysicsScriptIntensity */
      , (33626, 104,      10) /* ObviousRadarRange */
      , (33626, 117,     0.6) /* FocusedProbability */
-    /* , (33626, 121,       4) /* GeneratorInitialDelay */
      , (33626, 125,    0.25) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

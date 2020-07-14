@@ -13,7 +13,7 @@ VALUES (40282,   1,         16) /* ItemType - Creature */
      , (40282,  25,        185) /* Level */
      , (40282,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (40282, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (40282, 146,     200000) /* XpOverride */;
+     , (40282, 146,     225000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40282,   1, True ) /* Stuck */
@@ -38,8 +38,8 @@ VALUES (40282,   1,       5) /* HeartbeatInterval */
      , (40282,  34,     0.5) /* PowerupTime */
      , (40282,  36,       1) /* ChargeSpeed */
      , (40282,  64,    0.75) /* ResistSlash */
-     , (40282,  65,       1) /* ResistPierce */
-     , (40282,  66,       1) /* ResistBludgeon */
+     , (40282,  65,     0.8) /* ResistPierce */
+     , (40282,  66,     0.8) /* ResistBludgeon */
      , (40282,  67,    0.75) /* ResistFire */
      , (40282,  68,    0.75) /* ResistCold */
      , (40282,  69,    0.42) /* ResistAcid */

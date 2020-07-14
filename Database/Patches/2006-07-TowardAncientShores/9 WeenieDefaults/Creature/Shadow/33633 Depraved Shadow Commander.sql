@@ -22,7 +22,7 @@ VALUES (33633,   1,         16) /* ItemType - Creature */
      , (33633, 113,          1) /* Gender - Male */
      , (33633, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (33633, 140,          1) /* AiOptions - CanOpenDoors */
-     , (33633, 146,     125000) /* XpOverride */;
+     , (33633, 146,     320000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33633,   1, True ) /* Stuck */

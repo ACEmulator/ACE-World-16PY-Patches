@@ -6,7 +6,6 @@ VALUES (33639, 'ace33639-shamblingruschkchieftain', 10, '2020-06-24 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33639,   1,         16) /* ItemType - Creature */
      , (33639,   2,         14) /* CreatureType - Undead */
-  /*   , (33639,   3,         12) /* PaletteTemplate - Navy */
      , (33639,   6,         -1) /* ItemsCapacity */
      , (33639,   7,         -1) /* ContainersCapacity */
      , (33639,  16,          1) /* ItemUseable - No */
@@ -21,7 +20,7 @@ VALUES (33639,   1,         16) /* ItemType - Creature */
      , (33639, 103,          3) /* GeneratorDestructionType - Kill */
      , (33639, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (33639, 140,          1) /* AiOptions - CanOpenDoors */
-     , (33639, 146,     250000) /* XpOverride */;
+     , (33639, 146,     215000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33639,   1, True ) /* Stuck */
@@ -42,7 +41,7 @@ VALUES (33639,   1,       5) /* HeartbeatInterval */
      , (33639,  14,     0.6) /* ArmorModVsPierce */
      , (33639,  15,     1.1) /* ArmorModVsBludgeon */
      , (33639,  16,     0.8) /* ArmorModVsCold */
-     , (33639,  17,     0.5) /* ArmorModVsFire */
+     , (33639,  17,     0.6) /* ArmorModVsFire */
      , (33639,  18,       1) /* ArmorModVsAcid */
      , (33639,  19,     0.8) /* ArmorModVsElectric */
      , (33639,  31,      17) /* VisualAwarenessRange */

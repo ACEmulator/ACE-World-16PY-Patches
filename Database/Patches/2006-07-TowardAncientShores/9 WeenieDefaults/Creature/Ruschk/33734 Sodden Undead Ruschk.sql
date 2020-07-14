@@ -6,7 +6,6 @@ VALUES (33734, 'ace33734-soddenundeadruschk', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33734,   1,         16) /* ItemType - Creature */
      , (33734,   2,         14) /* CreatureType - Undead */
-  /*   , (33734,   3,         12) /* PaletteTemplate - Navy */
      , (33734,   6,         -1) /* ItemsCapacity */
      , (33734,   7,         -1) /* ContainersCapacity */
      , (33734,  16,          1) /* ItemUseable - No */
@@ -50,9 +49,9 @@ VALUES (33734,   1,       5) /* HeartbeatInterval */
      , (33734,  39,       1) /* DefaultScale */
      , (33734,  43,       4) /* GeneratorRadius */
      , (33734,  64,     0.7) /* ResistSlash */
-     , (33734,  65,       8) /* ResistPierce */
+     , (33734,  65,     0.7) /* ResistPierce */
      , (33734,  66,     0.5) /* ResistBludgeon */
-     , (33734,  67,     0.9) /* ResistFire */
+     , (33734,  67,     0.8) /* ResistFire */
      , (33734,  68,     0.5) /* ResistCold */
      , (33734,  69,     0.4) /* ResistAcid */
      , (33734,  70,     0.4) /* ResistElectric */

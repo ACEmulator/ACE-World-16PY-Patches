@@ -12,7 +12,8 @@ VALUES (33538,   1,         16) /* ItemType - Creature */
      , (33538,  16,          1) /* ItemUseable - No */
      , (33538,  25,        185) /* Level */
      , (33538,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (33538, 133,          2) /* ShowableOnRadar - ShowMovement */;
+     , (33538, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (33538, 146,     290000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33538,   1, True ) /* Stuck */
@@ -66,7 +67,8 @@ VALUES (33538,   1,   33559741) /* Setup */
      , (33538,   7,  268437061) /* ClothingBase */
      , (33538,   8,  100688542) /* Icon */
      , (33538,  22,  872415417) /* PhysicsEffectTable */
-     , (33538,  30,         86) /* PhysicsScript - BreatheAcid */;
+     , (33538,  30,         86) /* PhysicsScript - BreatheAcid */
+     , (33538,  35,       1012) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33538,   1, 455, 0, 0) /* Strength */

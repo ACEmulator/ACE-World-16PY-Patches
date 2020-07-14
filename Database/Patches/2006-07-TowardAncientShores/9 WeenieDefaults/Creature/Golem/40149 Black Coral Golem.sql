@@ -15,7 +15,7 @@ VALUES (40149,   1,         16) /* ItemType - Creature */
      , (40149,  82,          0) /* InitGeneratedObjects */
      , (40149,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (40149, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (40149, 146,     350000) /* XpOverride */
+     , (40149, 146,     200000) /* XpOverride */
      , (40149, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

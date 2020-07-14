@@ -22,7 +22,7 @@ VALUES (33631,   1,         16) /* ItemType - Creature */
      , (33631, 113,          2) /* Gender - Female */
      , (33631, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (33631, 140,          1) /* AiOptions - CanOpenDoors */
-     , (33631, 146,     125000) /* XpOverride */
+     , (33631, 146,     345000) /* XpOverride */
      , (33631, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -7,12 +7,13 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33037,   1,         16) /* ItemType - Creature */
      , (33037,   2,         89) /* CreatureType - Mukkir */
      , (33037,   3,         14) /* PaletteTemplate - Red */
-     , (33037,   6,        255) /* ItemsCapacity */
-     , (33037,   7,        255) /* ContainersCapacity */
+     , (33037,   6,         -1) /* ItemsCapacity */
+     , (33037,   7,         -1) /* ContainersCapacity */
      , (33037,  16,          1) /* ItemUseable - No */
      , (33037,  25,        185) /* Level */
      , (33037,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (33037, 133,          2) /* ShowableOnRadar - ShowMovement */;
+     , (33037, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (33037, 146,     290000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33037,   1, True ) /* Stuck */
@@ -65,7 +66,8 @@ VALUES (33037,   1,   33559741) /* Setup */
      , (33037,   7,  268437061) /* ClothingBase */
      , (33037,   8,  100688542) /* Icon */
      , (33037,  22,  872415417) /* PhysicsEffectTable */
-     , (33037,  30,         86) /* PhysicsScript - BreatheAcid */;
+     , (33037,  30,         86) /* PhysicsScript - BreatheAcid */
+     , (33037,  35,       1012) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33037,   1, 455, 0, 0) /* Strength */
