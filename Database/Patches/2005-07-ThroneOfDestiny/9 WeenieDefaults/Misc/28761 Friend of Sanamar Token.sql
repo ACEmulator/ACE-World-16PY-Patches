@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28761;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28761, 'tokenviamont1', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (28761, 'tokenviamont1', 1, '2020-07-09 06:52:23') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28761,   1,        128) /* ItemType - Misc */
@@ -14,11 +14,11 @@ VALUES (28761,   1,        128) /* ItemType - Misc */
      , (28761, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28761,  22, False) /* Inscribable */;
+VALUES (28761,  22, True) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28761,   1, 'Friend of Sanamar Token') /* Name */
-     , (28761,  16, 'Give this token to the Grand Knight of Sanamar and she will change your title to Friend of Sanamar. ') /* LongDesc */;
+     , (28761,  16, 'Give this token to the Grand Knight of Sanamar and he will change your title to Friend of Sanamar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28761,   1,   33554817) /* Setup */
