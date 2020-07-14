@@ -47,7 +47,7 @@ VALUES (41880,   5,  -0.033) /* ManaRate */
      , (41880,  21,       0) /* WeaponLength */
      , (41880,  22,       0) /* DamageVariance */
      , (41880,  26,    27.3) /* MaximumVelocity */
-     , (41880,  29,     1.1) /* WeaponDefense */
+     , (41880,  29,    1.15) /* WeaponDefense */
      , (41880,  62,       1) /* WeaponOffense */
      , (41880,  63,     2.3) /* DamageMod */
      , (41880, 136,     2.5) /* CriticalMultiplier */
@@ -68,7 +68,7 @@ VALUES (41880,   1,   33557312) /* Setup */
      , (41880,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41880,  1384,      2)  /* Coordination Other VI */
-     , (41880,  1605,      2)  /* Aura of Defender Self VI */
-     , (41880,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (41880,  2579,      2)  /* Minor Coordination */;
+VALUES (41880,  2058,      2)  /* Boon of Refinement */
+     , (41880,  2096,      2)  /* Aura of Infected Caress */
+     , (41880,  2101,      2)  /* Aura of Cragstone's Will */
+     , (41880,  2572,      2)  /* Major Coordination */;
