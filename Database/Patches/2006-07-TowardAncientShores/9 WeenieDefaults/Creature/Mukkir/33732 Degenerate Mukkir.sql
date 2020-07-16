@@ -11,7 +11,7 @@ VALUES (33732,   1,         16) /* ItemType - Creature */
      , (33732,   7,         -1) /* ContainersCapacity */
      , (33732,  16,          1) /* ItemUseable - No */
      , (33732,  25,        185) /* Level */
-     , (33732,  81,          1) /* MaxGeneratedObjects */
+     , (33732,  81,          3) /* MaxGeneratedObjects */
      , (33732,  82,          0) /* InitGeneratedObjects */
      , (33732,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (33732, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -183,5 +183,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33732, -1, 33626, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Hellion Mukkir (33626) (x1)  - Location to (re)Generate: Scatter */;
-
+VALUES (33732, -1, 33626, 0, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Hellion Mukkir (33626) (x1 up to max of 1)  - Location to (re)Generate: Scatter */
+     , (33732, -1, 40281, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Degenerate Mukkir Generator (40281) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (33732, -1, 40281, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Degenerate Mukkir Generator (40281) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
