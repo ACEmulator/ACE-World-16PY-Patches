@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32676;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32676, 'ace32676-cellsoftheblackbook', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (32676, 'ace32676-cellsoftheblackbook', 7, '2020-06-19 00:00:00') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32676,   1,      65536) /* ItemType - Portal */
@@ -26,6 +26,7 @@ VALUES (32676,  54, -0.100000001490116) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32676,   1, 'Cells of the Black Book') /* Name */
      , (32676,  16, 'This dungeon is quest restricted and PK restricted.  Speak with Hassha about gaining entry.') /* LongDesc */
+     , (32676,  37, 'FlaggedCellsBlackBook') /* QuestRestriction */
      , (32676,  38, 'Cells of the Black Book') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

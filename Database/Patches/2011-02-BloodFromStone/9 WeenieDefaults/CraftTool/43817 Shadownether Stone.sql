@@ -19,7 +19,8 @@ VALUES (43817,   1,       2048) /* ItemType - Gem */
      , (43817, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43817,  22, True ) /* Inscribable */;
+VALUES (43817,  22, True ) /* Inscribable */
+     , (43817,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43817,   1, 'Shadownether Stone') /* Name */

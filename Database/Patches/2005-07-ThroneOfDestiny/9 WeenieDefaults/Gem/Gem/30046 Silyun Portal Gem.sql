@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30046;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30046, 'gemportalsilyun', 38, '2020-05-13 06:52:23') /* Gem */;
+VALUES (30046, 'gemportalsilyun', 38, '2020-07-09 06:52:23') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30046,   1,       2048) /* ItemType - Gem */
@@ -37,7 +37,7 @@ VALUES (30046, 167,      15) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30046,   1, 'Silyun Portal Gem') /* Name */
      , (30046,  15, 'This portal summoning gem works best if used outside in a relatively flat area.') /* ShortDesc */
-     , (30046,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
+     , (30046,  16, 'Use this gem to summon a short-lived portal to Silyun. This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30046,   1,   33556769) /* Setup */

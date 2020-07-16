@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37469;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37469, 'ace37469-clawstampedspectralingot', 38, '2020-06-16 05:01:31') /* Gem */;
+VALUES (37469, 'ace37469-clawstampedspectralingot', 38, '2020-07-09 05:01:31') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37469,   1,        128) /* ItemType - Misc */
@@ -23,7 +23,7 @@ VALUES (37469,  22, True ) /* Inscribable */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37469,   1, 'Claw Stamped Spectral Ingot') /* Name */
      , (37469,  14, '( BE WARNED: 1 - This duration will continue to count down, even if the character bearing the weapon is logged out.  2 - Have a free space in your main pack when you use this gem.)') /* Use */
-     , (37469,  16, 'A spectral ingot that summons a Spectral Claw when used. Once summoned the weapon will remain in the world for 3 days..') /* LongDesc */;
+     , (37469,  16, 'A spectral ingot that summons a Spectral Claw when used. Once summoned the weapon will remain in the world for 3 days.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37469,   1,   33556769) /* Setup */

@@ -20,7 +20,6 @@ VALUES (46393,   1,          1) /* ItemType - MeleeWeapon */
      , (46393,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (46393,  49,          1) /* WeaponTime */
      , (46393,  51,          1) /* CombatUse - Melee */
-     , (46393,  53,        101) /* PlacementPosition - Resting */
      , (46393,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46393, 114,          1) /* Attuned - Attuned */
      , (46393, 151,          2) /* HookType - Wall */
@@ -30,24 +29,20 @@ VALUES (46393,   1,          1) /* ItemType - MeleeWeapon */
      , (46393, 166,         22) /* SlayerCreatureType - Shadow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46393,  11, True ) /* IgnoreCollisions */
-     , (46393,  13, True ) /* Ethereal */
-     , (46393,  14, True ) /* GravityStatus */
-     , (46393,  19, True ) /* Attackable */
-     , (46393,  22, True ) /* Inscribable */
+VALUES (46393,  22, True ) /* Inscribable */
      , (46393,  69, False) /* IsSellable */
      , (46393,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46393,  21,       0) /* WeaponLength */
-     , (46393,  22, 0.400000005960464) /* DamageVariance */
+     , (46393,  22,     0.4) /* DamageVariance */
      , (46393,  26,       0) /* MaximumVelocity */
-     , (46393,  29, 1.28999996185303) /* WeaponDefense */
-     , (46393,  62, 1.28999996185303) /* WeaponOffense */
+     , (46393,  29,    1.29) /* WeaponDefense */
+     , (46393,  62,    1.29) /* WeaponOffense */
      , (46393,  63,       1) /* DamageMod */
      , (46393, 136,       3) /* CriticalMultiplier */
      , (46393, 138,       3) /* SlayerDamageBonus */
-     , (46393, 147, 0.170000001788139) /* CriticalFrequency */;
+     , (46393, 147,    0.17) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46393,   1, 'Shadowfire Isparian Staff') /* Name */

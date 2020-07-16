@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28736;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28736, 'eaterpenguinwing', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (28736, 'eaterpenguinwing', 1, '2020-07-09 06:52:23') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28736,   1,        128) /* ItemType - Misc */
@@ -14,12 +14,8 @@ VALUES (28736,   1,        128) /* ItemType - Misc */
      , (28736, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28736,  11, True ) /* IgnoreCollisions */
-     , (28736,  13, True ) /* Ethereal */
-     , (28736,  14, True ) /* GravityStatus */
-     , (28736,  19, True ) /* Attackable */
-     , (28736,  22, False) /* Inscribable */
-     , (28736,  23, True ) /* DestroyOnSell */;
+VALUES (28736,  22, True) /* Inscribable */
+     , (28736,  23, True) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28736,  39,     2.5) /* DefaultScale */;

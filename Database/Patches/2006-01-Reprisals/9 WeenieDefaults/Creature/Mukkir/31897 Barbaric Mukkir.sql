@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31897;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31897, 'ace31897-barbaricmukkir', 10, '2020-02-17 23:52:47') /* Creature */;
+VALUES (31897, 'ace31897-barbaricmukkir', 10, '2020-07-08 23:52:47') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31897,   1,         16) /* ItemType - Creature */
      , (31897,   2,         89) /* CreatureType - Mukkir */
      , (31897,   3,          4) /* PaletteTemplate - Brown */
-     , (31897,   6,        255) /* ItemsCapacity */
-     , (31897,   7,        255) /* ContainersCapacity */
+     , (31897,   6,         -1) /* ItemsCapacity */
+     , (31897,   7,         -1) /* ContainersCapacity */
      , (31897,  16,          1) /* ItemUseable - No */
      , (31897,  25,        185) /* Level */
      , (31897,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -17,23 +17,20 @@ VALUES (31897,   1,         16) /* ItemType - Creature */
      , (31897, 308,          5) /* DamageResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31897,   1, True ) /* Stuck */
-     , (31897,  12, True ) /* ReportCollisions */
-     , (31897,  14, True ) /* GravityStatus */
-     , (31897,  19, True ) /* Attackable */;
+VALUES (31897,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31897,   1,       5) /* HeartbeatInterval */
      , (31897,   2,       0) /* HeartbeatTimestamp */
-     , (31897,   3, 0.699999988079071) /* HealthRate */
+     , (31897,   3,     0.7) /* HealthRate */
      , (31897,   4,       4) /* StaminaRate */
      , (31897,   5,       2) /* ManaRate */
-     , (31897,  13, 0.689999997615814) /* ArmorModVsSlash */
-     , (31897,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (31897,  15, 0.600000023841858) /* ArmorModVsBludgeon */
+     , (31897,  13,    0.69) /* ArmorModVsSlash */
+     , (31897,  14,     0.8) /* ArmorModVsPierce */
+     , (31897,  15,     0.6) /* ArmorModVsBludgeon */
      , (31897,  16,       1) /* ArmorModVsCold */
      , (31897,  17,       1) /* ArmorModVsFire */
-     , (31897,  18, 1.10000002384186) /* ArmorModVsAcid */
+     , (31897,  18,     1.1) /* ArmorModVsAcid */
      , (31897,  19,       1) /* ArmorModVsElectric */
      , (31897,  31,      24) /* VisualAwarenessRange */
      , (31897,  34,     0.5) /* PowerupTime */
@@ -43,7 +40,7 @@ VALUES (31897,   1,       5) /* HeartbeatInterval */
      , (31897,  66,       1) /* ResistBludgeon */
      , (31897,  67,    0.75) /* ResistFire */
      , (31897,  68,    0.75) /* ResistCold */
-     , (31897,  69, 0.419999986886978) /* ResistAcid */
+     , (31897,  69,    0.42) /* ResistAcid */
      , (31897,  70,    0.25) /* ResistElectric */
      , (31897,  71,    0.25) /* ResistHealthBoost */
      , (31897,  72,    0.25) /* ResistStaminaDrain */
@@ -52,7 +49,7 @@ VALUES (31897,   1,       5) /* HeartbeatInterval */
      , (31897,  75,       1) /* ResistManaBoost */
      , (31897,  77,       1) /* PhysicsScriptIntensity */
      , (31897, 104,      10) /* ObviousRadarRange */
-     , (31897, 117, 0.600000023841858) /* FocusedProbability */
+     , (31897, 117,     0.6) /* FocusedProbability */
      , (31897, 125,    0.25) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -151,3 +148,8 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31897, 9, 36362,  0, 0, 0.05, False) /* Create Mukkir Head (36362) for ContainTreasure */
+     , (31897, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
+     

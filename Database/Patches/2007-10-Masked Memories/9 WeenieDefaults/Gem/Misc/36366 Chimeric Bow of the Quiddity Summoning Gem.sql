@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36366;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36366, 'ace36366-chimericbowofthequidditysummoninggem', 38, '2020-04-09 00:00:00') /* Gem */;
+VALUES (36366, 'ace36366-chimericbowofthequidditysummoninggem', 38, '2020-07-11 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36366,   1,        128) /* ItemType - Misc */
@@ -27,7 +27,7 @@ VALUES (36366,  39,     0.8) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36366,   1, 'Chimeric Bow of the Quiddity Summoning Gem') /* Name */
      , (36366,  14, 'Use this gem to summon the weapon it is bound to.') /* Use */
-     , (36366,  16, 'A gem, seeming made of congealed portal energy. You know that using this gem will summon forth the weapon known as the Chimeric Atlatl of the Quiddity. Once summoned, the weapon will only remain in the world for 3 hours. (BE WARNED: 1 - This duration will continue to count down, even if the character bearing the weapon is logged out. 2 - Have a free space in your main pack when you use this gem. 3 - You must be at least level 120 to wield the weapon summoned by this gem.)') /* LongDesc */;
+     , (36366,  16, 'A gem, seeming made of congealed portal energy. You know that using this gem will summon forth the weapon known as the Chimeric Bow of the Quiddity. Once summoned, the weapon will only remain in the world for 3 hours. (BE WARNED: 1 - This duration will continue to count down, even if the character bearing the weapon is logged out. 2 - Have a free space in your main pack when you use this gem. 3 - You must be at least level 120 to wield the weapon summoned by this gem.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36366,   1,   33556223) /* Setup */

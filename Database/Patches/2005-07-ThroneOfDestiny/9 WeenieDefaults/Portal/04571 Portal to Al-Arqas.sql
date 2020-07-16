@@ -1,36 +1,27 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4571;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4571, 'portalalarqas', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (4571, 'portalalarqas', 7, '2020-07-09 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4571,   1,      65536) /* ItemType - Portal */
-     , (4571,  16,         32) /* ItemUseable - Remote */
-     , (4571,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (4571, 111,          1) /* PortalBitmask - Unrestricted */
-     , (4571, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (4571,  16,          1) /* ItemUseable - No */
+     , (4571,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (4571, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4571,   1, True ) /* Stuck */
-     , (4571,  11, False) /* IgnoreCollisions */
-     , (4571,  12, True ) /* ReportCollisions */
-     , (4571,  13, True ) /* Ethereal */
-     , (4571,  14, True ) /* GravityStatus */
-     , (4571,  15, True ) /* LightsStatus */
-     , (4571,  19, True ) /* Attackable */
-     , (4571,  88, True ) /* PortalShowDestination */;
+VALUES (4571,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4571,  54, -0.100000001490116) /* UseRadius */;
+VALUES (4571,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4571,   1, 'Portal to Al-Arqas') /* Name */
-     , (4571,  16, 'This portal goes to the Gharu''ndim town of Al-Arqas in the depths of the A''mun desert. This is a good town for characters over level 10.') /* LongDesc */
-     , (4571,  38, 'Destroyed Portal to Al-Arqas (31.3S, 13.2E).') /* AppraisalPortalDestination */;
+VALUES (4571,   1, 'Destroyed Portal to Al-Arqas') /* Name */
+     , (4571,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4571,   1,   33554867) /* Setup */
-     , (4571,   2,  150994947) /* MotionTable */
+VALUES (4571,   1,   33561060) /* Setup */
+     , (4571,   2,  150995314) /* MotionTable */
      , (4571,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
