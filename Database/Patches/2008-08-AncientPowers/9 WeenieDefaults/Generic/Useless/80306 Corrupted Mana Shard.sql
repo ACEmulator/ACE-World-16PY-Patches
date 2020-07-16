@@ -4,7 +4,7 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (80306, 'ace80306-CorruptedManaShard', 1, '2005-02-09 10:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (80306,   1,       1024) /* ItemType - Useless */
+VALUES (80306,   1,        128) /* ItemType - Misc */
      , (80306,   5,        250) /* EncumbranceVal */
      , (80306,   8,         10) /* Mass */
      , (80306,   9,          0) /* ValidLocations - None */
