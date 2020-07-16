@@ -22,4 +22,5 @@ VALUES (@parent_id, 3,  39, '', 3, 0) /* TinkerName */;
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8017;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8017, 33620 /* Salvaged Granite */,   314 /* Dagger */, '2019-04-23 05:27:10');
+VALUES (8017, 33620 /* Salvaged Granite */,   314 /* Dagger */, '2019-04-23 05:27:10')
+     , (8017, 29576 /* Salvaged Granite */,   314 /* Dagger */, '2020-07-15 05:27:10');
