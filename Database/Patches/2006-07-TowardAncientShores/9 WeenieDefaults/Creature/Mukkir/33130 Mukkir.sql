@@ -38,8 +38,8 @@ VALUES (33130,   1,       5) /* HeartbeatInterval */
      , (33130,  34,     0.5) /* PowerupTime */
      , (33130,  36,       1) /* ChargeSpeed */
      , (33130,  64,    0.75) /* ResistSlash */
-     , (33130,  65,       1) /* ResistPierce */
-     , (33130,  66,       1) /* ResistBludgeon */
+     , (33130,  65,     0.8) /* ResistPierce */
+     , (33130,  66,     0.8) /* ResistBludgeon */
      , (33130,  67,    0.75) /* ResistFire */
      , (33130,  68,    0.75) /* ResistCold */
      , (33130,  69,    0.42) /* ResistAcid */
@@ -83,11 +83,11 @@ VALUES (33130,   1,  1501, 0, 0, 1683) /* MaxHealth */
      , (33130,   5,   200, 0, 0, 440) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (33130,  6, 0, 3, 0, 602, 0, 0) /* MeleeDefense        Specialized */
+VALUES (33130,  6, 0, 3, 0, 150, 0, 0) /* MeleeDefense        Specialized */
      , (33130,  7, 0, 3, 0, 200, 0, 0) /* MissileDefense      Specialized */
      , (33130, 15, 0, 3, 0, 390, 0, 0) /* MagicDefense        Specialized */
      , (33130, 20, 0, 2, 0,  40, 0, 0) /* Deception           Trained */
-     , (33130, 45, 0, 3, 0, 573, 0, 0) /* LightWeapons        Specialized */;
+     , (33130, 45, 0, 3, 0, 350, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (33130,  0,  4,  5,    0,  350,  242,  280,  210,  350,  350,  385,  350,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */

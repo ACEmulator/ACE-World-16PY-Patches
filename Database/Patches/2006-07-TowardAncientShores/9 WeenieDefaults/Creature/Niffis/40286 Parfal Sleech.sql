@@ -36,12 +36,12 @@ VALUES (40286,   1,       5) /* HeartbeatInterval */
      , (40286,   5,       1) /* ManaRate */
      , (40286,  12,     0.5) /* Shade */
      , (40286,  13,       1) /* ArmorModVsSlash */
-     , (40286,  14,    0.65) /* ArmorModVsPierce */
-     , (40286,  15,     0.6) /* ArmorModVsBludgeon */
-     , (40286,  16,    0.95) /* ArmorModVsCold */
-     , (40286,  17,    0.85) /* ArmorModVsFire */
-     , (40286,  18,    0.95) /* ArmorModVsAcid */
-     , (40286,  19,    0.85) /* ArmorModVsElectric */
+     , (40286,  14,    0.95) /* ArmorModVsPierce */
+     , (40286,  15,    0.95) /* ArmorModVsBludgeon */
+     , (40286,  16,       1) /* ArmorModVsCold */
+     , (40286,  17,       1) /* ArmorModVsFire */
+     , (40286,  18,       1) /* ArmorModVsAcid */
+     , (40286,  19,       1) /* ArmorModVsElectric */
      , (40286,  31,      18) /* VisualAwarenessRange */
      , (40286,  34,       1) /* PowerupTime */
      , (40286,  36,       1) /* ChargeSpeed */
@@ -53,6 +53,7 @@ VALUES (40286,   1,       5) /* HeartbeatInterval */
      , (40286,  68,     0.5) /* ResistCold */
      , (40286,  69,     0.5) /* ResistAcid */
      , (40286,  70,     0.5) /* ResistElectric */
+     , (40286, 166,     0.6) /* ResistNether */
      , (40286,  71,       1) /* ResistHealthBoost */
      , (40286,  72,       1) /* ResistStaminaDrain */
      , (40286,  73,       1) /* ResistStaminaBoost */

@@ -45,13 +45,14 @@ VALUES (33642,   1,       5) /* HeartbeatInterval */
      , (33642,  34,       1) /* PowerupTime */
      , (33642,  36,       1) /* ChargeSpeed */
      , (33642,  39,       1) /* DefaultScale */
-     , (33642,  64,     0.6) /* ResistSlash */
-     , (33642,  65,     0.6) /* ResistPierce */
-     , (33642,  66,     0.5) /* ResistBludgeon */
-     , (33642,  67,     0.7) /* ResistFire */
-     , (33642,  68,     0.5) /* ResistCold */
-     , (33642,  69,     0.4) /* ResistAcid */
-     , (33642,  70,     0.4) /* ResistElectric */
+     , (33642,  64,     0.1) /* ResistSlash */
+     , (33642,  65,     0.1) /* ResistPierce */
+     , (33642,  66,     0.3) /* ResistBludgeon */
+     , (33642,  67,     0.3) /* ResistFire */
+     , (33642,  68,     0.1) /* ResistCold */
+     , (33642,  69,     0.2) /* ResistAcid */
+     , (33642,  70,     0.1) /* ResistElectric */
+     , (33642, 166,     0.2) /* ResistNether */
      , (33642,  71,       1) /* ResistHealthBoost */
      , (33642,  72,     0.5) /* ResistStaminaDrain */
      , (33642,  73,       1) /* ResistStaminaBoost */

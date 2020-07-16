@@ -10,7 +10,7 @@ VALUES (40285,   1,         16) /* ItemType - Creature */
      , (40285,   6,         -1) /* ItemsCapacity */
      , (40285,   7,         -1) /* ContainersCapacity */
      , (40285,  16,          1) /* ItemUseable - No */
-     , (40285,  25,        185) /* Level */
+     , (40285,  25,        200) /* Level */
      , (40285,  27,          0) /* ArmorType - None */
      , (40285,  40,          2) /* CombatMode - Melee */
      , (40285,  68,          9) /* TargetingTactic - Random, TopDamager */
@@ -18,7 +18,7 @@ VALUES (40285,   1,         16) /* ItemType - Creature */
      , (40285, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (40285, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (40285, 140,          1) /* AiOptions - CanOpenDoors */
-     , (40285, 146,     215000) /* XpOverride */;
+     , (40285, 146,     315000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40285,   1, True ) /* Stuck */
@@ -36,12 +36,12 @@ VALUES (40285,   1,       5) /* HeartbeatInterval */
      , (40285,   5,       1) /* ManaRate */
      , (40285,  12,     0.5) /* Shade */
      , (40285,  13,       1) /* ArmorModVsSlash */
-     , (40285,  14,    0.65) /* ArmorModVsPierce */
-     , (40285,  15,    0.6) /* ArmorModVsBludgeon */
-     , (40285,  16,    0.95) /* ArmorModVsCold */
-     , (40285,  17,    0.85) /* ArmorModVsFire */
-     , (40285,  18,    0.95) /* ArmorModVsAcid */
-     , (40285,  19,    0.85) /* ArmorModVsElectric */
+     , (40285,  14,    0.95) /* ArmorModVsPierce */
+     , (40285,  15,    0.95) /* ArmorModVsBludgeon */
+     , (40285,  16,       1) /* ArmorModVsCold */
+     , (40285,  17,       1) /* ArmorModVsFire */
+     , (40285,  18,       1) /* ArmorModVsAcid */
+     , (40285,  19,       1) /* ArmorModVsElectric */
      , (40285,  31,      18) /* VisualAwarenessRange */
      , (40285,  34,       1) /* PowerupTime */
      , (40285,  36,       1) /* ChargeSpeed */
@@ -53,6 +53,7 @@ VALUES (40285,   1,       5) /* HeartbeatInterval */
      , (40285,  68,     0.5) /* ResistCold */
      , (40285,  69,     0.5) /* ResistAcid */
      , (40285,  70,     0.5) /* ResistElectric */
+     , (40285, 166,     0.6) /* ResistNether */
      , (40285,  71,       1) /* ResistHealthBoost */
      , (40285,  72,       1) /* ResistStaminaDrain */
      , (40285,  73,       1) /* ResistStaminaBoost */

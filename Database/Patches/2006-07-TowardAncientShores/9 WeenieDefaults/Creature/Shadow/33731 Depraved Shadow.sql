@@ -40,13 +40,13 @@ VALUES (33731,   1,       5) /* HeartbeatInterval */
      , (33731,   4,     2.5) /* StaminaRate */
      , (33731,   5,       1) /* ManaRate */
      , (33731,  12,       0) /* Shade */
-     , (33731,  13,     0.7) /* ArmorModVsSlash */
-     , (33731,  14,     0.8) /* ArmorModVsPierce */
-     , (33731,  15,    0.85) /* ArmorModVsBludgeon */
-     , (33731,  16,     0.8) /* ArmorModVsCold */
-     , (33731,  17,     0.6) /* ArmorModVsFire */
-     , (33731,  18,     0.7) /* ArmorModVsAcid */
-     , (33731,  19,    0.75) /* ArmorModVsElectric */
+     , (33731,  13,     0.9) /* ArmorModVsSlash */
+     , (33731,  14,       1) /* ArmorModVsPierce */
+     , (33731,  15,       1) /* ArmorModVsBludgeon */
+     , (33731,  16,     1.1) /* ArmorModVsCold */
+     , (33731,  17,     0.9) /* ArmorModVsFire */
+     , (33731,  18,       1) /* ArmorModVsAcid */
+     , (33731,  19,       1) /* ArmorModVsElectric */
      , (33731,  31,      20) /* VisualAwarenessRange */
      , (33731,  34,     1.2) /* PowerupTime */
      , (33731,  36,       1) /* ChargeSpeed */
@@ -58,6 +58,7 @@ VALUES (33731,   1,       5) /* HeartbeatInterval */
      , (33731,  68,     0.1) /* ResistCold */
      , (33731,  69,     0.2) /* ResistAcid */
      , (33731,  70,     0.5) /* ResistElectric */
+     , (33731, 166,     0.6) /* ResistNether */
      , (33731,  71,       1) /* ResistHealthBoost */
      , (33731,  72,       1) /* ResistStaminaDrain */
      , (33731,  73,       1) /* ResistStaminaBoost */
@@ -132,7 +133,7 @@ VALUES (33731,  2140,  2.036)  /* Alset's Coil */
      , (33731,  2172,  2.005)  /* Astyrrian's Gift */
      , (33731,  2168,   2.01)  /* Gelidite's Gift */
      , (33731,  2074,   2.01)  /* Gossamer Flesh */
-     , (33731,  2318,   2.01)  /* Gravity Well */   
+     , (33731,  2318,   2.01)  /* Gravity Well */
      , (33731,  1161,  2.009)  /* Heal Self VI */
      , (33731,  2282,  2.02)  /* Futility */
      , (33731,  2164,  2.02)  /* Swordsman's Gift */
@@ -143,7 +144,7 @@ VALUES (33731, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key 
      , (33731, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (33731, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (33731, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
-     
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (33731,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

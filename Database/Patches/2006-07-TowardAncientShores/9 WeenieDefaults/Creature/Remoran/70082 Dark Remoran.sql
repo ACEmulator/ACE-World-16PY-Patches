@@ -10,7 +10,7 @@ VALUES (70082,   1,         16) /* ItemType - Creature */
      , (70082,   6,         -1) /* ItemsCapacity */
      , (70082,   7,         -1) /* ContainersCapacity */
      , (70082,  16,          1) /* ItemUseable - No */
-     , (70082,  25,        185) /* Level */
+     , (70082,  25,        200) /* Level */
      , (70082,  27,          0) /* ArmorType - None */
      , (70082,  40,          2) /* CombatMode - Melee */
      , (70082,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
@@ -103,7 +103,7 @@ VALUES (70082,  6, 0, 3, 0, 180, 0, 0) /* MeleeDefense        Specialized */
      , (70082, 33, 0, 3, 0, 175, 0, 0) /* LifeMagic           Specialized */
      , (70082, 34, 0, 3, 0, 175, 0, 0) /* WarMagic            Specialized */
      , (70082, 45, 0, 3, 0, 228, 0, 0) /* LightWeapons        Specialized */;
-     
+
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (70082,  0,  2, 130,  0.5,  425,  595,  340,  638,  255,  404,  319,  276,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
      , (70082,  5,  4, 130,  0.4,  425,  595,  340,  638,  255,  404,  319,  276,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Hand */
@@ -131,6 +131,5 @@ VALUES (70082, 9, 44470,  1, 0, 0, False) /* Create Corrupted Essence (44470) fo
      , (70082, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (70082, -1, 40284, -1, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Horrid Corsair (40284) (x2)  - Location to (re)Generate: Scatter */; 
+VALUES (70082, -1, 40284, -1, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Horrid Corsair (40284) (x2)  - Location to (re)Generate: Scatter */;
 
-    

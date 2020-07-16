@@ -10,7 +10,7 @@ VALUES (33738,   1,         16) /* ItemType - Creature */
      , (33738,   6,         -1) /* ItemsCapacity */
      , (33738,   7,         -1) /* ContainersCapacity */
      , (33738,  16,          1) /* ItemUseable - No */
-     , (33738,  25,        185) /* Level */
+     , (33738,  25,        200) /* Level */
      , (33738,  27,          0) /* ArmorType - None */
      , (33738,  40,          2) /* CombatMode - Melee */
      , (33738,  81,          1) /* MaxGeneratedObjects */
@@ -38,12 +38,12 @@ VALUES (33738,   1,       5) /* HeartbeatInterval */
      , (33738,   5,       1) /* ManaRate */
      , (33738,  12,     0.5) /* Shade */
      , (33738,  13,       1) /* ArmorModVsSlash */
-     , (33738,  14,    0.65) /* ArmorModVsPierce */
-     , (33738,  15,     0.6) /* ArmorModVsBludgeon */
-     , (33738,  16,    0.95) /* ArmorModVsCold */
-     , (33738,  17,    0.85) /* ArmorModVsFire */
-     , (33738,  18,    0.95) /* ArmorModVsAcid */
-     , (33738,  19,    0.85) /* ArmorModVsElectric */
+     , (33738,  14,    0.95) /* ArmorModVsPierce */
+     , (33738,  15,    0.95) /* ArmorModVsBludgeon */
+     , (33738,  16,       1) /* ArmorModVsCold */
+     , (33738,  17,       1) /* ArmorModVsFire */
+     , (33738,  18,       1) /* ArmorModVsAcid */
+     , (33738,  19,       1) /* ArmorModVsElectric */
      , (33738,  31,      18) /* VisualAwarenessRange */
      , (33738,  34,       1) /* PowerupTime */
      , (33738,  36,       1) /* ChargeSpeed */
@@ -56,6 +56,7 @@ VALUES (33738,   1,       5) /* HeartbeatInterval */
      , (33738,  68,     0.5) /* ResistCold */
      , (33738,  69,     0.5) /* ResistAcid */
      , (33738,  70,     0.5) /* ResistElectric */
+     , (33738, 166,     0.6) /* ResistNether */
      , (33738,  71,       1) /* ResistHealthBoost */
      , (33738,  72,       1) /* ResistStaminaDrain */
      , (33738,  73,       1) /* ResistStaminaBoost */

@@ -45,13 +45,14 @@ VALUES (40283,   1,       5) /* HeartbeatInterval */
      , (40283,  34,       1) /* PowerupTime */
      , (40283,  36,       1) /* ChargeSpeed */
      , (40283,  39,     1.1) /* DefaultScale */
-     , (40283,  64,    0.58) /* ResistSlash */
-     , (40283,  65,    0.68) /* ResistPierce */
-     , (40283,  66,    0.68) /* ResistBludgeon */
-     , (40283,  67,    0.36) /* ResistFire */
-     , (40283,  68,    0.58) /* ResistCold */
-     , (40283,  69,    0.58) /* ResistAcid */
-     , (40283,  70,    0.58) /* ResistElectric */
+     , (40283,  64,     0.1) /* ResistSlash */
+     , (40283,  65,     0.3) /* ResistPierce */
+     , (40283,  66,     0.3) /* ResistBludgeon */
+     , (40283,  67,     0.1) /* ResistFire */
+     , (40283,  68,     0.1) /* ResistCold */
+     , (40283,  69,     0.1) /* ResistAcid */
+     , (40283,  70,     0.1) /* ResistElectric */
+     , (40283, 166,     0.3) /* ResistNether */
      , (40283,  71,       1) /* ResistHealthBoost */
      , (40283,  72,       1) /* ResistStaminaDrain */
      , (40283,  73,       1) /* ResistStaminaBoost */
@@ -99,7 +100,7 @@ VALUES (40283,  6, 0, 3, 0, 180, 0, 0) /* MeleeDefense        Specialized */
      , (40283, 33, 0, 3, 0, 175, 0, 0) /* LifeMagic           Specialized */
      , (40283, 34, 0, 3, 0, 175, 0, 0) /* WarMagic            Specialized */
      , (40283, 45, 0, 3, 0, 228, 0, 0) /* LightWeapons        Specialized */;
-     
+
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (40283,  0,  2, 130,  0.5,  625,  595,  340,  638,  255,  404,  319,  276,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
      , (40283,  5,  4, 130,  0.4,  625,  595,  340,  638,  255,  404,  319,  276,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Hand */
@@ -124,5 +125,4 @@ VALUES (40283, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key 
      , (40283, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (40283, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (40283, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
-     
-     
+

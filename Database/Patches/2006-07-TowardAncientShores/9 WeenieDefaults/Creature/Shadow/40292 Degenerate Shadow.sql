@@ -11,7 +11,7 @@ VALUES (40292,   1,         16) /* ItemType - Creature */
      , (40292,   7,         -1) /* ContainersCapacity */
      , (40292,   8,         90) /* Mass */
      , (40292,  16,          1) /* ItemUseable - No */
-     , (40292,  25,        200) /* Level */
+     , (40292,  25,        185) /* Level */
      , (40292,  27,          0) /* ArmorType - None */
      , (40292,  68,          3) /* TargetingTactic - Random, Focused */
      , (40292,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
@@ -38,13 +38,13 @@ VALUES (40292,   1,       5) /* HeartbeatInterval */
      , (40292,   4,     2.5) /* StaminaRate */
      , (40292,   5,       1) /* ManaRate */
      , (40292,  12,       0) /* Shade */
-     , (40292,  13,     0.6) /* ArmorModVsSlash */
-     , (40292,  14,     0.8) /* ArmorModVsPierce */
-     , (40292,  15,    0.85) /* ArmorModVsBludgeon */
+     , (40292,  13,     0.9) /* ArmorModVsSlash */
+     , (40292,  14,       1) /* ArmorModVsPierce */
+     , (40292,  15,       1) /* ArmorModVsBludgeon */
      , (40292,  16,     1.1) /* ArmorModVsCold */
-     , (40292,  17,     0.6) /* ArmorModVsFire */
-     , (40292,  18,     0.7) /* ArmorModVsAcid */
-     , (40292,  19,    0.75) /* ArmorModVsElectric */
+     , (40292,  17,     0.9) /* ArmorModVsFire */
+     , (40292,  18,       1) /* ArmorModVsAcid */
+     , (40292,  19,       1) /* ArmorModVsElectric */
      , (40292,  31,      20) /* VisualAwarenessRange */
      , (40292,  34,     1.2) /* PowerupTime */
      , (40292,  36,       1) /* ChargeSpeed */
@@ -56,6 +56,7 @@ VALUES (40292,   1,       5) /* HeartbeatInterval */
      , (40292,  68,     0.1) /* ResistCold */
      , (40292,  69,     0.2) /* ResistAcid */
      , (40292,  70,     0.5) /* ResistElectric */
+     , (40292, 166,     0.6) /* ResistNether */
      , (40292,  71,       1) /* ResistHealthBoost */
      , (40292,  72,       1) /* ResistStaminaDrain */
      , (40292,  73,       1) /* ResistStaminaBoost */
@@ -130,7 +131,7 @@ VALUES (40292,  2140,  2.036)  /* Alset's Coil */
      , (40292,  2172,  2.005)  /* Astyrrian's Gift */
      , (40292,  2168,   2.01)  /* Gelidite's Gift */
      , (40292,  2074,   2.01)  /* Gossamer Flesh */
-     , (40292,  2318,   2.01)  /* Gravity Well */   
+     , (40292,  2318,   2.01)  /* Gravity Well */
      , (40292,  1161,  2.009)  /* Heal Self VI */
      , (40292,  2282,  2.02)  /* Futility */
      , (40292,  2164,  2.02)  /* Swordsman's Gift */

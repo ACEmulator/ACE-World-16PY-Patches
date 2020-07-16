@@ -10,7 +10,7 @@ VALUES (33737,   1,         16) /* ItemType - Creature */
      , (33737,   6,         -1) /* ItemsCapacity */
      , (33737,   7,         -1) /* ContainersCapacity */
      , (33737,  16,          1) /* ItemUseable - No */
-     , (33737,  25,        185) /* Level */
+     , (33737,  25,        200) /* Level */
      , (33737,  27,          0) /* ArmorType - None */
      , (33737,  40,          2) /* CombatMode - Melee */
      , (33737,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
@@ -48,13 +48,14 @@ VALUES (33737,   1,       5) /* HeartbeatInterval */
      , (33737,  36,       1) /* ChargeSpeed */
      , (33737,  39,     1.1) /* DefaultScale */
      , (33737,  43,       4) /* GeneratorRadius */
-     , (33737,  64,    0.58) /* ResistSlash */
-     , (33737,  65,    0.68) /* ResistPierce */
-     , (33737,  66,    0.68) /* ResistBludgeon */
-     , (33737,  67,    0.46) /* ResistFire */
-     , (33737,  68,    0.58) /* ResistCold */
-     , (33737,  69,    0.58) /* ResistAcid */
-     , (33737,  70,    0.58) /* ResistElectric */
+     , (33737,  64,     0.1) /* ResistSlash */
+     , (33737,  65,     0.3) /* ResistPierce */
+     , (33737,  66,     0.3) /* ResistBludgeon */
+     , (33737,  67,     0.1) /* ResistFire */
+     , (33737,  68,     0.1) /* ResistCold */
+     , (33737,  69,     0.1) /* ResistAcid */
+     , (33737,  70,     0.1) /* ResistElectric */
+     , (33737, 166,     0.3) /* ResistNether */
      , (33737,  71,       1) /* ResistHealthBoost */
      , (33737,  72,       1) /* ResistStaminaDrain */
      , (33737,  73,       1) /* ResistStaminaBoost */

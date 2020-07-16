@@ -40,13 +40,13 @@ VALUES (33730,   1,       5) /* HeartbeatInterval */
      , (33730,   4,     2.5) /* StaminaRate */
      , (33730,   5,       1) /* ManaRate */
      , (33730,  12,       0) /* Shade */
-     , (33730,  13,     0.6) /* ArmorModVsSlash */
-     , (33730,  14,     0.8) /* ArmorModVsPierce */
-     , (33730,  15,    0.85) /* ArmorModVsBludgeon */
-     , (33730,  16,     0.9) /* ArmorModVsCold */
-     , (33730,  17,     0.6) /* ArmorModVsFire */
-     , (33730,  18,     0.9) /* ArmorModVsAcid */
-     , (33730,  19,     0.8) /* ArmorModVsElectric */
+     , (33730,  13,     0.9) /* ArmorModVsSlash */
+     , (33730,  14,       1) /* ArmorModVsPierce */
+     , (33730,  15,       1) /* ArmorModVsBludgeon */
+     , (33730,  16,     1.1) /* ArmorModVsCold */
+     , (33730,  17,     0.9) /* ArmorModVsFire */
+     , (33730,  18,       1) /* ArmorModVsAcid */
+     , (33730,  19,       1) /* ArmorModVsElectric */
      , (33730,  31,      20) /* VisualAwarenessRange */
      , (33730,  34,     1.2) /* PowerupTime */
      , (33730,  36,       1) /* ChargeSpeed */
@@ -59,6 +59,7 @@ VALUES (33730,   1,       5) /* HeartbeatInterval */
      , (33730,  68,     0.1) /* ResistCold */
      , (33730,  69,     0.2) /* ResistAcid */
      , (33730,  70,     0.5) /* ResistElectric */
+     , (33730, 166,     0.6) /* ResistNether */
      , (33730,  71,       1) /* ResistHealthBoost */
      , (33730,  72,       1) /* ResistStaminaDrain */
      , (33730,  73,       1) /* ResistStaminaBoost */
@@ -133,7 +134,7 @@ VALUES (33730,  2140,  2.036)  /* Alset's Coil */
      , (33730,  2172,  2.005)  /* Astyrrian's Gift */
      , (33730,  2168,   2.01)  /* Gelidite's Gift */
      , (33730,  2074,   2.01)  /* Gossamer Flesh */
-     , (33730,  2318,   2.01)  /* Gravity Well */   
+     , (33730,  2318,   2.01)  /* Gravity Well */
      , (33730,  1161,  2.009)  /* Heal Self VI */
      , (33730,  2282,   2.02)  /* Futility */
      , (33730,  2164,   2.02)  /* Swordsman's Gift */
