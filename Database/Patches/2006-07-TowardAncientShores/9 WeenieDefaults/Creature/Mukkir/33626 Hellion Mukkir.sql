@@ -11,7 +11,10 @@ VALUES (33626,   1,         16) /* ItemType - Creature */
      , (33626,   7,         -1) /* ContainersCapacity */
      , (33626,  16,          1) /* ItemUseable - No */
      , (33626,  25,        185) /* Level */
+     , (33626,  81,          2) /* MaxGeneratedObjects */
+     , (33626,  82,          2) /* InitGeneratedObjects */
      , (33626,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (33626, 103,          3) /* GeneratorDestructionType - Kill */
      , (33626, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (33626, 146,     370000) /* XpOverride */;
 
@@ -37,6 +40,7 @@ VALUES (33626,   1,       5) /* HeartbeatInterval */
      , (33626,  31,      17) /* VisualAwarenessRange */
      , (33626,  34,     0.5) /* PowerupTime */
      , (33626,  36,       1) /* ChargeSpeed */
+     , (33626,  43,       4) /* GeneratorRadius */
      , (33626,  64,     0.1) /* ResistSlash */
      , (33626,  65,     0.3) /* ResistPierce */
      , (33626,  66,     0.3) /* ResistBludgeon */
@@ -116,6 +120,9 @@ VALUES (33626, 9, 44469,  1, 0, 0, False) /* Create Lesser Corrupted Essence (44
      , (33626, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (33626, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
 
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (33626, -1, 33626, 4, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Hellion Mukkir (33626) (x2)  - Location to (re)Generate: Scatter */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (33626,  5 /* HeartBeat */,  0.045, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
@@ -171,3 +178,5 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+
