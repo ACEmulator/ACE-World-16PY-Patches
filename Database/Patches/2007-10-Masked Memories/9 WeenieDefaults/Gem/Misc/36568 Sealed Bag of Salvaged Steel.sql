@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36568;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36568, 'ace36568-sealedbagofsalvagedsteel', 38, '2020-03-28 00:00:00') /* Gem */;
+VALUES (36568, 'ace36568-sealedbagofsalvagedsteel', 38, '2020-07-15 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36568,   1,        128) /* ItemType - Misc */
@@ -37,6 +37,6 @@ VALUES (36568,   1,   33556223) /* Setup */
      , (36568,   7,  268435841) /* ClothingBase */
      , (36568,   8,  100677145) /* Icon */
      , (36568,  22,  872415275) /* PhysicsEffectTable */
-     , (36568,  38,      33621) /* UseCreateItem - Salvaged Steel */
+     , (36568,  38,      29581) /* UseCreateItem - Salvaged Steel */
      , (36568,  50,  100689648) /* IconOverlay */;
      
