@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31280;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31280, 'ace31280-twistedshadow', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (31280, 'ace31280-twistedshadow', 10, '2020-07-07 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31280,   1,         16) /* ItemType - Creature */
@@ -16,45 +16,42 @@ VALUES (31280,   1,         16) /* ItemType - Creature */
      , (31280,  68,          3) /* TargetingTactic - Random, Focused */
      , (31280,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (31280, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
+     , (31280, 113,          2) /* Gender - Female */
      , (31280, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (31280, 140,          1) /* AiOptions - CanOpenDoors */
-     , (31280, 146,     500000) /* XpOverride */;
+     , (31280, 146,     500000) /* XpOverride */
+     , (31280, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31280,   1, True ) /* Stuck */
      , (31280,   6, True ) /* AiUsesMana */
-     , (31280,  11, False) /* IgnoreCollisions */
-     , (31280,  12, True ) /* ReportCollisions */
-     , (31280,  13, False) /* Ethereal */
-     , (31280,  14, True ) /* GravityStatus */
-     , (31280,  19, True ) /* Attackable */
      , (31280,  42, True ) /* AllowEdgeSlide */
      , (31280,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31280,   1,       5) /* HeartbeatInterval */
      , (31280,   2,       0) /* HeartbeatTimestamp */
-     , (31280,   3, 0.699999988079071) /* HealthRate */
+     , (31280,   3,     0.7) /* HealthRate */
      , (31280,   4,     2.5) /* StaminaRate */
      , (31280,   5,       1) /* ManaRate */
      , (31280,  12,       0) /* Shade */
      , (31280,  13,       1) /* ArmorModVsSlash */
-     , (31280,  14, 0.839999973773956) /* ArmorModVsPierce */
-     , (31280,  15, 0.889999985694885) /* ArmorModVsBludgeon */
-     , (31280,  16, 0.699999988079071) /* ArmorModVsCold */
+     , (31280,  14,    0.84) /* ArmorModVsPierce */
+     , (31280,  15,    0.89) /* ArmorModVsBludgeon */
+     , (31280,  16,     0.7) /* ArmorModVsCold */
      , (31280,  17,       1) /* ArmorModVsFire */
-     , (31280,  18, 0.740000009536743) /* ArmorModVsAcid */
-     , (31280,  19, 0.839999973773956) /* ArmorModVsElectric */
+     , (31280,  18,    0.74) /* ArmorModVsAcid */
+     , (31280,  19,    0.84) /* ArmorModVsElectric */
      , (31280,  31,      28) /* VisualAwarenessRange */
-     , (31280,  34, 1.10000002384186) /* PowerupTime */
+     , (31280,  34,     1.1) /* PowerupTime */
      , (31280,  36,       1) /* ChargeSpeed */
-     , (31280,  39, 1.20000004768372) /* DefaultScale */
+     , (31280,  39,     1.2) /* DefaultScale */
      , (31280,  64,       1) /* ResistSlash */
      , (31280,  65,     0.5) /* ResistPierce */
-     , (31280,  66, 0.670000016689301) /* ResistBludgeon */
+     , (31280,  66,    0.67) /* ResistBludgeon */
      , (31280,  67,       1) /* ResistFire */
-     , (31280,  68, 0.100000001490116) /* ResistCold */
-     , (31280,  69, 0.200000002980232) /* ResistAcid */
+     , (31280,  68,     0.1) /* ResistCold */
+     , (31280,  69,     0.2) /* ResistAcid */
      , (31280,  70,     0.5) /* ResistElectric */
      , (31280,  71,       1) /* ResistHealthBoost */
      , (31280,  72,       1) /* ResistStaminaDrain */
@@ -68,9 +65,7 @@ VALUES (31280,   1,       5) /* HeartbeatInterval */
      , (31280, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31280,   1, 'Twisted Shadow') /* Name */
-     , (31280,   3, 'Female') /* Sex */
-     , (31280,   4, 'Aluvian') /* HeritageGroup */;
+VALUES (31280,   1, 'Twisted Shadow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31280,   1,   33556251) /* Setup */
@@ -81,7 +76,7 @@ VALUES (31280,   1,   33556251) /* Setup */
      , (31280,   7,  268435871) /* ClothingBase */
      , (31280,   8,  100670398) /* Icon */
      , (31280,  22,  872415331) /* PhysicsEffectTable */
-     , (31280,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
+     , (31280,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31280,   1, 180, 0, 0) /* Strength */

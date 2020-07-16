@@ -30,16 +30,12 @@ VALUES (31395,   1,          2) /* ItemType - Armor */
      , (31395, 179,  536870912) /* ImbuedEffect - IgnoreSomeMagicProjectileDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31395,  11, True ) /* IgnoreCollisions */
-     , (31395,  13, True ) /* Ethereal */
-     , (31395,  14, True ) /* GravityStatus */
-     , (31395,  19, True ) /* Attackable */
-     , (31395,  22, True ) /* Inscribable */
+VALUES (31395,  22, True ) /* Inscribable */
      , (31395,  69, False) /* IsSellable */
      , (31395,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31395,   5, -0.025000000372529) /* ManaRate */
+VALUES (31395,   5,  -0.025) /* ManaRate */
      , (31395,  13,       0) /* ArmorModVsSlash */
      , (31395,  14,       0) /* ArmorModVsPierce */
      , (31395,  15,       0) /* ArmorModVsBludgeon */
@@ -58,7 +54,8 @@ VALUES (31395,   1,   33559617) /* Setup */
      , (31395,   3,  536870932) /* SoundTable */
      , (31395,   7,  268437527) /* ClothingBase */
      , (31395,   8,  100687958) /* Icon */
-     , (31395,  22,  872415275) /* PhysicsEffectTable */;
+     , (31395,  22,  872415275) /* PhysicsEffectTable */
+     , (31395,  37,          6) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31395,   249,      2)  /* Invulnerability Self VI */

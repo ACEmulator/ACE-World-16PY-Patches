@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32542;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32542, 'ace32542-viamontstagingareaportal', 7, '2020-03-03 00:00:00') /* Portal */;
+VALUES (32542, 'ace32542-viamontstagingareaportal', 7, '2020-07-09 00:00:00') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32542,   1,      65536) /* ItemType - Portal */
@@ -14,10 +14,6 @@ VALUES (32542,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32542,   1, True ) /* Stuck */
-     , (32542,  12, True ) /* ReportCollisions */
-     , (32542,  13, True ) /* Ethereal */
-     , (32542,  14, True ) /* GravityStatus */
-     , (32542,  15, True ) /* LightsStatus */
      , (32542,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -28,7 +24,7 @@ VALUES (32542,   1, 'Viamont Staging Area Portal') /* Name */
      , (32542,  38, 'Viamont Staging Area Portal') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32542,   1,   33555925) /* Setup */
+VALUES (32542,   1,   33556212) /* Setup */
      , (32542,   2,  150994947) /* MotionTable */
      , (32542,   8,  100667499) /* Icon */;
 

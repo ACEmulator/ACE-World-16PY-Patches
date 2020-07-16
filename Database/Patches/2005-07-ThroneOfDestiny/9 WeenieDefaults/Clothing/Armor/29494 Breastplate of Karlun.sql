@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29494;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29494, 'breastplatekarlun', 2, '2019-06-02 07:52:34') /* Clothing */;
+VALUES (29494, 'breastplatekarlun', 2, '2020-07-09 07:52:34') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29494,   1,          2) /* ItemType - Armor */
@@ -23,24 +23,20 @@ VALUES (29494,   1,          2) /* ItemType - Armor */
      , (29494, 176,          6) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29494,  11, True ) /* IgnoreCollisions */
-     , (29494,  13, True ) /* Ethereal */
-     , (29494,  14, True ) /* GravityStatus */
-     , (29494,  19, True ) /* Attackable */
-     , (29494,  22, True ) /* Inscribable */
-     , (29494,  69, False) /* IsSellable */
+VALUES (29494,  22, True ) /* Inscribable */
+     , (29494,  23, True ) /* DestroyOnSell */
      , (29494,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29494,   5, -0.0329999998211861) /* ManaRate */
+VALUES (29494,   5,  -0.033) /* ManaRate */
      , (29494,  12,       0) /* Shade */
-     , (29494,  13, 1.10000002384186) /* ArmorModVsSlash */
+     , (29494,  13,     1.1) /* ArmorModVsSlash */
      , (29494,  14,       1) /* ArmorModVsPierce */
-     , (29494,  15, 1.20000004768372) /* ArmorModVsBludgeon */
-     , (29494,  16, 0.800000011920929) /* ArmorModVsCold */
-     , (29494,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (29494,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (29494,  19, 0.699999988079071) /* ArmorModVsElectric */
+     , (29494,  15,     1.2) /* ArmorModVsBludgeon */
+     , (29494,  16,     0.8) /* ArmorModVsCold */
+     , (29494,  17,     0.6) /* ArmorModVsFire */
+     , (29494,  18,     0.6) /* ArmorModVsAcid */
+     , (29494,  19,     0.7) /* ArmorModVsElectric */
      , (29494, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -53,7 +49,8 @@ VALUES (29494,   1,   33559358) /* Setup */
      , (29494,   3,  536870932) /* SoundTable */
      , (29494,   7,  268436961) /* ClothingBase */
      , (29494,   8,  100686511) /* Icon */
-     , (29494,  22,  872415275) /* PhysicsEffectTable */;
+     , (29494,  22,  872415275) /* PhysicsEffectTable */
+     , (29494,  37,          6) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29494,  1484,      2)  /* Impenetrability IV */

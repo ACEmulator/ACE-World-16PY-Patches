@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31226;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31226, 'ace31226-runicskull', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (31226, 'ace31226-runicskull', 1, '2020-07-09 06:52:23') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31226,   1,        128) /* ItemType - Misc */
@@ -14,15 +14,12 @@ VALUES (31226,   1,        128) /* ItemType - Misc */
      , (31226, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31226,  11, True ) /* IgnoreCollisions */
-     , (31226,  13, True ) /* Ethereal */
-     , (31226,  14, True ) /* GravityStatus */
-     , (31226,  19, False) /* Attackable */
+VALUES (31226,  19, False) /* Attackable */
      , (31226,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31226,  39,       2) /* DefaultScale */
-     , (31226,  76, 0.300000011920929) /* Translucency */;
+     , (31226,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31226,   1, 'Runic Skull') /* Name */

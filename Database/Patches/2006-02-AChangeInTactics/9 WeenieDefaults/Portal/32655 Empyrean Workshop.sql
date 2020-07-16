@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32655;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32655, 'ace32655-empyreanworkshop', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (32655, 'ace32655-empyreanworkshop', 7, '2020-07-05 00:00:00') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32655,   1,      65536) /* ItemType - Portal */
@@ -12,21 +12,15 @@ VALUES (32655,   1,      65536) /* ItemType - Portal */
      , (32655, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32655,   1, True ) /* Stuck */
-     , (32655,  12, True ) /* ReportCollisions */
-     , (32655,  13, True ) /* Ethereal */
-     , (32655,  14, True ) /* GravityStatus */
-     , (32655,  15, True ) /* LightsStatus */
-     , (32655,  19, True ) /* Attackable */
-     , (32655,  88, True ) /* PortalShowDestination */;
+VALUES (32655,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32655,  54, -0.100000001490116) /* UseRadius */;
+VALUES (32655,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32655,   1, 'Empyrean Workshop') /* Name */
      , (32655,  16, 'An old Empyrean Workshop') /* LongDesc */
-     , (32655,  38, 'Empyrean Workshop') /* AppraisalPortalDestination */;
+     , (32655,  37, 'AccessEmpyreanWorkshop') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32655,   1,   33555925) /* Setup */
