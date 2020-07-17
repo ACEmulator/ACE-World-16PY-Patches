@@ -25,7 +25,7 @@ VALUES (80307,   1, 'Ancient Falatacot Tome of Light') /* Name */
      , (80307,  16, 'An ancient tome of the Light Falatacot, filled with complex patterns and symbols. Looking at it for any length of time makes your eyes swim and dizziness overtake you.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (80307,   1,   33558378) /* Setup */
+VALUES (80307,   1,   33559831) /* Setup */
      , (80307,   3,  536870932) /* SoundTable */
      , (80307,   8,  100674407) /* Icon */
      , (80307,  22,  872415275) /* PhysicsEffectTable */;
