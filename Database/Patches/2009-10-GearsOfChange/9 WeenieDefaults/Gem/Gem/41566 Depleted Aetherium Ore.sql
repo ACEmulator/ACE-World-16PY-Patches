@@ -1,11 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41566;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41566, 'ace41566-depletedaetheriumore', 38, '2020-01-24 19:55:40') /* Gem */;
+VALUES (41566, 'ace41566-depletedaetheriumore', 38, '2020-07-09 19:55:40') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41566,   1,       2048) /* ItemType - Gem */
-     , (41566,   5,        450) /* EncumbranceVal */
+     , (41566,   5,        150) /* EncumbranceVal */
      , (41566,  11,         10) /* MaxStackSize */
      , (41566,  12,          1) /* StackSize */
      , (41566,  16,          1) /* ItemUseable - No */

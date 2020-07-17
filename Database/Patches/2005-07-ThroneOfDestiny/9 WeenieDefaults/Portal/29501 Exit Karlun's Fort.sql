@@ -1,26 +1,22 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29501;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29501, 'portalkarlunfortexit', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (29501, 'portalkarlunfortexit', 7, '2020-07-09 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29501,   1,      65536) /* ItemType - Portal */
      , (29501,  16,         32) /* ItemUseable - Remote */
      , (29501,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (29501,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (29501, 111,         48) /* PortalBitmask - NoSummon, NoRecall */
+     , (29501, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (29501, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29501,   1, True ) /* Stuck */
-     , (29501,  11, False) /* IgnoreCollisions */
-     , (29501,  12, True ) /* ReportCollisions */
-     , (29501,  13, True ) /* Ethereal */
-     , (29501,  15, True ) /* LightsStatus */
      , (29501,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29501,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29501,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29501,   1, 'Exit Karlun''s Fort') /* Name */

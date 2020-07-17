@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6389;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6389, 'portalamperehelionvault', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (6389, 'portalamperehelionvault', 7, '2020-07-09 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6389,   1,      65536) /* ItemType - Portal */
@@ -12,23 +12,17 @@ VALUES (6389,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6389,   1, True ) /* Stuck */
-     , (6389,  11, False) /* IgnoreCollisions */
-     , (6389,  12, True ) /* ReportCollisions */
-     , (6389,  13, True ) /* Ethereal */
-     , (6389,  14, True ) /* GravityStatus */
-     , (6389,  15, True ) /* LightsStatus */
-     , (6389,  19, True ) /* Attackable */
      , (6389,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6389,  54, -0.100000001490116) /* UseRadius */;
+VALUES (6389,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6389,   1, 'Amperehelion Vault Portal') /* Name */
      , (6389,  38, 'Amperehelion Vault Portal') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6389,   1,   33554867) /* Setup */
+VALUES (6389,   1,   33555923) /* Setup */
      , (6389,   2,  150994947) /* MotionTable */
      , (6389,   8,  100667499) /* Icon */;
 

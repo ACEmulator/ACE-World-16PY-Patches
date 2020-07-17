@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1311;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1311, 'portalnorthglenden', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (1311, 'portalnorthglenden', 7, '2020-07-09 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1311,   1,      65536) /* ItemType - Portal */
@@ -13,12 +13,6 @@ VALUES (1311,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1311,   1, True ) /* Stuck */
-     , (1311,  11, False) /* IgnoreCollisions */
-     , (1311,  12, True ) /* ReportCollisions */
-     , (1311,  13, True ) /* Ethereal */
-     , (1311,  14, True ) /* GravityStatus */
-     , (1311,  15, True ) /* LightsStatus */
-     , (1311,  19, True ) /* Attackable */
      , (1311,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -29,7 +23,7 @@ VALUES (1311,   1, 'North Glenden Prison') /* Name */
      , (1311,  38, 'North Glenden Prison') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1311,   1,   33555922) /* Setup */
+VALUES (1311,   1,   33555925) /* Setup */
      , (1311,   2,  150994947) /* MotionTable */
      , (1311,   8,  100667499) /* Icon */;
 

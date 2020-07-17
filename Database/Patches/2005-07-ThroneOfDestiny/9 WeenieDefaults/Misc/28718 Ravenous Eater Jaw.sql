@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28718;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28718, 'jawravenous', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (28718, 'jawravenous', 1, '2020-07-09 06:52:23') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28718,   1,        128) /* ItemType - Misc */
@@ -14,7 +14,7 @@ VALUES (28718,   1,        128) /* ItemType - Misc */
      , (28718, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28718,  22, False) /* Inscribable */
+VALUES (28718,  22, True) /* Inscribable */
      , (28718,  23, True ) /* DestroyOnSell */
      , (28718,  69, True ) /* IsSellable */;
 
