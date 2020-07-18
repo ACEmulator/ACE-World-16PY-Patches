@@ -22,6 +22,7 @@ VALUES (38722,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38722,   1, 'Society Treasure Key') /* Name */
+     , (38722,  13, 'KeySocietyTreasure') /* KeyCode */
      , (38722,  14, 'Use this key on one of the chests located next to the Vault Keeper in the Promotions Hall of your Society Stronghold.') /* Use */
      , (38722,  16, 'A key authorized by the Quartermaster.') /* LongDesc */;
 
