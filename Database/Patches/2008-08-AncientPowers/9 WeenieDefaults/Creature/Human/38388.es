@@ -31,7 +31,15 @@ Use:
                     - Act: %n chants briefly, and then touches your brow.
                     - StampQuest: CanPickupCorruptedManaShard
                     - Delay: 1, Tell: There, you should now be able to carry the Corrupted Mana Shard safely.
-                #QuestFailure:
+                QuestFailure:
+                    - InqQuestBitsOn: SocietyMember, 0x1
+                        QuestSuccess:
+                            - Act: %n snaps to attention as you approach.
+                            - Motion: Salute
+                            - Tell: Do you need another Handbook? Here you go.
+                            - Give: Celestial Hand Initiate's Handbook (38397)
+                            - Tell: I've found a lot of these on the ground lately. People can be so clumsy.
+                        #QuestFailure:
         QuestFailure:
             - Tell: Greetings. My name is Kirina. It is my honor and duty to aid people who wish to join our Society to prove themselves and be properly initiated to our Society.
             - Tell: Now, before I set you on such a path, you should learn more about the Societies. Go to Jondor Torgren in Zaikhal. He is a scholar of the Arcanum who has shown a great deal of interest in the Societies, and can send you to learn more about all three Societies before you make a choice on one.
