@@ -11,13 +11,17 @@ Use:
 		TestSuccess:
 			- InqQuest: OracleLuminanceRewardsAccess_1110
 				// Finished quest and point to Lum Award
-				QuestSuccess:
-                    - Delay: 0.5 Tell: Greetings. I am Lord Tyragar, Seer of the Haebrean.
-                    - Delay: 0.5 Tell: I can see that you are touched by the Light. 'Blessed with an inner Luminance', as I have heard said.
-                    - Delay: 0.5 Tell: The Light has made me the Seer of the Haebrean.
-                    - Delay: 0.5 Tell: I am a rare survivor of an ancient people, as the Haebrean Empire was lost long ago now. My ties to the Light have sheltered me and given me strength.
-                    - Delay: 0.5 Tell: And, by that same strength, if you wish, I can set you upon the Path of the Haebrean, and use that bond to further empower you.
-                    - Delay: 0.5 Tell: If this is your goal, then simply give me one of these new tradenotes of yours. I believe it is called an 'MMD Note', and I will set you upon the Path.
+                QuestSuccess:
+                    - InqQuest: LoyalToLordTyragar
+                        QuestSuccess:
+                            - Goto: LoyalToLordTyragar
+                        QuestFailure:
+                            - Delay: 0.5 Tell: Greetings. I am Lord Tyragar, Seer of the Haebrean.
+                            - Delay: 0.5 Tell: I can see that you are touched by the Light. 'Blessed with an inner Luminance', as I have heard said.
+                            - Delay: 0.5 Tell: The Light has made me the Seer of the Haebrean.
+                            - Delay: 0.5 Tell: I am a rare survivor of an ancient people, as the Haebrean Empire was lost long ago now. My ties to the Light have sheltered me and given me strength.
+                            - Delay: 0.5 Tell: And, by that same strength, if you wish, I can set you upon the Path of the Haebrean, and use that bond to further empower you.
+                            - Delay: 0.5 Tell: If this is your goal, then simply give me one of these new tradenotes of yours. I believe it is called an 'MMD Note', and I will set you upon the Path.
 				QuestFailure:
     - Delay: 0.5 Tell: I can sense great potential in you.  Potential you have not yet tapped.  Go to the isle of the one called Asheron.  In his castle, you will find Nalicana, the Seer of the Yalain.  She can set you upon the Path of Paths.
 			// Under Level 200
@@ -86,10 +90,10 @@ GotoSet: ForfeitSeerLuminance
 					- EraseQuest: LoyalToKahiri
 					- EraseQuest: LoyalToShadeOfLadyAdja
 					- EraseQuest: LoyalToLiamOfGelid
-					- SetIntStat: LumAugDamageReductionRating, 0
-					- SetIntStat: LumAugCritReductionRating, 0
-					- SetIntStat: LumAugDamageRating, 0
-					- SetIntStat: LumAugCritDamageRating, 0
+					- SetIntStat: LumAugDamageReductionRating, 5
+					- SetIntStat: LumAugCritReductionRating, 5
+					- SetIntStat: LumAugDamageRating, 5
+					- SetIntStat: LumAugCritDamageRating, 5
 					- SetIntStat: LumAugSkilledSpec, 0
 					- Tell: Your Auras have been removed.
                     - Tell: Present me with another MMD note as tribute to walk my path.
@@ -107,88 +111,21 @@ Refuse: 43455
 		- InqQuest: LoyalToLordTyragar
 			QuestSuccess:          
 				- TakeItems: 43455
-				- Goto: 43455_5
+				- Goto: LumAugCritReductionRatingPreRequisite
 			QuestFailure:
 				- DirectBroadcast: Sensing that you do not yet walk the path, %n refuses your gesture.
 
+GotoSet: LumAugCritReductionRatingPreRequisite
+	- InqIntStat: LumAugCritReductionRating, 0 - 4
+			TestSuccess:
+				Goto: PreRequisiteFailed
+			TestFailure:
+				Goto: 43455_5
+
 GotoSet: 43455_5
-	- InqIntStat: LumAugCritReductionRating, 5
-		TestFailure:
-			- Goto: 43455_4
-		TestSuccess:
-			- Tell: You have maxxed out increases to Aura of Hardening.		
-
-GotoSet: 43455_4
-	- InqIntStat: LumAugCritReductionRating, 4
-		TestFailure:
-			- Goto: 43455_3
-		TestSuccess:
-			- InqInt64Stat: AvailableLuminance, 550,000 
-				TestSuccess:
-					- InqYesNo: This is the fifth time you augmented Aura of Hardening. Your cost is 550,000 Luminance. Do you want to continue?
-						TestSuccess:
-							- SpendLuminance: 550,000
-							- IncrementIntStat: LumAugCritReductionRating
-							- Tell: Your Aura of Hardening has been augmented the fifth time.
-						TestFailure:
-							- Tell: Come back when you are ready to make a decision.
-				TestFailure:
-					- Tell: You do not have enough Luminance.
-			
-GotoSet: 43455_3
-	- InqIntStat: LumAugCritReductionRating, 3
-		TestFailure:
-			- Goto: 43455_2
-		TestSuccess:
-			- InqInt64Stat: AvailableLuminance, 500,000
-				TestSuccess:
-					- InqYesNo: This is the forth time you augmented Aura of Hardening. Your cost is 500,000 Luminance. Do you want to continue?
-						TestSuccess:
-							- SpendLuminance: 500,000
-							- IncrementIntStat: LumAugCritReductionRating
-							- Tell: Your Aura of Hardening has been augmented the fourth time.
-						TestFailure:
-							- Tell: Come back when you are ready to make a decision.
-				TestFailure:
-					- Tell: You do not have enough Luminance.
-			
-GotoSet:  43455_2
-	- InqIntStat: LumAugCritReductionRating, 2
-		TestFailure:
-			- Goto: 43455_1
-		TestSuccess:
-			- InqInt64Stat: AvailableLuminance, 450,000
-				TestSuccess:
-					- InqYesNo: This is the third time you augmented Aura of Hardening. Your cost is 450,000 Luminance. Do you want to continue?
-						TestSuccess:
-							- SpendLuminance: 450,000
-							- IncrementIntStat: LumAugCritReductionRating
-							- Tell: Your Aura of Hardening has been augmented the third time.
-							
-						TestFailure:
-							- Tell: Come back when you are ready to make a decision.
-				TestFailure:
-					- Tell: You do not have enough Luminance.
-
-GotoSet: 43455_1
-	- InqIntStat: LumAugCritReductionRating, 1
-		TestFailure:
-			- Goto: 43455_0
-		TestSuccess:
-			- InqInt64Stat: AvailableLuminance, 400,000
-				TestSuccess:
-					- InqYesNo: This is the second time you augmented Aura of Hardening. Your cost is 400,000 Luminance. Do you want to continue?
-						TestSuccess:
-							- SpendLuminance: 400,000
-							- IncrementIntStat: LumAugCritReductionRating
-							- Tell: Your Aura of Hardening has been augmented the second time.
-						TestFailure:
-							- Tell: Come back when you are ready to make a decision.
-				TestFailure:
-					- Tell: You do not have enough Luminance.
-			
-GotoSet: 43455_0
-	- InqIntStat: LumAugCritReductionRating, 0
+	- InqIntStat: LumAugCritReductionRating, 5 - 5
+        TestFailure:
+			- Goto: 43455_6
 		TestSuccess:
 			- InqInt64Stat: AvailableLuminance, 350,000
 				TestSuccess:
@@ -202,6 +139,82 @@ GotoSet: 43455_0
 				TestFailure:
 					- Tell: You do not have enough Luminance.
 
+GotoSet: 43455_6
+	- InqIntStat: LumAugCritReductionRating, 6 - 6
+		TestFailure:
+			- Goto: 43455_7
+		TestSuccess:
+			- InqInt64Stat: AvailableLuminance, 400,000
+				TestSuccess:
+					- InqYesNo: This is the second time you augmented Aura of Hardening. Your cost is 400,000 Luminance. Do you want to continue?
+						TestSuccess:
+							- SpendLuminance: 400,000
+							- IncrementIntStat: LumAugCritReductionRating
+							- Tell: Your Aura of Hardening has been augmented the second time.
+						TestFailure:
+							- Tell: Come back when you are ready to make a decision.
+				TestFailure:
+					- Tell: You do not have enough Luminance.
+			
+GotoSet:  43455_7
+	- InqIntStat: LumAugCritReductionRating, 7 - 7
+		TestFailure:
+			- Goto: 43455_8
+		TestSuccess:
+			- InqInt64Stat: AvailableLuminance, 450,000
+				TestSuccess:
+					- InqYesNo: This is the third time you augmented Aura of Hardening. Your cost is 450,000 Luminance. Do you want to continue?
+						TestSuccess:
+							- SpendLuminance: 450,000
+							- IncrementIntStat: LumAugCritReductionRating
+							- Tell: Your Aura of Hardening has been augmented the third time.
+							
+						TestFailure:
+							- Tell: Come back when you are ready to make a decision.
+				TestFailure:
+					- Tell: You do not have enough Luminance.
+                    
+GotoSet: 43455_8
+	- InqIntStat: LumAugCritReductionRating, 8 - 8
+		TestFailure:
+			- Goto: 43455_9
+		TestSuccess:
+			- InqInt64Stat: AvailableLuminance, 500,000
+				TestSuccess:
+					- InqYesNo: This is the forth time you augmented Aura of Hardening. Your cost is 500,000 Luminance. Do you want to continue?
+						TestSuccess:
+							- SpendLuminance: 500,000
+							- IncrementIntStat: LumAugCritReductionRating
+							- Tell: Your Aura of Hardening has been augmented the fourth time.
+						TestFailure:
+							- Tell: Come back when you are ready to make a decision.
+				TestFailure:
+					- Tell: You do not have enough Luminance.
+
+GotoSet: 43455_9
+	- InqIntStat: LumAugCritReductionRating, 9 - 9
+		TestFailure:
+			- Goto: 43455_Done
+		TestSuccess:
+			- InqInt64Stat: AvailableLuminance, 550,000 
+				TestSuccess:
+					- InqYesNo: This is the fifth time you augmented Aura of Hardening. Your cost is 550,000 Luminance. Do you want to continue?
+						TestSuccess:
+							- SpendLuminance: 550,000
+							- IncrementIntStat: LumAugCritReductionRating
+							- Tell: Your Aura of Hardening has been augmented the fifth time.
+						TestFailure:
+							- Tell: Come back when you are ready to make a decision.
+				TestFailure:
+					- Tell: You do not have enough Luminance.
+
+GotoSet: 43455_Done
+	- InqIntStat: LumAugCritReductionRating, 10
+		TestFailure:
+			- Goto: PreRequisite
+		TestSuccess:
+			- Tell: You have maxxed out increases to Aura of Hardening.
+
 // ===================================================================
 
 // Handed  43457 Haebrean Token of the Aura of Invulnerability
@@ -213,73 +226,38 @@ Refuse: 43457
 		- InqQuest: LoyalToLordTyragar
 			QuestSuccess:          
 				- TakeItems: 43457
-				- Goto: 43457_5
+				- Goto: LumAugDamageReductionRatingPreRequisite
 			QuestFailure:
 				- DirectBroadcast: Sensing that you do not yet walk the path, %n refuses your gesture.
 
+GotoSet: LumAugDamageReductionRatingPreRequisite
+	- InqIntStat: LumAugDamageReductionRating, 0 - 4
+			TestSuccess:
+				Goto: PreRequisiteFailed
+			TestFailure:
+				Goto: 43457_5		
+
 GotoSet: 43457_5
-	- InqIntStat: LumAugDamageReductionRating, 5
+	- InqIntStat: LumAugDamageReductionRating, 5 - 5
 		TestFailure:
-			- Goto: 43457_4
+			- Goto: 43457_6
 		TestSuccess:
-			- Tell: You have maxxed out increases to Aura of Invulnerability.		
-
-GotoSet: 43457_4
-	- InqIntStat: LumAugDamageReductionRating, 4
-		TestFailure:
-			- Goto: 43457_3
-		TestSuccess:
-			- InqInt64Stat: AvailableLuminance, 550,000 
+			- InqInt64Stat: AvailableLuminance, 350,000
 				TestSuccess:
-					- InqYesNo: This is the fifth time you augmented Aura of Invulnerability. Your cost is 550,000 Luminance. Do you want to continue?
+					- InqYesNo: This is the first time you augmented Aura of Invulnerability. Your cost is 350,000 Luminance. Do you want to continue?
 						TestSuccess:
-							- SpendLuminance: 550,000
+							- SpendLuminance: 350,000
 							- IncrementIntStat: LumAugDamageReductionRating
-							- Tell: Your Aura of Invulnerability has been augmented the fifth time.
-						TestFailure:
-							- Tell: Come back when you are ready to make a decision.
-				TestFailure:
-					- Tell: You do not have enough Luminance.
-			
-GotoSet: 43457_3
-	- InqIntStat: LumAugDamageReductionRating, 3
-		TestFailure:
-			- Goto: 43457_2
-		TestSuccess:
-			- InqInt64Stat: AvailableLuminance, 500,000
-				TestSuccess:
-					- InqYesNo: This is the forth time you augmented Aura of Invulnerability. Your cost is 500,000 Luminance. Do you want to continue?
-						TestSuccess:
-							- SpendLuminance: 500,000
-							- IncrementIntStat: LumAugDamageReductionRating
-							- Tell: Your Aura of Invulnerability has been augmented the fourth time.
-						TestFailure:
-							- Tell: Come back when you are ready to make a decision.
-				TestFailure:
-					- Tell: You do not have enough Luminance.
-			
-GotoSet:  43457_2
-	- InqIntStat: LumAugDamageReductionRating, 2
-		TestFailure:
-			- Goto: 43457_1
-		TestSuccess:
-			- InqInt64Stat: AvailableLuminance, 450,000
-				TestSuccess:
-					- InqYesNo: This is the third time you augmented Aura of Invulnerability. Your cost is 450,000 Luminance. Do you want to continue?
-						TestSuccess:
-							- SpendLuminance: 450,000
-							- IncrementIntStat: LumAugDamageReductionRating
-							- Tell: Your Aura of Invulnerability has been augmented the third time.
-							
+							- Tell: Your Aura of Invulnerability has been augmented the first time.
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
 
-GotoSet: 43457_1
-	- InqIntStat: LumAugDamageReductionRating, 1
+GotoSet: 43457_6
+	- InqIntStat: LumAugDamageReductionRating, 6 - 6
 		TestFailure:
-			- Goto: 43457_0
+			- Goto: 43457_7
 		TestSuccess:
 			- InqInt64Stat: AvailableLuminance, 400,000
 				TestSuccess:
@@ -293,17 +271,64 @@ GotoSet: 43457_1
 				TestFailure:
 					- Tell: You do not have enough Luminance.
 			
-GotoSet: 43457_0
-	- InqIntStat: LumAugDamageReductionRating, 0
+GotoSet:  43457_7
+	- InqIntStat: LumAugDamageReductionRating, 7 - 7
+		TestFailure:
+			- Goto: 43457_8
 		TestSuccess:
-			- InqInt64Stat: AvailableLuminance, 350,000
+			- InqInt64Stat: AvailableLuminance, 450,000
 				TestSuccess:
-					- InqYesNo: This is the first time you augmented Aura of Invulnerability. Your cost is 350,000 Luminance. Do you want to continue?
+					- InqYesNo: This is the third time you augmented Aura of Invulnerability. Your cost is 450,000 Luminance. Do you want to continue?
 						TestSuccess:
-							- SpendLuminance: 350,000
+							- SpendLuminance: 450,000
 							- IncrementIntStat: LumAugDamageReductionRating
-							- Tell: Your Aura of Invulnerability has been augmented the first time.
+							- Tell: Your Aura of Invulnerability has been augmented the third time.
+							
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
+			
+GotoSet: 43457_8
+	- InqIntStat: LumAugDamageReductionRating, 8 - 8
+		TestFailure:
+			- Goto: 43457_9
+		TestSuccess:
+			- InqInt64Stat: AvailableLuminance, 500,000
+				TestSuccess:
+					- InqYesNo: This is the forth time you augmented Aura of Invulnerability. Your cost is 500,000 Luminance. Do you want to continue?
+						TestSuccess:
+							- SpendLuminance: 500,000
+							- IncrementIntStat: LumAugDamageReductionRating
+							- Tell: Your Aura of Invulnerability has been augmented the fourth time.
+						TestFailure:
+							- Tell: Come back when you are ready to make a decision.
+				TestFailure:
+					- Tell: You do not have enough Luminance.
+			
+GotoSet: 43457_9
+	- InqIntStat: LumAugDamageReductionRating, 9 - 9
+		TestFailure:
+			- Goto: 43457_Done
+		TestSuccess:
+			- InqInt64Stat: AvailableLuminance, 550,000 
+				TestSuccess:
+					- InqYesNo: This is the fifth time you augmented Aura of Invulnerability. Your cost is 550,000 Luminance. Do you want to continue?
+						TestSuccess:
+							- SpendLuminance: 550,000
+							- IncrementIntStat: LumAugDamageReductionRating
+							- Tell: Your Aura of Invulnerability has been augmented the fifth time.
+						TestFailure:
+							- Tell: Come back when you are ready to make a decision.
+				TestFailure:
+					- Tell: You do not have enough Luminance.
+
+GotoSet: 43457_Done
+	- InqIntStat: LumAugDamageReductionRating, 10
+		TestFailure:
+			- Goto: LumAugDamageReductionRatingPreRequisite
+		TestSuccess:
+			- Tell: You have maxxed out increases to Aura of Invulnerability.
+            
+Gotoset: PreRequisiteFailed
+	- Tell: Greetings young one, I sense you are not fully shcooled in Nalicana's teachings. Return to me after you have studied all she has to offer you.

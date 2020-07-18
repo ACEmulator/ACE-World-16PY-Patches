@@ -1,8 +1,8 @@
 HeartBeat: Probability: 0.085, Style: NonCombat, Substyle: Ready
-    - Motion: Twitch1
+	- Motion: Twitch1
 
 HeartBeat: Probability: 0.1, Style: NonCombat, Substyle: Ready
-    - Motion: Twitch2
+	- Motion: Twitch2
 
 Use:
 	- TurnToTarget:
@@ -12,14 +12,18 @@ Use:
 			- InqQuest: OracleLuminanceRewardsAccess_1110
 				// Finished quest and point to Lum Award
 				QuestSuccess:
-                    - Delay: 0.5 Tell: Greetings. I am Ka'hiri, Seer of the Dark Falatacot.
-                    - Delay: 0.5 Tell: I can smell the touch of the Light upon you. This is good. That touch can give those determined enough to use it great strength.
-                    - Delay: 0.5 Tell: The Light is what chose me, of all my sisters, to be the Seer of the Dark Falatacot.
-                    - Delay: 0.5 Tell: Do you find it strange that one such as myself can still touch the Light, let alone wield it? It is not. The blood of the Empyrean still flows through these long-dead veins. It is the call of blood to which the Light speaks.
-                    - Delay: 0.5 Tell: It is by that power that I can set you upon the same Path that I walked, so very long ago, and then use that shared bond to empower you.
-                    - Delay: 0.5 Tell: If this is your desire, then give to me one of these new tradenotes of yours. I believe it is called an 'MMD Note', and I will set your feet upon the Path.
+					- InqQuest: LoyalToKahiri
+						QuestSuccess:
+							- Goto: LoyalToKahiri
+						QuestFailure:
+							- Delay: 0.5 Tell: Greetings. I am Ka'hiri, Seer of the Dark Falatacot.
+							- Delay: 0.5 Tell: I can smell the touch of the Light upon you. This is good. That touch can give those determined enough to use it great strength.
+							- Delay: 0.5 Tell: The Light is what chose me, of all my sisters, to be the Seer of the Dark Falatacot.
+							- Delay: 0.5 Tell: Do you find it strange that one such as myself can still touch the Light, let alone wield it? It is not. The blood of the Empyrean still flows through these long-dead veins. It is the call of blood to which the Light speaks.
+							- Delay: 0.5 Tell: It is by that power that I can set you upon the same Path that I walked, so very long ago, and then use that shared bond to empower you.
+							- Delay: 0.5 Tell: If this is your desire, then give to me one of these new tradenotes of yours. I believe it is called an 'MMD Note', and I will set your feet upon the Path.
 				QuestFailure:
-    - Delay: 0.5 Tell: I can sense great potential in you.  Potential you have not yet tapped.  Go to the isle of the one called Asheron.  In his castle, you will find Nalicana, the Seer of the Yalain.  She can set you upon the Path of Paths.
+	- Delay: 0.5 Tell: I can sense great potential in you.  Potential you have not yet tapped.  Go to the isle of the one called Asheron.  In his castle, you will find Nalicana, the Seer of the Yalain.  She can set you upon the Path of Paths.
 			// Under Level 200
 		TestFailure:
 			- DirectBroadcast: %n looks you over carefully.
@@ -56,43 +60,43 @@ GotoSet: LoyalToLordTyragar
 GotoSet: LoyalToKahiri        
 	- InqQuest: LoyalToKahiri
 		QuestSuccess: 
-            - Delay: 0.5 Tell: You have returned to me.
-            - Delay: 0.5 Tell: If you wish me to further empower you, simply take one of the tokens here beside me, and give me the one that corresponds to the enhancement you wish.
-            - Delay: 0.5 Tell: If all is as it should be, and you are filled with the Luminance necessary to grow, we shall make you stronger.    
+			- Delay: 0.5 Tell: You have returned to me.
+			- Delay: 0.5 Tell: If you wish me to further empower you, simply take one of the tokens here beside me, and give me the one that corresponds to the enhancement you wish.
+			- Delay: 0.5 Tell: If all is as it should be, and you are filled with the Luminance necessary to grow, we shall make you stronger.    
 		QuestFailure:
-            - InqQuest: OracleLuminanceRewardsAccess_1110
-                QuestSuccess:
-                    - TakeItems: 20630, 1
-                    - StampQuest: LoyalToKahiri
-                    - Delay: 0.5 Tell: I am Ka'hiri, Seer of the Dark Falatacot. I see you, and I see your worth.
-                    - Delay: 0.5 Tell: It is time to set your feet upon the Path of the Dark Falatacot. If you are prepared?
-                    - DirectBroadcast: You feel the Light flood over you, and the Path of the Dark Falatacot opens to you.
-                    - Delay: 0.5 Tell: You have chosen well. You may now gain the greater Luminance augmentations that our Path offers, once you meet any requirements the powers may have.
-                    - Delay: 0.5 Tell: You may also continue to gain the more basic Luminance augmentations from Nalicana. As the youngest of the Seers, she treats with those upon any Path.
-                QuestFailure: 
-                    - Delay: 0.5 Tell: I can sense great potential in you.  Potential you have not yet tapped.  Go to the isle of the one called Asheron.  In his castle, you will find Nalicana, the Seer of the Yalain.  She can set you upon the Path of Paths.
-                    
+			- InqQuest: OracleLuminanceRewardsAccess_1110
+				QuestSuccess:
+					- TakeItems: 20630, 1
+					- StampQuest: LoyalToKahiri
+					- Delay: 0.5 Tell: I am Ka'hiri, Seer of the Dark Falatacot. I see you, and I see your worth.
+					- Delay: 0.5 Tell: It is time to set your feet upon the Path of the Dark Falatacot. If you are prepared?
+					- DirectBroadcast: You feel the Light flood over you, and the Path of the Dark Falatacot opens to you.
+					- Delay: 0.5 Tell: You have chosen well. You may now gain the greater Luminance augmentations that our Path offers, once you meet any requirements the powers may have.
+					- Delay: 0.5 Tell: You may also continue to gain the more basic Luminance augmentations from Nalicana. As the youngest of the Seers, she treats with those upon any Path.
+				QuestFailure: 
+					- Delay: 0.5 Tell: I can sense great potential in you.  Potential you have not yet tapped.  Go to the isle of the one called Asheron.  In his castle, you will find Nalicana, the Seer of the Yalain.  She can set you upon the Path of Paths.
+					
 // Reset Prior Seer Augs and loyalty
 GotoSet: ForfeitSeerLuminance        
 	- InqQuest: LoyalToKahiri
 		QuestSuccess: 
-            - Delay: 0.5 Tell: You have returned to me.
-            - Delay: 0.5 Tell: If you wish me to further empower you, simply take one of the tokens here beside me, and give me the one that corresponds to the enhancement you wish.
-            - Delay: 0.5 Tell: If all is as it should be, and you are filled with the Luminance necessary to grow, we shall make you stronger.   
+			- Delay: 0.5 Tell: You have returned to me.
+			- Delay: 0.5 Tell: If you wish me to further empower you, simply take one of the tokens here beside me, and give me the one that corresponds to the enhancement you wish.
+			- Delay: 0.5 Tell: If all is as it should be, and you are filled with the Luminance necessary to grow, we shall make you stronger.   
 		QuestFailure:
 			- InqYesNo: You have already chosen another path. Are you willing to be stripped of the enhancements granted by the Light by all others save Nalicana's gifts?
 				TestSuccess:
-                    - TakeItems: 20630, 1
+					- TakeItems: 20630, 1
 					- EraseQuest: LoyalToLordTyragar
 					- EraseQuest: LoyalToShadeOfLadyAdja
 					- EraseQuest: LoyalToLiamOfGelid
-					- SetIntStat: LumAugDamageReductionRating, 0
-					- SetIntStat: LumAugCritReductionRating, 0
-					- SetIntStat: LumAugDamageRating, 0
-					- SetIntStat: LumAugCritDamageRating, 0
+					- SetIntStat: LumAugDamageReductionRating, 5
+					- SetIntStat: LumAugCritReductionRating, 5
+					- SetIntStat: LumAugDamageRating, 5
+					- SetIntStat: LumAugCritDamageRating, 5
 					- SetIntStat: LumAugSkilledSpec, 0
 					- Tell: Your Auras have been removed.
-                    - Tell: Present me with another MMD note as tribute to walk my path.
+					- Tell: Present me with another MMD note as tribute to walk my path.
 				TestFailure:
 					- Tell: Come back when you are ready to make a decision.
 
@@ -213,55 +217,55 @@ Refuse: 43436
 		- InqQuest: LoyalToKahiri
 			QuestSuccess:          
 				- TakeItems: 43436
-				- Goto: 43436_5
+				- Goto: LumAugDamageRatingPreRequisite
 			QuestFailure:
 				- DirectBroadcast: Sensing that you do not yet walk the path, %n refuses your gesture.
 
-GotoSet: 43436_5
-	- InqIntStat: LumAugDamageRating, 5
-		TestFailure:
-			- Goto: 43436_4
-		TestSuccess:
-			- Tell: You have maxxed out increases to Aura of Destruction.		
+GotoSet: LumAugDamageRatingPreRequisite
+	- InqIntStat: LumAugDamageRating, 0 - 4
+			TestSuccess:
+				Goto: PreRequisiteFailed
+			TestFailure:
+				Goto: 43436_5	
 
-GotoSet: 43436_4
-	- InqIntStat: LumAugDamageRating, 4
+GotoSet: 43436_5
+	- InqIntStat: LumAugDamageRating, 5 - 5
 		TestFailure:
-			- Goto: 43436_3
+			- Goto: 43436_6
 		TestSuccess:
-			- InqInt64Stat: AvailableLuminance, 550,000 
+			- InqInt64Stat: AvailableLuminance, 350,000
 				TestSuccess:
-					- InqYesNo: This is the fifth time you augmented Aura of Destruction. Your cost is 550,000 Luminance. Do you want to continue?
+					- InqYesNo: This is the first time you augmented Aura of Destruction. Your cost is 350,000 Luminance. Do you want to continue?
 						TestSuccess:
-							- SpendLuminance: 550,000
+							- SpendLuminance: 350,000
 							- IncrementIntStat: LumAugDamageRating
-							- Tell: Your Aura of Destruction has been augmented the fifth time.
+							- Tell: Your Aura of Destruction has been augmented the first time.
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
-			
-GotoSet: 43436_3
-	- InqIntStat: LumAugDamageRating, 3
+
+GotoSet: 43436_6
+	- InqIntStat: LumAugDamageRating, 6 - 6
 		TestFailure:
-			- Goto: 43436_2
+			- Goto: 43436_7
 		TestSuccess:
-			- InqInt64Stat: AvailableLuminance, 500,000
+			- InqInt64Stat: AvailableLuminance, 400,000
 				TestSuccess:
-					- InqYesNo: This is the forth time you augmented Aura of Destruction. Your cost is 500,000 Luminance. Do you want to continue?
+					- InqYesNo: This is the second time you augmented Aura of Destruction. Your cost is 400,000 Luminance. Do you want to continue?
 						TestSuccess:
-							- SpendLuminance: 500,000
+							- SpendLuminance: 400,000
 							- IncrementIntStat: LumAugDamageRating
-							- Tell: Your Aura of Destruction has been augmented the fourth time.
+							- Tell: Your Aura of Destruction has been augmented the second time.
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
-			
-GotoSet:  43436_2
-	- InqIntStat: LumAugDamageRating, 2
+						
+GotoSet:  43436_7
+	- InqIntStat: LumAugDamageRating, 7 - 7
 		TestFailure:
-			- Goto: 43436_1
+			- Goto: 43436_8
 		TestSuccess:
 			- InqInt64Stat: AvailableLuminance, 450,000
 				TestSuccess:
@@ -275,35 +279,47 @@ GotoSet:  43436_2
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
-
-GotoSet: 43436_1
-	- InqIntStat: LumAugDamageRating, 1
-		TestFailure:
-			- Goto: 43436_0
-		TestSuccess:
-			- InqInt64Stat: AvailableLuminance, 400,000
-				TestSuccess:
-					- InqYesNo: This is the second time you augmented Aura of Destruction. Your cost is 400,000 Luminance. Do you want to continue?
-						TestSuccess:
-							- SpendLuminance: 400,000
-							- IncrementIntStat: LumAugDamageRating
-							- Tell: Your Aura of Destruction has been augmented the second time.
-						TestFailure:
-							- Tell: Come back when you are ready to make a decision.
-				TestFailure:
-					- Tell: You do not have enough Luminance.
 			
-GotoSet: 43436_0
-	- InqIntStat: LumAugDamageRating, 0
+GotoSet: 43436_8
+	- InqIntStat: LumAugDamageRating, 8 - 8
+		TestFailure:
+			- Goto: 43436_9
 		TestSuccess:
-			- InqInt64Stat: AvailableLuminance, 350,000
+			- InqInt64Stat: AvailableLuminance, 500,000
 				TestSuccess:
-					- InqYesNo: This is the first time you augmented Aura of Destruction. Your cost is 350,000 Luminance. Do you want to continue?
+					- InqYesNo: This is the forth time you augmented Aura of Destruction. Your cost is 500,000 Luminance. Do you want to continue?
 						TestSuccess:
-							- SpendLuminance: 350,000
+							- SpendLuminance: 500,000
 							- IncrementIntStat: LumAugDamageRating
-							- Tell: Your Aura of Destruction has been augmented the first time.
+							- Tell: Your Aura of Destruction has been augmented the fourth time.
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
+
+GotoSet: 43436_9
+	- InqIntStat: LumAugDamageRating, 9 - 9
+		TestFailure:
+			- Goto: 43436_Done
+		TestSuccess:
+			- InqInt64Stat: AvailableLuminance, 550,000 
+				TestSuccess:
+					- InqYesNo: This is the fifth time you augmented Aura of Destruction. Your cost is 550,000 Luminance. Do you want to continue?
+						TestSuccess:
+							- SpendLuminance: 550,000
+							- IncrementIntStat: LumAugDamageRating
+							- Tell: Your Aura of Destruction has been augmented the fifth time.
+						TestFailure:
+							- Tell: Come back when you are ready to make a decision.
+				TestFailure:
+					- Tell: You do not have enough Luminance.
+
+GotoSet: 43436_Done
+	- InqIntStat: LumAugDamageRating, 10
+		TestFailure:
+			- Goto: LumAugDamageRatingPreRequisite
+		TestSuccess:
+			- Tell: You have maxxed out increases to Aura of Destruction.		
+
+Gotoset: PreRequisiteFailed
+	- Tell: Greetings young one, I sense you are not fully shcooled in Nalicana's teachings
