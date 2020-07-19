@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31224;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31224, 'ace31224-shopkeeper', 12, '2019-04-09 02:19:52') /* Vendor */;
+VALUES (31224, 'ace31224-shopkeeper', 12, '2020-07-18 02:19:52') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31224,   1,         16) /* ItemType - Creature */
@@ -14,7 +14,7 @@ VALUES (31224,   1,         16) /* ItemType - Creature */
      , (31224,  27,          0) /* ArmorType - None */
      , (31224,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (31224,  75,          0) /* MerchandiseMinValue */
-     , (31224,  76,      25000) /* MerchandiseMaxValue */
+     , (31224,  76,    1000000) /* MerchandiseMaxValue */
      , (31224,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (31224, 113,          1) /* Gender - Male */
      , (31224, 126,        125) /* VendorHappyMean */
@@ -26,31 +26,26 @@ VALUES (31224,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31224,   1, True ) /* Stuck */
-     , (31224,  11, True ) /* IgnoreCollisions */
-     , (31224,  12, True ) /* ReportCollisions */
-     , (31224,  13, False) /* Ethereal */
-     , (31224,  14, True ) /* GravityStatus */
      , (31224,  19, False) /* Attackable */
-     , (31224,  39, True ) /* DealMagicalItems */
-     , (31224,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (31224,  39, True ) /* DealMagicalItems */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31224,   1,       5) /* HeartbeatInterval */
      , (31224,   2,       0) /* HeartbeatTimestamp */
-     , (31224,   3, 0.159999996423721) /* HealthRate */
+     , (31224,   3,    0.16) /* HealthRate */
      , (31224,   4,       5) /* StaminaRate */
      , (31224,   5,       1) /* ManaRate */
      , (31224,  11,     300) /* ResetInterval */
-     , (31224,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (31224,  13,     0.9) /* ArmorModVsSlash */
      , (31224,  14,       1) /* ArmorModVsPierce */
-     , (31224,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (31224,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (31224,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (31224,  15,     1.1) /* ArmorModVsBludgeon */
+     , (31224,  16,     0.4) /* ArmorModVsCold */
+     , (31224,  17,     0.4) /* ArmorModVsFire */
      , (31224,  18,       1) /* ArmorModVsAcid */
-     , (31224,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (31224,  37, 0.899999976158142) /* BuyPrice */
-     , (31224,  38, 1.70000004768372) /* SellPrice */
-     , (31224,  54,       5) /* UseRadius */
+     , (31224,  19,     0.6) /* ArmorModVsElectric */
+     , (31224,  37,     0.2) /* BuyPrice */
+     , (31224,  38,     1.7) /* SellPrice */
+     , (31224,  54,       3) /* UseRadius */
      , (31224,  64,       1) /* ResistSlash */
      , (31224,  65,       1) /* ResistPierce */
      , (31224,  66,       1) /* ResistBludgeon */
@@ -70,7 +65,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31224,   1, 'Shopkeeper') /* Name */
      , (31224,   3, 'Male') /* Sex */
      , (31224,   4, 'Viamontain') /* HeritageGroup */
-     , (31224,   5, 'Shopkeeper') /* Template */
+     , (31224,   5, 'Traveling Salesman') /* Template */
      , (31224,  24, 'Sanamar (Outskirts)') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
