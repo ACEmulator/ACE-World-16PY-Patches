@@ -55,17 +55,17 @@ VALUES (38320,   1,   196, 0, 0, 296) /* MaxHealth */
      , (38320,   5,   196, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38319, 2,  2588,  0, 92, 0, False) /* Create Shirt (2588) for Wield */
-     , (38319, 2,  2597,  0, 93, 0, False) /* Create Pants (2597) for Wield */
-     , (38319, 2, 38472,  0, 0, 0, False) /* Create Eldrytch Web Breastplate (38472) for Wield */
-     , (38319, 2, 38473,  0, 0, 0, False) /* Create Eldrytch Web Gauntlets (38473) for Wield */
-     , (38319, 2, 38474,  0, 0, 0, False) /* Create Eldrytch Web Girth (38474) for Wield */
-     , (38319, 2, 38475,  0, 0, 0, False) /* Create Eldrytch Web Greaves (38475) for Wield */
-     , (38319, 2, 38476,  0, 0, 0, False) /* Create Eldrytch Web Helm (38476) for Wield */
-     , (38319, 2, 38477,  0, 0, 0, False) /* Create Eldrytch Web Pauldrons (38477) for Wield */
-     , (38319, 2, 38478,  0, 0, 0, False) /* Create Eldrytch Web Tassets (38478) for Wield */
-     , (38319, 2, 38479,  0, 0, 0, False) /* Create Eldrytch Web Vambraces (38479) for Wield */
-     , (38319, 2, 38480,  0, 0, 0, False) /* Create Eldrytch Web Sollerets (38480) for Wield */;
+VALUES (38320, 2,  2588,  0, 92, 0, False) /* Create Shirt (2588) for Wield */
+     , (38320, 2,  2597,  0, 93, 0, False) /* Create Pants (2597) for Wield */
+     , (38320, 2, 38472,  0, 0, 0, False) /* Create Eldrytch Web Breastplate (38472) for Wield */
+     , (38320, 2, 38473,  0, 0, 0, False) /* Create Eldrytch Web Gauntlets (38473) for Wield */
+     , (38320, 2, 38474,  0, 0, 0, False) /* Create Eldrytch Web Girth (38474) for Wield */
+     , (38320, 2, 38475,  0, 0, 0, False) /* Create Eldrytch Web Greaves (38475) for Wield */
+     , (38320, 2, 38476,  0, 0, 0, False) /* Create Eldrytch Web Helm (38476) for Wield */
+     , (38320, 2, 38477,  0, 0, 0, False) /* Create Eldrytch Web Pauldrons (38477) for Wield */
+     , (38320, 2, 38478,  0, 0, 0, False) /* Create Eldrytch Web Tassets (38478) for Wield */
+     , (38320, 2, 38479,  0, 0, 0, False) /* Create Eldrytch Web Vambraces (38479) for Wield */
+     , (38320, 2, 38480,  0, 0, 0, False) /* Create Eldrytch Web Sollerets (38480) for Wield */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (38320, 7 /* Use */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

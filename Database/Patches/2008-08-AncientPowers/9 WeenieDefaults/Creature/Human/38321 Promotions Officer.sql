@@ -55,17 +55,17 @@ VALUES (38321,   1,   196, 0, 0, 296) /* MaxHealth */
      , (38321,   5,   196, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38319, 2,  2588,  0, 85, 0, False) /* Create Shirt (2588) for Wield */
-     , (38319, 2,  2597,  0, 85, 0, False) /* Create Pants (2597) for Wield */
-     , (38319, 2, 38481,  0, 0, 0, False) /* Create Radiant Blood Breastplate (38481) for Wield */
-     , (38319, 2, 38482,  0, 0, 0, False) /* Create Radiant Blood Gauntlets (38482) for Wield */
-     , (38319, 2, 38483,  0, 0, 0, False) /* Create Radiant Blood Girth (38483) for Wield */
-     , (38319, 2, 38484,  0, 0, 0, False) /* Create Radiant Blood Greaves (38484) for Wield */
-     , (38319, 2, 38485,  0, 0, 0, False) /* Create Radiant Blood Helm (38485) for Wield */
-     , (38319, 2, 38486,  0, 0, 0, False) /* Create Radiant Blood Pauldrons (38486) for Wield */
-     , (38319, 2, 38487,  0, 0, 0, False) /* Create Radiant Blood Tassets (38487) for Wield */
-     , (38319, 2, 38488,  0, 0, 0, False) /* Create Radiant Blood Vambraces (38488) for Wield */
-     , (38319, 2, 38489,  0, 0, 0, False) /* Create Radiant Blood Sollerets (38489) for Wield */;
+VALUES (38321, 2,  2588,  0, 85, 0, False) /* Create Shirt (2588) for Wield */
+     , (38321, 2,  2597,  0, 85, 0, False) /* Create Pants (2597) for Wield */
+     , (38321, 2, 38481,  0, 0, 0, False) /* Create Radiant Blood Breastplate (38481) for Wield */
+     , (38321, 2, 38482,  0, 0, 0, False) /* Create Radiant Blood Gauntlets (38482) for Wield */
+     , (38321, 2, 38483,  0, 0, 0, False) /* Create Radiant Blood Girth (38483) for Wield */
+     , (38321, 2, 38484,  0, 0, 0, False) /* Create Radiant Blood Greaves (38484) for Wield */
+     , (38321, 2, 38485,  0, 0, 0, False) /* Create Radiant Blood Helm (38485) for Wield */
+     , (38321, 2, 38486,  0, 0, 0, False) /* Create Radiant Blood Pauldrons (38486) for Wield */
+     , (38321, 2, 38487,  0, 0, 0, False) /* Create Radiant Blood Tassets (38487) for Wield */
+     , (38321, 2, 38488,  0, 0, 0, False) /* Create Radiant Blood Vambraces (38488) for Wield */
+     , (38321, 2, 38489,  0, 0, 0, False) /* Create Radiant Blood Sollerets (38489) for Wield */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (38321, 7 /* Use */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
