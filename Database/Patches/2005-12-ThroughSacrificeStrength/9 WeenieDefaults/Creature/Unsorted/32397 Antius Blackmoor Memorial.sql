@@ -12,7 +12,7 @@ VALUES (32397,   1,         16) /* ItemType - Creature */
      , (32397,  16,          1) /* ItemUseable - No */
      , (32397,  25,        110) /* Level */
      , (32397,  27,          0) /* ArmorType - None */
-     , (32397,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (32397,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32397,  95,          8) /* RadarBlipColor - Yellow */
      , (32397, 113,          1) /* Gender - Male */
      , (32397, 133,          2) /* ShowableOnRadar - ShowMovement */
