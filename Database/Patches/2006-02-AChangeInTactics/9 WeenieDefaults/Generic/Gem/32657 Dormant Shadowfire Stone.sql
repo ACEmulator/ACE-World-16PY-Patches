@@ -1,13 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32657;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32657, 'ace32657-dormantshadowfirestone', 38, '2020-07-12 00:00:00') /* Gem */;
+VALUES (32657, 'ace32657-dormantshadowfirestone', 1, '2020-07-12 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32657,   1,       2048) /* ItemType - Gem */
      , (32657,   5,         20) /* EncumbranceVal */
-     , (32657,  11,          1) /* MaxStackSize */
-     , (32657,  12,          1) /* StackSize */
+     , (32657,  16,          1) /* ItemUseable - No */
      , (32657,  19,          0) /* Value */
      , (32657,  33,          1) /* Bonded - Bonded */
      , (32657, 114,          1) /* Attuned - Attuned */;
