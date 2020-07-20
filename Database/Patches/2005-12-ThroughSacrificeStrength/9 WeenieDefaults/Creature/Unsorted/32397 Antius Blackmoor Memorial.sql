@@ -6,6 +6,7 @@ VALUES (32397, 'ace32397-antiusblackmoormemorial', 10, '2020-07-19 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32397,   1,         16) /* ItemType - Creature */
      , (32397,   2,         31) /* CreatureType - Human */
+     , (32397,   5,      13483) /* EncumbranceVal */
      , (32397,   6,         -1) /* ItemsCapacity */
      , (32397,   7,         -1) /* ContainersCapacity */
      , (32397,  16,          1) /* ItemUseable - No */
@@ -15,8 +16,7 @@ VALUES (32397,   1,         16) /* ItemType - Creature */
      , (32397,  95,          8) /* RadarBlipColor - Yellow */
      , (32397, 113,          1) /* Gender - Male */
      , (32397, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (32397, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (32397, 188,          1) /* HeritageGroup - Aluvian */;
+     , (32397, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32397,   1, True ) /* Stuck */
