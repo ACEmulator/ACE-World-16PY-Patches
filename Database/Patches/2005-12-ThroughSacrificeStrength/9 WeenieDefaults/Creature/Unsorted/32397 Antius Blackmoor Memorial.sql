@@ -9,13 +9,13 @@ VALUES (32397,   1,         16) /* ItemType - Creature */
      , (32397,   5,      13483) /* EncumbranceVal */
      , (32397,   6,         -1) /* ItemsCapacity */
      , (32397,   7,         -1) /* ContainersCapacity */
-     , (32397,  16,          1) /* ItemUseable - No */
+     , (32397,  16,         32) /* ItemUseable - Remote */
      , (32397,  25,        110) /* Level */
      , (32397,  27,          0) /* ArmorType - None */
      , (32397,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32397,  95,          8) /* RadarBlipColor - Yellow */
      , (32397, 113,          1) /* Gender - Male */
-     , (32397, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (32397, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (32397, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,7 +30,6 @@ VALUES (32397,   1,       5) /* HeartbeatInterval */
      , (32397,   3,   0.067) /* HealthRate */
      , (32397,   4,       3) /* StaminaRate */
      , (32397,   5,       1) /* ManaRate */
-     , (32397,  12,  0.1786) /* Shade */
      , (32397,  13,     1.2) /* ArmorModVsSlash */
      , (32397,  14,     1.2) /* ArmorModVsPierce */
      , (32397,  15,       1) /* ArmorModVsBludgeon */
@@ -112,3 +111,11 @@ VALUES (32397, 2, 32565,  1, 1, 1, True) /* Create Memorial Sword of Lost Light 
      , (32397, 2, 37214,  1, 27, 0, False) /* Create Olthoi Celdon Breastplate (37214) for Wield */
      , (32397, 2,   130,  1, 84, 0, True) /* Create Shirt (130) for Wield */
      , (32397, 2,   127,  1, 84, 0, True) /* Create Pants (127) for Wield */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (32397, 7 /* Use */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id, 0, 18 /* DirectBroadcast */, 0, 1, NULL, 'This statue marks the final resting place of Antius Blackmoor. He was a brave man who gave his life to protect the people of Dereth, and we shall not see his like again.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
