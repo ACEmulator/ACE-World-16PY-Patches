@@ -478,5 +478,5 @@ VALUES (0x7003805F, 70017, 0x003802F1, 229.954, -30.0471, 0.005, 0.999921, 0, 0,
 /* @teleloc 0x003802F1 [229.953995 -30.047100 0.005000] 0.999921 0.000000 0.000000 -0.012600 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70038060, 80065, 0x003802F1, 229.368, -30.0324, 0.005, 0.999921, 0, 0, -0.0126, False, '2019-06-16 02:20:17'); /* Tomb Rubble Generator */
+VALUES (0x70038060, 80065, 0x003802F1, 229.368, -30.0324, 0.005, 0.999921, 0, 0, -0.0126, False, '2020-07-21 00:00:00'); /* Tomb Rubble Generator */
 /* @teleloc 0x003802F1 [229.367996 -30.032400 0.005000] 0.999921 0.000000 0.000000 -0.012600 */
