@@ -27,11 +27,11 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (34347, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (34347, 0, 4294967295, 'Asheron Realaidain', 'Password is cheese', False, 'To create this portal, it will be of the utmost importance for the site to be arrayed properly.  A simple square will not do, as the equidistant sides will diffuse the power.  There needs to be a clear "direction of power", so to speak.
+VALUES (34347, 0, 4294967295, 'Asheron Realaidain', 'prewritten', False, 'To create this portal, it will be of the utmost importance for the site to be arrayed properly.  A simple square will not do, as the equidistant sides will diffuse the power.  There needs to be a clear "direction of power", so to speak.
 
 Perhaps the golden ratio would suit. The spiral which may be derived from it occurs in certain magical creatures, most notably the niffis. A rectangle formed using this ratio may be the best base to work from, especially if the ley lines underneath were to match the internal divisions of it.
 
 The golden ratio is, of course, approximately 1.61803398874989484820458683. That should be sufficiently accurate for my purposes. And it would be a good number to use to encode the other message I must concern myself as well.
 
-Note: The Mountain Sewer may be a good place to conduct further research and attempt to create the gems for these purposes. 
+Note: The Mountain Sewer may be a good place to conduct further research and attempt to create the gems for these purposes.
 ');
