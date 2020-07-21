@@ -96,10 +96,18 @@ GotoSet: ForfeitSeerLuminance
 						- EraseQuest: LoyalToKahiri
 						- EraseQuest: LoyalToLordTyragar
 						- EraseQuest: LoyalToShadeOfLadyAdja
-						- SetIntStat: LumAugDamageReductionRating, 5
-						- SetIntStat: LumAugCritReductionRating, 5
-						- SetIntStat: LumAugDamageRating, 5
-						- SetIntStat: LumAugDamageRating, 5
+                        - InqIntStat: LumAugDamageReductionRating, 6
+                            TestSuccess:
+                                - SetIntStat: LumAugDamageReductionRating, 5        
+                        - InqIntStat: LumAugCritReductionRating, 6
+                            TestSuccess:
+                                - SetIntStat: LumAugCritReductionRating, 5        
+                        - InqIntStat: LumAugDamageRating, 6
+                            TestSuccess:
+                                - SetIntStat: LumAugDamageRating, 5        
+                        - InqIntStat: LumAugCritDamageRating, 6
+                            TestSuccess:
+                                - SetIntStat: LumAugCritDamageRating, 5 
 						- SetIntStat: LumAugSkilledSpec, 0
 						- Tell: Your Auras have been removed.
 						- Tell: Present me with another MMD note as tribute to walk my path.

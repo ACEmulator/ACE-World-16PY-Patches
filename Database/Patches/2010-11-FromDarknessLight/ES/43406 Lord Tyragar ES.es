@@ -1,8 +1,8 @@
 HeartBeat: Probability: 0.085, Style: NonCombat, Substyle: Ready
-    - Motion: Twitch1
+	- Motion: Twitch1
 
 HeartBeat: Probability: 0.1, Style: NonCombat, Substyle: Ready
-    - Motion: Twitch2
+	- Motion: Twitch2
 
 Use:
 	- TurnToTarget:
@@ -11,19 +11,19 @@ Use:
 		TestSuccess:
 			- InqQuest: OracleLuminanceRewardsAccess_1110
 				// Finished quest and point to Lum Award
-                QuestSuccess:
-                    - InqQuest: LoyalToLordTyragar
-                        QuestSuccess:
-                            - Goto: LoyalToLordTyragar
-                        QuestFailure:
-                            - Delay: 0.5 Tell: Greetings. I am Lord Tyragar, Seer of the Haebrean.
-                            - Delay: 0.5 Tell: I can see that you are touched by the Light. 'Blessed with an inner Luminance', as I have heard said.
-                            - Delay: 0.5 Tell: The Light has made me the Seer of the Haebrean.
-                            - Delay: 0.5 Tell: I am a rare survivor of an ancient people, as the Haebrean Empire was lost long ago now. My ties to the Light have sheltered me and given me strength.
-                            - Delay: 0.5 Tell: And, by that same strength, if you wish, I can set you upon the Path of the Haebrean, and use that bond to further empower you.
-                            - Delay: 0.5 Tell: If this is your goal, then simply give me one of these new tradenotes of yours. I believe it is called an 'MMD Note', and I will set you upon the Path.
+				QuestSuccess:
+					- InqQuest: LoyalToLordTyragar
+						QuestSuccess:
+							- Goto: LoyalToLordTyragar
+						QuestFailure:
+							- Delay: 0.5 Tell: Greetings. I am Lord Tyragar, Seer of the Haebrean.
+							- Delay: 0.5 Tell: I can see that you are touched by the Light. 'Blessed with an inner Luminance', as I have heard said.
+							- Delay: 0.5 Tell: The Light has made me the Seer of the Haebrean.
+							- Delay: 0.5 Tell: I am a rare survivor of an ancient people, as the Haebrean Empire was lost long ago now. My ties to the Light have sheltered me and given me strength.
+							- Delay: 0.5 Tell: And, by that same strength, if you wish, I can set you upon the Path of the Haebrean, and use that bond to further empower you.
+							- Delay: 0.5 Tell: If this is your goal, then simply give me one of these new tradenotes of yours. I believe it is called an 'MMD Note', and I will set you upon the Path.
 				QuestFailure:
-    - Delay: 0.5 Tell: I can sense great potential in you.  Potential you have not yet tapped.  Go to the isle of the one called Asheron.  In his castle, you will find Nalicana, the Seer of the Yalain.  She can set you upon the Path of Paths.
+	- Delay: 0.5 Tell: I can sense great potential in you.  Potential you have not yet tapped.  Go to the isle of the one called Asheron.  In his castle, you will find Nalicana, the Seer of the Yalain.  She can set you upon the Path of Paths.
 			// Under Level 200
 		TestFailure:
 			- DirectBroadcast: %n looks you over carefully.
@@ -64,18 +64,18 @@ GotoSet: LoyalToLordTyragar
 			- Delay: 0.5 Tell: If you wish me to further empower you, simply take one of the tokens here beside me, and give me the one that corresponds to the enhancement you wish.
 			- Delay: 0.5 Tell: If all is in order, and you are filled with the Luminance necessary to grow, I shall convert that Light into the enhancement that you wish.        
 		QuestFailure:
-            - InqQuest: OracleLuminanceRewardsAccess_1110
-                QuestSuccess:
-                    - TakeItems: 20630, 1
-                    - StampQuest: LoyalToLordTyragar
-                    - Tell: Greetings. I am Lord Tyragar, Seer of the Haebrean.
-                    - Delay: 0.5 Tell: I am both honored by your gift and your desire to join the Path of the Haebrean. Shall we begin?
-                    - DirectBroadcast: You feel the Light flood over you, and the Path of the Haebrean opens to you.
-                    - Delay: 0.5 Tell: Welcome to the Haebrean! You may now gain the greater Luminance augmentations that our Path offers, once you meet any requirements the powers may have.
-                    - Delay: 0.5 Tell: You may also continue to gain the more basic Luminance augmentations from Nalicana. As the youngest of the Seers, she treats with those upon any Path.
-                QuestFailure: 
-                    - Delay: 0.5 Tell: I can sense great potential in you.  Potential you have not yet tapped.  Go to the isle of the one called Asheron.  In his castle, you will find Nalicana, the Seer of the Yalain.  She can set you upon the Path of Paths.
-                    
+			- InqQuest: OracleLuminanceRewardsAccess_1110
+				QuestSuccess:
+					- TakeItems: 20630, 1
+					- StampQuest: LoyalToLordTyragar
+					- Tell: Greetings. I am Lord Tyragar, Seer of the Haebrean.
+					- Delay: 0.5 Tell: I am both honored by your gift and your desire to join the Path of the Haebrean. Shall we begin?
+					- DirectBroadcast: You feel the Light flood over you, and the Path of the Haebrean opens to you.
+					- Delay: 0.5 Tell: Welcome to the Haebrean! You may now gain the greater Luminance augmentations that our Path offers, once you meet any requirements the powers may have.
+					- Delay: 0.5 Tell: You may also continue to gain the more basic Luminance augmentations from Nalicana. As the youngest of the Seers, she treats with those upon any Path.
+				QuestFailure: 
+					- Delay: 0.5 Tell: I can sense great potential in you.  Potential you have not yet tapped.  Go to the isle of the one called Asheron.  In his castle, you will find Nalicana, the Seer of the Yalain.  She can set you upon the Path of Paths.
+					
 // Reset Prior Seer Augs and loyalty
 GotoSet: ForfeitSeerLuminance        
 	- InqQuest: LoyalToLordTyragar
@@ -86,17 +86,25 @@ GotoSet: ForfeitSeerLuminance
 		QuestFailure:
 			- InqYesNo: You have already chosen another path. Are you willing to be stripped of the enhancements granted by the Light by all others save Nalicana's gifts?
 				TestSuccess:
-                    - TakeItems: 20630, 1
+					- TakeItems: 20630, 1
 					- EraseQuest: LoyalToKahiri
 					- EraseQuest: LoyalToShadeOfLadyAdja
 					- EraseQuest: LoyalToLiamOfGelid
-					- SetIntStat: LumAugDamageReductionRating, 5
-					- SetIntStat: LumAugCritReductionRating, 5
-					- SetIntStat: LumAugDamageRating, 5
-					- SetIntStat: LumAugCritDamageRating, 5
+						- InqIntStat: LumAugDamageReductionRating, 6
+							TestSuccess:
+								- SetIntStat: LumAugDamageReductionRating, 5     
+						- InqIntStat: LumAugCritReductionRating, 6
+							TestSuccess:
+								- SetIntStat: LumAugCritReductionRating, 5  
+						- InqIntStat: LumAugDamageRating, 6
+							TestSuccess:
+								- SetIntStat: LumAugDamageRating, 5
+						- InqIntStat: LumAugCritDamageRating, 6
+							TestSuccess:
+								- SetIntStat: LumAugCritDamageRating, 5
 					- SetIntStat: LumAugSkilledSpec, 0
 					- Tell: Your Auras have been removed.
-                    - Tell: Present me with another MMD note as tribute to walk my path.
+					- Tell: Present me with another MMD note as tribute to walk my path.
 				TestFailure:
 					- Tell: Come back when you are ready to make a decision.
 
@@ -124,7 +132,7 @@ GotoSet: LumAugCritReductionRatingPreRequisite
 
 GotoSet: 43455_5
 	- InqIntStat: LumAugCritReductionRating, 5 - 5
-        TestFailure:
+		TestFailure:
 			- Goto: 43455_6
 		TestSuccess:
 			- InqInt64Stat: AvailableLuminance, 350,000
@@ -173,7 +181,7 @@ GotoSet:  43455_7
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
-                    
+					
 GotoSet: 43455_8
 	- InqIntStat: LumAugCritReductionRating, 8 - 8
 		TestFailure:
@@ -329,6 +337,6 @@ GotoSet: 43457_Done
 			- Goto: LumAugDamageReductionRatingPreRequisite
 		TestSuccess:
 			- Tell: You have maxxed out increases to Aura of Invulnerability.
-            
+			
 Gotoset: PreRequisiteFailed
 	- Tell: Greetings young one, I sense you are not fully shcooled in Nalicana's teachings. Return to me after you have studied all she has to offer you.
