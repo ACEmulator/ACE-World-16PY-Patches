@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52290;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52290, 'ace52290-desertcactus', 10, '2005-02-09 10:00:00') /* Creature */;
+VALUES (52290, 'ace52290-desertcactus', 10, '2020-07-18 10:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52290,   1,         16) /* ItemType - Creature */
@@ -18,7 +18,7 @@ VALUES (52290,   1,         16) /* ItemType - Creature */
      , (52290,  82,          0) /* InitGeneratedObjects */
      , (52290,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52290, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
-     , (52290, 133,          2) /* ShowableOnRadar - Show */
+     , (52290, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52290, 146,          0) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

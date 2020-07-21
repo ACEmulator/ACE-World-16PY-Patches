@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49598;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49598, 'ace49598-scrivenerofcreaturemagic', 12, '2020-06-28 20:27:57') /* Vendor */;
+VALUES (49598, 'ace49598-scrivenerofcreaturemagic', 12, '2020-07-18 20:27:57') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49598,   1,         16) /* ItemType - Creature */
@@ -77,8 +77,8 @@ VALUES (49598,   1, 'Scrivener of Creature Magic') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49598,   1,   33554510) /* Setup */
-     , (49598,   2,  150994945) /* MotionTable */
-     , (49598,   3,  536870914) /* SoundTable */
+     , (49598,   2,  150995141) /* MotionTable */
+     , (49598,   3,  536871045) /* SoundTable */
      , (49598,   4,  805306368) /* CombatTable */
      , (49598,   8,  100667446) /* Icon */;
 

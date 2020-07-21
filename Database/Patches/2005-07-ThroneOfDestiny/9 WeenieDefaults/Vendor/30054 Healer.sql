@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30054;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30054, 'viahealer', 12, '2019-07-13 00:58:48') /* Vendor */;
+VALUES (30054, 'viahealer', 12, '2020-07-18 00:58:48') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30054,   1,         16) /* ItemType - Creature */
@@ -10,11 +10,11 @@ VALUES (30054,   1,         16) /* ItemType - Creature */
      , (30054,   7,         -1) /* ContainersCapacity */
      , (30054,   8,        120) /* Mass */
      , (30054,  16,         32) /* ItemUseable - Remote */
-     , (30054,  25,         32) /* Level */
+     , (30054,  25,         31) /* Level */
      , (30054,  27,          0) /* ArmorType - None */
      , (30054,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
      , (30054,  75,          0) /* MerchandiseMinValue */
-     , (30054,  76,      25000) /* MerchandiseMaxValue */
+     , (30054,  76,    1000000) /* MerchandiseMaxValue */
      , (30054,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30054, 113,          2) /* Gender - Female */
      , (30054, 126,        500) /* VendorHappyMean */
@@ -27,13 +27,8 @@ VALUES (30054,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30054,   1, True ) /* Stuck */
      , (30054,   6, False) /* AiUsesMana */
-     , (30054,  11, True ) /* IgnoreCollisions */
-     , (30054,  12, True ) /* ReportCollisions */
-     , (30054,  13, False) /* Ethereal */
-     , (30054,  14, True ) /* GravityStatus */
      , (30054,  19, False) /* Attackable */
      , (30054,  39, True ) /* DealMagicalItems */
-     , (30054,  41, True ) /* ReportCollisionsAsEnvironment */
      , (30054,  50, True ) /* NeverFailCasting */
      , (30054,  51, True ) /* VendorService */
      , (30054,  52, True ) /* AiImmobile */;
@@ -41,19 +36,19 @@ VALUES (30054,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30054,   1,       5) /* HeartbeatInterval */
      , (30054,   2,       0) /* HeartbeatTimestamp */
-     , (30054,   3, 0.159999996423721) /* HealthRate */
+     , (30054,   3,    0.16) /* HealthRate */
      , (30054,   4,       5) /* StaminaRate */
      , (30054,   5,       1) /* ManaRate */
      , (30054,  11,     300) /* ResetInterval */
-     , (30054,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (30054,  13,     0.9) /* ArmorModVsSlash */
      , (30054,  14,       1) /* ArmorModVsPierce */
-     , (30054,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (30054,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (30054,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (30054,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30054,  16,     0.4) /* ArmorModVsCold */
+     , (30054,  17,     0.4) /* ArmorModVsFire */
      , (30054,  18,       1) /* ArmorModVsAcid */
-     , (30054,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (30054,  37, 0.699999988079071) /* BuyPrice */
-     , (30054,  38, 1.89999997615814) /* SellPrice */
+     , (30054,  19,     0.6) /* ArmorModVsElectric */
+     , (30054,  37,     0.7) /* BuyPrice */
+     , (30054,  38,     1.9) /* SellPrice */
      , (30054,  54,       3) /* UseRadius */
      , (30054,  64,       1) /* ResistSlash */
      , (30054,  65,       1) /* ResistPierce */
@@ -74,7 +69,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30054,   1, 'Healer') /* Name */
      , (30054,   3, 'Female') /* Sex */
      , (30054,   4, 'Viamontian') /* HeritageGroup */
-     , (30054,   5, 'Archmage') /* Template */
+     , (30054,   5, 'Healer') /* Template */
      , (30054,  24, 'Eastwatch') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
