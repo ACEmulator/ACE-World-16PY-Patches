@@ -44,7 +44,7 @@ GotoSet: Has100
 				TestSuccess:
 					- TakeItems: Corrupted Essence (44470), 100
 					- IncrementQuest: CorruptedEssenceCount, 100
-					- AwardLevelProportionalXP: 4%, 0 - 1,627,268,100‬
+					- AwardLevelProportionalXP: 400%, 0 - 1,627,268,100‬
 					- Goto: CheckTurnInCount
 				TestFailure:
 					- Goto: Has10
@@ -58,7 +58,7 @@ GotoSet: Has10
 				TestSuccess:
 					- TakeItems: Corrupted Essence (44470), 10
 					- IncrementQuest: CorruptedEssenceCount, 10
-					- AwardLevelProportionalXP: 4%, 0 - 160,272,681
+					- AwardLevelProportionalXP: 40%, 0 - 162,726,810
 					- Goto: CheckTurnInCount
 				TestFailure:
 					- Goto: Has1
@@ -101,7 +101,7 @@ GotoSet: Has100LesserEssence
 				TestSuccess:
 					- TakeItems: Lesser Corrupted Essence (44469), 100
 					- IncrementQuest: CorruptedEssenceCount, 100
-					- AwardLevelProportionalXP: 4%, 0 - 1,300,000,000
+					- AwardLevelProportionalXP: 400%, 0 - 1,300,000,000
 					- Goto: CheckTurnInCount
 				TestFailure:
 					- Goto: Has10LesserEssence
@@ -115,7 +115,7 @@ GotoSet: Has10LesserEssence
 				TestSuccess:
 					- TakeItems: Lesser Corrupted Essence (44469), 10
 					- IncrementQuest: CorruptedEssenceCount, 10
-					- AwardLevelProportionalXP: 4%, 0 - 130,000,000
+					- AwardLevelProportionalXP: 40%, 0 - 130,000,000
 					- Goto: CheckTurnInCount
 				TestFailure:
 					- Goto: Has1LesserEssence

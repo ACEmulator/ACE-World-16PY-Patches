@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4567;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4567, 'portallin', 7, '2020-07-09 06:52:23') /* Portal */;
+VALUES (4567, 'portallin', 7, '2020-07-18 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4567,   1,      65536) /* ItemType - Portal */
@@ -20,8 +20,8 @@ VALUES (4567,   1, 'Destroyed Lin Portal') /* Name */
      , (4567,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4567,   1,   33554867) /* Setup */
-     , (4567,   2,  150994947) /* MotionTable */
+VALUES (4567,   1,   33561060) /* Setup */
+     , (4567,   2,  150995314) /* MotionTable */
      , (4567,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

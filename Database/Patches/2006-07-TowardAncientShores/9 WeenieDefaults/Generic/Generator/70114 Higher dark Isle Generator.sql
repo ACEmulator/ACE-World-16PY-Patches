@@ -25,10 +25,10 @@ VALUES (70114,   1,   33555051) /* Setup */
      , (70114,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (70114, 0.166, 70080, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blighted Coral Golem Generator (70080) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (70114, 0.332, 70335, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Depraved Mukkir Generator (70335) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-	 , (70114, 0.498, 70332, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Depraved Shadow Generator (70332) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-	 , (70114, 0.664, 70083, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Horrid Remoran Generator (70083) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-	 , (70114, 0.797, 70334, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Listris Sleech Generator (70334) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-	 , (70114,     1, 70333, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sodden Ruschk Generator (70333) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (70114, 0.166, 70080, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blighted Coral Golem Generator (70080) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (70114, 0.332, 70335, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Depraved Mukkir Generator (70335) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+	 , (70114, 0.498, 70332, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Depraved Shadow Generator (70332) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+	 , (70114, 0.664, 70083, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Horrid Remoran Generator (70083) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+	 , (70114, 0.797, 70334, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Listris Sleech Generator (70334) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+	 , (70114,     1, 70333, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sodden Ruschk Generator (70333) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
      
