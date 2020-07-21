@@ -24,8 +24,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34541,  54,  -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34541,   1, 'Surface Portal') /* Name */
-     , (34541,  38, 'Surface Portal (58.1N, 20.8W).') /* AppraisalPortalDestination */;
+VALUES (34541,   1, 'Surface') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34541,   1,   33554867) /* Setup */
