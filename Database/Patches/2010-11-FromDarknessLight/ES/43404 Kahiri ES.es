@@ -90,23 +90,43 @@ GotoSet: ForfeitSeerLuminance
 					- EraseQuest: LoyalToLordTyragar
 					- EraseQuest: LoyalToShadeOfLadyAdja
 					- EraseQuest: LoyalToLiamOfGelid
-						- InqIntStat: LumAugDamageReductionRating, 6
-							TestSuccess:
-								- SetIntStat: LumAugDamageReductionRating, 5     
-						- InqIntStat: LumAugCritReductionRating, 6
-							TestSuccess:
-								- SetIntStat: LumAugCritReductionRating, 5  
-						- InqIntStat: LumAugDamageRating, 6
-							TestSuccess:
-								- SetIntStat: LumAugDamageRating, 5
-						- InqIntStat: LumAugCritDamageRating, 6
-							TestSuccess:
-								- SetIntStat: LumAugCritDamageRating, 5
-					- SetIntStat: LumAugSkilledSpec, 0
-					- Tell: Your Auras have been removed.
-					- Tell: Present me with another MMD note as tribute to walk my path.
-				TestFailure:
-					- Tell: Come back when you are ready to make a decision.
+                    - SetIntStat: LumAugSkilledSpec, 0
+                    - Tell: Your Seer Auras have been removed.
+                    - Tell: Present me with another MMD note as tribute to walk my path.
+                    - Goto: LumAugCritReductionRatingReset
+                TestFailure:
+                    - Tell: Come back when you are ready to make a decision.
+
+Gotoset: LumAugCritReductionRatingReset
+    InqIntStat: LumAugCritReductionRating, 6
+         TestSuccess:
+            - SetIntStat: LumAugCritReductionRating, 5
+            - Goto: LumAugDamageReductionRatingReset
+         TestFailure:
+            - Goto: LumAugDamageReductionRatingReset
+            
+Gotoset: LumAugDamageReductionRatingReset
+    InqIntStat: LumAugDamageReductionRating, 6
+         TestSuccess:
+            - SetIntStat: LumAugDamageReductionRating, 5
+            - Goto: LumAugDamageRatingReset
+         TestFailure:
+            - Goto: LumAugDamageRatingReset
+            
+Gotoset: LumAugDamageRatingReset
+    InqIntStat: LumAugDamageRating, 6
+         TestSuccess:
+            - SetIntStat: LumAugDamageRating, 5
+            - Goto: LumAugCritDamageRatingReset
+         TestFailure:
+            - Goto: LumAugCritDamageRatingReset
+            
+GotoSet: LumAugCritDamageRatingReset
+    InqIntStat: LumAugCritDamageRating, 6
+         TestSuccess:
+            - SetIntStat: LumAugCritDamageRating, 5
+         TestFailure:
+            - DirectBroadcast: %n grumbles..
 
 // ===================================================================
 
