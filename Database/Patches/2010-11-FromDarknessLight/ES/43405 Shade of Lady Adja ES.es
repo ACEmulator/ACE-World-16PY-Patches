@@ -254,7 +254,7 @@ GotoSet: LumAugDamageReductionRatingPreRequisite
 		TestFailure:
 			- Goto: 43447_5
 		TestSuccess:
-			- Tell: You have maxxed out increases to Aura of Invulnerability.		
+			- Goto: PreRequisiteFailed
 	
 GotoSet: 43447_5
 	- InqIntStat: LumAugDamageReductionRating, 5 - 5
@@ -350,4 +350,4 @@ GotoSet: 43447_Done
 			- Tell: You have maxxed out increases to Aura of Invulnerability.
 			
 Gotoset: PreRequisiteFailed
-	- Tell: Greetings young one, I sense you are not fully shcooled in Nalicana's teachings
+	- Tell: Greetings young one. I sense you are not fully schooled in Nalicana’s teachings. Return to me after you have studied all she has to offer you.

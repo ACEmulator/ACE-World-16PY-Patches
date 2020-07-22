@@ -350,4 +350,4 @@ GotoSet: 43436_Done
 			- Tell: You have maxxed out increases to Aura of Destruction.		
 
 Gotoset: PreRequisiteFailed
-	- Tell: Greetings young one, I sense you are not fully shcooled in Nalicana's teachings
+	- Tell: Greetings young one. I sense you are not fully schooled in Nalicana’s teachings. Return to me after you have studied all she has to offer you.
