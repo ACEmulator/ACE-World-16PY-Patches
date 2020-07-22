@@ -37,6 +37,11 @@ VALUES (43405,   1,   33561134) /* Setup */
      , (43405,   7,  268437439) /* ClothingBase */
      , (43405,   8,  100689361) /* Icon */;
 
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (43405,   1,   395, 0, 0, 700) /* MaxHealth */
+     , (43405,   3,   290, 0, 0, 900) /* MaxStamina */
+     , (43405,   5,  3400, 0, 0, 4000) /* MaxMana */;
+
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43405, 8040, 4095213842, 34.917, 18.1413, 169.8065, 0.9999954, 0, 0, 0.003055031) /* PCAPRecordedLocation */
 /* @teleloc 0xF4180112 [34.917000 18.141300 169.806500] 0.999995 0.000000 0.000000 0.003055 */;
