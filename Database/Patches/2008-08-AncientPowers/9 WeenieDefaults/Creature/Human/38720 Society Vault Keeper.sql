@@ -53,9 +53,9 @@ VALUES (38720,   1,   196, 0, 0, 296) /* MaxHealth */
      , (38720,   5,   196, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38576, 2,   130,  0, 93, 0.5, False) /* Create Shirt (130) for Wield */
-     , (38576, 2,   127,  0, 8, 0.5, False) /* Create Pants (127) for Wield */
-     , (38576, 2,   115,  0, 9, 0.8, False) /* Create Leather Boots (115) for Wield */;
+VALUES (38720, 2,   130,  0, 93, 0.5, False) /* Create Shirt (130) for Wield */
+     , (38720, 2,   127,  0, 8, 0.5, False) /* Create Pants (127) for Wield */
+     , (38720, 2,   115,  0, 9, 0.8, False) /* Create Leather Boots (115) for Wield */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (38720, 1 /* Refuse */, 1, 38721, NULL, NULL, NULL, NULL, NULL, NULL);
