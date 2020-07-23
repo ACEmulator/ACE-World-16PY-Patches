@@ -69,8 +69,8 @@ VALUES (0x700B902A, 38507, 0x00B90106, 56.0581, -45.9215, -24, -0.7116709, 0, 0,
 /* @teleloc 0x00B90106 [56.058100 -45.921500 -24.000000] -0.711671 0.000000 0.000000 -0.702513 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700B902F, 38576, 0x00B9026B, 136.582, -36.1403, -17.995, -0.3097079, 0, 0, -0.9508318, False, '2019-02-10 00:00:00'); /* Radiant Blood Quartermaster */
-/* @teleloc 0x00B9026B [136.582000 -36.140300 -17.995000] -0.309708 0.000000 0.000000 -0.950832 */
+VALUES (0x700B902F, 38576, 0x00B9026B, 136.582, -36.1403, -17.995, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Radiant Blood Quartermaster */
+/* @teleloc 0x00B9026B [136.582000 -36.140300 -17.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B9036, 38691, 0x00B9026A, 136.725, -26.6064, -17.995, 0.2547114, 0, 0, -0.9670171, False, '2019-02-10 00:00:00'); /* Vermilia the Archmage */
