@@ -60,7 +60,7 @@ VALUES (38689,   1,   120, 0, 0, 240) /* MaxHealth */
      , (38689,   5,   250, 0, 0, 562) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38689, 2,  5850,  0, 91, 0, False) /* Create Faran Robe (5850) for Wield */
+VALUES (38689, 2,  5850,  0, 13, 0, False) /* Create Faran Robe (5850) for Wield */
      , (38689, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */
      , (38689, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */
      , (38689, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy (15270) for Shop */
