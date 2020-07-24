@@ -15,7 +15,7 @@ VALUES (44551,   1,       2048) /* ItemType - Gem */
      , (44551,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44551,  94,         16) /* TargetType - Creature */
      , (44551, 280,        100) /* SharedCooldown */
-     , (44551, 349,        128) /* UseCreatesContractId - Contract_128_Soc__Dark_Isle_Delivery */;
+     , (44551, 349,        101) /* UseCreatesContractId - Contract_101_Soc__Dark_Isle_Delivery */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44551,  22, True ) /* Inscribable */
@@ -27,7 +27,7 @@ VALUES (44551, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44551,   1, 'Contract for Dark Isle Delivery') /* Name */
      , (44551,  14, 'Recommended Level: 180') /* Use */
-     , (44551,  16, 'Aisley Swiftfoot wants you to deliver a Dark Isle Remoran fin to the Deep.') /* LongDesc */;
+     , (44551,  16, 'Rheda the Watcher wants you to deliver a Dark Isle Remoran fin to the Deep.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44551,   1,   33554773) /* Setup */
