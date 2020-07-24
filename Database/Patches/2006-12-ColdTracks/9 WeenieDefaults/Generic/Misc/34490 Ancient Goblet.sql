@@ -7,10 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34490,   1,        128) /* ItemType - Misc */
      , (34490,   5,        500) /* EncumbranceVal */
      , (34490,  16,          1) /* ItemUseable - No */
-     , (34490,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (34490,  19,          0) /* Value */
+     , (34490,  33,          1) /* Bonded - Bonded */
+     , (34490,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34490, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34490,   1, 'Ancient Goblet') /* Name */
+     , (34490,  16, 'The brim of this ornate golden cup is decorated with an alternating pattern of amethysts and engraved grape clusters.') /* LongDesc */
      , (34490,  33, 'AncientGobletPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
