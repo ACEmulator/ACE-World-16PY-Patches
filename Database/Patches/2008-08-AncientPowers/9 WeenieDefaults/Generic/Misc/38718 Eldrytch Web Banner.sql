@@ -18,7 +18,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38718,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38718,   1, 'Eldrytch Web Banner') /* Name */;
+VALUES (38718,   1, 'Eldrytch Web Banner') /* Name */
+     , (38718,  14, 'You can use this banner on roof and yard hooks.') /* Use */
+     , (38718,  16, 'A banner depicting the heraldry of the Society of the Eldrytch Web.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38718,   1,   33560563) /* Setup */
