@@ -18,7 +18,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38719,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38719,   1, 'Radiant Blood Banner') /* Name */;
+VALUES (38719,   1, 'Radiant Blood Banner') /* Name */
+     , (38719,  14, 'You can use this banner on roof and yard hooks.') /* Use */
+     , (38719,  16, 'A banner depicting the heraldry of the Society of the Radiant Blood.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38719,   1,   33560564) /* Setup */
