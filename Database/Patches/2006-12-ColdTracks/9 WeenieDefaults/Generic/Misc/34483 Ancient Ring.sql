@@ -7,10 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34483,   1,        128) /* ItemType - Misc */
      , (34483,   5,        200) /* EncumbranceVal */
      , (34483,  16,          1) /* ItemUseable - No */
-     , (34483,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (34483,  19,          0) /* Value */
+     , (34483,  33,          1) /* Bonded - Bonded */
+     , (34483,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34483, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34483,   1, 'Ancient Ring') /* Name */
+     , (34483,  16, 'The crest of this ring depicts a shield ringed in green fire, with the flames made of artfully layered emerald shards.') /* LongDesc */
      , (34483,  33, 'AncientRingPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
