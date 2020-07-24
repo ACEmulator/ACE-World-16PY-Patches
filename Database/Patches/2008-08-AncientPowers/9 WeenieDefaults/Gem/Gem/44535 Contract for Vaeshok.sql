@@ -15,7 +15,7 @@ VALUES (44535,   1,       2048) /* ItemType - Gem */
      , (44535,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44535,  94,         16) /* TargetType - Creature */
      , (44535, 280,        100) /* SharedCooldown */
-     , (44535, 349,        102) /* UseCreatesContractId - Contract_102_Soc__Vaeshok */;
+     , (44535, 349,        129) /* UseCreatesContractId - Contract_129_Soc__Vaeshok */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44535,  22, True ) /* Inscribable */
