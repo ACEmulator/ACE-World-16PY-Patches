@@ -1,17 +1,6 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xCAEC;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CAEC002,  1542, 0xCAEC010C, 62, -3.58, 57.937, 0.7071068, 0, 0, -0.7071068, False, '2020-07-23 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0xCAEC010C [62.000000 -3.580000 57.937000] 0.707107 0.000000 0.000000 -0.707107  */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAEC002, 0x7CAEC003, '2020-07-23 00:00:00') /* Grael's Chamber (33772) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CAEC003, 33772, 0xCAEC010C, 62, -3.58, 57.937, 0.7071068, 0, 0, -0.7071068,  True, '2020-07-23 00:00:00'); /* Grael's Chamber */
-/* @teleloc 0xCAEC010C [62.000000 -3.580000 57.937000] 0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAEC001,  7924, 0xCAEC01E4, 40.871521, -3.489113, 88.006004, -0.734166, 0, 0, 0.678970, False, '2020-07-23 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xCAEC01E4 [40.871521 -3.489113 88.006004] -0.734166 0.000000 0.000000 0.678970 */
 
@@ -26,8 +15,8 @@ VALUES (0x7CAEC001, 0xCAEC0005, '2020-07-23 00:00:00') /* Fanatical Mukkir (3190
      , (0x7CAEC001, 0xCAEC000C, '2020-07-23 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
      , (0x7CAEC001, 0xCAEC000D, '2020-07-23 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
      , (0x7CAEC001, 0xCAEC000E, '2020-07-23 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
-     , (0x7CAEC001, 0xCAEC000F, '2020-07-23 00:00:00') /* Vaeshok (38592) */  
-     , (0x7CAEC001, 0xCAEC0010, '2020-07-23 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */ 
+     , (0x7CAEC001, 0xCAEC000F, '2020-07-23 00:00:00') /* Vaeshok (38592) */
+     , (0x7CAEC001, 0xCAEC0010, '2020-07-23 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
      , (0x7CAEC001, 0xCAEC0011, '2020-07-23 00:00:00') /* Fanatical Mukkir (31901) */
      , (0x7CAEC001, 0xCAEC0012, '2020-07-23 00:00:00') /* Fanatical Mukkir (31901) */
      , (0x7CAEC001, 0xCAEC0013, '2020-07-23 00:00:00') /* Fanatical Mukkir (31901) */
