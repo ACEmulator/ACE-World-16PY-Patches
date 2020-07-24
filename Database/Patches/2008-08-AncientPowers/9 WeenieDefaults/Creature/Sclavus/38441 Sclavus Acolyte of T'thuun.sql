@@ -127,6 +127,10 @@ VALUES (38441,  0,  4,  0,    0,  300,  240,  201,  141,  210,  201,   75,   75,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38441,    2176,  2.02)  /* Enervation */
+     , (38441,    4433,  2.02)  /* Incantation of Acid Stream */
+     , (38441,    4439,  2.02)  /* Incantation of Flame Bolt */
+     , (38441,    4451,  2.02)  /* Incantation of Lightning Bolt */
+     , (38441,    4453,  2.02)  /* Incantation of Lightning Volley */
      , (38441,    4487,  2.02)  /* Incantation of Exhaustion Other */;
      
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
