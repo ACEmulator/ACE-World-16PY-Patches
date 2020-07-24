@@ -18,7 +18,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38717,  39,     0.7) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38717,   1, 'Celestial Hand Banner') /* Name */;
+VALUES (38717,   1, 'Celestial Hand Banner') /* Name */
+     , (38717,  14, 'You can use this banner on roof and yard hooks.') /* Use */
+     , (38717,  16, 'A banner depicting the heraldry of the Society of the Celestial Hand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38717,   1,   33560562) /* Setup */
