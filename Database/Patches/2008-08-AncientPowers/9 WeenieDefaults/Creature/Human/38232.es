@@ -181,7 +181,7 @@ GotoSet: SocietyRankCheck
                                                                     - Goto: InitiateRankCheckLimitText
                                                 QuestFailure:
                                                     - Tell: You have not recently turned in any Commendation Ribbons.
-                                                    - Goto: AdeptRankCheckLimitText
+                                                    - Goto: InitiateRankCheckLimitText
                                         TestFailure:
                                             - Tell: How did we get here?
 
