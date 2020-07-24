@@ -15,22 +15,22 @@ VALUES (44551,   1,       2048) /* ItemType - Gem */
      , (44551,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44551,  94,         16) /* TargetType - Creature */
      , (44551, 280,        100) /* SharedCooldown */
-     , (44907, 349,        128) /* UseCreatesContractId - Contract_128_Soc__Dark_Isle_Delivery */;
+     , (44551, 349,        128) /* UseCreatesContractId - Contract_128_Soc__Dark_Isle_Delivery */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44907,  22, True ) /* Inscribable */
-     , (44907,  69, False) /* IsSellable */;
+VALUES (44551,  22, True ) /* Inscribable */
+     , (44551,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44551, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44551,   1, 'Contract for Dark Isle Delivery') /* Name */
-     , (44907,  14, 'Recommended Level: 180') /* Use */
-     , (44907,  16, 'Aisley Swiftfoot wants you to deliver a Dark Isle Remoran fin to the Deep.') /* LongDesc */;
+     , (44551,  14, 'Recommended Level: 180') /* Use */
+     , (44551,  16, 'Aisley Swiftfoot wants you to deliver a Dark Isle Remoran fin to the Deep.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44907,   1,   33554773) /* Setup */
-     , (44907,   3,  536870932) /* SoundTable */
-     , (44907,   8,  100691930) /* Icon */
-     , (44907,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44551,   1,   33554773) /* Setup */
+     , (44551,   3,  536870932) /* SoundTable */
+     , (44551,   8,  100691930) /* Icon */
+     , (44551,  22,  872415275) /* PhysicsEffectTable */;
