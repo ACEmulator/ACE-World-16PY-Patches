@@ -5,6 +5,7 @@ VALUES (38726, 'ace38726-blackmarketgemofdispelling', 38, '2019-02-10 00:00:00')
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38726,   1,       2048) /* ItemType - Gem */
+     , (38726,   3,          2) /* PaletteTemplate - Blue */
      , (38726,   5,         10) /* EncumbranceVal */
      , (38726,  11,         25) /* MaxStackSize */
      , (38726,  12,          1) /* StackSize */
@@ -35,6 +36,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38726,   1,   33554809) /* Setup */
      , (38726,   3,  536870932) /* SoundTable */
      , (38726,   6,   67111919) /* PaletteBase */
+     , (38726,   7,  268435723) /* ClothingBase */
      , (38726,   8,  100671405) /* Icon */
      , (38726,  22,  872415275) /* PhysicsEffectTable */
      , (38726,  28,       4331) /* Spell - DispelAllBadSelf8 */;

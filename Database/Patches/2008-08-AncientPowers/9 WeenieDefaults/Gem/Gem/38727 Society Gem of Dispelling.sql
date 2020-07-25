@@ -5,6 +5,7 @@ VALUES (38727, 'ace38727-societygemofdispelling', 38, '2019-02-10 00:00:00') /* 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38727,   1,       2048) /* ItemType - Gem */
+     , (38727,   3,          2) /* PaletteTemplate - Blue */
      , (38727,   5,         10) /* EncumbranceVal */
      , (38727,  11,         25) /* MaxStackSize */
      , (38727,  12,          1) /* StackSize */
@@ -35,6 +36,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38727,   1,   33554809) /* Setup */
      , (38727,   3,  536870932) /* SoundTable */
      , (38727,   6,   67111919) /* PaletteBase */
+     , (38727,   7,  268435723) /* ClothingBase */
      , (38727,   8,  100671405) /* Icon */
      , (38727,  22,  872415275) /* PhysicsEffectTable */
      , (38727,  28,       4331) /* Spell - DispelAllBadSelf8 */;

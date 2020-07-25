@@ -39,6 +39,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38725,   1,   33556769) /* Setup */
      , (38725,   3,  536870932) /* SoundTable */
      , (38725,   6,   67111919) /* PaletteBase */
+     , (38725,   7,  268435723) /* ClothingBase */
      , (38725,   8,  100672464) /* Icon */
      , (38725,  22,  872415275) /* PhysicsEffectTable */
      , (38725,  28,        157) /* Spell - SummonPortal1 */
