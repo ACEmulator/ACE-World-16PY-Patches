@@ -163,4 +163,5 @@ Give: Altered Dark Remoran Fin (38612)
     - Delay: 0.5, DirectBroadcast: A suddent pungent odor of rot arises from deep within the mists.
     - Delay: 0.5, DirectBroadcast: A crazed, anger filled voice echoes from everywhere around you!
     - Tell: I will not be toyed with, small one.  Begone!
-    - TeleportTarget: 0x25810034 [153.3 80.9 770] 1 0 0 0
+    #- TeleportTarget: 0x25810034 [153.3 80.9 770] 1 0 0 0
+    - CastSpellInstant: 6148

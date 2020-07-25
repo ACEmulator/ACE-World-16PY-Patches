@@ -24,6 +24,7 @@ VALUES (33674,   1, True ) /* Stuck */
      , (33674,  41, True ) /* ReportCollisionsAsEnvironment */
      , (33674,  42, True ) /* AllowEdgeSlide */
      , (33674,  83, True ) /* NpcLooksLikeObject */
+     , (33674,  90, True ) /* NpcInteractsSilently */
      , (33674, 118, True ) /* NeverAttack */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -513,4 +514,4 @@ VALUES (@parent_id, 0, 22 /* StampQuest */, 0, 1, NULL, 'TaskDIDelivery', NULL, 
      , (@parent_id, 3, 18 /* DirectBroadcast */, 0.5, 1, NULL, 'A suddent pungent odor of rot arises from deep within the mists.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 4, 18 /* DirectBroadcast */, 0.5, 1, NULL, 'A crazed, anger filled voice echoes from everywhere around you!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 5, 10 /* Tell */, 0, 1, NULL, 'I will not be toyed with, small one.  Begone!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 6, 99 /* TeleportTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0x25810034 /* 0x25810034 [153.3 80.9 770] 1 0 0 0 */, 153.3, 80.9, 770, 1, 0, 0, 0);
+     , (@parent_id, 6, 19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 6148 /* Begone and Be Afraid */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
