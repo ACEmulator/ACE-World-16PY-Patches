@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41612;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41612, 'ace41612-missive', 12, '2020-06-06 19:56:08') /* Vendor */;
+VALUES (41612, 'ace41612-missive', 12, '2020-07-18 19:56:08') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41612,   1,         16) /* ItemType - Creature */
@@ -12,9 +12,9 @@ VALUES (41612,   1,         16) /* ItemType - Creature */
      , (41612,  16,         32) /* ItemUseable - Remote */
      , (41612,  25,        150) /* Level */
      , (41612,  27,          0) /* ArmorType - None */
-     , (41612,  74,     833536) /* MerchandiseItemTypes - Gem, SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
+     , (41612,  74, 1077936047) /* MerchandiseItemTypes - Food, Useless, SpellComponents, Writable, Key, Portal, Lockable, PromissoryNote, ItemEnchantableTarget, Service, MagicWieldable, TinkeringMaterial */
      , (41612,  75,          0) /* MerchandiseMinValue */
-     , (41612,  76,    1000000) /* MerchandiseMaxValue */
+     , (41612,  76,     100000) /* MerchandiseMaxValue */
      , (41612,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (41612, 126,       5000) /* VendorHappyMean */
      , (41612, 127,       2000) /* VendorHappyVariance */
@@ -25,11 +25,8 @@ VALUES (41612,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41612,   1, True ) /* Stuck */
      , (41612,   6, False) /* AiUsesMana */
-     , (41612,  12, True ) /* ReportCollisions */
-     , (41612,  13, False) /* Ethereal */
      , (41612,  19, False) /* Attackable */
      , (41612,  39, True ) /* DealMagicalItems */
-     , (41612,  41, True ) /* ReportCollisionsAsEnvironment */
      , (41612,  50, True ) /* NeverFailCasting */
      , (41612,  51, True ) /* VendorService */
      , (41612,  52, True ) /* AiImmobile */;
@@ -48,7 +45,7 @@ VALUES (41612,   1,       5) /* HeartbeatInterval */
      , (41612,  17,     0.4) /* ArmorModVsFire */
      , (41612,  18,       1) /* ArmorModVsAcid */
      , (41612,  19,     0.6) /* ArmorModVsElectric */
-     , (41612,  37,     0.8) /* BuyPrice */
+     , (41612,  37,    0.85) /* BuyPrice */
      , (41612,  38,     1.4) /* SellPrice */
      , (41612,  54,       3) /* UseRadius */
      , (41612,  64,       1) /* ResistSlash */

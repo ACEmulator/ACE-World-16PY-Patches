@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 197;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (197, 'golemiron', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (197, 'golemiron', 10, '2020-07-18 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (197,   1,         16) /* ItemType - Creature */
@@ -21,10 +21,6 @@ VALUES (197,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (197,   1, True ) /* Stuck */
      , (197,   6, True ) /* AiUsesMana */
-     , (197,  11, False) /* IgnoreCollisions */
-     , (197,  12, True ) /* ReportCollisions */
-     , (197,  13, False) /* Ethereal */
-     , (197,  14, True ) /* GravityStatus */
      , (197,  19, True ) /* Attackable */
      , (197,  50, True ) /* NeverFailCasting */;
 
@@ -74,7 +70,7 @@ VALUES (197,   1,   33556426) /* Setup */
      , (197,   6,   67112809) /* PaletteBase */
      , (197,   7,  268435981) /* ClothingBase */
      , (197,   8,  100667940) /* Icon */
-     , (197,  22,  872415321) /* PhysicsEffectTable */
+     , (197,  22,  872415323) /* PhysicsEffectTable */
      , (197,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

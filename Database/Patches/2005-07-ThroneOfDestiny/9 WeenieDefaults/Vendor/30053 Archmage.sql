@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30053;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30053, 'viaarchmage', 12, '2019-07-13 00:58:48') /* Vendor */;
+VALUES (30053, 'viaarchmage', 12, '2020-07-18 00:58:48') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30053,   1,         16) /* ItemType - Creature */
@@ -14,7 +14,7 @@ VALUES (30053,   1,         16) /* ItemType - Creature */
      , (30053,  27,          0) /* ArmorType - None */
      , (30053,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (30053,  75,          0) /* MerchandiseMinValue */
-     , (30053,  76,      25000) /* MerchandiseMaxValue */
+     , (30053,  76,    1000000) /* MerchandiseMaxValue */
      , (30053,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30053, 113,          2) /* Gender - Female */
      , (30053, 126,        500) /* VendorHappyMean */
@@ -28,13 +28,8 @@ VALUES (30053,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30053,   1, True ) /* Stuck */
      , (30053,   6, False) /* AiUsesMana */
-     , (30053,  11, True ) /* IgnoreCollisions */
-     , (30053,  12, True ) /* ReportCollisions */
-     , (30053,  13, False) /* Ethereal */
-     , (30053,  14, True ) /* GravityStatus */
      , (30053,  19, False) /* Attackable */
      , (30053,  39, True ) /* DealMagicalItems */
-     , (30053,  41, True ) /* ReportCollisionsAsEnvironment */
      , (30053,  50, True ) /* NeverFailCasting */
      , (30053,  51, True ) /* VendorService */
      , (30053,  52, True ) /* AiImmobile */;
@@ -42,19 +37,19 @@ VALUES (30053,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30053,   1,       5) /* HeartbeatInterval */
      , (30053,   2,       0) /* HeartbeatTimestamp */
-     , (30053,   3, 0.159999996423721) /* HealthRate */
+     , (30053,   3,     0.16) /* HealthRate */
      , (30053,   4,       5) /* StaminaRate */
      , (30053,   5,       1) /* ManaRate */
      , (30053,  11,     300) /* ResetInterval */
-     , (30053,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (30053,  13,     0.9) /* ArmorModVsSlash */
      , (30053,  14,       1) /* ArmorModVsPierce */
-     , (30053,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (30053,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (30053,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (30053,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30053,  16,     0.4) /* ArmorModVsCold */
+     , (30053,  17,     0.4) /* ArmorModVsFire */
      , (30053,  18,       1) /* ArmorModVsAcid */
-     , (30053,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (30053,  37, 0.949999988079071) /* BuyPrice */
-     , (30053,  38,    1.25) /* SellPrice */
+     , (30053,  19,     0.6) /* ArmorModVsElectric */
+     , (30053,  37,     0.7) /* BuyPrice */
+     , (30053,  38,     1.9) /* SellPrice */
      , (30053,  54,       3) /* UseRadius */
      , (30053,  64,       1) /* ResistSlash */
      , (30053,  65,       1) /* ResistPierce */

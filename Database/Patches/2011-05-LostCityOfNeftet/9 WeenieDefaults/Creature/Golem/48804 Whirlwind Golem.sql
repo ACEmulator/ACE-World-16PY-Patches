@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48804;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48804, 'ace48804-whirlwindgolem', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (48804, 'ace48804-whirlwindgolem', 10, '2020-07-18 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48804,   1,         16) /* ItemType - Creature */
@@ -24,9 +24,6 @@ VALUES (48804,   1, True ) /* Stuck */
      , (48804,   6, True ) /* AiUsesMana */
      , (48804,   7, True ) /* AiUseHumanMagicAnimations */
      , (48804,  10, True ) /* AttackerAi */
-     , (48804,  11, False) /* IgnoreCollisions */
-     , (48804,  12, True ) /* ReportCollisions */
-     , (48804,  13, False) /* Ethereal */
      , (48804,  58, True ) /* SpellQueueActive */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -77,7 +74,7 @@ VALUES (48804,   1,   33561253) /* Setup */
      , (48804,   4,  805306376) /* CombatTable */
      , (48804,   6,   67108990) /* PaletteBase */
      , (48804,   8,  100667940) /* Icon */
-     , (48804,  22,  872415321) /* PhysicsEffectTable */
+     , (48804,  22,  872415322) /* PhysicsEffectTable */
      , (48804,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
