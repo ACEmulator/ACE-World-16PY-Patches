@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37384;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37384, 'ace37384-surface', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (37384, 'ace37384-surface', 7, '2019-02-10 00:00:00') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37384,   1,      65536) /* ItemType - Portal */
@@ -11,20 +11,13 @@ VALUES (37384,   1,      65536) /* ItemType - Portal */
      , (37384, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37384,   1, True ) /* Stuck */
-     , (37384,  12, True ) /* ReportCollisions */
-     , (37384,  13, True ) /* Ethereal */
-     , (37384,  14, True ) /* GravityStatus */
-     , (37384,  15, True ) /* LightsStatus */
-     , (37384,  19, True ) /* Attackable */
-     , (37384,  88, True ) /* PortalShowDestination */;
+VALUES (37384,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37384,  54, -0.100000001490116) /* UseRadius */;
+VALUES (37384,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (37384,   1, 'Surface') /* Name */
-     , (37384,  38, 'Surface (39.7S, 83.6E).') /* AppraisalPortalDestination */;
+VALUES (37384,   1, 'Surface') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37384,   1,   33554867) /* Setup */
