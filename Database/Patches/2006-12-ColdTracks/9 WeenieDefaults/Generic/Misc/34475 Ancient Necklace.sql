@@ -7,10 +7,14 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34475,   1,        128) /* ItemType - Misc */
      , (34475,   5,        300) /* EncumbranceVal */
      , (34475,  16,          1) /* ItemUseable - No */
-     , (34475,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (34475,  19,          0) /* Value */
+     , (34475,  33,          1) /* Bonded - Bonded */
+     , (34475,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (34475, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34475,   1, 'Ancient Necklace') /* Name */
+     , (34475,  16, 'The medallion on this necklace is artfully crafted to depict a bird ringed with emeralds.') /* LongDesc */
      , (34475,  33, 'AncientNecklacePickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
