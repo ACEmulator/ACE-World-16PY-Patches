@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44806; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44806, 'ace44806-panumbrisshadow240', 10, '2020-07-23 06:19:13') /* Creature */;
+VALUES (44806, 'ace44806-panumbrisshadow240', 10, '2020-07-25 12:24:13') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44806,   1,         16) /* ItemType - Creature */
@@ -41,20 +41,20 @@ VALUES (44806,   1,       5) /* HeartbeatInterval */
      , (44806,   5,       1) /* ManaRate */
      , (44806,  12,     0.5) /* Shade */
      , (44806,  13,       1) /* ArmorModVsSlash */
-     , (44806,  14,    0.84) /* ArmorModVsPierce */
-     , (44806,  15,    0.89) /* ArmorModVsBludgeon */
-     , (44806,  16,     0.7) /* ArmorModVsCold */
-     , (44806,  17,       1) /* ArmorModVsFire */
-     , (44806,  18,    0.74) /* ArmorModVsAcid */
-     , (44806,  19,    0.84) /* ArmorModVsElectric */
-     , (44806,  31,      28) /* VisualAwarenessRange */
+     , (44806,  14,     1.4) /* ArmorModVsPierce */
+     , (44806,  15,    1.35) /* ArmorModVsBludgeon */
+     , (44806,  16,     1.4) /* ArmorModVsCold */
+     , (44806,  17,    0.82) /* ArmorModVsFire */
+     , (44806,  18,     1.7) /* ArmorModVsAcid */
+     , (44806,  19,    1.35) /* ArmorModVsElectric */
+     , (44806,  31,      33) /* VisualAwarenessRange */
      , (44806,  34,     1.1) /* PowerupTime */
      , (44806,  36,       1) /* ChargeSpeed */
      , (44806,  39,     1.3) /* DefaultScale */
-     , (44806,  64,       1) /* ResistSlash */
+     , (44806,  64,     0.7) /* ResistSlash */
      , (44806,  65,     0.5) /* ResistPierce */
-     , (44806,  66,    0.67) /* ResistBludgeon */
-     , (44806,  67,       1) /* ResistFire */
+     , (44806,  66,    0.35) /* ResistBludgeon */
+     , (44806,  67,    0.65) /* ResistFire */
      , (44806,  68,     0.1) /* ResistCold */
      , (44806,  69,     0.2) /* ResistAcid */
      , (44806,  70,     0.5) /* ResistElectric */
@@ -67,7 +67,8 @@ VALUES (44806,   1,       5) /* HeartbeatInterval */
      , (44806,  80,       3) /* AiUseMagicDelay */
      , (44806, 104,      10) /* ObviousRadarRange */
      , (44806, 122,       5) /* AiAcquireHealth */
-     , (44806, 125,       1) /* ResistHealthDrain */;
+     , (44806, 125,       1) /* ResistHealthDrain */
+     , (44806, 166,    0.85) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44806,   1, 'Panumbris Shadow') /* Name */
@@ -118,14 +119,14 @@ VALUES (44806,   1,  2250, 0, 0, 2380) /* MaxHealth */
      , (44806,   5,  2000, 0, 0, 2190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (44806, 45, 0, 3, 0, 457, 0, 0) /* LightWeapons         Specialized */
+VALUES (44806, 45, 0, 3, 0, 477, 0, 0) /* LightWeapons         Specialized */
      , (44806, 47, 0, 3, 0, 310, 0, 0) /* MissileWeapons       Specialized */
-     , (44806, 46, 0, 3, 0, 467, 0, 0) /* FinesseWeapons       Specialized */
-     , (44806,  6, 0, 3, 0, 467, 0, 0) /* MeleeDefense         Specialized */
-     , (44806,  7, 0, 3, 0, 560, 0, 0) /* MissileDefense       Specialized */
+     , (44806, 46, 0, 3, 0, 487, 0, 0) /* FinesseWeapons       Specialized */
+     , (44806,  6, 0, 3, 0, 532, 0, 0) /* MeleeDefense         Specialized */
+     , (44806,  7, 0, 3, 0, 590, 0, 0) /* MissileDefense       Specialized */
      , (44806, 44, 0, 3, 0, 477, 0, 0) /* HeavyWeapons         Specialized */
      , (44806, 14, 0, 2, 0, 290, 0, 0) /* ArcaneLore          Trained */
-     , (44806, 15, 0, 3, 0, 343, 0, 0) /* MagicDefense         Specialized */
+     , (44806, 15, 0, 3, 0, 363, 0, 0) /* MagicDefense         Specialized */
      , (44806, 20, 0, 2, 0, 250, 0, 0) /* Deception           Trained */
      , (44806, 31, 0, 3, 0, 190, 0, 0) /* CreatureEnchantment  Specialized */
      , (44806, 33, 0, 3, 0, 185, 0, 0) /* LifeMagic            Specialized */
@@ -133,23 +134,18 @@ VALUES (44806, 45, 0, 3, 0, 457, 0, 0) /* LightWeapons         Specialized */
      , (44806, 43, 0, 3, 0, 195, 0, 0) /* VoidMagic            Specialized */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44806,  1174,   2.02) /* Harm Other IV */
-     , (44806,  1418,   2.02) /* Slowness Other IV */
-     , (44806,  1466,   2.02) /* Feeblemind Other IV */
-     , (44806,  2053,   2.01) /* Executor's Blessing */
-     , (44806,  2072,   2.02) /* Adja's Gift */
-     , (44806,  2264,   2.02) /* Wrath of Harlune */
-     , (44806,  2266,   2.01) /* Harlune's Boon */
-     , (44806,  2281,   2.01) /* Aura of Resistance */
-     , (44806,  2282,   2.02) /* Magic Yield Other VII */
-     , (44806,  2287,   2.01) /* Nuhmudira's Blessing */
+VALUES (44806,  2264,   2.02) /* Wrath of Harlune */
+     , (44806,  2282,   2.02) /* Futility */
      , (44806,  2328,   2.01) /* Vitality Siphon */
-     , (44806,  4439,   2.01) /* Flame Bolt VIII */
-     , (44806,  4443,   2.01) /* Force Bolt VIII */
-     , (44806,  4447,   2.01) /* Frost Bolt VIII */
-     , (44806,  4451,   2.01) /* Lightning Bolt VIII */
-     , (44806,  4457,   2.01) /* Whirling Blade VIII */
-     , (44806,  4633,   2.02) /* Vulnerability Other VIII */
+     , (44806,  4302,   2.02) /* Incantation of Feeblemind Other */
+     , (44806,  4322,   2.02) /* Incantation of Slowness Other */
+     , (44806,  4436,   2.02) /* Incantation of Blade Volley */
+     , (44806,  4439,   2.02) /* Flame Bolt VIII */
+     , (44806,  4443,   2.02) /* Force Bolt VIII */
+     , (44806,  4447,   2.02) /* Frost Bolt VIII */
+     , (44806,  4451,   2.02) /* Lightning Bolt VIII */
+     , (44806,  4457,   2.02) /* Whirling Blade VIII */
+     , (44806,  4633,   2.02) /* Incantation of Vulnerability Other */
      , (44806,  5344,   2.04) /* Destructive Curse VI */
      , (44806,  5355,   2.06) /* Nether Bolt VII */
      , (44806,  5367,   2.07) /* Nether Arc VII */

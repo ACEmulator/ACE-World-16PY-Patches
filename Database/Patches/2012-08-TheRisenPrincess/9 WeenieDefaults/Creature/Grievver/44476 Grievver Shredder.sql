@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44476; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44476, 'ace44476-grievvershredder', 10, '2020-07-23 07:02:48') /* Creature */;
+VALUES (44476, 'ace44476-grievvershredder', 10, '2020-07-26 10:44:44') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44476,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,7 @@ VALUES (44476,   1,         16) /* ItemType - Creature */
      , (44476, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44476, 140,          1) /* AiOptions - CanOpenDoors */
      , (44476, 146,    1100000) /* XpOverride */
-     , (44476, 332,         48) /* LuminanceAward */;
+     , (44476, 332,         75) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44476,   1, True ) /* Stuck */
@@ -46,7 +46,7 @@ VALUES (44476,   1,       5) /* HeartbeatInterval */
      , (44476,  17,     1.1) /* ArmorModVsFire */
      , (44476,  18,       1) /* ArmorModVsAcid */
      , (44476,  19,       1) /* ArmorModVsElectric */
-     , (44476,  31,      15) /* VisualAwarenessRange */
+     , (44476,  31,      30) /* VisualAwarenessRange */
      , (44476,  34,       1) /* PowerupTime */
      , (44476,  36,       1) /* ChargeSpeed */
      , (44476,  39,     1.6) /* DefaultScale */
@@ -88,10 +88,10 @@ VALUES (44476,   1,   33556698) /* Setup */
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (44476,  0,  4,  0,    0,  600,  300,  300,  300,  300,  300,  300,  300,    0, 1, 0.33, 0.23,  0.1,  0.1,  0.1,  0.1,  0.1,    0,    0,    0,  0.1,    0) /* Head - Bludgeon */
      , (44476, 16,  4,  0,    0,  600,  300,  300,  300,  300,  300,  300,  300,    0, 2, 0.34, 0.34,  0.1,  0.1,  0.1,  0.1, 0.45,  0.5, 0.45,  0.5,  0.5,  0.3) /* Torso - Bludgeon */
-     , (44476, 18,  2,150,  0.5,  600,  300,  300,  300,  300,  300,  300,  300,    0, 2, 0.23, 0.33, 0.35, 0.35, 0.35, 0.35,    0,    0,  0.1,    0,    0,  0.1) /* Arm - Pierce */
+     , (44476, 18,  2,300,  0.5,  600,  300,  300,  300,  300,  300,  300,  300,    0, 2, 0.23, 0.33, 0.35, 0.35, 0.35, 0.35,    0,    0,  0.1,    0,    0,  0.1) /* Arm - Pierce */
      , (44476, 19,  2,  0,    0,  600,  300,  300,  300,  300,  300,  300,  300,    0, 3,    0,    0, 0.35, 0.35, 0.35, 0.35, 0.45,  0.5, 0.45,  0.5,  0.4,  0.6) /* Leg - Pierce */
-     , (44476, 20,  2,150, 0.75,  600,  300,  300,  300,  300,  300,  300,  300,    0, 2,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,    0,    0,    0,    0,    0,    0) /* Claw - Pierce */
-     , (44476, 22, 32,100,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
+     , (44476, 20,  2,300, 0.75,  600,  300,  300,  300,  300,  300,  300,  300,    0, 2,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,    0,    0,    0,    0,    0,    0) /* Claw - Pierce */
+     , (44476, 22, 32,250,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath - Acid */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44476,   1, 380, 0, 0) /* Strength */

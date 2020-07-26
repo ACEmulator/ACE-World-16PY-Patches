@@ -1,13 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52271; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52271, 'ace52271-shadowypillar', 10, '2020-07-21 07:40:54') /* Creature */;
+VALUES (52271, 'ace52271-shadowypillar', 10, '2020-07-24 12:07:32') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52271,   1,         16) /* ItemType - Creature */
      , (52271,   6,         -1) /* ItemsCapacity */
      , (52271,   7,         -1) /* ContainersCapacity */
      , (52271,  16,          1) /* ItemUseable - No */
+     , (52271,  40,          1) /* CombatMode */
      , (52271,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52271, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52271, 146,    5000000) /* XpOverride */
@@ -88,7 +89,7 @@ VALUES (52271,   1, 190, 0, 0) /* Strength */
      , (52271,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52271,   1, 49750, 0, 0,10000) /* MaxHealth */
+VALUES (52271,   1,  9750, 0, 0,10000) /* MaxHealth */
      , (52271,   3, 10000, 0, 0,10190) /* MaxStamina */
      , (52271,   5, 30000, 0, 0,30250) /* MaxMana */;
 

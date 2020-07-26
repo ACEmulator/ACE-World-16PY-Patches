@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48083; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48083, 'ace48083-acidkatar', 6, '2020-07-20 08:49:21') /* MeleeWeapon */;
+VALUES (48083, 'ace48083-acidkatar', 6, '2020-07-25 12:42:59') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48083,   1,          1) /* ItemType - MeleeWeapon */
@@ -12,7 +12,7 @@ VALUES (48083,   1,          1) /* ItemType - MeleeWeapon */
      , (48083,  19,        155) /* Value */
      , (48083,  33,         -2) /* Bonded - Destroy */
      , (48083,  37,       9999) /* ResistItemAppraisal */
-     , (48083,  44,        203) /* Damage */
+     , (48083,  44,        223) /* Damage */
      , (48083,  45,         32) /* DamageType - Acid */
      , (48083,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (48083,  47,          1) /* AttackType - Punch */

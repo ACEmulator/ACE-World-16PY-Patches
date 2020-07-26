@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44805; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44805, 'ace44805-voidlord', 10, '2020-07-21 08:42:04') /* Creature */;
+VALUES (44805, 'ace44805-voidlord', 10, '2020-07-26 10:43:37') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44805,   1,         16) /* ItemType - Creature */
@@ -16,7 +16,7 @@ VALUES (44805,   1,         16) /* ItemType - Creature */
      , (44805, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44805, 146,    1850000) /* XpOverride */
      , (44805, 307,          4) /* DamageRating */
-     , (44805, 332,         73) /* LuminanceAward */;
+     , (44805, 332,         90) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44805,   1, True ) /* Stuck */
@@ -39,7 +39,7 @@ VALUES (44805,   1,       5) /* HeartbeatInterval */
      , (44805,  17,     1.1) /* ArmorModVsFire */
      , (44805,  18,     0.7) /* ArmorModVsAcid */
      , (44805,  19,    0.75) /* ArmorModVsElectric */
-     , (44805,  31,      22) /* VisualAwarenessRange */
+     , (44805,  31,      28) /* VisualAwarenessRange */
      , (44805,  34,     1.1) /* PowerupTime */
      , (44805,  36,       1) /* ChargeSpeed */
      , (44805,  39,     1.3) /* DefaultScale */

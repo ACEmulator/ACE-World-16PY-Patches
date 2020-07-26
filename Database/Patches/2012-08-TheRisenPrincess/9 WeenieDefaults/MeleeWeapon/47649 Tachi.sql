@@ -1,7 +1,7 @@
-DELETE FROM `weenie` WHERE `class_Id` = 47649;
+DELETE FROM `weenie` WHERE `class_Id` = 47649; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (47649, 'ace47649-tachi', 6, '2019-03-26 20:02:53') /* MeleeWeapon */;
+VALUES (47649, 'ace47649-tachi', 6, '2020-07-25 12:39:48') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47649,   1,          1) /* ItemType - MeleeWeapon */
@@ -13,7 +13,7 @@ VALUES (47649,   1,          1) /* ItemType - MeleeWeapon */
      , (47649,  19,        460) /* Value */
      , (47649,  33,         -2) /* Bonded - Destroy */
      , (47649,  37,       9999) /* ResistItemAppraisal */
-     , (47649,  44,        150) /* Damage */
+     , (47649,  44,        283) /* Damage */
      , (47649,  45,          3) /* DamageType - Slash, Pierce */
      , (47649,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (47649,  47,          6) /* AttackType - Thrust, Slash */
@@ -30,7 +30,7 @@ VALUES (47649,  13, True ) /* Ethereal */
      , (47649,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47649,  21, 1.10000002384186) /* WeaponLength */
+VALUES (47649,  21,     1.1) /* WeaponLength */
      , (47649,  22,     0.5) /* DamageVariance */
      , (47649,  29,       1) /* WeaponDefense */
      , (47649,  62,       1) /* WeaponOffense */;
@@ -46,3 +46,4 @@ VALUES (47649,   1,   33554742) /* Setup */
      , (47649,   8,  100668915) /* Icon */
      , (47649,  22,  872415275) /* PhysicsEffectTable */
      , (47649,  36,  234881044) /* MutateFilter */;
+

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52273; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52273, 'ace52273-shadowflyer', 10, '2020-07-21 08:37:32') /* Creature */;
+VALUES (52273, 'ace52273-shadowflyer', 10, '2020-07-25 12:25:44') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52273,   1,         16) /* ItemType - Creature */
@@ -16,7 +16,7 @@ VALUES (52273,   1,         16) /* ItemType - Creature */
      , (52273,  72,         22) /* FriendType - Shadow */
      , (52273,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52273, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (52273, 146,   11000000) /* XpOverride */;
+     , (52273, 146,    1100000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52273,   1, True ) /* Stuck */
@@ -42,7 +42,7 @@ VALUES (52273,   1,       5) /* HeartbeatInterval */
      , (52273,  17,     0.8) /* ArmorModVsFire */
      , (52273,  18,       1) /* ArmorModVsAcid */
      , (52273,  19,       1) /* ArmorModVsElectric */
-     , (52273,  31,      25) /* VisualAwarenessRange */
+     , (52273,  31,      35) /* VisualAwarenessRange */
      , (52273,  34,     1.2) /* PowerupTime */
      , (52273,  36,       1) /* ChargeSpeed */
      , (52273,  39,     1.1) /* DefaultScale */
@@ -81,9 +81,9 @@ VALUES (52273,   1,   33561289) /* Setup */
      , (52273,  35,       2101) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (52273,  0,  2,175,  0.5,  620,  310,  310,  310,  310,  310,  310,  310,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head - Pierce */
+VALUES (52273,  0,  2,200,  0.5,  620,  310,  310,  310,  310,  310,  310,  310,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head - Pierce */
      , (52273, 16,  4,  0,    0,  620,  310,  310,  310,  310,  310,  310,  310,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso - Bludgeon */
-     , (52273, 17,  1,175, 0.75,  620,  310,  310,  310,  310,  310,  310,  310,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail - Slash */
+     , (52273, 17,  1,200, 0.75,  620,  310,  310,  310,  310,  310,  310,  310,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail - Slash */
      , (52273, 21,  4,  0,    0,  620,  310,  310,  310,  310,  310,  310,  310,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings - Bludgeon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

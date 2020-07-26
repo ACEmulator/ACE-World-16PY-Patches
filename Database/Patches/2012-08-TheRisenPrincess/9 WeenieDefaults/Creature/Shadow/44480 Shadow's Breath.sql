@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44480; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44480, 'ace44480-shadowsbreath', 10, '2020-07-20 05:36:59') /* Creature */;
+VALUES (44480, 'ace44480-shadowsbreath', 10, '2020-07-25 12:37:54') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44480,   1,         16) /* ItemType - Creature */
@@ -41,7 +41,7 @@ VALUES (44480,   1,       5) /* HeartbeatInterval */
      , (44480,  17,     0.6) /* ArmorModVsFire */
      , (44480,  18,       1) /* ArmorModVsAcid */
      , (44480,  19,       1) /* ArmorModVsElectric */
-     , (44480,  31,      30) /* VisualAwarenessRange */
+     , (44480,  31,      45) /* VisualAwarenessRange */
      , (44480,  34,       1) /* PowerupTime */
      , (44480,  36,       1) /* ChargeSpeed */
      , (44480,  39,     1.1) /* DefaultScale */
@@ -76,9 +76,9 @@ VALUES (44480,   1,   33556913) /* Setup */
      , (44480,  35,       2101) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (44480,  0, 32,1000, 0.25,  510,  255,  255,  255,  255,  255,  255,  255,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head - Acid */
+VALUES (44480,  0, 32,1200, 0.25,  510,  255,  255,  255,  255,  255,  255,  255,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head - Acid */
      , (44480, 16, 32,  0,    0,  510,  255,  255,  255,  255,  255,  255,  255,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso - Acid */
-     , (44480, 17, 32,750, 0.55,  510,  255,  255,  255,  255,  255,  255,  255,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail - Acid */
+     , (44480, 17, 32,750, 0.35,  510,  255,  255,  255,  255,  255,  255,  255,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail - Acid */
      , (44480, 21, 32,  0,    0,  510,  255,  255,  255,  255,  255,  255,  255,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings - Acid */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -105,7 +105,7 @@ VALUES (44480,  6, 0, 3, 0, 414, 0, 0) /* MeleeDefense         Specialized */
      , (44480, 33, 0, 3, 0, 218, 0, 0) /* LifeMagic            Specialized */
      , (44480, 34, 0, 3, 0, 218, 0, 0) /* WarMagic             Specialized */
      , (44480, 43, 0, 3, 0, 224, 0, 0) /* VoidMagic            Specialized */
-     , (44480, 45, 0, 3, 0, 457, 0, 0) /* LightWeapons         Specialized */;
+     , (44480, 45, 0, 3, 0, 557, 0, 0) /* LightWeapons         Specialized */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44480,  2022,   2.02) /* Soul Shroud */
