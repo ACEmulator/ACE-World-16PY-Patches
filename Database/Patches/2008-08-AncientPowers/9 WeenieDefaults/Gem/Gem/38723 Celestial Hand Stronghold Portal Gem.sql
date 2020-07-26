@@ -26,7 +26,8 @@ VALUES (38723,   1,       2048) /* ItemType - Gem */
      , (38723, 280,       1000) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38723,  69, False) /* IsSellable */;
+VALUES (38723,  23, True ) /* DestroyOnSell */
+     , (38723,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38723, 167,      15) /* CooldownDuration */;

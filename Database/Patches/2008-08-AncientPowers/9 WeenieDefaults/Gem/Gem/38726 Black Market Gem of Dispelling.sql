@@ -24,6 +24,9 @@ VALUES (38726,   1,       2048) /* ItemType - Gem */
      , (38726, 110,          0) /* ItemAllegianceRankLimit */
      , (38726, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (38726,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38726,  39,     1.2) /* DefaultScale */;
 
