@@ -18,7 +18,7 @@ Give: Corrupted Mana Shard (80306)
 
 Use:
     - TurnToTarget
-    - InqQuestBitsOn: SocietyFlag, 0x1
+    - InqQuestBitsOn: SocietyFlag, 0x2
         QuestSuccess:
             - InqQuestBitsOff: SocietyMember, 0x7
                 QuestSuccess:

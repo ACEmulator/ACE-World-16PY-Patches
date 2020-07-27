@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29108;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29108, 'aletuskerpus', 18, '2019-07-16 14:01:15') /* Food */;
+VALUES (29108, 'aletuskerpus', 18, '2020-07-25 14:01:15') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29108,   1,         32) /* ItemType - Food */
@@ -16,16 +16,12 @@ VALUES (29108,   1,         32) /* ItemType - Food */
      , (29108,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29108,  11, True ) /* IgnoreCollisions */
-     , (29108,  13, True ) /* Ethereal */
-     , (29108,  14, True ) /* GravityStatus */
-     , (29108,  19, True ) /* Attackable */
-     , (29108,  69, False) /* IsSellable */;
+VALUES (29108,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29108,   1, 'Tusker Pus') /* Name */
      , (29108,  14, 'Use this item to drink it.') /* Use */
-     , (29108,  16, 'Do not drink this. It will kill you.') /* LongDesc */
+     , (29108,  16, 'Do not drink this.') /* LongDesc */
      , (29108,  20, 'Bottles of Tusker Pus') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
