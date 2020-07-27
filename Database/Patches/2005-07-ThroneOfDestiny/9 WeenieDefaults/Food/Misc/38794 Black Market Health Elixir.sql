@@ -1,18 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38794;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38794, 'ace38794-blackmarkethealthelixir', 18, '2019-02-04 06:52:23') /* Food */;
+VALUES (38794, 'ace38794-blackmarkethealthelixir', 18, '2020-07-25 06:52:23') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38794,   1,        128) /* ItemType - Misc */
-     , (38794,   5,       1575) /* EncumbranceVal */
+     , (38794,   5,         75) /* EncumbranceVal */
      , (38794,  11,        100) /* MaxStackSize */
-     , (38794,  12,          7) /* StackSize */
+     , (38794,  12,          1) /* StackSize */
      , (38794,  16,          8) /* ItemUseable - Contained */
      , (38794,  18,          1) /* UiEffects - Magical */
-     , (38794,  19,    2100000) /* Value */
+     , (38794,  19,     100000) /* Value */
      , (38794,  33,          1) /* Bonded - Bonded */
-     , (38794,  53,        101) /* PlacementPosition */
      , (38794,  89,          2) /* BoosterEnum - Health */
      , (38794,  90,        300) /* BoostValue */
      , (38794,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -21,10 +20,7 @@ VALUES (38794,   1,        128) /* ItemType - Misc */
      , (38794, 280,          4) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38794,  11, True ) /* IgnoreCollisions */
-     , (38794,  13, True ) /* Ethereal */
-     , (38794,  14, True ) /* GravityStatus */
-     , (38794,  19, True ) /* Attackable */;
+VALUES (38794,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38794, 167,     300) /* CooldownDuration */;
