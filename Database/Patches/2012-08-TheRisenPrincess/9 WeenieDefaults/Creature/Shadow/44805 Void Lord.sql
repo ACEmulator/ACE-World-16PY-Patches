@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44805; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44805, 'ace44805-voidlord', 10, '2020-07-26 10:43:37') /* Creature */;
+VALUES (44805, 'ace44805-voidlord', 10, '2020-07-29 04:19:02') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44805,   1,         16) /* ItemType - Creature */
@@ -33,20 +33,20 @@ VALUES (44805,   1,       5) /* HeartbeatInterval */
      , (44805,   5,       1) /* ManaRate */
      , (44805,  12,     0.5) /* Shade */
      , (44805,  13,       1) /* ArmorModVsSlash */
-     , (44805,  14,     0.8) /* ArmorModVsPierce */
-     , (44805,  15,    0.85) /* ArmorModVsBludgeon */
-     , (44805,  16,     0.6) /* ArmorModVsCold */
-     , (44805,  17,     1.1) /* ArmorModVsFire */
-     , (44805,  18,     0.7) /* ArmorModVsAcid */
-     , (44805,  19,    0.75) /* ArmorModVsElectric */
-     , (44805,  31,      28) /* VisualAwarenessRange */
+     , (44805,  14,     1.4) /* ArmorModVsPierce */
+     , (44805,  15,    1.35) /* ArmorModVsBludgeon */
+     , (44805,  16,     1.4) /* ArmorModVsCold */
+     , (44805,  17,    0.82) /* ArmorModVsFire */
+     , (44805,  18,     1.7) /* ArmorModVsAcid */
+     , (44805,  19,    1.35) /* ArmorModVsElectric */
+     , (44805,  31,      35) /* VisualAwarenessRange */
      , (44805,  34,     1.1) /* PowerupTime */
      , (44805,  36,       1) /* ChargeSpeed */
      , (44805,  39,     1.3) /* DefaultScale */
-     , (44805,  64,       1) /* ResistSlash */
+     , (44805,  64,     0.7) /* ResistSlash */
      , (44805,  65,     0.5) /* ResistPierce */
-     , (44805,  66,     0.7) /* ResistBludgeon */
-     , (44805,  67,       1) /* ResistFire */
+     , (44805,  66,    0.35) /* ResistBludgeon */
+     , (44805,  67,    0.65) /* ResistFire */
      , (44805,  68,     0.1) /* ResistCold */
      , (44805,  69,     0.2) /* ResistAcid */
      , (44805,  70,     0.5) /* ResistElectric */
@@ -59,7 +59,8 @@ VALUES (44805,   1,       5) /* HeartbeatInterval */
      , (44805,  80,       3) /* AiUseMagicDelay */
      , (44805, 104,      10) /* ObviousRadarRange */
      , (44805, 122,       2) /* AiAcquireHealth */
-     , (44805, 125,       1) /* ResistHealthDrain */;
+     , (44805, 125,       1) /* ResistHealthDrain */
+     , (44805, 166,     0.9) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44805,   1, 'Void Lord') /* Name */
@@ -100,17 +101,17 @@ VALUES (44805,   1,  2000, 0, 0, 2200) /* MaxHealth */
      , (44805,   5,  2000, 0, 0, 2520) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (44805,  6, 0, 3, 0, 460, 0, 0) /* MeleeDefense         Specialized */
-     , (44805,  7, 0, 3, 0, 506, 0, 0) /* MissileDefense       Specialized */
+VALUES (44805,  6, 0, 3, 0, 540, 0, 0) /* MeleeDefense         Specialized */
+     , (44805,  7, 0, 3, 0, 606, 0, 0) /* MissileDefense       Specialized */
      , (44805, 14, 0, 3, 0, 320, 0, 0) /* ArcaneLore          Specialized */
      , (44805, 15, 0, 3, 0, 335, 0, 0) /* MagicDefense         Specialized */
      , (44805, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
      , (44805, 31, 0, 3, 0, 165, 0, 0) /* CreatureEnchantment  Specialized */
      , (44805, 33, 0, 3, 0, 170, 0, 0) /* LifeMagic            Specialized */
      , (44805, 43, 0, 3, 0, 175, 0, 0) /* VoidMagic            Specialized */
-     , (44805, 44, 0, 3, 0, 480, 0, 0) /* HeavyWeapons        Specialized */
-     , (44805, 45, 0, 3, 0, 480, 0, 0) /* LightWeapons        Specialized */
-     , (44805, 46, 0, 3, 0, 480, 0, 0) /* FinesseWeapons      Specialized */
+     , (44805, 44, 0, 3, 0, 510, 0, 0) /* HeavyWeapons         Specialized */
+     , (44805, 45, 0, 3, 0, 510, 0, 0) /* LightWeapons         Specialized */
+     , (44805, 46, 0, 3, 0, 510, 0, 0) /* FinesseWeapons       Specialized */
      , (44805, 48, 0, 3, 0, 100, 0, 0) /* Shield              Specialized */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
