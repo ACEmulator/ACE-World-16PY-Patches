@@ -1,3 +1,5 @@
+// Last Edit July 27th 2020
+// By Drid
 
 HeartBeat: Probability: 0.085, Style: NonCombat, Substyle: Ready
 	- Motion: Twitch1
@@ -11,7 +13,7 @@ HeartBeat: Probability: 0.15, Style: NonCombat, Substyle: Ready
 // Start Quest
 // ===================================================================
 
-// Give Mimosyne
+// Give Mnemosyne
 // ===================================================================
 
 Refuse: 43533
@@ -25,7 +27,7 @@ Refuse: 43533
 					- Delay: 0.5 Tell: You have completed the task I have set before you. Now, it is time for you to gain access to the Paths.
 					- Delay: 0.5 DirectBroadcast: %n touches your brow, and you feel a great upwelling of light and heat fill your entire form. Just when it feels like you may burst from the pressure inside you, the feeling fades down to a comfortable warmth.
 					- SetInt64Stat: MaximumLuminance = 1,500,000
-					- AwardLuminance: 1,500
+					- AwardLuminance: 15,000
 					- Delay: 0.5 Tell: Welcome into the Light. You now may gain inner Luminance from your adventures, if they be truly challenging to your strength.
 					- Delay: 0.5 Tell: This Luminance, in turn, may be used to empower both auras and items for your benefit.
 					- Delay: 0.5 Tell: You may always come to me, for the Path of the Yalain is open to all who have proven themselves to the Light.
@@ -33,7 +35,6 @@ Refuse: 43533
 					- Delay: 0.5 Tell: You must choose only one specialty path, for when you choose to walk one Path, you lose access to the others.
 					- Delay: 0.5 Tell: This book will explain the details.
 					- Give: 43534
-					- Give: Empyrean Robe (22123)
 					- StampQuest: OracleLuminanceRewardsAccess_1110
 					- EraseQuest: OracleLuminanceRewardsQuestStart_1110
 				TestFailure:

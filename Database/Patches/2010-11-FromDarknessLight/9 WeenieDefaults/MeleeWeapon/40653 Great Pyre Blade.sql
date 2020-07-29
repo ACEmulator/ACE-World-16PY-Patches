@@ -6,14 +6,16 @@ VALUES (40653, 'ace40653-greatpyreblade', 6, '2019-02-10 00:00:00') /* MeleeWeap
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40653,   1,          1) /* ItemType - MeleeWeapon */
      , (40653,   3,          2) /* PaletteTemplate - Blue */
-     , (40653,   5,       6400) /* EncumbranceVal */
+     , (40653,   5,        650) /* EncumbranceVal */
      , (40653,   9,   33554432) /* ValidLocations - TwoHanded */
      , (40653,  16,          1) /* ItemUseable - No */
-     , (40653,  18,        128) /* UiEffects - Frost */
-     , (40653,  19,        750) /* Value */
+     , (40653,  18,         32) /* UiEffects - Fire */
+     , (40653,  19,        340) /* Value */
      , (40653,  33,         -2) /* Bonded - Destroy */
-     , (40653,  44,         20) /* Damage */
-     , (40653,  45,          8) /* DamageType - Cold */
+     , (40653,  36,       9999) /* ResistMagic */
+     , (40653,  37,       9999) /* ResistItemAppraisal */
+     , (40653,  44,         60) /* Damage */
+     , (40653,  45,         16) /* DamageType - Fire */
      , (40653,  46,          8) /* DefaultCombatStyle - TwoHanded */
      , (40653,  47,          4) /* AttackType - Slash */
      , (40653,  48,         41) /* WeaponSkill - TwoHandedCombat */

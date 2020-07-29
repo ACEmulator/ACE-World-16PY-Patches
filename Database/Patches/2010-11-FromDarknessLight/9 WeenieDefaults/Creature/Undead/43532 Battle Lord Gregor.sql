@@ -95,6 +95,7 @@ VALUES (43532,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (43532, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
      , (43532, 33, 0, 3, 0, 260, 0, 0) /* LifeMagic           Specialized */
      , (43532, 34, 0, 3, 0, 260, 0, 0) /* WarMagic            Specialized */
+     , (43532, 41, 0, 2, 0, 250, 0, 0) /* TwoHandedCombat     Trained */
      , (43532, 45, 0, 3, 0, 345, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
@@ -107,31 +108,30 @@ VALUES (43532,  0,  4,  0,    0,  1000,  1000,  1000,  1000,  1000,  1000,  1000
      , (43532,  6,  4,  0,    0,  1000,  1000,  1000,  1000,  1000,  1000,  1000,  1000,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (43532,  7,  4,  0,    0,  1000,  1000,  1000,  1000,  1000,  1000,  1000,  1000,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (43532,  8,  4, 155, 0.75,  1000,  1000,  1000,  1000,  1000,  1000,  1000,  1000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-
+     
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43532,  2074,    2.1)  /* Gossamer Flesh */
-     , (43532,  2122,    2.1)  /* Disintegration */
-     , (43532,  2132,    2.1)  /* The Spike */
-     , (43532,  2136,    2.1)  /* Icy Torment */
-     , (43532,  2144,    2.1)  /* Crushing Shame */
-     , (43532,  2162,    2.1)  /* Olthoi's Gift */
-     , (43532,  2166,    2.1)  /* Tusker's Gift */
-     , (43532,  2168,    2.1)  /* Gelidite's Gift */
-     , (43532,  2174,    2.1)  /* Archer's Gift */;
+VALUES (43532,  3878,   2.02)  /* Incendiary Strike */
+     , (43532,  3882,   2.02)  /* Incendiary Ring */
+     , (43532,  3886,   2.02)  /* Magic Disarmament */
+     , (43532,  4423,   2.02)  /* Incantation of Flame Arc */
+     , (43532,  4424,   2.02)  /* Incantation of Force Arc */
+     , (43532,  4441,   2.02)  /* Incantation of Flame Volley */
+     , (43532,  4442,   2.02)  /* Incantation of Force Blast */
+     , (43532,  4443,   2.02)  /* Incantation of Force Bolt */
+     , (43532,  4445,   2.02)  /* Incantation of Force Volley */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES  (43532, 2,  40653,  1, 0, 1.0 , False) /* Great Pyre Blade */
-	 , (43532, 2,  22123,  1, 0, 1.0 , False) /* Empyrean Robe */
-	 , (43532, 9,  43533,  1, 0, 1.0 , False) /* Mnemosyne */
-	 , (43532, 9,  43533,  1, 0, 1.0 , False) /* Mnemosyne */
-	 , (43532, 9,  43533,  1, 0, 1.0 , False) /* Mnemosyne */
-	 , (43532, 9,  43533,  1, 0, 1.0 , False) /* Mnemosyne */
-	 , (43532, 9,  43533,  1, 0, 1.0 , False) /* Mnemosyne */
-	 , (43532, 9,  43533,  1, 0, 1.0 , False) /* Mnemosyne */
-	 , (43532, 9,  43533,  1, 0, 1.0 , False) /* Mnemosyne */
-	 , (43532, 9,  43533,  1, 0, 1.0 , False) /* Mnemosyne */
-	 , (43532, 9,  43533,  1, 0, 1.0 , False) /* Mnemosyne */								 
-	 , (43532, 2, 12211,  0, 0,   1, False) /* Create Undead Mask for wield */
- 	 , (43532, 2,     57,  1,93, 1.0 , False) /* Gloves */
-     , (43532, 9,  48746,  1, 0, 1.0 , False) /* Create Aged Legendary Key (48746) for ContainTreasure */;
+VALUES (43532, 2,  40653,  1, 0, 1.0, False) /* Great Pyre Blade for wield */
+	 , (43532, 10, 22123,  1, 2,   0, False) /* Empyrean Robe for wield treasure */
+     , (43532, 2,  12211,  0, 0,   1, False) /* Create Undead Mask for wield */
+ 	 , (43532, 2,     57,  1,14, 1.0, False) /* Gloves for wield*/
+	 , (43532, 9,  43533,  1, 0, 1.0, False) /* Battle Lord Mnemosyne for contain treasure */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (43532,  3 /* Death */,   1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 0, NULL, 'Fool. Killing me will not change anything back to what it was. It''s too late for that now.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
