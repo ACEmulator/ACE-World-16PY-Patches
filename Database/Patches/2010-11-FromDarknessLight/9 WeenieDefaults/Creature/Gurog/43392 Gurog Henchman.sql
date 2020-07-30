@@ -112,11 +112,9 @@ VALUES (43392,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,
      , (43392,  8,  4, 300,  0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43392,  2074,   2.01)  /* Gossamer Flesh */
-     , (43392,  2135,   2.01)  /* Winter's Embrace */
-     , (43392,  2136,   2.01)  /* Icy Torment */
-     , (43392,  2166,   2.01)  /* Tusker's Gift */
-     , (43392,  2168,   2.01)  /* Gelidite's Gift */;
+VALUES (43392,  4446,   2.02)  /* Incantation of Frost Blast */
+     , (43392,  4447,   2.02)  /* Incantation of Frost Bolt */
+     , (43392,  4479,   2.02)  /* Incantation of Cold Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43392, 9, 48746,  1, 0, 0.01, False) /* Create Aged Legendary Key (48746) for ContainTreasure */

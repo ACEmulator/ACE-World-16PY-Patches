@@ -121,15 +121,18 @@ VALUES (43690,  0,  4,  0,    0,  275,  275,  275,  275,  275,  275,  275,  275,
      , (43690,  8,  4, 155, 0.75, 275,  275,  275,  275,  275,  275,  275,  275,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43690,  2074,    2.1)  /* Gossamer Flesh */
-     , (43690,  2122,    2.1)  /* Disintegration */
-     , (43690,  2132,    2.1)  /* The Spike */
-     , (43690,  2136,    2.1)  /* Icy Torment */
-     , (43690,  2144,    2.1)  /* Crushing Shame */
-     , (43690,  2162,    2.1)  /* Olthoi's Gift */
-     , (43690,  2166,    2.1)  /* Tusker's Gift */
-     , (43690,  2168,    2.1)  /* Gelidite's Gift */
-     , (43690,  2174,    2.1)  /* Archer's Gift */;
+VALUES (43690,  1784,   2.02)  /* Horizon's Blades */
+     , (43690,  1787,   2.02)  /* Halo of Frost */
+     , (43690,  2074,   2.02)  /* Gossamer Flesh */
+     , (43690,  2168,   2.02)  /* Gelidite's Gift */
+     , (43690,  4312,   2.02)  /* Incantation of Imperil Other */
+     , (43690,  4422,   2.02)  /* Incantation of Blade Arc */
+     , (43690,  4425,   2.02)  /* Incantation of Frost Arc */
+     , (43690,  4446,   2.02)  /* Incantation of Frost Blast */
+     , (43690,  4447,   2.02)  /* Incantation of Frost Bolt */
+     , (43690,  4475,   2.02)  /* Incantation of Blade Vulnerability Other */
+     , (43690,  4489,   2.02)  /* Incantation of Fester Other */
+     , (43690,  5531,   2.02)  /* Bloodstone Bolt VII */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43690, 9, 48908,  1, 0, 0.01, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */

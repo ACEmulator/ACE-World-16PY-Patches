@@ -112,7 +112,7 @@ VALUES (43391,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,
      , (43391,  8,  4, 250, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43391,  2136,      2)  /* Icy Torment */
-     , (43391,  2166,      2)  /* Tusker's Gift */
-     , (43391,  2168,      2)  /* Gelidite's Gift */;
+VALUES (43391,  4446,   2.02)  /* Incantation of Frost Blast */
+     , (43391,  4447,   2.02)  /* Incantation of Frost Bolt */
+     , (43391,  4477,   2.02)  /* Incantation of Bludgeoning Vulnerability Other */;
 

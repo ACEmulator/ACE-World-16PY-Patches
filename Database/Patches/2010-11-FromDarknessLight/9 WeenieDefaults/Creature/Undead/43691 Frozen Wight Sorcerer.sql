@@ -124,6 +124,7 @@ VALUES (43691,  6193,    2.1)  /* Halo of Frost II */
      , (43691,  4446,    2.1)  /* Incantation of Frost Blast */
      , (43691,  4447,    2.1)  /* Incantation of Frost Bolt */
      , (43691,  2168,    2.1)  /* Gelidite's Gift */
+     , (43691,  5531,    2.1)  /* Bloodstone Bolt VII */
      , (43691,  4449,    2.1)  /* Incantation of Frost Volley */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

@@ -111,11 +111,9 @@ VALUES (43393,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,
      , (43393,  8,  4, 250, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43393,  2074,   2.011)  /* Gossamer Flesh */
-     , (43393,  2135,   2.017)  /* Winter's Embrace */
-     , (43393,  2136,   2.001)  /* Icy Torment */
-     , (43393,  2166,   2.011)  /* Tusker's Gift */
-     , (43393,  2168,   2.011)  /* Gelidite's Gift */;
+VALUES (43393,  4312,   2.02)  /* Incantation of Imperil Other */
+     , (43393,  4446,   2.02)  /* Incantation of Frost Blast */
+     , (43393,  4447,   2.02)  /* Incantation of Frost Bolt */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43393, 10, 43397,  0, 0, 1, False) /* Create Frost Great Axe (43397) for WieldTreasure */

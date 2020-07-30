@@ -123,10 +123,9 @@ VALUES (51316,  0,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,
      , (51316,  8,  4, 155, 0.75, 200,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51316,  2074,    2.1)  /* Gossamar Flesh */
-     , (51316,  2168,    2.1)  /* Geledites Gift */
-     , (51316,  2731,    2.1)  /* Frost Arc VII */;
-
+VALUES (51316,  2074,   2.02)  /* Gossamer Flesh */
+     , (51316,  2168,   2.02)  /* Gelidite's Gift */
+     , (51316,  4425,   2.02)  /* Incantation of Frost Arc */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51316, 9, 48746,    1, 0, 0.01, False) /* Create Aged Legendary Key (48746) for ContainTreasure */

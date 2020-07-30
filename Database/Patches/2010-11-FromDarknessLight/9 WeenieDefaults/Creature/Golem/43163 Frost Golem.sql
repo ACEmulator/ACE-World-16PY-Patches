@@ -115,11 +115,12 @@ VALUES (43163,  0,  4,  0,    0,  800,  275,  275,  225,  250,  400,  225,  400,
      , (43163,  8,  4, 400, 0.75,  800,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43163,  1065,   2.06)  /* Cold Vulnerability Other VI */
-     , (43163,  2074,   2.06)  /* Gossamer Flesh  */
-     , (43163,  1843,   2.06)  /* Foon-Ki's Glacial Floe */
-     , (43163,  2137,   2.06)  /* Sudden Frost  */
-     , (43163,  2135,   2.06)  /* Winter's Embrace  */;
+VALUES (43163,  1843,   2.02)  /* Foon-Ki's Glacial Floe */
+     , (43163,  2074,   2.02)  /* Gossamer Flesh */
+     , (43163,  2168,   2.02)  /* Gelidite's Gift */
+     , (43163,  4446,   2.02)  /* Incantation of Frost Blast */
+     , (43163,  4448,   2.02)  /* Incantation of Frost Streak */
+     , (43163,  4449,   2.02)  /* Incantation of Frost Volley */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (43163,  5 /* HeartBeat */,  0.075, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
