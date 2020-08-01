@@ -14,7 +14,7 @@ VALUES (38464,   1,          2) /* ItemType - Armor */
      , (38464,  27,         32) /* ArmorType - Metal */
      , (38464,  28,        150) /* ArmorLevel */
      , (38464,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38464, 150,        103) /* HookPlacement - Hook */     
+     , (38464, 150,        103) /* HookPlacement - Hook */
      , (38464, 151,          2) /* HookType - Wall */
      , (38464, 158,          9) /* WieldRequirements - IntStat */
      , (38464, 159,        287) /* WieldSkillType */
