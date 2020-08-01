@@ -1,6 +1,6 @@
 Give: Celestial Hand Initiate Armor Writ (38392)
     - TurnToTarget
-    - InqIntStat: SocietyRankCelhan, 601 - 1000
+    - InqIntStat: SocietyRankCelhan, 601 - 1001
         TestSuccess:
             - DirectBroadcast: %n reads over the writ.
             - Delay: 1, InqQuest: SocietyArmorWritWait
@@ -17,7 +17,7 @@ Give: Celestial Hand Initiate Armor Writ (38392)
 
 Give: Celestial Hand Armor Writ (38544)
     - TurnToTarget
-    - InqIntStat: SocietyRankCelhan, 601 - 1000
+    - InqIntStat: SocietyRankCelhan, 601 - 1001
         TestSuccess:
             - DirectBroadcast: %n reads over the writ.
             - Delay: 1, InqQuest: SocietyArmorWritWait
@@ -34,7 +34,7 @@ Give: Celestial Hand Armor Writ (38544)
 
 Use:
     - TurnToTarget
-    - InqIntStat: SocietyRankCelhan, 601 - 1000
+    - InqIntStat: SocietyRankCelhan, 601 - 1001
         TestSuccess:
             - Tell: If you bring me an Armor Writ from the Quartermaster, I can give you a key for my chest.
             - Tell: You can only receive one key in exchange for an Armor Writ every day, so choose wisely.
