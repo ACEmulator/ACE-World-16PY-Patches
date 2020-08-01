@@ -34,7 +34,7 @@ VALUES (38478,   5,  -0.067) /* ManaRate */
      , (38478,  17,     0.4) /* ArmorModVsFire */
      , (38478,  18,     0.6) /* ArmorModVsAcid */
      , (38478,  19,     0.4) /* ArmorModVsElectric */
-     , (38468,  39,    1.33) /* DefaultScale */
+     , (38478,  39,    1.33) /* DefaultScale */
      , (38478, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -47,4 +47,3 @@ VALUES (38478,   1,   33554656) /* Setup */
      , (38478,   7,  268437333) /* ClothingBase */
      , (38478,   8,  100674556) /* Icon */
      , (38478,  22,  872415275) /* PhysicsEffectTable */;
-

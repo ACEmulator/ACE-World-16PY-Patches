@@ -37,7 +37,7 @@ VALUES (38481,   5,  -0.067) /* ManaRate */
      , (38481, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38481,   1, 'Radiant Blood Breastplate') /* Name_String */
+VALUES (38481,   1, 'Radiant Blood Breastplate') /* Name */
      , (38481,  16, 'Radiant Blood Breastplate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -46,4 +46,3 @@ VALUES (38481,   1,   33554642) /* Setup */
      , (38481,   7,  268437317) /* ClothingBase */
      , (38481,   8,  100690223) /* Icon */
      , (38481,  22,  872415275) /* PhysicsEffectTable */;
-

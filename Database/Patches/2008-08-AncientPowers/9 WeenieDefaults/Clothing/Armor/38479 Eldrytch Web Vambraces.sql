@@ -14,7 +14,7 @@ VALUES (38479,   1,          2) /* ItemType - Armor */
      , (38479,  27,         32) /* ArmorType - Metal */
      , (38479,  28,        110) /* ArmorLevel */
      , (38479,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38479, 150,        103) /* HookPlacement - Hook */     
+     , (38479, 150,        103) /* HookPlacement - Hook */
      , (38479, 151,          2) /* HookType - Wall */
      , (38479, 158,          9) /* WieldRequirements - IntStat */
      , (38479, 159,        288) /* WieldSkillType */
@@ -46,4 +46,3 @@ VALUES (38479,   1,   33554641) /* Setup */
      , (38479,   7,  268437325) /* ClothingBase */
      , (38479,   8,  100674525) /* Icon */
      , (38479,  22,  872415275) /* PhysicsEffectTable */;
-

@@ -14,7 +14,7 @@ VALUES (38485,   1,          2) /* ItemType - Armor */
      , (38485,  27,         32) /* ArmorType - Metal */
      , (38485,  28,        150) /* ArmorLevel */
      , (38485,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38485, 150,        103) /* HookPlacement - Hook */     
+     , (38485, 150,        103) /* HookPlacement - Hook */
      , (38485, 151,          2) /* HookType - Wall */
      , (38485, 158,          9) /* WieldRequirements - IntStat */
      , (38485, 159,        289) /* WieldSkillType */
@@ -37,7 +37,7 @@ VALUES (38485,   5,  -0.067) /* ManaRate */
      , (38485, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38485,   1, 'Radiant Blood Helm') /* Name_String */
+VALUES (38485,   1, 'Radiant Blood Helm') /* Name */
      , (38485,  16, 'Radiant Blood Helm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -46,4 +46,3 @@ VALUES (38485,   1,   33560112) /* Setup */
      , (38485,   7,  268437321) /* ClothingBase */
      , (38485,   8,  100690226) /* Icon */
      , (38485,  22,  872415275) /* PhysicsEffectTable */;
-

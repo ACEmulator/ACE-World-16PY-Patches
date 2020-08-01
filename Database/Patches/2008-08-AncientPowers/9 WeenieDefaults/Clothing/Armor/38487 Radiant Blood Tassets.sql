@@ -34,11 +34,11 @@ VALUES (38487,   5,  -0.067) /* ManaRate */
      , (38487,  17,     0.4) /* ArmorModVsFire */
      , (38487,  18,     0.6) /* ArmorModVsAcid */
      , (38487,  19,     0.4) /* ArmorModVsElectric */
-     , (38468,  39,    1.33) /* DefaultScale */
+     , (38487,  39,    1.33) /* DefaultScale */
      , (38487, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38487,   1, 'Radiant Blood Tassets') /* Name_String */
+VALUES (38487,   1, 'Radiant Blood Tassets') /* Name */
      , (38487,  16, 'Radiant Blood Tassets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -47,4 +47,3 @@ VALUES (38487,   1,   33554656) /* Setup */
      , (38487,   7,  268437324) /* ClothingBase */
      , (38487,   8,  100690229) /* Icon */
      , (38487,  22,  872415275) /* PhysicsEffectTable */;
-

@@ -38,7 +38,7 @@ VALUES (38486,   5,  -0.067) /* ManaRate */
      , (38486, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38486,   1, 'Radiant Blood Pauldrons') /* Name_String */
+VALUES (38486,   1, 'Radiant Blood Pauldrons') /* Name */
      , (38486,  16, 'Radiant Blood Pauldrons') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -47,4 +47,3 @@ VALUES (38486,   1,   33554641) /* Setup */
      , (38486,   7,  268437322) /* ClothingBase */
      , (38486,   8,  100690227) /* Icon */
      , (38486,  22,  872415275) /* PhysicsEffectTable */;
-

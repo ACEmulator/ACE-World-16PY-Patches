@@ -14,7 +14,7 @@ VALUES (38483,   1,          2) /* ItemType - Armor */
      , (38483,  27,         32) /* ArmorType - Metal */
      , (38483,  28,        110) /* ArmorLevel */
      , (38483,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38483, 150,        103) /* HookPlacement - Hook */     
+     , (38483, 150,        103) /* HookPlacement - Hook */
      , (38483, 151,          2) /* HookType - Wall */
      , (38483, 158,          9) /* WieldRequirements - IntStat */
      , (38483, 159,        289) /* WieldSkillType */
@@ -37,7 +37,7 @@ VALUES (38483,   5,  -0.067) /* ManaRate */
      , (38483, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38483,   1, 'Radiant Blood Girth') /* Name_String */
+VALUES (38483,   1, 'Radiant Blood Girth') /* Name */
      , (38483,  16, 'Radiant Blood Girth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -46,4 +46,3 @@ VALUES (38483,   1,   33554647) /* Setup */
      , (38483,   7,  268437319) /* ClothingBase */
      , (38483,   8,  100690224) /* Icon */
      , (38483,  22,  872415275) /* PhysicsEffectTable */;
-
