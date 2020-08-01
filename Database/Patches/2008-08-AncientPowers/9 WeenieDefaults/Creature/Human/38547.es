@@ -15,6 +15,12 @@ Give: Celestial Hand Initiate Armor Writ (38392)
             - Tell: You must be at least a Lord within the Society to trade me an Armor Writ for my key to this chest, sorry.
             - Give: Celestial Hand Armor Writ (38544)
 
+Give: Celestial Hand Breastplate (38463)
+    - TurnToTarget
+    - Tell: This piece didn't meet your needs?
+    - Tell: Very well, I can recompense you for it. Here you go.
+    - Give: Celestial Hand Trade Token (38234), 5
+
 Give: Celestial Hand Armor Writ (38544)
     - TurnToTarget
     - InqIntStat: SocietyRankCelhan, 601 - 1001
