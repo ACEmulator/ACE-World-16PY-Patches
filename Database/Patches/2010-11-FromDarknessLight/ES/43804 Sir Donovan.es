@@ -74,6 +74,8 @@ Give: 43826 (Shattered Master Bloodstone Shard)
     - Delay: 1, AwardLevelProportionalXP: 20%, Min: 0, Max: 280,000,000
     - AwardLuminance: 40,000
     - AddCharacterTitle: 713
+    - EraseQuest: CanEnterLordKastellarsLab
+    - EraseQuest: CanEnterBloodstoneFactory
     - Give: 48746 (Aged Legendary Key)
     - Give: 43814 (Delicate Bloodstone Wand)
     - Tell: If you are not specialized in the use of Life Magics, I can reinforce the wand to make it a bit less delicate, but it'll weaken its effects slightly. Just hand it back to me and I'll do so.

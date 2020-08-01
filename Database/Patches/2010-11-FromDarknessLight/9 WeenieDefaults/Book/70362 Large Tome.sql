@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70362;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70362, 'ace70362-largetome', 8, '2020-06-17 02:35:15') /* Book */;
+VALUES (70362, 'ace70362-largetome', 8, '2020-08-01 02:35:15') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70362,   1,       8192) /* ItemType - Writable */
@@ -13,7 +13,8 @@ VALUES (70362,   1,       8192) /* ItemType - Writable */
      , (70362,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70362, 114,          1) /* Attuned - Attuned */
      , (70362, 174,          1) /* AppraisalPages */
-     , (70362, 175,          1) /* AppraisalMaxPages */;
+     , (70362, 175,          1) /* AppraisalMaxPages */
+     , (70362, 279,          1) /* Unique */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70362,  11, True ) /* IgnoreCollisions */
