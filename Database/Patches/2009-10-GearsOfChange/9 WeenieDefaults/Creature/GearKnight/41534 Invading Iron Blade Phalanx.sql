@@ -105,5 +105,7 @@ VALUES (41534, 2, 43132,  1, 0, 0, False) /* Create Gear Crossbow (43132) for Wi
      , (41534, 9, 42114,  1, 0, 0.05, False) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
      , (41534, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (41534, 9, 34276,  1, 0, 0.02, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */
-     , (41534, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+     , (41534, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (41534, 9, 51266,  1, 0, 0.20, False) /* Create Pile of Gearknight Parts (51266) for ContainTreasure */
+     , (41534, 9,     0,  1, 0, 0.80, False) /* Create nothing for ContainTreasure */;
 
