@@ -9,13 +9,13 @@ Give: Celestial Hand Initiate Armor Writ (38392)
                     - Give: Celestial Hand Initiate Armor Writ (38392)
                 QuestFailure:
                     - Tell: Everything seems to be in order, here you go.
-                    - Give: Celestial Hand Breastplate Key (38517)
+                    - Give: Celestial Hand Girth Key (38523)
                     - StampQuest: SocietyArmorWritWait
         TestFailure:
             - Tell: You must be at least a Lord within the Society to trade me an Armor Writ for my key to this chest, sorry.
             - Give: Celestial Hand Initiate Armor Writ (38392)
 
-Give: Celestial Hand Breastplate (38463)
+Give: Celestial Hand Girth (38465)
     - TurnToTarget
     - Tell: This piece didn't meet your needs?
     - Tell: Very well, I can recompense you for it. Here you go.
@@ -32,7 +32,7 @@ Give: Celestial Hand Armor Writ (38544)
                     - Give: Celestial Hand Armor Writ (38544)
                 QuestFailure:
                     - Tell: Everything seems to be in order, here you go.
-                    - Give: Celestial Hand Breastplate Key (38517)
+                    - Give: Celestial Hand Girth Key (38523)
                     - StampQuest: SocietyArmorWritWait
         TestFailure:
             - Tell: You must be at least a Lord within the Society to trade me an Armor Writ for my key to this chest, sorry.
