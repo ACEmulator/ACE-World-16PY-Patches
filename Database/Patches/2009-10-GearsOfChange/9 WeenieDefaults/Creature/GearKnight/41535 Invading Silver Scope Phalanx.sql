@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41535;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41535, 'ace41535-invadingsilverscopephalanx', 10, '2020-04-13 19:55:08') /* Creature */;
+VALUES (41535, 'ace41535-invadingsilverscopephalanx', 10, '2020-08-02 19:55:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41535,   1,         16) /* ItemType - Creature */
@@ -15,10 +15,7 @@ VALUES (41535,   1,         16) /* ItemType - Creature */
      , (41535, 146,     250000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41535,   1, True ) /* Stuck */
-     , (41535,  12, True ) /* ReportCollisions */
-     , (41535,  14, True ) /* GravityStatus */
-     , (41535,  19, True ) /* Attackable */;
+VALUES (41535,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41535,   1,       5) /* HeartbeatInterval */
@@ -47,7 +44,8 @@ VALUES (41535,   1,       5) /* HeartbeatInterval */
      , (41535,  70,     1.2) /* ResistElectric */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41535,   1, 'Invading Silver Scope Phalanx') /* Name */;
+VALUES (41535,   1, 'Invading Silver Scope Phalanx') /* Name */
+     , (41535,  45, 'GearknightInvasionPhalanxKilltask_0513') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41535,   1,   33560844) /* Setup */

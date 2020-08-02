@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41533;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41533, 'ace41533-invadingcoppercogphalanx', 10, '2020-01-26 15:56:13') /* Creature */;
+VALUES (41533, 'ace41533-invadingcoppercogphalanx', 10, '2020-08-02 15:56:13') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41533,   1,         16) /* ItemType - Creature */
@@ -15,10 +15,7 @@ VALUES (41533,   1,         16) /* ItemType - Creature */
      , (41533, 146,     250000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41533,   1, True ) /* Stuck */
-     , (41533,  12, True ) /* ReportCollisions */
-     , (41533,  14, True ) /* GravityStatus */
-     , (41533,  19, True ) /* Attackable */;
+VALUES (41533,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41533,   1,       5) /* HeartbeatInterval */
@@ -47,7 +44,8 @@ VALUES (41533,   1,       5) /* HeartbeatInterval */
      , (41533,  70,     1.2) /* ResistElectric */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41533,   1, 'Invading Copper Cog Phalanx') /* Name */;
+VALUES (41533,   1, 'Invading Copper Cog Phalanx') /* Name */
+     , (41533,  45, 'GearknightInvasionPhalanxKilltask_0513') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41533,   1,   33560842) /* Setup */
