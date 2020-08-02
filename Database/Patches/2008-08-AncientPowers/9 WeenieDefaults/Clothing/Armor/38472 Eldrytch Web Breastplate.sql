@@ -19,6 +19,7 @@ VALUES (38472,   1,          2) /* ItemType - Armor */
      , (38472, 158,          9) /* WieldRequirements - IntStat */
      , (38472, 159,        288) /* WieldSkillType */
      , (38472, 160,        601) /* WieldDifficulty */
+     , (38472, 169,  118097668) /* TsysMutationData */
      , (38472, 265,         30) /* EquipmentSetId - SocietyArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
