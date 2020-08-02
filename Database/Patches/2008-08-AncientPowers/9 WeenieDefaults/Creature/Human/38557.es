@@ -13,7 +13,7 @@ Give: Eldrytch Web Initiate Armor Writ (38393)
                     - StampQuest: SocietyArmorWritWait
         TestFailure:
             - Tell: You must be at least a Initiate within the Society to trade me an Armor Writ for my key to this chest, sorry.
-            - Give: Eldrytch Web Initiate Armor Writ (38392)
+            - Give: Eldrytch Web Initiate Armor Writ (38393)
 
 Give: Eldrytch Web Gauntlets (38473)
     - TurnToTarget
@@ -36,7 +36,7 @@ Give: Eldrytch Web Armor Writ (38545)
                     - StampQuest: SocietyArmorWritWait
         TestFailure:
             - Tell: You must be at least a Initiate within the Society to trade me an Armor Writ for my key to this chest, sorry.
-            - Give: Eldrytch Web Armor Writ (38544)
+            - Give: Eldrytch Web Armor Writ (38545)
 
 Use:
     - TurnToTarget
