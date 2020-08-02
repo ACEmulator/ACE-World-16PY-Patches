@@ -45,4 +45,5 @@ VALUES (38476,   1,   33560112) /* Setup */
      , (38476,   3,  536870932) /* SoundTable */
      , (38476,   7,  268437330) /* ClothingBase */
      , (38476,   8,  100690248) /* Icon */
-     , (38476,  22,  872415275) /* PhysicsEffectTable */;
+     , (38476,  22,  872415275) /* PhysicsEffectTable */
+     , (38476,  36,  234881042) /* MutateFilter */;
