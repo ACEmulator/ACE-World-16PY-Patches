@@ -104,6 +104,8 @@ VALUES (41533, 9, 41528,  1, 0, 0.35, False) /* Create Aetherium Power Core (415
      , (41533, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (41533, 9, 34276,  1, 0, 0.02, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */
      , (41533, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (41533, 9, 51266,  1, 0, 0.20, False) /* Create Pile of Gearknight Parts (51266) for ContainTreasure */
+     , (41533, 9,     0,  1, 0, 0.80, False) /* Create nothing for ContainTreasure */
      , (41533, 10, 41237,  1, 0, 0.2, False) /* Create Gearknight Sword (41237) for WieldTreasure */
      , (41533, 10, 41246,  1, 0, 0.2, False) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
      , (41533, 10, 41247,  1, 0, 0.2, False) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
