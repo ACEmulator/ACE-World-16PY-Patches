@@ -12,7 +12,7 @@ INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `en
 VALUES (@parent_id, 0,   1, 'Radiant Blood Breastplate', 1, 1) /* On Source.SuccessTarget SetValue Name to Target */;
 
 INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 1,   7, 268437531, 1, 1) /* On Source.SuccessTarget SetValue ClothingBase to Target */
+VALUES (@parent_id, 0,   7, 268437531, 1, 1) /* On Source.SuccessTarget SetValue ClothingBase to Target */
      , (@parent_id, 0,   8, 100690223, 1, 1) /* On Source.SuccessTarget SetValue Icon to Target */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8312;
