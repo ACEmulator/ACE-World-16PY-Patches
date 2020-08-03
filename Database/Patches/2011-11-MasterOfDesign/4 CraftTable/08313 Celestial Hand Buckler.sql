@@ -14,7 +14,7 @@ VALUES (@parent_id, 0, 276, 9, 1, 1) /* On Source.SuccessTarget SetValue WieldRe
      , (@parent_id, 0, 278, 1, 1, 1) /* On Source.SuccessTarget SetValue WieldDifficulty4 1 to Target */;
 
 INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,   1, 'Celestial Hand Buckler', 1, 1) /* On Source.SuccessTarget SetValue Name to Target */;
+VALUES (@parent_id, 0,   1, 'Celestial Hand Buckler', 1, 1) /* On Source.SuccessTarget SetValue Name to Target */
      , (@parent_id, 0,  16, 'Buckler, bearing the heraldry of the Celestial Hand', 1, 1) /* On Source.SuccessTarget SetValue LongDesc to Target */;
 
 INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
