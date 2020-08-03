@@ -8,12 +8,18 @@ VALUES (8301, True, 0, 0, 0, True, 0, 0, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
+INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 0, 276, 9, 1, 1) /* On Source.SuccessTarget SetValue WieldRequirements4 - IntStat to Target */
+     , (@parent_id, 0, 277, 287, 1, 1) /* On Source.SuccessTarget SetValue WieldSkillType4 287 to Target */
+     , (@parent_id, 0, 278, 1, 1, 1) /* On Source.SuccessTarget SetValue WieldDifficulty4 1 to Target */;
+
 INSERT INTO `recipe_mods_string` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,   1, NULL, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget Name to Target */;
+VALUES (@parent_id, 0,   1, NULL, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget Name to Target */
+     , (@parent_id, 0,   16, 'Cloak, bearing the heraldry of the Celestial Hand', 1, 1) /* On Source.SuccessTarget SetValue LongDesc to Target */;
 
 INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id, 1,   7, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget ClothingBase to Target */
-     , (@parent_id, 0,   8, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget Icon to Target */;
+     , (@parent_id, 1,   8, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget Icon to Target */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8301;
 
