@@ -18,7 +18,8 @@ VALUES (@parent_id, 0,   1, 'Celestial Hand Buckler', 1, 1) /* On Source.Success
      , (@parent_id, 0,  16, 'Buckler, bearing the heraldry of the Celestial Hand', 1, 1) /* On Source.SuccessTarget SetValue LongDesc to Target */;
 
 INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 1,   7, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget ClothingBase to Target */
+VALUES (@parent_id, 1,   1, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget Setup to Target */
+     , (@parent_id, 1,   7, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget ClothingBase to Target */
      , (@parent_id, 1,   8, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget Icon to Target */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8313;
