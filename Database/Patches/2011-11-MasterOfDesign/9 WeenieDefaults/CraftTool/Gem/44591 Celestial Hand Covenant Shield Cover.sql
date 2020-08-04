@@ -24,7 +24,7 @@ VALUES (44591,  39,     0.75) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44591,   1, 'Celestial Hand Covenant Shield Cover') /* Name */
-     , (44591,  14, 'Use this applier to tailor the Celestial Hand emblem onto any enchantable loot-generated shield.') /* Use */
+     , (44591,  14, 'Use this applier to tailor the Celestial Hand emblem onto any unenchantable loot-generated shield.') /* Use */
      , (44591,  16, 'A shield cover enchanted to fit over shields of many shapes and sizes. WARNING: Once this cover is used on a shield, it will make the shield only wieldable by a member of the Celestial Hand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
