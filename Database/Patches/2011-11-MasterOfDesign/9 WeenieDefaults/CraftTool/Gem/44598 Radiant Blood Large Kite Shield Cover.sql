@@ -28,7 +28,7 @@ VALUES (44598,   1, 'Radiant Blood Large Kite Shield Cover') /* Name */
      , (44598,  16, 'A shield cover enchanted to fit over shields of many shapes and sizes. WARNING: Once this cover is used on a shield, it will make the shield only wieldable by a member of the Radiant Blood.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44598,   1,   33561273) /* Setup */
+VALUES (44598,   1,   33561275) /* Setup */
      , (44598,   3,  536870932) /* SoundTable */
      , (44598,   6,   67111919) /* PaletteBase */
      , (44598,   7,  268437471) /* ClothingBase */
