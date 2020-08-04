@@ -7,7 +7,3 @@ DELETE FROM `cook_book` WHERE `recipe_Id` = 8630;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
 VALUES (8630, 9295 /* Intricate Carving Tool */,  42348 /* Black Coral Heart */, '2005-02-09 10:00:00');
-
-
-
-
