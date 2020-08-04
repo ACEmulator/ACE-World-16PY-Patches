@@ -7,8 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41547,   1,         16) /* ItemType - Creature */
      , (41547,   2,         40) /* CreatureType - Unknown */
      , (41547,   5,          0) /* EncumbranceVal */
-     , (41547,   6,        255) /* ItemsCapacity */
-     , (41547,   7,        255) /* ContainersCapacity */
+     , (41547,   6,         -1) /* ItemsCapacity */
+     , (41547,   7,         -1) /* ContainersCapacity */
      , (41547,  16,         32) /* ItemUseable - Remote */
      , (41547,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (41547,  95,          3) /* RadarBlipColor - White */
