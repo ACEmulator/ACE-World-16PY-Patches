@@ -23,8 +23,7 @@ VALUES (48954,   1,        128) /* ItemType - Misc */
      , (48954,  94,      16384) /* TargetType - Key */
 	 , (48954, 114,          0) /* Attuned - Normal */
      , (48954, 150,        103) /* HookPlacement - Hook */
-     , (48954, 151,          2) /* HookType - Wall */
-     , (48954, 193,          0) /* NumKeys */;
+     , (48954, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48954,   1, False) /* Stuck */

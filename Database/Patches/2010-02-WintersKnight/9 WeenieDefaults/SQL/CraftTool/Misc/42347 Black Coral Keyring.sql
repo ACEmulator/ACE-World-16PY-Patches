@@ -22,8 +22,7 @@ VALUES (42347,   1,        128) /* ItemType - Misc */
      , (42347,  94,      16384) /* TargetType - Key */
      , (42347, 114,          0) /* Attuned - Normal */
      , (42347, 150,        103) /* HookPlacement - Hook */
-     , (42347, 151,          2) /* HookType - Wall */
-     , (42347, 193,          0) /* NumKeys */;
+     , (42347, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42347,  22, True ) /* Inscribable */
