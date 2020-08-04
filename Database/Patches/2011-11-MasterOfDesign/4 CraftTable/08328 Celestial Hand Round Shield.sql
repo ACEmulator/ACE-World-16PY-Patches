@@ -22,7 +22,15 @@ VALUES (@parent_id, 1,   1, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceTo
      , (@parent_id, 1,   7, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget ClothingBase to Target */
      , (@parent_id, 1,   8, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget Icon to Target */;
 
+INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 1,  39, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget DefaultScale to Target */;
+
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8328;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8328, 44603 /* Celestial Hand Round Shield Cover */, 93 /* Round Shield */, '2020-07-25 10:00:00');
+VALUES (8328, 44603 /* Celestial Hand Round Shield Cover */, 44 /* Buckler */, '2020-07-25 10:00:00')
+     , (8328, 44603 /* Celestial Hand Round Shield Cover */, 91 /* Kite Shield */, '2020-07-25 10:00:00')
+     , (8328, 44603 /* Celestial Hand Round Shield Cover */, 92 /* Large Kite Shield */, '2020-07-25 10:00:00')
+     , (8328, 44603 /* Celestial Hand Round Shield Cover */, 93 /* Round Shield */, '2020-07-25 10:00:00')
+     , (8328, 44603 /* Celestial Hand Round Shield Cover */, 94 /* Large Round Shield */, '2020-07-25 10:00:00')
+     , (8328, 44603 /* Celestial Hand Round Shield Cover */, 95 /* Tower Shield */, '2020-07-25 10:00:00');

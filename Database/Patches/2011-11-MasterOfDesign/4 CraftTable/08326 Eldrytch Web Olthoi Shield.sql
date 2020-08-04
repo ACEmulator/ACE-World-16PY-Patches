@@ -22,7 +22,11 @@ VALUES (@parent_id, 1,   1, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceTo
      , (@parent_id, 1,   7, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget ClothingBase to Target */
      , (@parent_id, 1,   8, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget Icon to Target */;
 
+INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 1,  39, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget DefaultScale to Target */;
+
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8326;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8326, 44601 /* Eldrytch Web Olthoi Shield Cover */, 37291 /* Olthoi Shield */, '2020-07-25 10:00:00');
+VALUES (8326, 44601 /* Eldrytch Web Olthoi Shield Cover */, 21158 /* Covenant Shield */, '2020-07-25 10:00:00')
+     , (8326, 44601 /* Eldrytch Web Olthoi Shield Cover */, 37291 /* Olthoi Shield */, '2020-07-25 10:00:00');

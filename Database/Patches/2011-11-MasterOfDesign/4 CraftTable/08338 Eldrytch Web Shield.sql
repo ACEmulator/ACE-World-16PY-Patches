@@ -33,6 +33,4 @@ VALUES (8338, 44610 /* Eldrytch Web Kite Shield Cover */, 44 /* Buckler */, '202
      , (8338, 44610 /* Eldrytch Web Kite Shield Cover */, 92 /* Large Kite Shield */, '2020-07-25 10:00:00')
      , (8338, 44610 /* Eldrytch Web Kite Shield Cover */, 93 /* Round Shield */, '2020-07-25 10:00:00')
      , (8338, 44610 /* Eldrytch Web Kite Shield Cover */, 94 /* Large Round Shield */, '2020-07-25 10:00:00')
-     , (8338, 44610 /* Eldrytch Web Kite Shield Cover */, 95 /* Tower Shield */, '2020-07-25 10:00:00')
-     , (8338, 44610 /* Eldrytch Web Kite Shield Cover */, 21158 /* Covenant Shield */, '2020-07-25 10:00:00')
-     , (8338, 44610 /* Eldrytch Web Kite Shield Cover */, 37291 /* Olthoi Shield */, '2020-07-25 10:00:00');
+     , (8338, 44610 /* Eldrytch Web Kite Shield Cover */, 95 /* Tower Shield */, '2020-07-25 10:00:00');
