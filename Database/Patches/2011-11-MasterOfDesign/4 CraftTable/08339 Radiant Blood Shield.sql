@@ -28,9 +28,9 @@ VALUES (@parent_id, 1,  39, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceTo
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8339;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8339, 44611 /* Radiant Blood Shield Cover */, 44 /* Buckler */, '2020-07-25 10:00:00')
-     , (8339, 44611 /* Radiant Blood Shield Cover */, 91 /* Kite Shield */, '2020-07-25 10:00:00')
-     , (8339, 44611 /* Radiant Blood Shield Cover */, 92 /* Large Kite Shield */, '2020-07-25 10:00:00')
-     , (8339, 44611 /* Radiant Blood Shield Cover */, 93 /* Round Shield */, '2020-07-25 10:00:00')
-     , (8339, 44611 /* Radiant Blood Shield Cover */, 94 /* Large Round Shield */, '2020-07-25 10:00:00')
-     , (8339, 44611 /* Radiant Blood Shield Cover */, 95 /* Tower Shield */, '2020-07-25 10:00:00');
+VALUES (8339, 44468 /* Radiant Blood Shield Cover */, 44 /* Buckler */, '2020-07-25 10:00:00')
+     , (8339, 44468 /* Radiant Blood Shield Cover */, 91 /* Kite Shield */, '2020-07-25 10:00:00')
+     , (8339, 44468 /* Radiant Blood Shield Cover */, 92 /* Large Kite Shield */, '2020-07-25 10:00:00')
+     , (8339, 44468 /* Radiant Blood Shield Cover */, 93 /* Round Shield */, '2020-07-25 10:00:00')
+     , (8339, 44468 /* Radiant Blood Shield Cover */, 94 /* Large Round Shield */, '2020-07-25 10:00:00')
+     , (8339, 44468 /* Radiant Blood Shield Cover */, 95 /* Tower Shield */, '2020-07-25 10:00:00');

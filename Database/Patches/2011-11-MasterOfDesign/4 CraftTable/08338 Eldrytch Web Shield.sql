@@ -28,9 +28,9 @@ VALUES (@parent_id, 1,  39, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceTo
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8338;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8338, 44610 /* Eldrytch Web Kite Shield Cover */, 44 /* Buckler */, '2020-07-25 10:00:00')
-     , (8338, 44610 /* Eldrytch Web Kite Shield Cover */, 91 /* Kite Shield */, '2020-07-25 10:00:00')
-     , (8338, 44610 /* Eldrytch Web Kite Shield Cover */, 92 /* Large Kite Shield */, '2020-07-25 10:00:00')
-     , (8338, 44610 /* Eldrytch Web Kite Shield Cover */, 93 /* Round Shield */, '2020-07-25 10:00:00')
-     , (8338, 44610 /* Eldrytch Web Kite Shield Cover */, 94 /* Large Round Shield */, '2020-07-25 10:00:00')
-     , (8338, 44610 /* Eldrytch Web Kite Shield Cover */, 95 /* Tower Shield */, '2020-07-25 10:00:00');
+VALUES (8338, 44467 /* Eldrytch Web Kite Shield Cover */, 44 /* Buckler */, '2020-07-25 10:00:00')
+     , (8338, 44467 /* Eldrytch Web Kite Shield Cover */, 91 /* Kite Shield */, '2020-07-25 10:00:00')
+     , (8338, 44467 /* Eldrytch Web Kite Shield Cover */, 92 /* Large Kite Shield */, '2020-07-25 10:00:00')
+     , (8338, 44467 /* Eldrytch Web Kite Shield Cover */, 93 /* Round Shield */, '2020-07-25 10:00:00')
+     , (8338, 44467 /* Eldrytch Web Kite Shield Cover */, 94 /* Large Round Shield */, '2020-07-25 10:00:00')
+     , (8338, 44467 /* Eldrytch Web Kite Shield Cover */, 95 /* Tower Shield */, '2020-07-25 10:00:00');
