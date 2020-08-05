@@ -1,5 +1,5 @@
-// Last Edit July 27th 2020
-// By Drid
+// Last Edit August 5th 2020
+// By Ripley
 
 HeartBeat: Probability: 0.085, Style: NonCombat, Substyle: Ready
 	- Motion: Twitch1
@@ -20,25 +20,21 @@ Refuse: 43533
 	- TurnToTarget:
 	- InqQuest: OracleLuminanceRewardsQuestStart_1110
 		QuestSuccess:
-			- InqOwnsItems: 43533
-				TestSuccess:
-					- TakeItems: 43533
-					- Delay: 0.5 Tell: Thank you for this. Lord Asheron should be able to learn much from it, to help counter Geraine's mad schemes
-					- Delay: 0.5 Tell: You have completed the task I have set before you. Now, it is time for you to gain access to the Paths.
-					- Delay: 0.5 DirectBroadcast: %n touches your brow, and you feel a great upwelling of light and heat fill your entire form. Just when it feels like you may burst from the pressure inside you, the feeling fades down to a comfortable warmth.
-					- SetInt64Stat: MaximumLuminance = 1,500,000
-					- AwardLuminance: 15,000
-					- Delay: 0.5 Tell: Welcome into the Light. You now may gain inner Luminance from your adventures, if they be truly challenging to your strength.
-					- Delay: 0.5 Tell: This Luminance, in turn, may be used to empower both auras and items for your benefit.
-					- Delay: 0.5 Tell: You may always come to me, for the Path of the Yalain is open to all who have proven themselves to the Light.
-					- Delay: 0.5 Tell: In addition, you may also seek out one of the more... specialized... paths from the history of the Empyrean.
-					- Delay: 0.5 Tell: You must choose only one specialty path, for when you choose to walk one Path, you lose access to the others.
-					- Delay: 0.5 Tell: This book will explain the details.
-					- Give: 43534
-					- StampQuest: OracleLuminanceRewardsAccess_1110
-					- EraseQuest: OracleLuminanceRewardsQuestStart_1110
-				TestFailure:
-					- Delay: 0.1, Tell: Come back when you have the Possess Battle Lord Gregor's Mnemosyne.
+            - TakeItems: 43533
+            - Delay: 0.5 Tell: Thank you for this. Lord Asheron should be able to learn much from it, to help counter Geraine's mad schemes
+            - Delay: 0.5 Tell: You have completed the task I have set before you. Now, it is time for you to gain access to the Paths.
+            - Delay: 0.5 DirectBroadcast: %n touches your brow, and you feel a great upwelling of light and heat fill your entire form. Just when it feels like you may burst from the pressure inside you, the feeling fades down to a comfortable warmth.
+            - SetInt64Stat: MaximumLuminance = 1,500,000
+            - AwardLuminance: 15,000
+            - Delay: 0.5 Tell: Welcome into the Light. You now may gain inner Luminance from your adventures, if they be truly challenging to your strength.
+            - Delay: 0.5 Tell: This Luminance, in turn, may be used to empower both auras and items for your benefit.
+            - Delay: 0.5 Tell: You may always come to me, for the Path of the Yalain is open to all who have proven themselves to the Light.
+            - Delay: 0.5 Tell: In addition, you may also seek out one of the more... specialized... paths from the history of the Empyrean.
+            - Delay: 0.5 Tell: You must choose only one specialty path, for when you choose to walk one Path, you lose access to the others.
+            - Delay: 0.5 Tell: This book will explain the details.
+            - Give: 43534
+            - StampQuest: OracleLuminanceRewardsAccess_1110
+            - EraseQuest: OracleLuminanceRewardsQuestStart_1110
 		QuestFailure:
 			- Delay: 0.5, Tell: You have already gained access to the Paths of the Empyrean, and may earn Luminance. I have no other reward to offer you for this.
 
@@ -48,7 +44,7 @@ Use:
 	- TurnToTarget:
 	// Over Level 200
 	- InqIntStat: Level, 200 - 999
-		
+
 		TestSuccess:
 			- InqQuest: OracleLuminanceRewardsAccess_1110
 				// Finished quest and point to Lum Award
@@ -78,26 +74,23 @@ Use:
 					- InqOwnsItems: 45682
 						TestFailure:
 							- Give: 45682
-							
+
 		// Under Level 200
 		TestFailure:
 			- DirectBroadcast: %n looks you over carefully.
 			- Delay: 0.5 Tell: Greetings, young one. While I am pleased to meet you, you are not yet strong enough for what the Light can offer. Gain in experience, and return to me later.
 			- Delay: 0.5 Tell: May the Light go with you.
-			
+
 // ===================================================================
-			
-Refuse: 44105
+
+Give: 44105
 	- TurnToTarget:
-	- Tell: Token of the Augmentation Gem
-	- Tell: Your cost is 100,000 Luminance.
-	- TakeItems: 44105
 	- InqQuest: BlankAugLuminanceTimer_0511
 		QuestSuccess:
 			- Tell: Your Timer is not up.
 			- Delay: 1, DirectBroadcast: BlankAugLuminanceTimer_0511@%tqt
 		QuestFailure:
-			- InqInt64Stat: AvailableLuminance, 100,000 
+			- InqInt64Stat: AvailableLuminance, 100,000
 				TestSuccess:
 					- InqYesNo: Do you wish to spend 100,000 Luminance to receive a Blank Augmentation Gem?
 						TestSuccess:
@@ -124,27 +117,26 @@ Refuse: Blank Augmentation Gem (29295)
 					- DirectBroadcast: You decline to empower yourself at this time.
 		TestFailure:
 			- Tell: You do not have a Blank Augmentation Gem!
-			
+
 // ===================================================================
 
 // Token of Skill
-Refuse: 43462
+Give: 43462
 	- TurnToTarget
 	- Tell: Increases the effective skill level of all your skills by 1 point
-	- TakeItems: 43462	
 	- Goto: 43462_2
 
-// Has Quest Been Solved Twice?	
+// Has Quest Been Solved Twice?
 GotoSet: 43462_2
 	- InqQuestSolves: LumAugSkillQuest, 2
 		QuestFailure:
 			- Goto: 43462_1
 		QuestSuccess:
-			- Tell: You have maxxed out Skill Augmentation.		
+			- Tell: You have maxxed out Skill Augmentation.
 
-// Has Quest Been Solved Once?		
+// Has Quest Been Solved Once?
 GotoSet: 43462_1
-	- InqQuestSolves: LumAugSkillQuest, 1 
+	- InqQuestSolves: LumAugSkillQuest, 1
 		QuestFailure:
 			- Goto: 43462_0
 		QuestSuccess:
@@ -158,13 +150,13 @@ GotoSet: 43462_1
 							- StampQuest: LumAugSkillQuest
 							- Delay: 1, AwardTrainingCredits: 1
 							- Delay: 2, DirectBroadcast: You have gained a skill point!
-							- Tell: Your Token of Skill has been augmented the second time						
+							- Tell: Your Token of Skill has been augmented the second time
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
-					- Tell: You do not have enough Luminance	
+					- Tell: You do not have enough Luminance
 
-// First time solving quest		
+// First time solving quest
 GotoSet: 43462_0
 	- Tell: This will be the first time you have used the token of Skill to give you a skill credit.
 	- Tell: Your cost is 1,000,000 Luminance.
@@ -172,16 +164,15 @@ GotoSet: 43462_0
 		TestSuccess:
 			- InqYesNo: This will be the first time you have used the token of Skill to give you a skill credit. Your cost is 1,000,000 Luminance. Do you want to continue?
 				TestSuccess:
-					- TakeItems: 43462
 					- SpendLuminance: 1,000,000
 					- StampQuest: LumAugSkillQuest
 					- Delay: 1, AwardTrainingCredits: 1
 					- Delay: 2, DirectBroadcast: You have gained a skill point!
-					- Tell: Your Token of Skill has been augmented the first time						
+					- Tell: Your Token of Skill has been augmented the first time
 				TestFailure:
 					- Tell: Come back when you are ready to make a decision.
 		TestFailure:
-			- Tell: You do not have enough Luminance	
+			- Tell: You do not have enough Luminance
 
 // ===================================================================
 
@@ -189,18 +180,17 @@ GotoSet: 43462_0
 // LumAugAllSkills
 // Aura of the World
 
-Refuse: 49521
+Give: 49521
 	- TurnToTarget:
 	- Tell: Increases the effective skill level of all your skills by 1 point
-	- TakeItems: 49521
 	- Goto: 49521_10
-	
+
 GotoSet: 49521_10
 	- InqIntStat: LumAugAllSkills, 10
 		TestFailure:
 			- Goto: 49521_9
 		TestSuccess:
-			- Tell: You have maxxed out increases to Aura of the World.		
+			- Tell: You have maxxed out increases to Aura of the World.
 
 GotoSet: 49521_9
 	- InqIntStat: LumAugAllSkills, 9
@@ -215,11 +205,11 @@ GotoSet: 49521_9
 						TestSuccess:
 							- SpendLuminance: 1,000,000
 							- IncrementIntStat: LumAugAllSkills
-							- Tell: Your Aura of the World has been augmented the tenth time.						
+							- Tell: Your Aura of the World has been augmented the tenth time.
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
-					- Tell: You do not have enough Luminance.			
+					- Tell: You do not have enough Luminance.
 
 GotoSet: 49521_8
 	- InqIntStat: LumAugAllSkills, 8
@@ -234,11 +224,11 @@ GotoSet: 49521_8
 						TestSuccess:
 							- SpendLuminance: 900,000
 							- IncrementIntStat: LumAugAllSkills
-							- Tell: Your Aura of the World has been augmented the ninth time.						
+							- Tell: Your Aura of the World has been augmented the ninth time.
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
-					- Tell: You do not have enough Luminance.			
+					- Tell: You do not have enough Luminance.
 
 GotoSet: 49521_7
 	- InqIntStat: LumAugAllSkills, 7
@@ -253,12 +243,12 @@ GotoSet: 49521_7
 						TestSuccess:
 							- SpendLuminance: 800,000
 							- IncrementIntStat: LumAugAllSkills
-							- Tell: Your Aura of the World has been augmented the eighth time.						
+							- Tell: Your Aura of the World has been augmented the eighth time.
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
-					- Tell: You do not have enough Luminance.			
-	
+					- Tell: You do not have enough Luminance.
+
 GotoSet: 49521_6
 	- InqIntStat: LumAugAllSkills, 6
 		TestFailure:
@@ -272,12 +262,12 @@ GotoSet: 49521_6
 						TestSuccess:
 							- SpendLuminance: 700,000
 							- IncrementIntStat: LumAugAllSkills
-							- Tell: Your Aura of the World has been augmented the seventh time.						
+							- Tell: Your Aura of the World has been augmented the seventh time.
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
-					- Tell: You do not have enough Luminance.			
-	
+					- Tell: You do not have enough Luminance.
+
 GotoSet: 49521_5
 	- InqIntStat: LumAugAllSkills, 5
 		TestFailure:
@@ -291,12 +281,12 @@ GotoSet: 49521_5
 						TestSuccess:
 							- SpendLuminance: 600,000
 							- IncrementIntStat: LumAugAllSkills
-							- Tell: Your Aura of the World has been augmented the sixth time.						
+							- Tell: Your Aura of the World has been augmented the sixth time.
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
-					- Tell: You do not have enough Luminance.			
-	
+					- Tell: You do not have enough Luminance.
+
 GotoSet: 49521_4
 	- InqIntStat: LumAugAllSkills, 4
 		TestFailure:
@@ -310,12 +300,12 @@ GotoSet: 49521_4
 						TestSuccess:
 							- SpendLuminance: 500,000
 							- IncrementIntStat: LumAugAllSkills
-							- Tell: Your Aura of the World has been augmented the fifth time						
+							- Tell: Your Aura of the World has been augmented the fifth time
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
-					- Tell: You do not have enough Luminance.		
-	
+					- Tell: You do not have enough Luminance.
+
 GotoSet: 49521_3
 	- InqIntStat: LumAugAllSkills, 3
 		TestFailure:
@@ -329,12 +319,12 @@ GotoSet: 49521_3
 						TestSuccess:
 							- SpendLuminance: 400,000
 							- IncrementIntStat: LumAugAllSkills
-							- Tell: Your Aura of the World has been augmented the fourth time						
+							- Tell: Your Aura of the World has been augmented the fourth time
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
-				
+
 GotoSet: 49521_2
 - InqIntStat: LumAugAllSkills, 2
 	TestFailure:
@@ -348,7 +338,7 @@ GotoSet: 49521_2
 					TestSuccess:
 						- SpendLuminance: 300,000
 						- IncrementIntStat: LumAugAllSkills
-						- Tell: Your Aura of the World has been augmented the third time						
+						- Tell: Your Aura of the World has been augmented the third time
 					TestFailure:
 						- Tell: Come back when you are ready to make a decision.
 			TestFailure:
@@ -372,7 +362,7 @@ GotoSet: 49521_1
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
-			
+
 GotoSet: 49521_0
 	- InqIntStat: LumAugAllSkills, 0
 		TestSuccess:
@@ -391,18 +381,17 @@ GotoSet: 49521_0
 					- Tell: You do not have enough Luminance.
 
 // ===================================================================
-/* Handed 43463 
+/* Handed 43463
 // Item Luminous Pearl of Blood Drinking
 // 43472 Pearl of Blood Drinking
-// Cast Incantation of Blood Drinker (+24) on your equipped weapon. (5 one-use crystals) 
+// Cast Incantation of Blood Drinker (+24) on your equipped weapon. (5 one-use crystals)
 
-Refuse: 43463
+Give: 43463
 	- TurnToTarget:
-	- TakeItems: 43463
 	- Tell: Luminous Pearl of Blood Drinking
-	- Tell: This token gives you Cast Incantation of Blood Drinker (+24) on your equipped weapon. (5 one-use crystals) 
+	- Tell: This token gives you Cast Incantation of Blood Drinker (+24) on your equipped weapon. (5 one-use crystals)
 	- Tell: Your cost is 25,000 Luminance.
-	- InqInt64Stat: AvailableLuminance, 25,000 
+	- InqInt64Stat: AvailableLuminance, 25,000
 		TestSuccess:
 			- InqYesNo: Do you want to continue?
 				TestSuccess:
@@ -412,21 +401,20 @@ Refuse: 43463
 					- Tell: Come back when you are ready to make a decision.
 		TestFailure:
 			- Tell: You do not have enough Luminance
-			
+
 // ===================================================================
 
-// 43464 
-// Token of the Luminous Crystal of Surging Strength 
-// 43473 
-// One-use crystal that increases Damage Rating for 15 seconds. 
+// 43464
+// Token of the Luminous Crystal of Surging Strength
+// 43473
+// One-use crystal that increases Damage Rating for 15 seconds.
 
-Refuse: 43464
+Give: 43464
 	- TurnToTarget:
-	- TakeItems: 43464
 	- Tell: Token of the Luminous Crystal of Surging Strength
-	- Tell: This token will hand you One-use crystal that increases Damage Rating for 15 seconds. 
+	- Tell: This token will hand you One-use crystal that increases Damage Rating for 15 seconds.
 	- Tell: Your cost is 5,000 Luminance.
-	- InqInt64Stat: AvailableLuminance, 5,000 
+	- InqInt64Stat: AvailableLuminance, 5,000
 		TestSuccess:
 			- InqYesNo: Do you want to continue?
 				TestSuccess:
@@ -440,17 +428,16 @@ Refuse: 43464
 // ===================================================================
 
 // 43465
-// Token of the Luminous Crystal of Towering Defense 
-// 43474 
-// One-use crystal that increases Damage Rating for 15 seconds. 
+// Token of the Luminous Crystal of Towering Defense
+// 43474
+// One-use crystal that increases Damage Rating for 15 seconds.
 
-Refuse: 43465
+Give: 43465
 	- TurnToTarget
-	- TakeItems: 43465
 	- Tell: Token of the Luminous Crystal of Towering Defense
-	- Tell: This token will hand you One-use crystal that Reduces Damage for 15 seconds.. 
+	- Tell: This token will hand you One-use crystal that Reduces Damage for 15 seconds..
 	- Tell: Your cost is 5,000 Luminance.
-	- InqInt64Stat: AvailableLuminance, 5,000 
+	- InqInt64Stat: AvailableLuminance, 5,000
 		TestSuccess:
 			- InqYesNo: Do you wish to spend 5,000 Luminance to gain one Luminous Crystal of Towering Defense?
 				TestSuccess:
@@ -463,13 +450,12 @@ Refuse: 43465
 
 // ===================================================================
 
-Refuse: 43466
+Give: 43466
 	- TurnToTarget
-	- TakeItems: 43466
 	- Tell: Luminous Pearl of Defending
-	- Tell: This token gives you Cast Incantation of Defender (+17%) on your equipped weapon. (5 one-use crystals) 
+	- Tell: This token gives you Cast Incantation of Defender (+17%) on your equipped weapon. (5 one-use crystals)
 	- Tell: Your cost is 25,000 Luminance.
-	- InqInt64Stat: AvailableLuminance, 25,000 
+	- InqInt64Stat: AvailableLuminance, 25,000
 		TestSuccess:
 			- InqYesNo: Do you wish to spend 25,000 Luminance to gain five Luminous Pearl of Defending?
 				TestSuccess:
@@ -482,15 +468,14 @@ Refuse: 43466
 
 // ===================================================================
 
-Refuse: 43467
+Give: 43467
 	- TurnToTarget
-	- TakeItems: 43467
 	- Tell: Token of the Luminous Pearl of Heart Seeking
-	- Tell: This token gives you Cast Incantation of Heartseeker (+20%) on your equipped weapon. (5 one-use crystals) 
+	- Tell: This token gives you Cast Incantation of Heartseeker (+20%) on your equipped weapon. (5 one-use crystals)
 	- Tell: Your cost is 25,000 Luminance.
-	- InqInt64Stat: AvailableLuminance, 25,000 
+	- InqInt64Stat: AvailableLuminance, 25,000
 		TestSuccess:
-			- InqYesNo: Do you wish to spend 25,000 Luminance to gain five Luminous Pearl of Heart Seeking? 
+			- InqYesNo: Do you wish to spend 25,000 Luminance to gain five Luminous Pearl of Heart Seeking?
 				TestSuccess:
 					- SpendLuminance: 25,000
 					- Give: 30211, 5
@@ -501,15 +486,14 @@ Refuse: 43467
 
 // ===================================================================
 
-Refuse: 43468
+Give: 43468
 	- TurnToTarget:
-	- TakeItems: 43468
 	- Tell: Token of the Luminous Pearl of Spirit Drinker
-	- Tell: This token gives you Cast Incantation of Spirit Drinker (+8%) on your equipped magic caster. (5 one-use crystals) 
+	- Tell: This token gives you Cast Incantation of Spirit Drinker (+8%) on your equipped magic caster. (5 one-use crystals)
 	- Tell: Your cost is 25,000 Luminance.
-	- InqInt64Stat: AvailableLuminance, 25,000 
+	- InqInt64Stat: AvailableLuminance, 25,000
 		TestSuccess:
-			- InqYesNo: Do you wish to spend 25,000 Luminance to gain five Luminous Pearl of Spirit Drinker? 
+			- InqYesNo: Do you wish to spend 25,000 Luminance to gain five Luminous Pearl of Spirit Drinker?
 				TestSuccess:
 					- SpendLuminance: 25,000
 					- Give: 43477, 5
@@ -517,16 +501,15 @@ Refuse: 43468
 					- Tell: Come back when you are ready to make a decision.
 		TestFailure:
 			- Tell: You do not have enough Luminance
-			
+
 // ===================================================================
 
-Refuse: 43469
+Give: 43469
 	- TurnToTarget:
-	- TakeItems: 43469
 	- Tell: Token of the Luminous Crystal of Vitality
-	- Tell: This token Increases your Health by 5 for 3 hours. (5 one-use crystals) 
+	- Tell: This token Increases your Health by 5 for 3 hours. (5 one-use crystals)
 	- Tell: Your cost is 25,000 Luminance.
-	- InqInt64Stat: AvailableLuminance, 25,000 
+	- InqInt64Stat: AvailableLuminance, 25,000
 		TestSuccess:
 			- InqYesNo: Do you wish to spend 25,000 Luminance to gain five Luminous Crystal of Vitality?
 				TestSuccess:
@@ -536,16 +519,15 @@ Refuse: 43469
 					- Tell: Come back when you are ready to make a decision.
 		TestFailure:
 			- Tell: You do not have enough Luminance
-						
+
 // ===================================================================
 
-Refuse: 43470
+Give: 43470
 	- TurnToTarget:
-	- TakeItems: 43470
 	- Tell: Token of the Light Infused Healing Kit
-	- Tell: This token Boosts your Heal Skill by 250, gives a 200% Restoration bonus and has 30 charges. 
+	- Tell: This token Boosts your Heal Skill by 250, gives a 200% Restoration bonus and has 30 charges.
 	- Tell: Your cost is 25,000 Luminance.
-	- InqInt64Stat: AvailableLuminance, 25,000 
+	- InqInt64Stat: AvailableLuminance, 25,000
 		TestSuccess:
 			- InqYesNo: Do you wish to spend 25,000 Luminance to gain one Light Infused Healing Kit?
 				TestSuccess:
@@ -556,16 +538,15 @@ Refuse: 43470
 					- Tell: Come back when you are ready to make a decision.
 		TestFailure:
 			- Tell: You do not have enough Luminance
-			
+
 // ===================================================================
 
-Refuse: 43471
+Give: 43471
 	- TurnToTarget:
-	- TakeItems: 43471
 	- Tell: Token of the Draught of Revitalization
 	- Tell: This token Restores 250 Stamina. (5)
 	- Tell: Your cost is 25,000 Luminance.
-	- InqInt64Stat: AvailableLuminance, 25,000 
+	- InqInt64Stat: AvailableLuminance, 25,000
 		TestSuccess:
 			- InqYesNo: Do you wish to spend 25,000 Luminance to gain five Draughts of Revitalization?
 				TestSuccess:
@@ -575,16 +556,15 @@ Refuse: 43471
 					- Tell: Come back when you are ready to make a decision.
 		TestFailure:
 			- Tell: You do not have enough Luminance
-			
+
 // ===================================================================
 
-Refuse: 52022
+Give: 52022
 	- TurnToTarget:
-	- TakeItems: 52022
 	- Tell: Luminous Crystal of Rare Armor Damage Boost V
-	- Tell: This token Increases your Damage Rating by 5 for 3 hours. 
+	- Tell: This token Increases your Damage Rating by 5 for 3 hours.
 	- Tell: Your cost is 10,000 Luminance.
-	- InqInt64Stat: AvailableLuminance, 10,000 
+	- InqInt64Stat: AvailableLuminance, 10,000
 		TestSuccess:
 			- InqYesNo: Do you wish to spend 10,000 Luminance to gain one Luminous Crystal of Rare Armor Damage Boost V?
 				TestSuccess:
@@ -597,13 +577,12 @@ Refuse: 52022
 
 // ===================================================================
 
-Refuse: 52024
+Give: 52024
 	- TurnToTarget:
-	- TakeItems: 52024
 	- Tell: Luminous Crystal of Rare Armor Damage Reduction V
-	- Tell: This token Increases your Damage Reduction by 5 for 3 hours. 
+	- Tell: This token Increases your Damage Reduction by 5 for 3 hours.
 	- Tell: Your cost is 10,000 Luminance.
-	- InqInt64Stat: AvailableLuminance, 10,000 
+	- InqInt64Stat: AvailableLuminance, 10,000
 		TestSuccess:
 			- InqYesNo: Do you wish to spend 10,000 Luminance to gain one Luminous Crystal of Rare Armor Damage Reduction V?
 				TestSuccess:
@@ -615,20 +594,6 @@ Refuse: 52024
 			- Tell: You do not have enough Luminance
 // ===================================================================
 
-Refuse: 29295
-	- TurnToTarget:
-	- Tell: You want to sacrafice a Blank Augmentation Gem for 10,000 Luminance?
-	- InqOwnsItems: 29295
-		TestSuccess:
-			-InqYesNo: You want to sacrafice a Blank Augmentation Gem for 10,000 Luminance?
-				TestSuccess:
-					- AwardLuminance: 10,000
-					- TakeItems: 29295
-				TestFailure:
-					- Tell: Come back when you are ready to make a decision.
-		TestFailure:
-			- Tell: You do not have a Blank Augmentation Gem!
-
 // ===================================================================
 
 // Handed 43496 Token of the Aura of Aetheric Vision
@@ -636,10 +601,9 @@ Refuse: 29295
 // Aura of Aetheric Vision
 // Slightly increase your chance to gain an Aetheria Surge on a successful hit with a weapon or spell
 
-Refuse: 43496
+Give: 43496
 	- TurnToTarget
 	- Tell: This token slightly increase your chance to gain an Aetheria Surge on a successful hit with a weapon or spell
-	- TakeItems: 43496
 	- Goto: 43496_5
 
 GotoSet: 43496_5
@@ -647,7 +611,7 @@ GotoSet: 43496_5
 		TestFailure:
 			- Goto: 43496_4
 		TestSuccess:
-			- Tell: You have maxxed out increases to Aura of Aetheric Vision.		
+			- Tell: You have maxxed out increases to Aura of Aetheric Vision.
 
 GotoSet: 43496_4
 	- InqIntStat: LumAugSurgeChanceRating, 4
@@ -656,19 +620,19 @@ GotoSet: 43496_4
 		TestSuccess:
 			- Tell: This is the fifth time you augmented Aura of Aetheric Vision.
 			- Tell: Your cost is 300,000 Luminance.
-			- InqInt64Stat: AvailableLuminance, 300,000 
+			- InqInt64Stat: AvailableLuminance, 300,000
 				TestSuccess:
 					- InqYesNo: This is the fifth time you augmented Aura of Aetheric Vision. Your cost is 300,000 Luminance. Do you want to continue?
 						TestSuccess:
 							- SpendLuminance: 300,000
 							- IncrementIntStat: LumAugSurgeChanceRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-							- Tell: Your Aura of Aetheric Vision has been augmented fifth time.                            
+							- Tell: Your Aura of Aetheric Vision has been augmented fifth time.
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
+
 GotoSet: 43496_3
 	- InqIntStat: LumAugSurgeChanceRating, 3
 		TestFailure:
@@ -688,7 +652,7 @@ GotoSet: 43496_3
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
+
 GotoSet: 43496_2
 	- InqIntStat: LumAugSurgeChanceRating, 2
 		TestFailure:
@@ -703,7 +667,7 @@ GotoSet: 43496_2
 							- SpendLuminance: 200,000
 							- IncrementIntStat: LumAugSurgeChanceRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-							- Tell: Your Aura of Aetheric Vision has been augmented the third time.							
+							- Tell: Your Aura of Aetheric Vision has been augmented the third time.
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
@@ -729,7 +693,7 @@ GotoSet: 43496_1
 				TestFailure:
 					- Tell: You do not have enough Luminance
 
-			
+
 GotoSet: 43496_0
 	- InqIntStat: LumAugSurgeChanceRating, 0
 		TestSuccess:
@@ -753,10 +717,9 @@ GotoSet: 43496_0
 // LumAugCritDamageRating
 // Critical Damage Rating
 
-Refuse: 43498
+Give: 43498
 	- TurnToTarget
-	- TakeItems: 43498
-	- Tell: This token increases your critical damage rating by 1 point 
+	- Tell: This token increases your critical damage rating by 1 point
 	- Goto: 43498_5
 
 GotoSet: 43498_5
@@ -764,7 +727,7 @@ GotoSet: 43498_5
 		TestFailure:
 			- Goto: 43498_4
 		TestSuccess:
-			- Tell: You have maxxed out increases to Critical Damage Rating.		
+			- Tell: You have maxxed out increases to Critical Damage Rating.
 
 GotoSet: 43498_4
 	- InqIntStat: LumAugCritDamageRating, 4
@@ -773,7 +736,7 @@ GotoSet: 43498_4
 		TestSuccess:
 			- Tell: This is the fifth time you augmented Critical Damage Rating.
 			- Tell: Your cost is 300,000 Luminance.
-			- InqInt64Stat: AvailableLuminance, 300,000 
+			- InqInt64Stat: AvailableLuminance, 300,000
 				TestSuccess:
 					- InqYesNo: This is the fifth time you augmented Critical Damage Rating. Your cost is 300,000 Luminance. Do you want to continue?
 						TestSuccess:
@@ -785,7 +748,7 @@ GotoSet: 43498_4
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
+
 GotoSet: 43498_3
 	- InqIntStat: LumAugCritDamageRating, 3
 		TestFailure:
@@ -805,7 +768,7 @@ GotoSet: 43498_3
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
+
 GotoSet: 43498_2
 	- InqIntStat: LumAugCritDamageRating, 2
 		TestFailure:
@@ -821,7 +784,6 @@ GotoSet: 43498_2
 							- IncrementIntStat: LumAugCritDamageRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
 							- Tell: Your Critical Damage Rating has been augmented the third time.
-							
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
@@ -846,7 +808,7 @@ GotoSet: 43498_1
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
+
 GotoSet: 43498_0
 	- InqIntStat: LumAugCritDamageRating, 0
 		TestSuccess:
@@ -872,9 +834,8 @@ GotoSet: 43498_0
 // LumAugCritReductionRating
 // Critical Reduction Rating
 
-Refuse: 43499
+Give: 43499
 	- TurnToTarget
-	- TakeItems: 43499
 	- Goto: 43499_5
 
 GotoSet: 43499_5
@@ -882,7 +843,7 @@ GotoSet: 43499_5
 		TestFailure:
 			- Goto: 43499_4
 		TestSuccess:
-			- Tell: You have maxxed out increases to Critical Reduction Rating.		
+			- Tell: You have maxxed out increases to Critical Reduction Rating.
 
 GotoSet: 43499_4
 	- InqIntStat: LumAugCritReductionRating, 4
@@ -891,7 +852,7 @@ GotoSet: 43499_4
 		TestSuccess:
 			- Tell: This is the fifth time you augmented Critical Reduction Rating.
 			- Tell: Your cost is 300,000 Luminance.
-			- InqInt64Stat: AvailableLuminance, 300,000 
+			- InqInt64Stat: AvailableLuminance, 300,000
 				TestSuccess:
 					- InqYesNo: This is the fifth time you augmented Critical Reduction Rating. Your cost is 300,000 Luminance. Do you want to continue?
 						TestSuccess:
@@ -903,7 +864,7 @@ GotoSet: 43499_4
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
+
 GotoSet: 43499_3
 	- InqIntStat: LumAugCritReductionRating, 3
 		TestFailure:
@@ -923,7 +884,7 @@ GotoSet: 43499_3
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
+
 GotoSet: 43499_2
 	- InqIntStat: LumAugCritReductionRating, 2
 		TestFailure:
@@ -938,7 +899,7 @@ GotoSet: 43499_2
 							- SpendLuminance: 200,000
 							- IncrementIntStat: LumAugCritReductionRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-							- Tell: Your Critical Reduction Rating has been augmented the third time							
+							- Tell: Your Critical Reduction Rating has been augmented the third time
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
@@ -963,7 +924,7 @@ GotoSet: 43499_1
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
+
 GotoSet: 43499_0
 	- InqIntStat: LumAugCritReductionRating, 0
 		TestSuccess:
@@ -985,14 +946,13 @@ GotoSet: 43499_0
 // ===================================================================
 // 43500
 
-// Handed 43500 
+// Handed 43500
 // LumAugDamageRating
 // Aura of Valor
 
-Refuse: 43500
+Give: 43500
 	- TurnToTarget
-	- Tell: This token increases your damage rating by 1 
-	- TakeItems: 43500
+	- Tell: This token increases your damage rating by 1
 	- Goto: 43500_5
 
 GotoSet: 43500_5
@@ -1000,7 +960,7 @@ GotoSet: 43500_5
 		TestFailure:
 			- Goto: 43500_4
 		TestSuccess:
-			- Tell: You have maxxed out increases to Aura of Valor.		
+			- Tell: You have maxxed out increases to Aura of Valor.
 
 GotoSet: 43500_4
 	- InqIntStat: LumAugDamageRating, 4
@@ -1009,7 +969,7 @@ GotoSet: 43500_4
 		TestSuccess:
 			- Tell: This is the fifth time you augmented Aura of Valor.
 			- Tell: Your cost is 300,000 Luminance.
-			- InqInt64Stat: AvailableLuminance, 300,000 
+			- InqInt64Stat: AvailableLuminance, 300,000
 				TestSuccess:
 					- InqYesNo: This is the fifth time you augmented Aura of Valor. Your cost is 300,000 Luminance. Do you want to continue?
 						TestSuccess:
@@ -1021,7 +981,7 @@ GotoSet: 43500_4
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
+
 GotoSet: 43500_3
 	- InqIntStat: LumAugDamageRating, 3
 		TestFailure:
@@ -1041,7 +1001,7 @@ GotoSet: 43500_3
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
+
 GotoSet: 43500_2
 	- InqIntStat: LumAugDamageRating, 2
 		TestFailure:
@@ -1056,7 +1016,7 @@ GotoSet: 43500_2
 							- SpendLuminance: 200,000
 							- IncrementIntStat: LumAugDamageRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-							- Tell: Your Aura of Valor has been augmented the third time							
+							- Tell: Your Aura of Valor has been augmented the third time
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
@@ -1081,7 +1041,7 @@ GotoSet: 43500_1
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
+
 GotoSet: 43500_0
 	- InqIntStat: LumAugDamageRating, 0
 		TestSuccess:
@@ -1104,14 +1064,13 @@ GotoSet: 43500_0
 
 // ===================================================================
 
-// Handed 43501 
+// Handed 43501
 // LumAugDamageReductionRating
 // Aura of Protection
 
-Refuse: 43501
+Give: 43501
 	- TurnToTarget
-	- Tell: This token increases your damage reduction rating by 1 
-	- TakeItems: 43501
+	- Tell: This token increases your damage reduction rating by 1
 	- Goto: 43501_5
 
 GotoSet: 43501_5
@@ -1119,7 +1078,7 @@ GotoSet: 43501_5
 		TestFailure:
 			- Goto: 43501_4
 		TestSuccess:
-			- Tell: You have maxxed out increases to Aura of Protection.		
+			- Tell: You have maxxed out increases to Aura of Protection.
 
 GotoSet: 43501_4
 	- InqIntStat: LumAugDamageReductionRating, 4
@@ -1128,7 +1087,7 @@ GotoSet: 43501_4
 		TestSuccess:
 			- Tell: This is the fifth time you augmented Aura of Protection.
 			- Tell: Your cost is 300,000 Luminance.
-			- InqInt64Stat: AvailableLuminance, 300,000 
+			- InqInt64Stat: AvailableLuminance, 300,000
 				TestSuccess:
 					- InqYesNo: This is the fifth time you augmented Aura of Protection. Your cost is 300,000 Luminance. Do you want to continue?
 						TestSuccess:
@@ -1140,7 +1099,7 @@ GotoSet: 43501_4
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
-			
+
 GotoSet: 43501_3
 	- InqIntStat: LumAugDamageReductionRating, 3
 		TestFailure:
@@ -1160,7 +1119,7 @@ GotoSet: 43501_3
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
-			
+
 GotoSet: 43501_2
 	- InqIntStat: LumAugDamageReductionRating, 2
 		TestFailure:
@@ -1175,7 +1134,7 @@ GotoSet: 43501_2
 							- SpendLuminance: 200,000
 							- IncrementIntStat: LumAugDamageReductionRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-							- Tell: Your Aura of Protection has been augmented the third time.							
+							- Tell: Your Aura of Protection has been augmented the third time.
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
@@ -1200,7 +1159,7 @@ GotoSet: 43501_1
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
-			
+
 GotoSet: 43501_0
 	- InqIntStat: LumAugDamageReductionRating, 0
 		TestSuccess:
@@ -1221,14 +1180,13 @@ GotoSet: 43501_0
 
 // ===================================================================
 
-// Handed 43502 
+// Handed 43502
 // LumAugItemManaGain
 // Aura of Mana Infusion
 
-Refuse: 43502
+Give: 43502
 	- TurnToTarget
 	- Tell: This token increases the mana provided by Mana Stones to your items.
-	- TakeItems: 43502
 	- Goto: 43502_25
 
 GotoSet: 43502_25
@@ -1236,7 +1194,7 @@ GotoSet: 43502_25
 		TestFailure:
 			- Goto: 43502_20-24
 		TestSuccess:
-			- Tell: You have maxxed out increases to Aura of Mana Infusion.		
+			- Tell: You have maxxed out increases to Aura of Mana Infusion.
 
 GotoSet: 43502_20-24
 	- InqIntStat: LumAugItemManaGain, 4
@@ -1245,7 +1203,7 @@ GotoSet: 43502_20-24
 		TestSuccess:
 			- Tell: This is the fifth time you augmented Aura of Mana Infusion.
 			- Tell: Your cost is 300,000 Luminance.
-			- InqInt64Stat: AvailableLuminance, 300,000 
+			- InqInt64Stat: AvailableLuminance, 300,000
 				TestSuccess:
 					- InqYesNo: This is the fifth time you augmented Aura of Mana Infusion. Your cost is 300,000 Luminance. Do you want to continue?
 						TestSuccess:
@@ -1257,7 +1215,7 @@ GotoSet: 43502_20-24
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
+
 GotoSet: 43502_15-19
 	- InqIntStat: LumAugItemManaGain, 3
 		TestFailure:
@@ -1277,7 +1235,7 @@ GotoSet: 43502_15-19
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
+
 GotoSet: 43502_10-14
 	- InqIntStat: LumAugItemManaGain, 2
 		TestFailure:
@@ -1292,8 +1250,8 @@ GotoSet: 43502_10-14
 							- SpendLuminance: 200,000
 							- IncrementIntStat: LumAugItemManaGain
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-							- Tell: Your Aura of Mana Infusion has been augmented 
-							
+							- Tell: Your Aura of Mana Infusion has been augmented
+
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
@@ -1313,12 +1271,12 @@ GotoSet: 43502_5-9
 							- SpendLuminance: 150,000
 							- IncrementIntStat: LumAugItemManaGain
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-							- Tell: Your Aura of Mana Infusion has been augmented 
+							- Tell: Your Aura of Mana Infusion has been augmented
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
+
 GotoSet: 43502_0-4
 	- InqIntStat: LumAugItemManaGain, 0
 		TestSuccess:
@@ -1331,7 +1289,7 @@ GotoSet: 43502_0-4
 							- SpendLuminance: 100,000
 							- IncrementIntStat: LumAugItemManaGain
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-							- Tell: Your Aura of Mana Infusion has been augmented 
+							- Tell: Your Aura of Mana Infusion has been augmented
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
@@ -1346,27 +1304,26 @@ GotoSet: 43502_0-4
 // LumAugItemManaUsage
 // Aura of Mana Flow
 
-Refuse: 43503
+Give: 43503
 	- TurnToTarget
 	- Tell: This token provides a reduction in the Mana Consumption of your items equal to 1 rating point per level
-	- TakeItems: 43503
-	- Goto: 43503_25
+	- Goto: 43503_5
 
-GotoSet: 43503_25
+GotoSet: 43503_5
 	- InqIntStat: LumAugItemManaUsage, 5
 		TestFailure:
-			- Goto: 43503_20-24
+			- Goto: 43503_4
 		TestSuccess:
-			- Tell: You have maxxed out increases to Aura of Mana Flow.		
+			- Tell: You have maxxed out increases to Aura of Mana Flow.
 
-GotoSet: 43503_20-24
+GotoSet: 43503_4
 	- InqIntStat: LumAugItemManaUsage, 4
 		TestFailure:
-			- Goto: 43503_15-19
+			- Goto: 43503_3
 		TestSuccess:
 			- Tell: This is the fifth time you augmented Aura of Mana Flow.
 			- Tell: Your cost is 300,000 Luminance.
-			- InqInt64Stat: AvailableLuminance, 300,000 
+			- InqInt64Stat: AvailableLuminance, 300,000
 				TestSuccess:
 					- InqYesNo: This is the fifth time you augmented Aura of Mana Flow. Your cost is 300,000 Luminance. Do you want to continue?
 						TestSuccess:
@@ -1378,11 +1335,11 @@ GotoSet: 43503_20-24
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
-GotoSet: 43503_15-19
+
+GotoSet: 43503_3
 	- InqIntStat: LumAugItemManaUsage, 3
 		TestFailure:
-			- Goto: 43503_10-14
+			- Goto: 43503_2
 		TestSuccess:
 			- Tell: This is the fourth time you augmented Aura of Mana Flow.
 			- Tell: Your cost is 250,000 Luminance.
@@ -1398,11 +1355,11 @@ GotoSet: 43503_15-19
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
-GotoSet: 43503_10-14
+
+GotoSet: 43503_2
 	- InqIntStat: LumAugItemManaUsage, 2
 		TestFailure:
-			- Goto: 43503_5-9
+			- Goto: 43503_1
 		TestSuccess:
 			- Tell: This is the third time you augmented Aura of Mana Flow.
 			- Tell: Your cost is 200,000 Luminance.
@@ -1413,17 +1370,17 @@ GotoSet: 43503_10-14
 							- SpendLuminance: 200,000
 							- IncrementIntStat: LumAugItemManaUsage
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-							- Tell: Your Aura of Mana Flow has been augmented 
-							
+							- Tell: Your Aura of Mana Flow has been augmented
+
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
 
-GotoSet: 43503_5-9
+GotoSet: 43503_1
 	- InqIntStat: LumAugItemManaUsage, 1
 		TestFailure:
-			- Goto: 43503_0-4
+			- Goto: 43503_0
 		TestSuccess:
 			- Tell: This is the second time you augmented Aura of Mana Flow.
 			- Tell: Your cost is 150,000 Luminance.
@@ -1434,13 +1391,13 @@ GotoSet: 43503_5-9
 							- SpendLuminance: 150,000
 							- IncrementIntStat: LumAugItemManaUsage
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-							- Tell: Your Aura of Mana Flow has been augmented 
+							- Tell: Your Aura of Mana Flow has been augmented
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
-GotoSet: 43503_0-4
+
+GotoSet: 43503_0
 	- InqIntStat: LumAugItemManaUsage, 0
 		TestSuccess:
 			- Tell: This is the first time you augmented Aura of Mana Flow.
@@ -1452,7 +1409,7 @@ GotoSet: 43503_0-4
 							- SpendLuminance: 100,000
 							- IncrementIntStat: LumAugItemManaUsage
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
-							- Tell: Your Aura of Mana Flow has been augmented 
+							- Tell: Your Aura of Mana Flow has been augmented
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
@@ -1464,14 +1421,13 @@ GotoSet: 43503_0-4
 // ===================================================================
 
 
-// Handed 43507 
+// Handed 43507
 // LumAugHealingRating
 // Aura of Purity
 
-Refuse: 43507
+Give: 43507
 	- TurnToTarget
 	- Tell: This token increases the amount that healing affects you by 1 heal rating
-	- TakeItems: 43507
 	- Goto: 43507_5
 
 GotoSet: 43507_5
@@ -1479,7 +1435,7 @@ GotoSet: 43507_5
 		TestFailure:
 			- Goto: 43507_4
 		TestSuccess:
-			- Tell: You have maxxed out increases to Aura of Purity.		
+			- Tell: You have maxxed out increases to Aura of Purity.
 
 GotoSet: 43507_4
 	- InqIntStat: LumAugHealingRating, 4
@@ -1488,7 +1444,7 @@ GotoSet: 43507_4
 		TestSuccess:
 			- Tell: This is the fifth time you augmented Aura of Purity.
 			- Tell: Your cost is 300,000 Luminance.
-			- InqInt64Stat: AvailableLuminance, 300,000 
+			- InqInt64Stat: AvailableLuminance, 300,000
 				TestSuccess:
 					- InqYesNo: This is the fifth time you augmented Aura of Purity. Your cost is 300,000 Luminance. Do you want to continue?
 						TestSuccess:
@@ -1500,7 +1456,7 @@ GotoSet: 43507_4
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance
-			
+
 GotoSet: 43507_3
 	- InqIntStat: LumAugHealingRating, 3
 		TestFailure:
@@ -1520,7 +1476,7 @@ GotoSet: 43507_3
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
-			
+
 GotoSet: 43507_2
 	- InqIntStat: LumAugHealingRating, 2
 		TestFailure:
@@ -1536,7 +1492,7 @@ GotoSet: 43507_2
 							- IncrementIntStat: LumAugHealingRating
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
 							- Tell: Your Aura of Purity has been augmented the third time
-							
+
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
@@ -1561,7 +1517,7 @@ GotoSet: 43507_1
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
-			
+
 GotoSet: 43507_0
 	- InqIntStat: LumAugHealingRating, 0
 		TestSuccess:
@@ -1584,14 +1540,13 @@ GotoSet: 43507_0
 
 // ===================================================================
 
-// Handed 43509 
+// Handed 43509
 // LumAugSkilledCraft
 // Aura of the Craftsman
 
-Refuse: 43509
+Give: 43509
 	- TurnToTarget
 	- Tell: Increases the effective skill level of your crafting and tinkering skills by 1 point.
-	- TakeItems: 43509
 	- Goto: 43509_5
 
 GotoSet: 43509_5
@@ -1599,7 +1554,7 @@ GotoSet: 43509_5
 		TestFailure:
 			- Goto: 43509_4
 		TestSuccess:
-			- Tell: You have maxxed out increases to Aura of the Craftsman.		
+			- Tell: You have maxxed out increases to Aura of the Craftsman.
 
 GotoSet: 43509_4
 	- InqIntStat: LumAugSkilledCraft, 4
@@ -1608,7 +1563,7 @@ GotoSet: 43509_4
 		TestSuccess:
 			- Tell: This is the fifth time you augmented Aura of the Craftsman.
 			- Tell: Your cost is 300,000 Luminance.
-			- InqInt64Stat: AvailableLuminance, 300,000 
+			- InqInt64Stat: AvailableLuminance, 300,000
 				TestSuccess:
 					- InqYesNo: This is the fifth time you augmented Aura of the Craftsman. Your cost is 300,000 Luminance. Do you want to continue?
 						TestSuccess:
@@ -1620,7 +1575,7 @@ GotoSet: 43509_4
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
-			
+
 GotoSet: 43509_3
 	- InqIntStat: LumAugSkilledCraft, 3
 		TestFailure:
@@ -1640,7 +1595,7 @@ GotoSet: 43509_3
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
-			
+
 GotoSet: 43509_2
 	- InqIntStat: LumAugSkilledCraft, 2
 		TestFailure:
@@ -1656,7 +1611,7 @@ GotoSet: 43509_2
 							- IncrementIntStat: LumAugSkilledCraft
                             - DirectBroadcast: You feel a surge of energy pass through you as the Light empowers your being.
 							- Tell: Your Aura of the Craftsman has been augmented the third time.
-							
+
 						TestFailure:
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
@@ -1681,7 +1636,7 @@ GotoSet: 43509_1
 							- Tell: Come back when you are ready to make a decision.
 				TestFailure:
 					- Tell: You do not have enough Luminance.
-			
+
 GotoSet: 43509_0
 	- InqIntStat: LumAugSkilledCraft, 0
 		TestSuccess:
