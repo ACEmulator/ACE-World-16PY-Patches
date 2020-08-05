@@ -5,8 +5,9 @@ VALUES (37204, 'ace37204-olthoipauldrons', 2, '2019-02-10 00:00:00') /* Clothing
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37204,   1,          2) /* ItemType - Armor */
+     , (37204,   3,         20) /* PaletteTemplate - Silver */
      , (37204,   4,       4096) /* ClothingPriority - OuterwearUpperArms */
-     , (37204,   5,        366) /* EncumbranceVal */
+     , (37204,   5,        720) /* EncumbranceVal */
      , (37204,   9,       2048) /* ValidLocations - UpperArmArmor */
      , (37204,  16,          1) /* ItemUseable - No */
      , (37204,  19,        653) /* Value */
@@ -21,7 +22,8 @@ VALUES (37204,  22, True ) /* Inscribable */
      , (37204, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37204,  13,     1.3) /* ArmorModVsSlash */
+VALUES (37204,  12,    0.33) /* Shade */
+     , (37204,  13,     1.3) /* ArmorModVsSlash */
      , (37204,  14,     1.3) /* ArmorModVsPierce */
      , (37204,  15,     1.3) /* ArmorModVsBludgeon */
      , (37204,  16,     0.6) /* ArmorModVsCold */

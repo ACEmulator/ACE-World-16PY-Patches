@@ -5,8 +5,9 @@ VALUES (37212, 'ace37212-olthoitassets', 2, '2019-02-10 00:00:00') /* Clothing *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37212,   1,          2) /* ItemType - Armor */
+     , (37212,   3,         20) /* PaletteTemplate - Silver */
      , (37212,   4,        256) /* ClothingPriority - OuterwearUpperLegs */
-     , (37212,   5,        466) /* EncumbranceVal */
+     , (37212,   5,        919) /* EncumbranceVal */
      , (37212,   9,       8192) /* ValidLocations - UpperLegArmor */
      , (37212,  16,          1) /* ItemUseable - No */
      , (37212,  19,        653) /* Value */
@@ -21,7 +22,8 @@ VALUES (37212,  22, True ) /* Inscribable */
      , (37212, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37212,  13,     1.3) /* ArmorModVsSlash */
+VALUES (37212,  12,    0.33) /* Shade */
+     , (37212,  13,     1.3) /* ArmorModVsSlash */
      , (37212,  14,     1.3) /* ArmorModVsPierce */
      , (37212,  15,     1.3) /* ArmorModVsBludgeon */
      , (37212,  16,     0.6) /* ArmorModVsCold */
@@ -34,7 +36,7 @@ VALUES (37212,  13,     1.3) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37212,   1, 'Olthoi Tassets') /* Name */
-     , (37212,  16, 'Olthoi Sollerets') /* LongDesc */;
+     , (37212,  16, 'Olthoi Tassets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37212,   1,   33554656) /* Setup */

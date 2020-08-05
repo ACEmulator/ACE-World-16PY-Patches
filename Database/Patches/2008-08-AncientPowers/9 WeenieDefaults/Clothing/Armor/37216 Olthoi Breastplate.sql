@@ -5,8 +5,9 @@ VALUES (37216, 'ace37216-olthoibreastplate', 2, '2019-02-10 00:00:00') /* Clothi
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37216,   1,          2) /* ItemType - Armor */
+     , (37216,   3,         20) /* PaletteTemplate - Silver */
      , (37216,   4,       1024) /* ClothingPriority - OuterwearChest */
-     , (37216,   5,       1082) /* EncumbranceVal */
+     , (37216,   5,       2200) /* EncumbranceVal */
      , (37216,   9,        512) /* ValidLocations - ChestArmor */
      , (37216,  16,          1) /* ItemUseable - No */
      , (37216,  19,       1631) /* Value */
@@ -21,7 +22,8 @@ VALUES (37216,  22, True ) /* Inscribable */
      , (37216, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37216,  13,     1.3) /* ArmorModVsSlash */
+VALUES (37216,  12,    0.33) /* Shade */
+     , (37216,  13,     1.3) /* ArmorModVsSlash */
      , (37216,  14,     1.3) /* ArmorModVsPierce */
      , (37216,  15,     1.3) /* ArmorModVsBludgeon */
      , (37216,  16,     0.6) /* ArmorModVsCold */

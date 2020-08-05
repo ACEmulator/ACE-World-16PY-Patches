@@ -5,8 +5,9 @@ VALUES (37213, 'ace37213-olthoibracers', 2, '2019-02-10 00:00:00') /* Clothing *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37213,   1,          2) /* ItemType - Armor */
+     , (37213,   3,         20) /* PaletteTemplate - Silver */
      , (37213,   4,       8192) /* ClothingPriority - OuterwearLowerArms */
-     , (37213,   5,        280) /* EncumbranceVal */
+     , (37213,   5,        540) /* EncumbranceVal */
      , (37213,   9,       4096) /* ValidLocations - LowerArmArmor */
      , (37213,  16,          1) /* ItemUseable - No */
      , (37213,  19,        653) /* Value */
@@ -21,7 +22,8 @@ VALUES (37213,  22, True ) /* Inscribable */
      , (37213, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37213,  13,     1.3) /* ArmorModVsSlash */
+VALUES (37213,  12,    0.33) /* Shade */
+     , (37213,  13,     1.3) /* ArmorModVsSlash */
      , (37213,  14,     1.3) /* ArmorModVsPierce */
      , (37213,  15,     1.3) /* ArmorModVsBludgeon */
      , (37213,  16,     0.6) /* ArmorModVsCold */

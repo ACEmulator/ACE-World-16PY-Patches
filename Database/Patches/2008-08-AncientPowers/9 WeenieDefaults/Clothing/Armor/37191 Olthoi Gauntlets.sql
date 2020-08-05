@@ -5,11 +5,12 @@ VALUES (37191, 'ace37191-olthoigauntlets', 2, '2019-02-10 00:00:00') /* Clothing
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37191,   1,          2) /* ItemType - Armor */
+     , (37191,   3,         20) /* PaletteTemplate - Silver */
      , (37191,   4,      32768) /* ClothingPriority - Hands */
-     , (37191,   5,        590) /* EncumbranceVal */
+     , (37191,   5,        540) /* EncumbranceVal */
      , (37191,   9,         32) /* ValidLocations - HandWear */
      , (37191,  16,          1) /* ItemUseable - No */
-     , (37191,  19,        600) /* Value */
+     , (37191,  19,        653) /* Value */
      , (37191,  27,         32) /* ArmorType - Metal */
      , (37191,  28,        200) /* ArmorLevel */
      , (37191,  36,       9999) /* ResistMagic */
@@ -23,7 +24,8 @@ VALUES (37191,  22, True ) /* Inscribable */
      , (37191, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37191,  13,     1.3) /* ArmorModVsSlash */
+VALUES (37191,  12,    0.66) /* Shade */
+     , (37191,  13,     1.3) /* ArmorModVsSlash */
      , (37191,  14,     1.3) /* ArmorModVsPierce */
      , (37191,  15,     1.3) /* ArmorModVsBludgeon */
      , (37191,  16,     0.6) /* ArmorModVsCold */

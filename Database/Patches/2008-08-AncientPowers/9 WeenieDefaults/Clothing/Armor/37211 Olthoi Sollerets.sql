@@ -5,8 +5,9 @@ VALUES (37211, 'ace37211-olthoisollerets', 2, '2019-02-10 00:00:00') /* Clothing
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37211,   1,          2) /* ItemType - Armor */
+     , (37211,   3,         20) /* PaletteTemplate - Silver */
      , (37211,   4,      65536) /* ClothingPriority - Feet */
-     , (37211,   5,        277) /* EncumbranceVal */
+     , (37211,   5,        540) /* EncumbranceVal */
      , (37211,   9,        256) /* ValidLocations - FootWear */
      , (37211,  16,          1) /* ItemUseable - No */
      , (37211,  19,        653) /* Value */
@@ -23,7 +24,8 @@ VALUES (37211,  22, True ) /* Inscribable */
      , (37211, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37211,  13,     1.3) /* ArmorModVsSlash */
+VALUES (37211,  12,    0.66) /* Shade */
+     , (37211,  13,     1.3) /* ArmorModVsSlash */
      , (37211,  14,     1.3) /* ArmorModVsPierce */
      , (37211,  15,     1.3) /* ArmorModVsBludgeon */
      , (37211,  16,     0.6) /* ArmorModVsCold */

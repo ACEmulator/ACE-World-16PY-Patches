@@ -5,8 +5,9 @@ VALUES (37194, 'ace37194-olthoigreaves', 2, '2019-02-10 00:00:00') /* Clothing *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37194,   1,          2) /* ItemType - Armor */
+     , (37194,   3,         20) /* PaletteTemplate - Silver */
      , (37194,   4,        512) /* ClothingPriority - OuterwearLowerLegs */
-     , (37194,   5,        450) /* EncumbranceVal */
+     , (37194,   5,        919) /* EncumbranceVal */
      , (37194,   9,      16384) /* ValidLocations - LowerLegArmor */
      , (37194,  16,          1) /* ItemUseable - No */
      , (37194,  19,        653) /* Value */
@@ -21,7 +22,8 @@ VALUES (37194,  22, True ) /* Inscribable */
      , (37194, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37194,  13,     1.3) /* ArmorModVsSlash */
+VALUES (37194,  12,    0.33) /* Shade */
+     , (37194,  13,     1.3) /* ArmorModVsSlash */
      , (37194,  14,     1.3) /* ArmorModVsPierce */
      , (37194,  15,     1.3) /* ArmorModVsBludgeon */
      , (37194,  16,     0.6) /* ArmorModVsCold */

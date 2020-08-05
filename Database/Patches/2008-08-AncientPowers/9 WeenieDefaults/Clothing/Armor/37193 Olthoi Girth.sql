@@ -5,8 +5,9 @@ VALUES (37193, 'ace37193-olthoigirth', 2, '2019-02-10 00:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37193,   1,          2) /* ItemType - Armor */
+     , (37193,   3,         20) /* PaletteTemplate - Silver */
      , (37193,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
-     , (37193,   5,        503) /* EncumbranceVal */
+     , (37193,   5,       1099) /* EncumbranceVal */
      , (37193,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (37193,  16,          1) /* ItemUseable - No */
      , (37193,  19,        980) /* Value */
@@ -21,7 +22,8 @@ VALUES (37193,  22, True ) /* Inscribable */
      , (37193, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37193,  13,     1.3) /* ArmorModVsSlash */
+VALUES (37193,  12,    0.33) /* Shade */
+     , (37193,  13,     1.3) /* ArmorModVsSlash */
      , (37193,  14,     1.3) /* ArmorModVsPierce */
      , (37193,  15,     1.3) /* ArmorModVsBludgeon */
      , (37193,  16,     0.6) /* ArmorModVsCold */
