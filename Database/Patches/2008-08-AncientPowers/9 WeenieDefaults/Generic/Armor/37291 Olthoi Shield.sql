@@ -5,16 +5,17 @@ VALUES (37291, 'ace37291-olthoishield', 1, '2019-02-10 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37291,   1,          2) /* ItemType - Armor */
-     , (37291,   3,         14) /* PaletteTemplate - Red */
-     , (37291,   5,       1152) /* EncumbranceVal */
+     , (37291,   3,          4) /* PaletteTemplate - Brown */
+     , (37291,   5,       2040) /* EncumbranceVal */
      , (37291,   9,    2097152) /* ValidLocations - Shield */
      , (37291,  16,          1) /* ItemUseable - No */
-     , (37291,  18,          1) /* UiEffects - Magical */
-     , (37291,  19,      48452) /* Value */
+     , (37291,  19,        300) /* Value */
+     , (37291,  27,          2) /* ArmorType - Leather */
      , (37291,  28,        200) /* ArmorLevel */
      , (37291,  36,       9999) /* ResistMagic */
      , (37291,  51,          4) /* CombatUse - Shield */
      , (37291,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37291, 150,        103) /* HookPlacement - Hook */
      , (37291, 151,          2) /* HookType - Wall */
      , (37291, 169,  134285060) /* TsysMutationData */;
 
