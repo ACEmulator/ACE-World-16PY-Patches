@@ -3,7 +3,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44033;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44033, 'ace44033-burningsandsgolem', 10, '2019-08-16 00:00:00') /* Creature */;
+VALUES (44033, 'ace44033-burningsandsgolem', 10, '2020-08-03 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44033,   1,         16) /* ItemType - Creature */
@@ -133,8 +133,8 @@ VALUES (44033,  5542,   2.06)  /* Burning Sands Infliction */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44033, 9, 44240,  4, 0, 0.9, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44033, 9,     0,  0, 0, 0.1, False) /* Create nothing for ContainTreasure */
-     , (44033, 9, 48941,  1, 0, 0.5, False) /* Create Burning Sands Golem Heart for ContainTreasure */
-     , (44033, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
+     , (44033, 9, 48941,  1, 0, 0.05, False) /* Create Burning Sands Golem Heart for ContainTreasure */
+     , (44033, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (44033, 9,  6353,  1, 0, 0.5, False) /* Pyreal mote for ContainTreasure */
      , (44033, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
      , (44033, 9, 44293,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Staff (Level 180+) (44293) for ContainTreasure */

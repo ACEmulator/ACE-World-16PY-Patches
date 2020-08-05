@@ -13,10 +13,10 @@ VALUES (6942, True, 0, 0, 0, False, 0, 0, 0);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 1,  92, -1, 2, 2) /* Structure */
-     , (@parent_id, 1, 193, 1, 2, 2) /* NumKeys */;
+VALUES (@parent_id, 1,  92, -1, 2, 0) /* Structure */
+     , (@parent_id, 1, 193, 1, 2, 0) /* NumKeys */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6942;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6942, 42347 /* Black Coral Keyring */, 38456 /* Mana Forge Key */, '2019-04-15 18:20:10');
+VALUES (6942, 42347 /* Black Coral Keyring */, 38456 /* Mana Forge Key */, '2020-08-03 18:20:10');
