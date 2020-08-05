@@ -2,13 +2,13 @@ Use:
     - TurnToTarget
     - InqQuest: EnlightenedCelestialHandMaster
         QuestSuccess:
-            - Tell: Welcome back, Master.
+            - Tell: Welcome back, Master and comrade in arms.
             - SetIntStat: SocietyRankCelhan, 1001
             - EraseQuest: EnlightenedCelestialHandMaster
         QuestFailure:
             - InqIntStat: SocietyRankCelhan, 1001 - 1001
                 TestSuccess:
-                    - Tell: Greetings, Master.
+                    - Tell: Greetings, Master and comrade in arms.
                 TestFailure:
                     - InqIntStat: SocietyRankCelhan, 998 - 1000
                         TestSuccess:
