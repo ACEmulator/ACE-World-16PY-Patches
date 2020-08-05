@@ -1,7 +1,7 @@
-DELETE FROM `weenie` WHERE `class_Id` = 49351;
+DELETE FROM `weenie` WHERE `class_Id` = 49351; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49351, 'ace49351-electrifiedmoaressence200', 70, '2019-12-07 05:48:23') /* PetDevice */;
+VALUES (49351, 'ace49351-electrifiedmoaressence200', 70, '2020-08-04 09:03:10') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49351,   1,        128) /* ItemType - Misc */
@@ -22,6 +22,7 @@ VALUES (49351,   1,        128) /* ItemType - Misc */
      , (49351, 362,          3) /* SummoningMastery - Naturalist */
      , (49351, 366,         54) /* UseRequiresSkill */
      , (49351, 367,        570) /* UseRequiresSkillLevel */
+     , (49351, 368,         54) /* UseRequiresSkillSpec */
      , (49351, 369,        185) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,7 +35,7 @@ VALUES (49351,   1, False) /* Stuck */
      , (49351,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49351,  39, 0.400000005960464) /* DefaultScale */
+VALUES (49351,  39,     0.4) /* DefaultScale */
      , (49351, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -49,3 +50,4 @@ VALUES (49351,   1,   33554817) /* Setup */
      , (49351,  22,  872415275) /* PhysicsEffectTable */
      , (49351,  50,  100693032) /* IconOverlay */
      , (49351,  52,  100693024) /* IconUnderlay */;
+
