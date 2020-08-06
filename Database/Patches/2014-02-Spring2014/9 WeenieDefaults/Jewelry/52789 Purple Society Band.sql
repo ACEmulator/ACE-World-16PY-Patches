@@ -13,7 +13,7 @@ VALUES (52789,   1,          8) /* ItemType - Jewelry */
      , (52789,  33,          1) /* Bonded - Bonded */
      , (52789,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52789, 106,        325) /* ItemSpellcraft */
-     , (52789, 107,        961) /* ItemCurMana */
+     , (52789, 107,       1000) /* ItemCurMana */
      , (52789, 108,       1000) /* ItemMaxMana */
      , (52789, 109,          0) /* ItemDifficulty */
      , (52789, 114,          1) /* Attuned - Attuned */
