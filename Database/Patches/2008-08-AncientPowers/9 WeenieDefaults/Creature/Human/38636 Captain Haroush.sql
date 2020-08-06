@@ -19,7 +19,7 @@ VALUES (38636,   1,         16) /* ItemType - Creature */
      , (38636, 146,    1100000) /* XpOverride */
      , (38636, 188,          2) /* HeritageGroup - Gharundim */
      , (38636, 281,          2) /* Faction1Bits */
-     , (38636, 288,       1001) /* SocietyRankEldweb */;
+     , (38636, 288,        601) /* SocietyRankEldweb */;
 
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

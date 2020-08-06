@@ -19,7 +19,7 @@ VALUES (38635,   1,         16) /* ItemType - Creature */
      , (38635, 146,    1100000) /* XpOverride */
      , (38635, 188,          1) /* HeritageGroup - Aluvian */
      , (38635, 281,          1) /* Faction1Bits */
-     , (38635, 287,       1001) /* SocietyRankCelhan */;
+     , (38635, 287,        601) /* SocietyRankCelhan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38635,   1, True ) /* Stuck */;

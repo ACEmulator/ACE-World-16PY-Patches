@@ -16,10 +16,10 @@ VALUES (38629,   1,         16) /* ItemType - Creature */
      , (38629, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (38629, 113,          1) /* Gender - Male */
      , (38629, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (38629, 281,          4) /* Faction1Bits */
-     , (38629, 289,       1001) /* SocietyRankRadblo */
      , (38629, 146,    1100000) /* XpOverride */
-     , (38629, 188,          3) /* HeritageGroup - Sho */;
+     , (38629, 188,          3) /* HeritageGroup - Sho */
+     , (38629, 281,          4) /* Faction1Bits */
+     , (38629, 289,        601) /* SocietyRankRadblo */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38629,   1, True ) /* Stuck */;
@@ -122,5 +122,4 @@ VALUES (38629, 2,  2588,  0, 85, 0, False) /* Create Shirt (2588) for Wield */
      , (38629, 2, 38489,  0, 0, 0, False) /* Create Radiant Blood Sollerets (38489) for Wield */
      , (38629, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
      , (38629, 9, 38641,  0, 0, 0, False) /* Create  Joroshi key (38641) for ContainTreasure */;
-
 
