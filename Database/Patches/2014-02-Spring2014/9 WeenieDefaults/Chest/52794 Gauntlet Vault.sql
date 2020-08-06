@@ -50,4 +50,4 @@ VALUES (52794,     -1,  2960, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) 
      , (52794,   0.50, 52787, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Brown Society Locket (52787) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (52794, 0.6666, 52788, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Yellow Society Locket (52788) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (52794, 0.8333, 52789, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Purple Society Band (52789) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (52794,      1, 52790, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Blue Society Band (52790) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (52794,      1, 52790, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Blue Society Band (52790) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
