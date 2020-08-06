@@ -19,7 +19,7 @@ VALUES (38632,   1,         16) /* ItemType - Creature */
      , (38632, 146,    1100000) /* XpOverride */
      , (38632, 188,          3) /* HeritageGroup - Sho */
      , (38632, 281,          4) /* Faction1Bits */
-     , (38632, 289,       1001) /* SocietyRankRadblo */;    
+     , (38632, 289,        101) /* SocietyRankRadblo */;    
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38632,   1, True ) /* Stuck */;
@@ -116,4 +116,3 @@ VALUES (38632, 2, 29979,  1,  0, 0, False) /* Create Spadone (29979) for Wield *
      , (38632, 2, 25645,  0, 86, 0, False) /* Create Leather Leggins (25645) for Wield */
      , (38632, 2, 25646,  0, 86, 0, False) /* Create Leather Gauntlets (25646) for Wield */
      , (38632, 2, 07897,  0,  9, 1, False) /* Create Steel Toed Boots (07897) for Wield */;
-

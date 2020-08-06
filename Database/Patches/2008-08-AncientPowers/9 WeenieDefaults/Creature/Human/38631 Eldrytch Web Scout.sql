@@ -19,7 +19,7 @@ VALUES (38631,   1,         16) /* ItemType - Creature */
      , (38631, 146,    1100000) /* XpOverride */
      , (38631, 188,          2) /* HeritageGroup - Gharundim */
      , (38631, 281,          2) /* Faction1Bits */
-     , (38631, 288,       1001) /* SocietyRankEldweb */;
+     , (38631, 288,        101) /* SocietyRankEldweb */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38631,   1, True ) /* Stuck */;
@@ -121,4 +121,3 @@ VALUES (38631, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
      , (38631, 2, 25645,  0, 93, 0, False) /* Create Leather Leggins (25645) for Wield */
      , (38631, 2, 25646,  0, 93, 0, False) /* Create Leather Gauntlets (25646) for Wield */
      , (38631, 2, 07897,  0,  9, 1, False) /* Create Steel Toed Boots (07897) for Wield */;
-
