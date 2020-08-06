@@ -27,7 +27,8 @@ VALUES (52794,   1, True ) /* Stuck */
      , (52794,  86, True ) /* ChestRegenOnClose */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52794,  41,      10) /* RegenerationInterval */
+VALUES (52794,  11,     120) /* ResetInterval */
+     , (52794,  41,      10) /* RegenerationInterval */
      , (52794,  43,       1) /* GeneratorRadius */
      , (52794,  54,       1) /* UseRadius */;
 
@@ -44,7 +45,7 @@ VALUES (52794,   1,   33560226) /* Setup */
      , (52794,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52794,     -1,  2960, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate UNKNOWN RANDOMLY GENERATED TREASURE (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
+VALUES (52794,     -1,  2960, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 8 from Death Treasure Table id: 2960 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
      , (52794, 0.1666, 52785, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Red Society Band (52785) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (52794, 0.3333, 52786, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Green Society Band (52786) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (52794,   0.50, 52787, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Brown Society Locket (52787) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
