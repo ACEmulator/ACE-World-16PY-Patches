@@ -25,7 +25,7 @@ VALUES (52782,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52782,   1, 'Gauntlet Treasure Key') /* Name */
-     , (52783,  13, 'keyGauntletTreasure') /* KeyCode */
+     , (52782,  13, 'keyGauntletTreasure') /* KeyCode */
      , (52782,  14, 'Use this key to open a Gauntlet Armor, Magic, or Weapon Chest.') /* Use */
      , (52782,  16, 'A dark silver key.') /* LongDesc */;
 
