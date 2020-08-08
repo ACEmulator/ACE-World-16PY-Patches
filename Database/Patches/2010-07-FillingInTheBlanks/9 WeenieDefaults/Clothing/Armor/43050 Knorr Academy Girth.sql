@@ -37,7 +37,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43050,   1, 'Knorr Academy Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43050,   1,   33554655) /* Setup */
+VALUES (43050,   1,   33554647) /* Setup */
      , (43050,   3,  536870932) /* SoundTable */
      , (43050,   6,   67108990) /* PaletteBase */
      , (43050,   7,  268437428) /* ClothingBase */
