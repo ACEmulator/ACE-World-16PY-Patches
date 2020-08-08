@@ -19,10 +19,6 @@ VALUES (2087358541, 46425, 3332964380, 81.35, 94.862, 42.005, 0.0496333, 0, 0, -
 /* @teleloc 0xC6A9001C [81.350000 94.862000 42.005000] 0.049633 0.000000 0.000000 -0.998767 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2087358542, 28968, 3332964617, 70.1037, 31.2587, 42.005, -0.890243, 0, 0, -0.455486, False, '2019-02-15 14:34:36'); /* Guard Audrey */
-/* @teleloc 0xC6A90109 [70.103700 31.258700 42.005000] -0.890243 0.000000 0.000000 -0.455486 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2087358543, 45495, 3332964718, 100.901, 85.6844, 46.805, 0.990311, 0, 0, -0.138866, False, '2019-02-15 14:34:36'); /* Emissary of Asheron */
 /* @teleloc 0xC6A9016E [100.901000 85.684400 46.805000] 0.990311 0.000000 0.000000 -0.138866 */
 

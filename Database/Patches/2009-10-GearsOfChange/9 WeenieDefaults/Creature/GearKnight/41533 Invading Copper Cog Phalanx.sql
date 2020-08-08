@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41533;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41533, 'ace41533-invadingcoppercogphalanx', 10, '2020-01-26 15:56:13') /* Creature */;
+VALUES (41533, 'ace41533-invadingcoppercogphalanx', 10, '2020-08-02 15:56:13') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41533,   1,         16) /* ItemType - Creature */
@@ -15,10 +15,7 @@ VALUES (41533,   1,         16) /* ItemType - Creature */
      , (41533, 146,     250000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41533,   1, True ) /* Stuck */
-     , (41533,  12, True ) /* ReportCollisions */
-     , (41533,  14, True ) /* GravityStatus */
-     , (41533,  19, True ) /* Attackable */;
+VALUES (41533,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41533,   1,       5) /* HeartbeatInterval */
@@ -47,7 +44,8 @@ VALUES (41533,   1,       5) /* HeartbeatInterval */
      , (41533,  70,     1.2) /* ResistElectric */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41533,   1, 'Invading Copper Cog Phalanx') /* Name */;
+VALUES (41533,   1, 'Invading Copper Cog Phalanx') /* Name */
+     , (41533,  45, 'GearknightInvasionPhalanxKilltask_0513') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41533,   1,   33560842) /* Setup */
@@ -106,6 +104,8 @@ VALUES (41533, 9, 41528,  1, 0, 0.35, False) /* Create Aetherium Power Core (415
      , (41533, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (41533, 9, 34276,  1, 0, 0.02, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */
      , (41533, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (41533, 9, 51266,  1, 0, 0.20, False) /* Create Pile of Gearknight Parts (51266) for ContainTreasure */
+     , (41533, 9,     0,  1, 0, 0.80, False) /* Create nothing for ContainTreasure */
      , (41533, 10, 41237,  1, 0, 0.2, False) /* Create Gearknight Sword (41237) for WieldTreasure */
      , (41533, 10, 41246,  1, 0, 0.2, False) /* Create Acid Gearknight Sword (41246) for WieldTreasure */
      , (41533, 10, 41247,  1, 0, 0.2, False) /* Create Electric Gearknight Sword (41247) for WieldTreasure */
