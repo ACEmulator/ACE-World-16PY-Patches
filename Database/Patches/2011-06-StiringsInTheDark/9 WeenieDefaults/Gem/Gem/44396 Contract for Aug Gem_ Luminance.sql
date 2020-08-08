@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44396, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44396,   1, 'Contract for Aug Gem: Luminance') /* Name */;
+VALUES (44396,   1, 'Contract for Aug Gem: Luminance') /* Name */
      , (44396,  14, 'Recommended Level: 200') /* Use */
      , (44396,  16, 'Purchase a Blank Augmentation Gem with Luminance.') /* LongDesc */;
 
