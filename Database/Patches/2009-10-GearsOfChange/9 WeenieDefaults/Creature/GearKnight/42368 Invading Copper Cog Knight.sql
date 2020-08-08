@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42368;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42368, 'ace42368-invadingcoppercogknight', 10, '2020-04-13 19:56:35') /* Creature */;
+VALUES (42368, 'ace42368-invadingcoppercogknight', 10, '2020-08-02 19:56:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42368,   1,         16) /* ItemType - Creature */
@@ -15,10 +15,7 @@ VALUES (42368,   1,         16) /* ItemType - Creature */
      , (42368, 146,     800000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42368,   1, True ) /* Stuck */
-     , (42368,  12, True ) /* ReportCollisions */
-     , (42368,  14, True ) /* GravityStatus */
-     , (42368,  19, True ) /* Attackable */;
+VALUES (42368,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42368,   1,       5) /* HeartbeatInterval */
@@ -111,6 +108,8 @@ VALUES (42368, 9, 41528,  1, 0, 0.35, True) /* Create  (41528) for ContainTreasu
      , (42368, 9,     0,  1, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (42368, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (42368, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (42368, 9, 51266,  1, 0, 0.95, False) /* Create Pile of Gearknight Parts (51266) for ContainTreasure */
+     , (42368, 9,     0,  1, 0, 0.05, False) /* Create nothing for ContainTreasure */
      , (42368, 10, 41245,  1, 0, 0.2, True) /* Create  (41245) for WieldTreasure */
      , (42368, 10, 41237,  1, 0, 0.2, True) /* Create  (41237) for WieldTreasure */
      , (42368, 10, 41246,  1, 0, 0.15, True) /* Create  (41246) for WieldTreasure */

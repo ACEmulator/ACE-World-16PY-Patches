@@ -2,13 +2,13 @@ Use:
     - TurnToTarget
     - InqQuest: EnlightenedRadiantBloodMaster
         QuestSuccess:
-            - Tell: Welcome back, Master.
+            - Tell: Welcome back, Master and comrade in arms.
             - SetIntStat: SocietyRankRadblo, 1001
             - EraseQuest: EnlightenedRadiantBloodMaster
         QuestFailure:
             - InqIntStat: SocietyRankRadblo, 1001 - 1001
                 TestSuccess:
-                    - Tell: Greetings, Master.
+                    - Tell: Greetings, Master and comrade in arms.
                 TestFailure:
                     - InqIntStat: SocietyRankRadblo, 998 - 1000
                         TestSuccess:

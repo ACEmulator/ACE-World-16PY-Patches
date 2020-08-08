@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44034;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44034, 'ace44034-burningsandsgolem', 10, '2019-08-16 00:00:00') /* Creature */;
+VALUES (44034, 'ace44034-burningsandsgolem', 10, '2020-08-03 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44034,   1,         16) /* ItemType - Creature */
@@ -150,6 +150,8 @@ VALUES (44034, 1, 24517, -1, 3, 3, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Sma
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44034, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44034, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (44034, 9, 48941,  1, 0, 0.05, False) /* Create Burning Sands Golem Heart for ContainTreasure */
+     , (44034, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (44034, 9, 41979,  1, 0, 0.1, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (44034, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (44034, 9,  6353,  1, 0, 0.2, False) /* Pyreal mote for ContainTreasure */

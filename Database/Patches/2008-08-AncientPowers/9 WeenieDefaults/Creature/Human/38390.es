@@ -23,18 +23,18 @@ Use:
             - InqQuestBitsOff: SocietyMember, 0x7
                 QuestSuccess:
                     - Tell: Greetings. My name is Ayesha. It is my honor and duty to aid people who wish to join our Society to prove themselves and be properly initiated to our Society.
-                    - Delay: 1, Act: %n looks at some notes on a scroll.
+                    - Delay: 1, DirectBroadcast: %n looks at some notes on a scroll.
                     - Delay: 1, Tell: I see that you have aided Jondor Torgren in Zaikhal and met with our recruiter in Ayan Baqur to receive a copy of our manifesto.
                     - Tell: If you wish to join our Society, then I have a task for you, to prove your commitment. In the swamps of middle Osteth there is a cave. In that cave is the entrance to the Corrupted Catacombs. If you search around 23.9S, 54.1E, you should find the entrance.
                     - Tell: In those catacombs, you'll find a Corrupted Mana Shard. Retrieve the Shard and bring it to me, and your test will be complete.
                     - Tell: Be warned, once you have the Shard, it'll be rather unstable, and will last only an hour before it turns to dust. I'll cast a spell on you that will protect you from the corruption of the Shard. I wouldn't recommend touching it without the protections.
-                    - Delay: 1, Act: %n chants briefly, and then touches your brow.
+                    - Delay: 1, DirectBroadcast: %n chants briefly, and then touches your brow.
                     - StampQuest: CanPickupCorruptedManaShard
                     - Tell: There, you should now be able to carry the Corrupted Mana Shard safely.
                 QuestFailure:
                     - InqQuestBitsOn: SocietyMember, 0x4
                         QuestSuccess:
-                            - Act: %n snaps to attention as you approach.
+                            - DirectBroadcast: %n snaps to attention as you approach.
                             - Motion: Salute
                             - Tell: Do you need another Handbook? Here you go.
                             - Give: Radiant Blood Initiate's Handbook (38399)

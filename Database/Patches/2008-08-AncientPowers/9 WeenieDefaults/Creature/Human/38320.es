@@ -2,13 +2,13 @@ Use:
     - TurnToTarget
     - InqQuest: EnlightenedEldrytchWebMaster
         QuestSuccess:
-            - Tell: Welcome back, Master.
+            - Tell: Welcome back, Master and comrade in arms.
             - SetIntStat: SocietyRankEldweb, 1001
             - EraseQuest: EnlightenedEldrytchWebMaster
         QuestFailure:
             - InqIntStat: SocietyRankEldweb, 1001 - 1001
                 TestSuccess:
-                    - Tell: Greetings, Master.
+                    - Tell: Greetings, Master and comrade in arms.
                 TestFailure:
                     - InqIntStat: SocietyRankEldweb, 998 - 1000
                         TestSuccess:
