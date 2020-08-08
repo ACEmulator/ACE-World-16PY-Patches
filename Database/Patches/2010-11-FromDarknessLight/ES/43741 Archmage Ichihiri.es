@@ -28,7 +28,7 @@ Refuse: 43742
                 TestFailure:
                     - Tell: There must be 10 samples!
         QuestFailure:
-            - Tell: TuskerBloodCollectionWait@%tqt
+            - Tell: I do not accept items from just any random adventurer. Let's have a conversation to discuss your worthiness.  
 
 Use:
     - TurnToTarget
