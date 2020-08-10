@@ -15,6 +15,7 @@ VALUES (37291,   1,          2) /* ItemType - Armor */
      , (37291,  36,       9999) /* ResistMagic */
      , (37291,  51,          4) /* CombatUse - Shield */
      , (37291,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37291, 124,          3) /* Version */
      , (37291, 150,        103) /* HookPlacement - Hook */
      , (37291, 151,          2) /* HookType - Wall */
      , (37291, 169,  134285060) /* TsysMutationData */;
