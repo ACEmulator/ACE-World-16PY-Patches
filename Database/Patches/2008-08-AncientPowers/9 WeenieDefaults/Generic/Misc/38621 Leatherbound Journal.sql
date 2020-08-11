@@ -4,27 +4,27 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (38621, 'ace38621-leatherboundjournal', 1, '2019-02-10 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (38375,   1,        128) /* ItemType - Misc */
-     , (38375,   5,        460) /* EncumbranceVal */
-     , (38375,  16,          1) /* ItemUseable - No */
-     , (38375,  19,          0) /* Value */
-     , (38375,  33,          1) /* Bonded - Bonded */
-     , (38375,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38375, 114,          1) /* Attuned - Attuned */
-     , (38375, 279,          1) /* Unique */;
+VALUES (38621,   1,        128) /* ItemType - Misc */
+     , (38621,   5,        460) /* EncumbranceVal */
+     , (38621,  16,          1) /* ItemUseable - No */
+     , (38621,  19,          0) /* Value */
+     , (38621,  33,          1) /* Bonded - Bonded */
+     , (38621,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38621, 114,          1) /* Attuned - Attuned */
+     , (38621, 279,          1) /* Unique */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38375,  22, True ) /* Inscribable */
-     , (38375,  69, False) /* IsSellable */
-     , (38375,  99, False) /* Ivoryable */;
+VALUES (38621,  22, True ) /* Inscribable */
+     , (38621,  69, False) /* IsSellable */
+     , (38621,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38621,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38621,   1, 'Leatherbound Journal') /* Name */
-     , (38375,  14, 'You may not remove this from the dais safely without some advanced training.') /* Use */
-     , (38375,  16, 'This ancient tome glows with a warm green light. Falatacot writing covers the front.') /* LongDesc */;
+     , (38621,  14, 'You may not remove this from the dais safely without some advanced training.') /* Use */
+     , (38621,  16, 'This ancient tome glows with a warm green light. Falatacot writing covers the front.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38621,   1,   33556929) /* Setup */
