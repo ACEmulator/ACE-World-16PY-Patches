@@ -1,7 +1,12 @@
 Give: Lens of the Filinuvekta (38648)
-    - Tell: You have done a great service for the Eldrytch Web and earned an advancement to the rank of Adept. Report to the Promotions Officer to receive your trappings of rank.
-    - IncrementIntStat: SocietyRankEldweb, 3
-    - EraseQuest: OnAdeptTest
+    - TurnToTarget
+        - InqIntStat: SocietyRankEldweb, 95 - 95
+            TestSuccess:
+                - Tell: Truly? You managed to recover all three fragments from Benedino? A fortuitous development. I think the Web has done well, to recruit you into its ranks...
+                - Tell: You have done a great service for the Eldrytch Web and earned an advancement to the rank of Adept. Report to the Promotions Officer to receive your trappings of rank.
+                - IncrementIntStat: SocietyRankEldweb, 3
+                - EraseQuest: OnAdeptTest
+            #TestFailure:
 
 Use:
     - TurnToTarget
