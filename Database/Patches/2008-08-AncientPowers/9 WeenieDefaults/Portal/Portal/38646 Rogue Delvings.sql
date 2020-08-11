@@ -12,19 +12,14 @@ VALUES (38646,   1,      65536) /* ItemType - Portal */
      , (38646, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38646,   1, True ) /* Stuck */
-     , (38646,  12, True ) /* ReportCollisions */
-     , (38646,  13, True ) /* Ethereal */
-     , (38646,  14, True ) /* GravityStatus */
-     , (38646,  15, True ) /* LightsStatus */
-     , (38646,  19, True ) /* Attackable */
-     , (38646,  88, True ) /* PortalShowDestination */;
+VALUES (38646,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38646,  54, -0.100000001490116) /* UseRadius */;
+VALUES (38646,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38646,   1, 'Rogue Delvings') /* Name */;
+VALUES (38646,   1, 'Rogue Delvings') /* Name */
+     , (38646,  37, 'OnAdeptTest') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38646,   1,   33555925) /* Setup */
