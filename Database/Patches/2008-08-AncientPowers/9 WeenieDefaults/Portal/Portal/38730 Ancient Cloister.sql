@@ -12,19 +12,14 @@ VALUES (38730,   1,      65536) /* ItemType - Portal */
      , (38730, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38730,   1, True ) /* Stuck */
-     , (38730,  12, True ) /* ReportCollisions */
-     , (38730,  13, True ) /* Ethereal */
-     , (38730,  14, True ) /* GravityStatus */
-     , (38730,  15, True ) /* LightsStatus */
-     , (38730,  19, True ) /* Attackable */
-     , (38730,  88, True ) /* PortalShowDestination */;
+VALUES (38730,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38730,  54, -0.100000001490116) /* UseRadius */;
+VALUES (38730,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38730,   1, 'Ancient Cloister') /* Name */;
+VALUES (38730,   1, 'Ancient Cloister') /* Name */
+     , (38730,  37, 'OnKnightTest') /* QuestRestriction */;;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38730,   1,   33555925) /* Setup */
