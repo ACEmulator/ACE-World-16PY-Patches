@@ -12,7 +12,7 @@ Use:
     - TurnToTarget
     - InqIntStat: SocietyRankEldweb, 99 - 1001
         TestSuccess:
-            - Tell: It is nice to see you again. I can do no more for you, however.
+            - Tell: Always an honor.
         TestFailure:
             - InqIntStat: SocietyRankEldweb, 98 - 98
                 TestSuccess:
@@ -28,4 +28,4 @@ Use:
                                     - Tell: Our scouts have tracked Benedino to a facility called the Rogue Delvings, an offshoot of the Mage Academy that Lord Rytheran of Menilesh established. Unfortunately, forces from the Celestial Hand and Radiant Blood have chased him there as well, and we have fought ourselves to a stalemate while Benedino laughs at us behind his walls. You must break the stalemate. Our own forces occupy the northern branch of the dungeon. Seek out Captain Haroush, and he will tell you how to proceed.
                                     - StampQuest: OnAdeptTest
                         TestFailure:
-                            - Tell: You are not yet ready for the task I require.
+                            - Tell: You have not proven yourself worthy of the title of Adept.  Speak with the Commendations Officer if you wish to rise within our ranks.
