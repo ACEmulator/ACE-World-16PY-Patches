@@ -34,9 +34,9 @@ VALUES (38636,   1,       5) /* HeartbeatInterval */
      , (38636,  13,     0.9) /* ArmorModVsSlash */
      , (38636,  14,       1) /* ArmorModVsPierce */
      , (38636,  15,     1.1) /* ArmorModVsBludgeon */
-     , (38636,  16,     0.4) /* ArmorModVsCold */
-     , (38636,  17,     0.4) /* ArmorModVsFire */
-     , (38636,  18,       1) /* ArmorModVsAcid */
+     , (38636,  16,     0.8) /* ArmorModVsCold */
+     , (38636,  17,     0.8) /* ArmorModVsFire */
+     , (38636,  18,    0.65) /* ArmorModVsAcid */
      , (38636,  19,     0.6) /* ArmorModVsElectric */
      , (38636,  31,      13) /* VisualAwarenessRange */
      , (38636,  64,     0.4) /* ResistSlash */
@@ -45,7 +45,7 @@ VALUES (38636,   1,       5) /* HeartbeatInterval */
      , (38636,  67,     0.4) /* ResistFire */
      , (38636,  68,     0.4) /* ResistCold */
      , (38636,  69,     0.4) /* ResistAcid */
-     , (38636,  70,     0.4) /* ResistElectric */
+     , (38636,  70,    0.75) /* ResistElectric */
      , (38636,  71,       1) /* ResistHealthBoost */
      , (38636,  72,       1) /* ResistStaminaDrain */
      , (38636,  73,       1) /* ResistStaminaBoost */
@@ -66,13 +66,8 @@ VALUES (38636,   1,   33554433) /* Setup */
      , (38636,   4,  805306368) /* CombatTable */
      , (38636,   6,   67108990) /* PaletteBase */
      , (38636,   8,  100667446) /* Icon */
-     , (38636,   9,   83890480) /* EyesTexture */
-     , (38636,  10,   83890562) /* NoseTexture */
-     , (38636,  11,   83890564) /* MouthTexture */
-     , (38636,  15,   67116998) /* HairPalette */
-     , (38636,  16,   67110063) /* EyesPalette */
-     , (38636,  17,   67109550) /* SkinPalette */
-     , (38636,  22,  872415236) /* PhysicsEffectTable */;
+     , (38636,  22,  872415236) /* PhysicsEffectTable */
+     , (38636,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38636, 8040, 14680636, 151.677, -31.286, 6.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
@@ -92,17 +87,17 @@ VALUES (38636,   1,    1190, 0, 0, 1500) /* MaxHealth */
      , (38636,   5,    2420, 0, 0, 2720) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (38636,  6, 0, 3, 0, 400, 0,    0) /* MeleeDefense        Specialized */
-     , (38636,  7, 0, 3, 0, 367, 0,    0) /* MissileDefense      Specialized */
-     , (38636, 15, 0, 3, 0, 345, 0,    0) /* MagicDefense        Specialized */
-     , (38636, 20, 0, 3, 0, 420, 0,    0) /* Deception           Specialized */
-     , (38636, 33, 0, 3, 0, 375, 0,    0) /* LifeMagic           Specialized */
-     , (38636, 34, 0, 3, 0, 375, 0,    0) /* WarMagic            Specialized */
-     , (38636, 41, 0, 3, 0, 445, 0,    0) /* Two Handed          Specialized */
-     , (38636, 44, 0, 3, 0, 445, 0,    0) /* Heavy Weapons       Specialized */
-     , (38636, 45, 0, 3, 0, 445, 0,    0) /* Light Weapons       Specialized */
-     , (38636, 46, 0, 3, 0, 445, 0,    0) /* Finesse Weapons     Specialized */
-     , (38636, 47, 0, 3, 0, 445, 0,    0) /* Missile Weapons     Specialized */  ;
+VALUES (38636,  6, 0, 3, 0, 237, 0, 0) /* MeleeDefense         Specialized */
+     , (38636,  7, 0, 3, 0, 272, 0, 0) /* MissileDefense       Specialized */
+     , (38636, 15, 0, 3, 0, 359, 0, 0) /* MagicDefense         Specialized */
+     , (38636, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
+     , (38636, 33, 0, 3, 0, 240, 0, 0) /* LifeMagic            Specialized */
+     , (38636, 34, 0, 3, 0, 240, 0, 0) /* WarMagic             Specialized */
+     , (38636, 41, 0, 3, 0, 287, 0, 0) /* TwoHandedCombat      Specialized */
+     , (38636, 44, 0, 3, 0, 287, 0, 0) /* HeavyWeapons         Specialized */
+     , (38636, 45, 0, 3, 0, 287, 0, 0) /* LightWeapons         Specialized */
+     , (38636, 46, 0, 3, 0, 287, 0, 0) /* FinesseWeapons       Specialized */
+     , (38636, 47, 0, 3, 0, 340, 0, 0) /* MissileWeapons       Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (38636,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -116,7 +111,15 @@ VALUES (38636,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,
      , (38636,  8,  4,  8, 0.75,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38636,  2136,   2.02)  /* Icy Torment */;
+VALUES (38636,  2074,    2.02)  /* Gossamer Flesh */
+     , (38636,  2122,    2.02)  /* Disintegration */
+     , (38636,  2132,    2.02)  /* The Spike */
+     , (38636,  2136,    2.02)  /* Icy Torment */
+     , (38636,  2144,    2.02)  /* Crushing Shame */
+     , (38636,  2162,    2.02)  /* Olthoi's Gift */
+     , (38636,  2166,    2.02)  /* Tusker's Gift */
+     , (38636,  2168,    2.02)  /* Gelidite's Gift */
+     , (38636,  2174,    2.02)  /* Archer's Gift */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38636, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */

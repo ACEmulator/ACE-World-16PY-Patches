@@ -31,9 +31,9 @@ VALUES (38633,   1,       5) /* HeartbeatInterval */
      , (38633,  13,     0.9) /* ArmorModVsSlash */
      , (38633,  14,       1) /* ArmorModVsPierce */
      , (38633,  15,     1.1) /* ArmorModVsBludgeon */
-     , (38633,  16,     0.4) /* ArmorModVsCold */
-     , (38633,  17,     0.4) /* ArmorModVsFire */
-     , (38633,  18,       1) /* ArmorModVsAcid */
+     , (38633,  16,     0.8) /* ArmorModVsCold */
+     , (38633,  17,     0.8) /* ArmorModVsFire */
+     , (38633,  18,    0.65) /* ArmorModVsAcid */
      , (38633,  19,     0.6) /* ArmorModVsElectric */
      , (38633,  31,      13) /* VisualAwarenessRange */
      , (38633,  64,     0.4) /* ResistSlash */
@@ -42,7 +42,7 @@ VALUES (38633,   1,       5) /* HeartbeatInterval */
      , (38633,  67,     0.4) /* ResistFire */
      , (38633,  68,     0.4) /* ResistCold */
      , (38633,  69,     0.4) /* ResistAcid */
-     , (38633,  70,     0.4) /* ResistElectric */
+     , (38633,  70,    0.75) /* ResistElectric */
      , (38633,  71,       1) /* ResistHealthBoost */
      , (38633,  72,       1) /* ResistStaminaDrain */
      , (38633,  73,       1) /* ResistStaminaBoost */
@@ -62,7 +62,8 @@ VALUES (38633,   1,   33554433) /* Setup */
      , (38633,   4,  805306368) /* CombatTable */
      , (38633,   6,   67108990) /* PaletteBase */
      , (38633,   8,  100667446) /* Icon */
-     , (38633,  22,  872415236) /* PhysicsEffectTable */;
+     , (38633,  22,  872415236) /* PhysicsEffectTable */
+     , (38633,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38633, 8040, 14680416, 208.309, -440.3, -11.995, -0.05417702, 0, 0, -0.9985313) /* PCAPRecordedLocation */
@@ -82,17 +83,17 @@ VALUES (38633,   1,    1190, 0, 0, 1200) /* MaxHealth */
      , (38633,   5,    320, 0, 0, 320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (38633,  6, 0, 3, 0, 400, 0,    0) /* MeleeDefense        Specialized */
-     , (38633,  7, 0, 3, 0, 367, 0,    0) /* MissileDefense      Specialized */
-     , (38633, 15, 0, 3, 0, 345, 0,    0) /* MagicDefense        Specialized */
-     , (38633, 20, 0, 3, 0, 420, 0,    0) /* Deception           Specialized */
-     , (38633, 33, 0, 3, 0, 375, 0,    0) /* LifeMagic           Specialized */
-     , (38633, 34, 0, 3, 0, 375, 0,    0) /* WarMagic            Specialized */
-     , (38633, 41, 0, 3, 0, 445, 0,    0) /* Two Handed          Specialized */
-     , (38633, 44, 0, 3, 0, 445, 0,    0) /* Heavy Weapons       Specialized */
-     , (38633, 45, 0, 3, 0, 445, 0,    0) /* Light Weapons       Specialized */
-     , (38633, 46, 0, 3, 0, 445, 0,    0) /* Finesse Weapons     Specialized */
-     , (38633, 47, 0, 3, 0, 445, 0,    0) /* Missile Weapons     Specialized */  ;
+VALUES (38633,  6, 0, 3, 0, 187, 0, 0) /* MeleeDefense         Specialized */
+     , (38633,  7, 0, 3, 0, 222, 0, 0) /* MissileDefense       Specialized */
+     , (38633, 15, 0, 3, 0, 309, 0, 0) /* MagicDefense         Specialized */
+     , (38633, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
+     , (38633, 33, 0, 3, 0, 165, 0, 0) /* LifeMagic            Specialized */
+     , (38633, 34, 0, 3, 0, 165, 0, 0) /* WarMagic             Specialized */
+     , (38633, 41, 0, 3, 0, 207, 0, 0) /* TwoHandedCombat      Specialized */
+     , (38633, 44, 0, 3, 0, 207, 0, 0) /* HeavyWeapons         Specialized */
+     , (38633, 45, 0, 3, 0, 207, 0, 0) /* LightWeapons         Specialized */
+     , (38633, 46, 0, 3, 0, 207, 0, 0) /* FinesseWeapons       Specialized */
+     , (38633, 47, 0, 3, 0, 260, 0, 0) /* MissileWeapons       Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (38633,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -106,9 +107,8 @@ VALUES (38633,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,
      , (38633,  8,  4,  8, 0.75,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38633,  2206,   2.02)  /* Missile Weapon Mastery Other VII */
-     , (38633,  2505,   2.02)  /* Major Missile Weapon Aptitude */
-     , (38633,  4089,   2.02)  /* Assassin's Gift */
+VALUES (38633,  4394,   2.01)  /* Incantation of Blade Lure */
+     , (38633,  4475,   2.02)  /* Incantation of Blade Vulnerability Other */
      , (38633,  4458,   2.02)  /* Incantation of Whirling Blade Streak */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
