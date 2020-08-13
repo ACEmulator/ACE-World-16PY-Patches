@@ -134,7 +134,7 @@ VALUES (38442,    2176,  2.02)  /* Enervation */
      , (38442,    4487,  2.02)  /* Incantation of Exhaustion Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38442, 9, 70322,  0, 0, 0.05, False) /* Create Armored Sclavus Head (70322) for ContainTreasure */
+VALUES (38442, 9, 70323,  0, 0, 0.05, False) /* Create Armored Sclavus Head (70323) for ContainTreasure */
      , (38442, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (38442, 9,  9259,  0, 0, 0.02, False) /* Create Large Sclavus Hide (9259) for ContainTreasure */
      , (38442, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
