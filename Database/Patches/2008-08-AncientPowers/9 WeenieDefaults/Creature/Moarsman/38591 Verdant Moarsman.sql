@@ -10,7 +10,7 @@ VALUES (38591,   1,         16) /* ItemType - Creature */
      , (38591,   6,         -1) /* ItemsCapacity */
      , (38591,   7,         -1) /* ContainersCapacity */
      , (38591,  16,          1) /* ItemUseable - No */
-     , (38591,  25,        220) /* Level */
+     , (38591,  25,        200) /* Level */
      , (38591,  27,          0) /* ArmorType - None */
      , (38591,  40,          2) /* CombatMode - Melee */
      , (38591,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
@@ -18,7 +18,7 @@ VALUES (38591,   1,         16) /* ItemType - Creature */
      , (38591, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (38591, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (38591, 140,          1) /* AiOptions - CanOpenDoors */
-     , (38591, 146,    1400000) /* XpOverride */;
+     , (38591, 146,    1100000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38591,   1, True ) /* Stuck */;
@@ -35,20 +35,20 @@ VALUES (38591,   1,       5) /* HeartbeatInterval */
      , (38591,  16,    0.65) /* ArmorModVsCold */
      , (38591,  17,    0.85) /* ArmorModVsFire */
      , (38591,  18,    0.65) /* ArmorModVsAcid */
-     , (38591,  19,    0.75) /* ArmorModVsElectric */
+     , (38591,  19,    0.55) /* ArmorModVsElectric */
      , (38591,  31,      18) /* VisualAwarenessRange */
      , (38591,  34,       1) /* PowerupTime */
      , (38591,  36,       1) /* ChargeSpeed */
      , (38591,  39,     1.6) /* DefaultScale */
      , (38591,  55,      60) /* HomeRadius */
      , (38591,  62,     1.5) /* WeaponOffense */
-     , (38591,  64,     0.9) /* ResistSlash */
+     , (38591,  64,    0.65) /* ResistSlash */
      , (38591,  65,    0.55) /* ResistPierce */
-     , (38591,  66,     0.4) /* ResistBludgeon */
+     , (38591,  66,    0.65) /* ResistBludgeon */
      , (38591,  67,     0.4) /* ResistFire */
-     , (38591,  68,    0.85) /* ResistCold */
-     , (38591,  69,    0.85) /* ResistAcid */
-     , (38591,  70,       1) /* ResistElectric */
+     , (38591,  68,     0.5) /* ResistCold */
+     , (38591,  69,     0.3) /* ResistAcid */
+     , (38591,  70,     0.8) /* ResistElectric */
      , (38591,  71,       1) /* ResistHealthBoost */
      , (38591,  72,       1) /* ResistStaminaDrain */
      , (38591,  73,       1) /* ResistStaminaBoost */
@@ -70,7 +70,8 @@ VALUES (38591,   1,   33556882) /* Setup */
      , (38591,   7,  268436086) /* ClothingBase */
      , (38591,   8,  100671185) /* Icon */
      , (38591,  22,  872415337) /* PhysicsEffectTable */
-     , (38591,  30,         86) /* PhysicsScript - BreatheAcid */;
+     , (38591,  30,         86) /* PhysicsScript - BreatheAcid */
+     , (38591,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38591, 8040, 15401690, 105.873, -120.745, -5.9934, 0.9373289, 0, 0, 0.348446) /* PCAPRecordedLocation */
@@ -95,7 +96,7 @@ VALUES (38591,  6, 0, 3, 0, 180, 0, 0) /* MeleeDefense        Specialized */
      , (38591, 15, 0, 3, 0, 230, 0, 0) /* MagicDefense        Specialized */
      , (38591, 20, 0, 2, 0, 120, 0, 0) /* Deception           Trained */
      , (38591, 24, 0, 2, 0,  55, 0, 0) /* Run                 Trained */
-     , (38591, 45, 0, 3, 0, 216, 0, 0) /* LightWeapons        Specialized */;
+     , (38591, 45, 0, 3, 0, 230, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (38591,  0,  4, 300,    0,  425,  350,  400,  400,  375,  400,  400,  325,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -114,5 +115,4 @@ VALUES (38591, 9, 24477,  1, 0, 0.04, False) /* Create Sturdy Steel Key (24477) 
      , (38591, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (38591, 9, 32274,  1, 0, 0.20, False) /* Create Moarsmuck (32274) for ContainTreasure */
      , (38591, 9,     0,  0, 0, 0.80, False) /* Create nothing for ContainTreasure */;
-     
-     
+

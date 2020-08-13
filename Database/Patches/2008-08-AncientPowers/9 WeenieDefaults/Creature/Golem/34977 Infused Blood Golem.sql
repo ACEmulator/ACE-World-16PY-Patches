@@ -10,7 +10,7 @@ VALUES (34977,   1,         16) /* ItemType - Creature */
      , (34977,   6,         -1) /* ItemsCapacity */
      , (34977,   7,         -1) /* ContainersCapacity */
      , (34977,  16,          1) /* ItemUseable - No */
-     , (34977,  25,        105) /* Level */
+     , (34977,  25,        185) /* Level */
      , (34977,  27,          0) /* ArmorType - None */
      , (34977,  40,          2) /* CombatMode - Melee */
      , (34977,  68,          9) /* TargetingTactic - Random, TopDamager */
@@ -34,18 +34,18 @@ VALUES (34977,   1,       5) /* HeartbeatInterval */
      , (34977,  13,     0.8) /* ArmorModVsSlash */
      , (34977,  14,     0.8) /* ArmorModVsPierce */
      , (34977,  15,    0.65) /* ArmorModVsBludgeon */
-     , (34977,  16,    0.75) /* ArmorModVsCold */
+     , (34977,  16,    0.55) /* ArmorModVsCold */
      , (34977,  17,    0.75) /* ArmorModVsFire */
-     , (34977,  18,    0.65) /* ArmorModVsAcid */
+     , (34977,  18,    0.55) /* ArmorModVsAcid */
      , (34977,  19,     0.8) /* ArmorModVsElectric */
      , (34977,  31,      22) /* VisualAwarenessRange */
      , (34977,  34,     2.3) /* PowerupTime */
      , (34977,  64,     0.1) /* ResistSlash */
      , (34977,  65,     0.1) /* ResistPierce */
-     , (34977,  66,     0.6) /* ResistBludgeon */
+     , (34977,  66,    0.45) /* ResistBludgeon */
      , (34977,  67,    0.25) /* ResistFire */
-     , (34977,  68,    0.25) /* ResistCold */
-     , (34977,  69,    0.55) /* ResistAcid */
+     , (34977,  68,    0.65) /* ResistCold */
+     , (34977,  69,    0.65) /* ResistAcid */
      , (34977,  70,     0.1) /* ResistElectric */
      , (34977,  71,       1) /* ResistHealthBoost */
      , (34977,  72,       1) /* ResistStaminaDrain */
@@ -60,7 +60,6 @@ VALUES (34977,   1,       5) /* HeartbeatInterval */
      , (34977, 124,       2) /* AiAcquireMana */
      , (34977, 125,       1) /* ResistHealthDrain */;
 
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34977,   1, 'Infused Blood Golem') /* Name */;
 
@@ -72,7 +71,8 @@ VALUES (34977,   1,   33559543) /* Setup */
      , (34977,   7,  268437015) /* ClothingBase */
      , (34977,   6,   67114905) /* PaletteBase */
      , (34977,   8,  100667940) /* Icon */
-     , (34977,  22,  872415322) /* PhysicsEffectTable */;
+     , (34977,  22,  872415322) /* PhysicsEffectTable */
+     , (34977,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34977, 8040, 13501411, 70, -60, 12.01, 1, 0, 0, 0) /* PCAPRecordedLocation */
@@ -91,18 +91,33 @@ VALUES (34977,   1,   700, 0, 0, 1200) /* MaxHealth */
      , (34977,   3,   700, 0, 0, 1700) /* MaxStamina */
      , (34977,   5,  3495, 0, 0, 3900) /* MaxMana */;
 
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (34977,  6, 0, 3, 0, 280, 0, 0) /* MeleeDefense        Specialized */
+     , (34977,  7, 0, 3, 0, 367, 0, 0) /* MissileDefense      Specialized */
+     , (34977, 15, 0, 3, 0, 345, 0, 0) /* MagicDefense        Specialized */
+     , (34977, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
+     , (34977, 33, 0, 3, 0, 350, 0, 0) /* LifeMagic           Specialized */
+     , (34977, 34, 0, 3, 0, 350, 0, 0) /* WarMagic            Specialized */
+     , (34977, 44, 0, 3, 0, 200, 0, 0) /* Heavy Weapons       Specialized */
+     , (34977, 45, 0, 3, 0, 200, 0, 0) /* LightWeapons        Specialized */
+     , (34977, 46, 0, 3, 0, 200, 0, 0) /* FinesseWeapons      Specialized */;
+
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (34977,  0,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
      , (34977,  1,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
      , (34977,  2,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (34977,  3,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (34977,  4,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (34977,  5,  4, 90, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (34977,  5,  4, 350, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (34977,  6,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (34977,  7,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (34977,  8,  4, 90, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (34977,  8,  4, 350, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34977,  2074,   2.02)  /* Gossamer Flesh */
      , (34977,  2166,   2.02)  /* Tusker's Gift */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34977, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (34977, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */;
 
