@@ -33,4 +33,3 @@ VALUES (70114, 0.125, 38613, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) 
 	 , (70114, 0.750, 70334, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Listris Sleech Generator (70334) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
 	 , (70114, 0.875, 70333, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sodden Ruschk Generator (70333) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (70114,     1, 70336, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Falatacot Consort Generator (70333) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
-
