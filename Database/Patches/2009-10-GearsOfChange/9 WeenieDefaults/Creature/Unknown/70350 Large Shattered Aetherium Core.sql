@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70350;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70350, 'ace70350-largeshatteredaetheriumcore', 1, '2020-08-13 19:33:16') /* Generic */;
+VALUES (70350, 'ace70350-largeshatteredaetheriumcore', 10, '2020-08-13 19:33:16') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70350,   1,         16) /* ItemType - Creature */
@@ -14,8 +14,7 @@ VALUES (70350,   1,         16) /* ItemType - Creature */
      , (70350,  95,          3) /* RadarBlipColor - White */
      , (70350, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (70350, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (70350, 267,        300) /* Lifespan */
-     , (70350, 268,        300) /* RemainingLifespan */;
+     , (70350, 267,        300) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70350,   1, True ) /* Stuck */
