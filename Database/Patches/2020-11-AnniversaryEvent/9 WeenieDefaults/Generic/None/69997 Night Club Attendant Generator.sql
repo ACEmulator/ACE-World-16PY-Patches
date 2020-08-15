@@ -39,8 +39,8 @@ VALUES (2076831797, 69997, 0xBC9F003C, 181.604935, 88.619019, 32.005001, 0.71442
 
 /* Hebian-To */
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
-VALUES (2121588944, 69997, 0xE74E0013, 60.000000, 60.000000, 1.000000, 0.714421, 0, 0, 0.000000,  False); /* Night Club Attendant Generator */
-/* @teleloc 0xE74E0013 [60.000000 60.000000 32.005001] 1.000000, 0.000000 0.000000 0.000000 */
+VALUES (2121588944, 69997, 0xE74E0013, 60.000000, 60.000000, 32.005001, 1.000000, 0, 0, 0.000000,  False); /* Night Club Attendant Generator */
+/* @teleloc 0xE74E0013 [60.000000 60.000000 32.005001] 1.000000 0.000000 0.000000 0.000000 */
 
 /* Sanamar */
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
