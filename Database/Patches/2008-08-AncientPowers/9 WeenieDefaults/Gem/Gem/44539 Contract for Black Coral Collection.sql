@@ -19,13 +19,16 @@ VALUES (44539,   1,       2048) /* ItemType - Gem */
      , (44539, 349,        133) /* UseCreatesContractId */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44539,  22, True ) /* Inscribable */;
+VALUES (44539,  22, True ) /* Inscribable */
+     , (44539,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44539, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44539,   1, 'Contract for Black Coral Collection') /* Name */;
+VALUES (44539,   1, 'Contract for Black Coral Collection') /* Name */
+     , (44539,  14, 'Recommended Level: 180') /* Use */
+     , (44539,  16, 'Collect 10 black coral from Dark Isle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44539,   1,   33557625) /* Setup */
