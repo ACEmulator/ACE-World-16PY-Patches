@@ -205,12 +205,12 @@ GotoSet: SocietyRankCheckFinalText
     - Tell: To turn in Commendation Ribbons, simply have at least 5 Ribbons in your inventory, and hand me one. I only deal in transactions in lots of 5, so if you have less than that, you'll need to get more before you come back here.
 
 GotoSet: RibbonTurnInLimitCheck
-    - InqQuest: SocietyRibbonsPerDayTimer
-        QuestSuccess:
-            - InqIntStat: SocietyRankRadblo, 1001
-                TestSuccess:
-                    - Goto: TakeFourtyNineRibbons
-                TestFailure:
+    - InqIntStat: SocietyRankRadblo, 1001
+        TestSuccess:
+            - Goto: TakeFourtyNineRibbons
+        TestFailure:
+            - InqQuest: SocietyRibbonsPerDayTimer
+                QuestSuccess:
                     - InqIntStat: SocietyRankRadblo, 601 - 994
                         TestSuccess:
                             - InqQuestSolves: SocietyRibbonsPerDayCounter, 200
@@ -252,10 +252,10 @@ GotoSet: RibbonTurnInLimitCheck
                                                             - Goto: TakeFourRibbons
                                                 TestFailure:
                                                     - Tell: How did we get here?
-        QuestFailure:
-            - StampQuest: SocietyRibbonsPerDayTimer
-            - EraseQuest: SocietyRibbonsPerDayCounter
-            - Goto: TakeFourRibbons
+                QuestFailure:
+                    - StampQuest: SocietyRibbonsPerDayTimer
+                    - EraseQuest: SocietyRibbonsPerDayCounter
+                    - Goto: TakeFourRibbons
 
 GotoSet: TakeFourRibbons
     - InqOwnsItems: Radiant Blood Commendation Ribbon (38230), 4
