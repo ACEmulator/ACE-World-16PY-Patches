@@ -13,7 +13,8 @@ VALUES (53302,   1,       8192) /* ItemType - Writable */
      , (53302, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53302,  22, True ) /* Inscribable */;
+VALUES (53302,  22, True ) /* Inscribable */
+     , (53302,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53302,  39,     1.5) /* DefaultScale */;
@@ -29,4 +30,3 @@ VALUES (53302,   1,   33554826) /* Setup */
      , (53302,   8,  100676673) /* Icon */
      , (53302,  22,  872415275) /* PhysicsEffectTable */
      , (53302,  28,       6321) /* Spell - Viridian Rise Recall */;
-
