@@ -1,3 +1,18 @@
+Refuse: Crystal of Perception (38615)
+    - InqQuestBitsOn: TaskDISocietyRocksFound, 0x7
+        QuestSuccess:
+            - TakeItems: Crystal of Perception (38615), -1
+            - Tell: Well done. I can tell that you have completed your scouting of Dark Isle, and it would seem that any ley lines have not emerged, and are likely not to emerge for now. This is satisfactory.
+            - Give: Radiant Blood Commendation Ribbons (38230), 15
+            - AwardNoShareXP: 15,000,000
+            - AwardLuminance: 2,000
+            - Give: Radiant Blood Trade Tokens (38236), 4
+            - StampQuest: TaskDIScoutComplete
+            - EraseQuest: TaskDIScoutStarted
+            - EraseQuest: TaskDISocietyRocksFound
+        QuestFailure:
+            - Tell: You need to take that crystal and hold it near three markers on the Dark Isle - by the Ruschk iceberg, the entrance cavern where Grael was imprisoned, and a low point in the Coral Forest. Once you have done that, bring it back here and I shall take it and reward you.
+
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.085
 	- Motion: Twitch1
 
@@ -19,6 +34,7 @@ Use:
                         QuestSuccess:
                             - InqQuestBitsOn: TaskDISocietyRocksFound, 0x7
                                 QuestSuccess:
+                                    - TakeItems: Crystal of Perception (38615), -1
                                     - Tell: Well done. I can tell that you have completed your scouting of Dark Isle, and it would seem that any ley lines have not emerged, and are likely not to emerge for now. This is satisfactory.
                                     - Give: Radiant Blood Commendation Ribbons (38230), 15
                                     - AwardNoShareXP: 15,000,000
