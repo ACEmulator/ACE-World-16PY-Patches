@@ -12,19 +12,13 @@ VALUES (29431,   1,      65536) /* ItemType - Portal */
      , (29431, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29431,   1, True ) /* Stuck */
-     , (29431,  11, False) /* IgnoreCollisions */
-     , (29431,  12, True ) /* ReportCollisions */
-     , (29431,  13, True ) /* Ethereal */
-     , (29431,  15, True ) /* LightsStatus */
-     , (29431,  88, True ) /* PortalShowDestination */;
+VALUES (29431,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29431,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29431,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29431,   1, 'Corcima Castle Platinum Ward') /* Name */
-     , (29431,  38, 'Corcima Castle Platinum Ward') /* AppraisalPortalDestination */;
+VALUES (29431,   1, 'Corcima Castle Platinum Ward') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29431,   1,   33555925) /* Setup */
