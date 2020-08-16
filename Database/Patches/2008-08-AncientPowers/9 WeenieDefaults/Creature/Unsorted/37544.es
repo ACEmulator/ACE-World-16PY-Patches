@@ -1,7 +1,7 @@
 Use:
     - InqQuest: KeepBannerClaimedWait
         QuestSuccess:
-            - DirectBroadcast: You must wait another %tqt before you can claim this banner.
+            - DirectBroadcast: You must wait another %tqt before you can claim this banner for your society.
         QuestFailure:
             - InqIntStat: PlayerKillerStatus, 4 - 4
                 TestSuccess:
@@ -9,8 +9,9 @@ Use:
                         TestSuccess:
                             - InqEvent: KeepNorthwatchCelhan
                                 EventSuccess:
-                                    - DirectBroadcast: Your society already has taken control of Northwatch Castle. You cannot take Freebooter Keep while you control another keep.
+                                    - DirectBroadcast: Your society already has taken control of Northwatch Castle. You cannot claim this banner while your society controls another keep.
                                 EventFailure:
+                                    - StampQuest: KeepBannerClaimedWait
                                     - StartEvent: KeepFreebooterCourtyardCelhan
                                     - StopEvent: KeepFreebooterCourtyardBlight
                                     - LocalBroadcast: %tn has claimed the %n for the Society of the Celestial Hand!
@@ -20,8 +21,9 @@ Use:
                                 TestSuccess:
                                     - InqEvent: KeepNorthwatchEldweb
                                         EventSuccess:
-                                            - DirectBroadcast: Your society already has taken control of Northwatch Castle. You cannot take Freebooter Keep while you control another keep.
+                                            - DirectBroadcast: Your society already has taken control of Northwatch Castle. You cannot claim this banner while your society controls another keep.
                                         EventFailure:
+                                            - StampQuest: KeepBannerClaimedWait
                                             - StartEvent: KeepFreebooterCourtyardEldweb
                                             - StopEvent: KeepFreebooterCourtyardBlight
                                             - LocalBroadcast: %tn has claimed the %n for the Society of the Eldrytch Web!
@@ -31,8 +33,9 @@ Use:
                                         TestSuccess:
                                             - InqEvent: KeepNorthwatchRadblo
                                                 EventSuccess:
-                                                    - DirectBroadcast: Your society already has taken control of Northwatch Castle. You cannot take Freebooter Keep while you control another keep.
+                                                    - DirectBroadcast: Your society already has taken control of Northwatch Castle. You cannot claim this banner while your society controls another keep.
                                                 EventFailure:
+                                                    - StampQuest: KeepBannerClaimedWait
                                                     - StartEvent: KeepFreebooterCourtyardRadblo
                                                     - StopEvent: KeepFreebooterCourtyardBlight
                                                     - LocalBroadcast: %tn has claimed the %n for the Society of the Radiant Blood!
