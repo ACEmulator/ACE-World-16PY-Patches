@@ -39,6 +39,7 @@ Use:
                                                     - StartEvent: KeepFreebooterSpireRadblo
                                                     - StopEvent: KeepFreebooterSpireBlight
                                                     - LocalBroadcast: %tn has claimed the %n for the Society of the Radiant Blood!
+                                                    - DeleteSelf
                                         TestFailure:
                                             - DirectBroadcast: You must be a member of one of the Societies of Dereth to take this banner.
                 TestFailure:
