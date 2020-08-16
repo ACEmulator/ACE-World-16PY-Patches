@@ -75,7 +75,7 @@ VALUES (0x7F92F021, 38015, 0xF92F0032, 161.883, 27.8233, 50.0324, 0.9988614, 0, 
 /* @teleloc 0xF92F0032 [161.883000 27.823300 50.032400] 0.998861 0.000000 0.000000 -0.047707 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F92F0B9, 80310, 0xF92F0140, 0xF92F0011, 68, 20, 148, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Freebooter Courtyard Blight Gen */
+VALUES (0x7F92F0B9, 80310, 0xF92F0011, 68, 20, 148, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Freebooter Courtyard Blight Gen */
 /* @teleloc 0xF92F0011 [68.000000 20.000000 148.000000] 1.000000 0.000000 0.000000 0.0000006 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
