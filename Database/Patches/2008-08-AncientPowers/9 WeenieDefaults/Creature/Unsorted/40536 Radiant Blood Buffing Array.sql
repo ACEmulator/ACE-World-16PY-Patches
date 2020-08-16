@@ -31,7 +31,7 @@ VALUES (40536,   1, 'Radiant Blood Buffing Array') /* Name */
      , (40536,  15, 'A small Crystal Array, designed to strengthen the defenses of those within the Society of the Radiant Blood that use it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40536,   1,   33556730) /* Setup */
+VALUES (40536,   1,   33556226) /* Setup */
      , (40536,   2,  150995097) /* MotionTable */
      , (40536,   3,  536871001) /* SoundTable */
      , (40536,   6,   67111919) /* PaletteBase */
