@@ -4,13 +4,13 @@ Death:
     - StopEvent: KeepFreebooterCourtyardCelhan
 
 HeartBeat: Style: NonCombat, Substyle: Ready
-    - InqMyQuestCompletions: KeepBannerClaimedWait, 0 - 300
+    - InqMyQuestSolves: KeepBannerClaimedWait, 0 - 300
         QuestSuccess:
             - DecrementMyQuest: KeepBannerClaimedWait, 5
             - Goto: CheckCountdown
 
 HeartBeat: Style: HandCombat, Substyle: Ready
-    - InqMyQuestCompletions: KeepBannerClaimedWait, 0 - 300
+    - InqMyQuestSolves: KeepBannerClaimedWait, 0 - 300
         QuestSuccess:
             - DecrementMyQuest: KeepBannerClaimedWait, 5
             - Goto: CheckCountdown
@@ -20,23 +20,23 @@ Generation:
     - SetMyQuestCompletions: KeepBannerClaimedWait, 300
 
 GotoSet: CheckCountdown
-    - InqMyQuestCompletions: KeepBannerClaimedWait, 240 - 240
+    - InqMyQuestSolves: KeepBannerClaimedWait, 240 - 240
         QuestSuccess:
             - LocalBroadcast: The %n will become claimed in four minutes!
         QuestFailure:
-            - InqMyQuestCompletions: KeepBannerClaimedWait, 180 - 180
+            - InqMyQuestSolves: KeepBannerClaimedWait, 180 - 180
                 QuestSuccess:
                     - LocalBroadcast: The %n will become claimed in three minutes!
                 QuestFailure:
-                    - InqMyQuestCompletions: KeepBannerClaimedWait, 120 - 120
+                    - InqMyQuestSolves: KeepBannerClaimedWait, 120 - 120
                         QuestSuccess:
                             - LocalBroadcast: The %n will become claimed in two minutes!
                         QuestFailure:
-                            - InqMyQuestCompletions: KeepBannerClaimedWait, 60 - 60
+                            - InqMyQuestSolves: KeepBannerClaimedWait, 60 - 60
                                 QuestSuccess:
                                     - LocalBroadcast: The %n will become claimed in one minutes!
                                 QuestFailure:
-                                    - InqMyQuestCompletions: KeepBannerClaimedWait, 0 - 0
+                                    - InqMyQuestSolves: KeepBannerClaimedWait, 0 - 0
                                         QuestSuccess:
                                             - LocalBroadcast: The %n has been successfully claimed! At this point, the %n may still be destroyed, but it will regularly repair some of the damage done to it!
                                             - Generate
