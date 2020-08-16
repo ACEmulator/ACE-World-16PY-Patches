@@ -16,6 +16,7 @@ VALUES (80312,   1,         16) /* ItemType - Creature */
      , (80312,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (80312, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (80312,  95,          3) /* RadarBlipColor - White */
+     , (80312, 134,          4) /* PlayerKillerStatus - PK */
      , (80312, 146,          0) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
