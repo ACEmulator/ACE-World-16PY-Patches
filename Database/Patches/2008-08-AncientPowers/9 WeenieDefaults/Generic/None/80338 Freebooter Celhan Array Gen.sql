@@ -19,7 +19,7 @@ VALUES (80332,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80332,  41,      60) /* RegenerationInterval */
      , (80332,  43,       0) /* GeneratorRadius */
-     , (80332, 121,       0) /* GeneratorInitialDelay */;
+     , (80332, 121,       5) /* GeneratorInitialDelay */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80332,   1, 'Freebooter Celhan Array Gen') /* Name */
