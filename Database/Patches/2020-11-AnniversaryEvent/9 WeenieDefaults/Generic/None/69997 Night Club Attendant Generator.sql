@@ -44,10 +44,10 @@ VALUES (2121588944, 69997, 0xE74E0013, 60.000000, 60.000000, 32.005001, 1.000000
 
 /* Sanamar */
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
-VALUES (1933414440, 69997, 0x33D90012, 49.329575, 52.005001, 0.922256, 0.714421, 0, 0, -0.386580,  False); /* Night Club Attendant Generator */
-/* @teleloc 0x33D90012 [49.329575 35.169407 52.005001] 0.922256, 0.000000 0.000000 -0.386580 */
+VALUES (1933414440, 69997, 0x33D90012, 49.329575, 52.005001, 52.005001, 0.714421, 0, 0, -0.475904,  False); /* Night Club Attendant Generator */
+/* @teleloc 0x33D90013 [49.329601 52.005001 52.005001] 0.879497 0.000000 0.000000 -0.475904 */
 
 /* Zaikhal */
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
 VALUES (2013855857, 69997, 0x8090000D, 37.525673, 108.964081, 124.005005, -0.323290, 0, 0, 0.946300,  False); /* Night Club Attendant Generator */
-/* @teleloc 0x8090000D [37.525673 108.964081 124.005005] -0.323290, 0.000000 0.000000 0.946300 */
+/* @teleloc 0x8090000D [37.525673 108.964081 124.005005] -0.323290 0.000000 0.000000 0.946300 */
