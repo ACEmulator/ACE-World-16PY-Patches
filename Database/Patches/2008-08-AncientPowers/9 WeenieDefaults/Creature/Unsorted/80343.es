@@ -27,7 +27,6 @@ Generation:
 
 GotoSet: KeepReset
     - StampQuest: KeepBannerClaimedWait
-    #- WorldBroadcast: The Society of the Eldrytch Web has claimed Freebooter Keep! Those members of the Society of the Eldrytch Web may now use the resources contained within the castle!
     - StopEvent: KeepFreebooterCelhan
     - StopEvent: KeepFreebooterCelhanArray
     - StopEvent: KeepFreebooterCourtyardCelhan
@@ -56,5 +55,6 @@ GotoSet: KeepReset
     - StartEvent: KeepFreebooterCourtyardBlight
     - StartEvent: KeepFreebooterSpireBlight
     - StartEvent: KeepFreebooterTowerBlight
+    - WorldBroadcast: The Society of the Celestial Hand has lost control of Freebooter Keep!  Even now, the castle is being overrun by the Creeping Blight!
     #- LocalBroadcast: %tn has claimed the %n for the Society of the Eldrytch Web!
     - DeleteSelf
