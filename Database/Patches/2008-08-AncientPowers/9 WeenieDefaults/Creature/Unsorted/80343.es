@@ -7,15 +7,15 @@ Use:
                 TestSuccess:
                     - InqIntStat: Faction1Bits, 1 - 1
                         #TestSuccess:
-                            #- Goto: ResetKeep
+                            #- Goto: KeepReset
                         TestFailure:
                             - InqIntStat: Faction1Bits, 2 - 2
                                 TestSuccess:
-                                    - Goto: ResetKeep
+                                    - Goto: KeepReset
                                 TestFailure:
                                     - InqIntStat: Faction1Bits, 4 - 4
                                         TestSuccess:
-                                            - Goto: ResetKeep
+                                            - Goto: KeepReset
                                         TestFailure:
                                             - DirectBroadcast: You must be a member of one of the Societies of Dereth to take this banner.
                 TestFailure:
