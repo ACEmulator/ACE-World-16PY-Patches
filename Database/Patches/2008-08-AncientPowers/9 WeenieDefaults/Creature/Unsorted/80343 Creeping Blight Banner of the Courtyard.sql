@@ -22,7 +22,8 @@ VALUES (80343,   1, True ) /* Stuck */
      , (80343,  90, True ) /* NpcInteractsSilently */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (80343,  54,       3) /* UseRadius */;
+VALUES (80343,  39,       2) /* DefaultScale */
+     , (80343,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80343,   1, 'Creeping Blight Banner of the Courtyard') /* Name */
