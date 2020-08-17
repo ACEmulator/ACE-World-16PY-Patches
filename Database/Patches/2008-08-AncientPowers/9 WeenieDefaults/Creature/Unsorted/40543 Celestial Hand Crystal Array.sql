@@ -112,7 +112,7 @@ VALUES (40543,  0,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,
      , (40543,  8,  4,  1, 0.75,  200,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40543, -1, 80343, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Creeping Blight Banner of the Courtyard Crystal Array (80343) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
+VALUES (40543, 1, 80343,  1, 0, 0, False) /* Create Creeping Blight Banner of the Courtyard (80343) for Contain */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40543, -1, 80313, 0, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Banner Regeneration Field (80313) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
