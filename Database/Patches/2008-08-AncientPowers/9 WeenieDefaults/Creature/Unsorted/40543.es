@@ -8,5 +8,5 @@ Generation:
 Scream:
     - Generate
 
-WoundedTaunt:
+WoundedTaunt: MinHealth: 0, MaxHealth: 1
     - Generate
