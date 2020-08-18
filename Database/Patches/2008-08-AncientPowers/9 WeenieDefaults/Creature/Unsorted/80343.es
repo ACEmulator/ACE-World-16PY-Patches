@@ -23,7 +23,7 @@ Use:
 
 
 Generation:
-    - LocalBroadcast: The Creeping Blight Banner of the Courtyard falls to the ground! It is now vulnerable to being destroyed! If protected for 5 minutes, Celestial Hand Geomancers can repair it!
+    - LocalBroadcast: The %n falls to the ground! It is now vulnerable to being destroyed! If protected for 5 minutes, Celestial Hand Geomancers can repair it!
 
 GotoSet: KeepReset
     - StampQuest: KeepBannerClaimedWait
@@ -56,5 +56,4 @@ GotoSet: KeepReset
     - StartEvent: KeepFreebooterSpireBlight
     - StartEvent: KeepFreebooterTowerBlight
     - WorldBroadcast: The Society of the Celestial Hand has lost control of Freebooter Keep!  Even now, the castle is being overrun by the Creeping Blight!
-    #- LocalBroadcast: %tn has claimed the %n for the Society of the Eldrytch Web!
     - DeleteSelf
