@@ -39,4 +39,38 @@ GotoSet: CheckCountdown
                                             - InqMyQuestSolves: KeepBannerClaimedWait, 300 - 300
                                                 QuestSuccess:
                                                     - WorldBroadcast: Freebooter Keep will fall to the Creeping Blight in 5 minutes!
-                                                #QuestFailure:
+                                                QuestFailure:
+                                                    - InqMyQuestSolves: KeepBannerClaimedWait, 0 - 0
+                                                        QuestSuccess:
+                                                            - SetMyQuestCompletions: KeepBannerClaimedWait, 244801
+                                                            - Goto: KeepReset
+                                                        #QuestFailure:
+GotoSet: KeepReset
+    - StopEvent: KeepFreebooterCelhan
+    - StopEvent: KeepFreebooterCelhanArray
+    - StopEvent: KeepFreebooterCourtyardCelhan
+    - StopEvent: KeepFreebooterCourtyardCelhanClaimed
+    - StopEvent: KeepFreebooterSpireCelhan
+    - StopEvent: KeepFreebooterSpireCelhanClaimed
+    - StopEvent: KeepFreebooterTowerCelhan
+    - StopEvent: KeepFreebooterTowerCelhanClaimed
+    - StopEvent: KeepFreebooterEldweb
+    - StopEvent: KeepFreebooterEldwebArray
+    - StopEvent: KeepFreebooterCourtyardEldweb
+    - StopEvent: KeepFreebooterCourtyardEldwebClaimed
+    - StopEvent: KeepFreebooterSpireEldweb
+    - StopEvent: KeepFreebooterSpireEldwebClaimed
+    - StopEvent: KeepFreebooterTowerEldweb
+    - StopEvent: KeepFreebooterTowerEldwebClaimed
+    - StopEvent: KeepFreebooterRadblo
+    - StopEvent: KeepFreebooterRadbloArray
+    - StopEvent: KeepFreebooterCourtyardRadblo
+    - StopEvent: KeepFreebooterCourtyardRadbloClaimed
+    - StopEvent: KeepFreebooterSpireRadblo
+    - StopEvent: KeepFreebooterSpireRadbloClaimed
+    - StopEvent: KeepFreebooterTowerRadblo
+    - StopEvent: KeepFreebooterTowerRadbloClaimed
+    - StartEvent: KeepFreebooterBlight
+    - StartEvent: KeepFreebooterCourtyardBlight
+    - StartEvent: KeepFreebooterSpireBlight
+    - StartEvent: KeepFreebooterTowerBlight
