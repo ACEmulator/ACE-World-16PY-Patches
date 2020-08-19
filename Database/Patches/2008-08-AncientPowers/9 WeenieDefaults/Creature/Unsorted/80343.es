@@ -55,5 +55,5 @@ GotoSet: KeepReset
     - StartEvent: KeepFreebooterCourtyardBlight
     - StartEvent: KeepFreebooterSpireBlight
     - StartEvent: KeepFreebooterTowerBlight
-    - WorldBroadcast: The Society of the Celestial Hand has lost control of Freebooter Keep!  Even now, the castle is being overrun by the Creeping Blight!
+    #- WorldBroadcast: The Society of the Celestial Hand has lost control of Freebooter Keep!  Even now, the castle is being overrun by the Creeping Blight!
     - DeleteSelf
