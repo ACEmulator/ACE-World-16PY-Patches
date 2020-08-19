@@ -377,3 +377,11 @@ VALUES (0x7F92F0F1, 80340, 0xF92F0012, 59.893, 36.096, 163.3535, 1, 0, 0, 0,  Fa
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F92F0F2, 80344, 0xF92F0012, 59.893, 36.096, 163.3535, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Freebooter Celhan Reset Array Gen */
 /* @teleloc 0xF92F0012 [59.893000 36.096000 163.353500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F92F0F3, 80345, 0xF92F0012, 59.893, 36.096, 163.3535, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Freebooter Celhan Reset Array Gen */
+/* @teleloc 0xF92F0012 [59.893000 36.096000 163.353500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F92F0F4, 80346, 0xF92F0012, 59.893, 36.096, 163.3535, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Freebooter Celhan Reset Array Gen */
+/* @teleloc 0xF92F0012 [59.893000 36.096000 163.353500] 1.000000 0.000000 0.000000 0.000000 */
