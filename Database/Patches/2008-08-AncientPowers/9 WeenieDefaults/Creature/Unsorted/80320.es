@@ -35,7 +35,7 @@ GotoSet: CheckCountdown
                         QuestFailure:
                             - InqMyQuestSolves: KeepBannerClaimedWait, 60 - 60
                                 QuestSuccess:
-                                    - LocalBroadcast: The %n will become claimed in one minutes!
+                                    - LocalBroadcast: The %n will become claimed in one minute!
                                 QuestFailure:
                                     - InqMyQuestSolves: KeepBannerClaimedWait, 0 - 0
                                         QuestSuccess:
