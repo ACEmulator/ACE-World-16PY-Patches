@@ -19,6 +19,7 @@ GotoSet: CheckCountdown
     - InqMyQuestSolves: KeepBannerClaimedWait, 147600 - 147600
         QuestSuccess:
             - StartEvent: KeepFreebooterCelhanArray
+            - WorldBroadcast: The Society of the Celestial Hand has erected a Crystal Array at Freebooter Keep to help keep the Creeping Blight at bay!
         QuestFailure:
             - InqMyQuestSolves: KeepBannerClaimedWait, 3600 - 3600
                 QuestSuccess:
