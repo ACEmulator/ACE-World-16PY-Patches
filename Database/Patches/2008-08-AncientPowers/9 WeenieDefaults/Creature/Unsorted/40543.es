@@ -3,7 +3,8 @@ Death:
     - LocalSignal: SpawnCelhanResetBanner
 
 Generation:
-    - WorldBroadcast: The Society of the Celestial Hand has erected a Crystal Array at Freebooter Keep to help keep the Creeping Blight at bay!
+    #- WorldBroadcast: The Society of the Celestial Hand has erected a Crystal Array at Freebooter Keep to help keep the Creeping Blight at bay!
+    - LocalBroadcast: The %n becomes active.  If the %n is damaged to the point it falls, it can be destroyed by those of opposing Societies.
 
 Scream:
     - Generate
