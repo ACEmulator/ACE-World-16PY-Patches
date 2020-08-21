@@ -21,7 +21,7 @@ VALUES (33544,   1, True ) /* Stuck */
      , (33544,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33544,  54, -0.100000001490116) /* UseRadius */;
+VALUES (33544,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33544,   1, 'Surface') /* Name */;
@@ -32,5 +32,5 @@ VALUES (33544,   1,   33555925) /* Setup */
      , (33544,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33544, 2, 0xC9E40026, 108.028618, 120.714783, -0.094000, -0.110823, 0, 0, 0) /* Destination */
-/* @teleloc 0xC9E40026 [108.028618 120.714783 -0.094000] -0.110823 0.000000 0.000000 0 */;
+VALUES (33544, 2, 0xC9E40026, 108.028999, 120.714996, -0.095000, -1.000000, 0, 0, 0) /* Destination */
+/* @teleloc 0xC9E40026 [108.028999 120.714996 -0.095000] -1.000000 0.000000 0.000000 0.000000 */;
