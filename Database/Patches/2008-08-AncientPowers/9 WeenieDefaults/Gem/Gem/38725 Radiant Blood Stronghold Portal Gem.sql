@@ -44,4 +44,4 @@ VALUES (38725,   1,   33556769) /* Setup */
      , (38725,   8,  100672464) /* Icon */
      , (38725,  22,  872415275) /* PhysicsEffectTable */
      , (38725,  28,        157) /* Spell - SummonPortal1 */
-     , (38725,  31,      37164) /* LinkedPortalOne - Surface */;
+     , (38725,  31,      37163) /* LinkedPortalOne - Radiant Blood Stronghold */;
