@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80356;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80356, 'FreebooterCelhanRewardsGen', 1, '2005-02-09 10:00:00') /* Generic */;
+VALUES (80356, 'FreebooterEldwebRewardsGen', 1, '2005-02-09 10:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80356,  66,          1) /* CheckpointStatus */
@@ -22,8 +22,8 @@ VALUES (80356,  41,      60) /* RegenerationInterval */
      , (80356, 121,       5) /* GeneratorInitialDelay */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (80356,   1, 'Freebooter Celhan Rewards Gen') /* Name */
-     , (80356,  34, 'KeepFreebooterCelhanRewards') /* GeneratorEvent */;
+VALUES (80356,   1, 'Freebooter Eldweb Rewards Gen') /* Name */
+     , (80356,  34, 'KeepFreebooterEldwebRewards') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (80356,   1,   33555051) /* Setup */
