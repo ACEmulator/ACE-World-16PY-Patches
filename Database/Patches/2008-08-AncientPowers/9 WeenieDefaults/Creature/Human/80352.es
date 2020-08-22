@@ -10,7 +10,39 @@ HeartBeat: Style: NonCombat, Substyle: Ready
 
 Generation:
     - SetMyQuestCompletions: KeepBannerClaimedWait, 244800
+    - StopEvent: KeepFreebooterCelhanArray
     - StartEvent: KeepFreebooterCelhanRewards
+    - StopEvent: KeepFreebooterCelhanSupply
+    - StopEvent: KeepFreebooterCourtyardCelhan
+    - StopEvent: KeepFreebooterCourtyardCelhanClaimed
+    - StopEvent: KeepFreebooterSpireCelhan
+    - StopEvent: KeepFreebooterSpireCelhanClaimed
+    - StopEvent: KeepFreebooterTowerCelhan
+    - StopEvent: KeepFreebooterTowerCelhanClaimed
+    - StopEvent: KeepFreebooterEldweb
+    - StopEvent: KeepFreebooterEldwebArray
+    - StopEvent: KeepFreebooterEldwebRewards
+    - StopEvent: KeepFreebooterEldwebSupply
+    - StopEvent: KeepFreebooterCourtyardEldweb
+    - StopEvent: KeepFreebooterCourtyardEldwebClaimed
+    - StopEvent: KeepFreebooterSpireEldweb
+    - StopEvent: KeepFreebooterSpireEldwebClaimed
+    - StopEvent: KeepFreebooterTowerEldweb
+    - StopEvent: KeepFreebooterTowerEldwebClaimed
+    - StopEvent: KeepFreebooterRadblo
+    - StopEvent: KeepFreebooterRadbloArray
+    - StopEvent: KeepFreebooterRadbloRewards
+    - StopEvent: KeepFreebooterRadbloSupply
+    - StopEvent: KeepFreebooterCourtyardRadblo
+    - StopEvent: KeepFreebooterCourtyardRadbloClaimed
+    - StopEvent: KeepFreebooterSpireRadblo
+    - StopEvent: KeepFreebooterSpireRadbloClaimed
+    - StopEvent: KeepFreebooterTowerRadblo
+    - StopEvent: KeepFreebooterTowerRadbloClaimed
+    - StopEvent: KeepFreebooterBlight
+    - StopEvent: KeepFreebooterCourtyardBlight
+    - StopEvent: KeepFreebooterSpireBlight
+    - StopEvent: KeepFreebooterTowerBlight
     - WorldBroadcast: The Society of the Celestial Hand has claimed Freebooter Keep! Those members of the Society of the Celestial Hand may now use the resources contained within the castle!
     - InqEvent: KeepNorthwatchBlight
         EventSuccess:
