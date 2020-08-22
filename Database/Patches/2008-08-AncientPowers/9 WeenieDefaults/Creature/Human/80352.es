@@ -9,6 +9,7 @@ HeartBeat: Style: NonCombat, Substyle: Ready
 
 Generation:
     - SetMyQuestCompletions: KeepBannerClaimedWait, 244800
+    - StartEvent: KeepFreebooterCelhanRewards
     - WorldBroadcast: The Society of the Celestial Hand has claimed Freebooter Keep! Those members of the Society of the Celestial Hand may now use the resources contained within the castle!
     - InqEvent: KeepNorthwatchBlight
         EventSuccess:
@@ -16,39 +17,65 @@ Generation:
 
 
 GotoSet: CheckCountdown
-    - InqMyQuestSolves: KeepBannerClaimedWait, 147600 - 147600
+    - InqMyQuestSolves: KeepBannerClaimedWait, 244200 - 244200
         QuestSuccess:
-            - StartEvent: KeepFreebooterCelhanArray
-            - WorldBroadcast: The Society of the Celestial Hand has erected a Crystal Array at Freebooter Keep to help keep the Creeping Blight at bay!
+            - StopEvent: KeepFreebooterCelhanRewards
         QuestFailure:
-            - InqMyQuestSolves: KeepBannerClaimedWait, 3600 - 3600
+            - InqMyQuestSolves: KeepBannerClaimedWait, 147600 - 147600
                 QuestSuccess:
-                    - WorldBroadcast: Freebooter Keep will fall to the Creeping Blight in 1 hour!
+                    - StartEvent: KeepFreebooterCelhanArray
+                    - WorldBroadcast: The Society of the Celestial Hand has erected a Crystal Array at Freebooter Keep to help keep the Creeping Blight at bay!
                 QuestFailure:
-                    - InqMyQuestSolves: KeepBannerClaimedWait, 1800 - 1800
+                    - InqMyQuestSolves: KeepBannerClaimedWait, 3600 - 3600
                         QuestSuccess:
-                            - WorldBroadcast: Freebooter Keep will fall to the Creeping Blight in 30 minutes!
+                            - WorldBroadcast: Freebooter Keep will fall to the Creeping Blight in 1 hour!
                         QuestFailure:
-                            - InqMyQuestSolves: KeepBannerClaimedWait, 900 - 900
+                            - InqMyQuestSolves: KeepBannerClaimedWait, 1800 - 1800
                                 QuestSuccess:
-                                    - WorldBroadcast: Freebooter Keep will fall to the Creeping Blight in 15 minutes!
+                                    - WorldBroadcast: Freebooter Keep will fall to the Creeping Blight in 30 minutes!
                                 QuestFailure:
-                                    - InqMyQuestSolves: KeepBannerClaimedWait, 600 - 600
+                                    - InqMyQuestSolves: KeepBannerClaimedWait, 900 - 900
                                         QuestSuccess:
-                                            - WorldBroadcast: Freebooter Keep will fall to the Creeping Blight in 10 minutes!
+                                            - WorldBroadcast: Freebooter Keep will fall to the Creeping Blight in 15 minutes!
                                         QuestFailure:
-                                            - InqMyQuestSolves: KeepBannerClaimedWait, 300 - 300
+                                            - InqMyQuestSolves: KeepBannerClaimedWait, 600 - 600
                                                 QuestSuccess:
-                                                    - WorldBroadcast: Freebooter Keep will fall to the Creeping Blight in 5 minutes!
+                                                    - WorldBroadcast: Freebooter Keep will fall to the Creeping Blight in 10 minutes!
                                                 QuestFailure:
-                                                    - InqMyQuestSolves: KeepBannerClaimedWait, 0 - 0
+                                                    - InqMyQuestSolves: KeepBannerClaimedWait, 300 - 300
                                                         QuestSuccess:
-                                                            - SetMyQuestCompletions: KeepBannerClaimedWait, 244801
-                                                            - Goto: KeepReset
-                                                        #QuestFailure:
+                                                            - WorldBroadcast: Freebooter Keep will fall to the Creeping Blight in 5 minutes!
+                                                        QuestFailure:
+                                                            - InqMyQuestSolves: KeepBannerClaimedWait, 0 - 0
+                                                                QuestSuccess:
+                                                                    - SetMyQuestCompletions: KeepBannerClaimedWait, 244801
+                                                                    - Goto: KeepReset
+                                                                QuestFailure:
+                                                                    - InqEvent: KeepFreebooterCelhanSupply
+                                                                        EventSuccess:
+                                                                            - InqMyQuest: KeepFreebooterCelhanSupply
+                                                                                #QuestSuccess:
+                                                                                QuestFailure:
+                                                                                    - StopEvent: KeepFreebooterCelhanSupply
+                                                                        EventFailure:
+                                                                            - InqMyQuest: KeepFreebooterCelhanSupplyWait
+                                                                                #QuestSuccess:
+                                                                                QuestFailure:
+                                                                                    - Goto: TrySpawnSupply
+
+GotoSet: TrySpawnSupply, Probability: 0.98
+    - Motion: Ready
+
+GotoSet: TrySpawnSupply, Probability: 1
+    - StartEvent: KeepFreebooterCelhanSupply
+    - StampMyQuest: KeepFreebooterCelhanSupplyWait
+    - StampMyQuest: KeepFreebooterCelhanSupply
+
 GotoSet: KeepReset
     - StopEvent: KeepFreebooterCelhan
     - StopEvent: KeepFreebooterCelhanArray
+    - StopEvent: KeepFreebooterCelhanRewards
+    - StopEvent: KeepFreebooterCelhanSupply
     - StopEvent: KeepFreebooterCourtyardCelhan
     - StopEvent: KeepFreebooterCourtyardCelhanClaimed
     - StopEvent: KeepFreebooterSpireCelhan
@@ -57,6 +84,8 @@ GotoSet: KeepReset
     - StopEvent: KeepFreebooterTowerCelhanClaimed
     - StopEvent: KeepFreebooterEldweb
     - StopEvent: KeepFreebooterEldwebArray
+    - StopEvent: KeepFreebooterEldwebRewards
+    - StopEvent: KeepFreebooterEldwebSupply
     - StopEvent: KeepFreebooterCourtyardEldweb
     - StopEvent: KeepFreebooterCourtyardEldwebClaimed
     - StopEvent: KeepFreebooterSpireEldweb
@@ -65,6 +94,8 @@ GotoSet: KeepReset
     - StopEvent: KeepFreebooterTowerEldwebClaimed
     - StopEvent: KeepFreebooterRadblo
     - StopEvent: KeepFreebooterRadbloArray
+    - StopEvent: KeepFreebooterRadbloRewards
+    - StopEvent: KeepFreebooterRadbloSupply
     - StopEvent: KeepFreebooterCourtyardRadblo
     - StopEvent: KeepFreebooterCourtyardRadbloClaimed
     - StopEvent: KeepFreebooterSpireRadblo
