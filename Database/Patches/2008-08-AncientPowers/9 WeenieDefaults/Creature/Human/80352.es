@@ -1,5 +1,6 @@
 Death:
     - WorldBroadcast: The Society of the Celestial Hand has lost control of Freebooter Keep!  Even now, the castle is being overrun by the Creeping Blight!
+    - Goto: KeepReset
 
 HeartBeat: Style: NonCombat, Substyle: Ready
     - InqMyQuestSolves: KeepBannerClaimedWait, 0 - 244800
@@ -49,7 +50,7 @@ GotoSet: CheckCountdown
                                                             - InqMyQuestSolves: KeepBannerClaimedWait, 0 - 0
                                                                 QuestSuccess:
                                                                     - SetMyQuestCompletions: KeepBannerClaimedWait, 244801
-                                                                    - Goto: KeepReset
+                                                                    - KillSelf
                                                                 QuestFailure:
                                                                     - InqEvent: KeepFreebooterCelhanSupply
                                                                         EventSuccess:
