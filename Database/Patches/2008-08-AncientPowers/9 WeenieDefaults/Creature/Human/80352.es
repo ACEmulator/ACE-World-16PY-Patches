@@ -53,12 +53,12 @@ GotoSet: CheckCountdown
                                                                 QuestFailure:
                                                                     - InqEvent: KeepFreebooterCelhanSupply
                                                                         EventSuccess:
-                                                                            - InqMyQuest: KeepFreebooterCelhanSupply
+                                                                            - InqMyQuest: KeepSupply
                                                                                 #QuestSuccess:
                                                                                 QuestFailure:
                                                                                     - StopEvent: KeepFreebooterCelhanSupply
                                                                         EventFailure:
-                                                                            - InqMyQuest: KeepFreebooterCelhanSupplyWait
+                                                                            - InqMyQuest: KeepSupplyWait
                                                                                 #QuestSuccess:
                                                                                 QuestFailure:
                                                                                     - Goto: TrySpawnSupply
@@ -68,8 +68,8 @@ GotoSet: TrySpawnSupply, Probability: 0.98
 
 GotoSet: TrySpawnSupply, Probability: 1
     - StartEvent: KeepFreebooterCelhanSupply
-    - StampMyQuest: KeepFreebooterCelhanSupplyWait
-    - StampMyQuest: KeepFreebooterCelhanSupply
+    - StampMyQuest: KeepSupplyWait
+    - StampMyQuest: KeepSupply
 
 GotoSet: KeepReset
     - StopEvent: KeepFreebooterCelhan
