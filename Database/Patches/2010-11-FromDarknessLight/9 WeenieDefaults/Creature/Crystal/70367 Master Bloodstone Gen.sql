@@ -29,4 +29,4 @@ VALUES (70367,   1,   33555051) /* Setup */
      , (70367,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (70367, -1, 70368, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Master Bloodstone (70367) (x91up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (70367, -1, 70368, 1200, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Master Bloodstone (70367) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
