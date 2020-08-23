@@ -15,10 +15,7 @@ VALUES (32929,   1,         16) /* ItemType - Creature */
      , (32929,  40,          2) /* CombatMode - Melee */
      , (32929,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (32929,  72,         41) /* FriendType - Bunny */
-     , (32929,  81,          2) /* MaxGeneratedObjects */
-     , (32929,  82,          2) /* InitGeneratedObjects */
      , (32929,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (32929, 103,          1) /* GeneratorDestructionType - Nothing */
      , (32929, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (32929, 146,     250000) /* XpOverride */;
 
