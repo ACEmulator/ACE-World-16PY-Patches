@@ -23,7 +23,7 @@ VALUES (71717,   1, True ) /* Stuck */
      , (71717,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (71717,  54, -0.10000000149011612) /* UseRadius */;
+VALUES (71717,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71717,   1, 'Son of Pooky''s Den') /* Name */;
