@@ -16,11 +16,6 @@ VALUES (71717,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (71717,   1, True ) /* Stuck */
-     , (71717,  12, False) /* ReportCollisions */
-     , (71717,  13, True ) /* Ethereal */
-     , (71717,  14, True ) /* GravityStatus */
-     , (71717,  15, True ) /* LightsStatus */
-     , (71717,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (71717,  54, -0.1) /* UseRadius */;
