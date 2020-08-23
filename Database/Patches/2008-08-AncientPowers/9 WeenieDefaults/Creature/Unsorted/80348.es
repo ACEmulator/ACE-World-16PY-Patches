@@ -27,33 +27,6 @@ Generation:
 
 GotoSet: KeepReset
     - StampQuest: KeepBannerClaimedWait
-    - StopEvent: KeepFreebooterCelhan
-    - StopEvent: KeepFreebooterCelhanArray
-    - StopEvent: KeepFreebooterCourtyardCelhan
-    - StopEvent: KeepFreebooterCourtyardCelhanClaimed
-    - StopEvent: KeepFreebooterSpireCelhan
-    - StopEvent: KeepFreebooterSpireCelhanClaimed
-    - StopEvent: KeepFreebooterTowerCelhan
-    - StopEvent: KeepFreebooterTowerCelhanClaimed
-    - StopEvent: KeepFreebooterEldweb
-    - StopEvent: KeepFreebooterEldwebArray
-    - StopEvent: KeepFreebooterCourtyardEldweb
-    - StopEvent: KeepFreebooterCourtyardEldwebClaimed
-    - StopEvent: KeepFreebooterSpireEldweb
-    - StopEvent: KeepFreebooterSpireEldwebClaimed
-    - StopEvent: KeepFreebooterTowerEldweb
-    - StopEvent: KeepFreebooterTowerEldwebClaimed
     - StopEvent: KeepFreebooterRadblo
-    - StopEvent: KeepFreebooterRadbloArray
-    - StopEvent: KeepFreebooterCourtyardRadblo
-    - StopEvent: KeepFreebooterCourtyardRadbloClaimed
-    - StopEvent: KeepFreebooterSpireRadblo
-    - StopEvent: KeepFreebooterSpireRadbloClaimed
-    - StopEvent: KeepFreebooterTowerRadblo
-    - StopEvent: KeepFreebooterTowerRadbloClaimed
-    - StartEvent: KeepFreebooterBlight
-    - StartEvent: KeepFreebooterCourtyardBlight
-    - StartEvent: KeepFreebooterSpireBlight
-    - StartEvent: KeepFreebooterTowerBlight
     #- WorldBroadcast: The Society of the Radiant Blood has lost control of Freebooter Keep!  Even now, the castle is being overrun by the Creeping Blight!
     - DeleteSelf
