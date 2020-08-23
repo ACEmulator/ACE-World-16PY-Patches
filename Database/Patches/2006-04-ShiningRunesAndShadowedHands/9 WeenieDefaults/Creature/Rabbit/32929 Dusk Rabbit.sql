@@ -79,10 +79,6 @@ VALUES (32929,   1,   33555579) /* Setup */
      , (32929,  22,  872415277) /* PhysicsEffectTable */
      , (32929,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32929, 8040, 9896337, 152.713, -109.916, -25.3199, 0.717781, 0, 0, -0.696268) /* PCAPRecordedLocation */
-/* @teleloc 0x00970191 [152.712997 -109.916000 -25.319901] 0.717781 0.000000 0.000000 -0.696268 */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32929,   1, 390, 0, 0) /* Strength */
      , (32929,   2, 390, 0, 0) /* Endurance */
