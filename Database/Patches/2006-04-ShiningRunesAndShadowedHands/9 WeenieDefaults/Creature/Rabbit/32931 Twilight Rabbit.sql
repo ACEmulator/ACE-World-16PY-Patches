@@ -6,15 +6,29 @@ VALUES (32931, 'ace32931-twilightrabbit', 10, '2020-08-22 19:45:21') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32931,   1,         16) /* ItemType - Creature */
      , (32931,   2,         25) /* CreatureType - Rabbit */
+     , (32931,   3,          9) /* PaletteTemplate - Brown */
      , (32931,   6,         -1) /* ItemsCapacity */
      , (32931,   7,         -1) /* ContainersCapacity */
      , (32931,  16,          1) /* ItemUseable - No */
      , (32931,  25,        115) /* Level */
+     , (32931,  27,          0) /* ArmorType - None */
+     , (32931,  40,          2) /* CombatMode - Melee */
+     , (32931,  68,          9) /* TargetingTactic - Random, TopDamager */
+     , (32931,  72,         41) /* FriendType - Bunny */
+     , (32931,  81,          2) /* MaxGeneratedObjects */
+     , (32931,  82,          2) /* InitGeneratedObjects */
      , (32931,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (32931, 133,          4) /* ShowableOnRadar - ShowAlways */;
-
+     , (32931, 103,          1) /* GeneratorDestructionType - Nothing */
+     , (32931, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (32931, 146,     125000) /* XpOverride */;
+     
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32931,   1, True ) /* Stuck */;
+VALUES (32931,   1, True ) /* Stuck */
+     , (32931,  11, False) /* IgnoreCollisions */
+     , (32931,  12, True ) /* ReportCollisions */
+     , (32931,  13, False) /* Ethereal */
+     , (32931,  14, True ) /* GravityStatus */
+     , (32931,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32931,  39,     1.5) /* DefaultScale */
@@ -55,17 +69,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32931,   1, 'Twilight Rabbit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32931,   1,   33555579) /* Setup */
+VALUES (32931,   1,   33558659) /* Setup */
      , (32931,   2,  150995042) /* MotionTable */
      , (32931,   3,  536870973) /* SoundTable */
      , (32931,   4,  805306389) /* CombatTable */
+     , (32931,   6,   67109308) /* PaletteBase */
+     , (32931,   7,  268435725) /* ClothingBase */
      , (32931,   8,  100669116) /* Icon */
      , (32931,  22,  872415277) /* PhysicsEffectTable */
      , (32931,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32931, 8040, 9896428, 44.6228, -58.2291, -12, 0.435871, 0, 0, 0.900009) /* PCAPRecordedLocation */
-/* @teleloc 0x009701EC [44.622799 -58.229099 -12.000000] 0.435871 0.000000 0.000000 0.900009 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32931,   1, 360, 0, 0) /* Strength */
