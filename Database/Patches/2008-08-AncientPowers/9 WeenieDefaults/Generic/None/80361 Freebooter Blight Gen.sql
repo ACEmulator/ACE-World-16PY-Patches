@@ -5,8 +5,8 @@ VALUES (80361, 'FreebooterBlightGen', 1, '2005-02-09 10:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80361,  66,          1) /* CheckpointStatus */
-     , (80361,  81,          1) /* MaxGeneratedObjects */
-     , (80361,  82,          1) /* InitGeneratedObjects */
+     , (80361,  81,          0) /* MaxGeneratedObjects */
+     , (80361,  82,          0) /* InitGeneratedObjects */
      , (80361,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (80361, 142,          3) /* GeneratorTimeType - Event */
      , (80361, 145,          2) /* GeneratorEndDestructionType - Destroy */;
