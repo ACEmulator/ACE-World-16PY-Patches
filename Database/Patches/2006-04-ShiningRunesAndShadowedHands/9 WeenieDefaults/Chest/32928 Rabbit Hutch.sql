@@ -24,7 +24,7 @@ VALUES (32928,   1, True ) /* Stuck */
      , (32928,  86, True ) /* ChestRegenOnClose */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32928,  39, 0.6000000238418579) /* DefaultScale */
+VALUES (32928,  39,     0.6) /* DefaultScale */
      , (32928,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
