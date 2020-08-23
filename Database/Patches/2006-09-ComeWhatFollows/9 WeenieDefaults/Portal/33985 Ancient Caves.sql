@@ -21,7 +21,7 @@ VALUES (33985,   1, True ) /* Stuck */
      , (33985,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33985,  54, -0.10000000149011612) /* UseRadius */;
+VALUES (33985,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33985,   1, 'Ancient Caves') /* Name */;
