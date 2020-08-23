@@ -17,7 +17,39 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32931,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32931,  39,     1.5) /* DefaultScale */;
+VALUES (32931,  39,     1.5) /* DefaultScale */
+	  , (32931,   1,       5) /* HeartbeatInterval */
+     , (32931,   2,       0) /* HeartbeatTimestamp */
+     , (32931,   3,   0.067) /* HealthRate */
+     , (32931,   4,       5) /* StaminaRate */
+     , (32931,   5,       2) /* ManaRate */
+     , (32931,  12,     0.5) /* Shade */
+     , (32931,  13,       1) /* ArmorModVsSlash */
+     , (32931,  14,       1) /* ArmorModVsPierce */
+     , (32931,  15,       1) /* ArmorModVsBludgeon */
+     , (32931,  16,       1) /* ArmorModVsCold */
+     , (32931,  17,       1) /* ArmorModVsFire */
+     , (32931,  18,       1) /* ArmorModVsAcid */
+     , (32931,  19,       1) /* ArmorModVsElectric */
+     , (32931,  31,      18) /* VisualAwarenessRange */
+     , (32931,  34,       3) /* PowerupTime */
+     , (32931,  36,       1) /* ChargeSpeed */
+     , (32931,  41,    3600) /* RegenerationInterval */
+     , (32931,  43,       1) /* GeneratorRadius */
+     , (32931,  64,       1) /* ResistSlash */
+     , (32931,  65,       1) /* ResistPierce */
+     , (32931,  66,       1) /* ResistBludgeon */
+     , (32931,  67,       1) /* ResistFire */
+     , (32931,  68,       1) /* ResistCold */
+     , (32931,  69,       1) /* ResistAcid */
+     , (32931,  70,       1) /* ResistElectric */
+     , (32931,  71,       1) /* ResistHealthBoost */
+     , (32931,  72,       1) /* ResistStaminaDrain */
+     , (32931,  73,       1) /* ResistStaminaBoost */
+     , (32931,  74,       1) /* ResistManaDrain */
+     , (32931,  75,       1) /* ResistManaBoost */
+     , (32931, 104,      10) /* ObviousRadarRange */
+     , (32931, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32931,   1, 'Twilight Rabbit') /* Name */;
