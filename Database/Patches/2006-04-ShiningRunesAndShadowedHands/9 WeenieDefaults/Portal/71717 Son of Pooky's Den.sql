@@ -11,11 +11,10 @@ VALUES (71717,   1,      65536) /* ItemType - Portal */
      , (71717,  86,         20) /* MinLevel */
      , (71717,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (71717, 111,          1) /* PortalBitmask - Unrestricted */
-     , (71717, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (71717, 9007,          7);
+     , (71717, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (71717,   1, True ) /* Stuck */
+VALUES (71717,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (71717,  54, -0.1) /* UseRadius */;
@@ -26,22 +25,8 @@ VALUES (71717,   1, 'Son of Pooky''s Den') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (71717,   1,   33554867) /* Setup */
      , (71717,   2,  150994947) /* MotionTable */
-     , (71717,   8,  100667499) /* Icon */
-     , (71717,  31,      71717) /* LinkedPortalOne - Son of Pooky's Den */;
+     , (71717,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (71717, 2, 9896410, 0.272454, -30.3481, -11.995, 0.540302, 0, 0, -0.841471) /* Destination */
 /* @teleloc 0x009701DA [0.272454 -30.348101 -11.995000] 0.540302 0.000000 0.000000 -0.841471 */;
-
-/* Lifestoned Changelog:
-{
-  "Changelog": [
-    {
-      "created": "2020-08-22T18:50:48.5706053Z",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    }
-  ],
-  "IsDone": false
-}
-*/
