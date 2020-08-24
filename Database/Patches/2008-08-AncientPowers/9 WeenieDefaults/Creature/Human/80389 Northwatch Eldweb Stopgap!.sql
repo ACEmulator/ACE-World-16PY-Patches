@@ -169,15 +169,15 @@ VALUES (@parent_id, 0, 86 /* SetMyQuestCompletions */, 0, 1, NULL, 'KeepBannerCl
      , (@parent_id, 32, 24 /* StopEvent */, 0, 1, NULL, 'KeepNorthwatchSpireBlight', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 33, 24 /* StopEvent */, 0, 1, NULL, 'KeepNorthwatchTowerBlight', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 34, 16 /* WorldBroadcast */, 0, 1, NULL, 'The Society of the Eldrytch Web has claimed Northwatch Castle! Those members of the Society of the Eldrytch Web may now use the resources contained within the castle!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 35, 51 /* InqEvent */, 0, 1, NULL, 'KeepNorthwatchBlight', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id, 35, 51 /* InqEvent */, 0, 1, NULL, 'KeepFreebooterBlight', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (80389, 27 /* EventSuccess */, 1, NULL, NULL, NULL, 'KeepNorthwatchBlight', NULL, NULL, NULL);
+VALUES (80389, 27 /* EventSuccess */, 1, NULL, NULL, NULL, 'KeepFreebooterBlight', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 16 /* WorldBroadcast */, 0, 1, NULL, 'The turmoil of the loss of Northwatch Castle has rallied the Creeping Blight at Northwatch Castle!  Even now, the forces loyal to T''thuun are retaking all of the Banner locations!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 16 /* WorldBroadcast */, 0, 1, NULL, 'The turmoil of the loss of Northwatch Castle has rallied the Creeping Blight at Freebooter Keep!  Even now, the forces loyal to T''thuun are retaking all of the Banner locations!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (80389, 32 /* GotoSet */, 1, NULL, NULL, NULL, 'CheckCountdown', NULL, NULL, NULL);
