@@ -471,7 +471,7 @@ VALUES (0x79EE5061, 39773, 0x9EE50002, 4.39872, 46.8564, 74, -0.01640741, 0, 0, 
 /* @teleloc 0x9EE50002 [4.398720 46.856400 74.000000] -0.016407 0.000000 0.000000 -0.999865 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79EE5062, 80310, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Northwatch Courtyard Blight Gen */
+VALUES (0x79EE5062, 80367, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Northwatch Courtyard Blight Gen */
 /* @teleloc 0x9EE50024 [99.753100 76.054200 82.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -482,7 +482,40 @@ VALUES (0x79EE500F, 38107, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0,  True, 
 /* @teleloc 0x9EE50024 [99.753100 76.054200 82.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79EE5063, 80316, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Northwatch Spire Blight Gen */
+VALUES (0x79EE5065, 80368, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Northwatch Courtyard Celhan Gen */
+/* @teleloc 0x9EE50024 [99.753100 76.054200 82.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE5065, 0x79EE5066, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Courtyard (38107) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5066, 38107, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Creeping Blight Banner of the Courtyard */
+/* @teleloc 0x9EE50024 [99.753100 76.054200 82.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5067, 80373, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Northwatch Courtyard Eldweb Gen */
+/* @teleloc 0x9EE50024 [99.753100 76.054200 82.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE5067, 0x79EE5068, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Courtyard (38107) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5068, 38107, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Creeping Blight Banner of the Courtyard */
+/* @teleloc 0x9EE50024 [99.753100 76.054200 82.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5069, 80374, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Northwatch Courtyard Radblo Gen */
+/* @teleloc 0x9EE50024 [99.753100 76.054200 82.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE5069, 0x79EE506A, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Courtyard (38107) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE506A, 38107, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Creeping Blight Banner of the Courtyard */
+/* @teleloc 0x9EE50024 [99.753100 76.054200 82.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5063, 80369, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Northwatch Spire Blight Gen */
 /* @teleloc 0x9EE50022 [107.232000 41.972800 92.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -493,7 +526,40 @@ VALUES (0x79EE5023, 38113, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0,  True, 
 /* @teleloc 0x9EE50022 [107.232000 41.972800 92.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79EE5064, 80318, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Northwatch Tower Blight Gen */
+VALUES (0x79EE506B, 80370, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Northwatch Spire Celhan Gen */
+/* @teleloc 0x9EE50022 [107.232000 41.972800 92.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE506B, 0x79EE506C, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Spire (38113) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE506C, 38113, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Creeping Blight Banner of the Spire */
+/* @teleloc 0x9EE50022 [107.232000 41.972800 92.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE506D, 80375, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Northwatch Spire Eldweb Gen */
+/* @teleloc 0x9EE50022 [107.232000 41.972800 92.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE506D, 0x79EE506E, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Spire (38113) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE506E, 38113, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Creeping Blight Banner of the Spire */
+/* @teleloc 0x9EE50022 [107.232000 41.972800 92.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE506F, 80376, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Northwatch Spire Radblo Gen */
+/* @teleloc 0x9EE50022 [107.232000 41.972800 92.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE506F, 0x79EE5070, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Spire (38113) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5070, 38113, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Creeping Blight Banner of the Spire */
+/* @teleloc 0x9EE50022 [107.232000 41.972800 92.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5064, 80371, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Northwatch Tower Blight Gen */
 /* @teleloc 0x9EE5000B [28.533800 58.552200 96.792000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -501,4 +567,37 @@ VALUES (0x79EE5064, 0x79EE5043, '2019-02-10 00:00:00') /* Creeping Blight Banner
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5043, 38119, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Creeping Blight Banner of the Tower */
+/* @teleloc 0x9EE5000B [28.533800 58.552200 96.792000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5071, 80372, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Northwatch Tower Celhan Gen */
+/* @teleloc 0x9EE5000B [28.533800 58.552200 96.792000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE5071, 0x79EE5072, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Tower (38119) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5072, 38119, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Creeping Blight Banner of the Tower */
+/* @teleloc 0x9EE5000B [28.533800 58.552200 96.792000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5073, 80377, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Northwatch Tower Eldweb Gen */
+/* @teleloc 0x9EE5000B [28.533800 58.552200 96.792000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE5073, 0x79EE5074, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Tower (38119) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5074, 38119, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Creeping Blight Banner of the Tower */
+/* @teleloc 0x9EE5000B [28.533800 58.552200 96.792000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5075, 80378, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Northwatch Tower Radblo Gen */
+/* @teleloc 0x9EE5000B [28.533800 58.552200 96.792000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE5075, 0x79EE5076, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Tower (38119) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5076, 38119, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Creeping Blight Banner of the Tower */
 /* @teleloc 0x9EE5000B [28.533800 58.552200 96.792000] 0.707107 0.000000 0.000000 -0.707107 */
