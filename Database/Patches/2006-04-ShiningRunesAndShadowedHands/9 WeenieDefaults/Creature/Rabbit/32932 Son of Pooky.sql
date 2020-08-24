@@ -10,7 +10,9 @@ VALUES (32932,   1,         16) /* ItemType - Creature */
      , (32932,   6,         -1) /* ItemsCapacity */
      , (32932,   7,         -1) /* ContainersCapacity */
      , (32932,  16,          1) /* ItemUseable - No */
-     , (32932,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (32932,  40,          8) /* CombatMode - Magic */
+     , (32932,  45,          2)    
+	  , (32932,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (32932, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -89,22 +91,23 @@ VALUES (32932,   1,   18000, 0, 0, 18000) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (32932, 34, 0, 3, 0, 375, 0, 1) /* WarMagic            Specialized */
-	  , (32932,  6, 0, 3, 0,   0, 0, 0) /* MeleeDefense        Specialized */
-     , (32932,  7, 0, 3, 0,   0, 0, 0) /* MissileDefense      Specialized */
-     , (32932, 15, 0, 3, 0,   0, 0, 0) /* MagicDefense        Specialized */
+	  , (32932,  6, 0, 3, 0, 150, 0, 0) /* MeleeDefense        Specialized */
+     , (32932,  7, 0, 3, 0, 150, 0, 0) /* MissileDefense      Specialized */
+     , (32932, 15, 0, 3, 0, 150, 0, 0) /* MagicDefense        Specialized */
      , (32932, 22, 0, 2, 0,  10, 0, 0) /* Jump                Trained */
-     , (32932, 24, 0, 2, 0,  10, 0, 0) /* Run                 Trained */
-     , (32932, 45, 0, 3, 0,   0, 0, 0) /* LightWeapons        Specialized */; 
+     , (32932, 24, 0, 2, 0, 100, 0, 0) /* Run                 Trained */
+     , (32932, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */; 
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (32932,  0,  2,  2, 0.75,  240,  240,  240,  240,  240,  240,  240,  240,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */
      , (32932, 16,  4,  4, 0.75,  240,  240,  240,  240,  240,  240,  240,  240,    0, 2, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75) /* Torso */
-     , (32932, 17,  4,  0,    0,  240,  240,  240,  240,  240,  240,  240,  240,    0, 3,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25) /* Tail */;
+     , (32932, 17,  4,  0,    0,  240,  240,  240,  240,  240,  240,  240,  240,    0, 3,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25) /* Tail */
+	  , (32932, 22, 64, 150,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32932,  3901,    2.04)  /* Egg Bomb */
-     , (32932,  3902,    2.02)  /* Ring around the Rabbit */
-     , (32932,  3903,    2.0)  /* Whirlwind */;
+VALUES (32932,  3901,    2.10)  /* Egg Bomb */
+     , (32932,  3902,    2.09)  /* Ring around the Rabbit */
+     , (32932,  3903,    2.08)  /* Whirlwind */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32932, 9, 32934,  0, 0, 1, False) /* Create Rabbit Hutch Key (32934) for ContainTreasure */
