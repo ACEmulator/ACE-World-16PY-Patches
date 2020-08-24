@@ -44,9 +44,9 @@ Generation:
     - StopEvent: KeepNorthwatchSpireBlight
     - StopEvent: KeepNorthwatchTowerBlight
     - WorldBroadcast: The Society of the Eldrytch Web has claimed Northwatch Castle! Those members of the Society of the Eldrytch Web may now use the resources contained within the castle!
-    - InqEvent: KeepNorthwatchBlight
+    - InqEvent: KeepFreebooterBlight
         EventSuccess:
-            - WorldBroadcast: The turmoil of the loss of Northwatch Castle has rallied the Creeping Blight at Northwatch Castle!  Even now, the forces loyal to T'thuun are retaking all of the Banner locations!
+            - WorldBroadcast: The turmoil of the loss of Northwatch Castle has rallied the Creeping Blight at Freebooter Keep!  Even now, the forces loyal to T'thuun are retaking all of the Banner locations!
 
 
 GotoSet: CheckCountdown
