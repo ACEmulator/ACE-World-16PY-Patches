@@ -458,3 +458,14 @@ VALUES (0x79EE505E, 38874, 0x9EE50011, 64.82137, 20.97773, 82.25186, -0.7185674,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE505F, 38877, 0x9EE50012, 69.24402, 27.42492, 82, -0.7185674, 0, 0, 0.6954573,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */
 /* @teleloc 0x9EE50012 [69.244020 27.424920 82.000000] -0.718567 0.000000 0.000000 0.695457 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5060,  1154, 0x9EE50002, 4.39872, 46.8564, 74, -0.01640741, 0, 0, -0.9998654, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+/* @teleloc 0x9EE50002 [4.398720 46.856400 74.000000] -0.016407 0.000000 0.000000 -0.999865 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE5060, 0x79EE5061, '2019-02-10 00:00:00') /* Exploration Marker (39773) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5061, 39773, 0x9EE50002, 4.39872, 46.8564, 74, -0.01640741, 0, 0, -0.9998654,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
+/* @teleloc 0x9EE50002 [4.398720 46.856400 74.000000] -0.016407 0.000000 0.000000 -0.999865 */
