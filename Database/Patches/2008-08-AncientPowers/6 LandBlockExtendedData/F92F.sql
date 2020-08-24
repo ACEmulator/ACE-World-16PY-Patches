@@ -1199,9 +1199,9 @@ VALUES (0x7F92F0FA, 80362, 0xF92F001A, 90, 45, 148, 1, 0, 0, 0, False, '2019-02-
 /* @teleloc 0xF92F001A [90.000000 45.000000 148.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F92F0FB, 80363, 0xF92F001A, 90, 45, 148, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Freebooter Celhan Supply Gen */
+VALUES (0x7F92F0FB, 80363, 0xF92F001A, 90, 45, 148, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Freebooter Eldweb Supply Gen */
 /* @teleloc 0xF92F001A [90.000000 45.000000 148.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F92F0FC, 80364, 0xF92F001A, 90, 45, 148, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Freebooter Celhan Supply Gen */
+VALUES (0x7F92F0FC, 80364, 0xF92F001A, 90, 45, 148, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Freebooter Radblo Supply Gen */
 /* @teleloc 0xF92F001A [90.000000 45.000000 148.000000] 1.000000 0.000000 0.000000 0.000000 */
