@@ -31,7 +31,7 @@ VALUES (30373,   4,          0) /* ItemTotalXp */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30373,  22, True ) /* Inscribable */
-     , (30373, 100, False) /* Dyable */;;
+     , (30373, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30373,   5, -0.03) /* ManaRate */
