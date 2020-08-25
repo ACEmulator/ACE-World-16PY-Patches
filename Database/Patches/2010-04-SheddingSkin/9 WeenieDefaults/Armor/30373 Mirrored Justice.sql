@@ -6,7 +6,6 @@ VALUES (30373, 'shieldraremirroredjustice', 1, '2019-05-03 00:00:00') /* Generic
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30373,   1,          2) /* ItemType - Armor */
      , (30373,   3,          4) /* PaletteTemplate - Brown */
-     , (30373,   4,      65536) /* ClothingPriority - Feet */
      , (30373,   5,        690) /* EncumbranceVal */
      , (30373,   8,         90) /* Mass */
      , (30373,   9,    2097152) /* ValidLocations - Shield */
