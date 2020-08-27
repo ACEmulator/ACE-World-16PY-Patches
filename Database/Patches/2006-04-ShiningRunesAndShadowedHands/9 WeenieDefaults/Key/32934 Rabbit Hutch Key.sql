@@ -32,16 +32,3 @@ VALUES (32934,   1,   33554784) /* Setup */
      , (32934,   3,  536870932) /* SoundTable */
      , (32934,   8,  100675676) /* Icon */
      , (32934,  22,  872415275) /* PhysicsEffectTable */;
-
-/* Lifestoned Changelog:
-{
-  "Changelog": [
-    {
-      "created": "2020-08-22T18:50:41.0029651Z",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    }
-  ],
-  "IsDone": false
-}
-*/
