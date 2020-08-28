@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5686;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5686, 'virindimasterlethe', 10, '2020-06-13 06:25:21') /* Creature */;
+VALUES (5686, 'virindimasterlethe', 10, '2005-02-09 10:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5686,   1,         16) /* ItemType - Creature */
@@ -28,17 +28,17 @@ VALUES (5686,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5686,   1,       5) /* HeartbeatInterval */
      , (5686,   2,       0) /* HeartbeatTimestamp */
-     , (5686,   3, 0.600000023841858) /* HealthRate */
+     , (5686,   3,     0.6) /* HealthRate */
      , (5686,   4,     0.5) /* StaminaRate */
      , (5686,   5,       2) /* ManaRate */
      , (5686,  12,     0.5) /* Shade */
      , (5686,  13,       1) /* ArmorModVsSlash */
      , (5686,  14,       1) /* ArmorModVsPierce */
      , (5686,  15,       1) /* ArmorModVsBludgeon */
-     , (5686,  16, 0.720000028610229) /* ArmorModVsCold */
+     , (5686,  16,    0.72) /* ArmorModVsCold */
      , (5686,  17,       1) /* ArmorModVsFire */
      , (5686,  18,       1) /* ArmorModVsAcid */
-     , (5686,  19, 0.720000028610229) /* ArmorModVsElectric */
+     , (5686,  19,    0.72) /* ArmorModVsElectric */
      , (5686,  31,      18) /* VisualAwarenessRange */
      , (5686,  34,       1) /* PowerupTime */
      , (5686,  36,       1) /* ChargeSpeed */
@@ -87,16 +87,16 @@ VALUES (5686,   1,    70, 0, 0, 145) /* MaxHealth */
      , (5686,   5,   300, 0, 0, 550) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (5686,  6, 0, 2, 0, 180, 0, 436.247985839844) /* MeleeDefense        Trained */
-     , (5686,  7, 0, 2, 0, 100, 0, 436.247985839844) /* MissileDefense      Trained */
-     , (5686, 13, 0, 2, 0, 150, 0, 436.247985839844) /* UnarmedCombat       Trained */
-     , (5686, 14, 0, 2, 0, 230, 0, 436.247985839844) /* ArcaneLore          Trained */
-     , (5686, 15, 0, 2, 0, 225, 0, 436.247985839844) /* MagicDefense        Trained */
-     , (5686, 20, 0, 2, 0, 130, 0, 436.247985839844) /* Deception           Trained */
-     , (5686, 24, 0, 2, 0,  80, 0, 436.247985839844) /* Run                 Trained */
-     , (5686, 31, 0, 2, 0, 230, 0, 436.247985839844) /* CreatureEnchantment Trained */
-     , (5686, 33, 0, 2, 0, 200, 0, 436.247985839844) /* LifeMagic           Trained */
-     , (5686, 34, 0, 2, 0, 250, 0, 436.247985839844) /* WarMagic            Trained */;
+VALUES (5686,  6, 0, 2, 0, 180, 0, 436.247985454865) /* MeleeDefense        Trained */
+     , (5686,  7, 0, 2, 0, 100, 0, 436.247985454865) /* MissileDefense      Trained */
+     , (5686, 13, 0, 2, 0, 150, 0, 436.247985454865) /* UnarmedCombat       Trained */
+     , (5686, 14, 0, 2, 0, 230, 0, 436.247985454865) /* ArcaneLore          Trained */
+     , (5686, 15, 0, 2, 0, 225, 0, 436.247985454865) /* MagicDefense        Trained */
+     , (5686, 20, 0, 2, 0, 130, 0, 436.247985454865) /* Deception           Trained */
+     , (5686, 24, 0, 2, 0,  80, 0, 436.247985454865) /* Run                 Trained */
+     , (5686, 31, 0, 2, 0, 230, 0, 436.247985454865) /* CreatureEnchantment Trained */
+     , (5686, 33, 0, 2, 0, 200, 0, 436.247985454865) /* LifeMagic           Trained */
+     , (5686, 34, 0, 2, 0, 250, 0, 436.247985454865) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (5686,  0,  1,  0,    0,  120,  120,  120,  120,   86,  120,  120,   86,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -145,6 +145,10 @@ VALUES (5686,    62,  2.011)  /* Acid Stream V */
      , (5686,  1669,  2.032)  /* Stamina to Health Self VI */
      , (5686,  1681,  2.032)  /* Stamina to Mana Self VI */
      , (5686,  1704,  2.032)  /* Health to Mana Self VI */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (5686,  94) /* ATTACK_NOTIFICATION_EVENT */
+     , (5686, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (5686,  5 /* HeartBeat */,   0.05, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

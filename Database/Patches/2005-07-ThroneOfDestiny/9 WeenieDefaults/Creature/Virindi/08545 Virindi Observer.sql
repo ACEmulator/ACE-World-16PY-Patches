@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8545;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8545, 'virindiobserverherald', 10, '2020-06-13 06:25:21') /* Creature */;
+VALUES (8545, 'virindiobserverherald', 10, '2005-02-09 10:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8545,   1,         16) /* ItemType - Creature */
@@ -29,17 +29,17 @@ VALUES (8545,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8545,   1,       5) /* HeartbeatInterval */
      , (8545,   2,       0) /* HeartbeatTimestamp */
-     , (8545,   3, 0.600000023841858) /* HealthRate */
+     , (8545,   3,     0.6) /* HealthRate */
      , (8545,   4,     0.5) /* StaminaRate */
      , (8545,   5,       2) /* ManaRate */
      , (8545,  12,     0.5) /* Shade */
      , (8545,  13,       1) /* ArmorModVsSlash */
      , (8545,  14,       1) /* ArmorModVsPierce */
      , (8545,  15,       1) /* ArmorModVsBludgeon */
-     , (8545,  16, 0.720000028610229) /* ArmorModVsCold */
+     , (8545,  16,    0.72) /* ArmorModVsCold */
      , (8545,  17,       1) /* ArmorModVsFire */
      , (8545,  18,       1) /* ArmorModVsAcid */
-     , (8545,  19, 0.720000028610229) /* ArmorModVsElectric */
+     , (8545,  19,    0.72) /* ArmorModVsElectric */
      , (8545,  31,      18) /* VisualAwarenessRange */
      , (8545,  34,       1) /* PowerupTime */
      , (8545,  36,       1) /* ChargeSpeed */
@@ -88,16 +88,16 @@ VALUES (8545,   1,   225, 0, 0, 300) /* MaxHealth */
      , (8545,   5,   400, 0, 0, 750) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (8545,  6, 0, 3, 0, 200, 0, 592.567077636719) /* MeleeDefense        Specialized */
-     , (8545,  7, 0, 3, 0, 300, 0, 592.567077636719) /* MissileDefense      Specialized */
-     , (8545, 13, 0, 3, 0, 150, 0, 592.567077636719) /* UnarmedCombat       Specialized */
-     , (8545, 14, 0, 3, 0, 300, 0, 592.567077636719) /* ArcaneLore          Specialized */
-     , (8545, 15, 0, 3, 0, 240, 0, 592.567077636719) /* MagicDefense        Specialized */
-     , (8545, 20, 0, 3, 0, 250, 0, 592.567077636719) /* Deception           Specialized */
-     , (8545, 24, 0, 3, 0,  90, 0, 592.567077636719) /* Run                 Specialized */
-     , (8545, 31, 0, 3, 0, 300, 0, 592.567077636719) /* CreatureEnchantment Specialized */
-     , (8545, 33, 0, 3, 0, 300, 0, 592.567077636719) /* LifeMagic           Specialized */
-     , (8545, 34, 0, 3, 0, 300, 0, 592.567077636719) /* WarMagic            Specialized */;
+VALUES (8545,  6, 0, 3, 0, 200, 0, 592.567106002067) /* MeleeDefense        Specialized */
+     , (8545,  7, 0, 3, 0, 300, 0, 592.567106002067) /* MissileDefense      Specialized */
+     , (8545, 13, 0, 3, 0, 150, 0, 592.567106002067) /* UnarmedCombat       Specialized */
+     , (8545, 14, 0, 3, 0, 300, 0, 592.567106002067) /* ArcaneLore          Specialized */
+     , (8545, 15, 0, 3, 0, 240, 0, 592.567106002067) /* MagicDefense        Specialized */
+     , (8545, 20, 0, 3, 0, 250, 0, 592.567106002067) /* Deception           Specialized */
+     , (8545, 24, 0, 3, 0,  90, 0, 592.567106002067) /* Run                 Specialized */
+     , (8545, 31, 0, 3, 0, 300, 0, 592.567106002067) /* CreatureEnchantment Specialized */
+     , (8545, 33, 0, 3, 0, 300, 0, 592.567106002067) /* LifeMagic           Specialized */
+     , (8545, 34, 0, 3, 0, 300, 0, 592.567106002067) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8545,  0,  1,  0,    0,  170,  170,  170,  170,  122,  170,  170,  122,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -131,6 +131,9 @@ VALUES (8545,    68,  2.105)  /* Shock Wave V */
      , (8545,  1343,   2.04)  /* Weakness Other VI */
      , (8545,  1444,   2.04)  /* Bafflement Other VI */
      , (8545,  1468,   2.04)  /* Feeblemind Other VI */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8545, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (8545,  5 /* HeartBeat */,   0.05, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
