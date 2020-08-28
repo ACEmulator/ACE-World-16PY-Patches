@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41425;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41425, 'ace41425-refiningpolishstamina', 44, '2019-02-10 00:00:00') /* CraftTool */;
+VALUES (41425, 'ace41425-refiningpolishstamina', 44, '2020-06-13 06:25:52') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41425,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
@@ -26,5 +26,4 @@ VALUES (41425,   1,   33554598) /* Setup */
      , (41425,   3,  536870932) /* SoundTable */
      , (41425,   8,  100690738) /* Icon */
      , (41425,  22,  872415275) /* PhysicsEffectTable */;
-     
-     
+
