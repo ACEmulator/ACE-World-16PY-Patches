@@ -38,7 +38,7 @@ VALUES (44015,   1,       5) /* HeartbeatInterval */
      , (44015,  12,     0.5) /* Shade */
      , (44015,  39,     1.6) /* DefaultScale */
      , (44015,  13,     0.6) /* ArmorModVsSlash */
-     , (44015,  14,    0.66) /* ArmorModVsPierce */
+     , (44015,  14,     0.5) /* ArmorModVsPierce */
      , (44015,  15,    0.75) /* ArmorModVsBludgeon */
      , (44015,  16,       1) /* ArmorModVsCold */
      , (44015,  17,    0.95) /* ArmorModVsFire */

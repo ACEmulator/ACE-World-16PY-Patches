@@ -93,11 +93,10 @@ VALUES (48900,   1,  5900, 0, 0, 6100) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (48900,  6, 0, 2, 0, 400, 0, 0) /* MeleeDefense        Trained */
      , (48900,  7, 0, 2, 0, 450, 0, 0) /* MissileDefense      Trained */
-     , (48900, 15, 0, 2, 0, 350, 0, 0) /* MagicDefense        Trained */
+     , (48900, 15, 0, 2, 0, 300, 0, 0) /* MagicDefense        Trained */
      , (48900, 24, 0, 2, 0, 200, 0, 0) /* Run                 Trained */
-     , (48900, 33, 0, 2, 0, 435, 0, 0) /* LifeMagic           Trained */
-     , (48900, 34, 0, 2, 0, 445, 0, 0) /* WarMagic            Trained */
-     , (48900, 13, 0, 3, 0, 490, 0, 0) /* UnarmedCombat       Specialized */
+     , (48900, 33, 0, 2, 0, 325, 0, 0) /* LifeMagic           Trained */
+     , (48900, 34, 0, 2, 0, 325, 0, 0) /* WarMagic            Trained */
      , (48900, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */
      , (48900, 46, 0, 3, 0, 450, 0, 0) /* FinesseWeapons      Specialized */;
 

@@ -37,7 +37,7 @@ VALUES (44053,   1,       5) /* HeartbeatInterval */
      , (44053,  12,     0.5) /* Shade */
      , (44053,  39,     2.5) /* DefaultScale */
      , (44053,  13,     0.6) /* ArmorModVsSlash */
-     , (44053,  14,     0.66) /* ArmorModVsPierce */
+     , (44053,  14,     0.5) /* ArmorModVsPierce */
      , (44053,  15,    0.75) /* ArmorModVsBludgeon */
      , (44053,  16,       1) /* ArmorModVsCold */
      , (44053,  17,    0.95) /* ArmorModVsFire */
@@ -47,8 +47,8 @@ VALUES (44053,   1,       5) /* HeartbeatInterval */
      , (44053,  31,      32) /* VisualAwarenessRange */
      , (44053,  34,       1) /* PowerupTime */
      , (44053,  36,       1) /* ChargeSpeed */
-     , (44053,  64,    0.75) /* ResistSlash */
-     , (44053,  65,     0.7) /* ResistPierce */
+     , (44053,  64,     0.7) /* ResistSlash */
+     , (44053,  65,     0.8) /* ResistPierce */
      , (44053,  66,     0.5) /* ResistBludgeon */
      , (44053,  67,     0.3) /* ResistFire */
      , (44053,  68,     0.3) /* ResistCold */
@@ -79,7 +79,7 @@ VALUES (44053,   1,   33554489) /* Setup */
      , (44053,   7,  268435556) /* ClothingBase */
      , (44053,   8,  100667939) /* Icon */
      , (44053,  22,  872415268) /* PhysicsEffectTable */
-     , (44053,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
+     , (44053,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44053,   1, 260, 0, 0) /* Strength */
@@ -98,15 +98,15 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (44053,  6, 0, 3, 0, 550, 0, 0) /* MeleeDefense        Specialized */
      , (44053,  7, 0, 3, 0, 470, 0, 0) /* MissileDefense      Specialized */
      , (44053, 45, 0, 3, 0, 600, 0, 0) /* LightWeapons        Specialized */
-     , (44053, 15, 0, 3, 0, 480, 0, 0) /* MagicDefense        Specialized */
+     , (44053, 15, 0, 3, 0, 425, 0, 0) /* MagicDefense        Specialized */
      , (44053, 22, 0, 3, 0,  25, 0, 0) /* Jump                Specialized */
-     , (44053, 24, 0, 3, 0,  450, 0, 0) /* Run                 Specialized */;
+     , (44053, 24, 0, 3, 0, 450, 0, 0) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (44053,  0,  2, 600, 0.75,  700,  275,  250,  275,  215,  275,  250,  215,    0, 2,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
-     , (44053, 10,  2, 600,  0.5,  700,  250,  275,  250,  215,  275,  250,  275,    0, 2,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
-     , (44053, 13,  2, 600,  0.5,  700,  250,  275,  250,  215,  275,  250,  275,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
-     , (44053, 16,  4, 600,    0,  700,  250,  275,  250,  215,  275,  250,  275,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */;
+VALUES (44053,  0,  2, 600, 0.75,  550,  275,  250,  275,  215,  275,  250,  215,    0, 2,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
+     , (44053, 10,  2, 600,  0.5,  550,  250,  275,  250,  215,  275,  250,  275,    0, 2,    0,  0.2,  0.8,    0,  0.2,  0.8,    0,    0,    0,    0,    0,    0) /* FrontLeg */
+     , (44053, 13,  2, 600,  0.5,  550,  250,  275,  250,  215,  275,  250,  275,    0, 3,    0,    0,    0,    0,    0,    0,  0.1,  0.3,  0.7,  0.1,  0.3,  0.7) /* RearLeg */
+     , (44053, 16,  4, 600,    0,  550,  250,  275,  250,  215,  275,  250,  275,    0, 2,  0.6,  0.7,  0.2,  0.6,  0.7,  0.2,  0.9,  0.7,  0.3,  0.9,  0.7,  0.3) /* Torso */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44053,  5 /* HeartBeat */,   0.05, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
