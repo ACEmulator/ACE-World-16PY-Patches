@@ -31,7 +31,7 @@ VALUES (80407,   1, 'Creeping Blight Banner of the Courtyard') /* Name */
      , (80407,  16, 'A banner, erected by the Creeping Blight, to show their control of the local area.  Those who have both joined one of the Societies and shunned Asheron''s Protection may contest this claim.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (80407,   1,   33556224) /* Setup */
+VALUES (80407,   1,   33556732) /* Setup */
      , (80407,   2,  150995107) /* MotionTable */
      , (80407,   3,  536871001) /* SoundTable */
      , (80407,   6,   67111919) /* PaletteBase */
