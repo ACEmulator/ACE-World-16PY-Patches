@@ -601,3 +601,99 @@ VALUES (0x79EE5075, 0x79EE5076, '2019-02-10 00:00:00') /* Radiant Blood Banner o
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5076, 80417, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Radiant Blood Banner of the Tower */
 /* @teleloc 0x9EE5000B [28.533800 58.552200 96.792000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5077, 80382, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0, False, '2020-08-30 15:38:38'); /* Northwatch Celhan Array Gen */
+/* @teleloc 0x9EE5001B [87.326202 65.937500 82.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE5077, 0x79EE5078, '2020-08-30 15:39:05') /* Celestial Hand Buffing Array (40534) */
+     , (0x79EE5077, 0x79EE507D, '2020-08-30 15:45:24') /* Celestial Hand Northwatch Castle Black Market Portal (80403) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5078, 40534, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0,  True, '2020-08-30 15:39:05'); /* Celestial Hand Buffing Array */
+/* @teleloc 0x9EE5001B [87.326202 65.937500 82.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5079, 80383, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0, False, '2020-08-30 15:41:14'); /* Northwatch Eldweb Array Gen */
+/* @teleloc 0x9EE5001B [87.326202 65.937500 82.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE5079, 0x79EE507A, '2020-08-30 15:41:28') /* Eldrytch Web Buffing Array (40535) */
+     , (0x79EE5079, 0x79EE507E, '2020-08-30 15:45:40') /* Eldrytch Web Northwatch Castle Black Market Portal (80404) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE507A, 40535, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0,  True, '2020-08-30 15:41:28'); /* Eldrytch Web Buffing Array */
+/* @teleloc 0x9EE5001B [87.326202 65.937500 82.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE507B, 80384, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0, False, '2020-08-30 15:41:44'); /* Northwatch Radblo Array Gen */
+/* @teleloc 0x9EE5001B [87.326202 65.937500 82.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE507B, 0x79EE507C, '2020-08-30 15:41:53') /* Radiant Blood Buffing Array (40536) */
+     , (0x79EE507B, 0x79EE507F, '2020-08-30 15:45:59') /* Radiant Blood Northwatch Castle Black Market Portal (80405) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE507C, 40536, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0,  True, '2020-08-30 15:41:53'); /* Radiant Blood Buffing Array */
+/* @teleloc 0x9EE5001B [87.326202 65.937500 82.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE507D, 80403, 0x9EE50284, 127.836, 30, 52.737, 0.707107, 0, 0, 0.707107,  True, '2020-08-30 15:45:24'); /* Celestial Hand Northwatch Castle Black Market Portal */
+/* @teleloc 0x9EE50284 [127.835999 30.000000 52.737000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE507E, 80404, 0x9EE50284, 127.836, 30, 52.737, 0.707107, 0, 0, 0.707107,  True, '2020-08-30 15:45:40'); /* Eldrytch Web Northwatch Castle Black Market Portal */
+/* @teleloc 0x9EE50284 [127.835999 30.000000 52.737000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE507F, 80405, 0x9EE50284, 127.83594, 30, 52.737, 0.707107, 0, 0, 0.707107,  True, '2020-08-30 15:45:59'); /* Radiant Blood Northwatch Castle Black Market Portal */
+/* @teleloc 0x9EE50284 [127.835938 30.000000 52.737000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5080, 80382, 0x9EE50023, 107.936, 59.9883, 97.3862, 1, 0, 0, 0, False, '2020-08-30 15:50:12'); /* Northwatch Celhan Array Gen */
+/* @teleloc 0x9EE50023 [107.935997 59.988300 97.386200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5081, 80383, 0x9EE50023, 107.936, 59.9883, 97.3862, 1, 0, 0, 0, False, '2020-08-30 15:50:15'); /* Northwatch Eldweb Array Gen */
+/* @teleloc 0x9EE50023 [107.935997 59.988300 97.386200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5082, 80384, 0x9EE50023, 107.936, 59.9883, 97.3862, 1, 0, 0, 0, False, '2020-08-30 15:50:16'); /* Northwatch Radblo Array Gen */
+/* @teleloc 0x9EE50023 [107.935997 59.988300 97.386200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5083, 80385, 0x9EE50023, 107.936, 59.9883, 97.3862, 1, 0, 0, 0, False, '2020-08-30 15:50:18'); /* Northwatch Celhan Reset Array Gen */
+/* @teleloc 0x9EE50023 [107.935997 59.988300 97.386200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5084, 80386, 0x9EE50023, 107.936, 59.9883, 97.3862, 1, 0, 0, 0, False, '2020-08-30 15:50:19'); /* Northwatch Eldweb Reset Array Gen */
+/* @teleloc 0x9EE50023 [107.935997 59.988300 97.386200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5085, 80387, 0x9EE50023, 107.93626, 59.988274, 97.38616, 1, 0, 0, 0, False, '2020-08-30 15:50:20'); /* Northwatch Radblo Reset Array Gen */
+/* @teleloc 0x9EE50023 [107.936256 59.988274 97.386162] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5086, 80391, 0x9EE50023, 110.67, 66.3008, 82.055, 0, 0, 0, -1, False, '2020-08-30 15:52:35'); /* Northwatch Celhan Rewards Gen */
+/* @teleloc 0x9EE50023 [110.669998 66.300797 82.055000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5087, 80392, 0x9EE50023, 110.67, 66.3008, 82.055, 0, 0, 0, -1, False, '2020-08-30 15:52:37'); /* Northwatch Eldweb Rewards Gen */
+/* @teleloc 0x9EE50023 [110.669998 66.300797 82.055000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5088, 80393, 0x9EE50023, 110.66992, 66.30078, 82.05501, 0, 0, 0, -1, False, '2020-08-30 15:52:38'); /* Northwatch Radblo Rewards Gen */
+/* @teleloc 0x9EE50023 [110.669922 66.300781 82.055008] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5089, 80394, 0x9EE5001B, 77.0438, 49.3147, 82.055, 1, 0, 0, 0, False, '2020-08-30 15:54:56'); /* Northwatch Celhan Supply Gen */
+/* @teleloc 0x9EE5001B [77.043800 49.314701 82.055000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE508A, 80395, 0x9EE5001B, 77.0438, 49.3147, 82.055, 1, 0, 0, 0, False, '2020-08-30 15:54:58'); /* Northwatch Eldweb Supply Gen */
+/* @teleloc 0x9EE5001B [77.043800 49.314701 82.055000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE508B, 80396, 0x9EE5001B, 77.04381, 49.31468, 82.05501, 1, 0, 0, 0, False, '2020-08-30 15:55:00'); /* Northwatch Radblo Supply Gen */
+/* @teleloc 0x9EE5001B [77.043808 49.314678 82.055008] 1.000000 0.000000 0.000000 0.000000 */
