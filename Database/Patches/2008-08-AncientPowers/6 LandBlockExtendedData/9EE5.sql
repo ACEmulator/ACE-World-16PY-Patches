@@ -603,7 +603,7 @@ VALUES (0x79EE5076, 80417, 0x9EE5000B, 28.5338, 58.5522, 96.792, 0.7071068, 0, 0
 /* @teleloc 0x9EE5000B [28.533800 58.552200 96.792000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79EE5077, 80382, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0, False, '2020-08-30 15:38:38'); /* Northwatch Celhan Array Gen */
+VALUES (0x79EE5077, 80379, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0, False, '2020-08-30 15:38:38'); /* Northwatch Celhan Gen */
 /* @teleloc 0x9EE5001B [87.326202 65.937500 82.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -615,7 +615,7 @@ VALUES (0x79EE5078, 40534, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0,  True, 
 /* @teleloc 0x9EE5001B [87.326202 65.937500 82.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79EE5079, 80383, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0, False, '2020-08-30 15:41:14'); /* Northwatch Eldweb Array Gen */
+VALUES (0x79EE5079, 80380, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0, False, '2020-08-30 15:41:14'); /* Northwatch Eldweb Gen */
 /* @teleloc 0x9EE5001B [87.326202 65.937500 82.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -627,7 +627,7 @@ VALUES (0x79EE507A, 40535, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0,  True, 
 /* @teleloc 0x9EE5001B [87.326202 65.937500 82.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79EE507B, 80384, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0, False, '2020-08-30 15:41:44'); /* Northwatch Radblo Array Gen */
+VALUES (0x79EE507B, 80381, 0x9EE5001B, 87.3262, 65.9375, 82, 1, 0, 0, 0, False, '2020-08-30 15:41:44'); /* Northwatch Radblo Gen */
 /* @teleloc 0x9EE5001B [87.326202 65.937500 82.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -697,3 +697,66 @@ VALUES (0x79EE508A, 80395, 0x9EE5001B, 77.0438, 49.3147, 82.055, 1, 0, 0, 0, Fal
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE508B, 80396, 0x9EE5001B, 77.04381, 49.31468, 82.05501, 1, 0, 0, 0, False, '2020-08-30 15:55:00'); /* Northwatch Radblo Supply Gen */
 /* @teleloc 0x9EE5001B [77.043808 49.314678 82.055008] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE508C, 80379, 0x9EE50022, 108.313, 34.9905, 101.955, 1, 0, 0, 0, False, '2020-08-30 16:05:14'); /* Northwatch Celhan Gen */
+/* @teleloc 0x9EE50022 [108.313004 34.990501 101.955002] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE508C, 0x79EE508D, '2020-08-30 16:05:45') /* Celestial Hand Banner (38053) */
+     , (0x79EE508C, 0x79EE5092, '2020-08-30 16:15:34') /* Celestial Hand Banner (38053) */
+     , (0x79EE508C, 0x79EE5095, '2020-08-30 16:17:41') /* Celestial Hand Banner (38053) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE508D, 38053, 0x9EE50022, 108.313, 34.9905, 101.955, 1, 0, 0, 0,  True, '2020-08-30 16:05:45'); /* Celestial Hand Banner */
+/* @teleloc 0x9EE50022 [108.313004 34.990501 101.955002] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE508E, 80380, 0x9EE50022, 108.313, 34.9905, 101.955, 1, 0, 0, 0, False, '2020-08-30 16:05:55'); /* Northwatch Eldweb Gen */
+/* @teleloc 0x9EE50022 [108.313004 34.990501 101.955002] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE508E, 0x79EE508F, '2020-08-30 16:06:07') /* Eldrytch Web Banner (38054) */
+     , (0x79EE508E, 0x79EE5093, '2020-08-30 16:15:48') /* Eldrytch Web Banner (38054) */
+     , (0x79EE508E, 0x79EE5096, '2020-08-30 16:17:49') /* Eldrytch Web Banner (38054) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE508F, 38054, 0x9EE50022, 108.313, 34.9905, 101.955, 1, 0, 0, 0,  True, '2020-08-30 16:06:07'); /* Eldrytch Web Banner */
+/* @teleloc 0x9EE50022 [108.313004 34.990501 101.955002] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5090, 80381, 0x9EE50022, 108.313, 34.9905, 101.955, 1, 0, 0, 0, False, '2020-08-30 16:06:13'); /* Northwatch Radblo Gen */
+/* @teleloc 0x9EE50022 [108.313004 34.990501 101.955002] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE5090, 0x79EE5091, '2020-08-30 16:06:22') /* Radiant Blood Banner (38055) */
+     , (0x79EE5090, 0x79EE5094, '2020-08-30 16:15:59') /* Radiant Blood Banner (38055) */
+     , (0x79EE5090, 0x79EE5097, '2020-08-30 16:17:55') /* Radiant Blood Banner (38055) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5091, 38055, 0x9EE50022, 108.313, 34.9905, 101.955, 1, 0, 0, 0,  True, '2020-08-30 16:06:22'); /* Radiant Blood Banner */
+/* @teleloc 0x9EE50022 [108.313004 34.990501 101.955002] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5092, 38053, 0x9EE50022, 107.977, 25.499, 82.055, 1, 0, 0, 0,  True, '2020-08-30 16:15:34'); /* Celestial Hand Banner */
+/* @teleloc 0x9EE50022 [107.976997 25.499001 82.055000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5093, 38054, 0x9EE50022, 107.977, 25.499, 82.055, 1, 0, 0, 0,  True, '2020-08-30 16:15:48'); /* Eldrytch Web Banner */
+/* @teleloc 0x9EE50022 [107.976997 25.499001 82.055000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5094, 38055, 0x9EE50022, 107.977, 25.499, 82.055, 1, 0, 0, 0,  True, '2020-08-30 16:15:59'); /* Radiant Blood Banner */
+/* @teleloc 0x9EE50022 [107.976997 25.499001 82.055000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5095, 38053, 0x9EE50022, 114.084, 25.499, 82.055, 1, 0, 0, 0,  True, '2020-08-30 16:17:41'); /* Celestial Hand Banner */
+/* @teleloc 0x9EE50022 [114.084000 25.499001 82.055000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5096, 38054, 0x9EE50022, 114.084, 25.499, 82.055, 1, 0, 0, 0,  True, '2020-08-30 16:17:49'); /* Eldrytch Web Banner */
+/* @teleloc 0x9EE50022 [114.084000 25.499001 82.055000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE5097, 38055, 0x9EE50022, 114.08422, 25.499014, 82.05501, 1, 0, 0, 0,  True, '2020-08-30 16:17:55'); /* Radiant Blood Banner */
+/* @teleloc 0x9EE50022 [114.084221 25.499014 82.055008] 1.000000 0.000000 0.000000 0.000000 */
