@@ -1183,16 +1183,16 @@ VALUES (0x7F92F0F4, 80346, 0xF92F0012, 59.893, 36.096, 163.3535, 1, 0, 0, 0,  Fa
 /* @teleloc 0xF92F0012 [59.893000 36.096000 163.353500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F92F0F5, 80355, 0xF92F0012, 58, 28, 148, 0.7071068, 0, 0, 0.7071068, False, '2019-02-10 00:00:00'); /* Freebooter Celhan Rewards Gen */
-/* @teleloc 0xF92F0012 [58.000000 28.000000 148.000000] 0.707107 0.000000 0.000000 0.707107 */
+VALUES (0x7F92F0F5, 80355, 0xF92F0012, 55, 28, 148, 0.7071068, 0, 0, 0.7071068, False, '2019-02-10 00:00:00'); /* Freebooter Celhan Rewards Gen */
+/* @teleloc 0xF92F0012 [55.000000 28.000000 148.000000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F92F0F6, 80356, 0xF92F0012, 58, 28, 148, 0.7071068, 0, 0, 0.7071068, False, '2019-02-10 00:00:00'); /* Freebooter Eldweb Rewards Gen */
-/* @teleloc 0xF92F0012 [58.000000 28.000000 148.000000] 0.707107 0.000000 0.000000 0.707107 */
+VALUES (0x7F92F0F6, 80356, 0xF92F0012, 55, 28, 148, 0.7071068, 0, 0, 0.7071068, False, '2019-02-10 00:00:00'); /* Freebooter Eldweb Rewards Gen */
+/* @teleloc 0xF92F0012 [55.000000 28.000000 148.000000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F92F0F7, 80357, 0xF92F0012, 58, 28, 148, 0.7071068, 0, 0, 0.7071068, False, '2019-02-10 00:00:00'); /* Freebooter Radblo Rewards Gen */
-/* @teleloc 0xF92F0012 [58.000000 28.000000 148.000000] 0.707107 0.000000 0.000000 0.707107 */
+VALUES (0x7F92F0F7, 80357, 0xF92F0012, 55, 28, 148, 0.7071068, 0, 0, 0.7071068, False, '2019-02-10 00:00:00'); /* Freebooter Radblo Rewards Gen */
+/* @teleloc 0xF92F0012 [55.000000 28.000000 148.000000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F92F0FA, 80362, 0xF92F001A, 90, 45, 148, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Freebooter Celhan Supply Gen */
