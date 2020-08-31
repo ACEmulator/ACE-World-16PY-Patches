@@ -95,9 +95,8 @@ VALUES (48804,  6, 0, 2, 0, 370, 0, 0) /* MeleeDefense        Trained */
      , (48804,  7, 0, 2, 0, 450, 0, 0) /* MissileDefense      Trained */
      , (48804, 15, 0, 2, 0, 300, 0, 0) /* MagicDefense        Trained */
      , (48804, 24, 0, 2, 0, 200, 0, 0) /* Run                 Trained */
-     , (48804, 33, 0, 2, 0, 435, 0, 0) /* LifeMagic           Trained */
-     , (48804, 34, 0, 2, 0, 445, 0, 0) /* WarMagic            Trained */
-     , (48804, 13, 0, 3, 0, 490, 0, 0) /* UnarmedCombat       Specialized */
+     , (48804, 33, 0, 2, 0, 325, 0, 0) /* LifeMagic           Trained */
+     , (48804, 34, 0, 2, 0, 325, 0, 0) /* WarMagic            Trained */
      , (48804, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */
      , (48804, 46, 0, 3, 0, 450, 0, 0) /* FinesseWeapons      Specialized */;
 

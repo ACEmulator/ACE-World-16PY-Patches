@@ -38,7 +38,7 @@ VALUES (44017,   1,       5) /* HeartbeatInterval */
      , (44017,  12,     0.5) /* Shade */
      , (44017,  39,     1.6) /* DefaultScale */
      , (44017,  13,     0.6) /* ArmorModVsSlash */
-     , (44017,  14,    0.66) /* ArmorModVsPierce */
+     , (44017,  14,     0.5) /* ArmorModVsPierce */
      , (44017,  15,    0.75) /* ArmorModVsBludgeon */
      , (44017,  16,       1) /* ArmorModVsCold */
      , (44017,  17,    0.95) /* ArmorModVsFire */
@@ -71,7 +71,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44017,   1, 'Tamed Armoredillo') /* Name */
      , (44017,  45, 'KilltaskDesertAreaArmoredillo_0511') /* KillQuest */;
 
-
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44017,   1,   33554436) /* Setup */
      , (44017,   2,  150994972) /* MotionTable */
@@ -100,7 +99,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (44017,  6, 0, 3, 0, 500, 0, 0) /* MeleeDefense        Specialized */
      , (44017,  7, 0, 3, 0, 460, 0, 0) /* MissileDefense      Specialized */
      , (44017, 45, 0, 3, 0, 460, 0, 0) /* LightWeapons        Specialized */
-     , (44017, 15, 0, 3, 0, 460, 0, 0) /* MagicDefense        Specialized */
+     , (44017, 15, 0, 3, 0, 425, 0, 0) /* MagicDefense        Specialized */
      , (44017, 22, 0, 3, 0,  25, 0, 0) /* Jump                Specialized */
      , (44017, 24, 0, 3, 0, 400, 0, 0) /* Run                 Specialized */;
 

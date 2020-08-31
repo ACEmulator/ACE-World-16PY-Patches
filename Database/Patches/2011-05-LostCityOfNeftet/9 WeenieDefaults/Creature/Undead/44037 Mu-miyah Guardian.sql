@@ -25,7 +25,6 @@ VALUES (44037,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44037,   1, True ) /* Stuck */
      , (44037,   6, True ) /* AiUsesMana */
-     , (44037,   7, True ) /* AiUseHumanMagicAnimations */
      , (44037,  10, True ) /* AttackerAi */
      , (44037,  11, False) /* IgnoreCollisions */
      , (44037,  12, True ) /* ReportCollisions */
@@ -104,10 +103,11 @@ VALUES (44037,  6, 0, 2, 0, 410, 0, 0) /* MeleeDefense        Trained */
      , (44037,  7, 0, 2, 0, 350, 0, 0) /* MissileDefense      Trained */
      , (44037, 15, 0, 2, 0, 380, 0, 0) /* MagicDefense        Trained */
      , (44037, 24, 0, 2, 0, 255, 0, 0) /* Run                 Trained */
-     , (44037, 33, 0, 2, 0, 450, 0, 0) /* LifeMagic           Trained */
-     , (44037, 34, 0, 2, 0, 480, 0, 0) /* WarMagic            Trained */
+     , (44037, 33, 0, 2, 0, 350, 0, 0) /* LifeMagic           Trained */
+     , (44037, 34, 0, 2, 0, 350, 0, 0) /* WarMagic            Trained */
      , (44037, 45, 0, 3, 0, 600, 0, 0) /* LightWeapons        Specialized */
-     , (44037, 46, 0, 3, 0, 600, 0, 0) /* FinesseWeapons      Specialized */;
+     , (44037, 46, 0, 3, 0, 600, 0, 0) /* FinesseWeapons      Specialized */
+     , (44037, 48, 0, 2, 0,  60, 0, 0) /* Shield              Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (44037,  0,  4,  0,    0,  350,  250,  150,  275,  250,  100,  250,  150,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

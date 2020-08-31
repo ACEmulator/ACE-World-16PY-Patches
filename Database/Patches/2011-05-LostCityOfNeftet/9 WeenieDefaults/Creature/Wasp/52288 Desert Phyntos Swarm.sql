@@ -10,7 +10,7 @@ VALUES (52288,   1,         16) /* ItemType - Creature */
      , (52288,   6,         -1) /* ItemsCapacity */
      , (52288,   7,         -1) /* ContainersCapacity */
      , (52288,  16,          1) /* ItemUseable - No */
-     , (52288,  25,        185) /* Level */
+     , (52288,  25,        200) /* Level */
      , (52288,  27,          0) /* ArmorType - None */
      , (52288,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (52288,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -27,7 +27,7 @@ VALUES (52288,   1, True ) /* Stuck */
      , (52288,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52288,  39,     1.2) /* DefaultScale */
+VALUES (52288,  39,     0.8) /* DefaultScale */
      , (52288,   1,       5) /* HeartbeatInterval */
      , (52288,   2,       0) /* HeartbeatTimestamp */
      , (52288,   3,       4) /* HealthRate */
@@ -58,7 +58,7 @@ VALUES (52288,  39,     1.2) /* DefaultScale */
      , (52288, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52288,   1, 'Agitated Desert Phyntos Swarm') /* Name */;
+VALUES (52288,   1, 'Desert Phyntos Swarm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52288,   1,   33558818) /* Setup */

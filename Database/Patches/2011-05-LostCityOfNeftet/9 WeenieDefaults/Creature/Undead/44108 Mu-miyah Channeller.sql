@@ -23,7 +23,6 @@ VALUES (44108,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44108,   1, True ) /* Stuck */
      , (44108,   6, True ) /* AiUsesMana */
-     , (44108,   7, True ) /* AiUseHumanMagicAnimations */
      , (44108,  10, True ) /* AttackerAi */
      , (44108,  11, False) /* IgnoreCollisions */
      , (44108,  12, True ) /* ReportCollisions */
@@ -112,11 +111,11 @@ VALUES (44108,  0,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44108,  5542,   2.06)  /* Burning Sands Infliction */
-     , (44108,  5543,   2.06)  /* Curse of the Burning Sands */
+     , (44108,  5543,   2.50)  /* Curse of the Burning Sands */
      , (44108,  4423,   2.20)  /* Incantation of Flame Arc */
      , (44108,  5011,   2.06)  /* Geomantic Raze */
      , (44108,  4643,   2.06)  /* Incantation of Drain Health */
-     , (44108,  4645,   1.06)  /* Incantation of Drain Stamina Other */;
+     , (44108,  4645,   2.06)  /* Incantation of Drain Stamina Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44108, 9, 44134,  1, 0, 1, False) /* Red Destabilizing Crystal (44134) for ContainTreasure */
