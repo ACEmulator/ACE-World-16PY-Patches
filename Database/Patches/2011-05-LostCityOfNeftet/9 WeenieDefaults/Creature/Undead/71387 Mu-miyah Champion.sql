@@ -23,7 +23,6 @@ VALUES (71387,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (71387,   1, True ) /* Stuck */
      , (71387,   6, True ) /* AiUsesMana */
-     , (71387,   7, True ) /* AiUseHumanMagicAnimations */
      , (71387,  10, True ) /* AttackerAi */
      , (71387,  11, False) /* IgnoreCollisions */
      , (71387,  12, True ) /* ReportCollisions */
@@ -98,12 +97,13 @@ VALUES (71387,   1,  4100, 0, 0, 4300) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (71387,  6, 0, 2, 0, 470, 0, 0) /* MeleeDefense        Trained */
      , (71387,  7, 0, 2, 0, 390, 0, 0) /* MissileDefense      Trained */
-     , (71387, 15, 0, 2, 0, 400, 0, 0) /* MagicDefense        Trained */
+     , (71387, 15, 0, 2, 0, 320, 0, 0) /* MagicDefense        Trained */
      , (71387, 24, 0, 2, 0, 255, 0, 0) /* Run                 Trained */
-     , (71387, 33, 0, 2, 0, 500, 0, 0) /* LifeMagic           Trained */
-     , (71387, 34, 0, 2, 0, 440, 0, 0) /* WarMagic            Trained */
+     , (71387, 33, 0, 2, 0, 350, 0, 0) /* LifeMagic           Trained */
+     , (71387, 34, 0, 2, 0, 350, 0, 0) /* WarMagic            Trained */
      , (71387, 45, 0, 3, 0, 500, 0, 0) /* LightWeapons        Specialized */
-     , (71387, 46, 0, 3, 0, 500, 0, 0) /* FinesseWeapons      Specialized */;
+     , (71387, 46, 0, 3, 0, 500, 0, 0) /* FinesseWeapons      Specialized */
+     , (71387, 48, 0, 2, 0,  60, 0, 0) /* Shield              Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (71387,  0,  4,  0,    0,  460,  250,  150,  275,  250,  100,  250,  150,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
