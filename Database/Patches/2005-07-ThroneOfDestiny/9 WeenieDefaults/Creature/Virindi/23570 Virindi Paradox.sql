@@ -203,11 +203,16 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, '"Your soul creeps away for another day. But soon it shall be claimed in the name of the sheltering dark."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23570, 9,  7604,  0, 0, 0.04, False) /* Create Yellow Jewel (7604) for ContainTreasure */
-     , (23570, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (23570, 9,  9292,  0, 0, 0.06, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+VALUES (23570, 9,  9292,  0, 0, 0.06, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
      , (23570, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (23570, 9, 23108,  0, 0, 0.02, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
      , (23570, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (23570, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
-     , (23570, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
+     , (23570, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (23570, 9,  7604,  0, 0, 0.0125, False) /* Create Yellow Jewel (7604) for ContainTreasure */
+     , (23570, 9,  3698,  0, 0, 0.0125, False) /* Create White Jewel (3698) for ContainTreasure */
+     , (23570, 9,  3696,  0, 0, 0.0125, False) /* Create Blue Gem (3696) for ContainTreasure */
+     , (23570, 9,  3697,  0, 0, 0.0125, False) /* Create Red Jewel (3697) for ContainTreasure */
+     , (23570, 9, 41470,  0, 0, 0.0125, False) /* Create  (41470) for ContainTreasure */
+     , (23570, 9,     0,  0, 0, 0.9375, False) /* Create nothing for ContainTreasure */;
+
