@@ -14,7 +14,7 @@ VALUES (80341,   1,         16) /* ItemType - Creature */
      , (80341,  40,          1) /* CombatMode - NonCombat */
      , (80341,  67,          1) /* Tolerance - NoAttack */
      , (80341,  68,          5) /* TargetingTactic - Random, LastDamager */
-     , (80341,  81,          1) /* MaxGeneratedObjects */
+     , (80341,  81,          5) /* MaxGeneratedObjects */
      , (80341,  82,          0) /* InitGeneratedObjects */
      , (80341,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (80341, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
@@ -50,6 +50,7 @@ VALUES (80341,   1,       5) /* HeartbeatInterval */
      , (80341,  36,       1) /* ChargeSpeed */
      , (80341,  39,       2) /* DefaultScale */
      , (80341,  41,       0) /* RegenerationInterval */
+     , (80341,  43,       3) /* GeneratorRadius */
      , (80341,  64,    0.75) /* ResistSlash */
      , (80341,  65,    0.75) /* ResistPierce */
      , (80341,  66,    0.75) /* ResistBludgeon */
@@ -112,7 +113,11 @@ VALUES (80341,  0,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,
      , (80341,  8,  4,  1, 0.75,  200,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (80341, -1, 80313, 0, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Banner Regeneration Field (80313) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
+VALUES (80341, -1, 80419, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Eldrytch Web Satellite Fragment (80419) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (80341, -1, 80419, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Eldrytch Web Satellite Fragment (80419) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (80341, -1, 80419, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Eldrytch Web Satellite Fragment (80419) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (80341, -1, 80419, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Eldrytch Web Satellite Fragment (80419) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (80341, -1, 80419, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Eldrytch Web Satellite Fragment (80419) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (80341, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
