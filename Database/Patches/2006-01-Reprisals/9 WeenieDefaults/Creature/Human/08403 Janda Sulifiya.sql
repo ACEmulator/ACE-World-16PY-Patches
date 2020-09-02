@@ -704,7 +704,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 34025 /* Falatacot Abbess Mask */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8403,  6 /* Give */,      1, 36359, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (8403,  6 /* Give */,      1, 36359 /* Cow Head */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -756,7 +756,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Amazing! So light, yet so strong...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  18 /* DirectBroadcast */, 1, 1, NULL, 'Janda Sulifiya seems to be lost in thought, staring at the mask.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'That''s it! I know now what I will make from this. I will craft for you a rendition of the Dress Helm worn by the Knights of the Golden Flame back in Ispar. Those noble Knights who defend Aluvia with their lives, and work to protect us from the Shadow here in Dereth.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'The material of this mask is the most exquisite that I''ve seen yet. There is only one mask I can make that is equal to the quality of it. An honoring recreation of the Mask of the Malik, made famous when worn by Jawhal al-Shamshir in his campaign to free the Gharu''ndim people back in Ispar.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 34217, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
@@ -1464,7 +1464,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 25554 /* Knath Head */, 1, 14, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8403, 32 /* GotoSet */, 0.23, NULL, NULL, NULL, 'MaskKnathColors', NULL, NULL, NULL);
+VALUES (8403, 32 /* GotoSet */,   0.23, NULL, NULL, NULL, 'MaskKnathColors', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1472,7 +1472,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 25554 /* Knath Head */, 1, 17, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8403, 32 /* GotoSet */, 0.34, NULL, NULL, NULL, 'MaskKnathColors', NULL, NULL, NULL);
+VALUES (8403, 32 /* GotoSet */,   0.34, NULL, NULL, NULL, 'MaskKnathColors', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1504,7 +1504,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 25554 /* Knath Head */, 1, 61, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8403, 32 /* GotoSet */, 0.78, NULL, NULL, NULL, 'MaskKnathColors', NULL, NULL, NULL);
+VALUES (8403, 32 /* GotoSet */,   0.78, NULL, NULL, NULL, 'MaskKnathColors', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1512,7 +1512,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 25554 /* Knath Head */, 1, 76, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8403, 32 /* GotoSet */, 0.89, NULL, NULL, NULL, 'MaskKnathColors', NULL, NULL, NULL);
+VALUES (8403, 32 /* GotoSet */,   0.89, NULL, NULL, NULL, 'MaskKnathColors', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1532,29 +1532,3 @@ VALUES (8403, 2,  5894,  0, 14, 1, False) /* Create Fez (5894) for Wield */
      , (8403, 2,   130,  0, 10, 0.8, False) /* Create Shirt (130) for Wield */
      , (8403, 2,  2604,  0, 9, 0.4, False) /* Create Breeches (2604) for Wield */
      , (8403, 2,   133,  0, 14, 1, False) /* Create Slippers (133) for Wield */;
-
-/* Lifestoned Changelog:
-{
-  "LastModified": "2020-05-25T19:57:31.306332-04:00",
-  "ModifiedBy": "Targin",
-  "Changelog": [
-    {
-      "created": "0001-01-01T00:00:00",
-      "author": "Zarto",
-      "comment": "Updated Emote table with seasonal turn-ins and forth coming items to EOR.\nReview Table\nhttps://docs.google.com/spreadsheets/d/1-cpV7Et9lEqAZu7EwAoxANoy6_EcX5BeivQpiluLOQA/edit#gid=512166630"
-    },
-    {
-      "created": "0001-01-01T00:00:00",
-      "author": "Targin",
-      "comment": "-Updated new mosswart mask to give wand\n-Fixed one of the probabilities for Mu-miyah Body that was giving wrong suit"
-    },
-    {
-      "created": "2020-05-26T01:28:18.8402492-04:00",
-      "author": "Targin",
-      "comment": "-Added give emote for Thief's List for Lunnum's Disappearance"
-    }
-  ],
-  "UserChangeSummary": "-Added give emote for Thief's List for Lunnum's Disappearance",
-  "IsDone": false
-}
-*/
