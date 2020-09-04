@@ -45,25 +45,4 @@ VALUES (32933,   1,   33556769) /* Setup */
      , (32933,   8,  100668364) /* Icon */
      , (32933,  22,  872415275) /* PhysicsEffectTable */
      , (32933,  28,        157) /* Spell - Summon Primary Portal I */
-     , (32933,  31,      71717) /* LinkedPortalOne - Son of Pooky's Den */;
-
-/* Lifestoned Changelog:
-{
-  "LastModified": "2020-08-22T18:50:36.3877825Z",
-  "ModifiedBy": "ACE.Adapter",
-  "Changelog": [
-    {
-      "created": "2020-08-22T17:04:59.563316Z",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    },
-    {
-      "created": "2020-08-22T18:50:36.3869422Z",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    }
-  ],
-  "UserChangeSummary": "Weenie exported from ACEmulator world database using ACE.Adapter",
-  "IsDone": false
-}
-*/
+     , (32933,  31,      71866) /* LinkedPortalOne - Son of Pooky's Den */;
