@@ -53,16 +53,3 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32927,  2108,      2)  /* Brogard's Defiance */
      , (32927,  2518,      2)  /* Major Jumping Prowess */
      , (32927,  2529,      2)  /* Major Sprint */;
-
-/* Lifestoned Changelog:
-{
-  "Changelog": [
-    {
-      "created": "2020-08-22T18:49:57.6517333Z",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    }
-  ],
-  "IsDone": false
-}
-*/
