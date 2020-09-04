@@ -7,10 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71866,   1,      65536) /* ItemType - Portal */
      , (71866,   3,         14) /* PaletteTemplate - Red */
      , (71866,  16,         32) /* ItemUseable - Remote */
-     , (71866,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
-     , (71866,  86,         20) /* MinLevel */
      , (71866,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (71866, 111,          1) /* PortalBitmask - Unrestricted */
+     , (71866, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (71866, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
