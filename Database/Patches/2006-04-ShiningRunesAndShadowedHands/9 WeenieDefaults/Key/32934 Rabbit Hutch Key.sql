@@ -9,7 +9,6 @@ VALUES (32934,   1,      16384) /* ItemType - Key */
      , (32934,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (32934,  19,          3) /* Value */
      , (32934,  33,          1) /* Bonded - Bonded */
-     , (32934,  53,        101) /* PlacementPosition - Resting */
      , (32934,  91,          1) /* MaxStructure */
      , (32934,  92,          1) /* Structure */
      , (32934,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
