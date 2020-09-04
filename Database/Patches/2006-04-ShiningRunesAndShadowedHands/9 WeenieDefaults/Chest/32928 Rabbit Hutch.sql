@@ -45,5 +45,4 @@ INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_C
 VALUES (32928, -1, 32, 0, 1, 1, 2, 72, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 32 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
      , (32928, 0.33, 32927, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate White Rabbit Girth (32927) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (32928, 0.66, 32937, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Lucky White Rabbit's Foot (32937) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (32928, 0.99, 32935, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Scroll of Ring around the Rabbit (32935) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (32928, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate  (0) (x0 up to max of 0) - Regenerate upon Undef - Location to (re)Generate: Undef */;
+     , (32928, 0.99, 32935, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Scroll of Ring around the Rabbit (32935) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
