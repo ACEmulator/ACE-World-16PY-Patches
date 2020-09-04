@@ -5,7 +5,7 @@ VALUES (32933, 'ace32933-sonofpookysden', 38, '2020-08-22 19:45:21') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32933,   1,       2048) /* ItemType - Gem */
-     , (32933,   3,         82) /* PaletteTemplate - PinkPurple */
+     , (32933,   3,         14) /* PaletteTemplate - Red */
      , (32933,   5,         10) /* EncumbranceVal */
      , (32933,   8,         10) /* Mass */
      , (32933,   9,          0) /* ValidLocations - None */
@@ -15,7 +15,6 @@ VALUES (32933,   1,       2048) /* ItemType - Gem */
      , (32933,  14,         10) /* StackUnitMass */
      , (32933,  15,        500) /* StackUnitValue */
      , (32933,  16,          8) /* ItemUseable - Contained */
-     , (32933,  18,          1) /* UiEffects - Magical */
      , (32933,  19,        500) /* Value */
      , (32933,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (32933,  94,         16) /* TargetType - Creature */
@@ -27,8 +26,9 @@ VALUES (32933,   1,       2048) /* ItemType - Gem */
      , (32933, 280,       1000) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32933,  15, True ) /* LightsStatus */;
-
+VALUES (32933,  22, True ) /* Inscribable */
+     , (32933,  23, True ) /* DestroyOnSell */;
+     
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32933, 167,      15) /* CooldownDuration */;
 
@@ -45,4 +45,5 @@ VALUES (32933,   1,   33556769) /* Setup */
      , (32933,   8,  100668364) /* Icon */
      , (32933,  22,  872415275) /* PhysicsEffectTable */
      , (32933,  28,        157) /* Spell - Summon Primary Portal I */
-     , (32933,  31,      71866) /* LinkedPortalOne - Son of Pooky's Den */;
+     , (32933,  31,      71866) /* LinkedPortalOne - Son of Pooky's Den */
+     , (32933,  50,  100676404) /* IconOverlay */;
