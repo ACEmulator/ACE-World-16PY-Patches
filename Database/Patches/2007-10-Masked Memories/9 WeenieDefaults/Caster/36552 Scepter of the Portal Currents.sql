@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36552,   5, -0.050) /* ManaRate */
      , (36552,  29,      1) /* WeaponDefense */
      , (36552, 144,    0.1) /* ManaConversionMod */
-     , (36552, 147,    0.2) /* CriticalFrequency */;
+     , (36552, 147,   0.06) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36552,   1, 'Scepter of the Portal Currents') /* Name */
