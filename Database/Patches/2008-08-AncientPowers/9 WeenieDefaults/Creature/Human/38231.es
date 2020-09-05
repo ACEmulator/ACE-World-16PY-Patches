@@ -1,3 +1,66 @@
+Refuse: Damaged Celestial Hand Commendation Ribbon (41809)
+    - InqQuest: SocietyDamagedRibbonsPerDayTimer
+        QuestSuccess:
+            - InqQuest: SocietyDamagedRibbonsPerDayCounter
+                QuestSuccess:
+                    - Tell: You've redeemed as many damaged ribons as you can for now.
+                QuestFailure:
+                    - Tell: A damaged society ribbon. It's good that you recovered this.
+                    - Tell: I'll exchange this for a proper ribbon from our society.
+                    - TakeItems: Damaged Celestial Hand Commendation Ribbon (41809), 1
+                    - Give: Celestial Hand Commendation Ribbon (38228)
+                    - StampQuest: SocietyDamagedRibbonsPerDayCounter
+        QuestFailure:
+            - StampQuest: SocietyDamagedRibbonsPerDayTimer
+            - EraseQuest: SocietyDamagedRibbonsPerDayCounter
+            - Tell: A damaged society ribbon. It's good that you recovered this.
+            - Tell: I'll exchange this for a proper ribbon from our society.
+            - TakeItems: Damaged Celestial Hand Commendation Ribbon (41809), 1
+            - Give: Celestial Hand Commendation Ribbon (38228)
+            - StampQuest: SocietyDamagedRibbonsPerDayCounter
+
+Refuse: Damaged Eldrytch Web Commendation Ribbon (41810)
+    - InqQuest: SocietyDamagedRibbonsPerDayTimer
+        QuestSuccess:
+            - InqQuest: SocietyDamagedRibbonsPerDayCounter
+                QuestSuccess:
+                    - Tell: You've redeemed as many damaged ribons as you can for now.
+                QuestFailure:
+                    - Tell: A damaged society ribbon. It's good that you recovered this.
+                    - Tell: I'll exchange this for a proper ribbon from our society.
+                    - TakeItems: Damaged Eldrytch Web Commendation Ribbon (41810), 1
+                    - Give: Celestial Hand Commendation Ribbon (38228)
+                    - StampQuest: SocietyDamagedRibbonsPerDayCounter
+        QuestFailure:
+            - StampQuest: SocietyDamagedRibbonsPerDayTimer
+            - EraseQuest: SocietyDamagedRibbonsPerDayCounter
+            - Tell: A damaged society ribbon. It's good that you recovered this.
+            - Tell: I'll exchange this for a proper ribbon from our society.
+            - TakeItems: Damaged Eldrytch Web Commendation Ribbon (41810), 1
+            - Give: Celestial Hand Commendation Ribbon (38228)
+            - StampQuest: SocietyDamagedRibbonsPerDayCounter
+
+Refuse: Damaged Radiant Blood Commendation Ribbon (41811)
+    - InqQuest: SocietyDamagedRibbonsPerDayTimer
+        QuestSuccess:
+            - InqQuest: SocietyDamagedRibbonsPerDayCounter
+                QuestSuccess:
+                    - Tell: You've redeemed as many damaged ribons as you can for now.
+                QuestFailure:
+                    - Tell: A damaged society ribbon. It's good that you recovered this.
+                    - Tell: I'll exchange this for a proper ribbon from our society.
+                    - TakeItems: Damaged Radiant Blood Commendation Ribbon (41811), 1
+                    - Give: Celestial Hand Commendation Ribbon (38228)
+                    - StampQuest: SocietyDamagedRibbonsPerDayCounter
+        QuestFailure:
+            - StampQuest: SocietyDamagedRibbonsPerDayTimer
+            - EraseQuest: SocietyDamagedRibbonsPerDayCounter
+            - Tell: A damaged society ribbon. It's good that you recovered this.
+            - Tell: I'll exchange this for a proper ribbon from our society.
+            - TakeItems: Damaged Radiant Blood Commendation Ribbon (41811), 1
+            - Give: Celestial Hand Commendation Ribbon (38228)
+            - StampQuest: SocietyDamagedRibbonsPerDayCounter
+
 Give: Celestial Hand Commendation Ribbon (38228)
     - TurnToTarget
     - InqIntStat: SocietyRankCelhan, 998 - 1000
