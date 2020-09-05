@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43813;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43813, 'ace43813-sturdybloodstonewand', 35, '2020-06-17 00:00:00') /* Caster */;
+VALUES (43813, 'ace43813-sturdybloodstonewand', 35, '2020-09-05 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43813,   1,      32768) /* ItemType - Caster */
@@ -25,6 +25,32 @@ VALUES (43813,   1,      32768) /* ItemType - Caster */
      , (43813, 160,        340) /* WieldDifficulty */
      , (43813, 263,         32) /* ResistanceModifierType */;
 
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (43814,   1,      32768) /* ItemType - Caster */
+     , (43814,   3,          8) /* Palette - Green */
+     , (43814,   5,        200) /* EncumbranceVal */
+     , (43814,   9,   16777216) /* ValidLocations - Held */
+     , (43814,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
+     , (43814,  18,          1) /* UiEffects - Magical */
+     , (43814,  19,      10000) /* Value */
+     , (43814,  33,          1) /* Bonded - Bonded */
+     , (43814,  45,         32) /* DamageType - Acid */
+     , (43814,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43814,  94,         16) /* TargetType - Creature */
+     , (43814, 106,        450) /* ItemSpellcraft */
+     , (43814, 107,      10000) /* ItemCurMana */
+     , (43814, 108,      10000) /* ItemMaxMana */
+     , (43814, 114,          1) /* Attuned - Attuned */
+     , (43814, 151,          2) /* HookType - Wall */
+     , (43814, 158,          8) /* WieldRequirements - Training */
+     , (43814, 159,         33) /* WieldSkillType - LifeMagic */
+     , (43814, 160,          3) /* WieldDifficulty */
+     , (43814, 263,         32) /* ResistanceModifierType */
+     , (43814, 270,          2) /* WieldRequirements2 - RawSkill */
+     , (43814, 271,         33) /* WieldSkillType2 - LifeMagic */
+     , (43814, 272,        355) /* WieldDifficulty2 */;
+
+
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43813,  22, True ) /* Inscribable */
      , (43813,  69, False) /* IsSellable */
@@ -34,7 +60,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43813,   5,   -0.03) /* ManaRate */
      , (43813,  29,    1.15) /* WeaponDefense */
      , (43813, 144,     0.2) /* ManaConversionMod */
-     , (43813, 147,       1) /* CriticalFrequency */
+     , (43813, 147,     0.2) /* CriticalFrequency */
      , (43813, 152,     1.1) /* ElementalDamageMod */
      , (43813, 157,       1) /* ResistanceModifier */;
 
@@ -50,3 +76,9 @@ VALUES (43813,   1,   33561162) /* Setup */
      , (43813,   8,  100672995) /* Icon */
      , (43813,  22,  872415275) /* PhysicsEffectTable */
      , (43813,  28,       5530) /* Spell - BloodstoneBolt6 */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (43813,  2267,      2)  /* Harlune's Blessing */
+     , (43813,  2101,      2)  /* Aura of Cragstone's Will */
+     , (43813,  3259,      2)  /* Aura of Infected Spirit Caress */;
+

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43132;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43132, 'ace43132-gearcrossbow', 3, '2020-01-25 17:25:28') /* MissileLauncher */;
+VALUES (43132, 'ace43132-gearcrossbow', 3, '2020-09-05 17:25:28') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43132,   1,        256) /* ItemType - MissileWeapon */
@@ -39,15 +39,15 @@ VALUES (43132,  11, True ) /* IgnoreCollisions */
      , (43132,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43132,   5, -0.0333000011742115) /* ManaRate */
+VALUES (43132,   5,  -0.033) /* ManaRate */
      , (43132,  22,       0) /* DamageVariance */
-     , (43132,  26, 27.299999237060547) /* MaximumVelocity */
-     , (43132,  29, 1.149999976158142) /* WeaponDefense */
+     , (43132,  26,    27.3) /* MaximumVelocity */
+     , (43132,  29,    1.15) /* WeaponDefense */
      , (43132,  62,       1) /* WeaponOffense */
      , (43132,  63,       2) /* DamageMod */
-     , (43132, 136,       1) /* CriticalMultiplier */
-     , (43132, 147,       1) /* CriticalFrequency */
-     , (43132, 156, 0.20000000298023224) /* ProcSpellRate */
+     , (43132, 136,     0.3) /* CriticalMultiplier */
+     , (43132, 147,     0.2) /* CriticalFrequency */
+     , (43132, 156,     0.2) /* ProcSpellRate */
      , (43132, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -62,18 +62,8 @@ VALUES (43132,   1,   33560921) /* Setup */
      , (43132,  55,       1788) /* ProcSpell - Eye of the Storm */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43132,  1788,      2)  /* Eye of the Storm */
-     , (43132,  2060,      2)  /* Temeritous Touch */
-     , (43132,  2096,      2)  /* Aura of Infected Caress */
-     , (43132,  2101,      2)  /* Aura of Cragstone's Will */
-     , (43132,  2116,      2)  /* Aura of Atlan's Alacrity */;
+VALUES (43132,  2060,      2)  /* EnduranceOther7 */
+     , (43132,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (43132,  2101,      2)  /* DefenderSelf7 */
+     , (43132,  2116,      2)  /* SwiftKillerSelf7 */;
 
-/* Lifestoned Changelog:
-{
-  "LastModified": "2019-11-27T13:59:50.9225355-05:00",
-  "ModifiedBy": "TectonicRifts",
-  "Changelog": [],
-  "UserChangeSummary": "Updated and tested.",
-  "IsDone": true
-}
-*/
