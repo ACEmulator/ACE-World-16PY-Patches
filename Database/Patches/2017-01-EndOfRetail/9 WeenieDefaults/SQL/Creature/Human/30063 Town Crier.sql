@@ -70,7 +70,6 @@ VALUES (30063,   1,   33554510) /* Setup */
      , (30063,   2,  150994945) /* MotionTable */
      , (30063,   3,  536870914) /* SoundTable */
      , (30063,   4,  805306368) /* CombatTable */
-     , (30063,   6,   67108990) /* PaletteBase */
      , (30063,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
