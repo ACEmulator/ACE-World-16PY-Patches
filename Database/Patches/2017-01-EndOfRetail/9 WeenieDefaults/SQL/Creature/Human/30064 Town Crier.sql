@@ -61,7 +61,7 @@ VALUES (30064,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30064,   1, 'Town Crier') /* Name */
-     , (30064,   3, 'Female') /* Sex */
+     , (30064,   3, 'Male') /* Sex */
      , (30064,   4, 'Viamontian') /* HeritageGroup */
      , (30064,   5, 'Herald of Sanamar') /* Template */;
 
