@@ -64,6 +64,5 @@ VALUES (43132,   1,   33560921) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43132,  2060,      2)  /* EnduranceOther7 */
      , (43132,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (43132,  2101,      2)  /* DefenderSelf7 */
      , (43132,  2116,      2)  /* SwiftKillerSelf7 */;
 
