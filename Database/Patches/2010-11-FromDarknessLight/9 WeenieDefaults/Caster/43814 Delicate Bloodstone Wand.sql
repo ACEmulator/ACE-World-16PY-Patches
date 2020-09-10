@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43814;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43814, 'ace43814-delicatebloodstonewand', 35, '2020-06-10 00:00:00') /* Caster */;
+VALUES (43814, 'ace43814-delicatebloodstonewand', 35, '2020-09-05 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43814,   1,      32768) /* ItemType - Caster */
@@ -37,7 +37,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43814,   5,   -0.03) /* ManaRate */
      , (43814,  29,    1.15) /* WeaponDefense */
      , (43814, 144,     0.2) /* ManaConversionMod */
-     , (43814, 147,       1) /* CriticalFrequency */
+     , (43814, 147,    0.06) /* CriticalFrequency */
      , (43814, 152,     1.1) /* ElementalDamageMod */
      , (43814, 157,       1) /* ResistanceModifier */;
 
@@ -49,8 +49,12 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43814,   1,   33561162) /* Setup */
      , (43814,   3,  536870932) /* SoundTable */
      , (43814,   6,   67111919) /* PaletteBase */
-     , (43814,   7,  268437561) /* ClothingBase */     
+     , (43814,   7,  268437561) /* ClothingBase */
      , (43814,   8,  100672995) /* Icon */
      , (43814,  22,  872415275) /* PhysicsEffectTable */
      , (43814,  28,       5531) /* Spell - BloodstoneBolt7 */;
-     
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (43814,  4400,      2)  /* DefenderSelf8 */
+     , (43814,  4414,      2)  /* SpiritDrinkerSelf8 */
+     , (43814,  4582,      2)  /* LifeMagicMasterySelf8 */;
