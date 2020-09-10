@@ -24,7 +24,7 @@ CREATE TABLE `treasure_material_base` (
   `tier` int(10) UNSIGNED NOT NULL COMMENT 'Loot Tier',
   `probability` float NOT NULL,
   `material_Id` int(10) UNSIGNED NOT NULL COMMENT 'MaterialType'
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `treasure_material_base`
@@ -850,7 +850,7 @@ CREATE TABLE `treasure_material_groups` (
   `tier` int(10) UNSIGNED NOT NULL COMMENT 'Loot Tier',
   `probability` float NOT NULL,
   `material_Id` int(10) UNSIGNED NOT NULL COMMENT 'MaterialType'
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `treasure_material_groups`
@@ -1340,7 +1340,7 @@ CREATE TABLE `treasure_material_color` (
   `color_Code` int(10) UNSIGNED NOT NULL,
   `palette_Template` int(10) UNSIGNED NOT NULL,
   `probability` float NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `treasure_material_color`
