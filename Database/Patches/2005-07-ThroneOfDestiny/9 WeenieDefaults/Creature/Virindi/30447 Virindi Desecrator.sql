@@ -34,14 +34,14 @@ VALUES (30447,   1,       5) /* HeartbeatInterval */
      , (30447,   3,       7) /* HealthRate */
      , (30447,   4,      20) /* StaminaRate */
      , (30447,   5,      20) /* ManaRate */
-     , (30447,  12, 0.100000001490116) /* Shade */
+     , (30447,  12,     0.1) /* Shade */
      , (30447,  13,       1) /* ArmorModVsSlash */
      , (30447,  14,       1) /* ArmorModVsPierce */
      , (30447,  15,       1) /* ArmorModVsBludgeon */
-     , (30447,  16, 0.720000028610229) /* ArmorModVsCold */
+     , (30447,  16,    0.72) /* ArmorModVsCold */
      , (30447,  17,       1) /* ArmorModVsFire */
      , (30447,  18,       1) /* ArmorModVsAcid */
-     , (30447,  19, 0.720000028610229) /* ArmorModVsElectric */
+     , (30447,  19,    0.73) /* ArmorModVsElectric */
      , (30447,  31,      20) /* VisualAwarenessRange */
      , (30447,  34,       1) /* PowerupTime */
      , (30447,  36,       1) /* ChargeSpeed */
@@ -92,14 +92,14 @@ VALUES (30447,   1,   370, 0, 0, 505) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (30447,  6, 0, 3, 0, 320, 0, 0) /* MeleeDefense        Specialized */
      , (30447,  7, 0, 3, 0, 415, 0, 0) /* MissileDefense      Specialized */
-     , (30447, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */
      , (30447, 14, 0, 3, 0, 300, 0, 0) /* ArcaneLore          Specialized */
      , (30447, 15, 0, 3, 0, 295, 0, 0) /* MagicDefense        Specialized */
      , (30447, 20, 0, 3, 0, 250, 0, 0) /* Deception           Specialized */
      , (30447, 24, 0, 3, 0,  90, 0, 0) /* Run                 Specialized */
      , (30447, 31, 0, 3, 0, 140, 0, 0) /* CreatureEnchantment Specialized */
      , (30447, 33, 0, 3, 0, 140, 0, 0) /* LifeMagic           Specialized */
-     , (30447, 34, 0, 3, 0, 140, 0, 0) /* WarMagic            Specialized */;
+     , (30447, 34, 0, 3, 0, 140, 0, 0) /* WarMagic            Specialized */
+     , (30447, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (30447,  0,  1,  0,    0,  420,  420,  420,  420,  302,  420,  420,  302,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -184,10 +184,11 @@ VALUES (30447, 9, 20863,  0, 0, 0.04, False) /* Create Virindi Stamp (20863) for
      , (30447, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (30447, 9, 24477,  0, 0, 0.03, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (30447, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (30447, 9, 32175,  0, 0, 0.05, False) /* Create Broken Desecrator Mask (32175) for ContainTreasure */
+     , (30447, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (30447, 9,  7604,  0, 0, 0.0125, False) /* Create Yellow Jewel (7604) for ContainTreasure */
      , (30447, 9,  3698,  0, 0, 0.0125, False) /* Create White Jewel (3698) for ContainTreasure */
      , (30447, 9,  3696,  0, 0, 0.0125, False) /* Create Blue Gem (3696) for ContainTreasure */
      , (30447, 9,  3697,  0, 0, 0.0125, False) /* Create Red Jewel (3697) for ContainTreasure */
-     , (30447, 9, 41470,  0, 0, 0.0125, False) /* Create  (41470) for ContainTreasure */
+     , (30447, 9, 41470,  0, 0, 0.0125, False) /* Create Purple Jewel (41470) for ContainTreasure */
      , (30447, 9,     0,  0, 0, 0.9375, False) /* Create nothing for ContainTreasure */;
-
