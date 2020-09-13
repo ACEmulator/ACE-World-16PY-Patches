@@ -64,6 +64,13 @@ VALUES (80437,   1, 'Bayani') /* Name */
      , (80437,   4, 'Sho') /* HeritageGroup */
      , (80437,   5, 'Sclavus Hunter') /* Template */;
 
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (80437,   1,   33554433) /* Setup */
+     , (80437,   2,  150994945) /* MotionTable */
+     , (80437,   3,  536870913) /* SoundTable */
+     , (80437,   4,  805306368) /* CombatTable */
+     , (80437,   8,  100667446) /* Icon */;
+
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (80437,   1, 290, 0, 0) /* Strength */
      , (80437,   2, 200, 0, 0) /* Endurance */
