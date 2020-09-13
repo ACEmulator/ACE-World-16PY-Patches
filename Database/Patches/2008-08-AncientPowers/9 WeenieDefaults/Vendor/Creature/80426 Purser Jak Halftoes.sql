@@ -69,7 +69,7 @@ VALUES (80426,   1, 'Purser Jak Halftoes') /* Name */
      , (80426,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (80426,   1,   335580426) /* Setup */
+VALUES (80426,   1,   33554433) /* Setup */
      , (80426,   2,  150994945) /* MotionTable */
      , (80426,   3,  536870913) /* SoundTable */
      , (80426,   4,  805306368) /* CombatTable */
