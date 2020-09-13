@@ -183,7 +183,7 @@ GotoSet: GiveRewards
         QuestSuccess:
             - Goto: Cleanup
         QuestFailure:
-            - InqQuest: CarenziRaceWins
+            - InqQuestSolves: CarenziRaceWins, 10 - 10
                 QuestSuccess:
                     - Tell: For having backed so many winning Carenzi you get an award kid! I present to you the coveted Carenzi Cup!
                     - Give: Carenzi Cup (80016)
