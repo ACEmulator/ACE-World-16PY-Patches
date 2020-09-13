@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80435;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80435, 'Kagani', 10, '2005-02-09 10:00:00') /* Creature */;
+VALUES (80435, 'Kagami', 10, '2005-02-09 10:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80435,   1,         16) /* ItemType - Creature */
@@ -59,7 +59,7 @@ VALUES (80435,   1,       5) /* HeartbeatInterval */
      , (80435, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (80435,   1, 'Kagani') /* Name */
+VALUES (80435,   1, 'Kagami') /* Name */
      , (80435,   3, 'Female') /* Sex */
      , (80435,   4, 'Sho') /* HeritageGroup */
      , (80435,   5, 'Moarsman Hunter') /* Template */;
