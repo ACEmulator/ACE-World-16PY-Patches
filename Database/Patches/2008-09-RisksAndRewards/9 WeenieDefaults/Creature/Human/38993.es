@@ -96,66 +96,82 @@ Use:
                             - Tell: Let me know if you change your mind.
 
 GotoSet: WinnerR1, Probability: 0.5
+    - Tell: We have a winner!
     - Tell: No one thought that One could do it. He came back from an injury a week ago and proved us all wrong today.
     - Goto: GiveRewards
 
 GotoSet: WinnerR1, Probability: 1.0
+    - Tell: We have a winner!
     - Tell: I always bet on One, he's from good stock and his win average is impressive.
     - Goto: GiveRewards
 
 GotoSet: WinnerR2, Probability: 0.5
+    - Tell: We have a winner!
     - Tell: No one thought that Two could do it. He came back from an injury a week ago and proved us all wrong today.
     - Goto: GiveRewards
 
 GotoSet: WinnerR2, Probability: 1.0
+    - Tell: We have a winner!
     - Tell: I always bet on Two, he's from good stock and his win average is impressive.
     - Goto: GiveRewards
 
 GotoSet: WinnerR3, Probability: 0.5
+    - Tell: We have a winner!
     - Tell: No one thought that Three could do it. He came back from an injury a week ago and proved us all wrong today.
     - Goto: GiveRewards
 
 GotoSet: WinnerR3, Probability: 1.0
+    - Tell: We have a winner!
     - Tell: I always bet on Three, he's from good stock and his win average is impressive.
     - Goto: GiveRewards
 
 GotoSet: WinnerR4, Probability: 0.5
+    - Tell: We have a winner!
     - Tell: No one thought that Four could do it. He came back from an injury a week ago and proved us all wrong today.
     - Goto: GiveRewards
 
 GotoSet: WinnerR4, Probability: 1.0
+    - Tell: We have a winner!
     - Tell: I always bet on Four, he's from good stock and his win average is impressive.
     - Goto: GiveRewards
 
 GotoSet: WinnerR5, Probability: 0.5
+    - Tell: We have a winner!
     - Tell: No one thought that Five could do it. He came back from an injury a week ago and proved us all wrong today.
     - Goto: GiveRewards
 
 GotoSet: WinnerR5, Probability: 1.0
+    - Tell: We have a winner!
     - Tell: I always bet on Five, he's from good stock and his win average is impressive.
     - Goto: GiveRewards
 
 GotoSet: WinnerR6, Probability: 0.5
+    - Tell: We have a winner!
     - Tell: No one thought that Six could do it. He came back from an injury a week ago and proved us all wrong today.
     - Goto: GiveRewards
 
 GotoSet: WinnerR6, Probability: 1.0
+    - Tell: We have a winner!
     - Tell: I always bet on Six, he's from good stock and his win average is impressive.
     - Goto: GiveRewards
 
 GotoSet: WinnerR7, Probability: 0.5
+    - Tell: We have a winner!
     - Tell: No one thought that Seven could do it. He came back from an injury a week ago and proved us all wrong today.
     - Goto: GiveRewards
 
 GotoSet: WinnerR7, Probability: 1.0
+    - Tell: We have a winner!
     - Tell: I always bet on Seven, he's from good stock and his win average is impressive.
     - Goto: GiveRewards
 
 GotoSet: WinnerR8, Probability: 0.5
+    - Tell: We have a winner!
     - Tell: No one thought that Eight could do it. He came back from an injury a week ago and proved us all wrong today.
     - Goto: GiveRewards
 
 GotoSet: WinnerR8, Probability: 1.0
+    - Tell: We have a winner!
     - Tell: I always bet on Eight, he's from good stock and his win average is impressive.
     - Goto: GiveRewards
 
