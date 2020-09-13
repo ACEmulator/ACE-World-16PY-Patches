@@ -831,7 +831,8 @@ VALUES (0x79EE50A7, 0x79EE50A8, '2020-09-13 16:46:01') /* Master Mehkar al-Qalam
      , (0x79EE50A7, 0x79EE50AA, '2020-09-13 16:48:24') /* Arqubal the Archmage (80423) */
      , (0x79EE50A7, 0x79EE50AB, '2020-09-13 16:49:22') /* Ilnorra Denasta (80429) */
      , (0x79EE50A7, 0x79EE50AC, '2020-09-13 16:50:17') /* Janaris bint Bazheer (80432) */
-     , (0x79EE50A7, 0x79EE50AD, '2020-09-13 16:51:13') /* Chiriko (80434) */;
+     , (0x79EE50A7, 0x79EE50AD, '2020-09-13 16:51:13') /* Chiriko (80434) */
+     , (0x79EE50A7, 0x79EE50AE, '2020-09-13 17:20:37') /* Hanzo (80436) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE50A8, 80422, 0x9EE501AF, 194.219, -3, 10.805, 0.707107, 0, 0, 0.707107,  True, '2020-09-13 16:46:01'); /* Master Mehkar al-Qalam */
@@ -854,5 +855,9 @@ VALUES (0x79EE50AC, 80432, 0x9EE50198, 212.221, -9.99609, 10.805, 0.707107, 0, 0
 /* @teleloc 0x9EE50198 [212.220993 -9.996090 10.805000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79EE50AD, 80434, 0x9EE50155, 154.018, -31.8242, 10.805, 0.9238795, 0, 0, 0.38268346,  True, '2020-09-13 16:51:13'); /* Chiriko */
+VALUES (0x79EE50AD, 80434, 0x9EE50155, 154.018, -31.8242, 10.805, 0.92388, 0, 0, 0.382683,  True, '2020-09-13 16:51:13'); /* Chiriko */
 /* @teleloc 0x9EE50155 [154.018005 -31.824200 10.805000] 0.923880 0.000000 0.000000 0.382683 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE50AE, 80436, 0x9EE50155, 150.055, -31.5156, 10.805, 0.9238795, -0, -0, -0.38268346,  True, '2020-09-13 17:20:37'); /* Hanzo */
+/* @teleloc 0x9EE50155 [150.054993 -31.515600 10.805000] 0.923880 -0.000000 -0.000000 -0.382683 */
