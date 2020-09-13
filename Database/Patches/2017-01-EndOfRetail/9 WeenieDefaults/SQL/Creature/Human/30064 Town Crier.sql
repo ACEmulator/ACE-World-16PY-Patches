@@ -68,7 +68,7 @@ VALUES (30064,   1, 'Town Crier') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30064,   1,   33554433) /* Setup */
      , (30064,   2,  150994945) /* MotionTable */
-     , (30064,   3,  536870914) /* SoundTable */
+     , (30064,   3,  536870913) /* SoundTable */
      , (30064,   4,  805306368) /* CombatTable */
      , (30064,   8,  100667446) /* Icon */;
 
