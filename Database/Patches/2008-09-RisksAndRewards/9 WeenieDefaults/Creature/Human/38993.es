@@ -84,6 +84,8 @@ Use:
     - InqEvent: CarenziRace
         EventFailure:
             - InqQuest: CarenziRace
+                QuestSuccess:
+                    - DirectBroadcast: You must wait %tqt before you can start another Carenzi Race.
                 QuestFailure:
                     - InqYesNo: Would you like to start a Carenzi Race?
                         TestSuccess:
