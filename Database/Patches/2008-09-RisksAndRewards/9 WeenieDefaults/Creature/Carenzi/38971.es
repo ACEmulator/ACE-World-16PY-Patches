@@ -1,0 +1,13 @@
+Give: Carenzi Race Ticket (38964)
+    - EraseQuest: CarenziRaceBetterR1
+    - EraseQuest: CarenziRaceBetterR2
+    - StampQuest: CarenziRaceBetterR3
+    - EraseQuest: CarenziRaceBetterR4
+    - EraseQuest: CarenziRaceBetterR5
+    - EraseQuest: CarenziRaceBetterR6
+    - EraseQuest: CarenziRaceBetterR7
+    - EraseQuest: CarenziRaceBetterR8
+    - DirectBroadcast: The Carenzi takes a bite out of the ticket apparently relishing the flavor. Your bet is now on Carenzi Racer 3. All previous bets are invalid.
+    - DirectBroadcast: The Carenzi bites the ticket in half, and you now have a Carenzi Race Ticket Stub.
+    - TakeItems: Carenzi Race Ticket Stub (38965), -1
+    - Give: Carenzi Race Ticket Stub (38965)

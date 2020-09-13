@@ -1,0 +1,20 @@
+Heartbeat: Style: NonCombat, SubStyle: Ready
+    - Motion: Wave
+    - Delay: 10, StartEvent: CarenziRaceBettingCage
+    - Turn: 0 0 0 -1
+    - Delay: 40, StartEvent: CarenziRaceFirstCall
+    - Turn: 0.7071068 0 0 -0.7071068
+    - Delay: 9, StopEvent: CarenziRaceBettingCage
+    - Turn: 1 0 0 0
+    - Delay: 420, StopEvent: CarenziRaceWinner
+    - StopEvent: CarenziRaceWinnerR1
+    - StopEvent: CarenziRaceWinnerR2
+    - StopEvent: CarenziRaceWinnerR3
+    - StopEvent: CarenziRaceWinnerR4
+    - StopEvent: CarenziRaceWinnerR5
+    - StopEvent: CarenziRaceWinnerR6
+    - StopEvent: CarenziRaceWinnerR7
+    - StopEvent: CarenziRaceWinnerR8
+    - StopEvent: CarenziRace
+    - Motion: EnterPortal
+    - Delay: 10, Motion: Wave
