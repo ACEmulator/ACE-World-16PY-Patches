@@ -188,6 +188,7 @@ GotoSet: GiveRewards
                     - Tell: For having backed so many winning Carenzi you get an award kid! I present to you the coveted Carenzi Cup!
                     - Give: Carenzi Cup (80016)
                     - StampQuest: CarenziRaceCup
+                    - Goto: Cleanup
                 QuestFailure:
                     - Goto: Cleanup
 
