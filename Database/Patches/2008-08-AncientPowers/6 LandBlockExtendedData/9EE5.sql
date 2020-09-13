@@ -820,3 +820,39 @@ VALUES (0x79EE50A5,   278, 0x9EE501E9, 172.221, 15.25, 10.855, -4.37114E-08, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE50A6, 80399, 0x9EE5016D, 192.21875, -20.003906, 10.737, 1, 0, 0, 0, False, '2020-08-30 18:19:27'); /* Northwatch Castle Portal */
 /* @teleloc 0x9EE5016D [192.218750 -20.003906 10.737000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE50A7,  1154, 0x9EE501AF, 194.219, -3, 10.855, 1, 0, 0, 0, False, '2020-09-13 16:45:02'); /* Linkable Monster Generator */
+/* @teleloc 0x9EE501AF [194.218994 -3.000000 10.855000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79EE50A7, 0x79EE50A8, '2020-09-13 16:46:01') /* Master Mehkar al-Qalam (80422) */
+     , (0x79EE50A7, 0x79EE50A9, '2020-09-13 16:47:20') /* Purser Narissa Pelton (80425) */
+     , (0x79EE50A7, 0x79EE50AA, '2020-09-13 16:48:24') /* Arqubal the Archmage (80423) */
+     , (0x79EE50A7, 0x79EE50AB, '2020-09-13 16:49:22') /* Ilnorra Denasta (80429) */
+     , (0x79EE50A7, 0x79EE50AC, '2020-09-13 16:50:17') /* Janaris bint Bazheer (80432) */
+     , (0x79EE50A7, 0x79EE50AD, '2020-09-13 16:51:13') /* Chiriko (80434) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE50A8, 80422, 0x9EE501AF, 194.219, -3, 10.805, 0.707107, 0, 0, 0.707107,  True, '2020-09-13 16:46:01'); /* Master Mehkar al-Qalam */
+/* @teleloc 0x9EE501AF [194.218994 -3.000000 10.805000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE50A9, 80425, 0x9EE501CA, 191.221, 9.99609, 10.805, -4.37114E-08, 0, 0, -1,  True, '2020-09-13 16:47:20'); /* Purser Narissa Pelton */
+/* @teleloc 0x9EE501CA [191.220993 9.996090 10.805000] -0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE50AA, 80423, 0x9EE501CF, 201.219, 9.99609, 10.805, -4.37114E-08, 0, 0, -1,  True, '2020-09-13 16:48:24'); /* Arqubal the Archmage */
+/* @teleloc 0x9EE501CF [201.218994 9.996090 10.805000] -0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE50AB, 80429, 0x9EE501B5, 212.221, 0, 10.805, 0.707107, 0, 0, 0.707107,  True, '2020-09-13 16:49:22'); /* Ilnorra Denasta */
+/* @teleloc 0x9EE501B5 [212.220993 0.000000 10.805000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE50AC, 80432, 0x9EE50198, 212.221, -9.99609, 10.805, 0.707107, 0, 0, 0.707107,  True, '2020-09-13 16:50:17'); /* Janaris bint Bazheer */
+/* @teleloc 0x9EE50198 [212.220993 -9.996090 10.805000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE50AD, 80434, 0x9EE50155, 154.018, -31.8242, 10.805, 0.9238795, 0, 0, 0.38268346,  True, '2020-09-13 16:51:13'); /* Chiriko */
+/* @teleloc 0x9EE50155 [154.018005 -31.824200 10.805000] 0.923880 0.000000 0.000000 0.382683 */
