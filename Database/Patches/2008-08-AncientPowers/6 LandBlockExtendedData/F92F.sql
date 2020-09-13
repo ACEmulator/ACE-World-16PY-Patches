@@ -1271,8 +1271,53 @@ VALUES (0x7F92F10C,  1154, 0xF92F01AF, -26.2188, 99, 76.855, 1, 0, 0, 0, False, 
 /* @teleloc 0xF92F01AF [-26.218800 99.000000 76.855003] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F92F10C, 0x7F92F10D, '2020-09-13 17:23:32') /* Master MacTavish (80421) */;
+VALUES (0x7F92F10C, 0x7F92F10D, '2020-09-13 17:23:32') /* Master MacTavish (80421) */
+     , (0x7F92F10C, 0x7F92F10E, '2020-09-13 17:41:25') /* Purser Jak Halftoes (80426) */
+     , (0x7F92F10C, 0x7F92F10F, '2020-09-13 17:42:27') /* Hacha Jien the Archmage (80424) */
+     , (0x7F92F10C, 0x7F92F110, '2020-09-13 17:47:49') /* LormishLittlefinger (80430) */
+     , (0x7F92F10C, 0x7F92F111, '2020-09-13 17:50:18') /* Pak Li-Shung (80433) */
+     , (0x7F92F10C, 0x7F92F112, '2020-09-13 17:50:55') /* Digby (80428) */
+     , (0x7F92F10C, 0x7F92F113, '2020-09-13 17:51:43') /* Calhoun (80431) */
+     , (0x7F92F10C, 0x7F92F114, '2020-09-13 17:57:28') /* Kagami (80435) */
+     , (0x7F92F10C, 0x7F92F115, '2020-09-13 17:58:55') /* Bayani (80437) */
+     , (0x7F92F10C, 0x7F92F116, '2020-09-13 18:00:23') /* Valerian McGreggor (80438) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F92F10D, 80421, 0xF92F01AF, -26.2188, 99, 76.805, 0.70710677, -0, -0, -0.70710677,  True, '2020-09-13 17:23:32'); /* Master MacTavish */
-/* @teleloc 0xF92F01AF [-26.218800 99.000000 76.805000] 0.707107 -0.000000 -0.000000 -0.707107 */
+VALUES (0x7F92F10D, 80421, 0xF92F01AF, -26.2188, 99, 76.805, 0.707107, 0, 0, -0.707107,  True, '2020-09-13 17:23:32'); /* Master MacTavish */
+/* @teleloc 0xF92F01AF [-26.218800 99.000000 76.805000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F92F10E, 80426, 0xF92F01CA, -23.2188, 86, 76.805, 1, 0, 0, 0,  True, '2020-09-13 17:41:25'); /* Purser Jak Halftoes */
+/* @teleloc 0xF92F01CA [-23.218800 86.000000 76.805000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F92F10F, 80424, 0xF92F01CF, -33.2227, 86, 76.805, 1, 0, 0, 0,  True, '2020-09-13 17:42:27'); /* Hacha Jien the Archmage */
+/* @teleloc 0xF92F01CF [-33.222698 86.000000 76.805000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F92F110, 80430, 0xF92F01B5, -44.2188, 96, 76.805, 0.707107, 0, 0, -0.707107,  True, '2020-09-13 17:47:49'); /* LormishLittlefinger */
+/* @teleloc 0xF92F01B5 [-44.218800 96.000000 76.805000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F92F111, 80433, 0xF92F0198, -44.2188, 106, 76.805, 0.707107, 0, 0, -0.707107,  True, '2020-09-13 17:50:18'); /* Pak Li-Shung */
+/* @teleloc 0xF92F0198 [-44.218800 106.000000 76.805000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F92F112, 80428, 0xF92F0172, -36.3438, 115.036, 76.805, -4.37114E-08, 0, 0, -1,  True, '2020-09-13 17:50:55'); /* Digby */
+/* @teleloc 0xF92F0172 [-36.343800 115.036003 76.805000] -0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F92F113, 80431, 0xF92F0172, -32.2656, 115.34, 76.805, -4.37114E-08, 0, 0, -1,  True, '2020-09-13 17:51:43'); /* Calhoun */
+/* @teleloc 0xF92F0172 [-32.265598 115.339996 76.805000] -0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F92F114, 80435, 0xF92F0155, 13.4922, 128.401, 76.805, 0.382683, 0, 0, -0.92388,  True, '2020-09-13 17:57:28'); /* Kagami */
+/* @teleloc 0xF92F0155 [13.492200 128.401001 76.805000] 0.382683 0.000000 0.000000 -0.923880 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F92F115, 80437, 0xF92F0155, 18.4375, 127.014, 76.805, 0.382683, 0, 0, 0.92388,  True, '2020-09-13 17:58:55'); /* Bayani */
+/* @teleloc 0xF92F0155 [18.437500 127.014000 76.805000] 0.382683 0.000000 0.000000 0.923880 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F92F116, 80438, 0xF92F018A, 6.027344, 106.84766, 76.80501, 1, 0, 0, 0,  True, '2020-09-13 18:00:23'); /* Valerian McGreggor */
+/* @teleloc 0xF92F018A [6.027344 106.847656 76.805008] 1.000000 0.000000 0.000000 0.000000 */
