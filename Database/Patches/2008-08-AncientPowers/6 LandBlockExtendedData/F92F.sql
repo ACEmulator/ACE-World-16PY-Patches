@@ -1265,3 +1265,14 @@ VALUES (0x7F92F10A,   278, 0xF92F01E9, -4.21875, 80.75, 76.855, 1, 0, 0, 0, Fals
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F92F10B, 80398, 0xF92F016D, -24.222656, 116, 76.73701, 1, 0, 0, 0, False, '2020-08-30 18:29:04'); /* Freebooter Keep */
 /* @teleloc 0xF92F016D [-24.222656 116.000000 76.737007] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F92F10C,  1154, 0xF92F01AF, -26.2188, 99, 76.855, 1, 0, 0, 0, False, '2020-09-13 17:23:10'); /* Linkable Monster Generator */
+/* @teleloc 0xF92F01AF [-26.218800 99.000000 76.855003] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7F92F10C, 0x7F92F10D, '2020-09-13 17:23:32') /* Master MacTavish (80421) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F92F10D, 80421, 0xF92F01AF, -26.2188, 99, 76.805, 0.70710677, -0, -0, -0.70710677,  True, '2020-09-13 17:23:32'); /* Master MacTavish */
+/* @teleloc 0xF92F01AF [-26.218800 99.000000 76.805000] 0.707107 -0.000000 -0.000000 -0.707107 */
