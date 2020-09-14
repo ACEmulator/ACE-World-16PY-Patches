@@ -1274,7 +1274,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7F92F10C, 0x7F92F10D, '2020-09-13 17:23:32') /* Master MacTavish (80421) */
      , (0x7F92F10C, 0x7F92F10E, '2020-09-13 17:41:25') /* Purser Jak Halftoes (80426) */
      , (0x7F92F10C, 0x7F92F10F, '2020-09-13 17:42:27') /* Hacha Jien the Archmage (80424) */
-     , (0x7F92F10C, 0x7F92F110, '2020-09-13 17:47:49') /* LormishLittlefinger (80430) */
+     , (0x7F92F10C, 0x7F92F110, '2020-09-13 17:47:49') /* Lormish Littlefinger (80430) */
      , (0x7F92F10C, 0x7F92F111, '2020-09-13 17:50:18') /* Pak Li-Shung (80433) */
      , (0x7F92F10C, 0x7F92F112, '2020-09-13 17:50:55') /* Digby (80428) */
      , (0x7F92F10C, 0x7F92F113, '2020-09-13 17:51:43') /* Calhoun (80431) */
@@ -1295,7 +1295,7 @@ VALUES (0x7F92F10F, 80424, 0xF92F01CF, -33.2227, 86, 76.805, 1, 0, 0, 0,  True, 
 /* @teleloc 0xF92F01CF [-33.222698 86.000000 76.805000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F92F110, 80430, 0xF92F01B5, -44.2188, 96, 76.805, 0.707107, 0, 0, -0.707107,  True, '2020-09-13 17:47:49'); /* LormishLittlefinger */
+VALUES (0x7F92F110, 80430, 0xF92F01B5, -44.2188, 96, 76.805, 0.707107, 0, 0, -0.707107,  True, '2020-09-13 17:47:49'); /* Lormish Littlefinger */
 /* @teleloc 0xF92F01B5 [-44.218800 96.000000 76.805000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
