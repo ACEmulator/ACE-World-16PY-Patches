@@ -101,7 +101,11 @@ VALUES (80436,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (80436,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (80436, 2,  2590,  0, 9, 1, False) /* Create Shirt (2590) for Wield */
-     , (80436, 2,  2601,  0, 9, 1, False) /* Create Pants (2601) for Wield */
-     , (80436, 2,  5854,  0, 2, 0.5, False) /* Create Suikan Robe (5854) for Wield */
-     , (80436, 2,   121,  0, 91, 0.8, False) /* Create Gloves (121) for Wield */;
+VALUES (80436, 2,  2595,  0, 88, 0, False) /* Create Tunic (2595) for Wield */
+     , (80436, 2,  2598,  0, 9, 1, False) /* Create Pants (2598) for Wield */
+     , (80436, 2, 27215,  0, 93, 0.5, False) /* Create Chiran Coat (27215) for Wield */
+     , (80436, 2, 27216,  0, 93, 0.5, False) /* Create Chiran Leggings (27216) for Wield */
+     , (80436, 2, 27217,  0, 93, 0.5, False) /* Create Chiran Helm (27217) for Wield */
+     , (80436, 2, 27218,  0, 93, 0.5, False) /* Create Chiran Leggings (27218) for Wield */
+     , (80436, 2, 27219,  0, 93, 0.5, False) /* Create Chiran Sandals (27219) for Wield */
+     , (80436, 2, 34341,  0, 0, 0, False) /* Create Tachi of Grace (34341) for Wield */;
