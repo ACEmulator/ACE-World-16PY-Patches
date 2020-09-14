@@ -59,7 +59,7 @@ VALUES (80430,   1,       5) /* HeartbeatInterval */
      , (80430, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (80430,   1, 'LormishLittlefinger') /* Name */
+VALUES (80430,   1, 'Lormish Littlefinger') /* Name */
      , (80430,   3, 'Male') /* Sex */
      , (80430,   4, 'Aluvian') /* HeritageGroup */
      , (80430,   5, 'Black Market Gem-Fence') /* Template */;
