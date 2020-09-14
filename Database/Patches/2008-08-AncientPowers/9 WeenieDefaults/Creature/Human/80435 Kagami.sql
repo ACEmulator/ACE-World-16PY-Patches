@@ -101,7 +101,7 @@ VALUES (80435,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (80435,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (80435, 2,  2595,  0, 14, 0, False) /* Create Tunic (2595) for Wield */
+VALUES (80435, 2,  2595,  0, 85, 0, False) /* Create Tunic (2595) for Wield */
      , (80435, 2,  2598,  0, 9, 1, False) /* Create Pants (2598) for Wield */
      , (80435, 2, 27215,  0, 93, 0.5, False) /* Create Chiran Coat (27215) for Wield */
      , (80435, 2, 27216,  0, 93, 0.5, False) /* Create Chiran Leggings (27216) for Wield */
