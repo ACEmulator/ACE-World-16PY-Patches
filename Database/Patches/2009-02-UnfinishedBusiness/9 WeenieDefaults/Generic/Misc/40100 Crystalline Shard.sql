@@ -1,25 +1,22 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40100;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40100, 'ace40100-crystallineshard', 38, '2020-08-21 23:49:55') /* GemType? */;
+VALUES (40100, 'ace40100-crystallineshard', 51, '2019-02-10 00:00:00') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40100,   1,        128) /* ItemType - Misc */
      , (40100,   5,          5) /* EncumbranceVal */
      , (40100,  11,        100) /* MaxStackSize */
      , (40100,  12,          1) /* StackSize */
-     , (40100,  13,          4) 
-     , (40100,  14,        100) 
-     , (40100,  15,          0) 
+     , (40100,  13,          5) /* StackUnitEncumbrance */
+     , (40100,  15,          0) /* StackUnitValue */
      , (40100,  16,          1) /* ItemUseable - No */
      , (40100,  19,          0) /* Value */
      , (40100,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
+
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40100,  11, True ) /* IgnoreCollisions */
-     , (40100,  13, True ) /* Ethereal */
-     , (40100,  14, True ) /* GravityStatus */
-     , (40100,  69, False) /* IsSellable */;
+VALUES (40100,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40100,  39, 0.3) /* DefaultScale */;
