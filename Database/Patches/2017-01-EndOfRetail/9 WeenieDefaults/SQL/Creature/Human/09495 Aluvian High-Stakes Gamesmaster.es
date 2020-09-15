@@ -157,79 +157,79 @@ Give: Ancient Falatacot Trinket (34277), Probability: 0.3
     - TurnToTarget
     - Delay: 1, Tell: Around and round she goes! The Wheel of Knowledge, let's see what she knows.
     - Activate
-    - Delay: 1, AwardNoShareXP: 690,000
+    - Delay: 4, AwardNoShareXP: 690,000
 
 Give: Ancient Falatacot Trinket (34277), Probability: 0.3075
     - TurnToTarget
     - Delay: 1, Tell: Around and round she goes! The Wheel of Knowledge, let's see what she knows.
     - Activate
-    - Delay: 1, AwardLevelProportionalXP: 100%, Min: 0, Max: 242,219,600
+    - Delay: 4, AwardLevelProportionalXP: 100%, Min: 0, Max: 242,219,600
 
 Give: Ancient Falatacot Trinket (34277), Probability: 0.35
     - TurnToTarget
     - Delay: 1, Tell: Around and round she goes! The Wheel of Knowledge, let's see what she knows.
     - Activate
-    - Delay: 1, AwardLevelProportionalXP: 10%, Min: 0, Max: 242,219,600
+    - Delay: 4, AwardLevelProportionalXP: 10%, Min: 0, Max: 242,219,600
 
 Give: Ancient Falatacot Trinket (34277), Probability: 0.45
     - TurnToTarget
     - Delay: 1, Tell: Around and round she goes! The Wheel of Knowledge, let's see what she knows.
     - Activate
-    - Delay: 1, AwardLevelProportionalXP: 5%, Min: 0, Max: 242,219,600
+    - Delay: 4, AwardLevelProportionalXP: 5%, Min: 0, Max: 242,219,600
 
 Give: Ancient Falatacot Trinket (34277), Probability: 0.55
     - TurnToTarget
     - Delay: 1, Tell: Around and round she goes! The Wheel of Knowledge, let's see what she knows.
     - Activate
-    - Delay: 1, AwardLevelProportionalXP: 3%, Min: 0, Max: 242,219,600
+    - Delay: 4, AwardLevelProportionalXP: 3%, Min: 0, Max: 242,219,600
 
 Give: Ancient Falatacot Trinket (34277), Probability: 0.65
     - TurnToTarget
     - Delay: 1, Tell: Around and round she goes! The Wheel of Knowledge, let's see what she knows.
     - Activate
-    - Delay: 1, AwardLevelProportionalXP: 2%, Min: 0, Max: 242,219,600
+    - Delay: 4, AwardLevelProportionalXP: 2%, Min: 0, Max: 242,219,600
 
 Give: Ancient Falatacot Trinket (34277)
     - TurnToTarget
     - Delay: 1, Tell: Around and round she goes! The Wheel of Knowledge, let's see what she knows.
     - Activate
-    - Delay: 1, AwardLevelProportionalXP: 1%, Min: 0, Max: 242,219,600
+    - Delay: 4, AwardLevelProportionalXP: 1%, Min: 0, Max: 242,219,600
 
 Give: Ancient Empyrean Trinket (34276), Probability: 0.24
     - TurnToTarget
     - Delay: 1, Tell: Around and round she goes! The Wheel of Knowledge teaches everyone something.
     - Activate
-    - Delay: 1, AwardLevelProportionalXP: 0.3%, Min: 0, Max: 515,129,417
+    - Delay: 4, AwardLevelProportionalXP: 0.3%, Min: 0, Max: 515,129,417
 
 Give: Ancient Empyrean Trinket (34276), Probability: 0.48
     - TurnToTarget
     - Delay: 1, Tell: Around and round she goes! The Wheel of Knowledge teaches everyone something.
     - Activate
-    - Delay: 1, AwardLevelProportionalXP: 0.7%, Min: 0, Max: 515,129,417
+    - Delay: 4, AwardLevelProportionalXP: 0.7%, Min: 0, Max: 515,129,417
 
 Give: Ancient Empyrean Trinket (34276), Probability: 0.68
     - TurnToTarget
     - Delay: 1, Tell: Around and round she goes! The Wheel of Knowledge teaches everyone something.
     - Activate
-    - Delay: 1, AwardLevelProportionalXP: 1.4%, Min: 0, Max: 515,129,417
+    - Delay: 4, AwardLevelProportionalXP: 1.4%, Min: 0, Max: 515,129,417
 
 Give: Ancient Empyrean Trinket (34276), Probability: 0.77
     - TurnToTarget
     - Delay: 1, Tell: Around and round she goes! The Wheel of Knowledge teaches everyone something.
     - Activate
-    - Delay: 1, AwardLevelProportionalXP: 2.5%, Min: 0, Max: 515,129,417
+    - Delay: 4, AwardLevelProportionalXP: 2.5%, Min: 0, Max: 515,129,417
 
 Give: Ancient Empyrean Trinket (34276), Probability: 0.9
     - TurnToTarget
     - Delay: 1, Tell: Around and round she goes! The Wheel of Knowledge teaches everyone something.
     - Activate
-    - Delay: 1, AwardLevelProportionalXP: 3.5%, Min: 0, Max: 515,129,417
+    - Delay: 4, AwardLevelProportionalXP: 3.5%, Min: 0, Max: 515,129,417
 
 Give: Ancient Empyrean Trinket (34276), Probability: 1.0
     - TurnToTarget
     - Delay: 1, Tell: Around and round she goes! The Wheel of Knowledge teaches everyone something.
     - Activate
-    - Delay: 1, AwardLevelProportionalXP: 7%, Min: 0, Max: 515,129,417
+    - Delay: 4, AwardLevelProportionalXP: 7%, Min: 0, Max: 515,129,417
 
 Use:
     - Motion: Ready
