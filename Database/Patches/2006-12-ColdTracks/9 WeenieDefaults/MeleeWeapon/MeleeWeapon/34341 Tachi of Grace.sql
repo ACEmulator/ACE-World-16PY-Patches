@@ -13,6 +13,7 @@ VALUES (34341,   1,          1) /* ItemType - MeleeWeapon */
      , (34341,  33,          1) /* Bonded - Bonded */
      , (34341,  44,         46) /* Damage */
      , (34341,  45,          3) /* DamageType - Slash, Pierce */
+     , (34341,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (34341,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
      , (34341,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (34341,  49,         35) /* WeaponTime */
