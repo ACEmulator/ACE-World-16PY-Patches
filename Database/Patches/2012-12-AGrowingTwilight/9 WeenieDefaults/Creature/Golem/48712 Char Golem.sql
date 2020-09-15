@@ -5,6 +5,7 @@ VALUES (48712, 'ace48712-chargolem', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48712,   1,         16) /* ItemType - Creature */
+     , (48712,   2,         13) /* CreatureType */
      , (48712,   6,         -1) /* ItemsCapacity */
      , (48712,   7,         -1) /* ContainersCapacity */
      , (48712,  16,          1) /* ItemUseable - No */
