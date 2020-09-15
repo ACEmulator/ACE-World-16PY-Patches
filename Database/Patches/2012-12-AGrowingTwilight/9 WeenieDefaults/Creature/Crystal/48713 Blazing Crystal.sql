@@ -5,6 +5,7 @@ VALUES (48713, 'ace48713-blazingcrystal', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48713,   1,         16) /* ItemType - Creature */
+     , (48713,   2,         47) /* CreatureTYpe */
      , (48713,   6,         -1) /* ItemsCapacity */
      , (48713,   7,         -1) /* ContainersCapacity */
      , (48713,  16,          1) /* ItemUseable - No */
