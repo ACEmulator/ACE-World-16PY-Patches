@@ -15,6 +15,7 @@ VALUES (40326,   1,          1) /* ItemType - MeleeWeapon */
      , (40326,  36,       9999) /* ResistMagic */
      , (40326,  44,         15) /* Damage */
      , (40326,  45,         16) /* DamageType - Fire */
+     , (40326,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (40326,  47,          1) /* AttackType - Punch */
      , (40326,  48,         45) /* WeaponSkill - LightWeapons */
      , (40326,  49,         20) /* WeaponTime */
