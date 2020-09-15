@@ -5,6 +5,7 @@ VALUES (48715, 'ace48715-prismshard', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48715,   1,         16) /* ItemType - Creature */
+     , (48715,   2,         47) /* CreatureType */
      , (48715,   6,         -1) /* ItemsCapacity */
      , (48715,   7,         -1) /* ContainersCapacity */
      , (48715,  16,          1) /* ItemUseable - No */
