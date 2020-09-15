@@ -14,7 +14,9 @@ VALUES (48724,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48724,   1, True ) /* Stuck */
-     , (48724,  19, False) /* Attackable */;
+     , (48724,  19, False) /* Attackable */
+     , (48724,  52, True) /* Attackable */
+     , (48724,  83, True) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48724,   1, 'Wall of Ice') /* Name */;
