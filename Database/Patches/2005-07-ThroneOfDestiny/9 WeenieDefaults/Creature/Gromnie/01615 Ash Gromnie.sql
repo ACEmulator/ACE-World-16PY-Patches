@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1615;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1615, 'gromnieash', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (1615, 'gromnieash', 10, '2020-09-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1615,   1,         16) /* ItemType - Creature */
      , (1615,   2,         15) /* CreatureType - Gromnie */
-     , (1615,   3,          9) /* PaletteTemplate - Grey */
+     , (1615,   3,          3) /* PaletteTemplate - BluePurple */
      , (1615,   6,         -1) /* ItemsCapacity */
      , (1615,   7,         -1) /* ContainersCapacity */
      , (1615,  16,          1) /* ItemUseable - No */
@@ -29,19 +29,19 @@ VALUES (1615,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1615,   1,       5) /* HeartbeatInterval */
      , (1615,   2,       0) /* HeartbeatTimestamp */
-     , (1615,   3, 0.699999988079071) /* HealthRate */
+     , (1615,   3, 0.7) /* HealthRate */
      , (1615,   4,       5) /* StaminaRate */
      , (1615,   5,       2) /* ManaRate */
      , (1615,  12,     0.5) /* Shade */
      , (1615,  13,       1) /* ArmorModVsSlash */
      , (1615,  14,       1) /* ArmorModVsPierce */
      , (1615,  15,       1) /* ArmorModVsBludgeon */
-     , (1615,  16, 0.109999999403954) /* ArmorModVsCold */
-     , (1615,  17, 0.109999999403954) /* ArmorModVsFire */
-     , (1615,  18, 0.109999999403954) /* ArmorModVsAcid */
-     , (1615,  19, 0.109999999403954) /* ArmorModVsElectric */
+     , (1615,  16,    0.11) /* ArmorModVsCold */
+     , (1615,  17,    0.11) /* ArmorModVsFire */
+     , (1615,  18,    0.11) /* ArmorModVsAcid */
+     , (1615,  19,    0.11) /* ArmorModVsElectric */
      , (1615,  31,      25) /* VisualAwarenessRange */
-     , (1615,  34, 1.20000004768372) /* PowerupTime */
+     , (1615,  34,     1.2) /* PowerupTime */
      , (1615,  36,       1) /* ChargeSpeed */
      , (1615,  39,       1) /* DefaultScale */
      , (1615,  64,       1) /* ResistSlash */
