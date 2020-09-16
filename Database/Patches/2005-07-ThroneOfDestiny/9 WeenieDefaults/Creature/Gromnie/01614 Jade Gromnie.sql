@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1614;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1614, 'gromniejade', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (1614, 'gromniejade', 10, '2020-09-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1614,   1,         16) /* ItemType - Creature */
      , (1614,   2,         15) /* CreatureType - Gromnie */
-     , (1614,   3,         74) /* PaletteTemplate - DullGreen */
+     , (1614,   3,         10) /* PaletteTemplate - LightBlue */
      , (1614,   6,         -1) /* ItemsCapacity */
      , (1614,   7,         -1) /* ContainersCapacity */
      , (1614,  16,          1) /* ItemUseable - No */
@@ -29,7 +29,7 @@ VALUES (1614,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1614,   1,       5) /* HeartbeatInterval */
      , (1614,   2,       0) /* HeartbeatTimestamp */
-     , (1614,   3, 0.400000005960464) /* HealthRate */
+     , (1614,   3,     0.4) /* HealthRate */
      , (1614,   4,       5) /* StaminaRate */
      , (1614,   5,       2) /* ManaRate */
      , (1614,  12,     0.5) /* Shade */
@@ -37,18 +37,18 @@ VALUES (1614,   1,       5) /* HeartbeatInterval */
      , (1614,  14,       1) /* ArmorModVsPierce */
      , (1614,  15,       1) /* ArmorModVsBludgeon */
      , (1614,  16,       1) /* ArmorModVsCold */
-     , (1614,  17, 0.479999989271164) /* ArmorModVsFire */
+     , (1614,  17,    0.48) /* ArmorModVsFire */
      , (1614,  18,       1) /* ArmorModVsAcid */
-     , (1614,  19, 0.46000000834465) /* ArmorModVsElectric */
+     , (1614,  19,    0.46) /* ArmorModVsElectric */
      , (1614,  31,      24) /* VisualAwarenessRange */
-     , (1614,  39, 0.899999976158142) /* DefaultScale */
+     , (1614,  39,     0.9) /* DefaultScale */
      , (1614,  64,       1) /* ResistSlash */
      , (1614,  65,       1) /* ResistPierce */
      , (1614,  66,       1) /* ResistBludgeon */
-     , (1614,  67, 0.829999983310699) /* ResistFire */
+     , (1614,  67,    0.83) /* ResistFire */
      , (1614,  68,       1) /* ResistCold */
      , (1614,  69,       1) /* ResistAcid */
-     , (1614,  70, 0.699999988079071) /* ResistElectric */
+     , (1614,  70,     0.7) /* ResistElectric */
      , (1614,  71,       1) /* ResistHealthBoost */
      , (1614,  72,       1) /* ResistStaminaDrain */
      , (1614,  73,       1) /* ResistStaminaBoost */
