@@ -29,7 +29,7 @@ VALUES (1615,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1615,   1,       5) /* HeartbeatInterval */
      , (1615,   2,       0) /* HeartbeatTimestamp */
-     , (1615,   3, 0.7) /* HealthRate */
+     , (1615,   3,     0.7) /* HealthRate */
      , (1615,   4,       5) /* StaminaRate */
      , (1615,   5,       2) /* ManaRate */
      , (1615,  12,     0.5) /* Shade */
