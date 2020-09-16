@@ -72,7 +72,7 @@ VALUES (9497,   1,   33554510) /* Setup */
      , (9497,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9497,  16, 2011578388) /* ActivationTarget */;
+VALUES (9497,  16, 2109030415) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9497,   1, 120, 0, 0) /* Strength */
