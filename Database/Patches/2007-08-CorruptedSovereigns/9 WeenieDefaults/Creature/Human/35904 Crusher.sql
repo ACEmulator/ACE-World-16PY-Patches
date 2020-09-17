@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35904;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35904, 'ace35904-crusher', 10, '2020-01-25 21:22:46') /* Creature */;
+VALUES (35904, 'ace35904-crusher', 10, '2020-08-12 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35904,   1,         16) /* ItemType - Creature */
      , (35904,   2,         31) /* CreatureType - Human */
-     , (35904,   6,        255) /* ItemsCapacity */
-     , (35904,   7,        255) /* ContainersCapacity */
+     , (35904,   6,         -1) /* ItemsCapacity */
+     , (35904,   7,         -1) /* ContainersCapacity */
      , (35904,  16,         32) /* ItemUseable - Remote */
      , (35904,  25,        150) /* Level */
      , (35904,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -20,15 +20,10 @@ VALUES (35904,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35904,   1, True ) /* Stuck */
-     , (35904,  11, True ) /* IgnoreCollisions */
-     , (35904,  12, True ) /* ReportCollisions */
-     , (35904,  14, True ) /* GravityStatus */
-     , (35904,  19, False) /* Attackable */
-     , (35904,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (35904,  42, True ) /* AllowEdgeSlide */;
+     , (35904,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35904,  39, 1.0499999523162842) /* DefaultScale */
+VALUES (35904,  39,    1.05) /* DefaultScale */
      , (35904,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -51,9 +46,9 @@ VALUES (35904,   1, 165, 0, 0) /* Strength */
      , (35904,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35904,   1,    51, 0, 0, 53) /* MaxHealth */
-     , (35904,   3,    50, 0, 0, 105) /* MaxStamina */
-     , (35904,   5,    50, 0, 0, 50) /* MaxMana */;
+VALUES (35904,   1,    51, 0, 0, 103) /* MaxHealth */
+     , (35904,   3,    50, 0, 0, 155) /* MaxStamina */
+     , (35904,   5,    50, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (35904,  6, 0, 3, 0, 500, 0, 0) /* MeleeDefense        Specialized */
@@ -91,10 +86,13 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0.2, 1, NULL, NULL, NULL, NULL, 
      , (@parent_id,  5,  10 /* Tell */, 0.2, 1, NULL, 'If you want one of these proven bug-killin weapons, I''ll craft one for you if you bring me a token from that Wintermaine fellow, up in the encampment over the new bug valley.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 1, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35904, 2, 35913,  1, 0, 0, True) /* Create  (35913) for Wield */
-     , (35904, 2, 24264,  1, 2, 0, True) /* Create Olthoi Fighter Shirt (Female) (24264) for Wield */
-     , (35904, 2, 24266,  1, 2, 0, True) /* Create Olthoi Fighter Shorts (Female) (24266) for Wield */
-     , (35904, 2, 24268,  1, 2, 0, True) /* Create Olthoi Fighter Sleeves (24268) for Wield */;
+VALUES (35904, 2, 35913,  1, 0, 0, False) /* Create Paradox-touched Olthoi Axe (35913) for Wield */
+     , (35904, 2, 25547,  1, 0, 0, False) /* Create Greater Olthoi Shield (25547) for Wield */
+     , (35904, 2, 24265,  1, 2, 0, False) /* Create Olthoi Fighter Shirt (Male) (24265) for Wield */
+     , (35904, 2, 24267,  1, 2, 0, False) /* Create Olthoi Fighter Shorts (Male) (24267) for Wield */
+     , (35904, 2, 24268,  1, 2, 0, False) /* Create Olthoi Fighter Sleeves (24268) for Wield */
+     , (35904, 2, 25525,  1, 13, 0, False) /* Create Mutilator Helm (25525) for Wield */;
+
 
 /* Lifestoned Changelog:
 {

@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35905;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35905, 'ace35905-deena', 10, '2020-01-25 21:22:48') /* Creature */;
+VALUES (35905, 'ace35905-deena', 10, '2020-08-12 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35905,   1,         16) /* ItemType - Creature */
      , (35905,   2,         31) /* CreatureType - Human */
-     , (35905,   6,        255) /* ItemsCapacity */
-     , (35905,   7,        255) /* ContainersCapacity */
+     , (35905,   6,         -1) /* ItemsCapacity */
+     , (35905,   7,         -1) /* ContainersCapacity */
      , (35905,  16,         32) /* ItemUseable - Remote */
      , (35905,  25,        150) /* Level */
      , (35905,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -20,12 +20,7 @@ VALUES (35905,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35905,   1, True ) /* Stuck */
-     , (35905,  11, True ) /* IgnoreCollisions */
-     , (35905,  12, True ) /* ReportCollisions */
-     , (35905,  14, True ) /* GravityStatus */
-     , (35905,  19, False) /* Attackable */
-     , (35905,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (35905,  42, True ) /* AllowEdgeSlide */;
+     , (35905,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35905,  54,       3) /* UseRadius */;
@@ -50,9 +45,9 @@ VALUES (35905,   1, 155, 0, 0) /* Strength */
      , (35905,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35905,   1,    51, 0, 0, 38) /* MaxHealth */
-     , (35905,   3,    50, 0, 0, 75) /* MaxStamina */
-     , (35905,   5,    50, 0, 0, 80) /* MaxMana */;
+VALUES (35905,   1,    51, 0, 0, 88) /* MaxHealth */
+     , (35905,   3,    50, 0, 0, 125) /* MaxStamina */
+     , (35905,   5,    50, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (35905,  6, 0, 3, 0, 500, 0, 0) /* MeleeDefense        Specialized */
@@ -90,10 +85,12 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0.2, 1, NULL, NULL, NULL, NULL, 
      , (@parent_id,  5,  10 /* Tell */, 0.2, 1, NULL, 'Would they''s help ya in some bug killin''. Words come down from the encampment set up in the valley over there. The ones where the new bugs are. There''s this bloke, Wintermaine, he''s been needin'' a hand. I''s owe him a few favors, but can''t leaves my post. You''s do me the''s favor of helpin'' him out and I''ll''s let yous take one of these in trade.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 1, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35905, 2, 35914,  1, 0, 0, True) /* Create  (35914) for Wield */
-     , (35905, 2, 24264,  1, 2, 0, True) /* Create Olthoi Fighter Shirt (Female) (24264) for Wield */
-     , (35905, 2, 24266,  1, 2, 0, True) /* Create Olthoi Fighter Shorts (Female) (24266) for Wield */
-     , (35905, 2, 24268,  1, 2, 0, True) /* Create Olthoi Fighter Sleeves (24268) for Wield */;
+VALUES (35905, 2, 35914,  1, 0, 0, False) /* Create Paradox-touched Olthoi Katar (35914) for Wield */
+     , (35905, 2, 24264,  1, 2, 0, False) /* Create Olthoi Fighter Shirt (Female) (24264) for Wield */
+     , (35905, 2, 24266,  1, 2, 0, False) /* Create Olthoi Fighter Shorts (Female) (24266) for Wield */
+     , (35905, 2, 24268,  1, 2, 0, False) /* Create Olthoi Fighter Sleeves (24268) for Wield */
+     , (35905, 2, 24900,  1, 2, 0, False) /* Create Lesser Olthoi Brood Queen Helm (24900) for Wield */;
+
 
 /* Lifestoned Changelog:
 {
