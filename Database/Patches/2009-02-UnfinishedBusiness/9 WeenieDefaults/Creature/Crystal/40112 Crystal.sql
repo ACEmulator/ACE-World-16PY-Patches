@@ -13,7 +13,9 @@ VALUES (40112,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40112,   1, True ) /* Stuck */
-     , (40112,  19, False) /* Attackable */;
+     , (40112,  19, False) /* Attackable */
+     , (40112,  52, True) /* AIImmobile */
+     , (40112,  83, True) /* NPCLookLike */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40112,  54,       3) /* UseRadius */;
