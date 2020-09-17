@@ -15,8 +15,8 @@ VALUES (48718,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48718,   1, True ) /* Stuck */
      , (48718,  19, False) /* Attackable */
-     , (48718,  52, True) /* Attackable */
-     , (48718,  83, True) /* Attackable */;
+     , (48718,  52, True) /* AIImmobile */
+     , (48718,  83, True) /* NPCLooksLike */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48718,   1, 'Wall of Ice') /* Name */;
