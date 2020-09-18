@@ -17,7 +17,7 @@ Use:
 					- InqQuestSolves: KillTaskRiftUmbral0907@KillTaskInProgress, 1
 						QuestSuccess:
 							- DirectBroadcast: You've killed %tqc out of %tqm Umbral Rifts.
-							- Tell: You need to be patient my friend, come back and tell me about your adventures when you've killed 30 Umbral Rifts.
+							- Tell: I see you've followed my advice. Come back and tell me more when you've been in the proximity of 30 dying Umbral Rifts.
 							- Goto: TenebrousRiftKillTaskCheck
 						QuestFailure:
 							- Delay: 1, Tell: I've spent many of my days in the place known as Singularity Caul. It was in my travels that I made an amazing discovery, one that would surely change anyone's life. I've experienced that proximity to a dieing rift has certain effects on the psyche.
