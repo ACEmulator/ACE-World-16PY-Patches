@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44214;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44214, 'ace44214-burningsandsbolt', 5, '2019-11-02 23:17:54') /* Ammunition */;
+VALUES (44214, 'ace44214-burningsandsbolt', 5, '2020-09-15 23:17:54') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44214,   1,        256) /* ItemType - MissileWeapon */															  
@@ -13,7 +13,7 @@ VALUES (44214,   1,        256) /* ItemType - MissileWeapon */
      , (44214,  12,          1) /* StackSize */
      , (44214,  13,          1) /* StackUnitEncumbrance */
      , (44214,  14,          2) /* StackUnitMass */
-     , (44214,  15,          0) /* StackUnitValue */														  											
+     , (44214,  15,          1) /* StackUnitValue */														  											
      , (44214,  16,          1) /* ItemUseable - No */
      , (44214,  18,         32) /* UiEffects - Fire */
      , (44214,  19,          1) /* Value */
@@ -33,13 +33,10 @@ VALUES (44214,  17, True ) /* Inelastic */
      , (44214,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44214,  21,       0) /* WeaponLength */
-     , (44214,  22,     0.4) /* DamageVariance */
-     , (44214,  26,       0) /* MaximumVelocity */
+VALUES (44214,  22,     0.4) /* DamageVariance */
      , (44214,  29,       1) /* WeaponDefense */
-     , (44214,  39,       0) /* DefaultScale */
+     , (44214,  39,     1.1) /* DefaultScale */
      , (44214,  62,       1) /* WeaponOffense */
-     , (44214,  63,       1) /* DamageMod */
      , (44214,  78,       1) /* Friction */
      , (44214,  79,       0) /* Elasticity */;
    
@@ -51,6 +48,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44214,   1,   33555693) /* Setup */
      , (44214,   3,  536870932) /* SoundTable */
      , (44214,   6,   67111919) /* PaletteBase */
+     , (44214,   7,  268436306) /* ClothingBase */
      , (44214,   8,  100672653) /* Icon */
      , (44214,  22,  872415275) /* PhysicsEffectTable */
      , (44214,  50,  100691935) /* IconOverlay */;
