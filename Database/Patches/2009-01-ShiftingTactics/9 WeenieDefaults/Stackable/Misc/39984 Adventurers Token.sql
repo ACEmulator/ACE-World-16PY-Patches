@@ -18,10 +18,7 @@ VALUES (39984,   1,        128) /* ItemType - Misc */
      , (39984, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39984,  11, True ) /* IgnoreCollisions */
-     , (39984,  13, True ) /* Ethereal */
-     , (39984,  14, True ) /* GravityStatus */
-     , (39984,  19, True ) /* Attackable */;
+VALUES (39984,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39984,   1, 'Adventurer''s Token') /* Name */
