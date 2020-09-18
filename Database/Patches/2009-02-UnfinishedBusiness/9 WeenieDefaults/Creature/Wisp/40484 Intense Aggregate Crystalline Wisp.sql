@@ -111,6 +111,5 @@ VALUES (40484,     84,   2.17)  /* Fire Blast V */
      , (40484,   1263,      2)  /* Drain Mana Other IV */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40484, 9,  40432,  0, 0, 1, False) /* Create Large Shard for ContainTreasure */
-     , (40484, 9, 40487,  0, 0, 1, False) /* Create Giant Aggregate Crystalline Shard for ContainTreasure */	  ;
+VALUES (40484, 9, 40487,  0, 0, 1, False) /* Create Giant Aggregate Crystalline Shard for ContainTreasure */	  ;
      
