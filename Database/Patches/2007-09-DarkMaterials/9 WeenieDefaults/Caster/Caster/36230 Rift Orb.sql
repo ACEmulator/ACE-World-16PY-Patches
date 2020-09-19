@@ -45,7 +45,6 @@ VALUES (36230,   1,   33560376) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36230,  2014,      2)  /* WizardsUltimateIntellect */
-     , (36230,  2074,      2)  /* ImperilOther7 */
      , (36230,  2266,      2)  /* LifeMagicMasteryOther7 */
      , (36230,  2286,      2)  /* ManaMasteryOther7 */
      , (36230,  2520,      2)  /* CANTRIPLIFEMAGICAPTITUDE2 */;
