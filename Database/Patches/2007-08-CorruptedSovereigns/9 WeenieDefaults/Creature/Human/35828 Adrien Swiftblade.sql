@@ -1,14 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35828; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35828, 'ace35828-adrienswiftblade', 10, '2020-08-19 09:09:24') /* Creature */;
+VALUES (35828, 'ace35828-adrienswiftblade', 10, '2020-09-19 09:09:24') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35828,   1,         16) /* ItemType - Creature */
-     , (35828,   6,        255) /* ItemsCapacity */
-     , (35828,   7,        255) /* ContainersCapacity */
+     , (35828,   2,         31) /* CreatureType - Human */
+     , (35828,   6,         -1) /* ItemsCapacity */
+     , (35828,   7,         -1) /* ContainersCapacity */
      , (35828,  16,         32) /* ItemUseable - Remote */
-     , (35828,  25,         85) /* Level */
+     , (35828,  25,         80) /* Level */
      , (35828,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (35828,  95,          8) /* RadarBlipColor - Yellow */
      , (35828, 113,          1) /* Gender - Male */
@@ -19,12 +20,7 @@ VALUES (35828,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35828,   1, True ) /* Stuck */
-     , (35828,  11, True ) /* IgnoreCollisions */
-     , (35828,  12, True ) /* ReportCollisions */
-     , (35828,  14, True ) /* GravityStatus */
-     , (35828,  19, False) /* Attackable */
-     , (35828,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (35828,  42, True ) /* AllowEdgeSlide */;
+     , (35828,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35828,  54,       3) /* UseRadius */;
@@ -49,9 +45,9 @@ VALUES (35828,   1, 200, 0, 0) /* Strength */
      , (35828,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35828,   1,   150, 0, 0,    0) /* MaxHealth */
-     , (35828,   3,   200, 0, 0,    0) /* MaxStamina */
-     , (35828,   5,   150, 0, 0,    0) /* MaxMana */;
+VALUES (35828,   1,   100, 0, 0, 150) /* MaxHealth */
+     , (35828,   3,   100, 0, 0, 200) /* MaxStamina */
+     , (35828,   5,    50, 0, 0, 150) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (35828,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
@@ -188,4 +184,4 @@ VALUES (35828, 2, 21150,  1, 21,  0.5, False) /* Create Covenant Sollerets (2115
      , (35828, 2, 32698,  1,  0,    0, False) /* Create Shield of Strathelar (32698) for Wield */
      , (35828, 2,   127,  1, 14,  0.4, False) /* Create Pants (127) for Wield */
      , (35828, 2,   130,  1, 14,  0.4, False) /* Create Shirt (130) for Wield */
-     , (35828, 2,   351,  1, 20,    0, False) /* Create Long Sword (351) for Wield */;
+     , (35828, 2, 28498,  1,  0,    0, False) /* Create Noble Rapier (28498) for Wield */;
