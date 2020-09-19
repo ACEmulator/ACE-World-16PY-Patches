@@ -15,8 +15,7 @@ VALUES (35904,   1,         16) /* ItemType - Creature */
      , (35904, 113,          1) /* Gender - Male */
      , (35904, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (35904, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (35904, 188,          2) /* HeritageGroup - Gharundim */
-     , (35904, 307,          5) /* DamageRating */;
+     , (35904, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35904,   1, True ) /* Stuck */

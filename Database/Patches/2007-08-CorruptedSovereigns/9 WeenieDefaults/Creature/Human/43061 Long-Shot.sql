@@ -15,8 +15,7 @@ VALUES (43061,   1,         16) /* ItemType - Creature */
      , (43061, 113,          1) /* Gender - Male */
      , (43061, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (43061, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (43061, 188,          1) /* HeritageGroup - Aluvian */
-     , (43061, 307,          5) /* DamageRating */;
+     , (43061, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43061,   1, True ) /* Stuck */
