@@ -1,25 +1,19 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35827; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35827, 'ace35827-sealedolthoipassage', 10, '2020-08-16 06:57:30') /* Creature */;
+VALUES (35827, 'ace35827-sealedolthoipassage', 10, '2020-09-19 06:57:30') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35827,   1,         16) /* ItemType - Creature */
-     , (35827,   6,        255) /* ItemsCapacity */
-     , (35827,   7,        255) /* ContainersCapacity */
+     , (35827,   6,         -1) /* ItemsCapacity */
+     , (35827,   7,         -1) /* ContainersCapacity */
      , (35827,  16,         32) /* ItemUseable - Remote */
-     , (35827,  93,    6360088) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, HasPhysicsBSP, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (35827,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (35827,  95,          3) /* RadarBlipColor - White */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35827,   1, True ) /* Stuck */
-     , (35827,  11, True ) /* IgnoreCollisions */
-     , (35827,  12, True ) /* ReportCollisions */
-     , (35827,  14, True ) /* GravityStatus */
-     , (35827,  15, True ) /* LightsStatus */
      , (35827,  19, False) /* Attackable */
-     , (35827,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (35827,  42, True ) /* AllowEdgeSlide */
      , (35827,  52, True ) /* AiImmobile */
      , (35827,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (35827,  83, True ) /* NpcLooksLikeObject */;
