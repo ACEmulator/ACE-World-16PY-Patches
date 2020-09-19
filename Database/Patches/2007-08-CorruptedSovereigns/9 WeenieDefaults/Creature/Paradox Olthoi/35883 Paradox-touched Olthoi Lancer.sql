@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35883;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35883, 'ace35883-paradoxtouchedolthoilancer', 10, '2020-08-22 22:12:09') /* Creature */;
+VALUES (35883, 'ace35883-paradoxtouchedolthoilancer', 10, '2020-09-19 22:12:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35883,   1,         16) /* ItemType - Creature */
      , (35883,   2,         92) /* CreatureType - ParadoxOlthoi */
      , (35883,   3,         39) /* PaletteTemplate - Black */
-     , (35883,   6,        255) /* ItemsCapacity */
-     , (35883,   7,        255) /* ContainersCapacity */
+     , (35883,   6,         -1) /* ItemsCapacity */
+     , (35883,   7,         -1) /* ContainersCapacity */
      , (35883,  16,          1) /* ItemUseable - No */
      , (35883,  25,        160) /* Level */
      , (35883,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
@@ -18,15 +18,12 @@ VALUES (35883,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35883,   1, True ) /* Stuck */
-     , (35883,  12, True ) /* ReportCollisions */
-     , (35883,  14, True ) /* GravityStatus */
-     , (35883,  19, True ) /* Attackable */
      , (35883,  65, True ) /* IgnoreMagicResist */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35883,   1,       5) /* HeartbeatInterval */
      , (35883,   2,       0) /* HeartbeatTimestamp */
-     , (35883,   3, 0.6499999761581421) /* HealthRate */
+     , (35883,   3,    0.65) /* HealthRate */
      , (35883,   4,       4) /* StaminaRate */
      , (35883,   5,       2) /* ManaRate */
      , (35883,  13,    2.25) /* ArmorModVsSlash */
@@ -76,9 +73,9 @@ VALUES (35883,   1, 360, 0, 0) /* Strength */
      , (35883,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35883,   1,   820, 0, 0, 180) /* MaxHealth */
-     , (35883,   3,  8640, 0, 0, 360) /* MaxStamina */
-     , (35883,   5,   910, 0, 0, 90) /* MaxMana */;
+VALUES (35883,   1,  1390, 0, 0, 1570) /* MaxHealth */
+     , (35883,   3,  1420, 0, 0, 1780) /* MaxStamina */
+     , (35883,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (35883,  6, 0, 2, 0, 408, 0, 0) /* MeleeDefense        Trained */

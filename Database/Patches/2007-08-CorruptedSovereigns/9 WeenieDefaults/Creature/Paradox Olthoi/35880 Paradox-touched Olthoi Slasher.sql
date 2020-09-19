@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35880;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35880, 'ace35880-paradoxtouchedolthoislasher', 10, '2020-08-22 22:12:08') /* Creature */;
+VALUES (35880, 'ace35880-paradoxtouchedolthoislasher', 10, '2020-09-19 22:12:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35880,   1,         16) /* ItemType - Creature */
      , (35880,   2,         92) /* CreatureType - ParadoxOlthoi */
      , (35880,   3,         39) /* PaletteTemplate - Black */
-     , (35880,   6,        255) /* ItemsCapacity */
-     , (35880,   7,        255) /* ContainersCapacity */
+     , (35880,   6,         -1) /* ItemsCapacity */
+     , (35880,   7,         -1) /* ContainersCapacity */
      , (35880,  16,          1) /* ItemUseable - No */
      , (35880,  25,        185) /* Level */
      , (35880,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
@@ -18,16 +18,13 @@ VALUES (35880,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35880,   1, True ) /* Stuck */
-     , (35880,  12, True ) /* ReportCollisions */
-     , (35880,  14, True ) /* GravityStatus */
-     , (35880,  19, True ) /* Attackable */
      , (35880,  65, True ) /* IgnoreMagicResist */
      , (35880, 103, True ) /* NonProjectileMagicImmune */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35880,   1,       5) /* HeartbeatInterval */
      , (35880,   2,       0) /* HeartbeatTimestamp */
-     , (35880,   3, 0.6499999761581421) /* HealthRate */
+     , (35880,   3,    0.65) /* HealthRate */
      , (35880,   4,       4) /* StaminaRate */
      , (35880,   5,       2) /* ManaRate */
      , (35880,  13,    2.25) /* ArmorModVsSlash */
@@ -40,7 +37,7 @@ VALUES (35880,   1,       5) /* HeartbeatInterval */
      , (35880,  31,      24) /* VisualAwarenessRange */
      , (35880,  34,       1) /* PowerupTime */
      , (35880,  36,       1) /* ChargeSpeed */
-     , (35880,  39, 1.100000023841858) /* DefaultScale */
+     , (35880,  39,     1.1) /* DefaultScale */
      , (35880,  64,       1) /* ResistSlash */
      , (35880,  65,    0.95) /* ResistPierce */
      , (35880,  66,     1.0) /* ResistBludgeon */
@@ -78,8 +75,8 @@ VALUES (35880,   1, 370, 0, 0) /* Strength */
      , (35880,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35880,   1,  1645, 0, 0, 185) /* MaxHealth */
-     , (35880,   3,  3200, 0, 0, 370) /* MaxStamina */
+VALUES (35880,   1,  1645, 0, 0, 1830) /* MaxHealth */
+     , (35880,   3,  3200, 0, 0, 3570) /* MaxStamina */
      , (35880,   5,     0, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
