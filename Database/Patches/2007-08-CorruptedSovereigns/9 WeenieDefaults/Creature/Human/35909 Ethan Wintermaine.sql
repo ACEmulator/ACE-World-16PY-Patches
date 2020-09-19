@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35909; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35909, 'ace35909-ethanwintermaine', 10, '2020-08-19 09:11:11') /* Creature */;
+VALUES (35909, 'ace35909-ethanwintermaine', 10, '2020-09-19 09:11:11') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35909,   1,         16) /* ItemType - Creature */
      , (35909,   2,         31) /* CreatureType - Human */
-     , (35909,   6,        255) /* ItemsCapacity */
-     , (35909,   7,        255) /* ContainersCapacity */
+     , (35909,   6,         -1) /* ItemsCapacity */
+     , (35909,   7,         -1) /* ContainersCapacity */
      , (35909,  16,         32) /* ItemUseable - Remote */
      , (35909,  25,        150) /* Level */
      , (35909,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -20,12 +20,7 @@ VALUES (35909,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35909,   1, True ) /* Stuck */
-     , (35909,  11, True ) /* IgnoreCollisions */
-     , (35909,  12, True ) /* ReportCollisions */
-     , (35909,  14, True ) /* GravityStatus */
-     , (35909,  19, False) /* Attackable */
-     , (35909,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (35909,  42, True ) /* AllowEdgeSlide */;
+     , (35909,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35909,  54,       3) /* UseRadius */;
@@ -50,9 +45,9 @@ VALUES (35909,   1, 235, 0, 0) /* Strength */
      , (35909,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35909,   1,   130, 0, 0,   55) /* MaxHealth */
-     , (35909,   3,   150, 0, 0,  110) /* MaxStamina */
-     , (35909,   5,   120, 0, 0,  120) /* MaxMana */;
+VALUES (35909,   1,   130, 0, 0, 185) /* MaxHealth */
+     , (35909,   3,   150, 0, 0, 260) /* MaxStamina */
+     , (35909,   5,   120, 0, 0, 240) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (35909,  6, 0, 3, 0, 500, 0, 0) /* MeleeDefense        Specialized */
