@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35733;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35733, 'ace35733-paradoxtouchedolthoievisceratornymph', 10, '2020-08-22 22:12:09') /* Creature */;
+VALUES (35733, 'ace35733-paradoxtouchedolthoievisceratornymph', 10, '2020-09-19 22:12:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35733,   1,         16) /* ItemType - Creature */
@@ -39,7 +39,7 @@ VALUES (35733,   1,       5) /* HeartbeatInterval */
      , (35733,  31,      24) /* VisualAwarenessRange */
      , (35733,  34,       1) /* PowerupTime */
      , (35733,  36,       1) /* ChargeSpeed */
-     , (35733,  39, 0.800000011920929) /* DefaultScale */
+     , (35733,  39,     0.8) /* DefaultScale */
      , (35733,  64,       1) /* ResistSlash */
      , (35733,  65,    0.95) /* ResistPierce */
      , (35733,  66,     1.0) /* ResistBludgeon */
@@ -54,7 +54,7 @@ VALUES (35733,   1,       5) /* HeartbeatInterval */
      , (35733,  75,       1) /* ResistManaBoost */
      , (35733,  77,       1) /* PhysicsScriptIntensity */
      , (35733, 104,      10) /* ObviousRadarRange */
-     , (35733, 117, 0.800000011920929) /* FocusedProbability */
+     , (35733, 117,     0.8) /* FocusedProbability */
      , (35733, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

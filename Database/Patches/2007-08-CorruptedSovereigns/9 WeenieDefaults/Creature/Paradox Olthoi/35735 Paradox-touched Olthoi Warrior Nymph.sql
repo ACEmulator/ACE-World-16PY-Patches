@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35735;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35735, 'ace35735-paradoxtouchedolthoiwarriornymph', 10, '2020-08-22 22:12:09') /* Creature */;
+VALUES (35735, 'ace35735-paradoxtouchedolthoiwarriornymph', 10, '2020-09-19 22:12:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35735,   1,         16) /* ItemType - Creature */
@@ -26,7 +26,7 @@ VALUES (35735,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35735,   1,       5) /* HeartbeatInterval */
      , (35735,   2,       0) /* HeartbeatTimestamp */
-     , (35735,   3, 0.1599999964237213) /* HealthRate */
+     , (35735,   3,    0.16) /* HealthRate */
      , (35735,   4,       4) /* StaminaRate */
      , (35735,   5,       2) /* ManaRate */
      , (35735,  13,    2.25) /* ArmorModVsSlash */
@@ -39,7 +39,7 @@ VALUES (35735,   1,       5) /* HeartbeatInterval */
      , (35735,  31,      30) /* VisualAwarenessRange */
      , (35735,  34,       1) /* PowerupTime */
      , (35735,  36,       1) /* ChargeSpeed */
-     , (35735,  39, 1.2999999523162842) /* DefaultScale */
+     , (35735,  39,     1.3) /* DefaultScale */
      , (35735,  64,       1) /* ResistSlash */
      , (35735,  65,    0.95) /* ResistPierce */
      , (35735,  66,     1.0) /* ResistBludgeon */
@@ -54,7 +54,7 @@ VALUES (35735,   1,       5) /* HeartbeatInterval */
      , (35735,  75,       1) /* ResistManaBoost */
      , (35735,  77,       1) /* PhysicsScriptIntensity */
      , (35735, 104,      10) /* ObviousRadarRange */
-     , (35735, 117, 0.6000000238418579) /* FocusedProbability */
+     , (35735, 117,     0.6) /* FocusedProbability */
      , (35735, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

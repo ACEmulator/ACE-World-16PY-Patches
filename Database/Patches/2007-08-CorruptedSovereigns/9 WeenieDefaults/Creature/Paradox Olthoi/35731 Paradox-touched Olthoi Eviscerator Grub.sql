@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35731;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35731, 'ace35731-paradoxtouchedolthoievisceratorgrub', 10, '2020-08-22 22:12:09') /* Creature */;
+VALUES (35731, 'ace35731-paradoxtouchedolthoievisceratorgrub', 10, '2020-09-19 22:12:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35731,   1,         16) /* ItemType - Creature */
@@ -29,7 +29,7 @@ VALUES (35731,   1,       5) /* HeartbeatInterval */
      , (35731,   3,    0.25) /* HealthRate */
      , (35731,   4,       4) /* StaminaRate */
      , (35731,   5,       2) /* ManaRate */
-     , (35731,  12, 0.800000011920929) /* Shade */
+     , (35731,  12,     0.8) /* Shade */
      , (35731,  13,    2.25) /* ArmorModVsSlash */
      , (35731,  14,    1.75) /* ArmorModVsPierce */
      , (35731,  15,    1.12) /* ArmorModVsBludgeon */
@@ -38,9 +38,9 @@ VALUES (35731,   1,       5) /* HeartbeatInterval */
      , (35731,  18,     4.0) /* ArmorModVsAcid */
      , (35731,  19,     3.5) /* ArmorModVsElectric */
      , (35731,  31,      10) /* VisualAwarenessRange */
-     , (35731,  34, 1.2000000476837158) /* PowerupTime */
+     , (35731,  34,     1.2) /* PowerupTime */
      , (35731,  36,       1) /* ChargeSpeed */
-     , (35731,  39, 1.100000023841858) /* DefaultScale */
+     , (35731,  39,     1.1) /* DefaultScale */
      , (35731,  64,       1) /* ResistSlash */
      , (35731,  65,    0.95) /* ResistPierce */
      , (35731,  66,     1.0) /* ResistBludgeon */
@@ -55,7 +55,7 @@ VALUES (35731,   1,       5) /* HeartbeatInterval */
      , (35731,  75,       1) /* ResistManaBoost */
      , (35731,  77,       1) /* PhysicsScriptIntensity */
      , (35731, 104,      10) /* ObviousRadarRange */
-     , (35731, 117, 0.6000000238418579) /* FocusedProbability */
+     , (35731, 117,     0.6) /* FocusedProbability */
      , (35731, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
