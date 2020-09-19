@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43059;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43059, 'ace43059-pedasassistant', 10, '2020-01-25 21:23:12') /* Creature */;
+VALUES (43059, 'ace43059-pedasassistant', 10, '2020-09-19 21:23:12') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43059,   1,         16) /* ItemType - Creature */
      , (43059,   2,         31) /* CreatureType - Human */
-     , (43059,   6,        255) /* ItemsCapacity */
-     , (43059,   7,        255) /* ContainersCapacity */
+     , (43059,   6,         -1) /* ItemsCapacity */
+     , (43059,   7,         -1) /* ContainersCapacity */
      , (43059,  16,         32) /* ItemUseable - Remote */
      , (43059,  25,        150) /* Level */
      , (43059,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -20,12 +20,7 @@ VALUES (43059,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43059,   1, True ) /* Stuck */
-     , (43059,  11, True ) /* IgnoreCollisions */
-     , (43059,  12, True ) /* ReportCollisions */
-     , (43059,  14, True ) /* GravityStatus */
-     , (43059,  19, False) /* Attackable */
-     , (43059,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (43059,  42, True ) /* AllowEdgeSlide */;
+     , (43059,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43059,  54,       3) /* UseRadius */;
@@ -50,9 +45,9 @@ VALUES (43059,   1, 155, 0, 0) /* Strength */
      , (43059,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43059,   1,    51, 0, 0, 38) /* MaxHealth */
-     , (43059,   3,    50, 0, 0, 75) /* MaxStamina */
-     , (43059,   5,    50, 0, 0, 80) /* MaxMana */;
+VALUES (43059,   1,    51, 0, 0, 88) /* MaxHealth */
+     , (43059,   3,    50, 0, 0, 125) /* MaxStamina */
+     , (43059,   5,    50, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (43059,  6, 0, 3, 0, 500, 0, 0) /* MeleeDefense        Specialized */
@@ -88,8 +83,8 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0.2, 1, NULL, NULL, NULL, NULL, 
      , (@parent_id,  3,  10 /* Tell */, 0.2, 1, NULL, 'Bring me a token from Wintermaine and I will provide you with one of these wands, we could use more trials.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 1, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43059, 2, 43056,  1, 0, 0, True) /* Create  (43056) for Wield */
-     , (43059, 2,  5850,  1, 11, 0.0139, True) /* Create Faran Robe (5850) for Wield */;
+VALUES (43059, 2, 43056,  1, 0, 0, False) /* Create Paradox-touched Olthoi Wand (43056) for Wield */
+     , (43059, 2,  5850,  1, 11, 0.0139, False) /* Create Faran Robe (5850) for Wield */;
 
 /* Lifestoned Changelog:
 {

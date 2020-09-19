@@ -6,8 +6,8 @@ VALUES (43062, 'ace43062-deadeye', 10, '2020-01-25 21:23:17') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43062,   1,         16) /* ItemType - Creature */
      , (43062,   2,         31) /* CreatureType - Human */
-     , (43062,   6,        255) /* ItemsCapacity */
-     , (43062,   7,        255) /* ContainersCapacity */
+     , (43062,   6,         -1) /* ItemsCapacity */
+     , (43062,   7,         -1) /* ContainersCapacity */
      , (43062,  16,         32) /* ItemUseable - Remote */
      , (43062,  25,        150) /* Level */
      , (43062,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -20,15 +20,10 @@ VALUES (43062,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43062,   1, True ) /* Stuck */
-     , (43062,  11, True ) /* IgnoreCollisions */
-     , (43062,  12, True ) /* ReportCollisions */
-     , (43062,  14, True ) /* GravityStatus */
-     , (43062,  19, False) /* Attackable */
-     , (43062,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (43062,  42, True ) /* AllowEdgeSlide */;
+     , (43062,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43062,  39, 1.0499999523162842) /* DefaultScale */
+VALUES (43062,  39,    1.05) /* DefaultScale */
      , (43062,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -51,9 +46,9 @@ VALUES (43062,   1, 165, 0, 0) /* Strength */
      , (43062,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43062,   1,    51, 0, 0, 53) /* MaxHealth */
-     , (43062,   3,    50, 0, 0, 105) /* MaxStamina */
-     , (43062,   5,    50, 0, 0, 50) /* MaxMana */;
+VALUES (43062,   1,    51, 0, 0, 103) /* MaxHealth */
+     , (43062,   3,    50, 0, 0, 155) /* MaxStamina */
+     , (43062,   5,    50, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (43062,  6, 0, 3, 0, 500, 0, 0) /* MeleeDefense        Specialized */
@@ -90,10 +85,10 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0.2, 1, NULL, NULL, NULL, NULL, 
      , (@parent_id,  4,  10 /* Tell */, 0.2, 1, NULL, 'I don''t normally share my creations with other people, but if you bring me a token from Wintermaine then I will consider handing you one of these, if you can handle it.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 1, 0, 0, 0);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43062, 2, 43045,  1, 0, 0, True) /* Create  (43045) for Wield */
-     , (43062, 2, 24265,  1, 2, 0, True) /* Create Olthoi Fighter Shirt (Male) (24265) for Wield */
-     , (43062, 2, 24267,  1, 2, 0, True) /* Create Olthoi Fighter Shorts (Male) (24267) for Wield */
-     , (43062, 2, 24268,  1, 2, 0, True) /* Create Olthoi Fighter Sleeves (24268) for Wield */;
+VALUES (43062, 2, 43045,  1, 0, 0, False) /* Create Paradox-touched Olthoi Crossbow (43045) for Wield */
+     , (43062, 2, 24265,  1, 2, 0, False) /* Create Olthoi Fighter Shirt (Male) (24265) for Wield */
+     , (43062, 2, 24267,  1, 2, 0, False) /* Create Olthoi Fighter Shorts (Male) (24267) for Wield */
+     , (43062, 2, 24268,  1, 2, 0, False) /* Create Olthoi Fighter Sleeves (24268) for Wield */;
 
 /* Lifestoned Changelog:
 {
