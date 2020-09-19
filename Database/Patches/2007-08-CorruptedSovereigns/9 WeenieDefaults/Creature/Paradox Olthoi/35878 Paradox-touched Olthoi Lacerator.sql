@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35878;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35878, 'ace35878-paradoxtouchedolthoilacerator', 10, '2020-08-22 22:12:08') /* Creature */;
+VALUES (35878, 'ace35878-paradoxtouchedolthoilacerator', 10, '2020-09-19 22:12:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35878,   1,         16) /* ItemType - Creature */
      , (35878,   2,         92) /* CreatureType - ParadoxOlthoi */
      , (35878,   3,         39) /* PaletteTemplate - Black */
-     , (35878,   6,        255) /* ItemsCapacity */
-     , (35878,   7,        255) /* ContainersCapacity */
+     , (35878,   6,         -1) /* ItemsCapacity */
+     , (35878,   7,         -1) /* ContainersCapacity */
      , (35878,  16,          1) /* ItemUseable - No */
      , (35878,  25,        185) /* Level */
      , (35878,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
@@ -18,15 +18,12 @@ VALUES (35878,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35878,   1, True ) /* Stuck */
-     , (35878,  12, True ) /* ReportCollisions */
-     , (35878,  14, True ) /* GravityStatus */
-     , (35878,  19, True ) /* Attackable */
      , (35878,  65, True ) /* IgnoreMagicResist */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35878,   1,       5) /* HeartbeatInterval */
      , (35878,   2,       0) /* HeartbeatTimestamp */
-     , (35878,   3, 0.6499999761581421) /* HealthRate */
+     , (35878,   3,    0.65) /* HealthRate */
      , (35878,   4,       4) /* StaminaRate */
      , (35878,   5,       2) /* ManaRate */
      , (35878,  13,    2.25) /* ArmorModVsSlash */
@@ -75,7 +72,7 @@ VALUES (35878,   1, 380, 0, 0) /* Strength */
      , (35878,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35878,   1,  2000, 0, 0, 2000) /* MaxHealth */
+VALUES (35878,   1,  1590, 0, 0, 1780) /* MaxHealth */
      , (35878,   3,  8620, 0, 0, 9000) /* MaxStamina */
      , (35878,   5,   840, 0, 0, 1000) /* MaxMana */;
 
