@@ -64,7 +64,7 @@ VALUES (38942, -1, 349, 1, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Gen
      , (38942, 0.025, 33627, 1, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Foolproof Sunstone (33627) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (38942, 0.0275, 33628, 1, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Foolproof White Sapphire (33628) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (38942, 0.03, 33635, 1, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Foolproof Yellow Topaz (33635) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (38942, 0.0325, 33626, 1, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Foolproof Zircon (33626) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (38942, 0.0325, 33636, 1, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Foolproof Zircon (33636) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (38942, 0.1075, 35383, 1, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ancient Mhoire Coin (35383) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (38942, 0.2075, 36518, 1, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Colosseum Coin (36518) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (38942, 0.2825, 36376, 1, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Small Olthoi Venom Sac (36376) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
