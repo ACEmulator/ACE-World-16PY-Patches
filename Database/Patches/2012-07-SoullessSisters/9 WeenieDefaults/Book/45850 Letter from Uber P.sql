@@ -32,6 +32,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (45850, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (45850, 0, 4294967295, 'Uber P', 'prewritten', False, '
-[This page is filled with large penguin footprints and odd markings made in black ink.]
-');
+VALUES (45850, 0, 4294967295, 'Uber P', 'prewritten', False, '[This page is filled with large penguin footprints and odd markings made in black ink.]');

@@ -12,14 +12,12 @@ VALUES (71882,   1,        128) /* ItemType - Misc */
      , (71882,  19,          0) /* Value */
      , (71882,  33,          1) /* Bonded - Bonded */
      , (71882,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (71882, 114,          1) /* Attuned - Attuned */
-     , (71882, 150,        103) /* HookPlacement - Hook */;
+     , (71882, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (71882,  11, True ) /* IgnoreCollisions */
      , (71882,  13, True ) /* Ethereal */
      , (71882,  14, True ) /* GravityStatus */
-     , (71882,  19, True ) /* Attackable */
      , (71882,  22, False) /* Inscribable */
      , (71882,  23, True ) /* DestroyOnSell */;
 
