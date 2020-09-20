@@ -24,7 +24,6 @@ VALUES (42338,   1, True ) /* Stuck */
      , (42338,  13, False) /* Ethereal */
      , (42338,  14, True ) /* GravityStatus */
      , (42338,  15, True ) /* LightsStatus */
-     , (42338,  19, True ) /* Attackable */
      , (42338, 120, True ) /* TreasureCorpse */
      , (42338,  50, True ) /* NeverFailCasting */;
 
@@ -81,9 +80,9 @@ VALUES (42338,   1, 250, 0, 0) /* Strength */
      , (42338,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42338,   1,   1625, 0, 0, 1625) /* MaxHealth */
-     , (42338,   3,   5250, 0, 0, 5250) /* MaxStamina */
-     , (42338,   5,   5350, 0, 0, 5350) /* MaxMana */;
+VALUES (42338,   1,   1500, 0, 0, 1625) /* MaxHealth */
+     , (42338,   3,   5000, 0, 0, 5250) /* MaxStamina */
+     , (42338,   5,   5000, 0, 0, 5350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (42338,  6, 0, 3, 0, 138, 0, 0) /* MeleeDefense        Specialized */
@@ -110,18 +109,12 @@ VALUES (42338,  0,  8,  0,    0,  120,  102,  102,  102,  120,   96,   10,  102,
      , (42338,  8,  8, 30, 0.75,  120,  102,  102,  102,  120,   96,   10,  102,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42338,    71,  2.004)  /* Frost Bolt III */
-     , (42338,   231,  2.017)  /* Vulnerability Other III */
-     , (42338,   276,  2.008)  /* Magic Resistance Self III */
-     , (42338,  1062,  2.017)  /* Cold Vulnerability Other III */
-     , (42338,  1091,  2.008)  /* Fire Protection Self III */
-     , (42338,  1158,  2.013)  /* Heal Self III */
-     , (42338,  1239,  2.008)  /* Drain Health Other III */
-     , (42338,  1324,  2.017)  /* Imperil Other III */
-     , (42338,  1340,  2.008)  /* Weakness Other III */
-     , (42338,  1417,  2.008)  /* Slowness Other III */
-     , (42338,  1810,  2.004)  /* Frost Streak III */;
+VALUES (42338,  2136,  2.004)  /* Icy Torment */
+     , (42338,  2731,  2.017)  /*  Frost Arc VII */
+     , (42338,  1843,  2.008)  /* Foon-Ki's Glacial Floe */
+     , (42338,  2168,  2.017)  /* Geldites Gift */
+     , (42338,  2074,  2.017)  /* Gossamer Flesh */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42338, 9,  6876,  0, 0, 0.001, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
-
+VALUES (42338, 9,  6876,  0, 0, 0.1, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+	  , (42338, 9,  0,  0, 0, 0.9, False) /* Create Nothing for ContainTreasure */;
