@@ -21,7 +21,6 @@ VALUES (46300,   1, True ) /* Stuck */
      , (46300,  12, True ) /* ReportCollisions */
      , (46300,  13, False) /* Ethereal */
      , (46300,  14, True ) /* GravityStatus */
-     , (46300,  19, True ) /* Attackable */
      , (46300,  29, True ) /* NoCorpse */
      , (46300, 103, True ) /* NonProjectileMagicImmune */;
 
@@ -75,14 +74,10 @@ VALUES (46300,  0,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,
      , (46300,  2,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (46300,  3,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (46300,  4,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (46300,  5,  4,1000, 0.75,  500,  250,  250,  250,  250,  250,  250,  250,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand - Bludgeon */
+     , (46300,  5,  4, 10, 0.75,  500,  250,  250,  250,  250,  250,  250,  250,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand - Bludgeon */
      , (46300,  6,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (46300,  7,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (46300,  8,  4,1000, 0.75,  500,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot - Bludgeon */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46300, 8040, 1481441546, 100.0045, -59.59311, -24.00334, 0.7970368, 0, 0, -0.6039308) /* PCAPRecordedLocation */
-/* @teleloc 0x584D010A [100.004500 -59.593110 -24.003340] 0.797037 0.000000 0.000000 -0.603931 */;
+     , (46300,  8,  4, 10, 0.75,  500,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot - Bludgeon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46300,   1,  90, 0, 0) /* Strength */
@@ -95,7 +90,7 @@ VALUES (46300,   1,  90, 0, 0) /* Strength */
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (46300,   1,  1955, 0, 0, 2000) /* MaxHealth */
      , (46300,   3,   100, 0, 0, 190) /* MaxStamina */
-     , (46300,   5,   750, 0, 0, 900) /* MaxMana */;
+     , (46300,   5,   300, 0, 0, 450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46300,  6, 0, 3, 0, 457, 0, 0) /* MeleeDefense         Specialized */
@@ -107,18 +102,7 @@ VALUES (46300,  6, 0, 3, 0, 457, 0, 0) /* MeleeDefense         Specialized */
      , (46300, 45, 0, 3, 0, 560, 0, 0) /* LightWeapons         Specialized */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46300,    63,   2.05) /* Acid Stream VI */
-     , (46300,    69,   2.05) /* Shock Wave VI */
-     , (46300,    74,   2.05) /* Frost Bolt VI */
-     , (46300,    80,   2.05) /* Lightning Bolt VI */
-     , (46300,    91,   2.05) /* Force Bolt VI */
-     , (46300,    97,   2.05) /* Whirling Blade VI */
-     , (46300,   176,   2.05) /* Fester Other VI */
-     , (46300,   526,   2.05) /* Acid Vulnerability Other VI */
-     , (46300,  1053,   2.03) /* Bludgeoning Vulnerability Other VI */
+VALUES (46300,    74,   2.05) /* Frost Bolt VI */
      , (46300,  1065,   2.02) /* Cold Vulnerability Other VI */
-     , (46300,  1089,   2.02) /* Lightning Vulnerability Other VI */
-     , (46300,  1108,   2.07) /* Fire Vulnerability Other VI */
-     , (46300,  1132,   2.05) /* Blade Vulnerability Other VI */
-     , (46300,  1156,    2.1) /* Piercing Vulnerability Other VI */
-     , (46300,  3878,      3) /* Incendiary Strike */;
+     , (46300,  1528,   2.02) /* Frost Arc VI */;
+     
