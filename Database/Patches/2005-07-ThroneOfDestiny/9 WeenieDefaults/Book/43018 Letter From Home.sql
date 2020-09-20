@@ -4,20 +4,22 @@ INSERT INTO weenie (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (43018, 'notelettergreetinggear', 8, '2020-09-19 00:00:00') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (43018, 1,       8192) /* ItemType - Writable */
-     , (43018, 5,          5) /* EncumbranceVal */
-     , (43018, 8,        230) /* Mass */
-     , (43018, 16,         8) /* ItemUseable - Contained */
-     , (43018, 19,        10) /* Value */
-     , (43018, 33,         1) /* Bonded - Bonded */
-     , (43018, 93,      1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+VALUES (43018,   1,       8192) /* ItemType - Writable */
+     , (43018,   5,          5) /* EncumbranceVal */
+     , (43018,   8,        230) /* Mass */
+     , (43018,  16,          8) /* ItemUseable - Contained */
+     , (43018,  19,         10) /* Value */
+     , (43018,  33,          1) /* Bonded - Bonded */
+     , (43018,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43018, 174,          1) /* AppraisalPages */
+     , (43018, 175,          1) /* AppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43018, 54,       1) /* UseRadius */;
+VALUES (43018,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43018, 1, 'Letter From Home') /* Name */
-     , (43018, 16, 'Double-click this note to read it.') /* LongDesc */;
+VALUES (43018,   1, 'Letter From Home') /* Name */
+     , (43018,  16, 'Double-click this note to read it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43018,   1,   33554773) /* Setup */
@@ -29,5 +31,5 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (43018, 1, 1000) /* Book Data */;
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (43018, 0, 4294967295, 'Primus Atamarr', 'prewritten', False, "You have been selected for a very important task. Of those of our people who were willing to see the truth in this world, you had the rare gifts necessary to excel outside the structure of the Houses. Use those gifts, and the skills I have added to your core, to interact and join with the diverse peoples of this world. Only through intergation and alliance can we thrive here, where we are cut off from our world by the insane Iron Blade Primus. Remember the honor of our people, and make them proud to call you both friend and ally.
-");
+VALUES (43018, 0, 4294967295, 'Primus Atamarr', 'prewritten', False, 'You have been selected for a very important task. Of those of our people who were willing to see the truth in this world, you had the rare gifts necessary to excel outside the structure of the Houses. Use those gifts, and the skills I have added to your core, to interact and join with the diverse peoples of this world. Only through intergation and alliance can we thrive here, where we are cut off from our world by the insane Iron Blade Primus. Remember the honor of our people, and make them proud to call you both friend and ally.
+');
