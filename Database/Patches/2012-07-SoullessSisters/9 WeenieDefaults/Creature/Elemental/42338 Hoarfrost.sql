@@ -116,5 +116,5 @@ VALUES (42338,  2136,  2.004)  /* Icy Torment */
      , (42338,  2074,  2.017)  /* Gossamer Flesh */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42338, 9,  6876,  0, 0, 0.1, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-	  , (42338, 9,  0,  0, 0, 0.9, False) /* Create Nothing for ContainTreasure */;
+VALUES (42338, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+	  , (42338, 9,  0,  0, 0, 0.98, False) /* Create Nothing for ContainTreasure */;
