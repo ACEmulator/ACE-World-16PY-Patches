@@ -9,6 +9,7 @@ VALUES (43019,   1,       8192) /* ItemType - Writable */
      , (43019,   8,        230) /* Mass */
      , (43019,  16,          8) /* ItemUseable - Contained */
      , (43019,  19,         10) /* Value */
+     , (43019,  33,          1) /* Bonded - Bonded */
      , (43019,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
