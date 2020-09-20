@@ -10,9 +10,7 @@ VALUES (30988,   1,       8192) /* ItemType - Writable */
      , (30988,  16,          8) /* ItemUseable - Contained */
      , (30988,  19,         10) /* Value */
      , (30988,  33,          1) /* Bonded - Bonded */
-     , (30988,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30988, 174,          1) /* AppraisalPages */
-     , (30988, 175,          1) /* AppraisalMaxPages */;
+     , (30988,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30988,  54,       1) /* UseRadius */;
