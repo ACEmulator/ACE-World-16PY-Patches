@@ -19,7 +19,8 @@ VALUES (46303,   1, True ) /* Stuck */
      , (46303,  13, False) /* Ethereal */
      , (46303,  14, True ) /* GravityStatus */
      , (46303,  19, True ) /* Attackable */
-     , (46303,  29, True ) /* NoCorpse */;
+     , (46303,  29, True ) /* NoCorpse */
+     , (46303,  83, True) /* NPCLookLike */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46303,   1,       5) /* HeartbeatInterval */
@@ -69,6 +70,24 @@ VALUES (46303,   1,   33560926) /* Setup */
      , (46303,   8,  100676956) /* Icon */
      , (46303,  22,  872415328) /* PhysicsEffectTable */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (46303,   1,   1, 0, 0) /* Strength */
+     , (46303,   2,   1, 0, 0) /* Endurance */
+     , (46303,   3,   1, 0, 0) /* Quickness */
+     , (46303,   4,   1, 0, 0) /* Coordination */
+     , (46303,   5,   1, 0, 0) /* Focus */
+     , (46303,   6,   1, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (46303,   1,  2499, 0, 0, 2500) /* MaxHealth */
+     , (46303,   3,   800, 0, 0,  801) /* MaxStamina */
+     , (46303,   5,     0, 0, 0,    1) /* MaxMana */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (46303,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */
+     , (46303,  7, 0, 2, 0,   1, 0, 0) /* MissileDefense      Trained */
+     , (46303, 15, 0, 3, 0,   1, 0, 0) /* MagicDefense        Specialized */;
+     
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (46303,  0,  4,  0,    0,  200,  100,  100,  100,  100,  100,  100,  100,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
      , (46303,  1,  4,  0,    0,  200,  100,  100,  100,  100,  100,  100,  100,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
@@ -79,6 +98,3 @@ VALUES (46303,  0,  4,  0,    0,  200,  100,  100,  100,  100,  100,  100,  100,
      , (46303,  6,  4,  0,    0,  200,  100,  100,  100,  100,  100,  100,  100,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (46303,  7,  4,  0,    0,  200,  100,  100,  100,  100,  100,  100,  100,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (46303,  8,  4, 60, 0.75,  200,  100,  100,  100,  100,  100,  100,  100,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46303,   1,  2000, 0, 0, 2000) /* MaxHealth */;

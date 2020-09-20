@@ -72,7 +72,7 @@ VALUES (46278,   1,   33556222) /* Setup */
      , (46278,   4,  805306406) /* CombatTable */
      , (46278,   8,  100669125) /* Icon */
      , (46278,  22,  872415346) /* PhysicsEffectTable */
-     , (46278,  35,       1003) /* DeathTreasureType - Loot Tier: 7 */;
+     , (46278,  35,        157) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46278,   1, 490, 0, 0) /* Strength */
@@ -95,8 +95,7 @@ VALUES (46278,  6, 0, 3, 0,  70, 0, 0) /* MeleeDefense        Specialized */
      , (46278, 14, 0, 3, 0,  70, 0, 0) /* ArcaneLore          Specialized */
      , (46278, 15, 0, 3, 0,  58, 0, 0) /* MagicDefense        Specialized */
      , (46278, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
-     , (46278, 24, 0, 3, 0,  80, 0, 0) /* Run                 Specialized */
-     , (46278, 12, 0, 3, 0,  56, 0, 0) /* ThrownWeapon		  Specialized */;
+     , (46278, 24, 0, 3, 0,  80, 0, 0) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (46278,  0,  4,  0,    0,   90,   61,   38,   61,    9,   27,   61,   61,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

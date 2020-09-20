@@ -16,7 +16,8 @@ VALUES (46320,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46320,   1, True ) /* Stuck */
-     , (46320,  19, False) /* Attackable */;
+     , (46320,  19, False) /* Attackable */
+     , (46320,  83, True) /* NPCLookLike */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46320,  43,      20) /* GeneratorRadius */
@@ -29,6 +30,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46320,   1,   33561472) /* Setup */
      , (46320,   2,  150995105) /* MotionTable */
      , (46320,   3,  536871017) /* SoundTable */
+     , (46320,   4,  805306372) /* CombatTable */
      , (46320,   8,  100677366) /* Icon */
      , (46320,  22,  872415369) /* PhysicsEffectTable */;
      
