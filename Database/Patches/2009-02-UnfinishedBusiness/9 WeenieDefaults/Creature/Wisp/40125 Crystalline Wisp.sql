@@ -81,27 +81,27 @@ VALUES (40125,   1, 150, 0, 0) /* Strength */
      , (40125,   6, 330, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40125,   1,   420, 0, 0, 720) /* MaxHealth */
-     , (40125,   3,   420, 0, 0, 820) /* MaxStamina */
+VALUES (40125,   1,   620, 0, 0, 720) /* MaxHealth */
+     , (40125,   3,   620, 0, 0, 820) /* MaxStamina */
      , (40125,   5,   120, 0, 0, 450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (40125,  6, 0, 3, 0, 385, 0, 0) /* MeleeDefense        Specialized */
-     , (40125,  7, 0, 3, 0, 440, 0, 0) /* MissileDefense      Specialized */
-     , (40125, 45, 0, 3, 0, 180, 0, 0) /* LightWeapons        Specialized */
-     , (40125, 14, 0, 3, 0, 300, 0, 0) /* ArcaneLore          Specialized */
-     , (40125, 15, 0, 3, 0, 230, 0, 0) /* MagicDefense        Specialized */
+VALUES (40125,  6, 0, 3, 0, 223, 0, 0) /* MeleeDefense        Specialized */
+     , (40125,  7, 0, 3, 0, 174, 0, 0) /* MissileDefense      Specialized */
+     , (40125, 45, 0, 3, 0, 123, 0, 0) /* LightWeapons        Specialized */
+     , (40125, 14, 0, 3, 0, 210, 0, 0) /* ArcaneLore          Specialized */
+     , (40125, 15, 0, 3, 0, 344, 0, 0) /* MagicDefense        Specialized */
      , (40125, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
-     , (40125, 24, 0, 3, 0,  50, 0, 0) /* Run                 Specialized */
-     , (40125, 31, 0, 3, 0, 100, 0, 0) /* CreatureEnchantment Specialized */
-     , (40125, 33, 0, 3, 0, 100, 0, 0) /* LifeMagic           Specialized */
-     , (40125, 34, 0, 3, 0, 100, 0, 0) /* WarMagic            Specialized */;
+     , (40125, 24, 0, 3, 0, 250, 0, 0) /* Run                 Specialized */
+     , (40125, 31, 0, 3, 0, 265, 0, 0) /* CreatureEnchantment Specialized */
+     , (40125, 33, 0, 3, 0, 265, 0, 0) /* LifeMagic           Specialized */
+     , (40125, 34, 0, 3, 0, 265, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (40125,  0, 32, 50,  0.5,   140,   100,   200,   100,   200,   200,  200,   200,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
      , (40125, 16, 32,  0,    0,   140,   100,   200,   100,   200,   200,  200,   200,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
      , (40125, 17, 32,  5, 0.75,   120,   100,   200,   100,   200,   200,  200,   200,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (40125, 21, 32,  0,    0,   110,   40,   34,   34,   34,   34,   80,   34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+     , (40125, 21, 32,  0,    0,   110,   40,     34,    34,    34,    34,   80,    34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40125,    105,   2.17)  /* Shock Blast V */
@@ -115,4 +115,4 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (40125, 9,  6876,  0, 0, 0.33, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (40125, 9, 40100,  0, 0, 0.66, False)	/* Create Crystalline Shard for ContainTreasure */      
 	  , (40125, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-	  , (40125, 9,  40102,  0, 0, 1, False) /* Create Rare Crystalline Shard */  ;
+	  , (40125, 9, 40102,  0, 0,    1, False) /* Create Rare Crystalline Shard */  ;
