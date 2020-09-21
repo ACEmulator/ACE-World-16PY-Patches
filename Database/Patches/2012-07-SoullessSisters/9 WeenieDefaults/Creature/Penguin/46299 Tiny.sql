@@ -128,15 +128,7 @@ VALUES (46299,   628,   2.03)  /* Life Magic Ineptitude Other VI */
      , (46299,  2738,   2.04)  /* Lightning Arc VII */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46299, 9, 20252,  0, 0, 0, False) /* Create Scroll of Belly of Lead (20252) for ContainTreasure */
-     , (46299, 9, 46288,  0, 0, 0, False) /* Create Tiny's Head (46288) for ContainTreasure */
-     , (46299, 9, 49534,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (125) (49534) for ContainTreasure */
-     , (46299, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
-     , (46299, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
-     , (46299, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
-     , (46299, 9, 45117,  0, 0, 0, False) /* Create Frost Hammer (45117) for ContainTreasure */
-     , (46299, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
-     , (46299, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */;
+VALUES (46299, 9, 46288,  0, 0, 1, False) /* Create Tiny's Head (46288) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (46299,  5 /* HeartBeat */,  0.085, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
