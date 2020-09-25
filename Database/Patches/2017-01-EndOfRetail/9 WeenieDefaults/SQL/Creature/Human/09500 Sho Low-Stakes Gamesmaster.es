@@ -104,7 +104,7 @@ Give: 44715, Probability: 0.7804
 Give: 44715, Probability: 0.7891
     - TurnToTarget
     - Delay: 1, Tell: Let's see what the Great Lady of Chance and Possibility has in store for you!
-    - Give: 36510
+    - Give: 43187
 
 Give: 44715, Probability: 0.8007
     - TurnToTarget
