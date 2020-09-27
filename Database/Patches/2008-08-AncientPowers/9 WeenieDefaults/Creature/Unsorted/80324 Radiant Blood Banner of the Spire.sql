@@ -15,7 +15,7 @@ VALUES (80324,   1,         16) /* ItemType - Creature */
      , (80324,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (80324,  81,          1) /* MaxGeneratedObjects */
      , (80324,  82,          0) /* InitGeneratedObjects */
-     , (80324,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (80324,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (80324,  95,          3) /* RadarBlipColor - White */
      , (80324, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (80324, 103,          2) /* GeneratorDestructionType - Destroy */
