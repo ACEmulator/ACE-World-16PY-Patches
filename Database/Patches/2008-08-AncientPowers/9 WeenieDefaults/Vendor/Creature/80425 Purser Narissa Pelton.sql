@@ -44,8 +44,8 @@ VALUES (80425,   1,       5) /* HeartbeatInterval */
      , (80425,  17,     0.4) /* ArmorModVsFire */
      , (80425,  18,       1) /* ArmorModVsAcid */
      , (80425,  19,     0.6) /* ArmorModVsElectric */
-     , (80425,  37,     0.9) /* BuyPrice */
-     , (80425,  38,    1.35) /* SellPrice */
+     , (80425,  37,     0.6) /* BuyPrice */
+     , (80425,  38,    1.15) /* SellPrice */
      , (80425,  54,       5) /* UseRadius */
      , (80425,  64,       1) /* ResistSlash */
      , (80425,  65,       1) /* ResistPierce */
@@ -100,28 +100,20 @@ VALUES (80425,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (80425,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (80425,  2 /* Vendor */,    0.8, NULL, NULL, NULL, NULL, 1 /* Open */, NULL, NULL);
+VALUES (80425,  2 /* Vendor */,    1.0, NULL, NULL, NULL, NULL, 1 /* Open */, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Welcome to the South Holtburg supply store!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I''ve got what you need.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (80425,  2 /* Vendor */,    0.5, NULL, NULL, NULL, NULL, 2 /* Close */, NULL, NULL);
+VALUES (80425,  2 /* Vendor */,    1.0, NULL, NULL, NULL, NULL, 2 /* Close */, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Thank you very much. By the way, the town of Holtburg is directly to the north. Many merchants are there.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (80425,  2 /* Vendor */,      1, NULL, NULL, NULL, NULL, 2 /* Close */, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Thank you. If you''re new here, go through the Training Academy, and then go to Holtburg, to the north.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Thank you very much.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (80425,  2 /* Vendor */,    0.4, NULL, NULL, NULL, NULL, 3 /* Sell */, NULL, NULL);
@@ -176,13 +168,6 @@ VALUES (80425, 2,   130,  0, 7, 0.33, False) /* Create Shirt (130) for Wield */
      , (80425, 2,   117,  0, 8, 1, False) /* Create Breeches (117) for Wield */
      , (80425, 2,  2606,  0, 4, 0.6, False) /* Create Boots (2606) for Wield */
      , (80425, 2, 10696,  0, 4, 0.8, False) /* Create Apron (10696) for Wield */
-     , (80425, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
-     , (80425, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
-     , (80425, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
-     , (80425, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
-     , (80425, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff (22168) for Shop */
-     , (80425, 4,   352, -1, 0, 0, False) /* Create Short Sword (352) for Shop */
-     , (80425, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
      , (80425, 4,   551, -1, 0, 0, False) /* Create Leather Basinet (551) for Shop */
      , (80425, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
      , (80425, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
@@ -196,22 +181,32 @@ VALUES (80425, 2,   130,  0, 7, 0.33, False) /* Create Shirt (130) for Wield */
      , (80425, 4,    81, -1, 0, 0, False) /* Create Leather Leggings (81) for Shop */
      , (80425, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
      , (80425, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
-     , (80425, 4,   307, -1, 0, 0, False) /* Create Shortbow (307) for Shop */
+     , (80425, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
      , (80425, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
-     , (80425, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
-     , (80425, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
-     , (80425, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
-     , (80425, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
-     , (80425, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
-     , (80425, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
+     , (80425, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
+     , (80425, 4,   312, -1, 0, 0, False) /* Create Light Crossbow (312) for Shop */
+     , (80425, 4,   307, -1, 0, 0, False) /* Create Shortbow (307) for Shop */
+     , (80425, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
+     , (80425, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts (15298) for Shop */
+     , (80425, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
+     , (80425, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails (23858) for Shop */
+     , (80425, 4, 38779, -1, 0, 0, False) /* Create Wrapped Bundle of Raider Lightning Arrowheads (38779) for Shop */
      , (80425, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (80425, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (80425, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (80425, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
-     , (80425, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (80425, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (80425, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
      , (80425, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (80425, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (80425, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
-     , (80425, 4,   136, -1, 8, 1, False) /* Create Pack (136) for Shop */
-     , (80425, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */;
+     , (80425, 4,   136, -1, 61, 0, False) /* Create Pack (136) for Shop */
+     , (80425, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (80425, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (80425, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
+     , (80425, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (80425, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (80425, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (80425, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
+     , (80425, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */
+     , (80425, 4, 38794, -1, 0, 0, False) /* Create Black Market Health Elixir (38794) for Shop */
+     , (80425, 4, 38795, -1, 0, 0, False) /* Create Black Market Mana Elixir (38795) for Shop */;
