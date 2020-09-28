@@ -49,7 +49,7 @@ VALUES (80424,   1,       5) /* HeartbeatInterval */
      , (80424,  18,       1) /* ArmorModVsAcid */
      , (80424,  19,     0.6) /* ArmorModVsElectric */
      , (80424,  37,     0.8) /* BuyPrice */
-     , (80424,  38,     1.1) /* SellPrice */
+     , (80424,  38,    1.05) /* SellPrice */
      , (80424,  54,       3) /* UseRadius */
      , (80424,  64,       1) /* ResistSlash */
      , (80424,  65,       1) /* ResistPierce */
@@ -107,36 +107,20 @@ VALUES (80424,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (80424,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (80424,  2 /* Vendor */,    0.4, NULL, NULL, NULL, NULL, 1 /* Open */, NULL, NULL);
+VALUES (80424,  2 /* Vendor */,    1.0, NULL, NULL, NULL, NULL, 1 /* Open */, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Welcome to my lonely tower.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Welcome to my shop. Don''t break anything.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (80424,  2 /* Vendor */,    0.8, NULL, NULL, NULL, NULL, 1 /* Open */, NULL, NULL);
+VALUES (80424,  2 /* Vendor */,    1.0, NULL, NULL, NULL, NULL, 2 /* Close */, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'How can this tired mage help you?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (80424,  2 /* Vendor */,    0.4, NULL, NULL, NULL, NULL, 2 /* Close */, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Travel with care in this land...Golems are coming in from the west.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (80424,  2 /* Vendor */,    0.8, NULL, NULL, NULL, NULL, 2 /* Close */, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Walk softly in these parts. Golems have keen senses and will attack on sight.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Thanks for shopping.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (80424,  2 /* Vendor */,    0.6, NULL, NULL, NULL, NULL, 3 /* Sell */, NULL, NULL);
@@ -199,6 +183,7 @@ VALUES (80424, 2,  5914,  0, 93, 0, False) /* Create Suikan Item Master Robe (59
      , (80424, 4,   687, -1, 0, 0, False) /* Create Gold Scarab (687) for Shop */
      , (80424, 4,   690, -1, 0, 0, False) /* Create Pyreal Scarab (690) for Shop */
      , (80424, 4,  8897, -1, 0, 0, False) /* Create Platinum Scarab (8897) for Shop */
+     , (80424, 4, 37155, -1, 0, 0, False) /* Create Mana Scarab (37155) for Shop */
      , (80424, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
      , (80424, 4,   774, -1, 0, 0, False) /* Create Hyssop (774) for Shop */
      , (80424, 4,   775, -1, 0, 0, False) /* Create Mandrake (775) for Shop */
@@ -282,22 +267,6 @@ VALUES (80424, 2,  5914,  0, 93, 0, False) /* Create Suikan Item Master Robe (59
      , (80424, 4, 20179, -1, 0, 0, False) /* Create Superb Mana Charge (20179) for Shop */
      , (80424, 4,  9060, -1, 0, 0, False) /* Create Titan Mana Charge (9060) for Shop */
      , (80424, 4, 27329, -1, 0, 0, False) /* Create Massive Mana Charge (27329) for Shop */
-     , (80424, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (80424, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (80424, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (80424, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
-     , (80424, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
-     , (80424, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
-     , (80424, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (80424, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
-     , (80424, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (80424, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (80424, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
-     , (80424, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
-     , (80424, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
-     , (80424, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
-     , (80424, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
-     , (80424, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (80424, 4,  8329, -1, 0, 0, False) /* Create Lead Pea (8329) for Shop */
      , (80424, 4,  8328, -1, 0, 0, False) /* Create Iron Pea (8328) for Shop */
      , (80424, 4,  8326, -1, 0, 0, False) /* Create Copper Pea (8326) for Shop */
@@ -373,18 +342,35 @@ VALUES (80424, 2,  5914,  0, 93, 0, False) /* Create Suikan Item Master Robe (59
      , (80424, 4,  8356, -1, 0, 0, False) /* Create White Pea (8356) for Shop */
      , (80424, 4,  8349, -1, 0, 0, False) /* Create Grey Pea (8349) for Shop */
      , (80424, 4,  8283, -1, 0, 0, False) /* Create Splitting Tool (8283) for Shop */
-     , (80424, 4,  9342, -1, 0, 0, False) /* Create Concentrated Aqua Incanta (9342) for Shop */
+     , (80424, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
+     , (80424, 4, 41424, -1, 0, 0, False) /* Create Refining Polish (Mana) (41424) for Shop */
+     , (80424, 4, 41425, -1, 0, 0, False) /* Create Refining Polish (Stamina) (41425) for Shop */
+     , (80424, 4,  4747, -1, 0, 0, False) /* Create Alembic (4747) for Shop */
+     , (80424, 4,  4748, -1, 0, 0, False) /* Create Aqua Incanta (4748) for Shop */
+     , (80424, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (80424, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
+     , (80424, 4,  9342, -1, 0, 0, False) /* Create Concentrated Aqua Incanta (9342) for Shop */
      , (80424, 4,  9379, -1, 0, 0, False) /* Create Eye Dropper (9379) for Shop */
-     , (80424, 4,  5540, -1, 0, 0, False) /* Create Wand (5540) for Shop */
+     , (80424, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (80424, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (80424, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (80424, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
+     , (80424, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
+     , (80424, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
+     , (80424, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (80424, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (80424, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (80424, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (80424, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (80424, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (80424, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (80424, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (80424, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (80424, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (80424, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (80424, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (80424, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
-     , (80424, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
-     , (80424, 4,  5917, -1, 0, 0, False) /* Create Suikan Creature Master Robe (5917) for Shop */
-     , (80424, 4,  5914, -1, 0, 0, False) /* Create Suikan Item Master Robe (5914) for Shop */
-     , (80424, 4,  5908, -1, 0, 0, False) /* Create Suikan Life Master Robe (5908) for Shop */
-     , (80424, 4,  5911, -1, 0, 0, False) /* Create Suikan War Master Robe (5911) for Shop */
-     , (80424, 4,  8982, -1, 0, 0, False) /* Create Shoyanen's Portal Gem (8982) for Shop */
+     , (80424, 4, 38796, -1, 0, 0, False) /* Create Pursuit Orb (38796) for Shop */
      , (80424, 4,  8973, -1, 0, 0, False) /* Create Al-Arqas Portal Gem (8973) for Shop */
      , (80424, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
      , (80424, 4,  8977, -1, 0, 0, False) /* Create Lytelthorpe Portal Gem (8977) for Shop */
@@ -393,4 +379,5 @@ VALUES (80424, 2,  5914,  0, 93, 0, False) /* Create Suikan Item Master Robe (59
      , (80424, 4,  8980, -1, 0, 0, False) /* Create Samsur Portal Gem (8980) for Shop */
      , (80424, 4,  8981, -1, 0, 0, False) /* Create Shoushi Portal Gem (8981) for Shop */
      , (80424, 4,  8983, -1, 0, 0, False) /* Create Yanshi Portal Gem (8983) for Shop */
-     , (80424, 4,  8984, -1, 0, 0, False) /* Create Yaraq Portal Gem (8984) for Shop */;
+     , (80424, 4,  8984, -1, 0, 0, False) /* Create Yaraq Portal Gem (8984) for Shop */
+     , (80424, 4, 38726, -1, 0, 0, False) /* Create Black Market Gem of Dispelling (38726) for Shop */;
