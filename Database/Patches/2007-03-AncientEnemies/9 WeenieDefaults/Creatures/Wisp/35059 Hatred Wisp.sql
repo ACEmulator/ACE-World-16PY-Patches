@@ -65,7 +65,8 @@ VALUES (35059,   1,       5) /* HeartbeatInterval */
      , (35059, 125,       0) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35059,   1, 'Hatred Wisp') /* Name */;
+VALUES (35059,   1, 'Hatred Wisp') /* Name */
+	  , (35059,  45, 'KilltaskGraveyardWisp_1309');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35059,   1,   33556955) /* Setup */
@@ -106,21 +107,41 @@ VALUES (35059,  0, 32, 150,  0.5,  300,  300,  300,  150,  150, 3000,  192,  150
      , (35059, 21, 32,   0,    0,  300,  300,  300,  150,  150, 3000,  192,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35059,    80,    2.3)  /* Lightning Bolt VI */
-     , (35059,    85,    2.3)  /* Flame Bolt VI */
-     , (35059,   176,  2.067)  /* Fester Other VI */
-     , (35059,   199,  2.067)  /* Exhaustion Other VI */
-     , (35059,   223,  2.067)  /* Mana Depletion Other VI */
-     , (35059,  1161,      2)  /* Heal Self VI */
-     , (35059,  1176,  2.067)  /* Harm Other VI */
-     , (35059,  1200,  2.067)  /* Enfeeble Other VI */
-     , (35059,  1224,  2.067)  /* Mana Drain Other VI */
-     , (35059,  1242,      2)  /* Drain Health Other VI */
-     , (35059,  1254,      2)  /* Drain Stamina Other VI */
-     , (35059,  1265,      2)  /* Drain Mana Other VI */;
+VALUES (35059,  2745,    2.3)  /* Flame Arc VII */
+     , (35059,  2128,    2.3)  /* Ilservian's Flame */
+     , (35059,  2127,  2.067)  /* Silencia's Scorn */
+     , (35059,  2129,  2.067)  /* Sizzling Fury */
+     , (35059,  1161,      2)  /* Heal Self VI */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35059, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (35059, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (35059, 9, 35504,  0, 0, 0.06, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
-     , (35059, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */;
+     , (35059, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
+     , (35059, 9, 37247,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37248,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37249,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37250,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37251,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37252,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37253,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37254,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37255,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37256,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37257,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37258,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37259,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37234,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37235,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37236,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37237,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37238,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37239,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37240,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37241,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37242,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37243,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37244,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37245,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9, 37246,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35059, 9,     0,  0, 0, 0.675, False) /* Create nothing for ContainTreasure */;

@@ -49,8 +49,8 @@ VALUES (35099,   1,       5) /* HeartbeatInterval */
      , (35099,  36,       1) /* ChargeSpeed */
      , (35099,  64,    0.58) /* ResistSlash */
      , (35099,  65,    0.25) /* ResistPierce */
-     , (35099,  66,    1.58) /* ResistBludgeon */
-     , (35099,  67,     0.9) /* ResistFire */
+     , (35099,  66,     0.9) /* ResistBludgeon */
+     , (35099,  67,    0.89) /* ResistFire */
      , (35099,  68,     0.3) /* ResistCold */
      , (35099,  69,    0.42) /* ResistAcid */
      , (35099,  70,     0.4) /* ResistElectric */
@@ -65,7 +65,8 @@ VALUES (35099,   1,       5) /* HeartbeatInterval */
      , (35099, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35099,   1, 'Pyre Minion') /* Name */;
+VALUES (35099,   1, 'Pyre Minion') /* Name */
+	  , (35099,  45, 'KilltaskGraveyardSkeleton_1309');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35099,   1,   33554521) /* Setup */
@@ -130,4 +131,33 @@ VALUES (35099, 9, 38714,  0, 0, 0.085, False) /* Create Pyre Skeleton Jaw (38714
      , (35099, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
      , (35099, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (35099, 9, 35105,  0, 0, 0.06, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (35099, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */;
+     , (35099, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
+     , (35099, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
+     , (35099, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
+     , (35099, 9, 37247,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37248,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37249,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37250,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37251,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37252,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37253,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37254,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37255,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37256,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37257,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37258,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37259,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37234,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37235,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37236,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37237,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37238,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37239,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37240,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37241,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37242,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37243,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37244,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37245,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9, 37246,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (35099, 9,     0,  0, 0, 0.675, False) /* Create nothing for ContainTreasure */;

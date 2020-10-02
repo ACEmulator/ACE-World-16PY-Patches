@@ -50,8 +50,8 @@ VALUES (41963,   1,       5) /* HeartbeatInterval */
      , (41963,  36,       1) /* ChargeSpeed */
      , (41963,  64,    0.58) /* ResistSlash */
      , (41963,  65,    0.25) /* ResistPierce */
-     , (41963,  66,    1.58) /* ResistBludgeon */
-     , (41963,  67,     0.9) /* ResistFire */
+     , (41963,  66,    0.88) /* ResistBludgeon */
+     , (41963,  67,    0.65) /* ResistFire */
      , (41963,  68,     0.3) /* ResistCold */
      , (41963,  69,    0.42) /* ResistAcid */
      , (41963,  70,     0.4) /* ResistElectric */
@@ -66,7 +66,8 @@ VALUES (41963,   1,       5) /* HeartbeatInterval */
      , (41963, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41963,   1, 'Pyre Skeleton') /* Name */;
+VALUES (41963,   1, 'Pyre Skeleton') /* Name */
+	  , (41963,  45, 'KilltaskGraveyardSkeleton_1309');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41963,   1,   33560230) /* Setup */
@@ -80,26 +81,26 @@ VALUES (41963,   1,   33560230) /* Setup */
      , (41963,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (41963,   1, 302, 0, 0) /* Strength */
-     , (41963,   2, 318, 0, 0) /* Endurance */
-     , (41963,   3, 385, 0, 0) /* Quickness */
-     , (41963,   4, 318, 0, 0) /* Coordination */
-     , (41963,   5, 318, 0, 0) /* Focus */
-     , (41963,   6, 362, 0, 0) /* Self */;
+VALUES (41963,   1, 500, 0, 0) /* Strength */
+     , (41963,   2, 500, 0, 0) /* Endurance */
+     , (41963,   3, 350, 0, 0) /* Quickness */
+     , (41963,   4, 350, 0, 0) /* Coordination */
+     , (41963,   5, 300, 0, 0) /* Focus */
+     , (41963,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41963,   1,  3341, 0, 0, 3500) /* MaxHealth */
-     , (41963,   3,  3600, 0, 0, 3918) /* MaxStamina */
-     , (41963,   5,  2700, 0, 0, 3062) /* MaxMana */;
+VALUES (41963,   1,  6600, 0, 0, 6850) /* MaxHealth */
+     , (41963,   3,  3600, 0, 0, 4100) /* MaxStamina */
+     , (41963,   5,  2700, 0, 0, 3000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (41963,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
-     , (41963,  7, 0, 3, 0, 377, 0, 0) /* MissileDefense      Specialized */
-     , (41963, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
-     , (41963, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
-     , (41963, 33, 0, 3, 0, 260, 0, 0) /* LifeMagic           Specialized */
-     , (41963, 34, 0, 3, 0, 260, 0, 0) /* WarMagic            Specialized */
-     , (41963, 45, 0, 3, 0, 345, 0, 0) /* LightWeapons        Specialized */;
+VALUES (41963,  6, 0, 3, 0, 333, 0, 0) /* MeleeDefense        Specialized */
+     , (41963,  7, 0, 3, 0, 240, 0, 0) /* MissileDefense      Specialized */
+     , (41963, 15, 0, 3, 0, 186, 0, 0) /* MagicDefense        Specialized */
+     , (41963, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
+     , (41963, 33, 0, 3, 0, 250, 0, 0) /* LifeMagic           Specialized */
+     , (41963, 34, 0, 3, 0, 250, 0, 0) /* WarMagic            Specialized */
+     , (41963, 45, 0, 3, 0, 383, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (41963,  0,  4,   0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -134,4 +135,31 @@ VALUES (41963, 2, 35095,  1, 0, 0, False) /* Create Pyre Claw (35095) for Wield 
      , (41963, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
      , (41963, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (41963, 9, 35504,  0, 0, 0.06, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
-     , (41963, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */;
+     , (41963, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
+     , (41963, 9, 37247,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37248,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37249,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37250,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37251,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37252,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37253,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37254,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37255,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37256,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37257,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37258,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37259,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37234,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37235,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37236,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37237,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37238,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37239,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37240,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37241,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37242,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37243,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37244,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37245,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9, 37246,  0, 0, 0.0125, False) /* Create JesterCard for ContainTreasure */
+     , (41963, 9,     0,  0, 0, 0.675, False) /* Create nothing for ContainTreasure */;
