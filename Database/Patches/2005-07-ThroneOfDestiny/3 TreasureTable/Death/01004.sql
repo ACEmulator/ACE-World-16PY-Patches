@@ -1,2 +1,2 @@
 INSERT INTO `treasure_death` (`treasure_Type`, `tier`, `loot_Quality_Mod`, `unknown_Chances`, `item_Chance`, `item_Min_Amount`, `item_Max_Amount`, `item_Treasure_Type_Selection_Chances`, `magic_Item_Chance`, `magic_Item_Min_Amount`, `magic_Item_Max_Amount`, `magic_Item_Treasure_Type_Selection_Chances`, `mundane_Item_Chance`, `mundane_Item_Min_Amount`, `mundane_Item_Max_Amount`, `mundane_Item_Type_Selection_Chances`, `last_Modified`)
-VALUES (1004, 7, 0.3, 0.25, 0, 0, 0, 10, 100, 6, 7, 10, 0, 0, 0, 10, '2019-05-10 00:00:00');
+VALUES (1004, 7, 0.3, 19, 0, 0, 0, 0, 100, 6, 7, 1, 0, 0, 0, 0, '2020-10-02 00:00:00');
