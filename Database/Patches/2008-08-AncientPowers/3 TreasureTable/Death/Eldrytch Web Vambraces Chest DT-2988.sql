@@ -5,17 +5,17 @@ VALUES (2988 	/* id */
 	 , 2988		/* treasure_Type */
 	 , 8		/* tier */
 	 , 0		/* loot_Quality_Mod */
-	 , 0		/* unknown_Chances */
-	 , 100		/* item_Chance */
+	 , 23		/* unknown_Chances */
+	 , 0		/* item_Chance */
 	 , 0		/* item_Min_Amount */
 	 , 0		/* item_Max_Amount */
-	 , 9		/* item_Treasure_Type_Selection_Chances */
+	 , 0		/* item_Treasure_Type_Selection_Chances */
 	 , 100		/* magic_Item_Chance */
 	 , 2		/* magic_Item_Min_Amount */
 	 , 2		/* magic_Item_Max_Amount */
-	 , 8		/* magic_Item_Treasure_Type_Selection_Chances */
-	 , 100		/* mundane_Item_Chance */
+	 , 20		/* magic_Item_Treasure_Type_Selection_Chances */
+	 , 0		/* mundane_Item_Chance */
 	 , 0		/* mundane_Item_Min_Amount */
 	 , 0		/* mundane_Item_Max_Amount */
-	 , 7		/* mundane_Item_Type_Selection_Chances */
-	 , '2020-07-31 12:00:00');		/* last_Modified */
+	 , 0		/* mundane_Item_Type_Selection_Chances */
+	 , '2020-10-02 12:00:00');		/* last_Modified */
