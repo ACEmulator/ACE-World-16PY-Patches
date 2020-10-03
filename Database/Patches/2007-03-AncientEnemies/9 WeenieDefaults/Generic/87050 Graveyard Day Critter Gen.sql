@@ -8,7 +8,7 @@ VALUES (87050,  81,          7) /* MaxGeneratedObjects */
      , (87050,  82,          7) /* InitGeneratedObjects */
      , (87050,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87050, 142,          5) /* GeneratorTimeType - Day */
-     , (87050, 145,          3) /* GeneratorEndDestructionType - Kill */;
+     , (87050, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87050,   1, True ) /* Stuck */
