@@ -32,7 +32,7 @@ VALUES
       100,      /* magic_Item_Chance */
         4,      /* magic_Item_Min_Amount */
         5,      /* magic_Item_Max_Amount */
-        8,      /* magic_Item_Treasure_Type_Selection_Chances */
+       23,      /* magic_Item_Treasure_Type_Selection_Chances */
       100,      /* mundane_Item_Chance */
         0,      /* mundane_Item_Min_Amount */
         0,      /* mundane_Item_Max_Amount */
