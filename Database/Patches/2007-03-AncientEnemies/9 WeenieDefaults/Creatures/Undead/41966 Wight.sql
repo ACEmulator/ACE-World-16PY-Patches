@@ -125,7 +125,6 @@ VALUES (41966,  31, 0, 2, 0, 310, 0, 0) /* CreatureMagic */
      , (41966,   6, 0, 2, 0, 340, 0, 0) /* MeleeDefense */
      , (41966,   7, 0, 2, 0, 244, 0, 0) /* MissileDefense */
      , (41966,  41, 0, 2, 0, 403, 0, 0) /* TwoHanded */
-     , (41966,  43, 0, 2, 0, 310, 0, 0) /* VoidMagic */
      , (41966,  34, 0, 2, 0, 310, 0, 0) /* WarMagic */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

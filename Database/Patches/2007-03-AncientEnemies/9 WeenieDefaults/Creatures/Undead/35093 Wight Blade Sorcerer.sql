@@ -102,16 +102,12 @@ VALUES (35093,  1786,   2.02)  /* Nuhmudira's Spines */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (35093,  31, 0, 2, 0, 340, 0, 0) /* CreatureMagic */
-     , (35093,  46, 0, 2, 0, 333, 0, 0) /* FinesseWeapons */
-     , (35093,  44, 0, 2, 0, 343, 0, 0) /* HeavyWeapons */
      , (35093,  33, 0, 2, 0, 340, 0, 0) /* LifeMagic */
      , (35093,  45, 0, 2, 0, 343, 0, 0) /* LightWeapons */
      , (35093,  15, 0, 2, 0, 237, 0, 0) /* MagicDefense */
      , (35093,  16, 0, 2, 0, 260, 0, 0) /* ManaConversion */
      , (35093,   6, 0, 2, 0, 333, 0, 0) /* MeleeDefense */
      , (35093,   7, 0, 2, 0, 240, 0, 0) /* MissileDefense */
-     , (35093,  41, 0, 2, 0, 343, 0, 0) /* TwoHanded */
-     , (35093,  43, 0, 2, 0, 340, 0, 0) /* VoidMagic */
      , (35093,  34, 0, 2, 0, 340, 0, 0) /* WarMagic */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

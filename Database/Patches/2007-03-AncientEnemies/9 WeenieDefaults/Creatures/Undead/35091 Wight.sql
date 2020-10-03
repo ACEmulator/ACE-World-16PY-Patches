@@ -14,8 +14,7 @@ VALUES (35091,   1,      16) /* ItemType - Creature */
      , (35091,  93,    1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35091, 101,     183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (35091, 133,       2) /* ShowableOnRadar - ShowMovement */
-     , (35091, 146, 1400000) /* XpOverride */
-     , (35091, 307,       5) /* DamageRating */;
+     , (35091, 146, 1400000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35091,   1, True ) /* Stuck */
@@ -118,7 +117,6 @@ VALUES (35091,  31, 0, 2, 0, 310, 0, 0) /* CreatureMagic */
      , (35091,   6, 0, 2, 0, 340, 0, 0) /* MeleeDefense */
      , (35091,   7, 0, 2, 0, 244, 0, 0) /* MissileDefense */
      , (35091,  41, 0, 2, 0, 403, 0, 0) /* TwoHanded */
-     , (35091,  43, 0, 2, 0, 310, 0, 0) /* VoidMagic */
      , (35091,  34, 0, 2, 0, 310, 0, 0) /* WarMagic */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

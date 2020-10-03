@@ -98,6 +98,19 @@ VALUES (41968,  1784,   2.02)  /* Horizon's Blades */
      , (41968,  4422,   2.02)  /* Incantation of Blade Arc */
      , (41968,  4475,   2.02)  /* Incantation of Blade Vulnerability Other */;
 
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (41968,  31, 0, 2, 0, 310, 0, 0) /* CreatureMagic */
+     , (41968,  46, 0, 2, 0, 363, 0, 0) /* FinesseWeapons */
+     , (41968,  44, 0, 2, 0, 417, 0, 0) /* HeavyWeapons */
+     , (41968,  33, 0, 2, 0, 310, 0, 0) /* LifeMagic */
+     , (41968,  45, 0, 2, 0, 417, 0, 0) /* LightWeapons */
+     , (41968,  15, 0, 2, 0, 220, 0, 0) /* MagicDefense */
+     , (41968,  16, 0, 2, 0, 240, 0, 0) /* ManaConversion */
+     , (41968,  6, 0, 2, 0,  363, 0, 0) /* MeleeDefense */
+     , (41968,  7, 0, 2, 0,  258, 0, 0) /* MissileDefense */
+     , (41968,  41, 0, 2, 0, 417, 0, 0) /* TwoHanded */
+     , (41968,  34, 0, 2, 0, 310, 0, 0) /* WarMagic */;
+     
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41968, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (41968, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */

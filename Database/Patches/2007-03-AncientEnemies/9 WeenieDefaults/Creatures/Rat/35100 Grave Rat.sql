@@ -88,18 +88,10 @@ VALUES (35100,  0,  2,  2, 0.75,    8,    8,    4,    4,    8,    3,    6,    6,
      , (35100, 17,  4,  0,    0,    8,    8,    4,    4,    8,    3,    6,    6,    0, 3,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25) /* Tail */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (35100,  31, 0, 2, 0, 149, 0, 0) /* CreatureMagic */
-     , (35100,  46, 0, 2, 0, 553, 0, 0) /* FinesseWeapons */
-     , (35100,  44, 0, 2, 0, 553, 0, 0) /* HeavyWeapons */
-     , (35100,  33, 0, 2, 0, 149, 0, 0) /* LifeMagic */
-     , (35100,  45, 0, 2, 0, 553, 0, 0) /* LightWeapons */
+VALUES (35100,  45, 0, 2, 0, 553, 0, 0) /* LightWeapons */
      , (35100,  15, 0, 2, 0, 170, 0, 0) /* MagicDefense */
-     , (35100,  16, 0, 2, 0, 149, 0, 0) /* ManaConversion */
      , (35100,  6, 0, 2, 0, 522, 0, 0) /* MeleeDefense */
-     , (35100,  7, 0, 2, 0, 149, 0, 0) /* MissileDefense */
-     , (35100,  41, 0, 2, 0, 553, 0, 0) /* TwoHanded */
-     , (35100,  43, 0, 2, 0, 149, 0, 0) /* VoidMagic */
-     , (35100,  34, 0, 2, 0, 149, 0, 0) /* WarMagic */;
+     , (35100,  7, 0, 2, 0, 149, 0, 0) /* MissileDefense */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35100, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
