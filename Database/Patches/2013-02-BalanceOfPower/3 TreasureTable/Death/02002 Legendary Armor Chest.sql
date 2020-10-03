@@ -38,4 +38,3 @@ VALUES
         0,      /* mundane_Item_Max_Amount */
         0,      /* mundane_Item_Type_Selection_Chances */
         '2020-10-02 14:00:00'); /* last_Modified */
-        
