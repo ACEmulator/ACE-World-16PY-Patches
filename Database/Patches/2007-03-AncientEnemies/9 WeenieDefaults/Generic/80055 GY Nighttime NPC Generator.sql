@@ -29,4 +29,5 @@ VALUES (80055,   1,   33555051) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (80055, -1, 35106, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Shade of Parieth (35106) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (80055, -1, 35487, 10, 1, 1, 1, 4, -1, 0, 0, 1210908932, 84.1422, 137.669, -14.794, 1, 0, 0, 0) /* Generate Hurnmel the Smith (35487) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+	  , (80055,   -1, 35251, 300, 1, 1, 1, 4, -1, 0, 0, 1210908931, 89.602600, 129.944000, -9.600000, 1, 0, 0, 0) /* Generate Exhumed Pile of Bones  (x1 up to max of 1) - Regenerate upon Destruction */
+	  , (80055,   -1, 35251, 300, 1, 1, 1, 4, -1, 0, 0, 1210908961, 59.826300, 77.132200, -0.345000, 1, 0, 0, 0) /* Generate Exhumed Pile of Bones  (x1 up to max of 1) - Regenerate upon Destruction */;
