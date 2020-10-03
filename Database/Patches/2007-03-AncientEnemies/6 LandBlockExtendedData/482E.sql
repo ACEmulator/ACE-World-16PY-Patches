@@ -39,7 +39,3 @@ VALUES (0x7482E391, 37145, 0x482E010F, 67.6864, 51.5625, -0.3939998, 0.890664, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7482E3C8, 37493, 0x482E0031, 146.729, 21.1568, 67.99875, 0.9205227, 0, 0, 0.3906889,  True, '2019-02-10 00:00:00'); /* Jester's Marbles */
 /* @teleloc 0x482E0031 [146.729000 21.156800 67.998750] 0.920523 0.000000 0.000000 0.390689 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7482E3CB, 31445, 0x482E003C, 190.1212, 80.06092, 67.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
-/* @teleloc 0x482E003C [190.121200 80.060920 67.997840] 1.000000 0.000000 0.000000 0.000000 */
