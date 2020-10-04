@@ -10,19 +10,13 @@ VALUES (44982,   1,          4) /* ItemType - Clothing */
      , (44982,   9,  134217728) /* ValidLocations - Cloak */
      , (44982,  16,          1) /* ItemUseable - No */
      , (44982,  19,         15) /* Value */
-     , (44982,  28,          0) /* ArmorLevel */
-     , (44982,  36,       9999) /* ResistMagic */
-	 , (44982,  53,        101) /* Placement Position */
      , (44982,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44982, 158,          7) /* WieldRequirements - Level */
      , (44982, 159,          1) /* Wield Skill Type */
 	 , (44982, 160,          1) /* Wield Difficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44982,  11, True ) /* Ignore Collisions */
-     , (44982,  13, True ) /* Ethereal */
-	 , (44982,  14, True ) /* Gravity Status */
-	 , (44982,  19, True ) /* Attackable */
+VALUES (44982,  19, True ) /* Attackable */
      , (44982,  22, True ) /* Inscribable */
      , (44982, 100, False) /* Dyable */;
 
