@@ -19,7 +19,7 @@ VALUES (41049,   1,          1) /* ItemType - MeleeWeapon */
      , (41049,  49,         50) /* WeaponTime */
      , (41049,  51,          5) /* CombatUse - TwoHanded */
      , (41049,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41049, 169,  101189642) /* TsysMutationData */
+     , (41049, 169,  285739018) /* TsysMutationData */
      , (41049, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

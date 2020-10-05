@@ -23,7 +23,7 @@ VALUES (312,   1,        256) /* ItemType - MissileWeapon */
      , (312,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (312, 150,        103) /* HookPlacement - Hook */
      , (312, 151,          2) /* HookType - Wall */
-     , (312, 169,  101188618) /* TsysMutationData */
+     , (312, 169,  285737994) /* TsysMutationData */
      , (312, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

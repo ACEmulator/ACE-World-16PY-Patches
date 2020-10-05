@@ -17,7 +17,7 @@ VALUES (132,   1,          4) /* ItemType - Clothing */
      , (132,  44,          1) /* Damage */
      , (132,  45,          4) /* DamageType - Bludgeon */
      , (132,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (132, 169,  184550670) /* TsysMutationData */;
+     , (132, 169,  301991182) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (132,  22, True ) /* Inscribable */

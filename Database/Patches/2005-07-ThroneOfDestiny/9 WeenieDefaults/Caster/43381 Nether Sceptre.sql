@@ -18,7 +18,7 @@ VALUES (43381,   1,      32768) /* ItemType - Caster */
      , (43381,  94,         16) /* TargetType - Creature */
      , (43381, 150,        103) /* HookPlacement - Hook */
      , (43381, 151,          2) /* HookType - Wall */
-     , (43381, 169,   84084483) /* TsysMutationData */
+     , (43381, 169,  318965507) /* TsysMutationData */
      , (43381, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

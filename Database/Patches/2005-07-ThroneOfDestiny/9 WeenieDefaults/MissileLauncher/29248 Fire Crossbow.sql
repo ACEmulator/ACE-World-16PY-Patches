@@ -25,7 +25,7 @@ VALUES (29248,   1,        256) /* ItemType - MissileWeapon */
      , (29248,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29248, 150,        103) /* HookPlacement - Hook */
      , (29248, 151,          2) /* HookType - Wall */
-     , (29248, 169,  101189386) /* TsysMutationData */
+     , (29248, 169,  285738762) /* TsysMutationData */
      , (29248, 204,          0) /* ElementalDamageBonus */
      , (29248, 353,          9) /* WeaponType - Crossbow */;
 

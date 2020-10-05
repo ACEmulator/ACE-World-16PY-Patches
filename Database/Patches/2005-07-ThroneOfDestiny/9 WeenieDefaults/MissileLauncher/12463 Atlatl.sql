@@ -22,7 +22,7 @@ VALUES (12463,   1,        256) /* ItemType - MissileWeapon */
      , (12463,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12463, 150,        103) /* HookPlacement - Hook */
      , (12463, 151,          2) /* HookType - Wall */
-     , (12463, 169,  101189386) /* TsysMutationData */
+     , (12463, 169,  285738762) /* TsysMutationData */
      , (12463, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

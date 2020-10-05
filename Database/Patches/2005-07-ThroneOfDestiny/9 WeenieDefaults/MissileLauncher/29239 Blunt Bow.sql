@@ -25,7 +25,7 @@ VALUES (29239,   1,        256) /* ItemType - MissileWeapon */
      , (29239,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29239, 150,        103) /* HookPlacement - Hook */
      , (29239, 151,          2) /* HookType - Wall */
-     , (29239, 169,  101187850) /* TsysMutationData */
+     , (29239, 169,  285737226) /* TsysMutationData */
      , (29239, 204,          0) /* ElementalDamageBonus */
      , (29239, 353,          8) /* WeaponType - Bow */;
 

@@ -14,7 +14,7 @@ VALUES (37209,   1,          2) /* ItemType - Armor */
      , (37209,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
 	 , (37209, 124,          3) /* Version */
      , (37209, 151,          2) /* HookType - Wall */
-     , (37209, 169,  168429060) /* TsysMutationData */;
+     , (37209, 169,  185206276) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37209,  22, True ) /* Inscribable */

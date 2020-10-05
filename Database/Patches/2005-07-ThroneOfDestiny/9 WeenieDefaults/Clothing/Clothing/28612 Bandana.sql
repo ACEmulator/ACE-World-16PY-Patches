@@ -17,7 +17,7 @@ VALUES (28612,   1,          4) /* ItemType - Clothing */
      , (28612,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28612, 150,        103) /* HookPlacement - Hook */
      , (28612, 151,          2) /* HookType - Wall */
-     , (28612, 169,  201326864) /* TsysMutationData */;
+     , (28612, 169,  218104080) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28612,  11, True ) /* IgnoreCollisions */

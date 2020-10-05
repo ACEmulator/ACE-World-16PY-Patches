@@ -17,7 +17,7 @@ VALUES (42753,   1,          2) /* ItemType - Armor */
      , (42753, 150,        103) /* HookPlacement - Hook */
      , (42753, 151,          2) /* HookType - Wall */
 	 , (42753, 124,          3) /* Version */
-     , (42753, 169,  252313860) /* TsysMutationData */;
+     , (42753, 169,  168427780) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42753,  22, True ) /* Inscribable */

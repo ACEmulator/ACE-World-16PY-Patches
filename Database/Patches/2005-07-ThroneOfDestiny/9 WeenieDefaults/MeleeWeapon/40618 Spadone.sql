@@ -18,7 +18,7 @@ VALUES (40618,   1,          1) /* ItemType - MeleeWeapon */
      , (40618,  49,         50) /* WeaponTime */
      , (40618,  51,          5) /* CombatUse - TwoHanded */
      , (40618,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (40618, 169,  101255170) /* TsysMutationData */
+     , (40618, 169,  285804546) /* TsysMutationData */
      , (40618, 292,          2) /* Cleaving */
      , (40618, 353,         11) /* WeaponType - TwoHanded */;
 

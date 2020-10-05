@@ -25,7 +25,7 @@ VALUES (30625,   1,        256) /* ItemType - MissileWeapon */
      , (30625, 151,          2) /* HookType - Wall */
      , (30625, 158,          2) /* WieldRequirements - RawSkill */
      , (30625, 159,         47) /* WieldSkillType - MissileWeapons */
-     , (30625, 169,  101188618) /* TsysMutationData */
+     , (30625, 169,  285737994) /* TsysMutationData */
      , (30625, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
