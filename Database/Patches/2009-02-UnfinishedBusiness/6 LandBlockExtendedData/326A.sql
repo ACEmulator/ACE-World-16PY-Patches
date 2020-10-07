@@ -5,7 +5,7 @@ VALUES (0x7326A003, 40156, 0x326A0032, 164.486, 35.9064, 299.937, -0.9995467, 0,
 /* @teleloc 0x326A0032 [164.486000 35.906400 299.937000] -0.999547 0.000000 0.000000 -0.030106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7326A004,  1154, 0x326A001A, 89.12437, 27.35135, 259.9979, 0.8660254, 0, 0, -0.5, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7326A004,  4219, 0x326A001A, 89.12437, 27.35135, 259.9979, 0.8660254, 0, 0, -0.5, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x326A001A [89.124370 27.351350 259.997900] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -117,11 +117,7 @@ VALUES (0x7326A031,  1542, 0x326A002A, 133.1599, 47.47628, 295.5621, 1, 0, 0, 0,
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7326A031, 0x7326A032, '2019-02-10 00:00:00') /* Crystal (40124) */
      , (0x7326A031, 0x7326A033, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x7326A031, 0x7326A034, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
-     , (0x7326A031, 0x7326A036, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
-     , (0x7326A031, 0x7326A037, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x7326A031, 0x7326A038, '2019-02-10 00:00:00') /* Rock (42528) */
-     , (0x7326A031, 0x7326A039, '2019-02-10 00:00:00') /* Bones (4380) */;
+     , (0x7326A031, 0x7326A037, '2019-02-10 00:00:00') /* Crystal (40124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326A032, 40124, 0x326A002A, 133.1599, 47.47628, 295.5621, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Crystal */
@@ -132,21 +128,5 @@ VALUES (0x7326A033, 40124, 0x326A0020, 76.18462, 191.7908, 300, 1, 0, 0, 0,  Tru
 /* @teleloc 0x326A0020 [76.184620 191.790800 300.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7326A034,  8644, 0x326A000E, 34.52046, 133.9798, 260, 0.02892623, 0, 0, -0.9995816,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */
-/* @teleloc 0x326A000E [34.520460 133.979800 260.000000] 0.028926 0.000000 0.000000 -0.999582 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7326A036,  8648, 0x326A001A, 88.32323, 42.8813, 260, 0.3668325, 0, 0, -0.930287,  True, '2019-02-10 00:00:00'); /* Argenory Plant */
-/* @teleloc 0x326A001A [88.323230 42.881300 260.000000] 0.366833 0.000000 0.000000 -0.930287 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326A037, 40124, 0x326A003E, 182.1718, 126.2583, 302.5215, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Crystal */
 /* @teleloc 0x326A003E [182.171800 126.258300 302.521500] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7326A038, 42528, 0x326A000E, 44.81041, 124.059, 259.9763, 0.02892623, 0, 0, -0.9995816,  True, '2019-02-10 00:00:00'); /* Rock */
-/* @teleloc 0x326A000E [44.810410 124.059000 259.976300] 0.028926 0.000000 0.000000 -0.999582 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7326A039,  4380, 0x326A0023, 101.8586, 48.69118, 281.825, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
-/* @teleloc 0x326A0023 [101.858600 48.691180 281.825000] 0.000000 0.000000 0.000000 -1.000000 */

@@ -237,7 +237,7 @@ VALUES (0x72E6C0BE, 43883, 0x2E6C031F, -188, 91.75, -17.6, 1, 0, 0, 0, False, '2
 /* @teleloc 0x2E6C031F [-188.000000 91.750000 -17.600000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E6C0BF,  1154, 0x2E6C02D3, -228.042, 106.298, -17.595, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x72E6C0BF,  4219, 0x2E6C02D3, -228.042, 106.298, -17.595, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x2E6C02D3 [-228.042000 106.298000 -17.595000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -1298,57 +1298,7 @@ VALUES (0x72E6C1A4,  1542, 0x2E6C0151, -233.136, 93.844, -35.6, -0.481561, 0, 0,
 /* @teleloc 0x2E6C0151 [-233.136000 93.844000 -35.600000] -0.481561 0.000000 0.000000 -0.876413 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6C1A4, 0x72E6C1A5, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1A6, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1A7, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1A8, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1A9, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1AA, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1AB, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1AC, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1AD, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1AE, '2019-02-10 00:00:00') /* Torch (293) */
-     , (0x72E6C1A4, 0x72E6C1AF, '2019-02-10 00:00:00') /* Essence Lock (40902) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E6C1A5,   293, 0x2E6C0151, -233.136, 93.844, -35.6, -0.481561, 0, 0, -0.876413,  True, '2019-02-10 00:00:00'); /* Torch */
-/* @teleloc 0x2E6C0151 [-233.136000 93.844000 -35.600000] -0.481561 0.000000 0.000000 -0.876413 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E6C1A6,   293, 0x2E6C0151, -241.745, 99.896, -35.6, -0.484411, 0, 0, -0.87484,  True, '2019-02-10 00:00:00'); /* Torch */
-/* @teleloc 0x2E6C0151 [-241.745000 99.896000 -35.600000] -0.484411 0.000000 0.000000 -0.874840 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E6C1A7,   293, 0x2E6C0192, -170.653, 97.925, -35.6, 0.897721, 0, 0, -0.440565,  True, '2019-02-10 00:00:00'); /* Torch */
-/* @teleloc 0x2E6C0192 [-170.653000 97.925000 -35.600000] 0.897721 0.000000 0.000000 -0.440565 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E6C1A8,   293, 0x2E6C0105, -263.911, 95.77, -48.12998, -0.934652, 0, 0, -0.355563,  True, '2019-02-10 00:00:00'); /* Torch */
-/* @teleloc 0x2E6C0105 [-263.911000 95.770000 -48.129980] -0.934652 0.000000 0.000000 -0.355563 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E6C1A9,   293, 0x2E6C0301, -207.075, 65.149, -17.6, -0.957928, 0, 0, 0.287008,  True, '2019-02-10 00:00:00'); /* Torch */
-/* @teleloc 0x2E6C0301 [-207.075000 65.149000 -17.600000] -0.957928 0.000000 0.000000 0.287008 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E6C1AA,   293, 0x2E6C02F1, -208.808, 124.903, -17.6, -0.986625, 0, 0, -0.163006,  True, '2019-02-10 00:00:00'); /* Torch */
-/* @teleloc 0x2E6C02F1 [-208.808000 124.903000 -17.600000] -0.986625 0.000000 0.000000 -0.163006 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E6C1AB,   293, 0x2E6C0236, -205.55, -8.931, -29.6, -0.994073, 0, 0, -0.108712,  True, '2019-02-10 00:00:00'); /* Torch */
-/* @teleloc 0x2E6C0236 [-205.550000 -8.931000 -29.600000] -0.994073 0.000000 0.000000 -0.108712 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E6C1AC,   293, 0x2E6C0222, -221.529, -23.047, -29.6, 0.0984448, 0, 0, -0.995143,  True, '2019-02-10 00:00:00'); /* Torch */
-/* @teleloc 0x2E6C0222 [-221.529000 -23.047000 -29.600000] 0.098445 0.000000 0.000000 -0.995143 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E6C1AD,   293, 0x2E6C0244, -193.886, -26.833, -29.6, -0.963255, 0, 0, -0.268587,  True, '2019-02-10 00:00:00'); /* Torch */
-/* @teleloc 0x2E6C0244 [-193.886000 -26.833000 -29.600000] -0.963255 0.000000 0.000000 -0.268587 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E6C1AE,   293, 0x2E6C0224, -212.39, 203.036, -29.6, -0.924345, 0, 0, 0.381557,  True, '2019-02-10 00:00:00'); /* Torch */
-/* @teleloc 0x2E6C0224 [-212.390000 203.036000 -29.600000] -0.924345 0.000000 0.000000 0.381557 */
+VALUES (0x72E6C1A4, 0x72E6C1AF, '2019-02-10 00:00:00') /* Essence Lock (40902) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6C1AF, 40902, 0x2E6C0001, 18.7521, 21.9558, 56.17035, 0.997334, 0, 0, -0.0729731,  True, '2019-02-10 00:00:00'); /* Essence Lock */
