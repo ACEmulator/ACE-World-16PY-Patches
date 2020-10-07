@@ -18,7 +18,7 @@ VALUES (48714,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48714,   1, 'Blazing Shard') /* Name */
      , (48714,  16, 'A cracked piece of the Blazing Crystal. It feels warm and glows brightly. Bring this to David in Frost Haven.') /* LongDesc */
-     , (48714,  33, 'blazingshardpickup') /* Quest */;
+     , (48714,  33, 'BuriedAliveCompleted1212') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48714,   1,   33554809) /* Setup */
