@@ -5,6 +5,7 @@ VALUES (52192, 'ace52192-castingjackolantern', 35, '2019-02-10 00:00:00') /* Cas
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52192,   1,      32768) /* ItemType - Caster */
+     , (52192,   3,         78) /* PaletteTemplate - Olive */
      , (52192,   5,         50) /* EncumbranceVal */
      , (52192,   9,   16777216) /* ValidLocations - Held */
      , (52192,  16,          1) /* ItemUseable - No */
@@ -18,7 +19,8 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52192,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52192,  29,     1.1) /* WeaponDefense */
+VALUES (52192,  12,  0.3333) /* Shade */
+     , (52192,  29,     1.1) /* WeaponDefense */
      , (52192,  39,    0.75) /* DefaultScale */
      , (52192, 144,       0) /* ManaConversionMod */;
 
@@ -30,5 +32,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52192,   1,   33561611) /* Setup */
      , (52192,   3,  536870932) /* SoundTable */
      , (52192,   6,   67112968) /* PaletteBase */
+     , (52192,   7,  268436044) /* ClothingBase */
      , (52192,   8,  100671020) /* Icon */
      , (52192,  22,  872415275) /* PhysicsEffectTable */;
