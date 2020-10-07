@@ -5,7 +5,7 @@ VALUES (52192, 'ace52192-castingjackolantern', 35, '2019-02-10 00:00:00') /* Cas
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52192,   1,      32768) /* ItemType - Caster */
-     , (52192,   3,         78) /* PaletteTemplate - Olive */
+     , (52192,   3,         76) /* PaletteTemplate - Orange */
      , (52192,   5,         50) /* EncumbranceVal */
      , (52192,   9,   16777216) /* ValidLocations - Held */
      , (52192,  16,          1) /* ItemUseable - No */
