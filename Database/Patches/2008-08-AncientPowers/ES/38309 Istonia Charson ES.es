@@ -37,7 +37,8 @@ Give: Dagger of T'thuun (38329)
 				- Delay: 0.5, Tell: You have proven yourself to me and your society, now go to the Promotions Officer and take the glory you deserve my friend.    
 				- IncrementIntStat: SocietyRankEldweb, 3
 				- EraseQuest: OnLordTest
-                - StampQuest: FlaggedMoarsmanCity
+				- EraseQuest: CanEnterSclavusTempleDoor
+				- StampQuest: FlaggedMoarsmanCity
 			#TestFailure:
 
 Refuse: Kothmox Staff (38322)
