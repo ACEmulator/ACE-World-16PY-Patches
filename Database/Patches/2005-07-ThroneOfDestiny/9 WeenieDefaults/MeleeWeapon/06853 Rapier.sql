@@ -12,7 +12,7 @@ VALUES (6853,   1,          1) /* ItemType - MeleeWeapon */
      , (6853,  16,          1) /* ItemUseable - No */
      , (6853,  19,        240) /* Value */
      , (6853,  44,          7) /* Damage */
-     , (6853,  45,          2) /* DamageType - Pierce */
+     , (6853,  45,          3) /* DamageType - Slash, Pierce */
      , (6853,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (6853,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
      , (6853,  48,         46) /* WeaponSkill - FinesseWeapons */

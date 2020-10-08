@@ -12,7 +12,7 @@ VALUES (29933,   1,          1) /* ItemType - MeleeWeapon */
      , (29933,  18,          1) /* UiEffects - Magical */
      , (29933,  19,       6000) /* Value */
      , (29933,  44,         38) /* Damage */
-     , (29933,  45,          2) /* DamageType - Pierce */
+     , (29933,  45,          3) /* DamageType - Slash, Pierce */
      , (29933,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (29933,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
      , (29933,  48,         44) /* WeaponSkill - HeavyWeapons */

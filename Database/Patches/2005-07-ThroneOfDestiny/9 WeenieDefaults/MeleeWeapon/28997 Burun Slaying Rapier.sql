@@ -12,7 +12,7 @@ VALUES (28997,   1,          1) /* ItemType - MeleeWeapon */
      , (28997,  18,         16) /* UiEffects - BoostStamina */
      , (28997,  19,       6000) /* Value */
      , (28997,  44,         28) /* Damage */
-     , (28997,  45,          2) /* DamageType - Pierce */
+     , (28997,  45,          3) /* DamageType - Slash, Pierce */
      , (28997,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (28997,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
      , (28997,  48,         44) /* WeaponSkill - HeavyWeapons */
