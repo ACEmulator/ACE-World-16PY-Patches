@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28997;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28997, 'swordnobleburun', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (28997, 'swordnobleburun', 6, '2020-10-07 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28997,   1,          1) /* ItemType - MeleeWeapon */
@@ -14,7 +14,7 @@ VALUES (28997,   1,          1) /* ItemType - MeleeWeapon */
      , (28997,  44,         28) /* Damage */
      , (28997,  45,          2) /* DamageType - Pierce */
      , (28997,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (28997,  47,        130) /* AttackType - Thrust, DoubleThrust */
+     , (28997,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
      , (28997,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (28997,  49,         45) /* WeaponTime */
      , (28997,  51,          1) /* CombatUse - Melee */
@@ -35,15 +35,15 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28997,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28997,   5, -0.0333000011742115) /* ManaRate */
-     , (28997,  21, 0.949999988079071) /* WeaponLength */
-     , (28997,  22, 0.400000005960464) /* DamageVariance */
-     , (28997,  29, 1.0900000333786) /* WeaponDefense */
-     , (28997,  39, 1.10000002384186) /* DefaultScale */
-     , (28997,  62, 1.0900000333786) /* WeaponOffense */
+VALUES (28997,   5, -0.0333) /* ManaRate */
+     , (28997,  21,    0.95) /* WeaponLength */
+     , (28997,  22,     0.4) /* DamageVariance */
+     , (28997,  29,    1.09) /* WeaponDefense */
+     , (28997,  39,     1.1) /* DefaultScale */
+     , (28997,  62,    1.09) /* WeaponOffense */
      , (28997, 136,     2.5) /* CriticalMultiplier */
      , (28997, 138,    1.75) /* SlayerDamageBonus */
-     , (28997, 147, 0.300000011920929) /* CriticalFrequency */;
+     , (28997, 147,     0.3) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28997,   1, 'Burun Slaying Rapier') /* Name */;
