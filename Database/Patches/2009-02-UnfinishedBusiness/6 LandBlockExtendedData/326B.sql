@@ -13,7 +13,6 @@ VALUES (0x7326B001, 0x7326B002, '2019-02-10 00:00:00') /* Incalescent Crystallin
      , (0x7326B001, 0x7326B007, '2019-02-10 00:00:00') /* Crystalline Wisp (40134) */
      , (0x7326B001, 0x7326B008, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp (40128) */
      , (0x7326B001, 0x7326B009, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
-     , (0x7326B001, 0x7326B00A, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
      , (0x7326B001, 0x7326B00B, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
      , (0x7326B001, 0x7326B00C, '2019-02-10 00:00:00') /* Crystalline Wisp (40134) */
      , (0x7326B001, 0x7326B00D, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
@@ -41,7 +40,6 @@ VALUES (0x7326B001, 0x7326B002, '2019-02-10 00:00:00') /* Incalescent Crystallin
      , (0x7326B001, 0x7326B023, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
      , (0x7326B001, 0x7326B024, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp (40128) */
      , (0x7326B001, 0x7326B025, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
-     , (0x7326B001, 0x7326B026, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
      , (0x7326B001, 0x7326B027, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (40127) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -75,10 +73,6 @@ VALUES (0x7326B008, 40128, 0x326B000A, 46.79802, 40.27769, 296.7874, 0.9396926, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326B009, 40130, 0x326B000A, 45.65831, 37.04952, 295.4373, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Crystalline Wisp */
 /* @teleloc 0x326B000A [45.658310 37.049520 295.437300] 0.766045 0.000000 0.000000 -0.642788 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7326B00A, 36833, 0x326B0008, 22.61516, 186.335, 292.8902, 0.5031943, 0, 0, -0.8641734,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
-/* @teleloc 0x326B0008 [22.615160 186.335000 292.890200] 0.503194 0.000000 0.000000 -0.864173 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326B00B, 40131, 0x326B000A, 45.9164, 38.48248, 296.0394, 0.9848077, 0, 0, -0.1736482,  True, '2019-02-10 00:00:00'); /* Incalescent Crystalline Wisp */
@@ -187,10 +181,6 @@ VALUES (0x7326B024, 40128, 0x326B0019, 75.92458, 2.752625, 300.4638, 0.9396926, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326B025, 40131, 0x326B003E, 188.9633, 123.1121, 300.005, 0.9848077, 0, 0, -0.1736482,  True, '2019-02-10 00:00:00'); /* Incalescent Crystalline Wisp */
 /* @teleloc 0x326B003E [188.963300 123.112100 300.005000] 0.984808 0.000000 0.000000 -0.173648 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7326B026, 24497, 0x326B0010, 26.50532, 190.5786, 291.0539, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
-/* @teleloc 0x326B0010 [26.505320 190.578600 291.053900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326B027, 40127, 0x326B0019, 88.48367, 23.58057, 302.7523, -0.2016521, 0, 0, -0.9794572,  True, '2019-02-10 00:00:00'); /* Shivering Crystalline Wisp */

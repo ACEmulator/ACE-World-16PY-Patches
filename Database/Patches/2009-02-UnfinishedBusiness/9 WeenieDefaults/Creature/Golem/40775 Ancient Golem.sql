@@ -6,6 +6,7 @@ VALUES (40775, 'ace40775-ancientgolem', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40775,   1,         16) /* ItemType - Creature */
      , (40775,   2,         13) /* CreatureType - Golem */
+     , (40775,   3,         39) /* PaletteTemplate - Black */
      , (40775,   6,         -1) /* ItemsCapacity */
      , (40775,   7,         -1) /* ContainersCapacity */
      , (40775,  16,          1) /* ItemUseable - No */
@@ -14,7 +15,7 @@ VALUES (40775,   1,         16) /* ItemType - Creature */
      , (40775,  40,          2) /* CombatMode - Melee */
      , (40775,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (40775, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (40775, 146,     1140000) /* XpOverride */;
+     , (40775, 146,    1140000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40775,   1, True ) /* Stuck */
@@ -33,7 +34,7 @@ VALUES (40775,   1,       5) /* HeartbeatInterval */
      , (40775,   6,     0.1) /* HealthUponResurrection */
      , (40775,   7,    0.25) /* StaminaUponResurrection */
      , (40775,   8,     0.3) /* ManaUponResurrection */
-     , (40775,  12,     0.5) /* Shade */
+     , (40775,  12,       0) /* Shade */
      , (40775,  13,     0.8) /* ArmorModVsSlash */
      , (40775,  14,     0.8) /* ArmorModVsPierce */
      , (40775,  15,     0.8) /* ArmorModVsBludgeon */
@@ -72,9 +73,10 @@ VALUES (40775,   1,   33559702) /* Setup */
      , (40775,   3,  536870933) /* SoundTable */
      , (40775,   4,  805306376) /* CombatTable */
      , (40775,   6,   67116739) /* PaletteBase */
+     , (40775,   7,  268437047) /* ClothingBase */
      , (40775,   8,  100667940) /* Icon */
      , (40775,  22,  872415332) /* PhysicsEffectTable */
-     , (40775,  35,       1026) /* DeathTreasureType - Loot Tier: 7 */;
+     , (40775,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40775,   1, 290, 0, 0) /* Strength */
