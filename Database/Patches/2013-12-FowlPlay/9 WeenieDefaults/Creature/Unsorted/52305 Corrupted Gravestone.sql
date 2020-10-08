@@ -8,11 +8,12 @@ VALUES (52305,   1,         16) /* ItemType - Creature */
      , (52305,   6,         -1) /* ItemsCapacity */
      , (52305,   7,         -1) /* ContainersCapacity */
      , (52305,  16,          1) /* ItemUseable - No */
-     , (52305,  81,          1) /* MaxGeneratedObjects */
+     , (52305,  40,          1) /* CombatMode - NonCombat */
+     , (52305,  81,          4) /* MaxGeneratedObjects */
      , (52305,  82,          0) /* InitGeneratedObjects */
      , (52305,  83,       2048) /* ActivationResponse - Emote */
      , (52305,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (52305, 103,          3) /* GeneratorDestructionType - Kill */ 
+     , (52305, 103,          3) /* GeneratorDestructionType - Kill */
      , (52305, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52305, 315,       9999) /* CritResistRating */;
 
@@ -27,8 +28,9 @@ VALUES (52305,   1, True ) /* Stuck */
      , (52305,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52305,  31,       2) /* Aggro */
-     , (52305,  39,     1.5) /* DefaultScale */;
+VALUES (52305,  31,       2) /* VisualAwarenessRange */
+     , (52305,  39,     1.5) /* DefaultScale */
+     , (52305,  43,       5) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52305,   1, 'Corrupted Gravestone') /* Name */
@@ -80,5 +82,5 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52305, 0.63, 87004, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate GY Day Wight Two Camp Gen (87004) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (52305, 0.54, 87005, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate GY Day Wight Three Camp Gen (87005) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (52305, 0.63, 35091, 1, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight (35091) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (52305, 0.54, 35091, 1, 4, 4, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight (35091) (x4 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
