@@ -21,7 +21,8 @@ VALUES (71867,  11, True ) /* IgnoreCollisions */
      , (71867,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (71867,  39,     0.3) /* DefaultScale */;
+VALUES (71867,  39,     0.3) /* DefaultScale */
+     , (71867,  44,     300) /* TimeToRot */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71867,   1, 'Crystalline Array Fragment') /* Name */

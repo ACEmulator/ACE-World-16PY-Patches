@@ -10,10 +10,9 @@ VALUES (40859,   1,         16) /* ItemType - Creature */
      , (40859,   7,         -1) /* ContainersCapacity */
      , (40859,  16,          1) /* ItemUseable - No */
      , (40859,  25,        100) /* Level */
-     , (40859,  81,          6) /* MaxGeneratedObjects */
-     , (40859,  82,          6) /* InitGeneratedObjects */     
-     , (40859,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (40859, 103,          3) /* GeneratorDestructionType - Kill */     
+     , (40859,  81,          4) /* MaxGeneratedObjects */
+     , (40859,  82,          0) /* InitGeneratedObjects */     
+     , (40859,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */  
      , (40859, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (40859, 290,          1) /* HearLocalSignals */
      , (40859, 291,         50) /* HearLocalSignalsRadius */;
@@ -46,8 +45,7 @@ VALUES (40859,   1,       5) /* HeartbeatInterval */
      , (40859,  34,       1) /* PowerupTime */
      , (40859,  36,       1) /* ChargeSpeed */
      , (40859,  39,       2) /* DefaultScale */
-     , (40859,  41,     300) /* RegenerationInterval */
-     , (40859,  43,      15) /* GeneratorRadius */     
+     , (40859,  43,       4) /* GeneratorRadius */     
      , (40859,  64,     0.3) /* ResistSlash */
      , (40859,  65,     0.3) /* ResistPierce */
      , (40859,  66,    0.75) /* ResistBludgeon */
@@ -105,9 +103,9 @@ VALUES (40859,  0,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40859,    73,   3)  /* Frost V */;
-     
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (40859, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (40859, 9 /* Generation */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -115,12 +113,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 23 /* StartEvent */, 0, 1, NULL, 'CrystallineArrayFragmentEvent', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (40859, 37 /* ReceiveLocalSignal */, 1, NULL, NULL, NULL, 'HealSelf', NULL, NULL, NULL);
+VALUES (40859, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 14 /* CastSpell */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2073 /* Adja's Intervention */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 1, 24 /* StopEvent */, 0, 1, NULL, 'CrystallineArrayFragmentEvent', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40859, -1, 40860, 10, 6, 6, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystalline Array Satellite - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (40859, 1, 71867, -1, 4, 4, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Crystalline Array Fragment (71867) (x4 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

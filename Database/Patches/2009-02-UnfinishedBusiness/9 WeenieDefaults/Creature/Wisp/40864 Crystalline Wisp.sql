@@ -22,6 +22,7 @@ VALUES (40864,   1, True ) /* Stuck */
      , (40864,  13, False) /* Ethereal */
      , (40864,  14, True ) /* GravityStatus */
      , (40864,  19, True ) /* Attackable */
+     , (40864,  29, True ) /* NoCorpse */
      , (40864,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -66,8 +67,7 @@ VALUES (40864,   1,   33555867) /* Setup */
      , (40864,   3,  536870985) /* SoundTable */
      , (40864,   4,  805306368) /* CombatTable */   
      , (40864,   8,  100668442) /* Icon */
-     , (40864,  22,  872415274) /* PhysicsEffectTable */
-     , (40864,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
+     , (40864,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40864,   1, 150, 0, 0) /* Strength */
@@ -107,11 +107,6 @@ VALUES (40864,    105,   2.17)  /* Shock Blast V */
      , (40864,   1240,      2)  /* Drain Health Other IV */
      , (40864,   1252,      2)  /* Drain Stamina Other IV */
      , (40864,   1263,      2)  /* Drain Mana Other IV */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40864, 9,  6876,  0, 0, 0.33, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (40864, 9, 40100,  0, 0, 0.66, False)	/* Create Crystalline Shard for ContainTreasure */      
-	  , (40864, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */ ;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (40864, 5 /* HeartBeat */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
