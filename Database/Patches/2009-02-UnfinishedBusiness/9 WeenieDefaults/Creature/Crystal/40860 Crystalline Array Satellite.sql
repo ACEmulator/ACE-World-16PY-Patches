@@ -44,7 +44,7 @@ VALUES (40860,   1,       5) /* HeartbeatInterval */
      , (40860,  34,       1) /* PowerupTime */
      , (40860,  36,       1) /* ChargeSpeed */
      , (40860,  39,     0.4) /* DefaultScale */
-     , (40860,  41,     300) /* RegenerationInterval */
+     , (40860,  41,      30) /* RegenerationInterval */
      , (40860,  43,      15) /* GeneratorRadius */     
      , (40860,  64,     0.3) /* ResistSlash */
      , (40860,  65,     0.3) /* ResistPierce */
@@ -105,4 +105,4 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40860,    73,   3)  /* Frost V */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40860, -1, 40864, 10, 8, 8, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wisps - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (40860, -1, 40864, 10, 4, 4, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wisps - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
