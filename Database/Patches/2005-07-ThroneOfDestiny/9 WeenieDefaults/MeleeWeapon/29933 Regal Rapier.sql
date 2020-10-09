@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29933;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29933, 'swordregal', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (29933, 'swordregal', 6, '2020-10-07 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29933,   1,          1) /* ItemType - MeleeWeapon */
@@ -12,9 +12,9 @@ VALUES (29933,   1,          1) /* ItemType - MeleeWeapon */
      , (29933,  18,          1) /* UiEffects - Magical */
      , (29933,  19,       6000) /* Value */
      , (29933,  44,         38) /* Damage */
-     , (29933,  45,          2) /* DamageType - Pierce */
+     , (29933,  45,          3) /* DamageType - Slash, Pierce */
      , (29933,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (29933,  47,        130) /* AttackType - Thrust, DoubleThrust */
+     , (29933,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
      , (29933,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (29933,  49,         45) /* WeaponTime */
      , (29933,  51,          1) /* CombatUse - Melee */
@@ -35,15 +35,15 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29933,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29933,   5, -0.0333000011742115) /* ManaRate */
-     , (29933,  21, 0.949999988079071) /* WeaponLength */
-     , (29933,  22, 0.400000005960464) /* DamageVariance */
-     , (29933,  29, 1.10000002384186) /* WeaponDefense */
-     , (29933,  39, 1.10000002384186) /* DefaultScale */
-     , (29933,  62, 1.10000002384186) /* WeaponOffense */
+VALUES (29933,   5, -0.0333) /* ManaRate */
+     , (29933,  21,    0.95) /* WeaponLength */
+     , (29933,  22,     0.4) /* DamageVariance */
+     , (29933,  29,     1.1) /* WeaponDefense */
+     , (29933,  39,     1.1) /* DefaultScale */
+     , (29933,  62,     1.1) /* DefaultScale */
      , (29933, 136,     2.5) /* CriticalMultiplier */
      , (29933, 138,    1.75) /* SlayerDamageBonus */
-     , (29933, 147, 0.300000011920929) /* CriticalFrequency */;
+     , (29933, 147,     0.3) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29933,   1, 'Regal Rapier') /* Name */;
