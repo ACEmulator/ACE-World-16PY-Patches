@@ -3,7 +3,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44033;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44033, 'ace44033-burningsandsgolem', 10, '2020-08-03 00:00:00') /* Creature */;
+VALUES (44033, 'ace44033-burningsandsgolem', 10, '2020-10-09 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44033,   1,         16) /* ItemType - Creature */
@@ -28,9 +28,6 @@ VALUES (44033,   1, True ) /* Stuck */
      , (44033,   6, True ) /* AiUsesMana */
      , (44033,   7, True ) /* AiUseHumanMagicAnimations */
      , (44033,  10, True ) /* AttackerAi */
-     , (44033,  11, False) /* IgnoreCollisions */
-     , (44033,  12, True ) /* ReportCollisions */
-     , (44033,  13, False) /* Ethereal */
      , (44033,  58, True ) /* SpellQueueActive */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -40,7 +37,6 @@ VALUES (44033,   1,       5) /* HeartbeatInterval */
      , (44033,   4,      10) /* StaminaRate */
      , (44033,   5,       3) /* ManaRate */
      , (44033,  12,  0.0667) /* Shade */
-     , (44033,  39,     1.5) /* DefaultScale */
      , (44033,  13,       1) /* ArmorModVsSlash */
      , (44033,  14,     0.9) /* ArmorModVsPierce */
      , (44033,  15,    0.75) /* ArmorModVsBludgeon */
@@ -52,6 +48,7 @@ VALUES (44033,   1,       5) /* HeartbeatInterval */
      , (44033,  31,      35) /* VisualAwarenessRange */
      , (44033,  34,       1) /* PowerupTime */
      , (44033,  36,       1) /* ChargeSpeed */
+     , (44033,  39,     1.5) /* DefaultScale */
      , (44033,  64,    0.25) /* ResistSlash */
      , (44033,  65,    0.25) /* ResistPierce */
      , (44033,  66,     0.8) /* ResistBludgeon */
@@ -83,7 +80,7 @@ VALUES (44033,   1,   33561254) /* Setup */
      , (44033,   7,  268435984) /* ClothingBase */
      , (44033,   8,  100667940) /* Icon */
      , (44033,   4,  805306376) /* CombatTable */
-     , (44033,  22,  872415322) /* PhysicsEffectTable */
+     , (44033,  22,  872415329) /* PhysicsEffectTable */
      , (44033,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

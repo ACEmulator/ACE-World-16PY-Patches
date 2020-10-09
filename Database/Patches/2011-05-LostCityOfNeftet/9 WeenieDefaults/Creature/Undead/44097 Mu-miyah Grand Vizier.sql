@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44097;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44097, 'ace44097-mumiyahgrandvizier', 10, '2020-02-16 00:00:00') /* Creature */;
+VALUES (44097, 'ace44097-mumiyahgrandvizier', 10, '2020-10-09 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44097,   1,         16) /* ItemType - Creature */
@@ -10,7 +10,7 @@ VALUES (44097,   1,         16) /* ItemType - Creature */
      , (44097,   6,         -1) /* ItemsCapacity */
      , (44097,   7,         -1) /* ContainersCapacity */
      , (44097,  16,          1) /* ItemUseable - No */
-     , (44097,  25,        250) /* Level */
+     , (44097,  25,        240) /* Level */
      , (44097,  27,          0) /* ArmorType - None */
      , (44097,  67,         64) /* Tolerance - Retaliate */
      , (44097,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
@@ -25,9 +25,6 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44097,   1, True ) /* Stuck */
      , (44097,   6, True ) /* AiUsesMana */
      , (44097,  10, True ) /* AttackerAi */
-     , (44097,  11, False) /* IgnoreCollisions */
-     , (44097,  12, True ) /* ReportCollisions */
-     , (44097,  13, False) /* Ethereal */
      , (44097,  58, True ) /* SpellQueueActive */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
