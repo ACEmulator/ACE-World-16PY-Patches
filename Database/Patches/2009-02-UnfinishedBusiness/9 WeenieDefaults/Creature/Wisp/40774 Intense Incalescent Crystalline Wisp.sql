@@ -104,7 +104,8 @@ VALUES (40774,  0, 32, 50,  0.5,   140,   100,   200,   100,   200,   200,  200,
      , (40774, 21, 32,  0,    0,   110,   40,   34,   34,   34,   34,   80,   34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40774,     84,   2.17)  /* Fire Blast V */
+VALUES (40774,   2128,    2.2)  /* Ilservian's Flame */
+     , (40774,   2130,    2.2)  /* Infernae */
      , (40774,   1160,    2.1)  /* Heal Self V */
      , (40774,   1240,      2)  /* Drain Health Other IV */
      , (40774,   1252,      2)  /* Drain Stamina Other IV */

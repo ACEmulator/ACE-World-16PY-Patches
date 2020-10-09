@@ -103,9 +103,9 @@ VALUES (40484,  0, 32, 50,  0.5,   140,   100,   200,   100,   200,   200,  200,
      , (40484, 21, 32,  0,    0,   110,   40,   34,   34,   34,   34,   80,   34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40484,     84,   2.17)  /* Fire Blast V */
-     , (40484,    105,   2.15)  /* Bludge Blast V */
-     , (40484,   1160,    2.1)  /* Heal Self V */
+VALUES (40484,    118,   2.17)  /* Flame Blast VI */
+     , (40484,   3882,   2.02)  /* Incendiary Ring */
+     , (40484,   1160,      2)  /* Heal Self V */
      , (40484,   1240,      2)  /* Drain Health Other IV */
      , (40484,   1252,      2)  /* Drain Stamina Other IV */
      , (40484,   1263,      2)  /* Drain Mana Other IV */;

@@ -102,7 +102,8 @@ VALUES (40787,  0, 32, 50,  0.5,   140,   200,   200,   200,   200,   200,  200,
      , (40787, 21, 32,  0,    0,   110,    40,    34,    34,    34,    34,   80,    34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40787,    63,   2.17)  /* Acid VI */
+VALUES (40787,   2122,    2.2)  /* Disintegration */
+     , (40787,   2123,    2.2)  /* Celdiseth's Searing */
      , (40787,   1160,    2.1)  /* Heal Self V */
      , (40787,   1240,      2)  /* Drain Health Other IV */
      , (40787,   1252,      2)  /* Drain Stamina Other IV */

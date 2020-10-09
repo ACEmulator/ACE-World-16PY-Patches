@@ -102,7 +102,8 @@ VALUES (40783,  0, 32, 50,  0.5,   140,   100,   200,   100,   200,   200,  200,
      , (40783, 21, 32,  0,    0,   110,   40,   34,   34,   34,   34,   80,   34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40783,    105,   2.17)  /* Shock Blast V */
+VALUES (40783,   2144,   2.17)  /* Crushing Shame */
+     , (40783,   1789,   2.17)  /* Tectonic Rifts */
      , (40783,   1160,    2.1)  /* Heal Self V */
      , (40783,   1240,      2)  /* Drain Health Other IV */
      , (40783,   1252,      2)  /* Drain Stamina Other IV */

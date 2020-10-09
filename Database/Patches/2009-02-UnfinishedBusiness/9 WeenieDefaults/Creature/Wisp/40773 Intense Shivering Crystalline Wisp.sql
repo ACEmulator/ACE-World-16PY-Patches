@@ -104,7 +104,8 @@ VALUES (40773,  0, 32, 50,  0.5,   140,   200,   200,   200,   200,   200,  200,
      , (40773, 21, 32,  0,    0,   110,    40,    34,    34,    34,    34,   80,    34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40773,    110,   2.17)  /* Cold V */
+VALUES (40773,   2136,    2.2)  /* Icy Torment */
+     , (40773,   2138,    2.2)  /* Blizzard */
      , (40773,   1160,    2.1)  /* Heal Self V */
      , (40773,   1240,      2)  /* Drain Health Other IV */
      , (40773,   1252,      2)  /* Drain Stamina Other IV */

@@ -102,7 +102,8 @@ VALUES (40786,  0,  8, 60,  0.5,  140,  140,  118,  118, 1400,  358,  358,  118,
      , (40786, 21, 16,  0,    0,  110,  110,   92,   92, 1100,  282,  282,   92,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40786,     79,   2.17)  /* Lightning Blast V */
+VALUES (40786,   2140,    2.2)  /* Alset's Coil */
+     , (40786,   2142,    2.2)  /* Tempest */
      , (40786,   1160,    2.1)  /* Heal Self V */
      , (40786,   1240,      2)  /* Drain Health Other IV */
      , (40786,   1252,      2)  /* Drain Stamina Other IV */

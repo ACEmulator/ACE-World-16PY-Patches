@@ -71,7 +71,7 @@ VALUES (40778,   1,   33557068) /* Setup */
      , (40778,   3,  536870985) /* SoundTable */
      , (40778,   8,  100671683) /* Icon */
      , (40778,  22,  872415274) /* PhysicsEffectTable */
-     , (40778,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
+     , (40778,  35,         20) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40778,   1, 200, 0, 0) /* Strength */
@@ -105,7 +105,8 @@ VALUES (40778,  0, 32, 50,  0.5,   140,   200,   200,   200,   200,   200,  200,
      , (40778, 21, 32,  0,    0,   110,    40,    34,    34,    34,    34,   80,    34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40778,    63,   2.17)  /* Acid VI */
+VALUES (40778,   2122,    2.2)  /* Disintegration */
+     , (40778,   2123,    2.2)  /* Celdiseth's Searing */
      , (40778,   1160,    2.1)  /* Heal Self V */
      , (40778,   1240,      2)  /* Drain Health Other IV */
      , (40778,   1252,      2)  /* Drain Stamina Other IV */
