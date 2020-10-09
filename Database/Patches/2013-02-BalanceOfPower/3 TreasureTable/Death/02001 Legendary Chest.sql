@@ -1,5 +1,5 @@
 
-DELETE FROM `treasure_death` WHERE `treasure_Type` = 2003;
+DELETE FROM `treasure_death` WHERE `treasure_Type` = 2001;
 
 INSERT INTO `treasure_death` 
     (`treasure_Type`, 
@@ -19,9 +19,9 @@ INSERT INTO `treasure_death`
      `mundane_Item_Max_Amount`, 
      `mundane_Item_Type_Selection_Chances`, 
      `last_Modified`)
-
+	 
 VALUES 
-    (2003,      /* treasure_Type */
+    (2001,      /* treasure_Type */
         8,      /* tier */
       0.3,      /* loot_Quality_Mod  */ 
        19,      /* unknown_Chances */
@@ -32,7 +32,7 @@ VALUES
       100,      /* magic_Item_Chance */
         4,      /* magic_Item_Min_Amount */
         5,      /* magic_Item_Max_Amount */
-       23,      /* magic_Item_Treasure_Type_Selection_Chances */
+       22,      /* magic_Item_Treasure_Type_Selection_Chances */
       100,      /* mundane_Item_Chance */
         0,      /* mundane_Item_Min_Amount */
         0,      /* mundane_Item_Max_Amount */
