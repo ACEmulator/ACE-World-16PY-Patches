@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44108;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44108, 'ace44108-mumiyahchanneller', 10, '2019-08-16 00:00:00') /* Creature */;
+VALUES (44108, 'ace44108-mumiyahchanneller', 10, '2020-10-09 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44108,   1,         16) /* ItemType - Creature */
@@ -24,9 +24,6 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44108,   1, True ) /* Stuck */
      , (44108,   6, True ) /* AiUsesMana */
      , (44108,  10, True ) /* AttackerAi */
-     , (44108,  11, False) /* IgnoreCollisions */
-     , (44108,  12, True ) /* ReportCollisions */
-     , (44108,  13, False) /* Ethereal */
      , (44108,  58, True ) /* SpellQueueActive */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -36,7 +33,6 @@ VALUES (44108,   1,       5) /* HeartbeatInterval */
      , (44108,   4,      10) /* StaminaRate */
      , (44108,   5,       3) /* ManaRate */
      , (44108,  12,     0.0) /* Shade */
-     , (44108,  39,     1.6) /* DefaultScale */
      , (44108,  13,       1) /* ArmorModVsSlash */
      , (44108,  14,       1) /* ArmorModVsPierce */
      , (44108,  15,     0.4) /* ArmorModVsBludgeon */
@@ -45,6 +41,7 @@ VALUES (44108,   1,       5) /* HeartbeatInterval */
      , (44108,  18,    0.67) /* ArmorModVsAcid */
      , (44108,  19,     0.8) /* ArmorModVsElectric */
      , (44108,  31,      22) /* VisualAwarenessRange */
+     , (44108,  39,     1.6) /* DefaultScale */
      , (44108,  64,    0.67) /* ResistSlash */
      , (44108,  65,    0.67) /* ResistPierce */
      , (44108,  66,    0.67) /* ResistBludgeon */
@@ -61,7 +58,7 @@ VALUES (44108,   1,       5) /* HeartbeatInterval */
      , (44108, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44108,   1, 'Mu-miyah Channeler') /* Name */
+VALUES (44108,   1, 'Mu-miyah Channeller') /* Name */
      , (44108,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

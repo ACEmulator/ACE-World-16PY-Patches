@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51361;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51361, 'ace51361-frozenwightguardian', 10, '2020-05-17 00:00:00') /* Creature */;
+VALUES (51361, 'ace51361-frozenwightguardian', 10, '2020-10-09 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51361,   1,         16) /* ItemType - Creature */
@@ -21,9 +21,6 @@ VALUES (51361,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51361,   1, True ) /* Stuck */
      , (51361,   6, True ) /* AiUsesMana */
-     , (51361,  11, False) /* IgnoreCollisions */
-     , (51361,  12, True ) /* ReportCollisions */
-     , (51361,  13, False) /* Ethereal */
      , (51361,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -63,7 +60,7 @@ VALUES (51361,   1,     5) /* HeartbeatInterval */
      , (51361, 125,     1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (51361,   1, 'Frozen Guardian Wight') /* Name */
+VALUES (51361,   1, 'Frozen Wight Guardian') /* Name */
      , (51361,  45, 'FrozenFortressTestingGroundsKilltask_0513') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -73,7 +70,7 @@ VALUES (51361,   1,   33561142) /* Setup */
      , (51361,   4,  805306368) /* CombatTable */    
      , (51361,   6,   67110722) /* PaletteBase */
      , (51361,   7,  268435558) /* ClothingBase */
-     , (51361,   8,  100669124) /* Icon */
+     , (51361,   8,  100667942) /* Icon */
      , (51361,  22,  872415272) /* PhysicsEffectTable */
      , (51361,  32,       2020) /* WieldedTreasureType */      
      , (51361,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
