@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29255;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29255, 'atlatlfire', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (29255, 'atlatlfire', 3, '2020-10-05 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29255,   1,        256) /* ItemType - MissileWeapon */
@@ -24,7 +24,7 @@ VALUES (29255,   1,        256) /* ItemType - MissileWeapon */
      , (29255,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29255, 150,        103) /* HookPlacement - Hook */
      , (29255, 151,          2) /* HookType - Wall */
-     , (29255, 169,  101189386) /* TsysMutationData */
+     , (29255, 169,  285738762) /* TsysMutationData */
      , (29255, 204,          0) /* ElementalDamageBonus */
      , (29255, 353,         10) /* WeaponType - Thrown */;
 
