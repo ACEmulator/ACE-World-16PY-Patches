@@ -34,11 +34,11 @@ VALUES (40128,   1,       5) /* HeartbeatInterval */
      , (40128,   5,       1) /* ManaRate */
      , (40128,  13,    0.84) /* ArmorModVsSlash */
      , (40128,  14,       2) /* ArmorModVsPierce */
-     , (40128,  15,    0.84) /* ArmorModVsBludgeon */
+     , (40128,  15,       2) /* ArmorModVsBludgeon */
      , (40128,  16,       2) /* ArmorModVsCold */
      , (40128,  17,       2) /* ArmorModVsFire */
      , (40128,  18,       2) /* ArmorModVsAcid */
-     , (40128,  19,       2) /* ArmorModVsElectric */
+     , (40128,  19,    0.84) /* ArmorModVsElectric */
      , (40128,  31,      30) /* VisualAwarenessRange */
      , (40128,  34,       1) /* PowerupTime */
      , (40128,  36,       1) /* ChargeSpeed */
@@ -46,10 +46,10 @@ VALUES (40128,   1,       5) /* HeartbeatInterval */
      , (40128,  64,     0.9) /* ResistSlash */
      , (40128,  65,     0.3) /* ResistPierce */
      , (40128,  66,     0.3) /* ResistBludgeon */
-     , (40128,  67,     0.9) /* ResistFire */
+     , (40128,  67,     0.6) /* ResistFire */
      , (40128,  68,     0.3) /* ResistCold */
      , (40128,  69,     0.3) /* ResistAcid */
-     , (40128,  70,     0.3) /* ResistElectric */
+     , (40128,  70,    0.88) /* ResistElectric */
      , (40128,  71,       1) /* ResistHealthBoost */
      , (40128,  72,       1) /* ResistStaminaDrain */
      , (40128,  73,       1) /* ResistStaminaBoost */
@@ -70,7 +70,7 @@ VALUES (40128,   1,   33557068) /* Setup */
      , (40128,   3,  536870985) /* SoundTable */
      , (40128,   8,  100671683) /* Icon */
      , (40128,  22,  872415274) /* PhysicsEffectTable */
-     , (40128,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;     
+     , (40128,  35,         20) /* DeathTreasureType - Loot Tier: 6 */;     
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40128,   1, 150, 0, 0) /* Strength */

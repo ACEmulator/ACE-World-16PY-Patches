@@ -34,10 +34,10 @@ VALUES (40129,   1,       5) /* HeartbeatInterval */
      , (40129,   5,       1) /* ManaRate */
      , (40129,  13,    0.84) /* ArmorModVsSlash */
      , (40129,  14,       2) /* ArmorModVsPierce */
-     , (40129,  15,    0.84) /* ArmorModVsBludgeon */
+     , (40129,  15,       2) /* ArmorModVsBludgeon */
      , (40129,  16,       2) /* ArmorModVsCold */
      , (40129,  17,       2) /* ArmorModVsFire */
-     , (40129,  18,       2) /* ArmorModVsAcid */
+     , (40129,  18,    0.84) /* ArmorModVsAcid */
      , (40129,  19,       2) /* ArmorModVsElectric */
      , (40129,  31,      30) /* VisualAwarenessRange */
      , (40129,  34,       1) /* PowerupTime */
@@ -70,7 +70,7 @@ VALUES (40129,   1,   33556979) /* Setup */
      , (40129,   4,  805306368) /* CombatTable */       
      , (40129,   8,  100671612) /* Icon */
      , (40129,  22,  872415274) /* PhysicsEffectTable */
-     , (40129,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;     
+     , (40129,  35,         20) /* DeathTreasureType - Loot Tier: 6 */;     
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40129,   1, 150, 0, 0) /* Strength */

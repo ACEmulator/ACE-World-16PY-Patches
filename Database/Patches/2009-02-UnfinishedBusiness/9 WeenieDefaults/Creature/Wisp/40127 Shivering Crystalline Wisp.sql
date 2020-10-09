@@ -46,7 +46,7 @@ VALUES (40127,   1,       5) /* HeartbeatInterval */
      , (40127,  64,     0.9) /* ResistSlash */
      , (40127,  65,     0.3) /* ResistPierce */
      , (40127,  66,     0.3) /* ResistBludgeon */
-     , (40127,  67,     0.9) /* ResistFire */
+     , (40127,  67,    0.89) /* ResistFire */
      , (40127,  68,     0.3) /* ResistCold */
      , (40127,  69,     0.3) /* ResistAcid */
      , (40127,  70,     0.3) /* ResistElectric */
@@ -69,7 +69,7 @@ VALUES (40127,   1,   33557033) /* Setup */
      , (40127,   3,  536870985) /* SoundTable */
      , (40127,   4,  805306368) /* CombatTable */       
      , (40127,   8,  100671383) /* Icon */
-     , (40127,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
+     , (40127,  35,         20) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40127,   1, 150, 0, 0) /* Strength */
