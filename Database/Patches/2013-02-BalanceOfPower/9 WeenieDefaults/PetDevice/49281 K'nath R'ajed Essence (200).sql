@@ -10,7 +10,6 @@ VALUES (49281,   1,        128) /* ItemType - Misc */
      , (49281,  18,        128) /* UiEffects - Frost */
      , (49281,  19,       4000) /* Value */
      , (49281,  33,          0) /* Bonded - Normal */
-     , (49281,  65,        101) /* Placement - Resting */
      , (49281,  91,         50) /* MaxStructure */
      , (49281,  92,         50) /* Structure */
      , (49281,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -27,10 +26,6 @@ VALUES (49281,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49281,   1, False) /* Stuck */
-     , (49281,  11, True ) /* IgnoreCollisions */
-     , (49281,  13, True ) /* Ethereal */
-     , (49281,  14, True ) /* GravityStatus */
-     , (49281,  19, True ) /* Attackable */
      , (49281,  22, True ) /* Inscribable */
      , (49281,  69, True ) /* IsSellable */;
 
@@ -39,7 +34,7 @@ VALUES (49281,  39,     0.4) /* DefaultScale */
      , (49281, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49281,   1, 'K''nath R''ajed Essence (200)') /* Name */
+VALUES (49281,   1, 'K''nath R''ajed Essence') /* Name */
      , (49281,  14, 'Use this essence to summon or dismiss your K''nath R''ajed.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

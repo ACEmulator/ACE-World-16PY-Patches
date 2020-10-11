@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49537;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49537, 'ace49537-firephyntosswarmessence200', 70, '2020-08-04 10:18:20') /* PetDevice */;
+VALUES (49537, 'ace49537-firephyntosswarmessence200', 70, '2020-10-11 10:18:20') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49537,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (49537,   1,        128) /* ItemType - Misc */
      , (49537,  18,         32) /* UiEffects - Fire */
      , (49537,  19,       4000) /* Value */
      , (49537,  33,          0) /* Bonded - Normal */
-     , (49537,  65,        101) /* Placement - Resting */
      , (49537,  91,         50) /* MaxStructure */
      , (49537,  92,         50) /* Structure */
      , (49537,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -27,10 +26,6 @@ VALUES (49537,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49537,   1, False) /* Stuck */
-     , (49537,  11, True ) /* IgnoreCollisions */
-     , (49537,  13, True ) /* Ethereal */
-     , (49537,  14, True ) /* GravityStatus */
-     , (49537,  19, True ) /* Attackable */
      , (49537,  22, True ) /* Inscribable */
      , (49537,  69, True ) /* IsSellable */;
 
@@ -39,7 +34,7 @@ VALUES (49537,  39,     0.4) /* DefaultScale */
      , (49537, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49537,   1, 'Fire Phyntos Swarm Essence (200)') /* Name */
+VALUES (49537,   1, 'Fire Phyntos Swarm Essence)') /* Name */
      , (49537,  14, 'Use this essence to summon or dismiss your Fire Phyntos Swarm.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

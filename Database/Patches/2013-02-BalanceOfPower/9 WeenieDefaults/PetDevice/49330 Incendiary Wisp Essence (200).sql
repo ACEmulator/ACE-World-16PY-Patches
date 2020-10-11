@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49330;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49330, 'ace49330-incendiarywispessence200', 70, '2020-08-04 10:16:13') /* PetDevice */;
+VALUES (49330, 'ace49330-incendiarywispessence200', 70, '2020-10-11 10:16:13') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49330,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (49330,   1,        128) /* ItemType - Misc */
      , (49330,  18,         32) /* UiEffects - Fire */
      , (49330,  19,       4000) /* Value */
      , (49330,  33,          0) /* Bonded - Normal */
-     , (49330,  65,        101) /* Placement - Resting */
      , (49330,  91,         50) /* MaxStructure */
      , (49330,  92,         50) /* Structure */
      , (49330,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -27,10 +26,6 @@ VALUES (49330,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49330,   1, False) /* Stuck */
-     , (49330,  11, True ) /* IgnoreCollisions */
-     , (49330,  13, True ) /* Ethereal */
-     , (49330,  14, True ) /* GravityStatus */
-     , (49330,  19, True ) /* Attackable */
      , (49330,  22, True ) /* Inscribable */
      , (49330,  69, True ) /* IsSellable */;
 
@@ -39,7 +34,7 @@ VALUES (49330,  39,     0.4) /* DefaultScale */
      , (49330, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49330,   1, 'Incendiary Wisp Essence (200)') /* Name */
+VALUES (49330,   1, 'Incendiary Wisp Essence') /* Name */
      , (49330,  14, 'Use this essence to summon or dismiss your Incendiary Wisp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49260;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49260, 'ace49260-glacialknightessence200', 70, '2020-08-04 10:13:55') /* PetDevice */;
+VALUES (49260, 'ace49260-glacialknightessence200', 70, '2020-10-11 10:13:55') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49260,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (49260,   1,        128) /* ItemType - Misc */
      , (49260,  18,        128) /* UiEffects - Frost */
      , (49260,  19,       4000) /* Value */
      , (49260,  33,          0) /* Bonded - Normal */
-     , (49260,  65,        101) /* Placement - Resting */
      , (49260,  91,         50) /* MaxStructure */
      , (49260,  92,         50) /* Structure */
      , (49260,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -27,10 +26,6 @@ VALUES (49260,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49260,   1, False) /* Stuck */
-     , (49260,  11, True ) /* IgnoreCollisions */
-     , (49260,  13, True ) /* Ethereal */
-     , (49260,  14, True ) /* GravityStatus */
-     , (49260,  19, True ) /* Attackable */
      , (49260,  22, True ) /* Inscribable */
      , (49260,  69, True ) /* IsSellable */;
 
@@ -39,7 +34,7 @@ VALUES (49260,  39,     0.4) /* DefaultScale */
      , (49260, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49260,   1, 'Glacial Knight Essence (200)') /* Name */
+VALUES (49260,   1, 'Glacial Knight Essence') /* Name */
      , (49260,  14, 'Use this essence to summon or dismiss your Glacial Knight.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

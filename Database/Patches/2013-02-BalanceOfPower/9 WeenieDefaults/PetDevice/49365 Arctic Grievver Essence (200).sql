@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49365;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49365, 'ace49365-arcticgrievveressence200', 70, '2020-08-04 10:17:20') /* PetDevice */;
+VALUES (49365, 'ace49365-arcticgrievveressence200', 70, '2020-10-11 10:17:20') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49365,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (49365,   1,        128) /* ItemType - Misc */
      , (49365,  18,        128) /* UiEffects - Frost */
      , (49365,  19,       4000) /* Value */
      , (49365,  33,          0) /* Bonded - Normal */
-     , (49365,  65,        101) /* Placement - Resting */
      , (49365,  91,         50) /* MaxStructure */
      , (49365,  92,         50) /* Structure */
      , (49365,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -27,10 +26,6 @@ VALUES (49365,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49365,   1, False) /* Stuck */
-     , (49365,  11, True ) /* IgnoreCollisions */
-     , (49365,  13, True ) /* Ethereal */
-     , (49365,  14, True ) /* GravityStatus */
-     , (49365,  19, True ) /* Attackable */
      , (49365,  22, True ) /* Inscribable */
      , (49365,  69, True ) /* IsSellable */;
 
@@ -39,7 +34,7 @@ VALUES (49365,  39,     0.4) /* DefaultScale */
      , (49365, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49365,   1, 'Arctic Grievver Essence (200)') /* Name */
+VALUES (49365,   1, 'Arctic Grievver Essence') /* Name */
      , (49365,  14, 'Use this essence to summon or dismiss your Arctic Grievver.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

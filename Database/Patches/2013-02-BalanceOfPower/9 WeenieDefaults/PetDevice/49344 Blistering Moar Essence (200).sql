@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49344;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49344, 'ace49344-blisteringmoaressence200', 70, '2020-08-04 10:16:31') /* PetDevice */;
+VALUES (49344, 'ace49344-blisteringmoaressence200', 70, '2020-10-11 10:16:31') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49344,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (49344,   1,        128) /* ItemType - Misc */
      , (49344,  18,        256) /* UiEffects - Acid */
      , (49344,  19,       4000) /* Value */
      , (49344,  33,          0) /* Bonded - Normal */
-     , (49344,  65,        101) /* Placement - Resting */
      , (49344,  91,         50) /* MaxStructure */
      , (49344,  92,         50) /* Structure */
      , (49344,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -27,10 +26,6 @@ VALUES (49344,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49344,   1, False) /* Stuck */
-     , (49344,  11, True ) /* IgnoreCollisions */
-     , (49344,  13, True ) /* Ethereal */
-     , (49344,  14, True ) /* GravityStatus */
-     , (49344,  19, True ) /* Attackable */
      , (49344,  22, True ) /* Inscribable */
      , (49344,  69, True ) /* IsSellable */;
 
@@ -39,7 +34,7 @@ VALUES (49344,  39,     0.4) /* DefaultScale */
      , (49344, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49344,   1, 'Blistering Moar Essence (200)') /* Name */
+VALUES (49344,   1, 'Blistering Moar Essence') /* Name */
      , (49344,  14, 'Use this essence to summon or dismiss your Blistering Moar.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

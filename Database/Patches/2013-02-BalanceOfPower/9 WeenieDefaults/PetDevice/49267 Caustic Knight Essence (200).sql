@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49267;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49267, 'ace49267-causticknightessence200', 70, '2020-08-04 10:14:03') /* PetDevice */;
+VALUES (49267, 'ace49267-causticknightessence200', 70, '2020-10-11 10:14:03') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49267,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (49267,   1,        128) /* ItemType - Misc */
      , (49267,  18,        256) /* UiEffects - Acid */
      , (49267,  19,       4000) /* Value */
      , (49267,  33,          0) /* Bonded - Normal */
-     , (49267,  65,        101) /* Placement - Resting */
      , (49267,  91,         50) /* MaxStructure */
      , (49267,  92,         50) /* Structure */
      , (49267,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -27,10 +26,6 @@ VALUES (49267,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49267,   1, False) /* Stuck */
-     , (49267,  11, True ) /* IgnoreCollisions */
-     , (49267,  13, True ) /* Ethereal */
-     , (49267,  14, True ) /* GravityStatus */
-     , (49267,  19, True ) /* Attackable */
      , (49267,  22, True ) /* Inscribable */
      , (49267,  69, True ) /* IsSellable */;
 
@@ -39,7 +34,7 @@ VALUES (49267,  39,     0.4) /* DefaultScale */
      , (49267, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49267,   1, 'Caustic Knight Essence (200)') /* Name */
+VALUES (49267,   1, 'Caustic Knight Essence') /* Name */
      , (49267,  14, 'Use this essence to summon or dismiss your Caustic Knight.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49379;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49379, 'ace49379-excitedgrievveressence200', 70, '2020-08-04 10:17:02') /* PetDevice */;
+VALUES (49379, 'ace49379-excitedgrievveressence200', 70, '2020-10-11 10:17:02') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49379,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (49379,   1,        128) /* ItemType - Misc */
      , (49379,  18,         64) /* UiEffects - Lightning */
      , (49379,  19,       4000) /* Value */
      , (49379,  33,          0) /* Bonded - Normal */
-     , (49379,  65,        101) /* Placement - Resting */
      , (49379,  91,         50) /* MaxStructure */
      , (49379,  92,         50) /* Structure */
      , (49379,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -27,10 +26,6 @@ VALUES (49379,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49379,   1, False) /* Stuck */
-     , (49379,  11, True ) /* IgnoreCollisions */
-     , (49379,  13, True ) /* Ethereal */
-     , (49379,  14, True ) /* GravityStatus */
-     , (49379,  19, True ) /* Attackable */
      , (49379,  22, True ) /* Inscribable */
      , (49379,  69, True ) /* IsSellable */;
 
@@ -39,7 +34,7 @@ VALUES (49379,  39,     0.4) /* DefaultScale */
      , (49379, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49379,   1, 'Excited Grievver Essence (200)') /* Name */
+VALUES (49379,   1, 'Excited Grievver Essence') /* Name */
      , (49379,  14, 'Use this essence to summon or dismiss your Excited Grievver.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
