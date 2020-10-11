@@ -34,7 +34,7 @@ VALUES (49537,  39,     0.4) /* DefaultScale */
      , (49537, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49537,   1, 'Fire Phyntos Swarm Essence)') /* Name */
+VALUES (49537,   1, 'Fire Phyntos Swarm Essence') /* Name */
      , (49537,  14, 'Use this essence to summon or dismiss your Fire Phyntos Swarm.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
