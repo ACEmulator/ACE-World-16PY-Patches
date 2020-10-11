@@ -22,7 +22,6 @@ VALUES (42605,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42605,   1, True ) /* Stuck */
      , (42605,   6, True ) /* AiUsesMana */
-     , (42605,   7, True ) /* AiUseHumanMagicAnimations */
      , (42605,  10, True ) /* AttackerAi */
      , (42605,  11, False) /* IgnoreCollisions */
      , (42605,  12, True ) /* ReportCollisions */
@@ -72,7 +71,7 @@ VALUES (42605,   1,   33554433) /* Setup */
      , (42605,   7,  268435872) /* ClothingBase */
      , (42605,   8,  100667446) /* Icon */
      , (42605,  22,  872415236) /* PhysicsEffectTable */
-     , (42605,  32,       2015) /* WieldedTreasureType - 
+     , (42605,  32,       2015) /* WieldedTreasureType -
                                    Wield Raven Sabra (31386) | Probability: 20%
                                    Wield Raven Sabra (31387) | Probability: 20%
                                    Wield Raven Sabra (31388) | Probability: 20%

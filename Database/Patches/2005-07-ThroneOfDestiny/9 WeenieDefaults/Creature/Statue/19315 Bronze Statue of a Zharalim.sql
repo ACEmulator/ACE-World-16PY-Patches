@@ -22,7 +22,6 @@ VALUES (19315,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19315,   1, True ) /* Stuck */
      , (19315,   6, True ) /* AiUsesMana */
-     , (19315,   7, True ) /* AiUseHumanMagicAnimations */
      , (19315,  11, False) /* IgnoreCollisions */
      , (19315,  12, True ) /* ReportCollisions */
      , (19315,  13, False) /* Ethereal */
@@ -75,7 +74,7 @@ VALUES (19315,   1,   33554433) /* Setup */
      , (19315,   7,  268436405) /* ClothingBase */
      , (19315,   8,  100667446) /* Icon */
      , (19315,  22,  872415349) /* PhysicsEffectTable */
-     , (19315,  32,        404) /* WieldedTreasureType - 
+     , (19315,  32,        404) /* WieldedTreasureType -
                                    Wield Bronze Longbow (15873) | Probability: 40%
                                    Wield 20x Greater Fire Arrow (5305) | Probability: 25%
                                    Wield 20x Greater Arrow (5304) | Probability: 25%

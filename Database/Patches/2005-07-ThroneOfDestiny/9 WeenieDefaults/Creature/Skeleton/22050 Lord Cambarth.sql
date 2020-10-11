@@ -21,7 +21,6 @@ VALUES (22050,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22050,   1, True ) /* Stuck */
      , (22050,   6, True ) /* AiUsesMana */
-     , (22050,   7, True ) /* AiUseHumanMagicAnimations */
      , (22050,  11, False) /* IgnoreCollisions */
      , (22050,  12, True ) /* ReportCollisions */
      , (22050,  13, False) /* Ethereal */
@@ -74,7 +73,7 @@ VALUES (22050,   1,   33559532) /* Setup */
      , (22050,   7,  268435646) /* ClothingBase */
      , (22050,   8,  100669124) /* Icon */
      , (22050,  22,  872415269) /* PhysicsEffectTable */
-     , (22050,  32,        289) /* WieldedTreasureType - 
+     , (22050,  32,        289) /* WieldedTreasureType -
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 16x Greater Fire Arrow (5305) | Probability: 100%
                                    Wield Kite Shield (23686) | Probability: 50%
