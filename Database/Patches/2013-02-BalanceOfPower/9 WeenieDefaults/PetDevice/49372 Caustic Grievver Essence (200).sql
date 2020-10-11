@@ -25,8 +25,7 @@ VALUES (49372,   1,        128) /* ItemType - Misc */
      , (49372, 369,        185) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49372,   1, False) /* Stuck */
-     , (49372,  22, True ) /* Inscribable */
+VALUES (49372,  22, True ) /* Inscribable */
      , (49372,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
