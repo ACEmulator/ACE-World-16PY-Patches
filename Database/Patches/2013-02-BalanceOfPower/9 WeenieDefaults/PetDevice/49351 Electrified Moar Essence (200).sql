@@ -8,7 +8,7 @@ VALUES (49351,   1,        128) /* ItemType - Misc */
      , (49351,   5,         50) /* EncumbranceVal */
      , (49351,  16,          8) /* ItemUseable - Contained */
      , (49351,  18,         64) /* UiEffects - Lightning */
-     , (49351,  19,       4000) /* Value */
+     , (49351,  19,      10000) /* Value */
      , (49351,  33,          0) /* Bonded - Normal */
      , (49351,  91,         50) /* MaxStructure */
      , (49351,  92,         50) /* Structure */

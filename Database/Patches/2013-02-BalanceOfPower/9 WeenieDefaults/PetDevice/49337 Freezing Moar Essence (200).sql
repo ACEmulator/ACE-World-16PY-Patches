@@ -8,7 +8,7 @@ VALUES (49337,   1,        128) /* ItemType - Misc */
      , (49337,   5,         50) /* EncumbranceVal */
      , (49337,  16,          8) /* ItemUseable - Contained */
      , (49337,  18,        128) /* UiEffects - Frost */
-     , (49337,  19,       4000) /* Value */
+     , (49337,  19,      10000) /* Value */
      , (49337,  33,          0) /* Bonded - Normal */
      , (49337,  91,         50) /* MaxStructure */
      , (49337,  92,         50) /* Structure */

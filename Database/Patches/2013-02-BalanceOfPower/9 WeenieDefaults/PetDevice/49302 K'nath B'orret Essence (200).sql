@@ -8,7 +8,7 @@ VALUES (49302,   1,        128) /* ItemType - Misc */
      , (49302,   5,         50) /* EncumbranceVal */
      , (49302,  16,          8) /* ItemUseable - Contained */
      , (49302,  18,         32) /* UiEffects - Fire */
-     , (49302,  19,       4000) /* Value */
+     , (49302,  19,      10000) /* Value */
      , (49302,  33,          0) /* Bonded - Normal */
      , (49302,  91,         50) /* MaxStructure */
      , (49302,  92,         50) /* Structure */
