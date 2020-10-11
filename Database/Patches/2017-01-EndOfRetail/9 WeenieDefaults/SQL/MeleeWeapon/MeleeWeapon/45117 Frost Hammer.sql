@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45117;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45117, 'ace45117-frosthammer', 6, '2020-08-23 14:46:18') /* MeleeWeapon */;
+VALUES (45117, 'ace45117-frosthammer', 6, '2020-09-15 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45117,   1,          1) /* ItemType - MeleeWeapon */
@@ -12,6 +12,7 @@ VALUES (45117,   1,          1) /* ItemType - MeleeWeapon */
      , (45117,  19,        250) /* Value */
      , (45117,  44,          9) /* Damage */
      , (45117,  45,          8) /* DamageType - Cold */
+     , (45117,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (45117,  47,          4) /* AttackType - Slash */
      , (45117,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (45117,  49,         42) /* WeaponTime */

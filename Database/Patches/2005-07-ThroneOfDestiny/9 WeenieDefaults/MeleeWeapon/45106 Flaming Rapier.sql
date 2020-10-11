@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45106;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45106, 'ace45106-flamingrapier', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (45106, 'ace45106-flamingrapier', 6, '2020-10-07 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45106,   1,          1) /* ItemType - MeleeWeapon */
@@ -15,7 +15,7 @@ VALUES (45106,   1,          1) /* ItemType - MeleeWeapon */
      , (45106,  44,          7) /* Damage */
      , (45106,  45,         16) /* DamageType - Fire */
      , (45106,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (45106,  47,        130) /* AttackType - Thrust, DoubleThrust */
+     , (45106,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
      , (45106,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (45106,  49,         30) /* WeaponTime */
      , (45106,  51,          1) /* CombatUse - Melee */
@@ -29,10 +29,10 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45106,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45106,  21, 0.949999988079071) /* WeaponLength */
+VALUES (45106,  21,    0.95) /* WeaponLength */
      , (45106,  22,     0.5) /* DamageVariance */
      , (45106,  29,       1) /* WeaponDefense */
-     , (45106,  39, 1.10000002384186) /* DefaultScale */
+     , (45106,  39,     1.1) /* DefaultScale */
      , (45106,  62,       1) /* WeaponOffense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

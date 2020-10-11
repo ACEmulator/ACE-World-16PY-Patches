@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30625;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30625, 'bowwar', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (30625, 'bowwar', 3, '2020-10-05 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30625,   1,        256) /* ItemType - MissileWeapon */
@@ -13,32 +13,26 @@ VALUES (30625,   1,        256) /* ItemType - MissileWeapon */
      , (30625,  19,        350) /* Value */
      , (30625,  44,          0) /* Damage */
      , (30625,  46,         16) /* DefaultCombatStyle - Bow */
-     , (30625,  48,          2) /* WeaponSkill - Bow */
+     , (30625,  48,         47) /* WeaponSkill - MissileWeapons */
      , (30625,  49,         45) /* WeaponTime */
      , (30625,  50,          1) /* AmmoType - Arrow */
      , (30625,  51,          2) /* CombatUse - Missle */
-     , (30625,  52,          2) /* ParentLocation */
-     , (30625,  53,          3) /* PlacementPosition */
+     , (30625,  52,          2) /* ParentLocation - LeftHand */
+     , (30625,  53,          3) /* PlacementPosition - LeftHand */
      , (30625,  60,        175) /* WeaponRange */
      , (30625,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30625, 150,        103) /* HookPlacement - Hook */
      , (30625, 151,          2) /* HookType - Wall */
      , (30625, 158,          2) /* WieldRequirements - RawSkill */
      , (30625, 159,         47) /* WieldSkillType - MissileWeapons */
-     , (30625, 169,  101188618) /* TsysMutationData */
+     , (30625, 169,  285737994) /* TsysMutationData */
      , (30625, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30625,  11, True ) /* IgnoreCollisions */
-     , (30625,  13, True ) /* Ethereal */
-     , (30625,  14, True ) /* GravityStatus */
-     , (30625,  19, True ) /* Attackable */
-     , (30625,  22, True ) /* Inscribable */;
+VALUES (30625,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30625,  21,       0) /* WeaponLength */
-     , (30625,  22,       0) /* DamageVariance */
-     , (30625,  26, 27.2999992370605) /* MaximumVelocity */
+VALUES (30625,  26,    27.3) /* MaximumVelocity */
      , (30625,  29,       1) /* WeaponDefense */
      , (30625,  62,       1) /* WeaponOffense */
      , (30625,  63,     1.5) /* DamageMod */;

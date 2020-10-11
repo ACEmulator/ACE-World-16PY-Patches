@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30616;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30616, 'crossbowarbalest', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (30616, 'crossbowarbalest', 3, '2020-10-05 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30616,   1,        256) /* ItemType - MissileWeapon */
@@ -17,31 +17,25 @@ VALUES (30616,   1,        256) /* ItemType - MissileWeapon */
      , (30616,  49,        120) /* WeaponTime */
      , (30616,  50,          2) /* AmmoType - Bolt */
      , (30616,  51,          2) /* CombatUse - Missle */
-     , (30616,  52,          2) /* ParentLocation */
-     , (30616,  53,          3) /* PlacementPosition */
+     , (30616,  52,          2) /* ParentLocation - LeftHand */
+     , (30616,  53,          3) /* PlacementPosition - LeftHand */
      , (30616,  60,        192) /* WeaponRange */
      , (30616,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30616, 150,        103) /* HookPlacement - Hook */
      , (30616, 151,          2) /* HookType - Wall */
      , (30616, 159,         47) /* WieldSkillType - MissileWeapons */
-     , (30616, 169,  101189386) /* TsysMutationData */
+     , (30616, 169,  285738762) /* TsysMutationData */
      , (30616, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30616,  11, True ) /* IgnoreCollisions */
-     , (30616,  13, True ) /* Ethereal */
-     , (30616,  14, True ) /* GravityStatus */
-     , (30616,  19, True ) /* Attackable */
-     , (30616,  22, True ) /* Inscribable */;
+VALUES (30616,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30616,  21,       0) /* WeaponLength */
-     , (30616,  22,       0) /* DamageVariance */
-     , (30616,  26, 27.2999992370605) /* MaximumVelocity */
+VALUES (30616,  26,    27.3) /* MaximumVelocity */
      , (30616,  29,       1) /* WeaponDefense */
-     , (30616,  39,       1) /* DefaultScale */
+     , (30616,  39,    1.25) /* DefaultScale */
      , (30616,  62,       1) /* WeaponOffense */
-     , (30616,  63, 1.79999995231628) /* DamageMod */;
+     , (30616,  63,     1.8) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30616,   1, 'Arbalest') /* Name */;

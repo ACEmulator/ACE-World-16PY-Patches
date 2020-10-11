@@ -2,7 +2,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52283;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52283, 'ace52283-frozencrystal', 10, '2020-05-15 00:32:08') /* Creature */;
+VALUES (52283, 'ace52283-frozencrystal', 10, '2020-10-06 00:32:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52283,   1,         16) /* ItemType - Creature */
@@ -19,18 +19,14 @@ VALUES (52283,   1,         16) /* ItemType - Creature */
      , (52283,  82,          0) /* InitGeneratedObjects */
      , (52283,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52283, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
-     , (52283, 133,          2) /* ShowableOnRadar - Show */
+     , (52283, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52283, 146,          0) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52283,   1, True ) /* Stuck */
-     , (52283,  12, True ) /* ReportCollisions */
      , (52283,  52, True ) /* AiImmobile */
-     , (52283,  13, False) /* Ethereal */
-     , (52283,  14, True ) /* GravityStatus */
      , (52283,  29, True ) /* NoCorpse*/
      , (52283,  83, True ) /* NPCLooksLikeObject */
-     , (52283,  19, True ) /* Attackable */
      , (52283, 103, True ) /* DirectCastImmune */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -49,7 +45,7 @@ VALUES (52283,   1,       5) /* HeartbeatInterval */
      , (52283,  31,     0.3) /* VisualAwarenessRange */
      , (52283,  34,       1) /* PowerupTime */
      , (52283,  36,       1) /* ChargeSpeed */
-     , (52283,  39,       2) /* DefaultScale */
+     , (52283,  39,    1.75) /* DefaultScale */
      , (52283,  64,    0.75) /* ResistSlash */
      , (52283,  65,    0.75) /* ResistPierce */
      , (52283,  66,    0.75) /* ResistBludgeon */

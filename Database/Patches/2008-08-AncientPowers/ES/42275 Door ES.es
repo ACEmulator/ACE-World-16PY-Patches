@@ -1,0 +1,2 @@
+ReceiveLocalSignal: Reset
+    - CloseMe

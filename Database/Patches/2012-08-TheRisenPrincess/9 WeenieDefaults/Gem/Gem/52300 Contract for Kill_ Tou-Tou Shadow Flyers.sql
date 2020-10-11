@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52300; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52300, 'ace52300-contractforkilltoutoushadowflyers', 38, '2020-07-20 12:29:59') /* Gem */;
+VALUES (52300, 'ace52300-contractforkilltoutoushadowflyers', 38, '2020-09-19 12:29:59') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52300,   1,       2048) /* ItemType - Gem */
@@ -15,17 +15,11 @@ VALUES (52300,   1,       2048) /* ItemType - Gem */
      , (52300,  33,          1) /* Bonded - Bonded */
      , (52300,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (52300,  94,         16) /* TargetType - Creature */
-     , (52300, 114,          1) /* Attuned - Attuned */
      , (52300, 280,        100) /* SharedCooldown */
      , (52300, 349,        318) /* UseCreatesContractId */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52300,   1, False) /* Stuck */
-     , (52300,  11, True ) /* IgnoreCollisions */
-     , (52300,  13, True ) /* Ethereal */
-     , (52300,  14, True ) /* GravityStatus */
-     , (52300,  19, True ) /* Attackable */
-     , (52300,  22, True ) /* Inscribable */
+VALUES (52300,  22, True ) /* Inscribable */
      , (52300,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

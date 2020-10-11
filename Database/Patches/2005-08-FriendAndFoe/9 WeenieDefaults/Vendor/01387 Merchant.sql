@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1387;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1387, 'merchantaluvian', 12, '2020-06-28 02:25:16') /* Vendor */;
+VALUES (1387, 'merchantaluvian', 12, '2020-09-09 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1387,   1,         16) /* ItemType - Creature */
@@ -26,28 +26,25 @@ VALUES (1387,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1387,   1, True ) /* Stuck */
-     , (1387,  12, True ) /* ReportCollisions */
-     , (1387,  13, False) /* Ethereal */
      , (1387,  19, False) /* Attackable */
-     , (1387,  39, True ) /* DealMagicalItems */
-     , (1387,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (1387,  39, True ) /* DealMagicalItems */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1387,   1,       5) /* HeartbeatInterval */
      , (1387,   2,       0) /* HeartbeatTimestamp */
-     , (1387,   3, 0.159999996423721) /* HealthRate */
+     , (1387,   3,    0.16) /* HealthRate */
      , (1387,   4,       5) /* StaminaRate */
      , (1387,   5,       1) /* ManaRate */
      , (1387,  11,     300) /* ResetInterval */
-     , (1387,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (1387,  13,     0.9) /* ArmorModVsSlash */
      , (1387,  14,       1) /* ArmorModVsPierce */
-     , (1387,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (1387,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (1387,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (1387,  15,     1.1) /* ArmorModVsBludgeon */
+     , (1387,  16,     0.4) /* ArmorModVsCold */
+     , (1387,  17,     0.4) /* ArmorModVsFire */
      , (1387,  18,       1) /* ArmorModVsAcid */
-     , (1387,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (1387,  37, 0.899999976158142) /* BuyPrice */
-     , (1387,  38, 1.54999995231628) /* SellPrice */
+     , (1387,  19,     0.6) /* ArmorModVsElectric */
+     , (1387,  37,     0.9) /* BuyPrice */
+     , (1387,  38,    1.55) /* SellPrice */
      , (1387,  54,       3) /* UseRadius */
      , (1387,  64,       1) /* ResistSlash */
      , (1387,  65,       1) /* ResistPierce */
@@ -66,8 +63,6 @@ VALUES (1387,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1387,   1, 'Merchant') /* Name */
-     , (1387,   3, 'Female') /* Sex */
-     , (1387,   4, 'Aluvian') /* HeritageGroup */
      , (1387,   5, 'Merchant') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -206,4 +201,5 @@ VALUES (1387, 2,   130,  0, 17, 1, False) /* Create Shirt (130) for Wield */
      , (1387, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (1387, 4,   166, -1, 17, 1, False) /* Create Sack (166) for Shop */
      , (1387, 4,   136, -1, 17, 1, False) /* Create Pack (136) for Shop */
-     , (1387, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */;
+     , (1387, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (1387, 4, 31721, -1, 0, 0, False) /* Create Torn Journal Page - Page 2 (31721) for Shop */;

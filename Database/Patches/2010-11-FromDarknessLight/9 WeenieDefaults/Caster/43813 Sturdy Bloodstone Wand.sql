@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43813;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43813, 'ace43813-sturdybloodstonewand', 35, '2020-06-17 00:00:00') /* Caster */;
+VALUES (43813, 'ace43813-sturdybloodstonewand', 35, '2020-09-05 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43813,   1,      32768) /* ItemType - Caster */
@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43813,   5,   -0.03) /* ManaRate */
      , (43813,  29,    1.15) /* WeaponDefense */
      , (43813, 144,     0.2) /* ManaConversionMod */
-     , (43813, 147,       1) /* CriticalFrequency */
+     , (43813, 147,    0.06) /* CriticalFrequency */
      , (43813, 152,     1.1) /* ElementalDamageMod */
      , (43813, 157,       1) /* ResistanceModifier */;
 
@@ -50,3 +50,9 @@ VALUES (43813,   1,   33561162) /* Setup */
      , (43813,   8,  100672995) /* Icon */
      , (43813,  22,  872415275) /* PhysicsEffectTable */
      , (43813,  28,       5530) /* Spell - BloodstoneBolt6 */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (43813,  2267,      2)  /* Harlune's Blessing */
+     , (43813,  2101,      2)  /* Aura of Cragstone's Will */
+     , (43813,  3259,      2)  /* Aura of Infected Spirit Caress */;
+
