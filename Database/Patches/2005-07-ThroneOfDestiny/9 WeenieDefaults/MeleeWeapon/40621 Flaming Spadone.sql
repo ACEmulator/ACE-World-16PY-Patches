@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40621;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40621, 'ace40621-flamingspadone', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (40621, 'ace40621-flamingspadone', 6, '2020-10-05 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40621,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,7 @@ VALUES (40621,   1,          1) /* ItemType - MeleeWeapon */
      , (40621,  49,         50) /* WeaponTime */
      , (40621,  51,          5) /* CombatUse - TwoHanded */
      , (40621,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (40621, 169,  101255170) /* TsysMutationData */
+     , (40621, 169,  285804546) /* TsysMutationData */
      , (40621, 292,          2) /* Cleaving */
      , (40621, 353,         11) /* WeaponType - TwoHanded */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43206;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43206, 'ace43206-apostategranddirector', 10, '2020-02-07 14:49:40') /* Creature */;
+VALUES (43206, 'ace43206-apostategranddirector', 10, '2020-10-09 14:49:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43206,   1,         16) /* ItemType - Creature */
@@ -20,12 +20,7 @@ VALUES (43206,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43206,   1, True ) /* Stuck */
-     , (43206,   6, False) /* AiUsesMana */
-     , (43206,  11, False) /* IgnoreCollisions */
-     , (43206,  12, True ) /* ReportCollisions */
-     , (43206,  13, False) /* Ethereal */
-     , (43206,  14, True ) /* GravityStatus */
-     , (43206,  19, True ) /* Attackable */;
+     , (43206,   6, False) /* AiUsesMana */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43206,   1,       5) /* HeartbeatInterval */
@@ -44,7 +39,7 @@ VALUES (43206,   1,       5) /* HeartbeatInterval */
      , (43206,  31,      18) /* VisualAwarenessRange */
      , (43206,  34,       1) /* PowerupTime */
      , (43206,  36,       1) /* ChargeSpeed */
-     , (43206,  39,     1.2) /* DefaultScale */
+     , (43206,  39,     1.3) /* DefaultScale */
      , (43206,  64,       1) /* ResistSlash */
      , (43206,  65,       1) /* ResistPierce */
      , (43206,  66,       1) /* ResistBludgeon */
