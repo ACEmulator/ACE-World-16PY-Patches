@@ -6,10 +6,10 @@ Use:
 Refuse: Phyntos Queen Abdomen (41816)
 	- TurnToTarget
 	- InqQuest: KillPhyntosQueenPickup1109
-		QuestSuccess:
+		QuestFailure:
 			- Tell: There seems to be no end to the Phyntos. I am sure we will need your assistance again soon.
 			- Delay: 0.5, DirectBroadcast: You must wait %tqt before attempting this quest again.
-		QuestFailure:
+		QuestSuccess:
 			- InqOwnsItems: 41816, 1
 				TestSuccess: 
 					- TakeItems: 41816, -1

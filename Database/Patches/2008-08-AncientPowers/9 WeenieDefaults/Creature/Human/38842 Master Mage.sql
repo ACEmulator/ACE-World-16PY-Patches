@@ -21,7 +21,9 @@ VALUES (38842,   1,         16) /* ItemType - Creature */
      , (38842, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38842,   1, True ) /* Stuck */;
+VALUES (38842,   1, True ) /* Stuck */
+     , (38842,   6, False ) /* AiUsesMana */
+     , (38842,   7, True ) /* AiUseHumanMagicAnimations */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38842,   1,    5) /* HeartbeatInterval */
@@ -105,22 +107,22 @@ VALUES (38842,  0,  4,  0,    0,  400,  225,  400,  275,  100,  100,  400,  150,
      , (38842,  8,  4, 120, 0.75,  400,  225,  400,  275,  100,  100,  400,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38842,  2074,   2.02)  /* Gossamer Flesh */
-     , (38842,  2172,   2.02)  /* Astyrrian's Gift */
-     , (38842,  2174,   2.30)  /* Archer's Gift */
-     , (38842,  4396,   2.20)  /* Incantation of Blood Loather */
-     , (38842,  4408,   2.10)  /* Incantation of Leaden Weapon */
-     , (38842,  4411,   2.02)  /* Incantation of Lure Blade */
-     , (38842,  4424,   2.25)  /* Incantation of Force Arc */
-     , (38842,  4442,   2.25)  /* Incantation of Force Blast */
-     , (38842,  4443,   2.25)  /* Incantation of Force Bolt */
-     , (38842,  4444,   2.25)  /* Incantation of Force Streak */
-     , (38842,  4445,   2.25)  /* Incantation of Force Volley */
-     , (38842,  4451,   2.25)  /* Incantation of Lightning Bolt */
-     , (38842,  4453,   2.02)  /* Incantation of Lightning Volley */
-     , (38842,  4527,   2.02)  /* Incantation of Creature Enchantment Ineptitude Other */
-     , (38842,  4579,   2.02)  /* Incantation of Life Magic Ineptitude Other */
-     , (38842,  4635,   3.00)  /* Incantation of War Magic Ineptitude Other */;
+VALUES (38842,  2074,   2.10)  /* Gossamer Flesh */
+     , (38842,  2172,   2.13)  /* Astyrrian's Gift */
+     , (38842,  2174,   2.25)  /* Archer's Gift */
+     , (38842,  4396,   2.10)  /* Incantation of Blood Loather */
+     , (38842,  4408,   2.11)  /* Incantation of Leaden Weapon */
+     , (38842,  4411,   2.12)  /* Incantation of Lure Blade */     
+     , (38842,  4442,   2.30)  /* Incantation of Force Blast */
+     , (38842,  4443,   2.32)  /* Incantation of Force Bolt */
+     , (38842,  4444,   2.35)  /* Incantation of Force Streak */
+     , (38842,  4445,   2.36)  /* Incantation of Force Volley */
+     , (38842,  4451,   2.10)  /* Incantation of Lightning Bolt */
+     , (38842,  4453,   2.33)  /* Incantation of Lightning Volley */
+     , (38842,  4527,   2.10)  /* Incantation of Creature Enchantment Ineptitude Other */
+     , (38842,  4579,   2.12)  /* Incantation of Life Magic Ineptitude Other */
+     , (38842,  4635,   2.15)  /* Incantation of War Magic Ineptitude Other */
+     , (38842,  4424,   3.00)  /* Incantation of Force Arc */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38842, 2, 38850,  1, 0, 0, False) /* Create  (38850) for Wield */;

@@ -21,7 +21,9 @@ VALUES (38844,   1,         16) /* ItemType - Creature */
      , (38844, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38844,   1, True ) /* Stuck */;
+VALUES (38844,   1, True ) /* Stuck */
+     , (38844,   6, False ) /* AiUsesMana */
+     , (38844,   7, True ) /* AiUseHumanMagicAnimations */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38844,   1,    5) /* HeartbeatInterval */
@@ -91,6 +93,7 @@ VALUES (38844,  31, 0, 2, 0, 240, 0, 0) /* CreatureMagic */
      , (38844,   7, 0, 2, 0, 350, 0, 0) /* MissileDefense */
      , (38844,  41, 0, 2, 0, 483, 0, 0) /* TwoHanded */
      , (38844,  43, 0, 2, 0, 240, 0, 0) /* VoidMagic */
+     , (38844,  32, 0, 3, 0, 400, 0, 0) /* ItemEnchantment     Specialized */
      , (38844,  34, 0, 2, 0, 240, 0, 0) /* WarMagic */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
@@ -105,22 +108,22 @@ VALUES (38844,  0,  4,  0,    0,  400,  225,  400,  275,  100,  100,  400,  150,
      , (38844,  8,  4, 120, 0.75,  400,  225,  400,  275,  100,  100,  400,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38844,  2074,   2.02)  /* Gossamer Flesh */
-     , (38844,  2172,   2.02)  /* Astyrrian's Gift */
-     , (38844,  2174,   2.02)  /* Archer's Gift */
-     , (38844,  4396,   2.02)  /* Incantation of Blood Loather */
-     , (38844,  4408,   2.02)  /* Incantation of Leaden Weapon */
-     , (38844,  4411,   2.02)  /* Incantation of Lure Blade */
-     , (38844,  4424,   2.02)  /* Incantation of Force Arc */
-     , (38844,  4442,   2.02)  /* Incantation of Force Blast */
-     , (38844,  4443,   2.02)  /* Incantation of Force Bolt */
-     , (38844,  4444,   2.02)  /* Incantation of Force Streak */
-     , (38844,  4445,   2.02)  /* Incantation of Force Volley */
-     , (38844,  4451,   2.02)  /* Incantation of Lightning Bolt */
-     , (38844,  4453,   2.02)  /* Incantation of Lightning Volley */
-     , (38844,  4527,   2.02)  /* Incantation of Creature Enchantment Ineptitude Other */
-     , (38844,  4579,   2.02)  /* Incantation of Life Magic Ineptitude Other */
-     , (38844,  4635,   3.00)  /* Incantation of War Magic Ineptitude Other */;
+VALUES (38844,  2074,   2.10)  /* Gossamer Flesh */
+     , (38844,  2172,   2.13)  /* Astyrrian's Gift */
+     , (38844,  2174,   2.25)  /* Archer's Gift */
+     , (38844,  4396,   2.10)  /* Incantation of Blood Loather */
+     , (38844,  4408,   2.11)  /* Incantation of Leaden Weapon */
+     , (38844,  4411,   2.12)  /* Incantation of Lure Blade */     
+     , (38844,  4442,   2.30)  /* Incantation of Force Blast */
+     , (38844,  4443,   2.32)  /* Incantation of Force Bolt */
+     , (38844,  4444,   2.35)  /* Incantation of Force Streak */
+     , (38844,  4445,   2.36)  /* Incantation of Force Volley */
+     , (38844,  4451,   2.10)  /* Incantation of Lightning Bolt */
+     , (38844,  4453,   2.33)  /* Incantation of Lightning Volley */
+     , (38844,  4527,   2.10)  /* Incantation of Creature Enchantment Ineptitude Other */
+     , (38844,  4579,   2.12)  /* Incantation of Life Magic Ineptitude Other */
+     , (38844,  4635,   2.15)  /* Incantation of War Magic Ineptitude Other */
+     , (38844,  4424,   3.00)  /* Incantation of Force Arc */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38844, 2, 38850,  1, 0, 0, False) /* Create  (38850) for Wield */;
