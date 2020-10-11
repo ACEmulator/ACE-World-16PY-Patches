@@ -10,10 +10,10 @@ VALUES (37210,   1,          2) /* ItemType - Armor */
      , (37210,   5,        275) /* EncumbranceVal */
      , (37210,   9,        256) /* ValidLocations - FootWear */
      , (37210,  16,          1) /* ItemUseable - No */
-	 , (37210,  27,         32) /* ArmorType - Metal */
+     , (37210,  27,         32) /* ArmorType - Metal */
      , (37210,  28,        150) /* ArmorLevel */
      , (37210,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-	 , (37210, 124,          3) /* Version */
+     , (37210, 124,          3) /* Version */
      , (37210, 151,          2) /* HookType - Wall */
      , (37210, 169,  168429060) /* TsysMutationData */;
 
