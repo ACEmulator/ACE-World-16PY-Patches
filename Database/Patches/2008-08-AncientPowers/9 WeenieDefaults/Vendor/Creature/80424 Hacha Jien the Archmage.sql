@@ -367,6 +367,7 @@ VALUES (80424, 2,  5914,  0, 93, 0, False) /* Create Suikan Item Master Robe (59
      , (80424, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (80424, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (80424, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (80424, 4,  5540, -1, 0, 0, False) /* Create Wand (5540) for Shop */
      , (80424, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (80424, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (80424, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
