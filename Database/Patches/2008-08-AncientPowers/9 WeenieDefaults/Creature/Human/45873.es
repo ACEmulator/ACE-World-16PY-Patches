@@ -30,7 +30,7 @@ Use:
             - Tell: You must be a Master of our Society before you may collect a stipend.
 
 GotoSet: give_stipend
-	- Give: Radiant Blood Trade Tokens (38236), 5
+    - Give: Radiant Blood Trade Tokens (38236), 5
     - Give: Radiant Blood Armor Writ (38546)
     - Give: Society Gems of Lesser Luminance (46454), 2
     - InqQuestSolves: SocietyMasterStipendCollectionCounter, 52 - 52
