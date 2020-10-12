@@ -34,7 +34,8 @@ VALUES (52305,  31,       2) /* VisualAwarenessRange */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52305,   1, 'Corrupted Gravestone') /* Name */
-     , (52305,  15, 'An old gravestone that appears to be freshly placed into the ground. An uneasy sense overwhelms you as you approach.') /* ShortDesc */;
+     , (52305,  15, 'An old gravestone that appears to be freshly placed into the ground. An uneasy sense overwhelms you as you approach.') /* ShortDesc */
+     , (52305,  45, 'KilltaskCorruptedGravestones_1311') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52305,   1,   33560241) /* Setup */
