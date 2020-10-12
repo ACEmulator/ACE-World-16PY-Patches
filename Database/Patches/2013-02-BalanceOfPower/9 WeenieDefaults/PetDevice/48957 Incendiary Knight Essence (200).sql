@@ -1,16 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48957;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48957, 'ace48957-incendiaryknightessence200', 70, '2020-08-04 10:12:42') /* PetDevice */;
+VALUES (48957, 'ace48957-incendiaryknightessence200', 70, '2020-10-11 10:12:42') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48957,   1,        128) /* ItemType - Misc */
      , (48957,   5,         50) /* EncumbranceVal */
      , (48957,  16,          8) /* ItemUseable - Contained */
      , (48957,  18,         32) /* UiEffects - Fire */
-     , (48957,  19,       4000) /* Value */
+     , (48957,  19,      10000) /* Value */
      , (48957,  33,          0) /* Bonded - Normal */
-     , (48957,  65,        101) /* Placement - Resting */
      , (48957,  91,         50) /* MaxStructure */
      , (48957,  92,         50) /* Structure */
      , (48957,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -26,12 +25,7 @@ VALUES (48957,   1,        128) /* ItemType - Misc */
      , (48957, 369,        185) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48957,   1, False) /* Stuck */
-     , (48957,  11, True ) /* IgnoreCollisions */
-     , (48957,  13, True ) /* Ethereal */
-     , (48957,  14, True ) /* GravityStatus */
-     , (48957,  19, True ) /* Attackable */
-     , (48957,  22, True ) /* Inscribable */
+VALUES (48957,  22, True ) /* Inscribable */
      , (48957,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -39,7 +33,7 @@ VALUES (48957,  39,     0.4) /* DefaultScale */
      , (48957, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48957,   1, 'Incendiary Knight Essence (200)') /* Name */
+VALUES (48957,   1, 'Incendiary Knight Essence') /* Name */
      , (48957,  14, 'Use this essence to summon or dismiss your Incendiary Knight.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

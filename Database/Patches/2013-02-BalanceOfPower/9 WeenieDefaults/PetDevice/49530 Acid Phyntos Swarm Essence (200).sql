@@ -1,16 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49530;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49530, 'ace49530-acidphyntosswarmessence200', 70, '2020-08-04 10:18:12') /* PetDevice */;
+VALUES (49530, 'ace49530-acidphyntosswarmessence200', 70, '2020-10-11 10:18:12') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49530,   1,        128) /* ItemType - Misc */
      , (49530,   5,         50) /* EncumbranceVal */
      , (49530,  16,          8) /* ItemUseable - Contained */
      , (49530,  18,        256) /* UiEffects - Acid */
-     , (49530,  19,       4000) /* Value */
+     , (49530,  19,      10000) /* Value */
      , (49530,  33,          0) /* Bonded - Normal */
-     , (49530,  65,        101) /* Placement - Resting */
      , (49530,  91,         50) /* MaxStructure */
      , (49530,  92,         50) /* Structure */
      , (49530,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -26,12 +25,7 @@ VALUES (49530,   1,        128) /* ItemType - Misc */
      , (49530, 369,        185) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49530,   1, False) /* Stuck */
-     , (49530,  11, True ) /* IgnoreCollisions */
-     , (49530,  13, True ) /* Ethereal */
-     , (49530,  14, True ) /* GravityStatus */
-     , (49530,  19, True ) /* Attackable */
-     , (49530,  22, True ) /* Inscribable */
+VALUES (49530,  22, True ) /* Inscribable */
      , (49530,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -39,7 +33,7 @@ VALUES (49530,  39,     0.4) /* DefaultScale */
      , (49530, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49530,   1, 'Acid Phyntos Swarm Essence (200)') /* Name */
+VALUES (49530,   1, 'Acid Phyntos Swarm Essence') /* Name */
      , (49530,  14, 'Use this essence to summon or dismiss your Acid Phyntos Swarm.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
