@@ -9,6 +9,7 @@ VALUES (35251,   1,         16) /* ItemType - Creature */
      , (35251,   6,         -1) /* ItemsCapacity */
      , (35251,   7,         -1) /* ContainersCapacity */
      , (35251,  16,          1) /* ItemUseable - No */
+     , (35251,  40,          1) /* CombatMode - NonCombat */
      , (35251,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35251, 133,          1) /* ShowableOnRadar - ShowNever */;
 
