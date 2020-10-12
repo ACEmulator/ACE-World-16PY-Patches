@@ -30,7 +30,7 @@ Use:
             - Tell: You must be a Master of our Society before you may collect a stipend.
 
 GotoSet: give_stipend
-	- Give: Celestial Hand Trade Tokens (38234), 5
+    - Give: Celestial Hand Trade Tokens (38234), 5
     - Give: Celestial Hand Armor Writ (38544)
     - Give: Society Gems of Lesser Luminance (46454), 2
     - InqQuestSolves: SocietyMasterStipendCollectionCounter, 52 - 52
