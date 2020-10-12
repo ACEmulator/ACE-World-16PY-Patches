@@ -30,7 +30,7 @@ Use:
             - Tell: You must be a Master of our Society before you may collect a stipend.
 
 GotoSet: give_stipend
-	- Give: Eldrytch Web Trade Tokens (38237), 5
+    - Give: Eldrytch Web Trade Tokens (38237), 5
     - Give: Eldrytch Web Armor Writ (38545)
     - Give: Society Gems of Lesser Luminance (46454), 2
     - InqQuestSolves: SocietyMasterStipendCollectionCounter, 52 - 52
