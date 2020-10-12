@@ -5,8 +5,8 @@ VALUES (71728, 'ace71728-WebAugRunVersusHand', 1, '2020-09-09 10:00:00') /* Gene
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71728,  66,          1) /* CheckpointStatus */
-     , (71728,  81,         44) /* MaxGeneratedObjects */
-     , (71728,  82,         44) /* InitGeneratedObjects */
+     , (71728,  81,         45) /* MaxGeneratedObjects */
+     , (71728,  82,         45) /* InitGeneratedObjects */
      , (71728,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71728, 103,          2) /* GeneratorDestructionType - Destroy */
      , (71728, 142,          3) /* GeneratorTimeType - Event */
@@ -73,4 +73,5 @@ VALUES (71728, -1, 71706, 800, 1, 1, 1, 4, 0, 0, 0, 0, 0, 0, 0.005, -4.37114E-08
      , (71728, -1, 42345, 800, 1, 1, 1, 4, 0, 0, 0, 0, 67.313, -5.378998, 0.009, -4.37114E-08, 0, 0, -1) /* Generate Well Crafted Wand (42345) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (71728, -1, 42344, 800, 1, 1, 1, 4, 0, 0, 0, 0, 67.52699, 0.04598999, 0, 0.92388, 0, 0, -0.382683) /* Generate Well Crafted Sword (42344) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (71728, -1, 71737, 800, 1, 1, 1, 4, 0, 0, 0, 0, -54.761993, -3.1010132, 0, 1, 0, 0, 0) /* Generate Web v Hand Doorman (71737) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (71728, -1, 71744, 800, 1, 1, 1, 4, 0, 0, 0, 0, 46.916, 70.12799, -11.995, 1, 0, 0, 0) /* Generate Web Captives Doorman (71744) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (71728, -1, 71744, 800, 1, 1, 1, 4, 0, 0, 0, 0, 46.916, 70.12799, -11.995, 1, 0, 0, 0) /* Generate Web Captives Doorman (71744) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (71728, -1, 80007, 800, 1, 1, 1, 4, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Landblock KeepAlive (80007) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

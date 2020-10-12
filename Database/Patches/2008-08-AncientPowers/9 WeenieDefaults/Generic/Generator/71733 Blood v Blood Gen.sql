@@ -5,8 +5,8 @@ VALUES (71733, 'ace71733-BloodAugRunVersusBlood', 1, '2020-09-09 10:00:00') /* G
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71733,  66,          1) /* CheckpointStatus */
-     , (71733,  81,         44) /* MaxGeneratedObjects */
-     , (71733,  82,         44) /* InitGeneratedObjects */
+     , (71733,  81,         45) /* MaxGeneratedObjects */
+     , (71733,  82,         45) /* InitGeneratedObjects */
      , (71733,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71733, 103,          2) /* GeneratorDestructionType - Destroy */
      , (71733, 142,          3) /* GeneratorTimeType - Event */
@@ -73,4 +73,5 @@ VALUES (71733, -1, 42259, 800, 1, 1, 1, 4, 0, 0, 0, 0, 0, 0, 0.005, -4.37114E-08
      , (71733, -1, 42345, 800, 1, 1, 1, 4, 0, 0, 0, 0, 67.313, -5.378998, 0.009, -4.37114E-08, 0, 0, -1) /* Generate Well Crafted Wand (42345) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (71733, -1, 42344, 800, 1, 1, 1, 4, 0, 0, 0, 0, 67.52699, 0.04598999, 0, 0.92388, 0, 0, -0.382683) /* Generate Well Crafted Sword (42344) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (71733, -1, 71742, 800, 1, 1, 1, 4, 0, 0, 0, 0, -54.761993, -3.1010132, 0, 1, 0, 0, 0) /* Generate Blood v Blood Doorman (71742) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (71733, -1, 71745, 800, 1, 1, 1, 4, 0, 0, 0, 0, 46.916, 70.12799, -11.995, 1, 0, 0, 0) /* Generate Blood Captives Doorman (71745) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (71733, -1, 71745, 800, 1, 1, 1, 4, 0, 0, 0, 0, 46.916, 70.12799, -11.995, 1, 0, 0, 0) /* Generate Blood Captives Doorman (71745) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (71733, -1, 80007, 800, 1, 1, 1, 4, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Landblock KeepAlive (80007) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
