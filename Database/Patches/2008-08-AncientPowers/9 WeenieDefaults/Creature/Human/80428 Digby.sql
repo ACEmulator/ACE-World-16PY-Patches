@@ -101,7 +101,6 @@ VALUES (80428,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (80428,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (80428, 2,  2588,  0, 9, 1, False) /* Create Shirt (2588) for Wield */
-     , (80428, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
-     , (80428, 2,  5850,  0, 2, 0.5, False) /* Create Faran Robe (5850) for Wield */
-     , (80428, 2,   121,  0, 93, 0.8, False) /* Create Gloves (121) for Wield */;
+VALUES (80428, 2,  25639,  0, 2, 0, False) /* Create Leather Jerkin (25639) for Wield */
+     , (80428, 2,  25652,  0, 9, 0, False) /* Create Leather Tassets (25652) for Wield */
+     , (80428, 2,   7897,  0, 9, 0, False) /* Create Steel Toed Boots (7897) for Wield */;
