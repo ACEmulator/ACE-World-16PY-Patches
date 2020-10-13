@@ -29,7 +29,7 @@ Use:
 							- EraseQuest: BroodMotherZeroDead
 		TestFailure:
 			- Tell: Only a Lord may assist me in this task. Return when you have invested effort in yourself, our cause and the greater struggles abroad.
-						
+
 GotoSet: CheckBroodMothersDead
 	- InqQuest: BroodMotherZeroDead
 		QuestSuccess:
@@ -50,7 +50,7 @@ GotoSet: CheckBroodMothersDead
 			- Goto: BroodMothersRemain
 
 GotoSet: BroodMothersRemain
-- Tell: Hurry, destroy the Coral Towers that rise on the edges of Nyr'leha, the Moarsmen City. The city lies to the South East of Candeth Keep on the Southern Shores of the Direlands.
+- Tell: Hurry, go to Nyr'leha, the Moarsmen City, and clear all of the Spawning Pools you find there.
 
 GotoSet: BroodMothersDestroyed
 	- InqQuest: TaskSpawnPoolsStarted
