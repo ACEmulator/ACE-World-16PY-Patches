@@ -42,6 +42,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (71762,   5,  -0.025) /* ManaRate */
      , (71762,  26,      50) /* MaximumVelocity */
      , (71762,  29,    1.18) /* WeaponDefense */
+     , (71762,  39,    1.25) /* DefaultScale */
      , (71762,  62,       1) /* WeaponOffense */
      , (71762,  63,    2.48) /* DamageMod */
      , (71762, 138,     2.9) /* SlayerDamageBonus */

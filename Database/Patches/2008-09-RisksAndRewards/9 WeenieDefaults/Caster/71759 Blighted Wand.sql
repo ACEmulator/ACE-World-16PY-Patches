@@ -36,6 +36,7 @@ VALUES (71759,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (71759,   5,  -0.025) /* ManaRate */
+     , (71759,  39,       1) /* DefaultScale */
      , (71759, 138,     1.4) /* SlayerDamageBonus */
      , (71759, 144,    0.02) /* ManaConversionMod */;
 
