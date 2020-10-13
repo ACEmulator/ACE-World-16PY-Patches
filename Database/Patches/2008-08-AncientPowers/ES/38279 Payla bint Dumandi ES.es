@@ -9,7 +9,7 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
 
 Use:
 	- TurnToTarget
-	- InqIntStat: SocietyRankEldweb, 601 - 1001
+	- InqIntStat: SocietyRankRadblo, 601 - 1001
 		TestSuccess:
 			- InqQuest: TaskSpawnPoolsWait
 				QuestSuccess:
