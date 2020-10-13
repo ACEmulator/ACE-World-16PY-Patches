@@ -53,7 +53,7 @@ VALUES (71764,   5,  -0.025) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71764,   1, 'Blighted Mace') /* Name */
-     , (71764,  15, 'The blighted Energy that infuses this axe also consumes it after 24 Hours. The blighted weapon hungers for the blood of Isparians and the weapon is much more effective against them.') /* ShortDesc */;
+     , (71764,  15, 'The blighted Energy that infuses this mace also consumes it after 24 Hours. The blighted weapon hungers for the blood of Isparians and the weapon is much more effective against them.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (71764,   1,   33560673) /* Setup */
