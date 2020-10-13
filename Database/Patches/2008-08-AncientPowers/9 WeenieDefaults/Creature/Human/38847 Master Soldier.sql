@@ -31,19 +31,19 @@ VALUES (38847,   1,    5) /* HeartbeatInterval */
      , (38847,   5,    1) /* ManaRate */
      , (38847,  13, 0.85) /* ArmorModVsSlash */
      , (38847,  14,  0.9) /* ArmorModVsPierce */
-     , (38847,  15, 0.55) /* ArmorModVsBludgeon */
-     , (38847,  16, 0.42) /* ArmorModVsCold */
+     , (38847,  15, 0.71) /* ArmorModVsBludgeon */
+     , (38847,  16, 0.65) /* ArmorModVsCold */
      , (38847,  17,    1) /* ArmorModVsFire */
      , (38847,  18,    1) /* ArmorModVsAcid */
-     , (38847,  19, 0.42) /* ArmorModVsElectric */
+     , (38847,  19, 0.65) /* ArmorModVsElectric */
      , (38847,  31,   18) /* VisualAwarenessRange */
      , (38847,  64,  0.4) /* ResistSlash */
      , (38847,  65,  0.4) /* ResistPierce */
      , (38847,  66, 0.60) /* ResistBludgeon */
      , (38847,  67,  0.4) /* ResistFire */
-     , (38847,  68, 0.65) /* ResistCold */
+     , (38847,  68, 0.70) /* ResistCold */
      , (38847,  69,  0.4) /* ResistAcid */
-     , (38847,  70, 0.65) /* ResistElectric */
+     , (38847,  70, 0.70) /* ResistElectric */
      , (38847,  80,    2) /* AiUseMagicDelay */
      , (38847, 104,   10) /* ObviousRadarRange */
      , (38847, 122,    2) /* AiAcquireHealth */
@@ -83,15 +83,15 @@ VALUES (38847,  31, 0, 2, 0, 240, 0, 0) /* CreatureMagic */
      , (38847,  46, 0, 2, 0, 483, 0, 0) /* FinesseWeapons */
      , (38847,  47, 0, 3, 0, 380, 0, 0) /* MissileWeapons      Specialized */
      , (38847,  44, 0, 2, 0, 483, 0, 0) /* HeavyWeapons */
-     , (38847,  33, 0, 2, 0, 240, 0, 0) /* LifeMagic */
+     , (38847,  33, 0, 2, 0, 270, 0, 0) /* LifeMagic */
      , (38847,  45, 0, 2, 0, 483, 0, 0) /* LightWeapons */
-     , (38847,  15, 0, 2, 0, 390, 0, 0) /* MagicDefense */
+     , (38847,  15, 0, 2, 0, 350, 0, 0) /* MagicDefense */
      , (38847,  16, 0, 2, 0, 240, 0, 0) /* ManaConversion */
-     , (38847,   6, 0, 2, 0, 433, 0, 0) /* MeleeDefense */
-     , (38847,   7, 0, 2, 0, 350, 0, 0) /* MissileDefense */
+     , (38847,   6, 0, 2, 0, 360, 0, 0) /* MeleeDefense */
+     , (38847,   7, 0, 2, 0, 380, 0, 0) /* MissileDefense */
      , (38847,  41, 0, 2, 0, 483, 0, 0) /* TwoHanded */
-     , (38847,  43, 0, 2, 0, 240, 0, 0) /* VoidMagic */
-     , (38847,  34, 0, 2, 0, 240, 0, 0) /* WarMagic */;
+     , (38847,  43, 0, 2, 0, 270, 0, 0) /* VoidMagic */
+     , (38847,  34, 0, 2, 0, 270, 0, 0) /* WarMagic */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (38847,  0,  4,  0,    0,  400,  225,  400,  275,  100,  100,  400,  150,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

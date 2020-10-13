@@ -15,7 +15,7 @@ VALUES (38780,   1,        256) /* ItemType - MissileWeapon */
      , (38780,  16,          1) /* ItemUseable - No */
      , (38780,  18,         64) /* UiEffects - Lightning */
      , (38780,  19,          1) /* Value */
-     , (38780,  44,         40) /* Damage */
+     , (38780,  44,         70) /* Damage */
      , (38780,  45,         64) /* DamageType - Electric */
      , (38780,  50,          1) /* AmmoType - Arrow */
      , (38780,  51,          3) /* CombatUse - Ammo */

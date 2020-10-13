@@ -43,9 +43,9 @@ VALUES (38842,   1,    5) /* HeartbeatInterval */
      , (38842,  65,  0.4) /* ResistPierce */
      , (38842,  66, 0.60) /* ResistBludgeon */
      , (38842,  67,  0.4) /* ResistFire */
-     , (38842,  68, 0.65) /* ResistCold */
+     , (38842,  68, 0.70) /* ResistCold */
      , (38842,  69,  0.4) /* ResistAcid */
-     , (38842,  70, 0.65) /* ResistElectric */
+     , (38842,  70, 0.70) /* ResistElectric */
      , (38842,  80,    2) /* AiUseMagicDelay */
      , (38842, 104,   10) /* ObviousRadarRange */
      , (38842, 122,    2) /* AiAcquireHealth */
@@ -87,7 +87,7 @@ VALUES (38842,  31, 0, 2, 0, 240, 0, 0) /* CreatureMagic */
      , (38842,  44, 0, 2, 0, 483, 0, 0) /* HeavyWeapons */
      , (38842,  33, 0, 2, 0, 240, 0, 0) /* LifeMagic */
      , (38842,  45, 0, 2, 0, 483, 0, 0) /* LightWeapons */
-     , (38842,  15, 0, 2, 0, 390, 0, 0) /* MagicDefense */
+     , (38842,  15, 0, 2, 0, 320, 0, 0) /* MagicDefense */
      , (38842,  16, 0, 2, 0, 240, 0, 0) /* ManaConversion */
      , (38842,   6, 0, 2, 0, 433, 0, 0) /* MeleeDefense */
      , (38842,   7, 0, 2, 0, 350, 0, 0) /* MissileDefense */
@@ -108,20 +108,20 @@ VALUES (38842,  0,  4,  0,    0,  400,  225,  400,  275,  100,  100,  400,  150,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38842,  2074,   2.10)  /* Gossamer Flesh */
+     , (38842,  4453,   2.10)  /* Incantation of Lightning Volley */
+     , (38842,  2174,   2.15)  /* Archer's Gift */
+     , (38842,  4396,   2.11)  /* Incantation of Blood Loather */
+     , (38842,  4579,   2.07)  /* Incantation of Life Magic Ineptitude Other */
      , (38842,  2172,   2.13)  /* Astyrrian's Gift */
-     , (38842,  2174,   2.25)  /* Archer's Gift */
-     , (38842,  4396,   2.10)  /* Incantation of Blood Loather */
-     , (38842,  4408,   2.11)  /* Incantation of Leaden Weapon */
-     , (38842,  4411,   2.12)  /* Incantation of Lure Blade */     
-     , (38842,  4442,   2.30)  /* Incantation of Force Blast */
-     , (38842,  4443,   2.32)  /* Incantation of Force Bolt */
-     , (38842,  4444,   2.35)  /* Incantation of Force Streak */
-     , (38842,  4445,   2.36)  /* Incantation of Force Volley */
-     , (38842,  4451,   2.10)  /* Incantation of Lightning Bolt */
-     , (38842,  4453,   2.33)  /* Incantation of Lightning Volley */
-     , (38842,  4527,   2.10)  /* Incantation of Creature Enchantment Ineptitude Other */
-     , (38842,  4579,   2.12)  /* Incantation of Life Magic Ineptitude Other */
-     , (38842,  4635,   2.15)  /* Incantation of War Magic Ineptitude Other */
+     , (38842,  4451,   2.20)  /* Incantation of Lightning Bolt */
+     , (38842,  4408,   2.05)  /* Incantation of Leaden Weapon */
+     , (38842,  4411,   2.05)  /* Incantation of Lure Blade */
+     , (38842,  4442,   2.10)  /* Incantation of Force Blast */
+     , (38842,  4635,   2.07)  /* Incantation of War Magic Ineptitude Other */
+     , (38842,  4443,   2.07)  /* Incantation of Force Bolt */
+     , (38842,  4444,   2.08)  /* Incantation of Force Streak */
+     , (38842,  4445,   2.06)  /* Incantation of Force Volley */
+     , (38842,  4527,   2.07)  /* Incantation of Creature Enchantment Ineptitude Other */
      , (38842,  4424,   3.00)  /* Incantation of Force Arc */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
