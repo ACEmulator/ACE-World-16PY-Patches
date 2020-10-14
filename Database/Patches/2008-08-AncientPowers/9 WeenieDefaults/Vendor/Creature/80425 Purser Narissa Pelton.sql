@@ -198,6 +198,18 @@ VALUES (80425, 2,  25639,  0, 2, 0, False) /* Create Leather Jerkin (25639) for 
      , (80425, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
      , (80425, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (80425, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
+     , (80425, 4, 71750, -1, 0, 0, False) /* Create Blighted Atlatl Coin (71750) for Shop */
+     , (80425, 4, 71754, -1, 0, 0, False) /* Create Blighted Axe Coin (71754) for Shop */
+     , (80425, 4, 38890, -1, 0, 0, False) /* Create Blighted Bow Coin (38890) for Shop */
+     , (80425, 4, 38896, -1, 0, 0, False) /* Create Blighted Claw Coin (38896) for Shop */
+     , (80425, 4, 71751, -1, 0, 0, False) /* Create Blighted Crossbow Coin (71751) for Shop */
+     , (80425, 4, 71755, -1, 0, 0, False) /* Create Blighted Dagger Coin (71755) for Shop */
+     , (80425, 4, 71753, -1, 0, 0, False) /* Create Blighted Mace Coin (71753) for Shop */
+     , (80425, 4, 71756, -1, 0, 0, False) /* Create Blighted Spear Coin (71756) for Shop */
+     , (80425, 4, 71757, -1, 0, 0, False) /* Create Blighted Staff Coin (71757) for Shop */
+     , (80425, 4, 71758, -1, 0, 0, False) /* Create Blighted Sword Coin (71758) for Shop */
+     , (80425, 4, 38893, -1, 0, 0, False) /* Create Blighted Wand Coin (38893) for Shop */
+     , (80425, 4, 71752, -1, 0, 0, False) /* Create Blighted Two Handed Spear Coin (71752) for Shop */
      , (80425, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (80425, 4,   136, -1, 61, 0, False) /* Create Pack (136) for Shop */
      , (80425, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
