@@ -22,8 +22,7 @@ VALUES (71770,  23, True ) /* DestroyOnSell */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71770,   1, 'Black Market Advancement Gem') /* Name */
-     , (71770,  14, 'Bring this gem to the Black Market Master to receive 200,000,000 experience.') /* Use */
-     , (71770,  20, 'Black Market Advancement Gems') /* PluralName */;
+     , (71770,  14, 'Bring this gem to the Black Market Master to receive 200,000,000 experience.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (71770,   1,   33554809) /* Setup */
