@@ -115,7 +115,7 @@ VALUES (71709,  2074,   2.02)  /* Gossamer Flesh */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (71709, 2, 38854,  1, 0, 0, False) /* Create  (38854) for Wield */
-     , (71709, 2, 38851,  1, 0, 0, False) /* Create  (38851) for Wield */
+     , (71709, 2, 71746,  1, 0, 0, False) /* Create  (71746) for Wield */
      , (71709, 9, 42311,  0, 0, 0, False) /* Create  Key (42311) for ContainTreasure */;
 
 

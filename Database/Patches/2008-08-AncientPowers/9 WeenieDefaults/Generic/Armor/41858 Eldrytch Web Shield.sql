@@ -8,11 +8,13 @@ VALUES (41858,   1,          2) /* ItemType - Armor */
      , (41858,   5,        300) /* EncumbranceVal */
      , (41858,   9,    2097152) /* ValidLocations - Shield */
      , (41858,  16,          1) /* ItemUseable - No */
+     , (41858,  28,        250) /* ArmorLevel */
      , (41858,  33,         -2) /* Bonded - Destroy */
      , (41858,  51,          4) /* CombatUse - Shield */
      , (41858,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41858, 114,          1) /* Attuned - Attuned */
-     , (41858, 151,          2) /* HookType - Wall */;
+     , (41858, 151,          2) /* HookType - Wall */
+     , (41858, 179,  536870912) /* ImbuedEffect - IgnoreSomeMagicProjectileDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41858,  23, True ) /* DestroyOnSell */
@@ -20,7 +22,14 @@ VALUES (41858,  23, True ) /* DestroyOnSell */
      , (41858,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41858,  39,     1.3) /* DefaultScale */
+VALUES (41858,  13,     0.9) /* ArmorModVsSlash */
+     , (41858,  14,     0.9) /* ArmorModVsPierce */
+     , (41858,  15,     0.9) /* ArmorModVsBludgeon */
+     , (41858,  16,     0.9) /* ArmorModVsCold */
+     , (41858,  17,     0.9) /* ArmorModVsFire */
+     , (41858,  18,     0.9) /* ArmorModVsAcid */
+     , (41858,  19,     0.9) /* ArmorModVsElectric */
+     , (41858,  39,     1.3) /* DefaultScale */
      , (41858, 159,       1) /* AbsorbMagicDamage */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
