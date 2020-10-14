@@ -17,7 +17,7 @@ GotoSet: AdvancementGem
         QuestFailure:
             - InqOwnsItems: Trade Note MMD (20630), 100
                 TestSuccess:
-                    - InqYesNo: Do you wish to exchange 100 MMD notes for a 40,0000 luminance gem?
+                    - InqYesNo: Do you wish to exchange 100 MMD notes for a 40,000 luminance gem?
                         TestSuccess:
                             - TakeItems: Trade Note MMD (20630), 100
                             - Tell: There you go, kid. Bring that to the Master of the Black Market and he'll convert it for you.
