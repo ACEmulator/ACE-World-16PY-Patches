@@ -22,8 +22,7 @@ VALUES (51778,  23, True ) /* DestroyOnSell */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51778,   1, 'Freebooter Luminance Gem') /* Name */
-     , (51778,  14, 'Bring this gem to the Freebooter Black Market Master to receive 40,000 luminance.') /* Use */
-     , (51778,  20, 'Freebooter Luminance Gems') /* PluralName */;
+     , (51778,  14, 'Bring this gem to the Freebooter Black Market Master to receive 40,000 luminance.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51778,   1,   33554809) /* Setup */
