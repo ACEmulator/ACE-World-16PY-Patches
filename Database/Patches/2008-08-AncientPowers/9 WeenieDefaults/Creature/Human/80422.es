@@ -16,7 +16,7 @@ Give: Blighted Bow Coin (38890)
 Give: Blighted Claw Coin (38896)
     - TurnToTarget
     - Tell: To be honest, I am glad to rid myself of this weapon. It's a vicious thing, and it eats itself from inside out after a day. I won't ask what you'll be using it for.
-    - Give: Blighted Claw (71760)
+    - Give: Blighted Claw (38910)
 
 Give: Blighted Crossbow Coin (71751)
     - TurnToTarget
