@@ -1,21 +1,21 @@
 HeartBeat: Style: NonCombat, Substyle: Ready
 	- InqMyQuest: SocietyAugNeedReward_0210@Countdown
-        QuestSuccess:
-            - InqMyQuest: SocietyAugInProgress_0611@Countdown
-                QuestFailure:
-                    - Goto: CleanupMission
-        QuestFailure:
-            - InqMyQuest: SocietyAugInProgressWait@Cooldown
-                QuestSuccess:
-                        - InqMyQuest: SocietyAugInProgress_0611@Cooldown
-                            QuestSuccess:
-                                - EraseMyQuest: SocietyAugInProgress_0611
-                                - EraseMyQuest: SocietyAugInProgressWait
-                            QuestFailure:
-                                - StampMyQuest: SocietyAugInProgress_0611
-                                - StopEvent: WebAugRunVersusBlood
-                                - StopEvent: WebAugRunVersusWeb
-                                - StopEvent: WebAugRunVersusHand
+		QuestSuccess:
+			- InqMyQuest: SocietyAugInProgress_0611@Countdown
+				QuestFailure:
+					- Goto: CleanupMission
+		QuestFailure:
+			- InqMyQuest: SocietyAugInProgressWait@Cooldown
+				QuestSuccess:
+						- InqMyQuest: SocietyAugInProgress_0611@Cooldown
+							QuestSuccess:
+								- EraseMyQuest: SocietyAugInProgress_0611
+								- EraseMyQuest: SocietyAugInProgressWait
+							QuestFailure:
+								- StampMyQuest: SocietyAugInProgress_0611
+								- StopEvent: WebAugRunVersusBlood
+								- StopEvent: WebAugRunVersusWeb
+								- StopEvent: WebAugRunVersusHand
 
 //
 // Start Operations Specialist
@@ -45,7 +45,7 @@ Use:
 									- InqYesNo: You will have 40 minutes to complete this quest. Do you wish to begin?
 										TestSuccess:
 											- StopEvent: WebAugRunBooter
-                                            - TakeItems: Prison Key (42313), -1
+											- TakeItems: Prison Key (42313), -1
 											- TakeItems: Supply Room Key (42311), -1
 											- TakeItems: Main Key (42312), -1
 											- TakeItems: Well Crafted Bow (42346), -1
@@ -54,10 +54,11 @@ Use:
 											- Tell: Very well, do not disappoint me.
 											- StampQuest: SocietyAugNeedReward_0210
 											- StampQuest: SocietyAugInProgress_0611
-                                            - StampMyQuest: SocietyAugNeedReward_0210
+											- StampMyQuest: SocietyAugNeedReward_0210
 											- StampMyQuest: SocietyAugInProgress_0611
+											- EraseQuest: AugRunCaptiveFreed
 											- CastSpellInstant: 5181
-                                            - Goto: StartMission
+											- Goto: StartMission
 										TestFailure:
 											- Tell: Please do not waste my time any further, I must find a soldier brave enough to embark on this mission.
 
@@ -69,22 +70,22 @@ GotoSet: HasReadDocumentsGiveReward
 	- Give: Blank Augmentation Gem (29295)
 	- Tell: Ahh that is most useful, you did well soldier.
 	- Tell: You have certainly earned this, we will certainly be able to use you again in the future.
-    - Goto: CleanupMission
+	- Goto: CleanupMission
 
 GotoSet: StartMission, Probability: 0.5
-    - StartEvent: WebAugRunVersusHand
+	- StartEvent: WebAugRunVersusHand
 
 GotoSet: StartMission, Probability: 1.0
-    - StartEvent: WebAugRunVersusBlood
+	- StartEvent: WebAugRunVersusBlood
 
 GotoSet: CleanupMission
-    - EraseMyQuest: SocietyAugNeedReward_0210
-    - EraseMyQuest: SocietyAugInProgress_0611
-    - StartEvent: WebAugRunBooter
-    #- StopEvent: WebAugRunVersusBlood
-    #- StopEvent: WebAugRunVersusWeb
+	- EraseMyQuest: SocietyAugNeedReward_0210
+	- EraseMyQuest: SocietyAugInProgress_0611
+	- StartEvent: WebAugRunBooter
+	#- StopEvent: WebAugRunVersusBlood
+	#- StopEvent: WebAugRunVersusWeb
 	#- StopEvent: WebAugRunVersusHand
-    - StampMyQuest: SocietyAugInProgressWait
+	- StampMyQuest: SocietyAugInProgressWait
 
 # Colo Stuff For Admins
 //HearChat: Quest: ColoResetAll

@@ -12,6 +12,7 @@ VALUES (38839,   1,         16) /* ItemType - Creature */
      , (38839,  25,        220) /* Level */
      , (38839,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (38839,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
+     , (38839, 101,     524288) /* AiAllowedCombatStyle - StubbornMissile */
      , (38839, 113,          1) /* Gender - Male */
      , (38839, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (38839, 146,    1400000) /* XpOverride */

@@ -56,6 +56,7 @@ Use:
 											- StampQuest: SocietyAugInProgress_0611
 											- StampMyQuest: SocietyAugNeedReward_0210
 											- StampMyQuest: SocietyAugInProgress_0611
+											- EraseQuest: AugRunCaptiveFreed
 											- CastSpellInstant: 5180
 											- Goto: StartMission
 										TestFailure:

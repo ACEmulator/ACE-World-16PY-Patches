@@ -12,6 +12,7 @@ VALUES (42261,   1,         16) /* ItemType - Creature */
      , (42261,  25,        220) /* Level */
      , (42261,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (42261,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
+     , (42261, 101,     524288) /* AiAllowedCombatStyle - StubbornMissile */
      , (42261, 113,          1) /* Gender - Male */
      , (42261, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (42261, 146,    1400000) /* XpOverride */
