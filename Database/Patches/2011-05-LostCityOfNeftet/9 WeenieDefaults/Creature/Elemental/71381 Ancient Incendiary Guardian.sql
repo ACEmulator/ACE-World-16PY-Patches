@@ -20,7 +20,6 @@ VALUES (71381,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (71381,   1, True ) /* Stuck */
 	 , (71381,   6, True ) /* AiUsesMana */
-	 , (71381,   7, True ) /* AiUseHumanMagicAnimations */
 	 , (71381,  10, True ) /* AttackerAi */
 	 , (71381,  11, False) /* IgnoreCollisions */
 	 , (71381,  12, True ) /* ReportCollisions */
@@ -75,14 +74,14 @@ VALUES (71381,   1,       5) /* HeartbeatInterval */
 	 , (71381,  80,       4) /* AiUseMagicDelay */
 	 , (71381, 104,      10) /* ObviousRadarRange */
 	 , (71381, 122,       2) /* AiAcquireHealth */
-	 , (71381, 125,       1) /* ResistHealthDrain */												
+	 , (71381, 125,       1) /* ResistHealthDrain */
 	 , (71381,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (71381,   1,  2200, 0, 0, 2250) /* MaxHealth */
 	 , (71381,   3,  3000, 0, 0, 3230) /* MaxStamina */
 	 , (71381,   5,  2000, 0, 0, 2270) /* MaxMana */;
-	 
+
 	 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (71381,   1, 210, 0, 0) /* Strength */
 	 , (71381,   2, 230, 0, 0) /* Endurance */
@@ -119,10 +118,9 @@ VALUES (71381,  1785,   2.06)  /* Cassius' Ring of Fire */
 	 , (71381,  2074,   2.06)  /* Gossamer Flesh */
 	 , (71381,  2745,   2.08)  /* Flame Arc VII */
 	 , (71381,  1841,   2.00)  /* Slithering Flames */;
-	 
 
-	 
-	 
-	 
-	 
-	 
+
+
+
+
+
