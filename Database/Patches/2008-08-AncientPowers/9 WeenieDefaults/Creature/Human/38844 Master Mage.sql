@@ -108,21 +108,21 @@ VALUES (38844,  0,  4,  0,    0,  400,  225,  400,  275,  100,  100,  400,  150,
      , (38844,  8,  4, 120, 0.75,  400,  225,  400,  275,  100,  100,  400,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38844,  2074,   2.10)  /* Gossamer Flesh */
-     , (38844,  4453,   2.10)  /* Incantation of Lightning Volley */
-     , (38844,  2174,   2.15)  /* Archer's Gift */
-     , (38844,  4396,   2.11)  /* Incantation of Blood Loather */
-     , (38844,  4579,   2.07)  /* Incantation of Life Magic Ineptitude Other */
+VALUES (38844,  2074,   2.05)  /* Gossamer Flesh */
+     , (38844,  4453,   2.05)  /* Incantation of Lightning Volley */
+     , (38844,  2174,   2.05)  /* Archer's Gift */
+     , (38844,  4396,   2.03)  /* Incantation of Blood Loather */
+     , (38844,  4579,   2.05)  /* Incantation of Life Magic Ineptitude Other */
      , (38844,  2172,   2.13)  /* Astyrrian's Gift */
      , (38844,  4451,   2.20)  /* Incantation of Lightning Bolt */
-     , (38844,  4408,   2.05)  /* Incantation of Leaden Weapon */
-     , (38844,  4411,   2.05)  /* Incantation of Lure Blade */
+     , (38844,  4408,   2.04)  /* Incantation of Leaden Weapon */
+     , (38844,  4411,   2.04)  /* Incantation of Lure Blade */
      , (38844,  4442,   2.10)  /* Incantation of Force Blast */
-     , (38844,  4635,   2.07)  /* Incantation of War Magic Ineptitude Other */
+     , (38844,  4635,   2.05)  /* Incantation of War Magic Ineptitude Other */
      , (38844,  4443,   2.07)  /* Incantation of Force Bolt */
      , (38844,  4444,   2.08)  /* Incantation of Force Streak */
      , (38844,  4445,   2.06)  /* Incantation of Force Volley */
-     , (38844,  4527,   2.07)  /* Incantation of Creature Enchantment Ineptitude Other */
+     , (38844,  4527,   2.05)  /* Incantation of Creature Enchantment Ineptitude Other */
      , (38844,  4424,   3.00)  /* Incantation of Force Arc */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
