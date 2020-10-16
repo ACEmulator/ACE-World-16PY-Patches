@@ -149,8 +149,8 @@ VALUES (44034, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44034, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (44034, 9, 41979,  1, 0, 0.1, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (44034, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (44034, 9,  6353,  1, 0, 0.2, False) /* Pyreal mote for ContainTreasure */
-     , (44034, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (44034, 9,  6353,  1, 0, 0.05, False) /* Pyreal mote for ContainTreasure */
+     , (44034, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (44034, 9, 44293,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Staff (Level 180+) (44293) for ContainTreasure */
      , (44034, 9, 44296,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Idol (Level 180+) (44296) for ContainTreasure */
      , (44034, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */

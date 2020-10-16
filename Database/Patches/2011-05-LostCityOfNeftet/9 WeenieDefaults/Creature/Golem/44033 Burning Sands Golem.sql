@@ -130,8 +130,8 @@ VALUES (44033, 9, 44240,  4, 0, 0.9, False) /* Create A'nekshay Token (44240) fo
      , (44033, 9,     0,  0, 0, 0.1, False) /* Create nothing for ContainTreasure */
      , (44033, 9, 48941,  1, 0, 0.05, False) /* Create Burning Sands Golem Heart for ContainTreasure */
      , (44033, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (44033, 9,  6353,  1, 0, 0.5, False) /* Pyreal mote for ContainTreasure */
-     , (44033, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
+     , (44033, 9,  6353,  1, 0, 0.05, False) /* Pyreal mote for ContainTreasure */
+     , (44033, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (44033, 9, 44293,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Staff (Level 180+) (44293) for ContainTreasure */
      , (44033, 9, 44296,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Idol (Level 180+) (44296) for ContainTreasure */
      , (44033, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
