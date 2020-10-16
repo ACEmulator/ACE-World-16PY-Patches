@@ -23,7 +23,7 @@ VALUES (80342,   1,         16) /* ItemType - Creature */
      , (80342, 134,          4) /* PlayerKillerStatus - PK */
      , (80342, 145,          2) /* GeneratorEndDestructionType - Destroy */
      , (80342, 146,          0) /* XpOverride */
-     , (80341, 281,          4) /* Faction1Bits */;
+     , (80342, 281,          4) /* Faction1Bits */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80342,   1, True ) /* Stuck */
