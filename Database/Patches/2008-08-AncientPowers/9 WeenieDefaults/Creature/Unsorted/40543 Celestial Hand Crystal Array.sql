@@ -22,7 +22,8 @@ VALUES (40543,   1,         16) /* ItemType - Creature */
      , (40543, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (40543, 134,          4) /* PlayerKillerStatus - PK */
      , (40543, 145,          2) /* GeneratorEndDestructionType - Destroy */
-     , (40543, 146,          0) /* XpOverride */;
+     , (40543, 146,          0) /* XpOverride */
+     , (80341, 281,          1) /* Faction1Bits */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40543,   1, True ) /* Stuck */
