@@ -454,7 +454,9 @@ VALUES (0x700EA15E, 0x700EA15F, '2019-02-10 00:00:00') /* Corrupted Maiden (3745
      , (0x700EA15E, 0x700EA239, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
      , (0x700EA15E, 0x700EA23A, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
      , (0x700EA15E, 0x700EA23B, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
-     , (0x700EA15E, 0x700EA23C, '2019-02-10 00:00:00') /* Pyre Minion (37458) */;
+     , (0x700EA15E, 0x700EA23C, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
+     , (0x700EA15E, 0x700EA21E, '2019-02-10 00:00:00') /* Door (37157) */
+     , (0x700EA15E, 0x700EA21F, '2019-02-10 00:00:00') /* Door (37157) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700EA15F, 37453, 0x00EA04CC, 10.4364, -101.352, -17.995, -0.973524, 0, 0, 0.228584,  True, '2019-02-10 00:00:00'); /* Corrupted Maiden */
@@ -1243,11 +1245,11 @@ VALUES (0x700EA21D, 37490, 0x00EA0229, 33.0883, -33.2496, -48.063, -0.945685, 0,
 /* @teleloc 0x00EA0229 [33.088299 -33.249599 -48.063000] -0.945685 0.000000 0.000000 -0.325083 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700EA21E, 37157, 0x00EA023E, 45.1, -59.85, -48.0434, -0.707107, 0, 0, 0.707107, False, '2020-10-06 19:03:12'); /* Door */
+VALUES (0x700EA21E, 37157, 0x00EA023E, 45.1, -59.85, -48.0434, -0.707107, 0, 0, 0.707107, True, '2020-10-06 19:03:12'); /* Door */
 /* @teleloc 0x00EA023E [45.099998 -59.849998 -48.043400] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700EA21F, 37157, 0x00EA024E, 120.147, -45.1553, -48.0706, 0, 0, 0, 1, False, '2020-10-06 19:27:03'); /* Door */
+VALUES (0x700EA21F, 37157, 0x00EA024E, 120.147, -45.1553, -48.0706, 0, 0, 0, 1, True, '2020-10-06 19:27:03'); /* Door */
 /* @teleloc 0x00EA024E [120.147003 -45.155300 -48.070599] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
