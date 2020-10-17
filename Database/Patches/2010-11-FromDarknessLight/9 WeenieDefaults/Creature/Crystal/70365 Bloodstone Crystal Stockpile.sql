@@ -61,7 +61,7 @@ VALUES (70365,   1, 'Bloodstone Crystal Stockpile') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70365,   1,   33561166) /* Setup */
-     , (70365,   2,  150995147) /* MotionTable */
+     , (70365,   2,  150994977) /* MotionTable */
      , (70365,   3,  536871001) /* SoundTable */
      , (70365,   8,  100690568) /* Icon */
      , (70365,  22,  872415339) /* PhysicsEffectTable */;
