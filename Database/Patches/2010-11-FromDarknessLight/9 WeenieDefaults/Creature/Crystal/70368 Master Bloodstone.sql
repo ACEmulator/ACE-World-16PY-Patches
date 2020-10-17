@@ -71,10 +71,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70368,   1,   33561555) /* Setup */
      , (70368,   2,  150995096) /* MotionTable */
      , (70368,   3,  536871001) /* SoundTable */
-     , (70368,   4,  805306407) /* CombatTable */       
+     , (70368,   4,  805306407) /* CombatTable */
      , (70368,   8,  100691499) /* Icon */
      , (70368,  22,  872415347) /* PhysicsEffectTable */
-     , (70368,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;     
+     , (70368,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (70368,   1, 220, 0, 0) /* Strength */
@@ -88,7 +88,7 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (70368,   1,  140875, 0, 0, 150000) /* MaxHealth */
      , (70368,   3,  5000, 0, 0, 5250) /* MaxStamina */
      , (70368,   5,  5000, 0, 0, 5490) /* MaxMana */;
-     
+
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (70368,  6, 0, 3, 0, 360, 0,    0) /* MeleeDefense        Specialized */
      , (70368,  7, 0, 3, 0, 367, 0,    0) /* MissileDefense      Specialized */
@@ -116,7 +116,7 @@ VALUES (70368,  0,  4,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (70368,  6193,    2.1)  /* Halo of Frost II */
      , (70368,  2138,    2.1)  /* Blizzard */
-     , (70368,  2136,    2.1)  /* Icy Torment */;     
+     , (70368,  2136,    2.1)  /* Icy Torment */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (70368, 9, 43826,  0, 0, 0, False) /* Create Shattered Bloodstone Shard (43826) for ContainTreasure */
@@ -128,3 +128,12 @@ VALUES (70368, 9, 43826,  0, 0, 0, False) /* Create Shattered Bloodstone Shard (
      , (70368, 9, 43826,  0, 0, 0, False) /* Create Shattered Bloodstone Shard (43826) for ContainTreasure */
      , (70368, 9, 43826,  0, 0, 0, False) /* Create Shattered Bloodstone Shard (43826) for ContainTreasure */
      , (70368, 9, 43826,  0, 0, 0, False) /* Create Shattered Bloodstone Shard (43826) for ContainTreasure */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (70368, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id, 0, 23 /* StartEvent */, 0, 1, NULL, 'bloodstonestockpilealive', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 1, 24 /* StopEvent */, 0, 1, NULL, 'bloodstonestockpiledead', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
