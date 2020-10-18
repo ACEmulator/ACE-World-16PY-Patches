@@ -15,7 +15,7 @@ VALUES (38780,   1,        256) /* ItemType - MissileWeapon */
      , (38780,  16,          1) /* ItemUseable - No */
      , (38780,  18,         64) /* UiEffects - Lightning */
      , (38780,  19,          1) /* Value */
-     , (38780,  44,         70) /* Damage */
+     , (38780,  44,         40) /* Damage */
      , (38780,  45,         64) /* DamageType - Electric */
      , (38780,  50,          1) /* AmmoType - Arrow */
      , (38780,  51,          3) /* CombatUse - Ammo */
@@ -31,11 +31,14 @@ VALUES (38780,  17, True ) /* Inelastic */
      , (38780,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38780,  12,       0) /* Shade */
+VALUES (38780,  21,       0) /* WeaponLength */
      , (38780,  22,     0.3) /* DamageVariance */
+     , (38780,  26,       0) /* MaximumVelocity */
      , (38780,  29,       1) /* WeaponDefense */
      , (38780,  39,     1.1) /* DefaultScale */
      , (38780,  62,       1) /* WeaponOffense */
+     , (38780,  63,       1) /* DamageMod */
+     , (38780,  76,     0.8) /* Translucency */
      , (38780,  78,       1) /* Friction */
      , (38780,  79,       0) /* Elasticity */;
 
