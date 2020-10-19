@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43822;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43822, 'ace43822-frozenwight', 10, '2020-05-10 00:00:00') /* Creature */;
+VALUES (43822, 'ace43822-frozenwight', 10, '2020-10-09 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43822,   1,         16) /* ItemType - Creature */
@@ -21,9 +21,6 @@ VALUES (43822,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43822,   1, True ) /* Stuck */
      , (43822,   6, True ) /* AiUsesMana */
-     , (43822,  11, False) /* IgnoreCollisions */
-     , (43822,  12, True ) /* ReportCollisions */
-     , (43822,  13, False) /* Ethereal */
      , (43822,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -73,7 +70,7 @@ VALUES (43822,   1,   33561142) /* Setup */
      , (43822,   4,  805306368) /* CombatTable */    
      , (43822,   6,   67110722) /* PaletteBase */
      , (43822,   7,  268435558) /* ClothingBase */
-     , (43822,   8,  100669124) /* Icon */
+     , (43822,   8,  100667942) /* Icon */
      , (43822,  22,  872415272) /* PhysicsEffectTable */
      , (43822,  32,       2020) /* WieldedTreasureType */      
      , (43822,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;

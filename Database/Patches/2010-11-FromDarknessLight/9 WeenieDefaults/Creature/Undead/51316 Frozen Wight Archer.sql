@@ -27,9 +27,6 @@ VALUES (51316,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51316,   1, True ) /* Stuck */
      , (51316,   6, True ) /* AiUsesMana */
-     , (51316,  11, False) /* IgnoreCollisions */
-     , (51316,  12, True ) /* ReportCollisions */
-     , (51316,  13, False) /* Ethereal */
      , (51316,  50, True ) /* NeverFailCasting */
      , (51316,  52, True ) /* AIimmobile */;
 
@@ -81,7 +78,7 @@ VALUES (51316,   1,   33561142) /* Setup */
      , (51316,   4,  805306368) /* CombatTable */    
      , (51316,   6,   67110722) /* PaletteBase */
      , (51316,   7,  268435558) /* ClothingBase */
-     , (51316,   8,  100669124) /* Icon */
+     , (51316,   8,  100667942) /* Icon */
      , (51316,  22,  872415272) /* PhysicsEffectTable */
      , (51316,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 

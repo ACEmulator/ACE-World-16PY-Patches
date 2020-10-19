@@ -3,7 +3,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44031;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44031, 'ace44031-dustgolem', 10, '2019-08-16 00:00:00') /* Creature */;
+VALUES (44031, 'ace44031-dustgolem', 10, '2020-10-09 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44031,   1,         16) /* ItemType - Creature */
@@ -24,11 +24,7 @@ VALUES (44031,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44031,   1, True ) /* Stuck */
      , (44031,   6, True ) /* AiUsesMana */
-     , (44031,   7, True ) /* AiUseHumanMagicAnimations */
      , (44031,  10, True ) /* AttackerAi */
-     , (44031,  11, False) /* IgnoreCollisions */
-     , (44031,  12, True ) /* ReportCollisions */
-     , (44031,  13, False) /* Ethereal */
      , (44031,  58, True ) /* SpellQueueActive */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -38,7 +34,6 @@ VALUES (44031,   1,       5) /* HeartbeatInterval */
      , (44031,   4,      10) /* StaminaRate */
      , (44031,   5,       3) /* ManaRate */
      , (44031,  12,  0.0667) /* Shade */
-     , (44031,  39,     1.5) /* DefaultScale */
      , (44031,  13,       1) /* ArmorModVsSlash */
      , (44031,  14,     0.9) /* ArmorModVsPierce */
      , (44031,  15,       1) /* ArmorModVsBludgeon */
@@ -50,6 +45,7 @@ VALUES (44031,   1,       5) /* HeartbeatInterval */
      , (44031,  31,      34) /* VisualAwarenessRange */
      , (44031,  34,       1) /* PowerupTime */
      , (44031,  36,       1) /* ChargeSpeed */
+     , (44031,  39,     1.5) /* DefaultScale */
      , (44031,  64,    0.25) /* ResistSlash */
      , (44031,  65,    0.25) /* ResistPierce */
      , (44031,  66,     0.3) /* ResistBludgeon */
@@ -80,7 +76,7 @@ VALUES (44031,   1,   33561253) /* Setup */
      , (44031,   4,  805306376) /* CombatTable */
      , (44031,   6,   67108990) /* PaletteBase */
      , (44031,   8,  100667940) /* Icon */
-     , (44031,  22,  872415321) /* PhysicsEffectTable */
+     , (44031,  22,  872415322) /* PhysicsEffectTable */
      , (44031,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -131,8 +127,8 @@ VALUES (44031, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44031, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (44031, 9, 48908,  1, 0, 0.03, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (44031, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (44031, 9,  6353,  1, 0, 0.2, False) /* Pyreal mote for ContainTreasure */
-     , (44031, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (44031, 9,  6353,  1, 0, 0.05, False) /* Pyreal mote for ContainTreasure */
+     , (44031, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (44031, 9, 44293,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Staff (Level 180+) (44293) for ContainTreasure */
      , (44031, 9, 44296,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Idol (Level 180+) (44296) for ContainTreasure */
      , (44031, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */

@@ -22,7 +22,6 @@ VALUES (48900,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48900,   1, True ) /* Stuck */
      , (48900,   6, True ) /* AiUsesMana */
-     , (48900,   7, True ) /* AiUseHumanMagicAnimations */
      , (48900,  10, True ) /* AttackerAi */
      , (48900,  58, True ) /* SpellQueueActive */;
 
@@ -112,7 +111,7 @@ VALUES (48900,  0,  4,  0,    0,  400,  400,  400,  400,  250,  400,  400,  400,
      , (48900,  8,  4, 480, 0.75,  400,  400,  400,  400,  250,  400,  400,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48900,  3948,   2.06)   /* Flame Wave -  not implemented in ACE */
+VALUES (48900,  3948,   2.06)   /* Flame Wave */
      , (48900,  4481,   2.06)  /* Incantation of Fire Vulnerability Other */
      , (48900,  4644,   2.06)  /* Incantation of Drain Mana Other */
      , (48900,  4643,   2.06)  /* Incantation of Drain Health */

@@ -15,6 +15,7 @@ VALUES (38329,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38329,  22, True ) /* Inscribable */
+     , (38329,  23, True ) /* DestroyOnSell */
      , (38329,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -23,11 +24,14 @@ VALUES (38329,  39,       2) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38329,   1, 'Dagger of T''thuun') /* Name */
      , (38329,  14, 'Return this to your faction.') /* Use */
-     , (38329,  16, 'The dagger pulls, orienting itself to point towards the nearest heart.') /* LongDesc */;
+     , (38329,  16, 'The dagger pulls, orienting itself to point towards the nearest heart.') /* LongDesc */
+     , (38329,  33, 'LordTestFactionItemPickupTimer') /* Quest */
+     , (38329,  37, 'GateWatcherDefeated') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38329,   1,   33558634) /* Setup */
      , (38329,   3,  536870932) /* SoundTable */
+     , (38329,   7,  268436792) /* ClothingBase */
      , (38329,   8,  100675921) /* Icon */
      , (38329,  22,  872415275) /* PhysicsEffectTable */;
 

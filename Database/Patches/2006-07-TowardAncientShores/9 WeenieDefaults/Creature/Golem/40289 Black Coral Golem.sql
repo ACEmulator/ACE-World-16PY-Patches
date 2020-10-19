@@ -61,7 +61,8 @@ VALUES (40289,   1,       5) /* HeartbeatInterval */
      , (40289, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40289,   1, 'Black Coral Golem') /* Name */;
+VALUES (40289,   1, 'Black Coral Golem') /* Name */
+     , (40289,  45, 'BlackMarketBlackCoralGolemKilltask') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40289,   1,   33556426) /* Setup */

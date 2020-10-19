@@ -2,7 +2,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43691;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43691, 'ace43691-frozenwightsorcerer', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (43691, 'ace43691-frozenwightsorcerer', 10, '2020-10-09 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43691,   1,         16) /* ItemType - Creature */
@@ -11,7 +11,7 @@ VALUES (43691,   1,         16) /* ItemType - Creature */
      , (43691,   6,         -1) /* ItemsCapacity */
      , (43691,   7,         -1) /* ContainersCapacity */
      , (43691,  16,          1) /* ItemUseable - No */
-     , (43691,  25,        220) /* Level */
+     , (43691,  25,        240) /* Level */
      , (43691,  27,          0) /* ArmorType - None */
      , (43691,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (43691,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -22,10 +22,6 @@ VALUES (43691,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43691,   1, True ) /* Stuck */
      , (43691,   6, True ) /* AiUsesMana */
-     , (43691,  11, False) /* IgnoreCollisions */
-     , (43691,  12, True ) /* ReportCollisions */
-     , (43691,  13, False) /* Ethereal */
-     , (43691,  19, True ) /* Attackable */
      , (43691,  50, True ) /* NeverFailCasting */;   
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -75,7 +71,7 @@ VALUES (43691,   1,   33561142) /* Setup */
      , (43691,   4,  805306368) /* CombatTable */    
      , (43691,   6,   67110722) /* PaletteBase */
      , (43691,   7,  268435558) /* ClothingBase */
-     , (43691,   8,  100669124) /* Icon */
+     , (43691,   8,  100667942) /* Icon */
      , (43691,  22,  872415272) /* PhysicsEffectTable */
      , (43691,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
