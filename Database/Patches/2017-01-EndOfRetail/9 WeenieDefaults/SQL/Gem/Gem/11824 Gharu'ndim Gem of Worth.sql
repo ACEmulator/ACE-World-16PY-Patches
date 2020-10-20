@@ -13,10 +13,10 @@ VALUES (11824,   1,       2048) /* ItemType - Gem */
      , (11824,  12,          1) /* StackSize */
      , (11824,  13,          5) /* StackUnitEncumbrance */
      , (11824,  14,         25) /* StackUnitMass */
-     , (11824,  15,       1500) /* StackUnitValue */
+     , (11824,  15,        400) /* StackUnitValue */
      , (11824,  16,          8) /* ItemUseable - Contained */
      , (11824,  18,          1) /* UiEffects - Magical */
-     , (11824,  19,       1500) /* Value */
+     , (11824,  19,        400) /* Value */
      , (11824,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11824,  94,         16) /* TargetType - Creature */
      , (11824, 106,        210) /* ItemSpellcraft */
