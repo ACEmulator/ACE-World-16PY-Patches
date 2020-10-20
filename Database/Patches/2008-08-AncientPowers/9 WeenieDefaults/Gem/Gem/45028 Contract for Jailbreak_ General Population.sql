@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45028;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45028, 'ace45028-contractforjailbreakgeneralpopulation', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (45028, 'ace45028-contractforjailbreakgeneralpopulation', 38, '2020-10-20 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45028,   1,       2048) /* ItemType - Gem */
@@ -27,7 +27,7 @@ VALUES (45028, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45028,   1, 'Contract for Jailbreak: General Population') /* Name */
-     , (45028,  16, 'Cull the population of the escaped Moarsmen prisoners.') /* LongDesc */;
+     , (45028,  16, 'Cull the population of escaped Moarsmen prisoners.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45028,   1,   33557625) /* Setup */

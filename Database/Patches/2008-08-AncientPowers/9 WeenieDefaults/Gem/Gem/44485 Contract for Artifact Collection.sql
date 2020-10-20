@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44485;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44485, 'ace44485-contractforartifactcollection', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (44485, 'ace44485-contractforartifactcollection', 38, '2020-10-20 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44485,   1,       2048) /* ItemType - Gem */
@@ -15,7 +15,7 @@ VALUES (44485,   1,       2048) /* ItemType - Gem */
      , (44485,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44485,  94,         16) /* TargetType - Creature */
      , (44485, 280,        100) /* SharedCooldown */
-     , (44485, 349,        129) /* UseCreatesContractId */;
+     , (44485, 349,         94) /* UseCreatesContractId */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44485,  22, True ) /* Inscribable */

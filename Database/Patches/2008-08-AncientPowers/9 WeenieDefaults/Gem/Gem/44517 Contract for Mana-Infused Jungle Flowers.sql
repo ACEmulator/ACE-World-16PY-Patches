@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44517;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44517, 'ace44517-contractformanainfusedjungleflowers', 38, '2020-08-18 00:00:00') /* Gem */;
+VALUES (44517, 'ace44517-contractformanainfusedjungleflowers', 38, '2020-10-20 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44517,   1,       2048) /* ItemType - Gem */
@@ -19,19 +19,14 @@ VALUES (44517,   1,       2048) /* ItemType - Gem */
      , (44517, 349,        136) /* UseCreatesContractId - Mana-infused Jungle Flowers */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44517,  11, True ) /* Ignore Collisions */
-     , (44517,  13, True ) /* Ethereal */
-	 , (44517,  14, True ) /* Gravity Status */
-     , (44517,  15, True ) /* Lights Status */
-     , (44517,  19, True ) /* Attackable */
-     , (44517,  22, True ) /* Inscribable */
+VALUES (44517,  22, True ) /* Inscribable */
      , (44517,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44517, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44517,   1, 'Contract for Mana-infused Jungle Flowers') /* Name */
+VALUES (44517,   1, 'Contract for Mana-Infused Jungle Flowers') /* Name */
      , (44517,  16, 'Collect 20 Mana-Infused Jungle Flowers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

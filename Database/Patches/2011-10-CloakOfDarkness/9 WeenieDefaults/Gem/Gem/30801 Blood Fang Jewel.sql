@@ -1,20 +1,20 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30801;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30801, 'gemportalobsidianrim', 38, '2020-05-13 10:00:00') /* Gem */;
+VALUES (30801, 'gemportalobsidianrim', 38, '2020-10-20 10:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30801,   1,       2048) /* ItemType - Gem */
      , (30801,   5,         50) /* EncumbranceVal */
      , (30801,   8,          5) /* Mass */
      , (30801,   9,          0) /* ValidLocations - None */
-     , (30801,  11,          1) /* MaxStackSize */
+     , (30801,  11,         25) /* MaxStackSize */
      , (30801,  12,          1) /* StackSize */
      , (30801,  13,         50) /* StackUnitEncumbrance */
      , (30801,  14,          5) /* StackUnitMass */
-     , (30801,  15,       5000) /* StackUnitValue */
+     , (30801,  15,        400) /* StackUnitValue */
      , (30801,  16,          8) /* ItemUseable - Contained */
-     , (30801,  19,       5000) /* Value */
+     , (30801,  19,        400) /* Value */
      , (30801,  33,          0) /* Bonded - Normal */
      , (30801,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (30801,  94,         16) /* TargetType - Creature */
@@ -27,8 +27,7 @@ VALUES (30801,   1,       2048) /* ItemType - Gem */
      , (30801, 280,       1000) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30801,  15, True ) /* LightsStatus */
-     , (30801,  22, True ) /* Inscribable */
+VALUES (30801,  22, True ) /* Inscribable */
      , (30801,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
