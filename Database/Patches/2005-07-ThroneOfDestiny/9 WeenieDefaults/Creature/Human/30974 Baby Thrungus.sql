@@ -75,7 +75,7 @@ VALUES (30974,   1,  60, 0, 0) /* Strength */
      , (30974,   3,  80, 0, 0) /* Quickness */
      , (30974,   4,  50, 0, 0) /* Coordination */
      , (30974,   5, 120, 0, 0) /* Focus */
-     , (30974,   6, 130, 0, 0) /* Self */
+     , (30974,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (30974,   1,    10, 0, 0, 45) /* MaxHealth */
