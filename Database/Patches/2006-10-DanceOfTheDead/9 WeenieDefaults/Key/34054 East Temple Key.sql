@@ -8,10 +8,12 @@ VALUES (34054,   1,      16384) /* ItemType - Key */
      , (34054,   5,        100) /* EncumbranceVal */
      , (34054,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (34054,  19,          0) /* Value */
+     , (34054,  33,          1) /* Bonded - Bonded */
      , (34054,  91,          1) /* MaxStructure */
      , (34054,  92,          1) /* Structure */
      , (34054,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34054,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (34054,  94,        640) /* TargetType - LockableMagicTarget */
+     , (34054, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34054,  22, True ) /* Inscribable */;
