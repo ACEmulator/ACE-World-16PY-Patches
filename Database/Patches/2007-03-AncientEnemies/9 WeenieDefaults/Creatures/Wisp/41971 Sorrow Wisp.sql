@@ -94,7 +94,7 @@ VALUES (41971,  6, 0, 3, 0, 385, 0, 0) /* MeleeDefense        Specialized */
      , (41971,  7, 0, 3, 0, 365, 0, 0) /* MissileDefense      Specialized */
      , (41971, 15, 0, 3, 0, 225, 0, 0) /* MagicDefense        Specialized */
      , (41971, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */
-     , (41971, 24, 0, 2, 0,  10, 0, 0) /* Run                 Trained */
+     , (41971, 24, 0, 2, 0, 600, 0, 0) /* Run                 Trained */
      , (41971, 31, 0, 3, 0, 100, 0, 0) /* CreatureEnchantment Specialized */
      , (41971, 33, 0, 3, 0, 100, 0, 0) /* LifeMagic           Specialized */
      , (41971, 34, 0, 3, 0, 100, 0, 0) /* WarMagic            Specialized */

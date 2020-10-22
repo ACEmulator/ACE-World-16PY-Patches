@@ -33,13 +33,13 @@ VALUES (36173,   1,       5) /* HeartbeatInterval */
      , (36173,   3,   0.067) /* HealthRate */
      , (36173,   4,       5) /* StaminaRate */
      , (36173,   5,       2) /* ManaRate */
-     , (36173,  13,       1) /* ArmorModVsSlash */
-     , (36173,  14,       1) /* ArmorModVsPierce */
-     , (36173,  15,       1) /* ArmorModVsBludgeon */
-     , (36173,  16,       1) /* ArmorModVsCold */
-     , (36173,  17,       1) /* ArmorModVsFire */
-     , (36173,  18,       1) /* ArmorModVsAcid */
-     , (36173,  19,       1) /* ArmorModVsElectric */
+     , (36173,  13,    0.97) /* ArmorModVsSlash */
+     , (36173,  14,    0.96) /* ArmorModVsPierce */
+     , (36173,  15,    0.78) /* ArmorModVsBludgeon */
+     , (36173,  16,    0.96) /* ArmorModVsCold */
+     , (36173,  17,    0.97) /* ArmorModVsFire */
+     , (36173,  18,    0.97) /* ArmorModVsAcid */
+     , (36173,  19,    0.82) /* ArmorModVsElectric */
      , (36173,  31,      15) /* VisualAwarenessRange */
      , (36173,  34,       2) /* PowerupTime */
      , (36173,  36,       1) /* ChargeSpeed */
@@ -88,15 +88,9 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (36173,  6, 0, 2, 0, 360, 0, 0) /* MeleeDefense        Trained */
      , (36173,  7, 0, 2, 0, 256, 0, 0) /* MissileDefense      Trained */
      , (36173, 15, 0, 2, 0, 156, 0, 0) /* MagicDefense        Trained */
-     , (36173, 16, 0, 2, 0, 165, 0, 0) /* ManaConversion      Trained */
-     , (36173, 31, 0, 2, 0, 198, 0, 0) /* CreatureEnchantment Trained */
-     , (36173, 33, 0, 2, 0, 198, 0, 0) /* LifeMagic           Trained */
-     , (36173, 34, 0, 2, 0, 198, 0, 0) /* WarMagic            Trained */
-     , (36173, 41, 0, 2, 0, 400, 0, 0) /* TwoHandedCombat     Trained */
-     , (36173, 43, 0, 2, 0, 198, 0, 0) /* VoidMagic           Trained */
      , (36173, 44, 0, 2, 0, 400, 0, 0) /* HeavyWeapons        Trained */
      , (36173, 45, 0, 2, 0, 400, 0, 0) /* LightWeapons        Trained */
-     , (36173, 46, 0, 2, 0, 360, 0, 0) /* FinesseWeapons      Trained */;
+     , (36173, 46, 0, 2, 0, 400, 0, 0) /* FinesseWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (36173,  0,  2,  2, 0.75,    8,    8,    4,    4,    8,    3,    6,    6,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */
@@ -104,15 +98,15 @@ VALUES (36173,  0,  2,  2, 0.75,    8,    8,    4,    4,    8,    3,    6,    6,
      , (36173, 17,  4,  0,    0,    8,    8,    4,    4,    8,    3,    6,    6,    0, 3,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25) /* Tail */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36173, 9, 36171,  0, 0, 0, False) /* Create DeathTail's Fang (36171) for ContainTreasure */
-     , (36173, 9, 36171,  0, 0, 0, False) /* Create DeathTail's Fang (36171) for ContainTreasure */
-     , (36173, 9, 36171,  0, 0, 0, False) /* Create DeathTail's Fang (36171) for ContainTreasure */
-     , (36173, 9, 36171,  0, 0, 0, False) /* Create DeathTail's Fang (36171) for ContainTreasure */
-     , (36173, 9, 36171,  0, 0, 0, False) /* Create DeathTail's Fang (36171) for ContainTreasure */
-     , (36173, 9, 36171,  0, 0, 0, False) /* Create DeathTail's Fang (36171) for ContainTreasure */
-     , (36173, 9, 36171,  0, 0, 0, False) /* Create DeathTail's Fang (36171) for ContainTreasure */
-     , (36173, 9, 36171,  0, 0, 0, False) /* Create DeathTail's Fang (36171) for ContainTreasure */
-     , (36173, 9, 36171,  0, 0, 0, False) /* Create DeathTail's Fang (36171) for ContainTreasure */
+VALUES (36173, 9, 36171,  0, 0, 0, False) /* Create  (36171) for ContainTreasure */
+     , (36173, 9, 36171,  0, 0, 0, False) /* Create  (36171) for ContainTreasure */
+     , (36173, 9, 36171,  0, 0, 0, False) /* Create  (36171) for ContainTreasure */
+     , (36173, 9, 36171,  0, 0, 0, False) /* Create  (36171) for ContainTreasure */
+     , (36173, 9, 36171,  0, 0, 0, False) /* Create  (36171) for ContainTreasure */
+     , (36173, 9, 36171,  0, 0, 0, False) /* Create  (36171) for ContainTreasure */
+     , (36173, 9, 36171,  0, 0, 0, False) /* Create  (36171) for ContainTreasure */
+     , (36173, 9, 36171,  0, 0, 0, False) /* Create  (36171) for ContainTreasure */
+     , (36173, 9, 36171,  0, 0, 0, False) /* Create  (36171) for ContainTreasure */
      , (36173, 9, 35383,  0, 0, 0.35, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
      , (36173, 9,     0,  0, 0, 0.65, False) /* Create nothing for ContainTreasure */
      , (36173, 9, 35383,  0, 0, 0.55, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */

@@ -90,17 +90,17 @@ VALUES (37458,   1,  2800, 0, 0, 3000) /* MaxHealth */
      , (37458,   5,     0, 0, 0, 250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (37458,  6, 0, 2, 0, 645, 0, 0) /* MeleeDefense        Trained */
+VALUES (37458,  6, 0, 2, 0, 445, 0, 0) /* MeleeDefense        Trained */
      , (37458,  7, 0, 2, 0, 149, 0, 0) /* MissileDefense      Trained */
      , (37458, 15, 0, 2, 0, 170, 0, 0) /* MagicDefense        Trained */
      , (37458, 16, 0, 2, 0, 149, 0, 0) /* ManaConversion      Trained */
      , (37458, 31, 0, 2, 0, 149, 0, 0) /* CreatureEnchantment Trained */
      , (37458, 33, 0, 2, 0, 149, 0, 0) /* LifeMagic           Trained */
      , (37458, 34, 0, 2, 0, 149, 0, 0) /* WarMagic            Trained */
-     , (37458, 41, 0, 2, 0, 713, 0, 0) /* TwoHandedCombat     Trained */
-     , (37458, 44, 0, 2, 0, 713, 0, 0) /* HeavyWeapons        Trained */
-     , (37458, 45, 0, 2, 0, 713, 0, 0) /* LightWeapons        Trained */
-     , (37458, 46, 0, 2, 0, 713, 0, 0) /* FinesseWeapons      Trained */;
+     , (37458, 41, 0, 2, 0, 413, 0, 0) /* TwoHandedCombat     Trained */
+     , (37458, 44, 0, 2, 0, 413, 0, 0) /* HeavyWeapons        Trained */
+     , (37458, 45, 0, 2, 0, 413, 0, 0) /* LightWeapons        Trained */
+     , (37458, 46, 0, 2, 0, 413, 0, 0) /* FinesseWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (37458,  0,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

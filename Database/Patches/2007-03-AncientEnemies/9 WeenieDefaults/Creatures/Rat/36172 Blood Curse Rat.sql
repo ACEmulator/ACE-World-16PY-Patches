@@ -31,13 +31,13 @@ VALUES (36172,   1,       5) /* HeartbeatInterval */
      , (36172,   3,   0.067) /* HealthRate */
      , (36172,   4,       5) /* StaminaRate */
      , (36172,   5,       2) /* ManaRate */
-     , (36172,  13,       1) /* ArmorModVsSlash */
-     , (36172,  14,       1) /* ArmorModVsPierce */
-     , (36172,  15,       1) /* ArmorModVsBludgeon */
-     , (36172,  16,       1) /* ArmorModVsCold */
-     , (36172,  17,       1) /* ArmorModVsFire */
-     , (36172,  18,       1) /* ArmorModVsAcid */
-     , (36172,  19,       1) /* ArmorModVsElectric */
+     , (36172,  13,    0.98) /* ArmorModVsSlash */
+     , (36172,  14,    0.98) /* ArmorModVsPierce */
+     , (36172,  15,    0.72) /* ArmorModVsBludgeon */
+     , (36172,  16,    0.98) /* ArmorModVsCold */
+     , (36172,  17,    0.98) /* ArmorModVsFire */
+     , (36172,  18,    0.98) /* ArmorModVsAcid */
+     , (36172,  19,    0.72) /* ArmorModVsElectric */
      , (36172,  31,      15) /* VisualAwarenessRange */
      , (36172,  34,       2) /* PowerupTime */
      , (36172,  36,       1) /* ChargeSpeed */
@@ -62,6 +62,7 @@ VALUES (36172,   1,   33554493) /* Setup */
      , (36172,   2,  150995356) /* MotionTable */
      , (36172,   3,  536870927) /* SoundTable */
      , (36172,   4,  805306377) /* CombatTable */
+     , (36172,   7,  268436014) /* ClothingBase */
      , (36172,   8,  100667451) /* Icon */
      , (36172,  22,  872415425) /* PhysicsEffectTable */
      , (36172,  30,         86) /* PhysicsScript - BreatheAcid */

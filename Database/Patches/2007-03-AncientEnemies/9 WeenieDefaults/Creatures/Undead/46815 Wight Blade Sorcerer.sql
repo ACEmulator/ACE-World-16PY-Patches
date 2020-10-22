@@ -6,6 +6,7 @@ VALUES (46815, 'ace46815-wightbladesorcerer', 10, '2020-07-23 03:33:55') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46815,   1,         16) /* ItemType - Creature */
      , (46815,   2,         14) /* CreatureType - Undead */
+     , (46815,   3,         10) /* PaletteTemplate - LightBlue */
      , (46815,   6,         -1) /* ItemsCapacity */
      , (46815,   7,         -1) /* ContainersCapacity */
      , (46815,  16,          1) /* ItemUseable - No */
@@ -32,6 +33,7 @@ VALUES (46815,   1,       5) /* HeartbeatInterval */
      , (46815,   3,     0.1) /* HealthRate */
      , (46815,   4,       5) /* StaminaRate */
      , (46815,   5,       2) /* ManaRate */
+     , (46815,  12,       0) /* Shade */
      , (46815,  13,    0.37) /* ArmorModVsSlash */
      , (46815,  14,    0.37) /* ArmorModVsPierce */
      , (46815,  15,     0.5) /* ArmorModVsBludgeon */
@@ -64,6 +66,7 @@ VALUES (46815,   1,   33560225) /* Setup */
      , (46815,   3,  536870934) /* SoundTable */
      , (46815,   4,  805306368) /* CombatTable */
      , (46815,   6,   67110722) /* PaletteBase */
+     , (46815,   7,  268435558) /* ClothingBase */
      , (46815,   8,  100667942) /* Icon */
      , (46815,  22,  872415272) /* PhysicsEffectTable */
      , (46815,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;

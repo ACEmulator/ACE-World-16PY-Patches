@@ -6,6 +6,7 @@ VALUES (35091, 'ace35091-wight', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35091,   1,         16) /* ItemType - Creature */
      , (35091,   2,         14) /* CreatureType - Undead */
+     , (35091,   3,         68) /* PaletteTemplate - BlueSlime */
      , (35091,   6,         -1) /* ItemsCapacity */
      , (35091,   7,         -1) /* ContainersCapacity */
      , (35091,  16,          1) /* ItemUseable - No */
@@ -31,6 +32,7 @@ VALUES (35091,   1,       5) /* HeartbeatInterval */
      , (35091,   3,     0.1) /* HealthRate */
      , (35091,   4,       5) /* StaminaRate */
      , (35091,   5,       2) /* ManaRate */
+     , (35091,  12,       0) /* Shade */
      , (35091,  13,    0.37) /* ArmorModVsSlash */
      , (35091,  14,    0.37) /* ArmorModVsPierce */
      , (35091,  15,     0.5) /* ArmorModVsBludgeon */
@@ -62,8 +64,34 @@ VALUES (35091,   1,   33560225) /* Setup */
      , (35091,   3,  536870934) /* SoundTable */
      , (35091,   4,  805306368) /* CombatTable */
      , (35091,   6,   67110722) /* PaletteBase */
+     , (35091,   7,  268435558) /* ClothingBase */
      , (35091,   8,  100667942) /* Icon */
      , (35091,  22,  872415272) /* PhysicsEffectTable */
+     , (35091,  32,       2020) /* WieldedTreasureType - 
+                                   Wield Electric Crossbow (47856) | Probability: 5.7999997%
+                                   Wield 30x Lightning Quarrel (48067) | Probability: 100%
+                                   Wield Acid Crossbow (47854) | Probability: 5.7999997%
+                                   Wield 30x Acid Quarrel (48066) | Probability: 100%
+                                   Wield Heavy Crossbow (47858) | Probability: 5.7999997%
+                                   Wield 30x Quarrel (48065) | Probability: 100%
+                                   Wield Arbalest (47852) | Probability: 5.7999997%
+                                   Wield 30x Quarrel (48065) | Probability: 100%
+                                   Wield Lightning Silifi (48076) | Probability: 7.5000005%
+                                   Wield Lightning Nekode (48073) | Probability: 7.5000005%
+                                   Wield Acid Ono (48078) | Probability: 7.5000005%
+                                   Wield Silifi (48074) | Probability: 7.5000005%
+                                   Wield Nekode (48071) | Probability: 7.5000005%
+                                   Wield Katar (48069) | Probability: 7.5000005%
+                                   Wield Acid Silifi (48075) | Probability: 7.5000005%
+                                   Wield Lightning Ono (48079) | Probability: 7.5000005%
+                                   Wield Ono (48077) | Probability: 7.5000005%
+                                   Wield Lightning Katar (48070) | Probability: 7.5000005%
+                                   Wield Acid Nekode (48072) | Probability: 7.5000005%
+                                   Wield Acid Quarrel (48066) | Probability: 7.5000005%
+                                   Wield Acid Katar (48068) | Probability: 7.5000005%
+                                   Wield Kite Shield (91) | Probability: 30.000002%
+                                   Wield Round Shield (93) | Probability: 30.000002%
+                                   Wield Buckler (44) | Probability: 30.000002% */
      , (35091,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

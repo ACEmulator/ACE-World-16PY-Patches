@@ -6,7 +6,7 @@ VALUES (40926, 'ace40926-pyreskeleton', 10, '2019-08-22 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40926,   1,         16) /* ItemType - Creature */
      , (40926,   2,         30) /* CreatureType - Skeleton */
-     , (40926,   3,         39) /* PaletteTemplate - Black */
+     , (40926,   3,          9) /* PaletteTemplate - Grey */
      , (40926,   6,         -1) /* ItemsCapacity */
      , (40926,   7,         -1) /* ContainersCapacity */
      , (40926,  16,          1) /* ItemUseable - No */
@@ -71,7 +71,7 @@ VALUES (40926,   1,   33558396) /* Setup */
      , (40926,   3,  536870942) /* SoundTable */
      , (40926,   4,  805306368) /* CombatTable */
      , (40926,   6,   67116522) /* PaletteBase */
-     , (40926,   7,  268435646) /* ClothingBase */
+     , (40926,   7,  268437010) /* ClothingBase */
      , (40926,   8,  100669124) /* Icon */
      , (40926,  22,  872415269) /* PhysicsEffectTable */
      , (40926,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
@@ -130,7 +130,7 @@ VALUES (40926, 2, 35095,  1, 0, 0, False) /* Create Pyre Claw (35095) for Wield 
      , (40926, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (40926, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
      , (40926, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (40926, 9, 35504,  0, 0, 0.06, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
+     , (40926, 9, 35504,  0, 0, 0.06, False) /* Create  (35504) for ContainTreasure */
      , (40926, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (40926, 9, 37247,  0, 0, 0.0125, False) /* Create Ace of Eyes (37247) for ContainTreasure */
      , (40926, 9, 37248,  0, 0, 0.0125, False) /* Create Two of Eyes (37248) for ContainTreasure */

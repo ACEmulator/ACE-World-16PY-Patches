@@ -6,6 +6,7 @@ VALUES (41968, 'ace41968-wightcaptain', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41968,   1,         16) /* ItemType - Creature */
      , (41968,   2,         14) /* CreatureType - Undead */
+     , (41968,   3,         70) /* PaletteTemplate - PurpleSlime */
      , (41968,   6,         -1) /* ItemsCapacity */
      , (41968,   7,         -1) /* ContainersCapacity */
      , (41968,  16,          1) /* ItemUseable - No */
@@ -31,6 +32,7 @@ VALUES (41968,   1,       5) /* HeartbeatInterval */
      , (41968,   3,     0.1) /* HealthRate */
      , (41968,   4,       5) /* StaminaRate */
      , (41968,   5,       2) /* ManaRate */
+     , (41968,  12,       0) /* Shade */
      , (41968,  13,    0.37) /* ArmorModVsSlash */
      , (41968,  14,    0.37) /* ArmorModVsPierce */
      , (41968,  15,     0.5) /* ArmorModVsBludgeon */
@@ -63,6 +65,7 @@ VALUES (41968,   1,   33560225) /* Setup */
      , (41968,   3,  536870934) /* SoundTable */
      , (41968,   4,  805306368) /* CombatTable */
      , (41968,   6,   67110722) /* PaletteBase */
+     , (41968,   7,  268435558) /* ClothingBase */
      , (41968,   8,  100667942) /* Icon */
      , (41968,  22,  872415272) /* PhysicsEffectTable */
      , (41968,  32,       2020) /* WieldedTreasureType - 

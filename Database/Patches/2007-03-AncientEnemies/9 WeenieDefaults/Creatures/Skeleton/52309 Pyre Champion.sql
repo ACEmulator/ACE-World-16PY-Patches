@@ -92,17 +92,17 @@ VALUES (52309,   1,  6581, 0, 0, 6831) /* MaxHealth */
      , (52309,   5,  3500, 0, 0, 3900) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52309,  6, 0, 2, 0, 709, 0, 0) /* MeleeDefense        Trained */
+VALUES (52309,  6, 0, 2, 0, 555, 0, 0) /* MeleeDefense        Trained */
      , (52309,  7, 0, 2, 0, 149, 0, 0) /* MissileDefense      Trained */
      , (52309, 15, 0, 2, 0, 170, 0, 0) /* MagicDefense        Trained */
      , (52309, 16, 0, 2, 0, 360, 0, 0) /* ManaConversion      Trained */
      , (52309, 31, 0, 2, 0, 360, 0, 0) /* CreatureEnchantment Trained */
      , (52309, 33, 0, 2, 0, 360, 0, 0) /* LifeMagic           Trained */
      , (52309, 34, 0, 2, 0, 360, 0, 0) /* WarMagic            Trained */
-     , (52309, 41, 0, 2, 0, 728, 0, 0) /* TwoHandedCombat     Trained */
-     , (52309, 44, 0, 2, 0, 728, 0, 0) /* HeavyWeapons        Trained */
-     , (52309, 45, 0, 2, 0, 728, 0, 0) /* LightWeapons        Trained */
-     , (52309, 46, 0, 2, 0, 728, 0, 0) /* FinesseWeapons      Trained */;
+     , (52309, 41, 0, 2, 0, 528, 0, 0) /* TwoHandedCombat     Trained */
+     , (52309, 44, 0, 2, 0, 528, 0, 0) /* HeavyWeapons        Trained */
+     , (52309, 45, 0, 2, 0, 528, 0, 0) /* LightWeapons        Trained */
+     , (52309, 46, 0, 2, 0, 528, 0, 0) /* FinesseWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (52309,  0,  4,  0,    0,  280,  280,  280,  280,  280,  280,  280,  280,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -137,7 +137,7 @@ VALUES (52309, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield
      , (52309, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (52309, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
      , (52309, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (52309, 9, 35504,  0, 0, 0.06, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
+     , (52309, 9, 35504,  0, 0, 0.06, False) /* Create  (35504) for ContainTreasure */
      , (52309, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (52309, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
      , (52309, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
