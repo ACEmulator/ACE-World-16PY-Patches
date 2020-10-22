@@ -82,17 +82,17 @@ VALUES (38713,   1, 350, 0, 0) /* Strength */
      , (38713,   6, 480, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38713,   1,  7825, 0, 0, 8000) /* MaxHealth */
+VALUES (38713,   1,  3935, 0, 0, 4110) /* MaxHealth */
      , (38713,   3,  3000, 0, 0, 3350) /* MaxStamina */
      , (38713,   5,  4800, 0, 0, 5280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (38713,  6, 0, 3, 0, 333, 0,    0) /* MeleeDefense        Specialized */
-     , (38713,  7, 0, 3, 0, 240, 0,    0) /* MissileDefense      Specialized */
-     , (38713, 15, 0, 3, 0, 237, 0,    0) /* MagicDefense        Specialized */
+VALUES (38713,  6, 0, 3, 0, 490, 0,    0) /* MeleeDefense        Specialized */
+     , (38713,  7, 0, 3, 0, 340, 0,    0) /* MissileDefense      Specialized */
+     , (38713, 15, 0, 3, 0, 467, 0,    0) /* MagicDefense        Specialized */
      , (38713, 20, 0, 3, 0, 100, 0,    0) /* Deception           Specialized */
-     , (38713, 33, 0, 3, 0, 340, 0,    0) /* LifeMagic           Specialized */
-     , (38713, 34, 0, 3, 0, 340, 0,    0) /* WarMagic            Specialized */
+     , (38713, 33, 0, 3, 0, 480, 0,    0) /* LifeMagic           Specialized */
+     , (38713, 34, 0, 3, 0, 480, 0,    0) /* WarMagic            Specialized */
      , (38713, 41, 0, 3, 0, 343, 0,    0) /* Two Handed          Specialized */
      , (38713, 44, 0, 3, 0, 343, 0,    0) /* Heavy Weapons       Specialized */
      , (38713, 45, 0, 3, 0, 343, 0,    0) /* Light Weapons       Specialized */
