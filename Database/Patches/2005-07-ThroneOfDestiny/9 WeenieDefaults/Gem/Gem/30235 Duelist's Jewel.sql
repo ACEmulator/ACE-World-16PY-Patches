@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30235;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30235, 'gemrarevolatileslashingprotection', 38, '2019-08-11 06:52:23') /* Gem */;
+VALUES (30235, 'gemrarevolatileslashingprotection', 38, '2020-10-23 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30235,   1,       2048) /* ItemType - Gem */
@@ -23,6 +23,7 @@ VALUES (30235,   1,       2048) /* ItemType - Gem */
      , (30235,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30235,  94,         16) /* TargetType - Creature */
      , (30235, 106,        325) /* ItemSpellcraft */
+     , (30235, 107,      10000) /* ItemCurMana */
      , (30235, 108,      10000) /* ItemMaxMana */
      , (30235, 109,          0) /* ItemDifficulty */
      , (30235, 150,        103) /* HookPlacement - Hook */
