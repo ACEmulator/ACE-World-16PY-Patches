@@ -37,7 +37,6 @@ VALUES (35888,   1,       5) /* HeartbeatInterval */
      , (35888,  31,      24) /* VisualAwarenessRange */
      , (35888,  34,       1) /* PowerupTime */
      , (35888,  36,       1) /* ChargeSpeed */
-     , (35888,  39,    1.25) /* DefaultScale */
      , (35888,  44,      -1) /* TimeToRot */
      , (35888,  64,    0.15) /* ResistSlash */
      , (35888,  65,    0.65) /* ResistPierce */
@@ -152,24 +151,24 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'In your mind you
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1991 /* Mana Blight */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 35910,  0, 0, 1, False) /* Create  (35910) for ContainTreasure */
-     , (35888, 9, 72091,  0, 0, 1, False) /* Create  (72091) for ContainTreasure */;
+VALUES (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 35910,  0, 0, 1, False) /* Create Carapace Shard (35910) for ContainTreasure */
+     , (35888, 9, 72091,  0, 0, 1, False) /* Create Head of the Paradox-touched Olthoi Queen (72091) for ContainTreasure */;
