@@ -60,7 +60,6 @@ VALUES (35888,   1,   33560333) /* Setup */
      , (35888,   6,   67113288) /* PaletteBase */
      , (35888,   7,  268437210) /* ClothingBase */
      , (35888,   8,  100667623) /* Icon */
-     , (35888,  19,         86) /* ActivationAnimation */
      , (35888,  22,  872415379) /* PhysicsEffectTable */
      , (35888,  30,         86) /* PhysicsScript - BreatheAcid */;
 
