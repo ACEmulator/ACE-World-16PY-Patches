@@ -42,8 +42,8 @@ VALUES (52290,   1,       5) /* HeartbeatInterval */
      , (52290,  31,       5) /* VisualAwarenessRange */
      , (52290,  34,       1) /* PowerupTime */
      , (52290,  36,       1) /* ChargeSpeed */
-	 , (52290,  39,       2) /* DefaultScale */
-	 , (52290,  41,       0) /* RegenerationInterval */
+     , (52290,  39,       2) /* DefaultScale */
+     , (52290,  41,       0) /* RegenerationInterval */
      , (52290,  43,       5) /* GeneratorRadius */
      , (52290,  64,    0.75) /* ResistSlash */
      , (52290,  65,    0.75) /* ResistPierce */
