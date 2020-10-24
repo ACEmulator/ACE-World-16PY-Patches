@@ -1,16 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49329;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49329, 'ace49329-firewispessence180', 70, '2019-12-07 05:48:23') /* PetDevice */;
+VALUES (49329, 'ace49329-firewispessence180', 70, '2020-10-23 05:48:23') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49329,   1,        128) /* ItemType - Misc */
      , (49329,   5,         50) /* EncumbranceVal */
      , (49329,  16,          8) /* ItemUseable - Contained */
      , (49329,  18,         32) /* UiEffects - Fire */
-     , (49329,  19,       4000) /* Value */
+     , (49329,  19,       9000) /* Value */
      , (49329,  33,          0) /* Bonded - Normal */
-     , (49329,  65,        101) /* Placement - Resting */
      , (49329,  91,         50) /* MaxStructure */
      , (49329,  92,         50) /* Structure */
      , (49329,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -25,16 +24,11 @@ VALUES (49329,   1,        128) /* ItemType - Misc */
      , (49329, 369,        170) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49329,   1, False) /* Stuck */
-     , (49329,  11, True ) /* IgnoreCollisions */
-     , (49329,  13, True ) /* Ethereal */
-     , (49329,  14, True ) /* GravityStatus */
-     , (49329,  19, True ) /* Attackable */
-     , (49329,  22, True ) /* Inscribable */
+VALUES (49329,  22, True ) /* Inscribable */
      , (49329,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49329,  39, 0.400000005960464) /* DefaultScale */
+VALUES (49329,  39,     0.4) /* DefaultScale */
      , (49329, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
