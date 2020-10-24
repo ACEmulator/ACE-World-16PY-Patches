@@ -37,7 +37,6 @@ VALUES (35888,   1,       5) /* HeartbeatInterval */
      , (35888,  31,      24) /* VisualAwarenessRange */
      , (35888,  34,       1) /* PowerupTime */
      , (35888,  36,       1) /* ChargeSpeed */
-     , (35888,  44,      -1) /* TimeToRot */
      , (35888,  64,    0.15) /* ResistSlash */
      , (35888,  65,    0.65) /* ResistPierce */
      , (35888,  66,    0.75) /* ResistBludgeon */
