@@ -21,9 +21,9 @@ VALUES (52290,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52290,   1, True ) /* Stuck */
      , (52290,  52, True ) /* AiImmobile */
-	 , (52290,  29, True ) /* NoCorpse*/
-	 , (52290,  83, True ) /* NPCLooksLikeObject */
-	 , (52290, 103, True ) /* NonProjectileMagicImmune */
+     , (52290,  29, True ) /* NoCorpse*/
+     , (52290,  83, True ) /* NPCLooksLikeObject */
+     , (52290, 103, True ) /* NonProjectileMagicImmune */
      , (52290, 118, True ) /* NeverAttack */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
