@@ -39,7 +39,7 @@ VALUES (52283,   1,       5) /* HeartbeatInterval */
      , (52283,  17,       1) /* ArmorModVsFire */
      , (52283,  18,       1) /* ArmorModVsAcid */
      , (52283,  19,       1) /* ArmorModVsElectric */
-     , (52283,  31,       2) /* VisualAwarenessRange */
+     , (52283,  31,       5) /* VisualAwarenessRange */
      , (52283,  34,       1) /* PowerupTime */
      , (52283,  36,       1) /* ChargeSpeed */
      , (52283,  39,    1.75) /* DefaultScale */
@@ -111,7 +111,7 @@ VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, 
      , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 1, NULL, 'The Crystal resonates with energy, attracting nearby frost golems.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (52283,  17 /* NewEnemy */,  1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (52283,  17 /* NewEnemy */,  1, NULL, NULL, NULL, NULL, NULL, 0, 1);
 
 SET @parent_id = LAST_INSERT_ID();
 
