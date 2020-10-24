@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46755;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46755, 'ace46755-contractforstipendgeneral', 38, '2020-05-16 00:00:00') /* Gem */;
+VALUES (46755, 'ace46755-contractforstipendgeneral', 38, '2020-10-20 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46755,   1,       2048) /* ItemType - Gem */
@@ -28,7 +28,7 @@ VALUES (46755, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46755,   1, 'Contract for Stipend: General') /* Name */
      , (46755,  14, 'Recommended Level: 5') /* Use */
-     , (46755,  16, 'Talk to Monroe to receive a weekly Stipend.') /* LongDesc */;
+     , (46755,  16, 'Talk to Monroe to receive a weekly stipend.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46755,   1,   33557625) /* Setup */

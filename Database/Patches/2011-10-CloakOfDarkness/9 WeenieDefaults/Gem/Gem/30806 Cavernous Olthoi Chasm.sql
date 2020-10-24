@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30806;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30806, 'gemquestolthoichasm', 38, '2020-05-13 10:00:00') /* Gem */;
+VALUES (30806, 'gemquestolthoichasm', 38, '2020-10-20 10:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30806,   1,       2048) /* ItemType - Gem */
@@ -9,7 +9,7 @@ VALUES (30806,   1,       2048) /* ItemType - Gem */
      , (30806,   5,         50) /* EncumbranceVal */
      , (30806,   8,         10) /* Mass */
      , (30806,   9,          0) /* ValidLocations - None */
-     , (30806,  11,          1) /* MaxStackSize */
+     , (30806,  11,         25) /* MaxStackSize */
      , (30806,  12,          1) /* StackSize */
      , (30806,  13,         50) /* StackUnitEncumbrance */
      , (30806,  14,         10) /* StackUnitMass */
@@ -28,8 +28,7 @@ VALUES (30806,   1,       2048) /* ItemType - Gem */
      , (30806, 280,       1000) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30806,  15, True ) /* LightsStatus */
-     , (30806,  22, True ) /* Inscribable */
+VALUES (30806,  22, True ) /* Inscribable */
      , (30806,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
