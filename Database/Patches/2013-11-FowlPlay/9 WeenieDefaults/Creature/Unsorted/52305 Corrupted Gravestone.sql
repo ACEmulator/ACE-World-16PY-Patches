@@ -8,10 +8,8 @@ VALUES (52305,   1,         16) /* ItemType - Creature */
      , (52305,   6,         -1) /* ItemsCapacity */
      , (52305,   7,         -1) /* ContainersCapacity */
      , (52305,  16,          1) /* ItemUseable - No */
-     , (52305,  40,          1) /* CombatMode - NonCombat */
      , (52305,  81,          4) /* MaxGeneratedObjects */
      , (52305,  82,          0) /* InitGeneratedObjects */
-     , (52305,  83,       2048) /* ActivationResponse - Emote */
      , (52305,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52305, 103,          3) /* GeneratorDestructionType - Kill */
      , (52305, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -19,13 +17,12 @@ VALUES (52305,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52305,   1, True ) /* Stuck */
-     , (52305,  11, False) /* IgnoreCollisions */
-     , (52305,  12, True ) /* ReportCollisions */
-     , (52305,  13, False) /* Ethereal */
-     , (52305,  14, True ) /* GravityStatus */
      , (52305,  19, True ) /* Attackable */
      , (52305,  29, True ) /* NoCorpse */
-     , (52305,  83, True ) /* NpcLooksLikeObject */;
+     , (52305,  52, True ) /* AiImmobile */
+     , (52305,  83, True ) /* NpcLooksLikeObject */
+     , (52305, 103, True ) /* NonProjectileMagicImmune */
+     , (52305, 118, True ) /* NeverAttack */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52305,  31,       2) /* VisualAwarenessRange */
@@ -41,6 +38,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52305,   1,   33560241) /* Setup */
      , (52305,   2,  150995497) /* MotionTable */
      , (52305,   3,  536871001) /* SoundTable */
+     , (52305,   4,  805306445) /* CombatTable */
      , (52305,   8,  100667386) /* Icon */
      , (52305,  22,  872415339) /* PhysicsEffectTable */;
 
