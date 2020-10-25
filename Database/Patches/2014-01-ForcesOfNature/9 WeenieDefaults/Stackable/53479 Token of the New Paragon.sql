@@ -29,7 +29,3 @@ VALUES (53479,   1,   33554809) /* Setup */
      , (53479,   6,   67111919) /* PaletteBase */
      , (53479,   8,  100693328) /* Icon */
      , (53479,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53479, 8040, 3041525789, 86.0167, 110.633, 117.999, 0.998266, 0, 0, -0.0588598) /* PCAPRecordedLocation */
-/* @teleloc 0xB54A001D [86.016700 110.633000 117.999000] 0.998266 0.000000 0.000000 -0.058860 */;

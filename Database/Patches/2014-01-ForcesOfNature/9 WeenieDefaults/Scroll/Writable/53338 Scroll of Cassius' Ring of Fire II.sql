@@ -27,6 +27,3 @@ VALUES (53338,   1,   33554826) /* Setup */
      , (53338,   8,  100677021) /* Icon */
      , (53338,  22,  872415275) /* PhysicsEffectTable */
      , (53338,  28,       6191) /* Spell - CassiusRingOfFireII */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53338,  6191,      2) ;

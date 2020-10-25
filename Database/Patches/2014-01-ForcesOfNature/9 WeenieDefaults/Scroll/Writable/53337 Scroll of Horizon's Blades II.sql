@@ -27,6 +27,3 @@ VALUES (53337,   1,   33554826) /* Setup */
      , (53337,   8,  100677024) /* Icon */
      , (53337,  22,  872415275) /* PhysicsEffectTable */
      , (53337,  28,       6190) /* Spell - HorizonsBladesII */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53337,  6190,      2) ;

@@ -27,6 +27,3 @@ VALUES (53343,   1,   33554826) /* Setup */
      , (53343,   8,  100691572) /* Icon */
      , (53343,  22,  872415275) /* PhysicsEffectTable */
      , (53343,  28,       6320) /* Spell - RingOfSkullsII */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53343,  6320,      2) ;

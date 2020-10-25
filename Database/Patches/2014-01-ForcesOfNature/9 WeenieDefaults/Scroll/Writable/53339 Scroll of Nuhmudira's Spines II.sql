@@ -27,6 +27,3 @@ VALUES (53339,   1,   33554826) /* Setup */
      , (53339,   8,  100677018) /* Icon */
      , (53339,  22,  872415275) /* PhysicsEffectTable */
      , (53339,  28,       6192) /* Spell - NuhmudirasSpinesII */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53339,  6192,      2) ;

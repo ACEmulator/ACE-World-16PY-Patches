@@ -27,6 +27,3 @@ VALUES (53336,   1,   33554826) /* Setup */
      , (53336,   8,  100677027) /* Icon */
      , (53336,  22,  872415275) /* PhysicsEffectTable */
      , (53336,  28,       6189) /* Spell - SearingDiscII */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53336,  6189,      2) ;

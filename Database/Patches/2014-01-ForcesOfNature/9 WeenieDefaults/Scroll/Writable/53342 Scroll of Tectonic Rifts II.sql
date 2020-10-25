@@ -27,6 +27,3 @@ VALUES (53342,   1,   33554826) /* Setup */
      , (53342,   8,  100677010) /* Icon */
      , (53342,  22,  872415275) /* PhysicsEffectTable */
      , (53342,  28,       6196) /* Spell - TectonicRiftsII */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53342,  6196,      2) ;

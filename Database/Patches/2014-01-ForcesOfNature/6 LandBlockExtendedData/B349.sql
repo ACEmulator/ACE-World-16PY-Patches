@@ -63,4 +63,3 @@ VALUES (2067042426, 53488, 3007905845, 151.0, 110.1, 112.1, 0.7071068, 0, 0, -0.
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2067042427, 70834, 0xB349001C, 81.1206, 75.916, 62.6615, 1, 0, 0, 0, False, '2020-07-11 18:59:47'); /* Viridian Entrance Portal Gen */
 /* @teleloc 0xB349001C [81.120598 75.916000 62.661499] 1.000000 0.000000 0.000000 0.000000 */
-

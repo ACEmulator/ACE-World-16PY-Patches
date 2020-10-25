@@ -27,6 +27,3 @@ VALUES (53341,   1,   33554826) /* Setup */
      , (53341,   8,  100677012) /* Icon */
      , (53341,  22,  872415275) /* PhysicsEffectTable */
      , (53341,  28,       6194) /* Spell - EyeOfTheStormII */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53341,  6194,      2) ;
