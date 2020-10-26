@@ -44,9 +44,9 @@ VALUES (31971,   1, 500, 0, 0) /* Strength */
      , (31971,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31971,   1,   750, 0, 0, 0) /* MaxHealth */
-     , (31971,   3,   500, 0, 0, 0) /* MaxStamina */
-     , (31971,   5,  1000, 0, 0, 0) /* MaxMana */;
+VALUES (31971,   1,   500, 0, 0, 750) /* MaxHealth */
+     , (31971,   3,   500, 0, 0, 1000) /* MaxStamina */
+     , (31971,   5,  1000, 0, 0, 1500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (31971,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
