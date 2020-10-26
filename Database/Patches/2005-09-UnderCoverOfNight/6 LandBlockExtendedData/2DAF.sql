@@ -16,8 +16,8 @@ VALUES (1926951913,   509, 766443534, 29.15828, 139.5331, 48.005, 0.446936, 0, 0
 /* @teleloc 0x2DAF000E [29.158280 139.533100 48.005000] 0.446936 0.000000 0.000000 -0.894566 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1926951914, 31972, 766443534, 45.95354, 126.8839, 48.005, 0.89193, 0, 0, 0.452173, False, '2019-04-08 08:19:57'); /* Flame Guardian */
-/* @teleloc 0x2DAF000E [45.953540 126.883900 48.005000] 0.891930 0.000000 0.000000 0.452173 */
+VALUES (1926951914, 31972, 0x2DAF000E, 46.1814, 121.79, 48.0025, 0.940087, 0, 0, 0.340934, False, '2020-10-25 00:00:00'); /* Flame Guardian */
+/* @teleloc 0x2DAF000E [46.181400 121.790000 48.002500] 0.940087 0.000000 0.000000 0.340934 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1926951915, 31875, 766443572, 153.6896, 86.64082, 22.005, -0.403718, 0, 0, 0.914883,  True, '2019-04-08 08:19:57'); /* Water Golem */
