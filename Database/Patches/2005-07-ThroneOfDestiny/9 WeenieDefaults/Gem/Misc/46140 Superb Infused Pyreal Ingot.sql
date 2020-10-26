@@ -2,7 +2,7 @@
 DELETE FROM weenie WHERE class_Id = 46140;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46140, 'pyrealingotgreatinfusedbow', 38, '2019-02-04 06:52:23') /* Gem */;
+VALUES (46140, 'pyrealingotgreatinfusedbow', 38, '2020-10-20 06:52:23') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46140,   1,        128) /* ItemType - Misc */
@@ -28,8 +28,7 @@ VALUES (46140,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46140,   1, 'Superb Infused Pyreal Ingot') /* Name */
-     , (46140,  15, 'A pyreal ingot of exceedingly high quality infused with the essence of an bow.') /* ShortDesc */
-     , (46140,  16, 'A pyreal ingot of exceedingly high quality infused with the essence of an bow.') /* LongDesc */;
+     , (46140,  16, 'A pyreal ingot of exceedingly high quality infused with the essence of missile weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46140,   1,   33555677) /* Setup */

@@ -77,17 +77,21 @@ GotoSet: IsKeepClaimed
 
 GotoSet: KeepIsClaimed
     #- WorldBroadcast: The Society of the Celestial Hand has claimed Northwatch Keep! Those members of the Society of the Celestial Hand may now use the resources contained within the castle!
-    - StartEvent: KeepNorthwatchCelhan
-    - StopEvent: KeepNorthwatchCourtyardBlight
-    - StopEvent: KeepNorthwatchCourtyardCelhan
-    - StopEvent: KeepNorthwatchCourtyardCelhanClaimed
-    - StopEvent: KeepNorthwatchSpireBlight
-    - StopEvent: KeepNorthwatchSpireCelhan
-    - StopEvent: KeepNorthwatchSpireCelhanClaimed
-    - StopEvent: KeepNorthwatchTowerBlight
-    - StopEvent: KeepNorthwatchTowerCelhan
-    - StopEvent: KeepNorthwatchTowerCelhanClaimed
-    - StopEvent: KeepNorthwatchBlight
-    #- InqEvent: KeepNorthwatchBlight
-        #EventSuccess:
-            #- WorldBroadcast: The turmoil of the loss of Northwatch Keep has rallied the Creeping Blight at Northwatch Castle!  Even now, the forces loyal to T'thuun are retaking all of the Banner locations!
+    - InqEvent: KeepFreebooterCelhan
+        EventSuccess:
+            - KillSelf
+        EventFailure:
+            - StartEvent: KeepNorthwatchCelhan
+            - StopEvent: KeepNorthwatchCourtyardBlight
+            - StopEvent: KeepNorthwatchCourtyardCelhan
+            - StopEvent: KeepNorthwatchCourtyardCelhanClaimed
+            - StopEvent: KeepNorthwatchSpireBlight
+            - StopEvent: KeepNorthwatchSpireCelhan
+            - StopEvent: KeepNorthwatchSpireCelhanClaimed
+            - StopEvent: KeepNorthwatchTowerBlight
+            - StopEvent: KeepNorthwatchTowerCelhan
+            - StopEvent: KeepNorthwatchTowerCelhanClaimed
+            - StopEvent: KeepNorthwatchBlight
+            #- InqEvent: KeepNorthwatchBlight
+                #EventSuccess:
+                    #- WorldBroadcast: The turmoil of the loss of Northwatch Keep has rallied the Creeping Blight at Northwatch Castle!  Even now, the forces loyal to T'thuun are retaking all of the Banner locations!

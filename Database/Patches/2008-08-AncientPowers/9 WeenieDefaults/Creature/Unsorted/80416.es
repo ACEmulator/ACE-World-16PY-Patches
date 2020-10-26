@@ -58,17 +58,21 @@ GotoSet: IsKeepClaimed
 
 GotoSet: KeepIsClaimed
     #- WorldBroadcast: The Society of the Radiant Blood has claimed Northwatch Keep! Those members of the Society of the Radiant Blood may now use the resources contained within the castle!
-    - StartEvent: KeepNorthwatchRadblo
-    - StopEvent: KeepNorthwatchCourtyardBlight
-    - StopEvent: KeepNorthwatchCourtyardRadblo
-    - StopEvent: KeepNorthwatchCourtyardRadbloClaimed
-    - StopEvent: KeepNorthwatchSpireBlight
-    - StopEvent: KeepNorthwatchSpireRadblo
-    - StopEvent: KeepNorthwatchSpireRadbloClaimed
-    - StopEvent: KeepNorthwatchTowerBlight
-    - StopEvent: KeepNorthwatchTowerRadblo
-    - StopEvent: KeepNorthwatchTowerRadbloClaimed
-    - StopEvent: KeepNorthwatchBlight
-    #- InqEvent: KeepNorthwatchBlight
-        #EventSuccess:
-            #- WorldBroadcast: The turmoil of the loss of Northwatch Keep has rallied the Creeping Blight at Northwatch Castle!  Even now, the forces loyal to T'thuun are retaking all of the Banner locations!
+    - InqEvent: KeepFreebooterRadblo
+        EventSuccess:
+            - KillSelf
+        EventFailure:
+            - StartEvent: KeepNorthwatchRadblo
+            - StopEvent: KeepNorthwatchCourtyardBlight
+            - StopEvent: KeepNorthwatchCourtyardRadblo
+            - StopEvent: KeepNorthwatchCourtyardRadbloClaimed
+            - StopEvent: KeepNorthwatchSpireBlight
+            - StopEvent: KeepNorthwatchSpireRadblo
+            - StopEvent: KeepNorthwatchSpireRadbloClaimed
+            - StopEvent: KeepNorthwatchTowerBlight
+            - StopEvent: KeepNorthwatchTowerRadblo
+            - StopEvent: KeepNorthwatchTowerRadbloClaimed
+            - StopEvent: KeepNorthwatchBlight
+            #- InqEvent: KeepNorthwatchBlight
+                #EventSuccess:
+                    #- WorldBroadcast: The turmoil of the loss of Northwatch Keep has rallied the Creeping Blight at Northwatch Castle!  Even now, the forces loyal to T'thuun are retaking all of the Banner locations!

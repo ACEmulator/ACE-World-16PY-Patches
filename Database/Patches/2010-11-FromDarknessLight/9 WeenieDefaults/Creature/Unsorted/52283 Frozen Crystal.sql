@@ -1,33 +1,30 @@
-
 DELETE FROM `weenie` WHERE `class_Id` = 52283;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52283, 'ace52283-frozencrystal', 10, '2020-10-06 00:32:08') /* Creature */;
+VALUES (52283, 'ace52283-frozencrystal', 10, '2020-10-24 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52283,   1,         16) /* ItemType - Creature */
-     , (52283,   2,         64) /* CreatureType - Wall */
      , (52283,   6,         -1) /* ItemsCapacity */
      , (52283,   7,         -1) /* ContainersCapacity */
      , (52283,  16,          1) /* ItemUseable - No */
      , (52283,  25,          1) /* Level */
      , (52283,  27,          0) /* ArmorType - None */
-     , (52283,  40,          1) /* CombatMode - NonCombat */
-     , (52283,  67,         64) /* Tolerance - Retaliate */
-     , (52283,  68,          5) /* TargetingTactic - Random, LastDamager */
+     , (52283,  72,         13) /* FriendType - Golem */
      , (52283,  81,          3) /* MaxGeneratedObjects */
      , (52283,  82,          0) /* InitGeneratedObjects */
      , (52283,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (52283, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (52283, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (52283, 146,          0) /* XpOverride */;
+     , (52283, 146,          0) /* XpOverride */
+     , (52283, 315,       9999) /* CritResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52283,   1, True ) /* Stuck */
      , (52283,  52, True ) /* AiImmobile */
      , (52283,  29, True ) /* NoCorpse*/
      , (52283,  83, True ) /* NPCLooksLikeObject */
-     , (52283, 103, True ) /* DirectCastImmune */;
+     , (52283, 103, True ) /* NonProjectileMagicImmune */
+     , (52283, 118, True ) /* NeverAttack */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52283,   1,       5) /* HeartbeatInterval */
@@ -42,10 +39,11 @@ VALUES (52283,   1,       5) /* HeartbeatInterval */
      , (52283,  17,       1) /* ArmorModVsFire */
      , (52283,  18,       1) /* ArmorModVsAcid */
      , (52283,  19,       1) /* ArmorModVsElectric */
-     , (52283,  31,     0.3) /* VisualAwarenessRange */
+     , (52283,  31,       5) /* VisualAwarenessRange */
      , (52283,  34,       1) /* PowerupTime */
      , (52283,  36,       1) /* ChargeSpeed */
      , (52283,  39,    1.75) /* DefaultScale */
+     , (52283,  43,       5) /* GeneratorRadius */
      , (52283,  64,    0.75) /* ResistSlash */
      , (52283,  65,    0.75) /* ResistPierce */
      , (52283,  66,    0.75) /* ResistBludgeon */
@@ -83,9 +81,9 @@ VALUES (52283,   1,  10, 0, 0) /* Strength */
      , (52283,   6,  10, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52283,   1,  3000, 0, 0, 3001) /* MaxHealth */
-     , (52283,   3,   800, 0, 0,  801) /* MaxStamina */
-     , (52283,   5,     0, 0, 0,    1) /* MaxMana */;
+VALUES (52283,   1,  3000, 0, 0, 3005) /* MaxHealth */
+     , (52283,   3,   800, 0, 0,  810) /* MaxStamina */
+     , (52283,   5,     0, 0, 0,   10) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (52283,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */
@@ -104,7 +102,16 @@ VALUES (52283,  0,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,
      , (52283,  8,  4,  1, 0.75,  200,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (52283,  17 /* NewEnemy */,  1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (52283, 18 /* Scream */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 1, NULL, 'The Crystal resonates with energy, attracting nearby frost golems.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (52283,  17 /* NewEnemy */,  1, NULL, NULL, NULL, NULL, NULL, 0, 1);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -114,4 +121,3 @@ VALUES (@parent_id,  0,  72 /* Generate */, 10, 1, NULL, NULL, NULL, NULL, NULL,
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52283, 1, 43163, 300, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Frost Golem Swarm (43163) (x2)  - Location to (re)Generate: Scatter */;
-
