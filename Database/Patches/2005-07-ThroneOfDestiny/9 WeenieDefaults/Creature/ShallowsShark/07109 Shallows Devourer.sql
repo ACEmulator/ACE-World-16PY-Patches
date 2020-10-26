@@ -6,7 +6,7 @@ VALUES (7109, 'shallowsdevourer', 10, '2019-09-13 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7109,   1,         16) /* ItemType - Creature */
      , (7109,   2,         27) /* CreatureType - ShallowsShark */
-     , (7109,   3,         43) /* PaletteTemplate - LightBrown */
+     , (7109,   3,         14) /* PaletteTemplate - Red */
      , (7109,   6,         -1) /* ItemsCapacity */
      , (7109,   7,         -1) /* ContainersCapacity */
      , (7109,  16,          1) /* ItemUseable - No */
@@ -67,7 +67,7 @@ VALUES (7109,   1,   33559680) /* Setup */
      , (7109,   3,  536870928) /* SoundTable */
      , (7109,   4,  805306378) /* CombatTable */
      , (7109,   6,   67116712) /* PaletteBase */
-     , (7109,   7,  268435556) /* ClothingBase */
+     , (7109,   7,  268437041) /* ClothingBase */
      , (7109,   8,  100667939) /* Icon */
      , (7109,  22,  872415268) /* PhysicsEffectTable */
      , (7109,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
@@ -88,7 +88,6 @@ VALUES (7109,   1,    97, 0, 0, 157) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (7109,  6, 0, 3, 0, 100, 0, 0) /* MeleeDefense        Specialized */
      , (7109,  7, 0, 3, 0, 200, 0, 0) /* MissileDefense      Specialized */
-     , (7109, 45, 0, 3, 0, 110, 0, 0) /* LightWeapons        Specialized */
      , (7109, 15, 0, 3, 0, 115, 0, 0) /* MagicDefense        Specialized */
      , (7109, 20, 0, 3, 0,  60, 0, 0) /* Deception           Specialized */
      , (7109, 22, 0, 3, 0,  25, 0, 0) /* Jump                Specialized */
@@ -168,3 +167,4 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (7109, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (7109, 9, 22253,  0, 0, 0.0005, False) /* Create Ulgrim's Scroll (22253) for ContainTreasure */
      , (7109, 9,     0,  0, 0, 0.9895, False) /* Create nothing for ContainTreasure */;
+     
