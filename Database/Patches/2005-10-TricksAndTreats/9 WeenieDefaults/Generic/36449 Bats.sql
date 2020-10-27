@@ -15,7 +15,9 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36449,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36449,   1, 'Bats') /* Name */;
+VALUES (36449,   1, 'Bats') /* Name */
+     , (36449,  14, 'This item can be used on all hooks.') /* Use */
+     , (36449,  16, 'A house bat who is content to fly in circles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36449,   1,   33560402) /* Setup */
