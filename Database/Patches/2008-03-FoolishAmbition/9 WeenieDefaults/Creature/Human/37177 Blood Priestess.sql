@@ -47,7 +47,7 @@ VALUES (37177,   1,       5) /* HeartbeatInterval */
      , (37177,  64,     0.5) /* ResistSlash */
      , (37177,  65,     0.6) /* ResistPierce */
      , (37177,  66,    0.62) /* ResistBludgeon */
-     , (37177,  67,    0.95) /* ResistFire */
+     , (37177,  67,    0.89) /* ResistFire */
      , (37177,  68,    0.55) /* ResistCold */
      , (37177,  69,    0.45) /* ResistAcid */
      , (37177,  70,     0.5) /* ResistElectric */
@@ -114,8 +114,8 @@ VALUES (37177,  0,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37177,  2074,   2.02)  /* Gossamer Flesh */
-     , (37177,  2122,      3)  /* Disintegration */
-     , (37177,  2162,   2.72)  /* Olthoi's Gift */;
+     , (37177,  2162,   2.05)  /* Olthoi's Gift */
+     , (37177,  2122,      3)  /* Disintegration */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37177, 2, 31820,  1, 0, 0, False) /* Create Acid Baton (31820) for Wield */;

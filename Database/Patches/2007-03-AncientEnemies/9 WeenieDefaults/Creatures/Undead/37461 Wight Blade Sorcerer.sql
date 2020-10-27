@@ -29,8 +29,8 @@ VALUES (37461,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37461,   1,       5) /* HeartbeatInterval */
      , (37461,   2,       0) /* HeartbeatTimestamp */
-     , (37461,   3,     0.1) /* HealthRate */
-     , (37461,   4,       5) /* StaminaRate */
+     , (37461,   3,     0.2) /* HealthRate */
+     , (37461,   4,     0.5) /* StaminaRate */
      , (37461,   5,       2) /* ManaRate */
      , (37461,  12,       0) /* Shade */
      , (37461,  13,    0.37) /* ArmorModVsSlash */
@@ -40,19 +40,26 @@ VALUES (37461,   1,       5) /* HeartbeatInterval */
      , (37461,  17,     0.6) /* ArmorModVsFire */
      , (37461,  18,     0.4) /* ArmorModVsAcid */
      , (37461,  19,    0.33) /* ArmorModVsElectric */
-     , (37461,  31,      18) /* VisualAwarenessRange */
+     , (37461,  27,       3) /* RotationSpeed */
+     , (37461,  31,      23) /* VisualAwarenessRange */
      , (37461,  34,       2) /* PowerupTime */
      , (37461,  36,       1) /* ChargeSpeed */
      , (37461,  39,     1.1) /* DefaultScale */
-     , (37461,  64,    0.87) /* ResistSlash */
-     , (37461,  65,     0.5) /* ResistPierce */
-     , (37461,  66,     0.5) /* ResistBludgeon */
-     , (37461,  67,    0.98) /* ResistFire */
-     , (37461,  68,     0.5) /* ResistCold */
-     , (37461,  69,     0.5) /* ResistAcid */
-     , (37461,  70,    0.95) /* ResistElectric */
-     , (37461,  80,       3) /* AiUseMagicDelay */
+     , (37461,  64,    0.57) /* ResistSlash */
+     , (37461,  65,    0.57) /* ResistPierce */
+     , (37461,  66,    0.86) /* ResistBludgeon */
+     , (37461,  67,     0.9) /* ResistFire */
+     , (37461,  68,     0.3) /* ResistCold */
+     , (37461,  69,     0.7) /* ResistAcid */
+     , (37461,  70,     0.4) /* ResistElectric */
+     , (37461,  71,       1) /* ResistHealthBoost */
+     , (37461,  72,       1) /* ResistStaminaDrain */
+     , (37461,  73,       1) /* ResistStaminaBoost */
+     , (37461,  74,       1) /* ResistManaDrain */
+     , (37461,  75,       1) /* ResistManaBoost */
+     , (37461,  80,       4) /* AiUseMagicDelay */
      , (37461, 104,      10) /* ObviousRadarRange */
+     , (37461, 122,       2) /* AiAcquireHealth */
      , (37461, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -118,7 +125,7 @@ VALUES (37461, 2, 31822,  1, 0, 0, False) /* Create Electric Baton (31822) for W
      , (37461, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (37461, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
      , (37461, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (37461, 9, 35504,  0, 0, 0.06, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
+     , (37461, 9, 35504,  0, 0, 0.06, False) /* Create  (35504) for ContainTreasure */
      , (37461, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (37461, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
      , (37461, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */

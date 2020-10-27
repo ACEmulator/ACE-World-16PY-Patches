@@ -28,8 +28,8 @@ VALUES (37460,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37460,   1,       5) /* HeartbeatInterval */
      , (37460,   2,       0) /* HeartbeatTimestamp */
-     , (37460,   3,     0.1) /* HealthRate */
-     , (37460,   4,       5) /* StaminaRate */
+     , (37460,   3,     0.2) /* HealthRate */
+     , (37460,   4,     0.5) /* StaminaRate */
      , (37460,   5,       2) /* ManaRate */
      , (37460,  12,       0) /* Shade */
      , (37460,  13,    0.37) /* ArmorModVsSlash */
@@ -39,19 +39,26 @@ VALUES (37460,   1,       5) /* HeartbeatInterval */
      , (37460,  17,     0.6) /* ArmorModVsFire */
      , (37460,  18,     0.4) /* ArmorModVsAcid */
      , (37460,  19,    0.33) /* ArmorModVsElectric */
-     , (37460,  31,      18) /* VisualAwarenessRange */
-     , (37460,  34,       2) /* PowerupTime */
+     , (37460,  27,       5) /* RotationSpeed */
+     , (37460,  31,      22) /* VisualAwarenessRange */
+     , (37460,  34,       1) /* PowerupTime */
      , (37460,  36,       1) /* ChargeSpeed */
      , (37460,  39,     1.1) /* DefaultScale */
-     , (37460,  64,    0.97) /* ResistSlash */
-     , (37460,  65,     0.5) /* ResistPierce */
-     , (37460,  66,     0.5) /* ResistBludgeon */
-     , (37460,  67,    0.98) /* ResistFire */
-     , (37460,  68,     0.5) /* ResistCold */
-     , (37460,  69,     0.5) /* ResistAcid */
-     , (37460,  70,     0.5) /* ResistElectric */
-     , (37460,  80,       3) /* AiUseMagicDelay */
+     , (37460,  64,    0.57) /* ResistSlash */
+     , (37460,  65,    0.57) /* ResistPierce */
+     , (37460,  66,    0.86) /* ResistBludgeon */
+     , (37460,  67,     0.9) /* ResistFire */
+     , (37460,  68,     0.3) /* ResistCold */
+     , (37460,  69,     0.7) /* ResistAcid */
+     , (37460,  70,     0.4) /* ResistElectric */
+     , (37460,  71,       1) /* ResistHealthBoost */
+     , (37460,  72,       1) /* ResistStaminaDrain */
+     , (37460,  73,       1) /* ResistStaminaBoost */
+     , (37460,  74,       1) /* ResistManaDrain */
+     , (37460,  75,       1) /* ResistManaBoost */
+     , (37460,  80,       4) /* AiUseMagicDelay */
      , (37460, 104,      10) /* ObviousRadarRange */
+     , (37460, 122,       2) /* AiAcquireHealth */
      , (37460, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -135,13 +142,13 @@ VALUES (37460,  1784,   2.02)  /* Horizon's Blades */
      , (37460,  4312,   2.02)  /* Incantation of Imperil Other */
      , (37460,  4422,   2.02)  /* Incantation of Blade Arc */
      , (37460,  4475,   2.02)  /* Incantation of Blade Vulnerability Other */;
-     
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37460, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (37460, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (37460, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
      , (37460, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (37460, 9, 35504,  0, 0, 0.06, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
+     , (37460, 9, 35504,  0, 0, 0.06, False) /* Create  (35504) for ContainTreasure */
      , (37460, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (37460, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
      , (37460, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */

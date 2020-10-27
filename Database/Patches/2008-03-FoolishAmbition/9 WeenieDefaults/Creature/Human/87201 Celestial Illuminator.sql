@@ -46,7 +46,7 @@ VALUES (87201,   1,       5) /* HeartbeatInterval */
      , (87201,  64,     0.5) /* ResistSlash */
      , (87201,  65,     0.6) /* ResistPierce */
      , (87201,  66,    0.62) /* ResistBludgeon */
-     , (87201,  67,    0.95) /* ResistFire */
+     , (87201,  67,    0.79) /* ResistFire */
      , (87201,  68,    0.55) /* ResistCold */
      , (87201,  69,    0.45) /* ResistAcid */
      , (87201,  70,     0.5) /* ResistElectric */
@@ -88,8 +88,8 @@ VALUES (87201,   1,   785, 0, 0, 890) /* MaxHealth */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (87201,  2074,   2.02)  /* Gossamer Flesh */
-     , (87201,  2128,      3)  /* Ilservian's Flame */
-     , (87201,  2170,   2.72)  /* Inferno's Gift */;
+     , (87201,  2170,   2.05)  /* Inferno's Gift */
+     , (87201,  2128,      3)  /* Ilservian's Flame */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (87201, 2, 31820,  1, 0, 0, False) /* Create Acid Baton (31820) for Wield */;

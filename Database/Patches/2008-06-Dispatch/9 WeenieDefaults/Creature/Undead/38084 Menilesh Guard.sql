@@ -43,10 +43,10 @@ VALUES (38084,   1,       5) /* HeartbeatInterval */
      , (38084,  34,       2) /* PowerupTime */
      , (38084,  36,       1) /* ChargeSpeed */
      , (38084,  39,     1.1) /* DefaultScale */
-     , (38084,  64,    0.89) /* ResistSlash */
+     , (38084,  64,    0.80) /* ResistSlash */
      , (38084,  65,     0.5) /* ResistPierce */
      , (38084,  66,     0.5) /* ResistBludgeon */
-     , (38084,  67,    0.98) /* ResistFire */
+     , (38084,  67,    0.82) /* ResistFire */
      , (38084,  68,     0.5) /* ResistCold */
      , (38084,  69,     0.5) /* ResistAcid */
      , (38084,  70,     0.5) /* ResistElectric */
@@ -76,7 +76,7 @@ VALUES (38084,   1, 400, 0, 0) /* Strength */
      , (38084,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38084,   1,   400, 0, 0, 600) /* MaxHealth */
+VALUES (38084,   1,   608, 0, 0, 808) /* MaxHealth */
      , (38084,   3,   500, 0, 0, 900) /* MaxStamina */
      , (38084,   5,     0, 0, 0, 250) /* MaxMana */;
 

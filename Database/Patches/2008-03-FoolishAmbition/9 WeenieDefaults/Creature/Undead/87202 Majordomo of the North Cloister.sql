@@ -44,7 +44,7 @@ VALUES (87202,   1,       5) /* HeartbeatInterval */
      , (87202,  64,     0.5) /* ResistSlash */
      , (87202,  65,     0.6) /* ResistPierce */
      , (87202,  66,    0.62) /* ResistBludgeon */
-     , (87202,  67,    0.95) /* ResistFire */
+     , (87202,  67,    0.82) /* ResistFire */
      , (87202,  68,    0.55) /* ResistCold */
      , (87202,  69,    0.45) /* ResistAcid */
      , (87202,  70,     0.5) /* ResistElectric */
