@@ -57,7 +57,8 @@ VALUES (35093,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35093,   1, 'Wight Blade Sorcerer') /* Name */
-     , (35093,  45, 'KilltaskGraveyardWight_1309') /* KillQuest */;
+     , (35093,  45, 'KilltaskGraveyardWight_1309') /* KillQuest */
+     , (35093,  49, 'TaskGrave1WightMageKilltask') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35093,   1,   33560225) /* Setup */
@@ -68,20 +69,20 @@ VALUES (35093,   1,   33560225) /* Setup */
      , (35093,   7,  268435558) /* ClothingBase */
      , (35093,   8,  100667942) /* Icon */
      , (35093,  22,  872415272) /* PhysicsEffectTable */
-     , (35093,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (35093,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (35093,   1, 350, 0, 0) /* Strength */
-     , (35093,   2, 350, 0, 0) /* Endurance */
-     , (35093,   3, 320, 0, 0) /* Quickness */
-     , (35093,   4, 380, 0, 0) /* Coordination */
-     , (35093,   5, 480, 0, 0) /* Focus */
-     , (35093,   6, 480, 0, 0) /* Self */;
+VALUES (35093,   1, 240, 0, 0) /* Strength */
+     , (35093,   2, 220, 0, 0) /* Endurance */
+     , (35093,   3, 210, 0, 0) /* Quickness */
+     , (35093,   4, 230, 0, 0) /* Coordination */
+     , (35093,   5, 325, 0, 0) /* Focus */
+     , (35093,   6, 305, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35093,   1,  6000, 0, 0, 6175) /* MaxHealth */
-     , (35093,   3,  3000, 0, 0, 3350) /* MaxStamina */
-     , (35093,   5,  4800, 0, 0, 5280) /* MaxMana */;
+VALUES (35093,   1,  3390, 0, 0, 3500) /* MaxHealth */
+     , (35093,   3,  3000, 0, 0, 3220) /* MaxStamina */
+     , (35093,   5,  2000, 0, 0, 2305) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (35093,  6, 0, 3, 0, 360, 0, 0) /* MeleeDefense        Specialized */
@@ -110,45 +111,6 @@ VALUES (35093,  1786,   2.02)  /* Nuhmudira's Spines */
      , (35093,  4422,   2.02)  /* Incantation of Blade Arc */
      , (35093,  4435,   2.02)  /* Incantation of Blade Blast */
      , (35093,  4436,   2.02)  /* Incantation of Blade Volley */
-     , (35093,  4489,      3)  /* Incantation of Fester Other */
+     , (35093,  4489,   2.02)  /* Incantation of Fester Other */
      , (35093,  5531,   2.02)  /* Bloodstone Bolt VII */;
 
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35093, 2, 31822,  1, 0, 0, False) /* Create Electric Baton (31822) for Wield */
-     , (35093, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
-     , (35093, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (35093, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
-     , (35093, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (35093, 9, 35504,  0, 0, 0.06, False) /* Create  (35504) for ContainTreasure */
-     , (35093, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (35093, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
-     , (35093, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (35093, 9, 35105,  0, 0, 0.06, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (35093, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (35093, 9, 37247,  0, 0, 0.0125, False) /* Create Ace of Eyes (37247) for ContainTreasure */
-     , (35093, 9, 37248,  0, 0, 0.0125, False) /* Create Two of Eyes (37248) for ContainTreasure */
-     , (35093, 9, 37249,  0, 0, 0.0125, False) /* Create Three of Eyes (37249) for ContainTreasure */
-     , (35093, 9, 37250,  0, 0, 0.0125, False) /* Create Four of Eyes (37250) for ContainTreasure */
-     , (35093, 9, 37251,  0, 0, 0.0125, False) /* Create Five of Eyes (37251) for ContainTreasure */
-     , (35093, 9, 37252,  0, 0, 0.0125, False) /* Create Six of Eyes (37252) for ContainTreasure */
-     , (35093, 9, 37253,  0, 0, 0.0125, False) /* Create Seven of Eyes (37253) for ContainTreasure */
-     , (35093, 9, 37254,  0, 0, 0.0125, False) /* Create Eight of Eyes (37254) for ContainTreasure */
-     , (35093, 9, 37255,  0, 0, 0.0125, False) /* Create Nine of Eyes (37255) for ContainTreasure */
-     , (35093, 9, 37256,  0, 0, 0.0125, False) /* Create Ten of Eyes (37256) for ContainTreasure */
-     , (35093, 9, 37257,  0, 0, 0.0125, False) /* Create Jack of Eyes (37257) for ContainTreasure */
-     , (35093, 9, 37258,  0, 0, 0.0125, False) /* Create Queen of Eyes (37258) for ContainTreasure */
-     , (35093, 9, 37259,  0, 0, 0.0125, False) /* Create King of Eyes (37259) for ContainTreasure */
-     , (35093, 9, 37234,  0, 0, 0.0125, False) /* Create Ace of Hands (37234) for ContainTreasure */
-     , (35093, 9, 37235,  0, 0, 0.0125, False) /* Create Two of Hands (37235) for ContainTreasure */
-     , (35093, 9, 37236,  0, 0, 0.0125, False) /* Create Three of Hands (37236) for ContainTreasure */
-     , (35093, 9, 37237,  0, 0, 0.0125, False) /* Create Four of Hands (37237) for ContainTreasure */
-     , (35093, 9, 37238,  0, 0, 0.0125, False) /* Create Five of Hands (37238) for ContainTreasure */
-     , (35093, 9, 37239,  0, 0, 0.0125, False) /* Create Six of Hands (37239) for ContainTreasure */
-     , (35093, 9, 37240,  0, 0, 0.0125, False) /* Create Seven of Hands (37240) for ContainTreasure */
-     , (35093, 9, 37241,  0, 0, 0.0125, False) /* Create Eight of Hands (37241) for ContainTreasure */
-     , (35093, 9, 37242,  0, 0, 0.0125, False) /* Create Nine of Hands (37242) for ContainTreasure */
-     , (35093, 9, 37243,  0, 0, 0.0125, False) /* Create Ten of Hands (37243) for ContainTreasure */
-     , (35093, 9, 37244,  0, 0, 0.0125, False) /* Create Jack of Hands (37244) for ContainTreasure */
-     , (35093, 9, 37245,  0, 0, 0.0125, False) /* Create Queen of Hands (37245) for ContainTreasure */
-     , (35093, 9, 37246,  0, 0, 0.0125, False) /* Create King of Hands (37246) for ContainTreasure */
-     , (35093, 9,     0,  0, 0, 0.675, False) /* Create nothing for ContainTreasure */;

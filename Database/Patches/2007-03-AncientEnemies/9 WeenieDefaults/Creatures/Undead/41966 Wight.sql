@@ -98,17 +98,17 @@ VALUES (41966,   1,   33560225) /* Setup */
      , (41966,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (41966,   1, 490, 0, 0) /* Strength */
-     , (41966,   2, 420, 0, 0) /* Endurance */
-     , (41966,   3, 300, 0, 0) /* Quickness */
-     , (41966,   4, 420, 0, 0) /* Coordination */
-     , (41966,   5, 420, 0, 0) /* Focus */
-     , (41966,   6, 420, 0, 0) /* Self */;
+VALUES (41966,   1, 250, 0, 0) /* Strength */
+     , (41966,   2, 230, 0, 0) /* Endurance */
+     , (41966,   3, 210, 0, 0) /* Quickness */
+     , (41966,   4, 240, 0, 0) /* Coordination */
+     , (41966,   5, 275, 0, 0) /* Focus */
+     , (41966,   6, 255, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41966,   1,  6000, 0, 0, 6210) /* MaxHealth */
-     , (41966,   3,  3000, 0, 0, 3420) /* MaxStamina */
-     , (41966,   5,     0, 0, 0, 420) /* MaxMana */;
+VALUES (41966,   1,  2885, 0, 0, 3000) /* MaxHealth */
+     , (41966,   3,  3000, 0, 0, 3230) /* MaxStamina */
+     , (41966,   5,  2000, 0, 0, 2255) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (41966,  6, 0, 3, 0, 420, 0, 0) /* MeleeDefense        Specialized */

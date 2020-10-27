@@ -60,7 +60,6 @@ VALUES (41971,   1,       5) /* HeartbeatInterval */
      , (41971,  73,       1) /* ResistStaminaBoost */
      , (41971,  74,       0) /* ResistManaDrain */
      , (41971,  75,       1) /* ResistManaBoost */
-     , (41971,  80,       3) /* AiUseMagicDelay */
      , (41971, 104,      10) /* ObviousRadarRange */
      , (41971, 122,       2) /* AiAcquireHealth */
      , (41971, 125,       0) /* ResistHealthDrain */;
@@ -90,15 +89,15 @@ VALUES (41971,   1, 20000, 0, 0, 20125) /* MaxHealth */
      , (41971,   5,  5000, 0, 0, 5490) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (41971,  6, 0, 3, 0, 385, 0, 0) /* MeleeDefense        Specialized */
-     , (41971,  7, 0, 3, 0, 365, 0, 0) /* MissileDefense      Specialized */
-     , (41971, 15, 0, 3, 0, 225, 0, 0) /* MagicDefense        Specialized */
+VALUES (41971,  6, 0, 3, 0, 383, 0, 0) /* MeleeDefense        Specialized */
+     , (41971,  7, 0, 3, 0, 270, 0, 0) /* MissileDefense      Specialized */
+     , (41971, 15, 0, 3, 0, 240, 0, 0) /* MagicDefense        Specialized */
      , (41971, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */
      , (41971, 24, 0, 2, 0, 600, 0, 0) /* Run                 Trained */
-     , (41971, 31, 0, 3, 0, 100, 0, 0) /* CreatureEnchantment Specialized */
-     , (41971, 33, 0, 3, 0, 100, 0, 0) /* LifeMagic           Specialized */
-     , (41971, 34, 0, 3, 0, 100, 0, 0) /* WarMagic            Specialized */
-     , (41971, 45, 0, 3, 0, 250, 0, 0) /* LightWeapons        Specialized */;
+     , (41971, 31, 0, 3, 0, 345, 0, 0) /* CreatureEnchantment Specialized */
+     , (41971, 33, 0, 3, 0, 345, 0, 0) /* LifeMagic           Specialized */
+     , (41971, 34, 0, 3, 0, 345, 0, 0) /* WarMagic            Specialized */
+     , (41971, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (41971,  0, 32, 150,  0.5,  300,  300,  300,  150,  150, 3000,  192,  150,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
@@ -107,23 +106,18 @@ VALUES (41971,  0, 32, 150,  0.5,  300,  300,  300,  150,  150, 3000,  192,  150
      , (41971, 21, 32,   0,    0,  300,  300,  300,  150,  150, 3000,  192,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41971,    80,    2.3)  /* Lightning Bolt VI */
-     , (41971,    85,    2.3)  /* Flame Bolt VI */
-     , (41971,   176,  2.067)  /* Fester Other VI */
-     , (41971,   199,  2.067)  /* Exhaustion Other VI */
-     , (41971,   223,  2.067)  /* Mana Depletion Other VI */
-     , (41971,  1161,      2)  /* Heal Self VI */
-     , (41971,  1176,  2.067)  /* Harm Other VI */
-     , (41971,  1200,  2.067)  /* Enfeeble Other VI */
-     , (41971,  1224,  2.067)  /* Mana Drain Other VI */
-     , (41971,  1242,      2)  /* Drain Health Other VI */
-     , (41971,  1254,      2)  /* Drain Stamina Other VI */
-     , (41971,  1265,      2)  /* Drain Mana Other VI */;
+VALUES (41971,  2070,  2.067)  /* Heart Rend */
+     , (41971,  2073,  2.067)  /* Adja's Intervention */
+     , (41971,  2078,  2.067)  /* Void's Call */
+     , (41971,  2084,  2.067)  /* Belly of Lead */
+     , (41971,  2136,  2.067)  /* Icy Torment */
+     , (41971,  2328,      2)  /* Vitality Siphon */
+     , (41971,  3879,    2.3)  /* Glacial Strike */
+     , (41971,  3909,  2.067)  /* Mana Syphon */
+     , (41971,  3916,    2.3)  /* Flayed Flesh */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41971, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (41971, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (41971, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
-     , (41971, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (41971, 9, 37256,  1, 0, 0.06, False) /* Create Ten of Eyes (37256) for ContainTreasure */
      , (41971, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */;

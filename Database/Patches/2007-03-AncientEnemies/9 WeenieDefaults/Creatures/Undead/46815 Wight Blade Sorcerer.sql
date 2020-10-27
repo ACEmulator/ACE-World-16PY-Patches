@@ -58,7 +58,8 @@ VALUES (46815,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46815,   1, 'Wight Blade Sorcerer') /* Name */
-     , (46815,  45, 'KilltaskGraveyardWight_1309') /* KillQuest */;
+     , (46815,  45, 'KilltaskGraveyardWight_1309') /* KillQuest */
+     , (46815,  49, 'TaskGrave1WightMageKilltask') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46815,   1,   33560225) /* Setup */
@@ -72,17 +73,17 @@ VALUES (46815,   1,   33560225) /* Setup */
      , (46815,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (46815,   1, 350, 0, 0) /* Strength */
-     , (46815,   2, 350, 0, 0) /* Endurance */
-     , (46815,   3, 320, 0, 0) /* Quickness */
-     , (46815,   4, 380, 0, 0) /* Coordination */
-     , (46815,   5, 480, 0, 0) /* Focus */
-     , (46815,   6, 480, 0, 0) /* Self */;
+VALUES (46815,   1, 240, 0, 0) /* Strength */
+     , (46815,   2, 220, 0, 0) /* Endurance */
+     , (46815,   3, 210, 0, 0) /* Quickness */
+     , (46815,   4, 230, 0, 0) /* Coordination */
+     , (46815,   5, 325, 0, 0) /* Focus */
+     , (46815,   6, 305, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46815,   1,  6000, 0, 0, 6175) /* MaxHealth */
-     , (46815,   3,  3000, 0, 0, 3350) /* MaxStamina */
-     , (46815,   5,  4800, 0, 0, 5280) /* MaxMana */;
+VALUES (46815,   1,  3390, 0, 0, 3500) /* MaxHealth */
+     , (46815,   3,  3000, 0, 0, 3220) /* MaxStamina */
+     , (46815,   5,  2000, 0, 0, 2305) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46815,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
@@ -111,7 +112,7 @@ VALUES (46815,  1786,   2.02)  /* Nuhmudira's Spines */
      , (46815,  4422,   2.02)  /* Incantation of Blade Arc */
      , (46815,  4435,   2.02)  /* Incantation of Blade Blast */
      , (46815,  4436,   2.02)  /* Incantation of Blade Volley */
-     , (46815,  4489,      3)  /* Incantation of Fester Other */
+     , (46815,  4489,   2.02)  /* Incantation of Fester Other */
      , (46815,  5531,   2.02)  /* Bloodstone Bolt VII */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

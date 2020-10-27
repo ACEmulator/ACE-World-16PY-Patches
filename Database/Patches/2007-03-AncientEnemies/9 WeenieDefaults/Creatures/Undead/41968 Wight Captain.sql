@@ -96,17 +96,17 @@ VALUES (41968,   1,   33560225) /* Setup */
      , (41968,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (41968,   1, 510, 0, 0) /* Strength */
-     , (41968,   2, 510, 0, 0) /* Endurance */
-     , (41968,   3, 350, 0, 0) /* Quickness */
-     , (41968,   4, 440, 0, 0) /* Coordination */
-     , (41968,   5, 420, 0, 0) /* Focus */
-     , (41968,   6, 420, 0, 0) /* Self */;
+VALUES (41968,   1, 260, 0, 0) /* Strength */
+     , (41968,   2, 240, 0, 0) /* Endurance */
+     , (41968,   3, 220, 0, 0) /* Quickness */
+     , (41968,   4, 250, 0, 0) /* Coordination */
+     , (41968,   5, 295, 0, 0) /* Focus */
+     , (41968,   6, 285, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41968,   1, 18000, 0, 0, 18255) /* MaxHealth */
-     , (41968,   3,  3500, 0, 0, 4010) /* MaxStamina */
-     , (41968,   5,  2930, 0, 0, 3350) /* MaxMana */;
+VALUES (41968,   1,  4000, 0, 0, 4120) /* MaxHealth */
+     , (41968,   3,  4000, 0, 0, 4240) /* MaxStamina */
+     , (41968,   5,  2000, 0, 0, 2285) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (41968,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
@@ -143,7 +143,7 @@ VALUES (41968, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (
      , (41968, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (41968, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
      , (41968, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (41968, 9, 35504,  0, 0, 0.06, False) /* Create  (35504) for ContainTreasure */
+     , (41968, 9, 35504,  0, 0, 0.06, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
      , (41968, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (41968, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
      , (41968, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */

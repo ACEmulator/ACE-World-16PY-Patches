@@ -7,6 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87006,  81,          5) /* MaxGeneratedObjects */
      , (87006,  82,          5) /* InitGeneratedObjects */
      , (87006,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (87006, 103,          2) /* GeneratorDestructionType - Destroy */
      , (87006, 142,          4) /* GeneratorTimeType - Night */
      , (87006, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
@@ -18,7 +19,7 @@ VALUES (87006,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (87006,  41,     180) /* RegenerationInterval */
      , (87006,  43,       5) /* GeneratorRadius */
-     , (87006, 121,      10) /* GeneratorInitialDelay */;
+     , (87006, 121,       1) /* GeneratorInitialDelay */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87006,   1, 'GY Night Pyre One Camp Gen') /* Name */;
@@ -28,6 +29,6 @@ VALUES (87006,   1,   33555051) /* Setup */
      , (87006,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87006,   -1, 52309, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pyre Champion (35098) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87006,   -1, 41963, 10, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pyre Skeleton (35097) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87006,   -1, 52308, 10, 3, 3, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pyre Minion (35099) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (87006,   -1, 52309, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pyre Champion (52309) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87006,   -1, 41963, 60, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pyre Skeleton (41963) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87006,   -1, 52308, 60, 3, 3, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pyre Minion (52308) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

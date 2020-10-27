@@ -12,7 +12,7 @@ VALUES (52309,   1,         16) /* ItemType - Creature */
      , (52309,  16,          1) /* ItemUseable - No */
      , (52309,  25,        265) /* Level */
      , (52309,  27,          0) /* ArmorType - None */
-     , (52309,  68,          5) /* TargetingTactic - Random, LastDamager */
+     , (52309,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (52309,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52309, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (52309, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -35,30 +35,32 @@ VALUES (52309,   1,       5) /* HeartbeatInterval */
      , (52309,   4,     0.5) /* StaminaRate */
      , (52309,   5,       2) /* ManaRate */
      , (52309,  12,       0) /* Shade */
-     , (52309,  13,    0.48) /* ArmorModVsSlash */
-     , (52309,  14,    0.36) /* ArmorModVsPierce */
-     , (52309,  15,     0.5) /* ArmorModVsBludgeon */
-     , (52309,  16,    0.24) /* ArmorModVsCold */
+     , (52309,  13,    0.69) /* ArmorModVsSlash */
+     , (52309,  14,    0.69) /* ArmorModVsPierce */
+     , (52309,  15,    0.65) /* ArmorModVsBludgeon */
+     , (52309,  16,    0.85) /* ArmorModVsCold */
      , (52309,  17,    0.85) /* ArmorModVsFire */
-     , (52309,  18,    0.32) /* ArmorModVsAcid */
-     , (52309,  19,    0.49) /* ArmorModVsElectric */
+     , (52309,  18,    0.75) /* ArmorModVsAcid */
+     , (52309,  19,    0.75) /* ArmorModVsElectric */
      , (52309,  27,    5.01) /* RotationSpeed */
-     , (52309,  31,      16) /* VisualAwarenessRange */
+     , (52309,  31,      25) /* VisualAwarenessRange */
      , (52309,  34,       1) /* PowerupTime */
      , (52309,  36,       1) /* ChargeSpeed */
+     , (52309,  55,      75) /* HomeRadius */
      , (52309,  64,    0.58) /* ResistSlash */
-     , (52309,  65,    0.25) /* ResistPierce */
-     , (52309,  66,    0.89) /* ResistBludgeon */
-     , (52309,  67,     0.6) /* ResistFire */
+     , (52309,  65,    0.58) /* ResistPierce */
+     , (52309,  66,    0.66) /* ResistBludgeon */
+     , (52309,  67,     0.3) /* ResistFire */
      , (52309,  68,     0.3) /* ResistCold */
      , (52309,  69,    0.42) /* ResistAcid */
      , (52309,  70,     0.4) /* ResistElectric */
+     , (52309, 166,    0.82) /* ResistNether */
      , (52309,  71,       1) /* ResistHealthBoost */
      , (52309,  72,       1) /* ResistStaminaDrain */
      , (52309,  73,       1) /* ResistStaminaBoost */
      , (52309,  74,       1) /* ResistManaDrain */
      , (52309,  75,       1) /* ResistManaBoost */
-     , (52309,  80,       4) /* AiUseMagicDelay */
+     , (52309,  80,       1) /* AiUseMagicDelay */
      , (52309, 104,      10) /* ObviousRadarRange */
      , (52309, 122,       2) /* AiAcquireHealth */
      , (52309, 125,       1) /* ResistHealthDrain */;
@@ -92,39 +94,33 @@ VALUES (52309,   1,  6581, 0, 0, 6831) /* MaxHealth */
      , (52309,   5,  3500, 0, 0, 3900) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52309,  6, 0, 2, 0, 555, 0, 0) /* MeleeDefense        Trained */
-     , (52309,  7, 0, 2, 0, 149, 0, 0) /* MissileDefense      Trained */
-     , (52309, 15, 0, 2, 0, 170, 0, 0) /* MagicDefense        Trained */
-     , (52309, 16, 0, 2, 0, 360, 0, 0) /* ManaConversion      Trained */
-     , (52309, 31, 0, 2, 0, 360, 0, 0) /* CreatureEnchantment Trained */
-     , (52309, 33, 0, 2, 0, 360, 0, 0) /* LifeMagic           Trained */
-     , (52309, 34, 0, 2, 0, 360, 0, 0) /* WarMagic            Trained */
-     , (52309, 41, 0, 2, 0, 528, 0, 0) /* TwoHandedCombat     Trained */
-     , (52309, 44, 0, 2, 0, 528, 0, 0) /* HeavyWeapons        Trained */
-     , (52309, 45, 0, 2, 0, 528, 0, 0) /* LightWeapons        Trained */
-     , (52309, 46, 0, 2, 0, 528, 0, 0) /* FinesseWeapons      Trained */;
+VALUES (52309,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
+     , (52309,  7, 0, 3, 0, 397, 0, 0) /* MissileDefense      Specialized */
+     , (52309, 15, 0, 3, 0, 340, 0, 0) /* MagicDefense        Specialized */
+     , (52309, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
+     , (52309, 33, 0, 3, 0, 280, 0, 0) /* LifeMagic           Specialized */
+     , (52309, 34, 0, 3, 0, 280, 0, 0) /* WarMagic            Specialized */
+     , (52309, 44, 0, 3, 0, 565, 0, 0) /* Heavy Weapons       Specialized */
+     , (52309, 45, 0, 3, 0, 565, 0, 0) /* Light Weapons       Specialized */
+     , (52309, 46, 0, 3, 0, 565, 0, 0) /* Finesse Weapons     Specialized */
+     , (52309, 47, 0, 3, 0, 565, 0, 0) /* Missile Weapons     Specialized */
+     , (52309, 48, 0, 3, 0, 200, 0, 0) /* Shield              Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (52309,  0,  4,  0,    0,  280,  280,  280,  280,  280,  280,  280,  280,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (52309,  1,  4,  0,    0,  280,  280,  280,  280,  280,  280,  280,  280,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (52309,  2,  4,  0,    0,  280,  280,  280,  280,  280,  280,  280,  280,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (52309,  3,  4,  0,    0,  280,  280,  280,  280,  280,  280,  280,  280,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (52309,  4,  4,  0,    0,  280,  280,  280,  280,  280,  280,  280,  280,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (52309,  5,  4, 75, 0.75,  280,  280,  280,  280,  280,  280,  280,  280,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (52309,  6,  4,  0,    0,  280,  280,  280,  280,  280,  280,  280,  280,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (52309,  7,  4,  0,    0,  280,  280,  280,  280,  280,  280,  280,  280,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (52309,  8,  4, 75, 0.75,  280,  280,  280,  280,  280,  280,  280,  280,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (52309,  0,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (52309,  1,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (52309,  2,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (52309,  3,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (52309,  4,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (52309,  5,  4, 275, 0.75,  450,  450,  450,  450,  450,  450,  450,  450,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (52309,  6,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (52309,  7,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (52309,  8,  4, 275, 0.75,  450,  450,  450,  450,  450,  450,  450,  450,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52309,  2074,    2.1)  /* Gossamer Flesh */
-     , (52309,  2122,    2.1)  /* Disintegration */
-     , (52309,  2132,    2.1)  /* The Spike */
-     , (52309,  2136,    2.1)  /* Icy Torment */
-     , (52309,  2144,    2.1)  /* Crushing Shame */
-     , (52309,  2162,    2.1)  /* Olthoi's Gift */
-     , (52309,  2166,    2.1)  /* Tusker's Gift */
-     , (52309,  2168,    2.1)  /* Gelidite's Gift */
-     , (52309,  2174,    2.1)  /* Archer's Gift */;
+VALUES (52309,  2170,    2.05)  /* Inferno's Gift */
+     , (52309,  2745,    2.05)  /* Flame Arc VII */
+     , (52309,  2130,    2.05)  /* Infernae */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52309, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */

@@ -43,10 +43,10 @@ VALUES (38713,   1,      15) /* HeartbeatInterval */
      , (38713,  34,       2) /* PowerupTime */
      , (38713,  36,       1) /* ChargeSpeed */
      , (38713,  39,     1.1) /* DefaultScale */
-     , (38713,  64,    0.84) /* ResistSlash */
+     , (38713,  64,    0.64) /* ResistSlash */
      , (38713,  65,    0.57) /* ResistPierce */
      , (38713,  66,    0.57) /* ResistBludgeon */
-     , (38713,  67,    0.88) /* ResistFire */
+     , (38713,  67,    0.78) /* ResistFire */
      , (38713,  68,     0.3) /* ResistCold */
      , (38713,  69,     0.6) /* ResistAcid */
      , (38713,  70,     0.4) /* ResistElectric */
@@ -61,7 +61,8 @@ VALUES (38713,   1,      15) /* HeartbeatInterval */
      , (38713, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38713,   1, 'Shambling Archivist') /* Name */;
+VALUES (38713,   1, 'Shambling Archivist') /* Name */
+     , (38713,  45, 'TaskGrave1BossKillStarted') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38713,   1,   33559744) /* Setup */
@@ -71,7 +72,8 @@ VALUES (38713,   1,   33559744) /* Setup */
      , (38713,   6,   67108990) /* PaletteBase */
      , (38713,   7,  268437063) /* ClothingBase */
      , (38713,   8,  100667942) /* Icon */
-     , (38713,  22,  872415272) /* PhysicsEffectTable */;
+     , (38713,  22,  872415272) /* PhysicsEffectTable */
+     , (38713,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38713,   1, 350, 0, 0) /* Strength */
@@ -159,5 +161,3 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   6 /* Move */, 0, 0.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1, 0, 0, 0);
 
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38713, 2, 31822,  1, 0, 0, False) /* Create Electric Baton (31822) for Wield */;

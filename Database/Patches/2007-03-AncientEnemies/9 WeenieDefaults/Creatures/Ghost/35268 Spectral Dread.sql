@@ -35,22 +35,22 @@ VALUES (35268,   1,       5) /* HeartbeatInterval */
      , (35268,   4,     0.5) /* StaminaRate */
      , (35268,   5,       2) /* ManaRate */
      , (35268,  12,     0.5) /* Shade */
-     , (35268,  13,     0.8) /* ArmorModVsSlash */
+     , (35268,  13,    0.64) /* ArmorModVsSlash */
      , (35268,  14,    0.96) /* ArmorModVsPierce */
      , (35268,  15,    0.96) /* ArmorModVsBludgeon */
      , (35268,  16,       1) /* ArmorModVsCold */
-     , (35268,  17,    0.81) /* ArmorModVsFire */
+     , (35268,  17,    0.64) /* ArmorModVsFire */
      , (35268,  18,    0.97) /* ArmorModVsAcid */
      , (35268,  19,    0.97) /* ArmorModVsElectric */
      , (35268,  31,      18) /* VisualAwarenessRange */
      , (35268,  34,       1) /* PowerupTime */
      , (35268,  36,       1) /* ChargeSpeed */
-     , (35268,  64,    0.98) /* ResistSlash */
-     , (35268,  65,    0.87) /* ResistPierce */
+     , (35268,  64,    0.80) /* ResistSlash */
+     , (35268,  65,    0.80) /* ResistPierce */
      , (35268,  66,    0.79) /* ResistBludgeon */
-     , (35268,  67,    0.98) /* ResistFire */
-     , (35268,  68,    0.84) /* ResistCold */
-     , (35268,  69,    0.69) /* ResistAcid */
+     , (35268,  67,    0.82) /* ResistFire */
+     , (35268,  68,    0.34) /* ResistCold */
+     , (35268,  69,    0.49) /* ResistAcid */
      , (35268,  70,     0.5) /* ResistElectric */
      , (35268,  71,       1) /* ResistHealthBoost */
      , (35268,  72,       1) /* ResistStaminaDrain */
@@ -58,7 +58,6 @@ VALUES (35268,   1,       5) /* HeartbeatInterval */
      , (35268,  74,       1) /* ResistManaDrain */
      , (35268,  75,       1) /* ResistManaBoost */
      , (35268,  76,     0.5) /* Translucency */
-     , (35268,  80,       3) /* AiUseMagicDelay */
      , (35268, 104,      10) /* ObviousRadarRange */
      , (35268, 122,       2) /* AiAcquireHealth */
      , (35268, 125,       1) /* ResistHealthDrain */;
@@ -101,23 +100,21 @@ VALUES (35268,  6, 0, 3, 0, 383, 0, 0) /* MeleeDefense        Specialized */
      , (35268, 31, 0, 3, 0, 345, 0, 0) /* CreatureEnchantment Specialized */
      , (35268, 33, 0, 3, 0, 345, 0, 0) /* LifeMagic           Specialized */
      , (35268, 34, 0, 3, 0, 345, 0, 0) /* WarMagic            Specialized */
-     , (35268, 45, 0, 3, 0, 350, 0, 0) /* LightWeapons        Specialized */;
+     , (35268, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (35268,  0,  1,  0,    0,  500,  200,  250,  250,  250,  250,  250,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (35268,  1,  1,  0,    0,  500,  200,  250,  250,  250,  250,  250,  200,    0, 2, 0.44, 0.23,    0, 0.44, 0.23,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (35268,  2,  1,  0,    0,  500,  200,  250,  250,  250,  250,  250,  200,    0, 3,    0, 0.23,  0.1,    0, 0.23,  0.2,    0, 0.17, 0.45,    0, 0.17, 0.45) /* Abdomen */
-     , (35268,  3,  1,  0,    0,  500,  200,  250,  250,  250,  250,  250,  200,    0, 1, 0.23, 0.04,  0.2, 0.23, 0.04,  0.1, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (35268,  4,  1,  0,    0,  500,  200,  250,  250,  250,  250,  250,  200,    0, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
-     , (35268,  5,  9, 1000, 0.55,  500,  200,  250,  250,  250,  250,  250,  200,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */;
+VALUES (35268,  0,  1,  0,    0,  200,  200,  250,  250,  250,  250,  250,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (35268,  1,  1,  0,    0,  200,  200,  250,  250,  250,  250,  250,  200,    0, 2, 0.44, 0.23,    0, 0.44, 0.23,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (35268,  2,  1,  0,    0,  200,  200,  250,  250,  250,  250,  250,  200,    0, 3,    0, 0.23,  0.1,    0, 0.23,  0.2,    0, 0.17, 0.45,    0, 0.17, 0.45) /* Abdomen */
+     , (35268,  3,  1,  0,    0,  200,  200,  250,  250,  250,  250,  250,  200,    0, 1, 0.23, 0.04,  0.2, 0.23, 0.04,  0.1, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (35268,  4,  1,  0,    0,  200,  200,  250,  250,  250,  250,  250,  200,    0, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
+     , (35268,  5,  9, 400, 0.55,  200,  200,  250,  250,  250,  250,  250,  200,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35268,  2054,   2.03)  /* Synaptic Misfire */
-     , (35268,  2073,      2)  /* Adja's Intervention */
      , (35268,  2074,   2.04)  /* Gossamer Flesh */
      , (35268,  2088,   2.03)  /* Senescence */
      , (35268,  2136,   2.05)  /* Icy Torment */
-     , (35268,  2146,   2.06)  /* Evisceration */
      , (35268,  2168,   2.06)  /* Gelidite's Gift */
      , (35268,  2238,   2.02)  /* Unsteady Hands */;
 
