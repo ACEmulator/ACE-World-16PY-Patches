@@ -36,22 +36,22 @@ VALUES (37454,   1,       5) /* HeartbeatInterval */
      , (37454,   4,     0.5) /* StaminaRate */
      , (37454,   5,       2) /* ManaRate */
      , (37454,  12,     0.5) /* Shade */
-     , (37454,  13,    0.67) /* ArmorModVsSlash */
-     , (37454,  14,    0.37) /* ArmorModVsPierce */
-     , (37454,  15,     0.5) /* ArmorModVsBludgeon */
-     , (37454,  16,     0.3) /* ArmorModVsCold */
-     , (37454,  17,    0.67) /* ArmorModVsFire */
-     , (37454,  18,     0.4) /* ArmorModVsAcid */
-     , (37454,  19,    0.33) /* ArmorModVsElectric */
+     , (37454,  13,    0.64) /* ArmorModVsSlash */
+     , (37454,  14,    0.96) /* ArmorModVsPierce */
+     , (37454,  15,    0.96) /* ArmorModVsBludgeon */
+     , (37454,  16,       1) /* ArmorModVsCold */
+     , (37454,  17,    0.64) /* ArmorModVsFire */
+     , (37454,  18,    0.97) /* ArmorModVsAcid */
+     , (37454,  19,    0.97) /* ArmorModVsElectric */
      , (37454,  31,      18) /* VisualAwarenessRange */
      , (37454,  34,       1) /* PowerupTime */
      , (37454,  36,       1) /* ChargeSpeed */
-     , (37454,  64,    0.87) /* ResistSlash */
-     , (37454,  65,    0.45) /* ResistPierce */
-     , (37454,  66,    0.48) /* ResistBludgeon */
-     , (37454,  67,    0.86) /* ResistFire */
-     , (37454,  68,    0.45) /* ResistCold */
-     , (37454,  69,    0.59) /* ResistAcid */
+     , (37454,  64,    0.80) /* ResistSlash */
+     , (37454,  65,    0.80) /* ResistPierce */
+     , (37454,  66,    0.79) /* ResistBludgeon */
+     , (37454,  67,    0.82) /* ResistFire */
+     , (37454,  68,    0.34) /* ResistCold */
+     , (37454,  69,    0.49) /* ResistAcid */
      , (37454,  70,     0.5) /* ResistElectric */
      , (37454,  71,       1) /* ResistHealthBoost */
      , (37454,  72,       1) /* ResistStaminaDrain */
@@ -59,7 +59,6 @@ VALUES (37454,   1,       5) /* HeartbeatInterval */
      , (37454,  74,       1) /* ResistManaDrain */
      , (37454,  75,       1) /* ResistManaBoost */
      , (37454,  76,     0.5) /* Translucency */
-     , (37454,  80,       3) /* AiUseMagicDelay */
      , (37454, 104,      10) /* ObviousRadarRange */
      , (37454, 122,       2) /* AiAcquireHealth */
      , (37454, 125,       1) /* ResistHealthDrain */;
@@ -102,7 +101,7 @@ VALUES (37454,  6, 0, 3, 0, 383, 0, 0) /* MeleeDefense        Specialized */
      , (37454, 31, 0, 3, 0, 345, 0, 0) /* CreatureEnchantment Specialized */
      , (37454, 33, 0, 3, 0, 345, 0, 0) /* LifeMagic           Specialized */
      , (37454, 34, 0, 3, 0, 345, 0, 0) /* WarMagic            Specialized */
-     , (37454, 45, 0, 3, 0, 350, 0, 0) /* LightWeapons        Specialized */;
+     , (37454, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (37454,  0,  1,  0,    0,  500,  200,  250,  250,  250,  250,  250,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -114,11 +113,9 @@ VALUES (37454,  0,  1,  0,    0,  500,  200,  250,  250,  250,  250,  250,  200,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37454,  2054,   2.03)  /* Synaptic Misfire */
-     , (37454,  2073,      2)  /* Adja's Intervention */
      , (37454,  2074,   2.04)  /* Gossamer Flesh */
      , (37454,  2088,   2.03)  /* Senescence */
      , (37454,  2136,   2.05)  /* Icy Torment */
-     , (37454,  2146,   2.06)  /* Evisceration */
      , (37454,  2168,   2.06)  /* Gelidite's Gift */
      , (37454,  2238,   2.02)  /* Unsteady Hands */;
 

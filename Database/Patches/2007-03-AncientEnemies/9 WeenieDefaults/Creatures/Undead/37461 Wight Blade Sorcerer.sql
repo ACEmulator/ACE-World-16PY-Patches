@@ -6,6 +6,7 @@ VALUES (37461, 'ace37461-wightbladesorcerer', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37461,   1,         16) /* ItemType - Creature */
      , (37461,   2,         14) /* CreatureType - Undead */
+     , (37461,   3,         10) /* PaletteTemplate - LightBlue */
      , (37461,   6,         -1) /* ItemsCapacity */
      , (37461,   7,         -1) /* ContainersCapacity */
      , (37461,  16,          1) /* ItemUseable - No */
@@ -31,6 +32,7 @@ VALUES (37461,   1,       5) /* HeartbeatInterval */
      , (37461,   3,     0.1) /* HealthRate */
      , (37461,   4,       5) /* StaminaRate */
      , (37461,   5,       2) /* ManaRate */
+     , (37461,  12,       0) /* Shade */
      , (37461,  13,    0.37) /* ArmorModVsSlash */
      , (37461,  14,    0.37) /* ArmorModVsPierce */
      , (37461,  15,     0.5) /* ArmorModVsBludgeon */
@@ -48,7 +50,7 @@ VALUES (37461,   1,       5) /* HeartbeatInterval */
      , (37461,  67,    0.98) /* ResistFire */
      , (37461,  68,     0.5) /* ResistCold */
      , (37461,  69,     0.5) /* ResistAcid */
-     , (37461,  70,     0.5) /* ResistElectric */
+     , (37461,  70,    0.95) /* ResistElectric */
      , (37461,  80,       3) /* AiUseMagicDelay */
      , (37461, 104,      10) /* ObviousRadarRange */
      , (37461, 125,       1) /* ResistHealthDrain */;
@@ -65,20 +67,20 @@ VALUES (37461,   1,   33560225) /* Setup */
      , (37461,   6,   67110722) /* PaletteBase */
      , (37461,   8,  100667942) /* Icon */
      , (37461,  22,  872415272) /* PhysicsEffectTable */
-     , (37461,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (37461,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (37461,   1, 350, 0, 0) /* Strength */
-     , (37461,   2, 350, 0, 0) /* Endurance */
-     , (37461,   3, 320, 0, 0) /* Quickness */
-     , (37461,   4, 380, 0, 0) /* Coordination */
-     , (37461,   5, 480, 0, 0) /* Focus */
-     , (37461,   6, 480, 0, 0) /* Self */;
+VALUES (37461,   1, 240, 0, 0) /* Strength */
+     , (37461,   2, 220, 0, 0) /* Endurance */
+     , (37461,   3, 210, 0, 0) /* Quickness */
+     , (37461,   4, 230, 0, 0) /* Coordination */
+     , (37461,   5, 325, 0, 0) /* Focus */
+     , (37461,   6, 305, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37461,   1,  6000, 0, 0, 6175) /* MaxHealth */
-     , (37461,   3,  3000, 0, 0, 3350) /* MaxStamina */
-     , (37461,   5,  4800, 0, 0, 5280) /* MaxMana */;
+VALUES (37461,   1,  3390, 0, 0, 3500) /* MaxHealth */
+     , (37461,   3,  3000, 0, 0, 3220) /* MaxStamina */
+     , (37461,   5,  2000, 0, 0, 2305) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (37461,  6, 0, 3, 0, 360, 0, 0) /* MeleeDefense        Specialized */
@@ -107,7 +109,7 @@ VALUES (37461,  1786,   2.02)  /* Nuhmudira's Spines */
      , (37461,  4422,   2.02)  /* Incantation of Blade Arc */
      , (37461,  4435,   2.02)  /* Incantation of Blade Blast */
      , (37461,  4436,   2.02)  /* Incantation of Blade Volley */
-     , (37461,  4489,      3)  /* Incantation of Fester Other */
+     , (37461,  4489,   2.02)  /* Incantation of Fester Other */
      , (37461,  5531,   2.02)  /* Bloodstone Bolt VII */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

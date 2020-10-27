@@ -31,13 +31,14 @@ VALUES (37456,   1,       5) /* HeartbeatInterval */
      , (37456,   3,   0.067) /* HealthRate */
      , (37456,   4,       5) /* StaminaRate */
      , (37456,   5,       2) /* ManaRate */
-     , (37456,  13,    0.67) /* ArmorModVsSlash */
-     , (37456,  14,    0.67) /* ArmorModVsPierce */
-     , (37456,  15,    0.53) /* ArmorModVsBludgeon */
-     , (37456,  16,    0.73) /* ArmorModVsCold */
-     , (37456,  17,    0.67) /* ArmorModVsFire */
-     , (37456,  18,    0.64) /* ArmorModVsAcid */
-     , (37456,  19,    0.53) /* ArmorModVsElectric */
+     , (37456,  12,       0) /* Shade */
+     , (37456,  13,    0.98) /* ArmorModVsSlash */
+     , (37456,  14,    0.98) /* ArmorModVsPierce */
+     , (37456,  15,    0.65) /* ArmorModVsBludgeon */
+     , (37456,  16,    0.98) /* ArmorModVsCold */
+     , (37456,  17,    0.98) /* ArmorModVsFire */
+     , (37456,  18,    0.98) /* ArmorModVsAcid */
+     , (37456,  19,    0.65) /* ArmorModVsElectric */
      , (37456,  31,      15) /* VisualAwarenessRange */
      , (37456,  34,       2) /* PowerupTime */
      , (37456,  36,       1) /* ChargeSpeed */
@@ -67,7 +68,7 @@ VALUES (37456,   1,   33554493) /* Setup */
      , (37456,   8,  100667451) /* Icon */
      , (37456,  22,  872415267) /* PhysicsEffectTable */
      , (37456,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (37456,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (37456,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (37456,   1, 320, 0, 0) /* Strength */
@@ -86,20 +87,13 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (37456,  6, 0, 2, 0, 522, 0, 0) /* MeleeDefense        Trained */
      , (37456,  7, 0, 2, 0, 149, 0, 0) /* MissileDefense      Trained */
      , (37456, 15, 0, 2, 0, 170, 0, 0) /* MagicDefense        Trained */
-     , (37456, 16, 0, 2, 0, 149, 0, 0) /* ManaConversion      Trained */
-     , (37456, 31, 0, 2, 0, 149, 0, 0) /* CreatureEnchantment Trained */
-     , (37456, 33, 0, 2, 0, 149, 0, 0) /* LifeMagic           Trained */
-     , (37456, 34, 0, 2, 0, 149, 0, 0) /* WarMagic            Trained */
-     , (37456, 41, 0, 2, 0, 553, 0, 0) /* TwoHandedCombat     Trained */
-     , (37456, 43, 0, 2, 0, 149, 0, 0) /* VoidMagic           Trained */
-     , (37456, 44, 0, 2, 0, 553, 0, 0) /* HeavyWeapons        Trained */
-     , (37456, 45, 0, 2, 0, 553, 0, 0) /* LightWeapons        Trained */
-     , (37456, 46, 0, 2, 0, 553, 0, 0) /* FinesseWeapons      Trained */;
+     , (37456, 45, 0, 2, 0, 553, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (37456,  0,  2,  2, 0.75,    8,    8,    4,    4,    8,    3,    6,    6,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */
-     , (37456, 16,  4,  4, 0.75,    8,    8,    4,    4,    8,    3,    6,    6,    0, 2, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75) /* Torso */
-     , (37456, 17,  4,  0,    0,    8,    8,    4,    4,    8,    3,    6,    6,    0, 3,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25) /* Tail */;
+VALUES (37456,  0,  2, 120, 0.75,  430,  280,  344,  280,  323,  387,  366,  323,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */
+     , (37456, 16,  4, 120, 0.75,  430,  280,  344,  280,  323,  387,  366,  323,    0, 2, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75) /* Torso */
+     , (37456, 17,  4, 120,    0,  430,  280,  344,  280,  323,  387,  366,  323,    0, 3,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25) /* Tail */
+     , (37456, 22, 32, 120,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (37456,  5 /* HeartBeat */,    0.1, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

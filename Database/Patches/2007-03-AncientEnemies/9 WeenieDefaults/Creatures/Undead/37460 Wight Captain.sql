@@ -6,6 +6,7 @@ VALUES (37460, 'ace37460-wightcaptain', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37460,   1,         16) /* ItemType - Creature */
      , (37460,   2,         14) /* CreatureType - Undead */
+     , (37460,   3,         70) /* PaletteTemplate - PurpleSlime */
      , (37460,   6,         -1) /* ItemsCapacity */
      , (37460,   7,         -1) /* ContainersCapacity */
      , (37460,  16,          1) /* ItemUseable - No */
@@ -30,6 +31,7 @@ VALUES (37460,   1,       5) /* HeartbeatInterval */
      , (37460,   3,     0.1) /* HealthRate */
      , (37460,   4,       5) /* StaminaRate */
      , (37460,   5,       2) /* ManaRate */
+     , (37460,  12,       0) /* Shade */
      , (37460,  13,    0.37) /* ArmorModVsSlash */
      , (37460,  14,    0.37) /* ArmorModVsPierce */
      , (37460,  15,     0.5) /* ArmorModVsBludgeon */
@@ -89,20 +91,20 @@ VALUES (37460,   1,   33560225) /* Setup */
                                    Wield Kite Shield (91) | Probability: 30.000002%
                                    Wield Round Shield (93) | Probability: 30.000002%
                                    Wield Buckler (44) | Probability: 30.000002% */
-     , (37460,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (37460,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (37460,   1, 510, 0, 0) /* Strength */
-     , (37460,   2, 510, 0, 0) /* Endurance */
-     , (37460,   3, 350, 0, 0) /* Quickness */
-     , (37460,   4, 440, 0, 0) /* Coordination */
-     , (37460,   5, 420, 0, 0) /* Focus */
-     , (37460,   6, 420, 0, 0) /* Self */;
+VALUES (37460,   1, 260, 0, 0) /* Strength */
+     , (37460,   2, 240, 0, 0) /* Endurance */
+     , (37460,   3, 220, 0, 0) /* Quickness */
+     , (37460,   4, 250, 0, 0) /* Coordination */
+     , (37460,   5, 295, 0, 0) /* Focus */
+     , (37460,   6, 285, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37460,   1, 18000, 0, 0, 18255) /* MaxHealth */
-     , (37460,   3,  3500, 0, 0, 4010) /* MaxStamina */
-     , (37460,   5,  2930, 0, 0, 3350) /* MaxMana */;
+VALUES (37460,   1,  4000, 0, 0, 4120) /* MaxHealth */
+     , (37460,   3,  4000, 0, 0, 4240) /* MaxStamina */
+     , (37460,   5,  2000, 0, 0, 2285) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (37460,  6, 0, 3, 0, 360, 0, 0) /* MeleeDefense        Specialized */
@@ -133,7 +135,7 @@ VALUES (37460,  1784,   2.02)  /* Horizon's Blades */
      , (37460,  4312,   2.02)  /* Incantation of Imperil Other */
      , (37460,  4422,   2.02)  /* Incantation of Blade Arc */
      , (37460,  4475,   2.02)  /* Incantation of Blade Vulnerability Other */;
-
+     
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37460, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (37460, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
