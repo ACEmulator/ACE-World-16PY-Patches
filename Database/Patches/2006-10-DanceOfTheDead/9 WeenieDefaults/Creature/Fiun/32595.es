@@ -22,18 +22,20 @@ Give: 87151
     - Delay: 0.5, Tell: I have scryed a strong connection to a place located in the eastern end of the Osteth Mountain Range. Travel to 84.3N 24.7E and seek out what lies there.
     - Delay: 0.5, Tell: I have one more favor to ask of you. If you find that Lunnum's corpse has been desecrated in any way I would have you destroy it rather than see it returned to Fiun Gaya in such a state. Better that he never sees such a sight.
     - StampQuest: templeentranceflagged
-Give: 25499
--TurnToTarget
-	-InqQuest: didnotkillandrilos
-		QuestSuccess:
-			-Tell: It is a shame what became of Lunnum. Thank you for your help in uncovering the truth of her disappearance.
-			-AwardLevelProportionalXP: 15%, Max: 100,000,000
-			-Delay: 0.5, Tell: You showed wisdom and compassion by not taking the Huntsman Andrilos's life. I wish to further reward you for your understanding and control.
-			-AwardNoShareXP: 20000000
-			-Delay: 0.5, Tell: Say nothing of our investigation to Gaya. We all miss Lunnum, but Gaya's morbid obsession has cost us too much and it ends here.
-			-Delay: 0.5, Tell: Thank you for finally finding what became of Lunnum. Do no tell Fiun Gaya of her undeath, I fear he would be unable to deal with the truth. It is better he should keep the pyre burning in her memory. Perhaps you could visit him and provide him some solace by helping him keep his pyre.
-		QuestFailure:
-			-Tell: It is a shame what became of Lunnum. Thank you for your help in uncovering the truth of her disappearance.
-			-Delay: 0.5, Tell: I wish that you had not killed that innocent man Andrilos. May you take this as a lesson that people should not be judged without a sound body of evidence. Vigilantism is blood thirst masquerading as justice.
-			-AwardLevelProportionalXP: 15%, Max: 100,000,000
-			-Delay: 0.5, Tell: Say nothing of our investigation to Gaya. We all miss Lunnum, but Gaya's morbid obsession has cost us too much and it ends here.
+
+Give: 35829
+    - TurnToTarget
+    - InqQuest: AndrilosLives
+        QuestSuccess:
+            - Tell: It is a shame what became of Lunnum. Thank you for your help in uncovering the truth of her disappearance.
+            - AwardLevelProportionalXP: 15%, Max: 100,000,000
+            - Delay: 0.5, Tell: You showed wisdom and compassion by not taking the Huntsman Andrilos's life. I wish to further reward you for your understanding and control.
+            - AwardNoShareXP: 20,000,000
+            - Delay: 0.5, Tell: Say nothing of our investigation to Gaya. We all miss Lunnum, but Gaya's morbid obsession has cost us too much and it ends here.
+            - Delay: 0.5, Tell: Thank you for finally finding what became of Lunnum. Do no tell Fiun Gaya of her undeath, I fear he would be unable to deal with the truth. It is better he should keep the pyre burning in her memory. Perhaps you could visit him and provide him some solace by helping him keep his pyre.
+        QuestFailure:
+            - Tell: It is a shame what became of Lunnum. Thank you for your help in uncovering the truth of her disappearance.
+            - Delay: 0.5, Tell: I wish that you had not killed that innocent man Andrilos. May you take this as a lesson that people should not be judged without a sound body of evidence. Vigilantism is blood thirst masquerading as justice.
+            - AwardLevelProportionalXP: 15%, Max: 100,000,000
+            - Delay: 0.5, Tell: Say nothing of our investigation to Gaya. We all miss Lunnum, but Gaya's morbid obsession has cost us too much and it ends here.
+

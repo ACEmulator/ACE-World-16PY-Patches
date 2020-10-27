@@ -7,8 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32595,   1,         16) /* ItemType - Creature */
      , (32595,   2,         78) /* CreatureType - Fiun */
      , (32595,   3,         13) /* PaletteTemplate - Purple */
-     , (32595,   6,         -1) /* ItemsCapacity */
-     , (32595,   7,         -1) /* ContainersCapacity */
+     , (32595,   6,        255) /* ItemsCapacity */
+     , (32595,   7,        255) /* ContainersCapacity */
      , (32595,  16,         32) /* ItemUseable - Remote */
      , (32595,  25,         83) /* Level */
      , (32595,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -18,8 +18,12 @@ VALUES (32595,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32595,   1, True ) /* Stuck */
-     , (32595,   8, True ) /* AllowGive */
-     , (32595,  19, False) /* Attackable */;
+     , (32595,  11, True ) /* IgnoreCollisions */
+     , (32595,  12, True ) /* ReportCollisions */
+     , (32595,  14, True ) /* GravityStatus */
+     , (32595,  19, False) /* Attackable */
+     , (32595,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (32595,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32595,  12,       0) /* Shade */
@@ -46,9 +50,9 @@ VALUES (32595,   1, 135, 0, 0) /* Strength */
      , (32595,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32595,   1,    11, 0, 0, 62) /* MaxHealth */
-     , (32595,   3,    10, 0, 0, 113) /* MaxStamina */
-     , (32595,   5,    10, 0, 0, 140) /* MaxMana */;
+VALUES (32595,   1,     0, 0, 0, 62) /* MaxHealth */
+     , (32595,   3,     0, 0, 0, 113) /* MaxStamina */
+     , (32595,   5,     0, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (32595,  1 /* Refuse */,      1, 34040 /* Fiun Crown */, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -86,13 +90,13 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  7,  22 /* StampQuest */, 0, 1, NULL, 'templeentranceflagged', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (32595,  6 /* Give */,      1, 25499 /* Khopesh */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (32595,  6 /* Give */,      1, 35829 /* Lunnum's Token */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  21 /* InqQuest */, 0, 1, NULL, 'didnotkillandrilos', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  1,  21 /* InqQuest */, 0, 1, NULL, 'AndrilosLives', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (32595,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -105,7 +109,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'You will find him tending Lunnum''s Pyre on the Isle of Ruin at 89.1N 47.6W.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (32595, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'didnotkillandrilos', NULL, NULL, NULL);
+VALUES (32595, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AndrilosLives', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -118,7 +122,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'It is a shame what became o
      , (@parent_id,  5,  10 /* Tell */, 0.5, 1, NULL, 'Thank you for finally finding what became of Lunnum. Do no tell Fiun Gaya of her undeath, I fear he would be unable to deal with the truth. It is better he should keep the pyre burning in her memory. Perhaps you could visit him and provide him some solace by helping him keep his pyre.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (32595, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'didnotkillandrilos', NULL, NULL, NULL);
+VALUES (32595, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AndrilosLives', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
