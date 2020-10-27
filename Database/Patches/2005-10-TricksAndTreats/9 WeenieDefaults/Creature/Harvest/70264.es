@@ -85,11 +85,11 @@ GotoSet: KillTaskHarvestReaper
                     - Tell: Return to me when you have killed ten of the unnatural horrors.
                     - SetQuestCompletions: KillTask-HarvestReaper, 0
                     - Delay: 0.5, DirectBroadcast: Kill 10 Harvest Reapers and return to the Majestic Pumpkin.
-            #- Goto: KillTaskHarvestReaper
-            #- InqQuest: KillTask-HarvestReaper
-                #QuestFailure:
-                    #- DirectBroadcast: Kill %tqm Harvest Reapers and return to the Majestic Pumpkin.
                     #- Goto: KillTaskHarvestReaper
+                    #- InqQuest: KillTask-HarvestReaper
+                        #QuestFailure:
+                            #- DirectBroadcast: Kill %tqm Harvest Reapers and return to the Majestic Pumpkin.
+                            #- Goto: KillTaskHarvestReaper
 
 GotoSet: KillTaskHarvestReaperTitles, Probability: 1.0
     - InqQuestSolves: KillTask-HarvestReaperCompletions, 1 - 1
