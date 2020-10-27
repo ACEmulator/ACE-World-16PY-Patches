@@ -6,8 +6,8 @@ VALUES (32186, 'ace32186-pumpkinlord', 10, '2019-12-02 23:49:30') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32186,   1,         16) /* ItemType - Creature */
      , (32186,   2,         93) /* CreatureType - Harvest */
-     , (32186,   6,        255) /* ItemsCapacity */
-     , (32186,   7,        255) /* ContainersCapacity */
+     , (32186,   6,         -1) /* ItemsCapacity */
+     , (32186,   7,         -1) /* ContainersCapacity */
      , (32186,  16,          1) /* ItemUseable - No */
      , (32186,  25,         60) /* Level */
      , (32186,  27,          0) /* ArmorType - None */
@@ -46,7 +46,7 @@ VALUES (32186,   1,       5) /* HeartbeatInterval */
      , (32186,  31,      13) /* VisualAwarenessRange */
      , (32186,  34,     2.5) /* PowerupTime */
      , (32186,  36,       1) /* ChargeSpeed */
-     , (32186,  39, 1.10000002384186) /* DefaultScale */
+     , (32186,  39,     1.1) /* DefaultScale */
      , (32186,  43,      10) /* GeneratorRadius */
      , (32186,  64, 0.529999971389771) /* ResistSlash */
      , (32186,  65, 0.899999976158142) /* ResistPierce */
@@ -66,7 +66,7 @@ VALUES (32186,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32186,   1, 'Pumpkin Lord') /* Name */
-     , (32186,  45, 'pumpkinlordkillcount') /* KillQuest */;
+     , (32186,  45, 'KillTask-PumpkinLord') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32186,   1,   33559753) /* Setup */
@@ -124,4 +124,4 @@ VALUES (32186,    66,   2.06)  /* Shock Wave III */
      , (32186,  1417,  2.005)  /* Slowness Other III */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32186, -1, 32203, -1, 5, 5, 1, 2, -1, 0, 0, 0, 2, 2, 2, 1, 0, 0, 0) /* Generate Pumpkin Kin (32203) (x5 up to max of 5) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (32186, -1, 32203, 0, 5, 5, 1, 2, -1, 0, 0, 0, 2, 2, 2, 1, 0, 0, 0) /* Generate Pumpkin Kin (32203) (x5 up to max of 5) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
