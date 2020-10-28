@@ -5,7 +5,7 @@ VALUES (32199, 'ace32199-pumpkinfollower', 21, '2019-09-13 02:41:34') /* Contain
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32199,   1,        512) /* ItemType - Container */
-     , (32199,   5,       3010) /* EncumbranceVal */
+     , (32199,   5,       3000) /* EncumbranceVal */
      , (32199,   6,        120) /* ItemsCapacity */
      , (32199,   7,         10) /* ContainersCapacity */
      , (32199,  16,         48) /* ItemUseable - ViewedRemote */
