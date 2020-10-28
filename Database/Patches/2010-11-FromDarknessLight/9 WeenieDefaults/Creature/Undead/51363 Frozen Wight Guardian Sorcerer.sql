@@ -29,25 +29,26 @@ VALUES (51363,   1,  5) /* HeartbeatInterval */
      , (51363,   4,0.5) /* StaminaRate */
      , (51363,   5,  2) /* ManaRate */
      , (51363,  12,  0) /* Shade */
-     , (51363,  13,  0.37) /* ArmorModVsSlash */
-     , (51363,  14,  0.37) /* ArmorModVsPierce */
-     , (51363,  15,  0.50) /* ArmorModVsBludgeon */
-     , (51363,  16,  0.30) /* ArmorModVsCold */
-     , (51363,  17,  0.60) /* ArmorModVsFire */
-     , (51363,  18,  0.40) /* ArmorModVsAcid */
-     , (51363,  19,  0.33) /* ArmorModVsElectric */
-     , (51363,  27,     3) /* RotationSpeed */
-     , (51363,  31,    33) /* VisualAwarenessRange */
-     , (51363,  34,     2) /* PowerupTime */
-     , (51363,  36,     1) /* ChargeSpeed */
-     , (51363,  39,   1.1) /* DefaultScale */
-     , (51363,  64,  0.57) /* ResistSlash */
-     , (51363,  65,  0.57) /* ResistPierce */
-     , (51363,  66,  0.86) /* ResistBludgeon */
-     , (51363,  67,  0.90) /* ResistFire */
-     , (51363,  68,  0.30) /* ResistCold */
-     , (51363,  69,  0.70) /* ResistAcid */
-     , (51363,  70,  0.40) /* ResistElectric */
+     , (51363,  13,    0.85) /* ArmorModVsSlash */
+     , (51363,  14,    0.95) /* ArmorModVsPierce */
+     , (51363,  15,    0.85) /* ArmorModVsBludgeon */
+     , (51363,  16,    0.95) /* ArmorModVsCold */
+     , (51363,  17,    0.85) /* ArmorModVsFire */
+     , (51363,  18,    0.90) /* ArmorModVsAcid */
+     , (51363,  19,    0.95) /* ArmorModVsElectric */
+     , (51363,  31,      33) /* VisualAwarenessRange */
+     , (51363,  34,       2) /* PowerupTime */
+     , (51363,  36,       1) /* ChargeSpeed */
+     , (51363,  39,     1.1) /* DefaultScale */
+     , (51363,  55,      75) /* HomeRadius */
+     , (51363,  64,    0.82) /* ResistSlash */
+     , (51363,  65,     0.5) /* ResistPierce */
+     , (51363,  66,     0.5) /* ResistBludgeon */
+     , (51363,  67,    0.85) /* ResistFire */
+     , (51363,  68,     0.5) /* ResistCold */
+     , (51363,  69,     0.5) /* ResistAcid */
+     , (51363,  70,     0.5) /* ResistElectric */
+     , (51363,  166,    0.9) /* ResistNether */
      , (51363,  71,  1) /* ResistHealthBoost */
      , (51363,  72,  1) /* ResistStaminaDrain */
      , (51363,  73,  1) /* ResistStaminaBoost */

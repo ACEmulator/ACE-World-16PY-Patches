@@ -17,7 +17,7 @@ VALUES (51316,   1,         16) /* ItemType - Creature */
      , (51316,  27,          0) /* ArmorType - None */
      , (51316,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (51316,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (51316, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
+     , (51316, 101,     524288) /* AiAllowedCombatStyle - StubbornMissile */
      , (51316, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (51316, 140,          1) /* AiOptions - CanOpenDoors */
      , (51316, 146,    1400000) /* XpOverride */
@@ -38,25 +38,25 @@ VALUES (51316,   1,  5) /* HeartbeatInterval */
      , (51316,   4,0.5) /* StaminaRate */
      , (51316,   5,  2) /* ManaRate */
      , (51316,  12,  0) /* Shade */
-     , (51316,  13,  1) /* ArmorModVsSlash */
-     , (51316,  14,  1) /* ArmorModVsPierce */
-     , (51316,  15,  1) /* ArmorModVsBludgeon */
-     , (51316,  16,  1) /* ArmorModVsCold */
-     , (51316,  17,  1) /* ArmorModVsFire */
-     , (51316,  18,  1) /* ArmorModVsAcid */
-     , (51316,  19,  1) /* ArmorModVsElectric */
-     , (51316,  27,  5) /* RotationSpeed */
-     , (51316,  31, 26) /* VisualAwarenessRange */
-     , (51316,  34,  1) /* PowerupTime */
-     , (51316,  36,  1) /* ChargeSpeed */
-     , (51316,  39,  1.1) /* DefaultScale */
-     , (51316,  64,  1) /* ResistSlash */
-     , (51316,  65,  1) /* ResistPierce */
-     , (51316,  66,  1) /* ResistBludgeon */
-     , (51316,  67,0.9) /* ResistFire */
-     , (51316,  68,  1) /* ResistCold */
-     , (51316,  69,  1) /* ResistAcid */
-     , (51316,  70,  1) /* ResistElectric */
+     , (51316,  13,    0.85) /* ArmorModVsSlash */
+     , (51316,  14,    0.95) /* ArmorModVsPierce */
+     , (51316,  15,    0.85) /* ArmorModVsBludgeon */
+     , (51316,  16,    0.95) /* ArmorModVsCold */
+     , (51316,  17,    0.85) /* ArmorModVsFire */
+     , (51316,  18,    0.90) /* ArmorModVsAcid */
+     , (51316,  19,    0.95) /* ArmorModVsElectric */
+     , (51316,  31,      26) /* VisualAwarenessRange */
+     , (51316,  34,       2) /* PowerupTime */
+     , (51316,  36,       1) /* ChargeSpeed */
+     , (51316,  39,     1.1) /* DefaultScale */
+     , (51316,  64,    0.82) /* ResistSlash */
+     , (51316,  65,     0.5) /* ResistPierce */
+     , (51316,  66,     0.5) /* ResistBludgeon */
+     , (51316,  67,    0.85) /* ResistFire */
+     , (51316,  68,     0.5) /* ResistCold */
+     , (51316,  69,     0.5) /* ResistAcid */
+     , (51316,  70,     0.5) /* ResistElectric */
+     , (51316,  166,    0.9) /* ResistNether */
      , (51316,  71,  1) /* ResistHealthBoost */
      , (51316,  72,  1) /* ResistStaminaDrain */
      , (51316,  73,  1) /* ResistStaminaBoost */

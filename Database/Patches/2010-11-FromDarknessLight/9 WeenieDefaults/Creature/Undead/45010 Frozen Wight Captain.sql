@@ -30,25 +30,25 @@ VALUES (45010,   1,  5) /* HeartbeatInterval */
      , (45010,   4,0.5) /* StaminaRate */
      , (45010,   5,  2) /* ManaRate */
      , (45010,  12,  0) /* Shade */
-     , (45010,  13,  0.37) /* ArmorModVsSlash */
-     , (45010,  14,  0.37) /* ArmorModVsPierce */
-     , (45010,  15,  0.50) /* ArmorModVsBludgeon */
-     , (45010,  16,  0.30) /* ArmorModVsCold */
-     , (45010,  17,  0.60) /* ArmorModVsFire */
-     , (45010,  18,  0.40) /* ArmorModVsAcid */
-     , (45010,  19,  0.33) /* ArmorModVsElectric */
-     , (45010,  27,  5) /* RotationSpeed */
-     , (45010,  31, 22) /* VisualAwarenessRange */
-     , (45010,  34,  1) /* PowerupTime */
-     , (45010,  39,  1.1) /* DefaultScale */
-     , (45010,  36,  1) /* ChargeSpeed */
-     , (45010,  64,  0.57) /* ResistSlash */
-     , (45010,  65,  0.57) /* ResistPierce */
-     , (45010,  66,  0.86) /* ResistBludgeon */
-     , (45010,  67,  0.90) /* ResistFire */
-     , (45010,  68,  0.30) /* ResistCold */
-     , (45010,  69,  0.70) /* ResistAcid */
-     , (45010,  70,  0.40) /* ResistElectric */
+     , (45010,  13,    0.85) /* ArmorModVsSlash */
+     , (45010,  14,    0.95) /* ArmorModVsPierce */
+     , (45010,  15,    0.85) /* ArmorModVsBludgeon */
+     , (45010,  16,    0.95) /* ArmorModVsCold */
+     , (45010,  17,    0.85) /* ArmorModVsFire */
+     , (45010,  18,    0.90) /* ArmorModVsAcid */
+     , (45010,  19,    0.95) /* ArmorModVsElectric */
+     , (45010,  31,      22) /* VisualAwarenessRange */
+     , (45010,  34,       2) /* PowerupTime */
+     , (45010,  36,       1) /* ChargeSpeed */
+     , (45010,  39,     1.1) /* DefaultScale */
+     , (45010,  64,    0.82) /* ResistSlash */
+     , (45010,  65,     0.5) /* ResistPierce */
+     , (45010,  66,     0.5) /* ResistBludgeon */
+     , (45010,  67,    0.85) /* ResistFire */
+     , (45010,  68,     0.5) /* ResistCold */
+     , (45010,  69,     0.5) /* ResistAcid */
+     , (45010,  70,     0.5) /* ResistElectric */
+     , (45010,  166,    0.9) /* ResistNether */
      , (45010,  71,  1) /* ResistHealthBoost */
      , (45010,  72,  1) /* ResistStaminaDrain */
      , (45010,  73,  1) /* ResistStaminaBoost */
