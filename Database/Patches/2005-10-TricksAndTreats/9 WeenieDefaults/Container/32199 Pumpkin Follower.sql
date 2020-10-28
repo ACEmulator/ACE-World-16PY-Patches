@@ -30,4 +30,4 @@ VALUES (32199,   1,   33556617) /* Setup */
      , (32199,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32199, 1, 32200, 1, 0, 0, False) /* Create Blue Blanket (32200) for Contain */
+VALUES (32199, 1, 32200, 1, 0, 0, False) /* Create Blue Blanket (32200) for Contain */;
