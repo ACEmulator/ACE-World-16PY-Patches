@@ -33,30 +33,33 @@ VALUES (35091,   1,       5) /* HeartbeatInterval */
      , (35091,   4,       5) /* StaminaRate */
      , (35091,   5,       2) /* ManaRate */
      , (35091,  12,       0) /* Shade */
-     , (35091,  13,    0.37) /* ArmorModVsSlash */
-     , (35091,  14,    0.37) /* ArmorModVsPierce */
-     , (35091,  15,     0.5) /* ArmorModVsBludgeon */
-     , (35091,  16,     0.3) /* ArmorModVsCold */
-     , (35091,  17,     0.6) /* ArmorModVsFire */
-     , (35091,  18,     0.4) /* ArmorModVsAcid */
-     , (35091,  19,    0.33) /* ArmorModVsElectric */
+     , (35091,  13,    0.85) /* ArmorModVsSlash */
+     , (35091,  14,    0.95) /* ArmorModVsPierce */
+     , (35091,  15,    0.85) /* ArmorModVsBludgeon */
+     , (35091,  16,    0.95) /* ArmorModVsCold */
+     , (35091,  17,    0.85) /* ArmorModVsFire */
+     , (35091,  18,    0.90) /* ArmorModVsAcid */
+     , (35091,  19,    0.95) /* ArmorModVsElectric */
      , (35091,  31,      18) /* VisualAwarenessRange */
      , (35091,  34,       2) /* PowerupTime */
      , (35091,  36,       1) /* ChargeSpeed */
      , (35091,  39,     1.1) /* DefaultScale */
-     , (35091,  64,    0.97) /* ResistSlash */
+     , (35091,  55,      75) /* HomeRadius */
+     , (35091,  64,    0.82) /* ResistSlash */
      , (35091,  65,     0.5) /* ResistPierce */
      , (35091,  66,     0.5) /* ResistBludgeon */
-     , (35091,  67,    0.98) /* ResistFire */
+     , (35091,  67,    0.85) /* ResistFire */
      , (35091,  68,     0.5) /* ResistCold */
      , (35091,  69,     0.5) /* ResistAcid */
      , (35091,  70,     0.5) /* ResistElectric */
+     , (35091,  166,    0.9) /* ResistNether */
      , (35091,  80,       3) /* AiUseMagicDelay */
      , (35091, 104,      10) /* ObviousRadarRange */
      , (35091, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35091,   1, 'Wight') /* Name */;
+VALUES (35091,   1, 'Wight') /* Name */
+     , (35091,  45, 'KilltaskGraveyardWight_1309') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35091,   1,   33560225) /* Setup */
