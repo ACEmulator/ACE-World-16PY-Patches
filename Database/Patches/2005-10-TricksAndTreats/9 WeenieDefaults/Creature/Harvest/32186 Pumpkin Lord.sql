@@ -47,6 +47,7 @@ VALUES (32186,   1,       5) /* HeartbeatInterval */
      , (32186,  34,     2.5) /* PowerupTime */
      , (32186,  36,       1) /* ChargeSpeed */
      , (32186,  39,     1.1) /* DefaultScale */
+     , (32186,  41,      60) /* RegenerationInterval */
      , (32186,  43,      10) /* GeneratorRadius */
      , (32186,  64, 0.529999971389771) /* ResistSlash */
      , (32186,  65, 0.899999976158142) /* ResistPierce */
@@ -124,4 +125,9 @@ VALUES (32186,    66,   2.06)  /* Shock Wave III */
      , (32186,  1417,  2.005)  /* Slowness Other III */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32186, -1, 32203, 0, 5, 5, 1, 2, -1, 0, 0, 0, 2, 2, 2, 1, 0, 0, 0) /* Generate Pumpkin Kin (32203) (x5 up to max of 5) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (32186, -1, 32203, 30, 1, 1, 1, 2, -1, 0, 0, 0, 2, 2, 2, 1, 0, 0, 0) /* Generate Pumpkin Kin (32203) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (32186, -1, 32203, 30, 1, 1, 1, 2, -1, 0, 0, 0, 2, 2, 2, 1, 0, 0, 0) /* Generate Pumpkin Kin (32203) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (32186, -1, 32203, 30, 1, 1, 1, 2, -1, 0, 0, 0, 2, 2, 2, 1, 0, 0, 0) /* Generate Pumpkin Kin (32203) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (32186, -1, 32203, 30, 1, 1, 1, 2, -1, 0, 0, 0, 2, 2, 2, 1, 0, 0, 0) /* Generate Pumpkin Kin (32203) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (32186, 0.02, 32199, 30, 1, 1, 1, 2, -1, 0, 0, 0, 2, 2, 2, 1, 0, 0, 0) /* Generate Pumpkin Follower (32199) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (32186, 0.98, 32203, 30, 1, 1, 1, 2, -1, 0, 0, 0, 2, 2, 2, 1, 0, 0, 0) /* Generate Pumpkin Kin (32203) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
