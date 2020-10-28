@@ -68,7 +68,7 @@ Give: Amelia's Doll House (35919)
 	- Tell: I was so sad when I could not find this!
 	- Goto: CheckQuestComplete
 
-Give: Amelia's Golem Doll (35921)
+Give: Amelia's Snowman Doll (35920)
 	- TurnToTarget
 	- Tell: My snowman! Thanks!
 	- Goto: CheckQuestComplete
