@@ -18,7 +18,7 @@ VALUES (80076,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80076,  41,      60) /* RegenerationInterval */
-     , (80076, 121,       5) /* GeneratorInitialDelay */;
+     , (80076, 121,       1) /* GeneratorInitialDelay */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80076,   1, 'Amelia Wanderer Generator') /* Name */
