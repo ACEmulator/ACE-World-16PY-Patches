@@ -104,5 +104,5 @@ VALUES (0x7482D489, 87012, 0x482D0010, 36.17, 179.932, 10.105, -1, 0, 0, -0.0002
 /* @teleloc 0x482D0010 [36.169998 179.932007 10.105000] -1.000000 0.000000 0.000000 -0.000210 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7482D48A, 80013, 0x482D0025, 108.8231, 108.18627, 6.0550003, -0.73833025, 0, 0, -0.6744394, False, '2020-10-25 08:07:32'); /* Graveyard Rat Burrow Gen */
+VALUES (0x7482D48A, 87013, 0x482D0025, 108.8231, 108.18627, 6.0550003, -0.73833025, 0, 0, -0.6744394, False, '2020-10-25 08:07:32'); /* Graveyard Rat Burrow Gen */
 /* @teleloc 0x482D0025 [108.823097 108.186272 6.055000] -0.738330 0.000000 0.000000 -0.674439 */
