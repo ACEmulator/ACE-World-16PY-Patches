@@ -32,25 +32,26 @@ VALUES (37460,   1,       5) /* HeartbeatInterval */
      , (37460,   4,     0.5) /* StaminaRate */
      , (37460,   5,       2) /* ManaRate */
      , (37460,  12,       0) /* Shade */
-     , (37460,  13,    0.37) /* ArmorModVsSlash */
-     , (37460,  14,    0.37) /* ArmorModVsPierce */
-     , (37460,  15,     0.5) /* ArmorModVsBludgeon */
-     , (37460,  16,     0.3) /* ArmorModVsCold */
-     , (37460,  17,     0.6) /* ArmorModVsFire */
-     , (37460,  18,     0.4) /* ArmorModVsAcid */
-     , (37460,  19,    0.33) /* ArmorModVsElectric */
-     , (37460,  27,       5) /* RotationSpeed */
+     , (37460,  13,    0.85) /* ArmorModVsSlash */
+     , (37460,  14,    0.95) /* ArmorModVsPierce */
+     , (37460,  15,    0.85) /* ArmorModVsBludgeon */
+     , (37460,  16,    0.95) /* ArmorModVsCold */
+     , (37460,  17,    0.85) /* ArmorModVsFire */
+     , (37460,  18,    0.90) /* ArmorModVsAcid */
+     , (37460,  19,    0.95) /* ArmorModVsElectric */
      , (37460,  31,      22) /* VisualAwarenessRange */
-     , (37460,  34,       1) /* PowerupTime */
+     , (37460,  34,       2) /* PowerupTime */
      , (37460,  36,       1) /* ChargeSpeed */
      , (37460,  39,     1.1) /* DefaultScale */
-     , (37460,  64,    0.57) /* ResistSlash */
-     , (37460,  65,    0.57) /* ResistPierce */
-     , (37460,  66,    0.86) /* ResistBludgeon */
-     , (37460,  67,     0.9) /* ResistFire */
-     , (37460,  68,     0.3) /* ResistCold */
-     , (37460,  69,     0.7) /* ResistAcid */
-     , (37460,  70,     0.4) /* ResistElectric */
+     , (37460,  55,      75) /* HomeRadius */
+     , (37460,  64,    0.82) /* ResistSlash */
+     , (37460,  65,     0.5) /* ResistPierce */
+     , (37460,  66,     0.5) /* ResistBludgeon */
+     , (37460,  67,    0.85) /* ResistFire */
+     , (37460,  68,     0.5) /* ResistCold */
+     , (37460,  69,     0.5) /* ResistAcid */
+     , (37460,  70,     0.5) /* ResistElectric */
+     , (37460,  166,    0.9) /* ResistNether */
      , (37460,  71,       1) /* ResistHealthBoost */
      , (37460,  72,       1) /* ResistStaminaDrain */
      , (37460,  73,       1) /* ResistStaminaBoost */
@@ -73,7 +74,7 @@ VALUES (37460,   1,   33560225) /* Setup */
      , (37460,   6,   67110722) /* PaletteBase */
      , (37460,   8,  100667942) /* Icon */
      , (37460,  22,  872415272) /* PhysicsEffectTable */
-     , (37460,  32,       2020) /* WieldedTreasureType - 
+     , (37460,  32,       2020) /* WieldedTreasureType -
                                    Wield Electric Crossbow (47856) | Probability: 5.7999997%
                                    Wield 30x Lightning Quarrel (48067) | Probability: 100%
                                    Wield Acid Crossbow (47854) | Probability: 5.7999997%
