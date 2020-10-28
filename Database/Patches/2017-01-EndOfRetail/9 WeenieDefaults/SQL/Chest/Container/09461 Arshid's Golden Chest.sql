@@ -28,7 +28,8 @@ VALUES (9461,   1, True ) /* Stuck */
      , (9461,  13, False) /* Ethereal */
      , (9461,  33, False) /* ResetMessagePending */
      , (9461,  34, False) /* DefaultOpen */
-     , (9461,  35, True ) /* DefaultLocked */;
+     , (9461,  35, True ) /* DefaultLocked */
+     , (9461,  86, True ) /* ChestRegenOnClose */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9461,  39,       3) /* DefaultScale */
