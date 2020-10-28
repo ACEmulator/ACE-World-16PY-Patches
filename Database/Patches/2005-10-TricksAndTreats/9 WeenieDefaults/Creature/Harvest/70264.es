@@ -118,11 +118,11 @@ GotoSet: KillTaskHarvestReaperTitles, Probability: 1.0
                                 QuestFailure:
                                  - Goto: KillTaskHarvestReaperRewards
 
-GotoSet: KillTaskHarvestReaperRewards, Probability: 0.33
+GotoSet: KillTaskHarvestReaperRewards, Probability: 0.34
     - Give: Bats (36449)
 
-GotoSet: KillTaskHarvestReaperRewards, Probability: 0.66
+GotoSet: KillTaskHarvestReaperRewards, Probability: 0.67
     - Give: Wandering Ghost (36450)
 
-GotoSet: KillTaskHarvestReaperRewards, Probability: 0.99
+GotoSet: KillTaskHarvestReaperRewards, Probability: 1.00
     - Give: Scroll of Spectral Flame (36453)
