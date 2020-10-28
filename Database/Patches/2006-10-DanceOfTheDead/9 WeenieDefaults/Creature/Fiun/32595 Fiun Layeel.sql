@@ -7,8 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32595,   1,         16) /* ItemType - Creature */
      , (32595,   2,         78) /* CreatureType - Fiun */
      , (32595,   3,         13) /* PaletteTemplate - Purple */
-     , (32595,   6,        255) /* ItemsCapacity */
-     , (32595,   7,        255) /* ContainersCapacity */
+     , (32595,   6,         -1) /* ItemsCapacity */
+     , (32595,   7,         -1) /* ContainersCapacity */
      , (32595,  16,         32) /* ItemUseable - Remote */
      , (32595,  25,         83) /* Level */
      , (32595,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -18,12 +18,8 @@ VALUES (32595,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32595,   1, True ) /* Stuck */
-     , (32595,  11, True ) /* IgnoreCollisions */
-     , (32595,  12, True ) /* ReportCollisions */
-     , (32595,  14, True ) /* GravityStatus */
-     , (32595,  19, False) /* Attackable */
-     , (32595,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (32595,  42, True ) /* AllowEdgeSlide */;
+     , (32595,   8, True ) /* AllowGive */
+     , (32595,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32595,  12,       0) /* Shade */
