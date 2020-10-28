@@ -27,9 +27,5 @@ VALUES (0x7482E006, 80076, 0x482E0023, 110.113, 59.89, 9.031, -0.897, 0, 0, 0.44
 /* @teleloc 0x482e0023 110.113 59.89 9.031 0.897 0 0 0.442 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7482E007, 80077, 0x482E0023, 110.113, 59.89, 9.031, -0.897, 0, 0, 0.442, False, '2020-09-21 00:00:00'); /* Amelia Generator */
-/* @teleloc 0x482e0023 110.113 59.89 9.031 0.897 0 0 0.442 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7482E008, 35932, 0x482E0023, 110.113, 59.89, 9.031, -0.897, 0, 0, 0.442, False, '2020-09-21 00:00:00'); /* Amelia */
+VALUES (0x7482E007, 80077, 0x482E0023, 110.113, 59.89, 9.031, -0.897, 0, 0, 0.442, False, '2020-09-21 00:00:00'); /* Amelia Idle Generator */
 /* @teleloc 0x482e0023 110.113 59.89 9.031 0.897 0 0 0.442 */
