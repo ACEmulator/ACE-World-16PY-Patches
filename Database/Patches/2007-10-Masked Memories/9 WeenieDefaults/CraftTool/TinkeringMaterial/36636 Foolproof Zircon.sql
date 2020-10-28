@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36636;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36636, 'ace36636-foolproofzircon', 44, '2020-06-08 00:00:00') /* CraftTool */;
+VALUES (36636, 'ace36636-foolproofzircon', 44, '2020-10-28 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36636,   1,        128) /* ItemType - Misc */
@@ -18,7 +18,7 @@ VALUES (36636,   1,        128) /* ItemType - Misc */
      , (36636,  91,        100) /* MaxStructure */
      , (36636,  92,        100) /* Structure */
      , (36636,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36636,  94,          2) /* TargetType - Armor */
+     , (36636,  94,          6) /* TargetType - Vestements */
      , (36636, 105,        100) /* ItemWorkmanship */
      , (36636, 131,         50) /* MaterialType - Zircon */
      , (36636, 151,          9) /* HookType - Floor, Yard */
