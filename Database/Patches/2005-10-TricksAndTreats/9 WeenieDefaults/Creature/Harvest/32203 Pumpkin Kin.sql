@@ -20,7 +20,7 @@ VALUES (32203,   1, True ) /* Stuck */
      , (32203,  12, True ) /* ReportCollisions */
      , (32203,  14, True ) /* GravityStatus */
      , (32203,  19, True ) /* Attackable */
-     , (32203, 120, True ) /* TreasureCorpse */;
+     , (32203,  29, True ) /* NoCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32203,   1,       5) /* HeartbeatInterval */
