@@ -1,10 +1,10 @@
 Use:
-	- TurnToTarget
+    - TurnToTarget
     - InqQuest: AmeliaToysWait
-		QuestSuccess:
-			- Tell: Thank you so much for helping me find my toys! I bet I won't lose them for a whole week!
-			- DirectBroadcast: You must wait %tqt before attempting this quest again.
-		QuestFailure:
+        QuestSuccess:
+            - Tell: Thank you so much for helping me find my toys! I bet I won't lose them for a whole week!
+            - DirectBroadcast: You must wait %tqt before attempting this quest again.
+        QuestFailure:
             - Tell: My mother told me she would be right back, but she has been gone a long time. When she finds out I lost my toys she will be angry. Would you come with me and help me retrieve my six toys if I can find where they were buried?
             - InqQuest: AmeliaToysInProgress
                 QuestSuccess:
@@ -14,7 +14,7 @@ Use:
                                 TestSuccess:
                                     - InqOwnsItems: Amelia's Doll House (35919)
                                         TestSuccess:
-                                            - InqOwnsItems: Amelia's Golem Doll (35921)
+                                            - InqOwnsItems: Amelia's Snowman Doll (35920)
                                                 TestSuccess:
                                                     - InqOwnsItems: Amelia's Golem Doll (35921)
                                                         TestSuccess:
@@ -54,37 +54,37 @@ GotoSet: StartQuest
             - DeleteSelf
 
 Give: Amelia's Red Ball (35917)
-	- TurnToTarget
-	- Tell: Oooh. I love my red ball. Thank you so much!
-	- Goto: CheckQuestComplete
+    - TurnToTarget
+    - Tell: Oooh. I love my red ball. Thank you so much!
+    - Goto: CheckQuestComplete
 
 Give: Amelia's Green Ball (35918)
-	- TurnToTarget
-	- Tell: Oooh. This is one of my favorites. Thank you!
-	- Goto: CheckQuestComplete
+    - TurnToTarget
+    - Tell: Oooh. This is one of my favorites. Thank you!
+    - Goto: CheckQuestComplete
 
 Give: Amelia's Doll House (35919)
-	- TurnToTarget
-	- Tell: I was so sad when I could not find this!
-	- Goto: CheckQuestComplete
+    - TurnToTarget
+    - Tell: I was so sad when I could not find this!
+    - Goto: CheckQuestComplete
 
 Give: Amelia's Snowman Doll (35920)
-	- TurnToTarget
-	- Tell: My snowman! Thanks!
-	- Goto: CheckQuestComplete
+    - TurnToTarget
+    - Tell: My snowman! Thanks!
+    - Goto: CheckQuestComplete
 
 Give: Amelia's Golem Doll (35921)
-	- TurnToTarget
-	- Tell: Yay! My toy golem!
-	- Goto: CheckQuestComplete
+    - TurnToTarget
+    - Tell: Yay! My toy golem!
+    - Goto: CheckQuestComplete
 
 Give: Amelia's Toy Sword (35922)
-	- TurnToTarget
-	- Tell: Someday I'll become a knight!
-	- Goto: CheckQuestComplete
+    - TurnToTarget
+    - Tell: Someday I'll become a knight!
+    - Goto: CheckQuestComplete
 
 GotoSet: CheckQuestComplete
-	- StampQuest: AmeliaToysTurnedInCount
+    - StampQuest: AmeliaToysTurnedInCount
     - InqQuest AmeliaToysTurnedInCount
         QuestSuccess:
             - Tell: You found them all! Yay! Now my mother won't be mad... when she gets back.
