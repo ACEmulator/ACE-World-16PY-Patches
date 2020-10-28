@@ -1,0 +1,47 @@
+Heartbeat:
+	- InqEvent: AmeliaLostToys
+		EventFailure:
+			- MoveHome
+			- Delay: 30, LocalSignal: AmeliaRegular
+			- DeleteSelf			
+		EventSuccess:
+			- MoveToPos: 0x482E001D [93.011 109.193 7.001] 0 0 0 0
+			- Delay: 15, MoveToPos: 0x482E0027 [107.159 161.267 7.0751] -1 0 0 0.042
+			- Delay: 20, Say: I am pretty sure I was playing here with my toys...
+			- Delay: 2, Motion: 1073741848
+			- Delay: 2, LocalSignal: DirtPile1
+			- Delay: 2, Motion: 1090519043
+			- MoveToPos: 0x482E001F [80.365 159.847 10.723] 0 0 0 0
+			- Delay: 8, MoveToPos: 0x482E0017 [50.923 163.813 9.401] -0.788 0 0 -0.615		 
+			- Delay: 12, Say: It's around here somewhere...
+			- Delay: 2, Motion: 1073741848
+			- Delay: 2, LocalSignal: DirtPile2
+			- Delay: 2, Motion: 1090519043
+			- MoveToPos:  0x482E000C [46.394 78.074 10.005] -0.034 0 0 -0.999
+			- Delay: 30, Say: Do you see anything around here?
+			- Delay: 2, Motion: 1073741848
+			- Delay: 2, LocalSignal: DirtPile3
+			- Delay: 2, Motion: 1090519043
+			- MoveToPos: 0x482E000B [25.808 63.462 10.005] -0.669 0 0 -0.743
+			- Delay: 10, Say: Hmmm. I think I left a toy near here...
+			- Delay: 2, Motion: 1073741848
+			- Delay: 2, LocalSignal: DirtPile4
+			- Delay: 2, Motion: 1090519043
+			- MoveToPos: 0x482E0007 [22.856 150.254 9.920] -1 0 0 0.006
+			- Delay: 30, Say: I wonder if this is the place where my toys got lost?
+			- Delay: 2, Motion: 1073741848
+			- Delay: 2, LocalSignal: DirtPile5
+			- Delay: 2, Motion: 1090519043
+			- MoveToPos: 0x482E0014 [49.585 94.781 10.066] 0 0 0 0
+			- Delay 20, MoveToPos: 0x482E0009 [42.047 23.774 9.986] 0.002 0 0 1
+			- Delay: 30, Say: My last toy was lying around here somewhere...
+			- Delay: 2, Motion: 1073741848
+			- Delay: 2, LocalSignal: DirtPile6
+			- Delay: 2, Motion: 1090519043		
+			- Delay: 2, Say: I have to go home now, but I'll meet you back where we first met. That's my favorite spot!
+			- MoveToPos: 0x482E0012 [70.571 27.972 10.005] 0 0 0 0
+			- Delay: 10, MoveHome
+			- Delay: 15, StopEvent: AmeliaLostToys
+			- LocalSignal: AmeliaRegular
+			- DeleteSelf			
+	
