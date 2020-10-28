@@ -26,6 +26,7 @@ VALUES (38086,  54, -0.100000001490116) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38086,   1, 'Gardens of Menilesh') /* Name */
      , (38086,  16, 'This portal leads to the ancient, ruined Gardens of Menilesh.') /* LongDesc */
+     , (38086,  37, 'gardensofmenileshflag') /* QuestRestriction */
      , (38086,  38, 'Gardens of Menilesh') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

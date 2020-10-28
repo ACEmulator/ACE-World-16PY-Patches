@@ -25,6 +25,7 @@ VALUES (37489,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37489,   1, 'Mhoire Armory') /* Name */
+     , (37489,  37, 'jestermarbleturnin') /* QuestRestriction */
      , (37489,  38, 'Mhoire Armory') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -34,4 +35,4 @@ VALUES (37489,   1,   33555925) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37489, 2, 15336669, 30, -100, -17.995, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x00EA04DD [30.000000 -100.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0x00EA04DD [30.000000 -100.000000 -17.995001] 1.000000 0.000000 0.000000 0.000000 */;
