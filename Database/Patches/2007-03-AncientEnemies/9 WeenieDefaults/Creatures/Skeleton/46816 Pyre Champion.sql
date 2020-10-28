@@ -1,5 +1,3 @@
-/* Graveyard - Night - Luminance */
-
 DELETE FROM `weenie` WHERE `class_Id` = 46816;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -14,7 +12,7 @@ VALUES (46816,   1,         16) /* ItemType - Creature */
      , (46816,  16,          1) /* ItemUseable - No */
      , (46816,  25,        265) /* Level */
      , (46816,  27,          0) /* ArmorType - None */
-     , (46816,  68,          5) /* TargetingTactic - Random, LastDamager */
+     , (46816,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (46816,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46816, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (46816, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -37,36 +35,39 @@ VALUES (46816,   1,       5) /* HeartbeatInterval */
      , (46816,   4,     0.5) /* StaminaRate */
      , (46816,   5,       2) /* ManaRate */
      , (46816,  12,       0) /* Shade */
-     , (46816,  13,    0.48) /* ArmorModVsSlash */
-     , (46816,  14,    0.36) /* ArmorModVsPierce */
-     , (46816,  15,     0.5) /* ArmorModVsBludgeon */
-     , (46816,  16,    0.24) /* ArmorModVsCold */
+     , (46816,  13,    0.69) /* ArmorModVsSlash */
+     , (46816,  14,    0.69) /* ArmorModVsPierce */
+     , (46816,  15,    0.65) /* ArmorModVsBludgeon */
+     , (46816,  16,    0.85) /* ArmorModVsCold */
      , (46816,  17,    0.85) /* ArmorModVsFire */
-     , (46816,  18,    0.32) /* ArmorModVsAcid */
-     , (46816,  19,    0.49) /* ArmorModVsElectric */
+     , (46816,  18,    0.75) /* ArmorModVsAcid */
+     , (46816,  19,    0.75) /* ArmorModVsElectric */
      , (46816,  27,    5.01) /* RotationSpeed */
-     , (46816,  31,      16) /* VisualAwarenessRange */
+     , (46816,  31,      25) /* VisualAwarenessRange */
      , (46816,  34,       1) /* PowerupTime */
      , (46816,  36,       1) /* ChargeSpeed */
+     , (46816,  55,      75) /* HomeRadius */
      , (46816,  64,    0.58) /* ResistSlash */
-     , (46816,  65,    0.25) /* ResistPierce */
-     , (46816,  66,    1.58) /* ResistBludgeon */
-     , (46816,  67,     0.9) /* ResistFire */
+     , (46816,  65,    0.58) /* ResistPierce */
+     , (46816,  66,    0.66) /* ResistBludgeon */
+     , (46816,  67,     0.3) /* ResistFire */
      , (46816,  68,     0.3) /* ResistCold */
      , (46816,  69,    0.42) /* ResistAcid */
      , (46816,  70,     0.4) /* ResistElectric */
+     , (46816, 166,    0.82) /* ResistNether */
      , (46816,  71,       1) /* ResistHealthBoost */
      , (46816,  72,       1) /* ResistStaminaDrain */
      , (46816,  73,       1) /* ResistStaminaBoost */
      , (46816,  74,       1) /* ResistManaDrain */
      , (46816,  75,       1) /* ResistManaBoost */
-     , (46816,  80,       4) /* AiUseMagicDelay */
+     , (46816,  80,       1) /* AiUseMagicDelay */
      , (46816, 104,      10) /* ObviousRadarRange */
      , (46816, 122,       2) /* AiAcquireHealth */
      , (46816, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46816,   1, 'Pyre Champion') /* Name */;
+VALUES (46816,   1, 'Pyre Champion') /* Name */
+     , (46816,  45, 'KilltaskGraveyardSkeleton_1309') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46816,   1,   33560229) /* Setup */
@@ -80,12 +81,12 @@ VALUES (46816,   1,   33560229) /* Setup */
      , (46816,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (46816,   1, 322, 0, 0) /* Strength */
-     , (46816,   2, 338, 0, 0) /* Endurance */
-     , (46816,   3, 415, 0, 0) /* Quickness */
-     , (46816,   4, 338, 0, 0) /* Coordination */
-     , (46816,   5, 338, 0, 0) /* Focus */
-     , (46816,   6, 382, 0, 0) /* Self */;
+VALUES (46816,   1, 500, 0, 0) /* Strength */
+     , (46816,   2, 500, 0, 0) /* Endurance */
+     , (46816,   3, 300, 0, 0) /* Quickness */
+     , (46816,   4, 300, 0, 0) /* Coordination */
+     , (46816,   5, 400, 0, 0) /* Focus */
+     , (46816,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (46816,   1,  6662, 0, 0, 6831) /* MaxHealth */
@@ -93,36 +94,33 @@ VALUES (46816,   1,  6662, 0, 0, 6831) /* MaxHealth */
      , (46816,   5,  4000, 0, 0, 4382) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46816,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
-     , (46816,  7, 0, 3, 0, 377, 0, 0) /* MissileDefense      Specialized */
-     , (46816, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
+VALUES (46816,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
+     , (46816,  7, 0, 3, 0, 397, 0, 0) /* MissileDefense      Specialized */
+     , (46816, 15, 0, 3, 0, 340, 0, 0) /* MagicDefense        Specialized */
      , (46816, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
-     , (46816, 33, 0, 3, 0, 260, 0, 0) /* LifeMagic           Specialized */
-     , (46816, 34, 0, 3, 0, 260, 0, 0) /* WarMagic            Specialized */
-     , (46816, 45, 0, 3, 0, 345, 0, 0) /* LightWeapons        Specialized */
-     , (46816, 46, 0, 3, 0, 345, 0, 0) /* FinesseWeapons      Specialized */;
+     , (46816, 33, 0, 3, 0, 280, 0, 0) /* LifeMagic           Specialized */
+     , (46816, 34, 0, 3, 0, 280, 0, 0) /* WarMagic            Specialized */
+     , (46816, 44, 0, 3, 0, 565, 0, 0) /* Heavy Weapons       Specialized */
+     , (46816, 45, 0, 3, 0, 565, 0, 0) /* Light Weapons       Specialized */
+     , (46816, 46, 0, 3, 0, 565, 0, 0) /* Finesse Weapons     Specialized */
+     , (46816, 47, 0, 3, 0, 565, 0, 0) /* Missile Weapons     Specialized */
+     , (46816, 48, 0, 3, 0, 200, 0, 0) /* Shield              Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (46816,  0,  4,   0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (46816,  1,  4,   0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (46816,  2,  4,   0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (46816,  3,  4,   0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (46816,  4,  4,   0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (46816,  5,  4, 150, 0.75,  200,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (46816,  6,  4,   0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (46816,  7,  4,   0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (46816,  8,  4, 155, 0.75,  200,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (46816,  0,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (46816,  1,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (46816,  2,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (46816,  3,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (46816,  4,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (46816,  5,  4, 275, 0.75,  450,  450,  450,  450,  450,  450,  450,  450,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (46816,  6,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (46816,  7,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (46816,  8,  4, 275, 0.75,  450,  450,  450,  450,  450,  450,  450,  450,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46816,  2074,    2.1)  /* Gossamer Flesh */
-     , (46816,  2122,    2.1)  /* Disintegration */
-     , (46816,  2132,    2.1)  /* The Spike */
-     , (46816,  2136,    2.1)  /* Icy Torment */
-     , (46816,  2144,    2.1)  /* Crushing Shame */
-     , (46816,  2162,    2.1)  /* Olthoi's Gift */
-     , (46816,  2166,    2.1)  /* Tusker's Gift */
-     , (46816,  2168,    2.1)  /* Gelidite's Gift */
-     , (46816,  2174,    2.1)  /* Archer's Gift */;
+VALUES (46816,  2170,    2.05)  /* Inferno's Gift */
+     , (46816,  2745,    2.05)  /* Flame Arc VII */
+     , (46816,  2130,    2.05)  /* Infernae */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46816, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */
@@ -135,9 +133,34 @@ VALUES (46816, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield
      , (46816, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (46816, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
      , (46816, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (46816, 9, 35504,  0, 0, 0.06, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
+     , (46816, 9, 35504,  0, 0, 0.06, False) /* Create  (35504) for ContainTreasure */
      , (46816, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (46816, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
      , (46816, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (46816, 9, 37256,  1, 0, 0.06, False) /* Create Ten of Eyes (37256) for ContainTreasure */
-     , (46816, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */;
+     , (46816, 9, 37247,  0, 0, 0.0125, False) /* Create Ace of Eyes (37247) for ContainTreasure */
+     , (46816, 9, 37248,  0, 0, 0.0125, False) /* Create Two of Eyes (37248) for ContainTreasure */
+     , (46816, 9, 37249,  0, 0, 0.0125, False) /* Create Three of Eyes (37249) for ContainTreasure */
+     , (46816, 9, 37250,  0, 0, 0.0125, False) /* Create Four of Eyes (37250) for ContainTreasure */
+     , (46816, 9, 37251,  0, 0, 0.0125, False) /* Create Five of Eyes (37251) for ContainTreasure */
+     , (46816, 9, 37252,  0, 0, 0.0125, False) /* Create Six of Eyes (37252) for ContainTreasure */
+     , (46816, 9, 37253,  0, 0, 0.0125, False) /* Create Seven of Eyes (37253) for ContainTreasure */
+     , (46816, 9, 37254,  0, 0, 0.0125, False) /* Create Eight of Eyes (37254) for ContainTreasure */
+     , (46816, 9, 37255,  0, 0, 0.0125, False) /* Create Nine of Eyes (37255) for ContainTreasure */
+     , (46816, 9, 37256,  0, 0, 0.0125, False) /* Create Ten of Eyes (37256) for ContainTreasure */
+     , (46816, 9, 37257,  0, 0, 0.0125, False) /* Create Jack of Eyes (37257) for ContainTreasure */
+     , (46816, 9, 37258,  0, 0, 0.0125, False) /* Create Queen of Eyes (37258) for ContainTreasure */
+     , (46816, 9, 37259,  0, 0, 0.0125, False) /* Create King of Eyes (37259) for ContainTreasure */
+     , (46816, 9, 37234,  0, 0, 0.0125, False) /* Create Ace of Hands (37234) for ContainTreasure */
+     , (46816, 9, 37235,  0, 0, 0.0125, False) /* Create Two of Hands (37235) for ContainTreasure */
+     , (46816, 9, 37236,  0, 0, 0.0125, False) /* Create Three of Hands (37236) for ContainTreasure */
+     , (46816, 9, 37237,  0, 0, 0.0125, False) /* Create Four of Hands (37237) for ContainTreasure */
+     , (46816, 9, 37238,  0, 0, 0.0125, False) /* Create Five of Hands (37238) for ContainTreasure */
+     , (46816, 9, 37239,  0, 0, 0.0125, False) /* Create Six of Hands (37239) for ContainTreasure */
+     , (46816, 9, 37240,  0, 0, 0.0125, False) /* Create Seven of Hands (37240) for ContainTreasure */
+     , (46816, 9, 37241,  0, 0, 0.0125, False) /* Create Eight of Hands (37241) for ContainTreasure */
+     , (46816, 9, 37242,  0, 0, 0.0125, False) /* Create Nine of Hands (37242) for ContainTreasure */
+     , (46816, 9, 37243,  0, 0, 0.0125, False) /* Create Ten of Hands (37243) for ContainTreasure */
+     , (46816, 9, 37244,  0, 0, 0.0125, False) /* Create Jack of Hands (37244) for ContainTreasure */
+     , (46816, 9, 37245,  0, 0, 0.0125, False) /* Create Queen of Hands (37245) for ContainTreasure */
+     , (46816, 9, 37246,  0, 0, 0.0125, False) /* Create King of Hands (37246) for ContainTreasure */
+     , (46816, 9,     0,  0, 0, 0.675, False) /* Create nothing for ContainTreasure */;
