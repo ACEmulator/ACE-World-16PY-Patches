@@ -308,7 +308,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 67 /* Goto */, 0, 1, NULL, 'KillTaskHarvestReaperRewards', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (70264, 32 /* GotoSet */, 0.33, NULL, NULL, NULL, 'KillTaskHarvestReaperRewards', NULL, NULL, NULL);
+VALUES (70264, 32 /* GotoSet */, 0.34, NULL, NULL, NULL, 'KillTaskHarvestReaperRewards', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -316,7 +316,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 36449, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (70264, 32 /* GotoSet */, 0.66, NULL, NULL, NULL, 'KillTaskHarvestReaperRewards', NULL, NULL, NULL);
+VALUES (70264, 32 /* GotoSet */, 0.67, NULL, NULL, NULL, 'KillTaskHarvestReaperRewards', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -324,7 +324,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 36450, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (70264, 32 /* GotoSet */, 0.99, NULL, NULL, NULL, 'KillTaskHarvestReaperRewards', NULL, NULL, NULL);
+VALUES (70264, 32 /* GotoSet */, 1, NULL, NULL, NULL, 'KillTaskHarvestReaperRewards', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
