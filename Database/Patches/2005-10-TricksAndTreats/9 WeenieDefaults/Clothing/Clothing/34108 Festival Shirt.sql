@@ -1,26 +1,21 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34108;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34108, 'ace34108-festivalshirt', 2, '2019-09-27 11:34:19') /* Clothing */;
+VALUES (34108, 'ace34108-festivalshirt', 2, '2020-10-28 11:34:19') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34108,   1,          4) /* ItemType - Clothing */
      , (34108,   3,         76) /* PaletteTemplate - Orange */
      , (34108,   4,         40) /* ClothingPriority - UnderwearChest, UnderwearUpperArms */
      , (34108,   5,         42) /* EncumbranceVal */
-     , (34108,   9,         10) /* ValidLocations - ChestWear, UpperArmWear */
+     , (34108,   9,         14) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear */
      , (34108,  16,          1) /* ItemUseable - No */
      , (34108,  19,         15) /* Value */
      , (34108,  28,          0) /* ArmorLevel */
-     , (34108,  53,        101) /* PlacementPosition - Resting */
      , (34108,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34108,  11, True ) /* IgnoreCollisions */
-     , (34108,  13, True ) /* Ethereal */
-     , (34108,  14, True ) /* GravityStatus */
-     , (34108,  19, True ) /* Attackable */
-     , (34108,  22, True ) /* Inscribable */;
+VALUES (34108,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34108,  12,       0) /* Shade */;
