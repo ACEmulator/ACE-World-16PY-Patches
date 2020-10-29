@@ -7,7 +7,7 @@ Use:
         QuestFailure:
             - InqQuest: AmeliaToysInProgress
                 QuestSuccess:
-                    - InqQuestBitsOn: AmeliaToysFound, 0x63
+                    - InqQuestBitsOn: AmeliaToysFound, 0x3F
                         QuestSuccess:
                             - Tell: You found all my toys! I can't wait for you to give them to me!
                         QuestFailure:
@@ -71,7 +71,7 @@ Give: Amelia's Toy Sword (35922)
     - Goto: CheckQuestComplete
 
 GotoSet: CheckQuestComplete
-    - InqQuestBitsOn AmeliaToysTurnedInCount, 0x63
+    - InqQuestBitsOn AmeliaToysTurnedInCount, 0x3F
         QuestSuccess:
             - Tell: You found them all! Yay! Now my mother won't be mad... when she gets back.
             - StampQuest: AmeliaToysWait
