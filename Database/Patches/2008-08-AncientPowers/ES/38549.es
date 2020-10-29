@@ -38,6 +38,18 @@ Give: Celestial Hand Armor Writ (38544)
             - Tell: You must be at least a Lord within the Society to trade me an Armor Writ for my key to this chest, sorry.
             - Give: Celestial Hand Armor Writ (38544)
 
+Give: Ornate Armor Writ (80438)
+    - TurnToTarget
+    - InqIntStat: SocietyRankCelhan, 601 - 1001
+        TestSuccess:
+            - DirectBroadcast: %n reads over the writ and gets an odd blank expression.
+            - Delay: 0.5, Tell: Everything, ah... seems to be in order... Here you go.
+            - Delay: 0.5, DirectBroadcast: %n looks slightly confused.
+            - Give: Celestial Hand Girth Key (38523)
+        TestFailure:
+            - Tell: You must be at least a Lord within the Society to trade me an Armor Writ for my key to this chest, sorry.
+            - Give: Ornate Armor Writ (80438)
+
 Use:
     - TurnToTarget
     - InqIntStat: SocietyRankCelhan, 601 - 1001

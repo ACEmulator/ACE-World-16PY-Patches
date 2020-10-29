@@ -38,6 +38,18 @@ Give: Eldrytch Web Armor Writ (38545)
             - Tell: You must be at least a Knight within the Society to trade me an Armor Writ for my key to this chest, sorry.
             - Give: Eldrytch Web Armor Writ (38545)
 
+Give: Ornate Armor Writ (80438)
+    - TurnToTarget
+    - InqIntStat: SocietyRankEldweb, 301 - 1001
+        TestSuccess:
+            - DirectBroadcast: %n reads over the writ and gets an odd blank expression.
+            - Delay: 0.5, Tell: Everything, ah... seems to be in order... Here you go.
+            - Delay: 0.5, DirectBroadcast: %n looks slightly confused.
+            - Give: Eldrytch Web Vambraces Key (38542)
+        TestFailure:
+            - Tell: You must be at least a Knight within the Society to trade me an Armor Writ for my key to this chest, sorry.
+            - Give: Ornate Armor Writ (80438)
+
 Use:
     - TurnToTarget
     - InqIntStat: SocietyRankEldweb, 301 - 1001
