@@ -35,6 +35,6 @@ Heartbeat:
     - Delay: 2, Say: I have to go home now, but I'll meet you back where we first met. That's my favorite spot!
     - MoveToPos: 0x482E0012 [70.571 27.972 10.005] 0 0 0 0
     - Delay: 10, MoveHome
-    - Delay: 15, StopEvent: AmeliaLostToysInProgress
+    - Delay: 20, StopEvent: AmeliaLostToysInProgress
     - StartEvent: AmeliaLostToys
     - DeleteSelf
