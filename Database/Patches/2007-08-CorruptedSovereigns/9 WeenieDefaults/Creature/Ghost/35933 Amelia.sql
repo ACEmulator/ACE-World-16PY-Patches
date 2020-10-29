@@ -13,6 +13,7 @@ VALUES (35933,   1,         16) /* ItemType - Creature */
      , (35933,   7,         -1) /* ContainersCapacity */
      , (35933,  16,         32) /* ItemUseable - Remote */
      , (35933,  25,          1) /* Level */
+     , (35933,  37,       9999) /* ResistItemAppraisal */
      , (35933,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (35933,  95,          8) /* RadarBlipColor - Yellow */
      , (35933, 133,          4) /* ShowableOnRadar - ShowAlways */
