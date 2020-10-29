@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36635;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36635, 'ace36635-foolproofyellowtopaz', 44, '2020-06-08 00:00:00') /* CraftTool */;
+VALUES (36635, 'ace36635-foolproofyellowtopaz', 44, '2020-10-28 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36635,   1,        128) /* ItemType - Misc */
@@ -18,7 +18,7 @@ VALUES (36635,   1,        128) /* ItemType - Misc */
      , (36635,  91,        100) /* MaxStructure */
      , (36635,  92,        100) /* Structure */
      , (36635,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36635,  94,          2) /* TargetType - Armor */
+     , (36635,  94,          6) /* TargetType - Vestements */
      , (36635, 105,        100) /* ItemWorkmanship */
      , (36635, 131,         49) /* MaterialType - YellowTopaz */
      , (36635, 151,          9) /* HookType - Floor, Yard */
