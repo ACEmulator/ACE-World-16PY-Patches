@@ -15,7 +15,8 @@ VALUES (35926,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35926,   1, True ) /* Stuck */
-     , (35926,  19, False) /* Attackable */;
+     , (35926,  19, False) /* Attackable */
+     , (35926,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35926,  39,     0.7) /* DefaultScale */
