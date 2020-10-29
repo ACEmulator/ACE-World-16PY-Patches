@@ -5,7 +5,6 @@ Use:
             - Tell: Thank you so much for helping me find my toys! I bet I won't lose them for a whole week!
             - DirectBroadcast: You must wait %tqt before attempting this quest again.
         QuestFailure:
-            - Tell: My mother told me she would be right back, but she has been gone a long time. When she finds out I lost my toys she will be angry. Would you come with me and help me retrieve my six toys if I can find where they were buried?
             - InqQuest: AmeliaToysInProgress
                 QuestSuccess:
                     - InqOwnsItems: Amelia's Red Ball (35917)
@@ -37,6 +36,7 @@ Use:
                     - Goto: StartQuest
 
 GotoSet: StartQuest
+    - Tell: My mother told me she would be right back, but she has been gone a long time. When she finds out I lost my toys she will be angry. Would you come with me and help me retrieve my six toys if I can find where they were buried?
     - InqYesNo: Amelia wants you to follow her and help her gather her toys. Are you ready to begin?
         TestSuccess:
             - Tell: Let's go!
