@@ -35,5 +35,5 @@ VALUES (37474,   1,   33556769) /* Setup */
      , (37474,   8,  100689897) /* Icon */
      , (37474,  22,  872415275) /* PhysicsEffectTable */
      , (37474,  38,      70731) /* UseCreateItem - Spectral Staff */
-     , (37474,  50,  100673781) /* IconOverlay */
+     , (37474,  50,  100673782) /* IconOverlay */
      , (37474,  52,  100689404) /* IconUnderlay */;
