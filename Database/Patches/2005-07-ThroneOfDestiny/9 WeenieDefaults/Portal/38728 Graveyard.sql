@@ -30,3 +30,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38728,   1,   33554867) /* Setup */
      , (38728,   2,  150994947) /* MotionTable */
      , (38728,   8,  100667499) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (38728, 2, 0x482D003E, 176.204, 130.368, 6.005,  0.464097, 0, 0, 0.885785) /* Destination */
+/* @teleloc 0x482D003E [176.204071 130.368042 6.005000] 0.464276 0.000000 0.000000 0.885691 */;

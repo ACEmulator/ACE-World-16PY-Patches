@@ -6,6 +6,7 @@ VALUES (37573, 'ace37573-armorydoor', 19, '2019-02-10 00:00:00') /* Door */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37573,   1,        128) /* ItemType - Misc */
      , (37573,  16,         32) /* ItemUseable - Remote */
+     , (37573,  38,        330) /* ResistLockpick */
      , (37573,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

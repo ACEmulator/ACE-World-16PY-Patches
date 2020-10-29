@@ -14,7 +14,8 @@ VALUES (37289,   1,         16) /* ItemType - Creature */
      , (37289,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (37289,  95,          8) /* RadarBlipColor - Yellow */
      , (37289, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (37289, 134,          2) /* PlayerKillerStatus - NPK */;
+     , (37289, 134,          2) /* PlayerKillerStatus - NPK */
+     , (37289, 267,         60) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37289,   1, True ) /* Stuck */
@@ -48,7 +49,7 @@ VALUES (37289,   1, 250, 0, 0) /* Strength */
      , (37289,   6, 450, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37289,   1,     0, 0, 0, 200250) /* MaxHealth */
+VALUES (37289,   1,  200050, 0, 0, 200250) /* MaxHealth */
      , (37289,   3,  4600, 0, 0, 5000) /* MaxStamina */
      , (37289,   5,  4550, 0, 0, 5000) /* MaxMana */;
 
