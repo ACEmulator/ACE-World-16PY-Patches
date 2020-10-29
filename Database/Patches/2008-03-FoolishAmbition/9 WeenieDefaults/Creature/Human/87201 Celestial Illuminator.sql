@@ -20,13 +20,15 @@ VALUES (87201,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87201,   1, True ) /* Stuck */
-     , (87201,   6, True ) /* AiUsesMana */
+     , (87201,   6, False ) /* AiUsesMana */
+     , (87201,   7, True ) /* AiUseHumanMagicAnimations */
      , (87201,  11, False) /* IgnoreCollisions */
      , (87201,  12, True ) /* ReportCollisions */
      , (87201,  13, False) /* Ethereal */
      , (87201,  14, True ) /* GravityStatus */
      , (87201,  19, True ) /* Attackable */
-     , (87201,  50, True ) /* NeverFailCasting */;
+     , (87201,  50, True ) /* NeverFailCasting */
+     , (87201,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (87201,   1,       5) /* HeartbeatInterval */
@@ -42,7 +44,7 @@ VALUES (87201,   1,       5) /* HeartbeatInterval */
      , (87201,  17,     0.4) /* ArmorModVsFire */
      , (87201,  18,       1) /* ArmorModVsAcid */
      , (87201,  19,     0.6) /* ArmorModVsElectric */
-     , (87201,  31,      12) /* VisualAwarenessRange */
+     , (87201,  31,      22) /* VisualAwarenessRange */
      , (87201,  64,     0.5) /* ResistSlash */
      , (87201,  65,     0.6) /* ResistPierce */
      , (87201,  66,    0.62) /* ResistBludgeon */
