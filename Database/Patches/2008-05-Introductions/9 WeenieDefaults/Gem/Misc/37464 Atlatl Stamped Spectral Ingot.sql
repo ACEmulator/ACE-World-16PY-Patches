@@ -9,6 +9,8 @@ VALUES (37464,   1,        128) /* ItemType - Misc */
      , (37464,   5,         10) /* EncumbranceVal */
      , (37464,  11,          1) /* MaxStackSize */
      , (37464,  12,          1) /* StackSize */
+     , (37464,  13,         10) /* StackUnitEncumbrance */
+     , (37464,  15,          1) /* StackUnitValue */
      , (37464,  16,          8) /* ItemUseable - Contained */
      , (37464,  19,          1) /* Value */
      , (37464,  33,         -1) /* Bonded - Slippery */

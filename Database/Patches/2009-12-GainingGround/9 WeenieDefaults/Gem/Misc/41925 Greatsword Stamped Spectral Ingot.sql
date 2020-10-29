@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41925;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41925, 'ace41925-greatswordstampedspectralingot', 38, '2020-06-16 01:55:02') /* Gem */;
+VALUES (41925, 'ace41925-greatswordstampedspectralingot', 38, '2020-10-29 01:55:02') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41925,   1,        128) /* ItemType - Misc */
@@ -9,6 +9,8 @@ VALUES (41925,   1,        128) /* ItemType - Misc */
      , (41925,   5,         10) /* EncumbranceVal */
      , (41925,  11,          1) /* MaxStackSize */
      , (41925,  12,          1) /* StackSize */
+     , (41925,  13,         10) /* StackUnitEncumbrance */
+     , (41925,  15,          1) /* StackUnitValue */
      , (41925,  16,          8) /* ItemUseable - Contained */
      , (41925,  19,          1) /* Value */
      , (41925,  33,         -1) /* Bonded - Slippery */
@@ -32,6 +34,6 @@ VALUES (41925,   1,   33556769) /* Setup */
      , (41925,   7,  268435723) /* ClothingBase */
      , (41925,   8,  100689897) /* Icon */
      , (41925,  22,  872415275) /* PhysicsEffectTable */
-     , (41925,  38,      70728) /* UseCreateItem */
+     , (41925,  38,      70728) /* UseCreateItem - Spectral Greatsword*/
      , (41925,  50,  100690641) /* IconOverlay */
      , (41925,  52,  100689404) /* IconUnderlay */;
