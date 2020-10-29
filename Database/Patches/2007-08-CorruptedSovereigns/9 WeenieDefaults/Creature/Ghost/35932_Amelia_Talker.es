@@ -24,7 +24,7 @@ GotoSet: StartQuest
             - TakeItems: Amelia's Green Ball (35918), -1
             - TakeItems: Amelia's Doll House (35919), -1
             - TakeItems: Amelia's Snowman Doll (35920), -1
-            - TakeItems: Amelia's Golem Doll (35920), -1
+            - TakeItems: Amelia's Golem Doll (35921), -1
             - TakeItems: Amelia's Toy Sword (35922), -1
             - EraseQuest: AmeliaToysTurnedInCount
             - EraseQuest: AmeliaToysFound
