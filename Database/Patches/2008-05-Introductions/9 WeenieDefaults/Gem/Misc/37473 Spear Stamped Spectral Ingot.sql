@@ -9,8 +9,8 @@ VALUES (37473,   1,        128) /* ItemType - Misc */
      , (37473,   5,         10) /* EncumbranceVal */
      , (37473,  11,          1) /* MaxStackSize */
      , (37473,  12,          1) /* StackSize */
-     , (37463,  13,         10) /* StackUnitEncumbrance */
-     , (37463,  15,          1) /* StackUnitValue */
+     , (37473,  13,         10) /* StackUnitEncumbrance */
+     , (37473,  15,          1) /* StackUnitValue */
      , (37473,  16,          8) /* ItemUseable - Contained */
      , (37473,  19,          1) /* Value */
      , (37473,  33,         -1) /* Bonded - Slippery */
