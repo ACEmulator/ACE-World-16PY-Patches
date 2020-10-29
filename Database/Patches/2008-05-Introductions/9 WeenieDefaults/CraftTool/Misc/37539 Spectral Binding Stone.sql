@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37539;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37539, 'ace37539-spectralbindingstone', 38, '2020-06-16 05:01:31') /* Gem */;
+VALUES (37539, 'ace37539-spectralbindingstone', 44, '2020-10-29 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37539,   1,        128) /* ItemType - Misc */
      , (37539,   5,          5) /* EncumbranceVal */
      , (37539,  11,          1) /* MaxStackSize */
      , (37539,  12,          1) /* StackSize */
+     , (37539,  13,          5) /* StackUnitEncumbrance */
+     , (37539,  15,         15) /* StackUnitValue */
      , (37539,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (37539,  18,          1) /* UiEffects - Magical */
      , (37539,  19,         15) /* Value */
@@ -17,7 +19,8 @@ VALUES (37539,   1,        128) /* ItemType - Misc */
      , (37539, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37539,  22, True ) /* Inscribable */;
+VALUES (37539,  22, True ) /* Inscribable */
+     , (37539,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37539,   1, 'Spectral Binding Stone') /* Name */
