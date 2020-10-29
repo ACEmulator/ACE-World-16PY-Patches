@@ -7,30 +7,10 @@ Use:
         QuestFailure:
             - InqQuest: AmeliaToysInProgress
                 QuestSuccess:
-                    - InqOwnsItems: Amelia's Red Ball (35917)
-                        TestSuccess:
-                            - InqOwnsItems: Amelia's Green Ball (35918)
-                                TestSuccess:
-                                    - InqOwnsItems: Amelia's Doll House (35919)
-                                        TestSuccess:
-                                            - InqOwnsItems: Amelia's Snowman Doll (35920)
-                                                TestSuccess:
-                                                    - InqOwnsItems: Amelia's Golem Doll (35921)
-                                                        TestSuccess:
-                                                            - InqOwnsItems: Amelia's Toy Sword (35922)
-                                                                TestSuccess:
-                                                                    - Tell: You found all my toys! I can't wait for you to give them to me!
-                                                                TestFailure:
-                                                                    - Goto: StartQuest
-                                                        TestFailure:
-                                                            - Goto: StartQuest
-                                                TestFailure:
-                                                    - Goto: StartQuest
-                                        TestFailure:
-                                            - Goto: StartQuest
-                                TestFailure:
-                                    - Goto: StartQuest
-                        TestFailure:
+                    - InqQuestBitsOn: AmeliaToysFound, 0x63
+                        QuestSuccess:
+                            - Tell: You found all my toys! I can't wait for you to give them to me!
+                        QuestFailure:
                             - Goto: StartQuest
                 QuestFailure:
                     - Goto: StartQuest
@@ -47,6 +27,7 @@ GotoSet: StartQuest
             - TakeItems: Amelia's Golem Doll (35920), -1
             - TakeItems: Amelia's Toy Sword (35922), -1
             - EraseQuest: AmeliaToysTurnedInCount
+            - EraseQuest: AmeliaToysFound
             - StampQuest: AmeliaToysInProgress
             - StartEvent: AmeliaLostToysInProgress
             - StopEvent: AmeliaLostToys
@@ -56,39 +37,45 @@ GotoSet: StartQuest
 Give: Amelia's Red Ball (35917)
     - TurnToTarget
     - Tell: Oooh. I love my red ball. Thank you so much!
+    - SetQuestBitsOn: AmeliaToysTurnedInCount, 0x1
     - Goto: CheckQuestComplete
 
 Give: Amelia's Green Ball (35918)
     - TurnToTarget
     - Tell: Oooh. This is one of my favorites. Thank you!
+    - SetQuestBitsOn: AmeliaToysTurnedInCount, 0x2
     - Goto: CheckQuestComplete
 
 Give: Amelia's Doll House (35919)
     - TurnToTarget
     - Tell: I was so sad when I could not find this!
+    - SetQuestBitsOn: AmeliaToysTurnedInCount, 0x4
     - Goto: CheckQuestComplete
 
 Give: Amelia's Snowman Doll (35920)
     - TurnToTarget
     - Tell: My snowman! Thanks!
+    - SetQuestBitsOn: AmeliaToysTurnedInCount, 0x8
     - Goto: CheckQuestComplete
 
 Give: Amelia's Golem Doll (35921)
     - TurnToTarget
     - Tell: Yay! My toy golem!
+    - SetQuestBitsOn: AmeliaToysTurnedInCount, 0x10
     - Goto: CheckQuestComplete
 
 Give: Amelia's Toy Sword (35922)
     - TurnToTarget
     - Tell: Someday I'll become a knight!
+    - SetQuestBitsOn: AmeliaToysTurnedInCount, 0x20
     - Goto: CheckQuestComplete
 
 GotoSet: CheckQuestComplete
-    - StampQuest: AmeliaToysTurnedInCount
-    - InqQuest AmeliaToysTurnedInCount
+    - InqQuestBitsOn AmeliaToysTurnedInCount, 0x63
         QuestSuccess:
             - Tell: You found them all! Yay! Now my mother won't be mad... when she gets back.
             - StampQuest: AmeliaToysWait
+            - EraseQuest: AmeliaToysFound
             - EraseQuest: AmeliaToysTurnedInCount
             - EraseQuest: AmeliaToysInProgress
             - Delay: 1, AwardNoShareXP: 30,000,000
