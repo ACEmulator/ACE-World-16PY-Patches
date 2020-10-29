@@ -5,7 +5,7 @@ VALUES (80076, 'ace80076-ameliawanderergen', 1, '2020-09-22 00:00:00') /* Generi
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80076,  81,          1) /* MaxGeneratedObjects */
-     , (80076,  82,          0) /* InitGeneratedObjects */
+     , (80076,  82,          1) /* InitGeneratedObjects */
      , (80076,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (80076, 103,          2) /* GeneratorDestructionType - Destroy */
      , (80076, 145,          2) /* GeneratorEndDestructionType - Destroy */
