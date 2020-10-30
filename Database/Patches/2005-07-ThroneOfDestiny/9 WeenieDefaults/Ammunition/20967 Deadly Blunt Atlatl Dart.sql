@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20967;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20967, 'atlatldartdeadlyblunt', 5, '2019-12-25 00:00:00') /* Ammunition */;
+VALUES (20967, 'atlatldartdeadlyblunt', 5, '2020-10-30 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20967,   1,        256) /* ItemType - MissileWeapon */
@@ -16,7 +16,7 @@ VALUES (20967,   1,        256) /* ItemType - MissileWeapon */
      , (20967,  15,          7) /* StackUnitValue */
      , (20967,  16,          1) /* ItemUseable - No */
      , (20967,  19,          7) /* Value */
-     , (20967,  44,         28) /* Damage */
+     , (20967,  44,         34) /* Damage */
      , (20967,  45,          4) /* DamageType - Bludgeon */
      , (20967,  50,          4) /* AmmoType - Atlatl */
      , (20967,  51,          3) /* CombatUse - Ammo */
@@ -32,7 +32,7 @@ VALUES (20967,  17, True ) /* Inelastic */
      , (20967,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20967,  22,     0.3) /* DamageVariance */
+VALUES (20967,  22,    0.33) /* DamageVariance */
      , (20967,  29,       1) /* WeaponDefense */
      , (20967,  39,     1.1) /* DefaultScale */
      , (20967,  62,       1) /* WeaponOffense */

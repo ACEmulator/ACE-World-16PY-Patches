@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43942;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43942, 'ace43942-greaterprismaticarrow', 5, '2019-12-23 00:00:00') /* Ammunition */;
+VALUES (43942, 'ace43942-greaterprismaticarrow', 5, '2020-10-30 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43942,   1,        256) /* ItemType - MissileWeapon */
@@ -46,11 +46,7 @@ VALUES (43942,  12,       0) /* Shade */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43942,   1, 'Greater Prismatic Arrow') /* Name */
      , (43942,  14, 'You must be a trained fletcher of great skill to use these potentially volatile arrows.') /* Use */
-     , (43942,  16, 'Magically enhanced, crystalline arrows that draw the elemental energies from elementally attuned bows to damage their target. 
- 
- 
- You must be a trained fletcher of great skill to use these potentially volatile arrows ') /* LongDesc */
-     , (43942,  20, 'Greater Prismatic Arrows') /* PluralName */;
+     , (43942,  16, 'Magically enhanced crystaline arrows that draw the elemental energies from elementally attuned bows to damage their target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43942,   1,   33561223) /* Setup */

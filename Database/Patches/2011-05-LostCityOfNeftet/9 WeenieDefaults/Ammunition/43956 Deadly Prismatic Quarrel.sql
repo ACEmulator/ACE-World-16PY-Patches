@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43956;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43956, 'ace43956-deadlyprismaticquarrel', 5, '2019-12-23 00:00:00') /* Ammunition */;
+VALUES (43956, 'ace43956-deadlyprismaticquarrel', 5, '2020-10-30 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43956,   1,        256) /* ItemType - MissileWeapon */
@@ -41,7 +41,7 @@ VALUES (43956,  17, True ) /* Inelastic */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43956,  21,       0) /* WeaponLength */
-     , (43956,  22, 0.280000001192093) /* DamageVariance */
+     , (43956,  22,     0.4) /* DamageVariance */
      , (43956,  26,       0) /* MaximumVelocity */
      , (43956,  29,       1) /* WeaponDefense */
      , (43956,  62,       1) /* WeaponOffense */
@@ -51,9 +51,8 @@ VALUES (43956,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43956,   1, 'Deadly Prismatic Quarrel') /* Name */
-     , (43956,  14, 'You must be a trained fletcher of great skill to use these potentially volatile quarrels.') /* Use */
-     , (43956,  16, 'Deadly, crystalline quarrels that draw the elemental energies from elementally attuned crossbows to damage their target.') /* LongDesc */
-     , (43956,  20, 'Deadly Prismatic Quarrels') /* PluralName */;
+     , (43956,  14, 'You must be a specialized fletcher of great skill to use these potentially volatile quarrels.') /* Use */
+     , (43956,  16, 'Deadly, crystaline quarrels that draw the elemental energies from elementally attuned crossbows to damage their target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43956,   1,   33561225) /* Setup */

@@ -1,16 +1,16 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44370;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44370, 'ace44370-greaterdeadlybluntquarrel', 5, '2019-12-25 00:00:00') /* Ammunition */;
+VALUES (44370, 'ace44370-greaterdeadlybluntquarrel', 5, '2020-10-30 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44370,   1,        256) /* ItemType - MissileWeapon */
      , (44370,   3,         20) /* PaletteTemplate - Silver */
-     , (44370,   5,          1) /* EncumbranceVal */
+     , (44370,   5,          5) /* EncumbranceVal */
      , (44370,   9,    8388608) /* ValidLocations - MissileAmmo */
-     , (44370,  11,       5000) /* MaxStackSize */
+     , (44370,  11,       1000) /* MaxStackSize */
      , (44370,  12,          1) /* StackSize */
-     , (44370,  13,          1) /* StackUnitEncumbrance */
+     , (44370,  13,          5) /* StackUnitEncumbrance */
      , (44370,  15,          1) /* StackUnitValue */
      , (44370,  16,          1) /* ItemUseable - No */
      , (44370,  19,          1) /* Value */
@@ -31,9 +31,9 @@ VALUES (44370,  17, True ) /* Inelastic */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44370,  12,       0) /* Shade */
-     , (44370,  22, 0.400000005960464) /* DamageVariance */
+     , (44370,  22,     0.4) /* DamageVariance */
      , (44370,  29,       1) /* WeaponDefense */
-     , (44370,  39, 1.10000002384186) /* DefaultScale */
+     , (44370,  39,     1.1) /* DefaultScale */
      , (44370,  62,       1) /* WeaponOffense */
      , (44370,  78,       1) /* Friction */
      , (44370,  79,       0) /* Elasticity */;

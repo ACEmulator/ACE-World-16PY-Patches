@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 15439;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (15439, 'boltdeadlyacid', 5, '2019-12-25 00:00:00') /* Ammunition */;
+VALUES (15439, 'boltdeadlyacid', 5, '2020-10-30 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15439,   1,        256) /* ItemType - MissileWeapon */
@@ -17,7 +17,7 @@ VALUES (15439,   1,        256) /* ItemType - MissileWeapon */
      , (15439,  16,          1) /* ItemUseable - No */
      , (15439,  18,        256) /* UiEffects - Acid */
      , (15439,  19,         11) /* Value */
-     , (15439,  44,         28) /* Damage */
+     , (15439,  44,         35) /* Damage */
      , (15439,  45,         32) /* DamageType - Acid */
      , (15439,  50,          2) /* AmmoType - Bolt */
      , (15439,  51,          3) /* CombatUse - Ammo */
@@ -33,7 +33,7 @@ VALUES (15439,  17, True ) /* Inelastic */
      , (15439,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15439,  22,    0.28) /* DamageVariance */
+VALUES (15439,  22,    0.43) /* DamageVariance */
      , (15439,  29,       1) /* WeaponDefense */
      , (15439,  39,     1.1) /* DefaultScale */
      , (15439,  62,       1) /* WeaponOffense */
