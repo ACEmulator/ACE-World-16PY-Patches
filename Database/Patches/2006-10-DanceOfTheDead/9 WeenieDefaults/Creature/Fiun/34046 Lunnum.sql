@@ -18,7 +18,7 @@ VALUES (34046,   1,         16) /* ItemType - Creature */
      , (34046, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (34046, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (34046, 140,          1) /* AiOptions - CanOpenDoors */
-     , (34046, 146,     125000) /* XpOverride */;
+     , (34046, 146,     300000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34046,   1, True ) /* Stuck */
@@ -35,24 +35,24 @@ VALUES (34046,   1,       5) /* HeartbeatInterval */
      , (34046,   3,   0.075) /* HealthRate */
      , (34046,   4,       3) /* StaminaRate */
      , (34046,   5,       1) /* ManaRate */
-     , (34046,  13,     1.3) /* ArmorModVsSlash */
-     , (34046,  14,       1) /* ArmorModVsPierce */
-     , (34046,  15,     1.1) /* ArmorModVsBludgeon */
-     , (34046,  16,     0.8) /* ArmorModVsCold */
-     , (34046,  17,     0.8) /* ArmorModVsFire */
-     , (34046,  18,       1) /* ArmorModVsAcid */
+     , (34046,  13,    0.92) /* ArmorModVsSlash */
+     , (34046,  14,    0.92) /* ArmorModVsPierce */
+     , (34046,  15,    0.92) /* ArmorModVsBludgeon */
+     , (34046,  16,    0.67) /* ArmorModVsCold */
+     , (34046,  17,    0.58) /* ArmorModVsFire */
+     , (34046,  18,    0.78) /* ArmorModVsAcid */
      , (34046,  19,     0.8) /* ArmorModVsElectric */
      , (34046,  31,      20) /* VisualAwarenessRange */
      , (34046,  34,       1) /* PowerupTime */
      , (34046,  36,       1) /* ChargeSpeed */
      , (34046,  39,     1.3) /* DefaultScale */
-     , (34046,  64,     0.8) /* ResistSlash */
-     , (34046,  65,    0.75) /* ResistPierce */
+     , (34046,  64,    0.55) /* ResistSlash */
+     , (34046,  65,    0.65) /* ResistPierce */
      , (34046,  66,    0.67) /* ResistBludgeon */
-     , (34046,  67,    0.85) /* ResistFire */
+     , (34046,  67,    0.75) /* ResistFire */
      , (34046,  68,     0.6) /* ResistCold */
-     , (34046,  69,    0.75) /* ResistAcid */
-     , (34046,  70,    0.88) /* ResistElectric */
+     , (34046,  69,    0.54) /* ResistAcid */
+     , (34046,  70,    0.48) /* ResistElectric */
      , (34046,  71,       1) /* ResistHealthBoost */
      , (34046,  72,     0.5) /* ResistStaminaDrain */
      , (34046,  73,       1) /* ResistStaminaBoost */
@@ -90,25 +90,25 @@ VALUES (34046,   1, 199805, 0, 0, 200000) /* MaxHealth */
      , (34046,   5,  1610, 0, 0, 2000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (34046,  6, 0, 3, 0, 333, 0, 0) /* MeleeDefense        Specialized */
-     , (34046,  7, 0, 3, 0, 240, 0, 0) /* MissileDefense      Specialized */
+VALUES (34046,  6, 0, 3, 0, 385, 0, 0) /* MeleeDefense        Specialized */
+     , (34046,  7, 0, 3, 0, 260, 0, 0) /* MissileDefense      Specialized */
      , (34046, 15, 0, 3, 0, 215, 0, 0) /* MagicDefense        Specialized */
      , (34046, 22, 0, 2, 0, 505, 0, 0) /* Jump                Trained */
      , (34046, 24, 0, 2, 0, 450, 0, 0) /* Run                 Trained */
-     , (34046, 33, 0, 3, 0, 295, 0, 0) /* LifeMagic           Specialized */
-     , (34046, 34, 0, 3, 0, 295, 0, 0) /* WarMagic            Specialized */
+     , (34046, 33, 0, 3, 0, 310, 0, 0) /* LifeMagic           Specialized */
+     , (34046, 34, 0, 3, 0, 310, 0, 0) /* WarMagic            Specialized */
      , (34046, 45, 0, 3, 0, 370, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (34046,  0,  4,  0,    0,  300,  350,  360,  360,  360,  285,  360,  300,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (34046,  1,  4,  0,    0,  300,  350,  360,  360,  360,  285,  360,  300,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (34046,  2,  4,  0,    0,  300,  350,  360,  360,  360,  285,  360,  300,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (34046,  3,  4,  0,    0,  300,  350,  360,  360,  360,  285,  360,  300,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (34046,  4,  4,  0,    0,  300,  350,  360,  360,  360,  285,  360,  300,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (34046,  5,  4, 45,  0.4,  300,  350,  360,  360,  360,  285,  360,  300,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (34046,  6,  4,  0,    0,  300,  350,  360,  360,  360,  285,  360,  300,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (34046,  7,  4,  0,    0,  300,  350,  360,  360,  360,  285,  360,  300,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (34046,  8,  4, 45,  0.4,  300,  350,  360,  360,  360,  280,  360,  300,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (34046,  0,  4,  0,    0,  400,  350,  360,  360,  360,  225,  360,  300,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (34046,  1,  4,  0,    0,  400,  350,  360,  360,  360,  225,  360,  300,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (34046,  2,  4,  0,    0,  400,  350,  360,  360,  360,  225,  360,  300,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (34046,  3,  4,  0,    0,  400,  350,  360,  360,  360,  225,  360,  300,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (34046,  4,  4,  0,    0,  400,  350,  360,  360,  360,  225,  360,  300,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (34046,  5,  4, 45,  0.4,  400,  350,  360,  360,  360,  225,  360,  300,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (34046,  6,  4,  0,    0,  400,  350,  360,  360,  360,  225,  360,  300,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (34046,  7,  4,  0,    0,  400,  350,  360,  360,  360,  225,  360,  300,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (34046,  8,  4, 45,  0.4,  400,  350,  360,  360,  360,  225,  360,  300,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34046,  2178,   2.02)  /* Decrepitude's Grasp */
@@ -146,33 +146,33 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */
-     , (34046, 9, 34056,  1, 0, 1, False) /* Create Ritual Chest Key (34056) for ContainTreasure */;
+VALUES (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */
+     , (34046, 9, 34056,  1, 0, 1, False) /* Create  (34056) for ContainTreasure */;
