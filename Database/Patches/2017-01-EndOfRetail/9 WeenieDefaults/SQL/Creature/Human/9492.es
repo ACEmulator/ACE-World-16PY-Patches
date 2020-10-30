@@ -1,5 +1,5 @@
 Give: Jester's Token (37290)
-	- TurnToTarget
+    - TurnToTarget
     - InqQuest: tradejestercard
         QuestSuccess:
             - Tell: You need to give one card to the High-Stakes Gamesmaster over there before I can permit you for another go.
