@@ -422,3 +422,322 @@ GotoSet: Painting, Probability: 0.983871
 
 GotoSet: Painting, Probability: 1.0
     - Give: 44748
+
+Give: 37234
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37234
+
+Give: 37235
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37235
+
+Give: 37236
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37236
+
+Give: 37237
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37237
+
+Give: 37238
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37238
+
+Give: 37239
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37239
+
+Give: 37240
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37240
+
+Give: 37241
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37241
+
+Give: 37242
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37242
+
+Give: 37243
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37243
+
+Give: 37244
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37244
+
+Give: 37245
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37245
+
+Give: 37246
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37246
+
+Give: 37247
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37247
+
+Give: 37248
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37248
+
+Give: 37249
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37249
+
+Give: 37250
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37250
+
+Give: 37251
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37251
+
+Give: 37252
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37252
+
+Give: 37253
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37253
+
+Give: 37254
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37254
+
+Give: 37255
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37255
+
+Give: 37256
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37256
+
+Give: 37257
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37257
+
+Give: 37258
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37258
+
+Give: 37259
+    - TurnToTarget
+    - InqQuest: tradejestercard
+        QuestSuccess:
+            - Goto: TakeCard
+        QuestFailure:
+            - DirectBroadcast: The Boss has to get a Jester Token before I will gamble any cards with you.
+            - Give: 37259
+
+GotoSet: TakeCard
+    - EraseQuest: tradejestercard
+    - DirectBroadcast: The Gamesmaster takes your card and shuffles it into a large deck in front of her. She then fans the deck out in front of you.
+    - Delay: 0.3, Tell: Pick a card. Pick any card you like. All selections are final.
+    - Delay: 0.3, DirectBroadcast: You carefully slip one card out and turn it over to find...
+    - Goto: PickACard
+
+GotoSet: PickACard, Probability: 0.04
+    - Give: 37234
+
+GotoSet: PickACard, Probability: 0.08
+    - Give: 37235
+
+GotoSet: PickACard, Probability: 0.12
+    - Give: 37236
+
+GotoSet: PickACard, Probability: 0.16
+    - Give: 37237
+
+GotoSet: PickACard, Probability: 0.20
+    - Give: 37238
+
+GotoSet: PickACard, Probability: 0.24
+    - Give: 37239
+
+GotoSet: PickACard, Probability: 0.28
+    - Give: 37240
+
+GotoSet: PickACard, Probability: 0.32
+    - Give: 37241
+
+GotoSet: PickACard, Probability: 0.36
+    - Give: 37242
+
+GotoSet: PickACard, Probability: 0.40
+    - Give: 37243
+
+GotoSet: PickACard, Probability: 0.44
+    - Give: 37244
+
+GotoSet: PickACard, Probability: 0.48
+    - Give: 37245
+
+GotoSet: PickACard, Probability: 0.52
+    - Give: 37246
+
+GotoSet: PickACard, Probability: 0.56
+    - Give: 37247
+
+GotoSet: PickACard, Probability: 0.60
+    - Give: 37248
+
+GotoSet: PickACard, Probability: 0.64
+    - Give: 37249
+
+GotoSet: PickACard, Probability: 0.68
+    - Give: 37250
+
+GotoSet: PickACard, Probability: 0.72
+    - Give: 37251
+
+GotoSet: PickACard, Probability: 0.76
+    - Give: 37252
+
+GotoSet: PickACard, Probability: 0.80
+    - Give: 37253
+
+GotoSet: PickACard, Probability: 0.84
+    - Give: 37254
+
+GotoSet: PickACard, Probability: 0.88
+    - Give: 37255
+
+GotoSet: PickACard, Probability: 0.92
+    - Give: 37256
+
+GotoSet: PickACard, Probability: 0.95
+    - Give: 37257
+
+GotoSet: PickACard, Probability: 0.97
+    - Give: 37258
+
+GotoSet: PickACard, Probability: 1.00
+    - Give: 37259
