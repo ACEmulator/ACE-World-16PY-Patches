@@ -39,18 +39,18 @@ VALUES (87251,   1,       5) /* HeartbeatInterval */
      , (87251,  14,    0.79) /* ArmorModVsPierce */
      , (87251,  15,    0.38) /* ArmorModVsBludgeon */
      , (87251,  16,    0.99) /* ArmorModVsCold */
-     , (87251,  17,    0.18) /* ArmorModVsFire */
+     , (87251,  17,    0.38) /* ArmorModVsFire */
      , (87251,  18,    0.79) /* ArmorModVsAcid */
      , (87251,  19,    0.23) /* ArmorModVsElectric */
      , (87251,  31,      15) /* VisualAwarenessRange */
      , (87251,  34,       3) /* PowerupTime */
-     , (87251,  64,    0.82) /* ResistSlash */
-     , (87251,  65,    0.82) /* ResistPierce */
-     , (87251,  66,     0.8) /* ResistBludgeon */
-     , (87251,  67,    0.97) /* ResistFire */
+     , (87251,  64,    0.62) /* ResistSlash */
+     , (87251,  65,    0.62) /* ResistPierce */
+     , (87251,  66,     0.68) /* ResistBludgeon */
+     , (87251,  67,    0.82) /* ResistFire */
      , (87251,  68,    0.05) /* ResistCold */
-     , (87251,  69,    0.83) /* ResistAcid */
-     , (87251,  70,     0.8) /* ResistElectric */
+     , (87251,  69,    0.63) /* ResistAcid */
+     , (87251,  70,     0.58) /* ResistElectric */
      , (87251,  71,       1) /* ResistHealthBoost */
      , (87251,  72,       1) /* ResistStaminaDrain */
      , (87251,  73,       1) /* ResistStaminaBoost */
