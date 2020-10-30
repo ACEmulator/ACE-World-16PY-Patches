@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44891;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44891, 'ace44891-buckminster', 10, '2019-07-27 21:19:03') /* Creature */;
+VALUES (44891, 'ace44891-buckminster', 10, '2019-10-09 21:19:03') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44891,   1,         16) /* ItemType - Creature */
@@ -23,25 +23,21 @@ VALUES (44891,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44891,   1, True ) /* Stuck */
      , (44891,   8, True ) /* AllowGive */
-     , (44891,  12, True ) /* ReportCollisions */
-     , (44891,  13, False) /* Ethereal */
      , (44891,  19, False) /* Attackable */
-     , (44891,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (44891,  42, True ) /* AllowEdgeSlide */
      , (44891,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44891,   3, 0.159999996423721) /* HealthRate */
+VALUES (44891,   3,    0.16) /* HealthRate */
      , (44891,   4,       5) /* StaminaRate */
      , (44891,   5,       1) /* ManaRate */
      , (44891,  12,       1) /* Shade */
-     , (44891,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (44891,  13,     0.9) /* ArmorModVsSlash */
      , (44891,  14,       1) /* ArmorModVsPierce */
-     , (44891,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (44891,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (44891,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (44891,  15,     1.1) /* ArmorModVsBludgeon */
+     , (44891,  16,     0.4) /* ArmorModVsCold */
+     , (44891,  17,     0.4) /* ArmorModVsFire */
      , (44891,  18,       1) /* ArmorModVsAcid */
-     , (44891,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (44891,  19,     0.6) /* ArmorModVsElectric */
      , (44891,  54,       3) /* UseRadius */
      , (44891,  64,       1) /* ResistSlash */
      , (44891,  65,       1) /* ResistPierce */
@@ -69,7 +65,7 @@ VALUES (44891,   1,   33554433) /* Setup */
      , (44891,   4,  805306368) /* CombatTable */
      , (44891,   6,   67108990) /* PaletteBase */
      , (44891,   7,  268435545) /* ClothingBase */
-     , (44891,   8,  100667446) /* Icon */;
+     , (44891,   8,  100667377) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44891,   1, 100, 0, 0) /* Strength */

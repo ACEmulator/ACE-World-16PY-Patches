@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44553;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44553, 'ace44553-contractforfalatacotreports', 38, '2020-08-14 00:00:00') /* Gem */;
+VALUES (44553, 'ace44553-contractforfalatacotreports', 38, '2020-10-20 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44553,   1,       2048) /* ItemType - Gem */
@@ -27,7 +27,7 @@ VALUES (44553, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44553,   1, 'Contract for Falatacot Reports') /* Name */
      , (44553,  14, 'Recommended Level: 180') /* Use */
-     , (44553,  16, 'Retrieve any Faltacot Reports from Dark Isle') /* LongDesc */;
+     , (44553,  16, 'Retrieve 10 Falatacot Reports from Dark Isle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44553,   1,   33557625) /* Setup */

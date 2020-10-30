@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51352;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51352, 'ace51352-freezingwind', 10, '2020-05-10 00:00:00') /* Creature */;
+VALUES (51352, 'ace51352-freezingwind', 10, '2020-10-09 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51352,   1,         16) /* ItemType - Creature */
@@ -21,12 +21,6 @@ VALUES (51352,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51352,   1, True ) /* Stuck */
      , (51352,   6, True ) /* AiUsesMana */
-     , (51352,  11, False) /* IgnoreCollisions */
-     , (51352,  12, True ) /* ReportCollisions */
-     , (51352,  13, False) /* Ethereal */
-     , (51352,  14, True ) /* GravityStatus */
-     , (51352,  15, True ) /* LightsStatus */
-     , (51352,  19, True ) /* Attackable */
 	 , (51352,  29, True ) /* No Corpse */
      , (51352,  50, True ) /* NeverFailCasting */;
 
@@ -44,7 +38,7 @@ VALUES (51352,   1,       5) /* HeartbeatInterval */
      , (51352,  18,     1.1) /* ArmorModVsAcid */
      , (51352,  19,    0.67) /* ArmorModVsElectric */
      , (51352,  31,      20) /* VisualAwarenessRange */
-     , (51352,  39,    1.39) /* DefaultScale */
+     , (51352,  39,     1.3) /* DefaultScale */
      , (51352,  64,    0.44) /* ResistSlash */
      , (51352,  65,    0.44) /* ResistPierce */
      , (51352,  66,    0.44) /* ResistBludgeon */

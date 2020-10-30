@@ -71,7 +71,7 @@ VALUES (38412,   1,   33560595) /* Setup */
      , (38412,   7,  268435727) /* ClothingBase */
      , (38412,   8,  100669120) /* Icon */
      , (38412,  22,  872415280) /* PhysicsEffectTable */
-     , (38412,  32,       4005) /* WieldedTreasureType - 
+     , (38412,  32,       4005) /* WieldedTreasureType -
                                    Wield T'thuun Bow (38923) | Probability: 60%
                                    Wield 14x Arrow (47071) | Probability: 100%
                                    Wield T'thuun Claw (38924) | Probability: 10%
@@ -100,19 +100,20 @@ VALUES (38412,   1,  1000, 0, 0, 1110) /* MaxHealth */
      , (38412,   5,   800, 0, 0, 1020) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (38412, 45, 0, 3, 0, 235, 0, 0) /* LightWeapons        Specialized */
-     , (38412, 47, 0, 3, 0, 170, 0, 0) /* MissileWeapons      Specialized */
-     , (38412, 46, 0, 3, 0, 185, 0, 0) /* FinesseWeapons      Specialized */
+VALUES (38412, 45, 0, 3, 0, 400, 0, 0) /* LightWeapons        Specialized */
+     , (38412, 47, 0, 3, 0, 400, 0, 0) /* MissileWeapons      Specialized */
+     , (38412, 46, 0, 3, 0, 400, 0, 0) /* FinesseWeapons      Specialized */
      , (38412,  6, 0, 3, 0, 260, 0, 0) /* MeleeDefense        Specialized */
      , (38412,  7, 0, 3, 0, 375, 0, 0) /* MissileDefense      Specialized */
      , (38412, 44, 0, 3, 0, 235, 0, 0) /* HeavyWeapons        Specialized */
+     , (38412, 48, 0, 3, 0, 200, 0, 0) /* Shield              Specialized */
      , (38412, 14, 0, 3, 0, 150, 0, 0) /* ArcaneLore          Specialized */
-     , (38412, 15, 0, 3, 0, 245, 0, 0) /* MagicDefense        Specialized */
+     , (38412, 15, 0, 3, 0, 375, 0, 0) /* MagicDefense        Specialized */
      , (38412, 20, 0, 3, 0, 110, 0, 0) /* Deception           Specialized */
-     , (38412, 24, 0, 3, 0,  60, 0, 0) /* Run                 Specialized */
-     , (38412, 31, 0, 3, 0, 150, 0, 0) /* CreatureEnchantment Specialized */
-     , (38412, 33, 0, 3, 0, 150, 0, 0) /* LifeMagic           Specialized */
-     , (38412, 34, 0, 3, 0, 150, 0, 0) /* WarMagic            Specialized */;
+     , (38412, 24, 0, 3, 0, 400, 0, 0) /* Run                 Specialized */
+     , (38412, 31, 0, 3, 0, 330, 0, 0) /* CreatureEnchantment Specialized */
+     , (38412, 33, 0, 3, 0, 330, 0, 0) /* LifeMagic           Specialized */
+     , (38412, 34, 0, 3, 0, 330, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (38412,  0,  4,  0,    0,  300,  240,  201,  141,  210,  201,   75,   75,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -142,4 +143,4 @@ VALUES (38412, 9, 39030,  0, 0, 0.05, False) /* Create Armored Sclavus Head (390
      , (38412, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
      , (38412, 9, 41979,  1, 0, 0.05, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (38412, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
-     
+

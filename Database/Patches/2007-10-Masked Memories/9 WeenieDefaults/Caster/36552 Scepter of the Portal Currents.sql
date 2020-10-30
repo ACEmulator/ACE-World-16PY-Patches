@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36552;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36552, 'ace36552-scepteroftheportalcurrents', 35, '2020-05-09 07:34:12') /* Caster */;
+VALUES (36552, 'ace36552-scepteroftheportalcurrents', 35, '2020-09-05 07:34:12') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36552,   1,      32768) /* ItemType - Caster */
@@ -33,10 +33,10 @@ VALUES (36552,  11, True ) /* IgnoreCollisions */
      , (36552,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36552,   5, -0.05000000074505806) /* ManaRate */
-     , (36552,  29,       1) /* WeaponDefense */
-     , (36552, 144, 0.10000000149011612) /* ManaConversionMod */
-     , (36552, 147,       1) /* CriticalFrequency */;
+VALUES (36552,   5, -0.050) /* ManaRate */
+     , (36552,  29,      1) /* WeaponDefense */
+     , (36552, 144,    0.1) /* ManaConversionMod */
+     , (36552, 147,   0.06) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36552,   1, 'Scepter of the Portal Currents') /* Name */
@@ -58,12 +58,3 @@ VALUES (36552,  2067,      2)  /* Inner Calm */
      , (36552,  2574,      2)  /* Major Focus */
      , (36552,  2584,      2)  /* Minor Willpower */;
 
-/* Lifestoned Changelog:
-{
-  "LastModified": "2020-05-09T07:32:35.0344825+00:00",
-  "ModifiedBy": "Relyc",
-  "Changelog": [],
-  "UserChangeSummary": "first draft, matching retail",
-  "IsDone": false
-}
-*/

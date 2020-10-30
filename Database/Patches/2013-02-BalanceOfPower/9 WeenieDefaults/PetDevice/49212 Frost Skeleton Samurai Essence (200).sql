@@ -1,16 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49212;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49212, 'ace49212-frostskeletonsamuraiessence200', 70, '2020-08-04 10:12:51') /* PetDevice */;
+VALUES (49212, 'ace49212-frostskeletonsamuraiessence200', 70, '2020-10-11 10:12:51') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49212,   1,        128) /* ItemType - Misc */
      , (49212,   5,         50) /* EncumbranceVal */
      , (49212,  16,          8) /* ItemUseable - Contained */
      , (49212,  18,        128) /* UiEffects - Frost */
-     , (49212,  19,       4000) /* Value */
+     , (49212,  19,      10000) /* Value */
      , (49212,  33,          0) /* Bonded - Normal */
-     , (49212,  65,        101) /* Placement - Resting */
      , (49212,  91,         50) /* MaxStructure */
      , (49212,  92,         50) /* Structure */
      , (49212,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -26,12 +25,7 @@ VALUES (49212,   1,        128) /* ItemType - Misc */
      , (49212, 369,        185) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49212,   1, False) /* Stuck */
-     , (49212,  11, True ) /* IgnoreCollisions */
-     , (49212,  13, True ) /* Ethereal */
-     , (49212,  14, True ) /* GravityStatus */
-     , (49212,  19, True ) /* Attackable */
-     , (49212,  22, True ) /* Inscribable */
+VALUES (49212,  22, True ) /* Inscribable */
      , (49212,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -39,7 +33,7 @@ VALUES (49212,  39,     0.4) /* DefaultScale */
      , (49212, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49212,   1, 'Frost Skeleton Samurai Essence (200)') /* Name */
+VALUES (49212,   1, 'Frost Skeleton Samurai Essence') /* Name */
      , (49212,  14, 'Use this essence to summon or dismiss your Frost Skeleton Samurai.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

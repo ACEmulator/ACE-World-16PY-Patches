@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31667;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31667, 'ace31667-cryptofadhorixportalgem', 38, '2019-02-27 18:20:40') /* Gem */;
+VALUES (31667, 'ace31667-cryptofadhorixportalgem', 38, '2019-10-20 18:20:40') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31667,   1,       2048) /* ItemType - Gem */
      , (31667,   5,         10) /* EncumbranceVal */
      , (31667,  11,          1) /* MaxStackSize */
      , (31667,  12,          1) /* StackSize */
+     , (31667,  13,         10) /* StackUnitEncumbrance */
+     , (31667,  15,          0) /* StackUnitValue */
      , (31667,  16,          8) /* ItemUseable - Contained */
      , (31667,  19,          0) /* Value */
      , (31667,  33,          1) /* Bonded - Bonded */
@@ -22,11 +24,15 @@ VALUES (31667,   1,       2048) /* ItemType - Gem */
      , (31667, 280,       1000) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31667,  22, True ) /* Inscribable */;
+VALUES (31667,  22, True ) /* Inscribable */
+     , (31667,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (31667, 167,      15) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31667,   1, 'Crypt of Adhorix Portal Gem') /* Name */
-     , (31667,  14, 'This portal summoning gem works best if used outside in a relatively flat area.') /* Use */
+     , (31667,  14, 'This portal summoning gem works best if used in a relatively flat area.') /* Use */
      , (31667,  16, 'This portal gem will create a temporary portal to the Crypt of Adhorix.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45016;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45016, 'ace45016-frozenwighthighacolyte', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (45016, 'ace45016-frozenwighthighacolyte', 10, '2020-10-09 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45016,   1,         16) /* ItemType - Creature */
@@ -21,9 +21,6 @@ VALUES (45016,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45016,   1, True ) /* Stuck */
      , (45016,   6, True ) /* AiUsesMana */
-     , (45016,  11, False) /* IgnoreCollisions */
-     , (45016,  12, True ) /* ReportCollisions */
-     , (45016,  13, False) /* Ethereal */
      , (45016,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -33,25 +30,25 @@ VALUES (45016,   1,  5) /* HeartbeatInterval */
      , (45016,   4,0.5) /* StaminaRate */
      , (45016,   5,  2) /* ManaRate */
      , (45016,  12,  0) /* Shade */
-     , (45016,  13,  0.37) /* ArmorModVsSlash */
-     , (45016,  14,  0.37) /* ArmorModVsPierce */
-     , (45016,  15,  0.50) /* ArmorModVsBludgeon */
-     , (45016,  16,  0.30) /* ArmorModVsCold */
-     , (45016,  17,  0.60) /* ArmorModVsFire */
-     , (45016,  18,  0.40) /* ArmorModVsAcid */
-     , (45016,  19,  0.33) /* ArmorModVsElectric */
-     , (45016,  27,  5) /* RotationSpeed */
-     , (45016,  31, 22) /* VisualAwarenessRange */
-     , (45016,  34,  1) /* PowerupTime */
-     , (45016,  39,  1.1) /* DefaultScale */
-     , (45016,  36,  1) /* ChargeSpeed */
-     , (45016,  64,  0.57) /* ResistSlash */
-     , (45016,  65,  0.57) /* ResistPierce */
-     , (45016,  66,  0.86) /* ResistBludgeon */
-     , (45016,  67,  0.90) /* ResistFire */
-     , (45016,  68,  0.30) /* ResistCold */
-     , (45016,  69,  0.70) /* ResistAcid */
-     , (45016,  70,  0.40) /* ResistElectric */
+     , (45016,  13,    0.85) /* ArmorModVsSlash */
+     , (45016,  14,    0.95) /* ArmorModVsPierce */
+     , (45016,  15,    0.85) /* ArmorModVsBludgeon */
+     , (45016,  16,    0.95) /* ArmorModVsCold */
+     , (45016,  17,    0.85) /* ArmorModVsFire */
+     , (45016,  18,    0.90) /* ArmorModVsAcid */
+     , (45016,  19,    0.95) /* ArmorModVsElectric */
+     , (45016,  31,      22) /* VisualAwarenessRange */
+     , (45016,  34,       2) /* PowerupTime */
+     , (45016,  36,       1) /* ChargeSpeed */
+     , (45016,  39,     1.1) /* DefaultScale */
+     , (45016,  64,    0.82) /* ResistSlash */
+     , (45016,  65,     0.5) /* ResistPierce */
+     , (45016,  66,     0.5) /* ResistBludgeon */
+     , (45016,  67,    0.85) /* ResistFire */
+     , (45016,  68,     0.5) /* ResistCold */
+     , (45016,  69,     0.5) /* ResistAcid */
+     , (45016,  70,     0.5) /* ResistElectric */
+     , (45016,  166,    0.9) /* ResistNether */
      , (45016,  71,  1) /* ResistHealthBoost */
      , (45016,  72,  1) /* ResistStaminaDrain */
      , (45016,  73,  1) /* ResistStaminaBoost */
@@ -68,13 +65,13 @@ VALUES (45016,   1, 'Frozen Wight High Acolyte') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45016,   1,   33561142) /* Setup */
-     , (45016,   2,  150995358) /* MotionTable */
+     , (45016,   2,  150994945) /* MotionTable */
      , (45016,   3,  536870934) /* SoundTable */
      , (45016,   4,  805306368) /* CombatTable */
-     , (45016,   6,   67116522) /* PaletteBase */
+     , (45016,   6,   67110722) /* PaletteBase */
      , (45016,   7,  268435558) /* ClothingBase */
-     , (45016,   8,  100669124) /* Icon */
-     , (45016,  22,  872415269) /* PhysicsEffectTable */
+     , (45016,   8,  100667942) /* Icon */
+     , (45016,  22,  872415272) /* PhysicsEffectTable */
      , (45016,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

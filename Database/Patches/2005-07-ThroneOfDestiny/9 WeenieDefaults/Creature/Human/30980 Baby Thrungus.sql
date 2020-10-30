@@ -1,17 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30980;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30980, 'thungusbabynpc1', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (30980, 'thungusbabynpc1', 10, '2020-10-20 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30980,   1,         16) /* ItemType - Creature */
-     , (30980,   2,         31) /* CreatureType - Human */
-     , (30980,   3,          9) /* PaletteTemplate - Grey */
+     , (30980,   2,         82) /* CreatureType - Thrungus */
+     , (30980,   3,         76) /* PaletteTemplate - Orange */
      , (30980,   6,         -1) /* ItemsCapacity */
      , (30980,   7,         -1) /* ContainersCapacity */
      , (30980,   8,        120) /* Mass */
      , (30980,  16,         32) /* ItemUseable - Remote */
-     , (30980,  25,          8) /* Level */
+     , (30980,  25,          5) /* Level */
      , (30980,  27,          0) /* ArmorType - None */
      , (30980,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30980,  95,          8) /* RadarBlipColor - Yellow */
@@ -22,26 +22,22 @@ VALUES (30980,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30980,   1, True ) /* Stuck */
      , (30980,   8, True ) /* AllowGive */
-     , (30980,  12, True ) /* ReportCollisions */
-     , (30980,  13, False) /* Ethereal */
      , (30980,  19, False) /* Attackable */
-     , (30980,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (30980,  42, True ) /* AllowEdgeSlide */
      , (30980,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30980,   3, 0.159999996423721) /* HealthRate */
+VALUES (30980,   3,    0.16) /* HealthRate */
      , (30980,   4,       5) /* StaminaRate */
      , (30980,   5,       1) /* ManaRate */
      , (30980,  12,       1) /* Shade */
-     , (30980,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (30980,  13,     0.9) /* ArmorModVsSlash */
      , (30980,  14,       1) /* ArmorModVsPierce */
-     , (30980,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (30980,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (30980,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (30980,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30980,  16,     0.4) /* ArmorModVsCold */
+     , (30980,  17,     0.4) /* ArmorModVsFire */
      , (30980,  18,       1) /* ArmorModVsAcid */
-     , (30980,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (30980,  39,     0.5) /* DefaultScale */
+     , (30980,  19,     0.6) /* ArmorModVsElectric */
+     , (30980,  39,     0.7) /* DefaultScale */
      , (30980,  54,       3) /* UseRadius */
      , (30980,  64,       1) /* ResistSlash */
      , (30980,  65,       1) /* ResistPierce */
@@ -59,8 +55,7 @@ VALUES (30980,   3, 0.159999996423721) /* HealthRate */
      , (30980, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30980,   1, 'Baby Thrungus') /* Name */
-     , (30980,   5, 'Creature NPC') /* Template */;
+VALUES (30980,   1, 'Baby Thrungus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30980,   1,   33559123) /* Setup */
@@ -72,17 +67,17 @@ VALUES (30980,   1,   33559123) /* Setup */
      , (30980,  22,  872415411) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (30980,   1,   5, 0, 0) /* Strength */
-     , (30980,   2,   5, 0, 0) /* Endurance */
-     , (30980,   3,  10, 0, 0) /* Quickness */
-     , (30980,   4,   5, 0, 0) /* Coordination */
-     , (30980,   5,   1, 0, 0) /* Focus */
-     , (30980,   6,   1, 0, 0) /* Self */;
+VALUES (30980,   1,  60, 0, 0) /* Strength */
+     , (30980,   2,  70, 0, 0) /* Endurance */
+     , (30980,   3,  80, 0, 0) /* Quickness */
+     , (30980,   4,  50, 0, 0) /* Coordination */
+     , (30980,   5, 120, 0, 0) /* Focus */
+     , (30980,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30980,   1,     1, 0, 0, 3) /* MaxHealth */
-     , (30980,   3,     0, 0, 0, 5) /* MaxStamina */
-     , (30980,   5,     0, 0, 0, 1) /* MaxMana */;
+VALUES (30980,   1,    10, 0, 0, 45) /* MaxHealth */
+     , (30980,   3,    10, 0, 0, 80) /* MaxStamina */
+     , (30980,   5,    10, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (30980,  0, 32,  5,  0.3,   50,   45,   40,   50,   50,   40,   55,   50,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

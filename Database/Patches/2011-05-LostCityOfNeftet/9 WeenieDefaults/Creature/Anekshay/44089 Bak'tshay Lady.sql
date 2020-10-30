@@ -23,7 +23,6 @@ VALUES (44089,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44089,   1, True ) /* Stuck */
      , (44089,   6, True ) /* AiUsesMana */
-     , (44089,   7, True ) /* AiUseHumanMagicAnimations */
      , (44089,  10, True ) /* AttackerAi */
      , (44089,  11, False) /* IgnoreCollisions */
      , (44089,  12, True ) /* ReportCollisions */
@@ -66,8 +65,8 @@ VALUES (44089,   1,       5) /* HeartbeatInterval */
 	 , (44089, 117,     0.5) /* FocusedProbability */
      , (44089, 104,      10) /* ObviousRadarRange */
      , (44089, 122,       2) /* AiAcquireHealth */
-     , (44089, 125,       1) /* ResistHealthDrain */												
-	 , (44089,  39,     1.4) /* DefaultScale */;																
+     , (44089, 125,       1) /* ResistHealthDrain */
+	 , (44089,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44089,   1, 'Bak''tshay Lady') /* Name */;
@@ -106,7 +105,8 @@ VALUES (44089,  6, 0, 2, 0, 425, 0, 0) /* MeleeDefense        Trained */
      , (44089, 33, 0, 2, 0, 380, 0, 0) /* LifeMagic           Trained */
      , (44089, 34, 0, 2, 0, 380, 0, 0) /* WarMagic            Trained */
      , (44089, 45, 0, 3, 0, 440, 0, 0) /* LightWeapons        Specialized */
-     , (44089, 46, 0, 3, 0, 440, 0, 0) /* FinesseWeapons      Specialized */;
+     , (44089, 46, 0, 3, 0, 440, 0, 0) /* FinesseWeapons      Specialized */
+     , (44089, 48, 0, 2, 0,  60, 0, 0) /* Shield              Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (44089,  0,  4,  0,    0,  800,  275,  275,  225,  250,  400,  225,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -139,7 +139,7 @@ VALUES (44089, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44089, 9, 44123,  1, 0, 0.20, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
      , (44089, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
      , (44089, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
-	 
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44089, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

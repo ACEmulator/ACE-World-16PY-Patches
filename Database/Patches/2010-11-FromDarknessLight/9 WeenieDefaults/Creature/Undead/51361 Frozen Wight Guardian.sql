@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51361;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51361, 'ace51361-frozenwightguardian', 10, '2020-05-17 00:00:00') /* Creature */;
+VALUES (51361, 'ace51361-frozenwightguardian', 10, '2020-10-09 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51361,   1,         16) /* ItemType - Creature */
@@ -21,9 +21,6 @@ VALUES (51361,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51361,   1, True ) /* Stuck */
      , (51361,   6, True ) /* AiUsesMana */
-     , (51361,  11, False) /* IgnoreCollisions */
-     , (51361,  12, True ) /* ReportCollisions */
-     , (51361,  13, False) /* Ethereal */
      , (51361,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -33,25 +30,25 @@ VALUES (51361,   1,     5) /* HeartbeatInterval */
      , (51361,   4,   0.5) /* StaminaRate */
      , (51361,   5,     2) /* ManaRate */
      , (51361,  12,     0) /* Shade */
-     , (51361,  13,  0.37) /* ArmorModVsSlash */
-     , (51361,  14,  0.37) /* ArmorModVsPierce */
-     , (51361,  15,  0.50) /* ArmorModVsBludgeon */
-     , (51361,  16,  0.30) /* ArmorModVsCold */
-     , (51361,  17,  0.60) /* ArmorModVsFire */
-     , (51361,  18,  0.40) /* ArmorModVsAcid */
-     , (51361,  19,  0.33) /* ArmorModVsElectric */
-     , (51361,  27,     5) /* RotationSpeed */
-     , (51361,  31,    33) /* VisualAwarenessRange */
-     , (51361,  34,     2) /* PowerupTime */
-     , (51361,  36,     1) /* ChargeSpeed */
-     , (51361,  39,   1.1) /* DefaultScale */
-     , (51361,  64,  0.57) /* ResistSlash */
-     , (51361,  65,  0.57) /* ResistPierce */
-     , (51361,  66,  0.86) /* ResistBludgeon */
-     , (51361,  67,  0.90) /* ResistFire */
-     , (51361,  68,  0.30) /* ResistCold */
-     , (51361,  69,  0.70) /* ResistAcid */
-     , (51361,  70,  0.40) /* ResistElectric */
+     , (51361,  13,    0.85) /* ArmorModVsSlash */
+     , (51361,  14,    0.95) /* ArmorModVsPierce */
+     , (51361,  15,    0.85) /* ArmorModVsBludgeon */
+     , (51361,  16,    0.95) /* ArmorModVsCold */
+     , (51361,  17,    0.85) /* ArmorModVsFire */
+     , (51361,  18,    0.90) /* ArmorModVsAcid */
+     , (51361,  19,    0.95) /* ArmorModVsElectric */
+     , (51361,  31,      33) /* VisualAwarenessRange */
+     , (51361,  34,       2) /* PowerupTime */
+     , (51361,  36,       1) /* ChargeSpeed */
+     , (51361,  39,     1.1) /* DefaultScale */
+     , (51361,  64,    0.82) /* ResistSlash */
+     , (51361,  65,     0.5) /* ResistPierce */
+     , (51361,  66,     0.5) /* ResistBludgeon */
+     , (51361,  67,    0.85) /* ResistFire */
+     , (51361,  68,     0.5) /* ResistCold */
+     , (51361,  69,     0.5) /* ResistAcid */
+     , (51361,  70,     0.5) /* ResistElectric */
+     , (51361,  166,    0.9) /* ResistNether */
      , (51361,  71,     1) /* ResistHealthBoost */
      , (51361,  72,     1) /* ResistStaminaDrain */
      , (51361,  73,     1) /* ResistStaminaBoost */
@@ -63,7 +60,7 @@ VALUES (51361,   1,     5) /* HeartbeatInterval */
      , (51361, 125,     1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (51361,   1, 'Frozen Guardian Wight') /* Name */
+VALUES (51361,   1, 'Frozen Wight Guardian') /* Name */
      , (51361,  45, 'FrozenFortressTestingGroundsKilltask_0513') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -73,7 +70,7 @@ VALUES (51361,   1,   33561142) /* Setup */
      , (51361,   4,  805306368) /* CombatTable */    
      , (51361,   6,   67110722) /* PaletteBase */
      , (51361,   7,  268435558) /* ClothingBase */
-     , (51361,   8,  100669124) /* Icon */
+     , (51361,   8,  100667942) /* Icon */
      , (51361,  22,  872415272) /* PhysicsEffectTable */
      , (51361,  32,       2020) /* WieldedTreasureType */      
      , (51361,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;

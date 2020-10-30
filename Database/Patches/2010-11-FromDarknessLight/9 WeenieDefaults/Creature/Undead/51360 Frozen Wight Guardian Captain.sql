@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51360;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51360, 'ace51360-frozenwightguardiancaptain', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (51360, 'ace51360-frozenwightguardiancaptain', 10, '2020-10-09 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51360,   1,         16) /* ItemType - Creature */
@@ -22,9 +22,6 @@ VALUES (51360,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51360,   1, True ) /* Stuck */
      , (51360,   6, True ) /* AiUsesMana */
-     , (51360,  11, False) /* IgnoreCollisions */
-     , (51360,  12, True ) /* ReportCollisions */
-     , (51360,  13, False) /* Ethereal */
      , (51360,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -34,25 +31,25 @@ VALUES (51360,   1,  5) /* HeartbeatInterval */
      , (51360,   4,0.5) /* StaminaRate */
      , (51360,   5,  2) /* ManaRate */
      , (51360,  12,  0) /* Shade */
-     , (51360,  13,  0.37) /* ArmorModVsSlash */
-     , (51360,  14,  0.37) /* ArmorModVsPierce */
-     , (51360,  15,  0.50) /* ArmorModVsBludgeon */
-     , (51360,  16,  0.30) /* ArmorModVsCold */
-     , (51360,  17,  0.60) /* ArmorModVsFire */
-     , (51360,  18,  0.40) /* ArmorModVsAcid */
-     , (51360,  19,  0.33) /* ArmorModVsElectric */
-     , (51360,  27,  5) /* RotationSpeed */
-     , (51360,  31, 22) /* VisualAwarenessRange */
-     , (51360,  34,  1) /* PowerupTime */
-     , (51360,  36,  1) /* ChargeSpeed */
-     , (51360,  39,  1.1) /* DefaultScale */
-     , (51360,  64,  0.57) /* ResistSlash */
-     , (51360,  65,  0.57) /* ResistPierce */
-     , (51360,  66,  0.86) /* ResistBludgeon */
-     , (51360,  67,  0.90) /* ResistFire */
-     , (51360,  68,  0.30) /* ResistCold */
-     , (51360,  69,  0.70) /* ResistAcid */
-     , (51360,  70,  0.40) /* ResistElectric */
+     , (51360,  13,    0.85) /* ArmorModVsSlash */
+     , (51360,  14,    0.95) /* ArmorModVsPierce */
+     , (51360,  15,    0.85) /* ArmorModVsBludgeon */
+     , (51360,  16,    0.95) /* ArmorModVsCold */
+     , (51360,  17,    0.85) /* ArmorModVsFire */
+     , (51360,  18,    0.90) /* ArmorModVsAcid */
+     , (51360,  19,    0.95) /* ArmorModVsElectric */
+     , (51360,  31,      22) /* VisualAwarenessRange */
+     , (51360,  34,       2) /* PowerupTime */
+     , (51360,  36,       1) /* ChargeSpeed */
+     , (51360,  39,     1.1) /* DefaultScale */
+     , (51360,  64,    0.82) /* ResistSlash */
+     , (51360,  65,     0.5) /* ResistPierce */
+     , (51360,  66,     0.5) /* ResistBludgeon */
+     , (51360,  67,    0.85) /* ResistFire */
+     , (51360,  68,     0.5) /* ResistCold */
+     , (51360,  69,     0.5) /* ResistAcid */
+     , (51360,  70,     0.5) /* ResistElectric */
+     , (51360,  166,    0.9) /* ResistNether */
      , (51360,  71,  1) /* ResistHealthBoost */
      , (51360,  72,  1) /* ResistStaminaDrain */
      , (51360,  73,  1) /* ResistStaminaBoost */
@@ -69,12 +66,12 @@ VALUES (51360,   1, 'Frozen Wight Guardian Captain') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51360,   1,   33561142) /* Setup */
-     , (51360,   2,  150995358) /* MotionTable */
+     , (51360,   2,  150994967) /* MotionTable */
      , (51360,   3,  536870934) /* SoundTable */
      , (51360,   4,  805306368) /* CombatTable */
      , (51360,   6,   67110722) /* PaletteBase */
      , (51360,   7,  268435558) /* ClothingBase */
-     , (51360,   8,  100669124) /* Icon */
+     , (51360,   8,  100667942) /* Icon */
      , (51360,  22,  872415272) /* PhysicsEffectTable */
      , (51360,  32,       2020) /* WieldedTreasureType */
      , (51360,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;   

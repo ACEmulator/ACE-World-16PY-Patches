@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44212;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44212, 'ace44212-burningsandsarrow', 5, '2019-11-02 23:17:54') /* Ammunition */;
+VALUES (44212, 'ace44212-burningsandsarrow', 5, '2020-09-15 23:17:54') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44212,   1,        256) /* ItemType - MissileWeapon */															  
@@ -13,7 +13,7 @@ VALUES (44212,   1,        256) /* ItemType - MissileWeapon */
      , (44212,  12,          1) /* StackSize */
      , (44212,  13,          1) /* StackUnitEncumbrance */
      , (44212,  14,          2) /* StackUnitMass */
-     , (44212,  15,          0) /* StackUnitValue */														  											
+     , (44212,  15,          1) /* StackUnitValue */														  											
      , (44212,  16,          1) /* ItemUseable - No */
      , (44212,  18,         32) /* UiEffects - Fire */
      , (44212,  19,          1) /* Value */
@@ -33,13 +33,10 @@ VALUES (44212,  17, True ) /* Inelastic */
      , (44212,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44212,  21,       0) /* WeaponLength */
-     , (44212,  22, 0.300000011920929) /* DamageVariance */
-     , (44212,  26,       0) /* MaximumVelocity */
+VALUES (44212,  22,     0.3) /* DamageVariance */
      , (44212,  29,       1) /* WeaponDefense */
-     , (44212,  39, 1.10000002384186) /* DefaultScale */
+     , (44212,  39,     1.1) /* DefaultScale */
      , (44212,  62,       1) /* WeaponOffense */
-     , (44212,  63,       1) /* DamageMod */
      , (44212,  78,       1) /* Friction */
      , (44212,  79,       0) /* Elasticity */;
 
@@ -50,6 +47,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44212,   1,   33555406) /* Setup */
      , (44212,   3,  536870932) /* SoundTable */
      , (44212,   6,   67111919) /* PaletteBase */
+     , (44212,   7,  268436303) /* ClothingBase */
      , (44212,   8,  100672663) /* Icon */
      , (44212,  22,  872415275) /* PhysicsEffectTable */
      , (44212,  50,  100691935) /* IconOverlay */;

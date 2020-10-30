@@ -22,7 +22,6 @@ VALUES (48900,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48900,   1, True ) /* Stuck */
      , (48900,   6, True ) /* AiUsesMana */
-     , (48900,   7, True ) /* AiUseHumanMagicAnimations */
      , (48900,  10, True ) /* AttackerAi */
      , (48900,  58, True ) /* SpellQueueActive */;
 
@@ -93,11 +92,10 @@ VALUES (48900,   1,  5900, 0, 0, 6100) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (48900,  6, 0, 2, 0, 400, 0, 0) /* MeleeDefense        Trained */
      , (48900,  7, 0, 2, 0, 450, 0, 0) /* MissileDefense      Trained */
-     , (48900, 15, 0, 2, 0, 350, 0, 0) /* MagicDefense        Trained */
+     , (48900, 15, 0, 2, 0, 300, 0, 0) /* MagicDefense        Trained */
      , (48900, 24, 0, 2, 0, 200, 0, 0) /* Run                 Trained */
-     , (48900, 33, 0, 2, 0, 435, 0, 0) /* LifeMagic           Trained */
-     , (48900, 34, 0, 2, 0, 445, 0, 0) /* WarMagic            Trained */
-     , (48900, 13, 0, 3, 0, 490, 0, 0) /* UnarmedCombat       Specialized */
+     , (48900, 33, 0, 2, 0, 325, 0, 0) /* LifeMagic           Trained */
+     , (48900, 34, 0, 2, 0, 325, 0, 0) /* WarMagic            Trained */
      , (48900, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */
      , (48900, 46, 0, 3, 0, 450, 0, 0) /* FinesseWeapons      Specialized */;
 
@@ -113,7 +111,7 @@ VALUES (48900,  0,  4,  0,    0,  400,  400,  400,  400,  250,  400,  400,  400,
      , (48900,  8,  4, 480, 0.75,  400,  400,  400,  400,  250,  400,  400,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48900,  3948,   2.06)   /* Flame Wave -  not implemented in ACE */
+VALUES (48900,  3948,   2.06)   /* Flame Wave */
      , (48900,  4481,   2.06)  /* Incantation of Fire Vulnerability Other */
      , (48900,  4644,   2.06)  /* Incantation of Drain Mana Other */
      , (48900,  4643,   2.06)  /* Incantation of Drain Health */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27654;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27654, 'shirtrenegadehide', 2, '2019-02-04 06:52:23') /* Clothing */;
+VALUES (27654, 'shirtrenegadehide', 2, '2020-10-28 06:52:23') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27654,   1,          4) /* ItemType - Clothing */
@@ -9,7 +9,7 @@ VALUES (27654,   1,          4) /* ItemType - Clothing */
      , (27654,   4,         40) /* ClothingPriority - UnderwearChest, UnderwearUpperArms */
      , (27654,   5,        650) /* EncumbranceVal */
      , (27654,   8,         38) /* Mass */
-     , (27654,   9,         10) /* ValidLocations - ChestWear, UpperArmWear */
+     , (27654,   9,         14) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear */
      , (27654,  16,          1) /* ItemUseable - No */
      , (27654,  18,          1) /* UiEffects - Magical */
      , (27654,  19,       2100) /* Value */
@@ -28,15 +28,15 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27654,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27654,   5, -0.0329999998211861) /* ManaRate */
+VALUES (27654,   5,  -0.033) /* ManaRate */
      , (27654,  12,       0) /* Shade */
-     , (27654,  13, 0.100000001490116) /* ArmorModVsSlash */
-     , (27654,  14, 0.100000001490116) /* ArmorModVsPierce */
-     , (27654,  15, 0.100000001490116) /* ArmorModVsBludgeon */
-     , (27654,  16, 0.100000001490116) /* ArmorModVsCold */
-     , (27654,  17, 0.100000001490116) /* ArmorModVsFire */
-     , (27654,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (27654,  19, 0.100000001490116) /* ArmorModVsElectric */;
+     , (27654,  13,     0.1) /* ArmorModVsSlash */
+     , (27654,  14,     0.1) /* ArmorModVsPierce */
+     , (27654,  15,     0.1) /* ArmorModVsBludgeon */
+     , (27654,  16,     0.1) /* ArmorModVsCold */
+     , (27654,  17,     0.1) /* ArmorModVsFire */
+     , (27654,  18,     0.1) /* ArmorModVsAcid */
+     , (27654,  19,     0.1) /* ArmorModVsElectric */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27654,   1, 'Coarse Hide Shirt') /* Name */

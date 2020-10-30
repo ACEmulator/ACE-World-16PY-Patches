@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43822;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43822, 'ace43822-frozenwight', 10, '2020-05-10 00:00:00') /* Creature */;
+VALUES (43822, 'ace43822-frozenwight', 10, '2020-10-09 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43822,   1,         16) /* ItemType - Creature */
@@ -21,9 +21,6 @@ VALUES (43822,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43822,   1, True ) /* Stuck */
      , (43822,   6, True ) /* AiUsesMana */
-     , (43822,  11, False) /* IgnoreCollisions */
-     , (43822,  12, True ) /* ReportCollisions */
-     , (43822,  13, False) /* Ethereal */
      , (43822,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -33,25 +30,25 @@ VALUES (43822,   1,     5) /* HeartbeatInterval */
      , (43822,   4,   0.5) /* StaminaRate */
      , (43822,   5,     2) /* ManaRate */
      , (43822,  12,     0) /* Shade */
-     , (43822,  13,  0.37) /* ArmorModVsSlash */
-     , (43822,  14,  0.37) /* ArmorModVsPierce */
-     , (43822,  15,  0.50) /* ArmorModVsBludgeon */
-     , (43822,  16,  0.30) /* ArmorModVsCold */
-     , (43822,  17,  0.60) /* ArmorModVsFire */
-     , (43822,  18,  0.40) /* ArmorModVsAcid */
-     , (43822,  19,  0.33) /* ArmorModVsElectric */
-     , (43822,  27,     5) /* RotationSpeed */
-     , (43822,  31,    33) /* VisualAwarenessRange */
-     , (43822,  34,     2) /* PowerupTime */
-     , (43822,  36,     1) /* ChargeSpeed */
-     , (43822,  39,   1.1) /* DefaultScale */
-     , (43822,  64,  0.57) /* ResistSlash */
-     , (43822,  65,  0.57) /* ResistPierce */
-     , (43822,  66,  0.86) /* ResistBludgeon */
-     , (43822,  67,  0.90) /* ResistFire */
-     , (43822,  68,  0.30) /* ResistCold */
-     , (43822,  69,  0.70) /* ResistAcid */
-     , (43822,  70,  0.40) /* ResistElectric */
+     , (43822,  13,    0.85) /* ArmorModVsSlash */
+     , (43822,  14,    0.95) /* ArmorModVsPierce */
+     , (43822,  15,    0.85) /* ArmorModVsBludgeon */
+     , (43822,  16,    0.95) /* ArmorModVsCold */
+     , (43822,  17,    0.85) /* ArmorModVsFire */
+     , (43822,  18,    0.90) /* ArmorModVsAcid */
+     , (43822,  19,    0.95) /* ArmorModVsElectric */
+     , (43822,  31,      33) /* VisualAwarenessRange */
+     , (43822,  34,       2) /* PowerupTime */
+     , (43822,  36,       1) /* ChargeSpeed */
+     , (43822,  39,     1.1) /* DefaultScale */
+     , (43822,  64,    0.82) /* ResistSlash */
+     , (43822,  65,     0.5) /* ResistPierce */
+     , (43822,  66,     0.5) /* ResistBludgeon */
+     , (43822,  67,    0.85) /* ResistFire */
+     , (43822,  68,     0.5) /* ResistCold */
+     , (43822,  69,     0.5) /* ResistAcid */
+     , (43822,  70,     0.5) /* ResistElectric */
+     , (43822,  166,    0.9) /* ResistNether */
      , (43822,  71,     1) /* ResistHealthBoost */
      , (43822,  72,     1) /* ResistStaminaDrain */
      , (43822,  73,     1) /* ResistStaminaBoost */
@@ -73,7 +70,7 @@ VALUES (43822,   1,   33561142) /* Setup */
      , (43822,   4,  805306368) /* CombatTable */    
      , (43822,   6,   67110722) /* PaletteBase */
      , (43822,   7,  268435558) /* ClothingBase */
-     , (43822,   8,  100669124) /* Icon */
+     , (43822,   8,  100667942) /* Icon */
      , (43822,  22,  872415272) /* PhysicsEffectTable */
      , (43822,  32,       2020) /* WieldedTreasureType */      
      , (43822,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;

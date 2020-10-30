@@ -2,7 +2,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43532;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43532, 'ace43532-battlelordgregor', 10, '2020-03-23 16:54:22') /* Creature */;
+VALUES (43532, 'ace43532-battlelordgregor', 10, '2020-10-09 16:54:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43532,   1,         16) /* ItemType - Creature */
@@ -22,10 +22,7 @@ VALUES (43532,   1,         16) /* ItemType - Creature */
      , (43532, 332,        100) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43532,   1, True ) /* Stuck */
-     , (43532,  12, True ) /* ReportCollisions */
-     , (43532,  14, True ) /* GravityStatus */
-     , (43532,  19, True ) /* Attackable */;
+VALUES (43532,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43532,   1,       5) /* HeartbeatInterval */
@@ -73,7 +70,7 @@ VALUES (43532,   1,   33554433) /* Setup */
      , (43532,   4,  805306368) /* CombatTable */	 	 
      , (43532,   6,   67108990) /* PaletteBase */
      , (43532,   8,  100674805) /* Icon */
-     , (43532,  22,  872415269) /* PhysicsEffectTable */;
+     , (43532,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43532,   1, 1000, 0, 0) /* Strength */

@@ -1,16 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49448;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49448, 'ace49448-frostmaidenessence200', 70, '2020-08-04 10:18:02') /* PetDevice */;
+VALUES (49448, 'ace49448-frostmaidenessence200', 70, '2020-10-11 10:18:02') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49448,   1,        128) /* ItemType - Misc */
      , (49448,   5,         50) /* EncumbranceVal */
      , (49448,  16,          8) /* ItemUseable - Contained */
      , (49448,  18,        128) /* UiEffects - Frost */
-     , (49448,  19,       4000) /* Value */
+     , (49448,  19,      10000) /* Value */
      , (49448,  33,          0) /* Bonded - Normal */
-     , (49448,  65,        101) /* Placement - Resting */
      , (49448,  91,         50) /* MaxStructure */
      , (49448,  92,         50) /* Structure */
      , (49448,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -26,12 +25,7 @@ VALUES (49448,   1,        128) /* ItemType - Misc */
      , (49448, 369,        185) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49448,   1, False) /* Stuck */
-     , (49448,  11, True ) /* IgnoreCollisions */
-     , (49448,  13, True ) /* Ethereal */
-     , (49448,  14, True ) /* GravityStatus */
-     , (49448,  19, True ) /* Attackable */
-     , (49448,  22, True ) /* Inscribable */
+VALUES (49448,  22, True ) /* Inscribable */
      , (49448,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -39,7 +33,7 @@ VALUES (49448,  39,     0.4) /* DefaultScale */
      , (49448, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49448,   1, 'Frost Maiden Essence (200)') /* Name */
+VALUES (49448,   1, 'Frost Maiden Essence') /* Name */
      , (49448,  14, 'Use this essence to summon or dismiss your Frost Maiden.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

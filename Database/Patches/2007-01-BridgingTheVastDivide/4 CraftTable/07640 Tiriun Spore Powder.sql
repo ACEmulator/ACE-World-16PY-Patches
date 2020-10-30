@@ -6,4 +6,4 @@ VALUES (7640, 0, 39 /* Cooking */, 300, 0, 34862 /* Tiriun Spore Powder */, 10, 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7640;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7640, 4751 /* Mortar and Pestle */, 71802 /* Roasted Tiriun Spores */, '2020-07-10 00:00:00');
+VALUES (7640, 4751 /* Mortar and Pestle */, 34861 /* Roasted Tiriun Spores */, '2020-09-14 00:00:00');

@@ -2,7 +2,7 @@ DELETE FROM `weenie` WHERE `class_Id` = 34618;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (34618, 'ace34618-disgracednanjoushoujen', 10, '2019-02-10 00:00:00') /* Creature */;
-     
+
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34618,   1,         16) /* ItemType - Creature */
      , (34618,   2,         31) /* CreatureType - Human */
@@ -19,13 +19,12 @@ VALUES (34618,   1,         16) /* ItemType - Creature */
      , (34618, 113,          1) /* Gender - Male */
      , (34618, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (34618, 146,     500000) /* XpOverride */
-     , (34618, 188,          3) /* HeritageGroup - Sho */;    
-     
+     , (34618, 188,          3) /* HeritageGroup - Sho */;
+
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34618,   1, True ) /* Stuck */
      , (34618,   6, True ) /* AiUsesMana */
-     , (34618,   7, True ) /* AiUseHumanMagicAnimations */
      , (34618,  10, True ) /* AttackerAi */
      , (34618,  11, False) /* IgnoreCollisions */
      , (34618,  12, True ) /* ReportCollisions */
@@ -69,7 +68,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34618,   1, 'Disgraced Nanjou Shou-jen') /* Name */
      , (34618,   3, 'Male') /* Sex */
      , (34618,   4, 'Sho') /* HeritageGroup */;
-     
+
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34618,   1,   33554433) /* Setup */
      , (34618,   2,  150994945) /* MotionTable */
@@ -79,7 +78,7 @@ VALUES (34618,   1,   33554433) /* Setup */
      , (34618,   7,  268437191) /* ClothingBase */
      , (34618,   8,  100667446) /* Icon */
      , (34618,  22,  872415236) /* PhysicsEffectTable */
-     , (34618,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;     
+     , (34618,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34618,   1, 300, 0, 0) /* Strength */
@@ -114,7 +113,7 @@ VALUES (34618,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,
      , (34618,  6,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (34618,  7,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (34618,  8,  4,  8, 0.75,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-     
+
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34618,  1132,  2.115)  /* Blade Vulnerability Other VI */
      , (34618,  97,  2.115)  /* Whirling Blade VI */;
@@ -122,7 +121,7 @@ VALUES (34618,  1132,  2.115)  /* Blade Vulnerability Other VI */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34618, 2, 34018,  1, 0, 0, False) /* Create Frost Tachi (34018) for Wield */
      , (34618, 2, 34017,  1, 0, 0, False) /* Create Tachi (34017) for Wield */;
-     
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (34618, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -130,4 +129,4 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'TheMasterCrittersKilled', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-     
+

@@ -35,8 +35,8 @@ VALUES (44049,   1,       5) /* HeartbeatInterval */
      , (44049,   5,       2) /* ManaRate */
      , (44049,  12,     0.5) /* Shade */
      , (44049,  39,     2.5) /* DefaultScale */
-     , (44049,  13,     0.5) /* ArmorModVsSlash */
-     , (44049,  14,     0.6) /* ArmorModVsPierce */
+     , (44049,  13,     0.6) /* ArmorModVsSlash */
+     , (44049,  14,     0.5) /* ArmorModVsPierce */
      , (44049,  15,    0.75) /* ArmorModVsBludgeon */
      , (44049,  16,       1) /* ArmorModVsCold */
      , (44049,  17,    0.95) /* ArmorModVsFire */
@@ -46,8 +46,8 @@ VALUES (44049,   1,       5) /* HeartbeatInterval */
      , (44049,  31,      32) /* VisualAwarenessRange */
      , (44049,  34,       1) /* PowerupTime */
      , (44049,  36,       1) /* ChargeSpeed */
-     , (44049,  64,     0.8) /* ResistSlash */
-     , (44049,  65,     0.7) /* ResistPierce */
+     , (44049,  64,     0.7) /* ResistSlash */
+     , (44049,  65,     0.8) /* ResistPierce */
      , (44049,  66,     0.5) /* ResistBludgeon */
      , (44049,  67,     0.3) /* ResistFire */
      , (44049,  68,     0.3) /* ResistCold */
@@ -98,7 +98,7 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (44049,  6, 0, 3, 0, 440, 0, 0) /* MeleeDefense        Specialized */
      , (44049,  7, 0, 3, 0, 425, 0, 0) /* MissileDefense      Specialized */
      , (44049, 45, 0, 3, 0, 510, 0, 0) /* LightWeapons        Specialized */
-     , (44049, 15, 0, 3, 0, 455, 0, 0) /* MagicDefense        Specialized */
+     , (44049, 15, 0, 3, 0, 405, 0, 0) /* MagicDefense        Specialized */
      , (44049, 22, 0, 3, 0,  25, 0, 0) /* Jump                Specialized */
      , (44049, 24, 0, 3, 0,  400, 0, 0) /* Run                 Specialized */;
 
