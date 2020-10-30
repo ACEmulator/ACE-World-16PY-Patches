@@ -1,24 +1,21 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43812;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43812, 'ace43812-missile', 33, '2020-06-10 00:00:00') /* ProjectileSpell  */;
+VALUES (43812, 'ace43812-missile', 33, '2020-10-29 00:00:00') /* ProjectileSpell  */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43812,   8,         25) /* Mass */
      , (43812,   9,          0) /* ValidLocations - None */
      , (43812,  66,          0) /* CheckpointStatus */
-     , (43812,  93,     133140) /* PhysicsState - Ethereal, IgnoreCollisions, LightingOn, Inelastic */;
+     , (43812,  93,     166728) /* PhysicsState - ReportCollisions, Missile, AlignPath, PathClipped, LightingOn, ScriptedCollision, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43812,   1, True ) /* Stuck */
-     , (43812,  14, False) /* GravityStatus */
-     , (43812,  15, True ) /* LightsStatus */
-     , (43812,  16, True ) /* ScriptedCollision */
-     , (43812,  17, True ) /* Inelastic */
      , (43812,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43812,  26,      15) /* MaximumVelocity */
+     , (43812,  77,       1) /* PhysicsScriptIntensity */
      , (43812,  78,       1) /* Friction */
      , (43812,  79,       0) /* Elasticity */;
 
