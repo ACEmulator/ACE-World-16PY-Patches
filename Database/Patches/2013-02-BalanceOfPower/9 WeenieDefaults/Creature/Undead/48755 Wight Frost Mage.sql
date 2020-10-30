@@ -33,13 +33,13 @@ VALUES (48755,   1,       5) /* HeartbeatInterval */
      , (48755,   4,     0.5) /* StaminaRate */
      , (48755,   5,       2) /* ManaRate */
      , (48755,  12,       0) /* Shade */
-     , (48755,  13,    0.37) /* ArmorModVsSlash */
-     , (48755,  14,    0.37) /* ArmorModVsPierce */
-     , (48755,  15,     0.5) /* ArmorModVsBludgeon */
-     , (48755,  16,     0.3) /* ArmorModVsCold */
-     , (48755,  17,     0.6) /* ArmorModVsFire */
-     , (48755,  18,     0.4) /* ArmorModVsAcid */
-     , (48755,  19,    0.33) /* ArmorModVsElectric */
+     , (48755,  13,    0.85) /* ArmorModVsSlash */
+     , (48755,  14,    0.95) /* ArmorModVsPierce */
+     , (48755,  15,    0.85) /* ArmorModVsBludgeon */
+     , (48755,  16,    0.95) /* ArmorModVsCold */
+     , (48755,  17,    0.75) /* ArmorModVsFire */
+     , (48755,  18,    0.79) /* ArmorModVsAcid */
+     , (48755,  19,    0.95) /* ArmorModVsElectric */
      , (48755,  27,       3) /* RotationSpeed */
      , (48755,  31,      33) /* VisualAwarenessRange */
      , (48755,  34,       2) /* PowerupTime */
@@ -47,10 +47,10 @@ VALUES (48755,   1,       5) /* HeartbeatInterval */
      , (48755,  39,     1.1) /* DefaultScale */
      , (48755,  64,    0.57) /* ResistSlash */
      , (48755,  65,    0.57) /* ResistPierce */
-     , (48755,  66,    0.86) /* ResistBludgeon */
-     , (48755,  67,     0.9) /* ResistFire */
+     , (48755,  66,    0.66) /* ResistBludgeon */
+     , (48755,  67,    0.79) /* ResistFire */
      , (48755,  68,     0.3) /* ResistCold */
-     , (48755,  69,     0.7) /* ResistAcid */
+     , (48755,  69,    0.73) /* ResistAcid */
      , (48755,  70,     0.4) /* ResistElectric */
      , (48755,  71,       1) /* ResistHealthBoost */
      , (48755,  72,       1) /* ResistStaminaDrain */
@@ -74,7 +74,7 @@ VALUES (48755,   1,   33560225) /* Setup */
      , (48755,   7,  268435558) /* ClothingBase */
      , (48755,   8,  100667942) /* Icon */
      , (48755,  22,  872415272) /* PhysicsEffectTable */
-     , (48755,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (48755,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (48755,   1, 240, 0, 0) /* Strength */
