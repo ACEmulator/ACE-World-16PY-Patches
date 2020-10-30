@@ -4,8 +4,8 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (87008, 'ace87008-gynightpyrethreecampgen', 1, '2020-03-30 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (87008,  81,          3) /* MaxGeneratedObjects */
-     , (87008,  82,          3) /* InitGeneratedObjects */
+VALUES (87008,  81,          4) /* MaxGeneratedObjects */
+     , (87008,  82,          4) /* InitGeneratedObjects */
      , (87008,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87008, 103,          2) /* GeneratorDestructionType - Destroy */
      , (87008, 142,          4) /* GeneratorTimeType - Night */
@@ -30,4 +30,5 @@ VALUES (87008,   1,   33555051) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (87008, -1, 52309, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pyre Champion (52309) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87008, -1, 52308, 60, 4, 4, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pyre Minion (52308) (x4 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+     , (87008, -1, 52308, 60, 2, 2, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pyre Minion (52308) (x4 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87008, -1, 41963, 60, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Pyre Skeleton (41963) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
