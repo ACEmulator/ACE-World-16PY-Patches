@@ -30,25 +30,25 @@ VALUES (43822,   1,     5) /* HeartbeatInterval */
      , (43822,   4,   0.5) /* StaminaRate */
      , (43822,   5,     2) /* ManaRate */
      , (43822,  12,     0) /* Shade */
-     , (43822,  13,  0.37) /* ArmorModVsSlash */
-     , (43822,  14,  0.37) /* ArmorModVsPierce */
-     , (43822,  15,  0.50) /* ArmorModVsBludgeon */
-     , (43822,  16,  0.30) /* ArmorModVsCold */
-     , (43822,  17,  0.60) /* ArmorModVsFire */
-     , (43822,  18,  0.40) /* ArmorModVsAcid */
-     , (43822,  19,  0.33) /* ArmorModVsElectric */
-     , (43822,  27,     5) /* RotationSpeed */
-     , (43822,  31,    33) /* VisualAwarenessRange */
-     , (43822,  34,     2) /* PowerupTime */
-     , (43822,  36,     1) /* ChargeSpeed */
-     , (43822,  39,   1.1) /* DefaultScale */
-     , (43822,  64,  0.57) /* ResistSlash */
-     , (43822,  65,  0.57) /* ResistPierce */
-     , (43822,  66,  0.86) /* ResistBludgeon */
-     , (43822,  67,  0.90) /* ResistFire */
-     , (43822,  68,  0.30) /* ResistCold */
-     , (43822,  69,  0.70) /* ResistAcid */
-     , (43822,  70,  0.40) /* ResistElectric */
+     , (43822,  13,    0.85) /* ArmorModVsSlash */
+     , (43822,  14,    0.95) /* ArmorModVsPierce */
+     , (43822,  15,    0.85) /* ArmorModVsBludgeon */
+     , (43822,  16,    0.95) /* ArmorModVsCold */
+     , (43822,  17,    0.85) /* ArmorModVsFire */
+     , (43822,  18,    0.90) /* ArmorModVsAcid */
+     , (43822,  19,    0.95) /* ArmorModVsElectric */
+     , (43822,  31,      33) /* VisualAwarenessRange */
+     , (43822,  34,       2) /* PowerupTime */
+     , (43822,  36,       1) /* ChargeSpeed */
+     , (43822,  39,     1.1) /* DefaultScale */
+     , (43822,  64,    0.82) /* ResistSlash */
+     , (43822,  65,     0.5) /* ResistPierce */
+     , (43822,  66,     0.5) /* ResistBludgeon */
+     , (43822,  67,    0.85) /* ResistFire */
+     , (43822,  68,     0.5) /* ResistCold */
+     , (43822,  69,     0.5) /* ResistAcid */
+     , (43822,  70,     0.5) /* ResistElectric */
+     , (43822,  166,    0.9) /* ResistNether */
      , (43822,  71,     1) /* ResistHealthBoost */
      , (43822,  72,     1) /* ResistStaminaDrain */
      , (43822,  73,     1) /* ResistStaminaBoost */

@@ -38,6 +38,18 @@ Give: Celestial Hand Armor Writ (38544)
             - Tell: You must be at least a Adept within the Society to trade me an Armor Writ for my key to this chest, sorry.
             - Give: Celestial Hand Armor Writ (38544)
 
+Give: Ornate Armor Writ (80438)
+    - TurnToTarget
+    - InqIntStat: SocietyRankCelhan, 101 - 1001
+        TestSuccess:
+            - DirectBroadcast: %n reads over the writ and gets an odd blank expression.
+            - Delay: 0.5, Tell: Everything, ah... seems to be in order... Here you go.
+            - Delay: 0.5, DirectBroadcast: %n looks slightly confused.
+            - Give: Celestial Hand Tassets Key (38538)
+        TestFailure:
+            - Tell: You must be at least a Adept within the Society to trade me an Armor Writ for my key to this chest, sorry.
+            - Give: Ornate Armor Writ (80438)
+
 Use:
     - TurnToTarget
     - InqIntStat: SocietyRankCelhan, 101 - 1001

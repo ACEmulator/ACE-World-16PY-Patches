@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31971;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31971, 'ace31971-waterguardian', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (31971, 'ace31971-waterguardian', 10, '2020-10-25 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31971,   1,         16) /* ItemType - Creature */
      , (31971,   2,         62) /* CreatureType - Elemental */
      , (31971,   3,          2) /* PaletteTemplate - Blue */
-     , (31971,   6,        255) /* ItemsCapacity */
-     , (31971,   7,        255) /* ContainersCapacity */
+     , (31971,   6,         -1) /* ItemsCapacity */
+     , (31971,   7,         -1) /* ContainersCapacity */
      , (31971,  16,         32) /* ItemUseable - Remote */
      , (31971,  25,        500) /* Level */
      , (31971,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -24,7 +24,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31971,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31971,   1, 'Water Guardian') /* Name */;
+VALUES (31971,   1, 'Water Guardian') /* Name */
+     , (31971,   5, 'Warden of the Deep') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31971,   1,   33559686) /* Setup */
@@ -32,8 +33,7 @@ VALUES (31971,   1,   33559686) /* Setup */
      , (31971,   3,  536871066) /* SoundTable */
      , (31971,   6,   67116522) /* PaletteBase */
      , (31971,   7,  268437042) /* ClothingBase */
-     , (31971,   8,  100672514) /* Icon */
-     , (31971,  31,     112007) /* LinkedPortalOne */;
+     , (31971,   8,  100672514) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31971,   1, 500, 0, 0) /* Strength */
@@ -44,9 +44,9 @@ VALUES (31971,   1, 500, 0, 0) /* Strength */
      , (31971,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31971,   1,   750, 0, 0, 0) /* MaxHealth */
-     , (31971,   3,   500, 0, 0, 0) /* MaxStamina */
-     , (31971,   5,  1000, 0, 0, 0) /* MaxMana */;
+VALUES (31971,   1,   500, 0, 0, 750) /* MaxHealth */
+     , (31971,   3,   500, 0, 0, 1000) /* MaxStamina */
+     , (31971,   5,  1000, 0, 0, 1500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (31971,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

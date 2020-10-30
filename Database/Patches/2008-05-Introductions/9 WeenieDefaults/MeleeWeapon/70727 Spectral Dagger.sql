@@ -50,8 +50,8 @@ VALUES (70727,   5,   -0.05) /* ManaRate */
      , (70727, 155,       1) /* IgnoreArmor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (70727,   0, 'A ghostly blue dagger. Tendrils of ethereal light spill from it. This weapon won''t last long. This item expires in 3 days.') /* Undef */
-     , (70727,   1, 'Spectral Dagger') /* Name */;
+VALUES (70727,   1, 'Spectral Dagger') /* Name */
+     , (70727,  16, 'A ghostly blue dagger. Tendrils of ethereal light spill from it. This weapon won''t last long.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70727,   1,   33560572) /* Setup */

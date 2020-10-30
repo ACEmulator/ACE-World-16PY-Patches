@@ -52,8 +52,7 @@ VALUES (70728,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70728,   1, 'Spectral Greatsword') /* Name */
-     , (70728,  16, 'This item expires in 3 days.
-A ghostly blue sword. Tendrils of ethereal light spill from it. This weapon won''t last long.') /* LongDesc */;
+     , (70728,  16, 'A ghostly blue sword. Tendrils of ethereal light spill from it. This weapon won''t last long.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70728,   1,   33560577) /* Setup */

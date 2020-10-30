@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37473;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37473, 'ace37473-spearstampedspectralingot', 38, '2020-06-16 05:01:31') /* Gem */;
+VALUES (37473, 'ace37473-spearstampedspectralingot', 38, '2020-10-29 05:01:31') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37473,   1,        128) /* ItemType - Misc */
@@ -9,6 +9,8 @@ VALUES (37473,   1,        128) /* ItemType - Misc */
      , (37473,   5,         10) /* EncumbranceVal */
      , (37473,  11,          1) /* MaxStackSize */
      , (37473,  12,          1) /* StackSize */
+     , (37473,  13,         10) /* StackUnitEncumbrance */
+     , (37473,  15,          1) /* StackUnitValue */
      , (37473,  16,          8) /* ItemUseable - Contained */
      , (37473,  19,          1) /* Value */
      , (37473,  33,         -1) /* Bonded - Slippery */
@@ -32,6 +34,6 @@ VALUES (37473,   1,   33556769) /* Setup */
      , (37473,   7,  268435723) /* ClothingBase */
      , (37473,   8,  100689897) /* Icon */
      , (37473,  22,  872415275) /* PhysicsEffectTable */
-     , (37473,  38,      70730) /* UseCreateItem - Spectral  Spear */
+     , (37473,  38,      70730) /* UseCreateItem - Spectral Spear */
      , (37473,  50,  100673781) /* IconOverlay */
      , (37473,  52,  100689404) /* IconUnderlay */;

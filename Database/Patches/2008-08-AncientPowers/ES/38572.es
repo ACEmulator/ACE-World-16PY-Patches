@@ -38,6 +38,18 @@ Give: Radiant Blood Armor Writ (38546)
             - Tell: You must be at least a Adept within the Society to trade me an Armor Writ for my key to this chest, sorry.
             - Give: Radiant Blood Armor Writ (38546)
 
+Give: Ornate Armor Writ (80438)
+    - TurnToTarget
+    - InqIntStat: SocietyRankRadblo, 101 - 1001
+        TestSuccess:
+            - DirectBroadcast: %n reads over the writ and gets an odd blank expression.
+            - Delay: 0.5, Tell: Everything, ah... seems to be in order... Here you go.
+            - Delay: 0.5, DirectBroadcast: %n looks slightly confused.
+            - Give: Radiant Blood Tassets Key (38540)
+        TestFailure:
+            - Tell: You must be at least a Adept within the Society to trade me an Armor Writ for my key to this chest, sorry.
+            - Give: Ornate Armor Writ (80438)
+
 Use:
     - TurnToTarget
     - InqIntStat: SocietyRankRadblo, 101 - 1001

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36634;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36634, 'ace36634-foolproofperidot', 44, '2020-06-08 00:00:00') /* CraftTool */;
+VALUES (36634, 'ace36634-foolproofperidot', 44, '2020-10-28 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36634,   1,        128) /* ItemType - Misc */
@@ -18,7 +18,7 @@ VALUES (36634,   1,        128) /* ItemType - Misc */
      , (36634,  91,        100) /* MaxStructure */
      , (36634,  92,        100) /* Structure */
      , (36634,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36634,  94,          2) /* TargetType - Armor */
+     , (36634,  94,          6) /* TargetType - Vestements */
      , (36634, 105,        100) /* ItemWorkmanship */
      , (36634, 131,         34) /* MaterialType - Peridot */
      , (36634, 151,          9) /* HookType - Floor, Yard */

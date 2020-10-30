@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28072;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28072, 'shirtxuut', 2, '2019-02-04 06:52:23') /* Clothing */;
+VALUES (28072, 'shirtxuut', 2, '2020-10-28 06:52:23') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28072,   1,          4) /* ItemType - Clothing */
@@ -9,7 +9,7 @@ VALUES (28072,   1,          4) /* ItemType - Clothing */
      , (28072,   4,         40) /* ClothingPriority - UnderwearChest, UnderwearUpperArms */
      , (28072,   5,        100) /* EncumbranceVal */
      , (28072,   8,         38) /* Mass */
-     , (28072,   9,         10) /* ValidLocations - ChestWear, UpperArmWear */
+     , (28072,   9,         14) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear */
      , (28072,  16,          1) /* ItemUseable - No */
      , (28072,  19,       6000) /* Value */
      , (28072,  27,          1) /* ArmorType - Cloth */
@@ -27,15 +27,15 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28072,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28072,   5, -0.0500000007450581) /* ManaRate */
+VALUES (28072,   5,   -0.05) /* ManaRate */
      , (28072,  12,       0) /* Shade */
-     , (28072,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (28072,  14, 0.800000011920929) /* ArmorModVsPierce */
+     , (28072,  13,     0.8) /* ArmorModVsSlash */
+     , (28072,  14,     0.8) /* ArmorModVsPierce */
      , (28072,  15,       1) /* ArmorModVsBludgeon */
-     , (28072,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (28072,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (28072,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (28072,  19, 0.200000002980232) /* ArmorModVsElectric */;
+     , (28072,  16,     0.2) /* ArmorModVsCold */
+     , (28072,  17,     0.2) /* ArmorModVsFire */
+     , (28072,  18,     0.1) /* ArmorModVsAcid */
+     , (28072,  19,     0.2) /* ArmorModVsElectric */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28072,   1, 'Aphus Lounging Shirt') /* Name */
@@ -48,7 +48,7 @@ VALUES (28072,   1,   33554883) /* Setup */
      , (28072,   3,  536870932) /* SoundTable */
      , (28072,   6,   67108990) /* PaletteBase */
      , (28072,   7,  268436842) /* ClothingBase */
-     , (28072,   8,  100670734) /* Icon */
+     , (28072,   8,  100676716) /* Icon */
      , (28072,  22,  872415275) /* PhysicsEffectTable */
      , (28072,  36,  234881046) /* MutateFilter */;
 

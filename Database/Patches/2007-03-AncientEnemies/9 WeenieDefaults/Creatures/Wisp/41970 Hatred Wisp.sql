@@ -91,14 +91,14 @@ VALUES (41970,   1, 20000, 0, 0, 20250) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (41970,  6, 0, 3, 0, 385, 0, 0) /* MeleeDefense        Specialized */
-     , (41970,  7, 0, 3, 0, 365, 0, 0) /* MissileDefense      Specialized */
-     , (41970, 15, 0, 3, 0, 225, 0, 0) /* MagicDefense        Specialized */
+     , (41970,  7, 0, 3, 0, 285, 0, 0) /* MissileDefense      Specialized */
+     , (41970, 15, 0, 3, 0, 245, 0, 0) /* MagicDefense        Specialized */
      , (41970, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */
-     , (41970, 24, 0, 2, 0,  10, 0, 0) /* Run                 Trained */
-     , (41970, 31, 0, 3, 0, 100, 0, 0) /* CreatureEnchantment Specialized */
-     , (41970, 33, 0, 3, 0, 100, 0, 0) /* LifeMagic           Specialized */
-     , (41970, 34, 0, 3, 0, 100, 0, 0) /* WarMagic            Specialized */
-     , (41970, 45, 0, 3, 0, 250, 0, 0) /* LightWeapons        Specialized */;
+     , (41970, 24, 0, 2, 0, 600, 0, 0) /* Run                 Trained */
+     , (41970, 31, 0, 3, 0, 345, 0, 0) /* CreatureEnchantment Specialized */
+     , (41970, 33, 0, 3, 0, 345, 0, 0) /* LifeMagic           Specialized */
+     , (41970, 34, 0, 3, 0, 345, 0, 0) /* WarMagic            Specialized */
+     , (41970, 45, 0, 3, 0, 390, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (41970,  0, 32, 150,  0.5,  300,  300,  300,  150,  150, 3000,  192,  150,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
@@ -107,18 +107,11 @@ VALUES (41970,  0, 32, 150,  0.5,  300,  300,  300,  150,  150, 3000,  192,  150
      , (41970, 21, 32,   0,    0,  300,  300,  300,  150,  150, 3000,  192,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41970,    80,    2.3)  /* Lightning Bolt VI */
-     , (41970,    85,    2.3)  /* Flame Bolt VI */
-     , (41970,   176,  2.067)  /* Fester Other VI */
-     , (41970,   199,  2.067)  /* Exhaustion Other VI */
-     , (41970,   223,  2.067)  /* Mana Depletion Other VI */
-     , (41970,  1161,      2)  /* Heal Self VI */
-     , (41970,  1176,  2.067)  /* Harm Other VI */
-     , (41970,  1200,  2.067)  /* Enfeeble Other VI */
-     , (41970,  1224,  2.067)  /* Mana Drain Other VI */
-     , (41970,  1242,      2)  /* Drain Health Other VI */
-     , (41970,  1254,      2)  /* Drain Stamina Other VI */
-     , (41970,  1265,      2)  /* Drain Mana Other VI */;
+VALUES (41970,  1785,   2.01)  /* Cassius' Ring of Fire */
+     , (41970,  2127,  2.067)  /* Silencia's Scorn */
+     , (41970,  2128,    2.3)  /* Ilservian's Flame */
+     , (41970,  2129,  2.067)  /* Sizzling Fury */
+     , (41970,  2745,    2.3)  /* Flame Arc VII */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41970, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */

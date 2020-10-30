@@ -53,7 +53,7 @@ VALUES (37498,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37498,   1, 'Spectral Bow') /* Name */
-     , (37498,  16, 'A ghostly blue bow. Tendrils of ethereal light spill from it. This weapon won''t last long. This item expires in 3 days.') /* LongDesc */;
+     , (37498,  16, 'A ghostly blue bow. Tendrils of ethereal light spill from it. This weapon won''t last long.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37498,   1,   33560579) /* Setup */
