@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43953;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43953, 'ace43953-deadlyprismaticatlatldart', 5, '2019-12-23 00:00:00') /* Ammunition */;
+VALUES (43953, 'ace43953-deadlyprismaticatlatldart', 5, '2020-10-30 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43953,   1,        256) /* ItemType - MissileWeapon */
@@ -17,7 +17,7 @@ VALUES (43953,   1,        256) /* ItemType - MissileWeapon */
      , (43953,  16,          1) /* ItemUseable - No */
      , (43953,  18,          1) /* UiEffects - Magical */
      , (43953,  19,        100) /* Value */
-     , (43953,  44,         42) /* Damage */
+     , (43953,  44,         52) /* Damage */
      , (43953,  45,  268435456) /* DamageType - Base */
      , (43953,  50,          4) /* AmmoType - Atlatl */
      , (43953,  51,          3) /* CombatUse - Ammo */
@@ -32,8 +32,7 @@ VALUES (43953,   1,        256) /* ItemType - MissileWeapon */
      , (43953, 272,        375) /* WieldDifficulty2 */
      , (43953, 273,          2) /* WieldRequirements3 - RawSkill */
      , (43953, 274,         47) /* WieldSkillType3 - MissileWeapons */
-     , (43953, 275,        300) /* WieldDifficulty3 */
-     , (43953, 386,          0) /* Overpower */;
+     , (43953, 275,        300) /* WieldDifficulty3 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43953,  17, True ) /* Inelastic */
@@ -41,7 +40,7 @@ VALUES (43953,  17, True ) /* Inelastic */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43953,  21,       0) /* WeaponLength */
-     , (43953,  22, 0.300000011920929) /* DamageVariance */
+     , (43953,  22,     0.3) /* DamageVariance */
      , (43953,  26,       0) /* MaximumVelocity */
      , (43953,  29,       1) /* WeaponDefense */
      , (43953,  62,       1) /* WeaponOffense */
@@ -51,9 +50,8 @@ VALUES (43953,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43953,   1, 'Deadly Prismatic Atlatl Dart') /* Name */
-     , (43953,  14, 'You must be a trained fletcher of great skill to use these potentially volatile darts.') /* Use */
-     , (43953,  16, 'Deadly, crystalline darts that draw the elemental energies from elementally attuned atlatls to damage their target. ') /* LongDesc */
-     , (43953,  20, 'Deadly Prismatic Atlatl Darts') /* PluralName */;
+     , (43953,  14, 'You must be a specialized fletcher of great skill to use these potentially volatile atlatl darts.') /* Use */
+     , (43953,  16, 'Deadly, crystaline atlatl darts that draw the elemental energies from elementally attuned atlatls to damage their target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43953,   1,   33561224) /* Setup */
