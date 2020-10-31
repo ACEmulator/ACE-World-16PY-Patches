@@ -11,27 +11,27 @@ Give: Imprinted Archaeologist's Paper (38798)
 	- Tell: Beautiful! An expert transcription of the carving. You might have a future in archaeology, if you weren't so bent on advancing within the Society. Well done, at any rate. Let me just take that off your hands...
 	- TakeItems: Imprinted Archaeologist's Paper (38798), -1
 	- TakeItems: Archaeologist's Tracing Paper (38711), -1
-	- Give: Radiant Blood Commendation Ribbons (38230), 15
+	- Give: Eldrytch Web Commendation Ribbons (38229), 15
 	- AwardNoShareXP: 15,000,000
 	- AwardLuminance: 2,500
-	- Give: Radiant Blood Trade Tokens (38236), 4
+	- Give: Eldrytch Web Trade Tokens (38237), 4
 	- StampQuest: TaskGrave2WallCarvingWait
 	- EraseQuest: TaskGrave2WallCarvingStarted
 	- Tell: If you wish to serve me again come back in a day.
 
 Use:
 	- TurnToTarget
-	- InqIntStat: SocietyRankCelhan, 101 - 1001
+	- InqIntStat: SocietyRankEldweb, 101 - 1001
 		TestSuccess:
 			- InqOwnsItems: Imprinted Archaeologist's Paper (38798)
-				TestSuccess: 
+				TestSuccess:
 					- Tell: Beautiful! An expert transcription of the carving. You might have a future in archaeology, if you weren't so bent on advancing within the Society. Well done, at any rate. Let me just take that off your hands...
 					- TakeItems: Imprinted Archaeologist's Paper (38798), -1
 					- TakeItems: Archaeologist's Tracing Paper (38711), -1
-					- Give: Radiant Blood Commendation Ribbons (38230), 15
+					- Give: Eldrytch Web Commendation Ribbons (38229), 15
 					- AwardNoShareXP: 15,000,000
 					- AwardLuminance: 2,500
-					- Give: Radiant Blood Trade Tokens (38236), 4
+					- Give: Eldrytch Web Trade Tokens (38237), 4
 					- StampQuest: TaskGrave2WallCarvingWait
 					- EraseQuest: TaskGrave2WallCarvingStarted
 					- Tell: If you wish to serve me again come back in a day.
@@ -50,7 +50,7 @@ Use:
 									- Tell: You took an impression of that wall carving for me, not that long ago.  I don't need you for anything right now, but I commend you for your initiative.  Such an eager little acolyte!
 									- Delay: 0.5, DirectBroadcast: You must wait %tqt before attempting this quest again.
 								QuestFailure:
-									- StampQuest: TaskGrave2WallCarvingStarted 
+									- StampQuest: TaskGrave2WallCarvingStarted
 									- Tell: Ah, are you here to prove your competence and loyalty to the rest of the Society? I have a task for you. Next to the Empyrean Graveyard, in a deep underground passage located at 65.3S, 44.6W, you will find a large chamber with a stone marker in it. The marker has strange carvings... Fascinating carvings, really.
 									- Delay: 0.5, Tell: I tried to copy it myself but the light was poor and I was being menaced by undead. The undead are still likely to be there. You will have to fight your way through them to make the copy. Here, let me give you a piece of paper that you can trace the design on easily…
 									- Give: Archaeologist's Tracing Paper (38711)
