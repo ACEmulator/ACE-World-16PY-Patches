@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37478;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37478, 'ace37478-spectralstaff', 35, '2020-06-16 05:01:31') /* Caster */;
+VALUES (37478, 'ace37478-spectralstaff', 35, '2020-10-30 05:01:31') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37478,   1,      32768) /* ItemType - Caster */
@@ -27,7 +27,7 @@ VALUES (37478,   1,      32768) /* ItemType - Caster */
      , (37478, 166,         77) /* SlayerCreatureType - Ghost */
      , (37478, 263,          2) /* ResistanceModifierType */
      , (37478, 267,     259200) /* Lifespan */
-     , (37478, 353,          0) /* WeaponType - TwoHanded */;
+     , (37478, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37478,  22, True ) /* Inscribable */
