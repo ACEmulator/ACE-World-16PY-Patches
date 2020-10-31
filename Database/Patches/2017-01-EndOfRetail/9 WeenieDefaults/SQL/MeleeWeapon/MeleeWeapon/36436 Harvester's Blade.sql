@@ -32,7 +32,7 @@ VALUES (36436,  21,       1) /* WeaponLength */
      , (36436,  62,       1) /* WeaponOffense */
      , (36436,  63,       1) /* DamageMod */
      , (36436, 155,       1) /* IgnoreArmor */
-     , (35551, 156,    0.35) /* ProcSpellRate */;
+     , (36436, 156,    0.35) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36436,   1, 'Harvester''s Blade') /* Name */;
