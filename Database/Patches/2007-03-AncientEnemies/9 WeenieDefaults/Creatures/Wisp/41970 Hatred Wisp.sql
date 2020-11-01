@@ -66,7 +66,8 @@ VALUES (41970,   1,       5) /* HeartbeatInterval */
      , (41970, 125,       0) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41970,   1, 'Hatred Wisp') /* Name */;
+VALUES (41970,   1, 'Hatred Wisp') /* Name */
+     , (41970,  45, 'KilltaskGraveyardWisp_1309') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41970,   1,   33556955) /* Setup */
