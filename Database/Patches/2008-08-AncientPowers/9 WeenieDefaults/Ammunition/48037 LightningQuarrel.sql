@@ -29,7 +29,7 @@ VALUES (48037,   1,        256) /* ItemType - MissileWeapon */
      , (48037,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (48037, 150,        103) /* HookPlacement - Hook */
      , (48037, 151,          2) /* HookType - Wall */
-     , (48037, 179,          0) /* Imbued Effect */
+         , (48037, 179,          0) /* Imbued Effect */
 	 , (48037, 303,          0) /* Imbued Effect 2 */
 	 , (48037, 304,          0) /* Imbued Effect 3 */
 	 , (48037, 305,          0) /* Imbued Effect 4 */
