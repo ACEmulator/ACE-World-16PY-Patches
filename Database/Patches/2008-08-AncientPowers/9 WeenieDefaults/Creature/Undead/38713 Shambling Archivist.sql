@@ -113,12 +113,12 @@ VALUES (38713,  0,  4,  0,    0,  225,  225,  225,  225,  225,  225,  225,  225,
      , (38713,  8,  4, 400, 0.75,  225,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38713,  2136,   2.15)  /* Icy Torment  */
-     , (38713,  2074,   2.05)  /* Gossamer Flesh */
-     , (38713,  2168,   2.09)  /* Gelidite's Gift */
-     , (38713,  1787,   2.02)  /* Halo of Frost */
+VALUES (38713,  2074,   2.05)  /* Gossamer Flesh */
+     , (38713,  2168,   2.12)  /* Gelidite's Gift */
+     , (38713,  1787,   2.15)  /* Halo of Frost */
      , (38713,  2135,   2.02)  /* Winter's Embrace */
-     , (38713,  2178,   2.02)  /* Decrepitude's Grasp */;
+     , (38713,  2178,   2.02)  /* Decrepitude's Grasp */
+     , (38713,  2136,      3)  /* Icy Torment  */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (38713,  5 /* HeartBeat */,  0.032, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
