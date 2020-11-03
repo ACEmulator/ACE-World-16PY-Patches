@@ -56,7 +56,7 @@ VALUES (38713,   1,      15) /* HeartbeatInterval */
      , (38713,  73,       1) /* ResistStaminaBoost */
      , (38713,  74,       1) /* ResistManaDrain */
      , (38713,  75,       1) /* ResistManaBoost */
-     , (38713,  80,       4) /* AiUseMagicDelay */
+     , (38713,  80,       2) /* AiUseMagicDelay */
      , (38713, 104,      10) /* ObviousRadarRange */
      , (38713, 122,       2) /* AiAcquireHealth */
      , (38713, 125,       1) /* ResistHealthDrain */;
@@ -92,10 +92,10 @@ VALUES (38713,   1,  3935, 0, 0, 4110) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (38713,  6, 0, 3, 0, 490, 0, 0) /* MeleeDefense        Specialized */
      , (38713,  7, 0, 3, 0, 340, 0, 0) /* MissileDefense      Specialized */
-     , (38713, 15, 0, 3, 0, 467, 0, 0) /* MagicDefense        Specialized */
+     , (38713, 15, 0, 3, 0, 310, 0, 0) /* MagicDefense        Specialized */
      , (38713, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
-     , (38713, 33, 0, 3, 0, 480, 0, 0) /* LifeMagic           Specialized */
-     , (38713, 34, 0, 3, 0, 480, 0, 0) /* WarMagic            Specialized */
+     , (38713, 33, 0, 3, 0, 200, 0, 0) /* LifeMagic           Specialized */
+     , (38713, 34, 0, 3, 0, 200, 0, 0) /* WarMagic            Specialized */
      , (38713, 41, 0, 3, 0, 343, 0, 0) /* TwoHandedCombat     Specialized */
      , (38713, 44, 0, 3, 0, 343, 0, 0) /* HeavyWeapons        Specialized */
      , (38713, 45, 0, 3, 0, 343, 0, 0) /* LightWeapons        Specialized */
@@ -113,14 +113,12 @@ VALUES (38713,  0,  4,  0,    0,  225,  225,  225,  225,  225,  225,  225,  225,
      , (38713,  8,  4, 400, 0.75,  225,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38713,  1786,   2.02)  /* Nuhmudira's Spines */
-     , (38713,  2074,   2.02)  /* Gossamer Flesh */
-     , (38713,  4089,   2.02)  /* Assassin's Gift */
-     , (38713,  4426,   2.02)  /* Incantation of Lightning Arc */
-     , (38713,  4450,   2.02)  /* Incantation of Lightning Blast */
-     , (38713,  4451,      3)  /* Incantation of Lightning Bolt */
-     , (38713,  4489,   2.02)  /* Incantation of Fester Other */
-     , (38713,  5531,   2.02)  /* Bloodstone Bolt VII */;
+VALUES (38713,  2074,   2.05)  /* Gossamer Flesh */
+     , (38713,  2168,   2.12)  /* Gelidite's Gift */
+     , (38713,  1787,   2.15)  /* Halo of Frost */
+     , (38713,  2135,   2.02)  /* Winter's Embrace */
+     , (38713,  2178,   2.02)  /* Decrepitude's Grasp */
+     , (38713,  2136,      3)  /* Icy Torment  */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (38713,  5 /* HeartBeat */,  0.032, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

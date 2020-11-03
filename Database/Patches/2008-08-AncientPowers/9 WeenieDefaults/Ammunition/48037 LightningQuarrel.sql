@@ -1,11 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48037;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48037, 'ACE48037-LIGHTNINGQUARREL', 5, '2020-08-11 17:14:28') /* Ammunition */;
+VALUES (48037, 'ace48037-lightningquarrel', 5, '2020-11-01 17:14:28') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48037,   1,        256) /* ItemType - MissileWeapon */
-     , (48037,   3,          4) /* PaletteTemplate - Brown */
+     , (48037,   3,         82) /* PaletteTemplate - PinkPurple */
      , (48037,   5,          5) /* EncumbranceVal */
      , (48037,   8,          2) /* Mass */
      , (48037,   9,    8388608) /* ValidLocations - MissileAmmo */
@@ -15,7 +15,7 @@ VALUES (48037,   1,        256) /* ItemType - MissileWeapon */
      , (48037,  14,          2) /* StackUnitMass */
      , (48037,  15,          1) /* StackUnitValue */
      , (48037,  16,          1) /* ItemUseable - No */
-	 , (48037,  18,        256) /* UI Effects - Lightning */
+     , (48037,  18,         64) /* UiEffects - Lightning */
      , (48037,  19,          1) /* Value */
 	 , (48037,  33,         -2) /* Bonded */
      , (48037,  44,        247) /* Damage */
@@ -29,7 +29,7 @@ VALUES (48037,   1,        256) /* ItemType - MissileWeapon */
      , (48037,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (48037, 150,        103) /* HookPlacement - Hook */
      , (48037, 151,          2) /* HookType - Wall */
-	 , (48037, 179,          0) /* Imbued Effect */
+     , (48037, 179,          0) /* Imbued Effect */
 	 , (48037, 303,          0) /* Imbued Effect 2 */
 	 , (48037, 304,          0) /* Imbued Effect 3 */
 	 , (48037, 305,          0) /* Imbued Effect 4 */
@@ -40,11 +40,7 @@ VALUES (48037,   1,        256) /* ItemType - MissileWeapon */
      , (48037, 386,          0) /* Overpower Rating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48037,  11, True)  /* Ignore Collisions */
-	 , (48037,  13, True)  /* Ethereal */
-	 , (48037,  14, True)  /* Gravity Status */
-     , (48037,  17, True)  /* Inelastic */
-	 , (48037,  19, True)  /* Attackable */
+VALUES (48037,  17, True)  /* Inelastic */
      , (48037,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

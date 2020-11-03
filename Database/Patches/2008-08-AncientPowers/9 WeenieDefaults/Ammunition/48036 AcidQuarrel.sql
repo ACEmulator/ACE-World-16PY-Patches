@@ -1,11 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48036;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48036, 'ACE48036-ACIDQUARREL', 5, '2020-08-11 17:14:28') /* Ammunition */;
+VALUES (48036, 'ace48036-acidquarrel', 5, '2020-11-01 17:14:28') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48036,   1,        256) /* ItemType - MissileWeapon */
-     , (48036,   3,          4) /* PaletteTemplate - Brown */
+     , (48036,   3,          8) /* PaletteTemplate - Green */
      , (48036,   5,          5) /* EncumbranceVal */
      , (48036,   8,          2) /* Mass */
      , (48036,   9,    8388608) /* ValidLocations - MissileAmmo */
@@ -40,11 +40,7 @@ VALUES (48036,   1,        256) /* ItemType - MissileWeapon */
      , (48036, 386,          0) /* Overpower Rating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48036,  11, True)  /* Ignore Collisions */
-	 , (48036,  13, True)  /* Ethereal */
-	 , (48036,  14, True)  /* Gravity Status */
-     , (48036,  17, True)  /* Inelastic */
-	 , (48036,  19, True)  /* Attackable */
+VALUES (48036,  17, True)  /* Inelastic */
      , (48036,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
