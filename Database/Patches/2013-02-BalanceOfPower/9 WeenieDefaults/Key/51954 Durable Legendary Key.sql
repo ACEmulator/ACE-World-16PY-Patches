@@ -27,7 +27,7 @@ VALUES (51954,  11, True ) /* IgnoreCollisions */
      , (51954,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (51954,   1, 'Aged Legendary Key') /* Name */
+VALUES (51954,   1, 'Durable Legendary Key') /* Name */
      , (51954,  13, 'keychestlegarwic') /* KeyCode */
      , (51954,  14, 'Use this key to open a Legendary Chest.') /* Use */
      , (51954,  16, 'This key has seen better days.') /* LongDesc */;
