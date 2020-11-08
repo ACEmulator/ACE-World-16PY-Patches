@@ -34,10 +34,10 @@ VALUES (43395,   1,       5) /* HeartbeatInterval */
      , (43395,   5,       2) /* ManaRate */
      , (43395,  12,       0) /* Shade */
      , (43395,  13,       1) /* ArmorModVsSlash */
-     , (43395,  14,       1) /* ArmorModVsPierce */
+     , (43395,  14,    0.55) /* ArmorModVsPierce */
      , (43395,  15,       1) /* ArmorModVsBludgeon */
      , (43395,  16,       1) /* ArmorModVsCold */
-     , (43395,  17,    0.45) /* ArmorModVsFire */
+     , (43395,  17,    0.55) /* ArmorModVsFire */
      , (43395,  18,       1) /* ArmorModVsAcid */
      , (43395,  19,       1) /* ArmorModVsElectric */
      , (43395,  27,       5) /* RotationSpeed */
@@ -45,8 +45,8 @@ VALUES (43395,   1,       5) /* HeartbeatInterval */
      , (43395,  34,       1) /* PowerupTime */
      , (43395,  36,       1) /* ChargeSpeed */
      , (43395,  39,     1.3) /* DefaultScale */
-     , (43395,  64,     0.8) /* ResistSlash */
-     , (43395,  65,     0.7) /* ResistPierce */
+     , (43395,  64,     0.3) /* ResistSlash */
+     , (43395,  65,     0.8) /* ResistPierce */
      , (43395,  66,     0.3) /* ResistBludgeon */
      , (43395,  67,     0.8) /* ResistFire */
      , (43395,  68,     0.3) /* ResistCold */
@@ -91,7 +91,7 @@ VALUES (43395,   1,  1510, 0, 0, 1750) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (43395,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (43395,  7, 0, 3, 0, 377, 0, 0) /* MissileDefense      Specialized */
-     , (43395, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
+     , (43395, 15, 0, 3, 0, 310, 0, 0) /* MagicDefense        Specialized */
      , (43395, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
      , (43395, 33, 0, 3, 0, 260, 0, 0) /* LifeMagic           Specialized */
      , (43395, 34, 0, 3, 0, 260, 0, 0) /* WarMagic            Specialized */
@@ -105,13 +105,23 @@ VALUES (43395,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,
      , (43395,  2,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (43395,  3,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (43395,  4,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (43395,  5,  4, 200, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (43395,  5,  4, 150, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (43395,  6,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (43395,  7,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (43395,  8,  4, 250, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (43395,  8,  4, 150, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43395,  2136,      2)  /* Icy Torment */
-     , (43395,  2166,      2)  /* Tusker's Gift */
-     , (43395,  2168,      2)  /* Gelidite's Gift */;
+VALUES (43395,  4446,   2.02)  /* Incantation of Frost Blast */
+     , (43395,  4447,   2.02)  /* Incantation of Frost Bolt */
+     , (43395,  4477,   2.02)  /* Incantation of Bludgeoning Vulnerability Other */;
 
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43395, 9, 48908,  1, 0, 0.02, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
+     , (43395, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (43395, 9, 44864,  0, 0, 0.02, False) /* Create 44864 Gurog Arm for ContainTreasure */
+     , (43395, 9, 44868,  0, 0, 0.02, False) /* Create 44868 Gurog Torso with a Head for ContainTreasure */
+     , (43395, 9, 44870,  0, 0, 0.02, False) /* Create 44870 Gurog Leg for ContainTreasure */
+     , (43395, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
+     , (43395, 9, 51370,  1, 0, 0.05, False) /* Create 51370 Frozen Fortress Testing Grounds Attunement Shard (Level 180+)for ContainTreasure */
+     , (43395, 9, 51341,  1, 0, 0.05, False) /* Create 51341 Frozen Fortress Laboratory Attunement Shard (Level 180+) */
+     , (43395, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */;
