@@ -758,5 +758,9 @@ VALUES (0x75E450B6, 72085, 0x5E450224, 40, -160, -5.945, 1, 0, 0, 0, False, '202
 /* @teleloc 0x5E450224 [40.000000 -160.000000 -5.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75E450B7, 72086, 0x5E450224, 40, -160, -5.9449997, 1, 0, 0, 0, False, '2020-08-16 12:13:49'); /* Paradox Peace Portal Gen */
+VALUES (0x75E450B7, 72086, 0x5E450224, 40, -160, -5.945, 1, 0, 0, 0, False, '2020-08-16 12:13:49'); /* Paradox Peace Portal Gen */
 /* @teleloc 0x5E450224 [40.000000 -160.000000 -5.945000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75E450D9, 36780, 0x5E450229, 42.2894, -170.739, -6, 0.9996876, 0, 0, -0.02499711,  False, '2019-02-10 00:00:00'); /* Quiddity Seed */
+/* @teleloc 0x5E450229 [42.289400 -170.739000 -6.000000] 0.999688 0.000000 0.000000 -0.024997 */
