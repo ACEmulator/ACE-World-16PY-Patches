@@ -21,7 +21,7 @@ VALUES (43393,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43393,   1, True ) /* Stuck */
-     , (43393,   6, True ) /* AiUsesMana */
+     , (43393,   6, False ) /* AiUsesMana */
      , (43393,  11, False) /* IgnoreCollisions */
      , (43393,  12, True ) /* ReportCollisions */
      , (43393,  13, False) /* Ethereal */
@@ -35,18 +35,18 @@ VALUES (43393,   1,       5) /* HeartbeatInterval */
      , (43393,   5,       2) /* ManaRate */
      , (43393,  12,       0) /* Shade */
      , (43393,  13,       1) /* ArmorModVsSlash */
-     , (43393,  14,    0.65) /* ArmorModVsPierce */
+     , (43393,  14,    0.55) /* ArmorModVsPierce */
      , (43393,  15,       1) /* ArmorModVsBludgeon */
      , (43393,  16,       1) /* ArmorModVsCold */
-     , (43393,  17,    0.45) /* ArmorModVsFire */
+     , (43393,  17,    0.55) /* ArmorModVsFire */
      , (43393,  18,       1) /* ArmorModVsAcid */
      , (43393,  19,       1) /* ArmorModVsElectric */
      , (43393,  31,      23) /* VisualAwarenessRange */
      , (43393,  34,       1) /* PowerupTime */
      , (43393,  36,       1) /* ChargeSpeed */
      , (43393,  39,     1.3) /* DefaultScale */
-     , (43393,  64,     0.8) /* ResistSlash */
-     , (43393,  65,     0.7) /* ResistPierce */
+     , (43393,  64,     0.3) /* ResistSlash */
+     , (43393,  65,     0.8) /* ResistPierce */
      , (43393,  66,     0.3) /* ResistBludgeon */
      , (43393,  67,     0.8) /* ResistFire */
      , (43393,  68,     0.3) /* ResistCold */
@@ -91,13 +91,13 @@ VALUES (43393,   1,  1655, 0, 0, 2000) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (43393,  6, 0, 3, 0, 470, 0, 0) /* MeleeDefense        Specialized */
      , (43393,  7, 0, 3, 0, 420, 0, 0) /* MissileDefense      Specialized */
-     , (43393, 15, 0, 3, 0, 400, 0, 0) /* MagicDefense        Specialized */
+     , (43393, 15, 0, 3, 0, 320, 0, 0) /* MagicDefense        Specialized */
      , (43393, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
-     , (43393, 33, 0, 3, 0, 375, 0, 0) /* LifeMagic           Specialized */
-     , (43393, 34, 0, 3, 0, 370, 0, 0) /* WarMagic            Specialized */
-     , (43393, 41, 0, 3, 0, 787, 0, 0) /* Two Handed Weapons  Specialized */
-     , (43393, 45, 0, 3, 0, 475, 0, 0) /* LightWeapons        Specialized */
-     , (43393, 46, 0, 3, 0, 475, 0, 0) /* FinesseWeapons      Specialized */;
+     , (43393, 33, 0, 3, 0, 265, 0, 0) /* LifeMagic           Specialized */
+     , (43393, 34, 0, 3, 0, 265, 0, 0) /* WarMagic            Specialized */
+     , (43393, 41, 0, 3, 0, 400, 0, 0) /* Two Handed Weapons  Specialized */
+     , (43393, 45, 0, 3, 0, 420, 0, 0) /* LightWeapons        Specialized */
+     , (43393, 46, 0, 3, 0, 420, 0, 0) /* FinesseWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (43393,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -108,17 +108,23 @@ VALUES (43393,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,
      , (43393,  5,  4, 200, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (43393,  6,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (43393,  7,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (43393,  8,  4, 250, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (43393,  8,  4, 200, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43393,  4312,   2.02)  /* Incantation of Imperil Other */
      , (43393,  4446,   2.02)  /* Incantation of Frost Blast */
-     , (43393,  4447,   2.02)  /* Incantation of Frost Bolt */;
+     , (43393,  4447,   2.25)  /* Incantation of Frost Bolt */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43393, 10, 43397,  0, 0, 1, False) /* Create Frost Great Axe (43397) for WieldTreasure */
-     , (43393, 9, 48746,  1, 0, 0.01, False) /* Create Aged Legendary Key (48746) for ContainTreasure */
-     , (43393, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (43393, 9, 48908,  1, 0, 0.02, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
+     , (43393, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (43393, 9, 44864,  0, 0, 0.02, False) /* Create 44864 Gurog Arm for ContainTreasure */
+     , (43393, 9, 44868,  0, 0, 0.02, False) /* Create 44868 Gurog Torso with a Head for ContainTreasure */
+     , (43393, 9, 44870,  0, 0, 0.02, False) /* Create 44870 Gurog Leg for ContainTreasure */
+     , (43393, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (43393, 9, 51370,  1, 0, 0.05, False) /* Create 51370 Frozen Fortress Testing Grounds Attunement Shard (Level 180+)for ContainTreasure */
      , (43393, 9, 51341,  1, 0, 0.05, False) /* Create 51341 Frozen Fortress Laboratory Attunement Shard (Level 180+) */
      , (43393, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */;
+
+
