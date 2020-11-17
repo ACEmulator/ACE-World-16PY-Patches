@@ -24,7 +24,7 @@ VALUES (32282,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32282,   1, 'Collegium Occultus Portal') /* Name */
-     , (32282,  16, 'You must gain approval from Balior before entering this portal.') /* LongDesc */;
+     , (32282,  16, 'You must gain approval from Balior before entering this portal.') /* LongDesc */
      , (32282,  37, 'voidcrystalflag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
