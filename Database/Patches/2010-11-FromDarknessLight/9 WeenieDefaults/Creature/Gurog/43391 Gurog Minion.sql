@@ -35,10 +35,10 @@ VALUES (43391,   1,       5) /* HeartbeatInterval */
      , (43391,   5,       2) /* ManaRate */
      , (43391,  12,       0) /* Shade */
      , (43391,  13,       1) /* ArmorModVsSlash */
-     , (43391,  14,       1) /* ArmorModVsPierce */
+     , (43391,  14,    0.55) /* ArmorModVsPierce */
      , (43391,  15,       1) /* ArmorModVsBludgeon */
      , (43391,  16,       1) /* ArmorModVsCold */
-     , (43391,  17,    0.45) /* ArmorModVsFire */
+     , (43391,  17,    0.55) /* ArmorModVsFire */
      , (43391,  18,       1) /* ArmorModVsAcid */
      , (43391,  19,       1) /* ArmorModVsElectric */
      , (43391,  27,       5) /* RotationSpeed */
@@ -46,8 +46,8 @@ VALUES (43391,   1,       5) /* HeartbeatInterval */
      , (43391,  34,       1) /* PowerupTime */
      , (43391,  36,       1) /* ChargeSpeed */
      , (43391,  39,     1.3) /* DefaultScale */
-     , (43391,  64,     0.8) /* ResistSlash */
-     , (43391,  65,     0.7) /* ResistPierce */
+     , (43391,  64,     0.3) /* ResistSlash */
+     , (43391,  65,     0.8) /* ResistPierce */
      , (43391,  66,     0.3) /* ResistBludgeon */
      , (43391,  67,     0.8) /* ResistFire */
      , (43391,  68,     0.3) /* ResistCold */
@@ -92,7 +92,7 @@ VALUES (43391,   1,  1510, 0, 0, 1750) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (43391,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (43391,  7, 0, 3, 0, 377, 0, 0) /* MissileDefense      Specialized */
-     , (43391, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
+     , (43391, 15, 0, 3, 0, 310, 0, 0) /* MagicDefense        Specialized */
      , (43391, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
      , (43391, 33, 0, 3, 0, 260, 0, 0) /* LifeMagic           Specialized */
      , (43391, 34, 0, 3, 0, 260, 0, 0) /* WarMagic            Specialized */
@@ -106,10 +106,10 @@ VALUES (43391,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,
      , (43391,  2,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (43391,  3,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (43391,  4,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (43391,  5,  4, 200, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (43391,  5,  4, 150, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (43391,  6,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (43391,  7,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (43391,  8,  4, 250, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (43391,  8,  4, 150, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43391,  4446,   2.02)  /* Incantation of Frost Blast */

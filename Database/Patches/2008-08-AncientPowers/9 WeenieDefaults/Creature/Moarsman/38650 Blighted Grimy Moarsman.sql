@@ -29,7 +29,6 @@ VALUES (38650,   1,       5) /* HeartbeatInterval */
      , (38650,   3,       2) /* HealthRate */
      , (38650,   4,       5) /* StaminaRate */
      , (38650,   5,       2) /* ManaRate */
-   /*  , (38650,  12,     0.5) /* Shade */
      , (38650,  13,    0.65) /* ArmorModVsSlash */
      , (38650,  14,    0.85) /* ArmorModVsPierce */
      , (38650,  15,    0.85) /* ArmorModVsBludgeon */
@@ -66,6 +65,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38650,   1,   33556882) /* Setup */
      , (38650,   2,  150995104) /* MotionTable */
      , (38650,   3,  536871018) /* SoundTable */
+     , (38650,   4,  805306403) /* CombatTable */
      , (38650,   6,   67112872) /* PaletteBase */
      , (38650,   7,  268436086) /* ClothingBase */
      , (38650,   8,  100671185) /* Icon */

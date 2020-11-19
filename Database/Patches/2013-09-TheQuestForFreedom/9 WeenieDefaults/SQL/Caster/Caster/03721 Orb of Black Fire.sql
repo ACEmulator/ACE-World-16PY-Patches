@@ -5,7 +5,6 @@ VALUES (3721, 'orbblackfire', 35, '2020-10-16 10:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3721,   1,      32768) /* ItemType - Caster */
-     , (3721,   3,         39) /* PaletteTemplate - Black */
      , (3721,   5,         50) /* EncumbranceVal */
      , (3721,   8,         50) /* Mass */
      , (3721,   9,   16777216) /* ValidLocations - Held */
@@ -40,7 +39,7 @@ VALUES (3721,   1,   33558249) /* Setup */
      , (3721,   3,  536870932) /* SoundTable */
      , (3721,   6,   67111928) /* PaletteBase */
      , (3721,   7,  268435751) /* ClothingBase */
-     , (3721,   8,  100668730) /* Icon */
+     , (3721,   8,  100674114) /* Icon */
      , (3721,  22,  872415275) /* PhysicsEffectTable */
      , (3721,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (3721,  28,        145) /* Spell - Flame Volley V */
