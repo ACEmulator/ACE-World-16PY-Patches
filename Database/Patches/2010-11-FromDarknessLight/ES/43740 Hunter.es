@@ -30,7 +30,7 @@ Use:
                                     - EraseQuest: snowtuskerkillcount
                                     - AwardNoShareXP: 65,000,000
                                     - AwardLuminance: 3,500
-                                    - Give: 52010
+                                    - Give: 48746, 5
                                     - Give: Trade Note (250,000) (20630)
                                     - Goto: Warriors
                                 QuestFailure:
@@ -61,7 +61,7 @@ GotoSet: Warriors
                             - EraseQuest: snowtuskerkillwarriorcount
                             - AwardNoShareXP: 65,000,000
                             - AwardLuminance: 3,500
-                            - Give: 52010
+                            - Give: 48746, 5
                             - Give: Trade Note (250,000) (20630)
                             - Goto: Leaders
                         QuestFailure:
@@ -88,7 +88,7 @@ GotoSet: Leaders
                             - EraseQuest: snowtuskerkillleadercount
                             - AwardNoShareXP: 80,000,000
                             - AwardLuminance: 3,500
-                            - Give: 52010
+                            - Give: 48746, 5
                             - Give: Trade Note (250,000) (20630)
                         QuestFailure:
                             - DirectBroadcast: You've killed %tqc out of %tqm Snow Tusker Leaders.

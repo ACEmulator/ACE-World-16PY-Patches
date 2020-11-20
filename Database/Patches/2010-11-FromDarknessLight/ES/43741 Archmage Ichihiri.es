@@ -24,7 +24,7 @@ Refuse: 43742
                     - EraseQuest: TuskerBloodCollectionStart
                     - AwardNoShareXP: 7,000,000
                     - AwardLuminance: 5,000
-                    - Give: 52010
+                    - Give: 48746, 5
                 TestFailure:
                     - Tell: There must be 10 samples!
         QuestFailure:

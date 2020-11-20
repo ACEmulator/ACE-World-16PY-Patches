@@ -29,8 +29,8 @@ Use:
                                     - StampQuest: GurogMinionKillTask
                                     - EraseQuest: gurogminionkillcount
                                     - AwardNoShareXP: 65,000,000
-                                    - AwardLuminance: 2,600
-                                    - Give: 52010
+                                    - AwardLuminance: 5,000
+                                    - Give: 48746, 5
                                     - Give: Trade Note (250,000) (20630)
                                     - Goto: Henchmen
                                 QuestFailure:
@@ -60,8 +60,8 @@ GotoSet: Henchmen
                             - StampQuest: GurogHenchmenKillTask
                             - EraseQuest: guroghenchmenkillcount
                             - AwardNoShareXP: 80,000,000
-                            - AwardLuminance: 2,600
-                            - Give: 52010
+                            - AwardLuminance: 5,000
+                            - Give: 48746, 5
                             - Give: Trade Note (250,000) (20630)
                             - Goto: Soldier
                         QuestFailure:
@@ -87,8 +87,8 @@ GotoSet: Soldier
                             - StampQuest: GurogSoldierKillTask
                             - EraseQuest: gurogsoldierkillcount
                             - AwardNoShareXP: 80,000,000
-                            - AwardLuminance: 2,600
-                            - Give: 52010
+                            - AwardLuminance: 4,000
+                            - Give: 48746, 5
                             - Give: Trade Note (250,000) (20630)
                         QuestFailure:
                             - DirectBroadcast: You've killed %tqc out of %tqm Gurong Soldiers.
