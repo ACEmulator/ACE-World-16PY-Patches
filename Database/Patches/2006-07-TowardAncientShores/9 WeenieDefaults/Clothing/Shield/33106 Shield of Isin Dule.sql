@@ -20,10 +20,7 @@ VALUES (33106,   1,          2) /* ItemType - Armor */
      , (33106, 151,          2) /* HookType - Wall */
      , (33106, 158,          7) /* WieldRequirements - Level */
      , (33106, 159,          1) /* WieldSkillType - Axe */
-     , (33106, 160,        140) /* WieldDifficulty */
-     , (33106, 270,          1) /* WieldRequirements2 - Skill */
-     , (33106, 271,          6) /* WieldSkillType2 - MeleeDefense */
-     , (33106, 272,        400) /* WieldDifficulty2 */;
+     , (33106, 160,        140) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33106,  22, True ) /* Inscribable */;
