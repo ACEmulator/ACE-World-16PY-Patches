@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33106,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33106,   5,   -0.03) /* ManaRate */
+VALUES (33106,   5,  -0.025) /* ManaRate */
      , (33106,  13,       1) /* ArmorModVsSlash */
      , (33106,  14,     1.8) /* ArmorModVsPierce */
      , (33106,  15,     1.8) /* ArmorModVsBludgeon */
@@ -34,7 +34,7 @@ VALUES (33106,   5,   -0.03) /* ManaRate */
      , (33106,  17,     0.8) /* ArmorModVsFire */
      , (33106,  18,       1) /* ArmorModVsAcid */
      , (33106,  19,     0.8) /* ArmorModVsElectric */
-     , (33106, 159,    0.25) /* AbsorbMagicDamage */
+     , (33106, 159,       1) /* AbsorbMagicDamage */
      , (33106, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -46,7 +46,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33106,   1,   33559923) /* Setup */
      , (33106,   3,  536870932) /* SoundTable */
      , (33106,   8,  100688919) /* Icon */
-     , (33106,  22,  872415275) /* PhysicsEffectTable */;
+     , (33106,  22,  872415275) /* PhysicsEffectTable */
+     , (33106,  37,         48) /* ItemSkillLimit - Shield */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33106,  2102,      2)  /* Inferno's Bane */
