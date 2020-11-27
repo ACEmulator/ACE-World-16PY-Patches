@@ -748,7 +748,7 @@ VALUES (0x700D615E, 87047, 0x00D60498, 72.9009, -52.4545, 84.005, -0.939306, 0, 
 /* @teleloc 0x00D60498 [72.900902 -52.454498 84.004997] -0.939306 0.000000 0.000000 -0.343080 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700D615F, 87075, 0x00D60494, 56.1525, -53.3521, 84.055, 0.961674, 0, 0, -0.274194, False, '2020-11-09 13:33:44'); /* AsheronsReward Gen */
+VALUES (0x700D615F, 87080, 0x00D60494, 56.1525, -53.3521, 84.055, 0.961674, 0, 0, -0.274194, False, '2020-11-09 13:33:44'); /* AsheronsReward Gen */
 /* @teleloc 0x00D60494 [56.152500 -53.352100 84.055000] 0.961674 0.000000 0.000000 -0.274194 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
