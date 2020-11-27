@@ -31,9 +31,4 @@ VALUES (87226,   1,   33555051) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (87226, -1, 87238, 5, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gift Box (87238) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
-
-/* Caulcano */
-REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
-VALUES (0x70909099, 87226, 0x0909000C, 38.222775, 81.732307, 29.205000, -0.000283, 0, 0, 1.000000,  False); /* Gift Box Generator */
-/* @teleloc 0x0909000C [38.222775 81.732307 29.205000] -0.000283 0.000000 0.000000 1.000000 */
 	 

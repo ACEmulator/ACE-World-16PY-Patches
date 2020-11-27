@@ -31,9 +31,4 @@ VALUES (87225,   1,   33555051) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (87225, -1, 87237, 5, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gift Box (87237) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
-
-/* Lytelthorpe */
-REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
-VALUES (0x7C380099, 87225, 0xC380000E, 27.995089, 127.676559, 34.005001, 0.998801, 0, 0, -0.048951,  False); /* Gift Box Generator */
-/* @teleloc 0xC380000E [27.995089 127.676559 34.005001] 0.998801 0.000000 0.000000 -0.048951 */
 	 
