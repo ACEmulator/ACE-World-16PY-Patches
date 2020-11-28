@@ -12,6 +12,7 @@ VALUES (33081,   1,          1) /* ItemType - MeleeWeapon */
      , (33081,  19,        220) /* Value */
      , (33081,  33,         -2) /* Bonded - Destroy */
      , (33081,  37,        999) /* ResistItemAppraisal */
+     , (33081,  44,         50) /* Damage */
      , (33081,  45,         32) /* DamageType - Acid */
      , (33081,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (33081,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
@@ -24,7 +25,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33081,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33081,  22,     0.2) /* DamageVariance */
+VALUES (33081,  22,    0.45) /* DamageVariance */
      , (33081,  26,       0) /* MaximumVelocity */
      , (33081,  29,    1.23) /* WeaponDefense */
      , (33081,  62,    1.68) /* WeaponOffense */
