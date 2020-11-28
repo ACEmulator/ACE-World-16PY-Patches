@@ -68,8 +68,7 @@ VALUES (0x700A70BC,  1154, 0x00A701F6, 41.4195, -64.6665, 48.029, 0.995673, 0, 0
 /* @teleloc 0x00A701F6 [41.419498 -64.666496 48.028999] 0.995673 0.000000 0.000000 0.092924 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700A70BC, 0x700A70BD, '2019-02-10 00:00:00') /* Thief of Dreams (36929) */
-     , (0x700A70BC, 0x700A70BE, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
+VALUES (0x700A70BC, 0x700A70BE, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
      , (0x700A70BC, 0x700A70BF, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
      , (0x700A70BC, 0x700A70C0, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
      , (0x700A70BC, 0x700A70C1, '2019-02-10 00:00:00') /* Dream Marauder (36931) */
@@ -156,10 +155,6 @@ VALUES (0x700A70BC, 0x700A70BD, '2019-02-10 00:00:00') /* Thief of Dreams (36929
      , (0x700A70BC, 0x700A7113, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
      , (0x700A70BC, 0x700A7114, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
      , (0x700A70BC, 0x700A7115, '2019-02-10 00:00:00') /* Dream Marauder (36931) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A70BD, 36929, 0x00A701F6, 41.4195, -64.6665, 48.029, 0.995673, 0, 0, 0.0929243,  True, '2019-02-10 00:00:00'); /* Thief of Dreams */
-/* @teleloc 0x00A701F6 [41.419498 -64.666496 48.028999] 0.995673 0.000000 0.000000 0.092924 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A70BE, 36931, 0x00A70227, 89.3646, -68.5628, 54.029, -0.461622, 0, 0, -0.887077,  True, '2019-02-10 00:00:00'); /* Dream Marauder */
