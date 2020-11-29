@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30893;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30893, 'marionettebossuber0205', 10, '2020-11-28 04:31:01') /* Creature */;
+VALUES (30893, 'marionettebossuber0205', 10, '2020-11-29 03:25:01') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30893,   1,         16) /* ItemType - Creature */
@@ -99,15 +99,15 @@ VALUES (30893,   1,  8260, 0, 0, 8500) /* MaxHealth */
      , (30893,   5,  7620, 0, 0, 8000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (30893,  6, 0, 3, 0, 365, 0,2314.92100613623) /* MeleeDefense        Specialized */
-     , (30893,  7, 0, 3, 0, 470, 0,2314.92100613623) /* MissileDefense      Specialized */
-     , (30893, 13, 0, 3, 0, 315, 0,2314.92100613623) /* UnarmedCombat       Specialized */
-     , (30893, 14, 0, 3, 0,  90, 0,2314.92100613623) /* ArcaneLore          Specialized */
-     , (30893, 15, 0, 3, 0, 285, 0,2314.92100613623) /* MagicDefense        Specialized */
-     , (30893, 20, 0, 3, 0,  50, 0,2314.92100613623) /* Deception           Specialized */
-     , (30893, 31, 0, 3, 0, 205, 0,2314.92100613623) /* CreatureEnchantment Specialized */
-     , (30893, 33, 0, 3, 0, 205, 0,2314.92100613623) /* LifeMagic           Specialized */
-     , (30893, 34, 0, 3, 0, 205, 0,2314.92100613623) /* WarMagic            Specialized */;
+VALUES (30893,  6, 0, 3, 0, 365, 0, 0) /* MeleeDefense         Specialized */
+     , (30893,  7, 0, 3, 0, 470, 0, 0) /* MissileDefense       Specialized */
+     , (30893, 46, 0, 3, 0, 315, 0, 0) /* FinesseWeapons       Specialized */
+     , (30893, 14, 0, 3, 0,  90, 0, 0) /* ArcaneLore           Specialized */
+     , (30893, 15, 0, 3, 0, 285, 0, 0) /* MagicDefense         Specialized */
+     , (30893, 20, 0, 3, 0,  50, 0, 0) /* Deception            Specialized */
+     , (30893, 31, 0, 3, 0, 205, 0, 0) /* CreatureEnchantment  Specialized */
+     , (30893, 33, 0, 3, 0, 205, 0, 0) /* LifeMagic            Specialized */
+     , (30893, 34, 0, 3, 0, 205, 0, 0) /* WarMagic             Specialized */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30893,    69,   2.04) /* Shock Wave VI */
