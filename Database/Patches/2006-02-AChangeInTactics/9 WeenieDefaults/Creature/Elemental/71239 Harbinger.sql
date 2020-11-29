@@ -1,0 +1,204 @@
+DELETE FROM `weenie` WHERE `class_Id` = 71239;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (71239, 'ace71239-harbinger', 10, '2020-11-25 23:48:00') /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (71239,   1,         16) /* ItemType - Creature */
+     , (71239,   2,         62) /* CreatureType - Elemental */
+     , (71239,   6,         -1) /* ItemsCapacity */
+     , (71239,   7,         -1) /* ContainersCapacity */
+     , (71239,  16,          1) /* ItemUseable - No */
+     , (71239,  25,        999) /* Level */
+     , (71239,  27,          0) /* ArmorType - None */
+     , (71239,  40,          1) /* CombatMode - NonCombat */
+     , (71239,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
+     , (71239,  69,         30) /* CombatTactic - Focused, LastDamager, TopDamager, Weakest */
+     , (71239,  72,         62) /* FriendType - Elemental */
+     , (71239,  81,         31) /* MaxGeneratedObjects */
+     , (71239,  82,          0) /* InitGeneratedObjects */
+     , (71239,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (71239, 100,          3) /* GeneratorType */
+     , (71239, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
+     , (71239, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (71239, 146,    4000000) /* XpOverride */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (71239,   1, True ) /* Stuck */
+     , (71239,   6, True ) /* AiUsesMana */
+     , (71239,  29, True ) /* NoCorpse */
+     , (71239,  52, False) /* AiImmobile */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (71239,   1,       5) /* HeartbeatInterval */
+     , (71239,   2,       0) /* HeartbeatTimestamp */
+     , (71239,   3,       0) /* HealthRate */
+     , (71239,   4,     200) /* StaminaRate */
+     , (71239,   5,     200) /* ManaRate */
+     , (71239,  13,       1) /* ArmorModVsSlash */
+     , (71239,  14,       1) /* ArmorModVsPierce */
+     , (71239,  15,       1) /* ArmorModVsBludgeon */
+     , (71239,  16,     100) /* ArmorModVsCold */
+     , (71239,  17,     100) /* ArmorModVsFire */
+     , (71239,  18,     100) /* ArmorModVsAcid */
+     , (71239,  19,     100) /* ArmorModVsElectric */
+     , (71239,  31,      20) /* VisualAwarenessRange */
+     , (71239,  34,     0.3) /* PowerupTime */
+     , (71239,  36,       1) /* ChargeSpeed */
+     , (71239,  39,       3) /* DefaultScale */
+     , (71239,  64,    0.45) /* ResistSlash */
+     , (71239,  65,    0.45) /* ResistPierce */
+     , (71239,  66,    0.45) /* ResistBludgeon */
+     , (71239,  67,       0) /* ResistFire */
+     , (71239,  68,       0) /* ResistCold */
+     , (71239,  69,       0) /* ResistAcid */
+     , (71239,  70,       0) /* ResistElectric */
+     , (71239,  71,       1) /* ResistHealthBoost */
+     , (71239,  72,       1) /* ResistStaminaDrain */
+     , (71239,  73,       1) /* ResistStaminaBoost */
+     , (71239,  74,       1) /* ResistManaDrain */
+     , (71239,  75,       1) /* ResistManaBoost */
+     , (71239,  80,       0) /* AiUseMagicDelay */
+     , (71239, 104,      10) /* ObviousRadarRange */
+     , (71239, 117,     0.7) /* FocusedProbability */
+     , (71239, 125,       1) /* ResistHealthDrain */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (71239,   1, 'Harbinger') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (71239,   1,   33557927) /* Setup */
+     , (71239,   2,  150995217) /* MotionTable */
+     , (71239,   3,  536871059) /* SoundTable */
+     , (71239,   4,  805306368) /* CombatTable */
+     , (71239,   6,   67114004) /* PaletteBase */
+     , (71239,   7,  268436461) /* ClothingBase */
+     , (71239,   8,  100673483) /* Icon */
+     , (71239,  22,  872415331) /* PhysicsEffectTable */
+     , (71239,  31,      71240) /* LinkedPortalOne - Surface */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (71239, 12, 6095107, 9.71655, 0.167693, -36.063, -0.999896, 0, 0, -0.014409) /* PortalSummonLoc */
+/* @teleloc 0x005D0103 [9.716550 0.167693 -36.063000] -0.999896 0.000000 0.000000 -0.014409 */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (71239,   1, 800, 0, 0) /* Strength */
+     , (71239,   2, 800, 0, 0) /* Endurance */
+     , (71239,   3, 800, 0, 0) /* Quickness */
+     , (71239,   4, 800, 0, 0) /* Coordination */
+     , (71239,   5, 800, 0, 0) /* Focus */
+     , (71239,   6, 800, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (71239,   1, 199600, 0, 0, 200000) /* MaxHealth */
+     , (71239,   3, 89200, 0, 0, 90000) /* MaxStamina */
+     , (71239,   5, 199200, 0, 0, 200000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (71239,  6, 0, 3, 0, 134, 0, 0) /* MeleeDefense        Specialized */
+     , (71239,  7, 0, 3, 0, 291, 0, 0) /* MissileDefense      Specialized */
+     , (71239, 15, 0, 3, 0, 215, 0, 0) /* MagicDefense        Specialized */
+     , (71239, 16, 0, 3, 0, 350, 0, 0) /* ManaConversion      Specialized */
+     , (71239, 22, 0, 3, 0, 100, 0, 0) /* Jump                Specialized */
+     , (71239, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */
+     , (71239, 31, 0, 3, 0, 300, 0, 0) /* CreatureEnchantment Specialized */
+     , (71239, 33, 0, 3, 0, 300, 0, 0) /* LifeMagic           Specialized */
+     , (71239, 34, 0, 3, 0, 300, 0, 0) /* WarMagic            Specialized */
+     , (71239, 45, 0, 3, 0, 200, 0, 0) /* LightWeapons        Specialized */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (71239,  0,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (71239,  1,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (71239,  2,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (71239,  3,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (71239,  4,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (71239,  5,  4, 500, 0.75,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (71239,  6,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (71239,  7,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (71239,  8,  4, 500, 0.75,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (71239,  1783,   2.02)  /* Searing Disc */
+     , (71239,  1785,   2.02)  /* Cassius' Ring of Fire */
+     , (71239,  1787,   2.02)  /* Halo of Frost */
+     , (71239,  1788,   2.02)  /* Eye of the Storm */
+     , (71239,  2054,   2.02)  /* Synaptic Misfire */
+     , (71239,  2056,   2.02)  /* Ataxia */
+     , (71239,  2064,   2.02)  /* Self Loathing */
+     , (71239,  2088,   2.02)  /* Senescence */
+     , (71239,  2122,   2.02)  /* Disintegration */
+     , (71239,  2128,   2.02)  /* Ilservian's Flame */
+     , (71239,  2136,   2.02)  /* Icy Torment */
+     , (71239,  2140,   2.02)  /* Alset's Coil */
+     , (71239,  2162,   2.02)  /* Olthoi's Gift */
+     , (71239,  2168,   2.02)  /* Gelidite's Gift */
+     , (71239,  2170,   2.02)  /* Inferno's Gift */
+     , (71239,  2172,   2.02)  /* Astyrrian's Gift */
+     , (71239,  2282,   2.02)  /* Futility */
+     , (71239,  2318,   2.02)  /* Gravity Well */
+     , (71239,  2699,   2.02)  /* Auroric Whip */
+     , (71239,  2700,   2.02)  /* Corrosive Cloud */
+     , (71239,  2701,   2.02)  /* Elemental Fury */
+     , (71239,  2702,   2.02)  /* Elemental Fury */
+     , (71239,  2703,   2.02)  /* Elemental Fury */
+     , (71239,  2704,   2.02)  /* Elemental Fury */
+     , (71239,  2708,   2.02)  /* Stasis Field */
+     , (71239,  2710,   2.02)  /* Volcanic Blast */
+     , (71239,  2788,   2.01)  /* Essence Blight */
+     , (71239,  2790,   2.02)  /* Weight of the World */
+     , (71239,  4926,   2.01)  /* Smite */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (71239,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, '"It cannot be. I am the well of world blood given consciousness, your blades should not matter. It will not claim me. I am not of darkness borne. I will not fall to darkness. He means to cage me within his tomb of corruption. No! I will stand again, you cannot contain what I am!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,  24 /* StopEvent */, 0, 1, NULL, 'EmpoweredEssencesGenerator', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  3,  24 /* StopEvent */, 0, 1, NULL, 'EmpoweredHandsGenerator', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (71239, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.49, 0.5);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  23 /* StartEvent */, 0, 1, NULL, 'EmpoweredEssencesGenerator', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (71239, 15 /* WoundedTaunt */,      1, NULL, NULL, NULL, NULL, NULL, 0.99, 1);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  23 /* StartEvent */, 0, 1, NULL, 'EmpoweredHandsGenerator', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (71239, 16 /* KillTaunt */,    0.1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '"You dare strike at me? My retribution is swift, is it not? But I sense that your spirit has not fled this world. How can I, the sum of power, grow weaker?"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (71239, 16 /* KillTaunt */,    0.2, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '"Severed from the cord that binds you to this world, you shall not return to hamper me; no, it cannot be, the strand of life stays."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (71239, 16 /* KillTaunt */,    0.3, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '"Another victim fallen into the stream that floods this world in form. You are no more. Not possible, I sense that your form returns. Perhaps the same will be of mine."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (71239, -1, 33233, 1, 30, 30, 4, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Harbinger Arm Token (33233) (x30 up to max of 30) - Regenerate upon Death - Location to (re)Generate: OnTop */
+     , (71239, -1, 71240, 1, 1, 1, 4, 4, 1, 0, 0, 6095107, 9.71655, 0.167693, -35.9935, -0.999896, 0, 0, -0.014409) /* Generate Surface (71240) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Specific */;

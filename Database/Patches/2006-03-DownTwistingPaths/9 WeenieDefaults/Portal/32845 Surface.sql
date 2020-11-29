@@ -11,16 +11,10 @@ VALUES (32845,   1,      65536) /* ItemType - Portal */
      , (32845, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32845,   1, True ) /* Stuck */
-     , (32845,  12, True ) /* ReportCollisions */
-     , (32845,  13, True ) /* Ethereal */
-     , (32845,  14, True ) /* GravityStatus */
-     , (32845,  15, True ) /* LightsStatus */
-     , (32845,  19, True ) /* Attackable */
-     , (32845,  88, True ) /* PortalShowDestination */;
+VALUES (32845,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32845,  54, -0.100000001490116) /* UseRadius */;
+VALUES (32845,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32845,   1, 'Surface') /* Name */
@@ -30,3 +24,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32845,   1,   33554867) /* Setup */
      , (32845,   2,  150994947) /* MotionTable */
      , (32845,   8,  100667499) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (32845, 2, 697368599, 61.1116, 160.0137, 30.005, 1, 0, 0, 0) /* Destination */
+/* @teleloc 0x29910017 [61.111600 160.013700 30.005000] 1.000000 0.000000 0.000000 0.000000 */;

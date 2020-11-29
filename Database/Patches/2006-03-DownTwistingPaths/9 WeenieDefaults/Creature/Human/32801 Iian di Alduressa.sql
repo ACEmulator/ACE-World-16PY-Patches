@@ -6,8 +6,8 @@ VALUES (32801, 'ace32801-iiandialduressa', 10, '2020-06-17 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32801,   1,         16) /* ItemType - Creature */
      , (32801,   2,         31) /* CreatureType - Human */
-     , (32801,   6,        255) /* ItemsCapacity */
-     , (32801,   7,        255) /* ContainersCapacity */
+     , (32801,   6,         -1) /* ItemsCapacity */
+     , (32801,   7,         -1) /* ContainersCapacity */
      , (32801,  16,         32) /* ItemUseable - Remote */
      , (32801,  25,        150) /* Level */
      , (32801,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -19,12 +19,7 @@ VALUES (32801,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32801,   1, True ) /* Stuck */
-     , (32801,  11, True ) /* IgnoreCollisions */
-     , (32801,  12, True ) /* ReportCollisions */
-     , (32801,  14, True ) /* GravityStatus */
-     , (32801,  19, False) /* Attackable */
-     , (32801,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (32801,  42, True ) /* AllowEdgeSlide */;
+     , (32801,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32801,   1,       5) /* HeartbeatInterval */
