@@ -87,15 +87,15 @@ VALUES (32949,   1,   700, 0, 0, 780) /* MaxHealth */
      , (32949,   5,   350, 0, 0, 540) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (32949,  6, 0, 3, 0, 328, 0, 1126.78491210938) /* MeleeDefense        Specialized */
-     , (32949,  7, 0, 3, 0, 402, 0, 1126.78491210938) /* MissileDefense      Specialized */
-     , (32949, 14, 0, 3, 0, 170, 0, 1126.78491210938) /* ArcaneLore          Specialized */
-     , (32949, 15, 0, 3, 0, 270, 0, 1126.78491210938) /* MagicDefense        Specialized */
-     , (32949, 20, 0, 3, 0, 150, 0, 1126.78491210938) /* Deception           Specialized */
-     , (32949, 24, 0, 3, 0, 100, 0, 1126.78491210938) /* Run                 Specialized */
-     , (32949, 31, 0, 3, 0, 170, 0, 1126.78491210938) /* CreatureEnchantment Specialized */
-     , (32949, 33, 0, 3, 0, 170, 0, 1126.78491210938) /* LifeMagic           Specialized */
-     , (32949, 34, 0, 3, 0, 170, 0, 1126.78491210938) /* WarMagic            Specialized */
+VALUES (32949,  6, 0, 3, 0, 328, 0, 0) /* MeleeDefense        Specialized */
+     , (32949,  7, 0, 3, 0, 402, 0, 0) /* MissileDefense      Specialized */
+     , (32949, 14, 0, 3, 0, 170, 0, 0) /* ArcaneLore          Specialized */
+     , (32949, 15, 0, 3, 0, 270, 0, 0) /* MagicDefense        Specialized */
+     , (32949, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
+     , (32949, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */
+     , (32949, 31, 0, 3, 0, 170, 0, 0) /* CreatureEnchantment Specialized */
+     , (32949, 33, 0, 3, 0, 170, 0, 0) /* LifeMagic           Specialized */
+     , (32949, 34, 0, 3, 0, 170, 0, 0) /* WarMagic            Specialized */
      , (32949, 45, 0, 3, 0, 306, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
