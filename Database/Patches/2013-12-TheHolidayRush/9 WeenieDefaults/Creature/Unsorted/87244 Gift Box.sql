@@ -22,6 +22,9 @@ VALUES (87244,  19, False) /* Attackable */
      , (87244,  83, True ) /* NpcLooksLikeObject */
      , (87244,  90, True ) /* NpcInteractsSilently */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (87244,  54,       3) /* UseRadius */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87244,   1, 'Gift Box') /* Name */
      , (87244,  15, 'A box containing gifts') /* ShortDesc */;
