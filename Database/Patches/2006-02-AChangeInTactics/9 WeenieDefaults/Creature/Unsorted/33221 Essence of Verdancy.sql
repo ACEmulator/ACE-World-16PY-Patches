@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33221;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33221, 'ace33221-essenceofverdancy', 10, '2020-11-25 23:48:00') /* Creature */;
+VALUES (33221, 'ace33221-essenceofverdancy', 10, '2020-11-25 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33221,   1,         16) /* ItemType - Creature */
@@ -19,11 +19,7 @@ VALUES (33221,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33221,   1, True ) /* Stuck */
      , (33221,   6, True ) /* AiUsesMana */
-     , (33221,  11, False) /* IgnoreCollisions */
-     , (33221,  12, True ) /* ReportCollisions */
-     , (33221,  13, False) /* Ethereal */
      , (33221,  15, True ) /* LightsStatus */
-     , (33221,  19, True ) /* Attackable */
      , (33221,  29, True ) /* NoCorpse */
      , (33221,  50, True ) /* NeverFailCasting */;
 
@@ -81,9 +77,9 @@ VALUES (33221,   1, 400, 0, 0) /* Strength */
      , (33221,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33221,   1, 149700, 0, 0, 150000) /* MaxHealth */
-     , (33221,   3,  4400, 0, 0, 5000) /* MaxStamina */
-     , (33221,   5,   500, 0, 0, 1000) /* MaxMana */;
+VALUES (33221,   1, 39700, 0, 0, 40000) /* MaxHealth */
+     , (33221,   3,  4400, 0, 0,  5000) /* MaxStamina */
+     , (33221,   5,   500, 0, 0,  1000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (33221,  6, 0, 3, 0, 127, 0, 0) /* MeleeDefense        Specialized */

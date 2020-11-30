@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31832;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31832, 'ace31832-causticknight', 10, '2020-07-07 00:00:00') /* Creature */;
+VALUES (31832, 'ace31832-causticknight', 10, '2020-11-25 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31832,   1,         16) /* ItemType - Creature */
@@ -77,9 +77,9 @@ VALUES (31832,   1, 250, 0, 0) /* Strength */
      , (31832,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31832,   1,  6000, 0, 0, 6130) /* MaxHealth */
-     , (31832,   3,  5000, 0, 0, 5260) /* MaxStamina */
-     , (31832,   5,  5000, 0, 0, 5350) /* MaxMana */;
+VALUES (31832,   1,  1870, 0, 0, 2000) /* MaxHealth */
+     , (31832,   3,  2420, 0, 0, 2680) /* MaxStamina */
+     , (31832,   5,  1920, 0, 0, 2270) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (31832,  6, 0, 3, 0, 395, 0, 0) /* MeleeDefense        Specialized */

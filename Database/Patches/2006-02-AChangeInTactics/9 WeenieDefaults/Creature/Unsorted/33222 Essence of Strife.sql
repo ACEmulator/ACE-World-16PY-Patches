@@ -19,11 +19,7 @@ VALUES (33222,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33222,   1, True ) /* Stuck */
      , (33222,   6, True ) /* AiUsesMana */
-     , (33222,  11, False) /* IgnoreCollisions */
-     , (33222,  12, True ) /* ReportCollisions */
-     , (33222,  13, False) /* Ethereal */
      , (33222,  15, True ) /* LightsStatus */
-     , (33222,  19, True ) /* Attackable */
      , (33222,  29, True ) /* NoCorpse */
      , (33222,  50, True ) /* NeverFailCasting */;
 
@@ -82,8 +78,8 @@ VALUES (33222,   1, 600, 0, 0) /* Strength */
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (33222,   1, 39800, 0, 0, 40000) /* MaxHealth */
-     , (33222,   3,  4600, 0, 0, 5000) /* MaxStamina */
-     , (33222,   5,   500, 0, 0, 1000) /* MaxMana */;
+     , (33222,   3,  4600, 0, 0,  5000) /* MaxStamina */
+     , (33222,   5,   500, 0, 0,  1000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (33222,  6, 0, 3, 0, 127, 0, 0) /* MeleeDefense        Specialized */

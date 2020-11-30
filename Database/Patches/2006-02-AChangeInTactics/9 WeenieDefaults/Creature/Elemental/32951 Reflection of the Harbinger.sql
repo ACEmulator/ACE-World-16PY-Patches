@@ -15,7 +15,7 @@ VALUES (32951,   1,         16) /* ItemType - Creature */
      , (32951,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (32951,  69,         30) /* CombatTactic - Focused, LastDamager, TopDamager, Weakest */
      , (32951,  72,         62) /* FriendType - Elemental */
-     , (32951,  81,         30) /* MaxGeneratedObjects */
+     , (32951,  81,         31) /* MaxGeneratedObjects */
      , (32951,  82,          0) /* InitGeneratedObjects */
      , (32951,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (32951, 100,          1) /* GeneratorType - Relative */
@@ -46,7 +46,7 @@ VALUES (32951,   1,       5) /* HeartbeatInterval */
      , (32951,  34,     0.3) /* PowerupTime */
      , (32951,  36,       1) /* ChargeSpeed */
      , (32951,  39,       3) /* DefaultScale */
-     , (32951,  43,       2) /* GeneratorRadius */
+     , (32951,  43,       6) /* GeneratorRadius */
      , (32951,  64,    0.45) /* ResistSlash */
      , (32951,  65,    0.45) /* ResistPierce */
      , (32951,  66,    0.45) /* ResistBludgeon */
@@ -119,12 +119,8 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 1, NULL, '%s lands a killing blow on the Reflection of the Harbinger. It shrieks as it bleeds out. A deep purple field flickers into existence around the Stone of Yanshi. The Nullification Barrier extends deep into the ground.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  24 /* StopEvent */, 0, 1, NULL, 'WeakenedHarbingerWavesMasterGenerator', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  2,  24 /* StopEvent */, 0, 1, NULL, 'IsskHarbingerTunnelsGenerator', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  3,  24 /* StopEvent */, 0, 1, NULL, 'VincadiHarbingerTunnelsGenerator', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  4,  23 /* StartEvent */, 0, 1, NULL, 'IsskWeakenedHarbingerTunnelsGenerator', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  5,  23 /* StartEvent */, 0, 1, NULL, 'VincadiWeakenedHarbingerTunnelsGenerator', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  6,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  1,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32951, -1, 32967, 1, 30, 30, 4, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Reflective Shard (32967) (x30 up to max of 30) - Regenerate upon Death - Location to (re)Generate: Scatter */;
+VALUES (32951, -1, 32967, 1, 30, 30, 4, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Reflective Shard (32967) (x30 up to max of 30) - Regenerate upon Death - Location to (re)Generate: Scatter */
+     , (32951, -1, 71241, 1,  1,  1, 4, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Stop Gap (71241) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */;
