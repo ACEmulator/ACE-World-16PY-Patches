@@ -105,29 +105,28 @@ GoToSet: HighLvlRewards
 				QuestFailure:
 					-DirectBroadcast: %tqc of 12 gift boxes found.	
 					-GoTo: HighLvlRewardsTable
-GotoSet: HighLvlRewardsTable, Probability: 0.12
+
+GotoSet: HighLvlRewardsTable, Probability: 0.125
 - DirectBroadcast: You reach into the gift box and discover an A'nekshay Token!
 - Delay: 0.5, Give: 44240
-GotoSet: HighLvlRewardsTable, Probability: 0.24
+GotoSet: HighLvlRewardsTable, Probability: 0.25
 - DirectBroadcast: You reach into the gift box and discover an Ancient Mhoire Coin!
 - Delay: 0.5, Give: 35383
-GotoSet: HighLvlRewardsTable, Probability: 0.36
+GotoSet: HighLvlRewardsTable, Probability: 0.375
 - DirectBroadcast: You reach into the gift box and discover a Colosseum Coin!
 - Delay: 0.5, Give: 36518
-GotoSet: HighLvlRewardsTable, Probability: 0.48
+GotoSet: HighLvlRewardsTable, Probability: 0.5
 - DirectBroadcast: You reach into the gift box and discover an Exquisite Casino Key!
 - Delay: 0.5, Give: 52033
-GotoSet: HighLvlRewardsTable, Probability: 0.60
+GotoSet: HighLvlRewardsTable, Probability: 0.625
 - DirectBroadcast: You reach into the gift box and discover a Legendary Key!
 - Delay: 0.5, Give: 48750
-GotoSet: HighLvlRewardsTable, Probability: 0.72
+GotoSet: HighLvlRewardsTable, Probability: 0.75
 - DirectBroadcast: You reach into the gift box and discover an Ornate Gear Marker!
 - Delay: 0.5, Give: 43142
-GotoSet: HighLvlRewardsTable, Probability: 0.84
+GotoSet: HighLvlRewardsTable, Probability: 0.875
 - DirectBroadcast: You reach into the gift box and discover a Small Olthoi Venom Sac!
 - Delay: 0.5, Give: 36376
-GotoSet: HighLvlRewardsTable, Probability: 0.96
+GotoSet: HighLvlRewardsTable, Probability: 1
 - DirectBroadcast: You reach into the gift box and discover a Stipend!
-- Delay: 0.5, Give: 46423	
-
-
+- Delay: 0.5, Give: 46423
