@@ -5,7 +5,7 @@ VALUES (48715, 'ace48715-prismshard', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48715,   1,         16) /* ItemType - Creature */
-     , (48715,   2,         47) /* CreatureType */
+     , (48715,   2,         47) /* CreatureType - Crystal */
      , (48715,   6,         -1) /* ItemsCapacity */
      , (48715,   7,         -1) /* ContainersCapacity */
      , (48715,  16,          1) /* ItemUseable - No */
@@ -36,7 +36,7 @@ VALUES (48715,   1,       5) /* HeartbeatInterval */
      , (48715,  17,       1) /* ArmorModVsFire */
      , (48715,  18,       1) /* ArmorModVsAcid */
      , (48715,  19,       1) /* ArmorModVsElectric */
-     , (48715,  31,    0.30) /* VisualAwarenessRange */
+     , (48715,  31,     0.3) /* VisualAwarenessRange */
      , (48715,  34,       1) /* PowerupTime */
      , (48715,  36,       1) /* ChargeSpeed */
      , (48715,  39,     1.5) /* DefaultScale */
@@ -65,7 +65,8 @@ VALUES (48715,   1,   33556729) /* Setup */
      , (48715,   4,  805306372) /* CombatTable */
      , (48715,   6,   67111919) /* PaletteBase */
      , (48715,   8,  100670283) /* Icon */
-     , (48715,  22,  872415348) /* PhysicsEffectTable */;
+     , (48715,  22,  872415348) /* PhysicsEffectTable */
+     , (48715,  35,        111) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (48715,   1,  90, 0, 0) /* Strength */
