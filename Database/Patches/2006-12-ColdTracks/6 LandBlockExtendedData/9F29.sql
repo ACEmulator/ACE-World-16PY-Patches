@@ -1,3 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 0x9F29;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F2901E, 87121, 0x9F29000F, 36.278, 162.751, 290.055, 0.121992, 0, 0, -0.992531, False, '2020-11-30 13:29:34'); /* AoFH Abominable Snowman Generator */
 /* @teleloc 0x9F29000F [36.278000 162.751007 290.054993] 0.121992 0.000000 0.000000 -0.992531 */
