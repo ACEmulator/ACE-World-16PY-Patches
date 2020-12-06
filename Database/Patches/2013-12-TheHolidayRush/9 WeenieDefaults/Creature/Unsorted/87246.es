@@ -1,132 +1,76 @@
 Use:
-	-InqQuest: giftboxcomplete
-		QuestSuccess:
-			-DirectBroadcast: You have discovered all of the gift boxes hidden around Dereth!
-		QuestFailure:
-			-GoTo: LevelCheck
-GoToSet: LevelCheck	
-	-InqIntStat: 25, 1-49
-		TestSuccess:
-			GoTo: LowLvlChecked
-		TestFailure:
-			GoTo: HighLvlChecked
-GoToSet: LowLvlChecked
-	-InqQuest: giftboxstart
-		QuestSuccess: 
-			-GoTo: LowLvlRewards
-		QuestFailure:
-			-StampQuest: giftboxstart
-			-GoTo: FirstRewardLowLvlChecked
-GoToSet: FirstRewardLowLvlChecked
-	-InqQuest: foundbox10
-		QuestSuccess:
-			-DirectBroadcast: You have already discovered this gift box.
-		QuestFailure:
-			-StampQuest: foundbox10
-			-StampQuest: found12giftboxes
-			-InqQuestSolves: found12giftboxes, 12 - 12
-				QuestSuccess: 
-					-AwardLevelProportionalXP: 100%, Max: 1,500,000
-					-AddCharacterTitle: SeasonalSeeker
-					-DirectBroadcast: You have discovered all of the gift boxes hidden around Dereth!
-					-DirectBroadcast: You also discover a Snow Tuskie Kennel deep within the gift box.
-					-Give: 47168
-					-DirectBroadcast: You have been granted the title of Seasonal Seeker!
-					-StampQuest: giftboxcomplete
-                        	QuestFailure:
-					-DirectBroadcast: You have been granted the title of Gifted!
-					-AwardLevelProportionalXP: 100%, Max: 1,500,000
-					-AddCharacterTitle: Gifted
-					-DirectBroadcast: %tqc of 12 gift boxes found.
-GoToSet: LowLvlRewards
-	-InqQuest: foundbox10
-		QuestSuccess:
-			-DirectBroadcast: You have already discovered this gift box.
-		QuestFailure:
-			-StampQuest: foundbox10
-			-StampQuest: found12giftboxes
-			-InqQuestSolves: found12giftboxes, 12 - 12
-				QuestSuccess: 
-					-AwardLevelProportionalXP: 100%, Max: 1,500,000
-					-AddCharacterTitle: SeasonalSeeker
-					-DirectBroadcast: You have discovered all of the gift boxes hidden around Dereth!
-					-DirectBroadcast: You also discover a Snow Tuskie Kennel deep within the gift box.
-					-Give: 47168
-					-DirectBroadcast: You have been granted the title of Seasonal Seeker!
-					-StampQuest: giftboxcomplete
-                        	QuestFailure:
-					-AwardLevelProportionalXP: 100%, Max: 1,500,000
-					-DirectBroadcast: %tqc of 12 gift boxes found.
-					
-GoToSet: HighLvlChecked
-	-InqQuest: giftboxstart
-		QuestSuccess: 
-			-GoTo: HighLvlRewards
-		QuestFailure:
-			-StampQuest: giftboxstart
-			-GoTo: FirstRewardHighLvlChecked		
-GoToSet: FirstRewardHighLvlChecked
-	-InqQuest: foundbox10
-		QuestSuccess:
-			-DirectBroadcast: You have already discovered this gift box.
-		QuestFailure:
-			-StampQuest: foundbox10
-			-StampQuest: found12giftboxes
-			-InqQuestSolves: found12giftboxes, 12 - 12
-				QuestSuccess: 
-					-AddCharacterTitle: SeasonalSeeker
-					-DirectBroadcast: You have discovered all of the gift boxes hidden around Dereth!
-					-DirectBroadcast: You also discover a Snow Tuskie Kennel deep within the gift box.
-					-Give: 47168
-					-DirectBroadcast: You have been granted the title of Seasonal Seeker!
-					-StampQuest: giftboxcomplete
-					-GoTo: HighLvlRewardsTable
-				QuestFailure:
-					-DirectBroadcast: You have been granted the title of Gifted!
-					-AddCharacterTitle: Gifted
-					-DirectBroadcast: %tqc of 12 gift boxes found.	
-					-GoTo: HighLvlRewardsTable
-GoToSet: HighLvlRewards
-	-InqQuest: foundbox10
-		QuestSuccess:
-			-DirectBroadcast: You have already discovered this gift box.
-		QuestFailure:
-			-StampQuest: foundbox10
-			-StampQuest: found12giftboxes
-			-InqQuestSolves: found12giftboxes, 12 - 12
-				QuestSuccess: 
-					-AddCharacterTitle: SeasonalSeeker
-					-DirectBroadcast: You have discovered all of the gift boxes hidden around Dereth!
-					-DirectBroadcast: You also discover a Snow Tuskie Kennel deep within the gift box.
-					-Give: 47168
-					-DirectBroadcast: You have been granted the title of Seasonal Seeker!
-					-StampQuest: giftboxcomplete
-					-GoTo: HighLvlRewardsTable
-				QuestFailure:
-					-DirectBroadcast: %tqc of 12 gift boxes found.	
-					-GoTo: HighLvlRewardsTable
+    - InqQuest: GiftBoxesWait
+        QuestSuccess:
+            - DirectBroadcast: You have discovered all of the gift boxes hidden around Dereth!
+        QuestFailure:
+            - InqQuestBitsOn: GiftBoxesFound, 0x200
+                QuestSuccess:
+                    - DirectBroadcast: You have already discovered this gift box.
+                QuestFailure:
+                    - SetQuestBitsOn: GiftBoxesFound, 0x200
+                    - StampQuest: GiftBoxesFoundCounter
+                    - InqIntStat: Level, 1 - 49
+                        TestSuccess:
+                            - DirectBroadcast: You reach into the gift box and discover the gift of knowledge!
+                            - AwardLevelProportionalXP: 100%, Min: 1, Max: 1,500,000
+                            - Goto: TitleRewards
+                        TestFailure:
+                            - Goto: RandomRewards
 
-GotoSet: HighLvlRewardsTable, Probability: 0.125
-- DirectBroadcast: You reach into the gift box and discover an A'nekshay Token!
-- Delay: 0.5, Give: 44240
-GotoSet: HighLvlRewardsTable, Probability: 0.25
-- DirectBroadcast: You reach into the gift box and discover an Ancient Mhoire Coin!
-- Delay: 0.5, Give: 35383
-GotoSet: HighLvlRewardsTable, Probability: 0.375
-- DirectBroadcast: You reach into the gift box and discover a Colosseum Coin!
-- Delay: 0.5, Give: 36518
-GotoSet: HighLvlRewardsTable, Probability: 0.5
-- DirectBroadcast: You reach into the gift box and discover an Exquisite Casino Key!
-- Delay: 0.5, Give: 52033
-GotoSet: HighLvlRewardsTable, Probability: 0.625
-- DirectBroadcast: You reach into the gift box and discover a Legendary Key!
-- Delay: 0.5, Give: 48750
-GotoSet: HighLvlRewardsTable, Probability: 0.75
-- DirectBroadcast: You reach into the gift box and discover an Ornate Gear Marker!
-- Delay: 0.5, Give: 43142
-GotoSet: HighLvlRewardsTable, Probability: 0.875
-- DirectBroadcast: You reach into the gift box and discover a Small Olthoi Venom Sac!
-- Delay: 0.5, Give: 36376
-GotoSet: HighLvlRewardsTable, Probability: 1
-- DirectBroadcast: You reach into the gift box and discover a Stipend!
-- Delay: 0.5, Give: 46423
+Goto: TitleRewards
+    - InqQuest: GiftBoxesFoundCounter
+        QuestSuccess:
+            - DirectBroadcast: You have discovered all of the gift boxes hidden around Dereth!
+            - DirectBroadcast: You also discover a Snow Tuskie Kennel deep within the gift box.
+            - Give: Snow Tuskie Kennel (47168)
+            - AddCharacterTitle: SeasonalSeeker
+            - DirectBroadcast: You have been granted the title of Seasonal Seeker!
+            - StampQuest: GiftBoxesWait
+            - EraseQuest: GiftBoxesFound
+            - EraseQuest: GiftBoxesFoundCounter
+        QuestFailure:
+            - InqQuestSolves: GiftBoxesFoundCounter, 1 - 1
+                QuestSuccess:
+                    - AddCharacterTitle: Gifted
+                    - DirectBroadcast: You have been granted the title of Gifted!
+                    - DirectBroadcast: %tqc of %tqm gift boxes found.
+
+GotoSet: RandomRewards, Probability: 0.125
+    - DirectBroadcast: You reach into the gift box and discover an A'nekshay Token!
+    - Give: 44240
+    - Goto: TitleRewards
+
+GotoSet: RandomRewards, Probability: 0.25
+    - DirectBroadcast: You reach into the gift box and discover an Ancient Mhoire Coin!
+    - Give: 35383
+    - Goto: TitleRewards
+
+GotoSet: RandomRewards, Probability: 0.375
+    - DirectBroadcast: You reach into the gift box and discover a Colosseum Coin!
+    - Give: 36518
+    - Goto: TitleRewards
+
+GotoSet: RandomRewards, Probability: 0.5
+    - DirectBroadcast: You reach into the gift box and discover an Exquisite Casino Key!
+    - Give: 52033
+    - Goto: TitleRewards
+
+GotoSet: RandomRewards, Probability: 0.625
+    - DirectBroadcast: You reach into the gift box and discover a Legendary Key!
+    - Give: 48750
+    - Goto: TitleRewards
+
+GotoSet: RandomRewards, Probability: 0.75
+    - DirectBroadcast: You reach into the gift box and discover an Ornate Gear Marker!
+    - Give: 43142
+    - Goto: TitleRewards
+
+GotoSet: RandomRewards, Probability: 0.875
+    - DirectBroadcast: You reach into the gift box and discover a Small Olthoi Venom Sac!
+    - Give: 36376
+    - Goto: TitleRewards
+
+GotoSet: RandomRewards, Probability: 1
+    - DirectBroadcast: You reach into the gift box and discover a Stipend!
+    - Give: 46423
+    - Goto: TitleRewards
