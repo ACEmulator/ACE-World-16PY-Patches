@@ -17,7 +17,7 @@ Use:
                         TestFailure:
                             - Goto: RandomRewards
 
-Goto: TitleRewards
+GotoSet: TitleRewards
     - InqQuest: GiftBoxesFoundCounter
         QuestSuccess:
             - DirectBroadcast: You have discovered all of the gift boxes hidden around Dereth!
