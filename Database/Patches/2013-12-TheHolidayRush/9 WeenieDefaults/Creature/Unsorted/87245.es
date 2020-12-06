@@ -34,6 +34,8 @@ GotoSet: TitleRewards
                     - AddCharacterTitle: Gifted
                     - DirectBroadcast: You have been granted the title of Gifted!
                     - DirectBroadcast: %tqc of %tqm gift boxes found.
+                QuestFailure:
+                    - DirectBroadcast: %tqc of %tqm gift boxes found.
 
 GotoSet: RandomRewards, Probability: 0.125
     - DirectBroadcast: You reach into the gift box and discover an A'nekshay Token!
