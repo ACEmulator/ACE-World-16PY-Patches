@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30887;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30887, 'shadowbossuber0205', 10, '2020-11-29 12:55:08') /* Creature */;
+VALUES (30887, 'shadowbossuber0205', 10, '2020-12-06 08:38:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30887,   1,         16) /* ItemType - Creature */
@@ -17,9 +17,11 @@ VALUES (30887,   1,         16) /* ItemType - Creature */
      , (30887,  72,         44) /* FriendType - Grievver */
      , (30887,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (30887, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
+     , (30887, 113,          1) /* Gender */
      , (30887, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30887, 140,          1) /* AiOptions - CanOpenDoors */
-     , (30887, 146,     307276) /* XpOverride */;
+     , (30887, 146,     307276) /* XpOverride */
+     , (30887, 188,          1) /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30887,   1, True ) /* Stuck */
@@ -76,7 +78,7 @@ VALUES (30887,   1,   33554433) /* Setup */
      , (30887,   2,  150994945) /* MotionTable */
      , (30887,   3,  536870913) /* SoundTable */
      , (30887,   4,  805306368) /* CombatTable */
-     , (30887,   6,   67111797) /* PaletteBase */
+     , (30887,   6,   67108990) /* PaletteBase */
      , (30887,   7,  268435632) /* ClothingBase */
      , (30887,   8,  100670397) /* Icon */
      , (30887,  22,  872415331) /* PhysicsEffectTable */
