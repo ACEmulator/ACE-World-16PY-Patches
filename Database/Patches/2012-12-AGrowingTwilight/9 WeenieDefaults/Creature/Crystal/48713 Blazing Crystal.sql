@@ -5,7 +5,8 @@ VALUES (48713, 'ace48713-blazingcrystal', 10, '2019-02-10 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48713,   1,         16) /* ItemType - Creature */
-     , (48713,   2,         47) /* CreatureTYpe */
+     , (48713,   2,         47) /* CreatureType - Crystal */
+     , (48713,   3,         83) /* PaletteTemplate - Amber */
      , (48713,   6,         -1) /* ItemsCapacity */
      , (48713,   7,         -1) /* ContainersCapacity */
      , (48713,  16,          1) /* ItemUseable - No */
@@ -28,7 +29,7 @@ VALUES (48713,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48713,   1,       5) /* HeartbeatInterval */
      , (48713,   2,       0) /* HeartbeatTimestamp */
-     , (48713,   3,     400) /* HealthRate */
+     , (48713,   3,      40) /* HealthRate */
      , (48713,   4,       5) /* StaminaRate */
      , (48713,   5,       1) /* ManaRate */
      , (48713,  13,       1) /* ArmorModVsSlash */
@@ -38,7 +39,7 @@ VALUES (48713,   1,       5) /* HeartbeatInterval */
      , (48713,  17,       1) /* ArmorModVsFire */
      , (48713,  18,       1) /* ArmorModVsAcid */
      , (48713,  19,       1) /* ArmorModVsElectric */
-     , (48713,  31,    0.30) /* VisualAwarenessRange */
+     , (48713,  31,     0.3) /* VisualAwarenessRange */
      , (48713,  34,       1) /* PowerupTime */
      , (48713,  36,       1) /* ChargeSpeed */
      , (48713,  39,     1.5) /* DefaultScale */
@@ -66,6 +67,7 @@ VALUES (48713,   1,   33556226) /* Setup */
      , (48713,   3,  536871001) /* SoundTable */
      , (48713,   4,  805306372) /* CombatTable */
      , (48713,   6,   67111919) /* PaletteBase */
+     , (48713,   7,  268435859) /* ClothingBase */
      , (48713,   8,  100670395) /* Icon */
      , (48713,  22,  872415348) /* PhysicsEffectTable */;
 
@@ -98,11 +100,11 @@ VALUES (48713,  0,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */
-	  , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */
-	  , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */
-	  , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */
-	  , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */
-	  , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */
-	  , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */
-	  , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */
-	  , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */;
+     , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */
+     , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */
+     , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */
+     , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */
+     , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */
+     , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */
+     , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */
+     , (48713, 9, 48714,  0, 0, 1, False) /* Create Blazing Shard (48714) for ContainTreasure */;

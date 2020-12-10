@@ -1165,7 +1165,7 @@ VALUES (0x7F92F10C, 0x7F92F10D, '2020-09-13 17:23:32') /* Master MacTavish (8042
      , (0x7F92F10C, 0x7F92F113, '2020-09-13 17:51:43') /* Calhoun (80431) */
      , (0x7F92F10C, 0x7F92F114, '2020-09-13 17:57:28') /* Kagami (80435) */
      , (0x7F92F10C, 0x7F92F115, '2020-09-13 17:58:55') /* Bayani (80437) */
-     , (0x7F92F10C, 0x7F92F116, '2020-09-13 18:00:23') /* Valerian McGreggor (80438) */;
+     , (0x7F92F10C, 0x7F92F116, '2020-09-13 18:00:23') /* Valerian McGreggor (80439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F92F10D, 80421, 0xF92F01AF, -26.2188, 99, 76.805, 0.707107, 0, 0, -0.707107,  True, '2020-09-13 17:23:32'); /* Master MacTavish */
@@ -1204,7 +1204,7 @@ VALUES (0x7F92F115, 80437, 0xF92F0155, 18.4375, 127.014, 76.805, 0.382683, 0, 0,
 /* @teleloc 0xF92F0155 [18.437500 127.014000 76.805000] 0.382683 0.000000 0.000000 0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F92F116, 80438, 0xF92F018A, 6.027344, 106.84766, 76.80501, 1, 0, 0, 0,  True, '2020-09-13 18:00:23'); /* Valerian McGreggor */
+VALUES (0x7F92F116, 80439, 0xF92F018A, 6.027344, 106.84766, 76.80501, 1, 0, 0, 0,  True, '2020-09-13 18:00:23'); /* Valerian McGreggor */
 /* @teleloc 0xF92F018A [6.027344 106.847656 76.805008] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
