@@ -38,7 +38,7 @@ VALUES (48743,  39, 1.10000002384186) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48743,   1, 'Legendary Chest') /* Name */
-     , (48743,  12, 'keychestleg') /* LockCode */
+     , (48743,  12, 'keychestlegarwic') /* LockCode */
      , (48743,  14, 'Use this item to open it and see its contents.') /* Use */
      , (48743,  16, 'A chest containing the highest quality mixed gear. ') /* LongDesc */;
 

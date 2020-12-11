@@ -1,7 +1,7 @@
-DELETE FROM `weenie` WHERE `class_Id` = 46016; 
+DELETE FROM `weenie` WHERE `class_Id` = 46016;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46016, 'ace46016-umbralguard', 10, '2020-07-21 08:13:36') /* Creature */;
+VALUES (46016, 'ace46016-umbralguard', 10, '2020-12-04 12:39:30') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46016,   1,         16) /* ItemType - Creature */
@@ -40,10 +40,7 @@ VALUES (46016,   1,   33560944) /* Setup */
      , (46016,  11,   83890327) /* MouthTexture */
      , (46016,  15,   67117016) /* HairPalette */
      , (46016,  16,   67116858) /* EyesPalette */
-     , (46016,  17,   67116849) /* SkinPalette */
-     , (46016,8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (46016,8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (46016,8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (46016,  17,   67116849) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46016,   1, 290, 0, 0) /* Strength */
@@ -102,12 +99,12 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'Well done! The flapping of th
      , (@parent_id, 1, 49 /* AwardLevelProportionalXP */, 1, 1, NULL, NULL, NULL, NULL, NULL, 1, 80000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.099999994, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 2, 113 /* AwardLuminance */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 4000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 3, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 4, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 5, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 6, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 7, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 8, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 9, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 20630 /* Trade Note (250,000) */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 4, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 5, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 6, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 7, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 8, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 9, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 20630 /* Trade Note (250,000) */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 10, 22 /* StampQuest */, 0, 1, NULL, 'KillTaskTouTouMargulsCompleted0812', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 11, 31 /* EraseQuest */, 0, 1, NULL, 'KillTaskTouTouMarguls0812', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -133,14 +130,14 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'I have made it my mission to 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46016, 2, 33080,  1, 0,    0, False) /* Create Shadow Blade (33080) for Wield */
      , (46016, 2, 33106,  1, 0,    0, False) /* Create Shield of Isin Dule (33106) for Wield */
-     , (46016, 2,  2587,  0,14,    1, False) /* Create Shirt for Wield */
-     , (46016, 2,  2601,  0,14,    1, False) /* Create Pants for Wield */
-     , (46016, 2, 21150,  0,93,    1, False) /* Create Covenant Sollerets for Wield */
-     , (46016, 2, 21151,  0,93,    1, False) /* Create Covenant Bracers for Wield */
-     , (46016, 2, 21152,  0,93,    1, False) /* Create Covenant Breastplate for Wield */
-     , (46016, 2, 21153,  0,93,    1, False) /* Create Covenant Gauntlets for Wield */
-     , (46016, 2, 21154,  0,93,    1, False) /* Create Covenant Girth for Wield */
-     , (46016, 2, 21155,  0,93,    1, False) /* Create Covenant Greaves for Wield */
-     , (46016, 2, 33104,  0,93,    1, False) /* Create Helm of Isin Dule for Wield */
-     , (46016, 2, 21157,  0,93,    1, False) /* Create Covenant Pauldrons for Wield */
-     , (46016, 2, 21159,  0,93,    1, False) /* Create Covenant Tassets for Wield */;
+     , (46016, 2,  2587,  0,14,    1, False) /* Create Shirt (2587) for Wield */
+     , (46016, 2,  2601,  0,14,    1, False) /* Create Pants (2601) for Wield */
+     , (46016, 2, 21150,  0,93,    1, False) /* Create Covenant Sollerets (21150) for Wield */
+     , (46016, 2, 21151,  0,93,    1, False) /* Create Covenant Bracers (21151) for Wield */
+     , (46016, 2, 21152,  0,93,    1, False) /* Create Covenant Breastplate (21152) for Wield */
+     , (46016, 2, 21153,  0,93,    1, False) /* Create Covenant Gauntlets (21153) for Wield */
+     , (46016, 2, 21154,  0,93,    1, False) /* Create Covenant Girth (21154) for Wield */
+     , (46016, 2, 21155,  0,93,    1, False) /* Create Covenant Greaves (21155) for Wield */
+     , (46016, 2, 33104,  0,93,    1, False) /* Create Helm of Isin Dule (33104) for Wield */
+     , (46016, 2, 21157,  0,93,    1, False) /* Create Covenant Pauldrons (21157) for Wield */
+     , (46016, 2, 21159,  0,93,    1, False) /* Create Covenant Tassets (21159) for Wield */;

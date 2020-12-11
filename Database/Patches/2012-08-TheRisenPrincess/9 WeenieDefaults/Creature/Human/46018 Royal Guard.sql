@@ -1,7 +1,7 @@
-DELETE FROM `weenie` WHERE `class_Id` = 46018; 
+DELETE FROM `weenie` WHERE `class_Id` = 46018;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46018, 'ace46018-royalguard', 10, '2020-07-21 08:13:59') /* Creature */;
+VALUES (46018, 'ace46018-royalguard', 10, '2020-12-04 12:41:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46018,   1,         16) /* ItemType - Creature */
@@ -40,10 +40,7 @@ VALUES (46018,   1,   33554510) /* Setup */
      , (46018,  11,   83890352) /* MouthTexture */
      , (46018,  15,   67116980) /* HairPalette */
      , (46018,  16,   67110065) /* EyesPalette */
-     , (46018,  17,   67115905) /* SkinPalette */
-     , (46018,8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (46018,8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (46018,8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (46018,  17,   67115905) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46018,   1, 290, 0, 0) /* Strength */
@@ -102,12 +99,12 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'Well done! That should help m
      , (@parent_id, 1, 49 /* AwardLevelProportionalXP */, 1, 1, NULL, NULL, NULL, NULL, NULL, 1, 80000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.099999994, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 2, 113 /* AwardLuminance */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3750, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 3, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 4, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 5, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 6, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 7, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 8, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 9, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 20630 /* Trade Note (250,000) */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 4, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 5, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 6, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 7, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 8, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 9, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 20630 /* Trade Note (250,000) */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 10, 22 /* StampQuest */, 0, 1, NULL, 'KillTaskTouTouKnightsCompleted0812', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 11, 31 /* EraseQuest */, 0, 1, NULL, 'KillTaskTouTouKnights0812', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -131,17 +128,17 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'I have made it my mission to 
      , (@parent_id, 2, 70 /* SetQuestCompletions */, 0, 1, NULL, 'KillTaskTouTouKnights0812', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46018, 2, 42717,  1, 0,    0, False) /* Create Shield of Borelean's Royal Guard for Wield */
-     , (46018, 2, 24611,  1, 0,    0, False) /* Create Sword of Lost Light  for Wield */
-     , (46018, 2,  2587,  0,14,    1, False) /* Create Shirt for Wield */
-     , (46018, 2,  2601,  0,14,    1, False) /* Create Pants for Wield */
-     , (46018, 2, 21150,  0,93,    1, False) /* Create Covenant Sollerets for Wield */
-     , (46018, 2, 21151,  0,93,    1, False) /* Create Covenant Bracers for Wield */
-     , (46018, 2, 21152,  0,93,    1, False) /* Create Covenant Breastplate for Wield */
-     , (46018, 2, 21153,  0,93,    1, False) /* Create Covenant Gauntlets for Wield */
-     , (46018, 2, 21154,  0,93,    1, False) /* Create Covenant Girth for Wield */
-     , (46018, 2, 21155,  0,93,    1, False) /* Create Covenant Greaves for Wield */
-     , (46018, 2, 21156,  0,93,    1, False) /* Create Covenant Helm for Wield */
-     , (46018, 2, 21157,  0,93,    1, False) /* Create Covenant Pauldrons for Wield */
-     , (46018, 2, 21159,  0,93,    1, False) /* Create Covenant Tassets for Wield */
-     , (46018, 2, 71356,  0, 0,    1, False) /* Create Royal Knight Cloak for Wield */;
+VALUES (46018, 2, 42717,  1, 0,    0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
+     , (46018, 2, 24611,  1, 0,    0, False) /* Create Sword of Lost Light (24611) for Wield */
+     , (46018, 2,  2587,  0,14,    1, False) /* Create Shirt (2587) for Wield */
+     , (46018, 2,  2601,  0,14,    1, False) /* Create Pants (2601) for Wield */
+     , (46018, 2, 21150,  0,93,    1, False) /* Create Covenant Sollerets (21150) for Wield */
+     , (46018, 2, 21151,  0,93,    1, False) /* Create Covenant Bracers (21151) for Wield */
+     , (46018, 2, 21152,  0,93,    1, False) /* Create Covenant Breastplate (21152) for Wield */
+     , (46018, 2, 21153,  0,93,    1, False) /* Create Covenant Gauntlets (21153) for Wield */
+     , (46018, 2, 21154,  0,93,    1, False) /* Create Covenant Girth (21154) for Wield */
+     , (46018, 2, 21155,  0,93,    1, False) /* Create Covenant Greaves (21155) for Wield */
+     , (46018, 2, 21156,  0,93,    1, False) /* Create Covenant Helm (21156) for Wield */
+     , (46018, 2, 21157,  0,93,    1, False) /* Create Covenant Pauldrons (21157) for Wield */
+     , (46018, 2, 21159,  0,93,    1, False) /* Create Covenant Tassets (21159) for Wield */
+     , (46018, 2, 71356,  0, 0,    1, False) /* Create Royal Knight Cloak (71356) for Wield */;
