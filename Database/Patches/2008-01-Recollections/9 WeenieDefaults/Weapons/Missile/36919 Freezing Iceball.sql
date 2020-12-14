@@ -17,6 +17,7 @@ VALUES (36919,   1,        256) /* ItemType - MissileWeapon */
      , (36919,  33,         -2) /* Bonded - Destroy */
      , (36919,  44,         60) /* Damage */
      , (36919,  45,          8) /* DamageType - Cold */
+     , (36919,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (36919,  48,         47) /* WeaponSkill - MissileWeapons */
      , (36919,  49,         20) /* WeaponTime */
      , (36919,  51,          2) /* CombatUse - Missile */
