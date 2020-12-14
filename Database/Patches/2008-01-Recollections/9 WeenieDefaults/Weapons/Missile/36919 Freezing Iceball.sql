@@ -5,6 +5,7 @@ VALUES (36919, 'ace36919-freezingiceball', 4, '2019-02-10 00:00:00') /* Missile 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36919,   1,        256) /* ItemType - MissileWeapon */
+     , (36919,   3,         61) /* PaletteTemplate - White */
      , (36919,   5,         25) /* EncumbranceVal */
      , (36919,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (36919,  11,        100) /* MaxStackSize */
@@ -18,7 +19,7 @@ VALUES (36919,   1,        256) /* ItemType - MissileWeapon */
      , (36919,  45,          8) /* DamageType - Cold */
      , (36919,  48,         47) /* WeaponSkill - MissileWeapons */
      , (36919,  49,         20) /* WeaponTime */
-     , (36919,  51,          2) /* CombatUse - Missle */
+     , (36919,  51,          2) /* CombatUse - Missile */
      , (36919,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (36919, 106,        440) /* ItemSpellcraft */
      , (36919, 107,        200) /* ItemCurMana */
@@ -55,6 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36919,   1,   33556223) /* Setup */
      , (36919,   3,  536870932) /* SoundTable */
      , (36919,   6,   67111928) /* PaletteBase */
+     , (36919,   7,  268435841) /* ClothingBase */
      , (36919,   8,  100670279) /* Icon */
      , (36919,  22,  872415275) /* PhysicsEffectTable */
-     , (36919,  55,       2168) /* ProcSpell - ColdVulnerabilityOther7 */;
+     , (36919,  55,       2168) /* ProcSpell - Gelidite's Gift */;
