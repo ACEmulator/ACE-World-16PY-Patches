@@ -26,27 +26,19 @@ VALUES (36919,   1,        256) /* ItemType - MissileWeapon */
      , (36919, 107,        200) /* ItemCurMana */
      , (36919, 108,        200) /* ItemMaxMana */
      , (36919, 263,          8) /* ResistanceModifierType */
-     , (36919, 307,          5) /* DamageRating */
-     , (36919, 313,          0) /* CritRating */
-     , (36919, 314,          0) /* CritDamageRating */
-     , (36919, 353,         10) /* WeaponType - Thrown */
-     , (36919, 386,          0) /* Overpower */;
+     , (36919, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36919,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36919,  21,       0) /* WeaponLength */
-     , (36919,  22,     0.5) /* DamageVariance */
+VALUES (36919,  22,     0.5) /* DamageVariance */
      , (36919,  26,      45) /* MaximumVelocity */
      , (36919,  29,       1) /* WeaponDefense */
      , (36919,  39,     0.7) /* DefaultScale */
      , (36919,  62,       1) /* WeaponOffense */
      , (36919,  63,       1) /* DamageMod */
      , (36919,  78,       1) /* Friction */
-     , (36919,  79,       0) /* Elasticity */
-     , (36919, 149,       0) /* WeaponMissileDefense */
-     , (36919, 150,       0) /* WeaponMagicDefense */
      , (36919, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
