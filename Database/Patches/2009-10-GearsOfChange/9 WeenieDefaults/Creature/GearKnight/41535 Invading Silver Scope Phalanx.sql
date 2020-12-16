@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41535;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41535, 'ace41535-invadingsilverscopephalanx', 10, '2020-04-13 19:55:08') /* Creature */;
+VALUES (41535, 'ace41535-invadingsilverscopephalanx', 10, '2020-08-02 19:55:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41535,   1,         16) /* ItemType - Creature */
@@ -15,10 +15,7 @@ VALUES (41535,   1,         16) /* ItemType - Creature */
      , (41535, 146,     250000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41535,   1, True ) /* Stuck */
-     , (41535,  12, True ) /* ReportCollisions */
-     , (41535,  14, True ) /* GravityStatus */
-     , (41535,  19, True ) /* Attackable */;
+VALUES (41535,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41535,   1,       5) /* HeartbeatInterval */
@@ -47,7 +44,8 @@ VALUES (41535,   1,       5) /* HeartbeatInterval */
      , (41535,  70,     1.2) /* ResistElectric */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41535,   1, 'Invading Silver Scope Phalanx') /* Name */;
+VALUES (41535,   1, 'Invading Silver Scope Phalanx') /* Name */
+     , (41535,  45, 'GearknightInvasionPhalanxKilltask_0513') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41535,   1,   33560844) /* Setup */
@@ -106,6 +104,8 @@ VALUES (41535, 9, 41528,  1, 0, 0.35, False) /* Create  (41528) for ContainTreas
      , (41535, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (41535, 9, 34276,  1, 0, 0.02, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */
      , (41535, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (41535, 9, 51266,  1, 0, 0.20, False) /* Create Pile of Gearknight Parts (51266) for ContainTreasure */
+     , (41535, 9,     0,  1, 0, 0.80, False) /* Create nothing for ContainTreasure */
      , (41535, 10, 41245,  1, 0, 0.2, False) /* Create  (41245) for WieldTreasure */
      , (41535, 10, 41237,  1, 0, 0.2, False) /* Create  (41237) for WieldTreasure */
      , (41535, 10, 41246,  1, 0, 0.15, False) /* Create  (41246) for WieldTreasure */

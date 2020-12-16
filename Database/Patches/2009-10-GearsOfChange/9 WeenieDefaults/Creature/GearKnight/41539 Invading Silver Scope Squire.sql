@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41539;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41539, 'ace41539-invadingsilverscopesquire', 10, '2020-04-13 15:01:24') /* Creature */;
+VALUES (41539, 'ace41539-invadingsilverscopesquire', 10, '2020-08-02 15:01:24') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41539,   1,         16) /* ItemType - Creature */
@@ -15,10 +15,7 @@ VALUES (41539,   1,         16) /* ItemType - Creature */
      , (41539, 146,     500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41539,   1, True ) /* Stuck */
-     , (41539,  12, True ) /* ReportCollisions */
-     , (41539,  14, True ) /* GravityStatus */
-     , (41539,  19, True ) /* Attackable */;
+VALUES (41539,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41539,   1,       5) /* HeartbeatInterval */
@@ -111,5 +108,7 @@ VALUES (41539, 2, 43132,  1, 0, 0, False) /* Create Gear Crossbow (43132) for Wi
      , (41539, 9, 41979,  1, 0, 0.05, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (41539, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (41539, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
-     , (41539, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+     , (41539, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (41539, 9, 51266,  1, 0, 0.30, False) /* Create Pile of Gearknight Parts (51266) for ContainTreasure */
+     , (41539, 9,     0,  1, 0, 0.70, False) /* Create nothing for ContainTreasure */;
 

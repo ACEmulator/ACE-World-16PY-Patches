@@ -12,14 +12,14 @@ VALUES (38848,   1,        256) /* ItemType - MissileWeapon */
      , (38848,  18,         64) /* UiEffects - Lightning */
      , (38848,  33,         -2) /* Bonded - Destroy */
      , (38848,  44,         -1) /* Damage */
-     , (38848,  45,         64) /* DamageType - Lightning */
+     , (38848,  45,         64) /* DamageType - Electric */
      , (38848,  46,         16) /* DefaultCombatStyle - Bow */
      , (38848,  48,         47) /* WeaponSkill - MissileWeapons */
      , (38848,  49,         -1) /* WeaponTime */
      , (38848,  50,          1) /* AmmoType - Arrow */
-     , (38848,  51,          2) /* CombatUse - Missile */
-     , (38848,  52,          2) /* ParentLocation */
-     , (38848,  53,          3) /* PlacementPosition */
+     , (38848,  51,          2) /* CombatUse - Missle */
+     , (38848,  52,          2) /* ParentLocation - LeftHand */
+     , (38848,  53,          3) /* PlacementPosition - LeftHand */
      , (38848,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38848, 114,          1) /* Attuned - Attuned */
      , (38848, 151,          2) /* HookType - Wall */
@@ -36,11 +36,9 @@ VALUES (38848,   1, False) /* Stuck */
      , (38848,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38848,  21,       0) /* WeaponLength */
-     , (38848,  22,    0.25) /* DamageVariance */
-     , (38848,  26,       0) /* MaximumVelocity */
+VALUES (38848,  22,    0.25) /* DamageVariance */
      , (38848,  29,     1.2) /* WeaponDefense */
-     , (38848,  39, 1.10000002384186) /* DefaultScale */
+     , (38848,  39,     1.1) /* DefaultScale */
      , (38848,  62,       1) /* WeaponOffense */
      , (38848,  63,       1) /* DamageMod */;
 
@@ -51,6 +49,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38848,   1,   33559031) /* Setup */
      , (38848,   3,  536870932) /* SoundTable */
      , (38848,   6,   67115373) /* PaletteBase */
-     , (38848,   7,   268436873) /* ClothingBase */
+     , (38848,   7,  268436873) /* ClothingBase */
      , (38848,   8,  100677118) /* Icon */
      , (38848,  22,  872415275) /* PhysicsEffectTable */;

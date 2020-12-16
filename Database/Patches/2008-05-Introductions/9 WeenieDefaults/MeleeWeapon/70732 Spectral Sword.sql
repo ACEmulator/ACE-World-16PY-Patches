@@ -37,7 +37,7 @@ VALUES (70732,  22, True ) /* Inscribable */
      , (70732,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (70732,   5,   -0.0500000007450581) /* ManaRate */
+VALUES (70732,   5,   -0.05) /* ManaRate */
      , (70732,  21,       0) /* WeaponLength */
      , (70732,  22,     0.2) /* DamageVariance */
      , (70732,  26,       0) /* MaximumVelocity */
@@ -51,7 +51,7 @@ VALUES (70732,   5,   -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70732,   1, 'Spectral Sword') /* Name */
-     , (70732,  16, 'A ghostly blue sword. Tendrils of ethereal light spill from it. This weapon won''t last long. This item expires in 3 days.') /* LongDesc */;
+     , (70732,  16, 'A ghostly blue sword. Tendrils of ethereal light spill from it. This weapon won''t last long.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70732,   1,   33560577) /* Setup */

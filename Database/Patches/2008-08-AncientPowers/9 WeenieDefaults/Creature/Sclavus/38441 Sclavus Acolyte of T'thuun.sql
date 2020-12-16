@@ -19,7 +19,7 @@ VALUES (38441,   1,         16) /* ItemType - Creature */
      , (38441, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (38441, 140,          1) /* AiOptions - CanOpenDoors */
      , (38441, 146,    1400000) /* XpOverride */;
-     
+
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38441,   1, True ) /* Stuck */
      , (38441,   6, True ) /* AiUsesMana */
@@ -71,7 +71,7 @@ VALUES (38441,   1,   33560596) /* Setup */
      , (38441,   7,  268435727) /* ClothingBase */
      , (38441,   8,  100669120) /* Icon */
      , (38441,  22,  872415280) /* PhysicsEffectTable */
-     , (38441,  32,       4005) /* WieldedTreasureType - 
+     , (38441,  32,       4005) /* WieldedTreasureType -
                                    Wield T'thuun Bow (38923) | Probability: 60%
                                    Wield 14x Arrow (47071) | Probability: 100%
                                    Wield T'thuun Claw (38924) | Probability: 10%
@@ -100,19 +100,20 @@ VALUES (38441,   1,  1000, 0, 0, 1110) /* MaxHealth */
      , (38441,   5,   800, 0, 0, 1020) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (38441, 45, 0, 3, 0, 235, 0, 0) /* LightWeapons        Specialized */
-     , (38441, 47, 0, 3, 0, 170, 0, 0) /* MissileWeapons      Specialized */
-     , (38441, 46, 0, 3, 0, 185, 0, 0) /* FinesseWeapons      Specialized */
-     , (38441,  6, 0, 3, 0, 260, 0, 0) /* MeleeDefense        Specialized */
+VALUES (38441, 45, 0, 3, 0, 435, 0, 0) /* LightWeapons        Specialized */
+     , (38441, 47, 0, 3, 0, 370, 0, 0) /* MissileWeapons      Specialized */
+     , (38441, 46, 0, 3, 0, 485, 0, 0) /* FinesseWeapons      Specialized */
+     , (38441,  6, 0, 3, 0, 360, 0, 0) /* MeleeDefense        Specialized */
      , (38441,  7, 0, 3, 0, 375, 0, 0) /* MissileDefense      Specialized */
-     , (38441, 44, 0, 3, 0, 235, 0, 0) /* HeavyWeapons        Specialized */
+     , (38441, 44, 0, 3, 0, 435, 0, 0) /* HeavyWeapons        Specialized */
      , (38441, 14, 0, 3, 0, 150, 0, 0) /* ArcaneLore          Specialized */
-     , (38441, 15, 0, 3, 0, 245, 0, 0) /* MagicDefense        Specialized */
+     , (38441, 48, 0, 3, 0, 200, 0, 0) /* Shield              Specialized */
+     , (38441, 15, 0, 3, 0, 345, 0, 0) /* MagicDefense        Specialized */
      , (38441, 20, 0, 3, 0, 110, 0, 0) /* Deception           Specialized */
      , (38441, 24, 0, 3, 0,  60, 0, 0) /* Run                 Specialized */
-     , (38441, 31, 0, 3, 0, 150, 0, 0) /* CreatureEnchantment Specialized */
-     , (38441, 33, 0, 3, 0, 150, 0, 0) /* LifeMagic           Specialized */
-     , (38441, 34, 0, 3, 0, 150, 0, 0) /* WarMagic            Specialized */;
+     , (38441, 31, 0, 3, 0, 250, 0, 0) /* CreatureEnchantment Specialized */
+     , (38441, 33, 0, 3, 0, 250, 0, 0) /* LifeMagic           Specialized */
+     , (38441, 34, 0, 3, 0, 250, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (38441,  0,  4,  0,    0,  300,  240,  201,  141,  210,  201,   75,   75,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -132,7 +133,7 @@ VALUES (38441,    2176,  2.02)  /* Enervation */
      , (38441,    4451,  2.02)  /* Incantation of Lightning Bolt */
      , (38441,    4453,  2.02)  /* Incantation of Lightning Volley */
      , (38441,    4487,  2.02)  /* Incantation of Exhaustion Other */;
-     
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38441, 9, 70322,  0, 0, 0.05, False) /* Create Armored Sclavus Head (70322) for ContainTreasure */
      , (38441, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */

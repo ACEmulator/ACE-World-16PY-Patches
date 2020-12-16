@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43957;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43957, 'ace43957-greaterprismaticquarrel', 5, '2019-12-23 00:00:00') /* Ammunition */;
+VALUES (43957, 'ace43957-greaterprismaticquarrel', 5, '2020-10-30 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43957,   1,        256) /* ItemType - MissileWeapon */
@@ -17,7 +17,7 @@ VALUES (43957,   1,        256) /* ItemType - MissileWeapon */
      , (43957,  16,          1) /* ItemUseable - No */
      , (43957,  18,          1) /* UiEffects - Magical */
      , (43957,  19,        100) /* Value */
-     , (43957,  44,         38) /* Damage */
+     , (43957,  44,         50) /* Damage */
      , (43957,  45,  268435456) /* DamageType - Base */
      , (43957,  50,          2) /* AmmoType - Bolt */
      , (43957,  51,          3) /* CombatUse - Ammo */
@@ -37,7 +37,7 @@ VALUES (43957,  17, True ) /* Inelastic */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43957,  21,       0) /* WeaponLength */
-     , (43957,  22, 0.280000001192093) /* DamageVariance */
+     , (43957,  22,     0.4) /* DamageVariance */
      , (43957,  26,       0) /* MaximumVelocity */
      , (43957,  29,       1) /* WeaponDefense */
      , (43957,  62,       1) /* WeaponOffense */
@@ -48,8 +48,7 @@ VALUES (43957,  21,       0) /* WeaponLength */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43957,   1, 'Greater Prismatic Quarrel') /* Name */
      , (43957,  14, 'You must be a trained fletcher of great skill to use these potentially volatile quarrels.') /* Use */
-     , (43957,  16, 'Magically enhanced, crystalline quarrels that draw the elemental energies from elementally attuned crossbows to damage their target.') /* LongDesc */
-     , (43957,  20, 'Greater Prismatic Quarrels') /* PluralName */;
+     , (43957,  16, 'Magically enhanced crystaline quarrels that draw the elemental energies from elementally attuned crossbows to damage their target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43957,   1,   33561225) /* Setup */

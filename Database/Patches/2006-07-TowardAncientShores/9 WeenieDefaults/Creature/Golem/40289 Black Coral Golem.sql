@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40289;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40289, 'ace40289-blackcoralgolem', 10, '2020-06-23 00:00:00') /* Creature */;
+VALUES (40289, 'ace40289-blackcoralgolem', 10, '2020-08-03 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40289,   1,         16) /* ItemType - Creature */
@@ -61,7 +61,8 @@ VALUES (40289,   1,       5) /* HeartbeatInterval */
      , (40289, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40289,   1, 'Black Coral Golem') /* Name */;
+VALUES (40289,   1, 'Black Coral Golem') /* Name */
+     , (40289,  45, 'BlackMarketBlackCoralGolemKilltask') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40289,   1,   33556426) /* Setup */
@@ -127,7 +128,9 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (40289, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (40289, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (40289, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
-     , (40289, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+     , (40289, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (40289, 9, 42348,  0, 0, 0.05, False) /* Create Black Coral Heart (42348) for ContainTreasure */
+     , (40289, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (40289,  5 /* HeartBeat */,  0.075, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

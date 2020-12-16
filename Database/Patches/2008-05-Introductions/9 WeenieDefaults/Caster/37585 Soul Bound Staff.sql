@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37585;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37585, 'ace37585-soulboundstaff', 35, '2020-06-16 05:01:31') /* Caster */;
+VALUES (37585, 'ace37585-soulboundstaff', 35, '2020-10-30 05:01:31') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37585,   1,      32768) /* ItemType - Caster */
@@ -27,7 +27,7 @@ VALUES (37585,   1,      32768) /* ItemType - Caster */
      , (37585, 160,        160) /* WieldDifficulty */
      , (37585, 166,         77) /* SlayerCreatureType - Ghost */
      , (37585, 263,          2) /* ResistanceModifierType */
-     , (37585, 353,         11) /* WeaponType - TwoHanded */;
+     , (37585, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37585,  22, True ) /* Inscribable */
@@ -41,7 +41,7 @@ VALUES (37585,   5,   -0.05) /* ManaRate */
      , (37585,  76,     0.7) /* Translucency */
      , (37585, 136,       2) /* CriticalMultiplier */
      , (37585, 138,       2) /* SlayerDamageBonus */
-     , (37585, 144,     0.15) /* ManaConversionMod */
+     , (37585, 144,    0.15) /* ManaConversionMod */
      , (37585, 147,     0.3) /* CriticalFrequency */
      , (37585, 152,     1.2) /* ElementalDamageMod */
      , (37585, 157,       1) /* ResistanceModifier */;

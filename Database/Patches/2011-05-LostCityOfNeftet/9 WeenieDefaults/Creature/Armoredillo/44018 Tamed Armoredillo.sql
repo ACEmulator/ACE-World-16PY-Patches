@@ -33,24 +33,24 @@ VALUES (44018,   1,       5) /* HeartbeatInterval */
      , (44018,   4,     1.8) /* StaminaRate */
      , (44018,   5,       2) /* ManaRate */
      , (44018,  12,     0.5) /* Shade */
-     , (44018,  13,    0.35) /* ArmorModVsSlash */
-     , (44018,  14,     0.7) /* ArmorModVsPierce */
-     , (44018,  15,    0.35) /* ArmorModVsBludgeon */
-     , (44018,  16,    0.75) /* ArmorModVsCold */
-     , (44018,  17,    0.65) /* ArmorModVsFire */
-     , (44018,  18,     0.5) /* ArmorModVsAcid */
-     , (44018,  19,    0.75) /* ArmorModVsElectric */
-     , (44018,  31,      28) /* VisualAwarenessRange */
+     , (44018,  13,     0.6) /* ArmorModVsSlash */
+     , (44018,  14,     0.5) /* ArmorModVsPierce */
+     , (44018,  15,    0.75) /* ArmorModVsBludgeon */
+     , (44018,  16,       1) /* ArmorModVsCold */
+     , (44018,  17,    0.95) /* ArmorModVsFire */
+     , (44018,  18,    0.95) /* ArmorModVsAcid */
+     , (44018,  19,       1) /* ArmorModVsElectric */
+     , (44018,  27,    5.01) /* RotationSpeed */
+     , (44018,  31,      32) /* VisualAwarenessRange */
      , (44018,  34,       1) /* PowerupTime */
      , (44018,  36,       1) /* ChargeSpeed */
-     , (44018,  39,     1.6) /* DefaultScale */
-     , (44018,  64,     0.5) /* ResistSlash */
-     , (44018,  65,       1) /* ResistPierce */
+     , (44018,  64,    0.65) /* ResistSlash */
+     , (44018,  65,    0.75) /* ResistPierce */
      , (44018,  66,     0.5) /* ResistBludgeon */
-     , (44018,  67,     0.5) /* ResistFire */
-     , (44018,  68,    0.95) /* ResistCold */
-     , (44018,  69,     0.7) /* ResistAcid */
-     , (44018,  70,    0.95) /* ResistElectric */
+     , (44018,  67,     0.3) /* ResistFire */
+     , (44018,  68,     0.3) /* ResistCold */
+     , (44018,  69,     0.3) /* ResistAcid */
+     , (44018,  70,    0.70) /* ResistElectric */
      , (44018,  71,       1) /* ResistHealthBoost */
      , (44018,  72,       1) /* ResistStaminaDrain */
      , (44018,  73,       1) /* ResistStaminaBoost */
@@ -88,20 +88,19 @@ VALUES (44018,   1,  1750, 0, 0, 1905) /* MaxHealth */
      , (44018,   5,     0, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (44018,  6, 0, 3, 0, 223, 0, 0) /* MeleeDefense        Specialized */
-     , (44018,  7, 0, 3, 0, 326, 0, 0) /* MissileDefense      Specialized */
-     , (44018, 45, 0, 3, 0, 222, 0, 0) /* LightWeapons        Specialized */
-     , (44018, 15, 0, 3, 0, 232, 0, 0) /* MagicDefense        Specialized */
-     , (44018, 20, 0, 3, 0,   5, 0, 0) /* Deception           Specialized */
-     , (44018, 22, 0, 3, 0,  20, 0, 0) /* Jump                Specialized */
-     , (44018, 24, 0, 3, 0,  65, 0, 0) /* Run                 Specialized */;
+VALUES (44018,  6, 0, 3, 0, 500, 0, 0) /* MeleeDefense        Specialized */
+     , (44018,  7, 0, 3, 0, 460, 0, 0) /* MissileDefense      Specialized */
+     , (44018, 45, 0, 3, 0, 460, 0, 0) /* LightWeapons        Specialized */
+     , (44018, 15, 0, 3, 0, 425, 0, 0) /* MagicDefense        Specialized */
+     , (44018, 22, 0, 3, 0,  25, 0, 0) /* Jump                Specialized */
+     , (44018, 24, 0, 3, 0, 400, 0, 0) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (44018,  0,  1, 15, 0.75,  190,   67,  133,   67,  143,  123,   95,  143,    0, 1,  0.7, 0.34,    0,  0.7, 0.34,    0,    0,    0,    0,    0,    0,    0) /* Head */
-     , (44018,  9,  1, 70, 0.75,  190,   67,  133,   67,  143,  123,   95,  143,    0, 1,  0.3, 0.33,    0,  0.3, 0.33,    0,    0,    0,    0,    0,    0,    0) /* Horn */
-     , (44018, 16,  1, 70,  0.5,  190,   67,  133,   67,  143,  123,   95,  143,    0, 2,    0, 0.33,  0.3,    0, 0.33,  0.3,  0.5, 0.34,  0.3,  0.5, 0.34,  0.3) /* Torso */
-     , (44018, 17,  4,  0,    0,  190,   67,  133,   67,  143,  123,   95,  143,    0, 2,    0,    0,    0,    0,    0,    0,  0.5, 0.33,    0,  0.5, 0.33,    0) /* Tail */
-     , (44018, 19,  4,  0,    0,  190,   67,  133,   67,  143,  123,   95,  143,    0, 3,    0,    0,  0.7,    0,    0,  0.7,    0, 0.33,  0.7,    0, 0.33,  0.7) /* Leg */;
+VALUES (44018,  0,  1, 475, 0.75,  500,   67,  133,   67,  143,  123,   95,  143,    0, 1,  0.7, 0.34,    0,  0.7, 0.34,    0,    0,    0,    0,    0,    0,    0) /* Head */
+     , (44018,  9,  1, 475, 0.75,  500,   67,  133,   67,  143,  123,   95,  143,    0, 1,  0.3, 0.33,    0,  0.3, 0.33,    0,    0,    0,    0,    0,    0,    0) /* Horn */
+     , (44018, 16,  1, 475,  0.5,  500,   67,  133,   67,  143,  123,   95,  143,    0, 2,    0, 0.33,  0.3,    0, 0.33,  0.3,  0.5, 0.34,  0.3,  0.5, 0.34,  0.3) /* Torso */
+     , (44018, 17,  4,  0,    0,  500,   67,  133,   67,  143,  123,   95,  143,    0, 2,    0,    0,    0,    0,    0,    0,  0.5, 0.33,    0,  0.5, 0.33,    0) /* Tail */
+     , (44018, 19,  4,  0,    0,  500,   67,  133,   67,  143,  123,   95,  143,    0, 3,    0,    0,  0.7,    0,    0,  0.7,    0, 0.33,  0.7,    0, 0.33,  0.7) /* Leg */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44018,  5 /* HeartBeat */,   0.05, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

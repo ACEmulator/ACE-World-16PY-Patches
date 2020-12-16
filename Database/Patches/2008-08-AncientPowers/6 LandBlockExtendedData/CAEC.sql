@@ -110,3 +110,19 @@ VALUES (0xCAEC0018, 31901, 0xCAEC0132, 142, -33.58, 70, -4.37114E-08, 0, 0, -1, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0xCAEC0019, 31901, 0xCAEC0157, 102, -3.58001, 70, 0.7345474, 0, 0, -0.6785573,  True, '2020-07-23 00:00:00'); /* Fanatical Mukkir */
 /* @teleloc 0xCAEC0157 [102.000000 -3.580010 70.000000] 0.734547 0.000000 0.000000 -0.678557 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CAEC002,  1154, 0xCAEC0009, 41.6688, 10.7998, 98.68282, -0.832131, 0, 0, -0.554579, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+/* @teleloc 0xCAEC0009 [41.668800 10.799800 98.682820] -0.832131 0.000000 0.000000 -0.554579 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7CAEC002, 0x7CAEC005, '2019-02-10 00:00:00') /* Exploration Marker (39776) */
+     , (0x7CAEC002, 0x7CAEC006, '2019-02-10 00:00:00') /* Rock (38777) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CAEC005, 39776, 0xCAEC0009, 41.6688, 10.7998, 98.68282, -0.832131, 0, 0, -0.554579,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
+/* @teleloc 0xCAEC0009 [41.668800 10.799800 98.682820] -0.832131 0.000000 0.000000 -0.554579 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CAEC006, 38777, 0xCAEC0009, 29.1335, 14.5971, 102.2888, 0.0736817, 0, 0, -0.997282,  True, '2019-02-10 00:00:00'); /* Rock */
+/* @teleloc 0xCAEC0009 [29.133500 14.597100 102.288800] 0.073682 0.000000 0.000000 -0.997282 */

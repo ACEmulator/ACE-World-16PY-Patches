@@ -27,7 +27,6 @@ VALUES (44098,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44098,   1, True ) /* Stuck */
      , (44098,   6, True ) /* AiUsesMana */
-     , (44098,   7, True ) /* AiUseHumanMagicAnimations */
      , (44098,  10, True ) /* AttackerAi */
      , (44098,  11, False) /* IgnoreCollisions */
      , (44098,  12, True ) /* ReportCollisions */
@@ -120,7 +119,7 @@ VALUES (44098,  4442,   2.06)  /* Incantation of Force Blast */
 	 , (44098,  6192,   2.06)  /* Nuhmudira's Spines */
 	 , (44098,  2174,   2.06)  /*  Archer's Gift */
 	 , (44098,  2043,   2.16)  /* Weight of Eternity */;
-		 
+
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44098, 9, 44240,  3, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
@@ -132,7 +131,7 @@ VALUES (44098, 9, 44240,  3, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44098, 9, 44123,  1, 0, 0.20, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
      , (44098, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
      , (44098, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
-	 
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44098,  17 /* NewEnemy */,  1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -149,7 +148,7 @@ VALUES (44098, -1, 44046, 0, 2, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Mu
 	 , (44098, -1, 44036, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Mumiyah Champion (44036) (x1)  - Location to (re)Generate: Scatter */
 	 , (44098, -1, 44044, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Mumiyah Soldier (44044) (x1)  - Location to (re)Generate: Scatter */
 	 , (44098, -1, 44038, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Mumiyah Guardian (44038) (x1)  - Location to (re)Generate: Scatter */;
-     
+
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44098,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -159,7 +158,7 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'SlaveMasterOpenRewardDoor', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 	 , (@parent_id,  1,  88 /* LocalSignal */, 0, 1, NULL, 'SlaveMasterOpenDoor', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-	 
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44098,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

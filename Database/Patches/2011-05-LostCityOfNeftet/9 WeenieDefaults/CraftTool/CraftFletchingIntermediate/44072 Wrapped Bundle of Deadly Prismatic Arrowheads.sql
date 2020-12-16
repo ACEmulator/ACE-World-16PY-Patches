@@ -1,15 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44072;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44072, 'ace44072-wrappedbundleofdeadlyprismaticarrowheads', 44, '2019-04-25 00:00:00') /* CraftTool */;
+VALUES (44072, 'ace44072-wrappedbundleofdeadlyprismaticarrowheads', 44, '2020-10-31 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44072,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
-     , (44072,   5,          1) /* EncumbranceVal */
+     , (44072,   5,          0) /* EncumbranceVal */
      , (44072,   9,          0) /* ValidLocations - None */
      , (44072,  11,        100) /* MaxStackSize */
      , (44072,  12,          1) /* StackSize */
-     , (44072,  13,          1) /* StackUnitEncumbrance */
+     , (44072,  13,          0) /* StackUnitEncumbrance */
      , (44072,  15,      10000) /* StackUnitValue */
      , (44072,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44072,  19,      10000) /* Value */
@@ -22,7 +22,7 @@ VALUES (44072,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44072,   1, 'Wrapped Bundle of Deadly Prismatic Arrowheads') /* Name */
-     , (44072,  16, 'This item is used in fletching.') /* LongDesc */
+     , (44072,  14, 'This item is used in fletching.') /* Use */
      , (44072,  20, 'Wrapped Bundles of Deadly Prismatic Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

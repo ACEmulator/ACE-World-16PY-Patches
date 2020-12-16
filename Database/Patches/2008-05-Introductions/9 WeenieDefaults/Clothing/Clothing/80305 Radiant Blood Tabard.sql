@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80305;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80305, 'ace80305-radiantbloodtabard', 2, '2005-02-09 10:00:00') /* Clothing */;
+VALUES (80305, 'ace80305-radiantbloodtabard', 2, '2020-08-02 10:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80305,   1,          4) /* ItemType - Clothing */
@@ -12,7 +12,7 @@ VALUES (80305,   1,          4) /* ItemType - Clothing */
      , (80305,  16,          1) /* ItemUseable - No */
      , (80305,  19,         15) /* Value */
      , (80305,  27,          1) /* ArmorType - Cloth */
-     , (80305,  28,          0) /* ArmorLevel */
+     , (80305,  28,         10) /* ArmorLevel */
      , (80305,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

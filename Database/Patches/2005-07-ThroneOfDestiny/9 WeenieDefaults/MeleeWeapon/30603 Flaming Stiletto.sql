@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30603;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30603, 'daggerstilettofire', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (30603, 'daggerstilettofire', 6, '2020-09-29 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30603,   1,          1) /* ItemType - MeleeWeapon */
@@ -15,24 +15,19 @@ VALUES (30603,   1,          1) /* ItemType - MeleeWeapon */
      , (30603,  44,          7) /* Damage */
      , (30603,  45,         16) /* DamageType - Fire */
      , (30603,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (30603,  47,        128) /* AttackType - DoubleThrust */
+     , (30603,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
      , (30603,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (30603,  49,         40) /* WeaponTime */
      , (30603,  51,          1) /* CombatUse - Melee */
-     , (30603,  53,        101) /* PlacementPosition - Resting */
      , (30603,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30603, 169,  101254146) /* TsysMutationData */
      , (30603, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30603,  11, True ) /* IgnoreCollisions */
-     , (30603,  13, True ) /* Ethereal */
-     , (30603,  14, True ) /* GravityStatus */
-     , (30603,  19, True ) /* Attackable */
-     , (30603,  22, True ) /* Inscribable */;
+VALUES (30603,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30603,  21, 0.400000005960464) /* WeaponLength */
+VALUES (30603,  21,     0.4) /* WeaponLength */
      , (30603,  22,    0.75) /* DamageVariance */
      , (30603,  26,       0) /* MaximumVelocity */
      , (30603,  29,       1) /* WeaponDefense */

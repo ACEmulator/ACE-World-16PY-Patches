@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44224;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44224, 'ace44224-wrappedbundleofgreaterdeadlybluntarrowheads', 44, '2019-12-23 17:14:28') /* CraftTool */;
+VALUES (44224, 'ace44224-wrappedbundleofgreaterdeadlybluntarrowheads', 44, '2020-10-31 17:14:28') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44224,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
@@ -9,9 +9,9 @@ VALUES (44224,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44224,  11,        100) /* MaxStackSize */
      , (44224,  12,          1) /* StackSize */
      , (44224,  13,          0) /* StackUnitEncumbrance */
-     , (44224,  15,          1) /* StackUnitValue */
+     , (44224,  15,      12000) /* StackUnitValue */
      , (44224,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (44224,  19,          1) /* Value */
+     , (44224,  19,      12000) /* Value */
      , (44224,  33,          1) /* Bonded - Bonded */
      , (44224,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44224,  94,  134217728) /* TargetType - CraftFletchingIntermediate */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30360;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30360, 'ringrarechannelling', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (30360, 'ringrarechannelling', 1, '2020-09-17 06:52:23') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30360,   1,          8) /* ItemType - Jewelry */
@@ -25,14 +25,11 @@ VALUES (30360,   1,          8) /* ItemType - Jewelry */
      , (30360, 169,  118162702) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30360,  11, True ) /* IgnoreCollisions */
-     , (30360,  13, True ) /* Ethereal */
-     , (30360,  14, True ) /* GravityStatus */
-     , (30360,  22, True ) /* Inscribable */;
+VALUES (30360,  22,    True) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30360,   5, -0.0333333015441895) /* ManaRate */
-     , (30360,  12, 0.660000026226044) /* Shade */
+VALUES (30360,   5,  -0.033) /* ManaRate */
+     , (30360,  12,    0.66) /* Shade */
      , (30360,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -43,7 +40,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30360,   1,   33554691) /* Setup */
      , (30360,   3,  536870932) /* SoundTable */
      , (30360,   6,   67111919) /* PaletteBase */
-     , (30360,   8,  100686827) /* Icon */
+     , (30360,   8,  100686822) /* Icon */
      , (30360,  22,  872415275) /* PhysicsEffectTable */
      , (30360,  36,  234881042) /* MutateFilter */
      , (30360,  46,  939524146) /* TsysMutationFilter */

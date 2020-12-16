@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45104;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45104, 'ace45104-acidrapier', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (45104, 'ace45104-acidrapier', 6, '2020-10-07 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45104,   1,          1) /* ItemType - MeleeWeapon */
@@ -15,7 +15,7 @@ VALUES (45104,   1,          1) /* ItemType - MeleeWeapon */
      , (45104,  44,          7) /* Damage */
      , (45104,  45,         32) /* DamageType - Acid */
      , (45104,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (45104,  47,        130) /* AttackType - Thrust, DoubleThrust */
+     , (45104,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
      , (45104,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (45104,  49,         30) /* WeaponTime */
      , (45104,  51,          1) /* CombatUse - Melee */
@@ -29,10 +29,10 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45104,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45104,  21, 0.949999988079071) /* WeaponLength */
+VALUES (45104,  21,    0.95) /* WeaponLength */
      , (45104,  22,     0.5) /* DamageVariance */
      , (45104,  29,       1) /* WeaponDefense */
-     , (45104,  39, 1.10000002384186) /* DefaultScale */
+     , (45104,  39,     1.1) /* DefaultScale */
      , (45104,  62,       1) /* WeaponOffense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -44,4 +44,4 @@ VALUES (38723,   1,   33556769) /* Setup */
      , (38723,   8,  100672464) /* Icon */
      , (38723,  22,  872415275) /* PhysicsEffectTable */
      , (38723,  28,        157) /* Spell - SummonPortal1 */
-     , (38723,  31,      37384) /* LinkedPortalOne - Surface */;
+     , (38723,  31,      37387) /* LinkedPortalOne - Celestial Hand Stronghold */;

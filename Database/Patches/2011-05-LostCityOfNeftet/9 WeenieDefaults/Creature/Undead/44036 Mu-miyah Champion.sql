@@ -22,7 +22,6 @@ VALUES (44036,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44036,   1, True ) /* Stuck */
      , (44036,   6, True ) /* AiUsesMana */
-     , (44036,   7, True ) /* AiUseHumanMagicAnimations */
      , (44036,  10, True ) /* AttackerAi */
      , (44036,  11, False) /* IgnoreCollisions */
      , (44036,  12, True ) /* ReportCollisions */
@@ -98,10 +97,10 @@ VALUES (44036,   1,  4100, 0, 0, 4300) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (44036,  6, 0, 2, 0, 470, 0, 0) /* MeleeDefense        Trained */
      , (44036,  7, 0, 2, 0, 390, 0, 0) /* MissileDefense      Trained */
-     , (44036, 15, 0, 2, 0, 400, 0, 0) /* MagicDefense        Trained */
+     , (44036, 15, 0, 2, 0, 320, 0, 0) /* MagicDefense        Trained */
      , (44036, 24, 0, 2, 0, 255, 0, 0) /* Run                 Trained */
-     , (44036, 33, 0, 2, 0, 500, 0, 0) /* LifeMagic           Trained */
-     , (44036, 34, 0, 2, 0, 440, 0, 0) /* WarMagic            Trained */
+     , (44036, 33, 0, 2, 0, 350, 0, 0) /* LifeMagic           Trained */
+     , (44036, 34, 0, 2, 0, 350, 0, 0) /* WarMagic            Trained */
      , (44036, 45, 0, 3, 0, 500, 0, 0) /* LightWeapons        Specialized */
      , (44036, 46, 0, 3, 0, 500, 0, 0) /* FinesseWeapons      Specialized */;
 

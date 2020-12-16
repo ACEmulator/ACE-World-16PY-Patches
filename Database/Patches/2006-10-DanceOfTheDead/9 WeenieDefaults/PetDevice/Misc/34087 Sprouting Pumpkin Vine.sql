@@ -9,8 +9,6 @@ VALUES (34087,   1,        128) /* ItemType - Misc */
      , (34087,  16,          8) /* ItemUseable - Contained */
      , (34087,  19,          0) /* Value */
      , (34087,  33,          0) /* Bonded - Normal */
-     , (34087,  53,        101) /* PlacementPosition - Resting */
-     , (34087,  65,        101) /* Placement - Resting */
      , (34087,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34087,  94,         16) /* TargetType - Creature */
      , (34087, 114,          0) /* Attuned - Normal */
@@ -18,16 +16,11 @@ VALUES (34087,   1,        128) /* ItemType - Misc */
      , (34087, 266,      34080) /* PetClass - Pet Pumpkin */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34087,  11, True ) /* IgnoreCollisions */
-     , (34087,  13, True ) /* Ethereal */
-     , (34087,  14, True ) /* GravityStatus */
-     , (34087,  19, True ) /* Attackable */
-     , (34087,  22, True ) /* Inscribable */
-     , (34087,  63, True ) /* UnlimitedUse */
+VALUES (34087,  22, True ) /* Inscribable */
      , (34087,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34087,  39, 0.600000023841858) /* DefaultScale */;
+VALUES (34087,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34087,   1, 'Sprouting Pumpkin Vine') /* Name */

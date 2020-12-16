@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 15295;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (15295, 'atlatldartgreaterfrost', 5, '2019-12-23 17:14:28') /* Ammunition */;
+VALUES (15295, 'atlatldartgreaterfrost', 5, '2020-10-30 17:14:28') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15295,   1,        256) /* ItemType - MissileWeapon */
@@ -17,7 +17,7 @@ VALUES (15295,   1,        256) /* ItemType - MissileWeapon */
      , (15295,  16,          1) /* ItemUseable - No */
      , (15295,  18,        128) /* UiEffects - Frost */
      , (15295,  19,         11) /* Value */
-     , (15295,  44,         18) /* Damage */
+     , (15295,  44,         19) /* Damage */
      , (15295,  45,          8) /* DamageType - Cold */
      , (15295,  50,          4) /* AmmoType - Atlatl */
      , (15295,  51,          3) /* CombatUse - Ammo */
@@ -30,9 +30,9 @@ VALUES (15295,  17, True ) /* Inelastic */
      , (15295,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15295,  22, 0.239999994635582) /* DamageVariance */
+VALUES (15295,  22,    0.25) /* DamageVariance */
      , (15295,  29,       1) /* WeaponDefense */
-     , (15295,  39, 1.10000002384186) /* DefaultScale */
+     , (15295,  39,     1.1) /* DefaultScale */
      , (15295,  62,       1) /* WeaponOffense */
      , (15295,  78,       1) /* Friction */
      , (15295,  79,       0) /* Elasticity */;
