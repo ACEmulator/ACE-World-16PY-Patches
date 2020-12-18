@@ -37,6 +37,7 @@ VALUES (70974,   1,       5) /* HeartbeatInterval */
      , (70974,  18,     1.1) /* ArmorModVsAcid */
      , (70974,  19,     1.1) /* ArmorModVsElectric */
      , (70974,  31,      20) /* VisualAwarenessRange */
+	 , (70974,  39,     1.3) /* DefaultScale */
      , (70974,  64,     0.3) /* ResistSlash */
      , (70974,  65,     0.3) /* ResistPierce */
      , (70974,  66,     0.3) /* ResistBludgeon */

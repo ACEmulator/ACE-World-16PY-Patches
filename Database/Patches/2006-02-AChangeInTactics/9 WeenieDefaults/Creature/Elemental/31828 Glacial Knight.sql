@@ -37,6 +37,7 @@ VALUES (31828,   1,       5) /* HeartbeatInterval */
      , (31828,  18,    0.85) /* ArmorModVsAcid */
      , (31828,  19,    0.85) /* ArmorModVsElectric */
      , (31828,  31,      20) /* VisualAwarenessRange */
+	 , (31828,  39,     1.3) /* DefaultScale */
      , (31828,  41,     300) /* RegenerationInterval */
      , (31828,  64,    0.45) /* ResistSlash */
      , (31828,  65,    0.45) /* ResistPierce */

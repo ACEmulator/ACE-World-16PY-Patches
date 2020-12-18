@@ -6,7 +6,7 @@ VALUES (31897, 'ace31897-barbaricmukkir', 10, '2020-07-08 23:52:47') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31897,   1,         16) /* ItemType - Creature */
      , (31897,   2,         89) /* CreatureType - Mukkir */
-     , (31897,   3,          4) /* PaletteTemplate - Brown */
+     , (31897,   3,          2) /* PaletteTemplate - Blue */
      , (31897,   6,         -1) /* ItemsCapacity */
      , (31897,   7,         -1) /* ContainersCapacity */
      , (31897,  16,          1) /* ItemUseable - No */
@@ -61,6 +61,7 @@ VALUES (31897,   1,   33559741) /* Setup */
      , (31897,   3,  536871107) /* SoundTable */
      , (31897,   4,  805306368) /* CombatTable */
      , (31897,   6,   67116771) /* PaletteBase */
+     , (31897,   7,  268437061) /* ClothingBase */
      , (31897,   8,  100688542) /* Icon */
      , (31897,  22,  872415417) /* PhysicsEffectTable */
      , (31897,  30,         86) /* PhysicsScript - BreatheAcid */;
@@ -152,4 +153,3 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31897, 9, 36362,  0, 0, 0.05, False) /* Create Mukkir Head (36362) for ContainTreasure */
      , (31897, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
-     
