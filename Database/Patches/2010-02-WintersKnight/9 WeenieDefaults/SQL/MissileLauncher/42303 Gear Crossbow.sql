@@ -10,16 +10,11 @@ VALUES (42303,   1,        256) /* ItemType - MissileWeapon */
      , (42303,  16,          1) /* ItemUseable - No */
      , (42303,  18,          1) /* UiEffects - Magical */
      , (42303,  19,       6000) /* Value */
-     , (42303,  33,         -2) /* Bonded - Destroy */
-     , (42303,  44,          0) /* Damage */
-     , (42303,  45,          0) /* DamageType - Undef */
      , (42303,  46,         32) /* DefaultCombatStyle - Crossbow */
      , (42303,  48,         47) /* WeaponSkill - MissileWeapons */
      , (42303,  49,         60) /* WeaponTime */
      , (42303,  50,          2) /* AmmoType - Bolt */
      , (42303,  51,          2) /* CombatUse - Missle */
-     , (42303,  52,          2) /* ParentLocation - LeftHand */
-     , (42303,  53,        101) /* PlacementPosition - Resting */
      , (42303,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42303, 106,        400) /* ItemSpellcraft */
      , (42303, 107,        800) /* ItemCurMana */
