@@ -14,6 +14,7 @@ VALUES (42304,   1,        256) /* ItemType - MissileWeapon */
      , (42304,  44,          0) /* Damage */
      , (42304,  45,          0) /* DamageType - Undef */
      , (42304,  46,         32) /* DefaultCombatStyle - Crossbow */
+     , (42304,  48,         47) /* WeaponSkill - MissileWeapons */
      , (42304,  49,         60) /* WeaponTime */
      , (42304,  50,          2) /* AmmoType - Bolt */
      , (42304,  51,          2) /* CombatUse - Missle */
