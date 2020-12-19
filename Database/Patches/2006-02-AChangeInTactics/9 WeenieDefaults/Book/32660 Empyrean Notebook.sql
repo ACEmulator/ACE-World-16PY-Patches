@@ -9,24 +9,18 @@ VALUES (32660,   1,       8192) /* ItemType - Writable */
      , (32660,  16,          8) /* ItemUseable - Contained */
      , (32660,  19,         90) /* Value */
      , (32660,  33,          1) /* Bonded - Bonded */
-     , (32660,  53,        101) /* PlacementPosition - Resting */
      , (32660,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32660, 114,          1) /* Attuned - Attuned */
      , (32660, 174,          1) /* AppraisalPages */
      , (32660, 175,          1) /* AppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32660,   1, False ) /* Stuck */
-     , (32660,  11, True ) /* IgnoreCollisions */
-     , (32660,  13, True ) /* Ethereal */
-     , (32660,  14, True ) /* GravityStatus */
-     , (32660,  19, True ) /* Attackable */
-     , (32660,  22, True ) /* Inscribable */
+VALUES (32660,  22, True ) /* Inscribable */
      , (32660,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32660,  39, 1.2200000286102295) /* DefaultScale */
-     , (32660,  54,       1) /* UseRadius */;
+VALUES (32660,  39,   1.22) /* DefaultScale */
+     , (32660,  54,      1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32660,   1, 'Empyrean Notebook') /* Name */
