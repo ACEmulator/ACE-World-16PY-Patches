@@ -37,7 +37,7 @@ VALUES (31829,   1,       5) /* HeartbeatInterval */
      , (31829,  18,       1) /* ArmorModVsAcid */
      , (31829,  19,     100) /* ArmorModVsElectric */
      , (31829,  31,      20) /* VisualAwarenessRange */
-	 , (31829,  39,     1.3) /* DefaultScale */
+     , (31829,  39,     1.3) /* DefaultScale */
      , (31829,  64,    0.45) /* ResistSlash */
      , (31829,  65,    0.45) /* ResistPierce */
      , (31829,  66,    0.45) /* ResistBludgeon */
