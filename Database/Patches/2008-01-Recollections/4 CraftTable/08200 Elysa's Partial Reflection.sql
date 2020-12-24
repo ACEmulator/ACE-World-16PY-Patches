@@ -1,9 +1,9 @@
-DELETE FROM `recipe` WHERE `id` = 8202;
+DELETE FROM `recipe` WHERE `id` = 8200;
 
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
-VALUES (8202, 0, 0, 0, 0, 36784, 1, 'You bring the two gems into proximity. They both give off a small pop and vanish in clouds of purple mist. The mist coalesces into a ghostly arrow tipped with a small dab of black goo.', 0, 0, '', 1, 1, '', 1, 1, '', 0, 0, '', 1, 1, '', 0, '2020-09-07 03:45:03');
+VALUES (8200, 0, 0, 0, 0, 36788 /* Elysa's Partial Reflection */, 1, 'You bring the two gems into close proximity, and they fuse into one.', 0, 0, '', 1, 1, '', 1, 1, '', 0, 0, '', 1, 1, '', 0, '2020-09-07 03:45:03');
 
-DELETE FROM `cook_book` WHERE `recipe_Id` = 8202;
+DELETE FROM `cook_book` WHERE `recipe_Id` = 8200;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8202, 36782, 36783, '2020-09-07 03:45:03');
+VALUES (8200, 36786 /* Elysa's Hope */, 36787 /* Elysa's Resolve */, '2020-09-07 03:45:03');
