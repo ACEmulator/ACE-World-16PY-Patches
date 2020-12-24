@@ -1,10 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71235;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71235, 'ace71235-weakenedharbingerwave3generator', 1, '2020-11-25 23:48:00') /* Generic */;
+VALUES (71235, 'ace71235-weakenedharbingerwave3generator', 10, '2020-11-25 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (71235,  81,          7) /* MaxGeneratedObjects */
+VALUES (71235,   1,         16) /* ItemType - Creature */
+     , (71235,   6,         -1) /* ItemsCapacity */
+     , (71235,   7,         -1) /* ContainersCapacity */
+     , (71235,  16,          1) /* ItemUseable - No */
+     , (71235,  25,        120) /* Level */
+     , (71235,  27,          0) /* ArmorType - None */
+     , (71235,  68,          5) /* TargetingTactic - Random, LastDamager */
+     , (71235,  81,          7) /* MaxGeneratedObjects */
      , (71235,  82,          7) /* InitGeneratedObjects */
      , (71235,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71235, 100,          1) /* GeneratorType - Relative */
@@ -13,11 +20,15 @@ VALUES (71235,  81,          7) /* MaxGeneratedObjects */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (71235,   1, True ) /* Stuck */
-     , (71235,  18, True ) /* Visibility */;
+     , (71235,  18, True ) /* Visibility */
+     , (71235,  19, False) /* Attackable */
+     , (71235,  29, True ) /* NoCorpse */
+     , (71235,  52, True ) /* AiImmobile */
+     , (71235,  74, True ) /* GeneratorAutomaticDestruction */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (71235,  41,    9999) /* RegenerationInterval */
-     , (71235,  43,      10) /* GeneratorRadius */;
+VALUES (71235,  41,    20) /* RegenerationInterval */
+     , (71235,  43,    10) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71235,   1, 'Weakened Harbinger Wave 3 Controller') /* Name */;
@@ -36,7 +47,7 @@ VALUES (@parent_id, 0, 23 /* StartEvent */, 0, 1, NULL, 'WeakenedHarbingerWaveFo
      , (@parent_id, 1, 24 /* StopEvent */, 0, 1, NULL, 'WeakenedHarbingerWaveThree', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (71235, -1, 31832, 1, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Caustic Knight (31832) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (71235, -1, 31829, 1, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Galvanic Knight (31829) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (71235, -1, 31828, 1, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Glacial Knight (31828) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (71235, -1, 31827, 1, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Incendiary Knight (31827) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (71235, -1, 31832, 180, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Caustic Knight (31832) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (71235, -1, 31829, 180, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Galvanic Knight (31829) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (71235, -1, 31828, 180, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Glacial Knight (31828) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (71235, -1, 31827, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Incendiary Knight (31827) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

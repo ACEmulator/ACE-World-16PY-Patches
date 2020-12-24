@@ -1,10 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71233;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71233, 'ace71233-weakenedharbingerwave1controller', 1, '2020-11-25 00:00:00') /* Generic */;
+VALUES (71233, 'ace71233-weakenedharbingerwave1controller', 10, '2020-11-25 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (71233,  81,          4) /* MaxGeneratedObjects */
+VALUES (71233,   1,         16) /* ItemType - Creature */
+     , (71233,   6,         -1) /* ItemsCapacity */
+     , (71233,   7,         -1) /* ContainersCapacity */
+     , (71233,  16,          1) /* ItemUseable - No */
+     , (71233,  25,        120) /* Level */
+     , (71233,  27,          0) /* ArmorType - None */
+     , (71233,  68,          5) /* TargetingTactic - Random, LastDamager */
+     , (71233,  81,          4) /* MaxGeneratedObjects */
      , (71233,  82,          4) /* InitGeneratedObjects */
      , (71233,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71233, 100,          1) /* GeneratorType - Relative */
@@ -13,7 +20,11 @@ VALUES (71233,  81,          4) /* MaxGeneratedObjects */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (71233,   1, True ) /* Stuck */
-     , (71233,  18, True ) /* Visibility */;
+     , (71233,  18, True ) /* Visibility */
+     , (71233,  19, False) /* Attackable */
+     , (71233,  29, True ) /* NoCorpse */
+     , (71233,  52, True ) /* AiImmobile */
+     , (71233,  74, True ) /* GeneratorAutomaticDestruction */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (71233,  41,    9999) /* RegenerationInterval */

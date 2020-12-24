@@ -1,10 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71234;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71234, 'ace71234-weakenedharbingerwave2generator', 1, '2020-11-25 23:48:00') /* Generic */;
+VALUES (71234, 'ace71234-weakenedharbingerwave2generator', 10, '2020-11-25 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (71234,  81,          8) /* MaxGeneratedObjects */
+VALUES (71234,   1,         16) /* ItemType - Creature */
+     , (71234,   6,         -1) /* ItemsCapacity */
+     , (71234,   7,         -1) /* ContainersCapacity */
+     , (71234,  16,          1) /* ItemUseable - No */
+     , (71234,  25,        120) /* Level */
+     , (71234,  27,          0) /* ArmorType - None */
+     , (71234,  68,          5) /* TargetingTactic - Random, LastDamager */
+     , (71234,  81,          8) /* MaxGeneratedObjects */
      , (71234,  82,          8) /* InitGeneratedObjects */
      , (71234,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71234, 100,          1) /* GeneratorType - Relative */
@@ -13,11 +20,15 @@ VALUES (71234,  81,          8) /* MaxGeneratedObjects */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (71234,   1, True ) /* Stuck */
-     , (71234,  18, True ) /* Visibility */;
+     , (71234,  18, True ) /* Visibility */
+     , (71234,  19, False) /* Attackable */
+     , (71234,  29, True ) /* NoCorpse */
+     , (71234,  52, True ) /* AiImmobile */
+     , (71234,  74, True ) /* GeneratorAutomaticDestruction */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (71234,  41,    9999) /* RegenerationInterval */
-     , (71234,  43,      10) /* GeneratorRadius */;
+VALUES (71234,  41,    20) /* RegenerationInterval */
+     , (71234,  43,    10) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71234,   1, 'Weakened Harbinger Wave 2 Controller') /* Name */;
@@ -36,7 +47,7 @@ VALUES (@parent_id, 0, 23 /* StartEvent */, 0, 1, NULL, 'WeakenedHarbingerWaveTh
      , (@parent_id, 1, 24 /* StopEvent */, 0, 1, NULL, 'WeakenedHarbingerWaveTwo', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (71234, -1, 32947, 1, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Child of Acid (32947) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (71234, -1, 32948, 1, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Child of Fire (32948) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (71234, -1, 32949, 1, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Child of Frost (32949) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (71234, -1, 32950, 1, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Child of Lightning (32950) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (71234, -1, 32947, 180, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Child of Acid (32947) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (71234, -1, 32948, 180, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Child of Fire (32948) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (71234, -1, 32949, 180, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Child of Frost (32949) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (71234, -1, 32950, 180, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Child of Lightning (32950) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
