@@ -66,7 +66,8 @@ VALUES (12027,   1,       5) /* HeartbeatInterval */
      , (12027, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12027,   1, 'Lord of Decay') /* Name */;
+VALUES (12027,   1, 'Lord of Decay') /* Name */
+     , (12027,  45, 'KilltaskRareGame_0609') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12027,   1,   33555465) /* Setup */

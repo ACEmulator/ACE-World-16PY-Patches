@@ -70,7 +70,8 @@ VALUES (12006,   1,       5) /* HeartbeatInterval */
      , (12006, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12006,   1, 'Swamp King') /* Name */;
+VALUES (12006,   1, 'Swamp King') /* Name */
+     , (12006,  45, 'KilltaskRareGame_0609') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12006,   1,   33557327) /* Setup */

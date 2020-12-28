@@ -1,17 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33940;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33940, 'ace33940-enhancedcrystalsword', 6, '2020-06-25 13:02:06') /* MeleeWeapon */;
+VALUES (33940, 'ace33940-enhancedcrystalsword', 6, '2019-02-10 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33940,   1,          1) /* ItemType - MeleeWeapon */
+     , (33940,   3,         83) /* PaletteTemplate - Amber */
      , (33940,   5,        450) /* EncumbranceVal */
      , (33940,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (33940,  16,          1) /* ItemUseable - No */
      , (33940,  19,       7000) /* Value */
      , (33940,  44,         50) /* Damage */
      , (33940,  45,          2) /* DamageType - Pierce */
-     , (33940,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (33940,  47,          2) /* AttackType - Thrust */
      , (33940,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (33940,  49,         40) /* WeaponTime */
@@ -27,19 +27,17 @@ VALUES (33940,   1,          1) /* ItemType - MeleeWeapon */
      , (33940, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33940,  22, True ) /* Inscribable */
-     , (33940,  23, True ) /* DestroyOnSell */;
+VALUES (33940,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33940,   5, -0.032999999821186066) /* ManaRate */
+VALUES (33940,   5,  -0.033) /* ManaRate */
      , (33940,  21,       0) /* WeaponLength */
      , (33940,  22,     0.5) /* DamageVariance */
      , (33940,  26,       0) /* MaximumVelocity */
-     , (33940,  29, 1.1200000047683716) /* WeaponDefense */
-     , (33940,  39, 1.100000023841858) /* DefaultScale */
-     , (33940,  62, 1.1200000047683716) /* WeaponOffense */
-     , (33940,  63,       1) /* DamageMod */
-     , (33940, 156, 0.05000000074505806) /* ProcSpellRate */;
+     , (33940,  29,    1.12) /* WeaponDefense */
+     , (33940,  39,     1.1) /* DefaultScale */
+     , (33940,  62,    1.12) /* WeaponOffense */
+     , (33940,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33940,   1, 'Enhanced Crystal Sword') /* Name */
@@ -49,6 +47,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33940,   1,   33557340) /* Setup */
      , (33940,   3,  536870932) /* SoundTable */
      , (33940,   6,   67111919) /* PaletteBase */
+     , (33940,   7,  268436260) /* ClothingBase */
      , (33940,   8,  100674099) /* Icon */
      , (33940,  22,  872415275) /* PhysicsEffectTable */
      , (33940,  55,       1155) /* ProcSpell - Piercing Vulnerability Other V */;
@@ -59,13 +58,3 @@ VALUES (33940,  1094,      2)  /* Fire Protection Self VI */
      , (33940,  1605,      2)  /* Aura of Defender Self VI */
      , (33940,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (33940,  1627,      2)  /* Aura of Swift Killer Self VI */;
-
-/* Lifestoned Changelog:
-{
-  "LastModified": "2020-06-25T08:59:00.3366593-04:00",
-  "ModifiedBy": "Streeter",
-  "Changelog": [],
-  "UserChangeSummary": "Removed the vul from the spellbook (it's added as spell proc)\nAdded the proc rate",
-  "IsDone": false
-}
-*/

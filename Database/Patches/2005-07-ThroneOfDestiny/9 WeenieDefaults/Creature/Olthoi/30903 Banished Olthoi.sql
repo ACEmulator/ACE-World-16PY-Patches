@@ -65,7 +65,8 @@ VALUES (30903,   1,       5) /* HeartbeatInterval */
      , (30903, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30903,   1, 'Banished Olthoi') /* Name */;
+VALUES (30903,   1, 'Banished Olthoi') /* Name */
+     , (30903,  45, 'KilltaskBanishedCreature_0609') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30903,   1,   33558421) /* Setup */

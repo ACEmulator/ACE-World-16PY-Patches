@@ -17,7 +17,7 @@ VALUES (23535,   1,          1) /* ItemType - MeleeWeapon */
      , (23535,  48,         45) /* WeaponSkill - LightWeapons */
      , (23535,  49,         70) /* WeaponTime */
      , (23535,  51,          1) /* CombatUse - Melee */
-     , (23535,  53,        101) /* PlacementPosition */
+     , (23535,  53,        101) /* PlacementPosition - Resting */
      , (23535,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23535, 106,        200) /* ItemSpellcraft */
      , (23535, 107,       1350) /* ItemCurMana */
@@ -55,7 +55,7 @@ VALUES (23535,   1, 'Obsidian Axe') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23535,   1,   33557334) /* Setup */
      , (23535,   3,  536870932) /* SoundTable */
-     , (23535,   8,  100672107) /* Icon */
+     , (23535,   8,  100674095) /* Icon */
      , (23535,  22,  872415275) /* PhysicsEffectTable */
      , (23535,  36,  234881044) /* MutateFilter */;
 
