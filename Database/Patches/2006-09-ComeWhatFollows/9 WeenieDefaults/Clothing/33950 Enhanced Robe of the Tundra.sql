@@ -5,7 +5,7 @@ VALUES (33950, 'ace33950-enhancedrobeofthetundra', 2, '2019-02-10 00:00:00') /* 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33950,   1,          4) /* ItemType - Clothing */
-     , (33950,   3,         90) /* PaletteTemplate - Purple */
+     , (33950,   3,          9) /* PaletteTemplate - Grey */
      , (33950,   4,      98048) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Feet */
      , (33950,   5,        500) /* EncumbranceVal */
      , (33950,   9,      32513) /* ValidLocations - HeadWear, Armor */
@@ -27,6 +27,7 @@ VALUES (33950,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33950,   5,  -0.025) /* ManaRate */
+     , (33950,  12,    0.81) /* Shade */
      , (33950,  13,       1) /* ArmorModVsSlash */
      , (33950,  14,       1) /* ArmorModVsPierce */
      , (33950,  15,       1) /* ArmorModVsBludgeon */
@@ -44,7 +45,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33950,   1,   33554854) /* Setup */
      , (33950,   3,  536870932) /* SoundTable */
      , (33950,   6,   67108990) /* PaletteBase */
-     , (33950,   7,  268435854) /* ClothingBase */
+     , (33950,   7,  268436263) /* ClothingBase */
      , (33950,   8,  100674100) /* Icon */
      , (33950,  22,  872415275) /* PhysicsEffectTable */;
 
