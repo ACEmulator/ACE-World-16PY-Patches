@@ -53,7 +53,7 @@ VALUES (51551,   1,       5) /* HeartbeatInterval */
      , (51551, 122,       2) /* AiAcquireHealth */
      , (51551, 125,       1) /* ResistHealthDrain */
      , (51551, 165,       1) /* ArmorModVsNether */
-     , (51551, 166,       1) /* ResistNether */;
+     , (51551, 166,     1.5) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51551,   1, 'Disciple of Misery') /* Name */;

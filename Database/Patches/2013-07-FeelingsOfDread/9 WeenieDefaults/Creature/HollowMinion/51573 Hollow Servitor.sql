@@ -48,7 +48,7 @@ VALUES (51573,   1,       5) /* HeartbeatInterval */
      , (51573, 104,      10) /* ObviousRadarRange */
      , (51573, 122,       2) /* AiAcquireHealth */
      , (51573, 165,       1) /* ArmorModVsNether */
-     , (51573, 166,       1) /* ResistNether */;
+     , (51573, 166,     1.4) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51573,   1, 'Hollow Servitor') /* Name */;

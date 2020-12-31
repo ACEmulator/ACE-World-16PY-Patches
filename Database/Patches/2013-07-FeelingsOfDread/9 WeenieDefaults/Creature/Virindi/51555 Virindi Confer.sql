@@ -48,7 +48,7 @@ VALUES (51555,   1,       5) /* HeartbeatInterval */
      , (51555, 122,       2) /* AiAcquireHealth */
      , (51555, 125,       1) /* ResistHealthDrain */
      , (51555, 165,       1) /* ArmorModVsNether */
-     , (51555, 166,       1) /* ResistNether */;
+     , (51555, 166,     1.5) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51555,   1, 'Virindi Confer') /* Name */;
