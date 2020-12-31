@@ -78,7 +78,7 @@ VALUES (51555,   1,  9100, 0, 0, 9275) /* MaxHealth */
      , (51555,   5,  4950, 0, 0, 5430) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (51555,  6, 0, 2, 0, 380, 0, 0) /* MeleeDefense        Trained */
+VALUES (51555,  6, 0, 2, 0, 520, 0, 0) /* MeleeDefense        Trained */
      , (51555,  7, 0, 2, 0, 420, 0, 0) /* MissileDefense      Trained */
      , (51555, 15, 0, 2, 0, 360, 0, 0) /* MagicDefense        Trained */
      , (51555, 16, 0, 2, 0, 440, 0, 0) /* ManaConversion      Trained */
