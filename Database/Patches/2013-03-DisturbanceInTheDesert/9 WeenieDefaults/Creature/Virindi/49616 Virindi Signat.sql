@@ -49,7 +49,7 @@ VALUES (49616,   1,       5) /* HeartbeatInterval */
      , (49616, 122,       2) /* AiAcquireHealth */
      , (49616, 125,       1) /* ResistHealthDrain */
      , (49616, 165,       1) /* ArmorModVsNether */
-     , (49616, 166,       1) /* ResistNether */;
+     , (49616, 166,     1.5) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49616,   1, 'Virindi Signat') /* Name */;

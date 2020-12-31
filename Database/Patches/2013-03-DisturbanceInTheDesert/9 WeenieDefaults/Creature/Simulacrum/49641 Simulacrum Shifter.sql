@@ -50,7 +50,7 @@ VALUES (49641,   1,       5) /* HeartbeatInterval */
      , (49641, 122,       2) /* AiAcquireHealth */
      , (49641, 125,       1) /* ResistHealthDrain */
      , (49641, 165,       1) /* ArmorModVsNether */
-     , (49641, 166,       1) /* ResistNether */;
+     , (49641, 166,     1.4) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49641,   1, 'Simulacrum Shifter') /* Name */;

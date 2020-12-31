@@ -48,7 +48,7 @@ VALUES (45856,   1,       5) /* HeartbeatInterval */
      , (45856, 122,       2) /* AiAcquireHealth */
      , (45856, 125,       1) /* ResistHealthDrain */
      , (45856, 165,       1) /* ArmorModVsNether */
-     , (45856, 166,       1) /* ResistNether */;
+     , (45856, 166,     1.5) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45856,   1, 'Virindi Keeper') /* Name */;

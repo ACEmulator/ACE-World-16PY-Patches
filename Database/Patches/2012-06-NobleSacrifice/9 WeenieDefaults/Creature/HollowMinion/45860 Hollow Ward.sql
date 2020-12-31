@@ -48,7 +48,7 @@ VALUES (45860,   1,       5) /* HeartbeatInterval */
      , (45860, 104,      10) /* ObviousRadarRange */
      , (45860, 122,       2) /* AiAcquireHealth */
      , (45860, 165,       1) /* ArmorModVsNether */
-     , (45860, 166,       1) /* ResistNether */;
+     , (45860, 166,     1.4) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45860,   1, 'Hollow Ward') /* Name */;

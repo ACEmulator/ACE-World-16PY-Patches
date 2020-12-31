@@ -47,7 +47,7 @@ VALUES (49611,   1,       5) /* HeartbeatInterval */
      , (49611, 122,       2) /* AiAcquireHealth */
      , (49611, 125,       1) /* ResistHealthDrain */
      , (49611, 165,       1) /* ArmorModVsNether */
-     , (49611, 166,       1) /* ResistNether */;
+     , (49611, 166,     1.4) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49611,   1, 'Simulacrum Emulat') /* Name */;

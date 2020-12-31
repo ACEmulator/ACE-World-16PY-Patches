@@ -59,7 +59,9 @@ VALUES (49637,   1,       5) /* HeartbeatInterval */
      , (49637,  80,       3) /* AiUseMagicDelay */
      , (49637, 104,      10) /* ObviousRadarRange */
      , (49637, 122,       2) /* AiAcquireHealth */
-     , (49637, 125,       1) /* ResistHealthDrain */;
+     , (49637, 125,       1) /* ResistHealthDrain */
+     , (49637, 165,       1) /* ArmorModVsNether */
+     , (49637, 166,     1.4) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49637,   1, 'Elemental Protector') /* Name */;

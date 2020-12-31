@@ -48,7 +48,7 @@ VALUES (49613,   1,       5) /* HeartbeatInterval */
      , (49613, 104,      10) /* ObviousRadarRange */
      , (49613, 122,       2) /* AiAcquireHealth */
      , (49613, 165,       1) /* ArmorModVsNether */
-     , (49613, 166,       1) /* ResistNether */;
+     , (49613, 166,     1.4) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49613,   1, 'Hollow Reaver') /* Name */;
