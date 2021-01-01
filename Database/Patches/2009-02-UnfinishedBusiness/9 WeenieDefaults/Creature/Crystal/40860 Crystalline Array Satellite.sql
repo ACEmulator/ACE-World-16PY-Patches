@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40860;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40860, 'ace40860-crystallinearraysatellite', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (40860, 'ace40860-crystallinearraysatellite', 10, '2020-12-31 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40860,   1,         16) /* ItemType - Creature */
@@ -10,6 +10,9 @@ VALUES (40860,   1,         16) /* ItemType - Creature */
      , (40860,   7,         -1) /* ContainersCapacity */
      , (40860,  16,          1) /* ItemUseable - No */
      , (40860,  25,        100) /* Level */
+     , (40860,  40,          2) /* CombatMode - Melee */
+     , (40860,  67,         64) /* Tolerance - Retaliate */
+     , (40860,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (40860,  81,          8) /* MaxGeneratedObjects */
      , (40860,  82,          8) /* InitGeneratedObjects */     
      , (40860,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
@@ -19,13 +22,9 @@ VALUES (40860,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40860,   1, True ) /* Stuck */
      , (40860,   6, True ) /* AiUsesMana */
-     , (40860,  11, False) /* IgnoreCollisions */
-     , (40860,  12, True ) /* ReportCollisions */
-     , (40860,  13, False) /* Ethereal */
-     , (40860,  14, True ) /* GravityStatus */
-     , (40860,  19, True ) /* Attackable */
      , (40860,  29, True ) /* NoCorpse */
-     , (40860,  50, True ) /* NeverFailCasting */;
+     , (40860,  50, True ) /* NeverFailCasting */
+     , (40860,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40860,   1,       5) /* HeartbeatInterval */
@@ -40,11 +39,11 @@ VALUES (40860,   1,       5) /* HeartbeatInterval */
      , (40860,  17,       1) /* ArmorModVsFire */
      , (40860,  18,       1) /* ArmorModVsAcid */
      , (40860,  19,       1) /* ArmorModVsElectric */
-     , (40860,  31,     0.3) /* VisualAwarenessRange */
+     , (40860,  31,       5) /* VisualAwarenessRange */
      , (40860,  34,       1) /* PowerupTime */
      , (40860,  36,       1) /* ChargeSpeed */
      , (40860,  39,     0.4) /* DefaultScale */
-     , (40860,  41,      30) /* RegenerationInterval */
+     , (40860,  41,       5) /* RegenerationInterval */
      , (40860,  43,      15) /* GeneratorRadius */     
      , (40860,  64,     0.3) /* ResistSlash */
      , (40860,  65,     0.3) /* ResistPierce */
@@ -58,7 +57,7 @@ VALUES (40860,   1,       5) /* HeartbeatInterval */
      , (40860,  73,       1) /* ResistStaminaBoost */
      , (40860,  74,       1) /* ResistManaDrain */
      , (40860,  75,       1) /* ResistManaBoost */
-     , (40860, 104,      10) /* ObviousRadarRange */
+     , (40860, 104,      25) /* ObviousRadarRange */
      , (40860, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -68,6 +67,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40860,   1,   33558690) /* Setup */
      , (40860,   2,  150995290) /* MotionTable */
      , (40860,   3,  536871001) /* SoundTable */
+     , (40860,   4,  805306368) /* CombatTable */
      , (40860,   6,   67113876) /* PaletteBase */
      , (40860,   8,  100676420) /* Icon */
      , (40860,  22,  872415389) /* PhysicsEffectTable */;
@@ -86,7 +86,9 @@ VALUES (40860,   1,   950, 0, 0, 1000) /* MaxHealth */
      , (40860,   5, 30000, 0, 0, 30600) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (40860, 15, 0, 3, 0, 275, 0, 0)/* MagicDefense        Specialized */
+VALUES (40860,  6, 0, 3, 0, 223, 0, 0) /* MeleeDefense        Specialized */
+     , (40860,  7, 0, 3, 0, 174, 0, 0) /* MissileDefense      Specialized */
+     , (40860, 15, 0, 3, 0, 275, 0, 0) /* MagicDefense        Specialized */
      , (40860, 45, 0, 3, 0, 180, 0, 0) /* LightWeapons        Specialized */
      , (40860, 34, 0, 3, 0, 100, 0, 0) /* WarMagic            Specialized */;
 
@@ -102,7 +104,10 @@ VALUES (40860,  0,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,
      , (40860,  8,  4,  1, 0.75,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40860,    73,   3)  /* Frost V */;
+VALUES (40860, 2729,  3)  /* Frost Arc V */
+     , (40860, 2715,  3)  /* Acid Arc V */
+     , (40860, 2744,  3)  /* Flame Arc V */
+     , (40860, 2736,  3)  /* Lightning Arc V */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40860, -1, 40864, 10, 4, 4, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wisps - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (40860, -1, 40864, 10, 8, 8, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wisps - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
