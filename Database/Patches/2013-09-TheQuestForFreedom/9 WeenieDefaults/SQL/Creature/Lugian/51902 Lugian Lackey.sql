@@ -94,7 +94,7 @@ VALUES (51902,   1, 400, 0, 0) /* Strength */
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (51902,   1,  6170, 0, 0, 6350) /* MaxHealth */
      , (51902,   3,  3890, 0, 0, 4250) /* MaxStamina */
-     , (51902,   5,   -10, 0, 0,  260) /* MaxMana */;
+     , (51902,   5,    50, 0, 0,  260) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (51902, 52, 0, 2, 0, 400, 0, 0) /* DirtyFighting */
