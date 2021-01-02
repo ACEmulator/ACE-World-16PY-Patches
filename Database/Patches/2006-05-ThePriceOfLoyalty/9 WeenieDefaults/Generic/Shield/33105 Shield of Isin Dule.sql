@@ -1,7 +1,9 @@
+/* Mob version */
+
 DELETE FROM `weenie` WHERE `class_Id` = 33105;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33105, 'ace33105-shieldofisindule', 1, '2019-02-10 00:00:00') /* Generic */;
+VALUES (33105, 'ace33105-shieldofisindule', 1, '2020-11-27 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33105,   1,          2) /* ItemType - Armor */
@@ -9,21 +11,17 @@ VALUES (33105,   1,          2) /* ItemType - Armor */
      , (33105,   9,    2097152) /* ValidLocations - Shield */
      , (33105,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (33105,  16,          1) /* ItemUseable - No */
-     , (33105,  19,      23000) /* Value */	
+     , (33105,  19,      23000) /* Value */
      , (33105,  28,        190) /* ArmorLevel */
+     , (33105,  33,         -2) /* Bonded - Destroy */
      , (33105,  51,          4) /* CombatUse - Shield */
      , (33105,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33105, 106,        400) /* ItemSpellcraft */
-     , (33105, 107,       2000) /* ItemCurMana */
-     , (33105, 108,       2000) /* ItemMaxMana */
-     , (33105, 115,        475) /* ItemSkillLevelLimit */
-     , (33105, 151,          2) /* HookType - Wall */
-     , (33105, 158,          7) /* WieldRequirements - Level */
-     , (33105, 159,          1) /* WieldSkillType - Axe */
-     , (33105, 160,        140) /* WieldDifficulty */;
+     , (33105, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33105,  22, True ) /* Inscribable */;
+VALUES (33105,  22, True ) /* Inscribable */
+     , (33105,  23, True ) /* DestroyOnSell */
+     , (33105,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33105,   5,   -0.03) /* ManaRate */

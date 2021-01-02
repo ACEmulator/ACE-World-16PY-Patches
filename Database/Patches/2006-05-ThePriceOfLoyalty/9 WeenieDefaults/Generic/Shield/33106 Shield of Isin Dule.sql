@@ -34,7 +34,7 @@ VALUES (33106,   5,  -0.025) /* ManaRate */
      , (33106,  17,     0.8) /* ArmorModVsFire */
      , (33106,  18,       1) /* ArmorModVsAcid */
      , (33106,  19,     0.8) /* ArmorModVsElectric */
-     , (33106, 159,       1) /* AbsorbMagicDamage */
+     , (33106, 159,    0.25) /* AbsorbMagicDamage */
      , (33106, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

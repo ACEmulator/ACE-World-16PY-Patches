@@ -18,17 +18,11 @@ VALUES (33170,   1,         16) /* ItemType - Creature */
      , (33170, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (33170, 140,          1) /* AiOptions - CanOpenDoors */
      , (33170, 146,     470000) /* XpOverride */
-     , (33170, 188,          1) /* HeritageGroup - Aluvian */
-     , (33170, 307,          5) /* DamageRating */;
+     , (33170, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33170,   1, True ) /* Stuck */
      , (33170,   6, False) /* AiUsesMana */
-     , (33170,  11, False) /* IgnoreCollisions */
-     , (33170,  12, True ) /* ReportCollisions */
-     , (33170,  13, False) /* Ethereal */
-     , (33170,  14, True ) /* GravityStatus */
-     , (33170,  19, True ) /* Attackable */
      , (33170,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
