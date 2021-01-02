@@ -64,6 +64,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32700,   1,   33554433) /* Setup */
      , (32700,   2,  150994945) /* MotionTable */
      , (32700,   3,  536870913) /* SoundTable */
+     , (32700,   4,  805306368) /* CombatTable */
      , (32700,   6,   67108990) /* PaletteBase */
      , (32700,   8,  100667446) /* Icon */
      , (32700,  17,   67115907) /* SkinPalette */
@@ -84,15 +85,15 @@ VALUES (32700,   1,   350, 0, 0, 430) /* MaxHealth */
      , (32700,   5,   200, 0, 0, 430) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (32700, 45, 0, 3, 0, 255, 0, 0) /* LightWeapons        Specialized */
-     , (32700, 46, 0, 3, 0, 215, 0, 0) /* FinesseWeapons      Specialized */
-     , (32700,  6, 0, 3, 0, 225, 0, 0) /* MeleeDefense        Specialized */
+VALUES (32700,  6, 0, 3, 0, 225, 0, 0) /* MeleeDefense        Specialized */
      , (32700,  7, 0, 3, 0, 285, 0, 0) /* MissileDefense      Specialized */
-     , (32700, 44, 0, 3, 0, 255, 0, 0) /* HeavyWeapons        Specialized */
-     , (32700, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */
      , (32700, 15, 0, 3, 0, 230, 0, 0) /* MagicDefense        Specialized */
      , (32700, 33, 0, 3, 0, 235, 0, 0) /* LifeMagic           Specialized */
-     , (32700, 34, 0, 3, 0, 200, 0, 0) /* WarMagic            Specialized */;
+     , (32700, 34, 0, 3, 0, 200, 0, 0) /* WarMagic            Specialized */
+     , (32700, 44, 0, 3, 0, 255, 0, 0) /* HeavyWeapons        Specialized */
+     , (32700, 45, 0, 3, 0, 255, 0, 0) /* LightWeapons        Specialized */
+     , (32700, 46, 0, 3, 0, 215, 0, 0) /* FinesseWeapons      Specialized */
+     , (32700, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (32700,  0,  4,  0,    0,  490,  590,  590,  490,  490,  390,  490,  390,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -106,13 +107,13 @@ VALUES (32700,  0,  4,  0,    0,  490,  590,  590,  490,  490,  390,  490,  390,
      , (32700,  8,  4, 115,  0.4,  490,  590,  590,  490,  490,  390,  490,  390,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32700,   113,   2.02)  /* Lightning Blast V */
-     , (32700,   121,   2.02)  /* Force Blast V */
-     , (32700,   125,   2.02)  /* Blade Blast V */
-     , (32700,   153,   2.02)  /* Blade Volley V */
-     , (32700,  1051,   2.02)  /* Bludgeoning Vulnerability Other IV */
-     , (32700,  1087,   2.02)  /* Lightning Vulnerability Other IV */
-     , (32700,  1154,   2.02)  /* Piercing Vulnerability Other IV */;
+VALUES (32700,   113,   2.42)  /* Lightning Blast V */
+     , (32700,   121,   2.42)  /* Force Blast V */
+     , (32700,   125,   2.42)  /* Blade Blast V */
+     , (32700,   153,   2.42)  /* Blade Volley V */
+     , (32700,  1051,   2.42)  /* Bludgeoning Vulnerability Other IV */
+     , (32700,  1087,   2.42)  /* Lightning Vulnerability Other IV */
+     , (32700,  1154,   2.42)  /* Piercing Vulnerability Other IV */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (32700,  5 /* HeartBeat */,  0.025, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
@@ -155,7 +156,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32700,  2, 28614,  0, 11, 0.1786, True) /* Create Vestiri Robe with Hood (28614) for Wield */
-     , (32700,  2, 28632,  0, 20, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
-     , (32700, 10, 30946,  1, 0, 1, False) /* Create Poniard (30946) for WieldTreasure */
-     , (32700,  9, 32703,  0, 0, 1, False) /* Create Bracelet of Passage (32703) for ContainTreasure */;
+VALUES (32700, 2, 28614,  0, 11, 0.1786, True) /* Create Vestiri Robe with Hood (28614) for Wield */
+     , (32700, 2, 28632,  0, 20, 0, True) /* Create Diforsa Gauntlets (28632) for Wield */
+     , (32700, 9, 32703,  0, 0, 1, False) /* Create Bracelet of Passage (32703) for ContainTreasure */
+     , (32700, 10, 30946,  1, 0, 1, False) /* Create Poniard (30946) for WieldTreasure */;
