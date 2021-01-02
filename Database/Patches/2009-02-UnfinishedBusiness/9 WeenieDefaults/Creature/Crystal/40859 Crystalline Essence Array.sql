@@ -103,10 +103,10 @@ VALUES (40859,  0,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,
      , (40859,  8,  4,  1, 0.75,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40859, 2729,  3)  /* Frost Arc V */
-     , (40859, 2715,  3)  /* Acid Arc V */
-     , (40859, 2744,  3)  /* Flame Arc V */
-     , (40859, 2736,  3)  /* Lightning Arc V */;
+VALUES (40859, 2715,  2.25)  /* Acid Arc V */
+     , (40859, 2744,  2.50)  /* Flame Arc V */
+     , (40859, 2736,  2.75)  /* Lightning Arc V */
+     , (40859, 2729,  3.00)  /* Frost Arc V */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40859, -1, 40860, 1, 1, 1, 1, 4, -1, 0, 0, 0,  4,  4, 0, 1, 0, 0, 0) /* Generate Crystalline Array Satellite - Regenerate upon Destruction - Location to (re)Generate: Specific */

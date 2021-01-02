@@ -13,7 +13,6 @@ VALUES (40864,   1,         16) /* ItemType - Creature */
      , (40864,  40,          2) /* CombatMode - Melee */  
      , (40864,  67,        160) /* Tolerance - Target, Monster */
      , (40864,  68,         13) /* TargetingTactic - Focused */
-     , (40864,  73,         47) /* FoeType - Crystal */
      , (40864,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (40864, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (40864, 146,     125000) /* XpOverride */
