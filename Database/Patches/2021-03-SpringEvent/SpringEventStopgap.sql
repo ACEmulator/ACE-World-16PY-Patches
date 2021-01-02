@@ -154,5 +154,5 @@ INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_C
 VALUES (87093, -1, 87092, 1, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Spring Event Stopgap! (87092) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E74E0F0, 87093, 0xE74E0024, 102.618, 85.2405, 32.055, 0.996621, 0, 0, -0.0821331, False, '2020-12-11 10:12:44'); /* Spring Events Stopgap Gen */
+VALUES (0x7E74E0F2, 87093, 0xE74E0024, 102.618, 85.2405, 32.055, 0.996621, 0, 0, -0.0821331, False, '2020-12-11 10:12:44'); /* Spring Events Stopgap Gen */
 /* @teleloc 0xE74E0024 [102.617996 85.240501 32.055000] 0.996621 0.000000 0.000000 -0.082133 */
