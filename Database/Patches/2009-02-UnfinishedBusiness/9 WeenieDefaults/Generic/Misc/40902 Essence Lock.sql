@@ -9,11 +9,10 @@ VALUES (40902,   1,        128) /* ItemType - Misc */
      , (40902,   6,         -1) /* ItemsCapacity */
      , (40902,   7,         -1) /* ContainersCapacity */
      , (40902,  16,         32) /* ItemUseable - Remote */
-     , (40902,  19,          0) /* Value */
      , (40902,  81,          1) /* MaxGeneratedObjects */
      , (40902,  82,          0) /* InitGeneratedObjects */
      , (40902,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
-     , (40902, 119,          1) /* Active */;
+     , (40902,  95,          8) /* RadarBlipColor - Yellow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40902,   1, True ) /* Stuck */
@@ -60,4 +59,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 18 /* DirectBroadcast */, 0, 1, NULL, 'The essense lock indicates that one or more of the essense locks have not been opened yet.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40902, -1, 40859, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystalline Essence Array  (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (40902, -1, 40859, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystalline Essence Array  (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
