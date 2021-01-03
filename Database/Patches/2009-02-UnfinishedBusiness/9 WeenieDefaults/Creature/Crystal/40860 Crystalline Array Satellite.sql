@@ -12,8 +12,8 @@ VALUES (40860,   1,         16) /* ItemType - Creature */
      , (40860,  25,        100) /* Level */
      , (40860,  40,          2) /* CombatMode - Melee */
      , (40860,  68,          5) /* TargetingTactic - Random, LastDamager */
-     , (40860,  81,          8) /* MaxGeneratedObjects */
-     , (40860,  82,          8) /* InitGeneratedObjects */     
+     , (40860,  81,          4) /* MaxGeneratedObjects */
+     , (40860,  82,          4) /* InitGeneratedObjects */     
      , (40860,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (40860, 103,          3) /* GeneratorDestructionType - Kill */ 
      , (40860, 133,          4) /* ShowableOnRadar - ShowAlways */;
@@ -109,4 +109,7 @@ VALUES (40860, 2736,  2.25)  /* Lightning Arc V */
      , (40860, 2729,  3.00)  /* Frost Arc V */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40860, -1, 40864, 10, 8, 8, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wisps - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (40860, -1, 40864, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystalline Wisp - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (40860, -1, 40864, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystalline Wisp - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (40860, -1, 40864, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystalline Wisp - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (40860, -1, 40864, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystalline Wisp - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
