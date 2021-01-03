@@ -84,35 +84,39 @@ VALUES (33170,   1,   33554433) /* Setup */
                                    Wield Shield of Isin Dule (33105) | Probability: 100% */
      , (33170,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (33170,   1, 180, 0, 0) /* Strength */
+     , (33170,   2, 200, 0, 0) /* Endurance */
+     , (33170,   3, 240, 0, 0) /* Quickness */
+     , (33170,   4, 220, 0, 0) /* Coordination */
+     , (33170,   5, 200, 0, 0) /* Focus */
+     , (33170,   6, 130, 0, 0) /* Self */;
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (33170,   1,  2650, 0, 0, 2750) /* MaxHealth */
      , (33170,   3,  2720, 0, 0, 2920) /* MaxStamina */
      , (33170,   5,  2740, 0, 0, 2870) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (33170,  6, 0, 3, 0, 335, 0, 0) /* MeleeDefense        Specialized */
-     , (33170,  7, 0, 3, 0, 430, 0, 0) /* MissileDefense      Specialized */
-     , (33170, 14, 0, 3, 0, 320, 0, 0) /* ArcaneLore          Specialized */
-     , (33170, 15, 0, 3, 0, 258, 0, 0) /* MagicDefense        Specialized */
-     , (33170, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
-     , (33170, 31, 0, 3, 0, 250, 0, 0) /* CreatureEnchantment Specialized */
-     , (33170, 33, 0, 3, 0, 250, 0, 0) /* LifeMagic           Specialized */
-     , (33170, 34, 0, 3, 0, 250, 0, 0) /* WarMagic            Specialized */
-     , (33170, 44, 0, 3, 0, 333, 0, 0) /* HeavyWeapons        Specialized */
-     , (33170, 45, 0, 3, 0, 333, 0, 0) /* LightWeapons        Specialized */
-     , (33170, 46, 0, 3, 0, 303, 0, 0) /* FinesseWeapons      Specialized */
-     , (33170, 47, 0, 3, 0,   0, 0, 0) /* MissileWeapons      Specialized */;
+VALUES (33170,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
+     , (33170,  7, 0, 3, 0, 440, 0, 0) /* MissileDefense      Specialized */
+     , (33170, 15, 0, 3, 0, 323, 0, 0) /* MagicDefense        Specialized */
+     , (33170, 31, 0, 3, 0, 317, 0, 0) /* CreatureEnchantment Specialized */
+     , (33170, 33, 0, 3, 0, 317, 0, 0) /* LifeMagic           Specialized */
+     , (33170, 34, 0, 3, 0, 317, 0, 0) /* WarMagic            Specialized */
+     , (33170, 45, 0, 3, 0, 407, 0, 0) /* LightWeapons        Specialized */
+     , (33170, 46, 0, 3, 0, 387, 0, 0) /* FinesseWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (33170,  0,  4,  0,    0,  480,  480,  384,  408,  288,  528,  336,  480,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (33170,  1,  4,  0,    0,  480,  480,  384,  408,  288,  528,  336,  480,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (33170,  2,  4,  0,    0,  480,  480,  384,  408,  288,  528,  336,  480,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (33170,  3,  4,  0,    0,  480,  480,  384,  408,  288,  528,  336,  480,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (33170,  4,  4,  0,    0,  480,  480,  384,  408,  288,  528,  336,  480,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (33170,  5,  4, 60, 0.75,  480,  480,  384,  408,  288,  528,  336,  480,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (33170,  6,  4,  0,    0,  480,  480,  384,  408,  288,  528,  336,  480,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (33170,  7,  4,  0,    0,  480,  480,  384,  408,  288,  528,  336,  480,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (33170,  8,  4, 70, 0.75,  480,  480,  384,  408,  288,  528,  336,  480,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (33170,  0,  4,  0,    0,  190,  190,  160,  169,  133,  190,  141,  160,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (33170,  1,  4,  0,    0,  190,  190,  160,  169,  133,  190,  141,  160,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (33170,  2,  4,  0,    0,  190,  190,  160,  169,  133,  190,  141,  160,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (33170,  3,  4,  0,    0,  190,  190,  160,  169,  133,  190,  141,  160,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (33170,  4,  4,  0,    0,  190,  190,  160,  169,  133,  190,  141,  160,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (33170,  5,  4, 60, 0.75,  190,  190,  160,  169,  133,  190,  141,  160,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (33170,  6,  4,  0,    0,  190,  190,  160,  169,  133,  190,  141,  160,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (33170,  7,  4,  0,    0,  190,  190,  160,  169,  133,  190,  141,  160,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (33170,  8,  4, 60, 0.75,  190,  190,  160,  169,  133,  190,  141,  160,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33170,   234,   2.02)  /* Vulnerability Other VI */
