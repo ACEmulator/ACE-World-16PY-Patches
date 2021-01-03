@@ -15,7 +15,7 @@ VALUES (40801,   1,          2) /* ItemType - Armor */
      , (40801,  33,          1) /* Bonded - Bonded */
      , (40801,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40801, 106,        325) /* ItemSpellcraft */
-     , (40801, 107,       1698) /* ItemCurMana */
+     , (40801, 107,       2000) /* ItemCurMana */
      , (40801, 108,       2000) /* ItemMaxMana */
      , (40801, 114,          1) /* Attuned - Attuned */
      , (40801, 151,          2) /* HookType - Wall */;

@@ -16,7 +16,7 @@ VALUES (40802,   1,         16) /* ItemType - Creature */
      , (40802,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (40802, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (40802, 140,          1) /* AiOptions - CanOpenDoors */
-     , (40802, 146,     250000) /* XpOverride */;
+     , (40802, 146,    1400000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40802,   1, True ) /* Stuck */
@@ -38,7 +38,7 @@ VALUES (40802,   1,       5) /* HeartbeatInterval */
      , (40802,  13,    0.76) /* ArmorModVsSlash */
      , (40802,  14,    0.76) /* ArmorModVsPierce */
      , (40802,  15,    0.68) /* ArmorModVsBludgeon */
-     , (40802,  16,    0.84) /* ArmorModVsCold */
+     , (40802,  16,    0.62) /* ArmorModVsCold */
      , (40802,  17,    0.64) /* ArmorModVsFire */
      , (40802,  18,    0.76) /* ArmorModVsAcid */
      , (40802,  19,    0.64) /* ArmorModVsElectric */
