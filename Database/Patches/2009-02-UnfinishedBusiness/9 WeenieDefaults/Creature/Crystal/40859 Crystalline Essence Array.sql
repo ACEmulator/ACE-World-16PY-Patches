@@ -43,6 +43,7 @@ VALUES (40859,   1,       5) /* HeartbeatInterval */
      , (40859,  34,       1) /* PowerupTime */
      , (40859,  36,       1) /* ChargeSpeed */
      , (40859,  39,       2) /* DefaultScale */
+     , (40859,  41,      60) /* RegenerationInterval */
      , (40859,  43,       4) /* GeneratorRadius */     
      , (40859,  64,     0.3) /* ResistSlash */
      , (40859,  65,     0.3) /* ResistPierce */
@@ -109,10 +110,10 @@ VALUES (40859, 2715,  2.25)  /* Acid Arc V */
      , (40859, 2729,  3.00)  /* Frost Arc V */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40859, -1, 40860, 1, 1, 1, 1, 4, -1, 0, 0, 0,  4,  4, 0, 1, 0, 0, 0) /* Generate Crystalline Array Satellite - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (40859, -1, 40860, 1, 1, 1, 1, 4, -1, 0, 0, 0, -4,  4, 0, 1, 0, 0, 0) /* Generate Crystalline Array Satellite - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (40859, -1, 40860, 1, 1, 1, 1, 4, -1, 0, 0, 0,  4, -4, 0, 1, 0, 0, 0) /* Generate Crystalline Array Satellite - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (40859, -1, 40860, 1, 1, 1, 1, 4, -1, 0, 0, 0, -4, -4, 0, 1, 0, 0, 0) /* Generate Crystalline Array Satellite - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (40859, -1, 40860, 30, 1, 1, 1, 4, -1, 0, 0, 0,  4,  4, 0, 1, 0, 0, 0) /* Generate Crystalline Array Satellite - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (40859, -1, 40860, 30, 1, 1, 1, 4, -1, 0, 0, 0, -4,  4, 0, 1, 0, 0, 0) /* Generate Crystalline Array Satellite - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (40859, -1, 40860, 30, 1, 1, 1, 4, -1, 0, 0, 0,  4, -4, 0, 1, 0, 0, 0) /* Generate Crystalline Array Satellite - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (40859, -1, 40860, 30, 1, 1, 1, 4, -1, 0, 0, 0, -4, -4, 0, 1, 0, 0, 0) /* Generate Crystalline Array Satellite - Regenerate upon Destruction - Location to (re)Generate: Specific */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40859, 9, 71868,  0, 0, 1, False) /* Create Crystalline Array Fragment Generator (71868) for ContainTreasure */;
