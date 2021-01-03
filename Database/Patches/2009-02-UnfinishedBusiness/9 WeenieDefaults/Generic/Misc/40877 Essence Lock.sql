@@ -16,7 +16,8 @@ VALUES (40877,   1, True ) /* Stuck */
      , (40877,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40877,   1, 'Essence Lock') /* Name */;
+VALUES (40877,   1, 'Essence Lock') /* Name */
+     , (40877,  16, 'An ancient Empyrean machine. It appears to be locking something.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40877,   1,   33560774) /* Setup */
