@@ -9,13 +9,11 @@ VALUES (40874,   1,        128) /* ItemType - Misc */
      , (40874,   6,         -1) /* ItemsCapacity */
      , (40874,   7,         -1) /* ContainersCapacity */
      , (40874,  16,         32) /* ItemUseable - Remote */
-     , (40874,  19,          0) /* Value */
      , (40874,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
-     , (40874, 119,          1) /* Active */;
+     , (40874,  95,          8) /* RadarBlipColor - Yellow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40874,   1, True) /* Stuck */
-     , (40874,   3, False) /* Locked */
+VALUES (40874,   1, True ) /* Stuck */
      , (40874,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
