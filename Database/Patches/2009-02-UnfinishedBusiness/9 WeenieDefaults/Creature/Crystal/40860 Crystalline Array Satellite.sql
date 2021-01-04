@@ -60,7 +60,8 @@ VALUES (40860,   1,       5) /* HeartbeatInterval */
      , (40860, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40860,   1, 'Crystalline Array Satellite') /* Name */;
+VALUES (40860,   1, 'Crystalline Array Satellite') /* Name */
+     , (40860,  45, 'KillTaskCrystallineWisps10109');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40860,   1,   33558690) /* Setup */
