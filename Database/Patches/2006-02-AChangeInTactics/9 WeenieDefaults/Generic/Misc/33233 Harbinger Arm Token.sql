@@ -21,7 +21,8 @@ VALUES (33233,  39,    1.75) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33233,   1, 'Harbinger Arm Token') /* Name */
-     , (33233,  16, 'A token in the shape of the Harbinger''s Arm.') /* LongDesc */;
+     , (33233,  16, 'A token in the shape of the Harbinger''s Arm.') /* LongDesc */
+     , (33233,  37, 'HarbingerEssencelessTokenPickup') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33233,   1,   33558027) /* Setup */
