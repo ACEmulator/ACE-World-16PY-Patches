@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70974;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70974, 'ace70974-luminaryknight', 10, '2020-11-25 00:00:00') /* Creature */;
+VALUES (70974, 'ace70974-luminaryknight', 10, '2020-07-07 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70974,   1,         16) /* ItemType - Creature */
@@ -37,6 +37,7 @@ VALUES (70974,   1,       5) /* HeartbeatInterval */
      , (70974,  18,     1.1) /* ArmorModVsAcid */
      , (70974,  19,     1.1) /* ArmorModVsElectric */
      , (70974,  31,      20) /* VisualAwarenessRange */
+     , (70974,  39,     1.3) /* DefaultScale */
      , (70974,  64,     0.3) /* ResistSlash */
      , (70974,  65,     0.3) /* ResistPierce */
      , (70974,  66,     0.3) /* ResistBludgeon */
@@ -77,9 +78,9 @@ VALUES (70974,   1, 250, 0, 0) /* Strength */
      , (70974,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (70974,   1,  1870, 0, 0, 2000) /* MaxHealth */
-     , (70974,   3,  2420, 0, 0, 2680) /* MaxStamina */
-     , (70974,   5,  1920, 0, 0, 2270) /* MaxMana */;
+VALUES (70974,   1,  6000, 0, 0, 6130) /* MaxHealth */
+     , (70974,   3,  5000, 0, 0, 5260) /* MaxStamina */
+     , (70974,   5,  5000, 0, 0, 5350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (70974,  6, 0, 3, 0, 395, 0, 0) /* MeleeDefense        Specialized */

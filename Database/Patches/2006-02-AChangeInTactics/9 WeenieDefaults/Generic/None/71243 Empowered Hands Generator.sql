@@ -31,6 +31,6 @@ VALUES (71243,   1,   33555051) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (71243, 0.25, 32740, 180, 1, 1, 4, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hand of Enchantment (32740) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */
-     , (71243, 0.5, 32739, 180, 1, 1, 4, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hand of Strife (32739) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */
+     , (71243,  0.5, 32739, 180, 1, 1, 4, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hand of Strife (32739) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */
      , (71243, 0.75, 32741, 180, 1, 1, 4, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hand of Artifice (32741) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */
-     , (71243, 1, 32738, 180, 1, 1, 4, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hand of Verdancy (32738) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */;
+     , (71243,    1, 32738, 180, 1, 1, 4, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hand of Verdancy (32738) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */;

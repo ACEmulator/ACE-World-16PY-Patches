@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31828;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31828, 'ace31828-glacialknight', 10, '2020-11-25 00:00:00') /* Creature */;
+VALUES (31828, 'ace31828-glacialknight', 10, '2020-07-07 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31828,   1,         16) /* ItemType - Creature */
@@ -37,6 +37,7 @@ VALUES (31828,   1,       5) /* HeartbeatInterval */
      , (31828,  18,    0.85) /* ArmorModVsAcid */
      , (31828,  19,    0.85) /* ArmorModVsElectric */
      , (31828,  31,      20) /* VisualAwarenessRange */
+     , (31828,  39,     1.3) /* DefaultScale */
      , (31828,  41,     300) /* RegenerationInterval */
      , (31828,  64,    0.45) /* ResistSlash */
      , (31828,  65,    0.45) /* ResistPierce */
@@ -78,9 +79,9 @@ VALUES (31828,   1, 250, 0, 0) /* Strength */
      , (31828,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31828,   1,  1870, 0, 0, 2000) /* MaxHealth */
-     , (31828,   3,  2420, 0, 0, 2680) /* MaxStamina */
-     , (31828,   5,  1920, 0, 0, 2270) /* MaxMana */;
+VALUES (31828,   1,  6000, 0, 0, 6130) /* MaxHealth */
+     , (31828,   3,  5000, 0, 0, 5260) /* MaxStamina */
+     , (31828,   5,  5000, 0, 0, 5350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (31828,  6, 0, 3, 0, 395, 0, 0) /* MeleeDefense        Specialized */

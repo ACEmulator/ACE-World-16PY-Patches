@@ -17,8 +17,8 @@ VALUES (71242,   1, True ) /* Stuck */
      , (71242,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (71242,  41,    9999) /* RegenerationInterval */
-     , (71242,  43,      10) /* GeneratorRadius */;
+VALUES (71242,  41,    20) /* RegenerationInterval */
+     , (71242,  43,    10) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71242,   1, 'Empowered Essences Generator') /* Name */
@@ -29,7 +29,7 @@ VALUES (71242,   1,   33555051) /* Setup */
      , (71242,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (71242, -1, 33219, 9999, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Essence of Enchantment (33219) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (71242, -1, 33222, 9999, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Essence of Strife (33222) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (71242, -1, 33220, 9999, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Essence of Artifice (33220) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (71242, -1, 33221, 9999, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Essence of Verdancy (33221) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (71242, -1, 33219, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Essence of Enchantment (33219) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (71242, -1, 33222, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Essence of Strife (33222) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (71242, -1, 33220, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Essence of Artifice (33220) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (71242, -1, 33221, 180, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Essence of Verdancy (33221) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

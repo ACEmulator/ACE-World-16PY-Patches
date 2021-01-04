@@ -17,8 +17,8 @@ VALUES (71238,   1, True ) /* Stuck */
      , (71238,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (71238,  41,     600) /* RegenerationInterval */
-     , (71238,  43,       1) /* GeneratorRadius */;
+VALUES (71238,  41,     20) /* RegenerationInterval */
+     , (71238,  43,      1) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71238,   1, 'Empowered Harbinger Generator') /* Name */
@@ -29,4 +29,4 @@ VALUES (71238,   1,   33555051) /* Setup */
      , (71238,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (71238, -1, 71239, 600, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Harbinger (71239) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
+VALUES (71238, -1, 71239, 180, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Harbinger (71239) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
