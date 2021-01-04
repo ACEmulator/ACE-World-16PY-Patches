@@ -12,6 +12,7 @@ VALUES (33942,   1,          1) /* ItemType - MeleeWeapon */
      , (33942,  19,       7000) /* Value */
      , (33942,  44,         40) /* Damage */
      , (33942,  45,         32) /* DamageType - Acid */
+     , (33942,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (33942,  47,          2) /* AttackType - Thrust */
      , (33942,  48,         45) /* WeaponSkill - LightWeapons */
      , (33942,  49,         30) /* WeaponTime */

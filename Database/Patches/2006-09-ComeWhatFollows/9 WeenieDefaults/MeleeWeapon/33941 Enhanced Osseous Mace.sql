@@ -12,6 +12,7 @@ VALUES (33941,   1,          1) /* ItemType - MeleeWeapon */
      , (33941,  19,       6000) /* Value */
      , (33941,  44,         45) /* Damage */
      , (33941,  45,         16) /* DamageType - Fire */
+     , (33941,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (33941,  47,          4) /* AttackType - Slash */
      , (33941,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (33941,  49,         40) /* WeaponTime */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33946;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33946, 'ace33946-enhancedbasaltblade', 6, '2020-12-24 21:11:23') /* Undef */;
+VALUES (33946, 'ace33946-enhancedbasaltblade', 6, '2020-12-24 21:11:23') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33946,   1,          1) /* ItemType - MeleeWeapon */
@@ -11,6 +11,7 @@ VALUES (33946,   1,          1) /* ItemType - MeleeWeapon */
      , (33946,  19,       2700) /* Value */
      , (33946,  44,         31) /* Damage */
      , (33946,  45,         16) /* DamageType - Fire */
+     , (33946,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (33946,  47,          1) /* AttackType - Punch */
      , (33946,  49,         20) /* WeaponTime */
      , (33946,  51,          1) /* CombatUse - Melee */
@@ -30,13 +31,13 @@ VALUES (33946,  11, True ) /* IgnoreCollisions */
      , (33946,  14, True ) /* GravityStatus */
      , (33946,  19, True ) /* Attackable */
      , (33946,  22, True ) /* Inscribable */;
-     
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33946,   5, -0.025) /* ManaRate */
-     , (33946,  22, 0.3) /* DamageVariance */
+VALUES (33946,   5,  -0.025) /* ManaRate */
+     , (33946,  22,     0.3) /* DamageVariance */
      , (33946,  26,       0) /* MaximumVelocity */
-     , (33946,  29, 1.15) /* WeaponDefense */
-     , (33946,  62, 1.1) /* WeaponOffense */
+     , (33946,  29,    1.15) /* WeaponDefense */
+     , (33946,  62,     1.1) /* WeaponOffense */
      , (33946,  63,       1) /* DamageMod */
      , (33946, 147,       1) /* CriticalFrequency */
      , (33946, 157,       1) /* ResistanceModifier */;

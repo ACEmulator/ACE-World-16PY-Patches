@@ -11,6 +11,7 @@ VALUES (33945,   1,          1) /* ItemType - MeleeWeapon */
      , (33945,  19,       1000) /* Value */
      , (33945,  44,         33) /* Damage */
      , (33945,  45,         32) /* DamageType - Acid */
+     , (33945,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (33945,  47,          6) /* AttackType - Thrust, Slash */
      , (33945,  49,         35) /* WeaponTime */
      , (33945,  51,          1) /* CombatUse - Melee */
