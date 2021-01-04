@@ -58,7 +58,8 @@ VALUES (40864,   1,       5) /* HeartbeatInterval */
      , (40864, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40864,   1, 'Crystalline Wisp') /* Name */;
+VALUES (40864,   1, 'Crystalline Wisp') /* Name */
+     , (40864,  45, 'KillTaskCrystallineWisps10109');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40864,   1,   33555867) /* Setup */
