@@ -6,13 +6,7 @@ VALUES (8906, 0, 29 /* ArmorTinkering */, 400, 1, 0, 0, 'You successfully imbue 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8906, 0,   9,  4096, 4, 'You can only apply this augmentaion to a bracer-slot item!') /* ValidLocations - BracerWear */
 	 , (8906, 0, 105,     1, 2, 'You can only apply this augmentation to a loot-generated item!')  /* Target.ItemWorkmanship - LessThan 1 */
-	 , (8906, 0, 370,     1, 3, 'This item has already been imbued!') /* Target.GearDamageInt - GreaterThanEqual 1 */
-	 , (8906, 0, 371,     1, 3, 'This item has already been imbued!') /* Target.GearDamageResistInt - GreaterThanEqual 1 */
-	 , (8906, 0, 372,     1, 3, 'This item has already been imbued!') /* Target.GearCritInt - GreaterThanEqual 1 */
-	 , (8906, 0, 373,     1, 3, 'This item has already been imbued!') /* Target.GearCritResistInt - GreaterThanEqual 1 */
-	 , (8906, 0, 374,     1, 3, 'This item has already been imbued!') /* Target.GearCritDamageInt - GreaterThanEqual 1 */
-	 , (8906, 0, 375,     1, 3, 'This item has already been imbued!') /* Target.GearCritDamageResistInt - GreaterThanEqual 1 */
-	 , (8906, 0, 376,     1, 3, 'This item has already been imbued!') /* Target.GearHealingBoostInt - GreaterThanEqual 1 */;
+	 , (8906, 0, 374,     1, 3, 'This item has already been imbued!') /* Target.GearCritDamageInt - GreaterThanEqual 1 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (8906, True, 0, 0, 0, False, 956301313, 1, 0) /* Mutation Filter - Viridian Armor Augmentations */;
@@ -20,7 +14,7 @@ VALUES (8906, True, 0, 0, 0, False, 956301313, 1, 0) /* Mutation Filter - Viridi
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  374, 1, 1, 1) /* On Source.SuccessTarget SetValue GearCritDamageInt  */;
+VALUES (@parent_id, 0,  374, 1, 2, 1) /* On Source.SuccessTarget Add GearCritDamageInt  */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8906;
 
