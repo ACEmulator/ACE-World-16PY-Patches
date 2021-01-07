@@ -2,11 +2,11 @@ Refuse: Fiun Crown (34040)
     - TurnToTarget
     - TakeItems: 34040
     - Tell: Why, it's one of the old crowns. I haven't seen one of these since we came to this world. Thank you so much for giving me a small memory from home!
-    - AwardLevelProportionalXP: 3%, 23,000,000
+    - AwardLevelProportionalXP: 3%, Max: 23,000,000
 
 Give: Black Skull of Xikma (34042)
     - TurnToTarget
-    - AwardLevelProportionalXP: 3%, 23,000,000
+    - AwardLevelProportionalXP: 3%, Max: 23,000,000
 
 Give: Blue Face Paint Recipe (87151)
     - TurnToTarget
@@ -17,55 +17,59 @@ Give: Blue Face Paint Recipe (87151)
     - Delay: 0.5, Tell: I have scryed a strong connection to a place located in the eastern end of the Osteth Mountain Range. Travel to 84.3N 24.7E and seek out what lies there.
     - Delay: 0.5, Tell: I have one more favor to ask of you. If you find that Lunnum's corpse has been desecrated in any way I would have you destroy it rather than see it returned to Fiun Gaya in such a state. Better that he never sees such a sight.
     - StampQuest: templeentranceflagged
-	- StampQuest: BlueFacePaintTurnIn
+	- StampQuest: LunnumsReturnStarted1006
 
 Give: Lunnum's Token (35829)
     - TurnToTarget
     - InqQuest: AndrilosLives
         QuestSuccess:
             - Tell: It is a shame what became of Lunnum. Thank you for your help in uncovering the truth of her disappearance.
-            - AwardLevelProportionalXP: 15%, 100,000,000
+            - AwardLevelProportionalXP: 15%, Max: 100,000,000
             - Delay: 0.5, Tell: You showed wisdom and compassion by not taking the Huntsman Andrilos's life. I wish to further reward you for your understanding and control.
             - AwardNoShareXP: 20,000,000
             - Delay: 0.5, Tell: Say nothing of our investigation to Gaya. We all miss Lunnum, but Gaya's morbid obsession has cost us too much and it ends here.
             - Delay: 0.5, Tell: Thank you for finally finding what became of Lunnum. Do no tell Fiun Gaya of her undeath, I fear he would be unable to deal with the truth. It is better he should keep the pyre burning in her memory. Perhaps you could visit him and provide him some solace by helping him keep his pyre.
-			- StampQuest: UndeadSlayerWait
+			- StampQuest: AndrilosLivesExtraXP
+			- StampQuest: AndrilosLivesExtraXPWait
+			- StampQuest: LunnumsReturnComplete1006
+			- EraseQuest: LunnumsReturnStarted1006
+			
 	   QuestFailure:
             - Tell: It is a shame what became of Lunnum. Thank you for your help in uncovering the truth of her disappearance.
             - Delay: 0.5, Tell: I wish that you had not killed that innocent man Andrilos. May you take this as a lesson that people should not be judged without a sound body of evidence. Vigilantism is blood thirst masquerading as justice.
-            - AwardLevelProportionalXP: 15%, 100,000,000
+            - AwardLevelProportionalXP: 15%, Max: 100,000,000
             - Delay: 0.5, Tell: Say nothing of our investigation to Gaya. We all miss Lunnum, but Gaya's morbid obsession has cost us too much and it ends here.
-			- StampQuest: UndeadSlayerWait
+			- StampQuest: LunnumsReturnComplete1006
+			- EraseQuest: LunnumsReturnStarted1006
+			
 Use:
     - TurnToTarget
 	- InqIntStat: 25, 120-999
 		TestSuccess:
-			- InqQuest: UndeadSlayerWait
+			- InqQuest: LunnumsReturnComplete1006
 				QuestSuccess:
 					- Tell: You must wait %tqt to assist me again.
+					- Goto: AndrilosExtraXP
 				QuestFailure:
-					- InqQuest: templeentranceflagged
+					- InqQuest: LunnumsReturnStarted1006
 						QuestSuccess:
-							InqQuest: AndrilosLives
-								QuestSuccess:
-									- InqQuest: AndrilosLivesExtraXPWait
-										QuestSuccess:
-											- Tell: I have no need for you at this time, please return later.
-										QuestFailure:
-											- Tell: You showed wisdom and compassion by not taking the Huntsman Andrilos's life. I wish to further reward you for your understanding and control.
-											- AwardNoShareXP: 20,000,000
-											- StampQuest: AndrilosLivesExtraXPWait
-								QuestFailure:
-									- InqQuest: BlueFacePaintTurnIn
-										QuestSuccess:
-											- Tell:  You will find the Temple Entrance around 84.3N 24.7E.
-										QuestFailure:
-											- Tell: Please assist me in finding the Blue Face Paint Recipe.
-											- Delay: 1, Tell: Search around Nuhmudira's Mansion at 4.0S, 36.0E.
+							- Tell:  You will find the Temple Entrance around 84.3N 24.7E.
+							- Goto: AndrilosExtraXP
 						QuestFailure:
 							- Tell: Please assist me in finding the Blue Face Paint Recipe.
 							- Delay: 1, Tell: Search around Nuhmudira's Mansion at 4.0S, 36.0E.
+							- Goto: AndrilosExtraXP
 		TestFailure:
 			- Tell: At this time, my friend Gaya needs your help more than I.
 			- Delay: 1, Tell: You will find him tending Lunnum's Pyre on the Isle of Ruin at 89.1N 47.6W.
 
+GotoSet: AndrilosExtraXP
+	InqQuest: AndrilosLivesExtraXP
+		QuestSuccess:
+			- InqQuest: AndrilosLivesExtraXPWait
+				QuestSuccess:
+					- Tell: I have no need for you at this time, please return later.
+				QuestFailure:
+					- Tell: You showed wisdom and compassion by not taking the Huntsman Andrilos's life. I wish to further reward you for your understanding and control.
+					- AwardNoShareXP: 20,000,000
+					- StampQuest: AndrilosLivesExtraXPWait
