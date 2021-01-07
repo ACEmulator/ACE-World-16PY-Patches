@@ -67,8 +67,6 @@ GotoSet: AndrilosExtraXP
 	InqQuest: AndrilosLivesExtraXP
 		QuestSuccess:
 			- InqQuest: AndrilosLivesExtraXPWait
-				QuestSuccess:
-					- Tell: I have no need for you at this time, please return later.
 				QuestFailure:
 					- Tell: You showed wisdom and compassion by not taking the Huntsman Andrilos's life. I wish to further reward you for your understanding and control.
 					- AwardNoShareXP: 20,000,000
