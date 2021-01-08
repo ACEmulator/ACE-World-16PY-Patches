@@ -13,6 +13,9 @@ VALUES (33949,   1,          2) /* ItemType - Armor */
      , (33949,  19,       6000) /* Value */
      , (33949,  28,        325) /* ArmorLevel */
      , (33949,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (33949, 106,        150) /* ItemSpellcraft */
+     , (33949, 107,       1350) /* ItemCurMana */
+     , (33949, 108,       1350) /* ItemMaxMana */
      , (33949, 115,        250) /* ItemSkillLevelLimit */
      , (33949, 158,          7) /* WieldRequirements - Level */
      , (33949, 159,          1) /* WieldSkillType - Axe */

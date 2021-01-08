@@ -16,7 +16,7 @@ VALUES (33946,   1,          1) /* ItemType - MeleeWeapon */
      , (33946,  49,         20) /* WeaponTime */
      , (33946,  51,          1) /* CombatUse - Melee */
      , (33946, 106,        250) /* ItemSpellcraft */
-     , (33946, 107,       1152) /* ItemCurMana */
+     , (33946, 107,       1350) /* ItemCurMana */
      , (33946, 108,       1350) /* ItemMaxMana */
      , (33946, 151,          2) /* HookType - Wall */
      , (33946, 158,          2) /* WieldRequirements - RawSkill */

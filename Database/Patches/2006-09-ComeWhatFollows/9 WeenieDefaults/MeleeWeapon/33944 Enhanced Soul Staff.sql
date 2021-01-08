@@ -19,7 +19,7 @@ VALUES (33944,   1,          1) /* ItemType - MeleeWeapon */
      , (33944,  51,          1) /* CombatUse - Melee */
      , (33944,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33944, 106,        250) /* ItemSpellcraft */
-     , (33944, 107,       1377) /* ItemCurMana */
+     , (33944, 107,       1400) /* ItemCurMana */
      , (33944, 108,       1400) /* ItemMaxMana */
      , (33944, 151,          2) /* HookType - Wall */
      , (33944, 158,          2) /* WieldRequirements - RawSkill */

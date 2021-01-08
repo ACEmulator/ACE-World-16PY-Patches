@@ -11,10 +11,10 @@ VALUES (33950,   1,          4) /* ItemType - Clothing */
      , (33950,   9,      32513) /* ValidLocations - HeadWear, Armor */
      , (33950,  16,          1) /* ItemUseable - No */
      , (33950,  19,       6000) /* Value */
-     , (33950,  28,        500) /* ArmorLevel */
+     , (33950,  28,        150) /* ArmorLevel */
      , (33950,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33950, 106,        200) /* ItemSpellcraft */
-     , (33950, 107,       1246) /* ItemCurMana */
+     , (33950, 107,       1320) /* ItemCurMana */
      , (33950, 108,       1320) /* ItemMaxMana */
      , (33950, 109,        100) /* ItemDifficulty */
      , (33950, 151,          2) /* HookType - Wall */
@@ -46,7 +46,7 @@ VALUES (33950,   1,   33554854) /* Setup */
      , (33950,   3,  536870932) /* SoundTable */
      , (33950,   6,   67108990) /* PaletteBase */
      , (33950,   7,  268436263) /* ClothingBase */
-     , (33950,   8,  100674100) /* Icon */
+     , (33950,   8,  100672230) /* Icon */
      , (33950,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
