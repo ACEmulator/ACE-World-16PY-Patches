@@ -21,7 +21,8 @@ VALUES (40804,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40804,   1, 'Apostate Master''s Broken Mask') /* Name */
-     , (40804,  15, 'This broken mask was taken from the Virindi Master of the Apostate Nexus.') /* ShortDesc */;
+     , (40804,  15, 'This broken mask was taken from the Virindi Master of the Apostate Nexus.') /* ShortDesc */
+     , (40804,  33, 'ApostateBrokenMaskPickupTimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40804,   1,   33561077) /* Setup */
