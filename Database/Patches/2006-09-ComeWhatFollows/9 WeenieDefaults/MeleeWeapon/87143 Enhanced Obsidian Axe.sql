@@ -27,6 +27,7 @@ VALUES (87143,   1,          1) /* ItemType - MeleeWeapon */
      , (87143, 158,          2) /* WieldRequirements - RawSkill */
      , (87143, 159,         45) /* WieldSkillType - LightWeapons */
      , (87143, 160,        300) /* WieldDifficulty */
+     , (87143, 263,         16) /* ResistanceModifierType */
      , (87143, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,7 +45,9 @@ VALUES (87143,   5,  -0.025) /* ManaRate */
      , (87143,  29,     1.1) /* WeaponDefense */
      , (87143,  39,     1.1) /* DefaultScale */
      , (87143,  62,     1.1) /* WeaponOffense */
-     , (87143,  63,       1) /* DamageMod */;
+     , (87143,  63,       1) /* DamageMod */
+     , (87143, 147, 0.200000002980232) /* CriticalFrequency */
+     , (87143, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87143,   1, 'Enhanced Obsidian Axe') /* Name */

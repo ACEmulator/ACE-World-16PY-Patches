@@ -38,7 +38,8 @@ VALUES (33940,   5,  -0.033) /* ManaRate */
      , (33940,  29,    1.12) /* WeaponDefense */
      , (33940,  39,     1.1) /* DefaultScale */
      , (33940,  62,    1.12) /* WeaponOffense */
-     , (33940,  63,       1) /* DamageMod */;
+     , (33940,  63,       1) /* DamageMod */
+     , (33940, 156,    0.05) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33940,   1, 'Enhanced Crystal Sword') /* Name */

@@ -38,7 +38,8 @@ VALUES (33945,   5,  -0.025) /* ManaRate */
      , (33945,  29,    1.08) /* WeaponDefense */
      , (33945,  62,    1.08) /* WeaponOffense */
      , (33945,  63,       1) /* DamageMod */
-     , (33945, 136,       1) /* CriticalMultiplier */
+     , (33945, 136,       4) /* CriticalMultiplier */
+     , (33945, 156,    0.05) /* ProcSpellRate */
      , (33945, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -51,11 +52,11 @@ VALUES (33945,   1,   33558184) /* Setup */
      , (33945,   6,   67114156) /* PaletteBase */
      , (33945,   8,  100674031) /* Icon */
      , (33945,  22,  872415275) /* PhysicsEffectTable */
-     , (33945,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
+     , (33945,  37,         44) /* ItemSkillLimit - HeavyWeapons */
+     , (33945,  55,         61) /* ProcSpell - Acid Stream IV */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33945,    61,      2)  /* Acid Stream IV */
-     , (33945,  1136,      2)  /* Piercing Protection Self IV */
+VALUES (33945,  1136,      2)  /* Piercing Protection Self IV */
      , (33945,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (33945,  1603,      2)  /* Aura of Defender Self IV */
      , (33945,  1615,      2)  /* Aura of Blood Drinker Self V */
