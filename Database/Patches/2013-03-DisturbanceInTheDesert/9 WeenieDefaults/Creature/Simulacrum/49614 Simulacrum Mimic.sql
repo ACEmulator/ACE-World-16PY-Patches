@@ -35,19 +35,19 @@ VALUES (49614,   1,       5) /* HeartbeatInterval */
      , (49614,  18,       1) /* ArmorModVsAcid */
      , (49614,  19,       1) /* ArmorModVsElectric */
      , (49614,  31,      22) /* VisualAwarenessRange */
-     , (49614,  64,     1.2) /* ResistSlash */
+     , (49614,  64,       1) /* ResistSlash */
      , (49614,  65,       1) /* ResistPierce */
-     , (49614,  66,     1.2) /* ResistBludgeon */
-     , (49614,  67,       1) /* ResistFire */
-     , (49614,  68,       1) /* ResistCold */
-     , (49614,  69,       1) /* ResistAcid */
-     , (49614,  70,       1) /* ResistElectric */
+     , (49614,  66,       1) /* ResistBludgeon */
+     , (49614,  67,     0.8) /* ResistFire */
+     , (49614,  68,     0.8) /* ResistCold */
+     , (49614,  69,     0.8) /* ResistAcid */
+     , (49614,  70,     0.8) /* ResistElectric */
      , (49614,  80,       3) /* AiUseMagicDelay */
      , (49614, 104,      10) /* ObviousRadarRange */
      , (49614, 122,       2) /* AiAcquireHealth */
      , (49614, 125,       1) /* ResistHealthDrain */
      , (49614, 165,       1) /* ArmorModVsNether */
-     , (49614, 166,     1.4) /* ResistNether */;
+     , (49614, 166,       1) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49614,   1, 'Simulacrum Mimic') /* Name */;
@@ -105,14 +105,14 @@ VALUES (49614,  0,  4,  0,    0,  270,  270,  270,  270,  270,  270,  270,  270,
      , (49614,  8,  4,  2, 0.75,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49614,  4396,   2.02)  /* Incantation of Blood Loather */
-     , (49614,  4411,   2.02)  /* Incantation of Lure Blade */
-     , (49614,  4415,   2.02)  /* Incantation of Spirit Loather */
-     , (49614,  4475,   2.02)  /* Incantation of Blade Vulnerability Other */
-     , (49614,  4477,   2.02)  /* Incantation of Bludgeoning Vulnerability Other */
-     , (49614,  4479,   2.02)  /* Incantation of Cold Vulnerability Other */
-     , (49614,  4481,   2.02)  /* Incantation of Fire Vulnerability Other */
-     , (49614,  4483,   2.02)  /* Incantation of Lightning Vulnerability Other */;
+VALUES (49614,  4396,   2.04)  /* Incantation of Blood Loather */
+     , (49614,  4411,   2.042)  /* Incantation of Lure Blade */
+     , (49614,  4415,   2.043)  /* Incantation of Spirit Loather */
+     , (49614,  4475,   2.091)  /* Incantation of Blade Vulnerability Other */
+     , (49614,  4477,   2.1)  /* Incantation of Bludgeoning Vulnerability Other */
+     , (49614,  4479,   2.111)  /* Incantation of Cold Vulnerability Other */
+     , (49614,  4481,   2.125)  /* Incantation of Fire Vulnerability Other */
+     , (49614,  4483,   2.143)  /* Incantation of Lightning Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49614, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */

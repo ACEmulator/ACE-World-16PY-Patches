@@ -111,11 +111,9 @@ VALUES (49637,  6, 0, 3, 0, 520, 0, 0) /* MeleeDefense        Specialized */
      , (49637, 45, 0, 3, 0, 350, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49637,  4451,  2.004) /* Incantation of Lightning Bolt */
-     , (49637,  4633,  2.017) /* Incantation of Vulnerability Other */
-     , (49637,  4460,  2.008) /* Incantation of Acid Protection Self */
-     , (49637,  4483,  2.017) /* Incantation of Lightning Vulnerability Other */
-     , (49637,  4311,  2.013) /* Incantation of Heal Self */
-     , (49637,  4643,  2.008) /* Incantation of Drain Health Other */
-     , (49637,  4312,  2.017) /* Incantation of Imperil Other */;
+VALUES (49637,  1788,  2.12)  /* Eye of the Storm */
+     , (49637,  4451,  2.136) /* Incantation of Lightning Bolt */
+     , (49637,  4633,  2.105) /* Incantation of Vulnerability Other */
+     , (49637,  4460,  2.074) /* Incantation of Acid Protection Self */
+     , (49637,  4483,  2.127) /* Incantation of Lightning Vulnerability Other */;
 

@@ -38,19 +38,19 @@ VALUES (49641,   1,       5) /* HeartbeatInterval */
      , (49641,  31,      22) /* VisualAwarenessRange */
      , (49641,  41,      30) /* RegenerationInterval */
      , (49641,  43,       4) /* GeneratorRadius */
-     , (49641,  64,     1.2) /* ResistSlash */
+     , (49641,  64,       1) /* ResistSlash */
      , (49641,  65,       1) /* ResistPierce */
-     , (49641,  66,     1.2) /* ResistBludgeon */
-     , (49641,  67,       1) /* ResistFire */
-     , (49641,  68,       1) /* ResistCold */
-     , (49641,  69,       1) /* ResistAcid */
-     , (49641,  70,       1) /* ResistElectric */
+     , (49641,  66,       1) /* ResistBludgeon */
+     , (49641,  67,     0.8) /* ResistFire */
+     , (49641,  68,     0.8) /* ResistCold */
+     , (49641,  69,     0.8) /* ResistAcid */
+     , (49641,  70,     0.8) /* ResistElectric */
      , (49641,  80,       3) /* AiUseMagicDelay */
      , (49641, 104,      10) /* ObviousRadarRange */
      , (49641, 122,       2) /* AiAcquireHealth */
      , (49641, 125,       1) /* ResistHealthDrain */
      , (49641, 165,       1) /* ArmorModVsNether */
-     , (49641, 166,     1.4) /* ResistNether */;
+     , (49641, 166,       1) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49641,   1, 'Simulacrum Shifter') /* Name */;
@@ -107,15 +107,15 @@ VALUES (49641,  0,  4,  0,    0,  270,  270,  270,  270,  270,  270,  270,  270,
      , (49641,  8,  4,  2, 0.75,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49641,  4294,   2.02)  /* Incantation of Clumsiness Other */
-     , (49641,  4302,   2.02)  /* Incantation of Feeblemind Other */
-     , (49641,  4439,   2.08)  /* Incantation of Flame Bolt */
-     , (49641,  4451,   2.15)  /* Incantation of Lightning Bolt */
-     , (49641,  4457,   2.08)  /* Incantation of Whirling Blade */
-     , (49641,  4597,   2.08)  /* Incantation of Magic Yield Other */
-     , (49641,  2151,  2.010)  /* Blessing of the Blade Turner */
-     , (49641,  2153,  2.010)  /* Blessing of the Mace Turner */
-     , (49641,  2161,  2.010)  /* Blessing of the Arrow Turner */;
+VALUES (49641,  4294,   2.06)  /* Incantation of Clumsiness Other */
+     , (49641,  4302,   2.064)  /* Incantation of Feeblemind Other */
+     , (49641,  4439,   2.114)  /* Incantation of Flame Bolt */
+     , (49641,  4451,   2.128)  /* Incantation of Lightning Bolt */
+     , (49641,  4457,   2.147)  /* Incantation of Whirling Blade */
+     , (49641,  4597,   2.103)  /* Incantation of Magic Yield Other */
+     , (49641,  2151,   2.058)  /* Blessing of the Blade Turner */
+     , (49641,  2153,   2.061)  /* Blessing of the Mace Turner */
+     , (49641,  2161,   2.065)  /* Blessing of the Arrow Turner */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49641, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */

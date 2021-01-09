@@ -35,19 +35,19 @@ VALUES (49611,   1,       5) /* HeartbeatInterval */
      , (49611,  18,       1) /* ArmorModVsAcid */
      , (49611,  19,       1) /* ArmorModVsElectric */
      , (49611,  31,      22) /* VisualAwarenessRange */
-     , (49611,  64,     1.2) /* ResistSlash */
+     , (49611,  64,       1) /* ResistSlash */
      , (49611,  65,       1) /* ResistPierce */
-     , (49611,  66,     1.2) /* ResistBludgeon */
-     , (49611,  67,       1) /* ResistFire */
-     , (49611,  68,       1) /* ResistCold */
-     , (49611,  69,       1) /* ResistAcid */
-     , (49611,  70,       1) /* ResistElectric */
+     , (49611,  66,       1) /* ResistBludgeon */
+     , (49611,  67,     0.8) /* ResistFire */
+     , (49611,  68,     0.8) /* ResistCold */
+     , (49611,  69,     0.8) /* ResistAcid */
+     , (49611,  70,     0.8) /* ResistElectric */
      , (49611,  80,       3) /* AiUseMagicDelay */
      , (49611, 104,      10) /* ObviousRadarRange */
      , (49611, 122,       2) /* AiAcquireHealth */
      , (49611, 125,       1) /* ResistHealthDrain */
      , (49611, 165,       1) /* ArmorModVsNether */
-     , (49611, 166,     1.4) /* ResistNether */;
+     , (49611, 166,       1) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49611,   1, 'Simulacrum Emulat') /* Name */;
@@ -105,13 +105,13 @@ VALUES (49611,  0,  4,  0,    0,  270,  270,  270,  270,  270,  270,  270,  270,
      , (49611,  8,  4,  2, 0.75,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49611,  4439,   2.05)  /* Incantation of Flame Bolt */
-     , (49611,  4443,   2.05)  /* Incantation of Force Bolt */
-     , (49611,  4447,   2.05)  /* Incantation of Frost Bolt */
-     , (49611,  4457,   2.05)  /* Incantation of Whirling Blade */
-     , (49611,  4543,   2.02)  /* Incantation of Defenselessness Other */
-     , (49611,  4597,   2.02)  /* Incantation of Magic Yield Other */
-     , (49611,  4633,   2.08)  /* Incantation of Vulnerability Other */;
+VALUES (49611,  4439,   2.1)  /* Incantation of Flame Bolt */
+     , (49611,  4443,   2.111)  /* Incantation of Force Bolt */
+     , (49611,  4447,   2.125)  /* Incantation of Frost Bolt */
+     , (49611,  4457,   2.143)  /* Incantation of Whirling Blade */
+     , (49611,  4543,   2.133)  /* Incantation of Defenselessness Other */
+     , (49611,  4597,   2.154)  /* Incantation of Magic Yield Other */
+     , (49611,  4633,   2.182)  /* Incantation of Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49611, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */

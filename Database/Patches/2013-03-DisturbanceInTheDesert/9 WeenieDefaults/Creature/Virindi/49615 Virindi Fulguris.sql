@@ -6,7 +6,7 @@ VALUES (49615, 'ace49615-virindifulguris', 10, '2020-10-21 21:40:19') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49615,   1,         16) /* ItemType - Creature */
      , (49615,   2,         19) /* CreatureType - Virindi */
-     , (49615,   3,         61) /* PaletteTemplate - White */
+     , (49615,   3,          3) /* PaletteTemplate - White */
      , (49615,   6,         -1) /* ItemsCapacity */
      , (49615,   7,         -1) /* ContainersCapacity */
      , (49615,  16,          1) /* ItemUseable - No */
@@ -20,35 +20,35 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49615,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49615,   1,       5) /* HeartbeatInterval */
-     , (49615,   2,       0) /* HeartbeatTimestamp */
-     , (49615,   3,     0.6) /* HealthRate */
-     , (49615,   4,     0.5) /* StaminaRate */
-     , (49615,   5,       2) /* ManaRate */
-     , (49615,  12,     0.5) /* Shade */
-     , (49615,  13,     0.7) /* ArmorModVsSlash */
-     , (49615,  14,       1) /* ArmorModVsPierce */
-     , (49615,  15,       1) /* ArmorModVsBludgeon */
-     , (49615,  16,     1.4) /* ArmorModVsCold */
-     , (49615,  17,     0.7) /* ArmorModVsFire */
-     , (49615,  18,       1) /* ArmorModVsAcid */
-     , (49615,  19,     1.4) /* ArmorModVsElectric */
-     , (49615,  31,      18) /* VisualAwarenessRange */
-     , (49615,  34,       1) /* PowerupTime */
-     , (49615,  36,       1) /* ChargeSpeed */
-     , (49615,  64,     1.2) /* ResistSlash */
-     , (49615,  65,       1) /* ResistPierce */
-     , (49615,  66,       1) /* ResistBludgeon */
-     , (49615,  67,     1.2) /* ResistFire */
-     , (49615,  68,     0.6) /* ResistCold */
-     , (49615,  69,       1) /* ResistAcid */
-     , (49615,  70,     0.6) /* ResistElectric */
-     , (49615,  80,       3) /* AiUseMagicDelay */
-     , (49615, 104,      10) /* ObviousRadarRange */
-     , (49615, 122,       2) /* AiAcquireHealth */
-     , (49615, 125,       1) /* ResistHealthDrain */
-     , (49615, 165,       1) /* ArmorModVsNether */
-     , (49615, 166,     1.5) /* ResistNether */;
+VALUES (49615,   1,   5) /* HeartbeatInterval */
+     , (49615,   2,   0) /* HeartbeatTimestamp */
+     , (49615,   3, 0.6) /* HealthRate */
+     , (49615,   4, 0.5) /* StaminaRate */
+     , (49615,   5,   2) /* ManaRate */
+     , (49615,  12, 0.5) /* Shade */
+     , (49615,  13, 0.8) /* ArmorModVsSlash */
+     , (49615,  14, 1.0) /* ArmorModVsPierce */
+     , (49615,  15, 1.0) /* ArmorModVsBludgeon */
+     , (49615,  16, 1.0) /* ArmorModVsCold */
+     , (49615,  17, 0.8) /* ArmorModVsFire */
+     , (49615,  18, 0.8) /* ArmorModVsAcid */
+     , (49615,  19, 1.0) /* ArmorModVsElectric */
+     , (49615,  31,  18) /* VisualAwarenessRange */
+     , (49615,  34,   1) /* PowerupTime */
+     , (49615,  36,   1) /* ChargeSpeed */
+     , (49615,  64, 0.7) /* ResistSlash */
+     , (49615,  65, 0.6) /* ResistPierce */
+     , (49615,  66, 0.6) /* ResistBludgeon */
+     , (49615,  67, 0.7) /* ResistFire */
+     , (49615,  68, 0.4) /* ResistCold */
+     , (49615,  69, 0.7) /* ResistAcid */
+     , (49615,  70, 0.4) /* ResistElectric */
+     , (49615,  80,   3) /* AiUseMagicDelay */
+     , (49615, 104,  10) /* ObviousRadarRange */
+     , (49615, 122,   2) /* AiAcquireHealth */
+     , (49615, 125,   1) /* ResistHealthDrain */
+     , (49615, 165, 1.0) /* ArmorModVsNether */
+     , (49615, 166, 1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49615,   1, 'Virindi Fulguris') /* Name */;
@@ -59,7 +59,7 @@ VALUES (49615,   1,   33561227) /* Setup */
      , (49615,   3,  536870930) /* SoundTable */
      , (49615,   4,  805306381) /* CombatTable */
      , (49615,   6,   67111346) /* PaletteBase */
-     , (49615,   7,  268435649) /* ClothingBase */
+     , (49615,   7,  268437423) /* ClothingBase */
      , (49615,   8,  100667943) /* Icon */
      , (49615,  22,  872415273) /* PhysicsEffectTable */
      , (49615,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
@@ -96,17 +96,15 @@ VALUES (49615,  6, 0, 2, 0, 520, 0, 0) /* MeleeDefense        Trained */
      , (49615, 46, 0, 2, 0, 550, 0, 0) /* FinesseWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (49615,  0,  1,  0,    0,  320,  120,  120,  120,   86,  120,  120,   86,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (49615,  1,  1,  0,    0,  320,  120,  120,  120,   86,  120,  120,   86,    0, 2, 0.44, 0.23,    0, 0.44, 0.23,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (49615,  2,  1,  0,    0,  320,  120,  120,  120,   86,  120,  120,   86,    0, 3,    0, 0.23,  0.1,    0, 0.23,  0.2,    0, 0.17, 0.45,    0, 0.17, 0.45) /* Abdomen */
-     , (49615,  3,  1,  0,    0,  300,  100,  100,  100,   72,  100,  100,   72,    0, 1, 0.23, 0.04,  0.2, 0.23, 0.04,  0.1, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (49615,  4,  1,  0,    0,  300,  100,  100,  100,   72,  100,  100,   72,    0, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
-     , (49615,  5,  1, 150, 0.75,  300,  100,  100,  100,   72,  100,  100,   72,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (49615, 17,  1,  0,    0,  300,  100,  100,  100,   72,  100,  100,   72,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
+VALUES (49615,  0,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (49615,  1,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 2, 0.44, 0.23,    0, 0.44, 0.23,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (49615,  2,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 3,    0, 0.23,  0.1,    0, 0.23,  0.2,    0, 0.17, 0.45,    0, 0.17, 0.45) /* Abdomen */
+     , (49615,  3,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 1, 0.23, 0.04,  0.2, 0.23, 0.04,  0.1, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (49615,  4,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
+     , (49615,  5,  1, 150, 0.75,  500,  500,  500,  500,  500,  500,  500,  500,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (49615, 17,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49615,  4426,   2.08)  /* Incantation of Lightning Arc */
-     , (49615,  4451,   2.08)  /* Incantation of Lightning Bolt */
-	 , (49615,  2157,   2.02)  /* Fiery Blessing */
-	 , (49615,  4597,   2.02)  /* Incantation of Magic Yield Other */
-     , (49615,  4483,   2.05)  /* Incantation of Lightning Vulnerability Other */;
+VALUES (49615,  4426,   2.2)  /* Incantation of Lightning Arc */
+     , (49615,  4451,   2.25)  /* Incantation of Lightning Bolt */
+     , (49615,  4483,   2.25)  /* Incantation of Lightning Vulnerability Other */;
