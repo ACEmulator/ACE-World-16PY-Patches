@@ -75,12 +75,12 @@ GotoSet: Rare
 			- Tell: We don't want to hunt these rare and extraordinary creatures to the point of extinction, talk to me again at a later date.
 			- Delay: 1, Tell: You must wait %tqt to hunt the Rare creatures.
 		QuestFailure:
-			- InqQuestSolves: KilltaskRareGame_0609, 1 - 9
+			- InqQuestSolves: KilltaskRareGame_0609, 1 - 49
 				QuestSuccess:
 					- Tell: You have killed %tqc out of %tqm Rare Creatures. 
 					- Delay: 1, Tell: Return to me when you have killed %tqm Rare Creatures and I shall reward you.
 				QuestFailure:
-					- InqQuestSolves: KilltaskRareGame_0609, 10
+					- InqQuestSolves: KilltaskRareGame_0609, 50
 						QuestSuccess:
 							- Tell: Excellent, you are now an experienced hunter of the most elusive creatures. If you found anything on these creatures I can use my expertise and knowledge to bring out the essence of the creatures in the item and return to you an enhanced version.
 							- AddCharacterTitle: EliteHeadHunter
@@ -206,11 +206,6 @@ Give: Basalt Blade (12011)
     - TurnToTarget
     - Tell: Belinda du Loc tells you, "I have enhanced this item using the essence of the creature that once wielded it, put it to good use. If you do not want it give it back and I will reward you alternatively.
     - Give: 33946
-
-Give: 33946
-    - TurnToTarget
-    - Tell: I see you didn't want to keep this, that's a shame.
-    - AwardLevelProportionalXP: 1%, 500,000
 	
 Give: Basalt Blade (23538)
     - TurnToTarget
@@ -226,11 +221,6 @@ Give: Crystal Sword (12030)
     - TurnToTarget
     - Tell: Belinda du Loc tells you, "I have enhanced this item using the essence of the creature that once wielded it, put it to good use. If you do not want it give it back and I will reward you alternatively.
     - Give: 33940
-
-Give: 33940
-    - TurnToTarget
-    - Tell: I see you didn't want to keep this, that's a shame.
-    - AwardLevelProportionalXP: 1%, 500,000
 	
 Give: Crystal Sword (23541)
     - TurnToTarget
@@ -246,11 +236,6 @@ Give: Dark Sorcerer's Phylactery (12016)
     - TurnToTarget
     - Tell: Belinda du Loc tells you, "I have enhanced this item using the essence of the creature that once wielded it, put it to good use. If you do not want it give it back and I will reward you alternatively.
     - Give: 33953
-
-Give: 33953
-    - TurnToTarget
-    - Tell: I see you didn't want to keep this, that's a shame.
-    - AwardLevelProportionalXP: 1%, 500,000
 	
 Give: Dark Sorcerer's Phylactery (23611)
     - TurnToTarget
@@ -266,11 +251,6 @@ Give: Energy Crown (11986)
     - TurnToTarget
     - Tell: Belinda du Loc tells you, "I have enhanced this item using the essence of the creature that once wielded it, put it to good use. If you do not want it give it back and I will reward you alternatively.
     - Give: 87142
-
-Give: 87142
-    - TurnToTarget
-    - Tell: I see you didn't want to keep this, that's a shame.
-    - AwardLevelProportionalXP: 1%, 500,000
 	
 Give: Energy Crown (23591)
     - TurnToTarget
@@ -296,11 +276,6 @@ Give: Gauntlets of Marksmanship (11990)
     - TurnToTarget
     - Tell: Belinda du Loc tells you, "I have enhanced this item using the essence of the creature that once wielded it, put it to good use. If you do not want it give it back and I will reward you alternatively.
     - Give: 33949
-
-Give: 33949
-    - TurnToTarget
-    - Tell: I see you didn't want to keep this, that's a shame.
-    - AwardLevelProportionalXP: 1%, 500,000
 	
 Give: Gauntlets of Marksmanship (23592)
     - TurnToTarget
@@ -316,11 +291,6 @@ Give: Obsidian Axe (23535)
     - TurnToTarget
     - Tell: Belinda du Loc tells you, "I have enhanced this item using the essence of the creature that once wielded it, put it to good use. If you do not want it give it back and I will reward you alternatively.
     - Give: 87143
-
-Give: 87143
-    - TurnToTarget
-    - Tell: I see you didn't want to keep this, that's a shame.
-    - AwardLevelProportionalXP: 1%, 500,000
 	
 Give: Obsidian Axe (11982)
     - TurnToTarget
@@ -336,11 +306,6 @@ Give: Osseous Mace (11997)
     - TurnToTarget
     - Tell: Belinda du Loc tells you, "I have enhanced this item using the essence of the creature that once wielded it, put it to good use. If you do not want it give it back and I will reward you alternatively.
     - Give: 33941
-
-Give: 33941
-    - TurnToTarget
-    - Tell: I see you didn't want to keep this, that's a shame.
-    - AwardLevelProportionalXP: 1%, 500,000
 	
 Give: Osseous Mace (23537)
     - TurnToTarget
@@ -356,11 +321,6 @@ Give: Robe of the Tundra (12019)
     - TurnToTarget
     - Tell: Belinda du Loc tells you, "I have enhanced this item using the essence of the creature that once wielded it, put it to good use. If you do not want it give it back and I will reward you alternatively.
     - Give: 33950
-
-Give: 33950
-    - TurnToTarget
-    - Tell: I see you didn't want to keep this, that's a shame.
-    - AwardLevelProportionalXP: 1%, 500,000
 	
 Give: Robe of the Tundra (23593)
     - TurnToTarget
@@ -376,11 +336,6 @@ Give: Serpent's Fang (12028)
     - TurnToTarget
     - Tell: Belinda du Loc tells you, "I have enhanced this item using the essence of the creature that once wielded it, put it to good use. If you do not want it give it back and I will reward you alternatively.
     - Give: 33942
-
-Give: 33942
-    - TurnToTarget
-    - Tell: I see you didn't want to keep this, that's a shame.
-    - AwardLevelProportionalXP: 1%, 500,000
 	
 Give: Serpent's Fang (23539)
     - TurnToTarget
@@ -406,11 +361,6 @@ Give: Soul Staff (12029)
     - TurnToTarget
     - Tell: Belinda du Loc tells you, "I have enhanced this item using the essence of the creature that once wielded it, put it to good use. If you do not want it give it back and I will reward you alternatively.
     - Give: 33944
-
-Give: 33944
-    - TurnToTarget
-    - Tell: I see you didn't want to keep this, that's a shame.
-    - AwardLevelProportionalXP: 1%, 500,000
 	
 Give: Soul Staff (23540)
     - TurnToTarget
@@ -421,3 +371,4 @@ Give: 33944
     - TurnToTarget
     - Tell: I see you didn't want to keep this, that's a shame.
     - AwardLevelProportionalXP: 1%, 500,000
+	
