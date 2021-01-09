@@ -6,6 +6,7 @@ VALUES (51579, 'ace51579-discipleofanger', 10, '2020-10-21 21:40:20') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51579,   1,         16) /* ItemType - Creature */
      , (51579,   2,         19) /* CreatureType - Virindi */
+     , (51579,   3,          3) /* PaletteTemplate */
      , (51579,   6,         -1) /* ItemsCapacity */
      , (51579,   7,         -1) /* ContainersCapacity */
      , (51579,  16,          1) /* ItemUseable - No */
@@ -25,35 +26,35 @@ VALUES (51579,   1, True ) /* Stuck */
      , (51579,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51579,   1,       5) /* HeartbeatInterval */
-     , (51579,   2,       0) /* HeartbeatTimestamp */
-     , (51579,   3,     0.6) /* HealthRate */
-     , (51579,   4,     0.5) /* StaminaRate */
-     , (51579,   5,       2) /* ManaRate */
-     , (51579,  12,     0.5) /* Shade */
-     , (51579,  13,     0.7) /* ArmorModVsSlash */
-     , (51579,  14,       1) /* ArmorModVsPierce */
-     , (51579,  15,       1) /* ArmorModVsBludgeon */
-     , (51579,  16,     1.4) /* ArmorModVsCold */
-     , (51579,  17,     0.7) /* ArmorModVsFire */
-     , (51579,  18,       1) /* ArmorModVsAcid */
-     , (51579,  19,     1.4) /* ArmorModVsElectric */
-     , (51579,  31,       1) /* VisualAwarenessRange */
-     , (51579,  34,       1) /* PowerupTime */
-     , (51579,  36,       1) /* ChargeSpeed */
-     , (51579,  64,     1.2) /* ResistSlash */
-     , (51579,  65,       1) /* ResistPierce */
-     , (51579,  66,       1) /* ResistBludgeon */
-     , (51579,  67,     1.2) /* ResistFire */
-     , (51579,  68,     0.6) /* ResistCold */
-     , (51579,  69,       1) /* ResistAcid */
-     , (51579,  70,     0.6) /* ResistElectric */
-     , (51579,  80,       3) /* AiUseMagicDelay */
-     , (51579, 104,      10) /* ObviousRadarRange */
-     , (51579, 122,       2) /* AiAcquireHealth */
-     , (51579, 125,       1) /* ResistHealthDrain */
-     , (51579, 165,       1) /* ArmorModVsNether */
-     , (51579, 166,     1.5) /* ResistNether */;
+VALUES (51579,   1,   5) /* HeartbeatInterval */
+     , (51579,   2,   0) /* HeartbeatTimestamp */
+     , (51579,   3, 0.6) /* HealthRate */
+     , (51579,   4, 0.5) /* StaminaRate */
+     , (51579,   5,   2) /* ManaRate */
+     , (51579,  12, 0.5) /* Shade */
+     , (51579,  13, 0.8) /* ArmorModVsSlash */
+     , (51579,  14, 1.0) /* ArmorModVsPierce */
+     , (51579,  15, 1.0) /* ArmorModVsBludgeon */
+     , (51579,  16, 1.0) /* ArmorModVsCold */
+     , (51579,  17, 0.8) /* ArmorModVsFire */
+     , (51579,  18, 0.8) /* ArmorModVsAcid */
+     , (51579,  19, 1.0) /* ArmorModVsElectric */
+     , (51579,  31,   1) /* VisualAwarenessRange */
+     , (51579,  34,   1) /* PowerupTime */
+     , (51579,  36,   1) /* ChargeSpeed */
+     , (51579,  64, 0.7) /* ResistSlash */
+     , (51579,  65, 0.6) /* ResistPierce */
+     , (51579,  66, 0.6) /* ResistBludgeon */
+     , (51579,  67, 0.7) /* ResistFire */
+     , (51579,  68, 0.4) /* ResistCold */
+     , (51579,  69, 0.7) /* ResistAcid */
+     , (51579,  70, 0.4) /* ResistElectric */
+     , (51579,  80,   3) /* AiUseMagicDelay */
+     , (51579, 104,  10) /* ObviousRadarRange */
+     , (51579, 122,   2) /* AiAcquireHealth */
+     , (51579, 125,   1) /* ResistHealthDrain */
+     , (51579, 165, 1.0) /* ArmorModVsNether */
+     , (51579, 166, 1.0) /* ResistNether */;
 	 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51579,   1, 'Disciple of Anger') /* Name */;
@@ -64,6 +65,7 @@ VALUES (51579,   1,   33561227) /* Setup */
      , (51579,   3,  536870930) /* SoundTable */
      , (51579,   4,  805306381) /* CombatTable */
      , (51579,   6,   67111346) /* PaletteBase */
+     , (51579,   7, 268437423) /* ClothingBase */
      , (51579,   8,  100667943) /* Icon */
      , (51579,  22,  872415273) /* PhysicsEffectTable */;
 
@@ -95,13 +97,16 @@ VALUES (51579,  6, 0, 2, 0, 520, 0, 0) /* MeleeDefense        Trained */
      , (51579, 46, 0, 2, 0, 550, 0, 0) /* FinesseWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (51579,  0,  1,  0,    0,  320,  120,  120,  120,   86,  120,  120,   86,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (51579,  1,  1,  0,    0,  320,  120,  120,  120,   86,  120,  120,   86,    0, 2, 0.44, 0.23,    0, 0.44, 0.23,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (51579,  2,  1,  0,    0,  320,  120,  120,  120,   86,  120,  120,   86,    0, 3,    0, 0.23,  0.1,    0, 0.23,  0.2,    0, 0.17, 0.45,    0, 0.17, 0.45) /* Abdomen */
-     , (51579,  3,  1,  0,    0,  300,  100,  100,  100,   72,  100,  100,   72,    0, 1, 0.23, 0.04,  0.2, 0.23, 0.04,  0.1, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (51579,  4,  1,  0,    0,  300,  100,  100,  100,   72,  100,  100,   72,    0, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
-     , (51579,  5,  1, 150, 0.75,  300,  100,  100,  100,   72,  100,  100,   72,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (51579, 17,  1,  0,    0,  300,  100,  100,  100,   72,  100,  100,   72,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
+VALUES (51579,  0,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (51579,  1,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 2, 0.44, 0.23,    0, 0.44, 0.23,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (51579,  2,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 3,    0, 0.23,  0.1,    0, 0.23,  0.2,    0, 0.17, 0.45,    0, 0.17, 0.45) /* Abdomen */
+     , (51579,  3,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 1, 0.23, 0.04,  0.2, 0.23, 0.04,  0.1, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (51579,  4,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 2,    0,  0.3,  0.3,    0,  0.3,  0.4,    0,  0.3,  0.1,    0,  0.3,  0.1) /* LowerArm */
+     , (51579,  5,  1, 175, 0.75,  500,  500,  500,  500,  500,  500,  500,  500,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (51579, 17,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */; 
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51579, 9, 72104,  0, 0, 1, False) /* Create Splinter of Anger Gen (72104) for ContainTreasure */;
 	 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (51579,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -110,13 +115,4 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 4081 /* Eye of the Tempest */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 1, NULL, 'Shards of blue crystal explode outwards as the Disciple of Anger falls to the floor.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  2,  23 /* StartEvent */, 0, 1, NULL, 'AngerDiscipleDead', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (51579,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  24 /* StopEvent */, 0, 1, NULL, 'AngerDiscipleDead', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 1, NULL, 'Shards of blue crystal explode outwards as the Disciple of Anger falls to the floor.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

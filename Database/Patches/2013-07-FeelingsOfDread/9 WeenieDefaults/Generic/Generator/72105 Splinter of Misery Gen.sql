@@ -7,8 +7,9 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72105,  81,          9) /* MaxGeneratedObjects */
      , (72105,  82,          9) /* InitGeneratedObjects */
      , (72105,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (72105, 142,          3) /* GeneratorTimeType - Event */
-     , (72105, 145,          2) /* GeneratorEndDestructionType - Destroy */;
+     , (72105, 103,          2) /* GeneratorDestructionType - Destroy */
+     , (72105, 145,          2) /* GeneratorEndDestructionType - Destroy */
+     , (72105, 267,        180) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72105,   1, True ) /* Stuck */
@@ -20,8 +21,7 @@ VALUES (72105,  41,       5) /* RegenerationInterval */
      , (72105,  43,      10) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72105,   1, 'Splinter of Misery Gen') /* Name */
-     , (72105,  34, 'MiseryDiscipleDead') /* GeneratorEvent */;
+VALUES (72105,   1, 'Splinter of Misery Gen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72105,   1,   33555051) /* Setup */

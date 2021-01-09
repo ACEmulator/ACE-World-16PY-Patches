@@ -335,10 +335,6 @@ VALUES (0x758710B7, 51555, 0x58710162, 0, -60, 0.029, 0.707107, 0, 0, -0.707107,
 /* @teleloc 0x58710162 [0.000000 -60.000000 0.029000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x758710C2, 72106, 0x58710166, 10, -70, 0.084, 0.707107, 0, 0, -0.707107, False, '2020-09-05 11:00:57'); /* Splinter of Hatred Gen */
-/* @teleloc 0x58710166 [10.000000 -70.000000 0.084000] 0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758710C3, 51349, 0x58710155, 140.084, -60.1871, -5.9975, 0.999998, 0, 0, -0.00178676,  True, '2020-09-05 11:04:34'); /* Hollow Servant */
 /* @teleloc 0x58710155 [140.084000 -60.187099 -5.997500] 0.999998 0.000000 0.000000 -0.001787 */
 

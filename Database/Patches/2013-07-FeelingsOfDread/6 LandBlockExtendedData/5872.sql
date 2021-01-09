@@ -225,12 +225,8 @@ VALUES (0x75872071, 51555, 0x58720178, 123.976, -169.816, 0.029, 1, 0, 0, 0,  Tr
 /* @teleloc 0x58720178 [123.975998 -169.815994 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75872072, 72107, 0x58720179, 121.153, -175.365, 0.055, 1, 0, 0, 0, False, '2020-09-05 10:01:35');
+VALUES (0x75872072, 72107, 0x58720179, 121.153, -175.365, 0.055, 1, 0, 0, 0, False, '2020-09-05 10:01:35'); /* Linkable Local Signal Gen */
 /* @teleloc 0x58720179 [121.153000 -175.365005 0.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x75872072, 0x75872054, '2019-02-10 00:00:00') /* Door (51575) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75872073, 72105, 0x5872018F, 190, -210, 0.084, -0.707107, 0, 0, -0.707107, False, '2020-09-05 10:36:33'); /* Splinter of Misery Gen */
-/* @teleloc 0x5872018F [190.000000 -210.000000 0.084000] -0.707107 0.000000 0.000000 -0.707107 */
