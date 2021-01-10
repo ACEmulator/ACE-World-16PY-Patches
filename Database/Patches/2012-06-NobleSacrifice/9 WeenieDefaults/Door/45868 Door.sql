@@ -4,20 +4,21 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (45868, 'ace45868-door', 19, '2019-02-10 00:00:00') /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (45868,   1,        128) /* ItemType - Misc */
-     , (45868,  16,          1) /* ItemUseable - No */
-     , (45868,  19,          0) /* Value */
-     , (45868,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
-     , (45868, 290,          1) /* HearLocalSignals */
-     , (45868, 291,         50) /* HearLocalSignalsRadius */;
+VALUES (45868,   1, 128) /* ItemType - Misc */
+     , (45868,  16,   1) /* ItemUseable - No */
+     , (45868,  19,   0) /* Value */
+     , (45868,  93,  24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
+     , (45868, 290,   1) /* HearLocalSignals */
+     , (45868, 291,  50) /* HearLocalSignalsRadius */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45868,   1, True ) /* Stuck */
-     , (45868,   2, False) /* Open */
-     , (45868,  34, False) /* DefaultOpen */;
+VALUES (45868,  1,  True) /* Stuck */
+     , (45868,  2, False) /* Open */
+     , (45868, 34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45868,  54,       2) /* UseRadius */;
+VALUES (45868, 11, 180) /* ResetInterval */
+     , (45868, 54,   2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45868,   1, 'Door') /* Name */

@@ -8,8 +8,7 @@ VALUES (45903,   1,  128) /* ItemType - Misc */
      , (45903,  16,   32) /* ItemUseable - Remote */
      , (45903,  19,    0) /* Value */
      , (45903,  38, 9999) /* ResistLockpick */
-     , (45903,  93,   24) /* PhysicsState - ReportCollisions IgnoreCollisions */
-     , (45903, 114,    0) /* Attuned */;
+     , (45903,  93,   24) /* PhysicsState - ReportCollisions IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45903,  1,  True) /* Stuck */
@@ -19,7 +18,8 @@ VALUES (45903,  1,  True) /* Stuck */
      , (45903, 35,  True) /* DefaultLocked */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45903,  54,       2) /* UseRadius */;
+VALUES (45903, 11, 180) /* ResetInterval */
+     , (45903, 54,   2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45903,  1, 'Cell Door') /* Name */

@@ -214,7 +214,7 @@ VALUES (0x758670B8,   278, 0x5867033A, 210, -135.25, 18, 0, 0, 0, -1, False, '20
 /* @teleloc 0x5867033A [210.000000 -135.250000 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x758670B9,  1154, 0x58670290, 200, -110, 0.005, 0.696707, 0, 0, 0.717356, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x758670B9,  7924, 0x58670290, 200, -110, 0.005, 0.696707, 0, 0, 0.717356, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x58670290 [200.000000 -110.000000 0.005000] 0.696707 0.000000 0.000000 0.717356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -482,17 +482,6 @@ VALUES (0x758670F6, 49642, 0x58670140, 174.511, -120, -59.995, -0.707107, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758670F7, 49638, 0x58670106, 180, -80, -77.971, 0.70710677, 0, 0, 0.70710677, False, '2019-02-10 00:00:00'); /* Virindi Delegate */
 /* @teleloc 0x58670106 [180.000000 -80.000000 -77.971001] 0.707107 0.000000 0.000000 0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x758670F8,  1542, 0x5867026B, 177.296, -156.521, 0.079, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0x5867026B [177.296005 -156.520996 0.079000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758670F8, 0x758670F9, '2019-02-10 00:00:00') /* Dream Beacon (49643) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x758670F9, 49643, 0x5867026B, 177.296, -156.521, 0.079, 0.995004, 0, 0, -0.0998331,  True, '2019-02-10 00:00:00'); /* Dream Beacon */
-/* @teleloc 0x5867026B [177.296005 -156.520996 0.079000] 0.995004 0.000000 0.000000 -0.099833 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758670FA, 46451, 0x58670140, 171.511, -120, -58, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Portal Energy */
