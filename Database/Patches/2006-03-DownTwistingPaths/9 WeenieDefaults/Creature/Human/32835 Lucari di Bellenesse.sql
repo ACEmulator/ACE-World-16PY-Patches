@@ -6,8 +6,8 @@ VALUES (32835, 'ace32835-lucaridibellenesse', 10, '2020-02-29 18:15:46') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32835,   1,         16) /* ItemType - Creature */
      , (32835,   2,         31) /* CreatureType - Human */
-     , (32835,   6,        255) /* ItemsCapacity */
-     , (32835,   7,        255) /* ContainersCapacity */
+     , (32835,   6,         -1) /* ItemsCapacity */
+     , (32835,   7,         -1) /* ContainersCapacity */
      , (32835,  25,        100) /* Level */
      , (32835,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32835,  95,          8) /* RadarBlipColor - Yellow */
@@ -19,11 +19,7 @@ VALUES (32835,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32835,   1, True ) /* Stuck */
      , (32835,   8, True ) /* AllowGive */
-     , (32835,  12, True ) /* ReportCollisions */
-     , (32835,  13, False) /* Ethereal */
      , (32835,  19, False) /* Attackable */
-     , (32835,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (32835,  42, True ) /* AllowEdgeSlide */
      , (32835,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -63,7 +59,8 @@ VALUES (32835,   1,   33554433) /* Setup */
      , (32835,   2,  150994945) /* MotionTable */
      , (32835,   3,  536870913) /* SoundTable */
      , (32835,   4,  805306368) /* CombatTable */
-     , (32835,   8,  100667377) /* Icon */;
+     , (32835,   8,  100667377) /* Icon */
+     , (32835,  17,   67115901) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32835,   1, 230, 0, 0) /* Strength */
