@@ -22,39 +22,39 @@ VALUES (51573,   1, True ) /* Stuck */
      , (51573,  66, True ) /* IgnoreMagicArmor */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51573,   1,       5) /* HeartbeatInterval */
-     , (51573,   2,       0) /* HeartbeatTimestamp */
-     , (51573,   3,     3.5) /* HealthRate */
-     , (51573,   4,     8.5) /* StaminaRate */
-     , (51573,   5,       1) /* ManaRate */
-     , (51573,  12,     0.5) /* Shade */
-     , (51573,  13,    0.76) /* ArmorModVsSlash */
-     , (51573,  14,    0.76) /* ArmorModVsPierce */
-     , (51573,  15,    0.68) /* ArmorModVsBludgeon */
-     , (51573,  16,    0.84) /* ArmorModVsCold */
-     , (51573,  17,    0.64) /* ArmorModVsFire */
-     , (51573,  18,    0.76) /* ArmorModVsAcid */
-     , (51573,  19,    0.64) /* ArmorModVsElectric */
-     , (51573,  31,      12) /* VisualAwarenessRange */
-     , (51573,  34,       1) /* PowerupTime */
-     , (51573,  36,       1) /* ChargeSpeed */
-     , (51573,  39,     1.1) /* DefaultScale */
-     , (51573,  64,     0.5) /* ResistSlash */
-     , (51573,  65,     0.5) /* ResistPierce */
-     , (51573,  66,    0.33) /* ResistBludgeon */
-     , (51573,  67,    0.25) /* ResistFire */
-     , (51573,  68,    0.67) /* ResistCold */
-     , (51573,  69,     0.5) /* ResistAcid */
-     , (51573,  70,    0.25) /* ResistElectric */
-     , (51573,  71,       1) /* ResistHealthBoost */
-     , (51573,  72,       1) /* ResistStaminaDrain */
-     , (51573,  73,       1) /* ResistStaminaBoost */
-     , (51573,  74,       1) /* ResistManaDrain */
-     , (51573,  75,       1) /* ResistManaBoost */
-     , (51573, 104,      10) /* ObviousRadarRange */
-     , (51573, 125,       1) /* ResistHealthDrain */
-     , (51573, 165,     1.0) /* ArmorModVsNether */
-     , (51573, 166,     1.0) /* ResistNether */;
+VALUES (51573,   1,    5) /* HeartbeatInterval */
+     , (51573,   2,    0) /* HeartbeatTimestamp */
+     , (51573,   3,  3.5) /* HealthRate */
+     , (51573,   4,  8.5) /* StaminaRate */
+     , (51573,   5,    1) /* ManaRate */
+     , (51573,  12,  0.5) /* Shade */
+     , (51573,  13,  0.9) /* ArmorModVsSlash */
+     , (51573,  14,  0.9) /* ArmorModVsPierce */
+     , (51573,  15,  1.0) /* ArmorModVsBludgeon */
+     , (51573,  16,  0.8) /* ArmorModVsCold */
+     , (51573,  17,  1.0) /* ArmorModVsFire */
+     , (51573,  18,  1.0) /* ArmorModVsAcid */
+     , (51573,  19,  1.0) /* ArmorModVsElectric */
+     , (51573,  31,   12) /* VisualAwarenessRange */
+     , (51573,  34,    1) /* PowerupTime */
+     , (51573,  36,    1) /* ChargeSpeed */
+     , (51573,  39,  1.1) /* DefaultScale */
+     , (51573,  64,  0.5) /* ResistSlash */
+     , (51573,  65,  0.5) /* ResistPierce */
+     , (51573,  66, 0.33) /* ResistBludgeon */
+     , (51573,  67, 0.25) /* ResistFire */
+     , (51573,  68, 0.67) /* ResistCold */
+     , (51573,  69,  0.5) /* ResistAcid */
+     , (51573,  70, 0.25) /* ResistElectric */
+     , (51573,  71,    1) /* ResistHealthBoost */
+     , (51573,  72,    1) /* ResistStaminaDrain */
+     , (51573,  73,    1) /* ResistStaminaBoost */
+     , (51573,  74,    1) /* ResistManaDrain */
+     , (51573,  75,    1) /* ResistManaBoost */
+     , (51573, 104,   10) /* ObviousRadarRange */
+     , (51573, 125,    1) /* ResistHealthDrain */
+     , (51573, 165,  1.0) /* ArmorModVsNether */
+     , (51573, 166,  1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51573,   1, 'Hollow Servitor') /* Name */;
