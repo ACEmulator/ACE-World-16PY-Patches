@@ -37,7 +37,7 @@ VALUES (33953,   1,   33557338) /* Setup */
      , (33953,   8,  100674094) /* Icon */
      , (33953,  22,  872415275) /* PhysicsEffectTable */
      , (33953,  28,       2178) /* Spell - Decrepitude's Grasp */
-     , (33953   27, 1073742049) /* UseUserAnimation - UseMagicWand */
+     , (33953,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (33953,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
