@@ -72,7 +72,8 @@ VALUES (30882,   1,       5) /* HeartbeatInterval */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30882,   1, 'Banished Shadow') /* Name */
      , (30882,   3, 'Female') /* Sex */
-     , (30882,   4, 'Aluvian') /* HeritageGroup */;
+     , (30882,   4, 'Aluvian') /* HeritageGroup */
+     , (30882,  45, 'KilltaskBanishedCreature_0609') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30882,   1,   33556251) /* Setup */
