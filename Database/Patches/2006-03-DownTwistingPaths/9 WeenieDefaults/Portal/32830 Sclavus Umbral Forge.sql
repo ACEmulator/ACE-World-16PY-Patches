@@ -20,7 +20,7 @@ VALUES (32830,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32830,   1, 'Sclavus Umbral Forge') /* Name */
-     , (32830,  37, 'SpokeWIthGiordonni') /* QuestRestriction */
+     , (32830,  37, 'AccessSclavusUmbralForge') /* QuestRestriction */
      , (32830,  38, 'Sclavus Umbral Forge') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

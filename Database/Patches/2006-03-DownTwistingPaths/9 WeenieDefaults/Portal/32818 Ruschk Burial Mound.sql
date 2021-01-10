@@ -20,7 +20,7 @@ VALUES (32818,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32818,   1, 'Ruschk Burial Mound') /* Name */
-     , (32818,  37, 'SpokeWIthLydda') /* QuestRestriction */
+     , (32818,  37, 'AccessRuschkBurialMound') /* QuestRestriction */
      , (32818,  38, 'Ruschk Burial Mound') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
