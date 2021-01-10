@@ -25,7 +25,7 @@ VALUES (32773,   1,          1) /* ItemType - MeleeWeapon */
      , (32773, 158,          2) /* WieldRequirements - RawSkill */
      , (32773, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (32773, 160,        350) /* WieldDifficulty */
-     , (32773, 263,          1) /* ResistanceModifierType */
+     , (32773, 263,          1) /* ResistanceModifierType - Slash */
      , (32773, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -33,12 +33,9 @@ VALUES (32773,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32773,   5,   -0.05) /* ManaRate */
-     , (32773,  21,       0) /* WeaponLength */
      , (32773,  22,    0.25) /* DamageVariance */
-     , (32773,  26,       0) /* MaximumVelocity */
      , (32773,  39,    0.67) /* DefaultScale */
      , (32773,  62,    1.13) /* WeaponOffense */
-     , (32773,  63,       1) /* DamageMod */
      , (32773, 156,    0.05) /* ProcSpellRate */
      , (32773, 157,       1) /* ResistanceModifier */;
 
@@ -54,6 +51,5 @@ VALUES (32773,   1,   33559847) /* Setup */
      , (32773,  55,       1784) /* ProcSpell - Horizon's Blades */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32773,  1784,      2)  /* Horizon's Blades */
-     , (32773,  2096,      2)  /* Aura of Infected Caress */
+VALUES (32773,  2096,      2)  /* Aura of Infected Caress */
      , (32773,  2106,      2)  /* Aura of Elysa's Sight */;
