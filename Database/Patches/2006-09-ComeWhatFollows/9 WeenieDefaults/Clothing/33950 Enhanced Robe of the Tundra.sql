@@ -12,6 +12,7 @@ VALUES (33950,   1,          4) /* ItemType - Clothing */
      , (33950,  16,          1) /* ItemUseable - No */
      , (33950,  19,       6000) /* Value */
      , (33950,  28,        150) /* ArmorLevel */
+     , (33950,  27,          1) /* ArmorType - Cloth */
      , (33950,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33950, 106,        200) /* ItemSpellcraft */
      , (33950, 107,       1320) /* ItemCurMana */
@@ -23,7 +24,8 @@ VALUES (33950,   1,          4) /* ItemType - Clothing */
      , (33950, 160,         50) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33950,  22, True ) /* Inscribable */;
+VALUES (33950,  22, True ) /* Inscribable */
+     , (33950,  84, True )	/* IGNORE_CLO_ICONS */ ;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33950,   5,  -0.025) /* ManaRate */
