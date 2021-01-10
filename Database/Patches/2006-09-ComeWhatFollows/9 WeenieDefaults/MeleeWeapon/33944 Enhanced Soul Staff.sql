@@ -39,6 +39,7 @@ VALUES (33944,   5,  -0.025) /* ManaRate */
      , (33944,  29,     1.1) /* WeaponDefense */
      , (33944,  62,     1.1) /* WeaponOffense */
      , (33944,  63,       1) /* DamageMod */
+     , (33944, 156, 0.05) /* ProcSpellRate */
      , (33944, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
