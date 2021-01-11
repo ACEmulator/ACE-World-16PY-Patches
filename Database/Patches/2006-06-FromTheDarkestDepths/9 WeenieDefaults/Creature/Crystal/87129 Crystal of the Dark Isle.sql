@@ -47,13 +47,13 @@ VALUES (87129,   1,       5) /* HeartbeatInterval */
      , (87129,  34,       1) /* PowerupTime */
      , (87129,  36,       1) /* ChargeSpeed */
      , (87129,  39,     1.5) /* DefaultScale */
-     , (87129,  64,       1) /* ResistSlash */
-     , (87129,  65,       1) /* ResistPierce */
-     , (87129,  66,       1) /* ResistBludgeon */
+     , (87129,  64,    0.89) /* ResistSlash */
+     , (87129,  65,    0.92) /* ResistPierce */
+     , (87129,  66,    0.88) /* ResistBludgeon */
      , (87129,  67,     0.9) /* ResistFire */
      , (87129,  68,    0.65) /* ResistCold */
      , (87129,  69,     0.3) /* ResistAcid */
-     , (87129,  70,       1) /* ResistElectric */
+     , (87129,  70,    0.89) /* ResistElectric */
      , (87129,  71,       1) /* ResistHealthBoost */
      , (87129,  72,       0) /* ResistStaminaDrain */
      , (87129,  73,       1) /* ResistStaminaBoost */
@@ -115,12 +115,14 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (87129,  2056,  2.083)  /* Ataxia */
      , (87129,  2064,  2.083)  /* Self Loathing */
      , (87129,  2073,  2.083)  /* Adja's Intervention */
+     , (87129,  2142,  2.083)  /* Tempest */
      , (87129,  2162,  2.083)  /* Olthoi's Gift */
      , (87129,  2168,  2.083)  /* Gelidite's Gift */
      , (87129,  2170,  2.083)  /* Inferno's Gift */
      , (87129,  2172,  2.083)  /* Astyrrian's Gift */
      , (87129,  2185,  2.083)  /* Robustify */
-     , (87129,  2328,  2.083)  /* Vitality Siphon */;
+     , (87129,  2328,  2.083)  /* Vitality Siphon */
+     , (87129,  2738,  2.083)  /* Lightning Arc VII */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (87129, 9, 87130,  0, 0, 1, False) /* Create Crystal Shard (87130) for ContainTreasure */
