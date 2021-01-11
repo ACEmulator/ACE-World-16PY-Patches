@@ -87,14 +87,14 @@ VALUES (33458,   1, 29775, 0, 0, 30000) /* MaxHealth */
      , (33458,   5, 19680, 0, 0, 20000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (33458,  6, 0, 3, 0, 373, 0, 0) /* MeleeDefense        Specialized */
-     , (33458,  7, 0, 3, 0, 264, 0, 0) /* MissileDefense      Specialized */
-     , (33458, 15, 0, 3, 0, 191, 0, 0) /* MagicDefense        Specialized */
-     , (33458, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */
-     , (33458, 31, 0, 3, 0, 260, 0, 0) /* CreatureEnchantment Specialized */
-     , (33458, 33, 0, 3, 0, 300, 0, 0) /* LifeMagic           Specialized */
-     , (33458, 34, 0, 3, 0, 300, 0, 0) /* WarMagic            Specialized */
-     , (33458, 45, 0, 3, 0, 407, 0, 0) /* LightWeapons        Specialized */;
+VALUES (33458,  6, 0, 3, 0, 393, 0, 0) /* MeleeDefense        Specialized */
+     , (33458,  7, 0, 3, 0, 284, 0, 0) /* MissileDefense      Specialized */
+     , (33458, 15, 0, 3, 0, 211, 0, 0) /* MagicDefense        Specialized */
+     , (33458, 20, 0, 2, 0, 200, 0, 0) /* Deception           Trained */
+     , (33458, 31, 0, 3, 0, 280, 0, 0) /* CreatureEnchantment Specialized */
+     , (33458, 33, 0, 3, 0, 320, 0, 0) /* LifeMagic           Specialized */
+     , (33458, 34, 0, 3, 0, 320, 0, 0) /* WarMagic            Specialized */
+     , (33458, 45, 0, 3, 0, 427, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (33458,  0,  4,  5,    0,  350,  242,  280,  210,  350,  350,  385,  350,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
@@ -129,26 +129,26 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 1, NULL, 'The Mukkir Aspect
      , (@parent_id,  1,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33458, 9, 33757,  0, 0, 0, False) /* Create  (33757) for ContainTreasure */
-     , (33458, 9, 33757,  0, 0, 0, False) /* Create  (33757) for ContainTreasure */
-     , (33458, 9, 33757,  0, 0, 0, False) /* Create  (33757) for ContainTreasure */
-     , (33458, 9, 33757,  0, 0, 0, False) /* Create  (33757) for ContainTreasure */
-     , (33458, 9, 33757,  0, 0, 0, False) /* Create  (33757) for ContainTreasure */
-     , (33458, 9, 33757,  0, 0, 0, False) /* Create  (33757) for ContainTreasure */
-     , (33458, 9, 33757,  0, 0, 0, False) /* Create  (33757) for ContainTreasure */
-     , (33458, 9, 33757,  0, 0, 0, False) /* Create  (33757) for ContainTreasure */
-     , (33458, 9, 33757,  0, 0, 0, False) /* Create  (33757) for ContainTreasure */
-     , (33458, 9, 33757,  0, 0, 0, False) /* Create  (33757) for ContainTreasure */
-     , (33458, 9, 33691,  0, 0, 0, False) /* Create  (33691) for ContainTreasure */
-     , (33458, 9, 33691,  0, 0, 0, False) /* Create  (33691) for ContainTreasure */
-     , (33458, 9, 33691,  0, 0, 0, False) /* Create  (33691) for ContainTreasure */
-     , (33458, 9, 33691,  0, 0, 0, False) /* Create  (33691) for ContainTreasure */
-     , (33458, 9, 33691,  0, 0, 0, False) /* Create  (33691) for ContainTreasure */
-     , (33458, 9, 33691,  0, 0, 0, False) /* Create  (33691) for ContainTreasure */
-     , (33458, 9, 33691,  0, 0, 0, False) /* Create  (33691) for ContainTreasure */
-     , (33458, 9, 33691,  0, 0, 0, False) /* Create  (33691) for ContainTreasure */
-     , (33458, 9, 33691,  0, 0, 0, False) /* Create  (33691) for ContainTreasure */
-     , (33458, 9, 33691,  0, 0, 0, False) /* Create  (33691) for ContainTreasure */;
+VALUES (33458, 9, 33757,  0, 0, 0, False) /* Create Shadow Chest Key (33757) for ContainTreasure */
+     , (33458, 9, 33757,  0, 0, 0, False) /* Create Shadow Chest Key (33757) for ContainTreasure */
+     , (33458, 9, 33757,  0, 0, 0, False) /* Create Shadow Chest Key (33757) for ContainTreasure */
+     , (33458, 9, 33757,  0, 0, 0, False) /* Create Shadow Chest Key (33757) for ContainTreasure */
+     , (33458, 9, 33757,  0, 0, 0, False) /* Create Shadow Chest Key (33757) for ContainTreasure */
+     , (33458, 9, 33757,  0, 0, 0, False) /* Create Shadow Chest Key (33757) for ContainTreasure */
+     , (33458, 9, 33757,  0, 0, 0, False) /* Create Shadow Chest Key (33757) for ContainTreasure */
+     , (33458, 9, 33757,  0, 0, 0, False) /* Create Shadow Chest Key (33757) for ContainTreasure */
+     , (33458, 9, 33757,  0, 0, 0, False) /* Create Shadow Chest Key (33757) for ContainTreasure */
+     , (33458, 9, 33757,  0, 0, 0, False) /* Create Shadow Chest Key (33757) for ContainTreasure */
+     , (33458, 9, 33691,  0, 0, 0, False) /* Create Shard of the Black Spear (33691) for ContainTreasure */
+     , (33458, 9, 33691,  0, 0, 0, False) /* Create Shard of the Black Spear (33691) for ContainTreasure */
+     , (33458, 9, 33691,  0, 0, 0, False) /* Create Shard of the Black Spear (33691) for ContainTreasure */
+     , (33458, 9, 33691,  0, 0, 0, False) /* Create Shard of the Black Spear (33691) for ContainTreasure */
+     , (33458, 9, 33691,  0, 0, 0, False) /* Create Shard of the Black Spear (33691) for ContainTreasure */
+     , (33458, 9, 33691,  0, 0, 0, False) /* Create Shard of the Black Spear (33691) for ContainTreasure */
+     , (33458, 9, 33691,  0, 0, 0, False) /* Create Shard of the Black Spear (33691) for ContainTreasure */
+     , (33458, 9, 33691,  0, 0, 0, False) /* Create Shard of the Black Spear (33691) for ContainTreasure */
+     , (33458, 9, 33691,  0, 0, 0, False) /* Create Shard of the Black Spear (33691) for ContainTreasure */
+     , (33458, 9, 33691,  0, 0, 0, False) /* Create Shard of the Black Spear (33691) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33458, 1, 33874, 5, 1, 1, 1, 4, -1, 0, 0, 7734438, 231.583, -171.412, -0.063, -0.92388, 0, 0, -0.382683) /* Generate Trophy Room (33874) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
