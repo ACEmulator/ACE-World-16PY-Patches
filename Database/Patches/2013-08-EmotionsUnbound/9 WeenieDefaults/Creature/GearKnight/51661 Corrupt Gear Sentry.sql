@@ -25,36 +25,36 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51661,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51661,   1,       5) /* HeartbeatInterval */
-     , (51661,   2,       0) /* HeartbeatTimestamp */
-     , (51661,   3,   0.067) /* HealthRate */
-     , (51661,   4,       3) /* StaminaRate */
-     , (51661,   5,       1) /* ManaRate */
-     , (51661,  12,     0.6) /* Shade */
-     , (51661,  13,       1) /* ArmorModVsSlash */
-     , (51661,  14,       1) /* ArmorModVsPierce */
-     , (51661,  15,       1) /* ArmorModVsBludgeon */
-     , (51661,  16,     1.5) /* ArmorModVsCold */
-     , (51661,  17,     1.5) /* ArmorModVsFire */
-     , (51661,  18,     0.5) /* ArmorModVsAcid */
-     , (51661,  19,    0.75) /* ArmorModVsElectric */
-     , (51661,  31,       8) /* VisualAwarenessRange */
-     , (51661,  34,       1) /* PowerupTime */
-     , (51661,  36,       1) /* ChargeSpeed */
-     , (51661,  39,     1.3) /* DefaultScale */
-     , (51661,  41,       0) /* RegenerationInterval */
-     , (51661,  43,       5) /* GeneratorRadius */
-     , (51661,  64,     0.5) /* ResistSlash */
-     , (51661,  65,     0.5) /* ResistPierce */
-     , (51661,  66,     0.5) /* ResistBludgeon */
-     , (51661,  67,     0.5) /* ResistFire */
-     , (51661,  68,     0.5) /* ResistCold */
-     , (51661,  69,     1.3) /* ResistAcid */
-     , (51661,  70,       1) /* ResistElectric */
-     , (51661, 104,      10) /* ObviousRadarRange */
-     , (51661, 125,       1) /* ResistHealthDrain */
-     , (51661, 165,       1) /* ArmorModVsNether */
-     , (51661, 166,     1.5) /* ResistNether */;
+VALUES (51661,   1,     5) /* HeartbeatInterval */
+     , (51661,   2,     0) /* HeartbeatTimestamp */
+     , (51661,   3, 0.067) /* HealthRate */
+     , (51661,   4,     3) /* StaminaRate */
+     , (51661,   5,     1) /* ManaRate */
+     , (51661,  12,   0.6) /* Shade */
+     , (51661,  13,   1.0) /* ArmorModVsSlash */
+     , (51661,  14,   1.0) /* ArmorModVsPierce */
+     , (51661,  15,   0.9) /* ArmorModVsBludgeon */
+     , (51661,  16,   0.9) /* ArmorModVsCold */
+     , (51661,  17,   1.0) /* ArmorModVsFire */
+     , (51661,  18,   0.8) /* ArmorModVsAcid */
+     , (51661,  19,   0.8) /* ArmorModVsElectric */
+     , (51661,  31,     8) /* VisualAwarenessRange */
+     , (51661,  34,     1) /* PowerupTime */
+     , (51661,  36,     1) /* ChargeSpeed */
+     , (51661,  39,   1.3) /* DefaultScale */
+     , (51661,  41,     0) /* RegenerationInterval */
+     , (51661,  43,     5) /* GeneratorRadius */
+     , (51661,  64,   0.4) /* ResistSlash */
+     , (51661,  65,   0.4) /* ResistPierce */
+     , (51661,  66,   0.6) /* ResistBludgeon */
+     , (51661,  67,   0.4) /* ResistFire */
+     , (51661,  68,   0.6) /* ResistCold */
+     , (51661,  69,   0.7) /* ResistAcid */
+     , (51661,  70,   0.7) /* ResistElectric */
+     , (51661, 104,    10) /* ObviousRadarRange */
+     , (51661, 125,     1) /* ResistHealthDrain */
+     , (51661, 165,   1.0) /* ArmorModVsNether */
+     , (51661, 166,   1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51661,   1, 'Corrupt Gear Sentry') /* Name */;

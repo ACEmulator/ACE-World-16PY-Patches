@@ -22,34 +22,34 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51653,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51653,   1,       5) /* HeartbeatInterval */
-     , (51653,   2,       0) /* HeartbeatTimestamp */
-     , (51653,   3,   0.067) /* HealthRate */
-     , (51653,   4,       3) /* StaminaRate */
-     , (51653,   5,       1) /* ManaRate */
-     , (51653,  12,  0.5714) /* Shade */
-     , (51653,  13,       1) /* ArmorModVsSlash */
-     , (51653,  14,       1) /* ArmorModVsPierce */
-     , (51653,  15,       1) /* ArmorModVsBludgeon */
-     , (51653,  16,     1.5) /* ArmorModVsCold */
-     , (51653,  17,     1.5) /* ArmorModVsFire */
-     , (51653,  18,     0.5) /* ArmorModVsAcid */
-     , (51653,  19,    0.75) /* ArmorModVsElectric */
-     , (51653,  31,      25) /* VisualAwarenessRange */
-     , (51653,  34,       1) /* PowerupTime */
-     , (51653,  36,       1) /* ChargeSpeed */
-     , (51653,  39,     1.3) /* DefaultScale */
-     , (51653,  64,     0.5) /* ResistSlash */
-     , (51653,  65,     0.5) /* ResistPierce */
-     , (51653,  66,     0.5) /* ResistBludgeon */
-     , (51653,  67,     0.5) /* ResistFire */
-     , (51653,  68,     0.5) /* ResistCold */
-     , (51653,  69,     1.3) /* ResistAcid */
-     , (51653,  70,       1) /* ResistElectric */
-     , (51653, 104,      10) /* ObviousRadarRange */
-     , (51653, 125,       1) /* ResistHealthDrain */
-     , (51653, 165,       1) /* ArmorModVsNether */
-     , (51653, 166,     1.5) /* ResistNether */;
+VALUES (51653,   1,      5) /* HeartbeatInterval */
+     , (51653,   2,      0) /* HeartbeatTimestamp */
+     , (51653,   3,  0.067) /* HealthRate */
+     , (51653,   4,      3) /* StaminaRate */
+     , (51653,   5,      1) /* ManaRate */
+     , (51653,  12, 0.5714) /* Shade */
+     , (51653,  13,    1.0) /* ArmorModVsSlash */
+     , (51653,  14,    1.0) /* ArmorModVsPierce */
+     , (51653,  15,    0.9) /* ArmorModVsBludgeon */
+     , (51653,  16,    0.9) /* ArmorModVsCold */
+     , (51653,  17,    1.0) /* ArmorModVsFire */
+     , (51653,  18,    0.8) /* ArmorModVsAcid */
+     , (51653,  19,    0.8) /* ArmorModVsElectric */
+     , (51653,  31,     25) /* VisualAwarenessRange */
+     , (51653,  34,      1) /* PowerupTime */
+     , (51653,  36,      1) /* ChargeSpeed */
+     , (51653,  39,    1.3) /* DefaultScale */
+     , (51653,  64,    0.4) /* ResistSlash */
+     , (51653,  65,    0.4) /* ResistPierce */
+     , (51653,  66,    0.6) /* ResistBludgeon */
+     , (51653,  67,    0.4) /* ResistFire */
+     , (51653,  68,    0.6) /* ResistCold */
+     , (51653,  69,    0.7) /* ResistAcid */
+     , (51653,  70,    0.7) /* ResistElectric */
+     , (51653, 104,     10) /* ObviousRadarRange */
+     , (51653, 125,      1) /* ResistHealthDrain */
+     , (51653, 165,    1.0) /* ArmorModVsNether */
+     , (51653, 166,    1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51653,   1, 'Corrupt Gear Warrior') /* Name */;
@@ -107,5 +107,5 @@ VALUES (51653,  6, 0, 2, 0, 560, 0, 0) /* MeleeDefense        Trained */
      , (51653, 34, 0, 2, 0, 400, 0, 0) /* WarMagic            Trained */;     
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51653,  3941,  2.05)  /* Heavy Lightning Ring */
-     , (51653,  3989,  2.05)  /* Dark Lightning */;
+VALUES (51653,  3941,    2.1)  /* Heavy Lightning Ring */
+     , (51653,  3989,  2.111)  /* Dark Lightning */;

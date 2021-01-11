@@ -29,40 +29,40 @@ VALUES (51703,   1, True ) /* Stuck */
      , (51703, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51703,   1,       5) /* HeartbeatInterval */
-     , (51703,   2,       0) /* HeartbeatTimestamp */
-     , (51703,   3,     0.6) /* HealthRate */
-     , (51703,   4,     0.5) /* StaminaRate */
-     , (51703,   5,       2) /* ManaRate */
-     , (51703,  13,       1) /* ArmorModVsSlash */
-     , (51703,  14,       1) /* ArmorModVsPierce */
-     , (51703,  15,       1) /* ArmorModVsBludgeon */
-     , (51703,  16,     1.6) /* ArmorModVsCold */
-     , (51703,  17,     0.8) /* ArmorModVsFire */
-     , (51703,  18,     1.2) /* ArmorModVsAcid */
-     , (51703,  19,     1.2) /* ArmorModVsElectric */
-     , (51703,  31,      15) /* VisualAwarenessRange */
-     , (51703,  34,       1) /* PowerupTime */
-     , (51703,  36,       1) /* ChargeSpeed */
-     , (51703,  64,       1) /* ResistSlash */
-     , (51703,  65,       1) /* ResistPierce */
-     , (51703,  66,       1) /* ResistBludgeon */
-     , (51703,  67,     1.4) /* ResistFire */
-     , (51703,  68,     0.4) /* ResistCold */
-     , (51703,  69,     0.8) /* ResistAcid */
-     , (51703,  70,     0.8) /* ResistElectric */
-     , (51703,  71,       1) /* ResistHealthBoost */
-     , (51703,  72,       1) /* ResistStaminaDrain */
-     , (51703,  73,       1) /* ResistStaminaBoost */
-     , (51703,  74,       1) /* ResistManaDrain */
-     , (51703,  75,       1) /* ResistManaBoost */
-     , (51703,  76,     0.7) /* Translucency */
-     , (51703,  80,       3) /* AiUseMagicDelay */
-     , (51703, 104,      10) /* ObviousRadarRange */
-     , (51703, 122,       2) /* AiAcquireHealth */
-     , (51703, 125,       1) /* ResistHealthDrain */
-	 , (51703, 165,       1) /* ArmorModVsNether */
-     , (51703, 166,     1.5) /* ResistNether */;
+VALUES (51703,   1,   5) /* HeartbeatInterval */
+     , (51703,   2,   0) /* HeartbeatTimestamp */
+     , (51703,   3, 0.6) /* HealthRate */
+     , (51703,   4, 0.5) /* StaminaRate */
+     , (51703,   5,   2) /* ManaRate */
+     , (51703,  13, 1.0) /* ArmorModVsSlash */
+     , (51703,  14, 0.8) /* ArmorModVsPierce */
+     , (51703,  15, 1.0) /* ArmorModVsBludgeon */
+     , (51703,  16, 1.0) /* ArmorModVsCold */
+     , (51703,  17, 1.0) /* ArmorModVsFire */
+     , (51703,  18, 0.8) /* ArmorModVsAcid */
+     , (51703,  19, 1.0) /* ArmorModVsElectric */
+     , (51703,  31,  15) /* VisualAwarenessRange */
+     , (51703,  34,   1) /* PowerupTime */
+     , (51703,  36,   1) /* ChargeSpeed */
+     , (51703,  64, 0.4) /* ResistSlash */
+     , (51703,  65, 0.6) /* ResistPierce */
+     , (51703,  66, 0.6) /* ResistBludgeon */
+     , (51703,  67, 0.7) /* ResistFire */
+     , (51703,  68, 0.4) /* ResistCold */
+     , (51703,  69, 0.4) /* ResistAcid */
+     , (51703,  70, 0.4) /* ResistElectric */
+     , (51703,  71,   1) /* ResistHealthBoost */
+     , (51703,  72,   1) /* ResistStaminaDrain */
+     , (51703,  73,   1) /* ResistStaminaBoost */
+     , (51703,  74,   1) /* ResistManaDrain */
+     , (51703,  75,   1) /* ResistManaBoost */
+     , (51703,  76, 0.7) /* Translucency */
+     , (51703,  80,   3) /* AiUseMagicDelay */
+     , (51703, 104,  10) /* ObviousRadarRange */
+     , (51703, 122,   2) /* AiAcquireHealth */
+     , (51703, 125,   1) /* ResistHealthDrain */
+     , (51703, 165, 1.0) /* ArmorModVsNether */
+     , (51703, 166, 1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51703,   1, 'Apparition of Apathy') /* Name */;
@@ -119,10 +119,10 @@ VALUES (51703,  0, 8,  0,    0, 400, 220, 220, 220, 220, 220, 220, 220,  600, 1,
      , (51703,  8, 8, 200, 0.5, 400, 220, 220, 220, 220, 220, 220, 220,  600, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51703,  1843,   2.05)  /* Foon-Ki's Glacial Floe */
-     , (51703,  4312,   2.10)  /* Incantation of Imperil Other */
-     , (51703,  4447,   2.15)  /* Incantation of Frost Bolt */
-     , (51703,  4479,   2.10)  /* Incantation of Cold Vulnerability Other */;
+VALUES (51703,  1843,     2.1)  /* Foon-Ki's Glacial Floe */
+     , (51703,  4312,   2.111)  /* Incantation of Imperil Other */
+     , (51703,  4447,   2.188)  /* Incantation of Frost Bolt */
+     , (51703,  4479,   2.154)  /* Incantation of Cold Vulnerability Other */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (51703,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

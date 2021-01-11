@@ -18,7 +18,8 @@ VALUES (51664,   1, True ) /* Stuck */
      , (51664,  35, True ) /* DefaultLocked */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51664,  54,       2) /* UseRadius */;
+VALUES (51664,  11,     300) /* ResetInterval */
+     , (51664,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51664,   1, 'Door') /* Name */

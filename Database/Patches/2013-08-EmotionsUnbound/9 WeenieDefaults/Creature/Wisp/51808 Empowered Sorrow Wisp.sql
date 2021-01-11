@@ -27,39 +27,39 @@ VALUES (51808,   1, True ) /* Stuck */
      , (51808, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51808,   1,       5) /* HeartbeatInterval */
-     , (51808,   2,       0) /* HeartbeatTimestamp */
-     , (51808,   3,       3) /* HealthRate */
-     , (51808,   4,       5) /* StaminaRate */
-     , (51808,   5,       5) /* ManaRate */
-     , (51808,  13,     0.5) /* ArmorModVsSlash */
-     , (51808,  14,       1) /* ArmorModVsPierce */
-     , (51808,  15,     0.5) /* ArmorModVsBludgeon */
-     , (51808,  16,       1) /* ArmorModVsCold */
-     , (51808,  17,     0.5) /* ArmorModVsFire */
-     , (51808,  18,       1) /* ArmorModVsAcid */
-     , (51808,  19,       1) /* ArmorModVsElectric */
-     , (51808,  31,      30) /* VisualAwarenessRange */
-     , (51808,  34,       1) /* PowerupTime */
-     , (51808,  36,       1) /* ChargeSpeed */
-     , (51808,  39,     1.3) /* DefaultScale */
-     , (51808,  64,     1.4) /* ResistSlash */
-     , (51808,  65,       1) /* ResistPierce */
-     , (51808,  66,       1) /* ResistBludgeon */
-     , (51808,  67,     1.4) /* ResistFire */
-     , (51808,  68,     0.4) /* ResistCold */
-     , (51808,  69,       1) /* ResistAcid */
-     , (51808,  70,       1) /* ResistElectric */
-     , (51808,  71,       1) /* ResistHealthBoost */
-     , (51808,  72,       0) /* ResistStaminaDrain */
-     , (51808,  73,       1) /* ResistStaminaBoost */
-     , (51808,  74,       0) /* ResistManaDrain */
-     , (51808,  75,       1) /* ResistManaBoost */
-     , (51808, 104,      10) /* ObviousRadarRange */
-     , (51808, 122,       2) /* AiAcquireHealth */
-     , (51808, 125,       0) /* ResistHealthDrain */
-     , (51808, 165,       1) /* ArmorModVsNether */
-     , (51808, 166,     1.6) /* ResistNether */;
+VALUES (51808,   1,   5) /* HeartbeatInterval */
+     , (51808,   2,   0) /* HeartbeatTimestamp */
+     , (51808,   3,   3) /* HealthRate */
+     , (51808,   4,   5) /* StaminaRate */
+     , (51808,   5,   5) /* ManaRate */
+     , (51808,  13, 0.8) /* ArmorModVsSlash */
+     , (51808,  14, 0.8) /* ArmorModVsPierce */
+     , (51808,  15, 1.0) /* ArmorModVsBludgeon */
+     , (51808,  16, 1.0) /* ArmorModVsCold */
+     , (51808,  17, 1.0) /* ArmorModVsFire */
+     , (51808,  18, 1.0) /* ArmorModVsAcid */
+     , (51808,  19, 1.0) /* ArmorModVsElectric */
+     , (51808,  31,  30) /* VisualAwarenessRange */
+     , (51808,  34,   1) /* PowerupTime */
+     , (51808,  36,   1) /* ChargeSpeed */
+     , (51808,  39, 1.3) /* DefaultScale */
+     , (51808,  64, 0.7) /* ResistSlash */
+     , (51808,  65, 0.7) /* ResistPierce */
+     , (51808,  66, 0.4) /* ResistBludgeon */
+     , (51808,  67, 0.7) /* ResistFire */
+     , (51808,  68, 0.4) /* ResistCold */
+     , (51808,  69, 0.4) /* ResistAcid */
+     , (51808,  70, 0.4) /* ResistElectric */
+     , (51808,  71,   1) /* ResistHealthBoost */
+     , (51808,  72,   0) /* ResistStaminaDrain */
+     , (51808,  73,   1) /* ResistStaminaBoost */
+     , (51808,  74,   0) /* ResistManaDrain */
+     , (51808,  75,   1) /* ResistManaBoost */
+     , (51808, 104,  10) /* ObviousRadarRange */
+     , (51808, 122,   2) /* AiAcquireHealth */
+     , (51808, 125,   0) /* ResistHealthDrain */
+     , (51808, 165, 1.0) /* ArmorModVsNether */
+     , (51808, 166, 1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51808,   1, 'Empowered Sorrow Wisp') /* Name */
@@ -102,15 +102,14 @@ VALUES (51808,  6, 0, 3, 0, 490, 0, 0) /* MeleeDefense        Specialized */
      , (51808, 45, 0, 3, 0, 400, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (51808,  0, 8, 200,  0.5,  300,  300,  300,  150,  150, 150,  150,  150,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (51808, 16, 8,  0,    0,  300,  300,  300,  150,  150, 150,  150,  150,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (51808, 17, 8, 200, 0.75,  300,  300,  300,  150,  150, 150,  150,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (51808, 21, 8,  0,    0,  300,  300,  300,  150,  150, 150,  150,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (51808,  0, 8, 200,  0.5,  400,  400,  400,  250,  250, 250,  250,  250,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (51808, 16, 8,  0,    0,  400,  400,  400,  250,  250, 250,  250,  250,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (51808, 17, 8, 200, 0.75,  400,  400,  400,  250,  250, 250,  250,  250,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (51808, 21, 8,  0,    0,  400,  400,  400,  250,  250, 250,  250,  250,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 	 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51808,  3884,   2.08)  /* Glacial Ring */
-     , (51808,  4479,   2.05)  /* Incantation of Cold Vulnerability Other */
-     , (51808,  4447,   2.10)  /* Incantation of Frost Bolt */
-	 , (51808,  4322,   2.02)  /* Incantation of Slowness Other */
-	 , (51808,  2281,   2.02)  /* Aura of Resistance */
-	 , (51808,  4491,   2.02)  /* Incantation of Mana Depletion Other */;
+VALUES (51808,  3884,     2.1)  /* Glacial Ring */
+     , (51808,  4479,   2.056)  /* Incantation of Cold Vulnerability Other */
+     , (51808,  4447,   2.118)  /* Incantation of Frost Bolt */
+	 , (51808,  4322,   2.067)  /* Incantation of Slowness Other */
+	 , (51808,  4491,   2.071)  /* Incantation of Mana Depletion Other */;

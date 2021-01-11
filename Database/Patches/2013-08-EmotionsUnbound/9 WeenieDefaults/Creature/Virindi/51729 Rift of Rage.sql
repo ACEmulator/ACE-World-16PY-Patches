@@ -33,38 +33,38 @@ VALUES (51729,   1, True ) /* Stuck */
      , (51729, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51729,   1,       5) /* HeartbeatInterval */
-     , (51729,   2,       0) /* HeartbeatTimestamp */
-     , (51729,   3,     0.6) /* HealthRate */
-     , (51729,   4,     0.5) /* StaminaRate */
-     , (51729,   5,       2) /* ManaRate */
-     , (51729,  12,     0.5) /* Shade */
-     , (51729,  13,       1) /* ArmorModVsSlash */
-     , (51729,  14,       1) /* ArmorModVsPierce */
-     , (51729,  15,       1) /* ArmorModVsBludgeon */
-     , (51729,  16,       1) /* ArmorModVsCold */
-     , (51729,  17,     1.6) /* ArmorModVsFire */
-     , (51729,  18,       1) /* ArmorModVsAcid */
-     , (51729,  19,     1.6) /* ArmorModVsElectric */
-     , (51729,  31,      18) /* VisualAwarenessRange */
-     , (51729,  34,       1) /* PowerupTime */
-     , (51729,  36,       1) /* ChargeSpeed */
-     , (51729,  39,     1.5) /* DefaultScale */
-     , (51729,  41,      30) /* RegenerationInterval */
-     , (51729,  43,       5) /* GeneratorRadius */
-     , (51729,  64,     0.8) /* ResistSlash */
-     , (51729,  65,     0.6) /* ResistPierce */
-     , (51729,  66,     0.6) /* ResistBludgeon */
-     , (51729,  67,     0.4) /* ResistFire */
-     , (51729,  68,     0.8) /* ResistCold */
-     , (51729,  69,     0.8) /* ResistAcid */
-     , (51729,  70,     0.4) /* ResistElectric */
-     , (51729,  80,       3) /* AiUseMagicDelay */
-     , (51729, 104,      10) /* ObviousRadarRange */
-     , (51729, 122,       2) /* AiAcquireHealth */
-     , (51729, 125,       1) /* ResistHealthDrain */
-     , (51729, 165,       1) /* ArmorModVsNether */
-     , (51729, 166,     1.5) /* ResistNether */;
+VALUES (51729,   1,   5) /* HeartbeatInterval */
+     , (51729,   2,   0) /* HeartbeatTimestamp */
+     , (51729,   3, 0.6) /* HealthRate */
+     , (51729,   4, 0.5) /* StaminaRate */
+     , (51729,   5,   2) /* ManaRate */
+     , (51729,  12, 0.5) /* Shade */
+     , (51729,  13, 1.0) /* ArmorModVsSlash */
+     , (51729,  14, 1.0) /* ArmorModVsPierce */
+     , (51729,  15, 1.0) /* ArmorModVsBludgeon */
+     , (51729,  16, 0.8) /* ArmorModVsCold */
+     , (51729,  17, 1.0) /* ArmorModVsFire */
+     , (51729,  18, 0.8) /* ArmorModVsAcid */
+     , (51729,  19, 1.0) /* ArmorModVsElectric */
+     , (51729,  31,  18) /* VisualAwarenessRange */
+     , (51729,  34,   1) /* PowerupTime */
+     , (51729,  36,   1) /* ChargeSpeed */
+     , (51729,  39, 1.5) /* DefaultScale */
+     , (51729,  41,  30) /* RegenerationInterval */
+     , (51729,  43,   5) /* GeneratorRadius */
+     , (51729,  64, 0.6) /* ResistSlash */
+     , (51729,  65, 0.6) /* ResistPierce */
+     , (51729,  66, 0.6) /* ResistBludgeon */
+     , (51729,  67, 0.4) /* ResistFire */
+     , (51729,  68, 0.7) /* ResistCold */
+     , (51729,  69, 0.7) /* ResistAcid */
+     , (51729,  70, 0.4) /* ResistElectric */
+     , (51729,  80,   3) /* AiUseMagicDelay */
+     , (51729, 104,  10) /* ObviousRadarRange */
+     , (51729, 122,   2) /* AiAcquireHealth */
+     , (51729, 125,   1) /* ResistHealthDrain */
+     , (51729, 165, 1.0) /* ArmorModVsNether */
+     , (51729, 166, 1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51729,   1, 'Rift of Rage') /* Name */
@@ -99,7 +99,7 @@ VALUES (51729,   1, 10010, 0, 0, 10100) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (51729,  6, 0, 2, 0, 530, 0, 0) /* MeleeDefense        Trained */
-     , (51729,  7, 0, 2, 0, 370, 0, 0) /* MissileDefense      Trained */
+     , (51729,  7, 0, 2, 0, 450, 0, 0) /* MissileDefense      Trained */
      , (51729, 15, 0, 2, 0, 280, 0, 0) /* MagicDefense        Trained */
      , (51729, 16, 0, 2, 0, 400, 0, 0) /* ManaConversion      Trained */
      , (51729, 31, 0, 2, 0, 400, 0, 0) /* CreatureEnchantment Trained */
@@ -123,11 +123,11 @@ VALUES (51729,  0, 16,  0,    0, 350, 220, 220, 220, 220, 220, 220, 220,  600, 1
      , (51729,  8, 16, 200, 0.5, 350, 220, 220, 220, 220, 220, 220, 220,  600, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51729,  1785,   2.08)  /* Cassius' Ring of Fire */
-     , (51729,  2074,   2.05)  /* Gossamer Flesh */
-     , (51729,  2128,   2.08)  /* Ilservian's Flame */
-     , (51729,  2170,   2.05)  /* Inferno's Gift */
-     , (51729,  2745,   2.08)  /* Flame Arc VII */;
+VALUES (51729,  1785,    2.15)  /* Cassius' Ring of Fire */
+     , (51729,  2074,   2.118)  /* Gossamer Flesh */
+     , (51729,  2170,   2.133)  /* Inferno's Gift */
+     , (51729,  2128,   2.308)  /* Ilservian's Flame */
+     , (51729,  2745,   2.444)  /* Flame Arc VII */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (51729, -1, 51730, 15, 1, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Discorporate Rynthid of Rage (51730) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

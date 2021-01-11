@@ -12,15 +12,15 @@ VALUES (51832,   1,         16) /* ItemType - Creature */
      , (51832,  16,          1) /* ItemUseable - No */
      , (51832,  25,        200) /* Level */
      , (51832,  27,          0) /* ArmorType - None */
-     , (51832,  40,          2) /* CombatMode - Melee */
      , (51832,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (51832,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (51832, 101,     524288) /* AiAllowedCombatStyle - StubbornMissile */
      , (51832, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (51832, 146,          0) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51832,   1, True ) /* Stuck */
-     , (51832,   6, True ) /* AiUsesMana */
+     , (51832,   6, False) /* AiUsesMana */
      , (51832,  11, False) /* IgnoreCollisions */
      , (51832,  12, True ) /* ReportCollisions */
      , (51832,  13, False) /* Ethereal */
@@ -45,13 +45,13 @@ VALUES (51832,   1,       5) /* HeartbeatInterval */
      , (51832,  34,     0.8) /* PowerupTime */
      , (51832,  36,       1) /* ChargeSpeed */
      , (51832,  39,     1.2) /* DefaultScale */
-     , (51832,  64,       1) /* ResistSlash */
-     , (51832,  65,       1) /* ResistPierce */
-     , (51832,  66,       1) /* ResistBludgeon */
-     , (51832,  67,       1) /* ResistFire */
-     , (51832,  68,       1) /* ResistCold */
-     , (51832,  69,       1) /* ResistAcid */
-     , (51832,  70,     1.1) /* ResistElectric */
+     , (51832,  64,     0.5) /* ResistSlash */
+     , (51832,  65,     0.5) /* ResistPierce */
+     , (51832,  66,     0.5) /* ResistBludgeon */
+     , (51832,  67,     0.5) /* ResistFire */
+     , (51832,  68,     0.5) /* ResistCold */
+     , (51832,  69,     0.5) /* ResistAcid */
+     , (51832,  70,     0.7) /* ResistElectric */
      , (51832,  71,       1) /* ResistHealthBoost */
      , (51832,  72,       1) /* ResistStaminaDrain */
      , (51832,  73,       1) /* ResistStaminaBoost */
@@ -116,10 +116,10 @@ VALUES (51832,  0, 16, 140, 0.75,  310,  264,  264,  310,  279,  310,  295,  155
      , (51832, 25,  4, 140, 0.75,  320,  272,  272,  320,  288,  320,  304,  160,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51832,  4432,   2.08)  /* Incantation of Acid Streak */
-     , (51832,  4473,   2.05)  /* Incantation of Acid Vulnerability Other */
-	 , (51832,  2159,   2.02)  /* Storm's Blessing */
-     , (51832,  4489,   2.02)  /* Incantation of Fester Other */;
+VALUES (51832,  4432,    2.05)  /* Incantation of Acid Streak */
+     , (51832,  4473,   2.053)  /* Incantation of Acid Vulnerability Other */
+	 , (51832,  2159,   2.056)  /* Storm's Blessing */
+     , (51832,  4489,   2.059)  /* Incantation of Fester Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51832, 2, 51833, 10, 0, 0, False) /* Create Corrosive Bolt (51833) for Wield */;

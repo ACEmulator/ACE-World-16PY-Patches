@@ -30,35 +30,35 @@ VALUES (51881,   1, True ) /* Stuck */
      , (51881,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51881,   1,       5) /* HeartbeatInterval */
-     , (51881,   2,       0) /* HeartbeatTimestamp */
-     , (51881,   3,     0.6) /* HealthRate */
-     , (51881,   4,     2.5) /* StaminaRate */
-     , (51881,   5,       1) /* ManaRate */
-     , (51881,  12,     0.5) /* Shade */
-     , (51881,  13,     0.8) /* ArmorModVsSlash */
-     , (51881,  14,       1) /* ArmorModVsPierce */
-     , (51881,  15,       1) /* ArmorModVsBludgeon */
-     , (51881,  16,     1.4) /* ArmorModVsCold */
-     , (51881,  17,     0.8) /* ArmorModVsFire */
-     , (51881,  18,     1.4) /* ArmorModVsAcid */
-     , (51881,  19,     1.4) /* ArmorModVsElectric */
-     , (51881,  31,      30) /* VisualAwarenessRange */
-     , (51881,  34,     1.1) /* PowerupTime */
-     , (51881,  36,       1) /* ChargeSpeed */
-     , (51881,  64,     1.1) /* ResistSlash */
-     , (51881,  65,       1) /* ResistPierce */
-     , (51881,  66,       1) /* ResistBludgeon */
-     , (51881,  67,     1.1) /* ResistFire */
-     , (51881,  68,     0.6) /* ResistCold */
-     , (51881,  69,     0.6) /* ResistAcid */
-     , (51881,  70,     0.6) /* ResistElectric */
-     , (51881,  80,       3) /* AiUseMagicDelay */
-     , (51881, 104,      10) /* ObviousRadarRange */
-     , (51881, 122,       5) /* AiAcquireHealth */
-     , (51881, 125,       1) /* ResistHealthDrain */
-     , (51881, 165,       1) /* ArmorModVsNether */
-     , (51881, 166,       1) /* ResistNether */;
+VALUES (51881,   1,   5) /* HeartbeatInterval */
+     , (51881,   2,   0) /* HeartbeatTimestamp */
+     , (51881,   3, 0.6) /* HealthRate */
+     , (51881,   4, 2.5) /* StaminaRate */
+     , (51881,   5,   1) /* ManaRate */
+     , (51881,  12, 0.5) /* Shade */
+     , (51881,  13, 0.8) /* ArmorModVsSlash */
+     , (51881,  14, 0.9) /* ArmorModVsPierce */
+     , (51881,  15, 0.9) /* ArmorModVsBludgeon */
+     , (51881,  16, 1.0) /* ArmorModVsCold */
+     , (51881,  17, 0.8) /* ArmorModVsFire */
+     , (51881,  18, 1.0) /* ArmorModVsAcid */
+     , (51881,  19, 1.0) /* ArmorModVsElectric */
+     , (51881,  31,  30) /* VisualAwarenessRange */
+     , (51881,  34, 1.1) /* PowerupTime */
+     , (51881,  36,   1) /* ChargeSpeed */
+     , (51881,  64, 0.7) /* ResistSlash */
+     , (51881,  65, 0.6) /* ResistPierce */
+     , (51881,  66, 0.4) /* ResistBludgeon */
+     , (51881,  67, 0.7) /* ResistFire */
+     , (51881,  68, 0.4) /* ResistCold */
+     , (51881,  69, 0.4) /* ResistAcid */
+     , (51881,  70, 0.4) /* ResistElectric */
+     , (51881,  80,   3) /* AiUseMagicDelay */
+     , (51881, 104,  10) /* ObviousRadarRange */
+     , (51881, 122,   5) /* AiAcquireHealth */
+     , (51881, 125,   1) /* ResistHealthDrain */
+     , (51881, 165, 1.0) /* ArmorModVsNether */
+     , (51881, 166, 1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51881,   1, 'Tormented Shadow') /* Name */;
@@ -92,8 +92,8 @@ VALUES (51881,   1,  2250, 0, 0, 2380) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (51881,  6, 0, 2, 0, 550, 0, 0) /* MeleeDefense        Trained */
-     , (51881,  7, 0, 2, 0, 400, 0, 0) /* MissileDefense      Trained */
-     , (51881, 15, 0, 2, 0, 270, 0, 0) /* MagicDefense        Trained */
+     , (51881,  7, 0, 2, 0, 450, 0, 0) /* MissileDefense      Trained */
+     , (51881, 15, 0, 2, 0, 330, 0, 0) /* MagicDefense        Trained */
      , (51881, 16, 0, 2, 0, 380, 0, 0) /* ManaConversion      Trained */
      , (51881, 31, 0, 2, 0, 380, 0, 0) /* CreatureEnchantment Trained */
      , (51881, 33, 0, 2, 0, 380, 0, 0) /* LifeMagic           Trained */
@@ -116,10 +116,10 @@ VALUES (51881,  0,  4,  0,    0,  320,   190,   158,   169,   134,   190,   140,
      , (51881,  8,  4, 250, 0.75,  320,   190,   158,   169,   134,   190,   140,   158,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51881,  2282,   2.05)  /* Futility */
-     , (51881,  4302,   2.05)  /* Incantation of Feeblemind Other */
-     , (51881,  4322,   2.05)  /* Incantation of Slowness Other */
-     , (51881,  4633,   2.05)  /* Incantation of Vulnerability Other */
-     , (51881,  5356,   2.10)  /* Incantation of Nether Bolt */
-	 , (51881,  2281,   2.02)  /* Aura of Resistance */
-     , (51881,  5394,   2.10)  /* Incantation of Corrosion */;
+VALUES (51881,  2282,    2.08)  /* Futility */
+     , (51881,  4302,   2.087)  /* Incantation of Feeblemind Other */
+     , (51881,  4322,   2.095)  /* Incantation of Slowness Other */
+     , (51881,  4633,   2.184)  /* Incantation of Vulnerability Other */
+     , (51881,  5356,   2.226)  /* Incantation of Nether Bolt */
+	 , (51881,  2281,   2.104)  /* Aura of Resistance */
+     , (51881,  5394,   2.233)  /* Incantation of Corrosion */;
