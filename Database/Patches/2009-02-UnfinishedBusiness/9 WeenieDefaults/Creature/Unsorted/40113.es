@@ -1,18 +1,13 @@
 Use:
-	- InqQuest: CrystallineMarkerStart
-		QuestSuccess:
-			- InqQuest: FoundCrystallineMarker9
-				QuestSuccess:
-					- DirectBroadcast: You discovered this marker already.
-				QuestFailure:
-					- DirectBroadcast: You have found the 9th Marker!
-					- StampQuest: FoundCrystallineMarker9
-					- StampQuest: CrystallineMarkerCounter0109
-		QuestFailure:
-			- DirectBroadcast: You examine the marker, but are unsure what to do with it. 
-			
-
-
-
-
-
+    - InqQuest: CrystallineMarkerStart
+        QuestSuccess:
+            - InqQuestBitsOn: CrystallineMarkersFound, 0x100
+                QuestSuccess:
+                    - DirectBroadcast: You have discovered this marker already.
+                QuestFailure:
+                    - DirectBroadcast: You have found the 9th Marker!
+                    - PhysScript: LevelUp
+                    - SetQuestBitsOn: CrystallineMarkersFound, 0x100
+                    - StampQuest: CrystallineMarkerCounter0109
+        QuestFailure:
+            - DirectBroadcast: You examine the crystal, but are unsure what to do with it.
