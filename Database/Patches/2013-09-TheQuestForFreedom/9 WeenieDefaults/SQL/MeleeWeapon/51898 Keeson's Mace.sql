@@ -55,10 +55,10 @@ VALUES (51898,   1,   33559579) /* Setup */
      , (51898,   8,  100667588) /* Icon */
      , (51898,  22,  872415275) /* PhysicsEffectTable */
      , (51898,  30,         88) /* PhysicsScript - Create */
-     , (51898,  55,       4477) /* ProcSpell - Incantation of Blugeoning Vulnerability Other */;
+     , (51898,  55,       2166) /* ProcSpell - Tusker's Gift */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51898,  4477,   2) /* Incantation of Blugeoning Vulnerability Other */;
+VALUES (51898,  2166,   2) /* Tusker's Gift */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (51898, 8040, 1498480910, 69.89, -90, -0.17, 0, 0, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
