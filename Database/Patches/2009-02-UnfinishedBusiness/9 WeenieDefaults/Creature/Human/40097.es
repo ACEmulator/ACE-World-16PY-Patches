@@ -80,7 +80,6 @@ GotoSet: Found_25
             - AwardNoShareXP: 200,000,000
             - Give: Reinforced Mana Forge Key (38920)
             - EraseQuest: CrystallineMarkerStart
-            - EraseQuest: CrystallineMarkersFound
         QuestFailure:
             - Goto: NotEnough
 
