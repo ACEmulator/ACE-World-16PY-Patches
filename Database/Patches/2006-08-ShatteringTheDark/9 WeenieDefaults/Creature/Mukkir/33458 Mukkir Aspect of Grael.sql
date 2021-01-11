@@ -11,8 +11,6 @@ VALUES (33458,   1,         16) /* ItemType - Creature */
      , (33458,  16,          1) /* ItemUseable - No */
      , (33458,  25,        265) /* Level */
      , (33458,  40,          1) /* CombatMode - NonCombat */
-     , (33458,  81,          1) /* MaxGeneratedObjects */
-     , (33458,  82,          0) /* InitGeneratedObjects */
      , (33458,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (33458, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (33458, 146,     580785) /* XpOverride */;
@@ -40,8 +38,6 @@ VALUES (33458,   1,       5) /* HeartbeatInterval */
      , (33458,  34,     0.5) /* PowerupTime */
      , (33458,  36,       1) /* ChargeSpeed */
      , (33458,  39,     2.5) /* DefaultScale */
-     , (33458,  41,       0) /* RegenerationInterval */
-     , (33458,  43,       5) /* GeneratorRadius */
      , (33458,  64,     0.1) /* ResistSlash */
      , (33458,  65,     0.8) /* ResistPierce */
      , (33458,  66,     0.3) /* ResistBludgeon */
@@ -119,15 +115,6 @@ VALUES (33458,  2994,   2.02)  /* Plague */
      , (33458,  3947,   2.02)  /* Blade Wave */
      , (33458,  3952,   2.02)  /* Shock Waves */;
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (33458,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 1, NULL, 'The Mukkir Aspect of Grael is struck down! As he falls, his essence is ripped from his body and collapses in on itself!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33458, 9, 33757,  0, 0, 0, False) /* Create Shadow Chest Key (33757) for ContainTreasure */
      , (33458, 9, 33757,  0, 0, 0, False) /* Create Shadow Chest Key (33757) for ContainTreasure */
@@ -149,6 +136,3 @@ VALUES (33458, 9, 33757,  0, 0, 0, False) /* Create Shadow Chest Key (33757) for
      , (33458, 9, 33691,  0, 0, 0, False) /* Create Shard of the Black Spear (33691) for ContainTreasure */
      , (33458, 9, 33691,  0, 0, 0, False) /* Create Shard of the Black Spear (33691) for ContainTreasure */
      , (33458, 9, 33691,  0, 0, 0, False) /* Create Shard of the Black Spear (33691) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33458, 1, 33874, 5, 1, 1, 1, 4, -1, 0, 0, 7734438, 231.583, -171.412, -0.063, -0.92388, 0, 0, -0.382683) /* Generate Trophy Room (33874) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
