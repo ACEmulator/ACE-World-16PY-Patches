@@ -77,7 +77,7 @@ VALUES (6854,   1, 'Claude the Archmage') /* Name */
      , (6854,  24, 'Ayan Baqur') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6854,   1,   33554497) /* Setup */
+VALUES (6854,   1,   33560381) /* Setup */
      , (6854,   2,  150994984) /* MotionTable */
      , (6854,   3,  536870930) /* SoundTable */
      , (6854,   4,  805306381) /* CombatTable */
