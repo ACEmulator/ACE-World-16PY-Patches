@@ -4,7 +4,7 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (80500, 'ace80500-tou-toulumarea', 1, '2019-08-07 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (80500,  81,          1) /* MaxGeneratedObjects */
+VALUES (80500,  81,          2) /* MaxGeneratedObjects */
      , (80500,  82,          1) /* InitGeneratedObjects */
      , (80500,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
