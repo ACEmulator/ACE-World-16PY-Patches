@@ -16,7 +16,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51296,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (51296,   1, 'Portal') /* Name */;
+VALUES (51296,  1, 'Portal') /* Name */
+     , (51296, 37, 'BTMPickup_0513') /* QuestRestrict */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51296,   1,   33556212) /* Setup */

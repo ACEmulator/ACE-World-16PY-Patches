@@ -61,7 +61,8 @@ VALUES (51286,  1,  33561227) /* Setup */
      , (51286,  6,  67111346) /* PaletteBase */
      , (51286,  7, 268437423) /* ClothingBase */
      , (51286,  8, 100667943) /* Icon */
-     , (51286, 22, 872415273) /* PhysicsEffectTable */;
+     , (51286, 22, 872415273) /* PhysicsEffectTable */
+     , (51286, 35,      1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (51286,8040, 1483473364, 120, -100, -35.971, 0, 0, 0, -1) /* PCAPRecordedLocation */
@@ -104,7 +105,7 @@ VALUES (51286,  6, 0, 2, 0, 520, 0, 0) /* MeleeDefense        Trained */
      , (51286, 46, 0, 2, 0, 550, 0, 0) /* FinesseWeapons      Trained */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51286,  1788,   2.17) /* Eye of the Storm */
+VALUES (51286,  1788,    2.17) /* Eye of the Storm */
      , (51286,  4426,   2.205) /* Incantation of Lightning Arc */
      , (51286,  4450,   2.258) /* Incantation of Lightning Blast */
      , (51286,  4451,   2.347) /* Incantation of Lightning Bolt */

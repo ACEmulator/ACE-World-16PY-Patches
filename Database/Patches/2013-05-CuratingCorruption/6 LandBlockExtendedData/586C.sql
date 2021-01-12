@@ -216,7 +216,9 @@ VALUES (0x7586C0A2, 0x7586C0A3, '2019-02-10 00:00:00') /* Virindi Clandestine (5
      , (0x7586C0A2, 0x7586C0F8, '2021-01-10 17:58:04') /* Virindi Clandestine (51287) */
      , (0x7586C0A2, 0x7586C0F9, '2021-01-10 17:58:49') /* Hollow Reaver (49613) */
      , (0x7586C0A2, 0x7586C0FA, '2021-01-10 18:01:37') /* Virindi Clandestine (51287) */
-     , (0x7586C0A2, 0x7586C0FB, '2021-01-10 18:01:57') /* Simulacrum Mimic (51288) */;
+     , (0x7586C0A2, 0x7586C0FB, '2021-01-10 18:01:57') /* Simulacrum Mimic (51288) */
+     , (0x7586C0A2, 0x7586C0FC, '2021-01-12 15:36:30') /* Hollow Reaver (49613) */
+     , (0x7586C0A2, 0x7586C0FD, '2021-01-12 15:50:04') /* Virindi Clandestine (51287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586C0A3, 51287, 0x586C03ED, 190, -310, -11.971, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Virindi Clandestine */
@@ -546,14 +548,7 @@ VALUES (0x7586C0F4, 51298, 0x586C01D2, 124.912, -22.01, -35.971, 0, 0, 0, -1,  T
 /* @teleloc 0x586C01D2 [124.912003 -22.010000 -35.971001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586C0F5,  5085, 0x586C026D, 240.112, -202.91, -36, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Gen - 25 seconds */
-/* @teleloc 0x586C026D [240.112000 -202.910004 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7586C0F5, 0x7586C0F6, '2019-02-10 00:00:00') /* Chorizite Chest (51280) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586C0F6, 51280, 0x586C026D, 240.112, -202.91, -36, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Chorizite Chest */
+VALUES (0x7586C0F5, 72161, 0x586C026D, 240.112, -202.91, -36, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Masked Preface Chorizite Chest Gen */
 /* @teleloc 0x586C026D [240.112000 -202.910004 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -575,3 +570,11 @@ VALUES (0x7586C0FA, 51287, 0x586C0175, 49.7287, -298.82, -35.971, 0.999906, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586C0FB, 51288, 0x586C0161, 44.9364, -292.609, -35.995, 0.904475, 0, 0, -0.426527,  True, '2021-01-10 18:01:57'); /* Simulacrum Mimic */
 /* @teleloc 0x586C0161 [44.936401 -292.609009 -35.994999] 0.904475 0.000000 0.000000 -0.426527 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7586C0FC, 49613, 0x586C02E5, 350.055, -250.323, -35.9975, -0.0045926, 0, 0, -0.999989,  True, '2021-01-12 15:36:30'); /* Hollow Reaver */
+/* @teleloc 0x586C02E5 [350.054993 -250.322998 -35.997501] -0.004593 0.000000 0.000000 -0.999989 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7586C0FD, 51287, 0x586C017D, 70.2228, -199.848, -35.971, -0.00841898, 0, 0, -0.999965,  True, '2021-01-12 15:50:04'); /* Virindi Clandestine */
+/* @teleloc 0x586C017D [70.222801 -199.848007 -35.971001] -0.008419 0.000000 0.000000 -0.999965 */
