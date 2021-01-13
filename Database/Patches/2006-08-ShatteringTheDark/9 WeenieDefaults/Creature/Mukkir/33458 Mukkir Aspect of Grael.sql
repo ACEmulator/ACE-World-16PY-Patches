@@ -28,7 +28,7 @@ VALUES (33458,   1,       5) /* HeartbeatInterval */
      , (33458,   4,       4) /* StaminaRate */
      , (33458,   5,       2) /* ManaRate */
      , (33458,  13,     0.7) /* ArmorModVsSlash */
-     , (33458,  14,     0.8) /* ArmorModVsPierce */
+     , (33458,  14,     0.6) /* ArmorModVsPierce */
      , (33458,  15,     0.6) /* ArmorModVsBludgeon */
      , (33458,  16,       1) /* ArmorModVsCold */
      , (33458,  17,       1) /* ArmorModVsFire */
@@ -39,7 +39,7 @@ VALUES (33458,   1,       5) /* HeartbeatInterval */
      , (33458,  36,       1) /* ChargeSpeed */
      , (33458,  39,     2.5) /* DefaultScale */
      , (33458,  64,     0.1) /* ResistSlash */
-     , (33458,  65,     0.8) /* ResistPierce */
+     , (33458,  65,     0.7) /* ResistPierce */
      , (33458,  66,     0.3) /* ResistBludgeon */
      , (33458,  67,     0.2) /* ResistFire */
      , (33458,  68,     0.2) /* ResistCold */
@@ -84,21 +84,21 @@ VALUES (33458,   1, 29775, 0, 0, 30000) /* MaxHealth */
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (33458,  6, 0, 3, 0, 393, 0, 0) /* MeleeDefense        Specialized */
-     , (33458,  7, 0, 3, 0, 284, 0, 0) /* MissileDefense      Specialized */
-     , (33458, 15, 0, 3, 0, 211, 0, 0) /* MagicDefense        Specialized */
+     , (33458,  7, 0, 3, 0, 500, 0, 0) /* MissileDefense      Specialized */
+     , (33458, 15, 0, 3, 0, 400, 0, 0) /* MagicDefense        Specialized */
      , (33458, 20, 0, 2, 0, 200, 0, 0) /* Deception           Trained */
-     , (33458, 31, 0, 3, 0, 280, 0, 0) /* CreatureEnchantment Specialized */
+     , (33458, 31, 0, 3, 0, 320, 0, 0) /* CreatureEnchantment Specialized */
      , (33458, 33, 0, 3, 0, 320, 0, 0) /* LifeMagic           Specialized */
      , (33458, 34, 0, 3, 0, 320, 0, 0) /* WarMagic            Specialized */
      , (33458, 45, 0, 3, 0, 427, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (33458,  0,  4,  5,    0,  350,  242,  280,  210,  350,  350,  385,  350,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
-     , (33458,  5,  1, 140, 0.75,  350,  242,  280,  210,  350,  350,  385,  350,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Hand */
-     , (33458, 16,  4,  5,    0,  350,  242,  280,  210,  350,  350,  385,  350,    0, 2, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
-     , (33458, 18,  2, 140,  0.5,  350,  242,  280,  210,  350,  350,  385,  350,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* Arm */
-     , (33458, 19,  2, 140, 0.75,  350,  242,  280,  210,  350,  350,  385,  350,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */
-     , (33458, 22, 32, 140,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
+VALUES (33458,  0,  4,  170, 0.75,  450,  242,  280,  210,  350,  350,  385,  350,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
+     , (33458,  5,  1,  170, 0.75,  450,  242,  280,  210,  350,  350,  385,  350,    0, 2, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0, 0.45,  0.2,    0) /* Hand */
+     , (33458, 16,  4,  170,  0.5,  450,  242,  280,  210,  350,  350,  385,  350,    0, 2, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45, 0.45,  0.4, 0.45) /* Torso */
+     , (33458, 18,  2,  190,  0.5,  450,  242,  280,  210,  350,  350,  385,  350,    0, 2,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1,    0,  0.2,  0.1) /* Arm */
+     , (33458, 19,  2,  190, 0.75,  450,  242,  280,  210,  350,  350,  385,  350,    0, 3,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45,    0,  0.2, 0.45) /* Leg */
+     , (33458, 22, 32,  140,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33458,  2994,   2.02)  /* Plague */
@@ -107,13 +107,14 @@ VALUES (33458,  2994,   2.02)  /* Plague */
      , (33458,  3464,   2.02)  /* Numb Flesh */
      , (33458,  3870,   2.02)  /* Syphon Creature Essence */
      , (33458,  3914,   2.02)  /* Dark Vortex */
-     , (33458,  3927,   2.02)  /* Charge Flesh */
+     , (33458,  3947,   2.02)  /* Blade Wave */
+     , (33458,  3952,   2.02)  /* Shock Waves */
+     , (33458,  3927,   2.02)  /* Charge Flesh */     
      , (33458,  3933,   2.02)  /* Black Spear Strike */
      , (33458,  3937,   2.02)  /* Heavy Force Ring */
      , (33458,  3938,   2.02)  /* Heavy Frost Ring */
      , (33458,  3940,   2.02)  /* Exsanguinating Wave */
-     , (33458,  3947,   2.02)  /* Blade Wave */
-     , (33458,  3952,   2.02)  /* Shock Waves */;
+     , (33458,  4331,   2.02)  /* Incantation of Nullify All Magic Self */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (33458,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

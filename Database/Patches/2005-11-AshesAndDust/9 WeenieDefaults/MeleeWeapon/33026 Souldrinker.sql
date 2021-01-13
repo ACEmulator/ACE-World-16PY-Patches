@@ -6,21 +6,23 @@ VALUES (33026, 'ace33026-souldrinker', 6, '2020-12-21 00:00:00') /* MeleeWeapon 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33026,   1,          1) /* ItemType - MeleeWeapon */
      , (33026,   5,        500) /* EncumbranceVal */
-     , (33026,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (33026,   9,   33554432) /* ValidLocations - TwoHanded */
      , (33026,  16,          1) /* ItemUseable - No */
      , (33026,  18,          1) /* UiEffects - Magical */
      , (33026,  19,      40000) /* Value */
      , (33026,  33,         -2) /* Bonded - Destroy */
-     , (33026,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (33026,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
-     , (33026,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (33026,  51,          1) /* CombatUse - Melee */
-     , (33026,  52,          1) /* ParentLocation - RightHand */
-     , (33026,  53,          1) /* PlacementPosition - RightHandCombat */
+     , (33026,  44,         60) /* Damage */
+     , (33026,  45,          1) /* DamageType - Slash */
+     , (33026,  46,          8) /* DefaultCombatStyle - TwoHanded */
+     , (33026,  47,          4) /* AttackType - Slash */
+     , (33026,  48,         41) /* WeaponSkill - TwoHandedCombat */
+     , (33026,  49,         40) /* WeaponTime */
+     , (33026,  51,          5) /* CombatUse - TwoHanded */
      , (33026,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33026, 114,          1) /* Attuned - Attuned */
-     , (33026, 151,          2) /* HookType - Wall */
-     , (33026, 158,         11) /* WieldRequirements - CreatureType */;
+     , (33026, 158,         11) /* WieldRequirements - CreatureType */
+     , (33026, 292,          2) /* Cleaving */
+     , (33026, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33026,  11, True ) /* IgnoreCollisions */
