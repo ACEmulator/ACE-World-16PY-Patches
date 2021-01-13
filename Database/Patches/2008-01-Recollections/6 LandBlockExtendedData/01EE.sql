@@ -221,12 +221,12 @@ VALUES (0x701EE035, 87035, 0x01EE04DA, 103.747, -199.775, -5.945, 0.690711, 0, 0
 /* @teleloc 0x01EE04DA [103.747002 -199.774994 -5.945000] 0.690711 0.000000 0.000000 0.723131 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701EE02B,  5085, 0x01EE0628, 100.908, -199.999, 42, -0.8854162, 0, 0, 0.4647991, False, '2019-02-10 00:00:00'); /* Linkable Item Gen - 25 seconds */
+VALUES (0x701EE036,  5085, 0x01EE0628, 100.908, -199.999, 42, -0.8854162, 0, 0, 0.4647991, False, '2019-02-10 00:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0x01EE0628 [100.908000 -199.999000 42.000000] -0.885416 0.000000 0.000000 0.464799 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EE02C, 0x701EE02D, '2019-02-10 00:00:00') /* Execution Log of Strathelar Modification (36775) */;
+VALUES (0x701EE036, 0x701EE037, '2019-02-10 00:00:00') /* Execution Log of Strathelar Modification (36775) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701EE02D, 36775, 0x01EE0628, 100.908, -199.999, 42, -0.8854162, 0, 0, 0.4647991,  True, '2019-02-10 00:00:00'); /* Execution Log of Strathelar Modification */
+VALUES (0x701EE037, 36775, 0x01EE0628, 100.908, -199.999, 42, -0.8854162, 0, 0, 0.4647991,  True, '2019-02-10 00:00:00'); /* Execution Log of Strathelar Modification */
 /* @teleloc 0x01EE0628 [100.908000 -199.999000 42.000000] -0.885416 0.000000 0.000000 0.464799 */
