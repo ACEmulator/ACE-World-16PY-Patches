@@ -5,6 +5,7 @@ VALUES (40801, 'ace40801-nexuscrawlersmask', 2, '2019-02-10 00:00:00') /* Clothi
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40801,   1,          2) /* ItemType - Armor */
+     , (40801,   3,         39) /* PaletteTemplate - Black */
      , (40801,   4,      16384) /* ClothingPriority - Head */
      , (40801,   5,        200) /* EncumbranceVal */
      , (40801,   9,          1) /* ValidLocations - HeadWear */
