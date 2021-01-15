@@ -63,7 +63,8 @@ VALUES (14516,   1,       5) /* HeartbeatInterval */
      , (14516, 125,    0.75) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14516,   1, 'Caustic') /* Name */;
+VALUES (14516,   1, 'Caustic') /* Name */
+     , (14516,  45, 'KilltaskElemental_0609') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14516,   1,   33557486) /* Setup */
@@ -125,4 +126,6 @@ VALUES (14516,    62,  2.014)  /* Acid Stream V */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14516, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (14516, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
+     , (14516, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (14516, 9, 33956,  0, 0, 0.05, False) /* Create Crystal of Acidic Elemental Essence (33956) for ContainTreasure */
+     , (14516, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
