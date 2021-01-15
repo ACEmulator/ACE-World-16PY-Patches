@@ -25,5 +25,5 @@ VALUES (80513,   1,   33555051) /* Setup */
      , (80513,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (80513, 0.7,  44478, 360, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate 44478 Shadow Flyer (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (80513, 0.3,  44478, 360, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate 44478 Shadow Flyer (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (80513, 0.6,  44478, 360, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate 44478 Shadow Flyer (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (80513, 0.4,  44478, 360, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate 44478 Shadow Flyer (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -61,7 +61,8 @@ VALUES (14513,   1,       5) /* HeartbeatInterval */
      , (14513, 125,    0.25) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14513,   1, 'Caustic') /* Name */;
+VALUES (14513,   1, 'Caustic') /* Name */
+     , (14513,  45, 'KilltaskElemental_0609') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14513,   1,   33557486) /* Setup */
@@ -70,7 +71,7 @@ VALUES (14513,   1,   33557486) /* Setup */
      , (14513,   4,  805306368) /* CombatTable */
      , (14513,   8,  100672513) /* Icon */
      , (14513,  22,  872415349) /* PhysicsEffectTable */
-     , (14513,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
+     , (14513,  35,        460) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14513,   1, 270, 0, 0) /* Strength */
@@ -88,15 +89,15 @@ VALUES (14513,   1,   130, 0, 0, 250) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (14513,  6, 0, 3, 0, 260, 0, 0) /* MeleeDefense        Specialized */
      , (14513,  7, 0, 3, 0, 348, 0, 0) /* MissileDefense      Specialized */
-     , (14513, 47, 0, 3, 0, 140, 0, 0) /* MissileWeapons      Specialized */
-     , (14513, 45, 0, 3, 0, 230, 0, 0) /* LightWeapons        Specialized */
      , (14513, 14, 0, 3, 0, 170, 0, 0) /* ArcaneLore          Specialized */
      , (14513, 15, 0, 3, 0, 213, 0, 0) /* MagicDefense        Specialized */
      , (14513, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
      , (14513, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */
      , (14513, 31, 0, 3, 0, 130, 0, 0) /* CreatureEnchantment Specialized */
      , (14513, 33, 0, 3, 0, 130, 0, 0) /* LifeMagic           Specialized */
-     , (14513, 34, 0, 3, 0, 130, 0, 0) /* WarMagic            Specialized */;
+     , (14513, 34, 0, 3, 0, 130, 0, 0) /* WarMagic            Specialized */
+     , (14513, 45, 0, 3, 0, 230, 0, 0) /* LightWeapons        Specialized */
+     , (14513, 47, 0, 3, 0, 140, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (14513,  0, 32,  0,    0,  120,  120,  120,  120,  120,  120,  120,  132,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -121,9 +122,11 @@ VALUES (14513,    62,  2.014)  /* Acid Stream V */
      , (14513,  1794,  2.002)  /* Acid Streak V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
-VALUES (14513,  94) /* ATTACK_NOTIFICATION_EVENT */
-     , (14513, 414) /* PLAYER_DEATH_EVENT */;
+VALUES (14513,  94)
+     , (14513, 414);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14513, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (14513, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
+     , (14513, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (14513, 9, 33956,  0, 0, 0.05, False) /* Create Crystal of Acidic Elemental Essence (33956) for ContainTreasure */
+     , (14513, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

@@ -69,7 +69,8 @@ VALUES (12037,   1,       5) /* HeartbeatInterval */
      , (12037, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12037,   1, 'Dark Sorcerer') /* Name */;
+VALUES (12037,   1, 'Dark Sorcerer') /* Name */
+     , (12037,  45, 'KilltaskRareGame_0609') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12037,   1,   33554839) /* Setup */

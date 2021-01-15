@@ -11,7 +11,7 @@ VALUES (6854,   1,         16) /* ItemType - Creature */
      , (6854,   7,         -1) /* ContainersCapacity */
      , (6854,   8,        120) /* Mass */
      , (6854,  16,         32) /* ItemUseable - Remote */
-     , (6854,  25,         28) /* Level */
+     , (6854,  25,        711) /* Level */
      , (6854,  27,          0) /* ArmorType - None */
      , (6854,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (6854,  75,          0) /* MerchandiseMinValue */
@@ -77,7 +77,7 @@ VALUES (6854,   1, 'Claude the Archmage') /* Name */
      , (6854,  24, 'Ayan Baqur') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6854,   1,   33554497) /* Setup */
+VALUES (6854,   1,   33560381) /* Setup */
      , (6854,   2,  150994984) /* MotionTable */
      , (6854,   3,  536870930) /* SoundTable */
      , (6854,   4,  805306381) /* CombatTable */

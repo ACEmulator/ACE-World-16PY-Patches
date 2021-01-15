@@ -1,20 +1,26 @@
-DELETE FROM `landblock_instance` WHERE `guid` = 2048540715; /* Glenden Wood */
+DELETE FROM `landblock_instance` WHERE `guid` = 0x7A1A4005; /* Door */
+/* @teleloc 0xA1A40000 [98.954700 156.195000 50.040000] 0.923879 0.000000 0.000000 -0.382684 */
+
+DELETE FROM `landblock_instance` WHERE `guid` = 0x7A1A4006; /* Door */
+/* @teleloc 0xA1A40000 [104.894000 156.089000 50.040000] 0.923880 0.000000 0.000000 0.382683 */
+
+DELETE FROM `landblock_instance` WHERE `guid` = 0x7A1A402B; /* Glenden Wood */
 /* @teleloc 0xA1A40000 [116.977000 158.894000 50.005000] 0.151899 0.000000 0.000000 0.988396 */
 
-DELETE FROM `landblock_instance` WHERE `guid` =  2048540718; /* Glenden Wood */
+DELETE FROM `landblock_instance` WHERE `guid` = 0x7A1A402E; /* Glenden Wood */
 /* @teleloc 0xA1A40000 [157.783000 123.462000 50.000000] -0.649261 0.000000 0.000000 0.760565 */
 
-DELETE FROM `landblock_instance` WHERE `guid` =  2048540719; /* Glenden Wood */
+DELETE FROM `landblock_instance` WHERE `guid` = 0x7A1A402F; /* Glenden Wood */
 /* @teleloc 0xA1A40000 [11.232600 116.440000 50.005000] -0.766006 0.000000 0.000000 -0.642833 */
 
-DELETE FROM `landblock_instance` WHERE `guid` = 2048540763; /* Door */
+DELETE FROM `landblock_instance` WHERE `guid` = 0x7A1A405B; /* Door */
 /* @teleloc 0xA1A40000 [178.806000 126.735000 50.010000] 0.990207 0.000000 0.000000 -0.139605 */
 
-DELETE FROM `landblock_instance` WHERE `guid` = 2048540764; /* Door */
+DELETE FROM `landblock_instance` WHERE `guid` = 0x7A1A405C; /* Door */
 /* @teleloc 0xA1A40000 [184.496000 130.254000 49.995000] 0.798898 0.000000 0.000000 0.601467 */
 
-DELETE FROM `landblock_instance` WHERE `guid` = 2048540765; /* Door */
+DELETE FROM `landblock_instance` WHERE `guid` = 0x7A1A405D; /* Door */
 /* @teleloc 0xA1A40000 [183.475000 131.952000 52.995000] 0.990207 0.000000 0.000000 -0.139605 */
 
-DELETE FROM `landblock_instance` WHERE `guid` = 2048540766; /* Door */
+DELETE FROM `landblock_instance` WHERE `guid` = 0x7A1A405E; /* Door */
 /* @teleloc 0xA1A40000 [181.456000 128.677000 53.000000] 0.798898 0.000000 0.000000 0.601467 */
