@@ -71,8 +71,7 @@ VALUES (30887,   1,       5) /* HeartbeatInterval */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30887,   1, 'Fallen Shadow') /* Name */
      , (30887,   3, 'Male') /* Sex */
-     , (30887,   4, 'Aluvian') /* HeritageGroup */
-     , (30887,  45, 'KilltaskFallenCreature_0609') /* KillQuest */;
+     , (30887,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30887,   1,   33554433) /* Setup */

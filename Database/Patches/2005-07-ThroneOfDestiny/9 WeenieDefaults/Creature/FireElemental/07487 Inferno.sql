@@ -62,8 +62,7 @@ VALUES (7487,   1,       5) /* HeartbeatInterval */
      , (7487, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7487,   1, 'Inferno') /* Name */
-     , (7487,  45, 'KilltaskElemental_0609') /* KillQuest */;
+VALUES (7487,   1, 'Inferno') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7487,   1,   33556131) /* Setup */
@@ -129,6 +128,4 @@ VALUES (7487,    83,  2.138)  /* Flame Bolt IV */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7487, 2,  5709,  3, 0, 0, False) /* Create Ball of fire (5709) for Wield */
      , (7487, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (7487, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (7487, 9, 33959,  0, 0, 0.05, False) /* Create Crystal of Fiery Elemental Essence (33959) for ContainTreasure */
-     , (7487, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
+     , (7487, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
