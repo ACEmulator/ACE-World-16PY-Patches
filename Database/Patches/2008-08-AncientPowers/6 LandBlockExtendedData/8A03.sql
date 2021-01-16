@@ -109,40 +109,40 @@ VALUES (0x78A03035, 42279, 0x8A0302DC, 414.135, -149.986, 2.793968E-09, -0.70710
 /* @teleloc 0x8A0302DC [414.135000 -149.986000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A03036, 71725, 0x8A03017D, 83.06178, -136.9486, 0.004999995, -4.371139E-08, 0, 0, -1,  False, '2019-02-10 00:00:00'); /* Hand v Hand Gen */
-/* @teleloc 0x8A03017D [83.061780 -136.948600 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78A03036, 71725, 0x8A03017D, 83.06178, -136.9486, 0.004999995, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Hand v Hand Gen */
+/* @teleloc 0x8A03017D [83.061780 -136.948600 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A03037, 71726, 0x8A03017D, 83.06178, -136.9486, 0.004999995, -4.371139E-08, 0, 0, -1,  False, '2019-02-10 00:00:00'); /* Hand v Web Gen */
-/* @teleloc 0x8A03017D [83.061780 -136.948600 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78A03037, 71726, 0x8A03017D, 83.06178, -136.9486, 0.004999995, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Hand v Web Gen */
+/* @teleloc 0x8A03017D [83.061780 -136.948600 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A03038, 71727, 0x8A03017D, 83.06178, -136.9486, 0.004999995, -4.371139E-08, 0, 0, -1,  False, '2019-02-10 00:00:00'); /* Hand v Blood Gen */
-/* @teleloc 0x8A03017D [83.061780 -136.948600 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78A03038, 71727, 0x8A03017D, 83.06178, -136.9486, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Hand v Blood Gen */
+/* @teleloc 0x8A03017D [83.061780 -136.948600 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A03039, 71728, 0x8A03029D, 353, -147, 0.004999995, -4.371139E-08, 0, 0, -1,  False, '2019-02-10 00:00:00'); /* Web v Hand Gen */
-/* @teleloc 0x8A03029D [353.000000 -147.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78A03039, 71728, 0x8A03029D, 353, -147, 0.004999995, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Web v Hand Gen */
+/* @teleloc 0x8A03029D [353.000000 -147.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A0303A, 71729, 0x8A03029D, 353, -147, 0.004999995, -4.371139E-08, 0, 0, -1,  False, '2019-02-10 00:00:00'); /* Web v Web Gen */
-/* @teleloc 0x8A03029D [353.000000 -147.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78A0303A, 71729, 0x8A03029D, 353, -147, 0.004999995, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Web v Web Gen */
+/* @teleloc 0x8A03029D [353.000000 -147.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A0303B, 71730, 0x8A03029D, 353, -147, 0.004999995, -4.371139E-08, 0, 0, -1,  False, '2019-02-10 00:00:00'); /* Web v Blood Gen */
-/* @teleloc 0x8A03029D [353.000000 -147.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78A0303B, 71730, 0x8A03029D, 353, -147, 0.004999995, 1, 0, 0, 0,  False, '2019-02-10 00:00:00'); /* Web v Blood Gen */
+/* @teleloc 0x8A03029D [353.000000 -147.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A0303C, 71731, 0x8A03020D, 223.0268, -346.9904, 0.004999995, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Blood v Hand Gen */
-/* @teleloc 0x8A03020D [223.026800 -346.990400 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78A0303C, 71731, 0x8A03020D, 223.0268, -346.9904, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Blood v Hand Gen */
+/* @teleloc 0x8A03020D [223.026800 -346.990400 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A0303D, 71732, 0x8A03020D, 223.0268, -346.9904, 0.004999995, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Blood v Web Gen */
-/* @teleloc 0x8A03020D [223.026800 -346.990400 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78A0303D, 71732, 0x8A03020D, 223.0268, -346.9904, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Blood v Web Gen */
+/* @teleloc 0x8A03020D [223.026800 -346.990400 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A0303E, 71733, 0x8A03020D, 223.0268, -346.9904, 0.004999995, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Blood v Blood Gen */
-/* @teleloc 0x8A03020D [223.026800 -346.990400 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78A0303E, 71733, 0x8A03020D, 223.0268, -346.9904, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Blood v Blood Gen */
+/* @teleloc 0x8A03020D [223.026800 -346.990400 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A0303F, 42275, 0x8A030102, 46.1797, -59.9934, -11.945, 0.707107, 0, 0, 0.707107, False, '2020-10-06 01:57:12'); /* Door */
@@ -202,13 +202,13 @@ VALUES (0x78A03094, 42228, 0x8A030182, 79.9435, -207.802, 0.004999995, -0.004203
 /* @teleloc 0x8A030182 [79.943500 -207.802000 0.005000] -0.004204 0.000000 0.000000 0.999991 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A03095, 71722, 0x8A03017D, 79.99, -140.447, 0.005, -0.683348, 0, 0, -0.730093, False, '2020-09-27 23:18:08'); /* Hand Booter Event Gen */
-/* @teleloc 0x8A03017D [79.989990 -140.447998 0.005000] -0.683348 0.000000 0.000000 -0.730093 */
+VALUES (0x78A03095, 71722, 0x8A03017D, 79.99, -140.447, 0.005, 1, 0, 0, 0, False, '2020-09-27 23:18:08'); /* Hand Booter Event Gen */
+/* @teleloc 0x8A03017D [79.989990 -140.447998 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A03096, 71723, 0x8A03029D, 349.99, -150.42, 0.005, -0.683348, 0, 0, -0.730093, False, '2020-09-27 23:18:08'); /* Web Booter Event Gen */
-/* @teleloc 0x8A03029D [349.989990 -150.419998 0.005000] -0.683348 0.000000 0.000000 -0.730093 */
+VALUES (0x78A03096, 71723, 0x8A03029D, 349.99, -150.42, 0.005, 1, 0, 0, 0, False, '2020-09-27 23:18:08'); /* Web Booter Event Gen */
+/* @teleloc 0x8A03029D [349.989990 -150.419998 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A03097, 71724, 0x8A03020D, 219.99, -350.327, 0.005, -0.683348, 0, 0, -0.730093, False, '2020-09-27 23:18:08'); /* Blood Booter Event Gen */
-/* @teleloc 0x8A03020D [219.989990 -350.327998 0.005000] -0.683348 0.000000 0.000000 -0.730093 */
+VALUES (0x78A03097, 71724, 0x8A03020D, 219.99, -350.327, 0.005, 1, 0, 0, 0, False, '2020-09-27 23:18:08'); /* Blood Booter Event Gen */
+/* @teleloc 0x8A03020D [219.989990 -350.327998 0.005000] 1.000000 0.000000 0.000000 0.000000 */
