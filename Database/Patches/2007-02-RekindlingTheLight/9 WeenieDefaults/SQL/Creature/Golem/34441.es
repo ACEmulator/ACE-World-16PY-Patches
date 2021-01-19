@@ -3,7 +3,7 @@ Refuse: Gladiator Diemos Statue (35807)
 
 Refuse: Ancient Falatacot Trinket (34277)
 	- DirectBroadcast: A quake runs through the golem and its eyes flash in disgust.
-	- Delay: 1, Say: Blood Magic! Blood Magic! Guards! Blood Magic!
+	- Extent: 0, Delay: 1, Say: Blood Magic! Blood Magic! Guards! Blood Magic!
 
 Refuse: Ancient Empyrean Trinket (34276)
 	- Tell: Oh, I remember these! I haven't seen one of these in... quite a long time I suppose. You should keep this safe. Wouldn't want it falling into the wrong hands now would we?
@@ -90,15 +90,15 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.127
 								EventSuccess:
 									- InqEvent: ColoArenaFiveInUse@HeartBeat
 										EventFailure:
-											- Say: Arena Five is now available for new warriors!
+											- Extent: 0, Say: Arena Five is now available for new warriors!
 								EventFailure:
-									- Say: Arena Four is now available for new warriors!
+									- Extent: 0, Say: Arena Four is now available for new warriors!
 						EventFailure:
-							- Say: Arena Three is now available for new warriors!
+							-  Extent: 0, Say: Arena Three is now available for new warriors!
 				EventFailure:
-					- Say: Arena Two is now available for new warriors!
+					-  Extent: 0, Say: Arena Two is now available for new warriors!
 		EventFailure:
-			- Say: Arena One is now available for new warriors!
+			-  Extent: 0, Say: Arena One is now available for new warriors!
 
 Give: Egg (00546)
 	- DirectBroadcast: The Arbitrator looks confused for a second and then nods his head in apparent understanding.
@@ -488,7 +488,7 @@ GotoSet: PlayerHasFellow
 #																					- Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
 #																					- TellFellow: Good Luck!
 #																					- TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
-#																					- Say: Attention Patrons! Combat will soon begin in Arena Five.
+#																					- Extent: 0, Say: Attention Patrons! Combat will soon begin in Arena Five.
 #																		EventFailure:
 #																			- LockFellow
 #																			- StampFellowQuest: ColoArenaFourAccess
@@ -498,7 +498,7 @@ GotoSet: PlayerHasFellow
 #																			- Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
 #																			- TellFellow: Good Luck!
 #																			- TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
-#																			- Say: Attention Patrons! Combat will soon begin in Arena Four.
+#																			- Extent: 0, Say: Attention Patrons! Combat will soon begin in Arena Four.
 #																EventFailure:
 #																	- LockFellow
 #																	- StampFellowQuest: ColoArenaThreeAccess
@@ -508,7 +508,7 @@ GotoSet: PlayerHasFellow
 #																	- Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
 #																	- TellFellow: Good Luck!
 #																	- TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
-#																	- Say: Attention Patrons! Combat will soon begin in Arena Three.
+#																	- Extent: 0, Say: Attention Patrons! Combat will soon begin in Arena Three.
 #														EventFailure:
 #															- LockFellow
 #															- StampFellowQuest: ColoArenaTwoAccess
@@ -518,7 +518,7 @@ GotoSet: PlayerHasFellow
 #															- Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
 #															- TellFellow: Good Luck!
 #															- TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
-#															- Say: Attention Patrons! Combat will soon begin in Arena Two.
+#															- Extent: 0, Say: Attention Patrons! Combat will soon begin in Arena Two.
 #												EventFailure:
 #													- LockFellow
 #													- StampFellowQuest: ColoArenaOneAccess
@@ -528,7 +528,7 @@ GotoSet: PlayerHasFellow
 #													- Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
 #													- TellFellow: Good Luck!
 #													- TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
-#													- Say: Attention Patrons! Combat will soon begin in Arena One.
+#													- Extent: 0, Say: Attention Patrons! Combat will soon begin in Arena One.
 
 GotoSet: IsArenaOneAvailable
 	- InqEvent: ColoArenaOneInUse@GiveTicket
@@ -548,7 +548,7 @@ GotoSet: IsArenaOneAvailable
 					- Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
 					- TellFellow: Good Luck!
 					- TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
-					- Say: Attention Patrons! Combat will soon begin in Arena One.
+					- Extent: 0, Say: Attention Patrons! Combat will soon begin in Arena One.
 					- EraseMyQuest: ColoArenaOneWait
 
 GotoSet: IsArenaTwoAvailable
@@ -569,7 +569,7 @@ GotoSet: IsArenaTwoAvailable
 					- Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
 					- TellFellow: Good Luck!
 					- TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
-					- Say: Attention Patrons! Combat will soon begin in Arena Two.
+					- Extent: 0, Say: Attention Patrons! Combat will soon begin in Arena Two.
 					- EraseMyQuest: ColoArenaTwoWait
 
 GotoSet: IsArenaThreeAvailable
@@ -590,7 +590,7 @@ GotoSet: IsArenaThreeAvailable
 					- Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
 					- TellFellow: Good Luck!
 					- TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
-					- Say: Attention Patrons! Combat will soon begin in Arena Three.
+					- Extent: 0, Say: Attention Patrons! Combat will soon begin in Arena Three.
 					- EraseMyQuest: ColoArenaThreeWait
 
 GotoSet: IsArenaFourAvailable
@@ -611,7 +611,7 @@ GotoSet: IsArenaFourAvailable
 					- Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
 					- TellFellow: Good Luck!
 					- TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
-					- Say: Attention Patrons! Combat will soon begin in Arena Four.
+					- Extent: 0, Say: Attention Patrons! Combat will soon begin in Arena Four.
 					- EraseMyQuest: ColoArenaFourWait
 
 GotoSet: IsArenaFiveAvailable
@@ -632,7 +632,7 @@ GotoSet: IsArenaFiveAvailable
 					- Delay 1, TellFellow: Use one of the two portals to enter your Arena. If every member of your group is powerful enough you may skip the lower battles by using the Advanced Colosseum Arena, but any one member of your fellow may be restricted from using that portal so be careful or you may be split up.
 					- TellFellow: Good Luck!
 					- TellFellow: Don't forget that you must wait one full hour after the time you enter the colosseum before I will reward you for your achievements in the Arenas.
-					- Say: Attention Patrons! Combat will soon begin in Arena Five.
+					- Extent: 0, Say: Attention Patrons! Combat will soon begin in Arena Five.
 					- EraseMyQuest: ColoArenaFiveWait
 
 GotoSet: NoArenasAvailable
