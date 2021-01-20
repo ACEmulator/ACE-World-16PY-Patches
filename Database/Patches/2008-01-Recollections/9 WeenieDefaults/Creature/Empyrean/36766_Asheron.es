@@ -1,4 +1,4 @@
-Use: 
+Use:
 	- Tell: I must protect my people, but these attacks weaken me.
 
 ReceiveLocalSignal: StartAsheron
@@ -27,7 +27,6 @@ ReceiveLocalSignal: StartAsheron
 	- Motion: Ready
 	- Delay: 2, Motion: CastSpell
 	- Motion: Ready
-	
+
 ReceiveLocalSignal: DeleteMe
- - Deleteself
- 
+	- DeleteSelf

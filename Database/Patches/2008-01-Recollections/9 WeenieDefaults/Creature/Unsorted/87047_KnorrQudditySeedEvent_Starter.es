@@ -1,0 +1,2 @@
+NewEnemy:
+	- LocalSignal: StartAsheron
