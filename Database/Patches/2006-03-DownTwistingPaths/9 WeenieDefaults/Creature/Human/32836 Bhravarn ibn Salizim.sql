@@ -6,8 +6,8 @@ VALUES (32836, 'ace32836-bhravarnibnsalizim', 10, '2020-02-29 18:15:46') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32836,   1,         16) /* ItemType - Creature */
      , (32836,   2,         31) /* CreatureType - Human */
-     , (32836,   6,        255) /* ItemsCapacity */
-     , (32836,   7,        255) /* ContainersCapacity */
+     , (32836,   6,         -1) /* ItemsCapacity */
+     , (32836,   7,         -1) /* ContainersCapacity */
      , (32836,  25,        250) /* Level */
      , (32836,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32836,  95,          8) /* RadarBlipColor - Yellow */
@@ -19,11 +19,7 @@ VALUES (32836,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32836,   1, True ) /* Stuck */
      , (32836,   8, True ) /* AllowGive */
-     , (32836,  12, True ) /* ReportCollisions */
-     , (32836,  13, False) /* Ethereal */
      , (32836,  19, False) /* Attackable */
-     , (32836,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (32836,  42, True ) /* AllowEdgeSlide */
      , (32836,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
