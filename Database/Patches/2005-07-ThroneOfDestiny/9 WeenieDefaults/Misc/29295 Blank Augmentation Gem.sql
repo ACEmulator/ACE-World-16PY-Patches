@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29295;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29295, 'gemaugmentationblank', 1, '2020-07-09 06:52:23') /* Generic */;
+VALUES (29295, 'gemaugmentationblank', 1, '2021-01-21 06:52:23') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29295,   1,        128) /* ItemType - Misc */
@@ -20,7 +20,7 @@ VALUES (29295,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29295,   1, 'Blank Augmentation Gem') /* Name */
      , (29295,  16, 'An uninscribed Augmentation Gem. Hand this item to an Augmentation Trainer in exchange for an inscribed Augmentation Gem.') /* LongDesc */
-     , (29295,  33, 'BlankAug') /* Quest */;
+     , (29295,  33, 'AugmentationBlankGemAcquired') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29295,   1,   33554809) /* Setup */
@@ -34,4 +34,4 @@ VALUES (29295, 10 /* PickUp */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  31 /* EraseQuest */, 0, 1, NULL, 'AugGemFlag', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  31 /* EraseQuest */, 0, 1, NULL, 'AugmentationProvingGroundAccess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
