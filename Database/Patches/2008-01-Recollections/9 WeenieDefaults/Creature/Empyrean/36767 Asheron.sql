@@ -18,7 +18,8 @@ VALUES (36767,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36767,   1, True ) /* Stuck */
-     , (36767,  19, False) /* Attackable */;
+     , (36767,  19, False) /* Attackable */
+     , (36767, 119, True ) /* SuppressGenerateEffect */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36767,  39,     1.2) /* DefaultScale */
