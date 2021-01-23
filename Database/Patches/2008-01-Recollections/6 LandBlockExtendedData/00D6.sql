@@ -691,17 +691,6 @@ VALUES (0x700D612F, 23988, 0x00D60375, 33.8955, -88.0733, 42, 0.420262, 0, 0, -0
 /* @teleloc 0x00D60375 [33.895500 -88.073303 42.000000] 0.420262 0.000000 0.000000 -0.907403 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700D6151,  1154, 0x00D60494, 60, -53.7975, 83.985, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
-/* @teleloc 0x00D60494 [60.000000 -53.797501 83.985001] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D6151, 0x700D6153, '2019-02-10 00:00:00') /* Asheron (36766) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700D6153, 36766, 0x00D60494, 60, -53.798, 83.985, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Asheron */
-/* @teleloc 0x00D60494 [60.000000 -53.798000 83.985001] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D6154,  1542, 0x00D6044E, 60, -30, 66, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x00D6044E [60.000000 -30.000000 66.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
@@ -737,20 +726,17 @@ VALUES (0x700D615B, 87046, 0x00D60492, 60.2112, -26.6887, 84, 0.0232569, 0, 0, -
 /* @teleloc 0x00D60492 [60.211201 -26.688700 84.000000] 0.023257 0.000000 0.000000 -0.999730 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700D615D,  3955, 0x00D60498, 70.62, -53.8643, 84.055, 0.710154, 0, 0, -0.704046, False, '2020-11-07 10:55:25'); /* Linkable Monster Gen (15 min.) */
-/* @teleloc 0x00D60498 [70.620003 -53.864300 84.055000] 0.710154 0.000000 0.000000 -0.704046 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700D615D, 0x700D615E, '2020-11-07 10:56:12') /* KnorrQudditySeedEvent Starter (87047) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700D615E, 87047, 0x00D60498, 72.9009, -52.4545, 84.005, -0.939306, 0, 0, -0.34308,  True, '2020-11-07 10:56:12'); /* KnorrQudditySeedEvent Starter */
-/* @teleloc 0x00D60498 [72.900902 -52.454498 84.004997] -0.939306 0.000000 0.000000 -0.343080 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D615F, 87080, 0x00D60494, 56.1525, -53.3521, 84.055, 0.961674, 0, 0, -0.274194, False, '2020-11-09 13:33:44'); /* AsheronsReward Gen */
 /* @teleloc 0x00D60494 [56.152500 -53.352100 84.055000] 0.961674 0.000000 0.000000 -0.274194 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D6160, 87050, 0x00D60497, 67.8941, -40.0504, 84.055, -0.715842, 0, 0, -0.698263, False, '2020-11-09 13:47:19'); /* Booter Gen */
 /* @teleloc 0x00D60497 [67.894096 -40.050400 84.055000] -0.715842 0.000000 0.000000 -0.698263 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700D6161, 87144, 0x00D60494, 57.898, -52.6292, 84.055, -0.0510031, 0, 0, 0.998699, False, '2021-01-23 12:02:38'); /* Asherons Gen */
+/* @teleloc 0x00D60494 [57.897999 -52.629200 84.055000] -0.051003 0.000000 0.000000 0.998699 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700D6162, 87047, 0x00D60498, 71.03084, -53.294292, 84.005005, -0.7024882, 0, 0, -0.71169543, False, '2021-01-23 12:10:16'); /* KnorrQudditySeedEvent Starter */
+/* @teleloc 0x00D60498 [71.030838 -53.294292 84.005005] -0.702488 0.000000 0.000000 -0.711695 */

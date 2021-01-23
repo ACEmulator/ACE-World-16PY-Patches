@@ -17,13 +17,13 @@ VALUES (87080,   1, True ) /* Stuck */
      , (87080,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (87080,  41,     360) /* RegenerationInterval */
+VALUES (87080,  41,   99999) /* RegenerationInterval */
      , (87080,  43,       5) /* GeneratorRadius */
      , (87080, 121,       1) /* GeneratorInitialDelay */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87080,   1, 'AsheronsReward Gen') /* Name */
-     , (87080,  34, 'knorrquiddityasheronevent') /* GeneratorEvent */;
+     , (87080,  34, 'knorrquiddityasheronrewardevent') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87080,   1,   33555051) /* Setup */

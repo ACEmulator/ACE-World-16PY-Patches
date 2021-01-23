@@ -1,2 +1,4 @@
 NewEnemy:
-	- LocalSignal: StartAsheron
+	- InqEvent: KnorrQuiddityFinalRoomEvent
+		EventFailure:
+			- LocalSignal: StartAsheron
