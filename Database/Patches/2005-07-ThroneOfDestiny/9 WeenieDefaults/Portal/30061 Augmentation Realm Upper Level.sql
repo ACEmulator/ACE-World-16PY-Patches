@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30061;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30061, 'portalaugmentationrealmupper', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (30061, 'portalaugmentationrealmupper', 7, '2021-01-21 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30061,   1,      65536) /* ItemType - Portal */
@@ -26,8 +26,7 @@ VALUES (30061,  54, -0.100000001490116) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30061,   1, 'Augmentation Realm Upper Level') /* Name */
      , (30061,  15, 'You must speak with Fiun Rehlyun before you can use this portal.') /* ShortDesc */
-     , (30061,  37, 'AugGemFlag') /* QuestRestriction */
-     , (30061,  38, 'Augmentation Realm Upper Level') /* AppraisalPortalDestination */;
+     , (30061,  37, 'AugmentationProvingGroundAccess') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30061,   1,   33555925) /* Setup */

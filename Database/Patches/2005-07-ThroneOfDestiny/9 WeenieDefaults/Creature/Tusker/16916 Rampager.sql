@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 16916;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (16916, 'tuskerrampager_nofall', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (16916, 'tuskerrampager_nofall', 10, '2021-01-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (16916,   1,         16) /* ItemType - Creature */
@@ -21,11 +21,6 @@ VALUES (16916,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (16916,   1, True ) /* Stuck */
-     , (16916,  11, False) /* IgnoreCollisions */
-     , (16916,  12, True ) /* ReportCollisions */
-     , (16916,  13, False) /* Ethereal */
-     , (16916,  14, True ) /* GravityStatus */
-     , (16916,  19, True ) /* Attackable */
      , (16916,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -35,16 +30,16 @@ VALUES (16916,   1,       5) /* HeartbeatInterval */
      , (16916,   4,       4) /* StaminaRate */
      , (16916,   5,       2) /* ManaRate */
      , (16916,  13,     0.5) /* ArmorModVsSlash */
-     , (16916,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (16916,  15, 0.660000026226044) /* ArmorModVsBludgeon */
+     , (16916,  14,     0.8) /* ArmorModVsPierce */
+     , (16916,  15,    0.66) /* ArmorModVsBludgeon */
      , (16916,  16,       1) /* ArmorModVsCold */
-     , (16916,  17, 0.699999988079071) /* ArmorModVsFire */
+     , (16916,  17,     0.7) /* ArmorModVsFire */
      , (16916,  18,       1) /* ArmorModVsAcid */
      , (16916,  19,       1) /* ArmorModVsElectric */
      , (16916,  31,      25) /* VisualAwarenessRange */
      , (16916,  34,     2.5) /* PowerupTime */
      , (16916,  36,       1) /* ChargeSpeed */
-     , (16916,  39, 1.20000004768372) /* DefaultScale */
+     , (16916,  39,     1.2) /* DefaultScale */
      , (16916,  64,     0.5) /* ResistSlash */
      , (16916,  65,       1) /* ResistPierce */
      , (16916,  66,    0.75) /* ResistBludgeon */
@@ -175,5 +170,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (16916, 9, 11692,  0, 0, 0.01, False) /* Create Little Green Seeds (11692) for ContainTreasure */
      , (16916, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (16916, 9, 43146,  0, 0, 0.02, False) /* Create Ruined Amulet of the Two Hander (43146) for ContainTreasure */
+     , (16916, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (16916, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
      , (16916, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

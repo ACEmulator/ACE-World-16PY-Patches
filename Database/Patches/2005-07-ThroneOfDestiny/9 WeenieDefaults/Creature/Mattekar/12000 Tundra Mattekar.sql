@@ -66,7 +66,8 @@ VALUES (12000,   1,       5) /* HeartbeatInterval */
      , (12000, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12000,   1, 'Tundra Mattekar') /* Name */;
+VALUES (12000,   1, 'Tundra Mattekar') /* Name */
+     , (12000,  45, 'KilltaskRareGame_0609') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12000,   1,   33555590) /* Setup */
