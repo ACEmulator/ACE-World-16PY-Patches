@@ -29,7 +29,7 @@ VALUES (20980,  22, True ) /* Inscribable */
      , (20980,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20980,   1, 'Salvaged Alabaster') /* Name */
+VALUES (20980,   1, 'Alabaster Salvage') /* Name */
      , (20980,  14, 'Apply this material to treasure-generated armor to increase the armor''s protection against piercing by 0.2.') /* Use */
      , (20980,  15, 'A brick of alabaster material salvaged from old items.') /* ShortDesc */;
 
