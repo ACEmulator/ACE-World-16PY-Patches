@@ -130,6 +130,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44017, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44017, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (44017, 9, 23107,  1, 0, 0.03, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
+     , (44017, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (44017, 9, 48908,  1, 0, 0.03, False) /* Create Shattered Legendary Forge Key (48908) for ContainTreasure */
      , (44017, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (44017, 9, 44293,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Staff (Level 180+) (44293) for ContainTreasure */
