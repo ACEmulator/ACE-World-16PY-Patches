@@ -1,44 +1,44 @@
-DELETE FROM `weenie` WHERE `class_Id` = 72119; 
+DELETE FROM `weenie` WHERE `class_Id` = 72176; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72119, 'ace72119-portalfloorwalk', 7, '2020-09-06 03:09:36') /* Portal */;
+VALUES (72176, 'ace72176-portalfloorwalk', 7, '2020-09-06 03:09:36') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (72119,   1,      65536) /* ItemType - Portal */
-     , (72119,   9,          0) /* ValidLocations - None */
-     , (72119,  16,          1) /* ItemUseable - No */
-     , (72119,  83,       4096) /* ActivationResponse - CastSpell */
-     , (72119,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
-     , (72119, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */;
+VALUES (72176,   1,      65536) /* ItemType - Portal */
+     , (72176,   9,          0) /* ValidLocations - None */
+     , (72176,  16,          1) /* ItemUseable - No */
+     , (72176,  83,       4096) /* ActivationResponse - CastSpell */
+     , (72176,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
+     , (72176, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (72119,   1, True ) /* Stuck */
-     , (72119,  11, False) /* IgnoreCollisions */
-     , (72119,  12, True ) /* ReportCollisions */
-     , (72119,  13, True ) /* Ethereal */
-     , (72119,  14, False) /* GravityStatus */
-     , (72119,  15, True ) /* LightsStatus */
-     , (72119,  18, True ) /* Visibility */
-     , (72119,  24, True ) /* UiHidden */
-     , (72119,  89, True ) /* PortalIgnoresPkAttackTimer */;
+VALUES (72176,   1, True ) /* Stuck */
+     , (72176,  11, False) /* IgnoreCollisions */
+     , (72176,  12, True ) /* ReportCollisions */
+     , (72176,  13, True ) /* Ethereal */
+     , (72176,  14, False) /* GravityStatus */
+     , (72176,  15, True ) /* LightsStatus */
+     , (72176,  18, True ) /* Visibility */
+     , (72176,  24, True ) /* UiHidden */
+     , (72176,  89, True ) /* PortalIgnoresPkAttackTimer */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (72119,  39,     2) /* DefaultScale */;
+VALUES (72176,  39,    0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72119,   1, 'Portal Floor Walk') /* Name */;
+VALUES (72176,   1, 'Small Portal Tile') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72119,   1,   33556024) /* Setup */
-     , (72119,   3,  536871008) /* SoundTable */
-     , (72119,   8,  100667499) /* Icon */;
+VALUES (72176,   1,   33557928) /* Setup */
+     , (72176,   3,  536871008) /* SoundTable */
+     , (72176,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72119, 2, 0x58740109, 180, -203.18456, -12, 1, 0, 0, 0) /* Destination */
+VALUES (72176, 2, 0x58740109, 180, -203.18456, -12, 1, 0, 0, 0) /* Destination */
 /* @teleloc 0x58740109 [180 -203.18456 -12] 1 0 0 0 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (72119, 4 /* Portal */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (72176, 4 /* Portal */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
