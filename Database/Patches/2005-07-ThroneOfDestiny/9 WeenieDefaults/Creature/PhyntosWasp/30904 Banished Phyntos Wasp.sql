@@ -62,7 +62,8 @@ VALUES (30904,   1,       5) /* HeartbeatInterval */
      , (30904, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30904,   1, 'Banished Phyntos Wasp') /* Name */;
+VALUES (30904,   1, 'Banished Phyntos Wasp') /* Name */
+     , (30904,  45, 'KilltaskBanishedCreature_0609') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30904,   1,   33558817) /* Setup */

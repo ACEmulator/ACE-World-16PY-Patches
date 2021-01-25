@@ -27,8 +27,8 @@ VALUES (14875,   1, True ) /* Stuck */
      , (14875,  14, True ) /* GravityStatus */
      , (14875,  15, True ) /* LightsStatus */
      , (14875,  19, True ) /* Attackable */
-     , (14875, 120, True ) /* TreasureCorpse */
-     , (14875,  50, True ) /* NeverFailCasting */;
+     , (14875,  50, True ) /* NeverFailCasting */
+     , (14875, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14875,   1,       5) /* HeartbeatInterval */
@@ -63,7 +63,8 @@ VALUES (14875,   1,       5) /* HeartbeatInterval */
      , (14875, 125,    0.25) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14875,   1, 'Hyem') /* Name */;
+VALUES (14875,   1, 'Hyem') /* Name */
+     , (14875,  45, 'KilltaskElemental_0609') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14875,   1,   33557487) /* Setup */
@@ -72,7 +73,7 @@ VALUES (14875,   1,   33557487) /* Setup */
      , (14875,   4,  805306368) /* CombatTable */
      , (14875,   8,  100672514) /* Icon */
      , (14875,  22,  872415349) /* PhysicsEffectTable */
-     , (14875,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
+     , (14875,  35,        460) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14875,   1, 130, 0, 0) /* Strength */
@@ -90,15 +91,15 @@ VALUES (14875,   1,   500, 0, 0, 575) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (14875,  6, 0, 3, 0, 266, 0, 0) /* MeleeDefense        Specialized */
      , (14875,  7, 0, 3, 0, 349, 0, 0) /* MissileDefense      Specialized */
-     , (14875, 47, 0, 3, 0, 140, 0, 0) /* MissileWeapons      Specialized */
-     , (14875, 45, 0, 3, 0, 240, 0, 0) /* LightWeapons        Specialized */
      , (14875, 14, 0, 3, 0, 170, 0, 0) /* ArcaneLore          Specialized */
      , (14875, 15, 0, 3, 0, 222, 0, 0) /* MagicDefense        Specialized */
      , (14875, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
      , (14875, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */
      , (14875, 31, 0, 3, 0, 150, 0, 0) /* CreatureEnchantment Specialized */
      , (14875, 33, 0, 3, 0, 150, 0, 0) /* LifeMagic           Specialized */
-     , (14875, 34, 0, 3, 0, 150, 0, 0) /* WarMagic            Specialized */;
+     , (14875, 34, 0, 3, 0, 150, 0, 0) /* WarMagic            Specialized */
+     , (14875, 45, 0, 3, 0, 240, 0, 0) /* LightWeapons        Specialized */
+     , (14875, 47, 0, 3, 0, 140, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (14875,  0,  8,  0,    0,  220,  187,  187,  187,  220,  176,   19,  187,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -125,4 +126,6 @@ VALUES (14875,    73,  2.004)  /* Frost Bolt V */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14875, 9,  6876,  0, 0, 0.001, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (14875, 9,     0,  0, 0, 0.999, False) /* Create nothing for ContainTreasure */;
+     , (14875, 9,     0,  0, 0, 0.999, False) /* Create nothing for ContainTreasure */
+     , (14875, 9, 33959,  0, 0, 0.05, False) /* Create Crystal of Fiery Elemental Essence (33959) for ContainTreasure */
+     , (14875, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

@@ -60,7 +60,8 @@ VALUES (30891,   1,       5) /* HeartbeatInterval */
      , (30891, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30891,   1, 'Fallen Drudge') /* Name */;
+VALUES (30891,   1, 'Fallen Drudge') /* Name */
+     , (30891,  45, 'KilltaskFallenCreature_0609') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30891,   1,   33556445) /* Setup */
