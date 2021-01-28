@@ -23,11 +23,6 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32776,   1, True ) /* Stuck */
      , (32776,   2, False) /* Open */
      , (32776,   3, True ) /* Locked */
-     , (32776,  11, True ) /* IgnoreCollisions */
-     , (32776,  12, True ) /* ReportCollisions */
-     , (32776,  13, False) /* Ethereal */
-     , (32776,  19, True ) /* Attackable */
-     , (32776,  33, True ) /* ResetMessagePending */
      , (32776,  34, False) /* DefaultOpen */
      , (32776,  35, True ) /* DefaultLocked */;
 
