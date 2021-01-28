@@ -27,7 +27,6 @@ VALUES (51858,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51858,  22, True ) /* Inscribable */
-     , (51858,  85, True ) /* AppraisalHasAllowedWielder */
      , (51858,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -44,8 +43,7 @@ VALUES (51858,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51858,   1, 'Rynthid Sorcerer of Torment''s Mask') /* Name */
-     , (51858,  15, 'A mask crafted from the damaged mask of a Rynthid Sorcerer of Torment.') /* ShortDesc */
-     , (51858,  25, 'Verdre') /* CraftsmanName */;
+     , (51858,  15, 'A mask crafted from the damaged mask of a Rynthid Sorcerer of Torment.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51858,   1,   33561594) /* Setup */

@@ -42,7 +42,8 @@ VALUES (51857,   5,   -0.05) /* ManaRate */
      , (51857, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (51857,   1, 'Rynthid Ravager''s Mask') /* Name */;
+VALUES (51857,   1, 'Rynthid Ravager''s Mask') /* Name */
+     , (51857,  15, 'A mask crafted from the damaged mask of a Rynthid Ravager.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51857,   1,   33561593) /* Setup */
