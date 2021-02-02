@@ -65,10 +65,6 @@ VALUES (51382,   1,   33560839) /* Setup */
      , (51382,  17,   67116891) /* SkinPalette */
      , (51382,  22,  872415434) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51382,  0, 0, 0, 0, 0, 0, 0, 0, 0) /**/
-/* @teleloc 0x0 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
-
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (51382,  0,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
      , (51382,  1,  4,  0,    0,  500,  250,  250,  250,  250,  250,  250,  250,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
@@ -112,13 +108,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 88 /* LocalSignal */, 0, 1, NULL, 'WaveKillCount', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (51382, 2, 51384,  1, 0,    0, False) /* Create  (51384) for Wield */
-     , (51382, 9, 72167,  0, 0,    1, False) /* Create Legendary Key (72167) for Contain */
-     , (51382, 9, 72167,  0, 0,    1, False) /* Create Legendary Key (72167) for Contain */
-     , (51382, 9, 72167,  0, 0,    1, False) /* Create Legendary Key (72167) for Contain */
-     , (51382, 9, 72167,  0, 0,    1, False) /* Create Legendary Key (72167) for Contain */
-     , (51382, 9, 72167,  0, 0,    1, False) /* Create Legendary Key (72167) for Contain */
-     , (51382, 9, 72167,  0, 0,    1, False) /* Create Legendary Key (72167) for Contain */
-     , (51382, 9, 72167,  0, 0,    1, False) /* Create Legendary Key (72167) for Contain */
-     , (51382, 9, 72167,  0, 0,    1, False) /* Create Legendary Key (72167) for Contain */
-     , (51382, 9, 72167,  0, 0,    1, False) /* Create Legendary Key (72167) for Contain */;
+VALUES (51382, 2, 51384,  1, 0,    0, False) /* Create Electric Gearknight Greatsword (51384) for Wield */
+     , (51382, 9, 51558,  0, 0,    1, False) /* Create Legendary Key (51558) for Contain */
+     , (51382, 9, 51558,  0, 0,    1, False) /* Create Legendary Key (51558) for Contain */
+     , (51382, 9, 51558,  0, 0,    1, False) /* Create Legendary Key (51558) for Contain */
+     , (51382, 9, 51558,  0, 0,    1, False) /* Create Legendary Key (51558) for Contain */
+     , (51382, 9, 51558,  0, 0,    1, False) /* Create Legendary Key (51558) for Contain */
+     , (51382, 9, 51558,  0, 0,    1, False) /* Create Legendary Key (51558) for Contain */
+     , (51382, 9, 51558,  0, 0,    1, False) /* Create Legendary Key (51558) for Contain */
+     , (51382, 9, 51558,  0, 0,    1, False) /* Create Legendary Key (51558) for Contain */
+     , (51382, 9, 51558,  0, 0,    1, False) /* Create Legendary Key (51558) for Contain */;
