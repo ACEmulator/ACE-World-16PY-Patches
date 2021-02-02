@@ -25,11 +25,11 @@ VALUES (70378,  11, True ) /* IgnoreCollisions */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70378,   1, 'Dull Aetherium Ore Fragment') /* Name */
      , (70378,  14, 'Bring this to Sir Oakley for a reward.') /* Use */
-     , (70378,  16, 'A shattered fragment of a piece of Aetherium Ore. There are signs that this piece was broken off of a larger one, and there are also signs of heat damage along one side. ') /* LongDesc */;
+     , (70378,  16, 'A shattered fragment of a piece of Aetherium Ore. There are signs that this piece was broken off of a larger one, and there are also signs of heat damage along one side. ') /* LongDesc */
+	 , (70378,  33, 'DullAetheriumCoreFragment') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70378,   1,   33560863) /* Setup */
      , (70378,   3,  536870932) /* SoundTable */
      , (70378,   8,  100690568) /* Icon */
      , (70378,  22,  872415275) /* PhysicsEffectTable */;
-
