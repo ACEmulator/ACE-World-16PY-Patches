@@ -52,7 +52,6 @@ Refuse: 42490
             - Tell: Twenty mana fields.
             - Tell: This is your reward for your fine work.
             - TakeItems: 42490, 1
-            - DirectBroadcast: You hand over 1 of your Enchanted Mana Stones.
             - AwardNoShareXP: 120000000 
             - DirectBroadcast: You have been granted the titles of Menhir Seeker, Arcanum Adventurer, Mana Field Finder and Assistant's Assistant.
             - AddCharacterTitle: MenhirSeeker
@@ -70,7 +69,6 @@ Refuse: 42490
                             - Tell: A reward for fifteen mana fields.
                             - Tell: A few more next time maybe?
                             - TakeItems: 42490, 1
-                            - DirectBroadcast: You hand over 1 of your Enchanted Mana Stones.
                             - AwardNoShareXP: 90000000 
                             - DirectBroadcast: You have been granted the titles of Arcanum Adventurer, Mana Field Finder and Assistant's Assistant.
                             - AddCharacterTitle: ArcanumAdventurer
@@ -84,11 +82,10 @@ Refuse: 42490
                     - InqQuestSolves: MenhirResearchNPCCounter, 10-14
                         QuestSuccess: Probability: 1
                             InqYesNo: "Would you like to complete the quest now for the ten completion reward?"
-                                TestSuccess: Probability: 1
+                                TestSuccess:
                                     - Tell: A reward for ten mana fields.
                                     - Tell: Half way to the stone's capacity.
                                     - TakeItems: 42490, 1
-                                    - DirectBroadcast: You hand over 1 of your Enchanted Mana Stones.
                                     - AwardNoShareXP: 60000000 
                                     - DirectBroadcast: You have been granted the titles of Mana Field Finder and Assistant's Assistant.
                                     - AddCharacterTitle: ManaFieldFinder
@@ -99,13 +96,12 @@ Refuse: 42490
                                     #- Tell: You selected No.
                         QuestFailure:
                             - InqQuestSolves: MenhirResearchNPCCounter, 5-9
-                                QuestSuccess: Probability: 1
+                                QuestSuccess:
                                     InqYesNo: "Would you like to complete the quest now for the five completion reward?"
                                         TestSuccess: Probability: 1
                                             - Tell: Five mana fields.
                                             - Tell: Maybe you'll search harder next time.
                                             - TakeItems: 42490, 1
-                                            - DirectBroadcast: You hand over 1 of your Enchanted Mana Stones.
                                             - AwardNoShareXP: 30000000 
                                             - DirectBroadcast: You have been granted the title of Assistant's Assistant.
                                             - AddCharacterTitle: AssistantsAssistant
@@ -115,33 +111,39 @@ Refuse: 42490
                                 QuestFailure:
                                     - Tell: Okay, then
     - InqQuestSolves: MenhirResearchNPCCounter, 0-4
-        QuestSuccess: Probability: 1
+        QuestSuccess:
             - Goto: MenhirResearchInProgess
         #QuestFailure:
             #- Tell: We will do nothing
             
-Use: Probability: 1
+Use:
     - TurnToTarget
     - InqIntStat: Level, 50 - 999
-        TestSuccess: Probability: 1
-            - InqOwnsItems: 42490
-                TestSuccess: Probability: 1
-                    - Goto: MenhirResearchInProgess
-                TestFailure: Probability: 1
-					- StampQuest: MenhirResearchNPCCounter
-                    - Tell: Another adventurer, we can use you.
-                    - Tell: Menhir mana fields have undergone some change.
-                    - Tell: I have created an enchanted mana stone.
-                    - Give: 42490, 1
-                    - Tell: Use this stone in the presence of a menhir mana field.
-                    - Tell: You can sense menhir mana fields if you can receive more mana into your body.
-                    - Tell: It will feel like a great swell of power rising from the ground beneath you.
-                    - Tell: The stone will indicate any variations in the mana flow.
-                    - Tell: Enchantments on the stone allow it to detect up to twenty unique mana fields.
-                    - Tell: Collect information on as many unique mana fields as you can and return it to us.
-                    - Tell: You can return the stone to me for a reward after finding five or more mana fields.
-                    - Tell: I'll reward you more for every five unique mana fields you find.
-                    - Tell: An important distinction, not all menhir mana fields have rings around them.
-                    - Goto: MenhirResearchReset
-        TestFailure: Probability: 1
+        TestSuccess:
+            - InqQuest: MehirResearchComplete0310
+                QuestSuccess:
+                    # Could not find any flavor text, so this is just made up
+                    - Tell: I am still busy analyzing the findings from your previous expedition. I should be done tomorrow, so please come back then if you wish to continue to aid in my task.
+                QuestFailure:
+                    - InqOwnsItems: 42490
+                        TestSuccess:
+                            - Goto: MenhirResearchInProgess
+                        TestFailure:
+                            - StampQuest: MenhirResearchNPCCounter
+                            - Tell: Another adventurer, we can use you.
+                            - Tell: Menhir mana fields have undergone some change.
+                            - Tell: I have created an enchanted mana stone.
+                            - Give: 42490, 1
+                            - Tell: Use this stone in the presence of a menhir mana field.
+                            - Tell: You can sense menhir mana fields if you can receive more mana into your body.
+                            - Tell: It will feel like a great swell of power rising from the ground beneath you.
+                            - Tell: The stone will indicate any variations in the mana flow.
+                            - Tell: Enchantments on the stone allow it to detect up to twenty unique mana fields.
+                            - Tell: Collect information on as many unique mana fields as you can and return it to us.
+                            - Tell: You can return the stone to me for a reward after finding five or more mana fields.
+                            - Tell: I'll reward you more for every five unique mana fields you find.
+                            - Tell: An important distinction, not all menhir mana fields have rings around them.
+                            - Goto: MenhirResearchReset
+        TestFailure:
+            # Could not find any flavor text, so this is just made up
             - Tell: I am sorry, adventurer, but you do not yet appear ready to help with my menhir research.
