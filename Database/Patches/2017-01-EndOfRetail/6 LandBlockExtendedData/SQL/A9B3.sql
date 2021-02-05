@@ -1,4 +1,4 @@
-DELETE FROM `landblock_instance` WHERE `guid` >= 0x7A9B3000 and `guid` <= 0x7A9B301D;
+DELETE FROM `landblock_instance` WHERE (`guid` >= 0x7A9B3000 and `guid` <= 0x7A9B301D);
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B3000,  2068, 0xA9B30000, 5.44567, 29.4682, 94.005, -0.445343, 0, 0, -0.89536, False, '2005-02-09 10:00:00'); /* Drudge Hideout */
