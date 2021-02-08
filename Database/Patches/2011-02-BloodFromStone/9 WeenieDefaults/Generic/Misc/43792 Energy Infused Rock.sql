@@ -22,7 +22,7 @@ VALUES (43792,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43792,   1, 'Energy Infused Rock') /* Name */
      , (43792,  16, 'Fayza may be interested in this item.') /* LongDesc */
-     , (43792,  33, 'EnergyInfusedRockPickupTimer') /* Quest */;
+     , (43792,  33, 'DeewainRockTrophy0211') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43792,   1,   33561099) /* Setup */

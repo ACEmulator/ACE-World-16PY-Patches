@@ -67,4 +67,5 @@ Refuse: Energy Infused Rock (43792)
 	- Give: 38920
 	- Give: 20630, 9
 	- EraseQuest: DeewainBossRoomFlag
+	- StampQuest: DeewainCompleted0211
 	
