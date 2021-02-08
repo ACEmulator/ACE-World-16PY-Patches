@@ -69,7 +69,7 @@ VALUES (51609,   1,   33561547) /* Setup */
      , (51609,   7,  268437588) /* ClothingBase */
      , (51609,   8,  100667943) /* Icon */
      , (51609,  22,  872415273) /* PhysicsEffectTable */
-     , (51609,  35,       2110) /* DeathTreasureType - Loot Tier: 8 */;
+     , (51609,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (51609, 8040, 1484128794, 270.333, -143.012, 6.029, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */

@@ -52,6 +52,7 @@ VALUES (51727,   1,   5) /* HeartbeatInterval */
      , (51727,  39, 1.5) /* DefaultScale */
      , (51727,  41,  30) /* RegenerationInterval */
      , (51727,  43,   5) /* GeneratorRadius */
+     , (51727,  55,  80) /* HomeRadius */
      , (51727,  64, 0.6) /* ResistSlash */
      , (51727,  65, 0.6) /* ResistPierce */
      , (51727,  66, 0.6) /* ResistBludgeon */

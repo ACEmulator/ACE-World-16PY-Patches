@@ -28,38 +28,39 @@ VALUES (52027,   1, True ) /* Stuck */
      , (52027,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52027,   1,       5) /* HeartbeatInterval */
-     , (52027,   2,       0) /* HeartbeatTimestamp */
-     , (52027,   3,     0.5) /* HealthRate */
-     , (52027,   4,     0.5) /* StaminaRate */
-     , (52027,   5,       2) /* ManaRate */
-     , (52027,  12,       0) /* Shade */
-     , (52027,  13,       1) /* ArmorModVsSlash */
-     , (52027,  14,       1) /* ArmorModVsPierce */
-     , (52027,  15,       1) /* ArmorModVsBludgeon */
-     , (52027,  16,       1) /* ArmorModVsCold */
-     , (52027,  17,       1) /* ArmorModVsFire */
-     , (52027,  18,       1) /* ArmorModVsAcid */
-     , (52027,  19,       1) /* ArmorModVsElectric */
-     , (52027,  31,      16) /* VisualAwarenessRange */
-     , (52027,  34,       1) /* PowerupTime */
-     , (52027,  36,       1) /* ChargeSpeed */
-     , (52027,  54,       3) /* UseRadius */
-     , (52027,  64,     0.8) /* ResistSlash */
-     , (52027,  65,     0.8) /* ResistPierce */
-     , (52027,  66,     0.8) /* ResistBludgeon */
-     , (52027,  67,     0.8) /* ResistFire */
-     , (52027,  68,     0.8) /* ResistCold */
-     , (52027,  69,     0.8) /* ResistAcid */
-     , (52027,  70,     0.8) /* ResistElectric */
-     , (52027,  71,       1) /* ResistHealthBoost */
-     , (52027,  72,       1) /* ResistStaminaDrain */
-     , (52027,  73,       1) /* ResistStaminaBoost */
-     , (52027,  74,       1) /* ResistManaDrain */
-     , (52027,  75,       1) /* ResistManaBoost */
-     , (52027,  80,       3) /* AiUseMagicDelay */
-     , (52027, 104,      10) /* ObviousRadarRange */
-     , (52027, 125,       1) /* ResistHealthDrain */;
+VALUES (52027,   1,   5) /* HeartbeatInterval */
+     , (52027,   2,   0) /* HeartbeatTimestamp */
+     , (52027,   3, 0.5) /* HealthRate */
+     , (52027,   4, 0.5) /* StaminaRate */
+     , (52027,   5,   2) /* ManaRate */
+     , (52027,  12,   0) /* Shade */
+     , (52027,  13,   1) /* ArmorModVsSlash */
+     , (52027,  14,   1) /* ArmorModVsPierce */
+     , (52027,  15,   1) /* ArmorModVsBludgeon */
+     , (52027,  16,   1) /* ArmorModVsCold */
+     , (52027,  17,   1) /* ArmorModVsFire */
+     , (52027,  18,   1) /* ArmorModVsAcid */
+     , (52027,  19,   1) /* ArmorModVsElectric */
+     , (52027,  31,  16) /* VisualAwarenessRange */
+     , (52027,  34,   1) /* PowerupTime */
+     , (52027,  36,   1) /* ChargeSpeed */
+     , (52027,  54,   3) /* UseRadius */
+     , (52027,  55,  80) /* HomeRadius */
+     , (52027,  64, 0.8) /* ResistSlash */
+     , (52027,  65, 0.8) /* ResistPierce */
+     , (52027,  66, 0.8) /* ResistBludgeon */
+     , (52027,  67, 0.8) /* ResistFire */
+     , (52027,  68, 0.8) /* ResistCold */
+     , (52027,  69, 0.8) /* ResistAcid */
+     , (52027,  70, 0.8) /* ResistElectric */
+     , (52027,  71,   1) /* ResistHealthBoost */
+     , (52027,  72,   1) /* ResistStaminaDrain */
+     , (52027,  73,   1) /* ResistStaminaBoost */
+     , (52027,  74,   1) /* ResistManaDrain */
+     , (52027,  75,   1) /* ResistManaBoost */
+     , (52027,  80,   3) /* AiUseMagicDelay */
+     , (52027, 104,  10) /* ObviousRadarRange */
+     , (52027, 125,   1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52027,   1, 'Corrupted Shaman') /* Name */;
@@ -72,11 +73,7 @@ VALUES (52027,   1,   33557175) /* Setup */
      , (52027,   6,   67113280) /* PaletteBase */
      , (52027,   7,  268436193) /* ClothingBase */
      , (52027,   8,  100671756) /* Icon */
-     , (52027,  35,       2110) /* DeathTreasureType - Loot Tier: 8 */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52027, 8040, 1498546783, 220, -250, 0.005, 0, 0, 0, -1) /* PCAPRecordedLocation */
-/* @teleloc 0x5952025F [220.000000 -250.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */;
+     , (52027,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (52027,   1, 260, 0, 0) /* Strength */

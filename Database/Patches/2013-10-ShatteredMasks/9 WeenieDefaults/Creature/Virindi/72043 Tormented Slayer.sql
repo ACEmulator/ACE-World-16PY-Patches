@@ -14,8 +14,7 @@ VALUES (72043,   1,         16) /* ItemType - Creature */
      , (72043,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (72043, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (72043, 146,    2500000) /* XpOverride */
-     , (72043, 307,         10) /* DamageRating */
-	 , (72043, 332,        180) /* LuminanceAward */;
+     , (72043, 307,         10) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72043,   1, True ) /* Stuck */
@@ -43,6 +42,7 @@ VALUES (72043,   1,   5) /* HeartbeatInterval */
      , (72043,  31,  18) /* VisualAwarenessRange */
      , (72043,  34,   1) /* PowerupTime */
      , (72043,  36,   1) /* ChargeSpeed */
+     , (72043,  55,  80) /* HomeRadius */
      , (72043,  64, 0.7) /* ResistSlash */
      , (72043,  65, 0.6) /* ResistPierce */
      , (72043,  66, 0.6) /* ResistBludgeon */
@@ -67,7 +67,8 @@ VALUES (72043,   1,   33561547) /* Setup */
      , (72043,   4,  805306381) /* CombatTable */
      , (72043,   6,   67111346) /* PaletteBase */
      , (72043,   8,  100667943) /* Icon */
-     , (72043,  22,  872415273) /* PhysicsEffectTable */;
+     , (72043,  22,  872415273) /* PhysicsEffectTable */
+     , (72043,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (72043, 8040, 758186047, 169.2067, 153.7193, 132.029, 0.937139, 0, 0, -0.3489562) /* PCAPRecordedLocation */

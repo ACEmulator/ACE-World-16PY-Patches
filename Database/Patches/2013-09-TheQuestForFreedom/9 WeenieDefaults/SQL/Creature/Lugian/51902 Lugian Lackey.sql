@@ -43,6 +43,7 @@ VALUES (51902,   1,   5) /* HeartbeatInterval */
      , (51902,  31,  22) /* VisualAwarenessRange */
      , (51902,  34,   2) /* PowerupTime */
      , (51902,  36,   1) /* ChargeSpeed */
+     , (51902,  55,  80) /* HomeRadius */
      , (51902,  64, 0.4) /* ResistSlash */
      , (51902,  65, 0.6) /* ResistPierce */
      , (51902,  66, 0.4) /* ResistBludgeon */
@@ -66,7 +67,7 @@ VALUES (51902,   1,   33557003) /* Setup */
      , (51902,   6,   67113158) /* PaletteBase */
      , (51902,   7,  268436154) /* ClothingBase */
      , (51902,   8,  100667447) /* Icon */
-     , (51902,  35,       2110) /* DeathTreasureType - Loot Tier: 8 */;
+     , (51902,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (51902,8040, 741277736, 97.438, 183.055, 114.038, 0.804542, 0, 0, -0.593896) /* PCAPRecordedLocation */

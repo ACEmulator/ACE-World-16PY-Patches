@@ -37,6 +37,7 @@ VALUES (51823,   1,   5) /* HeartbeatInterval */
      , (51823,  31,  18) /* VisualAwarenessRange */
      , (51823,  34,   1) /* PowerupTime */
      , (51823,  36,   1) /* ChargeSpeed */
+     , (51823,  55,  80) /* HomeRadius */
      , (51823,  64, 0.7) /* ResistSlash */
      , (51823,  65, 0.6) /* ResistPierce */
      , (51823,  66, 0.6) /* ResistBludgeon */
