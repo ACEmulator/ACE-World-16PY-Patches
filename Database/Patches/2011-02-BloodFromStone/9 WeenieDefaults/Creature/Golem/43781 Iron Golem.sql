@@ -112,25 +112,25 @@ VALUES (43781,  0,  4,  0,    0,  400,  300,  350,  350,  350, 20000,  350,  350
      , (43781,  8,  4, 170,  0.6,  400,  300,  350,  350,  350, 20000,  350,  350,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43781,  2039,   2.15)  /* Sparking Fury */
-     , (43781,  2708,   2.13)  /* Stasis Field */
-     , (43781,  2992,   2.15)  /* Depletion */
-     , (43781,  3079,   2.15)  /* Thin Skin */
-     , (43781,  3462,   2.13)  /* Canker Flesh */
-     , (43781,  3916,   2.13)  /* Flayed Flesh */
-     , (43781,  3946,   2.15)  /* Acid Wave */
-     , (43781,  3947,   2.15)  /* Blade Wave */
-     , (43781,  3948,   2.15)  /* Flame Wave */
-     , (43781,  3949,   2.15)  /* Force Wave */
-     , (43781,  3951,   2.15)  /* Lightning Wave */
-     , (43781,  3952,   2.15)  /* Shock Waves */
-     , (43781,  3969,   2.15)  /* Acid Bomb */
-     , (43781,  3970,   2.15)  /* Blade Bomb */
-     , (43781,  3975,   2.15)  /* Shock Bomb */
-     , (43781,  4433,   2.16)  /* Incantation of Acid Stream */
-     , (43781,  4443,   2.16)  /* Incantation of Force Bolt */
-     , (43781,  4447,   2.15)  /* Incantation of Frost Bolt */
-     , (43781,  4457,   2.15)  /* Incantation of Whirling Blade */;
+VALUES (43781,  2039,   2.05)  /* Sparking Fury */
+     , (43781,  2708,   2.03)  /* Stasis Field */
+     , (43781,  2992,   2.05)  /* Depletion */
+     , (43781,  3079,   2.05)  /* Thin Skin */
+     , (43781,  3462,   2.03)  /* Canker Flesh */
+     , (43781,  3916,   2.03)  /* Flayed Flesh */
+     , (43781,  3946,   2.05)  /* Acid Wave */
+     , (43781,  3947,   2.05)  /* Blade Wave */
+     , (43781,  3948,   2.05)  /* Flame Wave */
+     , (43781,  3949,   2.05)  /* Force Wave */
+     , (43781,  3951,   2.05)  /* Lightning Wave */
+     , (43781,  3952,   2.05)  /* Shock Waves */
+     , (43781,  3969,   2.05)  /* Acid Bomb */
+     , (43781,  3970,   2.05)  /* Blade Bomb */
+     , (43781,  3975,   2.05)  /* Shock Bomb */
+     , (43781,  4433,   2.06)  /* Incantation of Acid Stream */
+     , (43781,  4443,   2.06)  /* Incantation of Force Bolt */
+     , (43781,  4447,   2.05)  /* Incantation of Frost Bolt */
+     , (43781,  4457,   2.05)  /* Incantation of Whirling Blade */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (43781,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
