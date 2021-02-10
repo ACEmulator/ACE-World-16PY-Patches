@@ -15,6 +15,7 @@ VALUES (33945,   1,          1) /* ItemType - MeleeWeapon */
      , (33945,  47,          6) /* AttackType - Thrust, Slash */
      , (33945,  49,         35) /* WeaponTime */
      , (33945,  51,          1) /* CombatUse - Melee */
+     , (33945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33945, 106,        250) /* ItemSpellcraft */
      , (33945, 107,       1000) /* ItemCurMana */
      , (33945, 108,       1000) /* ItemMaxMana */
