@@ -45,14 +45,14 @@ VALUES (31901,   1,       5) /* HeartbeatInterval */
      , (31901,  69,    0.42) /* ResistAcid */
      , (31901,  70,    0.25) /* ResistElectric */
      , (31901,  71,    0.25) /* ResistHealthBoost */
-     , (31901,  72,    0.25) /* ResistStaminaDrain */
+     , (31901,  72,       1) /* ResistStaminaDrain */
      , (31901,  73,       1) /* ResistStaminaBoost */
-     , (31901,  74,     0.5) /* ResistManaDrain */
+     , (31901,  74,       1) /* ResistManaDrain */
      , (31901,  75,       1) /* ResistManaBoost */
      , (31901,  77,       1) /* PhysicsScriptIntensity */
      , (31901, 104,      10) /* ObviousRadarRange */
      , (31901, 117,     0.6) /* FocusedProbability */
-     , (31901, 125,    0.25) /* ResistHealthDrain */;
+     , (31901, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31901,   1, 'Fanatical Mukkir') /* Name */;
