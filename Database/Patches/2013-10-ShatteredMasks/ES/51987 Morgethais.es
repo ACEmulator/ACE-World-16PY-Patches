@@ -29,7 +29,7 @@ Refuse: 52008
     - TurnToTarget
     - TakeItems: 52008
     - Tell: Impressive.  This could not have been easy to acquire.
-    - AwardLevelProportionalXP: 50%
+    - AwardLevelProportionalXP: 50%, 0 - 718,000,000
     - AwardLuminance: 90,000
     - Give: Trade Note (250,000) (20630), 35
     - EraseQuest: RTWStarted_1013
