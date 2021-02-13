@@ -51,7 +51,7 @@ Give: Mi Krau-Li's Improved Jitte (23527)
     - InqQuest: KrauLiRemasteredJitte_Finished0906
         QuestSuccess:
             - Give: Mi Krau-Li's Improved Jitte (23527)
-            - Delay: 1, Tell: You were so impressed by my jitte that you want another one? I do not blame you, for this is this is the ultimate expression of my jitte craftmanship.
+            - Delay: 1, Tell: You were so impressed by my jitte that you want another one? I do not blame you, for this is the ultimate expression of my jitte craftmanship.
             - Delay: 1, Tell: However, the process to craft something so exquisite is rather draining. Please come back after I have regained my strength.
             - Delay: 1, DirectBroadcast: You may complete this quest again in %tqt.
         QuestFailure:
