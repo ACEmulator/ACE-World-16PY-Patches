@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34001,   1, 'Cartilage of Old Scratchy') /* Name */
      , (34001,  16, 'A mass of cartilage scavenged from the corpse of the ancient Reedshark known as Old Scratchy.') /* LongDesc */
      , (34001,  33, 'KrauLiCartlidge_Pickup0906') /* Quest */
-     , (34001,  37, 'KrauLiRemasteredJitte_Started0906') /* QuestRestriction */;
+     , (34001,  37, 'KrauLiThighbone0906') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34001,   1,   33554817) /* Setup */
