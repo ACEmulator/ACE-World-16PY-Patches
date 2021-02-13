@@ -48,7 +48,7 @@ VALUES (51968,   5,  -0.033) /* ManaRate */
      , (51968,  39,     1.2) /* DefaultScale */
      , (51968,  62,    1.20) /* WeaponOffense */
      , (51968,  63,       1) /* DamageMod */
-     , (51968, 136,       1) /* CriticalMultiplier */
+     , (51968, 136,     2.5) /* CriticalMultiplier */
      , (51968, 138,       2) /* SlayerDamageBonus */
      , (51968, 147,    0.25) /* CriticalFrequency */
      , (51968, 155,       1) /* IgnoreArmor */;

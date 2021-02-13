@@ -47,7 +47,7 @@ VALUES (51967,   1,       5) /* HeartbeatInterval */
      , (51967,  29,    1.15) /* WeaponDefense */
      , (51967,  62,    1.25) /* WeaponOffense */
      , (51967,  63,       1) /* DamageMod */
-     , (51967, 136,       1) /* CriticalMultiplier */
+     , (51967, 136,     2.5) /* CriticalMultiplier */
      , (51967, 138,       2) /* SlayerDamageBonus */
      , (51967, 147,    0.25) /* CriticalFrequency */
      , (51967, 155,       1) /* IgnoreArmor */;
