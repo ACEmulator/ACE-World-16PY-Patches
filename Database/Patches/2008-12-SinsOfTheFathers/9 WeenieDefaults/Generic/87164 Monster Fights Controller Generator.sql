@@ -4,8 +4,8 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (87164, 'ace-87164-MonsterFightsControllerGenerator', 1, '2020-05-22 10:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (87164,  81,          1) /* MaxGeneratedObjects */
-     , (87164,  82,          1) /* InitGeneratedObjects */
+VALUES (87164,  81,          2) /* MaxGeneratedObjects */
+     , (87164,  82,          2) /* InitGeneratedObjects */
      , (87164,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87164, 103,          2) /* GeneratorDestructionType - Destroy */
      , (87164, 142,          3) /* GeneratorTimeType - Event */
@@ -30,4 +30,5 @@ VALUES (87164,   1,   33555051) /* Setup */
      , (87164,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87164, -1, 87165, 1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Monster Fights Controller (87165) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (87164, -1, 87165, 1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate  (87165) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87164, -1, 80007, 1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Landblock KeepAlive (80007) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
