@@ -47,6 +47,14 @@ Give: Apostate Master's Broken Mask (40804)
 
 Refuse: Nexus Crawler's Mask (40801)
     - TurnToTarget
-    - Tell: Very well. If I were you I'd prefer to hold on to such a remarkable souvenir of my exploits, but I suppose you get a lot more excitement than I do.
-    - Delay: 1, TakeItems: 40801, 1
-    - Delay: 1, AwardLevelProportionalXP: 5%, Min: 0, Max: 74,308,963
+        - InqYesNo: Do you want to turn in your Nexus Crawler Mask for 5% PXP?
+            TestSuccess:
+                - InqOwnsItems: Nexus Crawler's Mask (40801), 1
+                    TestSuccess:
+                        - Tell: Very well. If I were you I'd prefer to hold on to such a remarkable souvenir of my exploits, but I suppose you get a lot more excitement than I do.
+                        - TakeItems: Nexus Crawler's Mask (40801), 1
+                        - AwardLevelProportionalXP: 5%, Min: 0, Max: 74,308,963
+                    TestFailure:
+                        - Tell: Hey! It doesn't look to me like you still have the Nexus Crawler Mask any more... What are you trying to pull here?
+            TestFailure:
+                - Tell: Let me know if you change your mind.
