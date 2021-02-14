@@ -1,14 +1,14 @@
-Give: Coalesced Mana (42518), Probability: 1
+Give: Coalesced Mana (42518)
     - TurnToTarget
     - Tell: I will have someone look at this.
     - AwardXP: 5,000
 
-Give: Coalesced Mana (42517), Probability: 1
+Give: Coalesced Mana (42517)
     - TurnToTarget
     - Tell: I will have someone look at this.
     - AwardXP: 15,000
 
-Give: Coalesced Mana (42516), Probability: 1
+Give: Coalesced Mana (42516)
     - TurnToTarget
     - Tell: I will have someone look at this.
     - AwardXP: 45,000
@@ -22,7 +22,6 @@ GotoSet: MenhirResearchInProgess
             - InqQuestSolves: MenhirResearchNPCCounter, 5 - 20
                 QuestSuccess:
                     - Tell: You can give me the enchanted mana stone so that I may examine your findings.
-
         TestFailure:
             - Tell: Lost the enchanted mana stone I gave you? Very well then, try to be a little more careful in the future!
             - Give: Enchanted Mana Stone (42490), 1
@@ -46,8 +45,8 @@ GotoSet: MenhirResearchReset
 
 Refuse: Enchanted Mana Stone (42490)
     - TurnToTarget
-    - InqQuestSolves: MenhirResearchNPCCounter, 20 - 20
-        QuestSuccess: Probability: 1
+    - InqQuest: MenhirResearchNPCCounter
+        QuestSuccess:
             - Tell: Twenty mana fields.
             - Tell: This is your reward for your fine work.
             - TakeItems: Enchanted Mana Stone (42490), 1
@@ -62,9 +61,9 @@ Refuse: Enchanted Mana Stone (42490)
             - Goto: MenhirResearchQuestCompleted
         QuestFailure:
             - InqQuestSolves: MenhirResearchNPCCounter, 15 - 19
-                QuestSuccess: Probability: 1
+                QuestSuccess:
                     InqYesNo: "Would you like to complete the quest now for the fifteen completion reward?"
-                        TestSuccess: Probability: 1
+                        TestSuccess:
                             - Tell: A reward for fifteen mana fields.
                             - Tell: A few more next time maybe?
                             - TakeItems: Enchanted Mana Stone (42490), 1
@@ -79,7 +78,7 @@ Refuse: Enchanted Mana Stone (42490)
                             - Tell: Hand me the enchanted mana stone when you're ready for me to examine your findings.
                 QuestFailure:
                     - InqQuestSolves: MenhirResearchNPCCounter, 10 - 14
-                        QuestSuccess: Probability: 1
+                        QuestSuccess:
                             InqYesNo: "Would you like to complete the quest now for the ten completion reward?"
                                 TestSuccess:
                                     - Tell: A reward for ten mana fields.
