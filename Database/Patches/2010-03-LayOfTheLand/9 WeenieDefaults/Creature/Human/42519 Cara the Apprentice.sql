@@ -47,9 +47,6 @@ VALUES (42519,   1,    65, 0, 0, 0) /* MaxHealth */
      , (42519,   3,    10, 0, 0, 0) /* MaxStamina */
      , (42519,   5,     0, 0, 0, 0) /* MaxMana */;
 
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42519, 2,  5852,  0, 5, 0, False) /* Create Dho Vest and Robe (5852) for Wield */;
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (42519, 6 /* Give */, 1, 42518 /* Coalesced Mana */, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -150,10 +147,10 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id, 0, 12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 1, 30 /* InqQuestSolves */, 0, 1, NULL, 'MenhirResearchNPCCounter@20-20', NULL, 20, 20, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id, 1, 21 /* InqQuest */, 0, 1, NULL, 'MenhirResearchNPCCounter', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (42519, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'MenhirResearchNPCCounter@20-20', NULL, NULL, NULL);
+VALUES (42519, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'MenhirResearchNPCCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -172,7 +169,7 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'Twenty mana fields.', NULL, N
      , (@parent_id, 11, 67 /* Goto */, 0, 1, NULL, 'MenhirResearchQuestCompleted', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (42519, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'MenhirResearchNPCCounter@20-20', NULL, NULL, NULL);
+VALUES (42519, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'MenhirResearchNPCCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
