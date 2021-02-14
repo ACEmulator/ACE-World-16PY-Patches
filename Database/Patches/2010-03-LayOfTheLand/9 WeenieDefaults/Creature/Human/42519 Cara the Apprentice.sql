@@ -47,6 +47,9 @@ VALUES (42519,   1,    65, 0, 0, 0) /* MaxHealth */
      , (42519,   3,    10, 0, 0, 0) /* MaxStamina */
      , (42519,   5,     0, 0, 0, 0) /* MaxMana */;
 
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42519, 2,  5852,  0, 5, 0, False) /* Create Dho Vest and Robe (5852) for Wield */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (42519, 6 /* Give */, 1, 42518 /* Coalesced Mana */, NULL, NULL, NULL, NULL, NULL, NULL);
 
