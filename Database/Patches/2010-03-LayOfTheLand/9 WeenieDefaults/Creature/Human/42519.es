@@ -37,9 +37,6 @@ GotoSet: MenhirResearchInProgess
 
 GotoSet: MenhirResearchQuestCompleted
     - StampQuest: MehirResearchComplete0310
-    - Goto: MenhirResearchReset
-
-GotoSet: MenhirResearchReset
     - EraseQuest: MenhirResearchNPCCounter
     - EraseQuest: MenhirResearchRingsComplete
 
@@ -139,7 +136,8 @@ Use:
                                     - Tell: You can return the stone to me for a reward after finding five or more mana fields.
                                     - Tell: I'll reward you more for every five unique mana fields you find.
                                     - Tell: An important distinction, not all menhir mana fields have rings around them.
-                                    - Goto: MenhirResearchReset
+                                    - SetQuestCompletions: MenhirResearchNPCCounter, 0
+                                    - EraseQuest: MenhirResearchRingsComplete
         TestFailure:
             # Could not find any flavor text, so this is just made up
             - Tell: I am sorry, adventurer, but you do not yet appear ready to help with my menhir research.
