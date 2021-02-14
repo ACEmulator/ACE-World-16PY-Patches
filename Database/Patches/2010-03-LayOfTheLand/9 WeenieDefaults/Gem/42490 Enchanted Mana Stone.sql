@@ -12,7 +12,6 @@ VALUES (42490,   1,       2048) /* ItemType - Gem */
      , (42490,  18,          2) /* UiEffects - Poisoned */
      , (42490,  19,          0) /* Value */
      , (42490,  33,          1) /* Bonded - Bonded */
-     , (42490,  53,        101) /* PlacementPosition - Resting */
      , (42490,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42490,  94,         16) /* TargetType - Creature */
      , (42490, 114,          1) /* Attuned - Attuned */
