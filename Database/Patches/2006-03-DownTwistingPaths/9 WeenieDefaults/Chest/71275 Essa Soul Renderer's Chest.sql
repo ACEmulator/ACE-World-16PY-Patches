@@ -24,7 +24,6 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (71275,   1, True ) /* Stuck */
      , (71275,   2, False) /* Open */
      , (71275,   3, True ) /* Locked */
-     , (71275,  33, False) /* ResetMessagePending */
      , (71275,  34, False) /* DefaultOpen */
      , (71275,  35, True ) /* DefaultLocked */;
 

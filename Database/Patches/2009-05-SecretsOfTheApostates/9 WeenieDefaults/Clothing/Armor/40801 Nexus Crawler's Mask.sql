@@ -42,7 +42,7 @@ VALUES (40801,   1, 'Nexus Crawler''s Mask') /* Name */
      , (40801,  15, 'A mask crafted from the mask of the Apostate Nexus Master.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40801,   1,   33556827) /* Setup */
+VALUES (40801,   1,   33561077) /* Setup */
      , (40801,   3,  536870932) /* SoundTable */
      , (40801,   6,   67108990) /* PaletteBase */
      , (40801,   7,  268437424) /* ClothingBase */
