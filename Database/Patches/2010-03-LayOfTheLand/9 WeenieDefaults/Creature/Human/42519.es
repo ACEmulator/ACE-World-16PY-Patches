@@ -47,7 +47,7 @@ Refuse: Enchanted Mana Stone (42490)
             - Tell: Twenty mana fields.
             - Tell: This is your reward for your fine work.
             - TakeItems: Enchanted Mana Stone (42490), 1
-            - AwardLevelProportionalXP: 120000000
+            - AwardNoShareXP: 120000000
             - DirectBroadcast: You have been granted the titles of Menhir Seeker, Arcanum Adventurer, Mana Field Finder and Assistant's Assistant.
             - AddCharacterTitle: MenhirSeeker
             - AddCharacterTitle: ArcanumAdventurer
