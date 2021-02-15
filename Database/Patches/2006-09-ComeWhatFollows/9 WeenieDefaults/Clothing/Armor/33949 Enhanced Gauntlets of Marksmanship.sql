@@ -5,6 +5,7 @@ VALUES (33949, 'ace33949-enhancedgauntletsofmarksmanship', 2, '2019-02-10 00:00:
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33949,   1,          2) /* ItemType - Armor */
+     , (33949,   3,          4) /* PaletteTemplate - Brown */
      , (33949,   4,      32768) /* ClothingPriority - Hands */
      , (33949,   5,        450) /* EncumbranceVal */
      , (33949,   9,         32) /* ValidLocations - HandWear */
@@ -26,6 +27,7 @@ VALUES (33949,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33949,   5,   -0.05) /* ManaRate */
+     , (33949,  12,  0.6667) /* Shade */
      , (33949,  13,     1.2) /* ArmorModVsSlash */
      , (33949,  14,   1.101) /* ArmorModVsPierce */
      , (33949,  15,     1.2) /* ArmorModVsBludgeon */
@@ -43,7 +45,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33949,   1,   33554648) /* Setup */
      , (33949,   3,  536870932) /* SoundTable */
      , (33949,   6,   67108990) /* PaletteBase */
-     , (33949,   7,  268437550) /* ClothingBase */
+     , (33949,   7,  268435475) /* ClothingBase */
      , (33949,   8,  100674091) /* Icon */
      , (33949,  22,  872415275) /* PhysicsEffectTable */
      , (33949,  37,         14) /* ItemSkillLimit - ArcaneLore */;
