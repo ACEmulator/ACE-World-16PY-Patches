@@ -12,7 +12,7 @@ Refuse: Trade Note MMD (20630)
                             - StampQuest: DCAAccess
                             - Tell: You have now been attuned with the portal's energy and may enter.
                             #- TakeItems: Mark of a Kill (80101), -1
-                            - Goto: TakeMarkLoop
+                            #- Goto: TakeMarkLoop
                         TestFailure:
                             - Tell: If you wish to enter this arena give me 4 MMDs and I will attune you to the portal's energy.
                 TestFailure:
@@ -39,6 +39,6 @@ GotoSet: TakeMarkLoop
         TestSuccess:
             - TakeItems:  Mark of a Kill (80101), 1
             - Give: Trade Note MMD (20630), 2
-            - Delay: 0.2, Goto: TakeMarkLoop
+            #- Delay: 0.2, Goto: TakeMarkLoop
         #TestFailure:
             #- TakeItems: Mark of a Kill (80101), -1
