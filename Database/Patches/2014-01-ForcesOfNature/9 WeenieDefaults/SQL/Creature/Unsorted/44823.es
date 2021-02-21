@@ -322,7 +322,7 @@ GotoSet: CheckEventStatus
         EventFailure:
             - InqEvent: DCPActive
                 EventSuccess:
-                    - DoTeleportDCP
+                    - Goto: DoTeleportDCP
                 EventFailure:
                     - DirectBroadcast: The portal hums with energy.
                     - DirectBroadcast: The %n is not open at this time.
