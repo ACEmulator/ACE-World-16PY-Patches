@@ -5,6 +5,8 @@ Refuse: Mark of a Kill (80101)
             - Give: Durable Legendary Key (51954)
             - Give: Trade Note MMD (20630), 2
             - AwardLuminance: 1000
+            - IncrementQuest: DCAMarksTurnedIn, 10
+            - Goto: TitleRewards
         TestFailure:
             - DirectBroadcast: The %n is not impressed with your meager offering.
 
@@ -38,3 +40,24 @@ GotoSet: RollForReward, Probability: 1.0
 GotoSet: Stamp
     - StampQuest: DCADeathStatueTimeout
     - StampQuest: DCADeathStatueCooldown
+
+GotoSet: TitleRewards
+    - InqQuestSolves: DCAMarksTurnedIn, 400 - 410
+        QuestSuccess:
+            - AddCharacterTitle: DarknessintheLight
+            - DirectBroadcast: You have been awarded the title of "Darkness in the Light"
+        QuestFailure:
+            - InqQuestSolves: DCAMarksTurnedIn, 300 - 310
+                QuestSuccess:
+                    - AddCharacterTitle: IAmDarktide
+                    - DirectBroadcast: You have been awarded the title of "I Am Darktide"
+                QuestFailure:
+                    - InqQuestSolves: DCAMarksTurnedIn, 200 - 210
+                        QuestSuccess:
+                            - AddCharacterTitle: BathedinBlood
+                            - DirectBroadcast: You have been awarded the title of "Bathed in Blood"
+                        QuestFailure:
+                            - InqQuestSolves: DCAMarksTurnedIn, 100 - 110
+                                QuestSuccess:
+                                    - AddCharacterTitle: PlayerSlayer
+                                    - DirectBroadcast: You have been awarded the title of "Player Slayer"
