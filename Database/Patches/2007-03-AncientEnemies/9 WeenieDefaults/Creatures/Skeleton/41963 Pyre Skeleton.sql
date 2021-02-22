@@ -130,9 +130,9 @@ VALUES (41963, 2, 35095,  1, 0, 0, False) /* Create Pyre Claw (35095) for Wield 
      , (41963, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (41963, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (41963, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
-     , (41963, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */     
-     , (41963, 9, 35504,  0, 0, 0.02, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
      , (41963, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (41963, 9, 35504,  0, 0, 0.01, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
+     , (41963, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (41963, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
      , (41963, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (41963, 9, 37247,  0, 0, 0.003, False) /* Create Ace of Eyes (37247) for ContainTreasure */
