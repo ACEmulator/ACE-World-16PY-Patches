@@ -16,8 +16,7 @@ Use:
                                     - InqMyQuest: DCALumStatueTimeout
                                         QuestSuccess:
                                             - DirectBroadcast: You retain control over this statue.
-                                            - AwardLuminance: 250
-                                            - Goto: Stamp
+                                            - Goto: Reward
                                         QuestFailure:
                                             - DirectBroadcast: Another player has control over this statue.
                                 QuestFailure:
@@ -32,12 +31,14 @@ Use:
                     - InqQuestBitsOn: DCALumStatueBitfield, 0x10
                         QuestSuccess:
                             - DirectBroadcast: You regain control over this statue.
-                            - AwardLuminance: 250
-                            - Goto: Stamp
+                            - Goto: Reward
                         QuestFailure:
                             - DirectBroadcast: You now have control of this statue.
-                            - AwardLuminance: 250
-                            - Goto: Stamp
+                            - Goto: Reward
+
+GotoSet: Reward
+    - AwardLuminance: 250
+    - Goto: Stamp
 
 GotoSet: Stamp
     - StampMyQuest: DCALumStatueTimeout
