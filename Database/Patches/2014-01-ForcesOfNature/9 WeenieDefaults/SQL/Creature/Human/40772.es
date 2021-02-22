@@ -39,6 +39,29 @@ GotoSet: TakeMarkLoop
         TestSuccess:
             - TakeItems:  Mark of a Kill (80101), 1
             - Give: Trade Note MMD (20630), 2
+            - StampQuest: DCAMarksTurnedIn
+            - Goto: TitleRewards
             #- Delay: 0.2, Goto: TakeMarkLoop
         #TestFailure:
             #- TakeItems: Mark of a Kill (80101), -1
+
+GotoSet: TitleRewards
+    - InqQuestSolves: DCAMarksTurnedIn, 400 - 400
+        QuestSuccess:
+            - AddCharacterTitle: DarknessintheLight
+            - DirectBroadcast: You have been awarded the title of "Darkness in the Light"
+        QuestFailure:
+            - InqQuestSolves: DCAMarksTurnedIn, 300 - 300
+                QuestSuccess:
+                    - AddCharacterTitle: IAmDarktide
+                    - DirectBroadcast: You have been awarded the title of "I Am Darktide"
+                QuestFailure:
+                    - InqQuestSolves: DCAMarksTurnedIn, 200 - 200
+                        QuestSuccess:
+                            - AddCharacterTitle: BathedinBlood
+                            - DirectBroadcast: You have been awarded the title of "Bathed in Blood"
+                        QuestFailure:
+                            - InqQuestSolves: DCAMarksTurnedIn, 100 - 100
+                                QuestSuccess:
+                                    - AddCharacterTitle: PlayerSlayer
+                                    - DirectBroadcast: You have been awarded the title of "Player Slayer"
