@@ -37,7 +37,7 @@ VALUES (0x700AB009, 80105, 0x00AB010A, 48.7562, -37.1328, -29.945, -4.37114E-08,
 /* @teleloc 0x00AB010A [48.756199 -37.132801 -29.945000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AB00A, 80104, 0x00AB0110, 67.8248, -39.7031, -29.945, 1, 0, 0, 0, False, '2021-02-20 18:35:11'); /* Statue of High Illumination */
+VALUES (0x700AB00A, 80139, 0x00AB0110, 67.8248, -39.7031, -29.945, 1, 0, 0, 0, False, '2021-02-20 18:35:11'); /* Statue of High Illumination */
 /* @teleloc 0x00AB0110 [67.824799 -39.703098 -29.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
