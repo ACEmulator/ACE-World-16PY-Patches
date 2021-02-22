@@ -305,6 +305,14 @@ GotoSet: CheckPKStatus
 
 GotoSet: DoTakeAllMarks
     - TakeItems: Mark of a Kill (80101), -1
+    - Goto: EraseQuests
+
+GotoSet: EraseQuests
+    - EraseQuest: DCADeathStatueTimeout
+    - EraseQuest: DCADeathStatueCooldown
+    - EraseQuest: DCALumStatueTimeout
+    - EraseQuest: DCALumStatueCooldown
+    - EraseQuest: DCALumStatueBitfield
     - Goto: DoDispel
 
 GotoSet: DoDispel
