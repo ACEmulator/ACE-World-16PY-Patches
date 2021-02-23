@@ -32,8 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (80119,   1,   33560751) /* Setup */
      , (80119,   2,  150995446) /* MotionTable */
      , (80119,   3,  536870932) /* SoundTable */
-     , (80119,   7,  268437353) /* ClothingBase */
-     , (80119,   8,  100690409) /* Icon */;
+     , (80119,   8,  100690416) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (80119,   1, 200, 0, 0) /* Strength */
