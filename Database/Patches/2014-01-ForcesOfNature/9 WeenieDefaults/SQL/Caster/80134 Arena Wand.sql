@@ -36,7 +36,7 @@ VALUES (80134,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80134,   5,  -0.025) /* ManaRate */
-     , (80134,  39,       1) /* DefaultScale */
+     , (80134,  39,     1.5) /* DefaultScale */
      , (80134, 138,     1.4) /* SlayerDamageBonus */
      , (80134, 144,    0.02) /* ManaConversionMod */;
 
