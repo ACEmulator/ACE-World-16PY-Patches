@@ -47,14 +47,14 @@ VALUES (33038,   1,       5) /* HeartbeatInterval */
      , (33038,  69,    0.42) /* ResistAcid */
      , (33038,  70,    0.25) /* ResistElectric */
      , (33038,  71,    0.25) /* ResistHealthBoost */
-     , (33038,  72,    0.25) /* ResistStaminaDrain */
+     , (33038,  72,       1) /* ResistStaminaDrain */
      , (33038,  73,       1) /* ResistStaminaBoost */
-     , (33038,  74,     0.5) /* ResistManaDrain */
+     , (33038,  74,       1) /* ResistManaDrain */
      , (33038,  75,       1) /* ResistManaBoost */
      , (33038,  77,       1) /* PhysicsScriptIntensity */
      , (33038, 104,      10) /* ObviousRadarRange */
      , (33038, 117,     0.6) /* FocusedProbability */
-     , (33038, 125,    0.25) /* ResistHealthDrain */;
+     , (33038, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33038,   1, 'Coruscating Mukkir') /* Name */;

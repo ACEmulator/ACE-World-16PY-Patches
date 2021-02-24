@@ -44,16 +44,16 @@ VALUES (40281,   1,       5) /* HeartbeatInterval */
      , (40281,  68,     0.2) /* ResistCold */
      , (40281,  69,     0.2) /* ResistAcid */
      , (40281,  70,     0.1) /* ResistElectric */
-     , (40281, 166,     0.2) /* ResistNether */
+     , (40281, 166,       1) /* ResistNether */
      , (40281,  71,    0.25) /* ResistHealthBoost */
-     , (40281,  72,    0.25) /* ResistStaminaDrain */
+     , (40281,  72,       1) /* ResistStaminaDrain */
      , (40281,  73,       1) /* ResistStaminaBoost */
-     , (40281,  74,     0.5) /* ResistManaDrain */
+     , (40281,  74,       1) /* ResistManaDrain */
      , (40281,  75,       1) /* ResistManaBoost */
      , (40281,  77,       1) /* PhysicsScriptIntensity */
      , (40281, 104,      10) /* ObviousRadarRange */
      , (40281, 117,     0.6) /* FocusedProbability */
-     , (40281, 125,    0.25) /* ResistHealthDrain */;
+     , (40281, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40281,   1, 'Degenerate Mukkir') /* Name */;

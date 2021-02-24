@@ -49,14 +49,14 @@ VALUES (33626,   1,       5) /* HeartbeatInterval */
      , (33626,  69,    0.42) /* ResistAcid */
      , (33626,  70,    0.25) /* ResistElectric */
      , (33626,  71,    0.25) /* ResistHealthBoost */
-     , (33626,  72,    0.25) /* ResistStaminaDrain */
+     , (33626,  72,       1) /* ResistStaminaDrain */
      , (33626,  73,       1) /* ResistStaminaBoost */
-     , (33626,  74,     0.5) /* ResistManaDrain */
+     , (33626,  74,       1) /* ResistManaDrain */
      , (33626,  75,       1) /* ResistManaBoost */
      , (33626,  77,       1) /* PhysicsScriptIntensity */
      , (33626, 104,      10) /* ObviousRadarRange */
      , (33626, 117,     0.6) /* FocusedProbability */
-     , (33626, 125,    0.25) /* ResistHealthDrain */;
+     , (33626, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33626,   1, 'Hellion Mukkir') /* Name */;
