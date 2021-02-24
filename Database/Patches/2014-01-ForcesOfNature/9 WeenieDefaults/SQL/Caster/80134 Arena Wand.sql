@@ -45,8 +45,9 @@ VALUES (80134,   1, 'Arena Wand') /* Name */
      , (80134,  16, 'This Arena Wand only lasts 5 minutes, use it well.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (80134,   1,   33560752) /* Setup */
+VALUES (80134,   1,   33560677) /* Setup */
      , (80134,   3,  536870932) /* SoundTable */
+     , (80134,   7,  268437355) /* ClothingBase */
      , (80134,   8,  100690411) /* Icon */
      , (80134,  22,  872415275) /* PhysicsEffectTable */
      , (80134,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
