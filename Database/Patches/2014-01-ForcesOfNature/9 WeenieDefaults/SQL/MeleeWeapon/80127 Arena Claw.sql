@@ -54,8 +54,9 @@ VALUES (80127,   1, 'Arena Claw') /* Name */
      , (80127,  15, 'This Arena Claw only lasts 5 minutes, use it well.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (80127,   1,   33560757) /* Setup */
+VALUES (80127,   1,   33560670) /* Setup */
      , (80127,   3,  536870932) /* SoundTable */
+     , (80127,   7,  268437358) /* ClothingBase */
      , (80127,   8,  100690414) /* Icon */
      , (80127,  22,  872415275) /* PhysicsEffectTable */;
 
