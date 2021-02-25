@@ -298,38 +298,30 @@ GotoSet: RareFound
 GotoSet: CheckPKStatus
     - InqIntStat: PlayerKillerStatus, 4 - 4
         TestSuccess:
-            - Goto:  DoTakeAllMarks
+            - Goto:  PreTeleport
         TestFailure:
             - DirectBroadcast: The portal hums with energy.
             - DirectBroadcast: You must be a player killer to enter the %n.
 
-GotoSet: DoTakeAllMarks
+GotoSet: PreTeleport
     - TakeItems: Mark of a Kill (80101), -1
-    - Goto: EraseQuests
-
-GotoSet: EraseQuests
     - EraseQuest: DCADeathStatueTimeout
     - EraseQuest: DCADeathStatueCooldown
     - EraseQuest: DCALumStatueTimeout
     - EraseQuest: DCALumStatueCooldown
     - EraseQuest: DCALumStatueBitfield
-    - Goto: DoDispel
-
-GotoSet: DoDispel
-    - CastSpellInstant: 5582 - Nullify All Rares
-    - Goto: GiveMark
-
-GotoSet: GiveMark
-    - Give: Mark of a Kill (80101)
-    - Goto: CheckEventStatus
-
-GotoSet: CheckEventStatus
     - InqEvent: DCAActive
         EventSuccess:
+            - EraseQuest: DCAAccess
+            - CastSpellInstant: 5582 - Nullify All Rares
+            - Give: Mark of a Kill (80101)
             - Goto: DoTeleportDCA
         EventFailure:
             - InqEvent: DCPActive
                 EventSuccess:
+                    - EraseQuest: DCAAccess
+                    - CastSpellInstant: 5582 - Nullify All Rares
+                    - Give: Mark of a Kill (80101)
                     - Goto: DoTeleportDCP
                 EventFailure:
                     - DirectBroadcast: The portal hums with energy.
@@ -337,68 +329,59 @@ GotoSet: CheckEventStatus
 
 GotoSet: DoTeleportDCA, Probability: 0.2
     - TeleportTarget: 0x00AB0118 [30.000000 -20.000000 -23.995001] 0.397033 0.000000 0.000000 -0.917804
-    - Goto: RemoveAccess
 
 GotoSet: DoTeleportDCA, Probability: 0.4
     - TeleportTarget: 0x00AB0163 [0.000000 -70.000000 -11.995001] 0.921061 0.000000 0.000000 -0.389418
-    - Goto: RemoveAccess
 
 GotoSet: DoTeleportDCA, Probability: 0.6
     - TeleportTarget: 0x00AB01F8 [100.000000 0.000000 -11.995001] 0.385543 0.000000 0.000000 0.922690
-    - Goto: RemoveAccess
 
 GotoSet: DoTeleportDCA, Probability: 0.8
     - TeleportTarget: 0x00AB0244 [50.000000 -50.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000
-    - Goto: RemoveAccess
 
 GotoSet: DoTeleportDCA, Probability: 1.0
     - TeleportTarget: 0x00AB028E [60.000000 -50.000000 0.005000] 0.900447 0.000000 0.000000 0.434966
-    - Goto: RemoveAccess
 
 GotoSet: DoTeleportDCP, Probability: 0.1
     - TeleportTarget: 0x00AC017E [0.000000 -20.000000 18.004999] 1.000000 0.000000 0.000000 0.000000
-    - Goto: RemoveAccess
 
 GotoSet: DoTeleportDCP, Probability: 0.2
     - TeleportTarget: 0x00AC017F [0.000000 -50.000000 18.004999] 1.000000 0.000000 0.000000 0.000000
-    - Goto: RemoveAccess
 
 GotoSet: DoTeleportDCP, Probability: 0.3
     - TeleportTarget: 0x00AC0182 [20.000000 0.560480 18.004999] 1.000000 0.000000 0.000000 0.000000
-    - Goto: RemoveAccess
 
 GotoSet: DoTeleportDCP, Probability: 0.4
     - TeleportTarget: 0x00AC0185 [20.000000 -70.000000 18.004999] 1.000000 0.000000 0.000000 0.000000
-    - Goto: RemoveAccess
 
 GotoSet: DoTeleportDCP, Probability: 0.5
     - TeleportTarget: 0x00AC0186 [40.000000 0.000000 18.004999] 1.000000 0.000000 0.000000 0.000000
-    - Goto: RemoveAccess
 
 GotoSet: DoTeleportDCP, Probability: 0.6
     - TeleportTarget: 0x00AC0189 [40.000000 -70.000000 18.004999] 1.000000 0.000000 0.000000 0.000000
-    - Goto: RemoveAccess
 
 GotoSet: DoTeleportDCP, Probability: 0.7
     - TeleportTarget: 0x00AC018A [60.000000 0.000000 18.004999] 1.000000 0.000000 0.000000 0.000000
-    - Goto: RemoveAccess
 
 GotoSet: DoTeleportDCP, Probability: 0.8
     - TeleportTarget: 0x00AC018D [60.000000 -70.000000 18.004999] 1.000000 0.000000 0.000000 0.000000
-    - Goto: RemoveAccess
 
 GotoSet: DoTeleportDCP, Probability: 0.9
     - TeleportTarget: 0x00AC0190 [80.000000 -20.000000 18.004999] 1.000000 0.000000 0.000000 0.000000
-    - Goto: RemoveAccess
 
 GotoSet: DoTeleportDCP, Probability: 1.0
     - TeleportTarget: 0x00AC0191 [80.000000 -50.000000 18.004999] 1.000000 0.000000 0.000000 0.000000
-    - Goto: RemoveAccess
-
-GotoSet: RemoveAccess
-    - EraseQuest: DCAAccess
 
 ReceiveTalkDirect: LetMeIn
     - InqBoolStat: IsAdmin
         TestSuccess:
-            - Goto: CheckEventStatus
+            - InqEvent: DCAActive
+                EventSuccess:
+                    - Goto: DoTeleportDCA
+                EventFailure:
+                    - InqEvent: DCPActive
+                        EventSuccess:
+                            - Goto: DoTeleportDCP
+                        EventFailure:
+                            - DirectBroadcast: The portal hums with energy.
+                            - DirectBroadcast: The %n is not open at this time.
