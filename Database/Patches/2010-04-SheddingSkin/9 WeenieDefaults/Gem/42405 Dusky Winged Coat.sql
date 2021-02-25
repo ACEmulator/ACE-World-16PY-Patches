@@ -17,18 +17,7 @@ VALUES (42405,   1,       2048) /* ItemType - Gem */
      , (42405,  94,          6) /* TargetType - Vestements */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42403,  22, True ) /* Inscribable */
-     , (42403, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42403,  13,     1.3) /* ArmorModVsSlash */
-     , (42403,  14,       1) /* ArmorModVsPierce */
-     , (42403,  15,       1) /* ArmorModVsBludgeon */
-     , (42403,  16,     0.4) /* ArmorModVsCold */
-     , (42403,  17,     0.4) /* ArmorModVsFire */
-     , (42403,  18,     0.6) /* ArmorModVsAcid */
-     , (42403,  19,     0.4) /* ArmorModVsElectric */
-     , (42403, 165,       1) /* ArmorModVsNether */;
+VALUES (42405,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42405,   1, 'Dusky Winged Coat') /* Name */;
