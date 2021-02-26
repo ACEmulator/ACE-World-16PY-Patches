@@ -16,7 +16,7 @@ VALUES (44478,   1,         16) /* ItemType - Creature */
      , (44478,  72,         22) /* FriendType - Shadow */
      , (44478,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44478, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44478, 146,   11000000) /* XpOverride */
+     , (44478, 146,    1100000) /* XpOverride */
      , (44478, 332,         75) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
