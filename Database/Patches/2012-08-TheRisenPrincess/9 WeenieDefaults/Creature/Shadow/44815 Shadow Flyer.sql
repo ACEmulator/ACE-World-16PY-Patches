@@ -16,7 +16,7 @@ VALUES (44815,   1,         16) /* ItemType - Creature */
      , (44815,  72,         22) /* FriendType - Shadow */
      , (44815,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44815, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44815, 146,   11000000) /* XpOverride */;
+     , (44815, 146,   1100000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44815,   1, True ) /* Stuck */

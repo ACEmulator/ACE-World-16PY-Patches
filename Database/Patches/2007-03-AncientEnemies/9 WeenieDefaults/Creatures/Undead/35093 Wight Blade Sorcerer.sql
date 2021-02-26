@@ -38,7 +38,7 @@ VALUES (35093,   1,       5) /* HeartbeatInterval */
      , (35093,  15,    0.85) /* ArmorModVsBludgeon */
      , (35093,  16,    0.95) /* ArmorModVsCold */
      , (35093,  17,    0.85) /* ArmorModVsFire */
-     , (35093,  18,    0.90) /* ArmorModVsAcid */
+     , (35093,  18,     0.9) /* ArmorModVsAcid */
      , (35093,  19,    0.95) /* ArmorModVsElectric */
      , (35093,  31,      18) /* VisualAwarenessRange */
      , (35093,  34,       2) /* PowerupTime */
@@ -52,15 +52,15 @@ VALUES (35093,   1,       5) /* HeartbeatInterval */
      , (35093,  68,     0.5) /* ResistCold */
      , (35093,  69,     0.5) /* ResistAcid */
      , (35093,  70,     0.5) /* ResistElectric */
-     , (35093,  166,    0.9) /* ResistNether */
      , (35093,  80,       3) /* AiUseMagicDelay */
      , (35093, 104,      10) /* ObviousRadarRange */
-     , (35093, 125,       1) /* ResistHealthDrain */;
+     , (35093, 125,       1) /* ResistHealthDrain */
+     , (35093, 166,     0.9) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35093,   1, 'Wight Blade Sorcerer') /* Name */
      , (35093,  45, 'KilltaskGraveyardWight_1309') /* KillQuest */
-     , (35093,  49, 'TaskGrave1WightMageKilltask') /* KillQuest */;
+     , (35093,  49, 'TaskGrave1WightMageKilltask') /* KillQuest2 */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35093,   1,   33560225) /* Setup */
@@ -116,3 +116,10 @@ VALUES (35093,  1786,   2.02)  /* Nuhmudira's Spines */
      , (35093,  4489,   2.02)  /* Incantation of Fester Other */
      , (35093,  5531,   2.02)  /* Bloodstone Bolt VII */;
 
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (35093, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'GYColoMobKilled', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

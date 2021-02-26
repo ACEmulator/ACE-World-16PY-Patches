@@ -72,7 +72,7 @@ VALUES (41966,   1,   33560225) /* Setup */
      , (41966,   7,  268435558) /* ClothingBase */
      , (41966,   8,  100667942) /* Icon */
      , (41966,  22,  872415272) /* PhysicsEffectTable */
-     , (41966,  32,       2020) /* WieldedTreasureType - 
+     , (41966,  32,       2020) /* WieldedTreasureType -
                                    Wield Electric Crossbow (47856) | Probability: 5.7999997%
                                    Wield 30x Lightning Quarrel (48067) | Probability: 100%
                                    Wield Acid Crossbow (47854) | Probability: 5.7999997%
@@ -162,9 +162,9 @@ VALUES (41966, 9, 35105,  1, 0, 0.10, False) /* Create Pyre Shroud (35105) for C
      , (41966, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (41966, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (41966, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
-     , (41966, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */     
-     , (41966, 9, 35504,  0, 0, 0.02, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
      , (41966, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (41966, 9, 35504,  0, 0, 0.01, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
+     , (41966, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (41966, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
      , (41966, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (41966, 9, 37247,  0, 0, 0.003, False) /* Create Ace of Eyes (37247) for ContainTreasure */
@@ -194,5 +194,4 @@ VALUES (41966, 9, 35105,  1, 0, 0.10, False) /* Create Pyre Shroud (35105) for C
      , (41966, 9, 37245,  0, 0, 0.003, False) /* Create Queen of Hands (37245) for ContainTreasure */
      , (41966, 9, 37246,  0, 0, 0.003, False) /* Create King of Hands (37246) for ContainTreasure */
      , (41966, 9,     0,  0, 0, 0.922, False) /* Create nothing for ContainTreasure */;
-     
-     
+

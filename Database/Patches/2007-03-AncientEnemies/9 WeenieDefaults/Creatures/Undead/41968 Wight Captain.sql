@@ -70,7 +70,7 @@ VALUES (41968,   1,   33560225) /* Setup */
      , (41968,   7,  268435558) /* ClothingBase */
      , (41968,   8,  100667942) /* Icon */
      , (41968,  22,  872415272) /* PhysicsEffectTable */
-     , (41968,  32,       2020) /* WieldedTreasureType - 
+     , (41968,  32,       2020) /* WieldedTreasureType -
                                    Wield Electric Crossbow (47856) | Probability: 5.7999997%
                                    Wield 30x Lightning Quarrel (48067) | Probability: 100%
                                    Wield Acid Crossbow (47854) | Probability: 5.7999997%
@@ -146,9 +146,9 @@ VALUES (41968, 9, 35105,  1, 0, 0.10, False) /* Create Pyre Shroud (35105) for C
      , (41968, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (41968, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (41968, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
-     , (41968, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */     
-     , (41968, 9, 35504,  0, 0, 0.02, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
      , (41968, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (41968, 9, 35504,  0, 0, 0.01, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
+     , (41968, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (41968, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
      , (41968, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (41968, 9, 37247,  0, 0, 0.003, False) /* Create Ace of Eyes (37247) for ContainTreasure */

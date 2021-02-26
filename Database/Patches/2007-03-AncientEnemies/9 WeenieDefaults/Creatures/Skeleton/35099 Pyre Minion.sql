@@ -53,7 +53,6 @@ VALUES (35099,   1,       5) /* HeartbeatInterval */
      , (35099,  68,     0.3) /* ResistCold */
      , (35099,  69,    0.42) /* ResistAcid */
      , (35099,  70,     0.4) /* ResistElectric */
-     , (35099, 166,    0.82) /* ResistNether */
      , (35099,  71,       1) /* ResistHealthBoost */
      , (35099,  72,       1) /* ResistStaminaDrain */
      , (35099,  73,       1) /* ResistStaminaBoost */
@@ -62,7 +61,8 @@ VALUES (35099,   1,       5) /* HeartbeatInterval */
      , (35099,  80,       3) /* AiUseMagicDelay */
      , (35099, 104,      10) /* ObviousRadarRange */
      , (35099, 122,       2) /* AiAcquireHealth */
-     , (35099, 125,       1) /* ResistHealthDrain */;
+     , (35099, 125,       1) /* ResistHealthDrain */
+     , (35099, 166,    0.82) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35099,   1, 'Pyre Minion') /* Name */
@@ -99,10 +99,10 @@ VALUES (35099,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (35099, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
      , (35099, 33, 0, 3, 0, 260, 0, 0) /* LifeMagic           Specialized */
      , (35099, 34, 0, 3, 0, 260, 0, 0) /* WarMagic            Specialized */
-     , (35099, 44, 0, 3, 0, 520, 0, 0) /* Heavy Weapons       Specialized */
-     , (35099, 45, 0, 3, 0, 520, 0, 0) /* Light Weapons       Specialized */
-     , (35099, 46, 0, 3, 0, 520, 0, 0) /* Finesse Weapons     Specialized */
-     , (35099, 47, 0, 3, 0, 520, 0, 0) /* Missile Weapons     Specialized */;
+     , (35099, 44, 0, 3, 0, 520, 0, 0) /* HeavyWeapons        Specialized */
+     , (35099, 45, 0, 3, 0, 520, 0, 0) /* LightWeapons        Specialized */
+     , (35099, 46, 0, 3, 0, 520, 0, 0) /* FinesseWeapons      Specialized */
+     , (35099, 47, 0, 3, 0, 520, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (35099,  0,  4,  0,    0,  350,  350,  350,  350,  350,  350,  350,  350,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -116,12 +116,12 @@ VALUES (35099,  0,  4,  0,    0,  350,  350,  350,  350,  350,  350,  350,  350,
      , (35099,  8,  4, 185, 0.75,  350,  350,  350,  350,  350,  350,  350,  350,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35099, 9, 38714,  0, 0, 0.10, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
-     , (35099, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
-     , (35099, 9, 35105,  1, 0, 0.10, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (35099, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
+VALUES (35099, 9, 38714,  0, 0, 0.1, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
+     , (35099, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (35099, 9, 35105,  1, 0, 0.1, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (35099, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (35099, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
-     , (35099, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */     
+     , (35099, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (35099, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
      , (35099, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (35099, 9, 37247,  0, 0, 0.003, False) /* Create Ace of Eyes (37247) for ContainTreasure */
@@ -151,3 +151,11 @@ VALUES (35099, 9, 38714,  0, 0, 0.10, False) /* Create Pyre Skeleton Jaw (38714)
      , (35099, 9, 37245,  0, 0, 0.003, False) /* Create Queen of Hands (37245) for ContainTreasure */
      , (35099, 9, 37246,  0, 0, 0.003, False) /* Create King of Hands (37246) for ContainTreasure */
      , (35099, 9,     0,  0, 0, 0.922, False) /* Create nothing for ContainTreasure */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (35099, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'GYColoMobKilled', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
