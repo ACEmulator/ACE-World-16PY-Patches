@@ -48,15 +48,15 @@ VALUES (33133,   1,       5) /* HeartbeatInterval */
      , (33133,  69,     0.2) /* ResistAcid */
      , (33133,  70,     0.1) /* ResistElectric */
      , (33133,  71,    0.25) /* ResistHealthBoost */
-     , (33133,  72,    0.25) /* ResistStaminaDrain */
+     , (33133,  72,       1) /* ResistStaminaDrain */
      , (33133,  73,       1) /* ResistStaminaBoost */
-     , (33133,  74,     0.5) /* ResistManaDrain */
+     , (33133,  74,       1) /* ResistManaDrain */
      , (33133,  75,       1) /* ResistManaBoost */
      , (33133,  77,       1) /* PhysicsScriptIntensity */
      , (33133, 104,      10) /* ObviousRadarRange */
      , (33133, 117,     0.6) /* FocusedProbability */
-     , (33133, 125,    0.25) /* ResistHealthDrain */
-     , (33133, 166,     0.2) /* ResistNether */;
+     , (33133, 125,       1) /* ResistHealthDrain */
+     , (33133, 166,       1) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33133,   1, 'Mukkir Draktehn') /* Name */;

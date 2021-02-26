@@ -50,14 +50,14 @@ VALUES (33623,   1,       5) /* HeartbeatInterval */
      , (33623,  69,    0.42) /* ResistAcid */
      , (33623,  70,    0.25) /* ResistElectric */
      , (33623,  71,    0.25) /* ResistHealthBoost */
-     , (33623,  72,    0.25) /* ResistStaminaDrain */
+     , (33623,  72,       1) /* ResistStaminaDrain */
      , (33623,  73,       1) /* ResistStaminaBoost */
-     , (33623,  74,     0.5) /* ResistManaDrain */
+     , (33623,  74,       1) /* ResistManaDrain */
      , (33623,  75,       1) /* ResistManaBoost */
      , (33623,  77,       1) /* PhysicsScriptIntensity */
      , (33623, 104,      10) /* ObviousRadarRange */
      , (33623, 117,     0.6) /* FocusedProbability */
-     , (33623, 125,    0.25) /* ResistHealthDrain */;
+     , (33623, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33623,   1, 'Biaka Mukkir') /* Name */;

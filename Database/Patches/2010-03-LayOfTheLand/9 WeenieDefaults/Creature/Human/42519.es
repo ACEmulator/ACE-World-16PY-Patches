@@ -64,7 +64,7 @@ Refuse: Enchanted Mana Stone (42490)
                             - Tell: A reward for fifteen mana fields.
                             - Tell: A few more next time maybe?
                             - TakeItems: Enchanted Mana Stone (42490), 1
-                            - AwardNoShareXP: 90000000
+                            - AwardLevelProportionalXP: 80%, Min:0, Max: 90000000
                             - DirectBroadcast: You have been granted the titles of Arcanum Adventurer, Mana Field Finder and Assistant's Assistant.
                             - AddCharacterTitle: ArcanumAdventurer
                             - AddCharacterTitle: ManaFieldFinder
@@ -81,7 +81,7 @@ Refuse: Enchanted Mana Stone (42490)
                                     - Tell: A reward for ten mana fields.
                                     - Tell: Half way to the stone's capacity.
                                     - TakeItems: Enchanted Mana Stone (42490), 1
-                                    - AwardNoShareXP: 60000000
+                                    - AwardLevelProportionalXP: 70%, Min:0, Max: 60000000
                                     - DirectBroadcast: You have been granted the titles of Mana Field Finder and Assistant's Assistant.
                                     - AddCharacterTitle: ManaFieldFinder
                                     - AddCharacterTitle: AssistantsAssistant
@@ -97,7 +97,7 @@ Refuse: Enchanted Mana Stone (42490)
                                             - Tell: Five mana fields.
                                             - Tell: Maybe you'll search harder next time.
                                             - TakeItems: Enchanted Mana Stone (42490), 1
-                                            - AwardNoShareXP: 30000000
+                                            - AwardLevelProportionalXP: 40%, Min:0, Max:30000000
                                             - DirectBroadcast: You have been granted the title of Assistant's Assistant.
                                             - AddCharacterTitle: AssistantsAssistant
                                             - Goto: MenhirResearchQuestCompleted

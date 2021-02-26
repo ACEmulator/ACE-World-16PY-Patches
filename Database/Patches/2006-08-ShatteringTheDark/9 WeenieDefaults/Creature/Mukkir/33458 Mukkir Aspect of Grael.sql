@@ -46,15 +46,15 @@ VALUES (33458,   1,       5) /* HeartbeatInterval */
      , (33458,  69,     0.2) /* ResistAcid */
      , (33458,  70,     0.1) /* ResistElectric */
      , (33458,  71,    0.25) /* ResistHealthBoost */
-     , (33458,  72,    0.25) /* ResistStaminaDrain */
+     , (33458,  72,       1) /* ResistStaminaDrain */
      , (33458,  73,       1) /* ResistStaminaBoost */
      , (33458,  74,     0.5) /* ResistManaDrain */
      , (33458,  75,       1) /* ResistManaBoost */
      , (33458,  77,       1) /* PhysicsScriptIntensity */
      , (33458, 104,      10) /* ObviousRadarRange */
      , (33458, 117,     0.6) /* FocusedProbability */
-     , (33458, 125,    0.25) /* ResistHealthDrain */
-     , (33458, 166,     0.2) /* ResistNether */;
+     , (33458, 125,       1) /* ResistHealthDrain */
+     , (33458, 166,       1) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33458,   1, 'Mukkir Aspect of Grael') /* Name */;

@@ -18,8 +18,7 @@ VALUES (44863,   1,       2048) /* ItemType - Gem */
      , (44863,  94,          4) /* TargetType - Clothing */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44863,   1, False) /* Stuck */
-     , (44863,  22, True ) /* Inscribable */
+VALUES (44863,  22, True ) /* Inscribable */
      , (44863, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -41,6 +40,3 @@ VALUES (44863,   1,   33561386) /* Setup */
      , (44863,   8,  100693225) /* Icon */
      , (44863,  22,  872415275) /* PhysicsEffectTable */
      , (44863,  50,  100667895) /* IconOverlay */;
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (44863, 0, 16797047);
