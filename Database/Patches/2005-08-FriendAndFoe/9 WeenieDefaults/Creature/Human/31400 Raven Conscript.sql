@@ -61,7 +61,7 @@ VALUES (31400,   1,       5) /* HeartbeatInterval */
      , (31400, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31400,   1, 'Raven Consript') /* Name */
+VALUES (31400,   1, 'Raven Conscript') /* Name */
      , (31400,   3, 'Male') /* Sex */
      , (31400,   5, 'Raven Hand') /* Template */;
 
@@ -80,7 +80,13 @@ VALUES (31400,   1,   33554433) /* Setup */
      , (31400,  16,   67109564) /* EyesPalette */
      , (31400,  17,   67109559) /* SkinPalette */
      , (31400,  22,  872415236) /* PhysicsEffectTable */
-     , (31400,  32,       2016) /* WieldedTreasureType */
+     , (31400,  32,       2016) /* WieldedTreasureType - 
+                                   Wield Raven Hand Aegis (31392) | Probability: 100%
+                                   Wield Raven Sabra (31386) | Probability: 20%
+                                   Wield Raven Sabra (31387) | Probability: 20%
+                                   Wield Raven Sabra (31388) | Probability: 20%
+                                   Wield Raven Sabra (31389) | Probability: 20%
+                                   Wield Raven Sabra (31390) | Probability: 20% */
      , (31400,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -94,7 +100,7 @@ VALUES (31400,   1, 395, 0, 0) /* Strength */
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (31400,   1,   400, 0, 0, 680) /* MaxHealth */
      , (31400,   3,   200, 0, 0, 910) /* MaxStamina */
-     , (31400,   5,    40, 0, 0,  80) /* MaxMana */;
+     , (31400,   5,    40, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (31400,  6, 0, 2, 0, 300, 0, 0) /* MeleeDefense        Trained */
@@ -133,5 +139,5 @@ VALUES (31400, 2,    57,  0, 93, 0, True) /* Create Platemail Gauntlets (57) for
      , (31400, 2,  6044,  0, 93, 0.25, True) /* Create Celdon Breastplate (6044) for Wield */
      , (31400, 2,  6045,  1, 93, 0.25, False) /* Create Celdon Leggings (6045) for Wield */
      , (31400, 2,  6048,  0, 93, 0.25, True) /* Create Celdon Sleeves (6048) for Wield */
-     , (31400, 9, 32940,  0,  0, 0.05, False) /* Create Dark Monolith Caverns Portal Gem (32940) for ContainTreasure */
-     , (31400, 9, 37088,  0,  0, 0.05, False) /* Create Invitation to the Battle Burrows (37088) for ContainTreasure */;
+     , (31400, 9, 32940,  0, 0, 0.05, False) /* Create Dark Monolith Caverns (32940) for ContainTreasure */
+     , (31400, 9, 37088,  0, 0, 0.05, False) /* Create  (37088) for ContainTreasure */;

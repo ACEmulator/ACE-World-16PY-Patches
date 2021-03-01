@@ -80,7 +80,16 @@ VALUES (31405,   1,   33554433) /* Setup */
      , (31405,  16,   67109564) /* EyesPalette */
      , (31405,  17,   67109560) /* SkinPalette */
      , (31405,  22,  872415236) /* PhysicsEffectTable */
-     , (31405,  32,       2018) /* WieldedTreasureType */
+     , (31405,  32,       2018) /* WieldedTreasureType - 
+                                   Wield Raven Bow (31391) | Probability: 50%
+                                   Wield 30x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Raven Crossbow (31385) | Probability: 50%
+                                   Wield 30x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Raven Sabra (31386) | Probability: 20%
+                                   Wield Raven Sabra (31387) | Probability: 20%
+                                   Wield Raven Sabra (31388) | Probability: 20%
+                                   Wield Raven Sabra (31389) | Probability: 20%
+                                   Wield Raven Sabra (31390) | Probability: 20% */
      , (31405,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -132,6 +141,7 @@ VALUES (31405, 2,    57,  0, 93, 0, True) /* Create Platemail Gauntlets (57) for
      , (31405, 2,  6043,  1, 93, 0.25, False) /* Create Celdon Girth (6043) for Wield */
      , (31405, 2,  6045,  1, 93, 0.25, False) /* Create Celdon Leggings (6045) for Wield */
      , (31405, 2,  6046,  1, 39, 0.232225, True) /* Create Amuli Coat (6046) for Wield */
-     , (31405, 9, 32940,  0,  0, 0.05, False) /* Create Dark Monolith Caverns Portal Gem (32940) for ContainTreasure */
-     , (31405, 9, 30823,  0,  0, 0.05, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
-	 , (31405, 9, 30823,  0,  0, 0.05, False) /* Ancient Empyrean Trinket (34276) for ContainTreasure */;
+     , (31405, 9, 32940,  0, 0, 0.05, False) /* Create Dark Monolith Caverns (32940) for ContainTreasure */
+     , (31405, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (31405, 9, 30823,  0, 0, 0.05, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (31405, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

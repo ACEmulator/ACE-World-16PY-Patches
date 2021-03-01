@@ -79,7 +79,12 @@ VALUES (31402,   1,   33554433) /* Setup */
      , (31402,  16,   67109565) /* EyesPalette */
      , (31402,  17,   67109558) /* SkinPalette */
      , (31402,  22,  872415236) /* PhysicsEffectTable */
-     , (31402,  32,       2015) /* WieldedTreasureType */
+     , (31402,  32,       2015) /* WieldedTreasureType - 
+                                   Wield Raven Sabra (31386) | Probability: 20%
+                                   Wield Raven Sabra (31387) | Probability: 20%
+                                   Wield Raven Sabra (31388) | Probability: 20%
+                                   Wield Raven Sabra (31389) | Probability: 20%
+                                   Wield Raven Sabra (31390) | Probability: 20% */
      , (31402,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -133,5 +138,5 @@ VALUES (31402, 2,    57,  1, 93, 0, True) /* Create Platemail Gauntlets (57) for
      , (31402, 2,   107,  1, 93, 0, True) /* Create Sollerets (107) for Wield */
      , (31402, 2,  6046,  1, 39, 0.232225, True) /* Create Amuli Coat (6046) for Wield */
      , (31402, 2,  6047,  1, 93, 0.25, False) /* Create Amuli Leggings (6047) for Wield */
-     , (31402, 9, 32940,  0,  0, 0.05, False) /* Create Dark Monolith Caverns Portal Gem (32940) for ContainTreasure */
-     , (31402, 9, 37088,  0,  0, 0.05, False) /* Create Invitation to the Battle Burrows (37088) for ContainTreasure */;
+     , (31402, 9, 32940,  0, 0, 0.05, False) /* Create Dark Monolith Caverns (32940) for ContainTreasure */
+     , (31402, 9, 37088,  0, 0, 0.05, False) /* Create  (37088) for ContainTreasure */;

@@ -92,13 +92,13 @@ VALUES (23569,   1,   225, 0, 0, 350) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (23569,  6, 0, 3, 0, 275, 0, 0) /* MeleeDefense        Specialized */
      , (23569,  7, 0, 3, 0, 385, 0, 0) /* MissileDefense      Specialized */
-     , (23569, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */
      , (23569, 15, 0, 3, 0, 265, 0, 0) /* MagicDefense        Specialized */
      , (23569, 20, 0, 3, 0, 250, 0, 0) /* Deception           Specialized */
      , (23569, 24, 0, 3, 0,  90, 0, 0) /* Run                 Specialized */
      , (23569, 31, 0, 3, 0, 200, 0, 0) /* CreatureEnchantment Specialized */
      , (23569, 33, 0, 3, 0, 200, 0, 0) /* LifeMagic           Specialized */
-     , (23569, 34, 0, 3, 0, 200, 0, 0) /* WarMagic            Specialized */;
+     , (23569, 34, 0, 3, 0, 200, 0, 0) /* WarMagic            Specialized */
+     , (23569, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (23569,  0,  1,  0,    0,  300,  300,  300,  300,  300,  300,  300,  300,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -210,8 +210,9 @@ VALUES (23569, 9,  9292,  0, 0, 0.05, False) /* Create Virindi Singularity Key (
      , (23569, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
      , (23569, 9,  7604,  0, 0, 0.0125, False) /* Create Yellow Jewel (7604) for ContainTreasure */
      , (23569, 9,  3698,  0, 0, 0.0125, False) /* Create White Jewel (3698) for ContainTreasure */
-     , (23569, 9,  3696,  0, 0, 0.0125, False) /* Create Blue Gem (3696) for ContainTreasure */
+     , (23569, 9,  3696,  0, 0, 0.0125, False) /* Create Blue Jewel (3696) for ContainTreasure */
      , (23569, 9,  3697,  0, 0, 0.0125, False) /* Create Red Jewel (3697) for ContainTreasure */
-     , (23569, 9, 41470,  0, 0, 0.0125, False) /* Create  (41470) for ContainTreasure */
-     , (23569, 9,     0,  0, 0, 0.9375, False) /* Create nothing for ContainTreasure */;
-
+     , (23569, 9, 41470,  0, 0, 0.0125, False) /* Create Purple Jewel (41470) for ContainTreasure */
+     , (23569, 9,     0,  0, 0, 0.9375, False) /* Create nothing for ContainTreasure */
+     , (23569, 9, 32939,  0, 0, 0.05, False) /* Create Dark Monolith Caverns (32939) for ContainTreasure */
+     , (23569, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
