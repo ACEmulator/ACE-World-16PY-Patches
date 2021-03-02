@@ -65,7 +65,7 @@ VALUES (29342,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29342,   1, 'Ruschk Laktar') /* Name */
-     , (29342,  45, 'ruschkkillcount') /* KillQuest */;
+     , (29342,  45, 'KillTaskRuschk_0301') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29342,   1,   33559104) /* Setup */
@@ -76,13 +76,13 @@ VALUES (29342,   1,   33559104) /* Setup */
      , (29342,   7,  268436946) /* ClothingBase */
      , (29342,   8,  100677373) /* Icon */
      , (29342,  22,  872415364) /* PhysicsEffectTable */
-     , (29342,  32,        488) /* WieldedTreasureType -
+     , (29342,  32,        488) /* WieldedTreasureType - 
                                    Wield Stone Mace (29997) | Probability: 20%
                                    Wield Bone Dagger (30002) | Probability: 20%
                                    Wield Stone Hatchet (30007) | Probability: 20%
                                    Wield Stone Spear (29987) | Probability: 20%
                                    Wield Bone Sword (29992) | Probability: 20% */
-     , (29342,  35,       1000) /* DeathTreasureType */;
+     , (29342,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29342,   1, 250, 0, 0) /* Strength */
@@ -98,17 +98,17 @@ VALUES (29342,   1,   800, 0, 0, 920) /* MaxHealth */
      , (29342,   5,   600, 0, 0, 780) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29342, 46, 0, 3, 0, 450, 0, 0) /* FinesseWeapons      Specialized */
-     , (29342,  6, 0, 3, 0, 420, 0, 0) /* MeleeDefense        Specialized */
+VALUES (29342,  6, 0, 3, 0, 420, 0, 0) /* MeleeDefense        Specialized */
      , (29342,  7, 0, 3, 0, 396, 0, 0) /* MissileDefense      Specialized */
-     , (29342, 44, 0, 3, 0, 450, 0, 0) /* HeavyWeapons        Specialized */
-     , (29342, 47, 0, 3, 0, 180, 0, 0) /* MissileWeapons      Specialized */
-     , (29342, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */
      , (29342, 15, 0, 3, 0, 330, 0, 0) /* MagicDefense        Specialized */
      , (29342, 22, 0, 2, 0,  20, 0, 0) /* Jump                Trained */
      , (29342, 24, 0, 2, 0,  20, 0, 0) /* Run                 Trained */
      , (29342, 32, 0, 3, 0, 230, 0, 0) /* ItemEnchantment     Specialized */
-     , (29342, 33, 0, 3, 0, 230, 0, 0) /* LifeMagic           Specialized */;
+     , (29342, 33, 0, 3, 0, 230, 0, 0) /* LifeMagic           Specialized */
+     , (29342, 44, 0, 3, 0, 450, 0, 0) /* HeavyWeapons        Specialized */
+     , (29342, 45, 0, 3, 0, 450, 0, 0) /* LightWeapons        Specialized */
+     , (29342, 46, 0, 3, 0, 450, 0, 0) /* FinesseWeapons      Specialized */
+     , (29342, 47, 0, 3, 0, 180, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (29342,  0,  4,  0,    0,  340,  410,  335,  440,  440,  355,  440,  440,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
