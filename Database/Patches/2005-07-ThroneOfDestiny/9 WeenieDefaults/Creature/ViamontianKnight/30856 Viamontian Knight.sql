@@ -61,7 +61,8 @@ VALUES (30856,   1,       5) /* HeartbeatInterval */
      , (30856, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30856,   1, 'Viamontian Knight') /* Name */;
+VALUES (30856,   1, 'Viamontian Knight') /* Name */
+     , (30856,  45, 'KillTaskTorgashsTasks_0301') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30856,   1,   33559125) /* Setup */
