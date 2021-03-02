@@ -5,7 +5,7 @@ VALUES (80078, 'PonMiConfession', 8, '2019-02-10 00:00:00') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80078,   1,       8192) /* ItemType - Writable */
-     , (80078,   5,         25) /* EncumbranceVal */
+     , (80078,   5,         10) /* EncumbranceVal */
      , (80078,  16,          8) /* ItemUseable - Contained */
      , (80078,  19,          5) /* Value */
      , (80078,  33,          1) /* Bonded - Bonded */
