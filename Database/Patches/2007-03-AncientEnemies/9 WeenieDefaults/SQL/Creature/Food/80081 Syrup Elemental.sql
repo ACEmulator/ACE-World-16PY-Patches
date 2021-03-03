@@ -57,6 +57,7 @@ VALUES (80081,   1,       5) /* HeartbeatInterval */
      , (80081,  73,       1) /* ResistStaminaBoost */
      , (80081,  74,       1) /* ResistManaDrain */
      , (80081,  75,       1) /* ResistManaBoost */
+     , (80081,  76,     0.8) /* Translucency */
      , (80081,  80,       3) /* AiUseMagicDelay */
      , (80081, 104,      10) /* ObviousRadarRange */
      , (80081, 125,       1) /* ResistHealthDrain */;
@@ -65,7 +66,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80081,   1, 'Syrup Elemental') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (80081,   1,   33556426) /* Setup */
+VALUES (80081,   1,   33560266) /* Setup */
      , (80081,   2,  150995073) /* MotionTable */
      , (80081,   3,  536871065) /* SoundTable */
      , (80081,   4,  805306376) /* CombatTable */
