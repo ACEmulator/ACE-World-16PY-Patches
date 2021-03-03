@@ -69,7 +69,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80083,   1, 'Sugar Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (80083,   1,   33556731) /* Setup */
+VALUES (80083,   1,   33560271) /* Setup */
      , (80083,   2,  150995096) /* MotionTable */
      , (80083,   3,  536871001) /* SoundTable */
      , (80083,   4,  805306407) /* CombatTable */
