@@ -61,6 +61,7 @@ VALUES (80082,   1,       5) /* HeartbeatInterval */
      , (80082,  73,       1) /* ResistStaminaBoost */
      , (80082,  74,       1) /* ResistManaDrain */
      , (80082,  75,       1) /* ResistManaBoost */
+     , (80082,  76,     0.5) /* Translucency */
      , (80082, 104,      10) /* ObviousRadarRange */
      , (80082, 125,       1) /* ResistHealthDrain */;
 
@@ -72,6 +73,7 @@ VALUES (80082,   1,   33556773) /* Setup */
      , (80082,   2,  150995100) /* MotionTable */
      , (80082,   3,  536871011) /* SoundTable */
      , (80082,   4,  805306409) /* CombatTable */
+     , (80082,   7,  268437195) /* ClothingBase */
      , (80082,   8,  100670959) /* Icon */
      , (80082,  22,  872415366) /* PhysicsEffectTable */
      , (80082,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
