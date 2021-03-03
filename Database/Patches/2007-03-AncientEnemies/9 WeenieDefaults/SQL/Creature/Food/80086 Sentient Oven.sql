@@ -41,7 +41,7 @@ VALUES (80086,   1,       5) /* HeartbeatInterval */
      , (80086,  31,      22) /* VisualAwarenessRange */
      , (80086,  34,       1) /* PowerupTime */
      , (80086,  36,       1) /* ChargeSpeed */
-     , (80086,  39,     1.5) /* DefaultScale */
+     , (80086,  39,    0.25) /* DefaultScale */
      , (80086,  64,    0.75) /* ResistSlash */
      , (80086,  65,    0.86) /* ResistPierce */
      , (80086,  66,    0.58) /* ResistBludgeon */
@@ -62,7 +62,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80086,   1, 'Sentient Oven') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (80086,   1,   33557623) /* Setup */
+VALUES (80086,   1,   33555260) /* Setup */
      , (80086,   2,  150994994) /* MotionTable */
      , (80086,   3,  536870984) /* SoundTable */
      , (80086,   4,  805306394) /* CombatTable */
