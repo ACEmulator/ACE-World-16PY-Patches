@@ -69,6 +69,7 @@ VALUES (80087,   1,   33554433) /* Setup */
      , (80087,   2,  150994945) /* MotionTable */
      , (80087,   3,  536870913) /* SoundTable */
      , (80087,   4,  805306368) /* CombatTable */
+     , (80087,   7,  268437192) /* ClothingBase */
      , (80087,   8,  100667446) /* Icon */
      , (80087,  22,  872415236) /* PhysicsEffectTable */
      , (80087,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
@@ -115,12 +116,5 @@ VALUES (80087,  2074,  2.035)  /* Gossamer Flesh */
      , (80087,  4021,  2.035)  /* Flurry of Stars */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (80087, 1, 34015,  1, 0, 1, False) /* Create Golden Shuriken of Tanada (34015) for Contain */
-     , (80087, 2, 33973,  0, 0, 1, False) /* Create Shou-jen Jika-Tabi (33973) for Wield */
-     , (80087, 2, 33976,  0, 0, 1, False) /* Create Shou-jen Shozoku Mask (33976) for Wield */
-     , (80087, 2, 33975,  0, 0, 1, False) /* Create Shou-jen Shozoku Jacket (33975) for Wield */
-     , (80087, 2, 33974,  0, 0, 1, False) /* Create Shou-jen Shozoku Sleeve Gauntlets (33974) for Wield */
-     , (80087, 2, 33977,  0, 0, 1, False) /* Create Shou-jen Shozoku Trousers (33977) for Wield */
-     , (80087, 10, 34018,  1, 0, 0.5, False) /* Create Frost Tachi (34018) for WieldTreasure */
-     , (80087, 10, 34017,  1, 0, 0.5, False) /* Create Tachi (34017) for WieldTreasure */;
-
+VALUES (80087, 1, 35265,  20, 0, 1, False) /* Create Throwing Pancake (35265) for Contain */
+     , (80087, 10, 34017,  1, 0, 1, False) /* Create Tachi (34017) for WieldTreasure */;
