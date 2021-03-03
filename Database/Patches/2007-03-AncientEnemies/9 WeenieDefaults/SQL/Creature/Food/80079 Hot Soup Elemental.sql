@@ -6,7 +6,7 @@ VALUES (80079, 'HotSoupElemental', 10, '2019-09-13 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80079,   1,         16) /* ItemType - Creature */
      , (80079,   2,         13) /* CreatureType - Golem */
-     , (80079,   3,          4) /* PaletteTemplate - Brown */
+     , (80079,   3,         14) /* PaletteTemplate - Red */
      , (80079,   6,         -1) /* ItemsCapacity */
      , (80079,   7,         -1) /* ContainersCapacity */
      , (80079,  16,          1) /* ItemUseable - No */
@@ -57,6 +57,7 @@ VALUES (80079,   1,       5) /* HeartbeatInterval */
      , (80079,  73,       1) /* ResistStaminaBoost */
      , (80079,  74,       1) /* ResistManaDrain */
      , (80079,  75,       1) /* ResistManaBoost */
+     , (80079,  76,    0.95) /* Translucency */
      , (80079,  80,       3) /* AiUseMagicDelay */
      , (80079, 104,      10) /* ObviousRadarRange */
      , (80079, 125,       1) /* ResistHealthDrain */;
@@ -65,12 +66,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80079,   1, 'Hot Soup Elemental') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (80079,   1,   33556426) /* Setup */
+VALUES (80079,   1,   33559543) /* Setup */
      , (80079,   2,  150995073) /* MotionTable */
      , (80079,   3,  536871065) /* SoundTable */
      , (80079,   4,  805306376) /* CombatTable */
      , (80079,   6,   67112774) /* PaletteBase */
-     , (80079,   7,  268435982) /* ClothingBase */
+     , (80079,   7,  268437015) /* ClothingBase */
      , (80079,   8,  100667940) /* Icon */
      , (80079,  22,  872415326) /* PhysicsEffectTable */
      , (80079,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
