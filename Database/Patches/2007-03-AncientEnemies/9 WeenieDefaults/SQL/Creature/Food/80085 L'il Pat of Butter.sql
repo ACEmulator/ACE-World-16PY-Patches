@@ -62,7 +62,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80085,   1, 'L''il Pat of Butter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (80085,   1,   33557623) /* Setup */
+VALUES (80085,   1,   33560280) /* Setup */
      , (80085,   2,  150994994) /* MotionTable */
      , (80085,   3,  536870984) /* SoundTable */
      , (80085,   4,  805306394) /* CombatTable */
