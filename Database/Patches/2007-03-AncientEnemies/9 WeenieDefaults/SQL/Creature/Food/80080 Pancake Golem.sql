@@ -65,7 +65,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80080,   1, 'Pancake Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (80080,   1,   33556426) /* Setup */
+VALUES (80080,   1,   33560274) /* Setup */
      , (80080,   2,  150995073) /* MotionTable */
      , (80080,   3,  536871065) /* SoundTable */
      , (80080,   4,  805306376) /* CombatTable */
