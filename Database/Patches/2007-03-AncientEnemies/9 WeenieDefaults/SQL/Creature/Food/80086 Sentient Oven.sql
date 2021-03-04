@@ -9,13 +9,13 @@ VALUES (80086,   1,         16) /* ItemType - Creature */
      , (80086,   6,         -1) /* ItemsCapacity */
      , (80086,   7,         -1) /* ContainersCapacity */
      , (80086,  16,          1) /* ItemUseable - No */
-     , (80086,  25,         10) /* Level */
+     , (80086,  25,         15) /* Level */
      , (80086,  27,          0) /* ArmorType - None */
      , (80086,  40,          1) /* CombatMode - NonCombat */
      , (80086,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (80086,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (80086, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (80086, 146,          0) /* XpOverride */;
+     , (80086, 146,        825) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80086,   1, True ) /* Stuck */
@@ -71,17 +71,17 @@ VALUES (80086,   1,   33555260) /* Setup */
      , (80086,  35,         96) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (80086,   1,  35, 0, 0) /* Strength */
-     , (80086,   2, 100, 0, 0) /* Endurance */
-     , (80086,   3,  40, 0, 0) /* Quickness */
-     , (80086,   4,  80, 0, 0) /* Coordination */
-     , (80086,   5,  40, 0, 0) /* Focus */
-     , (80086,   6,  40, 0, 0) /* Self */;
+VALUES (80086,   1,  70, 0, 0) /* Strength */
+     , (80086,   2, 180, 0, 0) /* Endurance */
+     , (80086,   3,  20, 0, 0) /* Quickness */
+     , (80086,   4, 150, 0, 0) /* Coordination */
+     , (80086,   5,  90, 0, 0) /* Focus */
+     , (80086,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (80086,   1,     0, 0, 0, 50) /* MaxHealth */
-     , (80086,   3,    50, 0, 0, 150) /* MaxStamina */
-     , (80086,   5,     0, 0, 0, 40) /* MaxMana */;
+VALUES (80086,   1,     0, 0, 0, 90) /* MaxHealth */
+     , (80086,   3,     0, 0, 0, 180) /* MaxStamina */
+     , (80086,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (80086,  6, 0, 2, 0,  30, 0, 914.535082072975) /* MeleeDefense        Trained */
@@ -102,10 +102,8 @@ VALUES (80086,  0,  4,  2,  0.3,   60,   29,   38,   16,   29,   48,   48,   42,
      , (80086, 16,  4,  0,    0,   60,   29,   38,   16,   29,   48,   48,   42,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (80086,   171,   2.25)  /* Fester Other I */
-     , (80086,   194,   2.25)  /* Exhaustion Other I */
-     , (80086,   218,   2.25)  /* Mana Depletion Other I */
-     , (80086,  1237,   2.25)  /* Drain Health Other I */;
+VALUES (80086,  1097,    2.5)  /* Flaming Missile */
+     , (80086,  1481,    2.5)  /* Flaming Missile Volley */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (80086,  94) /* ATTACK_NOTIFICATION_EVENT */
@@ -127,5 +125,3 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (80086, 1, 14900,  1, 0, 0, False) /* Create Symbol of Friendship (14900) for Contain */;
