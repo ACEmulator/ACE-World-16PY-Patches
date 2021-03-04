@@ -1,5 +1,5 @@
 Use:
-    - DirectBroadcast: This is an empty plate. Streaks of jam mingle with scambled[sic] eggs and a small amount of grease that was likely from a side order of bacon.
+    - DirectBroadcast: This is an empty plate. Streaks of jam mingle with scambled eggs and a small amount of grease that was likely from a side order of bacon.
     - DirectBroadcast: Mmm...bacon.
     - InqQuestBitsOn: IHOPTookTip, 0x4
         QuestSuccess:
