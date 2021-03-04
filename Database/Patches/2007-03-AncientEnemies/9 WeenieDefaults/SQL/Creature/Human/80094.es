@@ -14,8 +14,8 @@ Use:
         TestFailure:
             - DirectBroadcast: You leave the corpse alone.
 
-Generation:
-    - Motion: Dead
+#Generation:
+#    - Motion: Dead
 
-Scream:
-    - Motion: Dead
+#Scream:
+#    - Motion: Dead
