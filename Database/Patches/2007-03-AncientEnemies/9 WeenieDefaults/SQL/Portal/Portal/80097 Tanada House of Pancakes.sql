@@ -22,7 +22,7 @@ VALUES (80097,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80097,   1, 'Tanada House of Pancakes') /* Name */
-     , (80097,  37, 'IHOPflag') /* QuestRestriction */
+     , (80097,  37, 'IHOPflag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (80097,   1,   33555922) /* Setup */

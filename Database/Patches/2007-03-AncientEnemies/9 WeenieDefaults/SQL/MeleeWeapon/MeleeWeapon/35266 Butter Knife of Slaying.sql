@@ -12,6 +12,7 @@ VALUES (35266,   1,          1) /* ItemType - MeleeWeapon */
      , (35266,  33,          1) /* Bonded - Bonded */
      , (35266,  44,          5) /* Damage */
      , (35266,  45,          3) /* DamageType - Slash, Pierce */
+     , (35266,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (35266,  47,          6) /* AttackType - Thrust, Slash */
      , (35266,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (35266,  49,         20) /* WeaponTime */
@@ -21,6 +22,8 @@ VALUES (35266,   1,          1) /* ItemType - MeleeWeapon */
      , (35266, 107,        300) /* ItemCurMana */
      , (35266, 108,        500) /* ItemMaxMana */
      , (35266, 109,         15) /* ItemDifficulty */
+     , (35266, 150,        103) /* HookPlacement - Hook */
+     , (35266, 151,          2) /* HookType - Wall */
      , (35266, 158,          2) /* WieldRequirements - RawSkill */
      , (35266, 159,         39) /* WieldSkillType - Cooking */
      , (35266, 160,         50) /* WieldDifficulty */
@@ -38,7 +41,8 @@ VALUES (35266,   5,   -0.05) /* ManaRate */
      , (35266,  26,       0) /* MaximumVelocity */
      , (35266,  29,       1) /* WeaponDefense */
      , (35266,  62,       1) /* WeaponOffense */
-     , (35266,  63,       1) /* DamageMod */;
+     , (35266,  63,       1) /* DamageMod */
+     , (35266, 138,       2) /* SlayerDamageBonus */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35266,   1, 'Butter Knife of Slaying') /* Name */
