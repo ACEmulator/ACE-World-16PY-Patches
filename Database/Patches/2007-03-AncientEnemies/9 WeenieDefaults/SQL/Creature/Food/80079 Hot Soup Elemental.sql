@@ -23,35 +23,33 @@ VALUES (80079,   1, True ) /* Stuck */
      , (80079,   6, True ) /* AiUsesMana */
      , (80079,  11, False) /* IgnoreCollisions */
      , (80079,  12, True ) /* ReportCollisions */
-     , (80079,  13, False) /* Ethereal */
-     , (80079,  14, True ) /* GravityStatus */
-     , (80079,  19, True ) /* Attackable */;
+     , (80079,  13, False) /* Ethereal */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80079,   1,       5) /* HeartbeatInterval */
      , (80079,   2,       0) /* HeartbeatTimestamp */
-     , (80079,   3, 0.150000005960464) /* HealthRate */
+     , (80079,   3,    0.15) /* HealthRate */
      , (80079,   4,       5) /* StaminaRate */
      , (80079,   5,       2) /* ManaRate */
      , (80079,  12,     0.5) /* Shade */
-     , (80079,  13, 0.790000021457672) /* ArmorModVsSlash */
-     , (80079,  14, 0.790000021457672) /* ArmorModVsPierce */
-     , (80079,  15, 0.790000021457672) /* ArmorModVsBludgeon */
-     , (80079,  16, 0.800000011920929) /* ArmorModVsCold */
-     , (80079,  17, 0.699999988079071) /* ArmorModVsFire */
-     , (80079,  18, 0.170000001788139) /* ArmorModVsAcid */
-     , (80079,  19, 0.790000021457672) /* ArmorModVsElectric */
+     , (80079,  13,    0.79) /* ArmorModVsSlash */
+     , (80079,  14,    0.79) /* ArmorModVsPierce */
+     , (80079,  15,    0.79) /* ArmorModVsBludgeon */
+     , (80079,  16,     0.8) /* ArmorModVsCold */
+     , (80079,  17,     0.7) /* ArmorModVsFire */
+     , (80079,  18,    0.17) /* ArmorModVsAcid */
+     , (80079,  19,    0.79) /* ArmorModVsElectric */
      , (80079,  31,      13) /* VisualAwarenessRange */
      , (80079,  34,       2) /* PowerupTime */
      , (80079,  36,       1) /* ChargeSpeed */
-     , (80079,  39, 1.10000002384186) /* DefaultScale */
-     , (80079,  64, 0.829999983310699) /* ResistSlash */
-     , (80079,  65, 0.829999983310699) /* ResistPierce */
-     , (80079,  66, 0.829999983310699) /* ResistBludgeon */
+     , (80079,  39,     1.1) /* DefaultScale */
+     , (80079,  64,    0.83) /* ResistSlash */
+     , (80079,  65,    0.83) /* ResistPierce */
+     , (80079,  66,    0.83) /* ResistBludgeon */
      , (80079,  67,       1) /* ResistFire */
      , (80079,  68,       1) /* ResistCold */
-     , (80079,  69, 0.330000013113022) /* ResistAcid */
-     , (80079,  70, 0.829999983310699) /* ResistElectric */
+     , (80079,  69,    0.33) /* ResistAcid */
+     , (80079,  70,    0.83) /* ResistElectric */
      , (80079,  71,       1) /* ResistHealthBoost */
      , (80079,  72,       1) /* ResistStaminaDrain */
      , (80079,  73,       1) /* ResistStaminaBoost */
