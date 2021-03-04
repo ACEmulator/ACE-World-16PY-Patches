@@ -23,7 +23,8 @@ VALUES (80079,   1, True ) /* Stuck */
      , (80079,   6, True ) /* AiUsesMana */
      , (80079,  11, False) /* IgnoreCollisions */
      , (80079,  12, True ) /* ReportCollisions */
-     , (80079,  13, False) /* Ethereal */;
+     , (80079,  13, False) /* Ethereal */
+     , (80079,  29, True ) /* NoCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80079,   1,       5) /* HeartbeatInterval */
