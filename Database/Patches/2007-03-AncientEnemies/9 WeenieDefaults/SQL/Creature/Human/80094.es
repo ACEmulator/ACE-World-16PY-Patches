@@ -9,6 +9,7 @@ Use:
                     - DirectBroadcast: You have solved this quest too recently!
                     - DirectBroadcast: You may complete this quest again in %tqt.
                 QuestFailure:
+                    - StampQuest: PickedUpPonMiConfession
                     - DirectBroadcast: You take the note from the corpse
                     - Give: Pon Mi's confession (80078)
         TestFailure:
