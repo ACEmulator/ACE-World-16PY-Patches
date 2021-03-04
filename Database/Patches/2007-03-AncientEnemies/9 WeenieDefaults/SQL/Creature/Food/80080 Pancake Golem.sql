@@ -5,7 +5,7 @@ VALUES (80080, 'PancakeGolem', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80080,   1,         16) /* ItemType - Creature */
-     , (80080,   2,         13) /* CreatureType - Golem */
+     , (80080,   2,         91) /* CreatureType - Food */
      , (80080,   3,          4) /* PaletteTemplate - Brown */
      , (80080,   6,         -1) /* ItemsCapacity */
      , (80080,   7,         -1) /* ContainersCapacity */
