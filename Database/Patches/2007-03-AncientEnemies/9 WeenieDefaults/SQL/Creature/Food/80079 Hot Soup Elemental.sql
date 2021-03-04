@@ -5,7 +5,7 @@ VALUES (80079, 'HotSoupElemental', 10, '2019-09-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80079,   1,         16) /* ItemType - Creature */
-     , (80079,   2,         13) /* CreatureType - Golem */
+     , (80079,   2,         91) /* CreatureType - Food */
      , (80079,   3,         14) /* PaletteTemplate - Red */
      , (80079,   6,         -1) /* ItemsCapacity */
      , (80079,   7,         -1) /* ContainersCapacity */
