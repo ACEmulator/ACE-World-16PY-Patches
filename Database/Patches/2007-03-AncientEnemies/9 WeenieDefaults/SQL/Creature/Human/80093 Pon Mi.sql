@@ -12,20 +12,17 @@ VALUES (80093,   1,         16) /* ItemType - Creature */
      , (80093,  16,          1) /* ItemUseable - No */
      , (80093,  25,          8) /* Level */
      , (80093,  27,          0) /* ArmorType - None */
+     , (80093,  67,         64) /* Tolerance - Retaliate */
      , (80093,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (80093,  95,          8) /* RadarBlipColor - Yellow */
      , (80093, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (80093, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (80093, 146,        225) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80093,   1, True ) /* Stuck */
-     , (80093,   8, True ) /* AllowGive */
+     , (80093,  11, False) /* IgnoreCollisions */
      , (80093,  12, True ) /* ReportCollisions */
-     , (80093,  13, False) /* Ethereal */
-     , (80093,  19, False) /* Attackable */
-     , (80093,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (80093,  52, True ) /* AiImmobile */;
+     , (80093,  13, False) /* Ethereal */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80093,   1,       5) /* HeartbeatInterval */
@@ -104,3 +101,6 @@ VALUES (80093,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,
      , (80093,  6,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (80093,  7,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (80093,  8,  4,  8, 0.75,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (80093, 1, 80078,  1, 0, 1, False) /* Create Pon Mi's confession (80078) for Contain */;
