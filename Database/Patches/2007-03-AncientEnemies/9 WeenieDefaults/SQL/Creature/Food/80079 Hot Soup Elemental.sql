@@ -86,7 +86,7 @@ VALUES (80079,   1,  50, 0, 0) /* Strength */
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (80079,   1,    15, 0, 0, 55) /* MaxHealth */
-     , (80079,   3,   200, 0, 0, 280 /* MaxStamina */
+     , (80079,   3,   200, 0, 0, 280) /* MaxStamina */
      , (80079,   5,   100, 0, 0, 190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
