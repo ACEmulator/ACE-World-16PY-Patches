@@ -9,7 +9,7 @@ VALUES (80092,   1,         16) /* ItemType - Creature */
      , (80092,   3,          4) /* PaletteTemplate - Brown */
      , (80092,   6,         -1) /* ItemsCapacity */
      , (80092,   7,         -1) /* ContainersCapacity */
-     , (80092,  16,          1) /* ItemUseable - No */
+     , (80092,  16,         32) /* ItemUseable - Remote */
      , (80092,  25,        710) /* Level */
      , (80092,  27,          0) /* ArmorType - None */
      , (80092,  40,          2) /* CombatMode - Melee */
