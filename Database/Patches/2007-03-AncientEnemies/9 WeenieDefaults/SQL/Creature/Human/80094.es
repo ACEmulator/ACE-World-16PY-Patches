@@ -1,6 +1,6 @@
 Use:
     - DirectBroadcast: This is one of the many corpses of Pon Mi. He appears to have suffered a horrible, horrible death.
-    - InqYesNo: Do you want to search and loot the %n?
+    - InqYesNo: Do you want to search and loot this Corpse of Pon Mi?
         TestSuccess:
             - DirectBroadcast: You find a note and attempt to take it.
             - InqQuest:
