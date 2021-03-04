@@ -13,6 +13,7 @@ VALUES (28663,   1,         16) /* ItemType - Creature */
      , (28663,  25,         20) /* Level */
      , (28663,  27,          0) /* ArmorType - None */
      , (28663,  40,          2) /* CombatMode - Melee */
+     , (28663,  67,         64) /* Tolerance - Retaliate */
      , (28663,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (28663,  72,         80) /* FriendType - Penguin */
      , (28663,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
