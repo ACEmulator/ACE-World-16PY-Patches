@@ -9,13 +9,13 @@ VALUES (80084,   1,         16) /* ItemType - Creature */
      , (80084,   6,         -1) /* ItemsCapacity */
      , (80084,   7,         -1) /* ContainersCapacity */
      , (80084,  16,          1) /* ItemUseable - No */
-     , (80084,  25,         10) /* Level */
+     , (80084,  25,         15) /* Level */
      , (80084,  27,          0) /* ArmorType - None */
      , (80084,  40,          1) /* CombatMode - NonCombat */
      , (80084,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (80084,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (80084, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (80084, 146,          0) /* XpOverride */;
+     , (80084, 146,        825) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80084,   1, True ) /* Stuck */
@@ -71,17 +71,17 @@ VALUES (80084,   1,   33557623) /* Setup */
      , (80084,  35,         96) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (80084,   1,  35, 0, 0) /* Strength */
-     , (80084,   2, 100, 0, 0) /* Endurance */
-     , (80084,   3,  40, 0, 0) /* Quickness */
-     , (80084,   4,  80, 0, 0) /* Coordination */
-     , (80084,   5,  40, 0, 0) /* Focus */
-     , (80084,   6,  40, 0, 0) /* Self */;
+VALUES (80084,   1,  70, 0, 0) /* Strength */
+     , (80084,   2, 180, 0, 0) /* Endurance */
+     , (80084,   3,  20, 0, 0) /* Quickness */
+     , (80084,   4, 150, 0, 0) /* Coordination */
+     , (80084,   5,  90, 0, 0) /* Focus */
+     , (80084,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (80084,   1,     0, 0, 0, 50) /* MaxHealth */
-     , (80084,   3,    50, 0, 0, 150) /* MaxStamina */
-     , (80084,   5,     0, 0, 0, 40) /* MaxMana */;
+VALUES (80084,   1,     0, 0, 0, 90) /* MaxHealth */
+     , (80084,   3,     0, 0, 0, 180) /* MaxStamina */
+     , (80084,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (80084,  6, 0, 2, 0,  30, 0, 914.535082072975) /* MeleeDefense        Trained */
