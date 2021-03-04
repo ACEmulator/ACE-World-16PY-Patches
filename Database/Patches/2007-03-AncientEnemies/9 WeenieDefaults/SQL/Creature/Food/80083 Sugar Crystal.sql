@@ -25,24 +25,22 @@ VALUES (80083,   1, True ) /* Stuck */
      , (80083,  11, False) /* IgnoreCollisions */
      , (80083,  12, True ) /* ReportCollisions */
      , (80083,  13, False) /* Ethereal */
-     , (80083,  14, True ) /* GravityStatus */
      , (80083,  15, True ) /* LightsStatus */
-     , (80083,  19, True ) /* Attackable */
      , (80083,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80083,   1,       5) /* HeartbeatInterval */
      , (80083,   2,       0) /* HeartbeatTimestamp */
-     , (80083,   3, 0.699999988079071) /* HealthRate */
+     , (80083,   3,     0.7) /* HealthRate */
      , (80083,   4,       5) /* StaminaRate */
      , (80083,   5,       2) /* ManaRate */
      , (80083,  12,     0.5) /* Shade */
      , (80083,  13,       1) /* ArmorModVsSlash */
      , (80083,  14,       1) /* ArmorModVsPierce */
      , (80083,  15,       1) /* ArmorModVsBludgeon */
-     , (80083,  16, 1.19000005722046) /* ArmorModVsCold */
+     , (80083,  16,    1.19) /* ArmorModVsCold */
      , (80083,  17,     100) /* ArmorModVsFire */
-     , (80083,  18, 2.77999997138977) /* ArmorModVsAcid */
+     , (80083,  18,    2.78) /* ArmorModVsAcid */
      , (80083,  19,       1) /* ArmorModVsElectric */
      , (80083,  31,      12) /* VisualAwarenessRange */
      , (80083,  34,       1) /* PowerupTime */
@@ -52,8 +50,8 @@ VALUES (80083,   1,       5) /* HeartbeatInterval */
      , (80083,  65,       1) /* ResistPierce */
      , (80083,  66,       1) /* ResistBludgeon */
      , (80083,  67,       0) /* ResistFire */
-     , (80083,  68, 0.649999976158142) /* ResistCold */
-     , (80083,  69, 0.300000011920929) /* ResistAcid */
+     , (80083,  68,    0.65) /* ResistCold */
+     , (80083,  69,     0.3) /* ResistAcid */
      , (80083,  70,       1) /* ResistElectric */
      , (80083,  71,       1) /* ResistHealthBoost */
      , (80083,  72,       1) /* ResistStaminaDrain */
