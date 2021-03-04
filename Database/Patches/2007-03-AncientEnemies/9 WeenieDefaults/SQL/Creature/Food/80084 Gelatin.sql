@@ -5,7 +5,7 @@ VALUES (80084, 'Gelatin', 10, '2005-02-09 10:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80084,   1,         16) /* ItemType - Creature */
-     , (80084,   2,         21) /* CreatureType - Knathtead */
+     , (80084,   2,         91) /* CreatureType - Food */
      , (80084,   6,         -1) /* ItemsCapacity */
      , (80084,   7,         -1) /* ContainersCapacity */
      , (80084,  16,          1) /* ItemUseable - No */
