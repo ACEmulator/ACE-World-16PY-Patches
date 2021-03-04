@@ -5,7 +5,7 @@ VALUES (80086, 'SentientOven', 10, '2005-02-09 10:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80086,   1,         16) /* ItemType - Creature */
-     , (80086,   2,         21) /* CreatureType - Knathtead */
+     , (80086,   2,         91) /* CreatureType - Food */
      , (80086,   6,         -1) /* ItemsCapacity */
      , (80086,   7,         -1) /* ContainersCapacity */
      , (80086,  16,          1) /* ItemUseable - No */
