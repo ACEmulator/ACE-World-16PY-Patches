@@ -58,4 +58,4 @@ VALUES (80096, 2,  2587,  1, 90, 0.0909, False) /* Create Shirt (2587) for Wield
      , (80096, 2, 35266,  1, 0, 0, False) /* Create Butter Knife of Slaying (35266) for Wield */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (80096, -1, 80097, 1, 1, 1, 1, 4, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tanada House of Pancakes (80097) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (80096, -1, 80097, 1, 1, 1, 1, 4, 0, 0, 0, 0, 0, 7, 0, 1, 0, 0, 0) /* Generate Tanada House of Pancakes (80097) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
