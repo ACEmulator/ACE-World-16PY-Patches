@@ -299,8 +299,8 @@ VALUES (0x7005F042,  7932, 0x005F016B, 137.939, -29.6182, -11.945, -0.448601, 0,
 /* @teleloc 0x005F016B [137.938995 -29.618200 -11.945000] -0.448601 0.000000 0.000000 0.893732 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005F043, 80089, 0x005F0216, 43.113506, -97.2422, 1.554, 1, 0, 0, 0, False, '2021-03-04 00:30:49'); /* Empty Plate */
-/* @teleloc 0x005F0216 [43.113506 -97.242203 1.554000] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x7005F043, 80089, 0x005F0216, 43.1135, -97.2422, 1.554, 1, 0, 0, 0, False, '2021-03-04 00:30:49'); /* Empty Plate */
+/* @teleloc 0x005F0216 [43.113499 -97.242203 1.554000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7005F044, 80090, 0x005F01C8, 11.9422, -84.8439, 1.554, 1, 0, 0, 0, False, '2021-03-04 00:31:23'); /* Empty Plate */
@@ -309,3 +309,7 @@ VALUES (0x7005F044, 80090, 0x005F01C8, 11.9422, -84.8439, 1.554, 1, 0, 0, 0, Fal
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7005F045, 80091, 0x005F020E, 43.0111, -82.2335, 1.554, 1, 0, 0, 0, False, '2021-03-04 00:34:00'); /* Empty Plate */
 /* @teleloc 0x005F020E [43.011101 -82.233498 1.554000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7005F046, 80092, 0x005F01FE, 31.7805, -94.9688, 0.0109999, 0.70710677, -0, -0, -0.70710677, False, '2021-03-04 00:58:15');
+/* @teleloc 0x005F01FE [31.780500 -94.968803 0.011000] 0.707107 -0.000000 -0.000000 -0.707107 */
