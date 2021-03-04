@@ -17,7 +17,7 @@ VALUES (80083,   1,         16) /* ItemType - Creature */
      , (80083,  69,          4) /* CombatTactic - LastDamager */
      , (80083,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (80083, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (80083, 146,       3500) /* XpOverride */;
+     , (80083, 146,       1500) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80083,   1, True ) /* Stuck */
