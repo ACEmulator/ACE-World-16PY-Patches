@@ -295,5 +295,17 @@ VALUES (0x7005F041, 80080, 0x005F015C, 40.0438, -104.145, -11.989, 0.0112779, 0,
 /* @teleloc 0x005F015C [40.043800 -104.144997 -11.989000] 0.011278 0.000000 0.000000 0.999936 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005F042,  7932, 0x005F016B, 137.93881, -29.618164, -11.945001, -0.44860065, 0, 0, 0.8937323, False, '2021-03-03 13:15:06'); /* Linkable Monster Generator ( 4 Min.) */
-/* @teleloc 0x005F016B [137.938812 -29.618164 -11.945001] -0.448601 0.000000 0.000000 0.893732 */
+VALUES (0x7005F042,  7932, 0x005F016B, 137.939, -29.6182, -11.945, -0.448601, 0, 0, 0.893732, False, '2021-03-03 13:15:06'); /* Linkable Monster Generator ( 4 Min.) */
+/* @teleloc 0x005F016B [137.938995 -29.618200 -11.945000] -0.448601 0.000000 0.000000 0.893732 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7005F043, 80089, 0x005F0216, 43.113506, -97.2422, 1.554, 1, 0, 0, 0, False, '2021-03-04 00:30:49'); /* Empty Plate */
+/* @teleloc 0x005F0216 [43.113506 -97.242203 1.554000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7005F044, 80090, 0x005F01C8, 11.9422, -84.8439, 1.554, 1, 0, 0, 0, False, '2021-03-04 00:31:23'); /* Empty Plate */
+/* @teleloc 0x005F01C8 [11.942200 -84.843903 1.554000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7005F045, 80091, 0x005F020E, 43.0111, -82.2335, 1.554, 1, 0, 0, 0, False, '2021-03-04 00:34:00'); /* Empty Plate */
+/* @teleloc 0x005F020E [43.011101 -82.233498 1.554000] 1.000000 0.000000 0.000000 0.000000 */
