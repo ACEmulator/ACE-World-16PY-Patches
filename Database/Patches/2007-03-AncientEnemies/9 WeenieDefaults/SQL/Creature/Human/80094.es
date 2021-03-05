@@ -3,7 +3,7 @@ Use:
     - InqYesNo: Do you want to search and loot this Corpse of Pon Mi?
         TestSuccess:
             - DirectBroadcast: You find a note and attempt to take it.
-            - InqQuest:
+            - InqQuest: PickedUpPonMiConfession
                 QuestSuccess: PickedUpPonMiConfession
                     - DirectBroadcast: You fail to take the note.
                     - DirectBroadcast: You have solved this quest too recently!
