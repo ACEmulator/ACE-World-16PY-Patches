@@ -23,7 +23,7 @@ VALUES (80078,   1, 'Pon Mi''s confession') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (80078,   1,   33554773) /* Setup */
      , (80078,   3,  536870932) /* SoundTable */
-     , (80078,   8,  100675748) /* Icon */
+     , (80078,   8,  100668176) /* Icon */
      , (80078,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
