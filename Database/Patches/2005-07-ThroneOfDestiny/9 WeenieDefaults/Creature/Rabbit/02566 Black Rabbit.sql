@@ -63,7 +63,8 @@ VALUES (2566,   1,       5) /* HeartbeatInterval */
      , (2566, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2566,   1, 'Black Rabbit') /* Name */;
+VALUES (2566,   1, 'Black Rabbit') /* Name */
+     , (2566,  34, 'springbabies') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2566,   1,   33555579) /* Setup */
