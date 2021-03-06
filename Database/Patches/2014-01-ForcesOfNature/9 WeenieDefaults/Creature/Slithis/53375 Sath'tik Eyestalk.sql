@@ -16,6 +16,7 @@ VALUES (53375,   1,         16) /* ItemType - Creature */
 	 , (53375,  81,          2) /* MaxGeneratedObjects */
      , (53375,  82,          2) /* InitGeneratedObjects */
      , (53375,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (53375, 101,     524288) /* AiAllowedCombatStyle - StubbornMissile */
      , (53375, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (53375, 146,    1300000) /* XpOverride */;
 
@@ -87,9 +88,9 @@ VALUES (53375,   1,  1105, 0, 0, 5) /* MaxHealth */
      , (53375,   5,   500, 0, 0, 0) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (53375,  6, 0, 2, 0, 400, 0, 0) /* MeleeDefense        Trained */
-     , (53375,  7, 0, 2, 0, 504, 0, 0) /* MissileDefense      Trained */
-     , (53375, 15, 0, 2, 0, 354, 0, 0) /* MagicDefense        Trained */
+VALUES (53375,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
+     , (53375,  7, 0, 2, 0, 540, 0, 0) /* MissileDefense      Trained */
+     , (53375, 15, 0, 2, 0, 380, 0, 0) /* MagicDefense        Trained */
      , (53375, 16, 0, 2, 0, 350, 0, 0) /* ManaConversion      Trained */
      , (53375, 31, 0, 2, 0, 350, 0, 0) /* CreatureEnchantment Trained */
      , (53375, 33, 0, 2, 0, 350, 0, 0) /* LifeMagic           Trained */
@@ -102,15 +103,15 @@ VALUES (53375,  6, 0, 2, 0, 400, 0, 0) /* MeleeDefense        Trained */
      , (53375, 47, 0, 2, 0, 260, 0, 0) /* MissileWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (53375,  0, 16, 20, 0.75,  350,  108,   81,   31,   31,  108,   81,    9,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (53375, 23,  4,  0,    0,  360,  115,   86,   34,   34,  115,   86,   10,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tentacle */
-     , (53375, 24,  4,  0,    0,  360,  115,   86,   34,   34,  115,   86,   10,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* UpperTentacle */
-     , (53375, 25,  4, 10, 0.75,  380,  130,   97,   38,   38,  130,   97,   11,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
+VALUES (53375,  0, 16, 20, 0.75,  350,  308,   381,   331,   331,  308,   381,  309,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (53375, 23,  4,  0,    0,  360,  315,   386,   334,   334,  315,   386,  310,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tentacle */
+     , (53375, 24,  4,  0,    0,  360,  315,   386,   334,   334,  315,   386,  310,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* UpperTentacle */
+     , (53375, 25,  4, 10, 0.75,  380,  330,   397,   338,   338,  330,   397,  311,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53375,  4088,   2.15)  /* Withering Poison */
-     , (53375,  5980,   2.15)  /* Corrupted Touch */
-     , (53375,  5981,   2.15)  /* Sath'tik's Curse */;
+VALUES (53375,  4088,   2.08)  /* Withering Poison */
+     , (53375,  5980,   2.087)  /* Corrupted Touch */
+     , (53375,  5981,   2.095)  /* Sath'tik's Curse */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (53375, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */;

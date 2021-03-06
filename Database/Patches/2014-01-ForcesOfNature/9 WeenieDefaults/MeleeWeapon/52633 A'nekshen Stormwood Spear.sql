@@ -12,7 +12,7 @@ VALUES (52633,   1,          1) /* ItemType - MeleeWeapon */
      , (52633,  18,         64) /* UiEffects - Lightning */
      , (52633,  19,        380) /* Value */
      , (52633,  33,         -2) /* Bonded - Destroy */
-	 , (52633,  44,         45) /* Damage */
+	 , (52633,  44,        140) /* Damage */
      , (52633,  45,         64) /* DamageType - Electric */
 	 , (52633,  46,          8) /* DefaultCombatStyle - TwoHanded */
      , (52633,  47,          2) /* AttackType - Thrust */

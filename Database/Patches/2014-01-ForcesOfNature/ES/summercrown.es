@@ -50,13 +50,13 @@ Gotoset: Check3
             - Goto: Check2
         QuestSuccess:
             - Tell: Your next challenge is one of empowerment. To continue infusing magics into the Paragon Gems, I will need an infusion of Luminance from you.
-            - InqInt64Stat: 6, 100000 - 1000000
+            - InqInt64Stat: 6, 100000 - 1500000
                 TestSuccess:
                     - InqYesNo: Would you like to spend 100,000 Luminance?
                         TestSuccess:
                             - SpendLuminance: 100000
                             - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown. 
-                            - Give: 53148
+                            - Give: 53149
                             - StampQuest: ParagonWeapons
                         TestFailure:
                             - Tell: Return to me when ready to proceed.
@@ -90,7 +90,7 @@ Gotoset: Check7
         QuestFailure:
             - Goto: Check6
         QuestSuccess:
-            - InqQuest: SlaveMaster
+            - InqQuest: NeftetFreeHatsheputWait
                 QuestSuccess:
                     - Tell: I see that you have recently slain the Mu-miyah Slave Master, which was my challenge for you. Well done.
                     - Give: 53153
@@ -105,11 +105,11 @@ Gotoset: Check8
             - Goto: Check7
         QuestSuccess:
             - Tell: Your next challenge is one of empowerment. To continue infusing magics into the Paragon Gems, I will need an infusion of Luminance from you.
-            - InqInt64Stat: 6, 200000 - 1000000
+            - InqInt64Stat: 6, 100000 - 1500000
                 TestSuccess:
-                    - InqYesNo: Would you like to spend 200,000 Luminance?
+                    - InqYesNo: Would you like to spend 100,000 Luminance?
                         TestSuccess:
-                            - SpendLuminance: 200000
+                            - SpendLuminance: 100000
                             - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown. 
                             - Give: 53154
                             - StampQuest: ParagonWeapons
@@ -144,7 +144,7 @@ Gotoset: Check12
         QuestFailure:
             - Goto: Check11
         QuestSuccess:
-            - Tell: Deep inside Mhoire Castle you will find the Shade of Lord Rytheran, whoused the Book of Eibhil to destroy all of House Mhoire, Slay him and bring his ring to me.
+            - Tell: Deep inside Mhoire Castle you will find the Shade of Lord Rytheran, who used the Book of Eibhil to destroy all of House Mhoire, Slay him and bring his ring to me.
 
 Gotoset: Check13
     - InqQuestSolves: ParagonWeapons, 13 - 13
@@ -152,7 +152,7 @@ Gotoset: Check13
             - Goto: Check12
         QuestSuccess:
             - Tell: Your next challenge is one of empowerment. To continue infusing magics into the Paragon Gems, I will need an infusion of Luminance from you.
-            - InqInt64Stat: 6, 200000 - 1000000
+            - InqInt64Stat: 6, 200000 - 1500000
                 TestSuccess:
                     - InqYesNo: Would you like to spend 200,000 Luminance?
                         TestSuccess:
@@ -200,11 +200,11 @@ Gotoset: Check18
             - Goto: Check17
         QuestSuccess:
             - Tell: Your next challenge is one of empowerment. To continue infusing magics into the Paragon Gems, I will need an infusion of Luminance from you.
-            - InqInt64Stat: 6, 300000 - 1000000
+            - InqInt64Stat: 6, 200000 - 1500000
                 TestSuccess:
-                    - InqYesNo: Would you like to spend 300,000 Luminance?
+                    - InqYesNo: Would you like to spend 200,000 Luminance?
                         TestSuccess:
-                            - SpendLuminance: 300000
+                            - SpendLuminance: 200000
                             - DirectBroadcast: You feel a surge of energy pass through you as the Luminace flows from you into Summercrown. 
                             - Give: 53164
                             - StampQuest: ParagonWeapons
@@ -247,7 +247,7 @@ Gotoset: Check23
             - Goto: Check22
         QuestSuccess:
             - Tell: Your next challenge is one of empowerment.  To continue infusing magics into the Paragon Gems, I will need an infusion of Luminance from you.
-            - InqInt64Stat: 6, 300000 - 1000000
+            - InqInt64Stat: 6, 300000 - 1500000
                 TestSuccess:
                     - InqYesNo: Would you like to spend 300,000 Luminance?
                         TestSuccess:
@@ -295,7 +295,7 @@ Gotoset: Check28
             - Goto: Check27
         QuestSuccess:
             - Tell: Your next challenge is one of empowerment. To continue infusing magics into the Paragon Gems, I will need an infusion of Luminance from you.
-            - InqInt64Stat: 6, 300000 - 1000000
+            - InqInt64Stat: 6, 300000 - 1500000
                 TestSuccess:
                     - InqYesNo: Would you like to spend 300,000 Luminance?
                         TestSuccess:
@@ -334,6 +334,7 @@ Gotoset: Check32
         QuestFailure:
             - Goto: Check31
         QuestSuccess:
+            - Tell: Your next task is to bring me 200 Corrupted Ambers from the Viridian Chasm below.
             - Tell: My last experiments were promising, but incomplete. Also, as before, what is left will help fuel the creation of more Paragon Gems for you...
 
 Gotoset: Check33
@@ -342,7 +343,7 @@ Gotoset: Check33
             - Goto: Check32
         QuestSuccess:
             - Tell: Your next challenge is one of empowerment.  To continue infusing magics into the Paragon Gems, I will need an infusion of Luminance from you.
-            - InqInt64Stat: 6, 400000 - 1000000
+            - InqInt64Stat: 6, 400000 - 1500000
                 TestSuccess:
                     - InqYesNo: Would you like to spend 400,000 Luminance?
                         TestSuccess:
@@ -396,7 +397,7 @@ Gotoset: Check38
             - Goto: Check37
         QuestSuccess:
             - Tell: Your next challenge is one of empowerment.  To continue infusing magics into the Paragon Gems, I will need an infusion of Luminance from you.
-            - InqInt64Stat: 6, 400000 - 1000000
+            - InqInt64Stat: 6, 400000 - 1500000
                 TestSuccess:
                     - InqYesNo: Would you like to spend 400,000 Luminance?
                         TestSuccess:
@@ -444,7 +445,7 @@ Gotoset: Check43
             - Goto: Check42
         QuestSuccess:
             - Tell: Your next challenge is one of empowerment.  To continue infusing magics into the Paragon Gems, I will need an infusion of Luminance from you.
-            - InqInt64Stat: 6, 500000 - 1000000
+            - InqInt64Stat: 6, 500000 - 1500000
                 TestSuccess:
                     - InqYesNo: Would you like to spend 500,000 Luminance?
                         TestSuccess:
@@ -498,7 +499,7 @@ Gotoset: Check48
             - Goto: Check47
         QuestSuccess:
             - Tell: Your next challenge is the last one of empowerment. To continue infusing magics into the final Paragon Gems, I will need the largest infusion of Luminance from you yet.
-            - InqInt64Stat: 6, 1000000 - 1000000
+            - InqInt64Stat: 6, 1000000 - 1500000
                 TestSuccess:
                     - InqYesNo: Would you like to spend 1,000,000 Luminance?
                         TestSuccess:
@@ -555,7 +556,7 @@ Refuse: 44240
             - InqOwnsItems: 44240, 1000
                 TestSuccess:
                     - TakeItems: 44240, 1000
-                    - Tell: It is good to see this monstrosity dispatched.
+                    - Tell: Ah, thank you for this. I will make sure these get back to the people they rightfully belong to.
                     - Tell: Now, for your efforts, this is for you.
                     - Give: 53152
                     - StampQuest: ParagonWeapons
@@ -905,7 +906,7 @@ Gotoset: Amber0
             - Goto: Amber5
 
 Gotoset: Amber5
-    - InqQuestSolves: ParagonWeapons, 5 - 5
+    - InqQuestSolves: ParagonWeapons, 4 - 4
         QuestSuccess:
             - InqOwnsItems: 52968, 100
                 TestSuccess:
@@ -920,7 +921,7 @@ Gotoset: Amber5
             - Goto: Amber10
 
 Gotoset: Amber10
-    - InqQuestSolves: ParagonWeapons, 10 - 10
+    - InqQuestSolves: ParagonWeapons, 9 - 9
         QuestSuccess:
             - InqOwnsItems: 52968, 100
                 TestSuccess:
@@ -935,7 +936,7 @@ Gotoset: Amber10
             - Goto: Amber15
 
 Gotoset: Amber15
-    - InqQuestSolves: ParagonWeapons, 15 - 15
+    - InqQuestSolves: ParagonWeapons, 14 - 14
         QuestSuccess:
             - InqOwnsItems: 52968, 200
                 TestSuccess:
@@ -950,7 +951,7 @@ Gotoset: Amber15
             - Goto: Amber20
 
 Gotoset: Amber20
-    - InqQuestSolves: ParagonWeapons, 20 - 20
+    - InqQuestSolves: ParagonWeapons, 19 - 19
         QuestSuccess:
             - InqOwnsItems: 52968, 200
                 TestSuccess:
@@ -965,7 +966,7 @@ Gotoset: Amber20
             - Goto: Amber25
 
 Gotoset: Amber25
-    - InqQuestSolves: ParagonWeapons, 25 - 25
+    - InqQuestSolves: ParagonWeapons, 24 - 24
         QuestSuccess:
             - InqOwnsItems: 52968, 200
                 TestSuccess:
@@ -980,7 +981,7 @@ Gotoset: Amber25
             - Goto: Amber30
 
 Gotoset: Amber30
-    - InqQuestSolves: ParagonWeapons, 30 - 30
+    - InqQuestSolves: ParagonWeapons, 29 - 29
         QuestSuccess:
             - InqOwnsItems: 52968, 300
                 TestSuccess:
@@ -995,7 +996,7 @@ Gotoset: Amber30
             - Goto: Amber35
 
 Gotoset: Amber35
-    - InqQuestSolves: ParagonWeapons, 35 - 35
+    - InqQuestSolves: ParagonWeapons, 34 - 34
         QuestSuccess:
             - InqOwnsItems: 52968, 300
                 TestSuccess:
@@ -1010,7 +1011,7 @@ Gotoset: Amber35
             - Goto: Amber40
 
 Gotoset: Amber40
-    - InqQuestSolves: ParagonWeapons, 40 - 40
+    - InqQuestSolves: ParagonWeapons, 39 - 39
         QuestSuccess:
             - InqOwnsItems: 52968, 300
                 TestSuccess:
@@ -1025,7 +1026,7 @@ Gotoset: Amber40
             - Goto: Amber45
 
 Gotoset: Amber45
-    - InqQuestSolves: ParagonWeapons, 45 - 45
+    - InqQuestSolves: ParagonWeapons, 44 - 44
         QuestSuccess:
             - InqOwnsItems: 52968, 400
                 TestSuccess:

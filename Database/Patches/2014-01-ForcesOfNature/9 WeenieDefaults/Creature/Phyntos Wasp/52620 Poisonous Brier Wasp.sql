@@ -27,33 +27,34 @@ VALUES (52620,   1, True ) /* Stuck */
      , (52620,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52620,   1,       5) /* HeartbeatInterval */
-     , (52620,   2,       0) /* HeartbeatTimestamp */
-     , (52620,   3,     0.6) /* HealthRate */
-     , (52620,   4,     0.5) /* StaminaRate */
-     , (52620,   5,       2) /* ManaRate */ 
-	 , (52620,  12,       0) /* Shade */
-     , (52620,  13,     1.1) /* ArmorModVsSlash */
-     , (52620,  14,     1.1) /* ArmorModVsPierce */
-     , (52620,  15,     1.4) /* ArmorModVsBludgeon */
-     , (52620,  16,     1.4) /* ArmorModVsCold */
-     , (52620,  17,     1.4) /* ArmorModVsFire */
-     , (52620,  18,     1.0) /* ArmorModVsAcid */
-     , (52620,  19,     1.4) /* ArmorModVsElectric */
-	 , (52620,  31,      30) /* VisualAwarenessRange */
-     , (52620,  34,     1.9) /* PowerupTime */
-     , (52620,  36,       1) /* ChargeSpeed */
-     , (52620,  39,    1.60) /* DefaultScale */
-     , (52620,  64,       1) /* ResistSlash */
-     , (52620,  65,       1) /* ResistPierce */
-     , (52620,  66,     0.8) /* ResistBludgeon */
-     , (52620,  67,     0.8) /* ResistFire */
-     , (52620,  68,     0.8) /* ResistCold */
-     , (52620,  69,     1.3) /* ResistAcid */
-     , (52620,  70,     0.8) /* ResistElectric */
-	 , (52620,  80,       3) /* AiUseMagicDelay */
-     , (52620, 104,      10) /* ObviousRadarRange */
-     , (52620, 125,       1) /* ResistHealthDrain */;
+VALUES (52620,   1,    5) /* HeartbeatInterval */
+     , (52620,   2,    0) /* HeartbeatTimestamp */
+     , (52620,   3,  0.6) /* HealthRate */
+     , (52620,   4,  0.5) /* StaminaRate */
+     , (52620,   5,    2) /* ManaRate */
+     , (52620,  12,    0) /* Shade */
+     , (52620,  13,  0.8) /* ArmorModVsSlash */
+     , (52620,  14,  0.8) /* ArmorModVsPierce */
+     , (52620,  15,  0.8) /* ArmorModVsBludgeon */
+     , (52620,  16,  0.8) /* ArmorModVsCold */
+     , (52620,  17,  1.0) /* ArmorModVsFire */
+     , (52620,  18,  0.8) /* ArmorModVsAcid */
+     , (52620,  19,  1.0) /* ArmorModVsElectric */
+     , (52620,  31,   30) /* VisualAwarenessRange */
+     , (52620,  34,  1.9) /* PowerupTime */
+     , (52620,  36,    1) /* ChargeSpeed */
+     , (52620,  39,  1.6) /* DefaultScale */
+     , (52620,  64,  0.6) /* ResistSlash */
+     , (52620,  65,  0.6) /* ResistPierce */
+     , (52620,  66,  0.6) /* ResistBludgeon */
+     , (52620,  67,  0.4) /* ResistFire */
+     , (52620,  68,  0.7) /* ResistCold */
+     , (52620,  69,  0.7) /* ResistAcid */
+     , (52620,  70,  0.4) /* ResistElectric */
+     , (52620,  80,    3) /* AiUseMagicDelay */
+     , (52620, 104,   10) /* ObviousRadarRange */
+     , (52620, 125,    1) /* ResistHealthDrain */
+     , (52620, 166,  1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52620,   1, 'Poisonous Brier Wasp') /* Name */
@@ -84,9 +85,9 @@ VALUES (52620,   1,  8050, 0, 0, 5) /* MaxHealth */
      , (52620,   5,  2000, 0, 0, 0) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52620,  6, 0, 2, 0, 433, 0, 0) /* MeleeDefense        Trained */
-     , (52620,  7, 0, 2, 0, 530, 0, 0) /* MissileDefense      Trained */
-     , (52620, 15, 0, 2, 0, 297, 0, 0) /* MagicDefense        Trained */
+VALUES (52620,  6, 0, 2, 0, 530, 0, 0) /* MeleeDefense        Trained */
+     , (52620,  7, 0, 2, 0, 550, 0, 0) /* MissileDefense      Trained */
+     , (52620, 15, 0, 2, 0, 340, 0, 0) /* MagicDefense        Trained */
      , (52620, 16, 0, 2, 0, 300, 0, 0) /* ManaConversion      Trained */
      , (52620, 31, 0, 2, 0, 300, 0, 0) /* CreatureEnchantment Trained */
      , (52620, 33, 0, 2, 0, 300, 0, 0) /* LifeMagic           Trained */
@@ -99,10 +100,10 @@ VALUES (52620,  6, 0, 2, 0, 433, 0, 0) /* MeleeDefense        Trained */
      , (52620, 47, 0, 2, 0, 220, 0, 0) /* MissileWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (52620,  0,  2,  400,  0.5,   420,   16,   16,   10,    4,    9,    4,   12,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (52620, 16,  4,    0,    0,   420,   16,   16,   10,    4,    9,    4,   12,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (52620, 17,  1,  500, 0.75,   420,   16,   16,   10,    4,    9,    4,   12,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (52620, 21,  4,    0,    0,   410,    8,    8,    5,    2,    5,    2,    6,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (52620,  0,  2, 300,  0.5,   430,   400,   400,  400,  400,  400,  400,  400,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (52620, 16,  4,   0,    0,   430,   400,   400,  400,  400,  400,  400,  400,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (52620, 17,  1, 500, 0.75,   430,   400,   400,  400,  400,  400,  400,  400,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (52620, 21,  4,   0,    0,   430,   400,   400,  400,  400,  400,  400,  400,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (52620, 14 /* Taunt */,    0.1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

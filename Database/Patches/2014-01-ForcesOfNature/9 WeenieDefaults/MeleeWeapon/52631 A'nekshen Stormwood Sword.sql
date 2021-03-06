@@ -12,7 +12,7 @@ VALUES (52631,   1,          1) /* ItemType - MeleeWeapon */
      , (52631,  18,         64) /* UiEffects - Lightning */
      , (52631,  19,        380) /* Value */
      , (52631,  33,         -2) /* Bonded - Destroy */
-	 , (52631,  44,         45) /* Damage */
+	 , (52631,  44,        120) /* Damage */
      , (52631,  45,         64) /* DamageType - Electric */
 	 , (52631,  46,          8) /* DefaultCombatStyle - TwoHanded */
      , (52631,  47,          4) /* AttackType - Slash */

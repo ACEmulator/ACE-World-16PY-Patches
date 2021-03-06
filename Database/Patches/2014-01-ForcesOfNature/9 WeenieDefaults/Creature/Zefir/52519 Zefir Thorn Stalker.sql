@@ -28,33 +28,34 @@ VALUES (52519,   1, True ) /* Stuck */
      , (52519,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52519,   1,       5) /* HeartbeatInterval */
-     , (52519,   2,       0) /* HeartbeatTimestamp */
-     , (52519,   3,       4) /* HealthRate */
-     , (52519,   4,      10) /* StaminaRate */
-     , (52519,   5,       3) /* ManaRate */
-	 , (52519,  12,       0) /* Shade */
-     , (52519,  13,       1) /* ArmorModVsSlash */
-     , (52519,  14,     1.6) /* ArmorModVsPierce */
-     , (52519,  15,     1.6) /* ArmorModVsBludgeon */
-     , (52519,  16,     0.8) /* ArmorModVsCold */
-     , (52519,  17,     1.6) /* ArmorModVsFire */
-     , (52519,  18,       1) /* ArmorModVsAcid */
-     , (52519,  19,       1) /* ArmorModVsElectric */
-     , (52519,  31,      25) /* VisualAwarenessRange */
-     , (52519,  34,     1.2) /* PowerupTime */
-     , (52519,  36,       1) /* ChargeSpeed */
-	 , (52519,  64,       1) /* ResistSlash */
-     , (52519,  65,     0.4) /* ResistPierce */
-     , (52519,  66,     0.4) /* ResistBludgeon */
-     , (52519,  67,     0.4) /* ResistFire */
-     , (52519,  68,     1.2) /* ResistCold */
-     , (52519,  69,       1) /* ResistAcid */
-     , (52519,  70,       1) /* ResistElectric */
-	 , (52519,  80,       3) /* AiUseMagicDelay */
-     , (52519, 104,      10) /* ObviousRadarRange */
-     , (52519, 122,       2) /* AiAcquireHealth */
-     , (52519, 125,       1) /* ResistHealthDrain */;
+VALUES (52519,   1,   5) /* HeartbeatInterval */
+     , (52519,   2,   0) /* HeartbeatTimestamp */
+     , (52519,   3,   4) /* HealthRate */
+     , (52519,   4,  10) /* StaminaRate */
+     , (52519,   5,   3) /* ManaRate */
+     , (52519,  12,   0) /* Shade */
+     , (52519,  13, 0.9) /* ArmorModVsSlash */
+     , (52519,  14, 0.9) /* ArmorModVsPierce */
+     , (52519,  15, 0.9) /* ArmorModVsBludgeon */
+     , (52519,  16, 0.8) /* ArmorModVsCold */
+     , (52519,  17, 1.0) /* ArmorModVsFire */
+     , (52519,  18, 0.8) /* ArmorModVsAcid */
+     , (52519,  19, 1.0) /* ArmorModVsElectric */
+     , (52519,  31,  25) /* VisualAwarenessRange */
+     , (52519,  34, 1.2) /* PowerupTime */
+     , (52519,  36,   1) /* ChargeSpeed */
+     , (52519,  64, 0.7) /* ResistSlash */
+     , (52519,  65, 0.6) /* ResistPierce */
+     , (52519,  66, 0.7) /* ResistBludgeon */
+     , (52519,  67, 0.4) /* ResistFire */
+     , (52519,  68, 0.7) /* ResistCold */
+     , (52519,  69, 0.7) /* ResistAcid */
+     , (52519,  70, 0.4) /* ResistElectric */
+     , (52519,  80,   3) /* AiUseMagicDelay */
+     , (52519, 104,  10) /* ObviousRadarRange */
+     , (52519, 122,   2) /* AiAcquireHealth */
+     , (52519, 125,   1) /* ResistHealthDrain */
+     , (52519, 166, 1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52519,   1, 'Zefir Thorn Stalker') /* Name */
@@ -85,9 +86,9 @@ VALUES (52519,   1,  6000, 0, 0, 200) /* MaxHealth */
      , (52519,   5,  2500, 0, 0, 500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (52519,  6, 0, 2, 0, 323, 0, 0) /* MeleeDefense        Trained */
+VALUES (52519,  6, 0, 2, 0, 530, 0, 0) /* MeleeDefense        Trained */
      , (52519,  7, 0, 2, 0, 550, 0, 0) /* MissileDefense      Trained */
-     , (52519, 15, 0, 2, 0, 317, 0, 0) /* MagicDefense        Trained */
+     , (52519, 15, 0, 2, 0, 360, 0, 0) /* MagicDefense        Trained */
      , (52519, 16, 0, 2, 0, 280, 0, 0) /* ManaConversion      Trained */
      , (52519, 31, 0, 2, 0, 280, 0, 0) /* CreatureEnchantment Trained */
      , (52519, 33, 0, 2, 0, 280, 0, 0) /* LifeMagic           Trained */
@@ -101,13 +102,13 @@ VALUES (52519,  6, 0, 2, 0, 323, 0, 0) /* MeleeDefense        Trained */
 	 , (52519, 51, 0, 2, 0, 433, 0, 0) /* SneakAttack         Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (52519,  0,  2, 650,  0.5,  400,   80,   59,   69,   59,   32,   59,    3,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (52519, 16,  4,   0,    0,  400,   80,   59,   69,   59,   32,   59,    3,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (52519, 17,  1, 650, 0.75,  395,   76,   56,   66,   56,   30,   56,    3,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (52519, 21,  4,   0,    0,  395,   76,   56,   66,   56,   30,   56,    3,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (52519,  0,  2, 650,  0.5,  500,  400,  400,  400,  400,  400,  400,  400,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (52519, 16,  4,   0,    0,  500,  400,  400,  400,  400,  400,  400,  400,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (52519, 17,  1, 650, 0.75,  500,  400,  400,  400,  400,  400,  400,  400,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (52519, 21,  4,   0,    0,  500,  400,  400,  400,  400,  400,  400,  400,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52519,  4485,   2.02)  /* Incantation of Piercing Vulnerability Other */;
+VALUES (52519,  4485,   2.1)  /* Incantation of Piercing Vulnerability Other */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (52519, 14 /* Taunt */,   0.15, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

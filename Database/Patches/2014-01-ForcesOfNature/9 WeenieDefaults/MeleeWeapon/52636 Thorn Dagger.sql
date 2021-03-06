@@ -11,7 +11,7 @@ VALUES (52636,   1,          1) /* ItemType - MeleeWeapon */
      , (52636,  18,          1) /* UiEffects - Magical */
      , (52636,  19,        460) /* Value */
 	 , (52636,  33,         -2) /* Bonded - Destroy */
-     , (52636,  44,         58) /* Damage */
+     , (52636,  44,        100) /* Damage */
      , (52636,  45,         64) /* DamageType - Electric */
 	 , (52636,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (52636,  47,          6) /* AttackType - Thrust, Slash */
