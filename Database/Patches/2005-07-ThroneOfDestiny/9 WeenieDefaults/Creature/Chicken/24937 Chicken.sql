@@ -546,4 +546,4 @@ VALUES (24937, 9,   262,  0, 0, 0.75, False) /* Create Chicken (262) for Contain
      , (24937, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24937, 1, 26676, 0, 1, -1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Chick Pup (26676) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (24937, 1, 26676, 0, 1, -1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Chick (26676) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
