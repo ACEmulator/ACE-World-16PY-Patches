@@ -39,13 +39,13 @@ VALUES (8872,   1,       5) /* HeartbeatInterval */
      , (8872,  14,       2) /* ArmorModVsPierce */
      , (8872,  15,       2) /* ArmorModVsBludgeon */
      , (8872,  16,       2) /* ArmorModVsCold */
-     , (8872,  17, 1.6599999666214) /* ArmorModVsFire */
+     , (8872,  17,    1.66) /* ArmorModVsFire */
      , (8872,  18,       2) /* ArmorModVsAcid */
      , (8872,  19,       2) /* ArmorModVsElectric */
      , (8872,  31,      32) /* VisualAwarenessRange */
      , (8872,  34,       1) /* PowerupTime */
      , (8872,  36,       3) /* ChargeSpeed */
-     , (8872,  39, 1.29999995231628) /* DefaultScale */
+     , (8872,  39,     1.3) /* DefaultScale */
      , (8872,  64,       1) /* ResistSlash */
      , (8872,  65,       1) /* ResistPierce */
      , (8872,  66,       1) /* ResistBludgeon */
@@ -92,17 +92,17 @@ VALUES (8872,   1,  2266, 0, 0, 2599) /* MaxHealth */
      , (8872,   5,     0, 0, 0, 666) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (8872,  6, 0, 3, 0,   0, 0, 0) /* MeleeDefense        Specialized */
-     , (8872,  7, 0, 3, 0, 200, 0, 0) /* MissileDefense      Specialized */
-     , (8872, 45, 0, 3, 0, 888, 0, 0) /* LightWeapons       Specialized */
-     , (8872, 14, 0, 2, 0, 400, 0, 0) /* ArcaneLore          Trained */
-     , (8872, 15, 0, 3, 0, 210, 0, 0) /* MagicDefense        Specialized */
-     , (8872, 20, 0, 2, 0, 100, 0, 0) /* Deception           Trained */
-     , (8872, 22, 0, 2, 0,  10, 0, 0) /* Jump                Trained */
-     , (8872, 24, 0, 2, 0, 134, 0, 0) /* Run                 Trained */
-     , (8872, 31, 0, 2, 0, 400, 0, 0) /* CreatureEnchantment Trained */
-     , (8872, 33, 0, 2, 0, 400, 0, 0) /* LifeMagic           Trained */
-     , (8872, 34, 0, 2, 0, 400, 0, 0) /* WarMagic            Trained */;
+VALUES (8872,  6, 0, 3, 0,   0, 0, 335.591574672111) /* MeleeDefense        Specialized */
+     , (8872,  7, 0, 3, 0, 200, 0, 335.591574672111) /* MissileDefense      Specialized */
+     , (8872, 45, 0, 3, 0, 888, 0, 335.591574672111) /* LightWeapons       Specialized */
+     , (8872, 14, 0, 2, 0, 400, 0, 335.591574672111) /* ArcaneLore          Trained */
+     , (8872, 15, 0, 3, 0, 210, 0, 335.591574672111) /* MagicDefense        Specialized */
+     , (8872, 20, 0, 2, 0, 100, 0, 335.591574672111) /* Deception           Trained */
+     , (8872, 22, 0, 2, 0,  10, 0, 335.591574672111) /* Jump                Trained */
+     , (8872, 24, 0, 2, 0, 134, 0, 335.591574672111) /* Run                 Trained */
+     , (8872, 31, 0, 2, 0, 400, 0, 335.591574672111) /* CreatureEnchantment Trained */
+     , (8872, 33, 0, 2, 0, 400, 0, 335.591574672111) /* LifeMagic           Trained */
+     , (8872, 34, 0, 2, 0, 400, 0, 335.591574672111) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8872,  0,  2, 150, 0.75,  300,  600,  600,  600,  600,  498,  600,  600,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */
@@ -121,6 +121,9 @@ VALUES (8872,   279,      2)  /* Magic Resistance Self VI */
      , (8872,  1138,      2)  /* Piercing Protection Self VI */
      , (8872,  1312,      2)  /* Armor Self VI */
      , (8872,  2017,   2.01)  /* Bunny Smite */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8872, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (8872,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -183,3 +186,6 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (8872, 1,  8400,  0, 0, 1, False) /* Create Orb of the Bunny Booty (8400) for Contain */
      , (8872, 9,  6876,  0, 0, 1, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (8872, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (8872, 1, 6080, 0, 1, -1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate White Bunny (6080) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
