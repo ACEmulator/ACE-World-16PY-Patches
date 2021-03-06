@@ -24,10 +24,10 @@ VALUES (2567,   1,         16) /* ItemType - Creature */
      , (2567, 146,        800) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5429,   1, True ) /* Stuck */
-     , (5429,  11, False) /* IgnoreCollisions */
-     , (5429,  12, True ) /* ReportCollisions */
-     , (5429,  13, False) /* Ethereal */;
+VALUES (2567,   1, True ) /* Stuck */
+     , (2567,  11, False) /* IgnoreCollisions */
+     , (2567,  12, True ) /* ReportCollisions */
+     , (2567,  13, False) /* Ethereal */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2567,   1,       5) /* HeartbeatInterval */
