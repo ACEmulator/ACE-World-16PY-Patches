@@ -19,6 +19,7 @@ VALUES (4108,   1,         16) /* ItemType - Creature */
      , (4108,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4108, 103,          1) /* GeneratorDestructionType - Nothing */
      , (4108, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (4108, 142,          3) /* GeneratorTimeType - Event */
      , (4108, 146,       1000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

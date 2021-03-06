@@ -18,6 +18,7 @@ VALUES (8872,   1,         16) /* ItemType - Creature */
      , (8872,  72,         41) /* FriendType - Bunny */
      , (8872,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8872, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (8872, 142,          3) /* GeneratorTimeType - Event */
      , (8872, 146,     200000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -21,6 +21,7 @@ VALUES (7985,   1,         16) /* ItemType - Creature */
      , (7985, 103,          1) /* GeneratorDestructionType - Nothing */
      , (7985, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7985, 140,          1) /* AiOptions - CanOpenDoors */
+     , (7985, 142,          3) /* GeneratorTimeType - Event */
      , (7985, 146,       1152) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
