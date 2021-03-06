@@ -64,7 +64,8 @@ VALUES (8872,   1,       5) /* HeartbeatInterval */
      , (8872, 127,       2) /* AiCounteractEnchantment */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8872,   1, 'White Rabbit') /* Name */;
+VALUES (8872,   1, 'White Rabbit') /* Name */
+     , (8872,  34, 'springbabies') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8872,   1,   33555579) /* Setup */
