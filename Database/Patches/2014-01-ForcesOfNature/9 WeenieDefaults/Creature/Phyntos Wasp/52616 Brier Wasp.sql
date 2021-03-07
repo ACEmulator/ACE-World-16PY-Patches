@@ -106,6 +106,10 @@ VALUES (52616,  0,  2, 300,  0.5,   430,   400,   400,  400,  400,  400,  400,  
      , (52616, 17,  1, 500, 0.75,   430,   400,   400,  400,  400,  400,  400,  400,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
      , (52616, 21,  4,   0,    0,   430,   400,   400,  400,  400,  400,  400,  400,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (52616,  4433,   2.08)  /* Incantation of Acid Stream */
+     , (52616,  651,   2.087)  /* War Magic Ineptitude Other V */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52616, 9, 52970,  1, 0, 0.8, False) /* Create Viridian Essence (52970) for ContainTreasure */
      , (52616, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */

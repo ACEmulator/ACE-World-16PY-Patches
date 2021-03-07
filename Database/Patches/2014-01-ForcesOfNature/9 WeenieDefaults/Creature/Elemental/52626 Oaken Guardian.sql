@@ -105,7 +105,8 @@ VALUES (52626,  0, 4,   0,    0,  430,  383,  383,  383,  389,  363,  320, 22000
      , (52626,  8, 4, 700, 0.75,  430,  383,  383,  383,  389,  363,  320, 22000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52626,  4477,   2.10)  /* Incantation of Bludgeoning Vulnerability Other */;
+VALUES (52626,  4312,   2.08)  /* Incantation of Imperil Other */
+     , (52626,  4477,   2.087)  /* Incantation of Bludgeoning Vulnerability Other */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (52626, 14 /* Taunt */,    0.2, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

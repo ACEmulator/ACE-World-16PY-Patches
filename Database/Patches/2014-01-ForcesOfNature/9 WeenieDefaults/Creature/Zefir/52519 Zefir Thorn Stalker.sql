@@ -108,7 +108,11 @@ VALUES (52519,  0,  2, 650,  0.5,  500,  400,  400,  400,  400,  400,  400,  400
      , (52519, 21,  4,   0,    0,  500,  400,  400,  400,  400,  400,  400,  400,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52519,  4485,   2.1)  /* Incantation of Piercing Vulnerability Other */;
+VALUES (52519,  6159,   2.15)  /* Thorn Volley */
+     , (52519,  6160,   2.176)  /* Thorns */
+     , (52519,  4485,   2.214)  /* Incantation of Piercing Vulnerability Other */
+     , (52519,  6162,   2.273)  /* Thorn Arc */
+     , (52519,  6163,   2.375)  /* Ring of Thorns */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (52519, 14 /* Taunt */,   0.15, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

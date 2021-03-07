@@ -107,8 +107,11 @@ VALUES (52574,  0,  2, 650,  0.5,  500,  400,  400,  400,  400,  400,  400,  400
      , (52574, 21,  4,   0,    0,  500,  400,  400,  400,  400,  400,  400,  400,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52574,  2454,   2.1)  /* Thorns */
-     , (52574,  4485,   2.111)  /* Incantation of Piercing Vulnerability Other */;
+VALUES (52574,  6159,   2.05)  /* Thorn Volley */
+     , (52574,  6160,   2.053)  /* Thorns */
+     , (52574,  4485,   2.056)  /* Incantation of Piercing Vulnerability Other */
+     , (52574,  6162,   2.059)  /* Thorn Arc */
+     , (52574,  6163,   2.063)  /* Ring of Thorns */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52574, 9, 52970,  1, 0, 0.8, False) /* Create Viridian Essence (52970) for ContainTreasure */
