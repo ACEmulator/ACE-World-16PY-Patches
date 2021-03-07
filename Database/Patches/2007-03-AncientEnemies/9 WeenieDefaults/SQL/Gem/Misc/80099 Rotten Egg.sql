@@ -27,7 +27,8 @@ VALUES (80099,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80099,   1, 'Rotten Egg') /* Name */
-     , (80099,  14, 'Open it to see what''s inside.') /* Use */;
+     , (80099,  14, 'Open it to see what''s inside.') /* Use */
+     , (80099,  33, 'PickedUpRottenEgg') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (80099,   1,   33560290) /* Setup */
