@@ -48,7 +48,7 @@ VALUES (80151,   1,       5) /* HeartbeatInterval */
      , (80151,  18,       1) /* ArmorModVsAcid */
      , (80151,  19,     0.6) /* ArmorModVsElectric */
      , (80151,  41,       0) /* RegenerationInterval */
-     , (80151,  43,      12) /* GeneratorRadius */
+     , (80151,  43,       8) /* GeneratorRadius */
      , (80151,  54,       3) /* UseRadius */
      , (80151,  64,       1) /* ResistSlash */
      , (80151,  65,       1) /* ResistPierce */
