@@ -1,14 +1,25 @@
 Use:
-    - InqEvent: SpringEasterEggs
-        EventSuccess:
-            - Generate
+   - Goto: IsEventActive
 
 ReceiveLocalSignal: ThunderChickenSpawnDoor
-    - InqEvent: SpringEasterEggs
-        EventSuccess:
-            - Generate
+    - Goto: IsEventActive
 
 ReceiveLocalSignal: GenerateEggs
+    - Goto: IsEventActive
+
+GotoSet: IsEventActive
     - InqEvent: SpringEasterEggs
         EventSuccess:
-            - Generate
+            - Goto: Generate
+
+GotoSet: Generate
+    - Generate
+    - Generate
+    - Generate
+    - Generate
+    - Generate
+    - Generate
+    - Generate
+    - Generate
+    - Generate
+    - Generate
