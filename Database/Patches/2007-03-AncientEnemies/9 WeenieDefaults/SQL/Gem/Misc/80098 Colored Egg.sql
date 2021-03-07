@@ -27,7 +27,8 @@ VALUES (80098,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80098,   1, 'Colored Egg') /* Name */
-     , (80098,  14, 'Open it to see what''s inside.') /* Use */;
+     , (80098,  14, 'Open it to see what''s inside.') /* Use */
+     , (80098,  33, 'PickedUpColoredEgg') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (80098,   1,   33560290) /* Setup */
