@@ -22,7 +22,8 @@ VALUES (80098,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80098,  22, True ) /* Inscribable */
-     , (80098,  69, False) /* IsSellable */;
+     , (80098,  69, False) /* IsSellable */
+     , (80098,  90, True ) /* NpcInteractsSilently */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80098,   1, 'Colored Egg') /* Name */
@@ -31,7 +32,7 @@ VALUES (80098,   1, 'Colored Egg') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (80098,   1,   33560290) /* Setup */
      , (80098,   3,  536870932) /* SoundTable */
-     , (80098,   6,   67115383) /* PaletteBase */
+     , (80098,   6,   67111919) /* PaletteBase */
      , (80098,   7,  268437203) /* ClothingBase */
      , (80098,   8,  100667460) /* Icon */
      , (80098,  22,  872415275) /* PhysicsEffectTable */;
