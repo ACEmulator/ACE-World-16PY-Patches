@@ -6,16 +6,16 @@ VALUES (80099, 'RottenEgg', 38, '2005-02-09 10:00:00') /* Gem */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80099,   1,        128) /* ItemType - Misc */
      , (80099,   3,          7) /* PaletteTemplate - DeepGreen */
-     , (80099,   5,         10) /* EncumbranceVal */
-     , (80099,   8,         10) /* Mass */
+     , (80099,   5,         50) /* EncumbranceVal */
+     , (80099,   8,         50) /* Mass */
      , (80099,   9,          0) /* ValidLocations - None */
      , (80099,  11,          1) /* MaxStackSize */
      , (80099,  12,          1) /* StackSize */
-     , (80099,  13,         10) /* StackUnitEncumbrance */
+     , (80099,  13,         50) /* StackUnitEncumbrance */
      , (80099,  14,          1) /* StackUnitMass */
      , (80099,  15,          1) /* StackUnitValue */
      , (80099,  16,          8) /* ItemUseable - Contained */
-     , (80099,  19,          1) /* Value */
+     , (80099,  19,        200) /* Value */
      , (80099,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (80099, 150,        103) /* HookPlacement - Hook */
      , (80099, 151,         11) /* HookType - Floor, Wall, Yard */;
