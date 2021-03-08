@@ -39,12 +39,6 @@ VALUES (43940,   1,   33554433) /* Setup */
      , (43940,   3,  536870913) /* SoundTable */
      , (43940,   6,   67108990) /* PaletteBase */
      , (43940,   8,  100667446) /* Icon */
-     , (43940,   9,   83890451) /* EyesTexture */
-     , (43940,  10,   83890559) /* NoseTexture */
-     , (43940,  11,   83890663) /* MouthTexture */
-     , (43940,  15,   67117026) /* HairPalette */
-     , (43940,  16,   67110064) /* EyesPalette */
-     , (43940,  17,   67109558) /* SkinPalette */
      , (43940,  57,      43919) /* AlternateCurrency - Token of Resistance Augmentation Changing */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
