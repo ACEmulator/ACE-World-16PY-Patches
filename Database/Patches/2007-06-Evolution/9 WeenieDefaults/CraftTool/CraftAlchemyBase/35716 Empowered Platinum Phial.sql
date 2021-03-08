@@ -5,14 +5,14 @@ VALUES (35716, 'ace35716-empoweredplatinumphial', 44, '2019-02-10 00:00:00') /* 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35716,   1,    8388608) /* ItemType - CraftAlchemyBase */
-     , (35716,   5,         10) /* EncumbranceVal */
-     , (35716,  11,         50) /* MaxStackSize */
+     , (35716,   5,          5) /* EncumbranceVal */
+     , (35716,  11,        100) /* MaxStackSize */
      , (35716,  12,          1) /* StackSize */
-     , (35716,  13,         10) /* StackUnitEncumbrance */
-     , (35716,  15,       5000) /* StackUnitValue */
+     , (35716,  13,          5) /* StackUnitEncumbrance */
+     , (35716,  15,       2500) /* StackUnitValue */
      , (35716,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (35716,  18,          1) /* UiEffects - Magical */
-     , (35716,  19,       5000) /* Value */
+     , (35716,  19,       2500) /* Value */
      , (35716,  65,        101) /* Placement - Resting */
      , (35716,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35716,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */;

@@ -5,18 +5,18 @@ VALUES (36729, 'ace36729-enchantedcopperphialpea', 44, '2019-05-26 00:00:00') /*
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36729,   1,    8388608) /* ItemType - CraftAlchemyBase */
-     , (36729,   5,         10) /* EncumbranceVal */
+     , (36729,   5,          5) /* EncumbranceVal */
      , (36729,  11,        100) /* MaxStackSize */
      , (36729,  12,          1) /* StackSize */
-     , (36729,  13,         10) /* StackUnitEncumbrance */
-     , (36729,  15,       4000) /* StackUnitValue */
+     , (36729,  13,          5) /* StackUnitEncumbrance */
+     , (36729,  15,       2000) /* StackUnitValue */
      , (36729,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (36729,  19,       4000) /* Value */
+     , (36729,  19,       2000) /* Value */
      , (36729,  33,          1) /* Bonded - Bonded */
      , (36729,  65,        101) /* Placement - Resting */
      , (36729,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36729,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
-	 , (36729, 114,          0) /* Attuned - Normal */;
+     , (36729, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36729,   1, False) /* Stuck */

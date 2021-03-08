@@ -5,13 +5,13 @@ VALUES (35717, 'ace35717-enchantedpyrealphials', 44, '2019-02-10 00:00:00') /* C
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35717,   1,    8388608) /* ItemType - CraftAlchemyBase */
-     , (35717,   5,         10) /* EncumbranceVal */
-     , (35717,  11,         50) /* MaxStackSize */
+     , (35717,   5,          5) /* EncumbranceVal */
+     , (35717,  11,        100) /* MaxStackSize */
      , (35717,  12,          1) /* StackSize */
-     , (35717,  13,         10) /* StackUnitEncumbrance */
-     , (35717,  15,        800) /* StackUnitValue */
+     , (35717,  13,          5) /* StackUnitEncumbrance */
+     , (35717,  15,        400) /* StackUnitValue */
      , (35717,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (35717,  19,        800) /* Value */
+     , (35717,  19,        400) /* Value */
      , (35717,  65,        101) /* Placement - Resting */
      , (35717,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35717,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */;
@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35717,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35717,   1, 'Enchanted Pyreal Phials') /* Name */
+VALUES (35717,   1, 'Enchanted Pyreal Phial') /* Name */
      , (35717,  14, 'Use this on certain alchemically prepared oils to make throwable weapon phials with different magical effects.') /* Use */
      , (35717,  16, 'An enchanted and then further empowered Pyreal Phial, created by Janier al-Evv, which is used in the crafting of throwable Alchemy Phials. These crafted phials can have a variety of different effects upon their targets.') /* LongDesc */
      , (35717,  20, 'Enchanted Pyreal Phials') /* PluralName */;

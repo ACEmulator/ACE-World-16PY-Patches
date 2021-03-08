@@ -5,13 +5,13 @@ VALUES (36732, 'ace36732-enchantedplatinumphialpea', 44, '2019-05-26 00:00:00') 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36732,   1,    8388608) /* ItemType - CraftAlchemyBase */
-     , (36732,   5,         10) /* EncumbranceVal */
+     , (36732,   5,          5) /* EncumbranceVal */
      , (36732,  11,        100) /* MaxStackSize */
      , (36732,  12,          1) /* StackSize */
-     , (36732,  13,         10) /* StackUnitEncumbrance */
-     , (36732,  15,     100000) /* StackUnitValue */
+     , (36732,  13,          5) /* StackUnitEncumbrance */
+     , (36732,  15,      50000) /* StackUnitValue */
      , (36732,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (36732,  19,     100000) /* Value */
+     , (36732,  19,      50000) /* Value */
      , (36732,  33,          1) /* Bonded - Bonded */
      , (36732,  65,        101) /* Placement - Resting */
      , (36732,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

@@ -5,13 +5,13 @@ VALUES (35718, 'ace35718-enchantedsilverphial', 44, '2019-02-10 00:00:00') /* Cr
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35718,   1,    8388608) /* ItemType - CraftAlchemyBase */
-     , (35718,   5,         10) /* EncumbranceVal */
-     , (35718,  11,         50) /* MaxStackSize */
+     , (35718,   5,          5) /* EncumbranceVal */
+     , (35718,  11,        100) /* MaxStackSize */
      , (35718,  12,          1) /* StackSize */
-     , (35718,  13,         10) /* StackUnitEncumbrance */
-     , (35718,  15,        200) /* StackUnitValue */
+     , (35718,  13,          5) /* StackUnitEncumbrance */
+     , (35718,  15,        100) /* StackUnitValue */
      , (35718,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (35718,  19,        200) /* Value */
+     , (35718,  19,        100) /* Value */
      , (35718,  65,        101) /* Placement - Resting */
      , (35718,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35718,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */;

@@ -5,13 +5,13 @@ VALUES (39328, 'ace39328-enchantedmanaphial', 44, '2019-02-10 00:00:00') /* Craf
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39328,   1,    8388608) /* ItemType - CraftAlchemyBase */
-     , (39328,   5,         10) /* EncumbranceVal */
-     , (39328,  11,         50) /* MaxStackSize */
+     , (39328,   5,          5) /* EncumbranceVal */
+     , (39328,  11,        100) /* MaxStackSize */
      , (39328,  12,          1) /* StackSize */
-     , (39328,  13,         10) /* StackUnitEncumbrance */
-     , (39328,  15,       8000) /* StackUnitValue */
+     , (39328,  13,          5) /* StackUnitEncumbrance */
+     , (39328,  15,       4000) /* StackUnitValue */
      , (39328,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (39328,  19,       8000) /* Value */
+     , (39328,  19,       4000) /* Value */
      , (39328,  65,        101) /* Placement - Resting */
      , (39328,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39328,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */;
