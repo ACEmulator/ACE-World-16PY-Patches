@@ -17,11 +17,15 @@ VALUES (43914,   1,        128) /* ItemType - Misc */
      , (43914,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43914, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (43914,  69, False) /* IsSellable */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43914,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43914,   1, 'Electrical Natural Resistance') /* Name */;
+VALUES (43914,   1, 'Electrical Natural Resistance') /* Name */
+     , (43914,  14, 'A token which will allow a 10% increase to natural electrical resistance.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43914,   1,   33556750) /* Setup */
