@@ -17,11 +17,15 @@ VALUES (43912,   1,        128) /* ItemType - Misc */
      , (43912,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43912, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (43912,  69, False) /* IsSellable */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43912,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43912,   1, 'Acid Natural Resistance') /* Name */;
+VALUES (43912,   1, 'Acid Natural Resistance') /* Name */
+     , (43912,  14, 'A token which will allow a 10% increase to natural acid resistance.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43912,   1,   33556750) /* Setup */
