@@ -17,11 +17,15 @@ VALUES (43923,   1,        128) /* ItemType - Misc */
      , (43923,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43923, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (43923,  69, False) /* IsSellable */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43923,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43923,   1, 'Bludgeon Natural Resistance') /* Name */;
+VALUES (43923,   1, 'Bludgeon Natural Resistance') /* Name */
+     , (43923,  14, 'A token which will allow a 10% increase to natural bludgeon resistance.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43923,   1,   33556750) /* Setup */
