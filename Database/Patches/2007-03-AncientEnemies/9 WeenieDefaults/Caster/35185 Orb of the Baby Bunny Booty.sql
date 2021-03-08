@@ -12,6 +12,7 @@ VALUES (35185,   1,      32768) /* ItemType - Caster */
      , (35185,  18,          1) /* UiEffects - Magical */
      , (35185,  19,      22114) /* Value */
      , (35185,  33,          1) /* Bonded - Bonded */
+     , (35185,  46,        512) /* DefaultCombatStyle - Magic */
      , (35185,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35185,  94,         16) /* TargetType - Creature */
      , (35185, 106,        320) /* ItemSpellcraft */
@@ -20,11 +21,11 @@ VALUES (35185,   1,      32768) /* ItemType - Caster */
      , (35185, 109,        121) /* ItemDifficulty */
      , (35185, 114,          1) /* Attuned - Attuned */
      , (35185, 115,        315) /* ItemSkillLevelLimit */
+     , (35185, 150,        103) /* HookPlacement - Hook */
      , (35185, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35185,  22, True ) /* Inscribable */
-     , (35185,  85, True ) /* AppraisalHasAllowedWielder */
      , (35185,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -43,6 +44,7 @@ VALUES (35185,   1,   33556870) /* Setup */
      , (35185,   7,  268435725) /* ClothingBase */
      , (35185,   8,  100669116) /* Icon */
      , (35185,  22,  872415275) /* PhysicsEffectTable */
+     , (35185,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
      , (35185,  28,       2348) /* Spell - Brilliance */
      , (35185,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
