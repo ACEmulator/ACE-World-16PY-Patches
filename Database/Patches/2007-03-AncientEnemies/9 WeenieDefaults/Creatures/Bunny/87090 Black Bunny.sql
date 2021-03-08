@@ -102,8 +102,8 @@ INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (87090,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (87090, 414) /* PLAYER_DEATH_EVENT */;
 
-INSERT INTO87090`weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (87089,  3 /* Death */,   0.25, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (87090,  3 /* Death */,   0.25, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
