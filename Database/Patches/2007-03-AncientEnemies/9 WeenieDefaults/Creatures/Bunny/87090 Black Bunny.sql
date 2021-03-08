@@ -103,7 +103,7 @@ VALUES (87090,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (87090, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (87090,  3 /* Death */,   0.10, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (87090,  3 /* Death */,   0.15, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -464,5 +464,5 @@ VALUES (87090, 9, 27249,  0, 0, 0.01, False) /* Create Spring Cleaner Title Toke
      , (87090, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87090, 0.05, 87094, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate White Rabbit (87094) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+VALUES (87090, 0.08, 87094, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate White Rabbit (87094) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (87090, 1.0, 87088, 0, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hulking Bunny (87088) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
