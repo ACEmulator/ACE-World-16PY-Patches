@@ -10,7 +10,7 @@ VALUES (34572,   1,        128) /* ItemType - Misc */
      , (34572,   9,          0) /* ValidLocations - None */
      , (34572,  16,         48) /* ItemUseable - ViewedRemote */
      , (34572,  19,          0) /* Value */
-     , (34572,  81,          1) /* MaxGeneratedObjects */
+     , (34572,  81,          4) /* MaxGeneratedObjects */
      , (34572,  82,          0) /* InitGeneratedObjects */
      , (34572,  83,      65554) /* ActivationResponse - Use, Talk, Generate */
      , (34572,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
