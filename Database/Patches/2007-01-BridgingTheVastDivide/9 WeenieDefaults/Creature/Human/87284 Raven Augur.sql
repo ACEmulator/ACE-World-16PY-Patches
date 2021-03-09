@@ -26,8 +26,7 @@ VALUES (87284,   1, True ) /* Stuck */
      , (87284,  10, True ) /* AttackerAi */
      , (87284,  11, False) /* IgnoreCollisions */
      , (87284,  12, True ) /* ReportCollisions */
-     , (87284,  13, False) /* Ethereal */
-     , (87284,  58, True ) /* SpellQueueActive */;
+     , (87284,  13, False) /* Ethereal */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (87284,   1,       5) /* HeartbeatInterval */
@@ -36,21 +35,21 @@ VALUES (87284,   1,       5) /* HeartbeatInterval */
      , (87284,   4,      10) /* StaminaRate */
      , (87284,   5,       3) /* ManaRate */
      , (87284,  12,    0.25) /* Shade */
-     , (87284,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (87284,  13,     0.9) /* ArmorModVsSlash */
      , (87284,  14,       1) /* ArmorModVsPierce */
-     , (87284,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (87284,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (87284,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (87284,  15,     1.1) /* ArmorModVsBludgeon */
+     , (87284,  16,     0.4) /* ArmorModVsCold */
+     , (87284,  17,     0.4) /* ArmorModVsFire */
      , (87284,  18,       1) /* ArmorModVsAcid */
-     , (87284,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (87284,  19,     0.6) /* ArmorModVsElectric */
      , (87284,  31,      12) /* VisualAwarenessRange */
-     , (87284,  64, 0.670000016689301) /* ResistSlash */
-     , (87284,  65, 0.670000016689301) /* ResistPierce */
-     , (87284,  66, 0.670000016689301) /* ResistBludgeon */
-     , (87284,  67, 0.670000016689301) /* ResistFire */
-     , (87284,  68, 0.670000016689301) /* ResistCold */
-     , (87284,  69, 0.670000016689301) /* ResistAcid */
-     , (87284,  70, 0.670000016689301) /* ResistElectric */
+     , (87284,  64,    0.67) /* ResistSlash */
+     , (87284,  65,    0.67) /* ResistPierce */
+     , (87284,  66,    0.67) /* ResistBludgeon */
+     , (87284,  67,    0.67) /* ResistFire */
+     , (87284,  68,    0.67) /* ResistCold */
+     , (87284,  69,    0.67) /* ResistAcid */
+     , (87284,  70,    0.67) /* ResistElectric */
      , (87284,  71,       1) /* ResistHealthBoost */
      , (87284,  72,       1) /* ResistStaminaDrain */
      , (87284,  74,       1) /* ResistManaDrain */
@@ -72,14 +71,8 @@ VALUES (87284,   1,   33554433) /* Setup */
      , (87284,   6,   67108990) /* PaletteBase */
      , (87284,   7,  268435872) /* ClothingBase */
      , (87284,   8,  100667446) /* Icon */
-     , (87284,   9,   83890513) /* EyesTexture */
-     , (87284,  10,   83890561) /* NoseTexture */
-     , (87284,  11,   83890589) /* MouthTexture */
-     , (87284,  15,   67116993) /* HairPalette */
-     , (87284,  16,   67109565) /* EyesPalette */
-     , (87284,  17,   67109558) /* SkinPalette */
      , (87284,  22,  872415236) /* PhysicsEffectTable */
-     , (87284,  32,       2015) /* WieldedTreasureType - 
+     , (87284,  32,       2015) /* WieldedTreasureType -
                                    Wield Raven Sabra (31386) | Probability: 20%
                                    Wield Raven Sabra (31387) | Probability: 20%
                                    Wield Raven Sabra (31388) | Probability: 20%
