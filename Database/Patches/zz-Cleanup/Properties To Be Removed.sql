@@ -10,3 +10,4 @@ DELETE FROM weenie_properties_string WHERE `object_id` > 0 AND `type` >= 8000;
 
 DELETE FROM weenie_properties_int WHERE `object_id` > 0 AND `type` >= 172 and `type` <= 176;
 DELETE FROM weenie_properties_string WHERE `object_id` > 0 AND `type` = 38;
+DELETE FROM weenie_properties_bool WHERE `object_id` > 0 AND `type` = 58;
