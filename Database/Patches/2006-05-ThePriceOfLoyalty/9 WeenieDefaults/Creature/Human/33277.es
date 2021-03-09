@@ -9,14 +9,14 @@ Give: Small Shadow Statue of the Hopeslayer (34573)
 	- InqQuest: SmallShadowStatueTurnIns_wait
 		QuestSuccess:
 			- Tell: Another Shadow Statue, wonderful. I don't know if I should be pleased that we have more subjects for research, or horrified that you find these so readily available. Here, allow me to pay you for this one.
-			- Give: 2627
+			- Give: Trade Note M (2627)
 		QuestFailure:
 			- StampQuest: SmallShadowStatueTurnIns
-			- InqQuestSolves: SmallShadowStatueTurnIns, 3
+			- InqQuest: SmallShadowStatueTurnIns
 				QuestSuccess:
 					- Tell: The final statue requested, wonderful. With these three statues, my colleagues should be able to figure out what those shadows and their Raven Hand helpers are up to in the Valley. These three should hold them for a while, about a week if I had to guess. If you find any more of these statues before then, however, I'll pay you in good, old fashioned Trade Notes for them.
 					- Delay: 1, Tell: Now, for the reward both promised to you, and rightly earned.
-					- AwardLevelProportionalXP: 20%, Max: 37,456,440
+					- AwardLevelProportionalXP: 20%, Min: 0, Max: 37,456,440
 					- Delay: 1, Tell: Also, if you have any more of those small shadow statues, my colleagues do not need them at the moment, but I'd be interested in buying them off you for, say... 100,000 pyreals a piece?
 					- StampQuest: SmallShadowStatueTurnIns_wait
 					- EraseQuest: SmallShadowStatueTurnIns
