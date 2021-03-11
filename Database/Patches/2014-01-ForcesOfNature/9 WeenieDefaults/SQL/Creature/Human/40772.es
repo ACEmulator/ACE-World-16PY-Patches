@@ -8,11 +8,15 @@ Refuse: Trade Note MMD (20630)
                 TestSuccess:
                     - InqOwnsItems: Trade Note MMD (20630), 4
                         TestSuccess:
-                            - TakeItems: Trade Note MMD (20630), 4
-                            - StampQuest: DCAAccess
-                            - Tell: You have now been attuned with the portal's energy and may enter.
-                            #- TakeItems: Mark of a Kill (80101), -1
-                            #- Goto: TakeMarkLoop
+                            - InqEvent: DCAActive
+                                EventSuccess:
+                                    - Goto: TakeMMDsGrantAccess
+                                EventFailure:
+                                    - InqEvent: DCPActive
+                                        EventSuccess:
+                                            - Goto: TakeMMDsGrantAccess
+                                        EventFailure:
+                                            - DirectBroadcast: The Derethian Combat Arena is not open at this time.
                         TestFailure:
                             - Tell: If you wish to enter this arena give me 4 MMDs and I will attune you to the portal's energy.
                 TestFailure:
@@ -33,6 +37,15 @@ Use:
             - Tell: If you wish to enter this arena give me 4 MMDs and I will attune you to the portal's energy.
         TestFailure:
             - Tell: You are not yet ready for the Derethian Combat Arena.
+
+Generation:
+    - InqEvent: EventIsPKWorld
+        EventSuccess:
+            - InqEvent: DCAActive
+                EventFailure:
+                    - InqEvent: DCPActive
+                        EventFailure:
+                            - Goto: RollForArena
 
 GotoSet: TakeMarkLoop
     - InqOwnsItems:  Mark of a Kill (80101), 1
@@ -65,3 +78,18 @@ GotoSet: TitleRewards
                                 QuestSuccess:
                                     - AddCharacterTitle: PlayerSlayer
                                     - DirectBroadcast: You have been awarded the title of "Player Slayer"
+
+GotoSet: TakeMMDsGrantAccess
+    - TakeItems: Trade Note MMD (20630), 4
+    - StampQuest: DCAAccess
+    - Tell: You have now been attuned with the portal's energy and may enter.
+    #- TakeItems: Mark of a Kill (80101), -1
+    #- Goto: TakeMarkLoop
+
+GotoSet: RollForArena, Probability: 0.5
+    - StartEvent: DCAActive
+    - StartEvent: DCALum1Active
+
+GotoSet: RollForArena, Probability: 1.0
+    - StartEvent: DCPActive
+    - StartEvent: DCALum1Active
