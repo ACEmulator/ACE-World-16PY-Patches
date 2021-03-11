@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9506;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9506, 'gamblercashiersho', 12, '2020-06-12 00:00:00') /* Vendor */;
+VALUES (9506, 'gamblercashiersho', 12, '2021-03-11 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9506,   1,         16) /* ItemType - Creature */
@@ -12,7 +12,7 @@ VALUES (9506,   1,         16) /* ItemType - Creature */
      , (9506,  16,         32) /* ItemUseable - Remote */
      , (9506,  25,          7) /* Level */
      , (9506,  27,          0) /* ArmorType - None */
-     , (9506,  74,     270496) /* MerchandiseItemTypes - Food, Misc, Writable, PromissoryNote */
+     , (9506,  74, 1613561775) /* MerchandiseItemTypes - Food, Useless, SpellComponents, Writable, Key, PromissoryNote, ItemEnchantableTarget, MagicWieldable, TinkeringTool, TinkeringMaterial */
      , (9506,  75,          0) /* MerchandiseMinValue */
      , (9506,  76,    1000000) /* MerchandiseMaxValue */
      , (9506,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
@@ -45,7 +45,7 @@ VALUES (9506,   1,       5) /* HeartbeatInterval */
      , (9506,  18,       1) /* ArmorModVsAcid */
      , (9506,  19,     0.6) /* ArmorModVsElectric */
      , (9506,  37,     0.8) /* BuyPrice */
-     , (9506,  38,       5) /* SellPrice */
+     , (9506,  38,     1.6) /* SellPrice */
      , (9506,  54,       5) /* UseRadius */
      , (9506,  64,       1) /* ResistSlash */
      , (9506,  65,       1) /* ResistPierce */
@@ -171,10 +171,6 @@ VALUES (9506, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
      , (9506, 2,  5901,  0, 9, 0, False) /* Create Kasa (5901) for Wield */
      , (9506, 2, 10696,  0, 8, 0.6, False) /* Create Apron (10696) for Wield */
      , (9506, 4,  9517, -1, 0, 0, False) /* Create A Guide to Gan-Zo's Den of Iniquity (9517) for Shop */
-     , (9506, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (9506, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (9506, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (9506, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
      , (9506, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (9506, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (9506, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
