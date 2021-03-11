@@ -170,7 +170,7 @@ VALUES (9505, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
      , (9505, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
      , (9505, 2,   128,  0, 9, 0, False) /* Create Qafiya (128) for Wield */
      , (9505, 2, 10696,  0, 1, 0.6, False) /* Create Apron (10696) for Wield */
-     (9505, 4,  9517, -1, 0, 0, False) /* Create A Guide to Gan-Zo's Den of Iniquity (9517) for Shop */
+     , (9505, 4,  9517, -1, 0, 0, False) /* Create A Guide to Gan-Zo's Den of Iniquity (9517) for Shop */
      , (9505, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (9505, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (9505, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
