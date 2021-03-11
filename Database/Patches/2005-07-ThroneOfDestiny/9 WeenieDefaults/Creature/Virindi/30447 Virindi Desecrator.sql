@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30447;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30447, 'virindidesecrator', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (30447, 'virindidesecrator', 10, '2021-01-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30447,   1,         16) /* ItemType - Creature */
@@ -191,4 +191,6 @@ VALUES (30447, 9, 20863,  0, 0, 0.04, False) /* Create Virindi Stamp (20863) for
      , (30447, 9,  3696,  0, 0, 0.0125, False) /* Create Blue Gem (3696) for ContainTreasure */
      , (30447, 9,  3697,  0, 0, 0.0125, False) /* Create Red Jewel (3697) for ContainTreasure */
      , (30447, 9, 41470,  0, 0, 0.0125, False) /* Create Purple Jewel (41470) for ContainTreasure */
-     , (30447, 9,     0,  0, 0, 0.9375, False) /* Create nothing for ContainTreasure */;
+     , (30447, 9,     0,  0, 0, 0.9375, False) /* Create nothing for ContainTreasure */
+     , (30447, 9, 32939,  0, 0, 0.05, False) /* Create Dark Monolith Caverns (32939) for ContainTreasure */
+     , (30447, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

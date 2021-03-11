@@ -10,4 +10,4 @@ Death:
                             - InqEvent: TormentWard4Down
                                 EventSuccess:
                                     - StartEvent: TormentCatacombsOpen
-                                    - WorldBroadcast: With the last of the Warding Crystals shattered, the path to the Curator of Torment’s catacombs is now open.
+                                    - WorldBroadcast: With the last of the Warding Crystals shattered, the path to the Curator of Torment's catacombs is now open.
