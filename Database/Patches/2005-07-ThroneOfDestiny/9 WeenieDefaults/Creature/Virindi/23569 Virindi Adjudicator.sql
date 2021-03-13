@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23569;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23569, 'virindiadjudicator', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (23569, 'virindiadjudicator', 10, '2021-01-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23569,   1,         16) /* ItemType - Creature */
@@ -31,7 +31,7 @@ VALUES (23569,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23569,   1,       5) /* HeartbeatInterval */
      , (23569,   2,       0) /* HeartbeatTimestamp */
-     , (23569,   3, 10.6000003814697) /* HealthRate */
+     , (23569,   3,    10.6) /* HealthRate */
      , (23569,   4,    20.5) /* StaminaRate */
      , (23569,   5,      20) /* ManaRate */
      , (23569,  12,     0.5) /* Shade */
@@ -212,6 +212,7 @@ VALUES (23569, 9,  9292,  0, 0, 0.05, False) /* Create Virindi Singularity Key (
      , (23569, 9,  3698,  0, 0, 0.0125, False) /* Create White Jewel (3698) for ContainTreasure */
      , (23569, 9,  3696,  0, 0, 0.0125, False) /* Create Blue Gem (3696) for ContainTreasure */
      , (23569, 9,  3697,  0, 0, 0.0125, False) /* Create Red Jewel (3697) for ContainTreasure */
-     , (23569, 9, 41470,  0, 0, 0.0125, False) /* Create  (41470) for ContainTreasure */
-     , (23569, 9,     0,  0, 0, 0.9375, False) /* Create nothing for ContainTreasure */;
-
+     , (23569, 9, 41470,  0, 0, 0.0125, False) /* Create Purple Jewel (41470) for ContainTreasure */
+     , (23569, 9,     0,  0, 0, 0.9375, False) /* Create nothing for ContainTreasure */
+     , (23569, 9, 32939,  0, 0, 0.05, False) /* Create Dark Monolith Caverns (32939) for ContainTreasure */
+     , (23569, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
