@@ -120,6 +120,7 @@ GoToSet: Complete
 	- LockFellow
 	- StampFellowQuest: aerbaxcitadelfellowstart
 	- StartEvent: aerbaxshadow1event
+	- StartEvent: aerbaxshadowBooterevent
 	- EraseQuest: gaveeastgateharmoniccrystal
 	- EraseQuest: gavenorthgateharmoniccrystal
 	- EraseQuest: gavewestgateharmoniccrystal

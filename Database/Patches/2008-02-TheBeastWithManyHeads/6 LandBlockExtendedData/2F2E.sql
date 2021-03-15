@@ -67,5 +67,9 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x72F2E1C8, 0x72F2E1C9, '2020-12-01 07:13:21') /* AerbaxPortal Controller (87062) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72F2E1C9, 87062, 0x2F2E0030, 128.33383, 168.54411, 146.00499, 0.9999975, 0, 0, -0.0022295443,  True, '2020-12-01 07:13:21'); /* AerbaxPortal Controller */
-/* @teleloc 0x2F2E0030 [128.333832 168.544113 146.004990] 0.999997 0.000000 0.000000 -0.002230 */
+VALUES (0x72F2E1C9, 87062, 0x2F2E0030, 128.334, 168.544, 146.005, 0.999997, 0, 0, -0.00222954,  True, '2020-12-01 07:13:21'); /* AerbaxPortal Controller */
+/* @teleloc 0x2F2E0030 [128.334000 168.544006 146.005005] 0.999997 0.000000 0.000000 -0.002230 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72F2E1CA, 87145, 0x2F2E002B, 128.36632, 67.760735, 125.63046, -0.999236, 0, 0, 0.039082676, False, '2021-03-15 11:05:43'); /* Aerbax's Shadow Booter Gen */
+/* @teleloc 0x2F2E002B [128.366318 67.760735 125.630463] -0.999236 0.000000 0.000000 0.039083 */

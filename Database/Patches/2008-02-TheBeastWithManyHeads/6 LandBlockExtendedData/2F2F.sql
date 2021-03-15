@@ -394,3 +394,7 @@ VALUES (0x72F2F074, 87087, 0x2F2F001B, 84.1857, 60.4117, 146.055, 0.702739, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2F075, 87087, 0x2F2F002D, 132.235, 107.509, 146.055, 0.999899, 0, 0, -0.0142223, False, '2020-12-09 15:34:36'); /* Virindi Protector Gen */
 /* @teleloc 0x2F2F002D [132.235001 107.509003 146.054993] 0.999899 0.000000 0.000000 -0.014222 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72F2F076, 87145, 0x2F2F0031, 152.95573, 10.165485, 146.055, 0.7748953, 0, 0, 0.6320896, False, '2021-03-15 11:05:01'); /* Aerbax's Shadow Booter Gen */
+/* @teleloc 0x2F2F0031 [152.955734 10.165485 146.054993] 0.774895 0.000000 0.000000 0.632090 */

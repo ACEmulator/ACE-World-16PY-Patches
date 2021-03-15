@@ -5,3 +5,4 @@ ReceiveLocalSignal: generateportals
 	
 Generation:
 	- StopEvent: aerbaxsreturnportalevent
+	- StopEvent: aerbaxshadowBooterevent
