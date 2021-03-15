@@ -19,7 +19,7 @@ VALUES (87145,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (87145,  41,  999999) /* RegenerationInterval */
      , (87145,  43,      22) /* GeneratorRadius */
-     , (87145, 121,    60) /* GeneratorInitialDelay */;
+     , (87145, 121,    3600) /* GeneratorInitialDelay */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87145,   1, 'Aerbax''s Shadow Booter Gen') /* Name */
