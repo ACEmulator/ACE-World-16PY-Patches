@@ -12,7 +12,6 @@ VALUES (80048,   1,         16) /* ItemType - Creature */
      , (80048,  40,          1) /* CombatMode - NonCombat */
      , (80048,  67,          1) /* Tolerance - NoAttack */
      , (80048,  68,          5) /* TargetingTactic - Random, LastDamager */
-     , (80048,  81,          3) /* MaxGeneratedObjects */
      , (80048,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (80048, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (80048, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -20,13 +19,17 @@ VALUES (80048,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80048,   1, True ) /* Stuck */
+     , (80048,  11, False) /* IgnoreCollisions */
+     , (80048,  12, True ) /* ReportCollisions */
+     , (80048,  13, False) /* Ethereal */
+     , (80048,  14, True ) /* GravityStatus */
+     , (80048,  19, True ) /* Attackable */
      , (80048,  42, True ) /* AllowEdgeSlide */
      , (80048,  29, True ) /* NoCorpse */
      , (80048,  52, True ) /* AiImmobile */
      , (80048,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (80048,  83, True ) /* NpcLooksLikeObject */
-     , (80048,  90, True ) /* NpcInteractsSilently */
-     , (80048, 118, True ) /* NeverAttack */;
+     , (80048,  90, True ) /* NpcInteractsSilently */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80048,   1,       5) /* HeartbeatInterval */

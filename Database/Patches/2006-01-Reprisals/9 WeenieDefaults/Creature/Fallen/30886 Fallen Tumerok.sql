@@ -63,8 +63,7 @@ VALUES (30886,   1,       5) /* HeartbeatInterval */
      , (30886, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30886,   1, 'Fallen Tumerok') /* Name */
-     , (30886,  45, 'KilltaskFallenCreature_0609') /* KillQuest */;
+VALUES (30886,   1, 'Fallen Tumerok') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30886,   1,   33554496) /* Setup */

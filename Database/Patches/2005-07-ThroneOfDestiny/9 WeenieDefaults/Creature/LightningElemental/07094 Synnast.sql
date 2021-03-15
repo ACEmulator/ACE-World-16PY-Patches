@@ -27,8 +27,8 @@ VALUES (7094,   1, True ) /* Stuck */
      , (7094,  14, True ) /* GravityStatus */
      , (7094,  15, True ) /* LightsStatus */
      , (7094,  19, True ) /* Attackable */
-     , (7094,  50, True ) /* NeverFailCasting */
-     , (7094, 120, True ) /* TreasureCorpse */;
+     , (7094, 120, True ) /* TreasureCorpse */
+     , (7094,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7094,   1,       5) /* HeartbeatInterval */
@@ -63,8 +63,7 @@ VALUES (7094,   1,       5) /* HeartbeatInterval */
      , (7094, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7094,   1, 'Synnast') /* Name */
-     , (7094,  45, 'KilltaskElemental_0609') /* KillQuest */;
+VALUES (7094,   1, 'Synnast') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7094,   1,   33556140) /* Setup */
@@ -91,15 +90,15 @@ VALUES (7094,   1,   700, 0, 0, 780) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (7094,  6, 0, 3, 0, 330, 0, 0) /* MeleeDefense        Specialized */
      , (7094,  7, 0, 3, 0, 415, 0, 0) /* MissileDefense      Specialized */
+     , (7094, 47, 0, 3, 0, 200, 0, 0) /* MissileWeapons      Specialized */
+     , (7094, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */
      , (7094, 14, 0, 2, 0, 170, 0, 0) /* ArcaneLore          Trained */
      , (7094, 15, 0, 3, 0, 260, 0, 0) /* MagicDefense        Specialized */
      , (7094, 20, 0, 2, 0, 150, 0, 0) /* Deception           Trained */
      , (7094, 24, 0, 2, 0, 100, 0, 0) /* Run                 Trained */
      , (7094, 31, 0, 3, 0, 180, 0, 0) /* CreatureEnchantment Specialized */
      , (7094, 33, 0, 3, 0, 180, 0, 0) /* LifeMagic           Specialized */
-     , (7094, 34, 0, 3, 0, 180, 0, 0) /* WarMagic            Specialized */
-     , (7094, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */
-     , (7094, 47, 0, 3, 0, 200, 0, 0) /* MissileWeapons      Specialized */;
+     , (7094, 34, 0, 3, 0, 180, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7094,  0, 64,  0,    0,  220,  183,  183,  183,  189,  163,  220, 22000,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -128,6 +127,4 @@ VALUES (7094,    80,  2.004)  /* Lightning Bolt VI */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7094, 2,  6383,  3, 0, 0, False) /* Create Ball of Electricity (6383) for Wield */
      , (7094, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (7094, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (7094, 9, 33957,  0, 0, 0.05, False) /* Create Crystal of Electric Elemental Essence (33957) for ContainTreasure */
-     , (7094, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
+     , (7094, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

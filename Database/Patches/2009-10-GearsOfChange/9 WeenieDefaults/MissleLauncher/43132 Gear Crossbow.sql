@@ -11,8 +11,9 @@ VALUES (43132,   1,        256) /* ItemType - MissileWeapon */
      , (43132,  18,          1) /* UiEffects - Magical */
      , (43132,  19,       6000) /* Value */
      , (43132,  33,         -2) /* Bonded - Destroy */
+     , (43132,  44,          0) /* Damage */
+     , (43132,  45,          0) /* DamageType - Undef */
      , (43132,  46,         32) /* DefaultCombatStyle - Crossbow */
-     , (43132,  48,         47) /* WeaponSkill - MissileWeapons */
      , (43132,  49,         60) /* WeaponTime */
      , (43132,  50,          2) /* AmmoType - Bolt */
      , (43132,  51,          2) /* CombatUse - Missle */

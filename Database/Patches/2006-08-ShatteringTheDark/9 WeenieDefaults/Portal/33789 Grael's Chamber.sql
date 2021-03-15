@@ -25,7 +25,7 @@ VALUES (33789,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33789,   1, 'Grael''s Chamber') /* Name */
-     , (33789,  33, 'graelschamberportalflag') /* Quest */;
+     , (33789,  38, 'Grael''s Chamber') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33789,   1,   33555925) /* Setup */
@@ -34,4 +34,4 @@ VALUES (33789,   1,   33555925) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33789, 2, 7734480, 279.799, -212.783, 18.005, 0, 0, 0, -1) /* Destination */
-/* @teleloc 0x007604D0 [279.799011 -212.783005 18.004999] 0.000000 0.000000 0.000000 -1.000000 */;
+/* @teleloc 0x007604D0 [279.799000 -212.783000 18.005000] 0.000000 0.000000 0.000000 -1.000000 */;
