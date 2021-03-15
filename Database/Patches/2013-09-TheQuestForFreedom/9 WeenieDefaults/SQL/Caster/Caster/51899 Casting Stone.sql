@@ -36,7 +36,7 @@ VALUES (51899,   5,  -0.025) /* ManaRate */
      , (51899,  29,    1.22) /* WeaponDefense */
      , (51899,  39,     0.5) /* DefaultScale */
      , (51899, 144,     0.1) /* ManaConversionMod */
-     , (51899, 147,       1) /* CriticalFrequency */
+     , (51899, 147,     0.3) /* CriticalFrequency */
      , (51899, 149,    1.04) /* WeaponMissileDefense */
      , (51899, 150,    1.04) /* WeaponMagicDefense */
      , (51899, 152,     1.2) /* ElementalDamageMod */
