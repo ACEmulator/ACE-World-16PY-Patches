@@ -41,7 +41,7 @@ VALUES (28660,   1,       5) /* HeartbeatInterval */
      , (28660,  31,      20) /* VisualAwarenessRange */
      , (28660,  34,       1) /* PowerupTime */
      , (28660,  36,       1) /* ChargeSpeed */
-     , (28660,  39,     0.9) /* DefaultScale */
+     , (28660,  39,       2) /* DefaultScale */
      , (28660,  64,    0.86) /* ResistSlash */
      , (28660,  65,    0.75) /* ResistPierce */
      , (28660,  66,    0.66) /* ResistBludgeon */
