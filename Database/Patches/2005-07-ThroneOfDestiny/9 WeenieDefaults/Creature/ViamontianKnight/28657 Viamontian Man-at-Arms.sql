@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28657;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28657, 'knightmanatarms', 10, '2019-07-16 14:01:15') /* Creature */;
+VALUES (28657, 'knightmanatarms', 10, '2021-03-13 14:01:15') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28657,   1,         16) /* ItemType - Creature */
@@ -30,28 +30,28 @@ VALUES (28657,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28657,   1,       5) /* HeartbeatInterval */
      , (28657,   2,       0) /* HeartbeatTimestamp */
-     , (28657,   3, 0.0670000016689301) /* HealthRate */
+     , (28657,   3,   0.067) /* HealthRate */
      , (28657,   4,       3) /* StaminaRate */
      , (28657,   5,       1) /* ManaRate */
      , (28657,  12,     0.5) /* Shade */
-     , (28657,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (28657,  14, 1.20000004768372) /* ArmorModVsPierce */
+     , (28657,  13,     1.2) /* ArmorModVsSlash */
+     , (28657,  14,     1.2) /* ArmorModVsPierce */
      , (28657,  15,       1) /* ArmorModVsBludgeon */
      , (28657,  16,       1) /* ArmorModVsCold */
-     , (28657,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (28657,  17,     0.8) /* ArmorModVsFire */
      , (28657,  18,       1) /* ArmorModVsAcid */
-     , (28657,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (28657,  19,     0.8) /* ArmorModVsElectric */
      , (28657,  31,      12) /* VisualAwarenessRange */
      , (28657,  34,       1) /* PowerupTime */
      , (28657,  36,       1) /* ChargeSpeed */
-     , (28657,  39, 1.20000004768372) /* DefaultScale */
-     , (28657,  64, 0.800000011920929) /* ResistSlash */
-     , (28657,  65, 0.800000011920929) /* ResistPierce */
-     , (28657,  66, 0.899999976158142) /* ResistBludgeon */
-     , (28657,  67, 1.20000004768372) /* ResistFire */
-     , (28657,  68, 0.899999976158142) /* ResistCold */
-     , (28657,  69, 0.899999976158142) /* ResistAcid */
-     , (28657,  70, 1.20000004768372) /* ResistElectric */
+     , (28657,  39,     1.2) /* DefaultScale */
+     , (28657,  64,     0.8) /* ResistSlash */
+     , (28657,  65,     0.8) /* ResistPierce */
+     , (28657,  66,     0.9) /* ResistBludgeon */
+     , (28657,  67,     1.2) /* ResistFire */
+     , (28657,  68,     0.9) /* ResistCold */
+     , (28657,  69,     0.9) /* ResistAcid */
+     , (28657,  70,     1.2) /* ResistElectric */
      , (28657,  71,       1) /* ResistHealthBoost */
      , (28657,  72,       1) /* ResistStaminaDrain */
      , (28657,  73,       1) /* ResistStaminaBoost */
@@ -66,7 +66,7 @@ VALUES (28657,   1, 'Viamontian Man-at-Arms') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28657,   1,   33559125) /* Setup */
-     , (28657,   2,  150994945) /* MotionTable */
+     , (28657,   2,  150995334) /* MotionTable */
      , (28657,   3,  536871102) /* SoundTable */
      , (28657,   4,  805306368) /* CombatTable */
      , (28657,   6,   67115468) /* PaletteBase */
