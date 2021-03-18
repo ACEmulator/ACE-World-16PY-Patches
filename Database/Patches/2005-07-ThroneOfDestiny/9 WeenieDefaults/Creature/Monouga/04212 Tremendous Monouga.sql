@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4212;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4212, 'monougatremendous', 10, '2005-02-09 10:00:00') /* Creature */;
+VALUES (4212, 'monougatremendous', 10, '2021-03-13 10:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4212,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,7 @@ VALUES (4212,   1,       5) /* HeartbeatInterval */
      , (4212,  31,      75) /* VisualAwarenessRange */
      , (4212,  34,     2.2) /* PowerupTime */
      , (4212,  36,       1) /* ChargeSpeed */
-     , (4212,  39,      20) /* DefaultScale */
+     , (4212,  39,      10) /* DefaultScale */
      , (4212,  41,    3600) /* RegenerationInterval */
      , (4212,  43,       5) /* GeneratorRadius */
      , (4212,  64,    0.75) /* ResistSlash */
