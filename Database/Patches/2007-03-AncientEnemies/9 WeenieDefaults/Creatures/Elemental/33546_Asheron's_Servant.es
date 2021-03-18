@@ -28,212 +28,212 @@ Use:
 							
 Give: Pyreal Mote (6353)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 1
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Pyreal Mote (6353)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 1
 			- Goto: RewardCheck
 
 Give: Pyreal Sliver (6355)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 2
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Pyreal Sliver (6355)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 2
 			- Goto: RewardCheck
 
 Give: Pyreal Nugget (6354)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 4
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Pyreal Nugget (6354)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 4
 			- Goto: RewardCheck
 
 Give: Pyreal Bar (6329)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 8
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Pyreal Bar (6329)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 8
 			- Goto: RewardCheck
 
 Give: Pyreal Ingot (6330)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 16
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Pyreal Ingot (6330)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 16
 			- Goto: RewardCheck
 
 Give: Quality Pyreal Ingot (6331)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 20
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Quality Pyreal Ingot (6331)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 20
 			- Goto: RewardCheck
 
 Give: Imprinting Mote (34884)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 2
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Imprinting Mote (34884)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 2
 			- Goto: RewardCheck
 
 Give: Quality Imprinting Mote (34889)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 4
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Quality Imprinting Mote (34889)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 4
 			- Goto: RewardCheck
 
 Give: Superb Imprinting Mote (34879)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 6
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Superb Imprinting Mote (34879)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 6
 			- Goto: RewardCheck
 
 Give: Cracked Shard (6055)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 5
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Cracked Shard (6055)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 5
 			- Goto: RewardCheck
 
 Give: Tiny Shard (6057)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 10
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Tiny Shard (6057)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 10
 			- Goto: RewardCheck
 
 Give: Small Shard (6056)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 20
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Small Shard (6056)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 20
 			- Goto: RewardCheck
 
 Give: Crystal Fragment (6623)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 40
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Crystal Fragment (6623)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 40
 			- Goto: RewardCheck
 
 Give: Scored Shard (23849)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 2
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Scored Shard (23849)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 2
 			- Goto: RewardCheck
 
 Give: Seared Shard (23853)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 2
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Seared Shard (23853)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 2
 			- Goto: RewardCheck
 
 Give: Chilled Shard (23854)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 2
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Chilled Shard (23854)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 2
 			- Goto: RewardCheck
 
 Give: Plated Shard (23852)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 2
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Plated Shard (23852)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 2
 			- Goto: RewardCheck
 
 Give: Hardened Shard (23856)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 2
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Hardened Shard (23856)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 2
 			- Goto: RewardCheck
 
 Give: Brilliant Shard (23850)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 2
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Brilliant Shard (23850)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 2
 			- Goto: RewardCheck
 
 Give: Brilliant Shard (31881)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 2
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Brilliant Shard (31881)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 2
 			- Goto: RewardCheck
 
 Give: Solid Shard (23851)
 	- TurnToTarget
-	- IncrementQuest: TowerGuardianRepairs_Counter, 2
 	- InqQuest: TowerGuardianRepairs_Completed
 		QuestSuccess:
 			- Tell: Thank you for your help, but you have provided me enough materials.
 			- Give: Solid Shard (23851)
 		QuestFailure:
+			- IncrementQuest: TowerGuardianRepairs_Counter, 2
 			- Goto: RewardCheck
 
 GotoSet: RewardCheck
@@ -280,3 +280,7 @@ GotoSet: RewardCheck
 									- Give: Shield of Perfect Light (35295)
 									- AwardLevelProportionalXP: 30%, Max: 297,235,855
 									- StampQuest: TowerGuardianRepairs_Completed
+									- EraseQuest: TowerGuardianRepairs_Counter
+									- EraseQuest: TowerGuardian50Reward
+									- EraseQuest: TowerGuardian100Reward
+									- EraseQuest: TowerGuardianRepairs_Started
