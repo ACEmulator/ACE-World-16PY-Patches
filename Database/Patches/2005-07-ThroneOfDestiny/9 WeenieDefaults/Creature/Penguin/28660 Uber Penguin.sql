@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28660;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28660, 'penguinuberlow', 10, '2021-01-15 00:00:00') /* Creature */;
+VALUES (28660, 'penguinuberlow', 10, '2021-03-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28660,   1,         16) /* ItemType - Creature */
@@ -41,7 +41,7 @@ VALUES (28660,   1,       5) /* HeartbeatInterval */
      , (28660,  31,      20) /* VisualAwarenessRange */
      , (28660,  34,       1) /* PowerupTime */
      , (28660,  36,       1) /* ChargeSpeed */
-     , (28660,  39,     0.9) /* DefaultScale */
+     , (28660,  39,       2) /* DefaultScale */
      , (28660,  64,    0.86) /* ResistSlash */
      , (28660,  65,    0.75) /* ResistPierce */
      , (28660,  66,    0.66) /* ResistBludgeon */
@@ -69,7 +69,7 @@ VALUES (28660,   1,   33559122) /* Setup */
      , (28660,   6,   67116355) /* PaletteBase */
      , (28660,   7,  268436945) /* ClothingBase */
      , (28660,   8,  100677366) /* Icon */
-     , (28660,  22,  872415411) /* PhysicsEffectTable */
+     , (28660,  22,  872415258) /* PhysicsEffectTable */
      , (28660,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
