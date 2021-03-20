@@ -8,17 +8,12 @@ VALUES (37157,   1,         16) /* ItemType - Creature */
      , (37157,   6,         -1) /* ItemsCapacity */
      , (37157,   7,         -1) /* ContainersCapacity */
      , (37157,  16,          1) /* ItemUseable - No */
+     , (37157,  67,          1) /* Tolerance - NoAttack */
      , (37157,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (37157, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37157,   1, True ) /* Stuck */
-     , (37157,   6, False) /* AiUsesMana */
-     , (37157,  11, False) /* IgnoreCollisions */
-     , (37157,  12, True ) /* ReportCollisions */
-     , (37157,  13, False) /* Ethereal */
-     , (37157,  14, True ) /* GravityStatus */
-     , (37157,  19, True ) /* Attackable */
      , (37157,  29, True ) /* NoCorpse */
      , (37157,  83, True ) /* NpcLooksLikeObject */;
 
