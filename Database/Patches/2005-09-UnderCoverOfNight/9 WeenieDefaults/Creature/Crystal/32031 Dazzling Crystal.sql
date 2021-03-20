@@ -13,8 +13,7 @@ VALUES (32031,   1,         16) /* ItemType - Creature */
      , (32031,  25,        160) /* Level */
      , (32031,  27,          0) /* ArmorType - None */
      , (32031,  40,          2) /* CombatMode - Melee */
-     , (32031,  68,          5) /* TargetingTactic - Random, LastDamager */
-     , (32031,  69,          4) /* CombatTactic - LastDamager */
+     , (32031,  67,          1) /* Tolerance - NoAttack */
      , (32031,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (32031, 101,          1) /* AiAllowedCombatStyle - Unarmed */
      , (32031, 133,          4) /* ShowableOnRadar - ShowAlways */;
@@ -22,13 +21,7 @@ VALUES (32031,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32031,   1, True ) /* Stuck */
      , (32031,   6, True ) /* AiUsesMana */
-     , (32031,  11, False) /* IgnoreCollisions */
-     , (32031,  12, True ) /* ReportCollisions */
-     , (32031,  13, False) /* Ethereal */
-     , (32031,  14, True ) /* GravityStatus */
-     , (32031,  19, True ) /* Attackable */
      , (32031,  29, True ) /* NoCorpse */
-     , (32031,  50, True ) /* NeverFailCasting */
 	 , (32031,  52, True ) /* AiImmobile */
      , (32031,  82, True ) /* DontTurnOrMoveWhenGiving */;
 
@@ -108,17 +101,6 @@ VALUES (32031,  0,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000
      , (32031, 15,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 3,    0,    0,    0,    0,    0,    0,    0,    0, 0.25,    0,    0, 0.25) /* RearFoot */
      , (32031, 16,  4,  0,    0,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 2,  0.3,  0.4, 0.25,  0.3,  0.4, 0.25,  0.6,  0.5, 0.25,  0.6,  0.5, 0.25) /* Torso */
      , (32031, 17,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32031,  2056,      2)  /* Ataxia */
-     , (32031,  2064,      2)  /* Self Loathing */
-     , (32031,  2073,      2)  /* Adja's Intervention */
-     , (32031,  2162,      2)  /* Olthoi's Gift */
-     , (32031,  2168,      2)  /* Gelidite's Gift */
-     , (32031,  2170,      2)  /* Inferno's Gift */
-     , (32031,  2172,      2)  /* Astyrrian's Gift */
-     , (32031,  2185,      2)  /* Robustify */
-     , (32031,  2328,      2)  /* Vitality Siphon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (32031,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
