@@ -1,31 +1,22 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35716;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35716, 'ace35716-empoweredplatinumphial', 44, '2019-02-10 00:00:00') /* CraftTool */;
+VALUES (35716, 'ace35716-empoweredplatinumphial', 44, '2021-03-20 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35716,   1,    8388608) /* ItemType - CraftAlchemyBase */
-     , (35716,   5,          5) /* EncumbranceVal */
-     , (35716,  11,        100) /* MaxStackSize */
+     , (35716,  11,         50) /* MaxStackSize */
      , (35716,  12,          1) /* StackSize */
-     , (35716,  13,          5) /* StackUnitEncumbrance */
+     , (35716,  13,          0) /* StackUnitEncumbrance */
      , (35716,  15,       2500) /* StackUnitValue */
      , (35716,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (35716,  18,          1) /* UiEffects - Magical */
      , (35716,  19,       2500) /* Value */
-     , (35716,  65,        101) /* Placement - Resting */
      , (35716,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35716,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35716,   1, False) /* Stuck */
-     , (35716,  11, True ) /* IgnoreCollisions */
-     , (35716,  13, True ) /* Ethereal */
-     , (35716,  14, True ) /* GravityStatus */
-     , (35716,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35716,  39,     0.5) /* DefaultScale */;
+VALUES (35716,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35716,   1, 'Empowered Platinum Phial') /* Name */
@@ -39,12 +30,3 @@ VALUES (35716,   1,   33560312) /* Setup */
      , (35716,   6,   67111919) /* PaletteBase */
      , (35716,   8,  100689528) /* Icon */
      , (35716,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35716, 67111925, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (35716, 0, 83890047, 83890047);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (35716, 0, 16793601);

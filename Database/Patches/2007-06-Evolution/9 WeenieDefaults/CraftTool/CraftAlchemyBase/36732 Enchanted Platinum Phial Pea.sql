@@ -5,30 +5,17 @@ VALUES (36732, 'ace36732-enchantedplatinumphialpea', 44, '2019-05-26 00:00:00') 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36732,   1,    8388608) /* ItemType - CraftAlchemyBase */
-     , (36732,   5,          5) /* EncumbranceVal */
-     , (36732,  11,        100) /* MaxStackSize */
+     , (36732,  11,         50) /* MaxStackSize */
      , (36732,  12,          1) /* StackSize */
-     , (36732,  13,          5) /* StackUnitEncumbrance */
+     , (36732,  13,          0) /* StackUnitEncumbrance */
      , (36732,  15,      50000) /* StackUnitValue */
      , (36732,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36732,  19,      50000) /* Value */
-     , (36732,  33,          1) /* Bonded - Bonded */
-     , (36732,  65,        101) /* Placement - Resting */
      , (36732,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36732,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
-     , (36732, 114,          0) /* Attuned - Normal */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36732,   1, False) /* Stuck */
-     , (36732,  11, True ) /* IgnoreCollisions */
-     , (36732,  13, True ) /* Ethereal */
-     , (36732,  14, True ) /* GravityStatus */
-     , (36732,  19, True ) /* Attackable */
-     , (36732,  69, True ) /* IsSellable */
-     , (36732,  99, False) /* Ivoryable */;
+     , (36732,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36732,  39,     0.5) /* DefaultScale */;
+VALUES (36732,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36732,   1, 'Enchanted Platinum Phial Pea') /* Name */
