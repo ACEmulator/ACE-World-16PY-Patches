@@ -30,7 +30,7 @@ VALUES (44357, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44357,   1, 'Prickly Pear Collecting (Level 200+)') /* Name */
      , (44357,  14, 'Recommended Level: 200') /* Use */
-     , (44357,  16, 'You've been hired by Hammah al Rundik to collect 15 Prickly Pears from within the Lost City of Neftet.') /* LongDesc */;
+     , (44357,  16, 'You''ve been hired by Hammah al Rundik to collect 15 Prickly Pears from within the Lost City of Neftet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44357,   1,   33554773) /* Setup */
