@@ -13,8 +13,7 @@ VALUES (32030,   1,         16) /* ItemType - Creature */
      , (32030,  25,        160) /* Level */
      , (32030,  27,          0) /* ArmorType - None */
      , (32030,  40,          2) /* CombatMode - Melee */
-     , (32030,  68,          5) /* TargetingTactic - Random, LastDamager */
-     , (32030,  69,          4) /* CombatTactic - LastDamager */
+     , (32030,  67,          1) /* Tolerance - NoAttack */
      , (32030,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (32030, 101,          1) /* AiAllowedCombatStyle - Unarmed */
      , (32030, 133,          4) /* ShowableOnRadar - ShowAlways */;
@@ -22,13 +21,7 @@ VALUES (32030,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32030,   1, True ) /* Stuck */
      , (32030,   6, True ) /* AiUsesMana */
-     , (32030,  11, False) /* IgnoreCollisions */
-     , (32030,  12, True ) /* ReportCollisions */
-     , (32030,  13, False) /* Ethereal */
-     , (32030,  14, True ) /* GravityStatus */
-     , (32030,  19, True ) /* Attackable */
      , (32030,  29, True ) /* NoCorpse */
-     , (32030,  50, True ) /* NeverFailCasting */
 	 , (32030,  52, True ) /* AiImmobile */
      , (32030,  82, True ) /* DontTurnOrMoveWhenGiving */;
 
@@ -71,7 +64,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32030,   1,   33558690) /* Setup */
      , (32030,   2,  150995290) /* MotionTable */
      , (32030,   3,  536871001) /* SoundTable */
-     , (32030,   4,  805306407) /* CombatTable */
      , (32030,   6,   67113876) /* PaletteBase */
      , (32030,   7,  268436443) /* ClothingBase */
      , (32030,   8,  100676420) /* Icon */
@@ -108,17 +100,6 @@ VALUES (32030,  0,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000
      , (32030, 15,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 3,    0,    0,    0,    0,    0,    0,    0,    0, 0.25,    0,    0, 0.25) /* RearFoot */
      , (32030, 16,  4,  0,    0,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 2,  0.3,  0.4, 0.25,  0.3,  0.4, 0.25,  0.6,  0.5, 0.25,  0.6,  0.5, 0.25) /* Torso */
      , (32030, 17,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32030,  2056,      2)  /* Ataxia */
-     , (32030,  2064,      2)  /* Self Loathing */
-     , (32030,  2073,      2)  /* Adja's Intervention */
-     , (32030,  2162,      2)  /* Olthoi's Gift */
-     , (32030,  2168,      2)  /* Gelidite's Gift */
-     , (32030,  2170,      2)  /* Inferno's Gift */
-     , (32030,  2172,      2)  /* Astyrrian's Gift */
-     , (32030,  2185,      2)  /* Robustify */
-     , (32030,  2328,      2)  /* Vitality Siphon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (32030,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
