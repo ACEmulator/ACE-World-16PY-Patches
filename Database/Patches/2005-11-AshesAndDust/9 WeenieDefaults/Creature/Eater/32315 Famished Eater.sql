@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32315;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32315, 'ace32315-famishedeater', 10, '2019-11-21 00:00:00') /* Creature */;
+VALUES (32315, 'ace32315-famishedeater', 10, '2021-03-20 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32315,   1,         16) /* ItemType - Creature */
@@ -19,35 +19,32 @@ VALUES (32315,   1,         16) /* ItemType - Creature */
      , (32315, 146,      17500) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32315,   1, True ) /* Stuck */
-     , (32315,  11, False) /* IgnoreCollisions */
-     , (32315,  12, True ) /* ReportCollisions */
-     , (32315,  13, False) /* Ethereal */;
+VALUES (32315,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32315,   1,       5) /* HeartbeatInterval */
      , (32315,   2,       0) /* HeartbeatTimestamp */
-     , (32315,   3, 0.0670000016689301) /* HealthRate */
+     , (32315,   3,   0.067) /* HealthRate */
      , (32315,   4,       3) /* StaminaRate */
      , (32315,   5,       1) /* ManaRate */
      , (32315,  12,     0.5) /* Shade */
-     , (32315,  13, 0.699999988079071) /* ArmorModVsSlash */
-     , (32315,  14, 0.699999988079071) /* ArmorModVsPierce */
-     , (32315,  15, 1.39999997615814) /* ArmorModVsBludgeon */
+     , (32315,  13,     0.7) /* ArmorModVsSlash */
+     , (32315,  14,     0.7) /* ArmorModVsPierce */
+     , (32315,  15,     1.4) /* ArmorModVsBludgeon */
      , (32315,  16,       1) /* ArmorModVsCold */
      , (32315,  17,       1) /* ArmorModVsFire */
-     , (32315,  18, 1.39999997615814) /* ArmorModVsAcid */
+     , (32315,  18,     1.4) /* ArmorModVsAcid */
      , (32315,  19,       1) /* ArmorModVsElectric */
      , (32315,  31,      12) /* VisualAwarenessRange */
      , (32315,  34,       1) /* PowerupTime */
      , (32315,  36,       1) /* ChargeSpeed */
-     , (32315,  39,       1) /* DefaultScale */
-     , (32315,  64, 1.20000004768372) /* ResistSlash */
-     , (32315,  65, 1.20000004768372) /* ResistPierce */
-     , (32315,  66, 0.600000023841858) /* ResistBludgeon */
+     , (32315,  39,     0.7) /* DefaultScale */
+     , (32315,  64,     1.2) /* ResistSlash */
+     , (32315,  65,     1.2) /* ResistPierce */
+     , (32315,  66,     0.6) /* ResistBludgeon */
      , (32315,  67,       1) /* ResistFire */
      , (32315,  68,       1) /* ResistCold */
-     , (32315,  69, 0.600000023841858) /* ResistAcid */
+     , (32315,  69,     0.6) /* ResistAcid */
      , (32315,  70,       1) /* ResistElectric */
      , (32315,  71,       1) /* ResistHealthBoost */
      , (32315,  72,       1) /* ResistStaminaDrain */

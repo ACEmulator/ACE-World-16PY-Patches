@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44534;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44534, 'ace44534-contractforundeadjawcollection', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (44534, 'ace44534-contractforundeadjawcollection', 38, '2021-03-20 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44534,   1,       2048) /* ItemType - Gem */
@@ -28,7 +28,7 @@ VALUES (44534, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44534,   1, 'Contract for Undead Jaw Collection') /* Name */
      , (44534,  14, 'Recommended Level: 180') /* Use */
-     , (44534,  16, 'Trace the carvings in the cave near The Graveyard.') /* LongDesc */;
+     , (44534,  16, 'Collect 8 jaw bones from the undead in the Graveyard.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44534,   1,   33554773) /* Setup */
