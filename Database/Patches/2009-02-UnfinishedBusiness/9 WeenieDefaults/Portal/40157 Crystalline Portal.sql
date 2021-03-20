@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40157;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40157, 'ace40157-crystallineportal', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (40157, 'ace40157-crystallineportal', 7, '2021-03-20 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40157,   1,      65536) /* ItemType - Portal */
      , (40157,  16,         32) /* ItemUseable - Remote */
-     , (40157,  86,         70) /* MinLevel */
+     , (40157,  86,         50) /* MinLevel */
      , (40157,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (40157, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (40157, 133,          4) /* ShowableOnRadar - ShowAlways */;
@@ -15,15 +15,13 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40157,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40157,  54, -0.1) /* UseRadius */;
+VALUES (40157,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40157,   1, 'Crystalline Portal') /* Name */
-     , (40157,  14, 'Restricted to characters of Level 70 or greater.') /* Use */
-     , (40157,  16, 'This portal cannot be recalled, linked nor summoned.') /* LongDesc */;
+VALUES (40157,   1, 'Crystalline Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40157,   1,   33555925) /* Setup */
+VALUES (40157,   1,   33554867) /* Setup */
      , (40157,   2,  150994947) /* MotionTable */
      , (40157,   8,  100667499) /* Icon */;
      
