@@ -43,13 +43,13 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (39335,  21,       0) /* WeaponLength */
      , (39335,  22,     0.5) /* DamageVariance */
      , (39335,  26,      15) /* MaximumVelocity */
-     , (39335,  29,    0.90) /* WeaponDefense */
+     , (39335,  29,    1.14) /* WeaponDefense */
      , (39335,  39,     0.5) /* DefaultScale */
      , (39335,  62,       1) /* WeaponOffense */
      , (39335,  63,       1) /* DamageMod */
      , (39335,  78,       1) /* Friction */
      , (39335,  79,       0) /* Elasticity */
-	 , (39335, 156,       1) /* ProcSpellRate */;
+     , (39335, 156,       1) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39335,   1, 'Mana Phial of Imperil') /* Name */
@@ -64,7 +64,7 @@ VALUES (39335,   1,   33560312) /* Setup */
      , (39335,   8,  100690318) /* Icon */
      , (39335,  22,  872415275) /* PhysicsEffectTable */
      , (39335,  50,  100689523) /* IconOverlay */
-     , (39335,  55,       2074) /* ProcSpell - ImperilOther7 */;
+     , (39335,  55,       2074) /* ProcSpell - Gossamer Flesh */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39335,  4017,      2) /* Phial's Accuracy */;
+VALUES (39335,  4017,      2)  /* Phial's Accuracy */;
