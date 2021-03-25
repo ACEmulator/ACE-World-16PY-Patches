@@ -89,7 +89,8 @@ VALUES (80087,  6, 0, 3, 0,   5, 0, 747.766235639979) /* MeleeDefense        Spe
      , (80087, 20, 0, 3, 0, 150, 0, 747.766235639979) /* Deception           Specialized */
      , (80087, 24, 0, 3, 0,  20, 0, 747.766235639979) /* Run                 Specialized */
      , (80087, 44, 0, 3, 0,   6, 0, 747.766235639979) /* HeavyWeapons        Specialized */
-     , (80087, 45, 0, 3, 0,   6, 0, 747.766235639979) /* LightWeapons        Specialized */;
+     , (80087, 45, 0, 3, 0,   6, 0, 747.766235639979) /* LightWeapons        Specialized */
+     , (80087, 47, 0, 3, 0,   6, 0, 747.766235639979) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (80087,  0,  4,  0,    0,   25,   23,   25,   28,   10,   10,   25,   15,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -103,5 +104,5 @@ VALUES (80087,  0,  4,  0,    0,   25,   23,   25,   28,   10,   10,   25,   15,
      , (80087,  8,  4,  2, 0.75,   25,   23,   25,   28,   10,   10,   25,   15,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (80087, 1, 35265,  20, 0, 1, False) /* Create Throwing Pancake (35265) for Contain */
-     , (80087, 10, 23708,  1, 0, 1, False) /* Create Fire Tachi (23708) for WieldTreasure */;
+VALUES (80087, 10, 35265, 20, 0, 0.5, False) /* Create Throwing Pancake (35265) for WieldTreasure */
+     , (80087, 10, 23708,  1, 0, 0.5, False) /* Create Fire Tachi (23708) for WieldTreasure */;
