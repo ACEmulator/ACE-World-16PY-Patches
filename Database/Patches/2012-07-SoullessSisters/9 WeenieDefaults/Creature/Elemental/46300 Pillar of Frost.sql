@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46300;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46300, 'ace46300-pillaroffrost', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (46300, 'ace46300-pillaroffrost', 10, '2021-03-20 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46300,   1,         16) /* ItemType - Creature */
@@ -17,10 +17,6 @@ VALUES (46300,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46300,   1, True ) /* Stuck */
      , (46300,   6, True ) /* AiUsesMana */
-     , (46300,  11, False) /* IgnoreCollisions */
-     , (46300,  12, True ) /* ReportCollisions */
-     , (46300,  13, False) /* Ethereal */
-     , (46300,  14, True ) /* GravityStatus */
      , (46300,  29, True ) /* NoCorpse */
      , (46300, 103, True ) /* NonProjectileMagicImmune */;
 
@@ -90,7 +86,7 @@ VALUES (46300,   1,  90, 0, 0) /* Strength */
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (46300,   1,  1955, 0, 0, 2000) /* MaxHealth */
      , (46300,   3,   100, 0, 0, 190) /* MaxStamina */
-     , (46300,   5,   300, 0, 0, 450) /* MaxMana */;
+     , (46300,   5,   750, 0, 0, 900) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46300,  6, 0, 3, 0, 457, 0, 0) /* MeleeDefense         Specialized */

@@ -113,8 +113,8 @@ VALUES (0x7008A096, 30287, 0x008A01E6, 120, -144.498, 0, 1, 0, 0, -4.37114E-08, 
 /* @teleloc 0x008A01E6 [120.000000 -144.498000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7008A096, 0x7008A094, '2019-02-10 00:00:00') /* Lever (286) */
-     , (0x7008A096, 0x7008A095, '2019-02-10 00:00:00') /* Lever (286) */;
+VALUES (0x7008A096, 0x7008A095, '2019-02-10 00:00:00') /* Lever (286) */
+     , (0x7008A096, 0x7008A099, '2019-02-10 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7008A097,   286, 0x008A01F5, 130, -115.107, 1.611, 1, 0, 0, 0, True, '2019-02-10 00:00:00'); /* Lever */
@@ -125,8 +125,8 @@ VALUES (0x7008A098, 30287, 0x008A0206, 144.481, -120, 0, -0.707107, 0, 0, -0.707
 /* @teleloc 0x008A0206 [144.481000 -120.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7008A098, 0x7008A097, '2019-02-10 00:00:00') /* Lever (286) */
-     , (0x7008A098, 0x7008A099, '2019-02-10 00:00:00') /* Lever (286) */;
+VALUES (0x7008A098, 0x7008A094, '2019-02-10 00:00:00') /* Lever (286) */
+     , (0x7008A098, 0x7008A097, '2019-02-10 00:00:00') /* Lever (286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7008A099,   286, 0x008A0230, 160, -105.101, 1.6105, 1, 0, 0, 0, True, '2019-02-10 00:00:00'); /* Lever */

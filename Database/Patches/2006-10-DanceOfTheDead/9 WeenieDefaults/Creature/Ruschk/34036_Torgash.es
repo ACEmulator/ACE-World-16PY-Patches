@@ -19,4 +19,3 @@ Give: Vial of strange fluid (87222)
 	- Delay: 1, DirectBroadcast: The Ruschk then looks at you quizzically, seeming to wonder if you wished to hunt more Knights.
 	- AwardXP: 8,700,000
 	- EraseQuest: KillTaskTorgashsTasks_0301
-	- EraseQuest: ReceivedVialofstrangefluid
