@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44299;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44299, 'ace44299-tingsetsuko', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (44299, 'ace44299-tingsetsuko', 10, '2021-03-20 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44299,   1,         16) /* ItemType - Creature */
@@ -21,13 +21,7 @@ VALUES (44299,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44299,   1, True ) /* Stuck */
      , (44299,   8, True ) /* AllowGive */
-     , (44299,  11, True ) /* IgnoreCollisions */
-     , (44299,  12, True ) /* ReportCollisions */
-     , (44299,  13, False) /* Ethereal */
-     , (44299,  14, True ) /* GravityStatus */
      , (44299,  19, False) /* Attackable */
-     , (44299,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (44299,  42, True ) /* AllowEdgeSlide */
      , (44299,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -67,7 +61,7 @@ VALUES (44299,   1, 'T''ing Setsuko') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44299,   1,   33554510) /* Setup */
      , (44299,   2,  150994945) /* MotionTable */
-     , (44299,   3,  536870913) /* SoundTable */
+     , (44299,   3,  536870914) /* SoundTable */
      , (44299,   6,   67108990) /* PaletteBase */
      , (44299,   8,  100667446) /* Icon */;
 

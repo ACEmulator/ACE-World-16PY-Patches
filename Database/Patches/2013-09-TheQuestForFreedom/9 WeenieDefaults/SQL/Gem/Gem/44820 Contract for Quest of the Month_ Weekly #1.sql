@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44820;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44820, 'ace44820-contractforquestofthemonthweekly#1', 38, '2020-05-15 00:00:00') /* Gem */;
+VALUES (44820, 'ace44820-contractforquestofthemonthweekly#1', 38, '2021-03-20 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44820,   1,       2048) /* ItemType - Gem */
@@ -28,7 +28,7 @@ VALUES (44820, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44820,   1, 'Contract for Quest of the Month: Weekly #1') /* Name */
      , (44820,  14, 'Recommended Level: 100') /* Use */
-     , (44820,  16, 'Complete the weekly task for Niccolo De Luca.') /* LongDesc */;
+     , (44820,  16, 'Complete the weekly task for Niccolo De Luca') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44820,   1,   33557625) /* Setup */
