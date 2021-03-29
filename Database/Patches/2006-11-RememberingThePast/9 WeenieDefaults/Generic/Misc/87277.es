@@ -2,8 +2,8 @@ Use:
     - InqQuest: UlgrimsDrinkingContestFlag
         QuestSuccess:
             - InqQuest: UlgrimsDrinkingContestDrinking
-                QuestSuccess:
-                    - DirectBroadcast: You haven't finished your last drink.
+                #QuestSuccess:
+                    #- DirectBroadcast: You haven't finished your last drink.
                 QuestFailure:
                     - StampQuest: UlgrimsDrinkingContestDrinking
                     - PhysScript: Destroy
