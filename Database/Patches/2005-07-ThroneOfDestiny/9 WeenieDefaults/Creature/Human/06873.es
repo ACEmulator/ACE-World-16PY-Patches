@@ -48,13 +48,13 @@ HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.08
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.09
     - Motion: Drink
-    - Delay: 1.5, Say: Aw! None Left!
+    - Delay: 1.5, Say: Aw! None Left!, Extent: 0
     - Delay: 1, Motion: Ready
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
-    - Say: Nothing like an Ulgrim's Brew in the crisp mountain air.
+    - Say: Nothing like an Ulgrim's Brew in the crisp mountain air., Extent: 0
     - Motion: MimeDrink
-    - Say: Cold-brewed to warm the bones.
+    - Say: Cold-brewed to warm the bones., Extent: 0
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.105
     - Sound: Attack3
@@ -377,7 +377,7 @@ Give: Stout (2471), Probability: 0.9025
 Give: Stout (2471), Probability: 0.9075
     - TurnToTarget
     - Delay: 1, Tell: I've learned all the portal spells. I especially like the Tie to Ispar.
-    - Delay: 1, Say: Shurov Thispar!
+    - Delay: 1, Say: Shurov Thispar!, Extent: 0
     - Motion: CastSpell
     - Motion: Ready
     - Delay: 1, Motion: EnterPortal
