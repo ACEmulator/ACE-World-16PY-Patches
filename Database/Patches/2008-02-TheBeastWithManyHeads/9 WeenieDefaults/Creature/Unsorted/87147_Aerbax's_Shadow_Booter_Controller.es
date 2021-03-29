@@ -11,3 +11,4 @@ ReceiveLocalSignal: AerbaxEventCleanup
 	- StopEvent: aerbaxelementalprotectorevent
 	- StopEvent: aerbaxsreturnportalevent
 	- StopEvent: aerbaxtuskerprotectorevent
+	- StopEvent: aerbaxshadow_inuseevent

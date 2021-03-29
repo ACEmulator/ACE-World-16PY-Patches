@@ -17,6 +17,7 @@ Use:
 							- EraseQuest: AerbaxPlatformAccess
 							- EraseQuest: deviceroomportalflag
 							- StampQuest: AerbaxCompletedWait
+							- StopEvent: aerbaxshadow_inuseevent
 							- Goto: Rewards 
 						QuestFailure:
 							- Tell: Well done! Aerbax's Shadow has lost his hold on the planar energies his device has been extracting. We must stay vigilant for he will continue to gain power as long as he holds the platforms. Return tomorrow to defeat Aerbax's Shadow again and I will reward you further.
@@ -30,6 +31,7 @@ Use:
 							- EraseQuest: aerbaxcitadelfellowstart
 							- EraseQuest: AerbaxPlatformAccess
 							- EraseQuest: deviceroomportalflag
+							- StopEvent: aerbaxshadow_inuseevent
 							- StampQuest: AerbaxCompletedWait
 							- Goto: Rewards 
 				QuestFailure:
@@ -37,23 +39,43 @@ Use:
 						QuestSuccess:
 							- Tell: Hurry, your fellowship only has approximately %tqt left. Use the Harmonic Transference Field.
 						QuestFailure:
-							- Tell: Good, you made it.
-							- Delay: 1, Tell: I have been sent here by Lord Asheron to help you stop Aerbax.
-							- Delay: 1, Tell: I have been unable to destroy this device. Aerbax realized what you were doing and protected his last device somehow.
-							- Delay: 1, Tell: However, I have studied the device and believe there is a way to use it's resonant magic field.
-							- Delay: 1, Tell: Scouts report that Aerbax's forces are even now attempting to repair the other devices you destroyed. Return to the other Gates and bring me back the crystals they are using to repair the devices. Once I have all three crystals I believe I can send a fellowship of you through to the platforms above.
+							- InqEvent: aerbaxshadow_inuseevent
+								EventSuccess:
+									- Tell: Good, you made it.
+									- Delay: 1, Tell: There seems to be a fellowship already helping with stopping Aerbax. Please return later.
+								EventFailure:
+									- Tell: Good, you made it.
+									- Delay: 1, Tell: I have been sent here by Lord Asheron to help you stop Aerbax.
+									- Delay: 1, Tell: I have been unable to destroy this device. Aerbax realized what you were doing and protected his last device somehow.
+									- Delay: 1, Tell: However, I have studied the device and believe there is a way to use it's resonant magic field.
+									- Delay: 1, Tell: Scouts report that Aerbax's forces are even now attempting to repair the other devices you destroyed. Return to the other Gates and bring me back the crystals they are using to repair the devices. Once I have all three crystals I believe I can send a fellowship of you through to the platforms above.
 	
 Give: East Gate Harmonic Crystal (37059)
-	- StampQuest: gaveeastgateharmoniccrystal
-	- Goto: CheckOthersEast
+	- InqEvent: aerbaxshadow_inuseevent
+		EventSuccess:
+			- Tell: There seems to be a fellowship already helping with stopping Aerbax. Please return later.
+			- Give: 37059
+		EventFailure:
+			- StampQuest: gaveeastgateharmoniccrystal
+			- Goto: CheckOthersEast
 	
 Give: North Gate Harmonic Crystal (37060)
-	- StampQuest: gavenorthgateharmoniccrystal
-	- Goto: CheckOthersNorth
+	- InqEvent: aerbaxshadow_inuseevent
+		EventSuccess:
+			- Tell: There seems to be a fellowship already helping with stopping Aerbax. Please return later.
+			- Give: 37060
+		EventFailure:
+			- StampQuest: gavenorthgateharmoniccrystal
+			- Goto: CheckOthersNorth
 	
 Give: West Gate Harmonic Crystal (37061)
-	- StampQuest: gavewestgateharmoniccrystal
-	- Goto: CheckOthersWest
+	- InqEvent: aerbaxshadow_inuseevent
+		EventSuccess:
+			- Tell: There seems to be a fellowship already helping with stopping Aerbax. Please return later.
+			- Give: 37061
+		EventFailure:
+			- StampQuest: gavewestgateharmoniccrystal
+			- Goto: CheckOthersWest
 
 GoToSet: CheckOthersEast
 	- InqQuest: gavenorthgateharmoniccrystal
@@ -121,6 +143,7 @@ GoToSet: Complete
 	- StampFellowQuest: aerbaxcitadelfellowstart
 	- StartEvent: aerbaxshadow1event
 	- StartEvent: aerbaxshadowBooterevent
+	- StartEvent: aerbaxshadow_inuseevent
 	- EraseQuest: gaveeastgateharmoniccrystal
 	- EraseQuest: gavenorthgateharmoniccrystal
 	- EraseQuest: gavewestgateharmoniccrystal
