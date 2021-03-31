@@ -32,7 +32,7 @@ VALUES (41741,  39,     0.5) /* DefaultScale */
      , (41741,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41741,   1, 'Two Hand Combat Warden of Enlightenment') /* Name */;
+VALUES (41741,   1, 'Two Handed Combat Warden of Enlightenment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41741,   1,   33555352) /* Setup */
