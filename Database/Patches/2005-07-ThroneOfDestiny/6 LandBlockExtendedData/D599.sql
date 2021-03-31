@@ -33,7 +33,7 @@ VALUES (0x7D59903A, 0x7D59903B, '2019-02-10 00:00:00') /* Tower Guardian (35273)
      , (0x7D59903A, 0x7D59903C, '2019-02-10 00:00:00') /* Weapon Tinkering Warden of Enlightenment (32450) */
      , (0x7D59903A, 0x7D59903D, '2019-02-10 00:00:00') /* War Magic Warden of Enlightenment (32449) */
      , (0x7D59903A, 0x7D59903E, '2019-02-10 00:00:00') /* Void Magic Warden of Enlightenment (43399) */
-     , (0x7D59903A, 0x7D59903F, '2019-02-10 00:00:00') /* Two Hand Combat Warden of Enlightenment (41741) */
+     , (0x7D59903A, 0x7D59903F, '2019-02-10 00:00:00') /* Two Handed Combat Warden of Enlightenment (41741) */
      , (0x7D59903A, 0x7D599040, '2019-02-10 00:00:00') /* Summoning Warden of Enlightenment (49483) */
      , (0x7D59903A, 0x7D599041, '2019-02-10 00:00:00') /* Shield Warden of Enlightenment (45393) */
      , (0x7D59903A, 0x7D599042, '2019-02-10 00:00:00') /* Run Warden of Enlightenment (32443) */
@@ -75,7 +75,7 @@ VALUES (0x7D59903E, 43399, 0xD5990037, 153, 166, 374, -0.707107, 0, 0, -0.707107
 /* @teleloc 0xD5990037 [153.000000 166.000000 374.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D59903F, 41741, 0xD5990037, 153, 162.5, 374, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Two Hand Combat Warden of Enlightenment */
+VALUES (0x7D59903F, 41741, 0xD5990037, 153, 162.5, 374, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Two Handed Combat Warden of Enlightenment */
 /* @teleloc 0xD5990037 [153.000000 162.500000 374.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
