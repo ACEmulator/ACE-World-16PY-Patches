@@ -13,7 +13,7 @@ VALUES (53011,   1,         16) /* ItemType - Creature */
      , (53011,  98, 1485848528) /* CreationTimestamp */
      , (53011, 133,          1) /* ShowableOnRadar - ShowNever */
      , (53011, 267,       3600) /* Lifespan */
-     , (53011, 268,       3496) /* RemainingLifespan */;
+     , (53011, 268,       3600) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53011,   1, True ) /* Stuck */

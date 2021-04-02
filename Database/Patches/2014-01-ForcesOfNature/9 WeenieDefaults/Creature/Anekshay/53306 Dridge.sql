@@ -26,7 +26,24 @@ VALUES (53306,   1, True ) /* Stuck */
      , (53306,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53306,  54,       3) /* UseRadius */;
+VALUES (53306,  13, 1.0) /* ArmorModVsSlash */
+     , (53306,  14, 1.0) /* ArmorModVsPierce */
+     , (53306,  15, 0.8) /* ArmorModVsBludgeon */
+     , (53306,  16, 0.6) /* ArmorModVsCold */
+     , (53306,  17, 1.0) /* ArmorModVsFire */
+     , (53306,  18, 0.6) /* ArmorModVsAcid */
+     , (53306,  19, 1.0) /* ArmorModVsElectric */
+     , (53306,  54,   3) /* UseRadius */
+     , (53306,  55, 100) /* HomeRadius */
+     , (53306,  64, 0.4) /* ResistSlash */
+     , (53306,  65, 0.6) /* ResistPierce */
+     , (53306,  66, 0.6) /* ResistBludgeon */
+     , (53306,  67, 0.4) /* ResistFire */
+     , (53306,  68, 0.8) /* ResistCold */
+     , (53306,  69, 0.8) /* ResistAcid */
+     , (53306,  70, 0.4) /* ResistElectric */
+     , (53306, 165, 1.0) /* ArmorModVsNether */
+     , (53306, 166, 1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53306,   1, 'Dridge') /* Name */
@@ -96,4 +113,3 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'That is a generous offer. Since I am only a cook I am afraid I have little to offer you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-

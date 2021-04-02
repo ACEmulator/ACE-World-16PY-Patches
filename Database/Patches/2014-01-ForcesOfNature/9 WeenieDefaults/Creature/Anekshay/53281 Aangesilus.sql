@@ -27,7 +27,24 @@ VALUES (53281,   1,       True) /* Stuck */
      , (53281,  42,       True) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53281,  54,          3) /* UseRadius */;
+VALUES (53281,  13, 1.0) /* ArmorModVsSlash */
+     , (53281,  14, 1.0) /* ArmorModVsPierce */
+     , (53281,  15, 0.8) /* ArmorModVsBludgeon */
+     , (53281,  16, 0.6) /* ArmorModVsCold */
+     , (53281,  17, 1.0) /* ArmorModVsFire */
+     , (53281,  18, 0.6) /* ArmorModVsAcid */
+     , (53281,  19, 1.0) /* ArmorModVsElectric */
+     , (53281,  54,   3) /* UseRadius */
+     , (53281,  55, 100) /* HomeRadius */
+     , (53281,  64, 0.4) /* ResistSlash */
+     , (53281,  65, 0.6) /* ResistPierce */
+     , (53281,  66, 0.6) /* ResistBludgeon */
+     , (53281,  67, 0.4) /* ResistFire */
+     , (53281,  68, 0.8) /* ResistCold */
+     , (53281,  69, 0.8) /* ResistAcid */
+     , (53281,  70, 0.4) /* ResistElectric */
+     , (53281, 165, 1.0) /* ArmorModVsNether */
+     , (53281, 166, 1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53281,   1, 'Aangesilus') /* Name */
@@ -141,4 +158,3 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'The task I have for you is too difficult at this time.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-

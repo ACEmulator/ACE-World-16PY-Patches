@@ -30,3 +30,6 @@ VALUES (53302,   1,   33554826) /* Setup */
      , (53302,   8,  100676673) /* Icon */
      , (53302,  22,  872415275) /* PhysicsEffectTable */
      , (53302,  28,       6321) /* Spell - Viridian Rise Recall */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (53302,  6321,      2);

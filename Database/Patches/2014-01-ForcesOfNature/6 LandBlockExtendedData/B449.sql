@@ -1,88 +1,110 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xB449;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091171, 53375, 3024683027, 53.28444, 54.0933, 9.982, 0.3632202, 0, 0, 0.9317033, True, '2020-07-19 00:00:00');
-/* Sath'tik Eyestalk, TYPE_CREATURE, Seen 4 times at this location. 0xb4490013 53.28444 54.0933 9.982 0.3632202 0 0 0.9317033 */
+VALUES (0x7B449123, 53375, 0xB4490013, 53.2844, 54.0933, 9.982, 0.36322, 0, 0, 0.931703,  True, '2020-07-19 00:00:00'); /* Sath'tik Eyestalk */
+/* @teleloc 0xB4490013 [53.284401 54.093300 9.982000] 0.363220 0.000000 0.000000 0.931703 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091176, 53375, 3024683045, 105.1936, 111.4735, 9.982, -0.3372523, 0, 0, -0.9414143, True, '2020-07-19 00:00:00');
-/* Sath'tik Eyestalk, TYPE_CREATURE, Seen 2 times at this location. 0xb4490025 105.1936 111.4735 9.982 -0.3372523 0 0 -0.9414143 */
+VALUES (0x7B449128, 53375, 0xB4490025, 105.194, 111.474, 9.982, -0.337252, 0, 0, -0.941414,  True, '2020-07-19 00:00:00'); /* Sath'tik Eyestalk */
+/* @teleloc 0xB4490025 [105.194000 111.473999 9.982000] -0.337252 0.000000 0.000000 -0.941414 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091188, 53375, 3024683071, 179.6393, 150.8581, 14.83172, 0.686407, 0, 0, -0.727218, True, '2020-07-19 00:00:00');
-/* Sath'tik Eyestalk, TYPE_CREATURE, Seen 2 times at this location. 0xb449003f 179.6393 150.8581 14.83172 0.686407 0 0 -0.727218 */
+VALUES (0x7B449134, 53375, 0xB449003F, 179.639, 150.858, 14.8317, 0.686407, 0, 0, -0.727218,  True, '2020-07-19 00:00:00'); /* Sath'tik Eyestalk */
+/* @teleloc 0xB449003F [179.639008 150.858002 14.831700] 0.686407 0.000000 0.000000 -0.727218 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091189, 53375, 3024683010, 9.556643, 34.86103, 10.3081, 0.803579, 0, 0, -0.595198, True, '2020-07-19 00:00:00');
-/* Sath'tik Eyestalk, TYPE_CREATURE, Seen 2 times at this location. 0xb4490002 9.556643 34.86103 10.3081 0.803579 0 0 -0.595198 */
+VALUES (0x7B449135, 53375, 0xB4490002, 9.55664, 34.861, 10.3081, 0.803579, 0, 0, -0.595198,  True, '2020-07-19 00:00:00'); /* Sath'tik Eyestalk */
+/* @teleloc 0xB4490002 [9.556640 34.861000 10.308100] 0.803579 0.000000 0.000000 -0.595198 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091190, 53375, 3024683027, 57.24725, 56.98938, 9.982, 0.3632202, 0, 0, 0.9317033, True, '2020-07-19 00:00:00');
-/* Sath'tik Eyestalk, TYPE_CREATURE, Seen 2 times at this location. 0xb4490013 57.24725 56.98938 9.982 0.3632202 0 0 0.9317033 */
+VALUES (0x7B449136, 53375, 0xB4490013, 57.2472, 56.9894, 9.982, 0.36322, 0, 0, 0.931703,  True, '2020-07-19 00:00:00'); /* Sath'tik Eyestalk */
+/* @teleloc 0xB4490013 [57.247200 56.989399 9.982000] 0.363220 0.000000 0.000000 0.931703 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091195, 53375, 3024683071, 176.5943, 154.1363, 13.56296, 0.6864069, 0, 0, -0.7272177, True, '2020-07-19 00:00:00');
-/* Sath'tik Eyestalk, TYPE_CREATURE, Seen 2 times at this location. 0xb449003f 176.5943 154.1363 13.56296 0.6864069 0 0 -0.7272177 */
+VALUES (0x7B44913B, 53375, 0xB449003F, 176.594, 154.136, 13.563, 0.686407, 0, 0, -0.727218,  True, '2020-07-19 00:00:00'); /* Sath'tik Eyestalk */
+/* @teleloc 0xB449003F [176.593994 154.136002 13.563000] 0.686407 0.000000 0.000000 -0.727218 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091200, 53375, 3024683071, 181.0134, 152.2429, 15.40423, 0.686407, 0, 0, -0.727218, True, '2020-07-19 00:00:00');
-/* Sath'tik Eyestalk, TYPE_CREATURE, Seen 2 times at this location. 0xb449003f 181.0134 152.2429 15.40423 0.686407 0 0 -0.727218 */
+VALUES (0x7B449140, 53375, 0xB449003F, 181.013, 152.243, 15.4042, 0.686407, 0, 0, -0.727218,  True, '2020-07-19 00:00:00'); /* Sath'tik Eyestalk */
+/* @teleloc 0xB449003F [181.013000 152.242996 15.404200] 0.686407 0.000000 0.000000 -0.727218 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091201, 53375, 3024683010, 7.234546, 32.79758, 10.37276, 0.803579, 0, 0, -0.595198, True, '2020-07-19 00:00:00');
-/* Sath'tik Eyestalk, TYPE_CREATURE, Seen 2 times at this location. 0xb4490002 7.234546 32.79758 10.37276 0.803579 0 0 -0.595198 */
+VALUES (0x7B449141, 53375, 0xB4490002, 7.23455, 32.7976, 10.3728, 0.803579, 0, 0, -0.595198,  True, '2020-07-19 00:00:00'); /* Sath'tik Eyestalk */
+/* @teleloc 0xB4490002 [7.234550 32.797600 10.372800] 0.803579 0.000000 0.000000 -0.595198 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091202, 53375, 3024683027, 53.52116, 56.84871, 9.982, 0.3632202, 0, 0, 0.9317033, True, '2020-07-19 00:00:00');
-/* Sath'tik Eyestalk, TYPE_CREATURE, Seen 2 times at this location. 0xb4490013 53.52116 56.84871 9.982 0.3632202 0 0 0.9317033 */
+VALUES (0x7B449142, 53375, 0xB4490013, 53.5212, 56.8487, 9.982, 0.36322, 0, 0, 0.931703,  True, '2020-07-19 00:00:00'); /* Sath'tik Eyestalk */
+/* @teleloc 0xB4490013 [53.521198 56.848701 9.982000] 0.363220 0.000000 0.000000 0.931703 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091203, 53375, 3024683035, 77.39788, 65.10648, 11.33147, 0.8990651, 0, 0, 0.437815, True, '2020-07-19 00:00:00');
-/* Sath'tik Eyestalk, TYPE_CREATURE, Seen 2 times at this location. 0xb449001b 77.39788 65.10648 11.33147 0.8990651 0 0 0.437815 */
+VALUES (0x7B449143, 53375, 0xB449001B, 77.3979, 65.1065, 11.3315, 0.899065, 0, 0, 0.437815,  True, '2020-07-19 00:00:00'); /* Sath'tik Eyestalk */
+/* @teleloc 0xB449001B [77.397903 65.106499 11.331500] 0.899065 0.000000 0.000000 0.437815 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091207, 53375, 3024683035, 76.01845, 68.28912, 10.98661, 0.8990651, 0, 0, 0.437815, True, '2020-07-19 00:00:00');
-/* Sath'tik Eyestalk, TYPE_CREATURE, Seen 2 times at this location. 0xb449001b 76.01845 68.28912 10.98661 0.8990651 0 0 0.437815 */
+VALUES (0x7B449147, 53375, 0xB449001B, 76.0184, 68.2891, 10.9866, 0.899065, 0, 0, 0.437815,  True, '2020-07-19 00:00:00'); /* Sath'tik Eyestalk */
+/* @teleloc 0xB449001B [76.018402 68.289101 10.986600] 0.899065 0.000000 0.000000 0.437815 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091270, 53267, 3024683063, 164.0, 166.0, 10.1, -0.3826834, 0, 0, -0.9238796, False, '2020-07-19 00:00:00');
-/* Ancient Statue of the Viridian Root, TYPE_CREATURE, Seen 23 times at this location. 0xb4490037 164 166 10.1 -0.3826834 0 0 -0.9238796 */
+VALUES (0x7B449186, 53267, 0xB4490037, 164, 166, 10.1, -0.382683, 0, 0, -0.92388, False, '2020-07-19 00:00:00'); /* Ancient Statue of the Viridian Root */
+/* @teleloc 0xB4490037 [164.000000 166.000000 10.100000] -0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091271, 53265, 3024683056, 128.0, 180.0, 13.0, 0.0871558, 0, 0, -0.9961947, False, '2020-07-19 00:00:00');
-/* Ancient Statue of the Viridian Root, TYPE_CREATURE, Seen 25 times at this location. 0xb4490030 128 180 13 0.0871558 0 0 -0.9961947 */
+VALUES (0x7B449187, 53265, 0xB4490030, 128, 180, 13, 0.0871558, 0, 0, -0.996195, False, '2020-07-19 00:00:00'); /* Ancient Statue of the Viridian Root */
+/* @teleloc 0xB4490030 [128.000000 180.000000 13.000000] 0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091272, 53264, 3024683063, 160.0, 152.0, 10.1, -0.7933533, 0, 0, -0.6087614, False, '2020-07-19 00:00:00');
-/* Ancient Statue of the Viridian Root, TYPE_CREATURE, Seen 23 times at this location. 0xb4490037 160 152 10.1 -0.7933533 0 0 -0.6087614 */
+VALUES (0x7B449188, 53264, 0xB4490037, 160, 152, 10.1, -0.793353, 0, 0, -0.608761, False, '2020-07-19 00:00:00'); /* Ancient Statue of the Viridian Root */
+/* @teleloc 0xB4490037 [160.000000 152.000000 10.100000] -0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091273, 53269, 3024683048, 115.5, 170.0, 12.75, 0.6427876, 0, 0, -0.7660444, False, '2020-07-19 00:00:00');
-/* Ancient Statue of the Viridian Root, TYPE_CREATURE, Seen 25 times at this location. 0xb4490028 115.5 170 12.75 0.6427876 0 0 -0.7660444 */
+VALUES (0x7B449189, 53269, 0xB4490028, 115.5, 170, 12.75, 0.642788, 0, 0, -0.766044, False, '2020-07-19 00:00:00'); /* Ancient Statue of the Viridian Root */
+/* @teleloc 0xB4490028 [115.500000 170.000000 12.750000] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091274, 53268, 3024683047, 105.5, 162.0, 17.25, 0.7071068, 0, 0, -0.7071068, False, '2020-07-19 00:00:00');
-/* Ancient Statue of the Viridian Root, TYPE_CREATURE, Seen 24 times at this location. 0xb4490027 105.5 162 17.25 0.7071068 0 0 -0.7071068 */
+VALUES (0x7B44918A, 53268, 0xB4490027, 105.5, 162, 17.25, 0.707107, 0, 0, -0.707107, False, '2020-07-19 00:00:00'); /* Ancient Statue of the Viridian Root */
+/* @teleloc 0xB4490027 [105.500000 162.000000 17.250000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091275, 53263, 3024683063, 147.0, 147.5, 10.1, 1, 0, 0, 0, False, '2020-07-19 00:00:00');
-/* Ancient Statue of the Viridian Root, TYPE_CREATURE, Seen 23 times at this location. 0xb4490037 147 147.5 10.1 1 0 0 0 */
+VALUES (0x7B44918B, 53263, 0xB4490037, 147, 147.5, 10.1, 1, 0, 0, 0, False, '2020-07-19 00:00:00'); /* Ancient Statue of the Viridian Root */
+/* @teleloc 0xB4490037 [147.000000 147.500000 10.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2068091276, 7924, 3024683071, 179.9876, 150.2518, 14.97684, 0.686407, 0.0, 0.0, -0.727218, False, '2020-07-19 00:00:00');
-/* Monster Generator */
-
-DELETE FROM `landblock_instance_link` WHERE `parent_GUID` = 2068091276;
+VALUES (0x7B44918C,  7924, 0xB449003F, 179.988, 150.252, 14.9768, 0.686407, 0, 0, -0.727218, False, '2020-07-19 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+/* @teleloc 0xB449003F [179.988007 150.251999 14.976800] 0.686407 0.000000 0.000000 -0.727218 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (2068091276, 2068091171, '2020-07-19 00:00:00') /* Sath'tik Eyestalk -> Monster Generator */
-     , (2068091276, 2068091176, '2020-07-19 00:00:00') /* Sath'tik Eyestalk -> Monster Generator */
-     , (2068091276, 2068091188, '2020-07-19 00:00:00') /* Sath'tik Eyestalk -> Monster Generator */
-     , (2068091276, 2068091189, '2020-07-19 00:00:00') /* Sath'tik Eyestalk -> Monster Generator */
-     , (2068091276, 2068091190, '2020-07-19 00:00:00') /* Sath'tik Eyestalk -> Monster Generator */
-     , (2068091276, 2068091195, '2020-07-19 00:00:00') /* Sath'tik Eyestalk -> Monster Generator */
-     , (2068091276, 2068091200, '2020-07-19 00:00:00') /* Sath'tik Eyestalk -> Monster Generator */
-     , (2068091276, 2068091201, '2020-07-19 00:00:00') /* Sath'tik Eyestalk -> Monster Generator */
-     , (2068091276, 2068091202, '2020-07-19 00:00:00') /* Sath'tik Eyestalk -> Monster Generator */
-     , (2068091276, 2068091203, '2020-07-19 00:00:00') /* Sath'tik Eyestalk -> Monster Generator */
-     , (2068091276, 2068091207, '2020-07-19 00:00:00'); /* Sath'tik Eyestalk -> Monster Generator */
+VALUES (0x7B44918C, 0x7B449123, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449128, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449134, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449135, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449136, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B44913B, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449140, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449141, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449142, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449143, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B44918C, 0x7B449147, '2020-07-19 00:00:00') /* Sath'tik Eyestalk (53375) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B44918D, 72181, 0xB4490037, 147, 149.5, 10, 1, 0, 0, 0, False, '2021-03-19 11:04:25'); /* Viridian Root Portal 1 Gen */
+/* @teleloc 0xB4490037 [147.000000 149.500000 10.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B44918E, 72185, 0xB4490027, 107.5, 162, 17.355, 1, 0, 0, 0, False, '2021-03-19 11:20:23'); /* Viridian Root Portal 5 Gen */
+/* @teleloc 0xB4490027 [107.500000 162.000000 17.355000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B44918F, 72186, 0xB4490028, 117.47, 169.653, 12.855, 1, 0, 0, 0, False, '2021-03-19 11:32:53'); /* Viridian Root Portal 6 Gen */
+/* @teleloc 0xB4490028 [117.470001 169.653000 12.855000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B449190, 72182, 0xB4490037, 158.14, 152.603, 10.055, 0.814572, 0, 0, 0.580062, False, '2021-03-19 18:16:10');
+/* @teleloc 0xB4490037 [158.139999 152.602997 10.055000] 0.814572 0.000000 0.000000 0.580062 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B449191, 72183, 0xB4490037, 162.432, 164.512, 10.055, 0.379718, 0, 0, 0.925102, False, '2021-03-19 18:16:56');
+/* @teleloc 0xB4490037 [162.432007 164.511993 10.055000] 0.379718 0.000000 0.000000 0.925102 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B449192, 72186, 0xB4490030, 128.29105, 178.2173, 12.609324, -0.048381045, 0, 0, 0.99882895, False, '2021-03-19 18:17:37'); /* Viridian Root Portal 6 Gen */
+/* @teleloc 0xB4490030 [128.291046 178.217300 12.609324] -0.048381 0.000000 0.000000 0.998829 */

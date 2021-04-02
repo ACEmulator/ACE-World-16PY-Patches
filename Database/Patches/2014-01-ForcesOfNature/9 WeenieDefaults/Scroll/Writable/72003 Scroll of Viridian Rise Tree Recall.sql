@@ -8,10 +8,13 @@ VALUES (72003,   1,       8192) /* ItemType - Writable */
      , (72003,   5,         30) /* EncumbranceVal */
      , (72003,  16,          8) /* ItemUseable - Contained */
      , (72003,  19,        200) /* Value */
-     , (72003,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (72003,  33,          1) /* Bonded - Bonded */
+     , (72003,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (72003, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (72003,  22, True ) /* Inscribable */;
+VALUES (72003,  22, True ) /* Inscribable */
+     , (72003,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72003,  39,     1.5) /* DefaultScale */;
@@ -29,4 +32,4 @@ VALUES (72003,   1,   33554826) /* Setup */
      , (72003,  28,       6322) /* Spell - Viridian Rise Recall */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72003,  6322,      2) ;
+VALUES (72003,  6322,      2);
