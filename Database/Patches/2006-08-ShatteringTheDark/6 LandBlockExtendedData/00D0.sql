@@ -195,5 +195,13 @@ VALUES (0x700D002A, 33831, 0x00D00118, 83.4016, -183.327, -5.995, 0.999774, 0, 0
 /* @teleloc 0x00D00118 [83.401604 -183.326996 -5.995000] 0.999774 0.000000 0.000000 -0.021261 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700D002B, 72203, 0x00D0011D, 80.04781, -186.6423, -5.995, 0.99988014, 0, 0, -0.015484539,  True, '2021-04-03 11:17:53'); /* Sawato Bandit */
-/* @teleloc 0x00D0011D [80.047813 -186.642303 -5.995000] 0.999880 0.000000 0.000000 -0.015485 */
+VALUES (0x700D002B, 72203, 0x00D0011D, 80.0478, -186.642, -5.995, 0.99988, 0, 0, -0.0154845,  True, '2021-04-03 11:17:53'); /* Sawato Bandit */
+/* @teleloc 0x00D0011D [80.047798 -186.641998 -5.995000] 0.999880 0.000000 0.000000 -0.015484 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700D002C,  4043, 0x00D00104, 72.085, -159.948, -6.2098303, 0.707107, 0, 0, -0.707107, False, '2021-04-05 14:11:27'); /* Destroyed Sawato Portal */
+/* @teleloc 0x00D00104 [72.084999 -159.947998 -6.209830] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700D002D,  1102, 0x00D0011E, 87.9369, -159.586, -6.063, 0.707107, 0, 0, -0.707107, False, '2021-04-05 14:14:44'); /* Bandit Castle Portal */
+/* @teleloc 0x00D0011E [87.936897 -159.585999 -6.063000] 0.707107 0.000000 0.000000 -0.707107 */
