@@ -142,5 +142,5 @@ VALUES (41005, 2, 41010,  1, 0, 0, False) /* Create Lightning T'thuun Bow (41010
      , (41005, 9,     0,  0, 0, 0.30, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41005, -1, 41006, 5, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0) /* Generate Trained Great Devaurer (41006) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (41005, -1, 41006, 5, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Trained Great Devaurer (41006) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
 

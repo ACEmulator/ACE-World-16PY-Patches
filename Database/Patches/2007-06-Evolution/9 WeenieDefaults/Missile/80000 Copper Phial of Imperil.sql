@@ -1,16 +1,16 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80000;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80000, 'ace80000-copperphialofimperil', 4, '2019-08-11 00:00:00') /* Missile */;
+VALUES (80000, 'ace80000-copperphialofimperil', 4, '2021-03-06 13:00:00') /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80000,   1,        256) /* ItemType - MissileWeapon */
      , (80000,   3,         19) /* PaletteTemplate - Copper */
-     , (80000,   5,         10) /* EncumbranceVal */
+     , (80000,   5,          5) /* EncumbranceVal */
      , (80000,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (80000,  11,        250) /* MaxStackSize */
      , (80000,  12,          1) /* StackSize */
-     , (80000,  13,         10) /* StackUnitEncumbrance */
+     , (80000,  13,          5) /* StackUnitEncumbrance */
      , (80000,  15,         50) /* StackUnitValue */
      , (80000,  16,          1) /* ItemUseable - No */
      , (80000,  19,         50) /* Value */
@@ -37,19 +37,19 @@ VALUES (80000,   1, False) /* Stuck */
      , (80000,  14, True ) /* GravityStatus */
      , (80000,  17, True ) /* Inelastic */
      , (80000,  19, True ) /* Attackable */
-	 , (80000,  69, False) /* IsSellable */;
+     , (80000,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80000,  21,       0) /* WeaponLength */
      , (80000,  22,     0.5) /* DamageVariance */
      , (80000,  26,      15) /* MaximumVelocity */
-     , (80000,  29,    0.90) /* WeaponDefense */
+     , (80000,  29,    1.02) /* WeaponDefense */
      , (80000,  39,     0.5) /* DefaultScale */
      , (80000,  62,       1) /* WeaponOffense */
      , (80000,  63,       1) /* DamageMod */
      , (80000,  78,       1) /* Friction */
      , (80000,  79,       0) /* Elasticity */
-	 , (80000, 156,       1) /* ProcSpellRate */;
+     , (80000, 156,       1) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80000,   1, 'Copper Phial of Imperil') /* Name */
@@ -64,7 +64,7 @@ VALUES (80000,   1,   33560312) /* Setup */
      , (80000,   8,  100689524) /* Icon */
      , (80000,  22,  872415275) /* PhysicsEffectTable */
      , (80000,  50,  100689523) /* IconOverlay */
-     , (80000,  55,       1324) /* ProcSpell - Imperil Other 3 */;
+     , (80000,  55,       1324) /* ProcSpell - Imperil Other III */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (80000,  4017,      2) /* Phial's Accuracy */;
+VALUES (80000,  4017,      2)  /* Phial's Accuracy */;

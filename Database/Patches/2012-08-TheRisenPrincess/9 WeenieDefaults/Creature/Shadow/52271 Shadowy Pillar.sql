@@ -9,6 +9,7 @@ VALUES (52271,   1,         16) /* ItemType - Creature */
      , (52271,   7,         -1) /* ContainersCapacity */
      , (52271,  16,          1) /* ItemUseable - No */
      , (52271,  40,          1) /* CombatMode */
+     , (52271,  67,          1) /* Tolerance - NoAttack */
      , (52271,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (52271, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52271, 146,    5000000) /* XpOverride */

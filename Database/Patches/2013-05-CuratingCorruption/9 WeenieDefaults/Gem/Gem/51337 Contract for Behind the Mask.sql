@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51337;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51337, 'ace51337-contractforbehindthemask', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (51337, 'ace51337-contractforbehindthemask', 38, '2021-03-20 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51337,   1,       2048) /* ItemType - Gem */
@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51337, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (51337,   1, 'Contract for Behind the Mask') /* Name */
+VALUES (51337,   1, 'Contract for Behind The Mask') /* Name */
      , (51337,  14, 'Recommended Level: 180') /* Use */
      , (51337,  16, 'Investigate the A''mun desert and discover the Curator of Torment''s plans.') /* LongDesc */;
 

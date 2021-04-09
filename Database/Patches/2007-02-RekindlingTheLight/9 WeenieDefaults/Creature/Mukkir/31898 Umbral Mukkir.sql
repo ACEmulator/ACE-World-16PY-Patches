@@ -48,15 +48,15 @@ VALUES (31898,   1,       5) /* HeartbeatInterval */
      , (31898,  69,     0.2) /* ResistAcid */
      , (31898,  70,     0.1) /* ResistElectric */
      , (31898,  71,    0.25) /* ResistHealthBoost */
-     , (31898,  72,    0.25) /* ResistStaminaDrain */
+     , (31898,  72,       1) /* ResistStaminaDrain */
      , (31898,  73,       1) /* ResistStaminaBoost */
-     , (31898,  74,     0.5) /* ResistManaDrain */
+     , (31898,  74,       1) /* ResistManaDrain */
      , (31898,  75,       1) /* ResistManaBoost */
      , (31898,  77,       1) /* PhysicsScriptIntensity */
      , (31898, 104,      10) /* ObviousRadarRange */
      , (31898, 117,     0.6) /* FocusedProbability */
-     , (31898, 125,    0.25) /* ResistHealthDrain */
-     , (31898, 166,     0.2) /* ResistNether */;
+     , (31898, 125,       1) /* ResistHealthDrain */
+     , (31898, 166,       1) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31898,   1, 'Umbral Mukkir') /* Name */;

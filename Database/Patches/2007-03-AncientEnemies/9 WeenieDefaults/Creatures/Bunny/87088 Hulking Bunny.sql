@@ -460,4 +460,5 @@ VALUES (87088, 9, 35187,  0, 0, 1, False) /* Create Pooky Token (35187) for Cont
      , (87088, 9, 35187,  0, 0, 1, False) /* Create Pooky Token (35187) for ContainTreasure */
      , (87088, 9, 35187,  0, 0, 1, False) /* Create Pooky Token (35187) for ContainTreasure */
      , (87088, 9, 35187,  0, 0, 1, False) /* Create Pooky Token (35187) for ContainTreasure */
-     , (87088, 9, 35186,  0, 0, 1, False) /* Create Hulking Rabbit Pelt (35186) for ContainTreasure */;
+     , (87088, 9, 35186,  0, 0, 0.5, False) /* Create Hulking Rabbit Pelt (35186) for ContainTreasure */
+     , (87088, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */;

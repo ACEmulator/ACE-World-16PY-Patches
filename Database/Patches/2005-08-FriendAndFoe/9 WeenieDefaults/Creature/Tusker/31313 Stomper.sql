@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31313;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31313, 'ace31313-stomper', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (31313, 'ace31313-stomper', 10, '2021-03-20 04:44:07') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31313,   1,         16) /* ItemType - Creature */
@@ -21,11 +21,6 @@ VALUES (31313,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31313,   1, True ) /* Stuck */
-     , (31313,  11, False) /* IgnoreCollisions */
-     , (31313,  12, True ) /* ReportCollisions */
-     , (31313,  13, False) /* Ethereal */
-     , (31313,  14, True ) /* GravityStatus */
-     , (31313,  19, True ) /* Attackable */
      , (31313,  65, True ) /* IgnoreMagicResist */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -35,16 +30,16 @@ VALUES (31313,   1,       5) /* HeartbeatInterval */
      , (31313,   4,       4) /* StaminaRate */
      , (31313,   5,       2) /* ManaRate */
      , (31313,  13,     0.5) /* ArmorModVsSlash */
-     , (31313,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (31313,  15, 0.660000026226044) /* ArmorModVsBludgeon */
+     , (31313,  14,     0.8) /* ArmorModVsPierce */
+     , (31313,  15,    0.66) /* ArmorModVsBludgeon */
      , (31313,  16,       1) /* ArmorModVsCold */
-     , (31313,  17, 0.699999988079071) /* ArmorModVsFire */
+     , (31313,  17,     0.7) /* ArmorModVsFire */
      , (31313,  18,       1) /* ArmorModVsAcid */
      , (31313,  19,       1) /* ArmorModVsElectric */
      , (31313,  31,      20) /* VisualAwarenessRange */
      , (31313,  34,     2.5) /* PowerupTime */
      , (31313,  36,       1) /* ChargeSpeed */
-     , (31313,  39,     1.5) /* DefaultScale */
+     , (31313,  39,     1.3) /* DefaultScale */
      , (31313,  64,     0.5) /* ResistSlash */
      , (31313,  65,       1) /* ResistPierce */
      , (31313,  66,    0.75) /* ResistBludgeon */
@@ -53,12 +48,12 @@ VALUES (31313,   1,       5) /* HeartbeatInterval */
      , (31313,  69,    0.75) /* ResistAcid */
      , (31313,  70,    0.25) /* ResistElectric */
      , (31313,  71,       1) /* ResistHealthBoost */
-     , (31313,  72, 0.100000001490116) /* ResistStaminaDrain */
+     , (31313,  72,     0.1) /* ResistStaminaDrain */
      , (31313,  73,       1) /* ResistStaminaBoost */
-     , (31313,  74, 0.100000001490116) /* ResistManaDrain */
+     , (31313,  74,     0.1) /* ResistManaDrain */
      , (31313,  75,       1) /* ResistManaBoost */
      , (31313, 104,      10) /* ObviousRadarRange */
-     , (31313, 125, 0.100000001490116) /* ResistHealthDrain */
+     , (31313, 125,     0.1) /* ResistHealthDrain */
      , (31313, 151,       1) /* IgnoreShield */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

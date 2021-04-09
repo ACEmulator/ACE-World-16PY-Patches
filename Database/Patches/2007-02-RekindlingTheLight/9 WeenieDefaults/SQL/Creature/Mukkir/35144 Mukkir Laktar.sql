@@ -43,14 +43,14 @@ VALUES (35144,   1,       5) /* HeartbeatInterval */
      , (35144,  69,    0.42) /* ResistAcid */
      , (35144,  70,    0.25) /* ResistElectric */
      , (35144,  71,    0.25) /* ResistHealthBoost */
-     , (35144,  72,    0.25) /* ResistStaminaDrain */
+     , (35144,  72,       1) /* ResistStaminaDrain */
      , (35144,  73,       1) /* ResistStaminaBoost */
-     , (35144,  74,     0.5) /* ResistManaDrain */
+     , (35144,  74,       1) /* ResistManaDrain */
      , (35144,  75,       1) /* ResistManaBoost */
      , (35144,  77,       1) /* PhysicsScriptIntensity */
      , (35144, 104,      10) /* ObviousRadarRange */
      , (35144, 117,     0.6) /* FocusedProbability */
-     , (35144, 125,    0.25) /* ResistHealthDrain */;
+     , (35144, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35144,   1, 'Mukkir Laktar') /* Name */;

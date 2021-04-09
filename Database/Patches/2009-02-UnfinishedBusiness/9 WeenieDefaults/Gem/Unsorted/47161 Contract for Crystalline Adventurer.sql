@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47161;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (47161, 'ace47161-contractforcrystallineadventurer', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (47161, 'ace47161-contractforcrystallineadventurer', 38, '2021-03-20 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47161,   1,       2048) /* ItemType - Gem */
@@ -27,7 +27,7 @@ VALUES (47161, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47161,   1, 'Contract for Crystalline Adventurer') /* Name */
-     , (47161,  16, 'Explorer the Crystalline Crag and Destroy the Array.') /* LongDesc */;
+     , (47161,  16, 'Explore the Crystalline Crag and destroy the Array.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47161,   1,   33557625) /* Setup */

@@ -45,16 +45,16 @@ VALUES (33538,   1,       5) /* HeartbeatInterval */
      , (33538,  68,     0.2) /* ResistCold */
      , (33538,  69,     0.2) /* ResistAcid */
      , (33538,  70,     0.1) /* ResistElectric */
-     , (33538, 166,     0.2) /* ResistNether */
+     , (33538, 166,       1) /* ResistNether */
      , (33538,  71,    0.25) /* ResistHealthBoost */
-     , (33538,  72,    0.25) /* ResistStaminaDrain */
+     , (33538,  72,       1) /* ResistStaminaDrain */
      , (33538,  73,       1) /* ResistStaminaBoost */
-     , (33538,  74,     0.5) /* ResistManaDrain */
+     , (33538,  74,       1) /* ResistManaDrain */
      , (33538,  75,       1) /* ResistManaBoost */
      , (33538,  77,       1) /* PhysicsScriptIntensity */
      , (33538, 104,      10) /* ObviousRadarRange */
      , (33538, 117,     0.6) /* FocusedProbability */
-     , (33538, 125,    0.25) /* ResistHealthDrain */;
+     , (33538, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33538,   1, 'Fanatical Mukkir Ward Guardian') /* Name */;
