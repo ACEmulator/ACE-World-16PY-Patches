@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44369;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44369, 'ace44369-greaterdeadlybluntatlatldart', 5, '2020-10-30 00:00:00') /* Ammunition */;
+VALUES (44369, 'ace44369-greaterdeadlybluntatlatldart', 5, '2021-04-09 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44369,   1,        256) /* ItemType - MissileWeapon */
@@ -14,7 +14,7 @@ VALUES (44369,   1,        256) /* ItemType - MissileWeapon */
      , (44369,  15,          1) /* StackUnitValue */
      , (44369,  16,          1) /* ItemUseable - No */
      , (44369,  19,          1) /* Value */
-     , (44369,  44,         52) /* Damage */
+     , (44369,  44,         42) /* Damage */
      , (44369,  45,          4) /* DamageType - Bludgeon */
      , (44369,  50,          4) /* AmmoType - Atlatl */
      , (44369,  51,          3) /* CombatUse - Ammo */
@@ -31,7 +31,7 @@ VALUES (44369,  17, True ) /* Inelastic */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44369,  12,       0) /* Shade */
-     , (44369,  22,     0.3) /* DamageVariance */
+     , (44369,  22,     0.2) /* DamageVariance */
      , (44369,  29,       1) /* WeaponDefense */
      , (44369,  39,     1.1) /* DefaultScale */
      , (44369,  62,       1) /* WeaponOffense */
