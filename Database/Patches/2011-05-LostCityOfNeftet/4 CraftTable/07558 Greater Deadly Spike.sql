@@ -6,4 +6,4 @@ VALUES (7558, 0, 37 /* Fletching */, 325, 0, 44375 /*Greater Deadly Spike*/, 100
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7558;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7558, 44365 /* Wrapped Bundle of Greater Deadly Broad Arrowheads */,  23858 /* Bundle of Wrapped Spiketails */, '2019-12-23 21:42:55');
+VALUES (7558, 44364 /* Wrapped Bundle of Greater Deadly Arrowheads */,  23858 /* Bundle of Wrapped Spiketails */, '2019-12-23 21:42:55');
