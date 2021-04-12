@@ -83,13 +83,7 @@ VALUES (30068,   1,   33554433) /* Setup */
      , (30068,   3,  536870913) /* SoundTable */
      , (30068,   4,  805306368) /* CombatTable */
      , (30068,   6,   67108990) /* PaletteBase */
-     , (30068,   8,  100667446) /* Icon */
-     , (30068,   9,   83890480) /* EyesTexture */
-     , (30068,  10,   83890520) /* NoseTexture */
-     , (30068,  11,   83890648) /* MouthTexture */
-     , (30068,  15,   67117022) /* HairPalette */
-     , (30068,  16,   67109564) /* EyesPalette */
-     , (30068,  17,   67115906) /* SkinPalette */;
+     , (30068,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30068,   1,  20, 0, 0) /* Strength */
@@ -209,7 +203,7 @@ VALUES (30068, 2, 28606,  0, 14, 0, False) /* Create Viamontian Pants (28606) fo
      , (30068, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
      , (30068, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
      , (30068, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
-     , (30068, 4, 41403, -1, 0, 0, False) /* Create  (41403) for Shop */
+     , (30068, 4, 41403, -1, 0, 0, False) /* Create Jeweler's Saw Frame (41403) for Shop */
      , (30068, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
      , (30068, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
      , (30068, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */

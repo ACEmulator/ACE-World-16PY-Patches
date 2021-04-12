@@ -74,18 +74,12 @@ VALUES (30051,   1, 'Shopkeeper') /* Name */
      , (30051,  24, 'Eastwatch') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30051,   1,   33554433) /* Setup */
+VALUES (30051,   1,   33554510) /* Setup */
      , (30051,   2,  150994945) /* MotionTable */
      , (30051,   3,  536870913) /* SoundTable */
      , (30051,   4,  805306368) /* CombatTable */
      , (30051,   6,   67108990) /* PaletteBase */
      , (30051,   8,  100667446) /* Icon */
-     , (30051,   9,   83890511) /* EyesTexture */
-     , (30051,  10,   83890555) /* NoseTexture */
-     , (30051,  11,   83890606) /* MouthTexture */
-     , (30051,  15,   67117022) /* HairPalette */
-     , (30051,  16,   67110062) /* EyesPalette */
-     , (30051,  17,   67109554) /* SkinPalette */
      , (30051,  22,  872415381) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

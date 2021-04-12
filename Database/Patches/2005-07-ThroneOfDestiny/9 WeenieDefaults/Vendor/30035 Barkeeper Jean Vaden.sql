@@ -79,13 +79,7 @@ VALUES (30035,   1,   33554433) /* Setup */
      , (30035,   2,  150994945) /* MotionTable */
      , (30035,   3,  536870913) /* SoundTable */
      , (30035,   6,   67108990) /* PaletteBase */
-     , (30035,   8,  100667446) /* Icon */
-     , (30035,   9,   83890495) /* EyesTexture */
-     , (30035,  10,   83890557) /* NoseTexture */
-     , (30035,  11,   83890636) /* MouthTexture */
-     , (30035,  15,   67117105) /* HairPalette */
-     , (30035,  16,   67110065) /* EyesPalette */
-     , (30035,  17,   67115907) /* SkinPalette */;
+     , (30035,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30035,   1,  45, 0, 0) /* Strength */
@@ -277,6 +271,6 @@ VALUES (30035, 2,  2587,  0, 13, 0.5, False) /* Create Shirt (2587) for Wield */
      , (30035, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30035, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30035, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30035, 4, 44905, -1, 0, 0, False) /* Create Contract for The Beacon (44905) for Shop */
-     , (30035, 4, 44906, -1, 0, 0, False) /* Create Contract for The Missing Necklace (44906) for Shop */
+     , (30035, 4, 44905, -1, 0, 0, False) /* Create  (44905) for Shop */
+     , (30035, 4, 44906, -1, 0, 0, False) /* Create  (44906) for Shop */
      , (30035, 4, 44907, -1, 0, 0, False) /* Create Contract for Facilty Hub (44907) for Shop */;

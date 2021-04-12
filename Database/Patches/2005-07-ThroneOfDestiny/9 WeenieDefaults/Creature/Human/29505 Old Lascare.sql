@@ -68,7 +68,7 @@ VALUES (29505,   1, 'Old Lascare') /* Name */
      , (29505,   2, 'Livestock Handler') /* Title */
      , (29505,   3, 'Male') /* Sex */
      , (29505,   4, 'Viamontian') /* HeritageGroup */
-     , (29505,   5, 'Knight of Karlun') /* Template */;
+     , (29505,   5, 'Livestock Handler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29505,   1,   33554433) /* Setup */
@@ -77,8 +77,7 @@ VALUES (29505,   1,   33554433) /* Setup */
      , (29505,   4,  805306368) /* CombatTable */
      , (29505,   6,   67108990) /* PaletteBase */
      , (29505,   7,  268435545) /* ClothingBase */
-     , (29505,   8,  100667446) /* Icon */
-     , (29505,  17,   67115902) /* SkinPalette */;
+     , (29505,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29505,   1, 170, 0, 0) /* Strength */
@@ -96,8 +95,8 @@ VALUES (29505,   1,   300, 0, 0, 400) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (29505,  6, 0, 2, 0,   2, 0, 0) /* MeleeDefense        Trained */
      , (29505,  7, 0, 2, 0,   2, 0, 0) /* MissileDefense      Trained */
-     , (29505, 45, 0, 2, 0,   2, 0, 0) /* LightWeapons        Trained */
-     , (29505, 35, 0, 3, 0, 120, 0, 0) /* Leadership          Specialized */;
+     , (29505, 35, 0, 3, 0, 120, 0, 0) /* Leadership          Specialized */
+     , (29505, 45, 0, 2, 0,   2, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (29505,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

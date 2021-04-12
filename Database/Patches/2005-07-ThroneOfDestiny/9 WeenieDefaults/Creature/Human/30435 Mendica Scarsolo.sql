@@ -62,21 +62,17 @@ VALUES (30435,   3, 0.159999996423721) /* HealthRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30435,   1, 'Mendica Scarsolo') /* Name */
+     , (30435,   2, 'Beggar') /* Title */
      , (30435,   3, 'Male') /* Sex */
-     , (30435,   4, 'Viamontian') /* HeritageGroup */;
+     , (30435,   4, 'Viamontian') /* HeritageGroup */
+     , (30435,   5, 'Beggar') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30435,   1,   33554433) /* Setup */
      , (30435,   2,  150994945) /* MotionTable */
      , (30435,   3,  536870913) /* SoundTable */
      , (30435,   6,   67108990) /* PaletteBase */
-     , (30435,   8,  100667377) /* Icon */
-     , (30435,   9,   83890515) /* EyesTexture */
-     , (30435,  10,   83890546) /* NoseTexture */
-     , (30435,  11,   83890667) /* MouthTexture */
-     , (30435,  15,   67117070) /* HairPalette */
-     , (30435,  16,   67110065) /* EyesPalette */
-     , (30435,  17,   67115908) /* SkinPalette */;
+     , (30435,   8,  100667377) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30435,   1,  60, 0, 0) /* Strength */

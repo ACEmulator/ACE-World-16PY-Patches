@@ -80,13 +80,7 @@ VALUES (30033,   1,   33554510) /* Setup */
      , (30033,   2,  150994945) /* MotionTable */
      , (30033,   3,  536870914) /* SoundTable */
      , (30033,   6,   67108990) /* PaletteBase */
-     , (30033,   8,  100667446) /* Icon */
-     , (30033,   9,   83890278) /* EyesTexture */
-     , (30033,  10,   83890311) /* NoseTexture */
-     , (30033,  14,   83890353) /* DefaultMouthTexture */
-     , (30033,  15,   67116989) /* HairPalette */
-     , (30033,  16,   67109564) /* EyesPalette */
-     , (30033,  17,   67115908) /* SkinPalette */;
+     , (30033,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30033,   1,  45, 0, 0) /* Strength */
@@ -256,7 +250,7 @@ VALUES (30033, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (30033, 2, 30740,  0, 0, 0, False) /* Create Tiara (30740) for Wield */
      , (30033, 2,  8871,  0, 85, 0.5, False) /* Create Kireth Gown with Band (8871) for Wield */
      , (30033, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
-     , (30033, 4, 41403, -1, 0, 0, False) /* Create  (41403) for Shop */
+     , (30033, 4, 41403, -1, 0, 0, False) /* Create Jeweler's Saw Frame (41403) for Shop */
      , (30033, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
      , (30033, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
      , (30033, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */
