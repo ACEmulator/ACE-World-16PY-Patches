@@ -14,7 +14,7 @@ VALUES (44377,   1,        256) /* ItemType - MissileWeapon */
      , (44377,  15,          1) /* StackUnitValue */
      , (44377,  16,          1) /* ItemUseable - No */
      , (44377,  19,          1) /* Value */
-     , (44377,  44,         42) /* Damage */
+     , (44377,  44,         52) /* Damage */
      , (44377,  45,          2) /* DamageType - Pierce */
      , (44377,  50,          4) /* AmmoType - Atlatl */
      , (44377,  51,          3) /* CombatUse - Ammo */
