@@ -22,8 +22,7 @@ VALUES (44034,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44034,   1, True ) /* Stuck */
      , (44034,   6, True ) /* AiUsesMana */
-     , (44034,  10, True ) /* AttackerAi */
-     , (44034,  58, True ) /* SpellQueueActive */;
+     , (44034,  10, True ) /* AttackerAi */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44034,   1,       5) /* HeartbeatInterval */
@@ -64,10 +63,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44034,   1,   33561254) /* Setup */
      , (44034,   2,  150995073) /* MotionTable */
      , (44034,   3,  536870933) /* SoundTable */
+     , (44034,   4,  805306376) /* CombatTable */
      , (44034,   6,   67112775) /* PaletteBase */
      , (44034,   7,  268435984) /* ClothingBase */
      , (44034,   8,  100667940) /* Icon */
-     , (44034,   4,  805306376) /* CombatTable */
      , (44034,  22,  872415329) /* PhysicsEffectTable */
      , (44034,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
@@ -106,13 +105,21 @@ VALUES (44034,  0,  4,  0,    0,  500,  250,  150,  275,  250,  100,  250,  150,
      , (44034,  8,  4, 450, 0.75,  500,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44034,  5542,   2.06)  /* Burning Sands Infliction */
-     , (44034,  5543,   2.06)  /* Curse of the Burning Sands */
+VALUES (44034,  3948,   2.06)  /* Flame Wave */
      , (44034,  4312,   2.06)  /* Incantation of Imperil Other */
+     , (44034,  4643,   2.06)  /* Incantation of Drain Health Other */
+     , (44034,  4645,   2.06)  /* Incantation of Drain Stamina Other */
      , (44034,  5011,   2.06)  /* Geomantic Raze */
-     , (44034,  3948,   2.06)  /* Flame Wave */
-     , (44034,  4643,   2.06)  /* Incantation of Drain Health */
-     , (44034,  4645,   2.06)  /* Incantation of Drain Stamina Other */;
+     , (44034,  5542,   2.06)  /* Burning Sands Infliction */
+     , (44034,  5543,   2.06)  /* Curse of the Burning Sands */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (44034,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44034,  5 /* HeartBeat */,  0.075, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
@@ -131,25 +138,14 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44034,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44034, 1, 24517, -1, 3, 3, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Small Sand Golem (24517) (x3)  - Location to (re)Generate: Scatter */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44034, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44034, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (44034, 9, 48941,  1, 0, 0.05, False) /* Create Burning Sands Golem Heart for ContainTreasure */
+     , (44034, 9, 48941,  1, 0, 0.05, False) /* Create Burning Sands Golem Heart (48941) for ContainTreasure */
      , (44034, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (44034, 9, 41979,  1, 0, 0.1, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
      , (44034, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (44034, 9,  6353,  1, 0, 0.05, False) /* Pyreal mote for ContainTreasure */
+     , (44034, 9,  6353,  1, 0, 0.05, False) /* Create Pyreal Mote (6353) for ContainTreasure */
      , (44034, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (44034, 9, 44293,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Staff (Level 180+) (44293) for ContainTreasure */
      , (44034, 9, 44296,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Idol (Level 180+) (44296) for ContainTreasure */
@@ -157,3 +153,5 @@ VALUES (44034, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44034, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44034, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
 
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (44034, 1, 87018, -1, 3, 3, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Small Sand Golem (87018) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
