@@ -10,7 +10,7 @@ VALUES (40784,   1,         16) /* ItemType - Creature */
      , (40784,   7,         -1) /* ContainersCapacity */
      , (40784,  16,          1) /* ItemUseable - No */
      , (40784,  25,        135) /* Level */
-     , (40784,  40,          2) /* CombatMode - Melee */  
+     , (40784,  40,          2) /* CombatMode - Melee */
      , (40784,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (40784, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (40784, 146,     250000) /* XpOverride */;
@@ -31,9 +31,9 @@ VALUES (40784,   1,       5) /* HeartbeatInterval */
      , (40784,   3,     0.4) /* HealthRate */
      , (40784,   4,       5) /* StaminaRate */
      , (40784,   5,       1) /* ManaRate */
-     , (40784,  13,    0.84) /* ArmorModVsSlash */
-     , (40784,  14,    0.84) /* ArmorModVsPierce */
-     , (40784,  15,    0.84) /* ArmorModVsBludgeon */
+     , (40784,  13,     0.8) /* ArmorModVsSlash */
+     , (40784,  14,       1) /* ArmorModVsPierce */
+     , (40784,  15,     0.8) /* ArmorModVsBludgeon */
      , (40784,  16,       2) /* ArmorModVsCold */
      , (40784,  17,       2) /* ArmorModVsFire */
      , (40784,  18,       2) /* ArmorModVsAcid */
@@ -42,9 +42,9 @@ VALUES (40784,   1,       5) /* HeartbeatInterval */
      , (40784,  34,       1) /* PowerupTime */
      , (40784,  36,       1) /* ChargeSpeed */
      , (40784,  39,     1.3) /* DefaultScale */
-     , (40784,  64,     0.9) /* ResistSlash */
+     , (40784,  64,     1.2) /* ResistSlash */
      , (40784,  65,     0.9) /* ResistPierce */
-     , (40784,  66,     0.9) /* ResistBludgeon */
+     , (40784,  66,     1.3) /* ResistBludgeon */
      , (40784,  67,     0.3) /* ResistFire */
      , (40784,  68,     0.3) /* ResistCold */
      , (40784,  69,     0.3) /* ResistAcid */
@@ -105,7 +105,7 @@ VALUES (40784,     69,   2.17)  /* Shockwave VI */
      , (40784,   1160,    2.1)  /* Heal Self V */
      , (40784,   1240,      2)  /* Drain Health Other IV */
      , (40784,   1252,      2)  /* Drain Stamina Other IV */
-     , (40784,   1263,      2)  /* Drain Mana Other IV */; 
-     
+     , (40784,   1263,      2)  /* Drain Mana Other IV */;
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40784, 9, 40796,  1, 0, 0, False) /* Create Progenitor Crystal (40796) for ContainTreasure */;

@@ -10,7 +10,7 @@ VALUES (40864,   1,         16) /* ItemType - Creature */
      , (40864,   7,         -1) /* ContainersCapacity */
      , (40864,  16,          1) /* ItemUseable - No */
      , (40864,  25,        110) /* Level */
-     , (40864,  40,          2) /* CombatMode - Melee */  
+     , (40864,  40,          2) /* CombatMode - Melee */
      , (40864,  67,        160) /* Tolerance - Target, Monster */
      , (40864,  68,         13) /* TargetingTactic - Focused */
      , (40864,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
@@ -30,9 +30,9 @@ VALUES (40864,   1,       5) /* HeartbeatInterval */
      , (40864,   3,     0.4) /* HealthRate */
      , (40864,   4,       5) /* StaminaRate */
      , (40864,   5,       1) /* ManaRate */
-     , (40864,  13,    0.84) /* ArmorModVsSlash */
-     , (40864,  14,       2) /* ArmorModVsPierce */
-     , (40864,  15,    0.84) /* ArmorModVsBludgeon */
+     , (40864,  13,     0.5) /* ArmorModVsSlash */
+     , (40864,  14,    0.75) /* ArmorModVsPierce */
+     , (40864,  15,     0.5) /* ArmorModVsBludgeon */
      , (40864,  16,       2) /* ArmorModVsCold */
      , (40864,  17,       2) /* ArmorModVsFire */
      , (40864,  18,       2) /* ArmorModVsAcid */
@@ -41,9 +41,9 @@ VALUES (40864,   1,       5) /* HeartbeatInterval */
      , (40864,  34,       1) /* PowerupTime */
      , (40864,  36,       1) /* ChargeSpeed */
      , (40864,  39,     1.3) /* DefaultScale */
-     , (40864,  64,     0.9) /* ResistSlash */
-     , (40864,  65,     0.3) /* ResistPierce */
-     , (40864,  66,     0.9) /* ResistBludgeon */
+     , (40864,  64,     1.8) /* ResistSlash */
+     , (40864,  65,     1.3) /* ResistPierce */
+     , (40864,  66,     1.9) /* ResistBludgeon */
      , (40864,  67,     0.3) /* ResistFire */
      , (40864,  68,     0.3) /* ResistCold */
      , (40864,  69,     0.3) /* ResistAcid */
@@ -92,7 +92,7 @@ VALUES (40864,  6, 0, 3, 0, 223, 0, 0) /* MeleeDefense        Specialized */
      , (40864, 24, 0, 3, 0, 320, 0, 0) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (40864,  0,   8, -30, 0.75,   140,   100,   200,   100,   200,   200,  200,   200,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (40864, 16,  32,   0,    0,   140,   100,   200,   100,   200,   200,  200,   200,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (40864, 17,  32, -30, 0.75,   120,   100,   200,   100,   200,   200,  200,   200,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (40864, 21,  32,   0,    0,   110,    40,    34,    34,    34,    34,   80,    34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (40864,  0,   4, -30, 0.75,   140,   100,   200,   100,   200,   200,  200,   200,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (40864, 16,   4,   0,    0,   140,   100,   200,   100,   200,   200,  200,   200,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (40864, 17,   4, -30, 0.75,   120,   100,   200,   100,   200,   200,  200,   200,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (40864, 21,   4,   0,    0,   110,    40,    34,    34,    34,    34,   80,    34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;

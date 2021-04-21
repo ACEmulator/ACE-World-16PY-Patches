@@ -10,7 +10,7 @@ VALUES (40484,   1,         16) /* ItemType - Creature */
      , (40484,   7,         -1) /* ContainersCapacity */
      , (40484,  16,          1) /* ItemUseable - No */
      , (40484,  25,        115) /* Level */
-     , (40484,  40,          2) /* CombatMode - Melee */      
+     , (40484,  40,          2) /* CombatMode - Melee */
      , (40484,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (40484, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (40484, 146,     250000) /* XpOverride */	  ;
@@ -31,9 +31,9 @@ VALUES (40484,   1,       5) /* HeartbeatInterval */
      , (40484,   3,     0.4) /* HealthRate */
      , (40484,   4,       5) /* StaminaRate */
      , (40484,   5,       1) /* ManaRate */
-     , (40484,  13,    0.84) /* ArmorModVsSlash */
-     , (40484,  14,       2) /* ArmorModVsPierce */
-     , (40484,  15,    0.84) /* ArmorModVsBludgeon */
+     , (40484,  13,     0.8) /* ArmorModVsSlash */
+     , (40484,  14,       1) /* ArmorModVsPierce */
+     , (40484,  15,     0.8) /* ArmorModVsBludgeon */
      , (40484,  16,       2) /* ArmorModVsCold */
      , (40484,  17,       2) /* ArmorModVsFire */
      , (40484,  18,       2) /* ArmorModVsAcid */
@@ -42,11 +42,11 @@ VALUES (40484,   1,       5) /* HeartbeatInterval */
      , (40484,  34,       1) /* PowerupTime */
      , (40484,  36,       1) /* ChargeSpeed */
      , (40484,  39,     1.3) /* DefaultScale */
-     , (40484,  64,     0.9) /* ResistSlash */
-     , (40484,  65,     0.3) /* ResistPierce */
-     , (40484,  66,     0.3) /* ResistBludgeon */
+     , (40484,  64,     1.2) /* ResistSlash */
+     , (40484,  65,     0.9) /* ResistPierce */
+     , (40484,  66,     1.3) /* ResistBludgeon */
      , (40484,  67,     0.3) /* ResistFire */
-     , (40484,  68,     0.9) /* ResistCold */
+     , (40484,  68,     0.3) /* ResistCold */
      , (40484,  69,     0.3) /* ResistAcid */
      , (40484,  70,     0.3) /* ResistElectric */
      , (40484,  71,       1) /* ResistHealthBoost */
@@ -66,7 +66,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40484,   1,   33558820) /* Setup */
      , (40484,   2,  150995087) /* MotionTable */
      , (40484,   3,  536870985) /* SoundTable */
-     , (40484,   4,  805306368) /* CombatTable */       
+     , (40484,   4,  805306368) /* CombatTable */
      , (40484,   8,  100671683) /* Icon */
      , (40484,  22,  872415274) /* PhysicsEffectTable */
      , (40484,  35,         20) /* DeathTreasureType - Loot Tier: 6 */	 	  ;
@@ -97,10 +97,10 @@ VALUES (40484,  6, 0, 3, 0, 223, 0, 0) /* MeleeDefense        Specialized */
      , (40484, 34, 0, 3, 0, 275, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (40484,  0, 32, 50,  0.5,   140,   100,   200,   100,   200,   200,  200,   200,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (40484, 16, 32,  0,    0,   140,   100,   200,   100,   200,   200,  200,   200,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (40484, 17, 32,  5, 0.75,   120,   100,   200,   100,   200,   200,  200,   200,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (40484, 21, 32,  0,    0,   110,   40,   34,   34,   34,   34,   80,   34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (40484,  0,  4, 50,  0.5,   140,   100,   200,   100,   200,   200,  200,   200,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (40484, 16,  4,  0,    0,   140,   100,   200,   100,   200,   200,  200,   200,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (40484, 17,  4,  5, 0.75,   120,   100,   200,   100,   200,   200,  200,   200,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (40484, 21,  4,  0,    0,   110,   40,   34,   34,   34,   34,   80,   34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40484,    118,   2.17)  /* Flame Blast VI */
@@ -112,4 +112,3 @@ VALUES (40484,    118,   2.17)  /* Flame Blast VI */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40484, 9, 40487,  0, 0, 1, False) /* Create Giant Aggregate Crystalline Shard for ContainTreasure */	  ;
-     
