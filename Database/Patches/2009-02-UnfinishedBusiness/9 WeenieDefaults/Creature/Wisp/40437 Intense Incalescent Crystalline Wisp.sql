@@ -43,8 +43,8 @@ VALUES (40437,   1,       5) /* HeartbeatInterval */
      , (40437,  36,       1) /* ChargeSpeed */
      , (40437,  39,     1.3) /* DefaultScale */
      , (40437,  64,     1.1) /* ResistSlash */
-     , (40437,  65,     1.2) /* ResistPierce */
-     , (40437,  66,     1.1) /* ResistBludgeon */
+     , (40437,  65,     1.1) /* ResistPierce */
+     , (40437,  66,     0.9) /* ResistBludgeon */
      , (40437,  67,     0.3) /* ResistFire */
      , (40437,  68,     1.3) /* ResistCold */
      , (40437,  69,     0.3) /* ResistAcid */

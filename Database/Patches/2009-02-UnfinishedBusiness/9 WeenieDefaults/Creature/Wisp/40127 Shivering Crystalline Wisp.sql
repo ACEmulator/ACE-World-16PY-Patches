@@ -45,7 +45,7 @@ VALUES (40127,   1,       5) /* HeartbeatInterval */
      , (40127,  39,     1.3) /* DefaultScale */
      , (40127,  64,     1.2) /* ResistSlash */
      , (40127,  65,     0.9) /* ResistPierce */
-     , (40127,  66,     1.3) /* ResistBludgeon */
+     , (40127,  66,     1.1) /* ResistBludgeon */
      , (40127,  67,     0.9) /* ResistFire */
      , (40127,  68,     0.3) /* ResistCold */
      , (40127,  69,     0.3) /* ResistAcid */
