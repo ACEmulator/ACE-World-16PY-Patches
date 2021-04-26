@@ -8,7 +8,7 @@ VALUES (32834,   1,         16) /* ItemType - Creature */
      , (32834,   2,         31) /* CreatureType - Human */
      , (32834,   6,         -1) /* ItemsCapacity */
      , (32834,   7,         -1) /* ContainersCapacity */
-     , (32834,  16,          1) /* ItemUseable - No */
+     , (32834,  16,         32) /* ItemUseable - Remote */
      , (32834,  25,        100) /* Level */
      , (32834,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32834,  95,          8) /* RadarBlipColor - Yellow */

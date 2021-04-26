@@ -14,7 +14,7 @@ VALUES (30037,   1,         16) /* ItemType - Creature */
      , (30037,  27,          0) /* ArmorType - None */
      , (30037,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (30037,  75,          0) /* MerchandiseMinValue */
-     , (30037,  76,      25000) /* MerchandiseMaxValue */
+     , (30037,  76,    1000000) /* MerchandiseMaxValue */
      , (30037,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30037, 113,          1) /* Gender - Male */
      , (30037, 126,        500) /* VendorHappyMean */
@@ -39,19 +39,19 @@ VALUES (30037,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30037,   1,       5) /* HeartbeatInterval */
      , (30037,   2,       0) /* HeartbeatTimestamp */
-     , (30037,   3, 0.159999996423721) /* HealthRate */
+     , (30037,   3,    0.16) /* HealthRate */
      , (30037,   4,       5) /* StaminaRate */
      , (30037,   5,       1) /* ManaRate */
      , (30037,  11,     300) /* ResetInterval */
-     , (30037,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (30037,  13,     0.9) /* ArmorModVsSlash */
      , (30037,  14,       1) /* ArmorModVsPierce */
-     , (30037,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (30037,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (30037,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (30037,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30037,  16,     0.4) /* ArmorModVsCold */
+     , (30037,  17,     0.4) /* ArmorModVsFire */
      , (30037,  18,       1) /* ArmorModVsAcid */
-     , (30037,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (30037,  37, 0.899999976158142) /* BuyPrice */
-     , (30037,  38, 1.35000002384186) /* SellPrice */
+     , (30037,  19,     0.6) /* ArmorModVsElectric */
+     , (30037,  37,     0.9) /* BuyPrice */
+     , (30037,  38,    1.35) /* SellPrice */
      , (30037,  54,       3) /* UseRadius */
      , (30037,  64,       1) /* ResistSlash */
      , (30037,  65,       1) /* ResistPierce */

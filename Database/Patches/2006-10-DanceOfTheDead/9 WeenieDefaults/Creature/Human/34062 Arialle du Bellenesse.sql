@@ -6,8 +6,8 @@ VALUES (34062, 'ace34062-arialledubellenesse', 10, '2020-04-07 23:37:09') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34062,   1,         16) /* ItemType - Creature */
      , (34062,   2,         31) /* CreatureType - Human */
-     , (34062,   6,        255) /* ItemsCapacity */
-     , (34062,   7,        255) /* ContainersCapacity */
+     , (34062,   6,         -1) /* ItemsCapacity */
+     , (34062,   7,         -1) /* ContainersCapacity */
      , (34062,  16,         32) /* ItemUseable - Remote */
      , (34062,  25,        150) /* Level */
      , (34062,  67,         40) /* Tolerance - Provoke, Target */

@@ -74,7 +74,7 @@ VALUES (28680,   1,   33554433) /* Setup */
      , (28680,   4,  805306368) /* CombatTable */
      , (28680,   6,   67108990) /* PaletteBase */
      , (28680,   7,  268435545) /* ClothingBase */
-     , (28680,   8,  100667446) /* Icon */;
+     , (28680,   8,  100667377) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28680,   1,  60, 0, 0) /* Strength */

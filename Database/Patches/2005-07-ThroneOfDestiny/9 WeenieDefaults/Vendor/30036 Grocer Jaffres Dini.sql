@@ -14,7 +14,7 @@ VALUES (30036,   1,         16) /* ItemType - Creature */
      , (30036,  27,          0) /* ArmorType - None */
      , (30036,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
      , (30036,  75,          0) /* MerchandiseMinValue */
-     , (30036,  76,      25000) /* MerchandiseMaxValue */
+     , (30036,  76,    1000000) /* MerchandiseMaxValue */
      , (30036,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30036, 113,          1) /* Gender - Male */
      , (30036, 126,        500) /* VendorHappyMean */
@@ -39,19 +39,19 @@ VALUES (30036,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30036,   1,       5) /* HeartbeatInterval */
      , (30036,   2,       0) /* HeartbeatTimestamp */
-     , (30036,   3, 0.159999996423721) /* HealthRate */
+     , (30036,   3,    0.16) /* HealthRate */
      , (30036,   4,       5) /* StaminaRate */
      , (30036,   5,       1) /* ManaRate */
      , (30036,  11,     300) /* ResetInterval */
-     , (30036,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (30036,  13,     0.9) /* ArmorModVsSlash */
      , (30036,  14,       1) /* ArmorModVsPierce */
-     , (30036,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (30036,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (30036,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (30036,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30036,  16,     0.4) /* ArmorModVsCold */
+     , (30036,  17,     0.4) /* ArmorModVsFire */
      , (30036,  18,       1) /* ArmorModVsAcid */
-     , (30036,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (30036,  37, 0.899999976158142) /* BuyPrice */
-     , (30036,  38, 1.35000002384186) /* SellPrice */
+     , (30036,  19,     0.6) /* ArmorModVsElectric */
+     , (30036,  37,     0.9) /* BuyPrice */
+     , (30036,  38,    1.35) /* SellPrice */
      , (30036,  54,       3) /* UseRadius */
      , (30036,  64,       1) /* ResistSlash */
      , (30036,  65,       1) /* ResistPierce */
@@ -77,7 +77,7 @@ VALUES (30036,   1, 'Grocer Jaffres Dini') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30036,   1,   33554433) /* Setup */
      , (30036,   2,  150994945) /* MotionTable */
-     , (30036,   3,  536870914) /* SoundTable */
+     , (30036,   3,  536870913) /* SoundTable */
      , (30036,   6,   67108990) /* PaletteBase */
      , (30036,   8,  100667446) /* Icon */;
 

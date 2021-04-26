@@ -42,7 +42,7 @@ VALUES (28707,   3, 0.159999996423721) /* HealthRate */
      , (28707,  17, 0.400000005960464) /* ArmorModVsFire */
      , (28707,  18,       1) /* ArmorModVsAcid */
      , (28707,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (28707,  54,       4) /* UseRadius */
+     , (28707,  54,       3) /* UseRadius */
      , (28707,  64,       1) /* ResistSlash */
      , (28707,  65,       1) /* ResistPierce */
      , (28707,  66,       1) /* ResistBludgeon */

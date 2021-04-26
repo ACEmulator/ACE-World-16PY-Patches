@@ -13,7 +13,7 @@ VALUES (30071,   1,         16) /* ItemType - Creature */
      , (30071,  25,          7) /* Level */
      , (30071,  74,     831488) /* MerchandiseItemTypes - SpellComponents, Writable, Caster, PromissoryNote, ManaStone */
      , (30071,  75,          0) /* MerchandiseMinValue */
-     , (30071,  76,     100000) /* MerchandiseMaxValue */
+     , (30071,  76,    1000000) /* MerchandiseMaxValue */
      , (30071,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30071, 113,          1) /* Gender - Male */
      , (30071, 126,        500) /* VendorHappyMean */
@@ -38,19 +38,19 @@ VALUES (30071,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30071,   1,       5) /* HeartbeatInterval */
      , (30071,   2,       0) /* HeartbeatTimestamp */
-     , (30071,   3, 0.159999996423721) /* HealthRate */
+     , (30071,   3,    0.16) /* HealthRate */
      , (30071,   4,       5) /* StaminaRate */
      , (30071,   5,       1) /* ManaRate */
      , (30071,  11,     300) /* ResetInterval */
-     , (30071,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (30071,  13,     0.9) /* ArmorModVsSlash */
      , (30071,  14,       1) /* ArmorModVsPierce */
-     , (30071,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (30071,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (30071,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (30071,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30071,  16,     0.4) /* ArmorModVsCold */
+     , (30071,  17,     0.4) /* ArmorModVsFire */
      , (30071,  18,       1) /* ArmorModVsAcid */
-     , (30071,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (30071,  37, 0.800000011920929) /* BuyPrice */
-     , (30071,  38, 1.70000004768372) /* SellPrice */
+     , (30071,  19,     0.6) /* ArmorModVsElectric */
+     , (30071,  37,     0.8) /* BuyPrice */
+     , (30071,  38,     1.7) /* SellPrice */
      , (30071,  54,       3) /* UseRadius */
      , (30071, 104,      10) /* ObviousRadarRange */
      , (30071, 125,       1) /* ResistHealthDrain */;

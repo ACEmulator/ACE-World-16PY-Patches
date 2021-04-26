@@ -39,19 +39,19 @@ VALUES (30070,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30070,   1,       5) /* HeartbeatInterval */
      , (30070,   2,       0) /* HeartbeatTimestamp */
-     , (30070,   3, 0.159999996423721) /* HealthRate */
+     , (30070,   3,    0.16) /* HealthRate */
      , (30070,   4,       5) /* StaminaRate */
      , (30070,   5,       1) /* ManaRate */
      , (30070,  11,     300) /* ResetInterval */
-     , (30070,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (30070,  13,     0.9) /* ArmorModVsSlash */
      , (30070,  14,       1) /* ArmorModVsPierce */
-     , (30070,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (30070,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (30070,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (30070,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30070,  16,     0.4) /* ArmorModVsCold */
+     , (30070,  17,     0.4) /* ArmorModVsFire */
      , (30070,  18,       1) /* ArmorModVsAcid */
-     , (30070,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (30070,  37, 0.800000011920929) /* BuyPrice */
-     , (30070,  38, 1.70000004768372) /* SellPrice */
+     , (30070,  19,     0.6) /* ArmorModVsElectric */
+     , (30070,  37,     0.8) /* BuyPrice */
+     , (30070,  38,     1.7) /* SellPrice */
      , (30070,  54,       3) /* UseRadius */
      , (30070,  64,       1) /* ResistSlash */
      , (30070,  65,       1) /* ResistPierce */
