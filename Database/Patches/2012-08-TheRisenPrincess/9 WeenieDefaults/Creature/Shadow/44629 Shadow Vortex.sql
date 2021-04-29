@@ -18,7 +18,8 @@ VALUES (44629,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44629,   1, True ) /* Stuck */
-     , (44629,   6, True ) /* AiUsesMana */;
+     , (44629,   6, True ) /* AiUsesMana */
+     , (44629,  29, True ) /* NoCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44629,   1,       5) /* HeartbeatInterval */

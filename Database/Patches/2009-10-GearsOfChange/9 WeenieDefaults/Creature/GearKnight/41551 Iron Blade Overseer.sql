@@ -10,6 +10,8 @@ VALUES (41551,   1,         16) /* ItemType - Creature */
      , (41551,   7,        255) /* ContainersCapacity */
      , (41551,  16,          1) /* ItemUseable - No */
      , (41551,  25,        300) /* Level */
+     , (41551,  81,          1) /* MaxGeneratedObjects */
+     , (41551,  82,          0) /* InitGeneratedObjects */
      , (41551,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41551, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (41551, 146,   18000000) /* XpOverride */;
@@ -38,6 +40,8 @@ VALUES (41551,   1,       5) /* HeartbeatInterval */
      , (41551,  34,       1) /* PowerupTime */
      , (41551,  36,       1) /* ChargeSpeed */
      , (41551,  39,     1.6) /* DefaultScale */
+     , (41551,  41,       0) /* RegenerationInterval */
+     , (41551,  43,      14) /* GeneratorRadius */
      , (41551,  64,     0.5) /* ResistSlash */
      , (41551,  65,     0.5) /* ResistPierce */
      , (41551,  66,     0.5) /* ResistBludgeon */
@@ -56,7 +60,7 @@ VALUES (41551,   1,   33560865) /* Setup */
      , (41551,   4,  805306368) /* CombatTable */
      , (41551,   8,  100674350) /* Icon */
      , (41551,  22,  872415269) /* PhysicsEffectTable */
-     , (41551,  35,       1011) /* DeathTreasureType */;
+     , (41551,  35,       1011) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (41551,   1, 485, 0, 0) /* Strength */
@@ -105,10 +109,13 @@ VALUES (41551,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  72 /* Generate */, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 1, 0, 0, 0);
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (41551, 1, 70350, 0, 1, 1, 4, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Large Shattered Aetherium Core (70350) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41551, 9, 41528,  1, 0, 0.8, True) /* Create  (41528) for ContainTreasure */
+VALUES (41551, 9, 41528,  1, 0, 0.8, True) /* Create Aetherium Power Core (41528) for ContainTreasure */
      , (41551, 9,     0,  1, 0, 0.2, False) /* Create nothing for ContainTreasure */
      , (41551, 9, 42114,  1, 0, 0.8, True) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
      , (41551, 9,     0,  1, 0, 0.2, False) /* Create nothing for ContainTreasure */
@@ -120,6 +127,4 @@ VALUES (41551, 9, 41528,  1, 0, 0.8, True) /* Create  (41528) for ContainTreasur
      , (41551, 9,     0,  1, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (41551, 10, 41611,  1, 0, 1, True) /* Create  (41611) for WieldTreasure */;
 
-INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41551, 1, 70350, 0, 1, 1, 4, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate  (70350) (x1 up to max of 1) - Regenerate upon Death - Location to (re)Generate: Scatter */;
 

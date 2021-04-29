@@ -67,7 +67,8 @@ VALUES (30902,   1,       5) /* HeartbeatInterval */
      , (30902, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30902,   1, 'Banished Mu-miyah') /* Name */;
+VALUES (30902,   1, 'Banished Mu-miyah') /* Name */
+     , (30902,  45, 'KilltaskBanishedCreature_0609') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30902,   1,   33554433) /* Setup */

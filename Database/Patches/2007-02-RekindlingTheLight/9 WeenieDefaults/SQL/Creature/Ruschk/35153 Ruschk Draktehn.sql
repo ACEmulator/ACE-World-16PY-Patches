@@ -59,7 +59,7 @@ VALUES (35153,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35153,   1, 'Ruschk Draktehn') /* Name */
-     , (35153,  45, 'ruschkkillcount') /* KillQuest */;
+     , (35153,  45, 'KillTaskRuschk_0301') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35153,   1,   33559104) /* Setup */
@@ -70,13 +70,13 @@ VALUES (35153,   1,   33559104) /* Setup */
      , (35153,   7,  268436946) /* ClothingBase */
      , (35153,   8,  100677373) /* Icon */
      , (35153,  22,  872415364) /* PhysicsEffectTable */
-     , (35153,  32,        488) /* WieldedTreasureType -
+     , (35153,  32,        488) /* WieldedTreasureType - 
                                    Wield Stone Mace (29997) | Probability: 20%
                                    Wield Bone Dagger (30002) | Probability: 20%
                                    Wield Stone Hatchet (30007) | Probability: 20%
                                    Wield Stone Spear (29987) | Probability: 20%
                                    Wield Bone Sword (29992) | Probability: 20% */
-     , (35153,  35,       1000) /* DeathTreasureType */;
+     , (35153,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35153,   1, 500, 0, 0) /* Strength */
@@ -92,18 +92,18 @@ VALUES (35153,   1,  3000, 0, 0, 3225) /* MaxHealth */
      , (35153,   5,   250, 0, 0, 570) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (35153, 46, 0, 3, 0, 320, 0, 0) /* FinesseWeapons      Specialized */
-     , (35153,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
+VALUES (35153,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
      , (35153,  7, 0, 3, 0, 310, 0, 0) /* MissileDefense      Specialized */
-     , (35153, 44, 0, 3, 0, 290, 0, 0) /* HeavyWeapons        Specialized */
-     , (35153, 47, 0, 3, 0, 190, 0, 0) /* MissileWeapons      Specialized */
-     , (35153, 45, 0, 3, 0, 320, 0, 0) /* LightWeapons        Specialized */
      , (35153, 15, 0, 3, 0, 335, 0, 0) /* MagicDefense        Specialized */
      , (35153, 22, 0, 2, 0,  20, 0, 0) /* Jump                Trained */
      , (35153, 24, 0, 2, 0,  20, 0, 0) /* Run                 Trained */
      , (35153, 31, 0, 3, 0, 240, 0, 0) /* CreatureEnchantment Specialized */
      , (35153, 32, 0, 3, 0, 240, 0, 0) /* ItemEnchantment     Specialized */
-     , (35153, 33, 0, 3, 0, 240, 0, 0) /* LifeMagic           Specialized */;
+     , (35153, 33, 0, 3, 0, 240, 0, 0) /* LifeMagic           Specialized */
+     , (35153, 44, 0, 3, 0, 290, 0, 0) /* HeavyWeapons        Specialized */
+     , (35153, 45, 0, 3, 0, 320, 0, 0) /* LightWeapons        Specialized */
+     , (35153, 46, 0, 3, 0, 320, 0, 0) /* FinesseWeapons      Specialized */
+     , (35153, 47, 0, 3, 0, 190, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (35153,  0,  4,  0,    0,  340,  410,  350,  440,  440,  335,  440,  440,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -128,7 +128,7 @@ VALUES (35153,  1985,   2.03)  /* Nullify Life Magic Other */
      , (35153,  2180,   2.03)  /* Energy Flux */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (35153, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (35153,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -202,4 +202,3 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Stares into your
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35153, 9, 31037, -1, 0, 0.18, True) /* Create Ruschk Scalp (31037) for ContainTreasure */
      , (35153, 9,     0,  0, 0, 0.82, False) /* Create nothing for ContainTreasure */;
-

@@ -83,8 +83,7 @@ VALUES (0x700AF112, 0x700AF114, '2019-02-10 00:00:00') /* Master Arbitrator (344
      , (0x700AF112, 0x700AF115, '2019-02-10 00:00:00') /* Colosseum Ticket Vendor (34442) */
      , (0x700AF112, 0x700AF116, '2019-02-10 00:00:00') /* Gladiator Diemos (35869) */
      , (0x700AF112, 0x700AF117, '2019-02-10 00:00:00') /* The Master (35870) */
-     , (0x700AF112, 0x700AF11C, '2019-02-10 00:00:00') /* Arena of the Pumpkin King (36532) */
-     , (0x700AF112, 0x700AF128, '2020-06-05 03:24:29') /* Colo Lobby KeepAlive Generator (71812) */;
+     , (0x700AF112, 0x700AF11C, '2019-02-10 00:00:00') /* Arena of the Pumpkin King (36532) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF113, 71705, 0x00AF0117, 38, 4.4, 0, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Colo Arena One Stopgap Generator */

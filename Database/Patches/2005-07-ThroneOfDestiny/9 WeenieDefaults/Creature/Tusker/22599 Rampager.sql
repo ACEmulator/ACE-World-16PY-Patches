@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22599;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22599, 'tuskerrampager_tusk', 10, '2019-12-23 22:59:06') /* Creature */;
+VALUES (22599, 'tuskerrampager_tusk', 10, '2021-01-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22599,   1,         16) /* ItemType - Creature */
@@ -20,12 +20,7 @@ VALUES (22599,   1,         16) /* ItemType - Creature */
      , (22599, 146,      80000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22599,   1, True ) /* Stuck */
-     , (22599,  11, False) /* IgnoreCollisions */
-     , (22599,  12, True ) /* ReportCollisions */
-     , (22599,  13, False) /* Ethereal */
-     , (22599,  14, True ) /* GravityStatus */
-     , (22599,  19, True ) /* Attackable */;
+VALUES (22599,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22599,   1,       5) /* HeartbeatInterval */
@@ -34,16 +29,16 @@ VALUES (22599,   1,       5) /* HeartbeatInterval */
      , (22599,   4,       4) /* StaminaRate */
      , (22599,   5,       2) /* ManaRate */
      , (22599,  13,     0.5) /* ArmorModVsSlash */
-     , (22599,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (22599,  15, 0.660000026226044) /* ArmorModVsBludgeon */
+     , (22599,  14,     0.8) /* ArmorModVsPierce */
+     , (22599,  15,    0.66) /* ArmorModVsBludgeon */
      , (22599,  16,       1) /* ArmorModVsCold */
-     , (22599,  17, 0.699999988079071) /* ArmorModVsFire */
+     , (22599,  17,     0.7) /* ArmorModVsFire */
      , (22599,  18,       1) /* ArmorModVsAcid */
      , (22599,  19,       1) /* ArmorModVsElectric */
      , (22599,  31,      25) /* VisualAwarenessRange */
      , (22599,  34,     2.5) /* PowerupTime */
      , (22599,  36,       1) /* ChargeSpeed */
-     , (22599,  39, 1.20000004768372) /* DefaultScale */
+     , (22599,  39,     1.2) /* DefaultScale */
      , (22599,  64,     0.5) /* ResistSlash */
      , (22599,  65,       1) /* ResistPierce */
      , (22599,  66,    0.75) /* ResistBludgeon */
@@ -183,5 +178,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (22599, 1, 22429,  1, 0, 0, False) /* Create Rampager Tusk (22429) for Contain */
      , (22599, 9, 11692,  0, 0, 0.01, False) /* Create Little Green Seeds (11692) for ContainTreasure */
      , (22599, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (22599, 9, 43146,  0, 0, 0.02, False) /* Create Ruined Amulet of the Two Hander (43146) for ContainTreasure */
+     , (22599, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (22599, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
      , (22599, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

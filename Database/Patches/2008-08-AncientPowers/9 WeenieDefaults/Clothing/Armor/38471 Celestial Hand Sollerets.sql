@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38471;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38471, 'ace38471-celestialhandsollerets', 2, '2020-07-30 16:19:45') /* Clothing */;
+VALUES (38471, 'ace38471-celestialhandsollerets', 2, '2020-10-05 00:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38471,   1,          2) /* ItemType - Armor */
@@ -19,7 +19,7 @@ VALUES (38471,   1,          2) /* ItemType - Armor */
      , (38471, 158,          9) /* WieldRequirements - IntStat */
      , (38471, 159,        287) /* WieldSkillType */
      , (38471, 160,          1) /* WieldDifficulty */
-     , (38471, 169,  118097668) /* TsysMutationData */
+     , (38471, 169,  185206532) /* TsysMutationData */
      , (38471, 265,         30) /* EquipmentSetId - SocietyArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

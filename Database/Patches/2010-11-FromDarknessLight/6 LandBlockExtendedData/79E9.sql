@@ -772,7 +772,7 @@ VALUES (0x779E9096, 0x779E9097, '2020-06-17 13:14:35') /* Bloodstone Shard (5135
      , (0x779E9096, 0x779E90A5, '2020-06-17 13:22:33') /* Frozen Wight Sorcerer (43823) */
      , (0x779E9096, 0x779E90A6, '2020-06-17 13:22:47') /* Frozen Wight (43822) */
      , (0x779E9096, 0x779E90A7, '2020-06-17 13:22:53') /* Frozen Wight (43822) */
-     , (0x779E9096, 0x779E90A8, '2020-06-17 16:30:13') /* Bloodstone Crystal Stockpile (70365) */;
+     , (0x779E9096, 0x779E90A8, '2020-06-17 16:30:13') /* Bloodstone Crystal Stockpile Gen (80067) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x779E9097, 51354, 0x79E90128, -140.548, 13.1312, 90.388, 0.055891, 0, 0, -0.998437,  True, '2020-06-17 13:14:35'); /* Bloodstone Shard */
@@ -839,5 +839,5 @@ VALUES (0x779E90A7, 43822, 0x79E90130, -116.343, 21.3318, 90.4082, -0.534591, 0,
 /* @teleloc 0x79E90130 [-116.343002 21.331800 90.408203] -0.534591 0.000000 0.000000 -0.845111 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x779E90A8, 70365, 0x79E90128, -136.46428, 16.758718, 90.4, -0.116387464, 0, 0, 0.9932039,  True, '2020-06-17 16:30:13'); /* Bloodstone Crystal Stockpile */
+VALUES (0x779E90A8, 80067, 0x79E90128, -136.46428, 16.758718, 90.4, -0.116387464, 0, 0, 0.9932039,  True, '2020-06-17 16:30:13'); /* Bloodstone Crystal Stockpile Gen */
 /* @teleloc 0x79E90128 [-136.464279 16.758718 90.400002] -0.116387 0.000000 0.000000 0.993204 */

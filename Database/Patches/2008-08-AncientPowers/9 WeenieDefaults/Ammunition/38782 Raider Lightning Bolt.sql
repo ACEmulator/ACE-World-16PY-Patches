@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38782;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38782, 'ace38782-raiderlightningbolt', 5, '2019-12-25 00:00:00') /* Ammunition */;
+VALUES (38782, 'ace38782-raiderlightningbolt', 5, '2020-11-01 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38782,   1,        256) /* ItemType - MissileWeapon */
@@ -15,7 +15,7 @@ VALUES (38782,   1,        256) /* ItemType - MissileWeapon */
      , (38782,  16,          1) /* ItemUseable - No */
      , (38782,  18,         64) /* UiEffects - Lightning */
      , (38782,  19,          1) /* Value */
-     , (38782,  44,         42) /* Damage */
+     , (38782,  44,         53) /* Damage */
      , (38782,  45,         64) /* DamageType - Electric */
      , (38782,  50,          2) /* AmmoType - Bolt */
      , (38782,  51,          3) /* CombatUse - Ammo */
@@ -43,9 +43,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38782,   1, 'Raider Lightning Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38782,   1,   33554730) /* Setup */
+VALUES (38782,   1,   33555695) /* Setup */
      , (38782,   3,  536870932) /* SoundTable */
      , (38782,   6,   67111919) /* PaletteBase */
      , (38782,   7,  268436306) /* ClothingBase */
-     , (38782,   8,  100672651) /* Icon */
+     , (38782,   8,  100672656) /* Icon */
      , (38782,  22,  872415275) /* PhysicsEffectTable */;

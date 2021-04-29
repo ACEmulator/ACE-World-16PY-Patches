@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37478;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37478, 'ace37478-spectralstaff', 35, '2020-06-16 05:01:31') /* Caster */;
+VALUES (37478, 'ace37478-spectralstaff', 35, '2020-10-30 05:01:31') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37478,   1,      32768) /* ItemType - Caster */
@@ -27,7 +27,7 @@ VALUES (37478,   1,      32768) /* ItemType - Caster */
      , (37478, 166,         77) /* SlayerCreatureType - Ghost */
      , (37478, 263,          2) /* ResistanceModifierType */
      , (37478, 267,     259200) /* Lifespan */
-     , (37478, 353,         11) /* WeaponType - TwoHanded */;
+     , (37478, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37478,  22, True ) /* Inscribable */
@@ -41,14 +41,14 @@ VALUES (37478,   5,   -0.05) /* ManaRate */
      , (37478,  76,     0.7) /* Translucency */
      , (37478, 136,       2) /* CriticalMultiplier */
      , (37478, 138,       2) /* SlayerDamageBonus */
-     , (37478, 144,     0.15) /* ManaConversionMod */
+     , (37478, 144,    0.15) /* ManaConversionMod */
      , (37478, 147,     0.3) /* CriticalFrequency */
      , (37478, 152,     1.2) /* ElementalDamageMod */
      , (37478, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37478,   1, 'Spectral Staff') /* Name */
-     , (37478,  15, 'A ghostly blue casting staff. Tendrils of ethereal light spill from it. This caster won''t last long. This item expires in 3 days.') /* ShortDesc */;
+     , (37478,  15, 'A ghostly blue casting staff. Tendrils of ethereal light spill from it. This caster won''t last long.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37478,   1,   33560575) /* Setup */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28663;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28663, 'penguinarrogant', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (28663, 'penguinarrogant', 10, '2021-03-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28663,   1,         16) /* ItemType - Creature */
@@ -13,6 +13,7 @@ VALUES (28663,   1,         16) /* ItemType - Creature */
      , (28663,  25,         20) /* Level */
      , (28663,  27,          0) /* ArmorType - None */
      , (28663,  40,          2) /* CombatMode - Melee */
+     , (28663,  67,         64) /* Tolerance - Retaliate */
      , (28663,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (28663,  72,         80) /* FriendType - Penguin */
      , (28663,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -22,12 +23,7 @@ VALUES (28663,   1,         16) /* ItemType - Creature */
      , (28663, 146,       3500) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28663,   1, True ) /* Stuck */
-     , (28663,  11, False) /* IgnoreCollisions */
-     , (28663,  12, True ) /* ReportCollisions */
-     , (28663,  13, False) /* Ethereal */
-     , (28663,  14, True ) /* GravityStatus */
-     , (28663,  19, True ) /* Attackable */;
+VALUES (28663,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28663,   1,       5) /* HeartbeatInterval */
@@ -36,29 +32,30 @@ VALUES (28663,   1,       5) /* HeartbeatInterval */
      , (28663,   4,       3) /* StaminaRate */
      , (28663,   5,       1) /* ManaRate */
      , (28663,  12,       0) /* Shade */
-     , (28663,  13, 1.29999995231628) /* ArmorModVsSlash */
+     , (28663,  13,     1.3) /* ArmorModVsSlash */
      , (28663,  14,       1) /* ArmorModVsPierce */
-     , (28663,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (28663,  16, 0.980000019073486) /* ArmorModVsCold */
-     , (28663,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (28663,  15,     1.1) /* ArmorModVsBludgeon */
+     , (28663,  16,    0.98) /* ArmorModVsCold */
+     , (28663,  17,     0.8) /* ArmorModVsFire */
      , (28663,  18,       1) /* ArmorModVsAcid */
-     , (28663,  19, 0.980000019073486) /* ArmorModVsElectric */
+     , (28663,  19,    0.98) /* ArmorModVsElectric */
      , (28663,  31,      20) /* VisualAwarenessRange */
      , (28663,  34,       1) /* PowerupTime */
      , (28663,  36,       1) /* ChargeSpeed */
-     , (28663,  39, 1.20000004768372) /* DefaultScale */
-     , (28663,  64, 0.860000014305115) /* ResistSlash */
+     , (28663,  39,     1.2) /* DefaultScale */
+     , (28663,  64,    0.86) /* ResistSlash */
      , (28663,  65,    0.75) /* ResistPierce */
-     , (28663,  66, 0.660000026226044) /* ResistBludgeon */
-     , (28663,  67, 1.29999995231628) /* ResistFire */
-     , (28663,  68, 0.600000023841858) /* ResistCold */
+     , (28663,  66,    0.66) /* ResistBludgeon */
+     , (28663,  67,     1.3) /* ResistFire */
+     , (28663,  68,     0.6) /* ResistCold */
      , (28663,  69,    0.75) /* ResistAcid */
-     , (28663,  70, 0.899999976158142) /* ResistElectric */
+     , (28663,  70,     0.9) /* ResistElectric */
      , (28663,  71,       1) /* ResistHealthBoost */
      , (28663,  72,     0.5) /* ResistStaminaDrain */
      , (28663,  73,       1) /* ResistStaminaBoost */
      , (28663,  74,     0.5) /* ResistManaDrain */
      , (28663,  75,       1) /* ResistManaBoost */
+     , (28663,  80,       4) /* AiUseMagicDelay */
      , (28663, 104,      12) /* ObviousRadarRange */
      , (28663, 125,     0.5) /* ResistHealthDrain */;
 
@@ -73,7 +70,7 @@ VALUES (28663,   1,   33559122) /* Setup */
      , (28663,   6,   67115388) /* PaletteBase */
      , (28663,   7,  268436889) /* ClothingBase */
      , (28663,   8,  100677366) /* Icon */
-     , (28663,  22,  872415411) /* PhysicsEffectTable */
+     , (28663,  22,  872415258) /* PhysicsEffectTable */
      , (28663,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -92,13 +89,13 @@ VALUES (28663,   1,    38, 0, 0, 70) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (28663,  6, 0, 3, 0,  60, 0, 0) /* MeleeDefense        Specialized */
      , (28663,  7, 0, 3, 0,  70, 0, 0) /* MissileDefense      Specialized */
-     , (28663, 13, 0, 1, 0,  60, 0, 0) /* UnarmedCombat       Untrained */
      , (28663, 15, 0, 3, 0,  65, 0, 0) /* MagicDefense        Specialized */
      , (28663, 22, 0, 2, 0,   2, 0, 0) /* Jump                Trained */
      , (28663, 24, 0, 2, 0,   2, 0, 0) /* Run                 Trained */
      , (28663, 31, 0, 3, 0,  25, 0, 0) /* CreatureEnchantment Specialized */
      , (28663, 33, 0, 3, 0,  25, 0, 0) /* LifeMagic           Specialized */
-     , (28663, 34, 0, 3, 0,  25, 0, 0) /* WarMagic            Specialized */;
+     , (28663, 34, 0, 3, 0,  25, 0, 0) /* WarMagic            Specialized */
+     , (28663, 45, 0, 3, 0,  60, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28663,  0,  2, 12,  0.6,  115,  115,  115,  115,  115,   81,  115,  115,  115, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

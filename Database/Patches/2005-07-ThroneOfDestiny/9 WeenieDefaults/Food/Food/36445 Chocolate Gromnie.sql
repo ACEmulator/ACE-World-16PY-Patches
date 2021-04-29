@@ -5,6 +5,7 @@ VALUES (36445, 'ace36445-chocolategromnie', 18, '2019-02-04 06:52:23') /* Food *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36445,   1,         32) /* ItemType - Food */
+     , (36445,   3,         25) /* PaletteTemplate - DarkCopperMetal */
      , (36445,   5,          1) /* EncumbranceVal */
      , (36445,  11,         10) /* MaxStackSize */
      , (36445,  12,          1) /* StackSize */
@@ -24,14 +25,10 @@ VALUES (36445,   1,         32) /* ItemType - Food */
      , (36445, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36445,  11, True ) /* IgnoreCollisions */
-     , (36445,  13, True ) /* Ethereal */
-     , (36445,  14, True ) /* GravityStatus */
-     , (36445,  19, True ) /* Attackable */
-     , (36445,  69, False) /* IsSellable */;
+VALUES (36445,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36445,  39, 0.100000001490116) /* DefaultScale */;
+VALUES (36445,  39,     0.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36445,   1, 'Chocolate Gromnie') /* Name */
@@ -42,9 +39,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36445,   1,   33560398) /* Setup */
      , (36445,   3,  536870932) /* SoundTable */
      , (36445,   6,   67109307) /* PaletteBase */
+     , (36445,   7,  268436171) /* ClothingBase */
      , (36445,   8,  100689668) /* Icon */
      , (36445,  22,  872415275) /* PhysicsEffectTable */
      , (36445,  28,       4206) /* Spell - Chewy Center */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36445,  4206,      2)  /* Chewy Center */;

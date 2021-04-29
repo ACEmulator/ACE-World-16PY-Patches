@@ -43,14 +43,14 @@ VALUES (35143,   1,       5) /* HeartbeatInterval */
      , (35143,  69,    0.42) /* ResistAcid */
      , (35143,  70,    0.25) /* ResistElectric */
      , (35143,  71,    0.25) /* ResistHealthBoost */
-     , (35143,  72,    0.25) /* ResistStaminaDrain */
+     , (35143,  72,       1) /* ResistStaminaDrain */
      , (35143,  73,       1) /* ResistStaminaBoost */
-     , (35143,  74,     0.5) /* ResistManaDrain */
+     , (35143,  74,       1) /* ResistManaDrain */
      , (35143,  75,       1) /* ResistManaBoost */
      , (35143,  77,       1) /* PhysicsScriptIntensity */
      , (35143, 104,      10) /* ObviousRadarRange */
      , (35143, 117,     0.6) /* FocusedProbability */
-     , (35143, 125,    0.25) /* ResistHealthDrain */;
+     , (35143, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35143,   1, 'Mukkir Kartak') /* Name */;

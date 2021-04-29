@@ -20,7 +20,7 @@ VALUES (43516,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43516,   1, True ) /* Stuck */
-     , (43516,   6, True ) /* AiUsesMana */
+     , (43516,   6, False ) /* AiUsesMana */
      , (43516,  11, False) /* IgnoreCollisions */
      , (43516,  12, True ) /* ReportCollisions */
      , (43516,  13, False) /* Ethereal */
@@ -34,19 +34,18 @@ VALUES (43516,   1,       5) /* HeartbeatInterval */
      , (43516,   5,       2) /* ManaRate */
      , (43516,  12,       0) /* Shade */
      , (43516,  13,       1) /* ArmorModVsSlash */
-     , (43516,  14,    0.65) /* ArmorModVsPierce */
+     , (43516,  14,    0.55) /* ArmorModVsPierce */
      , (43516,  15,       1) /* ArmorModVsBludgeon */
      , (43516,  16,       1) /* ArmorModVsCold */
-     , (43516,  17,    0.45) /* ArmorModVsFire */
+     , (43516,  17,    0.55) /* ArmorModVsFire */
      , (43516,  18,       1) /* ArmorModVsAcid */
      , (43516,  19,       1) /* ArmorModVsElectric */
-     , (43516,  27,     5.0) /* RotationSpeed */
      , (43516,  31,      18) /* VisualAwarenessRange */
-     , (43516,  34,     1.3) /* PowerupTime */
+     , (43516,  34,       1) /* PowerupTime */
      , (43516,  36,       1) /* ChargeSpeed */
      , (43516,  39,     1.3) /* DefaultScale */
-     , (43516,  64,     0.8) /* ResistSlash */
-     , (43516,  65,     0.7) /* ResistPierce */
+     , (43516,  64,     0.3) /* ResistSlash */
+     , (43516,  65,     0.8) /* ResistPierce */
      , (43516,  66,     0.3) /* ResistBludgeon */
      , (43516,  67,     0.8) /* ResistFire */
      , (43516,  68,     0.3) /* ResistCold */
@@ -57,7 +56,7 @@ VALUES (43516,   1,       5) /* HeartbeatInterval */
      , (43516,  73,       1) /* ResistStaminaBoost */
      , (43516,  74,       1) /* ResistManaDrain */
      , (43516,  75,       1) /* ResistManaBoost */
-     , (43516,  80,       4) /* AiUseMagicDelay */
+     , (43516,  80,       1) /* AiUseMagicDelay */
      , (43516, 104,      10) /* ObviousRadarRange */
      , (43516, 122,       2) /* AiAcquireHealth */
      , (43516, 125,       1) /* ResistHealthDrain */;
@@ -91,13 +90,13 @@ VALUES (43516,   1,  1655, 0, 0, 1900) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (43516,  6, 0, 3, 0, 470, 0, 0) /* MeleeDefense        Specialized */
      , (43516,  7, 0, 3, 0, 420, 0, 0) /* MissileDefense      Specialized */
-     , (43516, 15, 0, 3, 0, 400, 0, 0) /* MagicDefense        Specialized */
+     , (43516, 15, 0, 3, 0, 320, 0, 0) /* MagicDefense        Specialized */
      , (43516, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
-     , (43516, 33, 0, 3, 0, 375, 0, 0) /* LifeMagic           Specialized */
-     , (43516, 34, 0, 3, 0, 370, 0, 0) /* WarMagic            Specialized */
-     , (43516, 41, 0, 3, 0, 787, 0, 0) /* Two Handed Weapons  Specialized */
-     , (43516, 45, 0, 3, 0, 475, 0, 0) /* LightWeapons        Specialized */
-     , (43516, 46, 0, 3, 0, 475, 0, 0) /* FinesseWeapons      Specialized */;
+     , (43516, 33, 0, 3, 0, 265, 0, 0) /* LifeMagic           Specialized */
+     , (43516, 34, 0, 3, 0, 265, 0, 0) /* WarMagic            Specialized */
+     , (43516, 41, 0, 3, 0, 400, 0, 0) /* Two Handed Weapons  Specialized */
+     , (43516, 45, 0, 3, 0, 420, 0, 0) /* LightWeapons        Specialized */
+     , (43516, 46, 0, 3, 0, 420, 0, 0) /* FinesseWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (43516,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -108,14 +107,12 @@ VALUES (43516,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,
      , (43516,  5,  4, 200, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (43516,  6,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (43516,  7,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (43516,  8,  4, 250, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (43516,  8,  4, 200, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43516,  2074,   2.01)  /* Gossamer Flesh */
-     , (43516,  2135,   2.01)  /* Winter's Embrace */
-     , (43516,  2136,   2.01)  /* Icy Torment */
-     , (43516,  2166,   2.01)  /* Tusker's Gift */
-     , (43516,  2168,   2.01)  /* Gelidite's Gift */;
+VALUES (43516,  4312,   2.02)  /* Incantation of Imperil Other */
+     , (43516,  4446,   2.02)  /* Incantation of Frost Blast */
+     , (43516,  4447,   2.25)  /* Incantation of Frost Bolt */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43516, 10, 43397,  0, 0, 1, False)  /* Create Frost Great Axe (43397) for WieldTreasure */

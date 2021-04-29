@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43383;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43383, 'ace43383-netherstaff', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (43383, 'ace43383-netherstaff', 35, '2020-10-05 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43383,   1,      32768) /* ItemType - Caster */
@@ -18,7 +18,7 @@ VALUES (43383,   1,      32768) /* ItemType - Caster */
      , (43383,  94,         16) /* TargetType - Creature */
      , (43383, 150,        103) /* HookPlacement - Hook */
      , (43383, 151,          2) /* HookType - Wall */
-     , (43383, 169,   84084483) /* TsysMutationData */
+     , (43383, 169,  318965507) /* TsysMutationData */
      , (43383, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

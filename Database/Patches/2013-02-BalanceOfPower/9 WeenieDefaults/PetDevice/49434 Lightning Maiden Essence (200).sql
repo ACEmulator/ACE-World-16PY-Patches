@@ -1,16 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49434;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49434, 'ace49434-lightningmaidenessence200', 70, '2020-08-04 10:17:40') /* PetDevice */;
+VALUES (49434, 'ace49434-lightningmaidenessence200', 70, '2020-10-11 10:17:40') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49434,   1,        128) /* ItemType - Misc */
      , (49434,   5,         50) /* EncumbranceVal */
      , (49434,  16,          8) /* ItemUseable - Contained */
      , (49434,  18,         64) /* UiEffects - Lightning */
-     , (49434,  19,       4000) /* Value */
+     , (49434,  19,      10000) /* Value */
      , (49434,  33,          0) /* Bonded - Normal */
-     , (49434,  65,        101) /* Placement - Resting */
      , (49434,  91,         50) /* MaxStructure */
      , (49434,  92,         50) /* Structure */
      , (49434,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -26,12 +25,7 @@ VALUES (49434,   1,        128) /* ItemType - Misc */
      , (49434, 369,        185) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49434,   1, False) /* Stuck */
-     , (49434,  11, True ) /* IgnoreCollisions */
-     , (49434,  13, True ) /* Ethereal */
-     , (49434,  14, True ) /* GravityStatus */
-     , (49434,  19, True ) /* Attackable */
-     , (49434,  22, True ) /* Inscribable */
+VALUES (49434,  22, True ) /* Inscribable */
      , (49434,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -39,7 +33,7 @@ VALUES (49434,  39,     0.4) /* DefaultScale */
      , (49434, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49434,   1, 'Lightning Maiden Essence (200)') /* Name */
+VALUES (49434,   1, 'Lightning Maiden Essence') /* Name */
      , (49434,  14, 'Use this essence to summon or dismiss your Lightning Maiden.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

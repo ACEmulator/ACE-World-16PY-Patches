@@ -1,93 +1,52 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 0x1E09;
+
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543336, 24129, 503906311, 14.78198, 147.148, 48.005, 0.74347, 0, 0, -0.668769, False, '2019-06-02 19:50:48'); /* Linkable Monster Generator ( 2 Min.) */
-/* @teleloc 0x1E090007 [14.781980 147.148000 48.005000] 0.743470 0.000000 0.000000 -0.668769 */
+VALUES (0x71E09009,   509, 0x1E090007, 2.04685, 158.217, 48, 0.109651, 0, 0, -0.9939702, False, '2019-02-10 00:00:00'); /* Life Stone */
+/* @teleloc 0x1E090007 [2.046850 158.217000 48.000000] 0.109651 0.000000 0.000000 -0.993970 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71E0900A, 24129, 0x1E090035, 159.214, 99.0509, 16.94066, -0.327067, 0, 0, -0.945001, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator ( 2 Min.) */
+/* @teleloc 0x1E090035 [159.214000 99.050900 16.940660] -0.327067 0.000000 0.000000 -0.945001 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (1910543336, 1910543339, '2019-06-02 19:50:48') /* Fire Golem */
-     , (1910543336, 1910543340, '2019-06-02 19:50:48') /* Fire Golem */
-     , (1910543336, 1910543341, '2019-06-02 19:50:48') /* Fire Golem */
-     , (1910543336, 1910543342, '2019-06-02 19:50:48') /* Fire Golem */
-     , (1910543336, 1910543343, '2019-06-02 19:50:48') /* Fire Golem */
-     , (1910543336, 1910543344, '2019-06-02 19:50:48') /* Fire Golem */
-     , (1910543336, 1910543345, '2019-06-02 19:50:48') /* Fire Golem */
-     , (1910543336, 1910543346, '2019-06-02 19:50:48') /* Fire Golem */
-     , (1910543336, 1910543347, '2019-06-02 19:50:48') /* Fire Golem */
-     , (1910543336, 1910543348, '2019-06-02 19:50:48') /* Fire Golem */
-     , (1910543336, 1910543349, '2019-06-02 19:50:48') /* Fire Golem */
-     , (1910543336, 1910543350, '2019-06-02 19:50:48') /* Fire Golem */
-     , (1910543336, 1910543351, '2019-06-02 19:50:48') /* Fire Golem */
-     , (1910543336, 1910543352, '2019-06-02 19:50:48') /* Fire Golem */
-     , (1910543336, 1910543353, '2019-06-02 19:50:48') /* Fire Golem */
-     , (1910543336, 1910543354, '2019-06-02 19:50:48') /* Fire Golem */;
+VALUES (0x71E0900A, 0x71E0900B, '2019-02-10 00:00:00') /* Fire Golem (31874) */
+     , (0x71E0900A, 0x71E0900C, '2019-02-10 00:00:00') /* Fire Golem (31874) */
+     , (0x71E0900A, 0x71E0900D, '2019-02-10 00:00:00') /* Fire Golem (31874) */
+     , (0x71E0900A, 0x71E0900E, '2019-02-10 00:00:00') /* Fire Golem (31874) */
+     , (0x71E0900A, 0x71E0900F, '2019-02-10 00:00:00') /* Fire Golem (31874) */
+     , (0x71E0900A, 0x71E09010, '2019-02-10 00:00:00') /* Fire Golem (31874) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543337,   509, 503906311, 3.379203, 162.8677, 48.005, 0.456089, 0, 0, -0.889934, False, '2019-06-02 19:50:48'); /* Life Stone */
-/* @teleloc 0x1E090007 [3.379203 162.867700 48.005000] 0.456089 0.000000 0.000000 -0.889934 */
+VALUES (0x71E0900B, 31874, 0x1E090035, 159.214, 99.0509, 16.94066, -0.327067, 0, 0, -0.945001,  True, '2019-02-10 00:00:00'); /* Fire Golem */
+/* @teleloc 0x1E090035 [159.214000 99.050900 16.940660] -0.327067 0.000000 0.000000 -0.945001 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543338, 31971, 503906311, 20.0339, 147.996, 48.005, -0.939204, 0, 0, -0.34336, False, '2019-06-02 19:50:48'); /* Water Guardian */
-/* @teleloc 0x1E090007 [20.033900 147.996000 48.005000] -0.939204 0.000000 0.000000 -0.343360 */
+VALUES (0x71E0900C, 31874, 0x1E090040, 189.17, 187.109, 0.01199996, -0.613605, 0, 0, -0.789613,  True, '2019-02-10 00:00:00'); /* Fire Golem */
+/* @teleloc 0x1E090040 [189.170000 187.109000 0.012000] -0.613605 0.000000 0.000000 -0.789613 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543339, 31874, 503906327, 71.386, 148.9736, 38.10733, -0.686668, 0, 0, 0.726971,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E090017 [71.386000 148.973600 38.107330] -0.686668 0.000000 0.000000 0.726971 */
+VALUES (0x71E0900D, 31874, 0x1E090022, 103.024, 29.4936, 18.9276, -0.961522, 0, 0, -0.274727,  True, '2019-02-10 00:00:00'); /* Fire Golem */
+/* @teleloc 0x1E090022 [103.024000 29.493600 18.927600] -0.961522 0.000000 0.000000 -0.274727 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543340, 31874, 503906333, 75.10274, 100.8323, 35.89056, 0.205674, 0, 0, 0.978621,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E09001D [75.102740 100.832300 35.890560] 0.205674 0.000000 0.000000 0.978621 */
+VALUES (0x71E0900E, 31874, 0x1E090032, 158.071, 26.0639, 13.1834, -0.53464, 0, 0, -0.84508,  True, '2019-02-10 00:00:00'); /* Fire Golem */
+/* @teleloc 0x1E090032 [158.071000 26.063900 13.183400] -0.534640 0.000000 0.000000 -0.845080 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543341, 31874, 503906316, 34.89079, 81.76671, 35.63279, 0.584681, 0, 0, 0.811263,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E09000C [34.890790 81.766710 35.632790] 0.584681 0.000000 0.000000 0.811263 */
+VALUES (0x71E0900F, 31874, 0x1E090002, 6.37359, 28.4026, 20.9484, -0.9849921, 0, 0, 0.172599,  True, '2019-02-10 00:00:00'); /* Fire Golem */
+/* @teleloc 0x1E090002 [6.373590 28.402600 20.948400] -0.984992 0.000000 0.000000 0.172599 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543342, 31874, 503906308, 4.648199, 81.59795, 36.80483, 0.736672, 0, 0, 0.67625,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E090004 [4.648199 81.597950 36.804830] 0.736672 0.000000 0.000000 0.676250 */
+VALUES (0x71E09010, 31874, 0x1E090001, 18.5002, 5.04008, 11.89707, -0.9767538, 0, 0, -0.214364,  True, '2019-02-10 00:00:00'); /* Fire Golem */
+/* @teleloc 0x1E090001 [18.500200 5.040080 11.897070] -0.976754 0.000000 0.000000 -0.214364 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543343, 31874, 503906307, 3.816318, 58.28395, 30.28998, 0.060307, 0, 0, 0.99818,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E090003 [3.816318 58.283950 30.289980] 0.060307 0.000000 0.000000 0.998180 */
+VALUES (0x71E09011,  1154, 0x1E090007, 20.0339, 147.996, 48.0025, -0.939204, 0, 0, -0.34336, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+/* @teleloc 0x1E090007 [20.033900 147.996000 48.002500] -0.939204 0.000000 0.000000 -0.343360 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x71E09011, 0x71E09012, '2019-02-10 00:00:00') /* Water Guardian (31971) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543344, 31874, 503906314, 29.97237, 37.68699, 22.56733, -0.513526, 0, 0, 0.858074,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E09000A [29.972370 37.686990 22.567330] -0.513526 0.000000 0.000000 0.858074 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543345, 31874, 503906322, 60.53185, 27.20116, 18.80529, -0.570548, 0, 0, 0.821265,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E090012 [60.531850 27.201160 18.805290] -0.570548 0.000000 0.000000 0.821265 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543346, 31874, 503906330, 95.35877, 24.26873, 18.07218, -0.692945, 0, 0, 0.72099,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E09001A [95.358770 24.268730 18.072180] -0.692945 0.000000 0.000000 0.720990 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543347, 31874, 503906346, 124.4218, 28.27844, 17.98111, -0.762644, 0, 0, 0.646819,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E09002A [124.421800 28.278440 17.981110] -0.762644 0.000000 0.000000 0.646819 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543348, 31874, 503906354, 153.0217, 42.57521, 15.74958, -0.877699, 0, 0, 0.479212,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E090032 [153.021700 42.575210 15.749580] -0.877699 0.000000 0.000000 0.479212 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543349, 31874, 503906355, 166.4186, 65.11533, 12.66392, -0.992022, 0, 0, 0.126065,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E090033 [166.418600 65.115330 12.663920] -0.992022 0.000000 0.000000 0.126065 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543350, 31874, 503906364, 171.7957, 92.19201, 11.78981, -0.999912, 0, 0, 0.013262,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E09003C [171.795700 92.192010 11.789810] -0.999912 0.000000 0.000000 0.013262 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543351, 31874, 503906358, 166.8602, 128.9841, 12.47991, -0.995017, 0, 0, -0.099709,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E090036 [166.860200 128.984100 12.479910] -0.995017 0.000000 0.000000 -0.099709 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543352, 31874, 503906359, 157.2417, 159.3095, 14.86721, -0.977398, 0, 0, -0.211406,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E090037 [157.241700 159.309500 14.867210] -0.977398 0.000000 0.000000 -0.211406 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543353, 31874, 503906352, 141.0636, 176.4113, 10.88684, -0.931818, 0, 0, -0.362927,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E090030 [141.063600 176.411300 10.886840] -0.931818 0.000000 0.000000 -0.362927 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1910543354, 31874, 503906368, 185.5402, 183.2026, 0.005, -0.351504, 0, 0, 0.936186,  True, '2019-06-02 19:50:48'); /* Fire Golem */
-/* @teleloc 0x1E090040 [185.540200 183.202600 0.005000] -0.351504 0.000000 0.000000 0.936186 */
+VALUES (0x71E09012, 31971, 0x1E090007, 20.0339, 147.996, 48.0025, -0.939204, 0, 0, -0.34336,  True, '2019-02-10 00:00:00'); /* Water Guardian */
+/* @teleloc 0x1E090007 [20.033900 147.996000 48.002500] -0.939204 0.000000 0.000000 -0.343360 */

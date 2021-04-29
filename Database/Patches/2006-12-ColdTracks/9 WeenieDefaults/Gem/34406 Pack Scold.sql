@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34406;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34406, 'ace34406-packscold', 38, '2020-03-07 00:00:00') /* Gem */;
+VALUES (34406, 'ace34406-packscold', 38, '2020-11-02 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34406,   1,       2048) /* ItemType - Gem */
@@ -16,8 +16,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34406,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34406,  39, 0.4) /* DefaultScale */
-     , (34406,  44,  -1) /* TimeToRot */;
+VALUES (34406,  39, 0.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34406,   1, 'Pack Scold') /* Name */

@@ -7,6 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32282,   1,      65536) /* ItemType - Portal */
      , (32282,  16,         32) /* ItemUseable - Remote */
      , (32282,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (32282,  86,        130) /* MinLevel */
+     , (32282, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (32282, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -22,6 +24,7 @@ VALUES (32282,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32282,   1, 'Collegium Occultus Portal') /* Name */
+     , (32282,  16, 'You must gain approval from Balior before entering this portal.') /* LongDesc */
      , (32282,  37, 'voidcrystalflag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

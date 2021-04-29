@@ -9,8 +9,8 @@ VALUES (40266,   1,          2) /* ItemType - Armor */
      , (40266,   9,    2097152) /* ValidLocations - Shield */
      , (40266,  16,          1) /* ItemUseable - No */
      , (40266,  19,          0) /* Value */
-     , (40266,  28,          0) /* ArmorLevel */
-     , (40266,  33,         -2) /* Bonded - Destroy */     
+     , (40266,  28,         50) /* ArmorLevel */
+     , (40266,  33,         -2) /* Bonded - Destroy */
      , (40266,  51,          4) /* CombatUse - Shield */
      , (40266,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40266, 114,          1) /* Attuned - Attuned */
@@ -21,7 +21,14 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40266,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40266,  39,     1.2) /* DefaultScale */
+VALUES (40266,  13,     0.9) /* ArmorModVsSlash */
+     , (40266,  14,     0.9) /* ArmorModVsPierce */
+     , (40266,  15,     0.9) /* ArmorModVsBludgeon */
+     , (40266,  16,     0.9) /* ArmorModVsCold */
+     , (40266,  17,     0.9) /* ArmorModVsFire */
+     , (40266,  18,     0.9) /* ArmorModVsAcid */
+     , (40266,  19,     0.9) /* ArmorModVsElectric */
+     , (40266,  39,     1.2) /* DefaultScale */
      , (40266, 159,    0.25) /* AbsorbMagicDamage */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -5,30 +5,17 @@ VALUES (39329, 'ace39329-enchantedmanaphialpea', 44, '2019-05-26 00:00:00') /* C
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39329,   1,    8388608) /* ItemType - CraftAlchemyBase */
-     , (39329,   5,         10) /* EncumbranceVal */
-     , (39329,  11,        100) /* MaxStackSize */
+     , (39329,  11,         50) /* MaxStackSize */
      , (39329,  12,          1) /* StackSize */
-     , (39329,  13,         10) /* StackUnitEncumbrance */
-     , (39329,  15,     400000) /* StackUnitValue */
+     , (39329,  13,          0) /* StackUnitEncumbrance */
+     , (39329,  15,     200000) /* StackUnitValue */
      , (39329,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (39329,  19,     400000) /* Value */
-     , (39329,  33,          1) /* Bonded - Bonded */
-     , (39329,  65,        101) /* Placement - Resting */
+     , (39329,  19,     200000) /* Value */
      , (39329,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (39329,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
-     , (39329, 114,          0) /* Attuned - Normal */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39329,   1, False) /* Stuck */
-     , (39329,  11, True ) /* IgnoreCollisions */
-     , (39329,  13, True ) /* Ethereal */
-     , (39329,  14, True ) /* GravityStatus */
-     , (39329,  19, True ) /* Attackable */
-     , (39329,  69, True ) /* IsSellable */
-     , (39329,  99, False) /* Ivoryable */;
+     , (39329,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39329,  39,     0.5) /* DefaultScale */;
+VALUES (39329,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39329,   1, 'Enchanted Mana Phial Pea') /* Name */

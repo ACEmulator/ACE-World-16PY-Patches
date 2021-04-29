@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33985;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33985, 'ace33985-ancientcaves', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (33985, 'ace33985-ancientcaves', 7, '2020-08-21 00:52:29') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33985,   1,      65536) /* ItemType - Portal */
@@ -21,11 +21,10 @@ VALUES (33985,   1, True ) /* Stuck */
      , (33985,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33985,  54, -0.100000001490116) /* UseRadius */;
+VALUES (33985,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33985,   1, 'Ancient Caves') /* Name */
-     , (33985,  38, 'Ancient Caves') /* AppraisalPortalDestination */;
+VALUES (33985,   1, 'Ancient Caves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33985,   1,   33555926) /* Setup */
@@ -33,5 +32,18 @@ VALUES (33985,   1,   33555926) /* Setup */
      , (33985,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33985, 2, 306512128, 92.525, 169.964, -5.195, -0.0784591, 0, 0, -0.996917) /* Destination */
-/* @teleloc 0x12450100 [92.525000 169.964000 -5.195000] -0.078459 0.000000 0.000000 -0.996917 */;
+VALUES (33985, 2, 13700754, 160, -150, -2.91085, 1, 0, 0, 0) /* Destination */
+/* @teleloc 0x00D10E92 [160.000000 -150.000000 -2.910850] 1.000000 0.000000 0.000000 0.000000 */;
+
+/* Lifestoned Changelog:
+{
+  "Changelog": [
+    {
+      "created": "2020-08-21T00:45:06.8796603Z",
+      "author": "ACE.Adapter",
+      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
+    }
+  ],
+  "IsDone": false
+}
+*/

@@ -39,7 +39,7 @@ VALUES (70973,   1,       5) /* HeartbeatInterval */
      , (70973,  31,      31) /* VisualAwarenessRange */
      , (70973,  34,       1) /* PowerupTime */
      , (70973,  36,       1) /* ChargeSpeed */
-     , (70973,  39,     1.5) /* DefaultScale */
+     , (70973,  39,     1.4) /* DefaultScale */
      , (70973,  54,       3) /* UseRadius */
      , (70973,  64,    0.75) /* ResistSlash */
      , (70973,  65,    0.75) /* ResistPierce */
@@ -87,6 +87,7 @@ VALUES (70973,  6, 0, 3, 0, 320, 0, 0) /* MeleeDefense        Specialized */
      , (70973,  7, 0, 3, 0, 375, 0, 0) /* MissileDefense      Specialized */
      , (70973, 41, 0, 3, 0, 300, 0, 0) /* TwoHandedCombat     Specialized */
      , (70973, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */
+     , (70973, 46, 0, 3, 0, 300, 0, 0) /* FinesseWeapons      Specialized */
      , (70973, 14, 0, 2, 0, 200, 0, 0) /* ArcaneLore          Trained */
      , (70973, 15, 0, 3, 0, 305, 0, 0) /* MagicDefense        Specialized */
      , (70973, 22, 0, 2, 0,  10, 0, 0) /* Jump                Trained */
@@ -104,5 +105,5 @@ VALUES (70973,  0,  4,   0,    0,  150,  212,  264,  180,   95,  263,  101,  263
      , (70973,  8,  4, 120, 0.75,  150,  212,  264,  180,   95,  263,  101,  263,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70973, 2, 80064,  0, 14, 0, True) /* Create Smoldering Atlan Two Handed Sword (80064) for Wield */
+VALUES (70973, 2, 32665,  0, 14, 0, True) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
      , (70973, 9, 32666,  0,  0, 1, False) /* Create Inner Chamber Key (32666) for ContainTreasure */;

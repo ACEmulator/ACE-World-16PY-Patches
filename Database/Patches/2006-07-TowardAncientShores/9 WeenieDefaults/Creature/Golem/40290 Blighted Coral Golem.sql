@@ -65,7 +65,8 @@ VALUES (40290,   1,       5) /* HeartbeatInterval */
 
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40290,   1, 'Blighted Coral Golem') /* Name */;
+VALUES (40290,   1, 'Blighted Coral Golem') /* Name */
+     , (40290,  45, 'BlackMarketBlightedCoralGolemKilltask') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40290,   1,   33556426) /* Setup */
@@ -134,7 +135,7 @@ VALUES (40290, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key 
      , (40290, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (40290, 9, 42348,  0, 0, 0.05, False) /* Create Black Coral Heart (42348) for ContainTreasure */
      , (40290, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
-    
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (40290,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -144,7 +145,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40290, -1, 70081, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Blighted Coral Golem Viceroy (70081) (x1)  - Location to (re)Generate: Scatter */;    
+VALUES (40290, -1, 70081, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Blighted Coral Golem Viceroy (70081) (x1)  - Location to (re)Generate: Scatter */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (40290,  5 /* HeartBeat */,  0.075, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

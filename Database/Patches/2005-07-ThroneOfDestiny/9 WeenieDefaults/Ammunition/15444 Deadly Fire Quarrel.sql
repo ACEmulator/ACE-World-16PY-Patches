@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 15444;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (15444, 'boltdeadlyfire', 5, '2019-12-25 00:00:00') /* Ammunition */;
+VALUES (15444, 'boltdeadlyfire', 5, '2020-10-30 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15444,   1,        256) /* ItemType - MissileWeapon */
@@ -17,7 +17,7 @@ VALUES (15444,   1,        256) /* ItemType - MissileWeapon */
      , (15444,  16,          1) /* ItemUseable - No */
      , (15444,  18,         32) /* UiEffects - Fire */
      , (15444,  19,         11) /* Value */
-     , (15444,  44,         28) /* Damage */
+     , (15444,  44,         35) /* Damage */
      , (15444,  45,         16) /* DamageType - Fire */
      , (15444,  50,          2) /* AmmoType - Bolt */
      , (15444,  51,          3) /* CombatUse - Ammo */
@@ -33,7 +33,7 @@ VALUES (15444,  17, True ) /* Inelastic */
      , (15444,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15444,  22,    0.28) /* DamageVariance */
+VALUES (15444,  22,    0.43) /* DamageVariance */
      , (15444,  29,       1) /* WeaponDefense */
      , (15444,  39,     1.1) /* DefaultScale */
      , (15444,  62,       1) /* WeaponOffense */

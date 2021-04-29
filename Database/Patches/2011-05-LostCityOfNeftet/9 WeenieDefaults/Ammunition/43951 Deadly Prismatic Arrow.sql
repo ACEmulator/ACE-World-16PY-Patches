@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43951;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43951, 'ace43951-deadlyprismaticarrow', 5, '2019-12-23 00:00:00') /* Ammunition */;
+VALUES (43951, 'ace43951-deadlyprismaticarrow', 5, '2020-10-30 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43951,   1,        256) /* ItemType - MissileWeapon */
@@ -40,7 +40,7 @@ VALUES (43951,  17, True ) /* Inelastic */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43951,  21,       0) /* WeaponLength */
-     , (43951,  22, 0.300000011920929) /* DamageVariance */
+     , (43951,  22,     0.3) /* DamageVariance */
      , (43951,  26,       0) /* MaximumVelocity */
      , (43951,  29,       1) /* WeaponDefense */
      , (43951,  62,       1) /* WeaponOffense */
@@ -51,11 +51,7 @@ VALUES (43951,  21,       0) /* WeaponLength */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43951,   1, 'Deadly Prismatic Arrow') /* Name */
      , (43951,  14, 'You must be a specialized fletcher of great skill to use these potentially volatile arrows.') /* Use */
-     , (43951,  16, 'Deadly, crystalline arrows that draw the elemental energies from elementally attuned bows to damage their target. 
- 
- 
- You must be a specialized fletcher of great skill to use these potentially volatile arrows ') /* LongDesc */
-     , (43951,  20, 'Deadly Prismatic Arrows') /* PluralName */;
+     , (43951,  16, 'Deadly, crystaline arrows that draw the elemental energies from elementally attuned bows to damage their target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43951,   1,   33561223) /* Setup */

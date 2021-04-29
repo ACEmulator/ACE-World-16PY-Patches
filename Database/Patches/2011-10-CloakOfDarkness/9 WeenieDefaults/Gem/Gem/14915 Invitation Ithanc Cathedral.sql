@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14915;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14915, 'gemportalwedding3', 38, '2020-05-13 10:00:00') /* Gem */;
+VALUES (14915, 'gemportalwedding3', 38, '2020-10-20 10:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14915,   1,       2048) /* ItemType - Gem */
@@ -12,10 +12,10 @@ VALUES (14915,   1,       2048) /* ItemType - Gem */
      , (14915,  12,          1) /* StackSize */
      , (14915,  13,          5) /* StackUnitEncumbrance */
      , (14915,  14,          5) /* StackUnitMass */
-     , (14915,  15,      25000) /* StackUnitValue */
+     , (14915,  15,      10000) /* StackUnitValue */
      , (14915,  16,          8) /* ItemUseable - Contained */
      , (14915,  18,          1) /* UiEffects - Magical */
-     , (14915,  19,      25000) /* Value */
+     , (14915,  19,      10000) /* Value */
      , (14915,  33,          1) /* Bonded - Bonded */
      , (14915,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (14915,  94,         16) /* TargetType - Creature */
@@ -28,17 +28,15 @@ VALUES (14915,   1,       2048) /* ItemType - Gem */
      , (14915, 280,       1000) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14915,  15, True ) /* LightsStatus */
-     , (14915,  22, True ) /* Inscribable */
+VALUES (14915,  22, True ) /* Inscribable */
      , (14915,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14915, 167,      15) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14915,   1, 'Invitation Ithanc Cathedral') /* Name */
-     , (14915,  14, 'Use this invitation at the time of your friends'' wedding to be transported to their celebration overlooking the waterfalls at the Ithanc Cathedral.') /* Use */
-     , (14915,  15, 'A wedding invitation.') /* ShortDesc */
+VALUES (14915,   1, 'Invitation Ithaenc Cathedral') /* Name */
+     , (14915,  14, 'Use this invitation at the time of your friends'' wedding to be transported to their celebration overlooking the waterfalls at the Ithaenc Cathedral.') /* Use */
      , (14915,  16, 'A wedding invitation.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

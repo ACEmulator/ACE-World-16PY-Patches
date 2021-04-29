@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11526;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11526, 'gromnieebon_xp', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (11526, 'gromnieebon_xp', 10, '2020-09-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11526,   1,         16) /* ItemType - Creature */
      , (11526,   2,         15) /* CreatureType - Gromnie */
-     , (11526,   3,         13) /* PaletteTemplate - Purple */
+     , (11526,   3,          7) /* PaletteTemplate - DeepGreen */
      , (11526,   6,         -1) /* ItemsCapacity */
      , (11526,   7,         -1) /* ContainersCapacity */
      , (11526,  16,          1) /* ItemUseable - No */
@@ -36,12 +36,12 @@ VALUES (11526,   1,       5) /* HeartbeatInterval */
      , (11526,  13,       1) /* ArmorModVsSlash */
      , (11526,  14,       1) /* ArmorModVsPierce */
      , (11526,  15,       1) /* ArmorModVsBludgeon */
-     , (11526,  16, 0.699999988079071) /* ArmorModVsCold */
-     , (11526,  17, 0.699999988079071) /* ArmorModVsFire */
-     , (11526,  18, 0.699999988079071) /* ArmorModVsAcid */
-     , (11526,  19, 0.699999988079071) /* ArmorModVsElectric */
+     , (11526,  16,     0.7) /* ArmorModVsCold */
+     , (11526,  17,     0.7) /* ArmorModVsFire */
+     , (11526,  18,     0.7) /* ArmorModVsAcid */
+     , (11526,  19,     0.7) /* ArmorModVsElectric */
      , (11526,  31,      25) /* VisualAwarenessRange */
-     , (11526,  34, 1.20000004768372) /* PowerupTime */
+     , (11526,  34,     1.2) /* PowerupTime */
      , (11526,  36,       1) /* ChargeSpeed */
      , (11526,  39,       1) /* DefaultScale */
      , (11526,  64,       1) /* ResistSlash */

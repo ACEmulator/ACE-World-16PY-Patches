@@ -16,14 +16,16 @@ VALUES (30529,   1,          2) /* ItemType - Armor */
      , (30529,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30529,  27,          2) /* ArmorType - Leather */
      , (30529,  28,        525) /* ArmorLevel */
-     , (30529,  53,        101) /* PlacementPosition */
+     , (30529,  44,          6) /* Damage */
+     , (30529,  45,          4) /* DamageType - Bludgeon */
      , (30529,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30529, 106,        325) /* ItemSpellcraft */
      , (30529, 107,       6000) /* ItemCurMana */
      , (30529, 108,       6000) /* ItemMaxMana */
      , (30529, 109,          0) /* ItemDifficulty */
      , (30529, 110,          0) /* ItemAllegianceRankLimit */
-     , (30529, 151,          2) /* HookType - Wall */
+     , (30529, 150,        103) /* HookPlacement - Hook */
+     , (30529, 151,          1) /* HookType - Floor */
      , (30529, 169,  118162702) /* TsysMutationData */
      , (30529, 265,         40) /* EquipmentSetId - RareDamageResistance */
      , (30529, 319,         50) /* ItemMaxLevel */
@@ -41,16 +43,15 @@ VALUES (30529,  11, True ) /* IgnoreCollisions */
      , (30529, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30529,   5, -0.0333333015441895) /* ManaRate */
-     , (30529,  12, 0.660000026226044) /* Shade */
-     , (30529,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (30529,  14, 0.899999976158142) /* ArmorModVsPierce */
-     , (30529,  15, 1.29999995231628) /* ArmorModVsBludgeon */
+VALUES (30529,   5,  -0.033) /* ManaRate */
+     , (30529,  13,     1.3) /* ArmorModVsSlash */
+     , (30529,  14,     0.9) /* ArmorModVsPierce */
+     , (30529,  15,     1.3) /* ArmorModVsBludgeon */
      , (30529,  16,       1) /* ArmorModVsCold */
-     , (30529,  17, 0.899999976158142) /* ArmorModVsFire */
-     , (30529,  18, 0.899999976158142) /* ArmorModVsAcid */
-     , (30529,  19, 0.899999976158142) /* ArmorModVsElectric */
-     , (30529, 110, 1.66999995708466) /* BulkMod */
+     , (30529,  17,     0.9) /* ArmorModVsFire */
+     , (30529,  18,     0.9) /* ArmorModVsAcid */
+     , (30529,  19,     0.9) /* ArmorModVsElectric */
+     , (30529, 110,    1.67) /* BulkMod */
      , (30529, 111,       1) /* SizeMod */
      , (30529, 165,       1) /* ArmorModVsNether */;
 

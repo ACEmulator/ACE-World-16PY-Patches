@@ -4,17 +4,17 @@ INSERT INTO `treasure_death` (`treasure_Type`, `tier`, `loot_Quality_Mod`, `unkn
 VALUES 	(1005 	/* treasure_Type */
    	  ,7 		/* tier */
 	  ,0.3	    /* loot_Quality_Mod	 */	
-	  ,0 		/* unknown_Chances */
+	  ,19 		/* unknown_Chances */
 	  ,100 		/* item_Chance */
-	  ,4 		/* item_Min_Amount */
-	  ,6 		/* item_Max_Amount */
-	  ,10 		/* item_Treasure_Type_Selection_Chances */
+	  ,0 		/* item_Min_Amount */
+	  ,0 		/* item_Max_Amount */
+	  ,0 		/* item_Treasure_Type_Selection_Chances */
 	  ,100 		/* magic_Item_Chance */
-	  ,4 		/* magic_Item_Min_Amount */
-	  ,6 		/* magic_Item_Max_Amount */
-	  ,10		/* magic_Item_Treasure_Type_Selection_Chances */
+	  ,8 		/* magic_Item_Min_Amount */
+	  ,12 		/* magic_Item_Max_Amount */
+	  ,22		/* magic_Item_Treasure_Type_Selection_Chances */
 	  ,100 		/* mundane_Item_Chance */
 	  ,2 		/* mundane_Item_Min_Amount */
 	  ,3 		/* mundane_Item_Max_Amount */
-	  ,10 		/* mundane_Item_Type_Selection_Chances */
-	  ,'2020-06-03 13:05:00'); /* last_Modified */
+	  ,4 		/* mundane_Item_Type_Selection_Chances */
+	  ,'2020-10-26 13:05:00'); /* last_Modified */

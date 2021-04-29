@@ -1,18 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 39112;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (39112, 'ace39112-festivalshirt', 2, '2019-09-27 11:34:19') /* Clothing */;
+VALUES (39112, 'ace39112-festivalshirt', 2, '2020-10-28 11:34:19') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39112,   1,          4) /* ItemType - Clothing */
      , (39112,   3,         39) /* PaletteTemplate - Black */
      , (39112,   4,         40) /* ClothingPriority - UnderwearChest, UnderwearUpperArms */
      , (39112,   5,         42) /* EncumbranceVal */
-     , (39112,   9,         10) /* ValidLocations - ChestWear, UpperArmWear */
+     , (39112,   9,         14) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear */
      , (39112,  16,          1) /* ItemUseable - No */
      , (39112,  19,         20) /* Value */
      , (39112,  28,         50) /* ArmorLevel */
-     , (39112,  53,        101) /* PlacementPosition - Resting */
      , (39112,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39112, 106,        200) /* ItemSpellcraft */
      , (39112, 107,        200) /* ItemCurMana */
@@ -20,22 +19,18 @@ VALUES (39112,   1,          4) /* ItemType - Clothing */
      , (39112, 109,          0) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39112,  11, True ) /* IgnoreCollisions */
-     , (39112,  13, True ) /* Ethereal */
-     , (39112,  14, True ) /* GravityStatus */
-     , (39112,  19, True ) /* Attackable */
-     , (39112,  22, True ) /* Inscribable */;
+VALUES (39112,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39112,   5, -0.0333000011742115) /* ManaRate */
+VALUES (39112,   5,  -0.033) /* ManaRate */
      , (39112,  12,       0) /* Shade */
-     , (39112,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (39112,  14, 0.800000011920929) /* ArmorModVsPierce */
+     , (39112,  13,     0.8) /* ArmorModVsSlash */
+     , (39112,  14,     0.8) /* ArmorModVsPierce */
      , (39112,  15,       1) /* ArmorModVsBludgeon */
-     , (39112,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (39112,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (39112,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (39112,  19, 0.200000002980232) /* ArmorModVsElectric */
+     , (39112,  16,     0.2) /* ArmorModVsCold */
+     , (39112,  17,     0.2) /* ArmorModVsFire */
+     , (39112,  18,     0.1) /* ArmorModVsAcid */
+     , (39112,  19,     0.2) /* ArmorModVsElectric */
      , (39112, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

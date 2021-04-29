@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48959;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48959, 'ace48959-fireelementalessence50', 70, '2019-12-07 05:48:21') /* PetDevice */;
+VALUES (48959, 'ace48959-fireelementalessence50', 70, '2020-10-23 05:48:21') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48959,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (48959,   1,        128) /* ItemType - Misc */
      , (48959,  18,         32) /* UiEffects - Fire */
      , (48959,  19,       4000) /* Value */
      , (48959,  33,          0) /* Bonded - Normal */
-     , (48959,  65,        101) /* Placement - Resting */
      , (48959,  91,         50) /* MaxStructure */
      , (48959,  92,         50) /* Structure */
      , (48959,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -25,16 +24,11 @@ VALUES (48959,   1,        128) /* ItemType - Misc */
      , (48959, 369,         40) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48959,   1, False) /* Stuck */
-     , (48959,  11, True ) /* IgnoreCollisions */
-     , (48959,  13, True ) /* Ethereal */
-     , (48959,  14, True ) /* GravityStatus */
-     , (48959,  19, True ) /* Attackable */
-     , (48959,  22, True ) /* Inscribable */
+VALUES (48959,  22, True ) /* Inscribable */
      , (48959,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48959,  39, 0.400000005960464) /* DefaultScale */
+VALUES (48959,  39,     0.4) /* DefaultScale */
      , (48959, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -45,7 +39,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48959,   1,   33554817) /* Setup */
      , (48959,   3,  536870932) /* SoundTable */
      , (48959,   6,   67111919) /* PaletteBase */
-     , (48959,   8,  100670581) /* Icon */
+     , (48959,   8,  100670274) /* Icon */
      , (48959,  22,  872415275) /* PhysicsEffectTable */
      , (48959,  50,  100693026) /* IconOverlay */
      , (48959,  52,  100693024) /* IconUnderlay */;

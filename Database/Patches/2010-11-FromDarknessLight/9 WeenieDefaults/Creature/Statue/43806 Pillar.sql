@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43806;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43806, 'ace43806-pillar', 10, '2020-06-16 00:00:00') /* Creature */;
+VALUES (43806, 'ace43806-pillar', 10, '2020-08-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43806,   1,         16) /* ItemType - Creature */
@@ -13,27 +13,19 @@ VALUES (43806,   1,         16) /* ItemType - Creature */
      , (43806,  16,         32) /* ItemUseable - Remote */
      , (43806,  25,        171) /* Level */
      , (43806,  27,          0) /* ArmorType - None */
+     , (43806,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
 	 , (43806,  95,          3) /* RadarBlipColor - White */
-	 , (43806,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
-     , (43806, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (43806, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43806,   1, True ) /* Stuck */
-     , (43806,  11, True ) /* IgnoreCollisions */
-     , (43806,  12, True ) /* ReportCollisions */
-     , (43806,  13, True)  /* Ethereal */
-	 , (43806,  14, True ) /* GravityStatus */
-	 , (43806,  15, True ) /* LightingOn */
      , (43806,  19, False) /* Attackable */
-     , (43806,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (43806,  42, True ) /* AllowEdgeSlide */
      , (43806,  52, True ) /* AiImmobile */
      , (43806,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (43806,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43806,  39,       1) /* DefaultScale */
-     , (43806,  54,       3) /* UseRadius */;
+VALUES (43806,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43806,   1, 'Pillar') /* Name */

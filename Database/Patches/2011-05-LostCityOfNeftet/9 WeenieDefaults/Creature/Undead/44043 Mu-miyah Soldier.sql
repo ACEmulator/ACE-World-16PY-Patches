@@ -26,7 +26,6 @@ VALUES (44043,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44043,   1, True ) /* Stuck */
      , (44043,   6, True ) /* AiUsesMana */
-     , (44043,   7, True ) /* AiUseHumanMagicAnimations */
      , (44043,  10, True ) /* AttackerAi */
      , (44043,  11, False) /* IgnoreCollisions */
      , (44043,  12, True ) /* ReportCollisions */
@@ -41,7 +40,7 @@ VALUES (44043,   1,       5) /* HeartbeatInterval */
      , (44043,   5,       3) /* ManaRate */
      , (44043,  12,     0.0) /* Shade */
      , (44043,  39,     1.2) /* DefaultScale */
-      , (44043,  13,    0.67) /* ArmorModVsSlash */
+     , (44043,  13,    0.67) /* ArmorModVsSlash */
      , (44043,  14,     0.9) /* ArmorModVsPierce */
      , (44043,  15,    0.75) /* ArmorModVsBludgeon */
      , (44043,  16,       1) /* ArmorModVsCold */
@@ -103,12 +102,13 @@ VALUES (44043,   1,  4490, 0, 0, 4600) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (44043,  6, 0, 2, 0, 470, 0, 0) /* MeleeDefense        Trained */
      , (44043,  7, 0, 2, 0, 390, 0, 0) /* MissileDefense      Trained */
-     , (44043, 15, 0, 2, 0, 400, 0, 0) /* MagicDefense        Trained */
+     , (44043, 15, 0, 2, 0, 350, 0, 0) /* MagicDefense        Trained */
      , (44043, 24, 0, 2, 0, 255, 0, 0) /* Run                 Trained */
-     , (44043, 33, 0, 2, 0, 500, 0, 0) /* LifeMagic           Trained */
-     , (44043, 34, 0, 2, 0, 480, 0, 0) /* WarMagic            Trained */
+     , (44043, 33, 0, 2, 0, 380, 0, 0) /* LifeMagic           Trained */
+     , (44043, 34, 0, 2, 0, 380, 0, 0) /* WarMagic            Trained */
      , (44043, 45, 0, 3, 0, 600, 0, 0) /* LightWeapons        Specialized */
-     , (44043, 46, 0, 3, 0, 600, 0, 0) /* FinesseWeapons      Specialized */;
+     , (44043, 46, 0, 3, 0, 600, 0, 0) /* FinesseWeapons      Specialized */
+     , (44043, 48, 0, 2, 0,  60, 0, 0) /* Shield              Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (44043,  0,  4,  0,    0,  450,  250,  150,  275,  250,  100,  250,  150,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -122,9 +122,9 @@ VALUES (44043,  0,  4,  0,    0,  450,  250,  150,  275,  250,  100,  250,  150,
      , (44043,  8,  4,  300, 0.75,  450,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44043,  2170,   1.06)  /* Inferno's Gift */
-     , (44043,  4423,   1.06)  /*  Incantation of Flame Arc */
-     , (44043,  2074,   1.06)  /* Gossamer Flesh */;
+VALUES (44043,  2170,   2.06)  /* Inferno's Gift */
+     , (44043,  4423,   2.06)  /*  Incantation of Flame Arc */
+     , (44043,  2074,   2.06)  /* Gossamer Flesh */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44043, 9, 44240,  1, 0, 0.03, False) /* Create A'nekshay Token (44240) for ContainTreasure */

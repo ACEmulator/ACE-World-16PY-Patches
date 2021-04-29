@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51342;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51342, 'ace51342-experimentalbloodstone', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (51342, 'ace51342-experimentalbloodstone', 10, '2020-10-09 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51342,   1,         16) /* ItemType - Creature */
@@ -9,22 +9,18 @@ VALUES (51342,   1,         16) /* ItemType - Creature */
      , (51342,   6,         -1) /* ItemsCapacity */
      , (51342,   7,         -1) /* ContainersCapacity */
      , (51342,  16,          1) /* ItemUseable - No */
-     , (51342,  25,        220) /* Level */
+     , (51342,  25,        260) /* Level */
      , (51342,  27,          0) /* ArmorType - None */
      , (51342,  40,          2) /* CombatMode - Melee */
      , (51342,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (51342,  69,          4) /* CombatTactic - LastDamager */
-     , (51342,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
+     , (51342,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51342, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (51342, 146,     1000000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51342,   1, True ) /* Stuck */
      , (51342,   6, True ) /* AiUsesMana */
-     , (51342,  11, False) /* IgnoreCollisions */
-     , (51342,  12, True ) /* ReportCollisions */
-     , (51342,  13, False) /* Ethereal */
-     , (51342,  19, True ) /* Attackable */
      , (51342,  50, True ) /* NeverFailCasting */
      , (51342, 120, True ) /* TreasureCorpse */;
 
