@@ -30,7 +30,8 @@ VALUES (46157,   1,          1) /* ItemType - MeleeWeapon */
      , (46157, 158,          2) /* WieldRequirements - RawSkill */
      , (46157, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (46157, 160,        350) /* WieldDifficulty */
-     , (46157, 166,         61) /* SlayerCreatureType - FrostElemental */;
+     , (46157, 166,         61) /* SlayerCreatureType - FrostElemental */
+     , (46157, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46157,  11, True ) /* IgnoreCollisions */

@@ -20,7 +20,8 @@ VALUES (46105,   1,          1) /* ItemType - MeleeWeapon */
      , (46105,  51,          5) /* CombatUse - TwoHanded */
      , (46105,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46105, 151,          2) /* HookType - Wall */
-     , (46105, 292,          2) /* Cleaving */;
+     , (46105, 292,          2) /* Cleaving */
+     , (46105, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46105,  22, True ) /* Inscribable */

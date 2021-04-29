@@ -20,7 +20,8 @@ VALUES (46037,   1,          1) /* ItemType - MeleeWeapon */
      , (46037,  51,          1) /* CombatUse - Melee */
      , (46037,  52,          8) /* ParentLocation - LeftWeapon */
      , (46037,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46037, 151,          2) /* HookType - Wall */;
+     , (46037, 151,          2) /* HookType - Wall */
+     , (46037, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46037,  11, True ) /* IgnoreCollisions */

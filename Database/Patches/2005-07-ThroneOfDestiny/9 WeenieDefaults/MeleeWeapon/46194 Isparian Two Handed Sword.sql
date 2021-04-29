@@ -22,7 +22,8 @@ VALUES (46194,   1,          1) /* ItemType - MeleeWeapon */
      , (46194,  53,        101) /* PlacementPosition - Resting */
      , (46194,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46194, 151,          2) /* HookType - Wall */
-     , (46194, 292,          2) /* Cleaving */;
+     , (46194, 292,          2) /* Cleaving */
+     , (46194, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46194,  11, True ) /* IgnoreCollisions */

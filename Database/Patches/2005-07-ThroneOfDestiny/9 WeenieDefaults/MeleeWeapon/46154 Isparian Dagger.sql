@@ -21,7 +21,8 @@ VALUES (46154,   1,          1) /* ItemType - MeleeWeapon */
      , (46154,  51,          1) /* CombatUse - Melee */
      , (46154,  53,        101) /* PlacementPosition - Resting */
      , (46154,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46154, 151,          2) /* HookType - Wall */;
+     , (46154, 151,          2) /* HookType - Wall */
+     , (46154, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46154,  11, True ) /* IgnoreCollisions */

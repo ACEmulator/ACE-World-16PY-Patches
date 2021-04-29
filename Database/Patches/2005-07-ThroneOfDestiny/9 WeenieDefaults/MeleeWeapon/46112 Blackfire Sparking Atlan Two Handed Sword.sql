@@ -32,7 +32,8 @@ VALUES (46112,   1,          1) /* ItemType - MeleeWeapon */
      , (46112, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (46112, 160,        370) /* WieldDifficulty */
      , (46112, 263,         64) /* ResistanceModifierType */
-     , (46112, 292,          2) /* Cleaving */;
+     , (46112, 292,          2) /* Cleaving */
+     , (46112, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46112,  11, True ) /* IgnoreCollisions */

@@ -30,7 +30,8 @@ VALUES (46239,   1,          1) /* ItemType - MeleeWeapon */
      , (46239, 158,          2) /* WieldRequirements - RawSkill */
      , (46239, 159,         45) /* WieldSkillType - LightWeapons */
      , (46239, 160,        370) /* WieldDifficulty */
-     , (46239, 166,         60) /* SlayerCreatureType - AcidElemental */;
+     , (46239, 166,         60) /* SlayerCreatureType - AcidElemental */
+     , (46239, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46239,  11, True ) /* IgnoreCollisions */

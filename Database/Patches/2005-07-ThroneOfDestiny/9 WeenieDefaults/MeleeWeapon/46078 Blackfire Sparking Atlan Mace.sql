@@ -30,7 +30,8 @@ VALUES (46078,   1,          1) /* ItemType - MeleeWeapon */
      , (46078, 158,          2) /* WieldRequirements - RawSkill */
      , (46078, 159,         45) /* WieldSkillType - LightWeapons */
      , (46078, 160,        370) /* WieldDifficulty */
-     , (46078, 263,         64) /* ResistanceModifierType */;
+     , (46078, 263,         64) /* ResistanceModifierType */
+     , (46078, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46078,  11, True ) /* IgnoreCollisions */
