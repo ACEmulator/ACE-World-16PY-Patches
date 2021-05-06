@@ -4,7 +4,7 @@ Refuse: Brass Knuckles (28215)
     - Tell: Very good, you may keep your cestus. A lady near Zaikhal named Devana bint Hamudi is looking for skilled hunters.
     - Give: Introduction to Devana (6027)
     - Tell: Give this to her.
-	- StampQuest: HamudsDemiseStarted_0511
+    - StampQuest: HamudsDemiseStarted_0511
 
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.001
     - Say: I seek the teeth of certain creatures, the gromnies.  But I won't take just anything, I want only the most well preserved gromnie teeth!
@@ -297,3 +297,17 @@ Use:
     - Delay: 1, Motion: BowDeep
     - Delay: 1, Tell: I am interested in various teeth, horns, shells, and skulls.  For those I will reward you with useful items I make myself.
 
+Give: Giant Monouga Rib (35751)
+	- TurnToTarget
+	- Tell: See the curve on this rib? It will allow superior launching of projectiles, and the nature of the bone itself will naturally attune itself to slaying the mighty monouga. Here, try this out.
+	- Delay: 1, Give: 35766
+
+Give: Large Monouga Rib (87365)
+	- TurnToTarget
+	- Tell: See the curve on this rib? It will allow superior launching of projectiles, and the nature of the bone itself will naturally attune itself to slaying the mighty monouga. Here, try this out.
+	- Delay: 1, Give: 35764
+
+Give: Huge Monouga Rib (87366)
+	- TurnToTarget
+	- Tell: See the curve on this rib? It will allow superior launching of projectiles, and the nature of the bone itself will naturally attune itself to slaying the mighty monouga. Here, try this out.
+	- Delay: 1, Give: 35765
