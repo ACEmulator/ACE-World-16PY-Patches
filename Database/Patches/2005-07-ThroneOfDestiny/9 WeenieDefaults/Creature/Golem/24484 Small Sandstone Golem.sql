@@ -94,7 +94,6 @@ VALUES (24484,   1,   410, 0, 0, 555) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (24484,  6, 0, 3, 0, 323, 0, 0) /* MeleeDefense        Specialized */
      , (24484,  7, 0, 3, 0, 408, 0, 0) /* MissileDefense      Specialized */
-     , (24484, 45, 0, 3, 0, 275, 0, 0) /* LightWeapons        Specialized */
      , (24484, 14, 0, 3, 0, 140, 0, 0) /* ArcaneLore          Specialized */
      , (24484, 15, 0, 3, 0, 259, 0, 0) /* MagicDefense        Specialized */
      , (24484, 20, 0, 3, 0,  80, 0, 0) /* Deception           Specialized */
@@ -102,7 +101,8 @@ VALUES (24484,  6, 0, 3, 0, 323, 0, 0) /* MeleeDefense        Specialized */
      , (24484, 24, 0, 3, 0,  10, 0, 0) /* Run                 Specialized */
      , (24484, 31, 0, 3, 0, 210, 0, 0) /* CreatureEnchantment Specialized */
      , (24484, 33, 0, 3, 0, 210, 0, 0) /* LifeMagic           Specialized */
-     , (24484, 34, 0, 3, 0, 210, 0, 0) /* WarMagic            Specialized */;
+     , (24484, 34, 0, 3, 0, 210, 0, 0) /* WarMagic            Specialized */
+     , (24484, 45, 0, 3, 0, 275, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24484,  0,  4,  0,    0,  275,  121,  160,  275,   91,   91,  275,  237,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -143,4 +143,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24484, 9,  6353,  0, 0, 0.02, False) /* Create Pyreal Mote (6353) for ContainTreasure */
-     , (24484, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+     , (24484, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (24484, 9, 34275,  0, 0, 0.25, False) /* Create Ulgrim's Contest Mug (34275) for ContainTreasure */
+     , (24484, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */;
