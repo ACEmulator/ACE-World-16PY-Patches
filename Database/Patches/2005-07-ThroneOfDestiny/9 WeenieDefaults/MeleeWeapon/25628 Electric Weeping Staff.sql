@@ -34,7 +34,8 @@ VALUES (25628,   1,          1) /* ItemType - MeleeWeapon */
      , (25628, 158,          2) /* WieldRequirements - RawSkill */
      , (25628, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (25628, 160,        325) /* WieldDifficulty */
-     , (25628, 166,         31) /* SlayerCreatureType - Human */;
+     , (25628, 166,         31) /* SlayerCreatureType - Human */
+	 , (25628, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25628,  11, True ) /* IgnoreCollisions */
