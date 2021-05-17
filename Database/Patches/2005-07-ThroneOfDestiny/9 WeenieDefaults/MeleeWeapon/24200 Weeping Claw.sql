@@ -33,8 +33,7 @@ VALUES (24200,   1,          1) /* ItemType - MeleeWeapon */
      , (24200, 158,          2) /* WieldRequirements - RawSkill */
      , (24200, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (24200, 160,        325) /* WieldDifficulty */
-     , (24200, 166,         31) /* SlayerCreatureType - Human */
-	 , (24200, 353,          1) /* WeaponType - Unarmed */;
+     , (24200, 166,         31) /* SlayerCreatureType - Human */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24200,  11, True ) /* IgnoreCollisions */
