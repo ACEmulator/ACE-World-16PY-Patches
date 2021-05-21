@@ -19,7 +19,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43987,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43987,   1, 'Menhir') /* Name */;
+VALUES (43987,   1, 'Menhir') /* Name */
+     , (43987,  16, 'A menhir stone, covered in Dericost script.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43987,   1,   33555229) /* Setup */
