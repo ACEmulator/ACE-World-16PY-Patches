@@ -10,7 +10,7 @@ VALUES (43481,   1,         16) /* ItemType - Creature */
      , (43481,   2,          1) /* CreatureType - Olthoi */
      , (43481,   6,        102) /* ItemsCapacity */
      , (43481,   7,          7) /* ContainersCapacity */
-     , (43481,   8,        120) /* Mass */	 
+     , (43481,   8,        120) /* Mass */   
      , (43481,  16,          1) /* ItemUseable - No */
      , (43481,  25,        180) /* Level */
      , (43481,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
@@ -45,7 +45,7 @@ VALUES (43481,   1,       5) /* HeartbeatInterval */
      , (43481,  19,     0.6) /* ArmorModVsElectric */
      , (43481,  31,      50) /* VisualAwarenessRange */
      , (43481,  36,     1.5) /* ChargeSpeed */
-	 , (43481,  39,     0.9) /* DefaultScale */
+     , (43481,  39,     0.9) /* DefaultScale */
      , (43481,  64,       1) /* ResistSlash */
      , (43481,  65,       1) /* ResistPierce */
      , (43481,  66,       1) /* ResistBludgeon */
@@ -65,7 +65,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43481,   1,   33561120) /* Setup */
      , (43481,   2,  150995461) /* MotionTable */
      , (43481,   3,  536871070) /* SoundTable */
-	 , (43481,   4,  805306424) /* CombatTable */
+     , (43481,   4,  805306424) /* CombatTable */
      , (43481,   5,  234881029) /* QualityFilter */
      , (43481,   8,  100674626) /* Icon */
      , (43481,  22,  872415398) /* PhysicsEffectTable */;
@@ -82,18 +82,18 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (43481,   1,   400, 0, 0, 500) /* MaxHealth */
      , (43481,   3,   400, 0, 0, 600) /* MaxStamina */
      , (43481,   5,   400, 0, 0, 800) /* MaxMana */;
-	 
+     
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (43481,  6,  0, 3, 0, 250, 0, 0) /* MeleeDefense      Specialized */
-	 , (43481,  7,  0, 3, 0, 300, 0, 0) /* MissileDefense    Specialized */
-	 , (43481,  15, 0, 3, 0, 250, 0, 0) /* MagicDefense      Specialized */
-	 , (43481,  16, 0, 2, 0, 200, 0, 0) /* ManaConversion    Trained */
-	 , (43481,  19, 0, 2, 0, 200, 0, 0) /* AssessPerson      Trained */
-	 , (43481,  21, 0, 2, 0, 250, 0, 0) /* Healing           Trained */
-	 , (43481,  22, 0, 2, 0, 10,  0, 0) /* Jump              Trained */
-	 , (43481,  24, 0, 2, 0, 210, 0, 0) /* Run               Trained */
-	 , (43481,  27, 0, 2, 0, 200, 0, 0) /* AssessCreature    Trained */
-	 , (43481,  34, 0, 3, 0, 330, 0, 0) /* WarMagic          Specialized */;
+     , (43481,  7,  0, 3, 0, 300, 0, 0) /* MissileDefense    Specialized */
+     , (43481,  15, 0, 3, 0, 250, 0, 0) /* MagicDefense      Specialized */
+     , (43481,  16, 0, 2, 0, 200, 0, 0) /* ManaConversion    Trained */
+     , (43481,  19, 0, 2, 0, 200, 0, 0) /* AssessPerson      Trained */
+     , (43481,  21, 0, 2, 0, 250, 0, 0) /* Healing           Trained */
+     , (43481,  22, 0, 2, 0, 10,  0, 0) /* Jump              Trained */
+     , (43481,  24, 0, 2, 0, 210, 0, 0) /* Run               Trained */
+     , (43481,  27, 0, 2, 0, 200, 0, 0) /* AssessCreature    Trained */
+     , (43481,  34, 0, 3, 0, 330, 0, 0) /* WarMagic          Specialized */;
 
 /* verify */
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
@@ -106,7 +106,7 @@ VALUES (43481,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (43481,  6,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (43481,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (43481,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-	 
+     
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (43481, 414) /* PLAYER_DEATH_EVENT */;
 
