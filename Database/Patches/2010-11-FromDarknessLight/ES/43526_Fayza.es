@@ -58,14 +58,21 @@ GotoSet: OwnsA
 
 Refuse: Energy Infused Rock (43792)
 	- TurnToTarget
-	- Tell: What a magnificent sample! So light for such a large stone, truly amazing.
-	- Delay: 1, Tell: I wonder if I could use this material to create something special.....
-	- Delay: 1, Tell: Ah right, I should also reward you bringing me this
-	- TakeItems: 43792, 1
-	- AwardLuminance: 30,000
-	- AwardLevelProportionalXP: 85%, Max: 500,000,000
-	- Give: 38920
-	- Give: 20630, 9
-	- EraseQuest: DeewainBossRoomFlag
-	- StampQuest: DeewainCompleted0211
-	
+	- InqQuest: DeewainBossRoomFlag
+		QuestSuccess:
+			- Tell: What a magnificent sample! So light for such a large stone, truly amazing.
+			- Delay: 0.5, Tell: I wonder if I could use this material to create something special.....
+			- Delay: 0.5, Tell: Ah right, I should also reward you bringing me this
+			- InqOwnsItems: 43792
+				TestSuccess:
+					- TakeItems: 43792, -1
+					- AwardLuminance: 30,000
+					- AwardLevelProportionalXP: 85%, Min: 0, Max: 500,000,000
+					- Give: 38920
+					- Give: 20630, 9
+					- EraseQuest: DeewainBossRoomFlag
+					- StampQuest: DeewainCompleted0211
+				TestFailure:
+					- Tell: This is not the correct sample!
+		QuestFailure:
+			- Tell: How did you come upon this without defeating Deewain!?
