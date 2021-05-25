@@ -26,7 +26,7 @@ VALUES (41195,  54, -0.100000001490116) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41195,   1, 'Apostate Excavation') /* Name */
      , (41195,  16, 'This portal leads to the deeper regions of the Apostate Excavation.') /* LongDesc */
-     , (41195,  38, 'Apostate Excavation') /* AppraisalPortalDestination */;
+     , (41195,  37, 'GearKnightExcavationStarted0809') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41195,   1,   33555925) /* Setup */
@@ -34,5 +34,5 @@ VALUES (41195,   1,   33555925) /* Setup */
      , (41195,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41195, 2, 962593031, 118, -5, -15.595, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x39600107 [118.000000 -5.000000 -15.595000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (41195, 2, 962593031, 118, -5, -15.595, 0.707107, 0, 0, -0.707107) /* Destination */
+/* @teleloc 0x39600107 [118.000000 -5.000000 -15.595000] 0.707107 0.000000 0.000000 -0.707107 */;
