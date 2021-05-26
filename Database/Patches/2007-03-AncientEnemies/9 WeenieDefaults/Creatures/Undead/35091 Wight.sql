@@ -134,20 +134,6 @@ VALUES (35091,  0,  4,  0,    0,  275,  275,  275,  275,  275,  275,  275,  275,
      , (35091,  7,  4,  0,    0,  275,  275,  275,  275,  275,  275,  275,  275,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (35091,  8,  4, 155, 0.75,  275,  275,  275,  275,  275,  275,  275,  275,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35091,  1784,   2.02)  /* Horizon's Blades */
-     , (35091,  1786,   2.02)  /* Nuhmudira's Spines */
-     , (35091,  2074,   2.02)  /* Gossamer Flesh */
-     , (35091,  2166,   2.02)  /* Tusker's Gift */
-     , (35091,  2168,   2.02)  /* Gelidite's Gift */
-     , (35091,  4312,   2.02)  /* Incantation of Imperil Other */
-     , (35091,  4422,   2.02)  /* Incantation of Blade Arc */
-     , (35091,  4424,   2.02)  /* Incantation of Force Arc */
-     , (35091,  4442,   2.02)  /* Incantation of Force Blast */
-     , (35091,  4443,   2.02)  /* Incantation of Force Bolt */
-     , (35091,  4489,   2.02)  /* Incantation of Fester Other */
-     , (35091,  5531,   2.02)  /* Bloodstone Bolt VII */;
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35091, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

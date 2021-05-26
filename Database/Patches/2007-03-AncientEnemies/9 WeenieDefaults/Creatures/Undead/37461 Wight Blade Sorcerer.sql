@@ -4,19 +4,19 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (37461, 'ace37461-wightbladesorcerer', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (37461,   1,         16) /* ItemType - Creature */
-     , (37461,   2,         14) /* CreatureType - Undead */
-     , (37461,   3,         10) /* PaletteTemplate - LightBlue */
-     , (37461,   6,         -1) /* ItemsCapacity */
-     , (37461,   7,         -1) /* ContainersCapacity */
-     , (37461,  16,          1) /* ItemUseable - No */
-     , (37461,  25,        240) /* Level */
-     , (37461,  40,          2) /* CombatMode - Melee */
-     , (37461,  68,          3) /* TargetingTactic - Random, Focused */
-     , (37461,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (37461, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (37461, 146,    1850000) /* XpOverride */
-     , (37461, 307,          4) /* DamageRating */;
+VALUES (37461,   1,      16) /* ItemType - Creature */
+     , (37461,   2,      14) /* CreatureType - Undead */
+     , (37461,   3,      10) /* PaletteTemplate */
+     , (37461,   6,      -1) /* ItemsCapacity - LightBlue */
+     , (37461,   7,      -1) /* ContainersCapacity */
+     , (37461,  16,       1) /* ItemUseable - No */
+     , (37461,  25,     240) /* Level */
+     , (37461,  40,       2) /* CombatMode - Melee */
+     , (37461,  68,       3) /* TargetingTactic - Random, Focused */
+     , (37461,  93,    1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (37461, 133,       2) /* ShowableOnRadar - ShowMovement */
+     , (37461, 146, 1850000) /* XpOverride */
+     , (37461, 307,       4) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37461,   1, True ) /* Stuck */
@@ -27,54 +27,55 @@ VALUES (37461,   1, True ) /* Stuck */
      , (37461,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37461,   1,       5) /* HeartbeatInterval */
-     , (37461,   2,       0) /* HeartbeatTimestamp */
-     , (37461,   3,     0.2) /* HealthRate */
-     , (37461,   4,     0.5) /* StaminaRate */
-     , (37461,   5,       2) /* ManaRate */
-     , (37461,  12,       0) /* Shade */
-     , (37461,  13,    0.85) /* ArmorModVsSlash */
-     , (37461,  14,    0.95) /* ArmorModVsPierce */
-     , (37461,  15,    0.85) /* ArmorModVsBludgeon */
-     , (37461,  16,    0.95) /* ArmorModVsCold */
-     , (37461,  17,    0.85) /* ArmorModVsFire */
-     , (37461,  18,    0.90) /* ArmorModVsAcid */
-     , (37461,  19,    0.95) /* ArmorModVsElectric */
-     , (37461,  31,      23) /* VisualAwarenessRange */
-     , (37461,  34,       2) /* PowerupTime */
-     , (37461,  36,       1) /* ChargeSpeed */
-     , (37461,  39,     1.1) /* DefaultScale */
-     , (37461,  64,    0.82) /* ResistSlash */
-     , (37461,  65,     0.5) /* ResistPierce */
-     , (37461,  66,     0.5) /* ResistBludgeon */
-     , (37461,  67,    0.85) /* ResistFire */
-     , (37461,  68,     0.5) /* ResistCold */
-     , (37461,  69,     0.5) /* ResistAcid */
-     , (37461,  70,     0.5) /* ResistElectric */
-     , (37461,  166,    0.9) /* ResistNether */
-     , (37461,  71,       1) /* ResistHealthBoost */
-     , (37461,  72,       1) /* ResistStaminaDrain */
-     , (37461,  73,       1) /* ResistStaminaBoost */
-     , (37461,  74,       1) /* ResistManaDrain */
-     , (37461,  75,       1) /* ResistManaBoost */
-     , (37461,  80,       2) /* AiUseMagicDelay */
-     , (37461, 104,      10) /* ObviousRadarRange */
-     , (37461, 122,       2) /* AiAcquireHealth */
-     , (37461, 125,       1) /* ResistHealthDrain */;
+VALUES (37461,   1,    5) /* HeartbeatInterval */
+     , (37461,   2,    0) /* HeartbeatTimestamp */
+     , (37461,   3,  0.2) /* HealthRate */
+     , (37461,   4,  0.5) /* StaminaRate */
+     , (37461,   5,    2) /* ManaRate */
+     , (37461,  12,    0) /* Shade */
+     , (37461,  13, 0.85) /* ArmorModVsSlash */
+     , (37461,  14, 0.95) /* ArmorModVsPierce */
+     , (37461,  15, 0.85) /* ArmorModVsBludgeon */
+     , (37461,  16, 0.95) /* ArmorModVsCold */
+     , (37461,  17, 0.85) /* ArmorModVsFire */
+     , (37461,  18, 0.90) /* ArmorModVsAcid */
+     , (37461,  19, 0.95) /* ArmorModVsElectric */
+     , (37461,  31,   23) /* VisualAwarenessRange */
+     , (37461,  34,    2) /* PowerupTime */
+     , (37461,  36,    1) /* ChargeSpeed */
+     , (37461,  39,  1.1) /* DefaultScale */
+     , (37461,  64, 0.82) /* ResistSlash */
+     , (37461,  65,  0.5) /* ResistPierce */
+     , (37461,  66,  0.5) /* ResistBludgeon */
+     , (37461,  67, 0.85) /* ResistFire */
+     , (37461,  68,  0.5) /* ResistCold */
+     , (37461,  69,  0.5) /* ResistAcid */
+     , (37461,  70,  0.5) /* ResistElectric */
+     , (37461,  71,    1) /* ResistHealthBoost */
+     , (37461,  72,    1) /* ResistStaminaDrain */
+     , (37461,  73,    1) /* ResistStaminaBoost */
+     , (37461,  74,    1) /* ResistManaDrain */
+     , (37461,  75,    1) /* ResistManaBoost */
+     , (37461,  80,    2) /* AiUseMagicDelay */
+     , (37461, 104,   10) /* ObviousRadarRange */
+     , (37461, 122,    2) /* AiAcquireHealth */
+     , (37461, 125,    1) /* ResistHealthDrain */
+     , (37461, 166,  0.9) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37461,   1, 'Wight Blade Sorcerer') /* Name */
      , (37461,  45, 'KilltaskGraveyardWight_1309') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37461,   1,   33560225) /* Setup */
-     , (37461,   2,  150994967) /* MotionTable */
-     , (37461,   3,  536870934) /* SoundTable */
-     , (37461,   4,  805306368) /* CombatTable */
-     , (37461,   6,   67110722) /* PaletteBase */
-     , (37461,   8,  100667942) /* Icon */
-     , (37461,  22,  872415272) /* PhysicsEffectTable */
-     , (37461,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
+VALUES (37461,  1,  33560225) /* Setup */
+     , (37461,  2, 150994967) /* MotionTable */
+     , (37461,  3, 536870934) /* SoundTable */
+     , (37461,  4, 805306368) /* CombatTable */
+     , (37461,  6,  67110722) /* PaletteBase */
+     , (37461,  7, 268435558) /* ClothingBase */
+     , (37461,  8, 100667942) /* Icon */
+     , (37461, 22, 872415272) /* PhysicsEffectTable */
+     , (37461, 35,      1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (37461,   1, 240, 0, 0) /* Strength */
@@ -111,12 +112,49 @@ VALUES (37461,  0,  4,  0,    0,  225,  225,  225,  225,  225,  225,  225,  225,
      , (37461,  8,  4, 400, 0.75,  225,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37461,  1786,   2.02)  /* Nuhmudira's Spines */
-     , (37461,  2095,   2.02)  /* Swordsman Bait */
-     , (37461,  4422,   2.02)  /* Incantation of Blade Arc */
-     , (37461,  4435,   2.02)  /* Incantation of Blade Blast */
-     , (37461,  4436,   2.02)  /* Incantation of Blade Volley */
-     , (37461,  4489,   2.02)  /* Incantation of Fester Other */
-     , (37461,  5531,   2.02)  /* Bloodstone Bolt VII */;
+VALUES (37461,  1786,   2.143) /* Nuhmudira's Spines */
+     , (37461,  5531,   2.167) /* Bloodstone Bolt VII */
+     , (37461,  4424,     2.2) /* Incantation of Force Arc */
+     , (37461,  4442,    2.25) /* Incantation of Force Blast */
+     , (37461,  4443,   2.334) /* Incantation of Force Bolt */
+     , (37461,  4489,   2.501) /* Incantation of Fester Other */
+     , (37461,  2166,   3.002) /* Tusker's Gift */;
 
-
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37461, 9, 35105,  1, 0, 0.10, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (37461, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
+     , (37461, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
+     , (37461, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
+     , (37461, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
+     , (37461, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (37461, 9, 35504,  0, 0, 0.01, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
+     , (37461, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (37461, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
+     , (37461, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
+     , (37461, 9, 37247,  0, 0, 0.003, False) /* Create Ace of Eyes (37247) for ContainTreasure */
+     , (37461, 9, 37248,  0, 0, 0.003, False) /* Create Two of Eyes (37248) for ContainTreasure */
+     , (37461, 9, 37249,  0, 0, 0.003, False) /* Create Three of Eyes (37249) for ContainTreasure */
+     , (37461, 9, 37250,  0, 0, 0.003, False) /* Create Four of Eyes (37250) for ContainTreasure */
+     , (37461, 9, 37251,  0, 0, 0.003, False) /* Create Five of Eyes (37251) for ContainTreasure */
+     , (37461, 9, 37252,  0, 0, 0.003, False) /* Create Six of Eyes (37252) for ContainTreasure */
+     , (37461, 9, 37253,  0, 0, 0.003, False) /* Create Seven of Eyes (37253) for ContainTreasure */
+     , (37461, 9, 37254,  0, 0, 0.003, False) /* Create Eight of Eyes (37254) for ContainTreasure */
+     , (37461, 9, 37255,  0, 0, 0.003, False) /* Create Nine of Eyes (37255) for ContainTreasure */
+     , (37461, 9, 37256,  0, 0, 0.003, False) /* Create Ten of Eyes (37256) for ContainTreasure */
+     , (37461, 9, 37257,  0, 0, 0.003, False) /* Create Jack of Eyes (37257) for ContainTreasure */
+     , (37461, 9, 37258,  0, 0, 0.003, False) /* Create Queen of Eyes (37258) for ContainTreasure */
+     , (37461, 9, 37259,  0, 0, 0.003, False) /* Create King of Eyes (37259) for ContainTreasure */
+     , (37461, 9, 37234,  0, 0, 0.003, False) /* Create Ace of Hands (37234) for ContainTreasure */
+     , (37461, 9, 37235,  0, 0, 0.003, False) /* Create Two of Hands (37235) for ContainTreasure */
+     , (37461, 9, 37236,  0, 0, 0.003, False) /* Create Three of Hands (37236) for ContainTreasure */
+     , (37461, 9, 37237,  0, 0, 0.003, False) /* Create Four of Hands (37237) for ContainTreasure */
+     , (37461, 9, 37238,  0, 0, 0.003, False) /* Create Five of Hands (37238) for ContainTreasure */
+     , (37461, 9, 37239,  0, 0, 0.003, False) /* Create Six of Hands (37239) for ContainTreasure */
+     , (37461, 9, 37240,  0, 0, 0.003, False) /* Create Seven of Hands (37240) for ContainTreasure */
+     , (37461, 9, 37241,  0, 0, 0.003, False) /* Create Eight of Hands (37241) for ContainTreasure */
+     , (37461, 9, 37242,  0, 0, 0.003, False) /* Create Nine of Hands (37242) for ContainTreasure */
+     , (37461, 9, 37243,  0, 0, 0.003, False) /* Create Ten of Hands (37243) for ContainTreasure */
+     , (37461, 9, 37244,  0, 0, 0.003, False) /* Create Jack of Hands (37244) for ContainTreasure */
+     , (37461, 9, 37245,  0, 0, 0.003, False) /* Create Queen of Hands (37245) for ContainTreasure */
+     , (37461, 9, 37246,  0, 0, 0.003, False) /* Create King of Hands (37246) for ContainTreasure */
+     , (37461, 9,     0,  0, 0, 0.922, False) /* Create nothing for ContainTreasure */;

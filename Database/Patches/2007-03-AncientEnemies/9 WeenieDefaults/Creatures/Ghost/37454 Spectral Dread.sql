@@ -13,8 +13,8 @@ VALUES (37454,   1,         16) /* ItemType - Creature */
      , (37454,  25,        265) /* Level */
      , (37454,  40,          2) /* CombatMode - Melee */
      , (37454,  68,          3) /* TargetingTactic - Random, Focused */
-     , (37454,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (37454, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (37454,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
+     , (37454, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (37454, 140,          1) /* AiOptions - CanOpenDoors */
      , (37454, 146,    2500000) /* XpOverride */;
 
@@ -58,7 +58,7 @@ VALUES (37454,   1,       5) /* HeartbeatInterval */
      , (37454,  73,       1) /* ResistStaminaBoost */
      , (37454,  74,       1) /* ResistManaDrain */
      , (37454,  75,       1) /* ResistManaBoost */
-     , (37454,  76,     0.5) /* Translucency */
+     , (37454,  76,     0.7) /* Translucency */
      , (37454, 104,      10) /* ObviousRadarRange */
      , (37454, 122,       2) /* AiAcquireHealth */
      , (37454, 125,       1) /* ResistHealthDrain */;
