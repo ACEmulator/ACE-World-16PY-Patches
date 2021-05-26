@@ -888,5 +888,5 @@ VALUES (0x701E90D6, 87032, 0x01E904A7, 127.874, -66.3376, 6.005, 0.599587, 0, 0,
 /* @teleloc 0x01E904A7 [127.874001 -66.337601 6.005000] 0.599587 0.000000 0.000000 -0.800309 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701E90D7, 87033, 0x01E904A7, 130.259354, -69.824066, 6.005, 0.694666, 0, 0, -0.719333, False, '2020-11-02 21:19:29'); /* ElysasDetermination Gen */
-/* @teleloc 0x01E904A7 [130.259354 -69.824066 6.005000] 0.694666 0.000000 0.000000 -0.719333 */
+VALUES (0x701E90D7, 87033, 0x01E904A7, 130.259, -69.8241, 6.005, 0.694666, 0, 0, -0.719333, False, '2020-11-02 21:19:29'); /* ElysasDetermination Gen */
+/* @teleloc 0x01E904A7 [130.259003 -69.824097 6.005000] 0.694666 0.000000 0.000000 -0.719333 */
