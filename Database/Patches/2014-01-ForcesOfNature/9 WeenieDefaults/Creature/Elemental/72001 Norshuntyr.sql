@@ -27,32 +27,33 @@ VALUES (72001,   1, True ) /* Stuck */
      , (72001,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (72001,   1,       5) /* HeartbeatInterval */
-     , (72001,   2,       0) /* HeartbeatTimestamp */
-     , (72001,   3,       1) /* HealthRate */
-     , (72001,   4,     9.5) /* StaminaRate */
-     , (72001,   5,       4) /* ManaRate */
-	 , (72001,  13,     0.8) /* ArmorModVsSlash */
-     , (72001,  14,     0.8) /* ArmorModVsPierce */
-     , (72001,  15,     0.8) /* ArmorModVsBludgeon */
-     , (72001,  16,     1.0) /* ArmorModVsCold */
-     , (72001,  17,     0.6) /* ArmorModVsFire */
-     , (72001,  18,     1.0) /* ArmorModVsAcid */
-     , (72001,  19,     0.8) /* ArmorModVsElectric */
-	 , (72001,  31,      25) /* VisualAwarenessRange */
-     , (72001,  34,     1.6) /* PowerupTime */
-     , (72001,  39,     1.8) /* DefaultScale */
-     , (72001,  64,     0.6) /* ResistSlash */
-     , (72001,  65,     0.7) /* ResistPierce */
-     , (72001,  66,     0.7) /* ResistBludgeon */
-     , (72001,  67,     0.8) /* ResistFire */
-     , (72001,  68,     0.4) /* ResistCold */
-     , (72001,  69,     0.6) /* ResistAcid */
-     , (72001,  70,     0.4) /* ResistElectric */
-	 , (72001,  80,       3) /* AiUseMagicDelay */
-     , (72001, 104,      10) /* ObviousRadarRange */
-     , (72001, 122,       2) /* AiAcquireHealth */
-     , (72001, 125,       1) /* ResistHealthDrain */;
+VALUES (72001,   1,   5) /* HeartbeatInterval */
+     , (72001,   2,   0) /* HeartbeatTimestamp */
+     , (72001,   3,   1) /* HealthRate */
+     , (72001,   4, 9.5) /* StaminaRate */
+     , (72001,   5,   4) /* ManaRate */
+     , (72001,  13, 0.8) /* ArmorModVsSlash */
+     , (72001,  14, 0.8) /* ArmorModVsPierce */
+     , (72001,  15, 0.8) /* ArmorModVsBludgeon */
+     , (72001,  16, 1.0) /* ArmorModVsCold */
+     , (72001,  17, 0.6) /* ArmorModVsFire */
+     , (72001,  18, 1.0) /* ArmorModVsAcid */
+     , (72001,  19, 0.8) /* ArmorModVsElectric */
+     , (72001,  31,  25) /* VisualAwarenessRange */
+     , (72001,  34, 1.6) /* PowerupTime */
+     , (72001,  39, 1.8) /* DefaultScale */
+     , (72001,  55,  80) /* HomeRadius */
+     , (72001,  64, 0.6) /* ResistSlash */
+     , (72001,  65, 0.7) /* ResistPierce */
+     , (72001,  66, 0.7) /* ResistBludgeon */
+     , (72001,  67, 0.8) /* ResistFire */
+     , (72001,  68, 0.4) /* ResistCold */
+     , (72001,  69, 0.6) /* ResistAcid */
+     , (72001,  70, 0.4) /* ResistElectric */
+     , (72001,  80,   3) /* AiUseMagicDelay */
+     , (72001, 104,  10) /* ObviousRadarRange */
+     , (72001, 122,   2) /* AiAcquireHealth */
+     , (72001, 125,   1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72001,   1, 'Norshuntyr') /* Name */

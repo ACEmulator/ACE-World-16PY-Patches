@@ -28,36 +28,36 @@ VALUES (72000,   1, True ) /* Stuck */
      , (72000,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (72000,   1,   5) /* HeartbeatInterval */
-     , (72000,   2,   0) /* HeartbeatTimestamp */
-     , (72000,   3,   4) /* HealthRate */
-     , (72000,   4,  10) /* StaminaRate */
-     , (72000,   5,   3) /* ManaRate */
+VALUES (72000,   1,    5) /* HeartbeatInterval */
+     , (72000,   2,    0) /* HeartbeatTimestamp */
+     , (72000,   3,    4) /* HealthRate */
+     , (72000,   4,   10) /* StaminaRate */
+     , (72000,   5,    3) /* ManaRate */
      , (72000,  12, 0.16) /* Shade */
-     , (72000,  13, 1.9) /* ArmorModVsSlash */
-     , (72000,  14, 1.9) /* ArmorModVsPierce */
-     , (72000,  15, 1.8) /* ArmorModVsBludgeon */
-     , (72000,  16, 1.7) /* ArmorModVsCold */
-     , (72000,  17, 2.0) /* ArmorModVsFire */
-     , (72000,  18, 1.7) /* ArmorModVsAcid */
-     , (72000,  19, 2.0) /* ArmorModVsElectric */
-     , (72000,  31,  25) /* VisualAwarenessRange */
-     , (72000,  34,   1) /* PowerupTime */
-     , (72000,  36,   1) /* ChargeSpeed */
-     , (72000,  55, 100) /* HomeRadius */
-     , (72000,  64, 0.4) /* ResistSlash */
-     , (72000,  65, 0.5) /* ResistPierce */
-     , (72000,  66, 0.5) /* ResistBludgeon */
-     , (72000,  67, 0.4) /* ResistFire */
-     , (72000,  68, 0.6) /* ResistCold */
-     , (72000,  69, 0.6) /* ResistAcid */
-     , (72000,  70, 0.4) /* ResistElectric */
-     , (72000,  80,   3) /* AiUseMagicDelay */
-     , (72000, 104,  10) /* ObviousRadarRange */
-     , (72000, 117, 0.5) /* FocusedProbability */
-     , (72000, 122,   2) /* AiAcquireHealth */
-     , (72000, 125,   1) /* ResistHealthDrain */
-     , (72000, 166, 1.0) /* ResistNether */;
+     , (72000,  13,  1.9) /* ArmorModVsSlash */
+     , (72000,  14,  1.9) /* ArmorModVsPierce */
+     , (72000,  15,  1.8) /* ArmorModVsBludgeon */
+     , (72000,  16,  1.7) /* ArmorModVsCold */
+     , (72000,  17,  2.0) /* ArmorModVsFire */
+     , (72000,  18,  1.7) /* ArmorModVsAcid */
+     , (72000,  19,  2.0) /* ArmorModVsElectric */
+     , (72000,  31,   25) /* VisualAwarenessRange */
+     , (72000,  34,    1) /* PowerupTime */
+     , (72000,  36,    1) /* ChargeSpeed */
+     , (72000,  55,   80) /* HomeRadius */
+     , (72000,  64,  0.4) /* ResistSlash */
+     , (72000,  65,  0.5) /* ResistPierce */
+     , (72000,  66,  0.5) /* ResistBludgeon */
+     , (72000,  67,  0.4) /* ResistFire */
+     , (72000,  68,  0.6) /* ResistCold */
+     , (72000,  69,  0.6) /* ResistAcid */
+     , (72000,  70,  0.4) /* ResistElectric */
+     , (72000,  80,    3) /* AiUseMagicDelay */
+     , (72000, 104,   10) /* ObviousRadarRange */
+     , (72000, 117,  0.5) /* FocusedProbability */
+     , (72000, 122,    2) /* AiAcquireHealth */
+     , (72000, 125,    1) /* ResistHealthDrain */
+     , (72000, 166,  1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72000,   1, 'NightBrier') /* Name */
@@ -106,15 +106,15 @@ VALUES (72000,  6, 0, 2, 0, 540, 0, 0) /* MeleeDefense        Trained */
 	 , (72000, 52, 0, 2, 0, 500, 0, 0) /* DirtyFighting       Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (72000,  0,  4,  0,    0,  500,  375,  375,  325,  350,  400,  325,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (72000,  1,  4,  0,    0,  500,  375,  375,  325,  350,  400,  325,  400,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (72000,  2,  4,  0,    0,  500,  375,  375,  325,  350,  400,  325,  400,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (72000,  3,  4,  0,    0,  500,  375,  375,  325,  350,  400,  325,  400,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (72000,  4,  4,  0,    0,  500,  375,  375,  325,  350,  400,  325,  400,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (72000,  5,  4, 600, 0.75, 500,  375,  375,  325,  350,  400,  325,  400,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (72000,  6,  4,  0,    0,  500,  375,  375,  325,  350,  400,  325,  400,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (72000,  7,  4,  0,    0,  500,  375,  375,  325,  350,  400,  325,  400,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (72000,  8,  4, 600, 0.75,  500,  375,  375,  325,  350,  400,  325,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (72000,  0,  4,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (72000,  1,  4,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (72000,  2,  4,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (72000,  3,  4,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (72000,  4,  4,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (72000,  5,  4, 600, 0.75, 400,  400,  400,  400,  400,  400,  400,  400,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (72000,  6,  4,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (72000,  7,  4,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (72000,  8,  4, 600, 0.75,  400,  400,  400,  400,  400,  400,  400,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (72000,  6160,   2.05)  /* Thorns */

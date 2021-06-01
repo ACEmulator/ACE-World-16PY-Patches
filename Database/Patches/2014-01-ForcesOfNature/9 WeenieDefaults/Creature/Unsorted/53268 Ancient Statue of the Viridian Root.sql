@@ -13,17 +13,17 @@ VALUES (53268,   1,         16) /* ItemType - Creature */
      , (53268, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53268,   1, True ) /* Stuck */
-     , (53268,  11, True ) /* IgnoreCollisions */
-     , (53268,  12, True ) /* ReportCollisions */
-     , (53268,  14, True ) /* GravityStatus */
-     , (53268,  15, True ) /* LightsStatus */
-     , (53268,  19, False) /* Attackable */
-     , (53268,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (53268,  42, True ) /* AllowEdgeSlide */
-     , (53268,  52, True ) /* AiImmobile */
-     , (53268,  82, True ) /* DontTurnOrMoveWhenGiving */
-     , (53268,  83, True ) /* NpcLooksLikeObject */;
+VALUES (53268,  1,  True) /* Stuck */
+     , (53268, 11,  True) /* IgnoreCollisions */
+     , (53268, 12,  True) /* ReportCollisions */
+     , (53268, 14,  True) /* GravityStatus */
+     , (53268, 15,  True) /* LightsStatus */
+     , (53268, 19, False) /* Attackable */
+     , (53268, 41,  True) /* ReportCollisionsAsEnvironment */
+     , (53268, 42,  True) /* AllowEdgeSlide */
+     , (53268, 52,  True) /* AiImmobile */
+     , (53268, 82,  True) /* DontTurnOrMoveWhenGiving */
+     , (53268, 83,  True) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53268,  54,       3) /* UseRadius */;
@@ -80,4 +80,3 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id, 0, 18 /* DirectBroadcast */, 0, 1, NULL, 'You approach, attempting to use the portal, but you are unable to activate it.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-

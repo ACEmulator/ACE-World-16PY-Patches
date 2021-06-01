@@ -13,7 +13,7 @@ VALUES (72006,   1,          1) /* ItemType - MeleeWeapon */
      , (72006,  44,         58) /* Damage */
      , (72006,  45,         64) /* DamageType - Electric */
      , (72006,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (72006,  47,          6) /* AttackType - Thrust, Slash */
+     , (72006,  47,         46) /* AttackType - DoubleSlash, DoubleThrust */
      , (72006,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (72006,  49,         40) /* WeaponTime */
      , (72006,  51,          1) /* CombatUse - Melee */
@@ -48,7 +48,9 @@ VALUES (72006,   1, 'Stormwood Dagger') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72006,   1,   33561666) /* Setup */
-     , (72006,   8,  100693337) /* Icon */;
+     , (72006,   3,  536870932) /* SoundTable */
+     , (72006,   8,  100693337) /* Icon */
+     , (72006,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (72006,  4395,      2) /* Aura of Incantation of Blood Drinker Self */

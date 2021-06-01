@@ -14,7 +14,7 @@ VALUES (8914, True, 0, 0, 0, False, 956301313, 1, 0) /* Mutation Filter - Viridi
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  373, 5, 2, 1) /* Target.GearCritResistInt - GreaterThanEqual 1  */;
+VALUES (@parent_id, 0,  373, 5, 2, 1) /* On Source.SuccessTarget Add GearCritResistInt  */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8914;
 

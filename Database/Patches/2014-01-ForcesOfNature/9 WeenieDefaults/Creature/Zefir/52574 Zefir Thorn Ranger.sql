@@ -43,6 +43,7 @@ VALUES (52574,   1,   5) /* HeartbeatInterval */
      , (52574,  31,  25) /* VisualAwarenessRange */
      , (52574,  34, 1.2) /* PowerupTime */
      , (52574,  36,   1) /* ChargeSpeed */
+     , (52574,  55,  60) /* HomeRadius */
      , (52574,  64, 0.7) /* ResistSlash */
      , (52574,  65, 0.6) /* ResistPierce */
      , (52574,  66, 0.7) /* ResistBludgeon */
@@ -116,7 +117,5 @@ VALUES (52574,  6159,   2.05)  /* Thorn Volley */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52574, 9, 52970,  1, 0, 0.8, False) /* Create Viridian Essence (52970) for ContainTreasure */
      , (52574, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
-	 , (52574, 9, 52970,  1, 0, 0.8, False) /* Create Viridian Essence (52970) for ContainTreasure */
-     , (52574, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
-	 , (52574, 9, 52968,  1, 0, 0.2, False) /* Create Infused Amber Shard (52968) for ContainTreasure */
-     , (52574, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;
+	 , (52574, 9, 52968,  1, 0, 0.15, False) /* Create Infused Amber Shard (52968) for ContainTreasure */
+     , (52574, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */;

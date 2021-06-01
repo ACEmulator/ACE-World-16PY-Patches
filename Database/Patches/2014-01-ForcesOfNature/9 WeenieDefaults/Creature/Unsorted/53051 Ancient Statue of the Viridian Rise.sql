@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53051;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (53051, 'ace53051-ancientstatueoftheviridianrise', 10, '2021-03-17 05:11:27') /* Creature */;
+VALUES (53051, 'ace53051-ancientstatueoftheviridianrise', 10, '2021-05-27 01:19:24') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53051,   1,         16) /* ItemType - Creature */
@@ -74,7 +74,24 @@ VALUES (53051, 28 /* EventFailure */, 1, NULL, NULL, NULL, 'viridian2statue2', N
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 99 /* TeleportTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0xB3490034 /* 0xB3490034 [164.60602 91.33825 112.005005] -0.9719171 0 0 0.23532356 */, 164.60602, 91.33825, 112.005005, -0.9719171, 0, 0, 0.23532356);
+VALUES (@parent_id, 0, 74 /* TakeItems */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 52970, -1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 1, 67 /* Goto */, 0, 1, NULL, 'RandomTeleport', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (53051, 32 /* GotoSet */, 0.5, NULL, NULL, NULL, 'RandomTeleport', NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id, 0, 99 /* TeleportTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0xB44B0032 /* 0xB44B0032 [167.51978 25.143253 116.005005] 0.707107 0 0 0.707107 */, 167.51978, 25.143253, 116.005005, 0.707107, 0, 0, 0.707107);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (53051, 32 /* GotoSet */, 1, NULL, NULL, NULL, 'RandomTeleport', NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id, 0, 99 /* TeleportTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0xB44B0025 /* 0xB44B0025 [112.59099 110.395164 116.005005] -0.707107 0 0 0.707107 */, 112.59099, 110.395164, 116.005005, -0.707107, 0, 0, 0.707107);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (53051, 32 /* GotoSet */, 1, NULL, NULL, NULL, 'Check1', NULL, NULL, NULL);
@@ -82,10 +99,10 @@ VALUES (53051, 32 /* GotoSet */, 1, NULL, NULL, NULL, 'Check1', NULL, NULL, NULL
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 43 /* InqSkillStat */, 0, 1, NULL, 'Lockpick_575-99999_6', NULL, 575, 99999, NULL, NULL, NULL, NULL, 23 /* Lockpick */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 43 /* InqSkillStat */, 0, 1, NULL, 'Lockpick_575-99999_7', NULL, 575, 99999, NULL, NULL, NULL, NULL, 23 /* Lockpick */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (53051, 22 /* TestSuccess */, 1, NULL, NULL, NULL, 'Lockpick_575-99999_6', NULL, NULL, NULL);
+VALUES (53051, 22 /* TestSuccess */, 1, NULL, NULL, NULL, 'Lockpick_575-99999_7', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -110,7 +127,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 67 /* Goto */, 0, 1, NULL, 'Fail', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (53051, 23 /* TestFailure */, 1, NULL, NULL, NULL, 'Lockpick_575-99999_6', NULL, NULL, NULL);
+VALUES (53051, 23 /* TestFailure */, 1, NULL, NULL, NULL, 'Lockpick_575-99999_7', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -123,10 +140,10 @@ VALUES (53051, 32 /* GotoSet */, 1, NULL, NULL, NULL, 'Check2', NULL, NULL, NULL
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 43 /* InqSkillStat */, 0, 1, NULL, 'Lockpick_565-99999_6', NULL, 565, 99999, NULL, NULL, NULL, NULL, 23 /* Lockpick */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 43 /* InqSkillStat */, 0, 1, NULL, 'Lockpick_565-99999_7', NULL, 565, 99999, NULL, NULL, NULL, NULL, 23 /* Lockpick */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (53051, 22 /* TestSuccess */, 1, NULL, NULL, NULL, 'Lockpick_565-99999_6', NULL, NULL, NULL);
+VALUES (53051, 22 /* TestSuccess */, 1, NULL, NULL, NULL, 'Lockpick_565-99999_7', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -151,7 +168,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 67 /* Goto */, 0, 1, NULL, 'Fail', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (53051, 23 /* TestFailure */, 1, NULL, NULL, NULL, 'Lockpick_565-99999_6', NULL, NULL, NULL);
+VALUES (53051, 23 /* TestFailure */, 1, NULL, NULL, NULL, 'Lockpick_565-99999_7', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -164,10 +181,10 @@ VALUES (53051, 32 /* GotoSet */, 1, NULL, NULL, NULL, 'Check3', NULL, NULL, NULL
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 43 /* InqSkillStat */, 0, 1, NULL, 'Lockpick_550-99999_6', NULL, 550, 99999, NULL, NULL, NULL, NULL, 23 /* Lockpick */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 43 /* InqSkillStat */, 0, 1, NULL, 'Lockpick_550-99999_7', NULL, 550, 99999, NULL, NULL, NULL, NULL, 23 /* Lockpick */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (53051, 22 /* TestSuccess */, 1, NULL, NULL, NULL, 'Lockpick_550-99999_6', NULL, NULL, NULL);
+VALUES (53051, 22 /* TestSuccess */, 1, NULL, NULL, NULL, 'Lockpick_550-99999_7', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -192,7 +209,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 67 /* Goto */, 0, 1, NULL, 'Fail', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (53051, 23 /* TestFailure */, 1, NULL, NULL, NULL, 'Lockpick_550-99999_6', NULL, NULL, NULL);
+VALUES (53051, 23 /* TestFailure */, 1, NULL, NULL, NULL, 'Lockpick_550-99999_7', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -205,10 +222,10 @@ VALUES (53051, 32 /* GotoSet */, 1, NULL, NULL, NULL, 'Check4', NULL, NULL, NULL
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 43 /* InqSkillStat */, 0, 1, NULL, 'Lockpick_500-99999_6', NULL, 500, 99999, NULL, NULL, NULL, NULL, 23 /* Lockpick */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 43 /* InqSkillStat */, 0, 1, NULL, 'Lockpick_500-99999_7', NULL, 500, 99999, NULL, NULL, NULL, NULL, 23 /* Lockpick */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (53051, 22 /* TestSuccess */, 1, NULL, NULL, NULL, 'Lockpick_500-99999_6', NULL, NULL, NULL);
+VALUES (53051, 22 /* TestSuccess */, 1, NULL, NULL, NULL, 'Lockpick_500-99999_7', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -233,7 +250,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 67 /* Goto */, 0, 1, NULL, 'Fail', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (53051, 23 /* TestFailure */, 1, NULL, NULL, NULL, 'Lockpick_500-99999_6', NULL, NULL, NULL);
+VALUES (53051, 23 /* TestFailure */, 1, NULL, NULL, NULL, 'Lockpick_500-99999_7', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

@@ -4,15 +4,17 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (53366, 'ace53366-essenceofwindfury', 51, '2020-07-16 17:11:04') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (53366,   1,        128) /* ItemType - Misc */
-     , (53366,   5,          1) /* EncumbranceVal */
-     , (53366,  11,          1) /* MaxStackSize */
-     , (53366,  12,          1) /* StackSize */
-	 , (53366,  13,          1) /* StackUnitEncumbrance */
-	 , (53366,  15,          0) /* StackUnitValue */
-     , (53366,  16,          1) /* ItemUseable - No */
-     , (53366,  19,          0) /* Value */
-     , (53366,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+VALUES (53366,   1,  128) /* ItemType - Misc */
+     , (53366,   5,    1) /* EncumbranceVal */
+     , (53366,  11,    1) /* MaxStackSize */
+     , (53366,  12,    1) /* StackSize */
+     , (53366,  13,    1) /* StackUnitEncumbrance */
+     , (53366,  15,    0) /* StackUnitValue */
+     , (53366,  16,    1) /* ItemUseable - No */
+     , (53366,  19,    0) /* Value */
+     , (53366,  33,    1) /* Bonded - Bonded*/
+     , (53366,  93, 1044) /* PhysicsState - Ethereal, IgnoreCollisions Gravity */
+     , (53366, 114,    1) /* Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53366,  22, True ) /* Inscribable */;

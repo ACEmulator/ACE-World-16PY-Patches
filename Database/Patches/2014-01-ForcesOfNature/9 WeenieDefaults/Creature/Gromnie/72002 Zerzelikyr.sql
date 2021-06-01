@@ -29,35 +29,37 @@ VALUES (72002,   1, True ) /* Stuck */
      , (72002,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (72002,   1,       5) /* HeartbeatInterval */
-     , (72002,   2,       0) /* HeartbeatTimestamp */
-     , (72002,   3,     100) /* HealthRate */
-     , (72002,   4,       3) /* StaminaRate */
-     , (72002,   5,       1) /* ManaRate */
-     , (72002,  12,       0) /* Shade */
-     , (72002,  13,     0.9) /* ArmorModVsSlash */
-     , (72002,  14,     0.8) /* ArmorModVsPierce */
-     , (72002,  15,     0.9) /* ArmorModVsBludgeon */
-     , (72002,  16,     0.8) /* ArmorModVsCold */
-     , (72002,  17,     1.0) /* ArmorModVsFire */
-     , (72002,  18,     0.8) /* ArmorModVsAcid */
-     , (72002,  19,     1.0) /* ArmorModVsElectric */
-	 , (72002,  31,      25) /* VisualAwarenessRange */
-     , (72002,  34,       1) /* PowerupTime */
-     , (72002,  36,       1) /* ChargeSpeed */
-     , (72002,  39,     1.6) /* DefaultScale */
-	 , (72002,  41,     120) /* RegenerationInterval */
-     , (72002,  64,     0.6) /* ResistSlash */
-     , (72002,  65,     0.6) /* ResistPierce */
-     , (72002,  66,     0.6) /* ResistBludgeon */
-     , (72002,  67,     0.4) /* ResistFire */
-     , (72002,  68,     0.7) /* ResistCold */
-     , (72002,  69,     0.7) /* ResistAcid */
-     , (72002,  70,     0.4) /* ResistElectric */
-     , (72002,  77,       1) /* PhysicsScriptIntensity */
-	 , (72002, 104,      10) /* ObviousRadarRange */
-     , (72002, 125,       1) /* ResistHealthDrain */
-     , (72002, 166,     1.0) /* ResistNether */;
+VALUES (72002,   1,   5) /* HeartbeatInterval */
+     , (72002,   2,   0) /* HeartbeatTimestamp */
+     , (72002,   3, 100) /* HealthRate */
+     , (72002,   4,   3) /* StaminaRate */
+     , (72002,   5,   1) /* ManaRate */
+     , (72002,  12,   0) /* Shade */
+     , (72002,  13, 0.9) /* ArmorModVsSlash */
+     , (72002,  14, 0.8) /* ArmorModVsPierce */
+     , (72002,  15, 0.9) /* ArmorModVsBludgeon */
+     , (72002,  16, 0.8) /* ArmorModVsCold */
+     , (72002,  17, 1.0) /* ArmorModVsFire */
+     , (72002,  18, 0.8) /* ArmorModVsAcid */
+     , (72002,  19, 1.0) /* ArmorModVsElectric */
+     , (72002,  31,  25) /* VisualAwarenessRange */
+     , (72002,  34,   1) /* PowerupTime */
+     , (72002,  36,   1) /* ChargeSpeed */
+     , (72002,  39, 1.6) /* DefaultScale */
+     , (72002,  41, 120) /* RegenerationInterval */
+     , (72002,  43,   5) /* GeneratorRadius */
+     , (72002,  55,  60) /* HomeRadius */
+     , (72002,  64, 0.6) /* ResistSlash */
+     , (72002,  65, 0.6) /* ResistPierce */
+     , (72002,  66, 0.6) /* ResistBludgeon */
+     , (72002,  67, 0.4) /* ResistFire */
+     , (72002,  68, 0.7) /* ResistCold */
+     , (72002,  69, 0.7) /* ResistAcid */
+     , (72002,  70, 0.4) /* ResistElectric */
+     , (72002,  77,   1) /* PhysicsScriptIntensity */
+     , (72002, 104,  10) /* ObviousRadarRange */
+     , (72002, 125,   1) /* ResistHealthDrain */
+     , (72002, 166, 1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72002,   1, 'Zerzelikyr') /* Name */

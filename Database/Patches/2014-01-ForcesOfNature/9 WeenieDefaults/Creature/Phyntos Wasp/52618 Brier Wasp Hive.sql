@@ -124,7 +124,7 @@ VALUES (52618, 9, 52970,  1, 0, 0.8, False) /* Create Viridian Essence (52970) f
      , (52618, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
 	 , (52618, 9, 52970,  1, 0, 0.8, False) /* Create Viridian Essence (52970) for ContainTreasure */
      , (52618, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
-	 , (52618, 9, 52968,  1, 0, 0.2, False) /* Create Infused Amber Shard (52968) for ContainTreasure */
-     , (52618, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-	 , (52618, 9, 52968,  1, 0, 0.2, False) /* Create Infused Amber Shard (52968) for ContainTreasure */
-     , (52618, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;
+	 , (52618, 9, 52968,  1, 0, 0.1, False) /* Create Infused Amber Shard (52968) for ContainTreasure */
+     , (52618, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+	 , (52618, 9, 52968,  1, 0, 0.1, False) /* Create Infused Amber Shard (52968) for ContainTreasure */
+     , (52618, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

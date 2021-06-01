@@ -6,7 +6,7 @@ VALUES (8909, 0, 29 /* ArmorTinkering */, 400, 1, 0, 0, 'You successfully imbue 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8909, 0,   9,  8192, 4, 'You can only apply this augmentaion to a tassets-slot item!') /* ValidLocations - UpperLegArmor */
 	 , (8909, 0, 105,     1, 2, 'You can only apply this augmentation to a loot-generated item!')  /* Target.ItemWorkmanship - LessThan 1 */
-	 , (8909, 0, 375,     1, 3, 'This item has already been imbued!') /* Target.GearCritDamageResistInt - GreaterThanEqual 1 */;
+	 , (8909, 0, 311,     1, 3, 'This item has already been imbued!') /* ImbueStackingBitsInt */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (8909, True, 0, 0, 0, False, 956301313, 1, 0) /* Mutation Filter - Viridian Armor Augmentations */;

@@ -3,7 +3,14 @@ Use:
         EventSuccess:
             - Goto: Check1
         EventFailure:
-            - TeleportTarget: 0xB54B0001 [9.012099 7.8538795 113.50702] -0.9999317 0 0 0.011686315
+            - TakeItems: 52970, -1
+            - Goto: RandomTeleport
+
+GotoSet: RandomTeleport, Probability: 0.5
+    - TeleportTarget: 0xB74A001C [77.248993 83.645714 116.005005] 0.707107 0 0 0.707107
+    
+GotoSet: RandomTeleport, Probability: 1.0
+    - TeleportTarget: 0xB74A0018 [61.881058 178.618591 116.005005] 0 0 0 1
 
 Gotoset: Check1
     - InqSkillStat: Lockpick, 575 - 99999

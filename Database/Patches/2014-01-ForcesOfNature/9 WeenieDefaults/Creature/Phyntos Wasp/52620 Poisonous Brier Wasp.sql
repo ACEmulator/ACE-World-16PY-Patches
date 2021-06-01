@@ -27,34 +27,35 @@ VALUES (52620,   1, True ) /* Stuck */
      , (52620,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52620,   1,    5) /* HeartbeatInterval */
-     , (52620,   2,    0) /* HeartbeatTimestamp */
-     , (52620,   3,  0.6) /* HealthRate */
-     , (52620,   4,  0.5) /* StaminaRate */
-     , (52620,   5,    2) /* ManaRate */
-     , (52620,  12,    0) /* Shade */
-     , (52620,  13,  0.8) /* ArmorModVsSlash */
-     , (52620,  14,  0.8) /* ArmorModVsPierce */
-     , (52620,  15,  0.8) /* ArmorModVsBludgeon */
-     , (52620,  16,  0.8) /* ArmorModVsCold */
-     , (52620,  17,  1.0) /* ArmorModVsFire */
-     , (52620,  18,  0.8) /* ArmorModVsAcid */
-     , (52620,  19,  1.0) /* ArmorModVsElectric */
-     , (52620,  31,   30) /* VisualAwarenessRange */
-     , (52620,  34,  1.9) /* PowerupTime */
-     , (52620,  36,    1) /* ChargeSpeed */
-     , (52620,  39,  1.6) /* DefaultScale */
-     , (52620,  64,  0.6) /* ResistSlash */
-     , (52620,  65,  0.6) /* ResistPierce */
-     , (52620,  66,  0.6) /* ResistBludgeon */
-     , (52620,  67,  0.4) /* ResistFire */
-     , (52620,  68,  0.7) /* ResistCold */
-     , (52620,  69,  0.7) /* ResistAcid */
-     , (52620,  70,  0.4) /* ResistElectric */
-     , (52620,  80,    3) /* AiUseMagicDelay */
-     , (52620, 104,   10) /* ObviousRadarRange */
-     , (52620, 125,    1) /* ResistHealthDrain */
-     , (52620, 166,  1.0) /* ResistNether */;
+VALUES (52620,   1,   5) /* HeartbeatInterval */
+     , (52620,   2,   0) /* HeartbeatTimestamp */
+     , (52620,   3, 0.6) /* HealthRate */
+     , (52620,   4, 0.5) /* StaminaRate */
+     , (52620,   5,   2) /* ManaRate */
+     , (52620,  12,   0) /* Shade */
+     , (52620,  13, 0.8) /* ArmorModVsSlash */
+     , (52620,  14, 0.8) /* ArmorModVsPierce */
+     , (52620,  15, 0.8) /* ArmorModVsBludgeon */
+     , (52620,  16, 0.8) /* ArmorModVsCold */
+     , (52620,  17, 1.0) /* ArmorModVsFire */
+     , (52620,  18, 0.8) /* ArmorModVsAcid */
+     , (52620,  19, 1.0) /* ArmorModVsElectric */
+     , (52620,  31,  30) /* VisualAwarenessRange */
+     , (52620,  34, 1.9) /* PowerupTime */
+     , (52620,  36,   1) /* ChargeSpeed */
+     , (52620,  39, 1.6) /* DefaultScale */
+     , (52620,  55,  60) /* HomeRadius */
+     , (52620,  64, 0.6) /* ResistSlash */
+     , (52620,  65, 0.6) /* ResistPierce */
+     , (52620,  66, 0.6) /* ResistBludgeon */
+     , (52620,  67, 0.4) /* ResistFire */
+     , (52620,  68, 0.7) /* ResistCold */
+     , (52620,  69, 0.7) /* ResistAcid */
+     , (52620,  70, 0.4) /* ResistElectric */
+     , (52620,  80,   3) /* AiUseMagicDelay */
+     , (52620, 104,  10) /* ObviousRadarRange */
+     , (52620, 125,   1) /* ResistHealthDrain */
+     , (52620, 166, 1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52620,   1, 'Poisonous Brier Wasp') /* Name */
@@ -125,7 +126,5 @@ VALUES (52620, 1, 52466, 0, 1, 5, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Gene
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52620, 9, 52970,  1, 0, 0.8, False) /* Create Viridian Essence (52970) for ContainTreasure */
      , (52620, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
-	 , (52620, 9, 52970,  1, 0, 0.8, False) /* Create Viridian Essence (52970) for ContainTreasure */
-     , (52620, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
-	 , (52620, 9, 52968,  1, 0, 0.2, False) /* Create Infused Amber Shard (52968) for ContainTreasure */
-     , (52620, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;
+	 , (52620, 9, 52968,  1, 0, 0.1, False) /* Create Infused Amber Shard (52968) for ContainTreasure */
+     , (52620, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

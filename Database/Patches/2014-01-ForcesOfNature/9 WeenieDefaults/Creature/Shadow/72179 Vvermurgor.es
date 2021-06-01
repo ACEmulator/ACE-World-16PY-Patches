@@ -3,7 +3,6 @@ Use:
 	- Tell: My magics will require 100 Corrupted Amber. I will reward you well for this task.
 
 Refuse: 52969
-	- TurnToTarget
 	- InqOwnsItems: 52969, 100
 		TestSuccess:
 			- Tell: I am pleased by your service. These crystals will empower our magics. And now for your reward.

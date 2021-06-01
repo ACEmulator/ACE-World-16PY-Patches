@@ -44,6 +44,7 @@ VALUES (53345,   1,    5) /* HeartbeatInterval */
      , (53345,  34,    1) /* PowerupTime */
      , (53345,  36,    1) /* ChargeSpeed */
      , (53345,  39, 0.60) /* DefaultScale */
+     , (53345,  55,   60) /* HomeRadius */
      , (53345,  64,  0.6) /* ResistSlash */
      , (53345,  65,  0.6) /* ResistPierce */
      , (53345,  66,  0.6) /* ResistBludgeon */
@@ -121,7 +122,5 @@ VALUES (53345,  4312,   2.05)  /* Incantation of Imperil Other */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (53345, 9, 52970,  1, 0, 0.8, False) /* Create Viridian Essence (52970) for ContainTreasure */
      , (53345, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
-	 , (53345, 9, 52970,  1, 0, 0.8, False) /* Create Viridian Essence (52970) for ContainTreasure */
-     , (53345, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */
-	 , (53345, 9, 52968,  1, 0, 0.2, False) /* Create Infused Amber Shard (52968) for ContainTreasure */
-     , (53345, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;
+	 , (53345, 9, 52968,  1, 0, 0.15, False) /* Create Infused Amber Shard (52968) for ContainTreasure */
+     , (53345, 9,     0,  0, 0, 0.85, False) /* Create nothing for ContainTreasure */;

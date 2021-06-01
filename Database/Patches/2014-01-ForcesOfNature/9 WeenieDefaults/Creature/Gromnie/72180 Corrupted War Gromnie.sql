@@ -28,34 +28,35 @@ VALUES (72180,   1, True ) /* Stuck */
      , (72180,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (72180,   1,    5) /* HeartbeatInterval */
-     , (72180,   2,    0) /* HeartbeatTimestamp */
-     , (72180,   3,  0.7) /* HealthRate */
-     , (72180,   4,    5) /* StaminaRate */
-     , (72180,   5,    2) /* ManaRate */
-     , (72180,  12,    0) /* Shade */
-     , (72180,  13,  0.9) /* ArmorModVsSlash */
-     , (72180,  14,  0.8) /* ArmorModVsPierce */
-     , (72180,  15,  0.9) /* ArmorModVsBludgeon */
-     , (72180,  16,  0.8) /* ArmorModVsCold */
-     , (72180,  17,  1.0) /* ArmorModVsFire */
-     , (72180,  18,  0.8) /* ArmorModVsAcid */
-     , (72180,  19,  1.0) /* ArmorModVsElectric */
-     , (72180,  31,   25) /* VisualAwarenessRange */
-     , (72180,  34,    1) /* PowerupTime */
-     , (72180,  36,    1) /* ChargeSpeed */
-     , (72180,  39,  1.2) /* DefaultScale */
-     , (72180,  64,  0.6) /* ResistSlash */
-     , (72180,  65,  0.6) /* ResistPierce */
-     , (72180,  66,  0.6) /* ResistBludgeon */
-     , (72180,  67,  0.4) /* ResistFire */
-     , (72180,  68,  0.7) /* ResistCold */
-     , (72180,  69,  0.7) /* ResistAcid */
-     , (72180,  70,  0.4) /* ResistElectric */
-     , (72180,  77,    1) /* PhysicsScriptIntensity */
-     , (72180, 104,   10) /* ObviousRadarRange */
-     , (72180, 125,    1) /* ResistHealthDrain */
-     , (72180, 166,  1.0) /* ResistNether */;
+VALUES (72180,   1,   5) /* HeartbeatInterval */
+     , (72180,   2,   0) /* HeartbeatTimestamp */
+     , (72180,   3, 0.7) /* HealthRate */
+     , (72180,   4,   5) /* StaminaRate */
+     , (72180,   5,   2) /* ManaRate */
+     , (72180,  12,   0) /* Shade */
+     , (72180,  13, 0.9) /* ArmorModVsSlash */
+     , (72180,  14, 0.8) /* ArmorModVsPierce */
+     , (72180,  15, 0.9) /* ArmorModVsBludgeon */
+     , (72180,  16, 0.8) /* ArmorModVsCold */
+     , (72180,  17, 1.0) /* ArmorModVsFire */
+     , (72180,  18, 0.8) /* ArmorModVsAcid */
+     , (72180,  19, 1.0) /* ArmorModVsElectric */
+     , (72180,  31,  25) /* VisualAwarenessRange */
+     , (72180,  34,   1) /* PowerupTime */
+     , (72180,  36,   1) /* ChargeSpeed */
+     , (72180,  39, 1.2) /* DefaultScale */
+     , (72180,  55,  80) /* HomeRadius */
+     , (72180,  64, 0.6) /* ResistSlash */
+     , (72180,  65, 0.6) /* ResistPierce */
+     , (72180,  66, 0.6) /* ResistBludgeon */
+     , (72180,  67, 0.4) /* ResistFire */
+     , (72180,  68, 0.7) /* ResistCold */
+     , (72180,  69, 0.7) /* ResistAcid */
+     , (72180,  70, 0.4) /* ResistElectric */
+     , (72180,  77,   1) /* PhysicsScriptIntensity */
+     , (72180, 104,  10) /* ObviousRadarRange */
+     , (72180, 125,   1) /* ResistHealthDrain */
+     , (72180, 166, 1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72180,   1, 'Corrupted War Gromnie') /* Name */;

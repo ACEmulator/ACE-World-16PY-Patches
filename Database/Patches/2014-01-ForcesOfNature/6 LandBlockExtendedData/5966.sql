@@ -80,31 +80,31 @@ VALUES (0x75966048,   278, 0x59660158, 19.9993, -94.7455, 0.055, -4.37114E-08, 0
 /* @teleloc 0x59660158 [19.999300 -94.745499 0.055000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966049, 72179, 0x596601CD, 89.9988, -0.0281789, 0.055, -4.37114E-08, 0, 0, -1, False, '2021-03-19 16:49:28');
+VALUES (0x75966049, 72179, 0x596601CD, 89.9988, -0.0281789, 0.055, -4.37114E-08, 0, 0, -1, False, '2021-03-19 16:49:28'); /* Vvermurgor */
 /* @teleloc 0x596601CD [89.998802 -0.028179 0.055000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596604A, 53243, 0x5966014C, 23.085, -29.8809, 0.055, 0.707107, 0, 0, 0.707107, False, '2021-03-19 18:01:37'); /* Ancient Statue of the Viridian Root */
+VALUES (0x7596604A, 70853, 0x5966014C, 23.085, -29.8809, 0.055, 0.707107, 0, 0, 0.707107, False, '2021-03-19 18:01:37'); /* Ancient Statue of the Viridian Root */
 /* @teleloc 0x5966014C [23.084999 -29.880899 0.055000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596604B, 53243, 0x59660119, -0.0160034, -126.739, 0.055, -4.37114E-08, 0, 0, -1, False, '2021-03-19 18:03:36'); /* Ancient Statue of the Viridian Root */
+VALUES (0x7596604B, 70853, 0x59660119, -0.0160034, -126.739, 0.055, -4.37114E-08, 0, 0, -1, False, '2021-03-19 18:03:36'); /* Ancient Statue of the Viridian Root */
 /* @teleloc 0x59660119 [-0.016003 -126.738998 0.055000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596604C, 53243, 0x59660265, 129.875, -43.2828, 0.055, 1, 0, 0, 0, False, '2021-03-19 18:04:57'); /* Ancient Statue of the Viridian Root */
+VALUES (0x7596604C, 70853, 0x59660265, 129.875, -43.2828, 0.055, 1, 0, 0, 0, False, '2021-03-19 18:04:57'); /* Ancient Statue of the Viridian Root */
 /* @teleloc 0x59660265 [129.875000 -43.282799 0.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596604D, 53243, 0x59660272, 132.923, -150.16, 0.055, 0.707107, 0, 0, 0.707107, False, '2021-03-19 18:06:34'); /* Ancient Statue of the Viridian Root */
+VALUES (0x7596604D, 70853, 0x59660272, 132.923, -150.16, 0.055, 0.707107, 0, 0, 0.707107, False, '2021-03-19 18:06:34'); /* Ancient Statue of the Viridian Root */
 /* @teleloc 0x59660272 [132.923004 -150.160004 0.055000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596604F, 53243, 0x5966024E, 120.207, -123.587, 0.055, 1, 0, 0, 0, False, '2021-03-19 18:10:36'); /* Ancient Statue of the Viridian Root */
+VALUES (0x7596604F, 70856, 0x5966024E, 120.207, -123.587, 0.055, 1, 0, 0, 0, False, '2021-03-19 18:10:36');
 /* @teleloc 0x5966024E [120.207001 -123.586998 0.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966050, 53243, 0x59660132, 14.9768, -46.4597, 0.055, -4.37114E-08, 0, 0, -1, False, '2021-03-19 18:11:47'); /* Ancient Statue of the Viridian Root */
+VALUES (0x75966050, 70854, 0x59660132, 14.9768, -46.4597, 0.055, -4.37114E-08, 0, 0, -1, False, '2021-03-19 18:11:47'); /* Ancient Statue of the Viridian Root */
 /* @teleloc 0x59660132 [14.976800 -46.459702 0.055000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -112,117 +112,153 @@ VALUES (0x75966051, 53243, 0x5966016E, 30, -135, 0.155, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x5966016E [30.000000 -135.000000 0.155000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966052, 72187, 0x5966016E, 29.7043, -129.937, 0.055, 0.707107, 0, 0, -0.707107, False, '2021-03-19 19:08:56');
+VALUES (0x75966052, 72187, 0x5966016E, 29.7043, -129.937, 0.055, 0.707107, 0, 0, -0.707107, False, '2021-03-19 19:08:56'); /* Viridian Root Tile Gen */
 /* @teleloc 0x5966016E [29.704300 -129.936996 0.055000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966053, 72187, 0x596601A5, 59.7553, -140.093, 0.055, 1, 0, 0, 0, False, '2021-03-19 19:09:34');
+VALUES (0x75966053, 72187, 0x596601A5, 59.7553, -140.093, 0.055, 1, 0, 0, 0, False, '2021-03-19 19:09:34'); /* Viridian Root Tile Gen */
 /* @teleloc 0x596601A5 [59.755299 -140.093002 0.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966054, 72187, 0x596601FF, 100.491, -129.779, 0.055, 1, 0, 0, 0, False, '2021-03-19 19:10:32');
+VALUES (0x75966054, 72187, 0x596601FF, 100.491, -129.779, 0.055, 1, 0, 0, 0, False, '2021-03-19 19:10:32'); /* Viridian Root Tile Gen */
 /* @teleloc 0x596601FF [100.490997 -129.779007 0.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966055, 72188, 0x596601F0, 90.2268, -190.346, 0.055, -0.999999, 0, 0, 0.00124153, False, '2021-03-19 19:11:17');
+VALUES (0x75966055, 72188, 0x596601F0, 90.2268, -190.346, 0.055, -0.999999, 0, 0, 0.00124153, False, '2021-03-19 19:11:17'); /* Viridian Root Grass Gen */
 /* @teleloc 0x596601F0 [90.226799 -190.345993 0.055000] -0.999999 0.000000 0.000000 0.001242 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966056, 72188, 0x5966016C, 34.6262, -100.204, 0.055, 1, 0, 0, 0, False, '2021-03-19 19:11:50');
+VALUES (0x75966056, 72188, 0x5966016C, 34.6262, -100.204, 0.055, 1, 0, 0, 0, False, '2021-03-19 19:11:50'); /* Viridian Root Grass Gen */
 /* @teleloc 0x5966016C [34.626202 -100.204002 0.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966057, 72188, 0x596601C3, 75.7029, -106.659, 0.055, 0.999712, 0, 0, -0.0239931, False, '2021-03-19 19:14:21');
+VALUES (0x75966057, 72188, 0x596601C3, 75.7029, -106.659, 0.055, 0.999712, 0, 0, -0.0239931, False, '2021-03-19 19:14:21'); /* Viridian Root Grass Gen */
 /* @teleloc 0x596601C3 [75.702904 -106.658997 0.055000] 0.999712 0.000000 0.000000 -0.023993 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966058, 72188, 0x596601FC, 96.3011, -67.6935, 0.055, -0.00592219, 0, 0, 0.999982, False, '2021-03-19 19:14:38');
+VALUES (0x75966058, 72188, 0x596601FC, 96.3011, -67.6935, 0.055, -0.00592219, 0, 0, 0.999982, False, '2021-03-19 19:14:38'); /* Viridian Root Grass Gen */
 /* @teleloc 0x596601FC [96.301102 -67.693497 0.055000] -0.005922 0.000000 0.000000 0.999982 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966059, 72187, 0x596601A6, 70.201, -31.6709, 0.055, 0.715864, 0, 0, -0.69824, False, '2021-03-19 19:15:24');
+VALUES (0x75966059, 72187, 0x596601A6, 70.201, -31.6709, 0.055, 0.715864, 0, 0, -0.69824, False, '2021-03-19 19:15:24'); /* Viridian Root Tile Gen */
 /* @teleloc 0x596601A6 [70.200996 -31.670900 0.055000] 0.715864 0.000000 0.000000 -0.698240 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596605A, 72187, 0x596601FA, 97.661, -38.6081, 0.055, 0.696531, 0, 0, 0.717527, False, '2021-03-19 19:15:54');
+VALUES (0x7596605A, 72187, 0x596601FA, 97.661, -38.6081, 0.055, 0.696531, 0, 0, 0.717527, False, '2021-03-19 19:15:54'); /* Viridian Root Tile Gen */
 /* @teleloc 0x596601FA [97.661003 -38.608101 0.055000] 0.696531 0.000000 0.000000 0.717527 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596605B, 72187, 0x59660168, 32.6472, -31.6995, 0.055, -0.706852, 0, 0, -0.707361, False, '2021-03-19 19:16:38');
+VALUES (0x7596605B, 72187, 0x59660168, 32.6472, -31.6995, 0.055, -0.706852, 0, 0, -0.707361, False, '2021-03-19 19:16:38'); /* Viridian Root Tile Gen */
 /* @teleloc 0x59660168 [32.647202 -31.699499 0.055000] -0.706852 0.000000 0.000000 -0.707361 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596605C, 72188, 0x59660188, 51.5977, -83.7341, 0.055, 0.707107, 0, 0, 0.707107, False, '2021-03-19 19:21:37');
+VALUES (0x7596605C, 72188, 0x59660188, 51.5977, -83.7341, 0.055, 0.707107, 0, 0, 0.707107, False, '2021-03-19 19:21:37'); /* Viridian Root Grass Gen */
 /* @teleloc 0x59660188 [51.597698 -83.734100 0.055000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596605D, 72187, 0x59660244, 120.017, -51.7098, 0.055, -0.717694, 0, 0, -0.696359, False, '2021-03-19 19:26:38');
+VALUES (0x7596605D, 72187, 0x59660244, 120.017, -51.7098, 0.055, -0.717694, 0, 0, -0.696359, False, '2021-03-19 19:26:38'); /* Viridian Root Tile Gen */
 /* @teleloc 0x59660244 [120.016998 -51.709801 0.055000] -0.717694 0.000000 0.000000 -0.696359 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596605E, 72187, 0x5966024B, 119.358, -91.6891, 0.055, -0.714867, 0, 0, -0.699261, False, '2021-03-19 19:27:12');
+VALUES (0x7596605E, 72187, 0x5966024B, 119.358, -91.6891, 0.055, -0.714867, 0, 0, -0.699261, False, '2021-03-19 19:27:12'); /* Viridian Root Tile Gen */
 /* @teleloc 0x5966024B [119.358002 -91.689102 0.055000] -0.714867 0.000000 0.000000 -0.699261 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596605F, 72187, 0x59660220, 111.498, -118.985, 0.055, -1, 0, 0, -0.000122193, False, '2021-03-19 19:27:28');
+VALUES (0x7596605F, 72187, 0x59660220, 111.498, -118.985, 0.055, -1, 0, 0, -0.000122193, False, '2021-03-19 19:27:28'); /* Viridian Root Tile Gen */
 /* @teleloc 0x59660220 [111.498001 -118.985001 0.055000] -1.000000 0.000000 0.000000 -0.000122 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966060, 72187, 0x5966015C, 18.3749, -115.431, 0.055, 0.0256051, 0, 0, 0.999672, False, '2021-03-19 19:28:13');
+VALUES (0x75966060, 72187, 0x5966015C, 18.3749, -115.431, 0.055, 0.0256051, 0, 0, 0.999672, False, '2021-03-19 19:28:13'); /* Viridian Root Tile Gen */
 /* @teleloc 0x5966015C [18.374901 -115.431000 0.055000] 0.025605 0.000000 0.000000 0.999672 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966061, 72187, 0x59660135, 12.1061, -79.2561, 0.055, 0.999999, 0, 0, 0.00166397, False, '2021-03-19 19:28:28');
+VALUES (0x75966061, 72187, 0x59660135, 12.1061, -79.2561, 0.055, 0.999999, 0, 0, 0.00166397, False, '2021-03-19 19:28:28'); /* Viridian Root Tile Gen */
 /* @teleloc 0x59660135 [12.106100 -79.256104 0.055000] 0.999999 0.000000 0.000000 0.001664 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966062, 72187, 0x59660152, 19.5699, -52.9183, 0.055, 0.726754, 0, 0, 0.686898, False, '2021-03-19 19:28:50');
+VALUES (0x75966062, 72187, 0x59660152, 19.5699, -52.9183, 0.055, 0.726754, 0, 0, 0.686898, False, '2021-03-19 19:28:50'); /* Viridian Root Tile Gen */
 /* @teleloc 0x59660152 [19.569901 -52.918301 0.055000] 0.726754 0.000000 0.000000 0.686898 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966063, 72187, 0x59660116, -0.645108, -39.9658, 0.055, 0.705619, 0, 0, -0.708592, False, '2021-03-19 19:29:34');
+VALUES (0x75966063, 72187, 0x59660116, -0.645108, -39.9658, 0.055, 0.705619, 0, 0, -0.708592, False, '2021-03-19 19:29:34'); /* Viridian Root Tile Gen */
 /* @teleloc 0x59660116 [-0.645108 -39.965801 0.055000] 0.705619 0.000000 0.000000 -0.708592 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966064, 72187, 0x5966010E, -0.0214621, -19.8642, 0.055, -0.0138534, 0, 0, -0.999904, False, '2021-03-19 19:29:53');
+VALUES (0x75966064, 72187, 0x5966010E, -0.0214621, -19.8642, 0.055, -0.0138534, 0, 0, -0.999904, False, '2021-03-19 19:29:53'); /* Viridian Root Tile Gen */
 /* @teleloc 0x5966010E [-0.021462 -19.864201 0.055000] -0.013853 0.000000 0.000000 -0.999904 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966065, 72187, 0x59660148, 19.9675, -20.0181, 0.055, -0.715675, 0, 0, -0.698434, False, '2021-03-19 19:30:17');
+VALUES (0x75966065, 72187, 0x59660148, 19.9675, -20.0181, 0.055, -0.715675, 0, 0, -0.698434, False, '2021-03-19 19:30:17'); /* Viridian Root Tile Gen */
 /* @teleloc 0x59660148 [19.967501 -20.018101 0.055000] -0.715675 0.000000 0.000000 -0.698434 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966066, 72187, 0x59660164, 20.0543, -149.88, 0.055, -0.728893, 0, 0, -0.684628, False, '2021-03-19 19:30:50');
+VALUES (0x75966066, 72187, 0x59660164, 20.0543, -149.88, 0.055, -0.728893, 0, 0, -0.684628, False, '2021-03-19 19:30:50'); /* Viridian Root Tile Gen */
 /* @teleloc 0x59660164 [20.054300 -149.880005 0.055000] -0.728893 0.000000 0.000000 -0.684628 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966067, 72187, 0x5966011C, 0.053583, -140.669, 0.055, -0.999996, 0, 0, -0.00296496, False, '2021-03-19 19:30:59');
+VALUES (0x75966067, 72187, 0x5966011C, 0.053583, -140.669, 0.055, -0.999996, 0, 0, -0.00296496, False, '2021-03-19 19:30:59'); /* Viridian Root Tile Gen */
 /* @teleloc 0x5966011C [0.053583 -140.669006 0.055000] -0.999996 0.000000 0.000000 -0.002965 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966068, 72187, 0x5966013D, 9.89408, -130.054, 0.055, 0.0149256, 0, 0, -0.999889, False, '2021-03-19 19:31:11');
+VALUES (0x75966068, 72187, 0x5966013D, 9.89408, -130.054, 0.055, 0.0149256, 0, 0, -0.999889, False, '2021-03-19 19:31:11'); /* Viridian Root Tile Gen */
 /* @teleloc 0x5966013D [9.894080 -130.054001 0.055000] 0.014926 0.000000 0.000000 -0.999889 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75966069, 72187, 0x5966025C, 130.067, -19.8045, 0.055, -0.00530867, 0, 0, -0.999986, False, '2021-03-19 19:31:43');
+VALUES (0x75966069, 72187, 0x5966025C, 130.067, -19.8045, 0.055, -0.00530867, 0, 0, -0.999986, False, '2021-03-19 19:31:43'); /* Viridian Root Tile Gen */
 /* @teleloc 0x5966025C [130.067001 -19.804501 0.055000] -0.005309 0.000000 0.000000 -0.999986 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596606A, 72187, 0x59660239, 120.031, -30.2482, 0.055, -0.999998, 0, 0, 0.00177813, False, '2021-03-19 19:32:07');
+VALUES (0x7596606A, 72187, 0x59660239, 120.031, -30.2482, 0.055, -0.999998, 0, 0, 0.00177813, False, '2021-03-19 19:32:07'); /* Viridian Root Tile Gen */
 /* @teleloc 0x59660239 [120.030998 -30.248199 0.055000] -0.999998 0.000000 0.000000 0.001778 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596606B, 72187, 0x59660212, 110.018, -40.5819, 0.055, 0.999983, 0, 0, -0.00582495, False, '2021-03-19 19:32:40');
+VALUES (0x7596606B, 72187, 0x59660212, 110.018, -40.5819, 0.055, 0.999983, 0, 0, -0.00582495, False, '2021-03-19 19:32:40'); /* Viridian Root Tile Gen */
 /* @teleloc 0x59660212 [110.017998 -40.581902 0.055000] 0.999983 0.000000 0.000000 -0.005825 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596606C, 72187, 0x59660258, 120.107, -149.947, 0.055, -0.699883, 0, 0, -0.714257, False, '2021-03-19 19:34:13');
-/* @teleloc 0x59660258 [120.107002 -149.947006 0.055000] -0.699883 0.000000 0.000000 -0.714257 */
+VALUES (0x7596606C, 72187, 0x59660229, 109.907, -149.947, 0.055, 1, -0, -0, -0, False, '2021-03-19 19:34:13'); /* Viridian Root Tile Gen */
+/* @teleloc 0x59660229 [109.906998 -149.947006 0.055000] 1.000000 -0.000000 -0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596606D, 72187, 0x5966026D, 130.174, -140.337, 0.055, -0.999908, 0, 0, -0.0135864, False, '2021-03-19 19:34:22');
+VALUES (0x7596606D, 72187, 0x5966026D, 130.174, -140.337, 0.055, -0.999908, 0, 0, -0.0135864, False, '2021-03-19 19:34:22'); /* Viridian Root Tile Gen */
 /* @teleloc 0x5966026D [130.173996 -140.337006 0.055000] -0.999908 0.000000 0.000000 -0.013586 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596606E, 72187, 0x5966024F, 120.417, -130.079, 0.055, 0.70710677, 0, 0, 0.70710677, False, '2021-03-19 19:34:37');
+VALUES (0x7596606E, 72187, 0x5966024F, 120.417, -130.079, 0.055, 0.707107, 0, 0, 0.707107, False, '2021-03-19 19:34:37'); /* Viridian Root Tile Gen */
 /* @teleloc 0x5966024F [120.417000 -130.078995 0.055000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7596606F, 70852, 0x596601A7, 66.1033, -35.0284, 0.055, 0.707107, 0, 0, -0.707107, False, '2021-05-28 09:16:19'); /* Ancient Statue of the Viridian Root */
+/* @teleloc 0x596601A7 [66.103302 -35.028400 0.055000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75966070, 70855, 0x5966015C, 17.2477, -122.846, 0.055, 1, 0, 0, 0, False, '2021-05-28 09:28:57');
+/* @teleloc 0x5966015C [17.247700 -122.846001 0.055000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75966071, 70857, 0x59660216, 114.949, -48.9091, 0.055, -4.37114E-08, 0, 0, -1, False, '2021-05-28 09:32:04');
+/* @teleloc 0x59660216 [114.948997 -48.909100 0.055000] -0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75966072,   278, 0x59660252, 115.076, -130.002, 0.055, 0.707107, 0, 0, -0.707107, False, '2021-05-28 09:35:23'); /* Door */
+/* @teleloc 0x59660252 [115.075996 -130.001999 0.055000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75966073,   278, 0x59660224, 109.997, -134.927, 0.055, -4.37114E-08, 0, 0, -1, False, '2021-05-28 09:35:34'); /* Door */
+/* @teleloc 0x59660224 [109.997002 -134.927002 0.055000] -0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75966074,   278, 0x59660130, 14.9736, -39.9977, 0.055, 0.707107, 0, 0, 0.707107, False, '2021-05-28 09:44:36'); /* Door */
+/* @teleloc 0x59660130 [14.973600 -39.997700 0.055000] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75966075,   278, 0x5966015F, 19.994, -134.962, 0.055, -4.37114E-08, 0, 0, -1, False, '2021-05-28 09:46:37'); /* Door */
+/* @teleloc 0x5966015F [19.993999 -134.962006 0.055000] -0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75966076,   278, 0x5966020B, 114.967, -20.0022, 0.055, 0.707107, 0, 0, -0.707107, False, '2021-05-28 09:48:16'); /* Door */
+/* @teleloc 0x5966020B [114.967003 -20.002199 0.055000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75966077,   278, 0x5966020F, 110.01, -25.0566, 0.055, -4.37114E-08, 0, 0, -1, False, '2021-05-28 09:48:30'); /* Door */
+/* @teleloc 0x5966020F [110.010002 -25.056601 0.055000] -0.000000 0.000000 0.000000 -1.000000 */

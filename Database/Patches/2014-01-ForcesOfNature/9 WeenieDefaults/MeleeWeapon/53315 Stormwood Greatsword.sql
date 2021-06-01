@@ -50,7 +50,9 @@ VALUES (53315,   1, 'Stormwood Greatsword') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53315,   1,   33561670) /* Setup */
-     , (53315,   8,  100693341) /* Icon */;
+     , (53315,   3,  536870932) /* SoundTable */
+     , (53315,   8,  100693341) /* Icon */
+     , (53315,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (53315,  4395,      2)  /* Aura of Incantation of Blood Drinker Self */

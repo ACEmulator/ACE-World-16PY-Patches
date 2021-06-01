@@ -13,17 +13,17 @@ VALUES (53269,   1,         16) /* ItemType - Creature */
      , (53269, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53269,   1, True ) /* Stuck */
-     , (53269,  11, True ) /* IgnoreCollisions */
-     , (53269,  12, True ) /* ReportCollisions */
-     , (53269,  14, True ) /* GravityStatus */
-     , (53269,  15, True ) /* LightsStatus */
-     , (53269,  19, False) /* Attackable */
-     , (53269,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (53269,  42, True ) /* AllowEdgeSlide */
-     , (53269,  52, True ) /* AiImmobile */
-     , (53269,  82, True ) /* DontTurnOrMoveWhenGiving */
-     , (53269,  83, True ) /* NpcLooksLikeObject */;
+VALUES (53269,  1,  True) /* Stuck */
+     , (53269, 11,  True) /* IgnoreCollisions */
+     , (53269, 12,  True) /* ReportCollisions */
+     , (53269, 14,  True) /* GravityStatus */
+     , (53269, 15,  True) /* LightsStatus */
+     , (53269, 19, False) /* Attackable */
+     , (53269, 41,  True) /* ReportCollisionsAsEnvironment */
+     , (53269, 42,  True) /* AllowEdgeSlide */
+     , (53269, 52,  True) /* AiImmobile */
+     , (53269, 82,  True) /* DontTurnOrMoveWhenGiving */
+     , (53269, 83,  True) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53269,  54,       3) /* UseRadius */;

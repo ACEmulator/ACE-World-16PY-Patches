@@ -48,7 +48,9 @@ VALUES (53313,   1, 'Stormwood Spear') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53313,   1,   33561668) /* Setup */
-     , (53313,   8,  100693339) /* Icon */;
+     , (53313,   3,  536870932) /* SoundTable */
+     , (53313,   8,  100693339) /* Icon */
+     , (53313,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (53313,  4395,      2)  /* Aura of Incantation of Blood Drinker Self */
