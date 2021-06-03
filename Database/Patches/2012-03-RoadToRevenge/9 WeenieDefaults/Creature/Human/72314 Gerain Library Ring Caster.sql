@@ -13,15 +13,11 @@ VALUES (72314,   1,         16) /* ItemType - Creature */
      , (72314,  25,         68) /* Level */
      , (72314,  27,          0) /* ArmorType - None */
      , (72314,  67,          1) /* Tolerance - NoAttack */
-     , (72314,  81,          5) /* MaxGeneratedObjects */
-     , (72314,  82,          0) /* InitGeneratedObjects */
      , (72314,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (72314,  95,          8) /* RadarBlipColor - Yellow */
      , (72314, 133,          0) /* ShowableOnRadar - Undefined */
      , (72314, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (72314, 146,       4750) /* XpOverride */
-     , (72314, 290,          1) /* HearLocalSignals */
-     , (72314, 291,         50) /* HearLocalSignalsRadius */;
+     , (72314, 146,       4750) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72314,   1, True ) /* Stuck */
