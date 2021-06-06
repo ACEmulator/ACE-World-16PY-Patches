@@ -465,3 +465,7 @@ VALUES (0x7930209E, 72328, 0x9302017F, 111.027, -57.4763, 0.00650001, 0.707107, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7930209F, 72329, 0x9302017F, 107.689, -60.7878, 0.00650001, 0.707107, 0, 0, 0.707107,  True, '2021-06-01 13:00:27'); /* Gurog Minion */
 /* @teleloc 0x9302017F [107.689003 -60.787800 0.006500] 0.707107 0.000000 0.000000 0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x793020A0, 72360, 0x93020164, 99.9482, -38.4518, 0.055, 1, -0, -0, -0, False, '2021-06-06 13:21:31'); /* Door Reset Stopgap Gen */
+/* @teleloc 0x93020164 [99.948196 -38.451801 0.055000] 1.000000 -0.000000 -0.000000 -0.000000 */

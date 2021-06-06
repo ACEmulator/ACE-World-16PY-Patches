@@ -25,40 +25,41 @@ VALUES (72334,   1, True ) /* Stuck */
      , (72334,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (72334,   1,       5) /* HeartbeatInterval */
-     , (72334,   2,       0) /* HeartbeatTimestamp */
-     , (72334,   3,     0.2) /* HealthRate */
-     , (72334,   4,     0.5) /* StaminaRate */
-     , (72334,   5,       2) /* ManaRate */
-     , (72334,  12,     0.5) /* Shade */
-     , (72334,  13,    0.85) /* ArmorModVsSlash */
-     , (72334,  14,    0.95) /* ArmorModVsPierce */
-     , (72334,  15,    0.85) /* ArmorModVsBludgeon */
-     , (72334,  16,    0.95) /* ArmorModVsCold */
-     , (72334,  17,    0.85) /* ArmorModVsFire */
-     , (72334,  18,     0.9) /* ArmorModVsAcid */
-     , (72334,  19,    0.95) /* ArmorModVsElectric */
-     , (72334,  31,      25) /* VisualAwarenessRange */
-     , (72334,  34,       2) /* PowerupTime */
-     , (72334,  36,       1) /* ChargeSpeed */
-     , (72334,  39,     1.3) /* DefaultScale */
-     , (72334,  64,    0.82) /* ResistSlash */
-     , (72334,  65,     0.5) /* ResistPierce */
-     , (72334,  66,     0.5) /* ResistBludgeon */
-     , (72334,  67,    0.85) /* ResistFire */
-     , (72334,  68,     0.5) /* ResistCold */
-     , (72334,  69,     0.5) /* ResistAcid */
-     , (72334,  70,     0.5) /* ResistElectric */
-     , (72334,  71,       1) /* ResistHealthBoost */
-     , (72334,  72,       1) /* ResistStaminaDrain */
-     , (72334,  73,       1) /* ResistStaminaBoost */
-     , (72334,  74,       1) /* ResistManaDrain */
-     , (72334,  75,       1) /* ResistManaBoost */
-     , (72334,  80,       3) /* AiUseMagicDelay */
-     , (72334, 104,      10) /* ObviousRadarRange */
-     , (72334, 122,       2) /* AiAcquireHealth */
-     , (72334, 125,       1) /* ResistHealthDrain */
-     , (72334, 166,     0.9) /* ResistNether */;
+VALUES (72334,   1,    5) /* HeartbeatInterval */
+     , (72334,   2,    0) /* HeartbeatTimestamp */
+     , (72334,   3,  0.2) /* HealthRate */
+     , (72334,   4,  0.5) /* StaminaRate */
+     , (72334,   5,    2) /* ManaRate */
+     , (72334,  12,  0.5) /* Shade */
+     , (72334,  13, 0.85) /* ArmorModVsSlash */
+     , (72334,  14, 0.95) /* ArmorModVsPierce */
+     , (72334,  15, 0.85) /* ArmorModVsBludgeon */
+     , (72334,  16, 0.95) /* ArmorModVsCold */
+     , (72334,  17, 0.85) /* ArmorModVsFire */
+     , (72334,  18,  0.9) /* ArmorModVsAcid */
+     , (72334,  19, 0.95) /* ArmorModVsElectric */
+     , (72334,  31,   25) /* VisualAwarenessRange */
+     , (72334,  34,    2) /* PowerupTime */
+     , (72334,  36,    1) /* ChargeSpeed */
+     , (72334,  39,  1.3) /* DefaultScale */
+     , (72334,  55,   60) /* HomeRadius */
+     , (72334,  64, 0.82) /* ResistSlash */
+     , (72334,  65,  0.5) /* ResistPierce */
+     , (72334,  66,  0.5) /* ResistBludgeon */
+     , (72334,  67, 0.85) /* ResistFire */
+     , (72334,  68,  0.5) /* ResistCold */
+     , (72334,  69,  0.5) /* ResistAcid */
+     , (72334,  70,  0.5) /* ResistElectric */
+     , (72334,  71,    1) /* ResistHealthBoost */
+     , (72334,  72,    1) /* ResistStaminaDrain */
+     , (72334,  73,    1) /* ResistStaminaBoost */
+     , (72334,  74,    1) /* ResistManaDrain */
+     , (72334,  75,    1) /* ResistManaBoost */
+     , (72334,  80,    3) /* AiUseMagicDelay */
+     , (72334, 104,   10) /* ObviousRadarRange */
+     , (72334, 122,    2) /* AiAcquireHealth */
+     , (72334, 125,    1) /* ResistHealthDrain */
+     , (72334, 166,  0.9) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72334,   1, 'Renselm') /* Name */;
@@ -122,4 +123,3 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id, 0, 88 /* LocalSignal */, 0, 1, NULL, 'OpenDoor4', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 1, 8 /* Say */, 0, 20, NULL, 'It is too soon! He must not be disturbed before the bond is complete.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-

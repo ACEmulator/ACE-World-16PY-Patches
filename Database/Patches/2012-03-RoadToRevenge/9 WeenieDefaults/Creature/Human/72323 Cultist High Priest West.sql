@@ -30,36 +30,37 @@ VALUES (72323,   1, True ) /* Stuck */
      , (72323,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (72323,   1,       5) /* HeartbeatInterval */
-     , (72323,   2,       0) /* HeartbeatTimestamp */
-     , (72323,   3,       2) /* HealthRate */
-     , (72323,   4,       5) /* StaminaRate */
-     , (72323,   5,       1) /* ManaRate */
-     , (72323,  13,     0.9) /* ArmorModVsSlash */
-     , (72323,  14,       1) /* ArmorModVsPierce */
-     , (72323,  15,     1.1) /* ArmorModVsBludgeon */
-     , (72323,  16,     0.4) /* ArmorModVsCold */
-     , (72323,  17,     0.4) /* ArmorModVsFire */
-     , (72323,  18,       1) /* ArmorModVsAcid */
-     , (72323,  19,     0.6) /* ArmorModVsElectric */
-     , (72323,  31,      15) /* VisualAwarenessRange */
-     , (72323,  64,    0.35) /* ResistSlash */
-     , (72323,  65,    0.35) /* ResistPierce */
-     , (72323,  66,    0.35) /* ResistBludgeon */
-     , (72323,  67,    0.35) /* ResistFire */
-     , (72323,  68,    0.35) /* ResistCold */
-     , (72323,  69,    0.35) /* ResistAcid */
-     , (72323,  70,    0.35) /* ResistElectric */
-     , (72323,  71,       1) /* ResistHealthBoost */
-     , (72323,  72,       1) /* ResistStaminaDrain */
-     , (72323,  73,       1) /* ResistStaminaBoost */
-     , (72323,  74,       1) /* ResistManaDrain */
-     , (72323,  75,       1) /* ResistManaBoost */
-     , (72323,  80,       2) /* AiUseMagicDelay */
-     , (72323, 104,      10) /* ObviousRadarRange */
-     , (72323, 117,     0.5) /* FocusedProbability */
-     , (72323, 122,       2) /* AiAcquireHealth */
-     , (72323, 125,       1) /* ResistHealthDrain */;
+VALUES (72323,   1,    5) /* HeartbeatInterval */
+     , (72323,   2,    0) /* HeartbeatTimestamp */
+     , (72323,   3,    2) /* HealthRate */
+     , (72323,   4,    5) /* StaminaRate */
+     , (72323,   5,    1) /* ManaRate */
+     , (72323,  13,  0.9) /* ArmorModVsSlash */
+     , (72323,  14,    1) /* ArmorModVsPierce */
+     , (72323,  15,  1.1) /* ArmorModVsBludgeon */
+     , (72323,  16,  0.4) /* ArmorModVsCold */
+     , (72323,  17,  0.4) /* ArmorModVsFire */
+     , (72323,  18,    1) /* ArmorModVsAcid */
+     , (72323,  19,  0.6) /* ArmorModVsElectric */
+     , (72323,  31,   15) /* VisualAwarenessRange */
+     , (72323,  55,   60) /* HomeRadius */
+     , (72323,  64, 0.35) /* ResistSlash */
+     , (72323,  65, 0.35) /* ResistPierce */
+     , (72323,  66, 0.35) /* ResistBludgeon */
+     , (72323,  67, 0.35) /* ResistFire */
+     , (72323,  68, 0.35) /* ResistCold */
+     , (72323,  69, 0.35) /* ResistAcid */
+     , (72323,  70, 0.35) /* ResistElectric */
+     , (72323,  71,    1) /* ResistHealthBoost */
+     , (72323,  72,    1) /* ResistStaminaDrain */
+     , (72323,  73,    1) /* ResistStaminaBoost */
+     , (72323,  74,    1) /* ResistManaDrain */
+     , (72323,  75,    1) /* ResistManaBoost */
+     , (72323,  80,    2) /* AiUseMagicDelay */
+     , (72323, 104,   10) /* ObviousRadarRange */
+     , (72323, 117,  0.5) /* FocusedProbability */
+     , (72323, 122,    2) /* AiAcquireHealth */
+     , (72323, 125,    1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72323,   1, 'Cultist High Priest') /* Name */
