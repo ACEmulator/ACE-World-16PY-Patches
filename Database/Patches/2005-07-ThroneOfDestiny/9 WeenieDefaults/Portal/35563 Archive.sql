@@ -24,10 +24,13 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35563,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35563,   1, 'Archive') /* Name */
-     , (35563,  38, 'Archive') /* AppraisalPortalDestination */;
+VALUES (35563,   1, 'Archive') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35563,   1,   33555925) /* Setup */
      , (35563,   2,  150994947) /* MotionTable */
      , (35563,   8,  100667499) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (35563, 2, 422970556, 146.681, -8.62729, -4.8255, 0.779756, 0, 0, -0.626083) /* Destination */
+/* @teleloc 0x193604BC [146.681000 -8.627290 -4.825500] 0.779756 0.000000 0.000000 -0.626083 */;

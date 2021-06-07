@@ -23,10 +23,13 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35564,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35564,   1, 'Surface') /* Name */
-     , (35564,  38, 'Surface (58.7S, 81.6W).') /* AppraisalPortalDestination */;
+VALUES (35564,   1, 'Surface') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35564,   1,   33554867) /* Setup */
      , (35564,   2,  150994947) /* MotionTable */
      , (35564,   8,  100667499) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (35564, 2, 422969369, 85.484, 5.16486, 0.698265, 1, 0, 0, 0) /* Destination */
+/* @teleloc 0x19360019 [85.484001 5.164860 0.698265] 1.000000 0.000000 0.000000 0.000000 */;
