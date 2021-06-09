@@ -16,6 +16,9 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id, 0,  375, 1, 2, 1) /* On Source.SuccessTarget Add GearCritDamageResistanceInt  */;
 
+INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
+VALUES (@parent_id, 0, 311, 1, 1, 1) /* ImbueStackingBitsInt */;
+
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8908;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
