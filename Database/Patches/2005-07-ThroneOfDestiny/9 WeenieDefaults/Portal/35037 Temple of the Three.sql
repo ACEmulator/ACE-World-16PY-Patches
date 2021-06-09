@@ -23,8 +23,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35037,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35037,   1, 'Temple of the Three') /* Name */
-     , (35037,  38, 'Temple of the Three') /* AppraisalPortalDestination */;
+VALUES (35037,   1, 'Temple of the Three') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35037,   1,   33560216) /* Setup */
@@ -32,5 +31,5 @@ VALUES (35037,   1,   33560216) /* Setup */
      , (35037,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35037, 2, 10224199, 160, -70, -17.995, 0.707107, 0, 0, -0.707107) /* Destination */
-/* @teleloc 0x009C0247 [160.000000 -70.000000 -17.995000] 0.707107 0.000000 0.000000 -0.707107 */;
+VALUES (35037, 2, 15009588, 70, -300, 0.005, 1, 0, 0, 0) /* Destination */
+/* @teleloc 0x00E50734 [70.000000 -300.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;

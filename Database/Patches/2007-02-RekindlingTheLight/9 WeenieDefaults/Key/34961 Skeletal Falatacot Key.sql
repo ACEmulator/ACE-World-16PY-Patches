@@ -19,7 +19,7 @@ VALUES (34961,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34961,   1, 'Skeletal Falatacot Key') /* Name */
-     , (34961,  13, 'skeletalfalatacotkey') /* KeyCode */
+     , (34961,  13, 'SkeletalFalatacotKey') /* KeyCode */
      , (34961,  14, 'Use this key on locked Skeletal Falatacot Reliquaries.') /* Use */
      , (34961,  15, 'A grim-looking bone key with dark red stains that you suspect are old blood stains.') /* ShortDesc */;
 

@@ -2042,3 +2042,11 @@ VALUES (0x700CE385, 35047, 0x00CE0457, 120, -80, 12, 1, 0, 0, 0,  True, '2019-02
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700CE386, 35047, 0x00CE0407, 80, -80, 12, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Small Skeletal Falatacot Reliquary */
 /* @teleloc 0x00CE0407 [80.000000 -80.000000 12.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700CE387, 87402, 0x00CE0532, 108.857, -110.188, 48.155, 0.999621, 0, 0, 0.0275372, False, '2021-06-03 09:25:15'); /* Mana Barrier Gen */
+/* @teleloc 0x00CE0532 [108.857002 -110.188004 48.154999] 0.999621 0.000000 0.000000 0.027537 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700CE388, 87403, 0x00CE0532, 108.81409, -108.53228, 48.155003, 0.9996208, 0, 0, 0.027537195, False, '2021-06-03 09:25:43'); /* Mana Barrier Controller Gen */
+/* @teleloc 0x00CE0532 [108.814087 -108.532280 48.155003] 0.999621 0.000000 0.000000 0.027537 */
