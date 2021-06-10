@@ -13,7 +13,7 @@ VALUES (43754,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43754,  26,     0.1) /* MaximumVelocity */
-     , (43754,  39,     0.1) /* DefaultScale */
+     , (43754,  39,     1.0) /* DefaultScale */  /* modified from retail 0.1 -- does not alter the visible scale on the stalactite on client, improves performance in deewain's by 3x */
      , (43754,  77,       1) /* PhysicsScriptIntensity */
      , (43754,  78,     0.5) /* Friction */
      , (43754,  79,       0) /* Elasticity */;
