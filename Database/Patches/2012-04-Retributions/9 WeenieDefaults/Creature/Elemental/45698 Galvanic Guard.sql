@@ -39,7 +39,6 @@ VALUES (45698,   1,       5) /* HeartbeatInterval */
      , (45698,  19,       1) /* ArmorModVsElectric */
      , (45698,  31,      20) /* VisualAwarenessRange */
      , (45698,  39,     1.3) /* DefaultScale */
-     , (45698,  55,      80) /* HomeRadius */
      , (45698,  64,     0.6) /* ResistSlash */
      , (45698,  65,     0.6) /* ResistPierce */
      , (45698,  66,     0.6) /* ResistBludgeon */

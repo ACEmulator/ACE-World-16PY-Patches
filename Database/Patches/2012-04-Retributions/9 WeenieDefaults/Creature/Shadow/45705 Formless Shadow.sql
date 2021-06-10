@@ -45,7 +45,6 @@ VALUES (45705,   1,       5) /* HeartbeatInterval */
      , (45705,  34,     1.1) /* PowerupTime */
      , (45705,  36,       1) /* ChargeSpeed */
      , (45705,  39,     0.5) /* DefaultScale */
-     , (45705,  55,      80) /* HomeRadius */
      , (45705,  64,     0.5) /* ResistSlash */
      , (45705,  65,     0.5) /* ResistPierce */
      , (45705,  66,     0.5) /* ResistBludgeon */
