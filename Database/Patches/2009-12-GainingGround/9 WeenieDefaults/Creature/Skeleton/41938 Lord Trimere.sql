@@ -51,7 +51,6 @@ VALUES (41938,   1,       5) /* HeartbeatInterval */
      , (41938,  36,       1) /* ChargeSpeed */
      , (41938,  41,     180) /* RegenerationInterval */
      , (41938,  43,       5) /* GeneratorRadius */
-     , (41938,  55,      75) /* HomeRadius */
      , (41938,  64,    0.58) /* ResistSlash */
      , (41938,  65,    0.58) /* ResistPierce */
      , (41938,  66,    0.66) /* ResistBludgeon */

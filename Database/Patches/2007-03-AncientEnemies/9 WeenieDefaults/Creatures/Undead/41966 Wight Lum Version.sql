@@ -46,7 +46,6 @@ VALUES (41966,   1,       5) /* HeartbeatInterval */
      , (41966,  34,       2) /* PowerupTime */
      , (41966,  36,       1) /* ChargeSpeed */
      , (41966,  39,     1.1) /* DefaultScale */
-     , (41966,  55,      75) /* HomeRadius */
      , (41966,  64,    0.82) /* ResistSlash */
      , (41966,  65,     0.5) /* ResistPierce */
      , (41966,  66,     0.5) /* ResistBludgeon */
@@ -54,10 +53,10 @@ VALUES (41966,   1,       5) /* HeartbeatInterval */
      , (41966,  68,     0.5) /* ResistCold */
      , (41966,  69,     0.5) /* ResistAcid */
      , (41966,  70,     0.5) /* ResistElectric */
-     , (41966,  166,    0.9) /* ResistNether */
      , (41966,  80,       3) /* AiUseMagicDelay */
      , (41966, 104,      10) /* ObviousRadarRange */
-     , (41966, 125,       1) /* ResistHealthDrain */;
+     , (41966, 125,       1) /* ResistHealthDrain */
+     , (41966, 166,     0.9) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41966,   1, 'Wight') /* Name */

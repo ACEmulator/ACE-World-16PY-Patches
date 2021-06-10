@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42020;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42020, 'ace42020-guardianofmhoire', 10, '2021-05-16 03:53:23') /* Creature */;
+VALUES (42020, 'ace42020-guardianofmhoire', 10, '2021-06-10 12:47:17') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42020,   1,         16) /* ItemType - Creature */
@@ -103,7 +103,8 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'You carry the Sword of Courag
      , (@parent_id, 4, 31 /* EraseQuest */, 0, 1, NULL, 'mhoireSEgotsword', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 5, 22 /* StampQuest */, 0, 1, NULL, 'mhoireSEpass', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 6, 34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 692 /* KnightoftheSoutheastTower */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 7, 18 /* DirectBroadcast */, 0, 1, NULL, 'You have been granted the title Knight of the Southeast Tower!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id, 7, 18 /* DirectBroadcast */, 0, 1, NULL, 'You have been granted the title Knight of the Southeast Tower!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 8, 88 /* LocalSignal */, 0, 1, NULL, 'openportal', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (42020, 23 /* TestFailure */, 1, NULL, NULL, NULL, 'OwnsItem-42015', NULL, NULL, NULL);

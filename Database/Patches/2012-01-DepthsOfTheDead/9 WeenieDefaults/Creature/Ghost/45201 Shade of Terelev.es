@@ -10,11 +10,15 @@ Use:
             - Tell: With the purification of this page and its terrible magic the onslaught of corruption will be slowed to a trickle. We could not approach the Oubliette for fear of madness, but the plans of the traitorous Hovoros have been foiled thanks to your heroic efforts! Let me reward you.
             - AddCharacterTitle: 751
             - DirectBroadcast: You have been awarded the title Master of the Mhoire Oubliette!
-            - AwardNoShareXP: 1,100,000,000
-            - AwardLuminance: 30,000
-            - Give: 35383, 4
-            - Give: 48750
-            - Give: Trade Note (250,000) (20630), 9
+            - InqQuestSolves: PickedUpTokenOublietteBoss_0112, 1 - 1
+                QuestSuccess:
+                    - AwardNoShareXP: 1,700,000,000
+                    - AwardLuminance: 40,000
+                    - Goto: Reward
+                QuestFailure:
+                    - AwardNoShareXP: 1,100,000,000
+                    - AwardLuminance: 30,000
+                    - Goto: Reward
         TestFailure:
             - InqQuest: PickedUpTokenOublietteBoss_0112
                 QuestSuccess:
@@ -26,3 +30,9 @@ Use:
                     - Tell: Now the corruption manifests within him, taking the form of a spectral page of magical text. He is using the corruption of this page to torment and tempt spirits here. I ask that you travel into the Oubliette, destroy Hovoros, and bring me one of these pages so I might purify it.
                     - Tell: Search for the entrance to the Oubliette behind the throne room and down into the lowest catacombs under the castle.
                     - StampQuest: StartedOublietteBoss_0112
+                    
+GotoSet: Reward
+    - EraseQuest: StartedOublietteBoss_0112
+    - Give: 35383, 4
+    - Give: 48750
+    - Give: Trade Note (250,000) (20630), 9

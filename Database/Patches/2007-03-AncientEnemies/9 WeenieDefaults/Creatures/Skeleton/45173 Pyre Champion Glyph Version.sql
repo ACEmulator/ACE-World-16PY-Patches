@@ -45,7 +45,6 @@ VALUES (45173,   1,       5) /* HeartbeatInterval */
      , (45173,  31,      25) /* VisualAwarenessRange */
      , (45173,  34,       1) /* PowerupTime */
      , (45173,  36,       1) /* ChargeSpeed */
-     , (45173,  55,      75) /* HomeRadius */
      , (45173,  64,    0.58) /* ResistSlash */
      , (45173,  65,    0.58) /* ResistPierce */
      , (45173,  66,    0.66) /* ResistBludgeon */
@@ -53,7 +52,6 @@ VALUES (45173,   1,       5) /* HeartbeatInterval */
      , (45173,  68,     0.3) /* ResistCold */
      , (45173,  69,    0.42) /* ResistAcid */
      , (45173,  70,     0.4) /* ResistElectric */
-     , (45173, 166,    0.82) /* ResistNether */
      , (45173,  71,       1) /* ResistHealthBoost */
      , (45173,  72,       1) /* ResistStaminaDrain */
      , (45173,  73,       1) /* ResistStaminaBoost */
@@ -62,7 +60,8 @@ VALUES (45173,   1,       5) /* HeartbeatInterval */
      , (45173,  80,       1) /* AiUseMagicDelay */
      , (45173, 104,      10) /* ObviousRadarRange */
      , (45173, 122,       2) /* AiAcquireHealth */
-     , (45173, 125,       1) /* ResistHealthDrain */;
+     , (45173, 125,       1) /* ResistHealthDrain */
+     , (45173, 166,    0.82) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45173,   1, 'Pyre Champion') /* Name */
@@ -132,8 +131,8 @@ VALUES (45173, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield
      , (45173, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (45173, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
      , (45173, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (45173, 9, 35504,  0, 0, 0.02, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
-     , (45173, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (45173, 9, 35504,  0, 0, 0.01, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
+     , (45173, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (45173, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
      , (45173, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (45173, 9, 37247,  0, 0, 0.003, False) /* Create Ace of Eyes (37247) for ContainTreasure */
@@ -162,4 +161,12 @@ VALUES (45173, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield
      , (45173, 9, 37244,  0, 0, 0.003, False) /* Create Jack of Hands (37244) for ContainTreasure */
      , (45173, 9, 37245,  0, 0, 0.003, False) /* Create Queen of Hands (37245) for ContainTreasure */
      , (45173, 9, 37246,  0, 0, 0.003, False) /* Create King of Hands (37246) for ContainTreasure */
-     , (45173, 9,     0,  0, 0, 0.922, False) /* Create nothing for ContainTreasure */;
+     , (45173, 9,     0,  0, 0, 0.922, False) /* Create nothing for ContainTreasure */
+     , (45173, 9, 45151,  0, 0, 0.8, False) /* Create Mhoire Oubliette Portal Glyph (45151) for Contain Treasure */
+     , (45173, 9,     0,  0, 0, 0.2, False) /* Create nothing for Contain Treasure */
+     , (45173, 9, 45151,  0, 0, 0.8, False) /* Create Mhoire Oubliette Portal Glyph (45151) for Contain Treasure */
+     , (45173, 9,     0,  0, 0, 0.2, False) /* Create nothing for Contain Treasure */
+     , (45173, 9, 45151,  0, 0, 0.8, False) /* Create Mhoire Oubliette Portal Glyph (45151) for Contain Treasure */
+     , (45173, 9,     0,  0, 0, 0.2, False) /* Create nothing for Contain Treasure */
+     , (45173, 9, 45193,  0, 0,  0.8, False) /* Create Red Veined Grub (45193) for Contain Treasure */
+     , (45173, 9,     0,  0, 0,  0.2, False) /* Create nothing for Contain Treasure */;

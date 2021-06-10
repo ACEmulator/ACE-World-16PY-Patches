@@ -22,6 +22,7 @@ GotoSet: CheckStatus
                     - StampQuest: mhoireSWpass
                     - AddCharacterTitle: 693
                     - DirectBroadcast: You have been granted the title Knight of the Southwest Tower!
+                    - LocalSignal: openportal
                 QuestFailure:
                     - Tell: The sword is not yet pure.
         TestFailure:

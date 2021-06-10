@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45196;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45196, 'ace45196-blindedapparition', 10, '2021-05-25 08:07:18') /* Creature */;
+VALUES (45196, 'ace45196-blindedapparition', 10, '2021-06-10 01:50:26') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45196,   1,         16) /* ItemType - Creature */
@@ -17,27 +17,28 @@ VALUES (45196,   1,         16) /* ItemType - Creature */
      , (45196, 146,    2000000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45196,   1, True ) /* Stuck */;
+VALUES (45196,   1, True ) /* Stuck */
+     , (45196,  29, True ) /* NoCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45196,  13,    0.85) /* ArmorModVsSlash */
-     , (45196,  14,    0.95) /* ArmorModVsPierce */
+VALUES (45196,  13,     0.8) /* ArmorModVsSlash */
+     , (45196,  14,       1) /* ArmorModVsPierce */
      , (45196,  15,       1) /* ArmorModVsBludgeon */
      , (45196,  16,       1) /* ArmorModVsCold */
-     , (45196,  17,    0.95) /* ArmorModVsFire */
-     , (45196,  18,       1) /* ArmorModVsAcid */
+     , (45196,  17,     0.9) /* ArmorModVsFire */
+     , (45196,  18,     0.9) /* ArmorModVsAcid */
      , (45196,  19,       1) /* ArmorModVsElectric */
-     , (45196,  31,      10) /* VisualAwarenessRange */
+     , (45196,  31,      16) /* VisualAwarenessRange */
      , (45196,  34,       1) /* PowerupTime */
      , (45196,  36,       1) /* ChargeSpeed */
      , (45196,  39,     1.1) /* DefaultScale */
-     , (45196,  64,    0.65) /* ResistSlash */
-     , (45196,  65,    0.55) /* ResistPierce */
+     , (45196,  64,     0.7) /* ResistSlash */
+     , (45196,  65,     0.4) /* ResistPierce */
      , (45196,  66,     0.4) /* ResistBludgeon */
-     , (45196,  67,    0.55) /* ResistFire */
+     , (45196,  67,     0.6) /* ResistFire */
      , (45196,  68,     0.4) /* ResistCold */
-     , (45196,  69,     0.4) /* ResistAcid */
-     , (45196,  70,     0.4) /* ResistElectric */
+     , (45196,  69,     0.6) /* ResistAcid */
+     , (45196,  70,       1) /* ResistElectric */
      , (45196,  76,     0.7) /* Translucency */
      , (45196,  80,       3) /* AiUseMagicDelay */
      , (45196, 104,      10) /* ObviousRadarRange */
@@ -66,10 +67,10 @@ VALUES (45196,  0,  8,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,
      , (45196,  2,  8,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (45196,  3,  8,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (45196,  4,  8,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (45196,  5,  8,600, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (45196,  5,  8, 1000, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (45196,  6,  8,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (45196,  7,  8,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (45196,  8,  8,600, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (45196,  8,  8, 1000, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (45196,   1, 490, 0, 0) /* Strength */
@@ -80,14 +81,47 @@ VALUES (45196,   1, 490, 0, 0) /* Strength */
      , (45196,   6, 420, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45196,   1,  2185, 0, 0, 2210) /* MaxHealth */
+VALUES (45196,   1,  2000, 0, 0, 2210) /* MaxHealth */
      , (45196,   3,  3000, 0, 0, 3420) /* MaxStamina */
      , (45196,   5,     0, 0, 0,  420) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (45196, 46, 0, 2, 0, 430, 0, 0) /* FinesseWeapons */
-     , (45196, 44, 0, 2, 0, 430, 0, 0) /* HeavyWeapons */
-     , (45196, 45, 0, 2, 0, 430, 0, 0) /* LightWeapons */
-     , (45196, 15, 0, 2, 0, 340, 0, 0) /* MagicDefense */
+VALUES (45196, 45, 0, 2, 0, 500, 0, 0) /* LightWeapons */
+     , (45196, 15, 0, 2, 0, 350, 0, 0) /* MagicDefense */
      , (45196,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense */
-     , (45196,  7, 0, 2, 0, 420, 0, 0) /* MissileDefense */;
+     , (45196,  7, 0, 2, 0, 550, 0, 0) /* MissileDefense */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (45196, 5 /* HeartBeat */, 0.25, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id, 0, 5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (45196, 5 /* HeartBeat */, 0.7, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id, 0, 21 /* InqQuest */, 0, 1, NULL, 'CrossedRoad@16', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (45196, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'CrossedRoad@16', NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id, 0, 6 /* Move */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 15, 0, 1, 0, 0, 0)
+     , (@parent_id, 1, 31 /* EraseQuest */, 0, 1, NULL, 'CrossedRoad', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (45196, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'CrossedRoad@16', NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id, 0, 6 /* Move */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 1)
+     , (@parent_id, 1, 22 /* StampQuest */, 0, 1, NULL, 'CrossedRoad', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+

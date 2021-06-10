@@ -79,6 +79,7 @@ GotoSet: CheckOrder4
             - DirectBroadcast: Defender, you have succeeded in the Test of the Northwest Tower.
             - AddCharacterTitle: 691
             - DirectBroadcast: You have been granted the title Knight of the Northwest Tower!
+            - LocalSignal: openportal
         QuestFailure:
             - Goto: Fail
 

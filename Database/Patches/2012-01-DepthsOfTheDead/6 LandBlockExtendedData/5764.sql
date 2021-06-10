@@ -379,7 +379,7 @@ VALUES (0x75764239, 45196, 0x57640104, 12.083, -4.31258, -53.9917, 1, 0, 0, 0,  
 /* @teleloc 0x57640104 [12.083000 -4.312580 -53.991699] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576423D,  7924, 0x5764016E, -0.16294, -20.917, -17.9975, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7576423D,  7924, 0x5764016E, -0.16294, -20.917, -17.9975, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5764016E [-0.162940 -20.917000 -17.997499] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -566,70 +566,6 @@ VALUES (0x7576427D, 45196, 0x57640260, -2.59405, -18.8775, 6.00825, 1, 0, 0, 0, 
 /* @teleloc 0x57640260 [-2.594050 -18.877501 6.008250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576427E, 72283, 0x5764030B, 25.9808, -22.2188, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-05-12 08:53:26'); /* Lightning Trap */
-/* @teleloc 0x5764030B [25.980801 -22.218800 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576427F, 72283, 0x5764030B, 25.9859, -18.3051, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-05-12 08:57:44'); /* Lightning Trap */
-/* @teleloc 0x5764030B [25.985901 -18.305099 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75764280, 72283, 0x57640307, 34.0077, -11.6336, 18.005, 0.707107, 0, 0, 0.707107, False, '2021-05-12 08:58:55'); /* Lightning Trap */
-/* @teleloc 0x57640307 [34.007702 -11.633600 18.004999] 0.707107 0.000000 0.000000 0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75764281, 72283, 0x57640307, 33.9723, -8.33486, 18.005, 0.707107, 0, 0, 0.707107, False, '2021-05-12 08:59:06'); /* Lightning Trap */
-/* @teleloc 0x57640307 [33.972301 -8.334860 18.004999] 0.707107 0.000000 0.000000 0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75764282, 72283, 0x576402F3, 15.9974, 0.0201629, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-05-12 08:59:53'); /* Lightning Trap */
-/* @teleloc 0x576402F3 [15.997400 0.020163 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75764283, 72283, 0x576402F7, 24.0153, -8.31141, 18.005, 0.707107, 0, 0, 0.707107, False, '2021-05-12 09:00:26'); /* Lightning Trap */
-/* @teleloc 0x576402F7 [24.015301 -8.311410 18.004999] 0.707107 0.000000 0.000000 0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75764284, 72283, 0x576402F7, 23.9735, -11.622, 18.005, 0.707107, 0, 0, 0.707107, False, '2021-05-12 09:00:38'); /* Lightning Trap */
-/* @teleloc 0x576402F7 [23.973499 -11.622000 18.004999] 0.707107 0.000000 0.000000 0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75764285, 72283, 0x576402FB, 15.9848, -18.2872, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-05-12 09:01:11'); /* Lightning Trap */
-/* @teleloc 0x576402FB [15.984800 -18.287201 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75764286, 72283, 0x576402FB, 15.9822, -21.6355, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-05-12 09:01:24'); /* Lightning Trap */
-/* @teleloc 0x576402FB [15.982200 -21.635500 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75764287, 72283, 0x576402EF, 5.98396, -30.0321, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-05-12 09:02:11'); /* Lightning Trap */
-/* @teleloc 0x576402EF [5.983960 -30.032101 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75764288, 72283, 0x576402EB, 14.0147, -22.7897, 18.005, 0.707107, 0, 0, 0.707107, False, '2021-05-12 09:02:46'); /* Lightning Trap */
-/* @teleloc 0x576402EB [14.014700 -22.789700 18.004999] 0.707107 0.000000 0.000000 0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576428A, 72283, 0x576402EB, 5.99486, -18.5096, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-05-12 09:04:04'); /* Lightning Trap */
-/* @teleloc 0x576402EB [5.994860 -18.509600 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576428B, 72283, 0x576402E3, 9.97289, 4.00989, 18.005, -4.37114E-08, 0, 0, -1, False, '2021-05-12 09:05:04'); /* Lightning Trap */
-/* @teleloc 0x576402E3 [9.972890 4.009890 18.004999] -0.000000 0.000000 0.000000 -1.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576428C, 72283, 0x576402E7, 5.97992, -11.6016, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-05-12 09:06:16'); /* Lightning Trap */
-/* @teleloc 0x576402E7 [5.979920 -11.601600 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576428D, 72283, 0x576402E7, 14.017, -8.28873, 18.005, 0.707107, 0, 0, 0.707107, False, '2021-05-12 09:09:39'); /* Lightning Trap */
-/* @teleloc 0x576402E7 [14.017000 -8.288730 18.004999] 0.707107 0.000000 0.000000 0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576428E, 72283, 0x576402D4, -4.01983, -0.0129582, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-05-12 09:10:19'); /* Lightning Trap */
-/* @teleloc 0x576402D4 [-4.019830 -0.012958 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576428F, 72283, 0x576402D8, -4.01755, -11.623, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-05-12 09:10:50'); /* Lightning Trap */
 /* @teleloc 0x576402D8 [-4.017550 -11.623000 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
 
@@ -646,5 +582,49 @@ VALUES (0x75764292, 72283, 0x576402DC, -4.01925, -21.6422, 18.005, 0.707107, 0, 
 /* @teleloc 0x576402DC [-4.019250 -21.642200 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75764293, 72283, 0x576402FF, 20.0121, -34.017, 18.005, 1, -0, -0, -0, False, '2021-05-12 09:27:39'); /* Lightning Trap */
-/* @teleloc 0x576402FF [20.012100 -34.016998 18.004999] 1.000000 -0.000000 -0.000000 -0.000000 */
+VALUES (0x75764294, 72283, 0x57640303, 30.6237, 4.01606, 18.005, -4.37114E-08, 0, 0, -1, False, '2021-06-10 13:02:41'); /* Lightning Trap */
+/* @teleloc 0x57640303 [30.623699 4.016060 18.004999] -0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75764295, 72283, 0x57640303, 29.3047, 4.0178, 18.005, -4.37114E-08, 0, 0, -1, False, '2021-06-10 13:02:57'); /* Lightning Trap */
+/* @teleloc 0x57640303 [29.304701 4.017800 18.004999] -0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75764296, 72283, 0x576402F3, 15.9799, -0.665847, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-06-10 13:05:24'); /* Lightning Trap */
+/* @teleloc 0x576402F3 [15.979900 -0.665847 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75764297, 72283, 0x576402F3, 15.9823, 0.589492, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-06-10 13:05:38'); /* Lightning Trap */
+/* @teleloc 0x576402F3 [15.982300 0.589492 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75764298, 72283, 0x576402FF, 20.6945, -34.0185, 18.005, 1, 0, 0, 0, False, '2021-06-10 13:06:37'); /* Lightning Trap */
+/* @teleloc 0x576402FF [20.694500 -34.018501 18.004999] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75764299, 72283, 0x576402FF, 19.3495, -34.0051, 18.005, 1, 0, 0, 0, False, '2021-06-10 13:06:45'); /* Lightning Trap */
+/* @teleloc 0x576402FF [19.349501 -34.005100 18.004999] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7576429A, 72283, 0x576402EF, 5.98272, -30.6462, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-06-10 13:11:36'); /* Lightning Trap */
+/* @teleloc 0x576402EF [5.982720 -30.646200 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7576429B, 72283, 0x576402EF, 5.9817, -29.3789, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-06-10 13:11:47'); /* Lightning Trap */
+/* @teleloc 0x576402EF [5.981700 -29.378901 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7576429C, 72283, 0x576402E3, 9.27771, 4.01186, 18.005, -4.37114E-08, 0, 0, -1, False, '2021-06-10 13:12:40'); /* Lightning Trap */
+/* @teleloc 0x576402E3 [9.277710 4.011860 18.004999] -0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7576429D, 72283, 0x576402E3, 10.6045, 4.01528, 18.005, -4.37114E-08, 0, 0, -1, False, '2021-06-10 13:13:00'); /* Lightning Trap */
+/* @teleloc 0x576402E3 [10.604500 4.015280 18.004999] -0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7576429E, 72283, 0x576402D4, -4.01622, -0.783906, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-06-10 13:14:19'); /* Lightning Trap */
+/* @teleloc 0x576402D4 [-4.016220 -0.783906 18.004999] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7576429F, 72283, 0x576402D4, -4.01836, 0.659642, 18.005, 0.707107, 0, 0, -0.707107, False, '2021-06-10 13:14:30'); /* Lightning Trap */
+/* @teleloc 0x576402D4 [-4.018360 0.659642 18.004999] 0.707107 0.000000 0.000000 -0.707107 */

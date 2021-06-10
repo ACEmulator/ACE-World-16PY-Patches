@@ -10,7 +10,7 @@ VALUES (72252,  81,          1) /* MaxGeneratedObjects */
      , (72252, 103,          2) /* GeneratorDestructionType - Destroy */
      , (72252, 145,          2) /* GeneratorEndDestructionType - Destroy */
      , (72252, 290,          1) /* HearLocalSignals */
-     , (72252, 291,         60) /* HearLocalSignalsRadius */;
+     , (72252, 291,        120) /* HearLocalSignalsRadius */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72252,   1, True ) /* Stuck */

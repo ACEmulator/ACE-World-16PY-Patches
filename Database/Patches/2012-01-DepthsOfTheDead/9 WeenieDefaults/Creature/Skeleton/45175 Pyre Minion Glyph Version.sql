@@ -45,7 +45,6 @@ VALUES (45175,   1,       5) /* HeartbeatInterval */
      , (45175,  31,      25) /* VisualAwarenessRange */
      , (45175,  34,       1) /* PowerupTime */
      , (45175,  36,       1) /* ChargeSpeed */
-     , (45175,  55,      75) /* HomeRadius */
      , (45175,  64,    0.58) /* ResistSlash */
      , (45175,  65,    0.58) /* ResistPierce */
      , (45175,  66,    0.66) /* ResistBludgeon */
@@ -53,7 +52,6 @@ VALUES (45175,   1,       5) /* HeartbeatInterval */
      , (45175,  68,     0.3) /* ResistCold */
      , (45175,  69,    0.42) /* ResistAcid */
      , (45175,  70,     0.4) /* ResistElectric */
-     , (45175, 166,    0.82) /* ResistNether */
      , (45175,  71,       1) /* ResistHealthBoost */
      , (45175,  72,       1) /* ResistStaminaDrain */
      , (45175,  73,       1) /* ResistStaminaBoost */
@@ -62,7 +60,8 @@ VALUES (45175,   1,       5) /* HeartbeatInterval */
      , (45175,  80,       3) /* AiUseMagicDelay */
      , (45175, 104,      10) /* ObviousRadarRange */
      , (45175, 122,       2) /* AiAcquireHealth */
-     , (45175, 125,       1) /* ResistHealthDrain */;
+     , (45175, 125,       1) /* ResistHealthDrain */
+     , (45175, 166,    0.82) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45175,   1, 'Pyre Minion') /* Name */

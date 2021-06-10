@@ -45,7 +45,6 @@ VALUES (45155,   1,       5) /* HeartbeatInterval */
      , (45155,  31,      25) /* VisualAwarenessRange */
      , (45155,  34,       1) /* PowerupTime */
      , (45155,  36,       1) /* ChargeSpeed */
-     , (45155,  55,      75) /* HomeRadius */
      , (45155,  64,    0.58) /* ResistSlash */
      , (45155,  65,    0.58) /* ResistPierce */
      , (45155,  66,    0.66) /* ResistBludgeon */
@@ -53,7 +52,6 @@ VALUES (45155,   1,       5) /* HeartbeatInterval */
      , (45155,  68,     0.3) /* ResistCold */
      , (45155,  69,    0.42) /* ResistAcid */
      , (45155,  70,     0.4) /* ResistElectric */
-     , (45155, 166,    0.82) /* ResistNether */
      , (45155,  71,       1) /* ResistHealthBoost */
      , (45155,  72,       1) /* ResistStaminaDrain */
      , (45155,  73,       1) /* ResistStaminaBoost */
@@ -62,7 +60,8 @@ VALUES (45155,   1,       5) /* HeartbeatInterval */
      , (45155,  80,       1) /* AiUseMagicDelay */
      , (45155, 104,      10) /* ObviousRadarRange */
      , (45155, 122,       2) /* AiAcquireHealth */
-     , (45155, 125,       1) /* ResistHealthDrain */;
+     , (45155, 125,       1) /* ResistHealthDrain */
+     , (45155, 166,    0.82) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45155,   1, 'Pyre Champion') /* Name */

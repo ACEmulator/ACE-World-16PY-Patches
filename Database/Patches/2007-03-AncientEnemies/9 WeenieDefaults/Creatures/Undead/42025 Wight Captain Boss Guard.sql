@@ -43,7 +43,6 @@ VALUES (42025,   1,       5) /* HeartbeatInterval */
      , (42025,  34,       2) /* PowerupTime */
      , (42025,  36,       1) /* ChargeSpeed */
      , (42025,  39,     1.1) /* DefaultScale */
-     , (42025,  55,      75) /* HomeRadius */
      , (42025,  64,    0.82) /* ResistSlash */
      , (42025,  65,     0.5) /* ResistPierce */
      , (42025,  66,     0.5) /* ResistBludgeon */
@@ -161,4 +160,3 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id, 0, 8 /* Say */, 0, 20, NULL, 'Stand your ground.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-

@@ -27,35 +27,34 @@ VALUES (35093,   1, True ) /* Stuck */
      , (35093,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35093,   1,    5) /* HeartbeatInterval */
-     , (35093,   2,    0) /* HeartbeatTimestamp */
-     , (35093,   3,  0.1) /* HealthRate */
-     , (35093,   4,    5) /* StaminaRate */
-     , (35093,   5,    2) /* ManaRate */
-     , (35093,  12,    0) /* Shade */
-     , (35093,  13, 0.85) /* ArmorModVsSlash */
-     , (35093,  14, 0.95) /* ArmorModVsPierce */
-     , (35093,  15, 0.85) /* ArmorModVsBludgeon */
-     , (35093,  16, 0.95) /* ArmorModVsCold */
-     , (35093,  17, 0.85) /* ArmorModVsFire */
-     , (35093,  18,  0.9) /* ArmorModVsAcid */
-     , (35093,  19, 0.95) /* ArmorModVsElectric */
-     , (35093,  31,   18) /* VisualAwarenessRange */
-     , (35093,  34,    2) /* PowerupTime */
-     , (35093,  36,    1) /* ChargeSpeed */
-     , (35093,  39,  1.1) /* DefaultScale */
-     , (35093,  55,   75) /* HomeRadius */
-     , (35093,  64, 0.82) /* ResistSlash */
-     , (35093,  65,  0.5) /* ResistPierce */
-     , (35093,  66,  0.5) /* ResistBludgeon */
-     , (35093,  67, 0.85) /* ResistFire */
-     , (35093,  68,  0.5) /* ResistCold */
-     , (35093,  69,  0.5) /* ResistAcid */
-     , (35093,  70,  0.5) /* ResistElectric */
-     , (35093,  80,    3) /* AiUseMagicDelay */
-     , (35093, 104,   10) /* ObviousRadarRange */
-     , (35093, 125,    1) /* ResistHealthDrain */
-     , (35093, 166,  0.9) /* ResistNether */;
+VALUES (35093,   1,       5) /* HeartbeatInterval */
+     , (35093,   2,       0) /* HeartbeatTimestamp */
+     , (35093,   3,     0.1) /* HealthRate */
+     , (35093,   4,       5) /* StaminaRate */
+     , (35093,   5,       2) /* ManaRate */
+     , (35093,  12,       0) /* Shade */
+     , (35093,  13,    0.85) /* ArmorModVsSlash */
+     , (35093,  14,    0.95) /* ArmorModVsPierce */
+     , (35093,  15,    0.85) /* ArmorModVsBludgeon */
+     , (35093,  16,    0.95) /* ArmorModVsCold */
+     , (35093,  17,    0.85) /* ArmorModVsFire */
+     , (35093,  18,     0.9) /* ArmorModVsAcid */
+     , (35093,  19,    0.95) /* ArmorModVsElectric */
+     , (35093,  31,      18) /* VisualAwarenessRange */
+     , (35093,  34,       2) /* PowerupTime */
+     , (35093,  36,       1) /* ChargeSpeed */
+     , (35093,  39,     1.1) /* DefaultScale */
+     , (35093,  64,    0.82) /* ResistSlash */
+     , (35093,  65,     0.5) /* ResistPierce */
+     , (35093,  66,     0.5) /* ResistBludgeon */
+     , (35093,  67,    0.85) /* ResistFire */
+     , (35093,  68,     0.5) /* ResistCold */
+     , (35093,  69,     0.5) /* ResistAcid */
+     , (35093,  70,     0.5) /* ResistElectric */
+     , (35093,  80,       3) /* AiUseMagicDelay */
+     , (35093, 104,      10) /* ObviousRadarRange */
+     , (35093, 125,       1) /* ResistHealthDrain */
+     , (35093, 166,     0.9) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35093,   1, 'Wight Blade Sorcerer') /* Name */

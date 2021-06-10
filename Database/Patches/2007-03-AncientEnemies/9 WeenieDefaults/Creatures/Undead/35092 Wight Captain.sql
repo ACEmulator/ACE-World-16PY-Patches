@@ -43,7 +43,6 @@ VALUES (35092,   1,       5) /* HeartbeatInterval */
      , (35092,  34,       2) /* PowerupTime */
      , (35092,  36,       1) /* ChargeSpeed */
      , (35092,  39,     1.1) /* DefaultScale */
-     , (35092,  55,      75) /* HomeRadius */
      , (35092,  64,    0.82) /* ResistSlash */
      , (35092,  65,     0.5) /* ResistPierce */
      , (35092,  66,     0.5) /* ResistBludgeon */

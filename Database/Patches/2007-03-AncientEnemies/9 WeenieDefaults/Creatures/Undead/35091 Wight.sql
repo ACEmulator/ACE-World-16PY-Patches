@@ -44,7 +44,6 @@ VALUES (35091,   1,       5) /* HeartbeatInterval */
      , (35091,  34,       2) /* PowerupTime */
      , (35091,  36,       1) /* ChargeSpeed */
      , (35091,  39,     1.1) /* DefaultScale */
-     , (35091,  55,      75) /* HomeRadius */
      , (35091,  64,    0.82) /* ResistSlash */
      , (35091,  65,     0.5) /* ResistPierce */
      , (35091,  66,     0.5) /* ResistBludgeon */
@@ -141,4 +140,3 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'GYColoMobKilled', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-

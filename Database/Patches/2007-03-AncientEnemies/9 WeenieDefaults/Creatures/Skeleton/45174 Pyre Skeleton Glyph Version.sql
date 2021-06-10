@@ -45,7 +45,6 @@ VALUES (45174,   1,       5) /* HeartbeatInterval */
      , (45174,  31,      25) /* VisualAwarenessRange */
      , (45174,  34,       1) /* PowerupTime */
      , (45174,  36,       1) /* ChargeSpeed */
-     , (45174,  55,      75) /* HomeRadius */
      , (45174,  64,    0.58) /* ResistSlash */
      , (45174,  65,    0.58) /* ResistPierce */
      , (45174,  66,    0.66) /* ResistBludgeon */
@@ -53,7 +52,6 @@ VALUES (45174,   1,       5) /* HeartbeatInterval */
      , (45174,  68,     0.3) /* ResistCold */
      , (45174,  69,    0.42) /* ResistAcid */
      , (45174,  70,     0.4) /* ResistElectric */
-     , (45174, 166,    0.82) /* ResistNether */
      , (45174,  71,       1) /* ResistHealthBoost */
      , (45174,  72,       1) /* ResistStaminaDrain */
      , (45174,  73,       1) /* ResistStaminaBoost */
@@ -62,7 +60,8 @@ VALUES (45174,   1,       5) /* HeartbeatInterval */
      , (45174,  80,       3) /* AiUseMagicDelay */
      , (45174, 104,      10) /* ObviousRadarRange */
      , (45174, 122,       2) /* AiAcquireHealth */
-     , (45174, 125,       1) /* ResistHealthDrain */;
+     , (45174, 125,       1) /* ResistHealthDrain */
+     , (45174, 166,    0.82) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45174,   1, 'Pyre Skeleton') /* Name */
@@ -160,4 +159,6 @@ VALUES (45174, 2, 35095,  1, 0, 0, False) /* Create Pyre Claw (35095) for Wield 
      , (45174, 9, 37244,  0, 0, 0.003, False) /* Create Jack of Hands (37244) for ContainTreasure */
      , (45174, 9, 37245,  0, 0, 0.003, False) /* Create Queen of Hands (37245) for ContainTreasure */
      , (45174, 9, 37246,  0, 0, 0.003, False) /* Create King of Hands (37246) for ContainTreasure */
-     , (45174, 9,     0,  0, 0, 0.922, False) /* Create nothing for ContainTreasure */;
+     , (45174, 9,     0,  0, 0, 0.922, False) /* Create nothing for ContainTreasure */
+     , (45174, 9, 45151,  0, 0, 0.8, False) /* Create Mhoire Oubliette Portal Glyph (45151) for Contain Treasure */
+     , (45174, 9,     0,  0, 0, 0.2, False) /* Create nothing for Contain Treasure */;

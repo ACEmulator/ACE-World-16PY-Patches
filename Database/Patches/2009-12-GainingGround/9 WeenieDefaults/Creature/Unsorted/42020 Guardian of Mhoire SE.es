@@ -23,6 +23,7 @@ GotoSet: CheckStatus
                     - StampQuest: mhoireSEpass
                     - AddCharacterTitle: 692
                     - DirectBroadcast: You have been granted the title Knight of the Southeast Tower!
+                    - LocalSignal: openportal
                 TestFailure:
                     - Tell: You do not have enough blue flames.
                     

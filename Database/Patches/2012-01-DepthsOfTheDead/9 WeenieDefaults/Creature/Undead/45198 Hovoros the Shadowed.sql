@@ -139,4 +139,3 @@ VALUES (45198, 2, 72284,  1, 0,    0, False) /* Create Invisible Staff (72284) f
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (45198, -1, 42026, 0, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Blade Sorcerer (42026) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (45198, -1, 42025, 0, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight Captain (42025) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
-     
