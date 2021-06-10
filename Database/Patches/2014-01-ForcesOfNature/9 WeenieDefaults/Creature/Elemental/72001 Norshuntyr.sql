@@ -42,7 +42,6 @@ VALUES (72001,   1,   5) /* HeartbeatInterval */
      , (72001,  31,  25) /* VisualAwarenessRange */
      , (72001,  34, 1.6) /* PowerupTime */
      , (72001,  39, 1.8) /* DefaultScale */
-     , (72001,  55,  80) /* HomeRadius */
      , (72001,  64, 0.6) /* ResistSlash */
      , (72001,  65, 0.7) /* ResistPierce */
      , (72001,  66, 0.7) /* ResistBludgeon */

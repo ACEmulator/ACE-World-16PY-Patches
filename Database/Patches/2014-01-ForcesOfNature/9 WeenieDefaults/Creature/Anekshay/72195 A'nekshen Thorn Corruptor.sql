@@ -42,7 +42,6 @@ VALUES (72195,   1,   5) /* HeartbeatInterval */
      , (72195,  31,  25) /* VisualAwarenessRange */
      , (72195,  34,   1) /* PowerupTime */
      , (72195,  36,   1) /* ChargeSpeed */
-     , (72195,  55,  60) /* HomeRadius */
      , (72195,  64, 0.4) /* ResistSlash */
      , (72195,  65, 0.5) /* ResistPierce */
      , (72195,  66, 0.5) /* ResistBludgeon */

@@ -41,7 +41,6 @@ VALUES (52626,   1,   5) /* HeartbeatInterval */
      , (52626,  19, 0.8) /* ArmorModVsElectric */
      , (52626,  31,  25) /* VisualAwarenessRange */
      , (52626,  34, 1.6) /* PowerupTime */
-     , (52626,  55,  80) /* HomeRadius */
      , (52626,  64, 0.6) /* ResistSlash */
      , (52626,  65, 0.7) /* ResistPierce */
      , (52626,  66, 0.7) /* ResistBludgeon */

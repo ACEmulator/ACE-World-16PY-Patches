@@ -48,7 +48,6 @@ VALUES (72002,   1,   5) /* HeartbeatInterval */
      , (72002,  39, 1.6) /* DefaultScale */
      , (72002,  41, 120) /* RegenerationInterval */
      , (72002,  43,   5) /* GeneratorRadius */
-     , (72002,  55,  60) /* HomeRadius */
      , (72002,  64, 0.6) /* ResistSlash */
      , (72002,  65, 0.6) /* ResistPierce */
      , (72002,  66, 0.6) /* ResistBludgeon */
