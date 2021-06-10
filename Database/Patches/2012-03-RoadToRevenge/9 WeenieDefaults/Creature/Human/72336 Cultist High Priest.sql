@@ -43,7 +43,6 @@ VALUES (72336,   1,       5) /* HeartbeatInterval */
      , (72336,  18,       1) /* ArmorModVsAcid */
      , (72336,  19,     0.6) /* ArmorModVsElectric */
      , (72336,  31,      15) /* VisualAwarenessRange */
-     , (72336,  55,     100) /* HomeRadius */
      , (72336,  64,    0.35) /* ResistSlash */
      , (72336,  65,    0.35) /* ResistPierce */
      , (72336,  66,    0.35) /* ResistBludgeon */
