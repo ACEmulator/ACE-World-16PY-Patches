@@ -39,7 +39,7 @@ VALUES (40446,   5,   -0.01) /* ManaRate */
      , (40446,  19,     1.1) /* ArmorModVsElectric */
      , (40446, 110,       1) /* BulkMod */
      , (40446, 111,       1) /* SizeMod */
-     , (29543, 165,       1) /* ArmorModVsNether */;
+     , (40446, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40446,   1, 'Upgraded Enscorcelled Robe') /* Name */;
