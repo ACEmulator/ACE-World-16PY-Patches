@@ -34,8 +34,8 @@ VALUES (87406,   1, True ) /* Stuck */
      , (87406,  19, False) /* Attackable */
      , (87406,  41, True ) /* ReportCollisionsAsEnvironment */
      , (87406,  42, True ) /* AllowEdgeSlide */
-     , (87406,  50, True ) /* NeverFailCasting */
-     , (87406,  52, True ) /* AiImmobile */;
+     , (87406,  52, True ) /* AiImmobile */
+     , (87406, 118, True ) /* NeverAttack */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (87406,   1,       5) /* HeartbeatInterval */

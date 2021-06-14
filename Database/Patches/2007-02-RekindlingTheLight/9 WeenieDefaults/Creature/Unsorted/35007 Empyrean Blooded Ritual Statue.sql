@@ -8,6 +8,7 @@ VALUES (35007,   1,         16) /* ItemType - Creature */
      , (35007,   6,         -1) /* ItemsCapacity */
      , (35007,   7,         -1) /* ContainersCapacity */
      , (35007,  16,          1) /* ItemUseable - No */
+     , (35007,  67,          1) /* Tolerance - NoAttack */
      , (35007,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35007, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
