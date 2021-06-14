@@ -12,7 +12,7 @@ VALUES (35096,   1,          1) /* ItemType - MeleeWeapon */
      , (35096,  19,        340) /* Value */
      , (35096,  33,         -2) /* Bonded - Destroy */
      , (35096,  37,       9999) /* ResistItemAppraisal */
-     , (35096,  44,         50) /* Damage */
+     , (35096,  44,        250) /* Damage */
      , (35096,  45,         16) /* DamageType - Fire */
      , (35096,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (35096,  47,          6) /* AttackType - Thrust, Slash */

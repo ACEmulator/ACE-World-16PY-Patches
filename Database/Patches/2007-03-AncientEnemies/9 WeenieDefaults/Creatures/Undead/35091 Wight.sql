@@ -44,7 +44,6 @@ VALUES (35091,   1,       5) /* HeartbeatInterval */
      , (35091,  34,       2) /* PowerupTime */
      , (35091,  36,       1) /* ChargeSpeed */
      , (35091,  39,     1.1) /* DefaultScale */
-     , (35091,  55,      75) /* HomeRadius */
      , (35091,  64,    0.82) /* ResistSlash */
      , (35091,  65,     0.5) /* ResistPierce */
      , (35091,  66,     0.5) /* ResistBludgeon */
@@ -134,20 +133,6 @@ VALUES (35091,  0,  4,  0,    0,  275,  275,  275,  275,  275,  275,  275,  275,
      , (35091,  7,  4,  0,    0,  275,  275,  275,  275,  275,  275,  275,  275,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (35091,  8,  4, 155, 0.75,  275,  275,  275,  275,  275,  275,  275,  275,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35091,  1784,   2.02)  /* Horizon's Blades */
-     , (35091,  1786,   2.02)  /* Nuhmudira's Spines */
-     , (35091,  2074,   2.02)  /* Gossamer Flesh */
-     , (35091,  2166,   2.02)  /* Tusker's Gift */
-     , (35091,  2168,   2.02)  /* Gelidite's Gift */
-     , (35091,  4312,   2.02)  /* Incantation of Imperil Other */
-     , (35091,  4422,   2.02)  /* Incantation of Blade Arc */
-     , (35091,  4424,   2.02)  /* Incantation of Force Arc */
-     , (35091,  4442,   2.02)  /* Incantation of Force Blast */
-     , (35091,  4443,   2.02)  /* Incantation of Force Bolt */
-     , (35091,  4489,   2.02)  /* Incantation of Fester Other */
-     , (35091,  5531,   2.02)  /* Bloodstone Bolt VII */;
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35091, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -155,4 +140,3 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'GYColoMobKilled', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-

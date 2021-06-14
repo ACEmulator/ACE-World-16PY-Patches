@@ -6,7 +6,7 @@ VALUES (37452, 'ace37452-corrupteddread', 10, '2020-05-09 20:25:09') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37452,   1,         16) /* ItemType - Creature */
      , (37452,   2,         77) /* CreatureType - Ghost */
-     , (37452,   3,          9) /* PaletteTemplate - Grey */
+     , (37452,   3,          8) /* PaletteTemplate - Green */
      , (37452,   6,         -1) /* ItemsCapacity */
      , (37452,   7,         -1) /* ContainersCapacity */
      , (37452,  16,          1) /* ItemUseable - No */
