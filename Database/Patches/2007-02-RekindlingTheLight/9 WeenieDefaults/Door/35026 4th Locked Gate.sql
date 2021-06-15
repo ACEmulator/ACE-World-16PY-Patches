@@ -13,8 +13,9 @@ VALUES (35026,   1,        128) /* ItemType - Misc */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35026,   1, True ) /* Stuck */
      , (35026,   2, False) /* Open */
-     , (35026,   3, False) /* Locked */
-     , (35026,  34, False) /* DefaultOpen */;
+     , (35026,   3, True ) /* Locked */
+     , (35026,  34, False) /* DefaultOpen */
+     , (35026,  35, True ) /* DefaultLocked */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35026,  54,       2) /* UseRadius */;

@@ -1293,3 +1293,29 @@ VALUES (0x700E5212, 35047, 0x00E505B3, 67.2565, -192.785, -24, 1, 0, 0, 0,  True
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700E5213, 35047, 0x00E50539, 78.8974, -31.2361, -30, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Small Skeletal Falatacot Reliquary */
 /* @teleloc 0x00E50539 [78.897400 -31.236099 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700E5214,  7561, 0x00E50190, 89.8621, -231.7, -78, -0.0167027, 0, 0, -0.999861, False, '2021-06-15 09:13:22'); /* Magic trap */
+/* @teleloc 0x00E50190 [89.862099 -231.699997 -78.000000] -0.016703 0.000000 0.000000 -0.999861 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x700E5214, 0x700E5215, '2021-06-15 09:18:21') /* Pressure Plate (2131) */
+     , (0x700E5214, 0x700E5216, '2021-06-15 09:18:44') /* Pressure Plate (2131) */
+     , (0x700E5214, 0x700E5217, '2021-06-15 09:19:01') /* Pressure Plate (2131) */
+     , (0x700E5214, 0x700E5218, '2021-06-15 09:19:16') /* Pressure Plate (2131) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700E5215,  2131, 0x00E50190, 89.8933, -231.989, -78, -0.00618104, 0, 0, -0.999981,  True, '2021-06-15 09:18:21'); /* Pressure Plate */
+/* @teleloc 0x00E50190 [89.893303 -231.988998 -78.000000] -0.006181 0.000000 0.000000 -0.999981 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700E5216,  2131, 0x00E50190, 89.9512, -227.306, -78, -0.00618104, 0, 0, -0.999981,  True, '2021-06-15 09:18:44'); /* Pressure Plate */
+/* @teleloc 0x00E50190 [89.951202 -227.306000 -78.000000] -0.006181 0.000000 0.000000 -0.999981 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700E5217,  2131, 0x00E5018F, 90.0185, -221.863, -78, -0.00618104, 0, 0, -0.999981,  True, '2021-06-15 09:19:01'); /* Pressure Plate */
+/* @teleloc 0x00E5018F [90.018501 -221.863007 -78.000000] -0.006181 0.000000 0.000000 -0.999981 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700E5218,  2131, 0x00E5018F, 90.08596, -217.66002, -78, -0.006181042, 0, 0, -0.9999809,  True, '2021-06-15 09:19:16'); /* Pressure Plate */
+/* @teleloc 0x00E5018F [90.085960 -217.660019 -78.000000] -0.006181 0.000000 0.000000 -0.999981 */

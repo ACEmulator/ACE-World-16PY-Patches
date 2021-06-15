@@ -13,6 +13,7 @@ VALUES (87407,   1,         16) /* ItemType - Creature */
      , (87407,  25,        200) /* Level */
      , (87407,  27,          0) /* ArmorType - None */
      , (87407,  40,          2) /* CombatMode - Melee */
+     , (87407,  67,          1) /* Tolerance - NoAttack */
      , (87407,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (87407,  83,       2048) /* ActivationResponse - Emote */
      , (87407,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
