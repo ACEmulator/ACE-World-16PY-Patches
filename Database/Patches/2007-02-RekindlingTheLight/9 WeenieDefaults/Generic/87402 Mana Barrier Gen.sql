@@ -30,4 +30,4 @@ VALUES (87402,   1,   33555051) /* Setup */
      , (87402,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87402, -1, 87401, 1, 1, 1, 1, 4, 0, 0, 0, 13501745, 110.014, -114.418, 48.0176, 1, 0, 0, 0) /* Generate Mana Barrier (87401) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (87402, -1, 87401, 1, 1, 1, 1, 4, 0, 0, 0, 13501735, 109.963, -104.782, 48.0277, -1, 0, 0, 0) /* Generate Mana Barrier (87401) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
