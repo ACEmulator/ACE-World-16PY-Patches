@@ -22,4 +22,12 @@ Use:
 							- Tell: Me Tibik. Me gather food for Clutch and Tribe. Me find magic path to great food, but cave full of Moar! Moar bad. Moar eat Tibik. If less Moar, then maybe Tibik sneak and gather food. You kill Moar, hmmm... 25. You kill 25 Moar, and Tibik reward Strong Traveler from Faraway.
 							- SetQuestCompletions: KilltaskPutridMoar_0307, 0
 							- StampQuest: KilltaskPutridMoarStarted_0307
-					
+
+Give: Spiketooths Head (87320)
+	- TurnToTarget
+	- Tell: What this?!?!
+	- Delay: 1, DirectBroadcast: Tibik screams!
+	- Delay: 1, Tell: Spiketooth!! Spiketooth mean! Spiketooth bite Tibik in leg! Wait!! Spiketooth Dead??? Oooh. Tibik reward you for this! Thankyou!!!
+	- AddCharacterTitle: SpiketoothSlayer
+	- Delay: 1, DirectBroadcast: For your bravery, Tibik awards you the title of "Spiketooth Slayer".
+	- AwardXP: 7,500,000

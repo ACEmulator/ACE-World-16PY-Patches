@@ -4,13 +4,6 @@ Generation:
 
 ReceiveLocalSignal: SACritterDead
 	- StampMyQuest: SACritterDead
-		- Goto: CheckSpawnDeaths
-
-ReceiveLocalSignal: SAHighAcolyteDead
-	- StampMyQuest: SAHighAcolyteDead
-	- Goto: CheckHADeaths
-
-GotoSet: CheckSpawnDeaths
 	- InqMyQuestSolves: SACritterDead, 30
 		QuestSuccess:
 			- StartEvent: SavingAsheronsWave4Event
@@ -22,10 +15,9 @@ GotoSet: CheckSpawnDeaths
 					- InqMyQuestSolves: SACritterDead, 10
 						QuestSuccess:
 							- StartEvent: SavingAsheronsWave2Event
-						QuestFailure:
-							- Motion: Wave
-							
-GotoSet: CheckHADeaths
+
+ReceiveLocalSignal: SAHighAcolyteDead
+	- StampMyQuest: SAHighAcolyteDead
 	- InqMyQuestSolves: SAHighAcolyteDead, 3
 		QuestSuccess:
 			- StopEvent: SavingAsheronsWave1Event
