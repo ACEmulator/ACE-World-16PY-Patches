@@ -1,12 +1,10 @@
 DELETE FROM `recipe` WHERE `id` = 8422;
 
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
-VALUES (8422, 0, 18 /* ItemTinkering */, 0, 1, 0, 0, 'You apply the Ruby.', 0, 0, 'You apply the Ruby, but in the process you destroy the target.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2020-02-28 10:00:00');
+VALUES (8422, 0, 18 /* ItemTinkering */, 0, 1, 0, 0, 'You apply the Ruby prepared Minor Item Tinkering Armature.', 0, 0, 'You apply the Ruby prepared Minor Item Tinkering Armature, but in the process you destroy the target.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2020-02-28 10:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8422, 0, 105, 1, 2, 'The target item cannot be tinkered!') /* Target.ItemWorkmanship LessThan 1 */
-     , (8422, 0, 171, 3, 3, 'The target item has been tinkered too many times already!') /* Target.NumTimesTinkered GreaterThanEqual 3 */
-     , (8422, 0, 304, 1, 3, 'The target item has been imbued already!') /* Target.ImbuedEffect3 - CriticalStrike GreaterThanEqual 1 */
      , (8422, 0, 108, 1, 2, 'The target item must be magical!') /* Target.ItemMaxMana LessThan 1 */
      , (8422, 1,  92, 100, 2, 'The material is not complete!') /* Source.Structure LessThan 100 */;
 

@@ -5,7 +5,6 @@ VALUES (8375, 0, 18 /* ItemTinkering */, 0, 2, 0, 0, 'You apply the Amber prepar
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8375, 0, 105, 1, 2, 'The target item cannot be tinkered!') /* Target.ItemWorkmanship LessThan 1 */
-     , (8375, 0, 171, 3, 3, 'The target item has been tinkered too many times already!') /* Target.NumTimesTinkered GreaterThanEqual 3 */
      , (8375, 0, 179, 1, 3, 'The target item has been imbued already!') /* Target.ImbuedEffect - CriticalStrike GreaterThanEqual 1 */
      , (8375, 0, 108, 1, 2, 'The target item must be magical!') /* Target.ItemMaxMana LessThan 1 */
      , (8375, 1,  92, 100, 2, 'The material is not complete!') /* Source.Structure LessThan 100 */;
