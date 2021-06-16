@@ -59,3 +59,11 @@ VALUES (0x700E4018, 87414, 0x00E4012A, 29.8252, -53.2741, -29.945, 0.999972, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700E4019, 87415, 0x00E4012A, 31.5388, -52.3706, -29.945, 0.999972, 0, 0, 0.0074648, False, '2021-06-08 16:17:56'); /* Saving Asherons Glowing Statue Shard Gen */
 /* @teleloc 0x00E4012A [31.538799 -52.370602 -29.945000] 0.999972 0.000000 0.000000 0.007465 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700E401A, 87410, 0x00E40162, 45.073, -78.2503, -23.945, 0.99998, 0, 0, 0.00625984, False, '2021-06-16 08:17:11'); /* Saving Asherons Wave 1 Gen */
+/* @teleloc 0x00E40162 [45.073002 -78.250298 -23.945000] 0.999980 0.000000 0.000000 0.006260 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700E401B, 87410, 0x00E4013F, 17.384628, -79.18099, -23.945002, 0.9995115, 0, 0, 0.03125443, False, '2021-06-16 08:17:43'); /* Saving Asherons Wave 1 Gen */
+/* @teleloc 0x00E4013F [17.384628 -79.180992 -23.945002] 0.999511 0.000000 0.000000 0.031254 */

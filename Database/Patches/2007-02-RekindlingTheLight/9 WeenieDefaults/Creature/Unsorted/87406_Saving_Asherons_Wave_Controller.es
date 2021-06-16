@@ -4,15 +4,15 @@ Generation:
 
 ReceiveLocalSignal: SACritterDead
 	- StampMyQuest: SACritterDead
-	- InqMyQuestSolves: SACritterDead, 30
+	- InqMyQuestSolves: SACritterDead, 40
 		QuestSuccess:
 			- StartEvent: SavingAsheronsWave4Event
 		QuestFailure:
-			- InqMyQuestSolves: SACritterDead, 15
+			- InqMyQuestSolves: SACritterDead, 25
 				QuestSuccess:
 					- StartEvent: SavingAsheronsWave3Event
 				QuestFailure:
-					- InqMyQuestSolves: SACritterDead, 10
+					- InqMyQuestSolves: SACritterDead, 15
 						QuestSuccess:
 							- StartEvent: SavingAsheronsWave2Event
 

@@ -12,13 +12,8 @@ VALUES (87404,   1,         16) /* ItemType - Creature */
      , (87404,  16,         32) /* ItemUseable - Remote */
      , (87404,  25,        200) /* Level */
      , (87404,  27,          0) /* ArmorType - None */
-     , (87404,  40,          2) /* CombatMode - Melee */
-     , (87404,  67,          1) /* Tolerance - NoAttack */
-     , (87404,  68,          9) /* TargetingTactic - Random, TopDamager */
-     , (87404,  83,       2048) /* ActivationResponse - Emote */
      , (87404,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (87404,  95,          8) /* RadarBlipColor - Yellow */
-     , (87404, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (87404, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (87404, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (87404, 290,          1) /* HearLocalSignals */
@@ -27,15 +22,14 @@ VALUES (87404,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87404,   1, True ) /* Stuck */
      , (87404,   8, True ) /* AllowGive */
-     , (87404,  11, True ) /* IgnoreCollisions */
      , (87404,  12, True ) /* ReportCollisions */
      , (87404,  13, True ) /* Ethereal */
      , (87404,  14, True ) /* GravityStatus */
      , (87404,  18, True ) /* Visibility */
      , (87404,  19, False) /* Attackable */
+     , (87404,  29, True ) /* NoCorpse */
      , (87404,  41, True ) /* ReportCollisionsAsEnvironment */
      , (87404,  42, True ) /* AllowEdgeSlide */
-     , (87404,  50, True ) /* NeverFailCasting */
      , (87404,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
