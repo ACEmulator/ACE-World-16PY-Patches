@@ -65,7 +65,8 @@ VALUES (1610,   1,       5) /* HeartbeatInterval */
      , (1610, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1610,   1, 'Drudge Ravener') /* Name */;
+VALUES (1610,   1, 'Drudge Ravener') /* Name */
+     , (1610,  45, 'KillTaskDrudgeRaveners_0507') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1610,   1,   33556445) /* Setup */
@@ -96,19 +97,19 @@ VALUES (1610,   1,   170, 0, 0, 258) /* MaxHealth */
      , (1610,   5,   100, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1610, 45, 0, 3, 0, 155, 0, 0) /* LightWeapons        Specialized */
-     , (1610, 47, 0, 3, 0,   0, 0, 0) /* MissileWeapons      Specialized */
-     , (1610, 46, 0, 3, 0, 155, 0, 0) /* FinesseWeapons      Specialized */
-     , (1610,  6, 0, 3, 0, 168, 0, 0) /* MeleeDefense        Specialized */
+VALUES (1610,  6, 0, 3, 0, 168, 0, 0) /* MeleeDefense        Specialized */
      , (1610,  7, 0, 3, 0, 265, 0, 0) /* MissileDefense      Specialized */
-     , (1610, 44, 0, 3, 0, 155, 0, 0) /* HeavyWeapons        Specialized */
      , (1610, 14, 0, 3, 0, 150, 0, 0) /* ArcaneLore          Specialized */
      , (1610, 15, 0, 3, 0, 182, 0, 0) /* MagicDefense        Specialized */
      , (1610, 20, 0, 2, 0, 120, 0, 0) /* Deception           Trained */
      , (1610, 24, 0, 2, 0, 150, 0, 0) /* Run                 Trained */
      , (1610, 31, 0, 3, 0, 105, 0, 0) /* CreatureEnchantment Specialized */
      , (1610, 33, 0, 3, 0, 105, 0, 0) /* LifeMagic           Specialized */
-     , (1610, 34, 0, 3, 0, 105, 0, 0) /* WarMagic            Specialized */;
+     , (1610, 34, 0, 3, 0, 105, 0, 0) /* WarMagic            Specialized */
+     , (1610, 44, 0, 3, 0, 155, 0, 0) /* HeavyWeapons        Specialized */
+     , (1610, 45, 0, 3, 0, 155, 0, 0) /* LightWeapons        Specialized */
+     , (1610, 46, 0, 3, 0, 155, 0, 0) /* FinesseWeapons      Specialized */
+     , (1610, 47, 0, 3, 0,   0, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1610,  0,  4,  0,    0,  180,  155,  126,  162,  155,  162,  155,   68,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -212,7 +213,7 @@ VALUES (1610, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for
      , (1610, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (1610, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
      , (1610, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (1610, 9, 15768,  0, 0, 0.02, False) /* Create Ruined Amulet of the Mace (15768) for ContainTreasure */
+     , (1610, 9, 15768,  0, 0, 0.02, False) /* Create Ruined Amulet of Light Weapons (15768) for ContainTreasure */
      , (1610, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (1610, 9, 45876,  1, 0, 0.03, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
      , (1610, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
