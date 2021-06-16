@@ -1,7 +1,7 @@
 DELETE FROM `recipe` WHERE `id` = 8013;
 
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
-VALUES (8013, 0, 30 /* MagicItemTinkering */, 0, 2, 0, 0, 'You apply the sunstone.', 0, 0, 'You apply the sunstone, but in the process you destroy the target.', 1, 1, '', 0, 0, '', 1, 1, '', 1, 1, '', 0, '2019-04-23 05:27:10');
+VALUES (8013, 0, 30 /* MagicItemTinkering */, 0, 0, 0, 0, 'You apply the sunstone.', 0, 0, 'You apply the sunstone, but in the process you destroy the target.', 1, 1, '', 0, 0, '', 1, 1, '', 1, 1, '', 0, '2021-06-15 05:27:10');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8013, 0, 105, 1, 2, 'The target item cannot be tinkered!') /* ItemWorkmanship */
