@@ -1,7 +1,7 @@
 Use:
 	- InqOwnsItems: Inert Mucor (34967), 1
 		TestSuccess:
-			- InqYesNo: "Would you like to hand over 1 of your Inert Mucor?"
+			- InqYesNo: "Do you wish to place your inert mucor into the ley line?"
 				TestSuccess:
 					- TakeItems: Inert Mucor (34967), 1
 					- InqQuest: EnhancingMucor_Wait
