@@ -14,7 +14,7 @@ VALUES (48889,   1,         16) /* ItemType - Creature */
      , (48889,  27,          0) /* ArmorType - None */
      , (48889,  40,          2) /* CombatMode - Melee */
      , (48889,  68,         64) /* TargetingTactic - Nearest */
-     , (48889,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (48889,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (48889, 133,          1) /* ShowableOnRadar - ShowNever */
      , (48889, 267,         43) /* Lifespan */;
 
@@ -35,9 +35,8 @@ VALUES (48889,   1, 'Golem') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48889,   1,   33556428) /* Setup */
      , (48889,   2,  150995073) /* MotionTable */
-     , (48889,   4,  805306368) /* CombatTable - default, verify */
      , (48889,   3,  536870933) /* SoundTable */
-     , (48889,   6,   67112776) /* PaletteBase */
+     , (48889,   4,  805306368) /* CombatTable */
      , (48889,   7,  268436247) /* ClothingBase */
      , (48889,   8,  100667940) /* Icon */
      , (48889,  22,  872415327) /* PhysicsEffectTable */;

@@ -6,6 +6,7 @@ VALUES (49076, 'ace49076-grievver', 71, '2019-12-06 16:49:22') /* CombatPet */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49076,   1,         16) /* ItemType - Creature */
      , (49076,   2,         44) /* CreatureType - Grievver */
+     , (49076,   3,          5) /* PaletteTemplate - DarkBlue */
      , (49076,   6,        255) /* ItemsCapacity */
      , (49076,   7,        255) /* ContainersCapacity */
      , (49076,  16,          1) /* ItemUseable - No */
@@ -32,8 +33,10 @@ VALUES (49076,   1, 'Grievver') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49076,   1,   33561527) /* Setup */
      , (49076,   2,  150995098) /* MotionTable */
-     , (49076,   4,  805306368) /* CombatTable - default, verify */
      , (49076,   3,  536871009) /* SoundTable */
+     , (49076,   4,  805306368) /* CombatTable */
+     , (49076,   6,   67112927) /* PaletteBase */
+     , (49076,   7,  268436038) /* ClothingBase */
      , (49076,   8,  100670960) /* Icon */
      , (49076,  22,  872415364) /* PhysicsEffectTable */;
 

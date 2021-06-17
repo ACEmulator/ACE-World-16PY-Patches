@@ -25,7 +25,6 @@ VALUES (49131,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (49131,  31,      25) /* VisualAwarenessRange */
-     , (49131,  39, 1.60000002384186) /* DefaultScale */
      , (49131,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -34,8 +33,8 @@ VALUES (49131,   1, 'Moar') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49131,   1,   33561528) /* Setup */
      , (49131,   2,  150995346) /* MotionTable */
-     , (49131,   4,  805306368) /* CombatTable - default, verify */
      , (49131,   3,  536871018) /* SoundTable */
+     , (49131,   4,  805306368) /* CombatTable */
      , (49131,   6,   67116748) /* PaletteBase */
      , (49131,   7,  268437048) /* ClothingBase */
      , (49131,   8,  100671185) /* Icon */

@@ -25,7 +25,6 @@ VALUES (49411,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (49411,  31,      25) /* VisualAwarenessRange */
-     , (49411,  39, 0.800000011920929) /* DefaultScale */
      , (49411,  76,     0.5) /* Translucency */
      , (49411,  77,       1) /* PhysicsScriptIntensity */;
 
@@ -35,8 +34,8 @@ VALUES (49411,   1, 'Spectre') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49411,   1,   33558816) /* Setup */
      , (49411,   2,  150995302) /* MotionTable */
-     , (49411,   4,  805306368) /* CombatTable - default, verify */
      , (49411,   3,  536871094) /* SoundTable */
+     , (49411,   4,  805306368) /* CombatTable */
      , (49411,   6,   67115251) /* PaletteBase */
      , (49411,   7,  268436835) /* ClothingBase */
      , (49411,   8,  100676679) /* Icon */

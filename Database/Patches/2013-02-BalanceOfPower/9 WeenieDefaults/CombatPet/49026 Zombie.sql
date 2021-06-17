@@ -35,6 +35,7 @@ VALUES (49026,   1,   33561238) /* Setup */
      , (49026,   2,  150994945) /* MotionTable */
      , (49026,   3,  536870934) /* SoundTable */
      , (49026,   4,  805306368) /* CombatTable */
+     , (49026,   6,   67108990) /* PaletteBase */
      , (49026,   8,  100667942) /* Icon */
      , (49026,  22,  872415272) /* PhysicsEffectTable */;
 
@@ -71,4 +72,8 @@ VALUES (49026,  0,  8,  0,    0,  430,  430,  430,  430,  430,  430,  430,  430,
      , (49026,  8,  8, 125, 0.75,  430,  430,  430,  430,  430,  430,  430,  430,  430, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49026, 2, 48995,  1, 0, 0, False) /* Create Frost Hatchet (48995) for Wield */;
+VALUES (49026, 2, 48995,  1, 1, 0, False) /* Create Frost Hatchet (48995) for Wield */
+     , (49026, 2,  2596,  1, 9, 0.1, False) /* Create Doublet (2596) for Wield */
+     , (49026, 2, 87371,  1, 91, 0.3091, False) /* Create  (87371) for Wield */
+     , (49026, 2, 87372,  1, 91, 0.2545, False) /* Create  (87372) for Wield */
+     , (49026, 2, 87373,  1, 91, 1E-05, False) /* Create  (87373) for Wield */;
