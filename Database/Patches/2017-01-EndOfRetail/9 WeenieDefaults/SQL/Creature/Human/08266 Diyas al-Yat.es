@@ -267,6 +267,18 @@ Refuse: Apostate Message Shard (40489)
 	- Delay: 1, Tell: The Virindi rebels are gathering their allies again! They seek to step into the gap left by T'thuun's defeat! Quick, take this translation to Aruq, he will make sure the proper people are notified.
 	- Give: Apostate Orders (40491)
 
+Give: 36212
+    - TurnToTarget
+    - Tell: Most fascinating. There is a resonance to this message shard that you do not see in those that come from most Virindi... A sympathetic resonance that is almost human...
+    - Delay: 1, Tell: This shard came from Aerbax, did it not? Forgive me, I should not ask such questions. I remember what happened the last time I delved too deeply into the affairs of that one. Here is your translation.
+    - Give: 36225
+
+Give: 36213
+    - TurnToTarget
+    - Tell: Most fascinating. There is a resonance to this message shard that you do not see in those that come from most Virindi... A sympathetic resonance that is almost human...
+    - Delay: 1, Tell: This shard came from Aerbax, did it not? Forgive me, I should not ask such questions. I remember what happened the last time I delved too deeply into the affairs of that one. Here is your translation.
+    - Give: 36226
+
 Use:
 	- Motion: Ready
 	- TurnToTarget
