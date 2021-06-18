@@ -7,10 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87385,   1,       1024) /* ItemType - Useless */
      , (87385,   5,          1) /* EncumbranceVal */
      , (87385,  16,          1) /* ItemUseable - No */
-     , (87385,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
+     , (87385,  93,         16) /* PhysicsState - IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87385,   1, True ) /* Stuck */
+     , (87385,  13, True ) /* Ethereal */
      , (87385,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
