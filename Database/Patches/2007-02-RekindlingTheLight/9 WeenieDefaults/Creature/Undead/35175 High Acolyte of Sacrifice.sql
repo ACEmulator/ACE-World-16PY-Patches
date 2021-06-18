@@ -115,17 +115,17 @@ VALUES (35175,  0,  4,  0,    0,  500,  400,  275,  350,  125,  300,  350,  375,
      , (35175,  8,  4, 80, 0.75,  500,  400,  275,  350,  125,  300,  350,  375,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35175,  1839,   2.01)  /* Blistering Creeper */
-     , (35175,  2029,   2.01)  /* Stamina Blight */
-     , (35175,  2120,   2.01)  /* Dissolving Vortex */
-     , (35175,  2123,   2.01)  /* Celdiseth's Searing */
-     , (35175,  2708,   2.01)  /* Stasis Field */
-     , (35175,  2789,   2.01)  /* Elemental Destruction */
-     , (35175,  3000,   2.01)  /* Ire of the Dark Prince */
-     , (35175,  3462,   2.01)  /* Canker Flesh */
-     , (35175,  3872,   2.01)  /* Syphon Life Essence */
-     , (35175,  3877,   2.01)  /* Corrosive Strike */
-     , (35175,  3881,   2.01)  /* Corrosive Ring */;
+VALUES (35175,  1839,   2.23)  /* Blistering Creeper */
+     , (35175,  2029,   2.25)  /* Stamina Blight */
+     , (35175,  2120,   2.25)  /* Dissolving Vortex */
+     , (35175,  2123,   2.26)  /* Celdiseth's Searing */
+     , (35175,  2708,   2.21)  /* Stasis Field */
+     , (35175,  2789,   2.21)  /* Elemental Destruction */
+     , (35175,  3000,   2.23)  /* Ire of the Dark Prince */
+     , (35175,  3462,   2.23)  /* Canker Flesh */
+     , (35175,  3872,   2.23)  /* Syphon Life Essence */
+     , (35175,  3877,   2.26)  /* Corrosive Strike */
+     , (35175,  3881,   2.26)  /* Corrosive Ring */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35175,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

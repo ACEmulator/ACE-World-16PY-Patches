@@ -97,10 +97,10 @@ VALUES (35174,  6, 0, 3, 0, 367, 0, 0) /* MeleeDefense        Specialized */
      , (35174,  7, 0, 3, 0, 325, 0, 0) /* MissileDefense      Specialized */
      , (35174, 15, 0, 3, 0, 315, 0, 0) /* MagicDefense        Specialized */
      , (35174, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
-     , (35174, 31, 0, 3, 0, 313, 0, 0) /* CreatureEnchantment Specialized */
-     , (35174, 32, 0, 3, 0, 313, 0, 0) /* ItemEnchantment     Specialized */
-     , (35174, 33, 0, 3, 0, 313, 0, 0) /* LifeMagic           Specialized */
-     , (35174, 34, 0, 3, 0, 313, 0, 0) /* WarMagic            Specialized */
+     , (35174, 31, 0, 3, 0, 343, 0, 0) /* CreatureEnchantment Specialized */
+     , (35174, 32, 0, 3, 0, 343, 0, 0) /* ItemEnchantment     Specialized */
+     , (35174, 33, 0, 3, 0, 343, 0, 0) /* LifeMagic           Specialized */
+     , (35174, 34, 0, 3, 0, 343, 0, 0) /* WarMagic            Specialized */
      , (35174, 44, 0, 3, 0, 313, 0, 0) /* HeavyWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
@@ -115,16 +115,16 @@ VALUES (35174,  0,  4,  0,    0,  500,  400,  275,  350,  125,  300,  350,  375,
      , (35174,  8,  4, 80, 0.75,  500,  400,  275,  350,  125,  300,  350,  375,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35174,  1842,   2.01)  /* Spike Strafe */
-     , (35174,  2042,  2.011)  /* Demon's Tongues */
-     , (35174,  2127,  2.011)  /* Silencia's Scorn */
-     , (35174,  2130,   2.01)  /* Infernae */
-     , (35174,  2724,  2.011)  /* Force Arc VII */
-     , (35174,  2745,  2.011)  /* Flame Arc VII */
-     , (35174,  3112,  2.011)  /* Soul Spike */
-     , (35174,  3882,   2.01)  /* Incendiary Ring */
-     , (35174,  3883,  2.011)  /* Pyroclastic Explosion */
-     , (35174,  3886,  2.011)  /* Magic Disarmament */;
+VALUES (35174,  1842,   2.25)  /* Spike Strafe */
+     , (35174,  2042,   2.24)  /* Demon's Tongues */
+     , (35174,  2127,   2.24)  /* Silencia's Scorn */
+     , (35174,  2130,    2.2)  /* Infernae */
+     , (35174,  2724,   2.24)  /* Force Arc VII */
+     , (35174,  2745,   2.24)  /* Flame Arc VII */
+     , (35174,  3112,   2.24)  /* Soul Spike */
+     , (35174,  3882,   2.25)  /* Incendiary Ring */
+     , (35174,  3883,   2.21)  /* Pyroclastic Explosion */
+     , (35174,  3886,   2.21)  /* Magic Disarmament */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35174,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -115,15 +115,15 @@ VALUES (35176,  0,  4,  0,    0,  500,  400,  275,  350,  125,  300,  350,  375,
      , (35176,  8,  4, 80, 0.75,  500,  400,  275,  350,  125,  300,  350,  375,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35176,  1843,  2.011)  /* Foon-Ki's Glacial Floe */
-     , (35176,  2135,  2.011)  /* Winter's Embrace */
-     , (35176,  2138,  2.011)  /* Blizzard */
-     , (35176,  2994,  2.011)  /* Plague */
-     , (35176,  2996,  2.011)  /* Scourge */
-     , (35176,  3870,   2.01)  /* Syphon Creature Essence */
-     , (35176,  3879,  2.011)  /* Glacial Strike */
-     , (35176,  3884,  2.011)  /* Glacial Ring */
-     , (35176,  3910,  2.011)  /* Brain Freeze */;
+VALUES (35176,  1843,   2.25)  /* Foon-Ki's Glacial Floe */
+     , (35176,  2135,   2.26)  /* Winter's Embrace */
+     , (35176,  2138,   2.24)  /* Blizzard */
+     , (35176,  2994,   2.24)  /* Plague */
+     , (35176,  2996,   2.24)  /* Scourge */
+     , (35176,  3870,   2.24)  /* Syphon Creature Essence */
+     , (35176,  3879,   2.23)  /* Glacial Strike */
+     , (35176,  3884,   2.23)  /* Glacial Ring */
+     , (35176,  3910,   2.22)  /* Brain Freeze */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35176,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
