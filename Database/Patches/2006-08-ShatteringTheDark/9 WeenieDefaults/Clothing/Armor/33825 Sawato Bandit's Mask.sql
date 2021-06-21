@@ -15,7 +15,7 @@ VALUES (33825,   1,          4) /* ItemType - Clothing */
      , (33825,  33,          1) /* Bonded - Bonded */
      , (33825,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33825, 106,        300) /* ItemSpellcraft */
-     , (33825, 107,        300) /* ItemCurMana */
+     , (33825, 107,       5000) /* ItemCurMana */
      , (33825, 108,       5000) /* ItemMaxMana */
      , (33825, 114,          1) /* Attuned - Attuned */;
 
@@ -27,7 +27,7 @@ VALUES (33825,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33825,   5,  -0.033) /* ManaRate */
-     , (33825,  12,    0.66) /* Shade */
+     , (33825,  12,       0) /* Shade */
      , (33825,  13,    0.01) /* ArmorModVsSlash */
      , (33825,  14,    0.01) /* ArmorModVsPierce */
      , (33825,  15,    0.01) /* ArmorModVsBludgeon */
@@ -45,27 +45,26 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33825,   1,   33554643) /* Setup */
      , (33825,   3,  536870932) /* SoundTable */
      , (33825,   6,   67108990) /* PaletteBase */
-     , (33825,   7,  268437141) /* ClothingBase */
+     , (33825,   7,  268436719) /* ClothingBase */
      , (33825,   8,  100675490) /* Icon */
      , (33825,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33825,  2226,      2) /* DeceptionMasteryOther7 */
-     , (33825,  2545,      2) /* CANTRIPDECEPTIONPROWESS1 */;
+VALUES (33825,  2226,      2)  /* Ketnan's Boon */
+     , (33825,  2545,      2)  /* Minor Deception Prowess */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (33825, 25 /* Wield */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (33825, 25 /* Wield */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 22 /* StampQuest */, 0, 1, NULL, 'WearingMask0806', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'WearingMask0806', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (33825, 26 /* UnWield */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (33825, 26 /* UnWield */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 31 /* EraseQuest */, 0, 1, NULL, 'WearingMask0806', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
+VALUES (@parent_id,  0,  31 /* EraseQuest */, 0, 1, NULL, 'WearingMask0806', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
