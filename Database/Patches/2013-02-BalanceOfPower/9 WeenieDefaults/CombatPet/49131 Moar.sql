@@ -40,7 +40,8 @@ VALUES (49131,   1,   33561528) /* Setup */
      , (49131,   7,  268437048) /* ClothingBase */
      , (49131,   8,  100671185) /* Icon */
      , (49131,  19,         85) /* ActivationAnimation */
-     , (49131,  22,  872415415) /* PhysicsEffectTable */;
+     , (49131,  22,  872415415) /* PhysicsEffectTable */
+     , (49131,  30,         85) /* PhysicsScript - BreatheFrost */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49131,   1, 170, 0, 0) /* Strength */
