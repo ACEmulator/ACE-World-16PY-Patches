@@ -16,7 +16,7 @@ VALUES (33106,   1,          2) /* ItemType - Armor */
      , (33106, 106,        400) /* ItemSpellcraft */
      , (33106, 107,       2000) /* ItemCurMana */
      , (33106, 108,       2000) /* ItemMaxMana */
-     , (33106, 115,        400) /* ItemSkillLevelLimit */
+     , (33106, 115,        475) /* ItemSkillLevelLimit */
      , (33106, 151,          2) /* HookType - Wall */
      , (33106, 158,          7) /* WieldRequirements - Level */
      , (33106, 159,          1) /* WieldSkillType - Axe */
@@ -47,7 +47,7 @@ VALUES (33106,   1,   33559923) /* Setup */
      , (33106,   3,  536870932) /* SoundTable */
      , (33106,   8,  100688919) /* Icon */
      , (33106,  22,  872415275) /* PhysicsEffectTable */
-     , (33106,  37,          6) /* ItemSkillLimit - MeleeDefense */;
+     , (33106,  37,         48) /* ItemSkillLimit - Shield */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33106,  2102,      2)  /* Inferno's Bane */
