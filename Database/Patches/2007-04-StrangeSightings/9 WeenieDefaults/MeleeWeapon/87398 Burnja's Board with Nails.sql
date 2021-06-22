@@ -10,6 +10,7 @@ VALUES (87398,   1,          1) /* ItemType - MeleeWeapon */
      , (87398,  16,          1) /* ItemUseable - No */
      , (87398,  18,         32) /* UiEffects - Fire */
      , (87398,  19,       2000) /* Value */
+     , (87398,  33,         -2) /* Bonded - Destroy */
      , (87398,  44,         30) /* Damage */
      , (87398,  45,         16) /* DamageType - Fire */
      , (87398,  46,          2) /* DefaultCombatStyle - OneHanded */
@@ -21,11 +22,7 @@ VALUES (87398,   1,          1) /* ItemType - MeleeWeapon */
      , (87398, 106,        280) /* ItemSpellcraft */
      , (87398, 107,        720) /* ItemCurMana */
      , (87398, 108,        720) /* ItemMaxMana */
-     , (87398, 109,         90) /* ItemDifficulty */
-     , (87398, 151,          2) /* HookType - Wall */
-     , (87398, 158,          2) /* WieldRequirements - RawSkill */
-     , (87398, 159,         44) /* WieldSkillType - HeavyWeapons */
-     , (87398, 160,        270) /* WieldDifficulty */
+     , (87398, 114,          1) /* Attuned - Attuned */
      , (87398, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -50,7 +47,3 @@ VALUES (87398,   1,   33560302) /* Setup */
      , (87398,   8,  100689512) /* Icon */
      , (87398,  22,  872415275) /* PhysicsEffectTable */
      , (87398,  55,         27) /* ProcSpell - Flame Bolt I */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (87398,  2096,      2)  /* Aura of Infected Caress */
-     , (87398,  2116,      2)  /* Aura of Atlan's Alacrity */;

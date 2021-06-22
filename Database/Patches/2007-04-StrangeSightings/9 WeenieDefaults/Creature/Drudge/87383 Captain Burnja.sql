@@ -161,6 +161,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Leave now humans or I burn you so bad you be dead!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (87383, 2, 35407,  1, 0, 0, False) /* Create Burnja's Board with Nails (35407) for Wield */
-     , (87383, 9, 35408,  0, 0, 1, False) /* Create  (35408) for ContainTreasure */
-     , (87383, 9, 87398,  0, 0, 1, False) /* Create Burnja's Board with Nails (87398) for ContainTreasure */;
+VALUES (87383, 2, 87398,  1, 0, 0, False) /* Create Burnja's Board with Nails (87398) for Wield */
+     , (87383, 9, 35408,  0, 0, 1, False) /* Create Burnja Token (35408) for ContainTreasure */
+     , (87383, 9, 35407,  0, 0, 1, False) /* Create Burnja's Board with Nails (35407) for ContainTreasure */;

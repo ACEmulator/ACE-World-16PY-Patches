@@ -17,6 +17,7 @@ VALUES (87399,   1, True ) /* Stuck */
      , (87399,  11, False) /* IgnoreCollisions */
      , (87399,  12, True ) /* ReportCollisions */
      , (87399,  13, False) /* Ethereal */
+     , (87399,  19, False) /* Attackable */
      , (87399,  24, True ) /* UiHidden */
      , (87399,  29, True ) /* NoCorpse */
      , (87399,  52, True ) /* AiImmobile */
@@ -39,6 +40,7 @@ VALUES (87399,   1,       5) /* HeartbeatInterval */
      , (87399,  31,     0.3) /* VisualAwarenessRange */
      , (87399,  34,       1) /* PowerupTime */
      , (87399,  36,       1) /* ChargeSpeed */
+     , (87399,  39,     1.5) /* DefaultScale */
      , (87399,  64,    0.75) /* ResistSlash */
      , (87399,  65,    0.75) /* ResistPierce */
      , (87399,  66,    0.75) /* ResistBludgeon */
