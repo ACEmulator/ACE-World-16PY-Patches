@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31418;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31418, 'ace31418-obsidiansentientfragment', 10, '2019-03-27 07:14:36') /* Creature */;
+VALUES (31418, 'ace31418-obsidiansentientfragment', 10, '2021-03-20 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31418,   1,         16) /* ItemType - Creature */
@@ -21,11 +21,6 @@ VALUES (31418,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31418,   1, True ) /* Stuck */
      , (31418,   6, True ) /* AiUsesMana */
-     , (31418,  11, False) /* IgnoreCollisions */
-     , (31418,  12, True ) /* ReportCollisions */
-     , (31418,  13, False) /* Ethereal */
-     , (31418,  14, True ) /* GravityStatus */
-     , (31418,  19, True ) /* Attackable */
      , (31418,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -34,26 +29,26 @@ VALUES (31418,   1,       5) /* HeartbeatInterval */
      , (31418,   3,      10) /* HealthRate */
      , (31418,   4,       5) /* StaminaRate */
      , (31418,   5,       2) /* ManaRate */
-     , (31418,  12, 0.100000001490116) /* Shade */
+     , (31418,  12,     0.1) /* Shade */
      , (31418,  13,     0.5) /* ArmorModVsSlash */
-     , (31418,  14, 0.899999976158142) /* ArmorModVsPierce */
-     , (31418,  15, 0.800000011920929) /* ArmorModVsBludgeon */
+     , (31418,  14,     0.9) /* ArmorModVsPierce */
+     , (31418,  15,     0.8) /* ArmorModVsBludgeon */
      , (31418,  16,       1) /* ArmorModVsCold */
-     , (31418,  17, 1.20000004768372) /* ArmorModVsFire */
-     , (31418,  18, 1.08000004291534) /* ArmorModVsAcid */
+     , (31418,  17,     1.2) /* ArmorModVsFire */
+     , (31418,  18,    1.08) /* ArmorModVsAcid */
      , (31418,  19,     100) /* ArmorModVsElectric */
      , (31418,  31,      12) /* VisualAwarenessRange */
      , (31418,  34,       1) /* PowerupTime */
      , (31418,  36,       1) /* ChargeSpeed */
      , (31418,  39,     1.5) /* DefaultScale */
      , (31418,  41,     300) /* RegenerationInterval */
-     , (31418,  64, 1.39999997615814) /* ResistSlash */
-     , (31418,  65, 0.899999976158142) /* ResistPierce */
-     , (31418,  66, 0.899999976158142) /* ResistBludgeon */
-     , (31418,  67, 0.800000011920929) /* ResistFire */
-     , (31418,  68, 0.649999976158142) /* ResistCold */
+     , (31418,  64,     1.4) /* ResistSlash */
+     , (31418,  65,     0.9) /* ResistPierce */
+     , (31418,  66,     0.9) /* ResistBludgeon */
+     , (31418,  67,     0.8) /* ResistFire */
+     , (31418,  68,    0.65) /* ResistCold */
      , (31418,  69,     0.5) /* ResistAcid */
-     , (31418,  70, 0.800000011920929) /* ResistElectric */
+     , (31418,  70,     0.8) /* ResistElectric */
      , (31418,  71,       1) /* ResistHealthBoost */
      , (31418,  72,       0) /* ResistStaminaDrain */
      , (31418,  73,       1) /* ResistStaminaBoost */
@@ -71,6 +66,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31418,   1,   33559677) /* Setup */
      , (31418,   2,  150995107) /* MotionTable */
      , (31418,   3,  536871001) /* SoundTable */
+     , (31418,   4,  805306407) /* CombatTable */
      , (31418,   8,  100670283) /* Icon */
      , (31418,  22,  872415347) /* PhysicsEffectTable */
      , (31418,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;

@@ -5,7 +5,7 @@ VALUES (48712, 'ace48712-chargolem', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48712,   1,         16) /* ItemType - Creature */
-     , (48712,   2,         13) /* CreatureType */
+     , (48712,   2,         13) /* CreatureType - Golem */
      , (48712,   6,         -1) /* ItemsCapacity */
      , (48712,   7,         -1) /* ContainersCapacity */
      , (48712,  16,          1) /* ItemUseable - No */
@@ -62,7 +62,6 @@ VALUES (48712,   1,       5) /* HeartbeatInterval */
      , (48712, 122,       2) /* AiAcquireHealth */
      , (48712, 125,       1) /* ResistHealthDrain */;
 
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48712,   1, 'Char Golem') /* Name */;
 
@@ -72,7 +71,8 @@ VALUES (48712,   1,   33556427) /* Setup */
      , (48712,   3,  536870933) /* SoundTable */
      , (48712,   4,  805306376) /* CombatTable */
      , (48712,   8,  100667940) /* Icon */
-     , (48712,  22,  872415325) /* PhysicsEffectTable */;
+     , (48712,  22,  872415325) /* PhysicsEffectTable */
+     , (48712,  35,        254) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (48712,   1, 250, 0, 0) /* Strength */
@@ -110,10 +110,10 @@ VALUES (48712,  0,  4,  0,    0,  350,  300,  350,  350,  350, 20000,  350,  350
      , (48712,  8,  4, 180, 0.65,  350,  300,  350,  350,  350, 20000,  350,  350,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48712,  1327,   2.15)  /* Imperil Other VI */
-     , (48712,    85,   2.18)  /* FLame Bolt VI */
+VALUES (48712,    85,   2.18)  /* Flame Bolt VI */
      , (48712,   146,   2.15)  /* Flame Volley VI */
      , (48712,  1108,   2.15)  /* Fire Vulnerability Other VI */
+     , (48712,  1327,   2.15)  /* Imperil Other VI */
      , (48712,  2744,   2.15)  /* Flame Arc VI */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)

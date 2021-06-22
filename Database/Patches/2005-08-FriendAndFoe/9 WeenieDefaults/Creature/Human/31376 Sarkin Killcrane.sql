@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31376;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31376, 'ace31376-sarkinkillcrane', 10, '2019-08-20 00:00:00') /* Creature */;
+VALUES (31376, 'ace31376-sarkinkillcrane', 10, '2021-03-20 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31376,   1,         16) /* ItemType - Creature */
@@ -19,12 +19,7 @@ VALUES (31376,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31376,   1, True ) /* Stuck */
-     , (31376,  11, False) /* IgnoreCollisions */
-     , (31376,  12, True ) /* ReportCollisions */
-     , (31376,  14, True ) /* GravityStatus */
-     , (31376,  19, False) /* Attackable */
-     , (31376,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (31376,  42, True ) /* AllowEdgeSlide */;
+     , (31376,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31376,  54,       3) /* UseRadius */;
@@ -55,9 +50,9 @@ VALUES (31376,   1, 215, 0, 0) /* Strength */
      , (31376,   6, 115, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31376,   1,     0, 0, 0, 200) /* MaxHealth */
-     , (31376,   3,     0, 0, 0, 270) /* MaxStamina */
-     , (31376,   5,     0, 0, 0, 200) /* MaxMana */;
+VALUES (31376,   1,   130, 0, 0, 200) /* MaxHealth */
+     , (31376,   3,   130, 0, 0, 270) /* MaxStamina */
+     , (31376,   5,    85, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (31376,  1 /* Refuse */,      1, 33352 /* Amulet of Dark Rage */, NULL, NULL, NULL, NULL, NULL, NULL);

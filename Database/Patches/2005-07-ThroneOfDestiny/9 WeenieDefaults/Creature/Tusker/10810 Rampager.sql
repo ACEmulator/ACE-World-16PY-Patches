@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10810;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (10810, 'tuskerrampager', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (10810, 'tuskerrampager', 10, '2021-01-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10810,   1,         16) /* ItemType - Creature */
@@ -20,12 +20,7 @@ VALUES (10810,   1,         16) /* ItemType - Creature */
      , (10810, 146,      80000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10810,   1, True ) /* Stuck */
-     , (10810,  11, False) /* IgnoreCollisions */
-     , (10810,  12, True ) /* ReportCollisions */
-     , (10810,  13, False) /* Ethereal */
-     , (10810,  14, True ) /* GravityStatus */
-     , (10810,  19, True ) /* Attackable */;
+VALUES (10810,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10810,   1,       5) /* HeartbeatInterval */
@@ -34,16 +29,16 @@ VALUES (10810,   1,       5) /* HeartbeatInterval */
      , (10810,   4,       4) /* StaminaRate */
      , (10810,   5,       2) /* ManaRate */
      , (10810,  13,     0.5) /* ArmorModVsSlash */
-     , (10810,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (10810,  15, 0.660000026226044) /* ArmorModVsBludgeon */
+     , (10810,  14,     0.8) /* ArmorModVsPierce */
+     , (10810,  15,    0.66) /* ArmorModVsBludgeon */
      , (10810,  16,       1) /* ArmorModVsCold */
-     , (10810,  17, 0.699999988079071) /* ArmorModVsFire */
+     , (10810,  17,     0.7) /* ArmorModVsFire */
      , (10810,  18,       1) /* ArmorModVsAcid */
      , (10810,  19,       1) /* ArmorModVsElectric */
      , (10810,  31,      25) /* VisualAwarenessRange */
      , (10810,  34,     2.5) /* PowerupTime */
      , (10810,  36,       1) /* ChargeSpeed */
-     , (10810,  39, 1.20000004768372) /* DefaultScale */
+     , (10810,  39,     1.2) /* DefaultScale */
      , (10810,  64,     0.5) /* ResistSlash */
      , (10810,  65,       1) /* ResistPierce */
      , (10810,  66,    0.75) /* ResistBludgeon */
@@ -176,5 +171,7 @@ VALUES (10810, 9, 11692,  0, 0, 0.01, False) /* Create Little Green Seeds (11692
      , (10810, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (10810, 9, 22578,  0, 0, 0.01, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
      , (10810, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (10810, 9, 43146,  0, 0, 0.02, False) /* Create Ruined Amulet of the Two Hander (43146) for ContainTreasure */
+     , (10810, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (10810, 9,  8147,  0, 0, 0.05, False) /* Create Tusker Head (8147) for ContainTreasure */
      , (10810, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

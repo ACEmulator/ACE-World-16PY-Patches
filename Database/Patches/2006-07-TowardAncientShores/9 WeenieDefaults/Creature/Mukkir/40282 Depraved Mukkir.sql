@@ -44,16 +44,16 @@ VALUES (40282,   1,       5) /* HeartbeatInterval */
      , (40282,  68,     0.2) /* ResistCold */
      , (40282,  69,     0.2) /* ResistAcid */
      , (40282,  70,     0.1) /* ResistElectric */
-     , (40282, 166,     0.2) /* ResistNether */
+     , (40282, 166,       1) /* ResistNether */
      , (40282,  71,    0.25) /* ResistHealthBoost */
-     , (40282,  72,    0.25) /* ResistStaminaDrain */
+     , (40282,  72,       1) /* ResistStaminaDrain */
      , (40282,  73,       1) /* ResistStaminaBoost */
-     , (40282,  74,     0.5) /* ResistManaDrain */
+     , (40282,  74,       1) /* ResistManaDrain */
      , (40282,  75,       1) /* ResistManaBoost */
      , (40282,  77,       1) /* PhysicsScriptIntensity */
      , (40282, 104,      10) /* ObviousRadarRange */
      , (40282, 117,     0.6) /* FocusedProbability */
-     , (40282, 125,    0.25) /* ResistHealthDrain */;
+     , (40282, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40282,   1, 'Depraved Mukkir') /* Name */;

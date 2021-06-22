@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70000;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70000, 'ace70000-aggressivepenguin', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (70000, 'ace70000-aggressivepenguin', 10, '2021-01-15 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70000,   1,         16) /* ItemType - Creature */
@@ -22,12 +22,7 @@ VALUES (70000,   1,         16) /* ItemType - Creature */
      , (70000, 146,       1000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (70000,   1, True ) /* Stuck */
-     , (70000,  11, False) /* IgnoreCollisions */
-     , (70000,  12, True ) /* ReportCollisions */
-     , (70000,  13, False) /* Ethereal */
-     , (70000,  14, True ) /* GravityStatus */
-     , (70000,  19, True ) /* Attackable */;
+VALUES (70000,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (70000,   1,       5) /* HeartbeatInterval */
@@ -36,24 +31,24 @@ VALUES (70000,   1,       5) /* HeartbeatInterval */
      , (70000,   4,       3) /* StaminaRate */
      , (70000,   5,       1) /* ManaRate */
      , (70000,  12,       0) /* Shade */
-     , (70000,  13, 1.29999995231628) /* ArmorModVsSlash */
+     , (70000,  13,     1.3) /* ArmorModVsSlash */
      , (70000,  14,       1) /* ArmorModVsPierce */
-     , (70000,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (70000,  16, 0.980000019073486) /* ArmorModVsCold */
-     , (70000,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (70000,  15,     1.1) /* ArmorModVsBludgeon */
+     , (70000,  16,    0.98) /* ArmorModVsCold */
+     , (70000,  17,     0.8) /* ArmorModVsFire */
      , (70000,  18,       1) /* ArmorModVsAcid */
-     , (70000,  19, 0.980000019073486) /* ArmorModVsElectric */
+     , (70000,  19,    0.98) /* ArmorModVsElectric */
      , (70000,  31,      20) /* VisualAwarenessRange */
      , (70000,  34,       1) /* PowerupTime */
      , (70000,  36,       1) /* ChargeSpeed */
-     , (70000,  39, 0.899999976158142) /* DefaultScale */
-     , (70000,  64, 0.860000014305115) /* ResistSlash */
+     , (70000,  39,     0.9) /* DefaultScale */
+     , (70000,  64,    0.86) /* ResistSlash */
      , (70000,  65,    0.75) /* ResistPierce */
-     , (70000,  66, 0.660000026226044) /* ResistBludgeon */
-     , (70000,  67, 1.29999995231628) /* ResistFire */
-     , (70000,  68, 0.600000023841858) /* ResistCold */
+     , (70000,  66,    0.66) /* ResistBludgeon */
+     , (70000,  67,     1.3) /* ResistFire */
+     , (70000,  68,     0.6) /* ResistCold */
      , (70000,  69,    0.75) /* ResistAcid */
-     , (70000,  70, 0.899999976158142) /* ResistElectric */
+     , (70000,  70,     0.9) /* ResistElectric */
      , (70000,  71,       1) /* ResistHealthBoost */
      , (70000,  72,     0.5) /* ResistStaminaDrain */
      , (70000,  73,       1) /* ResistStaminaBoost */
@@ -93,13 +88,13 @@ VALUES (70000,   1,    15, 0, 0, 30) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (70000,  6, 0, 3, 0,  35, 0, 0) /* MeleeDefense        Specialized */
      , (70000,  7, 0, 3, 0,  40, 0, 0) /* MissileDefense      Specialized */
-     , (70000, 13, 0, 1, 0,  40, 0, 0) /* UnarmedCombat       Untrained */
      , (70000, 15, 0, 3, 0,  50, 0, 0) /* MagicDefense        Specialized */
      , (70000, 22, 0, 2, 0,   2, 0, 0) /* Jump                Trained */
      , (70000, 24, 0, 2, 0,   2, 0, 0) /* Run                 Trained */
      , (70000, 31, 0, 3, 0,  25, 0, 0) /* CreatureEnchantment Specialized */
      , (70000, 33, 0, 3, 0,  25, 0, 0) /* LifeMagic           Specialized */
-     , (70000, 34, 0, 3, 0,  25, 0, 0) /* WarMagic            Specialized */;
+     , (70000, 34, 0, 3, 0,  25, 0, 0) /* WarMagic            Specialized */
+     , (70000, 45, 0, 3, 0,  40, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (70000,  0,  2,  5,  0.6,  100,  100,  100,  100,  100,   70,  100,  100,  100, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

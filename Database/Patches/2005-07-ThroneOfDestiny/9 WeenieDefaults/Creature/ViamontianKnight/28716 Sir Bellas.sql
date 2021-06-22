@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28716;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28716, 'knightsirbellas', 10, '2019-04-10 02:24:23') /* Creature */;
+VALUES (28716, 'knightsirbellas', 10, '2021-03-13 02:24:23') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28716,   1,         16) /* ItemType - Creature */
@@ -31,25 +31,25 @@ VALUES (28716,   1,       5) /* HeartbeatInterval */
      , (28716,   4,       5) /* StaminaRate */
      , (28716,   5,       2) /* ManaRate */
      , (28716,  12,     0.5) /* Shade */
-     , (28716,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (28716,  14, 1.20000004768372) /* ArmorModVsPierce */
+     , (28716,  13,     1.2) /* ArmorModVsSlash */
+     , (28716,  14,     1.2) /* ArmorModVsPierce */
      , (28716,  15,       1) /* ArmorModVsBludgeon */
      , (28716,  16,       1) /* ArmorModVsCold */
-     , (28716,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (28716,  17,     0.8) /* ArmorModVsFire */
      , (28716,  18,       1) /* ArmorModVsAcid */
-     , (28716,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (28716,  19,     0.8) /* ArmorModVsElectric */
      , (28716,  20,       2) /* CombatSpeed */
      , (28716,  31,      12) /* VisualAwarenessRange */
      , (28716,  34,       1) /* PowerupTime */
      , (28716,  36,       1) /* ChargeSpeed */
-     , (28716,  39, 1.39999997615814) /* DefaultScale */
-     , (28716,  64, 0.800000011920929) /* ResistSlash */
-     , (28716,  65, 0.800000011920929) /* ResistPierce */
-     , (28716,  66, 0.899999976158142) /* ResistBludgeon */
-     , (28716,  67, 1.20000004768372) /* ResistFire */
-     , (28716,  68, 0.899999976158142) /* ResistCold */
-     , (28716,  69, 0.899999976158142) /* ResistAcid */
-     , (28716,  70, 1.20000004768372) /* ResistElectric */
+     , (28716,  39,     1.7) /* DefaultScale */
+     , (28716,  64,     0.8) /* ResistSlash */
+     , (28716,  65,     0.8) /* ResistPierce */
+     , (28716,  66,     0.9) /* ResistBludgeon */
+     , (28716,  67,     1.2) /* ResistFire */
+     , (28716,  68,     0.9) /* ResistCold */
+     , (28716,  69,     0.9) /* ResistAcid */
+     , (28716,  70,     1.2) /* ResistElectric */
      , (28716,  71,       1) /* ResistHealthBoost */
      , (28716,  72,       1) /* ResistStaminaDrain */
      , (28716,  73,       1) /* ResistStaminaBoost */

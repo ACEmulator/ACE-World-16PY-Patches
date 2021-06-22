@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30060;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30060, 'portalaugmentationrealmmain1', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (30060, 'portalaugmentationrealmmain1', 7, '2021-01-21 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30060,   1,      65536) /* ItemType - Portal */
@@ -26,8 +26,7 @@ VALUES (30060,  54, -0.100000001490116) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30060,   1, 'Augmentation Realm Main Level') /* Name */
      , (30060,  16, 'You must speak with Fiun Rehlyun before you can use this portal.') /* LongDesc */
-     , (30060,  37, 'AugGemFlag') /* QuestRestriction */
-     , (30060,  38, 'Augmentation Realm Main Level') /* AppraisalPortalDestination */;
+     , (30060,  37, 'AugmentationProvingGroundAccess') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30060,   1,   33555925) /* Setup */
@@ -36,4 +35,4 @@ VALUES (30060,   1,   33555925) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30060, 2, 5636973, 30, -442.144, 0.005, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x0056036D [30.000000 -442.144000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0x0056036D [30.000000 -442.144012 0.005000] 1.000000 0.000000 0.000000 0.000000 */;

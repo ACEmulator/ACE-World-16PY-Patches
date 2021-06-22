@@ -44,15 +44,15 @@ VALUES (33037,   1,       5) /* HeartbeatInterval */
      , (33037,  68,    0.75) /* ResistCold */
      , (33037,  69,    0.42) /* ResistAcid */
      , (33037,  70,    0.25) /* ResistElectric */
-     , (33037,  71,    0.25) /* ResistHealthBoost */
-     , (33037,  72,    0.25) /* ResistStaminaDrain */
+     , (33037,  71,       1) /* ResistHealthBoost */
+     , (33037,  72,       1) /* ResistStaminaDrain */
      , (33037,  73,       1) /* ResistStaminaBoost */
-     , (33037,  74,     0.5) /* ResistManaDrain */
+     , (33037,  74,       1) /* ResistManaDrain */
      , (33037,  75,       1) /* ResistManaBoost */
      , (33037,  77,       1) /* PhysicsScriptIntensity */
      , (33037, 104,      10) /* ObviousRadarRange */
      , (33037, 117,     0.6) /* FocusedProbability */
-     , (33037, 125,    0.25) /* ResistHealthDrain */;
+     , (33037, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33037,   1, 'Vile Mukkir') /* Name */;
