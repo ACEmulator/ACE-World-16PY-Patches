@@ -26,6 +26,7 @@ VALUES (49044,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (49044,  12,     0.5) /* Shade */
      , (49044,  31,      25) /* VisualAwarenessRange */
+     , (49044,  39,     1.2) /* DefaultScale */
      , (49044,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

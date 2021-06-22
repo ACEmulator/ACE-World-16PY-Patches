@@ -74,11 +74,11 @@ VALUES (49022,  0, 16,  0,    0,  570,  570,  570,  570,  570,  570,  570,  570,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49022, 2, 48991,  1, 1, 0, False) /* Create Flaming Hatchet (48991) for Wield */
      , (49022, 2,  2596,  1, 9, 0.1, False) /* Create Doublet (2596) for Wield */
-     , (49022, 2, 87371,  1, 14, 0.3091, False) /* Create  (87371) for Wield */
-     , (49022, 2, 87372,  1, 14, 0.2545, False) /* Create  (87372) for Wield */
-     , (49022, 2, 87373,  1, 14, 1E-05, False) /* Create  (87373) for Wield */
-     , (49022, 2, 87374,  1, 14, 0.2364, False) /* Create  (87374) for Wield */
-     , (49022, 2, 87375,  1, 14, 1E-05, False) /* Create  (87375) for Wield */
-     , (49022, 2, 87376,  1, 14, 1E-05, False) /* Create  (87376) for Wield */
-     , (49022, 2, 87377,  1, 14, 0.7143, False) /* Create  (87377) for Wield */
-     , (49022, 2, 87378,  1, 14, 0.1429, False) /* Create  (87378) for Wield */;
+     , (49022, 2, 87371,  1, 14, 0.3091, False) /* Create Haebrean Breastplate (87371) for Wield */
+     , (49022, 2, 87372,  1, 14, 0.2545, False) /* Create Haebrean Girth (87372) for Wield */
+     , (49022, 2, 87373,  1, 14, 1E-05, False) /* Create Haebrean Tassets (87373) for Wield */
+     , (49022, 2, 87374,  1, 14, 0.2364, False) /* Create Haebrean Pauldrons (87374) for Wield */
+     , (49022, 2, 87375,  1, 14, 1E-05, False) /* Create Haebrean Boots (87375) for Wield */
+     , (49022, 2, 87376,  1, 14, 1E-05, False) /* Create Haebrean Greaves (87376) for Wield */
+     , (49022, 2, 87377,  1, 14, 0.7143, False) /* Create Haebrean Vambraces (87377) for Wield */
+     , (49022, 2, 87378,  1, 14, 0.1429, False) /* Create Haebrean Gauntlets (87378) for Wield */;

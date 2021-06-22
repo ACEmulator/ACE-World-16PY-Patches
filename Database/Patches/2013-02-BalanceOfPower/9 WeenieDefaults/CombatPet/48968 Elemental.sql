@@ -25,6 +25,7 @@ VALUES (48968,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48968,  31,      25) /* VisualAwarenessRange */
+     , (48968,  39,     0.9) /* DefaultScale */
      , (48968,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -35,6 +36,7 @@ VALUES (48968,   1,   33559883) /* Setup */
      , (48968,   2,  150995087) /* MotionTable */
      , (48968,   3,  536871002) /* SoundTable */
      , (48968,   4,  805306368) /* CombatTable */
+     , (48968,   6,   67114014) /* PaletteBase */
      , (48968,   7,  268437114) /* ClothingBase */
      , (48968,   8,  100670274) /* Icon */
      , (48968,  22,  872415363) /* PhysicsEffectTable */;

@@ -38,6 +38,7 @@ VALUES (49078,   1,   33556698) /* Setup */
      , (49078,   6,   67112927) /* PaletteBase */
      , (49078,   7,  268436038) /* ClothingBase */
      , (49078,   8,  100670960) /* Icon */
+     , (49078,  19,         85) /* ActivationAnimation */
      , (49078,  22,  872415364) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

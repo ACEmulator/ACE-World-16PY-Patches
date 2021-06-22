@@ -74,4 +74,4 @@ VALUES (49017,  0, 16,  0,    0,  370,  370,  370,  370,  370,  370,  370,  370,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49017, 2, 48986,  1, 1, 0, False) /* Create Flaming Hatchet (48986) for Wield */
      , (49017, 2,  2596,  1, 9, 0.1, False) /* Create Doublet (2596) for Wield */
-     , (49017, 2, 87371,  1, 14, 0.3091, False) /* Create  (87371) for Wield */;
+     , (49017, 2, 87371,  1, 14, 0.3091, False) /* Create Haebrean Breastplate (87371) for Wield */;
