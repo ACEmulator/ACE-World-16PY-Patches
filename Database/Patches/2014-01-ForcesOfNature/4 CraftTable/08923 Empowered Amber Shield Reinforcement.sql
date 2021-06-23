@@ -9,7 +9,7 @@ VALUES (8923, 0,   9, 2097152, 4, 'You can only apply this augmentaion to a shie
 	 , (8923, 0, 371,       3, 3, 'This item has already been imbued!') /* Target.GearDamageResistInt - GreaterThanEqual 3 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (8923, True, 0, 0, 0, False, 956301313, 1, 0) /* Mutation Filter - Viridian Armor Augmentations */;
+VALUES (8923, True, 0, 0, 0, False, 0, 1, 0) /* Mutation Filter - Viridian Armor Augmentations */;
 
 SET @parent_id = LAST_INSERT_ID();
 

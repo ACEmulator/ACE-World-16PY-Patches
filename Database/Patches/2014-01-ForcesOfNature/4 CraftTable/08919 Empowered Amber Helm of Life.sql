@@ -9,7 +9,7 @@ VALUES (8919, 0,   9,  1, 4, 'You can only apply this augmentaion to a helm-slot
 	 , (8919, 0, 379,  1, 3, 'This item has already been imbued!') /* Target.GearMaxHealthInt - GreaterThanEqual 1 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (8919, True, 0, 0, 0, False, 956301313, 1, 0) /* Mutation Filter - Viridian Armor Augmentations */;
+VALUES (8919, True, 0, 0, 0, False, 0, 1, 0) /* Mutation Filter - Viridian Armor Augmentations */;
 
 SET @parent_id = LAST_INSERT_ID();
 
