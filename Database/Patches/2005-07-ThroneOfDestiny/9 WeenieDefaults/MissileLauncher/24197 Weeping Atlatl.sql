@@ -18,9 +18,7 @@ VALUES (24197,   1,        256) /* ItemType - MissileWeapon */
      , (24197,  48,         47) /* WeaponSkill - MissileWeapons */
      , (24197,  49,          1) /* WeaponTime */
      , (24197,  50,          4) /* AmmoType - Atlatl */
-     , (24197,  51,          2) /* CombatUse - Missle */
-     , (24197,  52,          1) /* ParentLocation */
-     , (24197,  53,        101) /* PlacementPosition */
+     , (24197,  51,          2) /* CombatUse - Missile */
      , (24197,  60,        120) /* WeaponRange */
      , (24197,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24197, 106,        300) /* ItemSpellcraft */
@@ -33,27 +31,21 @@ VALUES (24197,   1,        256) /* ItemType - MissileWeapon */
      , (24197, 158,          2) /* WieldRequirements - RawSkill */
      , (24197, 159,         47) /* WieldSkillType - MissileWeapons */
      , (24197, 160,        290) /* WieldDifficulty */
-     , (24197, 166,         31) /* SlayerCreatureType - Human */
-     , (24197, 353,         10) /* WeaponType - Thrown */;
+     , (24197, 166,         31) /* SlayerCreatureType - Human */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24197,  11, True ) /* IgnoreCollisions */
-     , (24197,  13, True ) /* Ethereal */
-     , (24197,  14, True ) /* GravityStatus */
-     , (24197,  19, True ) /* Attackable */
-     , (24197,  22, True ) /* Inscribable */
-     , (24197,  23, True ) /* DestroyOnSell */
+VALUES (24197,  22, True ) /* Inscribable */
      , (24197,  69, False) /* IsSellable */
      , (24197,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24197,   5, -0.025000000372529) /* ManaRate */
+VALUES (24197,   5,  -0.025) /* ManaRate */
      , (24197,  26,      50) /* MaximumVelocity */
-     , (24197,  29, 1.17999994754791) /* WeaponDefense */
+     , (24197,  29,    1.18) /* WeaponDefense */
      , (24197,  39,       1) /* DefaultScale */
      , (24197,  62,       1) /* WeaponOffense */
-     , (24197,  63, 2.4300000667572) /* DamageMod */
-     , (24197, 138, 2.90000009536743) /* SlayerDamageBonus */
+     , (24197,  63,    2.43) /* DamageMod */
+     , (24197, 138,     2.9) /* SlayerDamageBonus */
      , (24197, 151,       1) /* IgnoreShield */
      , (24197, 155,       1) /* IgnoreArmor */;
 
