@@ -68,6 +68,16 @@ Refuse: 51387
 	- DirectBroadcast: Diyas looks into the Fractured Message Shard. He quickly writes on a parchment and places it into your pack.
 	- Delay: 1, Tell: Surprise, surprise. Another Virindi with a serious superiority complex.
 	- Give: 72170
+
+Refuse: Apostate Message Shard (40489)
+	- TurnToTarget
+	- Tell: I heard that Aruq sent you off to that new fortress in the Direlands. Is this the shard you found there? Fascinating... Let me have a look...
+	- TakeItems: 40489, 1
+	- Delay: 1, DirectBroadcast: Diyas stares into the fragment of crystal for a moment, and his eyes widen with horror.
+	- Delay: 1, Tell: The Virindi rebels are gathering their allies again! They seek to step into the gap left by T'thuun's defeat! Quick, take this translation to Aruq, he will make sure the proper people are notified.
+	- EraseQuest: UncoverRenegadesStarted0309
+	- Give: 40491
+
 Give: Sotiris Obsidian Shard (8261)
 	- TurnToTarget
 	- Tell: Excellent! Allow me to translate this for you. Very strange ... I wonder what the Virindi are up to?
@@ -146,22 +156,22 @@ Give: Obsidian Shard (10805)
 
 Give: Asteliary Crafter's Message Shard (12141)
 	- TurnToTarget
-	- Tell: This piece of writing is quite interesting ... The renegade Virindi have become much more ambitious and more skilled!
-	- AwardNoShareXP: 45,340,000
-	- Delay: 0.5, Give: 12140
+	- Delay: 1, Tell: This piece of writing is quite interesting ... The renegade Virindi have become much more ambitious and more skilled!
+	- AwardLevelProportionalXP: 85%, 0 - 45,340,000
+	- Delay: 1, Give: Translated Asteliary Crafter's Note (12140)
 
 Give: Northern Infiltrator Message Shard (12143)
 	- TurnToTarget
-	- Tell: This piece of writing is quite interesting ... The renegade Virindi have become much more ambitious and more skilled!
-	- AwardNoShareXP: 45,340,000
-	- Delay: 0.5, Give: 12142
-	
+	- Delay: 1, Tell: This piece of writing is quite interesting ... The renegade Virindi have become much more ambitious and more skilled!
+	- AwardLevelProportionalXP: 85%, 0 - 45,340,000
+	- Delay: 1, Give: Translated Northern Infiltrator Note (12142)
+
 Give: Southern Infiltrator Message Shard (12145)
 	- TurnToTarget
-	- Tell: This piece of writing is quite interesting ... The renegade Virindi have become much more ambitious and more skilled!
-	- AwardNoShareXP: 45,340,000
-	- Delay: 0.5, Give: 12144
-	
+	- Delay: 1, Tell: This piece of writing is quite interesting ... The renegade Virindi have become much more ambitious and more skilled!
+	- AwardLevelProportionalXP: 85%, 0 - 45,340,000
+	- Delay: 1, Give: Translated Southern Infiltrator Note (12144)
+
 Give: Singular Chorizite Message Shard (12278)
 	- TurnToTarget
 	- Delay: 1, Tell: Aha! Well, that explains Ecorto over there ...
@@ -252,20 +262,12 @@ Give: Obsidian Shard (25575)
 	- Tell: Your continued trafficking with forces beyond your ken could earn you a hearty bit of trouble. I've translated this for you, but would rather see you destroy it, than keep it.
 	- Give: The Mirror (25576)
 
-Give: Thief of Dreams Message Shard (36930)
+Give: 36930
 	- TurnToTarget
 	- DirectBroadcast: A strange, cold light emanates from the eyes of Diyas al-Yat as he concentrates on the message shard.
 	- Delay: 0.5, Tell: You say you found this in a dream realm? Inside of a Quiddity seed? That sounds so strangely familiar, even though I am sure I never heard that term before...
 	- Delay: 0.5, Give: 87040
 	- Delay: 0.5, Tell: A fascinating message. With your permission, I have made a copy of this myself, for my own... illumination.
-
-Refuse: Apostate Message Shard (40489)
-	- TurnToTarget
-	- Tell: I heard that Aruq sent you off to that new fortress in the Direlands. Is this the shard you found there? Fascinating... Let me have a look...
-	- TakeItems: 40489, 1
-	- Delay: 1, DirectBroadcast: Diyas stares into the fragment of crystal for a moment, and his eyes widen with horror.
-	- Delay: 1, Tell: The Virindi rebels are gathering their allies again! They seek to step into the gap left by T'thuun's defeat! Quick, take this translation to Aruq, he will make sure the proper people are notified.
-	- Give: Apostate Orders (40491)
 
 Use:
 	- Motion: Ready
