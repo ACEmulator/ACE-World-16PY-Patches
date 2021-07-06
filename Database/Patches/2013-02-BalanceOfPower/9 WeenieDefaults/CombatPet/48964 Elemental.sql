@@ -5,8 +5,7 @@ VALUES (48964, 'ace48964-elemental', 71, '2019-12-06 16:49:21') /* CombatPet */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48964,   1,         16) /* ItemType - Creature */
-     , (48964,   2,         62) /* CreatureType - Elemental */
-     , (48964,   3,         14) /* PaletteTemplate - Red */
+     , (48964,   2,         38) /* CreatureType - FireElemental */
      , (48964,   6,        255) /* ItemsCapacity */
      , (48964,   7,        255) /* ContainersCapacity */
      , (48964,  16,          1) /* ItemUseable - No */
@@ -33,12 +32,10 @@ VALUES (48964,   1, 'Elemental') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48964,   1,   33556131) /* Setup */
      , (48964,   2,  150995087) /* MotionTable */
-     , (48964,   4,  805306368) /* CombatTable - default, verify */
-     , (48964,   3,  536871002) /* SoundTable */
-     , (48964,   6,   67114014) /* PaletteBase */
-     , (48964,   7,  268437114) /* ClothingBase */
+     , (48964,   3,  536870998) /* SoundTable */
+     , (48964,   4,  805306368) /* CombatTable */
      , (48964,   8,  100670274) /* Icon */
-     , (48964,  22,  872415363) /* PhysicsEffectTable */;
+     , (48964,  22,  872415344) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (48964,   1, 170, 0, 0) /* Strength */
