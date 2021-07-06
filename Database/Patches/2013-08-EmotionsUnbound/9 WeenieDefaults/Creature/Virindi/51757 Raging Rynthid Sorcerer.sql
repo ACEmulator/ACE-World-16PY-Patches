@@ -118,11 +118,11 @@ VALUES (51757,  0, 16,  0,    0, 650, 520, 520, 520, 520, 520, 520, 520,  600, 1
      , (51757,  8, 16, 200, 0.5, 650, 520, 520, 520, 520, 520, 520, 520,  600, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51757,  3882,   2.15)  /* Incendiary Ring */
-     , (51757,  3940,   2.176)  /* Exsanguinating Wave */
-     , (51757,  4312,   2.286)  /* Incantation of Imperil Other */
-     , (51757,  4439,   2.3)  /* Incantation of Flame Bolt */
-     , (51757,  4481,   2.429)  /* Incantation of Fire Vulnerability Other */;
+VALUES (51757,  3882,    2.21)  /* Incendiary Ring */
+     , (51757,  3940,   2.266)  /* Exsanguinating Wave */
+     , (51757,  4439,   2.414)  /* Incantation of Flame Bolt */
+     , (51757,  4312,   2.206)  /* Incantation of Imperil Other */
+     , (51757,  4481,   2.259)  /* Incantation of Fire Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51757, 8, 51859,  1, 0, 0.03, False) /* Create Mask for Treasure */
