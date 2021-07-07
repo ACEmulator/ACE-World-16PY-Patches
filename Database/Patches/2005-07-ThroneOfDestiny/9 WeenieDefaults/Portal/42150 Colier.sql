@@ -27,6 +27,7 @@ VALUES (42150,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42150,   1, 'Colier') /* Name */
      , (42150,  16, 'A portal leading to Colier Mine where the Baron''s Amulet of Life Giving may be found.') /* LongDesc */
+     , (42150,  37, 'fachubcolierportal_flag') /* QuestRestriction */
      , (42150,  38, 'Colier (57.1N, 37.7E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42150,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42150, 2, 2932211751, 97.4944, 165.113, 110.121, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0xAEC60027 [97.494400 165.113000 110.121000] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0xAEC60027 [97.494400 165.113007 110.121002] 1.000000 0.000000 0.000000 0.000000 */;
