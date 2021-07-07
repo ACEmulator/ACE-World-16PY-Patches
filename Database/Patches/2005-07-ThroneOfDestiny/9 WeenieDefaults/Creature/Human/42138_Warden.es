@@ -22,6 +22,7 @@ Use:
 	- TurnToTarget
 	- InqIntStat: 25, 35-999
 		TestSuccess:
+			- SetQuestCompletions: fachubskeletonfortportal_flag, 1
 			- InqQuest: fachubskeletonfort
 				QuestSuccess:
 					- Motion: Ready
@@ -33,7 +34,6 @@ Use:
 					- Delay: 1, Tell: The skeleton in question is in a fort at 32.5N, 66.1E outside of Arwic.
 					- Delay: 1, Tell: Retrieve Jacob's axe for him and return it to him in Arwic.
 					- Delay: 1, Tell: Return to me with anything he gives you in exchange for a reward.
-					- StampQuest: fachubskeletonfortportal_flag
 		TestFailure:
 			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
 

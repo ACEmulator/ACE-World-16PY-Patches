@@ -22,6 +22,7 @@ Use:
 	- TurnToTarget
 	- InqIntStat: 25, 30-999
 		TestSuccess:
+			- SetQuestCompletions: fachubmountainsewerportal_flag, 1
 			- InqQuest: fachubmountainsewer
 				QuestSuccess:
 					- Motion: Ready
@@ -33,6 +34,5 @@ Use:
 					- Delay: 1, Tell: This Mountain Sewer contains a great number of Zefirs, these are devious spell slinging creatures.
 					- Delay: 1, Tell: You can use the walls of the sewer to block the War Magic spells the Zefirs cast.
 					- Delay: 1, Tell: Delve deep into the sewer and locate an Ancient Arbalest and return to me with it, that is if you want my reward of course.
-					- StampQuest: fachubmountainsewerportal_flag
 		TestFailure:
 			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.

@@ -23,6 +23,7 @@ Use:
 	- TurnToTarget
 	- InqIntStat: 25, 25-999
 		TestSuccess:
+			- SetQuestCompletions: fachubcatacombsportal_flag, 1
 			- InqQuest: fachubcatacombs
 				QuestSuccess:
 					- Motion: Ready
@@ -33,6 +34,5 @@ Use:
 					- Delay: 1, Tell: In the Catacombs of the Forgotten you will find the final resting place of the jitte wielder Mi Krau-Li.
 					- Delay: 1, Tell: Mi Krau-Li died shortly before the first lifestones, quite a shame. On the other hand this is good for you, he left his jitte behind.
 					- Delay: 1, Tell: Seartch the Catacombs of the Forgotten for Mi Krau-Li's Jitte and return to me with it for a reward.
-					- StampQuest: fachubcatacombsportal_flag
 		TestFailure:
 			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.

@@ -22,6 +22,7 @@ Use:
 	- TurnToTarget
 	- InqIntStat: 25, 10-999
 		TestSuccess:
+			- SetQuestCompletions: fachubmosswartcampportal_flag, 1
 			- InqQuest: fachubmosswartcamp
 				QuestSuccess:
 					- Tell: I have already rewarded you for recovering the Ice Tachi. I'm only able to reward you once for this.
@@ -32,6 +33,5 @@ Use:
 					- Delay: 1, Tell: Defeat the Mosswart Mucker that holds this tachi and return to me with it.
 					- Delay: 1, Tell: The portal behind me will drop you very close to their camp. Do not stray too far from 27.5S, 71.0E.
 					- Delay: 1, Tell: Use your portal gem to recall back here if you find yourself lost or when you have completed the task at hand.
-					- StampQuest: fachubmosswartcampportal_flag
 		TestFailure:
 			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.

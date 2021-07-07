@@ -8,7 +8,7 @@ Refuse: Silver Atlatl (42208)
 				QuestFailure:
 					Goto: Failure
 		TestFailure:
-			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+			Goto: LowLvl
 
 Refuse: Tetsubo Slugger (42209)
 	- TurnToTarget
@@ -20,7 +20,7 @@ Refuse: Tetsubo Slugger (42209)
 				QuestFailure:
 					Goto: Failure
 		TestFailure:
-			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+			Goto: LowLvl
 
 Refuse: Ornate Nekode (42207)
 	- TurnToTarget
@@ -32,13 +32,14 @@ Refuse: Ornate Nekode (42207)
 				QuestFailure:
 					Goto: Failure
 		TestFailure:
-			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+			Goto: LowLvl
 
 Use:
 	- Motion: Ready
 	- TurnToTarget
 	- InqIntStat: 25, 30-999
 		TestSuccess:
+			- SetQuestCompletions: fachubhauntedmansionportal_flag, 1
 			- InqQuest: fachubhauntedmansion
 				QuestSuccess:
 					Goto: Success
@@ -48,7 +49,8 @@ Use:
 					- Delay: 1, Tell: These spirts now walk the grounds. Greelving lives outside his own home.
 					- Delay: 1, Tell: Recover the three belongings for which Frest Greelving asks from his mansion and return with the reward you're given.
 					- Delay: 1, Tell: I will make this act worth your while.
-					- StampQuest: fachubhauntedmansionportal_flag
+		TestFailure:
+			Goto: LowLvl
 
 GotoSet: Success
 	- Delay: 1.8, Tell: I have already rewarded you for showing me Frest Greelving's reward.
@@ -59,3 +61,6 @@ GotoSet: Failure
 	- Delay: 1.8, StampQuest: fachubhauntedmansion
 	- AwardNoShareXP: 950,000
 
+GotoSet: LowLvl
+	- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+	

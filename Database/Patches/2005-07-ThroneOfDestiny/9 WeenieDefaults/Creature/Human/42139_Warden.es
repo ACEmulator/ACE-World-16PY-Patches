@@ -22,6 +22,7 @@ Use:
 	- TurnToTarget
 	- InqIntStat: 25, 20-999
 		TestSuccess:
+			- SetQuestCompletions: fachubhuntersleapportal_flag, 1
 			- InqQuest: fachubhuntersleap
 				QuestSuccess:
 					- Motion: Ready
@@ -34,7 +35,6 @@ Use:
 					- Delay: 1, Tell: Eldrista the Adventurer has spent much time learning of Lilitha and has put great effort into making Lilitha's old bows usable again.
 					- Delay: 1, Tell: Take the portal to Eldrista, enter the Hunter's Leap and find Lilitha's Broken Bow. Make sure she fixes it for you and show it to me.
 					- Delay: 1, Tell: I'll reward you once I've seen the a working bow that once belonged to the great hunter Lilitha.
-					- StampQuest: fachubhuntersleapportal_flag
 		TestFailure:
 			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
 

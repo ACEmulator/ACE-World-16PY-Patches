@@ -22,6 +22,7 @@ Use:
 	- TurnToTarget
 	- InqIntStat: 25, 25-999
 		TestSuccess:
+			- SetQuestCompletions: fachubeasthamportals_flag, 1
 			- InqQuest: fachubeastham
 				QuestSuccess:
 					- Motion: Ready
@@ -33,6 +34,5 @@ Use:
 					- Delay: 1, Tell: Venture into the Banderling Conquest Dungeon and the Mosswart Maze. From each you'll recover part of a mace.
 					- Delay: 1, Tell: Once you have found both parts of the mace combine them and take the Banderling Ceremonial Weapon to Olivier Rognath in the middle of Eastham.
 					- Delay: 1, Tell: Return to me with the Mace of the Explorer that he gives you and I'll see to it that you are rewarded.
-					- StampQuest: fachubeasthamportals_flag
 		TestFailure:
 			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.

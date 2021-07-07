@@ -22,6 +22,7 @@ Use:
 	- TurnToTarget
 	- InqIntStat: 25, 35-999
 		TestSuccess:
+			- SetQuestCompletions: fachubsuntikportal_flag, 1
 			- InqQuest: fachubsuntik
 				QuestSuccess:
 					- Tell: I have already rewarded you for recovering the Acid Axe. I'm only able to reward you once for this.
@@ -31,6 +32,5 @@ Use:
 					- Delay: 1, Tell: Naqib of Suntik requests that someone help in purging the Monougas who have taken over the town.
 					- Delay: 1, Tell: The village of Suntik was known for its creation of Acid Axes.
 					- Delay: 1, Tell: Venture to Suntik and return to me with an Acid Axe and I'll reward you.
-					- StampQuest: fachubsuntikportal_flag
 		TestFailure:
 			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.

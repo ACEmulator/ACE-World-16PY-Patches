@@ -27,6 +27,7 @@ Use:
 	- TurnToTarget
 	- InqIntStat: 25, 15-999
 		TestSuccess:
+			- SetQuestCompletions: fachubhallsofhelmportal_flag, 1
 			- InqQuest: fachubhallsofhelm
 				QuestSuccess:
 					- Goto: Success
@@ -36,7 +37,6 @@ Use:
 					- Delay: 1, Tell: Deep within the Halls you'll find the Guardian.
 					- Delay: 1, Tell: The guardian in life and now in death is charged with keeping the Superior Helmet and Fiery Shield.
 					- Delay: 1, Tell: Destroy the Guardian and show one of these items to me and I'll see that you're rewarded.
-					- StampQuest: fachubhallsofhelmportal_flag
 		TestFailure:
 			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
 

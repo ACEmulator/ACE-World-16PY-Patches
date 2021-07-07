@@ -22,6 +22,7 @@ Use:
 	- TurnToTarget
 	- InqIntStat: 25, 40-999
 		TestSuccess:
+			- SetQuestCompletions: fachubdryreachportal_flag, 1
 			- InqQuest: fachubdryreach
 				QuestSuccess:
 					- Motion: Ready
@@ -34,7 +35,6 @@ Use:
 					- Delay: 1, Tell: Talk to Yu Vou-Ki to get information about her sister. From there complete a rescue of Dansha-Ki, she's a strong mage.
 					- Delay: 1, Tell: Dansha-Ki is known for her work on crafting Jewelry and Gems that are magical.
 					- Delay: 1, Tell: Release Dansha-Ki and return to me with a ring of her craft for a reward.
-					- StampQuest: fachubdryreachportal_flag
 		TestFailure:
 			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
 

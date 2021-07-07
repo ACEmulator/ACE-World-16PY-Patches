@@ -27,6 +27,7 @@ Use:
 	- TurnToTarget
 	- InqIntStat: 25, 20-999
 		TestSuccess:
+			- SetQuestCompletions: fachubtrothyrsrestportal_flag, 1
 			- InqQuest: fachubtrothyrsrest
 				QuestSuccess:
 					- Goto: Success
@@ -37,7 +38,6 @@ Use:
 					- Delay: 1, Tell: You'll need a key or skill with a lockpick to find what you need. A key can be purchased a bit of a run to the North West of Trothy's Rest.
 					- Delay: 1, Tell: This portal behind me will deliver you to 13.6N, 50.7E where you can buy a key from the merchant.
 					- Delay: 1, Tell: Once you're ready to enter the Trothyr's Rest go to 10.3N 54.9E to find the portal.
-					- StampQuest: fachubtrothyrsrestportal_flag
 		TestFailure:
 			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
 

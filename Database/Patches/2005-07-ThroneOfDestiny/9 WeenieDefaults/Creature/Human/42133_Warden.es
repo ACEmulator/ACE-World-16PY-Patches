@@ -27,6 +27,7 @@ Use:
 	- TurnToTarget
 	- InqIntStat: 25, 15-999
 		TestSuccess:
+			- SetQuestCompletions: fachubgreenmiregraveportal_flag, 1
 			- InqQuest: fachubgreenmiregrave
 				QuestSuccess:
 					- Goto: Success
@@ -37,7 +38,6 @@ Use:
 					- Delay: 1, Tell: Return to me with the Green Mire Cuirass and I'll reward you for your work.
 					- Delay: 1, Tell: After finding the broken Cuirass you can have them repaired by Hiro Ishigame.
 					- Delay: 1, Tell: You'll need to do this before I can reward you for them.
-					- StampQuest: fachubgreenmiregraveportal_flag
 		TestFailure:
 			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
 

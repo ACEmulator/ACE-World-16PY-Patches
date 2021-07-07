@@ -22,6 +22,7 @@ Use:
 	- TurnToTarget
 	- InqIntStat: 25, 35-999
 		TestSuccess:
+			- SetQuestCompletions: fachubbanderlingcampportal_flag, 1
 			- InqQuest: fachubbanderlingcamp
 				QuestSuccess:
 					- Motion: Ready
@@ -33,7 +34,6 @@ Use:
 					- Delay: 1, Tell: Now the town is left to the wilds, many creatures occupy it. To the Northwest of Edelbar you'll find a camp of Banderling Bandits.
 					- Delay: 1, Tell: Their camp is located near 43.9N 25.1E. One of these Banderlings possessed a Quarter Staff of Fire.
 					- Delay: 1, Tell: Locate the camp, kill the Banderlings and return to me when you find the Quarter Staff of Fire and I will see to it that you're rewarded.
-					- StampQuest: fachubbanderlingcampportal_flag
 		TestFailure:
 			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
 

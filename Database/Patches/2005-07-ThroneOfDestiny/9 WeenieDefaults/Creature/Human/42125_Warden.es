@@ -22,6 +22,7 @@ Use:
 	- TurnToTarget
 	- InqIntStat: 25, 15-999
 		TestSuccess:
+			- SetQuestCompletions: fachubcolierportal_flag, 1
 			- InqQuest: fachubcolier
 				QuestSuccess:
 					- Tell: I have already rewarded you for recovering the Baron's Amulet of Life Giving. I'm only able to reward you once for this.
@@ -32,6 +33,5 @@ Use:
 					- Delay: 1, Tell: In the town you recover two keys before you enter the dungeon. One from a Banderling Raider Guardian and a Heavy Drudge Prowler.
 					- Delay: 1, Tell: In the dungoen itself you'll find more keys amongst trusted undead and in a chest. Use these to access the Baron himself and recover his necklace.
 					- Delay: 1, Tell: Return to me with the necklace and I'll reward you.
-					- StampQuest: fachubcolierportal_flag
 		TestFailure: 
 			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.

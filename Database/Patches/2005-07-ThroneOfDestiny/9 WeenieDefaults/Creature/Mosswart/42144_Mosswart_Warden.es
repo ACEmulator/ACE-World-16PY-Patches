@@ -21,6 +21,7 @@ Use:
 	- TurnToTarget
 	- InqIntStat: 25, 20-999
 		TestSuccess:
+			- SetQuestCompletions: fachubdangerouscatacombsportal_flag, 1
 			- InqQuest: fachubdangerouscatacombs
 				QuestSuccess:
 					- Tell: I already give you reward for Tibri's Fire Spear. I only do once.
@@ -29,6 +30,5 @@ Use:
 					- Delay: 1, Tell: Tibri, she lives in a dangerous cave, there are vicious banderlings all around.
 					- Delay: 1, Tell: She leave her spear as test for others. Find it. Bring it to me.
 					- Delay: 1, Tell: I make sure you get reward.
-					- StampQuest: fachubdangerouscatacombsportal_flag
 		TestFailure:
 			- Tell: You are not strong enough. Come back when bigger.

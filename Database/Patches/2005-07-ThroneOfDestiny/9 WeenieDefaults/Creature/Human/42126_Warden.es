@@ -8,7 +8,7 @@ Refuse: Elysa's Band (27111)
 				QuestFailure:
 					Goto: Failure
 		TestFailure:
-			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+			Goto: LowLvl
 
 Refuse: Elysa's Boon (27113)
 	- TurnToTarget
@@ -20,7 +20,7 @@ Refuse: Elysa's Boon (27113)
 				QuestFailure:
 					Goto: Failure
 		TestFailure:
-			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+			Goto: LowLvl
 
 Refuse: Elysa's Boon (27114)
 	- TurnToTarget
@@ -32,7 +32,7 @@ Refuse: Elysa's Boon (27114)
 				QuestFailure:
 					Goto: Failure
 		TestFailure:
-			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+			Goto: LowLvl
 
 Refuse: Elysa's Wondrous Orb (27115)
 	- TurnToTarget
@@ -44,7 +44,7 @@ Refuse: Elysa's Wondrous Orb (27115)
 				QuestFailure:
 					Goto: Failure
 		TestFailure:
-			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+			Goto: LowLvl
 
 Refuse: Elysa's Wondrous Orb (27116)
 	- TurnToTarget
@@ -56,7 +56,7 @@ Refuse: Elysa's Wondrous Orb (27116)
 				QuestFailure:
 					Goto: Failure
 		TestFailure:
-			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+			Goto: LowLvl
 
 Refuse: Elysa's Wristlet (27107)
 	- TurnToTarget
@@ -68,7 +68,7 @@ Refuse: Elysa's Wristlet (27107)
 				QuestFailure:
 					Goto: Failure
 		TestFailure:
-			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+			Goto: LowLvl
 
 Refuse: Elysa's Wristlet (27108)
 	- TurnToTarget
@@ -80,7 +80,7 @@ Refuse: Elysa's Wristlet (27108)
 				QuestFailure:
 					Goto: Failure
 		TestFailure:
-			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+			Goto: LowLvl
 
 Refuse: Elysa's Pendant (27109)
 	- TurnToTarget
@@ -92,7 +92,7 @@ Refuse: Elysa's Pendant (27109)
 				QuestFailure:
 					Goto: Failure
 		TestFailure:
-			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+			Goto: LowLvl
 
 Refuse: Elysa's Pendant (27110)
 	- TurnToTarget
@@ -104,7 +104,7 @@ Refuse: Elysa's Pendant (27110)
 				QuestFailure:
 					Goto: Failure
 		TestFailure:
-			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+			Goto: LowLvl
 
 Refuse: Elysa's Bangle (27106)
 	- TurnToTarget
@@ -116,13 +116,14 @@ Refuse: Elysa's Bangle (27106)
 				QuestFailure:
 					Goto: Failure
 		TestFailure:
-			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+			Goto: LowLvl
 
 Use:
 	- Motion: Ready
 	- TurnToTarget
 	- InqIntStat: 25, 45-999
 		TestSuccess:
+			- SetQuestCompletions: fachubblackmireportal_flag, 1
 			- InqQuest: fachubblackmire
 				QuestSuccess:
 					Goto: Success
@@ -132,9 +133,8 @@ Use:
 					- Delay: 1, Tell: The Burun in this area carry various texts.
 					- Delay: 1, Tell: I want you to locate a specific text, the Marked Fleshy Journal. Take the journal to the Aun Tumerok translator Laokhe atop the tower in Arwic at 33.5N, 56.8E.
 					- Delay: 1, Tell: Return to me with the item Laokhe gives you as proof and I'll reward you.
-					- StampQuest: fachubblackmireportal_flag
 		TestFailure:
-			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+			Goto: LowLvl
 
 GotoSet: Success
 	- Delay: 1.8, Tell: You've already completed this quest! Please move on!
@@ -147,3 +147,6 @@ GotoSet: Failure
 	- Delay: 1.8, Tell: Here is a Book of Quests for Young Explorers. Perhaps you will find it useful in your future journies.
 	- Give: A Book of Quests for New Explorers (8676)
 
+GotoSet: LowLvl
+	- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
+	

@@ -27,6 +27,7 @@ Use:
     - TurnToTarget
 	- InqIntStat: 25, 10-999
 		TestSuccess:
+			- SetQuestCompletions: fachubfolthidportal_flag, 1
 			- InqQuest: fachubfolthid
 				QuestSuccess: 
 					- Tell: I have already rewarded you, please assist one of the others.
@@ -37,7 +38,6 @@ Use:
 					- Delay: 1, Tell: The portal behind me will take you to her estate. Talk to her and she'll direct you from there.
 					- Delay: 1, Tell: Raxanza has a strong thirst for an Empyrean drink called Old Nectar but this isn't what we're interested in.
 					- Delay: 1, Tell: Return to me with the Dull Dagger or the Dagger of Tikola and I'll reward you for your work.
-					- StampQuest: fachubfolthidportal_flag
 		TestFailure:
 			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
 

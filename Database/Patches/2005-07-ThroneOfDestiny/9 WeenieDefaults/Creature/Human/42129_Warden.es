@@ -22,6 +22,7 @@ Use:
     - TurnToTarget
 	- InqIntStat: 25, 25-999
 		TestSuccess:
+			- SetQuestCompletions: fachubfledgemasterscampportal_flag, 1
 			- InqQuest: fachubfledgemasterscamp
 				QuestSuccess:
 				 - Tell: I have already rewarded you for the Ruschk Hunter Leggings.
@@ -31,5 +32,6 @@ Use:
 					- Delay: 1, Tell: The portal behind me will allow you to gain quick access to their camps near 77.5N, 59.8W.
 					- Delay: 1, Tell: Kill one of the Ruschk Fledgemasters and take one of his tusks to Seneschal Dalmour outside of Sanamar at 71.3N, 61.0W.
 					- Delay: 1, Tell: He'll reward you with a pair of Ruschk Hunter Leggings. Bring these leggings to me and I'll reward you.
-					- StampQuest: fachubfledgemasterscampportal_flag
+		TestFailure:
+			- Tell: You're not yet strong enough to do the quest I require. Ask one of the others.
 
