@@ -28,13 +28,12 @@ VALUES (46828,   1,          1) /* ItemType - MeleeWeapon */
      , (46828, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (46828, 160,        400) /* WieldDifficulty */
      , (46828, 166,         77) /* SlayerCreatureType - Ghost */
-     , (46828, 265,        140) /* EquipmentSetId - UNKNOWN_140 */
-	 , (46828, 353,         11) /* WeaponType - TwoHanded */;
+	 , (46828, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46828,  22, True ) /* Inscribable */
      , (46828,  69, False) /* IsSellable */
-     , (46828,  99, False) /* Ivoryable */;
+     , (46828,  99, True) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46828,   5,   -0.05) /* ManaRate */
@@ -44,7 +43,7 @@ VALUES (46828,   5,   -0.05) /* ManaRate */
      , (46828,  29,    1.15) /* WeaponDefense */
      , (46828,  62,    1.25) /* WeaponOffense */
      , (46828,  63,       1) /* DamageMod */
-     , (46828, 136,       1) /* CriticalMultiplier */
+     , (46828, 136,       2) /* CriticalMultiplier */
      , (46828, 138,       3) /* SlayerDamageBonus */
      , (46828, 155,       1) /* IgnoreArmor */;
 
