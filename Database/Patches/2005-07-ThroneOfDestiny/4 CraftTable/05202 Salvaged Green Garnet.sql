@@ -10,7 +10,7 @@ VALUES (5202, 0, 105, 1, 2, 'The target item cannot be tinkered!') /* ItemWorkma
      , (5202, 1,  92, 100, 2, 'The material is not complete!') /* Structure */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (5202, True, 0, 0, 0, False, 939524164, 0, 0);
+VALUES (5202, True, 0, 0, 0, False, 939524171, 0, 0);
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (5202, True, 0, 0, 0, False, 0, 0, 0);

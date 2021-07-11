@@ -24,6 +24,7 @@ VALUES (51974,   1, True ) /* Stuck */
      , (51974,  52, True ) /* AiImmobile */
      , (51974,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (51974,  83, True ) /* NPCLooksLikeObject */
+     , (51974, 103, True ) /* NonProjectileMagicImmune */
      , (51974, 118, True ) /* NeverAttack */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

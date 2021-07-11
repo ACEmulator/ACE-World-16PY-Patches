@@ -27,7 +27,8 @@ VALUES (70289,  12,       0) /* Shade */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70289,   1, 'Void Crystal') /* Name */
      , (70289,  14, 'Bring the crystal to Harlune') /* Use */
-     , (70289,  15, 'A black gem, wreathed in dark energies, with a disconcertingly cold and clammy texture.') /* ShortDesc */;
+     , (70289,  15, 'A black gem, wreathed in dark energies, with a disconcertingly cold and clammy texture.') /* ShortDesc */
+     , (70289,  33, 'VoidCrystalPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70289,   1,   33554809) /* Setup */

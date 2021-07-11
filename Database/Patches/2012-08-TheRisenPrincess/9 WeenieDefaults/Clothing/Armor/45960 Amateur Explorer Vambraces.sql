@@ -43,7 +43,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45960,   1, 'Amateur Explorer Vambraces') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45960,   1,   33559082) /* Setup */
+VALUES (45960,   1,   33554641) /* Setup */
      , (45960,   3,  536870932) /* SoundTable */
      , (45960,   6,   67108990) /* PaletteBase */
      , (45960,   7,  268437412) /* ClothingBase */

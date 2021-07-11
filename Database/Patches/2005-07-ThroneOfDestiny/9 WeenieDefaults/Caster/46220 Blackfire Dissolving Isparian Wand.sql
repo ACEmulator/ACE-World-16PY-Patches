@@ -16,8 +16,6 @@ VALUES (46220,   1,      32768) /* ItemType - Caster */
      , (46220,  45,         32) /* DamageType - Acid */
      , (46220,  46,        512) /* DefaultCombatStyle - Magic */
      , (46220,  48,         34) /* WeaponSkill - WarMagic */
-     , (46220,  52,          1) /* ParentLocation - RightHand */
-     , (46220,  53,          3) /* PlacementPosition - LeftHand */
      , (46220,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46220, 106,        325) /* ItemSpellcraft */
      , (46220, 107,        500) /* ItemCurMana */
@@ -31,20 +29,17 @@ VALUES (46220,   1,      32768) /* ItemType - Caster */
      , (46220, 166,         42) /* SlayerCreatureType - LightningElemental */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46220,  11, True ) /* IgnoreCollisions */
-     , (46220,  13, True ) /* Ethereal */
-     , (46220,  14, True ) /* GravityStatus */
-     , (46220,  19, True ) /* Attackable */
-     , (46220,  22, True ) /* Inscribable */
+VALUES (46220,  22, True ) /* Inscribable */
      , (46220,  69, False) /* IsSellable */
      , (46220,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46220,   5, -0.025000000372529) /* ManaRate */
-     , (46220,  29, 1.12000000476837) /* WeaponDefense */
-     , (46220, 144, 0.0599999986588955) /* ManaConversionMod */
-     , (46220, 147, 0.170000001788139) /* CriticalFrequency */
-     , (46220, 152, 1.16999995708466) /* ElementalDamageMod */;
+VALUES (46220,   5, -0.025) /* ManaRate */
+     , (46220,  29,   1.12) /* WeaponDefense */
+     , (46220, 138,      3) /* SlayerDamageBonus */
+     , (46220, 144,   0.06) /* ManaConversionMod */
+     , (46220, 147,   0.17) /* CriticalFrequency */
+     , (46220, 152,   1.17) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46220,   1, 'Blackfire Dissolving Isparian Wand') /* Name */

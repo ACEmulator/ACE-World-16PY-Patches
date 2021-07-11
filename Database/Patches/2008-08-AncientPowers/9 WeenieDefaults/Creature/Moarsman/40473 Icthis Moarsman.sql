@@ -42,7 +42,6 @@ VALUES (40473,   1,       5) /* HeartbeatInterval */
      , (40473,  34,       1) /* PowerupTime */
      , (40473,  36,       1) /* ChargeSpeed */
      , (40473,  39,     1.6) /* DefaultScale */
-     , (40473,  55,      60) /* HomeRadius */
      , (40473,  62,     1.5) /* WeaponOffense */
      , (40473,  64,     0.9) /* ResistSlash */
      , (40473,  65,    0.55) /* ResistPierce */
