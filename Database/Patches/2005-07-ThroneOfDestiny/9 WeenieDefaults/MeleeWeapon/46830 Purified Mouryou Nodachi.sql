@@ -32,14 +32,9 @@ VALUES (46830,   1,          1) /* ItemType - MeleeWeapon */
 	 , (46830, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46830,  11, True ) /* IgnoreCollisions */
-     , (46830,  13, True ) /* Ethereal */
-     , (46830,  14, True ) /* GravityStatus */
-     , (46830,  15, True ) /* LightsStatus */
-     , (46830,  19, True ) /* Attackable */
-     , (46830,  22, True ) /* Inscribable */
+VALUES (46830,  22, True ) /* Inscribable */
      , (46830,  69, False) /* IsSellable */
-     , (46830,  99, False) /* Ivoryable */;
+     , (46830,  99, True) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46830,   5,   -0.05) /* ManaRate */
@@ -49,7 +44,7 @@ VALUES (46830,   5,   -0.05) /* ManaRate */
      , (46830,  29,    1.15) /* WeaponDefense */
      , (46830,  62,    1.25) /* WeaponOffense */
      , (46830,  63,       1) /* DamageMod */
-     , (46830, 136,       1) /* CriticalMultiplier */
+     , (46830, 136,       2) /* CriticalMultiplier */
      , (46830, 138,       3) /* SlayerDamageBonus */
      , (46830, 155,       1) /* IgnoreArmor */;
 
