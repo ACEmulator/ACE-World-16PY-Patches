@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49103;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49103, 'ace49103-knath', 71, '2019-12-06 16:49:23') /* CombatPet */;
+VALUES (49103, 'ace49103-knath', 71, '2021-06-22 10:00:38') /* CombatPet */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49103,   1,         16) /* ItemType - Creature */
@@ -25,7 +25,7 @@ VALUES (49103,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (49103,  31,      25) /* VisualAwarenessRange */
      , (49103,  39,     1.2) /* DefaultScale */
-     , (49103,  76, 0.400000005960464) /* Translucency */
+     , (49103,  76,     0.4) /* Translucency */
      , (49103,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -61,7 +61,7 @@ VALUES (49103,  6, 0, 3, 0, 400, 0, 313.36962890625) /* MeleeDefense        Spec
      , (49103, 51, 0, 3, 0, 400, 0, 313.36962890625) /* SneakAttack         Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (49103,  0,  8, 100,  0.3,  400,  400,  400,  400,  400,  400,  400,  400,  400, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+VALUES (49103,  0,  8, 238,  0.3,  400,  400,  400,  400,  400,  400,  400,  400,  400, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
      , (49103,  2,  8,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,  400, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Abdomen */
      , (49103,  6,  8,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,  400, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* UpperLeg */
      , (49103, 16,  8,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,  400, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */;
