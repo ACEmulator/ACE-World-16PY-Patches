@@ -135,27 +135,27 @@ VALUES (0x7B89F1C6, 35464, 0xB89F002F, 130.788, 161.248, 52.5493, -0.313166, 0, 
 /* @teleloc 0xB89F002F [130.787994 161.248001 52.549301] -0.313166 0.000000 0.000000 0.949698 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B89F1C8, 87372, 0xB89F0034, 155.967, 83.8085, 70.1188, -0.998952, 0, 0, -0.0457803, False, '2021-05-19 16:33:43'); /* Drudge Fort Outer Wall Generator */
+VALUES (0x7B89F1C8, 87429, 0xB89F0034, 155.967, 83.8085, 70.1188, -0.998952, 0, 0, -0.0457803, False, '2021-05-19 16:33:43'); /* Drudge Fort Outer Wall Generator */
 /* @teleloc 0xB89F0034 [155.966995 83.808502 70.118797] -0.998952 0.000000 0.000000 -0.045780 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B89F1C9, 87372, 0xB89F0022, 110.189, 35.5251, 69.2286, -0.775496, 0, 0, -0.631353, False, '2021-05-19 16:41:09'); /* Drudge Fort Outer Wall Generator */
+VALUES (0x7B89F1C9, 87429, 0xB89F0022, 110.189, 35.5251, 69.2286, -0.775496, 0, 0, -0.631353, False, '2021-05-19 16:41:09'); /* Drudge Fort Outer Wall Generator */
 /* @teleloc 0xB89F0022 [110.189003 35.525101 69.228600] -0.775496 0.000000 0.000000 -0.631353 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B89F1CA, 87373, 0xB89F002B, 137.625, 55.0557, 73.3422, -0.394067, 0, 0, 0.919082, False, '2021-05-20 08:33:46'); /* Drudge Fort Middle Wall Generator */
+VALUES (0x7B89F1CA, 87430, 0xB89F002B, 137.625, 55.0557, 73.3422, -0.394067, 0, 0, 0.919082, False, '2021-05-20 08:33:46'); /* Drudge Fort Middle Wall Generator */
 /* @teleloc 0xB89F002B [137.625000 55.055698 73.342201] -0.394067 0.000000 0.000000 0.919082 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B89F1CB, 87373, 0xB89F003B, 178.629, 71.1308, 74.4172, -0.00505246, 0, 0, 0.999987, False, '2021-05-20 08:39:58'); /* Drudge Fort Middle Wall Generator */
+VALUES (0x7B89F1CB, 87430, 0xB89F003B, 178.629, 71.1308, 74.4172, -0.00505246, 0, 0, 0.999987, False, '2021-05-20 08:39:58'); /* Drudge Fort Middle Wall Generator */
 /* @teleloc 0xB89F003B [178.628998 71.130798 74.417198] -0.005052 0.000000 0.000000 0.999987 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B89F1CC, 87374, 0xB89F0029, 142.158, 3.10918, 79.5945, 0.428486, 0, 0, -0.903548, False, '2021-05-20 09:14:28'); /* Drudge Fort Inner Wall Generator */
+VALUES (0x7B89F1CC, 87431, 0xB89F0029, 142.158, 3.10918, 79.5945, 0.428486, 0, 0, -0.903548, False, '2021-05-20 09:14:28'); /* Drudge Fort Inner Wall Generator */
 /* @teleloc 0xB89F0029 [142.158005 3.109180 79.594498] 0.428486 0.000000 0.000000 -0.903548 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B89F1CD, 87374, 0xB89F0029, 143.372, 19.2219, 79.8981, 0.946695, 0, 0, -0.322131, False, '2021-05-20 09:20:42'); /* Drudge Fort Inner Wall Generator */
+VALUES (0x7B89F1CD, 87431, 0xB89F0029, 143.372, 19.2219, 79.8981, 0.946695, 0, 0, -0.322131, False, '2021-05-20 09:20:42'); /* Drudge Fort Inner Wall Generator */
 /* @teleloc 0xB89F0029 [143.371994 19.221901 79.898102] 0.946695 0.000000 0.000000 -0.322131 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

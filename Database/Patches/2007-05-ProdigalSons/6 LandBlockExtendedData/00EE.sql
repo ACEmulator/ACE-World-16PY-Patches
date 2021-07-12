@@ -5,7 +5,7 @@ VALUES (0x700EE000,  4219, 0x00EE0382, 152.504, -246.772, 0.055, 0.999934, 0, 0,
 /* @teleloc 0x00EE0382 [152.503998 -246.772003 0.055000] 0.999934 0.000000 0.000000 -0.011501 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700EE000, 0x700EE001, '2021-05-20 13:45:44') /* Kernel Klank (87375) */
+VALUES (0x700EE000, 0x700EE001, '2021-05-20 13:45:44') /* Kernel Klank (87432) */
      , (0x700EE000, 0x700EE002, '2021-05-20 14:28:32') /* Drudge Bloodletter (23480) */
      , (0x700EE000, 0x700EE003, '2021-05-20 14:29:01') /* Drudge Bloodletter (23480) */
      , (0x700EE000, 0x700EE004, '2021-05-20 14:29:17') /* Drudge Bloodletter (23480) */
@@ -18,7 +18,7 @@ VALUES (0x700EE000, 0x700EE001, '2021-05-20 13:45:44') /* Kernel Klank (87375) *
      , (0x700EE000, 0x700EE00B, '2021-05-20 14:31:37') /* Drudge Mystic (24281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700EE001, 87375, 0x00EE0190, 160.009, -218.903, -5.99545, -0.00512414, 0, 0, -0.999987,  True, '2021-05-20 13:45:44'); /* Kernel Klank */
+VALUES (0x700EE001, 87432, 0x00EE0190, 160.009, -218.903, -5.99545, -0.00512414, 0, 0, -0.999987,  True, '2021-05-20 13:45:44'); /* Kernel Klank */
 /* @teleloc 0x00EE0190 [160.009003 -218.903000 -5.995450] -0.005124 0.000000 0.000000 -0.999987 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -62,7 +62,7 @@ VALUES (0x700EE00B, 24281, 0x00EE019E, 169.778, -226.546, -5.99545, 0.000764067,
 /* @teleloc 0x00EE019E [169.778000 -226.546005 -5.995450] 0.000764 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700EE00C, 87378, 0x00EE03A8, 162.181, -191.021, 0.055, -0.00889258, 0, 0, 0.99996, False, '2021-05-20 15:26:55'); /* Under Drudge Fort Unusable Portal Gen */
+VALUES (0x700EE00C, 87434, 0x00EE03A8, 162.181, -191.021, 0.055, -0.00889258, 0, 0, 0.99996, False, '2021-05-20 15:26:55'); /* Under Drudge Fort Unusable Portal Gen */
 /* @teleloc 0x00EE03A8 [162.181000 -191.020996 0.055000] -0.008893 0.000000 0.000000 0.999960 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

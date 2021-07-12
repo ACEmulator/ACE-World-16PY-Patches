@@ -26,19 +26,19 @@ VALUES (0x7B99F128, 35464, 0xB99F002D, 136.86, 107.865, 54.595, 0.405121, 0, 0, 
 /* @teleloc 0xB99F002D [136.860001 107.864998 54.595001] 0.405121 0.000000 0.000000 0.914263 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B99F129, 87372, 0xB99F0004, 12.2234, 81.9102, 69.733, -0.997495, 0, 0, -0.0707371, False, '2021-05-19 16:16:53'); /* Drudge Fort Outer Wall Generator */
+VALUES (0x7B99F129, 87429, 0xB99F0004, 12.2234, 81.9102, 69.733, -0.997495, 0, 0, -0.0707371, False, '2021-05-19 16:16:53'); /* Drudge Fort Outer Wall Generator */
 /* @teleloc 0xB99F0004 [12.223400 81.910202 69.733002] -0.997495 0.000000 0.000000 -0.070737 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B99F12A, 87372, 0xB99F0019, 73.2925, 12.9879, 65.8965, -0.690037, 0, 0, -0.723774, False, '2021-05-19 16:58:58'); /* Drudge Fort Outer Wall Generator */
+VALUES (0x7B99F12A, 87429, 0xB99F0019, 73.2925, 12.9879, 65.8965, -0.690037, 0, 0, -0.723774, False, '2021-05-19 16:58:58'); /* Drudge Fort Outer Wall Generator */
 /* @teleloc 0xB99F0019 [73.292503 12.987900 65.896500] -0.690037 0.000000 0.000000 -0.723774 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B99F12B, 87373, 0xB99F000B, 29.8591, 54.3011, 74.0283, 0.38476, 0, 0, 0.923017, False, '2021-05-20 08:46:22'); /* Drudge Fort Middle Wall Generator */
+VALUES (0x7B99F12B, 87430, 0xB99F000B, 29.8591, 54.3011, 74.0283, 0.38476, 0, 0, 0.923017, False, '2021-05-20 08:46:22'); /* Drudge Fort Middle Wall Generator */
 /* @teleloc 0xB99F000B [29.859100 54.301102 74.028297] 0.384760 0.000000 0.000000 0.923017 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B99F12C, 87374, 0xB99F0002, 22.462, 27.359, 78.2878, -0.911965, 0, 0, -0.410269, False, '2021-05-20 09:25:36'); /* Drudge Fort Inner Wall Generator */
+VALUES (0x7B99F12C, 87431, 0xB99F0002, 22.462, 27.359, 78.2878, -0.911965, 0, 0, -0.410269, False, '2021-05-20 09:25:36'); /* Drudge Fort Inner Wall Generator */
 /* @teleloc 0xB99F0002 [22.462000 27.358999 78.287804] -0.911965 0.000000 0.000000 -0.410269 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
