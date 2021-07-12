@@ -67,8 +67,7 @@ VALUES (11994,   1,       5) /* HeartbeatInterval */
      , (11994, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11994,   1, 'Basalt Golem') /* Name */
-     , (11994,  45, 'KilltaskRareGame_0609') /* KillQuest */;
+VALUES (11994,   1, 'Basalt Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11994,   1,   33556440) /* Setup */

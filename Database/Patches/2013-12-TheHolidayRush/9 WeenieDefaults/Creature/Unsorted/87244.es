@@ -1,7 +1,7 @@
 Use:
     - InqQuest: GiftBoxesWait
         QuestSuccess:
-            - DirectBroadcast: You have already discovered this gift box and all of the other gift boxes hidden around Dereth!
+            - DirectBroadcast: You have discovered all of the gift boxes hidden around Dereth!
         QuestFailure:
             - InqQuestBitsOn: GiftBoxesFound, 0x80
                 QuestSuccess:

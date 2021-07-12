@@ -21,11 +21,11 @@ VALUES (33303,   1, True ) /* Stuck */
      , (33303,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33303,  54, -0.1) /* UseRadius */;
+VALUES (33303,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33303,   1, 'Eastern Temple Catacombs') /* Name */
-     , (33303,  37, 'GraelIslandTempleEastAccess0606') /* QuestRestriction */;
+     , (33303,  38, 'Eastern Temple Catacombs') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33303,   1,   33557581) /* Setup */
@@ -34,4 +34,4 @@ VALUES (33303,   1,   33557581) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33303, 2, 5048037, 90.0044, -247.809, 0.05, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x004D06E5 [90.004402 -247.809006 0.050000] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0x004D06E5 [90.004400 -247.809000 0.050000] 1.000000 0.000000 0.000000 0.000000 */;
