@@ -14,7 +14,7 @@ VALUES (30031,   1,         16) /* ItemType - Creature */
      , (30031,  27,          0) /* ArmorType - None */
      , (30031,  74,     262401) /* MerchandiseItemTypes - Weapon, PromissoryNote */
      , (30031,  75,          0) /* MerchandiseMinValue */
-     , (30031,  76,      25000) /* MerchandiseMaxValue */
+     , (30031,  76,    1000000) /* MerchandiseMaxValue */
      , (30031,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30031, 113,          1) /* Gender - Male */
      , (30031, 126,        500) /* VendorHappyMean */
@@ -39,19 +39,19 @@ VALUES (30031,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30031,   1,       5) /* HeartbeatInterval */
      , (30031,   2,       0) /* HeartbeatTimestamp */
-     , (30031,   3, 0.159999996423721) /* HealthRate */
+     , (30031,   3,    0.16) /* HealthRate */
      , (30031,   4,       5) /* StaminaRate */
      , (30031,   5,       1) /* ManaRate */
      , (30031,  11,     300) /* ResetInterval */
-     , (30031,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (30031,  13,     0.9) /* ArmorModVsSlash */
      , (30031,  14,       1) /* ArmorModVsPierce */
-     , (30031,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (30031,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (30031,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (30031,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30031,  16,     0.4) /* ArmorModVsCold */
+     , (30031,  17,     0.4) /* ArmorModVsFire */
      , (30031,  18,       1) /* ArmorModVsAcid */
-     , (30031,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (30031,  37, 0.899999976158142) /* BuyPrice */
-     , (30031,  38, 1.35000002384186) /* SellPrice */
+     , (30031,  19,     0.6) /* ArmorModVsElectric */
+     , (30031,  37,     0.9) /* BuyPrice */
+     , (30031,  38,    1.35) /* SellPrice */
      , (30031,  54,       3) /* UseRadius */
      , (30031,  64,       1) /* ResistSlash */
      , (30031,  65,       1) /* ResistPierce */
@@ -80,13 +80,7 @@ VALUES (30031,   1,   33554433) /* Setup */
      , (30031,   2,  150994945) /* MotionTable */
      , (30031,   3,  536870913) /* SoundTable */
      , (30031,   6,   67108990) /* PaletteBase */
-     , (30031,   8,  100667446) /* Icon */
-     , (30031,   9,   83890513) /* EyesTexture */
-     , (30031,  10,   83890554) /* NoseTexture */
-     , (30031,  14,   83890651) /* DefaultMouthTexture */
-     , (30031,  15,   67117079) /* HairPalette */
-     , (30031,  16,   67110064) /* EyesPalette */
-     , (30031,  17,   67115901) /* SkinPalette */;
+     , (30031,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30031,   1,  45, 0, 0) /* Strength */

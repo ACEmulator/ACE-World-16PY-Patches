@@ -33,26 +33,26 @@ VALUES (70293,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (70293,   1,       5) /* HeartbeatInterval */
      , (70293,   2,       0) /* HeartbeatTimestamp */
-     , (70293,   3, 0.0670000016689301) /* HealthRate */
+     , (70293,   3,   0.067) /* HealthRate */
      , (70293,   4,       3) /* StaminaRate */
      , (70293,   5,       1) /* ManaRate */
-     , (70293,  12, 0.178599998354912) /* Shade */
-     , (70293,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (70293,  14, 1.20000004768372) /* ArmorModVsPierce */
+     , (70293,  12,  0.1786) /* Shade */
+     , (70293,  13,     1.2) /* ArmorModVsSlash */
+     , (70293,  14,     1.2) /* ArmorModVsPierce */
      , (70293,  15,       1) /* ArmorModVsBludgeon */
      , (70293,  16,       1) /* ArmorModVsCold */
-     , (70293,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (70293,  17,     0.8) /* ArmorModVsFire */
      , (70293,  18,       1) /* ArmorModVsAcid */
-     , (70293,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (70293,  19,     0.8) /* ArmorModVsElectric */
      , (70293,  31,      20) /* VisualAwarenessRange */
      , (70293,  39,       1) /* DefaultScale */
-     , (70293,  64, 0.800000011920929) /* ResistSlash */
-     , (70293,  65, 0.800000011920929) /* ResistPierce */
-     , (70293,  66, 0.899999976158142) /* ResistBludgeon */
-     , (70293,  67, 1.14999997615814) /* ResistFire */
-     , (70293,  68, 0.899999976158142) /* ResistCold */
-     , (70293,  69, 0.899999976158142) /* ResistAcid */
-     , (70293,  70, 1.20000004768372) /* ResistElectric */
+     , (70293,  64,     0.8) /* ResistSlash */
+     , (70293,  65,     0.8) /* ResistPierce */
+     , (70293,  66,     0.9) /* ResistBludgeon */
+     , (70293,  67,    1.15) /* ResistFire */
+     , (70293,  68,     0.9) /* ResistCold */
+     , (70293,  69,     0.9) /* ResistAcid */
+     , (70293,  70,     1.2) /* ResistElectric */
      , (70293,  71,       1) /* ResistHealthBoost */
      , (70293,  72,       1) /* ResistStaminaDrain */
      , (70293,  73,       1) /* ResistStaminaBoost */
@@ -73,7 +73,6 @@ VALUES (70293,   1,   33554433) /* Setup */
      , (70293,   4,  805306368) /* CombatTable */
      , (70293,   6,   67108990) /* PaletteBase */
      , (70293,   8,  100667446) /* Icon */
-     , (70293,  17,   67115901) /* SkinPalette */
      , (70293,  22,  872415236) /* PhysicsEffectTable */
      , (70293,  35,        454) /* DeathTreasureType - Loot Tier: 5 */;
 
@@ -91,16 +90,16 @@ VALUES (70293,   1,  2460, 0, 0, 2550) /* MaxHealth */
      , (70293,   5,   350, 0, 0, 790) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (70293, 45, 0, 3, 0, 235, 0, 0) /* LightWeapons        Specialized */
-     , (70293, 46, 0, 3, 0, 220, 0, 0) /* FinesseWeapons      Specialized */
-     , (70293,  6, 0, 3, 0, 230, 0, 0) /* MeleeDefense        Specialized */
+VALUES (70293,  6, 0, 3, 0, 230, 0, 0) /* MeleeDefense        Specialized */
      , (70293,  7, 0, 3, 0, 375, 0, 0) /* MissileDefense      Specialized */
-     , (70293, 44, 0, 3, 0, 235, 0, 0) /* HeavyWeapons        Specialized */
-     , (70293, 47, 0, 3, 0, 125, 0, 0) /* MissileWeapons      Specialized */
      , (70293, 15, 0, 3, 0, 205, 0, 0) /* MagicDefense        Specialized */
      , (70293, 20, 0, 2, 0,  30, 0, 0) /* Deception           Trained */
      , (70293, 33, 0, 3, 0, 210, 0, 0) /* LifeMagic           Specialized */
-     , (70293, 34, 0, 3, 0, 210, 0, 0) /* WarMagic            Specialized */;
+     , (70293, 34, 0, 3, 0, 210, 0, 0) /* WarMagic            Specialized */
+     , (70293, 44, 0, 3, 0, 235, 0, 0) /* HeavyWeapons        Specialized */
+     , (70293, 45, 0, 3, 0, 235, 0, 0) /* LightWeapons        Specialized */
+     , (70293, 46, 0, 3, 0, 220, 0, 0) /* FinesseWeapons      Specialized */
+     , (70293, 47, 0, 3, 0, 125, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (70293,  0,  4,  0,    0,  440,  440,  440,  440,  440,  484,  484,  440,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -190,7 +189,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70293,  2, 28614,  0, 11, 0.1786, True) /* Create Vestiri Robe with Hood (28614) for Wield */
-     , (70293, 10, 30947,  1, 0, 1, False) /* Create Poniard (30947) for WieldTreasure */
-     , (70293,  8, 70289,  1, 0, 1, False) /* Create Void Crystal (70289) for Treasure */
-     , (70293,  8, 32280,  1, 0, 1, False) /* Create Malsivir's Journal (32280) for Treasure */;
+VALUES (70293, 2, 28614,  0, 11, 0.1786, True) /* Create Vestiri Robe with Hood (28614) for Wield */
+     , (70293, 8, 70289,  1, 0, 1, False) /* Create Void Crystal (70289) for Treasure */
+     , (70293, 8, 32280,  1, 0, 1, False) /* Create Malsivir's Journal (32280) for Treasure */
+     , (70293, 10, 30947,  1, 0, 1, False) /* Create Poniard (30947) for WieldTreasure */;

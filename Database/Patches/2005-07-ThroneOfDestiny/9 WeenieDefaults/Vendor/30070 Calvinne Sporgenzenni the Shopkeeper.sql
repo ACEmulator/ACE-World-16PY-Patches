@@ -39,19 +39,19 @@ VALUES (30070,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30070,   1,       5) /* HeartbeatInterval */
      , (30070,   2,       0) /* HeartbeatTimestamp */
-     , (30070,   3, 0.159999996423721) /* HealthRate */
+     , (30070,   3,    0.16) /* HealthRate */
      , (30070,   4,       5) /* StaminaRate */
      , (30070,   5,       1) /* ManaRate */
      , (30070,  11,     300) /* ResetInterval */
-     , (30070,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (30070,  13,     0.9) /* ArmorModVsSlash */
      , (30070,  14,       1) /* ArmorModVsPierce */
-     , (30070,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (30070,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (30070,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (30070,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30070,  16,     0.4) /* ArmorModVsCold */
+     , (30070,  17,     0.4) /* ArmorModVsFire */
      , (30070,  18,       1) /* ArmorModVsAcid */
-     , (30070,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (30070,  37, 0.800000011920929) /* BuyPrice */
-     , (30070,  38, 1.70000004768372) /* SellPrice */
+     , (30070,  19,     0.6) /* ArmorModVsElectric */
+     , (30070,  37,     0.8) /* BuyPrice */
+     , (30070,  38,     1.7) /* SellPrice */
      , (30070,  54,       3) /* UseRadius */
      , (30070,  64,       1) /* ResistSlash */
      , (30070,  65,       1) /* ResistPierce */
@@ -80,13 +80,7 @@ VALUES (30070,   1,   33554433) /* Setup */
      , (30070,   2,  150994945) /* MotionTable */
      , (30070,   3,  536870913) /* SoundTable */
      , (30070,   6,   67108990) /* PaletteBase */
-     , (30070,   8,  100667446) /* Icon */
-     , (30070,   9,   83890493) /* EyesTexture */
-     , (30070,  10,   83890555) /* NoseTexture */
-     , (30070,  14,   83890630) /* DefaultMouthTexture */
-     , (30070,  15,   67117105) /* HairPalette */
-     , (30070,  16,   67109564) /* EyesPalette */
-     , (30070,  17,   67115907) /* SkinPalette */;
+     , (30070,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30070,   1,  90, 0, 0) /* Strength */
@@ -184,6 +178,14 @@ VALUES (30070, 2, 28609,  0, 18, 0, False) /* Create Vest (28609) for Wield */
      , (30070, 2, 28610,  0, 9, 0.5, False) /* Create Loafers (28610) for Wield */
      , (30070, 2, 28605,  0, 2, 0.5, False) /* Create Beret (28605) for Wield */
      , (30070, 2, 10696,  0, 18, 0.5, False) /* Create Apron (10696) for Wield */
+     , (30070, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */
+     , (30070, 4, 41507, -1, 0, 0, False) /* Create Moderate Item Tinkering Armature (41507) for Shop */
+     , (30070, 4, 41419, -1, 0, 0, False) /* Create Sheet Metal Form (41419) for Shop */
+     , (30070, 4, 41423, -1, 0, 0, False) /* Create Medal Mold (41423) for Shop */
+     , (30070, 4, 41396, -1, 0, 0, False) /* Create Handle Mold (41396) for Shop */
+     , (30070, 4, 41420, -1, 0, 0, False) /* Create Hammer (41420) for Shop */
+     , (30070, 4, 41418, -1, 0, 0, False) /* Create Leather Strap (41418) for Shop */
+     , (30070, 4, 41744, -1, 0, 0, False) /* Create A Comprehensive Guide to Gearcrafting (41744) for Shop */
      , (30070, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */
      , (30070, 4, 41507, -1, 0, 0, False) /* Create Moderate Item Tinkering Armature (41507) for Shop */
      , (30070, 4, 41419, -1, 0, 0, False) /* Create Sheet Metal Form (41419) for Shop */

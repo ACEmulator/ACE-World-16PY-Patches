@@ -6,8 +6,8 @@ VALUES (32700, 'ace32700-viamontianportalmage', 10, '2020-06-11 00:00:00') /* Cr
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32700,   1,         16) /* ItemType - Creature */
      , (32700,   2,         83) /* CreatureType - ViamontianKnight */
-     , (32700,   6,        255) /* ItemsCapacity */
-     , (32700,   7,        255) /* ContainersCapacity */
+     , (32700,   6,         -1) /* ItemsCapacity */
+     , (32700,   7,         -1) /* ContainersCapacity */
      , (32700,  16,          1) /* ItemUseable - No */
      , (32700,  25,        100) /* Level */
      , (32700,  27,          1) /* ArmorType - Cloth */
@@ -67,7 +67,6 @@ VALUES (32700,   1,   33554433) /* Setup */
      , (32700,   4,  805306368) /* CombatTable */
      , (32700,   6,   67108990) /* PaletteBase */
      , (32700,   8,  100667446) /* Icon */
-     , (32700,  17,   67115907) /* SkinPalette */
      , (32700,  22,  872415236) /* PhysicsEffectTable */
      , (32700,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 

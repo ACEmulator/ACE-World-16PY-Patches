@@ -44,7 +44,7 @@ VALUES (32328,   1,       5) /* HeartbeatInterval */
      , (32328,  31,      12) /* VisualAwarenessRange */
      , (32328,  34,       1) /* PowerupTime */
      , (32328,  36,       1) /* ChargeSpeed */
-     , (32328,  39,     1.4) /* DefaultScale */
+     , (32328,  39,     1.2) /* DefaultScale */
      , (32328,  64,     0.8) /* ResistSlash */
      , (32328,  65,     0.8) /* ResistPierce */
      , (32328,  66,     0.9) /* ResistBludgeon */
@@ -85,7 +85,7 @@ VALUES (32328,   1, 310, 0, 0) /* Strength */
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (32328,   1,   220, 0, 0, 360) /* MaxHealth */
      , (32328,   3,   180, 0, 0, 460) /* MaxStamina */
-     , (32328,   5,     0, 0, 0,  70) /* MaxMana */;
+     , (32328,   5,     0, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (32328,  6, 0, 3, 0,  45, 0, 0) /* MeleeDefense        Specialized */

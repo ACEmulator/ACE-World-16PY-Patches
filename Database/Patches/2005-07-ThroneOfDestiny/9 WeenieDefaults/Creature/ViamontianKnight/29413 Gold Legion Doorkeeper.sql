@@ -30,28 +30,28 @@ VALUES (29413,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29413,   1,       5) /* HeartbeatInterval */
      , (29413,   2,       0) /* HeartbeatTimestamp */
-     , (29413,   3, 0.0670000016689301) /* HealthRate */
+     , (29413,   3,   0.067) /* HealthRate */
      , (29413,   4,       3) /* StaminaRate */
      , (29413,   5,       1) /* ManaRate */
      , (29413,  12,     0.5) /* Shade */
-     , (29413,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (29413,  14, 1.20000004768372) /* ArmorModVsPierce */
+     , (29413,  13,     1.2) /* ArmorModVsSlash */
+     , (29413,  14,     1.2) /* ArmorModVsPierce */
      , (29413,  15,       1) /* ArmorModVsBludgeon */
      , (29413,  16,       1) /* ArmorModVsCold */
-     , (29413,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (29413,  17,     0.8) /* ArmorModVsFire */
      , (29413,  18,       1) /* ArmorModVsAcid */
-     , (29413,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (29413,  19,     0.8) /* ArmorModVsElectric */
      , (29413,  31,      12) /* VisualAwarenessRange */
      , (29413,  34,       1) /* PowerupTime */
      , (29413,  36,       1) /* ChargeSpeed */
-     , (29413,  39, 1.20000004768372) /* DefaultScale */
-     , (29413,  64, 0.800000011920929) /* ResistSlash */
-     , (29413,  65, 0.800000011920929) /* ResistPierce */
-     , (29413,  66, 0.899999976158142) /* ResistBludgeon */
-     , (29413,  67, 1.20000004768372) /* ResistFire */
-     , (29413,  68, 0.899999976158142) /* ResistCold */
-     , (29413,  69, 0.899999976158142) /* ResistAcid */
-     , (29413,  70, 1.20000004768372) /* ResistElectric */
+     , (29413,  39,     1.2) /* DefaultScale */
+     , (29413,  64,     0.8) /* ResistSlash */
+     , (29413,  65,     0.8) /* ResistPierce */
+     , (29413,  66,     0.9) /* ResistBludgeon */
+     , (29413,  67,     1.2) /* ResistFire */
+     , (29413,  68,     0.9) /* ResistCold */
+     , (29413,  69,     0.9) /* ResistAcid */
+     , (29413,  70,     1.2) /* ResistElectric */
      , (29413,  71,       1) /* ResistHealthBoost */
      , (29413,  72,       1) /* ResistStaminaDrain */
      , (29413,  73,       1) /* ResistStaminaBoost */
@@ -65,8 +65,8 @@ VALUES (29413,   1, 'Gold Legion Doorkeeper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29413,   1,   33559125) /* Setup */
-     , (29413,   2,  150994945) /* MotionTable */
-     , (29413,   3,  536870913) /* SoundTable */
+     , (29413,   2,  150995334) /* MotionTable */
+     , (29413,   3,  536871102) /* SoundTable */
      , (29413,   4,  805306368) /* CombatTable */
      , (29413,   6,   67115468) /* PaletteBase */
      , (29413,   7,  268436907) /* ClothingBase */

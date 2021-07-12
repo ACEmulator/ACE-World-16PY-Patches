@@ -31,28 +31,28 @@ VALUES (30289,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30289,   1,       5) /* HeartbeatInterval */
      , (30289,   2,       0) /* HeartbeatTimestamp */
-     , (30289,   3, 0.0670000016689301) /* HealthRate */
+     , (30289,   3,   0.067) /* HealthRate */
      , (30289,   4,       3) /* StaminaRate */
      , (30289,   5,       1) /* ManaRate */
      , (30289,  12,     0.5) /* Shade */
-     , (30289,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (30289,  14, 1.20000004768372) /* ArmorModVsPierce */
+     , (30289,  13,     1.2) /* ArmorModVsSlash */
+     , (30289,  14,     1.2) /* ArmorModVsPierce */
      , (30289,  15,       1) /* ArmorModVsBludgeon */
      , (30289,  16,       1) /* ArmorModVsCold */
-     , (30289,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (30289,  17,     0.8) /* ArmorModVsFire */
      , (30289,  18,       1) /* ArmorModVsAcid */
-     , (30289,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (30289,  19,     0.8) /* ArmorModVsElectric */
      , (30289,  31,      12) /* VisualAwarenessRange */
      , (30289,  34,       1) /* PowerupTime */
      , (30289,  36,       1) /* ChargeSpeed */
-     , (30289,  39, 1.20000004768372) /* DefaultScale */
-     , (30289,  64, 0.800000011920929) /* ResistSlash */
-     , (30289,  65, 0.800000011920929) /* ResistPierce */
-     , (30289,  66, 0.899999976158142) /* ResistBludgeon */
-     , (30289,  67, 1.20000004768372) /* ResistFire */
-     , (30289,  68, 0.899999976158142) /* ResistCold */
-     , (30289,  69, 0.899999976158142) /* ResistAcid */
-     , (30289,  70, 1.20000004768372) /* ResistElectric */
+     , (30289,  39,     1.3) /* DefaultScale */
+     , (30289,  64,     0.8) /* ResistSlash */
+     , (30289,  65,     0.8) /* ResistPierce */
+     , (30289,  66,     0.9) /* ResistBludgeon */
+     , (30289,  67,     1.2) /* ResistFire */
+     , (30289,  68,     0.9) /* ResistCold */
+     , (30289,  69,     0.9) /* ResistAcid */
+     , (30289,  70,     1.2) /* ResistElectric */
      , (30289,  71,       1) /* ResistHealthBoost */
      , (30289,  72,       1) /* ResistStaminaDrain */
      , (30289,  73,       1) /* ResistStaminaBoost */
@@ -66,7 +66,7 @@ VALUES (30289,   1, 'Viamontian Commander') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30289,   1,   33559125) /* Setup */
-     , (30289,   2,  150994945) /* MotionTable */
+     , (30289,   2,  150995334) /* MotionTable */
      , (30289,   3,  536871102) /* SoundTable */
      , (30289,   4,  805306368) /* CombatTable */
      , (30289,   6,   67115468) /* PaletteBase */

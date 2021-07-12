@@ -14,7 +14,7 @@ VALUES (30033,   1,         16) /* ItemType - Creature */
      , (30033,  27,          0) /* ArmorType - None */
      , (30033,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */
      , (30033,  75,          0) /* MerchandiseMinValue */
-     , (30033,  76,      25000) /* MerchandiseMaxValue */
+     , (30033,  76,    1000000) /* MerchandiseMaxValue */
      , (30033,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30033, 113,          2) /* Gender - Female */
      , (30033, 126,        500) /* VendorHappyMean */
@@ -39,19 +39,19 @@ VALUES (30033,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30033,   1,       5) /* HeartbeatInterval */
      , (30033,   2,       0) /* HeartbeatTimestamp */
-     , (30033,   3, 0.159999996423721) /* HealthRate */
+     , (30033,   3,    0.16) /* HealthRate */
      , (30033,   4,       5) /* StaminaRate */
      , (30033,   5,       1) /* ManaRate */
      , (30033,  11,     300) /* ResetInterval */
-     , (30033,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (30033,  13,     0.9) /* ArmorModVsSlash */
      , (30033,  14,       1) /* ArmorModVsPierce */
-     , (30033,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (30033,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (30033,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (30033,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30033,  16,     0.4) /* ArmorModVsCold */
+     , (30033,  17,     0.4) /* ArmorModVsFire */
      , (30033,  18,       1) /* ArmorModVsAcid */
-     , (30033,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (30033,  37, 0.899999976158142) /* BuyPrice */
-     , (30033,  38, 1.35000002384186) /* SellPrice */
+     , (30033,  19,     0.6) /* ArmorModVsElectric */
+     , (30033,  37,     0.9) /* BuyPrice */
+     , (30033,  38,    1.35) /* SellPrice */
      , (30033,  54,       3) /* UseRadius */
      , (30033,  64,       1) /* ResistSlash */
      , (30033,  65,       1) /* ResistPierce */
@@ -80,13 +80,7 @@ VALUES (30033,   1,   33554510) /* Setup */
      , (30033,   2,  150994945) /* MotionTable */
      , (30033,   3,  536870914) /* SoundTable */
      , (30033,   6,   67108990) /* PaletteBase */
-     , (30033,   8,  100667446) /* Icon */
-     , (30033,   9,   83890278) /* EyesTexture */
-     , (30033,  10,   83890311) /* NoseTexture */
-     , (30033,  14,   83890353) /* DefaultMouthTexture */
-     , (30033,  15,   67116989) /* HairPalette */
-     , (30033,  16,   67109564) /* EyesPalette */
-     , (30033,  17,   67115908) /* SkinPalette */;
+     , (30033,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30033,   1,  45, 0, 0) /* Strength */
@@ -256,7 +250,7 @@ VALUES (30033, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (30033, 2, 30740,  0, 0, 0, False) /* Create Tiara (30740) for Wield */
      , (30033, 2,  8871,  0, 85, 0.5, False) /* Create Kireth Gown with Band (8871) for Wield */
      , (30033, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
-     , (30033, 4, 41403, -1, 0, 0, False) /* Create  (41403) for Shop */
+     , (30033, 4, 41403, -1, 0, 0, False) /* Create Jeweler's Saw Frame (41403) for Shop */
      , (30033, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
      , (30033, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
      , (30033, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */

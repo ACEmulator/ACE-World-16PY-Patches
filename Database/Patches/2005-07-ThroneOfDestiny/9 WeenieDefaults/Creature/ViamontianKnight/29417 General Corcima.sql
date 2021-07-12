@@ -30,28 +30,28 @@ VALUES (29417,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29417,   1,       5) /* HeartbeatInterval */
      , (29417,   2,       0) /* HeartbeatTimestamp */
-     , (29417,   3, 0.100000001490116) /* HealthRate */
+     , (29417,   3,     0.1) /* HealthRate */
      , (29417,   4,       3) /* StaminaRate */
      , (29417,   5,       1) /* ManaRate */
      , (29417,  12,     0.5) /* Shade */
-     , (29417,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (29417,  14, 1.20000004768372) /* ArmorModVsPierce */
+     , (29417,  13,     1.2) /* ArmorModVsSlash */
+     , (29417,  14,     1.2) /* ArmorModVsPierce */
      , (29417,  15,       1) /* ArmorModVsBludgeon */
      , (29417,  16,       1) /* ArmorModVsCold */
      , (29417,  17,       1) /* ArmorModVsFire */
      , (29417,  18,       1) /* ArmorModVsAcid */
-     , (29417,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (29417,  19,     0.8) /* ArmorModVsElectric */
      , (29417,  31,      18) /* VisualAwarenessRange */
      , (29417,  34,       1) /* PowerupTime */
      , (29417,  36,       1) /* ChargeSpeed */
-     , (29417,  39, 1.29999995231628) /* DefaultScale */
-     , (29417,  64, 0.800000011920929) /* ResistSlash */
-     , (29417,  65, 0.800000011920929) /* ResistPierce */
-     , (29417,  66, 0.899999976158142) /* ResistBludgeon */
+     , (29417,  39,     1.3) /* DefaultScale */
+     , (29417,  64,     0.8) /* ResistSlash */
+     , (29417,  65,     0.8) /* ResistPierce */
+     , (29417,  66,     0.9) /* ResistBludgeon */
      , (29417,  67,       1) /* ResistFire */
-     , (29417,  68, 0.899999976158142) /* ResistCold */
-     , (29417,  69, 0.899999976158142) /* ResistAcid */
-     , (29417,  70, 1.20000004768372) /* ResistElectric */
+     , (29417,  68,     0.9) /* ResistCold */
+     , (29417,  69,     0.9) /* ResistAcid */
+     , (29417,  70,    1.2) /* ResistElectric */
      , (29417,  71,       1) /* ResistHealthBoost */
      , (29417,  72,       1) /* ResistStaminaDrain */
      , (29417,  73,       1) /* ResistStaminaBoost */
@@ -65,8 +65,8 @@ VALUES (29417,   1, 'General Corcima') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29417,   1,   33559125) /* Setup */
-     , (29417,   2,  150994945) /* MotionTable */
-     , (29417,   3,  536870913) /* SoundTable */
+     , (29417,   2,  150995334) /* MotionTable */
+     , (29417,   3,  536871102) /* SoundTable */
      , (29417,   4,  805306368) /* CombatTable */
      , (29417,   6,   67115468) /* PaletteBase */
      , (29417,   7,  268436907) /* ClothingBase */
@@ -88,14 +88,14 @@ VALUES (29417,   1,  4792, 0, 0, 5000) /* MaxHealth */
      , (29417,   5,     0, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29417, 45, 0, 3, 0, 390, 0, 0) /* LightWeapons        Specialized */
-     , (29417, 46, 0, 3, 0, 390, 0, 0) /* FinesseWeapons      Specialized */
-     , (29417,  6, 0, 3, 0, 285, 0, 0) /* MeleeDefense        Specialized */
+VALUES (29417,  6, 0, 3, 0, 285, 0, 0) /* MeleeDefense        Specialized */
      , (29417,  7, 0, 3, 0, 360, 0, 0) /* MissileDefense      Specialized */
-     , (29417, 44, 0, 3, 0, 390, 0, 0) /* HeavyWeapons        Specialized */
-     , (29417, 47, 0, 3, 0, 215, 0, 0) /* MissileWeapons      Specialized */
      , (29417, 15, 0, 3, 0, 385, 0, 0) /* MagicDefense        Specialized */
-     , (29417, 41, 0, 3, 0, 390, 0, 0) /* TwoHandedCombat     Specialized */;
+     , (29417, 41, 0, 3, 0, 390, 0, 0) /* TwoHandedCombat     Specialized */
+     , (29417, 44, 0, 3, 0, 390, 0, 0) /* HeavyWeapons        Specialized */
+     , (29417, 45, 0, 3, 0, 390, 0, 0) /* LightWeapons        Specialized */
+     , (29417, 46, 0, 3, 0, 390, 0, 0) /* FinesseWeapons      Specialized */
+     , (29417, 47, 0, 3, 0, 215, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (29417,  0,  4,  0,    0,  570,  662,  662,  570,  570,  505,  570,  452,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

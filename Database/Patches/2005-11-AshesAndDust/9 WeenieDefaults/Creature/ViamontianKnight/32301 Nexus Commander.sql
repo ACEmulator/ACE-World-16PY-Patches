@@ -32,28 +32,28 @@ VALUES (32301,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32301,   1,       5) /* HeartbeatInterval */
      , (32301,   2,       0) /* HeartbeatTimestamp */
-     , (32301,   3, 0.0670000016689301) /* HealthRate */
+     , (32301,   3,   0.067) /* HealthRate */
      , (32301,   4,       3) /* StaminaRate */
      , (32301,   5,       1) /* ManaRate */
      , (32301,  12,     0.5) /* Shade */
-     , (32301,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (32301,  14, 1.20000004768372) /* ArmorModVsPierce */
+     , (32301,  13,     1.2) /* ArmorModVsSlash */
+     , (32301,  14,     1.2) /* ArmorModVsPierce */
      , (32301,  15,       1) /* ArmorModVsBludgeon */
      , (32301,  16,       1) /* ArmorModVsCold */
-     , (32301,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (32301,  17,     0.8) /* ArmorModVsFire */
      , (32301,  18,       1) /* ArmorModVsAcid */
-     , (32301,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (32301,  19,     0.8) /* ArmorModVsElectric */
      , (32301,  31,      12) /* VisualAwarenessRange */
      , (32301,  34,       1) /* PowerupTime */
      , (32301,  36,       1) /* ChargeSpeed */
-     , (32301,  39, 1.29999995231628) /* DefaultScale */
-     , (32301,  64, 0.800000011920929) /* ResistSlash */
-     , (32301,  65, 0.800000011920929) /* ResistPierce */
-     , (32301,  66, 0.899999976158142) /* ResistBludgeon */
-     , (32301,  67, 1.20000004768372) /* ResistFire */
-     , (32301,  68, 0.899999976158142) /* ResistCold */
-     , (32301,  69, 0.899999976158142) /* ResistAcid */
-     , (32301,  70, 1.20000004768372) /* ResistElectric */
+     , (32301,  39,     1.3) /* DefaultScale */
+     , (32301,  64,     0.8) /* ResistSlash */
+     , (32301,  65,     0.8) /* ResistPierce */
+     , (32301,  66,     0.9) /* ResistBludgeon */
+     , (32301,  67,     1.2) /* ResistFire */
+     , (32301,  68,     0.9) /* ResistCold */
+     , (32301,  69,     0.9) /* ResistAcid */
+     , (32301,  70,     1.2) /* ResistElectric */
      , (32301,  71,       1) /* ResistHealthBoost */
      , (32301,  72,       1) /* ResistStaminaDrain */
      , (32301,  73,       1) /* ResistStaminaBoost */
@@ -152,8 +152,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32301,  9, 32300,  1, 0, 1, False) /* Create Nexus Commander's Helm (32300) for ContainTreasure */
-     , (32301,  9, 32302,  1, 0, 1, False) /* Create Nexus Commander's Orders (32302) for ContainTreasure */
+VALUES (32301, 9, 32300,  1, 0, 1, False) /* Create Nexus Commander's Helm (32300) for ContainTreasure */
+     , (32301, 9, 32302,  1, 0, 1, False) /* Create Nexus Commander's Orders (32302) for ContainTreasure */
      , (32301, 10, 29966,  1, 0, 0.25, False) /* Create Quadrelle (29966) for WieldTreasure */
      , (32301, 10, 29971,  1, 0, 0.25, False) /* Create Partizan (29971) for WieldTreasure */
      , (32301, 10, 29976,  1, 0, 0.25, False) /* Create Spadone (29976) for WieldTreasure */

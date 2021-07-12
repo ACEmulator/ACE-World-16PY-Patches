@@ -46,10 +46,10 @@ VALUES (33798,   1,       5) /* HeartbeatInterval */
      , (33798,  39,       2) /* DefaultScale */
      , (33798,  64,     0.8) /* ResistSlash */
      , (33798,  65,     0.8) /* ResistPierce */
-     , (33798,  66,    0.89) /* ResistBludgeon */
+     , (33798,  66,     0.9) /* ResistBludgeon */
      , (33798,  67,     1.2) /* ResistFire */
-     , (33798,  68,    0.89) /* ResistCold */
-     , (33798,  69,    0.89) /* ResistAcid */
+     , (33798,  68,     0.9) /* ResistCold */
+     , (33798,  69,     0.9) /* ResistAcid */
      , (33798,  70,     1.2) /* ResistElectric */
      , (33798,  71,       1) /* ResistHealthBoost */
      , (33798,  72,       1) /* ResistStaminaDrain */

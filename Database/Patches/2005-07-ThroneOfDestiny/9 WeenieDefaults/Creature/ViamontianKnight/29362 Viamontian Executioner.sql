@@ -17,6 +17,7 @@ VALUES (29362,   1,         16) /* ItemType - Creature */
      , (29362,  72,         83) /* FriendType - ViamontianKnight */
      , (29362,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29362, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
+     , (29362, 113,          1) /* Gender - Male */
      , (29362, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (29362, 140,          1) /* AiOptions - CanOpenDoors */
      , (29362, 146,       7000) /* XpOverride */
@@ -33,26 +34,26 @@ VALUES (29362,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29362,   1,       5) /* HeartbeatInterval */
      , (29362,   2,       0) /* HeartbeatTimestamp */
-     , (29362,   3, 0.0670000016689301) /* HealthRate */
+     , (29362,   3,   0.067) /* HealthRate */
      , (29362,   4,       3) /* StaminaRate */
      , (29362,   5,       1) /* ManaRate */
-     , (29362,  12, 0.178599998354912) /* Shade */
-     , (29362,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (29362,  14, 1.20000004768372) /* ArmorModVsPierce */
+     , (29362,  12,  0.1786) /* Shade */
+     , (29362,  13,     1.2) /* ArmorModVsSlash */
+     , (29362,  14,     1.2) /* ArmorModVsPierce */
      , (29362,  15,       1) /* ArmorModVsBludgeon */
      , (29362,  16,       1) /* ArmorModVsCold */
-     , (29362,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (29362,  17,     0.8) /* ArmorModVsFire */
      , (29362,  18,       1) /* ArmorModVsAcid */
-     , (29362,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (29362,  19,     0.8) /* ArmorModVsElectric */
      , (29362,  31,      20) /* VisualAwarenessRange */
      , (29362,  39,       1) /* DefaultScale */
-     , (29362,  64, 0.800000011920929) /* ResistSlash */
-     , (29362,  65, 0.800000011920929) /* ResistPierce */
-     , (29362,  66, 0.899999976158142) /* ResistBludgeon */
-     , (29362,  67, 1.14999997615814) /* ResistFire */
-     , (29362,  68, 0.899999976158142) /* ResistCold */
-     , (29362,  69, 0.899999976158142) /* ResistAcid */
-     , (29362,  70, 1.20000004768372) /* ResistElectric */
+     , (29362,  64,     0.8) /* ResistSlash */
+     , (29362,  65,     0.8) /* ResistPierce */
+     , (29362,  66,     0.9) /* ResistBludgeon */
+     , (29362,  67,    1.15) /* ResistFire */
+     , (29362,  68,     0.9) /* ResistCold */
+     , (29362,  69,     0.9) /* ResistAcid */
+     , (29362,  70,     1.2) /* ResistElectric */
      , (29362,  71,       1) /* ResistHealthBoost */
      , (29362,  72,       1) /* ResistStaminaDrain */
      , (29362,  73,       1) /* ResistStaminaBoost */
@@ -72,12 +73,6 @@ VALUES (29362,   1,   33554433) /* Setup */
      , (29362,   4,  805306368) /* CombatTable */
      , (29362,   6,   67108990) /* PaletteBase */
      , (29362,   8,  100667446) /* Icon */
-     , (29362,   9,   83890516) /* EyesTexture */
-     , (29362,  10,   83890549) /* NoseTexture */
-     , (29362,  11,   83890632) /* MouthTexture */
-     , (29362,  15,   67117100) /* HairPalette */
-     , (29362,  16,   67109564) /* EyesPalette */
-     , (29362,  17,   67115901) /* SkinPalette */
      , (29362,  22,  872415236) /* PhysicsEffectTable */
      , (29362,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 

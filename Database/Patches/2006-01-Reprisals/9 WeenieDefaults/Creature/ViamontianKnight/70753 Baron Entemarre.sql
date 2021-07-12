@@ -42,7 +42,7 @@ VALUES (70753,   1,       5) /* HeartbeatInterval */
      , (70753,  31,      12) /* VisualAwarenessRange */
      , (70753,  34,       1) /* PowerupTime */
      , (70753,  36,       1) /* ChargeSpeed */
-     , (70753,  39,     1.2) /* DefaultScale */
+     , (70753,  39,       1) /* DefaultScale */
      , (70753,  64,     0.8) /* ResistSlash */
      , (70753,  65,     0.8) /* ResistPierce */
      , (70753,  66,     0.9) /* ResistBludgeon */
@@ -148,18 +148,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (70753, 8, 34276,  0, 0, 0.005, True) /* Create Ancient Empyrean Trinket (34276) for Treasure */
+     , (70753, 9, 70755,  1, 0, 1, True) /* Create Entemarre's Head (70755) for ContainTreasure */
      , (70753, 10, 29966,  1, 0, 0.25, False) /* Create Quadrelle (29966) for WieldTreasure */
-     , (70753, 9, 70755,  1, 0, 	1, 	True) /* Create Entemarre's Head WieldTreasure */
      , (70753, 10, 29971,  1, 0, 0.25, False) /* Create Partizan (29971) for WieldTreasure */
      , (70753, 10, 29976,  1, 0, 0.25, False) /* Create Spadone (29976) for WieldTreasure */
      , (70753, 10, 29980, -1, 0, 0.25, False) /* Create Throwing Axe (29980) for WieldTreasure */;
-
-/* Lifestoned Changelog:
-{
-  "LastModified": "2020-02-16T18:33:37.0144737-05:00",
-  "ModifiedBy": "MasterAilan",
-  "Changelog": [],
-  "UserChangeSummary": "-Updated Soundtable DID to 536871102\r\n-Adjusted body part damage to 70 to be more in-line with weapon set (down from 120).\r\n-Removed old weapon skill set and updated to light,heavy, finesse, missile.\r\n-Lowered attack difficulty to  465 total from 485.",
-  "IsDone": true
-}
-*/

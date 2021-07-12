@@ -34,26 +34,26 @@ VALUES (32295,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32295,   1,       5) /* HeartbeatInterval */
      , (32295,   2,       0) /* HeartbeatTimestamp */
-     , (32295,   3, 0.0670000016689301) /* HealthRate */
+     , (32295,   3,   0.067) /* HealthRate */
      , (32295,   4,       3) /* StaminaRate */
      , (32295,   5,       1) /* ManaRate */
-     , (32295,  12, 0.178599998354912) /* Shade */
-     , (32295,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (32295,  14, 1.20000004768372) /* ArmorModVsPierce */
+     , (32295,  12,  0.1786) /* Shade */
+     , (32295,  13,     1.2) /* ArmorModVsSlash */
+     , (32295,  14,     1.2) /* ArmorModVsPierce */
      , (32295,  15,       1) /* ArmorModVsBludgeon */
      , (32295,  16,       1) /* ArmorModVsCold */
-     , (32295,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (32295,  17,     0.8) /* ArmorModVsFire */
      , (32295,  18,       1) /* ArmorModVsAcid */
-     , (32295,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (32295,  19,     0.8) /* ArmorModVsElectric */
      , (32295,  31,      20) /* VisualAwarenessRange */
      , (32295,  39,       1) /* DefaultScale */
-     , (32295,  64, 0.800000011920929) /* ResistSlash */
-     , (32295,  65, 0.800000011920929) /* ResistPierce */
-     , (32295,  66, 0.899999976158142) /* ResistBludgeon */
-     , (32295,  67, 1.14999997615814) /* ResistFire */
-     , (32295,  68, 0.899999976158142) /* ResistCold */
-     , (32295,  69, 0.899999976158142) /* ResistAcid */
-     , (32295,  70, 1.20000004768372) /* ResistElectric */
+     , (32295,  64,     0.8) /* ResistSlash */
+     , (32295,  65,     0.8) /* ResistPierce */
+     , (32295,  66,     0.9) /* ResistBludgeon */
+     , (32295,  67,    1.15) /* ResistFire */
+     , (32295,  68,     0.9) /* ResistCold */
+     , (32295,  69,     0.9) /* ResistAcid */
+     , (32295,  70,     1.2) /* ResistElectric */
      , (32295,  71,       1) /* ResistHealthBoost */
      , (32295,  72,       1) /* ResistStaminaDrain */
      , (32295,  73,       1) /* ResistStaminaBoost */
@@ -73,7 +73,6 @@ VALUES (32295,   1,   33554433) /* Setup */
      , (32295,   4,  805306368) /* CombatTable */
      , (32295,   6,   67108990) /* PaletteBase */
      , (32295,   8,  100667446) /* Icon */
-     , (32295,  17,   67115908) /* SkinPalette */
      , (32295,  22,  872415236) /* PhysicsEffectTable */
      , (32295,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 

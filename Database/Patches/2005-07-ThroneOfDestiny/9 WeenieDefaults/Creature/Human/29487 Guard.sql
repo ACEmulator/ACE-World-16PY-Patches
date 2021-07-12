@@ -38,13 +38,7 @@ VALUES (29487,   1,   33554433) /* Setup */
      , (29487,   2,  150994945) /* MotionTable */
      , (29487,   3,  536870913) /* SoundTable */
      , (29487,   6,   67108990) /* PaletteBase */
-     , (29487,   8,  100667377) /* Icon */
-     , (29487,   9,   83890485) /* EyesTexture */
-     , (29487,  10,   83890518) /* NoseTexture */
-     , (29487,  11,   83890570) /* MouthTexture */
-     , (29487,  15,   67117026) /* HairPalette */
-     , (29487,  16,   67110065) /* EyesPalette */
-     , (29487,  17,   67115902) /* SkinPalette */;
+     , (29487,   8,  100667377) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29487,   1, 200, 0, 0) /* Strength */
@@ -97,7 +91,7 @@ VALUES (29487,  5 /* HeartBeat */,    0.2, NULL, 2147483709 /* NonCombat */, 109
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   8 /* Say */, 0, 1, NULL, 'Knights of Viamont are men, not monsters. Varicci has gone too far...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Knights of Viamont are men, not monsters. Varicci has gone too far...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29487,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

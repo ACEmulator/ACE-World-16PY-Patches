@@ -39,19 +39,19 @@ VALUES (30040,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30040,   1,       5) /* HeartbeatInterval */
      , (30040,   2,       0) /* HeartbeatTimestamp */
-     , (30040,   3, 0.159999996423721) /* HealthRate */
+     , (30040,   3,    0.16) /* HealthRate */
      , (30040,   4,       5) /* StaminaRate */
      , (30040,   5,       1) /* ManaRate */
      , (30040,  11,     300) /* ResetInterval */
-     , (30040,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (30040,  13,     0.9) /* ArmorModVsSlash */
      , (30040,  14,       1) /* ArmorModVsPierce */
-     , (30040,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (30040,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (30040,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (30040,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30040,  16,     0.4) /* ArmorModVsCold */
+     , (30040,  17,     0.4) /* ArmorModVsFire */
      , (30040,  18,       1) /* ArmorModVsAcid */
-     , (30040,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (30040,  37, 0.899999976158142) /* BuyPrice */
-     , (30040,  38, 1.35000002384186) /* SellPrice */
+     , (30040,  19,     0.6) /* ArmorModVsElectric */
+     , (30040,  37,     0.9) /* BuyPrice */
+     , (30040,  38,    1.35) /* SellPrice */
      , (30040,  54,       3) /* UseRadius */
      , (30040,  64,       1) /* ResistSlash */
      , (30040,  65,       1) /* ResistPierce */
@@ -80,13 +80,7 @@ VALUES (30040,   1,   33554433) /* Setup */
      , (30040,   2,  150994945) /* MotionTable */
      , (30040,   3,  536870913) /* SoundTable */
      , (30040,   6,   67108990) /* PaletteBase */
-     , (30040,   8,  100667446) /* Icon */
-     , (30040,   9,   83890501) /* EyesTexture */
-     , (30040,  10,   83890549) /* NoseTexture */
-     , (30040,  14,   83890640) /* DefaultMouthTexture */
-     , (30040,  15,   67116986) /* HairPalette */
-     , (30040,  16,   67110063) /* EyesPalette */
-     , (30040,  17,   67115903) /* SkinPalette */;
+     , (30040,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30040,   1,  45, 0, 0) /* Strength */
