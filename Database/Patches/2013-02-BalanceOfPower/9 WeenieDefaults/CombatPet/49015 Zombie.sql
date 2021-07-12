@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49015;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49015, 'ace49015-zombie', 71, '2021-07-12 10:02:57') /* CombatPet */;
+VALUES (49015, 'ace49015-zombie', 71, '2021-07-12 02:37:45') /* CombatPet */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49015,   1,         16) /* ItemType - Creature */
@@ -72,13 +72,13 @@ VALUES (49015,  0, 64,  0,    0,  570,  570,  570,  570,  570,  570,  570,  570,
      , (49015,  8, 64, 825, 0.75,  570,  570,  570,  570,  570,  570,  570,  570,  570, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49015, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
-     , (49015, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
-     , (49015, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
-     , (49015, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
-     , (49015, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
-     , (49015, 2, 48984,  1, 1, 0, False) /* Create Lightning Hatchet (48984) for Wield */
+VALUES (49015, 2, 48984,  1, 1, 0, False) /* Create Lightning Hatchet (48984) for Wield */
      , (49015, 2,  2596,  1, 9, 0.1, False) /* Create Doublet (2596) for Wield */
      , (49015, 2, 87371,  1, 92, 0.3091, False) /* Create Haebrean Breastplate (87371) for Wield */
      , (49015, 2, 87372,  1, 92, 0.2545, False) /* Create Haebrean Girth (87372) for Wield */
-     , (49015, 2, 87374,  1, 92, 0.2364, False) /* Create Haebrean Pauldrons (87374) for Wield */;
+     , (49015, 2, 87373,  1, 92, 1E-05, False) /* Create Haebrean Tassets (87373) for Wield */
+     , (49015, 2, 87374,  1, 92, 0.2364, False) /* Create Haebrean Pauldrons (87374) for Wield */
+     , (49015, 2, 87375,  1, 92, 1E-05, False) /* Create Haebrean Boots (87375) for Wield */
+     , (49015, 2, 87376,  1, 92, 1E-05, False) /* Create Haebrean Greaves (87376) for Wield */
+     , (49015, 2, 87377,  1, 92, 1E-05, False) /* Create Haebrean Vambraces (87377) for Wield */
+     , (49015, 2, 87378,  1, 92, 1E-05, False) /* Create Haebrean Gauntlets (87378) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49028;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49028, 'ace49028-zombie', 71, '2021-07-12 10:03:07') /* CombatPet */;
+VALUES (49028, 'ace49028-zombie', 71, '2021-07-12 02:38:01') /* CombatPet */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49028,   1,         16) /* ItemType - Creature */
@@ -72,11 +72,11 @@ VALUES (49028,  0,  8,  0,    0,  530,  530,  530,  530,  530,  530,  530,  530,
      , (49028,  8,  8, 248, 0.75,  530,  530,  530,  530,  530,  530,  530,  530,  530, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49028, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
-     , (49028, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
-     , (49028, 0,     0,  0, 0, 0, False) /* Create nothing for Undef */
-     , (49028, 2, 48997,  1, 1, 0, False) /* Create Frost Hatchet (48997) for Wield */
+VALUES (49028, 2, 48997,  1, 1, 0, False) /* Create Frost Hatchet (48997) for Wield */
      , (49028, 2,  2596,  1, 9, 0.1, False) /* Create Doublet (2596) for Wield */
      , (49028, 2, 87371,  1, 91, 0.3091, False) /* Create Haebrean Breastplate (87371) for Wield */
      , (49028, 2, 87372,  1, 91, 0.2545, False) /* Create Haebrean Girth (87372) for Wield */
-     , (49028, 2, 87374,  1, 91, 0.2364, False) /* Create Haebrean Pauldrons (87374) for Wield */;
+     , (49028, 2, 87373,  1, 91, 1E-05, False) /* Create Haebrean Tassets (87373) for Wield */
+     , (49028, 2, 87374,  1, 91, 0.2364, False) /* Create Haebrean Pauldrons (87374) for Wield */
+     , (49028, 2, 87375,  1, 91, 1E-05, False) /* Create Haebrean Boots (87375) for Wield */
+     , (49028, 2, 87376,  1, 91, 1E-05, False) /* Create Haebrean Greaves (87376) for Wield */;
