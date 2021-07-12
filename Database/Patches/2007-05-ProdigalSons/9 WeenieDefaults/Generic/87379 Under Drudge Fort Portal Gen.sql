@@ -30,6 +30,6 @@ VALUES (87379,   1,   33555051) /* Setup */
      , (87379,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87379, -1, 87377, 1, 1, 1, 1, 4, 0, 0, 0, 15598504, 160.177, -191.093, 0.005, 0, 0, 0, 1) /* Generate Under Drudge Fort (87377) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (87379, -1, 87435, 1, 1, 1, 1, 4, 0, 0, 0, 15598504, 160.177, -191.093, 0.005, 0, 0, 0, 1) /* Generate Under Drudge Fort (87435) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (87379, -1, 87380, 1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1) /* Generate Under Drudge Fort Portal Controller (87380) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (87379, -1, 80007, 1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1) /* Generate Landblock KeepAlive (80007) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

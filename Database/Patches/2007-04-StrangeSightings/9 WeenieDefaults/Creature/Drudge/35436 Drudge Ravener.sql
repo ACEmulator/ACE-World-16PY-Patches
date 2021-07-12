@@ -222,7 +222,7 @@ VALUES (35436, 2, 47388,  1, 0, 0, False) /* Create Flaming Club (47388) for Wie
      , (35436, 2, 47369,  1, 0, 0, False) /* Create Lightning Club (47369) for Wield */
      , (35436, 2, 47255,  1, 0, 0, False) /* Create Board with Nail (47255) for Wield */
      , (35436, 2, 47236,  1, 0, 0, False) /* Create Acid Board with Nail (47236) for Wield */
-     , (35436, 9, 87371,  0, 0, 1, False) /* Create Spire Chunk (87371) for ContainTreasure */
+     , (35436, 9, 87428,  0, 0, 1, False) /* Create Spire Chunk (87428) for ContainTreasure */
      , (35436, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (35436, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (35436, 9,  7040,  0, 0, 0.03, False) /* Create Ravener Guts (7040) for ContainTreasure */

@@ -228,4 +228,4 @@ VALUES (35445, 2, 47386,  1, 0, 0, False) /* Create Flaming Club (47386) for Wie
      , (35445, 2, 47310,  1, 0, 0, False) /* Create Frost Board with Nail (47310) for Wield */
      , (35445, 2, 47348,  1, 0, 0, False) /* Create Club (47348) for Wield */
      , (35445, 2, 47405,  1, 0, 0, False) /* Create Frost Club (47405) for Wield */
-     , (35445, 9, 87371,  1, 0, 1, False) /* Create Spire Chunk (87371) for ContainTreasure */;
+     , (35445, 9, 87428,  1, 0, 1, False) /* Create Spire Chunk (87428) for ContainTreasure */;
