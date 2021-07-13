@@ -1,6 +1,7 @@
-ReceiveLocalSignal: AerbaxEventCleanup
-	- Delay: 60, Motion: Wave
-	- StopEvent: aerbaxshadowBooterevent
+Generation:
+	- Delay: 3600, Motion: Wave
+	- StartEvent: aerbaxshadowbootmeevent
+	- Delay: 30, Motion: Wave
 	- StopEvent: aerbaxelementalprotectorevent
 	- StopEvent: aerbaxmosswartprotectorevent
 	- StopEvent: aerbaxshadow1event
@@ -12,3 +13,5 @@ ReceiveLocalSignal: AerbaxEventCleanup
 	- StopEvent: aerbaxsreturnportalevent
 	- StopEvent: aerbaxtuskerprotectorevent
 	- StopEvent: aerbaxshadow_inuseevent
+	- StopEvent: aerbaxshadowbootmeevent
+	- StopEvent: aerbaxshadowBooterevent
