@@ -18,8 +18,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53447,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53447,   1, 'Eldrytch Web Gauntlet') /* Name */
-     , (53447,  37, 'EldrytchWebMember') /* QuestRestriction */;
+VALUES (53447,   1, 'Eldrytch Web Gauntlet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53447,   1,   33554867) /* Setup */

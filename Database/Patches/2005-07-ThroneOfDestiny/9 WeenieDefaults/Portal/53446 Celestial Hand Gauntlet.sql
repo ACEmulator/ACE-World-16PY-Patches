@@ -18,8 +18,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53446,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53446,   1, 'Celestial Hand Gauntlet') /* Name */
-     , (53446,  37, 'CelestialHandMember') /* QuestRestriction */;
+VALUES (53446,   1, 'Celestial Hand Gauntlet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53446,   1,   33555922) /* Setup */
