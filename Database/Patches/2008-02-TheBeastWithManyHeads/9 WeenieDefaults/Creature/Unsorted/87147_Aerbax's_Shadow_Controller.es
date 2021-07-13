@@ -1,4 +1,7 @@
 Generation:
+	- Motion: Wave
+	- StartEvent: aerbaxshadow1event
+	- StartEvent: aerbaxshadow_inuseevent
 	- Delay: 3600, Motion: Wave
 	- StartEvent: aerbaxshadowbootmeevent
 	- Delay: 30, Motion: Wave
@@ -14,4 +17,4 @@ Generation:
 	- StopEvent: aerbaxtuskerprotectorevent
 	- StopEvent: aerbaxshadow_inuseevent
 	- StopEvent: aerbaxshadowbootmeevent
-	- StopEvent: aerbaxshadowBooterevent
+	- StopEvent: aerbaxshadowcontrollerevent

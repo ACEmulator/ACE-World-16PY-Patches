@@ -15,9 +15,7 @@ Use:
 							- EraseQuest: aerbaxshadowdefeated
 							- EraseQuest: aerbaxcitadelfellowstart
 							- EraseQuest: AerbaxPlatformAccess
-							- EraseQuest: deviceroomportalflag
 							- StampQuest: AerbaxCompletedWait
-							- StopEvent: aerbaxshadow_inuseevent
 							- Goto: Rewards 
 						QuestFailure:
 							- Tell: Well done! Aerbax's Shadow has lost his hold on the planar energies his device has been extracting. We must stay vigilant for he will continue to gain power as long as he holds the platforms. Return tomorrow to defeat Aerbax's Shadow again and I will reward you further.
@@ -30,8 +28,6 @@ Use:
 							- EraseQuest: aerbaxshadowdefeated
 							- EraseQuest: aerbaxcitadelfellowstart
 							- EraseQuest: AerbaxPlatformAccess
-							- EraseQuest: deviceroomportalflag
-							- StopEvent: aerbaxshadow_inuseevent
 							- StampQuest: AerbaxCompletedWait
 							- Goto: Rewards 
 				QuestFailure:
@@ -141,14 +137,12 @@ GotoSet: Complete
 			QuestFailure:
 				- Delay: 1, TellFellow: Good, I am attuning your fellowship to the resonant magic field surrounding the device. Be warned, this spell will only allow you access to Aerbax's platforms for one hour before it fails and Aerbax expels you.
 				- Delay: 1, TellFellow: Please return to me if you succeed in defeating Aerbax and I will reward you.
-				- LockFellow
 				- StampFellowQuest: aerbaxcitadelfellowstart
-				- StartEvent: aerbaxshadowBooterevent
-				- StartEvent: aerbaxshadow1event
-				- StartEvent: aerbaxshadow_inuseevent
+				- StartEvent: aerbaxshadowcontrollerevent
 				- EraseQuest: gaveeastgateharmoniccrystal
 				- EraseQuest: gavenorthgateharmoniccrystal
 				- EraseQuest: gavewestgateharmoniccrystal
+				- LockFellow
 			QuestNoFellow:
 				- Tell: You cannot proceed unless you first create a Fellowship.
 				- Give: 37061
@@ -161,6 +155,7 @@ GotoSet: Rewards
 			- Give: 38919
 			- Give: Empowered Helm of the Perfect Light (36948)
 			- StampQuest: aerbaxcitadelrewards1
+			
 GotoSet: Rewards2
 	- InqQuest: aerbaxcitadelrewards2
 		QuestSuccess:
@@ -169,6 +164,7 @@ GotoSet: Rewards2
 			- Give: 38919
 			- Give: Empowered Girth of the Perfect Light (37111)
 			- StampQuest: aerbaxcitadelrewards2		
+			
 GotoSet: Rewards3
 	- InqQuest: aerbaxcitadelrewards3
 		QuestSuccess:
@@ -177,6 +173,7 @@ GotoSet: Rewards3
 			- Give: 38919
 			- Give: Empowered Greaves of the Perfect Light (37112)
 			- StampQuest: aerbaxcitadelrewards3		
+			
 GotoSet: Rewards4		
 	- Give: 38919
 	- Give: Empowered Tassets of the Perfect Light (37113)
@@ -187,3 +184,4 @@ GotoSet: Rewards4
 Refuse: Aerbax Mask Shard (37058)
 	- DirectBroadcast: The Emissary carefully takes the Aerbax Mask Shard, surrounding it in a ball of white light. The Shard writhes with dark energy.
 	- Delay: 1, Tell: I cannot cleanse this mask shard, it is far too corrupted. Perhaps Leopold, the Virindi in Ayan Baqur, can do something with it.
+	
