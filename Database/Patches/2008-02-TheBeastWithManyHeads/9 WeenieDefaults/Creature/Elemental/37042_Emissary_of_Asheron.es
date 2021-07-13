@@ -77,7 +77,7 @@ Give: West Gate Harmonic Crystal (37061)
 			- StampQuest: gavewestgateharmoniccrystal
 			- Goto: CheckOthersWest
 
-GoToSet: CheckOthersEast
+GotoSet: CheckOthersEast
 	- InqQuest: gavenorthgateharmoniccrystal
 		QuestSuccess: 
 			- InqQuest: gavewestgateharmoniccrystal
@@ -96,7 +96,7 @@ GoToSet: CheckOthersEast
 					- Delay: 0.5, Tell: You haven't brought me the West Gate Harmonic Crystal yet.
 					- Delay: 0.5, Tell: Return to me when you have them and I will prepare you and a Fellowship of your choosing for travel to Aerbax's Platforms above.
 
-GoToSet: CheckOthersNorth
+GotoSet: CheckOthersNorth
 	- InqQuest: gaveeastgateharmoniccrystal
 		QuestSuccess: 
 			- InqQuest: gavewestgateharmoniccrystal
@@ -115,7 +115,7 @@ GoToSet: CheckOthersNorth
 					- Delay: 0.5, Tell: You haven't brought me the West Gate Harmonic Crystal yet.
 					- Delay: 0.5, Tell: Return to me when you have them and I will prepare you and a Fellowship of your choosing for travel to Aerbax's Platforms above.
 
-GoToSet: CheckOthersWest
+GotoSet: CheckOthersWest
 	- InqQuest: gaveeastgateharmoniccrystal
 		QuestSuccess: 
 			- InqQuest: gavenorthgateharmoniccrystal
@@ -134,21 +134,26 @@ GoToSet: CheckOthersWest
 					- Delay: 0.5, Tell: You haven't brought me the North Gate Harmonic Crystal yet.
 					- Delay: 0.5, Tell: Return to me when you have them and I will prepare you and a Fellowship of your choosing for travel to Aerbax's Platforms above.
 	
-GoToSet: Complete
+GotoSet: Complete
 	- Tell: Excellent! You have brought me all three Harmonic Crystals.
 	- Delay: 1, Tell: Have you prepared a fellowship friend?
-	- Delay: 1, TellFellow: Good, I am attuning your fellowship to the resonant magic field surrounding the device. Be warned, this spell will only allow you access to Aerbax's platforms for one hour before it fails and Aerbax expels you.
-	- Delay: 1, TellFellow: Please return to me if you succeed in defeating Aerbax and I will reward you.
-	- LockFellow
-	- StampFellowQuest: aerbaxcitadelfellowstart
-	- StartEvent: aerbaxshadow1event
-	- StartEvent: aerbaxshadowBooterevent
-	- StartEvent: aerbaxshadow_inuseevent
-	- EraseQuest: gaveeastgateharmoniccrystal
-	- EraseQuest: gavenorthgateharmoniccrystal
-	- EraseQuest: gavewestgateharmoniccrystal
+		- InqFellowQuest: IsPlayerInFellow?
+			QuestFailure:
+				- Delay: 1, TellFellow: Good, I am attuning your fellowship to the resonant magic field surrounding the device. Be warned, this spell will only allow you access to Aerbax's platforms for one hour before it fails and Aerbax expels you.
+				- Delay: 1, TellFellow: Please return to me if you succeed in defeating Aerbax and I will reward you.
+				- LockFellow
+				- StampFellowQuest: aerbaxcitadelfellowstart
+				- StartEvent: aerbaxshadowBooterevent
+				- StartEvent: aerbaxshadow1event
+				- StartEvent: aerbaxshadow_inuseevent
+				- EraseQuest: gaveeastgateharmoniccrystal
+				- EraseQuest: gavenorthgateharmoniccrystal
+				- EraseQuest: gavewestgateharmoniccrystal
+			QuestNoFellow:
+				- Tell: You cannot proceed unless you first create a Fellowship.
+				- Give: 37061
 	
-GoToSet: Rewards
+GotoSet: Rewards
 	- InqQuest: aerbaxcitadelrewards1
 		QuestSuccess:
 			- Goto: Rewards2
@@ -156,7 +161,7 @@ GoToSet: Rewards
 			- Give: 38919
 			- Give: Empowered Helm of the Perfect Light (36948)
 			- StampQuest: aerbaxcitadelrewards1
-GoToSet: Rewards2
+GotoSet: Rewards2
 	- InqQuest: aerbaxcitadelrewards2
 		QuestSuccess:
 			- Goto: Rewards3
@@ -164,7 +169,7 @@ GoToSet: Rewards2
 			- Give: 38919
 			- Give: Empowered Girth of the Perfect Light (37111)
 			- StampQuest: aerbaxcitadelrewards2		
-GoToSet: Rewards3
+GotoSet: Rewards3
 	- InqQuest: aerbaxcitadelrewards3
 		QuestSuccess:
 			- Goto: Rewards4
@@ -172,7 +177,7 @@ GoToSet: Rewards3
 			- Give: 38919
 			- Give: Empowered Greaves of the Perfect Light (37112)
 			- StampQuest: aerbaxcitadelrewards3		
-GoToSet: Rewards4		
+GotoSet: Rewards4		
 	- Give: 38919
 	- Give: Empowered Tassets of the Perfect Light (37113)
 	- EraseQuest: aerbaxcitadelrewards1	
