@@ -70,8 +70,7 @@ VALUES (30892,   1,       5) /* HeartbeatInterval */
      , (30892, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30892,   1, 'Fallen Rift') /* Name */
-     , (30892,  45, 'KilltaskFallenCreature_0609') /* KillQuest */;
+VALUES (30892,   1, 'Fallen Rift') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30892,   1,   33558550) /* Setup */

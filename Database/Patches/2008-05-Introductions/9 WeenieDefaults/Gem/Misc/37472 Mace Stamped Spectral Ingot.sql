@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37472;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37472, 'ace37472-macestampedspectralingot', 38, '2021-01-10 05:01:31') /* Gem */;
+VALUES (37472, 'ace37472-macestampedspectralingot', 38, '2020-10-29 05:01:31') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37472,   1,        128) /* ItemType - Misc */
@@ -35,5 +35,5 @@ VALUES (37472,   1,   33556769) /* Setup */
      , (37472,   8,  100689897) /* Icon */
      , (37472,  22,  872415275) /* PhysicsEffectTable */
      , (37472,  38,      70729) /* UseCreateItem - Spectral Mace */
-     , (37472,  50,  100673774) /* IconOverlay */
+     , (37472,  50,  100690641) /* IconOverlay */
      , (37472,  52,  100689404) /* IconUnderlay */;
