@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38024;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38024, 'ace38024-strangepillar', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (38024, 'ace38024-strangepillar', 10, '2021-07-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38024,   1,         16) /* ItemType - Creature */
@@ -18,13 +18,12 @@ VALUES (38024,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38024,   1, True ) /* Stuck */
-     , (38024,  13, False) /* Ethereal */
      , (38024,  19, False) /* Attackable */
      , (38024,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38024,  43,       12) /* GeneratorRadius */
-     , (38024,  54,       3) /* UseRadius */;
+     , (38024,  54,       10) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38024,   1, 'Strange Pillar') /* Name */;
@@ -56,6 +55,6 @@ VALUES (@parent_id, 0, 18 /* DirectBroadcast */, 0, 1, NULL, 'As you bring the c
      , (@parent_id, 2, 72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
      
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38024, -1, 38076, 3, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Imperial Guard (37179) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (38024, -1, 87217, 3, 5, 5, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Imperial Archivist (37180) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (38024, -1, 38076, 240, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Imperial Guard (37179) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (38024, -1, 87217, 240, 5, 5, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Imperial Archivist (37180) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
      
