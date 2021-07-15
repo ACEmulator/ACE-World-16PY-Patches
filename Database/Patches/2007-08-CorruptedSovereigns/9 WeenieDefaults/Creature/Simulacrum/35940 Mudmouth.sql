@@ -117,11 +117,16 @@ VALUES (35940,  0,  4,  0,    0,  600,  550,  550,  550,  550,  550,  550,  550,
      , (35940,  8,  4, 400, 0.75,  600,  550,  550,  550,  550,  550,  550,  550,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35940,  3463,   2.05)  /* Char Flesh */
+VALUES (35940,  2074,  2.033)  /* Gossamer Flesh */
+     , (35940,  2282,  2.035)  /* Futility */
+     , (35940,  3462,  2.039)  /* Canker Flesh */
+     , (35940,  3463,   2.05)  /* Char Flesh */
      , (35940,  3464,   2.03)  /* Numb Flesh */
-     , (35940,  3927,   2.03)  /* Charge Flesh */
+     , (35940,  3881,  2.032)  /* Corrosive Ring */
+     , (35940,  3927,  2.033)  /* Charge Flesh */
      , (35940,  4108,   2.06)  /* Apathy */
-     , (35940,  4109,   2.01)  /* Greater Marrow Blight */
+     , (35940,  4109, 2.0199)  /* Greater Marrow Blight */
+     , (35940,  4112,  2.037)  /* Spirit Nullification */
      , (35940,  4114,   2.03)  /* Hypnotic Suggestion */
      , (35940,  4115,   2.03)  /* Mesmerizing Gaze */
      , (35940,  4116,   2.03)  /* Trance */;

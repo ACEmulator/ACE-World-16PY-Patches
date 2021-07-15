@@ -5,6 +5,7 @@ VALUES (35938, 'ace35938-tuskerskullhelm', 2, '2019-02-10 00:00:00') /* Clothing
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35938,   1,          2) /* ItemType - Armor */
+     , (35938,   3,          4) /* PaletteTemplate - Brown */
      , (35938,   4,      16384) /* ClothingPriority - Head */
      , (35938,   5,        300) /* EncumbranceVal */
      , (35938,   9,          1) /* ValidLocations - HeadWear */
@@ -49,6 +50,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35938,   1,   33560346) /* Setup */
      , (35938,   3,  536870932) /* SoundTable */
      , (35938,   6,   67108990) /* PaletteBase */
+     , (35938,   7,  268437214) /* ClothingBase */
      , (35938,   8,  100689571) /* Icon */
      , (35938,  22,  872415275) /* PhysicsEffectTable */
      , (35938,  37,          6) /* ItemSkillLimit - MeleeDefense */;
