@@ -1,4 +1,4 @@
-rem @echo off
+@echo off
 
 if not defined APPVEYOR_PULL_REQUEST_NUMBER set APPVEYOR_PULL_REQUEST_NUMBER=0
 
@@ -6,12 +6,12 @@ if not defined APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH set APPVEYOR_PULL_REQUEST_
 
 set patch_name=%APPVEYOR_PULL_REQUEST_NUMBER%-%APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH%
 
-if exists branchname.txt del branchname.txt
-if exists mergebase.txt del mergebase.txt
-if exists patchfiles.txt del patchfiles.txt
-if exists %patch_name%.zip del %patch_name%.zip
+if exist branchname.txt del branchname.txt
+if exist mergebase.txt del mergebase.txt
+if exist patchfiles.txt del patchfiles.txt
+if exist %patch_name%.zip del %patch_name%.zip
 
-git branch --show current > branchname.txt
+git branch --show-current > branchname.txt
 
 set /p branch_name=<branchname.txt
 
@@ -190,7 +190,7 @@ FOR /D %%G IN ("*") DO (
 
 cd ..\..\..
 
-if exists %patch_name%.sql del %patch_name%.sql
+if exist %patch_name%.sql del %patch_name%.sql
 
 echo /* %patch_name% */ >> %patch_name%.sql
 echo /* Pull Request Title: %APPVEYOR_PULL_REQUEST_TITLE% */ >> %patch_name%.sql
