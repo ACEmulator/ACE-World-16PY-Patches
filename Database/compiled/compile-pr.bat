@@ -1,10 +1,9 @@
 rem @echo off
 @echo on
 
-if defined APPVEYOR_PULL_REQUEST_HEAD_COMMIT (
-git checkout -b %APPVEYOR_BUILD_VERSION%
-git fetch origin/master
-)
+rem if defined APPVEYOR_PULL_REQUEST_HEAD_COMMIT (
+rem git checkout -b %APPVEYOR_BUILD_VERSION%
+rem )
 
 if not defined APPVEYOR_PULL_REQUEST_NUMBER set APPVEYOR_PULL_REQUEST_NUMBER=0
 
