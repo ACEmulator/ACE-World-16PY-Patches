@@ -27,6 +27,10 @@ set /p merge_base=<mergebase.txt
 rem git whatchanged --name-only --pretty="" --diff-filter=ACM %merge_base%...%branch_name% | sort /unique >> prfiles.txt
 git whatchanged --name-only --pretty="" %merge_base%...%branch_name% | sort /unique >> patchfiles.txt
 
+git whatchanged --name-only --pretty="" %merge_base%...%branch_name%
+
+git whatchanged --name-only --pretty="" %merge_base%...%branch_name% | sort
+
 cd ..\..
 
 "C:\Program Files\7-Zip\7z.exe" a Database\compiled\%patch_name%.zip -spf -bb @Database\compiled\patchfiles.txt
