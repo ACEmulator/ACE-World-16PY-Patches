@@ -2,9 +2,7 @@ rem @echo off
 @echo on
 
 if defined APPVEYOR_PULL_REQUEST_HEAD_COMMIT (
-git stash -u
-git checkout -b %APPVEYOR_BUILD_VERSION%
-git stash pop
+git checkout -qf FETCH_HEAD -b %APPVEYOR_BUILD_VERSION%
 )
 
 if not defined APPVEYOR_PULL_REQUEST_NUMBER set APPVEYOR_PULL_REQUEST_NUMBER=0
