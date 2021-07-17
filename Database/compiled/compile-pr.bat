@@ -31,6 +31,8 @@ git whatchanged --name-only --pretty="" %merge_base%...%branch_name%
 
 git whatchanged --name-only --pretty="" %merge_base%...%branch_name% | sort
 
+git whatchanged --name-only --pretty="" %merge_base%...%branch_name% | sort | uniq
+
 cd ..\..
 
 "C:\Program Files\7-Zip\7z.exe" a Database\compiled\%patch_name%.zip -spf -bb @Database\compiled\patchfiles.txt
