@@ -1,7 +1,7 @@
 rem @echo off
 @echo on
 
-if not defined APPVEYOR_PULL_REQUEST_HEAD_COMMIT (
+if defined APPVEYOR_PULL_REQUEST_HEAD_COMMIT (
 git checkout -b %APPVEYOR_BUILD_VERSION%
 )
 
