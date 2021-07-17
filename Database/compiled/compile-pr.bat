@@ -1,4 +1,5 @@
 rem @echo off
+@echo on
 
 if not defined APPVEYOR_PULL_REQUEST_NUMBER set APPVEYOR_PULL_REQUEST_NUMBER=0
 
