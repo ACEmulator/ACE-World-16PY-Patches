@@ -1,0 +1,10 @@
+INSERT INTO encounter set landblock=0xF830, weenie_Class_Id=71116 /* FB Upper Gen */, cell_X=7, cell_Y=7, last_Modified='2020-08-19 16:41:03';
+INSERT INTO encounter set landblock=0xF830, weenie_Class_Id=71116 /* FB Upper Gen */, cell_X=5, cell_Y=7, last_Modified='2020-08-19 16:41:07';
+INSERT INTO encounter set landblock=0xF830, weenie_Class_Id=71116 /* FB Upper Gen */, cell_X=3, cell_Y=6, last_Modified='2020-08-19 16:41:12';
+INSERT INTO encounter set landblock=0xF830, weenie_Class_Id=71116 /* FB Upper Gen */, cell_X=3, cell_Y=3, last_Modified='2020-08-19 16:41:16';
+INSERT INTO encounter set landblock=0xF830, weenie_Class_Id=71116 /* FB Upper Gen */, cell_X=4, cell_Y=1, last_Modified='2020-08-19 16:41:21';
+INSERT INTO encounter set landblock=0xF830, weenie_Class_Id=71116 /* FB Upper Gen */, cell_X=1, cell_Y=1, last_Modified='2020-08-19 16:42:31';
+INSERT INTO encounter set landblock=0xF830, weenie_Class_Id=71116 /* FB Upper Gen */, cell_X=2, cell_Y=4, last_Modified='2020-08-19 16:42:36';
+INSERT INTO encounter set landblock=0xF830, weenie_Class_Id=71116 /* FB Upper Gen */, cell_X=1, cell_Y=5, last_Modified='2020-08-19 16:42:39';
+INSERT INTO encounter set landblock=0xF830, weenie_Class_Id=71116 /* FB Upper Gen */, cell_X=2, cell_Y=7, last_Modified='2020-08-19 16:42:47';
+INSERT INTO encounter set landblock=0xF830, weenie_Class_Id=71116 /* FB Upper Gen */, cell_X=7, cell_Y=1, last_Modified='2020-08-19 21:20:39';
