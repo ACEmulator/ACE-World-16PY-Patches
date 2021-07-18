@@ -205,8 +205,8 @@ if exist %patch_name%.sql del %patch_name%.sql
 echo /* %patch_name% */ >> %patch_name%.sql
 echo /* Pull Request Title: %APPVEYOR_PULL_REQUEST_TITLE% */ >> %patch_name%.sql
 echo /* Pull Request #: %APPVEYOR_PULL_REQUEST_NUMBER% */ >> %patch_name%.sql
-echo /* by: %APPVEYOR_REPO_COMMIT_AUTHOR% */ >> %patch_name%.sql
-echo /* %APPVEYOR_PULL_REQUEST_HEAD_REPO_NAME%/%APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH% */ >> %patch_name%.sql
+echo /* Pull Request by: %APPVEYOR_REPO_COMMIT_AUTHOR% */ >> %patch_name%.sql
+echo /* Pull Request OriginRepo: %APPVEYOR_PULL_REQUEST_HEAD_REPO_NAME%/%APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH% */ >> %patch_name%.sql
 echo /* Pull Request Timestamp: %APPVEYOR_REPO_COMMIT_TIMESTAMP% */ >> %patch_name%.sql
 echo. >> %patch_name%.sql
 echo. >> %patch_name%.sql
