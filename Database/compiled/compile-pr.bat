@@ -26,7 +26,7 @@ set /p merge_base=<mergebase.txt
 rem git whatchanged --name-only --pretty="" --diff-filter=ACM %merge_base%...%branch_name% | sort /unique >> prfiles.txt
 rem git whatchanged --name-only --pretty="" %merge_base%...%branch_name% | sort /unique >> patchfiles.txt
 
-if defined APPVEYOR_PULL_REQUEST_HEAD_COMMIT (
+if not defined APPVEYOR_PROJECT_NAME (
 git whatchanged --name-only --pretty="" %merge_base%...%branch_name% | sort /unique >> patchfiles.txt
 ) else (
 git whatchanged --name-only --pretty="" %merge_base%...%branch_name% | sort | uniq >> patchfiles.txt
