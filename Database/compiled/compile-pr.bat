@@ -13,7 +13,7 @@ set patch_name=%APPVEYOR_PULL_REQUEST_NUMBER%-%APPVEYOR_PULL_REQUEST_HEAD_REPO_B
 if exist branchname.txt del branchname.txt
 if exist mergebase.txt del mergebase.txt
 if exist patchfiles.txt del patchfiles.txt
-if exist %patch_name%.zip del %patch_name%.zip
+if exist PR-%patch_name%.zip del PR-%patch_name%.zip
 
 git branch --show-current > branchname.txt
 
@@ -34,11 +34,11 @@ git whatchanged --name-only --pretty="" %merge_base%...%branch_name% | sort | un
 
 cd ..\..
 
-"C:\Program Files\7-Zip\7z.exe" a Database\compiled\%patch_name%.zip -spf -bb @Database\compiled\patchfiles.txt
+"C:\Program Files\7-Zip\7z.exe" a Database\compiled\PR-%patch_name%-files.zip -spf -bb @Database\compiled\patchfiles.txt
 
 cd Database\compiled
 
-"C:\Program Files\7-Zip\7z.exe" x %patch_name%.zip -o%patch_name%
+"C:\Program Files\7-Zip\7z.exe" x PR-%patch_name%-files.zip -o%patch_name%
 
 cd %patch_name%\Database\Patches
 
@@ -200,25 +200,25 @@ FOR /D %%G IN ("*") DO (
 
 cd ..\..\..
 
-if exist %patch_name%.sql del %patch_name%.sql
+if exist PR-%patch_name%.sql del PR-%patch_name%.sql
 
-echo /* %patch_name% */ >> %patch_name%.sql
-echo /* Pull Request Title: %APPVEYOR_PULL_REQUEST_TITLE% */ >> %patch_name%.sql
-echo /* Pull Request #: %APPVEYOR_PULL_REQUEST_NUMBER% */ >> %patch_name%.sql
-echo /* Pull Request by: %APPVEYOR_REPO_COMMIT_AUTHOR% */ >> %patch_name%.sql
-echo /* Pull Request OriginRepo: %APPVEYOR_PULL_REQUEST_HEAD_REPO_NAME%/%APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH% */ >> %patch_name%.sql
-echo /* Pull Request Timestamp: %APPVEYOR_REPO_COMMIT_TIMESTAMP% */ >> %patch_name%.sql
-echo. >> %patch_name%.sql
-echo. >> %patch_name%.sql
+echo /* PR-%patch_name% */ >> PR-%patch_name%.sql
+echo /* Pull Request Title: %APPVEYOR_PULL_REQUEST_TITLE% */ >> PR-%patch_name%.sql
+echo /* Pull Request #: %APPVEYOR_PULL_REQUEST_NUMBER% */ >> PR-%patch_name%.sql
+echo /* Pull Request by: %APPVEYOR_REPO_COMMIT_AUTHOR% */ >> PR-%patch_name%.sql
+echo /* Pull Request OriginRepo: %APPVEYOR_PULL_REQUEST_HEAD_REPO_NAME%/%APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH% */ >> PR-%patch_name%.sql
+echo /* Pull Request Timestamp: %APPVEYOR_REPO_COMMIT_TIMESTAMP% */ >> PR-%patch_name%.sql
+echo. >> PR-%patch_name%.sql
+echo. >> PR-%patch_name%.sql
 echo.
-copy /b %patch_name%.sql + %patch_name%\Database\Patches\*.sql %patch_name%.sql
+copy /b PR-%patch_name%.sql + %patch_name%\Database\Patches\*.sql PR-%patch_name%.sql
 echo.
 
 rd /s /q %patch_name%
 
-"C:\Program Files\7-Zip\7z.exe" a %patch_name%.zip %patch_name%.sql
+REM "C:\Program Files\7-Zip\7z.exe" a %patch_name%.zip %patch_name%.sql
 
-del %patch_name%.sql
+REM del %patch_name%.sql
 
 del branchname.txt
 del mergebase.txt
