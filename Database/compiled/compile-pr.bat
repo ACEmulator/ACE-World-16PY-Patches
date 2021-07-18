@@ -1,5 +1,4 @@
-rem @echo off
-@echo on
+@echo off
 
 if defined APPVEYOR_PULL_REQUEST_HEAD_COMMIT (
 git checkout -b %APPVEYOR_BUILD_VERSION%
