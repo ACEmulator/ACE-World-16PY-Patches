@@ -24,7 +24,7 @@ VALUES (49104,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (49104,  31,      25) /* VisualAwarenessRange */
-     , (49104,  39, 1.29999995231628) /* DefaultScale */
+     , (49104,  39,     1.3) /* DefaultScale */
      , (49104,  76, 0.400000005960464) /* Translucency */
      , (49104,  77,       1) /* PhysicsScriptIntensity */;
 
@@ -34,8 +34,8 @@ VALUES (49104,   1, 'K''nath') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49104,   1,   33561535) /* Setup */
      , (49104,   2,  150994994) /* MotionTable */
-     , (49104,   4,  805306368) /* CombatTable - default, verify */
      , (49104,   3,  536870984) /* SoundTable */
+     , (49104,   4,  805306368) /* CombatTable */
      , (49104,   8,  100668443) /* Icon */
      , (49104,  22,  872415261) /* PhysicsEffectTable */;
 

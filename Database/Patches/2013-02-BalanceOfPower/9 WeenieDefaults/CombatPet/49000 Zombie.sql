@@ -35,6 +35,7 @@ VALUES (49000,   1,   33561238) /* Setup */
      , (49000,   2,  150994945) /* MotionTable */
      , (49000,   3,  536870934) /* SoundTable */
      , (49000,   4,  805306368) /* CombatTable */
+     , (49000,   6,   67108990) /* PaletteBase */
      , (49000,   8,  100667942) /* Icon */
      , (49000,  22,  872415272) /* PhysicsEffectTable */;
 
@@ -71,4 +72,4 @@ VALUES (49000,  0, 32,  0,    0,  310,  310,  310,  310,  310,  310,  310,  310,
      , (49000,  8, 32, 50, 0.75,  310,  310,  310,  310,  310,  310,  310,  310,  310, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49000, 2, 49001,  1, 0, 0, False) /* Create Acid Hatchet (49001) for Wield */;
+VALUES (49000, 2, 49001,  1, 1, 0, False) /* Create Acid Hatchet (49001) for Wield */;

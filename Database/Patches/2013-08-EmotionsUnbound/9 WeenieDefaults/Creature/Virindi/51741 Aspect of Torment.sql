@@ -45,7 +45,6 @@ VALUES (51741,   1,   5) /* HeartbeatInterval */
      , (51741,  34,   1) /* PowerupTime */
      , (51741,  36,   1) /* ChargeSpeed */
      , (51741,  39, 1.5) /* DefaultScale */
-     , (51741,  55,  80) /* HomeRadius */
      , (51741,  64, 0.7) /* ResistSlash */
      , (51741,  65, 0.6) /* ResistPierce */
      , (51741,  66, 0.6) /* ResistBludgeon */
