@@ -10,7 +10,7 @@ VALUES (48986,   1,          1) /* ItemType - MeleeWeapon */
      , (48986,  16,          1) /* ItemUseable - No */
      , (48986,  18,         32) /* UiEffects - Fire */
      , (48986,  19,        130) /* Value */
-     , (48986,  44,         80) /* Damage */
+     , (48986,  44,        128) /* Damage */
      , (48986,  45,         16) /* DamageType - Fire */
      , (48986,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (48986,  47,          4) /* AttackType - Slash */
@@ -26,7 +26,7 @@ VALUES (48986,  11, True ) /* IgnoreCollisions */
      , (48986,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48986,  22,    0.75) /* DamageVariance */;
+VALUES (48986,  22,    0.5) /* DamageVariance */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48986,   1, 'Flaming Hatchet') /* Name */;

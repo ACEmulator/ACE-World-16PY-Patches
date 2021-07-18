@@ -10,7 +10,7 @@ VALUES (48982,   1,          1) /* ItemType - MeleeWeapon */
      , (48982,  16,          1) /* ItemUseable - No */
      , (48982,  18,         64) /* UiEffects - Lightning */
      , (48982,  19,        130) /* Value */
-     , (48982,  44,        150) /* Damage */
+     , (48982,  44,        205) /* Damage */
      , (48982,  45,         64) /* DamageType - Electric */
      , (48982,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (48982,  47,          4) /* AttackType - Slash */
@@ -26,7 +26,7 @@ VALUES (48982,  11, True ) /* IgnoreCollisions */
      , (48982,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48982,  22,    0.75) /* DamageVariance */;
+VALUES (48982,  22,    0.5) /* DamageVariance */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48982,   1, 'Lightning Hatchet') /* Name */;
