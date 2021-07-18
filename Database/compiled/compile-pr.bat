@@ -67,9 +67,9 @@ FOR /D %%G IN ("*") DO (
         REM    REM Echo now in %%H
         REM    copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
         REM    echo. >> %patchesdir%\Patch-%%~nxG.sql
-        REM    Popd 
+        REM    Popd
         REM )
-        
+
         IF EXIST "9 WeenieDefaults\" (
             echo Compiling Weenies... No output will be displayed except if error occurs.
             FOR /R "9 WeenieDefaults\" %%H in (.) DO (
@@ -77,11 +77,11 @@ FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 echo. >> %patchesdir%\Patch-%%~nxG.sql
-                Popd 
+                Popd
             )
             echo. >> %patchesdir%\Patch-%%~nxG.sql
         )
-        
+
         IF EXIST "6 LandBlockExtendedData\" (
             echo Compiling Landblocks... No output will be displayed except if error occurs.
             FOR /R "6 LandBlockExtendedData\" %%H in (.) DO (
@@ -89,11 +89,11 @@ FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 echo. >> %patchesdir%\Patch-%%~nxG.sql
-                Popd 
+                Popd
             )
             echo. >> %patchesdir%\Patch-%%~nxG.sql
         )
-        
+
         IF EXIST "1 RegionDescExtendedData\" (
             echo Compiling Regions... No output will be displayed except if error occurs.
             FOR /R "1 RegionDescExtendedData\" %%H in (.) DO (
@@ -101,11 +101,11 @@ FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 echo. >> %patchesdir%\Patch-%%~nxG.sql
-                Popd 
+                Popd
             )
             echo. >> %patchesdir%\Patch-%%~nxG.sql
         )
-        
+
         IF EXIST "2 SpellTableExtendedData\" (
             echo Compiling Spells... No output will be displayed except if error occurs.
             FOR /R "2 SpellTableExtendedData\" %%H in (.) DO (
@@ -113,11 +113,11 @@ FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 echo. >> %patchesdir%\Patch-%%~nxG.sql
-                Popd 
+                Popd
             )
             echo. >> %patchesdir%\Patch-%%~nxG.sql
         )
-        
+
         IF EXIST "3 TreasureTable\" (
             echo Compiling Treasure... No output will be displayed except if error occurs.
             FOR /R "3 TreasureTable\" %%H in (.) DO (
@@ -125,11 +125,11 @@ FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 echo. >> %patchesdir%\Patch-%%~nxG.sql
-                Popd 
+                Popd
             )
             echo. >> %patchesdir%\Patch-%%~nxG.sql
         )
-        
+
         IF EXIST "4 CraftTable\" (
             echo Compiling Recipes... No output will be displayed except if error occurs.
             FOR /R "4 CraftTable\" %%H in (.) DO (
@@ -137,11 +137,11 @@ FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 echo. >> %patchesdir%\Patch-%%~nxG.sql
-                Popd 
+                Popd
             )
             echo. >> %patchesdir%\Patch-%%~nxG.sql
         )
-        
+
         IF EXIST "5 HousingPortals\" (
             echo Compiling House Portals... No output will be displayed except if error occurs.
             FOR /R "5 HousingPortals\" %%H in (.) DO (
@@ -149,11 +149,11 @@ FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 echo. >> %patchesdir%\Patch-%%~nxG.sql
-                Popd 
+                Popd
             )
             echo. >> %patchesdir%\Patch-%%~nxG.sql
         )
-        
+
         IF EXIST "8 QuestDefDB\" (
             echo Compiling Quests... No output will be displayed except if error occurs.
             FOR /R "8 QuestDefDB\" %%H in (.) DO (
@@ -161,11 +161,11 @@ FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 echo. >> %patchesdir%\Patch-%%~nxG.sql
-                Popd 
+                Popd
             )
             echo. >> %patchesdir%\Patch-%%~nxG.sql
         )
-        
+
         IF EXIST "B GameEventDefDB\" (
             echo Compiling Events... No output will be displayed except if error occurs.
             FOR /R "B GameEventDefDB\" %%H in (.) DO (
@@ -173,11 +173,11 @@ FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 echo. >> %patchesdir%\Patch-%%~nxG.sql
-                Popd 
+                Popd
             )
             echo. >> %patchesdir%\Patch-%%~nxG.sql
         )
-        
+
         IF EXIST "*.sql" (
             echo Compiling misc scripts... No output will be displayed except if error occurs.
             FOR %%H in (.) DO (
@@ -185,13 +185,13 @@ FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 echo. >> %patchesdir%\Patch-%%~nxG.sql
-                Popd 
+                Popd
             )
         )
         echo. >> %patchesdir%\Patch-%%~nxG.sql
 
         echo. >> %patchesdir%\Patch-%%~nxG.sql
-	
+
 	echo.
     )
 
@@ -207,6 +207,7 @@ echo /* Pull Request Title: %APPVEYOR_PULL_REQUEST_TITLE% */ >> %patch_name%.sql
 echo /* Pull Request #: %APPVEYOR_PULL_REQUEST_NUMBER% */ >> %patch_name%.sql
 echo /* by: %APPVEYOR_REPO_COMMIT_AUTHOR% */ >> %patch_name%.sql
 echo /* %APPVEYOR_PULL_REQUEST_HEAD_REPO_NAME%/%APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH% */ >> %patch_name%.sql
+echo /* Pull Request Timestamp: %APPVEYOR_REPO_COMMIT_TIMESTAMP% */ >> %patch_name%.sql
 echo. >> %patch_name%.sql
 echo. >> %patch_name%.sql
 echo.
