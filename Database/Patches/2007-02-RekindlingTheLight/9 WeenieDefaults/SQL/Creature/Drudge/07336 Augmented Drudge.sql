@@ -65,7 +65,8 @@ VALUES (7336,   1,       5) /* HeartbeatInterval */
      , (7336, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7336,   1, 'Augmented Drudge') /* Name */;
+VALUES (7336,   1, 'Augmented Drudge') /* Name */
+     , (7336,  45, 'KillTaskAugmentedDrudges_0507') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7336,   1,   33556445) /* Setup */
@@ -76,7 +77,7 @@ VALUES (7336,   1,   33556445) /* Setup */
      , (7336,   7,  268435977) /* ClothingBase */
      , (7336,   8,  100667445) /* Icon */
      , (7336,  22,  872415258) /* PhysicsEffectTable */
-     , (7336,  32,        298) /* WieldedTreasureType -
+     , (7336,  32,        298) /* WieldedTreasureType - 
                                    Wield 15x Flaming Javelin (7311) | Probability: 100% */
      , (7336,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
@@ -94,18 +95,18 @@ VALUES (7336,   1,   170, 0, 0, 258) /* MaxHealth */
      , (7336,   5,   100, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (7336, 45, 0, 3, 0, 185, 0, 0) /* LightWeapons        Specialized */
-     , (7336,  6, 0, 3, 0, 185, 0, 0) /* MeleeDefense        Specialized */
+VALUES (7336,  6, 0, 3, 0, 185, 0, 0) /* MeleeDefense        Specialized */
      , (7336,  7, 0, 3, 0, 250, 0, 0) /* MissileDefense      Specialized */
-     , (7336, 44, 0, 3, 0, 185, 0, 0) /* HeavyWeapons        Specialized */
-     , (7336, 47, 0, 3, 0, 175, 0, 0) /* MissileWeapons      Specialized */
      , (7336, 14, 0, 3, 0, 200, 0, 0) /* ArcaneLore          Specialized */
      , (7336, 15, 0, 3, 0, 195, 0, 0) /* MagicDefense        Specialized */
      , (7336, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
      , (7336, 24, 0, 3, 0,  55, 0, 0) /* Run                 Specialized */
      , (7336, 31, 0, 3, 0,  65, 0, 0) /* CreatureEnchantment Specialized */
      , (7336, 33, 0, 3, 0,  65, 0, 0) /* LifeMagic           Specialized */
-     , (7336, 34, 0, 3, 0,  65, 0, 0) /* WarMagic            Specialized */;
+     , (7336, 34, 0, 3, 0,  65, 0, 0) /* WarMagic            Specialized */
+     , (7336, 44, 0, 3, 0, 185, 0, 0) /* HeavyWeapons        Specialized */
+     , (7336, 45, 0, 3, 0, 185, 0, 0) /* LightWeapons        Specialized */
+     , (7336, 47, 0, 3, 0, 175, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7336,  0,  4,  0,    0,  280,  230,  123,  232,  202,  232,  202,   14,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -132,7 +133,7 @@ VALUES (7336,    84,   2.06)  /* Flame Bolt V */
      , (7336,  1467,  2.045)  /* Feeblemind Other V */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (7336, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (7336,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
