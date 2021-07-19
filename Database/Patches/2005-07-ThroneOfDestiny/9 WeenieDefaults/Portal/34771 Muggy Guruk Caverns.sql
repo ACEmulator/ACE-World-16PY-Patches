@@ -25,10 +25,13 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34771,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34771,   1, 'Muggy Guruk Caverns') /* Name */
-     , (34771,  38, 'Muggy Guruk Caverns') /* AppraisalPortalDestination */;
+VALUES (34771,   1, 'Muggy Guruk Caverns') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34771,   1,   33560221) /* Setup */
      , (34771,   2,  150995314) /* MotionTable */
      , (34771,   8,  100667499) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (34771, 2, 7800156, 30, -100, 0.005, 0.921061, 0, 0, -0.389418) /* Destination */
+/* @teleloc 0x0077055C [30.000000 -100.000000 0.005000] 0.921061 0.000000 0.000000 -0.389418 */;

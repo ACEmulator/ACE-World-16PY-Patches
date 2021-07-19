@@ -104,7 +104,7 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (34045,   1,   400, 0, 0, 485) /* MaxHealth */
      , (34045,   3,   500, 0, 0, 670) /* MaxStamina */
      , (34045,   5,   300, 0, 0, 470) /* MaxMana */;
-	 
+
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (34045,  6, 0, 3, 0, 265, 0, 0) /* MeleeDefense        Specialized */
      , (34045,  7, 0, 3, 0, 385, 0, 0) /* MissileDefense      Specialized */
@@ -119,7 +119,7 @@ VALUES (34045,  6, 0, 3, 0, 265, 0, 0) /* MeleeDefense        Specialized */
      , (34045, 45, 0, 3, 0, 240, 0, 0) /* LightWeapons        Specialized */
      , (34045, 46, 0, 3, 0, 185, 0, 0) /* FinesseWeapons      Specialized */
      , (34045, 47, 0, 3, 0, 170, 0, 0) /* MissileWeapons      Specialized */;
-	 
+
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (34045,  0,  4,  0,    0,  310,  248,  211,  155,  217,  211,   90,   90,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
      , (34045,  1,  4,  0,    0,  310,  248,  211,  155,  217,  211,   90,   90,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
@@ -145,6 +145,14 @@ VALUES (34045,    63,  2.093)  /* Acid Stream VI */
      , (34045,  1200,   2.01)  /* Enfeeble Other VI */
      , (34045,  1265,   2.01)  /* Drain Mana Other VI */;
 
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (34045,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'SACritterDead', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34045, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue (7046) for ContainTreasure */
      , (34045, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
@@ -156,4 +164,3 @@ VALUES (34045, 9,  7046,  0, 0, 0.03, False) /* Create Sclavus Tongue (7046) for
      , (34045, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (34045, 9, 12216,  0, 0, 0.05, False) /* Create Sclavus Head (12216) for ContainTreasure */
      , (34045, 9,     0,  0, 0, 0.05, False) /* Create nothing for ContainTreasure */;
-     
