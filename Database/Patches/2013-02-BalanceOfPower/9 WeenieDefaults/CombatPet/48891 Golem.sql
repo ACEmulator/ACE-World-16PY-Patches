@@ -32,8 +32,8 @@ VALUES (48891,   1, 'Golem') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48891,   1,   33556426) /* Setup */
      , (48891,   2,  150995073) /* MotionTable */
-     , (48891,   4,  805306368) /* CombatTable - default, verify */
      , (48891,   3,  536870933) /* SoundTable */
+     , (48891,   4,  805306368) /* CombatTable */
      , (48891,   6,   67112775) /* PaletteBase */
      , (48891,   7,  268435984) /* ClothingBase */
      , (48891,   8,  100667940) /* Icon */

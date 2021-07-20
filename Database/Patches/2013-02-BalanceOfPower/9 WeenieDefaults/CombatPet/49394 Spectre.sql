@@ -35,8 +35,8 @@ VALUES (49394,   1, 'Spectre') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49394,   1,   33558816) /* Setup */
      , (49394,   2,  150995302) /* MotionTable */
-     , (49394,   4,  805306368) /* CombatTable - default, verify */
      , (49394,   3,  536871094) /* SoundTable */
+     , (49394,   4,  805306368) /* CombatTable */
      , (49394,   6,   67115251) /* PaletteBase */
      , (49394,   7,  268436835) /* ClothingBase */
      , (49394,   8,  100676679) /* Icon */

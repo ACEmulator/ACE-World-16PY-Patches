@@ -10,8 +10,8 @@ VALUES (40134,   1,         16) /* ItemType - Creature */
      , (40134,   7,         -1) /* ContainersCapacity */
      , (40134,  16,          1) /* ItemUseable - No */
      , (40134,  25,        110) /* Level */
-     , (40134,  40,          2) /* CombatMode - Melee */  
-     , (40134,  68,          9) /* TargetingTactic - Random, TopDamager */	     
+     , (40134,  40,          2) /* CombatMode - Melee */
+     , (40134,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (40134,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (40134, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (40134, 146,     125000) /* XpOverride */;
@@ -61,13 +61,13 @@ VALUES (40134,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40134,   1, 'Crystalline Wisp') /* Name */
-	  , (40134,  45, 'KillTaskCrystallineWisps10109');
+     , (40134,  45, 'KillTaskCrystallineWisps10109') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40134,   1,   33555865) /* Setup */
      , (40134,   2,  150994993) /* MotionTable */
      , (40134,   3,  536870985) /* SoundTable */
-     , (40134,   4,  805306368) /* CombatTable */     
+     , (40134,   4,  805306368) /* CombatTable */
      , (40134,   8,  100668442) /* Icon */
      , (40134,  22,  872415274) /* PhysicsEffectTable */
      , (40134,  35,         20) /* DeathTreasureType - Loot Tier: 6 */;
@@ -84,36 +84,35 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (40134,   1,   620, 0, 0, 720) /* MaxHealth */
      , (40134,   3,   620, 0, 0, 820) /* MaxStamina */
      , (40134,   5,   120, 0, 0, 450) /* MaxMana */;
-     
+
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (40134,  6, 0, 3, 0, 223, 0, 0) /* MeleeDefense        Specialized */
      , (40134,  7, 0, 3, 0, 174, 0, 0) /* MissileDefense      Specialized */
-     , (40134, 45, 0, 3, 0, 100, 0, 0) /* LightWeapons        Specialized */
      , (40134, 14, 0, 3, 0, 210, 0, 0) /* ArcaneLore          Specialized */
-     , (40134, 15, 0, 3, 0, 344, 0, 0) /* MagicDefense        Specialized */
+     , (40134, 15, 0, 3, 0, 194, 0, 0) /* MagicDefense        Specialized */
      , (40134, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
      , (40134, 24, 0, 3, 0, 320, 0, 0) /* Run                 Specialized */
      , (40134, 31, 0, 3, 0, 265, 0, 0) /* CreatureEnchantment Specialized */
      , (40134, 33, 0, 3, 0, 265, 0, 0) /* LifeMagic           Specialized */
-     , (40134, 34, 0, 3, 0, 265, 0, 0) /* WarMagic            Specialized */;
-     
+     , (40134, 34, 0, 3, 0, 265, 0, 0) /* WarMagic            Specialized */
+     , (40134, 45, 0, 3, 0, 200, 0, 0) /* LightWeapons        Specialized */;
+
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (40134,  0, 32, 50,  0.5,   140,   100,   200,   100,   200,   200,  200,   200,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (40134, 16, 32,  0,    0,   140,   100,   200,   100,   200,   200,  200,   200,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (40134, 17, 32,  5, 0.75,   120,   100,   200,   100,   200,   200,  200,   200,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (40134, 21, 32,  0,    0,   110,   40,   34,   34,   34,   34,   80,   34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (40134,  0, 32, 50,  0.5,  140,  100,  200,  100,  200,  200,  200,  200,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (40134, 16, 32,  0,    0,  140,  100,  200,  100,  200,  200,  200,  200,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (40134, 17, 32,  5, 0.75,  120,  100,  200,  100,  200,  200,  200,  200,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (40134, 21, 32,  0,    0,  110,   40,   34,   34,   34,   34,   80,   34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40134,    106,   2.17)  /* Shock Blast VI */
-     , (40134,     74,   2.02)  /* Frost Bolt VI */
-     , (40134,    138,   2.02)  /* Frost Volley VI */
-     , (40134,   1160,    2.1)  /* Heal Self V */
-     , (40134,   1240,      2)  /* Drain Health Other IV */
-     , (40134,   1252,      2)  /* Drain Stamina Other IV */
-     , (40134,   1263,      2)  /* Drain Mana Other IV */;
+VALUES (40134,    74,   2.02)  /* Frost Bolt VI */
+     , (40134,   106,   2.17)  /* Shock Blast VI */
+     , (40134,   138,   2.02)  /* Frost Volley VI */
+     , (40134,  1160,    2.1)  /* Heal Self V */
+     , (40134,  1240,      2)  /* Drain Health Other IV */
+     , (40134,  1252,      2)  /* Drain Stamina Other IV */
+     , (40134,  1263,      2)  /* Drain Mana Other IV */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40134, 9,  6876,  0, 0, 0.33, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (40134, 9, 40100,  0, 0, 0.66, False)	/* Create Crystalline Shard for ContainTreasure */      
-	  , (40134, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */ ;
-     
+     , (40134, 9, 40100,  0, 0, 0.66, False) /* Create Crystalline Shard (40100) for ContainTreasure */
+     , (40134, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;

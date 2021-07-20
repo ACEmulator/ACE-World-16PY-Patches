@@ -120,7 +120,9 @@ VALUES (35191, 9, 34457,  0, 0, 1, False) /* Create Thunder Chicken Token (34457
      , (35191, 9, 34457,  0, 0, 1, False) /* Create Thunder Chicken Token (34457) for ContainTreasure */
      , (35191, 9, 34457,  0, 0, 1, False) /* Create Thunder Chicken Token (34457) for ContainTreasure */
      , (35191, 9, 34457,  0, 0, 1, False) /* Create Thunder Chicken Token (34457) for ContainTreasure */
-     , (35191, 9, 34457,  0, 0, 1, False) /* Create Thunder Chicken Token (34457) for ContainTreasure */;
+     , (35191, 9, 34457,  0, 0, 1, False) /* Create Thunder Chicken Token (34457) for ContainTreasure */
+     , (35191, 9, 34610,  0, 0, 0.03, False) /* Create Golden Egg (34610) for ContainTreasure */
+     , (35191, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35191,  3974,   2.04)  /* Lightning BombT */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44184;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44184, 'ace44184-contractforraisinggraelsisland', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (44184, 'ace44184-contractforraisinggraelsisland', 38, '2021-03-20 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44184,   1,       2048) /* ItemType - Gem */
@@ -25,7 +25,7 @@ VALUES (44184, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44184,   1, 'Contract for Raising Grael''s Island') /* Name */
-     , (44184,  16, 'The Soul Crystal must be destoyed to prevent Dark Isle from sinking below the ocean.') /* LongDesc */;
+     , (44184,  16, 'The Soul Crystal must be destroyed to prevent Dark Isle from sinking below the ocean.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44184,   1,   33557625) /* Setup */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32811;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32811, 'ace32811-bookcase', 7, '2021-01-09 00:00:00') /* Portal */;
+VALUES (32811, 'ace32811-bookcase', 7, '2021-03-20 00:00:00') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32811,   1,      65536) /* ItemType - Portal */
@@ -15,13 +15,12 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32811,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32811,  54,       2) /* UseRadius */;
+VALUES (32811,  54,    0.75) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32811,   1, 'Bookcase') /* Name */
      , (32811,  16, 'A simple bookcase.') /* LongDesc */
-     , (32811,  37, 'UlgrimsBookcaseFlag') /* QuestRestriction */
-     , (32811,  38, 'Bookcase') /* AppraisalPortalDestination */;
+     , (32811,  37, 'UlgrimsBookcaseFlag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32811,   1,   33554819) /* Setup */

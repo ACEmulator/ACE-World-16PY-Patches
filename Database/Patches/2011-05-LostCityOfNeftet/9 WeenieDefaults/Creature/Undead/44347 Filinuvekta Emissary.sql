@@ -154,5 +154,5 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, '"The intrepid adv
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, ' "Fool! My demise will not stop anything set in motion here! I''ll be back for you..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44347, -1, 43252, 5, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0) /* Generate Undead Commander (43252) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (44347, -1, 43252, 5, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Undead Commander (43252) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
 

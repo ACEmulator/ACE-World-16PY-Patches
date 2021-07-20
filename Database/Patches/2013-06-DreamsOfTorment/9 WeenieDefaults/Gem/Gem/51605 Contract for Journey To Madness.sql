@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51605;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51605, 'ace51605-contractforjourneytomadness', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (51605, 'ace51605-contractforjourneytomadness', 38, '2021-03-20 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51605,   1,       2048) /* ItemType - Gem */
@@ -28,7 +28,7 @@ VALUES (51605, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51605,   1, 'Contract for Journey To Madness') /* Name */
      , (51605,  14, 'Recommended Level: 180') /* Use */
-     , (51605,  16, 'Investigate the Curtor or Torment''s Study.') /* LongDesc */;
+     , (51605,  16, 'Investigate the Curator or Torment''s Study.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51605,   1,   33557625) /* Setup */

@@ -20,7 +20,7 @@ VALUES (87201,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87201,   1, True ) /* Stuck */
-     , (87201,   6, False ) /* AiUsesMana */
+     , (87201,   6, False) /* AiUsesMana */
      , (87201,   7, True ) /* AiUseHumanMagicAnimations */
      , (87201,  11, False) /* IgnoreCollisions */
      , (87201,  12, True ) /* ReportCollisions */
@@ -88,10 +88,35 @@ VALUES (87201,   1,   785, 0, 0, 890) /* MaxHealth */
      , (87201,   3,   700, 0, 0, 910) /* MaxStamina */
      , (87201,   5,   530, 0, 0, 1000) /* MaxMana */;
 
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (87201,  6, 0, 2, 0, 576, 0, 0) /* MeleeDefense        Trained */
+     , (87201,  7, 0, 2, 0, 149, 0, 0) /* MissileDefense      Trained */
+     , (87201, 15, 0, 2, 0, 170, 0, 0) /* MagicDefense        Trained */
+     , (87201, 16, 0, 2, 0, 416, 0, 0) /* ManaConversion      Trained */
+     , (87201, 31, 0, 2, 0, 416, 0, 0) /* CreatureEnchantment Trained */
+     , (87201, 33, 0, 2, 0, 416, 0, 0) /* LifeMagic           Trained */
+     , (87201, 34, 0, 2, 0, 416, 0, 0) /* WarMagic            Trained */
+     , (87201, 41, 0, 2, 0, 132, 0, 0) /* TwoHandedCombat     Trained */
+     , (87201, 43, 0, 2, 0, 416, 0, 0) /* VoidMagic           Trained */
+     , (87201, 44, 0, 2, 0, 132, 0, 0) /* HeavyWeapons        Trained */
+     , (87201, 45, 0, 2, 0, 132, 0, 0) /* LightWeapons        Trained */
+     , (87201, 46, 0, 2, 0, 132, 0, 0) /* FinesseWeapons      Trained */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (87201,  0,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (87201,  1,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (87201,  2,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (87201,  3,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (87201,  4,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (87201,  5,  4, 100, 0.75,  475,  475,  475,  475,  475,  475,  475,  475,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (87201,  6,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (87201,  7,  4,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (87201,  8,  4, 100, 0.75,  475,  475,  475,  475,  475,  475,  475,  475,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (87201,  2074,   2.02)  /* Gossamer Flesh */
-     , (87201,  2170,   2.05)  /* Inferno's Gift */
-     , (87201,  2128,      3)  /* Ilservian's Flame */;
+     , (87201,  2128,      3)  /* Ilservian's Flame */
+     , (87201,  2170,   2.05)  /* Inferno's Gift */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (87201, 2, 31820,  1, 0, 0, False) /* Create Acid Baton (31820) for Wield */;

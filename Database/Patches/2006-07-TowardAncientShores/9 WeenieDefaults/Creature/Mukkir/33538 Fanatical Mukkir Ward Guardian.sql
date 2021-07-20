@@ -6,7 +6,7 @@ VALUES (33538, 'ace33538-fanaticalmukkirwardguardian', 10, '2020-06-23 00:00:00'
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33538,   1,         16) /* ItemType - Creature */
      , (33538,   2,         89) /* CreatureType - Mukkir */
-     , (33538,   3,          8) /* PaletteTemplate - Green */
+     , (33538,   3,         14) /* PaletteTemplate - Red */
      , (33538,   6,         -1) /* ItemsCapacity */
      , (33538,   7,         -1) /* ContainersCapacity */
      , (33538,  16,          1) /* ItemUseable - No */

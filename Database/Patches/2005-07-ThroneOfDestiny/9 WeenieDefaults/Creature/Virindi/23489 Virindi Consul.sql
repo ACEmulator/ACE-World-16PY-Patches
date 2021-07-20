@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23489;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23489, 'virindiconsul', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (23489, 'virindiconsul', 10, '2021-01-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23489,   1,         16) /* ItemType - Creature */
@@ -31,17 +31,17 @@ VALUES (23489,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23489,   1,       5) /* HeartbeatInterval */
      , (23489,   2,       0) /* HeartbeatTimestamp */
-     , (23489,   3, 0.600000023841858) /* HealthRate */
+     , (23489,   3,     0.6) /* HealthRate */
      , (23489,   4,     0.5) /* StaminaRate */
      , (23489,   5,       2) /* ManaRate */
      , (23489,  12,     0.5) /* Shade */
      , (23489,  13,       1) /* ArmorModVsSlash */
      , (23489,  14,       1) /* ArmorModVsPierce */
      , (23489,  15,       1) /* ArmorModVsBludgeon */
-     , (23489,  16, 0.720000028610229) /* ArmorModVsCold */
+     , (23489,  16,    0.72) /* ArmorModVsCold */
      , (23489,  17,       1) /* ArmorModVsFire */
      , (23489,  18,       1) /* ArmorModVsAcid */
-     , (23489,  19, 0.720000028610229) /* ArmorModVsElectric */
+     , (23489,  19,    0.72) /* ArmorModVsElectric */
      , (23489,  31,      18) /* VisualAwarenessRange */
      , (23489,  34,       1) /* PowerupTime */
      , (23489,  36,       1) /* ChargeSpeed */
@@ -224,6 +224,8 @@ VALUES (23489, 9,  9292,  0, 0, 0.05, False) /* Create Virindi Singularity Key (
      , (23489, 9,  3698,  0, 0, 0.0125, False) /* Create White Jewel (3698) for ContainTreasure */
      , (23489, 9,  3696,  0, 0, 0.0125, False) /* Create Blue Gem (3696) for ContainTreasure */
      , (23489, 9,  3697,  0, 0, 0.0125, False) /* Create Red Jewel (3697) for ContainTreasure */
-     , (23489, 9, 41470,  0, 0, 0.0125, False) /* Create  (41470) for ContainTreasure */
-     , (23489, 9,     0,  0, 0, 0.9375, False) /* Create nothing for ContainTreasure */;
+     , (23489, 9, 41470,  0, 0, 0.0125, False) /* Create Purple Jewel (41470) for ContainTreasure */
+     , (23489, 9,     0,  0, 0, 0.9375, False) /* Create nothing for ContainTreasure */
+     , (23489, 9, 32939,  0, 0, 0.05, False) /* Create Dark Monolith Caverns (32939) for ContainTreasure */
+     , (23489, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
 

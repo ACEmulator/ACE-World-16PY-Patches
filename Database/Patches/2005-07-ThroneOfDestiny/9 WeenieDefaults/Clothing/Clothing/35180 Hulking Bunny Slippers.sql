@@ -5,38 +5,38 @@ VALUES (35180, 'ace35180-hulkingbunnyslippers', 2, '2019-02-04 06:52:23') /* Clo
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35180,   1,          4) /* ItemType - Clothing */
+     , (35180,   3,          4) /* PaletteTemplate - Brown */
      , (35180,   4,      65536) /* ClothingPriority - Feet */
      , (35180,   5,        500) /* EncumbranceVal */
      , (35180,   9,        256) /* ValidLocations - FootWear */
      , (35180,  16,          1) /* ItemUseable - No */
      , (35180,  19,          0) /* Value */
+     , (35180,  27,          2) /* ArmorType - Leather */
      , (35180,  28,         50) /* ArmorLevel */
-     , (35180,  53,        101) /* PlacementPosition */
+     , (35180,  44,          5) /* Damage */
+     , (35180,  45,          4) /* DamageType - Bludgeon */
      , (35180,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35180, 106,         30) /* ItemSpellcraft */
      , (35180, 107,        397) /* ItemCurMana */
      , (35180, 108,        500) /* ItemMaxMana */
      , (35180, 109,        225) /* ItemDifficulty */
+     , (35180, 150,        103) /* HookPlacement - Hook */
      , (35180, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35180,  11, True ) /* IgnoreCollisions */
-     , (35180,  13, True ) /* Ethereal */
-     , (35180,  14, True ) /* GravityStatus */
-     , (35180,  19, True ) /* Attackable */
-     , (35180,  22, True ) /* Inscribable */
+VALUES (35180,  22, True ) /* Inscribable */
      , (35180,  69, False) /* IsSellable */
      , (35180, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35180,   5, -0.033330000936985) /* ManaRate */
+VALUES (35180,   5,  -0.033) /* ManaRate */
      , (35180,  13,     0.5) /* ArmorModVsSlash */
      , (35180,  14,     0.5) /* ArmorModVsPierce */
      , (35180,  15,     0.5) /* ArmorModVsBludgeon */
-     , (35180,  16, 1.29999995231628) /* ArmorModVsCold */
-     , (35180,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (35180,  18, 0.400000005960464) /* ArmorModVsAcid */
-     , (35180,  19, 0.400000005960464) /* ArmorModVsElectric */
+     , (35180,  16,     1.3) /* ArmorModVsCold */
+     , (35180,  17,     0.4) /* ArmorModVsFire */
+     , (35180,  18,     0.4) /* ArmorModVsAcid */
+     , (35180,  19,     0.4) /* ArmorModVsElectric */
      , (35180,  39,       2) /* DefaultScale */
      , (35180, 165,       1) /* ArmorModVsNether */;
 
