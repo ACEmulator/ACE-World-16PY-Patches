@@ -1,0 +1,3 @@
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72E30000, 87145, 0x2E300023, 111.233, 52.8374, 155.63, 0.0133634, 0, 0, -0.999911, False, '2021-03-15 11:08:21'); /* Aerbax's Shadow Booter Gen */
+/* @teleloc 0x2E300023 [111.233002 52.837399 155.630005] 0.013363 0.000000 0.000000 -0.999911 */

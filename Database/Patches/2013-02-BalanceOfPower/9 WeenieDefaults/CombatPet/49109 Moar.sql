@@ -34,12 +34,14 @@ VALUES (49109,   1, 'Moar') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49109,   1,   33561528) /* Setup */
      , (49109,   2,  150995346) /* MotionTable */
-     , (49109,   4,  805306368) /* CombatTable - default, verify */
      , (49109,   3,  536871018) /* SoundTable */
+     , (49109,   4,  805306368) /* CombatTable */
      , (49109,   6,   67116748) /* PaletteBase */
      , (49109,   7,  268437048) /* ClothingBase */
      , (49109,   8,  100671185) /* Icon */
-     , (49109,  22,  872415415) /* PhysicsEffectTable */;
+     , (49109,  19,         86) /* ActivationAnimation */
+     , (49109,  22,  872415415) /* PhysicsEffectTable */
+     , (49109,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49109,   1, 150, 0, 0) /* Strength */

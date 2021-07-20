@@ -35,6 +35,7 @@ VALUES (49006,   1,   33561238) /* Setup */
      , (49006,   2,  150994945) /* MotionTable */
      , (49006,   3,  536870934) /* SoundTable */
      , (49006,   4,  805306368) /* CombatTable */
+     , (49006,   6,   67108990) /* PaletteBase */
      , (49006,   8,  100667942) /* Icon */
      , (49006,  22,  872415272) /* PhysicsEffectTable */;
 
@@ -71,4 +72,9 @@ VALUES (49006,  0, 32,  0,    0,  475,  475,  475,  475,  475,  475,  475,  475,
      , (49006,  8, 32, 150, 0.75,  475,  475,  475,  475,  475,  475,  475,  475,  475, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49006, 2, 48975,  1, 0, 0, False) /* Create Acid Hatchet (48975) for Wield */;
+VALUES (49006, 2, 48975,  1, 1, 0, False) /* Create Acid Hatchet (48975) for Wield */
+     , (49006, 2,  2596,  1, 9, 0.1, False) /* Create Doublet (2596) for Wield */
+     , (49006, 2, 87371,  1, 84, 0.3091, False) /* Create Haebrean Breastplate (87371) for Wield */
+     , (49006, 2, 87372,  1, 8, 0.2545, False) /* Create Haebrean Girth (87372) for Wield */
+     , (49006, 2, 87373,  1, 84, 1E-05, False) /* Create Haebrean Tassets (87373) for Wield */
+     , (49006, 2, 87374,  1, 84, 0.2364, False) /* Create Haebrean Pauldrons (87374) for Wield */;

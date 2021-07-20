@@ -67,8 +67,7 @@ VALUES (30900,   1,       5) /* HeartbeatInterval */
      , (30900, 127,       2) /* AiCounteractEnchantment */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30900,   1, 'Banished Grievver') /* Name */
-     , (30900,  45, 'KilltaskBanishedCreature_0609') /* KillQuest */;
+VALUES (30900,   1, 'Banished Grievver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30900,   1,   33556698) /* Setup */

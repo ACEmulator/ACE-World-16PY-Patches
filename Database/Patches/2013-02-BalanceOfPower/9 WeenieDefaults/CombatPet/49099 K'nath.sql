@@ -34,8 +34,8 @@ VALUES (49099,   1, 'K''nath') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49099,   1,   33561533) /* Setup */
      , (49099,   2,  150994994) /* MotionTable */
-     , (49099,   4,  805306368) /* CombatTable - default, verify */
      , (49099,   3,  536870984) /* SoundTable */
+     , (49099,   4,  805306368) /* CombatTable */
      , (49099,   8,  100668443) /* Icon */
      , (49099,  22,  872415261) /* PhysicsEffectTable */;
 

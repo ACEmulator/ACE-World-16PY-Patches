@@ -13,6 +13,7 @@ Use:
                             - Tell: You have my gratitude for rescuing them from a fate far worse than death.
                             - StampQuest: FearFactoryCompleted_0813
                             - EraseQuest: FearFactoryStarted_0813
+                            - EraseQuest: FearFactoryReleased_0813
                             - AwardNoShareXP: 100,000,000
                             - AwardLuminance: 12,000
                             - Give: 48746

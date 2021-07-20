@@ -70,8 +70,7 @@ VALUES (12020,   1,       5) /* HeartbeatInterval */
      , (12020, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12020,   1, 'Cold One') /* Name */
-     , (12020,  45, 'KilltaskRareGame_0609') /* KillQuest */;
+VALUES (12020,   1, 'Cold One') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12020,   1,   33555608) /* Setup */

@@ -44,7 +44,6 @@ VALUES (51749,   1,   5) /* HeartbeatInterval */
      , (51749,  31,  18) /* VisualAwarenessRange */
      , (51749,  34,   1) /* PowerupTime */
      , (51749,  36,   1) /* ChargeSpeed */
-     , (51749,  55,  80) /* HomeRadius */
      , (51749,  64, 0.7) /* ResistSlash */
      , (51749,  65, 0.6) /* ResistPierce */
      , (51749,  66, 0.6) /* ResistBludgeon */
@@ -120,3 +119,7 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51749,  2074,   2.05)  /* Gossamer Flesh */
      , (51749,  2172,   2.053)  /* Astyrrian's Gift */
      , (51749,  3989,   2.056)  /* Dark Lightning */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51749, 8, 51854,  1, 0, 0.03, False) /* Mask for Treasure */
+	 , (51749, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

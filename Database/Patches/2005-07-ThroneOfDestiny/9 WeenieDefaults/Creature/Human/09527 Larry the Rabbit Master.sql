@@ -36,16 +36,16 @@ VALUES (9527,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9527,   1,       5) /* HeartbeatInterval */
      , (9527,   2,       0) /* HeartbeatTimestamp */
-     , (9527,   3,    0.16) /* HealthRate */
+     , (9527,   3, 0.159999996423721) /* HealthRate */
      , (9527,   4,       5) /* StaminaRate */
      , (9527,   5,       1) /* ManaRate */
-     , (9527,  13,     0.9) /* ArmorModVsSlash */
+     , (9527,  13, 0.899999976158142) /* ArmorModVsSlash */
      , (9527,  14,       1) /* ArmorModVsPierce */
-     , (9527,  15,     1.1) /* ArmorModVsBludgeon */
-     , (9527,  16,     0.4) /* ArmorModVsCold */
-     , (9527,  17,     0.4) /* ArmorModVsFire */
+     , (9527,  15, 1.10000002384186) /* ArmorModVsBludgeon */
+     , (9527,  16, 0.400000005960464) /* ArmorModVsCold */
+     , (9527,  17, 0.400000005960464) /* ArmorModVsFire */
      , (9527,  18,       1) /* ArmorModVsAcid */
-     , (9527,  19,     0.6) /* ArmorModVsElectric */
+     , (9527,  19, 0.600000023841858) /* ArmorModVsElectric */
      , (9527,  54,       3) /* UseRadius */
      , (9527,  64,       1) /* ResistSlash */
      , (9527,  65,       1) /* ResistPierce */
@@ -74,7 +74,13 @@ VALUES (9527,   1,   33554433) /* Setup */
      , (9527,   3,  536870913) /* SoundTable */
      , (9527,   4,  805306368) /* CombatTable */
      , (9527,   6,   67108990) /* PaletteBase */
-     , (9527,   8,  100667446) /* Icon */;
+     , (9527,   8,  100667446) /* Icon */
+     , (9527,   9,   83890510) /* EyesTexture */
+     , (9527,  10,   83890561) /* NoseTexture */
+     , (9527,  11,   83890613) /* MouthTexture */
+     , (9527,  15,   67117021) /* HairPalette */
+     , (9527,  16,   67110063) /* EyesPalette */
+     , (9527,  17,   67109559) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9527,   1, 125, 0, 0) /* Strength */
@@ -107,19 +113,6 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (9527,  6 /* Give */,      1, 35187 /* Pooky Token */, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   8 /* Say */, 0, 1, NULL, 'You hear that you rabbits! We have a Fuzzy Bunny Slayer here! Better hop on out of here now or else!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  12 /* TurnToTarget */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  2,  10 /* Tell */, 0.5, 1, NULL, 'What''s this? A token for killing one of those despicable leaf munchers?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'You Sir, should be rewarded for your agricultural beneficence!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  4,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 494 /* FuzzyBunnySlayer */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  5,  18 /* DirectBroadcast */, 0, 1, NULL, 'You have been awarded the title of "Fuzzy Bunny Slayer"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (9527,  6 /* Give */,      1, 5633 /* Rabbit Carcass */, NULL, NULL, NULL, NULL, NULL, NULL);

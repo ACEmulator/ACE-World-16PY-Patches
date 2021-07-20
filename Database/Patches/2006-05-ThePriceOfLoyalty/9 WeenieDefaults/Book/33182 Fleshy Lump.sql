@@ -1,0 +1,30 @@
+DELETE FROM `weenie` WHERE `class_Id` = 33182;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33182, 'ace33182-fleshylump', 8, '2019-02-10 00:00:00') /* Book */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (33182,   1,        128) /* ItemType - Misc */
+     , (33182,   5,         50) /* EncumbranceVal */
+     , (33182,  16,          8) /* ItemUseable - Contained */
+     , (33182,  19,         20) /* Value */
+     , (33182,  33,          1) /* Bonded - Bonded */
+     , (33182,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (33182,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (33182,  54,       1) /* UseRadius */
+     , (33182,  76,     0.5) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (33182,   1, 'Fleshy Lump') /* Name */
+     , (33182,  14, 'This item cannot be read.') /* Use */
+     , (33182,  16, 'An unidentifiable fleshy organism, it has no apparent orifices for eyes or mouth in its thin membranous skin. Dark Empyrean script is burned into its flesh. It wriggles grotesquely in your grasp.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (33182,   1,   33556232) /* Setup */
+     , (33182,   3,  536870932) /* SoundTable */
+     , (33182,   8,  100670890) /* Icon */
+     , (33182,  22,  872415275) /* PhysicsEffectTable */;

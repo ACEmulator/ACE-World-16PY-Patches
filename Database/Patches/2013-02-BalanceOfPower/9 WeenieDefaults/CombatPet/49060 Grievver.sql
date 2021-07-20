@@ -6,6 +6,7 @@ VALUES (49060, 'ace49060-grievver', 71, '2019-12-06 16:49:22') /* CombatPet */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49060,   1,         16) /* ItemType - Creature */
      , (49060,   2,         44) /* CreatureType - Grievver */
+     , (49060,   3,         17) /* PaletteTemplate - Yellow */
      , (49060,   6,        255) /* ItemsCapacity */
      , (49060,   7,        255) /* ContainersCapacity */
      , (49060,  16,          1) /* ItemUseable - No */
@@ -24,6 +25,7 @@ VALUES (49060,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (49060,  31,      25) /* VisualAwarenessRange */
+     , (49060,  39,     0.6) /* DefaultScale */
      , (49060,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -32,10 +34,14 @@ VALUES (49060,   1, 'Grievver') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49060,   1,   33561527) /* Setup */
      , (49060,   2,  150995098) /* MotionTable */
-     , (49060,   4,  805306368) /* CombatTable - default, verify */
      , (49060,   3,  536871009) /* SoundTable */
+     , (49060,   4,  805306368) /* CombatTable */
+     , (49060,   6,   67112927) /* PaletteBase */
+     , (49060,   7,  268436038) /* ClothingBase */
      , (49060,   8,  100670960) /* Icon */
-     , (49060,  22,  872415364) /* PhysicsEffectTable */;
+     , (49060,  19,         87) /* ActivationAnimation */
+     , (49060,  22,  872415364) /* PhysicsEffectTable */
+     , (49060,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49060,   1, 150, 0, 0) /* Strength */

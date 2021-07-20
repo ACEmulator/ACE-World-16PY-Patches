@@ -65,8 +65,7 @@ VALUES (30893,   1,       5) /* HeartbeatInterval */
      , (30893, 127,       2) /* AiCounteractEnchantment */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30893,   1, 'Fallen Marionette') /* Name */
-     , (30893,  45, 'KilltaskFallenCreature_0609') /* KillQuest */;
+VALUES (30893,   1, 'Fallen Marionette') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30893,   1,   33558542) /* Setup */
