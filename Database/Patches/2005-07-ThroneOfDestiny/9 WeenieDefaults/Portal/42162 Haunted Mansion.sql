@@ -27,6 +27,7 @@ VALUES (42162,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42162,   1, 'Haunted Mansion') /* Name */
      , (42162,  16, 'A portal leading to Frest Greelving''s now haunted mansion where Silver Atlatl, Tetsubo Slugger and Ornate Neckode may be found.') /* LongDesc */
+     , (42162,  37, 'fachubhauntedmansionportal_flag') /* QuestRestriction */
      , (42162,  38, 'Haunted Mansion (6.0N, 43.7E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42162,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42162, 2, 3062235144, 21.1143, 185.136, 40.6206, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0xB6860008 [21.114300 185.136000 40.620600] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0xB6860008 [21.114300 185.136002 40.620602] 1.000000 0.000000 0.000000 0.000000 */;

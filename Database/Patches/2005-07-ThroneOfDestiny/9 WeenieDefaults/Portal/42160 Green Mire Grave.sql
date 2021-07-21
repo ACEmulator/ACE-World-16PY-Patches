@@ -27,6 +27,7 @@ VALUES (42160,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42160,   1, 'Green Mire Grave') /* Name */
      , (42160,  16, 'A portal leading to Green Mire Grave where the Green Mire Warrior artifacts may be found.') /* LongDesc */
+     , (42160,  37, 'fachubgreenmiregraveportal_flag') /* QuestRestriction */
      , (42160,  38, 'Green Mire Grave (27.7S, 71.6E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42160,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42160, 2, 3629908031, 187.164, 145.655, 13.602, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0xD85C003F [187.164000 145.655000 13.602000] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0xD85C003F [187.164001 145.654999 13.602000] 1.000000 0.000000 0.000000 0.000000 */;

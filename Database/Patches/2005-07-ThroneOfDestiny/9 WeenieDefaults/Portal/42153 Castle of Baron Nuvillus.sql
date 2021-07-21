@@ -27,6 +27,7 @@ VALUES (42153,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42153,   1, 'Castle of Baron Nuvillus') /* Name */
      , (42153,  16, 'A portal leading to the Castle of Baron Nuvillus where the Crown of Bone may be found.') /* LongDesc */
+     , (42153,  37, 'fachubcastleportal_flag') /* QuestRestriction */
      , (42153,  38, 'Castle of Baron Nuvillus (24.5S, 76.7E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42153,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42153, 2, 3747610647, 71.1825, 152.756, 16.7346, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0xDF600017 [71.182500 152.756000 16.734600] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0xDF600017 [71.182503 152.755997 16.734600] 1.000000 0.000000 0.000000 0.000000 */;

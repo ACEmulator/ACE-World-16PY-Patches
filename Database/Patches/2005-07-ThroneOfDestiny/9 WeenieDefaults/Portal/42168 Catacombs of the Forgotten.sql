@@ -27,6 +27,7 @@ VALUES (42168,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42168,   1, 'Catacombs of the Forgotten') /* Name */
      , (42168,  16, 'A portal leading to the Catacombs of the Forgotten where Mi Krau-Li''s Jitte may be found.') /* LongDesc */
+     , (42168,  37, 'fachubcatacombsportal_flag') /* QuestRestriction */
      , (42168,  38, 'Catacombs of the Forgotten (17.4N, 32.8E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42168,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42168, 2, 2828337178, 73.7672, 24.0618, 83.8474, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0xA895001A [73.767200 24.061800 83.847400] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0xA895001A [73.767197 24.061800 83.847397] 1.000000 0.000000 0.000000 0.000000 */;

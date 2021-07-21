@@ -27,6 +27,7 @@ VALUES (42171,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42171,   1, 'Halls of Helm') /* Name */
      , (42171,  16, 'A portal leading to Halls of Helm where the Superior Helm and Fiery Shield may be found.') /* LongDesc */
+     , (42171,  37, 'fachubhallsofhelmportal_flag') /* QuestRestriction */
      , (42171,  38, 'Halls of Helm (18.7N, 1.8E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42171,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42171, 2, 2174091311, 124.108, 163.773, 197.925, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x8196002F [124.108000 163.773000 197.925000] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0x8196002F [124.108002 163.772995 197.925003] 1.000000 0.000000 0.000000 0.000000 */;

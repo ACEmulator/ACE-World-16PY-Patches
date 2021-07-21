@@ -27,6 +27,7 @@ VALUES (42147,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42147,   1, 'Suntik') /* Name */
      , (42147,  16, 'A portal leading to a location near Suntik where the Acid Axe may be found.') /* LongDesc */
+     , (42147,  37, 'fachubsuntikportal_flag') /* QuestRestriction */
      , (42147,  38, 'Suntik (16.5N, 3.9E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42147,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42147, 2, 2224291857, 49.7917, 7.51754, 224.005, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x84940011 [49.791700 7.517540 224.005000] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0x84940011 [49.791698 7.517540 224.005005] 1.000000 0.000000 0.000000 0.000000 */;

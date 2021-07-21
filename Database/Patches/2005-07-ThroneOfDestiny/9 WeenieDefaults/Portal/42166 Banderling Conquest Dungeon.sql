@@ -27,6 +27,7 @@ VALUES (42166,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42166,   1, 'Banderling Conquest Dungeon') /* Name */
      , (42166,  16, 'A portal leading to the Banderling Conquest Dungeon where part of the Explorer''s Mace may be found.') /* LongDesc */
+     , (42166,  37, 'fachubeasthamportals_flag') /* QuestRestriction */
      , (42166,  38, 'Banderling Conquest Dungeon (29.1S, 50.6E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42166,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42166, 2, 3193634834, 63.5, 46.8, 6, 0.173648, 0, 0, -0.984808) /* Destination */
-/* @teleloc 0xBE5B0012 [63.500000 46.800000 6.000000] 0.173648 0.000000 0.000000 -0.984808 */;
+/* @teleloc 0xBE5B0012 [63.500000 46.799999 6.000000] 0.173648 0.000000 0.000000 -0.984808 */;

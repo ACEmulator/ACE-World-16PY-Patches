@@ -27,6 +27,7 @@ VALUES (42173,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42173,   1, 'Trothyr''s Rest') /* Name */
      , (42173,  16, 'A portal leading to Trothyr''s Rest where Trothyr''s artifacts may be found.') /* LongDesc */
+     , (42173,  37, 'fachubtrothyrsrestportal_flag') /* QuestRestriction */
      , (42173,  38, 'Trothyr''s Rest (13.6N, 50.7E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42173,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42173, 2, 3197108276, 149.845, 75.6516, 24.005, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0xBE900034 [149.845000 75.651600 24.005000] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0xBE900034 [149.845001 75.651604 24.004999] 1.000000 0.000000 0.000000 0.000000 */;
