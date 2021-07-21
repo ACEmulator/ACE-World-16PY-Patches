@@ -28,7 +28,7 @@ VALUES (44601,   1, 'Eldrytch Web Olthoi Shield Cover') /* Name */
      , (44601,  16, 'A shield cover enchanted to fit over shields of many shapes and sizes. WARNING: Once this cover is used on a shield, it will make the shield only wieldable by a member of the Eldrytch Web.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44601,   1,   33561276) /* Setup */
+VALUES (44601,   1,   33561277) /* Setup */
      , (44601,   3,  536870932) /* SoundTable */
      , (44601,   6,   67111919) /* PaletteBase */
      , (44601,   7,  268437471) /* ClothingBase */

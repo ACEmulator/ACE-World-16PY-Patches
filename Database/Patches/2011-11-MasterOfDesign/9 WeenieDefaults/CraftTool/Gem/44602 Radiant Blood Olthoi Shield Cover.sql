@@ -28,7 +28,7 @@ VALUES (44602,   1, 'Radiant Blood Olthoi Shield Cover') /* Name */
      , (44602,  16, 'A shield cover enchanted to fit over shields of many shapes and sizes. WARNING: Once this cover is used on a shield, it will make the shield only wieldable by a member of the Radiant Blood.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44602,   1,   33561276) /* Setup */
+VALUES (44602,   1,   33561278) /* Setup */
      , (44602,   3,  536870932) /* SoundTable */
      , (44602,   6,   67111919) /* PaletteBase */
      , (44602,   7,  268437471) /* ClothingBase */
