@@ -1,7 +1,7 @@
-DELETE FROM `weenie` WHERE `class_Id` = 43804;
+DELETE FROM `weenie` WHERE `class_Id` = 43804; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43804, 'ace43804-sirdonovan', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (43804, 'ace43804-sirdonovan', 10, '2021-07-13 06:50:24') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43804,   1,         16) /* ItemType - Creature */
@@ -44,23 +44,9 @@ VALUES (43804,   1, 290, 0, 0) /* Strength */
      , (43804,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43804,   1,   196, 0, 0, 296) /* MaxHealth */
-     , (43804,   3,   196, 0, 0, 396) /* MaxStamina */
-     , (43804,   5,   196, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43804, 2, 42717,  1,  0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
-     , (43804, 2, 2587,   0, 14, 1, False) /* Create Shirt for Wield */
-     , (43804, 2, 2601,   0, 14, 1, False) /* Create Pants for Wield */
-     , (43804, 2, 21150,  0, 93, 1, False) /* Create Covenant Sollerets for Wield */
-     , (43804, 2, 21151,  0, 93, 1, False) /* Create Covenant Bracers for Wield */
-     , (43804, 2, 21152,  0, 93, 1, False) /* Create Covenant Breastplate for Wield */
-     , (43804, 2, 21153,  0, 93, 1, False) /* Create Covenant Gauntlets for Wield */
-     , (43804, 2, 21154,  0, 93, 1, False) /* Create Covenant Girth for Wield*/
-     , (43804, 2, 21155,  0, 93, 1, False) /* Create Covenant Greaves for Wield */
-     , (43804, 2, 21156,  0, 93, 1, False) /* Create Covenant Helm for Wield */
-     , (43804, 2, 21157,  0, 93, 1, False) /* Create Covenant Pauldrons for Wield */
-     , (43804, 2, 21159,  0, 93, 1, False) /* Create Covenant Tassets for Wield */;
+VALUES (43804,   1,   196, 0, 0,  296) /* MaxHealth */
+     , (43804,   3,   196, 0, 0,  396) /* MaxStamina */
+     , (43804,   5,   196, 0, 0,  396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (43804, 5 /* HeartBeat */, 0.085, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
@@ -180,7 +166,7 @@ VALUES (@parent_id, 0, 12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL
      , (@parent_id, 2, 10 /* Tell */, 0, 1, NULL, 'You''ve done well. That crystal radiates a ton of geomantic power. The Master Bloodstone must''ve been very powerful.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 3, 10 /* Tell */, 0, 1, NULL, 'Here, let''s see if we can put some of that power to work for you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 4, 18 /* DirectBroadcast */, 1.5, 1, NULL, 'Sir Donovan pulls out some salvaged supplies, and converts a section of the shard into a rather delicate looking wand.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 5, 49 /* AwardLevelProportionalXP */, 1, 1, NULL, NULL, NULL, 0, 280000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.19999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 5, 49 /* AwardLevelProportionalXP */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.19999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 6, 113 /* AwardLuminance */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 40000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 7, 34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 713 /* BloodstoneHunter */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 8, 31 /* EraseQuest */, 0, 1, NULL, 'CanEnterLordKastellarsLab', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
@@ -237,3 +223,16 @@ VALUES (@parent_id, 0, 12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL
      , (@parent_id, 3, 10 /* Tell */, 0, 1, NULL, 'There. That worked pretty well.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 4, 113 /* AwardLuminance */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43804, 2, 42717,  1, 0,    0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
+     , (43804, 2,  2587,  0,14,  0.5, False) /* Create Shirt for Wield */
+     , (43804, 2,  2601,  0,14,0.4909, False) /* Create Pants for Wield */
+     , (43804, 2, 21150,  0,93,    0, False) /* Create Covenant Sollerets for Wield */
+     , (43804, 2, 21151,  0,93,    0, False) /* Create Covenant Bracers for Wield */
+     , (43804, 2, 21152,  0,93,    0, False) /* Create Covenant Breastplate for Wield */
+     , (43804, 2, 21153,  0,93,    0, False) /* Create Covenant Gauntlets for Wield */
+     , (43804, 2, 21154,  0,93,    0, False) /* Create Covenant Girth for Wield */
+     , (43804, 2, 21155,  0,93,    0, False) /* Create Covenant Greaves for Wield */
+     , (43804, 2, 21156,  0,93,    0, False) /* Create Covenant Helm for Wield */
+     , (43804, 2, 21157,  0,93,    0, False) /* Create Covenant Pauldrons for Wield */
+     , (43804, 2, 21159,  0,93,    0, False) /* Create Covenant Tassets for Wield */;
