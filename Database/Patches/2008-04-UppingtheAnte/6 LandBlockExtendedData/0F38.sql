@@ -82,5 +82,5 @@ VALUES (0x70F38033, 37406, 0x0F380185, 326.454, 116.77, -23.5936, 0.8484, 0, 0, 
 /* @teleloc 0x0F380185 [326.454010 116.769997 -23.593599] 0.848400 0.000000 0.000000 0.529356 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70F38034, 87472, 0x0F380150, 296.93692, 106.85955, -23.608, -0.707107, 0, 0, 0.707107, False, '2021-07-21 10:42:23'); /* Blightfinger's Warrens */
+VALUES (0x70F38034, 87478, 0x0F380150, 296.93692, 106.85955, -23.608, -0.707107, 0, 0, 0.707107, False, '2021-07-21 10:42:23'); /* Blightfinger's Warrens */
 /* @teleloc 0x0F380150 [296.936920 106.859550 -23.608000] -0.690739 0.000000 0.000000 0.723104 */
