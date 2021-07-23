@@ -35,8 +35,6 @@ VALUES (37444,   1,       5) /* HeartbeatInterval */
      , (37444,  17,     0.4) /* ArmorModVsFire */
      , (37444,  18,       1) /* ArmorModVsAcid */
      , (37444,  19,     0.6) /* ArmorModVsElectric */
-     , (37444,  37,     0.9) /* BuyPrice */
-     , (37444,  38,    1.55) /* SellPrice */
      , (37444,  54,       3) /* UseRadius */
      , (37444,  64,       1) /* ResistSlash */
      , (37444,  65,       1) /* ResistPierce */

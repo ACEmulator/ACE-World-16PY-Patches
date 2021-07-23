@@ -35,8 +35,6 @@ VALUES (37445,   1,       5) /* HeartbeatInterval */
      , (37445,  17,     0.4) /* ArmorModVsFire */
      , (37445,  18,       1) /* ArmorModVsAcid */
      , (37445,  19,     0.6) /* ArmorModVsElectric */
-     , (37445,  37,     0.9) /* BuyPrice */
-     , (37445,  38,    1.55) /* SellPrice */
      , (37445,  54,       3) /* UseRadius */
      , (37445,  64,       1) /* ResistSlash */
      , (37445,  65,       1) /* ResistPierce */
