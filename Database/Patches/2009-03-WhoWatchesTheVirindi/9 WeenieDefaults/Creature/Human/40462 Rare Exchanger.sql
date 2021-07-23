@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40462;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40462, 'ace40462-rareexchanger', 10, '2020-01-05 00:00:00') /* Creature */;
+VALUES (40462, 'ace40462-rareexchanger', 10, '2020-05-12 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40462,   1,         16) /* ItemType - Creature */
@@ -78,9 +78,9 @@ VALUES (40462,   1,     5, 0, 0, 65) /* MaxHealth */
      , (40462,   5,     5, 0, 0, 125) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (40462,  6, 0, 2, 0,   1, 0, 644.319169226483) /* MeleeDefense        Trained */
-     , (40462,  7, 0, 2, 0,   1, 0, 644.319169226483) /* MissileDefense      Trained */
-     , (40462, 13, 0, 2, 0,   1, 0, 644.319169226483) /* UnarmedCombat       Trained */;
+VALUES (40462,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */
+     , (40462,  7, 0, 2, 0,   1, 0, 0) /* MissileDefense      Trained */
+     , (40462, 45, 0, 2, 0,   1, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (40462,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -2579,3 +2579,4 @@ VALUES (40462, 2,  2596,  0, 9, 1, False) /* Create Doublet (2596) for Wield */
      , (40462, 2,  2597,  0, 9, 0, False) /* Create Pants (2597) for Wield */
      , (40462, 2,   115,  0, 4, 0.5, False) /* Create Leather Boots (115) for Wield */
      , (40462, 2, 10697,  0, 8, 0.5, False) /* Create Visor (10697) for Wield */;
+

@@ -1,28 +1,22 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8192;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8192, 'portalfloatingcityc', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (8192, 'portalfloatingcityc', 7, '2020-07-09 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8192,   1,      65536) /* ItemType - Portal */
      , (8192,  16,         32) /* ItemUseable - Remote */
      , (8192,  86,        150) /* MinLevel */
      , (8192,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (8192, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
+     , (8192, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (8192, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8192,   1, True ) /* Stuck */
-     , (8192,  11, False) /* IgnoreCollisions */
-     , (8192,  12, True ) /* ReportCollisions */
-     , (8192,  13, True ) /* Ethereal */
-     , (8192,  14, True ) /* GravityStatus */
-     , (8192,  15, True ) /* LightsStatus */
-     , (8192,  19, True ) /* Attackable */
      , (8192,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8192,  54, -0.100000001490116) /* UseRadius */;
+VALUES (8192,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8192,   1, 'The Floating City') /* Name */

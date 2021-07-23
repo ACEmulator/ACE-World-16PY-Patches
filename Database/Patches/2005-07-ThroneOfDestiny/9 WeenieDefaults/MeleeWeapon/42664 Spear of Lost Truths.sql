@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42664;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42664, 'ace42664-spearoflosttruths', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (42664, 'ace42664-spearoflosttruths', 6, '2020-09-08 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42664,   1,          1) /* ItemType - MeleeWeapon */
@@ -18,8 +18,7 @@ VALUES (42664,   1,          1) /* ItemType - MeleeWeapon */
      , (42664,  47,          2) /* AttackType - Thrust */
      , (42664,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (42664,  49,         35) /* WeaponTime */
-     , (42664,  51,          1) /* CombatUse - Melee */
-     , (42664,  52,          1) /* ParentLocation */
+     , (42664,  51,          5) /* CombatUse - TwoHanded */
      , (42664,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42664, 106,        350) /* ItemSpellcraft */
      , (42664, 107,       2000) /* ItemCurMana */
@@ -37,20 +36,16 @@ VALUES (42664,   4,          0) /* ItemTotalXp */
      , (42664,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42664,  11, True ) /* IgnoreCollisions */
-     , (42664,  13, True ) /* Ethereal */
-     , (42664,  14, True ) /* GravityStatus */
-     , (42664,  19, True ) /* Attackable */
-     , (42664,  22, True ) /* Inscribable */;
+VALUES (42664,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42664,   5, -0.0333333015441895) /* ManaRate */
+VALUES (42664,   5,  -0.033) /* ManaRate */
      , (42664,  21,       1) /* WeaponLength */
-     , (42664,  22, 0.600000023841858) /* DamageVariance */
+     , (42664,  22,     0.6) /* DamageVariance */
      , (42664,  26,       0) /* MaximumVelocity */
-     , (42664,  29, 1.17999994754791) /* WeaponDefense */
+     , (42664,  29,    1.18) /* WeaponDefense */
      , (42664,  39,       1) /* DefaultScale */
-     , (42664,  62, 1.17999994754791) /* WeaponOffense */
+     , (42664,  62,    1.18) /* WeaponOffense */
      , (42664,  63,       1) /* DamageMod */
      , (42664, 136,       2) /* CriticalMultiplier */;
 

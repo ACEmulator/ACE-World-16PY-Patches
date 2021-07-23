@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24516;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24516, 'portalasheronsanctum', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (24516, 'portalasheronsanctum', 7, '2020-07-09 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24516,   1,      65536) /* ItemType - Portal */
      , (24516,   9,          0) /* ValidLocations - None */
-     , (24516,  16,          1) /* ItemUseable - No */
+     , (24516,  16,         32) /* ItemUseable - Remote */
      , (24516,  83,       4096) /* ActivationResponse - CastSpell */
      , (24516,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
      , (24516, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
@@ -14,12 +14,6 @@ VALUES (24516,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24516,   1, True ) /* Stuck */
-     , (24516,  11, False) /* IgnoreCollisions */
-     , (24516,  12, True ) /* ReportCollisions */
-     , (24516,  13, True ) /* Ethereal */
-     , (24516,  14, False) /* GravityStatus */
-     , (24516,  15, True ) /* LightsStatus */
-     , (24516,  19, True ) /* Attackable */
      , (24516,  88, True ) /* PortalShowDestination */
      , (24516,  89, True ) /* PortalIgnoresPkAttackTimer */;
 

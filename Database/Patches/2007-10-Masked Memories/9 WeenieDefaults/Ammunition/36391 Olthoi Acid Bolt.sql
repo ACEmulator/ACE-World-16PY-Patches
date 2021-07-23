@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36391;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36391, 'ace36391-olthoiacidbolt', 5, '2019-12-25 00:00:00') /* Ammunition */;
+VALUES (36391, 'ace36391-olthoiacidbolt', 5, '2020-11-01 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36391,   1,        256) /* ItemType - MissileWeapon */
@@ -15,7 +15,7 @@ VALUES (36391,   1,        256) /* ItemType - MissileWeapon */
      , (36391,  16,          1) /* ItemUseable - No */
      , (36391,  18,        256) /* UiEffects - Acid */
      , (36391,  19,          1) /* Value */
-     , (36391,  44,         42) /* Damage */
+     , (36391,  44,         53) /* Damage */
      , (36391,  45,         32) /* DamageType - Acid */
      , (36391,  50,          2) /* AmmoType - Bolt */
      , (36391,  51,          3) /* CombatUse - Ammo */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28672;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28672, 'thrungusbutton', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (28672, 'thrungusbutton', 10, '2021-03-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28672,   1,         16) /* ItemType - Creature */
@@ -35,24 +35,24 @@ VALUES (28672,   1,       5) /* HeartbeatInterval */
      , (28672,   4,       3) /* StaminaRate */
      , (28672,   5,       1) /* ManaRate */
      , (28672,  12,       0) /* Shade */
-     , (28672,  13, 0.899999976158142) /* ArmorModVsSlash */
-     , (28672,  14, 0.600000023841858) /* ArmorModVsPierce */
-     , (28672,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (28672,  16, 0.800000011920929) /* ArmorModVsCold */
-     , (28672,  17, 0.600000023841858) /* ArmorModVsFire */
+     , (28672,  13,     0.9) /* ArmorModVsSlash */
+     , (28672,  14,     0.6) /* ArmorModVsPierce */
+     , (28672,  15,     1.1) /* ArmorModVsBludgeon */
+     , (28672,  16,     0.8) /* ArmorModVsCold */
+     , (28672,  17,     0.6) /* ArmorModVsFire */
      , (28672,  18,       1) /* ArmorModVsAcid */
-     , (28672,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (28672,  19,     0.8) /* ArmorModVsElectric */
      , (28672,  31,      16) /* VisualAwarenessRange */
      , (28672,  34,       1) /* PowerupTime */
      , (28672,  36,       1) /* ChargeSpeed */
-     , (28672,  39, 0.899999976158142) /* DefaultScale */
-     , (28672,  64, 0.800000011920929) /* ResistSlash */
+     , (28672,  39,     1.1) /* DefaultScale */
+     , (28672,  64,     0.8) /* ResistSlash */
      , (28672,  65,       1) /* ResistPierce */
-     , (28672,  66, 0.660000026226044) /* ResistBludgeon */
+     , (28672,  66,    0.66) /* ResistBludgeon */
      , (28672,  67,       1) /* ResistFire */
-     , (28672,  68, 0.800000011920929) /* ResistCold */
+     , (28672,  68,     0.8) /* ResistCold */
      , (28672,  69,    0.75) /* ResistAcid */
-     , (28672,  70, 0.800000011920929) /* ResistElectric */
+     , (28672,  70,     0.8) /* ResistElectric */
      , (28672,  71,       1) /* ResistHealthBoost */
      , (28672,  72,     0.5) /* ResistStaminaDrain */
      , (28672,  73,       1) /* ResistStaminaBoost */
@@ -84,9 +84,9 @@ VALUES (28672,   1, 140, 0, 0) /* Strength */
      , (28672,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28672,   1,    70, 0, 0, 80) /* MaxHealth */
-     , (28672,   3,   180, 0, 0, 200) /* MaxStamina */
-     , (28672,   5,    31, 0, 0, 51) /* MaxMana */;
+VALUES (28672,   1,    70, 0, 0, 100) /* MaxHealth */
+     , (28672,   3,   180, 0, 0, 240) /* MaxStamina */
+     , (28672,   5,    31, 0, 0, 151) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (28672,  6, 0, 3, 0,  75, 0, 0) /* MeleeDefense        Specialized */

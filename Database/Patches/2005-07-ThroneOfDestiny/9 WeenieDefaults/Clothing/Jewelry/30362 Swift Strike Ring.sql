@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30362;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30362, 'ringrareswiftstrike', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (30362, 'ringrareswiftstrike', 1, '2021-01-19 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30362,   1,          8) /* ItemType - Jewelry */
@@ -13,27 +13,20 @@ VALUES (30362,   1,          8) /* ItemType - Jewelry */
      , (30362,  17,        230) /* RareId */
      , (30362,  19,      50000) /* Value */
      , (30362,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
-     , (30362,  52,          2) /* ParentLocation */
-     , (30362,  53,        101) /* PlacementPosition */
      , (30362,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30362, 106,        350) /* ItemSpellcraft */
      , (30362, 107,       3000) /* ItemCurMana */
      , (30362, 108,       3000) /* ItemMaxMana */
-     , (30362, 109,          0) /* ItemDifficulty */
-     , (30362, 110,          0) /* ItemAllegianceRankLimit */
      , (30362, 151,          2) /* HookType - Wall */
      , (30362, 169,  118162702) /* TsysMutationData */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30362,  11, True ) /* IgnoreCollisions */
-     , (30362,  13, True ) /* Ethereal */
-     , (30362,  14, True ) /* GravityStatus */
-     , (30362,  22, True ) /* Inscribable */;
+VALUES (30362,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30362,   5, -0.0333333015441895) /* ManaRate */
-     , (30362,  12, 0.660000026226044) /* Shade */
-     , (30362,  39,     0.5) /* DefaultScale */;
+VALUES (30362,   5, -0.033) /* ManaRate */
+     , (30362,  12,   0.66) /* Shade */
+     , (30362,  39,    0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30362,   1, 'Swift Strike Ring') /* Name */
@@ -54,4 +47,5 @@ VALUES (30362,  4319,      2)  /* Incantation of Quickness Self */
      , (30362,  4560,      2)  /* Incantation of Invulnerability Self */
      , (30362,  4616,      2)  /* Incantation of Sprint Self */
      , (30362,  4696,      2)  /* Epic Invulnerability */
-     , (30362,  4710,      2)  /* Epic Sprint */;
+     , (30362,  4710,      2)  /* Epic Sprint */
+     , (30362,  4019,      2)  /* Epic Quickness */;

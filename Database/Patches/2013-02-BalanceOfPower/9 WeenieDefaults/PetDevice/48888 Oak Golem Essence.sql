@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48888;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48888, 'ace48888-oakgolemessence', 70, '2019-12-07 05:48:21') /* PetDevice */;
+VALUES (48888, 'ace48888-oakgolemessence', 70, '2020-10-23 05:48:21') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48888,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (48888,   1,        128) /* ItemType - Misc */
      , (48888,  18,          1) /* UiEffects - Magical */
      , (48888,  19,        500) /* Value */
      , (48888,  33,          1) /* Bonded - Bonded */
-     , (48888,  53,        101) /* PlacementPosition - Resting */
      , (48888,  91,         50) /* MaxStructure */
      , (48888,  92,         50) /* Structure */
      , (48888,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -24,15 +23,11 @@ VALUES (48888,   1,        128) /* ItemType - Misc */
      , (48888, 369,         70) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48888,  11, True ) /* IgnoreCollisions */
-     , (48888,  13, True ) /* Ethereal */
-     , (48888,  14, True ) /* GravityStatus */
-     , (48888,  19, True ) /* Attackable */
-     , (48888,  22, True ) /* Inscribable */
+VALUES (48888,  22, True ) /* Inscribable */
      , (48888,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48888,  39, 0.400000005960464) /* DefaultScale */
+VALUES (48888,  39,     0.4) /* DefaultScale */
      , (48888, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

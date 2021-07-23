@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31402;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31402, 'ace31402-ravenaugur', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (31402, 'ace31402-ravenaugur', 10, '2021-01-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31402,   1,         16) /* ItemType - Creature */
@@ -17,16 +17,14 @@ VALUES (31402,   1,         16) /* ItemType - Creature */
      , (31402, 113,          1) /* Gender - Male */
      , (31402, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (31402, 146,     500000) /* XpOverride */
-     , (31402, 188,          1) /* HeritageGroup - Aluvian */;
+     , (31402, 188,          1) /* HeritageGroup - Aluvian */
+     , (31402, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31402,   1, True ) /* Stuck */
      , (31402,   6, True ) /* AiUsesMana */
      , (31402,   7, True ) /* AiUseHumanMagicAnimations */
      , (31402,  10, True ) /* AttackerAi */
-     , (31402,  11, False) /* IgnoreCollisions */
-     , (31402,  12, True ) /* ReportCollisions */
-     , (31402,  13, False) /* Ethereal */
      , (31402,  58, True ) /* SpellQueueActive */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -36,21 +34,21 @@ VALUES (31402,   1,       5) /* HeartbeatInterval */
      , (31402,   4,      10) /* StaminaRate */
      , (31402,   5,       3) /* ManaRate */
      , (31402,  12,    0.25) /* Shade */
-     , (31402,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (31402,  13,     0.9) /* ArmorModVsSlash */
      , (31402,  14,       1) /* ArmorModVsPierce */
-     , (31402,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (31402,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (31402,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (31402,  15,     1.1) /* ArmorModVsBludgeon */
+     , (31402,  16,     0.4) /* ArmorModVsCold */
+     , (31402,  17,     0.4) /* ArmorModVsFire */
      , (31402,  18,       1) /* ArmorModVsAcid */
-     , (31402,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (31402,  19,     0.6) /* ArmorModVsElectric */
      , (31402,  31,      12) /* VisualAwarenessRange */
-     , (31402,  64, 0.670000016689301) /* ResistSlash */
-     , (31402,  65, 0.670000016689301) /* ResistPierce */
-     , (31402,  66, 0.670000016689301) /* ResistBludgeon */
-     , (31402,  67, 0.670000016689301) /* ResistFire */
-     , (31402,  68, 0.670000016689301) /* ResistCold */
-     , (31402,  69, 0.670000016689301) /* ResistAcid */
-     , (31402,  70, 0.670000016689301) /* ResistElectric */
+     , (31402,  64,    0.67) /* ResistSlash */
+     , (31402,  65,    0.67) /* ResistPierce */
+     , (31402,  66,    0.67) /* ResistBludgeon */
+     , (31402,  67,    0.67) /* ResistFire */
+     , (31402,  68,    0.67) /* ResistCold */
+     , (31402,  69,    0.67) /* ResistAcid */
+     , (31402,  70,    0.67) /* ResistElectric */
      , (31402,  71,       1) /* ResistHealthBoost */
      , (31402,  72,       1) /* ResistStaminaDrain */
      , (31402,  74,       1) /* ResistManaDrain */
@@ -61,7 +59,6 @@ VALUES (31402,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31402,   1, 'Raven Augur') /* Name */
-     , (31402,   3, 'Male') /* Sex */
      , (31402,   5, 'Raven Hand') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -72,14 +69,13 @@ VALUES (31402,   1,   33554433) /* Setup */
      , (31402,   6,   67108990) /* PaletteBase */
      , (31402,   7,  268435872) /* ClothingBase */
      , (31402,   8,  100667446) /* Icon */
-     , (31402,   9,   83890513) /* EyesTexture */
-     , (31402,  10,   83890561) /* NoseTexture */
-     , (31402,  11,   83890589) /* MouthTexture */
-     , (31402,  15,   67116993) /* HairPalette */
-     , (31402,  16,   67109565) /* EyesPalette */
-     , (31402,  17,   67109558) /* SkinPalette */
      , (31402,  22,  872415236) /* PhysicsEffectTable */
-     , (31402,  32,       2015) /* WieldedTreasureType */
+     , (31402,  32,       2015) /* WieldedTreasureType - 
+                                   Wield Raven Sabra (31386) | Probability: 20%
+                                   Wield Raven Sabra (31387) | Probability: 20%
+                                   Wield Raven Sabra (31388) | Probability: 20%
+                                   Wield Raven Sabra (31389) | Probability: 20%
+                                   Wield Raven Sabra (31390) | Probability: 20% */
      , (31402,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -133,5 +129,7 @@ VALUES (31402, 2,    57,  1, 93, 0, True) /* Create Platemail Gauntlets (57) for
      , (31402, 2,   107,  1, 93, 0, True) /* Create Sollerets (107) for Wield */
      , (31402, 2,  6046,  1, 39, 0.232225, True) /* Create Amuli Coat (6046) for Wield */
      , (31402, 2,  6047,  1, 93, 0.25, False) /* Create Amuli Leggings (6047) for Wield */
-     , (31402, 9, 32940,  0,  0, 0.05, False) /* Create Dark Monolith Caverns Portal Gem (32940) for ContainTreasure */
-     , (31402, 9, 37088,  0,  0, 0.05, False) /* Create Invitation to the Battle Burrows (37088) for ContainTreasure */;
+     , (31402, 9, 32940,  0,  0, 0.05, False) /* Create Dark Monolith Caverns (32940) for ContainTreasure */
+     , (31402, 9,     0,  0,  0, 0.95, False) /* Create nothing for ContainTreasure */
+     , (31402, 9, 37088,  0,  0, 0.05, False) /* Create Invitation to the Battle Burrows (37088) for ContainTreasure */
+     , (31402, 9,     0,  0,  0, 0.95, False) /* Create nothing for ContainTreasure */;

@@ -14,7 +14,6 @@ VALUES (46396,   1,      32768) /* ItemType - Caster */
      , (46396,  33,          1) /* Bonded - Bonded */
      , (46396,  36,       9999) /* ResistMagic */
      , (46396,  45,         16) /* DamageType - Fire */
-     , (46396,  53,        101) /* PlacementPosition */
      , (46396,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46396,  94,         16) /* TargetType - Creature */
      , (46396, 114,          1) /* Attuned - Attuned */
@@ -25,19 +24,15 @@ VALUES (46396,   1,      32768) /* ItemType - Caster */
      , (46396, 166,         22) /* SlayerCreatureType - Shadow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46396,  11, True ) /* IgnoreCollisions */
-     , (46396,  13, True ) /* Ethereal */
-     , (46396,  14, True ) /* GravityStatus */
-     , (46396,  19, True ) /* Attackable */
-     , (46396,  22, True ) /* Inscribable */
+VALUES (46396,  22, True ) /* Inscribable */
      , (46396,  69, False) /* IsSellable */
      , (46396,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46396,  29, 1.28999996185303) /* WeaponDefense */
-     , (46396, 138,       3) /* SlayerDamageBonus */
-     , (46396, 144, 0.200000002980232) /* ManaConversionMod */
-     , (46396, 152, 1.19000005722046) /* ElementalDamageMod */;
+VALUES (46396,  29, 1.29) /* WeaponDefense */
+     , (46396, 138,    3) /* SlayerDamageBonus */
+     , (46396, 144,  0.2) /* ManaConversionMod */
+     , (46396, 152, 1.19) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46396,   1, 'Shadowfire Isparian Wand') /* Name */

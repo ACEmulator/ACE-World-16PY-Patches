@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27710;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27710, 'gromniebrass', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (27710, 'gromniebrass', 10, '2020-09-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27710,   1,         16) /* ItemType - Creature */
@@ -29,7 +29,7 @@ VALUES (27710,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27710,   1,       5) /* HeartbeatInterval */
      , (27710,   2,       0) /* HeartbeatTimestamp */
-     , (27710,   3, 0.699999988079071) /* HealthRate */
+     , (27710,   3,     0.7) /* HealthRate */
      , (27710,   4,       5) /* StaminaRate */
      , (27710,   5,       2) /* ManaRate */
      , (27710,  12,     0.5) /* Shade */
@@ -43,12 +43,12 @@ VALUES (27710,   1,       5) /* HeartbeatInterval */
      , (27710,  31,      25) /* VisualAwarenessRange */
      , (27710,  34,       1) /* PowerupTime */
      , (27710,  36,       1) /* ChargeSpeed */
-     , (27710,  39, 0.600000023841858) /* DefaultScale */
+     , (27710,  39,     0.6) /* DefaultScale */
      , (27710,  64,     0.5) /* ResistSlash */
      , (27710,  65,     0.5) /* ResistPierce */
      , (27710,  66,     0.5) /* ResistBludgeon */
-     , (27710,  67, 0.400000005960464) /* ResistFire */
-     , (27710,  68, 0.400000005960464) /* ResistCold */
+     , (27710,  67,     0.4) /* ResistFire */
+     , (27710,  68,     0.4) /* ResistCold */
      , (27710,  69,       1) /* ResistAcid */
      , (27710,  70,       0) /* ResistElectric */
      , (27710,  71,       1) /* ResistHealthBoost */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28790;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28790, 'portaluberknathlair', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (28790, 'portaluberknathlair', 7, '2020-07-09 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28790,   1,      65536) /* ItemType - Portal */
@@ -14,21 +14,17 @@ VALUES (28790,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28790,   1, True ) /* Stuck */
-     , (28790,  11, False) /* IgnoreCollisions */
-     , (28790,  12, True ) /* ReportCollisions */
-     , (28790,  13, True ) /* Ethereal */
-     , (28790,  15, True ) /* LightsStatus */
      , (28790,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28790,  54, -0.100000001490116) /* UseRadius */;
+VALUES (28790,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28790,   1, 'Greater K''nath Lair') /* Name */
      , (28790,  38, 'Greater K''nath Lair') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28790,   1,   33554867) /* Setup */
+VALUES (28790,   1,   33555924) /* Setup */
      , (28790,   2,  150994947) /* MotionTable */
      , (28790,   8,  100667499) /* Icon */;
 

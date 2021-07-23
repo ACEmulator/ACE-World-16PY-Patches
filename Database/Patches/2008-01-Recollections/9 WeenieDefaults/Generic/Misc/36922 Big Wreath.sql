@@ -1,22 +1,19 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36922;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36922, 'ace36922-bigwreath', 1, '2020-03-07 00:00:00') /* Generic */;
+VALUES (36922, 'ace36922-bigwreath', 1, '2020-06-22 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36922,   1,        128) /* ItemType - Misc */
      , (36922,   5,        100) /* EncumbranceVal */
-	 , (36922,   9,          0) /* ValidLocations - None */
      , (36922,  16,          1) /* ItemUseable - No */
      , (36922,  19,       1000) /* Value */
-     , (36922,  65,        101) /* Placement - Resting */
      , (36922,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
 	 , (36922, 150,        103) /* HookPlacement - Hook */
      , (36922, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36922,  13, True ) /* Ethereal */
-     , (36922,  22, True ) /* Inscribable */;
+VALUES (36922,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36922,  39,       2) /* DefaultScale */;

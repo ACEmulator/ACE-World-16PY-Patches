@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1081;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1081, 'eastrithwicjeweler', 12, '2005-02-09 10:00:00') /* Vendor */;
+VALUES (1081, 'eastrithwicjeweler', 12, '2020-06-06 10:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1081,   1,         16) /* ItemType - Creature */
@@ -170,12 +170,6 @@ VALUES (1081, 2,   130,  0, 9, 0, False) /* Create Shirt (130) for Wield */
      , (1081, 2,   115,  0, 9, 0, False) /* Create Leather Boots (115) for Wield */
      , (1081, 2,   119,  0, 9, 0, False) /* Create Cowl (119) for Wield */
      , (1081, 2, 10696,  0, 8, 0.5, False) /* Create Apron (10696) for Wield */     
-     , (1081, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
-     , (1081, 4, 41403, -1, 0, 0, False) /* Create Jeweler's Saw Frame (41403) for Shop */
-     , (1081, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
-     , (1081, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
-     , (1081, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */
-     , (1081, 4, 41395, -1, 0, 0, False) /* Create Unfinished Lense (41395) for Shop */
      , (1081, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (1081, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
      , (1081, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */

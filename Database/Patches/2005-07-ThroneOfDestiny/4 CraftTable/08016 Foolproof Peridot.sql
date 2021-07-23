@@ -1,7 +1,7 @@
 DELETE FROM `recipe` WHERE `id` = 8016;
 
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
-VALUES (8016, 0, 29 /* ArmorTinkering */, 0, 2, 0, 0, 'You apply the Peridot.', 0, 0, 'You apply the Peridot, but in the process you destroy the target.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2005-02-09 10:00:00');
+VALUES (8016, 0, 29 /* ArmorTinkering */, 0, 0, 0, 0, 'You apply the Peridot.', 0, 0, 'You apply the Peridot, but in the process you destroy the target.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2021-06-15 10:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8016, 0, 105, 1, 2, 'The target item cannot be tinkered!') /* Target.ItemWorkmanship LessThan 1 */
@@ -177,4 +177,5 @@ VALUES (8016, 30101 /* Foolproof Peridot */,    35 /* Chainmail Basinet */, '200
      , (8016, 30101 /* Foolproof Peridot */, 27229 /* Nariyid Girth */, '2005-02-09 10:00:00')
      , (8016, 30101 /* Foolproof Peridot */, 27230 /* Nariyid Helm */, '2005-02-09 10:00:00')
      , (8016, 30101 /* Foolproof Peridot */, 27231 /* Nariyid Leggings */, '2005-02-09 10:00:00')
-     , (8016, 30101 /* Foolproof Peridot */, 27232 /* Nariyid Sleeves */, '2005-02-09 10:00:00');
+     , (8016, 30101 /* Foolproof Peridot */, 27232 /* Nariyid Sleeves */, '2005-02-09 10:00:00')
+     , (8016, 30101 /* Foolproof Peridot */, 37291 /* Olthoi Shield */, '2021-03-27 00:00:00');

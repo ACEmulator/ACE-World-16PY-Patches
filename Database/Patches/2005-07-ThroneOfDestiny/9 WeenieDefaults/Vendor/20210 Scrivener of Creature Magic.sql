@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20210;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20210, 'scrivenercreatureouter', 12, '2019-08-10 20:27:57') /* Vendor */;
+VALUES (20210, 'scrivenercreatureouter', 12, '2020-06-28 20:27:57') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20210,   1,         16) /* ItemType - Creature */
@@ -185,6 +185,7 @@ VALUES (20210, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (20210, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wield */
      , (20210, 2, 10696,  0, 1, 0.5, False) /* Create Apron (10696) for Wield */
      , (20210, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
+     , (20210, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */
      , (20210, 4, 28943, -1, 0, 0, False) /* Create Scroll of Arcanum Enlightenment IV (28943) for Shop */
      , (20210, 4, 28936, -1, 0, 0, False) /* Create Scroll of Arcanum Salvaging IV (28936) for Shop */
      , (20210, 4,  2636, -1, 0, 0, False) /* Create Scroll of Bafflement Other IV (2636) for Shop */
@@ -203,8 +204,8 @@ VALUES (20210, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (20210, 4,  2739, -1, 0, 0, False) /* Create Scroll of Strength Other IV (2739) for Shop */
      , (20210, 4,  2744, -1, 0, 0, False) /* Create Scroll of Self Strength IV (2744) for Shop */
      , (20210, 4,  2749, -1, 0, 0, False) /* Create Scroll of Weakness Other IV (2749) for Shop */
-     , (20210, 4,  2754, -1, 0, 0, False) /* Create Scroll of WillPower Other IV (2754) for Shop */
-     , (20210, 4,  2759, -1, 0, 0, False) /* Create Scroll of WillPower Self IV (2759) for Shop */
+     , (20210, 4,  2754, -1, 0, 0, False) /* Create Scroll of Willpower Other IV (2754) for Shop */
+     , (20210, 4,  2759, -1, 0, 0, False) /* Create Scroll of Willpower Self IV (2759) for Shop */
      , (20210, 4,  5983, -1, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other IV (5983) for Shop */
      , (20210, 4,  5989, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Other IV (5989) for Shop */
      , (20210, 4,  5995, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Self IV (5995) for Shop */
@@ -300,6 +301,9 @@ VALUES (20210, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (20210, 4, 45351, -1, 0, 0, False) /* Create Scroll of Sneak Attack Mastery Self IV (45351) for Shop */
      , (20210, 4,  3490, -1, 0, 0, False) /* Create Scroll of Sprint Other IV (3490) for Shop */
      , (20210, 4,  3495, -1, 0, 0, False) /* Create Scroll of Sprint Self IV (3495) for Shop */
+     , (20210, 4, 49459, -1, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other IV (49459) for Shop */
+     , (20210, 4, 49466, -1, 0, 0, False) /* Create Scroll of Summoning Mastery Other IV (49466) for Shop */
+     , (20210, 4, 49473, -1, 0, 0, False) /* Create Scroll of Summoning Mastery Self IV (49473) for Shop */
      , (20210, 4,  3560, -1, 0, 0, False) /* Create Scroll of Vulnerability IV (3560) for Shop */
      , (20210, 4,  3565, -1, 0, 0, False) /* Create Scroll of War Magic Ineptitude IV (3565) for Shop */
      , (20210, 4,  3570, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Other IV (3570) for Shop */
@@ -312,5 +316,4 @@ VALUES (20210, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (20210, 4, 41259, -1, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Self IV (41259) for Shop */
      , (20210, 4, 43370, -1, 0, 0, False) /* Create Scroll of Void Magic Ineptitude IV (43370) for Shop */
      , (20210, 4, 43371, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Other IV (43371) for Shop */
-     , (20210, 4, 43372, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Self IV (43372) for Shop */
-     , (20210, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */;
+     , (20210, 4, 43372, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Self IV (43372) for Shop */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27825;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27825, 'crossbowsingularitynew', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (27825, 'crossbowsingularitynew', 3, '2020-07-04 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27825,   1,        256) /* ItemType - MissileWeapon */
@@ -19,8 +19,8 @@ VALUES (27825,   1,        256) /* ItemType - MissileWeapon */
      , (27825,  49,        100) /* WeaponTime */
      , (27825,  50,          2) /* AmmoType - Bolt */
      , (27825,  51,          2) /* CombatUse - Missle */
-     , (27825,  52,          2) /* ParentLocation */
-     , (27825,  53,          3) /* PlacementPosition */
+     , (27825,  52,          2) /* ParentLocation - LeftHand */
+     , (27825,  53,          3) /* PlacementPosition - LeftHand */
      , (27825,  60,        192) /* WeaponRange */
      , (27825,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27825, 106,        200) /* ItemSpellcraft */
@@ -35,23 +35,19 @@ VALUES (27825,   1,        256) /* ItemType - MissileWeapon */
      , (27825, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27825,  11, True ) /* IgnoreCollisions */
-     , (27825,  13, True ) /* Ethereal */
-     , (27825,  14, True ) /* GravityStatus */
-     , (27825,  19, True ) /* Attackable */
-     , (27825,  22, True ) /* Inscribable */
+VALUES (27825,  22, True ) /* Inscribable */
      , (27825,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27825,   5, -0.0329999998211861) /* ManaRate */
-     , (27825,  26, 27.2999992370605) /* MaximumVelocity */
-     , (27825,  29, 1.07000005245209) /* WeaponDefense */
-     , (27825,  39,    1.25) /* DefaultScale */
-     , (27825,  62,       1) /* WeaponOffense */
-     , (27825,  63, 2.09999990463257) /* DamageMod */
-     , (27825, 136,     2.5) /* CriticalMultiplier */
-     , (27825, 138, 1.79999995231628) /* SlayerDamageBonus */
-     , (27825, 147,    0.25) /* CriticalFrequency */;
+VALUES (27825,   5, -0.033) /* ManaRate */
+     , (27825,  26,   27.3) /* MaximumVelocity */
+     , (27825,  29,   1.07) /* WeaponDefense */
+     , (27825,  39,   1.25) /* DefaultScale */
+     , (27825,  62,      1) /* WeaponOffense */
+     , (27825,  63,    2.1) /* DamageMod */
+     , (27825, 136,    2.5) /* CriticalMultiplier */
+     , (27825, 138,    1.8) /* SlayerDamageBonus */
+     , (27825, 147,   0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27825,   1, 'Singularity Crossbow') /* Name */

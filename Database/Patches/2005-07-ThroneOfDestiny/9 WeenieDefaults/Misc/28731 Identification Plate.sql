@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28731;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28731, 'eaterlicenseplate', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (28731, 'eaterlicenseplate', 1, '2020-07-09 06:52:23') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28731,   1,        128) /* ItemType - Misc */
@@ -10,17 +10,12 @@ VALUES (28731,   1,        128) /* ItemType - Misc */
      , (28731,  16,          1) /* ItemUseable - No */
      , (28731,  19,          0) /* Value */
      , (28731,  33,          1) /* Bonded - Bonded */
-     , (28731,  53,        101) /* PlacementPosition */
      , (28731,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28731, 114,          0) /* Attuned - Normal */
      , (28731, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28731,  11, True ) /* IgnoreCollisions */
-     , (28731,  13, True ) /* Ethereal */
-     , (28731,  14, True ) /* GravityStatus */
-     , (28731,  19, True ) /* Attackable */
-     , (28731,  22, False) /* Inscribable */;
+VALUES (28731,  22, True) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28731,   1, 'Identification Plate') /* Name */

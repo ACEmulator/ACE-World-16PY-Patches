@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32054;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32054, 'ace32054-shopkeeperhulmurg', 12, '2019-06-09 15:31:52') /* Vendor */;
+VALUES (32054, 'ace32054-shopkeeperhulmurg', 12, '2020-07-01 15:31:52') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32054,   1,         16) /* ItemType - Creature */
@@ -92,8 +92,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'Sold! Soon Huldurg will have a bigger pile of pyreal things than anyone else!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32054, 4,   551, -1, 0, 0, False) /* Create Leather Basinet (551) for Shop */
-     , (32054, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
+VALUES (32054, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */
+     , (32054, 4, 41507, -1, 0, 0, False) /* Create Moderate Item Tinkering Armature (41507) for Shop */
+     , (32054, 4, 41419, -1, 0, 0, False) /* Create Sheet Metal Form (41419) for Shop */
+     , (32054, 4, 41423, -1, 0, 0, False) /* Create Medal Mold (41423) for Shop */
+     , (32054, 4, 41396, -1, 0, 0, False) /* Create Handle Mold (41396) for Shop */
+     , (32054, 4, 41420, -1, 0, 0, False) /* Create Hammer (41420) for Shop */
+     , (32054, 4, 41418, -1, 0, 0, False) /* Create Leather Strap (41418) for Shop */
+     , (32054, 4, 41744, -1, 0, 0, False) /* Create A Comprehensive Guide to Gearcrafting (41744) for Shop */
+     , (32054, 4,   551, -1, 0, 0, False) /* Create Leather Basinet (551) for Shop */
      , (32054, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
      , (32054, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (32054, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */

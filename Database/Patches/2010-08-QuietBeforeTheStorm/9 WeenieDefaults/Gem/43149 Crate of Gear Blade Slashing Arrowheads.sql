@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43149;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43149, 'ace43149-crateofgearbladeslashingarrowheads', 38, '2019-12-25 00:00:00') /* Gem */;
+VALUES (43149, 'ace43149-crateofgearbladeslashingarrowheads', 38, '2021-03-20 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43149,   1,        128) /* ItemType - Misc */
@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43149,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43149,  39, 0.8) /* DefaultScale */;
+VALUES (43149,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43149,   1, 'Crate of Gear Blade Slashing Arrowheads') /* Name */

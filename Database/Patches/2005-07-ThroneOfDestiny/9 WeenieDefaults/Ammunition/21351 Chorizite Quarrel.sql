@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21351;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (21351, 'boltchorizite', 5, '2019-12-25 00:00:00') /* Ammunition */;
+VALUES (21351, 'boltchorizite', 5, '2020-10-30 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21351,   1,        256) /* ItemType - MissileWeapon */
@@ -17,7 +17,7 @@ VALUES (21351,   1,        256) /* ItemType - MissileWeapon */
      , (21351,  16,          1) /* ItemUseable - No */
      , (21351,  19,          2) /* Value */
      , (21351,  36,       9999) /* ResistMagic */
-     , (21351,  44,         28) /* Damage */
+     , (21351,  44,         43) /* Damage */
      , (21351,  45,          2) /* DamageType - Pierce */
      , (21351,  50,        128) /* AmmoType - BoltChorizite */
      , (21351,  51,          3) /* CombatUse - Ammo */
@@ -30,7 +30,7 @@ VALUES (21351,  17, True ) /* Inelastic */
      , (21351,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21351,  22,    0.28) /* DamageVariance */
+VALUES (21351,  22,    0.43) /* DamageVariance */
      , (21351,  29,       1) /* WeaponDefense */
      , (21351,  39,     1.1) /* DefaultScale */
      , (21351,  62,       1) /* WeaponOffense */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20209;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20209, 'scrivenercreatureinner', 12, '2019-08-10 20:27:57') /* Vendor */;
+VALUES (20209, 'scrivenercreatureinner', 12, '2020-06-28 20:27:57') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20209,   1,         16) /* ItemType - Creature */
@@ -185,6 +185,7 @@ VALUES (20209, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (20209, 2, 10696,  0, 1, 0.5, False) /* Create Apron (10696) for Wield */
      , (20209, 2,   124,  0, 9, 0.5, False) /* Create Jerkin (124) for Wield */
      , (20209, 2,   127,  0, 5, 0.67, False) /* Create Pants (127) for Wield */
+     , (20209, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */
      , (20209, 4, 28942, -1, 0, 0, False) /* Create Scroll of Arcanum Enlightenment III (28942) for Shop */
      , (20209, 4, 28935, -1, 0, 0, False) /* Create Scroll of Arcanum Salvaging III (28935) for Shop */
      , (20209, 4,  2635, -1, 0, 0, False) /* Create Scroll of Bafflement Other III (2635) for Shop */
@@ -203,8 +204,8 @@ VALUES (20209, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (20209, 4,  2738, -1, 0, 0, False) /* Create Scroll of Strength Other III (2738) for Shop */
      , (20209, 4,  2743, -1, 0, 0, False) /* Create Scroll of Self Strength III (2743) for Shop */
      , (20209, 4,  2748, -1, 0, 0, False) /* Create Scroll of Weakness Other III (2748) for Shop */
-     , (20209, 4,  2753, -1, 0, 0, False) /* Create Scroll of WillPower Other III (2753) for Shop */
-     , (20209, 4,  2758, -1, 0, 0, False) /* Create Scroll of WillPower Self III (2758) for Shop */
+     , (20209, 4,  2753, -1, 0, 0, False) /* Create Scroll of Willpower Other III (2753) for Shop */
+     , (20209, 4,  2758, -1, 0, 0, False) /* Create Scroll of Willpower Self III (2758) for Shop */
      , (20209, 4,  5982, -1, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other III (5982) for Shop */
      , (20209, 4,  5988, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Other III (5988) for Shop */
      , (20209, 4,  5994, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Self III (5994) for Shop */
@@ -227,7 +228,7 @@ VALUES (20209, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (20209, 4,  3239, -1, 0, 0, False) /* Create Scroll of Deception Mastery Other III (3239) for Shop */
      , (20209, 4,  3244, -1, 0, 0, False) /* Create Scroll of Deception Mastery Self III (3244) for Shop */
      , (20209, 4,  3249, -1, 0, 0, False) /* Create Scroll of Defenselessness III (3249) for Shop */
-     , (20209, 4, 45238, -1, 0, 0, False) /* Create Scroll of Dirty Fighting Ineptitude Other II (45238) for Shop */
+     , (20209, 4, 45238, -1, 0, 0, False) /* Create Scroll of Dirty Fighting Ineptitude Other III (45238) for Shop */
      , (20209, 4, 45246, -1, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Other III (45246) for Shop */
      , (20209, 4, 45254, -1, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Self III (45254) for Shop */
      , (20209, 4, 45262, -1, 0, 0, False) /* Create Scroll of Dual Wield Ineptitude Other III (45262) for Shop */
@@ -300,6 +301,9 @@ VALUES (20209, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (20209, 4, 45350, -1, 0, 0, False) /* Create Scroll of Sneak Attack Mastery Self III (45350) for Shop */
      , (20209, 4,  3489, -1, 0, 0, False) /* Create Scroll of Sprint Other III (3489) for Shop */
      , (20209, 4,  3494, -1, 0, 0, False) /* Create Scroll of Sprint Self III (3494) for Shop */
+     , (20209, 4, 49458, -1, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other III (49458) for Shop */
+     , (20209, 4, 49465, -1, 0, 0, False) /* Create Scroll of Summoning Mastery Other III (49465) for Shop */
+     , (20209, 4, 49472, -1, 0, 0, False) /* Create Scroll of Summoning Mastery Self III (49472) for Shop */
      , (20209, 4,  3559, -1, 0, 0, False) /* Create Scroll of Vulnerability III (3559) for Shop */
      , (20209, 4,  3564, -1, 0, 0, False) /* Create Scroll of War Magic Ineptitude III (3564) for Shop */
      , (20209, 4,  3569, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Other III (3569) for Shop */
@@ -312,5 +316,4 @@ VALUES (20209, 2,   115,  0, 4, 0.6, False) /* Create Leather Boots (115) for Wi
      , (20209, 4, 41306, -1, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Self III (41306) for Shop */
      , (20209, 4, 43367, -1, 0, 0, False) /* Create Scroll of Void Magic Ineptitude III (43367) for Shop */
      , (20209, 4, 43368, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Other III (43368) for Shop */
-     , (20209, 4, 43369, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Self III (43369) for Shop */
-     , (20209, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */;
+     , (20209, 4, 43369, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Self III (43369) for Shop */;

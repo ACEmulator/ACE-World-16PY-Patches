@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32757;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32757, 'ace32757-prismaticamulileggings', 2, '2020-02-03 00:26:15') /* Clothing */;
+VALUES (32757, 'ace32757-prismaticamulileggings', 2, '2020-07-09 00:26:15') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32757,   1,          2) /* ItemType - Armor */
@@ -30,7 +30,7 @@ VALUES (32757,  11, True ) /* IgnoreCollisions */
      , (32757,  14, True ) /* GravityStatus */
      , (32757,  19, True ) /* Attackable */
      , (32757,  22, True ) /* Inscribable */
-     , (32757,  69, False) /* IsSellable */;
+     , (32757,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32757,   5, -0.0833) /* ManaRate */
@@ -52,7 +52,8 @@ VALUES (32757,   1,   33554856) /* Setup */
      , (32757,   3,  536870932) /* SoundTable */
      , (32757,   7,  268437102) /* ClothingBase */
      , (32757,   8,  100688616) /* Icon */
-     , (32757,  22,  872415275) /* PhysicsEffectTable */;
+     , (32757,  22,  872415275) /* PhysicsEffectTable */
+     , (32757,  37,          6) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32757,  2108,      2)  /* Brogard's Defiance */

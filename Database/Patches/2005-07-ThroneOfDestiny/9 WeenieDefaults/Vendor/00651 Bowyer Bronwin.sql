@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 651;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (651, 'easthambowyer', 12, '2019-04-09 02:19:52') /* Vendor */;
+VALUES (651, 'easthambowyer', 12, '2020-06-28 02:19:52') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (651,   1,         16) /* ItemType - Creature */
@@ -196,6 +196,9 @@ VALUES (651, 2,   306,  0, 0, 0, False) /* Create Longbow (306) for Wield */
      , (651, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
      , (651, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */
      , (651, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts (15298) for Shop */
+     , (651, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */     
+     , (651, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
+     , (651, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */
      , (651, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (651, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (651, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -205,6 +208,4 @@ VALUES (651, 2,   306,  0, 0, 0, False) /* Create Longbow (306) for Wield */
      , (651, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (651, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (651, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (651, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (651, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
-     , (651, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
+     , (651, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

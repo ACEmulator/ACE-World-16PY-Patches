@@ -1,22 +1,19 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36910;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36910, 'ace36910-jubileerug', 1, '2020-03-07 00:00:00') /* Generic */;
+VALUES (36910, 'ace36910-jubileerug', 1, '2020-06-22 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36910,   1,        128) /* ItemType - Misc */
      , (36910,   5,       1500) /* EncumbranceVal */
-	 , (36910,   9,          0) /* ValidLocations - None */
      , (36910,  16,          1) /* ItemUseable - No */
      , (36910,  19,       6000) /* Value */
-     , (36910,  65,        101) /* Placement - Resting */
      , (36910,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
 	 , (36910, 150,        103) /* HookPlacement - Hook */
      , (36910, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36910,  13, True ) /* Ethereal */
-     , (36910,  22, True ) /* Inscribable */;
+VALUES (36910,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36910,   1, 'Jubilee Rug') /* Name */

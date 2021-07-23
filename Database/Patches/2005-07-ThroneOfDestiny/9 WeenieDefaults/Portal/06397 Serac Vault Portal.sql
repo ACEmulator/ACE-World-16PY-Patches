@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6397;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6397, 'portalseracvault', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (6397, 'portalseracvault', 7, '2020-07-09 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6397,   1,      65536) /* ItemType - Portal */
@@ -12,23 +12,17 @@ VALUES (6397,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6397,   1, True ) /* Stuck */
-     , (6397,  11, False) /* IgnoreCollisions */
-     , (6397,  12, True ) /* ReportCollisions */
-     , (6397,  13, True ) /* Ethereal */
-     , (6397,  14, True ) /* GravityStatus */
-     , (6397,  15, True ) /* LightsStatus */
-     , (6397,  19, True ) /* Attackable */
      , (6397,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6397,  54, -0.100000001490116) /* UseRadius */;
+VALUES (6397,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6397,   1, 'Serac Vault Portal') /* Name */
      , (6397,  38, 'Serac Vault Portal') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6397,   1,   33554867) /* Setup */
+VALUES (6397,   1,   33555923) /* Setup */
      , (6397,   2,  150994947) /* MotionTable */
      , (6397,   8,  100667499) /* Icon */;
 

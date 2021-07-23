@@ -13,7 +13,7 @@ VALUES (44092,   1,         16) /* ItemType - Creature */
      , (44092,  25,        220) /* Level */
      , (44092,  27,          0) /* ArmorType - None */
      , (44092,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-	 , (44092, 307,          2) /* DamageRating */
+     , (44092, 307,          2) /* DamageRating */
      , (44092,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44092, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44092, 146,    1400000) /* XpOverride */;
@@ -21,13 +21,12 @@ VALUES (44092,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44092,   1, True ) /* Stuck */
      , (44092,   6, True ) /* AiUsesMana */
-     , (44092,   7, True ) /* AiUseHumanMagicAnimations */
      , (44092,  10, True ) /* AttackerAi */
      , (44092,  11, False) /* IgnoreCollisions */
      , (44092,  12, True ) /* ReportCollisions */
      , (44092,  13, False) /* Ethereal */
      , (44092,  58, True ) /* SpellQueueActive */
-	 , (44092, 120, True ) /* TreasureCorpse */;
+     , (44092, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44092,   1,       5) /* HeartbeatInterval */
@@ -44,7 +43,7 @@ VALUES (44092,   1,       5) /* HeartbeatInterval */
      , (44092,  18,    0.67) /* ArmorModVsAcid */
      , (44092,  19,       1) /* ArmorModVsElectric */
      , (44092,  27,    5.01) /* RotationSpeed */
-     , (44092,  31,      16) /* VisualAwarenessRange */
+     , (44092,  31,      22) /* VisualAwarenessRange */
      , (44092,  34,       1) /* PowerupTime */
      , (44092,  36,       1) /* ChargeSpeed */
      , (44092,  64,    0.25) /* ResistSlash */
@@ -54,18 +53,18 @@ VALUES (44092,   1,       5) /* HeartbeatInterval */
      , (44092,  68,     0.3) /* ResistCold */
      , (44092,  69,     0.8) /* ResistAcid */
      , (44092,  70,     0.4) /* ResistElectric */
-	 , (44092, 166,     1.1) /* ResistNether */
+     , (44092, 166,     1.1) /* ResistNether */
      , (44092,  71,       1) /* ResistHealthBoost */
      , (44092,  72,       1) /* ResistStaminaDrain */
      , (44092,  73,       1) /* ResistStaminaBoost */
      , (44092,  74,       1) /* ResistManaDrain */
      , (44092,  75,       1) /* ResistManaBoost */
      , (44092,  80,       3) /* AiUseMagicDelay */
-	 , (44092, 117,     0.5) /* FocusedProbability */
+     , (44092, 117,     0.5) /* FocusedProbability */
      , (44092, 104,      10) /* ObviousRadarRange */
      , (44092, 122,       2) /* AiAcquireHealth */
      , (44092, 125,       1) /* ResistHealthDrain */
-	 , (44092,  39,     1.1) /* DefaultScale */;
+     , (44092,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44092,   1, 'Bak''tshay Servant') /* Name */;
@@ -74,12 +73,12 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44092,   1,   33561251) /* Setup */
      , (44092,   2,  150994945) /* MotionTable */
      , (44092,   3,  536870933) /* SoundTable */
-     , (44092,   4,  805306368) /* CombatTable */												 
+     , (44092,   4,  805306368) /* CombatTable */
      , (44092,   6,   67108990) /* PaletteBase */
      , (44092,   8,  100670274) /* Icon */
      , (44092,  22,  872415269) /* PhysicsEffectTable */
-	 , (44092,   7,  268437456) /* ClothingBase */
-	 , (44092,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
+     , (44092,   7,  268437456) /* ClothingBase */
+     , (44092,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -98,23 +97,23 @@ VALUES (44092,   1,  2885, 0, 0, 3000) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (44092,  6, 0, 2, 0, 250, 0, 0) /* MeleeDefense        Trained */
      , (44092,  7, 0, 2, 0, 450, 0, 0) /* MissileDefense      Trained */
-     , (44092, 15, 0, 2, 0, 380, 0, 0) /* MagicDefense        Trained */
+     , (44092, 15, 0, 2, 0, 350, 0, 0) /* MagicDefense        Trained */
      , (44092, 24, 0, 2, 0, 200, 0, 0) /* Run                 Trained */
-     , (44092, 33, 0, 2, 0, 380, 0, 0) /* LifeMagic           Trained */
-     , (44092, 34, 0, 2, 0, 380, 0, 0) /* WarMagic            Trained */
+     , (44092, 33, 0, 2, 0, 350, 0, 0) /* LifeMagic           Trained */
+     , (44092, 34, 0, 2, 0, 350, 0, 0) /* WarMagic            Trained */
      , (44092, 45, 0, 3, 0, 440, 0, 0) /* LightWeapons        Specialized */
      , (44092, 46, 0, 3, 0, 440, 0, 0) /* FinesseWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (44092,  0,  4,  0,    0,  800,  275,  275,  225,  250,  400,  225,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (44092,  1,  4,  0,    0,  800,  275,  275,  225,  250,  400,  225,  400,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (44092,  2,  4,  0,    0,  800,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (44092,  3,  4,  0,    0,  800,  275,  275,  225,  250,  400,  225,  400,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (44092,  4,  4,  0,    0,  800,  275,  275,  225,  250,  400,  225,  400,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (44092,  5,  4, 600, 0.75,  800,  275,  275,  225,  250,  400,  225,  400,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (44092,  6,  4,  0,    0,  800,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (44092,  7,  4,  0,    0,  800,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (44092,  8,  4, 600, 0.75,  800,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (44092,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (44092,  1,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (44092,  2,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (44092,  3,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (44092,  4,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (44092,  5,  4, 400, 0.75,  400,  275,  275,  225,  250,  400,  225,  400,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (44092,  6,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (44092,  7,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (44092,  8,  4, 400, 0.75,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44092,  1785,   2.06)  /* Cassius' Ring of Fire */
@@ -137,9 +136,3 @@ VALUES (44092, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44092, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44092, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
 
-
-
-
-
-
-	 

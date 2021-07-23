@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5515;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5515, 'portalburialtemple', 7, '2005-02-09 10:00:00') /* Portal */;
+VALUES (5515, 'portalburialtemple', 7, '2020-07-09 10:00:00') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5515,   1,      65536) /* ItemType - Portal */
@@ -11,11 +11,7 @@ VALUES (5515,   1,      65536) /* ItemType - Portal */
      , (5515, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5515,   1, True ) /* Stuck */
-     , (5515,  11, False) /* IgnoreCollisions */
-     , (5515,  12, True ) /* ReportCollisions */
-     , (5515,  13, True ) /* Ethereal */
-     , (5515,  15, True ) /* LightsStatus */;
+VALUES (5515,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5515,  54,    -0.1) /* UseRadius */;
@@ -24,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5515,   1, 'Burial Temple Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5515,   1,   33555923) /* Setup */
+VALUES (5515,   1,   33555925) /* Setup */
      , (5515,   2,  150994947) /* MotionTable */
      , (5515,   8,  100667499) /* Icon */;
 

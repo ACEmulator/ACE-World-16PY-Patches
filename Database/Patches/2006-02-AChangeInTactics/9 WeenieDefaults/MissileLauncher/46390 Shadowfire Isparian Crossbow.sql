@@ -20,7 +20,6 @@ VALUES (46390,   1,        256) /* ItemType - MissileWeapon */
      , (46390,  49,         20) /* WeaponTime */
      , (46390,  50,          2) /* AmmoType - Bolt */
      , (46390,  51,          2) /* CombatUse - Missle */
-     , (46390,  53,        101) /* PlacementPosition - Resting */
      , (46390,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46390, 114,          1) /* Attuned - Attuned */
      , (46390, 151,          2) /* HookType - Wall */
@@ -31,24 +30,20 @@ VALUES (46390,   1,        256) /* ItemType - MissileWeapon */
      , (46390, 204,         13) /* ElementalDamageBonus */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46390,  11, True ) /* IgnoreCollisions */
-     , (46390,  13, True ) /* Ethereal */
-     , (46390,  14, True ) /* GravityStatus */
-     , (46390,  19, True ) /* Attackable */
-     , (46390,  22, True ) /* Inscribable */
+VALUES (46390,  22, True ) /* Inscribable */
      , (46390,  69, False) /* IsSellable */
      , (46390,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46390,  21,       0) /* WeaponLength */
      , (46390,  22,       0) /* DamageVariance */
-     , (46390,  26, 27.2999992370605) /* MaximumVelocity */
-     , (46390,  29, 1.28999996185303) /* WeaponDefense */
+     , (46390,  26,    27.3) /* MaximumVelocity */
+     , (46390,  29,    1.29) /* WeaponDefense */
      , (46390,  62,       1) /* WeaponOffense */
-     , (46390,  63, 2.59999990463257) /* DamageMod */
+     , (46390,  63,     2.6) /* DamageMod */
      , (46390, 136,       3) /* CriticalMultiplier */
      , (46390, 138,       3) /* SlayerDamageBonus */
-     , (46390, 147, 0.170000001788139) /* CriticalFrequency */;
+     , (46390, 147,    0.17) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46390,   1, 'Shadowfire Isparian Crossbow') /* Name */

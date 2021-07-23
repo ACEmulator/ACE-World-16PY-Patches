@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2316;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2316, 'forttethanabowyer', 12, '2019-04-09 02:19:52') /* Vendor */;
+VALUES (2316, 'forttethanabowyer', 12, '2020-06-28 02:19:52') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2316,   1,         16) /* ItemType - Creature */
@@ -211,5 +211,6 @@ VALUES (2316, 2,   341,  0, 0, 0, False) /* Create Shouyumi (341) for Wield */
      , (2316, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
      , (2316, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
      , (2316, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
+     , (2316, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (2316, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (2316, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;

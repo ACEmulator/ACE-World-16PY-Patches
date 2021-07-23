@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44076;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44076, 'ace44076-laurana', 12, '2019-06-05 00:00:00') /* Vendor */;
+VALUES (44076, 'ace44076-laurana', 12, '2020-07-18 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44076,   1,         16) /* ItemType - Creature */
      , (44076,   2,         31) /* CreatureType - Human */
-     , (44076,   6,        255) /* ItemsCapacity */
-     , (44076,   7,        255) /* ContainersCapacity */
+     , (44076,   6,         -1) /* ItemsCapacity */
+     , (44076,   7,         -1) /* ContainersCapacity */
      , (44076,  16,         32) /* ItemUseable - Remote */
      , (44076,  25,        275) /* Level */
      , (44076,  74,  134480129) /* MerchandiseItemTypes - Weapon, PromissoryNote, CraftFletchingIntermediate */
@@ -21,13 +21,8 @@ VALUES (44076,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44076,   1, True ) /* Stuck */
-     , (44076,  11, True ) /* IgnoreCollisions */
-     , (44076,  12, True ) /* ReportCollisions */
-     , (44076,  13, False) /* Ethereal */
-     , (44076,  14, True ) /* GravityStatus */
      , (44076,  19, False) /* Attackable */
-     , (44076,  39, True ) /* DealMagicalItems */
-     , (44076,  41, True ) /* ReportCollisionsAsEnvironment */;
+     , (44076,  39, True ) /* DealMagicalItems */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44076,   1,       5) /* HeartbeatInterval */
@@ -44,7 +39,7 @@ VALUES (44076,   1,       5) /* HeartbeatInterval */
      , (44076,  17,     0.4) /* ArmorModVsFire */
      , (44076,  18,       1) /* ArmorModVsAcid */
      , (44076,  19,     0.6) /* ArmorModVsElectric */
-     , (44076,  37,     0.8) /* BuyPrice */
+     , (44076,  37,     0.9) /* BuyPrice */
      , (44076,  38,       1) /* SellPrice */
      , (44076,  54,       3) /* UseRadius */
      , (44076,  64,       1) /* ResistSlash */

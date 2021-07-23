@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25597;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25597, 'gromnieemerald', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (25597, 'gromnieemerald', 10, '2020-09-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25597,   1,         16) /* ItemType - Creature */
@@ -29,7 +29,7 @@ VALUES (25597,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25597,   1,       5) /* HeartbeatInterval */
      , (25597,   2,       0) /* HeartbeatTimestamp */
-     , (25597,   3, 0.699999988079071) /* HealthRate */
+     , (25597,   3,     0.7) /* HealthRate */
      , (25597,   4,       5) /* StaminaRate */
      , (25597,   5,       2) /* ManaRate */
      , (25597,  12,     0.5) /* Shade */
@@ -39,16 +39,16 @@ VALUES (25597,   1,       5) /* HeartbeatInterval */
      , (25597,  16,     1.5) /* ArmorModVsCold */
      , (25597,  17,     1.5) /* ArmorModVsFire */
      , (25597,  18,       2) /* ArmorModVsAcid */
-     , (25597,  19, 0.899999976158142) /* ArmorModVsElectric */
+     , (25597,  19,     0.9) /* ArmorModVsElectric */
      , (25597,  31,      25) /* VisualAwarenessRange */
      , (25597,  34,       1) /* PowerupTime */
      , (25597,  36,       1) /* ChargeSpeed */
-     , (25597,  39, 0.600000023841858) /* DefaultScale */
+     , (25597,  39,     0.6) /* DefaultScale */
      , (25597,  64,     0.5) /* ResistSlash */
      , (25597,  65,     0.5) /* ResistPierce */
      , (25597,  66,     0.5) /* ResistBludgeon */
-     , (25597,  67, 0.400000005960464) /* ResistFire */
-     , (25597,  68, 0.400000005960464) /* ResistCold */
+     , (25597,  67,     0.4) /* ResistFire */
+     , (25597,  68,     0.4) /* ResistCold */
      , (25597,  69,       0) /* ResistAcid */
      , (25597,  70,       1) /* ResistElectric */
      , (25597,  71,       1) /* ResistHealthBoost */

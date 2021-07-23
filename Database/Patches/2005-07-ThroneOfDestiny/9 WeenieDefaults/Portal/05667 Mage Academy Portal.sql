@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5667;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5667, 'portalmageacademy', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (5667, 'portalmageacademy', 7, '2020-07-09 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5667,   1,      65536) /* ItemType - Portal */
@@ -13,12 +13,6 @@ VALUES (5667,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5667,   1, True ) /* Stuck */
-     , (5667,  11, False) /* IgnoreCollisions */
-     , (5667,  12, True ) /* ReportCollisions */
-     , (5667,  13, True ) /* Ethereal */
-     , (5667,  14, True ) /* GravityStatus */
-     , (5667,  15, True ) /* LightsStatus */
-     , (5667,  19, True ) /* Attackable */
      , (5667,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -29,7 +23,7 @@ VALUES (5667,   1, 'Mage Academy Portal') /* Name */
      , (5667,  38, 'Mage Academy Portal') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5667,   1,   33554867) /* Setup */
+VALUES (5667,   1,   33555925) /* Setup */
      , (5667,   2,  150994947) /* MotionTable */
      , (5667,   8,  100667499) /* Icon */;
 

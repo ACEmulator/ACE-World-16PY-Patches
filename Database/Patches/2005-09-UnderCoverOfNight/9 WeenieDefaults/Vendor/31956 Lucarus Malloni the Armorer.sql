@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31956;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31956, 'ace31956-lucarusmallonithearmorer', 12, '2019-06-05 22:59:56') /* Vendor */;
+VALUES (31956, 'ace31956-lucarusmallonithearmorer', 12, '2020-06-06 22:59:56') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31956,   1,         16) /* ItemType - Creature */
@@ -204,10 +204,10 @@ VALUES (31956, 2, 30571,  1, 0, 0, True) /* Create Spada (30571) for Wield */
      , (31956, 4, 30596, -1, 0, 0, False) /* Create Poniard (30596) for Shop */
      , (31956, 4, 30601, -1, 0, 0, False) /* Create Stiletto (30601) for Shop */
      , (31956, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
-     , (31956, 4,  5567, -1, 0, 0, False) /* Create Throwing Dart (5567) for Shop */
+     , (31956, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
      , (31956, 4, 30606, -1, 0, 0, False) /* Create Bastone (30606) for Shop */
      , (31956, 4, 30591, -1, 0, 0, False) /* Create Partizan (30591) for Shop */
-     , (31956, 4,  5577, -1, 0, 0, False) /* Create Javelin (5577) for Shop */
+     , (31956, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
      , (31956, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (31956, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (31956, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

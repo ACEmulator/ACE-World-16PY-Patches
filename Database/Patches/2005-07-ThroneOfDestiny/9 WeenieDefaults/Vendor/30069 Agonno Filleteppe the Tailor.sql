@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30069;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30069, 'silyuntailor', 12, '2019-07-13 00:58:48') /* Vendor */;
+VALUES (30069, 'silyuntailor', 12, '2020-06-06 00:58:48') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30069,   1,         16) /* ItemType - Creature */
@@ -224,4 +224,14 @@ VALUES (30069, 2, 28605,  0, 5, 0.2093, False) /* Create Beret (28605) for Wield
      , (30069, 4, 28611, -1, 5, 0, False) /* Create Viamontian Laced Boots (28611) for Shop */
      , (30069, 4, 28614, -1, 2, 0.1786, False) /* Create Vestiri Robe with Hood (28614) for Shop */
      , (30069, 4, 28614, -1, 5, 0.0714, False) /* Create Vestiri Robe with Hood (28614) for Shop */
-     , (30069, 4, 28613, -1, 1, 0.2963, False) /* Create Tessera Gown (28613) for Shop */;
+     , (30069, 4, 28613, -1, 1, 0.2963, False) /* Create Tessera Gown (28613) for Shop */
+     , (30069, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (30069, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (30069, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (30069, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (30069, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (30069, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (30069, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (30069, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (30069, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (30069, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

@@ -29,5 +29,9 @@ VALUES (0x78866006, 71361, 0x8866000C, 46.0254, 90.7457, 64.2951, 0.870669, 0, 0
 /* @teleloc 0x8866000C [46.025398 90.745697 64.295097] 0.870669 0.000000 0.000000 0.491870 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78866007, 71378, 0x88660014, 69.92242, 73.423, 64.295105, -0.02566795, 0, 0, 0.9996705, False, '2020-02-19 00:10:03'); /* Mu-Miyah Device Gen 3 */
-/* @teleloc 0x88660014 [69.922417 73.422997 64.295105] -0.025668 0.000000 0.000000 0.999671 */
+VALUES (0x78866007, 71378, 0x88660014, 69.9224, 73.423, 64.2951, -0.025668, 0, 0, 0.999671, False, '2020-02-19 00:10:03'); /* Mu-Miyah Device Gen 3 */
+/* @teleloc 0x88660014 [69.922401 73.422997 64.295097] -0.025668 0.000000 0.000000 0.999671 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78866008, 44637, 0x8866001C, 88.6466, 92.1125, 1.0697584, 0.9752754, 0, 0, 0.22099309, False, '2020-08-28 12:26:27'); /* Sha-dekanma */
+/* @teleloc 0x8866001C [88.646599 92.112503 1.069758] 0.975275 0.000000 0.000000 0.220993 */

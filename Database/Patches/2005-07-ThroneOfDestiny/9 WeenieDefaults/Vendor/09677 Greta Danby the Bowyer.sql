@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9677;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9677, 'danbybowyer', 12, '2019-04-09 02:19:52') /* Vendor */;
+VALUES (9677, 'danbybowyer', 12, '2020-06-28 02:19:52') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9677,   1,         16) /* ItemType - Creature */
@@ -226,6 +226,7 @@ VALUES (9677, 2,   307,  0, 0, 0, False) /* Create Shortbow (307) for Wield */
      , (9677, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (9677, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (9677, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (9677, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
+     , (9677, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (9677, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
-     , (9677, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
+     , (9677, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */
+     , (9677, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */;

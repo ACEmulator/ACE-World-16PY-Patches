@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44896;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44896, 'ace44896-ghaziyah', 10, '2019-07-27 20:00:24') /* Creature */;
+VALUES (44896, 'ace44896-ghaziyah', 10, '2020-07-18 20:00:24') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44896,   1,         16) /* ItemType - Creature */
@@ -23,25 +23,22 @@ VALUES (44896,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44896,   1, True ) /* Stuck */
      , (44896,   8, True ) /* AllowGive */
-     , (44896,  12, True ) /* ReportCollisions */
-     , (44896,  13, False) /* Ethereal */
      , (44896,  19, False) /* Attackable */
-     , (44896,  41, True ) /* ReportCollisionsAsEnvironment */
      , (44896,  42, True ) /* AllowEdgeSlide */
      , (44896,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44896,   3, 0.159999996423721) /* HealthRate */
+VALUES (44896,   3,    0.16) /* HealthRate */
      , (44896,   4,       5) /* StaminaRate */
      , (44896,   5,       1) /* ManaRate */
      , (44896,  12,       1) /* Shade */
-     , (44896,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (44896,  13,     0.9) /* ArmorModVsSlash */
      , (44896,  14,       1) /* ArmorModVsPierce */
-     , (44896,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (44896,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (44896,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (44896,  15,     1.1) /* ArmorModVsBludgeon */
+     , (44896,  16,     0.4) /* ArmorModVsCold */
+     , (44896,  17,     0.4) /* ArmorModVsFire */
      , (44896,  18,       1) /* ArmorModVsAcid */
-     , (44896,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (44896,  19,     0.6) /* ArmorModVsElectric */
      , (44896,  54,       3) /* UseRadius */
      , (44896,  64,       1) /* ResistSlash */
      , (44896,  65,       1) /* ResistPierce */
@@ -65,7 +62,7 @@ VALUES (44896,   1, 'Ghaziyah') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44896,   1,   33554510) /* Setup */
      , (44896,   2,  150994945) /* MotionTable */
-     , (44896,   3,  536870913) /* SoundTable */
+     , (44896,   3,  536870914) /* SoundTable */
      , (44896,   4,  805306368) /* CombatTable */
      , (44896,   6,   67108990) /* PaletteBase */
      , (44896,   8,  100667377) /* Icon */;

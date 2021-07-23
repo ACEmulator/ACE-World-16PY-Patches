@@ -18,9 +18,9 @@ VALUES (27823,   1,        256) /* ItemType - MissileWeapon */
      , (27823,  48,         47) /* WeaponSkill - MissileWeapons */
      , (27823,  49,         50) /* WeaponTime */
      , (27823,  50,          1) /* AmmoType - Arrow */
-     , (27823,  51,          2) /* CombatUse - Missle */
-     , (27823,  52,          2) /* ParentLocation */
-     , (27823,  53,          3) /* PlacementPosition */
+     , (27823,  51,          2) /* CombatUse - Missile */
+     , (27823,  52,          2) /* ParentLocation - LeftHand */
+     , (27823,  53,          3) /* PlacementPosition - LeftHand */
      , (27823,  60,        192) /* WeaponRange */
      , (27823,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27823, 106,        200) /* ItemSpellcraft */
@@ -43,16 +43,16 @@ VALUES (27823,  11, True ) /* IgnoreCollisions */
      , (27823,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27823,   5, -0.0329999998211861) /* ManaRate */
+VALUES (27823,   5,  -0.033) /* ManaRate */
      , (27823,  21,       0) /* WeaponLength */
      , (27823,  22,       0) /* DamageVariance */
-     , (27823,  26, 27.2999992370605) /* MaximumVelocity */
-     , (27823,  29, 1.07000005245209) /* WeaponDefense */
-     , (27823,  39, 1.10000002384186) /* DefaultScale */
+     , (27823,  26,    27.3) /* MaximumVelocity */
+     , (27823,  29,    1.07) /* WeaponDefense */
+     , (27823,  39,     1.1) /* DefaultScale */
      , (27823,  62,       1) /* WeaponOffense */
-     , (27823,  63, 1.89999997615814) /* DamageMod */
+     , (27823,  63,     1.9) /* DamageMod */
      , (27823, 136,     2.5) /* CriticalMultiplier */
-     , (27823, 138, 1.79999995231628) /* SlayerDamageBonus */
+     , (27823, 138,     1.8) /* SlayerDamageBonus */
      , (27823, 147,    0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

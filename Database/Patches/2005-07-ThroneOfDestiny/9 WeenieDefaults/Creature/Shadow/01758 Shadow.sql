@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1758;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1758, 'shadow', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (1758, 'shadow', 10, '2021-01-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1758,   1,         16) /* ItemType - Creature */
@@ -25,37 +25,32 @@ VALUES (1758,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1758,   1, True ) /* Stuck */
      , (1758,   6, True ) /* AiUsesMana */
-     , (1758,  11, False) /* IgnoreCollisions */
-     , (1758,  12, True ) /* ReportCollisions */
-     , (1758,  13, False) /* Ethereal */
-     , (1758,  14, True ) /* GravityStatus */
-     , (1758,  19, True ) /* Attackable */
      , (1758,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1758,   1,       5) /* HeartbeatInterval */
      , (1758,   2,       0) /* HeartbeatTimestamp */
-     , (1758,   3, 0.600000023841858) /* HealthRate */
+     , (1758,   3,     0.6) /* HealthRate */
      , (1758,   4,     2.5) /* StaminaRate */
      , (1758,   5,       1) /* ManaRate */
      , (1758,  12,     0.5) /* Shade */
      , (1758,  13,       1) /* ArmorModVsSlash */
-     , (1758,  14, 0.649999976158142) /* ArmorModVsPierce */
-     , (1758,  15, 0.769999980926514) /* ArmorModVsBludgeon */
-     , (1758,  16, 0.379999995231628) /* ArmorModVsCold */
+     , (1758,  14,    0.65) /* ArmorModVsPierce */
+     , (1758,  15,    0.77) /* ArmorModVsBludgeon */
+     , (1758,  16,    0.38) /* ArmorModVsCold */
      , (1758,  17,       1) /* ArmorModVsFire */
-     , (1758,  18, 0.439999997615814) /* ArmorModVsAcid */
-     , (1758,  19, 0.649999976158142) /* ArmorModVsElectric */
+     , (1758,  18,    0.44) /* ArmorModVsAcid */
+     , (1758,  19,    0.65) /* ArmorModVsElectric */
      , (1758,  31,      30) /* VisualAwarenessRange */
-     , (1758,  34, 1.10000002384186) /* PowerupTime */
+     , (1758,  34,     1.1) /* PowerupTime */
      , (1758,  36,       1) /* ChargeSpeed */
      , (1758,  39,       1) /* DefaultScale */
      , (1758,  64,       1) /* ResistSlash */
      , (1758,  65,     0.5) /* ResistPierce */
-     , (1758,  66, 0.670000016689301) /* ResistBludgeon */
+     , (1758,  66,    0.67) /* ResistBludgeon */
      , (1758,  67,       1) /* ResistFire */
-     , (1758,  68, 0.100000001490116) /* ResistCold */
-     , (1758,  69, 0.200000002980232) /* ResistAcid */
+     , (1758,  68,     0.1) /* ResistCold */
+     , (1758,  69,     0.2) /* ResistAcid */
      , (1758,  70,     0.5) /* ResistElectric */
      , (1758,  71,       1) /* ResistHealthBoost */
      , (1758,  72,       1) /* ResistStaminaDrain */
@@ -167,6 +162,8 @@ VALUES (1758,    70,  2.048)  /* Frost Bolt II */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1758, 9,  6059,  0, 0, 0.02, False) /* Create Dark Sliver (6059) for ContainTreasure */
+     , (1758, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (1758, 9, 43421,  0, 0, 0.02, False) /* Create Ruined Amulet of the Void (43421) for ContainTreasure */
      , (1758, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (1758, 9,  8020,  0, 0, 0.05, False) /* Create Fenmalain Key (8020) for ContainTreasure */
      , (1758, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

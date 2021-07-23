@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25599;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25599, 'gromniesapphire', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (25599, 'gromniesapphire', 10, '2020-09-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25599,   1,         16) /* ItemType - Creature */
      , (25599,   2,         15) /* CreatureType - Gromnie */
-     , (25599,   3,          4) /* PaletteTemplate - Brown */
+     , (25599,   3,         14) /* PaletteTemplate - Red */
      , (25599,   6,         -1) /* ItemsCapacity */
      , (25599,   7,         -1) /* ContainersCapacity */
      , (25599,  16,          1) /* ItemUseable - No */
@@ -29,7 +29,7 @@ VALUES (25599,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25599,   1,       5) /* HeartbeatInterval */
      , (25599,   2,       0) /* HeartbeatTimestamp */
-     , (25599,   3, 0.699999988079071) /* HealthRate */
+     , (25599,   3,     0.7) /* HealthRate */
      , (25599,   4,       5) /* StaminaRate */
      , (25599,   5,       2) /* ManaRate */
      , (25599,  12,     0.5) /* Shade */
@@ -37,20 +37,20 @@ VALUES (25599,   1,       5) /* HeartbeatInterval */
      , (25599,  14,     1.5) /* ArmorModVsPierce */
      , (25599,  15,     1.5) /* ArmorModVsBludgeon */
      , (25599,  16,       2) /* ArmorModVsCold */
-     , (25599,  17, 0.899999976158142) /* ArmorModVsFire */
+     , (25599,  17,     0.9) /* ArmorModVsFire */
      , (25599,  18,     1.5) /* ArmorModVsAcid */
      , (25599,  19,     1.5) /* ArmorModVsElectric */
      , (25599,  31,      25) /* VisualAwarenessRange */
      , (25599,  34,       1) /* PowerupTime */
      , (25599,  36,       1) /* ChargeSpeed */
-     , (25599,  39, 0.600000023841858) /* DefaultScale */
+     , (25599,  39,     0.6) /* DefaultScale */
      , (25599,  64,     0.5) /* ResistSlash */
      , (25599,  65,     0.5) /* ResistPierce */
      , (25599,  66,     0.5) /* ResistBludgeon */
      , (25599,  67,       1) /* ResistFire */
      , (25599,  68,       0) /* ResistCold */
-     , (25599,  69, 0.400000005960464) /* ResistAcid */
-     , (25599,  70, 0.400000005960464) /* ResistElectric */
+     , (25599,  69,     0.4) /* ResistAcid */
+     , (25599,  70,     0.4) /* ResistElectric */
      , (25599,  71,       1) /* ResistHealthBoost */
      , (25599,  72,       1) /* ResistStaminaDrain */
      , (25599,  73,       1) /* ResistStaminaBoost */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 15862;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (15862, 'tumerokgladiator_thorstenarmor', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (15862, 'tumerokgladiator_thorstenarmor', 10, '2020-04-14 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15862,   1,         16) /* ItemType - Creature */
@@ -61,7 +61,8 @@ VALUES (15862,   1,       5) /* HeartbeatInterval */
      , (15862, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15862,   1, 'Tumerok Gladiator') /* Name */;
+VALUES (15862,   1, 'Tumerok Gladiator') /* Name */
+     , (15862,  45, 'KilltaskTumerokGladiator') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15862,   1,   33559568) /* Setup */
@@ -124,3 +125,4 @@ VALUES (15862, 9, 15814,  1, 0, 1, False) /* Create Gate Key (15814) for Contain
      , (15862, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
      , (15862, 9, 45875,  1, 0, 0.01, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
      , (15862, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
+     

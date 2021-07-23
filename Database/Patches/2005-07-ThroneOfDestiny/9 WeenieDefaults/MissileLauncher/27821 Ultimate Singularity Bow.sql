@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27821;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27821, 'bowsingularitymaraenew', 3, '2019-02-04 06:52:23') /* MissileLauncher */;
+VALUES (27821, 'bowsingularitymaraenew', 3, '2020-07-04 00:00:00') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27821,   1,        256) /* ItemType - MissileWeapon */
@@ -18,9 +18,9 @@ VALUES (27821,   1,        256) /* ItemType - MissileWeapon */
      , (27821,  48,         47) /* WeaponSkill - MissileWeapons */
      , (27821,  49,         50) /* WeaponTime */
      , (27821,  50,          1) /* AmmoType - Arrow */
-     , (27821,  51,          2) /* CombatUse - Missle */
-     , (27821,  52,          2) /* ParentLocation */
-     , (27821,  53,          3) /* PlacementPosition */
+     , (27821,  51,          2) /* CombatUse - Missile */
+     , (27821,  52,          2) /* ParentLocation - LeftHand */
+     , (27821,  53,          3) /* PlacementPosition - LeftHand */
      , (27821,  60,        192) /* WeaponRange */
      , (27821,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27821, 106,        200) /* ItemSpellcraft */
@@ -28,8 +28,6 @@ VALUES (27821,   1,        256) /* ItemType - MissileWeapon */
      , (27821, 108,       1000) /* ItemMaxMana */
      , (27821, 109,        200) /* ItemDifficulty */
      , (27821, 114,          1) /* Attuned - Attuned */
-     , (27821, 150,        103) /* HookPlacement - Hook */
-     , (27821, 151,          2) /* HookType - Wall */
      , (27821, 158,          2) /* WieldRequirements - RawSkill */
      , (27821, 159,         47) /* WieldSkillType - MissileWeapons */
      , (27821, 160,        290) /* WieldDifficulty */
@@ -37,25 +35,22 @@ VALUES (27821,   1,        256) /* ItemType - MissileWeapon */
      , (27821, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27821,  11, True ) /* IgnoreCollisions */
-     , (27821,  13, True ) /* Ethereal */
-     , (27821,  14, True ) /* GravityStatus */
-     , (27821,  19, True ) /* Attackable */
-     , (27821,  22, True ) /* Inscribable */
+VALUES (27821,  22, True ) /* Inscribable */
      , (27821,  23, True ) /* DestroyOnSell */
+     , (27821,  84, True ) /* IgnoreCloIcons */
      , (27821,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27821,   5, -0.0329999998211861) /* ManaRate */
-     , (27821,  21,       0) /* WeaponLength */
-     , (27821,  22,       0) /* DamageVariance */
-     , (27821,  26, 27.2999992370605) /* MaximumVelocity */
-     , (27821,  29, 1.10000002384186) /* WeaponDefense */
-     , (27821,  62,       1) /* WeaponOffense */
-     , (27821,  63,    2.25) /* DamageMod */
-     , (27821, 136,     2.5) /* CriticalMultiplier */
-     , (27821, 138, 1.79999995231628) /* SlayerDamageBonus */
-     , (27821, 147,    0.25) /* CriticalFrequency */;
+VALUES (27821,   5, -0.033) /* ManaRate */
+     , (27821,  21,      0) /* WeaponLength */
+     , (27821,  22,      0) /* DamageVariance */
+     , (27821,  26,   27.3) /* MaximumVelocity */
+     , (27821,  29,    1.1) /* WeaponDefense */
+     , (27821,  62,      1) /* WeaponOffense */
+     , (27821,  63,   2.25) /* DamageMod */
+     , (27821, 136,    2.5) /* CriticalMultiplier */
+     , (27821, 138,    1.8) /* SlayerDamageBonus */
+     , (27821, 147,   0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27821,   1, 'Ultimate Singularity Bow') /* Name */

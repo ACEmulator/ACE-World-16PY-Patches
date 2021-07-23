@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44950;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44950, 'ace44950-chafulumisa', 10, '2019-04-08 04:44:07') /* Creature */;
+VALUES (44950, 'ace44950-chafulumisa', 10, '2020-06-27 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44950,   1,         16) /* ItemType - Creature */
      , (44950,   2,         51) /* CreatureType - Empyrean */
-     , (44950,   6,        255) /* ItemsCapacity */
-     , (44950,   7,        255) /* ContainersCapacity */
+     , (44950,   6,         -1) /* ItemsCapacity */
+     , (44950,   7,         -1) /* ContainersCapacity */
      , (44950,  16,         32) /* ItemUseable - Remote */
      , (44950,  25,        200) /* Level */
      , (44950,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -33,13 +33,7 @@ VALUES (44950,   1,   33561110) /* Setup */
      , (44950,   2,  150995463) /* MotionTable */
      , (44950,   3,  536870913) /* SoundTable */
      , (44950,   6,   67108990) /* PaletteBase */
-     , (44950,   8,  100667446) /* Icon */
-     , (44950,   9,   83890448) /* EyesTexture */
-     , (44950,  10,   83890560) /* NoseTexture */
-     , (44950,  11,   83890614) /* MouthTexture */
-     , (44950,  15,   67117097) /* HairPalette */
-     , (44950,  16,   67116858) /* EyesPalette */
-     , (44950,  17,   67115907) /* SkinPalette */;
+     , (44950,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44950,   1, 110, 0, 0) /* Strength */
@@ -50,9 +44,18 @@ VALUES (44950,   1, 110, 0, 0) /* Strength */
      , (44950,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44950,   1,     5, 0, 0, 0) /* MaxHealth */
-     , (44950,   3,   110, 0, 0, 0) /* MaxStamina */
-     , (44950,   5,     5, 0, 0, 0) /* MaxMana */;
+VALUES (44950,   1,     5, 0, 0, 65) /* MaxHealth */
+     , (44950,   3,   110, 0, 0, 230) /* MaxStamina */
+     , (44950,   5,     5, 0, 0, 105) /* MaxMana */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (44950, 6 /* Give */, 1, 46421, NULL, NULL, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id, 0, 22 /* StampQuest */, 0, 1, NULL, '30MinAttributes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 1, 10 /* Tell */, 1, 1, NULL, 'You have 30 minutes to create as many attribute gems as you need.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44950,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27843;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27843, 'spearsingularitynew', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (27843, 'spearsingularitynew', 6, '2020-07-04 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27843,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,8 +20,6 @@ VALUES (27843,   1,          1) /* ItemType - MeleeWeapon */
      , (27843,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (27843,  49,         30) /* WeaponTime */
      , (27843,  51,          1) /* CombatUse - Melee */
-     , (27843,  52,          1) /* ParentLocation */
-     , (27843,  53,          1) /* PlacementPosition */
      , (27843,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27843, 106,        200) /* ItemSpellcraft */
      , (27843, 107,        700) /* ItemCurMana */
@@ -35,22 +33,17 @@ VALUES (27843,   1,          1) /* ItemType - MeleeWeapon */
      , (27843, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27843,  11, True ) /* IgnoreCollisions */
-     , (27843,  13, True ) /* Ethereal */
-     , (27843,  14, True ) /* GravityStatus */
-     , (27843,  19, True ) /* Attackable */
-     , (27843,  22, True ) /* Inscribable */
+VALUES (27843,  22, True ) /* Inscribable */
      , (27843,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27843,   5, -0.0329999998211861) /* ManaRate */
+VALUES (27843,   5,  -0.033) /* ManaRate */
      , (27843,  21,    0.75) /* WeaponLength */
-     , (27843,  22, 0.660000026226044) /* DamageVariance */
-     , (27843,  29, 1.07000005245209) /* WeaponDefense */
-     , (27843,  62, 1.07000005245209) /* WeaponOffense */
-     , (27843,  77,       1) /* PhysicsScriptIntensity */
+     , (27843,  22,    0.66) /* DamageVariance */
+     , (27843,  29,    1.07) /* WeaponDefense */
+     , (27843,  62,    1.07) /* WeaponOffense */
      , (27843, 136,     2.5) /* CriticalMultiplier */
-     , (27843, 138, 1.79999995231628) /* SlayerDamageBonus */
+     , (27843, 138,     1.8) /* SlayerDamageBonus */
      , (27843, 147,    0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -63,9 +56,7 @@ VALUES (27843,   1,   33556972) /* Setup */
      , (27843,   6,   67111919) /* PaletteBase */
      , (27843,   7,  268436126) /* ClothingBase */
      , (27843,   8,  100671371) /* Icon */
-     , (27843,  19,         88) /* ActivationAnimation */
      , (27843,  22,  872415275) /* PhysicsEffectTable */
-     , (27843,  30,         87) /* PhysicsScript - BreatheLightning */
      , (27843,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70737;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70737, 'ace70737-salvagedamber', 44, '2020-03-27 22:41:18') /* CraftTool */;
+VALUES (70737, 'ace70737-salvagedamber', 44, '2020-06-14 22:41:18') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70737,   1, 1073741824) /* ItemType - TinkeringMaterial */
@@ -32,7 +32,7 @@ VALUES (70737,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70737,   1, 'Salvage') /* Name */
-     , (70737,  14, 'Apply this material to a Minor, Moderate or Major Armature to prepare it. Then apply this material to the prepared Armature. This Armaturecan then be used on a magical loot-generated Trinket to add Minor, Moderate or Major Augmented Stamina. This also increases the Spellcraft and Arcane Lore of the trinket by 25.') /* Use */
+     , (70737,  14, 'Apply this material to a Minor, Moderate or Major Armature to prepare it. Then apply this material to the prepared Armature. This Armature can then be used on a magical loot-generated Trinket to add Minor, Moderate or Major Augmented Stamina. This also increases the Spellcraft and Arcane Lore of the trinket by 25.') /* Use */
      , (70737,  15, 'Chips of amber material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

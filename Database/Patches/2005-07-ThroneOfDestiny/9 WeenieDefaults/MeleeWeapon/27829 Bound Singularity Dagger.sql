@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27829;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27829, 'daggersingularitynew2', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (27829, 'daggersingularitynew2', 6, '2020-07-04 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27829,   1,          1) /* ItemType - MeleeWeapon */
@@ -33,22 +33,18 @@ VALUES (27829,   1,          1) /* ItemType - MeleeWeapon */
      , (27829, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27829,  11, True ) /* IgnoreCollisions */
-     , (27829,  13, True ) /* Ethereal */
-     , (27829,  14, True ) /* GravityStatus */
-     , (27829,  19, True ) /* Attackable */
-     , (27829,  22, True ) /* Inscribable */
+VALUES (27829,  22, True ) /* Inscribable */
      , (27829,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27829,   5, -0.0329999998211861) /* ManaRate */
-     , (27829,  21, 0.400000005960464) /* WeaponLength */
-     , (27829,  22, 0.699999988079071) /* DamageVariance */
-     , (27829,  29, 1.07000005245209) /* WeaponDefense */
-     , (27829,  62, 1.07000005245209) /* WeaponOffense */
-     , (27829, 136,     2.5) /* CriticalMultiplier */
-     , (27829, 138, 1.79999995231628) /* SlayerDamageBonus */
-     , (27829, 147,    0.25) /* CriticalFrequency */;
+VALUES (27829,   5, -0.033) /* ManaRate */
+     , (27829,  21,    0.4) /* WeaponLength */
+     , (27829,  22,    0.7) /* DamageVariance */
+     , (27829,  29,   1.07) /* WeaponDefense */
+     , (27829,  62,   1.07) /* WeaponOffense */
+     , (27829, 136,    2.5) /* CriticalMultiplier */
+     , (27829, 138,    1.8) /* SlayerDamageBonus */
+     , (27829, 147,   0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27829,   1, 'Bound Singularity Dagger') /* Name */

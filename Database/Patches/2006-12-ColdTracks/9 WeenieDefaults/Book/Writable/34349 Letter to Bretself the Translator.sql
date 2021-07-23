@@ -1,18 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34349;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34349, 'ace34349-lettertobretselfthetranslator', 8, '2019-02-10 00:00:00') /* Book */;
+VALUES (34349, 'ace34349-lettertobretselfthetranslator', 8, '2020-07-21 00:00:00') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34349,   1,       8192) /* ItemType - Writable */
      , (34349,   5,         15) /* EncumbranceVal */
-     , (34349,   9,          0) /* ValidLocations - None */
      , (34349,  16,          8) /* ItemUseable - Contained */
      , (34349,  19,       5000) /* Value */
      , (34349,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
-
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34349,  22, False) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34349,  54,       1) /* UseRadius */;
@@ -26,6 +22,10 @@ VALUES (34349,   1,   33554773) /* Setup */
      , (34349,   3,  536870932) /* SoundTable */
      , (34349,   8,  100668176) /* Icon */
      , (34349,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (34349, 8040, 30671251, 28.74659, -31.80863, 30.079, 0.9964855, 0, 0, -0.08376546) /* PCAPRecordedLocation */
+/* @teleloc 0x01D40193 [28.746590 -31.808630 30.079000] 0.996486 0.000000 0.000000 -0.083765 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (34349, 3, 1000);

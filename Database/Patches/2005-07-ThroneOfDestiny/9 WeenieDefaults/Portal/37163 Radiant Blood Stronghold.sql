@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37163;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37163, 'ace37163-radiantbloodstronghold', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (37163, 'ace37163-radiantbloodstronghold', 7, '2019-02-10 00:00:00') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37163,   1,      65536) /* ItemType - Portal */
@@ -12,21 +12,15 @@ VALUES (37163,   1,      65536) /* ItemType - Portal */
      , (37163, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37163,   1, True ) /* Stuck */
-     , (37163,  12, True ) /* ReportCollisions */
-     , (37163,  13, True ) /* Ethereal */
-     , (37163,  14, True ) /* GravityStatus */
-     , (37163,  15, True ) /* LightsStatus */
-     , (37163,  19, True ) /* Attackable */
-     , (37163,  88, True ) /* PortalShowDestination */;
+VALUES (37163,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37163,  54, -0.100000001490116) /* UseRadius */;
+VALUES (37163,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37163,   1, 'Radiant Blood Stronghold') /* Name */
      , (37163,  16, 'You must be a member of the Society of the Radiant Blood to enter this Portal.') /* LongDesc */
-     , (37163,  38, 'Radiant Blood Stronghold') /* AppraisalPortalDestination */;
+     , (37163,  37, 'RadiantBloodMember') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37163,   1,   33555925) /* Setup */
@@ -34,5 +28,5 @@ VALUES (37163,   1,   33555925) /* Setup */
      , (37163,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37163, 2, 2156855316, 55.8115, 83.3191, 124.005, 0, 0, 0, -1) /* Destination */
-/* @teleloc 0x808F0014 [55.811500 83.319100 124.005000] 0.000000 0.000000 0.000000 -1.000000 */;
+VALUES (37163, 2, 12124820, 110, -20, 0.005, 1, 0, 0, 0) /* Destination */
+/* @teleloc 0x00B90294 [110.000000 -20.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;

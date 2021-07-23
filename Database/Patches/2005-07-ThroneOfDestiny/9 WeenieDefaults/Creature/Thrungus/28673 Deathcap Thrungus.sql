@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28673;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28673, 'thrungusdeathcap', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (28673, 'thrungusdeathcap', 10, '2021-03-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28673,   1,         16) /* ItemType - Creature */
@@ -35,24 +35,24 @@ VALUES (28673,   1,       5) /* HeartbeatInterval */
      , (28673,   4,       3) /* StaminaRate */
      , (28673,   5,       1) /* ManaRate */
      , (28673,  12,       0) /* Shade */
-     , (28673,  13, 0.899999976158142) /* ArmorModVsSlash */
-     , (28673,  14, 0.600000023841858) /* ArmorModVsPierce */
-     , (28673,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (28673,  16, 0.800000011920929) /* ArmorModVsCold */
-     , (28673,  17, 0.600000023841858) /* ArmorModVsFire */
+     , (28673,  13,     0.9) /* ArmorModVsSlash */
+     , (28673,  14,     0.6) /* ArmorModVsPierce */
+     , (28673,  15,     1.1) /* ArmorModVsBludgeon */
+     , (28673,  16,     0.8) /* ArmorModVsCold */
+     , (28673,  17,     0.6) /* ArmorModVsFire */
      , (28673,  18,       1) /* ArmorModVsAcid */
-     , (28673,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (28673,  19,     0.8) /* ArmorModVsElectric */
      , (28673,  31,      16) /* VisualAwarenessRange */
      , (28673,  34,       1) /* PowerupTime */
      , (28673,  36,       1) /* ChargeSpeed */
-     , (28673,  39, 0.899999976158142) /* DefaultScale */
-     , (28673,  64, 0.600000023841858) /* ResistSlash */
-     , (28673,  65, 0.800000011920929) /* ResistPierce */
+     , (28673,  39,     1.3) /* DefaultScale */
+     , (28673,  64,     0.6) /* ResistSlash */
+     , (28673,  65,     0.8) /* ResistPierce */
      , (28673,  66,     0.5) /* ResistBludgeon */
-     , (28673,  67, 0.800000011920929) /* ResistFire */
-     , (28673,  68, 0.600000023841858) /* ResistCold */
-     , (28673,  69, 0.400000005960464) /* ResistAcid */
-     , (28673,  70, 0.699999988079071) /* ResistElectric */
+     , (28673,  67,     0.8) /* ResistFire */
+     , (28673,  68,     0.6) /* ResistCold */
+     , (28673,  69,     0.4) /* ResistAcid */
+     , (28673,  70,     0.7) /* ResistElectric */
      , (28673,  71,       1) /* ResistHealthBoost */
      , (28673,  72,     0.5) /* ResistStaminaDrain */
      , (28673,  73,       1) /* ResistStaminaBoost */

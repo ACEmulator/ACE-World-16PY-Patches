@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29106;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29106, 'alebobosstout', 18, '2019-07-16 14:01:15') /* Food */;
+VALUES (29106, 'alebobosstout', 18, '2020-07-25 14:01:15') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29106,   1,         32) /* ItemType - Food */
@@ -15,16 +15,12 @@ VALUES (29106,   1,         32) /* ItemType - Food */
      , (29106,  19,         10) /* Value */
      , (29106,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29106, 106,        250) /* ItemSpellcraft */
-     , (29106, 107,         60) /* ItemCurMana */
-     , (29106, 108,         60) /* ItemMaxMana */
+     , (29106, 107,        100) /* ItemCurMana */
+     , (29106, 108,        100) /* ItemMaxMana */
      , (29106, 109,          0) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29106,  11, True ) /* IgnoreCollisions */
-     , (29106,  13, True ) /* Ethereal */
-     , (29106,  14, True ) /* GravityStatus */
-     , (29106,  19, True ) /* Attackable */
-     , (29106,  69, False) /* IsSellable */;
+VALUES (29106,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29106,   1, 'Bobo''s Stout') /* Name */

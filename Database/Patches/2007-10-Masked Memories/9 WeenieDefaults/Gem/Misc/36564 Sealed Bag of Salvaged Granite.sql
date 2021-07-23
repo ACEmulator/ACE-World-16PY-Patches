@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36564;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36564, 'ace36564-sealedbagofsalvagedgranite', 38, '2020-03-27 00:00:00') /* Gem */;
+VALUES (36564, 'ace36564-sealedbagofsalvagedgranite', 38, '2020-07-15 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36564,   1,        128) /* ItemType - Misc */
@@ -37,6 +37,6 @@ VALUES (36564,   1,   33556223) /* Setup */
      , (36564,   7,  268435841) /* ClothingBase */
      , (36564,   8,  100677150) /* Icon */
      , (36564,  22,  872415275) /* PhysicsEffectTable */
-     , (36564,  38,      33620) /* UseCreateItem - Salvaged Granite*/
+     , (36564,  38,      29576) /* UseCreateItem - Salvaged Granite*/
      , (36564,  50,  100689648) /* IconOverlay */;
 

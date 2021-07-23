@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30050;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30050, 'fiunshopkeep', 12, '2019-04-09 02:19:52') /* Vendor */;
+VALUES (30050, 'fiunshopkeep', 12, '2020-06-06 02:19:52') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30050,   1,         16) /* ItemType - Creature */
@@ -151,16 +151,6 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, '', NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30050, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (30050, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (30050, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (30050, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (30050, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (30050, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
-     , (30050, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
-     , (30050, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
-     , (30050, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (30050, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
-     , (30050, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (30050, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (30050, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (30050, 4, 28618, -1, 0, 0, False) /* Create Diforsa Helm (28618) for Shop */
      , (30050, 4, 28632, -1, 0, 0, False) /* Create Diforsa Gauntlets (28632) for Shop */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25596;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25596, 'gromnieamethyst', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (25596, 'gromnieamethyst', 10, '2020-09-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25596,   1,         16) /* ItemType - Creature */
@@ -29,7 +29,7 @@ VALUES (25596,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25596,   1,       5) /* HeartbeatInterval */
      , (25596,   2,       0) /* HeartbeatTimestamp */
-     , (25596,   3, 0.699999988079071) /* HealthRate */
+     , (25596,   3,     0.7) /* HealthRate */
      , (25596,   4,       5) /* StaminaRate */
      , (25596,   5,       2) /* ManaRate */
      , (25596,  12,     0.5) /* Shade */
@@ -38,17 +38,17 @@ VALUES (25596,   1,       5) /* HeartbeatInterval */
      , (25596,  15,     1.5) /* ArmorModVsBludgeon */
      , (25596,  16,     1.5) /* ArmorModVsCold */
      , (25596,  17,     1.5) /* ArmorModVsFire */
-     , (25596,  18, 0.899999976158142) /* ArmorModVsAcid */
+     , (25596,  18,     0.9) /* ArmorModVsAcid */
      , (25596,  19,       2) /* ArmorModVsElectric */
      , (25596,  31,      25) /* VisualAwarenessRange */
      , (25596,  34,       1) /* PowerupTime */
      , (25596,  36,       1) /* ChargeSpeed */
-     , (25596,  39, 0.600000023841858) /* DefaultScale */
+     , (25596,  39,     0.6) /* DefaultScale */
      , (25596,  64,     0.5) /* ResistSlash */
      , (25596,  65,     0.5) /* ResistPierce */
      , (25596,  66,     0.5) /* ResistBludgeon */
-     , (25596,  67, 0.400000005960464) /* ResistFire */
-     , (25596,  68, 0.400000005960464) /* ResistCold */
+     , (25596,  67,     0.4) /* ResistFire */
+     , (25596,  68,     0.4) /* ResistCold */
      , (25596,  69,       1) /* ResistAcid */
      , (25596,  70,       0) /* ResistElectric */
      , (25596,  71,       1) /* ResistHealthBoost */

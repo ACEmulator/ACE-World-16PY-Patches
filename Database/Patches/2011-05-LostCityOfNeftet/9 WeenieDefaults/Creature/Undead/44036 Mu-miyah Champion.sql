@@ -12,7 +12,7 @@ VALUES (44036,   1,         16) /* ItemType - Creature */
      , (44036,   7,         -1) /* ContainersCapacity */
      , (44036,  16,          1) /* ItemUseable - No */
      , (44036,  25,        220) /* Level */
-	 , (44036, 307,          7) /* DamageRating */
+     , (44036, 307,          7) /* DamageRating */
      , (44036,  27,          0) /* ArmorType - None */
      , (44036,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (44036,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -22,7 +22,6 @@ VALUES (44036,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44036,   1, True ) /* Stuck */
      , (44036,   6, True ) /* AiUsesMana */
-     , (44036,   7, True ) /* AiUseHumanMagicAnimations */
      , (44036,  10, True ) /* AttackerAi */
      , (44036,  11, False) /* IgnoreCollisions */
      , (44036,  12, True ) /* ReportCollisions */
@@ -36,7 +35,7 @@ VALUES (44036,   1,       5) /* HeartbeatInterval */
      , (44036,   4,      10) /* StaminaRate */
      , (44036,   5,       3) /* ManaRate */
      , (44036,  12,     0.0) /* Shade */
-	 , (44036,  39,     1.2) /* DefaultScale */
+     , (44036,  39,     1.2) /* DefaultScale */
      , (44036,  13,    0.67) /* ArmorModVsSlash */
      , (44036,  14,     0.9) /* ArmorModVsPierce */
      , (44036,  15,    0.75) /* ArmorModVsBludgeon */
@@ -45,7 +44,7 @@ VALUES (44036,   1,       5) /* HeartbeatInterval */
      , (44036,  18,    0.67) /* ArmorModVsAcid */
      , (44036,  19,       1) /* ArmorModVsElectric */
      , (44036,  27,    5.01) /* RotationSpeed */
-     , (44036,  31,      16) /* VisualAwarenessRange */
+     , (44036,  31,      22) /* VisualAwarenessRange */
      , (44036,  34,       1) /* PowerupTime */
      , (44036,  36,       1) /* ChargeSpeed */
      , (44036,  64,     0.8) /* ResistSlash */
@@ -55,28 +54,28 @@ VALUES (44036,   1,       5) /* HeartbeatInterval */
      , (44036,  68,     0.3) /* ResistCold */
      , (44036,  69,     0.8) /* ResistAcid */
      , (44036,  70,     0.4) /* ResistElectric */
-	 , (44036, 166,     1.1) /* ResistNether */
+     , (44036, 166,     1.1) /* ResistNether */
      , (44036,  71,       1) /* ResistHealthBoost */
      , (44036,  72,       1) /* ResistStaminaDrain */
      , (44036,  73,       1) /* ResistStaminaBoost */
      , (44036,  74,       1) /* ResistManaDrain */
      , (44036,  75,       1) /* ResistManaBoost */
      , (44036,  80,       3) /* AiUseMagicDelay */
-	 , (44036, 117,     0.5) /* FocusedProbability */
+     , (44036, 117,     0.5) /* FocusedProbability */
      , (44036, 104,      10) /* ObviousRadarRange */
      , (44036, 122,       2) /* AiAcquireHealth */
-     , (44036, 125,       1) /* ResistHealthDrain */	;
+     , (44036, 125,       1) /* ResistHealthDrain */    ;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44036,   1, 'Mu-miyah Champion') /* Name */
-	 , (44036,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
+     , (44036,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44036,   1,   33554433) /* Setup */
      , (44036,   2,  150995189) /* MotionTable */
      , (44036,   3,  536870942) /* SoundTable */
      , (44036,   6,   67108990) /* PaletteBase */
-	 , (44036,   7,  268435645) /* ClothingBase */
+     , (44036,   7,  268435645) /* ClothingBase */
      , (44036,   8,  100669122) /* Icon */
      , (44036,   4,  805306376) /* CombatTable */
      , (44036,  22,  872415272) /* PhysicsEffectTable */
@@ -98,10 +97,10 @@ VALUES (44036,   1,  4100, 0, 0, 4300) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (44036,  6, 0, 2, 0, 470, 0, 0) /* MeleeDefense        Trained */
      , (44036,  7, 0, 2, 0, 390, 0, 0) /* MissileDefense      Trained */
-     , (44036, 15, 0, 2, 0, 400, 0, 0) /* MagicDefense        Trained */
+     , (44036, 15, 0, 2, 0, 320, 0, 0) /* MagicDefense        Trained */
      , (44036, 24, 0, 2, 0, 255, 0, 0) /* Run                 Trained */
-     , (44036, 33, 0, 2, 0, 500, 0, 0) /* LifeMagic           Trained */
-     , (44036, 34, 0, 2, 0, 440, 0, 0) /* WarMagic            Trained */
+     , (44036, 33, 0, 2, 0, 350, 0, 0) /* LifeMagic           Trained */
+     , (44036, 34, 0, 2, 0, 350, 0, 0) /* WarMagic            Trained */
      , (44036, 45, 0, 3, 0, 500, 0, 0) /* LightWeapons        Specialized */
      , (44036, 46, 0, 3, 0, 500, 0, 0) /* FinesseWeapons      Specialized */;
 
@@ -120,8 +119,8 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44036,  4423,   2.06)  /* Incantation of Flame Arc */
      , (44036,  2170,   2.06)  /* Inferno's Gift */
      , (44036,  2074,   2.06)  /* Gossamer Flesh */;
-	 
-	 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+
+     INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44036,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
@@ -131,7 +130,7 @@ VALUES (@parent_id,  0,  15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44036, 2, 44265,  1, 0, 0.1, False) /* Wield Burning Sands Katar (44265) for Wield */
-	 , (44036, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
+     , (44036, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44036, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (44036, 9, 48908,  1, 0, 0.03, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (44036, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
@@ -140,5 +139,4 @@ VALUES (44036, 2, 44265,  1, 0, 0.1, False) /* Wield Burning Sands Katar (44265)
      , (44036, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44036, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44036, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-	 
-	 
+

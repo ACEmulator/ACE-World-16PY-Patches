@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 656;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (656, 'easthamshopkeep', 12, '2005-02-09 10:00:00') /* Vendor */;
+VALUES (656, 'easthamshopkeep', 12, '2020-06-28 10:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (656,   1,         16) /* ItemType - Creature */
@@ -172,6 +172,7 @@ VALUES (656, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature 
      , (656, 4, 41396, -1, 0, 0, False) /* Create Handle Mold (41396) for Shop */
      , (656, 4, 41420, -1, 0, 0, False) /* Create Hammer (41420) for Shop */
      , (656, 4, 41418, -1, 0, 0, False) /* Create Leather Strap (41418) for Shop */
+     , (656, 4, 41744, -1, 0, 0, False) /* Create A Comprehensive Guide to Gearcrafting (41744) for Shop */
      , (656, 2,   117,  0, 5, 0, False) /* Create Breeches (117) for Wield */
      , (656, 2,   118,  0, 2, 0.9, False) /* Create Cap (118) for Wield */
      , (656, 2,   124,  0, 8, 0, False) /* Create Jerkin (124) for Wield */

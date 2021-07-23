@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2497;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2497, 'craterlakejeweler', 12, '2005-02-09 10:00:00') /* Vendor */;
+VALUES (2497, 'craterlakejeweler', 12, '2020-06-06 10:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2497,   1,         16) /* ItemType - Creature */
@@ -169,12 +169,6 @@ VALUES (2497, 2,   134,  0, 10, 1, False) /* Create Tunic (134) for Wield */
      , (2497, 2,   127,  0, 9, 0.5, False) /* Create Pants (127) for Wield */
      , (2497, 2,   132,  0, 9, 0.5, False) /* Create Shoes (132) for Wield */
      , (2497, 2, 10696,  0, 4, 0.5, False) /* Create Apron (10696) for Wield */     
-     , (2497, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
-     , (2497, 4, 41403, -1, 0, 0, False) /* Create Jeweler's Saw Frame (41403) for Shop */
-     , (2497, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
-     , (2497, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
-     , (2497, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */
-     , (2497, 4, 41395, -1, 0, 0, False) /* Create Unfinished Lense (41395) for Shop */
      , (2497, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
      , (2497, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
      , (2497, 4,  2414, -1, 0, 0, False) /* Create Azurite (2414) for Shop */

@@ -16,14 +16,13 @@ VALUES (44109,   1,         16) /* ItemType - Creature */
      , (44109,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44109, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44109, 146,    4000000) /* XpOverride */
-	 , (44109, 307,         10) /* DamageRating */
-	 , (44109, 315,       9999) /* CritResistRating */
+     , (44109, 307,         10) /* DamageRating */
+     , (44109, 315,       9999) /* CritResistRating */
      , (44109, 332,        300) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44109,   1, True ) /* Stuck */
      , (44109,   6, True ) /* AiUsesMana */
-     , (44109,   7, True ) /* AiUseHumanMagicAnimations */
      , (44109,  10, True ) /* AttackerAi */
      , (44109,  11, False) /* IgnoreCollisions */
      , (44109,  12, True ) /* ReportCollisions */
@@ -37,7 +36,7 @@ VALUES (44109,   1,       5) /* HeartbeatInterval */
      , (44109,   4,      10) /* StaminaRate */
      , (44109,   5,       3) /* ManaRate */
      , (44109,  12,     0.0) /* Shade */
-	 , (44109,  39,     1.6) /* DefaultScale */
+     , (44109,  39,     1.6) /* DefaultScale */
      , (44109,  13,       1) /* ArmorModVsSlash */
      , (44109,  14,       1) /* ArmorModVsPierce */
      , (44109,  15,     0.4) /* ArmorModVsBludgeon */
@@ -45,7 +44,7 @@ VALUES (44109,   1,       5) /* HeartbeatInterval */
      , (44109,  17,     0.8) /* ArmorModVsFire */
      , (44109,  18,    0.67) /* ArmorModVsAcid */
      , (44109,  19,     0.8) /* ArmorModVsElectric */
-     , (44109,  31,      12) /* VisualAwarenessRange */
+     , (44109,  31,      22) /* VisualAwarenessRange */
      , (44109,  64,    0.67) /* ResistSlash */
      , (44109,  65,    0.67) /* ResistPierce */
      , (44109,  66,    0.67) /* ResistBludgeon */
@@ -63,14 +62,14 @@ VALUES (44109,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44109,   1, 'Mu-miyah Soothsayer') /* Name */
-	 , (44109,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
+     , (44109,  45, 'KilltaskDesertAreaMumiyah_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44109,   1,   33554433) /* Setup */
      , (44109,   2,  150995189) /* MotionTable */
      , (44109,   3,  536870942) /* SoundTable */
      , (44109,   6,   67108990) /* PaletteBase */
-	 , (44109,   7,  268435645) /* ClothingBase */
+     , (44109,   7,  268435645) /* ClothingBase */
      , (44109,   8,  100669122) /* Icon */
      , (44109,   4,  805306376) /* CombatTable */
      , (44109,  22,  872415272) /* PhysicsEffectTable */
@@ -112,23 +111,20 @@ VALUES (44109,  0,  4,  0,    0,  250,  250,  150,  275,  250,  100,  250,  150,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44109,  5542,   2.06)  /* Burning Sands Infliction */
-     , (44109,  5543,   2.06)  /* Curse of the Burning Sands */
-     , (44109,  4423,   2.20)  /* Incantation of Flame Arc */
+     , (44109,  5543,   2.50)  /* Curse of the Burning Sands */
+     , (44109,  4423,   2.30)  /* Incantation of Flame Arc */
      , (44109,  5011,   2.06)  /* Geomantic Raze */
      , (44109,  4643,   2.06)  /* Incantation of Drain Health */
-     , (44109,  4645,   1.06)  /* Incantation of Drain Stamina Other */;
+     , (44109,  4645,   2.02)  /* Incantation of Drain Stamina Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
-	 , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
-	 , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
-	 , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
-	 , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
-	 , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
-	 , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
-	 , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
-	 , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */;
-	 
-	 
-
+     , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
+     , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
+     , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
+     , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
+     , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
+     , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
+     , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */
+     , (44109, 9, 44135,  1, 0, 1, False) /* Yellow Destabilizing Crystal (44135) for ContainTreasure */;
 

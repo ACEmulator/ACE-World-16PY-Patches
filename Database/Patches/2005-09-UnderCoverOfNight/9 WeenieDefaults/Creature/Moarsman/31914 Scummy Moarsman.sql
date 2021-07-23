@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31914;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31914, 'ace31914-scummymoarsman', 10, '2019-06-02 07:52:34') /* Creature */;
+VALUES (31914, 'ace31914-scummymoarsman', 10, '2020-07-13 07:52:34') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31914,   1,         16) /* ItemType - Creature */
      , (31914,   2,         34) /* CreatureType - Moarsman */
      , (31914,   3,         13) /* PaletteTemplate - Purple */
-     , (31914,   6,        255) /* ItemsCapacity */
-     , (31914,   7,        255) /* ContainersCapacity */
+     , (31914,   6,         -1) /* ItemsCapacity */
+     , (31914,   7,         -1) /* ContainersCapacity */
      , (31914,  16,          1) /* ItemUseable - No */
      , (31914,  25,        160) /* Level */
      , (31914,  27,          0) /* ArmorType - None */
@@ -21,10 +21,7 @@ VALUES (31914,   1,         16) /* ItemType - Creature */
      , (31914, 146,     500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31914,   1, True ) /* Stuck */
-     , (31914,  11, False) /* IgnoreCollisions */
-     , (31914,  12, True ) /* ReportCollisions */
-     , (31914,  13, False) /* Ethereal */;
+VALUES (31914,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31914,   1,       5) /* HeartbeatInterval */
@@ -33,25 +30,25 @@ VALUES (31914,   1,       5) /* HeartbeatInterval */
      , (31914,   4,       5) /* StaminaRate */
      , (31914,   5,       2) /* ManaRate */
      , (31914,  12,     0.5) /* Shade */
-     , (31914,  13, 0.649999976158142) /* ArmorModVsSlash */
-     , (31914,  14, 0.850000023841858) /* ArmorModVsPierce */
-     , (31914,  15, 0.850000023841858) /* ArmorModVsBludgeon */
-     , (31914,  16, 0.649999976158142) /* ArmorModVsCold */
-     , (31914,  17, 0.850000023841858) /* ArmorModVsFire */
-     , (31914,  18, 0.649999976158142) /* ArmorModVsAcid */
+     , (31914,  13,    0.65) /* ArmorModVsSlash */
+     , (31914,  14,    0.85) /* ArmorModVsPierce */
+     , (31914,  15,    0.85) /* ArmorModVsBludgeon */
+     , (31914,  16,    0.65) /* ArmorModVsCold */
+     , (31914,  17,    0.85) /* ArmorModVsFire */
+     , (31914,  18,    0.65) /* ArmorModVsAcid */
      , (31914,  19,    0.75) /* ArmorModVsElectric */
      , (31914,  31,      18) /* VisualAwarenessRange */
      , (31914,  34,       1) /* PowerupTime */
      , (31914,  36,       1) /* ChargeSpeed */
-     , (31914,  39, 1.60000002384186) /* DefaultScale */
+     , (31914,  39,     1.6) /* DefaultScale */
      , (31914,  55,      60) /* HomeRadius */
      , (31914,  62,     1.5) /* WeaponOffense */
-     , (31914,  64, 0.899999976158142) /* ResistSlash */
-     , (31914,  65, 0.550000011920929) /* ResistPierce */
-     , (31914,  66, 0.400000005960464) /* ResistBludgeon */
-     , (31914,  67, 0.400000005960464) /* ResistFire */
-     , (31914,  68, 0.850000023841858) /* ResistCold */
-     , (31914,  69, 0.850000023841858) /* ResistAcid */
+     , (31914,  64,     0.9) /* ResistSlash */
+     , (31914,  65,    0.55) /* ResistPierce */
+     , (31914,  66,     0.4) /* ResistBludgeon */
+     , (31914,  67,     0.4) /* ResistFire */
+     , (31914,  68,    0.85) /* ResistCold */
+     , (31914,  69,    0.85) /* ResistAcid */
      , (31914,  70,       1) /* ResistElectric */
      , (31914,  71,       1) /* ResistHealthBoost */
      , (31914,  72,       1) /* ResistStaminaDrain */
@@ -111,6 +108,10 @@ VALUES (31914,  0,  4, 300,    0,  425,  350,  400,  400,  375,  400,  400,  325
      , (31914, 22, 16, 400,  0.4,  425,  350,  400,  400,  375,  400,  400,  325,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31914, 9, 34277,  1, 0, 0.02, True) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
-     , (31914, 9, 24477,  1, 0, 0.04, True) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (31914, 9, 32274,  1, 0, 0.2, True) /* Create Moarsmuck (32274) for ContainTreasure */;
+VALUES (31914, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+     , (31914, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (31914, 9, 24477,  1, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (31914, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (31914, 9, 32274,  1, 0, 0.20, False) /* Create Moarsmuck (32274) for ContainTreasure */
+     , (31914, 9,     0,  0, 0, 0.80, False) /* Create nothing for ContainTreasure */;
+     

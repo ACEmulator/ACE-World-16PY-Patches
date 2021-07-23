@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44241;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44241, 'ace44241-panhsj', 12, '2019-11-02 03:57:12') /* Vendor */;
+VALUES (44241, 'ace44241-panhsj', 12, '2020-06-06 03:57:12') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44241,   1,         16) /* ItemType - Creature */
@@ -150,18 +150,18 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Thank you again for bartering with me. Please return soon.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44241, 4, 44312, -1, 0, 0, False) /* Create Scroll of Lost City of Neftet Recall (44312) for Shop */
+VALUES (44241, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */
+     , (44241, 4, 44211, -1, 0, 0, False) /* Create Crate of Burning Sands Arrowheads (44211) for Shop */
+     , (44241, 4, 40607, -1, 0, 0, False) /* Create Armor Upgrade Kit Containment Gem (40607) for Shop */
+     , (44241, 4, 41919, -1, 0, 0, False) /* Create Weapon Upgrade Kit Containment Gem (41919) for Shop */
+     , (44241, 4, 44282, -1, 0, 0, False) /* Create Bracelet of Coordination (44282) for Shop */
+     , (44241, 4, 44283, -1, 0, 0, False) /* Create Bracelet of Endurance (44283) for Shop */
+     , (44241, 4, 44284, -1, 0, 0, False) /* Create Bracelet of Focus (44284) for Shop */
+     , (44241, 4, 44285, -1, 0, 0, False) /* Create Bracelet of Quickness (44285) for Shop */
+     , (44241, 4, 44286, -1, 0, 0, False) /* Create Bracelet of Self (44286) for Shop */
+     , (44241, 4, 44281, -1, 0, 0, False) /* Create Bracelet of Strength (44281) for Shop */
+     , (44241, 4, 44312, -1, 0, 0, False) /* Create Scroll of Lost City of Neftet Recall (44312) for Shop */
      , (44241, 4, 47055, -1, 0, 0, False) /* Create Spirit of Izexi Gem (47055) for Shop */
-     , (44241, 4, 47156, -1, 0, 0, False) /* Create  (47156) for Shop */
-     , (44241, 4, 47157, -1, 0, 0, False) /* Create  (47157) for Shop */
-     , (44241, 4, 44282, -1, 0, 0, False) /* Create  (44282) for Shop */
-     , (44241, 4, 44283, -1, 0, 0, False) /* Create  (44283) for Shop */
-     , (44241, 4, 44284, -1, 0, 0, False) /* Create  (44284) for Shop */
-     , (44241, 4, 44285, -1, 0, 0, False) /* Create  (44285) for Shop */
-     , (44241, 4, 44286, -1, 0, 0, False) /* Create  (44286) for Shop */
-     , (44241, 4, 44281, -1, 0, 0, False) /* Create  (44281) for Shop */
-     , (44241, 4, 44211, -1, 0, 0, False) /* Create  (44211) for Shop */
-     , (44241, 4, 40605, -1, 0, 0, False) /* Create  (40605) for Shop */
-     , (44241, 4, 41917, -1, 0, 0, False) /* Create  (41917) for Shop */
-     , (44241, 4, 47158, -1, 0, 0, False) /* Create  (47158) for Shop */
-	 , (44241, 4, 41508, -1, 0, 0, False) /* Create  (41508) for Shop */;
+     , (44241, 4, 47156, -1, 0, 0, False) /* Create A'nekshay Gem of Knowledge (47156) for Shop */
+     , (44241, 4, 47157, -1, 0, 0, False) /* Create A'nekshay Gem of Lesser Knowledge (47157) for Shop */
+     , (44241, 4, 47158, -1, 0, 0, False) /* Create A'nekshay Luminance Certificate (47158) for Shop */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1025;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1025, 'portalrithwic', 7, '2020-03-30 00:00:00') /* Portal */;
+VALUES (1025, 'portalrithwic', 7, '2020-07-09 00:00:00') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1025,   1,      65536) /* ItemType - Portal */
@@ -10,17 +10,13 @@ VALUES (1025,   1,      65536) /* ItemType - Portal */
      , (1025, 111,         49) /* PortalBitmask - Unrestricted */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1025,   1, True ) /* Stuck */
-     , (1025,  11, True ) /* IgnoreCollisions */
-     , (1025,  12, False) /* ReportCollisions */
-     , (1025,  13, True ) /* Ethereal */
-     , (1025,  15, True ) /* LightsStatus */;
+VALUES (1025,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1025,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1025,   1, 'Portal to Rithwic') /* Name */
+VALUES (1025,   1, 'Destroyed Portal to Rithwic') /* Name */
      , (1025,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

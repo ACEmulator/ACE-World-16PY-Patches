@@ -1,11 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43152;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43152, 'ace43152-greaterdeadlybluntquarrel', 5, '2019-12-25 00:00:00') /* Ammunition */;
+VALUES (43152, 'ace43152-gearbladeslashingbolt', 5, '2020-11-01 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43152,   1,        256) /* ItemType - MissileWeapon */
-     , (43152,   3,         20) /* PaletteTemplate - Silver */
+     , (43152,   3,         77) /* PaletteTemplate - BlueGreen */
      , (43152,   5,          1) /* EncumbranceVal */
      , (43152,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (43152,  11,       5000) /* MaxStackSize */
@@ -13,9 +13,8 @@ VALUES (43152,   1,        256) /* ItemType - MissileWeapon */
      , (43152,  13,          1) /* StackUnitEncumbrance */
      , (43152,  15,          1) /* StackUnitValue */
      , (43152,  16,          1) /* ItemUseable - No */
-     , (43152,  18,       1024) /* UiEffects - Slashing */
      , (43152,  19,          1) /* Value */
-     , (43152,  44,         42) /* Damage */
+     , (43152,  44,         53) /* Damage */
      , (43152,  45,          1) /* DamageType - Slash */
      , (43152,  50,          2) /* AmmoType - Bolt */
      , (43152,  51,          3) /* CombatUse - Ammo */
@@ -47,6 +46,6 @@ VALUES (43152,   1,   33554730) /* Setup */
      , (43152,   3,  536870932) /* SoundTable */
      , (43152,   6,   67111919) /* PaletteBase */
      , (43152,   7,  268436306) /* ClothingBase */
-     , (43152,   8,  100672651) /* Icon */
+     , (43152,   8,  100672654) /* Icon */
      , (43152,  22,  872415275) /* PhysicsEffectTable */
-     , (43152,  50,  100689661) /* IconOverlay */;
+     , (43152,  50,  100691312) /* IconOverlay */;

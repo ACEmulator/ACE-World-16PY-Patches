@@ -18,7 +18,7 @@ VALUES (27817,   1,        256) /* ItemType - MissileWeapon */
      , (27817,  48,         47) /* WeaponSkill - MissileWeapons */
      , (27817,  49,         25) /* WeaponTime */
      , (27817,  50,          4) /* AmmoType - Atlatl */
-     , (27817,  51,          2) /* CombatUse - Missle */
+     , (27817,  51,          2) /* CombatUse - Missile */
      , (27817,  60,        152) /* WeaponRange */
      , (27817,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27817, 106,        200) /* ItemSpellcraft */
@@ -42,15 +42,15 @@ VALUES (27817,  11, True ) /* IgnoreCollisions */
      , (27817,  84, True ) /* IgnoreCloIcons */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27817,   5, -0.0329999998211861) /* ManaRate */
-     , (27817,  26, 24.8999996185303) /* MaximumVelocity */
-     , (27817,  29, 1.07000005245209) /* WeaponDefense */
-     , (27817,  39, 1.10000002384186) /* DefaultScale */
-     , (27817,  62,       1) /* WeaponOffense */
-     , (27817,  63, 2.09999990463257) /* DamageMod */
-     , (27817, 136,     2.5) /* CriticalMultiplier */
-     , (27817, 138, 1.79999995231628) /* SlayerDamageBonus */
-     , (27817, 147,    0.25) /* CriticalFrequency */;
+VALUES (27817,   5, -0.033) /* ManaRate */
+     , (27817,  26,   24.9) /* MaximumVelocity */
+     , (27817,  29,   1.07) /* WeaponDefense */
+     , (27817,  39,    1.1) /* DefaultScale */
+     , (27817,  62,      1) /* WeaponOffense */
+     , (27817,  63,    2.1) /* DamageMod */
+     , (27817, 136,    2.5) /* CriticalMultiplier */
+     , (27817, 138,    1.8) /* SlayerDamageBonus */
+     , (27817, 147,   0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27817,   1, 'Bound Singularity Atlatl') /* Name */

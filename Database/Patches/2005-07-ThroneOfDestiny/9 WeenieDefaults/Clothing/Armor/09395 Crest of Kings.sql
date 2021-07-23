@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9395;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9395, 'shieldcrest', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (9395, 'shieldcrest', 1, '2020-07-09 06:52:23') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9395,   1,          2) /* ItemType - Armor */
@@ -20,11 +20,9 @@ VALUES (9395,   1,          2) /* ItemType - Armor */
      , (9395, 108,        200) /* ItemMaxMana */
      , (9395, 109,          0) /* ItemDifficulty */
      , (9395, 110,          0) /* ItemAllegianceRankLimit */
+     , (9395, 115,        230) /* ItemSkillLevelLimit */
      , (9395, 150,        103) /* HookPlacement - Hook */
      , (9395, 151,          2) /* HookType - Wall */
-     , (9395, 158,          7) /* WieldRequirements - Level */
-     , (9395, 159,          1) /* WieldSkillType - Axe */
-     , (9395, 160,         40) /* WieldDifficulty */
      , (9395, 176,         48) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -32,17 +30,18 @@ VALUES (9395,  22, True ) /* Inscribable */
      , (9395,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9395,   5, -0.0500000007450581) /* ManaRate */
+VALUES (9395,   5,   -0.05) /* ManaRate */
      , (9395,  13,       1) /* ArmorModVsSlash */
-     , (9395,  14, 1.20000004768372) /* ArmorModVsPierce */
-     , (9395,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (9395,  16, 0.800000011920929) /* ArmorModVsCold */
-     , (9395,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (9395,  14, 	1.2) /* ArmorModVsPierce */
+     , (9395,  15, 	0.8) /* ArmorModVsBludgeon */
+     , (9395,  16, 	0.8) /* ArmorModVsCold */
+     , (9395,  17, 	0.4) /* ArmorModVsFire */
      , (9395,  18,       1) /* ArmorModVsAcid */
-     , (9395,  19, 0.300000011920929) /* ArmorModVsElectric */
+     , (9395,  19, 	0.3) /* ArmorModVsElectric */
      , (9395,  39,    1.25) /* DefaultScale */
      , (9395, 110,       1) /* BulkMod */
-     , (9395, 111,       1) /* SizeMod */;
+     , (9395, 111,       1) /* SizeMod */
+     , (9395, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9395,   1, 'Crest of Kings') /* Name */
@@ -54,7 +53,7 @@ VALUES (9395,   1,   33557014) /* Setup */
      , (9395,   3,  536870932) /* SoundTable */
      , (9395,   8,  100671513) /* Icon */
      , (9395,  22,  872415275) /* PhysicsEffectTable */
-     , (9395,  37,          6) /* ItemSkillLimit */;
+     , (9395,  37,         48) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9395,   517,      2)  /* Acid Protection Self III */

@@ -93,3 +93,8 @@ VALUES (2118438934, 34726, 3830251779, 182.657, 134.657, 24.0605, -0.925414, 0, 
 REPLACE INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2118438938, 38460, 3830251582, 176.879, 136.718, 24.005, 1, 0, 0, -0.00100076, False, '2019-02-09 06:17:23'); /* Arcanum Broker */
 /* @teleloc 0xE44D003E [176.879000 136.718000 24.005000] 1.000000 0.000000 0.000000 -0.001001 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E44D01D, 34726, 0xE44D0100, 184.842, 110.343, 17.71, 0.92388, 0, 0, -0.382683, False, '2020-05-17 02:17:39'); /* Garbage Barrel */
+/* @teleloc 0xE44D0100 [184.841995 110.343002 17.709999] 0.923880 0.000000 0.000000 -0.382683 */
+

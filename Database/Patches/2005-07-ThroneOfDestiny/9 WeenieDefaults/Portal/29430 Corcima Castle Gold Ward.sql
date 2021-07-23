@@ -20,7 +20,7 @@ VALUES (29430,   1, True ) /* Stuck */
      , (29430,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29430,  54, -0.100000001490116) /* UseRadius */;
+VALUES (29430,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29430,   1, 'Corcima Castle Gold Ward') /* Name */
@@ -32,5 +32,5 @@ VALUES (29430,   1,   33555925) /* Setup */
      , (29430,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29430, 2, 1088815146, 121.81, 35.59, 160, 0.98, 0, 0, 0.2) /* Destination */
-/* @teleloc 0x40E6002A [121.810000 35.590000 160.000000] 0.980000 0.000000 0.000000 0.200000 */;
+VALUES (29430, 2, 0x40E6002A, 121.809998, 35.590000, 160.004990, 0.979804, 0, 0, 0.199960) /* Destination */
+/* @teleloc 0x40E6002A [121.809998 35.590000 160.004990] 0.979804 0.000000 0.000000 0.199960 */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30023;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30023, 'viascrivenercreaturedistant', 12, '2019-08-10 20:27:57') /* Vendor */;
+VALUES (30023, 'viascrivenercreaturedistant', 12, '2020-06-28 20:27:57') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30023,   1,         16) /* ItemType - Creature */
@@ -182,6 +182,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30023, 2, 28614,  0, 14, 0.5, False) /* Create Vestiri Robe with Hood (28614) for Wield */
+     , (30023, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */
      , (30023, 4, 28944, -1, 0, 0, False) /* Create Scroll of Arcanum Enlightenment V (28944) for Shop */
      , (30023, 4, 28937, -1, 0, 0, False) /* Create Scroll of Arcanum Salvaging V (28937) for Shop */
      , (30023, 4,  2637, -1, 0, 0, False) /* Create Scroll of Bafflement Other V (2637) for Shop */
@@ -200,8 +201,8 @@ VALUES (30023, 2, 28614,  0, 14, 0.5, False) /* Create Vestiri Robe with Hood (2
      , (30023, 4,  2740, -1, 0, 0, False) /* Create Scroll of Strength Other V (2740) for Shop */
      , (30023, 4,  2745, -1, 0, 0, False) /* Create Scroll of Self Strength V (2745) for Shop */
      , (30023, 4,  2750, -1, 0, 0, False) /* Create Scroll of Weakness Other V (2750) for Shop */
-     , (30023, 4,  2755, -1, 0, 0, False) /* Create Scroll of WillPower Other V (2755) for Shop */
-     , (30023, 4,  2760, -1, 0, 0, False) /* Create Scroll of WillPower Self V (2760) for Shop */
+     , (30023, 4,  2755, -1, 0, 0, False) /* Create Scroll of Willpower Other V (2755) for Shop */
+     , (30023, 4,  2760, -1, 0, 0, False) /* Create Scroll of Willpower Self V (2760) for Shop */
      , (30023, 4,  5984, -1, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other V (5984) for Shop */
      , (30023, 4,  5990, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Other V (5990) for Shop */
      , (30023, 4,  5996, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Self V (5996) for Shop */
@@ -297,6 +298,9 @@ VALUES (30023, 2, 28614,  0, 14, 0.5, False) /* Create Vestiri Robe with Hood (2
      , (30023, 4, 45352, -1, 0, 0, False) /* Create Scroll of Sneak Attack Mastery Self V (45352) for Shop */
      , (30023, 4,  3491, -1, 0, 0, False) /* Create Scroll of Sprint Other V (3491) for Shop */
      , (30023, 4,  3496, -1, 0, 0, False) /* Create Scroll of Sprint Self V (3496) for Shop */
+     , (30023, 4, 49460, -1, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other V (49460) for Shop */
+     , (30023, 4, 49467, -1, 0, 0, False) /* Create Scroll of Summoning Mastery Other V (49467) for Shop */
+     , (30023, 4, 49474, -1, 0, 0, False) /* Create Scroll of Summoning Mastery Self V (49474) for Shop */
      , (30023, 4,  3561, -1, 0, 0, False) /* Create Scroll of Vulnerability V (3561) for Shop */
      , (30023, 4,  3566, -1, 0, 0, False) /* Create Scroll of War Magic Ineptitude V (3566) for Shop */
      , (30023, 4,  3571, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Other V (3571) for Shop */
@@ -309,5 +313,4 @@ VALUES (30023, 2, 28614,  0, 14, 0.5, False) /* Create Vestiri Robe with Hood (2
      , (30023, 4, 41260, -1, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Self V (41260) for Shop */
      , (30023, 4, 43361, -1, 0, 0, False) /* Create Scroll of Void Magic Ineptitude V (43361) for Shop */
      , (30023, 4, 43362, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Other V (43362) for Shop */
-     , (30023, 4, 43363, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Self V (43363) for Shop */
-     , (30023, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */;
+     , (30023, 4, 43363, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Self V (43363) for Shop */;

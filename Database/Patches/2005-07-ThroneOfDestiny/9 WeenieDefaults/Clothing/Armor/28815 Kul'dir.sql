@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28815;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28815, 'shieldkuldirlow', 1, '2019-05-15 00:00:00') /* Generic */;
+VALUES (28815, 'shieldkuldirlow', 1, '2020-07-09 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28815,   1,          2) /* ItemType - Armor */
@@ -18,15 +18,11 @@ VALUES (28815,   1,          2) /* ItemType - Armor */
      , (28815, 108,        700) /* ItemMaxMana */
      , (28815, 109,         80) /* ItemDifficulty */
      , (28815, 158,          2) /* WieldRequirements - RawSkill */
-     , (28815, 159,          6) /* WieldSkillType - MeleeDefense */
-     , (28815, 160,         80) /* WieldDifficulty */;
+     , (28815, 159,         48) /* WieldSkillType - Shield */
+     , (28815, 160,        110) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28815,  11, True ) /* IgnoreCollisions */
-     , (28815,  13, True ) /* Ethereal */
-     , (28815,  14, True ) /* GravityStatus */
-     , (28815,  19, True ) /* Attackable */
-     , (28815,  22, True ) /* Inscribable */
+VALUES (28815,  22, True ) /* Inscribable */
      , (28815,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

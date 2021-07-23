@@ -1,34 +1,27 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30384;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30384, 'portalhalaetanoutpostviawest', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (30384, 'portalhalaetanoutpostviawest', 7, '2020-07-09 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30384,   1,      65536) /* ItemType - Portal */
-     , (30384,  16,         32) /* ItemUseable - Remote */
-     , (30384,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
-     , (30384,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (30384, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
-     , (30384, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (30384,  16,          1) /* ItemUseable - No */
+     , (30384,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (30384, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30384,   1, True ) /* Stuck */
-     , (30384,  11, False) /* IgnoreCollisions */
-     , (30384,  12, True ) /* ReportCollisions */
-     , (30384,  13, True ) /* Ethereal */
-     , (30384,  15, True ) /* LightsStatus */
-     , (30384,  88, True ) /* PortalShowDestination */;
+VALUES (30384,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30384,  54, -0.100000001490116) /* UseRadius */;
+VALUES (30384,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30384,   1, 'Portal to Westwatch') /* Name */
-     , (30384,  38, 'Portal to Westwatch (72.8N, 73.4W).') /* AppraisalPortalDestination */;
+VALUES (30384,   1, 'Destroyed Portal to Westwatch') /* Name */
+     , (30384,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30384,   1,   33555923) /* Setup */
-     , (30384,   2,  150994947) /* MotionTable */
+VALUES (30384,   1,   33561060) /* Setup */
+     , (30384,   2,  150995314) /* MotionTable */
      , (30384,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

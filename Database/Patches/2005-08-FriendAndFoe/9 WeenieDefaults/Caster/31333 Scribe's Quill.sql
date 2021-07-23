@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31333;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31333, 'ace31333-scribesquill', 35, '2019-03-27 19:40:10') /* Caster */;
+VALUES (31333, 'ace31333-scribesquill', 35, '2020-07-09 19:40:10') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31333,   1,      32768) /* ItemType - Caster */
@@ -10,7 +10,6 @@ VALUES (31333,   1,      32768) /* ItemType - Caster */
      , (31333,  16,          1) /* ItemUseable - No */
      , (31333,  19,      12357) /* Value */
      , (31333,  33,          0) /* Bonded - Normal */
-     , (31333,  53,        101) /* PlacementPosition - Resting */
      , (31333,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31333,  94,         16) /* TargetType - Creature */
      , (31333, 106,        350) /* ItemSpellcraft */
@@ -19,20 +18,16 @@ VALUES (31333,   1,      32768) /* ItemType - Caster */
      , (31333, 114,          0) /* Attuned - Normal */
      , (31333, 115,        400) /* ItemSkillLevelLimit */
      , (31333, 151,          2) /* HookType - Wall */
-     , (31333, 176,         29) /* AppraisalItemSkill */;
+     , (31333, 176,         29) /* AppraisalItemSkill */
+     , (31333, 353,          0) /* WeaponType - Undef */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31333,  11, True ) /* IgnoreCollisions */
-     , (31333,  13, True ) /* Ethereal */
-     , (31333,  14, True ) /* GravityStatus */
-     , (31333,  19, True ) /* Attackable */
-     , (31333,  22, True ) /* Inscribable */
+VALUES (31333,  22, True ) /* Inscribable */
      , (31333,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31333,   5, -0.0500000007450581) /* ManaRate */
-     , (31333,  29,       1) /* WeaponDefense */
-     , (31333, 144,       0) /* ManaConversionMod */;
+VALUES (31333,   5,   -0.05) /* ManaRate */
+     , (31333,  29,       1) /* WeaponDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31333,   1, 'Scribe''s Quill') /* Name */;
@@ -41,7 +36,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31333,   1,   33559616) /* Setup */
      , (31333,   3,  536870932) /* SoundTable */
      , (31333,   8,  100687945) /* Icon */
-     , (31333,  22,  872415275) /* PhysicsEffectTable */;
+     , (31333,  22,  872415275) /* PhysicsEffectTable */
+     , (31333,  37,         29) /* ItemSkillLimit */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31333,  2197,      2)  /* Jibril's Blessing */

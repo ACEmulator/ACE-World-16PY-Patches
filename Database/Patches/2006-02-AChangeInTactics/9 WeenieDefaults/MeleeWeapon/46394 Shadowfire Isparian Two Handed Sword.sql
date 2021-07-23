@@ -20,7 +20,6 @@ VALUES (46394,   1,          1) /* ItemType - MeleeWeapon */
      , (46394,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46394,  49,          1) /* WeaponTime */
      , (46394,  51,          1) /* CombatUse - Melee */
-     , (46394,  53,        101) /* PlacementPosition */
      , (46394,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46394, 114,          1) /* Attuned - Attuned */
      , (46394, 151,          2) /* HookType - Wall */
@@ -31,25 +30,21 @@ VALUES (46394,   1,          1) /* ItemType - MeleeWeapon */
      , (46394, 292,          2) /* Cleaving */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46394,  11, True ) /* IgnoreCollisions */
-     , (46394,  13, True ) /* Ethereal */
-     , (46394,  14, True ) /* GravityStatus */
-     , (46394,  19, True ) /* Attackable */
-     , (46394,  22, True ) /* Inscribable */
+VALUES (46394,  22, True ) /* Inscribable */
      , (46394,  69, False) /* IsSellable */
      , (46394,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46394,  21,       1) /* WeaponLength */
-     , (46394,  22, 0.28999999165535) /* DamageVariance */
+     , (46394,  22,    0.29) /* DamageVariance */
      , (46394,  26,       0) /* MaximumVelocity */
-     , (46394,  29, 1.28999996185303) /* WeaponDefense */
-     , (46394,  39, 1.14999997615814) /* DefaultScale */
-     , (46394,  62, 1.28999996185303) /* WeaponOffense */
+     , (46394,  29,    1.29) /* WeaponDefense */
+     , (46394,  39,    1.15) /* DefaultScale */
+     , (46394,  62,    1.29) /* WeaponOffense */
      , (46394,  63,       1) /* DamageMod */
      , (46394, 136,       3) /* CriticalMultiplier */
      , (46394, 138,       3) /* SlayerDamageBonus */
-     , (46394, 147, 0.170000001788139) /* CriticalFrequency */;
+     , (46394, 147,    0.17) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46394,   1, 'Shadowfire Isparian Two Handed Sword') /* Name */

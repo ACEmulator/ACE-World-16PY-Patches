@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27847;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27847, 'staffsingularitynew2', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (27847, 'staffsingularitynew2', 6, '2020-07-04 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27847,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,8 +20,6 @@ VALUES (27847,   1,          1) /* ItemType - MeleeWeapon */
      , (27847,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (27847,  49,         30) /* WeaponTime */
      , (27847,  51,          1) /* CombatUse - Melee */
-     , (27847,  52,          1) /* ParentLocation */
-     , (27847,  53,          1) /* PlacementPosition */
      , (27847,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27847, 106,        200) /* ItemSpellcraft */
      , (27847, 107,        700) /* ItemCurMana */
@@ -37,24 +35,19 @@ VALUES (27847,   1,          1) /* ItemType - MeleeWeapon */
      , (27847, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27847,  11, True ) /* IgnoreCollisions */
-     , (27847,  13, True ) /* Ethereal */
-     , (27847,  14, True ) /* GravityStatus */
-     , (27847,  19, True ) /* Attackable */
-     , (27847,  22, True ) /* Inscribable */
-     , (27847,  23, True ) /* DestroyOnSell */
-     , (27847,  99, True ) /* Ivoryable */;
+VALUES (27847,  22, True ) /* Inscribable */
+     , (27847,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27847,   5, -0.0329999998211861) /* ManaRate */
-     , (27847,  21, 1.33000004291534) /* WeaponLength */
-     , (27847,  22, 0.400000005960464) /* DamageVariance */
-     , (27847,  29, 1.07000005245209) /* WeaponDefense */
-     , (27847,  39, 0.670000016689301) /* DefaultScale */
-     , (27847,  62, 1.07000005245209) /* WeaponOffense */
-     , (27847, 136,     2.5) /* CriticalMultiplier */
-     , (27847, 138, 1.79999995231628) /* SlayerDamageBonus */
-     , (27847, 147,    0.25) /* CriticalFrequency */;
+VALUES (27847,   5, -0.033) /* ManaRate */
+     , (27847,  21,   1.33) /* WeaponLength */
+     , (27847,  22,    0.4) /* DamageVariance */
+     , (27847,  29,   1.07) /* WeaponDefense */
+     , (27847,  39,   0.67) /* DefaultScale */
+     , (27847,  62,   1.07) /* WeaponOffense */
+     , (27847, 136,    2.5) /* CriticalMultiplier */
+     , (27847, 138,    1.8) /* SlayerDamageBonus */
+     , (27847, 147,   0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27847,   1, 'Bound Singularity Staff') /* Name */

@@ -1,36 +1,27 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5486;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (5486, 'portalaljalima', 7, '2019-02-04 06:52:23') /* Portal */;
+VALUES (5486, 'portalaljalima', 7, '2020-07-09 06:52:23') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5486,   1,      65536) /* ItemType - Portal */
-     , (5486,  16,         32) /* ItemUseable - Remote */
-     , (5486,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (5486, 111,          1) /* PortalBitmask - Unrestricted */
-     , (5486, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (5486,  16,          1) /* ItemUseable - No */
+     , (5486,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (5486, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5486,   1, True ) /* Stuck */
-     , (5486,  11, False) /* IgnoreCollisions */
-     , (5486,  12, True ) /* ReportCollisions */
-     , (5486,  13, True ) /* Ethereal */
-     , (5486,  14, True ) /* GravityStatus */
-     , (5486,  15, True ) /* LightsStatus */
-     , (5486,  19, True ) /* Attackable */
-     , (5486,  88, True ) /* PortalShowDestination */;
+VALUES (5486,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5486,  54, -0.100000001490116) /* UseRadius */;
+VALUES (5486,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5486,   1, 'Al-Jalima Portal') /* Name */
-     , (5486,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (5486,  38, 'Destroyed Al-Jalima Portal (7.2N, 5.0E).') /* AppraisalPortalDestination */;
+VALUES (5486,   1, 'Destroyed Al-Jalima Portal') /* Name */
+     , (5486,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5486,   1,   33554867) /* Setup */
-     , (5486,   2,  150994947) /* MotionTable */
+VALUES (5486,   1,   33561060) /* Setup */
+     , (5486,   2,  150995314) /* MotionTable */
      , (5486,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

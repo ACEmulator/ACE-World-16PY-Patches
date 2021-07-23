@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27850;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (27850, 'swordsingularitynew2', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (27850, 'swordsingularitynew2', 6, '2020-07-04 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27850,   1,          1) /* ItemType - MeleeWeapon */
@@ -33,23 +33,19 @@ VALUES (27850,   1,          1) /* ItemType - MeleeWeapon */
      , (27850, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27850,  11, True ) /* IgnoreCollisions */
-     , (27850,  13, True ) /* Ethereal */
-     , (27850,  14, True ) /* GravityStatus */
-     , (27850,  19, True ) /* Attackable */
-     , (27850,  22, True ) /* Inscribable */
+VALUES (27850,  22, True ) /* Inscribable */
      , (27850,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27850,   5, -0.0329999998211861) /* ManaRate */
-     , (27850,  21, 0.949999988079071) /* WeaponLength */
-     , (27850,  22, 0.159999996423721) /* DamageVariance */
-     , (27850,  29, 1.07000005245209) /* WeaponDefense */
-     , (27850,  39, 1.10000002384186) /* DefaultScale */
-     , (27850,  62, 1.07000005245209) /* WeaponOffense */
-     , (27850, 136,     2.5) /* CriticalMultiplier */
-     , (27850, 138, 1.79999995231628) /* SlayerDamageBonus */
-     , (27850, 147,    0.25) /* CriticalFrequency */;
+VALUES (27850,   5, -0.033) /* ManaRate */
+     , (27850,  21,   0.95) /* WeaponLength */
+     , (27850,  22,   0.16) /* DamageVariance */
+     , (27850,  29,   1.07) /* WeaponDefense */
+     , (27850,  39,    1.1) /* DefaultScale */
+     , (27850,  62,   1.07) /* WeaponOffense */
+     , (27850, 136,    2.5) /* CriticalMultiplier */
+     , (27850, 138,    1.8) /* SlayerDamageBonus */
+     , (27850, 147,   0.25) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27850,   1, 'Bound Singularity Sword') /* Name */

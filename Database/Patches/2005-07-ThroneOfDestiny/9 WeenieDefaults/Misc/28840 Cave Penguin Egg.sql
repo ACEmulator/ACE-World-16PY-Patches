@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28840;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28840, 'eggpenguincave', 1, '2019-04-15 19:00:54') /* Generic */;
+VALUES (28840, 'eggpenguincave', 1, '2020-07-09 19:00:54') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28840,   1,        128) /* ItemType - Misc */
@@ -16,12 +16,8 @@ VALUES (28840,   1,        128) /* ItemType - Misc */
      , (28840, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28840,  11, True ) /* IgnoreCollisions */
-     , (28840,  13, True ) /* Ethereal */
-     , (28840,  14, True ) /* GravityStatus */
-     , (28840,  19, True ) /* Attackable */
-     , (28840,  22, False) /* Inscribable */
-     , (28840,  23, True ) /* DestroyOnSell */;
+VALUES (28840,  22, True) /* Inscribable */
+     , (28840,  23, True) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28840,  39,       1) /* DefaultScale */;

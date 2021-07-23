@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 13089;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (13089, 'waspwingcarpenternewbieacademy', 1, '2019-02-04 06:52:23') /* Generic */;
+VALUES (13089, 'waspwingcarpenternewbieacademy', 1, '2020-07-09 06:52:23') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (13089,   1,        128) /* ItemType - Misc */
@@ -26,7 +26,7 @@ VALUES (13089,  39, 1.10000002384186) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13089,   1, 'Carpenter Wasp Wing') /* Name */
      , (13089,  14, 'Return this wing to the Academy Forman.') /* Use */
-     , (13089,  16, 'A wing from one of the Carpenter Wasps who have long plagued the Foreman''s garden.') /* LongDesc */
+     , (13089,  16, 'A wing from one of the Carpenter Wasps who have long plagued the Foreman''s garden. Return this wing to the Academy Foreman.') /* LongDesc */
      , (13089,  33, 'CarpWing') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

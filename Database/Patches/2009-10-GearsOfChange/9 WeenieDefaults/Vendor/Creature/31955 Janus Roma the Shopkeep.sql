@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31955;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31955, 'ace31955-janusromatheshopkeep', 12, '2019-06-05 22:59:56') /* Vendor */;
+VALUES (31955, 'ace31955-janusromatheshopkeep', 12, '2020-06-28 22:59:56') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31955,   1,         16) /* ItemType - Creature */
@@ -184,6 +184,7 @@ VALUES (31955, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (31955, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
      , (31955, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
      , (31955, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (31955, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
      , (31955, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (31955, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
      , (31955, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */

@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36561;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36561, 'ace36561-colosseumbackpack', 21, '2020-03-12 00:00:00') /* Container */;
+VALUES (36561, 'ace36561-colosseumbackpack', 21, '2020-06-18 00:00:00') /* Container */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36561,   1,        512) /* ItemType - Container */
      , (36561,   3,         14) /* PaletteTemplate - Red */
-     , (36561,   5,       1650) /* EncumbranceVal */
+     , (36561,   5,         15) /* EncumbranceVal */
      , (36561,   6,         26) /* ItemsCapacity */
      , (36561,  16,         56) /* ItemUseable - ContainedViewedRemote */
      , (36561,  18,          8) /* UiEffects - BoostMana */

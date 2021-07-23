@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20970;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20970, 'atlatldartdeadlyfire', 5, '2019-12-25 00:00:00') /* Ammunition */;
+VALUES (20970, 'atlatldartdeadlyfire', 5, '2020-10-30 00:00:00') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20970,   1,        256) /* ItemType - MissileWeapon */
@@ -17,7 +17,7 @@ VALUES (20970,   1,        256) /* ItemType - MissileWeapon */
      , (20970,  16,          1) /* ItemUseable - No */
      , (20970,  18,         32) /* UiEffects - Fire */
      , (20970,  19,         11) /* Value */
-     , (20970,  44,         28) /* Damage */
+     , (20970,  44,         34) /* Damage */
      , (20970,  45,         16) /* DamageType - Fire */
      , (20970,  50,          4) /* AmmoType - Atlatl */
      , (20970,  51,          3) /* CombatUse - Ammo */
@@ -33,7 +33,7 @@ VALUES (20970,  17, True ) /* Inelastic */
      , (20970,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20970,  22,     0.3) /* DamageVariance */
+VALUES (20970,  22,    0.33) /* DamageVariance */
      , (20970,  29,       1) /* WeaponDefense */
      , (20970,  39,     1.1) /* DefaultScale */
      , (20970,  62,       1) /* WeaponOffense */

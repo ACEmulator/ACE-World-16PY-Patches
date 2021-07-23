@@ -13,21 +13,20 @@ VALUES (32685,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32685,   1, True ) /* Stuck */
-     , (32685,  12, True ) /* ReportCollisions */
-     , (32685,  13, True ) /* Ethereal */
-     , (32685,  14, True ) /* GravityStatus */
-     , (32685,  15, True ) /* LightsStatus */
-     , (32685,  19, True ) /* Attackable */
      , (32685,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32685,  54, -0.100000001490116) /* UseRadius */;
+VALUES (32685,  54, -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32685,   1, 'Shade Iron Mine') /* Name */
-     , (32685,  38, 'Shade Iron Mine') /* AppraisalPortalDestination */;
+     , (32685,  37, 'ShadeIronStarted') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32685,   1,   33555925) /* Setup */
      , (32685,   2,  150994947) /* MotionTable */
      , (32685,   8,  100667499) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (32685, 2, 0x005303b0, 0, -10, 0.005, 0, 0, 0, -1) /* Destination */
+/* @teleloc 0x005303b0 [0.000000 -10 0.005] 0.000000 0.000000 0.000000 -1.000000 */;

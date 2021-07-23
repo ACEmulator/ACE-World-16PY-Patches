@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25598;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25598, 'gromnieruby', 10, '2019-09-13 00:00:00') /* Creature */;
+VALUES (25598, 'gromnieruby', 10, '2020-09-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25598,   1,         16) /* ItemType - Creature */
@@ -29,28 +29,28 @@ VALUES (25598,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25598,   1,       5) /* HeartbeatInterval */
      , (25598,   2,       0) /* HeartbeatTimestamp */
-     , (25598,   3, 0.699999988079071) /* HealthRate */
+     , (25598,   3,     0.7) /* HealthRate */
      , (25598,   4,       5) /* StaminaRate */
      , (25598,   5,       2) /* ManaRate */
      , (25598,  12,     0.5) /* Shade */
      , (25598,  13,     1.5) /* ArmorModVsSlash */
      , (25598,  14,     1.5) /* ArmorModVsPierce */
      , (25598,  15,     1.5) /* ArmorModVsBludgeon */
-     , (25598,  16, 0.899999976158142) /* ArmorModVsCold */
+     , (25598,  16,     0.9) /* ArmorModVsCold */
      , (25598,  17,       2) /* ArmorModVsFire */
      , (25598,  18,     1.5) /* ArmorModVsAcid */
      , (25598,  19,     1.5) /* ArmorModVsElectric */
      , (25598,  31,      25) /* VisualAwarenessRange */
      , (25598,  34,       1) /* PowerupTime */
      , (25598,  36,       1) /* ChargeSpeed */
-     , (25598,  39, 0.600000023841858) /* DefaultScale */
+     , (25598,  39,     0.6) /* DefaultScale */
      , (25598,  64,     0.5) /* ResistSlash */
      , (25598,  65,     0.5) /* ResistPierce */
      , (25598,  66,     0.5) /* ResistBludgeon */
      , (25598,  67,       0) /* ResistFire */
      , (25598,  68,       1) /* ResistCold */
-     , (25598,  69, 0.400000005960464) /* ResistAcid */
-     , (25598,  70, 0.400000005960464) /* ResistElectric */
+     , (25598,  69,     0.4) /* ResistAcid */
+     , (25598,  70,     0.4) /* ResistElectric */
      , (25598,  71,       1) /* ResistHealthBoost */
      , (25598,  72,       1) /* ResistStaminaDrain */
      , (25598,  73,       1) /* ResistStaminaBoost */

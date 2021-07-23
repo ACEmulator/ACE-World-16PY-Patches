@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31198;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31198, 'ace31198-potionofhealing', 18, '2019-02-04 06:52:23') /* Food */;
+VALUES (31198, 'ace31198-potionofhealing', 18, '2020-07-25 06:52:23') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31198,   1,        128) /* ItemType - Misc */
      , (31198,   3,         14) /* PaletteTemplate - Red */
-     , (31198,   5,         15) /* EncumbranceVal */
+     , (31198,   5,         25) /* EncumbranceVal */
      , (31198,   8,         45) /* Mass */
      , (31198,  11,        100) /* MaxStackSize */
      , (31198,  12,          1) /* StackSize */
@@ -14,20 +14,15 @@ VALUES (31198,   1,        128) /* ItemType - Misc */
      , (31198,  14,         45) /* StackUnitMass */
      , (31198,  15,        170) /* StackUnitValue */
      , (31198,  16,          8) /* ItemUseable - Contained */
-     , (31198,  19,        170) /* Value */
-     , (31198,  53,        101) /* PlacementPosition */
+     , (31198,  19,          0) /* Value */
      , (31198,  89,          2) /* BoosterEnum - Health */
-     , (31198,  90,         25) /* BoostValue */
+     , (31198,  90,          5) /* BoostValue */
      , (31198,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31198, 150,        103) /* HookPlacement - Hook */
      , (31198, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31198,  11, True ) /* IgnoreCollisions */
-     , (31198,  13, True ) /* Ethereal */
-     , (31198,  14, True ) /* GravityStatus */
-     , (31198,  19, True ) /* Attackable */
-     , (31198,  69, False) /* IsSellable */;
+VALUES (31198,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31198,   1, 'Potion of Healing') /* Name */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30601;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30601, 'daggerstiletto', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (30601, 'daggerstiletto', 6, '2020-09-29 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30601,   1,          1) /* ItemType - MeleeWeapon */
@@ -12,26 +12,21 @@ VALUES (30601,   1,          1) /* ItemType - MeleeWeapon */
      , (30601,  16,          1) /* ItemUseable - No */
      , (30601,  19,        100) /* Value */
      , (30601,  44,          7) /* Damage */
-     , (30601,  45,          2) /* DamageType - Pierce */
+     , (30601,  45,          3) /* DamageType - Slash, Pierce */
      , (30601,  46,          2) /* DefaultCombatStyle - OneHanded */
-     , (30601,  47,        128) /* AttackType - DoubleThrust */
+     , (30601,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
      , (30601,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (30601,  49,         40) /* WeaponTime */
      , (30601,  51,          1) /* CombatUse - Melee */
-     , (30601,  53,        101) /* PlacementPosition - Resting */
      , (30601,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30601, 169,  101254146) /* TsysMutationData */
      , (30601, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30601,  11, True ) /* IgnoreCollisions */
-     , (30601,  13, True ) /* Ethereal */
-     , (30601,  14, True ) /* GravityStatus */
-     , (30601,  19, True ) /* Attackable */
-     , (30601,  22, True ) /* Inscribable */;
+VALUES (30601,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30601,  21, 0.400000005960464) /* WeaponLength */
+VALUES (30601,  21,     0.4) /* WeaponLength */
      , (30601,  22,    0.75) /* DamageVariance */
      , (30601,  26,       0) /* MaximumVelocity */
      , (30601,  29,       1) /* WeaponDefense */

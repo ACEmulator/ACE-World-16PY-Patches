@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44074;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44074, 'ace44074-invitationtomasterfletchers', 38, '2019-06-05 00:00:00') /* Gem */;
+VALUES (44074, 'ace44074-invitationtomasterfletchers', 38, '2020-07-09 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44074,   1,       2048) /* ItemType - Gem */
@@ -12,8 +12,7 @@ VALUES (44074,   1,       2048) /* ItemType - Gem */
      , (44074,  15,      20000) /* StackUnitValue */
      , (44074,  16,          8) /* ItemUseable - Contained */
      , (44074,  18,          1) /* UiEffects - Magical */
-     , (44074,  19,      20000) /* Value */
-     , (44074,  65,        101) /* Placement - Resting */
+     , (44074,  19,       1000) /* Value */
      , (44074,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44074,  94,         16) /* TargetType - Creature */
      , (44074, 106,        210) /* ItemSpellcraft */
@@ -23,11 +22,7 @@ VALUES (44074,   1,       2048) /* ItemType - Gem */
      , (44074, 280,       1000) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44074,   1, False) /* Stuck */
-     , (44074,  11, True ) /* IgnoreCollisions */
-     , (44074,  13, True ) /* Ethereal */
-     , (44074,  14, True ) /* GravityStatus */
-     , (44074,  19, True ) /* Attackable */;
+VALUES (44074,   1, False) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44074, 167,      15) /* CooldownDuration */;

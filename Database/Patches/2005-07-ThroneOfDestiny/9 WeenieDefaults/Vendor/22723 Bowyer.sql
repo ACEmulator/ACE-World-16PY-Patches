@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22723;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (22723, 'oolutangabowyer', 12, '2019-04-09 02:19:52') /* Vendor */;
+VALUES (22723, 'oolutangabowyer', 12, '2020-06-28 02:19:52') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22723,   1,         16) /* ItemType - Creature */
@@ -169,5 +169,6 @@ VALUES (22723, 2, 10757,  0, 2, 0, False) /* Create Towel (10757) for Wield */
      , (22723, 4,  3787, -1, 0, 0, False) /* Create Throwing Lightning Dart (3787) for Shop */
      , (22723, 4,  3788, -1, 0, 0, False) /* Create Throwing Fire Dart (3788) for Shop */
      , (22723, 4,  3789, -1, 0, 0, False) /* Create Throwing Frost Dart (3789) for Shop */
+     , (22723, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (22723, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (22723, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;

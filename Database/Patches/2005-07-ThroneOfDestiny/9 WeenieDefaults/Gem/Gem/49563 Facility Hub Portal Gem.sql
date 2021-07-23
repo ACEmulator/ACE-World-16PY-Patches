@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49563;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49563, 'ace49563-facilityhubportalgem', 38, '2019-07-28 05:55:30') /* Gem */;
+VALUES (49563, 'ace49563-facilityhubportalgem', 38, '2020-06-26 05:55:30') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49563,   1,       2048) /* ItemType - Gem */
@@ -43,6 +43,7 @@ VALUES (49563,   1,   33556769) /* Setup */
      , (49563,   6,   67111919) /* PaletteBase */
      , (49563,   8,  100676422) /* Icon */
      , (49563,  22,  872415275) /* PhysicsEffectTable */
+     , (49563,  27,  268435543) /* UseUserAnimation - Sanctuary */
      , (49563,  28,       5175) /* Spell - Facility Hub Recall */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)

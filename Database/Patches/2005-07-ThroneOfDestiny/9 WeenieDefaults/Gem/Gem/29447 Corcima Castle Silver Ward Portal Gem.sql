@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29447;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29447, 'gemportalcorcimacastlewardsilver', 38, '2019-02-04 06:52:23') /* Gem */;
+VALUES (29447, 'gemportalcorcimacastlewardsilver', 38, '2020-05-13 06:52:23') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29447,   1,       2048) /* ItemType - Gem */
@@ -27,7 +27,7 @@ VALUES (29447,   1,       2048) /* ItemType - Gem */
      , (29447, 114,          0) /* Attuned - Normal */
      , (29447, 150,        103) /* HookPlacement - Hook */
      , (29447, 151,          2) /* HookType - Wall */
-     , (29447, 280,         30) /* SharedCooldown */;
+     , (29447, 280,       1000) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29447,  15, True ) /* LightsStatus */
@@ -35,7 +35,7 @@ VALUES (29447,  15, True ) /* LightsStatus */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29447,  76,     0.5) /* Translucency */
-     , (29447, 167,      30) /* CooldownDuration */;
+     , (29447, 167,      15) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29447,   1, 'Corcima Castle Silver Ward Portal Gem') /* Name */
