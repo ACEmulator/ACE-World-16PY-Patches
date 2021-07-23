@@ -5,8 +5,8 @@ VALUES (39827, 'ace39827-explorationmarker', 10, '2019-02-10 00:00:00') /* Creat
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39827,   1,         16) /* ItemType - Creature */
-     , (39827,   6,        255) /* ItemsCapacity */
-     , (39827,   7,        255) /* ContainersCapacity */
+     , (39827,   6,         -1) /* ItemsCapacity */
+     , (39827,   7,         -1) /* ContainersCapacity */
      , (39827,  16,         32) /* ItemUseable - Remote */
      , (39827,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (39827, 307,          0) /* DamageRating */
@@ -32,8 +32,7 @@ VALUES (39827,   1,         16) /* ItemType - Creature */
      , (39827, 386,          0) /* Overpower */
      , (39827, 387,          0) /* OverpowerResist */
      , (39827, 388,          0) /* GearOverpower */
-     , (39827, 389,          0) /* GearOverpowerResist */
-     , (39827, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (39827, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39827,   1, True ) /* Stuck */
@@ -45,8 +44,7 @@ VALUES (39827,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39827,   1, 'Exploration Marker') /* Name */
      , (39827,  14, 'Use this marker to declare this spot discovered.') /* Use */
-     , (39827,  16, 'An Exploration Marker.  Speak with Sean the Speedy of the Exploration Society, in Holtburg, for more information on these markers.') /* LongDesc */
-     , (39827, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (39827,  16, 'An Exploration Marker.  Speak with Sean the Speedy of the Exploration Society, in Holtburg, for more information on these markers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (39827,   1,   33560703) /* Setup */
@@ -54,24 +52,8 @@ VALUES (39827,   1,   33560703) /* Setup */
      , (39827,   3,  536870932) /* SoundTable */
      , (39827,   6,   67113133) /* PaletteBase */
      , (39827,   8,  100671368) /* Icon */
-     , (39827,  22,  872415275) /* PhysicsEffectTable */
-     , (39827, 8001,         54) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius */
-     , (39827, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (39827, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (39827,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (39827, 8040, 3264872506, 180.85, 37.3047, 68.7496, -0.324201, 0, 0, -0.945988) /* PCAPRecordedLocation */
 /* @teleloc 0xC29A003A [180.850000 37.304700 68.749600] -0.324201 0.000000 0.000000 -0.945988 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39827, 8000, 3694307962) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (39827, 67111092, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (39827, 0, 83893054, 83893054)
-     , (39827, 0, 83893053, 83893053);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (39827, 0, 16794232);
