@@ -1,8 +1,12 @@
 Refuse: Explorer's Backpack Token (41254)
 	- TurnToTarget
-	- Tell: Got a pack spot free? Very Well.
-	- TakeItems: Explorer's Backpack Token (41254)
-	- Give: Explorer's Backpack (39745)
+    - InqPackSpace: 10001
+        TestSuccess:
+            - Tell: Got a pack spot free? Very Well.
+            - TakeItems: Explorer's Backpack Token (41254)
+            - Give: Explorer's Backpack (39745)
+        TestFailure:
+            - Tell: You need at least 1 pack spot free to trade this token for the backpack.
 
 Use:
     - TurnToTarget
@@ -10,7 +14,7 @@ Use:
 		QuestSuccess:
 			- Tell: You've already found all 100 of my markers. You are truly a Master among Master Explorers.
 		QuestFailure:
-			- InqQuestSolves: ExplorationMarkersFound, 1
+			- InqQuestSolves: ExplorationMarkersFound, 1 - 100
 					QuestSuccess:
 						- Goto: Found_10x
 					QuestFailure:
@@ -26,15 +30,15 @@ GotoSet: Found_10x
 			QuestSuccess:
 				- Goto: Found_MountainClimber
 			QuestFailure:
-				- InqQuestSolves: ExplorationMarkersFound, 10
+				- InqQuestSolves: ExplorationMarkersFound, 10 - 100
 					QuestSuccess:
 						- StampQuest: ExplorationMarkers10x
 						- Tell: Congratulations! You found your first 10 Exploration Markers! Let's see, I have your reward right here.
-						- AwardLevelProportionalXP: 20%, Max: 186,837,005
+						- AwardLevelProportionalXP: 20%, Min: 1, Max: 186,837,005
 						- Goto: Found_MountainClimber
 					QuestFailure:
 						- Goto: Found_MountainClimber
-						
+
 GotoSet: Found_MountainClimber
 	- InqQuest: ExplorationMarkersMountainClimber
 			QuestSuccess:
@@ -49,25 +53,25 @@ GotoSet: Found_MountainClimber
 						- Goto: Found_20x
 					QuestFailure:
 						- Goto: Found_20x
-						
+
 GotoSet: Found_20x
 	- InqQuest: ExplorationMarkers20x
 			QuestSuccess:
 				- Goto: Found_PartyGoer
 			QuestFailure:
-				- InqQuestSolves: ExplorationMarkersFound, 20
+				- InqQuestSolves: ExplorationMarkersFound, 20 - 100
 					QuestSuccess:
 						- StampQuest: ExplorationMarkers20x
 						#- Tell: Let's see what you've found so far..
 						#- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 						- Tell: Congratulations! You've found 20 Exploration Markers! You've proven your interest in being a full fledged Explorer, so let's make it official, shall we?
-						- AwardLevelProportionalXP: 20%, Max: 186,837,005
+						- AwardLevelProportionalXP: 20%, Min: 1, Max: 186,837,005
 						- AddCharacterTitle: AmateurExplorer
 						- DirectBroadcast: You have earned the title, "Amateur Explorer".
 						- Goto: Found_PartyGoer
 					QuestFailure:
 						- Goto: Found_PartyGoer
-						
+
 GotoSet: Found_PartyGoer
 	- InqQuest: ExplorationMarkersPartyGoer
 			QuestSuccess:
@@ -82,19 +86,19 @@ GotoSet: Found_PartyGoer
 						- Goto: Found_30x
 					QuestFailure:
 						- Goto: Found_30x
-						
+
 GotoSet: Found_30x
 	- InqQuest: ExplorationMarkers30x
 			QuestSuccess:
 				- Goto: Found_40x
 			QuestFailure:
-				- InqQuestSolves: ExplorationMarkersFound, 30
+				- InqQuestSolves: ExplorationMarkersFound, 30 - 100
 					QuestSuccess:
 						- StampQuest: ExplorationMarkers30x
 						#- Tell: Let's see what you've found so far..
 						#- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 						- Tell: Congratulations! You've found 30 Exploration Markers! Let's see, I have your reward right here.
-						- AwardLevelProportionalXP: 20%, Max: 186,837,005
+						- AwardLevelProportionalXP: 20%, Min: 1, Max: 186,837,005
 						- Goto: Found_40x
 					QuestFailure:
 						- Goto: Found_40x
@@ -104,13 +108,13 @@ GotoSet: Found_40x
 			QuestSuccess:
 				- Goto: Found_CraterCrasher
 			QuestFailure:
-				- InqQuestSolves: ExplorationMarkersFound, 40
+				- InqQuestSolves: ExplorationMarkersFound, 40 - 100
 					QuestSuccess:
 						- StampQuest: ExplorationMarkers40x
 						#- Tell: Let's see what you've found so far..
 						#- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 						- Tell: Congratulations! You've found 40 Exploration Markers! You've gained much experience in exploring Dereth. This will best acknowledge your experience as an Exploere of Dereth!
-						- AwardLevelProportionalXP: 20%, Max: 186,837,005
+						- AwardLevelProportionalXP: 20%, Min: 1, Max: 186,837,005
 						- AddCharacterTitle: ExperiencedExplorer
 						- DirectBroadcast: You have earned the title, "Experienced Explorer".
 						- Goto: Found_CraterCrasher
@@ -131,35 +135,35 @@ GotoSet: Found_CraterCrasher
 						- Goto: Found_50x
 					QuestFailure:
 						- Goto: Found_50x
-						
+
 GotoSet: Found_50x
 	- InqQuest: ExplorationMarkers50x
 			QuestSuccess:
 				- Goto: Found_60x
 			QuestFailure:
-				- InqQuestSolves: ExplorationMarkersFound, 50
+				- InqQuestSolves: ExplorationMarkersFound, 50 - 100
 					QuestSuccess:
 						- StampQuest: ExplorationMarkers50x
 						#- Tell: Let's see what you've found so far..
 						#- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 						- Tell: Congratulations! You've found 50 Exploration Markers! Let's see, I have your reward right here.
-						- AwardLevelProportionalXP: 20%, Max: 186,837,005
+						- AwardLevelProportionalXP: 20%, Min: 1, Max: 186,837,005
 						- Goto: Found_60x
 					QuestFailure:
 						- Goto: Found_60x
-						
+
 GotoSet: Found_60x
 	- InqQuest: ExplorationMarkers60x
 			QuestSuccess:
 				- Goto: Found_Spelunker
 			QuestFailure:
-				- InqQuestSolves: ExplorationMarkersFound, 60
+				- InqQuestSolves: ExplorationMarkersFound, 60 - 100
 					QuestSuccess:
 						- StampQuest: ExplorationMarkers60x
 						#- Tell: Let's see what you've found so far..
 						#- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 						- Tell: Congratulations! You've found 60 Exploration Markers! You've proven quite adept at finding these markers. I believe I have the perfect way to display that skill to your peers.
-						- AwardLevelProportionalXP: 20%, Max: 186,837,005
+						- AwardLevelProportionalXP: 20%, Min: 1, Max: 186,837,005
 						- AddCharacterTitle: AdeptExplorer
 						- DirectBroadcast: You have earned the title, "Adept Explorer".
 						- Goto: Found_Spelunker
@@ -180,41 +184,41 @@ GotoSet: Found_Spelunker
 						- Goto: Found_70x
 					QuestFailure:
 						- Goto: Found_70x
-						
+
 GotoSet: Found_70x
 	- InqQuest: ExplorationMarkers70x
 			QuestSuccess:
 				- Goto: Found_80x
 			QuestFailure:
-				- InqQuestSolves: ExplorationMarkersFound, 70
+				- InqQuestSolves: ExplorationMarkersFound, 70 - 100
 					QuestSuccess:
 						- StampQuest: ExplorationMarkers70x
 						#- Tell: Let's see what you've found so far..
 						#- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 						- Tell: Congratulations! You've found 70 Exploration Markers! Let's see, I have your reward right here.
-						- AwardLevelProportionalXP: 20%, Max: 186,837,005						
+						- AwardLevelProportionalXP: 20%, Min: 1, Max: 186,837,005
 						- Goto: Found_80x
 					QuestFailure:
 						- Goto: Found_80x
-						
+
 GotoSet: Found_80x
 	- InqQuest: ExplorationMarkers80x
 			QuestSuccess:
 				- Goto: Found_SkyDiver
 			QuestFailure:
-				- InqQuestSolves: ExplorationMarkersFound, 80
+				- InqQuestSolves: ExplorationMarkersFound, 80 - 100
 					QuestSuccess:
 						- StampQuest: ExplorationMarkers80x
 						#- Tell: Let's see what you've found so far..
 						#- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 						- Tell: Congratulations! You've found 80 Exploration Markers! You've become quite the Master Explorer!  It's time to honor that accomplishment appropriately.
-						- AwardLevelProportionalXP: 20%, Max: 186,837,005
+						- AwardLevelProportionalXP: 20%, Min: 1, Max: 186,837,005
 						- AddCharacterTitle: MasterExplorer
 						- DirectBroadcast: You have earned the title, "Master Explorer".
 						- Goto: Found_SkyDiver
 					QuestFailure:
 						- Goto: Found_SkyDiver
-						
+
 GotoSet: Found_SkyDiver
 	- InqQuest: ExplorationMarkersSkyDiver
 			QuestSuccess:
@@ -229,23 +233,23 @@ GotoSet: Found_SkyDiver
 						- Goto: Found_90x
 					QuestFailure:
 						- Goto: Found_90x
-						
+
 GotoSet: Found_90x
 	- InqQuest: ExplorationMarkers90x
 			QuestSuccess:
 				- Goto: Found_Daredevil
 			QuestFailure:
-				- InqQuestSolves: ExplorationMarkersFound, 90
+				- InqQuestSolves: ExplorationMarkersFound, 90 - 100
 					QuestSuccess:
 						- StampQuest: ExplorationMarkers90x
 						#- Tell: Let's see what you've found so far..
 						#- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 						- Tell: Congratulations! You've found 90 Exploration Markers! Let's see, I have your reward right here.
-						- AwardLevelProportionalXP: 20%, Max: 186,837,005
+						- AwardLevelProportionalXP: 20%, Min: 1, Max: 186,837,005
 						- Goto: Found_Daredevil
 					QuestFailure:
 						- Goto: Found_Daredevil
-						
+
 GotoSet: Found_Daredevil
 	- InqQuest: ExplorationMarkersDaredevil
 			QuestSuccess:
@@ -260,7 +264,7 @@ GotoSet: Found_Daredevil
 						- Goto: Found_100x
 					QuestFailure:
 						- Goto: Found_100x
-						
+
 GotoSet: Found_100x
 	- InqQuest: ExplorationMarkers100x
 			#QuestSuccess:
@@ -272,61 +276,61 @@ GotoSet: Found_100x
 						- Tell: Congratulations! You've found all 100 Exploration Markers! This calls for something special..
 						- Give: Explorer's Backpack Token (41254)
 						- WorldBroadcast: %tn has proven to be a true Master of Exploration, having found all 100 markers, hidden over, under and around Dereth! Let it be henseforth known that %tn is truly an Elite Explorer!
-						- AwardLevelProportionalXP: 20%, Max: 186,837,005
+						- AwardLevelProportionalXP: 20%, Min: 1, Max: 186,837,005
 						- AddCharacterTitle: EliteExplorer
 						- DirectBroadcast: You have earned the title, "Elite Explorer".
 						#- Goto: Found_Daredevil
 					QuestFailure:
 						#- Goto: Found_OddsAndEnds
 						- Goto: Found_CatchAll
-					
+
 GotoSet: Found_OddsAndEnds
 	- Tell: Let's see what you've found so far..
-	- InqQuestSolves: ExplorationMarkersFound, 1-9
+	- InqQuestSolves: ExplorationMarkersFound, 1 - 9
 		QuestSuccess:
 			- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 		QuestFailure:
-			- InqQuestSolves: ExplorationMarkersFound, 11-19
+			- InqQuestSolves: ExplorationMarkersFound, 11 - 19
 				QuestSuccess:
 					- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 				QuestFailure:
-					- InqQuestSolves: ExplorationMarkersFound, 21-29
+					- InqQuestSolves: ExplorationMarkersFound, 21 - 29
 						QuestSuccess:
 						- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 						QuestFailure:
-							- InqQuestSolves: ExplorationMarkersFound, 31-39
+							- InqQuestSolves: ExplorationMarkersFound, 31 - 39
 								QuestSuccess:
 									- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 								QuestFailure:
-									- InqQuestSolves: ExplorationMarkersFound, 41-49
+									- InqQuestSolves: ExplorationMarkersFound, 41 - 49
 										QuestSuccess:
 											- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 										QuestFailure:
-											- InqQuestSolves: ExplorationMarkersFound, 51-59
+											- InqQuestSolves: ExplorationMarkersFound, 51 - 59
 												QuestSuccess:
 													- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 												QuestFailure:
-													- InqQuestSolves: ExplorationMarkersFound, 61-69
+													- InqQuestSolves: ExplorationMarkersFound, 61 - 69
 														QuestSuccess:
 															- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 														QuestFailure:
-															- InqQuestSolves: ExplorationMarkersFound, 71-79
+															- InqQuestSolves: ExplorationMarkersFound, 71 - 79
 																QuestSuccess:
 																	- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 																QuestFailure:
-																	- InqQuestSolves: ExplorationMarkersFound, 81-89
+																	- InqQuestSolves: ExplorationMarkersFound, 81 - 89
 																		QuestSuccess:
 																			- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 																		QuestFailure:
-																			- InqQuestSolves: ExplorationMarkersFound, 91-99
+																			- InqQuestSolves: ExplorationMarkersFound, 91 - 99
 																				QuestSuccess:
 																					- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 																				QuestFailure:
 																					- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
-																					
+
 GotoSet: Found_CatchAll
 	- Tell: Let's see what you've found so far..
-	- InqQuestSolves: ExplorationMarkersFound, 1-99
+	- InqQuestSolves: ExplorationMarkersFound, 1 - 99
 		QuestSuccess:
 			- DirectBroadcast: You have found a total of %tqc out of %tqm Exploration Markers.
 		#QuestFailure:
