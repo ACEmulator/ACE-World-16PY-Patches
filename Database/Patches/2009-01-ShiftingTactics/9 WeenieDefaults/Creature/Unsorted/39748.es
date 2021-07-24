@@ -1,12 +1,12 @@
 Use:
 	- InqQuest: FoundSeantheSpeedy
 		QuestSuccess:
-			- InqQuest: FoundExplorationMarker1
+			- InqQuestBitsOn: ExplorationMarkersFoundInGroupA, 0x1
 				QuestSuccess:
 					- DirectBroadcast: You discovered this marker already.
 				QuestFailure:
 					- DirectBroadcast: You have discovered an Exploration Marker!
-					- StampQuest: FoundExplorationMarker1
+					- SetQuestBitsOn: ExplorationMarkersFoundInGroupA, 0x1
 					- StampQuest: ExplorationMarkersFound
 					- InqQuest: ExplorationMarkersFound
 						QuestSuccess:
@@ -17,7 +17,7 @@ Use:
 							#- Goto: Group_Stamp
 		QuestFailure:
 			- DirectBroadcast: You examine the marker, but are unsure what to do with it. Engraved on a small plaque is the symbol of the Explorers Society, a long series of numbers, and the name Sean the Speedy.
-			
+
 #GotoSet: Group_Stamp
 #	- DirectBroadcast: You have found one of the Mountain Climber markers.
 #	- StampQuest: ExplorationMarkersMountainClimberFound
