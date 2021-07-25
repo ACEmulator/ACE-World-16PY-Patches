@@ -67,5 +67,5 @@ VALUES (0x72E2F0FE, 87062, 0x2E2F0033, 151.941, 60.7689, 125.555, 0.712651, 0, 0
 /* @teleloc 0x2E2F0033 [151.940994 60.768902 125.555000] 0.712651 0.000000 0.000000 -0.701519 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E2F0FF, 87145, 0x2E2F002B, 139.49245, 64.17287, 125.63046, 0.73315364, 0, 0, -0.68006307, False, '2021-03-15 11:09:47'); /* Aerbax's Shadow Booter Gen */
-/* @teleloc 0x2E2F002B [139.492447 64.172867 125.630463] 0.733154 0.000000 0.000000 -0.680063 */
+VALUES (0x72E2F0FF, 87148, 0x2E2F002B, 139.492, 64.1729, 125.63, 0.733154, 0, 0, -0.680063, False, '2021-03-15 11:09:47'); /* Aerbax's Shadow Booter Gen */
+/* @teleloc 0x2E2F002B [139.492004 64.172897 125.629997] 0.733154 0.000000 0.000000 -0.680063 */
