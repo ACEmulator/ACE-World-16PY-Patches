@@ -18,8 +18,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53445,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53445,   1, 'Radiant Blood Gauntlet') /* Name */
-     , (53445,  37, 'RadiantBloodMember') /* QuestRestriction */;
+VALUES (53445,   1, 'Radiant Blood Gauntlet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53445,   1,   33555925) /* Setup */
