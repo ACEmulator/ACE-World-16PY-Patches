@@ -29,10 +29,6 @@ VALUES (0x78851007, 41581, 2287010072, 60.2084, 81.95141, 0.406, 1, 0, 0, 0, Tru
 /* Silver Scope Guardian, TYPE_CREATURE, Seen 5 times at this location. 0x88510118 60.2084 81.95141 0.406 1 0 0 0 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78851008, 39845, 2287009798, 12.0284, 121.012, 1.866971, -0.007644739, 0, 0, -0.9999708, False, '2019-11-15 00:00:00');
-/* Exploration Marker, TYPE_CREATURE, Seen 3 times at this location. 0x88510006 12.0284 121.012 1.866971 -0.007644739 0 0 -0.9999708 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78851009, 41585, 2287009797, 11.8324, 108.085, 61.5194, -4.371139e-08, 0, 0, -1, True, '2019-11-15 00:00:00');
 /* Gold Gear Lesser Lord, TYPE_CREATURE, Seen 2 times at this location. 0x88510005 11.8324 108.085 61.5194 -4.371139E-08 0 0 -1 */
 
