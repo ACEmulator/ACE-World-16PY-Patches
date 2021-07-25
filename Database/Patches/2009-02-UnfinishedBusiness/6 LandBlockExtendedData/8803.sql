@@ -1743,7 +1743,6 @@ VALUES (0x78803308, 0x78803309, '2019-02-10 00:00:00') /* Intense Incalescent Cr
      , (0x78803308, 0x7880339C, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40484) */
      , (0x78803308, 0x7880339D, '2019-02-10 00:00:00') /* Intense Incalescent Pillar (40434) */
      , (0x78803308, 0x7880339E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
-     , (0x78803308, 0x7880339F, '2019-02-10 00:00:00') /* Exploration Marker (39809) */
      , (0x78803308, 0x788033A0, '2019-02-10 00:00:00') /* Intense Incalescent Pillar (40434) */
      , (0x78803308, 0x788033A1, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
      , (0x78803308, 0x788033A2, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
@@ -2441,10 +2440,6 @@ VALUES (0x7880339D, 40434, 0x88030139, 50, -180, -30.00134, 1, 0, 0, -4.37114E-0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7880339E, 40437, 0x88030139, 54.5896, -175.374, -30, -0.820703, 0, 0, -0.571355,  True, '2019-02-10 00:00:00'); /* Intense Incalescent Crystalline Wisp */
 /* @teleloc 0x88030139 [54.589600 -175.374000 -30.000000] -0.820703 0.000000 0.000000 -0.571355 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7880339F, 39809, 0x88030119, 17.9445, -182.139, -27.80706, 0.4207969, 0, 0, 0.9071549,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
-/* @teleloc 0x88030119 [17.944500 -182.139000 -27.807060] 0.420797 0.000000 0.000000 0.907155 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788033A0, 40434, 0x8803011F, 30.3849, -160.222, -30.00134, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Intense Incalescent Pillar */
