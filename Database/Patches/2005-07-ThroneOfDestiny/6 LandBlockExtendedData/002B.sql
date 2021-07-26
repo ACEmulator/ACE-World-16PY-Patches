@@ -11,10 +11,6 @@ VALUES (1879224322, 30965, 2818304, 9.70408, -113.312, -60.063, 0.999303, 0, 0, 
 /* @teleloc 0x002B0100 [9.704080 -113.312000 -60.063000] 0.999303 0.000000 0.000000 0.037323 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1879224323, 39839, 2818316, 25.059, -125.081, -60, 1, 0, 0, -4.37114E-08, False, '2019-02-15 14:34:36'); /* Exploration Marker */
-/* @teleloc 0x002B010C [25.059000 -125.081000 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1879224324, 31007, 2818854, 489.3669, -110.0839, -11.995, 0.961765, 0, 0, -0.273878, False, '2019-02-15 14:34:36'); /* Olthoi Slasher */
 /* @teleloc 0x002B0326 [489.366900 -110.083900 -11.995000] 0.961765 0.000000 0.000000 -0.273878 */
 
