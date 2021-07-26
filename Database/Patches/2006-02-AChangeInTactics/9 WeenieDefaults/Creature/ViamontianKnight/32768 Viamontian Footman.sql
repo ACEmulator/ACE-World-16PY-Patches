@@ -15,7 +15,7 @@ VALUES (32768,   1,         16) /* ItemType - Creature */
      , (32768,  40,          2) /* CombatMode - Melee */
      , (32768,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (32768,  72,         83) /* FriendType - ViamontianKnight */
-     , (32768,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (32768,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity */
      , (32768, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (32768, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (32768, 140,          1) /* AiOptions - CanOpenDoors */
@@ -47,10 +47,10 @@ VALUES (32768,   1,       5) /* HeartbeatInterval */
      , (32768,  39,     1.2) /* DefaultScale */
      , (32768,  64,     0.8) /* ResistSlash */
      , (32768,  65,     0.8) /* ResistPierce */
-     , (32768,  66,    0.89) /* ResistBludgeon */
+     , (32768,  66,     0.9) /* ResistBludgeon */
      , (32768,  67,     1.2) /* ResistFire */
-     , (32768,  68,    0.89) /* ResistCold */
-     , (32768,  69,    0.89) /* ResistAcid */
+     , (32768,  68,     0.9) /* ResistCold */
+     , (32768,  69,     0.9) /* ResistAcid */
      , (32768,  70,     1.2) /* ResistElectric */
      , (32768,  71,       1) /* ResistHealthBoost */
      , (32768,  72,       1) /* ResistStaminaDrain */
@@ -65,7 +65,7 @@ VALUES (32768,   1, 'Viamontian Footman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32768,   1,   33559125) /* Setup */
-     , (32768,   2,  150994945) /* MotionTable */
+     , (32768,   2,  150995334) /* MotionTable */
      , (32768,   3,  536871102) /* SoundTable */
      , (32768,   4,  805306368) /* CombatTable */
      , (32768,   6,   67115468) /* PaletteBase */

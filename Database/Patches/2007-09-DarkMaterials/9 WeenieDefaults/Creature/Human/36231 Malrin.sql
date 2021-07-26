@@ -6,8 +6,8 @@ VALUES (36231, 'ace36231-malrin', 10, '2020-05-26 05:07:07') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36231,   1,         16) /* ItemType - Creature */
      , (36231,   2,         31) /* CreatureType - Human */
-     , (36231,   6,        255) /* ItemsCapacity */
-     , (36231,   7,        255) /* ContainersCapacity */
+     , (36231,   6,         -1) /* ItemsCapacity */
+     , (36231,   7,         -1) /* ContainersCapacity */
      , (36231,  16,         32) /* ItemUseable - Remote */
      , (36231,  25,         46) /* Level */
      , (36231,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -38,13 +38,7 @@ VALUES (36231,   1,   33554433) /* Setup */
      , (36231,   2,  150994945) /* MotionTable */
      , (36231,   3,  536870913) /* SoundTable */
      , (36231,   6,   67108990) /* PaletteBase */
-     , (36231,   8,  100667446) /* Icon */
-     , (36231,   9,   83890511) /* EyesTexture */
-     , (36231,  10,   83890557) /* NoseTexture */
-     , (36231,  11,   83890628) /* MouthTexture */
-     , (36231,  15,   67117075) /* HairPalette */
-     , (36231,  16,   67110064) /* EyesPalette */
-     , (36231,  17,   67115905) /* SkinPalette */;
+     , (36231,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36231,   1, 250, 0, 0) /* Strength */
@@ -189,19 +183,3 @@ VALUES (36231, 2, 28621,  0, 0, 0.4, False) /* Create Diforsa Leggings (28621) f
      , (36231, 2, 30948,  0, 0, 0.4, False) /* Create Diforsa Hauberk (30948) for Wield */
      , (36231, 2, 28633,  0, 0, 0.4, False) /* Create Diforsa Girth (28633) for Wield */
      , (36231, 2, 28625,  0, 0, 0.4, False) /* Create Diforsa Sollerets (28625) for Wield */;
-
-/* Lifestoned Changelog:
-{
-  "LastModified": "2020-05-25T22:02:51.5721054-07:00",
-  "ModifiedBy": "Skeksis",
-  "Changelog": [
-    {
-      "created": "0001-01-01T00:00:00",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    }
-  ],
-  "UserChangeSummary": "2020-05-25: Removed duplicate emotes from conversion.  Corrected armor color.",
-  "IsDone": false
-}
-*/
