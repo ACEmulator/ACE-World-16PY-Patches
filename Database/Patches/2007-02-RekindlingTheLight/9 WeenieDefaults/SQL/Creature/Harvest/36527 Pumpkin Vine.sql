@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36527;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36527, 'ace36527-pumpkinvine', 10, '2020-06-08 00:00:00') /* Creature */;
+VALUES (36527, 'ace36527-pumpkinvine', 10, '2021-07-27 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36527,   1,         16) /* ItemType - Creature */
-     , (36527,   2,         36) /* CreatureType - Slithis */
-     , (36527,   3,         17) /* Platette - Yellow */
+     , (36527,   2,         93) /* CreatureType - Harvest */
+     , (36527,   3,         17) /* Palette - Yellow */
      , (36527,   6,         -1) /* ItemsCapacity */
      , (36527,   7,         -1) /* ContainersCapacity */
      , (36527,  16,          1) /* ItemUseable - No */
