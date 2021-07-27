@@ -47,10 +47,10 @@ VALUES (32701,   1,       5) /* HeartbeatInterval */
      , (32701,  39,     1.2) /* DefaultScale */
      , (32701,  64,     0.8) /* ResistSlash */
      , (32701,  65,     0.8) /* ResistPierce */
-     , (32701,  66,    0.89) /* ResistBludgeon */
+     , (32701,  66,     0.9) /* ResistBludgeon */
      , (32701,  67,     1.2) /* ResistFire */
-     , (32701,  68,    0.89) /* ResistCold */
-     , (32701,  69,    0.89) /* ResistAcid */
+     , (32701,  68,     0.9) /* ResistCold */
+     , (32701,  69,     0.9) /* ResistAcid */
      , (32701,  70,     1.2) /* ResistElectric */
      , (32701,  71,       1) /* ResistHealthBoost */
      , (32701,  72,       1) /* ResistStaminaDrain */
@@ -65,7 +65,7 @@ VALUES (32701,   1, 'Captain Iacollia Dimari') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32701,   1,   33559125) /* Setup */
-     , (32701,   2,  150994945) /* MotionTable */
+     , (32701,   2,  150995334) /* MotionTable */
      , (32701,   3,  536871102) /* SoundTable */
      , (32701,   4,  805306368) /* CombatTable */
      , (32701,   6,   67115468) /* PaletteBase */

@@ -14,7 +14,7 @@ VALUES (30035,   1,         16) /* ItemType - Creature */
      , (30035,  27,          0) /* ArmorType - None */
      , (30035,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
      , (30035,  75,          0) /* MerchandiseMinValue */
-     , (30035,  76,     100000) /* MerchandiseMaxValue */
+     , (30035,  76,    1000000) /* MerchandiseMaxValue */
      , (30035,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30035, 113,          1) /* Gender - Male */
      , (30035, 126,        500) /* VendorHappyMean */
@@ -39,19 +39,19 @@ VALUES (30035,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30035,   1,       5) /* HeartbeatInterval */
      , (30035,   2,       0) /* HeartbeatTimestamp */
-     , (30035,   3, 0.159999996423721) /* HealthRate */
+     , (30035,   3,    0.16) /* HealthRate */
      , (30035,   4,       5) /* StaminaRate */
      , (30035,   5,       1) /* ManaRate */
      , (30035,  11,     300) /* ResetInterval */
-     , (30035,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (30035,  13,     0.9) /* ArmorModVsSlash */
      , (30035,  14,       1) /* ArmorModVsPierce */
-     , (30035,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (30035,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (30035,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (30035,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30035,  16,     0.4) /* ArmorModVsCold */
+     , (30035,  17,     0.4) /* ArmorModVsFire */
      , (30035,  18,       1) /* ArmorModVsAcid */
-     , (30035,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (30035,  37, 0.899999976158142) /* BuyPrice */
-     , (30035,  38, 1.35000002384186) /* SellPrice */
+     , (30035,  19,     0.6) /* ArmorModVsElectric */
+     , (30035,  37,     0.9) /* BuyPrice */
+     , (30035,  38,     1.5) /* SellPrice */
      , (30035,  54,       3) /* UseRadius */
      , (30035,  64,       1) /* ResistSlash */
      , (30035,  65,       1) /* ResistPierce */
@@ -79,13 +79,7 @@ VALUES (30035,   1,   33554433) /* Setup */
      , (30035,   2,  150994945) /* MotionTable */
      , (30035,   3,  536870913) /* SoundTable */
      , (30035,   6,   67108990) /* PaletteBase */
-     , (30035,   8,  100667446) /* Icon */
-     , (30035,   9,   83890495) /* EyesTexture */
-     , (30035,  10,   83890557) /* NoseTexture */
-     , (30035,  11,   83890636) /* MouthTexture */
-     , (30035,  15,   67117105) /* HairPalette */
-     , (30035,  16,   67110065) /* EyesPalette */
-     , (30035,  17,   67115907) /* SkinPalette */;
+     , (30035,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30035,   1,  45, 0, 0) /* Strength */
@@ -277,6 +271,6 @@ VALUES (30035, 2,  2587,  0, 13, 0.5, False) /* Create Shirt (2587) for Wield */
      , (30035, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30035, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30035, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30035, 4, 44905, -1, 0, 0, False) /* Create Contract for The Beacon (44905) for Shop */
-     , (30035, 4, 44906, -1, 0, 0, False) /* Create Contract for The Missing Necklace (44906) for Shop */
+     , (30035, 4, 44905, -1, 0, 0, False) /* Create  (44905) for Shop */
+     , (30035, 4, 44906, -1, 0, 0, False) /* Create  (44906) for Shop */
      , (30035, 4, 44907, -1, 0, 0, False) /* Create Contract for Facilty Hub (44907) for Shop */;

@@ -6,7 +6,7 @@ VALUES (33037, 'ace33037-vilemukkir', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33037,   1,         16) /* ItemType - Creature */
      , (33037,   2,         89) /* CreatureType - Mukkir */
-     , (33037,   3,         14) /* PaletteTemplate - Red */
+     , (33037,   3,          8) /* PaletteTemplate - Green */
      , (33037,   6,         -1) /* ItemsCapacity */
      , (33037,   7,         -1) /* ContainersCapacity */
      , (33037,  16,          1) /* ItemUseable - No */

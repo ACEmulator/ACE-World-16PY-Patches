@@ -21,7 +21,6 @@ VALUES (25608,   1,          1) /* ItemType - MeleeWeapon */
      , (25608,  48,         45) /* WeaponSkill - LightWeapons */
      , (25608,  49,         25) /* WeaponTime */
      , (25608,  51,          1) /* CombatUse - Melee */
-     , (25608,  53,        101) /* PlacementPosition */
      , (25608,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25608, 106,        300) /* ItemSpellcraft */
      , (25608, 107,        800) /* ItemCurMana */
@@ -36,23 +35,18 @@ VALUES (25608,   1,          1) /* ItemType - MeleeWeapon */
      , (25608, 166,         31) /* SlayerCreatureType - Human */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25608,  11, True ) /* IgnoreCollisions */
-     , (25608,  13, True ) /* Ethereal */
-     , (25608,  14, True ) /* GravityStatus */
-     , (25608,  19, True ) /* Attackable */
-     , (25608,  22, True ) /* Inscribable */
-     , (25608,  23, True ) /* DestroyOnSell */
+VALUES (25608,  22, True ) /* Inscribable */
      , (25608,  69, False) /* IsSellable */
      , (25608,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25608,   5, -0.025000000372529) /* ManaRate */
+VALUES (25608,   5,  -0.025) /* ManaRate */
      , (25608,  21,    0.75) /* WeaponLength */
-     , (25608,  22, 0.400000005960464) /* DamageVariance */
-     , (25608,  29, 1.17999994754791) /* WeaponDefense */
+     , (25608,  22,     0.4) /* DamageVariance */
+     , (25608,  29,    1.18) /* WeaponDefense */
      , (25608,  39,       1) /* DefaultScale */
-     , (25608,  62, 1.23000001907349) /* WeaponOffense */
-     , (25608, 138, 3.40000009536743) /* SlayerDamageBonus */
+     , (25608,  62,    1.23) /* WeaponOffense */
+     , (25608, 138,     3.4) /* SlayerDamageBonus */
      , (25608, 151,       1) /* IgnoreShield */
      , (25608, 155,       1) /* IgnoreArmor */;
 

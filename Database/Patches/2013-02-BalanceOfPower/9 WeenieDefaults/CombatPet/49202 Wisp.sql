@@ -32,8 +32,8 @@ VALUES (49202,   1, 'Wisp') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49202,   1,   33556633) /* Setup */
      , (49202,   2,  150994993) /* MotionTable */
-     , (49202,   4,  805306368) /* CombatTable - default, verify */
      , (49202,   3,  536870985) /* SoundTable */
+     , (49202,   4,  805306368) /* CombatTable */
      , (49202,   8,  100668442) /* Icon */
      , (49202,  22,  872415274) /* PhysicsEffectTable */;
 

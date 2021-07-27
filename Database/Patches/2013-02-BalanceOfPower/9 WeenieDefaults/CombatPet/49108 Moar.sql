@@ -25,7 +25,7 @@ VALUES (49108,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (49108,  31,      25) /* VisualAwarenessRange */
-     , (49108,  39, 1.39999997615814) /* DefaultScale */
+     , (49108,  39,     1.4) /* DefaultScale */
      , (49108,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -34,12 +34,14 @@ VALUES (49108,   1, 'Moar') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49108,   1,   33561528) /* Setup */
      , (49108,   2,  150995346) /* MotionTable */
-     , (49108,   4,  805306368) /* CombatTable - default, verify */
      , (49108,   3,  536871018) /* SoundTable */
+     , (49108,   4,  805306368) /* CombatTable */
      , (49108,   6,   67116748) /* PaletteBase */
      , (49108,   7,  268437048) /* ClothingBase */
      , (49108,   8,  100671185) /* Icon */
-     , (49108,  22,  872415415) /* PhysicsEffectTable */;
+     , (49108,  19,         86) /* ActivationAnimation */
+     , (49108,  22,  872415415) /* PhysicsEffectTable */
+     , (49108,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49108,   1, 130, 0, 0) /* Strength */
