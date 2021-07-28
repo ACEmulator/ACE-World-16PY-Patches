@@ -1,11 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38351;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38351, 'ace38351-gatewatcher', 10, '2020-07-23 03:33:39') /* Creature */;
+VALUES (38351, 'ace38351-gatewatcher', 10, '2021-07-27 03:33:39') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38351,   1,         16) /* ItemType - Creature */
-     , (38351,   2,         34) /* CreatureType - Moarsman */
+     , (38351,   2,         98) /* CreatureType - BlightedMoarsman */
      , (38351,   3,          8) /* PaletteTemplate - Green */
      , (38351,   6,         -1) /* ItemsCapacity */
      , (38351,   7,         -1) /* ContainersCapacity */

@@ -1,11 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38652;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38652, 'ace38652-blightedscummymoarsman', 10, '2020-07-23 03:33:40') /* Creature */;
+VALUES (38652, 'ace38652-blightedscummymoarsman', 10, '2021-07-27 03:33:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38652,   1,         16) /* ItemType - Creature */
-     , (38652,   2,         34) /* CreatureType - Moarsman */
+     , (38652,   2,         98) /* CreatureType - BlightedMoarsman */
      , (38652,   3,         13) /* PaletteTemplate - Purple */
      , (38652,   6,         -1) /* ItemsCapacity */
      , (38652,   7,         -1) /* ContainersCapacity */
@@ -14,7 +14,7 @@ VALUES (38652,   1,         16) /* ItemType - Creature */
      , (38652,  27,          0) /* ArmorType - None */
      , (38652,  40,          2) /* CombatMode - Melee */
      , (38652,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-     , (38652,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (38652,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (38652, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (38652, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (38652, 140,          1) /* AiOptions - CanOpenDoors */
