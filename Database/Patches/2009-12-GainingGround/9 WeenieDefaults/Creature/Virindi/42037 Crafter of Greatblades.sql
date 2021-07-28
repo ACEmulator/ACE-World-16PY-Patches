@@ -60,7 +60,7 @@ VALUES (42037,   1,       5) /* HeartbeatInterval */
      , (42037, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (42037,   1, 'Crafter of Orbs') /* Name */;
+VALUES (42037,   1, 'Crafter of Greatblades') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42037,   1,   33554497) /* Setup */
