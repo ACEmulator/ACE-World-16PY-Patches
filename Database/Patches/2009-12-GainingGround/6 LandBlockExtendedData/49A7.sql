@@ -63,5 +63,5 @@ VALUES (0x749A700B, 23523, 0x49A70000, 76.1251, 88.7232, 74.707, 0.372352, 0, 0,
 /* @teleloc 0x49A70000 [76.125099 88.723198 74.707001] 0.372352 0.000000 0.000000 -0.928092 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x749A700C, 42037, 0x49a7001c, 91.8081, 78.3212, 74.3783, 0.892327, 0, 0, 0.451389,  True, '2021-07-12 10:00:00'); /* Crafter of Greatblades */
-/* @teleloc 0x49a7001c 91.8081 78.3212 74.3783 0.892327 0 0 0.451389 */
+VALUES (0x749A700C, 42037, 0x49A7001C, 91.8081, 78.3212, 74.37833, 0.892327, 0, 0, 0.451389,  True, '2019-02-10 00:00:00'); /* Crafter of Greatblades */
+/* @teleloc 0x49A7001C [91.808100 78.321200 74.378330] 0.892327 0.000000 0.000000 0.451389 */
