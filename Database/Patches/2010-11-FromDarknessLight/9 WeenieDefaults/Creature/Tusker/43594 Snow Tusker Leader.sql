@@ -58,7 +58,8 @@ VALUES (43594,   1,       5) /* HeartbeatInterval */
      , (43594, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43594,   1, 'Snow Tusker Leader') /* Name */;
+VALUES (43594,   1, 'Snow Tusker Leader') /* Name */
+     , (43594,  45, 'snowtuskerkillleadercount') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43594,   1,   33561141) /* Setup */
