@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48749;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48749, 'ace48749-legendarykey', 22, '2019-02-10 00:00:00') /* Key */;
+VALUES (48749, 'ace48749-legendarykey', 22, '2021-07-28 07:27:11') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48749,   1,      16384) /* ItemType - Key */
@@ -27,7 +27,7 @@ VALUES (48749,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48749,   1, 'Legendary Key') /* Name */
-     , (48749,  13, 'keychestleg') /* KeyCode */
+     , (48749,  13, 'legarmormagicweaponchest') /* KeyCode */
      , (48749,  14, 'Use this key to open a Legendary Armor, Magic, or Weapon Chest.') /* Use */
      , (48749,  16, 'A key only heard about in whispers and myths.') /* LongDesc */;
 
