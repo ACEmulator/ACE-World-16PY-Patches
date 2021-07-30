@@ -36,7 +36,7 @@ VALUES (42143,   1, 'Warden') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42143,   1,   33554510) /* Setup */
      , (42143,   2,  150994945) /* MotionTable */
-     , (42143,   3,  536870913) /* SoundTable */
+     , (42143,   3,  536870914) /* SoundTable */
      , (42143,   6,   67108990) /* PaletteBase */
      , (42143,   8,  100667446) /* Icon */
      , (42143,   9,   83890509) /* EyesTexture */

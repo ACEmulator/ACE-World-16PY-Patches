@@ -6,7 +6,7 @@ VALUES (29410, 'knightcastleguardplatinum', 10, '2019-09-13 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29410,   1,         16) /* ItemType - Creature */
      , (29410,   2,         83) /* CreatureType - ViamontianKnight */
-     , (29410,   3,         16) /* PaletteTemplate - Rose */
+     , (29410,   3,          7) /* PaletteTemplate - DeepGreen */
      , (29410,   6,         -1) /* ItemsCapacity */
      , (29410,   7,         -1) /* ContainersCapacity */
      , (29410,  16,          1) /* ItemUseable - No */

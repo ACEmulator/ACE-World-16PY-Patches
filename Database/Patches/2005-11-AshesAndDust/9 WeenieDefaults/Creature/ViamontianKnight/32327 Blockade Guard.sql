@@ -6,7 +6,7 @@ VALUES (32327, 'ace32327-blockadeguard', 10, '2020-02-14 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32327,   1,         16) /* ItemType - Creature */
      , (32327,   2,         83) /* CreatureType - ViamontianKnight */
-     , (32327,   3,         16) /* PaletteTemplate - Rose */
+     , (32327,   3,          5) /* PaletteTemplate - DarkBlue */
      , (32327,   6,         -1) /* ItemsCapacity */
      , (32327,   7,         -1) /* ContainersCapacity */
      , (32327,  16,          1) /* ItemUseable - No */

@@ -15,8 +15,8 @@ VALUES (44322,   1,         16) /* ItemType - Creature */
      , (44322,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (44322,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44322, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44322, 307,          4) /* DamageRating */
-     , (44322, 146,    1400000) /* XpOverride */;
+     , (44322, 146,    1400000) /* XpOverride */
+     , (44322, 307,          4) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44322,   1, True ) /* Stuck */
@@ -25,7 +25,6 @@ VALUES (44322,   1, True ) /* Stuck */
      , (44322,  11, False) /* IgnoreCollisions */
      , (44322,  12, True ) /* ReportCollisions */
      , (44322,  13, False) /* Ethereal */
-     , (44322,  58, True ) /* SpellQueueActive */
      , (44322, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -34,7 +33,7 @@ VALUES (44322,   1,       5) /* HeartbeatInterval */
      , (44322,   3,       4) /* HealthRate */
      , (44322,   4,      10) /* StaminaRate */
      , (44322,   5,       3) /* ManaRate */
-     , (44322,  12,  0.9333) /* Shade */
+     , (44322,  12,     0.5) /* Shade */
      , (44322,  13,       1) /* ArmorModVsSlash */
      , (44322,  14,     0.9) /* ArmorModVsPierce */
      , (44322,  15,    0.75) /* ArmorModVsBludgeon */
@@ -46,6 +45,7 @@ VALUES (44322,   1,       5) /* HeartbeatInterval */
      , (44322,  31,      22) /* VisualAwarenessRange */
      , (44322,  34,       1) /* PowerupTime */
      , (44322,  36,       1) /* ChargeSpeed */
+     , (44322,  39,     1.1) /* DefaultScale */
      , (44322,  64,    0.25) /* ResistSlash */
      , (44322,  65,    0.25) /* ResistPierce */
      , (44322,  66,     0.7) /* ResistBludgeon */
@@ -53,18 +53,17 @@ VALUES (44322,   1,       5) /* HeartbeatInterval */
      , (44322,  68,     0.3) /* ResistCold */
      , (44322,  69,     0.8) /* ResistAcid */
      , (44322,  70,     0.4) /* ResistElectric */
-     , (44322, 166,     1.0) /* ResistNether */
      , (44322,  71,       1) /* ResistHealthBoost */
      , (44322,  72,       1) /* ResistStaminaDrain */
      , (44322,  73,       1) /* ResistStaminaBoost */
      , (44322,  74,       1) /* ResistManaDrain */
      , (44322,  75,       1) /* ResistManaBoost */
      , (44322,  80,       3) /* AiUseMagicDelay */
-     , (44322, 117,     0.5) /* FocusedProbability */
      , (44322, 104,      10) /* ObviousRadarRange */
+     , (44322, 117,     0.5) /* FocusedProbability */
      , (44322, 122,       2) /* AiAcquireHealth */
      , (44322, 125,       1) /* ResistHealthDrain */
-     , (44322,  39,     1.1) /* DefaultScale */;
+     , (44322, 166,       1) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44322,   1, 'Bak''tshay Soldier') /* Name */
@@ -76,10 +75,14 @@ VALUES (44322,   1,   33561251) /* Setup */
      , (44322,   3,  536870933) /* SoundTable */
      , (44322,   4,  805306368) /* CombatTable */
      , (44322,   6,   67108990) /* PaletteBase */
-     , (44322,   8,  100670274) /* Icon */
      , (44322,   7,  268437456) /* ClothingBase */
+     , (44322,   8,  100670274) /* Icon */
      , (44322,  22,  872415269) /* PhysicsEffectTable */
-     , (44322,  32,       3001) /* WieldedTreasureType */;
+     , (44322,  32,       3001) /* WieldedTreasureType - 
+                                   Wield Tachi (47649) | Probability: 20%
+                                   Wield Burning Sands Blade (44266) | Probability: 20%
+                                   Wield Burning Sands Katar (44265) | Probability: 20%
+                                   Wield Corrupted Aegis (44264) | Probability: 50% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44322,   1, 230, 0, 0) /* Strength */
@@ -118,13 +121,12 @@ VALUES (44322,  0,  4,  0,    0,  450,  275,  275,  225,  250,  400,  225,  400,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44322,  1785,   2.06)  /* Cassius' Ring of Fire */
+     , (44322,  1841,      2)  /* Slithering Flames */
+     , (44322,  2074,   2.06)  /* Gossamer Flesh */
      , (44322,  2128,   2.06)  /* Ilservian's Flame */
      , (44322,  2170,   2.06)  /* Inferno's Gift */
-     , (44322,  2074,   2.06)  /* Gossamer Flesh */
-     , (44322,  2745,   2.08)  /* Flame Arc VII */
-     , (44322,  1841,   2.00)  /* Slithering Flames */;
+     , (44322,  2745,   2.08)  /* Flame Arc VII */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44322, 9, 44303,  1, 0, 0.99, False) /* Create Ancient Sacred A'nekshay Crystal for ContainTreasure */
+VALUES (44322, 9, 44303,  1, 0, 0.99, False) /* Create Sacred A'nekshay Crystal (44303) for ContainTreasure */
      , (44322, 9,     0,  0, 0, 0.01, False) /* Create nothing for ContainTreasure */;
-

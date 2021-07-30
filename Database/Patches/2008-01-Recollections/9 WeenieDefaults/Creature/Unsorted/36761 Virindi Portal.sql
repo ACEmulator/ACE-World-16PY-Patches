@@ -14,7 +14,7 @@ VALUES (36761,   1,         16) /* ItemType - Creature */
      , (36761,  95,          4) /* RadarBlipColor - Purple */
      , (36761, 103,          3) /* GeneratorDestructionType - Kill */
      , (36761, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (36761, 315,       9999) /* CritResistRating */;
+     , (36761, 315,          0) /* CritResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36761,   1, True ) /* Stuck */

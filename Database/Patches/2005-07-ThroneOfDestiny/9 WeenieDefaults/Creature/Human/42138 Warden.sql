@@ -12,10 +12,10 @@ VALUES (42138,   1,         16) /* ItemType - Creature */
      , (42138,  25,        180) /* Level */
      , (42138,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42138,  95,          8) /* RadarBlipColor - Yellow */
-     , (42138, 113,          2) /* Gender - Female */
+     , (42138, 113,          1) /* Gender - Male */
      , (42138, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42138, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (42138, 188,          2) /* HeritageGroup - Gharundim */;
+     , (42138, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42138,   1, True ) /* Stuck */
@@ -34,9 +34,9 @@ VALUES (42138,   1, 'Warden') /* Name */
      , (42138,   5, 'Portal Warden') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42138,   1,   33554510) /* Setup */
+VALUES (42138,   1,   33554433) /* Setup */
      , (42138,   2,  150994945) /* MotionTable */
-     , (42138,   3,  536870914) /* SoundTable */
+     , (42138,   3,  536870913) /* SoundTable */
      , (42138,   6,   67108990) /* PaletteBase */
      , (42138,   8,  100667446) /* Icon */
      , (42138,   9,   83890264) /* EyesTexture */

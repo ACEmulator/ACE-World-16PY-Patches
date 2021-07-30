@@ -6,7 +6,7 @@ VALUES (37452, 'ace37452-corrupteddread', 10, '2020-05-09 20:25:09') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37452,   1,         16) /* ItemType - Creature */
      , (37452,   2,         77) /* CreatureType - Ghost */
-     , (37452,   3,          9) /* PaletteTemplate - Grey */
+     , (37452,   3,          8) /* PaletteTemplate - Green */
      , (37452,   6,         -1) /* ItemsCapacity */
      , (37452,   7,         -1) /* ContainersCapacity */
      , (37452,  16,          1) /* ItemUseable - No */
@@ -46,8 +46,8 @@ VALUES (37452,   1,       5) /* HeartbeatInterval */
      , (37452,  31,      18) /* VisualAwarenessRange */
      , (37452,  34,       1) /* PowerupTime */
      , (37452,  36,       1) /* ChargeSpeed */
-     , (37452,  64,    0.80) /* ResistSlash */
-     , (37452,  65,    0.80) /* ResistPierce */
+     , (37452,  64,     0.8) /* ResistSlash */
+     , (37452,  65,     0.8) /* ResistPierce */
      , (37452,  66,    0.79) /* ResistBludgeon */
      , (37452,  67,    0.89) /* ResistFire */
      , (37452,  68,    0.34) /* ResistCold */
@@ -58,7 +58,7 @@ VALUES (37452,   1,       5) /* HeartbeatInterval */
      , (37452,  73,       1) /* ResistStaminaBoost */
      , (37452,  74,       1) /* ResistManaDrain */
      , (37452,  75,       1) /* ResistManaBoost */
-     , (37452,  76,     0.5) /* Translucency */
+     , (37452,  76,     0.7) /* Translucency */
      , (37452, 104,      10) /* ObviousRadarRange */
      , (37452, 122,       2) /* AiAcquireHealth */
      , (37452, 125,       1) /* ResistHealthDrain */;
@@ -112,13 +112,13 @@ VALUES (37452,  0,  1,  0,    0,  250,  200,  250,  250,  250,  250,  250,  200,
      , (37452,  5,  8, 200, 0.75,  250,  200,  250,  250,  250,  250,  250,  200,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37452,  2135,   2.02)  /* Winter's Embrace */
-     , (37452,  2138,   2.02)  /* Blizzard */
+VALUES (37452,  1787,   2.02)  /* Halo of Frost */
      , (37452,  2074,   2.04)  /* Gossamer Flesh */
-     , (37452,  4447,   2.03)  /* Incantation of Frost Bolt */
+     , (37452,  2135,   2.02)  /* Winter's Embrace */
      , (37452,  2136,   2.05)  /* Icy Torment */
+     , (37452,  2138,   2.02)  /* Blizzard */
      , (37452,  2168,   2.06)  /* Gelidite's Gift */
-     , (37452,  1787,   2.02)  /* Halo of Frost */;
+     , (37452,  4447,   2.03)  /* Incantation of Frost Bolt */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (37452,  5 /* HeartBeat */,   0.05, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
@@ -177,8 +177,8 @@ VALUES (37452, 9, 48908,  0, 0, 0.04, False) /* Create Shattered Legendary Key (
      , (37452, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (37452, 9, 37290,  1, 0, 0.04, False) /* Create Jester's Token (37290) for ContainTreasure */
      , (37452, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (37452, 9, 35105,  0, 0, 0.10, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (37452, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
+     , (37452, 9, 35105,  0, 0, 0.1, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (37452, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (37452, 9, 37247,  0, 0, 0.003, False) /* Create Ace of Eyes (37247) for ContainTreasure */
      , (37452, 9, 37248,  0, 0, 0.003, False) /* Create Two of Eyes (37248) for ContainTreasure */
      , (37452, 9, 37249,  0, 0, 0.003, False) /* Create Three of Eyes (37249) for ContainTreasure */

@@ -6,7 +6,7 @@ VALUES (32790, 'ace32790-twistedshadow', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32790,   1,         16) /* ItemType - Creature */
      , (32790,   2,         22) /* CreatureType - Shadow */
-     , (32790,   3,         39) /* PaletteTemplate - Black */
+     , (32790,   3,          2) /* PaletteTemplate - Blue */
      , (32790,   6,         -1) /* ItemsCapacity */
      , (32790,   7,         -1) /* ContainersCapacity */
      , (32790,  16,          1) /* ItemUseable - No */
@@ -72,7 +72,7 @@ VALUES (32790,   1,   33559846) /* Setup */
      , (32790,   3,  536871102) /* SoundTable */
      , (32790,   4,  805306408) /* CombatTable */
      , (32790,   6,   67115468) /* PaletteBase */
-     , (32790,   7,  268435871) /* ClothingBase */
+     , (32790,   7,  268436907) /* ClothingBase */
      , (32790,   8,  100670398) /* Icon */
      , (32790,  22,  872415331) /* PhysicsEffectTable */
      , (32790,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;

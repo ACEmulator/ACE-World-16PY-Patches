@@ -12,10 +12,10 @@ VALUES (42141,   1,         16) /* ItemType - Creature */
      , (42141,  25,        180) /* Level */
      , (42141,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42141,  95,          8) /* RadarBlipColor - Yellow */
-     , (42141, 113,          1) /* Gender - Male */
+     , (42141, 113,          2) /* Gender - Female */
      , (42141, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42141, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (42141, 188,          1) /* HeritageGroup - Aluvian */;
+     , (42141, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42141,   1, True ) /* Stuck */
@@ -36,7 +36,7 @@ VALUES (42141,   1, 'Warden') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42141,   1,   33554510) /* Setup */
      , (42141,   2,  150994945) /* MotionTable */
-     , (42141,   3,  536870913) /* SoundTable */
+     , (42141,   3,  536870914) /* SoundTable */
      , (42141,   6,   67108990) /* PaletteBase */
      , (42141,   8,  100667446) /* Icon */
      , (42141,   9,   83890509) /* EyesTexture */
