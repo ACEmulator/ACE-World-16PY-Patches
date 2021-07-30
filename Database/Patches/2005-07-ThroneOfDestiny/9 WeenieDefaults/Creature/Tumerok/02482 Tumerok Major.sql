@@ -65,7 +65,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2482,   1, 'Tumerok Major') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2482,   1,   33559561) /* Setup */
+VALUES (2482,   1,   33559557) /* Setup */
      , (2482,   2,  150994954) /* MotionTable */
      , (2482,   3,  536870931) /* SoundTable */
      , (2482,   4,  805306380) /* CombatTable */
