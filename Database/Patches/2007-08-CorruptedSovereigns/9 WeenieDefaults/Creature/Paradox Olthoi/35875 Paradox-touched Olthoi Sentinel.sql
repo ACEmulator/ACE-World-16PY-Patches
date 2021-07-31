@@ -131,7 +131,5 @@ VALUES (@parent_id,  0,   6 /* Move */, 10, 0.5, NULL, NULL, NULL, NULL, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35875, 9, 35876,  1, 0, 0.95, False) /* Create  (35876) for ContainTreasure */
      , (35875, 9,     0,  1, 0, 0.05, False) /* Create nothing for ContainTreasure */
-     , (35875, 9, 36376,  1, 0, 0.8, False) /* Create Small Olthoi Venom Sac (36376) for ContainTreasure */
-     , (35875, 9,     0,  1, 0, 0.2, False) /* Create nothing for ContainTreasure */
-     , (35875, 9, 36376,  1, 0, 0.8, False) /* Create Small Olthoi Venom Sac (36376) for ContainTreasure */
-     , (35875, 9,     0,  1, 0, 0.2, False) /* Create nothing for ContainTreasure */;
+     , (35875, 9, 36376,  1, 0, 0.2, False) /* Create Small Olthoi Venom Sac (36376) for ContainTreasure */
+     , (35875, 9,     0,  1, 0, 0.8, False) /* Create nothing for ContainTreasure */;
