@@ -21,7 +21,8 @@ VALUES (36774,   1, True ) /* Stuck */
      , (36774,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36774,  76,     0.5) /* Translucency */;
+VALUES (36774,  12,       1) /* Shade */
+     , (36774,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36774,   1, 'Elysa Strathelar') /* Name */

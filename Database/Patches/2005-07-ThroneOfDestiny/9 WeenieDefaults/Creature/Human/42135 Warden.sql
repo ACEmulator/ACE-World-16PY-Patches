@@ -15,7 +15,7 @@ VALUES (42135,   1,         16) /* ItemType - Creature */
      , (42135, 113,          1) /* Gender - Male */
      , (42135, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42135, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (42135, 188,          2) /* HeritageGroup - Gharundim */;
+     , (42135, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42135,   1, True ) /* Stuck */
@@ -34,9 +34,9 @@ VALUES (42135,   1, 'Warden') /* Name */
      , (42135,   5, 'Portal Warden') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42135,   1,   33554510) /* Setup */
+VALUES (42135,   1,   33554433) /* Setup */
      , (42135,   2,  150994945) /* MotionTable */
-     , (42135,   3,  536870914) /* SoundTable */
+     , (42135,   3,  536870913) /* SoundTable */
      , (42135,   6,   67108990) /* PaletteBase */
      , (42135,   8,  100667446) /* Icon */
      , (42135,   9,   83890262) /* EyesTexture */

@@ -21,7 +21,8 @@ VALUES (38984,   1, True ) /* Stuck */
      , (38984,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38984,  39,     1.3) /* DefaultScale */
+VALUES (38984,  12,  0.5714) /* Shade */
+     , (38984,  39,     1.3) /* DefaultScale */
      , (38984,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

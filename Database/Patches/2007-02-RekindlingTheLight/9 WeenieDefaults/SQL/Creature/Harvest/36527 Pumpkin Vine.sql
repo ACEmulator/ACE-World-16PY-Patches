@@ -6,7 +6,7 @@ VALUES (36527, 'ace36527-pumpkinvine', 10, '2021-07-27 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36527,   1,         16) /* ItemType - Creature */
      , (36527,   2,         93) /* CreatureType - Harvest */
-     , (36527,   3,         17) /* Palette - Yellow */
+     , (36527,   3,         17) /* PaletteTemplate - Yellow */
      , (36527,   6,         -1) /* ItemsCapacity */
      , (36527,   7,         -1) /* ContainersCapacity */
      , (36527,  16,          1) /* ItemUseable - No */
@@ -26,9 +26,6 @@ VALUES (36527,   1, True ) /* Stuck */
      , (36527,  13, False) /* Ethereal */
      , (36527,  50, True ) /* NeverFailCasting */
      , (36527,  52, True ) /* AiImmobile */;
-
-INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36527,   1, 'Pumpkin Vine') /* Name */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36527,   1,       5) /* HeartbeatInterval */
@@ -62,6 +59,9 @@ VALUES (36527,   1,       5) /* HeartbeatInterval */
      , (36527, 104,      10) /* ObviousRadarRange */
      , (36527, 122,       2) /* AiAcquireHealth */
      , (36527, 125,       1) /* ResistHealthDrain */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (36527,   1, 'Pumpkin Vine') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36527,   1,   33555670) /* Setup */
@@ -104,11 +104,11 @@ VALUES (36527,  0, 64, 150, 0.75,  450,  383,  383,  450,  405,  450,  428,  225
      , (36527, 25,  4, 150, 0.75,  480,  408,  408,  480,  432,  480,  456,  240,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36527,   176,   2.03)  /* Fester Other VI */
-     , (36527,  2228,  2.015)  /* Broadside of a Barn */
-     , (36527,  2170,   2.15)  /* Inferno's Gift */
+VALUES (36527,    82,  2.015)  /* Flame Bolt III */
      , (36527,    88,  2.015)  /* Force Bolt III */
-     , (36527,    82,  2.015)  /* Flame Bolt III */
+     , (36527,   176,   2.03)  /* Fester Other VI */
      , (36527,  2074,   2.03)  /* Gossamer Flesh */
+     , (36527,  2170,   2.15)  /* Inferno's Gift */
+     , (36527,  2228,  2.015)  /* Broadside of a Barn */
      , (36527,  2282,   2.03)  /* Futility */
      , (36527,  2318,   2.05)  /* Gravity Well */;

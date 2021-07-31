@@ -32,7 +32,7 @@ VALUES (32067,  12, 0.405400007963181) /* Shade */
      , (32067,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (32067,   1, 'Romeo Osemmi ') /* Name */
+VALUES (32067,   1, 'Romeo Osemmi') /* Name */
      , (32067,   5, 'Ferran Knight') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,7 +6,7 @@ VALUES (31006, 'olthoilarvaehighyield', 10, '2019-09-13 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31006,   1,         16) /* ItemType - Creature */
      , (31006,   2,         35) /* CreatureType - OlthoiLarvae */
-     , (31006,   3,         20) /* PaletteTemplate - Silver */
+     , (31006,   3,         22) /* PaletteTemplate - Aqua */
      , (31006,   6,         -1) /* ItemsCapacity */
      , (31006,   7,         -1) /* ContainersCapacity */
      , (31006,  16,          1) /* ItemUseable - No */
@@ -72,7 +72,7 @@ VALUES (31006,   1,   33558333) /* Setup */
      , (31006,   3,  536871068) /* SoundTable */
      , (31006,   4,  805306371) /* CombatTable */
      , (31006,   6,   67114236) /* PaletteBase */
-     , (31006,   7,  268436158) /* ClothingBase */
+     , (31006,   7,  268436600) /* ClothingBase */
      , (31006,   8,  100674298) /* Icon */
      , (31006,  19,         86) /* ActivationAnimation */
      , (31006,  22,  872415265) /* PhysicsEffectTable */

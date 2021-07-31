@@ -6,7 +6,7 @@ VALUES (38983, 'ace38983-championbulgara', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38983,   1,         16) /* ItemType - Creature */
      , (38983,   2,          4) /* CreatureType - Mosswart */
-     , (38983,   3,         81) /* PaletteTemplate - LiteGreen */
+     , (38983,   3,          7) /* PaletteTemplate - DeepGreen */
      , (38983,   6,         -1) /* ItemsCapacity */
      , (38983,   7,         -1) /* ContainersCapacity */
      , (38983,  16,         32) /* ItemUseable - Remote */
@@ -33,7 +33,7 @@ VALUES (38983,   1,   33557327) /* Setup */
      , (38983,   2,  150994953) /* MotionTable */
      , (38983,   3,  536870959) /* SoundTable */
      , (38983,   6,   67113400) /* PaletteBase */
-     , (38983,   7,  268436496) /* ClothingBase */
+     , (38983,   7,  268436295) /* ClothingBase */
      , (38983,   8,  100667449) /* Icon */
      , (38983,  22,  872415264) /* PhysicsEffectTable */;
 
