@@ -38,7 +38,7 @@ VALUES (46680,   1,                5) /* HeartbeatInterval */
      , (46680,  18,                1) /* ArmorModVsAcid */
      , (46680,  19,                1) /* ArmorModVsElectric */
      , (46680,  31,               18) /* VisualAwarenessRange */
-     , (46680,  39, 1.20000004768372) /* DefaultScale */
+     , (46680,  39,              1.2) /* DefaultScale */
      , (46680,  54,                3) /* UseRadius */
      , (46680,  64,                1) /* ResistSlash */
      , (46680,  65,                1) /* ResistPierce */
@@ -64,12 +64,6 @@ VALUES (46680,  1,  33561110) /* Setup */
      , (46680,  6,  67108990) /* PaletteBase */
      , (46680,  7, 268437191) /* ClothingBase */
      , (46680,  8, 100667446) /* Icon */
-     , (46680,  9,  83890457) /* EyesTexture */
-     , (46680, 10,  83890562) /* NoseTexture */
-     , (46680, 11,  83890636) /* MouthTexture */
-     , (46680, 15,  67116981) /* HairPalette */
-     , (46680, 16,  67116854) /* EyesPalette */
-     , (46680, 17,  67116960) /* SkinPalette */
      , (46680, 22, 872415236) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -97,10 +91,9 @@ VALUES (46680,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,
      , (46680,  8,  4,  8, 0.75,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46680, 2, 31825,  1, 93, 1, False) /* Create  (38850) for Wield */
-	  ,(46680, 2, 36352,  1, 17, 1, False)	  
-	  ,(46680, 2, 22123,  1, 17, 1, False) 
-;
+VALUES (46680, 2, 31825,  1, 93, 1, False) /* Create  (38850) for Wield */  
+	  ,(46680, 2, 44803,  1, 17, 0, False)
+      ,(46680, 2, 44977,  1, 17, 0, False);
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46680,  31, 0, 2, 0, 149, 0, 0) /* CreatureMagic */
@@ -115,6 +108,7 @@ VALUES (46680,  31, 0, 2, 0, 149, 0, 0) /* CreatureMagic */
      , (46680,  41, 0, 2, 0, 132, 0, 0) /* TwoHanded */
      , (46680,  43, 0, 2, 0, 149, 0, 0) /* VoidMagic */
      , (46680,  34, 0, 2, 0, 149, 0, 0) /* WarMagic */;
+     
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (46680, 7 /* Use */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
