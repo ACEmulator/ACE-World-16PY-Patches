@@ -105,5 +105,5 @@ VALUES (46574,  4451,      0) /* Incantation of Lightning Bolt */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46574, 2, 46372,  1, 0, 0, False) /* Create  (46372) for Wield */
      , (46574, 2, 46373,  1, 0, 0, False) /* Create  (46373) for Wield */
-	 , (46574, 9, 80152,  1, 0, 0, False) /* Create  (80152) Broken Lever LOWER for Treasure */	 
+	 , (46574, 9, 82050,  1, 0, 0, False) /* Create  (82050) Broken Lever LOWER for Treasure */	 
 	 ;

@@ -113,5 +113,5 @@ VALUES (46568,  4457,   2.02) /* Incantation of Whirling Blade */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46568, 2, 46374,  1, 0,    0, False) /* Create  (46374) for Wield */
      , (46568, 2, 46375,  1, 0,    0, False) /* Create  (46375) for Wield */
-	 , (46568, 9, 80153,  1, 0, 0, False) /* Create  (801543 Broken Lever Middle for Treasure */	 
+	 , (46568, 9, 82051,  1, 0, 0, False) /* Create  (801543 Broken Lever Middle for Treasure */	 
 	 ;

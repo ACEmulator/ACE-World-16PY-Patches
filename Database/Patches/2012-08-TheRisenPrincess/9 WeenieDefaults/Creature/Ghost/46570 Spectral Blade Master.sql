@@ -113,6 +113,6 @@ VALUES (46570,  4435,   2.02)  /* Incantation of Blade Blast */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46570, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */
      , (46570, 2, 46373,  1, 0, 0, False) /* Create Spectral Tachi (46373) for Wield */
-	 , (46570, 9, 80152,  1, 0, 0, False) /* Create  (80154) Broken Lever Lower for Treasure */	 
+	 , (46570, 9, 82050,  1, 0, 0, False) /* Create  (80154) Broken Lever Lower for Treasure */	 
 	 ;
 

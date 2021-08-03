@@ -105,7 +105,7 @@ VALUES (46567,  4457,   2.02)  /* Incantation of Whirling Blade */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46567, 2, 46374,  1, 0, 0, False) /* Create  (46374) for Wield */
-	 , (46567, 9, 80152, 0, 0, 1, False) /* Broken Lever (Lower) (80152) for Wield */;
+	 , (46567, 9, 82050, 0, 0, 1, False) /* Broken Lever (Lower) (82050) for Wield */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46567,  31, 0, 2, 0, 430, 0, 0) /* CreatureMagic */

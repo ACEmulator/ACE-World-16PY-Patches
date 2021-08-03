@@ -213,7 +213,7 @@ VALUES (0x7665E037, 46504, 0x665E014C, 50.4194, -79.6435, -11.9308, -0.992223, 0
 /* @teleloc 0x665E014C [50.419399 -79.643501 -11.930800] -0.992223 0.000000 0.000000 -0.124471 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7665E038, 80109, 0x665E01C8, 260.718, -93.2734, -2.03076, -4.37114E-08, 0, 0, -1, False, '2020-12-26 06:49:21'); /* Exarch Nanjou Shou-jen */
+VALUES (0x7665E038, 82009, 0x665E01C8, 260.718, -93.2734, -2.03076, -4.37114E-08, 0, 0, -1, False, '2020-12-26 06:49:21'); /* Exarch Nanjou Shou-jen */
 /* @teleloc 0x665E01C8 [260.717987 -93.273399 -2.030760] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

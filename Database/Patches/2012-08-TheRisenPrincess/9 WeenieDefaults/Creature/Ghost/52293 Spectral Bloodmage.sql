@@ -115,4 +115,4 @@ VALUES (52293,  3060,   0.75) /* Poison Blood */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52293, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */
-	 , (46568, 9, 80153,  1, 0, 0, False) /* Create  (80153) Broken Lever Middle for Treasure */	;
+	 , (46568, 9, 82051,  1, 0, 0, False) /* Create  (82051) Broken Lever Middle for Treasure */	;

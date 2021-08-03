@@ -97,7 +97,7 @@ VALUES (46566,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46566, 2, 46368,  1, 0, 0, False) /* Create Spectral Acid Nekode (46368)  for Wield */
-	 , (46566, 9, 80153,  1, 0, 0, False) /* Create  (80153) Broken Lever Middle for Treasure */
+	 , (46566, 9, 82051,  1, 0, 0, False) /* Create  (82051) Broken Lever Middle for Treasure */
 ;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
