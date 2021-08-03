@@ -38,13 +38,7 @@ VALUES (31316,   1,   33554433) /* Setup */
      , (31316,   2,  150994945) /* MotionTable */
      , (31316,   3,  536870913) /* SoundTable */
      , (31316,   6,   67108990) /* PaletteBase */
-     , (31316,   8,  100667446) /* Icon */
-     , (31316,   9,   83890479) /* EyesTexture */
-     , (31316,  10,   83890553) /* NoseTexture */
-     , (31316,  11,   83890638) /* MouthTexture */
-     , (31316,  15,   67117072) /* HairPalette */
-     , (31316,  16,   67110065) /* EyesPalette */
-     , (31316,  17,   67115901) /* SkinPalette */;
+     , (31316,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31316,   1,  60, 0, 0) /* Strength */
@@ -95,5 +89,5 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 1.5, 1, NULL, NULL, NULL, NULL, 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31316, 2, 25649,  0, 4, 0, False) /* Create Leather Shirt (25649) for Wield */
      , (31316, 2, 25642,  0, 9, 0, False) /* Create Leather Gauntlets (25642) for Wield */
-     , (31316, 2, 25650,  0, 4, 0, False) /* Create Leather Shorts (25650) for Wield */
+     , (31316, 2, 25645,  0, 4, 0, False) /* Create Leather Leggings (25645) for Wield */
      , (31316, 2, 25661,  0, 9, 0, False) /* Create Leather Boots (25661) for Wield */;

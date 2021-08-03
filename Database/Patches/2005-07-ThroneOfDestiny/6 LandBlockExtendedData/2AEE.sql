@@ -29,7 +29,3 @@ VALUES (1924063238, 29488, 720240684, 127.638, 87.727, 100.005, -0.707107, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1924063239, 29487, 720240677, 117.456, 99.7854, 100.005, 0.00407253, 0, 0, 0.999992, False, '2019-02-11 00:00:00'); /* Knight of Karlun Guard */
 /* @teleloc 0x2AEE0025 [117.456000 99.785400 100.005000] 0.004073 0.000000 0.000000 0.999992 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1924063240, 39838, 720240701, 168.601, 97.6729, 64.1394, 0.152115, 0, 0, 0.988363, False, '2019-02-11 00:00:00'); /* Exploration Marker */
-/* @teleloc 0x2AEE003D [168.601000 97.672900 64.139400] 0.152115 0.000000 0.000000 0.988363 */
