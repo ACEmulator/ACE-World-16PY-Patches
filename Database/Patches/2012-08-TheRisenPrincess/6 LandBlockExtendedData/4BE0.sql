@@ -1,11 +1,11 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x4BE0;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74BE0000, 80100, 0x4BE00008, 22.2737, 189.605, 66.1665, -0.132207, 0, 0, -0.991222, False, '2020-11-21 11:39:20'); /* Lum Melee Hoshino Generator */
+VALUES (0x74BE0000, 82000, 0x4BE00008, 22.2737, 189.605, 66.1665, -0.132207, 0, 0, -0.991222, False, '2020-11-21 11:39:20'); /* Lum Melee Hoshino Generator */
 /* @teleloc 0x4BE00008 [22.273701 189.604996 66.166496] -0.132207 0.000000 0.000000 -0.991222 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74BE0001, 80100, 0x4BE00008, 2.93688, 182.91, 66.055, -0.48444, 0, 0, -0.874825, False, '2020-11-21 11:39:23'); /* Lum Melee Hoshino Generator */
+VALUES (0x74BE0001, 82000, 0x4BE00008, 2.93688, 182.91, 66.055, -0.48444, 0, 0, -0.874825, False, '2020-11-21 11:39:23'); /* Lum Melee Hoshino Generator */
 /* @teleloc 0x4BE00008 [2.936880 182.910004 66.055000] -0.484440 0.000000 0.000000 -0.874825 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
