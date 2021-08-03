@@ -26,7 +26,7 @@ VALUES (80104,  11,      20) /* ResetInterval */
      , (80104,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (80104,   1, 'Hoshimo Main Gate') /* Name */
+VALUES (80104,   1, 'Hoshino Main Gate') /* Name */
      , (80104,  14, 'This door cannot be activated from here.') /* Use */
      , (80104,  39,    20) /* DefaultScale */	 ;
 
