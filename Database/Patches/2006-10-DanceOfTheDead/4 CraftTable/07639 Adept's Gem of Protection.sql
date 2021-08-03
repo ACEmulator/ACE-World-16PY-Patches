@@ -6,4 +6,4 @@ VALUES (7639, 0, 38 /* Alchemy */, 325, 0, 34169 /* Adept's Gem of Protection */
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7639;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7639, 70116 /* Treated Stibnite and Hyssop Crucible */,   790 /* Powdered Onyx */, '2021-08-01 00:00:00');
+VALUES (7639, 79965 /* Treated Stibnite and Hyssop Crucible */,   790 /* Powdered Onyx */, '2021-08-01 00:00:00');

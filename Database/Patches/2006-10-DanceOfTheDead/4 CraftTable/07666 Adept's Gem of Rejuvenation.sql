@@ -6,4 +6,4 @@ VALUES (7666, 0, 38 /* Alchemy */, 325, 0, 34178 /* Adept's Gem of Rejuvenation 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7666;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7666, 70136 /* Treated Cinnabar and Hyssop Crucible */,   783 /* Powdered Amber */, '2021-08-01 00:00:00');
+VALUES (7666, 79983 /* Treated Cinnabar and Hyssop Crucible */,   783 /* Powdered Amber */, '2021-08-01 00:00:00');

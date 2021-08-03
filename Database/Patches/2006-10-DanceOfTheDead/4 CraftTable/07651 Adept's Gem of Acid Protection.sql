@@ -6,4 +6,4 @@ VALUES (7651, 0, 38 /* Alchemy */, 325, 0, 34168 /* Adept's Gem of Acid Protecti
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7651;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7651, 70124 /* Treated Brimstone and Hyssop Crucible */,   788 /* Powdered Malachite */, '2021-08-01 00:00:00');
+VALUES (7651, 79973 /* Treated Brimstone and Hyssop Crucible */,   788 /* Powdered Malachite */, '2021-08-01 00:00:00');

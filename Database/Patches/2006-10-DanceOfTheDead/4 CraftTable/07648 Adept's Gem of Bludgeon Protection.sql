@@ -6,4 +6,4 @@ VALUES (7648, 0, 38 /* Alchemy */, 325, 0, 34171 /* Adept's Gem of Bludgeon Prot
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7648;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7648, 70122 /* Treated Verdigris and Hyssop Crucible */,   792 /* Powdered Turquoise */, '2021-08-01 00:00:00');
+VALUES (7648, 79971 /* Treated Verdigris and Hyssop Crucible */,   792 /* Powdered Turquoise */, '2021-08-01 00:00:00');

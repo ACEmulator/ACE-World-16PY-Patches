@@ -6,4 +6,4 @@ VALUES (7642, 0, 38 /* Alchemy */, 325, 0, 34176 /* Adept's Gem of Piercing Prot
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7642;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7642, 70118 /* Treated Quicksilver and Hyssop Crucible */,   626 /* Powdered Hematite */, '2021-08-01 00:00:00');
+VALUES (7642, 79967 /* Treated Quicksilver and Hyssop Crucible */,   626 /* Powdered Hematite */, '2021-08-01 00:00:00');

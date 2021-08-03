@@ -6,4 +6,4 @@ VALUES (7663, 0, 38 /* Alchemy */, 325, 0, 34177 /* Adept's Gem of Regeneration 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7663;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7663, 70134 /* Treated Vitriol and Hyssop Crucible */,   785 /* Powdered Bloodstone */, '2021-08-01 00:00:00');
+VALUES (7663, 79981 /* Treated Vitriol and Hyssop Crucible */,   785 /* Powdered Bloodstone */, '2021-08-01 00:00:00');

@@ -6,4 +6,4 @@ VALUES (7660, 0, 38 /* Alchemy */, 325, 0, 34174 /* Adept's Gem of Lightning Pro
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7660;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7660, 70132 /* Treated Cobalt and Hyssop Crucible */,   782 /* Powdered Agate */, '2021-08-01 00:00:00');
+VALUES (7660, 79979 /* Treated Cobalt and Hyssop Crucible */,   782 /* Powdered Agate */, '2021-08-01 00:00:00');
