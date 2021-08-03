@@ -18,7 +18,7 @@ VALUES (82001,  41,     300) /* RegenerationInterval */
      , (82001,  43,       2) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (82001,   1, 'Lum Hoshito Bow Mage Gen') /* Name */;
+VALUES (82001,   1, 'Lum Hoshino Bow Mage Gen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (82001,   1,   33555051) /* Setup */

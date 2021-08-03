@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80119;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80119, 'ace80119-hoshitoBowMageGen', 1, '2020-11-05 22:48:25') /* Generic */;
+VALUES (80119, 'ace80119-hoshinoBowMageGen', 1, '2020-11-05 22:48:25') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80119,  81,          4) /* MaxGeneratedObjects */
@@ -18,7 +18,7 @@ VALUES (80119,  41,     300) /* RegenerationInterval */
      , (80119,  43,       2) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (80119,   1, 'Hoshito Bow Mage Gen') /* Name */;
+VALUES (80119,   1, 'Hoshino Bow Mage Gen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (80119,   1,   33555051) /* Setup */
