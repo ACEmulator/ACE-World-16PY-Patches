@@ -101,8 +101,8 @@ VALUES (0x74CE3026, 0x74CE3027, '2020-12-18 17:10:30') /* Spectral Archer (46505
      , (0x74CE3026, 0x74CE3057, '2021-02-08 08:26:06') /* Spectral Nanjou Shou-jen (46533) */
      , (0x74CE3026, 0x74CE3058, '2021-02-08 08:27:18') /* Lum Melee Hoshino Generator (82000) */
      , (0x74CE3026, 0x74CE3059, '2021-02-08 08:27:37') /* Lum Melee Hoshino Generator (82000) */
-     , (0x74CE3026, 0x74CE305A, '2021-02-08 08:28:58') /* Lum Hoshino Bow Mage Gen (80101) */
-     , (0x74CE3026, 0x74CE305B, '2021-02-08 08:29:12') /* Lum Hoshino Bow Mage Gen (80101) */
+     , (0x74CE3026, 0x74CE305A, '2021-02-08 08:28:58') /* Lum Hoshino Bow Mage Gen (82001) */
+     , (0x74CE3026, 0x74CE305B, '2021-02-08 08:29:12') /* Lum Hoshino Bow Mage Gen (82001) */
      , (0x74CE3026, 0x74CE305C, '2021-02-08 08:31:00') /* Spectral Minion (46525) */
      , (0x74CE3026, 0x74CE305D, '2021-02-08 08:31:10') /* Spectral Minion (46525) */
      , (0x74CE3026, 0x74CE305E, '2021-02-08 08:31:55') /* Spectral Minion (46525) */
@@ -318,11 +318,11 @@ VALUES (0x74CE3059, 82000, 0x4CE3011C, 32.1932, 67.0268, 61.255, -0.886333, 0, 0
 /* @teleloc 0x4CE3011C [32.193199 67.026802 61.255001] -0.886333 0.000000 0.000000 0.463048 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74CE305A, 80101, 0x4CE3010F, 40.1103, 56.7908, 60.055, 0.610058, 0, 0, -0.792357,  True, '2021-02-08 08:28:58'); /* Lum Hoshino Bow Mage Gen */
+VALUES (0x74CE305A, 82001, 0x4CE3010F, 40.1103, 56.7908, 60.055, 0.610058, 0, 0, -0.792357,  True, '2021-02-08 08:28:58'); /* Lum Hoshino Bow Mage Gen */
 /* @teleloc 0x4CE3010F [40.110298 56.790798 60.055000] 0.610058 0.000000 0.000000 -0.792357 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74CE305B, 80101, 0x4CE3010F, 38.9598, 65.3718, 60.055, -0.69425, 0, 0, 0.719734,  True, '2021-02-08 08:29:12'); /* Lum Hoshino Bow Mage Gen */
+VALUES (0x74CE305B, 82001, 0x4CE3010F, 38.9598, 65.3718, 60.055, -0.69425, 0, 0, 0.719734,  True, '2021-02-08 08:29:12'); /* Lum Hoshino Bow Mage Gen */
 /* @teleloc 0x4CE3010F [38.959801 65.371803 60.055000] -0.694250 0.000000 0.000000 0.719734 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

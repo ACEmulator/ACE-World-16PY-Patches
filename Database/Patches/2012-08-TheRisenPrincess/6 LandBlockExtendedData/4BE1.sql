@@ -73,7 +73,7 @@ VALUES (0x74BE1012, 82000, 0x4BE10108, 13.2139, 12.432, 66.055, 0.702554, 0, 0, 
 /* @teleloc 0x4BE10108 [13.213900 12.432000 66.055000] 0.702554 0.000000 0.000000 0.711630 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74BE1013, 80101, 0x4BE10001, 4.29576, 11.8964, 71.251, 0.744165, 0, 0, 0.667996, False, '2020-11-21 11:43:09'); /* Lum Hoshino Bow Mage Gen */
+VALUES (0x74BE1013, 82001, 0x4BE10001, 4.29576, 11.8964, 71.251, 0.744165, 0, 0, 0.667996, False, '2020-11-21 11:43:09'); /* Lum Hoshino Bow Mage Gen */
 /* @teleloc 0x4BE10001 [4.295760 11.896400 71.250999] 0.744165 0.000000 0.000000 0.667996 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
