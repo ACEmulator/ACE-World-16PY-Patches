@@ -114,14 +114,16 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-;
+     , (@parent_id,  1,  77 /* DeleteSelf */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (80160, .33, 46574, 1, 1, 1, 1, 4, 0, 0, 0, 0x665E013D, 26.635201, -63.935001, -11.930800, -0.167306, 0.000000, 0.000000, -0.985905)  
-/* Generate Spectral Nanjou Shou-jen (46574) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (80160, .33, 46574, 1, 1, 1, 1, 4, 0, 0, 0, 0x665E013D, 26.635201, -63.935001, -11.930800, -0.167306, 0.000000, 0.000000, -0.985905)  /* Generate Spectral Nanjou Shou-jen (46574) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+
 /* @teleloc 0x665E013D [26.635201 -63.935001 -11.930800] -0.167306 0.000000 0.000000 -0.985905 */
-     , (80160, .66, 46570, 1, 1, 1, 1, 4, 0, 0, 0, 0x665E0107, 39.7412, -87.0096, -20.0344, -0.982242, 0, 0, -0.187621) 
-	 /* Generate Blade Master (46570) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-	/*  @teleloc 0x665E0107 39.7412 -87.0096 -20.0344 -0.982242 0 0 -0.187621 */
+
+     , (80160, .66, 46570, 1, 1, 1, 1, 4, 0, 0, 0, 0x665E0107, 39.7412, -87.0096, -20.0344, -0.982242, 0, 0, -0.187621) /* Generate Blade Master (46570) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+/*  0x665E0107, 39.7412, -87.0096, -20.0344, -0.982242, 0, 0, -0.187621 */
+
+
      , (80160, 1, 46567, 1, 1, 1, 1, 4, 0, 0, 0, 0x665E0100, 17.3699, -79.5904, -20.0357, -0.921049, 0, 0, -0.389446) /* Generate Claw Adept (46567) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
 /* @teleloc 0x665E0100 [17.369900 -79.590401 -20.035700] -0.921049 0.000000 0.000000 -0.389446 */
