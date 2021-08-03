@@ -9,8 +9,6 @@ VALUES (51558,   1,      16384) /* ItemType - Key */
      , (51558,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (51558,  18,         64) /* UiEffects - Lightning */
      , (51558,  19,      10000) /* Value */
-     , (51558,  33,          1) /* Bonded - Bonded */
-     , (51558,  65,        101) /* Placement - Resting */
      , (51558,  91,          1) /* MaxStructure */
      , (51558,  92,          1) /* Structure */
      , (51558,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
