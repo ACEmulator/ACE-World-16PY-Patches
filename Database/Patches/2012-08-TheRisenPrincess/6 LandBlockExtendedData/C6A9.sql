@@ -428,8 +428,8 @@ INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `ori
 VALUES (0x7C6A9073, 48743, 0xC6A90024, 107.553, 92.8885, 42, 1, 0, 0, 0, False, '2019-02-15 14:34:36'); /* Legendary Chest */
 /* @teleloc 0xC6A90024 [107.553001 92.888496 42.000000] 1.000000 0.000000 0.000000 0.000000 */
 
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C6A9074, 43065, 0xC6A9001B, 78.341, 58.2254, 42.198, 0.999956, 0, 0, 0.0093798, False, '2020-09-18 05:33:00'); /* Portal to Town Network */
+/*INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C6A9074, 43065, 0xC6A9001B, 78.341, 58.2254, 42.198, 0.999956, 0, 0, 0.0093798, False, '2020-09-18 05:33:00');*/ /* Portal to Town Network */
 /* @teleloc 0xC6A9001B [78.341003 58.225399 42.198002] 0.999956 0.000000 0.000000 0.009380 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
