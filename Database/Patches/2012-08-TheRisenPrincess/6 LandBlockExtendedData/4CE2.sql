@@ -1,16 +1,16 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x4CE2;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74CE2000,   720, 0x4CE20108, 87.05, 184.925, 68.5, -0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Sliding Door */
-/* @teleloc 0x4CE20108 [87.050003 184.925003 68.500000] -0.707107 0.000000 0.000000 -0.707107 */
+VALUES (0x74CE2000,   720, 0x4CE20108, 87.05, 184.925, 68.5, -0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Sliding Door */
+/* @teleloc 0x4CE20108 [87.050000 184.925000 68.500000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74CE2001,   720, 0x4CE2010B, 80.95, 184.925, 68.5, -0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Sliding Door */
-/* @teleloc 0x4CE2010B [80.949997 184.925003 68.500000] -0.707107 0.000000 0.000000 -0.707107 */
+VALUES (0x74CE2001,   720, 0x4CE2010B, 80.95, 184.925, 68.5, -0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Sliding Door */
+/* @teleloc 0x4CE2010B [80.950000 184.925000 68.500000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CE2002,   720, 0x4CE20020, 84, 190.525, 66, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Sliding Door */
-/* @teleloc 0x4CE20020 [84.000000 190.524994 66.000000] -0.000000 0.000000 0.000000 -1.000000 */
+/* @teleloc 0x4CE20020 [84.000000 190.525000 66.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CE2029,  7924, 0x4CE20030, 132, 180, 76.055, 0.731689, 0, 0, 0.681639, False, '2020-11-23 16:51:00'); /* Linkable Monster Generator ( 5 Min.) */
