@@ -4,22 +4,20 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (46506, 'ace46506-spectralbladeadept', 10, '2020-10-23 23:53:25') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (46506,   1,         16) /* ItemType - Creature */
-     , (46506,   2,         77) /* CreatureType - Ghost */
-     , (46506,   3,          9) /* PALETTE_TEMPLATE_INT - Grey */	 
-     , (46506,   6,         -1) /* ItemsCapacity */
-     , (46506,   7,         -1) /* ContainersCapacity */
-     , (46506,  16,          1) /* ItemUseable - No */
-     , (46506,  25,        240) /* Level */
-     , (46506,  48,         44) /* Heavy Weapon Skill */	 
-     , (46506,  68,          5) /* TargetingTactic - Random, LastDamager */
-     , (46506,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (46506, 101,        263) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, DualWield */
-     , (46506, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46506, 146,    1850000) /* XpOverride */
-     , (46506, 307,         10) /* DamageRating */
-     , (46506, 308,         10) /* DamageResistRating */
-     , (46506, 313,          5) /* CritRating */;
+VALUES (46506,   1,      16) /* ItemType - Creature */
+     , (46506,   2,      77) /* CreatureType - Ghost */
+     , (46506,   3,       9) /* PalletteTemplate - Grey */	
+     , (46506,   6,      -1) /* ItemsCapacity */
+     , (46506,   7,      -1) /* ContainersCapacity */
+     , (46506,  16,       1) /* ItemUseable - No */
+     , (46506,  25,     240) /* Level */
+     , (46506,  68,       3) /* TargetingTactic - Random, Focused */
+     , (46506,  93,    1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (46506, 133,       2) /* ShowableOnRadar - ShowMovement */
+     , (46506, 146, 1850000) /* XpOverride */
+     , (46506, 307,      15) /* DamageRating */
+     , (46506, 313,      10) /* CritRating */
+     , (46506, 316,      10) /* CritDamageResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46506,   1, True ) /* Stuck */
@@ -31,7 +29,7 @@ VALUES (46506,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46506,  12,     0.5) /* PaletteBase */
-	, (46506,  13,     1.9) /* ArmorModVsSlash */
+	 , (46506,  13,     1.9) /* ArmorModVsSlash */
      , (46506,  14,     1.4) /* ArmorModVsPierce */
      , (46506,  15,     1.3) /* ArmorModVsBludgeon */
      , (46506,  16,       2) /* ArmorModVsCold */
@@ -48,7 +46,7 @@ VALUES (46506,  12,     0.5) /* PaletteBase */
      , (46506,  68,     0.4) /* ResistCold */
      , (46506,  69,     0.9) /* ResistAcid */
      , (46506,  70,    0.75) /* ResistElectric */
-	, (46506, 166,       1) /* ResistNether */
+	 , (46506, 166,       1) /* ResistNether */
      , (46506,  76,     0.5) /* Translucency */
      , (46506,  80,       3) /* AiUseMagicDelay */
      , (46506, 104,      10) /* ObviousRadarRange */
@@ -82,12 +80,13 @@ VALUES (46506,   1,  2500, 0, 0, 2675) /* MaxHealth */
      , (46506,   5,  4800, 0, 0, 5280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46506,  6, 0, 2, 0, 555, 0, 0) /* MeleeDefense        Trained */
-     , (46506,  7, 0, 2, 0, 344, 0, 0) /* MissileDefense      Trained */
-     , (46506, 15, 0, 2, 0, 313, 0, 0) /* MagicDefense        Trained */
-     , (46506, 31, 0, 2, 0, 376, 0, 0) /* CreatureEnchantment Trained */
-     , (46506, 33, 0, 2, 0, 376, 0, 0) /* LifeMagic           Trained */
-     , (46506, 44, 0, 2, 0, 573, 0, 0) /* HeavyWeapons        Trained */;
+VALUES (46506,  6, 0, 2, 0, 520, 0, 0) /* MeleeDefense        Trained */
+     , (46506,  7, 0, 2, 0, 345, 0, 0) /* MissileDefense      Trained */
+     , (46506, 15, 0, 2, 0, 315, 0, 0) /* MagicDefense        Trained */
+     , (46506, 31, 0, 2, 0, 375, 0, 0) /* CreatureEnchantment Trained */
+     , (46506, 33, 0, 2, 0, 375, 0, 0) /* LifeMagic           Trained */
+     , (46506, 34, 0, 2, 0, 375, 0, 0) /* WarMagic            Trained */
+     , (46506, 44, 0, 2, 0, 520, 0, 0) /* HeavyWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (46506,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -101,9 +100,8 @@ VALUES (46506,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,
      , (46506,  8,  4, 600, 0.75,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46506,  4475,   2.02)  /* Incantation of Blade Vulnerability Other */
-     , (46506,  4489,   2.02)  /* Incantation of Fester Other */;
+VALUES (46506,  4475,   2.08)  /* Incantation of Blade Vulnerability Other */
+     , (46506,  4489,   2.08)  /* Incantation of Fester Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46506, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */
-     , (46506, 2, 46373,  1, 0, 0, False) /* Create Spectral Tachi (46373) for Wield */;
+VALUES (46506, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */;

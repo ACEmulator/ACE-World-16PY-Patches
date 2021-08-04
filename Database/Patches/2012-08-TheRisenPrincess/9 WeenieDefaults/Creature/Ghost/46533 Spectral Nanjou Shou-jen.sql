@@ -95,16 +95,22 @@ VALUES (46533,   1,  2975, 0, 0, 3175) /* MaxHealth */
      , (46533,   5,  2400, 0, 0, 2700) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46533,  6, 0, 2, 0, 600, 0, 0) /* MeleeDefense   Trained */
-     , (46533,  7, 0, 2, 0, 364, 0, 0) /* MissileDefense Trained */
-     , (46533, 15, 0, 2, 0, 364, 0, 0) /* MagicDefense   Trained */
-     , (46533, 34, 0, 2, 0, 466, 0, 0) /* WarMagic       Trained */
-     , (46533, 44, 0, 2, 0, 616, 0, 0) /* HeavyWeapons   Trained */;
+VALUES (46533,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
+     , (46533,  7, 0, 2, 0, 360, 0, 0) /* MissileDefense      Trained */
+     , (46533, 15, 0, 2, 0, 340, 0, 0) /* MagicDefense        Trained */
+     , (46533, 31, 0, 2, 0, 375, 0, 0) /* CreatureEnchantment Trained */
+     , (46533, 33, 0, 2, 0, 375, 0, 0) /* LifeMagic           Trained */
+     , (46533, 34, 0, 2, 0, 375, 0, 0) /* WarMagic            Trained */
+     , (46533, 43, 0, 2, 0, 375, 0, 0) /* VoidMagic           Trained */
+     , (46533, 44, 0, 2, 0, 500, 0, 0) /* HeavyWeapons        Trained */
+     , (46533, 45, 0, 2, 0, 500, 0, 0) /* LightWeapons        Trained */
+     , (46533, 49, 0, 2, 0, 500, 0, 0) /* DualWield           Trained */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46533,  4451,      2.08) /* Incantation of Lightning Bolt */
-     , (46533,  4447,      2.08) /* Incantation of Frost Bolt */;
+VALUES (46533,  3060,   2.06)  /* Poison Blood */
+     , (46533,  4475,   2.064)  /* Incantation of Blade Vulnerability Other */
+     , (46533,  5338,   2.068)  /* Incantation of Destructive Curse */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46533, 2, 46372,  1, 0,    0, False) /* Create Spectral Tachi (46372) for Wield */
-     , (46533, 2, 46373,  1, 0,    0, False) /* Create Spectral Tachi (46373) for Wield */;
+     , (46533, 2, 46375,  1, 0,    0, False) /* Create Spectral Nekode (46375) for Wield */;

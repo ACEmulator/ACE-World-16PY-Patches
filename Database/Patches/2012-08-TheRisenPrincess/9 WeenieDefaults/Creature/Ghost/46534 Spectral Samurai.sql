@@ -1,5 +1,5 @@
-/* Fire Version */
-/* No Luminance and Quest kill */
+/* Acid Version */
+/* No Luminance and No Quest kill */
 
 DELETE FROM `weenie` WHERE `class_Id` = 46534;
 
@@ -14,15 +14,15 @@ VALUES (46534,   1,         16) /* ItemType - Creature */
      , (46534,   7,         -1) /* ContainersCapacity */
      , (46534,  16,          1) /* ItemUseable - No */
      , (46534,  25,        265) /* Level */
-     , (46534,  48,         41) /* 2H Weapon Skill */
      , (46534,  68,          3) /* TargetingTactic - Random, Focused */
      , (46534,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46534, 101,        263) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, DualWield */	 
      , (46534, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (46534, 146,    2500000) /* XpOverride */
-     , (46534, 307,         10) /* DamageRating */
-     , (46534, 308,         10) /* DamageResistRating */
-     , (46534, 313,          5) /* CritRating */;
+     , (46534, 307,         20) /* DamageRating */
+     , (46534, 308,         15) /* DamageResistRating */
+     , (46534, 313,         15) /* CritRating */
+     , (46534, 316,         10) /* CritDamageResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46534,   1, True ) /* Stuck */
@@ -33,7 +33,7 @@ VALUES (46534,   1, True ) /* Stuck */
      , (46534,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46534,  12,     0.5) /* Shade */
+VALUES (46534,  12,     0.4) /* Shade */
      , (46534,  13,    0.83) /* ArmorModVsSlash */
      , (46534,  14,    0.83) /* ArmorModVsPierce */
      , (46534,  15,    0.83) /* ArmorModVsBludgeon */
@@ -96,17 +96,19 @@ VALUES (46534,   1,  3500, 0, 0, 3750) /* MaxHealth */
      , (46534,   5,  3500, 0, 0, 3900) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46534,  6, 0, 3, 0, 600, 0, 0) /* MeleeDefense        Specialized */
-     , (46534,  7, 0, 3, 0, 364, 0, 0) /* MissileDefense      Specialized */
-     , (46534, 15, 0, 3, 0, 336, 0, 0) /* MagicDefense        Specialized */
-     , (46534, 31, 0, 3, 0, 416, 0, 0) /* CreatureEnchantment Specialized */
-     , (46534, 33, 0, 3, 0, 416, 0, 0) /* LifeMagic           Specialized */
-     , (46534, 41, 0, 3, 0, 549, 0, 0) /* TwoHandedCombat     Specialized */;
+VALUES (46534,  6, 0, 3, 0, 520, 0, 0) /* MeleeDefense        Specialized */
+     , (46534,  7, 0, 3, 0, 360, 0, 0) /* MissileDefense      Specialized */
+     , (46534, 15, 0, 3, 0, 340, 0, 0) /* MagicDefense        Specialized */
+     , (46534, 31, 0, 3, 0, 410, 0, 0) /* CreatureEnchantment Specialized */
+     , (46534, 33, 0, 3, 0, 410, 0, 0) /* LifeMagic           Specialized */
+     , (46534, 34, 0, 2, 0, 410, 0, 0) /* WarMagic            Specialized */
+     , (46534, 41, 0, 3, 0, 540, 0, 0) /* TwoHandedCombat     Specialized */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46534,  4421,   2.02) /* Incantation of Acid Arc */
-     , (46534,  4431,   2.02) /* Incantation of Acid Blast */
-     , (46534,  4473,   2.02) /* Incantation of Acid Vulnerability Other */;
+VALUES (46534,  1783,   2.05) /* Searing Disc */
+     , (46534,  4421,   2.053) /* Incantation of Acid Arc */
+     , (46534,  4431,   2.056) /* Incantation of Acid Blast */
+     , (46534,  4473,   2.059) /* Incantation of Acid Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46534, 2, 46646,  1, 0,    0, False) /* Create Spectral Acid Nodachi (46646) for Wield */;

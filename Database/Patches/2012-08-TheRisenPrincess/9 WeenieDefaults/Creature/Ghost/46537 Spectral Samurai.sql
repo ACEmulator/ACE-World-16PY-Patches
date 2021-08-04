@@ -9,21 +9,20 @@ VALUES (46537, 'ace46537-spectralsamurai', 10, '2020-10-23 23:53:26') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46537,   1,         16) /* ItemType - Creature */
      , (46537,   2,         77) /* CreatureType - Ghost */
-     , (46537,   3,          8) /* PALETTE - Green */	 
+     , (46537,   3,          8) /* PaletteTemplate - Green */	 
      , (46537,   6,         -1) /* ItemsCapacity */
      , (46537,   7,         -1) /* ContainersCapacity */
      , (46537,  16,          1) /* ItemUseable - No */
-     , (46537,  25,        265) /* Level */
-     , (46537,  48,         41) /* 2H Weapon Skill */	 
+     , (46537,  25,        265) /* Level */	 
      , (46537,  68,          3) /* TargetingTactic - Random, Focused */
      , (46537,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46537, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (46537, 146,    2500000) /* XpOverride */
-     , (46537, 307,         10) /* DamageRating */
-     , (46537, 308,         10) /* DamageResistRating */
-     , (46537, 313,          5) /* CritRating */
-     , (46537, 316,          5) /* CritDamageResistRating */
-	, (46537, 332,        180) /* LuminanceAward */;
+     , (46537, 307,         20) /* DamageRating */
+     , (46537, 308,         15) /* DamageResistRating */
+     , (46537, 313,         15) /* CritRating */
+     , (46537, 316,         10) /* CritDamageResistRating */
+	 , (46537, 332,        180) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46537,   1, True ) /* Stuck */
@@ -34,7 +33,7 @@ VALUES (46537,   1, True ) /* Stuck */
      , (46537,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46537,  12,     0.5) /* Shade */
+VALUES (46537,  12,  0.4286) /* Shade */
 	 , (46537,  13,    0.83) /* ArmorModVsSlash */
      , (46537,  14,    0.83) /* ArmorModVsPierce */
      , (46537,  15,    0.83) /* ArmorModVsBludgeon */
@@ -87,12 +86,13 @@ VALUES (46537,   1,  3500, 0, 0, 3750) /* MaxHealth */
      , (46537,   5,  3500, 0, 0, 3900) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46537,  6, 0, 3, 0, 600, 0, 0) /* MeleeDefense        Specialized */
-     , (46537,  7, 0, 3, 0, 364, 0, 0) /* MissileDefense      Specialized */
-     , (46537, 15, 0, 3, 0, 336, 0, 0) /* MagicDefense        Specialized */
-     , (46537, 31, 0, 3, 0, 416, 0, 0) /* CreatureEnchantment Specialized */
-     , (46537, 33, 0, 3, 0, 416, 0, 0) /* LifeMagic           Specialized */
-     , (46537, 41, 0, 3, 0, 549, 0, 0) /* TwoHandedCombat     Specialized */;
+VALUES (46537,  6, 0, 3, 0, 520, 0, 0) /* MeleeDefense        Specialized */
+     , (46537,  7, 0, 3, 0, 360, 0, 0) /* MissileDefense      Specialized */
+     , (46537, 15, 0, 3, 0, 340, 0, 0) /* MagicDefense        Specialized */
+     , (46537, 31, 0, 3, 0, 410, 0, 0) /* CreatureEnchantment Specialized */
+     , (46537, 33, 0, 3, 0, 410, 0, 0) /* LifeMagic           Specialized */
+     , (46537, 34, 0, 2, 0, 410, 0, 0) /* WarMagic            Specialized */
+     , (46537, 41, 0, 3, 0, 540, 0, 0) /* TwoHandedCombat     Specialized */;
 	 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (46537,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -106,11 +106,10 @@ VALUES (46537,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,
      , (46537,  8,  4, 600, 0.75,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46537,  4441,   2.02)  /* Incantation of Flame Volley */
-     , (46537,  4423,   2.02)  /* Incantation of Flame Arc */
-     , (46537,  4438,   2.02)  /* Incantation of Flame Blast */
-     , (46537,  4481,   2.02)  /* Incantation of Fire Vulnerability Other */;
+VALUES (46537,  1785,   2.05)  /* Cassius' Ring of Fire */
+     , (46537,  4423,   2.053)  /* Incantation of Flame Arc */
+     , (46537,  4438,   2.056)  /* Incantation of Flame Blast */
+     , (46537,  4481,   2.059)  /* Incantation of Fire Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46537, 2, 46647,  1, 0, 0, False) /* Create  (46647) for Wield */;
-
+VALUES (46537, 2, 46647,  1, 0, 0, False) /* Create Spectral Flaming Nodachi (46647) for Wield */;

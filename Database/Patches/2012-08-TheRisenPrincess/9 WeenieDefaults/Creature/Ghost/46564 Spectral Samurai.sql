@@ -1,4 +1,6 @@
-/* Lightning */
+/* Lightning Version in Dungeon */
+/* No Luminance */
+
 DELETE FROM `weenie` WHERE `class_Id` = 46564;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -7,19 +9,19 @@ VALUES (46564, 'ace46564-spectralsamurai', 10, '2020-07-23 03:33:55') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46564,   1,         16) /* ItemType - Creature */
      , (46564,   2,         77) /* CreatureType - Ghost */
-     , (46564,   3,         39) /* PaletteTemplate - Black */	 
+     , (46564,   3,         21) /* PaletteTemplate - Gold */	 
      , (46564,   6,         -1) /* ItemsCapacity */
      , (46564,   7,         -1) /* ContainersCapacity */
      , (46564,  16,          1) /* ItemUseable - No */
-     , (46564,  25,        265) /* Level */
-     , (46564,  48,         41) /* 2H Weapon Skill */	 
+     , (46564,  25,        265) /* Level */ 
      , (46564,  68,          3) /* TargetingTactic - Random, Focused */
      , (46564,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46564, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (46564, 146,    2500000) /* XpOverride */
-     , (46564, 307,         10) /* DamageRating */
-     , (46564, 308,         10) /* DamageResistRating */
-     , (46564, 313,          5) /* CritRating */;
+     , (46564, 307,         20) /* DamageRating */
+     , (46564, 308,         15) /* DamageResistRating */
+     , (46564, 313,         15) /* CritRating */
+     , (46564, 316,         10) /* CritDamageResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46564,   1, True ) /* Stuck */
@@ -28,7 +30,6 @@ VALUES (46564,   1, True ) /* Stuck */
      , (46564,  12, True ) /* ReportCollisions */
      , (46564,  13, False) /* Ethereal */
      , (46564,  50, True ) /* NeverFailCasting */;
-
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46564,  12,     0.5) /* Shade */
@@ -55,7 +56,6 @@ VALUES (46564,  12,     0.5) /* Shade */
      , (46564, 125,       1) /* ResistHealthDrain */
      , (46564, 166,       1) /* ResistNether */;
 
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46564,   1, 'Spectral Samurai') /* Name */;
 
@@ -64,15 +64,11 @@ VALUES (46564,   1,   33561495) /* Setup */
      , (46564,   2,  150994945) /* MotionTable */
      , (46564,   3,  536870942) /* SoundTable */
      , (46564,   4,  805306368) /* CombatTable */
-	 , (46564,   7,  268437548) /* CLOTHINGBASE */
+	 , (46564,   7,  268437548) /* ClothingBase */
      , (46564,   6,   67108990) /* PaletteBase */
      , (46564,   8,  100671323) /* Icon */
      , (46564,  22,  872415269) /* PhysicsEffectTable */
      , (46564, 35,        2000) /* DeathTreasureType - Loot Tier: 8 */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46564, 8040, 1717436716, 10.7373, -60.8988, -11.8795, 0.0885279, 0, 0, -0.996074) /* PCAPRecordedLocation */
-/* @teleloc 0x665E012C [10.737300 -60.898800 -11.879500] 0.088528 0.000000 0.000000 -0.996074 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46564,   1, 500, 0, 0) /* Strength */
@@ -98,21 +94,21 @@ VALUES (46564,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,
      , (46564,  7,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (46564,  8,  4, 600, 0.75,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (46564,  6, 0, 3, 0, 520, 0, 0) /* MeleeDefense        Specialized */
+     , (46564,  7, 0, 3, 0, 360, 0, 0) /* MissileDefense      Specialized */
+     , (46564, 15, 0, 3, 0, 340, 0, 0) /* MagicDefense        Specialized */
+     , (46564, 31, 0, 3, 0, 410, 0, 0) /* CreatureEnchantment Specialized */
+     , (46564, 33, 0, 3, 0, 410, 0, 0) /* LifeMagic           Specialized */
+     , (46564, 34, 0, 2, 0, 410, 0, 0) /* WarMagic            Specialized */
+     , (46564, 41, 0, 3, 0, 540, 0, 0) /* TwoHandedCombat     Specialized */;
+
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46564,  1788,   2.02)  /* Eye of the Storm */
-     , (46564,  4426,   2.02)  /* Incantation of Lightning Arc */
-     , (46564,  4450,   2.02)  /* Incantation of Lightning Blast */
-     , (46564,  4483,   2.02)  /* Incantation of Lightning Vulnerability Other */;
+VALUES (46564,  1788,   2.05)  /* Eye of the Storm */
+     , (46564,  4426,   2.053)  /* Incantation of Lightning Arc */
+     , (46564,  4450,   2.056)  /* Incantation of Lightning Blast */
+     , (46564,  4483,   2.059)  /* Incantation of Lightning Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46564, 2, 46648,  1, 0, 0, False) /* Create  (46648) for Wield */
-	 , (46564, 9, 80155, 0, 0, 1, False) /* Broken Lever (Upper) (80155) for Wield */
-	 ;
-
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46564,  6, 0, 3, 0, 250, 0, 0) /* MeleeDefense        Specialized */
-     , (46564,  7, 0, 3, 0, 250, 0, 0) /* MissileDefense      Specialized */
-     , (46564, 15, 0, 3, 0, 250, 0, 0) /* MagicDefense        Specialized */
-     , (46564, 31, 0, 3, 0, 600, 0, 0) /* CreatureEnchantment Specialized */
-     , (46564, 33, 0, 3, 0, 600, 0, 0) /* LifeMagic           Specialized */
-     , (46564, 41, 0, 3, 0, 800, 0, 0) /* TwoHandedCombat     Specialized */;
+VALUES (46564, 2, 46648,  1, 0, 0, False) /* Create Spectral Lightning Nodachi (46648) for Wield */
+	 , (46564, 9, 80155,  0, 0, 1, False) /* Broken Lever (Upper) (80155) for Wield */;
