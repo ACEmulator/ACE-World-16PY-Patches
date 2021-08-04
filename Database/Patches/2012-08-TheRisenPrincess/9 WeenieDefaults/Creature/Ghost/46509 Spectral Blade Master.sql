@@ -34,24 +34,24 @@ VALUES (46509,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46509,  12,     0.5) /* PaletteBase */
-	, (46520,  13,     1.9) /* ArmorModVsSlash */
-     , (46520,  14,     1.4) /* ArmorModVsPierce */
-     , (46520,  15,     1.3) /* ArmorModVsBludgeon */
-     , (46520,  16,       2) /* ArmorModVsCold */
-     , (46520,  17,     0.9) /* ArmorModVsFire */
-     , (46520,  18,       1) /* ArmorModVsAcid */
-     , (46520,  19,     1.6) /* ArmorModVsElectric */
-     , (46520,  31,      16) /* VisualAwarenessRange */
-     , (46520,  34,       1) /* PowerupTime */
-     , (46520,  36,       1) /* ChargeSpeed */
-     , (46520,  64,     0.5) /* ResistSlash */
-     , (46520,  65,    0.75) /* ResistPierce */
-     , (46520,  66,    0.75) /* ResistBludgeon */
-     , (46520,  67,       1) /* ResistFire */
-     , (46520,  68,     0.4) /* ResistCold */
-     , (46520,  69,     0.9) /* ResistAcid */
-     , (46520,  70,    0.75) /* ResistElectric */
-	, (46509, 166,       1) /* ResistNether */
+	 , (46509,  13,     1.9) /* ArmorModVsSlash */
+     , (46509,  14,     1.4) /* ArmorModVsPierce */
+     , (46509,  15,     1.3) /* ArmorModVsBludgeon */
+     , (46509,  16,       2) /* ArmorModVsCold */
+     , (46509,  17,     0.9) /* ArmorModVsFire */
+     , (46509,  18,       1) /* ArmorModVsAcid */
+     , (46509,  19,     1.6) /* ArmorModVsElectric */
+     , (46509,  31,      16) /* VisualAwarenessRange */
+     , (46509,  34,       1) /* PowerupTime */
+     , (46509,  36,       1) /* ChargeSpeed */
+     , (46509,  64,     0.5) /* ResistSlash */
+     , (46509,  65,    0.75) /* ResistPierce */
+     , (46509,  66,    0.75) /* ResistBludgeon */
+     , (46509,  67,       1) /* ResistFire */
+     , (46509,  68,     0.4) /* ResistCold */
+     , (46509,  69,     0.9) /* ResistAcid */
+     , (46509,  70,    0.75) /* ResistElectric */
+	 , (46509, 166,       1) /* ResistNether */
      , (46509,  76,     0.5) /* Translucency */
      , (46509,  80,       3) /* AiUseMagicDelay */
      , (46509, 104,      10) /* ObviousRadarRange */

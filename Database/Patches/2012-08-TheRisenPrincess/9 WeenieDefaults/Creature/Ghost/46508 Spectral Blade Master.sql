@@ -33,7 +33,7 @@ VALUES (46508,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46508,  12,     0.5) /* PaletteBase */
-	, (46508,  13,     1.9) /* ArmorModVsSlash */
+	 , (46508,  13,     1.9) /* ArmorModVsSlash */
      , (46508,  14,     1.4) /* ArmorModVsPierce */
      , (46508,  15,     1.3) /* ArmorModVsBludgeon */
      , (46508,  16,       2) /* ArmorModVsCold */
@@ -55,7 +55,7 @@ VALUES (46508,  12,     0.5) /* PaletteBase */
      , (46508, 104,      10) /* ObviousRadarRange */
      , (46508, 122,       2) /* AiAcquireHealth */
      , (46508, 125,       1) /* ResistHealthDrain */
-	, (46508, 166,     1.5) /* ResistNether */	 ;
+	 , (46508, 166,     1.5) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46508,   1, 'Spectral Blade Master') /* Name */;
