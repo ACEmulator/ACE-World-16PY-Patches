@@ -51,8 +51,7 @@ VALUES (46570,  13,     1.5) /* ArmorModVsSlash */
      , (46570, 104,      10) /* ObviousRadarRange */
      , (46570, 122,       2) /* AiAcquireHealth */
      , (46570, 125,       1) /* ResistHealthDrain */
-	 , (46570, 166,     1.5) /* ResistNether */
-	 ;
+	 , (46570, 166,     1.5) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46570,   1, 'Spectral Blade Master') /* Name */;

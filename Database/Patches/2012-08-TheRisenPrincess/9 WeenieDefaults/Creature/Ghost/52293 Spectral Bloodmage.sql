@@ -31,8 +31,7 @@ VALUES (52293,   1, True ) /* Stuck */
      , (52293,  12, True ) /* ReportCollisions */
      , (52293,  13, False) /* Ethereal */
      , (52293,  50, True ) /* NeverFailCasting */
-     , (52293,  52, True ) /* Immobile */ 
-	 ;
+     , (52293,  52, True ) /* Immobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52293,  12,       0) /* Shade */
@@ -57,8 +56,7 @@ VALUES (52293,  12,       0) /* Shade */
      , (52293, 104,      10) /* ObviousRadarRange */
      , (52293, 122,       2) /* AiAcquireHealth */
      , (52293, 125,       1) /* ResistHealthDrain */
-	 , (52293, 166,    1.50) /* ResistNether */
-	 ;
+	 , (52293, 166,    1.50) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52293,   1, 'Spectral Bloodmage') /* Name */;
@@ -115,4 +113,4 @@ VALUES (52293,  3060,   0.75) /* Poison Blood */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52293, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */
-	 , (46568, 9, 82051,  1, 0, 0, False) /* Create  (82051) Broken Lever Middle for Treasure */	;
+	 , (46568, 9, 82051,  1, 0, 0, False) /* Create  (82051) Broken Lever Middle for Treasure */;

@@ -15,9 +15,7 @@ VALUES (82026,   1,         16) /* ItemType - Creature */
      , (82026,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (82026, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (82026, 146,    2500000) /* XpOverride */
-     , (82026, 267,        180) /* Life Span 3 mins */	 
-	 
-	 ;
+     , (82026, 267,        180) /* Life Span 3 mins */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (82026,   1, True ) /* Stuck */;
