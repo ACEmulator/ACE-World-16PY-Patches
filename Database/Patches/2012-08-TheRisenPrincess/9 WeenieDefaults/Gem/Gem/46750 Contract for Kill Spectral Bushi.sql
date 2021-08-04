@@ -37,8 +37,7 @@ VALUES (46750, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46750,   1, 'Contract for Kill: Spectral Bushi') /* Name */
-     , (46750,  14, 'Recommended Level: 200') /* Use */
-;
+     , (46750,  14, 'Recommended Level: 200') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46750,   1,   33557625) /* Setup */
