@@ -41,8 +41,7 @@ VALUES (46635,  21,       0) /* WeaponLength */
 	 , (46635,  62,     1.6) /* WeaponOffense */
      , (46635,  63,     1.5) /* DamageMod */
      , (46635,  76,     0.7) /* Translucency */   
-     , (46635, 136,     0.6) /* CriticalMultiplier */	 
-	 ;
+     , (46635, 136,     0.6) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46635,   1, 'Fire Longbow') /* Name */;
