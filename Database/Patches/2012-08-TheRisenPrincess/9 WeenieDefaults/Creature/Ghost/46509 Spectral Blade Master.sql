@@ -60,7 +60,7 @@ VALUES (46509,  12,     0.5) /* PaletteBase */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46509,   1, 'Spectral Blade Master') /* Name */
-	, (46509,  45, 'KillTaskSpectralClawsBlades0812') /* KillQuest */;
+	 , (46509,  45, 'KillTaskSpectralClawsBlades0812') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46509,   1,   33561479) /* Setup */
