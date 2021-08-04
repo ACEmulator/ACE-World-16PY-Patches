@@ -11,8 +11,7 @@ VALUES (82018,   1,      65536) /* ItemType - Portal */
      , (82018,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (82018, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (82018, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (82018, 267,         30) /* Life Span 30 Secs */	 
-	 ;
+     , (82018, 267,         30) /* Life Span 30 Secs */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (82018,   1, True ) /* Stuck */
