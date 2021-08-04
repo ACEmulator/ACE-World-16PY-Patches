@@ -36,8 +36,7 @@ VALUES (46748, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46748,   1, 'Contract for Kill: Spectral Minions') /* Name */
-     , (46748,  14, 'Recommended Level: 200') /* Use */
-;
+     , (46748,  14, 'Recommended Level: 200') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46748,   1,   33557625) /* Setup */
