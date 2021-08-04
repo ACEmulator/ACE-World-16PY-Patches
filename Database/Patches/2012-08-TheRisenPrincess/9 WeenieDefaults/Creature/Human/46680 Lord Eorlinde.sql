@@ -91,9 +91,10 @@ VALUES (46680,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,
      , (46680,  8,  4,  8, 0.75,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46680, 2, 38850,  1, 0, 0, False) /* Create Piercing Baton (38850) for Wield */
-	  ,(46680, 2, 44803,  1, 17, 0, False)
-      ,(46680, 2, 44977,  1, 17, 0, False);
+VALUES (46680, 2, 38850,  1,  0,      0, False) /* Create Piercing Baton (38850) for Wield */
+	  ,(46680, 2, 44803,  1, 17, 0.7324, False) /* Create Empyrean Over-robe (44803) for Wield */
+      ,(46680, 2, 44977,  1, 17, 0.7273, False) /* Create Lyceum Hood (44977) for Wield */
+      ,(46680, 2, 21153,  1, 21, 0.4286, False) /* Create Covenant Gauntlets (21153) for Wield */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46680,  31, 0, 2, 0, 149, 0, 0) /* CreatureMagic */
@@ -103,8 +104,8 @@ VALUES (46680,  31, 0, 2, 0, 149, 0, 0) /* CreatureMagic */
      , (46680,  45, 0, 2, 0, 132, 0, 0) /* LightWeapons */
      , (46680,  15, 0, 2, 0, 170, 0, 0) /* MagicDefense */
      , (46680,  16, 0, 2, 0, 149, 0, 0) /* ManaConversion */
-     , (46680,  6, 0, 2, 0, 132, 0, 0) /* MeleeDefense */
-     , (46680,  7, 0, 2, 0, 149, 0, 0) /* MissileDefense */
+     , (46680,   6, 0, 2, 0, 132, 0, 0) /* MeleeDefense */
+     , (46680,   7, 0, 2, 0, 149, 0, 0) /* MissileDefense */
      , (46680,  41, 0, 2, 0, 132, 0, 0) /* TwoHanded */
      , (46680,  43, 0, 2, 0, 149, 0, 0) /* VoidMagic */
      , (46680,  34, 0, 2, 0, 149, 0, 0) /* WarMagic */;
