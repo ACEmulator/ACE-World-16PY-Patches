@@ -22,8 +22,7 @@ VALUES (46630,   1,        256) /* ItemType - MissileWeapon */
      , (46630,  50,          1) /* AmmoType - Arrow */
      , (46630,  51,          3) /* CombatUse - Ammo */
      , (46630,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (46630, 151,          2) /* HookType - Wall */
-	 ;
+     , (46630, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46630,  69, False) /* IsSellable */;
