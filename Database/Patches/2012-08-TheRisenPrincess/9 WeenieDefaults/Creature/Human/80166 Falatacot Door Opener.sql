@@ -21,8 +21,7 @@ VALUES (80166,   1,         16) /* ItemType - Creature */
      , (80166, 133,          0) /* ShowableOnRadar - Undefined */
      , (80166, 146,        307) /* XpOverride */
      , (80166, 290,          1) /* HearLocalSignals */
-     , (80166, 291,         50) /* HearLocalSignalsRadius */
-	 ;
+     , (80166, 291,         50) /* HearLocalSignalsRadius */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80166,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (80166,   1, True ) /* Stuck */
      , (80166,  52, True ) /* AiImmobile */
      , (80166,  83, True ) /* NpcLooksLikeObject */
      , (80166, 103, True ) /* NonProjectileMagicImmune */
-     , (80166, 118, True ) /* NeverAttack */ 
-	 ;
+     , (80166, 118, True ) /* NeverAttack */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80166,   1,       5) /* HeartbeatInterval */

@@ -17,8 +17,7 @@ VALUES (82012,   1,         16) /* ItemType - Creature */
      , (82012, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (82012, 146,    1100000) /* XpOverride */
      , (82012, 188,         11) /* HeritageGroup - Undead */
-     , (82012, 267,         60) /* Lifespan */ 
-	 ;
+     , (82012, 267,         60) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (82012,   1, True ) /* Stuck */
@@ -53,8 +52,7 @@ VALUES (82012,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (82012,   1, 'Freed Temple Exarch') /* Name */
-	 , (82012,   4, 'Undead') /* Heritage Group */
-;
+	 , (82012,   4, 'Undead') /* Heritage Group */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (82012,   1,   33561245) /* Setup */
@@ -69,9 +67,7 @@ VALUES (82012,   1,   33561245) /* Setup */
      , (82012,  15,   67116989) /* HairPalette */
      , (82012,  16,   67116975) /* EyesPalette */
      , (82012,  17,   67116949) /* SkinPalette */
-     , (82012,  18,   16795494) /* HeadObject */
-	 
-	 ;
+     , (82012,  18,   16795494) /* HeadObject */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (82012, 8040, 1239679019, 138.205, 65.9689, 12.005, 0.146352, 0, 0, -0.989233) /* PCAPRecordedLocation */
