@@ -12,32 +12,24 @@ VALUES (46370,    1,          1) /* ItemType - MeleeWeapon */
      , (46370,   18,         32) /* UiEffects - Fire */	 
      , (46370,   19,        125) /* Value */
      , (46370,   33,         -2) /* Bonded - Destroy */
-     , (46370,   37,       9999) /* ResistItemAppraisal */
-     , (46370,   44,         40) /* Damage */
+     , (46370,   44,        180) /* Damage */
      , (46370,   45,         16) /* DamageType - Fire */
      , (46370,   46,          2) /* DefaultCombatStyle - OneHanded */
      , (46370,   47,          4) /* AttackType - Slash */
      , (46370,   48,         45) /* WeaponSkill - LightWeapons */	 
-     , (46370,   49,          0) /* WeaponTime */
+     , (46370,   49,         20) /* WeaponTime */
      , (46370,   51,          1) /* CombatUse - Melee */
      , (46370,   93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46370,  114,          1) /* Attuned - Attuned */;
+     , (46370,  353,          1) /* WeaponType - Unarmed */;
 	 
-
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46370,  22, False ) /* Inscribable */
-     , (46370,  65, True )  /* IgnoreMagicResist */
-     , (46370,  66, True )  /* IgnoreMagicArmor */;
+VALUES (46370,  22, True) /* Inscribable */;
 	 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46370,  12,       0) /* Shade */
-     , (46370,  21,       1) /* WeaponLength */
-     , (46370,  22,    0.25) /* DamageVariance */
-     , (46370,  26,       0) /* MaximumVelocity */
+     , (46370,  22,    0.75) /* DamageVariance */
      , (46370,  29,       1) /* WeaponDefense */
-     , (46370,  39,    0.75) /* DefaultScale */
      , (46370,  62,       1) /* WeaponOffense */
-     , (46370,  63,       1) /* DamageMod */
 	 , (46370,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
