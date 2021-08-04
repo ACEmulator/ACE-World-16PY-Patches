@@ -91,7 +91,7 @@ VALUES (46680,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,
      , (46680,  8,  4,  8, 0.75,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46680, 2, 38850,  1,  0,      0, False) /* Create Piercing Baton (38850) for Wield */
+VALUES (46680, 2, 38850,  1, 21,    0.2, False) /* Create Piercing Baton (38850) for Wield */
 	  ,(46680, 2, 44803,  1, 17, 0.7324, False) /* Create Empyrean Over-robe (44803) for Wield */
       ,(46680, 2, 44977,  1, 17, 0.7273, False) /* Create Lyceum Hood (44977) for Wield */
       ,(46680, 2, 21153,  1, 21, 0.4286, False) /* Create Covenant Gauntlets (21153) for Wield */
