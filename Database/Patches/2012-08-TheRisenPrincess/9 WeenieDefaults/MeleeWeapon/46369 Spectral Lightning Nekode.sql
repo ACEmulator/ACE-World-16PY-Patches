@@ -37,7 +37,7 @@ VALUES (46369,  12,       0) /* Shade */
      , (46369,  39,    0.75) /* DefaultScale */
      , (46369,  62,       1) /* WeaponOffense */
      , (46369,  63,       1) /* DamageMod */
-	 , (46369,  76,     0.5) /* Translucency */	 ;
+	 , (46369,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46369,   1,   33555991) /* Setup */

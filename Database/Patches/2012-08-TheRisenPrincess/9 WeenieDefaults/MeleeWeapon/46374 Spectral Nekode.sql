@@ -37,7 +37,7 @@ VALUES (46374,  12,       0) /* Shade */
      , (46374,  39,    0.85) /* DefaultScale */
      , (46374,  62,       1) /* WeaponOffense */
      , (46374,  63,       1) /* DamageMod */
-	 , (46374,  76,     0.5) /* Translucency */	 ;
+	 , (46374,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46374,   1, 'Spectral Nekode') /* Name */;
