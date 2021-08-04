@@ -32,8 +32,7 @@ VALUES (45777,  13,       1) /* ArmorModVsSlash */
      , (45777,  68,       1) /* ResistCold */
      , (45777,  69,       1) /* ResistAcid */
      , (45777,  70,       1) /* ResistElectric */
-	 , (45777,  76,     0.5) /* Translucency */
-	 ;
+	 , (45777,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45777,   1, 'Apparition of Hoshino Kei') /* Name */;
@@ -46,8 +45,7 @@ VALUES (45777,   1,   33561496) /* Setup */
      , (45777,   7,  268437564) /* CLOTHINGBASE_DID */	  
      , (45777,   8,  100667446) /* Icon */
      , (45777,  22,  872415272) /* PhysicsEffectTable */
-     , (45777,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */	 
-	 ;
+     , (45777,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (45777, 8040, 1498284594, 191.1419, -16.7028, -77.995, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */

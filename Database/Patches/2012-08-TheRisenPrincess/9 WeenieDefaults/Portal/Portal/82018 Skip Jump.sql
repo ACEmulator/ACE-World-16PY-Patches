@@ -25,8 +25,7 @@ VALUES (82018,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (82018,  39,    0.75) /* DefaultScale */
-     , (82018,  54,    -0.1) /* UseRadius */
-	 ;
+     , (82018,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (82018,   1, 'Skip Jump') /* Name */;
