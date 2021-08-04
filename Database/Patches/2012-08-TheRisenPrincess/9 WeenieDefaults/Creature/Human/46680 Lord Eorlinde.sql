@@ -94,7 +94,9 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (46680, 2, 38850,  1,  0,      0, False) /* Create Piercing Baton (38850) for Wield */
 	  ,(46680, 2, 44803,  1, 17, 0.7324, False) /* Create Empyrean Over-robe (44803) for Wield */
       ,(46680, 2, 44977,  1, 17, 0.7273, False) /* Create Lyceum Hood (44977) for Wield */
-      ,(46680, 2, 21153,  1, 21, 0.4286, False) /* Create Covenant Gauntlets (21153) for Wield */;
+      ,(46680, 2, 21153,  1, 21, 0.4286, False) /* Create Covenant Gauntlets (21153) for Wield */
+      ,(46680, 2,   127,  1, 17, 0.9818, False) /* Create Pants (127) for Wield */
+      ,(46680, 2,   130,  1, 17,      1, False) /* Create Shirt (130) for Wield */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46680,  31, 0, 2, 0, 149, 0, 0) /* CreatureMagic */
