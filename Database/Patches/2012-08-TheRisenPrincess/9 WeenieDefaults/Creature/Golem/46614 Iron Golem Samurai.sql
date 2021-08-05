@@ -1,5 +1,3 @@
-/* No Luminence or Quest */
-
 DELETE FROM `weenie` WHERE `class_Id` = 46614;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -12,24 +10,17 @@ VALUES (46614,   1,         16) /* ItemType - Creature */
      , (46614,   6,         -1) /* ItemsCapacity */
      , (46614,   7,         -1) /* ContainersCapacity */
      , (46614,  16,          1) /* ItemUseable - No */
-     , (46614,  25,        265) /* Level */
-     , (46614,  48,         41) /* 2H Weapon Skill */	 
+     , (46614,  25,        265) /* Level */	 
      , (46614,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (46614,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46614, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46614, 146,    2500000) /* XpOverride */
-     , (46614, 307,         10) /* DamageRating */
-     , (46614, 308,         10) /* DamageResistRating */
-     , (46614, 313,          5) /* CritRating */
-     , (46614, 316,          5) /* CritDamageResistRating */;
+     , (46614, 146,    2500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46614,   1, True ) /* Stuck */
-     , (46614,   6, True ) /* AiUsesMana */
      , (46614,  11, False) /* IgnoreCollisions */
      , (46614,  12, True ) /* ReportCollisions */
-     , (46614,  13, False) /* Ethereal */
-     , (46614,  50, True ) /* NeverFailCasting */;
+     , (46614,  13, False) /* Ethereal */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46614,   1,       5) /* HeartbeatInterval */
@@ -37,7 +28,7 @@ VALUES (46614,   1,       5) /* HeartbeatInterval */
      , (46614,   3,     0.9) /* HealthRate */
      , (46614,   4,     0.5) /* StaminaRate */
      , (46614,   5,       2) /* ManaRate */
-     , (46614,  12,  0.1429) /* Shade */
+     , (46614,  12,  0.0001) /* Shade */
      , (46614,  13,     1.3) /* ArmorModVsSlash */
      , (46614,  14,     0.9) /* ArmorModVsPierce */
      , (46614,  15,     1.3) /* ArmorModVsBludgeon */
@@ -55,8 +46,7 @@ VALUES (46614,   1,       5) /* HeartbeatInterval */
      , (46614,  68,    0.65) /* ResistCold */
      , (46614,  69,       1) /* ResistAcid */
      , (46614,  70,     0.4) /* ResistElectric */
-	, (46614, 166,       1) /* ResistNether */
-     , (46614,  80,       3) /* AiUseMagicDelay */
+	 , (46614, 166,       1) /* ResistNether */
      , (46614, 104,      10) /* ObviousRadarRange */
      , (46614, 122,       2) /* AiAcquireHealth */
      , (46614, 125,       1) /* ResistHealthDrain */;
@@ -103,9 +93,9 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (46614,  6, 0, 2, 0, 390, 0, 0) /* MeleeDefense         */
      , (46614,  7, 0, 2, 0, 340, 0, 0) /* MissileDefense       */
      , (46614, 15, 0, 2, 0, 364, 0, 0) /* MagicDefense         */
-     , (46614, 31, 0, 2, 0, 466, 0, 0) /* CreatureEnchantment  */
-     , (46614, 33, 0, 2, 0, 466, 0, 0) /* LifeMagic            */
      , (46614, 41, 0, 2, 0, 526, 0, 0) /* TwoHandedCombat      */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46614, 2, 46604,  1, 0,    0, False) /* Create Tetsubo (46604) for Wield */;
+VALUES (46614, 2, 46604,  1, 0,    0, False) /* Create Tetsubo (46604) for Wield */
+     , (46614, 9,  6353,  0, 0, 0.10, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (46614, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */;

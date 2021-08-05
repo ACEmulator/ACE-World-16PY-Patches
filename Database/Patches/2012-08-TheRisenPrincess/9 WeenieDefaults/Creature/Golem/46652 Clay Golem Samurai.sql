@@ -1,4 +1,3 @@
-/* Gives Luminance and Quest kill */
 DELETE FROM `weenie` WHERE `class_Id` = 46652;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -11,26 +10,18 @@ VALUES (46652,   1,         16) /* ItemType - Creature */
      , (46652,   6,         -1) /* ItemsCapacity */
      , (46652,   7,         -1) /* ContainersCapacity */
      , (46652,  16,          1) /* ItemUseable - No */
-     , (46652,  25,        265) /* Level */
-     , (46652,  48,         41) /* 2H Weapon Skill */	 	 	 
+     , (46652,  25,        265) /* Level */	 	 	 
      , (46652,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (46652,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (46652, 101,        263) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, DualWield */
      , (46652, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46652, 146,    2500000) /* XpOverride */
-     , (46652, 307,      15) /* DamageRating */
-     , (46652, 308,      10) /* DamageResistRating */
-     , (46652, 313,      10) /* CritRating */
-     , (46652, 316,       5) /* CritDamageResistRating */	  
-	, (46652, 332,      200) /* LuminanceAward */;
+     , (46652, 146,    2500000) /* XpOverride */	  
+	 , (46652, 332,        200) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46652,   1, True ) /* Stuck */
-     , (46652,   6, True ) /* AiUsesMana */
      , (46652,  11, False) /* IgnoreCollisions */
      , (46652,  12, True ) /* ReportCollisions */
-     , (46652,  13, False) /* Ethereal */
-     , (46652,  50, True ) /* NeverFailCasting */;
+     , (46652,  13, False) /* Ethereal */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46652,   1,       5) /* HeartbeatInterval */
@@ -38,7 +29,7 @@ VALUES (46652,   1,       5) /* HeartbeatInterval */
      , (46652,   3,     0.9) /* HealthRate */
      , (46652,   4,     0.5) /* StaminaRate */
      , (46652,   5,       2) /* ManaRate */
-     , (46652,  12,  0.1429) /* Shade */
+     , (46652,  12,  0.0001) /* Shade */
      , (46652,  13,     1.3) /* ArmorModVsSlash */
      , (46652,  14,     1.3) /* ArmorModVsPierce */
      , (46652,  15,     0.9) /* ArmorModVsBludgeon */
@@ -56,8 +47,7 @@ VALUES (46652,   1,       5) /* HeartbeatInterval */
      , (46652,  68,       1) /* ResistCold */
      , (46652,  69,     0.7) /* ResistAcid */
      , (46652,  70,     0.4) /* ResistElectric */
-	, (46652, 166,       1) /* ResistNether */
-     , (46652,  80,       3) /* AiUseMagicDelay */
+     , (46652, 166,       1) /* ResistNether */
      , (46652, 104,      10) /* ObviousRadarRange */
      , (46652, 122,       2) /* AiAcquireHealth */
      , (46652, 125,       1) /* ResistHealthDrain */;
@@ -65,7 +55,6 @@ VALUES (46652,   1,       5) /* HeartbeatInterval */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46652,   1, 'Clay Golem Samurai') /* Name */
 	 , (46652,  45, 'KillTaskGolemSamurai0812') /* KillQuest */;
-
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46652,   1,   33554433) /* Setup */
@@ -95,8 +84,6 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (46652,  6, 0, 2, 0, 390, 0, 0) /* MeleeDefense         */
      , (46652,  7, 0, 2, 0, 340, 0, 0) /* MissileDefense       */
      , (46652, 15, 0, 2, 0, 364, 0, 0) /* MagicDefense         */
-     , (46652, 31, 0, 2, 0, 466, 0, 0) /* CreatureEnchantment  */
-     , (46652, 33, 0, 2, 0, 466, 0, 0) /* LifeMagic            */
      , (46652, 41, 0, 2, 0, 526, 0, 0) /* TwoHandedCombat      */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
@@ -111,4 +98,6 @@ VALUES (46652,  0,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,
      , (46652,  8,  4, 90, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46652, 2, 46606,  1, 0, 0, False) /* Create Fire-hardened Clay Nodachi (46606) for Wield */;
+VALUES (46652, 2, 46606,  1, 0,    0, False) /* Create Fire-hardened Clay Nodachi (46606) for Wield */
+     , (46652, 9,  6353,  0, 0, 0.10, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (46652, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */;

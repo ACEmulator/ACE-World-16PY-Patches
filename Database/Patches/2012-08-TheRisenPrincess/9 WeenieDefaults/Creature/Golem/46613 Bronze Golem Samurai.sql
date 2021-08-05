@@ -1,4 +1,3 @@
-/* No Luminence or Quest */
 DELETE FROM `weenie` WHERE `class_Id` = 46613;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -6,30 +5,22 @@ VALUES (46613, 'ace46613-bronzegolemsamurai', 10, '2020-11-16 05:18:57') /* Crea
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46613,   1,         16) /* ItemType - Creature */
-     , (46613,   2,         77) /* CreatureType - Ghost */
-     , (46613,   3,         27) /* PaletteBase - Black */
+     , (46613,   2,         13) /* CreatureType - Golem */
+     , (46613,   3,         27) /* PaletteTemplate - DarkGreenMetal */
      , (46613,   6,         -1) /* ItemsCapacity */
      , (46613,   7,         -1) /* ContainersCapacity */
      , (46613,  16,          1) /* ItemUseable - No */
-     , (46613,  25,        265) /* Level */
-     , (46613,  48,         41) /* 2H Weapon Skill */	 	 
+     , (46613,  25,        265) /* Level */ 	 
      , (46613,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (46613,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (46613, 101,        263) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, DualWield */
      , (46613, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46613, 146,    2500000) /* XpOverride */
-     , (46613, 307,         10) /* DamageRating */
-     , (46613, 308,         10) /* DamageResistRating */
-     , (46613, 313,          5) /* CritRating */
-     , (46613, 316,          5) /* CritDamageResistRating */;
+     , (46613, 146,    2500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46613,   1, True ) /* Stuck */
-     , (46613,   6, True ) /* AiUsesMana */
      , (46613,  11, False) /* IgnoreCollisions */
      , (46613,  12, True ) /* ReportCollisions */
-     , (46613,  13, False) /* Ethereal */
-     , (46613,  50, True ) /* NeverFailCasting */;
+     , (46613,  13, False) /* Ethereal */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46613,   1,       5) /* HeartbeatInterval */
@@ -37,7 +28,7 @@ VALUES (46613,   1,       5) /* HeartbeatInterval */
      , (46613,   3,     0.9) /* HealthRate */
      , (46613,   4,     0.5) /* StaminaRate */
      , (46613,   5,       2) /* ManaRate */
-     , (46613,  12,       0) /* Shade */
+     , (46613,  12,     0.5) /* Shade */
      , (46613,  13,     1.3) /* ArmorModVsSlash */
      , (46613,  14,       2) /* ArmorModVsPierce */
      , (46613,  15,     1.4) /* ArmorModVsBludgeon */
@@ -55,8 +46,7 @@ VALUES (46613,   1,       5) /* HeartbeatInterval */
      , (46613,  68,     0.9) /* ResistCold */
      , (46613,  69,     0.4) /* ResistAcid */
      , (46613,  70,       1) /* ResistElectric */
-	, (46613, 166,       1) /* ResistNether */
-     , (46613,  80,       3) /* AiUseMagicDelay */
+	 , (46613, 166,       1) /* ResistNether */
      , (46613, 104,      10) /* ObviousRadarRange */
      , (46613, 122,       2) /* AiAcquireHealth */
      , (46613, 125,       1) /* ResistHealthDrain */;
@@ -102,13 +92,11 @@ VALUES (46613,   1,  5000, 0, 0, 5250) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46613,  6, 0, 2, 0, 550, 0, 0) /* MeleeDefense         */
      , (46613,  7, 0, 2, 0, 340, 0, 0) /* MissileDefense       */
-     , (46613, 15, 0, 2, 0, 364, 0, 0) /* MagicDefense         */
-     , (46613, 31, 0, 2, 0, 466, 0, 0) /* CreatureEnchantment  */
-     , (46613, 33, 0, 2, 0, 466, 0, 0) /* LifeMagic            */
-     , (46613, 41, 0, 2, 0, 526, 0, 0) /* TwoHandedCombat      */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46613,  5943,   2.02) /* Bleeding Blow */;
+     , (46613, 15, 0, 2, 0, 365, 0, 0) /* MagicDefense         */
+     , (46613, 41, 0, 2, 0, 520, 0, 0) /* TwoHandedCombat      */
+     , (46613, 52, 0, 2, 0, 520, 0, 0) /* DirtyFighting        */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46613, 2, 46605,  1, 0,    1, False) /* Create Magari Yari (46605) for Wield */;
+VALUES (46613, 2, 46605,  1, 0,    1, False) /* Create Magari Yari (46605) for Wield */
+     , (46613, 9,  6353,  0, 0, 0.10, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (46613, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */;

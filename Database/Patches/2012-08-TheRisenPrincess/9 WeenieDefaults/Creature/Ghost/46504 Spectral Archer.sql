@@ -1,5 +1,5 @@
 /* Lightning Version */
-/* No Luminance or Quest kill */
+/* No Luminance and No Quest kill */
 
 DELETE FROM `weenie` WHERE `class_Id` = 46504;
 
@@ -25,9 +25,7 @@ VALUES (46504,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46504,   1, True ) /* Stuck */
-     , (46504,  52, True ) /* AiImmobile */	     
-     , (46504,  65, True ) /* IgnoreMagicResist */
-     , (46504,  66, True ) /* IgnoreMagicArmor */;	 
+     , (46504,  52, True ) /* AiImmobile */;	 
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46504,   1,       5) /* HeartbeatInterval */
@@ -69,8 +67,7 @@ VALUES (46504,   1,   33561495) /* Setup */
      , (46504,   4,  805306368) /* CombatTable */
      , (46504,   7,  268437543) /* ClothingBase */
      , (46504,   8,  100669124) /* Icon */
-     , (46504,  22,  872415269) /* PhysicsEffectTable */
-     , (46504,  32,       2104) /* WieldedTreasureType - */ 	 
+     , (46504,  22,  872415269) /* PhysicsEffectTable */	 
      , (46504,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -102,3 +99,7 @@ VALUES (46504,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,
      , (46504,  6,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (46504,  7,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (46504,  8,  4, 200, 0.75,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46504, 2, 46633,  1, 0, 0, False) /* Create Lightning Longbow (46633) for Wield */
+     , (46504, 2, 46629,  1, 0, 0, False) /* Create Greater Deadly Lightning Arrow (46639) for Wield */;

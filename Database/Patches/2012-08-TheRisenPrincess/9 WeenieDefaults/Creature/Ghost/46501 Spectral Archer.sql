@@ -1,3 +1,6 @@
+/* Fire Version */
+/* Luminance and Quest kill */
+
 DELETE FROM `weenie` WHERE `class_Id` = 46501;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -16,16 +19,14 @@ VALUES (46501,   1,         16) /* ItemType - Creature */
      , (46501, 101,     524288) /* AiAllowedCombatStyle - StubbornMissile */
      , (46501, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (46501, 146,    1850000) /* XpOverride */
-     , (46501, 307,         15) /* DamageRating */
+     , (46501, 307,         10) /* DamageRating */
      , (46501, 308,         10) /* DamageResistRating */
      , (46501, 313,          5) /* CritRating */
      , (46501, 332,        140) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46501,   1, True ) /* Stuck */
-     , (46501,  52, True ) /* AiImmobile */
-     , (46501,  65, True ) /* IgnoreMagicResist */
-     , (46501,  66, True ) /* IgnoreMagicArmor */;
+     , (46501,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46501,   1,       5) /* HeartbeatInterval */
@@ -67,9 +68,6 @@ VALUES (46501,   1,   33561494) /* Setup */
      , (46501,   7,  268437543) /* ClothingBase */
      , (46501,   8,  100669124) /* Icon */
      , (46501,  22,  872415269) /* PhysicsEffectTable */
-     , (46501,  32,       2102) /* WieldedTreasureType - 
-                                   Wield Fire Longbow (46635) | Probability: 100%
-                                   Wield 3000x Greater Deadly Fire Arrow (46631) | Probability: 100% */
      , (46501,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -101,3 +99,7 @@ VALUES (46501,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,
      , (46501,  6,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (46501,  7,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (46501,  8,  4, 200, 0.75,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46501, 2, 46635,  1, 0, 0, False) /* Create Fire Longbow (46635) for Wield */
+     , (46501, 2, 46631,  1, 0, 0, False) /* Create Greater Deadly Fire Arrow (46631) for Wield */;

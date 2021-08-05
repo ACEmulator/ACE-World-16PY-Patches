@@ -9,38 +9,37 @@ VALUES (46515, 'ace46515-spectralbushi', 10, '2020-07-23 03:33:54') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46515,   1,      16) /* ItemType - Creature */
      , (46515,   2,      77) /* CreatureType - Ghost */
-     , (46515,   3,      14) /* PALETTE_TEMPLATE_INT Red */	 
+     , (46515,   3,       8) /* PaletteTemplate */
      , (46515,   6,      -1) /* ItemsCapacity */
      , (46515,   7,      -1) /* ContainersCapacity */
      , (46515,  16,       1) /* ItemUseable - No */
      , (46515,  25,     240) /* Level */
-     , (46515,  48,      44) /* Heavy Weapon Skill */	 	 
+     , (46515,  48,      44) /* Heavy Weapon Skill */
      , (46515,  68,       3) /* TargetingTactic - Random, Focused */
      , (46515,  93,    1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46515, 133,       2) /* ShowableOnRadar - ShowMovement */
-     , (46515, 146, 1850000) /* XpOverride */     
-	, (46515, 307,      10) /* DamageRating */
+     , (46515, 146, 1850000) /* XpOverride */
+     , (46515, 307,      10) /* DamageRating */
      , (46515, 308,      10) /* DamageResistRating */
      , (46515, 313,       5) /* CritRating */
      , (46515, 316,       5) /* CritDamageResistRating */
-	, (46515, 332,     140) /* LuminanceAward */;
+     , (46515, 332,     140) /* LuminanceAward */;
 	 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46515,   1, True ) /* Stuck */
      , (46515,   6, True ) /* AiUsesMana */
      , (46515,  11, False) /* IgnoreCollisions */
      , (46515,  12, True ) /* ReportCollisions */
-     , (46515,  13, False) /* Ethereal */
-     , (46515,  50, True ) /* NeverFailCasting */;
-	 
+     , (46515,  13, False) /* Ethereal */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46515,   1,       5) /* HeartbeatInterval */
      , (46515,   2,       0) /* HeartbeatTimestamp */
      , (46515,   3,     0.2) /* HealthRate */
      , (46515,   4,     0.5) /* StaminaRate */
      , (46515,   5,       2) /* ManaRate */
-     , (46515,  12,       0) /* Shade */	
-	, (46515,  13,       1) /* ArmorModVsSlash */
+     , (46515,  12,     0.5) /* Shade */
+     , (46515,  13,       1) /* ArmorModVsSlash */
      , (46515,  14,       1) /* ArmorModVsPierce */
      , (46515,  15,       1) /* ArmorModVsBludgeon */
      , (46515,  16,    0.65) /* ArmorModVsCold */
@@ -57,11 +56,11 @@ VALUES (46515,   1,       5) /* HeartbeatInterval */
      , (46515,  68,    0.65) /* ResistCold */
      , (46515,  69,     0.3) /* ResistAcid */
      , (46515,  70,     0.3) /* ResistElectric */
-	, (46515, 166,       1) /* ResistNether */
      , (46515,  80,       3) /* AiUseMagicDelay */
      , (46515, 104,      10) /* ObviousRadarRange */
      , (46515, 122,       2) /* AiAcquireHealth */
-     , (46515, 125,       1) /* ResistHealthDrain */;
+     , (46515, 125,       1) /* ResistHealthDrain */
+     , (46515, 166,       1) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46515,   1, 'Spectral Bushi') /* Name */
@@ -73,7 +72,7 @@ VALUES (46515,  1,  33561494) /* Setup */
      , (46515,  3, 536870942) /* SoundTable */
      , (46515,  4, 805306368) /* CombatTable */
      , (46515,  6,  67108990) /* PaletteBase */
-	 , (46515,  7, 268437545) /* CLOTHINGBASE_DID  */
+     , (46515,  7, 268437545) /* ClothingBase */
      , (46515,  8, 100671323) /* Icon */
      , (46515, 22, 872415269) /* PhysicsEffectTable */
      , (46515, 35,      2000) /* DeathTreasureType - Loot Tier: 8 */;
@@ -102,11 +101,11 @@ VALUES (46515,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,
      , (46515,  7,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (46515,  8,  4, 200, 0.75,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46515, 2, 46366,  1, 0, 0, False) /* Create  (46366) for Wield */;
-
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46515,  6, 0, 2, 0, 567, 0, 0) /* MeleeDefense    */
      , (46515,  7, 0, 2, 0, 344, 0, 0) /* MissileDefense  */
      , (46515, 15, 0, 2, 0, 364, 0, 0) /* MagicDefense    */
      , (46515, 44, 0, 2, 0, 532, 0, 0) /* HeavyWeapons    */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46515, 2, 46366,  1, 0, 0, False) /* Create  (46366) for Wield */;

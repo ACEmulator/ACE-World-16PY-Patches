@@ -1,3 +1,6 @@
+/* Frost Version */
+/* No Luminance and No Quest kill */
+
 DELETE FROM `weenie` WHERE `class_Id` = 46502;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -22,9 +25,7 @@ VALUES (46502,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46502,   1, True ) /* Stuck */
-     , (46502,  52, True ) /* AiImmobile */
-     , (46502,  65, True ) /* IgnoreMagicResist */
-     , (46502,  66, True ) /* IgnoreMagicArmor */;
+     , (46502,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46502,   1,       5) /* HeartbeatInterval */
@@ -65,7 +66,6 @@ VALUES (46502,   1,   33561478) /* Setup */
      , (46502,   7,  268437543) /* ClothingBase */
      , (46502,   8,  100669124) /* Icon */
      , (46502,  22,  872415269) /* PhysicsEffectTable */
-     , (46502,  32,       2103) /* WieldedTreasureType */
      , (46502,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -97,3 +97,7 @@ VALUES (46502,  0,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,
      , (46502,  6,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (46502,  7,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (46502,  8,  4, 200, 0.75,  400,  200,  200,  200,  200,  200,  200, 24650200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46502, 2, 46636,  1, 0, 0, False) /* Create Frost Longbow (46636) for Wield */
+     , (46502, 2, 46632,  1, 0, 0, False) /* Create Greater Deadly Frost Arrow (46632) for Wield */;

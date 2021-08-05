@@ -1,4 +1,3 @@
-/* Luminence and Quest */
 DELETE FROM `weenie` WHERE `class_Id` = 46653;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -11,25 +10,18 @@ VALUES (46653,   1,         16) /* ItemType - Creature */
      , (46653,   6,         -1) /* ItemsCapacity */
      , (46653,   7,         -1) /* ContainersCapacity */
      , (46653,  16,          1) /* ItemUseable - No */
-     , (46653,  25,        265) /* Level */
-     , (46653,  48,         41) /* 2H Weapon Skill */	 	 
+     , (46653,  25,        265) /* Level */ 	 
      , (46653,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (46653,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46653, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46653, 146,    2500000) /* XpOverride */
-     , (46653, 307,         15) /* DamageRating */
-     , (46653, 308,         10) /* DamageResistRating */
-     , (46653, 313,         10) /* CritRating */
-     , (46653, 316,          5) /* CritDamageResistRating */	  
-	, (46653, 332,        200) /* LuminanceAward */;
+     , (46653, 146,    2500000) /* XpOverride */	  
+	 , (46653, 332,        200) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46653,   1, True ) /* Stuck */
-     , (46653,   6, True ) /* AiUsesMana */
      , (46653,  11, False) /* IgnoreCollisions */
      , (46653,  12, True ) /* ReportCollisions */
-     , (46653,  13, False) /* Ethereal */
-     , (46653,  50, True ) /* NeverFailCasting */;
+     , (46653,  13, False) /* Ethereal */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46653,   1,       5) /* HeartbeatInterval */
@@ -37,7 +29,7 @@ VALUES (46653,   1,       5) /* HeartbeatInterval */
      , (46653,   3,     0.9) /* HealthRate */
      , (46653,   4,     0.5) /* StaminaRate */
      , (46653,   5,       2) /* ManaRate */
-     , (46653,  12,    0.25) /* Shade */
+     , (46653,  12,  0.0001) /* Shade */
      , (46653,  13,     1.3) /* ArmorModVsSlash */
      , (46653,  14,     0.9) /* ArmorModVsPierce */
      , (46653,  15,     1.3) /* ArmorModVsBludgeon */
@@ -55,8 +47,7 @@ VALUES (46653,   1,       5) /* HeartbeatInterval */
      , (46653,  68,    0.65) /* ResistCold */
      , (46653,  69,       1) /* ResistAcid */
      , (46653,  70,     0.4) /* ResistElectric */
-	, (46653, 166,       1) /* ResistNether */
-     , (46653,  80,       3) /* AiUseMagicDelay */
+	 , (46653, 166,       1) /* ResistNether */
      , (46653, 104,      10) /* ObviousRadarRange */
      , (46653, 122,       2) /* AiAcquireHealth */
      , (46653, 125,       1) /* ResistHealthDrain */;
@@ -93,8 +84,6 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (46653,  6, 0, 2, 0, 390, 0, 0) /* MeleeDefense         */
      , (46653,  7, 0, 2, 0, 340, 0, 0) /* MissileDefense       */
      , (46653, 15, 0, 2, 0, 364, 0, 0) /* MagicDefense         */
-     , (46653, 31, 0, 2, 0, 466, 0, 0) /* CreatureEnchantment  */
-     , (46653, 33, 0, 2, 0, 466, 0, 0) /* LifeMagic            */
      , (46653, 41, 0, 2, 0, 526, 0, 0) /* TwoHandedCombat      */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
@@ -109,4 +98,6 @@ VALUES (46653,  0,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,
      , (46653,  8,  4, 90, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46653, 2, 46604,  1, 0, 0, False) /* Create Tetsubo (46604) for Wield */;
+VALUES (46653, 2, 46604,  1, 0,    0, False) /* Create Tetsubo (46604) for Wield */
+     , (46653, 9,  6353,  0, 0, 0.10, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (46653, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */;

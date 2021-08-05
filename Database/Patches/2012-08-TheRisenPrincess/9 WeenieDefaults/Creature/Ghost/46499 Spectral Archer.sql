@@ -1,3 +1,6 @@
+/* Acid Version */
+/* Luminance and Quest kill */
+
 DELETE FROM `weenie` WHERE `class_Id` = 46499;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -16,16 +19,14 @@ VALUES (46499,   1,         16) /* ItemType - Creature */
      , (46499, 101,     524288) /* AiAllowedCombatStyle - StubbornMissile */
      , (46499, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (46499, 146,    1850000) /* XpOverride */
-     , (46499, 307,         15) /* DamageRating */
+     , (46499, 307,         10) /* DamageRating */
      , (46499, 308,         10) /* DamageResistRating */
      , (46499, 313,          5) /* CritRating */
      , (46499, 332,        140) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46499,   1, True ) /* Stuck */
-     , (46499,  52, True ) /* AiImmobile */
-     , (46499,  65, True ) /* IgnoreMagicResist */
-     , (46499,  66, True ) /* IgnoreMagicArmor */;
+     , (46499,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46499,   1,       5) /* HeartbeatInterval */
@@ -67,9 +68,6 @@ VALUES (46499,   1,   33561493) /* Setup */
      , (46499,   7,  268437543) /* ClothingBase */
      , (46499,   8,  100669124) /* Icon */
      , (46499,  22,  872415269) /* PhysicsEffectTable */
-     , (46499,  32,       2101) /* WieldedTreasureType - 
-                                   Wield Acid Longbow (46634) | Probability: 100%
-                                   Wield 500x Greater Deadly Acid Arrow (46630) | Probability: 100% */
      , (46499,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -101,3 +99,7 @@ VALUES (46499,  0,  4,  0,    0,  350,  275,  275,  225,  250,  350,  225,  350,
      , (46499,  6,  4,  0,    0,  350,  275,  275,  225,  250,  350,  225,  350,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (46499,  7,  4,  0,    0,  350,  275,  275,  225,  250,  350,  225,  350,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (46499,  8,  4, 200, 0.75,  350,  275,  275,  225,  250,  350,  225,  350,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46499, 2, 46634,  1, 0, 0, False) /* Create Acid Longbow (46634) for Wield */
+     , (46499, 2, 46630,  1, 0, 0, False) /* Create Greater Deadly Acid Arrow (46630) for Wield */;
