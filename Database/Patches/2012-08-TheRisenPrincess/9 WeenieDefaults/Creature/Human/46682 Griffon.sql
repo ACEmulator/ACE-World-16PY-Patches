@@ -114,14 +114,13 @@ VALUES (46682,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,
      , (46682,  8,  4,  8, 0.75,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46682, 2, 38850,  1, 0, 0, False) /* Create  (38850) for Wield */
-     , (46682, 2,  2587,  0, 14, 1, False) /* Create Shirt (2587) for Wield */
-     , (46682, 2,  2601,  0, 14, 1, False) /* Create Pants (2601) for Wield */
-     , (46682, 2, 46644,  0, 93, 1, False) /* Create Reinforced Shou-jen Shozoku Trousers (46644) for Wield */
-     , (46682, 2, 46645,  0, 93, 1, False) /* Create Reinforced Shou-jen Shozoku Mask (46645) for Wield */
-     , (46682, 2, 46641,  0, 93, 1, False) /* Create Reinforced Shou-jen Jika-Tabi (46641) for Wield */
-     , (46682, 2, 46642,  0, 93, 1, False) /* Create Reinforced Shou-jen Shozoku Jacket (46642) for Wield */
-     , (46682, 2, 46643,  0, 93, 1, False) /* Create Reinforced Shou-jen Shozoku Gauntlets (46643) for Wield */;
+VALUES (46682, 2, 45527,  1,  0,      0, False) /* Create Soul Bound Spear (45527) for Wield */
+     , (46682, 2,   130,  0, 14,    0.5, False) /* Create Shirt (130) for Wield */
+     , (46682, 2, 46644,  0, 93, 0.3333, False) /* Create Reinforced Shou-jen Shozoku Trousers (46644) for Wield */
+     , (46682, 2, 46645,  0, 93, 0.3333, False) /* Create Reinforced Shou-jen Shozoku Mask (46645) for Wield */
+     , (46682, 2, 46641,  0, 93,      0, False) /* Create Reinforced Shou-jen Jika-Tabi (46641) for Wield */
+     , (46682, 2, 46642,  0, 93, 0.3333, False) /* Create Reinforced Shou-jen Shozoku Jacket (46642) for Wield */
+     , (46682, 2, 46643,  0, 93,      0, False) /* Create Reinforced Shou-jen Shozoku Gauntlets (46643) for Wield */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (46682, 7 /* Use */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
