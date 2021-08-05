@@ -200,11 +200,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I''m afraid the tasks I have are too difficult for you at this time, come back when you are more experienced.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46684, 2, 38850,  1, 0, 0, False) /* Create  (38850) for Wield */
-     , (46684, 2,  2587,  0, 14, 1, False) /* Create Shirt (2587) for Wield */
-     , (46684, 2,  2601,  0, 14, 1, False) /* Create Pants (2601) for Wield */
-     , (46684, 2, 46644,  0, 93, 1, False) /* Create Reinforced Shou-jen Shozoku Trousers (46644) for Wield */
-     , (46684, 2, 46645,  0, 93, 1, False) /* Create Reinforced Shou-jen Shozoku Mask (46645) for Wield */
-     , (46684, 2, 46641,  0, 93, 1, False) /* Create Reinforced Shou-jen Jika-Tabi (46641) for Wield */
-     , (46684, 2, 46642,  0, 93, 1, False) /* Create Reinforced Shou-jen Shozoku Jacket (46642) for Wield */
-     , (46684, 2, 46643,  0, 93, 1, False) /* Create Reinforced Shou-jen Shozoku Gauntlets (46643) for Wield */;
+VALUES (46684, 2, 46829,  1, 0,       0, False) /* Create Purified Mouryou Nanjou-tachi (46829) for Wield */
+     , (46684, 2,   130,  0, 14,    0.5, False) /* Create Shirt (130) for Wield */
+     , (46684, 2, 46645,  0, 93, 0.3333, False) /* Create Reinforced Shou-jen Shozoku Mask (46645) for Wield */
+     , (46684, 2, 46642,  0, 93, 0.3333, False) /* Create Reinforced Shou-jen Shozoku Jacket (46642) for Wield */
+     , (46684, 2, 46643,  0, 93,      0, False) /* Create Reinforced Shou-jen Shozoku Gauntlets (46643) for Wield */
+     , (46684, 2, 46644,  0, 93, 0.3333, False) /* Create Reinforced Shou-jen Shozoku Trousers (46644) for Wield */;
