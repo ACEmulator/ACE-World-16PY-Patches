@@ -118,5 +118,5 @@ VALUES (46661,  4457,   2.05) /* Incantation of Whirling Blade */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46661, 2, 46374,  1, 0, 0, False) /* Create Spectral Nekode (46374) for Wield */
-     , (46661, 2, 46375,  1, 0, 0, False) /* Create Spectral Nekode (46375) for Wield */;
+     , (46661, 2, 46375,  1, 0, 0, False) /* Create Spectral Nekode (46375) for Wield */
      , (46661, 9, 46600,  1, 0, 0, False) /* Create Broken Key (46600) for ContainTreasure */;
