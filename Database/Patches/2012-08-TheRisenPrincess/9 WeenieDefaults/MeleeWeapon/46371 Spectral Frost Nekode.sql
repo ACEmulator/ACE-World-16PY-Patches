@@ -14,8 +14,8 @@ VALUES (46371,    1,         1) /* ItemType - MeleeWeapon */
      , (46371,   33,        -2) /* Bonded - Destroy */
      , (46371,   44,       180) /* Damage */
      , (46371,   45,         8) /* DamageType - Cold */
-     , (46371,   46,         2) /* DefaultCombatStyle - OneHanded */
-     , (46371,   47,         4) /* AttackType - Slash */
+     , (46371,   46,         1) /* DefaultCombatStyle - Unarmed */
+     , (46371,   47,         1) /* AttackType - Punch */
      , (46371,   48,        45) /* WeaponSkill - LightWeapons */	 
      , (46371,   49,        20) /* WeaponTime */
      , (46371,   51,         1) /* CombatUse - Melee */

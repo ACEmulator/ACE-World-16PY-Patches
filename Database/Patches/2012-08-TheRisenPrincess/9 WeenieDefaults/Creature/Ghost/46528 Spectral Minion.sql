@@ -1,6 +1,3 @@
-/* Frost Version */
-/* No Luminance or Quest kill */
-
 DELETE FROM `weenie` WHERE `class_Id` = 46528;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -13,25 +10,21 @@ VALUES (46528,   1,         16) /* ItemType - Creature */
      , (46528,   7,         -1) /* ContainersCapacity */
      , (46528,  16,          1) /* ItemUseable - No */
      , (46528,  25,        240) /* Level */
-     , (46528,  27,          0) /* ArmorType - None */
-     , (46528,  40,          2) /* Combat Type - Melee */
-     , (46528,  48,         45) /* Light Weapon Skill */		 
+     , (46528,  27,          0) /* ArmorType - None */	 
      , (46528,  68,          5) /* TargetingTactic - Random, LastDamager */	 
      , (46528,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46528, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, */
      , (46528, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (46528, 146,    1400000) /* XpOverride */
      , (46528, 307,         10) /* DamageRating */
      , (46528, 308,         10) /* DamageResistRating */
-     , (46528, 313,          5) /* CritRating */
-     , (46528, 316,          5) /* CritDamageResistRating */;	 
+     , (46528, 313,          5) /* CritRating */;	 
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46528,   1, True ) /* Stuck */
-     , (46528,   6, True ) /* AiUsesMana */
      , (46528,  11, False) /* IgnoreCollisions */
      , (46528,  12, True ) /* ReportCollisions */
-     , (46528,  13, False) /* Ethereal */
-     , (46528,  50, True ) /* NeverFailCasting */;
+     , (46528,  13, False) /* Ethereal */;
 	 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46528,  13,    0.83) /* ArmorModVsSlash */
@@ -52,7 +45,6 @@ VALUES (46528,  13,    0.83) /* ArmorModVsSlash */
      , (46528,  69,     0.3) /* ResistAcid */
      , (46528,  70,     0.3) /* ResistElectric */
 	 , (46528, 166,       1) /* ResistNether */
-     , (46528,  80,       3) /* AiUseMagicDelay */
      , (46528, 104,      10) /* ObviousRadarRange */
      , (46528, 122,       2) /* AiAcquireHealth */
      , (46528, 125,       1) /* ResistHealthDrain */;
@@ -65,7 +57,7 @@ VALUES (46528,   1,   33561478) /* Setup */
      , (46528,   2,  150994945) /* MotionTable */
      , (46528,   3,  536870942) /* SoundTable */
      , (46528,   4,  805306368) /* CombatTable */	 	 
-     , (46528,   7,  268437543) /* CLOTHINGBASE_DID  */
+     , (46528,   7,  268437543) /* ClothingBase */
      , (46528,   8,  100669124) /* Icon */
      , (46528,  22,  872415269) /* PhysicsEffectTable */
      , (46528,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
@@ -83,16 +75,6 @@ VALUES (46528,   1,  2100, 0, 0, 2500) /* MaxHealth */
      , (46528,   3,  1900, 0, 0, 2700) /* MaxStamina */
      , (46528,   5,   500, 0, 0,  750) /* MaxMana */;
 
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46528,  6, 0, 2, 0, 600, 0, 0) /* MeleeDefense        Trained */
-     , (46528,  7, 0, 2, 0, 364, 0, 0) /* MissileDefense      Trained */
-     , (46528, 15, 0, 2, 0, 378, 0, 0) /* MagicDefense        Trained */
-     , (46528, 16, 0, 2, 0, 491, 0, 0) /* ManaConversion      Trained */
-     , (46528, 31, 0, 2, 0, 491, 0, 0) /* CreatureEnchantment Trained */
-     , (46528, 33, 0, 2, 0, 491, 0, 0) /* LifeMagic           Trained */
-     , (46528, 34, 0, 2, 0, 491, 0, 0) /* WarMagic            Trained */
-     , (46528, 45, 0, 2, 0, 582, 0, 0) /* LightWeapons        Trained */;
-
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (46528,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
      , (46528,  1,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
@@ -104,12 +86,11 @@ VALUES (46528,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,
      , (46528,  7,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (46528,  8,  4, 600, 0.75,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46528,  1787,   2.02)  /* Halo of Frost */
-     , (46528,  4425,   2.02)  /* Incantation of Frost Arc */
-     , (46528,  4446,   2.02)  /* Incantation of Frost Blast */
-     , (46528,  4479,   2.02)  /* Incantation of Cold Vulnerability Other */;
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (46528,  6, 0, 2, 0, 600, 0, 0) /* MeleeDefense        Trained */
+     , (46528,  7, 0, 2, 0, 364, 0, 0) /* MissileDefense      Trained */
+     , (46528, 15, 0, 2, 0, 378, 0, 0) /* MagicDefense        Trained */
+     , (46528, 45, 0, 2, 0, 582, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46528, 2, 46371,  1, 0, 0, False) /* Create Spectral Frost Nekode (46371) for Wield */;
-

@@ -13,7 +13,7 @@ VALUES (46375,   1,          1) /* ItemType - MeleeWeapon */
      , (46375,  33,         -2) /* Bonded - Destroy */
      , (46375,  44,        180) /* Damage */
      , (46375,  45,          1) /* DamageType - Slash */
-     , (46375,  46,        256) /* DefaultCombatStyle - OneHanded */
+     , (46375,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (46375,  47,         16) /* AttackType - Offhand Punch */
      , (46375,  48,         45) /* WeaponSkill - LightWeapons */
      , (46375,  49,         20) /* WeaponTime */

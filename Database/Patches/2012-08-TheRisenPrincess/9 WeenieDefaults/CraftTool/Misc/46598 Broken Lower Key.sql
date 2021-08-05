@@ -14,16 +14,15 @@ VALUES (46598,   1,        128) /* ItemType - Misc */
      , (46598,  19,          0) /* Value */
      , (46598,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46598,  94,        128) /* TargetType - Misc */
-     , (46598,  98, 1485727622) /* CreationTimestamp */
      , (46598, 267,       3600) /* Lifespan */
-     , (46598, 268,       3594) /* RemainingLifespan */;
+     , (46598, 268,       3600) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46598,  22, True ) /* Inscribable */
      , (46598,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46598,   1, 'Broken Lower Key') /* Name */
+VALUES (46598,   1, 'Broken Key') /* Name */
      , (46598,  14, 'Combine this with the middle key portion.') /* Use */
      , (46598,  15, 'The lower portion of a broken key.') /* ShortDesc */;
 
