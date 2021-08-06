@@ -16,10 +16,10 @@ VALUES (80038,   1, True ) /* Stuck */
      , (80038,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (80038,  41,      60) /* RegenerationInterval */;
+VALUES (80038,  41,      10) /* RegenerationInterval */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (80038,   1, 'Viamont Staging Area Portal Generator') /* Name */
+VALUES (80038,   1, 'Viamont Staging Area Portal Mid Gen') /* Name */
      , (80038,  34, 'viaportalmid3') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -27,4 +27,4 @@ VALUES (80038,   1,   33555051) /* Setup */
      , (80038,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (80038, -1, 32542, 0, 1, -1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Viamont Staging Area Portal (32547) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (80038, -1, 80043, 0, 1, -1, 1, 4, -1, 0, 0, 2678456366, 131.928, 131.944, 64.518, -0.250689, 0, 0, 0.968) /* Generate Viamont Staging Area Portal (80043) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
