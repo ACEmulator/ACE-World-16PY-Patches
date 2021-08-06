@@ -132,17 +132,17 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'I have made it my mission to 
      , (@parent_id, 2, 70 /* SetQuestCompletions */, 0, 1, NULL, 'KillTaskTouTouKnights0812', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46018, 2, 42717,  1, 0,    0, False) /* Create Shield of Borelean's Royal Guard for Wield */
-     , (46018, 2, 24611,  1, 0,    0, False) /* Create Sword of Lost Light  for Wield */
-     , (46018, 2,  2587,  0,14,    1, False) /* Create Shirt for Wield */
-     , (46018, 2,  2601,  0,14,    1, False) /* Create Pants for Wield */
-     , (46018, 2, 21150,  0,93,    1, False) /* Create Covenant Sollerets for Wield */
-     , (46018, 2, 21151,  0,93,    1, False) /* Create Covenant Bracers for Wield */
-     , (46018, 2, 21152,  0,93,    1, False) /* Create Covenant Breastplate for Wield */
-     , (46018, 2, 21153,  0,93,    1, False) /* Create Covenant Gauntlets for Wield */
-     , (46018, 2, 21154,  0,93,    1, False) /* Create Covenant Girth for Wield */
-     , (46018, 2, 21155,  0,93,    1, False) /* Create Covenant Greaves for Wield */
-     , (46018, 2, 21156,  0,93,    1, False) /* Create Covenant Helm for Wield */
-     , (46018, 2, 21157,  0,93,    1, False) /* Create Covenant Pauldrons for Wield */
-     , (46018, 2, 21159,  0,93,    1, False) /* Create Covenant Tassets for Wield */
-     , (46018, 2, 71356,  0, 0,    1, False) /* Create Royal Knight Cloak for Wield */;
+VALUES (46018, 2, 42717,  1, 0,       0, False) /* Create Shield of Borelean's Royal Guard for Wield */
+     , (46018, 2, 24611,  1, 0,       0, False) /* Create Sword of Lost Light  for Wield */
+     , (46018, 2,   130,  0, 14,    0.5, False) /* Create Shirt (130) for Wield */
+     , (46018, 2,   127,  0, 14, 0.4909, False) /* Create Pants (127) for Wield */
+     , (46018, 2, 21150,  0, 93,      0, False) /* Create Covenant Sollerets for Wield */
+     , (46018, 2, 21151,  0, 93,      0, False) /* Create Covenant Bracers for Wield */
+     , (46018, 2, 21152,  0, 93,      0, False) /* Create Covenant Breastplate for Wield */
+     , (46018, 2, 21153,  0, 93,      0, False) /* Create Covenant Gauntlets for Wield */
+     , (46018, 2, 21154,  0, 93,      0, False) /* Create Covenant Girth for Wield */
+     , (46018, 2, 21155,  0, 93,      0, False) /* Create Covenant Greaves for Wield */
+     , (46018, 2, 21156,  0, 93,      0, False) /* Create Covenant Helm for Wield */
+     , (46018, 2, 21157,  0, 93,      0, False) /* Create Covenant Pauldrons for Wield */
+     , (46018, 2, 21159,  0, 93,      0, False) /* Create Covenant Tassets for Wield */
+     , (46018, 2, 71356,  0,  0,      0, False) /* Create Royal Knight Cloak for Wield */;
