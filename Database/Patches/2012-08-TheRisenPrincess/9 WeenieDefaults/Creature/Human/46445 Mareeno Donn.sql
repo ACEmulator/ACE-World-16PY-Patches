@@ -112,7 +112,7 @@ VALUES (46445,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,
      , (46445,  8,  4,  8, 0.75,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46445, 2,  5852, -1, 5, 0.0139, False) /* Create Dho Vest and Robe (5852) for Wield */;
+VALUES (46445, 2,  5852, -1, 5, 0, False) /* Create Dho Vest and Robe (5852) for Wield */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (46445, 5 /* HeartBeat */, 0.085, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);

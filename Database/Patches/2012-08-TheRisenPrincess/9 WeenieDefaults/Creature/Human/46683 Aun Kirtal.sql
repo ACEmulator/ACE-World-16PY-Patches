@@ -63,12 +63,6 @@ VALUES (46683,   1,   33561114) /* Setup */
      , (46683,   6,   67108990) /* PaletteBase */
      , (46683,   7,  268437191) /* ClothingBase */
      , (46683,   8,  100667446) /* Icon */
-     , (46683,   9,   83898627) /* EyesTexture */
-     , (46683,  10,   83898686) /* NoseTexture */
-     , (46683,  11,   83898688) /* MouthTexture */
-     , (46683,  15,   67117062) /* HairPalette */
-     , (46683,  16,   67109567) /* EyesPalette */
-     , (46683,  17,   67116900) /* SkinPalette */
      , (46683,  22,  872415441) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
@@ -104,18 +98,17 @@ VALUES (46683,  6, 0, 2, 0, 132, 0, 0) /* MeleeDefense        Trained */
 	 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46683, 2,  2587,  0, 14, 1, False) /* Create Shirt (2587) for Wield */
-     , (46683, 2,  2601,  0, 14, 1, False) /* Create Pants (2601) for Wield */
-     , (46683, 2, 21150,  0, 93, 1, False) /* Create Covenant Sollerets (21150) for Wield */
-     , (46683, 2, 21151,  0, 93, 1, False) /* Create Covenant Bracers (21151) for Wield */
-     , (46683, 2, 21152,  0, 93, 1, False) /* Create Covenant Breastplate (21152) for Wield */
-     , (46683, 2, 21153,  0, 93, 1, False) /* Create Covenant Gauntlets (21153) for Wield */
-     , (46683, 2, 21154,  0, 93, 1, False) /* Create Covenant Girth (21154) for Wield */
-     , (46683, 2, 21155,  0, 93, 1, False) /* Create Covenant Greaves (21155) for Wield */
-     , (46683, 2, 21156,  0, 93, 1, False) /* Create Covenant Helm (21156) for Wield */
-     , (46683, 2, 21157,  0, 93, 1, False) /* Create Covenant Pauldrons (21157) for Wield */
-     , (46683, 2, 21159,  0, 93, 1, False) /* Create Covenant Tassets (21159) for Wield */
-     , (46683, 2, 71356,  0, 0, 1, False) /* Create Royal Knight Cloak (71356) for Wield */;	 
+VALUES (46683, 2,   130,  0, 14,    0.5, False) /* Create Shirt (130) for Wield */
+     , (46683, 2,   127,  0, 14, 0.4909, False) /* Create Pants (127) for Wield */
+     , (46683, 2, 21151,  0, 93,      0, False) /* Create Covenant Bracers (21151) for Wield */
+     , (46683, 2, 21152,  0, 93,      0, False) /* Create Covenant Breastplate (21152) for Wield */
+     , (46683, 2, 21153,  0, 93,      0, False) /* Create Covenant Gauntlets (21153) for Wield */
+     , (46683, 2, 21154,  0, 93,      0, False) /* Create Covenant Girth (21154) for Wield */
+     , (46683, 2, 21155,  0, 93,      0, False) /* Create Covenant Greaves (21155) for Wield */
+     , (46683, 2, 21157,  0, 93,      0, False) /* Create Covenant Pauldrons (21157) for Wield */
+     , (46683, 2, 21159,  0, 93,      0, False) /* Create Covenant Tassets (21159) for Wield */
+     , (46683, 2, 71356,  0,  0,      0, False) /* Create Royal Knight Cloak (71356) for Wield */;	
+     
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (46683, 7 /* Use */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
