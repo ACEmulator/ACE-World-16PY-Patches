@@ -13,7 +13,8 @@ VALUES (45500,   1,        128) /* ItemType - Misc */
      , (45500,  16,          8) /* ItemUseable - Contained */
      , (45500,  19,          1) /* Value */
      , (45500,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45500,  94,         16) /* TargetType - Creature */;
+     , (45500,  94,         16) /* TargetType - Creature */
+     , (45500, 269,          1) /* UseCreateQuantity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45500,  22, True ) /* Inscribable */
@@ -29,4 +30,5 @@ VALUES (45500,   1,   33556769) /* Setup */
      , (45500,   6,   67111919) /* PaletteBase */
      , (45500,   8,  100673039) /* Icon */
      , (45500,  22,  872415275) /* PhysicsEffectTable */
+     , (45500,  38,      36633) /* UseCreateItem - Missile Defense Weapon Augmentation */
      , (45500,  50,  100686676) /* IconOverlay */;
