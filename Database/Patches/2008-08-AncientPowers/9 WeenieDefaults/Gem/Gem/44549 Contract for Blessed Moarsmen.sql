@@ -24,7 +24,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44549, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44549,   1, 'Contract for Blessed Moarsmen') /* Name */;
+VALUES (44549,   1, 'Contract for Blessed Moarsmen') /* Name */
+     , (44549,  14, 'Recommended Level: 180') /* Use */
+     , (44549,  16, 'Kill 50 Blessed Moarsmen.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44549,   1,   33557625) /* Setup */
