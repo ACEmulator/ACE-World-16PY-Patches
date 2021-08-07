@@ -71,7 +71,3 @@ VALUES (0x749E4034, 46683, 0x49E4002B, 141.777, 63.0861, 12.0055, -0.141302, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749E4035, 46684, 0x49E40101, 128.98, 57.083, 11.705, -0.926971, 0, 0, 0.375133, False, '2020-11-29 14:27:39'); /* Hanamoto Aki'ko */
 /* @teleloc 0x49E40101 [128.979996 57.083000 11.705000] -0.926971 0.000000 0.000000 0.375133 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x749E4037,   509, 0x49E4002A, 129.641, 42.0371, 12, -0.323191, 0, 0, -0.946334, False, '2020-12-19 04:22:53'); /* Life Stone */
-/* @teleloc 0x49E4002A [129.641006 42.037102 12.000000] -0.323191 0.000000 0.000000 -0.946334 */
