@@ -4,23 +4,19 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (46411, 'ace46411-rottingmumiyah', 10, '2020-11-19 08:51:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (46411,   1,         16) /* ItemType - Creature */
-     , (46411,   2,         14) /* CreatureType - Undead */
-     , (46411,   3,         43) /* PALETTE-LightBrown */
-     , (46411,   6,         -1) /* ItemsCapacity */
-     , (46411,   7,         -1) /* ContainersCapacity */
-     , (46411,  16,          1) /* ItemUseable - No */
-     , (46411,  25,        225) /* Level */
-     , (46411,  27,          0) /* ArmorType - None */
-     , (46411,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */	 
-     , (46411,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (46411, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46411, 146,    1400000) /* XpOverride */
-     , (46411, 307,          7) /* DamageRating */
-     , (46411, 315,         10) /* CritResistRating */
-     , (46411, 316,         20) /* CritDamageResistRating */	 
-	 ;
-	 
+VALUES (46411,   1,      16) /* ItemType - Creature */
+     , (46411,   2,      14) /* CreatureType - Undead */
+     , (46411,   3,      46) /* PaletteTemplate */
+     , (46411,   6,      -1) /* ItemsCapacity */
+     , (46411,   7,      -1) /* ContainersCapacity */
+     , (46411,  16,       1) /* ItemUseable - No */
+     , (46411,  25,     220) /* Level */
+     , (46411,  27,       0) /* ArmorType - None */
+     , (46411,  68,      13) /* TargetingTactic - Random, LastDamager, TopDamager */
+     , (46411,  93,    1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (46411, 133,       2) /* ShowableOnRadar - ShowMovement */
+     , (46411, 146, 1400000) /* XpOverride */;
+	
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46411,   1, True ) /* Stuck */
      , (46411,   6, True ) /* AiUsesMana */
@@ -29,14 +25,14 @@ VALUES (46411,   1, True ) /* Stuck */
      , (46411,  12, True ) /* ReportCollisions */
      , (46411,  13, False) /* Ethereal */
      , (46411,  58, True ) /* SpellQueueActive */;
-	 
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46411,   1,       5) /* HeartbeatInterval */
      , (46411,   2,       0) /* HeartbeatTimestamp */
      , (46411,   3,       4) /* HealthRate */
      , (46411,   4,      10) /* StaminaRate */
      , (46411,   5,       3) /* ManaRate */
-     , (46411,  12,       0) /* Shade */
+     , (46411,  12,     0.5) /* Shade */
      , (46411,  13,    0.67) /* ArmorModVsSlash */
      , (46411,  14,     0.9) /* ArmorModVsPierce */
      , (46411,  15,    0.75) /* ArmorModVsBludgeon */
@@ -72,19 +68,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46411,   1, 'Rotting Mu-miyah') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46411,   1,   33554433) /* Setup */
-     , (46411,   2,  150994981) /* MotionTable */
-     , (46411,   3,  536870942) /* SoundTable */
-     , (46411,   6,   67108990) /* PaletteBase */
-     , (46411,   7,  268435645) /* CLOTHINGBASE */
-     , (46411,   8,  100669122) /* Icon */
-     , (46411,  22,  872415272) /* PhysicsEffectTable */
-     , (46411,  32,       3001) /* WieldedTreasureType - 
-                                   Wield Tachi (47649) | Probability: 20%
-                                   Wield Burning Sands Blade (44266) | Probability: 20%
-                                   Wield Burning Sands Katar (44265) | Probability: 20%
-                                   Wield Corrupted Aegis (44264) | Probability: 50% */
-     , (46411,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+VALUES (46411,  1,  33554433) /* Setup */
+     , (46411,  2, 150994981) /* MotionTable */
+     , (46411,  3, 536870942) /* SoundTable */
+     , (46411,  6,  67108990) /* PaletteBase */
+     , (46411,  7, 268435645) /* ClothingBase */
+     , (46411,  8, 100669122) /* Icon */
+     , (46411, 22, 872415272) /* PhysicsEffectTable */
+     , (46411, 32,      3001) /* WieldedTreasureType - 
+                                   Wield Tachi
+     , (46411, 35,      2000) /* DeathTreasureType - Loot Tier: 8 */;
 	 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46411,   1, 350, 0, 0) /* Strength */
@@ -122,7 +115,6 @@ VALUES (46411,  0,  4,  0,    0,  460,  250,  150,  275,  250,  100,  250,  150,
      , (46411,  8,  4, 300, 0.75,  350,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46411,  2074,   2.06)  /* Gossamer Flesh */
-     , (46411,  2170,   2.06)  /* Inferno's Gift */
-     , (46411,  4423,   2.06)  /* Incantation of Flame Arc */;
- 
+VALUES (46411,  2074,   2.133)  /* Gossamer Flesh */
+     , (46411,  2170,   2.154)  /* Inferno's Gift */
+     , (46411,  4423,   2.182)  /* Incantation of Flame Arc */;

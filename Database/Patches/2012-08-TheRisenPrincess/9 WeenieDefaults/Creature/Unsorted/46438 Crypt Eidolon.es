@@ -1,0 +1,12 @@
+Generation:
+    - LocalBroadcast: As you place the bones onto the altar, the ground starts to tremble. You feel the room begin to charge with energy.
+    - Delay: 3, LocalBroadcast: A huge skeleton suddenly appears. It seems to be focused intently on the Samurai Titan.
+    - Delay: 5, Say: Abomination! The souls within these walls will not be enslaved to Hoshino Kei. Leave this place!, Extent: 40
+    - Delay: 1, Move: 0x00000000 [0 10 0] 1 0 0 0
+    - Delay: 5, CastSpell: 4239 - Ring of Death
+    - LocalSignal: KillTitan
+    - Delay: 3, LocalBroadcast: The Samurai Titan falls to the ground in defeat at the hands of the Crypt Eidolon. A portal to the surface appears in the northwest corner.
+    - Delay: 3, Say: Back to the abyss dark Titan. Do not return to this sacred place., Extent: 40
+    - Delay: 1, Generate
+    - Delay: 1, Motion: KneelState
+    - Delay: 20, DeleteSelf

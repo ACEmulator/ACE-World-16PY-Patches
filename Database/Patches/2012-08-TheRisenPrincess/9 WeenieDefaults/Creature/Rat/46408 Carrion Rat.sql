@@ -4,17 +4,18 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (46408, 'ace46408-carrionrat', 10, '2020-11-20 06:44:37') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (46408,   1,         16) /* ItemType - Creature */
-     , (46408,   2,         10) /* CreatureType - Rat */
-     , (46408,   6,         -1) /* ItemsCapacity */
-     , (46408,   7,         -1) /* ContainersCapacity */
-     , (46408,  16,          1) /* ItemUseable - No */
-     , (46408,  25,        200) /* Level */
-     , (46408,  40,          2) /* CombatMode - Melee */
-     , (46408,  68,          5) /* TargetingTactic - Random, LastDamager */
-     , (46408,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (46408, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46408, 146,    1100000) /* XpOverride */;
+VALUES (46408,   1,      16) /* ItemType - Creature */
+     , (46408,   2,      10) /* CreatureType - Rat */
+     , (46408,   3,      61) /* PaletteTemplate */
+     , (46408,   6,      -1) /* ItemsCapacity */
+     , (46408,   7,      -1) /* ContainersCapacity */
+     , (46408,  16,       1) /* ItemUseable - No */
+     , (46408,  25,     200) /* Level */
+     , (46408,  40,       2) /* CombatMode - Melee */
+     , (46408,  68,       5) /* TargetingTactic - Random, LastDamager */
+     , (46408,  93,    1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (46408, 133,       2) /* ShowableOnRadar - ShowMovement */
+     , (46408, 146, 1100000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46408,   1, True ) /* Stuck */
@@ -30,6 +31,7 @@ VALUES (46408,   1,       5) /* HeartbeatInterval */
      , (46408,   3,   0.067) /* HealthRate */
      , (46408,   4,       5) /* StaminaRate */
      , (46408,   5,       2) /* ManaRate */
+     , (46408,  12,     0.5) /* Shade */
      , (46408,  13,    0.64) /* ArmorModVsSlash */
      , (46408,  14,    0.80) /* ArmorModVsPierce */
      , (46408,  15,    0.64) /* ArmorModVsBludgeon */
@@ -48,28 +50,25 @@ VALUES (46408,   1,       5) /* HeartbeatInterval */
      , (46408,  68,    0.60) /* ResistCold */
      , (46408,  69,    0.60) /* ResistAcid */
      , (46408,  70,       1) /* ResistElectric */
-	 , (46408, 166,       1) /* ResistNether */
      , (46408,  77,       1) /* PhysicsScriptIntensity */
      , (46408, 104,      10) /* ObviousRadarRange */
-     , (46408, 125,       1) /* ResistHealthDrain */;
+     , (46408, 125,       1) /* ResistHealthDrain */
+     , (46408, 166,       1) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46408,   1, 'Carrion Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46408,   1,   33554493) /* Setup */
-     , (46408,   2,  150994958) /* MotionTable */
-     , (46408,   3,  536870927) /* SoundTable */
-     , (46408,   4,  805306377) /* CombatTable */
-     , (46408,   6,   67109300) /* PaletteBase */
-     , (46408,   8,  100667451) /* Icon */
-     , (46408,  22,  872415267) /* PhysicsEffectTable */
-     , (46408,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (46408,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46408,8040, 1467024271, 147.455, -219.933, -11.988, 0.714421, 0, 0, -0.699716) /* PCAPRecordedLocation */
-/* @teleloc 0x5771038F [147.455002 -219.932999 -11.988000] 0.714421 0.000000 0.000000 -0.699716 */;
+VALUES (46408,  1,  33554493) /* Setup */
+     , (46408,  2, 150994958) /* MotionTable */
+     , (46408,  3, 536870927) /* SoundTable */
+     , (46408,  4, 805306377) /* CombatTable */
+     , (46408,  6,  67109300) /* PaletteBase */
+     , (46408,  7, 268436730) /* ClothingBase */
+     , (46408,  8, 100667451) /* Icon */
+     , (46408, 22, 872415267) /* PhysicsEffectTable */
+     , (46408, 30,        86) /* PhysicsScript - BreatheAcid */
+     , (46408, 35,      1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (46408,  0,  2,220, 0.75,  430,  215,  215,  215,  215,  215,  215,  215,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */
@@ -127,4 +126,3 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id, 0, 5 /* Motion */, 0, 1, 0x10000052 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-

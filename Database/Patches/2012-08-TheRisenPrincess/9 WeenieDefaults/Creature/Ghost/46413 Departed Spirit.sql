@@ -4,20 +4,20 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (46413, 'ace46413-departedspirit', 10, '2020-07-23 03:33:54') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (46413,   1,         16) /* ItemType - Creature */
-     , (46413,   2,         77) /* CreatureType - Ghost */
-     , (46413,   3,          9) /* PaletteTemplate - Grey */
-     , (46413,   6,         -1) /* ItemsCapacity */
-     , (46413,   7,         -1) /* ContainersCapacity */
-     , (46413,  16,          1) /* ItemUseable - No */
-     , (46413,  25,        220) /* Level */
-     , (46413,  27,          0) /* ArmorType - None */
-     , (46413,  40,          2) /* CombatMode - Melee */
-     , (46413,  68,          3) /* TargetingTactic - Random, Focused */
-     , (46413,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (46413, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46413, 140,          1) /* AiOptions - CanOpenDoors */
-     , (46413, 146,    1400000) /* XpOverride */;
+VALUES (46413,   1,      16) /* ItemType - Creature */
+     , (46413,   2,      77) /* CreatureType - Ghost */
+     , (46413,   3,       8) /* PaletteTemplate */
+     , (46413,   6,      -1) /* ItemsCapacity */
+     , (46413,   7,      -1) /* ContainersCapacity */
+     , (46413,  16,       1) /* ItemUseable - No */
+     , (46413,  25,     220) /* Level */
+     , (46413,  27,       0) /* ArmorType - None */
+     , (46413,  40,       2) /* CombatMode - Melee */
+     , (46413,  68,       3) /* TargetingTactic - Random, Focused */
+     , (46413,  93,    1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (46413, 133,       2) /* ShowableOnRadar - ShowMovement */
+     , (46413, 140,       1) /* AiOptions - CanOpenDoors */
+     , (46413, 146, 1400000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46413,   1, True ) /* Stuck */
@@ -35,6 +35,7 @@ VALUES (46413,   1,       5) /* HeartbeatInterval */
      , (46413,   3,     0.6) /* HealthRate */
      , (46413,   4,     0.5) /* StaminaRate */
      , (46413,   5,       2) /* ManaRate */
+     , (46413,  12,     0.5) /* Shade */
      , (46413,  13,    0.64) /* ArmorModVsSlash */
      , (46413,  14,    0.96) /* ArmorModVsPierce */
      , (46413,  15,    0.96) /* ArmorModVsBludgeon */
@@ -52,7 +53,6 @@ VALUES (46413,   1,       5) /* HeartbeatInterval */
      , (46413,  68,    0.34) /* ResistCold */
      , (46413,  69,    0.49) /* ResistAcid */
      , (46413,  70,     0.5) /* ResistElectric */
-	 , (46413, 166,       1) /* ResistNether */
      , (46413,  71,       1) /* ResistHealthBoost */
      , (46413,  72,       1) /* ResistStaminaDrain */
      , (46413,  73,       1) /* ResistStaminaBoost */
@@ -61,7 +61,8 @@ VALUES (46413,   1,       5) /* HeartbeatInterval */
      , (46413,  76,     0.5) /* Translucency */
      , (46413, 104,      10) /* ObviousRadarRange */
      , (46413, 122,       2) /* AiAcquireHealth */
-     , (46413, 125,       1) /* ResistHealthDrain */;
+     , (46413, 125,       1) /* ResistHealthDrain */
+     , (46413, 166,       1) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46413,   1, 'Departed Spirit') /* Name */;
@@ -72,13 +73,10 @@ VALUES (46413,  1,  33558816) /* Setup */
      , (46413,  3, 536871094) /* SoundTable */
      , (46413,  4, 805306368) /* CombatTable */
      , (46413,  6,  67115251) /* PaletteBase */
+     , (46413,  7, 268436835) /* ClothingBase */
      , (46413,  8, 100676679) /* Icon */
      , (46413, 22, 872415403) /* PhysicsEffectTable */
      , (46413, 35,      1000) /* DeathTreasureType - Loot Tier: 7 */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46413, 8040, 1467024278, 156.539, -199.928, -11.971, 0.6967069, 0, 0, -0.7173559) /* PCAPRecordedLocation */
-/* @teleloc 0x57710396 [156.539000 -199.928000 -11.971000] 0.696707 0.000000 0.000000 -0.717356 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46413,   1, 400, 0, 0) /* Strength */
@@ -105,14 +103,14 @@ VALUES (46413,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,
      , (46413,  8,  4, 600, 0.75,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46413,  3058,   2.02)  /* Asphyiaxtion */
-     , (46413,  4411,   2.02)  /* Incantation of Lure Blade */
-     , (46413,  4421,   2.02)  /* Incantation of Acid Arc */
-     , (46413,  4425,   2.02)  /* Incantation of Frost Arc */
-     , (46413,  4479,   2.02)  /* Incantation of Cold Vulnerability Other */
-     , (46413,  4597,   2.02)  /* Incantation of Magic Yield Other */
-     , (46413,  4633,   2.02)  /* Incantation of Vulnerability Other */
-     , (46413,  4635,   2.02)  /* Incantation of War Magic Ineptitude Other */;
+VALUES (46413,  3058,   2.1)  /* Asphyiaxtion */
+     , (46413,  4411,   2.111)  /* Incantation of Lure Blade */
+     , (46413,  4421,   2.125)  /* Incantation of Acid Arc */
+     , (46413,  4425,   2.143)  /* Incantation of Frost Arc */
+     , (46413,  4479,   2.167)  /* Incantation of Cold Vulnerability Other */
+     , (46413,  4597,   2.2)  /* Incantation of Magic Yield Other */
+     , (46413,  4633,   2.25)  /* Incantation of Vulnerability Other */
+     , (46413,  4635,   2.333)  /* Incantation of War Magic Ineptitude Other */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46413,  31, 0, 2, 0, 149, 0, 0) /* CreatureMagic */

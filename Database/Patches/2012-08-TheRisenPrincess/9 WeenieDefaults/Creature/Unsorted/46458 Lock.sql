@@ -11,36 +11,14 @@ VALUES (46458,   1,         16) /* ItemType - Creature */
      , (46458,  16,         32) /* ItemUseable - Remote */
      , (46458,  19,          0) /* Value */
      , (46458,  93,    2097180) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, ReportCollisionsAsEnvironment */
-     , (46458,  95,          3) /* RadarBlipColor - White */
-     , (46458, 307,          0) /* DamageRating */
-     , (46458, 308,          0) /* DamageResistRating */
-     , (46458, 313,          0) /* CritRating */
-     , (46458, 314,          0) /* CritDamageRating */
-     , (46458, 315,          0) /* CritResistRating */
-     , (46458, 316,          0) /* CritDamageResistRating */
-     , (46458, 370,          0) /* GearDamage */
-     , (46458, 371,          0) /* GearDamageResist */
-     , (46458, 372,          0) /* GearCrit */
-     , (46458, 373,          0) /* GearCritResist */
-     , (46458, 374,          0) /* GearCritDamage */
-     , (46458, 375,          0) /* GearCritDamageResist */
-     , (46458, 376,          0) /* GearHealingBoost */
-     , (46458, 377,          0) /* GearNetherResist */
-     , (46458, 378,          0) /* GearLifeResist */
-     , (46458, 379,          0) /* GearMaxHealth */
-     , (46458, 381,          0) /* PKDamageRating */
-     , (46458, 382,          0) /* PKDamageResistRating */
-     , (46458, 383,          0) /* GearPKDamageRating */
-     , (46458, 384,          0) /* GearPKDamageResistRating */
-     , (46458, 386,          0) /* Overpower */
-     , (46458, 387,          0) /* OverpowerResist */
-     , (46458, 388,          0) /* GearOverpower */
-     , (46458, 389,          0) /* GearOverpowerResist */
-     , (46458, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (46458,  95,          3) /* RadarBlipColor - White */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46458,   1, True ) /* Stuck */
-     , (46458,  19, False) /* Attackable */;
+VALUES (46458,  1,    True) /* Stuck */
+     , (46458, 19,   False) /* Attackable */
+     , (46458, 52,    True) /* AiImmobile */
+     , (46458, 82,    True) /* DontTurnOrMoveWhenGiving */
+     , (46458, 83,    True) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46458,  54,      11) /* UseRadius */;
@@ -54,10 +32,6 @@ VALUES (46458,   1,   33561487) /* Setup */
      , (46458,   3,  536871117) /* SoundTable */
      , (46458,   8,  100667489) /* Icon */
      , (46458,  22,  872415328) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46458, 8040, 1273102379, 119.843, 59.405, 173.5, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
-/* @teleloc 0x4BE2002B [119.843002 59.404999 173.500000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (46458, 1 /* Refuse */, 1, 46461, NULL, NULL, NULL, NULL, NULL, NULL);

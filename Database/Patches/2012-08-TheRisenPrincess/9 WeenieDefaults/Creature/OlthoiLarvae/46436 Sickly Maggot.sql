@@ -6,7 +6,7 @@ VALUES (46436, 'ace46436-sicklymaggot', 10, '2020-07-23 03:33:54') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46436,   1,      16) /* ItemType - Creature */
      , (46436,   2,      35) /* CreatureType - OlthoiLarvae */
-     , (46436,   3,      20) /* PaletteTemplate - Silver */
+     , (46436,   3,       2) /* PaletteTemplate */
      , (46436,   6,      -1) /* ItemsCapacity */
      , (46436,   7,      -1) /* ContainersCapacity */
      , (46436,  16,       1) /* ItemUseable - No */
@@ -14,7 +14,7 @@ VALUES (46436,   1,      16) /* ItemType - Creature */
      , (46436,  68,       9) /* TargetingTactic - Random, TopDamager */
      , (46436,  93,    1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46436, 133,       2) /* ShowableOnRadar - ShowMovement */
-     , (46436, 146, 1050000) /* XpOverride */;
+     , (46436, 146,       0) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46436,   1, True ) /* Stuck */
@@ -42,7 +42,7 @@ VALUES (46436,   1,       5) /* HeartbeatInterval */
      , (46436,  31,      32) /* VisualAwarenessRange */
      , (46436,  34,       1) /* PowerupTime */
      , (46436,  36,       1) /* ChargeSpeed */
-     , (46436,  39,     0.6) /* DefaultScale */
+     , (46436,  39,     0.8) /* DefaultScale */
      , (46436,  64,    0.65) /* ResistSlash */
      , (46436,  65,    0.75) /* ResistPierce */
      , (46436,  66,     0.5) /* ResistBludgeon */
@@ -55,6 +55,7 @@ VALUES (46436,   1,       5) /* HeartbeatInterval */
      , (46436,  73,       1) /* ResistStaminaBoost */
      , (46436,  74,       1) /* ResistManaDrain */
      , (46436,  75,       1) /* ResistManaBoost */
+     , (46436,  77,       1) /* PhysicsScriptIntensity */
      , (46436,  80,       3) /* AiUseMagicDelay */
      , (46436, 104,      10) /* ObviousRadarRange */
      , (46436, 117,     0.5) /* FocusedProbability */
@@ -71,15 +72,10 @@ VALUES (46436,  1,  33558333) /* Setup */
      , (46436,  3, 536871068) /* SoundTable */
      , (46436,  4, 805306371) /* CombatTable */
      , (46436,  6,  67114236) /* PaletteBase */
-     , (46436,  7, 268436158) /* ClothingBase */
+     , (46436,  7, 268436600) /* ClothingBase */
      , (46436,  8, 100674298) /* Icon */
      , (46436, 22, 872415265) /* PhysicsEffectTable */
-     , (46436, 30,        86) /* PhysicsScript - BreatheAcid */
-     , (46436, 35,       2000) /* DeathTreasureType - Loot Tier: 7 */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46436, 8040, 1467024076, 330.4843, -286.8521, -35.9956, -0.2099282, 0, 0, 0.9777168) /* PCAPRecordedLocation */
-/* @teleloc 0x577102CC [330.484300 -286.852100 -35.995600] -0.209928 0.000000 0.000000 0.977717 */;
+     , (46436, 30,        86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46436,   1, 250, 0, 0) /* Strength */
@@ -103,9 +99,10 @@ VALUES (46436,  0,  2, 80, 0.75,   90,   56,   72,   54,   56,   56,   29,   10,
      , (46436, 22, 32, 30,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46436,  5367,   2.02)  /* Nether Arc VII */
-     , (46436,  5377,   2.02)  /* Festering Curse VII */
-     , (46436,  5385,   2.02)  /* Weakening Curse VII */;
+VALUES (46436,  5367,    2.2) /* Nether Arc VII */
+     , (46436,  5377,   2.25) /* Festering Curse VII */
+     , (46436,  5385,  2.333) /* Weakening Curse VII */
+     , (46436,  5401,    2.5) /* Corruption VII */;
 	 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46436,  31, 0, 2, 0, 149, 0, 0) /* CreatureMagic */
