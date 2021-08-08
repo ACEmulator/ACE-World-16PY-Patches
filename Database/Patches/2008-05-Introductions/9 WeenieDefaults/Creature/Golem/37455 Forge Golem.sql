@@ -6,7 +6,7 @@ VALUES (37455, 'ace37455-forgegolem', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37455,   1,         16) /* ItemType - Creature */
      , (37455,   2,         13) /* CreatureType - Golem */
-     , (37455,   3,         61) /* PaletteTemplate - White */
+     , (37455,   3,         39) /* PaletteTemplate - Black */
      , (37455,   6,         -1) /* ItemsCapacity */
      , (37455,   7,         -1) /* ContainersCapacity */
      , (37455,  16,          1) /* ItemUseable - No */
@@ -62,7 +62,7 @@ VALUES (37455,   1,   33559702) /* Setup */
      , (37455,   3,  536871119) /* SoundTable */
      , (37455,   4,  805306376) /* CombatTable */
      , (37455,   6,   67116739) /* PaletteBase */
-     , (37455,   7,  268435983) /* ClothingBase */
+     , (37455,   7,  268437047) /* ClothingBase */
      , (37455,   8,  100667940) /* Icon */
      , (37455,  22,  872415332) /* PhysicsEffectTable */;
 

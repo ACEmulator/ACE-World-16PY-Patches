@@ -18,7 +18,7 @@ VALUES (33730,   1,         16) /* ItemType - Creature */
      , (33730,  82,          0) /* InitGeneratedObjects */
      , (33730,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (33730, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
-     , (33730, 113,          1) /* Gender - Male */
+     , (33730, 113,          2) /* Gender - Female */
      , (33730, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (33730, 140,          1) /* AiOptions - CanOpenDoors */
      , (33730, 146,     200000) /* XpOverride */;
@@ -59,7 +59,6 @@ VALUES (33730,   1,       5) /* HeartbeatInterval */
      , (33730,  68,     0.1) /* ResistCold */
      , (33730,  69,     0.2) /* ResistAcid */
      , (33730,  70,     0.5) /* ResistElectric */
-     , (33730, 166,     0.6) /* ResistNether */
      , (33730,  71,       1) /* ResistHealthBoost */
      , (33730,  72,       1) /* ResistStaminaDrain */
      , (33730,  73,       1) /* ResistStaminaBoost */
@@ -69,7 +68,8 @@ VALUES (33730,   1,       5) /* HeartbeatInterval */
      , (33730,  80,       3) /* AiUseMagicDelay */
      , (33730, 104,      10) /* ObviousRadarRange */
      , (33730, 122,       2) /* AiAcquireHealth */
-     , (33730, 125,       1) /* ResistHealthDrain */;
+     , (33730, 125,       1) /* ResistHealthDrain */
+     , (33730, 166,     0.6) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33730,   1, 'Degenerate Shadow') /* Name */;
@@ -99,17 +99,17 @@ VALUES (33730,   1,   700, 0, 0, 805) /* MaxHealth */
      , (33730,   5,  1000, 0, 0, 1140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (33730, 45, 0, 3, 0, 308, 0, 0) /* LightWeapons        Specialized */
-     , (33730, 47, 0, 3, 0, 220, 0, 0) /* MissileWeapons      Specialized */
-     , (33730, 46, 0, 3, 0, 293, 0, 0) /* FinesseWeapons      Specialized */
-     , (33730,  6, 0, 3, 0, 310, 0, 0) /* MeleeDefense        Specialized */
+VALUES (33730,  6, 0, 3, 0, 310, 0, 0) /* MeleeDefense        Specialized */
      , (33730,  7, 0, 3, 0, 410, 0, 0) /* MissileDefense      Specialized */
-     , (33730, 44, 0, 3, 0, 308, 0, 0) /* HeavyWeapons        Specialized */
      , (33730, 14, 0, 3, 0, 200, 0, 0) /* ArcaneLore          Specialized */
      , (33730, 15, 0, 3, 0, 243, 0, 0) /* MagicDefense        Specialized */
      , (33730, 31, 0, 3, 0, 225, 0, 0) /* CreatureEnchantment Specialized */
      , (33730, 33, 0, 3, 0, 225, 0, 0) /* LifeMagic           Specialized */
-     , (33730, 34, 0, 3, 0, 225, 0, 0) /* WarMagic            Specialized */;
+     , (33730, 34, 0, 3, 0, 225, 0, 0) /* WarMagic            Specialized */
+     , (33730, 44, 0, 3, 0, 308, 0, 0) /* HeavyWeapons        Specialized */
+     , (33730, 45, 0, 3, 0, 308, 0, 0) /* LightWeapons        Specialized */
+     , (33730, 46, 0, 3, 0, 293, 0, 0) /* FinesseWeapons      Specialized */
+     , (33730, 47, 0, 3, 0, 220, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (33730,  0,  4,  0,    0,  500,  500,  400,  425,  300,  550,  350,  375,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -123,28 +123,22 @@ VALUES (33730,  0,  4,  0,    0,  500,  500,  400,  425,  300,  550,  350,  375,
      , (33730,  8,  4, 60, 0.75,   60,   60,   48,   51,   36,   66,   42,   45,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33730,  2140,  2.036)  /* Alset's Coil */
-     , (33730,  2136,  2.036)  /* Icy Torment */
-     , (33730,  4452,  2.009)  /* Incantation of Lightning Streak */
-     , (33730,  2141,  2.036)  /* Lhen's Flare */
-     , (33730,  2133,  2.036)  /* Outlander's Insolence */
-     , (33730,  2137,  2.005)  /* Sudden Frost */
-     , (33730,  2132,  2.005)  /* The Spike */
-     , (33730,  2174,  2.005)  /* Archer's Gift */
-     , (33730,  2172,  2.005)  /* Astyrrian's Gift */
-     , (33730,  2168,   2.01)  /* Gelidite's Gift */
+VALUES (33730,  1161,  2.009)  /* Heal Self VI */
+     , (33730,  1265,  2.009)  /* Drain Mana Other VI */
      , (33730,  2074,   2.01)  /* Gossamer Flesh */
-     , (33730,  2318,   2.01)  /* Gravity Well */
-     , (33730,  1161,  2.009)  /* Heal Self VI */
-     , (33730,  2282,   2.02)  /* Futility */
+     , (33730,  2132,  2.005)  /* The Spike */
+     , (33730,  2133,  2.036)  /* Outlander's Insolence */
+     , (33730,  2136,  2.036)  /* Icy Torment */
+     , (33730,  2137,  2.005)  /* Sudden Frost */
+     , (33730,  2140,  2.036)  /* Alset's Coil */
+     , (33730,  2141,  2.036)  /* Lhen's Flare */
      , (33730,  2164,   2.02)  /* Swordsman's Gift */
-     , (33730,  1265,  2.009)  /* Drain Mana Other VI */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33730, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
-     , (33730, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (33730, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
-     , (33730, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+     , (33730,  2168,   2.01)  /* Gelidite's Gift */
+     , (33730,  2172,  2.005)  /* Astyrrian's Gift */
+     , (33730,  2174,  2.005)  /* Archer's Gift */
+     , (33730,  2282,   2.02)  /* Futility */
+     , (33730,  2318,   2.01)  /* Gravity Well */
+     , (33730,  4452,  2.009)  /* Incantation of Lightning Streak */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (33730,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -154,5 +148,11 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33730, 9, 41979,  1, 0, 0.02, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
+     , (33730, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (33730, 9, 34277,  1, 0, 0.02, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+     , (33730, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33730, -1, 33631, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /*  Degenerate Shadow Commander (33631) (x1)  - Location to (re)Generate: Scatter */;
+VALUES (33730, -1, 33631, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Generate Degenerate Shadow Commander (33631) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

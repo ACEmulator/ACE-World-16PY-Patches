@@ -15,7 +15,7 @@ VALUES (42125,   1,         16) /* ItemType - Creature */
      , (42125, 113,          1) /* Gender - Male */
      , (42125, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42125, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (42125, 188,          2) /* HeritageGroup - Gharundim */;
+     , (42125, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42125,   1, True ) /* Stuck */

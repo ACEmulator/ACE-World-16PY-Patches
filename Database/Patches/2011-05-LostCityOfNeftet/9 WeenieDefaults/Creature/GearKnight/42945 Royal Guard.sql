@@ -5,18 +5,18 @@ VALUES (42945, 'ace42945-royalguard', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42945,   1,         16) /* ItemType - Creature */
-     , (42945,   2,         99) /* CreatureType - Gearknight */
-	 , (42945,   3,          21) /* PaletteTemplate - Gold */
+     , (42945,   2,         99) /* CreatureType - GearKnight */
+     , (42945,   3,         21) /* PaletteTemplate - Gold */
      , (42945,   6,         -1) /* ItemsCapacity */
      , (42945,   7,         -1) /* ContainersCapacity */
      , (42945,  16,         32) /* ItemUseable - Remote */
-	 , (42945,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42945,  25,        275) /* Level */
+     , (42945,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42945,  95,          8) /* RadarBlipColor - Yellow */
      , (42945, 113,          1) /* Gender - Male */
      , (42945, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (42945, 188,          6) /* HeritageGroup - Geartknight  */
-	 , (42945, 134,         16) /* PlayerKillerStatus - RubberGlue */;
+     , (42945, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (42945, 188,          6) /* HeritageGroup - Gearknight */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42945,   1, True ) /* Stuck */
@@ -35,7 +35,7 @@ VALUES (42945,   1,       5) /* HeartbeatInterval */
      , (42945,   3,    0.15) /* HealthRate */
      , (42945,   4,       5) /* StaminaRate */
      , (42945,   5,       1) /* ManaRate */
-	 , (42945,  12,  0.7083) /* Shade */
+     , (42945,  12,  0.7083) /* Shade */
      , (42945,  13,    0.89) /* ArmorModVsSlash */
      , (42945,  14,       1) /* ArmorModVsPierce */
      , (42945,  15,     1.1) /* ArmorModVsBludgeon */
@@ -43,7 +43,7 @@ VALUES (42945,   1,       5) /* HeartbeatInterval */
      , (42945,  17,     0.4) /* ArmorModVsFire */
      , (42945,  18,       1) /* ArmorModVsAcid */
      , (42945,  19,     0.6) /* ArmorModVsElectric */
-	 , (42945,  39,     1.2) /* DefaultScale */
+     , (42945,  39,     1.2) /* DefaultScale */
      , (42945,  54,       3) /* UseRadius */
      , (42945,  64,       1) /* ResistSlash */
      , (42945,  65,       1) /* ResistPierce */
@@ -66,12 +66,24 @@ VALUES (42945,   1, 'Royal Guard') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42945,   1,   33561393) /* Setup */
-     , (42945,   2,  150994945) /* MotionTable */
-     , (42945,   3,  536870913) /* SoundTable */
+     , (42945,   2,  150995368) /* MotionTable */
+     , (42945,   3,  536870933) /* SoundTable */
      , (42945,   6,   67108990) /* PaletteBase */
-	 , (42945,   7,  268435855) /* ClothingBase */
+     , (42945,   7,  268435855) /* ClothingBase */
      , (42945,   8,  100674350) /* Icon */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (42945,   1, 290, 0, 0) /* Strength */
+     , (42945,   2, 200, 0, 0) /* Endurance */
+     , (42945,   3, 290, 0, 0) /* Quickness */
+     , (42945,   4, 290, 0, 0) /* Coordination */
+     , (42945,   5, 260, 0, 0) /* Focus */
+     , (42945,   6, 200, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (42945,   1,   196, 0, 0, 296) /* MaxHealth */
+     , (42945,   3,   196, 0, 0, 396) /* MaxStamina */
+     , (42945,   5,   196, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (42945,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
@@ -94,21 +106,6 @@ VALUES (42945,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (42945,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (42945,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (42945,   1, 290, 0, 0) /* Strength */
-     , (42945,   2, 200, 0, 0) /* Endurance */
-     , (42945,   3, 290, 0, 0) /* Quickness */
-     , (42945,   4, 290, 0, 0) /* Coordination */
-     , (42945,   5, 260, 0, 0) /* Focus */
-     , (42945,   6, 200, 0, 0) /* Self */;
-	 
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42945,   1,   196, 0, 0, 296) /* MaxHealth */
-     , (42945,   3,   196, 0, 0, 396) /* MaxStamina */
-     , (42945,   5,   196, 0, 0, 396) /* MaxMana */;
-	 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (42945,  5 /* HeartBeat */,  0.085, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
@@ -133,11 +130,6 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42945, 2,  42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard for Wield */
-     , (42945, 2,  24611,  1, 0, 0, False) /* Create Sword of Lost Light  for Wield */;
-
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (42945,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -145,16 +137,9 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,   5 /* Motion */, 0, 1, 318767242 /* Motion Salute */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,   5 /* Motion */, 0, 1, 318767242 /* Salute */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  10 /* Tell */, 0.5, 1, NULL, 'Greetings Citizen!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-	
-	
-	
-	
-	
-	
-	
-
-
-
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42945, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
+     , (42945, 2, 24611,  1, 0, 0, False) /* Create Sword of Lost Light (24611) for Wield */;

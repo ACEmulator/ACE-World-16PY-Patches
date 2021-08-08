@@ -23,7 +23,7 @@ VALUES (36800,   1, True ) /* Stuck */
      , (36800,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36800,  12,  0.8571) /* Shade */
+VALUES (36800,  12,     0.2) /* Shade */
      , (36800,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -36,7 +36,7 @@ VALUES (42145,   1, 'Warden') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42145,   1,   33554510) /* Setup */
      , (42145,   2,  150994945) /* MotionTable */
-     , (42145,   3,  536870913) /* SoundTable */
+     , (42145,   3,  536870914) /* SoundTable */
      , (42145,   6,   67108990) /* PaletteBase */
      , (42145,   8,  100667446) /* Icon */
      , (42145,   9,   83890509) /* EyesTexture */
@@ -130,8 +130,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  5,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 300000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42145, 2, 37188,  0, 0, 0, False) /* Create  (37188) for Wield */
-     , (42145, 2, 37196,  0, 0, 0, False) /* Create  (37196) for Wield */
-     , (42145, 2, 37201,  0, 0, 0, False) /* Create  (37201) for Wield */
-     , (42145, 2, 37208,  0, 0, 0, False) /* Create  (37208) for Wield */
-     , (42145, 2, 37299,  0, 0, 0, False) /* Create  (37299) for Wield */;
+VALUES (42145, 2, 37188,  0, 0, 0, False) /* Create Olthoi Amuli Gauntlets (37188) for Wield */
+     , (42145, 2, 37196,  0, 0, 0, False) /* Create Olthoi Amuli Helm (37196) for Wield */
+     , (42145, 2, 37201,  0, 0, 0, False) /* Create Olthoi Amuli Leggings (37201) for Wield */
+     , (42145, 2, 37208,  0, 0, 0, False) /* Create Olthoi Amuli Sollerets (37208) for Wield */
+     , (42145, 2, 37299,  0, 0, 0, False) /* Create Olthoi Amuli Coat (37299) for Wield */;

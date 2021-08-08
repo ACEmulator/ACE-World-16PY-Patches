@@ -6,7 +6,7 @@ VALUES (30551, 'knightcastellansilver', 10, '2019-09-13 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30551,   1,         16) /* ItemType - Creature */
      , (30551,   2,         83) /* CreatureType - ViamontianKnight */
-     , (30551,   3,         39) /* PaletteTemplate - Black */
+     , (30551,   3,          1) /* PaletteTemplate - AquaBlue */
      , (30551,   6,         -1) /* ItemsCapacity */
      , (30551,   7,         -1) /* ContainersCapacity */
      , (30551,  16,          1) /* ItemUseable - No */

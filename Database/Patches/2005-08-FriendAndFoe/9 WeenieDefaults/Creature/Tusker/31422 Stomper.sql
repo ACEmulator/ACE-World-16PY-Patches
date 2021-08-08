@@ -36,16 +36,16 @@ VALUES (31422,   1,       5) /* HeartbeatInterval */
      , (31422,   4,       4) /* StaminaRate */
      , (31422,   5,       2) /* ManaRate */
      , (31422,  13,     0.5) /* ArmorModVsSlash */
-     , (31422,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (31422,  15, 0.660000026226044) /* ArmorModVsBludgeon */
+     , (31422,  14,     0.8) /* ArmorModVsPierce */
+     , (31422,  15,    0.66) /* ArmorModVsBludgeon */
      , (31422,  16,       1) /* ArmorModVsCold */
-     , (31422,  17, 0.699999988079071) /* ArmorModVsFire */
+     , (31422,  17,     0.7) /* ArmorModVsFire */
      , (31422,  18,       1) /* ArmorModVsAcid */
      , (31422,  19,       1) /* ArmorModVsElectric */
      , (31422,  31,      20) /* VisualAwarenessRange */
      , (31422,  34,     2.5) /* PowerupTime */
      , (31422,  36,       1) /* ChargeSpeed */
-     , (31422,  39,     1.5) /* DefaultScale */
+     , (31422,  39,     1.3) /* DefaultScale */
      , (31422,  64,     0.5) /* ResistSlash */
      , (31422,  65,       1) /* ResistPierce */
      , (31422,  66,    0.75) /* ResistBludgeon */
@@ -54,12 +54,12 @@ VALUES (31422,   1,       5) /* HeartbeatInterval */
      , (31422,  69,    0.75) /* ResistAcid */
      , (31422,  70,    0.25) /* ResistElectric */
      , (31422,  71,       1) /* ResistHealthBoost */
-     , (31422,  72, 0.100000001490116) /* ResistStaminaDrain */
+     , (31422,  72,     0.1) /* ResistStaminaDrain */
      , (31422,  73,       1) /* ResistStaminaBoost */
-     , (31422,  74, 0.100000001490116) /* ResistManaDrain */
+     , (31422,  74,     0.1) /* ResistManaDrain */
      , (31422,  75,       1) /* ResistManaBoost */
      , (31422, 104,      10) /* ObviousRadarRange */
-     , (31422, 125, 0.100000001490116) /* ResistHealthDrain */
+     , (31422, 125,     0.1) /* ResistHealthDrain */
      , (31422, 151,       1) /* IgnoreShield */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -74,7 +74,7 @@ VALUES (31422,   1,   33556836) /* Setup */
      , (31422,   7,  268436483) /* ClothingBase */
      , (31422,   8,  100667443) /* Icon */
      , (31422,  22,  872415271) /* PhysicsEffectTable */
-     , (31422,  35,       1000) /* DeathTreasureType */;
+     , (31422,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31422,   1, 270, 0, 0) /* Strength */

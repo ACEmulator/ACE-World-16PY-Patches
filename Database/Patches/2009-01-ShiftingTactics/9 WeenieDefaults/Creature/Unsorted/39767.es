@@ -4,6 +4,9 @@ Use:
 			- InqQuestBitsOn: ExplorationMarkersFoundInGroupC, 0x100
 				QuestSuccess:
 					- DirectBroadcast: You discovered this marker already.
+					- InqQuest: ExplorationMarkersFound@AlreadyFound
+						QuestSuccess:
+							- DirectBroadcast: You have found a total of %tqc of the Exploration Markers.
 				QuestFailure:
 					- DirectBroadcast: You have discovered an Exploration Marker!
 					- SetQuestBitsOn: ExplorationMarkersFoundInGroupC, 0x100

@@ -9,7 +9,7 @@ VALUES (87044,  81,          1) /* MaxGeneratedObjects */
      , (87044,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87044, 103,          3) /* GeneratorDestructionType - Kill */
      , (87044, 142,          3) /* GeneratorTimeType - Event */
-     , (87044, 145,          3) /* GeneratorEndDestructionType - Kill */;
+     , (87044, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87044,   1, True ) /* Stuck */
@@ -30,4 +30,4 @@ VALUES (87044,   1,   33555051) /* Setup */
      , (87044,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87044, -1, 36761, 1, 1, 1, 1, 4, 0, 0, 0, 14025877, 66.642, -24.0445, 85.25, -0.5000001, 0, 0, -0.8660254) /* Generate Virindi Portal (36761) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (87044, -1, 36761, 1, 1, 1, 1, 4, 0, 0, 0, 14025877, 66.642, -24.0445, 85.25, -0.5, 0, 0, -0.866025) /* Generate Virindi Portal (36761) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
