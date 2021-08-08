@@ -738,5 +738,9 @@ VALUES (0x700D6161, 87144, 0x00D60494, 57.898, -52.6292, 84.055, -0.0510031, 0, 
 /* @teleloc 0x00D60494 [57.897999 -52.629200 84.055000] -0.051003 0.000000 0.000000 0.998699 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700D6162, 87047, 0x00D60498, 71.03084, -53.294292, 84.005005, -0.7024882, 0, 0, -0.71169543, False, '2021-01-23 12:10:16'); /* KnorrQudditySeedEvent Starter */
-/* @teleloc 0x00D60498 [71.030838 -53.294292 84.005005] -0.702488 0.000000 0.000000 -0.711695 */
+VALUES (0x700D6162, 87047, 0x00D60498, 71.0308, -53.2943, 84.005, -0.702488, 0, 0, -0.711695, False, '2021-01-23 12:10:16'); /* KnorrQudditySeedEvent Starter */
+/* @teleloc 0x00D60498 [71.030800 -53.294300 84.004997] -0.702488 0.000000 0.000000 -0.711695 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700D6163, 87274, 0x00D60497, 67.39463, -42.926052, 84.05501, -0.7191397, 0, 0, -0.6948656, False, '2021-08-04 16:52:13'); /* Knorr Quiddity TimesUp Gen */
+/* @teleloc 0x00D60497 [67.394630 -42.926052 84.055008] -0.719140 0.000000 0.000000 -0.694866 */
