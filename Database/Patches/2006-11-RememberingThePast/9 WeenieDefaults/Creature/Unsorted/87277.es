@@ -6,6 +6,7 @@ Use:
                     #- DirectBroadcast: You haven't finished your last drink.
                 QuestFailure:
                     - StampQuest: UlgrimsDrinkingContestDrinking
+                    - ForceMotion: Pickup
                     - PhysScript: Destroy
                     - ForceMotion: Drink
                     - Sound: Drink1
