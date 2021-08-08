@@ -14,8 +14,7 @@ VALUES (44902,   1,       2048) /* ItemType - Gem */
      , (44902,  19,        100) /* Value */
      , (44902,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44902,  94,         16) /* TargetType - Creature */
-     , (44902, 280,        100) /* SharedCooldown */
-     , (44902, 349,        192) /* UseCreatesContractId - Contract_192_Holtburg_Redoubt */;
+     , (44902, 280,        100) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44902,  22, True ) /* Inscribable */;

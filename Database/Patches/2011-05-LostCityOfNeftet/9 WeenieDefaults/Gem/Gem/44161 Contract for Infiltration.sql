@@ -28,11 +28,10 @@ VALUES (44161, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44161,   1, 'Contract for Infiltration') /* Name */
      , (44161,  14, 'Recommended Level: 90') /* Use */
-     , (44161,  16, 'Lord Kresovus'' scouts have reported that the enemy has set up a base a somewhere in the northernmost Direlands. Retrieve any information you can find there.') /* LongDesc */;
+     , (44161,  16, 'Lord Kresovus'' has reports that the enemy has set up camp somewhere in the northernmost Direlands. Retrieve any information you can find. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44161,   1,   33557625) /* Setup */
      , (44161,   3,  536870932) /* SoundTable */
      , (44161,   8,  100691926) /* Icon */
-     , (44161,  22,  872415275) /* PhysicsEffectTable */
-     , (44161, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
+     , (44161,  22,  872415275) /* PhysicsEffectTable */;

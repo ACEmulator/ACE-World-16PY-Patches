@@ -32,6 +32,7 @@ VALUES (44525, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44525,   1, 'Contract for Phyntos Honey') /* Name */
+     , (44525,  14, 'Recommended Level: 180') /* Use */
      , (44525,  16, 'Collect 10 Phyntos Honey.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
