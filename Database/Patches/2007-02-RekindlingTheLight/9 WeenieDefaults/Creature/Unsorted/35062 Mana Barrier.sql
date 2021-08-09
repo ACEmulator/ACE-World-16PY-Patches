@@ -32,7 +32,7 @@ VALUES (35062,   1,       5) /* HeartbeatInterval */
      , (35062,  13,    0.75) /* ArmorModVsSlash */
      , (35062,  14,    0.75) /* ArmorModVsPierce */
      , (35062,  15,       1) /* ArmorModVsBludgeon */
-     , (35062,  16,     100) /* ArmorModVsCold */
+     , (35062,  16,       1) /* ArmorModVsCold */
      , (35062,  17,       1) /* ArmorModVsFire */
      , (35062,  18,     0.8) /* ArmorModVsAcid */
      , (35062,  19,    0.89) /* ArmorModVsElectric */
