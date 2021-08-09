@@ -68,33 +68,22 @@ VALUES (35062,   1,   33559807) /* Setup */
      , (35062,  22,  872415328) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (35062,   1, 900, 0, 0) /* Strength */
-     , (35062,   2, 850, 0, 0) /* Endurance */
-     , (35062,   3, 800, 0, 0) /* Quickness */
-     , (35062,   4, 900, 0, 0) /* Coordination */
-     , (35062,   5, 850, 0, 0) /* Focus */
-     , (35062,   6, 890, 0, 0) /* Self */;
+VALUES (35062,   1, 200, 0, 0) /* Strength */
+     , (35062,   2, 200, 0, 0) /* Endurance */
+     , (35062,   3, 200, 0, 0) /* Quickness */
+     , (35062,   4, 200, 0, 0) /* Coordination */
+     , (35062,   5, 200, 0, 0) /* Focus */
+     , (35062,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35062,   1,  9575, 0, 0, 10000) /* MaxHealth */
-     , (35062,   3,  1150, 0, 0, 2000) /* MaxStamina */
-     , (35062,   5,  1110, 0, 0, 2000) /* MaxMana */;
+VALUES (35062,   1,  9900, 0, 0, 10000) /* MaxHealth */
+     , (35062,   3,  1800, 0, 0, 2000) /* MaxStamina */
+     , (35062,   5,  1800, 0, 0, 2000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (35062,  6, 0, 3, 0, 260, 0, 0) /* MeleeDefense        Specialized */
+VALUES (35062,  6, 0, 3, 0, 500, 0, 0) /* MeleeDefense        Specialized */
      , (35062,  7, 0, 3, 0,   0, 0, 0) /* MissileDefense      Specialized */
-     , (35062, 14, 0, 3, 0, 150, 0, 0) /* ArcaneLore          Specialized */
-     , (35062, 15, 0, 3, 0, 375, 0, 0) /* MagicDefense        Specialized */
-     , (35062, 20, 0, 3, 0, 110, 0, 0) /* Deception           Specialized */
-     , (35062, 24, 0, 3, 0, 400, 0, 0) /* Run                 Specialized */
-     , (35062, 31, 0, 3, 0, 330, 0, 0) /* CreatureEnchantment Specialized */
-     , (35062, 33, 0, 3, 0, 330, 0, 0) /* LifeMagic           Specialized */
-     , (35062, 34, 0, 3, 0, 330, 0, 0) /* WarMagic            Specialized */
-     , (35062, 44, 0, 3, 0, 235, 0, 0) /* HeavyWeapons        Specialized */
-     , (35062, 45, 0, 3, 0, 400, 0, 0) /* LightWeapons        Specialized */
-     , (35062, 46, 0, 3, 0, 400, 0, 0) /* FinesseWeapons      Specialized */
-     , (35062, 47, 0, 3, 0, 400, 0, 0) /* MissileWeapons      Specialized */
-     , (35062, 48, 0, 3, 0, 200, 0, 0) /* Shield              Specialized */;
+     , (35062, 15, 0, 3, 0, 500, 0, 0) /* MagicDefense        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (35062,  0,  4,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
