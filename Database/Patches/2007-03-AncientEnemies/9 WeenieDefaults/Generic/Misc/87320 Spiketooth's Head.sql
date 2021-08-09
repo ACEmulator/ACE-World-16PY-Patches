@@ -23,7 +23,8 @@ VALUES (87320,  39,       1) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87320,   1, 'Spiketooth''s Head') /* Name */
      , (87320,  14, 'Tibik, the Ruuk Village Gatherer, may be interested in this.') /* Use */
-     , (87320,  16, 'The Head of Spiketooth, an especially nasty Moar.') /* LongDesc */;
+     , (87320,  16, 'The Head of Spiketooth, an especially nasty Moar.') /* LongDesc */
+     , (87320,  33, 'SpiketoothsHead_PickupTimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87320,   1,   33556823) /* Setup */
