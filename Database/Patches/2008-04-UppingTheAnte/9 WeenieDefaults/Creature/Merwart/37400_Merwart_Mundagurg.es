@@ -19,6 +19,7 @@ Give: Hand of Blightfinger (87475)
 	- TurnToTarget
 	- Tell: You did it! I dance for joy if Angry Grandfather not think it so undignified! You deserve big reward, human. Take this club, I need no more.
 	- Give: 37402
+	- Give: 20630, 2
 	- AwardXP: 20,700,000
 	- Delay: 1, Tell: If you no like club, I take it back, in exchange for enlightenment. If you get stronger and want to make club stronger, bring me golem heart, I carve for you to attach to club. What heart? Memory so bad... Platinum! Yes! Bring me Platinum Golem Heart, I carve for you to strap to club, make club whang harder!
 	- StampQuest: TentaclesTthuunComplete0408
