@@ -1,69 +1,93 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x4AE2;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE2000, 46597, 0x4AE20018, 60.9945, 178.388, 172.139, 0.915154, 0, 0, 0.403104, False, '2020-11-17 20:49:40'); /* Falatacot Temple */
-/* @teleloc 0x4AE20018 [60.994499 178.388000 172.139008] 0.915154 0.000000 0.000000 0.403104 */
+VALUES (0x74AE201A, 46597, 0x4AE20018, 53.698, 179.849, 172.1387, 0.7028179, 0, 0, 0.7113699, False, '2019-02-10 00:00:00'); /* Falatacot Temple */
+/* @teleloc 0x4AE20018 [53.698 179.849 172.1387] 0.7028179 0 0 0.7113699 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE2001, 82000, 0x4AE2003B, 185.471, 57.821, 172.055, -0.238228, 0, 0, -0.971209, False, '2020-12-22 20:36:08'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE2003B [185.470993 57.820999 172.054993] -0.238228 0.000000 0.000000 -0.971209 */
+VALUES (0x74AE2000, 46310, 0x4AE2002F, 133.0, 144.012, 172.0, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Door */
+/* @teleloc 0x4AE2002F [133.0 144.012 172.0] 1 0 0 0 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE2002, 82000, 0x4AE20033, 153.922, 51.9738, 172.055, -0.620619, 0, 0, -0.784112, False, '2020-12-22 20:36:13'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE20033 [153.921997 51.973801 172.054993] -0.620619 0.000000 0.000000 -0.784112 */
+VALUES (0x74AE2001, 46311, 0x4AE2002F, 123.5, 149.175, 172.0, -4.37114e-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+/* @teleloc 0x4AE2002F [123.5 149.175 172.0] -4.37114e-08 0 0 -1 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE2003, 82000, 0x4AE20033, 164.805, 70.8427, 172.055, -0.888017, 0, 0, 0.459811, False, '2020-12-22 20:36:19'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE20033 [164.804993 70.842697 172.054993] -0.888017 0.000000 0.000000 0.459811 */
+VALUES (0x74AE2002, 46312, 0x4AE2002E, 123.5, 138.827, 172.0, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Door */
+/* @teleloc 0x4AE2002E [123.5 138.827 172.0] 1 0 0 0 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE2004, 82000, 0x4AE20035, 153.083, 97.2618, 172.055, -0.999212, 0, 0, -0.039696, False, '2020-12-22 20:36:24'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE20035 [153.082993 97.261803 172.054993] -0.999212 0.000000 0.000000 -0.039696 */
+VALUES (0x74AE2030, 46498, 0x4AE2002E, 134.6018, 138.2327, 211.2989, 0.4567344, 0, 0, -0.8896031, True, '2019-02-10 00:00:00'); /* Spectral Archer */
+/* @teleloc 0x4AE2002E [134.6018 138.2327 211.2989] 0.4567344 0 0 -0.8896031 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE2005, 82000, 0x4AE2003D, 176.489, 110.83, 172.055, -0.863423, 0, 0, 0.504481, False, '2020-12-22 20:36:29'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE2003D [176.488998 110.830002 172.054993] -0.863423 0.000000 0.000000 0.504481 */
+VALUES (0x74AE2031, 46500, 0x4AE2002C, 131.7302, 80.70476, 205.4992, -0.9981211, 0, 0, -0.06127156, True, '2019-02-10 00:00:00'); /* Spectral Archer */
+/* @teleloc 0x4AE2002C [131.7302 80.70476 205.4992] -0.9981211 0 0 -0.06127156 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE2006, 82000, 0x4AE2003E, 184.123, 139.812, 172.055, -0.991719, 0, 0, 0.128425, False, '2020-12-22 20:36:35'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE2003E [184.123001 139.811996 172.054993] -0.991719 0.000000 0.000000 0.128425 */
+VALUES (0x74AE203F, 46502, 0x4AE20030, 130.3068, 180.1575, 201.1908, 0.09849463, 0, 0, -0.9951376, True, '2019-02-10 00:00:00'); /* Spectral Archer */
+/* @teleloc 0x4AE20030 [130.3068 180.1575 201.1908] 0.09849463 0 0 -0.9951376 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE2007, 82000, 0x4AE20040, 185.83, 176.505, 172.055, -0.99997, 0, 0, 0.00777132, False, '2020-12-22 20:36:42'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE20040 [185.830002 176.505005 172.054993] -0.999970 0.000000 0.000000 0.007771 */
+VALUES (0x74AE2053, 46500, 0x4AE20032, 162.3062, 38.36435, 201.1958, 0.8884307, 0, 0, -0.4590107, True, '2019-02-10 00:00:00'); /* Spectral Archer */
+/* @teleloc 0x4AE20032 [162.3062 38.36435 201.1958] 0.8884307 0 0 -0.4590107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE2008, 82000, 0x4AE20038, 158.852, 180.368, 172.055, -0.318802, 0, 0, -0.947821, False, '2020-12-22 20:36:48'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE20038 [158.852005 180.367996 172.054993] -0.318802 0.000000 0.000000 -0.947821 */
+VALUES (0x74AE2059, 46504, 0x4AE20006, 19.1433, 136.4162, 211.4099, 0.9971888, 0, 0, 0.07492971, True, '2019-02-10 00:00:00'); /* Spectral Archer */
+/* @teleloc 0x4AE20006 [19.1433 136.4162 211.4099] 0.9971888 0 0 0.07492971 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE2009, 82000, 0x4AE20037, 161.376, 162.529, 172.055, 0.111802, 0, 0, -0.99373, False, '2020-12-22 20:36:53'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE20037 [161.376007 162.529007 172.054993] 0.111802 0.000000 0.000000 -0.993730 */
+VALUES (0x74AE205A, 46500, 0x4AE2000E, 35.12285, 129.589, 201.1908, -0.4715215, 0, 0, -0.8818545, True, '2019-02-10 00:00:00'); /* Spectral Archer */
+/* @teleloc 0x4AE2000E [35.12285 129.589 201.1908] -0.4715215 0 0 -0.8818545 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE200A, 82000, 0x4AE20036, 163.934, 137.154, 172.055, -0.00298567, 0, 0, -0.999996, False, '2020-12-22 20:36:58'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE20036 [163.934006 137.154007 172.054993] -0.002986 0.000000 0.000000 -0.999996 */
+VALUES (0x74AE205C, 46500, 0x4AE20014, 62.86163, 86.46908, 211.4099, 1, 0, 0, 0, True, '2019-02-10 00:00:00'); /* Spectral Archer */
+/* @teleloc 0x4AE20014 [62.86163 86.46908 211.4099] 1 0 0 0 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE200B, 82000, 0x4AE20035, 155.516, 116.293, 172.055, 0.944363, 0, 0, 0.328904, False, '2020-12-22 20:37:11'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE20035 [155.516006 116.292999 172.054993] 0.944363 0.000000 0.000000 0.328904 */
+VALUES (0x74AE205D, 46498, 0x4AE20016, 56.76645, 134.7983, 211.4099, 1, 0, 0, 0, True, '2019-02-10 00:00:00'); /* Spectral Archer */
+/* @teleloc 0x4AE20016 [56.76645 134.7983 211.4099] 1 0 0 0 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE200C, 82000, 0x4AE2002E, 129.443, 142.2, 172.055, 0.704716, 0, 0, 0.70949, False, '2020-12-22 20:37:17'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE2002E [129.442993 142.199997 172.054993] 0.704716 0.000000 0.000000 0.709490 */
+VALUES (0x74AE205F, 46498, 0x4AE2003A, 182.1858, 38.84485, 201.1908, 1, 0, 0, 0, True, '2019-02-10 00:00:00'); /* Spectral Archer */
+/* @teleloc 0x4AE2003A [182.1858 38.84485 201.1908] 1 0 0 0 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE200D, 82000, 0x4AE20026, 108.819, 122.441, 172.055, 0.205438, 0, 0, 0.97867, False, '2020-12-22 20:37:23'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE20026 [108.819000 122.441002 172.054993] 0.205438 0.000000 0.000000 0.978670 */
+VALUES (0x74AE2060, 46504, 0x4AE2002A, 137.9487, 38.5699, 211.4099, 1, 0, 0, 0, True, '2019-02-10 00:00:00'); /* Spectral Archer */
+/* @teleloc 0x4AE2002A [137.9487 38.5699 211.4099] 1 0 0 0 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE200E, 82000, 0x4AE2001D, 80.6652, 101.555, 172.055, 0.583464, 0, 0, 0.812139, False, '2020-12-22 20:37:29'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE2001D [80.665199 101.555000 172.054993] 0.583464 0.000000 0.000000 0.812139 */
+VALUES (0x74AE2062, 46502, 0x4AE2002B, 129.4463, 59.52003, 201.1908, 1, 0, 0, 0, True, '2019-02-10 00:00:00'); /* Spectral Archer */
+/* @teleloc 0x4AE2002B [129.4463 59.52003 201.1908] 1 0 0 0 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE200F, 82000, 0x4AE2001E, 88.4626, 142.924, 172.055, 0.99991, 0, 0, 0.013413, False, '2020-12-22 20:37:36'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE2001E [88.462601 142.923996 172.054993] 0.999910 0.000000 0.000000 0.013413 */
+VALUES (0x74AE2063, 46504, 0x4AE20024, 113.9889, 84.74024, 201.1908, 1, 0, 0, 0, True, '2019-02-10 00:00:00'); /* Spectral Archer */
+/* @teleloc 0x4AE20024 [113.9889 84.74024 201.1908] 1 0 0 0 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE2010, 82000, 0x4AE20010, 33.74614, 188.89948, 172.055, -0.10602827, 0, 0, -0.9943631, False, '2020-12-22 20:38:04'); /* Lum Melee Hoshino Generator */
-/* @teleloc 0x4AE20010 [33.746140 188.899475 172.054993] -0.106028 0.000000 0.000000 -0.994363 */
+VALUES (0x74AE2068, 46504, 0x4AE2002D, 131.7218, 100.46, 201.1908, 1, 0, 0, 0, True, '2019-02-10 00:00:00'); /* Spectral Archer */
+/* @teleloc 0x4AE2002D [131.7218 100.46 201.1908] 1 0 0 0 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74AE2069, 46502, 0x4AE20015, 57.08432, 105.8653, 201.1908, 1, 0, 0, 0, True, '2019-02-10 00:00:00'); /* Spectral Archer */
+/* @teleloc 0x4AE20015 [57.08432 105.8653 201.1908] 1 0 0 0 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74AE201B, 1154, 0x4AE2003A, 180.6384, 33.14378, 201.1908, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+/* @teleloc 0x4AE2003A [180.6384 33.14378 201.1908] 1 0 0 0 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x74AE201B, 0x74AE2030, '2019-02-10 00:00:00') /* Spectral Archer */
+     , (0x74AE201B, 0x74AE2031, '2019-02-10 00:00:00') /* Spectral Archer */
+     , (0x74AE201B, 0x74AE203F, '2019-02-10 00:00:00') /* Spectral Archer */
+     , (0x74AE201B, 0x74AE2053, '2019-02-10 00:00:00') /* Spectral Archer */
+     , (0x74AE201B, 0x74AE2059, '2019-02-10 00:00:00') /* Spectral Archer */
+     , (0x74AE201B, 0x74AE205A, '2019-02-10 00:00:00') /* Spectral Archer */
+     , (0x74AE201B, 0x74AE205C, '2019-02-10 00:00:00') /* Spectral Archer */
+     , (0x74AE201B, 0x74AE205D, '2019-02-10 00:00:00') /* Spectral Archer */
+     , (0x74AE201B, 0x74AE205F, '2019-02-10 00:00:00') /* Spectral Archer */
+     , (0x74AE201B, 0x74AE2060, '2019-02-10 00:00:00') /* Spectral Archer */
+     , (0x74AE201B, 0x74AE2062, '2019-02-10 00:00:00') /* Spectral Archer */
+     , (0x74AE201B, 0x74AE2063, '2019-02-10 00:00:00') /* Spectral Archer */
+     , (0x74AE201B, 0x74AE2068, '2019-02-10 00:00:00') /* Spectral Archer */
+     , (0x74AE201B, 0x74AE2069, '2019-02-10 00:00:00') /* Spectral Archer */;

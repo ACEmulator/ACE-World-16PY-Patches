@@ -24,8 +24,7 @@ VALUES (46622,  39,       1) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46622,   1, 'First Lieutenant''s Insignia.') /* Name */
      , (46622,  16, 'An insignia worn by one of Hoshino''s First Lieutenants.') /* LongDesc */
-	 , (46622,  33, 'KillTaskFirstLieutenantCompleted') /* LongDesc */
-	 ;
+	 , (46622,  33, 'FirstLieutenantInsigniaPickup') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46622,   1,   33554718) /* Setup */

@@ -71,12 +71,12 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46411,  1,  33554433) /* Setup */
      , (46411,  2, 150994981) /* MotionTable */
      , (46411,  3, 536870942) /* SoundTable */
+     , (46411,  4, 805306368) /* CombatTable */
      , (46411,  6,  67108990) /* PaletteBase */
      , (46411,  7, 268435645) /* ClothingBase */
      , (46411,  8, 100669122) /* Icon */
      , (46411, 22, 872415272) /* PhysicsEffectTable */
-     , (46411, 32,      3001) /* WieldedTreasureType - 
-                                   Wield Tachi
+     , (46411, 32,      3001) /* WieldedTreasureType */ 
      , (46411, 35,      2000) /* DeathTreasureType - Loot Tier: 8 */;
 	 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
