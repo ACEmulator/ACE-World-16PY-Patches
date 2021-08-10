@@ -125,6 +125,7 @@ Give: Sigil of Linvak Tukal (36682)
 			- AwardLevelProportionalXP: 50%, Max: 162,415,717
 			- AwardLuminance: 7,500
 			- EraseQuest: AerbaxsProdigalLugian_Start
+			- EraseQuest: TotHeartEnergyCageDown
 			- StampQuest: AurutisItemUpgrade_Flag
 			- StampQuest: AerbaxsProdigalLugian_Wait
 		QuestFailure:
@@ -140,6 +141,7 @@ Give: Sigil of Linvak Tukal (36682)
 			- AddCharacterTitle: GuardianofLinvakTukal
 			- Delay: 1, Tell: Thank you for freeing me human. My people and I owe you more than can ever be repaid.
 			- EraseQuest: AerbaxsProdigalLugian_Start
+			- EraseQuest: TotHeartEnergyCageDown
 			- StampQuest: AurutisItemUpgrade_Flag
 			- StampQuest: AerbaxsProdigalLugian_Wait
 			- StampQuest: AerbaxsProdigalLugian_Repeat
