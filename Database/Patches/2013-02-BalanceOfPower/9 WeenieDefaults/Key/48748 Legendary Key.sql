@@ -8,11 +8,13 @@ VALUES (48748,   1,      16384) /* ItemType - Key */
      , (48748,   5,         30) /* EncumbranceVal */
      , (48748,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (48748,  18,         64) /* UiEffects - Lightning */
-     , (48748,  19,      10000) /* Value */
+     , (48748,  19,      20000) /* Value */
+     , (48748,  33,          0) /* Bonded - Normal */
      , (48748,  91,          2) /* MaxStructure */
      , (48748,  92,          2) /* Structure */
      , (48748,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48748,  94,        640) /* TargetType - LockableMagicTarget */
+     , (48748, 114,          0) /* Attuned - Normal */
      , (48748, 267,      86400) /* Lifespan */
      , (48748, 369,        150) /* UseRequiresLevel */;
 
