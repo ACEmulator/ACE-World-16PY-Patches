@@ -9,20 +9,17 @@ VALUES (52010,   1,      16384) /* ItemType - Key */
      , (52010,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (52010,  18,         64) /* UiEffects - Lightning */
      , (52010,  19,      10000) /* Value */
-     , (52010,  33,          1) /* Bonded - Normal */
+     , (52010,  33,          0) /* Bonded - Normal */
      , (52010,  91,          5) /* MaxStructure */
      , (52010,  92,          5) /* Structure */
      , (52010,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52010,  94,        640) /* TargetType - LockableMagicTarget */
+     , (52010, 114,          0) /* Attuned - Normal */
      , (52010, 267,      86400) /* Lifespan */
      , (52010, 369,        150) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52010,  11, True ) /* IgnoreCollisions */
-     , (52010,  13, True ) /* Ethereal */
-     , (52010,  14, True ) /* GravityStatus */
-     , (52010,  19, True ) /* Attackable */
-     , (52010,  22, True ) /* Inscribable */
+VALUES (52010,  22, True ) /* Inscribable */
      , (52010,  69, False) /* IsSellable */
      , (52010,  99, False) /* Ivoryable */;
 
