@@ -18,18 +18,13 @@ VALUES (48746,   1,      16384) /* ItemType - Key */
      , (48746, 369,        150) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48746,  11, True ) /* IgnoreCollisions */
-     , (48746,  13, True ) /* Ethereal */
-     , (48746,  14, True ) /* GravityStatus */
-     , (48746,  19, True ) /* Attackable */
-     , (48746,  22, True ) /* Inscribable */
+VALUES (48746,  22, True ) /* Inscribable */
      , (48746,  69, False) /* IsSellable */
      , (48746,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48746,   1, 'Aged Legendary Key') /* Name */
-     , (48746,  13, 'keychestleg') /* KeyCode */
-     , (48746,  14, 'Use this key to open a Legendary Armor, Magic, or Weapon Chest.') /* Use */
+     , (48746,  14, 'Use this key to open a Legendary Chest.') /* Use */
      , (48746,  16, 'This key has seen better days.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
