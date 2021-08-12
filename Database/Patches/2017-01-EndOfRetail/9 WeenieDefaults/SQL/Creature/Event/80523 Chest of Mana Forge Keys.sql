@@ -24,13 +24,13 @@ VALUES (80523,   1, True ) /* Stuck */
      , (80523,  13, False) /* Ethereal */
      , (80523,  14, True ) /* GravityStatus */
      , (80523,  19, False) /* Attackable */
+     , (80523,  29, True ) /* NoCorpse */
      , (80523,  41, True ) /* ReportCollisionsAsEnvironment */
      , (80523,  42, True ) /* AllowEdgeSlide */
      , (80523,  52, True ) /* AiImmobile */
      , (80523,  50, True ) /* NeverFailCasting */
      , (80523,  82, True ) /* DontTurnOrMoveWhenGiving */
-     , (80523,  83, True ) /* NpcLooksLikeObject */
-     , (80523, 120, True ) /* TreasureCorpse */;
+     , (80523,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80523,   1,       5) /* HeartbeatInterval */
