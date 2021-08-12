@@ -1,8 +1,7 @@
-
 DELETE FROM `weenie` WHERE `class_Id` = 48742;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48742, 'ace48742-legendarymagicchest', 20, '2019-12-25 01:07:36') /* Chest */;
+VALUES (48742, 'ace48742-legendarymagicchest', 20, '2021-07-28 07:30:09') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48742,   1,        512) /* ItemType - Container */
@@ -39,7 +38,7 @@ VALUES (48742,  11,      30) /* ResetInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48742,   1, 'Legendary Magic Chest') /* Name */
-     , (48742,  12, 'keychestleg') /* LockCode */
+     , (48742,  12, 'legarmormagicweaponchest') /* LockCode */
      , (48742,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -51,6 +50,3 @@ VALUES (48742,   1,   33558324) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48742, -1, 2003, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 8 from Death Treasure Table id: 2003 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
-
-
-

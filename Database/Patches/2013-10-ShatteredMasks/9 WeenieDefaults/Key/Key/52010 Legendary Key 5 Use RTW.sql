@@ -28,7 +28,7 @@ VALUES (52010,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52010,  1, 'Legendary Key') /* Name */
-     , (52010, 13, 'keychestleg') /* KeyCode */
+     , (52010, 13, 'legarmormagicweaponchest') /* KeyCode */
      , (52010, 14, 'Use this key to open a Legendary Armor, Magic, or Weapon Chest.') /* Use */
      , (52010, 16, 'A key only heard about in whispers and myths.') /* LongDesc */
      , (52010, 33, 'RTWKeyPickup_1013') /* Quest */;
