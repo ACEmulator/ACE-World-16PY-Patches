@@ -19,11 +19,7 @@ VALUES (52010,   1,      16384) /* ItemType - Key */
      , (52010, 369,        150) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52010,  11, True ) /* IgnoreCollisions */
-     , (52010,  13, True ) /* Ethereal */
-     , (52010,  14, True ) /* GravityStatus */
-     , (52010,  19, True ) /* Attackable */
-     , (52010,  22, True ) /* Inscribable */
+VALUES (52010,  22, True ) /* Inscribable */
      , (52010,  69, False) /* IsSellable */
      , (52010,  99, False) /* Ivoryable */;
 
