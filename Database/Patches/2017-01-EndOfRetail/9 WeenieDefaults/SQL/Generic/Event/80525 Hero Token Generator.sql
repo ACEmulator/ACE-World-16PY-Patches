@@ -7,6 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80525,  81,          5) /* MaxGeneratedObjects */
      , (80525,  82,          5) /* InitGeneratedObjects */
      , (80525,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (80525, 103,          2) /* GeneratorDestructionType - Destroy */
      , (80525, 267,        900) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
