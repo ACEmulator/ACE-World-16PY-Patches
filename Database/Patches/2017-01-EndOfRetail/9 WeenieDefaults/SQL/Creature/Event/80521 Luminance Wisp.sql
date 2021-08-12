@@ -8,7 +8,7 @@ VALUES (80521,   1,         16) /* ItemType - Creature */
      , (80521,   2,         20) /* CreatureType - Wisp */
      , (80521,   6,         -1) /* ItemsCapacity */
      , (80521,   7,         -1) /* ContainersCapacity */
-     , (80521,  16,          1) /* ItemUseable - No */
+     , (80521,  16,         32) /* ItemUseable - Remote */
      , (80521,  25,        115) /* Level */
      , (80521,  27,          0) /* ArmorType - None */
      , (80521,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -49,6 +49,7 @@ VALUES (80521,   1,       5) /* HeartbeatInterval */
      , (80521,  34,       1) /* PowerupTime */
      , (80521,  36,       1) /* ChargeSpeed */
      , (80521,  39,     1.3) /* DefaultScale */
+     , (80521,  54,       1) /* UseRadius */
      , (80521,  64,       1) /* ResistSlash */
      , (80521,  65,     0.9) /* ResistPierce */
      , (80521,  66,     0.6) /* ResistBludgeon */
@@ -73,8 +74,7 @@ VALUES (80521,   1,   33558820) /* Setup */
      , (80521,   2,  150995087) /* MotionTable */
      , (80521,   3,  536870985) /* SoundTable */
      , (80521,   4,  805306368) /* CombatTable */
-     , (80521,   8,  100671683) /* Icon */
-     , (80521,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
+     , (80521,   8,  100671683) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (80521,   1, 200, 0, 0) /* Strength */
@@ -107,27 +107,9 @@ VALUES (80521,  0, 64, 130,  0.5,  300,  300,  300,  390,  540,  540,  600,  240
      , (80521, 17, 64, 130,  0.5,  300,  300,  300,  390,  540,  540,  600,  240,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
      , (80521, 21, 64,  0,    0,  300,  300,  300,  390,  540,  540,  600,  240,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (80521,    79,    2.1)  /* Lightning Bolt V */
-     , (80521,    80,    2.1)  /* Lightning Bolt VI */
-     , (80521,   223,   2.05)  /* Mana Depletion Other VI */
-     , (80521,  1160,    2.1)  /* Heal Self V */
-     , (80521,  1175,   2.05)  /* Harm Other V */
-     , (80521,  1199,   2.05)  /* Enfeeble Other V */
-     , (80521,  1223,   2.05)  /* Mana Drain Other V */
-     , (80521,  1241,   2.06)  /* Drain Health Other V */
-     , (80521,  1253,   2.06)  /* Drain Stamina Other V */
-     , (80521,  1264,   2.06)  /* Drain Mana Other V */
-     , (80521,  1372,   2.06)  /* Frailty Other VI */
-     , (80521,  1788,    2.1)  /* Eye of the Storm */;
-
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (80521,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (80521, 414) /* PLAYER_DEATH_EVENT */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (80521, 9, 24477,  0, 0, 0.02, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (80521, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (80521, 7 /* Use */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
