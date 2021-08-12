@@ -13,7 +13,8 @@ VALUES (80526,  81,          3) /* MaxGeneratedObjects */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80526,   1, True ) /* Stuck */
      , (80526,  11, True ) /* IgnoreCollisions */
-     , (80526,  18, True ) /* Visibility */;
+     , (80526,  18, True ) /* Visibility */
+     , (80526,  74, True ) /* GeneratorAutomaticDestruction */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80526,  41,      60) /* RegenerationInterval */
@@ -27,6 +28,6 @@ VALUES (80526,   1,   33555051) /* Setup */
      , (80526,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (80526, -1, 48746, 0, 1, 1, 2, 4, -1, 0, 0, 0,  0.3, 0, 0, -0.7071068, 0, 0, -0.7071068) /* Generate Aged Legendary Key (48746) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
-     , (80526, -1, 48746, 0, 1, 1, 2, 4, -1, 0, 0, 0,  0.0, 0, 0, -0.7071068, 0, 0, -0.7071068) /* Generate Aged Legendary Key (48746) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
-     , (80526, -1, 48746, 0, 1, 1, 2, 4, -1, 0, 0, 0, -0.3, 0, 0, -0.7071068, 0, 0, -0.7071068) /* Generate Aged Legendary Key (48746) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */;
+VALUES (80526, -1, 48746, 901, 1, 1, 2, 4, -1, 0, 0, 0,  0.3, 0, 0, -0.7071068, 0, 0, -0.7071068) /* Generate Aged Legendary Key (48746) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
+     , (80526, -1, 48746, 901, 1, 1, 2, 4, -1, 0, 0, 0,  0.0, 0, 0, -0.7071068, 0, 0, -0.7071068) /* Generate Aged Legendary Key (48746) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
+     , (80526, -1, 48746, 901, 1, 1, 2, 4, -1, 0, 0, 0, -0.3, 0, 0, -0.7071068, 0, 0, -0.7071068) /* Generate Aged Legendary Key (48746) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */;

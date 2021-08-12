@@ -13,7 +13,8 @@ VALUES (80525,  81,          5) /* MaxGeneratedObjects */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80525,   1, True ) /* Stuck */
      , (80525,  11, True ) /* IgnoreCollisions */
-     , (80525,  18, True ) /* Visibility */;
+     , (80525,  18, True ) /* Visibility */
+     , (80525,  74, True ) /* GeneratorAutomaticDestruction */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80525,  41,      60) /* RegenerationInterval */
@@ -27,8 +28,8 @@ VALUES (80525,   1,   33555051) /* Setup */
      , (80525,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (80525, -1, 35810, 0, 1, 1, 2, 4, -1, 0, 0, 0,  1.0, 0, 0, 1, 0, 0, 0) /* Generate Hero Token (35810) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
-     , (80525, -1, 35810, 0, 1, 1, 2, 4, -1, 0, 0, 0,  0.5, 0, 0, 1, 0, 0, 0) /* Generate Hero Token (35810) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
-     , (80525, -1, 35810, 0, 1, 1, 2, 4, -1, 0, 0, 0,  0.0, 0, 0, 1, 0, 0, 0) /* Generate Hero Token (35810) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
-     , (80525, -1, 35810, 0, 1, 1, 2, 4, -1, 0, 0, 0, -0.5, 0, 0, 1, 0, 0, 0) /* Generate Hero Token (35810) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
-     , (80525, -1, 35810, 0, 1, 1, 2, 4, -1, 0, 0, 0, -1.0, 0, 0, 1, 0, 0, 0) /* Generate Hero Token (35810) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */;
+VALUES (80525, -1, 35810, 901, 1, 1, 2, 4, -1, 0, 0, 0,  1.0, 0, 0, 1, 0, 0, 0) /* Generate Hero Token (35810) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
+     , (80525, -1, 35810, 901, 1, 1, 2, 4, -1, 0, 0, 0,  0.5, 0, 0, 1, 0, 0, 0) /* Generate Hero Token (35810) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
+     , (80525, -1, 35810, 901, 1, 1, 2, 4, -1, 0, 0, 0,  0.0, 0, 0, 1, 0, 0, 0) /* Generate Hero Token (35810) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
+     , (80525, -1, 35810, 901, 1, 1, 2, 4, -1, 0, 0, 0, -0.5, 0, 0, 1, 0, 0, 0) /* Generate Hero Token (35810) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */
+     , (80525, -1, 35810, 901, 1, 1, 2, 4, -1, 0, 0, 0, -1.0, 0, 0, 1, 0, 0, 0) /* Generate Hero Token (35810) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Specific */;
