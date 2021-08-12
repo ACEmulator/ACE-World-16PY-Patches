@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44189;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44189, 'ace44189-contractbroker', 12, '2019-10-30 00:00:00') /* Vendor */;
+VALUES (44189, 'ace44189-contractbroker-yaraq', 12, '2019-10-30 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44189,   1,         16) /* ItemType - Creature */
@@ -83,14 +83,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, "An excellent purchase.", NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44189, 2, 43828,  0, 84, 0.1836, False) /* Create Sedgemail Leather Vest (43828) for Wield */
-     , (44189, 2, 43829,  0, 84, 0.1836, False) /* Create Sedgemail Leather Cowl (43829) for Wield */
-     , (44189, 2, 43830,  0, 84, 0.1836, False) /* Create Sedgemail Leather Gauntlets (43830) for Wield */
-     , (44189, 2, 43831,  0, 84, 0.1836, False) /* Create Sedgemail Leather Pants (43831) for Wield */
-     , (44189, 2, 43832,  0, 84, 0.1836, False) /* Create Sedgemail Leather Shoes (43832) for Wield */
-     , (44189, 2, 43833,  0, 84, 0.1836, False) /* Create Sedgemail Leather Sleeves (43833) for Wield */
-     , (44189, 2,   130,  0, 2, 0, False) /* Create Shirt (130) for Wield */
-     , (44189, 2,   127,  0, 2, 0, False) /* Create Pants (127) for Wield */
+VALUES (44189, 2, 43828,  0, 7, 0.1724, False) /* Create Sedgemail Leather Vest (43828) for Wield */
+     , (44189, 2, 43829,  0, 7, 0.1724, False) /* Create Sedgemail Leather Cowl (43829) for Wield */
+     , (44189, 2, 43830,  0, 7, 0.001, False) /* Create Sedgemail Leather Gauntlets (43830) for Wield */
+     , (44189, 2, 43831,  0, 7, 0.1724, False) /* Create Sedgemail Leather Pants (43831) for Wield */
+     , (44189, 2, 43832,  0, 7, 0.001, False) /* Create Sedgemail Leather Shoes (43832) for Wield */
+     , (44189, 2, 43833,  0, 7, 0.1724, False) /* Create Sedgemail Leather Sleeves (43833) for Wield */
+     , (44189, 2,   130,  0, 88, 0.5, False) /* Create Shirt (130) for Wield */
      , (44189, 4, 44386, -1, 0, 0, False) /* Create Contract for Broker Contracts (44386) for Shop */
      , (44189, 4, 44173, -1, 0, 0, False) /* Create Faces of the Mukkir (Low) (44173) for Shop */
      , (44189, 4, 44147, -1, 0, 0, False) /* Create Contract for Defense of Zaikhal (Copper) (44147) for Shop */
