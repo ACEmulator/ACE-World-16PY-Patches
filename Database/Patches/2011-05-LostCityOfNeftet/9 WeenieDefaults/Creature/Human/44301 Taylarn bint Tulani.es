@@ -21,7 +21,8 @@ Refuse: 44298
 					- AwardNoShareXP: 15,000,000
 					- AwardLuminance: 2,000
 					- Give: 48746
-					- Give: 44240
+                    - Give: 48746
+                    - Give: 44240
 					- Give: Trade Note (250,000) (20630)
 				TestFailure:
 					- Delay: 0.1, Tell: Come back when you have more tablets.
@@ -52,3 +53,4 @@ Give: 44348
 	- Tell: My oh my... It's intact! I've never seen anything like this! You don't know ... don't know what this means! Thank You!
 	- AwardLevelProportionalXP: 100%, 10,000 - 100,000,000
 	- Delay: 1, AddCharacterTitle: ExploringArchaeologist
+    - Give: 48746
