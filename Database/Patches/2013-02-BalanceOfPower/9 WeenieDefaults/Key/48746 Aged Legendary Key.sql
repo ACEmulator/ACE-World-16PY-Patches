@@ -24,6 +24,7 @@ VALUES (48746,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48746,   1, 'Aged Legendary Key') /* Name */
+     , (48746,  13, 'keychestleg') /* KeyCode */
      , (48746,  14, 'Use this key to open a Legendary Chest.') /* Use */
      , (48746,  16, 'This key has seen better days.') /* LongDesc */;
 
