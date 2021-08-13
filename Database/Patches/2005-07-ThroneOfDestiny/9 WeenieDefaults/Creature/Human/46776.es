@@ -1,32 +1,37 @@
 Use:
     - TurnToTarget
-    - Goto: DeservesFavor
+    - Goto: CheckDeservesFavor
 
-GotoSet: DeservesFavor
+GotoSet: CheckDeservesFavor
     - InqIntStat: AccountRequirements, 1 - 4
         TestSuccess:
-            - InqOwnsItems: Blackmoor's Favor (31000)
-                TestSuccess:
-                    - Goto: DeservesBenediction
-                TestFailure:
-                    - Give: Blackmoor's Favor (31000)
-                    - Goto: DeservesBenediction
+            - Goto: DeservesFavor
         TestFailure:
-            - Goto: DeservesLesserBenediction
+            - Goto: CheckDeservesLesserBenediction
+        TestNoQuality:
+            - Goto: DeservesFavor
 
-GotoSet: DeservesBenediction
+GotoSet: DeservesFavor
+    - InqOwnsItems: Blackmoor's Favor (31000)
+        TestSuccess:
+            - Goto: CheckDeservesBenediction
+        TestFailure:
+            - Give: Blackmoor's Favor (31000)
+            - Goto: CheckDeservesBenediction
+
+GotoSet: CheckDeservesBenediction
     - InqIntStat: AccountRequirements, 4 - 4
         TestSuccess:
             - InqOwnsItems: Asheron's Benediction (31001)
                 TestSuccess:
-                    - Goto: DeservesLesserBenediction
+                    - Goto: CheckDeservesLesserBenediction
                 TestFailure:
                     - Give: Asheron's Benediction (31001)
-                    - Goto: DeservesLesserBenediction
+                    - Goto: CheckDeservesLesserBenediction
         TestFailure:
-            - Goto: DeservesLesserBenediction
+            - Goto: CheckDeservesLesserBenediction
 
-GotoSet: DeservesLesserBenediction
+GotoSet: CheckDeservesLesserBenediction
     - InqQuest: LesserBenedictionAug
         QuestSuccess:
             - InqOwnsItems: Asheron's Lesser Benediction (34257)
