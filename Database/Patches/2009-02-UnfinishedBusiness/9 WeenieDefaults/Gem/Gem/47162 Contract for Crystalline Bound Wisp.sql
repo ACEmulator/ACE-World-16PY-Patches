@@ -27,6 +27,7 @@ VALUES (47162, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47162,   1, 'Contract for Crystalline Bound Wisp') /* Name */
+     , (47162,  14, 'Recommended Level: 50') /* Use */
      , (47162,  16, 'Find your way to the Bound Wisp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

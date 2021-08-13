@@ -27,6 +27,7 @@ VALUES (47161, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47161,   1, 'Contract for Crystalline Adventurer') /* Name */
+     , (47161,  14, 'Recommended Level: 130') /* Use */
      , (47161,  16, 'Explore the Crystalline Crag and destroy the Array.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

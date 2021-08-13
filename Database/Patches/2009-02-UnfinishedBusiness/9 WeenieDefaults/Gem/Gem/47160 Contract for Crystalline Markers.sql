@@ -27,6 +27,7 @@ VALUES (47160, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47160,   1, 'Contract for Crystalline Markers') /* Name */
+     , (47160,  14, 'Recommended Level: 130') /* Use */
      , (47160,  16, 'Explore the Crystalline Crag and find the Crystal Markers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,19 +12,22 @@ VALUES (44657,   1,       2048) /* ItemType - Gem */
      , (44657,  16,          8) /* ItemUseable - Contained */
      , (44657,  18,          2) /* UiEffects - Poisoned */
      , (44657,  19,        100) /* Value */
+     , (44657,  33,          1) /* Bonded - Bonded */
      , (44657,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44657,  94,         16) /* TargetType - Creature */
      , (44657, 280,        100) /* SharedCooldown */
      , (44657, 349,        170) /* UseCreatesContractId - Contract_170_Nexus_Crawl */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44657,  22, True ) /* Inscribable */;
+VALUES (44657,  22, True ) /* Inscribable */
+     , (44657,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44657, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44657,   1, 'Contract for Nexus Crawl') /* Name */
+     , (44657,  14, 'Recommended Level: 150') /* Use */
      , (44657,  16, 'Ned the Clever needs you to place an Aetheric Resonator deep within the Nexus.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

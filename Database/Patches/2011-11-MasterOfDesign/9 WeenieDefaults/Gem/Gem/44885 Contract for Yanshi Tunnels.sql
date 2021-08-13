@@ -12,13 +12,15 @@ VALUES (44885,   1,       2048) /* ItemType - Gem */
      , (44885,  16,          8) /* ItemUseable - Contained */
      , (44885,  18,          2) /* UiEffects - Poisoned */
      , (44885,  19,        100) /* Value */
+     , (44885,  33,          1) /* Bonded - Bonded */
      , (44885,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44885,  94,         16) /* TargetType - Creature */
      , (44885, 280,        100) /* SharedCooldown */
      , (44885, 349,        178) /* UseCreatesContractId - Contract_178_Yanshi_Tunnels */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44885,  22, True ) /* Inscribable */;
+VALUES (44885,  22, True ) /* Inscribable */
+     , (44885,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44885, 167,       2) /* CooldownDuration */;

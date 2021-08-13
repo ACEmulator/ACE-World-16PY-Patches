@@ -28,7 +28,7 @@ VALUES (46378, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46378,   1, 'Contract for Clutch of Kings: Broodu') /* Name */
      , (46378,  14, 'Recommended Level: 80') /* Use */
-     , (46378,  16, 'MosswartsDefeat King Broodu.') /* LongDesc */;
+     , (46378,  16, 'Defeat King Broodu.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46378,   1,   33557625) /* Setup */

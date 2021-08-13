@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51298;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51298, 'ace51298-virindidelegate', 10, '2021-01-06 12:17:45') /* Creature */;
+VALUES (51298, 'ace51298-virindidelegate', 10, '2021-08-12 05:30:52') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51298,   1,         16) /* ItemType - Creature */
      , (51298,   2,         19) /* CreatureType - Virindi */
-     , (51298,   3,         11) /* PaletteTemplate */
+     , (51298,   3,         11) /* PaletteTemplate - Maroon */
      , (51298,   6,         -1) /* ItemsCapacity */
      , (51298,   7,         -1) /* ContainersCapacity */
      , (51298,  16,         32) /* ItemUseable - Remote */
@@ -48,7 +48,7 @@ VALUES (51298,   1,   33561227) /* Setup */
      , (51298,   2,  150994984) /* MotionTable */
      , (51298,   3,  536870930) /* SoundTable */
      , (51298,   6,   67111346) /* PaletteBase */
-     , (51298,   7,  268437423) /* Clothingbase */
+     , (51298,   7,  268437423) /* ClothingBase */
      , (51298,   8,  100667943) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -109,5 +109,15 @@ VALUES (@parent_id, 0, 12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL
      , (@parent_id, 10, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48748, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 11, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 20630 /* Trade Note (250,000) */, 9, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 12, 22 /* StampQuest */, 0, 1, NULL, 'BTMCompleted_0513', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 13, 31 /* EraseQuest */, 0, 1, NULL, 'BTMStarted_0513', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id, 13, 31 /* EraseQuest */, 0, 1, NULL, 'BTMStarted_0513', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 14, 102 /* InqQuestBitsOn */, 0, 1, NULL, 'LegendaryQuestsA@9', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1048576, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (51298, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'LegendaryQuestsA@9', NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id, 0, 106 /* SetQuestBitsOn */, 0, 1, NULL, 'LegendaryQuestsA', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1048576, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 1, 22 /* StampQuest */, 0, 1, NULL, 'LegendaryQuestCounter_0913', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

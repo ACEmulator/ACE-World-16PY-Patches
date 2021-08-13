@@ -27,6 +27,7 @@ VALUES (47159, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47159,   1, 'Contract for Crystalline Killer') /* Name */
+     , (47159,  14, 'Recommended Level: 50') /* Use */
      , (47159,  16, 'Destroy the wisps within the Crystalline Crag.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -28,7 +28,7 @@ VALUES (44906, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44906,   1, 'Contract for The Missing Necklace') /* Name */
      , (44906,  14, 'Recommended Level: 5') /* Use */
-     , (44906,  16, 'Nen Ai needs food for her pet drudge.') /* LongDesc */;
+     , (44906,  16, 'Lorca Sammel has lost his necklace. Help him get it back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44906,   1,   33554773) /* Setup */

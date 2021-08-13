@@ -28,7 +28,7 @@ VALUES (44904, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44904,   1, 'Contract for Sea Temple Catacombs') /* Name */
      , (44904,  14, 'Recommended Level: 5') /* Use */
-     , (44904,  16, 'Nen Ai needs food for her pet drudge.') /* LongDesc */;
+     , (44904,  16, 'Lubziklan al-Luq has been robbed by drudges.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44904,   1,   33554773) /* Setup */

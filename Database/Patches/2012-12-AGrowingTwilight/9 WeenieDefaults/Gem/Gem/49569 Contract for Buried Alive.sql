@@ -27,6 +27,7 @@ VALUES (49569, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49569,   1, 'Contract for Buried Alive') /* Name */
+     , (49569,  14, 'Recommended Level: 50') /* Use */
      , (49569,  16, 'Find the source of the Crystals near Frost Haven.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
