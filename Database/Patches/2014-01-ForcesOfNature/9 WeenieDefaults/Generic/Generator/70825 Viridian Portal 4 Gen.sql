@@ -7,10 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70825,  81,          1) /* MaxGeneratedObjects */
      , (70825,  82,          0) /* InitGeneratedObjects */
      , (70825,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (70825, 103,          2) /* GeneratorDestructionType - Destroy */
-     , (70825, 145,          2) /* GeneratorEndDestructionType - Destroy */
      , (70825, 290,          1) /* HearLocalSignals */
-     , (70825, 291,         20) /* HearLocalSignalsRadius */;
+     , (70825, 291,          3) /* HearLocalSignalsRadius */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70825,   1, True ) /* Stuck */
@@ -36,4 +34,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  1,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (70825, -1, 53064, 0, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate (53064) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
+VALUES (70825, -1, 53064, 0, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Viridian Portal (53064) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;

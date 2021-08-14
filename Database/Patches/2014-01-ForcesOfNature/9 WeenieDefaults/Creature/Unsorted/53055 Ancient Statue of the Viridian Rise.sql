@@ -5,12 +5,16 @@ VALUES (53055, 'ace53055-ancientstatueoftheviridianrise', 10, '2021-05-27 01:19:
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53055,   1,         16) /* ItemType - Creature */
-     , (53055,   6,        255) /* ItemsCapacity */
-     , (53055,   7,        255) /* ContainersCapacity */
+     , (53055,   6,         -1) /* ItemsCapacity */
+     , (53055,   7,         -1) /* ContainersCapacity */
      , (53055,  16,         32) /* ItemUseable - Remote */
+     , (53055,  81,          2) /* MaxGeneratedObjects */
+     , (53055,  82,          2) /* InitGeneratedObjects */
      , (53055,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53055,  95,          8) /* RadarBlipColor - Yellow */
-     , (53055, 133,          4) /* ShowableOnRadar - ShowAlways */;
+     , (53055, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (53055, 142,          3) /* GeneratorTimeType - Event */
+     , (53055, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53055,   1, True ) /* Stuck */
@@ -26,11 +30,13 @@ VALUES (53055,   1, True ) /* Stuck */
      , (53055,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53055,  54,       3) /* UseRadius */;
+VALUES (53055,  41,      60) /* RegenerationInterval */
+     , (53055,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53055,   1, 'Ancient Statue of the Viridian Rise') /* Name */
-     , (53055,  16, 'An ancient statue infused with the magic of the Viridian Rise. There are ancient mechanisms that might be manipulated with the Lockpick skill.') /* LongDesc */;
+     , (53055,  16, 'An ancient statue infused with the magic of the Viridian Rise. There are ancient mechanisms that might be manipulated with the Lockpick skill.') /* LongDesc */
+     , (53055,  34, 'viridian2statue4') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53055,   1,   33558954) /* Setup */
@@ -51,6 +57,10 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (53055,   1,     0, 0, 0,    0) /* MaxHealth */
      , (53055,   3,     0, 0, 0,    0) /* MaxStamina */
      , (53055,   5,     0, 0, 0,    0) /* MaxMana */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (53055, -1, 53026, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 2.5, 1, 0, 0, 0) /* Generate Fiery Remains (53026) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (53055, -1, 70823, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0) /* Generate Viridian Portal 2 Gen (70823) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (53055, 7 /* Use */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
