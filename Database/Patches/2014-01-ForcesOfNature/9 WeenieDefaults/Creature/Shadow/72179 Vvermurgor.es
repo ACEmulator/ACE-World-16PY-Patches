@@ -1,16 +1,24 @@
 Use:
-	- Tell: You are one of the chosen who understands power and blood. Within this crypt amber has spilled from the exposed roots and has become corrupted by the masters. Bring these to me and I will reward you with items from my own collection.
-	- Tell: My magics will require 100 Corrupted Amber. I will reward you well for this task.
+    - InqIntStat: PlayerKillerStatus, 4 - 4
+        TestSuccess:
+            - Tell: You are one of the chosen who understands power and blood. Within this crypt amber has spilled from the exposed roots and has become corrupted by the masters. Bring these to me and I will reward you with items from my own collection.
+            - Tell: My magics will require 100 Corrupted Amber. I will reward you well for this task.
+        TestFailure:
+            - Tell: You are not one of the chosen.
 
 Refuse: 52969
-	- InqOwnsItems: 52969, 100
-		TestSuccess:
-			- Tell: I am pleased by your service. These crystals will empower our magics. And now for your reward.
-			- TakeItems: 52969, 100
-			- Goto: chooseReward
-		TestFailure:
-			- Tell: You have not yet gathered enough Corrupted Amber. My magics require at least 100.
-
+    - InqIntStat: PlayerKillerStatus, 4 - 4
+        TestSuccess:
+            - InqOwnsItems: 52969, 100
+                TestSuccess:
+                    - Tell: I am pleased by your service. These crystals will empower our magics. And now for your reward.
+                    - TakeItems: 52969, 100
+                    - Goto: chooseReward
+                TestFailure:
+                    - Tell: You have not yet gathered enough Corrupted Amber. My magics require at least 100.
+        TestFailure:
+            - Tell: You are not one of the chosen.
+        
 GotoSet: chooseReward, Probability: 0.02
     - Give: 53066
 
