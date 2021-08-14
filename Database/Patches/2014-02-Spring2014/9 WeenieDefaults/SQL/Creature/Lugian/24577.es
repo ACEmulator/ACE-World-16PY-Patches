@@ -86,7 +86,7 @@ Refuse: A'nekshay Gem of Knowledge (47156)
     - TurnToTarget
     - InqQuest: AnekshayGemofKnowledgeCollectedInAMonth
         QuestSuccess:
-            - InqQuestSolves: AnekshayGemofKnowledgeCollectedInAMonth@10, 10
+            - InqQuestSolves: AnekshayGemofKnowledgeCollectedInAMonth@10, 10 - 10
                 QuestSuccess:
                     - InqQuest: AnekshayGemofKnowledgeTimer_Monthly
                         QuestSuccess:
@@ -94,25 +94,25 @@ Refuse: A'nekshay Gem of Knowledge (47156)
                             - Tell: I am afraid you've turned in all you can for this month.
                             - DirectBroadcast: You must wait %tqt to turn in A'nekshay Gem of Knowledge again.
                         QuestFailure:
-                            - InqOwnsItems: A'nekshay Gem of Knowledge (47156)
+                            - InqOwnsItems: A'nekshay Gem of Knowledge (47156), 1
                                 TestSuccess:
-                                    - TakeItems: A'nekshay Gem of Knowledge (47156)
+                                    - TakeItems: A'nekshay Gem of Knowledge (47156), 1
                                     - EraseQuest: AnekshayGemofKnowledgeCollectedInAMonth
                                     - StampQuest: AnekshayGemofKnowledgeTimer_Monthly
                                     - Tell: Here is your reward.
                                     - AwardNoShareXP: 100,000,000
                                     - StampQuest: AnekshayGemofKnowledgeCollectedInAMonth
                 QuestFailure:
-                    - InqOwnsItems: A'nekshay Gem of Knowledge (47156)
+                    - InqOwnsItems: A'nekshay Gem of Knowledge (47156), 1
                         TestSuccess:
-                            - TakeItems: A'nekshay Gem of Knowledge (47156)
+                            - TakeItems: A'nekshay Gem of Knowledge (47156), 1
                             - Tell: Here is your reward.
                             - AwardNoShareXP: 100,000,000
                             - StampQuest: AnekshayGemofKnowledgeCollectedInAMonth
         QuestFailure:
-            - InqOwnsItems: A'nekshay Gem of Knowledge (47156)
+            - InqOwnsItems: A'nekshay Gem of Knowledge (47156), 1
                 TestSuccess:
-                    - TakeItems: A'nekshay Gem of Knowledge (47156)
+                    - TakeItems: A'nekshay Gem of Knowledge (47156), 1
                     - StampQuest: AnekshayGemofKnowledgeTimer_Monthly
                     - Tell: Here is your reward.
                     - AwardNoShareXP: 100,000,000
@@ -122,7 +122,7 @@ Refuse: A'nekshay Gem of Lesser Knowledge (47157)
     - TurnToTarget
     - InqQuest: AnekshayGemofLesserKnowledgeCollectedInAMonth
         QuestSuccess:
-            - InqQuestSolves: AnekshayGemofLesserKnowledgeCollectedInAMonth@10, 10
+            - InqQuestSolves: AnekshayGemofLesserKnowledgeCollectedInAMonth@10, 10 - 10
                 QuestSuccess:
                     - InqQuest: AnekshayGemofLesserKnowledgeTimer_Monthly
                         QuestSuccess:
@@ -130,25 +130,25 @@ Refuse: A'nekshay Gem of Lesser Knowledge (47157)
                             - Tell: I am afraid you've turned in all you can for this month.
                             - DirectBroadcast: You must wait %tqt to turn in A'nekshay Gem of Lesser Knowledge again.
                         QuestFailure:
-                            - InqOwnsItems: A'nekshay Gem of Lesser Knowledge (47157)
+                            - InqOwnsItems: A'nekshay Gem of Lesser Knowledge (47157), 1
                                 TestSuccess:
-                                    - TakeItems: A'nekshay Gem of Lesser Knowledge (47157)
+                                    - TakeItems: A'nekshay Gem of Lesser Knowledge (47157), 1
                                     - EraseQuest: AnekshayGemofLesserKnowledgeCollectedInAMonth
                                     - StampQuest: AnekshayGemofLesserKnowledgeTimer_Monthly
                                     - Tell: Here is your reward.
                                     - AwardNoShareXP: 50,000,000
                                     - StampQuest: AnekshayGemofLesserKnowledgeCollectedInAMonth
                 QuestFailure:
-                    - InqOwnsItems: A'nekshay Gem of Lesser Knowledge (47157)
+                    - InqOwnsItems: A'nekshay Gem of Lesser Knowledge (47157), 1
                         TestSuccess:
-                            - TakeItems: A'nekshay Gem of Lesser Knowledge (47157)
+                            - TakeItems: A'nekshay Gem of Lesser Knowledge (47157), 1
                             - Tell: Here is your reward.
                             - AwardNoShareXP: 50,000,000
                             - StampQuest: AnekshayGemofLesserKnowledgeCollectedInAMonth
         QuestFailure:
-            - InqOwnsItems: A'nekshay Gem of Lesser Knowledge (47157)
+            - InqOwnsItems: A'nekshay Gem of Lesser Knowledge (47157), 1
                 TestSuccess:
-                    - TakeItems: A'nekshay Gem of Lesser Knowledge (47157)
+                    - TakeItems: A'nekshay Gem of Lesser Knowledge (47157), 1
                     - StampQuest: AnekshayGemofKnowledgeTimer_Monthly
                     - Tell: Here is your reward.
                     - AwardNoShareXP: 50,000,000
@@ -158,7 +158,7 @@ Refuse: A'nekshay Luminance Certificate (47158)
     - TurnToTarget
     - InqQuest: AnekshayLuminanceCertificateCollectedInAMonth
         QuestSuccess:
-            - InqQuestSolves: AnekshayLuminanceCertificateCollectedInAMonth@10, 10
+            - InqQuestSolves: AnekshayLuminanceCertificateCollectedInAMonth@10, 10 - 10
                 QuestSuccess:
                     - InqQuest: AnekshayLuminanceCertificateTimer_Monthly
                         QuestSuccess:
@@ -166,25 +166,25 @@ Refuse: A'nekshay Luminance Certificate (47158)
                             - Tell: I am afraid you've turned in all you can for this month.
                             - DirectBroadcast: You must wait %tqt to turn in A'nekshay Luminance Certificate again.
                         QuestFailure:
-                            - InqOwnsItems: A'nekshay Luminance Certificate (47158)
+                            - InqOwnsItems: A'nekshay Luminance Certificate (47158), 1
                                 TestSuccess:
-                                    - TakeItems: A'nekshay Luminance Certificate (47158)
+                                    - TakeItems: A'nekshay Luminance Certificate (47158), 1
                                     - EraseQuest: AnekshayLuminanceCertificateCollectedInAMonth
                                     - StampQuest: AnekshayLuminanceCertificateTimer_Monthly
                                     - Tell: Here is your reward.
                                     - AwardLuminance: 5,000
                                     - StampQuest: AnekshayLuminanceCertificateCollectedInAMonth
                 QuestFailure:
-                    - InqOwnsItems: A'nekshay Luminance Certificate (47158)
+                    - InqOwnsItems: A'nekshay Luminance Certificate (47158), 1
                         TestSuccess:
-                            - TakeItems: A'nekshay Luminance Certificate (47158)
+                            - TakeItems: A'nekshay Luminance Certificate (47158), 1
                             - Tell: Here is your reward.
                             - AwardLuminance: 5,000
                             - StampQuest: AnekshayLuminanceCertificateCollectedInAMonth
         QuestFailure:
-            - InqOwnsItems: A'nekshay Luminance Certificate (47158)
+            - InqOwnsItems: A'nekshay Luminance Certificate (47158), 1
                 TestSuccess:
-                    - TakeItems: A'nekshay Luminance Certificate (47158)
+                    - TakeItems: A'nekshay Luminance Certificate (47158), 1
                     - StampQuest: AnekshayLuminanceCertificateTimer_Monthly
                     - Tell: Here is your reward.
                     - AwardLuminance: 5,000
@@ -504,7 +504,7 @@ GotoSet: PickQuill, Probability: 1.00
 Give: Experience Certificate (46415)
     - TurnToTarget
     - Tell: You seem wise beyond your years.
-    - AwardLevelProportionalXP: 100%, 1,000 - 3,390,451,400
+    - AwardLevelProportionalXP: 100%, 0 - 0
 
 Give: Luminance Certificate (46414)
     - TurnToTarget
@@ -902,7 +902,6 @@ Use:
                 QuestFailure:
                     #- InqQuest: SacrificedNuhmudira
                     - Goto: SacrificedNuhmudira
-
 
 GotoSet: SacrificedNuhmudira
     - InqQuest: SacrificedNuhmudira
