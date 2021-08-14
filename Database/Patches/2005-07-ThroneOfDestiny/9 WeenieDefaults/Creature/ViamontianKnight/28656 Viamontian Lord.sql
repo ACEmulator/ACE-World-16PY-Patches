@@ -6,7 +6,7 @@ VALUES (28656, 'knightlord', 10, '2021-03-13 02:24:23') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28656,   1,         16) /* ItemType - Creature */
      , (28656,   2,         83) /* CreatureType - ViamontianKnight */
-     , (28656,   3,         15) /* PaletteTemplate - RedPurple */
+     , (28656,   3,          4) /* PaletteTemplate - Brown */
      , (28656,   6,         -1) /* ItemsCapacity */
      , (28656,   7,         -1) /* ContainersCapacity */
      , (28656,  16,          1) /* ItemUseable - No */
@@ -151,7 +151,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28656, 9, 34277,  0, 0, 0.005, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (28656, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */
-     , (28656, 9, 32924,  1, 0, 0.02, False) /* Create Mukkir Nest Portal Gem (32924) for ContainTreasure */
+     , (28656, 9, 32924,  1, 0, 0.02, False) /* Create  (32924) for ContainTreasure */
      , (28656, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (28656, 10, 29964,  0, 0, 0.25, False) /* Create Throwing Axe (29964) for WieldTreasure */
      , (28656, 10, 29965,  0, 0, 0.25, False) /* Create Quadrelle (29965) for WieldTreasure */

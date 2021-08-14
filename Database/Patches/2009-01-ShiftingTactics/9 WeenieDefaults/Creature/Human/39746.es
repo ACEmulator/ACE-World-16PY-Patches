@@ -1,7 +1,7 @@
 Refuse: Explorer's Backpack Token (41254)
     - TurnToTarget
     - InqPackSpace: 10001
-    # 1 pack slot + 10000 to indicate that the value is a container slot not and not item slot = 100
+    # to check for free pack slots, you add 10000 to the number of required pack free slots, which is usually 1 for the test. 1 + 10000 = 10001
         TestSuccess:
             - Tell: Got a pack spot free? Very Well.
             - TakeItems: Explorer's Backpack Token (41254)

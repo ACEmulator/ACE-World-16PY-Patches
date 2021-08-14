@@ -5,7 +5,8 @@ VALUES (46299, 'ace46299-tiny', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46299,   1,         16) /* ItemType - Creature */
-     , (46299,   2,         80) /* CreatureType - Penguin */
+     , (46299,   2,          2) /* CreatureType - Banderling */
+     , (46299,   3,          2) /* PaletteTemplate - Blue */
      , (46299,   6,         -1) /* ItemsCapacity */
      , (46299,   7,         -1) /* ContainersCapacity */
      , (46299,  16,          1) /* ItemUseable - No */
@@ -26,7 +27,7 @@ VALUES (46299,   1,       5) /* HeartbeatInterval */
      , (46299,   3,     0.5) /* HealthRate */
      , (46299,   4,       3) /* StaminaRate */
      , (46299,   5,       1) /* ManaRate */
-     , (46299,  12,       0) /* Shade */
+     , (46299,  12,     0.5) /* Shade */
      , (46299,  13,     1.3) /* ArmorModVsSlash */
      , (46299,  14,       1) /* ArmorModVsPierce */
      , (46299,  15,     1.1) /* ArmorModVsBludgeon */
@@ -68,10 +69,6 @@ VALUES (46299,   1,   33559122) /* Setup */
      , (46299,  22,  872415258) /* PhysicsEffectTable */
      , (46299,  35,        998) /* DeathTreasureType - Loot Tier: 7 */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46299, 8040, 1481441540, 80, -60, -23.99417, 0.6967069, 0, 0, -0.7173559) /* PCAPRecordedLocation */
-/* @teleloc 0x584D0104 [80.000000 -60.000000 -23.994170] 0.696707 0.000000 0.000000 -0.717356 */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46299,   1, 700, 0, 0) /* Strength */
      , (46299,   2, 700, 0, 0) /* Endurance */
@@ -84,7 +81,7 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (46299,   1, 37650, 0, 0, 38000) /* MaxHealth */
      , (46299,   3, 23300, 0, 0, 24000) /* MaxStamina */
      , (46299,   5, 16300, 0, 0, 17000) /* MaxMana */;
-     
+
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46299,  6, 0, 3, 0, 135, 0, 0) /* MeleeDefense        Specialized */
      , (46299,  7, 0, 3, 0, 300, 0, 0) /* MissileDefense      Specialized */
@@ -122,9 +119,6 @@ VALUES (46299,   628,   2.03)  /* Life Magic Ineptitude Other VI */
      , (46299,  2731,   2.04)  /* Frost Arc VII */
      , (46299,  2738,   2.04)  /* Lightning Arc VII */;
 
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46299, 9, 46288,  0, 0, 1, False) /* Create Tiny's Head (46288) for ContainTreasure */;
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (46299,  5 /* HeartBeat */,  0.085, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
@@ -148,3 +142,6 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435539 /* Twitch3 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46299, 9, 46288,  0, 0, 1, False) /* Create Tiny's Head (46288) for ContainTreasure */;

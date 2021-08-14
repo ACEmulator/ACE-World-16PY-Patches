@@ -6,7 +6,7 @@ VALUES (2579, 'shallowsslayer', 10, '2019-09-13 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2579,   1,         16) /* ItemType - Creature */
      , (2579,   2,         27) /* CreatureType - ShallowsShark */
-     , (2579,   3,         65) /* PaletteTemplate - PaleGreenBrown */
+     , (2579,   3,          7) /* PaletteTemplate - DeepGreen */
      , (2579,   6,         -1) /* ItemsCapacity */
      , (2579,   7,         -1) /* ContainersCapacity */
      , (2579,  16,          1) /* ItemUseable - No */
@@ -67,7 +67,7 @@ VALUES (2579,   1,   33559680) /* Setup */
      , (2579,   3,  536870928) /* SoundTable */
      , (2579,   4,  805306378) /* CombatTable */
      , (2579,   6,   67116712) /* PaletteBase */
-     , (2579,   7,  268435556) /* ClothingBase */
+     , (2579,   7,  268437041) /* ClothingBase */
      , (2579,   8,  100667939) /* Icon */
      , (2579,  22,  872415268) /* PhysicsEffectTable */
      , (2579,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
@@ -88,11 +88,11 @@ VALUES (2579,   1,    25, 0, 0, 60) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (2579,  6, 0, 3, 0,  66, 0, 0) /* MeleeDefense        Specialized */
      , (2579,  7, 0, 3, 0,  98, 0, 0) /* MissileDefense      Specialized */
-     , (2579, 45, 0, 3, 0,  70, 0, 0) /* LightWeapons        Specialized */
      , (2579, 15, 0, 3, 0,  54, 0, 0) /* MagicDefense        Specialized */
      , (2579, 20, 0, 3, 0,  50, 0, 0) /* Deception           Specialized */
      , (2579, 22, 0, 3, 0,  25, 0, 0) /* Jump                Specialized */
-     , (2579, 24, 0, 3, 0,  30, 0, 0) /* Run                 Specialized */;
+     , (2579, 24, 0, 3, 0,  30, 0, 0) /* Run                 Specialized */
+     , (2579, 45, 0, 3, 0,  70, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (2579,  0,  2, 45, 0.75,   70,   50,   63,   50,   22,   70,   26,   50,    0, 2,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */

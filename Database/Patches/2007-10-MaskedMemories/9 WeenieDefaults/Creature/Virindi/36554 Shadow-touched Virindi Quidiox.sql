@@ -6,7 +6,7 @@ VALUES (36554, 'ace36554-shadowtouchedvirindiquidiox', 10, '2020-05-09 07:04:16'
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36554,   1,         16) /* ItemType - Creature */
      , (36554,   2,         19) /* CreatureType - Virindi */
-     , (36554,   3,         39) /* PaletteTemplate - Black */
+     , (36554,   3,          3) /* PaletteTemplate - BluePurple */
      , (36554,   6,         -1) /* ItemsCapacity */
      , (36554,   7,         -1) /* ContainersCapacity */
      , (36554,  16,          1) /* ItemUseable - No */
@@ -33,7 +33,7 @@ VALUES (36554,   1,       5) /* HeartbeatInterval */
      , (36554,   3, 10.600000381469727) /* HealthRate */
      , (36554,   4,    20.5) /* StaminaRate */
      , (36554,   5,      20) /* ManaRate */
-     , (36554,  12, 0.10000000149011612) /* Shade */
+     , (36554,  12,     0.5) /* Shade */
      , (36554,  13,       1) /* ArmorModVsSlash */
      , (36554,  14,       1) /* ArmorModVsPierce */
      , (36554,  15,       1) /* ArmorModVsBludgeon */
@@ -71,7 +71,7 @@ VALUES (36554,   1,   33560379) /* Setup */
      , (36554,   3,  536870930) /* SoundTable */
      , (36554,   4,  805306381) /* CombatTable */
      , (36554,   6,   67111346) /* PaletteBase */
-     , (36554,   7,  268436609) /* ClothingBase */
+     , (36554,   7,  268435649) /* ClothingBase */
      , (36554,   8,  100667943) /* Icon */
      , (36554,  22,  872415273) /* PhysicsEffectTable */
      , (36554,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
@@ -139,7 +139,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As the Paradox ceases an ominous voice sunders the air, "We have shed the yoke of leaders that cannot see the divine glory of reliance upon the self. Soon other observers, like myself shall reach this elightenment and our war shall bridge the distance from here to the Seat of the Singularity!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (36554,  3 /* Death */, 0.040999997, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (36554,  3 /* Death */,  0.041, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -220,13 +220,3 @@ VALUES (36554, 9,  7604,  0, 0, 0.04, False) /* Create Yellow Jewel (7604) for C
      , (36554, 9, 23107,  0, 0, 0.01, False) /* Create Mangled Dark Key (23107) for ContainTreasure */
      , (36554, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (36554, 9, 34277,  0, 0, 0.01, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */;
-
-/* Lifestoned Changelog:
-{
-  "LastModified": "2020-05-09T06:57:10.1572057+00:00",
-  "ModifiedBy": "Relyc",
-  "Changelog": [],
-  "UserChangeSummary": "Scripted updates of Mob Jsons.\r\n- Updated all bool, did, float, int, and string Stats to match with PCAP.\r\n- Levels and Experience points updated to match EoR XP table.\r\n- Level 80 mobs have updated Red/Gold letters.\r\n- Primary/secondary attributes validated against Pcap.",
-  "IsDone": true
-}
-*/

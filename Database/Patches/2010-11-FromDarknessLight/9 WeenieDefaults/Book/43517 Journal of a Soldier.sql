@@ -2,7 +2,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43517;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43517, 'ace43517-journalofasoldier', 8, '2019-11-01 16:54:20') /* Book */;
+VALUES (43517, 'ace43517-journalofasoldier', 8, '2021-07-12 00:00:00') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43517,   1,       8192) /* ItemType - Writable */
@@ -10,24 +10,18 @@ VALUES (43517,   1,       8192) /* ItemType - Writable */
      , (43517,  16,          1) /* ItemUseable - No */
      , (43517,  19,          0) /* Value */
      , (43517,  33,          1) /* Bonded - Bonded */
-     , (43517,  53,        101) /* PlacementPosition - Resting */
      , (43517,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43517, 114,          1) /* Attuned - Attuned */
      , (43517, 174,          4) /* AppraisalPages */
      , (43517, 175,          4) /* AppraisalMaxPages */
      , (43517, 279,          1) /* Unique */;
 
-INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43517,  11, True ) /* IgnoreCollisions */
-     , (43517,  13, True ) /* Ethereal */
-     , (43517,  14, True ) /* GravityStatus */
-     , (43517,  19, True ) /* Attackable */;
-
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43517,  54, 0.300000011920929) /* UseRadius */;
+VALUES (43517,  54, 0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43517,   1, 'Journal of a Soldier') /* Name */;
+VALUES (43517,   1, 'Journal of a Soldier') /* Name */
+     , (43517,  33, 'JournalofaSoldierPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43517,   1,   33554771) /* Setup */

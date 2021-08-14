@@ -6,7 +6,7 @@ VALUES (11343, 'ahurengacollector_xp', 10, '2019-09-13 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11343,   1,         16) /* ItemType - Creature */
      , (11343,   2,          6) /* CreatureType - Tumerok */
-     , (11343,   3,         19) /* PaletteTemplate - Copper */
+     , (11343,   3,          5) /* PaletteTemplate - DarkBlue */
      , (11343,   6,         -1) /* ItemsCapacity */
      , (11343,   7,         -1) /* ContainersCapacity */
      , (11343,   8,        120) /* Mass */
@@ -32,17 +32,17 @@ VALUES (11343,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11343,   1,       5) /* HeartbeatInterval */
      , (11343,   2,       0) /* HeartbeatTimestamp */
-     , (11343,   3, 0.159999996423721) /* HealthRate */
+     , (11343,   3,    0.16) /* HealthRate */
      , (11343,   4,       5) /* StaminaRate */
      , (11343,   5,       1) /* ManaRate */
-     , (11343,  12,     0.5) /* Shade */
-     , (11343,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (11343,  12,  0.6667) /* Shade */
+     , (11343,  13,     0.9) /* ArmorModVsSlash */
      , (11343,  14,       1) /* ArmorModVsPierce */
-     , (11343,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (11343,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (11343,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (11343,  15,     1.1) /* ArmorModVsBludgeon */
+     , (11343,  16,     0.4) /* ArmorModVsCold */
+     , (11343,  17,     0.4) /* ArmorModVsFire */
      , (11343,  18,       1) /* ArmorModVsAcid */
-     , (11343,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (11343,  19,     0.6) /* ArmorModVsElectric */
      , (11343,  54,       3) /* UseRadius */
      , (11343,  64,       1) /* ResistSlash */
      , (11343,  65,       1) /* ResistPierce */
@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11343,   1, 'Hea Riketura the Collector') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11343,   1,   33554496) /* Setup */
+VALUES (11343,   1,   33559553) /* Setup */
      , (11343,   2,  150994954) /* MotionTable */
      , (11343,   3,  536870931) /* SoundTable */
      , (11343,   4,  805306380) /* CombatTable */
-     , (11343,   6,   67109314) /* PaletteBase */
-     , (11343,   7,  268435647) /* ClothingBase */
+     , (11343,   6,   67116625) /* PaletteBase */
+     , (11343,   7,  268437022) /* ClothingBase */
      , (11343,   8,  100667452) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -378,14 +378,14 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  5,   5 /* Motion */, 1, 1, 318767225 /* ShakeFist */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (11343,  6 /* Give */,      1, 3696 /* Blue Gem */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (11343,  6 /* Give */,      1, 3696 /* Blue Jewel */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  10 /* Tell */, 1, 1, NULL, 'These are the treasures of our friends, the Atual arutoa! How dare you murder them and then wave their belongings in my face?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  2,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 3696 /* Blue Gem */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 3696 /* Blue Jewel */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  22 /* StampQuest */, 0, 1, NULL, 'VirindiKiller', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  10 /* Tell */, 1, 1, NULL, 'Be off with you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,   5 /* Motion */, 1, 1, 318767225 /* ShakeFist */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
