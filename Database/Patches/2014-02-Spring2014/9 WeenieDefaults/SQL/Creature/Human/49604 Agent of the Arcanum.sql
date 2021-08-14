@@ -1,101 +1,102 @@
-DELETE FROM `weenie` WHERE `class_Id` = 12050;
+DELETE FROM `weenie` WHERE `class_Id` = 49604;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12050, 'agentwritrefuge-xp', 10, '2021-08-13 00:00:00') /* Creature */;
+VALUES (49604, 'ace49604-agentofthearcanum', 10, '2021-08-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12050,   1,         16) /* ItemType - Creature */
-     , (12050,   2,         31) /* CreatureType - Human */
-     , (12050,   6,         -1) /* ItemsCapacity */
-     , (12050,   7,         -1) /* ContainersCapacity */
-     , (12050,   8,        120) /* Mass */
-     , (12050,  16,         32) /* ItemUseable - Remote */
-     , (12050,  25,         75) /* Level */
-     , (12050,  27,          0) /* ArmorType - None */
-     , (12050,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
-     , (12050,  95,          8) /* RadarBlipColor - Yellow */
-     , (12050, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (12050, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (12050, 146,       1220) /* XpOverride */;
+VALUES (49604,   1,         16) /* ItemType - Creature */
+     , (49604,   2,         31) /* CreatureType - Human */
+     , (49604,   6,         -1) /* ItemsCapacity */
+     , (49604,   7,         -1) /* ContainersCapacity */
+     , (49604,   8,        120) /* Mass */
+     , (49604,  16,         32) /* ItemUseable - Remote */
+     , (49604,  25,         75) /* Level */
+     , (49604,  27,          0) /* ArmorType - None */
+     , (49604,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (49604,  95,          8) /* RadarBlipColor - Yellow */
+     , (49604, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (49604, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (49604, 146,       1220) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12050,   1, True ) /* Stuck */
-     , (12050,   8, True ) /* AllowGive */
-     , (12050,  12, True ) /* ReportCollisions */
-     , (12050,  13, False) /* Ethereal */
-     , (12050,  19, False) /* Attackable */
-     , (12050,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (12050,  42, True ) /* AllowEdgeSlide */
-     , (12050,  52, True ) /* AiImmobile */;
+VALUES (49604,   1, True ) /* Stuck */
+     , (49604,   8, True ) /* AllowGive */
+     , (49604,  12, True ) /* ReportCollisions */
+     , (49604,  13, False) /* Ethereal */
+     , (49604,  19, False) /* Attackable */
+     , (49604,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (49604,  42, True ) /* AllowEdgeSlide */
+     , (49604,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12050,   1,       5) /* HeartbeatInterval */
-     , (12050,   2,       0) /* HeartbeatTimestamp */
-     , (12050,   3,    0.16) /* HealthRate */
-     , (12050,   4,       5) /* StaminaRate */
-     , (12050,   5,       1) /* ManaRate */
-     , (12050,  13,     0.9) /* ArmorModVsSlash */
-     , (12050,  14,       1) /* ArmorModVsPierce */
-     , (12050,  15,     1.1) /* ArmorModVsBludgeon */
-     , (12050,  16,     0.4) /* ArmorModVsCold */
-     , (12050,  17,     0.4) /* ArmorModVsFire */
-     , (12050,  18,       1) /* ArmorModVsAcid */
-     , (12050,  19,     0.6) /* ArmorModVsElectric */
-     , (12050,  54,       3) /* UseRadius */
-     , (12050,  64,       1) /* ResistSlash */
-     , (12050,  65,       1) /* ResistPierce */
-     , (12050,  66,       1) /* ResistBludgeon */
-     , (12050,  67,       1) /* ResistFire */
-     , (12050,  68,       1) /* ResistCold */
-     , (12050,  69,       1) /* ResistAcid */
-     , (12050,  70,       1) /* ResistElectric */
-     , (12050,  71,       1) /* ResistHealthBoost */
-     , (12050,  72,       1) /* ResistStaminaDrain */
-     , (12050,  73,       1) /* ResistStaminaBoost */
-     , (12050,  74,       1) /* ResistManaDrain */
-     , (12050,  75,       1) /* ResistManaBoost */
-     , (12050, 104,      10) /* ObviousRadarRange */
-     , (12050, 125,       1) /* ResistHealthDrain */;
+VALUES (49604,   1,       5) /* HeartbeatInterval */
+     , (49604,   2,       0) /* HeartbeatTimestamp */
+     , (49604,   3,    0.16) /* HealthRate */
+     , (49604,   4,       5) /* StaminaRate */
+     , (49604,   5,       1) /* ManaRate */
+     , (49604,  13,     0.9) /* ArmorModVsSlash */
+     , (49604,  14,       1) /* ArmorModVsPierce */
+     , (49604,  15,     1.1) /* ArmorModVsBludgeon */
+     , (49604,  16,     0.4) /* ArmorModVsCold */
+     , (49604,  17,     0.4) /* ArmorModVsFire */
+     , (49604,  18,       1) /* ArmorModVsAcid */
+     , (49604,  19,     0.6) /* ArmorModVsElectric */
+     , (49604,  54,       3) /* UseRadius */
+     , (49604,  64,       1) /* ResistSlash */
+     , (49604,  65,       1) /* ResistPierce */
+     , (49604,  66,       1) /* ResistBludgeon */
+     , (49604,  67,       1) /* ResistFire */
+     , (49604,  68,       1) /* ResistCold */
+     , (49604,  69,       1) /* ResistAcid */
+     , (49604,  70,       1) /* ResistElectric */
+     , (49604,  71,       1) /* ResistHealthBoost */
+     , (49604,  72,       1) /* ResistStaminaDrain */
+     , (49604,  73,       1) /* ResistStaminaBoost */
+     , (49604,  74,       1) /* ResistManaDrain */
+     , (49604,  75,       1) /* ResistManaBoost */
+     , (49604, 104,      10) /* ObviousRadarRange */
+     , (49604, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12050,   1, 'Agent of the Arcanum') /* Name */
-     , (12050,   3, 'Male') /* Sex */
-     , (12050,   4, 'Gharu''ndim') /* HeritageGroup */
-     , (12050,   5, 'Mage') /* Template */;
+VALUES (49604,   1, 'Agent of the Arcanum') /* Name */
+     , (49604,   3, 'Male') /* Sex */
+     , (49604,   4, 'Gharu''ndim') /* HeritageGroup */
+     , (49604,   5, 'Mage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12050,   1,   33554433) /* Setup */
-     , (12050,   2,  150994945) /* MotionTable */
-     , (12050,   3,  536870913) /* SoundTable */
-     , (12050,   4,  805306368) /* CombatTable */
-     , (12050,   8,  100667446) /* Icon */;
+VALUES (49604,   1,   33554433) /* Setup */
+     , (49604,   2,  150995141) /* MotionTable */
+     , (49604,   3,  536871045) /* SoundTable */
+     , (49604,   4,  805306368) /* CombatTable */
+     , (49604,   8,  100667446) /* Icon */
+     , (49604,  22,  872415381) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (12050,   1, 212, 0, 0) /* Strength */
-     , (12050,   2, 170, 0, 0) /* Endurance */
-     , (12050,   3, 120, 0, 0) /* Quickness */
-     , (12050,   4, 195, 0, 0) /* Coordination */
-     , (12050,   5, 220, 0, 0) /* Focus */
-     , (12050,   6, 230, 0, 0) /* Self */;
+VALUES (49604,   1, 212, 0, 0) /* Strength */
+     , (49604,   2, 170, 0, 0) /* Endurance */
+     , (49604,   3, 120, 0, 0) /* Quickness */
+     , (49604,   4, 195, 0, 0) /* Coordination */
+     , (49604,   5, 220, 0, 0) /* Focus */
+     , (49604,   6, 230, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12050,   1,     0, 0, 0, 85) /* MaxHealth */
-     , (12050,   3,    10, 0, 0, 180) /* MaxStamina */
-     , (12050,   5,     0, 0, 0, 230) /* MaxMana */;
+VALUES (49604,   1,     0, 0, 0, 85) /* MaxHealth */
+     , (49604,   3,    10, 0, 0, 180) /* MaxStamina */
+     , (49604,   5,     0, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (12050,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
-     , (12050,  1,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
-     , (12050,  2,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
-     , (12050,  3,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
-     , (12050,  4,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (12050,  5,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
-     , (12050,  6,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
-     , (12050,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (12050,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+VALUES (49604,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (49604,  1,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (49604,  2,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (49604,  3,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (49604,  4,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (49604,  5,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (49604,  6,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (49604,  7,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (49604,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -104,7 +105,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'No, this is for you.  I have no need of the Writ.  Use it to acquire your new home!  Even if you have purchased the house, some dwellings further require them for maintenance payments.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25315 /* Alloy Device */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25315 /* Alloy Device */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -113,7 +114,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25316 /* Alloy Apparatus */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25316 /* Alloy Apparatus */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -122,7 +123,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25317 /* Alloy Instrument */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25317 /* Alloy Instrument */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -131,7 +132,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25318 /* Alloy Tool */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25318 /* Alloy Tool */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -140,7 +141,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25319 /* Alloy Contraption */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25319 /* Alloy Contraption */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -149,7 +150,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25320 /* Alloy Implement */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25320 /* Alloy Implement */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -158,7 +159,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25321 /* Alloy Utensil */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25321 /* Alloy Utensil */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -167,7 +168,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25322 /* Alloy Mechanism */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25322 /* Alloy Mechanism */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -176,7 +177,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25323 /* Alloy Cogwheel */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25323 /* Alloy Cogwheel */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -185,7 +186,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25324 /* Alloy Contrivance */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25324 /* Alloy Contrivance */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -194,7 +195,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25325 /* Alloy Sprocket */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25325 /* Alloy Sprocket */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -203,7 +204,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25326 /* Alloy Cylinder */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25326 /* Alloy Cylinder */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -212,7 +213,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25327 /* Alloy Dynamo */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25327 /* Alloy Dynamo */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -221,7 +222,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25328 /* Alloy Piston */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25328 /* Alloy Piston */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -230,7 +231,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25329 /* Alloy Fan */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25329 /* Alloy Fan */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -239,7 +240,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25330 /* Alloy Pinion */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25330 /* Alloy Pinion */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -248,7 +249,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25331 /* Alloy Engine */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25331 /* Alloy Engine */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -257,7 +258,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25332 /* Alloy Motor */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25332 /* Alloy Motor */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -266,7 +267,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25333 /* Alloy Generator */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25333 /* Alloy Generator */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -275,7 +276,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 25334 /* Alloy Turbine */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 25334 /* Alloy Turbine */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -284,7 +285,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'What an interesting ... umm ... mechanism! I have no idea what it''s for! But you know, those Arcanum Researchers, they''ve been working with odd metals like this -- you should ask one of them. You can find them in the libraries in Cragstone, Hebian-To, or Zaikhal.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 47156 /* A'nekshay Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 47156 /* A'nekshay Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -293,7 +294,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  21 /* InqQuest */, 0, 1, NULL, 'AnekshayGemofKnowledgeCollectedInAMonth', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 47157 /* A'nekshay Gem of Lesser Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 47157 /* A'nekshay Gem of Lesser Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -302,7 +303,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  21 /* InqQuest */, 0, 1, NULL, 'AnekshayGemofLesserKnowledgeCollectedInAMonth', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  1 /* Refuse */,      1, 47158 /* A'nekshay Luminance Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  1 /* Refuse */,      1, 47158 /* A'nekshay Luminance Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -311,7 +312,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  21 /* InqQuest */, 0, 1, NULL, 'AnekshayLuminanceCertificateCollectedInAMonth', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 6330 /* Pyreal Ingot */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 6330 /* Pyreal Ingot */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -321,7 +322,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 6331 /* Quality Pyreal Ingot */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 6331 /* Quality Pyreal Ingot */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -331,7 +332,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 12689 /* Diamond Powder */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 12689 /* Diamond Powder */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -341,7 +342,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 10705 /* Niffis Pearl */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 10705 /* Niffis Pearl */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -351,7 +352,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 25894 /* Nefane Pearl */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 25894 /* Nefane Pearl */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -361,7 +362,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 25468 /* Royal Olthoi Jelly */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 25468 /* Royal Olthoi Jelly */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -371,7 +372,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 25407 /* Poison */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 25407 /* Poison */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -381,7 +382,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, 5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 12688 /* Nuhmudira's Token */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 12688 /* Nuhmudira's Token */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -389,7 +390,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  20 /* UpdateQuest */, 0, 1, NULL, 'NuhmudiraTokenQuestComplete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 14523 /* Fragment of the Acid Prism */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 14523 /* Fragment of the Acid Prism */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -397,7 +398,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  20 /* UpdateQuest */, 0, 1, NULL, 'PrismFragmentAcidGiven', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 14524 /* Fragment of the Fire Prism */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 14524 /* Fragment of the Fire Prism */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -405,7 +406,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  20 /* UpdateQuest */, 0, 1, NULL, 'PrismFragmentFireGiven', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 14526 /* Fragment of the Lightning Prism */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 14526 /* Fragment of the Lightning Prism */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -413,7 +414,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  20 /* UpdateQuest */, 0, 1, NULL, 'PrismFragmentLightningGiven', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 14525 /* Fragment of the Ice Prism */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 14525 /* Fragment of the Ice Prism */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -421,7 +422,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  20 /* UpdateQuest */, 0, 1, NULL, 'PrismFragmentIceGiven', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 21434 /* Iasparailaun */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 21434 /* Iasparailaun */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -430,7 +431,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  21 /* InqQuest */, 0, 1, NULL, 'GaerlanSwordTurnin', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 22198 /* Gaerlan Token */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 22198 /* Gaerlan Token */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -440,7 +441,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 57, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30801 /* Blood Fang Jewel */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30801 /* Blood Fang Jewel */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -452,7 +453,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30800 /* Black Glass Array */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30800 /* Black Glass Array */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -464,7 +465,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30802 /* Soul Chalice */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30802 /* Soul Chalice */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -476,7 +477,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30803 /* Desolate Seed */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30803 /* Desolate Seed */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -488,7 +489,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30809 /* Warrior's Emblem */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30809 /* Warrior's Emblem */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -500,7 +501,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30811 /* Burning Veil */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30811 /* Burning Veil */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -512,7 +513,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30810 /* Shadow Cursed Totem */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30810 /* Shadow Cursed Totem */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -524,7 +525,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30799 /* Corrupted Skull */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30799 /* Corrupted Skull */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -536,7 +537,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30808 /* Seething Skull */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30808 /* Seething Skull */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -548,7 +549,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30812 /* Antiquated Compass */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30812 /* Antiquated Compass */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -560,7 +561,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30813 /* Black Luster Pearl */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30813 /* Black Luster Pearl */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -574,7 +575,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  6,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 9511 /* Golden Gromnie */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 27249 /* Spring Cleaner Title Token */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 27249 /* Spring Cleaner Title Token */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -584,7 +585,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 135, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 4237 /* Thick Gromnie Hide */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 4237 /* Thick Gromnie Hide */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -594,7 +595,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 4227 /* Gromnie Hide Shirt */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30476 /* Northern Forge Essence */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30476 /* Northern Forge Essence */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -605,7 +606,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,  49 /* AwardLevelProportionalXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, 10000, 8000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1.75, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30474 /* Southern Forge Essence */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30474 /* Southern Forge Essence */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -616,7 +617,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,  49 /* AwardLevelProportionalXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, 10000, 45000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30475 /* Western Forge Essence */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30475 /* Western Forge Essence */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -627,7 +628,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,  49 /* AwardLevelProportionalXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, 10000, 70000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30675 /* Agent of Arcanum List */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30675 /* Agent of Arcanum List */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -636,7 +637,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Thank you. If you need to see the list of tradable items again, just ask.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 30858 /* Sezzherei Slayer Token */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 30858 /* Sezzherei Slayer Token */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -647,7 +648,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 119, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 34276 /* Ancient Empyrean Trinket */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 34276 /* Ancient Empyrean Trinket */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -657,7 +658,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 34277 /* Ancient Falatacot Trinket */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 34277 /* Ancient Falatacot Trinket */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -667,7 +668,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 31336 /* Fake Niffis Pearl */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 31336 /* Fake Niffis Pearl */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -686,7 +687,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id, 11,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 31661 /* Official Agents of the Arcanum Notice */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 31334 /* Crate of Fake Niffis Pearls */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 31334 /* Crate of Fake Niffis Pearls */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -701,7 +702,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  7,  67 /* Goto */, 0, 1, NULL, 'PickQuill', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 46415 /* Experience Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 46415 /* Experience Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -711,7 +712,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  49 /* AwardLevelProportionalXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 46414 /* Luminance Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 46414 /* Luminance Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -721,7 +722,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2, 113 /* AwardLuminance */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 20000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 46418 /* Item Spells Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 46418 /* Item Spells Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -767,7 +768,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id, 38,  27 /* TeachSpell */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 4342 /* Incantation of Nullify Item Magic */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 46419 /* Life Spells Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 46419 /* Life Spells Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -815,7 +816,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id, 40,  27 /* TeachSpell */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 4345 /* Incantation of Nullify Life Magic Other */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 46417 /* Creature Spells Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 46417 /* Creature Spells Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -957,7 +958,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id, 134,  27 /* TeachSpell */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 6136 /* Incantation of Summoning Ineptitude Other */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 46416 /* Combat Spells Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 46416 /* Combat Spells Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1010,7 +1011,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id, 45,  27 /* TeachSpell */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5368 /* Incantation of Nether Arc */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 53406 /* Ring Spells Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 53406 /* Ring Spells Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1027,7 +1028,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  9,  27 /* TeachSpell */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1789 /* Tectonic Rifts */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 53407 /* Wall Spells Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 53407 /* Wall Spells Certificate */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1044,7 +1045,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  9,  27 /* TeachSpell */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2934 /* Tusker Fists */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 36509 /* Greater Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 36509 /* Greater Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1054,7 +1055,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  49 /* AwardLevelProportionalXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, 1000, 515129417, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 36510 /* Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 36510 /* Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1064,7 +1065,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 100000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 43185 /* Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 43185 /* Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1074,7 +1075,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 50000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 43186 /* Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 43186 /* Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1084,7 +1085,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 43187 /* Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 43187 /* Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1094,7 +1095,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 43188 /* Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 43188 /* Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1104,7 +1105,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 9000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 43189 /* Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 43189 /* Gem of Knowledge */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1114,7 +1115,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 20000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 44719 /* Gem of Lesser Luminance */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 44719 /* Gem of Lesser Luminance */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1124,7 +1125,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2, 113 /* AwardLuminance */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1500, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 44720 /* Gem of Greater Luminance */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 44720 /* Gem of Greater Luminance */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1134,7 +1135,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2, 113 /* AwardLuminance */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 15000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 46454 /* Society Gem of Lesser Luminance */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 46454 /* Society Gem of Lesser Luminance */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1144,7 +1145,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2, 113 /* AwardLuminance */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1500, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  6 /* Give */,      1, 42108 /* Shadow Gem */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  6 /* Give */,      1, 42108 /* Shadow Gem */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1154,7 +1155,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 30000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (49604,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1186,7 +1187,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id, 24,  21 /* InqQuest */, 0, 1, NULL, 'AbandonedNuhmudira', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayGemofKnowledgeCollectedInAMonth', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayGemofKnowledgeCollectedInAMonth', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1194,7 +1195,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  30 /* InqQuestSolves */, 0, 1, NULL, 'AnekshayGemofKnowledgeCollectedInAMonth@10', NULL, 10, 10, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayGemofKnowledgeCollectedInAMonth@10', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayGemofKnowledgeCollectedInAMonth@10', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1202,7 +1203,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  21 /* InqQuest */, 0, 1, NULL, 'AnekshayGemofKnowledgeTimer_Monthly', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayGemofKnowledgeTimer_Monthly', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayGemofKnowledgeTimer_Monthly', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1212,7 +1213,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Try back next month.', NULL
      , (@parent_id,  2,  18 /* DirectBroadcast */, 0, 1, NULL, 'You must wait %tqt to turn in A''nekshay Gem of Knowledge again.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayGemofLesserKnowledgeCollectedInAMonth', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayGemofLesserKnowledgeCollectedInAMonth', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1220,7 +1221,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  30 /* InqQuestSolves */, 0, 1, NULL, 'AnekshayGemofLesserKnowledgeCollectedInAMonth@10', NULL, 10, 10, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayGemofLesserKnowledgeCollectedInAMonth@10', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayGemofLesserKnowledgeCollectedInAMonth@10', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1228,7 +1229,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  21 /* InqQuest */, 0, 1, NULL, 'AnekshayGemofLesserKnowledgeTimer_Monthly', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayGemofLesserKnowledgeTimer_Monthly', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayGemofLesserKnowledgeTimer_Monthly', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1238,7 +1239,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Try back next month.', NULL
      , (@parent_id,  2,  18 /* DirectBroadcast */, 0, 1, NULL, 'You must wait %tqt to turn in A''nekshay Gem of Lesser Knowledge again.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayLuminanceCertificateCollectedInAMonth', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayLuminanceCertificateCollectedInAMonth', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1246,7 +1247,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  30 /* InqQuestSolves */, 0, 1, NULL, 'AnekshayLuminanceCertificateCollectedInAMonth@10', NULL, 10, 10, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayLuminanceCertificateCollectedInAMonth@10', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayLuminanceCertificateCollectedInAMonth@10', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1254,7 +1255,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  21 /* InqQuest */, 0, 1, NULL, 'AnekshayLuminanceCertificateTimer_Monthly', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayLuminanceCertificateTimer_Monthly', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AnekshayLuminanceCertificateTimer_Monthly', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1264,7 +1265,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Try back next month.', NULL
      , (@parent_id,  2,  18 /* DirectBroadcast */, 0, 1, NULL, 'You must wait %tqt to turn in A''nekshay Luminance Certificate again.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'NuhmudiraTokenQuestComplete', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'NuhmudiraTokenQuestComplete', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1274,7 +1275,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 11710 /* Writ of Refuge */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'PrismFragmentAcidGiven', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'PrismFragmentAcidGiven', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1289,7 +1290,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  7,  10 /* Tell */, 0, 1, NULL, 'You never know, you may find a use for it yet.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'PrismFragmentFireGiven', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'PrismFragmentFireGiven', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1303,7 +1304,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  6,  10 /* Tell */, 0, 1, NULL, 'You never know, you may find a use for it yet.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'PrismFragmentLightningGiven', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'PrismFragmentLightningGiven', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1318,7 +1319,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  7,  10 /* Tell */, 0, 1, NULL, 'You never know, you may find a use for it yet.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'PrismFragmentIceGiven', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'PrismFragmentIceGiven', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1332,7 +1333,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  6,  10 /* Tell */, 0, 1, NULL, 'You never know, you may find a use for it yet.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'GaerlanSwordTurnin', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'GaerlanSwordTurnin', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1341,7 +1342,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'I have recently rewarded yo
      , (@parent_id,  1,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 21434 /* Iasparailaun */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AbandonedNuhmudira', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'AbandonedNuhmudira', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1354,7 +1355,7 @@ VALUES (@parent_id,  0,  31 /* EraseQuest */, 0, 1, NULL, 'SacrificedNuhmudira',
      , (@parent_id,  5,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 30675 /* Agent of Arcanum List */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'SacrificedNuhmudiraAgent', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'SacrificedNuhmudiraAgent', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1364,7 +1365,7 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'SacrificedNuhmudira',
      , (@parent_id,  2,  67 /* Goto */, 0, 1, NULL, 'SacrificedNuhmudira', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'SacrificedNuhmudira', NULL, NULL, NULL);
+VALUES (49604, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'SacrificedNuhmudira', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1378,7 +1379,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '%n smiles at you
      , (@parent_id,  6,  18 /* DirectBroadcast */, 0, 1, NULL, '%n salutes you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayGemofKnowledgeTimer_Monthly', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayGemofKnowledgeTimer_Monthly', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1386,7 +1387,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  76 /* InqOwnsItems */, 0, 1, NULL, 'OwnsItem-47156', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 47156 /* A'nekshay Gem of Knowledge */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayGemofKnowledgeCollectedInAMonth@10', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayGemofKnowledgeCollectedInAMonth@10', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1394,7 +1395,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  76 /* InqOwnsItems */, 0, 1, NULL, 'OwnsItem-47156_2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 47156 /* A'nekshay Gem of Knowledge */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayGemofKnowledgeCollectedInAMonth', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayGemofKnowledgeCollectedInAMonth', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1402,7 +1403,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  76 /* InqOwnsItems */, 0, 1, NULL, 'OwnsItem-47156_3', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 47156 /* A'nekshay Gem of Knowledge */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayGemofLesserKnowledgeTimer_Monthly', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayGemofLesserKnowledgeTimer_Monthly', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1410,7 +1411,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  76 /* InqOwnsItems */, 0, 1, NULL, 'OwnsItem-47157', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 47157 /* A'nekshay Gem of Lesser Knowledge */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayGemofLesserKnowledgeCollectedInAMonth@10', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayGemofLesserKnowledgeCollectedInAMonth@10', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1418,7 +1419,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  76 /* InqOwnsItems */, 0, 1, NULL, 'OwnsItem-47157_2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 47157 /* A'nekshay Gem of Lesser Knowledge */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayGemofLesserKnowledgeCollectedInAMonth', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayGemofLesserKnowledgeCollectedInAMonth', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1426,7 +1427,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  76 /* InqOwnsItems */, 0, 1, NULL, 'OwnsItem-47157_3', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 47157 /* A'nekshay Gem of Lesser Knowledge */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayLuminanceCertificateTimer_Monthly', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayLuminanceCertificateTimer_Monthly', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1434,7 +1435,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  76 /* InqOwnsItems */, 0, 1, NULL, 'OwnsItem-47158', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 47158 /* A'nekshay Luminance Certificate */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayLuminanceCertificateCollectedInAMonth@10', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayLuminanceCertificateCollectedInAMonth@10', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1442,7 +1443,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  76 /* InqOwnsItems */, 0, 1, NULL, 'OwnsItem-47158_2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 47158 /* A'nekshay Luminance Certificate */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayLuminanceCertificateCollectedInAMonth', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AnekshayLuminanceCertificateCollectedInAMonth', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1450,7 +1451,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  76 /* InqOwnsItems */, 0, 1, NULL, 'OwnsItem-47158_3', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 47158 /* A'nekshay Luminance Certificate */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'NuhmudiraTokenQuestComplete', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'NuhmudiraTokenQuestComplete', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1459,7 +1460,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'I already informed you that we no longer need any tokens from you.  We will however still take the other trophies I mentioned to you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'PrismFragmentAcidGiven', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'PrismFragmentAcidGiven', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1470,7 +1471,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 14530 /* Craftable Prism Fragment of Acid */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'PrismFragmentFireGiven', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'PrismFragmentFireGiven', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1481,7 +1482,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 14531 /* Craftable Prism Fragment of Fire */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'PrismFragmentLightningGiven', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'PrismFragmentLightningGiven', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1492,7 +1493,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 14533 /* Craftable Prism Fragment of Lightning */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'PrismFragmentIceGiven', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'PrismFragmentIceGiven', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1503,7 +1504,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 14532 /* Craftable Prism Fragment of Ice */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'GaerlanSwordTurnin', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'GaerlanSwordTurnin', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1511,7 +1512,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  36 /* InqIntStat */, 0, 1, NULL, 'Test_Level', NULL, 1, 40, NULL, NULL, NULL, NULL, 25, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AbandonedNuhmudira', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'AbandonedNuhmudira', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1519,7 +1520,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  21 /* InqQuest */, 0, 1, NULL, 'SacrificedNuhmudiraAgent', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'SacrificedNuhmudiraAgent', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'SacrificedNuhmudiraAgent', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1527,7 +1528,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  67 /* Goto */, 0, 1, NULL, 'SacrificedNuhmudira', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'SacrificedNuhmudira', NULL, NULL, NULL);
+VALUES (49604, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'SacrificedNuhmudira', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1538,7 +1539,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'The Agent bows t
      , (@parent_id,  3,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 30675 /* Agent of Arcanum List */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47156', NULL, NULL, NULL);
+VALUES (49604, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47156', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1551,7 +1552,7 @@ VALUES (@parent_id,  0,  74 /* TakeItems */, 0, 1, NULL, NULL, NULL, NULL, NULL,
      , (@parent_id,  5,  22 /* StampQuest */, 0, 1, NULL, 'AnekshayGemofKnowledgeCollectedInAMonth', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47156_2', NULL, NULL, NULL);
+VALUES (49604, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47156_2', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1562,7 +1563,7 @@ VALUES (@parent_id,  0,  74 /* TakeItems */, 0, 1, NULL, NULL, NULL, NULL, NULL,
      , (@parent_id,  3,  22 /* StampQuest */, 0, 1, NULL, 'AnekshayGemofKnowledgeCollectedInAMonth', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47156_3', NULL, NULL, NULL);
+VALUES (49604, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47156_3', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1574,7 +1575,7 @@ VALUES (@parent_id,  0,  74 /* TakeItems */, 0, 1, NULL, NULL, NULL, NULL, NULL,
      , (@parent_id,  4,  22 /* StampQuest */, 0, 1, NULL, 'AnekshayGemofKnowledgeCollectedInAMonth', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47157', NULL, NULL, NULL);
+VALUES (49604, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47157', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1587,7 +1588,7 @@ VALUES (@parent_id,  0,  74 /* TakeItems */, 0, 1, NULL, NULL, NULL, NULL, NULL,
      , (@parent_id,  5,  22 /* StampQuest */, 0, 1, NULL, 'AnekshayGemofLesserKnowledgeCollectedInAMonth', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47157_2', NULL, NULL, NULL);
+VALUES (49604, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47157_2', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1598,7 +1599,7 @@ VALUES (@parent_id,  0,  74 /* TakeItems */, 0, 1, NULL, NULL, NULL, NULL, NULL,
      , (@parent_id,  3,  22 /* StampQuest */, 0, 1, NULL, 'AnekshayGemofLesserKnowledgeCollectedInAMonth', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47157_3', NULL, NULL, NULL);
+VALUES (49604, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47157_3', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1610,7 +1611,7 @@ VALUES (@parent_id,  0,  74 /* TakeItems */, 0, 1, NULL, NULL, NULL, NULL, NULL,
      , (@parent_id,  4,  22 /* StampQuest */, 0, 1, NULL, 'AnekshayGemofLesserKnowledgeCollectedInAMonth', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47158', NULL, NULL, NULL);
+VALUES (49604, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47158', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1623,7 +1624,7 @@ VALUES (@parent_id,  0,  74 /* TakeItems */, 0, 1, NULL, NULL, NULL, NULL, NULL,
      , (@parent_id,  5,  22 /* StampQuest */, 0, 1, NULL, 'AnekshayLuminanceCertificateCollectedInAMonth', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47158_2', NULL, NULL, NULL);
+VALUES (49604, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47158_2', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1634,7 +1635,7 @@ VALUES (@parent_id,  0,  74 /* TakeItems */, 0, 1, NULL, NULL, NULL, NULL, NULL,
      , (@parent_id,  3,  22 /* StampQuest */, 0, 1, NULL, 'AnekshayLuminanceCertificateCollectedInAMonth', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47158_3', NULL, NULL, NULL);
+VALUES (49604, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'OwnsItem-47158_3', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1646,7 +1647,7 @@ VALUES (@parent_id,  0,  74 /* TakeItems */, 0, 1, NULL, NULL, NULL, NULL, NULL,
      , (@parent_id,  4,  22 /* StampQuest */, 0, 1, NULL, 'AnekshayLuminanceCertificateCollectedInAMonth', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'Test_Level', NULL, NULL, NULL);
+VALUES (49604, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'Test_Level', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1659,7 +1660,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'I see that you have visited
      , (@parent_id,  5,  10 /* Tell */, 1, 1, NULL, 'If you hand the token back to me I will make sure that you are recognized for your efforts. The madness of his reign is over and now we can move forward.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'Test_Level_41-79', NULL, NULL, NULL);
+VALUES (49604, 22 /* TestSuccess */,      1, NULL, NULL, NULL, 'Test_Level_41-79', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1672,7 +1673,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'I see that you have visited
      , (@parent_id,  5,  10 /* Tell */, 1, 1, NULL, 'If you hand the token back to me I will make sure that you are recognized for your efforts. The madness of his reign is over and now we can move forward.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 23 /* TestFailure */,      1, NULL, NULL, NULL, 'Test_Level', NULL, NULL, NULL);
+VALUES (49604, 23 /* TestFailure */,      1, NULL, NULL, NULL, 'Test_Level', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1680,7 +1681,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  36 /* InqIntStat */, 0, 1, NULL, 'Test_Level_41-79', NULL, 41, 79, NULL, NULL, NULL, NULL, 25, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 23 /* TestFailure */,      1, NULL, NULL, NULL, 'Test_Level_41-79', NULL, NULL, NULL);
+VALUES (49604, 23 /* TestFailure */,      1, NULL, NULL, NULL, 'Test_Level_41-79', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1693,7 +1694,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'I see that you have visited
      , (@parent_id,  5,  10 /* Tell */, 1, 1, NULL, 'If you hand the token back to me I will make sure that you are recognized for your efforts. The madness of his reign is over and now we can move forward.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 32 /* GotoSet */,   0.25, NULL, NULL, NULL, 'PickQuill', NULL, NULL, NULL);
+VALUES (49604, 32 /* GotoSet */,   0.25, NULL, NULL, NULL, 'PickQuill', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1701,7 +1702,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 31330 /* Scribe's Quill */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 32 /* GotoSet */,    0.5, NULL, NULL, NULL, 'PickQuill', NULL, NULL, NULL);
+VALUES (49604, 32 /* GotoSet */,    0.5, NULL, NULL, NULL, 'PickQuill', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1709,7 +1710,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 31331 /* Scribe's Quill */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 32 /* GotoSet */,   0.75, NULL, NULL, NULL, 'PickQuill', NULL, NULL, NULL);
+VALUES (49604, 32 /* GotoSet */,   0.75, NULL, NULL, NULL, 'PickQuill', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1717,7 +1718,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 31332 /* Scribe's Quill */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'PickQuill', NULL, NULL, NULL);
+VALUES (49604, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'PickQuill', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1725,7 +1726,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 31333 /* Scribe's Quill */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12050, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'SacrificedNuhmudira', NULL, NULL, NULL);
+VALUES (49604, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'SacrificedNuhmudira', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1733,4 +1734,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  21 /* InqQuest */, 0, 1, NULL, 'SacrificedNuhmudira', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12050, 2,  5913,  0, 5, 0, False) /* Create Dho Item Master Robe (5913) for Wield */;
+VALUES (49604, 2,  5913,  0, 5, 0, False) /* Create Dho Item Master Robe (5913) for Wield */;
