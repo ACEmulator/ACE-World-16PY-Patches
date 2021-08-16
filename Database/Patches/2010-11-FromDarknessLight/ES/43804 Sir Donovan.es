@@ -79,6 +79,7 @@ Give: 43826 (Shattered Master Bloodstone Shard)
     - StampQuest: BloodstoneFactoryCompleted_0211
     - Give: 48746 (Aged Legendary Key)
     - Give: 43814 (Delicate Bloodstone Wand)
+	- Give: 45681 (Contract for Bloodstone Factory)
     - Tell: If you are not specialized in the use of Life Magics, I can reinforce the wand to make it a bit less delicate, but it'll weaken its effects slightly. Just hand it back to me and I'll do so.
     - Tell: Also, if you wish a reward other than the wand, hand me back the reinforced wand, and I'll release the Luminance trapped within the crystal and channel it into you.
     - InqQuestBitsOn: LegendaryQuestsA, 0x4000 
