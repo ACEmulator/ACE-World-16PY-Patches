@@ -6,7 +6,7 @@ VALUES (11371, 'ahurengatoneawa_xp', 10, '2019-09-13 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11371,   1,         16) /* ItemType - Creature */
      , (11371,   2,          6) /* CreatureType - Tumerok */
-     , (11371,   3,         19) /* PaletteTemplate - Copper */
+     , (11371,   3,         11) /* PaletteTemplate - Maroon */
      , (11371,   6,         -1) /* ItemsCapacity */
      , (11371,   7,         -1) /* ContainersCapacity */
      , (11371,   8,        120) /* Mass */
@@ -32,17 +32,17 @@ VALUES (11371,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11371,   1,       5) /* HeartbeatInterval */
      , (11371,   2,       0) /* HeartbeatTimestamp */
-     , (11371,   3, 0.159999996423721) /* HealthRate */
+     , (11371,   3,    0.16) /* HealthRate */
      , (11371,   4,       5) /* StaminaRate */
      , (11371,   5,       1) /* ManaRate */
-     , (11371,  12,     0.5) /* Shade */
-     , (11371,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (11371,  12,  0.3333) /* Shade */
+     , (11371,  13,     0.9) /* ArmorModVsSlash */
      , (11371,  14,       1) /* ArmorModVsPierce */
-     , (11371,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (11371,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (11371,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (11371,  15,     1.1) /* ArmorModVsBludgeon */
+     , (11371,  16,     0.4) /* ArmorModVsCold */
+     , (11371,  17,     0.4) /* ArmorModVsFire */
      , (11371,  18,       1) /* ArmorModVsAcid */
-     , (11371,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (11371,  19,     0.6) /* ArmorModVsElectric */
      , (11371,  54,       3) /* UseRadius */
      , (11371,  64,       1) /* ResistSlash */
      , (11371,  65,       1) /* ResistPierce */
@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11371,   1, 'Hea Toneawa') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11371,   1,   33554496) /* Setup */
+VALUES (11371,   1,   33559554) /* Setup */
      , (11371,   2,  150994954) /* MotionTable */
      , (11371,   3,  536870931) /* SoundTable */
      , (11371,   4,  805306380) /* CombatTable */
-     , (11371,   6,   67109314) /* PaletteBase */
-     , (11371,   7,  268435647) /* ClothingBase */
+     , (11371,   6,   67116625) /* PaletteBase */
+     , (11371,   7,  268437022) /* ClothingBase */
      , (11371,   8,  100667452) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

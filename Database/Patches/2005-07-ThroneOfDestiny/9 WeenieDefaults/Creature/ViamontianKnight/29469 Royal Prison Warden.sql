@@ -6,7 +6,7 @@ VALUES (29469, 'knightroyalprisonwarden', 10, '2019-09-13 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29469,   1,         16) /* ItemType - Creature */
      , (29469,   2,         83) /* CreatureType - ViamontianKnight */
-     , (29469,   3,          9) /* PaletteTemplate - Grey */
+     , (29469,   3,          2) /* PaletteTemplate - Blue */
      , (29469,   6,         -1) /* ItemsCapacity */
      , (29469,   7,         -1) /* ContainersCapacity */
      , (29469,  16,          1) /* ItemUseable - No */
@@ -14,7 +14,7 @@ VALUES (29469,   1,         16) /* ItemType - Creature */
      , (29469,  27,          0) /* ArmorType - None */
      , (29469,  40,          2) /* CombatMode - Melee */
      , (29469,  68,          9) /* TargetingTactic - Random, TopDamager */
-     , (29469,  93,    4195336) /* PhysicsState */
+     , (29469,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (29469, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (29469, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (29469, 140,          1) /* AiOptions - CanOpenDoors */

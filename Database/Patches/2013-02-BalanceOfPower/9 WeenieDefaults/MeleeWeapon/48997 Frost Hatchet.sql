@@ -10,7 +10,7 @@ VALUES (48997,   1,          1) /* ItemType - MeleeWeapon */
      , (48997,  16,          1) /* ItemUseable - No */
      , (48997,  18,        128) /* UiEffects - Frost */
      , (48997,  19,        130) /* Value */
-     , (48997,  44,        180) /* Damage */
+     , (48997,  44,        248) /* Damage */
      , (48997,  45,          8) /* DamageType - Cold */
      , (48997,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (48997,  47,          4) /* AttackType - Slash */
@@ -26,7 +26,7 @@ VALUES (48997,  11, True ) /* IgnoreCollisions */
      , (48997,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48997,  22,    0.75) /* DamageVariance */;
+VALUES (48997,  22,    0.5) /* DamageVariance */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48997,   1, 'Frost Hatchet') /* Name */;

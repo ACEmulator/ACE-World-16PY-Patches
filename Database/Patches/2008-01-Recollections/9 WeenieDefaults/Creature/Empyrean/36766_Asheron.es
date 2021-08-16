@@ -1,28 +1,9 @@
 Use:
 	- Tell: I must protect my people, but these attacks weaken me.
 
-Generation:
+HeartBeat: Probability: 1
 	- Motion: CastSpell
 	- Motion: Ready
-	- Delay: 5, Motion: CastSpell
-	- Motion: Ready
-	- Delay: 5, Motion: CastSpell
-	- Motion: Ready
-	- Delay: 5, Motion: CastSpell
-	- Motion: Ready
-	- Delay: 5, Motion: CastSpell
-	- Motion: Ready
-	- Delay: 5, Motion: CastSpell
-	- Motion: Ready
-	- Delay: 5, Motion: CastSpell
-	- Motion: Ready
-	- Delay: 5, Motion: CastSpell
-	- Motion: Ready
-	- Delay: 5, Motion: CastSpell
-	- Motion: Ready
-	- Delay: 5, Motion: CastSpell
-	- Motion: Ready
-	- Delay: 5, Motion: CastSpell
-	- Motion: Ready
-	- Delay: 5, Motion: CastSpell
-	- Motion: Ready
+
+Death: 
+	- StartEvent: KnorrQuiddityTimesUpEvent

@@ -6,7 +6,7 @@ VALUES (29395, 'knightquartermastersilver', 10, '2019-09-13 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29395,   1,         16) /* ItemType - Creature */
      , (29395,   2,         83) /* CreatureType - ViamontianKnight */
-     , (29395,   3,         39) /* PaletteTemplate - Black */
+     , (29395,   3,          1) /* PaletteTemplate - AquaBlue */
      , (29395,   6,         -1) /* ItemsCapacity */
      , (29395,   7,         -1) /* ContainersCapacity */
      , (29395,  16,          1) /* ItemUseable - No */
@@ -53,7 +53,7 @@ VALUES (29395,   1,       5) /* HeartbeatInterval */
      , (29395,  67,     1.2) /* ResistFire */
      , (29395,  68,     0.9) /* ResistCold */
      , (29395,  69,     0.9) /* ResistAcid */
-     , (29395,  70,    1.2) /* ResistElectric */
+     , (29395,  70,     1.2) /* ResistElectric */
      , (29395,  71,       1) /* ResistHealthBoost */
      , (29395,  72,       1) /* ResistStaminaDrain */
      , (29395,  73,       1) /* ResistStaminaBoost */

@@ -6,7 +6,7 @@ VALUES (38982, 'ace38982-chiefgrogbash', 10, '2019-02-10 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38982,   1,         16) /* ItemType - Creature */
      , (38982,   2,          2) /* CreatureType - Banderling */
-     , (38982,   3,         81) /* PaletteTemplate - LiteGreen */
+     , (38982,   3,         14) /* PaletteTemplate - Red */
      , (38982,   6,         -1) /* ItemsCapacity */
      , (38982,   7,         -1) /* ContainersCapacity */
      , (38982,  16,         32) /* ItemUseable - Remote */
@@ -21,7 +21,8 @@ VALUES (38982,   1, True ) /* Stuck */
      , (38982,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38982,  39,     1.5) /* DefaultScale */
+VALUES (38982,  12,     0.5) /* Shade */
+     , (38982,  39,     1.5) /* DefaultScale */
      , (38982,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -33,7 +34,7 @@ VALUES (38982,   1,   33558024) /* Setup */
      , (38982,   2,  150994951) /* MotionTable */
      , (38982,   3,  536870917) /* SoundTable */
      , (38982,   6,   67114021) /* PaletteBase */
-     , (38982,   7,  268436496) /* ClothingBase */
+     , (38982,   7,  268436611) /* ClothingBase */
      , (38982,   8,  100667453) /* Icon */
      , (38982,  22,  872415255) /* PhysicsEffectTable */;
 
