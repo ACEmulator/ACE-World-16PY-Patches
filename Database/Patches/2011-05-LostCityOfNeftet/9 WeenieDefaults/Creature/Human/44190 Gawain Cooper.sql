@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44190;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44190, 'ace44190-gawaincooper', 10, '2021-08-16 02:31:32') /* Creature */;
+VALUES (44190, 'ace44190-gawaincooper', 10, '2021-08-16 03:06:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44190,   1,         16) /* ItemType - Creature */
@@ -57,10 +57,10 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id, 0, 12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 1, 21 /* InqQuest */, 0, 1, NULL, '50to11ContractsComplete_0511@8', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id, 1, 21 /* InqQuest */, 0, 1, NULL, '50to11ContractsComplete_0511@16', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, '50to11ContractsComplete_0511@8', NULL, NULL, NULL);
+VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, '50to11ContractsComplete_0511@16', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -68,15 +68,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'I have no further rewards for contracts completed. Be safe while exploring the rest of Dereth.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, '50to11ContractsComplete_0511@8', NULL, NULL, NULL);
+VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, '50to11ContractsComplete_0511@16', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@0-4_8', NULL, 0, 4, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@0-4_16', NULL, 0, 4, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@0-4_8', NULL, NULL, NULL);
+VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@0-4_16', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -86,15 +86,15 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'The Contract Broker next to m
      , (@parent_id, 2, 10 /* Tell */, 0, 1, NULL, 'Good luck to you out there.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@0-4_8', NULL, NULL, NULL);
+VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@0-4_16', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@5-35_8', NULL, 5, 35, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@5-35_16', NULL, 5, 35, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@5-35_8', NULL, NULL, NULL);
+VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@5-35_16', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -121,7 +121,7 @@ VALUES (@parent_id, 0, 106 /* SetQuestBitsOn */, 0, 1, NULL, 'ContractQuestSolve
      , (@parent_id, 3, 67 /* Goto */, 0, 1, NULL, 'Found10?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@5-35_8', NULL, NULL, NULL);
+VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@5-35_16', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -134,10 +134,10 @@ VALUES (44190, 32 /* GotoSet */, 1, NULL, NULL, NULL, 'Found10?', NULL, NULL, NU
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@10-35_8', NULL, 10, 35, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@10-35_16', NULL, 10, 35, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@10-35_8', NULL, NULL, NULL);
+VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@10-35_16', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -164,7 +164,7 @@ VALUES (@parent_id, 0, 106 /* SetQuestBitsOn */, 0, 1, NULL, 'ContractQuestSolve
      , (@parent_id, 3, 67 /* Goto */, 0, 1, NULL, 'Found15?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@10-35_8', NULL, NULL, NULL);
+VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@10-35_16', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -177,10 +177,10 @@ VALUES (44190, 32 /* GotoSet */, 1, NULL, NULL, NULL, 'Found15?', NULL, NULL, NU
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@15-35_8', NULL, 15, 35, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@15-35_16', NULL, 15, 35, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@15-35_8', NULL, NULL, NULL);
+VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@15-35_16', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -207,7 +207,7 @@ VALUES (@parent_id, 0, 106 /* SetQuestBitsOn */, 0, 1, NULL, 'ContractQuestSolve
      , (@parent_id, 3, 67 /* Goto */, 0, 1, NULL, 'Found20?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@15-35_8', NULL, NULL, NULL);
+VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@15-35_16', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -220,10 +220,10 @@ VALUES (44190, 32 /* GotoSet */, 1, NULL, NULL, NULL, 'Found20?', NULL, NULL, NU
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@20-35_8', NULL, 20, 35, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@20-35_16', NULL, 20, 35, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@20-35_8', NULL, NULL, NULL);
+VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@20-35_16', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -250,7 +250,7 @@ VALUES (@parent_id, 0, 106 /* SetQuestBitsOn */, 0, 1, NULL, 'ContractQuestSolve
      , (@parent_id, 3, 67 /* Goto */, 0, 1, NULL, 'Found25?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@20-35_8', NULL, NULL, NULL);
+VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@20-35_16', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -263,10 +263,10 @@ VALUES (44190, 32 /* GotoSet */, 1, NULL, NULL, NULL, 'Found25?', NULL, NULL, NU
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@25-35_11', NULL, 25, 35, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@25-35_19', NULL, 25, 35, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@25-35_11', NULL, NULL, NULL);
+VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@25-35_19', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -293,7 +293,7 @@ VALUES (@parent_id, 0, 106 /* SetQuestBitsOn */, 0, 1, NULL, 'ContractQuestSolve
      , (@parent_id, 3, 67 /* Goto */, 0, 1, NULL, 'Found30?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@25-35_11', NULL, NULL, NULL);
+VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@25-35_19', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -306,10 +306,10 @@ VALUES (44190, 32 /* GotoSet */, 1, NULL, NULL, NULL, 'Found30?', NULL, NULL, NU
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@30-35_8', NULL, 30, 35, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@30-35_16', NULL, 30, 35, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@30-35_8', NULL, NULL, NULL);
+VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@30-35_16', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -332,11 +332,11 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id, 0, 106 /* SetQuestBitsOn */, 0, 1, NULL, 'ContractQuestSolves', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 32, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 1, 10 /* Tell */, 0, 1, NULL, 'You have completed 30 contracts, excellent work. I shall reward you for your efforts', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 2, 62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 25000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 2, 62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 32000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 3, 67 /* Goto */, 0, 1, NULL, 'Found35?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@30-35_8', NULL, NULL, NULL);
+VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@30-35_16', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -349,10 +349,10 @@ VALUES (44190, 32 /* GotoSet */, 1, NULL, NULL, NULL, 'Found35?', NULL, NULL, NU
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@35_5', NULL, 35, 2147483647, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 30 /* InqQuestSolves */, 0, 1, NULL, 'ContractQuestcounter_0511@35_13', NULL, 35, 2147483647, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@35_5', NULL, NULL, NULL);
+VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@35_13', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -365,7 +365,7 @@ VALUES (44190, 12 /* QuestSuccess */, 1, NULL, NULL, NULL, 'ContractQuestSolves@
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 67 /* Goto */, 0, 1, NULL, 'Found30?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'I have no further rewards for contracts completed. Be safe while exploring the rest of Dereth.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestSolves@35', NULL, NULL, NULL);
@@ -377,10 +377,11 @@ VALUES (@parent_id, 0, 106 /* SetQuestBitsOn */, 0, 1, NULL, 'ContractQuestSolve
      , (@parent_id, 1, 10 /* Tell */, 0, 1, NULL, 'You have completed 25 contracts, excellent work. I shall reward you for your efforts', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 2, 10 /* Tell */, 0, 1, NULL, 'I have no further rewards for contracts completed. Be safe while exploring the rest of Dereth.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 3, 62 /* AwardNoShareXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 40000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 4, 34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 721 /* ContractKiller */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id, 4, 34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 721 /* ContractKiller */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 5, 22 /* StampQuest */, 0, 1, NULL, '50to11ContractsComplete_0511', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@35_5', NULL, NULL, NULL);
+VALUES (44190, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'ContractQuestcounter_0511@35_13', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

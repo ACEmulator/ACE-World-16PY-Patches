@@ -89,7 +89,7 @@ GotoSet: Found30?
                 QuestFailure:
                     - SetQuestBitsOn: ContractQuestSolves, 0x20
                     - Tell: You have completed 30 contracts, excellent work. I shall reward you for your efforts
-                    - AwardNoShareXP: 25,000,000
+                    - AwardNoShareXP: 32,000,000
                     - Goto: Found35?
         QuestFailure:
             - Tell: You have not yet completed 30 contracts. When you do, I shall reward you again.
@@ -99,13 +99,14 @@ GotoSet: Found35?
         QuestSuccess:
             - InqQuestBitsOn: ContractQuestSolves@35, 0x40
                 QuestSuccess:
-                    - Goto: Found30?
+                    - Tell: I have no further rewards for contracts completed. Be safe while exploring the rest of Dereth.
                 QuestFailure:
                     - SetQuestBitsOn: ContractQuestSolves, 0x40
                     - Tell: You have completed 25 contracts, excellent work. I shall reward you for your efforts
                     - Tell: I have no further rewards for contracts completed. Be safe while exploring the rest of Dereth.
                     - AwardNoShareXP: 40,000,000
                     - AddCharacterTitle: 721
+					- StampQuest: 50to11ContractsComplete_0511
         QuestFailure:
             - Tell: You have not yet completed 35 contracts. When you do, I shall reward you again.
             
