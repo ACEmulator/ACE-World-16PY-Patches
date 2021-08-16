@@ -22,3 +22,7 @@ Refuse: 51302
     - Give: 20630, 9
     - StampQuest: BTMCompleted_0513
     - EraseQuest: BTMStarted_0513
+	- InqQuestBitsOn: LegendaryQuestsA, 0x100000 
+		QuestFailure:
+			- SetQuestBitsOn: LegendaryQuestsA, 0x100000 
+			- StampQuest: LegendaryQuestCounter_0913			
