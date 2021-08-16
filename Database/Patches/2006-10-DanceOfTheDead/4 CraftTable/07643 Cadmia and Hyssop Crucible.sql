@@ -6,4 +6,4 @@ VALUES (7643, 0, 38 /* Alchemy */, 290, 0, 79968 /* Cadmia and Hyssop Crucible *
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7643;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7643, 24738 /* Crucible with Cadmia Potion */,   771 /* Hyssop */, '2021-08-01 00:00:00');
+VALUES (7643, 24738 /* Crucible with Cadmia Potion */,   774 /* Hyssop */, '2021-08-01 00:00:00');
