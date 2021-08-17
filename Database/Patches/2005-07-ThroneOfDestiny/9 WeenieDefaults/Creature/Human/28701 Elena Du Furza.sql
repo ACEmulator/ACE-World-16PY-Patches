@@ -74,13 +74,7 @@ VALUES (28701,   1,   33554510) /* Setup */
      , (28701,   4,  805306368) /* CombatTable */
      , (28701,   6,   67108990) /* PaletteBase */
      , (28701,   7,  268436923) /* ClothingBase */
-     , (28701,   8,  100667377) /* Icon */
-     , (28701,   9,   83890255) /* EyesTexture */
-     , (28701,  10,   83890287) /* NoseTexture */
-     , (28701,  11,   83890327) /* MouthTexture */
-     , (28701,  15,   67117019) /* HairPalette */
-     , (28701,  16,   67110064) /* EyesPalette */
-     , (28701,  17,   67115902) /* SkinPalette */;
+     , (28701,   8,  100667377) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28701,   1,  60, 0, 0) /* Strength */

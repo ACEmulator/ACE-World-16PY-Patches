@@ -848,16 +848,31 @@ Give: Ulgrim's Contest Mug (34275)
     - Delay: 1, Tell: 3
     - Delay: 1, Tell: Begin
     - StampQuest: UlgrimsDrinkingContestFlag
+    - Motion: Pickup
+    - Motion: Ready
     - Delay: 1, Motion: MimeDrink
+    - Motion: Ready
     - Tell: One
+    - Motion: Pickup
+    - Motion: Ready
     - Delay: 1, Motion: MimeDrink
+    - Motion: Ready
     - Tell: Two
+    - Motion: Pickup
+    - Motion: Ready
     - Delay: 1, Motion: MimeDrink
+    - Motion: Ready
     - Tell: Three
+    - Motion: Pickup
+    - Motion: Ready
     - Delay: 1, Motion: MimeDrink
+    - Motion: Ready
     - Tell: Four
+    - Motion: Pickup
+    - Motion: Ready
     - DirectBroadcast: Ulgrim stops to pose for onlookers with his stout mug held high.
     - Delay: 1, Motion: MimeDrink
+    - Motion: Ready
     - EraseQuest: UlgrimsDrinkingContestFlag
     - InqQuest: UlgrimsDrinkingContestDrinks
         QuestSuccess:

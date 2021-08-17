@@ -32,7 +32,7 @@ VALUES (33105,   5,   -0.03) /* ManaRate */
      , (33105,  17,     0.8) /* ArmorModVsFire */
      , (33105,  18,       1) /* ArmorModVsAcid */
      , (33105,  19,     0.8) /* ArmorModVsElectric */
-     , (33105, 159,    0.25) /* AbsorbMagicDamage */
+     , (33105, 159,     0.1) /* AbsorbMagicDamage */
      , (33105, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -43,11 +43,3 @@ VALUES (33105,   1,   33559923) /* Setup */
      , (33105,   3,  536870932) /* SoundTable */
      , (33105,   8,  100688919) /* Icon */
      , (33105,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33105,  2102,      2)  /* Inferno's Bane */
-     , (33105,  2108,      2)  /* Brogard's Defiance */
-     , (33105,  2110,      2)  /* Astyrrian's Bane */
-     , (33105,  2243,      2)  /* Aura of Deflection */
-     , (33105,  2245,      2)  /* Aura of Defense */
-     , (33105,  2604,      2)  /* Minor Impenetrability */;

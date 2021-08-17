@@ -17,7 +17,7 @@ VALUES (43762,   1,         16) /* ItemType - Creature */
      , (43762,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (43762, 103,          2) /* GeneratorDestructionType - Destroy */
      , (43762, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (43762, 146,       7000) /* XpOverride */;
+     , (43762, 146,    1400000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43762,   1, True ) /* Stuck */
@@ -38,7 +38,6 @@ VALUES (43762,   1,       5) /* HeartbeatInterval */
      , (43762,   6,     0.1) /* HealthUponResurrection */
      , (43762,   7,    0.25) /* StaminaUponResurrection */
      , (43762,   8,     0.3) /* ManaUponResurrection */
-     , (43762,  12,     0.5) /* Shade */
      , (43762,  13,    0.44) /* ArmorModVsSlash */
      , (43762,  14,    0.58) /* ArmorModVsPierce */
      , (43762,  15,    0.86) /* ArmorModVsBludgeon */
@@ -56,7 +55,7 @@ VALUES (43762,   1,       5) /* HeartbeatInterval */
      , (43762,  66,    0.83) /* ResistBludgeon */
      , (43762,  67,     0.2) /* ResistFire */
      , (43762,  68,     0.2) /* ResistCold */
-     , (43762,  69,    0.89) /* ResistAcid */
+     , (43762,  69,    0.73) /* ResistAcid */
      , (43762,  70,    0.65) /* ResistElectric */
      , (43762,  71,       1) /* ResistHealthBoost */
      , (43762,  72,       1) /* ResistStaminaDrain */
@@ -90,7 +89,7 @@ VALUES (43762,   1, 420, 0, 0) /* Strength */
      , (43762,   6, 440, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43762,   1, 12000, 0, 0, 12325) /* MaxHealth */
+VALUES (43762,   1, 25000, 0, 0, 25325) /* MaxHealth */
      , (43762,   3, 35000, 0, 0, 35650) /* MaxStamina */
      , (43762,   5, 25000, 0, 0, 25440) /* MaxMana */;
 
@@ -134,4 +133,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43762, -1, 43784, 1, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Follower of Deewain (43784) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (43762, -1, 43784, 1, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Follower of Deewain (43784) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (43762, -1, 43784, 1, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Follower of Deewain (43784) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (43762, -1, 43784, 1, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Follower of Deewain (43784) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

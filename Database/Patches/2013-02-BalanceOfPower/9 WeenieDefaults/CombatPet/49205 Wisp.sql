@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49205;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49205, 'ace49205-wisp', 71, '2019-12-06 16:49:25') /* CombatPet */;
+VALUES (49205, 'ace49205-wisp', 71, '2021-07-12 02:40:42') /* CombatPet */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49205,   1,         16) /* ItemType - Creature */
@@ -32,8 +32,8 @@ VALUES (49205,   1, 'Wisp') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49205,   1,   33556955) /* Setup */
      , (49205,   2,  150995087) /* MotionTable */
-     , (49205,   4,  805306368) /* CombatTable - default, verify */
      , (49205,   3,  536870985) /* SoundTable */
+     , (49205,   4,  805306368) /* CombatTable */
      , (49205,   8,  100671683) /* Icon */
      , (49205,  22,  872415274) /* PhysicsEffectTable */;
 
@@ -59,7 +59,7 @@ VALUES (49205,  6, 0, 3, 0, 570, 0, 313.36962890625) /* MeleeDefense        Spec
      , (49205, 51, 0, 3, 0, 570, 0, 313.36962890625) /* SneakAttack         Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (49205,  0, 16, 200,  0.5,  570,  570,  570,  570,  570,  570,  570,  570,  570, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+VALUES (49205,  0, 16, 900,  0.5,  570,  570,  570,  570,  570,  570,  570,  570,  570, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
      , (49205, 16, 16,  0,    0,  570,  570,  570,  570,  570,  570,  570,  570,  570, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (49205, 17, 16, 200, 0.75,  570,  570,  570,  570,  570,  570,  570,  570,  570, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (49205, 17, 16, 900, 0.75,  570,  570,  570,  570,  570,  570,  570,  570,  570, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
      , (49205, 21, 16,  0,    0,  570,  570,  570,  570,  570,  570,  570,  570,  570, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;

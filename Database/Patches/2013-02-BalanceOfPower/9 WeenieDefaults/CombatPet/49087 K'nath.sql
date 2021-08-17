@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49087;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49087, 'ace49087-knath', 71, '2019-12-06 16:49:23') /* CombatPet */;
+VALUES (49087, 'ace49087-knath', 71, '2021-07-12 02:39:06') /* CombatPet */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49087,   1,         16) /* ItemType - Creature */
@@ -24,7 +24,7 @@ VALUES (49087,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (49087,  31,      25) /* VisualAwarenessRange */
-     , (49087,  76, 0.400000005960464) /* Translucency */
+     , (49087,  76,     0.4) /* Translucency */
      , (49087,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -33,8 +33,8 @@ VALUES (49087,   1, 'K''nath') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49087,   1,   33561531) /* Setup */
      , (49087,   2,  150994994) /* MotionTable */
-     , (49087,   4,  805306368) /* CombatTable - default, verify */
      , (49087,   3,  536870984) /* SoundTable */
+     , (49087,   4,  805306368) /* CombatTable */
      , (49087,   8,  100668443) /* Icon */
      , (49087,  22,  872415261) /* PhysicsEffectTable */;
 
@@ -60,7 +60,7 @@ VALUES (49087,  6, 0, 3, 0, 310, 0, 313.36962890625) /* MeleeDefense        Spec
      , (49087, 51, 0, 3, 0, 310, 0, 313.36962890625) /* SneakAttack         Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (49087,  0, 64, 50,  0.3,  310,  310,  310,  310,  310,  310,  310,  310,  310, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+VALUES (49087,  0, 64, 145,  0.3,  310,  310,  310,  310,  310,  310,  310,  310,  310, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
      , (49087,  2, 64,  0,    0,  310,  310,  310,  310,  310,  310,  310,  310,  310, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Abdomen */
      , (49087,  6, 64,  0,    0,  310,  310,  310,  310,  310,  310,  310,  310,  310, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* UpperLeg */
      , (49087, 16, 64,  0,    0,  310,  310,  310,  310,  310,  310,  310,  310,  310, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */;

@@ -55,7 +55,6 @@ VALUES (0x7D59903A, 0x7D59903B, '2019-02-10 00:00:00') /* Tower Guardian (35273)
      , (0x7D59903A, 0x7D599052, '2019-02-10 00:00:00') /* Sneak Attack Warden of Enlightenment (45394) */
      , (0x7D59903A, 0x7D599053, '2019-02-10 00:00:00') /* Warden of Raising Focus (44914) */
      , (0x7D59903A, 0x7D599054, '2019-02-10 00:00:00') /* Warden of Raising Quickness (44915) */
-     , (0x7D59903A, 0x7D599055, '2019-02-10 00:00:00') /* Exploration Marker (39801) */
      , (0x7D59903A, 0x7D599056, '2019-02-10 00:00:00') /* Strange Device (36779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -161,10 +160,6 @@ VALUES (0x7D599053, 44914, 0xD5990040, 188.379, 176.049, 374, -0.999391, 0, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D599054, 44915, 0xD5990040, 190.609, 176.074, 374, -0.999391, 0, 0, 0.0348964,  True, '2019-02-10 00:00:00'); /* Warden of Raising Quickness */
 /* @teleloc 0xD5990040 [190.608994 176.074005 374.000000] -0.999391 0.000000 0.000000 0.034896 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D599055, 39801, 0xD599011F, 177.159, 185.883, 384, 0.999986, 0, 0, -0.00529466,  True, '2019-02-10 00:00:00'); /* Exploration Marker (39801) */
-/* @teleloc 0xD599011F [177.158997 185.882996 384.000000] 0.999986 0.000000 0.000000 -0.005295 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D599056, 36779, 0xD5990040, 187.639, 189.538, 373.99, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Strange Device */

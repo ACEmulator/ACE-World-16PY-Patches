@@ -6,7 +6,7 @@ VALUES (40496, 'ace40496-heaapostatewarlord', 10, '2019-02-10 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40496,   1,         16) /* ItemType - Creature */
      , (40496,   2,          6) /* CreatureType - Tumerok */
-     , (40496,   3,         29) /* PaletteTemplate - DarkRedMetal */
+     , (40496,   3,         62) /* PaletteTemplate - RedBrown */
      , (40496,   6,         -1) /* ItemsCapacity */
      , (40496,   7,         -1) /* ContainersCapacity */
      , (40496,  16,          1) /* ItemUseable - No */
