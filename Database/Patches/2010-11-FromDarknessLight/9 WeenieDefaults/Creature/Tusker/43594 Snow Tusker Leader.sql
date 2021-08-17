@@ -1,5 +1,3 @@
-/* Overworld Only */
-
 DELETE FROM `weenie` WHERE `class_Id` = 43594;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -18,15 +16,14 @@ VALUES (43594,   1,         16) /* ItemType - Creature */
      , (43594,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (43594,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (43594, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (43594, 146,    1850000) /* XpOverride */
-     , (43594, 332,         70) /* LuminanceAward */;
+     , (43594, 146,    1850000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43594,   1, True ) /* Stuck */
      , (43594,  11, False) /* IgnoreCollisions */
      , (43594,  12, True ) /* ReportCollisions */
      , (43594,  13, False) /* Ethereal */;
-     
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43594,   1,       5) /* HeartbeatInterval */
      , (43594,   2,       0) /* HeartbeatTimestamp */
@@ -35,10 +32,10 @@ VALUES (43594,   1,       5) /* HeartbeatInterval */
      , (43594,   5,       2) /* ManaRate */
      , (43594,  12,       0) /* Shade */
      , (43594,  13,       1) /* ArmorModVsSlash */
-     , (43594,  14,    0.60) /* ArmorModVsPierce */
+     , (43594,  14,     0.6) /* ArmorModVsPierce */
      , (43594,  15,       1) /* ArmorModVsBludgeon */
      , (43594,  16,       1) /* ArmorModVsCold */
-     , (43594,  17,    0.40) /* ArmorModVsFire */
+     , (43594,  17,     0.4) /* ArmorModVsFire */
      , (43594,  18,       1) /* ArmorModVsAcid */
      , (43594,  19,       1) /* ArmorModVsElectric */
      , (43594,  27,       5) /* RotationSpeed */
@@ -58,7 +55,7 @@ VALUES (43594,   1,       5) /* HeartbeatInterval */
      , (43594,  73,       1) /* ResistStaminaBoost */
      , (43594,  74,       1) /* ResistManaDrain */
      , (43594, 104,      10) /* ObviousRadarRange */
-     , (43594, 125,       1) /* ResistHealthDrain */;     
+     , (43594, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43594,   1, 'Snow Tusker Leader') /* Name */
@@ -71,7 +68,7 @@ VALUES (43594,   1,   33561141) /* Setup */
      , (43594,   4,  805306379) /* CombatTable */
      , (43594,   8,  100667443) /* Icon */
      , (43594,  22,  872415271) /* PhysicsEffectTable */
-     , (43594,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (43594,  35,       1015) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43594,   1, 380, 0, 0) /* Strength */
@@ -172,10 +169,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43594, 9, 43742,  0, 0, 0.30, False) /* Create Snow Tusker Blood Sample (43742) for ContainTreasure */
-     , (43594, 9,     0,  0, 0, 0.70, False) /* Create nothing for ContainTreasure */
+VALUES (43594, 9, 43742,  0, 0, 0.3, False) /* Create Snow Tusker Blood Sample (43742) for ContainTreasure */
+     , (43594, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
      , (43594, 9, 48908,  1, 0, 0.01, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (43594, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (43594, 9, 51370,  1, 0, 0.03, False) /* Create 51370 Frozen Fortress Testing Grounds Attunement Shard (Level 180+)for ContainTreasure */
-     , (43594, 9, 51341,  1, 0, 0.03, False) /* Create 51341 Frozen Fortress Laboratory Attunement Shard (Level 180+) */
+     , (43594, 9, 51370,  1, 0, 0.03, False) /* Create Frozen Fortress Testing Grounds Attunement Shard (Level 180+) (51370) for ContainTreasure */
+     , (43594, 9, 51341,  1, 0, 0.03, False) /* Create Frozen Fortress Laboratory Attunement Shard (Level 180+) (51341) for ContainTreasure */
      , (43594, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */;

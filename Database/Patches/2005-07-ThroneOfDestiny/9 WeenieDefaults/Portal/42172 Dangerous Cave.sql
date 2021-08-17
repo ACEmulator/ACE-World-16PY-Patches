@@ -27,6 +27,7 @@ VALUES (42172,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42172,   1, 'Dangerous Cave') /* Name */
      , (42172,  16, 'A portal leading to a Dangerous Cave where the Tibiri''s Fire Spear may be found.') /* LongDesc */
+     , (42172,  37, 'fachubdangerouscatacombsportal_flag') /* QuestRestriction */
      , (42172,  38, 'Dangerous Cave (24.3N, 43.2E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42172,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42172, 2, 3046965279, 88.8931, 154.448, 56.005, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0xB59D001F [88.893100 154.448000 56.005000] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0xB59D001F [88.893097 154.447998 56.005001] 1.000000 0.000000 0.000000 0.000000 */;

@@ -6,7 +6,7 @@ VALUES (35270, 'ace35270-spectraldread', 10, '2020-11-06 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35270,   1,         16) /* ItemType - Creature */
      , (35270,   2,         77) /* CreatureType - Ghost */
-     , (35270,   3,          9) /* PaletteTemplate - Grey */
+     , (35270,   3,          8) /* PaletteTemplate - Green */
      , (35270,   6,         -1) /* ItemsCapacity */
      , (35270,   7,         -1) /* ContainersCapacity */
      , (35270,  16,          1) /* ItemUseable - No */
@@ -46,8 +46,8 @@ VALUES (35270,   1,       5) /* HeartbeatInterval */
      , (35270,  31,      18) /* VisualAwarenessRange */
      , (35270,  34,       1) /* PowerupTime */
      , (35270,  36,       1) /* ChargeSpeed */
-     , (35270,  64,    0.80) /* ResistSlash */
-     , (35270,  65,    0.80) /* ResistPierce */
+     , (35270,  64,     0.8) /* ResistSlash */
+     , (35270,  65,     0.8) /* ResistPierce */
      , (35270,  66,    0.79) /* ResistBludgeon */
      , (35270,  67,    0.89) /* ResistFire */
      , (35270,  68,    0.34) /* ResistCold */
@@ -205,7 +205,7 @@ VALUES (35270,  5 /* HeartBeat */,  0.032, NULL, 2147483709 /* NonCombat */, 109
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   8 /* Say */, 0, 1, NULL, 'The Sorceror Lord has appeared! We are doomed!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'The Sorceror Lord has appeared! We are doomed!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35270, 9, 48908,  0, 0, 0.04, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
@@ -216,8 +216,8 @@ VALUES (35270, 9, 48908,  0, 0, 0.04, False) /* Create Shattered Legendary Key (
      , (35270, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (35270, 9, 37290,  1, 0, 0.04, False) /* Create Jester's Token (37290) for ContainTreasure */
      , (35270, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (35270, 9, 35105,  0, 0, 0.10, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (35270, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
+     , (35270, 9, 35105,  0, 0, 0.1, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (35270, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (35270, 9, 37247,  0, 0, 0.003, False) /* Create Ace of Eyes (37247) for ContainTreasure */
      , (35270, 9, 37248,  0, 0, 0.003, False) /* Create Two of Eyes (37248) for ContainTreasure */
      , (35270, 9, 37249,  0, 0, 0.003, False) /* Create Three of Eyes (37249) for ContainTreasure */

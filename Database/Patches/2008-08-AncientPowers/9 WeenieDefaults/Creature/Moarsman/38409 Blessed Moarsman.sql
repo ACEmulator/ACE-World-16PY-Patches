@@ -63,20 +63,16 @@ VALUES (38409,   1, 'Blessed Moarsman') /* Name */
      , (38409,  45, 'TaskFreebooterMoarsmanKilltask') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38409,  1,  33560638) /* Setup */
-     , (38409,  2, 150995104) /* MotionTable */
-     , (38409,  3, 536871018) /* SoundTable */
-     , (38409,  4, 805306403) /* CombatTable */
-     , (38409,  6,  67112872) /* PaletteBase */
-     , (38409,  7, 268436086) /* ClothingBase */
-     , (38409,  8, 100671185) /* Icon */
-     , (38409, 22, 872415337) /* PhysicsEffectTable */
-     , (38409, 30,        84) /* PhysicsScript - BreatheFlame */
-     , (38409,  35,     1000) /* DeathTreasureType - Loot Tier: 7 */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38409, 8040, 4147183671, 151.6282, 154.923, 48.0064, -0.1622784, 0, 0, -0.986745) /* PCAPRecordedLocation */
-/* @teleloc 0xF7310037 [151.628200 154.923000 48.006400] -0.162278 0.000000 0.000000 -0.986745 */;
+VALUES (38409,   1,   33556882) /* Setup */
+     , (38409,   2,  150995104) /* MotionTable */
+     , (38409,   3,  536871018) /* SoundTable */
+     , (38409,   4,  805306403) /* CombatTable */
+     , (38409,   6,   67112872) /* PaletteBase */
+     , (38409,   7,  268436086) /* ClothingBase */
+     , (38409,   8,  100671185) /* Icon */
+     , (38409,  22,  872415337) /* PhysicsEffectTable */
+     , (38409,  30,         84) /* PhysicsScript - BreatheFlame */
+     , (38409,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38409,   1, 240, 0, 0) /* Strength */
@@ -110,14 +106,6 @@ VALUES (38409,  0,  4, 300,    0,  425,  350,  400,  400,  375,  400,  400,  325
      , (38409,  7,  4, 300,    0,  425,  350,  400,  400,  375,  400,  400,  325,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (38409,  8,  4, 300, 0.75,  425,  350,  400,  400,  375,  400,  400,  325,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */
      , (38409, 22, 16, 400,  0.4,  425,  350,  400,  400,  375,  400,  400,  325,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38409, 9, 24477,  1, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (38409, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (38409, 9, 38407,  1, 0, 0.25, False) /* Create Glowing Jungle Lily (38407) for ContainTreasure */
-     , (38409, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
-     , (38409, 9, 41979,  0, 0, 0.03, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
-     , (38409, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (38409,  5 /* HeartBeat */,  0.045, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
@@ -175,4 +163,10 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
-
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38409, 9, 24477,  1, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (38409, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (38409, 9, 38407,  1, 0, 0.25, False) /* Create Glowing Jungle Lily (38407) for ContainTreasure */
+     , (38409, 9,     0,  0, 0, 0.75, False) /* Create nothing for ContainTreasure */
+     , (38409, 9, 41979,  0, 0, 0.03, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
+     , (38409, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

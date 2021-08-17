@@ -39,7 +39,7 @@ VALUES (38591,   1,       5) /* HeartbeatInterval */
      , (38591,  31,      18) /* VisualAwarenessRange */
      , (38591,  34,       1) /* PowerupTime */
      , (38591,  36,       1) /* ChargeSpeed */
-     , (38591,  39,     1.6) /* DefaultScale */
+     , (38591,  39,    1.65) /* DefaultScale */
      , (38591,  55,      60) /* HomeRadius */
      , (38591,  62,     1.5) /* WeaponOffense */
      , (38591,  64,    0.65) /* ResistSlash */
@@ -73,22 +73,18 @@ VALUES (38591,   1,   33556882) /* Setup */
      , (38591,  30,         86) /* PhysicsScript - BreatheAcid */
      , (38591,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38591, 8040, 15401690, 105.873, -120.745, -5.9934, 0.9373289, 0, 0, 0.348446) /* PCAPRecordedLocation */
-/* @teleloc 0x00EB02DA [105.873000 -120.745000 -5.993400] 0.937329 0.000000 0.000000 0.348446 */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (38591,   1,  550, 0, 0) /* Strength */
-     , (38591,   2,  440, 0, 0) /* Endurance */
-     , (38591,   3,  440, 0, 0) /* Quickness */
-     , (38591,   4,  450, 0, 0) /* Coordination */
-     , (38591,   5,  440, 0, 0) /* Focus */
-     , (38591,   6,  440, 0, 0) /* Self */;
+VALUES (38591,   1, 550, 0, 0) /* Strength */
+     , (38591,   2, 440, 0, 0) /* Endurance */
+     , (38591,   3, 440, 0, 0) /* Quickness */
+     , (38591,   4, 450, 0, 0) /* Coordination */
+     , (38591,   5, 440, 0, 0) /* Focus */
+     , (38591,   6, 440, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38591,   1,   1780, 0, 0, 2000) /* MaxHealth */
-     , (38591,   3,   3050, 0, 0, 3490) /* MaxStamina */
-     , (38591,   5,    440, 0, 0, 440) /* MaxMana */;
+VALUES (38591,   1,  1780, 0, 0, 2000) /* MaxHealth */
+     , (38591,   3,  3050, 0, 0, 3490) /* MaxStamina */
+     , (38591,   5,   440, 0, 0, 440) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (38591,  6, 0, 3, 0, 180, 0, 0) /* MeleeDefense        Specialized */
@@ -113,6 +109,5 @@ VALUES (38591,  0,  4, 300,    0,  425,  350,  400,  400,  375,  400,  400,  325
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38591, 9, 24477,  1, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
      , (38591, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (38591, 9, 32274,  1, 0, 0.20, False) /* Create Moarsmuck (32274) for ContainTreasure */
-     , (38591, 9,     0,  0, 0, 0.80, False) /* Create nothing for ContainTreasure */;
-
+     , (38591, 9, 32274,  1, 0, 0.2, False) /* Create Moarsmuck (32274) for ContainTreasure */
+     , (38591, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;

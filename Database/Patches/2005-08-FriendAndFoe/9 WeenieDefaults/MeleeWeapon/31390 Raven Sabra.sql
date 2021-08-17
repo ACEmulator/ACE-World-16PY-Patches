@@ -14,7 +14,7 @@ VALUES (31390,   1,          1) /* ItemType - MeleeWeapon */
      , (31390,  33,         -2) /* Bonded - Destroy */
      , (31390,  37,       9999) /* ResistItemAppraisal */
      , (31390,  44,        105) /* Damage */
-     , (31390,  45,          1) /* DamageType - Slash */
+     , (31390,  45,          3) /* DamageType - Slash, Pierce */
      , (31390,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (31390,  47,        486) /* AttackType - Thrust, Slash, DoubleSlash, TripleSlash, DoubleThrust, TripleThrust */
      , (31390,  48,         46) /* WeaponSkill - FinesseWeapons */

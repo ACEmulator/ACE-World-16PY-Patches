@@ -68,7 +68,7 @@ VALUES (31919,   1,   33556454) /* Setup */
      , (31919,   4,  805306376) /* CombatTable */
      , (31919,   8,  100667940) /* Icon */
      , (31919,  22,  872415330) /* PhysicsEffectTable */
-     , (31919,  35,       1004) /* DeathTreasureType - Loot Tier: 7 */;
+     , (31919,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31919,   1, 310, 0, 0) /* Strength */
@@ -79,9 +79,9 @@ VALUES (31919,   1, 310, 0, 0) /* Strength */
      , (31919,   6, 210, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31919,   1, 1650, 0, 0, 1810) /* MaxHealth */
-     , (31919,   3, 1800, 0, 0, 2120) /* MaxStamina */
-     , (31919,   5, 1000, 0, 0, 1210) /* MaxMana */;
+VALUES (31919,   1,  1650, 0, 0, 1810) /* MaxHealth */
+     , (31919,   3,  1800, 0, 0, 2120) /* MaxStamina */
+     , (31919,   5,  1000, 0, 0, 1210) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (31919,  6, 0, 3, 0, 227, 0, 0) /* MeleeDefense        Specialized */
@@ -117,8 +117,8 @@ VALUES (31919,  1843,   2.15)  /* Foon-Ki's Glacial Floe */
      , (31919,  4432,   2.15)  /* Incantation of Acid Streak */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
-VALUES (31919,  94) /* ATTACK_NOTIFICATION_EVENT */
-     , (31919, 414) /* PLAYER_DEATH_EVENT */;
+VALUES (31919,  94)
+     , (31919, 414);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (31919,  5 /* HeartBeat */,  0.075, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

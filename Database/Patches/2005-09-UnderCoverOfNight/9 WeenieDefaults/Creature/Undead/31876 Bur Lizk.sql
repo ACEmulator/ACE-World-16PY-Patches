@@ -47,7 +47,7 @@ VALUES (31876,   1,       5) /* HeartbeatInterval */
      , (31876,  31,      18) /* VisualAwarenessRange */
      , (31876,  34,       1) /* PowerupTime */
      , (31876,  36,       1) /* ChargeSpeed */
-     , (31876,  39,     1.1) /* DefaultScale */
+     , (31876,  39,     1.3) /* DefaultScale */
      , (31876,  64,     0.9) /* ResistSlash */
      , (31876,  65,     0.5) /* ResistPierce */
      , (31876,  66,     0.7) /* ResistBludgeon */
@@ -81,8 +81,8 @@ VALUES (31876,   1,   33558437) /* Setup */
                                    Wield Khopesh (25500) | Probability: 98% */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31876, 12, 3932436, 90.1, -191.8 , -72.063, 1, 0, 0, 0) /* PortalSummonLoc */
-/* @teleloc 0x003C0114 [90.1 -191.8 -72.063] 1 0.000000 0.000000 0 */;
+VALUES (31876, 12, 3932436, 90.1, -191.8, -72.063, 1, 0, 0, 0) /* PortalSummonLoc */
+/* @teleloc 0x003C0114 [90.099998 -191.800003 -72.063004] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31876,   1, 380, 0, 0) /* Strength */

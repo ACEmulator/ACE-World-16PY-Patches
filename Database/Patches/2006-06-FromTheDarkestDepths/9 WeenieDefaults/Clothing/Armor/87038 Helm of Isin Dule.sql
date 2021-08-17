@@ -14,11 +14,7 @@ VALUES (87038,   1,          2) /* ItemType - Armor */
      , (87038,  19,      10000) /* Value */
      , (87038,  28,        420) /* ArmorLevel */
      , (87038,  33,         -2) /* Bonded - Destroy */
-     , (87038,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (87038, 106,        450) /* ItemSpellcraft */
-     , (87038, 107,       7993) /* ItemCurMana */
-     , (87038, 108,       8000) /* ItemMaxMana */
-     , (87038, 109,        250) /* ItemDifficulty */;
+     , (87038,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (87038,   5, -0.05) /* ManaRate */
@@ -41,10 +37,3 @@ VALUES (87038,   1,   33559922) /* Setup */
      , (87038,   7,  268437121) /* ClothingBase */
      , (87038,   8,  100688917) /* Icon */
      , (87038,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (87038,  2066,      2)  /* Calming Gaze */
-     , (87038,  2150,      2)  /* Boon of the Blade Turner */
-     , (87038,  2156,      2)  /* Fiery Boon */
-     , (87038,  2611,      2)  /* Major Flame Ward */
-     , (87038,  2614,      2)  /* Major Slashing Ward */;

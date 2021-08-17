@@ -15,7 +15,7 @@ VALUES (42360,   1,         16) /* ItemType - Creature */
      , (42360, 113,          1) /* Gender - Male */
      , (42360, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42360, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (42360, 188,          3) /* HeritageGroup - Sho */;
+     , (42360, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42360,   1, True ) /* Stuck */
@@ -199,64 +199,3 @@ VALUES (42360, 2, 32698,  0, 9, 0, False) /* Create Shield of Strathelar (32698)
      , (42360, 2, 33587,  0, 21, 0, False) /* Create Noble Relic Leggings of Health (33587) for Wield */
      , (42360, 2, 33585,  0, 21, 0, False) /* Create Noble Relic Gauntlets of Strength (33585) for Wield */
      , (42360, 2, 33588,  0, 21, 0, False) /* Create Noble Relic Sollerets of Speed (33588) for Wield */;
-
-/* Lifestoned Changelog:
-{
-  "LastModified": "2020-01-24T09:39:06.0173032-05:00",
-  "ModifiedBy": "TectonicRifts",
-  "Changelog": [
-    {
-      "created": "0001-01-01T00:00:00",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    },
-    {
-      "created": "0001-01-01T00:00:00",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    },
-    {
-      "created": "0001-01-01T00:00:00",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    },
-    {
-      "created": "0001-01-01T00:00:00",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    },
-    {
-      "created": "0001-01-01T00:00:00",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    },
-    {
-      "created": "0001-01-01T00:00:00",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    },
-    {
-      "created": "0001-01-01T00:00:00",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    },
-    {
-      "created": "0001-01-01T00:00:00",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    },
-    {
-      "created": "0001-01-01T00:00:00",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    },
-    {
-      "created": "0001-01-01T00:00:00",
-      "author": "ACE.Adapter",
-      "comment": "Weenie exported from ACEmulator world database using ACE.Adapter"
-    }
-  ],
-  "UserChangeSummary": "Weenie exported from ACEmulator world database using ACE.Adapter",
-  "IsDone": false
-}
-*/

@@ -32,10 +32,10 @@ VALUES (226,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (226,   1,       5) /* HeartbeatInterval */
      , (226,   2,       0) /* HeartbeatTimestamp */
-     , (226,   3, 0.800000011920929) /* HealthRate */
+     , (226,   3,     0.8) /* HealthRate */
      , (226,   4,     0.5) /* StaminaRate */
      , (226,   5,       2) /* ManaRate */
-     , (226,  12, 0.428600013256073) /* Shade */
+     , (226,  12,  0.4165) /* Shade */
      , (226,  13,       1) /* ArmorModVsSlash */
      , (226,  14,       1) /* ArmorModVsPierce */
      , (226,  15,       1) /* ArmorModVsBludgeon */
@@ -46,7 +46,7 @@ VALUES (226,   1,       5) /* HeartbeatInterval */
      , (226,  31,      17) /* VisualAwarenessRange */
      , (226,  34,       1) /* PowerupTime */
      , (226,  36,       1) /* ChargeSpeed */
-     , (226,  39, 1.20000004768372) /* DefaultScale */
+     , (226,  39,     1.2) /* DefaultScale */
      , (226,  64,       1) /* ResistSlash */
      , (226,  65,       1) /* ResistPierce */
      , (226,  66,       1) /* ResistBludgeon */
@@ -102,20 +102,20 @@ VALUES (226,   1,    70, 0, 0, 160) /* MaxHealth */
      , (226,   5,     0, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (226, 45, 0, 3, 0, 150, 0, 0) /* LightWeapons        Specialized */
-     , (226, 47, 0, 3, 0, 140, 0, 0) /* MissileWeapons      Specialized */
-     , (226, 46, 0, 3, 0,  80, 0, 0) /* FinesseWeapons      Specialized */
-     , (226,  6, 0, 3, 0, 120, 0, 0) /* MeleeDefense        Specialized */
+VALUES (226,  6, 0, 3, 0, 120, 0, 0) /* MeleeDefense        Specialized */
      , (226,  7, 0, 3, 0, 275, 0, 0) /* MissileDefense      Specialized */
-     , (226, 44, 0, 3, 0, 150, 0, 0) /* HeavyWeapons        Specialized */
-     , (226, 48, 0, 3, 0, 150, 0, 0) /* Shield              Specialized */
      , (226, 14, 0, 2, 0, 250, 0, 0) /* ArcaneLore          Trained */
      , (226, 15, 0, 3, 0, 130, 0, 0) /* MagicDefense        Specialized */
      , (226, 20, 0, 2, 0,  40, 0, 0) /* Deception           Trained */
      , (226, 24, 0, 2, 0,  45, 0, 0) /* Run                 Trained */
      , (226, 31, 0, 3, 0, 100, 0, 0) /* CreatureEnchantment Specialized */
      , (226, 33, 0, 3, 0, 100, 0, 0) /* LifeMagic           Specialized */
-     , (226, 34, 0, 3, 0, 100, 0, 0) /* WarMagic            Specialized */;
+     , (226, 34, 0, 3, 0, 100, 0, 0) /* WarMagic            Specialized */
+     , (226, 44, 0, 3, 0, 150, 0, 0) /* HeavyWeapons        Specialized */
+     , (226, 45, 0, 3, 0, 150, 0, 0) /* LightWeapons        Specialized */
+     , (226, 46, 0, 3, 0,  80, 0, 0) /* FinesseWeapons      Specialized */
+     , (226, 47, 0, 3, 0, 140, 0, 0) /* MissileWeapons      Specialized */
+     , (226, 48, 0, 3, 0, 150, 0, 0) /* Shield              Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (226,  0,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

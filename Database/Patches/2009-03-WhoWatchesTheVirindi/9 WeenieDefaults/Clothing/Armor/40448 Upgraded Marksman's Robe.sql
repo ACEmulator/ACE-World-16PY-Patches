@@ -38,7 +38,8 @@ VALUES (40448,   5,   -0.01) /* ManaRate */
      , (40448,  18,     0.4) /* ArmorModVsAcid */
      , (40448,  19,     1.1) /* ArmorModVsElectric */
      , (40448, 110,       1) /* BulkMod */
-     , (40448, 111,       1) /* SizeMod */;
+     , (40448, 111,       1) /* SizeMod */
+     , (40448, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40448,   1, 'Upgraded Marksman''s Robe') /* Name */;

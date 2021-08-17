@@ -1,4 +1,6 @@
 NewEnemy:
 	- InqEvent: KnorrQuiddityFinalRoomEvent
 		EventFailure:
-			- LocalSignal: StartAsheron
+			- StartEvent: knorrquiddityasheronevent
+			- StartEvent: KnorrQuiddityFinalRoomEvent
+			- StartEvent: VirindiPortalOneEvent

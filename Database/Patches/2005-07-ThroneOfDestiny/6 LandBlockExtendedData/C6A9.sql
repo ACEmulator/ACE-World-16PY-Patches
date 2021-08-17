@@ -181,7 +181,3 @@ VALUES (2087358584, 48743, 3332964388, 98.6703, 91.7328, 42, -0.707107, 0, 0, -0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (2087358585, 48743, 3332964388, 98.6533, 89.7132, 42, -0.707107, 0, 0, -0.707107, False, '2019-02-15 14:34:36'); /* Legendary Chest */
 /* @teleloc 0xC6A90024 [98.653300 89.713200 42.000000] -0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (2087358586, 39788, 3332964360, 23.5546, 168.419, 22, -0.363977, 0, 0, 0.931408, False, '2019-02-15 14:34:36'); /* Exploration Marker */
-/* @teleloc 0xC6A90008 [23.554600 168.419000 22.000000] -0.363977 0.000000 0.000000 0.931408 */

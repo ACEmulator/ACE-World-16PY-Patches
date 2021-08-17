@@ -15,7 +15,7 @@ VALUES (30291,   1,         16) /* ItemType - Creature */
      , (30291,  40,          2) /* CombatMode - Melee */
      , (30291,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (30291,  72,         83) /* FriendType - ViamontianKnight */
-     , (30291,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (30291,  93,    4195336) /* PhysicsState */
      , (30291, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30291, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30291, 140,          1) /* AiOptions - CanOpenDoors */
@@ -31,28 +31,28 @@ VALUES (30291,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30291,   1,       5) /* HeartbeatInterval */
      , (30291,   2,       0) /* HeartbeatTimestamp */
-     , (30291,   3, 0.0670000016689301) /* HealthRate */
+     , (30291,   3,   0.067) /* HealthRate */
      , (30291,   4,       3) /* StaminaRate */
      , (30291,   5,       1) /* ManaRate */
      , (30291,  12,     0.5) /* Shade */
-     , (30291,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (30291,  14, 1.20000004768372) /* ArmorModVsPierce */
+     , (30291,  13,     1.2) /* ArmorModVsSlash */
+     , (30291,  14,     1.2) /* ArmorModVsPierce */
      , (30291,  15,       1) /* ArmorModVsBludgeon */
      , (30291,  16,       1) /* ArmorModVsCold */
-     , (30291,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (30291,  17,     0.8) /* ArmorModVsFire */
      , (30291,  18,       1) /* ArmorModVsAcid */
-     , (30291,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (30291,  19,     0.8) /* ArmorModVsElectric */
      , (30291,  31,      12) /* VisualAwarenessRange */
      , (30291,  34,       1) /* PowerupTime */
      , (30291,  36,       1) /* ChargeSpeed */
-     , (30291,  39, 1.20000004768372) /* DefaultScale */
-     , (30291,  64, 0.800000011920929) /* ResistSlash */
-     , (30291,  65, 0.800000011920929) /* ResistPierce */
-     , (30291,  66, 0.899999976158142) /* ResistBludgeon */
-     , (30291,  67, 1.20000004768372) /* ResistFire */
-     , (30291,  68, 0.899999976158142) /* ResistCold */
-     , (30291,  69, 0.899999976158142) /* ResistAcid */
-     , (30291,  70, 1.20000004768372) /* ResistElectric */
+     , (30291,  39,     1.3) /* DefaultScale */
+     , (30291,  64,     0.8) /* ResistSlash */
+     , (30291,  65,     0.8) /* ResistPierce */
+     , (30291,  66,     0.9) /* ResistBludgeon */
+     , (30291,  67,     1.2) /* ResistFire */
+     , (30291,  68,     0.9) /* ResistCold */
+     , (30291,  69,     0.9) /* ResistAcid */
+     , (30291,  70,     1.2) /* ResistElectric */
      , (30291,  71,       1) /* ResistHealthBoost */
      , (30291,  72,       1) /* ResistStaminaDrain */
      , (30291,  73,       1) /* ResistStaminaBoost */
@@ -66,8 +66,8 @@ VALUES (30291,   1, 'Viamontian Tribune') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30291,   1,   33559125) /* Setup */
-     , (30291,   2,  150994945) /* MotionTable */
-     , (30291,   3,  536870913) /* SoundTable */
+     , (30291,   2,  150995334) /* MotionTable */
+     , (30291,   3,  536871102) /* SoundTable */
      , (30291,   4,  805306368) /* CombatTable */
      , (30291,   6,   67115468) /* PaletteBase */
      , (30291,   7,  268436907) /* ClothingBase */
@@ -89,14 +89,14 @@ VALUES (30291,   1,   500, 0, 0, 680) /* MaxHealth */
      , (30291,   5,     0, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (30291, 45, 0, 3, 0, 350, 0, 0) /* LightWeapons        Specialized */
-     , (30291, 46, 0, 3, 0, 350, 0, 0) /* FinesseWeapons      Specialized */
-     , (30291,  6, 0, 3, 0, 330, 0, 0) /* MeleeDefense        Specialized */
+VALUES (30291,  6, 0, 3, 0, 330, 0, 0) /* MeleeDefense        Specialized */
      , (30291,  7, 0, 3, 0, 420, 0, 0) /* MissileDefense      Specialized */
-     , (30291, 44, 0, 3, 0, 350, 0, 0) /* HeavyWeapons        Specialized */
-     , (30291, 47, 0, 3, 0, 150, 0, 0) /* MissileWeapons      Specialized */
      , (30291, 15, 0, 3, 0, 350, 0, 0) /* MagicDefense        Specialized */
-     , (30291, 41, 0, 3, 0, 350, 0, 0) /* TwoHandedCombat     Specialized */;
+     , (30291, 41, 0, 3, 0, 350, 0, 0) /* TwoHandedCombat     Specialized */
+     , (30291, 44, 0, 3, 0, 350, 0, 0) /* HeavyWeapons        Specialized */
+     , (30291, 45, 0, 3, 0, 350, 0, 0) /* LightWeapons        Specialized */
+     , (30291, 46, 0, 3, 0, 350, 0, 0) /* FinesseWeapons      Specialized */
+     , (30291, 47, 0, 3, 0, 150, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (30291,  0,  4,  0,    0,  530,  636,  636,  530,  530,  424,  530,  424,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

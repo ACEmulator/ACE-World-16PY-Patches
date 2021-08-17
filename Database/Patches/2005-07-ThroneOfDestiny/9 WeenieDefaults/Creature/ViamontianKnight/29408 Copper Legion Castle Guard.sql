@@ -6,7 +6,7 @@ VALUES (29408, 'knightcastleguardcopper', 10, '2019-09-13 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29408,   1,         16) /* ItemType - Creature */
      , (29408,   2,         83) /* CreatureType - ViamontianKnight */
-     , (29408,   3,         39) /* PaletteTemplate - Black */
+     , (29408,   3,          6) /* PaletteTemplate - DeepBrown */
      , (29408,   6,         -1) /* ItemsCapacity */
      , (29408,   7,         -1) /* ContainersCapacity */
      , (29408,  16,          1) /* ItemUseable - No */
@@ -30,28 +30,28 @@ VALUES (29408,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29408,   1,       5) /* HeartbeatInterval */
      , (29408,   2,       0) /* HeartbeatTimestamp */
-     , (29408,   3, 0.0670000016689301) /* HealthRate */
+     , (29408,   3,   0.067) /* HealthRate */
      , (29408,   4,       3) /* StaminaRate */
      , (29408,   5,       1) /* ManaRate */
      , (29408,  12,     0.5) /* Shade */
-     , (29408,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (29408,  14, 1.20000004768372) /* ArmorModVsPierce */
+     , (29408,  13,     1.2) /* ArmorModVsSlash */
+     , (29408,  14,     1.2) /* ArmorModVsPierce */
      , (29408,  15,       1) /* ArmorModVsBludgeon */
      , (29408,  16,       1) /* ArmorModVsCold */
-     , (29408,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (29408,  17,     0.8) /* ArmorModVsFire */
      , (29408,  18,       1) /* ArmorModVsAcid */
-     , (29408,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (29408,  19,     0.8) /* ArmorModVsElectric */
      , (29408,  31,      12) /* VisualAwarenessRange */
      , (29408,  34,       1) /* PowerupTime */
      , (29408,  36,       1) /* ChargeSpeed */
-     , (29408,  39, 1.20000004768372) /* DefaultScale */
-     , (29408,  64, 0.800000011920929) /* ResistSlash */
-     , (29408,  65, 0.800000011920929) /* ResistPierce */
-     , (29408,  66, 0.899999976158142) /* ResistBludgeon */
-     , (29408,  67, 1.20000004768372) /* ResistFire */
-     , (29408,  68, 0.899999976158142) /* ResistCold */
-     , (29408,  69, 0.899999976158142) /* ResistAcid */
-     , (29408,  70, 1.20000004768372) /* ResistElectric */
+     , (29408,  39,     1.2) /* DefaultScale */
+     , (29408,  64,     0.8) /* ResistSlash */
+     , (29408,  65,     0.8) /* ResistPierce */
+     , (29408,  66,     0.9) /* ResistBludgeon */
+     , (29408,  67,     1.2) /* ResistFire */
+     , (29408,  68,     0.9) /* ResistCold */
+     , (29408,  69,     0.9) /* ResistAcid */
+     , (29408,  70,     1.2) /* ResistElectric */
      , (29408,  71,       1) /* ResistHealthBoost */
      , (29408,  72,       1) /* ResistStaminaDrain */
      , (29408,  73,       1) /* ResistStaminaBoost */
@@ -65,8 +65,8 @@ VALUES (29408,   1, 'Copper Legion Castle Guard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29408,   1,   33559125) /* Setup */
-     , (29408,   2,  150994945) /* MotionTable */
-     , (29408,   3,  536870913) /* SoundTable */
+     , (29408,   2,  150995334) /* MotionTable */
+     , (29408,   3,  536871102) /* SoundTable */
      , (29408,   4,  805306368) /* CombatTable */
      , (29408,   6,   67115468) /* PaletteBase */
      , (29408,   7,  268436907) /* ClothingBase */
@@ -88,14 +88,14 @@ VALUES (29408,   1,   205, 0, 0, 360) /* MaxHealth */
      , (29408,   5,     0, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29408, 45, 0, 3, 0, 225, 0, 0) /* LightWeapons        Specialized */
-     , (29408, 46, 0, 3, 0, 225, 0, 0) /* FinesseWeapons      Specialized */
-     , (29408,  6, 0, 3, 0, 195, 0, 0) /* MeleeDefense        Specialized */
+VALUES (29408,  6, 0, 3, 0, 195, 0, 0) /* MeleeDefense        Specialized */
      , (29408,  7, 0, 3, 0, 320, 0, 0) /* MissileDefense      Specialized */
-     , (29408, 44, 0, 3, 0, 225, 0, 0) /* HeavyWeapons        Specialized */
-     , (29408, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */
      , (29408, 15, 0, 3, 0, 234, 0, 0) /* MagicDefense        Specialized */
-     , (29408, 41, 0, 3, 0, 225, 0, 0) /* TwoHandedCombat     Specialized */;
+     , (29408, 41, 0, 3, 0, 225, 0, 0) /* TwoHandedCombat     Specialized */
+     , (29408, 44, 0, 3, 0, 225, 0, 0) /* HeavyWeapons        Specialized */
+     , (29408, 45, 0, 3, 0, 225, 0, 0) /* LightWeapons        Specialized */
+     , (29408, 46, 0, 3, 0, 225, 0, 0) /* FinesseWeapons      Specialized */
+     , (29408, 47, 0, 3, 0, 160, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (29408,  0,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

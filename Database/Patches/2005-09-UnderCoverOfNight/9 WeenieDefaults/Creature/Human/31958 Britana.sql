@@ -40,7 +40,7 @@ VALUES (31958,   1, 'Britana') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31958,   1,   33554510) /* Setup */
      , (31958,   2,  150994945) /* MotionTable */
-     , (31958,   3,  536870913) /* SoundTable */
+     , (31958,   3,  536870914) /* SoundTable */
      , (31958,   6,   67108990) /* PaletteBase */
      , (31958,   8,  100667446) /* Icon */;
 
