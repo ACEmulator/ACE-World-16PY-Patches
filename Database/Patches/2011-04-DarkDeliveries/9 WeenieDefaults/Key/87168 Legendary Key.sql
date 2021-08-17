@@ -25,7 +25,7 @@ VALUES (87168,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87168,   1, 'Legendary Key') /* Name */
-     , (87168,  13, 'keychestleg') /* KeyCode */
+     , (87168,  13, 'legarmormagicweaponchest') /* KeyCode */
      , (87168,  14, 'Use this key to open a Legendary Armor, Magic, or Weapon Chest.') /* Use */
      , (87168,  16, 'A key only heard about in whispers and myths.') /* LongDesc */
      , (87168,  33, 'DericostLegKeyPickupTimer') /* Quest */;

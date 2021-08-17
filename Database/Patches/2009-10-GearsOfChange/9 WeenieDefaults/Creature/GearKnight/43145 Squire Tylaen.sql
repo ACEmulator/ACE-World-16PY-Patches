@@ -25,7 +25,7 @@ VALUES (43145,   1, True ) /* Stuck */
      , (43145,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43145,  39,     1.7) /* DefaultScale */
+VALUES (43145,  39,     1.5) /* DefaultScale */
      , (43145,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -51,7 +51,7 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (43145,   1, 49600, 0, 0, 400) /* MaxHealth */
      , (43145,   3,  3200, 0, 0, 800) /* MaxStamina */
      , (43145,   5,  3100, 0, 0, 600) /* MaxMana */;
-     
+
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (43145, 41, 0, 3, 0, 400, 0, 0) /* TwoHandedCombat     Specialized */;
 

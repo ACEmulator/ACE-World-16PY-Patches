@@ -27,7 +27,6 @@ VALUES (31279,   1, True ) /* Stuck */
      , (31279,  12, True ) /* ReportCollisions */
      , (31279,  13, False) /* Ethereal */
      , (31279,  50, True ) /* NeverFailCasting */
-     , (31279,  58, True ) /* SpellQueueActive */
      , (31279,  66, True ) /* IgnoreMagicArmor */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -72,21 +71,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31279,   1, 'Bone Scourge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31279,   1,   33559521) /* Setup */
+VALUES (31279,   1,   33559533) /* Setup */
      , (31279,   2,  150994981) /* MotionTable */
      , (31279,   3,  536870942) /* SoundTable */
      , (31279,   4,  805306368) /* CombatTable */
      , (31279,   6,   67116522) /* PaletteBase */
-     , (31279,   7,  268435646) /* ClothingBase */
+     , (31279,   7,  268437010) /* ClothingBase */
      , (31279,   8,  100669124) /* Icon */
      , (31279,  17,   67113400) /* SkinPalette */
      , (31279,  22,  872415269) /* PhysicsEffectTable */
      , (31279,  32,        426) /* WieldedTreasureType - 
-                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Tachi (23136) | Probability: 30.000002%
                                    Wield Kite Shield (23135) | Probability: 100%
-                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield Yumi (23137) | Probability: 30.000002%
                                    Wield 20x Deadly Arrow (15429) | Probability: 100%
-                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield Heavy Crossbow (23131) | Probability: 30.000002%
                                    Wield 50x Deadly Quarrel (15438) | Probability: 100% */
      , (31279,  35,        449) /* DeathTreasureType - Loot Tier: 6 */
      , (31279,  55,       1132) /* ProcSpell - Blade Vulnerability Other VI */;
@@ -105,17 +104,17 @@ VALUES (31279,   1,  1670, 0, 0, 1758) /* MaxHealth */
      , (31279,   5,  1420, 0, 0, 1625) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (31279, 45, 0, 3, 0, 345, 0, 0) /* LightWeapons        Specialized */
-     , (31279, 47, 0, 3, 0, 300, 0, 0) /* MissileWeapons      Specialized */
-     , (31279, 46, 0, 3, 0, 280, 0, 0) /* FinesseWeapons      Specialized */
-     , (31279,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
+VALUES (31279,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (31279,  7, 0, 3, 0, 440, 0, 0) /* MissileDefense      Specialized */
-     , (31279, 48, 0, 3, 0, 345, 0, 0) /* Shield              Specialized */
-     , (31279, 44, 0, 3, 0, 345, 0, 0) /* HeavyWeapons        Specialized */
      , (31279, 15, 0, 3, 0, 315, 0, 0) /* MagicDefense        Specialized */
      , (31279, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
      , (31279, 33, 0, 3, 0, 260, 0, 0) /* LifeMagic           Specialized */
-     , (31279, 34, 0, 3, 0, 260, 0, 0) /* WarMagic            Specialized */;
+     , (31279, 34, 0, 3, 0, 260, 0, 0) /* WarMagic            Specialized */
+     , (31279, 44, 0, 3, 0, 345, 0, 0) /* HeavyWeapons        Specialized */
+     , (31279, 45, 0, 3, 0, 345, 0, 0) /* LightWeapons        Specialized */
+     , (31279, 46, 0, 3, 0, 280, 0, 0) /* FinesseWeapons      Specialized */
+     , (31279, 47, 0, 3, 0, 300, 0, 0) /* MissileWeapons      Specialized */
+     , (31279, 48, 0, 3, 0, 345, 0, 0) /* Shield              Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (31279,  0,  4,  0,    0,  500,  570,  570,  480,  560,  550,  700,  650,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

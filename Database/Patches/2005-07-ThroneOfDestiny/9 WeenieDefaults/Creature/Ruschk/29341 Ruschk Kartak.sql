@@ -33,27 +33,27 @@ VALUES (29341,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29341,   1,       5) /* HeartbeatInterval */
      , (29341,   2,       0) /* HeartbeatTimestamp */
-     , (29341,   3, 0.0900000035762787) /* HealthRate */
+     , (29341,   3,    0.09) /* HealthRate */
      , (29341,   4,     3.5) /* StaminaRate */
-     , (29341,   5, 1.20000004768372) /* ManaRate */
+     , (29341,   5,     1.2) /* ManaRate */
      , (29341,  12,       0) /* Shade */
-     , (29341,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (29341,  13,     0.9) /* ArmorModVsSlash */
      , (29341,  14,     0.5) /* ArmorModVsPierce */
-     , (29341,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (29341,  16, 0.800000011920929) /* ArmorModVsCold */
+     , (29341,  15,     1.1) /* ArmorModVsBludgeon */
+     , (29341,  16,     0.8) /* ArmorModVsCold */
      , (29341,  17,     0.5) /* ArmorModVsFire */
      , (29341,  18,       1) /* ArmorModVsAcid */
-     , (29341,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (29341,  19,     0.8) /* ArmorModVsElectric */
      , (29341,  31,      17) /* VisualAwarenessRange */
      , (29341,  34,       1) /* PowerupTime */
      , (29341,  36,       1) /* ChargeSpeed */
-     , (29341,  39,    1.25) /* DefaultScale */
-     , (29341,  64, 0.899999976158142) /* ResistSlash */
-     , (29341,  65, 1.10000002384186) /* ResistPierce */
-     , (29341,  66, 0.899999976158142) /* ResistBludgeon */
+     , (29341,  39,     1.2) /* DefaultScale */
+     , (29341,  64,     0.9) /* ResistSlash */
+     , (29341,  65,     1.1) /* ResistPierce */
+     , (29341,  66,     0.9) /* ResistBludgeon */
      , (29341,  67,       1) /* ResistFire */
-     , (29341,  68, 0.899999976158142) /* ResistCold */
-     , (29341,  69, 0.800000011920929) /* ResistAcid */
+     , (29341,  68,     0.9) /* ResistCold */
+     , (29341,  69,     0.8) /* ResistAcid */
      , (29341,  70,       1) /* ResistElectric */
      , (29341,  71,       1) /* ResistHealthBoost */
      , (29341,  72,     0.5) /* ResistStaminaDrain */
@@ -97,16 +97,16 @@ VALUES (29341,   1,   740, 0, 0, 855) /* MaxHealth */
      , (29341,   5,   500, 0, 0, 670) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29341, 46, 0, 3, 0, 400, 0, 0) /* FinesseWeapons      Specialized */
-     , (29341,  6, 0, 3, 0, 390, 0, 0) /* MeleeDefense        Specialized */
+VALUES (29341,  6, 0, 3, 0, 390, 0, 0) /* MeleeDefense        Specialized */
      , (29341,  7, 0, 3, 0, 450, 0, 0) /* MissileDefense      Specialized */
-     , (29341, 44, 0, 3, 0, 400, 0, 0) /* HeavyWeapons        Specialized */
-     , (29341, 47, 0, 3, 0, 170, 0, 0) /* MissileWeapons      Specialized */
-     , (29341, 45, 0, 3, 0, 400, 0, 0) /* LightWeapons        Specialized */
      , (29341, 15, 0, 3, 0, 310, 0, 0) /* MagicDefense        Specialized */
      , (29341, 22, 0, 2, 0,  20, 0, 0) /* Jump                Trained */
      , (29341, 24, 0, 2, 0,  20, 0, 0) /* Run                 Trained */
-     , (29341, 33, 0, 3, 0, 210, 0, 0) /* LifeMagic           Specialized */;
+     , (29341, 33, 0, 3, 0, 210, 0, 0) /* LifeMagic           Specialized */
+     , (29341, 44, 0, 3, 0, 400, 0, 0) /* HeavyWeapons        Specialized */
+     , (29341, 45, 0, 3, 0, 400, 0, 0) /* LightWeapons        Specialized */
+     , (29341, 46, 0, 3, 0, 400, 0, 0) /* FinesseWeapons      Specialized */
+     , (29341, 47, 0, 3, 0, 170, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (29341,  0,  4,  0,    0,  330,  410,  335,  440,  440,  355,  440,  440,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

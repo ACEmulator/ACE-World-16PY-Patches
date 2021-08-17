@@ -34,26 +34,26 @@ VALUES (29347,   1,       5) /* HeartbeatInterval */
      , (29347,   4,       5) /* StaminaRate */
      , (29347,   5,       2) /* ManaRate */
      , (29347,  12,     0.5) /* Shade */
-     , (29347,  13, 0.899999976158142) /* ArmorModVsSlash */
-     , (29347,  14, 1.20000004768372) /* ArmorModVsPierce */
-     , (29347,  15, 0.800000011920929) /* ArmorModVsBludgeon */
+     , (29347,  13,     0.9) /* ArmorModVsSlash */
+     , (29347,  14,     1.2) /* ArmorModVsPierce */
+     , (29347,  15,     0.8) /* ArmorModVsBludgeon */
      , (29347,  16,       1) /* ArmorModVsCold */
-     , (29347,  17, 0.600000023841858) /* ArmorModVsFire */
+     , (29347,  17,     0.6) /* ArmorModVsFire */
      , (29347,  18,       1) /* ArmorModVsAcid */
-     , (29347,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (29347,  19,     0.6) /* ArmorModVsElectric */
      , (29347,  31,      13) /* VisualAwarenessRange */
      , (29347,  34,       4) /* PowerupTime */
      , (29347,  36,       1) /* ChargeSpeed */
-     , (29347,  39,       2) /* DefaultScale */
+     , (29347,  39,     2.5) /* DefaultScale */
      , (29347,  41,       0) /* RegenerationInterval */
      , (29347,  43,       0) /* GeneratorRadius */
-     , (29347,  64, 0.800000011920929) /* ResistSlash */
-     , (29347,  65, 0.600000023841858) /* ResistPierce */
+     , (29347,  64,     0.8) /* ResistSlash */
+     , (29347,  65,     0.6) /* ResistPierce */
      , (29347,  66,       1) /* ResistBludgeon */
-     , (29347,  67, 0.600000023841858) /* ResistFire */
-     , (29347,  68, 0.899999976158142) /* ResistCold */
-     , (29347,  69, 0.899999976158142) /* ResistAcid */
-     , (29347,  70, 0.600000023841858) /* ResistElectric */
+     , (29347,  67,     0.6) /* ResistFire */
+     , (29347,  68,     0.9) /* ResistCold */
+     , (29347,  69,     0.9) /* ResistAcid */
+     , (29347,  70,     0.6) /* ResistElectric */
      , (29347,  71,       1) /* ResistHealthBoost */
      , (29347,  72,       1) /* ResistStaminaDrain */
      , (29347,  73,       1) /* ResistStaminaBoost */
@@ -92,10 +92,10 @@ VALUES (29347,   1,    30, 0, 0, 60) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (29347,  6, 0, 3, 0,  40, 0, 0) /* MeleeDefense        Specialized */
      , (29347,  7, 0, 3, 0,  75, 0, 0) /* MissileDefense      Specialized */
-     , (29347, 45, 0, 3, 0,  30, 0, 0) /* LightWeapons        Specialized */
      , (29347, 15, 0, 3, 0,  50, 0, 0) /* MagicDefense        Specialized */
      , (29347, 20, 0, 2, 0,  10, 0, 0) /* Deception           Trained */
-     , (29347, 24, 0, 3, 0,  30, 0, 0) /* Run                 Specialized */;
+     , (29347, 24, 0, 3, 0,  30, 0, 0) /* Run                 Specialized */
+     , (29347, 45, 0, 3, 0,  30, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (29347,  0,  2, 15, 0.75,   60,   55,   70,   45,   60,   35,   60,   60,   60, 2,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */

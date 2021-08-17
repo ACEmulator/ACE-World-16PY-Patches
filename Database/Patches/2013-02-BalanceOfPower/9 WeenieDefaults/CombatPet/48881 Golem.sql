@@ -13,7 +13,7 @@ VALUES (48881,   1,         16) /* ItemType - Creature */
      , (48881,  25,        125) /* Level */
      , (48881,  27,          0) /* ArmorType - None */
      , (48881,  68,         64) /* TargetingTactic - Nearest */
-     , (48881,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (48881,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (48881, 133,          1) /* ShowableOnRadar - ShowNever */
      , (48881, 267,         43) /* Lifespan */;
 
@@ -39,7 +39,7 @@ VALUES (48881,   1,   33556426) /* Setup */
      , (48881,   6,   67112775) /* PaletteBase */
      , (48881,   7,  268436009) /* ClothingBase */
      , (48881,   8,  100667940) /* Icon */
-     , (48881,  22,  872415321) /* PhysicsEffectTable */;
+     , (48881,  22,  872415323) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (48881,   1, 190, 0, 0) /* Strength */

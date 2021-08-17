@@ -1,5 +1,3 @@
-/* Overworld Landscape Spawn Only */
-
 DELETE FROM `weenie` WHERE `class_Id` = 44039;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -28,8 +26,7 @@ VALUES (44039,   1, True ) /* Stuck */
      , (44039,  10, True ) /* AttackerAi */
      , (44039,  11, False) /* IgnoreCollisions */
      , (44039,  12, True ) /* ReportCollisions */
-     , (44039,  13, False) /* Ethereal */
-     , (44039,  58, True ) /* SpellQueueActive */;
+     , (44039,  13, False) /* Ethereal */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44039,   1,       5) /* HeartbeatInterval */
@@ -37,8 +34,7 @@ VALUES (44039,   1,       5) /* HeartbeatInterval */
      , (44039,   3,       4) /* HealthRate */
      , (44039,   4,      10) /* StaminaRate */
      , (44039,   5,       3) /* ManaRate */
-     , (44039,  12,     0.0) /* Shade */
-     , (44039,  39,     1.2) /* DefaultScale */
+     , (44039,  12,       0) /* Shade */
      , (44039,  13,    0.67) /* ArmorModVsSlash */
      , (44039,  14,     0.9) /* ArmorModVsPierce */
      , (44039,  15,    0.75) /* ArmorModVsBludgeon */
@@ -50,6 +46,7 @@ VALUES (44039,   1,       5) /* HeartbeatInterval */
      , (44039,  31,      34) /* VisualAwarenessRange */
      , (44039,  34,       1) /* PowerupTime */
      , (44039,  36,       1) /* ChargeSpeed */
+     , (44039,  39,     1.2) /* DefaultScale */
      , (44039,  64,     0.8) /* ResistSlash */
      , (44039,  65,    0.25) /* ResistPierce */
      , (44039,  66,     0.7) /* ResistBludgeon */
@@ -57,17 +54,17 @@ VALUES (44039,   1,       5) /* HeartbeatInterval */
      , (44039,  68,     0.3) /* ResistCold */
      , (44039,  69,     0.8) /* ResistAcid */
      , (44039,  70,     0.4) /* ResistElectric */
-     , (44039, 166,     1.1) /* ResistNether */
      , (44039,  71,       1) /* ResistHealthBoost */
      , (44039,  72,       1) /* ResistStaminaDrain */
      , (44039,  73,       1) /* ResistStaminaBoost */
      , (44039,  74,       1) /* ResistManaDrain */
      , (44039,  75,       1) /* ResistManaBoost */
      , (44039,  80,       3) /* AiUseMagicDelay */
-     , (44039, 117,     0.5) /* FocusedProbability */
      , (44039, 104,      10) /* ObviousRadarRange */
+     , (44039, 117,     0.5) /* FocusedProbability */
      , (44039, 122,       2) /* AiAcquireHealth */
-     , (44039, 125,       1) /* ResistHealthDrain */;
+     , (44039, 125,       1) /* ResistHealthDrain */
+     , (44039, 166,     1.1) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44039,   1, 'Mu-miyah Lord') /* Name */
@@ -75,12 +72,12 @@ VALUES (44039,   1, 'Mu-miyah Lord') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44039,   1,   33554433) /* Setup */
-     , (44039,   2,  150995189) /* MotionTable */
+     , (44039,   2,  150994981) /* MotionTable */
      , (44039,   3,  536870942) /* SoundTable */
+     , (44039,   4,  805306376) /* CombatTable */
      , (44039,   6,   67108990) /* PaletteBase */
      , (44039,   7,  268435645) /* ClothingBase */
      , (44039,   8,  100669122) /* Icon */
-     , (44039,   4,  805306376) /* CombatTable */
      , (44039,  22,  872415272) /* PhysicsEffectTable */
      , (44039,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
@@ -102,8 +99,8 @@ VALUES (44039,  6, 0, 2, 0, 470, 0, 0) /* MeleeDefense        Trained */
      , (44039,  7, 0, 2, 0, 420, 0, 0) /* MissileDefense      Trained */
      , (44039, 15, 0, 2, 0, 450, 0, 0) /* MagicDefense        Trained */
      , (44039, 24, 0, 2, 0, 255, 0, 0) /* Run                 Trained */
+     , (44039, 31, 0, 2, 0, 500, 0, 0) /* CreatureEnchantment Trained */
      , (44039, 33, 0, 2, 0, 500, 0, 0) /* LifeMagic           Trained */
-     , (44039, 31, 0, 2, 0, 500, 0, 0) /* CreatureMagic       Trained */
      , (44039, 34, 0, 2, 0, 525, 0, 0) /* WarMagic            Trained */
      , (44039, 45, 0, 3, 0, 600, 0, 0) /* LightWeapons        Specialized */
      , (44039, 46, 0, 3, 0, 600, 0, 0) /* FinesseWeapons      Specialized */;
@@ -114,24 +111,24 @@ VALUES (44039,  0,  4,  0,    0,  470,  250,  150,  275,  250,  100,  250,  150,
      , (44039,  2,  4,  0,    0,  470,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (44039,  3,  4,  0,    0,  470,  250,  150,  275,  250,  100,  250,  150,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (44039,  4,  4,  0,    0,  470,  250,  150,  275,  250,  100,  250,  150,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (44039,  5,  4,  550, 0.75,  470,  250,  150,  275,  250,  100,  250,  150,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (44039,  5,  4, 550, 0.75,  470,  250,  150,  275,  250,  100,  250,  150,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (44039,  6,  4,  0,    0,  470,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (44039,  7,  4,  0,    0,  470,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (44039,  8,  4,  550, 0.75,  470,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (44039,  8,  4, 550, 0.75,  470,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44039,  1841,   2.06)  /* Slithering Flames */
-     , (44039,  2130,   2.06)  /* Infernae */
+VALUES (44039,  1832,   2.06)  /* Torrential Acid */
+     , (44039,  1841,   2.06)  /* Slithering Flames */
      , (44039,  2042,   2.06)  /* Demon's Tongues */
-     , (44039,  5532,   2.06)  /* Incantation of Bloodstone Bolt */
-     , (44039,  1832,   2.06)  /* Torrential Acid */
-     , (44039,  2710,   2.06)  /* Volcanic Blast */
      , (44039,  2123,   2.06)  /* Celdiseth's Searing */
-     , (44039,  3905,   2.06)  /* Essence's Fury */
+     , (44039,  2130,   2.06)  /* Infernae */
+     , (44039,  2710,   2.06)  /* Volcanic Blast */
      , (44039,  3119,   2.06)  /* Sear Flesh */
-     , (44039,  3908,   2.06)  /* Mana Blast */
+     , (44039,  3883,   2.06)  /* Pyroclastic Explosion */
      , (44039,  3886,   2.08)  /* Magic Disarmament */
-     , (44039,  3883,   2.06)  /* Pyroclastic Explosion */;
+     , (44039,  3905,   2.06)  /* Essence's Fury */
+     , (44039,  3908,   2.06)  /* Mana Blast */
+     , (44039,  5532,   2.06)  /* Incantation of Bloodstone Bolt */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44039, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
@@ -147,4 +144,3 @@ VALUES (44039, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44039, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44039, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44039, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-

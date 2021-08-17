@@ -10,7 +10,7 @@ VALUES (35295,   1,          2) /* ItemType - Armor */
      , (35295,  16,          1) /* ItemUseable - No */
      , (35295,  18,          1) /* UiEffects - Magical */
      , (35295,  19,      23000) /* Value */
-     , (35295,  28,        430) /* ArmorLevel */
+     , (35295,  28,        190) /* ArmorLevel */
      , (35295,  51,          4) /* CombatUse - Shield */
      , (35295,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35295, 106,        400) /* ItemSpellcraft */
@@ -27,14 +27,14 @@ VALUES (35295,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35295,   5,  -0.025) /* ManaRate */
-     , (35295,  13,     3.8) /* ArmorModVsSlash */
-     , (35295,  14,       3) /* ArmorModVsPierce */
-     , (35295,  15,     3.8) /* ArmorModVsBludgeon */
-     , (35295,  16,       4) /* ArmorModVsCold */
-     , (35295,  17,     2.8) /* ArmorModVsFire */
-     , (35295,  18,       4) /* ArmorModVsAcid */
-     , (35295,  19,     2.8) /* ArmorModVsElectric */
-     , (35295, 159,       1) /* AbsorbMagicDamage */
+     , (35295,  13,     1.8) /* ArmorModVsSlash */
+     , (35295,  14,       1) /* ArmorModVsPierce */
+     , (35295,  15,     1.8) /* ArmorModVsBludgeon */
+     , (35295,  16,       2) /* ArmorModVsCold */
+     , (35295,  17,     0.8) /* ArmorModVsFire */
+     , (35295,  18,       2) /* ArmorModVsAcid */
+     , (35295,  19,     0.8) /* ArmorModVsElectric */
+     , (35295, 159,     0.1) /* AbsorbMagicDamage */
      , (35295, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

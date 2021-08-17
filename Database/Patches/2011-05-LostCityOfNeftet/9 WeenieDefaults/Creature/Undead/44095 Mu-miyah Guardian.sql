@@ -6,7 +6,7 @@ VALUES (44095, 'ace44095-mumiyahguardian', 10, '2019-08-16 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44095,   1,         16) /* ItemType - Creature */
      , (44095,   2,         14) /* CreatureType - Undead */
-     , (44095,   3,         43) /* PaletteTemplate - Light Brown */
+     , (44095,   3,         43) /* PaletteTemplate - LightBrown */
      , (44095,   6,         -1) /* ItemsCapacity */
      , (44095,   7,         -1) /* ContainersCapacity */
      , (44095,  16,          1) /* ItemUseable - No */
@@ -25,8 +25,7 @@ VALUES (44095,   1, True ) /* Stuck */
      , (44095,  10, True ) /* AttackerAi */
      , (44095,  11, False) /* IgnoreCollisions */
      , (44095,  12, True ) /* ReportCollisions */
-     , (44095,  13, False) /* Ethereal */
-     , (44095,  58, True ) /* SpellQueueActive */;
+     , (44095,  13, False) /* Ethereal */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44095,   1,       5) /* HeartbeatInterval */
@@ -34,8 +33,7 @@ VALUES (44095,   1,       5) /* HeartbeatInterval */
      , (44095,   3,       4) /* HealthRate */
      , (44095,   4,      10) /* StaminaRate */
      , (44095,   5,       3) /* ManaRate */
-     , (44095,  12,     0.0) /* Shade */
-     , (44095,  39,     1.2) /* DefaultScale */
+     , (44095,  12,       0) /* Shade */
      , (44095,  13,    0.67) /* ArmorModVsSlash */
      , (44095,  14,     0.9) /* ArmorModVsPierce */
      , (44095,  15,    0.75) /* ArmorModVsBludgeon */
@@ -47,6 +45,7 @@ VALUES (44095,   1,       5) /* HeartbeatInterval */
      , (44095,  31,      22) /* VisualAwarenessRange */
      , (44095,  34,       1) /* PowerupTime */
      , (44095,  36,       1) /* ChargeSpeed */
+     , (44095,  39,     1.2) /* DefaultScale */
      , (44095,  64,     0.8) /* ResistSlash */
      , (44095,  65,    0.25) /* ResistPierce */
      , (44095,  66,     0.7) /* ResistBludgeon */
@@ -54,17 +53,17 @@ VALUES (44095,   1,       5) /* HeartbeatInterval */
      , (44095,  68,     0.3) /* ResistCold */
      , (44095,  69,     0.8) /* ResistAcid */
      , (44095,  70,     0.4) /* ResistElectric */
-     , (44095, 166,     1.1) /* ResistNether */
      , (44095,  71,       1) /* ResistHealthBoost */
      , (44095,  72,       1) /* ResistStaminaDrain */
      , (44095,  73,       1) /* ResistStaminaBoost */
      , (44095,  74,       1) /* ResistManaDrain */
      , (44095,  75,       1) /* ResistManaBoost */
      , (44095,  80,       3) /* AiUseMagicDelay */
-     , (44095, 117,     0.5) /* FocusedProbability */
      , (44095, 104,      10) /* ObviousRadarRange */
+     , (44095, 117,     0.5) /* FocusedProbability */
      , (44095, 122,       2) /* AiAcquireHealth */
-     , (44095, 125,       1) /* ResistHealthDrain */;
+     , (44095, 125,       1) /* ResistHealthDrain */
+     , (44095, 166,     1.1) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44095,   1, 'Mu-miyah Guardian') /* Name */
@@ -72,14 +71,18 @@ VALUES (44095,   1, 'Mu-miyah Guardian') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44095,   1,   33554433) /* Setup */
-     , (44095,   2,  150995189) /* MotionTable */
+     , (44095,   2,  150994981) /* MotionTable */
      , (44095,   3,  536870942) /* SoundTable */
+     , (44095,   4,  805306368) /* CombatTable */
      , (44095,   6,   67108990) /* PaletteBase */
      , (44095,   7,  268435645) /* ClothingBase */
      , (44095,   8,  100669122) /* Icon */
-     , (44095,   4,  805306368) /* CombatTable */
      , (44095,  22,  872415272) /* PhysicsEffectTable */
-     , (44095,  32,       3001) /* WieldedTreasureType */
+     , (44095,  32,       3001) /* WieldedTreasureType - 
+                                   Wield Tachi (47649) | Probability: 20%
+                                   Wield Burning Sands Blade (44266) | Probability: 20%
+                                   Wield Burning Sands Katar (44265) | Probability: 20%
+                                   Wield Corrupted Aegis (44264) | Probability: 50% */
      , (44095,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -118,18 +121,17 @@ VALUES (44095,  0,  4,  0,    0,  350,  250,  150,  275,  250,  100,  250,  150,
      , (44095,  8,  4,  5, 0.75,  350,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44095,  2170,   2.06)  /* Inferno's Gift */
-     , (44095,  4423,   2.06)  /*  Incantation of Flame Arc */
-     , (44095,  2074,   2.06)  /* Gossamer Flesh */;
+VALUES (44095,  2074,   2.06)  /* Gossamer Flesh */
+     , (44095,  2170,   2.06)  /* Inferno's Gift */
+     , (44095,  4423,   2.06)  /* Incantation of Flame Arc */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44095, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44095, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
      , (44095, 9, 48908,  1, 0, 0.03, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (44095, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (44095, 9, 44121,  1, 0, 0.20, False) /* Create Sandstone Armor Key (44121) for ContainTreasure */
-     , (44095, 9, 44122,  1, 0, 0.20, False) /* Create Sandstone Magic Key (44122) for ContainTreasure */
-     , (44095, 9, 44123,  1, 0, 0.20, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
-     , (44095, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
-     , (44095, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
-
+     , (44095, 9, 44121,  1, 0, 0.2, False) /* Create Sandstone Armor Key (44121) for ContainTreasure */
+     , (44095, 9, 44122,  1, 0, 0.2, False) /* Create Sandstone Magic Key (44122) for ContainTreasure */
+     , (44095, 9, 44123,  1, 0, 0.2, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
+     , (44095, 9, 44124,  1, 0, 0.2, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
+     , (44095, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */;

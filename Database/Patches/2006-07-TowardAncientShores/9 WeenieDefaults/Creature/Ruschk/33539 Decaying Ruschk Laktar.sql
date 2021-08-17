@@ -5,7 +5,7 @@ VALUES (33539, 'ace33539-decayingruschklaktar', 10, '2020-06-23 00:00:00') /* Cr
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33539,   1,         16) /* ItemType - Creature */
-     , (33539,   2,         81) /* CreatureType - Ruschk */
+     , (33539,   2,         14) /* CreatureType - Undead */
      , (33539,   6,         -1) /* ItemsCapacity */
      , (33539,   7,         -1) /* ContainersCapacity */
      , (33539,  16,          1) /* ItemUseable - No */
@@ -52,20 +52,20 @@ VALUES (33539,   1,       5) /* HeartbeatInterval */
      , (33539,  68,     0.1) /* ResistCold */
      , (33539,  69,     0.2) /* ResistAcid */
      , (33539,  70,     0.1) /* ResistElectric */
-     , (33539, 166,     0.2) /* ResistNether */
      , (33539,  71,       1) /* ResistHealthBoost */
      , (33539,  72,     0.5) /* ResistStaminaDrain */
      , (33539,  73,       1) /* ResistStaminaBoost */
      , (33539,  74,     0.5) /* ResistManaDrain */
      , (33539,  75,       1) /* ResistManaBoost */
      , (33539, 104,      10) /* ObviousRadarRange */
-     , (33539, 125,     0.5) /* ResistHealthDrain */;
+     , (33539, 125,     0.5) /* ResistHealthDrain */
+     , (33539, 166,     0.2) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33539,   1, 'Decaying Ruschk Laktar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33539,   1,   33559104) /* Setup */
+VALUES (33539,   1,   33560013) /* Setup */
      , (33539,   2,  150994951) /* MotionTable */
      , (33539,   3,  536871101) /* SoundTable */
      , (33539,   4,  805306372) /* CombatTable */
@@ -73,12 +73,13 @@ VALUES (33539,   1,   33559104) /* Setup */
      , (33539,   7,  268436946) /* ClothingBase */
      , (33539,   8,  100677373) /* Icon */
      , (33539,  22,  872415364) /* PhysicsEffectTable */
-     , (33539,  32,        487) /* WieldedTreasureType -
-                                   Wield Stone Mace (30001) | Probability: 20%
-                                   Wield Bone Dagger (30006) | Probability: 20%
-                                   Wield Ice Shard (29986) | Probability: 20%
-                                   Wield Frigid Splinter (29991) | Probability: 20%
-                                   Wield Bone Sword (29996) | Probability: 20% */
+     , (33539,  32,        487) /* WieldedTreasureType - 
+                                   Wield Ice Shard (48596) | Probability: 17%
+                                   Wield Frigid Splinter (48597) | Probability: 17%
+                                   Wield Frozen Dagger (48595) | Probability: 17%
+                                   Wield Glacial Blade (48598) | Probability: 17%
+                                   Wield Icy Club (48594) | Probability: 17%
+                                   Nothing (0) | Probability: 15.000001% */
      , (33539,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -120,9 +121,9 @@ VALUES (33539,  0,  4,  0,    0,  450,  400,  330,  430,  430,  350,  430,  430,
      , (33539,  8,  4, 50,  0.4,  450,  400,  330,  430,  430,  350,  430,  430,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33539,  1053,   2.02)   /* Bludgeoning Vulnerability Other VI */
-     , (33539,  1985,   2.02)   /* Nullify Life Magic Other */
-     , (33539,  2166,   2.02)   /* Tusker's Gift */;
+VALUES (33539,  1053,   2.02)  /* Bludgeoning Vulnerability Other VI */
+     , (33539,  1985,   2.02)  /* Nullify Life Magic Other */
+     , (33539,  2166,   2.02)  /* Tusker's Gift */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (33539,  5 /* HeartBeat */,   0.05, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

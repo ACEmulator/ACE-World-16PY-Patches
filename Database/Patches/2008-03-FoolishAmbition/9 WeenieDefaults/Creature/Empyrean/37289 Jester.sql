@@ -6,6 +6,7 @@ VALUES (37289, 'ace37289-jester', 10, '2019-02-10 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37289,   1,         16) /* ItemType - Creature */
      , (37289,   2,         51) /* CreatureType - Empyrean */
+     , (37289,   3,         39) /* PaletteTemplate - Black */
      , (37289,   6,         -1) /* ItemsCapacity */
      , (37289,   7,         -1) /* ContainersCapacity */
      , (37289,  16,         32) /* ItemUseable - Remote */
@@ -14,7 +15,7 @@ VALUES (37289,   1,         16) /* ItemType - Creature */
      , (37289,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (37289,  95,          8) /* RadarBlipColor - Yellow */
      , (37289, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (37289, 134,          2) /* PlayerKillerStatus - NPK */
+     , (37289, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (37289, 267,         60) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -24,6 +25,7 @@ VALUES (37289,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37289,   1,       3) /* HeartbeatInterval */
      , (37289,   2,       0) /* HeartbeatTimestamp */
+     , (37289,  12,     0.5) /* Shade */
      , (37289,  39,     1.3) /* DefaultScale */
      , (37289,  54,       3) /* UseRadius */;
 
@@ -49,7 +51,7 @@ VALUES (37289,   1, 250, 0, 0) /* Strength */
      , (37289,   6, 450, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37289,   1,  200050, 0, 0, 200250) /* MaxHealth */
+VALUES (37289,   1, 200050, 0, 0, 200250) /* MaxHealth */
      , (37289,   3,  4600, 0, 0, 5000) /* MaxStamina */
      , (37289,   5,  4550, 0, 0, 5000) /* MaxMana */;
 
@@ -309,7 +311,7 @@ VALUES (37289,  5 /* HeartBeat */,  0.041, NULL, 2147483709 /* NonCombat */, 109
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   8 /* Say */, 0, 1, NULL, 'Ooo, what''s over there?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Ooo, what''s over there?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (37289,  5 /* HeartBeat */,  0.032, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
@@ -317,7 +319,7 @@ VALUES (37289,  5 /* HeartBeat */,  0.032, NULL, 2147483709 /* NonCombat */, 109
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   8 /* Say */, 0, 1, NULL, 'Haha!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'Haha!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (37289,  6 /* Give */,      1, 37287 /* Deck of Hands */, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -35,26 +35,26 @@ VALUES (80033,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80033,   1,       5) /* HeartbeatInterval */
      , (80033,   2,       0) /* HeartbeatTimestamp */
-     , (80033,   3, 0.0670000016689301) /* HealthRate */
+     , (80033,   3,   0.067) /* HealthRate */
      , (80033,   4,       3) /* StaminaRate */
      , (80033,   5,       1) /* ManaRate */
-     , (80033,  12, 0.178599998354912) /* Shade */
-     , (80033,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (80033,  14, 1.20000004768372) /* ArmorModVsPierce */
+     , (80033,  12,  0.1786) /* Shade */
+     , (80033,  13,     1.2) /* ArmorModVsSlash */
+     , (80033,  14,     1.2) /* ArmorModVsPierce */
      , (80033,  15,       1) /* ArmorModVsBludgeon */
      , (80033,  16,       1) /* ArmorModVsCold */
-     , (80033,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (80033,  17,     0.8) /* ArmorModVsFire */
      , (80033,  18,       1) /* ArmorModVsAcid */
-     , (80033,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (80033,  19,     0.8) /* ArmorModVsElectric */
      , (80033,  31,      20) /* VisualAwarenessRange */
      , (80033,  39,       1) /* DefaultScale */
-     , (80033,  64, 0.800000011920929) /* ResistSlash */
-     , (80033,  65, 0.800000011920929) /* ResistPierce */
-     , (80033,  66, 0.899999976158142) /* ResistBludgeon */
-     , (80033,  67, 1.14999997615814) /* ResistFire */
-     , (80033,  68, 0.899999976158142) /* ResistCold */
-     , (80033,  69, 0.899999976158142) /* ResistAcid */
-     , (80033,  70, 1.20000004768372) /* ResistElectric */
+     , (80033,  64,     0.8) /* ResistSlash */
+     , (80033,  65,     0.8) /* ResistPierce */
+     , (80033,  66,     0.9) /* ResistBludgeon */
+     , (80033,  67,    1.15) /* ResistFire */
+     , (80033,  68,     0.9) /* ResistCold */
+     , (80033,  69,     0.9) /* ResistAcid */
+     , (80033,  70,     1.2) /* ResistElectric */
      , (80033,  71,       1) /* ResistHealthBoost */
      , (80033,  72,       1) /* ResistStaminaDrain */
      , (80033,  73,       1) /* ResistStaminaBoost */
@@ -65,8 +65,7 @@ VALUES (80033,   1,       5) /* HeartbeatInterval */
      , (80033, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (80033,   1, 'Vivimancer Adept') /* Name */
-     , (80033,   5, 'Viamontian Knight') /* Template */;
+VALUES (80033,   1, 'Vivimancer Adept') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (80033,   1,   33554433) /* Setup */
@@ -75,7 +74,6 @@ VALUES (80033,   1,   33554433) /* Setup */
      , (80033,   4,  805306368) /* CombatTable */
      , (80033,   6,   67108990) /* PaletteBase */
      , (80033,   8,  100667446) /* Icon */
-     , (80033,  17,   67115901) /* SkinPalette */
      , (80033,  22,  872415236) /* PhysicsEffectTable */
      , (80033,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 

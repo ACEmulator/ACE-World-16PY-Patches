@@ -6,7 +6,7 @@ VALUES (7082, 'armoredilloisland', 10, '2019-09-13 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7082,   1,         16) /* ItemType - Creature */
      , (7082,   2,         17) /* CreatureType - Armoredillo */
-     , (7082,   3,          8) /* PaletteTemplate - Green */
+     , (7082,   3,          5) /* PaletteTemplate - DarkBlue */
      , (7082,   6,         -1) /* ItemsCapacity */
      , (7082,   7,         -1) /* ContainersCapacity */
      , (7082,  16,          1) /* ItemUseable - No */
@@ -88,11 +88,11 @@ VALUES (7082,   1,    58, 0, 0, 118) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (7082,  6, 0, 3, 0, 103, 0, 0) /* MeleeDefense        Specialized */
      , (7082,  7, 0, 3, 0, 224, 0, 0) /* MissileDefense      Specialized */
-     , (7082, 45, 0, 3, 0,  85, 0, 0) /* LightWeapons        Specialized */
      , (7082, 15, 0, 3, 0, 125, 0, 0) /* MagicDefense        Specialized */
      , (7082, 20, 0, 3, 0,   5, 0, 0) /* Deception           Specialized */
      , (7082, 22, 0, 3, 0,  20, 0, 0) /* Jump                Specialized */
-     , (7082, 24, 0, 3, 0,  25, 0, 0) /* Run                 Specialized */;
+     , (7082, 24, 0, 3, 0,  25, 0, 0) /* Run                 Specialized */
+     , (7082, 45, 0, 3, 0,  85, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7082,  0,  1, 20, 0.75,  190,   93,  133,  103,  112,  114,  112,  114,    0, 1,  0.7, 0.34,    0,  0.7, 0.34,    0,    0,    0,    0,    0,    0,    0) /* Head */

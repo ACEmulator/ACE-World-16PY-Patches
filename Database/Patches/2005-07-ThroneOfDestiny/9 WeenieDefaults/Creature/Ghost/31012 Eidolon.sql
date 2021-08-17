@@ -6,6 +6,7 @@ VALUES (31012, 'ghosteidolonhighyield', 10, '2019-04-08 14:12:42') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31012,   1,         16) /* ItemType - Creature */
      , (31012,   2,         77) /* CreatureType - Ghost */
+     , (31012,   3,          8) /* PaletteTemplate - Green */
      , (31012,   6,        255) /* ItemsCapacity */
      , (31012,   7,        255) /* ContainersCapacity */
      , (31012,  16,          1) /* ItemUseable - No */
@@ -21,7 +22,7 @@ VALUES (31012,   1, True ) /* Stuck */
      , (31012,  11, False) /* IgnoreCollisions */
      , (31012,  12, True ) /* ReportCollisions */
      , (31012,  13, False) /* Ethereal */
-	 , (31012,  19, True ) /* Attackable */
+     , (31012,  19, True ) /* Attackable */
      , (31012, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
