@@ -4,7 +4,7 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (70034, 'ace70034-rubyofcrimsonnight', 1, '2021-08-17 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (70034,   1,       2048) /* ItemType - Gem */
+VALUES (70034,   1,        128) /* ItemType - Misc */
      , (70034,   3,         14) /* PaletteTemplate - Red */
      , (70034,   5,         50) /* EncumbranceVal */
      , (70034,  16,          1) /* ItemUseable - No */
