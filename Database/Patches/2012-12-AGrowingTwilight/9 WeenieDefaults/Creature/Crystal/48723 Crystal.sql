@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48723;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48723, 'ace48723-crystal', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (48723, 'ace48723-crystal', 10, '2021-08-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48723,   1,         16) /* ItemType - Creature */
@@ -17,12 +17,12 @@ VALUES (48723,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48723,   1, True ) /* Stuck */
      , (48723,  19, False) /* Attackable */
-     , (48723,  52, True) /* Attackable */
-     , (48723,  83, True) /* Attackable */;
+     , (48723,  52, True) /* AIImmobile */
+     , (48723,  83, True) /* NPCLookalike */;
      
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48723,  43,     4.5) /* GeneratorRadius */
-     , (48723,  54,       2) /* UseRadius */;
+     , (48723,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48723,   1, 'Crystal') /* Name */;
