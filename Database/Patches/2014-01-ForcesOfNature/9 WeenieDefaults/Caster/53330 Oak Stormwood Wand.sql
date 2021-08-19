@@ -38,7 +38,7 @@ VALUES (53330,   5,  -0.025) /* ManaRate */
      , (53330, 152,    1.18) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53330,   1, 'Oak Stormwood Wand') /* Name */
+VALUES (53330,   1, 'Stormwood Wand') /* Name */
      , (53330,  14, 'This item may be tinkered and imbued like any loot-generated weapon.') /* Use */
      , (53330,  16, 'A wand imbued with the energies of the Viridian Rise.') /* LongDesc */;
 

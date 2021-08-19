@@ -46,7 +46,7 @@ VALUES (72005,   5,  -0.025) /* ManaRate */
      , (72005, 150,    1.01) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72005,   1, 'Oak Stormwood Staff') /* Name */
+VALUES (72005,   1, 'Stormwood Staff') /* Name */
      , (72005,  14, 'This item may be tinkered and imbued like any loot-generated weapon.') /* Use */
      , (72005,  16, 'A staff imbued with the energies of the Viridian Rise.') /* LongDesc */;
 
