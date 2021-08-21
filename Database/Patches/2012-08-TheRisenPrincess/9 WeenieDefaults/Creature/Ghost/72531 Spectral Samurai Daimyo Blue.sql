@@ -30,7 +30,7 @@ VALUES (72531,   1,       5) /* HeartbeatInterval */
      , (72531,  14,     1.0) /* ArmorModVsPierce */
      , (72531,  15,    0.95) /* ArmorModVsBludgeon */
      , (72531,  16,     1.0) /* ArmorModVsCold */
-     , (72531,  17,     1.0) /* ArmorModVsFire */
+     , (72531,  17,    0.85) /* ArmorModVsFire */
      , (72531,  18,     1.0) /* ArmorModVsAcid */
      , (72531,  19,     1.0) /* ArmorModVsElectric */
      , (72531,  31,      25) /* VisualAwarenessRange */
@@ -41,8 +41,8 @@ VALUES (72531,   1,       5) /* HeartbeatInterval */
      , (72531,  64,     0.5) /* ResistSlash */
      , (72531,  65,     0.4) /* ResistPierce */
      , (72531,  66,     0.6) /* ResistBludgeon */
-     , (72531,  67,     0.4) /* ResistFire */
-     , (72531,  68,     0.4) /* ResistCold */
+     , (72531,  67,    0.65) /* ResistFire */
+     , (72531,  68,     0.2) /* ResistCold */
      , (72531,  69,     0.4) /* ResistAcid */
      , (72531,  70,     0.4) /* ResistElectric */
      , (72531,  71,       1) /* ResistHealthBoost */
@@ -83,17 +83,17 @@ VALUES (72531,  0,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,
      , (72531,  8,  4,600, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (72531,   1, 520, 0, 0) /* Strength */
-     , (72531,   2, 500, 0, 0) /* Endurance */
-     , (72531,   3, 370, 0, 0) /* Quickness */
-     , (72531,   4, 350, 0, 0) /* Coordination */
-     , (72531,   5, 300, 0, 0) /* Focus */
-     , (72531,   6, 300, 0, 0) /* Self */;
+VALUES (72531, 1, 500, 0, 0) /* Strength */
+     , (72531, 2, 500, 0, 0) /* Endurance */
+     , (72531, 3, 300, 0, 0) /* Quickness */
+     , (72531, 4, 300, 0, 0) /* Coordination */
+     , (72531, 5, 400, 0, 0) /* Focus */
+     , (72531, 6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (72531,   1, 24750, 0, 0,25000) /* MaxHealth */
-     , (72531,   3, 40500, 0, 0,41000) /* MaxStamina */
-     , (72531,   5, 29700, 0, 0,30000) /* MaxMana */;
+VALUES (72531, 1, 24750, 0, 0, 25000) /* MaxHealth */
+     , (72531, 3,  5000, 0, 0,  4500) /* MaxStamina */
+     , (72531, 5,  4600, 0, 0,  5000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (72531,  1787,   2.05)  /* Halo of Frost */
@@ -113,14 +113,14 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (72531, 2, 46387,  1, 0,    0, False) /* Create Spectral Frost Nodachi (46387) for Wield */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72531,  33, 0, 2, 0, 270, 0, 0) /* LifeMagic */
-     , (72531,  34, 0, 2, 0, 270, 0, 0) /* WarMagic */
-     , (72531,  31, 0, 2, 0, 270, 0, 0) /* CreatureMagic */
-     , (72531,  43, 0, 2, 0, 270, 0, 0) /* VoidMagic */
-     , (72531,  44, 0, 2, 0, 403, 0, 0) /* HeavyWeapons */
-     , (72531,  45, 0, 2, 0, 403, 0, 0) /* LightWeapons */
-     , (72531,  41, 0, 2, 0, 403, 0, 0) /* TwoHanded */
-     , (72531,  46, 0, 2, 0, 460, 0, 0) /* FinesseWeapons */
-     , (72531,  15, 0, 2, 0, 414, 0, 0) /* MagicDefense */
-     , (72531,   6, 0, 2, 0, 510, 0, 0) /* MeleeDefense */
-     , (72531,   7, 0, 2, 0, 636, 0, 0) /* MissileDefense */;
+VALUES (72531,  33, 0, 2, 0, 200, 0, 0) /* LifeMagic */
+     , (72531,  34, 0, 2, 0, 200, 0, 0) /* WarMagic */
+     , (72531,  31, 0, 2, 0, 200, 0, 0) /* CreatureMagic */
+     , (72531,  43, 0, 2, 0, 200, 0, 0) /* VoidMagic */
+     , (72531,  44, 0, 2, 0, 413, 0, 0) /* HeavyWeapons */
+     , (72531,  45, 0, 2, 0, 413, 0, 0) /* LightWeapons */
+     , (72531,  41, 0, 2, 0, 413, 0, 0) /* TwoHanded */
+     , (72531,  46, 0, 2, 0, 480, 0, 0) /* FinesseWeapons */
+     , (72531,  15, 0, 2, 0, 366, 0, 0) /* MagicDefense */
+     , (72531,   6, 0, 2, 0, 550, 0, 0) /* MeleeDefense */
+     , (72531,   7, 0, 2, 0, 630, 0, 0) /* MissileDefense */;
