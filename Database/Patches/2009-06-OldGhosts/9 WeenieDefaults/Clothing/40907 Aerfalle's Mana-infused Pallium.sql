@@ -5,6 +5,7 @@ VALUES (40907, 'ace40907-aerfallesmanainfusedpallium', 2, '2019-02-10 00:00:00')
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40907,   1,          4) /* ItemType - Clothing */
+     , (40907,   3,         39) /* PaletteTemplate - Black */
      , (40907,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (40907,   5,        200) /* EncumbranceVal */
      , (40907,   9,      32512) /* ValidLocations - Armor */
@@ -32,6 +33,7 @@ VALUES (40907,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40907,   5,   -0.05) /* ManaRate */
+     , (40907,  12,  0.0986) /* Shade */
      , (40907,  13,     0.8) /* ArmorModVsSlash */
      , (40907,  14,     0.8) /* ArmorModVsPierce */
      , (40907,  15,       1) /* ArmorModVsBludgeon */
@@ -49,6 +51,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40907,   1,   33554854) /* Setup */
      , (40907,   3,  536870932) /* SoundTable */
      , (40907,   6,   67108990) /* PaletteBase */
+     , (40907,   7,  268435853) /* ClothingBase */
      , (40907,   8,  100672444) /* Icon */
      , (40907,  22,  872415275) /* PhysicsEffectTable */;
 
