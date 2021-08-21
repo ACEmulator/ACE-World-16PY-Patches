@@ -104,7 +104,9 @@ VALUES (46536,  1785,   2.05)  /* Cassius' Ring of Fire */
      , (46536,  4481,   2.059)  /* Incantation of Fire Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46536, 2, 46647,  1, 0, 0, False) /* Create Spectral Flaming Nodachi (46647) for Wield */;
+VALUES (46536, 2, 46647,  1, 0, 0, False) /* Create Spectral Flaming Nodachi (46647) for Wield */
+     , (46536, 9, 48954,  0, 0, 0.01, False) /* Create Burning Sands Keyring (48954) for Contain Treasure */
+     , (46536, 9,     0,  0, 0, 0.99, False) /* Create nothing for Contain Treasure */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46536,  33, 0, 2, 0, 200, 0, 0) /* LifeMagic */

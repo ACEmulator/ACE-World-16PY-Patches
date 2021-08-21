@@ -106,7 +106,9 @@ VALUES (46688,  2228,   2.08)  /* Broadside of a Barn */
      , (46688,  5402,   2.286)  /* Incantation of Corruption */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46688, 2, 46389,  1, 0,    0, False) /* Create Bloodletting Dagger (46389) for Wield */;
+VALUES (46688, 2, 46389,  1, 0,    0, False) /* Create Bloodletting Dagger (46389) for Wield */
+     , (46688, 9, 48954,  0, 0, 0.01, False) /* Create Burning Sands Keyring (48954) for Contain Treasure */
+     , (46688, 9,     0,  0, 0, 0.99, False) /* Create nothing for Contain Treasure */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46688,  33, 0, 2, 0, 260, 0, 0) /* LifeMagic */

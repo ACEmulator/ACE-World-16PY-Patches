@@ -93,7 +93,9 @@ VALUES (46614,  0,  4,  0,    0,  500,  277,  315,  350,  294,  294,  294,  294,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46614, 2, 46604,  1, 0,    0, False) /* Create Tetsubo (46604) for Wield */
      , (46614, 9,  6353,  0, 0, 0.10, False) /* Create Pyreal Mote (6353) for ContainTreasure */
-     , (46614, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */;
+     , (46614, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
+     , (46614, 9, 48954,  0, 0, 0.01, False) /* Create Burning Sands Keyring (48954) for Contain Treasure */
+     , (46614, 9,     0,  0, 0, 0.99, False) /* Create nothing for Contain Treasure */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46614,  44, 0, 2, 0, 393, 0, 0) /* HeavyWeapons */

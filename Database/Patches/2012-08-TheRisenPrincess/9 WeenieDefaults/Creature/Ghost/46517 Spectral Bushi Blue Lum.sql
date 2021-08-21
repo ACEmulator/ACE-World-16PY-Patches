@@ -95,7 +95,9 @@ VALUES (46517,  0,  4,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,
      , (46517,  8,  4, 200, 0.75,  400,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46517, 2, 46367,  1, 0,    0, False) /* Create  (46367) for Wield */;
+VALUES (46517, 2, 46367,  1, 0,    0, False) /* Create  (46367) for Wield */
+     , (46517, 9, 48954,  0, 0, 0.01, False) /* Create Burning Sands Keyring (48954) for Contain Treasure */
+     , (46517, 9,     0,  0, 0, 0.99, False) /* Create nothing for Contain Treasure */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (46517, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

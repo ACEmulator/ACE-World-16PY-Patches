@@ -44,7 +44,7 @@ VALUES (72567,   1,       5) /* HeartbeatInterval */
      , (72567,  17,     1.0) /* ArmorModVsFire */
      , (72567,  18,     1.0) /* ArmorModVsAcid */
      , (72567,  19,    0.95) /* ArmorModVsElectric */
-     , (72567,  31,      25) /* VisualAwarenessRange */
+     , (72567,  31,      30) /* VisualAwarenessRange */
      , (72567,  34,       1) /* PowerupTime */
      , (72567,  36,       1) /* ChargeSpeed */
      , (72567,  64,     0.5) /* ResistSlash */

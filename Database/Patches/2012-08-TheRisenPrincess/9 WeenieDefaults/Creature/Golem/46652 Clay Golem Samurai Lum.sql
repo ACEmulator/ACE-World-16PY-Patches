@@ -94,7 +94,9 @@ VALUES (46652,  0,  4,  0,    0,  500,  277,  315,  350,  294,  294,  294,  294,
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46652, 2, 46606,  1, 0,    0, False) /* Create Fire-hardened Clay Nodachi (46606) for Wield */
      , (46652, 9,  6353,  0, 0, 0.10, False) /* Create Pyreal Mote (6353) for ContainTreasure */
-     , (46652, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */;
+     , (46652, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
+     , (46652, 9, 48954,  0, 0, 0.01, False) /* Create Burning Sands Keyring (48954) for Contain Treasure */
+     , (46652, 9,     0,  0, 0, 0.99, False) /* Create nothing for Contain Treasure */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (46652, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

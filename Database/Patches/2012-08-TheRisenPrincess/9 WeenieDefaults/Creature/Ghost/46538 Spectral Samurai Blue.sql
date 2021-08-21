@@ -104,7 +104,9 @@ VALUES (46538,  1787,   2.05)  /* Halo of Frost */
      , (46538,  4479,   2.059)  /* Incantation of Cold Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46538, 2, 46387,  1, 0, 0, False) /* Create Spectral Frost Nodachi (46387) for Wield */;
+VALUES (46538, 2, 46387,  1, 0, 0, False) /* Create Spectral Frost Nodachi (46387) for Wield */
+     , (46538, 9, 48954,  0, 0, 0.01, False) /* Create Burning Sands Keyring (48954) for Contain Treasure */
+     , (46538, 9,     0,  0, 0, 0.99, False) /* Create nothing for Contain Treasure */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46538,  33, 0, 2, 0, 200, 0, 0) /* LifeMagic */

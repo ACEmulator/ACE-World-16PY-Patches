@@ -103,7 +103,9 @@ VALUES (46523,  4457,   2.05)  /* Incantation of Whirling Blade */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46523, 2, 46374,  1, 0, 0, False) /* Create Spectral Nekode (46374) for Wield */
-     , (46523, 2, 46375,  1, 0, 0, False) /* Create Spectral Nekode (46375) for Wield */;
+     , (46523, 2, 46375,  1, 0, 0, False) /* Create Spectral Nekode (46375) for Wield */
+     , (46523, 9, 48954,  0, 0, 0.01, False) /* Create Burning Sands Keyring (48954) for Contain Treasure */
+     , (46523, 9,     0,  0, 0, 0.99, False) /* Create nothing for Contain Treasure */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46523,  33, 0, 2, 0, 160, 0, 0) /* LifeMagic */

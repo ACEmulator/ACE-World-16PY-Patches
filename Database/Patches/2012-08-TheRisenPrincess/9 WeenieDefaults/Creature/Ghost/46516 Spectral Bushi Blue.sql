@@ -94,7 +94,9 @@ VALUES (46516,  0,  4,  0,    0,  400,  275,  275,  225,  250,  400,  225,  400,
      , (46516,  8,  4, 200, 0.75,  400,  275,  275,  225,  250,  400,  225,  400,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46516, 2, 46367,  1, 0, 0, False) /* Create  (46367) for Wield */;
+VALUES (46516, 2, 46367,  1, 0, 0, False) /* Create  (46367) for Wield */
+     , (46516, 9, 48954,  0, 0, 0.01, False) /* Create Burning Sands Keyring (48954) for Contain Treasure */
+     , (46516, 9,     0,  0, 0, 0.99, False) /* Create nothing for Contain Treasure */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46516,  44, 0, 2, 0, 377, 0, 0) /* HeavyWeapons */
