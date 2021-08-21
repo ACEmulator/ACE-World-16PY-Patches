@@ -22,8 +22,9 @@ VALUES (46505,   1,         16) /* ItemType - Creature */
      , (46505, 332,        140) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46505,   1, True ) /* Stuck */
-     , (46505,  52, True ) /* AiImmobile */;
+VALUES (46505,  1,    True) /* Stuck */
+     , (46505, 42,    True) /* AllowEdgeSlide */
+     , (46505, 52,    True) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46505,   1,       5) /* HeartbeatInterval */
