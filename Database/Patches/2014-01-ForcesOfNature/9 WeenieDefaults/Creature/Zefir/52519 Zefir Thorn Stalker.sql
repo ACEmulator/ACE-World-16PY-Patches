@@ -115,7 +115,7 @@ VALUES (52519,  6159,   2.15)  /* Thorn Volley */
      , (52519,  6163,   2.375)  /* Ring of Thorns */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (52519, 14 /* Taunt */,   0.15, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (52519, 14 /* Taunt */,   0.1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

@@ -5,7 +5,7 @@ VALUES (46299, 'ace46299-tiny', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46299,   1,         16) /* ItemType - Creature */
-     , (46299,   2,          2) /* CreatureType - Banderling */
+     , (46299,   2,         80) /* CreatureType - Penguin */
      , (46299,   3,          2) /* PaletteTemplate - Blue */
      , (46299,   6,         -1) /* ItemsCapacity */
      , (46299,   7,         -1) /* ContainersCapacity */

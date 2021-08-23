@@ -44,7 +44,7 @@ VALUES (53325,   5, -0.025) /* ManaRate */
      , (53325, 150,    1.0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53325,   1, 'Oak Stormwood Spear') /* Name */
+VALUES (53325,   1, 'Stormwood Spear') /* Name */
      , (53325,  14, 'This item may be tinkered and imbued like any loot-generated weapon.') /* Use */
      , (53325,  16, 'A spear imbued with the energies of the Viridian Rise.') /* LongDesc */;
 

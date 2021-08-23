@@ -38,7 +38,7 @@ VALUES (53333,   5,  -0.025) /* ManaRate */
      , (53333, 152,    1.16) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53333,   1, 'Oak Derubloom Wand') /* Name */
+VALUES (53333,   1, 'Derubloom Wand') /* Name */
      , (53333,  14, 'This item may be tinkered and imbued like any loot-generated weapon.') /* Use */
      , (53333,  16, 'A wand imbued with the energies of the Viridian Rise.') /* LongDesc */;
 
