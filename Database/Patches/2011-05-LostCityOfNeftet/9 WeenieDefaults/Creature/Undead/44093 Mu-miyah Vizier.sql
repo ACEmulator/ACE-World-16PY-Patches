@@ -6,7 +6,7 @@ VALUES (44093, 'ace44093-mumiyahvizier', 10, '2019-08-16 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44093,   1,         16) /* ItemType - Creature */
      , (44093,   2,         14) /* CreatureType - Undead */
-     , (44093,   3,         77) /* PaletteTemplate - Blue Green */
+     , (44093,   3,         77) /* PaletteTemplate - BlueGreen */
      , (44093,   6,         -1) /* ItemsCapacity */
      , (44093,   7,         -1) /* ContainersCapacity */
      , (44093,  16,          1) /* ItemUseable - No */
@@ -25,8 +25,7 @@ VALUES (44093,   1, True ) /* Stuck */
      , (44093,  10, True ) /* AttackerAi */
      , (44093,  11, False) /* IgnoreCollisions */
      , (44093,  12, True ) /* ReportCollisions */
-     , (44093,  13, False) /* Ethereal */
-     , (44093,  58, True ) /* SpellQueueActive */;
+     , (44093,  13, False) /* Ethereal */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44093,   1,       5) /* HeartbeatInterval */
@@ -34,8 +33,7 @@ VALUES (44093,   1,       5) /* HeartbeatInterval */
      , (44093,   3,       4) /* HealthRate */
      , (44093,   4,      10) /* StaminaRate */
      , (44093,   5,       3) /* ManaRate */
-     , (44093,  12,     0.0) /* Shade */
-     , (44093,  39,     1.2) /* DefaultScale */
+     , (44093,  12,       0) /* Shade */
      , (44093,  13,    0.67) /* ArmorModVsSlash */
      , (44093,  14,     0.9) /* ArmorModVsPierce */
      , (44093,  15,    0.75) /* ArmorModVsBludgeon */
@@ -47,6 +45,7 @@ VALUES (44093,   1,       5) /* HeartbeatInterval */
      , (44093,  31,      22) /* VisualAwarenessRange */
      , (44093,  34,       1) /* PowerupTime */
      , (44093,  36,       1) /* ChargeSpeed */
+     , (44093,  39,     1.2) /* DefaultScale */
      , (44093,  64,     0.8) /* ResistSlash */
      , (44093,  65,    0.25) /* ResistPierce */
      , (44093,  66,     0.7) /* ResistBludgeon */
@@ -54,17 +53,17 @@ VALUES (44093,   1,       5) /* HeartbeatInterval */
      , (44093,  68,     0.3) /* ResistCold */
      , (44093,  69,     0.8) /* ResistAcid */
      , (44093,  70,     0.4) /* ResistElectric */
-     , (44093, 166,     1.1) /* ResistNether */
      , (44093,  71,       1) /* ResistHealthBoost */
      , (44093,  72,       1) /* ResistStaminaDrain */
      , (44093,  73,       1) /* ResistStaminaBoost */
      , (44093,  74,       1) /* ResistManaDrain */
      , (44093,  75,       1) /* ResistManaBoost */
      , (44093,  80,       3) /* AiUseMagicDelay */
-     , (44093, 117,     0.5) /* FocusedProbability */
      , (44093, 104,      10) /* ObviousRadarRange */
+     , (44093, 117,     0.5) /* FocusedProbability */
      , (44093, 122,       2) /* AiAcquireHealth */
-     , (44093, 125,       1) /* ResistHealthDrain */;
+     , (44093, 125,       1) /* ResistHealthDrain */
+     , (44093, 166,     1.1) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44093,   1, 'Mu-miyah Vizier') /* Name */
@@ -72,12 +71,12 @@ VALUES (44093,   1, 'Mu-miyah Vizier') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44093,   1,   33554433) /* Setup */
-     , (44093,   2,  150995189) /* MotionTable */
+     , (44093,   2,  150994981) /* MotionTable */
      , (44093,   3,  536870942) /* SoundTable */
+     , (44093,   4,  805306368) /* CombatTable */
      , (44093,   6,   67108990) /* PaletteBase */
      , (44093,   7,  268435645) /* ClothingBase */
      , (44093,   8,  100669122) /* Icon */
-     , (44093,   4,  805306368) /* CombatTable */
      , (44093,  22,  872415272) /* PhysicsEffectTable */
      , (44093,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
@@ -110,26 +109,25 @@ VALUES (44093,  0,  4,  0,    0,  460,  250,  150,  275,  250,  100,  250,  150,
      , (44093,  2,  4,  0,    0,  460,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (44093,  3,  4,  0,    0,  460,  250,  150,  275,  250,  100,  250,  150,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (44093,  4,  4,  0,    0,  460,  250,  150,  275,  250,  100,  250,  150,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (44093,  5,  4,  450, 0.75,  460,  250,  150,  275,  250,  100,  250,  150,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (44093,  5,  4, 450, 0.75,  460,  250,  150,  275,  250,  100,  250,  150,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (44093,  6,  4,  0,    0,  460,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (44093,  7,  4,  0,    0,  460,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (44093,  8,  4,  400, 0.75,  460,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (44093,  8,  4, 400, 0.75,  460,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44093,  4442,   2.06)  /* Incantation of Force Blast */
-     , (44093,  4424,   2.06)  /*  Incantation of Force Arc */
-     , (44093,  6192,   2.06)  /* Nuhmudira's Spines */
-     , (44093,  2174,   2.06)  /*  Archer's Gift */
-     , (44093,  4489,   2.06)  /*  Incantation of Fester Other */;
+VALUES (44093,  2174,   2.06)  /* Archer's Gift */
+     , (44093,  4424,   2.06)  /* Incantation of Force Arc */
+     , (44093,  4442,   2.06)  /* Incantation of Force Blast */
+     , (44093,  4489,   2.06)  /* Incantation of Fester Other */
+     , (44093,  6192,   2.06)  /* Nuhmudira's Spines II */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44093, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
      , (44093, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (44093, 9, 48908,  1, 0, 0.03, False) /* Create Shattered Legendary Forge Key (48908) for ContainTreasure */
+     , (44093, 9, 48908,  1, 0, 0.03, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (44093, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (44093, 9, 44121,  1, 0, 0.20, False) /* Create Sandstone Armor Key (44121) for ContainTreasure */
-     , (44093, 9, 44122,  1, 0, 0.20, False) /* Create Sandstone Magic Key (44122) for ContainTreasure */
-     , (44093, 9, 44123,  1, 0, 0.20, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
-     , (44093, 9, 44124,  1, 0, 0.20, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
-     , (44093, 9,     0,  0, 0, 0.20, False) /* Create nothing for ContainTreasure */;
-
+     , (44093, 9, 44121,  1, 0, 0.2, False) /* Create Sandstone Armor Key (44121) for ContainTreasure */
+     , (44093, 9, 44122,  1, 0, 0.2, False) /* Create Sandstone Magic Key (44122) for ContainTreasure */
+     , (44093, 9, 44123,  1, 0, 0.2, False) /* Create Sandstone Mixed Key (44123) for ContainTreasure */
+     , (44093, 9, 44124,  1, 0, 0.2, False) /* Create Sandstone Weapon Key (44124) for ContainTreasure */
+     , (44093, 9,     0,  0, 0, 0.2, False) /* Create nothing for ContainTreasure */;

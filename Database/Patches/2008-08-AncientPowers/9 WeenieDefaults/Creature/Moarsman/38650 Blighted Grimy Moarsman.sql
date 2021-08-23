@@ -1,11 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38650;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38650, 'ace38650-blightedgrimymoarsman', 10, '2020-07-23 03:33:40') /* Creature */;
+VALUES (38650, 'ace38650-blightedgrimymoarsman', 10, '2021-07-27 03:33:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38650,   1,         16) /* ItemType - Creature */
-     , (38650,   2,         34) /* CreatureType - Moarsman */
+     , (38650,   2,         98) /* CreatureType - BlightedMoarsman */
      , (38650,   3,         71) /* PaletteTemplate - DullRed */
      , (38650,   6,         -1) /* ItemsCapacity */
      , (38650,   7,         -1) /* ContainersCapacity */
@@ -14,7 +14,7 @@ VALUES (38650,   1,         16) /* ItemType - Creature */
      , (38650,  27,          0) /* ArmorType - None */
      , (38650,  40,          2) /* CombatMode - Melee */
      , (38650,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-     , (38650,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (38650,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (38650, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (38650, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (38650, 140,          1) /* AiOptions - CanOpenDoors */
@@ -73,10 +73,6 @@ VALUES (38650,   1,   33556882) /* Setup */
      , (38650,  30,         84) /* PhysicsScript - BreatheFlame */
      , (38650,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38650, 8040, 14418298, 50.9029, -38.2511, -5.9936, -0.618024, 0, 0, -0.786159) /* PCAPRecordedLocation */
-/* @teleloc 0x00DC017A [50.902900 -38.251100 -5.993600] -0.618024 0.000000 0.000000 -0.786159 */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38650,   1, 230, 0, 0) /* Strength */
      , (38650,   2, 230, 0, 0) /* Endurance */
@@ -109,12 +105,6 @@ VALUES (38650,  0,  4, 300,    0,  425,  350,  400,  400,  375,  400,  400,  325
      , (38650,  7,  4, 300,    0,  425,  350,  400,  400,  375,  400,  400,  325,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (38650,  8,  4, 300, 0.75,  425,  350,  400,  400,  375,  400,  400,  325,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */
      , (38650, 22, 16, 400,  0.4,  425,  350,  400,  400,  375,  400,  400,  325,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38650, 9, 24477,  1, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (38650, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (38650, 9, 32274,  1, 0, 0.20, False) /* Create Moarsmuck (32274) for ContainTreasure */
-     , (38650, 9,     0,  0, 0, 0.80, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (38650,  5 /* HeartBeat */,  0.045, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
@@ -172,3 +162,8 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0);
 
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38650, 9, 24477,  1, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (38650, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
+     , (38650, 9, 32274,  1, 0, 0.2, False) /* Create Moarsmuck (32274) for ContainTreasure */
+     , (38650, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */;

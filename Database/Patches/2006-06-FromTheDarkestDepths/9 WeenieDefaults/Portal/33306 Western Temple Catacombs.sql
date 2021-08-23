@@ -8,10 +8,17 @@ VALUES (33306,   1,      65536) /* ItemType - Portal */
      , (33306,  16,         32) /* ItemUseable - Remote */
      , (33306,  86,        100) /* MinLevel */
      , (33306,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (33306, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (33306, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33306,   1, True ) /* Stuck */;
+VALUES (33306,   1, True ) /* Stuck */
+     , (33306,  12, True ) /* ReportCollisions */
+     , (33306,  13, True ) /* Ethereal */
+     , (33306,  14, True ) /* GravityStatus */
+     , (33306,  15, True ) /* LightsStatus */
+     , (33306,  19, True ) /* Attackable */
+     , (33306,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33306,  54,    -0.1) /* UseRadius */;

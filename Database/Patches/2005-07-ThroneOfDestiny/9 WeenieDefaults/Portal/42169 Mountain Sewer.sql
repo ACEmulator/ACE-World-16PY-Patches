@@ -27,6 +27,7 @@ VALUES (42169,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42169,   1, 'Mountain Sewer') /* Name */
      , (42169,  16, 'A portal leading to the Mountain Sewer where the Ancient Arbalest may be found.') /* LongDesc */
+     , (42169,  37, 'fachubmountainsewerportal_flag') /* QuestRestriction */
      , (42169,  38, 'Mountain Sewer (60.9S, 82.0E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42169,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42169, 2, 3845324859, 181.116, 51.568, 51.2093, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0xE533003B [181.116000 51.568000 51.209300] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0xE533003B [181.115997 51.568001 51.209301] 1.000000 0.000000 0.000000 0.000000 */;

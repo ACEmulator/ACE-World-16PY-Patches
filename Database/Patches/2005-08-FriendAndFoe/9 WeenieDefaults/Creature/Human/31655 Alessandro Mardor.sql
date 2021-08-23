@@ -38,13 +38,7 @@ VALUES (31655,   1,   33554433) /* Setup */
      , (31655,   2,  150994945) /* MotionTable */
      , (31655,   3,  536870913) /* SoundTable */
      , (31655,   6,   67108990) /* PaletteBase */
-     , (31655,   8,  100667446) /* Icon */
-     , (31655,   9,   83890445) /* EyesTexture */
-     , (31655,  10,   83890557) /* NoseTexture */
-     , (31655,  11,   83890658) /* MouthTexture */
-     , (31655,  15,   67117078) /* HairPalette */
-     , (31655,  16,   67110064) /* EyesPalette */
-     , (31655,  17,   67115902) /* SkinPalette */;
+     , (31655,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31655,   1,  60, 0, 0) /* Strength */
@@ -136,7 +130,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Excellent work, friend! You
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'PolarDilloTask', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  31 /* EraseQuest */, 0, 1, NULL, 'PolarDilloKills', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  49 /* AwardLevelProportionalXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, 0, 250000, NULL, NULL, NULL, False, NULL, NULL, NULL, 1.33000004291534, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  4,  34 /* AddCharacterTitle */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 105 /* PolardilloPummeler */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  4,  34 /* AddCharacterTitle */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 105, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 31615 /* Polardillo Pummeler Plaque */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  6,  10 /* Tell */, 0, 1, NULL, 'Congratulations! You are now truly a Polardillo Pummeler!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

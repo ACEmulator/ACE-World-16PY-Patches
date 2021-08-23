@@ -1,0 +1,17 @@
+Generation:
+	- Delay: 10, Say: No!!!!
+	- Delay: 2, Motion: KneelState
+	- Delay: 1, Say: Arggh!
+	- Delay: 4, Say: You... You're the one ... who warned me about my mother's assassination... Why?
+	- Delay: 10, Motion: Ready
+	- Delay: 2, Say: Leave... Her... Alone!
+	- LocalBroadcast: The Apparition of Borelean Strathelar struggles against the magical bonds that hold him.
+	- Motion: KneelState
+	- Delay: 7, Say: NO!!!!
+	- Motion: Ready
+	- Motion: ShakeFist
+	- LocalBroadcast: The Apparition of Borelean Strathelar struggles against the magical bonds that hold him, almost escaping before the magic redoubles and pins him to the ground. 
+	- Motion: KneelState
+	- Delay: 18, Motion: Dead
+	- Sound: Death2
+	- Delay: 3, DeleteSelf

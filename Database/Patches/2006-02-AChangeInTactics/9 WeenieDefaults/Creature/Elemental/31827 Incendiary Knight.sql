@@ -66,7 +66,7 @@ VALUES (31827,   1,   33559683) /* Setup */
      , (31827,   6,   67116522) /* PaletteBase */
      , (31827,   7,  268437042) /* ClothingBase */
      , (31827,   8,  100670274) /* Icon */
-     , (31827,  22,  872415349) /* PhysicsEffectTable */
+     , (31827,  22,  872415344) /* PhysicsEffectTable */
      , (31827,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -85,13 +85,13 @@ VALUES (31827,   1,  6000, 0, 0, 6130) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (31827,  6, 0, 3, 0, 395, 0, 0) /* MeleeDefense        Specialized */
      , (31827,  7, 0, 3, 0, 410, 0, 0) /* MissileDefense      Specialized */
-     , (31827, 45, 0, 3, 0, 410, 0, 0) /* LightWespons        Specialized */
      , (31827, 14, 0, 3, 0, 170, 0, 0) /* ArcaneLore          Specialized */
      , (31827, 15, 0, 3, 0, 205, 0, 0) /* MagicDefense        Specialized */
      , (31827, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */
      , (31827, 31, 0, 3, 0, 115, 0, 0) /* CreatureEnchantment Specialized */
      , (31827, 33, 0, 3, 0, 115, 0, 0) /* LifeMagic           Specialized */
-     , (31827, 34, 0, 3, 0, 115, 0, 0) /* WarMagic            Specialized */;
+     , (31827, 34, 0, 3, 0, 115, 0, 0) /* WarMagic            Specialized */
+     , (31827, 45, 0, 3, 0, 410, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (31827,  0, 16,  0,    0,  200,  200,  200,  200,  200,  200,  220,  220,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -119,5 +119,5 @@ VALUES (31827,   276,  2.008)  /* Magic Resistance Self III */
      , (31827,  2318,  2.017)  /* Gravity Well */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
-VALUES (31827,  94) /* ATTACK_NOTIFICATION_EVENT */
-     , (31827, 414) /* PLAYER_DEATH_EVENT */;
+VALUES (31827,  94)
+     , (31827, 414);

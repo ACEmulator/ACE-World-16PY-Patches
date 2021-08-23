@@ -27,6 +27,7 @@ VALUES (42156,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42156,   1, 'Dryreach') /* Name */
      , (42156,  16, 'A portal leading a cottage near Dryreach where Yu Vuo-Ki and her missing sister Dansha-Ki may be found.') /* LongDesc */
+     , (42156,  37, 'fachubdryreachportal_flag') /* QuestRestriction */
      , (42156,  38, 'Dryreach (8.5S, 73.3E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42156,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42156, 2, 3681812487, 16.7461, 164.75, 18.006, 0, 0, 0, -1) /* Destination */
-/* @teleloc 0xDB740007 [16.746100 164.750000 18.006000] 0.000000 0.000000 0.000000 -1.000000 */;
+/* @teleloc 0xDB740007 [16.746099 164.750000 18.006001] 0.000000 0.000000 0.000000 -1.000000 */;

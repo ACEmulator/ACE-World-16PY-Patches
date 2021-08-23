@@ -68,7 +68,7 @@ VALUES (31920,   1,   33556454) /* Setup */
      , (31920,   4,  805306376) /* CombatTable */
      , (31920,   8,  100667940) /* Icon */
      , (31920,  22,  872415330) /* PhysicsEffectTable */
-     , (31920,  35,       1004) /* DeathTreasureType - Loot Tier: 7 */;
+     , (31920,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31920,   1, 320, 0, 0) /* Strength */
@@ -120,8 +120,8 @@ VALUES (31920,  1839,   2.13)  /* Blistering Creeper */
      , (31920,  4449,   2.15)  /* Incantation of Frost Volley */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
-VALUES (31920,  94) /* ATTACK_NOTIFICATION_EVENT */
-     , (31920, 414) /* PLAYER_DEATH_EVENT */;
+VALUES (31920,  94)
+     , (31920, 414);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (31920,  5 /* HeartBeat */,  0.075, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

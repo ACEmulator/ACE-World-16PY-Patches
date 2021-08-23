@@ -16,7 +16,7 @@ VALUES (49543,   1,        128) /* ItemType - Misc */
      , (49543,  94,         16) /* TargetType - Creature */
      , (49543, 114,          0) /* Attuned - Normal */
      , (49543, 124,          2) /* Version */
-     , (49543, 266,      49155) /* PetClass */
+     , (49543, 266,      49162) /* PetClass - Wasp */
      , (49543, 280,        213) /* SharedCooldown */
      , (49543, 362,          3) /* SummoningMastery - Naturalist */
      , (49543, 366,         54) /* UseRequiresSkill */

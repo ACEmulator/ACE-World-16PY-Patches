@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9505;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9505, 'gamblercashiergha', 12, '2020-06-12 00:00:00') /* Vendor */;
+VALUES (9505, 'gamblercashiergha', 12, '2021-03-11 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9505,   1,         16) /* ItemType - Creature */
@@ -12,7 +12,7 @@ VALUES (9505,   1,         16) /* ItemType - Creature */
      , (9505,  16,         32) /* ItemUseable - Remote */
      , (9505,  25,          7) /* Level */
      , (9505,  27,          0) /* ArmorType - None */
-     , (9505,  74,     270496) /* MerchandiseItemTypes - Food, Misc, Writable, PromissoryNote */
+     , (9505,  74, 1613561775) /* MerchandiseItemTypes - Food, Useless, SpellComponents, Writable, Key, PromissoryNote, ItemEnchantableTarget, MagicWieldable, TinkeringTool, TinkeringMaterial */
      , (9505,  75,          0) /* MerchandiseMinValue */
      , (9505,  76,    1000000) /* MerchandiseMaxValue */
      , (9505,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
@@ -45,7 +45,7 @@ VALUES (9505,   1,       5) /* HeartbeatInterval */
      , (9505,  18,       1) /* ArmorModVsAcid */
      , (9505,  19,     0.6) /* ArmorModVsElectric */
      , (9505,  37,     0.8) /* BuyPrice */
-     , (9505,  38,       5) /* SellPrice */
+     , (9505,  38,     1.6) /* SellPrice */
      , (9505,  54,       5) /* UseRadius */
      , (9505,  64,       1) /* ResistSlash */
      , (9505,  65,       1) /* ResistPierce */
@@ -170,17 +170,13 @@ VALUES (9505, 2,   134,  0, 9, 1, False) /* Create Tunic (134) for Wield */
      , (9505, 2,   132,  0, 4, 0.6, False) /* Create Shoes (132) for Wield */
      , (9505, 2,   128,  0, 9, 0, False) /* Create Qafiya (128) for Wield */
      , (9505, 2, 10696,  0, 1, 0.6, False) /* Create Apron (10696) for Wield */
-     , (9505, 4,  9516, -1, 0, 0, False) /* Create A Guide to Arshid's Den of Iniquity (9516) for Shop */
-     , (9505, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (9505, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (9505, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (9505, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (9505, 4,  9517, -1, 0, 0, False) /* Create A Guide to Gan-Zo's Den of Iniquity (9517) for Shop */
      , (9505, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (9505, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (9505, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (9505, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (9505, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (9505, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (9505, 4,  2459, -1, 0, 0, False) /* Create Kumiss (2459) for Shop */
+     , (9505, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
      , (9505, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
-     , (9505, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */;
+     , (9505, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */;

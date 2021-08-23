@@ -23,7 +23,8 @@ VALUES (43518,   1, True ) /* Stuck */
      , (43518,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43518,  54,       1) /* UseRadius */;
+VALUES (43518,  41,      60) /* RegenerationInterval */
+     , (43518,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43518,   1, 'Corpse') /* Name */;

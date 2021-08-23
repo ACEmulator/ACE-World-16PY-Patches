@@ -16,7 +16,7 @@ VALUES (35155,   1,         16) /* ItemType - Creature */
      , (35155,  68,          3) /* TargetingTactic - Random, Focused */
      , (35155,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (35155, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
-     , (35155, 113,          1) /* Gender - Male */
+     , (35155, 113,          2) /* Gender - Female */
      , (35155, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (35155, 140,          1) /* AiOptions - CanOpenDoors */
      , (35155, 146,     125000) /* XpOverride */
@@ -95,17 +95,17 @@ VALUES (35155,   1,   300, 0, 0, 500) /* MaxHealth */
      , (35155,   5,   300, 0, 0, 860) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (35155, 45, 0, 3, 0, 308, 0, 0) /* LightWeapons        Specialized */
-     , (35155, 47, 0, 3, 0, 220, 0, 0) /* MissileWeapons      Specialized */
-     , (35155, 46, 0, 3, 0, 293, 0, 0) /* FinesseWeapons      Specialized */
-     , (35155,  6, 0, 3, 0, 310, 0, 0) /* MeleeDefense        Specialized */
+VALUES (35155,  6, 0, 3, 0, 310, 0, 0) /* MeleeDefense        Specialized */
      , (35155,  7, 0, 3, 0, 410, 0, 0) /* MissileDefense      Specialized */
-     , (35155, 44, 0, 3, 0, 308, 0, 0) /* HeavyWeapons        Specialized */
      , (35155, 14, 0, 3, 0, 200, 0, 0) /* ArcaneLore          Specialized */
      , (35155, 15, 0, 3, 0, 243, 0, 0) /* MagicDefense        Specialized */
      , (35155, 31, 0, 3, 0, 225, 0, 0) /* CreatureEnchantment Specialized */
      , (35155, 33, 0, 3, 0, 225, 0, 0) /* LifeMagic           Specialized */
-     , (35155, 34, 0, 3, 0, 225, 0, 0) /* WarMagic            Specialized */;
+     , (35155, 34, 0, 3, 0, 225, 0, 0) /* WarMagic            Specialized */
+     , (35155, 44, 0, 3, 0, 308, 0, 0) /* HeavyWeapons        Specialized */
+     , (35155, 45, 0, 3, 0, 308, 0, 0) /* LightWeapons        Specialized */
+     , (35155, 46, 0, 3, 0, 293, 0, 0) /* FinesseWeapons      Specialized */
+     , (35155, 47, 0, 3, 0, 220, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (35155,  0,  4,  0,    0,  500,  500,  400,  425,  300,  550,  350,  375,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -136,7 +136,7 @@ VALUES (35155,    74,  2.036)  /* Frost Bolt VI */
      , (35155,  1265,  2.009)  /* Drain Mana Other VI */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (35155, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (35155,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

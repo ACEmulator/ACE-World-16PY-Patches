@@ -69,7 +69,7 @@ VALUES (28698,   1,   33559124) /* Setup */
      , (28698,   3,  536870913) /* SoundTable */
      , (28698,   4,  805306368) /* CombatTable */
      , (28698,   6,   67115466) /* PaletteBase */
-     , (28698,   7,  268436944) /* ClothingBase */
+     , (28698,   7,  268436943) /* ClothingBase */
      , (28698,   8,  100677369) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

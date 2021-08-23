@@ -1,11 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49072;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49072, 'ace49072-grievver', 71, '2019-12-06 16:49:22') /* CombatPet */;
+VALUES (49072, 'ace49072-grievver', 71, '2021-07-12 02:38:49') /* CombatPet */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49072,   1,         16) /* ItemType - Creature */
      , (49072,   2,         44) /* CreatureType - Grievver */
+     , (49072,   3,         14) /* PaletteTemplate - Red */
      , (49072,   6,        255) /* ItemsCapacity */
      , (49072,   7,        255) /* ContainersCapacity */
      , (49072,  16,          1) /* ItemUseable - No */
@@ -24,6 +25,7 @@ VALUES (49072,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (49072,  31,      25) /* VisualAwarenessRange */
+     , (49072,  39,     1.1) /* DefaultScale */
      , (49072,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -32,10 +34,14 @@ VALUES (49072,   1, 'Grievver') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49072,   1,   33556698) /* Setup */
      , (49072,   2,  150995098) /* MotionTable */
-     , (49072,   4,  805306368) /* CombatTable - default, verify */
      , (49072,   3,  536871009) /* SoundTable */
+     , (49072,   4,  805306368) /* CombatTable */
+     , (49072,   6,   67112927) /* PaletteBase */
+     , (49072,   7,  268436038) /* ClothingBase */
      , (49072,   8,  100670960) /* Icon */
-     , (49072,  22,  872415364) /* PhysicsEffectTable */;
+     , (49072,  19,         84) /* ActivationAnimation */
+     , (49072,  22,  872415364) /* PhysicsEffectTable */
+     , (49072,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49072,   1, 210, 0, 0) /* Strength */
@@ -61,7 +67,7 @@ VALUES (49072,  6, 0, 3, 0, 570, 0, 313.36962890625) /* MeleeDefense        Spec
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (49072,  0, 16,  0,    0,  570,  570,  570,  570,  570,  570,  570,  570,  570, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
      , (49072, 16, 16,  0,    0,  570,  570,  570,  570,  570,  570,  570,  570,  570, 2, 0.34, 0.34,  0.1,  0.1,  0.1,  0.1, 0.45,  0.5, 0.45,  0.5,  0.5,  0.3) /* Torso */
-     , (49072, 18, 16, 200,  0.5,  570,  570,  570,  570,  570,  570,  570,  570,  570, 2, 0.23, 0.33, 0.35, 0.35, 0.35, 0.35,    0,    0,  0.1,    0,    0,  0.1) /* Arm */
+     , (49072, 18, 16, 994,  0.5,  570,  570,  570,  570,  570,  570,  570,  570,  570, 2, 0.23, 0.33, 0.35, 0.35, 0.35, 0.35,    0,    0,  0.1,    0,    0,  0.1) /* Arm */
      , (49072, 19, 16,  0,    0,  570,  570,  570,  570,  570,  570,  570,  570,  570, 3,    0,    0, 0.35, 0.35, 0.35, 0.35, 0.45,  0.5, 0.45,  0.5,  0.4,  0.6) /* Leg */
-     , (49072, 20, 16, 200, 0.75,  570,  570,  570,  570,  570,  570,  570,  570,  570, 2,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,    0,    0,    0,    0,    0,    0) /* Claw */
-     , (49072, 22, 16, 200,  0.5,  570,  570,  570,  570,  570,  570,  570,  570,  570, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
+     , (49072, 20, 16, 994, 0.75,  570,  570,  570,  570,  570,  570,  570,  570,  570, 2,  0.1,  0.1,  0.1,  0.1,  0.1,  0.1,    0,    0,    0,    0,    0,    0) /* Claw */
+     , (49072, 22, 16, 994,  0.5,  570,  570,  570,  570,  570,  570,  570,  570,  570, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;

@@ -21,8 +21,6 @@ VALUES (25629,   1,          1) /* ItemType - MeleeWeapon */
      , (25629,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (25629,  49,          1) /* WeaponTime */
      , (25629,  51,          1) /* CombatUse - Melee */
-     , (25629,  52,          1) /* ParentLocation */
-     , (25629,  53,        101) /* PlacementPosition */
      , (25629,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25629, 106,        300) /* ItemSpellcraft */
      , (25629, 107,        800) /* ItemCurMana */
@@ -37,23 +35,18 @@ VALUES (25629,   1,          1) /* ItemType - MeleeWeapon */
      , (25629, 166,         31) /* SlayerCreatureType - Human */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25629,  11, True ) /* IgnoreCollisions */
-     , (25629,  13, True ) /* Ethereal */
-     , (25629,  14, True ) /* GravityStatus */
-     , (25629,  19, True ) /* Attackable */
-     , (25629,  22, True ) /* Inscribable */
-     , (25629,  23, True ) /* DestroyOnSell */
+VALUES (25629,  22, True ) /* Inscribable */
      , (25629,  69, False) /* IsSellable */
      , (25629,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25629,   5, -0.025000000372529) /* ManaRate */
-     , (25629,  21, 1.33000004291534) /* WeaponLength */
-     , (25629,  22, 0.300000011920929) /* DamageVariance */
-     , (25629,  29, 1.17999994754791) /* WeaponDefense */
+VALUES (25629,   5,  -0.025) /* ManaRate */
+     , (25629,  21,    1.33) /* WeaponLength */
+     , (25629,  22,     0.3) /* DamageVariance */
+     , (25629,  29,    1.18) /* WeaponDefense */
      , (25629,  39,       1) /* DefaultScale */
-     , (25629,  62, 1.23000001907349) /* WeaponOffense */
-     , (25629, 138, 3.40000009536743) /* SlayerDamageBonus */
+     , (25629,  62,    1.23) /* WeaponOffense */
+     , (25629, 138,     3.4) /* SlayerDamageBonus */
      , (25629, 151,       1) /* IgnoreShield */
      , (25629, 155,       1) /* IgnoreArmor */;
 

@@ -20,8 +20,6 @@ VALUES (41640,   1,          1) /* ItemType - MeleeWeapon */
      , (41640,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41640,  49,          1) /* WeaponTime */
      , (41640,  51,          5) /* CombatUse - TwoHanded */
-     , (41640,  52,          1) /* ParentLocation */
-     , (41640,  53,        101) /* PlacementPosition */
      , (41640,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41640, 106,        300) /* ItemSpellcraft */
      , (41640, 107,        800) /* ItemCurMana */
@@ -32,27 +30,22 @@ VALUES (41640,   1,          1) /* ItemType - MeleeWeapon */
      , (41640, 158,          2) /* WieldRequirements - RawSkill */
      , (41640, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41640, 160,        325) /* WieldDifficulty */
-     , (41640, 166,         31) /* SlayerCreatureType - Human */
-	 , (41640, 353,         11) /* WeaponType - TwoHanded */;
+     , (41640, 166,         31) /* SlayerCreatureType - Human */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41640,  11, True ) /* IgnoreCollisions */
-     , (41640,  13, True ) /* Ethereal */
-     , (41640,  14, True ) /* GravityStatus */
-     , (41640,  19, True ) /* Attackable */
-     , (41640,  22, True ) /* Inscribable */
+VALUES (41640,  22, True ) /* Inscribable */
      , (41640,  69, False) /* IsSellable */
      , (41640,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41640,   5, -0.025000000372529) /* ManaRate */
+VALUES (41640,   5,  -0.025) /* ManaRate */
      , (41640,  21,       0) /* WeaponLength */
      , (41640,  22,     0.5) /* DamageVariance */
      , (41640,  26,       0) /* MaximumVelocity */
-     , (41640,  29, 1.17999994754791) /* WeaponDefense */
-     , (41640,  62, 1.23000001907349) /* WeaponOffense */
+     , (41640,  29,    1.18) /* WeaponDefense */
+     , (41640,  62,    1.23) /* WeaponOffense */
      , (41640,  63,       1) /* DamageMod */
-     , (41640, 138, 3.40000009536743) /* SlayerDamageBonus */
+     , (41640, 138,     3.4) /* SlayerDamageBonus */
      , (41640, 151,       1) /* IgnoreShield */
      , (41640, 155,       1) /* IgnoreArmor */;
 

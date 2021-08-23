@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31405;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31405, 'ace31405-ravenhunter', 10, '2019-03-26 20:02:53') /* Creature */;
+VALUES (31405, 'ace31405-ravenhunter', 10, '2021-01-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31405,   1,         16) /* ItemType - Creature */
@@ -26,9 +26,6 @@ VALUES (31405,   1, True ) /* Stuck */
      , (31405,   6, True ) /* AiUsesMana */
      , (31405,   7, True ) /* AiUseHumanMagicAnimations */
      , (31405,  10, True ) /* AttackerAi */
-     , (31405,  11, False) /* IgnoreCollisions */
-     , (31405,  12, True ) /* ReportCollisions */
-     , (31405,  13, False) /* Ethereal */
      , (31405,  58, True ) /* SpellQueueActive */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -38,21 +35,21 @@ VALUES (31405,   1,       5) /* HeartbeatInterval */
      , (31405,   4,      10) /* StaminaRate */
      , (31405,   5,       3) /* ManaRate */
      , (31405,  12,    0.25) /* Shade */
-     , (31405,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (31405,  13,     0.9) /* ArmorModVsSlash */
      , (31405,  14,       1) /* ArmorModVsPierce */
-     , (31405,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (31405,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (31405,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (31405,  15,     1.1) /* ArmorModVsBludgeon */
+     , (31405,  16,     0.4) /* ArmorModVsCold */
+     , (31405,  17,     0.4) /* ArmorModVsFire */
      , (31405,  18,       1) /* ArmorModVsAcid */
-     , (31405,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (31405,  19,     0.6) /* ArmorModVsElectric */
      , (31405,  31,      12) /* VisualAwarenessRange */
-     , (31405,  64, 0.670000016689301) /* ResistSlash */
-     , (31405,  65, 0.670000016689301) /* ResistPierce */
-     , (31405,  66, 0.670000016689301) /* ResistBludgeon */
-     , (31405,  67, 0.670000016689301) /* ResistFire */
-     , (31405,  68, 0.670000016689301) /* ResistCold */
-     , (31405,  69, 0.670000016689301) /* ResistAcid */
-     , (31405,  70, 0.670000016689301) /* ResistElectric */
+     , (31405,  64,    0.67) /* ResistSlash */
+     , (31405,  65,    0.67) /* ResistPierce */
+     , (31405,  66,    0.67) /* ResistBludgeon */
+     , (31405,  67,    0.67) /* ResistFire */
+     , (31405,  68,    0.67) /* ResistCold */
+     , (31405,  69,    0.67) /* ResistAcid */
+     , (31405,  70,    0.67) /* ResistElectric */
      , (31405,  71,       1) /* ResistHealthBoost */
      , (31405,  72,       1) /* ResistStaminaDrain */
      , (31405,  74,       1) /* ResistManaDrain */
@@ -63,7 +60,6 @@ VALUES (31405,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31405,   1, 'Raven Hunter') /* Name */
-     , (31405,   3, 'Male') /* Sex */
      , (31405,   5, 'Raven Hand') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -73,14 +69,17 @@ VALUES (31405,   1,   33554433) /* Setup */
      , (31405,   4,  805306368) /* CombatTable */
      , (31405,   6,   67108990) /* PaletteBase */
      , (31405,   8,  100667446) /* Icon */
-     , (31405,   9,   83890516) /* EyesTexture */
-     , (31405,  10,   83890521) /* NoseTexture */
-     , (31405,  11,   83890645) /* MouthTexture */
-     , (31405,  15,   67117076) /* HairPalette */
-     , (31405,  16,   67109564) /* EyesPalette */
-     , (31405,  17,   67109560) /* SkinPalette */
      , (31405,  22,  872415236) /* PhysicsEffectTable */
-     , (31405,  32,       2018) /* WieldedTreasureType */
+     , (31405,  32,       2018) /* WieldedTreasureType - 
+                                   Wield Raven Bow (31391) | Probability: 50%
+                                   Wield 30x Deadly Arrow (15429) | Probability: 100%
+                                   Wield Raven Crossbow (31385) | Probability: 50%
+                                   Wield 30x Deadly Quarrel (15438) | Probability: 100%
+                                   Wield Raven Sabra (31386) | Probability: 20%
+                                   Wield Raven Sabra (31387) | Probability: 20%
+                                   Wield Raven Sabra (31388) | Probability: 20%
+                                   Wield Raven Sabra (31389) | Probability: 20%
+                                   Wield Raven Sabra (31390) | Probability: 20% */
      , (31405,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -133,5 +132,8 @@ VALUES (31405, 2,    57,  0, 93, 0, True) /* Create Platemail Gauntlets (57) for
      , (31405, 2,  6045,  1, 93, 0.25, False) /* Create Celdon Leggings (6045) for Wield */
      , (31405, 2,  6046,  1, 39, 0.232225, True) /* Create Amuli Coat (6046) for Wield */
      , (31405, 9, 32940,  0,  0, 0.05, False) /* Create Dark Monolith Caverns Portal Gem (32940) for ContainTreasure */
+     , (31405, 9,     0,  0,  0, 0.95, False) /* Create nothing for ContainTreasure */
      , (31405, 9, 30823,  0,  0, 0.05, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
-	 , (31405, 9, 30823,  0,  0, 0.05, False) /* Ancient Empyrean Trinket (34276) for ContainTreasure */;
+     , (31405, 9,     0,  0,  0, 0.95, False) /* Create nothing for ContainTreasure */
+	 , (31405, 9, 30823,  0,  0, 0.05, False) /* Ancient Empyrean Trinket (34276) for ContainTreasure */
+     , (31405, 9,     0,  0,  0, 0.95, False) /* Create nothing for ContainTreasure */;

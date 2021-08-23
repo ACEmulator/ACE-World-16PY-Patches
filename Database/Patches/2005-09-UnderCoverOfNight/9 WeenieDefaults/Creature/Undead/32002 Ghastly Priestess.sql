@@ -31,7 +31,7 @@ VALUES (32002,   1,       5) /* HeartbeatInterval */
      , (32002,   3, 0.800000011920929) /* HealthRate */
      , (32002,   4,     0.5) /* StaminaRate */
      , (32002,   5,       2) /* ManaRate */
-     , (32002,  12,     0.5) /* Shade */
+     , (32002,  12,     0.4) /* Shade */
      , (32002,  13,       1) /* ArmorModVsSlash */
      , (32002,  14,       1) /* ArmorModVsPierce */
      , (32002,  15,       1) /* ArmorModVsBludgeon */
@@ -72,7 +72,28 @@ VALUES (32002,   1,   33559744) /* Setup */
      , (32002,   7,  268437062) /* ClothingBase */
      , (32002,   8,  100667942) /* Icon */
      , (32002,  22,  872415272) /* PhysicsEffectTable */
-     , (32002,  32,       2019) /* WieldedTreasureType */
+     , (32002,  32,       2019) /* WieldedTreasureType - 
+                                   Wield Arbalest (47852) | Probability: 16%
+                                   Wield 20x Quarrel (48020) | Probability: 100%
+                                   Wield Acid Crossbow (47854) | Probability: 16%
+                                   Wield 20x Acid Quarrel (48021) | Probability: 100%
+                                   Wield Electric Crossbow (47856) | Probability: 16%
+                                   Wield 20x Lightning Quarrel (48022) | Probability: 100%
+                                   Wield Nekode (48026) | Probability: 4%
+                                   Wield Lightning Nekode (48028) | Probability: 4%
+                                   Wield Acid Nekode (48027) | Probability: 4%
+                                   Wield Katar (48024) | Probability: 4%
+                                   Wield Lightning Katar (48025) | Probability: 4%
+                                   Wield Acid Katar (48023) | Probability: 4%
+                                   Wield Silifi (48029) | Probability: 10.8%
+                                   Wield Lightning Silifi (48031) | Probability: 10.8%
+                                   Wield Acid Silifi (48030) | Probability: 10.8%
+                                   Wield Ono (48032) | Probability: 10.8%
+                                   Wield Lightning Ono (48034) | Probability: 10.8%
+                                   Wield Acid Ono (48033) | Probability: 10.8%
+                                   Wield Buckler (44) | Probability: 25%
+                                   Wield Kite Shield (91) | Probability: 25%
+                                   Wield Round Shield (93) | Probability: 25% */
      , (32002,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

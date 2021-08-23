@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28661;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28661, 'penguinubermid', 10, '2021-01-15 00:00:00') /* Creature */;
+VALUES (28661, 'penguinubermid', 10, '2021-03-13 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28661,   1,         16) /* ItemType - Creature */
      , (28661,   2,         80) /* CreatureType - Penguin */
-     , (28661,   3,         39) /* PaletteTemplate - Black */
+     , (28661,   3,          2) /* PaletteTemplate - Blue */
      , (28661,   6,         -1) /* ItemsCapacity */
      , (28661,   7,         -1) /* ContainersCapacity */
      , (28661,  16,          1) /* ItemUseable - No */
@@ -41,7 +41,7 @@ VALUES (28661,   1,       5) /* HeartbeatInterval */
      , (28661,  31,      20) /* VisualAwarenessRange */
      , (28661,  34,       1) /* PowerupTime */
      , (28661,  36,       1) /* ChargeSpeed */
-     , (28661,  39,     0.9) /* DefaultScale */
+     , (28661,  39,     2.2) /* DefaultScale */
      , (28661,  64,    0.86) /* ResistSlash */
      , (28661,  65,    0.75) /* ResistPierce */
      , (28661,  66,    0.66) /* ResistBludgeon */
@@ -69,7 +69,7 @@ VALUES (28661,   1,   33559122) /* Setup */
      , (28661,   6,   67116355) /* PaletteBase */
      , (28661,   7,  268436945) /* ClothingBase */
      , (28661,   8,  100677366) /* Icon */
-     , (28661,  22,  872415411) /* PhysicsEffectTable */
+     , (28661,  22,  872415258) /* PhysicsEffectTable */
      , (28661,  35,        998) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
