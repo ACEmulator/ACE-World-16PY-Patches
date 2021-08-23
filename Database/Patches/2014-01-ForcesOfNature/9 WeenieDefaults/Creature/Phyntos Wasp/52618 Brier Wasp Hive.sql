@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52618;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52618, 'ace52618-brierwasphive', 10, '2020-07-18 13:58:22') /* Creature */;
+VALUES (52618, 'ace52618-brierwasphive', 10, '2021-08-16 13:58:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52618,   1,         16) /* ItemType - Creature */
      , (52618,   2,          9) /* CreatureType - PhyntosWasp */
      , (52618,   5,          3) /* EncumbranceVal */
-     , (52618,   6,        255) /* ItemsCapacity */
-     , (52618,   7,        255) /* ContainersCapacity */
+     , (52618,   6,         -1) /* ItemsCapacity */
+     , (52618,   7,         -1) /* ContainersCapacity */
      , (52618,  16,          1) /* ItemUseable - No */
      , (52618,  25,         90) /* Level */
      , (52618,  27,          0) /* ArmorType - None */
@@ -70,7 +70,7 @@ VALUES (52618,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52618,   1, 'Brier Wasp Hive') /* Name */
-     , (52618,  15, 'A hollowed out tree trunk that has a Phyntos Wasp Hive in it.') /* ShortDesc */
+     , (52618,  15, 'A hollowed out tree trunk that has a Brier Wasp Hive in it.') /* ShortDesc */
      , (52618,  45, 'KilltaskViridianWasp') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

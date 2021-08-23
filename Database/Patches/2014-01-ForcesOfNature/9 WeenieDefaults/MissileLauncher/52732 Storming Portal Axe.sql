@@ -17,7 +17,6 @@ VALUES (52732,   1,        256) /* ItemType - MissileWeapon */
 	 , (52732,  44,         75) /* Damage */
      , (52732,  45,         64) /* DamageType - Electric */
 	 , (52732,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
-     , (52732,  47,         47) /* DefaultCombatStyle - ThrownWeapon */
 	 , (52732,  48,         47) /* WeaponSkill - MissileWeapons */
 	 , (52732,  49,         10) /* WeaponTime */
      , (52732,  51,          2) /* CombatUse - Missle */
