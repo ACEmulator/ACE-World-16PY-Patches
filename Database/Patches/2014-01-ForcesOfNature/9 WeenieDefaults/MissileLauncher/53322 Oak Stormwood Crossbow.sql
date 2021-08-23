@@ -47,7 +47,7 @@ VALUES (53322,   5,  -0.025) /* ManaRate */
      , (53322, 150,    1.01) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53322,   1, 'Oak Stormwood Crossbow') /* Name */
+VALUES (53322,   1, 'Stormwood Crossbow') /* Name */
      , (53322,  14, 'This item may be tinkered and imbued like any loot-generated weapon.') /* Use */
      , (53322,  16, 'A crossbow imbued with the energies of the Viridian Rise.') /* LongDesc */;
 
