@@ -12,7 +12,7 @@ VALUES (46366,   1,       1) /* ItemType - MeleeWeapon */
      , (46366,  16,       1) /* ItemUseable - No */
      , (46366,  18,      32) /* UiEffects - Fire */
      , (46366,  19,     340) /* Value */
-     , (46366,  44,     200) /* Damage */
+     , (46366,  44,     600) /* Damage */
      , (46366,  45,      16) /* DamageType - Fire */
      , (46366,  46,       2) /* DefaultCombatStyle - OneHanded */
      , (46366,  47,       6) /* AttackType - Thrust, Slash */

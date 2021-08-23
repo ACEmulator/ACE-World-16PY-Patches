@@ -12,7 +12,7 @@ VALUES (46367,   1,       1) /* ItemType - MeleeWeapon */
      , (46367,  16,       1) /* ItemUseable - No */
      , (46367,  18,     128) /* UiEffects - Frost */
      , (46367,  19,     340) /* Value */
-     , (46367,  44,     200) /* Damage */
+     , (46367,  44,     600) /* Damage */
      , (46367,  45,       8) /* DamageType - Frost */
      , (46367,  46,       2) /* DefaultCombatStyle - OneHanded */
      , (46367,  47,       6) /* AttackType - Thrust, Slash */

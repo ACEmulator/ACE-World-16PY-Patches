@@ -12,7 +12,7 @@ VALUES (46370,    1,          1) /* ItemType - MeleeWeapon */
      , (46370,   18,         32) /* UiEffects - Fire */	 
      , (46370,   19,        125) /* Value */
      , (46370,   33,         -2) /* Bonded - Destroy */
-     , (46370,   44,        180) /* Damage */
+     , (46370,   44,        400) /* Damage */
      , (46370,   45,         16) /* DamageType - Fire */
      , (46370,   46,          1) /* DefaultCombatStyle - Unarmed */
      , (46370,   47,          1) /* AttackType - Punch */

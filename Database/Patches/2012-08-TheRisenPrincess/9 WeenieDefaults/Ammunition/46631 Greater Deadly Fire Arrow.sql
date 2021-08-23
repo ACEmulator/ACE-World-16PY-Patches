@@ -17,7 +17,7 @@ VALUES (46631,   1,        256) /* ItemType - MissileWeapon */
      , (46631,  16,          1) /* ItemUseable - No */
      , (46631,  18,         32) /* UiEffects - Fire */
      , (46631,  19,         11) /* Value */
-     , (46631,  44,         40) /* Damage */
+     , (46631,  44,         80) /* Damage */
      , (46631,  45,         16) /* DamageType - Fire */
      , (46631,  50,          1) /* AmmoType - Arrow */
      , (46631,  51,          3) /* CombatUse - Ammo */

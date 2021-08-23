@@ -13,7 +13,7 @@ VALUES (46606,   1,        1) /* ItemType - MeleeWeapon */
      , (46606,  18,       32) /* UiEffects - Fire */
      , (46606,  19,     1150) /* Value */
      , (46606,  33,       -2) /* Bonded - Destroy */
-     , (46606,  44,      180) /* Damage */
+     , (46606,  44,      500) /* Damage */
      , (46606,  45,       16) /* DamageType - Fire */
      , (46606,  46,        8) /* DefaultCombatStyle - TwoHanded */
      , (46606,  47,        4) /* AttackType - Slash */

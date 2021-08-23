@@ -12,7 +12,7 @@ VALUES (46604,   1,        1) /* ItemType - MeleeWeapon */
      , (46604,  16,        1) /* ItemUseable - No */
      , (46604,  19,      260) /* Value */
      , (46604,  33,       -2) /* Bonded - Destroy */
-     , (46604,  44,      180) /* Damage */
+     , (46604,  44,      500) /* Damage */
      , (46604,  45,        4) /* DamageType - Bludgeon */
      , (46604,  46,        8) /* DefaultCombatStyle - TwoHanded */
      , (46604,  47,        4) /* AttackType - Slash */

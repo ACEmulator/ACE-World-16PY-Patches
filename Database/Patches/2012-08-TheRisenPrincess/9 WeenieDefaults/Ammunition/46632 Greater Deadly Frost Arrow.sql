@@ -17,7 +17,7 @@ VALUES (46632,   1,        256) /* ItemType - MissileWeapon */
      , (46632,  16,          1) /* ItemUseable - No */
      , (46632,  18,        128) /* UiEffects - Frost */
      , (46632,  19,         11) /* Value */
-     , (46632,  44,         40) /* Damage */
+     , (46632,  44,         80) /* Damage */
      , (46632,  45,          8) /* DamageType - Cold */
      , (46632,  50,          1) /* AmmoType - Arrow */
      , (46632,  51,          3) /* CombatUse - Ammo */

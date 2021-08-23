@@ -12,7 +12,7 @@ VALUES (46364,   1,       1) /* ItemType - MeleeWeapon */
      , (46364,  16,       1) /* ItemUseable - No */
      , (46364,  18,     256) /* UiEffects - Acid */
      , (46364,  19,     340) /* Value */
-     , (46364,  44,     200) /* Damage */
+     , (46364,  44,     600) /* Damage */
      , (46364,  45,      32) /* DamageType - Acid */
      , (46364,  46,       2) /* DefaultCombatStyle - OneHanded */
      , (46364,  47,       6) /* AttackType - Thrust, Slash */

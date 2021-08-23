@@ -11,7 +11,7 @@ VALUES (46646,   1,         1) /* ItemType - MeleeWeapon */
      , (46646,  16,         1) /* ItemUseable - No */
      , (46646,  18,       256) /* UiEffects - Acid */
      , (46646,  19,       340) /* Value */
-     , (46646,  44,       180) /* Damage */
+     , (46646,  44,       500) /* Damage */
      , (46646,  45,        32) /* DamageType - Acid */
      , (46646,  46,         8) /* DefaultCombatStyle - TwoHanded */
      , (46646,  47,         4) /* AttackType - Slash */

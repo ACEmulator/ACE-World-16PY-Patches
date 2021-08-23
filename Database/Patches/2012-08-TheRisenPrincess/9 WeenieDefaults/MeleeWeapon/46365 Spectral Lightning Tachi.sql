@@ -12,7 +12,7 @@ VALUES (46365,   1,       1) /* ItemType - MeleeWeapon */
      , (46365,  16,       1) /* ItemUseable - No */
      , (46365,  18,      64) /* UiEffects - Lightning */
      , (46365,  19,     340) /* Value */
-     , (46365,  44,     200) /* Damage */
+     , (46365,  44,     600) /* Damage */
      , (46365,  45,      64) /* DamageType - Lightning */
      , (46365,  46,       2) /* DefaultCombatStyle - OneHanded */
      , (46365,  47,       6) /* AttackType - Thrust, Slash */

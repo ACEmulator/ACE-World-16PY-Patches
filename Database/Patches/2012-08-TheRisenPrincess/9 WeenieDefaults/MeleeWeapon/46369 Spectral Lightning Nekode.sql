@@ -12,7 +12,7 @@ VALUES (46369,    1,         1) /* ItemType - MeleeWeapon */
      , (46369,   18,        64) /* UiEffects - Lightning */
      , (46369,   19,       340) /* Value */
      , (46369,   33,        -2) /* Bonded - Destroy */
-     , (46369,   44,       180) /* Damage */
+     , (46369,   44,       400) /* Damage */
      , (46369,   45,        64) /* DamageType - Lightning */
      , (46369,   46,         1) /* DefaultCombatStyle - Unarmed */
      , (46369,   47,         1) /* AttackType - Punch */

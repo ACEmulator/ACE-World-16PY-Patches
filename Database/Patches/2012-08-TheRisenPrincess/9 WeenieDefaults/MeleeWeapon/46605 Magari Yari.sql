@@ -12,7 +12,7 @@ VALUES (46605,   1,        1) /* ItemType - MeleeWeapon */
      , (46605,  16,        1) /* ItemUseable - No */
      , (46605,  19,      170) /* Value */
      , (46605,  33,       -2) /* Bonded - Destroy */
-     , (46605,  44,      180) /* Damage */
+     , (46605,  44,      500) /* Damage */
      , (46605,  45,        2) /* DamageType - Pierce  */
      , (46605,  46,        8) /* DefaultCombatStyle - TwoHanded */
      , (46605,  47,      256) /* AttackType - DoubleThrust + Thrust_AttackType */

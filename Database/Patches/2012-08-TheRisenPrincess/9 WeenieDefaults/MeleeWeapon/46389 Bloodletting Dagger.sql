@@ -12,7 +12,7 @@ VALUES (46389,   1,       1) /* ItemType - MeleeWeapon */
      , (46389,  16,       1) /* ItemUseable - No */
      , (46389,  19,     340) /* Value */
      , (46389,  33,      -2) /* Bonded - Destroy */
-     , (46389,  44,     180) /* Damage */
+     , (46389,  44,     500) /* Damage */
      , (46389,  45,      32) /* DamageType - Acid */
      , (46389,  46,       2) /* DefaultCombatStyle - OneHanded */
      , (46389,  47,       6) /* AttackType - Thrust, Slash */
@@ -25,6 +25,7 @@ VALUES (46389,  22, False ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46389, 12,     0.5) /* Shade */
+     , (46389, 22,     0.5) /* DamageVariance */
      , (46389, 76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

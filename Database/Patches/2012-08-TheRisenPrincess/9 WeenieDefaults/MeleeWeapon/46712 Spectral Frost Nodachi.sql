@@ -11,7 +11,7 @@ VALUES (46712,   1,         1) /* ItemType - MeleeWeapon */
      , (46712,  16,         1) /* ItemUseable - No */
      , (46712,  18,       128) /* UiEffects - Frost */
      , (46712,  19,       340) /* Value */
-     , (46712,  44,       400) /* Damage */
+     , (46712,  44,       500) /* Damage */
      , (46712,  45,         8) /* DamageType - Cold */
      , (46712,  46,         8) /* DefaultCombatStyle - TwoHanded */
      , (46712,  47,         4) /* AttackType - Slash */
