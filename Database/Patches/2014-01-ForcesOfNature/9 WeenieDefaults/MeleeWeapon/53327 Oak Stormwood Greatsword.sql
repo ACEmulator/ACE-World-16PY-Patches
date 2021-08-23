@@ -46,7 +46,7 @@ VALUES (53327,   5, -0.025) /* ManaRate */
      , (53327, 150,   1.01) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53327,   1, 'Oak Stormwood Greatsword') /* Name */
+VALUES (53327,   1, 'Stormwood Greatsword') /* Name */
      , (53327,  14, 'This item may be tinkered and imbued like any loot-generated weapon.') /* Use */
      , (53327,  16, 'A two handed sword imbued with the energies of the Viridian Rise.') /* LongDesc */;
 

@@ -47,7 +47,7 @@ VALUES (72004,   5,  -0.025) /* ManaRate */
      , (72004, 150,    1.01) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (72004,   1, 'Oak Stormwood Atlatl') /* Name */
+VALUES (72004,   1, 'Stormwood Atlatl') /* Name */
      , (72004,  14, 'This item may be tinkered and imbued like any loot-generated weapon.') /* Use */
      , (72004,  16, 'An atlatl imbued with the energies of the Viridian Rise.') /* LongDesc */;
 
