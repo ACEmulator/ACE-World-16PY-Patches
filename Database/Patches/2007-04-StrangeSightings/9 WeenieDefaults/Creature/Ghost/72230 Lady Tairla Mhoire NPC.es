@@ -7,6 +7,7 @@ HeartBeat: Style: NonCombat, Substyle: Ready
     - InqMyQuest: GYColoRewardGiverInProgress@Countdown
         QuestFailure:
             - LocalSignal: SpawnRemains
+            - StopEvent: LadyMhoireWin
             - DeleteSelf
 
 Use:
@@ -14,7 +15,6 @@ Use:
     - InqMyQuestSolves: GYColoRewardGiven@10-10, 10 - 10
         QuestSuccess:
             - Tell: I am sorry hero, but I have no more keys to give.
-            - DirectBroadcast: You must wait %tqt before attempting this quest again.
         QuestFailure:
             - InqQuest: LadyMhoireRewardWait
                 QuestSuccess:

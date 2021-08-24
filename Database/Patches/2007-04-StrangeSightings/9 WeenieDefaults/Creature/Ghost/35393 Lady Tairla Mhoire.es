@@ -1,5 +1,5 @@
 Death:
-    - LocalSignal: LadyMhoireWin
+    - StartEvent: LadyMhoireWin
 
 Homesick: Probability: 0.2
     - LocalBroadcast: Why do you leave the floor so soon? I will not leave the dance!

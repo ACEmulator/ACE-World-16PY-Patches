@@ -1,2 +1,2 @@
 Death:
-    - LocalSignal: RangerLordWin
+    - StartEvent: LordGrymarWin

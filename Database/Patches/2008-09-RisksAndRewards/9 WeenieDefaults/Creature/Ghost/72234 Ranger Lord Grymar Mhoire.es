@@ -7,6 +7,7 @@ HeartBeat: Style: NonCombat, Substyle: Ready
     - InqMyQuest: GYColoRewardGiverInProgress@Countdown
         QuestFailure:
             - LocalSignal: SpawnRemains
+            - StopEvent: LordGrymarWin
             - DeleteSelf
 
 Use:

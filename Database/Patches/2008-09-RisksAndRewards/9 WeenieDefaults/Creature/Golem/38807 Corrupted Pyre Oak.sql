@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38807;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38807, 'ace38807-corruptedpyreoak', 10, '2021-04-19 10:22:16') /* Creature */;
+VALUES (38807, 'ace38807-corruptedpyreoak', 10, '2021-08-24 10:29:22') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38807,   1,         16) /* ItemType - Creature */
@@ -38,7 +38,7 @@ VALUES (38807,   1,       5) /* HeartbeatInterval */
      , (38807,   3,     0.9) /* HealthRate */
      , (38807,   4,     0.5) /* StaminaRate */
      , (38807,   5,       2) /* ManaRate */
-     , (38807,  12,       0) /* Shade */
+     , (38807,  12,     0.5) /* Shade */
      , (38807,  13,    0.75) /* ArmorModVsSlash */
      , (38807,  14,    0.96) /* ArmorModVsPierce */
      , (38807,  15,    0.96) /* ArmorModVsBludgeon */
@@ -82,7 +82,8 @@ VALUES (38807,   1,   33560678) /* Setup */
      , (38807,   6,   67112776) /* PaletteBase */
      , (38807,   7,  268435983) /* ClothingBase */
      , (38807,   8,  100667940) /* Icon */
-     , (38807,  22,  872415327) /* PhysicsEffectTable */;
+     , (38807,  22,  872415327) /* PhysicsEffectTable */
+     , (38807,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (38807,  0,  4,  0,    0,  350,  175,  175,  175,  175,  175,  175,  175,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -126,7 +127,7 @@ VALUES (38807, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 88 /* LocalSignal */, 0, 1, NULL, 'RangerLordWin', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 23 /* StartEvent */, 0, 1, NULL, 'LordGrymarWin', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38807, 9, 35383,  0, 0,  0.8, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
@@ -164,6 +165,5 @@ VALUES (38807, 9, 35383,  0, 0,  0.8, False) /* Create Ancient Mhoire Coin (3538
      , (38807, 9, 37245,  0, 0,0.003, False) /* Create Queen of Hands (37245) for ContainTreasure */
      , (38807, 9, 37246,  0, 0,0.003, False) /* Create King of Hands (37246) for ContainTreasure */
      , (38807, 9,     0,  0, 0,0.922, False) /* Create nothing for ContainTreasure */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38807, -1, 38806, 0, 4, 4, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Spectral Handmaiden (42026) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (38807, -1, 38806, 0, 4, 4, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corrupted Pyre Spark (38806) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

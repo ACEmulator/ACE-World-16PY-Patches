@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35393;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35393, 'ace35393-ladytairlamhoire', 10, '2021-04-18 12:59:35') /* Creature */;
+VALUES (35393, 'ace35393-ladytairlamhoire', 10, '2021-08-24 10:29:33') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35393,   1,         16) /* ItemType - Creature */
@@ -79,7 +79,7 @@ VALUES (35393,   1,   33560297) /* Setup */
      , (35393,   4,  805306368) /* CombatTable */
      , (35393,   8,  100669124) /* Icon */
      , (35393,  22,  872415403) /* PhysicsEffectTable */
-     , (35393,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
+     , (35393,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (35393,  0,  8,  0,    0,  400,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -119,14 +119,14 @@ VALUES (35393,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35393,  2074,   2.04) /* Gossamer Flesh */
-     , (35393,  2135,   2.042) /* Winter's Embrace */
-     , (35393,  2136,   2.043) /* Icy Torment */
-     , (35393,  2138,   2.045) /* Blizzard */
-     , (35393,  2168,   2.048) /* Gelidite's Gift */
+     , (35393,  2135,  2.042) /* Winter's Embrace */
+     , (35393,  2136,  2.043) /* Icy Torment */
+     , (35393,  2138,  2.045) /* Blizzard */
+     , (35393,  2168,  2.048) /* Gelidite's Gift */
      , (35393,  3879,   2.05) /* Glacial Strike */
-     , (35393,  3884,   2.053) /* Glacial Ring */
-     , (35393,  3950,   2.056) /* Frost Wave */
-     , (35393,  4447,   2.059) /* Incantation of Frost Bolt */;
+     , (35393,  3884,  2.053) /* Glacial Ring */
+     , (35393,  3950,  2.056) /* Frost Wave */
+     , (35393,  4447,  2.059) /* Incantation of Frost Bolt */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35393, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -134,7 +134,7 @@ VALUES (35393, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 88 /* LocalSignal */, 0, 1, NULL, 'LadyMhoireWin', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 23 /* StartEvent */, 0, 1, NULL, 'LadyMhoireWin', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35393, 19 /* Homesick */, 0.2, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -202,6 +202,5 @@ VALUES (35393, 9, 35383,  0, 0,  0.8, False) /* Create Ancient Mhoire Coin (3538
      , (35393, 9,     0,  0, 0,  0.9, False) /* Create nothing for ContainTreasure */
      , (35393, 9, 35105,  1, 0,  0.1, False) /* Create Pyre Shroud (35105) for ContainTreasure */
      , (35393, 9,     0,  0, 0,  0.9, False) /* Create nothing for ContainTreasure */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35393, -1, 72215, 0, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Spectral Handmaiden (42026) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (35393, -1, 72215, 0, 2, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Spectral Handmaiden (72215) (x2 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
