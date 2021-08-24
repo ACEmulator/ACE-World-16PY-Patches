@@ -4,21 +4,21 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (41961, 'ace41961-corrupteddread', 10, '2020-05-09 20:25:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (41961,   1,         16) /* ItemType - Creature */
-     , (41961,   2,         77) /* CreatureType - Ghost */
-     , (41961,   3,          9) /* PaletteTemplate - Grey */
-     , (41961,   6,         -1) /* ItemsCapacity */
-     , (41961,   7,         -1) /* ContainersCapacity */
-     , (41961,  16,          1) /* ItemUseable - No */
-     , (41961,  25,        220) /* Level */
-     , (41961,  27,          0) /* ArmorType - None */
-     , (41961,  40,          2) /* CombatMode - Melee */
-     , (41961,  68,          3) /* TargetingTactic - Random, Focused */
-     , (41961,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (41961, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (41961, 140,          1) /* AiOptions - CanOpenDoors */
-     , (41961, 146,    1400000) /* XpOverride */
-     , (41961, 332,        120) /* LuminanceAward */;
+VALUES (41961,   1,      16) /* ItemType - Creature */
+     , (41961,   2,      77) /* CreatureType - Ghost */
+     , (41961,   3,       8) /* PaletteTemplate */
+     , (41961,   6,      -1) /* ItemsCapacity */
+     , (41961,   7,      -1) /* ContainersCapacity */
+     , (41961,  16,       1) /* ItemUseable - No */
+     , (41961,  25,     220) /* Level */
+     , (41961,  27,       0) /* ArmorType - None */
+     , (41961,  40,       2) /* CombatMode - Melee */
+     , (41961,  68,       3) /* TargetingTactic - Random, Focused */
+     , (41961,  93,    1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (41961, 133,       2) /* ShowableOnRadar - ShowMovement */
+     , (41961, 140,       1) /* AiOptions - CanOpenDoors */
+     , (41961, 146, 1400000) /* XpOverride */
+     , (41961, 332,     120) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41961,   1, True ) /* Stuck */
@@ -47,6 +47,7 @@ VALUES (41961,   1,       5) /* HeartbeatInterval */
      , (41961,  31,      18) /* VisualAwarenessRange */
      , (41961,  34,       1) /* PowerupTime */
      , (41961,  36,       1) /* ChargeSpeed */
+     , (41961,  39,     0.8) /* DefaultScale */
      , (41961,  64,    0.80) /* ResistSlash */
      , (41961,  65,    0.80) /* ResistPierce */
      , (41961,  66,    0.79) /* ResistBludgeon */
@@ -59,7 +60,7 @@ VALUES (41961,   1,       5) /* HeartbeatInterval */
      , (41961,  73,       1) /* ResistStaminaBoost */
      , (41961,  74,       1) /* ResistManaDrain */
      , (41961,  75,       1) /* ResistManaBoost */
-     , (41961,  76,     0.5) /* Translucency */
+     , (41961,  76,     0.7) /* Translucency */
      , (41961, 104,      10) /* ObviousRadarRange */
      , (41961, 122,       2) /* AiAcquireHealth */
      , (41961, 125,       1) /* ResistHealthDrain */;
@@ -69,15 +70,15 @@ VALUES (41961,   1, 'Corrupted Dread') /* Name */
      , (41961,  45, 'KilltaskGraveyardSpirit_1309') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41961,   1,   33558816) /* Setup */
-     , (41961,   2,  150995302) /* MotionTable */
-     , (41961,   3,  536871094) /* SoundTable */
-     , (41961,   4,  805306429) /* CombatTable */
-     , (41961,   6,   67115251) /* PaletteBase */
-     , (41961,   7,  268436835) /* ClothingBase */
-     , (41961,   8,  100676679) /* Icon */
-     , (41961,  22,  872415403) /* PhysicsEffectTable */
-     , (41961,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
+VALUES (41961,  1,  33558816) /* Setup */
+     , (41961,  2, 150995302) /* MotionTable */
+     , (41961,  3, 536871094) /* SoundTable */
+     , (41961,  4, 805306429) /* CombatTable */
+     , (41961,  6,  67115251) /* PaletteBase */
+     , (41961,  7, 268436835) /* ClothingBase */
+     , (41961,  8, 100676679) /* Icon */
+     , (41961, 22, 872415403) /* PhysicsEffectTable */
+     , (41961, 35,      1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (41961,   1, 490, 0, 0) /* Strength */

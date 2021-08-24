@@ -17,16 +17,17 @@ VALUES (46816,   1,         16) /* ItemType - Creature */
      , (46816, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (46816, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (46816, 140,          1) /* AiOptions - CanOpenDoors */
-     , (46816, 146,    1400000) /* XpOverride */
-     , (46816, 332,         60) /* LuminanceAward */;
+     , (46816, 146,    2200000) /* XpOverride */
+     , (46816, 332,        120) /* LuminanceAward */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46816,   1, True ) /* Stuck */
-     , (46816,   6, True ) /* AiUsesMana */
-     , (46816,  11, False) /* IgnoreCollisions */
-     , (46816,  12, True ) /* ReportCollisions */
-     , (46816,  13, False) /* Ethereal */
-     , (46816,  50, True ) /* NeverFailCasting */;
+VALUES (46816,  1,    True) /* Stuck */
+     , (46816,  6,    True) /* AiUsesMana */
+     , (46816, 11,   False) /* IgnoreCollisions */
+     , (46816, 12,    True) /* ReportCollisions */
+     , (46816, 13,   False) /* Ethereal */
+     , (46816, 42,    True) /* AllowEdgeSlide */
+     , (46816, 50,    True) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46816,   1,       5) /* HeartbeatInterval */
@@ -88,9 +89,9 @@ VALUES (46816,   1, 500, 0, 0) /* Strength */
      , (46816,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46816,   1,  6662, 0, 0, 6831) /* MaxHealth */
-     , (46816,   3,  7000, 0, 0, 7338) /* MaxStamina */
-     , (46816,   5,  4000, 0, 0, 4382) /* MaxMana */;
+VALUES (46816,   1,  6581, 0, 0, 6831) /* MaxHealth */
+     , (46816,   3,  4200, 0, 0, 4700) /* MaxStamina */
+     , (46816,   5,  3500, 0, 0, 3900) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (46816,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
@@ -132,8 +133,8 @@ VALUES (46816, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield
      , (46816, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (46816, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
      , (46816, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (46816, 9, 35504,  0, 0, 0.02, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
-     , (46816, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (46816, 9, 35504,  0, 0, 0.01, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
+     , (46816, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
      , (46816, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
      , (46816, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (46816, 9, 37247,  0, 0, 0.003, False) /* Create Ace of Eyes (37247) for ContainTreasure */
