@@ -304,8 +304,8 @@ VALUES (0x7482E3FA, 46815, 0x482E0038, 155.231, 177.075, 21.2083, -0.998455, 0, 
 /* @teleloc 0x482E0038 [155.231003 177.074997 21.208300] -0.998455 0.000000 0.000000 0.055566 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7482E3FB, 72213, 0x482E0136, 20.8826, 37.7151, 3.71, 0.70710677, -0, -0, -0.70710677, False, '2021-04-10 15:18:48'); /* Lady Saliane Gen */
-/* @teleloc 0x482E0136 [20.882601 37.715099 3.710000] 0.707107 -0.000000 -0.000000 -0.707107 */
+VALUES (0x7482E3FB, 72213, 0x482E0136, 20.8826, 37.7151, 3.71, 0.707107, 0, 0, -0.707107, False, '2021-04-10 15:18:48'); /* Lady Saliane Gen */
+/* @teleloc 0x482E0136 [20.882601 37.715099 3.710000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7482E3FC, 72226, 0x482E000C, 44.6427, 88.4833, 10.055, -0.0109922, 0, 0, 0.99994, False, '2021-04-11 09:41:26'); /* GY Night Ghost Wanderer Gen */
@@ -358,7 +358,3 @@ VALUES (0x7482E408, 72232, 0x482E0013, 57.5737, 53.7725, 10.055, -0.627001, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7482E409, 72233, 0x482E0013, 57.5737, 53.7725, 10.055, -0.627001, 0, 0, -0.779018, False, '2021-04-14 12:06:58'); /* Noble Remains Gen */
 /* @teleloc 0x482E0013 [57.573700 53.772499 10.055000] -0.627001 0.000000 0.000000 -0.779018 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7482E40A, 72251, 0x482E0012, 48.0674, 44.8304, 10.055, -0.999831, 0, 0, -0.0183922, False, '2021-04-19 10:07:44'); /* GY Rare Spawn Stopgap Gen */
-/* @teleloc 0x482E0012 [48.067402 44.830399 10.055000] -0.999831 0.000000 0.000000 -0.018392 */

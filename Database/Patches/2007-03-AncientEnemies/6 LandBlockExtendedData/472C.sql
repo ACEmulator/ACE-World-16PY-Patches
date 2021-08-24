@@ -142,13 +142,9 @@ VALUES (0x7472C1F1, 72217, 0x472C0014, 55.5275, 82.054, 7.42771, 0.0590237, 0, 0
 /* @teleloc 0x472C0014 [55.527500 82.054001 7.427710] 0.059024 0.000000 0.000000 0.998257 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7472C1F2, 72251, 0x472C000B, 42.722, 63.2032, 8.055, 0.999709, 0, 0, -0.0241225, False, '2021-04-19 10:10:02'); /* GY Rare Spawn Stopgap Gen */
-/* @teleloc 0x472C000B [42.722000 63.203201 8.055000] 0.999709 0.000000 0.000000 -0.024123 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7472C1F3, 72252, 0x472C0013, 59.2685, 69.773, 7.11596, 0.92781, 0, 0, -0.373052, False, '2021-04-19 10:13:03'); /* Ranger Lord Grymar Gen */
 /* @teleloc 0x472C0013 [59.268501 69.773003 7.115960] 0.927810 0.000000 0.000000 -0.373052 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7472C1F4, 72233, 0x472C0013, 59.26849, 69.77305, 7.1159596, 0.9278104, 0, 0, -0.37305215, False, '2021-04-19 11:24:31'); /* Noble Remains Gen */
-/* @teleloc 0x472C0013 [59.268490 69.773048 7.115960] 0.927810 0.000000 0.000000 -0.373052 */
+VALUES (0x7472C1F4, 72233, 0x472C0013, 59.2685, 69.773, 7.11596, 0.92781, 0, 0, -0.373052, False, '2021-04-19 11:24:31'); /* Noble Remains Gen */
+/* @teleloc 0x472C0013 [59.268501 69.773003 7.115960] 0.927810 0.000000 0.000000 -0.373052 */
