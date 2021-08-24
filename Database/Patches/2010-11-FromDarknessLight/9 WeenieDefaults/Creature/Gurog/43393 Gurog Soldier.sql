@@ -1,4 +1,3 @@
-
 DELETE FROM `weenie` WHERE `class_Id` = 43393;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -21,7 +20,7 @@ VALUES (43393,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43393,   1, True ) /* Stuck */
-     , (43393,   6, False ) /* AiUsesMana */
+     , (43393,   6, False) /* AiUsesMana */
      , (43393,  11, False) /* IgnoreCollisions */
      , (43393,  12, True ) /* ReportCollisions */
      , (43393,  13, False) /* Ethereal */
@@ -64,7 +63,7 @@ VALUES (43393,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43393,   1, 'Gurog Soldier') /* Name */
-     , (43393,  45, 'gurogsoldierkillcount') /* KillQuest */;
+     , (43393,  45, 'KillTaskGurogSoldier1110') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43393,   1,   33561132) /* Setup */
@@ -95,7 +94,7 @@ VALUES (43393,  6, 0, 3, 0, 470, 0, 0) /* MeleeDefense        Specialized */
      , (43393, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
      , (43393, 33, 0, 3, 0, 265, 0, 0) /* LifeMagic           Specialized */
      , (43393, 34, 0, 3, 0, 265, 0, 0) /* WarMagic            Specialized */
-     , (43393, 41, 0, 3, 0, 400, 0, 0) /* Two Handed Weapons  Specialized */
+     , (43393, 41, 0, 3, 0, 400, 0, 0) /* TwoHandedCombat     Specialized */
      , (43393, 45, 0, 3, 0, 420, 0, 0) /* LightWeapons        Specialized */
      , (43393, 46, 0, 3, 0, 420, 0, 0) /* FinesseWeapons      Specialized */;
 
@@ -105,10 +104,10 @@ VALUES (43393,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,
      , (43393,  2,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (43393,  3,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (43393,  4,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (43393,  5,  4, 200, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (43393,  5,  4, 200,  0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (43393,  6,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (43393,  7,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (43393,  8,  4, 200, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (43393,  8,  4, 200,  0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43393,  4312,   2.02)  /* Incantation of Imperil Other */
@@ -116,15 +115,13 @@ VALUES (43393,  4312,   2.02)  /* Incantation of Imperil Other */
      , (43393,  4447,   2.25)  /* Incantation of Frost Bolt */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43393, 10, 43397,  0, 0, 1, False) /* Create Frost Great Axe (43397) for WieldTreasure */
-     , (43393, 9, 48908,  1, 0, 0.02, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
+VALUES (43393, 9, 48908,  1, 0, 0.02, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (43393, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (43393, 9, 44864,  0, 0, 0.02, False) /* Create 44864 Gurog Arm for ContainTreasure */
-     , (43393, 9, 44868,  0, 0, 0.02, False) /* Create 44868 Gurog Torso with a Head for ContainTreasure */
-     , (43393, 9, 44870,  0, 0, 0.02, False) /* Create 44870 Gurog Leg for ContainTreasure */
+     , (43393, 9, 44864,  0, 0, 0.02, False) /* Create Gurog Arm (44864) for ContainTreasure */
+     , (43393, 9, 44868,  0, 0, 0.02, False) /* Create Gurog Torso with a Head (44868) for ContainTreasure */
+     , (43393, 9, 44870,  0, 0, 0.02, False) /* Create Gurog Leg (44870) for ContainTreasure */
      , (43393, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (43393, 9, 51370,  1, 0, 0.05, False) /* Create 51370 Frozen Fortress Testing Grounds Attunement Shard (Level 180+)for ContainTreasure */
-     , (43393, 9, 51341,  1, 0, 0.05, False) /* Create 51341 Frozen Fortress Laboratory Attunement Shard (Level 180+) */
-     , (43393, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */;
-
-
+     , (43393, 9, 51370,  1, 0, 0.05, False) /* Create Frozen Fortress Testing Grounds Attunement Shard (Level 180+) (51370) for ContainTreasure */
+     , (43393, 9, 51341,  1, 0, 0.05, False) /* Create Frozen Fortress Laboratory Attunement Shard (Level 180+) (51341) for ContainTreasure */
+     , (43393, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
+     , (43393, 10, 43397,  0, 0, 1, False) /* Create Frost Greataxe (43397) for WieldTreasure */;

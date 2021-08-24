@@ -16,7 +16,7 @@ VALUES (45029,   1,       2048) /* ItemType - Gem */
      , (45029,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (45029,  94,         16) /* TargetType - Creature */
      , (45029, 280,        100) /* SharedCooldown */
-     , (45029, 349,        202) /* UseCreatesContractId - Verdant Leader */;
+     , (45029, 349,        202) /* UseCreatesContractId - Contract_202_Jailbreak__Verdant_Leader */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45029,  22, True ) /* Inscribable */
@@ -27,6 +27,7 @@ VALUES (45029, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45029,   1, 'Contract for Jailbreak: Verdant Leader') /* Name */
+     , (45029,  14, 'Recommended Level: 180') /* Use */
      , (45029,  16, 'Defeat the Large Verdant Moarsman in the Freebooter Prison.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

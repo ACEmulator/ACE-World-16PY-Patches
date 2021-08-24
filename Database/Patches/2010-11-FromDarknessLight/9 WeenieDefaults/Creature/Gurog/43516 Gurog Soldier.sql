@@ -1,4 +1,3 @@
-
 DELETE FROM `weenie` WHERE `class_Id` = 43516;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -20,7 +19,7 @@ VALUES (43516,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43516,   1, True ) /* Stuck */
-     , (43516,   6, False ) /* AiUsesMana */
+     , (43516,   6, False) /* AiUsesMana */
      , (43516,  11, False) /* IgnoreCollisions */
      , (43516,  12, True ) /* ReportCollisions */
      , (43516,  13, False) /* Ethereal */
@@ -63,7 +62,7 @@ VALUES (43516,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43516,   1, 'Gurog Soldier') /* Name */
-     , (43516,  45, 'gurogsoldierkillcount') /* KillQuest */;
+     , (43516,  45, 'KillTaskGurogSoldier1110') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43516,   1,   33561132) /* Setup */
@@ -94,7 +93,7 @@ VALUES (43516,  6, 0, 3, 0, 470, 0, 0) /* MeleeDefense        Specialized */
      , (43516, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
      , (43516, 33, 0, 3, 0, 265, 0, 0) /* LifeMagic           Specialized */
      , (43516, 34, 0, 3, 0, 265, 0, 0) /* WarMagic            Specialized */
-     , (43516, 41, 0, 3, 0, 400, 0, 0) /* Two Handed Weapons  Specialized */
+     , (43516, 41, 0, 3, 0, 400, 0, 0) /* TwoHandedCombat     Specialized */
      , (43516, 45, 0, 3, 0, 420, 0, 0) /* LightWeapons        Specialized */
      , (43516, 46, 0, 3, 0, 420, 0, 0) /* FinesseWeapons      Specialized */;
 
@@ -104,10 +103,10 @@ VALUES (43516,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,
      , (43516,  2,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (43516,  3,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (43516,  4,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (43516,  5,  4, 200, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (43516,  5,  4, 200,  0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (43516,  6,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (43516,  7,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (43516,  8,  4, 200, 0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (43516,  8,  4, 200,  0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43516,  4312,   2.02)  /* Incantation of Imperil Other */
@@ -115,6 +114,5 @@ VALUES (43516,  4312,   2.02)  /* Incantation of Imperil Other */
      , (43516,  4447,   2.25)  /* Incantation of Frost Bolt */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43516, 10, 43397,  0, 0, 1, False)  /* Create Frost Great Axe (43397) for WieldTreasure */
-     , (43516,  9, 43519,  0, 0, 1, False)  /* Entry way key */;
-
+VALUES (43516, 9, 43519,  0, 0, 1, False) /* Create Entryway Key (43519) for ContainTreasure */
+     , (43516, 10, 43397,  0, 0, 1, False) /* Create Frost Greataxe (43397) for WieldTreasure */;

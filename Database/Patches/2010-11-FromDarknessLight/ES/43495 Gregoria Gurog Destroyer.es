@@ -15,19 +15,19 @@ Use:
     - TurnToTarget
     - InqIntStat: Level, 200 - 999
         TestSuccess:
-            - InqQuest: GurogMinionKillTask
+            - InqQuest: KillTaskGurogMinionCompleted1110 
                 QuestSuccess:
                     - Tell: Thank you again for your assistance. The Minions have been beaten back, but not for long. Return again soon.
                     - Delay: 0.5, DirectBroadcast: You may complete this quest again in %tqt.
                     - Goto: Henchmen
                 QuestFailure:
-                    - InqQuestSolves: gurogminionkillcount@KillTaskInProgress, 1 - 2147483647
+                    - InqQuestSolves: KillTaskGurogMinion1110@KillTaskInProgress, 1 - 2147483647
                         QuestSuccess:
-                            - InqQuest: gurogminionkillcount@KillTaskCompleted
+                            - InqQuest: KillTaskGurogMinion1110@KillTaskCompleted
                                 QuestSuccess:
                                     - Tell: Well done! Always a pleasure to meet someone who shares my hatred of these beasts.
-                                    - StampQuest: GurogMinionKillTask
-                                    - EraseQuest: gurogminionkillcount
+                                    - StampQuest: KillTaskGurogMinionCompleted1110 
+                                    - EraseQuest: KillTaskGurogMinion1110
                                     - AwardNoShareXP: 65,000,000
                                     - AwardLuminance: 2,600
                                     - Give: 52010
@@ -40,25 +40,25 @@ Use:
                         QuestFailure:
                             - Tell: I have made it my mission to rid the land of those... things... which violate the laws of nature before they can infest the rest of Dereth. If you wish to help me then go destroy as many of these things as you can and I shall reward you for your time.
                             - Tell: Kill 20 Gurog Minions and I will reward you for your efforts.
-                            - SetQuestCompletions: gurogminionkillcount, 0
+                            - SetQuestCompletions: KillTaskGurogMinion1110, 0
                             - Goto: Henchmen
         TestFailure:
             - Tell: You do not meet the requirements to do this task, grow stronger and return.
 
 GotoSet: Henchmen
-    - InqQuest: GurogHenchmenKillTask
+    - InqQuest: KillTaskGurogHenchmanCompleted1110
         QuestSuccess:
             - Tell: Thank you again for your assistance. The Henchmen have been beaten back, but not for long. Return again soon.
             - Delay: 0.5, DirectBroadcast: You may complete this quest again in %tqt.
             - Goto: Soldier
         QuestFailure:
-            - InqQuestSolves: guroghenchmenkillcount@KillTaskInProgress, 1 - 2147483647
+            - InqQuestSolves: KillTaskGurogHenchman1110@KillTaskInProgress, 1 - 2147483647
                 QuestSuccess:
-                    - InqQuest: guroghenchmenkillcount@KillTaskCompleted
+                    - InqQuest: KillTaskGurogHenchman1110@KillTaskCompleted
                         QuestSuccess:
                             - Tell: Well done! Ugly creatures aren't they? Glad to be rid of them.
-                            - StampQuest: GurogHenchmenKillTask
-                            - EraseQuest: guroghenchmenkillcount
+                            - StampQuest: KillTaskGurogHenchmanCompleted1110
+                            - EraseQuest: KillTaskGurogHenchman1110
                             - AwardNoShareXP: 80,000,000
                             - AwardLuminance: 2,600
                             - Give: 52010
@@ -70,22 +70,22 @@ GotoSet: Henchmen
                             - Goto: Soldier
                 QuestFailure:
                     - Tell: Kill 20 Gurog Henchmen and I will reward you for your efforts.
-                    - SetQuestCompletions: guroghenchmenkillcount, 0
+                    - SetQuestCompletions: KillTaskGurogHenchman1110, 0
                     - Goto: Soldier
 
 GotoSet: Soldier
-    - InqQuest: GurogSoldierKillTask
+    - InqQuest: KillTaskGurogSoldierCompleted1110
         QuestSuccess:
             - Tell: Thank you again for your assistance. The Soldiers have been beaten back, but not for long. Return again soon.
             - Delay: 0.5, DirectBroadcast: You may complete this quest again in %tqt.
         QuestFailure:
-            - InqQuestSolves: gurogsoldierkillcount@KillTaskInProgress, 1 - 2147483647
+            - InqQuestSolves: KillTaskGurogSoldier1110@KillTaskInProgress, 1 - 2147483647
                 QuestSuccess:
-                    - InqQuest: gurogsoldierkillcount@KillTaskCompleted
+                    - InqQuest: KillTaskGurogSoldier1110@KillTaskCompleted
                         QuestSuccess:
                             - Tell: Well done! Ugly creatures aren't they? Glad to be rid of them.
-                            - StampQuest: GurogSoldierKillTask
-                            - EraseQuest: gurogsoldierkillcount
+                            - StampQuest: KillTaskGurogSoldierCompleted1110
+                            - EraseQuest: KillTaskGurogSoldier1110
                             - AwardNoShareXP: 80,000,000
                             - AwardLuminance: 2,600
                             - Give: 52010
@@ -95,4 +95,4 @@ GotoSet: Soldier
                             - Tell: Return to me after you have killed %tqm Gurog Soldiers and I will reward you.
                 QuestFailure:
                     - Tell: Kill 20 Gurog Soldiers and I will reward you for your efforts.
-                    - SetQuestCompletions: gurogsoldierkillcount, 0
+                    - SetQuestCompletions: KillTaskGurogSoldier1110, 0
