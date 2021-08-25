@@ -1,8 +1,4 @@
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D000,   509, 0xBB9D0000, 155.176, 189.496, 36.6771, 0.90658, 0, 0, 0.422034, False, '2005-02-09 10:00:00'); /* Life Stone */
-/* @teleloc 0xBB9D0000 [155.175995 189.496002 36.677101] 0.906580 0.000000 0.000000 0.422034 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB9D043, 43249, 0xBB9D0038, 157.828, 184.569, 35.6142, -0.950534, 0, 0, 0.31062, False, '2019-02-10 00:00:00'); /* Emissary of Asheron */
 /* @teleloc 0xBB9D0038 [157.828003 184.569000 35.614201] -0.950534 0.000000 0.000000 0.310620 */
 
