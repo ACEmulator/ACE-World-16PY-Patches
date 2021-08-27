@@ -110,22 +110,6 @@ VALUES (46521, 2, 46374,  1, 0, 0, False) /* Create  (46374) for Wield */
      , (46521, 9, 48954,  0, 0, 0.01, False) /* Create Burning Sands Keyring (48954) for Contain Treasure */
      , (46521, 9,     0,  0, 0, 0.99, False) /* Create nothing for Contain Treasure */;
 
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46521,  33, 0, 2, 0, 230, 0, 0) /* LifeMagic */
-     , (46521,  34, 0, 2, 0, 230, 0, 0) /* WarMagic */
-     , (46521,  31, 0, 2, 0, 230, 0, 0) /* CreatureMagic */
-     , (46521,  43, 0, 2, 0, 230, 0, 0) /* VoidMagic */
-     , (46521,  44, 0, 2, 0, 377, 0, 0) /* HeavyWeapons */
-     , (46521,  45, 0, 2, 0, 377, 0, 0) /* LightWeapons */
-     , (46521,  41, 0, 2, 0, 377, 0, 0) /* TwoHanded */
-     , (46521,  46, 0, 2, 0, 427, 0, 0) /* FinesseWeapons */
-     , (46521,  51, 0, 2, 0, 427, 0, 0) /* SneakAttack */
-     , (46521,  49, 0, 2, 0, 427, 0, 0) /* DualWield */
-     , (46521,  47, 0, 2, 0, 185, 0, 0) /* MissileWeapons */
-     , (46521,  15, 0, 2, 0, 394, 0, 0) /* MagicDefense */
-     , (46521,   6, 0, 2, 0, 527, 0, 0) /* MeleeDefense */
-     , (46521,   7, 0, 2, 0, 600, 0, 0) /* MissileDefense */;
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (46521, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -133,3 +117,19 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id, 0, 15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (46521,  33, 0, 2, 0, 290, 0, 0) /* LifeMagic */
+     , (46521,  34, 0, 2, 0, 290, 0, 0) /* WarMagic */
+     , (46521,  31, 0, 2, 0, 290, 0, 0) /* CreatureMagic */
+     , (46521,  43, 0, 2, 0, 290, 0, 0) /* VoidMagic */
+     , (46521,  44, 0, 2, 0, 457, 0, 0) /* HeavyWeapons */
+     , (46521,  45, 0, 2, 0, 457, 0, 0) /* LightWeapons */
+     , (46521,  41, 0, 2, 0, 457, 0, 0) /* TwoHanded */
+     , (46521,  46, 0, 2, 0, 507, 0, 0) /* FinesseWeapons */
+     , (46521,  51, 0, 2, 0, 507, 0, 0) /* SneakAttack */
+     , (46521,  49, 0, 2, 0, 427, 0, 0) /* DualWield */
+     , (46521,  47, 0, 2, 0, 185, 0, 0) /* MissileWeapons */
+     , (46521,  15, 0, 2, 0, 394, 0, 0) /* MagicDefense */
+     , (46521,   6, 0, 2, 0, 367, 0, 0) /* MeleeDefense */
+     , (46521,   7, 0, 2, 0, 560, 0, 0) /* MissileDefense */;

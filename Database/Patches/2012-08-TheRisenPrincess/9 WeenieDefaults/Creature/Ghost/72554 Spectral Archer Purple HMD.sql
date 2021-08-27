@@ -98,7 +98,7 @@ VALUES (72554, 2, 46633,  1, 0, 0, False) /* Create Lightning Longbow (46633) fo
      , (72554, 2, 46629,  1, 0, 0, False) /* Create Greater Deadly Lightning Arrow (46639) for Wield */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72554,  47, 0, 2, 0, 230, 0, 0) /* MissileWeapons */
+VALUES (72554,  47, 0, 2, 0, 310, 0, 0) /* MissileWeapons */
      , (72554,  15, 0, 2, 0, 379, 0, 0) /* MagicDefense */
      , (72554,   6, 0, 2, 0, 530, 0, 0) /* MeleeDefense */
-     , (72554,   7, 0, 2, 0, 660, 0, 0) /* MissileDefense */;
+     , (72554,   7, 0, 2, 0, 620, 0, 0) /* MissileDefense */;

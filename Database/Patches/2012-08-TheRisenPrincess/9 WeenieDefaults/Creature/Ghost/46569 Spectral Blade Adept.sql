@@ -109,17 +109,17 @@ VALUES (46569, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for W
      , (46569, 9,     0, 0, 0, 0.7, False) /* Create nothing for Contain Treasure */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46569,  33, 0, 2, 0, 140, 0, 0) /* LifeMagic */
-     , (46569,  34, 0, 2, 0, 140, 0, 0) /* WarMagic */
-     , (46569,  31, 0, 2, 0, 140, 0, 0) /* CreatureMagic */
-     , (46569,  43, 0, 2, 0, 140, 0, 0) /* VoidMagic */
-     , (46569,  44, 0, 2, 0, 437, 0, 0) /* HeavyWeapons */
-     , (46569,  45, 0, 2, 0, 437, 0, 0) /* LightWeapons */
-     , (46569,  41, 0, 2, 0, 437, 0, 0) /* TwoHanded */
-     , (46569,  46, 0, 2, 0, 427, 0, 0) /* FinesseWeapons */
-     , (46569,  51, 0, 2, 0, 437, 0, 0) /* SneakAttack */
+VALUES (46569,  33, 0, 2, 0, 200, 0, 0) /* LifeMagic */
+     , (46569,  34, 0, 2, 0, 200, 0, 0) /* WarMagic */
+     , (46569,  31, 0, 2, 0, 200, 0, 0) /* CreatureMagic */
+     , (46569,  43, 0, 2, 0, 200, 0, 0) /* VoidMagic */
+     , (46569,  44, 0, 2, 0, 517, 0, 0) /* HeavyWeapons */
+     , (46569,  45, 0, 2, 0, 517, 0, 0) /* LightWeapons */
+     , (46569,  41, 0, 2, 0, 517, 0, 0) /* TwoHanded */
+     , (46569,  46, 0, 2, 0, 507, 0, 0) /* FinesseWeapons */
+     , (46569,  51, 0, 2, 0, 517, 0, 0) /* SneakAttack */
      , (46569,  49, 0, 2, 0, 437, 0, 0) /* DualWield */
      , (46569,  47, 0, 2, 0, 200, 0, 0) /* MissileWeapons */
      , (46569,  15, 0, 2, 0, 343, 0, 0) /* MagicDefense */
-     , (46569,   6, 0, 2, 0, 527, 0, 0) /* MeleeDefense */
-     , (46569,   7, 0, 2, 0, 600, 0, 0) /* MissileDefense */;
+     , (46569,   6, 0, 2, 0, 367, 0, 0) /* MeleeDefense */
+     , (46569,   7, 0, 2, 0, 560, 0, 0) /* MissileDefense */;

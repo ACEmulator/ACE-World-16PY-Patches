@@ -97,10 +97,10 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (72558, 2, 46369,  1, 0, 0, False) /* Create Spectral Lightning Nekode (46369) for Wield */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72558,  44, 0, 2, 0, 407, 0, 0) /* HeavyWeapons */
-     , (72558,  45, 0, 2, 0, 407, 0, 0) /* LightWeapons */
-     , (72558,  41, 0, 2, 0, 407, 0, 0) /* TwoHanded */
-     , (72558,  46, 0, 2, 0, 440, 0, 0) /* FinesseWeapons */
+VALUES (72558,  44, 0, 2, 0, 507, 0, 0) /* HeavyWeapons */
+     , (72558,  45, 0, 2, 0, 507, 0, 0) /* LightWeapons */
+     , (72558,  41, 0, 2, 0, 507, 0, 0) /* TwoHanded */
+     , (72558,  46, 0, 2, 0, 540, 0, 0) /* FinesseWeapons */
      , (72558,  15, 0, 2, 0, 379, 0, 0) /* MagicDefense */
-     , (72558,   6, 0, 2, 0, 530, 0, 0) /* MeleeDefense */
+     , (72558,   6, 0, 2, 0, 400, 0, 0) /* MeleeDefense */
      , (72558,   7, 0, 2, 0, 620, 0, 0) /* MissileDefense */;

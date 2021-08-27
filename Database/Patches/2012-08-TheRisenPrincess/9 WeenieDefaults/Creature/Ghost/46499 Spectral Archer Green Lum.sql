@@ -93,12 +93,6 @@ VALUES (46499,   1,  2000, 0, 0, 2200) /* MaxHealth */
      , (46499,   3,  2000, 0, 0, 2400) /* MaxStamina */
      , (46499,   5,   500, 0, 0,  750) /* MaxMana */;
 
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46499, 47, 0, 2, 0, 230, 0, 0) /* MissileWeapons */
-     , (46499, 15, 0, 2, 0, 379, 0, 0) /* MagicDefense */
-     , (46499,  6, 0, 2, 0, 530, 0, 0) /* MeleeDefense */
-     , (46499,  7, 0, 2, 0, 660, 0, 0) /* MissileDefense */;
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (46499, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -168,3 +162,9 @@ VALUES (46499, 2, 46634,  1, 0,    0, False) /* Create Acid Longbow (46634) for 
      , (46499, 2, 46630,  1, 0,    0, False) /* Create Greater Deadly Acid Arrow (46630) for Wield */
      , (46499, 9, 48954,  0, 0, 0.01, False) /* Create Burning Sands Keyring (48954) for Contain Treasure */
      , (46499, 9,     0,  0, 0, 0.99, False) /* Create nothing for Contain Treasure */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (46499,  47, 0, 2, 0, 310, 0, 0) /* MissileWeapons */
+     , (46499,  15, 0, 2, 0, 379, 0, 0) /* MagicDefense */
+     , (46499,   6, 0, 2, 0, 530, 0, 0) /* MeleeDefense */
+     , (46499,   7, 0, 2, 0, 620, 0, 0) /* MissileDefense */;

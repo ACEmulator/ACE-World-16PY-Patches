@@ -98,7 +98,7 @@ VALUES (72556, 2, 46635,  1, 0, 0, False) /* Create Fire Longbow (46635) for Wie
      , (72556, 2, 46631,  1, 0, 0, False) /* Create Greater Deadly Fire Arrow (46631) for Wield */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72556,  47, 0, 2, 0, 230, 0, 0) /* MissileWeapons */
+VALUES (72556,  47, 0, 2, 0, 310, 0, 0) /* MissileWeapons */
      , (72556,  15, 0, 2, 0, 379, 0, 0) /* MagicDefense */
      , (72556,   6, 0, 2, 0, 530, 0, 0) /* MeleeDefense */
-     , (72556,   7, 0, 2, 0, 660, 0, 0) /* MissileDefense */;
+     , (72556,   7, 0, 2, 0, 620, 0, 0) /* MissileDefense */;

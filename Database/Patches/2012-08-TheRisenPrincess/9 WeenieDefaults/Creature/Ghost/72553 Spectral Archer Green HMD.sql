@@ -98,7 +98,7 @@ VALUES (72553, 2, 46634,  1, 0, 0, False) /* Create Acid Longbow (46634) for Wie
      , (72553, 2, 46630,  1, 0, 0, False) /* Create Greater Deadly Acid Arrow (46630) for Wield */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72553,  47, 0, 2, 0, 230, 0, 0) /* MissileWeapons */
+VALUES (72553,  47, 0, 2, 0, 310, 0, 0) /* MissileWeapons */
      , (72553,  15, 0, 2, 0, 379, 0, 0) /* MagicDefense */
      , (72553,   6, 0, 2, 0, 530, 0, 0) /* MeleeDefense */
-     , (72553,   7, 0, 2, 0, 660, 0, 0) /* MissileDefense */;
+     , (72553,   7, 0, 2, 0, 620, 0, 0) /* MissileDefense */;

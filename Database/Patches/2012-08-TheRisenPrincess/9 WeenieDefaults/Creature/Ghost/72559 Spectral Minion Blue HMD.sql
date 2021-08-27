@@ -103,10 +103,10 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (72559, 2, 46371, 1, 0,   0, False) /* Create Spectral Frost Nekode (46371) for Wield */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72559,  44, 0, 2, 0, 407, 0, 0) /* HeavyWeapons */
-     , (72559,  45, 0, 2, 0, 407, 0, 0) /* LightWeapons */
-     , (72559,  41, 0, 2, 0, 407, 0, 0) /* TwoHanded */
-     , (72559,  46, 0, 2, 0, 440, 0, 0) /* FinesseWeapons */
+VALUES (72559,  44, 0, 2, 0, 507, 0, 0) /* HeavyWeapons */
+     , (72559,  45, 0, 2, 0, 507, 0, 0) /* LightWeapons */
+     , (72559,  41, 0, 2, 0, 507, 0, 0) /* TwoHanded */
+     , (72559,  46, 0, 2, 0, 540, 0, 0) /* FinesseWeapons */
      , (72559,  15, 0, 2, 0, 379, 0, 0) /* MagicDefense */
-     , (72559,   6, 0, 2, 0, 530, 0, 0) /* MeleeDefense */
+     , (72559,   6, 0, 2, 0, 400, 0, 0) /* MeleeDefense */
      , (72559,   7, 0, 2, 0, 620, 0, 0) /* MissileDefense */;

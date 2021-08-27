@@ -102,7 +102,7 @@ VALUES (46562, 2, 46632,  1, 0, 0, False) /* Create Greater Deadly Frost Arrow (
      , (46562, 9,     0, 0, 0, 0.7, False) /* Create nothing for Contain Treasure */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46562,  47, 0, 2, 0, 230, 0, 0) /* MissileWeapons */
+VALUES (46562,  47, 0, 2, 0, 310, 0, 0) /* MissileWeapons */
      , (46562,  15, 0, 2, 0, 379, 0, 0) /* MagicDefense */
      , (46562,   6, 0, 2, 0, 530, 0, 0) /* MeleeDefense */
-     , (46562,   7, 0, 2, 0, 660, 0, 0) /* MissileDefense */;
+     , (46562,   7, 0, 2, 0, 620, 0, 0) /* MissileDefense */;

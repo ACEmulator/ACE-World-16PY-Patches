@@ -107,17 +107,17 @@ VALUES (46522, 2, 46374,  1, 0,    0, False) /* Create Spectral Nekode (46374) f
      , (46522, 9,     0,  0, 0, 0.99, False) /* Create nothing for Contain Treasure */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46522,  33, 0, 2, 0, 160, 0, 0) /* LifeMagic */
-     , (46522,  34, 0, 2, 0, 160, 0, 0) /* WarMagic */
-     , (46522,  31, 0, 2, 0, 160, 0, 0) /* CreatureMagic */
-     , (46522,  43, 0, 2, 0, 160, 0, 0) /* VoidMagic */
-     , (46522,  44, 0, 2, 0, 390, 0, 0) /* HeavyWeapons */
-     , (46522,  45, 0, 2, 0, 390, 0, 0) /* LightWeapons */
-     , (46522,  41, 0, 2, 0, 390, 0, 0) /* TwoHanded */
-     , (46522,  46, 0, 2, 0, 447, 0, 0) /* FinesseWeapons */
-     , (46522,  51, 0, 2, 0, 447, 0, 0) /* SneakAttack */
-     , (46522,  52, 0, 2, 0, 447, 0, 0) /* DirtyFighting */
+VALUES (46522,  33, 0, 2, 0, 220, 0, 0) /* LifeMagic */
+     , (46522,  34, 0, 2, 0, 220, 0, 0) /* WarMagic */
+     , (46522,  31, 0, 2, 0, 220, 0, 0) /* CreatureMagic */
+     , (46522,  43, 0, 2, 0, 220, 0, 0) /* VoidMagic */
+     , (46522,  44, 0, 2, 0, 450, 0, 0) /* HeavyWeapons */
+     , (46522,  45, 0, 2, 0, 450, 0, 0) /* LightWeapons */
+     , (46522,  41, 0, 2, 0, 450, 0, 0) /* TwoHanded */
+     , (46522,  46, 0, 2, 0, 507, 0, 0) /* FinesseWeapons */
+     , (46522,  51, 0, 2, 0, 507, 0, 0) /* SneakAttack */
+     , (46522,  52, 0, 2, 0, 507, 0, 0) /* DirtyFighting */
      , (46522,  49, 0, 2, 0, 447, 0, 0) /* DualWield */
      , (46522,  15, 0, 2, 0, 363, 0, 0) /* MagicDefense */
-     , (46522,   6, 0, 2, 0, 547, 0, 0) /* MeleeDefense */
-     , (46522,   7, 0, 2, 0, 660, 0, 0) /* MissileDefense */;
+     , (46522,   6, 0, 2, 0, 427, 0, 0) /* MeleeDefense */
+     , (46522,   7, 0, 2, 0, 580, 0, 0) /* MissileDefense */;

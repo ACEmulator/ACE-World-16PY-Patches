@@ -162,7 +162,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 6 /* Move */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1, 0, 0, 0);
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46503,  47, 0, 2, 0, 230, 0, 0) /* MissileWeapons */
+VALUES (46503,  47, 0, 2, 0, 310, 0, 0) /* MissileWeapons */
      , (46503,  15, 0, 2, 0, 379, 0, 0) /* MagicDefense */
      , (46503,   6, 0, 2, 0, 530, 0, 0) /* MeleeDefense */
-     , (46503,   7, 0, 2, 0, 660, 0, 0) /* MissileDefense */;
+     , (46503,   7, 0, 2, 0, 620, 0, 0) /* MissileDefense */;

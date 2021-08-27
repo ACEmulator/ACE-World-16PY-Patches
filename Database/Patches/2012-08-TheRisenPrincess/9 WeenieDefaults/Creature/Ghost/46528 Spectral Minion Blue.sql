@@ -98,10 +98,10 @@ VALUES (46528, 2, 46371,  1, 0, 0, False) /* Create Spectral Frost Nekode (46371
      , (46528, 9,     0,  0, 0, 0.99, False) /* Create nothing for Contain Treasure */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46528,  44, 0, 2, 0, 407, 0, 0) /* HeavyWeapons */
-     , (46528,  45, 0, 2, 0, 407, 0, 0) /* LightWeapons */
-     , (46528,  41, 0, 2, 0, 407, 0, 0) /* TwoHanded */
-     , (46528,  46, 0, 2, 0, 440, 0, 0) /* FinesseWeapons */
+VALUES (46528,  44, 0, 2, 0, 507, 0, 0) /* HeavyWeapons */
+     , (46528,  45, 0, 2, 0, 507, 0, 0) /* LightWeapons */
+     , (46528,  41, 0, 2, 0, 507, 0, 0) /* TwoHanded */
+     , (46528,  46, 0, 2, 0, 540, 0, 0) /* FinesseWeapons */
      , (46528,  15, 0, 2, 0, 379, 0, 0) /* MagicDefense */
-     , (46528,   6, 0, 2, 0, 530, 0, 0) /* MeleeDefense */
+     , (46528,   6, 0, 2, 0, 400, 0, 0) /* MeleeDefense */
      , (46528,   7, 0, 2, 0, 620, 0, 0) /* MissileDefense */;

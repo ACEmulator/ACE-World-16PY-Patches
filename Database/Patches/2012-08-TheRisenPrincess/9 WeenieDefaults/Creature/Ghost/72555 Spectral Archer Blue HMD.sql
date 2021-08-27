@@ -98,7 +98,7 @@ VALUES (72555, 2, 46632,  1, 0, 0, False) /* Create Greater Deadly Frost Arrow (
      , (72555, 2, 46636,  1, 0, 0, False) /* Create Frost Longbow (46636) for Wield */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72555,  47, 0, 2, 0, 230, 0, 0) /* MissileWeapons */
+VALUES (72555,  47, 0, 2, 0, 310, 0, 0) /* MissileWeapons */
      , (72555,  15, 0, 2, 0, 379, 0, 0) /* MagicDefense */
      , (72555,   6, 0, 2, 0, 530, 0, 0) /* MeleeDefense */
-     , (72555,   7, 0, 2, 0, 660, 0, 0) /* MissileDefense */;
+     , (72555,   7, 0, 2, 0, 620, 0, 0) /* MissileDefense */;
