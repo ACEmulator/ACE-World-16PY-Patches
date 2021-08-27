@@ -90,16 +90,6 @@ VALUES (48925,   1,     0, 0, 0, 7750) /* MaxHealth */
      , (48925,   3,  3600, 0, 0, 4100) /* MaxStamina */
      , (48925,   5,  2700, 0, 0, 3000) /* MaxMana */;
 
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (48925, 44, 0, 2, 0, 393, 0, 0) /* HeavyWeapons */
-     , (48925, 45, 0, 2, 0, 393, 0, 0) /* LightWeapons */
-     , (48925, 41, 0, 2, 0, 393, 0, 0) /* TwoHanded */
-     , (48925, 46, 0, 2, 0, 450, 0, 0) /* FinesseWeapons */
-     , (48925, 15, 0, 2, 0, 414, 0, 0) /* MagicDefense */
-     , (48925,  6, 0, 2, 0, 540, 0, 0) /* MeleeDefense */
-     , (48925,  7, 0, 2, 0, 616, 0, 0) /* MissileDefense */
-     , (48925, 52, 0, 2, 0, 393, 0, 0) /* DirtyFighting */;
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (48925, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -112,3 +102,13 @@ VALUES (@parent_id, 0, 17 /* LocalBroadcast */, 0, 1, NULL, 'As the Golem crumbl
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48925, 2, 46605,  1, 0,    0, False) /* Create  (46605) for Wield */
      , (48925, 9, 48926,  0, 0,    1, False) /* Create Iron Golem Kachi (48926) for Contain */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (48925,  44, 0, 2, 0, 493, 0, 0) /* HeavyWeapons */
+     , (48925,  45, 0, 2, 0, 493, 0, 0) /* LightWeapons */
+     , (48925,  41, 0, 2, 0, 493, 0, 0) /* TwoHanded */
+     , (48925,  46, 0, 2, 0, 550, 0, 0) /* FinesseWeapons */
+     , (48925,  15, 0, 2, 0, 414, 0, 0) /* MagicDefense */
+     , (48925,   6, 0, 2, 0, 460, 0, 0) /* MeleeDefense */
+     , (48925,   7, 0, 2, 0, 576, 0, 0) /* MissileDefense */
+     , (48925,  52, 0, 2, 0, 493, 0, 0) /* DirtyFighting */;

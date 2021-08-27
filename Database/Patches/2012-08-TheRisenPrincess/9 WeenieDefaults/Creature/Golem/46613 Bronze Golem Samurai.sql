@@ -98,10 +98,10 @@ VALUES (46613, 2, 46605,  1, 0, 1, False) /* Create Magari Yari (46605) for Wiel
      , (46613, 9,     0,  0, 0, 0.99, False) /* Create nothing for Contain Treasure */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46613,  44, 0, 2, 0, 393, 0, 0) /* HeavyWeapons */
-     , (46613,  45, 0, 2, 0, 393, 0, 0) /* LightWeapons */
-     , (46613,  41, 0, 2, 0, 393, 0, 0) /* TwoHanded */
-     , (46613,  46, 0, 2, 0, 450, 0, 0) /* FinesseWeapons */
+VALUES (46613,  44, 0, 2, 0, 493, 0, 0) /* HeavyWeapons */
+     , (46613,  45, 0, 2, 0, 493, 0, 0) /* LightWeapons */
+     , (46613,  41, 0, 2, 0, 493, 0, 0) /* TwoHanded */
+     , (46613,  46, 0, 2, 0, 550, 0, 0) /* FinesseWeapons */
      , (46613,  15, 0, 2, 0, 414, 0, 0) /* MagicDefense */
-     , (46613,   6, 0, 2, 0, 540, 0, 0) /* MeleeDefense */
-     , (46613,   7, 0, 2, 0, 616, 0, 0) /* MissileDefense */;
+     , (46613,   6, 0, 2, 0, 460, 0, 0) /* MeleeDefense */
+     , (46613,   7, 0, 2, 0, 576, 0, 0) /* MissileDefense */;

@@ -107,10 +107,10 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46653,  44, 0, 2, 0, 393, 0, 0) /* HeavyWeapons */
-     , (46653,  45, 0, 2, 0, 393, 0, 0) /* LightWeapons */
-     , (46653,  41, 0, 2, 0, 393, 0, 0) /* TwoHanded */
-     , (46653,  46, 0, 2, 0, 450, 0, 0) /* FinesseWeapons */
+VALUES (46653,  44, 0, 2, 0, 433, 0, 0) /* HeavyWeapons */
+     , (46653,  45, 0, 2, 0, 433, 0, 0) /* LightWeapons */
+     , (46653,  41, 0, 2, 0, 433, 0, 0) /* TwoHanded */
+     , (46653,  46, 0, 2, 0, 490, 0, 0) /* FinesseWeapons */
      , (46653,  15, 0, 2, 0, 414, 0, 0) /* MagicDefense */
-     , (46653,   6, 0, 2, 0, 540, 0, 0) /* MeleeDefense */
-     , (46653,   7, 0, 2, 0, 616, 0, 0) /* MissileDefense */;
+     , (46653,   6, 0, 2, 0, 510, 0, 0) /* MeleeDefense */
+     , (46653,   7, 0, 2, 0, 576, 0, 0) /* MissileDefense */;

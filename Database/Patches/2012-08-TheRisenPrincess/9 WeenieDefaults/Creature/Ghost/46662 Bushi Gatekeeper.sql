@@ -102,11 +102,11 @@ VALUES (46662, 2, 46364,  1, 0, 0, False) /* Create  (46364) for Wield */
      , (46662, 9, 46598,  1, 0, 0, False) /* Create Broken Key (46598) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46662,  44, 0, 2, 0, 377, 0, 0) /* HeavyWeapons */
-     , (46662,  45, 0, 2, 0, 377, 0, 0) /* LightWeapons */
-     , (46662,  41, 0, 2, 0, 377, 0, 0) /* TwoHanded */
-     , (46662,  46, 0, 2, 0, 427, 0, 0) /* FinesseWeapons */
-     , (46662,  52, 0, 2, 0, 427, 0, 0) /* DirtyFighting */
+VALUES (46662,  44, 0, 2, 0, 467, 0, 0) /* HeavyWeapons */
+     , (46662,  45, 0, 2, 0, 467, 0, 0) /* LightWeapons */
+     , (46662,  41, 0, 2, 0, 467, 0, 0) /* TwoHanded */
+     , (46662,  46, 0, 2, 0, 517, 0, 0) /* FinesseWeapons */
+     , (46662,  52, 0, 2, 0, 517, 0, 0) /* DirtyFighting */
      , (46662,  15, 0, 2, 0, 374, 0, 0) /* MagicDefense */
-     , (46662,   6, 0, 2, 0, 507, 0, 0) /* MeleeDefense */
+     , (46662,   6, 0, 2, 0, 457, 0, 0) /* MeleeDefense */
      , (46662,   7, 0, 2, 0, 620, 0, 0) /* MissileDefense */;

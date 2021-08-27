@@ -98,10 +98,10 @@ VALUES (46614, 2, 46604,  1, 0,    0, False) /* Create Tetsubo (46604) for Wield
      , (46614, 9,     0,  0, 0, 0.99, False) /* Create nothing for Contain Treasure */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46614,  44, 0, 2, 0, 393, 0, 0) /* HeavyWeapons */
-     , (46614,  45, 0, 2, 0, 393, 0, 0) /* LightWeapons */
-     , (46614,  41, 0, 2, 0, 393, 0, 0) /* TwoHanded */
-     , (46614,  46, 0, 2, 0, 450, 0, 0) /* FinesseWeapons */
+VALUES (46614,  44, 0, 2, 0, 433, 0, 0) /* HeavyWeapons */
+     , (46614,  45, 0, 2, 0, 433, 0, 0) /* LightWeapons */
+     , (46614,  41, 0, 2, 0, 433, 0, 0) /* TwoHanded */
+     , (46614,  46, 0, 2, 0, 490, 0, 0) /* FinesseWeapons */
      , (46614,  15, 0, 2, 0, 414, 0, 0) /* MagicDefense */
-     , (46614,   6, 0, 2, 0, 540, 0, 0) /* MeleeDefense */
-     , (46614,   7, 0, 2, 0, 616, 0, 0) /* MissileDefense */;
+     , (46614,   6, 0, 2, 0, 510, 0, 0) /* MeleeDefense */
+     , (46614,   7, 0, 2, 0, 576, 0, 0) /* MissileDefense */;

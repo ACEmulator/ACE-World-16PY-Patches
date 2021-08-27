@@ -108,15 +108,15 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (72565, 2, 46647,  1, 0, 0, False) /* Create Spectral Flaming Nodachi (46647) for Wield */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72565,  33, 0, 2, 0, 200, 0, 0) /* LifeMagic */
-     , (72565,  34, 0, 2, 0, 200, 0, 0) /* WarMagic */
-     , (72565,  31, 0, 2, 0, 200, 0, 0) /* CreatureMagic */
-     , (72565,  43, 0, 2, 0, 200, 0, 0) /* VoidMagic */
-     , (72565,  44, 0, 2, 0, 413, 0, 0) /* HeavyWeapons */
-     , (72565,  45, 0, 2, 0, 413, 0, 0) /* LightWeapons */
-     , (72565,  41, 0, 2, 0, 413, 0, 0) /* TwoHanded */
-     , (72565,  46, 0, 2, 0, 480, 0, 0) /* FinesseWeapons */
+VALUES (72565,  33, 0, 2, 0, 270, 0, 0) /* LifeMagic */
+     , (72565,  34, 0, 2, 0, 270, 0, 0) /* WarMagic */
+     , (72565,  31, 0, 2, 0, 270, 0, 0) /* CreatureMagic */
+     , (72565,  43, 0, 2, 0, 270, 0, 0) /* VoidMagic */
+     , (72565,  44, 0, 2, 0, 513, 0, 0) /* HeavyWeapons */
+     , (72565,  45, 0, 2, 0, 513, 0, 0) /* LightWeapons */
+     , (72565,  41, 0, 2, 0, 513, 0, 0) /* TwoHanded */
+     , (72565,  46, 0, 2, 0, 580, 0, 0) /* FinesseWeapons */
      , (72565,  47, 0, 2, 0, 230, 0, 0) /* MissileWeapons */
      , (72565,  15, 0, 2, 0, 366, 0, 0) /* MagicDefense */
-     , (72565,   6, 0, 2, 0, 550, 0, 0) /* MeleeDefense */
+     , (72565,   6, 0, 2, 0, 510, 0, 0) /* MeleeDefense */
      , (72565,   7, 0, 2, 0, 660, 0, 0) /* MissileDefense */;

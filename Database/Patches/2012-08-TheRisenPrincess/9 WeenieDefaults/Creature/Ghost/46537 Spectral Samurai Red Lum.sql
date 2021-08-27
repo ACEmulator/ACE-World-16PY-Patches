@@ -118,15 +118,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (46537,  33, 0, 2, 0, 200, 0, 0) /* LifeMagic */
-     , (46537,  34, 0, 2, 0, 200, 0, 0) /* WarMagic */
-     , (46537,  31, 0, 2, 0, 200, 0, 0) /* CreatureMagic */
-     , (46537,  43, 0, 2, 0, 200, 0, 0) /* VoidMagic */
-     , (46537,  44, 0, 2, 0, 413, 0, 0) /* HeavyWeapons */
-     , (46537,  45, 0, 2, 0, 413, 0, 0) /* LightWeapons */
-     , (46537,  41, 0, 2, 0, 413, 0, 0) /* TwoHanded */
-     , (46537,  46, 0, 2, 0, 480, 0, 0) /* FinesseWeapons */
+VALUES (46537,  33, 0, 2, 0, 270, 0, 0) /* LifeMagic */
+     , (46537,  34, 0, 2, 0, 270, 0, 0) /* WarMagic */
+     , (46537,  31, 0, 2, 0, 270, 0, 0) /* CreatureMagic */
+     , (46537,  43, 0, 2, 0, 270, 0, 0) /* VoidMagic */
+     , (46537,  44, 0, 2, 0, 513, 0, 0) /* HeavyWeapons */
+     , (46537,  45, 0, 2, 0, 513, 0, 0) /* LightWeapons */
+     , (46537,  41, 0, 2, 0, 513, 0, 0) /* TwoHanded */
+     , (46537,  46, 0, 2, 0, 580, 0, 0) /* FinesseWeapons */
      , (46537,  47, 0, 2, 0, 230, 0, 0) /* MissileWeapons */
      , (46537,  15, 0, 2, 0, 366, 0, 0) /* MagicDefense */
-     , (46537,   6, 0, 2, 0, 550, 0, 0) /* MeleeDefense */
+     , (46537,   6, 0, 2, 0, 510, 0, 0) /* MeleeDefense */
      , (46537,   7, 0, 2, 0, 660, 0, 0) /* MissileDefense */;

@@ -107,11 +107,11 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (72561, 2, 46364,  1, 0,    0, False) /* Create  (46364) for Wield */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72561,  44, 0, 2, 0, 377, 0, 0) /* HeavyWeapons */
-     , (72561,  45, 0, 2, 0, 377, 0, 0) /* LightWeapons */
-     , (72561,  41, 0, 2, 0, 377, 0, 0) /* TwoHanded */
-     , (72561,  46, 0, 2, 0, 427, 0, 0) /* FinesseWeapons */
-     , (72561,  52, 0, 2, 0, 427, 0, 0) /* DirtyFighting */
+VALUES (72561,  44, 0, 2, 0, 467, 0, 0) /* HeavyWeapons */
+     , (72561,  45, 0, 2, 0, 467, 0, 0) /* LightWeapons */
+     , (72561,  41, 0, 2, 0, 467, 0, 0) /* TwoHanded */
+     , (72561,  46, 0, 2, 0, 517, 0, 0) /* FinesseWeapons */
+     , (72561,  52, 0, 2, 0, 517, 0, 0) /* DirtyFighting */
      , (72561,  15, 0, 2, 0, 374, 0, 0) /* MagicDefense */
-     , (72561,   6, 0, 2, 0, 507, 0, 0) /* MeleeDefense */
+     , (72561,   6, 0, 2, 0, 457, 0, 0) /* MeleeDefense */
      , (72561,   7, 0, 2, 0, 620, 0, 0) /* MissileDefense */;

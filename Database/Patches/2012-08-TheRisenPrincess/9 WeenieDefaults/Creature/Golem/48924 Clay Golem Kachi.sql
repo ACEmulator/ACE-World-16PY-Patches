@@ -90,15 +90,6 @@ VALUES (48924,   1,     0, 0, 0, 6250) /* MaxHealth */
      , (48924,   3,    50, 0, 0,   50) /* MaxStamina */
      , (48924,   5,    30, 0, 0,   30) /* MaxMana */;
 
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (48924, 44, 0, 2, 0, 393, 0, 0) /* HeavyWeapons */
-     , (48924, 45, 0, 2, 0, 393, 0, 0) /* LightWeapons */
-     , (48924, 41, 0, 2, 0, 393, 0, 0) /* TwoHanded */
-     , (48924, 46, 0, 2, 0, 450, 0, 0) /* FinesseWeapons */
-     , (48924, 15, 0, 2, 0, 414, 0, 0) /* MagicDefense */
-     , (48924,  6, 0, 2, 0, 540, 0, 0) /* MeleeDefense */
-     , (48924,  7, 0, 2, 0, 616, 0, 0) /* MissileDefense */;
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (48924, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -111,3 +102,12 @@ VALUES (@parent_id, 0, 17 /* LocalBroadcast */, 0, 1, NULL, 'As the Golem crumbl
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48924, 2, 46606,  1, 0,    0, False) /* Create  (46606) for Wield */
      , (48924, 9, 48925,  0, 0,    1, False) /* Create Bronze Golem Kachi (48925) for Contain */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (48924,  44, 0, 2, 0, 493, 0, 0) /* HeavyWeapons */
+     , (48924,  45, 0, 2, 0, 493, 0, 0) /* LightWeapons */
+     , (48924,  41, 0, 2, 0, 493, 0, 0) /* TwoHanded */
+     , (48924,  46, 0, 2, 0, 550, 0, 0) /* FinesseWeapons */
+     , (48924,  15, 0, 2, 0, 414, 0, 0) /* MagicDefense */
+     , (48924,   6, 0, 2, 0, 460, 0, 0) /* MeleeDefense */
+     , (48924,   7, 0, 2, 0, 576, 0, 0) /* MissileDefense */;

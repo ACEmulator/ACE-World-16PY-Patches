@@ -102,11 +102,11 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (72563, 2, 46367, 1, 0,   0, False) /* Create Spectral Frost Tachi (46367) for Wield */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72563,  44, 0, 2, 0, 377, 0, 0) /* HeavyWeapons */
-     , (72563,  45, 0, 2, 0, 377, 0, 0) /* LightWeapons */
-     , (72563,  41, 0, 2, 0, 377, 0, 0) /* TwoHanded */
-     , (72563,  46, 0, 2, 0, 427, 0, 0) /* FinesseWeapons */
-     , (72563,  52, 0, 2, 0, 427, 0, 0) /* DirtyFighting */
+VALUES (72563,  44, 0, 2, 0, 467, 0, 0) /* HeavyWeapons */
+     , (72563,  45, 0, 2, 0, 467, 0, 0) /* LightWeapons */
+     , (72563,  41, 0, 2, 0, 467, 0, 0) /* TwoHanded */
+     , (72563,  46, 0, 2, 0, 517, 0, 0) /* FinesseWeapons */
+     , (72563,  52, 0, 2, 0, 517, 0, 0) /* DirtyFighting */
      , (72563,  15, 0, 2, 0, 374, 0, 0) /* MagicDefense */
-     , (72563,   6, 0, 2, 0, 507, 0, 0) /* MeleeDefense */
+     , (72563,   6, 0, 2, 0, 457, 0, 0) /* MeleeDefense */
      , (72563,   7, 0, 2, 0, 620, 0, 0) /* MissileDefense */;
