@@ -31,7 +31,7 @@ VALUES (72338,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72338,   1, 'Legendary Key') /* Name */
-	 , (72338,  13, 'keychestleg') /* KeyCode */
+	 , (72338,  13, 'legarmormagicweaponchest') /* KeyCode */
      , (72338,  14, 'Use this key to open a Legendary Armor, Magic, or Weapon Chest.') /* Use */
      , (72338,  16, 'A key only heard about in whispers and myths.') /* LongDesc */
      , (72338,  33,  'GeraineStudyKeyPickup') /* Quest */;
