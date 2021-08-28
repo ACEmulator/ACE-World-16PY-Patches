@@ -15,7 +15,6 @@ VALUES (46448,   1,        128) /* ItemType - Misc */
      , (46448,  33,          1) /* Bonded - Bonded */
      , (46448,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46448,  94,        128) /* TargetType - Misc */
-     , (46448,  98, 1485732629) /* CreationTimestamp */
      , (46448, 114,          1) /* Attuned - Attuned */
      , (46448, 267,       7200) /* Lifespan */
      , (46448, 268,       7200) /* RemainingLifespan */;

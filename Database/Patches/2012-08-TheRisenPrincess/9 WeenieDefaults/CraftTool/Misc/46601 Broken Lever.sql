@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46601;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46601, 'ace46601-brokenlowermiddleKey', 44, '2019-02-10 00:00:00') /* CraftTool */;
+VALUES (46601, 'ace46601-brokenlowermiddlekey', 44, '2019-02-10 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46601,   1,        128) /* ItemType - Misc */
@@ -23,7 +23,7 @@ VALUES (46601,  22, True ) /* Inscribable */
      , (46601,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46601,   1, 'Broken Lower And Middle Key') /* Name */
+VALUES (46601,   1, 'Broken Lever') /* Name */
      , (46601,  14, 'Combine this with the upper key portion.') /* Use */
      , (46601,  15, 'The lower and middle portion of a broken key.') /* ShortDesc */;
 

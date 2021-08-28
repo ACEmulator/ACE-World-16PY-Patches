@@ -1,16 +1,16 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46447;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46447, 'ace46447-ancientskullandbones', 44, '2019-02-10 00:00:00') /* CraftTool */;
+VALUES (46447, 'ace46447-ancientskullandbones', 1, '2019-02-10 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46447,   1,        128) /* ItemType - Misc */
      , (46447,   5,         15) /* EncumbranceVal */
+     , (46447,  16,          1) /* ItemUseable - No */
      , (46447,  19,          0) /* Value */
      , (46447,  33,          1) /* Bonded - Bonded */
      , (46447,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46447,  94,        128) /* TargetType - Misc */
-     , (46447,  98, 1485732634) /* CreationTimestamp */
      , (46447, 114,          1) /* Attuned - Attuned */
      , (46447, 267,       7200) /* Lifespan */
      , (46447, 268,       7200) /* RemainingLifespan */;

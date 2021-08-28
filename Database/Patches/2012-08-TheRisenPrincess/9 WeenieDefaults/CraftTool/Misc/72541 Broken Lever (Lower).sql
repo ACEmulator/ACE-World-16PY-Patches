@@ -14,7 +14,6 @@ VALUES (72541,   1,        128) /* ItemType - Misc */
      , (72541,  19,          0) /* Value */
      , (72541,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (72541,  94,        128) /* TargetType - Misc */
-     , (72541,  98, 1485727622) /* CreationTimestamp */
      , (72541, 267,       3600) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

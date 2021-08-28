@@ -32,7 +32,7 @@ VALUES (46573,   1,   33561487) /* Setup */
      , (46573,  22,  872415328) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (46573, 6 /* Give */, 1, 80156, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (46573, 6 /* Give */, 1, 72545, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
