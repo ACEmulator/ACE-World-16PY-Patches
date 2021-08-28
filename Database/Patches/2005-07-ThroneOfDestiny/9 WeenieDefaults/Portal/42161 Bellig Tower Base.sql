@@ -27,6 +27,7 @@ VALUES (42161,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42161,   1, 'Bellig Tower Base') /* Name */
      , (42161,  16, 'A portal leading to the Bellig Tower Base where the Hammer of Lightning may be found.') /* LongDesc */
+     , (42161,  37, 'fachubbelligportal_flag') /* QuestRestriction */
      , (42161,  38, 'Bellig Tower Base (17.7N, 15.9E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42161,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42161, 2, 2476015637, 66.2731, 104.073, 114.432, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x93950015 [66.273100 104.073000 114.432000] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0x93950015 [66.273102 104.072998 114.431999] 1.000000 0.000000 0.000000 0.000000 */;

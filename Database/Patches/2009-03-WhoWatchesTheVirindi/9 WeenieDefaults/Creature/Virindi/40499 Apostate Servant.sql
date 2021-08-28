@@ -33,7 +33,7 @@ VALUES (40499,   1,       5) /* HeartbeatInterval */
      , (40499,   3,    10.6) /* HealthRate */
      , (40499,   4,    20.5) /* StaminaRate */
      , (40499,   5,      20) /* ManaRate */
-     , (40499,  12,       0) /* Shade */
+     , (40499,  12,  0.6667) /* Shade */
      , (40499,  13,    0.89) /* ArmorModVsSlash */
      , (40499,  14,    0.71) /* ArmorModVsPierce */
      , (40499,  15,    0.72) /* ArmorModVsBludgeon */
@@ -41,7 +41,7 @@ VALUES (40499,   1,       5) /* HeartbeatInterval */
      , (40499,  17,    0.88) /* ArmorModVsFire */
      , (40499,  18,    0.65) /* ArmorModVsAcid */
      , (40499,  19,    0.73) /* ArmorModVsElectric */
-     , (40499,  31,      20) /* VisualAwarenessRange */
+     , (40499,  31,      10) /* VisualAwarenessRange */
      , (40499,  34,       1) /* PowerupTime */
      , (40499,  36,       1) /* ChargeSpeed */
      , (40499,  41,     360) /* RegenerationInterval */

@@ -21,8 +21,6 @@ VALUES (25615,   1,          1) /* ItemType - MeleeWeapon */
      , (25615,  48,         45) /* WeaponSkill - LightWeapons */
      , (25615,  49,          1) /* WeaponTime */
      , (25615,  51,          1) /* CombatUse - Melee */
-     , (25615,  52,          1) /* ParentLocation */
-     , (25615,  53,          1) /* PlacementPosition */
      , (25615,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25615, 106,        300) /* ItemSpellcraft */
      , (25615, 107,        800) /* ItemCurMana */
@@ -37,25 +35,20 @@ VALUES (25615,   1,          1) /* ItemType - MeleeWeapon */
      , (25615, 166,         31) /* SlayerCreatureType - Human */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25615,  11, True ) /* IgnoreCollisions */
-     , (25615,  13, True ) /* Ethereal */
-     , (25615,  14, True ) /* GravityStatus */
-     , (25615,  19, True ) /* Attackable */
-     , (25615,  22, True ) /* Inscribable */
-     , (25615,  23, True ) /* DestroyOnSell */
+VALUES (25615,  22, True ) /* Inscribable */
      , (25615,  69, False) /* IsSellable */
      , (25615,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25615,   5, -0.025000000372529) /* ManaRate */
-     , (25615,  21, 0.400000005960464) /* WeaponLength */
-     , (25615,  22, 0.300000011920929) /* DamageVariance */
+VALUES (25615,   5,  -0.025) /* ManaRate */
+     , (25615,  21,     0.4) /* WeaponLength */
+     , (25615,  22,     0.3) /* DamageVariance */
      , (25615,  26,       0) /* MaximumVelocity */
-     , (25615,  29, 1.21000003814697) /* WeaponDefense */
+     , (25615,  29,    1.21) /* WeaponDefense */
      , (25615,  39,       1) /* DefaultScale */
-     , (25615,  62, 1.20000004768372) /* WeaponOffense */
+     , (25615,  62,     1.2) /* WeaponOffense */
      , (25615,  63,       1) /* DamageMod */
-     , (25615, 138, 3.40000009536743) /* SlayerDamageBonus */
+     , (25615, 138,     3.4) /* SlayerDamageBonus */
      , (25615, 151,       1) /* IgnoreShield */
      , (25615, 155,       1) /* IgnoreArmor */;
 

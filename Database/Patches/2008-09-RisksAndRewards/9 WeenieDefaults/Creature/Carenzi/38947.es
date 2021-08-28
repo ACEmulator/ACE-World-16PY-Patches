@@ -15,15 +15,15 @@ Heartbeat: Style: NonCombat, SubStyle: Ready
                                 QuestSuccess:
                                     - Goto: RNG-Move10
                                 QuestFailure:
-                                    - InqMyQuestSolves: CarenziRacerMoves, 5 - 51
+                                    - InqMyQuestSolves: CarenziRacerMoves, 5 - 61
                                         QuestSuccess:
                                             - Goto: RNG-Move8
                                         QuestFailure:
-                                            - InqMyQuestSolves: CarenziRacerMoves, 5 - 53
+                                            - InqMyQuestSolves: CarenziRacerMoves, 5 - 63
                                                 QuestSuccess:
                                                     - Goto: RNG-Move6
                                                 QuestFailure:
-                                                    - InqMyQuestSolves: CarenziRacerMoves, 5 - 55
+                                                    - InqMyQuestSolves: CarenziRacerMoves, 5 - 65
                                                         QuestSuccess:
                                                             - Goto: RNG-Move4
                                                         QuestFailure:
@@ -102,30 +102,30 @@ GotoSet: RNG-Move2, Probability: 1.00
 
 GotoSet: Move10
     - Move: [0 10 0], Extent: 3
-    - ResetHomePosition
+    - Delay: 5, ResetHomePosition
     - IncrementMyQuest: CarenziRacerMoves, 10
     - Goto: IsVictoryMine
 
 GotoSet: Move8
     - Move: [0 8 0], Extent: 3
-    - ResetHomePosition
+    - Delay: 4, ResetHomePosition
     - IncrementMyQuest: CarenziRacerMoves, 8
     - Goto: IsVictoryMine
 
 GotoSet: Move6
     - Move: [0 6 0], Extent: 3
-    - ResetHomePosition
+    - Delay: 3, ResetHomePosition
     - IncrementMyQuest: CarenziRacerMoves, 6
     - Goto: IsVictoryMine
 
 GotoSet: Move4
     - Move: [0 4 0], Extent: 3
-    - ResetHomePosition
+    - Delay: 2, ResetHomePosition
     - IncrementMyQuest: CarenziRacerMoves, 4
     - Goto: IsVictoryMine
 
 GotoSet: Move2
     - Move: [0 2 0], Extent: 3
-    - ResetHomePosition
+    - Delay: 1, ResetHomePosition
     - IncrementMyQuest: CarenziRacerMoves, 2
     - Goto: IsVictoryMine

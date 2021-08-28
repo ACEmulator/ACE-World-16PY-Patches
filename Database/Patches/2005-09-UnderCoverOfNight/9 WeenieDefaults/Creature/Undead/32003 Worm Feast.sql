@@ -28,10 +28,10 @@ VALUES (32003,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32003,   1,       5) /* HeartbeatInterval */
      , (32003,   2,       0) /* HeartbeatTimestamp */
-     , (32003,   3, 0.800000011920929) /* HealthRate */
+     , (32003,   3,     0.8) /* HealthRate */
      , (32003,   4,     0.5) /* StaminaRate */
      , (32003,   5,       2) /* ManaRate */
-     , (32003,  12, 0.300000011920929) /* Shade */
+     , (32003,  12,     0.3) /* Shade */
      , (32003,  13,       1) /* ArmorModVsSlash */
      , (32003,  14,       1) /* ArmorModVsPierce */
      , (32003,  15,       1) /* ArmorModVsBludgeon */
@@ -42,13 +42,13 @@ VALUES (32003,   1,       5) /* HeartbeatInterval */
      , (32003,  31,      18) /* VisualAwarenessRange */
      , (32003,  34,       1) /* PowerupTime */
      , (32003,  36,       1) /* ChargeSpeed */
-     , (32003,  39, 1.20000004768372) /* DefaultScale */
+     , (32003,  39,     1.2) /* DefaultScale */
      , (32003,  64,    0.75) /* ResistSlash */
      , (32003,  65,     0.5) /* ResistPierce */
-     , (32003,  66, 0.699999988079071) /* ResistBludgeon */
+     , (32003,  66,     0.7) /* ResistBludgeon */
      , (32003,  67,    0.75) /* ResistFire */
-     , (32003,  68, 0.100000001490116) /* ResistCold */
-     , (32003,  69, 0.699999988079071) /* ResistAcid */
+     , (32003,  68,     0.1) /* ResistCold */
+     , (32003,  69,     0.7) /* ResistAcid */
      , (32003,  70,    0.75) /* ResistElectric */
      , (32003,  71,       1) /* ResistHealthBoost */
      , (32003,  72,       1) /* ResistStaminaDrain */
@@ -69,7 +69,7 @@ VALUES (32003,   1,   33559744) /* Setup */
      , (32003,   3,  536870934) /* SoundTable */
      , (32003,   4,  805306368) /* CombatTable */
      , (32003,   6,   67108990) /* PaletteBase */
-     , (32003,   7,  268437062) /* ClothingBase */
+     , (32003,   7,  268437063) /* ClothingBase */
      , (32003,   8,  100667942) /* Icon */
      , (32003,  22,  872415272) /* PhysicsEffectTable */
      , (32003,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;

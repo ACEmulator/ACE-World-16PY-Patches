@@ -29,10 +29,6 @@ VALUES (0x78851007, 41581, 2287010072, 60.2084, 81.95141, 0.406, 1, 0, 0, 0, Tru
 /* Silver Scope Guardian, TYPE_CREATURE, Seen 5 times at this location. 0x88510118 60.2084 81.95141 0.406 1 0 0 0 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78851008, 39845, 2287009798, 12.0284, 121.012, 1.866971, -0.007644739, 0, 0, -0.9999708, False, '2019-11-15 00:00:00');
-/* Exploration Marker, TYPE_CREATURE, Seen 3 times at this location. 0x88510006 12.0284 121.012 1.866971 -0.007644739 0 0 -0.9999708 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78851009, 41585, 2287009797, 11.8324, 108.085, 61.5194, -4.371139e-08, 0, 0, -1, True, '2019-11-15 00:00:00');
 /* Gold Gear Lesser Lord, TYPE_CREATURE, Seen 2 times at this location. 0x88510005 11.8324 108.085 61.5194 -4.371139E-08 0 0 -1 */
 
@@ -65,3 +61,14 @@ VALUES (0x78851001, 0x78851002, '2019-03-23 02:20:17') /* Bronze Gauntlet Guardi
      , (0x78851001, 0x7885100a, '2019-03-23 02:20:17') /* Gold Gear Lesser Lord -> Linkable Monster Generator (5 min) */
      , (0x78851001, 0x7885100b, '2019-03-23 02:20:17') /* Copper Cog Lesser Lord -> Linkable Monster Generator (5 min) */
      , (0x78851001, 0x7885100c, '2019-03-23 02:20:17'); /* Silver Scope Lesser Lord -> Linkable Monster Generator (5 min) */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x788516A5,  1154, 0x88510006, 12.0284, 121.012, 1.866971, -0.007644739, 0, 0, -0.9999708, False, '2020-01-30 00:00:00'); /* Linkable Monster Generator */
+/* @teleloc 0x88510006 [12.028400 121.012000 1.866971] -0.007645 0.000000 0.000000 -0.999971 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x788516A5, 0x788516A6, '2020-01-30 00:00:00') /* Exploration Marker */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x788516A6, 39845, 0x88510006, 12.0284, 121.012, 1.866971, -0.007644739, 0, 0, -0.9999708,  True, '2020-01-30 00:00:00'); /* Exploration Marker */
+/* @teleloc 0x88510006 [12.028400 121.012000 1.866971] -0.007645 0.000000 0.000000 -0.999971 */

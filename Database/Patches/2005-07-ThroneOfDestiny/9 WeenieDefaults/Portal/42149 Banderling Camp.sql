@@ -27,6 +27,7 @@ VALUES (42149,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42149,   1, 'Banderling Camp') /* Name */
      , (42149,  16, 'A portal leading to a location near Edelbar where the Quarter Staff of Fire may be found.') /* LongDesc */
+     , (42149,  37, 'fachubbanderlingcampportal_flag') /* QuestRestriction */
      , (42149,  38, 'Banderling Camp (43.8N, 25.0E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42149,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42149, 2, 2662727721, 132, 12, 112.005, 0.980067, 0, 0, -0.198669) /* Destination */
-/* @teleloc 0x9EB60029 [132.000000 12.000000 112.005000] 0.980067 0.000000 0.000000 -0.198669 */;
+/* @teleloc 0x9EB60029 [132.000000 12.000000 112.004997] 0.980067 0.000000 0.000000 -0.198669 */;

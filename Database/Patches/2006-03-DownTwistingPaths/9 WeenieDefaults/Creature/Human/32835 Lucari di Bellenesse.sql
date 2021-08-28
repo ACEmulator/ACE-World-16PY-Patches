@@ -59,8 +59,7 @@ VALUES (32835,   1,   33554433) /* Setup */
      , (32835,   2,  150994945) /* MotionTable */
      , (32835,   3,  536870913) /* SoundTable */
      , (32835,   4,  805306368) /* CombatTable */
-     , (32835,   8,  100667377) /* Icon */
-     , (32835,  17,   67115901) /* SkinPalette */;
+     , (32835,   8,  100667377) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32835,   1, 230, 0, 0) /* Strength */

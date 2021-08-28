@@ -31,3 +31,7 @@ VALUES (36769,   1,   33560432) /* Setup */
      , (36769,   2,  150995121) /* MotionTable */
      , (36769,   3,  536871023) /* SoundTable */
      , (36769,   8,  100672199) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (36769, 2, 14025874, 60, -32.9205, 84.005, 1, 0, 0, 0) /* Destination */
+/* @teleloc 0x00D60492 [60.000000 -32.920502 84.004997] 1.000000 0.000000 0.000000 0.000000 */;
