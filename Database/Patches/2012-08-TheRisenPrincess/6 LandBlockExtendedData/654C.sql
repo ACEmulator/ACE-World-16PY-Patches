@@ -360,7 +360,7 @@ VALUES (0x7654C166, 72530, 0x654C02A1, 29.9526, -19.9949, -23.9935, -0.702157, 0
 /* @teleloc 0x654C02A1 [29.952600 -19.994900 -23.993500] -0.702157 0.000000 0.000000 0.712022 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7654C167, 82007, 0x654C0676, 90.0049, -219.962, 0, 1, 0, 0, 0, False, '2021-08-11 15:41:49'); /* Enchanted Mnemosyne */
+VALUES (0x7654C167, 72493, 0x654C0676, 90.0049, -219.962, 0, 1, 0, 0, 0, False, '2021-08-11 15:41:49'); /* Enchanted Mnemosyne */
 /* @teleloc 0x654C0676 [90.004898 -219.962006 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

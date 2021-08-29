@@ -4,7 +4,7 @@ Use:
             - InqQuest: HoshinoMnemosyne3
                 QuestFailure:
                     - Motion: Twitch1
-                    - StampQuest: HoshinoMnemosyne1
+                    - StampQuest: HoshinoMnemosyne3
                     - DirectBroadcast: As you touch the Enchanted Mnemosyne, the spell placed on you by Lord Brem causes it to glow briefly.
                     - Goto: CheckMnemosynes
 

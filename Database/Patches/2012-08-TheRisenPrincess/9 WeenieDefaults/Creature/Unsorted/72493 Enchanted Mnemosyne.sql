@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72493;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72493, 'ace72493-enchantedmnemosyne', 10, '2021-08-14 05:42:34') /* Creature */;
+VALUES (72493, 'ace72493-enchantedmnemosyne', 10, '2021-08-29 07:24:37') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72493,   1,         16) /* ItemType - Creature */
@@ -11,11 +11,11 @@ VALUES (72493,   1,         16) /* ItemType - Creature */
      , (72493,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (72493,  1,    True) /* Stuck */
-     , (72493, 19,   False) /* Attackable */
-     , (72493, 52,    True) /* AiImmobile */
-     , (72493, 82,    True) /* DontTurnOrMoveWhenGiving */
-     , (72493, 83,    True) /* NpcLooksLikeObject */;
+VALUES (72493,   1, True ) /* Stuck */
+     , (72493,  19, False) /* Attackable */
+     , (72493,  52, True ) /* AiImmobile */
+     , (72493,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (72493,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72493,  54,       3) /* UseRadius */;
@@ -96,3 +96,4 @@ VALUES (@parent_id, 0, 31 /* EraseQuest */, 0, 1, NULL, 'HoshinoMnemosyne1', NUL
      , (@parent_id, 1, 31 /* EraseQuest */, 0, 1, NULL, 'HoshinoMnemosyne2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 2, 31 /* EraseQuest */, 0, 1, NULL, 'HoshinoMnemosyne3', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 3, 22 /* StampQuest */, 0, 1, NULL, 'HoshinoMnemosynesDone', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
