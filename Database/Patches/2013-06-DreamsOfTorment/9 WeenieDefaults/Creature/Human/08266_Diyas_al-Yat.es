@@ -77,10 +77,10 @@ Refuse: 51387
 	- Delay: 1, Tell: Surprise, surprise. Another Virindi with a serious superiority complex.
 	- Give: 72170
 
-Refuse: 40489
+Refuse: Apostate Message Shard (40489)
 	- TurnToTarget
 	- Tell: I heard that Aruq sent you off to that new fortress in the Direlands. Is this the shard you found there? Fascinating... Let me have a look...
-	- TakeItems: 40489
+	- TakeItems: 40489, 1
 	- Delay: 1, DirectBroadcast: Diyas stares into the fragment of crystal for a moment, and his eyes widen with horror.
 	- Delay: 1, Tell: The Virindi rebels are gathering their allies again! They seek to step into the gap left by T'thuun's defeat! Quick, take this translation to Aruq, he will make sure the proper people are notified.
 	- Give: 40491
@@ -269,7 +269,7 @@ Give: Obsidian Shard (25575)
 	- Tell: Your continued trafficking with forces beyond your ken could earn you a hearty bit of trouble. I've translated this for you, but would rather see you destroy it, than keep it.
 	- Give: The Mirror (25576)
 
-Give: 36930
+Give: Thief of Dreams Message Shard (36930)
 	- TurnToTarget
 	- DirectBroadcast: A strange, cold light emanates from the eyes of Diyas al-Yat as he concentrates on the message shard.
 	- Delay: 0.5, Tell: You say you found this in a dream realm? Inside of a Quiddity seed? That sounds so strangely familiar, even though I am sure I never heard that term before...
