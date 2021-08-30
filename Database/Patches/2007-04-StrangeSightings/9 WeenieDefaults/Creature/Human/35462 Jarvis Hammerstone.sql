@@ -33,13 +33,7 @@ VALUES (35462,   1,   33554433) /* Setup */
      , (35462,   2,  150994945) /* MotionTable */
      , (35462,   3,  536870913) /* SoundTable */
      , (35462,   6,   67108990) /* PaletteBase */
-     , (35462,   8,  100667446) /* Icon */
-     , (35462,   9,   83890510) /* EyesTexture */
-     , (35462,  10,   83890546) /* NoseTexture */
-     , (35462,  11,   83890634) /* MouthTexture */
-     , (35462,  15,   67117000) /* HairPalette */
-     , (35462,  16,   67110063) /* EyesPalette */
-     , (35462,  17,   67109559) /* SkinPalette */;
+     , (35462,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35462,   1, 280, 0, 0) /* Strength */
@@ -411,8 +405,9 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You killed 100 Drudge Lurke
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'For your help in fighting the Drudge menace I grant you the wisdom of the Town Elders of Cragstone and the title "Drudge Doom."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 515, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  49 /* AwardLevelProportionalXP */, 0, 1, NULL, NULL, NULL, -2147483648, 441350, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  5,  22 /* StampQuest */, 0, 1, NULL, 'KillTaskDrudgeLurkersWait_0507', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  6,  67 /* Goto */, 0, 1, NULL, 'Stalkers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  5,  31 /* EraseQuest */, 0, 1, NULL, 'KillTaskDrudgeLurkers_0507', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  6,  22 /* StampQuest */, 0, 1, NULL, 'KillTaskDrudgeLurkersWait_0507', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  7,  67 /* Goto */, 0, 1, NULL, 'Stalkers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35462, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'KillTaskDrudgeStalkersWait_0507', NULL, NULL, NULL);
@@ -444,7 +439,8 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You killed 100 Drudge Stalk
      , (@parent_id,  3,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 511, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  49 /* AwardLevelProportionalXP */, 0, 1, NULL, NULL, NULL, -2147483648, 747567, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,  22 /* StampQuest */, 0, 1, NULL, 'KillTaskDrudgeStalkersWait_0507', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  6,  67 /* Goto */, 0, 1, NULL, 'Raveners', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  6,  31 /* EraseQuest */, 0, 1, NULL, 'KillTaskDrudgeStalkers_0507', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  7,  67 /* Goto */, 0, 1, NULL, 'Raveners', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35462, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'KillTaskDrudgeRavenersWait_0507', NULL, NULL, NULL);
@@ -476,7 +472,8 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You killed 50 Drudge Ravene
      , (@parent_id,  3,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 512, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  49 /* AwardLevelProportionalXP */, 0, 1, NULL, NULL, NULL, -2147483648, 903479, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.25, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,  22 /* StampQuest */, 0, 1, NULL, 'KillTaskDrudgeRavenersWait_0507', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  6,  67 /* Goto */, 0, 1, NULL, 'Altered', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  6,  31 /* EraseQuest */, 0, 1, NULL, 'KillTaskDrudgeRaveners_0507', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  7,  67 /* Goto */, 0, 1, NULL, 'Altered', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35462, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'KillTaskAlteredDrudgesWait_0507', NULL, NULL, NULL);
@@ -508,7 +505,8 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You killed 40 Altered Drudg
      , (@parent_id,  3,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 513, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  49 /* AwardLevelProportionalXP */, 0, 1, NULL, NULL, NULL, -2147483648, 1488806, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.19999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,  22 /* StampQuest */, 0, 1, NULL, 'KillTaskAlteredDrudgesWait_0507', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  6,  67 /* Goto */, 0, 1, NULL, 'Augmented', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  6,  31 /* EraseQuest */, 0, 1, NULL, 'KillTaskAlteredDrudges_0507', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  7,  67 /* Goto */, 0, 1, NULL, 'Augmented', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35462, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'KillTaskAugmentedDrudgesWait_0507', NULL, NULL, NULL);
@@ -537,7 +535,8 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You killed 40 Augmented Dru
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'For your help in fighting the Drudge menace I grant you the wisdom of the Town Elders of Cragstone and the title "Augmented Hunter."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 514, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  49 /* AwardLevelProportionalXP */, 0, 1, NULL, NULL, NULL, -2147483648, 1488806, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0.19999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  5,  22 /* StampQuest */, 0, 1, NULL, 'KillTaskAugmentedDrudgesWait_0507', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  5,  22 /* StampQuest */, 0, 1, NULL, 'KillTaskAugmentedDrudgesWait_0507', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  6,  31 /* EraseQuest */, 0, 1, NULL, 'KillTaskAugmentedDrudges_0507', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35462, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'BurnjasBoardTurnInRepeat', NULL, NULL, NULL);
@@ -1604,7 +1603,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'For your continued bravery 
      , (@parent_id,  1,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 501, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (35462, 32 /* GotoSet */,    0.9, NULL, NULL, NULL, 'TitleReward', NULL, NULL, NULL);
+VALUES (35462, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'TitleReward', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

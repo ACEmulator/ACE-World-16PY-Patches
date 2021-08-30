@@ -83,6 +83,7 @@ GotoSet: Lurkers
 							- Delay: 1, Tell: For your help in fighting the Drudge menace I grant you the wisdom of the Town Elders of Cragstone and the title "Drudge Doom."
 							- AddCharacterTitle: DrudgeDoom
 							- AwardLevelProportionalXP: 50%, Max: 441,350
+							- EraseQuest: KillTaskDrudgeLurkers_0507
 							- StampQuest: KillTaskDrudgeLurkersWait_0507
 							- Goto: Stalkers
 						QuestFailure:
@@ -109,6 +110,7 @@ GotoSet: Stalkers
 							- AddCharacterTitle: StalkerStalker
 							- AwardLevelProportionalXP: 50%, Max: 747,567
 							- StampQuest: KillTaskDrudgeStalkersWait_0507
+							- EraseQuest: KillTaskDrudgeStalkers_0507
 							- Goto: Raveners
 						QuestFailure:
 							- Tell: Kill 100 Drudge Stalkers and I will reward you.
@@ -134,6 +136,7 @@ GotoSet: Raveners
 							- AddCharacterTitle: Ravenous
 							- AwardLevelProportionalXP: 25%, Max: 903,479
 							- StampQuest: KillTaskDrudgeRavenersWait_0507
+							- EraseQuest: KillTaskDrudgeRaveners_0507
 							- Goto: Altered
 						QuestFailure:
 							- Tell: Kill 50 Drudge Raveners and I will reward you.
@@ -159,6 +162,7 @@ GotoSet: Altered
 							- AddCharacterTitle: AlteredHunter
 							- AwardLevelProportionalXP: 20%, Max: 1,488,806
 							- StampQuest: KillTaskAlteredDrudgesWait_0507
+							- EraseQuest: KillTaskAlteredDrudges_0507
 							- Goto: Augmented
 						QuestFailure:
 							- Tell: Kill 40 Drudge Altereds and I will reward you.
@@ -182,6 +186,7 @@ GotoSet: Augmented
 							- AddCharacterTitle: AugmentedHunter
 							- AwardLevelProportionalXP: 20%, Max: 1,488,806
 							- StampQuest: KillTaskAugmentedDrudgesWait_0507
+							- EraseQuest: KillTaskAugmentedDrudges_0507
 						QuestFailure:
 							- Tell: Kill 40 Augmented Drudges and I will reward you.
 							- SetQuestCompletions: KillTaskAugmentedDrudges_0507, 0
@@ -190,7 +195,7 @@ GotoSet: TitleReward, Probability: 0.45
 	- Tell: For your continued bravery and service to Cragstone I grant you the wisdom of the Town Elders of Cragstone and the title "Cragstone Knight."
 	- AddCharacterTitle: CragstoneKnight
 
-GotoSet: TitleReward, Probability: 0.9
+GotoSet: TitleReward, Probability: 1
 	- Tell: For your continued bravery and service to Cragstone I grant you the wisdom of the Town Elders of Cragstone and the title "Guardian of Cragstone."
 	- AddCharacterTitle: GuardianofCragstone
 
@@ -248,7 +253,7 @@ Refuse: Protective Drudge Charm (35590)
 		TestFailure:
 			- Tell: You can't cheat the system!
 
-Give: Spire Chunk (87371)
+Give: Spire Chunk (87428)
 	- TurnToTarget
 	- Tell: Oh boy, this can't be good. What do the Drudges want with pieces of the Spire? Maybe they just think of it as building stone... maybe.
 	- Delay: 1, Tell: I need to inform the Council about this. Here, take this bit of knowledge I've gleaned as a merchant here in Cragstone. Thank you for your help.
