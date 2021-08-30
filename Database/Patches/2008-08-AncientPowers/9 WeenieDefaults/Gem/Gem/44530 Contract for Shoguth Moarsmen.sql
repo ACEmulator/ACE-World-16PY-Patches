@@ -12,10 +12,11 @@ VALUES (44530,   1,       2048) /* ItemType - Gem */
      , (44530,  16,          8) /* ItemUseable - Contained */
      , (44530,  18,          2) /* UiEffects - Poisoned */
      , (44530,  19,        100) /* Value */
+     , (44530,  33,          1) /* Bonded - Bonded */
      , (44530,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44530,  94,         16) /* TargetType - Creature */
      , (44530, 280,        100) /* SharedCooldown */
-     , (44530, 349,        150) /* UseCreatesContractId */;
+     , (44530, 349,        150) /* UseCreatesContractId - Contract_150_Soc__Shoguth_Moarsmen */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44530,  22, True ) /* Inscribable */
@@ -34,4 +35,3 @@ VALUES (44530,   1,   33557625) /* Setup */
      , (44530,   3,  536870932) /* SoundTable */
      , (44530,   8,  100691930) /* Icon */
      , (44530,  22,  872415275) /* PhysicsEffectTable */;
-
