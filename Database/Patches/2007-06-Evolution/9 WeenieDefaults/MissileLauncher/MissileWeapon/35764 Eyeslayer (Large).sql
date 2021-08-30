@@ -12,6 +12,7 @@ VALUES (35764,   1,        256) /* ItemType - MissileWeapon */
      , (35764,  19,       5500) /* Value */
      , (35764,  44,          0) /* Damage */
      , (35764,  45,          2) /* DamageType - Pierce */
+     , (35764,  46,       1024) /* DefaultCombatStyle - Atlatl */
      , (35764,  48,         47) /* WeaponSkill - MissileWeapons */
      , (35764,  49,         30) /* WeaponTime */
      , (35764,  50,          4) /* AmmoType - Atlatl */
