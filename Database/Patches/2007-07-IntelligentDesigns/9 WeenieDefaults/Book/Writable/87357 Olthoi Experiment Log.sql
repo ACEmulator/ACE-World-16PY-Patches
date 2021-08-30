@@ -22,7 +22,8 @@ VALUES (87357,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87357,   1, 'Olthoi Experiment Log') /* Name */
      , (87357,  14, 'Use this item to read it.') /* Use */
-     , (87357,  15, 'A soft light that seems to emit a silent message in the back of your mind.') /* ShortDesc */;
+     , (87357,  15, 'A soft light that seems to emit a silent message in the back of your mind.') /* ShortDesc */
+     , (87357,  33, 'OlthoiExperimentLogPickupTimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87357,   1,   33556994) /* Setup */

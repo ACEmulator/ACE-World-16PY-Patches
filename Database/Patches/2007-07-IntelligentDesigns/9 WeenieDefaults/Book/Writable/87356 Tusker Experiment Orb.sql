@@ -22,7 +22,8 @@ VALUES (87356,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87356,   1, 'Tusker Experiment Orb') /* Name */
      , (87356,  14, 'Use this item to read it.') /* Use */
-     , (87356,  15, 'A soft light that seems to emit a silent message in the back of your mind.') /* ShortDesc */;
+     , (87356,  15, 'A soft light that seems to emit a silent message in the back of your mind.') /* ShortDesc */
+     , (87356,  33, 'TuskerExperimentLogPickupTimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87356,   1,   33556994) /* Setup */

@@ -22,7 +22,8 @@ VALUES (35842,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35842,   1, 'Monouga Experiment Log') /* Name */
      , (35842,  14, 'Use this item to read it.') /* Use */
-     , (35842,  15, 'A soft light that seems to emit a silent message in the back of your mind.') /* ShortDesc */;
+     , (35842,  15, 'A soft light that seems to emit a silent message in the back of your mind.') /* ShortDesc */
+     , (35842,  33, 'MonougaExperimentLogPickupTimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35842,   1,   33556994) /* Setup */
