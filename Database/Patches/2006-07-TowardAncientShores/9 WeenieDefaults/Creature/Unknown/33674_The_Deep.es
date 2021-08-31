@@ -67,6 +67,7 @@ GotoSet: Has10
 			- InqYesNo: Would you like to turn in 10 Corrupted Essences?
 				TestSuccess:
 					- TakeItems: 44470, 10
+					- DirectBroadcast: You drop the remains into 'The Deep'. A feeling of immense pleasure washes over your body.
 					- IncrementQuest: CorruptedEssenceCount, 10
 					- IncrementQuest: CorruptedEssenceArmorCount, 10
 					- AwardLevelProportionalXP: 40%, 162,726,810
@@ -78,6 +79,7 @@ GotoSet: Has10
 
 GotoSet: Has1
 	- TakeItems: 44470
+	- DirectBroadcast: You drop the remains into 'The Deep'. A feeling of immense pleasure washes over your body.
 	- IncrementQuest: CorruptedEssenceCount, 1
 	- IncrementQuest: CorruptedEssenceArmorCount, 1
 	- AwardLevelProportionalXP: 4%, 16,272,681
@@ -150,6 +152,7 @@ GotoSet: Has10LesserEssence
 			- InqYesNo: Would you like to turn in 10 Lesser Corrupted Essences?
 				TestSuccess:
 					- TakeItems: 44469, 10
+					- DirectBroadcast: You drop the remains into 'The Deep'. A feeling of immense pleasure washes over your body.
 					- IncrementQuest: CorruptedEssenceCount, 10
 					- AwardLevelProportionalXP: 40%, Max: 130,000,000
 					- Goto: CheckArmorTurnInCount
@@ -160,6 +163,7 @@ GotoSet: Has10LesserEssence
 
 GotoSet: Has1LesserEssence
 	- TakeItems: 44469
+	- DirectBroadcast: You drop the remains into 'The Deep'. A feeling of immense pleasure washes over your body.
 	- IncrementQuest: CorruptedEssenceCount, 1
 	- AwardLevelProportionalXP: 4%, Max: 13,000,000
 	- Goto: CheckArmorTurnInCount
