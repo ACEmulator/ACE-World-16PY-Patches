@@ -575,3 +575,4 @@ GotoSet: DrudgePlanScrapCheck
 																																		- Delay: 1, Tell: Now, for your service to our town I hereby make you a member of the Cragstone Militia, with the knowledge due a militia member.
 																																		- AwardXP: 6,000,000
 																																		- StampQuest: DrudgePlan_Wait
+																																		
