@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48717;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48717, 'ace48717-crystal', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (48717, 'ace48717-crystal', 10, '2021-08-16 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48717,   1,         16) /* ItemType - Creature */
@@ -22,7 +22,7 @@ VALUES (48717,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48717,  43,     4.5) /* GeneratorRadius */
-     , (48717,  54,       2) /* UseRadius */;
+     , (48717,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48717,   1, 'Crystal') /* Name */;

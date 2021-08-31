@@ -37,7 +37,7 @@ VALUES (30053,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30053,   1,       5) /* HeartbeatInterval */
      , (30053,   2,       0) /* HeartbeatTimestamp */
-     , (30053,   3,     0.16) /* HealthRate */
+     , (30053,   3,    0.16) /* HealthRate */
      , (30053,   4,       5) /* StaminaRate */
      , (30053,   5,       1) /* ManaRate */
      , (30053,  11,     300) /* ResetInterval */
@@ -79,13 +79,7 @@ VALUES (30053,   1,   33554510) /* Setup */
      , (30053,   3,  536870914) /* SoundTable */
      , (30053,   4,  805306368) /* CombatTable */
      , (30053,   6,   67108990) /* PaletteBase */
-     , (30053,   8,  100667446) /* Icon */
-     , (30053,   9,   83890277) /* EyesTexture */
-     , (30053,  10,   83890287) /* NoseTexture */
-     , (30053,  11,   83890347) /* MouthTexture */
-     , (30053,  15,   67116984) /* HairPalette */
-     , (30053,  16,   67110063) /* EyesPalette */
-     , (30053,  17,   67115901) /* SkinPalette */;
+     , (30053,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30053,   1, 145, 0, 0) /* Strength */

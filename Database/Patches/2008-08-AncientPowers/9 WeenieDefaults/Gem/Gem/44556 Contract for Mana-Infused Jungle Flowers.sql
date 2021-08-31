@@ -27,7 +27,8 @@ VALUES (44556, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44556,   1, 'Contract for Mana-Infused Jungle Flowers') /* Name */
-     , (44556,  16, 'Collect 20 Mana-Infused Jungle Flowers.') /* LongDesc */;
+     , (44556,  14, 'Recommended Level: 180') /* Use */
+	 , (44556,  16, 'Collect 20 Mana-Infused Jungle Flowers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44556,   1,   33557625) /* Setup */

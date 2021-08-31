@@ -59,8 +59,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32820,   1,   33554433) /* Setup */
      , (32820,   2,  150994945) /* MotionTable */
      , (32820,   3,  536870913) /* SoundTable */
-     , (32820,   8,  100667446) /* Icon */
-     , (32820,  17,   67115901) /* SkinPalette */;
+     , (32820,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32820,   1, 100, 0, 0) /* Strength */
@@ -71,9 +70,9 @@ VALUES (32820,   1, 100, 0, 0) /* Strength */
      , (32820,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32820,   1,  325, 0, 0, 385) /* MaxHealth */
-     , (32820,   3,  300, 0, 0, 420) /* MaxStamina */
-     , (32820,   5,  310, 0, 0, 500) /* MaxMana */;
+VALUES (32820,   1,   325, 0, 0, 385) /* MaxHealth */
+     , (32820,   3,   300, 0, 0, 420) /* MaxStamina */
+     , (32820,   5,   310, 0, 0, 500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (32820,  6, 0, 2, 0,   1, 0, 0) /* MeleeDefense        Trained */

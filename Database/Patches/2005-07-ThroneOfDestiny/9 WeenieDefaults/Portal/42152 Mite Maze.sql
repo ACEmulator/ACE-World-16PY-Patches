@@ -27,6 +27,7 @@ VALUES (42152,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42152,   1, 'Mite Maze') /* Name */
      , (42152,  16, 'A portal leading to the the Lost Wish Mountains near the Mite Maze where Branith''s stolen possessions may be found.') /* LongDesc */
+     , (42152,  37, 'fachubmitemazeportal_flag') /* QuestRestriction */
      , (42152,  38, 'Mite Maze (41.1N, 57.0E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42152,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42152, 2, 3333554223, 139.533, 150.284, 292.087, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0xC6B2002F [139.533000 150.284000 292.087000] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0xC6B2002F [139.533005 150.283997 292.087006] 1.000000 0.000000 0.000000 0.000000 */;

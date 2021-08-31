@@ -6,7 +6,7 @@ VALUES (40493, 'ace40493-gotrokminingforeman', 10, '2019-02-10 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40493,   1,         16) /* ItemType - Creature */
      , (40493,   2,         70) /* CreatureType - GotrokLugian */
-     , (40493,   3,         17) /* PaletteTemplate - Yellow */
+     , (40493,   3,         39) /* PaletteTemplate - Black */
      , (40493,   6,         -1) /* ItemsCapacity */
      , (40493,   7,         -1) /* ContainersCapacity */
      , (40493,  16,          1) /* ItemUseable - No */

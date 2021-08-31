@@ -66,7 +66,7 @@ VALUES (37606,   1,   33554493) /* Setup */
      , (37606,   6,   67109300) /* PaletteBase */
      , (37606,   7,  268436730) /* ClothingBase */
      , (37606,   8,  100667451) /* Icon */
-     , (37606,  19,         87) /* ActivationAnimation */
+     , (37606,  19,         85) /* ActivationAnimation */
      , (37606,  22,  872415267) /* PhysicsEffectTable */
      , (37606,  30,         85) /* PhysicsScript - BreatheFrost */
      , (37606,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
@@ -95,8 +95,8 @@ VALUES (37606,  6, 0, 3, 0, 272, 0, 0) /* MeleeDefense        Specialized */
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (37606,  0,  2, 120, 0.75,  400,  260,  320,  260,  300,  360,  340,  300,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */
-     , (37606, 16,  4,   0,    0,  400,  260,  320,  260,  300,  360,  340,  300,    0, 2, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75) /* Torso */
-     , (37606, 17,  2,   0,    0,  400,  260,  320,  260,  300,  360,  340,  300,    0, 3,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25) /* Tail */
+     , (37606, 16,  4,  0,    0,  400,  260,  320,  260,  300,  360,  340,  300,    0, 2, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75, 0.67,  0.4, 0.75) /* Torso */
+     , (37606, 17,  2,  0,    0,  400,  260,  320,  260,  300,  360,  340,  300,    0, 3,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25,    0,  0.2, 0.25) /* Tail */
      , (37606, 22,  8, 100,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
@@ -133,4 +133,3 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37606, 9, 37613,  0, 0, 1, False) /* Create Blight Rat Key (37613) for ContainTreasure */;
-

@@ -12,10 +12,11 @@ VALUES (44541,   1,       2048) /* ItemType - Gem */
      , (44541,  16,          8) /* ItemUseable - Contained */
      , (44541,  18,          2) /* UiEffects - Poisoned */
      , (44541,  19,        100) /* Value */
+     , (44541,  33,          1) /* Bonded - Bonded */
      , (44541,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44541,  94,         16) /* TargetType - Creature */
      , (44541, 280,        100) /* SharedCooldown */
-     , (44541, 349,        145) /* UseCreatesContractId */;
+     , (44541, 349,        145) /* UseCreatesContractId - Contract_145_Soc__Coral_Towers */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44541,  22, True ) /* Inscribable */
@@ -34,4 +35,3 @@ VALUES (44541,   1,   33557625) /* Setup */
      , (44541,   3,  536870932) /* SoundTable */
      , (44541,   8,  100691930) /* Icon */
      , (44541,  22,  872415275) /* PhysicsEffectTable */;
-

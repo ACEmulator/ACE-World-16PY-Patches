@@ -12,13 +12,15 @@ VALUES (43987,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43987,   1, True ) /* Stuck */
-     , (43987,  19, False) /* Attackable */;
+     , (43987,  19, False) /* Attackable */
+     , (43987,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43987,  54,     0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43987,   1, 'Menhir') /* Name */;
+VALUES (43987,   1, 'Menhir') /* Name */
+     , (43987,  16, 'A menhir stone, covered in Dericost script.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43987,   1,   33555229) /* Setup */

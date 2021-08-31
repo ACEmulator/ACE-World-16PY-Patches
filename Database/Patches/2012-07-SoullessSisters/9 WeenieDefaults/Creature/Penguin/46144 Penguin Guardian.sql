@@ -6,7 +6,7 @@ VALUES (46144, 'ace46144-penguinguardian', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46144,   1,         16) /* ItemType - Creature */
      , (46144,   2,         80) /* CreatureType - Penguin */
-     , (46144,   3,         39) /* PaletteTemplate - Black */
+     , (46144,   3,          2) /* PaletteTemplate - Blue */
      , (46144,   6,         -1) /* ItemsCapacity */
      , (46144,   7,         -1) /* ContainersCapacity */
      , (46144,  16,          1) /* ItemUseable - No */
@@ -28,7 +28,7 @@ VALUES (46144,   1,       5) /* HeartbeatInterval */
      , (46144,   3,     0.5) /* HealthRate */
      , (46144,   4,       3) /* StaminaRate */
      , (46144,   5,       1) /* ManaRate */
-     , (46144,  12,       0) /* Shade */
+     , (46144,  12,     0.5) /* Shade */
      , (46144,  13,     1.3) /* ArmorModVsSlash */
      , (46144,  14,       1) /* ArmorModVsPierce */
      , (46144,  15,     1.1) /* ArmorModVsBludgeon */
@@ -55,7 +55,7 @@ VALUES (46144,   1,       5) /* HeartbeatInterval */
      , (46144,  80,       3) /* AiUseMagicDelay */
      , (46144, 104,      12) /* ObviousRadarRange */
      , (46144, 125,     0.5) /* ResistHealthDrain */;
-     
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46144,   1, 'Penguin Guardian') /* Name */;
 

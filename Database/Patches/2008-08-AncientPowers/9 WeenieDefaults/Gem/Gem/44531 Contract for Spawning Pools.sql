@@ -12,10 +12,11 @@ VALUES (44531,   1,       2048) /* ItemType - Gem */
      , (44531,  16,          8) /* ItemUseable - Contained */
      , (44531,  18,          2) /* UiEffects - Poisoned */
      , (44531,  19,        100) /* Value */
+     , (44531,  33,          1) /* Bonded - Bonded */
      , (44531,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44531,  94,         16) /* TargetType - Creature */
      , (44531, 280,        100) /* SharedCooldown */
-     , (44531, 349,        151) /* UseCreatesContractId */;
+     , (44531, 349,        151) /* UseCreatesContractId - Contract_151_Soc__Spawning_Pools */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44531,  22, True ) /* Inscribable */
@@ -34,4 +35,3 @@ VALUES (44531,   1,   33557625) /* Setup */
      , (44531,   3,  536870932) /* SoundTable */
      , (44531,   8,  100691930) /* Icon */
      , (44531,  22,  872415275) /* PhysicsEffectTable */;
-

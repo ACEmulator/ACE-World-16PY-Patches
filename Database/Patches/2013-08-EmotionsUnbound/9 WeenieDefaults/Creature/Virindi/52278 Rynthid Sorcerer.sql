@@ -45,7 +45,6 @@ VALUES (52278,   1,   5) /* HeartbeatInterval */
      , (52278,  31,  18) /* VisualAwarenessRange */
      , (52278,  34,   1) /* PowerupTime */
      , (52278,  36,   1) /* ChargeSpeed */
-     , (52278,  55, 100) /* HomeRadius */
      , (52278,  64, 0.7) /* ResistSlash */
      , (52278,  65, 0.6) /* ResistPierce */
      , (52278,  66, 0.6) /* ResistBludgeon */
@@ -118,11 +117,11 @@ VALUES (52278,  0, 64,  0,    0, 650, 520, 520, 520, 520, 520, 520, 520,  600, 1
      , (52278,  8, 64, 200, 0.5, 650, 520, 520, 520, 520, 520, 520, 520,  600, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52278,  3940,    2.15)  /* Exsanguinating Wave */
-     , (52278,  3941,   2.176)  /* Heavy Lightning Ring */
-     , (52278,  3989,   2.286)  /* Dark Lightning */
-     , (52278,  4312,     2.3)  /* Incantation of Imperil Other */
-     , (52278,  4483,   2.429)  /* Incantation of Lightning Vulnerability Other */;
+VALUES (52278,  3940,    2.21)  /* Exsanguinating Wave */
+     , (52278,  3941,   2.266)  /* Heavy Lightning Ring */
+     , (52278,  3989,   2.414)  /* Dark Lightning */
+     , (52278,  4312,   2.206)  /* Incantation of Imperil Other */
+     , (52278,  4483,   2.259)  /* Incantation of Lightning Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52278, 8, 51858,  1, 0, 0.03, False) /* Mask for Treasure */
