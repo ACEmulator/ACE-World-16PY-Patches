@@ -19,6 +19,17 @@ git branch --show-current > branchname.txt
 
 set /p branch_name=<branchname.txt
 
+:deapost
+FOR /f "tokens=1* delims='" %%i IN ("%branch_name%") DO (
+   SET branch_name=%%j
+   IF DEFINED branch_name (
+      SET branch_name=%%i%%j
+      GOTO deapost
+   ) ELSE (
+      SET branch_name=%%i
+   )
+)
+
 git merge-base master %branch_name% > mergebase.txt
 
 set /p merge_base=<mergebase.txt
