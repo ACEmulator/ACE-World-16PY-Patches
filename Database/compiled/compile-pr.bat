@@ -10,6 +10,17 @@ if not defined APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH set APPVEYOR_PULL_REQUEST_
 
 set patch_name=%APPVEYOR_PULL_REQUEST_NUMBER%-%APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH%
 
+:deapost
+FOR /f "tokens=1* delims='" %%i IN ("%patch_name%") DO (
+   SET patch_name=%%j
+   IF DEFINED patch_name (
+      SET patch_name=%%i%%j
+      GOTO deapost
+   ) ELSE (
+      SET patch_name=%%i
+   )
+)
+
 if exist branchname.txt del branchname.txt
 if exist mergebase.txt del mergebase.txt
 if exist patchfiles.txt del patchfiles.txt
@@ -18,17 +29,6 @@ if exist PR-%patch_name%.zip del PR-%patch_name%.zip
 git branch --show-current > branchname.txt
 
 set /p branch_name=<branchname.txt
-
-:deapost
-FOR /f "tokens=1* delims='" %%i IN ("%branch_name%") DO (
-   SET branch_name=%%j
-   IF DEFINED branch_name (
-      SET branch_name=%%i%%j
-      GOTO deapost
-   ) ELSE (
-      SET branch_name=%%i
-   )
-)
 
 git merge-base master %branch_name% > mergebase.txt
 
