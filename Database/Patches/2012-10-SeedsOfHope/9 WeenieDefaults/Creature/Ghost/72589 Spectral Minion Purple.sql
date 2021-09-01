@@ -18,13 +18,14 @@ VALUES (72589,   1,         16) /* ItemType - Creature */
      , (72589, 146,    1400000) /* XpOverride */
      , (72589, 307,         10) /* DamageRating */
      , (72589, 308,         10) /* DamageResistRating */
-     , (72589, 313,          5) /* CritRating */;	 
+     , (72589, 313,          5) /* CritRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (72589,   1, True ) /* Stuck */
-     , (72589,  11, False) /* IgnoreCollisions */
-     , (72589,  12, True ) /* ReportCollisions */
-     , (72589,  13, False) /* Ethereal */;
+VALUES (72589,  1,    True) /* Stuck */
+     , (72589, 11,   False) /* IgnoreCollisions */
+     , (72589, 12,    True) /* ReportCollisions */
+     , (72589, 13,   False) /* Ethereal */
+     , (72589, 42,    True) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72589,   1,       5) /* HeartbeatInterval */

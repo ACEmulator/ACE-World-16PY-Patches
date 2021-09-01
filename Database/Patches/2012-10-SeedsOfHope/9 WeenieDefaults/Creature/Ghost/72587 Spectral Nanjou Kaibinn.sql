@@ -21,12 +21,13 @@ VALUES (72587,   1,         16) /* ItemType - Creature */
      , (72587, 316,         10) /* CritDamageResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (72587,   1, True ) /* Stuck */
-     , (72587,   6, True ) /* AiUsesMana */
-     , (72587,  11, False) /* IgnoreCollisions */
-     , (72587,  12, True ) /* ReportCollisions */
-     , (72587,  13, False) /* Ethereal */
-     , (72587,  50, True ) /* NeverFailCasting */;
+VALUES (72587,  1,    True) /* Stuck */
+     , (72587,  6,    True) /* AiUsesMana */
+     , (72587, 11,   False) /* IgnoreCollisions */
+     , (72587, 12,    True) /* ReportCollisions */
+     , (72587, 13,   False) /* Ethereal */
+     , (72587, 42,    True) /* AllowEdgeSlide */
+     , (72587, 50,    True) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72587,   1,       5) /* HeartbeatInterval */

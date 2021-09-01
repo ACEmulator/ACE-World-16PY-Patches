@@ -21,10 +21,11 @@ VALUES (72590,   1,         16) /* ItemType - Creature */
      , (72590, 313,          5) /* CritRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (72590,   1, True ) /* Stuck */
-     , (72590,  11, False) /* IgnoreCollisions */
-     , (72590,  12, True ) /* ReportCollisions */
-     , (72590,  13, False) /* Ethereal */;
+VALUES (72590,  1,    True) /* Stuck */
+     , (72590, 11,   False) /* IgnoreCollisions */
+     , (72590, 12,    True) /* ReportCollisions */
+     , (72590, 13,   False) /* Ethereal */
+     , (72590, 42,    True) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72590,   1,       5) /* HeartbeatInterval */

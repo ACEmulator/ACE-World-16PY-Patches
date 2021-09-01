@@ -21,12 +21,13 @@ VALUES (72588,   1,      16) /* ItemType - Creature */
      , (72588, 316,      10) /* CritDamageResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (72588,   1, True ) /* Stuck */
-     , (72588,   6, True ) /* AiUsesMana */
-     , (72588,  11, False) /* IgnoreCollisions */
-     , (72588,  12, True ) /* ReportCollisions */
-     , (72588,  13, False) /* Ethereal */
-     , (72588,  50, True ) /* NeverFailCasting */;
+VALUES (72588,  1,    True) /* Stuck */
+     , (72588,  6,    True) /* AiUsesMana */
+     , (72588, 11,   False) /* IgnoreCollisions */
+     , (72588, 12,    True) /* ReportCollisions */
+     , (72588, 13,   False) /* Ethereal */
+     , (72588, 42,    True) /* AllowEdgeSlide */
+     , (72588, 50,    True) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72588,   1,       5) /* HeartbeatInterval */
@@ -125,4 +126,3 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (72588, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46373) for Wield */
      , (72588, 2, 46375,  1, 0, 0, False) /* Create Spectral Nekode (46375) for Wield */
      , (72588, 9, 72595,  0, 0, 1, False) /* Create Upper Chamber Door Key (72595) for Contain */;
-
