@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70022;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70022, 'ace70022-redbloodgemfragment', 44, '2019-03-27 07:14:36') /* CraftTool */;
+VALUES (70022, 'ace70022-redbloodgemfragment', 44, '2021-09-03 04:17:41') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70022,   1,        128) /* ItemType - Misc */
@@ -36,3 +36,4 @@ VALUES (70022,   1,   33554809) /* Setup */
      , (70022,   7,  268435723) /* ClothingBase */
      , (70022,   8,  100687775) /* Icon */
      , (70022,  22,  872415275) /* PhysicsEffectTable */;
+
