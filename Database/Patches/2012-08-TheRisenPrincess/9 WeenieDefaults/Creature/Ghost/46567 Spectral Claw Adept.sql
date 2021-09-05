@@ -11,7 +11,6 @@ VALUES (46567,   1,      16) /* ItemType - Creature */
      , (46567,   7,      -1) /* ContainersCapacity */
      , (46567,  16,       1) /* ItemUseable - No */
      , (46567,  25,     240) /* Level */
-     , (46567,  48,      45) /* Light Weapon Skill */
      , (46567,  68,       5) /* TargetingTactic - Random, LastDamager */
      , (46567,  93,    1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46567, 133,       2) /* ShowableOnRadar - ShowMovement */

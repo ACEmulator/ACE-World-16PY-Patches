@@ -6,7 +6,7 @@ VALUES (46569, 'ace46569spectralbladeadept', 10, '2020-10-23 23:53:26') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46569,   1,         16) /* ItemType - Creature */
      , (46569,   2,         77) /* CreatureType - Ghost */
-     , (46569,   3,          9) /* PALETTE_TEMPLATE_INT - Grey */	 
+     , (46569,   3,          9) /* PaletteTemplate - Grey */	 
      , (46569,   6,         -1) /* ItemsCapacity */
      , (46569,   7,         -1) /* ContainersCapacity */
      , (46569,  16,          1) /* ItemUseable - No */

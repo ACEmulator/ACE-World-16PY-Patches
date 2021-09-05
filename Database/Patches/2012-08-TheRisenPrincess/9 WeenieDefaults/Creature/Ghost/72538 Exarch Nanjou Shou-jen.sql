@@ -9,7 +9,6 @@ VALUES (72538,   1,         16) /* ItemType - Creature */
      , (72538,   3,          9) /* PaletteTemplate - Grey */
      , (72538,   6,         -1) /* ItemsCapacity */
      , (72538,   7,         -1) /* ContainersCapacity */
-     , (72538,   8,        120) /* Mass */
      , (72538,  16,          1) /* ItemUseable - No */
      , (72538,  25,        305) /* Level */
      , (72538,  27,          0) /* ArmorType - None */

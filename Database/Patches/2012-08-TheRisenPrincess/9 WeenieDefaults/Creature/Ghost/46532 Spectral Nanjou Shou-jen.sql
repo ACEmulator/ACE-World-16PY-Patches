@@ -10,8 +10,7 @@ VALUES (46532,   1,         16) /* ItemType - Creature */
      , (46532,   6,         -1) /* ItemsCapacity */
      , (46532,   7,         -1) /* ContainersCapacity */
      , (46532,  16,          1) /* ItemUseable - No */
-     , (46532,  25,        260) /* Level */
-     , (46532,  48,         44) /* Heavy Weapon Skill */	 	 	 
+     , (46532,  25,        260) /* Level */	 	 	 
      , (46532,  68,          3) /* TargetingTactic - Random, Focused */
      , (46532,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */	 
      , (46532, 133,          2) /* ShowableOnRadar - ShowMovement */

@@ -10,8 +10,7 @@ VALUES (46574,   1,         16) /* ItemType - Creature */
      , (46574,   6,         -1) /* ItemsCapacity */
      , (46574,   7,         -1) /* ContainersCapacity */
      , (46574,  16,          1) /* ItemUseable - No */
-     , (46574,  25,        260) /* Level */
-     , (46574,  48,         44) /* Heavy Weapon Skill */	 	 	 
+     , (46574,  25,        260) /* Level */	 	 	 
      , (46574,  68,          3) /* TargetingTactic - Random, Focused */
      , (46574,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46574, 133,          2) /* ShowableOnRadar - ShowMovement */

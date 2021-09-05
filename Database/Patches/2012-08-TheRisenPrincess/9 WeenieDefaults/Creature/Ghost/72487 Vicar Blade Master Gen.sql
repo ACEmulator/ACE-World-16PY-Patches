@@ -8,7 +8,6 @@ VALUES (72487,   1,         16) /* ItemType - Creature */
      , (72487,   2,         31) /* CreatureType - Human */
      , (72487,   6,         -1) /* ItemsCapacity */
      , (72487,   7,         -1) /* ContainersCapacity */
-     , (72487,   8,        120) /* Mass */
      , (72487,  16,         32) /* ItemUseable - Remote */
      , (72487,  25,         15) /* Level */
      , (72487,  27,          0) /* ArmorType - None */
