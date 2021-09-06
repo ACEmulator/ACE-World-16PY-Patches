@@ -1,4 +1,4 @@
 Death:
-    - Act: The Unstable Master Bloodstone Satellite shatters with a resounding explosion!
+    - Activate
     - StartEvent: bloodstonestockpilealive
     - StopEvent: bloodstonestockpiledead
