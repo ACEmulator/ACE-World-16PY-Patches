@@ -139,8 +139,9 @@ VALUES (35092,  1784,   2.05)  /* Horizon's Blades */
      , (35092,  4475,   2.059)  /* Incantation of Blade Vulnerability Other */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35092, 9, 35105,  1, 0, 0.10, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (35092, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
+VALUES (35092, 9, 35105,  0, 0,    1, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (35092, 9, 35105,  1, 0,  0.3, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (35092, 9,     0,  0, 0,  0.7, False) /* Create nothing for ContainTreasure */
      , (35092, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (35092, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (35092, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */

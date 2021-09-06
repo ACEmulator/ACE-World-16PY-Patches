@@ -96,7 +96,7 @@ VALUES (41966,   1,   33560225) /* Setup */
                                    Wield Kite Shield (91) | Probability: 30.000002%
                                    Wield Round Shield (93) | Probability: 30.000002%
                                    Wield Buckler (44) | Probability: 30.000002% */
-     , (41966,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
+     , (41966,  35,       2101) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (41966,   1, 250, 0, 0) /* Strength */
@@ -136,8 +136,8 @@ VALUES (41966,  0,  4,  0,    0,  275,  275,  275,  275,  275,  275,  275,  275,
      , (41966,  8,  4, 155, 0.75,  275,  275,  275,  275,  275,  275,  275,  275,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41966, 9, 35105,  1, 0, 0.10, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (41966, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
+VALUES (41966, 9, 35105,  1, 0, 0.5, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (41966, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
      , (41966, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (41966, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (41966, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */

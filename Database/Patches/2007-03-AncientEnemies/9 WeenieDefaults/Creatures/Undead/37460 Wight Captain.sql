@@ -167,8 +167,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 8 /* Say */, 0, 20, NULL, 'Stand your ground.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37460, 9, 35105,  1, 0,  0.1, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (37460, 9,     0,  0, 0,  0.9, False) /* Create nothing for ContainTreasure */
+VALUES (37460, 9, 35105,  0, 0,    1, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (37460, 9, 35105,  1, 0,  0.3, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (37460, 9,     0,  0, 0,  0.7, False) /* Create nothing for ContainTreasure */
      , (37460, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (37460, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (37460, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */

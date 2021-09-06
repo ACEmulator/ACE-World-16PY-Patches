@@ -74,7 +74,7 @@ VALUES (41971,   1,   33557033) /* Setup */
      , (41971,   3,  536870985) /* SoundTable */
      , (41971,   4,  805306368) /* CombatTable */
      , (41971,   8,  100671612) /* Icon */
-     , (41971,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (41971,  35,       2105) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (41971,   1, 220, 0, 0) /* Strength */

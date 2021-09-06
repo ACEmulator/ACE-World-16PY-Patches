@@ -69,7 +69,7 @@ VALUES (41968,   1,   33560225) /* Setup */
      , (41968,   7,  268435558) /* ClothingBase */
      , (41968,   8,  100667942) /* Icon */
      , (41968,  22,  872415272) /* PhysicsEffectTable */
-     , (41968,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (41968,  35,       2105) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (41968,  0,  4,  0,    0,  350,  175,  175,  175,  175,  175,  175,  175,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -163,8 +163,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 8 /* Say */, 0, 20, NULL, 'Stand your ground.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41968, 9, 35105,  1, 0,  0.1, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (41968, 9,     0,  0, 0,  0.9, False) /* Create nothing for ContainTreasure */
+VALUES (41968, 9, 35105,  0, 0,    1, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (41968, 9, 35105,  1, 0,  0.3, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (41968, 9,     0,  0, 0,  0.7, False) /* Create nothing for ContainTreasure */
      , (41968, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (41968, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (41968, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */

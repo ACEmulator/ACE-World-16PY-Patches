@@ -76,7 +76,7 @@ VALUES (41967,  1,  33560225) /* Setup */
      , (41967,  7, 268435558) /* ClothingBase */
      , (41967,  8, 100667942) /* Icon */
      , (41967, 22, 872415272) /* PhysicsEffectTable */
-     , (41967, 35,      1000) /* DeathTreasureType - Loot Tier: 7 */;
+     , (41967, 35,      2105) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (41967,   1, 240, 0, 0) /* Strength */
@@ -122,8 +122,9 @@ VALUES (41967,  1786,   2.143) /* Nuhmudira's Spines */
      , (41967,  2166,   3.002) /* Tusker's Gift */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41967, 9, 35105,  1, 0, 0.10, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (41967, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
+VALUES (41967, 9, 35105,  0, 0,    1, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (41967, 9, 35105,  1, 0,  0.3, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (41967, 9,     0,  0, 0,  0.7, False) /* Create nothing for ContainTreasure */
      , (41967, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (41967, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (41967, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
