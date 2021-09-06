@@ -76,7 +76,7 @@ VALUES (35098,   1,   33560229) /* Setup */
      , (35098,   7,  268437008) /* ClothingBase */
      , (35098,   8,  100669124) /* Icon */
      , (35098,  22,  872415269) /* PhysicsEffectTable */
-     , (35098,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
+     , (35098,  35,       1015) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35098,   1, 500, 0, 0) /* Strength */
@@ -123,11 +123,13 @@ VALUES (35098,  2130,   2.05)  /* Infernae */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35098, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */
      , (35098, 2, 52142,  1, 0, 0, False) /* Create Round Shield (52142) for Wield */
-     , (35098, 9, 38714,  0, 0, 0.2, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
-     , (35098, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (35098, 9, 35105,  1, 0, 0.2, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (35098, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (35098, 9, 38714,  0, 0, 1, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
+     , (35098, 9, 35105,  0, 0, 1, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (35098, 9, 35105,  1, 0, 0.3, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (35098, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
      , (35098, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
+     , (35098, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (35098, 9, 35504,  0, 0, 0.02, False) /* Create Ornate Bone Key (35504) for ContainTreasure */
      , (35098, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (35098, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
      , (35098, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */

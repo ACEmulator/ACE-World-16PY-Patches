@@ -76,7 +76,7 @@ VALUES (52309,   1,   33560229) /* Setup */
      , (52309,   7,  268437008) /* ClothingBase */
      , (52309,   8,  100669124) /* Icon */
      , (52309,  22,  872415269) /* PhysicsEffectTable */
-     , (52309,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (52309,  35,       1015) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (52309,   1, 500, 0, 0) /* Strength */
@@ -123,10 +123,10 @@ VALUES (52309,  2170,    2.05)  /* Inferno's Gift */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52309, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */
      , (52309, 2, 52142,  1, 0, 0, False) /* Create Round Shield (52142) for Wield */
-     , (52309, 9, 38714,  0, 0, 0.20, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
-     , (52309, 9,     0,  0, 0, 0.80, False) /* Create nothing for ContainTreasure */
-     , (52309, 9, 35105,  1, 0, 0.20, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (52309, 9,     0,  0, 0, 0.80, False) /* Create nothing for ContainTreasure */
+     , (52309, 9, 38714,  0, 0, 1, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
+     , (52309, 9, 35105,  0, 0, 1, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (52309, 9, 35105,  1, 0, 0.3, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (52309, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
      , (52309, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (52309, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (52309, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */

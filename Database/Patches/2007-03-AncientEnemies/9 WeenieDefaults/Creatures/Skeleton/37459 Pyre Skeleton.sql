@@ -121,10 +121,10 @@ VALUES (37459,  2170,    2.05)  /* Inferno's Gift */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37459, 2, 35095,  1, 0, 0, False) /* Create Pyre Claw (35095) for Wield */
-     , (37459, 9, 38714,  0, 0, 0.10, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
-     , (37459, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
-     , (37459, 9, 35105,  1, 0, 0.10, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (37459, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
+     , (37459, 9, 38714,  0, 0, 0.75, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
+     , (37459, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
+     , (37459, 9, 35105,  1, 0, 0.5, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (37459, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
      , (37459, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
      , (37459, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */     
      , (37459, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */
