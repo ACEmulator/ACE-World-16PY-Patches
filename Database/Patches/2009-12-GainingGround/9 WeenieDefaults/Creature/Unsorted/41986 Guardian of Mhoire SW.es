@@ -36,6 +36,7 @@ GotoSet: CheckStatus
                 TestSuccess:
                     - Tell: You have five minutes before the sword turns to dust.
                     - Tell: Burn the corruption from the sword until it is pure and return it to me.
+                    - EraseQuest: mhoireSWcounter
                     - EraseQuest: mhoireSWflame1
                     - EraseQuest: mhoireSWflame2
                     - EraseQuest: mhoireSWflame3
