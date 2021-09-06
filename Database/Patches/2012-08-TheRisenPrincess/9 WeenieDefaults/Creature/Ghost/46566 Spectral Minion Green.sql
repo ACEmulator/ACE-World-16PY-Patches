@@ -68,10 +68,10 @@ VALUES (46566,   1,   33561493) /* Setup */
      , (46566,   2,  150994945) /* MotionTable */
      , (46566,   3,  536870942) /* SoundTable */
      , (46566,   4,  805306368) /* CombatTable */
-     , (46566,   7,  268437543) /* CLOTHINGBASE_DID */
+     , (46566,   7,  268437543) /* ClothingBase */
      , (46566,   8,  100669124) /* Icon */
      , (46566,  22,  872415269) /* PhysicsEffectTable */
-     , (46566,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (46566,  35,       1015) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46566,   1, 400, 0, 0) /* Strength */

@@ -72,7 +72,7 @@ VALUES (46565,   1,   33561478) /* Setup */
      , (46565,   7,  268437543) /* ClothingBase  */
      , (46565,   8,  100669124) /* Icon */
      , (46565,  22,  872415269) /* PhysicsEffectTable */
-     , (46565,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (46565,  35,       1015) /* DeathTreasureType - Loot Tier: 7 */;
 	 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46565,   1, 400, 0, 0) /* Strength */
