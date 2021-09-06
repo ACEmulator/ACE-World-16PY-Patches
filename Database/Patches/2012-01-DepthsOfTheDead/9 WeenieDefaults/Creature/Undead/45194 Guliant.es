@@ -15,8 +15,7 @@ Use:
                     - TakeItems: 45193, 20
                     - Tell: Thank you, traveler. These grubs will prove crucial to my experimentation. Allow me to reward you.   
                     - AwardNoShareXP: 25,000,000
-                    - AwardLuminance: 20,000
-                    - Give: 48918, 2
+                    - AwardLuminance: 10,000
                     - Give: 35383
                 TestFailure:
                     - Tell: Like many of our house, I have been freed from torment and my mind is my own.
