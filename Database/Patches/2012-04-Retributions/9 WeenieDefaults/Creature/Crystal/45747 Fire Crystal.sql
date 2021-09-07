@@ -19,7 +19,8 @@ VALUES (45747,   1,      16) /* ItemType - Creature */
      , (45747, 146, 1100000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45747,   1, True ) /* Stuck */;
+VALUES (45747,  1,    True) /* Stuck */
+     , (45747, 42,    True) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45747,   1,   5) /* HeartbeatInterval */
