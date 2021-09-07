@@ -6,13 +6,14 @@ VALUES (40135, 'ace40135-corrodingpillar', 10, '2019-02-10 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40135,   1,         16) /* ItemType - Creature */
      , (40135,   2,         47) /* CreatureType - Crystal */
+     , (40135,   3,          8) /* PaletteTemplate - Green */
      , (40135,   6,         -1) /* ItemsCapacity */
      , (40135,   7,         -1) /* ContainersCapacity */
      , (40135,  16,          1) /* ItemUseable - No */
-     , (40135,  25,        100) /* Level */   
-	  , (40135,  67,         64) /* Tolerance - */    
-     , (40135,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */   
-	  , (40135, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (40135,  25,        100) /* Level */
+     , (40135,  67,         64) /* Tolerance - Retaliate */
+     , (40135,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (40135, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (40135, 146,      88500) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -32,6 +33,7 @@ VALUES (40135,   1,       5) /* HeartbeatInterval */
      , (40135,   3,     400) /* HealthRate */
      , (40135,   4,       5) /* StaminaRate */
      , (40135,   5,       1) /* ManaRate */
+     , (40135,  12,     0.5) /* Shade */
      , (40135,  13,       1) /* ArmorModVsSlash */
      , (40135,  14,       1) /* ArmorModVsPierce */
      , (40135,  15,       1) /* ArmorModVsBludgeon */
@@ -66,7 +68,7 @@ VALUES (40135,   1,   33558690) /* Setup */
      , (40135,   2,  150995290) /* MotionTable */
      , (40135,   3,  536871001) /* SoundTable */
      , (40135,   6,   67113876) /* PaletteBase */
-     , (40135,   7,  268436443) /* ClothingBase */     
+     , (40135,   7,  268436443) /* ClothingBase */
      , (40135,   8,  100676420) /* Icon */
      , (40135,  22,  872415389) /* PhysicsEffectTable */;
 
@@ -84,9 +86,9 @@ VALUES (40135,   1,   400, 0, 0, 445) /* MaxHealth */
      , (40135,   5,   300, 0, 0, 450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (40135, 15, 0, 3, 0, 275, 0, 0)/* MagicDefense        Specialized */
-     , (40135, 45, 0, 3, 0, 180, 0, 0) /* LightWeapons        Specialized */
-     , (40135, 34, 0, 3, 0, 100, 0, 0) /* WarMagic            Specialized */;
+VALUES (40135, 15, 0, 3, 0, 275, 0, 0) /* MagicDefense        Specialized */
+     , (40135, 34, 0, 3, 0, 100, 0, 0) /* WarMagic            Specialized */
+     , (40135, 45, 0, 3, 0, 180, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (40135,  0,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -100,4 +102,4 @@ VALUES (40135,  0,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,
      , (40135,  8,  4,  1, 0.75,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40135,    101,   3)  /* Acid V */;
+VALUES (40135,   101,      3)  /* Acid Blast V */;

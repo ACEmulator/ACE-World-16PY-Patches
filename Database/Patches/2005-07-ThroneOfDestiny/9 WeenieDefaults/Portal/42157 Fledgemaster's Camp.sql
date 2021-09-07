@@ -27,6 +27,7 @@ VALUES (42157,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42157,   1, 'Fledgemaster''s Camp') /* Name */
      , (42157,  16, 'A portal leading to the Ruschk Fledgemaster''s Camp where a Fledgemaster''s Tusk may be found.') /* LongDesc */
+     , (42157,  37, 'fachubfledgemasterscampportal_flag') /* QuestRestriction */
      , (42157,  38, 'Fledgemaster''s Camp (77.4N, 59.8W).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42157,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42157, 2, 887095338, 132.971, 42.986, 3.6815, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x34E0002A [132.971000 42.986000 3.681500] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0x34E0002A [132.970993 42.986000 3.681500] 1.000000 0.000000 0.000000 0.000000 */;

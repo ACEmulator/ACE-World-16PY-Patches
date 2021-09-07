@@ -69,8 +69,8 @@ VALUES (49600,   1, 'Ivory Crafter') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49600,   1,   33554433) /* Setup */
-     , (49600,   2,  150994945) /* MotionTable */
-     , (49600,   3,  536870913) /* SoundTable */
+     , (49600,   2,  150995141) /* MotionTable */
+     , (49600,   3,  536871043) /* SoundTable */
      , (49600,   4,  805306368) /* CombatTable */
      , (49600,   6,   67108990) /* PaletteBase */
      , (49600,   8,  100667446) /* Icon */

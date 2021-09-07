@@ -46,7 +46,6 @@ VALUES (41963,   1,       5) /* HeartbeatInterval */
      , (41963,  31,      25) /* VisualAwarenessRange */
      , (41963,  34,       1) /* PowerupTime */
      , (41963,  36,       1) /* ChargeSpeed */
-     , (41963,  55,      75) /* HomeRadius */
      , (41963,  64,    0.58) /* ResistSlash */
      , (41963,  65,    0.58) /* ResistPierce */
      , (41963,  66,    0.66) /* ResistBludgeon */

@@ -13,8 +13,7 @@ VALUES (0x73A11001,  07925, 0x3A11012B, 87.0939, 116.422, -40, 0.9999985, 0, 0, 
 /* @teleloc 0x3A11012B [87.093900 116.422000 -40.000000] 0.999999 0.000000 0.000000 0.001760 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A11001, 0x73A11002, '2020-09-12 00:00:00') /* Exploration Marker (39841) */
-     , (0x73A11001, 0x73A11003, '2020-09-12 00:00:00') /* Illu Sclavus (34044) */
+VALUES (0x73A11001, 0x73A11003, '2020-09-12 00:00:00') /* Illu Sclavus (34044) */
      , (0x73A11001, 0x73A11004, '2020-09-12 00:00:00') /* Laisu Sclavus (34975) */
      , (0x73A11001, 0x73A11005, '2020-09-12 00:00:00') /* Illu Sclavus (34044) */
      , (0x73A11001, 0x73A11006, '2020-09-12 00:00:00') /* Illu Sclavus (34044) */
@@ -24,10 +23,6 @@ VALUES (0x73A11001, 0x73A11002, '2020-09-12 00:00:00') /* Exploration Marker (39
      , (0x73A11001, 0x73A1100A, '2020-09-12 00:00:00') /* Illu Sclavus (34044) */
      , (0x73A11001, 0x73A1100B, '2020-09-12 00:00:00') /* Laisu Sclavus (34975) */
      , (0x73A11001, 0x73A1100C, '2020-09-12 00:00:00') /* Illu Sclavus (34044) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73A11002, 39841, 0x3A11012B, 87.0939, 116.422, -40, 0.9999985, 0, 0, 0.001759641,  True, '2020-09-12 00:00:00'); /* Exploration Marker */
-/* @teleloc 0x3A11012B [87.093900 116.422000 -40.000000] 0.999999 0.000000 0.000000 0.001760 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A11003, 34044, 0x3A11012B, 91.40575, 111.214, -40, 0.8779656, 0, 0, -0.4787238,  True, '2020-09-12 00:00:00'); /* Illu Sclavus */

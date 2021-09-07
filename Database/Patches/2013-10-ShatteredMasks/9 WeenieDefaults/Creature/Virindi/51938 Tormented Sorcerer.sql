@@ -113,10 +113,10 @@ VALUES (51938,  0, 64,  0,    0, 650, 520, 520, 520, 520, 520, 520, 520,  600, 1
      , (51938,  8, 64, 200, 0.5, 650, 520, 520, 520, 520, 520, 520, 520,  600, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51938,  4633,   2.080)  /* Incantation of Vulnerability Other */
-     , (51938,  4643,   2.087)  /* Incantation of Drain Health Other */
-     , (51938,  4302,   2.095)  /* Incantation of Feeblemind Other */
-     , (51938,  3941,   2.105)  /* Heavy Lightning Ring */
-     , (51938,  3989,   2.265)  /* Dark Lightning */
-     , (51938,  4312,   2.300)  /* Incantation of Imperil Other */
-     , (51938,  4483,   2.429)  /* Incantation of Lightning Vulnerability Other */;
+VALUES (51938,  4633,    2.07)  /* Incantation of Vulnerability Other */
+     , (51938,  4643,   2.075)  /* Incantation of Drain Health Other */
+     , (51938,  4302,   2.081)  /* Incantation of Feeblemind Other */
+     , (51938,  3941,   2.278)  /* Heavy Lightning Ring */
+     , (51938,  3989,   2.404)  /* Dark Lightning */
+     , (51938,  4312,   2.206)  /* Incantation of Imperil Other */
+     , (51938,  4483,   2.259)  /* Incantation of Lightning Vulnerability Other */;

@@ -115,10 +115,6 @@ VALUES (1924268060, 31839, 723517760, 79.7569, 76.2415, 180.805, -0.999998, 0, 0
 /* @teleloc 0x2B200140 [79.756900 76.241500 180.805000] -0.999998 0.000000 0.000000 -0.002175 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1924268061, 39822, 723517468, 80.0965, 74.8801, 200, -0.912917, 0, 0, 0.408145, False, '2019-03-23 02:20:17'); /* Exploration Marker */
-/* @teleloc 0x2B20001C [80.096500 74.880100 200.000000] -0.912917 0.000000 0.000000 0.408145 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1924268062, 22566, 723517502, 187.609, 140.938, 3.6954, 1, 0, 0, 0, False, '2019-03-23 02:20:17'); /* Runed Chest */
 /* @teleloc 0x2B20003E [187.609000 140.938000 3.695400] 1.000000 0.000000 0.000000 0.000000 */
 

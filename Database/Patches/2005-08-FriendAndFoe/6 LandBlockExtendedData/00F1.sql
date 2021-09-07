@@ -122,10 +122,6 @@ VALUES (1880036331, 31417, 15794477, 90, -152.943, -71.9821, 0, 0, 0, -1, False,
 /* @teleloc 0x00F1012D [90.000000 -152.943000 -71.982100] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (1880036332, 39808, 15794477, 93.653, -146.317, -72, 0.934063, 0, 0, -0.357109, False, '2019-04-08 08:19:56'); /* Exploration Marker */
-/* @teleloc 0x00F1012D [93.653000 -146.317000 -72.000000] 0.934063 0.000000 0.000000 -0.357109 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (1880036333,  5148, 15795749, 106.02, -146.073, 0.3, -0.917952, 0, 0, -0.396691, False, '2019-04-08 08:19:56'); /* Flames */
 /* @teleloc 0x00F10625 [106.020000 -146.073000 0.300000] -0.917952 0.000000 0.000000 -0.396691 */
 

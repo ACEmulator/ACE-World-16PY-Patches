@@ -28,20 +28,17 @@ VALUES (46264,   1,      32768) /* ItemType - Caster */
      , (46264, 166,         42) /* SlayerCreatureType - LightningElemental */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46264,  11, True ) /* IgnoreCollisions */
-     , (46264,  13, True ) /* Ethereal */
-     , (46264,  14, True ) /* GravityStatus */
-     , (46264,  19, True ) /* Attackable */
-     , (46264,  22, True ) /* Inscribable */
+VALUES (46264,  22, True ) /* Inscribable */
      , (46264,  69, False) /* IsSellable */
      , (46264,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46264,   5, -0.025000000372529) /* ManaRate */
-     , (46264,  29, 1.13999998569489) /* WeaponDefense */
-     , (46264, 144, 0.0799999982118607) /* ManaConversionMod */
-     , (46264, 147, 0.219999998807907) /* CriticalFrequency */
-     , (46264, 152, 1.19000005722046) /* ElementalDamageMod */;
+VALUES (46264,   5, -0.025) /* ManaRate */
+     , (46264,  29,   1.14) /* WeaponDefense */
+     , (46264, 138,      4) /* SlayerDamageBonus */
+     , (46264, 144,   0.08) /* ManaConversionMod */
+     , (46264, 147,   0.22) /* CriticalFrequency */
+     , (46264, 152,   1.19) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46264,   1, 'Enhanced Dissolving Isparian Wand') /* Name */

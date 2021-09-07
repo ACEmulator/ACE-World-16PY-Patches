@@ -73,15 +73,15 @@ VALUES (25806,   1,   33559528) /* Setup */
      , (25806,   3,  536870942) /* SoundTable */
      , (25806,   4,  805306368) /* CombatTable */
      , (25806,   6,   67116522) /* PaletteBase */
-     , (25806,   7,  268435646) /* ClothingBase */
+     , (25806,   7,  268437008) /* ClothingBase */
      , (25806,   8,  100669124) /* Icon */
      , (25806,  22,  872415269) /* PhysicsEffectTable */
      , (25806,  32,        426) /* WieldedTreasureType - 
-                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Tachi (23136) | Probability: 30.000002%
                                    Wield Kite Shield (23135) | Probability: 100%
-                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield Yumi (23137) | Probability: 30.000002%
                                    Wield 20x Deadly Arrow (15429) | Probability: 100%
-                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield Heavy Crossbow (23131) | Probability: 30.000002%
                                    Wield 50x Deadly Quarrel (15438) | Probability: 100% */
      , (25806,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
@@ -99,16 +99,16 @@ VALUES (25806,   1,  3176, 0, 0, 3300) /* MaxHealth */
      , (25806,   5,   120, 0, 0, 428) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25806, 45, 0, 3, 0, 345, 0, 0) /* LightWeapons        Specialized */
-     , (25806, 47, 0, 3, 0, 185, 0, 0) /* MissileWeapons      Specialized */
-     , (25806, 46, 0, 3, 0, 280, 0, 0) /* FinesseWeapons      Specialized */
-     , (25806,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
+VALUES (25806,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (25806,  7, 0, 3, 0, 477, 0, 0) /* MissileDefense      Specialized */
-     , (25806, 44, 0, 3, 0, 345, 0, 0) /* HeavyWeapons        Specialized */
-     , (25806, 48, 0, 3, 0, 345, 0, 0) /* Shield              Specialized */
      , (25806, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense        Specialized */
      , (25806, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
-     , (25806, 34, 0, 3, 0, 210, 0, 0) /* WarMagic            Specialized */;
+     , (25806, 34, 0, 3, 0, 210, 0, 0) /* WarMagic            Specialized */
+     , (25806, 44, 0, 3, 0, 345, 0, 0) /* HeavyWeapons        Specialized */
+     , (25806, 45, 0, 3, 0, 345, 0, 0) /* LightWeapons        Specialized */
+     , (25806, 46, 0, 3, 0, 280, 0, 0) /* FinesseWeapons      Specialized */
+     , (25806, 47, 0, 3, 0, 185, 0, 0) /* MissileWeapons      Specialized */
+     , (25806, 48, 0, 3, 0, 345, 0, 0) /* Shield              Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25806,  0,  4,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

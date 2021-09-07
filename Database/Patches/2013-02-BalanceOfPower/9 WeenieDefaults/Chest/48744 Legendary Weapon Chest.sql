@@ -1,8 +1,7 @@
-
 DELETE FROM `weenie` WHERE `class_Id` = 48744;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48744, 'ace48744-legendaryweaponchest', 20, '2019-12-25 01:07:36') /* Chest */;
+VALUES (48744, 'ace48744-legendaryweaponchest', 20, '2021-07-28 07:30:20') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48744,   1,        512) /* ItemType - Container */
@@ -33,12 +32,12 @@ VALUES (48744,   1, True ) /* Stuck */
      , (48744,  86, True ) /* ChestRegenOnClose */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48744,  39, 1.10000002384186) /* DefaultScale */
+VALUES (48744,  39,     1.1) /* DefaultScale */
      , (48744,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48744,   1, 'Legendary Weapon Chest') /* Name */
-     , (48744,  12, 'keychestleg') /* LockCode */
+     , (48744,  12, 'legarmormagicweaponchest') /* LockCode */
      , (48744,  14, 'Use this item to open it and see its contents.') /* Use */
      , (48744,  16, 'A chest containing the highest quality weapons. ') /* LongDesc */;
 
@@ -49,8 +48,5 @@ VALUES (48744,   1,   33558324) /* Setup */
      , (48744,   8,  100674256) /* Icon */
      , (48744,  22,  872415275) /* PhysicsEffectTable */;
 
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48744, 1, 2004, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 8 from Death Treasure Table id: 2004 (x25 up to max of 25) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
-
-
+VALUES (48744, 1, 2004, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 8 from Death Treasure Table id: 2004 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

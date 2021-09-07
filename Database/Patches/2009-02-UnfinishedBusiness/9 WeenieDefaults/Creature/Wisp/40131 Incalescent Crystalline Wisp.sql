@@ -31,10 +31,10 @@ VALUES (40131,   1,       5) /* HeartbeatInterval */
      , (40131,   3,     0.4) /* HealthRate */
      , (40131,   4,       5) /* StaminaRate */
      , (40131,   5,       1) /* ManaRate */
-     , (40131,  13,    0.84) /* ArmorModVsSlash */
-     , (40131,  14,       2) /* ArmorModVsPierce */
-     , (40131,  15,       2) /* ArmorModVsBludgeon */
-     , (40131,  16,    0.84) /* ArmorModVsCold */
+     , (40131,  13,     0.8) /* ArmorModVsSlash */
+     , (40131,  14,       1) /* ArmorModVsPierce */
+     , (40131,  15,     0.8) /* ArmorModVsBludgeon */
+     , (40131,  16,     0.8) /* ArmorModVsCold */
      , (40131,  17,       2) /* ArmorModVsFire */
      , (40131,  18,       2) /* ArmorModVsAcid */
      , (40131,  19,       2) /* ArmorModVsElectric */
@@ -42,9 +42,9 @@ VALUES (40131,   1,       5) /* HeartbeatInterval */
      , (40131,  34,       1) /* PowerupTime */
      , (40131,  36,       1) /* ChargeSpeed */
      , (40131,  39,     1.3) /* DefaultScale */
-     , (40131,  64,     0.9) /* ResistSlash */
-     , (40131,  65,     0.3) /* ResistPierce */
-     , (40131,  66,     0.3) /* ResistBludgeon */
+     , (40131,  64,     1.2) /* ResistSlash */
+     , (40131,  65,     0.9) /* ResistPierce */
+     , (40131,  66,     1.1) /* ResistBludgeon */
      , (40131,  67,     0.3) /* ResistFire */
      , (40131,  68,     0.9) /* ResistCold */
      , (40131,  69,     0.3) /* ResistAcid */
@@ -97,10 +97,10 @@ VALUES (40131,  6, 0, 3, 0, 223, 0, 0) /* MeleeDefense        Specialized */
      , (40131, 45, 0, 3, 0, 200, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (40131,  0, 32, 50,  0.5,  140,  100,  200,  100,  200,  200,  200,  200,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
-     , (40131, 16, 32,  0,    0,  140,  100,  200,  100,  200,  200,  200,  200,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
-     , (40131, 17, 32,  5, 0.75,  120,  100,  200,  100,  200,  200,  200,  200,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
-     , (40131, 21, 32,  0,    0,  110,   40,   34,   34,   34,   34,   80,   34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
+VALUES (40131,  0,  4, 50,  0.5,  140,  100,  200,  100,  200,  200,  200,  200,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
+     , (40131, 16,  4,  0,    0,  140,  100,  200,  100,  200,  200,  200,  200,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */
+     , (40131, 17,  4,  5, 0.75,  120,  100,  200,  100,  200,  200,  200,  200,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
+     , (40131, 21,  4,  0,    0,  110,   40,   34,   34,   34,   34,   80,   34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40131,    85,   2.02)  /* Flame Bolt VI */

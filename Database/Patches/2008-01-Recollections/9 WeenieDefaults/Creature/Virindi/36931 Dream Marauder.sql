@@ -15,7 +15,7 @@ VALUES (36931,   1,         16) /* ItemType - Creature */
      , (36931,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36931, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (36931, 140,          1) /* AiOptions - CanOpenDoors */
-     , (36931, 146,     530000) /* XpOverride */;
+     , (36931, 146,     800000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36931,   1, True ) /* Stuck */

@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51614;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51614, 'ace51614-visionofhorror', 10, '2021-02-06 11:13:49') /* Creature */;
+VALUES (51614, 'ace51614-visionofhorror', 10, '2021-08-12 05:26:43') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51614,   1,         16) /* ItemType - Creature */
      , (51614,   2,         19) /* CreatureType - Virindi */
-     , (51614,   3,         11) /* PaletteTemplate */
+     , (51614,   3,         11) /* PaletteTemplate - Maroon */
      , (51614,   6,         -1) /* ItemsCapacity */
      , (51614,   7,         -1) /* ContainersCapacity */
      , (51614,  16,         32) /* ItemUseable - Remote */
@@ -33,11 +33,11 @@ VALUES (51614,   1,   33561226) /* Setup */
      , (51614,   2,  150994984) /* MotionTable */
      , (51614,   3,  536870930) /* SoundTable */
      , (51614,   6,   67111346) /* PaletteBase */
-     , (51614,   7,  268437423) /* Clothingbase */
+     , (51614,   7,  268437423) /* ClothingBase */
      , (51614,   8,  100667943) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51614,  0, 0, 0, 0, 0, 0, 0, 0, 0) /**/
+VALUES (51614,  0, 0, 0, 0, 0, 0, 0, 0, 0) /* Undef */
 /* @teleloc 0x0 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -54,18 +54,18 @@ VALUES (51614,   1, 26100, 0, 0,26250) /* MaxHealth */
      , (51614,   5,  8600, 0, 0, 9000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (51614, 31, 0, 2, 0, 250, 0, 0) /* CreatureMagic */
-     , (51614, 46, 0, 2, 0, 233, 0, 0) /* FinesseWeapons */
-     , (51614, 44, 0, 2, 0, 233, 0, 0) /* HeavyWeapons */
-     , (51614, 33, 0, 2, 0, 250, 0, 0) /* LifeMagic */
-     , (51614, 45, 0, 2, 0, 233, 0, 0) /* LightWeapons */
-     , (51614, 15, 0, 2, 0, 271, 0, 0) /* MagicDefense */
-     , (51614, 16, 0, 2, 0, 250, 0, 0) /* ManaConversion */
-     , (51614,  6, 0, 2, 0, 233, 0, 0) /* MeleeDefense */
-     , (51614,  7, 0, 2, 0, 250, 0, 0) /* MissileDefense */
-     , (51614, 41, 0, 2, 0, 233, 0, 0) /* TwoHanded */
-     , (51614, 43, 0, 2, 0, 250, 0, 0) /* VoidMagic */
-     , (51614, 34, 0, 2, 0, 250, 0, 0) /* WarMagic */;
+VALUES (51614,  6, 0, 2, 0, 233, 0, 0) /* MeleeDefense        Trained */
+     , (51614,  7, 0, 2, 0, 250, 0, 0) /* MissileDefense      Trained */
+     , (51614, 15, 0, 2, 0, 271, 0, 0) /* MagicDefense        Trained */
+     , (51614, 16, 0, 2, 0, 250, 0, 0) /* ManaConversion      Trained */
+     , (51614, 31, 0, 2, 0, 250, 0, 0) /* CreatureEnchantment Trained */
+     , (51614, 33, 0, 2, 0, 250, 0, 0) /* LifeMagic           Trained */
+     , (51614, 34, 0, 2, 0, 250, 0, 0) /* WarMagic            Trained */
+     , (51614, 41, 0, 2, 0, 233, 0, 0) /* TwoHandedCombat     Trained */
+     , (51614, 43, 0, 2, 0, 250, 0, 0) /* VoidMagic           Trained */
+     , (51614, 44, 0, 2, 0, 233, 0, 0) /* HeavyWeapons        Trained */
+     , (51614, 45, 0, 2, 0, 233, 0, 0) /* LightWeapons        Trained */
+     , (51614, 46, 0, 2, 0, 233, 0, 0) /* FinesseWeapons      Trained */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (51614, 7 /* Use */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -117,7 +117,17 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'Feeding on your emotions will
      , (@parent_id, 7, 34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 791 /* EmotionalWreck */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 8, 18 /* DirectBroadcast */, 0, 1, NULL, 'You have been awarded the title of Emotional Wreck!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 9, 27 /* TeachSpell */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 6150 /* Rynthid Recall */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 10, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 20630 /* Trade Note (250,000) */, 10, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id, 10, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 20630 /* Trade Note (250,000) */, 10, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 11, 102 /* InqQuestBitsOn */, 0, 1, NULL, 'LegendaryQuestsA@6', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 131072, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (51614, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'LegendaryQuestsA@6', NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id, 0, 106 /* SetQuestBitsOn */, 0, 1, NULL, 'LegendaryQuestsA', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 131072, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 1, 22 /* StampQuest */, 0, 1, NULL, 'LegendaryQuestCounter_0913', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (51614, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'AvariceRewarded_0813@2', NULL, NULL, NULL);

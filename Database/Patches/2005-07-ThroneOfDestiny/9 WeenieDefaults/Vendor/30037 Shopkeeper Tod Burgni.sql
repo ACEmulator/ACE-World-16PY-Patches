@@ -14,7 +14,7 @@ VALUES (30037,   1,         16) /* ItemType - Creature */
      , (30037,  27,          0) /* ArmorType - None */
      , (30037,  74, 1208248231) /* MerchandiseItemTypes - VendorShopKeep */
      , (30037,  75,          0) /* MerchandiseMinValue */
-     , (30037,  76,      25000) /* MerchandiseMaxValue */
+     , (30037,  76,    1000000) /* MerchandiseMaxValue */
      , (30037,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30037, 113,          1) /* Gender - Male */
      , (30037, 126,        500) /* VendorHappyMean */
@@ -39,19 +39,19 @@ VALUES (30037,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30037,   1,       5) /* HeartbeatInterval */
      , (30037,   2,       0) /* HeartbeatTimestamp */
-     , (30037,   3, 0.159999996423721) /* HealthRate */
+     , (30037,   3,    0.16) /* HealthRate */
      , (30037,   4,       5) /* StaminaRate */
      , (30037,   5,       1) /* ManaRate */
      , (30037,  11,     300) /* ResetInterval */
-     , (30037,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (30037,  13,     0.9) /* ArmorModVsSlash */
      , (30037,  14,       1) /* ArmorModVsPierce */
-     , (30037,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (30037,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (30037,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (30037,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30037,  16,     0.4) /* ArmorModVsCold */
+     , (30037,  17,     0.4) /* ArmorModVsFire */
      , (30037,  18,       1) /* ArmorModVsAcid */
-     , (30037,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (30037,  37, 0.899999976158142) /* BuyPrice */
-     , (30037,  38, 1.35000002384186) /* SellPrice */
+     , (30037,  19,     0.6) /* ArmorModVsElectric */
+     , (30037,  37,     0.9) /* BuyPrice */
+     , (30037,  38,    1.35) /* SellPrice */
      , (30037,  54,       3) /* UseRadius */
      , (30037,  64,       1) /* ResistSlash */
      , (30037,  65,       1) /* ResistPierce */
@@ -80,13 +80,7 @@ VALUES (30037,   1,   33554433) /* Setup */
      , (30037,   2,  150994945) /* MotionTable */
      , (30037,   3,  536870913) /* SoundTable */
      , (30037,   6,   67108990) /* PaletteBase */
-     , (30037,   8,  100667446) /* Icon */
-     , (30037,   9,   83890493) /* EyesTexture */
-     , (30037,  10,   83890555) /* NoseTexture */
-     , (30037,  14,   83890630) /* DefaultMouthTexture */
-     , (30037,  15,   67117105) /* HairPalette */
-     , (30037,  16,   67109564) /* EyesPalette */
-     , (30037,  17,   67115907) /* SkinPalette */;
+     , (30037,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30037,   1,  45, 0, 0) /* Strength */
@@ -246,6 +240,14 @@ VALUES (30037, 2,  2587,  0, 12, 0.5, False) /* Create Shirt (2587) for Wield */
      , (30037, 2,   132,  0, 9, 1, False) /* Create Shoes (132) for Wield */
      , (30037, 2, 28605,  0, 12, 0.5, False) /* Create Beret (28605) for Wield */
      , (30037, 2, 10696,  0, 14, 1, False) /* Create Apron (10696) for Wield */
+     , (30037, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */
+     , (30037, 4, 41507, -1, 0, 0, False) /* Create Moderate Item Tinkering Armature (41507) for Shop */
+     , (30037, 4, 41419, -1, 0, 0, False) /* Create Sheet Metal Form (41419) for Shop */
+     , (30037, 4, 41423, -1, 0, 0, False) /* Create Medal Mold (41423) for Shop */
+     , (30037, 4, 41396, -1, 0, 0, False) /* Create Handle Mold (41396) for Shop */
+     , (30037, 4, 41420, -1, 0, 0, False) /* Create Hammer (41420) for Shop */
+     , (30037, 4, 41418, -1, 0, 0, False) /* Create Leather Strap (41418) for Shop */
+     , (30037, 4, 41744, -1, 0, 0, False) /* Create A Comprehensive Guide to Gearcrafting (41744) for Shop */
      , (30037, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */
      , (30037, 4, 41507, -1, 0, 0, False) /* Create Moderate Item Tinkering Armature (41507) for Shop */
      , (30037, 4, 41419, -1, 0, 0, False) /* Create Sheet Metal Form (41419) for Shop */

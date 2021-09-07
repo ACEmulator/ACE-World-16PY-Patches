@@ -13,8 +13,6 @@ VALUES (30364,   1,          8) /* ItemType - Jewelry */
      , (30364,  17,        273) /* RareId */
      , (30364,  19,      50000) /* Value */
      , (30364,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
-     , (30364,  52,          2) /* ParentLocation */
-     , (30364,  53,        101) /* PlacementPosition */
      , (30364,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30364, 106,        350) /* ItemSpellcraft */
      , (30364, 107,       3000) /* ItemCurMana */
@@ -29,16 +27,12 @@ VALUES (30364,   4,          0) /* ItemTotalXp */
      , (30364,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30364,  11, True ) /* IgnoreCollisions */
-     , (30364,  13, True ) /* Ethereal */
-     , (30364,  14, True ) /* GravityStatus */
-     , (30364,  19, True ) /* Attackable */
-     , (30364,  22, True ) /* Inscribable */
+VALUES (30364,  22, True ) /* Inscribable */
      , (30364, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30364,   5, -0.0333333015441895) /* ManaRate */
-     , (30364,  12, 0.660000026226044) /* Shade */
+VALUES (30364,   5,  -0.033) /* ManaRate */
+     , (30364,  12,    0.66) /* Shade */
      , (30364,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -10,7 +10,7 @@ VALUES (48974,   1,          1) /* ItemType - MeleeWeapon */
      , (48974,  16,          1) /* ItemUseable - No */
      , (48974,  18,        256) /* UiEffects - Acid */
      , (48974,  19,        130) /* Value */
-     , (48974,  44,        125) /* Damage */
+     , (48974,  44,        172) /* Damage */
      , (48974,  45,         32) /* DamageType - Acid */
      , (48974,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (48974,  47,          4) /* AttackType - Slash */
@@ -26,7 +26,7 @@ VALUES (48974,  11, True ) /* IgnoreCollisions */
      , (48974,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48974,  22,    0.75) /* DamageVariance */;
+VALUES (48974,  22,    0.5) /* DamageVariance */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48974,   1, 'Acid Hatchet') /* Name */;
