@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x00EE;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700EE000,  4219, 0x00EE0382, 152.504, -246.772, 0.055, 0.999934, 0, 0, -0.0115008, False, '2021-05-20 13:43:41'); /* Linkable Monster Generator ( 7 Min.) */
+VALUES (0x700EE000,  7924, 0x00EE0382, 152.504, -246.772, 0.055, 0.999934, 0, 0, -0.0115008, False, '2021-05-20 13:43:41'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x00EE0382 [152.503998 -246.772003 0.055000] 0.999934 0.000000 0.000000 -0.011501 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -70,7 +70,7 @@ VALUES (0x700EE00D, 87379, 0x00EE03A8, 155.451, -191.28, 0.055, -0.0588586, 0, 0
 /* @teleloc 0x00EE03A8 [155.451004 -191.279999 0.055000] -0.058859 0.000000 0.000000 0.998266 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700EE00E,  4219, 0x00EE037B, 154.524, -149.95, 0.055, 0.82425, 0, 0, -0.566226, False, '2021-05-20 16:21:52'); /* Linkable Monster Generator ( 7 Min.) */
+VALUES (0x700EE00E,  7924, 0x00EE037B, 154.524, -149.95, 0.055, 0.82425, 0, 0, -0.566226, False, '2021-05-20 16:21:52'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x00EE037B [154.524002 -149.949997 0.055000] 0.824250 0.000000 0.000000 -0.566226 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -935,11 +935,7 @@ VALUES (0x700EE0BA, 87384, 0x00EE011B, 193.456, -86.2238, -35.945, -0.999375, 0,
 /* @teleloc 0x00EE011B [193.455994 -86.223801 -35.945000] -0.999375 0.000000 0.000000 -0.035363 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700EE0BB, 87386, 0x00EE011B, 192.094, -86.5077, -35.945, -0.997379, 0, 0, -0.0723516, False, '2021-05-21 15:34:58'); /* Under Drudge Fort WoF Controller Gen */
-/* @teleloc 0x00EE011B [192.093994 -86.507698 -35.945000] -0.997379 0.000000 0.000000 -0.072352 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700EE0BC,  4219, 0x00EE0118, 176.041, -85.713, -35.945, -0.999456, 0, 0, -0.0329897, False, '2021-05-21 15:35:33'); /* Linkable Monster Generator ( 7 Min.) */
+VALUES (0x700EE0BC,  7924, 0x00EE0118, 176.041, -85.713, -35.945, -0.999456, 0, 0, -0.0329897, False, '2021-05-21 15:35:33'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x00EE0118 [176.041000 -85.712997 -35.945000] -0.999456 0.000000 0.000000 -0.032990 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
