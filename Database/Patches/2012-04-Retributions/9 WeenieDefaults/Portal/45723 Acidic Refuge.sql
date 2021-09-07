@@ -18,7 +18,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45723,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (45723,   1, 'Acidic Refuge') /* Name */;
+VALUES (45723,  1, 'Acidic Refuge') /* Name */
+     , (45723, 37, 'GerainesLibraryCompleted0312') /* QuestRestrict */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45723,   1,   33555925) /* Setup */

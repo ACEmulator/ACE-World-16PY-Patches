@@ -49,7 +49,7 @@ Give: 45785
     - StampMyQuest: GeraineHeart2
     - Goto: CheckHeartCount
     
-Give: 45786
+Give: 45790
     - StampQuest: GaveGeraineHeart3
     - StampMyQuest: GeraineHeart3
     - Goto: CheckHeartCount
@@ -59,7 +59,7 @@ Give: 45787
     - StampMyQuest: GeraineHeart4
     - Goto: CheckHeartCount
 
-Give: 45788
+Give: 45786
     - StampQuest: GaveGeraineHeart5
     - StampMyQuest: GeraineHeart5
     - Goto: CheckHeartCount
@@ -69,7 +69,7 @@ Give: 45789
     - StampMyQuest: GeraineHeart6
     - Goto: CheckHeartCount
     
-Give: 45790
+Give: 45788
     - StampQuest: GaveGeraineHeart7
     - StampMyQuest: GeraineHeart7
     - Goto: CheckHeartCount

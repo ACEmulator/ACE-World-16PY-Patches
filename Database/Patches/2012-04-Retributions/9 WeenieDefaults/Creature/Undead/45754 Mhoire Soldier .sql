@@ -158,7 +158,7 @@ VALUES (@parent_id, 0, 22 /* StampQuest */, 0, 1, NULL, 'GaveGeraineHeart2', NUL
      , (@parent_id, 2, 67 /* Goto */, 0, 1, NULL, 'CheckHeartCount', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (45754, 6 /* Give */, 1, 45786, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (45754, 6 /* Give */, 1, 45790, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -178,7 +178,7 @@ VALUES (@parent_id, 0, 22 /* StampQuest */, 0, 1, NULL, 'GaveGeraineHeart4', NUL
      , (@parent_id, 2, 67 /* Goto */, 0, 1, NULL, 'CheckHeartCount', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (45754, 6 /* Give */, 1, 45788, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (45754, 6 /* Give */, 1, 45786, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -198,7 +198,7 @@ VALUES (@parent_id, 0, 22 /* StampQuest */, 0, 1, NULL, 'GaveGeraineHeart6', NUL
      , (@parent_id, 2, 67 /* Goto */, 0, 1, NULL, 'CheckHeartCount', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (45754, 6 /* Give */, 1, 45790, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (45754, 6 /* Give */, 1, 45788, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
