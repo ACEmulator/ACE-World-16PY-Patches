@@ -28,7 +28,7 @@ Refuse: 45680
                     - Tell: I shouldn't be surprised his information is encoded. I am sure we will break the code with time.
                     - Tell: Thank you for bringing this to me.
                     - AwardLevelProportionalXP: 25%, 0 - 250,000,000
-                    - AwardLuminance: 25,000
+                    - AwardLuminance: 30,000
                     - Give: Trade Note (250,000) (20630), 7
         QuestFailure:
             - Tell: How did you come to have this?
