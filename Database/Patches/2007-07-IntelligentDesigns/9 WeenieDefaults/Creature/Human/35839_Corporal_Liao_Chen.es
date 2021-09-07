@@ -49,6 +49,7 @@ Give: Monouga Experiment Log (35842)
 			- EraseQuest: LabPortalGem150
 			- StampQuest: RepeatMonougaExperimentLog
 			- StampQuest: ProdigalMonougaCompleted0707
+			- StampQuest: ProdigalMonougaRepeat0707
 
 Give: Olthoi Experiment Log (87357)
 	- TurnToTarget
@@ -73,6 +74,7 @@ Give: Olthoi Experiment Log (87357)
 			- EraseQuest: LabPortalGem120
 			- EraseQuest: LabPortalGem150
 			- StampQuest: ProdigalMonougaCompleted0707
+			- StampQuest: ProdigalMonougaRepeat0707
 
 Give: Tusker Experiment Orb (87356)
 	- TurnToTarget
@@ -97,4 +99,5 @@ Give: Tusker Experiment Orb (87356)
 			- EraseQuest: LabPortalGem120
 			- EraseQuest: LabPortalGem150
 			- StampQuest: ProdigalMonougaCompleted0707
+			- StampQuest: ProdigalMonougaRepeat0707
 			
