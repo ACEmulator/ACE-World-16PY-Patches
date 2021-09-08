@@ -14,6 +14,7 @@ Give: Dojiro Sangis Ring (36604)
 					- Delay: 1, Tell: Thank you for once again freeing Dojiro Sangi. Please, accept this reward.
 					- AwardXP: 96,200,000
 					- Give: 38456
+					- Give: 20630, 5
 					- StampQuest: ProdigalHumanCompleted_1107
 				QuestFailure:
 					- Tell: You have something for me?
@@ -24,4 +25,5 @@ Give: Dojiro Sangis Ring (36604)
 					- AddCharacterTitle: DojiroSangisSavior
 					- AwardXP: 226,800,000
 					- Give: 38456
+					- Give: 20630, 5
 					- StampQuest: ProdigalHumanCompleted_1107
