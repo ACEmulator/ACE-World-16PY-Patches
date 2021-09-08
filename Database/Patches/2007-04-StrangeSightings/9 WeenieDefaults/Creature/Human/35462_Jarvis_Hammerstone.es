@@ -20,16 +20,14 @@ Use:
 						QuestSuccess:
 							- Tell: Ah, I see you bested the Drudge leader, Bonecrunch, again. Well done! His sudden rise to power still worries me though.
 							- Delay: 1, Tell: The Royal Council is investigating the various creature uprisings in Dereth. It seems that the Mosswarts and Banderling have also been acting a bit odd lately. These are troubling times. I am glad that we have brave souls like you to protect our people.
-							- AwardLevelProportionalXP: 20%, Max: 132,000,000
-							- AwardXP: 15,000,000
+							- AwardLevelProportionalXP: 20%, Max: 147,000,000
 							- StampQuest: DefeatedProdigalDrudgeWait
 							- EraseQuest: DefeatedBonecrunch
 							- Goto: TitleReward
 						QuestFailure: 
 							- Tell: So, this BoneCrunch was behind the "Plan." From what you told me about him I think we can assume he is the Drudge depicted shining above the Drudge Fort. Where did he get all of this power? I mean, some of the Drudges that the Virindi modified are able to wield magic and fight impressively, but nothing like what this BoneCrunch can do. And he's organized the Drudges...
 							- Delay: 1, Tell: I'll need to pass this along to our Queen and council. Please wait awhile before attacking the fort again. I wouldn't want the Drudges getting it into their heads to attack Cragstone again.
-							- AwardLevelProportionalXP: 50%, Max: 329,000,000
-							- AwardXP: 15,000,000
+							- AwardLevelProportionalXP: 50%, Max: 344,000,000
 							- StampQuest: DefeatedProdigalDrudgeWait
 							- StampQuest: DefeatedBonecrunchRepeat
 							- EraseQuest: DefeatedBonecrunch
@@ -575,4 +573,3 @@ GotoSet: DrudgePlanScrapCheck
 																																		- Delay: 1, Tell: Now, for your service to our town I hereby make you a member of the Cragstone Militia, with the knowledge due a militia member.
 																																		- AwardXP: 6,000,000
 																																		- StampQuest: DrudgePlan_Wait
-																																		
