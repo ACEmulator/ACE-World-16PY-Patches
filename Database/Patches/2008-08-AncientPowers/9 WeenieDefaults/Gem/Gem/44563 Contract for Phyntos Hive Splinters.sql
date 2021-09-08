@@ -32,6 +32,7 @@ VALUES (44563, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44563,   1, 'Contract for Phyntos Hive Splinters') /* Name */
+     , (44563,  14, 'Recommended Level: 180') /* Use */
      , (44563,  16, 'Collect 10 Phyntos Hive Splinters.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

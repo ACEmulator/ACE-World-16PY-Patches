@@ -24,7 +24,7 @@ VALUES (31309,  11, True ) /* IgnoreCollisions */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31309,   1, 'Darling''s Collar') /* Name */
      , (31309,  16, 'Darling XIII - Property of Xsao Lann') /* LongDesc */
-     , (31309,  33, 'darlingscollar') /* Quest */;
+     , (31309,  33, 'LostPetCollarAcquired0805') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31309,   1,   33559602) /* Setup */

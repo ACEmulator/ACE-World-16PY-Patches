@@ -16,7 +16,7 @@ VALUES (45028,   1,       2048) /* ItemType - Gem */
      , (45028,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (45028,  94,         16) /* TargetType - Creature */
      , (45028, 280,        100) /* SharedCooldown */
-     , (45028, 349,        203) /* UseCreatesContractId - Gen Pop */;
+     , (45028, 349,        203) /* UseCreatesContractId - Contract_203_Jailbreak__General_Population */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45028,  22, True ) /* Inscribable */
@@ -27,6 +27,7 @@ VALUES (45028, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45028,   1, 'Contract for Jailbreak: General Population') /* Name */
+     , (45028,  14, 'Recommended Level: 180') /* Use */
      , (45028,  16, 'Cull the population of escaped Moarsmen prisoners.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

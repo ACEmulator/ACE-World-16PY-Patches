@@ -17,7 +17,7 @@ VALUES (51370,   1,       2048) /* ItemType - Gem */
      , (51370,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51370,  94,         16) /* TargetType - Creature */
      , (51370, 280,        100) /* SharedCooldown */
-	 , (51370, 369,        180) /* UseRequiresLevel */;
+     , (51370, 349,        297) /* UseCreatesContractId - Contract_297_Frozen_Fortress_Testing_Grounds */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51370,   1, False) /* Stuck */

@@ -12,10 +12,11 @@ VALUES (44493,   1,       2048) /* ItemType - Gem */
      , (44493,  16,          8) /* ItemUseable - Contained */
      , (44493,  18,          2) /* UiEffects - Poisoned */
      , (44493,  19,        100) /* Value */
+     , (44493,  33,          1) /* Bonded - Bonded */
      , (44493,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44493,  94,         16) /* TargetType - Creature */
      , (44493, 280,        100) /* SharedCooldown */
-     , (44493, 349,         98) /* UseCreatesContractId */;
+     , (44493, 349,         98) /* UseCreatesContractId - Contract_98_Soc__Graveyard_Delivery */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44493,  22, True ) /* Inscribable */
