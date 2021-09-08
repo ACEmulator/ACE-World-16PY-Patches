@@ -14,6 +14,8 @@ VALUES (35445,   1,         16) /* ItemType - Creature */
      , (35445,  27,          0) /* ArmorType - None */
      , (35445,  40,          2) /* CombatMode - Melee */
      , (35445,  68,          3) /* TargetingTactic - Random, Focused */
+     , (35445,  81,          1) /* MaxGeneratedObjects */
+     , (35445,  82,          0) /* InitGeneratedObjects */
      , (35445,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35445, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (35445, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -49,6 +51,7 @@ VALUES (35445,   1,       5) /* HeartbeatInterval */
      , (35445,  34, 1.10000002384186) /* PowerupTime */
      , (35445,  36,       1) /* ChargeSpeed */
      , (35445,  39, 1.29999995231628) /* DefaultScale */
+     , (35445,  43,       4) /* GeneratorRadius */
      , (35445,  64, 0.899999976158142) /* ResistSlash */
      , (35445,  65, 0.610000014305115) /* ResistPierce */
      , (35445,  66,       1) /* ResistBludgeon */
@@ -137,7 +140,10 @@ VALUES (35445,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'SpireDrudgeDead', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (35445, -1, 35436, -1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) /* Drudge Ravener (35436) (x1)  - Location to (re)Generate: Scatter */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (35445,  5 /* HeartBeat */,  0.025, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
