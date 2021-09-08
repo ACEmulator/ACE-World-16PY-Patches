@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46397;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46397, 'ace46397-shadownetherisparianwand', 35, '2019-05-28 05:23:14') /* Caster */;
+VALUES (46397, 'ace46397-shadownetherisparianwand', 35, '2021-09-08 05:23:14') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46397,   1,      32768) /* ItemType - Caster */
@@ -14,6 +14,7 @@ VALUES (46397,   1,      32768) /* ItemType - Caster */
      , (46397,  33,          1) /* Bonded - Bonded */
      , (46397,  36,       9999) /* ResistMagic */
      , (46397,  45,       1024) /* DamageType - Nether */
+     , (46397,  46,        512) /* DefaultCombatStyle - Magic */
      , (46397,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46397,  94,         16) /* TargetType - Creature */
      , (46397, 114,          1) /* Attuned - Attuned */
