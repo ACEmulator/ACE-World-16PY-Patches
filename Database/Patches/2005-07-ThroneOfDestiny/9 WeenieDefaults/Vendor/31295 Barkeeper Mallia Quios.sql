@@ -139,4 +139,5 @@ VALUES (31295, 2, 25701,  0, 86, 0, False) /* Create Sleek Dress (25701) for Wie
      , (31295, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (31295, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (31295, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
-     , (31295, 4, 31703, -1, 0, 0, False) /* Create  (31703) for Shop */;
+     , (31295, 4, 31703, -1, 0, 0, False) /* Create Ruschk Camp Sightings (31703) for Shop */
+     , (31295, 4, 31305, -1, 0, 0, False) /* Create Lunnum's Pyre (31305) for Shop */;
