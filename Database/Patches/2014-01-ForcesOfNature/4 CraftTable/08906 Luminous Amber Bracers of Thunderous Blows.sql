@@ -5,7 +5,6 @@ VALUES (8906, 0, 29 /* ArmorTinkering */, 400, 0, 0, 0, 'You successfully imbue 
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8906, 0,   9,  4096, 4, 'You can only apply this augmentaion to a bracer-slot item!') /* ValidLocations - BracerWear */
-	 , (8906, 0, 105,     1, 2, 'You can only apply this augmentation to a loot-generated item!')  /* Target.ItemWorkmanship - LessThan 1 */
 	 , (8906, 0, 311,     1, 3, 'This item has already been imbued!') /* ImbueStackingBitsInt */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
@@ -48,4 +47,15 @@ VALUES (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */,    36 /* 
 	 , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 30949 /* Diforsa Sleeves */, '2005-02-09 10:00:00')
 	 , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 28624 /* Tenassa Sleeves */, '2005-02-09 10:00:00')
 	 , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 37205 /* Olthoi Celdon Sleeves */, '2005-02-09 10:00:00')
-	 , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00');
+	 , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00')
+     , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 25657 /* Koujia Sleeves */, '2005-02-09 10:00:00')
+     , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 37213 /* Olthoi Bracers */, '2005-02-09 10:00:00')
+     , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 24615 /* Fine Olthoi Bracers */, '2005-02-09 10:00:00')
+     , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 24616 /* Good Olthoi Bracers */, '2005-02-09 10:00:00')
+     , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 24889 /* Greater Olthoi Bracers */, '2005-02-09 10:00:00')
+     , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 24890 /* Lesser Olthoi Bracers */, '2005-02-09 10:00:00')
+     , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 38470 /* Celestial Hand Vembraces */, '2005-02-09 10:00:00')
+     , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 38479 /* Eldrytch Web Vembraces */, '2005-02-09 10:00:00')
+     , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 38488 /* Radiant Blood Vembraces */, '2005-02-09 10:00:00')
+     , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 30523 /* Bracers of Leikotha's Tears */, '2005-02-09 10:00:00')
+     , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 30524 /* Gelidite Bracers */, '2005-02-09 10:00:00');

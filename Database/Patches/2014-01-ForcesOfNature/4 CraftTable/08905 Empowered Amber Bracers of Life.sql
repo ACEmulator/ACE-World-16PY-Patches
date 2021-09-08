@@ -5,7 +5,6 @@ VALUES (8905, 0, 29 /* ArmorTinkering */, 400, 0, 0, 0, 'You successfully imbue 
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8905, 0,   9,  4096, 4, 'You can only apply this augmentaion to a bracer-slot item!')
-	 , (8905, 0, 105,     1, 2, 'You can only apply this augmentation to a loot-generated item!')  /* Target.ItemWorkmanship - LessThan 1 */
 	 , (8905, 0, 379,     1, 3, 'This item has already been imbued!') /* Target.GearMaxHealthInt - GreaterThanEqual 1 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
@@ -45,4 +44,15 @@ VALUES (8905, 53066 /* Empowered Amber: Bracers of Life */,    36 /* Leather Bra
 	 , (8905, 53066 /* Empowered Amber: Bracers of Life */, 30949 /* Diforsa Sleeves */, '2005-02-09 10:00:00')
 	 , (8905, 53066 /* Empowered Amber: Bracers of Life */, 28624 /* Tenassa Sleeves */, '2005-02-09 10:00:00')
 	 , (8905, 53066 /* Empowered Amber: Bracers of Life */, 37205 /* Olthoi Celdon Sleeves */, '2005-02-09 10:00:00')
-	 , (8905, 53066 /* Empowered Amber: Bracers of Life */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00');
+	 , (8905, 53066 /* Empowered Amber: Bracers of Life */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00')
+     , (8905, 53066 /* Empowered Amber: Bracers of Life */, 25657 /* Koujia Sleeves */, '2005-02-09 10:00:00')
+     , (8905, 53066 /* Empowered Amber: Bracers of Life */, 37213 /* Olthoi Bracers */, '2005-02-09 10:00:00')
+     , (8905, 53066 /* Empowered Amber: Bracers of Life */, 24615 /* Fine Olthoi Bracers */, '2005-02-09 10:00:00')
+     , (8905, 53066 /* Empowered Amber: Bracers of Life */, 24616 /* Good Olthoi Bracers */, '2005-02-09 10:00:00')
+     , (8905, 53066 /* Empowered Amber: Bracers of Life */, 24889 /* Greater Olthoi Bracers */, '2005-02-09 10:00:00')
+     , (8905, 53066 /* Empowered Amber: Bracers of Life */, 24890 /* Lesser Olthoi Bracers */, '2005-02-09 10:00:00')
+     , (8905, 53066 /* Empowered Amber: Bracers of Life */, 38470 /* Celestial Hand Vembraces */, '2005-02-09 10:00:00')
+     , (8905, 53066 /* Empowered Amber: Bracers of Life */, 38479 /* Eldrytch Web Vembraces */, '2005-02-09 10:00:00')
+     , (8905, 53066 /* Empowered Amber: Bracers of Life */, 38488 /* Radiant Blood Vembraces */, '2005-02-09 10:00:00')
+     , (8905, 53066 /* Empowered Amber: Bracers of Life */, 30523 /* Bracers of Leikotha's Tears */, '2005-02-09 10:00:00')
+     , (8905, 53066 /* Empowered Amber: Bracers of Life */, 30524 /* Gelidite Bracers */, '2005-02-09 10:00:00');

@@ -5,7 +5,6 @@ VALUES (8924, 0, 29 /* ArmorTinkering */, 400, 0, 0, 0, 'You successfully imbue 
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8924, 0,   9,  4096, 4, 'You can only apply this augmentaion to a bracer-slot item!') /* ValidLocations - BracerWear */
-	 , (8924, 0, 105,     1, 2, 'You can only apply this augmentation to a loot-generated item!')  /* Target.ItemWorkmanship - LessThan 1 */
 	 , (8924, 0, 383,     1, 3, 'This item has already been imbued!') /* Target.GearPKDamageInt - GreaterThanEqual 1 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
@@ -45,4 +44,15 @@ VALUES (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */,    36
 	 , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 30949 /* Diforsa Sleeves */, '2005-02-09 10:00:00')
 	 , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 28624 /* Tenassa Sleeves */, '2005-02-09 10:00:00')
 	 , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 37205 /* Olthoi Celdon Sleeves */, '2005-02-09 10:00:00')
-	 , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00');
+	 , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00')
+     , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 25657 /* Koujia Sleeves */, '2005-02-09 10:00:00')
+     , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 37213 /* Olthoi Bracers */, '2005-02-09 10:00:00')
+     , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 24615 /* Fine Olthoi Bracers */, '2005-02-09 10:00:00')
+     , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 24616 /* Good Olthoi Bracers */, '2005-02-09 10:00:00')
+     , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 24889 /* Greater Olthoi Bracers */, '2005-02-09 10:00:00')
+     , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 24890 /* Lesser Olthoi Bracers */, '2005-02-09 10:00:00')
+     , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 38470 /* Celestial Hand Vembraces */, '2005-02-09 10:00:00')
+     , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 38479 /* Eldrytch Web Vembraces */, '2005-02-09 10:00:00')
+     , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 38488 /* Radiant Blood Vembraces */, '2005-02-09 10:00:00')
+     , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 30523 /* Bracers of Leikotha's Tears */, '2005-02-09 10:00:00')
+     , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 30524 /* Gelidite Bracers */, '2005-02-09 10:00:00');

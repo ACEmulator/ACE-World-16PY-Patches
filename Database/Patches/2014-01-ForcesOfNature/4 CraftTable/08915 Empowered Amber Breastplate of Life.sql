@@ -5,7 +5,6 @@ VALUES (8915, 0, 29 /* ArmorTinkering */, 400, 0, 0, 0, 'You successfully imbue 
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8915, 0,   9, 512, 4, 'You can only apply this augmentaion to a breastplate-slot item!') /* ValidLocations - ChestArmor */
-     , (8915, 0, 105,   1, 2, 'You can only apply this augmentation to a loot-generated item!')  /* Target.ItemWorkmanship - LessThan 1 */
 	 , (8915, 0, 379,   1, 3, 'This item has already been imbued!') /* Target.GearMaxHealthInt - GreaterThanEqual 1 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)

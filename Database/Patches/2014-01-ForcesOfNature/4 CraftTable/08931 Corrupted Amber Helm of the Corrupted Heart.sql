@@ -5,7 +5,6 @@ VALUES (8931, 0, 29 /* ArmorTinkering */, 400, 0, 0, 0, 'You successfully imbue 
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8931, 0,   9,  1, 4, 'You can only apply this augmentaion to a helm-slot item!') /* ValidLocations - HeadWear */
-     , (8931, 0, 105,  1, 2, 'You can only apply this augmentation to a loot-generated item!')  /* Target.ItemWorkmanship - LessThan 1 */
 	 , (8931, 0, 383,  1, 3, 'This item has already been imbued!') /* Target.GearPKDamageInt - GreaterThanEqual 1 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
@@ -57,11 +56,31 @@ VALUES (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */,    35 /*
 	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 28612 /* Bandana */, '2005-02-09 10:00:00')
 	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 28605 /* Beret */, '2005-02-09 10:00:00')
 	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 31236 /* Beret */, '2005-02-09 10:00:00')
-	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 5901 /* Kasa */, '2005-02-09 10:00:00')
-	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 5894 /* Fez */, '2005-02-09 10:00:00')
-	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 135 /* Turban */, '2005-02-09 10:00:00')
+	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */,  5901 /* Kasa */, '2005-02-09 10:00:00')
+	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */,  5894 /* Fez */, '2005-02-09 10:00:00')
+	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */,   135 /* Turban */, '2005-02-09 10:00:00')
 	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 31865 /* Circlet */, '2005-02-09 10:00:00')
 	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 31866 /* Coronet */, '2005-02-09 10:00:00')
 	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 31867 /* Diadem */, '2005-02-09 10:00:00')
 	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 31868 /* Signet Crown */, '2005-02-09 10:00:00')
-	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 31864 /* Teardrop Crown */, '2005-02-09 10:00:00');
+	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 31864 /* Teardrop Crown */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */,   118 /* Cap */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */,   119 /* Cowl */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */,   128 /* Qafiya */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */,  5905 /* Hood */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 24625 /* Fine Olthoi Brood Queen Helm */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 24626 /* Good Olthoi Brood Queen Helm */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 24899 /* Greater Olthoi Brood Queen Helm */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 24900 /* Lesser Olthoi Brood Queen Helm */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 24948 /* Antius' Celdon Helm */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 25515 /* Antius' Celdon Helm */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 26057 /* Envoy's Heaume */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 30511 /* Gelidite Mitre */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 30512 /* Imperial Chevaird's Helm */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 30527 /* Valkeer's Helm */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 30528 /* Helm of Leikotha's Tears */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 37199 /* Olthoi Helm */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 38467 /* Celestial Hand Helm */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 38476 /* Eldryth Web Helm */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 38485 /* Radiant Blood Helm */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 44975 /* Hood */, '2005-02-09 10:00:00');

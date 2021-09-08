@@ -5,7 +5,6 @@ VALUES (8920, 0, 29 /* ArmorTinkering */, 400, 0, 0, 0, 'You successfully imbue 
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8920, 0,   9,  2048, 4, 'You can only apply this augmentaion to a pauldrons-slot item!') /* ValidLocations - PauldronWear */
-	 , (8920, 0, 105,     1, 2, 'You can only apply this augmentation to a loot-generated item!')  /* Target.ItemWorkmanship - LessThan 1 */
 	 , (8920, 0, 379,     1, 3, 'This item has already been imbued!') /* Target.GearMaxHealthInt - GreaterThanEqual 1 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
@@ -56,4 +55,14 @@ VALUES (8920, 53072 /* Empowered Amber: Pauldrons of Life */,    86 /* Leather P
 	 , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 30949 /* Diforsa Sleeves */, '2005-02-09 10:00:00')
 	 , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 28624 /* Tenassa Sleeves */, '2005-02-09 10:00:00')
 	 , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 37205 /* Olthoi Celdon Sleeves */, '2005-02-09 10:00:00')
-	 , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00');
+	 , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00')
+     , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 24627 /* Fine Olthoi Pauldrons */, '2005-02-09 10:00:00')
+     , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 24628 /* Good Olthoi Pauldrons */, '2005-02-09 10:00:00')
+     , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 24901 /* Greater Olthoi Pauldrons */, '2005-02-09 10:00:00')
+     , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 24902 /* Lesser Olthoi Pauldrons */, '2005-02-09 10:00:00')
+     , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 25657 /* Koujia Sleeves */, '2005-02-09 10:00:00')
+     , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 30521 /* Pauldrons of Leikotha's Tears */, '2005-02-09 10:00:00')
+     , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 30522 /* Gelidite Pauldrons */, '2005-02-09 10:00:00')
+     , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 38468 /* Celestial Hand Pauldrons */, '2005-02-09 10:00:00')
+     , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 38477 /* Eldrytch Web Pauldrons */, '2005-02-09 10:00:00')
+     , (8920, 53072 /* Empowered Amber: Pauldrons of Life */, 38486 /* Radiant Blood Pauldrons */, '2005-02-09 10:00:00');

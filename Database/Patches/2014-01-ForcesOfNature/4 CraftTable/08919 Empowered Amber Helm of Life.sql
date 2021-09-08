@@ -5,7 +5,6 @@ VALUES (8919, 0, 29 /* ArmorTinkering */, 400, 0, 0, 0, 'You successfully imbue 
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8919, 0,   9,  1, 4, 'You can only apply this augmentaion to a helm-slot item!') /* ValidLocations - HeadWear */
-     , (8919, 0, 105,  1, 2, 'You can only apply this augmentation to a loot-generated item!')  /* Target.ItemWorkmanship - LessThan 1 */
 	 , (8919, 0, 379,  1, 3, 'This item has already been imbued!') /* Target.GearMaxHealthInt - GreaterThanEqual 1 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
@@ -64,4 +63,24 @@ VALUES (8919, 53071 /* Empowered Amber: Helm of Life */,    35 /* Chainmail Basi
 	 , (8919, 53071 /* Empowered Amber: Helm of Life */, 31866 /* Coronet */, '2005-02-09 10:00:00')
 	 , (8919, 53071 /* Empowered Amber: Helm of Life */, 31867 /* Diadem */, '2005-02-09 10:00:00')
 	 , (8919, 53071 /* Empowered Amber: Helm of Life */, 31868 /* Signet Crown */, '2005-02-09 10:00:00')
-	 , (8919, 53071 /* Empowered Amber: Helm of Life */, 31864 /* Teardrop Crown */, '2005-02-09 10:00:00');
+	 , (8919, 53071 /* Empowered Amber: Helm of Life */, 31864 /* Teardrop Crown */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */,   118 /* Cap */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */,   119 /* Cowl */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */,   128 /* Qafiya */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */,  5905 /* Hood */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 24625 /* Fine Olthoi Brood Queen Helm */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 24626 /* Good Olthoi Brood Queen Helm */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 24899 /* Greater Olthoi Brood Queen Helm */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 24900 /* Lesser Olthoi Brood Queen Helm */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 24948 /* Antius' Celdon Helm */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 25515 /* Antius' Celdon Helm */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 26057 /* Envoy's Heaume */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 30511 /* Gelidite Mitre */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 30512 /* Imperial Chevaird's Helm */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 30527 /* Valkeer's Helm */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 30528 /* Helm of Leikotha's Tears */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 37199 /* Olthoi Helm */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 38467 /* Celestial Hand Helm */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 38476 /* Eldryth Web Helm */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 38485 /* Radiant Blood Helm */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 44975 /* Hood */, '2005-02-09 10:00:00');
