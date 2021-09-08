@@ -16,7 +16,7 @@ VALUES (51605,   1,       2048) /* ItemType - Gem */
      , (51605,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (51605,  94,         16) /* TargetType - Creature */
      , (51605, 280,        100) /* SharedCooldown */
-     , (51605, 349,        301) /* UseCreatesContractId */;
+     , (51605, 349,        301) /* UseCreatesContractId - Contract_301_Journey_To_Madness */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51605,  22, True ) /* Inscribable */
