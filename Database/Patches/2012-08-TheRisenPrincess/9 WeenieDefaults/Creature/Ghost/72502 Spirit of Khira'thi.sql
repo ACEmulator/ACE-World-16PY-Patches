@@ -48,13 +48,13 @@ VALUES (72502,   1,       5) /* HeartbeatInterval */
      , (72502,  39,     1.3) /* DefaultScale */
      , (72502,  41,       0) /* RegenerationInterval */
      , (72502,  54,       3) /* UseRadius */
-     , (72502,  64,       1) /* ResistSlash */
-     , (72502,  65,       1) /* ResistPierce */
-     , (72502,  66,       1) /* ResistBludgeon */
-     , (72502,  67,       1) /* ResistFire */
-     , (72502,  68,       1) /* ResistCold */
-     , (72502,  69,       1) /* ResistAcid */
-     , (72502,  70,       1) /* ResistElectric */
+     , (72502,  64,     0.8) /* ResistSlash */
+     , (72502,  65,     0.8) /* ResistPierce */
+     , (72502,  66,     0.8) /* ResistBludgeon */
+     , (72502,  67,     0.8) /* ResistFire */
+     , (72502,  68,     0.8) /* ResistCold */
+     , (72502,  69,     0.8) /* ResistAcid */
+     , (72502,  70,     0.8) /* ResistElectric */
      , (72502,  71,       1) /* ResistHealthBoost */
      , (72502,  72,       1) /* ResistStaminaDrain */
      , (72502,  73,       1) /* ResistStaminaBoost */
