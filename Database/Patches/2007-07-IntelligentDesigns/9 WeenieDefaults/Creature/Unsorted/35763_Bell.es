@@ -3,6 +3,9 @@ Give: 35852
 	- StampQuest: LabPortalGem150
 
 Use:
+	- Sound: Speak1
+	- Delay: 1, Sound: Speak1
+	- Delay: 1, Sound: Speak1
 	- InqQuest: LabPortalGem150
 		QuestSuccess:
 			- InqEvent: Monouga150FPGiantGenEvent

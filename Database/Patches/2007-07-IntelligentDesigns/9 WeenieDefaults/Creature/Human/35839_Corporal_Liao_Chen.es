@@ -32,7 +32,7 @@ Give: Monouga Experiment Log (35842)
 		QuestSuccess:
 			- DirectBroadcast: The guard nods at the journal.
 			- Delay: 1, Tell: While I've seen a similar notebook before, I'm sure the researchers will appreciate any new information they might glean from this. Thank you.
-			- AwardLevelProportionalXP: 10%, Max: 259,787,017
+			- AwardLevelProportionalXP: 10%, 0 - 259,787,017
 			- EraseQuest: ProdigalMonougaStarted0707
 			- EraseQuest: LabPortalGem80
 			- EraseQuest: LabPortalGem120
@@ -41,7 +41,7 @@ Give: Monouga Experiment Log (35842)
 		QuestFailure:
 			- DirectBroadcast: The guard skims the book, then looks at you with a blank expression.
 			- Delay: 1, Tell: This doesn't bode well for the future. Not well at all.
-			- AwardLevelProportionalXP: 40%, Max: 1,017,135,420
+			- AwardLevelProportionalXP: 40%, 0 - 1,017,135,420
 			- Delay: 1, Tell: I'd better get this to the royals post-haste. They'll want to see this.
 			- EraseQuest: ProdigalMonougaStarted0707
 			- EraseQuest: LabPortalGem80
@@ -67,7 +67,7 @@ Give: Olthoi Experiment Log (87357)
 			- DirectBroadcast: The guard skims the book, then looks at you with a blank expression.
 			- Delay: 1, Tell: This doesn't bode well for the future. Not well at all.
 			- Delay: 1, Tell: I'd better get this to the royals post-haste. They'll want to see this.
-			- AwardLevelProportionalXP: 30%, Max: 116,450,000
+			- AwardLevelProportionalXP: 30%, 0 - 116,450,000
 			- StampQuest: RepeatOlthoiExperimentLog
 			- EraseQuest: ProdigalMonougaStarted0707
 			- EraseQuest: LabPortalGem80
@@ -87,12 +87,12 @@ Give: Tusker Experiment Orb (87356)
 			- EraseQuest: LabPortalGem120
 			- EraseQuest: LabPortalGem150
 			- StampQuest: ProdigalMonougaCompleted0707
-			- AwardLevelProportionalXP: 15%, Max: 20,673,188
+			- AwardLevelProportionalXP: 15%, 0 - 20,673,188
 		QuestFailure:
 			- DirectBroadcast: The guard skims the book, then looks at you with a blank expression.
 			- Delay: 1, Tell: This doesn't bode well for the future. Not well at all.
 			- Delay: 1, Tell: I'd better get this to the royals post-haste. They'll want to see this.
-			- AwardLevelProportionalXP: 30%, Max: 41,346,376
+			- AwardLevelProportionalXP: 30%, 0 - 41,346,376
 			- StampQuest: RepeatTuskerExperimentLog
 			- EraseQuest: ProdigalMonougaStarted0707
 			- EraseQuest: LabPortalGem80
