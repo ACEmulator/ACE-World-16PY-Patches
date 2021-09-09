@@ -20,14 +20,14 @@ Use:
 						QuestSuccess:
 							- Tell: Ah, I see you bested the Drudge leader, Bonecrunch, again. Well done! His sudden rise to power still worries me though.
 							- Delay: 1, Tell: The Royal Council is investigating the various creature uprisings in Dereth. It seems that the Mosswarts and Banderling have also been acting a bit odd lately. These are troubling times. I am glad that we have brave souls like you to protect our people.
-							- AwardLevelProportionalXP: 20%, Max: 147,000,000
+							- AwardLevelProportionalXP: 20%, 0 - 147,000,000
 							- StampQuest: DefeatedProdigalDrudgeWait
 							- EraseQuest: DefeatedBonecrunch
 							- Goto: TitleReward
 						QuestFailure: 
 							- Tell: So, this BoneCrunch was behind the "Plan." From what you told me about him I think we can assume he is the Drudge depicted shining above the Drudge Fort. Where did he get all of this power? I mean, some of the Drudges that the Virindi modified are able to wield magic and fight impressively, but nothing like what this BoneCrunch can do. And he's organized the Drudges...
 							- Delay: 1, Tell: I'll need to pass this along to our Queen and council. Please wait awhile before attacking the fort again. I wouldn't want the Drudges getting it into their heads to attack Cragstone again.
-							- AwardLevelProportionalXP: 50%, Max: 344,000,000
+							- AwardLevelProportionalXP: 50%, 0 - 344,000,000
 							- StampQuest: DefeatedProdigalDrudgeWait
 							- StampQuest: DefeatedBonecrunchRepeat
 							- EraseQuest: DefeatedBonecrunch
@@ -80,7 +80,7 @@ GotoSet: Lurkers
 							- Delay: 1, Tell: You did it! That should keep those Drudge Lurkers out of our town for awhile.
 							- Delay: 1, Tell: For your help in fighting the Drudge menace I grant you the wisdom of the Town Elders of Cragstone and the title "Drudge Doom."
 							- AddCharacterTitle: DrudgeDoom
-							- AwardLevelProportionalXP: 50%, Max: 441,350
+							- AwardLevelProportionalXP: 50%, 0 - 441,350
 							- EraseQuest: KillTaskDrudgeLurkers_0507
 							- StampQuest: KillTaskDrudgeLurkersWait_0507
 							- Goto: Stalkers
@@ -106,7 +106,7 @@ GotoSet: Stalkers
 							- Delay: 1, Tell: Well done! Finding one hundred of the nasty Drudge Stalkers is no easy task and eliminating them is even less so.
 							- Delay: 1, Tell: For your help in fighting the Drudge menace I grant you the wisdom of the Town Elders of Cragstone and the title "Stalker Stalker."
 							- AddCharacterTitle: StalkerStalker
-							- AwardLevelProportionalXP: 50%, Max: 747,567
+							- AwardLevelProportionalXP: 50%, 0 - 747,567
 							- StampQuest: KillTaskDrudgeStalkersWait_0507
 							- EraseQuest: KillTaskDrudgeStalkers_0507
 							- Goto: Raveners
@@ -132,7 +132,7 @@ GotoSet: Raveners
 							- Delay: 1, Tell: Very impressive. I must admit, you actually frighten me a bit with your bloodthirsty hunting skills.
 							- Delay: 1, Tell: For your help in fighting the Drudge menace I grant you the wisdom of the Town Elders of Cragstone and the title "Ravenous."
 							- AddCharacterTitle: Ravenous
-							- AwardLevelProportionalXP: 25%, Max: 903,479
+							- AwardLevelProportionalXP: 25%, 0 - 903,479
 							- StampQuest: KillTaskDrudgeRavenersWait_0507
 							- EraseQuest: KillTaskDrudgeRaveners_0507
 							- Goto: Altered
@@ -158,7 +158,7 @@ GotoSet: Altered
 							- Delay: 1, Tell: Well Done! Drudges will never overtake Cragstone with noble protectors like yourself at hand!
 							- Delay: 1, Tell: For your help in fighting the Drudge menace I grant you the wisdom of the Town Elders of Cragstone and the title "Altered Hunter."
 							- AddCharacterTitle: AlteredHunter
-							- AwardLevelProportionalXP: 20%, Max: 1,488,806
+							- AwardLevelProportionalXP: 20%, 0 - 1,488,806
 							- StampQuest: KillTaskAlteredDrudgesWait_0507
 							- EraseQuest: KillTaskAlteredDrudges_0507
 							- Goto: Augmented
@@ -182,7 +182,7 @@ GotoSet: Augmented
 							- Delay: 1, Tell: Congratulations! Cragstone owes you a debt of gratitude my friend.
 							- Delay: 1, Tell: For your help in fighting the Drudge menace I grant you the wisdom of the Town Elders of Cragstone and the title "Augmented Hunter."
 							- AddCharacterTitle: AugmentedHunter
-							- AwardLevelProportionalXP: 20%, Max: 1,488,806
+							- AwardLevelProportionalXP: 20%, 0 - 1,488,806
 							- StampQuest: KillTaskAugmentedDrudgesWait_0507
 							- EraseQuest: KillTaskAugmentedDrudges_0507
 						QuestFailure:
@@ -216,30 +216,30 @@ Give: Burnjas Board with Nails (35407)
 		QuestSuccess:
 			- Tell: This is the weapon that Drudge you called Burnja was wielding? Not very sophisticated is it?
 			- Delay: 1, Tell: I'm sure I can find someone who will buy this. Here have some of my writings on economics in a Post-Magical Revolutionary society.
-			- AwardLevelProportionalXP: 3%, Max: 1,839,776
+			- AwardLevelProportionalXP: 3%, 0 - 1,839,776
 		QuestFailure:
 			- Tell: This is the weapon that Drudge you called Burnja was wielding? Not very sophisticated is it?
 			- Delay: 1, Tell: I'm sure I can find someone who will buy this. Here have some of my writings on economics in a Post-Magical Revolutionary society.
-			- AwardLevelProportionalXP: 10%, Max: 66,000,000
+			- AwardLevelProportionalXP: 10%, 0 - 66,000,000
 			- StampQuest: BurnjasBoardTurnInRepeat
 
 Give: Drudge Scrying Orb (35593)
 	- TurnToTarget
 	- Tell: Ah one of BoneCrunch's treasures?
 	- Delay: 1, Tell: Thank you, here is a small reward for your help.
-	- AwardLevelProportionalXP: 10%, Max: 66,000,000
+	- AwardLevelProportionalXP: 10%, 0 - 66,000,000
 
 Give: Scroll of Flame Chain (35594)
 	- TurnToTarget
 	- Tell: Ah one of BoneCrunch's treasures?
 	- Delay: 1, Tell: Thank you, here is a small reward for your help.
-	- AwardLevelProportionalXP: 10%, Max: 66,000,000
+	- AwardLevelProportionalXP: 10%, 0 - 66,000,000
 
 Give: Bonecrunchs Hammer (35598)
 	- TurnToTarget
 	- Tell: Ah one of BoneCrunch's treasures? Let's see what he does without his hammer.
 	- Delay: 1, Tell: Thank you, here is a small reward for your help.
-	- AwardLevelProportionalXP: 10%, Max: 66,000,000
+	- AwardLevelProportionalXP: 10%, 0 - 66,000,000
 
 Refuse: Protective Drudge Charm (35590)
 	- TurnToTarget
@@ -247,7 +247,7 @@ Refuse: Protective Drudge Charm (35590)
 		TestSuccess:
 			- TakeItems: 35590, 1
 			- Tell: This is one of BoneCrunch's treasures? It looks like some of the other Drudge Charms I've seen, but it's obviously more powerful. I'll have Suya the Jeweler take a look at it. Thank you, here is a small reward for your help."
-			- AwardLevelProportionalXP: 10%, Max: 66,000,000
+			- AwardLevelProportionalXP: 10%, 0 - 66,000,000
 		TestFailure:
 			- Tell: You can't cheat the system!
 
@@ -255,8 +255,8 @@ Give: Spire Chunk (87428)
 	- TurnToTarget
 	- Tell: Oh boy, this can't be good. What do the Drudges want with pieces of the Spire? Maybe they just think of it as building stone... maybe.
 	- Delay: 1, Tell: I need to inform the Council about this. Here, take this bit of knowledge I've gleaned as a merchant here in Cragstone. Thank you for your help.
-	- AwardLevelProportionalXP: 7%, Max: 126,192
-	- AwardLevelProportionalXP: 3%, Max: 1,839,776
+	- AwardLevelProportionalXP: 7%, 0 - 126,192
+	- AwardLevelProportionalXP: 3%, 0 - 1,839,776
 
 Give: Torn Cloth Scrap (35409)
 	- TurnToTarget
