@@ -6,7 +6,7 @@ Refuse: Corrupted Essence (44470)
                 QuestSuccess:
                     - InqQuestSolves: CorruptedEssenceCount, 100 - 100
                         QuestSuccess:
-                            - Tell: Return to me later small one.
+                            - Tell: Please return to me later.
                         QuestFailure:
                             - InqQuestSolves: CorruptedEssenceCount, 91 - 99
                                 QuestSuccess:
@@ -41,7 +41,7 @@ Refuse: Corrupted Essence (44470)
                                 TestSuccess:
                                     - TakeItems: Corrupted Essence (44470), 100
                                     - IncrementQuest: CorruptedEssenceCount, 100
-                                    - IncrementQuest: DeepCorruptedEssenceArmorCount, 100
+                                    - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 100
                                     - StampQuest: CorruptedEssenceTurnInTimer
                                     - AwardLevelProportionalXP: 400%, 0 - 1,627,268,100
                                     - Goto: CheckArmorTurnInCount
@@ -67,9 +67,9 @@ GotoSet: Has10
             - InqYesNo: Would you like to turn in 10 Corrupted Essences?
                 TestSuccess:
                     - TakeItems: Corrupted Essence (44470), 10
-                    - DirectBroadcast: You drop the remains into 'The Deep'. A feeling of immense pleasure washes over your body.
+                    - Tell: The King shall know of your valiance. Bring more remains and you may receive a greater reward.
                     - IncrementQuest: CorruptedEssenceCount, 10
-                    - IncrementQuest: DeepCorruptedEssenceArmorCount, 10
+                    - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 10
                     - AwardLevelProportionalXP: 40%, 0 - 162,726,810
                     - Goto: CheckArmorTurnInCount
                 TestFailure:
@@ -79,9 +79,9 @@ GotoSet: Has10
 
 GotoSet: Has1
     - TakeItems: Corrupted Essence (44470)
-    - DirectBroadcast: You drop the remains into 'The Deep'. A feeling of immense pleasure washes over your body.
+    - Tell: The King shall know of your valiance. Bring more remains and you may receive a greater reward.
     - IncrementQuest: CorruptedEssenceCount, 1
-    - IncrementQuest: DeepCorruptedEssenceArmorCount, 1
+    - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 1
     - AwardLevelProportionalXP: 4%, 0 - 16,272,681
     - Goto: CheckArmorTurnInCount
 
@@ -93,7 +93,7 @@ Refuse: Lesser Corrupted Essence (44469)
                 QuestSuccess:
                     - InqQuestSolves: CorruptedEssenceCount, 100 - 100
                         QuestSuccess:
-                            - Tell: Return to me later small one.
+                            - Tell: Please return to me later.
                         QuestFailure:
                             - InqQuestSolves: CorruptedEssenceCount, 91 - 99
                                 QuestSuccess:
@@ -127,7 +127,7 @@ Refuse: Lesser Corrupted Essence (44469)
                                 TestSuccess:
                                     - TakeItems: Lesser Corrupted Essence (44469), 100
                                     - IncrementQuest: CorruptedEssenceCount, 100
-                                    - IncrementQuest: DeepCorruptedEssenceArmorCount, 100
+                                    - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 100
                                     - StampQuest: CorruptedEssenceTurnInTimer
                                     - AwardLevelProportionalXP: 400%, 0 - 1,300,000,000
                                     - Goto: CheckArmorTurnInCount
@@ -152,9 +152,9 @@ GotoSet: Has10LesserEssence
             - InqYesNo: Would you like to turn in 10 Lesser Corrupted Essences?
                 TestSuccess:
                     - TakeItems: Lesser Corrupted Essence (44469), 10
-                    - DirectBroadcast: You drop the remains into 'The Deep'. A feeling of immense pleasure washes over your body.
+                    - Tell: The King shall know of your valiance. Bring more remains and you may receive a greater reward.
                     - IncrementQuest: CorruptedEssenceCount, 10
-                    - IncrementQuest: DeepCorruptedEssenceArmorCount, 10
+                    - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 10
                     - AwardLevelProportionalXP: 40%, 0 - 130,000,000
                     - Goto: CheckArmorTurnInCount
                 TestFailure:
@@ -164,45 +164,43 @@ GotoSet: Has10LesserEssence
 
 GotoSet: Has1LesserEssence
     - TakeItems: Lesser Corrupted Essence (44469)
-    - DirectBroadcast: You drop the remains into 'The Deep'. A feeling of immense pleasure washes over your body.
+    - Tell: The King shall know of your valiance. Bring more remains and you may receive a greater reward.
     - IncrementQuest: CorruptedEssenceCount, 1
-    - IncrementQuest: DeepCorruptedEssenceArmorCount, 1
+    - IncrementQuest: FrancoisCorruptedEssenceArmorCount, 1
     - AwardLevelProportionalXP: 4%, 0 - 13,000,000
     - Goto: CheckArmorTurnInCount
 
 GotoSet: CheckArmorTurnInCount
-    - InqQuestSolves: DeepCorruptedEssenceArmorCount, 100 - 300
+    - InqQuestSolves: FrancoisCorruptedEssenceArmorCount, 100 - 300
         QuestSuccess:
-            - DirectBroadcast: You see something forming in the mists, coming toward you.
-            - DecrementQuest: DeepCorruptedEssenceArmorCount, 100
+            - Tell: King Varicci would have you accept this as a reward for your continued efforts to cleanse this isle of its corrupted denizens.
+            - DecrementQuest: FrancoisCorruptedEssenceArmorCount, 100
             - Goto: RollForArmor
 
 GotoSet: RollForArmor, Probability: 0.2
-    - Give: Ancient Relic Vestment and Bracers (33579)
+    - Give: Relic Alduressa Coat (33574)
 
 GotoSet: RollForArmor, Probability: 0.4
-    - Give: Ancient Relic Gauntlets (33580)
+    - Give: Relic Alduressa Gauntlets (33575)
 
 GotoSet: RollForArmor, Probability: 0.6
-    - Give: Ancient Relic Helm (33581)
+    - Give: Relic Alduressa Helm (33576)
 
 GotoSet: RollForArmor, Probability: 0.8
-    - Give: Ancient Relic Leggings (33582)
+    - Give: Relic Alduressa Leggings (33577)
 
 GotoSet: RollForArmor, Probability: 1
-    - Give: Ancient Relic Sollerets (33583)
+    - Give: Relic Alduressa Sollerets (33578)
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.085
+    - Motion: Twitch1
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
+    - Motion: Twitch2
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
+    - Motion: Twitch3
 
 Use:
-    - DirectBroadcast: As you stare into the deep bottomless mist, you begin to enter a trance like state. A voice can be heard coming from everywhere and yet nowhere.
-    - Delay: 1, Tell: Destroy the inhabitants of this island!
-    - Delay: 1, Tell: Bring their remains to me!
-    - Delay: 1, Tell: Bring the remains of the servants of Grael to me!
-
-Give: Altered Dark Remoran Fin (38612)
-    - StampQuest: TaskDIDelivery
-    - DirectBroadcast: You drop the altered remains into 'The Deep'. A feeling of immense pleasure washes over your body.
-    - Delay: 0.5, DirectBroadcast: The pleasure you feel eminating from 'The Deep' changes to confusion and a twisting sensation in your gut.
-    - Delay: 0.5, DirectBroadcast: A suddent pungent odor of rot arises from deep within the mists.
-    - Delay: 0.5, DirectBroadcast: A crazed, anger filled voice echoes from everywhere around you!
-    - Tell: I will not be toyed with, small one.  Begone!
-    - CastSpellInstant: 2046 - Portal to Teth
+    - TurnToTarget
+    - Tell: King Varicci wishes to reward any who defeat the servants of this foul Grael. Bring any remains to me, that he shall know of your deeds.

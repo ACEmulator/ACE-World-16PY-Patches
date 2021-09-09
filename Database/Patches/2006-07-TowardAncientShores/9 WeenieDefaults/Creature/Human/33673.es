@@ -6,7 +6,7 @@ Refuse: Corrupted Essence (44470)
                 QuestSuccess:
                     - InqQuestSolves: CorruptedEssenceCount, 100 - 100
                         QuestSuccess:
-                            - Tell: Return to me later small one.
+                            - Tell: Please return to me later.
                         QuestFailure:
                             - InqQuestSolves: CorruptedEssenceCount, 91 - 99
                                 QuestSuccess:
@@ -41,7 +41,7 @@ Refuse: Corrupted Essence (44470)
                                 TestSuccess:
                                     - TakeItems: Corrupted Essence (44470), 100
                                     - IncrementQuest: CorruptedEssenceCount, 100
-                                    - IncrementQuest: DeepCorruptedEssenceArmorCount, 100
+                                    - IncrementQuest: TyrinaCorruptedEssenceArmorCount, 100
                                     - StampQuest: CorruptedEssenceTurnInTimer
                                     - AwardLevelProportionalXP: 400%, 0 - 1,627,268,100
                                     - Goto: CheckArmorTurnInCount
@@ -67,9 +67,9 @@ GotoSet: Has10
             - InqYesNo: Would you like to turn in 10 Corrupted Essences?
                 TestSuccess:
                     - TakeItems: Corrupted Essence (44470), 10
-                    - DirectBroadcast: You drop the remains into 'The Deep'. A feeling of immense pleasure washes over your body.
+                    - Tell: Queen Elysa will be pleased. Please, accept this small reward for your deeds. Bring more trophies to me, and I may have greater rewards for you.
                     - IncrementQuest: CorruptedEssenceCount, 10
-                    - IncrementQuest: DeepCorruptedEssenceArmorCount, 10
+                    - IncrementQuest: TyrinaCorruptedEssenceArmorCount, 10
                     - AwardLevelProportionalXP: 40%, 0 - 162,726,810
                     - Goto: CheckArmorTurnInCount
                 TestFailure:
@@ -79,9 +79,9 @@ GotoSet: Has10
 
 GotoSet: Has1
     - TakeItems: Corrupted Essence (44470)
-    - DirectBroadcast: You drop the remains into 'The Deep'. A feeling of immense pleasure washes over your body.
+    - Tell: Queen Elysa will be pleased. Please, accept this small reward for your deeds. Bring more trophies to me, and I may have greater rewards for you.
     - IncrementQuest: CorruptedEssenceCount, 1
-    - IncrementQuest: DeepCorruptedEssenceArmorCount, 1
+    - IncrementQuest: TyrinaCorruptedEssenceArmorCount, 1
     - AwardLevelProportionalXP: 4%, 0 - 16,272,681
     - Goto: CheckArmorTurnInCount
 
@@ -93,7 +93,7 @@ Refuse: Lesser Corrupted Essence (44469)
                 QuestSuccess:
                     - InqQuestSolves: CorruptedEssenceCount, 100 - 100
                         QuestSuccess:
-                            - Tell: Return to me later small one.
+                            - Tell: Please return to me later.
                         QuestFailure:
                             - InqQuestSolves: CorruptedEssenceCount, 91 - 99
                                 QuestSuccess:
@@ -127,9 +127,9 @@ Refuse: Lesser Corrupted Essence (44469)
                                 TestSuccess:
                                     - TakeItems: Lesser Corrupted Essence (44469), 100
                                     - IncrementQuest: CorruptedEssenceCount, 100
-                                    - IncrementQuest: DeepCorruptedEssenceArmorCount, 100
+                                    - IncrementQuest: TyrinaCorruptedEssenceArmorCount, 100
                                     - StampQuest: CorruptedEssenceTurnInTimer
-                                    - AwardLevelProportionalXP: 400%, 0 - 1,300,000,000
+                                    - AwardLevelProportionalXP: 400%, Max: 1,300,000,000
                                     - Goto: CheckArmorTurnInCount
                                 TestFailure:
                                     - Tell: Very well.
@@ -152,9 +152,9 @@ GotoSet: Has10LesserEssence
             - InqYesNo: Would you like to turn in 10 Lesser Corrupted Essences?
                 TestSuccess:
                     - TakeItems: Lesser Corrupted Essence (44469), 10
-                    - DirectBroadcast: You drop the remains into 'The Deep'. A feeling of immense pleasure washes over your body.
+                    - Tell: Queen Elysa will be pleased. Please, accept this small reward for your deeds. Bring more trophies to me, and I may have greater rewards for you.
                     - IncrementQuest: CorruptedEssenceCount, 10
-                    - IncrementQuest: DeepCorruptedEssenceArmorCount, 10
+                    - IncrementQuest: TyrinaCorruptedEssenceArmorCount, 10
                     - AwardLevelProportionalXP: 40%, 0 - 130,000,000
                     - Goto: CheckArmorTurnInCount
                 TestFailure:
@@ -164,45 +164,43 @@ GotoSet: Has10LesserEssence
 
 GotoSet: Has1LesserEssence
     - TakeItems: Lesser Corrupted Essence (44469)
-    - DirectBroadcast: You drop the remains into 'The Deep'. A feeling of immense pleasure washes over your body.
+    - Tell: Queen Elysa will be pleased. Please, accept this small reward for your deeds. Bring more trophies to me, and I may have greater rewards for you.
     - IncrementQuest: CorruptedEssenceCount, 1
-    - IncrementQuest: DeepCorruptedEssenceArmorCount, 1
+    - IncrementQuest: TyrinaCorruptedEssenceArmorCount, 1
     - AwardLevelProportionalXP: 4%, 0 - 13,000,000
     - Goto: CheckArmorTurnInCount
 
 GotoSet: CheckArmorTurnInCount
-    - InqQuestSolves: DeepCorruptedEssenceArmorCount, 100 - 300
+    - InqQuestSolves: TyrinaCorruptedEssenceArmorCount, 100 - 300
         QuestSuccess:
-            - DirectBroadcast: You see something forming in the mists, coming toward you.
-            - DecrementQuest: DeepCorruptedEssenceArmorCount, 100
+            - Tell: Queen Elysa would have you accept this as a reward for your continued efforts to cleanse this isle of its corrupted denizens.
+            - DecrementQuest: TyrinaCorruptedEssenceArmorCount, 100
             - Goto: RollForArmor
 
 GotoSet: RollForArmor, Probability: 0.2
-    - Give: Ancient Relic Vestment and Bracers (33579)
+    - Give: Noble Relic Coat of Brilliance (33584)
 
 GotoSet: RollForArmor, Probability: 0.4
-    - Give: Ancient Relic Gauntlets (33580)
+    - Give: Noble Relic Helm of Will (33586)
 
 GotoSet: RollForArmor, Probability: 0.6
-    - Give: Ancient Relic Helm (33581)
+    - Give: Noble Relic Leggings of Health (33587)
 
 GotoSet: RollForArmor, Probability: 0.8
-    - Give: Ancient Relic Leggings (33582)
+    - Give: Noble Relic Gauntlets of Strength (33585)
 
 GotoSet: RollForArmor, Probability: 1
-    - Give: Ancient Relic Sollerets (33583)
+    - Give: Noble Relic Sollerets of Speed (33588)
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.085
+    - Motion: Twitch1
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.1
+    - Motion: Twitch2
+
+HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.15
+    - Motion: Twitch3
 
 Use:
-    - DirectBroadcast: As you stare into the deep bottomless mist, you begin to enter a trance like state. A voice can be heard coming from everywhere and yet nowhere.
-    - Delay: 1, Tell: Destroy the inhabitants of this island!
-    - Delay: 1, Tell: Bring their remains to me!
-    - Delay: 1, Tell: Bring the remains of the servants of Grael to me!
-
-Give: Altered Dark Remoran Fin (38612)
-    - StampQuest: TaskDIDelivery
-    - DirectBroadcast: You drop the altered remains into 'The Deep'. A feeling of immense pleasure washes over your body.
-    - Delay: 0.5, DirectBroadcast: The pleasure you feel eminating from 'The Deep' changes to confusion and a twisting sensation in your gut.
-    - Delay: 0.5, DirectBroadcast: A suddent pungent odor of rot arises from deep within the mists.
-    - Delay: 0.5, DirectBroadcast: A crazed, anger filled voice echoes from everywhere around you!
-    - Tell: I will not be toyed with, small one.  Begone!
-    - CastSpellInstant: 2046 - Portal to Teth
+    - TurnToTarget
+    - Tell: Queen Elysa has stationed me here to reward those brave adventurers, such as yourself, that destroy the corrupted beasts of this 'Dark Isle' and bring me proof of their deeds.
