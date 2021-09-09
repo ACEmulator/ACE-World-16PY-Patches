@@ -12,11 +12,12 @@ VALUES (46642,   1,       2) /* ItemType - Armor */
      , (46642,  16,       1) /* ItemUseable - No */
      , (46642,  18,       1) /* UiEffects - Magical */
      , (46642,  19,   18000) /* Value */
-     , (46642,  28,     660) /* ArmorLevel */
+     , (46642,  28,     420) /* ArmorLevel */
      , (46642,  33,       1) /* Bonded - Bonded */
      , (46642,  53,     101) /* PlacementPosition - Resting */
      , (46642,  93,    1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46642, 106,     400) /* ItemSpellcraft */
+     , (46642, 107,    1000) /* ItemCurMana */
      , (46642, 108,    1000) /* ItemMaxMana */
      , (46642, 109,     200) /* ItemDifficulty */
      , (46642, 158,       7) /* WieldRequirements - Level */
@@ -37,13 +38,13 @@ VALUES (46642,  11, True ) /* IgnoreCollisions */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46642,   5,  -0.017) /* ManaRate */
      , (46642,  12,  0.0001) /* Shade */
-     , (46642,  13,     2.6) /* ArmorModVsSlash */
-     , (46642,  14,     2.6) /* ArmorModVsPierce */
-     , (46642,  15,     2.6) /* ArmorModVsBludgeon */
-     , (46642,  16,     3.4) /* ArmorModVsCold */
-     , (46642,  17,     2.7) /* ArmorModVsFire */
-     , (46642,  18,     3.2) /* ArmorModVsAcid */
-     , (46642,  19,     3.4) /* ArmorModVsElectric */
+     , (46642,  13,     0.6) /* ArmorModVsSlash */
+     , (46642,  14,     0.6) /* ArmorModVsPierce */
+     , (46642,  15,     0.6) /* ArmorModVsBludgeon */
+     , (46642,  16,     1.4) /* ArmorModVsCold */
+     , (46642,  17,     0.7) /* ArmorModVsFire */
+     , (46642,  18,     1.2) /* ArmorModVsAcid */
+     , (46642,  19,     1.4) /* ArmorModVsElectric */
      , (46642, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

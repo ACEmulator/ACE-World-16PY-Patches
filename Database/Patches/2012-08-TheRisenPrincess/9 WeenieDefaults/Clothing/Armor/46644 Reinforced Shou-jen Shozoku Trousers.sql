@@ -18,6 +18,7 @@ VALUES (46644,   1,       2) /* ItemType - Armor */
      , (46644,  93,    1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46644, 106,     400) /* ItemSpellcraft */
      , (46644, 108,    1000) /* ItemMaxMana */
+     , (46644, 107,    1000) /* ItemCurMana */
      , (46644, 109,     200) /* ItemDifficulty */
      , (46644, 158,       7) /* WieldRequirements - Level */
      , (46644, 159,       1) /* WieldSkillType - Axe */

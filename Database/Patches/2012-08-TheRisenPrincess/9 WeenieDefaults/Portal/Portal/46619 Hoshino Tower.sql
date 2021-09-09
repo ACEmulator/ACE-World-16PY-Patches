@@ -20,7 +20,7 @@ VALUES (46619,  39,    0.75) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46619,  1, 'Hoshino Tower') /* Name */
-     , (46619, 33, 'HoshinoTowerShortcut') /* Quest */;
+     , (46619, 37, 'HoshinoTowerShortcut') /* QuestRestrict */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46619,   1,   33555925) /* Setup */
