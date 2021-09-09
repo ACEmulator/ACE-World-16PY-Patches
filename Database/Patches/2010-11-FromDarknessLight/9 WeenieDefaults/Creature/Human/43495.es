@@ -15,26 +15,26 @@ Use:
     - TurnToTarget
     - InqIntStat: Level, 200 - 999
         TestSuccess:
-            - InqQuest: KillTaskGurogMinionCompleted1110 
+            - InqQuest: KillTaskGurogMinionCompleted1110
                 QuestSuccess:
                     - Tell: Thank you again for your assistance. The Minions have been beaten back, but not for long. Return again soon.
                     - Delay: 0.5, DirectBroadcast: You may complete this quest again in %tqt.
                     - Goto: Henchmen
                 QuestFailure:
-                    - InqQuestSolves: KillTaskGurogMinion1110@KillTaskInProgress, 1 - 2147483647
+                    - InqQuestSolves: KillTaskGurogMinion1110@KillTaskInProgress, 1 - 20
                         QuestSuccess:
                             - InqQuest: KillTaskGurogMinion1110@KillTaskCompleted
                                 QuestSuccess:
                                     - Tell: Well done! Always a pleasure to meet someone who shares my hatred of these beasts.
-                                    - StampQuest: KillTaskGurogMinionCompleted1110 
+                                    - StampQuest: KillTaskGurogMinionCompleted1110
                                     - EraseQuest: KillTaskGurogMinion1110
                                     - AwardNoShareXP: 65,000,000
                                     - AwardLuminance: 2,600
-                                    - Give: 52010
+                                    - Give: Aged Legendary Key (48746), 5
                                     - Give: Trade Note (250,000) (20630)
                                     - Goto: Henchmen
                                 QuestFailure:
-                                    - DirectBroadcast: You've killed %tqc out of %tqm Gurong Minions.
+                                    - DirectBroadcast: You've killed %tqc out of %tqm Gurog Minions.
                                     - Tell: Return to me after you have killed %tqm Gurog Minions and I will reward you.
                                     - Goto: Henchmen
                         QuestFailure:
@@ -52,7 +52,7 @@ GotoSet: Henchmen
             - Delay: 0.5, DirectBroadcast: You may complete this quest again in %tqt.
             - Goto: Soldier
         QuestFailure:
-            - InqQuestSolves: KillTaskGurogHenchman1110@KillTaskInProgress, 1 - 2147483647
+            - InqQuestSolves: KillTaskGurogHenchman1110@KillTaskInProgress, 1 - 20
                 QuestSuccess:
                     - InqQuest: KillTaskGurogHenchman1110@KillTaskCompleted
                         QuestSuccess:
@@ -61,11 +61,11 @@ GotoSet: Henchmen
                             - EraseQuest: KillTaskGurogHenchman1110
                             - AwardNoShareXP: 80,000,000
                             - AwardLuminance: 2,600
-                            - Give: 52010
+                            - Give: Aged Legendary Key (48746), 5
                             - Give: Trade Note (250,000) (20630)
                             - Goto: Soldier
                         QuestFailure:
-                            - DirectBroadcast: You've killed %tqc out of %tqm Gurong Henchmen.
+                            - DirectBroadcast: You've killed %tqc out of %tqm Gurog Henchmen.
                             - Tell: Return to me after you have killed %tqm Gurog Henchmen and I will reward you.
                             - Goto: Soldier
                 QuestFailure:
@@ -79,7 +79,7 @@ GotoSet: Soldier
             - Tell: Thank you again for your assistance. The Soldiers have been beaten back, but not for long. Return again soon.
             - Delay: 0.5, DirectBroadcast: You may complete this quest again in %tqt.
         QuestFailure:
-            - InqQuestSolves: KillTaskGurogSoldier1110@KillTaskInProgress, 1 - 2147483647
+            - InqQuestSolves: KillTaskGurogSoldier1110@KillTaskInProgress, 1 - 20
                 QuestSuccess:
                     - InqQuest: KillTaskGurogSoldier1110@KillTaskCompleted
                         QuestSuccess:
@@ -88,10 +88,10 @@ GotoSet: Soldier
                             - EraseQuest: KillTaskGurogSoldier1110
                             - AwardNoShareXP: 80,000,000
                             - AwardLuminance: 2,600
-                            - Give: 52010
+                            - Give: Aged Legendary Key (48746), 5
                             - Give: Trade Note (250,000) (20630)
                         QuestFailure:
-                            - DirectBroadcast: You've killed %tqc out of %tqm Gurong Soldiers.
+                            - DirectBroadcast: You've killed %tqc out of %tqm Gurog Soldiers.
                             - Tell: Return to me after you have killed %tqm Gurog Soldiers and I will reward you.
                 QuestFailure:
                     - Tell: Kill 20 Gurog Soldiers and I will reward you for your efforts.
