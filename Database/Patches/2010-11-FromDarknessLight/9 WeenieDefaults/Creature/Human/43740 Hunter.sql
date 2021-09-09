@@ -1,7 +1,7 @@
-DELETE FROM `weenie` WHERE `class_Id` = 43740;
+DELETE FROM `weenie` WHERE `class_Id` = 43740; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43740, 'ace43740-hunter', 10, '2020-12-04 12:32:48') /* Creature */;
+VALUES (43740, 'ace43740-hunter', 10, '2021-09-05 05:58:57') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43740,   1,         16) /* ItemType - Creature */
@@ -337,11 +337,5 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'Kill 10 Snow Tusker Leaders a
      , (@parent_id, 1, 70 /* SetQuestCompletions */, 0, 1, NULL, 'snowtuskerkillleadercount', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43740,10, 27226,  0, 0,    1, False) /* Create Nariyid Boots (27226) for WieldTreasure */
-     , (43740,10, 27227,  0, 0,    1, False) /* Create Nariyid Breastplate (27227) for WieldTreasure */
-     , (43740,10, 27228,  0, 0,    1, False) /* Create Nariyid Gauntlets (27228) for WieldTreasure */
-     , (43740,10, 27229,  0, 0,    1, False) /* Create Nariyid Girth (27229) for WieldTreasure */
-     , (43740,10, 27230,  0, 0,    1, False) /* Create Nariyid Helm (27230) for WieldTreasure */
-     , (43740,10, 27231,  0, 0,    1, False) /* Create Nariyid Leggings (27231) for WieldTreasure */
-     , (43740,10, 27232,  0, 0,    1, False) /* Create Nariyid Sleeves (27232) for WieldTreasure */
-     , (43740,10, 27178,  0, 0,    1, False) /* Create Bladed Bow of Impaling (27178) for WieldTreasure */;
+VALUES (43740,10, 27178,  0,17,    1, False) /* Create Bladed Bow of Impaling (27178) for WieldTreasure */
+     , (43740,10, 29544,  0,21,    1, False) /* Create Marksman Robe (29544) for WieldTreasure */;

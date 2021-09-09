@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53334; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (53334, 'ace53334-corruptedheartwoodwand', 35, '2020-07-29 05:59:30') /* Caster */;
+VALUES (53334, 'ace53334-corruptedheartwoodwand', 35, '2021-09-08 05:59:30') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53334,   1,      32768) /* ItemType - Caster */
@@ -11,6 +11,7 @@ VALUES (53334,   1,      32768) /* ItemType - Caster */
      , (53334,  18,          1) /* UiEffects - Magical */
      , (53334,  19,        200) /* Value */
      , (53334,  45,       1024) /* DamageType - Nether */
+     , (53334,  46,        512) /* DefaultCombatStyle - Magic */
      , (53334,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (53334,  94,         16) /* TargetType - Creature */
      , (53334, 105,          8) /* ItemWorkmanship */

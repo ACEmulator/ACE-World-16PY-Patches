@@ -19,7 +19,7 @@ VALUES (51351,  22, True ) /* Inscribable */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51351,   1, 'Snow Tusker Leader Tusk') /* Name */
      , (51351,  15, 'A tusk plucked from a dead Snow Tusker Leader. Brighteyes, the tailor at 2.2N 95.6E in Oolatanga''s Refuge on Aphus Lassel collects these.') /* ShortDesc */
-     , (51351,  33, 'tusksnowleaderpickup') /* Quest */;
+     , (51351,  33, 'TuskSnowPickup_0513') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51351,   1,   33557838) /* Setup */
