@@ -4,8 +4,7 @@ INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, 
 VALUES (8930, 0, 29 /* ArmorTinkering */, 400, 0, 0, 0, 'You successfully imbue the item with the magics of the luminous amber.', 0, 0, 'You fail to imbue the item, destroying it in the process!', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2020-02-28 10:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
-VALUES (8930, 0, 105,   1, 2, 'You can only apply this augmentation to a loot-generated item!')  /* Target.ItemWorkmanship - LessThan 1 */
-	 , (8930, 0, 383,   1, 3, 'This item has already been imbued!') /* Target.GearPKDamageInt - GreaterThanEqual 1 */;
+VALUES (8930, 0, 383,   1, 3, 'This item has already been imbued!') /* Target.GearPKDamageInt - GreaterThanEqual 1 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (8930, True, 0, 0, 0, False, 0, 1, 0) /* Mutation Filter - Viridian Armor Augmentations */;
@@ -43,4 +42,20 @@ VALUES (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */,   1
 	 , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 31249 /* Viamontian Laced Boots */, '2005-02-09 10:00:00')
 	 , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 28610 /* Loafers */, '2005-02-09 10:00:00')
 	 , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 31237 /* Loafers */, '2005-02-09 10:00:00')
-	 , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 133 /* Slippers */, '2005-02-09 10:00:00');
+	 , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */,   133 /* Slippers */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */,  1444 /* Insulated Boots */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 24629 /* Fine Olthoi Sollerets */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 24630 /* Good Olthoi Sollerets */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 24903 /* Greater Olthoi Sollerets */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 24904 /* Lesser Olthoi Sollerets */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 24950 /* Antius' Celdon Sollerets */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 25517 /* Antius' Celdon Sollerets */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 25658 /* Sollerets */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 30367 /* Footman's Boots */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 30368 /* Steel Wall Boots */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 30369 /* Tracker Boots */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 30529 /* Gelidite Boots */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 37210 /* Olthoi Koujia Sollerets */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 38471 /* Celestial Hand Sollerets */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 38480 /* Eldrych Web Sollerets */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 38489 /* Radiant Blood Sollerets */, '2005-02-09 10:00:00');

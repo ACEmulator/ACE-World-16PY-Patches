@@ -5,8 +5,7 @@ VALUES (8904, 0, 29 /* ArmorTinkering */, 400, 0, 0, 0, 'You successfully imbue 
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8904, 0,   9,  32, 4, 'You can only apply this augmentaion to a gauntlet-slot item!') /* ValidLocations - HandWear */
-     , (8904, 0, 105,   1, 2, 'You can only apply this augmentation to a loot-generated item!')  /* Target.ItemWorkmanship - LessThan 1 */
-	 , (8904, 0, 370,   1, 3, 'This item has already been imbued!') /* Target.GearDamageInt - GreaterThanEqual 1 */;
+     , (8904, 0, 370,   1, 3, 'This item has already been imbued!') /* Target.GearDamageInt - GreaterThanEqual 1 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (8904, True, 0, 0, 0, False, 0, 1, 0) /* Mutation Filter - Viridian Armor Augmentations */;
@@ -38,4 +37,21 @@ VALUES (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */,    55 /* Chain
 	 , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 37189 /* Olthoi Celdon Gauntlets */, '2005-02-09 10:00:00')
 	 , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 37190 /* Olthoi Koujia Gauntlets */, '2005-02-09 10:00:00')
 	 , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 37188 /* Olthoi Amuli Gauntlets */, '2005-02-09 10:00:00')
-	 , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 43049 /* Knorr Academy Gauntlets */, '2005-02-09 10:00:00');
+	 , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 43049 /* Knorr Academy Gauntlets */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */,   121 /* Gloves */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 24619 /* Fine Olthoi Gauntlets */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 24620 /* Good Olthoi Gauntlets */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 24893 /* Greater Olthoi Gauntlets */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 24894 /* Lesser Olthoi Gauntlets */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 24946 /* Antius' Celdon Gauntlets */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 25514 /* Antius' Celdon Gauntlets */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 25654 /* Platemail Gauntlets */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 30510 /* Adept's Fervor */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 30525 /* Gauntlets of Leikotha's Tears */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 30526 /* Gelidite Gauntlets */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 30534 /* Gauntlets of the Crimson Star */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 37191 /* Olthoi Gauntlets */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 38464 /* Celestial Hand Gauntlets */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 38473 /* Eldrytch Web Gauntlets */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 38482 /* Radiant Blood Gauntlets */, '2005-02-09 10:00:00');
+
