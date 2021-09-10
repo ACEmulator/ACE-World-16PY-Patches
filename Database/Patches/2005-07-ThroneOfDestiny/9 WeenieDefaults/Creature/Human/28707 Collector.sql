@@ -42,7 +42,7 @@ VALUES (28707,   3, 0.159999996423721) /* HealthRate */
      , (28707,  17, 0.400000005960464) /* ArmorModVsFire */
      , (28707,  18,       1) /* ArmorModVsAcid */
      , (28707,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (28707,  54,       4) /* UseRadius */
+     , (28707,  54,       3) /* UseRadius */
      , (28707,  64,       1) /* ResistSlash */
      , (28707,  65,       1) /* ResistPierce */
      , (28707,  66,       1) /* ResistBludgeon */
@@ -69,13 +69,7 @@ VALUES (28707,   1,   33554433) /* Setup */
      , (28707,   2,  150994945) /* MotionTable */
      , (28707,   3,  536870913) /* SoundTable */
      , (28707,   6,   67108990) /* PaletteBase */
-     , (28707,   8,  100667446) /* Icon */
-     , (28707,   9,   83890516) /* EyesTexture */
-     , (28707,  10,   83890549) /* NoseTexture */
-     , (28707,  11,   83890638) /* MouthTexture */
-     , (28707,  15,   67116985) /* HairPalette */
-     , (28707,  16,   67110063) /* EyesPalette */
-     , (28707,  17,   67115902) /* SkinPalette */;
+     , (28707,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28707,   1,  60, 0, 0) /* Strength */

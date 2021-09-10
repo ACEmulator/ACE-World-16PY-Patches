@@ -12,19 +12,16 @@ VALUES (31341,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31341,   1, True ) /* Stuck */
+     , (31341,  11, False) /* IgnoreCollisions */
      , (31341,  12, True ) /* ReportCollisions */
      , (31341,  13, True ) /* Ethereal */
-     , (31341,  14, True ) /* GravityStatus */
-     , (31341,  15, True ) /* LightsStatus */
-     , (31341,  19, True ) /* Attackable */
-     , (31341,  88, True ) /* PortalShowDestination */;
+     , (31341,  15, True ) /* LightsStatus */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31341,  54, -0.100000001490116) /* UseRadius */;
+VALUES (31341,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31341,   1, 'Bandit Castle') /* Name */
-     , (31341,  38, 'Bandit Castle (66.6N, 49.9E).') /* AppraisalPortalDestination */;
+VALUES (31341,   1, 'Bandit Castle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31341,   1,   33554867) /* Setup */
@@ -32,5 +29,5 @@ VALUES (31341,   1,   33554867) /* Setup */
      , (31341,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31341, 2, 459075, 70, -60, 0.01, 0, 0, 0, -1) /* Destination */
-/* @teleloc 0x00070143 [70.000000 -60.000000 0.010000] 0.000000 0.000000 0.000000 -1.000000 */;
+VALUES (31341, 2, 3184525318, 16.9, 120.5, 115.1, 0.7071068, 0, 0, -0.7071068) /* Destination */
+/* @teleloc 0xBDD00006 [16.900000 120.500000 115.100000] 0.707107 0.000000 0.000000 -0.707107 */;

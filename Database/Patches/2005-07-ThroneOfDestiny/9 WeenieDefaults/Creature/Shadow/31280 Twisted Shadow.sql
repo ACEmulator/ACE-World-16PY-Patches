@@ -45,7 +45,7 @@ VALUES (31280,   1,       5) /* HeartbeatInterval */
      , (31280,  31,      28) /* VisualAwarenessRange */
      , (31280,  34,     1.1) /* PowerupTime */
      , (31280,  36,       1) /* ChargeSpeed */
-     , (31280,  39,     1.2) /* DefaultScale */
+     , (31280,  39,     1.3) /* DefaultScale */
      , (31280,  64,       1) /* ResistSlash */
      , (31280,  65,     0.5) /* ResistPierce */
      , (31280,  66,    0.67) /* ResistBludgeon */
@@ -134,5 +134,5 @@ VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'KilledMe', NULL, NUL
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31280, 9,  6058, -1, 0, 0.2, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (31280, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (31280, 9, 34029, -1, 0, 0.05, False) /* Create  (34029) for ContainTreasure */
+     , (31280, 9, 34029, -1, 0, 0.05, False) /* Create Shadow Head (34029) for ContainTreasure */
      , (31280, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;

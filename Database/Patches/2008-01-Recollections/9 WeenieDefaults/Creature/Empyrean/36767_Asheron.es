@@ -13,4 +13,4 @@ Use:
 			- StampQuest: knorrquiddityseedwait
 
 Generation:
-	- Say: We have but a short time before the nightmare begins again.
+	- Say: We have but a short time before the nightmare begins again., Extent: 25

@@ -77,7 +77,7 @@ VALUES (31399,   1,   33559621) /* Setup */
      , (31399,   6,   67112927) /* PaletteBase */
      , (31399,   7,  268436038) /* ClothingBase */
      , (31399,   8,  100670960) /* Icon */
-     , (31399,  22,  872415364) /* PhysicsEffectTable */
+     , (31399,  22,  872415331) /* PhysicsEffectTable */
      , (31399,  30,         86) /* PhysicsScript - BreatheAcid */
      , (31399,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 

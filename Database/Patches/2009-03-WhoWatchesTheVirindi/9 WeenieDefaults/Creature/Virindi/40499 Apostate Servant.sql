@@ -33,7 +33,7 @@ VALUES (40499,   1,       5) /* HeartbeatInterval */
      , (40499,   3,    10.6) /* HealthRate */
      , (40499,   4,    20.5) /* StaminaRate */
      , (40499,   5,      20) /* ManaRate */
-     , (40499,  12,       0) /* Shade */
+     , (40499,  12,  0.6667) /* Shade */
      , (40499,  13,    0.89) /* ArmorModVsSlash */
      , (40499,  14,    0.71) /* ArmorModVsPierce */
      , (40499,  15,    0.72) /* ArmorModVsBludgeon */

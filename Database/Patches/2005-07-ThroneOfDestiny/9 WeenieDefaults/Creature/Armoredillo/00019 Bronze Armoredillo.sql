@@ -6,7 +6,7 @@ VALUES (19, 'armoredillobronze', 10, '2019-09-13 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19,   1,         16) /* ItemType - Creature */
      , (19,   2,         17) /* CreatureType - Armoredillo */
-     , (19,   3,         40) /* PaletteTemplate - Bronze */
+     , (19,   3,          1) /* PaletteTemplate - AquaBlue */
      , (19,   6,         -1) /* ItemsCapacity */
      , (19,   7,         -1) /* ContainersCapacity */
      , (19,  16,          1) /* ItemUseable - No */
@@ -93,11 +93,11 @@ VALUES (19,   1,    30, 0, 0, 70) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (19,  6, 0, 3, 0,  45, 0, 268.110204614268) /* MeleeDefense        Specialized */
      , (19,  7, 0, 3, 0,  80, 0, 268.110204614268) /* MissileDefense      Specialized */
-     , (19, 45, 0, 3, 0,  25, 0, 268.110204614268) /* LightWeapons        Specialized */
      , (19, 15, 0, 3, 0,  55, 0, 268.110204614268) /* MagicDefense        Specialized */
      , (19, 20, 0, 3, 0,  10, 0, 268.110204614268) /* Deception           Specialized */
      , (19, 22, 0, 3, 0,  25, 0, 268.110204614268) /* Jump                Specialized */
-     , (19, 24, 0, 3, 0,  20, 0, 268.110204614268) /* Run                 Specialized */;
+     , (19, 24, 0, 3, 0,  20, 0, 268.110204614268) /* Run                 Specialized */
+     , (19, 45, 0, 3, 0,  25, 0, 268.110204614268) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (19,  0,  2, 15, 0.75,   90,   29,   63,   32,   66,   58,   44,   66,    0, 1,  0.7, 0.34,    0,  0.7, 0.34,    0,    0,    0,    0,    0,    0,    0) /* Head */
@@ -107,7 +107,7 @@ VALUES (19,  0,  2, 15, 0.75,   90,   29,   63,   32,   66,   58,   44,   66,   
      , (19, 19,  4,  0,    0,   80,   26,   56,   28,   58,   52,   39,   58,    0, 3,    0,    0,  0.7,    0,    0,  0.7,    0, 0.33,  0.7,    0, 0.33,  0.7) /* Leg */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
-VALUES (19, 414) /* PLAYER_DEATH_EVENT */;
+VALUES (19, 414);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (19,  5 /* HeartBeat */,   0.05, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

@@ -1,4 +1,3 @@
-
 DELETE FROM `weenie` WHERE `class_Id` = 44038;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -7,7 +6,7 @@ VALUES (44038, 'ace44038-mumiyahguardian', 10, '2019-08-16 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44038,   1,         16) /* ItemType - Creature */
      , (44038,   2,         14) /* CreatureType - Undead */
-     , (44038,   3,         43) /* PaletteTemplate - Light Brown */
+     , (44038,   3,         43) /* PaletteTemplate - LightBrown */
      , (44038,   6,         -1) /* ItemsCapacity */
      , (44038,   7,         -1) /* ContainersCapacity */
      , (44038,  16,          1) /* ItemUseable - No */
@@ -26,8 +25,7 @@ VALUES (44038,   1, True ) /* Stuck */
      , (44038,  10, True ) /* AttackerAi */
      , (44038,  11, False) /* IgnoreCollisions */
      , (44038,  12, True ) /* ReportCollisions */
-     , (44038,  13, False) /* Ethereal */
-     , (44038,  58, True ) /* SpellQueueActive */;
+     , (44038,  13, False) /* Ethereal */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44038,   1,       5) /* HeartbeatInterval */
@@ -35,8 +33,7 @@ VALUES (44038,   1,       5) /* HeartbeatInterval */
      , (44038,   3,       4) /* HealthRate */
      , (44038,   4,      10) /* StaminaRate */
      , (44038,   5,       3) /* ManaRate */
-     , (44038,  12,     0.0) /* Shade */
-     , (44038,  39,     1.2) /* DefaultScale */
+     , (44038,  12,       0) /* Shade */
      , (44038,  13,    0.67) /* ArmorModVsSlash */
      , (44038,  14,     0.9) /* ArmorModVsPierce */
      , (44038,  15,    0.75) /* ArmorModVsBludgeon */
@@ -48,6 +45,7 @@ VALUES (44038,   1,       5) /* HeartbeatInterval */
      , (44038,  31,      22) /* VisualAwarenessRange */
      , (44038,  34,       1) /* PowerupTime */
      , (44038,  36,       1) /* ChargeSpeed */
+     , (44038,  39,     1.2) /* DefaultScale */
      , (44038,  64,     0.8) /* ResistSlash */
      , (44038,  65,    0.25) /* ResistPierce */
      , (44038,  66,     0.7) /* ResistBludgeon */
@@ -55,17 +53,17 @@ VALUES (44038,   1,       5) /* HeartbeatInterval */
      , (44038,  68,     0.3) /* ResistCold */
      , (44038,  69,     0.8) /* ResistAcid */
      , (44038,  70,     0.4) /* ResistElectric */
-     , (44038, 166,     1.1) /* ResistNether */
      , (44038,  71,       1) /* ResistHealthBoost */
      , (44038,  72,       1) /* ResistStaminaDrain */
      , (44038,  73,       1) /* ResistStaminaBoost */
      , (44038,  74,       1) /* ResistManaDrain */
      , (44038,  75,       1) /* ResistManaBoost */
      , (44038,  80,       3) /* AiUseMagicDelay */
-     , (44038, 117,     0.5) /* FocusedProbability */
      , (44038, 104,      10) /* ObviousRadarRange */
+     , (44038, 117,     0.5) /* FocusedProbability */
      , (44038, 122,       2) /* AiAcquireHealth */
-     , (44038, 125,       1) /* ResistHealthDrain */;
+     , (44038, 125,       1) /* ResistHealthDrain */
+     , (44038, 166,     1.1) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44038,   1, 'Mu-miyah Guardian') /* Name */
@@ -73,14 +71,18 @@ VALUES (44038,   1, 'Mu-miyah Guardian') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44038,   1,   33554433) /* Setup */
-     , (44038,   2,  150995189) /* MotionTable */
+     , (44038,   2,  150994981) /* MotionTable */
      , (44038,   3,  536870942) /* SoundTable */
+     , (44038,   4,  805306368) /* CombatTable */
      , (44038,   6,   67108990) /* PaletteBase */
      , (44038,   7,  268435645) /* ClothingBase */
      , (44038,   8,  100669122) /* Icon */
-     , (44038,   4,  805306368) /* CombatTable */
      , (44038,  22,  872415272) /* PhysicsEffectTable */
-     , (44038,  32,       3001) /* WieldedTreasureType */
+     , (44038,  32,       3001) /* WieldedTreasureType - 
+                                   Wield Tachi (47649) | Probability: 20%
+                                   Wield Burning Sands Blade (44266) | Probability: 20%
+                                   Wield Burning Sands Katar (44265) | Probability: 20%
+                                   Wield Corrupted Aegis (44264) | Probability: 50% */
      , (44038,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -119,17 +121,17 @@ VALUES (44038,  0,  4,  0,    0,  350,  250,  150,  275,  250,  100,  250,  150,
      , (44038,  8,  4,  5, 0.75,  350,  250,  150,  275,  250,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44038,  2170,   2.06)  /* Inferno's Gift */
-     , (44038,  4423,   2.06)  /*  Incantation of Flame Arc */
-     , (44038,  2074,   2.06)  /* Gossamer Flesh */;
+VALUES (44038,  2074,   2.06)  /* Gossamer Flesh */
+     , (44038,  2170,   2.06)  /* Inferno's Gift */
+     , (44038,  4423,   2.06)  /* Incantation of Flame Arc */;
 
-     INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44038,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  15 /* Activate */  , 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44038, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) for ContainTreasure */
@@ -141,4 +143,3 @@ VALUES (44038, 9, 44240,  1, 0, 0.1, False) /* Create A'nekshay Token (44240) fo
      , (44038, 9, 44295,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
      , (44038, 9, 44294,  1, 0, 0.02, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
      , (44038, 9,     0,  0, 0, 0.92, False) /* Create nothing for ContainTreasure */;
-

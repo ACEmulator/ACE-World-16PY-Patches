@@ -28,8 +28,7 @@ VALUES (32546,  41,      60) /* RegenerationInterval */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32546,   1, 'Viamont Staging Area Portal') /* Name */
      , (32546,  16, 'This dungeon is quest restricted.') /* LongDesc */
-     , (32546,  37, 'ViamontStagingAreaPortal') /* QuestRestriction */
-     , (32546,  38, 'Viamont Staging Area Portal') /* AppraisalPortalDestination */;
+     , (32546,  37, 'ViamontStagingAreaPortal') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32546,   1,   33556212) /* Setup */
@@ -38,10 +37,10 @@ VALUES (32546,   1,   33556212) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32546, 2, 5899160, 79.6204, -149.404, 0.005, -0.999874, 0, 0, 0.015848) /* Destination */
-/* @teleloc 0x005A0398 [79.620461 -149.404007 0.005000] -0.999874 0.000000 0.000000 0.015848 */;
+/* @teleloc 0x005A0398 [79.620399 -149.404007 0.005000] -0.999874 0.000000 0.000000 0.015848 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (32546,  9 /* Generation */,   1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (32546,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -51,6 +50,6 @@ VALUES (@parent_id,  0,  24 /* StopEvent */, 0, 1, NULL, 'viaportalhigh1', NULL,
      , (@parent_id,  2,  24 /* StopEvent */, 0, 1, NULL, 'viaportalhigh3', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32546, -1, 32528, 120, 1, 1, 1, 4, -1, 0, 0, 2728460308, 59.98767, 85.09270, 195.45, 1, 0, 0, 0) /* Generate Portal Pillar (32528) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (32546, -1, 32528, 120, 1, 1, 1, 4, -1, 0, 0, 2728460308, 58.40986, 81.93034, 195.45, 1, 0, 0, 0) /* Generate Portal Pillar (32528) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (32546, -1, 32528, 120, 1, 1, 1, 4, -1, 0, 0, 2728460308, 61.40897, 81.85696, 195.45, 1, 0, 0, 0) /* Generate Portal Pillar (32528) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (32546, -1, 32528, 120, 1, 1, 1, 4, -1, 0, 0, 2728460308, 59.9877, 85.0927, 195.45, 1, 0, 0, 0) /* Generate Portal Pillar (32528) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (32546, -1, 32528, 120, 1, 1, 1, 4, -1, 0, 0, 2728460308, 58.4099, 81.9303, 195.45, 1, 0, 0, 0) /* Generate Portal Pillar (32528) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (32546, -1, 32528, 120, 1, 1, 1, 4, -1, 0, 0, 2728460308, 61.409, 81.857, 195.45, 1, 0, 0, 0) /* Generate Portal Pillar (32528) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

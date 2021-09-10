@@ -6,7 +6,7 @@ VALUES (28658, 'penguinsycophantic', 10, '2021-03-13 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28658,   1,         16) /* ItemType - Creature */
      , (28658,   2,         80) /* CreatureType - Penguin */
-     , (28658,   3,         61) /* PaletteTemplate - White */
+     , (28658,   3,         13) /* PaletteTemplate - Purple */
      , (28658,   6,         -1) /* ItemsCapacity */
      , (28658,   7,         -1) /* ContainersCapacity */
      , (28658,  16,          1) /* ItemUseable - No */

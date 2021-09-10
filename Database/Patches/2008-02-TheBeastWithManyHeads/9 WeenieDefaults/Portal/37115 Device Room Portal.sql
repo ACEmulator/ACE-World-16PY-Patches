@@ -18,7 +18,7 @@ VALUES (37115,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37115,   1, 'Device Room Portal') /* Name */
-     , (37115,  37, 'deviceroomportalflag') /* QuestRestriction */;
+     , (37115,  37, 'AerbaxPlatformAccess') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37115,   1,   33555925) /* Setup */

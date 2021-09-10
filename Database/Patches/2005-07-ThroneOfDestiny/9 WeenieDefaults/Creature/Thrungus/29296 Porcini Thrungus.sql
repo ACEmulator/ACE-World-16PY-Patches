@@ -6,7 +6,7 @@ VALUES (29296, 'thrungusporcini', 10, '2019-09-13 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29296,   1,         16) /* ItemType - Creature */
      , (29296,   2,         82) /* CreatureType - Thrungus */
-     , (29296,   3,         19) /* PaletteTemplate - Copper */
+     , (29296,   3,         14) /* PaletteTemplate - Red */
      , (29296,   6,         -1) /* ItemsCapacity */
      , (29296,   7,         -1) /* ContainersCapacity */
      , (29296,  16,          1) /* ItemUseable - No */
@@ -35,24 +35,24 @@ VALUES (29296,   1,       5) /* HeartbeatInterval */
      , (29296,   4,       3) /* StaminaRate */
      , (29296,   5,       1) /* ManaRate */
      , (29296,  12,       0) /* Shade */
-     , (29296,  13, 0.899999976158142) /* ArmorModVsSlash */
-     , (29296,  14, 0.600000023841858) /* ArmorModVsPierce */
-     , (29296,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (29296,  16, 0.800000011920929) /* ArmorModVsCold */
-     , (29296,  17, 0.600000023841858) /* ArmorModVsFire */
+     , (29296,  13,     0.9) /* ArmorModVsSlash */
+     , (29296,  14,     0.5) /* ArmorModVsPierce */
+     , (29296,  15,     1.1) /* ArmorModVsBludgeon */
+     , (29296,  16,     0.8) /* ArmorModVsCold */
+     , (29296,  17,     0.6) /* ArmorModVsFire */
      , (29296,  18,       1) /* ArmorModVsAcid */
-     , (29296,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (29296,  19,     0.8) /* ArmorModVsElectric */
      , (29296,  31,      16) /* VisualAwarenessRange */
      , (29296,  34,       1) /* PowerupTime */
      , (29296,  36,       1) /* ChargeSpeed */
-     , (29296,  39, 0.899999976158142) /* DefaultScale */
-     , (29296,  64, 0.800000011920929) /* ResistSlash */
+     , (29296,  39,     1.2) /* DefaultScale */
+     , (29296,  64,     0.8) /* ResistSlash */
      , (29296,  65,       1) /* ResistPierce */
-     , (29296,  66, 0.660000026226044) /* ResistBludgeon */
+     , (29296,  66,    0.66) /* ResistBludgeon */
      , (29296,  67,       1) /* ResistFire */
-     , (29296,  68, 0.800000011920929) /* ResistCold */
+     , (29296,  68,     0.8) /* ResistCold */
      , (29296,  69,    0.75) /* ResistAcid */
-     , (29296,  70, 0.800000011920929) /* ResistElectric */
+     , (29296,  70,     0.8) /* ResistElectric */
      , (29296,  71,       1) /* ResistHealthBoost */
      , (29296,  72,     0.5) /* ResistStaminaDrain */
      , (29296,  73,       1) /* ResistStaminaBoost */
@@ -91,12 +91,12 @@ VALUES (29296,   1,    90, 0, 0, 120) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (29296,  6, 0, 3, 0,  75, 0, 0) /* MeleeDefense        Specialized */
      , (29296,  7, 0, 3, 0, 145, 0, 0) /* MissileDefense      Specialized */
-     , (29296, 45, 0, 3, 0, 125, 0, 0) /* LightWeapons        Specialized */
      , (29296, 15, 0, 3, 0,  85, 0, 0) /* MagicDefense        Specialized */
      , (29296, 20, 0, 2, 0,  30, 0, 0) /* Deception           Trained */
      , (29296, 22, 0, 2, 0,  10, 0, 0) /* Jump                Trained */
      , (29296, 24, 0, 2, 0,  15, 0, 0) /* Run                 Trained */
-     , (29296, 31, 0, 3, 0,  78, 0, 0) /* CreatureEnchantment Specialized */;
+     , (29296, 31, 0, 3, 0,  78, 0, 0) /* CreatureEnchantment Specialized */
+     , (29296, 45, 0, 3, 0, 125, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (29296,  0, 32, 20,  0.3,  110,   99,   88,  110,  110,   88,  121,  110,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
