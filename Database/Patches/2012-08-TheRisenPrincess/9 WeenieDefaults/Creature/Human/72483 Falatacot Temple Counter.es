@@ -3,7 +3,7 @@ Generation:
     
 Activation:
     - StampMyQuest: HoshinoDoorCounter
-    - InqMyQuestSolves: HoshinoDoorCounter, 3 - 3
+    - InqMyQuestSolves: HoshinoDoorCounter, 4 - 4
         QuestSuccess:
             - Activate
             - EraseMyQuest: HoshinoDoorCounter
