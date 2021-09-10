@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72490;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72490, 'ace72490-spectralarcher', 10, '2020-11-22 11:08:35') /* Creature */;
+VALUES (72490, 'ace72490-vicararcher', 10, '2020-11-22 11:08:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72490,   1,         16) /* ItemType - Creature */
@@ -30,27 +30,28 @@ VALUES (72490,   1,       5) /* HeartbeatInterval */
      , (72490,   3,       2) /* HealthRate */
      , (72490,   4,       5) /* StaminaRate */
      , (72490,   5,       1) /* ManaRate */
-     , (72490,  13,    0.83) /* ArmorModVsSlash */
-     , (72490,  14,    0.83) /* ArmorModVsPierce */
-     , (72490,  15,    0.83) /* ArmorModVsBludgeon */
-     , (72490,  16,     100) /* ArmorModVsCold */
-     , (72490,  17,       1) /* ArmorModVsFire */
-     , (72490,  18,    0.74) /* ArmorModVsAcid */
-     , (72490,  19,    0.74) /* ArmorModVsElectric */
+     , (72490,  13,     1.0) /* ArmorModVsSlash */
+     , (72490,  14,     1.0) /* ArmorModVsPierce */
+     , (72490,  15,     1.0) /* ArmorModVsBludgeon */
+     , (72490,  16,     1.0) /* ArmorModVsCold */
+     , (72490,  17,    0.95) /* ArmorModVsFire */
+     , (72490,  18,     1.0) /* ArmorModVsAcid */
+     , (72490,  19,     1.0) /* ArmorModVsElectric */
+     , (72490,  31,      20) /* VisualAwarenessRange */
      , (72490,  34,       1) /* PowerupTime */
      , (72490,  36,       1) /* ChargeSpeed */
      , (72490,  54,      15) /* UseRadius */
      , (72490,  64,    0.45) /* ResistSlash */
-     , (72490,  65,    0.45) /* ResistPierce */
-     , (72490,  66,    0.45) /* ResistBludgeon */
+     , (72490,  65,    0.35) /* ResistPierce */
+     , (72490,  66,     0.6) /* ResistBludgeon */
      , (72490,  67,    0.65) /* ResistFire */
-     , (72490,  68,       0) /* ResistCold */
-     , (72490,  69,     0.3) /* ResistAcid */
-     , (72490,  70,     0.3) /* ResistElectric */
+     , (72490,  68,     0.2) /* ResistCold */
+     , (72490,  69,    0.35) /* ResistAcid */
+     , (72490,  70,    0.35) /* ResistElectric */
      , (72490,  80,       3) /* AiUseMagicDelay */
      , (72490, 122,       2) /* AiAcquireHealth */
      , (72490, 125,       1) /* ResistHealthDrain */
-     , (72490, 166,     1.5) /* ResistNether */;
+     , (72490, 166,     1.0) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72490,   1, 'Vicar Archer') /* Name */;
@@ -102,7 +103,7 @@ VALUES (72490, 2, 46636,  1, 0, 0, False) /* Create Frost Longbow (46636) for Wi
      , (72490, 2, 46632,  1, 0, 0, False) /* Create Greater Deadly Frost Arrow (46632) for Wield */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72490,  47, 0, 2, 0, 230, 0, 0) /* MissileWeapons */
+VALUES (72490,  47, 0, 2, 0, 310, 0, 0) /* MissileWeapons */
      , (72490,  15, 0, 2, 0, 379, 0, 0) /* MagicDefense */
      , (72490,   6, 0, 2, 0, 530, 0, 0) /* MeleeDefense */
-     , (72490,   7, 0, 2, 0, 660, 0, 0) /* MissileDefense */;
+     , (72490,   7, 0, 2, 0, 620, 0, 0) /* MissileDefense */;
