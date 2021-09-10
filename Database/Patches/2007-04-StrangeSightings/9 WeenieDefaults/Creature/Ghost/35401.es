@@ -20,4 +20,13 @@ Use:
             - Tell: I can only assume I have you to thank for this brief respite. Take this key. It will open a hidden cache of royal treasure hidden in the graveyard. Search for it.
             - Tell: Again I thank you for what you have obviously done.
             - Give: Lord Cynreft Mhoire's Key (35402)
-            - Give: Ancient Mhoire Coin (35383), 3
+            - Goto: RollForCoins
+
+GotoSet: RollForCoins, Probability: 0.33
+    - Give: Ancient Mhoire Coin (35383), 3
+
+GotoSet: RollForCoins, Probability: 0.66
+    - Give: Ancient Mhoire Coin (35383), 4
+
+GotoSet: RollForCoins, Probability: 1.00
+    - Give: Ancient Mhoire Coin (35383), 5
