@@ -29,6 +29,7 @@ VALUES (46565,   1, True ) /* Stuck */
      , (46565,  11, False) /* IgnoreCollisions */
      , (46565,  12, True ) /* ReportCollisions */
      , (46565,  13, False) /* Ethereal */
+     , (46565,  42, True ) /* AllowEdgeSlide */
      , (46565,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
