@@ -1,3 +1,11 @@
+Give: Virindi Message Shard (36613)
+    - TurnToTarget
+    - Tell: Fascinating...
+    - Delay: 1, DirectBroadcast: Diyas al-Yat shudders.
+    - Delay: 1, Tell: This seems to be the research notes on the creation of a "Prodigal Human". It seems Aerbax was trying to create another Martine, but one with more potential, and bound directly to a shard of his own essence! Is this what his recent creations all are? Shards of his essence, given form?
+    - Delay: 1, Tell: Here, see for yourself.
+    - Give: 87273
+
 Refuse: Excavation Master's Message Shard (41187)
     - TurnToTarget
     - TakeItems: 41187, 1
@@ -282,4 +290,3 @@ Use:
     - Tell: Hello! I am studying those most enigmatic beings, the Virindi. I think I can translate their language. Do not ask me how I acquired such knowledge.
     - Motion: Shiver
     - Delay: 1, Tell: I have also been in touch with Leopold, in Ayan Baqur, and he has given me some repaired Virindi masks to trade for broken ones.
-
