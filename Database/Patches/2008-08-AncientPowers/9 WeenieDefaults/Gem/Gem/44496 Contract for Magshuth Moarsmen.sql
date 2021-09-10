@@ -12,6 +12,7 @@ VALUES (44496,   1,       2048) /* ItemType - Gem */
      , (44496,  16,          8) /* ItemUseable - Contained */
      , (44496,  18,          2) /* UiEffects - Poisoned */
      , (44496,  19,        100) /* Value */
+     , (44496,  33,          1) /* Bonded - Bonded */
      , (44496,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44496,  94,         16) /* TargetType - Creature */
      , (44496, 280,        100) /* SharedCooldown */

@@ -1,4 +1,3 @@
-
 DELETE FROM `weenie` WHERE `class_Id` = 43392;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
@@ -65,7 +64,7 @@ VALUES (43392,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43392,   1, 'Gurog Henchman') /* Name */
-     , (43392,  45, 'guroghenchmenkillcount') /* KillQuest */;
+     , (43392,  45, 'KillTaskGurogHenchman1110') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43392,   1,   33561130) /* Setup */
@@ -96,7 +95,7 @@ VALUES (43392,  6, 0, 3, 0, 380, 0, 0) /* MeleeDefense        Specialized */
      , (43392, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
      , (43392, 33, 0, 3, 0, 260, 0, 0) /* LifeMagic           Specialized */
      , (43392, 34, 0, 3, 0, 260, 0, 0) /* WarMagic            Specialized */
-     , (43392, 44, 0, 3, 0, 400, 0, 0) /* Heavy Weapons       Specialized */
+     , (43392, 44, 0, 3, 0, 400, 0, 0) /* HeavyWeapons        Specialized */
      , (43392, 45, 0, 3, 0, 400, 0, 0) /* LightWeapons        Specialized */
      , (43392, 46, 0, 3, 0, 400, 0, 0) /* FinesseWeapons      Specialized */;
 
@@ -119,11 +118,10 @@ VALUES (43392,  4446,   2.02)  /* Incantation of Frost Blast */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43392, 9, 48908,  1, 0, 0.02, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (43392, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (43392, 9, 44864,  0, 0, 0.02, False) /* Create 44864 Gurog Arm for ContainTreasure */
-     , (43392, 9, 44868,  0, 0, 0.02, False) /* Create 44868 Gurog Torso with a Head for ContainTreasure */
-     , (43392, 9, 44870,  0, 0, 0.02, False) /* Create 44870 Gurog Leg for ContainTreasure */
+     , (43392, 9, 44864,  0, 0, 0.02, False) /* Create Gurog Arm (44864) for ContainTreasure */
+     , (43392, 9, 44868,  0, 0, 0.02, False) /* Create Gurog Torso with a Head (44868) for ContainTreasure */
+     , (43392, 9, 44870,  0, 0, 0.02, False) /* Create Gurog Leg (44870) for ContainTreasure */
      , (43392, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
-     , (43392, 9, 51370,  1, 0, 0.05, False) /* Create 51370 Frozen Fortress Testing Grounds Attunement Shard (Level 180+)for ContainTreasure */
-     , (43392, 9, 51341,  1, 0, 0.05, False) /* Create 51341 Frozen Fortress Laboratory Attunement Shard (Level 180+) */
-     , (43392, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */;
-     
+     , (43392, 9, 51370,  1, 0, 0.05, False) /* Create Frozen Fortress Testing Grounds Attunement Shard (Level 180+) (51370) for ContainTreasure */
+     , (43392, 9, 51341,  1, 0, 0.05, False) /* Create Frozen Fortress Laboratory Attunement Shard (Level 180+) (51341) for ContainTreasure */
+     , (43392, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;
