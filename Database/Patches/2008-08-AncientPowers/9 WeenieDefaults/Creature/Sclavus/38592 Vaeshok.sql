@@ -1,7 +1,7 @@
-DELETE FROM `weenie` WHERE `class_Id` = 38592; 
+DELETE FROM `weenie` WHERE `class_Id` = 38592;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38592, 'ace38592-vaeshok', 10, '2021-09-10 07:33:26') /* Creature */;
+VALUES (38592, 'ace38592-vaeshok', 10, '2021-09-10 07:23:54') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38592,   1,         16) /* ItemType - Creature */
@@ -100,21 +100,21 @@ VALUES (38592,   1,  7500, 0, 0, 7630) /* MaxHealth */
      , (38592,   5,   200, 0, 0,  415) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (38592, 45, 0, 3, 0, 506, 0, 0) /* LightWeapons         Specialized */
-     , (38592, 47, 0, 3, 0, 216, 0, 0) /* MissileWeapons       Specialized */
-     , (38592, 46, 0, 3, 0, 542, 0, 0) /* FinesseWeapons       Specialized */
-     , (38592,  6, 0, 3, 0, 475, 0, 0) /* MeleeDefense         Specialized */
-     , (38592,  7, 0, 3, 0, 350, 0, 0) /* MissileDefense       Specialized */
-     , (38592, 44, 0, 3, 0, 506, 0, 0) /* HeavyWeapons         Specialized */
+VALUES (38592, 45, 0, 3, 0, 236, 0, 0) /* LightWeapons         Specialized */
+     , (38592, 47, 0, 3, 0, 170, 0, 0) /* MissileWeapons       Specialized */
+     , (38592, 46, 0, 3, 0, 222, 0, 0) /* FinesseWeapons       Specialized */
+     , (38592,  6, 0, 3, 0, 260, 0, 0) /* MeleeDefense         Specialized */
+     , (38592,  7, 0, 3, 0, 375, 0, 0) /* MissileDefense       Specialized */
+     , (38592, 44, 0, 3, 0, 236, 0, 0) /* HeavyWeapons         Specialized */
      , (38592, 14, 0, 3, 0, 150, 0, 0) /* ArcaneLore          Specialized */
-     , (38592, 15, 0, 3, 0, 300, 0, 0) /* MagicDefense         Specialized */
+     , (38592, 15, 0, 3, 0, 246, 0, 0) /* MagicDefense         Specialized */
      , (38592, 20, 0, 3, 0, 110, 0, 0) /* Deception           Specialized */
      , (38592, 24, 0, 3, 0,  80, 0, 0) /* Run                  Specialized */
-     , (38592, 31, 0, 3, 0, 150, 0, 0) /* CreatureEnchantment Specialized */
+     , (38592, 31, 0, 3, 0, 151, 0, 0) /* CreatureEnchantment  Specialized */
      , (38592, 33, 0, 3, 0, 150, 0, 0) /* LifeMagic           Specialized */
      , (38592, 34, 0, 3, 0, 150, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38592, 0,     0,  0, 0,    0, False) /*  */
-     , (38592, 0,     0,  0, 0,    0, False) /*  */
-     , (38592, 0,     0,  0, 0,    0, False) /*  */;
+VALUES (38592, 2, 48584,  1, 0.3, 0, False) /* Create Icy Club (48584) for Wield */
+     , (38592, 2, 48588,  1, 0.6, 0, False) /* Create Glacial Blade (48588) for Wield */
+     , (38592, 2, 48586,  1, 0.9, 0, False) /* Create Ice Shard (48586) for Wield */;
