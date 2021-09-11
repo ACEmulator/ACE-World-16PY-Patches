@@ -13,7 +13,7 @@ VALUES (35405,   1,        512) /* ItemType - Container */
      , (35405,  38,       9999) /* ResistLockpick */
      , (35405,  81,          3) /* MaxGeneratedObjects */
      , (35405,  82,          3) /* InitGeneratedObjects */
-     , (35405,  83,          2) /* ActivationResponse - Use */
+     , (35405,  83,         16) /* ActivationResponse - Talk */
      , (35405,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (35405, 100,          1) /* GeneratorType - Relative */;
 
@@ -35,7 +35,8 @@ VALUES (35405,  11,      30) /* ResetInterval */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35405,   1, 'Sealed Vault') /* Name */
      , (35405,  12, 'KeyGYColosseumVault') /* LockCode */
-     , (35405,  14, 'A mysterious vault.') /* Use */;
+     , (35405,  14, 'A mysterious vault.') /* Use */
+     , (35405,  17, 'You open the ancient vault of Lord Cynreft.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35405,   1,   33560226) /* Setup */
@@ -48,5 +49,3 @@ INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_C
 VALUES (35405, -1,  1005, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 7 from Death Treasure Table id: 1005 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
      , (35405, -1, 53472, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Lord Cynreft Mhoire's Signet Ring (53472) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (35405, -1, 38810, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Lord Cynreft's Ancient Emblem of Mhoire (38810) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
-     
-     

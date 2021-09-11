@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41464;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41464, 'ace41464-flawlesslense', 35, '2019-02-10 00:00:00') /* Caster */;
+VALUES (41464, 'ace41464-flawlesslense', 35, '2021-09-08 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41464,   1,      32768) /* ItemType - Caster */
@@ -12,6 +12,7 @@ VALUES (41464,   1,      32768) /* ItemType - Caster */
 	 , (41464,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
 	 , (41464,  18,       1024) /* UiEffects - Slashing */
 	 , (41464,  19,        500) /* Value */
+	 , (41464,  46,        512) /* DefaultCombatStyle - Magic */
 	 , (41464,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
 	 , (41464,  94,         16) /* TargetType - Creature */
 	 , (41464, 106,        400) /* ItemSpellcraft */
