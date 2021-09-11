@@ -22,7 +22,7 @@ VALUES (53021,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53021,   1, 'Corrupted Amber: Breastplate of the Corrupted Soul') /* Name */
-     , (53021,  14, 'Armor Tinkerers can use this gem on any breastplate-slot armor to give it a PK Damage Resistance of 1. ** This item has a chance of failure and potential armor piece destruction**, and stacks with other tinkering effects.') /* Use */
+     , (53021,  14, 'Armor Tinkerers can use this gem on any breastplate-slot armor to give it a PK Damage Resistance of 2. ** This item has a chance of failure and potential armor piece destruction**, and stacks with other tinkering effects.') /* Use */
      , (53021,  16, 'A chunk of corrupted amber imbued with the corrupted energies of the Hopeslayer. An angry red core can be seen swirling within.') /* LongDesc */
      , (53021,  20, 'Corrupted Ambers: Breastplate of the Corrupted Soul') /* PluralName */;
 
