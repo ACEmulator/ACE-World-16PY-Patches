@@ -14,7 +14,7 @@ VALUES (8927, True, 0, 0, 0, False, 0, 1, 0) /* Mutation Filter - Viridian Armor
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  384, 1, 2, 1) /* On Source.SuccessTarget SetValue GearPKDamageResistanceInt  */;
+VALUES (@parent_id, 0,  384, 1, 1, 1) /* On Source.SuccessTarget SetValue GearPKDamageResistanceInt  */;
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8927;
 
