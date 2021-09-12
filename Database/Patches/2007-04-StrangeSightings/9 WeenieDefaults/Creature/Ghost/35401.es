@@ -15,8 +15,6 @@ Use:
         QuestFailure:
             - UpdateMyQuest: GYColoRewardGiven
                 QuestSuccess:
-                    - Tell: I thank you again for your bravery in destroying my corrupted form.
-                QuestFailure:
                     - StampQuest: GYColoWinRewardReceived
                     - Tell: You have my thanks. My spirit is free from the corruption of this place. I feel at peace. I can only hope that I am not drawn once again into the corruption.
                     - AddCharacterTitle: HeroOfHouseMhoire
@@ -25,6 +23,8 @@ Use:
                     - Tell: Again I thank you for what you have obviously done.
                     - Give: Lord Cynreft Mhoire's Key (35402)
                     - Goto: RollForCoins
+                QuestFailure:
+                    - Tell: I thank you again for your bravery in destroying my corrupted form.
 
 GotoSet: RollForCoins, Probability: 0.33
     - Give: Ancient Mhoire Coin (35383), 3
