@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53452;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (53452, 'ace53452-corruptedamberweaponofthecorruptedheart', 44, '2019-02-10 00:00:00') /* CraftTool */;
+VALUES (53452, 'ace53452-corruptedamberweaponofthecorruptedheart', 44, '2021-09-11 02:23:09') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53452,   1,       2048) /* ItemType - Gem */
@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53452,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53452,   1, 'Corrupted Amber: Weapon of the Corrupted Heart') /* Name */
+VALUES (53452,   1, 'Corrupted Amber: Weapon of the Corrupted Heart.') /* Name */
      , (53452,  14, 'Give a weapon or caster a PK Damage Rating of 1. Melee or missile weapons use Weapon Tinkering to determine success. Casters use Magic Item Tinkering to determine success. **This item has a chance of failure and potential weapon destruction**, and stacks with other tinkering effects.') /* Use */
      , (53452,  16, 'A chunk of corrupted amber imbued with the corrupted energies of the Hopeslayer. An angry red core can be seen swirling within.') /* LongDesc */
-     , (53452,  20, 'Corrupted Ambers: Weapon of the Corrupted Heart') /* PluralName */;
+     , (53452,  20, 'Corrupted Ambers: Weapon of the Corrupted Heart.') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53452,   1,   33554809) /* Setup */
@@ -32,3 +32,4 @@ VALUES (53452,   1,   33554809) /* Setup */
      , (53452,   6,   67111919) /* PaletteBase */
      , (53452,   8,  100693326) /* Icon */
      , (53452,  22,  872415275) /* PhysicsEffectTable */;
+

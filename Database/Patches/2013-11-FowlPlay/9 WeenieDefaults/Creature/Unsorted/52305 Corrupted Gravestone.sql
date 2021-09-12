@@ -8,10 +8,10 @@ VALUES (52305,   1,         16) /* ItemType - Creature */
      , (52305,   6,         -1) /* ItemsCapacity */
      , (52305,   7,         -1) /* ContainersCapacity */
      , (52305,  16,          1) /* ItemUseable - No */
-     , (52305,  81,          4) /* MaxGeneratedObjects */
-     , (52305,  82,          0) /* InitGeneratedObjects */
+     , (52305,  81,          2) /* MaxGeneratedObjects */
+     , (52305,  82,          2) /* InitGeneratedObjects */
      , (52305,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (52305, 103,          3) /* GeneratorDestructionType - Kill */
+     , (52305, 103,          2) /* GeneratorDestructionType - Destroy */
      , (52305, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52305, 315,       9999) /* CritResistRating */;
 
@@ -27,7 +27,7 @@ VALUES (52305,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52305,  31,       2) /* VisualAwarenessRange */
      , (52305,  39,     1.5) /* DefaultScale */
-     , (52305,  43,       5) /* GeneratorRadius */;
+     , (52305,  43,       0) /* GeneratorRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52305,   1, 'Corrupted Gravestone') /* Name */
@@ -78,8 +78,8 @@ VALUES (52305, 18 /* Scream */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'SpawnGuards', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52305, 0.63, 35091, 1, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight (35091) (x3 up to max of 3) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (52305, 0.54, 35091, 1, 4, 4, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wight (35091) (x4 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (52305, -1, 52307, 0, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unknown (52307) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */
+     , (52305, -1, 72218, 0, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gravestone Guards Gen (80009) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
