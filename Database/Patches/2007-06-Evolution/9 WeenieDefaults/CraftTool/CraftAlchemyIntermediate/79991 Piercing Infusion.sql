@@ -6,12 +6,12 @@ VALUES (79991, 'ace79991-piercinginfusion', 44, '2019-05-26 00:00:00') /* CraftT
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (79991,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (79991,   3,         76) /* PaletteTemplate - Orange */
-     , (79991,   5,         15) /* EncumbranceVal */
+     , (79991,   5,          0) /* EncumbranceVal */
      , (79991,   8,          5) /* Mass */
      , (79991,   9,          0) /* ValidLocations - None */
      , (79991,  11,        100) /* MaxStackSize */
      , (79991,  12,          1) /* StackSize */
-     , (79991,  13,         15) /* StackUnitEncumbrance */
+     , (79991,  13,          0) /* StackUnitEncumbrance */
      , (79991,  14,          5) /* StackUnitMass */
      , (79991,  15,         10) /* StackUnitValue */
      , (79991,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
