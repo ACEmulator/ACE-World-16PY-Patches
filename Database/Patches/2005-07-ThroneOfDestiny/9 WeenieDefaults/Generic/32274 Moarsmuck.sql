@@ -12,7 +12,6 @@ VALUES (32274,   1,          0) /* ItemType - None */
      , (32274,  15,          0) /* StackUnitValue */
      , (32274,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (32274,  19,          0) /* Value */
-     , (32274,  53,        101) /* PlacementPosition - Resting */
      , (32274,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32274,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
 
