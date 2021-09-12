@@ -6,12 +6,12 @@ VALUES (79989, 'ace79989-slashinginfusion', 44, '2019-05-26 00:00:00') /* CraftT
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (79989,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (79989,   3,         17) /* PaletteTemplate - Yellow */
-     , (79989,   5,         15) /* EncumbranceVal */
+     , (79989,   5,          0) /* EncumbranceVal */
      , (79989,   8,          5) /* Mass */
      , (79989,   9,          0) /* ValidLocations - None */
      , (79989,  11,        100) /* MaxStackSize */
      , (79989,  12,          1) /* StackSize */
-     , (79989,  13,         15) /* StackUnitEncumbrance */
+     , (79989,  13,          0) /* StackUnitEncumbrance */
      , (79989,  14,          5) /* StackUnitMass */
      , (79989,  15,         10) /* StackUnitValue */
      , (79989,  16,     524296) /* ItemUseable - SourceContainedTargetContained */

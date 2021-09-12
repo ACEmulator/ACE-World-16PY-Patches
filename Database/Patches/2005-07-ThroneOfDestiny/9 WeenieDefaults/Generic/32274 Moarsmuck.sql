@@ -5,14 +5,14 @@ VALUES (32274, 'ace32274-moarsmuck', 44, '2019-10-26 06:52:23') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32274,   1,          0) /* ItemType - None */
-     , (32274,   5,         10) /* EncumbranceVal */
+     , (32274,   5,         20) /* EncumbranceVal */
      , (32274,  11,        100) /* MaxStackSize */
      , (32274,  12,          1) /* StackSize */
-     , (32274,  13,         10) /* StackUnitEncumbrance */
+     , (32274,  13,         20) /* StackUnitEncumbrance */
      , (32274,  15,          0) /* StackUnitValue */
      , (32274,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (32274,  19,          0) /* Value */
-     , (32274,  53,        101) /* PlacementPosition */
+     , (32274,  53,        101) /* PlacementPosition - Resting */
      , (32274,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32274,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
 

@@ -9,10 +9,10 @@ VALUES (29128,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29128,  11,        100) /* MaxStackSize */
      , (29128,  12,          1) /* StackSize */
      , (29128,  13,         20) /* StackUnitEncumbrance */
-     , (29128,  15,          5) /* StackUnitValue */
+     , (29128,  15,         20) /* StackUnitValue */
      , (29128,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (29128,  19,          5) /* Value */
-     , (29128,  53,        101) /* PlacementPosition */
+     , (29128,  19,         20) /* Value */
+     , (29128,  53,        101) /* PlacementPosition - Resting */
      , (29128,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29128,  94,    4194336) /* TargetType - Food, CraftCookingBase */
      , (29128, 151,          2) /* HookType - Wall */;

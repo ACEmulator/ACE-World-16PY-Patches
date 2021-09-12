@@ -5,10 +5,10 @@ VALUES (37364, 'ace37364-quillofintrospection', 44, '2019-04-25 00:00:00') /* Cr
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37364,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
-     , (37364,   5,          4) /* EncumbranceVal */
+     , (37364,   5,      30000) /* EncumbranceVal */
      , (37364,  11,       1000) /* MaxStackSize */
      , (37364,  12,          1) /* StackSize */
-     , (37364,  13,          4) /* StackUnitEncumbrance */
+     , (37364,  13,      30000) /* StackUnitEncumbrance */
      , (37364,  15,      50000) /* StackUnitValue */
      , (37364,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (37364,  19,      50000) /* Value */

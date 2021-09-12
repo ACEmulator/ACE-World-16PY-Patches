@@ -5,10 +5,10 @@ VALUES (38774, 'ace38774-infusedquillofbenevolence', 44, '2019-04-25 00:00:00') 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38774,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
-     , (38774,   5,          4) /* EncumbranceVal */
+     , (38774,   5,      40000) /* EncumbranceVal */
      , (38774,  11,       1000) /* MaxStackSize */
      , (38774,  12,          1) /* StackSize */
-     , (38774,  13,          4) /* StackUnitEncumbrance */
+     , (38774,  13,      40000) /* StackUnitEncumbrance */
      , (38774,  15,      50000) /* StackUnitValue */
      , (38774,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (38774,  18,          1) /* UiEffects - Magical */

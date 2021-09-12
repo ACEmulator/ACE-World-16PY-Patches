@@ -5,10 +5,10 @@ VALUES (37363, 'ace37363-quillofinfliction', 44, '2019-04-25 00:00:00') /* Craft
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37363,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
-     , (37363,   5,          4) /* EncumbranceVal */
+     , (37363,   5,      30000) /* EncumbranceVal */
      , (37363,  11,       1000) /* MaxStackSize */
      , (37363,  12,          1) /* StackSize */
-     , (37363,  13,          4) /* StackUnitEncumbrance */
+     , (37363,  13,      30000) /* StackUnitEncumbrance */
      , (37363,  15,      50000) /* StackUnitValue */
      , (37363,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (37363,  19,      50000) /* Value */
