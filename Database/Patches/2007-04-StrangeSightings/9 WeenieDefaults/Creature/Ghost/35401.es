@@ -11,16 +11,20 @@ HeartBeat: Style: NonCombat, Substyle: Ready
 Use:
     - InqQuest: GYColoWinRewardReceived
         QuestSuccess:
-            - DirectBroadcast: I thank you again for your bravery in destroying my corrupted form.
+            - Tell: I thank you again for your bravery in destroying my corrupted form.
         QuestFailure:
-            - StampQuest: GYColoWinRewardReceived
-            - Tell: You have my thanks. My spirit is free from the corruption of this place. I feel at peace. I can only hope that I am not drawn once again into the corruption.
-            - AddCharacterTitle: HeroOfHouseMhoire
-            - DirectBroadcast: Lord Cynreft Mhoire bestows to you the title "Hero of House Mhoire."
-            - Tell: I can only assume I have you to thank for this brief respite. Take this key. It will open a hidden cache of royal treasure hidden in the graveyard. Search for it.
-            - Tell: Again I thank you for what you have obviously done.
-            - Give: Lord Cynreft Mhoire's Key (35402)
-            - Goto: RollForCoins
+            - UpdateMyQuest: GYColoRewardGiven
+                QuestSuccess:
+                    - Tell: I thank you again for your bravery in destroying my corrupted form.
+                QuestFailure:
+                    - StampQuest: GYColoWinRewardReceived
+                    - Tell: You have my thanks. My spirit is free from the corruption of this place. I feel at peace. I can only hope that I am not drawn once again into the corruption.
+                    - AddCharacterTitle: HeroOfHouseMhoire
+                    - DirectBroadcast: Lord Cynreft Mhoire bestows to you the title "Hero of House Mhoire."
+                    - Tell: I can only assume I have you to thank for this brief respite. Take this key. It will open a hidden cache of royal treasure hidden in the graveyard. Search for it.
+                    - Tell: Again I thank you for what you have obviously done.
+                    - Give: Lord Cynreft Mhoire's Key (35402)
+                    - Goto: RollForCoins
 
 GotoSet: RollForCoins, Probability: 0.33
     - Give: Ancient Mhoire Coin (35383), 3
