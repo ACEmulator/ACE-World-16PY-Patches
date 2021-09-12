@@ -17,6 +17,7 @@ VALUES (37272,   1,        128) /* ItemType - Misc */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37272,   1, 'Eight Cards from the Deck of Eyes') /* Name */
      , (37272,  14, 'Combine these cards with the other cards from the Deck of Eyes to complete the deck.') /* Use */
+     , (37272,  16, 'One card from the Deck of Eyes. Combine it with the other cards to complete the deck.') /* LongDesc */
      , (37272,  20, 'Sets of Eight Cards from the Deck of Eyes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -24,7 +25,3 @@ VALUES (37272,   1,   33560546) /* Setup */
      , (37272,   3,  536870932) /* SoundTable */
      , (37272,   8,  100689858) /* Icon */
      , (37272,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37272, 8040, 2103705619, 48.17259, 51.18679, 12.079, 0.9974259, 0, 0, -0.07170492) /* PCAPRecordedLocation */
-/* @teleloc 0x7D640013 [48.172590 51.186790 12.079000] 0.997426 0.000000 0.000000 -0.071705 */;
