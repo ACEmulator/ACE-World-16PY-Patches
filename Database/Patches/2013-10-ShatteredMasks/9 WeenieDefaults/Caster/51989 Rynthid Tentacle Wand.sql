@@ -27,11 +27,7 @@ VALUES (51989,   1,      32768) /* ItemType - Caster */
      , (51989, 353,         12) /* WeaponType - Magic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51989,  11, True ) /* IgnoreCollisions */
-     , (51989,  13, True ) /* Ethereal */
-     , (51989,  14, True ) /* GravityStatus */
-     , (51989,  19, True ) /* Attackable */
-     , (51989,  22, True ) /* Inscribable */
+VALUES (51989,  22, True ) /* Inscribable */
      , (51989,  69, False) /* IsSellable */
      , (51989,  99, True ) /* Ivoryable */;
 
