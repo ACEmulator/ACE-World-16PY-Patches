@@ -6,4 +6,4 @@ VALUES (8810, 0, 38 /* Alchemy */, 105, 0, 36741 /* Concentrated Slashing Oil */
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8810;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8810, 9342 /* Concentrated Aqua Incanta */, 36738 /* Concentrated Slashing Infusion */, '2019-05-26 00:00:00');
+VALUES (8810, 36738 /* Concentrated Slashing Infusion */, 9342 /* Concentrated Aqua Incanta */, '2019-05-26 00:00:00');

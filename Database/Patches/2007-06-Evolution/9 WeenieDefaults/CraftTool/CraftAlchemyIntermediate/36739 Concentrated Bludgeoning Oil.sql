@@ -5,10 +5,10 @@ VALUES (36739, 'ace36739-concentratedbludgeoningoil', 44, '2019-05-26 00:00:00')
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36739,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
-     , (36739,   5,         10) /* EncumbranceVal */
+     , (36739,   5,          0) /* EncumbranceVal */
      , (36739,  11,        100) /* MaxStackSize */
      , (36739,  12,          1) /* StackSize */
-     , (36739,  13,         10) /* StackUnitEncumbrance */
+     , (36739,  13,          0) /* StackUnitEncumbrance */
      , (36739,  15,        750) /* StackUnitValue */
      , (36739,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36739,  19,        750) /* Value */

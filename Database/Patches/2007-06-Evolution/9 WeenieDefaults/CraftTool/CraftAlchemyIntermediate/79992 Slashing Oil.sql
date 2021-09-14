@@ -6,12 +6,12 @@ VALUES (79992, 'ace79992-slashingoil', 44, '2019-05-26 00:00:00') /* CraftTool *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (79992,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (79992,   3,         17) /* PaletteTemplate - Yellow */
-     , (79992,   5,         15) /* EncumbranceVal */
+     , (79992,   5,          0) /* EncumbranceVal */
      , (79992,   8,          5) /* Mass */
      , (79992,   9,          0) /* ValidLocations - None */
      , (79992,  11,        100) /* MaxStackSize */
      , (79992,  12,          1) /* StackSize */
-     , (79992,  13,         15) /* StackUnitEncumbrance */
+     , (79992,  13,          0) /* StackUnitEncumbrance */
      , (79992,  14,          5) /* StackUnitMass */
      , (79992,  15,         20) /* StackUnitValue */
      , (79992,  16,     524296) /* ItemUseable - SourceContainedTargetContained */

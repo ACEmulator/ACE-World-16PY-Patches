@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53018;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (53018, 'ace53018-corruptedamberhelmofthecorruptedheart', 44, '2019-02-10 00:00:00') /* CraftTool */;
+VALUES (53018, 'ace53018-corruptedamberhelmofthecorruptedheart', 44, '2021-09-11 11:43:25') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53018,   1,       2048) /* ItemType - Gem */
@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53018,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53018,   1, 'Corrupted Amber: Helm of the Corrupted Heart') /* Name */
-     , (53018,  14, 'Armor Tinkerers can use this gem on any helm-slot armor to give it a PK Damage Rating of 1. ** This item has a chance of failure and potential armor piece destruction**, and stacks with other tinkering effects.') /* Use */
+VALUES (53018,   1, 'Corrupted Amber: Helm of the Corrupted Heart.') /* Name */
+     , (53018,  14, 'Armor Tinkerers can use this gem on any helm-slot armor to give it a PK Damage Rating of 1. **This item has a chance of failure and potential armor piece destruction**, and stacks with other tinkering effects.') /* Use */
      , (53018,  16, 'A chunk of corrupted amber imbued with the corrupted energies of the Hopeslayer. An angry red core can be seen swirling within.') /* LongDesc */
-     , (53018,  20, 'Corrupted Ambers: Helm of the Corrupted Heart') /* PluralName */;
+     , (53018,  20, 'Corrupted Ambers: Helm of the Corrupted Heart.') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53018,   1,   33554809) /* Setup */
@@ -32,3 +32,4 @@ VALUES (53018,   1,   33554809) /* Setup */
      , (53018,   6,   67111919) /* PaletteBase */
      , (53018,   8,  100693326) /* Icon */
      , (53018,  22,  872415275) /* PhysicsEffectTable */;
+

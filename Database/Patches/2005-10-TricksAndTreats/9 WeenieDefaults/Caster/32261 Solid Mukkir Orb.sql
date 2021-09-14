@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32261;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32261, 'ace32261-solidmukkirorb', 35, '2019-09-14 16:53:08') /* Caster */;
+VALUES (32261, 'ace32261-solidmukkirorb', 35, '2021-09-08 16:53:08') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32261,   1,      32768) /* ItemType - Caster */
@@ -10,6 +10,7 @@ VALUES (32261,   1,      32768) /* ItemType - Caster */
      , (32261,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (32261,  18,          1) /* UiEffects - Magical */
      , (32261,  19,       2000) /* Value */
+     , (32261,  46,        512) /* DefaultCombatStyle - Magic */
      , (32261,  52,          1) /* ParentLocation - RightHand */
      , (32261,  53,          1) /* PlacementPosition - RightHandCombat */
      , (32261,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

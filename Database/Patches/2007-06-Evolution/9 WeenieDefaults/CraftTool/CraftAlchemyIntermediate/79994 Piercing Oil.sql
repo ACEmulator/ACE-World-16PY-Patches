@@ -6,12 +6,12 @@ VALUES (79994, 'ace79994-bludeoningoil', 44, '2019-05-26 00:00:00') /* CraftTool
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (79994,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (79994,   3,         76) /* PaletteTemplate - Orange */
-     , (79994,   5,         15) /* EncumbranceVal */
+     , (79994,   5,          0) /* EncumbranceVal */
      , (79994,   8,          5) /* Mass */
      , (79994,   9,          0) /* ValidLocations - None */
      , (79994,  11,        100) /* MaxStackSize */
      , (79994,  12,          1) /* StackSize */
-     , (79994,  13,         15) /* StackUnitEncumbrance */
+     , (79994,  13,          0) /* StackUnitEncumbrance */
      , (79994,  14,          5) /* StackUnitMass */
      , (79994,  15,         20) /* StackUnitValue */
      , (79994,  16,     524296) /* ItemUseable - SourceContainedTargetContained */

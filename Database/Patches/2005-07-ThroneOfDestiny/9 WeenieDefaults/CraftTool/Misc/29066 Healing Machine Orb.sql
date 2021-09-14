@@ -5,11 +5,11 @@ VALUES (29066, 'healingorb', 44, '2019-02-04 06:52:23') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29066,   1,        128) /* ItemType - Misc */
-     , (29066,   5,        500) /* EncumbranceVal */
+     , (29066,   5,        150) /* EncumbranceVal */
      , (29066,   8,         10) /* Mass */
      , (29066,  11,          1) /* MaxStackSize */
      , (29066,  12,          1) /* StackSize */
-     , (29066,  13,        500) /* StackUnitEncumbrance */
+     , (29066,  13,        150) /* StackUnitEncumbrance */
      , (29066,  14,         10) /* StackUnitMass */
      , (29066,  15,          0) /* StackUnitValue */
      , (29066,  16,          8) /* ItemUseable - Contained */

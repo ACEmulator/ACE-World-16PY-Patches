@@ -65,7 +65,7 @@ VALUES (87479,   1,       5) /* HeartbeatInterval */
      , (87479, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (87479,   1, "Tchk''Tain the Tender") /* Name */;
+VALUES (87479,   1, 'Tchk''Tain the Tender') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (87479,   1,   33560697) /* Setup */

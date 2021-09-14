@@ -1,0 +1,121 @@
+DELETE FROM `weenie` WHERE `class_Id` = 42026;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42026, 'ace42026-wightbladesorcerer', 10, '2019-02-10 00:00:00') /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (42026,   1,      16) /* ItemType - Creature */
+     , (42026,   2,      14) /* CreatureType - Undead */
+     , (42026,   3,      10) /* PaletteTemplate - LightBlue */
+     , (42026,   6,      -1) /* ItemsCapacity */
+     , (42026,   7,      -1) /* ContainersCapacity */
+     , (42026,  16,       1) /* ItemUseable - No */
+     , (42026,  25,     240) /* Level */
+     , (42026,  40,       2) /* CombatMode - Melee */
+     , (42026,  68,       3) /* TargetingTactic - Random, Focused */
+     , (42026,  93,    1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (42026, 133,       2) /* ShowableOnRadar - ShowMovement */
+     , (42026, 146, 1850000) /* XpOverride */
+     , (42026, 307,       4) /* DamageRating */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (42026,   1, True ) /* Stuck */
+     , (42026,   6, True ) /* AiUsesMana */
+     , (42026,  11, False) /* IgnoreCollisions */
+     , (42026,  12, True ) /* ReportCollisions */
+     , (42026,  13, False) /* Ethereal */
+     , (42026,  50, True ) /* NeverFailCasting */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (42026,   1,    5) /* HeartbeatInterval */
+     , (42026,   2,    0) /* HeartbeatTimestamp */
+     , (42026,   3,  0.2) /* HealthRate */
+     , (42026,   4,  0.5) /* StaminaRate */
+     , (42026,   5,    2) /* ManaRate */
+     , (42026,  12,    0) /* Shade */
+     , (42026,  13, 0.85) /* ArmorModVsSlash */
+     , (42026,  14, 0.95) /* ArmorModVsPierce */
+     , (42026,  15, 0.85) /* ArmorModVsBludgeon */
+     , (42026,  16, 0.95) /* ArmorModVsCold */
+     , (42026,  17, 0.85) /* ArmorModVsFire */
+     , (42026,  18, 0.90) /* ArmorModVsAcid */
+     , (42026,  19, 0.95) /* ArmorModVsElectric */
+     , (42026,  31,   23) /* VisualAwarenessRange */
+     , (42026,  34,    2) /* PowerupTime */
+     , (42026,  36,    1) /* ChargeSpeed */
+     , (42026,  39,  1.1) /* DefaultScale */
+     , (42026,  64, 0.82) /* ResistSlash */
+     , (42026,  65,  0.5) /* ResistPierce */
+     , (42026,  66,  0.5) /* ResistBludgeon */
+     , (42026,  67, 0.85) /* ResistFire */
+     , (42026,  68,  0.5) /* ResistCold */
+     , (42026,  69,  0.5) /* ResistAcid */
+     , (42026,  70,  0.5) /* ResistElectric */
+     , (42026,  71,    1) /* ResistHealthBoost */
+     , (42026,  72,    1) /* ResistStaminaDrain */
+     , (42026,  73,    1) /* ResistStaminaBoost */
+     , (42026,  74,    1) /* ResistManaDrain */
+     , (42026,  75,    1) /* ResistManaBoost */
+     , (42026,  80,    2) /* AiUseMagicDelay */
+     , (42026, 104,   10) /* ObviousRadarRange */
+     , (42026, 122,    2) /* AiAcquireHealth */
+     , (42026, 125,    1) /* ResistHealthDrain */
+     , (42026, 166,  0.9) /* ResistNether */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (42026,   1, 'Wight Blade Sorcerer') /* Name */
+     , (42026,  45, 'KilltaskGraveyardWight_1309') /* KillQuest */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (42026,  1,  33560225) /* Setup */
+     , (42026,  2, 150994967) /* MotionTable */
+     , (42026,  3, 536870934) /* SoundTable */
+     , (42026,  4, 805306368) /* CombatTable */
+     , (42026,  6,  67110722) /* PaletteBase */
+     , (42026,  7, 268435558) /* ClothingBase */
+     , (42026,  8, 100667942) /* Icon */
+     , (42026, 22, 872415272) /* PhysicsEffectTable */
+     , (42026, 35,      1000) /* DeathTreasureType - Loot Tier: 7 */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (42026,   1, 240, 0, 0) /* Strength */
+     , (42026,   2, 220, 0, 0) /* Endurance */
+     , (42026,   3, 210, 0, 0) /* Quickness */
+     , (42026,   4, 230, 0, 0) /* Coordination */
+     , (42026,   5, 325, 0, 0) /* Focus */
+     , (42026,   6, 305, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (42026,   1,  3390, 0, 0, 3500) /* MaxHealth */
+     , (42026,   3,  3000, 0, 0, 3220) /* MaxStamina */
+     , (42026,   5,  2000, 0, 0, 2305) /* MaxMana */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (42026,  6, 0, 3, 0, 360, 0, 0) /* MeleeDefense        Specialized */
+     , (42026,  7, 0, 3, 0, 367, 0, 0) /* MissileDefense      Specialized */
+     , (42026, 15, 0, 3, 0, 395, 0, 0) /* MagicDefense        Specialized */
+     , (42026, 20, 0, 3, 0, 420, 0, 0) /* Deception           Specialized */
+     , (42026, 33, 0, 3, 0, 460, 0, 0) /* LifeMagic           Specialized */
+     , (42026, 34, 0, 3, 0, 395, 0, 0) /* WarMagic            Specialized */
+     , (42026, 45, 0, 3, 0, 445, 0, 0) /* LightWeapons        Specialized */
+     , (42026, 46, 0, 3, 0, 445, 0, 0) /* FinesseWeapons      Specialized */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (42026,  0,  4,  0,    0,  225,  225,  225,  225,  225,  225,  225,  225,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (42026,  1,  4,  0,    0,  225,  225,  225,  225,  225,  225,  225,  225,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (42026,  2,  4,  0,    0,  225,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (42026,  3,  4,  0,    0,  225,  225,  225,  225,  225,  225,  225,  225,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (42026,  4,  4,  0,    0,  225,  225,  225,  225,  225,  225,  225,  225,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (42026,  5,  4, 400, 0.75,  225,  225,  225,  225,  225,  225,  225,  225,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (42026,  6,  4,  0,    0,  225,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (42026,  7,  4,  0,    0,  225,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (42026,  8,  4, 400, 0.75,  225,  225,  225,  225,  225,  225,  225,  225,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (42026,  1786,   2.143) /* Nuhmudira's Spines */
+     , (42026,  5531,   2.167) /* Bloodstone Bolt VII */
+     , (42026,  4424,     2.2) /* Incantation of Force Arc */
+     , (42026,  4442,    2.25) /* Incantation of Force Blast */
+     , (42026,  4443,   2.334) /* Incantation of Force Bolt */
+     , (42026,  4489,   2.501) /* Incantation of Fester Other */
+     , (42026,  2166,   3.002) /* Tusker's Gift */;
