@@ -38,8 +38,7 @@ VALUES (32511,   5, -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32511,   1, 'Shield of Yanshi') /* Name */
-     , (32511,  16, 'A shield given by Royal Guard Adrana, for valor in the defense of Yanshi.') /* LongDesc */
-     , (32511,  33, 'yanshishieldtimer') /* Quest */;
+     , (32511,  16, 'A shield given by Royal Guard Adrana, for valor in the defense of Yanshi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32511,   1,   33559808) /* Setup */

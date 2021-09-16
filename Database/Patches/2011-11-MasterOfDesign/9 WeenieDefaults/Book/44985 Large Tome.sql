@@ -9,18 +9,11 @@ VALUES (44985,   1,       8192) /* ItemType - Writable */
      , (44985,  16,          8) /* ItemUseable - Contained */
      , (44985,  19,          0) /* Value */
      , (44985,  33,          1) /* Bonded - Bonded */
-     , (44985,  53,        101) /* PlacementPosition - Resting */
      , (44985,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44985, 114,          1) /* Attuned - Attuned */
-     , (44985, 174,          1) /* AppraisalPages */
-     , (44985, 175,          1) /* AppraisalMaxPages */;
+     , (44985, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44985,  11, True ) /* IgnoreCollisions */
-     , (44985,  13, True ) /* Ethereal */
-     , (44985,  14, True ) /* GravityStatus */
-     , (44985,  19, True ) /* Attackable */
-     , (44985,  22, True ) /* Inscribable */
+VALUES (44985,  22, True ) /* Inscribable */
      , (44985,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -28,7 +21,8 @@ VALUES (44985,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44985,   1, 'Large Tome') /* Name */
-     , (44985,  16, 'A large and well cared-for tome, filled with elegant Dericostian script.') /* LongDesc */;
+     , (44985,  16, 'A large and well cared-for tome, filled with elegant Dericostian script.') /* LongDesc */
+     , (44985,  33, 'LargeTome2PickupTimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44985,   1,   33554771) /* Setup */

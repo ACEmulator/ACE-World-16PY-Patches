@@ -9,31 +9,68 @@ Give: Letter (5666)
     - Delay: 2, Give: A Letter (5665)
     - Tell: There you are.  This was gained from a powerful Revenant you say?  He would appear to have been several millenia old!  I wonder if there are others of his antiquity still walking Dereth?
 
-Give: 70362
+Give: Large Tome (43810)
     - Motion: Ready
     - TurnToTarget
     - Tell: I translated this best I could, but the level of complexity in this research is impressive.
     - Tell: There is, however, one part that may point to this factory they speak of. Perhaps Sir Donovan can make use of it to track it down.
     - Delay: 1, Motion: Reading
-    - Delay: 2, Give: 70363
+    - Delay: 2, Give: Research Notes (70363)
     - Tell: Here you go. Good luck
 
-Give: 43808
+Give: Large Tome (44984)
+    - Motion: Ready
+    - TurnToTarget
+    - Delay: 1, Motion: Reading
+    - Tell: Well, this explains a lot, and raises even more questions. I did not think the plight of the Empyreans was related to the actions of Emperor Geraine, but I guess it was.
+    - Tell: There's a Royal Investigator, Sir Daeglan, I believe his name is, that was researching any information he could find on Emperor Geraine's actions. He may well be interested in this.
+	- Tell: Last I heard, he was in the camp next to the Lost City of Neftet, researching the ritual site that was uncovered there.
+    - Delay: 1, Give: Book 1: The Apostates (44994)
+
+Give: Large Tome (44985)
+    - Motion: Ready
+    - TurnToTarget
+    - Delay: 1, Motion: Reading
+    - Tell: The undead General who wrote this book seems to be very deeply involved in Emperor Geraine's plans. As you'll see, the information is disturbing, but may be the key needed to thwart whatever it is Emperor Geraine is up to.
+    - Tell: There's a Royal Investigator, Sir Daeglan, I believe his name is, that was researching any information he could find on Emperor Geraine's actions. He may well be interested in this.
+	- Tell: Last I heard, he was in the camp next to the Lost City of Neftet, researching the ritual site that was uncovered there.
+    - Delay: 1, Give: Book 2: The Gurogs and the beginnings of the Plan (44995)
+
+Give: Large Tome (44986)
+    - Motion: Ready
+    - TurnToTarget
+    - Delay: 1, Motion: Reading
+	- Tell: This has to be one of the more disturbing tomes I have ever transcribed. If it is true, then there truly is no telling what Emperor Geraine is capable of.
+    - Tell: The undead General who wrote this book seems to be very deeply involved in Emperor Geraine's plans. As you'll see, the information is disturbing, but may be the key needed to thwart whatever it is Emperor Geraine is up to.
+    - Tell: There's a Royal Investigator, Sir Daeglan, I believe his name is, that was researching any information he could find on Emperor Geraine's actions. He may well be interested in this.
+	- Tell: Last I heard, he was in the camp next to the Lost City of Neftet, researching the ritual site that was uncovered there.
+    - Delay: 1, Give: Book 3: The Time Ritual and the Sand Kings (44996)
+
+Give: Large Tome (44987)
+    - Motion: Ready
+    - TurnToTarget
+    - Delay: 1, Motion: Reading
+	- Tell: My apologies. There is very little in this tome, as the last of it is damaged. I recovered what I could.
+    - Tell: The undead General who wrote this book seems to be very deeply involved in Emperor Geraine's plans. As you'll see, the information is disturbing, but may be the key needed to thwart whatever it is Emperor Geraine is up to.
+    - Tell: There's a Royal Investigator, Sir Daeglan, I believe his name is, that was researching any information he could find on Emperor Geraine's actions. He may well be interested in this.
+    - Delay: 1, Give: Book 4: Further Manipulations of Time (44997)
+
+Give: Carefully rolled scroll (43808)
     - Motion: Ready
     - TurnToTarget
     - Tell: This seems to be some sort of report about those strange Bloodstones I've heard about, up by the Gurogs.
     - Tell: There's one of Borelean's Royal Knights, Sir Donovan, who was doing research on the Bloodstones. I'd bet he'd be interested in this.
     - Delay: 1, Motion: Reading
-    - Delay: 2, Give: 43807
+    - Delay: 2, Give: Bloodstone Report (43807)
     - Tell: Last I heard, he was up at the encampment along the borders of the Gurog's frozen valley. You should be able to find him there.
 
-Give: 44985
+Give: Large Tome (44985)
     - Motion: Ready
     - TurnToTarget
     - Tell: Indeed, this is the runic script of old Dericost, a language not used in well over 5000 years.  A moment - I shall transcribe a copy for you into Roulean.
     - Tell: There's a Royal Investigator, Sir Daeglan, I believe his name is, that was researching any information he could find on Emperor Geraine's actions. He may well be interested in this.
     - Delay: 1, Motion: Reading
-    - Delay: 2, Give: 44995
+    - Delay: 2, Give: Book 2: The Gurogs and the beginnings of the Plan (44995)
     - Tell: Last I heard, he was in the camp next to the Lost City of Neftet, researching the ritual site that was uncovered there.
 
 Give: Complete Rune Transcription (5849)
@@ -45,6 +82,7 @@ Give: Complete Rune Transcription (5849)
     - Delay: 2, Give: Gelidite Standing Stone Translation (5883)
     - Tell: Be warned, though - you will need a substantial party to reach the Lost City, and should you die...
     - Tell: You will be unable to reenter the caves to recover your equipment. Be certain you are prepared before you ask Mairisa to cast the portal!
+	
 Give: An Ancient Book (5882)
     - Motion: Ready
     - TurnToTarget
@@ -376,11 +414,11 @@ Give: Unreadable Dericost Tome (31412)
     - Delay: 1, Tell: You are working for the Shadow Hunter Killcrane, yes? Quickly, take this directly to him. Don't dawdle. What is in this tome is of great import.
     - Give: Translated Dericost Tome (31413)
 
-Give: 41931
+Give: Ancient Journal (41931)
     - Motion: Ready
     - TurnToTarget
     - Delay: 1, Tell: This journal is written in the runic script of old Dericost, a language not used in well over 5000 years. A moment - I shall transcribe a copy for you into Roulean.
-    - Give: 41930
+    - Give: Translated Tomb Writings (41930)
     - Tell: There you are. This sounds to me like more lore from that ancient graveyard. Did you find anything with this journal? Perhaps they are related.
 
 Use:
