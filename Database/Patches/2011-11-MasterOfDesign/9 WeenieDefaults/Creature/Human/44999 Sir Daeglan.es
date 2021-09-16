@@ -11,6 +11,15 @@ Use:
             - Tell: To that end, I am rewarding those who bring me information on Emperor Geraine's actions, movements or plans.
             - Tell: If you find anything, bring it to me. If it is information I can use, I'll reward you for it.
 
+Refuse: Book 1: The Apostates (44994)
+    - Motion: Ready
+    - TurnToTarget
+    - Delay: 1, Motion: Reading
+    - Tell: Well, what do we have here. Yes, I do believe I can use this. Thank you.
+	- TakeItems: Book 1: The Apostates (44994)
+    - Tell: If you find any more texts like this, please, bring them to me. If I can use them, I'll reward you.
+    - AwardLuminance: 500
+
 Give: 44995
     - Motion: Ready
     - TurnToTarget
@@ -22,4 +31,3 @@ Give: 44995
 Refuse: 44985
     - TurnToTarget
     - Tell: While that book may indeed be of use to me, I do not know the language of the Dericost. Bring that to the translator in Zaikhal, please.
-

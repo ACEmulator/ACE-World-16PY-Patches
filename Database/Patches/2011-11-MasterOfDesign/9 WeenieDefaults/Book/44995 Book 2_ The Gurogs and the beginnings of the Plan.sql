@@ -7,21 +7,27 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44995,   1,       8192) /* ItemType - Writable */
      , (44995,   5,        100) /* EncumbranceVal */
      , (44995,  16,          8) /* ItemUseable - Contained */
+     , (44995,  19,          0) /* Value */
+     , (44995,  33,          1) /* Bonded - Bonded */
      , (44995,  53,        101) /* PlacementPosition - Resting */
-     , (44995,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (44995,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (44995, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44995,  11, True ) /* IgnoreCollisions */
      , (44995,  13, True ) /* Ethereal */
      , (44995,  14, True ) /* GravityStatus */
      , (44995,  19, True ) /* Attackable */
-     , (44995,  22, True ) /* Inscribable */;
+     , (44995,  22, True ) /* Inscribable */
+     , (44995,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44995,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44995,   1, 'Book 2: The Gurogs and the beginnings of the Plan') /* Name */
+     , (44995,  14, 'Sir Daeglan in the Lost City of Neftet may be interested in this.') /* Use */
+     , (44995,  16, 'A translation of the tome found hidden in the frozen caves of the Gurog.') /* LongDesc */
      , (44995,  20, 'Book 2s: The Gurogs and the beginnings of the Plan') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
