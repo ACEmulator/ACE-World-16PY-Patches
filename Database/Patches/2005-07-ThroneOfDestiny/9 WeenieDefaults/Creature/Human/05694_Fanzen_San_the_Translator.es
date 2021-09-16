@@ -1,3 +1,24 @@
+Give: Complete Page of Lost Lore (46346)
+    - TurnToTarget
+    - Tell: An interesting page to translate. The text is Falatacot, but of a different dialect. Very strange.
+    - Delay: 1, Tell: A pity the whole story isn't here. I'd be fascinated to see if there are any differences in their lore.
+    - Goto: RollForBook
+
+GotoSet: RollForBook, Probability: 0.2
+    - Give: The Story of the Lost Sisters (46360)
+
+GotoSet: RollForBook, Probability: 0.4
+    - Give: The Story of the Lost Sisters (46361)
+    
+GotoSet: RollForBook, Probability: 0.6
+    - Give: The Story of the Lost Sisters (46362)
+    
+GotoSet: RollForBook, Probability: 0.8
+    - Give: The Story of the Lost Sisters (87467)
+    
+GotoSet: RollForBook, Probability: 1
+    - Give: The Story of the Lost Sisters (87468)
+
 Refuse: Adjanite Gem (27772)
     - TurnToTarget
     - Tell: This is a beautiful gem! Where did you say you found it? In a mud cave on the Vesayen Islands? Not surprising that the moarsmen would hoard items.
@@ -21,13 +42,11 @@ Refuse: Aquamarine Prisms (27767)
     - InqQuest: ReceivedToolOnyxCutting
         QuestSuccess:
             - Tell: I never knew that Aquamarine could be such a prismatic gem. I always thought it was opaque.
-            - Delay: 1, Tell
             - Delay: 1, Tell: I do recall, though, that some adventurers can come across a device that these gems could be fitted into.
             - Delay: 1, Tell: You may want to return to the Vesayen Islands and search for that contraption. . I did, at one point, possess an interesting cutting tool. Alas, I have already given it away. Come back to me in a few days and I might have found another one.
             - Delay: 1, Tell: But what you do if completely up to your decision.
         QuestFailure:
             - Tell: I never knew that Aquamarine could be such a prismatic gem. I always thought it was opaque.
-            - Delay: 1, Tell
             - Delay: 1, Tell: I do recall, though, that some adventurers can come across a device that these gems could be fitted into.
             - Delay: 1, Tell: You may want to return to the Vesayen Islands and search for that contraption. If you don't, I found an interesting cutting tool that you could use to break this cluster of prisms from each other.
             - Delay: 1, Tell: But what you do is completely up to your decision.
@@ -334,7 +353,7 @@ Give: Muddy Tome (27791)
     - Delay: 1, Tell: Unfortunately, the text is in horrible condition and I am unable to translate it completely. The best I can do is create a summary of the bits I understand.
     - Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
     - Give: Eating Habits of the Moars (27790)
-    - AwardXP: 50,000
+    - AwardXP: 500,000
 
 Give: Decaying Tome (27787)
     - TurnToTarget
@@ -342,23 +361,23 @@ Give: Decaying Tome (27787)
     - Delay: 1, Tell: The years have not been kind to this text. There are so many pages that I simply cannot comprehend because of their poor condition. The best I can do for this tome is to create a summary of the legible bits.
     - Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
     - Give: Hunting Habits of the Moars (27786)
-    - AwardXP: 100,000
+    - AwardXP: 1,000,000
 
 Give: Filthy Tome (27789)
     - TurnToTarget
     - Tell: Finally! Something with substance. As much as I enjoyed reading about the Moarsmen, those tomes pale compared to this one. This looks to be a history of the Moarsmen on Dereth. Hmm... this also seems to only be one part of the history. A second tome may contain the conclusion of the account.
     - Delay: 1, Tell: Sadly, the pages dissolve as I attempt to read them, so I was only able to construct a high level summary. The finer details of the text were gone before I could transcribe them.
     - Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
-    - Give: History of the Moars on Dereth Part I (27788)
-    - AwardXP: 500,000
+    - Give: History of the Moars on Dereth (27788)
+    - AwardXP: 4,000,000
 
 Give: Rotting Tome (27785)
     - TurnToTarget
     - Tell: Had I not seen the first piece of this text, I would have had difficult understanding the context of it. This is the second part of history of the moarsmen on Dereth. Very interesting indeed.
     - Delay: 1, Tell: It is a shame that there were no better reproductions of this tome where ever it was you procured this. I will do my best to summarize it, but the text is very difficult to read through the mud caked pages.
     - Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
-    - Give: History of the Moars on Dereth Part II (27784)
-    - AwardXP: 2,000,000
+    - Give: History of the Moars on Dereth (27784)
+    - AwardXP: 8,000,000
 
 Give: Blackened Tome (27783)
     - TurnToTarget
@@ -366,12 +385,13 @@ Give: Blackened Tome (27783)
     - Delay: 1, Tell: This story seems to be written in a confusing poetic style. Many of the concepts and actions are interposed, which make it difficult for even a scholar to discern. I will do my best to simplify it into a form that we can easily understand.
     - Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
     - Give: Origin of the Moar (27782)
-    - AwardXP: 3,000,000
+    - AwardXP: 15,000,000
 
-Give: Soul Hunter's Untranslated Orders (34310)
+Give: 34310
     - TurnToTarget
     - Tell: What's this now? Oh mercy! What terrible things this note portends! Where did you get this? Never mind, it's not my purpose... Here, take this translation, and bring it to the proper authorities!
-    - Give: Soul Hunter's Orders (34316)
+    - Give: 34316
+
 Use:
     - Motion: Ready
     - TurnToTarget
