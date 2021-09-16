@@ -233,7 +233,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  21 /* InqQuest */, 0, 1, NULL, 'ResearchingtheLostRitualsComplete_0612', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46294, 2, 38850,  1, 0, 0, False) /* Create Piercing Baton (38850) for Wield */
+VALUES (46294, 2, 38850,  1, 21, 0.2, False) /* Create Piercing Baton (38850) for Wield */
      , (46294, 2, 21153,  1, 21, 0.4286, False) /* Create Covenant Gauntlets (21153) for Wield */
      , (46294, 2, 44803,  1, 17, 0.1972, False) /* Create Empyrean Over-robe (44803) for Wield */
      , (46294, 2, 44977,  1, 17, 0.2, False) /* Create Lyceum Hood (44977) for Wield */;
