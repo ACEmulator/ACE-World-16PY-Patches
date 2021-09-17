@@ -15,10 +15,10 @@ VALUES (80025,   1, True ) /* Stuck */
      , (80025,  18, True ) /* Visibility */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (80025,  41,      60) /* RegenerationInterval */;
+VALUES (80025,  41,      10) /* RegenerationInterval */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (80025,   1, 'Viamont Staging Area Portal Generator') /* Name */
+VALUES (80025,   1, 'Viamont Staging Area Portal Gen') /* Name */
      , (80025,  34, 'viaportalhigh3') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

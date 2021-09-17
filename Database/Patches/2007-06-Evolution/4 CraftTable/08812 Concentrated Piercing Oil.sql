@@ -6,4 +6,4 @@ VALUES (8812, 0, 38 /* Alchemy */, 105, 0, 36740 /* Concentrated Piercing Oil */
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8812;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8812, 9342 /* Concentrated Aqua Incanta */, 36737 /* Concentrated Piercing Infusion */, '2019-05-26 00:00:00');
+VALUES (8812, 36737 /* Concentrated Piercing Infusion */, 9342 /* Concentrated Aqua Incanta */, '2019-05-26 00:00:00');

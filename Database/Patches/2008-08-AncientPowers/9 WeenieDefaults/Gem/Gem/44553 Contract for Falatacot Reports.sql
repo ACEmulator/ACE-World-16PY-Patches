@@ -12,10 +12,11 @@ VALUES (44553,   1,       2048) /* ItemType - Gem */
      , (44553,  16,          8) /* ItemUseable - Contained */
      , (44553,  18,          2) /* UiEffects - Poisoned */
      , (44553,  19,        100) /* Value */
+	 , (44553,  33,          1) /* Bonded - Bonded */
      , (44553,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44553,  94,         16) /* TargetType - Creature */
      , (44553, 280,        100) /* SharedCooldown */
-     , (44553, 349,        127) /* UseCreatesContractId */;
+     , (44553, 349,        127) /* UseCreatesContractId - Contract_127_Soc__Falatacot_Reports */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44553,  22, True ) /* Inscribable */

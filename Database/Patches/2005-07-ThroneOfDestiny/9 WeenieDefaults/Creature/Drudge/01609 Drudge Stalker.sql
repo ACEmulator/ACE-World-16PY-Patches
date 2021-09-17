@@ -65,7 +65,8 @@ VALUES (1609,   1,       5) /* HeartbeatInterval */
      , (1609, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1609,   1, 'Drudge Stalker') /* Name */;
+VALUES (1609,   1, 'Drudge Stalker') /* Name */
+     , (1609,  45, 'KillTaskDrudgeStalkers_0507') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1609,   1,   33556445) /* Setup */
@@ -99,19 +100,19 @@ VALUES (1609,   1,    94, 0, 0, 167) /* MaxHealth */
      , (1609,   5,    90, 0, 0, 165) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1609, 45, 0, 3, 0, 115, 0, 0) /* LightWeapons        Specialized */
-     , (1609, 47, 0, 3, 0,  60, 0, 0) /* MissileWeapons      Specialized */
-     , (1609, 46, 0, 3, 0, 115, 0, 0) /* FinesseWeapons      Specialized */
-     , (1609,  6, 0, 3, 0,  85, 0, 0) /* MeleeDefense        Specialized */
+VALUES (1609,  6, 0, 3, 0,  85, 0, 0) /* MeleeDefense        Specialized */
      , (1609,  7, 0, 3, 0, 225, 0, 0) /* MissileDefense      Specialized */
-     , (1609, 44, 0, 3, 0, 115, 0, 0) /* HeavyWeapons        Specialized */
      , (1609, 14, 0, 2, 0, 130, 0, 0) /* ArcaneLore          Trained */
      , (1609, 15, 0, 3, 0, 142, 0, 0) /* MagicDefense        Specialized */
      , (1609, 20, 0, 2, 0,  90, 0, 0) /* Deception           Trained */
      , (1609, 24, 0, 2, 0, 100, 0, 0) /* Run                 Trained */
      , (1609, 31, 0, 3, 0,  95, 0, 0) /* CreatureEnchantment Specialized */
      , (1609, 33, 0, 3, 0,  95, 0, 0) /* LifeMagic           Specialized */
-     , (1609, 34, 0, 3, 0,  95, 0, 0) /* WarMagic            Specialized */;
+     , (1609, 34, 0, 3, 0,  95, 0, 0) /* WarMagic            Specialized */
+     , (1609, 44, 0, 3, 0, 115, 0, 0) /* HeavyWeapons        Specialized */
+     , (1609, 45, 0, 3, 0, 115, 0, 0) /* LightWeapons        Specialized */
+     , (1609, 46, 0, 3, 0, 115, 0, 0) /* FinesseWeapons      Specialized */
+     , (1609, 47, 0, 3, 0,  60, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1609,  0,  4,  0,    0,  150,  129,  104,  135,  129,  135,  129,   54,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -211,7 +212,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, N
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1609, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
      , (1609, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (1609, 9, 15771,  0, 0, 0.02, False) /* Create Ruined Amulet of the Sword (15771) for ContainTreasure */
+     , (1609, 9, 15771,  0, 0, 0.02, False) /* Create Ruined Amulet of Heavy Weapons (15771) for ContainTreasure */
      , (1609, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (1609, 9, 27390,  0, 0, 0.005, False) /* Create Drudge Fight (27390) for ContainTreasure */
      , (1609, 9,     0,  0, 0, 0.995, False) /* Create nothing for ContainTreasure */

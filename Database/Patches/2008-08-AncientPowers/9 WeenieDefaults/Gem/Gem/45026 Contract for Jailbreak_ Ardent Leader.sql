@@ -16,7 +16,7 @@ VALUES (45026,   1,       2048) /* ItemType - Gem */
      , (45026,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (45026,  94,         16) /* TargetType - Creature */
      , (45026, 280,        100) /* SharedCooldown */
-     , (45026, 349,        200) /* UseCreatesContractId - Ardent Leader */;
+     , (45026, 349,        200) /* UseCreatesContractId - Contract_200_Jailbreak__Ardent_Leader */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45026,  22, True ) /* Inscribable */
@@ -27,6 +27,7 @@ VALUES (45026, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45026,   1, 'Contract for Jailbreak: Ardent Leader') /* Name */
+     , (45026,  14, 'Recommended Level: 180') /* Use */
      , (45026,  16, 'Defeat the Large Ardent Moarsman in the Freebooter Prison.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

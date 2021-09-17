@@ -16,7 +16,7 @@ VALUES (48586,   1,        256) /* ItemType - MissileWeapon */
      , (48586,  16,          1) /* ItemUseable - No */
      , (48586,  19,          4) /* Value */
      , (48586,  33,         -2) /* Bonded - Destroy */
-     , (48586,  44,         20) /* Damage */
+     , (48586,  44,        210) /* Damage */
      , (48586,  45,          8) /* DamageType - Cold */
      , (48586,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (48586,  48,         47) /* WeaponSkill - MissileWeapons */
@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48586,  17, True ) /* Inelastic */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48586,  22,    0.25) /* DamageVariance */
+VALUES (48586,  22,     0.5) /* DamageVariance */
      , (48586,  27,       2) /* RotationSpeed */
      , (48586,  29,       1) /* WeaponDefense */
      , (48586,  39,     2.5) /* DefaultScale */

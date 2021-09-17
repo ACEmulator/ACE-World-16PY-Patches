@@ -45,7 +45,6 @@ VALUES (37458,   1,       5) /* HeartbeatInterval */
      , (37458,  31,      25) /* VisualAwarenessRange */
      , (37458,  34,       1) /* PowerupTime */
      , (37458,  36,       1) /* ChargeSpeed */
-     , (37458,  55,      75) /* HomeRadius */
      , (37458,  64,    0.58) /* ResistSlash */
      , (37458,  65,    0.58) /* ResistPierce */
      , (37458,  66,    0.66) /* ResistBludgeon */
@@ -53,7 +52,6 @@ VALUES (37458,   1,       5) /* HeartbeatInterval */
      , (37458,  68,     0.3) /* ResistCold */
      , (37458,  69,    0.42) /* ResistAcid */
      , (37458,  70,     0.4) /* ResistElectric */
-     , (37458, 166,    0.82) /* ResistNether */
      , (37458,  71,       1) /* ResistHealthBoost */
      , (37458,  72,       1) /* ResistStaminaDrain */
      , (37458,  73,       1) /* ResistStaminaBoost */
@@ -62,7 +60,8 @@ VALUES (37458,   1,       5) /* HeartbeatInterval */
      , (37458,  80,       3) /* AiUseMagicDelay */
      , (37458, 104,      10) /* ObviousRadarRange */
      , (37458, 122,       2) /* AiAcquireHealth */
-     , (37458, 125,       1) /* ResistHealthDrain */;
+     , (37458, 125,       1) /* ResistHealthDrain */
+     , (37458, 166,    0.82) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37458,   1, 'Pyre Minion') /* Name */
@@ -116,10 +115,10 @@ VALUES (37458,  0,  4,  0,    0,  350,  350,  350,  350,  350,  350,  350,  350,
      , (37458,  8,  4, 185, 0.75,  350,  350,  350,  350,  350,  350,  350,  350,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37458, 9, 38714,  0, 0, 0.10, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
-     , (37458, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
-     , (37458, 9, 35105,  1, 0, 0.10, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (37458, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
+VALUES (37458, 9, 38714,  0, 0, 0.4, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
+     , (37458, 9,     0,  0, 0, 0.6, False) /* Create nothing for ContainTreasure */
+     , (37458, 9, 35105,  1, 0, 0.5, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (37458, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
      , (37458, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
      , (37458, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */     
      , (37458, 9, 37290,  1, 0, 0.06, False) /* Create Jester's Token (37290) for ContainTreasure */

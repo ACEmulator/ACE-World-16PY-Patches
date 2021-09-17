@@ -24,8 +24,7 @@ VALUES (35847,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35847,   1, 'Laboratory') /* Name */
-     , (35847,  16, 'This portal is appropriate for characters above level 150.') /* LongDesc */
-     , (35847,  38, 'Laboratory') /* AppraisalPortalDestination */;
+     , (35847,  16, 'This portal is appropriate for characters above level 150.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35847,   1,   33555925) /* Setup */
@@ -34,4 +33,4 @@ VALUES (35847,   1,   33555925) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35847, 2, 10617308, 80.0253, -105.993, 0.005, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x00A201DC [80.025300 -105.993000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0x00A201DC [80.025299 -105.992996 0.005000] 1.000000 0.000000 0.000000 0.000000 */;

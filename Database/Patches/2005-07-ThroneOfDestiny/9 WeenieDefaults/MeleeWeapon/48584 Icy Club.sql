@@ -12,7 +12,7 @@ VALUES (48584,   1,          1) /* ItemType - MeleeWeapon */
      , (48584,  16,          1) /* ItemUseable - No */
      , (48584,  19,        350) /* Value */
      , (48584,  33,         -2) /* Bonded - Destroy */
-     , (48584,  44,         20) /* Damage */
+     , (48584,  44,        225) /* Damage */
      , (48584,  45,          8) /* DamageType - Cold */
      , (48584,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (48584,  47,          4) /* AttackType - Slash */

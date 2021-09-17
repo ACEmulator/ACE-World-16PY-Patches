@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53318; 
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (53318, 'ace53318-stormwoodwand', 35, '2020-07-29 05:55:38') /* Caster */;
+VALUES (53318, 'ace53318-stormwoodwand', 35, '2021-09-08 05:55:38') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53318,   1,      32768) /* ItemType - Caster */
@@ -11,6 +11,7 @@ VALUES (53318,   1,      32768) /* ItemType - Caster */
      , (53318,  18,          1) /* UiEffects - Magical */
      , (53318,  19,        200) /* Value */
      , (53318,  45,         64) /* DamageType - Electric */
+     , (53318,  46,        512) /* DefaultCombatStyle - Magic */
      , (53318,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (53318,  94,         16) /* TargetType - Creature */
      , (53318, 105,          8) /* ItemWorkmanship */

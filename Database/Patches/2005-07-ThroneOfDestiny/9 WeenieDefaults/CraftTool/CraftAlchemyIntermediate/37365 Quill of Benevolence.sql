@@ -9,9 +9,9 @@ VALUES (37365,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (37365,  11,       1000) /* MaxStackSize */
      , (37365,  12,          1) /* StackSize */
      , (37365,  13,          4) /* StackUnitEncumbrance */
-     , (37365,  15,      50000) /* StackUnitValue */
+     , (37365,  15,      30000) /* StackUnitValue */
      , (37365,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (37365,  19,      50000) /* Value */
+     , (37365,  19,      30000) /* Value */
      , (37365,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37365,  94,       4224) /* TargetType - Misc, SpellComponents */;
 

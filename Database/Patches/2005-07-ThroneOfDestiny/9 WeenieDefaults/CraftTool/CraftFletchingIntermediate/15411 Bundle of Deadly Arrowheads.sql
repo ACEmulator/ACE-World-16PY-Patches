@@ -12,9 +12,9 @@ VALUES (15411,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (15411,  12,          1) /* StackSize */
      , (15411,  13,          0) /* StackUnitEncumbrance */
      , (15411,  14,         10) /* StackUnitMass */
-     , (15411,  15,         50) /* StackUnitValue */
+     , (15411,  15,        250) /* StackUnitValue */
      , (15411,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (15411,  19,         50) /* Value */
+     , (15411,  19,        250) /* Value */
      , (15411,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15411,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 

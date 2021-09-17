@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36949;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36949, 'ace36949-aerbaxsdefeat', 35, '2019-02-10 00:00:00') /* Caster */;
+VALUES (36949, 'ace36949-aerbaxsdefeat', 35, '2021-09-08 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36949,   1,      32768) /* ItemType - Caster */
@@ -11,6 +11,7 @@ VALUES (36949,   1,      32768) /* ItemType - Caster */
      , (36949,  18,         64) /* UiEffects - Lightning */
      , (36949,  19,     100000) /* Value */
      , (36949,  33,          1) /* Bonded - Bonded */
+     , (36949,  46,        512) /* DefaultCombatStyle - Magic */
      , (36949,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (36949,  94,         16) /* TargetType - Creature */
      , (36949, 114,          1) /* Attuned - Attuned */
