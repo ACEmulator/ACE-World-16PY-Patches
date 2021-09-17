@@ -81,3 +81,15 @@ Give: Broken Virindi Profatrix Mask (22061)
     - Tell: Anomaly inconsistent with structure. Form devoid of contact. Conclusion, disruption to the Singularity. I must --
     - Give: Virindi Profatrix Mask (22014)
     - Tell: Please do not bring me any more masks like this. They are ... disturbing to me.
+
+Give: 37058
+    - TurnToTarget
+    - Tell: Anomaly! Anomaly! Disruption in the Order!
+    - Delay: 1, DirectBroadcast: Leopold's eyes darken and his heal lolls to one side.
+    - Delay: 1, Tell: Ah yes, a mask for me to repair. Order from Chaos. Chaos from Order. I see now that this is the true way of things.
+    - Delay: 1, DirectBroadcast: Intricate tendrils of purple energy reach from Leopold's robes and rebuild the mask with blinding speed.
+    - Delay: 1, Tell: Your mask fellow human.
+    - Give: 36949
+    - Delay: 1, DirectBroadcast: As soon as Leopold releases the mask he eyes flicker to life. His head rises and he looks around for a second.
+    - Delay: 1, Tell: I appear to have mastered the human art of sleep. Which is what I as a human do periodically in order to reacquire energy and clarity of thought.
+    - Delay: 1, Tell: How may I help you comrade?
