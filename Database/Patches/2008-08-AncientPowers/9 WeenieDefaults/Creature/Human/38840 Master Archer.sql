@@ -15,7 +15,7 @@ VALUES (38840,   1,         16) /* ItemType - Creature */
      , (38840, 101,     524288) /* AiAllowedCombatStyle - StubbornMissile */
      , (38840, 113,          1) /* Gender - Male */
      , (38840, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (38840, 146,    1400000) /* XpOverride */
+     , (38840, 146,          0) /* XpOverride */
      , (38840, 188,          1) /* HeritageGroup - Aluvian */
      , (38840, 281,          2) /* Faction1Bits */
      , (38840, 288,       1001) /* SocietyRankEldweb */;
