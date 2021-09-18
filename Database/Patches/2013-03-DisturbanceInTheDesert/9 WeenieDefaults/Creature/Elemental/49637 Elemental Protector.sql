@@ -27,6 +27,7 @@ VALUES (49637,   1, True ) /* Stuck */
      , (49637,  15, True ) /* LightsStatus */
      , (49637,  19, True ) /* Attackable */
      , (49637,  29, True ) /* NoCorpse */
+     , (49637,  42, True ) /* AllowEdgeSlide */
      , (49637,  50, True ) /* NeverFailCasting */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
