@@ -10,13 +10,10 @@ VALUES (44984,   1,       8192) /* ItemType - Writable */
      , (44984,  19,          0) /* Value */
      , (44984,  33,          1) /* Bonded - Bonded */
      , (44984,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44984, 114,          1) /* Attuned - Attuned */
-     , (44984, 174,          1) /* AppraisalPages */
-     , (44984, 175,          1) /* AppraisalMaxPages */;
+     , (44984, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44984,   1, True ) /* Stuck */
-     , (44984,  22, True ) /* Inscribable */
+VALUES (44984,  22, True ) /* Inscribable */
      , (44984,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -25,7 +22,7 @@ VALUES (44984,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44984,   1, 'Large Tome') /* Name */
      , (44984,  16, 'A large and well cared-for tome, filled with elegant Dericostian script.') /* LongDesc */
-     , (44984,  33, 'ApostateLargeTomePickup') /* Quest */;
+     , (44984,  33, 'LargeTome1PickupTimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44984,   1,   33554771) /* Setup */
