@@ -15,7 +15,7 @@ VALUES (71706,   1,         16) /* ItemType - Creature */
      , (71706, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (71706, 113,          1) /* Gender - Male */
      , (71706, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (71706, 146,    1300000) /* XpOverride */
+     , (71706, 146,          0) /* XpOverride */
      , (71706, 188,          1) /* HeritageGroup - Aluvian */
      , (71706, 281,          1) /* Faction1Bits */
      , (71706, 287,       1001) /* SocietyRankCelhan */;
