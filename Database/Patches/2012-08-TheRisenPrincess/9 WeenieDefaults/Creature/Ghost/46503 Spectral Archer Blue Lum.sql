@@ -39,9 +39,7 @@ VALUES (46503,   1,       5) /* HeartbeatInterval */
      , (46503,  17,    0.95) /* ArmorModVsFire */
      , (46503,  18,     1.0) /* ArmorModVsAcid */
      , (46503,  19,     1.0) /* ArmorModVsElectric */
-     , (46503,  31,      20) /* VisualAwarenessRange */
-     , (46503,  34,       2) /* PowerupTime */
-     , (46503,  36,       1) /* ChargeSpeed */
+     , (46503,  31,      18) /* VisualAwarenessRange */
      , (46503,  64,    0.45) /* ResistSlash */
      , (46503,  65,    0.35) /* ResistPierce */
      , (46503,  66,     0.6) /* ResistBludgeon */

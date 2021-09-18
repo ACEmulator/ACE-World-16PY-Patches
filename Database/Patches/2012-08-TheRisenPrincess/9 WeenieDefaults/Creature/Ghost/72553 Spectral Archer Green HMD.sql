@@ -39,10 +39,7 @@ VALUES (72553,   1,       5) /* HeartbeatInterval */
      , (72553,  17,     1.0) /* ArmorModVsFire */
      , (72553,  18,     1.0) /* ArmorModVsAcid */
      , (72553,  19,    0.95) /* ArmorModVsElectric */
-     , (72553,  31,      30) /* VisualAwarenessRange */
-     , (72553,  34,       1) /* PowerupTime */
-     , (72553,  36,       1) /* ChargeSpeed */
-     , (72553,  54,      15) /* UseRadius */
+     , (72553,  31,      18) /* VisualAwarenessRange */
      , (72553,  64,    0.45) /* ResistSlash */
      , (72553,  65,    0.35) /* ResistPierce */
      , (72553,  66,     0.6) /* ResistBludgeon */

@@ -34,7 +34,7 @@ VALUES (46636,  12,     0.5) /* Shade */
      , (46636,  29,       1) /* WeaponDefense */
      , (46636,  39,     1.1) /* DefaultScale */
      , (46636,  62,       1) /* WeaponOffense */
-     , (46636,  63,       6) /* DamageMod */;
+     , (46636,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46636,   1, 'Frost Longbow') /* Name */;
