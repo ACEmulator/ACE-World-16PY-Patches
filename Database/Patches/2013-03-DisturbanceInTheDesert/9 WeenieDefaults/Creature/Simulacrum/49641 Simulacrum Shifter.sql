@@ -14,6 +14,7 @@ VALUES (49641,   1,         16) /* ItemType - Creature */
      , (49641,  81,          2) /* MaxGeneratedObjects */
      , (49641,  82,          0) /* InitGeneratedObjects */
      , (49641,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (49641, 103,          2) /* GeneratorDestructionType - Destroy */
      , (49641, 113,          1) /* Gender - Male */
      , (49641, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (49641, 146,    2500000) /* XpOverride */
