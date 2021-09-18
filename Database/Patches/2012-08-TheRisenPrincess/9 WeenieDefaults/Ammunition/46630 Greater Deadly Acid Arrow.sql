@@ -17,7 +17,7 @@ VALUES (46630,   1,        256) /* ItemType - MissileWeapon */
      , (46630,  16,          1) /* ItemUseable - No */
      , (46630,  18,        256) /* UiEffects - Acid */
      , (46630,  19,         11) /* Value */
-     , (46630,  44,         80) /* Damage */
+     , (46630,  44,        400) /* Damage */
      , (46630,  45,         32) /* DamageType - Acid */
      , (46630,  50,          1) /* AmmoType - Arrow */
      , (46630,  51,          3) /* CombatUse - Ammo */
