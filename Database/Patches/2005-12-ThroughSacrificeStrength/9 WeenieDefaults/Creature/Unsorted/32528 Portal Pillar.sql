@@ -20,8 +20,8 @@ VALUES (32528,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32528,   1, True ) /* Stuck */
-     , (32528,  42, True ) /* AllowEdgeSlide */
      , (32528,  29, True ) /* NoCorpse */
+     , (32528,  42, True ) /* AllowEdgeSlide */
      , (32528,  52, True ) /* AiImmobile */
      , (32528,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (32528,  83, True ) /* NpcLooksLikeObject */
@@ -44,7 +44,7 @@ VALUES (32528,   1,       5) /* HeartbeatInterval */
      , (32528,  31,     0.3) /* VisualAwarenessRange */
      , (32528,  34,     2.5) /* PowerupTime */
      , (32528,  36,       1) /* ChargeSpeed */
-     , (32528,  39,     1.0) /* DefaultScale */
+     , (32528,  39,       1) /* DefaultScale */
      , (32528,  64,     0.5) /* ResistSlash */
      , (32528,  65,     0.5) /* ResistPierce */
      , (32528,  66,       1) /* ResistBludgeon */
@@ -71,17 +71,17 @@ VALUES (32528,   1,   33559803) /* Setup */
      , (32528,  22,  872415369) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (32528,   1,  10, 0, 0) /* Strength */
-     , (32528,   2,  10, 0, 0) /* Endurance */
-     , (32528,   3,  10, 0, 0) /* Quickness */
-     , (32528,   4,  10, 0, 0) /* Coordination */
-     , (32528,   5,  10, 0, 0) /* Focus */
-     , (32528,   6,  10, 0, 0) /* Self */;
+VALUES (32528,   1,   1, 0, 0) /* Strength */
+     , (32528,   2,   1, 0, 0) /* Endurance */
+     , (32528,   3,   1, 0, 0) /* Quickness */
+     , (32528,   4,   1, 0, 0) /* Coordination */
+     , (32528,   5,   1, 0, 0) /* Focus */
+     , (32528,   6,   1, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32528,   1,     5, 0, 0, 10) /* MaxHealth */
-     , (32528,   3,     0, 0, 0, 10) /* MaxStamina */
-     , (32528,   5,     0, 0, 0, 10) /* MaxMana */;
+VALUES (32528,   1,  2001, 0, 0, 3001) /* MaxHealth */
+     , (32528,   3,   800, 0, 0, 801) /* MaxStamina */
+     , (32528,   5,     0, 0, 0, 1) /* MaxMana */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (32528,  0,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

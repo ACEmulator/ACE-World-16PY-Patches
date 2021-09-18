@@ -97,16 +97,16 @@ VALUES (12186,   1,   140, 0, 0, 220) /* MaxHealth */
      , (12186,   5,     0, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (12186, 46, 0, 3, 0, 200, 0, 0) /* FinesseWeapons      Specialized */
-     , (12186,  6, 0, 3, 0, 220, 0, 0) /* MeleeDefense        Specialized */
+VALUES (12186,  6, 0, 3, 0, 220, 0, 0) /* MeleeDefense        Specialized */
      , (12186,  7, 0, 3, 0, 300, 0, 0) /* MissileDefense      Specialized */
-     , (12186, 44, 0, 3, 0, 200, 0, 0) /* HeavyWeapons        Specialized */
-     , (12186, 45, 0, 3, 0, 200, 0, 0) /* LightWeapons        Specialized */
      , (12186, 15, 0, 3, 0, 255, 0, 0) /* MagicDefense        Specialized */
      , (12186, 24, 0, 3, 0, 100, 0, 0) /* Run                 Specialized */
      , (12186, 31, 0, 3, 0, 220, 0, 0) /* CreatureEnchantment Specialized */
      , (12186, 33, 0, 3, 0, 220, 0, 0) /* LifeMagic           Specialized */
-     , (12186, 34, 0, 3, 0, 220, 0, 0) /* WarMagic            Specialized */;
+     , (12186, 34, 0, 3, 0, 220, 0, 0) /* WarMagic            Specialized */
+     , (12186, 44, 0, 3, 0, 200, 0, 0) /* HeavyWeapons        Specialized */
+     , (12186, 45, 0, 3, 0, 200, 0, 0) /* LightWeapons        Specialized */
+     , (12186, 46, 0, 3, 0, 200, 0, 0) /* FinesseWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (12186,  0,  4,  0,    0,  240,  240,  240,  240,  240,  240,  192,  216,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -135,6 +135,8 @@ VALUES (12186, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wi
      , (12186, 2, 12193,  0, 0, 1, False) /* Create Dho Vest and Robe (12193) for Wield */
      , (12186, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (12186, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
+     , (12186, 9, 37088,  1, 0, 0.05, False) /* Create Invitation to the Battle Burrows (37088) for ContainTreasure */
+     , (12186, 9,     0,  1, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (12186, 10, 12188,  0, 0, 0.1, False) /* Create Assassin's Jambiya (12188) for WieldTreasure */
      , (12186, 10, 12187,  0, 0, 0.1, False) /* Create Assassin's Acid Jambiya (12187) for WieldTreasure */
      , (12186, 10, 12189,  0, 0, 0.1, False) /* Create Assassin's Lightning Jambiya (12189) for WieldTreasure */

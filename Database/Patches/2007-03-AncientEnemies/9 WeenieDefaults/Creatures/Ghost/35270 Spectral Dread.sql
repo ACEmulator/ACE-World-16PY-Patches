@@ -13,8 +13,8 @@ VALUES (35270,   1,         16) /* ItemType - Creature */
      , (35270,  25,        265) /* Level */
      , (35270,  40,          2) /* CombatMode - Melee */
      , (35270,  68,          3) /* TargetingTactic - Random, Focused */
-     , (35270,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35270, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (35270,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
+     , (35270, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (35270, 140,          1) /* AiOptions - CanOpenDoors */
      , (35270, 146,    2500000) /* XpOverride */;
 

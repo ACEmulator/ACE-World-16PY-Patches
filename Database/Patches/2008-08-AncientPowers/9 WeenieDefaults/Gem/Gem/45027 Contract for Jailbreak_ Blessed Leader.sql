@@ -16,7 +16,7 @@ VALUES (45027,   1,       2048) /* ItemType - Gem */
      , (45027,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (45027,  94,         16) /* TargetType - Creature */
      , (45027, 280,        100) /* SharedCooldown */
-     , (45027, 349,        201) /* UseCreatesContractId - Blessed Leader */;
+     , (45027, 349,        201) /* UseCreatesContractId - Contract_201_Jailbreak__Blessed_Leader */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45027,  22, True ) /* Inscribable */
@@ -27,6 +27,7 @@ VALUES (45027, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45027,   1, 'Contract for Jailbreak: Blessed Leader') /* Name */
+     , (45027,  14, 'Recommended Level: 180') /* Use */
      , (45027,  16, 'Defeat the Large Blessed Moarsman in the Freebooter Prison.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

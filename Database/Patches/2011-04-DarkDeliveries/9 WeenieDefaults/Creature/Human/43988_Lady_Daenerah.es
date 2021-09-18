@@ -60,3 +60,8 @@ Refuse: Sealed Tome (44000)
 	- StampQuest: RitualTimeCompleted_0411
 	- EraseQuest: RitualTimeStarted_0411
 	- EraseQuest: CavernEnchantedMnemosynesFound
+	- InqQuestBitsOn: LegendaryQuestsA, 0x800 
+		QuestFailure:
+			- SetQuestBitsOn: LegendaryQuestsA, 0x800 
+			- StampQuest: LegendaryQuestCounter_0913			
+	

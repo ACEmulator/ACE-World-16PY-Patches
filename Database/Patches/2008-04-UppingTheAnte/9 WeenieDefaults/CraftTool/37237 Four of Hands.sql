@@ -16,6 +16,7 @@ VALUES (37237,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37237,   1, 'Four of Hands') /* Name */
+     , (37237,  16, 'One card from the Deck of Hands. Combine it with the other cards to complete the deck.') /* LongDesc */
      , (37237,  20, 'Fours of Hands') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
