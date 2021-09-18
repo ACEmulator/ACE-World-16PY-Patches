@@ -9,10 +9,10 @@ VALUES (38771,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (38771,  11,       1000) /* MaxStackSize */
      , (38771,  12,          1) /* StackSize */
      , (38771,  13,          4) /* StackUnitEncumbrance */
-     , (38771,  15,      50000) /* StackUnitValue */
+     , (38771,  15,      40000) /* StackUnitValue */
      , (38771,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (38771,  18,          1) /* UiEffects - Magical */
-     , (38771,  19,      50000) /* Value */
+     , (38771,  19,      40000) /* Value */
      , (38771,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38771,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */;
 

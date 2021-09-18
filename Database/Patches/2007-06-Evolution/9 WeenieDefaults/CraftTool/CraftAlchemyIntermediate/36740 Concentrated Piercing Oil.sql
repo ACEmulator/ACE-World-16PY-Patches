@@ -5,10 +5,10 @@ VALUES (36740, 'ace36740-concentratedpiercingoil', 44, '2019-05-26 00:00:00') /*
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36740,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
-     , (36740,   5,         10) /* EncumbranceVal */
+     , (36740,   5,          0) /* EncumbranceVal */
      , (36740,  11,        100) /* MaxStackSize */
      , (36740,  12,          1) /* StackSize */
-     , (36740,  13,         10) /* StackUnitEncumbrance */
+     , (36740,  13,          0) /* StackUnitEncumbrance */
      , (36740,  15,        750) /* StackUnitValue */
      , (36740,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36740,  19,        750) /* Value */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44187;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44187, 'ace44187-contractbroker', 12, '2019-10-30 00:00:00') /* Vendor */;
+VALUES (44187, 'ace44187-contractbroker-shoushi', 12, '2019-10-30 00:00:00') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44187,   1,         16) /* ItemType - Creature */
@@ -64,7 +64,7 @@ VALUES (44187,  2 /* Vendor */,    0.8, NULL, NULL, NULL, NULL, 1 /* Open */, NU
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, "Welcome! What's your pleasure today?", NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Welcome! What''s your pleasure today?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (44187,  2 /* Vendor */,    0.8, NULL, NULL, NULL, NULL, 2 /* Close */, NULL, NULL);
@@ -80,19 +80,20 @@ VALUES (44187,  2 /* Vendor */,    0.8, NULL, NULL, NULL, NULL, 4 /* Buy */, NUL
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, "An excellent purchase.", NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'An excellent purchase.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44187, 2, 43828,  0, 84, 0.1836, False) /* Create Sedgemail Leather Vest (43828) for Wield */
-     , (44187, 2, 43829,  0, 84, 0.1836, False) /* Create Sedgemail Leather Cowl (43829) for Wield */
-     , (44187, 2, 43830,  0, 84, 0.1836, False) /* Create Sedgemail Leather Gauntlets (43830) for Wield */
-     , (44187, 2, 43831,  0, 84, 0.1836, False) /* Create Sedgemail Leather Pants (43831) for Wield */
-     , (44187, 2, 43832,  0, 84, 0.1836, False) /* Create Sedgemail Leather Shoes (43832) for Wield */
-     , (44187, 2, 43833,  0, 84, 0.1836, False) /* Create Sedgemail Leather Sleeves (43833) for Wield */
+VALUES (44187, 2, 43828,  0, 7, 0.1724, False) /* Create Sedgemail Leather Vest (43828) for Wield */
+     , (44187, 2, 43829,  0, 7, 0.1724, False) /* Create Sedgemail Leather Cowl (43829) for Wield */
+     , (44187, 2, 43830,  0, 7, 0.001, False) /* Create Sedgemail Leather Gauntlets (43830) for Wield */
+     , (44187, 2, 43831,  0, 7, 0.1724, False) /* Create Sedgemail Leather Pants (43831) for Wield */
+     , (44187, 2, 43832,  0, 7, 0.001, False) /* Create Sedgemail Leather Shoes (43832) for Wield */
+     , (44187, 2, 43833,  0, 7, 0.1724, False) /* Create Sedgemail Leather Sleeves (43833) for Wield */
+     , (44187, 2,   130,  0, 88, 0.5, False) /* Create Shirt (130) for Wield */
      , (44187, 4, 44386, -1, 0, 0, False) /* Create Contract for Broker Contracts (44386) for Shop */
-     , (44187, 4, 44164, -1, 0, 0, False) /* Create Contract for Southern Shroud Cabal (44164) for Shop */
+     , (44187, 4, 44164, -1, 0, 0, False) /* Create  (44164) for Shop */
      , (44187, 4, 44168, -1, 0, 0, False) /* Create Contract for Crafting Forges (Low) (44168) for Shop */
-     , (44187, 4, 44182, -1, 0, 0, False) /* Create Contract for Northern Shroud Cabal (44182) for Shop */
+     , (44187, 4, 44182, -1, 0, 0, False) /* Create  (44182) for Shop */
      , (44187, 4, 44169, -1, 0, 0, False) /* Create Contract for Crafting Forges (Mid) (44169) for Shop */
      , (44187, 4, 44179, -1, 0, 0, False) /* Create Contract for Ishaq's Lost Key (44179) for Shop */
      , (44187, 4, 44152, -1, 0, 0, False) /* Create Contract for The Legend of the Tusker Paw (44152) for Shop */

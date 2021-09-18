@@ -5,12 +5,12 @@ VALUES (4585, 'arrowshaft', 51, '2019-12-23 00:00:00') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4585,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
-     , (4585,   5,         10) /* EncumbranceVal */
+     , (4585,   5,          0) /* EncumbranceVal */
      , (4585,   8,          5) /* Mass */
      , (4585,   9,          0) /* ValidLocations - None */
      , (4585,  11,        100) /* MaxStackSize */
      , (4585,  12,          1) /* StackSize */
-     , (4585,  13,         10) /* StackUnitEncumbrance */
+     , (4585,  13,          0) /* StackUnitEncumbrance */
      , (4585,  14,          5) /* StackUnitMass */
      , (4585,  15,         25) /* StackUnitValue */
      , (4585,  19,         25) /* Value */

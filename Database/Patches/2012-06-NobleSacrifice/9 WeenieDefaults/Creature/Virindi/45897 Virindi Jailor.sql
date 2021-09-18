@@ -81,17 +81,13 @@ VALUES (45897,   1,  1285, 0, 0, 1480) /* MaxHealth */
      , (45897,   5,  2720, 0, 0, 3110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (45897,  6, 0, 2, 0, 500, 0, 0) /* MeleeDefense        Trained */
-     , (45897,  7, 0, 2, 0, 420, 0, 0) /* MissileDefense      Trained */
-     , (45897, 15, 0, 2, 0, 360, 0, 0) /* MagicDefense        Trained */
-     , (45897, 16, 0, 2, 0, 365, 0, 0) /* ManaConversion      Trained */
-     , (45897, 31, 0, 2, 0, 365, 0, 0) /* CreatureEnchantment Trained */
-     , (45897, 33, 0, 2, 0, 365, 0, 0) /* LifeMagic           Trained */
-     , (45897, 34, 0, 2, 0, 365, 0, 0) /* WarMagic            Trained */
-     , (45897, 41, 0, 2, 0, 420, 0, 0) /* TwoHandedCombat     Trained */
-     , (45897, 44, 0, 2, 0, 420, 0, 0) /* HeavyWeapons        Trained */
-     , (45897, 45, 0, 2, 0, 420, 0, 0) /* LightWeapons        Trained */
-     , (45897, 46, 0, 2, 0, 420, 0, 0) /* FinesseWeapons      Trained */;
+VALUES (45897,  6, 0, 2, 0, 415, 0, 0) /* MeleeDefense        Trained */
+     , (45897,  7, 0, 2, 0, 465, 0, 0) /* MissileDefense      Trained */
+     , (45897, 15, 0, 2, 0, 365, 0, 0) /* MagicDefense        Trained */
+     , (45897, 31, 0, 2, 0, 225, 0, 0) /* CreatureEnchantment Trained */
+     , (45897, 33, 0, 2, 0, 225, 0, 0) /* LifeMagic           Trained */
+     , (45897, 34, 0, 2, 0, 235, 0, 0) /* WarMagic            Trained */
+     , (45897, 45, 0, 2, 0, 425, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (45897,  0,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

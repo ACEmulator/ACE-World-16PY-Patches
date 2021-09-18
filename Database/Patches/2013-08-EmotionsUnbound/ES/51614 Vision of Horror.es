@@ -20,6 +20,10 @@ Use:
                             - DirectBroadcast: You have been awarded the title of Emotional Wreck!
                             - TeachSpell: 6150 - Rynthid Recall
                             - Give: Trade Note (250,000) (20630), 10
+                            - InqQuestBitsOn: LegendaryQuestsA, 0x20000 
+                                QuestFailure:
+                                    - SetQuestBitsOn: LegendaryQuestsA, 0x20000 
+                                    - StampQuest: LegendaryQuestCounter_0913            
                         QuestFailure:
                             - InqQuest: GenesisStarted_0813@2
                                 QuestSuccess:

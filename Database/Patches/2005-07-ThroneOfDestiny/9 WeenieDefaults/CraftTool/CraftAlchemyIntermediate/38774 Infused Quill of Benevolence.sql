@@ -9,7 +9,7 @@ VALUES (38774,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (38774,  11,       1000) /* MaxStackSize */
      , (38774,  12,          1) /* StackSize */
      , (38774,  13,          4) /* StackUnitEncumbrance */
-     , (38774,  15,      50000) /* StackUnitValue */
+     , (38774,  15,      40000) /* StackUnitValue */
      , (38774,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (38774,  18,          1) /* UiEffects - Magical */
      , (38774,  19,      40000) /* Value */

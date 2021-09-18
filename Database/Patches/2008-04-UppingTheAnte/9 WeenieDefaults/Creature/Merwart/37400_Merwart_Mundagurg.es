@@ -12,6 +12,10 @@ Use:
 						QuestFailure:
 							- Tell: You! Yes you can help! I serve the great god Angry Grandfather from that human town nearby. I explore lands for him. But I am stopped now. There is a big stinky fin-face acid-spitter nest north of here! They are crawling out of a hole in the water! Interfering with my exploration! Kill their leader, the biggest and stinkiest one of them all! Bring me hand of Blightfinger, and I give you reward!
 							- StampQuest: TentaclesTthuunStarted0408
+							- InqQuestBitsOn: 50to11BrokerContractsB@11, 0x80000
+								QuestFailure:
+									- SetQuestBitsOn: 50to11BrokerContractsB, 0x80000
+									- StampQuest: ContractQuestcounter_0511
 		TestFailure:
 			- Tell: You come back when stronger.
 

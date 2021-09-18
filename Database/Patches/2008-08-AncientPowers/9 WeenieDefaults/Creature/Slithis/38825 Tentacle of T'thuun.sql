@@ -10,7 +10,7 @@ VALUES (38825,   1,         16) /* ItemType - Creature */
      , (38825,   7,         -1) /* ContainersCapacity */
      , (38825,  16,          1) /* ItemUseable - No */
      , (38825,  25,        160) /* Level */
-	 , (38825,  27,          0) /* ArmorType - None */
+     , (38825,  27,          0) /* ArmorType - None */
      , (38825,  40,          2) /* CombatMode - Melee */
      , (38825,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (38825,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
@@ -19,13 +19,13 @@ VALUES (38825,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38825,   1, True ) /* Stuck */
-	 , (38825,   6, True ) /* AiUsesMana */
+     , (38825,   6, True ) /* AiUsesMana */
      , (38825,  11, False) /* IgnoreCollisions */
      , (38825,  12, True ) /* ReportCollisions */
      , (38825,  13, False) /* Ethereal */
      , (38825,  14, True ) /* GravityStatus */
      , (38825,  19, True ) /* Attackable */
-	 , (38825,  50, True ) /* NeverFailCasting */
+     , (38825,  50, True ) /* NeverFailCasting */
      , (38825,  52, True ) /* AiImmobile */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -44,21 +44,22 @@ VALUES (38825,   1,       5) /* HeartbeatInterval */
      , (38825,  31,      15) /* VisualAwarenessRange */
      , (38825,  34,     0.9) /* PowerupTime */
      , (38825,  36,       1) /* ChargeSpeed */
-	 , (38825,  39,     1.8) /* DefaultScale */
-	 , (38825,  64,    0.55) /* ResistSlash */
+     , (38825,  39,     1.8) /* DefaultScale */
+     , (38825,  64,    0.55) /* ResistSlash */
      , (38825,  65,    0.55) /* ResistPierce */
      , (38825,  66,    0.75) /* ResistBludgeon */
      , (38825,  67,    0.75) /* ResistFire */
      , (38825,  68,    0.25) /* ResistCold */
      , (38825,  69,    0.65) /* ResistAcid */
      , (38825,  70,    0.15) /* ResistElectric */
-	 , (38825,  80,       3) /* AiUseMagicDelay */
+     , (38825,  80,       3) /* AiUseMagicDelay */
      , (38825, 104,      10) /* ObviousRadarRange */
      , (38825, 122,       2) /* AiAcquireHealth */
      , (38825, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38825,   1, 'Tentacle of T''thuun') /* Name */;
+VALUES (38825,   1, 'Tentacle of T''thuun') /* Name */
+     , (38825,  45, 'KillTaskMcGreggorTentacle_0908') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38825,   1,   33560661) /* Setup */
@@ -68,10 +69,6 @@ VALUES (38825,   1,   33560661) /* Setup */
      , (38825,   8,  100671186) /* Icon */
      , (38825,  22,  872415332) /* PhysicsEffectTable */
      , (38825,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38825, 8040, 1040973843, 63.34781, 51.67715, -0.01800001, 0.9768267, 0, 0, -0.214032) /* PCAPRecordedLocation */
-/* @teleloc 0x3E0C0013 [63.347810 51.677150 -0.018000] 0.976827 0.000000 0.000000 -0.214032 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38825,   1, 320, 0, 0) /* Strength */
@@ -108,12 +105,11 @@ VALUES (38825,  0, 16, 20, 0.75,  150,  108,   81,   31,   31,  108,   81,    9,
      , (38825, 25,  4, 10, 0.75,  180,  130,   97,   38,   38,  130,   97,   11,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38825,  2178,   2.02)  /* Decrepitude's Grasp */
-     , (38825,  2764,   2.02)  /* Martyr's Hecatomb V */
-     , (38825,  2070,   2.02)  /* Heart Rend */
+VALUES (38825,  2070,   2.02)  /* Heart Rend */
+     , (38825,  2178,   2.02)  /* Decrepitude's Grasp */
+     , (38825,  2328,   2.02)  /* Vitality Siphon */
      , (38825,  2329,   2.02)  /* Essence Void */
-     , (38825,  2328,   2.02)  /* Vitality Siphon */;
+     , (38825,  2764,   2.02)  /* Martyr's Hecatomb V */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38825, 2, 33459,  1, 0, 0, False) /* Create  (33459) for Wield */;
-
+VALUES (38825, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */;
