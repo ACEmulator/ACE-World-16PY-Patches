@@ -38,7 +38,7 @@ VALUES (52294,   1,       5) /* HeartbeatInterval */
      , (52294,  18,       1) /* ArmorModVsAcid */
      , (52294,  19,       1) /* ArmorModVsElectric */
      , (52294,  31,      18) /* VisualAwarenessRange */
-     , (52294,  39, 1.2999999523162842) /* DefaultScale */
+     , (52294,  39,     1.3) /* DefaultScale */
      , (52294,  54,       3) /* UseRadius */
      , (52294,  64,       1) /* ResistSlash */
      , (52294,  65,       1) /* ResistPierce */
@@ -64,17 +64,7 @@ VALUES (52294,   1,   33561112) /* Setup */
      , (52294,   6,   67108990) /* PaletteBase */
      , (52294,   7,  268437191) /* ClothingBase */
      , (52294,   8,  100667446) /* Icon */
-     , (52294,   9,   83898993) /* EyesTexture */
-     , (52294,  10,   83898747) /* NoseTexture */
-     , (52294,  11,   83898752) /* MouthTexture */
-     , (52294,  15,   67117089) /* HairPalette */
-     , (52294,  16,   67116950) /* EyesPalette */
-     , (52294,  17,   67117122) /* SkinPalette */
      , (52294,  22,  872415236) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52294, 8040, 1239679019, 133.94, 52.3659, 12.0065, 0.661756, 0, 0, -0.749719) /* PCAPRecordedLocation */
-/* @teleloc 0x49E4002B [133.940002 52.365898 12.006500] 0.661756 0.000000 0.000000 -0.749719 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (52294,   1, 290, 0, 0) /* Strength */

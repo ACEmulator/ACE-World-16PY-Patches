@@ -64,17 +64,7 @@ VALUES (48920,   1,   33561393) /* Setup */
      , (48920,   6,   67108990) /* PaletteBase */
      , (48920,   7,  268437191) /* ClothingBase */
      , (48920,   8,  100674350) /* Icon */
-     , (48920,   9,   83891927) /* EyesTexture */
-     , (48920,  10,   83891927) /* NoseTexture */
-     , (48920,  11,   83891927) /* MouthTexture */
-     , (48920,  15,   67116865) /* HairPalette */
-     , (48920,  16,   67116881) /* EyesPalette */
-     , (48920,  17,   67116908) /* SkinPalette */
      , (48920,  22,  872415434) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48920,  0, 0, 0, 0, 0, 0, 0, 0, 0) /**/
-/* @teleloc 0x0 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (48920,  0,  4,  0,    0,  250,  125,  125,  125,  125,  125,  125,  125,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

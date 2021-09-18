@@ -38,7 +38,7 @@ VALUES (46679,   1,       5) /* HeartbeatInterval */
      , (46679,  18,       1) /* ArmorModVsAcid */
      , (46679,  19,       1) /* ArmorModVsElectric */
      , (46679,  31,      18) /* VisualAwarenessRange */
-     , (46679,  39, 1.2999999523162842) /* DefaultScale */
+     , (46679,  39,     1.3) /* DefaultScale */
      , (46679,  54,       3) /* UseRadius */
      , (46679,  64,       1) /* ResistSlash */
      , (46679,  65,       1) /* ResistPierce */
@@ -64,17 +64,7 @@ VALUES (46679,   1,   33561112) /* Setup */
      , (46679,   6,   67108990) /* PaletteBase */
      , (46679,   7,  268437191) /* ClothingBase */
      , (46679,   8,  100667446) /* Icon */
-     , (46679,   9,   83898991) /* EyesTexture */
-     , (46679,  10,   83898749) /* NoseTexture */
-     , (46679,  11,   83898752) /* MouthTexture */
-     , (46679,  15,   67117106) /* HairPalette */
-     , (46679,  16,   67116953) /* EyesPalette */
-     , (46679,  17,   67117112) /* SkinPalette */
      , (46679,  22,  872415236) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46679, 8040, 1239679019, 141.301, 49.3823, 12.0065, 0.764842, 0, 0, -0.644218) /* PCAPRecordedLocation */
-/* @teleloc 0x49E4002B [141.300995 49.382301 12.006500] 0.764842 0.000000 0.000000 -0.644218 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46679,   1, 290, 0, 0) /* Strength */
@@ -203,8 +193,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'Greetings to you. I have been sent here to deal with the overabundance of puny, but sharp, projectiles raining down on our forces. To that end, I''m rewarding independent agents who take it upon themselves to ''end'' 15 of their Spectral Archers.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 1, 10 /* Tell */, 0, 1, NULL, 'If you will do me the honor of killing 15 of the Spectral Archers within the towns or up within the walled fortress, I will reward you for your assistance.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 2, 10 /* Tell */, 0, 1, NULL, 'Make sure you hunt those well within the towns or the walled fortress above. Killing those on the edges will not assist my task. They put their worst shots on the edges, so I cannot reward you for those.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 3, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 46747, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 4, 70 /* SetQuestCompletions */, 0, 1, NULL, 'KillTaskSpectralArchers0812', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id, 3, 70 /* SetQuestCompletions */, 0, 1, NULL, 'KillTaskSpectralArchers0812', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (46679, 23 /* TestFailure */, 1, NULL, NULL, NULL, 'Level_200-999', NULL, NULL, NULL);

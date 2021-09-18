@@ -63,17 +63,7 @@ VALUES (46682,   1,   33560942) /* Setup */
      , (46682,   6,   67108990) /* PaletteBase */
      , (46682,   7,  268437191) /* ClothingBase */
      , (46682,   8,  100667446) /* Icon */
-     , (46682,   9,   83890485) /* EyesTexture */
-     , (46682,  10,   83890555) /* NoseTexture */
-     , (46682,  11,   83890636) /* MouthTexture */
-     , (46682,  15,   67117055) /* HairPalette */
-     , (46682,  16,   67116855) /* EyesPalette */
-     , (46682,  17,   67116851) /* SkinPalette */
      , (46682,  22,  872415433) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46682, 8040, 1239679233, 133.248, 57.4213, 11.705, -0.970958, 0, 0, 0.239248) /* PCAPRecordedLocation */
-/* @teleloc 0x49E40101 [133.248001 57.421299 11.705000] -0.970958 0.000000 0.000000 0.239248 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46682,   1, 290, 0, 0) /* Strength */
@@ -199,8 +189,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'Greetings. I am called Griffon. I have come here at the behest of my order to deal with those spirits here who are training in the arts of the Nanjou Shou-jen.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 1, 10 /* Tell */, 0, 1, NULL, 'To that end, if you aid me in hunting 10 of the Spectral Claw Adepts, Claw Masters, Blade Adepts or Blade Masters, I''ll happily reward you for your help.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 2, 10 /* Tell */, 0, 1, NULL, 'Make sure you hunt those well within the towns or the walled fortress. Those you find on the outskirts are likely decoys, and I will not reward you for those.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 3, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 46749, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 4, 70 /* SetQuestCompletions */, 0, 1, NULL, 'KillTaskSpectralClawsBlades0812', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id, 3, 70 /* SetQuestCompletions */, 0, 1, NULL, 'KillTaskSpectralClawsBlades0812', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (46682, 23 /* TestFailure */, 1, NULL, NULL, NULL, 'Level_200-999', NULL, NULL, NULL);
