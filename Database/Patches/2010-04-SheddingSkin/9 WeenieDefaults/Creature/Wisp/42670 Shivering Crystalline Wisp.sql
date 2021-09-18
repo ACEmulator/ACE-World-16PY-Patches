@@ -67,7 +67,7 @@ VALUES (42670,   1,   33557033) /* Setup */
      , (42670,   2,  150995087) /* MotionTable */
      , (42670,   3,  536870985) /* SoundTable */
      , (42670,   4,  805306368) /* CombatTable */
-     , (42670,   8,  100671612) /* Icon */
+     , (42670,   8,  100671383) /* Icon */
      , (42670,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -86,14 +86,14 @@ VALUES (42670,   1,   620, 0, 0, 720) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (42670,  6, 0, 3, 0, 275, 0, 0) /* MeleeDefense        Specialized */
      , (42670,  7, 0, 3, 0, 355, 0, 0) /* MissileDefense      Specialized */
-     , (42670, 45, 0, 3, 0, 212, 0, 0) /* LightWeapons        Specialized */
      , (42670, 14, 0, 3, 0, 300, 0, 0) /* ArcaneLore          Specialized */
      , (42670, 15, 0, 3, 0, 215, 0, 0) /* MagicDefense        Specialized */
      , (42670, 20, 0, 3, 0, 100, 0, 0) /* Deception           Specialized */
      , (42670, 24, 0, 3, 0,  50, 0, 0) /* Run                 Specialized */
      , (42670, 31, 0, 3, 0, 150, 0, 0) /* CreatureEnchantment Specialized */
      , (42670, 33, 0, 3, 0, 150, 0, 0) /* LifeMagic           Specialized */
-     , (42670, 34, 0, 3, 0, 150, 0, 0) /* WarMagic            Specialized */;
+     , (42670, 34, 0, 3, 0, 150, 0, 0) /* WarMagic            Specialized */
+     , (42670, 45, 0, 3, 0, 212, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (42670,  0,  8, 50,  0.5,   50,   50,   42,   42,  500,  128,  128,   42,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
@@ -106,8 +106,8 @@ VALUES (42670,    74,   2.15)  /* Frost Bolt VI */
      , (42670,   138,   2.17)  /* Frost Volley VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
-VALUES (42670,  94) /* ATTACK_NOTIFICATION_EVENT */
-     , (42670, 414) /* PLAYER_DEATH_EVENT */;
+VALUES (42670,  94)
+     , (42670, 414);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (42670,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

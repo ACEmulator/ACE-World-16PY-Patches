@@ -9,9 +9,9 @@ VALUES (41425,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41425,  11,         10) /* MaxStackSize */
      , (41425,  12,          1) /* StackSize */
      , (41425,  13,        150) /* StackUnitEncumbrance */
-     , (41425,  15,         10) /* StackUnitValue */
+     , (41425,  15,       1000) /* StackUnitValue */
      , (41425,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (41425,  19,         10) /* Value */
+     , (41425,  19,       1000) /* Value */
      , (41425,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41425,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
      , (41425, 151,          9) /* HookType - Floor, Yard */;
@@ -26,4 +26,3 @@ VALUES (41425,   1,   33554598) /* Setup */
      , (41425,   3,  536870932) /* SoundTable */
      , (41425,   8,  100690738) /* Icon */
      , (41425,  22,  872415275) /* PhysicsEffectTable */;
-

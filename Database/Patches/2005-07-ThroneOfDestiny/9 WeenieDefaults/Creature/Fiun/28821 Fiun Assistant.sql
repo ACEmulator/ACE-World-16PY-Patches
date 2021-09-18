@@ -74,7 +74,7 @@ VALUES (28821,   1,   33559202) /* Setup */
      , (28821,   6,   67115480) /* PaletteBase */
      , (28821,   7,  268436942) /* ClothingBase */
      , (28821,   8,  100677372) /* Icon */
-     , (28821,  22,  872415410) /* PhysicsEffectTable */
+     , (28821,  22,  872415412) /* PhysicsEffectTable */
      , (28821,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -93,12 +93,12 @@ VALUES (28821,   1,   390, 0, 0, 460) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (28821,  6, 0, 3, 0, 225, 0, 0) /* MeleeDefense        Specialized */
      , (28821,  7, 0, 3, 0, 215, 0, 0) /* MissileDefense      Specialized */
-     , (28821, 45, 0, 3, 0, 210, 0, 0) /* LightWeapons        Specialized */
      , (28821, 15, 0, 3, 0, 215, 0, 0) /* MagicDefense        Specialized */
      , (28821, 22, 0, 2, 0,   2, 0, 0) /* Jump                Trained */
      , (28821, 24, 0, 2, 0,   2, 0, 0) /* Run                 Trained */
      , (28821, 33, 0, 3, 0, 250, 0, 0) /* LifeMagic           Specialized */
-     , (28821, 34, 0, 3, 0, 250, 0, 0) /* WarMagic            Specialized */;
+     , (28821, 34, 0, 3, 0, 250, 0, 0) /* WarMagic            Specialized */
+     , (28821, 45, 0, 3, 0, 210, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28821,  0,  4,  0,    0,  300,  350,  360,  360,  360,  285,  360,  300,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

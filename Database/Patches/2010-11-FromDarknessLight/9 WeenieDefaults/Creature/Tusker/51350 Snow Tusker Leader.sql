@@ -16,15 +16,14 @@ VALUES (51350,   1,         16) /* ItemType - Creature */
      , (51350,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (51350,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51350, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (51350, 146,    1850000) /* XpOverride */
-     , (51350, 332,         70) /* LuminanceAward */;
+     , (51350, 146,    1850000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51350,   1, True ) /* Stuck */
      , (51350,  11, False) /* IgnoreCollisions */
      , (51350,  12, True ) /* ReportCollisions */
      , (51350,  13, False) /* Ethereal */;
-     
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51350,   1,       5) /* HeartbeatInterval */
      , (51350,   2,       0) /* HeartbeatTimestamp */
@@ -33,10 +32,10 @@ VALUES (51350,   1,       5) /* HeartbeatInterval */
      , (51350,   5,       2) /* ManaRate */
      , (51350,  12,       0) /* Shade */
      , (51350,  13,       1) /* ArmorModVsSlash */
-     , (51350,  14,    0.60) /* ArmorModVsPierce */
+     , (51350,  14,     0.6) /* ArmorModVsPierce */
      , (51350,  15,       1) /* ArmorModVsBludgeon */
      , (51350,  16,       1) /* ArmorModVsCold */
-     , (51350,  17,    0.40) /* ArmorModVsFire */
+     , (51350,  17,     0.4) /* ArmorModVsFire */
      , (51350,  18,       1) /* ArmorModVsAcid */
      , (51350,  19,       1) /* ArmorModVsElectric */
      , (51350,  27,       5) /* RotationSpeed */
@@ -56,7 +55,7 @@ VALUES (51350,   1,       5) /* HeartbeatInterval */
      , (51350,  73,       1) /* ResistStaminaBoost */
      , (51350,  74,       1) /* ResistManaDrain */
      , (51350, 104,      10) /* ObviousRadarRange */
-     , (51350, 125,       1) /* ResistHealthDrain */;     
+     , (51350, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51350,   1, 'Snow Tusker Leader') /* Name */
@@ -69,7 +68,7 @@ VALUES (51350,   1,   33561141) /* Setup */
      , (51350,   4,  805306379) /* CombatTable */
      , (51350,   8,  100667443) /* Icon */
      , (51350,  22,  872415271) /* PhysicsEffectTable */
-     , (51350,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (51350,  35,       1015) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (51350,   1, 380, 0, 0) /* Strength */

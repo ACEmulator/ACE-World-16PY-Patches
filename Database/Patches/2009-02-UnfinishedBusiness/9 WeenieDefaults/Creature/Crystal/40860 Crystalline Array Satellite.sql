@@ -13,9 +13,9 @@ VALUES (40860,   1,         16) /* ItemType - Creature */
      , (40860,  40,          2) /* CombatMode - Melee */
      , (40860,  68,          5) /* TargetingTactic - Random, LastDamager */
      , (40860,  81,          4) /* MaxGeneratedObjects */
-     , (40860,  82,          4) /* InitGeneratedObjects */     
+     , (40860,  82,          4) /* InitGeneratedObjects */
      , (40860,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (40860, 103,          3) /* GeneratorDestructionType - Kill */ 
+     , (40860, 103,          3) /* GeneratorDestructionType - Kill */
      , (40860, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -41,9 +41,9 @@ VALUES (40860,   1,       5) /* HeartbeatInterval */
      , (40860,  31,       5) /* VisualAwarenessRange */
      , (40860,  34,       1) /* PowerupTime */
      , (40860,  36,       1) /* ChargeSpeed */
-     , (40860,  39,     0.4) /* DefaultScale */
+     , (40860,  39,     0.5) /* DefaultScale */
      , (40860,  41,       5) /* RegenerationInterval */
-     , (40860,  43,      15) /* GeneratorRadius */     
+     , (40860,  43,      15) /* GeneratorRadius */
      , (40860,  64,     0.3) /* ResistSlash */
      , (40860,  65,     0.3) /* ResistPierce */
      , (40860,  66,    0.75) /* ResistBludgeon */
@@ -61,7 +61,7 @@ VALUES (40860,   1,       5) /* HeartbeatInterval */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40860,   1, 'Crystalline Array Satellite') /* Name */
-     , (40860,  45, 'KillTaskCrystallineWisps10109');
+     , (40860,  45, 'KillTaskCrystallineWisps10109') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40860,   1,   33558690) /* Setup */
@@ -89,8 +89,8 @@ INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s
 VALUES (40860,  6, 0, 3, 0, 223, 0, 0) /* MeleeDefense        Specialized */
      , (40860,  7, 0, 3, 0, 174, 0, 0) /* MissileDefense      Specialized */
      , (40860, 15, 0, 3, 0, 275, 0, 0) /* MagicDefense        Specialized */
-     , (40860, 45, 0, 3, 0, 180, 0, 0) /* LightWeapons        Specialized */
-     , (40860, 34, 0, 3, 0, 100, 0, 0) /* WarMagic            Specialized */;
+     , (40860, 34, 0, 3, 0, 100, 0, 0) /* WarMagic            Specialized */
+     , (40860, 45, 0, 3, 0, 180, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (40860,  0,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -104,13 +104,13 @@ VALUES (40860,  0,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,
      , (40860,  8,  4,  1, 0.75,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40860, 2736,  2.25)  /* Lightning Arc V */
-     , (40860, 2715,  2.50)  /* Acid Arc V */
-     , (40860, 2744,  2.75)  /* Flame Arc V */
-     , (40860, 2729,  3.00)  /* Frost Arc V */;
+VALUES (40860,  2715,    2.5)  /* Acid Arc V */
+     , (40860,  2729,      3)  /* Frost Arc V */
+     , (40860,  2736,   2.25)  /* Lightning Arc V */
+     , (40860,  2744,   2.75)  /* Flame Arc VI */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40860, -1, 40864, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystalline Wisp - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (40860, -1, 40864, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystalline Wisp - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (40860, -1, 40864, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystalline Wisp - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (40860, -1, 40864, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystalline Wisp - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (40860, -1, 40864, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystalline Wisp (40864) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (40860, -1, 40864, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystalline Wisp (40864) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (40860, -1, 40864, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystalline Wisp (40864) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (40860, -1, 40864, 10, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crystalline Wisp (40864) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

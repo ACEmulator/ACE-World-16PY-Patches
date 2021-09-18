@@ -15,7 +15,7 @@ VALUES (30294,   1,         16) /* ItemType - Creature */
      , (30294,  40,          2) /* CombatMode - Melee */
      , (30294,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (30294,  72,         83) /* FriendType - ViamontianKnight */
-     , (30294,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (30294,  93,    4195336) /* PhysicsState */
      , (30294, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (30294, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30294, 140,          1) /* AiOptions - CanOpenDoors */
@@ -26,33 +26,34 @@ VALUES (30294,   1, True ) /* Stuck */
      , (30294,  11, False) /* IgnoreCollisions */
      , (30294,  12, True ) /* ReportCollisions */
      , (30294,  13, False) /* Ethereal */
+     , (30294,  14, True) /* GravityStatus */
      , (30294,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30294,   1,       5) /* HeartbeatInterval */
      , (30294,   2,       0) /* HeartbeatTimestamp */
-     , (30294,   3, 0.0670000016689301) /* HealthRate */
+     , (30294,   3,   0.067) /* HealthRate */
      , (30294,   4,       3) /* StaminaRate */
      , (30294,   5,       1) /* ManaRate */
      , (30294,  12,     0.5) /* Shade */
-     , (30294,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (30294,  14, 1.20000004768372) /* ArmorModVsPierce */
+     , (30294,  13,     1.2) /* ArmorModVsSlash */
+     , (30294,  14,     1.2) /* ArmorModVsPierce */
      , (30294,  15,       1) /* ArmorModVsBludgeon */
      , (30294,  16,       1) /* ArmorModVsCold */
-     , (30294,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (30294,  17,     0.8) /* ArmorModVsFire */
      , (30294,  18,       1) /* ArmorModVsAcid */
-     , (30294,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (30294,  19,     0.8) /* ArmorModVsElectric */
      , (30294,  31,      12) /* VisualAwarenessRange */
      , (30294,  34,       1) /* PowerupTime */
      , (30294,  36,       1) /* ChargeSpeed */
-     , (30294,  39, 1.20000004768372) /* DefaultScale */
-     , (30294,  64, 0.800000011920929) /* ResistSlash */
-     , (30294,  65, 0.800000011920929) /* ResistPierce */
-     , (30294,  66, 0.899999976158142) /* ResistBludgeon */
-     , (30294,  67, 1.20000004768372) /* ResistFire */
-     , (30294,  68, 0.899999976158142) /* ResistCold */
-     , (30294,  69, 0.899999976158142) /* ResistAcid */
-     , (30294,  70, 1.20000004768372) /* ResistElectric */
+     , (30294,  39,     1.2) /* DefaultScale */
+     , (30294,  64,     0.8) /* ResistSlash */
+     , (30294,  65,     0.8) /* ResistPierce */
+     , (30294,  66,     0.9) /* ResistBludgeon */
+     , (30294,  67,     1.2) /* ResistFire */
+     , (30294,  68,     0.9) /* ResistCold */
+     , (30294,  69,     0.9) /* ResistAcid */
+     , (30294,  70,     1.2) /* ResistElectric */
      , (30294,  71,       1) /* ResistHealthBoost */
      , (30294,  72,       1) /* ResistStaminaDrain */
      , (30294,  73,       1) /* ResistStaminaBoost */
@@ -67,7 +68,7 @@ VALUES (30294,   1, 'Viamontian Man-at-Arms') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30294,   1,   33559125) /* Setup */
-     , (30294,   2,  150994945) /* MotionTable */
+     , (30294,   2,  150995334) /* MotionTable */
      , (30294,   3,  536871102) /* SoundTable */
      , (30294,   4,  805306368) /* CombatTable */
      , (30294,   6,   67115468) /* PaletteBase */

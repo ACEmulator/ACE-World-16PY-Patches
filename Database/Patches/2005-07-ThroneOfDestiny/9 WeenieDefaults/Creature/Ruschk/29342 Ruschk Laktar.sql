@@ -33,28 +33,28 @@ VALUES (29342,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29342,   1,       5) /* HeartbeatInterval */
      , (29342,   2,       0) /* HeartbeatTimestamp */
-     , (29342,   3, 0.150000005960464) /* HealthRate */
+     , (29342,   3,    0.15) /* HealthRate */
      , (29342,   4,       4) /* StaminaRate */
      , (29342,   5,     1.5) /* ManaRate */
      , (29342,  12,       0) /* Shade */
-     , (29342,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (29342,  13,     0.9) /* ArmorModVsSlash */
      , (29342,  14,     0.5) /* ArmorModVsPierce */
-     , (29342,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (29342,  16, 0.800000011920929) /* ArmorModVsCold */
+     , (29342,  15,     1.1) /* ArmorModVsBludgeon */
+     , (29342,  16,     0.8) /* ArmorModVsCold */
      , (29342,  17,     0.5) /* ArmorModVsFire */
      , (29342,  18,       1) /* ArmorModVsAcid */
-     , (29342,  19, 0.800000011920929) /* ArmorModVsElectric */
+     , (29342,  19,     0.8) /* ArmorModVsElectric */
      , (29342,  31,      17) /* VisualAwarenessRange */
      , (29342,  34,       1) /* PowerupTime */
      , (29342,  36,       1) /* ChargeSpeed */
-     , (29342,  39, 1.35000002384186) /* DefaultScale */
-     , (29342,  64, 0.899999976158142) /* ResistSlash */
+     , (29342,  39,     1.2) /* DefaultScale */
+     , (29342,  64,     0.9) /* ResistSlash */
      , (29342,  65,       1) /* ResistPierce */
-     , (29342,  66, 0.899999976158142) /* ResistBludgeon */
-     , (29342,  67, 0.899999976158142) /* ResistFire */
-     , (29342,  68, 0.899999976158142) /* ResistCold */
-     , (29342,  69, 0.800000011920929) /* ResistAcid */
-     , (29342,  70, 0.899999976158142) /* ResistElectric */
+     , (29342,  66,     0.9) /* ResistBludgeon */
+     , (29342,  67,     0.9) /* ResistFire */
+     , (29342,  68,     0.9) /* ResistCold */
+     , (29342,  69,     0.8) /* ResistAcid */
+     , (29342,  70,     0.9) /* ResistElectric */
      , (29342,  71,       1) /* ResistHealthBoost */
      , (29342,  72,     0.5) /* ResistStaminaDrain */
      , (29342,  73,       1) /* ResistStaminaBoost */

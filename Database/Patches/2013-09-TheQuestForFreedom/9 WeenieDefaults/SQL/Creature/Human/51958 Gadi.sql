@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51958;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51958, 'ace51958-gadi', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (51958, 'ace51958-gadi', 10, '2020-12-04 12:47:58') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51958,   1,         16) /* ItemType - Creature */
@@ -24,7 +24,7 @@ VALUES (51958,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51958,   1,      30) /* HeartbeatInterval */
      , (51958,   2,       0) /* HeartbeatTimestamp */
-	  , (51958,  54,       3) /* UseRadius */;
+     , (51958,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51958,   1, 'Gadi') /* Name */
@@ -46,9 +46,9 @@ VALUES (51958,   1, 255, 0, 0) /* Strength */
      , (51958,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51958,   1,   125, 0, 0, 235) /* MaxHealth */
-     , (51958,   3,   110, 0, 0, 330) /* MaxStamina */
-     , (51958,   5,    55, 0, 0, 145) /* MaxMana */;
+VALUES (51958,   1,   125, 0, 0,  235) /* MaxHealth */
+     , (51958,   3,   110, 0, 0,  330) /* MaxStamina */
+     , (51958,   5,    55, 0, 0,  145) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (51958, 5 /* HeartBeat */, 0.085, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
@@ -128,8 +128,12 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'A solid blow against the corr
      , (@parent_id, 2, 113 /* AwardLuminance */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 3, 22 /* StampQuest */, 0, 1, NULL, 'KilltaskGraveyardWightWait_1309', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 4, 31 /* EraseQuest */, 0, 1, NULL, 'KilltaskGraveyardWight_1309', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 5, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, 5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 6, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 20630 /* Trade Note (250,000) */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id, 5, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 6, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 7, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 8, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 9, 3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 48746, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 10, 3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 20630 /* Trade Note (250,000) */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (51958, 13 /* QuestFailure */, 1, NULL, NULL, NULL, 'KilltaskGraveyardWight_1309@KillTaskCompleted', NULL, NULL, NULL);
@@ -150,7 +154,7 @@ VALUES (@parent_id, 0, 10 /* Tell */, 0, 1, NULL, 'It is time for us to fight ba
      , (@parent_id, 2, 70 /* SetQuestCompletions */, 0, 1, NULL, 'KilltaskGraveyardWight_1309', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (51958, 2, 23934,  0, 8, 0, True) /* Create Luminescent Thaumaturgic Coat (23934) for Wield */
-     , (51958, 2, 23953,  0, 8, 0, True) /* Create Luminescent Thaumaturgic Leggings (23953) for Wield */
-     , (51958, 2, 23940,  0, 8, 0, True) /* Create Luminescent Thaumaturgic Girth (23940) for Wield */
-     , (51958, 2,   107,  0, 8, 0, True) /* Create Sollerets (107) for Wield */;
+VALUES (51958, 2, 23934,  0, 8,    0, False) /* Create Luminescent Thaumaturgic Coat (23934) for Wield */
+     , (51958, 2, 23953,  0, 8,    0, False) /* Create Luminescent Thaumaturgic Leggings (23953) for Wield */
+     , (51958, 2, 23940,  0, 8,    0, False) /* Create Luminescent Thaumaturgic Girth (23940) for Wield */
+     , (51958, 2,   107,  0, 8,    0, False) /* Create Sollerets (107) for Wield */;

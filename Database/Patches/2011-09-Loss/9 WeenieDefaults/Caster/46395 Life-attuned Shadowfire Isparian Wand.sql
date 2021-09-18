@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46395;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46395, 'ace46395-lifeattunedshadowfireisparianwand', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (46395, 'ace46395-lifeattunedshadowfireisparianwand', 35, '2021-09-08 06:52:23') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46395,   1,      32768) /* ItemType - Caster */
@@ -14,6 +14,7 @@ VALUES (46395,   1,      32768) /* ItemType - Caster */
      , (46395,  33,          1) /* Bonded - Bonded */
      , (46395,  36,       9999) /* ResistMagic */
      , (46395,  45,         16) /* DamageType - Fire */
+     , (46395,  46,        512) /* DefaultCombatStyle - Magic */
      , (46395,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46395,  94,         16) /* TargetType - Creature */
      , (46395, 114,          1) /* Attuned - Attuned */

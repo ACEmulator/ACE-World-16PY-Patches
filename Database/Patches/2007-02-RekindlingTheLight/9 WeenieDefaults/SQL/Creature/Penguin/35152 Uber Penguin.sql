@@ -6,7 +6,7 @@ VALUES (35152, 'ace35152-uberpenguin', 10, '2021-01-15 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35152,   1,         16) /* ItemType - Creature */
      , (35152,   2,         80) /* CreatureType - Penguin */
-     , (35152,   3,         39) /* PaletteTemplate - Black */
+     , (35152,   3,          8) /* PaletteTemplate - Green */
      , (35152,   6,         -1) /* ItemsCapacity */
      , (35152,   7,         -1) /* ContainersCapacity */
      , (35152,  16,          1) /* ItemUseable - No */
@@ -30,7 +30,7 @@ VALUES (35152,   1,       5) /* HeartbeatInterval */
      , (35152,   3,     0.5) /* HealthRate */
      , (35152,   4,       3) /* StaminaRate */
      , (35152,   5,       1) /* ManaRate */
-     , (35152,  12,       0) /* Shade */
+     , (35152,  12,     0.5) /* Shade */
      , (35152,  13,     1.3) /* ArmorModVsSlash */
      , (35152,  14,       1) /* ArmorModVsPierce */
      , (35152,  15,     1.1) /* ArmorModVsBludgeon */
@@ -69,7 +69,7 @@ VALUES (35152,   1,   33559122) /* Setup */
      , (35152,   6,   67116355) /* PaletteBase */
      , (35152,   7,  268436945) /* ClothingBase */
      , (35152,   8,  100677366) /* Icon */
-     , (35152,  22,  872415411) /* PhysicsEffectTable */
+     , (35152,  22,  872415258) /* PhysicsEffectTable */
      , (35152,  35,        998) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -141,7 +141,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'May your bones freeze and s
      , (@parent_id,  1,  88 /* LocalSignal */, 0, 1, NULL, 'ColoCritterKilled', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (35152, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (35152,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

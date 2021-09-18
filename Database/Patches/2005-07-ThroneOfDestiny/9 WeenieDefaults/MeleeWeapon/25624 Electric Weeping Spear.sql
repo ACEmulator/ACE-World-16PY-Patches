@@ -21,7 +21,6 @@ VALUES (25624,   1,          1) /* ItemType - MeleeWeapon */
      , (25624,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (25624,  49,          1) /* WeaponTime */
      , (25624,  51,          1) /* CombatUse - Melee */
-     , (25624,  53,        101) /* PlacementPosition */
      , (25624,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25624, 106,        300) /* ItemSpellcraft */
      , (25624, 107,        800) /* ItemCurMana */
@@ -36,25 +35,20 @@ VALUES (25624,   1,          1) /* ItemType - MeleeWeapon */
      , (25624, 166,         31) /* SlayerCreatureType - Human */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25624,  11, True ) /* IgnoreCollisions */
-     , (25624,  13, True ) /* Ethereal */
-     , (25624,  14, True ) /* GravityStatus */
-     , (25624,  19, True ) /* Attackable */
-     , (25624,  22, True ) /* Inscribable */
-     , (25624,  23, True ) /* DestroyOnSell */
+VALUES (25624,  22, True ) /* Inscribable */
      , (25624,  69, False) /* IsSellable */
      , (25624,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25624,   5, -0.025000000372529) /* ManaRate */
+VALUES (25624,   5,  -0.025) /* ManaRate */
      , (25624,  21,     1.5) /* WeaponLength */
-     , (25624,  22, 0.449999988079071) /* DamageVariance */
+     , (25624,  22,    0.45) /* DamageVariance */
      , (25624,  26,       0) /* MaximumVelocity */
-     , (25624,  29, 1.17999994754791) /* WeaponDefense */
+     , (25624,  29,    1.18) /* WeaponDefense */
      , (25624,  39,       1) /* DefaultScale */
-     , (25624,  62, 1.23000001907349) /* WeaponOffense */
+     , (25624,  62,    1.23) /* WeaponOffense */
      , (25624,  63,       1) /* DamageMod */
-     , (25624, 138, 3.40000009536743) /* SlayerDamageBonus */
+     , (25624, 138,     3.4) /* SlayerDamageBonus */
      , (25624, 151,       1) /* IgnoreShield */
      , (25624, 155,       1) /* IgnoreArmor */;
 

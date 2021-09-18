@@ -12,19 +12,23 @@ VALUES (44399,   1,       2048) /* ItemType - Gem */
      , (44399,  16,          8) /* ItemUseable - Contained */
      , (44399,  18,          2) /* UiEffects - Poisoned */
      , (44399,  19,        100) /* Value */
+     , (44399,  33,          1) /* Bonded - Bonded */
      , (44399,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44399,  94,         16) /* TargetType - Creature */
      , (44399, 280,        100) /* SharedCooldown */
      , (44399, 349,         70) /* UseCreatesContractId - Contract_70_Uncovering_the_Renegades */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44399,  22, True ) /* Inscribable */;
+VALUES (44399,  22, True ) /* Inscribable */
+     , (44399,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44399, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44399,   1, 'Contract for Uncovering the Renegades') /* Name */;
+VALUES (44399,   1, 'Contract for Uncovering the Renegades') /* Name */
+     , (44399,  14, 'Recommended Level: 150') /* Use */
+     , (44399,  16, 'Aruq ibn Balthar needs help investigating a fortified location in the direlands.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44399,   1,   33557625) /* Setup */

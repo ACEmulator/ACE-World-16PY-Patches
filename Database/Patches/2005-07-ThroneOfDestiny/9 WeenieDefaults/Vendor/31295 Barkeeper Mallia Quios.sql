@@ -43,13 +43,7 @@ VALUES (31295,   1,   33554510) /* Setup */
      , (31295,   2,  150994945) /* MotionTable */
      , (31295,   3,  536870914) /* SoundTable */
      , (31295,   6,   67108990) /* PaletteBase */
-     , (31295,   8,  100667446) /* Icon */
-     , (31295,   9,   83890255) /* EyesTexture */
-     , (31295,  10,   83890310) /* NoseTexture */
-     , (31295,  11,   83890336) /* MouthTexture */
-     , (31295,  15,   67116984) /* HairPalette */
-     , (31295,  16,   67110065) /* EyesPalette */
-     , (31295,  17,   67115908) /* SkinPalette */;
+     , (31295,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31295,   1,  45, 0, 0) /* Strength */
@@ -130,6 +124,12 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, '', NULL, N
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31295, 2, 25701,  0, 86, 0, False) /* Create Sleek Dress (25701) for Wield */
+     , (31295, 4, 31305, -1, 0, 0, False) /* Create Lunnum's Pyre (31305) for Shop */
+     , (31295, 4, 31703, -1, 0, 0, False) /* Create Ruschk Camp Sightings (31703) for Shop */
+     , (31295, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (31295, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (31295, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (31295, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (31295, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (31295, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (31295, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -139,10 +139,4 @@ VALUES (31295, 2, 25701,  0, 86, 0, False) /* Create Sleek Dress (25701) for Wie
      , (31295, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (31295, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (31295, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (31295, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (31295, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
-     , (31295, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
-     , (31295, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
-     , (31295, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
-     , (31295, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
-     , (31295, 4, 31703, -1, 0, 0, False) /* Create  (31703) for Shop */;
+     , (31295, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

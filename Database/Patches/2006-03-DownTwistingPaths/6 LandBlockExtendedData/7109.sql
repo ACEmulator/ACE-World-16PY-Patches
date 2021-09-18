@@ -3,16 +3,11 @@ VALUES (0x7710901B,  1154, 0x7109002C, 123.0783, 87.57178, 1.300148, -0.0619873,
 /* @teleloc 0x7109002C [123.078300 87.571780 1.300148] -0.061987 0.000000 0.000000 -0.998077 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7710901B, 0x7710901C, '2021-01-09 00:00:00') /* Exploration Marker (39795) */
-     , (0x7710901B, 0x7710901D, '2021-01-09 00:00:00') /* Mysterious Hatch (32807) */
+VALUES (0x7710901B, 0x7710901D, '2021-01-09 00:00:00') /* Mysterious Hatch (32807) */
      , (0x7710901B, 0x7710901E, '2019-02-10 00:00:00') /* The Black Breath (32804) */
      , (0x7710901B, 0x7710901F, '2019-02-10 00:00:00') /* The Black Breath (32804) */
      , (0x7710901B, 0x77109020, '2019-02-10 00:00:00') /* The Black Breath (32804) */
      , (0x7710901B, 0x77109021, '2019-02-10 00:00:00') /* The Black Breath (32804) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7710901C, 39795, 0x7109001F, 94.0415, 165.899, 2, -0.0383489, 0, 0, -0.999264,  True, '2021-01-09 00:00:00'); /* Exploration Marker */
-/* @teleloc 0x7109001F [94.041500 165.899000 2.000000] -0.038349 0.000000 0.000000 -0.999264 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7710901D, 32807, 0x7109001F, 91.3769, 148.065, 2, -0.863652, 0, 0, -0.504088,  True, '2021-01-09 00:00:00'); /* Mysterious Hatch */

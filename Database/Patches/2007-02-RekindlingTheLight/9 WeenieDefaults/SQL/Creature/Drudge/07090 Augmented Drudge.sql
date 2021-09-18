@@ -66,7 +66,8 @@ VALUES (7090,   1,       5) /* HeartbeatInterval */
      , (7090, 125,       1) /* ResistHealthDrain */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7090,   1, 'Augmented Drudge') /* Name */;
+VALUES (7090,   1, 'Augmented Drudge') /* Name */
+     , (7090,  45, 'KillTaskAugmentedDrudges_0507') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7090,   1,   33556445) /* Setup */
@@ -77,7 +78,7 @@ VALUES (7090,   1,   33556445) /* Setup */
      , (7090,   7,  268435977) /* ClothingBase */
      , (7090,   8,  100667445) /* Icon */
      , (7090,  22,  872415258) /* PhysicsEffectTable */
-     , (7090,  32,        274) /* WieldedTreasureType -
+     , (7090,  32,        274) /* WieldedTreasureType - 
                                    Wield Fire Tachi (23708) | Probability: 25%
                                    Wield Tachi (23702) | Probability: 25%
                                    Wield Fire Yaoji (23720) | Probability: 25%
@@ -98,18 +99,18 @@ VALUES (7090,   1,   170, 0, 0, 258) /* MaxHealth */
      , (7090,   5,   100, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (7090, 45, 0, 3, 0, 185, 0, 0) /* LightWeapons        Specialized */
-     , (7090,  6, 0, 3, 0, 185, 0, 0) /* MeleeDefense        Specialized */
+VALUES (7090,  6, 0, 3, 0, 185, 0, 0) /* MeleeDefense        Specialized */
      , (7090,  7, 0, 3, 0, 250, 0, 0) /* MissileDefense      Specialized */
-     , (7090, 44, 0, 3, 0, 185, 0, 0) /* HeavyWeapons        Specialized */
-     , (7090, 47, 0, 3, 0, 175, 0, 0) /* MissileWeapons      Specialized */
      , (7090, 14, 0, 3, 0, 200, 0, 0) /* ArcaneLore          Specialized */
      , (7090, 15, 0, 3, 0, 195, 0, 0) /* MagicDefense        Specialized */
      , (7090, 20, 0, 3, 0, 120, 0, 0) /* Deception           Specialized */
      , (7090, 24, 0, 3, 0,  55, 0, 0) /* Run                 Specialized */
      , (7090, 31, 0, 3, 0,  65, 0, 0) /* CreatureEnchantment Specialized */
      , (7090, 33, 0, 3, 0,  65, 0, 0) /* LifeMagic           Specialized */
-     , (7090, 34, 0, 3, 0,  65, 0, 0) /* WarMagic            Specialized */;
+     , (7090, 34, 0, 3, 0,  65, 0, 0) /* WarMagic            Specialized */
+     , (7090, 44, 0, 3, 0, 185, 0, 0) /* HeavyWeapons        Specialized */
+     , (7090, 45, 0, 3, 0, 185, 0, 0) /* LightWeapons        Specialized */
+     , (7090, 47, 0, 3, 0, 175, 0, 0) /* MissileWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7090,  0,  4,  0,    0,  280,  230,  123,  232,  202,  232,  202,   14,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -135,7 +136,7 @@ VALUES (7090,    83,   2.06)  /* Flame Bolt IV */
      , (7090,  1418,  2.045)  /* Slowness Other IV */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (7090, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (7090,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

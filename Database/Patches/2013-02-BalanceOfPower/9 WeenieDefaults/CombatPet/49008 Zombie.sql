@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49008;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49008, 'ace49008-zombie', 71, '2019-12-06 16:49:21') /* CombatPet */;
+VALUES (49008, 'ace49008-zombie', 71, '2021-07-12 02:37:37') /* CombatPet */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49008,   1,         16) /* ItemType - Creature */
@@ -35,6 +35,7 @@ VALUES (49008,   1,   33561238) /* Setup */
      , (49008,   2,  150994945) /* MotionTable */
      , (49008,   3,  536870934) /* SoundTable */
      , (49008,   4,  805306368) /* CombatTable */
+     , (49008,   6,   67108990) /* PaletteBase */
      , (49008,   8,  100667942) /* Icon */
      , (49008,  22,  872415272) /* PhysicsEffectTable */;
 
@@ -65,10 +66,19 @@ VALUES (49008,  0, 32,  0,    0,  570,  570,  570,  570,  570,  570,  570,  570,
      , (49008,  2, 32,  0,    0,  570,  570,  570,  570,  570,  570,  570,  570,  570, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (49008,  3, 32,  0,    0,  570,  570,  570,  570,  570,  570,  570,  570,  570, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (49008,  4, 32,  0,    0,  570,  570,  570,  570,  570,  570,  570,  570,  570, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (49008,  5, 32, 200, 0.75,  570,  570,  570,  570,  570,  570,  570,  570,  570, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (49008,  5, 32, 825, 0.75,  570,  570,  570,  570,  570,  570,  570,  570,  570, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (49008,  6, 32,  0,    0,  570,  570,  570,  570,  570,  570,  570,  570,  570, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (49008,  7, 32,  0,    0,  570,  570,  570,  570,  570,  570,  570,  570,  570, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (49008,  8, 32, 200, 0.75,  570,  570,  570,  570,  570,  570,  570,  570,  570, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (49008,  8, 32, 825, 0.75,  570,  570,  570,  570,  570,  570,  570,  570,  570, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49008, 2, 48977,  1, 0, 0, False) /* Create Acid Hatchet (48977) for Wield */;
+VALUES (49008, 2, 48977,  1, 1, 0, False) /* Create Acid Hatchet (48977) for Wield */
+     , (49008, 2,  2596,  1, 9, 0.1, False) /* Create Doublet (2596) for Wield */
+     , (49008, 2, 87371,  1, 84, 0.3091, False) /* Create Haebrean Breastplate (87371) for Wield */
+     , (49008, 2, 87372,  1, 8, 0.2545, False) /* Create Haebrean Girth (87372) for Wield */
+     , (49008, 2, 87373,  1, 84, 1E-05, False) /* Create Haebrean Tassets (87373) for Wield */
+     , (49008, 2, 87374,  1, 84, 0.2364, False) /* Create Haebrean Pauldrons (87374) for Wield */
+     , (49008, 2, 87375,  1, 84, 1E-05, False) /* Create Haebrean Boots (87375) for Wield */
+     , (49008, 2, 87376,  1, 84, 1E-05, False) /* Create Haebrean Greaves (87376) for Wield */
+     , (49008, 2, 87377,  1, 84, 1E-05, False) /* Create Haebrean Vambraces (87377) for Wield */
+     , (49008, 2, 87378,  1, 84, 1E-05, False) /* Create Haebrean Gauntlets (87378) for Wield */;

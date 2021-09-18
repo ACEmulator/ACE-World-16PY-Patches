@@ -6,12 +6,12 @@ VALUES (79990, 'ace79990-bludgeoninginfusion', 44, '2019-05-26 00:00:00') /* Cra
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (79990,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (79990,   3,          9) /* PaletteTemplate - Grey */
-     , (79990,   5,         15) /* EncumbranceVal */
+     , (79990,   5,          0) /* EncumbranceVal */
      , (79990,   8,          5) /* Mass */
      , (79990,   9,          0) /* ValidLocations - None */
      , (79990,  11,        100) /* MaxStackSize */
      , (79990,  12,          1) /* StackSize */
-     , (79990,  13,         15) /* StackUnitEncumbrance */
+     , (79990,  13,          0) /* StackUnitEncumbrance */
      , (79990,  14,          5) /* StackUnitMass */
      , (79990,  15,         10) /* StackUnitValue */
      , (79990,  16,     524296) /* ItemUseable - SourceContainedTargetContained */

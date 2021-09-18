@@ -13,6 +13,7 @@ VALUES (32278,   1,          8) /* ItemType - Jewelry */
      , (32278,  19,       8000) /* Value */
      , (32278,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32278, 106,        350) /* ItemSpellcraft */
+     , (32278, 107,       6000) /* ItemCurMana */
      , (32278, 108,       6000) /* ItemMaxMana */
      , (32278, 109,        250) /* ItemDifficulty */
      , (32278, 158,          7) /* WieldRequirements - Level */
@@ -42,6 +43,6 @@ VALUES (32278,   1,   33554691) /* Setup */
      , (32278,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32278,  2091,      2) /* Mind Blossom */
-     , (32278,  2281,      2) /* Aura of Resistance */ 
-     , (32278,  2615,      2) /* Major Storm Ward */;
+VALUES (32278,  2091,      2)  /* Mind Blossom */
+     , (32278,  2281,      2)  /* Aura of Resistance */
+     , (32278,  2615,      2)  /* Major Storm Ward */;

@@ -6,6 +6,7 @@ VALUES (46307, 'ace46307-penguinguard', 10, '2019-02-10 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46307,   1,         16) /* ItemType - Creature */
      , (46307,   2,         80) /* CreatureType - Penguin */
+     , (46307,   3,          8) /* PaletteTemplate - Green */
      , (46307,   6,         -1) /* ItemsCapacity */
      , (46307,   7,         -1) /* ContainersCapacity */
      , (46307,  16,         32) /* ItemUseable - Remote */
@@ -20,7 +21,8 @@ VALUES (46307,   1, True ) /* Stuck */
      , (46307,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46307,  39,     2.4) /* DefaultScale */
+VALUES (46307,  12,     0.5) /* Shade */
+     , (46307,  39,     2.4) /* DefaultScale */
      , (46307,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

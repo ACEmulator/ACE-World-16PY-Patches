@@ -5,7 +5,7 @@ VALUES (42605, 'ace42605-gearhunter', 10, '2020-04-13 17:26:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42605,   1,         16) /* ItemType - Creature */
-     , (42605,   2,         31) /* CreatureType - Human */
+     , (42605,   2,         59) /* CreatureType - Simulacrum */
      , (42605,   6,         -1) /* ItemsCapacity */
      , (42605,   7,         -1) /* ContainersCapacity */
      , (42605,   8,        120) /* Mass */
@@ -26,8 +26,7 @@ VALUES (42605,   1, True ) /* Stuck */
      , (42605,  10, True ) /* AttackerAi */
      , (42605,  11, False) /* IgnoreCollisions */
      , (42605,  12, True ) /* ReportCollisions */
-     , (42605,  13, False) /* Ethereal */
-     , (42605,  58, True ) /* SpellQueueActive */;
+     , (42605,  13, False) /* Ethereal */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42605,   1,       5) /* HeartbeatInterval */
@@ -65,13 +64,13 @@ VALUES (42605,   1, 'Gear Hunter') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42605,   1,   33554433) /* Setup */
-     , (42605,   2,  150994945) /* MotionTable */
-     , (42605,   3,  536870913) /* SoundTable */
+     , (42605,   2,  150995141) /* MotionTable */
+     , (42605,   3,  536871043) /* SoundTable */
      , (42605,   4,  805306368) /* CombatTable */
      , (42605,   6,   67108990) /* PaletteBase */
      , (42605,   7,  268435872) /* ClothingBase */
      , (42605,   8,  100667446) /* Icon */
-     , (42605,  22,  872415236) /* PhysicsEffectTable */
+     , (42605,  22,  872415381) /* PhysicsEffectTable */
      , (42605,  32,       2015) /* WieldedTreasureType - 
                                    Wield Raven Sabra (31386) | Probability: 20%
                                    Wield Raven Sabra (31387) | Probability: 20%

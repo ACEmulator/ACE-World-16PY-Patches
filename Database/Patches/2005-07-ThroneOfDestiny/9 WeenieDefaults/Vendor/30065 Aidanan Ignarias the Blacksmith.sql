@@ -42,19 +42,19 @@ VALUES (30065,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30065,   1,       5) /* HeartbeatInterval */
      , (30065,   2,       0) /* HeartbeatTimestamp */
-     , (30065,   3, 0.159999996423721) /* HealthRate */
+     , (30065,   3,    0.16) /* HealthRate */
      , (30065,   4,       5) /* StaminaRate */
      , (30065,   5,       1) /* ManaRate */
      , (30065,  11,     300) /* ResetInterval */
-     , (30065,  13, 0.899999976158142) /* ArmorModVsSlash */
+     , (30065,  13,     0.9) /* ArmorModVsSlash */
      , (30065,  14,       1) /* ArmorModVsPierce */
-     , (30065,  15, 1.10000002384186) /* ArmorModVsBludgeon */
-     , (30065,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (30065,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (30065,  15,     1.1) /* ArmorModVsBludgeon */
+     , (30065,  16,     0.4) /* ArmorModVsCold */
+     , (30065,  17,     0.4) /* ArmorModVsFire */
      , (30065,  18,       1) /* ArmorModVsAcid */
-     , (30065,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (30065,  37, 0.800000011920929) /* BuyPrice */
-     , (30065,  38, 1.70000004768372) /* SellPrice */
+     , (30065,  19,     0.6) /* ArmorModVsElectric */
+     , (30065,  37,     0.8) /* BuyPrice */
+     , (30065,  38,     1.7) /* SellPrice */
      , (30065,  54,       3) /* UseRadius */
      , (30065,  64,       1) /* ResistSlash */
      , (30065,  65,       1) /* ResistPierce */
@@ -84,13 +84,7 @@ VALUES (30065,   1,   33554433) /* Setup */
      , (30065,   3,  536870913) /* SoundTable */
      , (30065,   4,  805306368) /* CombatTable */
      , (30065,   6,   67108990) /* PaletteBase */
-     , (30065,   8,  100667446) /* Icon */
-     , (30065,   9,   83890445) /* EyesTexture */
-     , (30065,  10,   83890518) /* NoseTexture */
-     , (30065,  11,   83890575) /* MouthTexture */
-     , (30065,  15,   67117106) /* HairPalette */
-     , (30065,  16,   67110065) /* EyesPalette */
-     , (30065,  17,   67115901) /* SkinPalette */;
+     , (30065,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30065,   1,  80, 0, 0) /* Strength */
@@ -181,35 +175,11 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30065, 2,   130,  0, 12, 0.3333, False) /* Create Shirt (130) for Wield */
+VALUES (30065, 2,   130,  0, 12, 0.3, False) /* Create Shirt (130) for Wield */
      , (30065, 2, 10696,  0, 9, 0.6667, False) /* Create Apron (10696) for Wield */
-     , (30065, 2,   127,  0, 4, 0, False) /* Create Pants (127) for Wield */
+     , (30065, 2,   127,  0, 4, 0.6, False) /* Create Pants (127) for Wield */
      , (30065, 2,  2606,  0, 93, 0, False) /* Create Boots (2606) for Wield */
      , (30065, 2, 30561,  0, 21, 0, False) /* Create Dolabra (30561) for Wield */
-     , (30065, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (30065, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (30065, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (30065, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
-     , (30065, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
-     , (30065, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
-     , (30065, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (30065, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
-     , (30065, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (30065, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30065, 4, 28618, -1, 0, 0, False) /* Create Diforsa Helm (28618) for Shop */
-     , (30065, 4, 28632, -1, 0, 0, False) /* Create Diforsa Gauntlets (28632) for Shop */
-     , (30065, 4, 28627, -1, 0, 0, False) /* Create Diforsa Bracers (28627) for Shop */
-     , (30065, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
-     , (30065, 4, 28628, -1, 0, 0, False) /* Create Diforsa Breastplate (28628) for Shop */
-     , (30065, 4, 28630, -1, 0, 0, False) /* Create Diforsa Cuirass (28630) for Shop */
-     , (30065, 4, 28633, -1, 0, 0, False) /* Create Diforsa Girth (28633) for Shop */
-     , (30065, 4, 28626, -1, 0, 0, False) /* Create Diforsa Tassets (28626) for Shop */
-     , (30065, 4, 28634, -1, 0, 0, False) /* Create Diforsa Greaves (28634) for Shop */
-     , (30065, 4, 28621, -1, 0, 0, False) /* Create Diforsa Leggings (28621) for Shop */
-     , (30065, 4, 28625, -1, 0, 0, False) /* Create Diforsa Sollerets (28625) for Shop */
-     , (30065, 4, 28624, -1, 0, 0, False) /* Create Tenassa Sleeves (28624) for Shop */
-     , (30065, 4, 31026, -1, 0, 0, False) /* Create Tenassa Breastplate (31026) for Shop */
-     , (30065, 4, 28622, -1, 0, 0, False) /* Create Tenassa Leggings (28622) for Shop */
      , (30065, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
      , (30065, 4, 30566, -1, 0, 0, False) /* Create Sabra (30566) for Shop */
      , (30065, 4, 30576, -1, 0, 0, False) /* Create Flamberge (30576) for Shop */
@@ -221,5 +191,32 @@ VALUES (30065, 2,   130,  0, 12, 0.3333, False) /* Create Shirt (130) for Wield 
      , (30065, 4, 30596, -1, 0, 0, False) /* Create Poniard (30596) for Shop */
      , (30065, 4, 30601, -1, 0, 0, False) /* Create Stiletto (30601) for Shop */
      , (30065, 4, 30611, -1, 0, 0, False) /* Create Knuckles (30611) for Shop */
+     , (30065, 4, 28627, -1, 0, 0, False) /* Create Diforsa Bracers (28627) for Shop */
+     , (30065, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
+     , (30065, 4, 28632, -1, 0, 0, False) /* Create Diforsa Gauntlets (28632) for Shop */
+     , (30065, 4, 28630, -1, 0, 0, False) /* Create Diforsa Cuirass (28630) for Shop */
+     , (30065, 4, 28628, -1, 0, 0, False) /* Create Diforsa Breastplate (28628) for Shop */
+     , (30065, 4, 28626, -1, 0, 0, False) /* Create Diforsa Tassets (28626) for Shop */
+     , (30065, 4, 28621, -1, 0, 0, False) /* Create Diforsa Leggings (28621) for Shop */
+     , (30065, 4, 28634, -1, 0, 0, False) /* Create Diforsa Greaves (28634) for Shop */
+     , (30065, 4, 28633, -1, 0, 0, False) /* Create Diforsa Girth (28633) for Shop */
+     , (30065, 4, 28625, -1, 0, 0, False) /* Create Diforsa Sollerets (28625) for Shop */
+     , (30065, 4, 28618, -1, 0, 0, False) /* Create Diforsa Helm (28618) for Shop */
+     , (30065, 4, 28624, -1, 0, 0, False) /* Create Tenassa Sleeves (28624) for Shop */
+     , (30065, 4, 31026, -1, 0, 0, False) /* Create Tenassa Breastplate (31026) for Shop */
+     , (30065, 4, 28622, -1, 0, 0, False) /* Create Tenassa Leggings (28622) for Shop */
+     , (30065, 4, 28629, -1, 0, 0, False) /* Create Alduressa Coat (28629) for Shop */
+     , (30065, 4, 28620, -1, 0, 0, False) /* Create Alduressa Leggings (28620) for Shop */
+     , (30065, 4, 28617, -1, 0, 0, False) /* Create Alduressa Helm (28617) for Shop */
+     , (30065, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (30065, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (30065, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (30065, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (30065, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (30065, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (30065, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (30065, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (30065, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (30065, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (30065, 4, 45683, -1, 0, 0, False) /* Create Left-hand Tether (45683) for Shop */
      , (30065, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */;
