@@ -26,10 +26,7 @@ VALUES (42208,   1,        256) /* ItemType - MissileWeapon */
      , (42208, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42208,  11, True ) /* IgnoreCollisions */
-     , (42208,  13, True ) /* Ethereal */
-     , (42208,  14, True ) /* GravityStatus */
-     , (42208,  19, True ) /* Attackable */
+VALUES (42208,  19, True ) /* Attackable */
      , (42208,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -58,4 +55,3 @@ VALUES (42208,   1,   33557433) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42208,   535,      2) /* Missile Weapon Mastery Other III */
      , (42208,  1612,      2) /* Aura of Blood Drinker Self II */;
-

@@ -27,11 +27,7 @@ VALUES (42210,   1,        256) /* ItemType - MissileWeapon */
      , (42210, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42210,  11, True ) /* IgnoreCollisions */
-     , (42210,  13, True ) /* Ethereal */
-     , (42210,  14, True ) /* GravityStatus */
-     , (42210,  19, True ) /* Attackable */
-     , (42210,  22, True ) /* Inscribable */
+VALUES (42210,  22, True ) /* Inscribable */
      , (42210,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

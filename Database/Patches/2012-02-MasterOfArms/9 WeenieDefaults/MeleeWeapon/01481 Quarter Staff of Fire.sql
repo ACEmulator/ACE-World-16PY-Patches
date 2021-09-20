@@ -18,7 +18,6 @@ VALUES (1481,   1,          1) /* ItemType - MeleeWeapon */
      , (1481,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (1481,  49,         30) /* WeaponTime */
      , (1481,  51,          1) /* CombatUse - Melee */
-     , (1481,  53,        101) /* PlacementPosition - Resting */
      , (1481,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (1481, 106,         65) /* ItemSpellcraft */
      , (1481, 107,        300) /* ItemCurMana */
@@ -29,11 +28,7 @@ VALUES (1481,   1,          1) /* ItemType - MeleeWeapon */
      , (1481, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1481,  11, True ) /* IgnoreCollisions */
-     , (1481,  13, True ) /* Ethereal */
-     , (1481,  14, True ) /* GravityStatus */
-     , (1481,  19, True ) /* Attackable */
-     , (1481,  22, True ) /* Inscribable */;
+VALUES (1481,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1481,   5,  -0.033) /* ManaRate */
@@ -61,4 +56,3 @@ VALUES (1481,   836,      2) /* Fire Protection Other III */
      , (1481,  1602,      2) /* Aura of Defender Self III */
      , (1481,  1613,      2) /* Aura of Blood Drinker Self III */
      , (1481,  1624,      2) /* Aura of Swift Killer Self III */;
-

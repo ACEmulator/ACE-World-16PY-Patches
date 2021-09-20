@@ -15,7 +15,6 @@ VALUES (2032,   1,          2) /* ItemType - Armor */
      , (2032,  19,       6000) /* Value */
      , (2032,  27,          4) /* ArmorType - StuddedLeather */
      , (2032,  28,        220) /* ArmorLevel */
-     , (2032,  53,        101) /* PlacementPosition - Resting */
      , (2032,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2032, 106,        150) /* ItemSpellcraft */
      , (2032, 107,        500) /* ItemCurMana */
@@ -25,11 +24,7 @@ VALUES (2032,   1,          2) /* ItemType - Armor */
      , (2032, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2032,  11, True ) /* IgnoreCollisions */
-     , (2032,  13, True ) /* Ethereal */
-     , (2032,  14, True ) /* GravityStatus */
-     , (2032,  19, True ) /* Attackable */
-     , (2032,  22, True ) /* Inscribable */
+VALUES (2032,  22, True ) /* Inscribable */
      , (2032,  69, False) /* IsSellable */
      , (2032,  84, True ) /* IgnoreCloIcons */
      , (2032, 100, False) /* Dyable */;

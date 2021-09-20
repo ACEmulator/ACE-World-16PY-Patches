@@ -29,11 +29,7 @@ VALUES (42209,   1,          1) /* ItemType - MeleeWeapon */
      , (42209, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42209,  11, True ) /* IgnoreCollisions */
-     , (42209,  13, True ) /* Ethereal */
-     , (42209,  14, True ) /* GravityStatus */
-     , (42209,  19, True ) /* Attackable */
-     , (42209,  22, True ) /* Inscribable */;
+VALUES (42209,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42209,   5,  -0.025) /* ManaRate */
@@ -60,4 +56,3 @@ VALUES (42209,   1,   33560728) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42209,  1613,      2) /* Aura of Blood Drinker Self III */;
-

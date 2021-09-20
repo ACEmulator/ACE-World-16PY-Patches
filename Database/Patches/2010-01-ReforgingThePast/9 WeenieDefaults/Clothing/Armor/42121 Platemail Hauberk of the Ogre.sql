@@ -12,7 +12,6 @@ VALUES (42121,   1,          2) /* ItemType - Armor */
      , (42121,  16,          1) /* ItemUseable - No */
      , (42121,  19,       2937) /* Value */
      , (42121,  28,        140) /* ArmorLevel */
-     , (42121,  53,        101) /* PlacementPosition - Resting */
      , (42121,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42121, 106,        100) /* ItemSpellcraft */
      , (42121, 107,       1000) /* ItemCurMana */
@@ -20,11 +19,7 @@ VALUES (42121,   1,          2) /* ItemType - Armor */
      , (42121, 109,          0) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42121,  11, True ) /* IgnoreCollisions */
-     , (42121,  13, True ) /* Ethereal */
-     , (42121,  14, True ) /* GravityStatus */
-     , (42121,  19, True ) /* Attackable */
-     , (42121,  22, True ) /* Inscribable */
+VALUES (42121,  22, True ) /* Inscribable */
      , (42121, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
