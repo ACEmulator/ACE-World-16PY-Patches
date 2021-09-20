@@ -31,28 +31,28 @@ VALUES (1240,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1240,   1,       5) /* HeartbeatInterval */
      , (1240,   2,       0) /* HeartbeatTimestamp */
-     , (1240,   3, 0.349999994039536) /* HealthRate */
+     , (1240,   3,    0.35) /* HealthRate */
      , (1240,   4,       5) /* StaminaRate */
      , (1240,   5,       2) /* ManaRate */
      , (1240,  12,     0.5) /* Shade */
-     , (1240,  13, 0.46000000834465) /* ArmorModVsSlash */
-     , (1240,  14, 0.310000002384186) /* ArmorModVsPierce */
-     , (1240,  15, 0.519999980926514) /* ArmorModVsBludgeon */
-     , (1240,  16, 0.46000000834465) /* ArmorModVsCold */
-     , (1240,  17, 0.829999983310699) /* ArmorModVsFire */
-     , (1240,  18, 0.310000002384186) /* ArmorModVsAcid */
-     , (1240,  19, 1.0900000333786) /* ArmorModVsElectric */
+     , (1240,  13,    0.46) /* ArmorModVsSlash */
+     , (1240,  14,    0.31) /* ArmorModVsPierce */
+     , (1240,  15,    0.52) /* ArmorModVsBludgeon */
+     , (1240,  16,    0.46) /* ArmorModVsCold */
+     , (1240,  17,    0.83) /* ArmorModVsFire */
+     , (1240,  18,    0.31) /* ArmorModVsAcid */
+     , (1240,  19,    1.09) /* ArmorModVsElectric */
      , (1240,  31,      22) /* VisualAwarenessRange */
      , (1240,  34,       1) /* PowerupTime */
      , (1240,  36,       1) /* ChargeSpeed */
-     , (1240,  39, 1.39999997615814) /* DefaultScale */
-     , (1240,  64, 0.759999990463257) /* ResistSlash */
-     , (1240,  65, 0.649999976158142) /* ResistPierce */
+     , (1240,  39,     1.4) /* DefaultScale */
+     , (1240,  64,    0.76) /* ResistSlash */
+     , (1240,  65,    0.65) /* ResistPierce */
      , (1240,  66,     0.5) /* ResistBludgeon */
-     , (1240,  67, 1.08000004291534) /* ResistFire */
-     , (1240,  68, 0.759999990463257) /* ResistCold */
-     , (1240,  69, 0.649999976158142) /* ResistAcid */
-     , (1240,  70, 1.32000005245209) /* ResistElectric */
+     , (1240,  67,    1.08) /* ResistFire */
+     , (1240,  68,    0.76) /* ResistCold */
+     , (1240,  69,    0.65) /* ResistAcid */
+     , (1240,  70,    1.32) /* ResistElectric */
      , (1240,  71,       1) /* ResistHealthBoost */
      , (1240,  72,       1) /* ResistStaminaDrain */
      , (1240,  73,       1) /* ResistStaminaBoost */
@@ -105,7 +105,7 @@ VALUES (1240,   1,    70, 0, 0, 130) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (1240,  6, 0, 3, 0,  74, 0, 0) /* MeleeDefense        Specialized */
      , (1240,  7, 0, 3, 0, 120, 0, 0) /* MissileDefense      Specialized */
-     , (1240, 11, 0, 3, 0,  90, 0, 0) /* Sword               Specialized */
+     , (1240, 44, 0, 3, 0,  90, 0, 0) /* HeavyWespons        Specialized */
      , (1240, 15, 0, 3, 0,  72, 0, 0) /* MagicDefense        Specialized */
      , (1240, 20, 0, 3, 0,  40, 0, 0) /* Deception           Specialized */
      , (1240, 22, 0, 3, 0,  40, 0, 0) /* Jump                Specialized */
