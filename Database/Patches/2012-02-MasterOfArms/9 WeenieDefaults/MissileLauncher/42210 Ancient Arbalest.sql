@@ -17,7 +17,6 @@ VALUES (42210,   1,        256) /* ItemType - MissileWeapon */
      , (42210,  49,        120) /* WeaponTime */
      , (42210,  50,          2) /* AmmoType - Bolt */
      , (42210,  51,          2) /* CombatUse - Missile */
-     , (42210,  52,          2) /* ParentLocation - LeftHand */
      , (42210,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42210, 106,        150) /* ItemSpellcraft */
      , (42210, 107,        400) /* ItemCurMana */
@@ -31,14 +30,14 @@ VALUES (42210,  22, True ) /* Inscribable */
      , (42210,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42210,   5, -0.025000000372529) /* ManaRate */
+VALUES (42210,   5,  -0.025) /* ManaRate */
      , (42210,  21,       0) /* WeaponLength */
      , (42210,  22,       0) /* DamageVariance */
-     , (42210,  26, 27.2999992370605) /* MaximumVelocity */
-     , (42210,  29, 1.04999995231628) /* WeaponDefense */
+     , (42210,  26,    27.3) /* MaximumVelocity */
+     , (42210,  29,    1.05) /* WeaponDefense */
      , (42210,  39,    1.25) /* DefaultScale */
      , (42210,  62,       1) /* WeaponOffense */
-     , (42210,  63, 2.29999995231628) /* DamageMod */
+     , (42210,  63,     2.3) /* DamageMod */
      , (42210, 136,       1) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
