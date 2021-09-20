@@ -76,13 +76,13 @@ VALUES (1240,   1,   33558024) /* Setup */
      , (1240,  32,        270) /* WieldedTreasureType -
                                    Wield 3x Throwing Axe (304) | Probability: 1%
                                    Wield 3x Throwing Club (310) | Probability: 1%
-                                   Wield Battle Axe (301) | Probability: 15.000001%
+                                   Wield Battle Axe (301) | Probability: 15%
                                    Wield Club (309) | Probability: 5%
                                    Wield Dabus (313) | Probability: 10%
                                    Wield Jo (322) | Probability: 3%
                                    Wield Kasrullah (325) | Probability: 5%
                                    Wield Mace (331) | Probability: 10%
-                                   Wield Morning Star (332) | Probability: 15.000001%
+                                   Wield Morning Star (332) | Probability: 15%
                                    Wield Nabut (333) | Probability: 3%
                                    Wield Shou-ono (342) | Probability: 10%
                                    Wield Silifi (344) | Probability: 10%
