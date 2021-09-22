@@ -1,8 +1,7 @@
-Give: Shield of Isin Dule (33106)
-	- DirectBroadcast: Killcrane handles the shield with apprehension and disgust.
-	- Delay: 1, Tell: Hmm... I've seen some of the tougher shadows armed with these things recently. Thank you for bringing me this, I'll destroy it before it spreads the shadow taint. Here, take this in exchange.
-	- AwardNoShareXP: 10000000
-	
+Refuse: Yaja's Reach (27300)
+    - TurnToTarget
+    - Tell: This is for you to keep. If you do not wish it, hand it over to a town crier - they may need such weapons, if the darkness I anticipate comes upon us. And if they can figure out how to use it.
+
 Refuse: 33352
     - TurnToTarget
     - Delay: 1.5, Tell: Good job, you've rooted out Grael's main contingent. The breach you described won't be closed that easily, but you have insured a short respite for the poor folks in Arwic.
@@ -36,17 +35,10 @@ Refuse: Combined Artifact Fragment (31379)
     - Delay: 0.5, Tell: Hmm, I am not quite certain what this artifact is. I can say that this only appears to be a piece of the whole. Go back to the Singularity Caul and see if you can find the remaining fragments.
     - Delay: 1.5, DirectBroadcast: As you turn to leave, Sarkin Killcrane mumbles under his breath, "I know I've seen something like this before, but where?"
 
-Give: Book of Xik Minru (31984)
-    - TurnToTarget
-    - Delay: 1.5, Tell: Well, what do we have here?
-    - Delay: 1.5, DirectBroadcast: Sarkin skims over the contents of the translation.
-    - Delay: 1.5, Tell: Where did you happen across this fascinating literature? ... some new islands you say? Most intriguing.
-    - Delay: 1.5, Tell: The Order of the Raven Hand have been searching for the same creature mentioned in this book. I find it somewhat disturbing that so many references to this being have popped up so rapidly.
-    - Delay: 1.5, Tell: Something is in motion here. Moving faster than I would like. Very worrisome indeed.
-    - Delay: 1.5, Tell: You have my thanks, and are warranted a reward as well for this finding.
-    - Delay: 1.5, AwardLevelProportionalXP: 115%, 300,000 - 48,724,710
-    - Delay: 1.5, AddCharacterTitle: ShadowStalker
-    - Delay: 1.5, Tell: Now go! Go and hunt the darkness where ever it may hide!
+Give: 33106
+    - DirectBroadcast: Killcrane handles the shield with apprehension and disgust.
+    - Delay: 1, Tell: Hmm... I've seen some of the tougher shadows armed with these things recently. Thank you for bringing me this, I'll destroy it before it spreads the shadow taint. Here, take this in exchange.
+    - AwardNoShareXP: 10,000,000
 
 Give: 32651
     - TurnToTarget
@@ -105,6 +97,16 @@ Give: Book of Xik Minru (31984)
     - Delay: 1.5, Tell: By the by, please thank Fanzen San for this translation. You should read it. It is both frightening and interesting.
     - Give: Book of Xik Minru (31985)
     - Delay: 0.5, Tell: Now go! Go and hunt the darkness where ever it may hide!
+
+Give: 87218
+    - TurnToTarget
+    - Tell: I've heard of the shadow-tainted Virindi and their creations. We should be alert for their actions. In the meantime, I shall fashion this into a useable weapon for you.
+    - AwardLevelProportionalXP: 25%, 0 - 81,207,858
+    - Delay: 1, Give: Yaja's Reach (27300)
+
+Refuse: Frozen Black Crystal (87519)
+	- TurnToTarget
+	- Tell: A crystal fragment from Targor? Give that to Riordin, over there. He is collecting the pieces for our associates in the Order.
 
 Use:
     - TurnToTarget

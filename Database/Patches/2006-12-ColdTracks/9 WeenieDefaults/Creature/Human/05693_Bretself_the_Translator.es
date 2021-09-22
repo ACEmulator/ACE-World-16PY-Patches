@@ -1,12 +1,19 @@
 HeartBeat: Style: NonCombat, Substyle: Ready, Probability: 0.08
     - Motion: Reading
 
-Give: Fleshy Lump (33182)
+Give: Sticky Lump (33158)
 	- TurnToTarget
-	- Tell: Ugh! Another of these lumps? Even worse, this ones still squirming! Still... this is fascinating.
-	- Delay: 1, Tell: This seems to be orders to the Shadows under Isin Dule's command. Oh my, he raised a Shadow Spire? He's ordering his forces to stop some High Archon of the Raven Hand. Here, take a look.
-	- Give: 33183
-	
+	- Tell: Ugh... I really wish someone would teach these Shadows the use of proper paper...
+	- Delay: 1, DirectBroadcast: Bretself shudders momentarily, and then begins to translate the lump.
+	- Delay: 1, Tell: Fascinating... According to this, it looks like Isin Dule is trying to stop the Raven Hand from awakening Grael. Here, take a look.
+	- Give: 33159
+
+Give: 33182
+    - TurnToTarget
+    - Tell: Ugh! Another of these lumps? Even worse, this ones still squirming! Still... this is fascinating.
+    - Delay: 1, Tell: This seems to be orders to the Shadows under Isin Dule's command. Oh my, he raised a Shadow Spire? He's ordering his forces to stop some High Archon of the Raven Hand. Here, take a look.
+    - Give: 33183
+
 Give: 32660
     - TurnToTarget
     - Tell: Hmmm... This seems to be written in some sort of Empyrean Code.
@@ -321,7 +328,7 @@ Give: Aged Tome (24111)
     - TurnToTarget
     - Tell: He didn't seem to care much for the Emperor, though he still paid him some sort of respect.
     - Delay: 1, Give: 24110
-
+	
 Give: Weathered Tome (24107)
     - TurnToTarget
     - Tell: Now this was interesting it gives a little more insight to those Gromnatross things people talk about.
