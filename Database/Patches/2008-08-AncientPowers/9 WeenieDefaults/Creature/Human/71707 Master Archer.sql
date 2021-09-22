@@ -15,7 +15,7 @@ VALUES (71707,   1,         16) /* ItemType - Creature */
      , (71707, 101,     524288) /* AiAllowedCombatStyle - StubbornMissile */
      , (71707, 113,          1) /* Gender - Male */
      , (71707, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (71707, 146,    1400000) /* XpOverride */
+     , (71707, 146,          0) /* XpOverride */
      , (71707, 188,          1) /* HeritageGroup - Aluvian */
      , (71707, 281,          1) /* Faction1Bits */
      , (71707, 287,       1001) /* SocietyRankCelhan */;

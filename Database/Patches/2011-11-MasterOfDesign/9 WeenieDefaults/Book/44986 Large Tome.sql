@@ -27,3 +27,9 @@ VALUES (44986,   1,   33554771) /* Setup */
      , (44986,   3,  536870932) /* SoundTable */
      , (44986,   8,  100668117) /* Icon */
      , (44986,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (44986, 1, 1000);
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (44986, 0, 4294967295, '', 'prewritten', True, '[You cannot translate this text]');

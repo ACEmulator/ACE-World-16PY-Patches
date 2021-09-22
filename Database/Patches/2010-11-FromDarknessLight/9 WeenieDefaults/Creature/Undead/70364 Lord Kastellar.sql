@@ -128,15 +128,15 @@ VALUES (70364,  0,  4,  0,    0,  380,  290,  290,  290,  290,  290,  290,  290,
      , (70364,  8,  4, 500, 0.75,  380,  290,  290,  290,  290,  290,  290,  290,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (70364, 9, 70362,  0, 0, 1, False) /* Create Large Tome (70362) for ContainTreasure */
-     , (70364, 9, 70362,  0, 0, 1, False) /* Create Large Tome (70362) for ContainTreasure */
-     , (70364, 9, 70362,  0, 0, 1, False) /* Create Large Tome (70362) for ContainTreasure */
-     , (70364, 9, 70362,  0, 0, 1, False) /* Create Large Tome (70362) for ContainTreasure */
-     , (70364, 9, 70362,  0, 0, 1, False) /* Create Large Tome (70362) for ContainTreasure */
-     , (70364, 9, 70362,  0, 0, 1, False) /* Create Large Tome (70362) for ContainTreasure */
-     , (70364, 9, 70362,  0, 0, 1, False) /* Create Large Tome (70362) for ContainTreasure */
-     , (70364, 9, 70362,  0, 0, 1, False) /* Create Large Tome (70362) for ContainTreasure */
-     , (70364, 9, 70362,  0, 0, 1, False) /* Create Large Tome (70362) for ContainTreasure */
+VALUES (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
      , (70364, 10, 22123,  0, 14,  1, False) /* Create Empyrean robe for wieldTreasure */
      , (70364, 2, 12211,  0, 0,   1, False) /* Create Undead Mask for wield */
      , (70364, 2,    55,  0, 14,  1, False) /* Create Gloves for Wield */;
