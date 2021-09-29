@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42209;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42209, 'ace42209-tetsuboslugger', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (42209, 'ace42209-tetsuboslugger', 6, '2021-09-20 08:15:59') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42209,   1,          1) /* ItemType - MeleeWeapon */
+     , (42209,   3,          4) /* PaletteTemplate */
      , (42209,   5,        135) /* EncumbranceVal */
      , (42209,   8,         50) /* Mass */
      , (42209,   9,   33554432) /* ValidLocations - TwoHanded */
@@ -17,7 +18,6 @@ VALUES (42209,   1,          1) /* ItemType - MeleeWeapon */
      , (42209,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (42209,  49,         40) /* WeaponTime */
      , (42209,  51,          5) /* CombatUse - TwoHanded */
-     , (42209,  52,          1) /* ParentLocation */
      , (42209,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42209, 106,        150) /* ItemSpellcraft */
      , (42209, 107,        400) /* ItemCurMana */
@@ -28,19 +28,16 @@ VALUES (42209,   1,          1) /* ItemType - MeleeWeapon */
      , (42209, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42209,  11, True ) /* IgnoreCollisions */
-     , (42209,  13, True ) /* Ethereal */
-     , (42209,  14, True ) /* GravityStatus */
-     , (42209,  19, True ) /* Attackable */
-     , (42209,  22, True ) /* Inscribable */;
+VALUES (42209,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42209,   5, -0.025000000372529) /* ManaRate */
+VALUES (42209,   5,  -0.025) /* ManaRate */
+     , (42209,  12,     0.3) /* Shade */
      , (42209,  21,       1) /* WeaponLength */
      , (42209,  22,     0.5) /* DamageVariance */
      , (42209,  26,       0) /* MaximumVelocity */
      , (42209,  29,       1) /* WeaponDefense */
-     , (42209,  39, 0.649999976158142) /* DefaultScale */
+     , (42209,  39,    0.65) /* DefaultScale */
      , (42209,  62,       1) /* WeaponOffense */
      , (42209,  63,       1) /* DamageMod */
      , (42209, 136,       1) /* CriticalMultiplier */;
@@ -57,4 +54,4 @@ VALUES (42209,   1,   33560728) /* Setup */
      , (42209,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42209,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (42209,  1613,      2) /* Aura of Blood Drinker Self III */;
