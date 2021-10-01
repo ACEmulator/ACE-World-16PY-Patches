@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34190;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34190, 'ace34190-packdarkremoran', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (34190, 'ace34190-packdarkremoran', 38, '2021-10-01 06:41:51') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34190,   1,       2048) /* ItemType - Gem */
@@ -19,7 +19,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34190,  39,     0.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34190,   1, 'Pack Dark Remoran') /* Name */;
+VALUES (34190,   1, 'Pack Dark Remoran') /* Name */
+     , (34190,  14, 'This Pack Doll can be placed on floor and yard hooks.') /* Use */
+     , (34190,  16, 'A Dark Remoran with hover action. Look at all of its sinister intentions.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34190,   1,   33559700) /* Setup */
@@ -27,3 +29,4 @@ VALUES (34190,   1,   33559700) /* Setup */
      , (34190,   6,   67116726) /* PaletteBase */
      , (34190,   8,  100689166) /* Icon */
      , (34190,  22,  872415414) /* PhysicsEffectTable */;
+
