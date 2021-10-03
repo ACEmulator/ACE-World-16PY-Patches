@@ -1,4 +1,4 @@
 DELETE FROM `quest` WHERE `name` = 'clawofthehopeslayerpickuptimer';
 
 INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
-VALUES ('clawofthehopeslayerpickuptimer', 72000, -1, 'Picked up Claw of the Hopeslayer', '2021-10-03 02:50:02');
+VALUES ('clawofthehopeslayerpickuptimer', 72000, -1, 'Picked up Claw of the Hopeslayer', '2020-11-03 20:34:27');

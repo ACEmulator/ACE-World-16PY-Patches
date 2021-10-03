@@ -139,13 +139,13 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, '"As Lord Kastella
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (70364, 2, 12211,  0, 0, 1, False) /* Create Zombie Mask (12211) for Wield */
      , (70364, 2,    55,  0, 14, 1, False) /* Create Chainmail Gauntlets (55) for Wield */
-     , (70364, 9, 43810,  0, 0, 1, False) /* Create  (43810) for ContainTreasure */
-     , (70364, 9, 43810,  0, 0, 1, False) /* Create  (43810) for ContainTreasure */
-     , (70364, 9, 43810,  0, 0, 1, False) /* Create  (43810) for ContainTreasure */
-     , (70364, 9, 43810,  0, 0, 1, False) /* Create  (43810) for ContainTreasure */
-     , (70364, 9, 43810,  0, 0, 1, False) /* Create  (43810) for ContainTreasure */
-     , (70364, 9, 43810,  0, 0, 1, False) /* Create  (43810) for ContainTreasure */
-     , (70364, 9, 43810,  0, 0, 1, False) /* Create  (43810) for ContainTreasure */
-     , (70364, 9, 43810,  0, 0, 1, False) /* Create  (43810) for ContainTreasure */
-     , (70364, 9, 43810,  0, 0, 1, False) /* Create  (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
+     , (70364, 9, 43810,  0, 0, 1, False) /* Create Large Tome (43810) for ContainTreasure */
      , (70364, 10, 22123,  0, 14, 1, False) /* Create Empyrean Robe (22123) for WieldTreasure */;

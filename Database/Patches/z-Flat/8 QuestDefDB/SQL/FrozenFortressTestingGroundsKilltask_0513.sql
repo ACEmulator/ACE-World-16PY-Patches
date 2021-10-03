@@ -1,4 +1,4 @@
 DELETE FROM `quest` WHERE `name` = 'FrozenFortressTestingGroundsKilltask_0513';
 
 INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
-VALUES ('FrozenFortressTestingGroundsKilltask_0513', 0, 20, 'Frozen Fortress Kill Counter', '2021-10-03 02:50:02');
+VALUES ('FrozenFortressTestingGroundsKilltask_0513', 0, 20, 'Frozen Fortress Kill Counter', '2020-05-14 11:51:50');

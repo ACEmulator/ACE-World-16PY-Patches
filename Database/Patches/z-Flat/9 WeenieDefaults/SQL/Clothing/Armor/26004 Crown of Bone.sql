@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 26004;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (26004, 'crownbaronnuvillus', 2, '2005-02-09 10:00:00') /* Clothing */;
+VALUES (26004, 'crownbaronnuvillus', 2, '2021-09-20 09:29:43') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26004,   1,          2) /* ItemType - Armor */
@@ -14,7 +14,7 @@ VALUES (26004,   1,          2) /* ItemType - Armor */
      , (26004,  18,          1) /* UiEffects - Magical */
      , (26004,  19,       5000) /* Value */
      , (26004,  27,         32) /* ArmorType - Metal */
-     , (26004,  28,        150) /* ArmorLevel */
+     , (26004,  28,        250) /* ArmorLevel */
      , (26004,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (26004, 106,        150) /* ItemSpellcraft */
      , (26004, 107,        900) /* ItemCurMana */
@@ -58,7 +58,7 @@ VALUES (26004,   1,   33558577) /* Setup */
      , (26004,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26004,   512,      2)  /* Acid Protection Other IV */
-     , (26004,   849,      2)  /* Fire Protection Other IV */
-     , (26004,  1039,      2)  /* Cold Protection Other IV */
-     , (26004,  1483,      2)  /* Impenetrability III */;
+VALUES (26004,   513,      2)  /* Acid Protection Other V */
+     , (26004,  1040,      2)  /* Cold Protection Other V */
+     , (26004,  1095,      2)  /* Fire Protection Other V */
+     , (26004,  1484,      2)  /* Impenetrability IV */;

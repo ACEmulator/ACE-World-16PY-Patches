@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8211;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8211, 'discus', 4, '2005-02-09 10:00:00') /* Missile */;
+VALUES (8211, 'discus', 4, '2021-09-20 07:57:12') /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8211,   1,        256) /* ItemType - MissileWeapon */
@@ -19,12 +19,13 @@ VALUES (8211,   1,        256) /* ItemType - MissileWeapon */
      , (8211,  44,         16) /* Damage */
      , (8211,  45,          1) /* DamageType - Slash */
      , (8211,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
-     , (8211,  48,         12) /* WeaponSkill - ThrownWeapon */
+     , (8211,  48,         47) /* WeaponSkill - MissileWeapons */
      , (8211,  49,         20) /* WeaponTime */
      , (8211,  51,          2) /* CombatUse - Missile */
      , (8211,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (8211, 150,        103) /* HookPlacement - Hook */
-     , (8211, 151,          2) /* HookType - Wall */;
+     , (8211, 151,          2) /* HookType - Wall */
+     , (8211, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8211,  17, True ) /* Inelastic */;

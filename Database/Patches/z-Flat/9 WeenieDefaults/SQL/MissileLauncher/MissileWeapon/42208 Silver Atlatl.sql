@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42208;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42208, 'ace42208-silveratlatl', 3, '2020-02-01 21:01:19') /* MissileLauncher */;
+VALUES (42208, 'ace42208-silveratlatl', 3, '2021-09-20 08:26:52') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42208,   1,        256) /* ItemType - MissileWeapon */
+     , (42208,   3,         20) /* PaletteTemplate - Silver */
      , (42208,   5,        200) /* EncumbranceVal */
      , (42208,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (42208,  16,          1) /* ItemUseable - No */
@@ -25,14 +26,12 @@ VALUES (42208,   1,        256) /* ItemType - MissileWeapon */
      , (42208, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42208,  11, True ) /* IgnoreCollisions */
-     , (42208,  13, True ) /* Ethereal */
-     , (42208,  14, True ) /* GravityStatus */
-     , (42208,  19, True ) /* Attackable */
+VALUES (42208,  19, True ) /* Attackable */
      , (42208,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42208,   5,  -0.025) /* ManaRate */
+     , (42208,  12,       0) /* Shade */
      , (42208,  21,       0) /* WeaponLength */
      , (42208,  22,       0) /* DamageVariance */
      , (42208,  26,    24.9) /* MaximumVelocity */
@@ -49,6 +48,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42208,   1,   33557433) /* Setup */
      , (42208,   3,  536870932) /* SoundTable */
      , (42208,   6,   67111919) /* PaletteBase */
+     , (42208,   7,  268436304) /* ClothingBase */
      , (42208,   8,  100672413) /* Icon */
      , (42208,  22,  872415275) /* PhysicsEffectTable */;
 

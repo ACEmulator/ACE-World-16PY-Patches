@@ -1,4 +1,4 @@
 DELETE FROM `quest` WHERE `name` = 'ReefhuntersReckReckRed150';
 
 INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
-VALUES ('ReefhuntersReckReckRed150', 0, 1, 'Reefhunters Riddle', '2021-10-03 02:50:02');
+VALUES ('ReefhuntersReckReckRed150', 0, 1, 'Reefhunters Riddle', '2020-09-11 00:00:00');

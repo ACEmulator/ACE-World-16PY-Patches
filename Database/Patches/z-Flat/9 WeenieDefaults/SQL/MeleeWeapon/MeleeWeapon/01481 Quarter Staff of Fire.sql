@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1481;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1481, 'quarterstafffire', 6, '2019-04-19 00:00:00') /* MeleeWeapon */;
+VALUES (1481, 'quarterstafffire', 6, '2021-09-20 09:35:10') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1481,   1,          1) /* ItemType - MeleeWeapon */
@@ -18,7 +18,6 @@ VALUES (1481,   1,          1) /* ItemType - MeleeWeapon */
      , (1481,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (1481,  49,         30) /* WeaponTime */
      , (1481,  51,          1) /* CombatUse - Melee */
-     , (1481,  53,        101) /* PlacementPosition - Resting */
      , (1481,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (1481, 106,         65) /* ItemSpellcraft */
      , (1481, 107,        300) /* ItemCurMana */
@@ -29,22 +28,18 @@ VALUES (1481,   1,          1) /* ItemType - MeleeWeapon */
      , (1481, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1481,  11, True ) /* IgnoreCollisions */
-     , (1481,  13, True ) /* Ethereal */
-     , (1481,  14, True ) /* GravityStatus */
-     , (1481,  19, True ) /* Attackable */
-     , (1481,  22, True ) /* Inscribable */;
+VALUES (1481,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1481,   5, -0.0329999998211861) /* ManaRate */
-     , (1481,  21, 1.33000004291534) /* WeaponLength */
-     , (1481,  22, 0.300000011920929) /* DamageVariance */
+VALUES (1481,   5,  -0.033) /* ManaRate */
+     , (1481,  21,    1.33) /* WeaponLength */
+     , (1481,  22,     0.3) /* DamageVariance */
      , (1481,  26,       0) /* MaximumVelocity */
      , (1481,  29,       1) /* WeaponDefense */
-     , (1481,  39, 0.800000011920929) /* DefaultScale */
+     , (1481,  39,     0.8) /* DefaultScale */
      , (1481,  62,       1) /* WeaponOffense */
      , (1481,  63,       1) /* DamageMod */
-     , (1481, 147, 0.330000013113022) /* CriticalFrequency */;
+     , (1481, 147,    0.33) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1481,   1, 'Quarter Staff of Fire') /* Name */
@@ -52,7 +47,6 @@ VALUES (1481,   1, 'Quarter Staff of Fire') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1481,   1,   33558066) /* Setup */
-     , (1481,   7,  268436486) /* ClothingBase */
      , (1481,   8,  100667602) /* Icon */
      , (1481,  22,  872415275) /* PhysicsEffectTable */;
 

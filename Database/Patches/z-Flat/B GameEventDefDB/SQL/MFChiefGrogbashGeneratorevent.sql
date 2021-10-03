@@ -1,4 +1,4 @@
 DELETE FROM `event` WHERE `name` = 'MFChiefGrogbashGeneratorevent';
 
 INSERT INTO `event` (`name`, `start_Time`, `end_Time`, `state`, `last_Modified`)
-VALUES ('MFChiefGrogbashGeneratorevent', -1, -1, 3, '2021-10-03 02:50:05');
+VALUES ('MFChiefGrogbashGeneratorevent', -1, -1, 3, '2021-01-05 00:00:00');

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1438;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1438, 'spearfire', 6, '2005-02-09 10:00:00') /* MeleeWeapon */;
+VALUES (1438, 'spearfire', 6, '2021-09-20 09:28:36') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1438,   1,          1) /* ItemType - MeleeWeapon */
@@ -14,7 +14,7 @@ VALUES (1438,   1,          1) /* ItemType - MeleeWeapon */
      , (1438,  45,         16) /* DamageType - Fire */
      , (1438,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (1438,  47,          2) /* AttackType - Thrust */
-     , (1438,  48,          9) /* WeaponSkill - Spear */
+     , (1438,  48,         45) /* WeaponSkill - LightWeapons */
      , (1438,  49,         30) /* WeaponTime */
      , (1438,  51,          1) /* CombatUse - Melee */
      , (1438,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -24,7 +24,8 @@ VALUES (1438,   1,          1) /* ItemType - MeleeWeapon */
      , (1438, 109,         50) /* ItemDifficulty */
      , (1438, 115,        250) /* ItemSkillLevelLimit */
      , (1438, 150,        103) /* HookPlacement - Hook */
-     , (1438, 151,          2) /* HookType - Wall */;
+     , (1438, 151,          2) /* HookType - Wall */
+     , (1438, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1438,  22, True ) /* Inscribable */;

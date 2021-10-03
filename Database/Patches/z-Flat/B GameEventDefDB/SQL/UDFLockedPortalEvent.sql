@@ -1,4 +1,4 @@
 DELETE FROM `event` WHERE `name` = 'UDFLockedPortalEvent';
 
 INSERT INTO `event` (`name`, `start_Time`, `end_Time`, `state`, `last_Modified`)
-VALUES ('UDFLockedPortalEvent', -1, -1, 3, '2021-10-03 02:50:05');
+VALUES ('UDFLockedPortalEvent', -1, -1, 3, '2021-05-20 00:00:00');

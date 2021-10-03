@@ -88,5 +88,5 @@ VALUES (42806, 2,   127,  0, 13, 0.4909, False) /* Create Pants (127) for Wield 
      , (42806, 4, 46753, -1, 0, 0, False) /* Create  (46753) for Shop */
      , (42806, 4, 46754, -1, 0, 0, False) /* Create  (46754) for Shop */
      , (42806, 4, 51337, -1, 0, 0, False) /* Create Contract for Behind The Mask (51337) for Shop */
-     , (42806, 4, 51438, -1, 0, 0, False) /* Create  (51438) for Shop */
+     , (42806, 4, 51438, -1, 0, 0, False) /* Create Contract for Olthoi Hive Eviscerator Pincer (51438) for Shop */
      , (42806, 4, 51437, -1, 0, 0, False) /* Create Contract for Olthoi Hive Warrior Pincer (51437) for Shop */;

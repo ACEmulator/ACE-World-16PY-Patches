@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7300;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7300, 'ringdanshaki', 1, '2005-02-09 10:00:00') /* Generic */;
+VALUES (7300, 'ringdanshaki', 1, '2021-09-20 09:33:14') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7300,   1,          8) /* ItemType - Jewelry */
@@ -42,5 +42,5 @@ VALUES (7300,   1,   33554691) /* Setup */
      , (7300,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7300,   276,      2)  /* Magic Resistance Self III */
-     , (7300,  1068,      2)  /* Lightning Protection Self III */;
+VALUES (7300,   278,      2)  /* Magic Resistance Self V */
+     , (7300,  1070,      2)  /* Lightning Protection Self V */;

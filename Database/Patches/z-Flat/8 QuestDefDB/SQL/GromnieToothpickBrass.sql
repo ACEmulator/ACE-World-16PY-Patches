@@ -1,4 +1,4 @@
 DELETE FROM `quest` WHERE `name` = 'GromnieToothpickBrass';
 
 INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
-VALUES ('GromnieToothpickBrass', 72000, -1, 'You have been granted experience into your fletching skill.', '2021-10-03 02:50:02');
+VALUES ('GromnieToothpickBrass', 72000, -1, 'You have been granted experience into your fletching skill.', '2019-03-14 20:34:27');

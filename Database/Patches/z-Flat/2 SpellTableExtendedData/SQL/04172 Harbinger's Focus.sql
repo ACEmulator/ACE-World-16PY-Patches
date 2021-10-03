@@ -1,4 +1,4 @@
 DELETE FROM `spell` WHERE `id` = 4172;
 
 INSERT INTO `spell` (`id`, `name`, `stat_Mod_Type`, `stat_Mod_Key`, `stat_Mod_Val`, `last_Modified`)
-VALUES (4172, 'Harbinger''s Focus', 36865 /* Attribute, SingleStat, Additive */, 5 /* Focus */, 1, '2021-10-03 02:49:43');
+VALUES (4172, 'Harbinger''s Focus', 36865 /* Attribute, SingleStat, Additive */, 5 /* Focus */, 1, '2020-07-02 00:00:00');

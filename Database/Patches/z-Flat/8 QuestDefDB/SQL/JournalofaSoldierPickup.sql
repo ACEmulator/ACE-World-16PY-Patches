@@ -1,4 +1,4 @@
 DELETE FROM `quest` WHERE `name` = 'JournalofaSoldierPickup';
 
 INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
-VALUES ('JournalofaSoldierPickup', 72000, -1, 'Journal of a Soldier pickup timer', '2021-10-03 02:50:02');
+VALUES ('JournalofaSoldierPickup', 72000, -1, 'Journal of a Soldier pickup timer', '2021-07-12 00:00:00');
