@@ -1,0 +1,31 @@
+DELETE FROM `weenie` WHERE `class_Id` = 2944;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2944, 'scrollfrostbolt5', 34, '2005-02-09 10:00:00') /* Scroll */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (2944,   1,       8192) /* ItemType - Writable */
+     , (2944,   5,         30) /* EncumbranceVal */
+     , (2944,   8,         90) /* Mass */
+     , (2944,   9,          0) /* ValidLocations - None */
+     , (2944,  16,          8) /* ItemUseable - Contained */
+     , (2944,  19,        200) /* Value */
+     , (2944,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (2944,  22, True ) /* Inscribable */
+     , (2944,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2944,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2944,   1, 'Scroll of Frost Bolt V') /* Name */
+     , (2944,  15, 'A magic scroll.') /* ShortDesc */
+     , (2944,  16, 'When learned, this spell shoots a bolt of frost at the target. The bolt does 38-75 points of cold damage to the first thing it hits.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2944,   1,   33554826) /* Setup */
+     , (2944,   8,  100677016) /* Icon */
+     , (2944,  22,  872415275) /* PhysicsEffectTable */
+     , (2944,  28,         73) /* Spell - Frost Bolt V */;

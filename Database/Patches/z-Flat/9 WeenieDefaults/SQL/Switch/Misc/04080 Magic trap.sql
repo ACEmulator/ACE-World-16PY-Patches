@@ -1,0 +1,37 @@
+DELETE FROM `weenie` WHERE `class_Id` = 4080;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4080, 'trapenfeeblelvl3', 26, '2005-02-09 10:00:00') /* Switch */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (4080,   1,        128) /* ItemType - Misc */
+     , (4080,   5,       6000) /* EncumbranceVal */
+     , (4080,   8,       3000) /* Mass */
+     , (4080,  16,          1) /* ItemUseable - No */
+     , (4080,  19,        200) /* Value */
+     , (4080,  83,       4096) /* ActivationResponse - CastSpell */
+     , (4080,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
+     , (4080, 106,        100) /* ItemSpellcraft */
+     , (4080, 119,          1) /* Active */
+     , (4080, 134,          8) /* PlayerKillerStatus - Creature */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (4080,   1, True ) /* Stuck */
+     , (4080,  12, False) /* ReportCollisions */
+     , (4080,  13, True ) /* Ethereal */
+     , (4080,  14, False) /* GravityStatus */
+     , (4080,  18, True ) /* Visibility */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4080,  11,      30) /* ResetInterval */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4080,   1, 'Magic trap') /* Name */
+     , (4080,  22, 'You hear a faint clicking sound.') /* ActivationFailure */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4080,   1,   33554669) /* Setup */
+     , (4080,   3,  536870932) /* SoundTable */
+     , (4080,   8,  100667494) /* Icon */
+     , (4080,  22,  872415275) /* PhysicsEffectTable */
+     , (4080,  28,       1197) /* Spell - Enfeeble Other III */;
