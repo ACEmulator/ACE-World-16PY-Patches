@@ -7,27 +7,30 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33491,   1,       2048) /* ItemType - Gem */
      , (33491,   5,         10) /* EncumbranceVal */
      , (33491,  16,          1) /* ItemUseable - No */
+     , (33491,  33,          1) /* Bonded - Bonded */
      , (33491,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33491, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (33491, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33491,  22, True ) /* Inscribable */;
+VALUES (33491,  22, True ) /* Inscribable */
+     , (33491,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33491,   1, 'Silveran Claw Token') /* Name */;
+VALUES (33491,   1, 'Silveran Claw Token') /* Name */
+     , (33491,  16, 'This token represents a Silveran Claw.  You may only pick up one Silveran weapon token.  Turn it in to the Rossu Morta Chamberlain to receive your reward.') /* LongDesc */
+     , (33491,  37, 'CanPickupSilveranToken') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33491,   1,   33559992) /* Setup */
      , (33491,   3,  536870932) /* SoundTable */
      , (33491,   8,  100688966) /* Icon */
-     , (33491,  22,  872415275) /* PhysicsEffectTable */
-     , (33491, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
-     , (33491, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (33491, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (33491,  22,  872415275) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33491, 8040, 8388915, 92, -42.25, 0.9465, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
-/* @teleloc 0x00800133 [92.000000 -42.250000 0.946500] 0.707107 0.000000 0.000000 -0.707107 */;
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (33491, 10 /* PickUp */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33491, 8000, 3359209663) /* PCAPRecordedObjectIID */;
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'PlayerReceivedSilveranToken', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  31 /* EraseQuest */, 0, 1, NULL, 'CanPickupSilveranToken', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
