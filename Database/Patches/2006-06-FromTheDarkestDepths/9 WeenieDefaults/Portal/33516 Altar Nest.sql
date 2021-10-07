@@ -13,11 +13,6 @@ VALUES (33516,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33516,   1, True ) /* Stuck */
-     , (33516,  12, True ) /* ReportCollisions */
-     , (33516,  13, True ) /* Ethereal */
-     , (33516,  14, True ) /* GravityStatus */
-     , (33516,  15, True ) /* LightsStatus */
-     , (33516,  19, True ) /* Attackable */
      , (33516,  88, True ) /* PortalShowDestination */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -25,7 +20,8 @@ VALUES (33516,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33516,   1, 'Altar Nest') /* Name */
-     , (33516,  16, 'This dungeon is quest restricted.  The Whispering Blade may be interested in it...') /* LongDesc */;
+     , (33516,  16, 'This dungeon is quest restricted. The Whispering Blade may be interested in it...') /* LongDesc */
+     , (33516,  37, 'AltarNest_Flag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33516,   1,   33555925) /* Setup */
