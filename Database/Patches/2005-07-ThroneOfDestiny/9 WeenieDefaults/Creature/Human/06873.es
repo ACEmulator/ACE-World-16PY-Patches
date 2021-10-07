@@ -809,14 +809,14 @@ Give: Splinter of Wood (26467)
                 QuestFailure:
                     - Tell: Thanks, but I don't need anymore splinters.
 
-Give: Head of the Homunculus (27437)
+Give: Dark Monolith (27437)
     - Motion: Ready
     - TurnToTarget
     - Tell: Finally, the power is mine! Mwahahahaha!
     - Delay: 1, Tell: Hehe, just kidding, I'll keep this safe. I have just the place for it. Here take this in reward for your good work.
-    - AwardLevelProportionalXP: 11%
+    - AwardLevelProportionalXP: 11%, 0 - 7,500,000
 
-Give: 32941
+Give: Title Token: Guardian of the Dark (32941)
     - Motion: Ready
     - TurnToTarget
     - Tell: You found this in the same place you found the Dark Monolith? Here, you should have a new title.
@@ -831,6 +831,13 @@ Use:
     - Motion: Ready
     - TurnToTarget
     - Delay: 1, Tell: You know, I was the one who fronted the money for Monty the Munificent to build his new casino? He's my sister's idiot son, and I didn't like to see him get rained on in that old outdoor spot of his. I think a man should be able to fleece the unwitting under the comfort of a solid roof.
+
+ReceiveTalkDirect: Viridian Rise
+    - TurnToTarget
+    - Delay: 0.5, Tell: Why are you bothering ME about the Viridian Rise? Oh yeah, something attacked that Deru and the tree sent out unhealthy amounts of magic. Everything there is growing like crazy, and even the guardians are a bit...off because of it. Probably too tough for someone like you. I went up there looking for good ingredients for a new mead. Found the guardian statues, and figured out two things.
+    - Delay: 0.5, Tell: Spruce follows directly after Pine.
+    - Delay: 0.5, Tell: Maple follows directly after Willow.
+    - Delay: 0.5, Tell: Yeah, good luck with that.
 
 Give: Ulgrim's Contest Mug (34275)
     - EraseQuest: UlgrimsDrinkingContestDrinks

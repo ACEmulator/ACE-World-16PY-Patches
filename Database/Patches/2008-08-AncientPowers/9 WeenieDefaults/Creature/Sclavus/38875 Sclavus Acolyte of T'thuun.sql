@@ -18,7 +18,7 @@ VALUES (38875,   1,         16) /* ItemType - Creature */
      , (38875, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (38875, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (38875, 140,          1) /* AiOptions - CanOpenDoors */
-     , (38875, 146,    1400000) /* XpOverride */
+     , (38875, 146,          0) /* XpOverride */
      , (38875, 281,          8) /* Faction1Bits */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -84,8 +84,7 @@ VALUES (38875,   1,   33560595) /* Setup */
                                    Wield T'thuun Sword (38928) | Probability: 10%
                                    Wield T'thuun Shield (38922) | Probability: 100%
                                    Wield T'thuun Mace (38926) | Probability: 60%
-                                   Wield T'thuun Shield (38922) | Probability: 100% */
-     , (38875,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
+                                   Wield T'thuun Shield (38922) | Probability: 100% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38875,   1, 240, 0, 0) /* Strength */
@@ -134,14 +133,3 @@ VALUES (38875,    2176,  2.02)  /* Enervation */
      , (38875,    4451,  2.02)  /* Incantation of Lightning Bolt */
      , (38875,    4453,  2.02)  /* Incantation of Lightning Volley */
      , (38875,    4487,  2.02)  /* Incantation of Exhaustion Other */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38875, 9, 39030,  0, 0, 0.05, False) /* Create Armored Sclavus Head (39030) for ContainTreasure */
-     , (38875, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (38875, 9,  9259,  0, 0, 0.02, False) /* Create Large Sclavus Hide (9259) for ContainTreasure */
-     , (38875, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (38875, 9, 20861,  0, 0, 0.04, False) /* Create Moons Stamp (20861) for ContainTreasure */
-     , (38875, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (38875, 9, 41979,  1, 0, 0.05, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
-     , (38875, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
-

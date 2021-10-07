@@ -19,12 +19,7 @@ VALUES (44538,   1,       2048) /* ItemType - Gem */
      , (44538, 349,        135) /* UseCreatesContractId - Bandit Mana Hunter Boss */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44538,  11, True ) /* Ignore Collisions */
-     , (44538,  13, True ) /* Ethereal */
-	 , (44538,  14, True ) /* Gravity Status */
-     , (44538,  15, True ) /* Lights Status */
-     , (44538,  19, True ) /* Attackable */
-     , (44538,  22, True ) /* Inscribable */
+VALUES (44538,  22, True ) /* Inscribable */
      , (44538,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -32,6 +27,7 @@ VALUES (44538, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44538,   1, 'Contract for Bandit Mana Hunter Boss') /* Name */
+     , (44538,  14, 'Recommended Level: 180') /* Use */
      , (44538,  16, 'The Bandit Mana Hunter Boss must be slain.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

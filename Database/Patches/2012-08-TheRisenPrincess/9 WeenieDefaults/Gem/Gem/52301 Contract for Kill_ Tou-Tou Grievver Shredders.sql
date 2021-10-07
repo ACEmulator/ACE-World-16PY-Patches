@@ -1,4 +1,4 @@
-DELETE FROM `weenie` WHERE `class_Id` = 52301; 
+DELETE FROM `weenie` WHERE `class_Id` = 52301;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (52301, 'ace52301-contractforkilltoutougrievvershredders', 38, '2020-09-19 04:35:11') /* Gem */;
@@ -16,7 +16,7 @@ VALUES (52301,   1,       2048) /* ItemType - Gem */
      , (52301,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (52301,  94,         16) /* TargetType - Creature */
      , (52301, 280,        100) /* SharedCooldown */
-     , (52301, 349,        319) /* UseCreatesContractId */;
+     , (52301, 349,        319) /* UseCreatesContractId - Contract_319_Kill__Tou_Tou_Grievver_Shredders */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52301,  22, True ) /* Inscribable */
@@ -28,11 +28,10 @@ VALUES (52301, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52301,   1, 'Contract for Kill: Tou-Tou Grievver Shredders') /* Name */
      , (52301,  14, 'Recommended Level: 200') /* Use */
-     , (52301,  15, 'Kill 15 Grievver Shredders.') /* ShortDesc */;
+     , (52301,  16, 'Kill 15 Grievver Shredders.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52301,   1,   33557625) /* Setup */
      , (52301,   3,  536870932) /* SoundTable */
      , (52301,   8,  100691928) /* Icon */
      , (52301,  22,  872415275) /* PhysicsEffectTable */;
-

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71381;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71381, 'ace71381-ancientincendiaryguard', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (71381, 'ace71381-ancientincendiaryguardian', 10, '2019-02-10 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71381,   1,         16) /* ItemType - Creature */
@@ -27,8 +27,8 @@ VALUES (71381,   1, True ) /* Stuck */
 	 , (71381,  58, True ) /* SpellQueueActive */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (71381,   1, 'Ancient Incendiary Guard') /* Name */
-	 , (71381,  45, 'incendiarygudardiankillcount') /* KillQuest */;
+VALUES (71381,   1, 'Ancient Incendiary Guardian') /* Name */
+	 , (71381,  45, 'SandMiniOne_CrittersKilled_0511') /* KillQuest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (71381,   1,   33559683) /* Setup */

@@ -33,8 +33,7 @@ VALUES (29209,  39,     2.5) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29209,   1, 'Incomplete Brewmaster''s Bible') /* Name */
      , (29209,  14, 'Combine this piece with the Brewmaster''s Back Cover to create the Nearly Complete Brewmaster''s Bible. ') /* Use */
-     , (29209,  16, 'One-half of Rand''s Brewmaster''s Bible. ') /* LongDesc */
-     , (29209,  33, 'incompletebrewmaster') /* Quest */;
+     , (29209,  16, 'One-half of Rand''s Brewmaster''s Bible. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29209,   1,   33559183) /* Setup */

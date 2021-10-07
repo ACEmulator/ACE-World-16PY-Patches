@@ -10,12 +10,12 @@ VALUES (42269,   1,         16) /* ItemType - Creature */
      , (42269,   7,         -1) /* ContainersCapacity */
      , (42269,  16,          1) /* ItemUseable - No */
      , (42269,  25,        220) /* Level */
-     , (42269,  68,   13) /* TargetingTactic - Random, LastDamager, TopDamager */
+     , (42269,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (42269,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (42269, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (42269, 113,          1) /* Gender - Male */
      , (42269, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (42269, 146,    1400000) /* XpOverride */
+     , (42269, 146,          0) /* XpOverride */
      , (42269, 188,          1) /* HeritageGroup - Aluvian */
      , (42269, 281,          2) /* Faction1Bits */
      , (42269, 288,       1001) /* SocietyRankEldweb */;

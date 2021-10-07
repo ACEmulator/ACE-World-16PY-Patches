@@ -92,41 +92,15 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'You get good use out of that.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32055, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
-     , (32055, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
-     , (32055, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
-     , (32055, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
-     , (32055, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
-     , (32055, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
-     , (32055, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
-     , (32055, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
-     , (32055, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
-     , (32055, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
-     , (32055, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
-     , (32055, 4,   107, -1, 0, 0, False) /* Create Sollerets (107) for Shop */
-     , (32055, 4,    75, -1, 0, 0, False) /* Create Helmet (75) for Shop */
-     , (32055, 4,    74, -1, 0, 0, False) /* Create Heaume (74) for Shop */
-     , (32055, 4,  8488, -1, 0, 0, False) /* Create Armet (8488) for Shop */
-     , (32055, 4,    76, -1, 0, 0, False) /* Create Horned Helm (76) for Shop */
-     , (32055, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
-     , (32055, 4,   114, -1, 0, 0, False) /* Create Platemail Vambraces (114) for Shop */
-     , (32055, 4,    87, -1, 0, 0, False) /* Create Platemail Pauldrons (87) for Shop */
-     , (32055, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
-     , (32055, 4,    61, -1, 0, 0, False) /* Create Platemail Girth (61) for Shop */
-     , (32055, 4,   110, -1, 0, 0, False) /* Create Platemail Tassets (110) for Shop */
-     , (32055, 4,    66, -1, 0, 0, False) /* Create Platemail Greaves (66) for Shop */
-     , (32055, 4,    82, -1, 0, 0, False) /* Create Platemail Leggings (82) for Shop */
-     , (32055, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
-     , (32055, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for Shop */
-     , (32055, 4,  4190, -1, 0, 0, False) /* Create Cestus (4190) for Shop */
+VALUES (32055, 4,  4190, -1, 0, 0, False) /* Create Cestus (4190) for Shop */
      , (32055, 4,   301, -1, 0, 0, False) /* Create Battle Axe (301) for Shop */
      , (32055, 4,   350, -1, 0, 0, False) /* Create Broad Sword (350) for Shop */
      , (32055, 4,   351, -1, 0, 0, False) /* Create Long Sword (351) for Shop */
      , (32055, 4,   332, -1, 0, 0, False) /* Create Morning Star (332) for Shop */
      , (32055, 4,   339, -1, 0, 0, False) /* Create Scimitar (339) for Shop */
      , (32055, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
-     , (32055, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (32055, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
+     , (32055, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (32055, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (32055, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
      , (32055, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
@@ -134,6 +108,32 @@ VALUES (32055, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554
      , (32055, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff (22168) for Shop */
      , (32055, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
      , (32055, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
+     , (32055, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+     , (32055, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
+     , (32055, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
+     , (32055, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
+     , (32055, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
+     , (32055, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
+     , (32055, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
+     , (32055, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
+     , (32055, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (32055, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (32055, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (32055, 4,    75, -1, 0, 0, False) /* Create Helmet (75) for Shop */
+     , (32055, 4,  8489, -1, 0, 0, False) /* Create Heaume (8489) for Shop */
+     , (32055, 4,  8488, -1, 0, 0, False) /* Create Armet (8488) for Shop */
+     , (32055, 4,    76, -1, 0, 0, False) /* Create Horned Helm (76) for Shop */
+     , (32055, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
+     , (32055, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
+     , (32055, 4,    61, -1, 0, 0, False) /* Create Platemail Girth (61) for Shop */
+     , (32055, 4,    66, -1, 0, 0, False) /* Create Platemail Greaves (66) for Shop */
+     , (32055, 4,   110, -1, 0, 0, False) /* Create Platemail Tassets (110) for Shop */
+     , (32055, 4,    82, -1, 0, 0, False) /* Create Platemail Leggings (82) for Shop */
+     , (32055, 4,    87, -1, 0, 0, False) /* Create Platemail Pauldrons (87) for Shop */
+     , (32055, 4,   114, -1, 0, 0, False) /* Create Platemail Vambraces (114) for Shop */
+     , (32055, 4,   107, -1, 0, 0, False) /* Create Sollerets (107) for Shop */
+     , (32055, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for Shop */
+     , (32055, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
      , (32055, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (32055, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (32055, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

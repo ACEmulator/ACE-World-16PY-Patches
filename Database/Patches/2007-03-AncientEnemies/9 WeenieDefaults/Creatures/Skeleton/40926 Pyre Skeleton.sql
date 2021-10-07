@@ -45,7 +45,6 @@ VALUES (40926,   1,       5) /* HeartbeatInterval */
      , (40926,  31,      25) /* VisualAwarenessRange */
      , (40926,  34,       1) /* PowerupTime */
      , (40926,  36,       1) /* ChargeSpeed */
-     , (40926,  55,      75) /* HomeRadius */
      , (40926,  64,    0.58) /* ResistSlash */
      , (40926,  65,    0.58) /* ResistPierce */
      , (40926,  66,    0.66) /* ResistBludgeon */
@@ -53,7 +52,6 @@ VALUES (40926,   1,       5) /* HeartbeatInterval */
      , (40926,  68,     0.3) /* ResistCold */
      , (40926,  69,    0.42) /* ResistAcid */
      , (40926,  70,     0.4) /* ResistElectric */
-     , (40926, 166,    0.82) /* ResistNether */
      , (40926,  71,       1) /* ResistHealthBoost */
      , (40926,  72,       1) /* ResistStaminaDrain */
      , (40926,  73,       1) /* ResistStaminaBoost */
@@ -62,7 +60,8 @@ VALUES (40926,   1,       5) /* HeartbeatInterval */
      , (40926,  80,       3) /* AiUseMagicDelay */
      , (40926, 104,      10) /* ObviousRadarRange */
      , (40926, 122,       2) /* AiAcquireHealth */
-     , (40926, 125,       1) /* ResistHealthDrain */;
+     , (40926, 125,       1) /* ResistHealthDrain */
+     , (40926, 166,    0.82) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40926,   1, 'Pyre Skeleton') /* Name */
@@ -77,7 +76,7 @@ VALUES (40926,   1,   33558396) /* Setup */
      , (40926,   7,  268437010) /* ClothingBase */
      , (40926,   8,  100669124) /* Icon */
      , (40926,  22,  872415269) /* PhysicsEffectTable */
-     , (40926,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (40926,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40926,   1, 302, 0, 0) /* Strength */
@@ -122,10 +121,10 @@ VALUES (40926,  2170,    2.05)  /* Inferno's Gift */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40926, 2, 35095,  1, 0, 0, False) /* Create Pyre Claw (35095) for Wield */
-     , (40926, 9, 38714,  0, 0, 0.10, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
-     , (40926, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
-     , (40926, 9, 35105,  1, 0, 0.10, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (40926, 9,     0,  0, 0, 0.90, False) /* Create nothing for ContainTreasure */
+     , (40926, 9, 38714,  0, 0, 0.75, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
+     , (40926, 9,     0,  0, 0, 0.25, False) /* Create nothing for ContainTreasure */
+     , (40926, 9, 35105,  1, 0, 0.5, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (40926, 9,     0,  0, 0, 0.5, False) /* Create nothing for ContainTreasure */
      , (40926, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (40926, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (40926, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */

@@ -5,10 +5,10 @@ VALUES (29204, 'tuskerspit', 44, '2019-10-22 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29204,   1,        128) /* ItemType - Misc */
-     , (29204,   5,         10) /* EncumbranceVal */
+     , (29204,   5,         20) /* EncumbranceVal */
      , (29204,  11,        100) /* MaxStackSize */
      , (29204,  12,          1) /* StackSize */
-     , (29204,  13,         10) /* StackUnitEncumbrance */
+     , (29204,  13,         20) /* StackUnitEncumbrance */
      , (29204,  15,          0) /* StackUnitValue */
      , (29204,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29204,  19,          0) /* Value */

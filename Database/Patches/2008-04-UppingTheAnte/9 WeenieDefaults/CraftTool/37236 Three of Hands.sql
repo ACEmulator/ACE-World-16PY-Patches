@@ -25,7 +25,3 @@ VALUES (37236,   1,   33560548) /* Setup */
      , (37236,   3,  536870932) /* SoundTable */
      , (37236,   8,  100689856) /* Icon */
      , (37236,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37236, 8040, 23855549, 53.91385, -40.11333, -9.313226E-10, -0.697797, 0, 0, -0.7162955) /* PCAPRecordedLocation */
-/* @teleloc 0x016C01BD [53.913850 -40.113330 0.000000] -0.697797 0.000000 0.000000 -0.716296 */;

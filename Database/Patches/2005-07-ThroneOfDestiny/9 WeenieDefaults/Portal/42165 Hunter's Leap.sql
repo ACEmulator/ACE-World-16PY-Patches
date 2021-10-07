@@ -27,6 +27,7 @@ VALUES (42165,  39, 0.800000011920929) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42165,   1, 'Hunter''s Leap') /* Name */
      , (42165,  16, 'A portal leading to the Hunter''s Leap where the Lilitha''s Bow may be found.') /* LongDesc */
+     , (42165,  37, 'fachubhuntersleapportal_flag') /* QuestRestriction */
      , (42165,  38, 'Hunter''s Leap (35.8N, 33.5E).') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -36,4 +37,4 @@ VALUES (42165,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42165, 2, 2846621714, 55.2609, 28.1386, 77.6601, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0xA9AC0012 [55.260900 28.138600 77.660100] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0xA9AC0012 [55.260899 28.138599 77.660103] 1.000000 0.000000 0.000000 0.000000 */;

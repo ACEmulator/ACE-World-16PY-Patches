@@ -12,6 +12,10 @@ Use:
 						QuestFailure:
 							- Tell: You! Yes you can help! I serve the great god Angry Grandfather from that human town nearby. I explore lands for him. But I am stopped now. There is a big stinky fin-face acid-spitter nest north of here! They are crawling out of a hole in the water! Interfering with my exploration! Kill their leader, the biggest and stinkiest one of them all! Bring me hand of Blightfinger, and I give you reward!
 							- StampQuest: TentaclesTthuunStarted0408
+							- InqQuestBitsOn: 50to11BrokerContractsB@11, 0x80000
+								QuestFailure:
+									- SetQuestBitsOn: 50to11BrokerContractsB, 0x80000
+									- StampQuest: ContractQuestcounter_0511
 		TestFailure:
 			- Tell: You come back when stronger.
 
@@ -19,6 +23,7 @@ Give: Hand of Blightfinger (87475)
 	- TurnToTarget
 	- Tell: You did it! I dance for joy if Angry Grandfather not think it so undignified! You deserve big reward, human. Take this club, I need no more.
 	- Give: 37402
+	- Give: 20630, 2
 	- AwardXP: 20,700,000
 	- Delay: 1, Tell: If you no like club, I take it back, in exchange for enlightenment. If you get stronger and want to make club stronger, bring me golem heart, I carve for you to attach to club. What heart? Memory so bad... Platinum! Yes! Bring me Platinum Golem Heart, I carve for you to strap to club, make club whang harder!
 	- StampQuest: TentaclesTthuunComplete0408

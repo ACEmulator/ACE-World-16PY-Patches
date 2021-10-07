@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43814;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43814, 'ace43814-delicatebloodstonewand', 35, '2020-09-05 00:00:00') /* Caster */;
+VALUES (43814, 'ace43814-delicatebloodstonewand', 35, '2021-09-08 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43814,   1,      32768) /* ItemType - Caster */
@@ -13,6 +13,7 @@ VALUES (43814,   1,      32768) /* ItemType - Caster */
      , (43814,  19,      10000) /* Value */
      , (43814,  33,          1) /* Bonded - Bonded */
      , (43814,  45,         32) /* DamageType - Acid */
+     , (43814,  46,        512) /* DefaultCombatStyle - Magic */
      , (43814,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43814,  94,         16) /* TargetType - Creature */
      , (43814, 106,        450) /* ItemSpellcraft */

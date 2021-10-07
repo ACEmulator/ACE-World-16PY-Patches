@@ -10,15 +10,14 @@ VALUES (38842,   1,         16) /* ItemType - Creature */
      , (38842,   7,         -1) /* ContainersCapacity */
      , (38842,  16,          1) /* ItemUseable - No */
      , (38842,  25,        220) /* Level */
-     , (38842,  68,   13) /* TargetingTactic - Random, LastDamager, TopDamager */
+     , (38842,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (38842,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (38842, 113,          2) /* Gender - Female */
      , (38842, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (38842, 146,    1400000) /* XpOverride */
+     , (38842, 146,          0) /* XpOverride */
      , (38842, 188,          4) /* HeritageGroup - Viamontian */
      , (38842, 281,          1) /* Faction1Bits */
-     , (38842, 287,       1001) /* SocietyRankCelhan */
-     , (38842, 307,          5) /* DamageRating */;
+     , (38842, 287,       1001) /* SocietyRankCelhan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38842,   1, True ) /* Stuck */
