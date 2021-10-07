@@ -18,7 +18,7 @@ VALUES (32591,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32591,   1, 'Sketch of a Viamontian') /* Name */
-     , (32591,  16, 'A sketch of the suspected thief who may have taken Lunnum's body.') /* LongDesc */;
+     , (32591,  16, 'A sketch of the suspected thief who may have taken Lunnum''s body.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32591,   1,   33554773) /* Setup */
