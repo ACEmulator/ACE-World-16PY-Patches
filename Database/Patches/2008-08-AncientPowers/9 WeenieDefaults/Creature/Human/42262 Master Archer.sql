@@ -15,7 +15,7 @@ VALUES (42262,   1,         16) /* ItemType - Creature */
      , (42262, 101,     524288) /* AiAllowedCombatStyle - StubbornMissile */
      , (42262, 113,          1) /* Gender - Male */
      , (42262, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (42262, 146,    1400000) /* XpOverride */
+     , (42262, 146,          0) /* XpOverride */
      , (42262, 188,          1) /* HeritageGroup - Aluvian */
      , (42262, 281,          4) /* Faction1Bits */
      , (42262, 289,       1001) /* SocietyRankRadblo */;

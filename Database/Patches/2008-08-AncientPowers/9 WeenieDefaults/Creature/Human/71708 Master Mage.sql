@@ -10,11 +10,11 @@ VALUES (71708,   1,         16) /* ItemType - Creature */
      , (71708,   7,         -1) /* ContainersCapacity */
      , (71708,  16,          1) /* ItemUseable - No */
      , (71708,  25,        220) /* Level */
-     , (71708,  68,   13) /* TargetingTactic - Random, LastDamager, TopDamager */
+     , (71708,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (71708,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (71708, 113,          2) /* Gender - Female */
      , (71708, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (71708, 146,    1400000) /* XpOverride */
+     , (71708, 146,          0) /* XpOverride */
      , (71708, 188,          4) /* HeritageGroup - Viamontian */
      , (71708, 281,          1) /* Faction1Bits */
      , (71708, 287,       1001) /* SocietyRankCelhan */

@@ -988,5 +988,13 @@ VALUES (1970626821, 44100, 1465254419, 99.46484, -41.30551, 17.94613, -0.0594305
 /* @teleloc 0x57560213 [99.464840 -41.305510 17.946130] -0.059431 0.000000 0.000000 -0.998232 */
 
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7575610C,  5085, 0x57560198, 210.008, -71.9251, 0, -4.37114E-08, 0, 0, -1, False, '2020-02-07 18:49:03'); /* Linkable Item Gen - 25 seconds */
+/* @teleloc 0x57560198 [210.007996 -71.925102 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7575610C, 0x7575610D, '2020-02-07 18:57:36');
 
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7575610D, 44987, 0x57560198, 209.85, -73.5, 1.1252, 0, 0, 0, -1,  True, '2020-02-07 18:57:36');
+/* @teleloc 0x57560198 [209.850006 -73.500000 1.125200] 0.000000 0.000000 0.000000 -1.000000 */
