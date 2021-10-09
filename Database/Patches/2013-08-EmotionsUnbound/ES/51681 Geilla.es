@@ -16,9 +16,9 @@ Use:
                             - EraseQuest: FearFactoryReleased_0813
                             - AwardNoShareXP: 100,000,000
                             - AwardLuminance: 12,000
-                            - Give: 48746
+                            - Give: Aged Legendary Key (48746)
                             - Give: Trade Note (250,000) (20630), 8
-                            - InqQuestBitsOn: LegendaryQuestsA, 0x4
+                            - InqQuestBitsOn: LegendaryQuestsA, 0x10
                                 QuestFailure:
                                     - SetQuestBitsOn: LegendaryQuestsA, 0x10 
                                     - StampQuest: LegendaryQuestCounter_0913            

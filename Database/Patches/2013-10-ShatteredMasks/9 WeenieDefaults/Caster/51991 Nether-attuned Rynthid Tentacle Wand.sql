@@ -13,8 +13,6 @@ VALUES (51991,   1,      32768) /* ItemType - Caster */
      , (51991,  33,          1) /* Bonded - Bonded */
      , (51991,  45,       1024) /* DamageType - Nether */
      , (51991,  46,        512) /* DefaultCombatStyle - Magic */
-     , (51991,  52,          1) /* ParentLocation - RightHand */
-     , (51991,  53,          1) /* PlacementPosition - RightHandCombat */
      , (51991,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51991,  94,         16) /* TargetType - Creature */
      , (51991, 106,        475) /* ItemSpellcraft */
@@ -29,11 +27,7 @@ VALUES (51991,   1,      32768) /* ItemType - Caster */
      , (51991, 353,         12) /* WeaponType - Magic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51991,  11, True ) /* IgnoreCollisions */
-     , (51991,  13, True ) /* Ethereal */
-     , (51991,  14, True ) /* GravityStatus */
-     , (51991,  19, True ) /* Attackable */
-     , (51991,  22, True ) /* Inscribable */
+VALUES (51991,  22, True ) /* Inscribable */
      , (51991,  69, False) /* IsSellable */
      , (51991,  99, True ) /* Ivoryable */;
 

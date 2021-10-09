@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45534;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45534, 'axetraininglight', 6, '2019-04-08 04:44:07') /* MeleeWeapon */;
+VALUES (45534, 'axetraininglight', 6, '2021-09-26 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45534,   1,          1) /* ItemType - MeleeWeapon */
@@ -11,6 +11,7 @@ VALUES (45534,   1,          1) /* ItemType - MeleeWeapon */
      , (45534,  19,         25) /* Value */
      , (45534,  44,          9) /* Damage */
      , (45534,  45,          1) /* DamageType - Slash */
+     , (45534,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (45534,  47,          4) /* AttackType - Slash */
      , (45534,  48,         45) /* WeaponSkill - LightWeapons */
      , (45534,  49,          0) /* WeaponTime */
@@ -20,11 +21,7 @@ VALUES (45534,   1,          1) /* ItemType - MeleeWeapon */
      , (45534, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45534,  11, True ) /* IgnoreCollisions */
-     , (45534,  13, True ) /* Ethereal */
-     , (45534,  14, True ) /* GravityStatus */
-     , (45534,  19, True ) /* Attackable */
-     , (45534,  22, True ) /* Inscribable */
+VALUES (45534,  22, True ) /* Inscribable */
      , (45534,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -32,7 +29,7 @@ VALUES (45534,  21,       0) /* WeaponLength */
      , (45534,  22,     0.5) /* DamageVariance */
      , (45534,  26,       0) /* MaximumVelocity */
      , (45534,  29,       1) /* WeaponDefense */
-     , (45534,  39, 1.20000004768372) /* DefaultScale */
+     , (45534,  39,     1.2) /* DefaultScale */
      , (45534,  62,       1) /* WeaponOffense */
      , (45534,  63,       1) /* DamageMod */;
 

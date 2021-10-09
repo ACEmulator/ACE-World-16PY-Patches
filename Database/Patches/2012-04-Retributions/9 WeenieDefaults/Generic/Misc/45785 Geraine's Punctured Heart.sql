@@ -23,5 +23,5 @@ VALUES (45785,   1, 'Geraine''s Punctured Heart') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45785,   1,   33554817) /* Setup */
      , (45785,   3,  536870932) /* SoundTable */
-     , (45785,   8,  100692629) /* Icon */
+     , (45785,   8,  100692626) /* Icon */
      , (45785,  22,  872415275) /* PhysicsEffectTable */;

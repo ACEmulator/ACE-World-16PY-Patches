@@ -41,8 +41,7 @@ VALUES (29494,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29494,   1, 'Breastplate of Karlun') /* Name */
-     , (29494,  16, 'A breastplate commonly worn by the Knights of Karlun.') /* LongDesc */
-     , (29494,  33, 'knightsofkarlun') /* Quest */;
+     , (29494,  16, 'A breastplate commonly worn by the Knights of Karlun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29494,   1,   33559358) /* Setup */
