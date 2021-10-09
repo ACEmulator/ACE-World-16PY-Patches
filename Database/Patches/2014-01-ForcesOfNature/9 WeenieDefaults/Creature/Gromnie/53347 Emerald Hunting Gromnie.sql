@@ -67,9 +67,9 @@ VALUES (53347,   1,   33561501) /* Setup */
      , (53347,   6,   67109307) /* PaletteBase */
      , (53347,   7,  268435631) /* ClothingBase */
      , (53347,   8,  100667938) /* Icon */
-     , (53347,  19,         87) /* ActivationAnimation */
+     , (53347,  19,         86) /* ActivationAnimation */
      , (53347,  22,  872415260) /* PhysicsEffectTable */
-     , (53347,  30,         87) /* PhysicsScript - BreatheLightning */
+     , (53347,  30,         86) /* PhysicsScript - BreatheAcid */
      , (53347,  35,       2121) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
