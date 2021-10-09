@@ -26,8 +26,7 @@ VALUES (71882,  39,       1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71882,   1, 'Penguin Egg') /* Name */
-     , (71882,  16, 'A warm penguin egg. As you hold it, it wobbles a bit, like the egg is about to hatch. You should probably get this egg to a knowledgeable penguin ASAP.') /* LongDesc */
-     , (71882,  33, 'pickuppenguineggwait') /* Quest */;
+     , (71882,  16, 'A warm penguin egg. As you hold it, it wobbles a bit, like the egg is about to hatch. You should probably get this egg to a knowledgeable penguin ASAP.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (71882,   1,   33559141) /* Setup */

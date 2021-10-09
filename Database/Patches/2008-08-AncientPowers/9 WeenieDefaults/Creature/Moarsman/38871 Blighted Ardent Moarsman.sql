@@ -18,7 +18,7 @@ VALUES (38871,   1,         16) /* ItemType - Creature */
      , (38871, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (38871, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (38871, 140,          1) /* AiOptions - CanOpenDoors */
-     , (38871, 146,    1400000) /* XpOverride */
+     , (38871, 146,          0) /* XpOverride */
      , (38871, 281,          8) /* Faction1Bits */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -71,8 +71,7 @@ VALUES (38871,   1,   33556882) /* Setup */
      , (38871,   7,  268436086) /* ClothingBase */
      , (38871,   8,  100671185) /* Icon */
      , (38871,  22,  872415337) /* PhysicsEffectTable */
-     , (38871,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (38871,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
+     , (38871,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38871, 8040, 4180738066, 66.44468, 30.83716, 77.50204, 0.3349821, 0, 0, -0.9422245) /* PCAPRecordedLocation */
@@ -110,14 +109,6 @@ VALUES (38871,  0,  4, 300,    0,  425,  350,  400,  400,  375,  400,  400,  325
      , (38871,  7,  4, 300,    0,  425,  350,  400,  400,  375,  400,  400,  325,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (38871,  8,  4, 300, 0.75,  425,  350,  400,  400,  375,  400,  400,  325,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */
      , (38871, 22, 16, 400,  0.4,  425,  350,  400,  400,  375,  400,  400,  325,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38871, 9, 24477,  1, 0, 0.04, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (38871, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (38871, 9, 32274,  1, 0, 0.20, False) /* Create Moarsmuck (32274) for ContainTreasure */
-     , (38871, 9,     0,  0, 0, 0.80, False) /* Create nothing for ContainTreasure */
-     , (38871, 9, 41979,  0, 0, 0.03, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
-     , (38871, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (38871,  5 /* HeartBeat */,  0.045, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
