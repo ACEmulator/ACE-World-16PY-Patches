@@ -12,16 +12,16 @@ Use:
             - Tell: I will reward you handsomely, far more than your current employer could hope to.
             - Tell: The decision is yours to make. I suggest you consider my offer, it is beyond fair.
     
-Refuse: 72627
+Refuse: 46729
     - InqQuest: TanadaSlaughterFinished_0912
         QuestSuccess:
             - Tell: Your task is complete. We have no further business.
         QuestFailure:
             - InqQuest: TanadaSlaughterKillTask_0912@KillTaskCompleted
                 QuestSuccess:
-                    - InqOwnsItems: 72627, 6
+                    - InqOwnsItems: 46729, 6
                         TestSuccess:
-                            - TakeItems: 72627, -1
+                            - TakeItems: 46729, -1
                             - StampQuest: TanadaSlaughterFinished_0912
                             - EraseQuest: TanadaSlaughterKillTask_0912                  
                             - Give: 72628

@@ -40,16 +40,16 @@ Give: 72626
     - Tell: Interesting...yes, this will do.
     - Tell: The Tanada are weaker now. We are closer to our goal of eliminating them from our midst.
 
-Refuse: 72627
+Refuse: 46729
     - InqQuest: TanadaSlaughterFinished_0912
         QuestSuccess:
             - Tell: You have already completed your task. We have no further need for your services at this time.
         QuestFailure:
             - InqQuest: TanadaSlaughterKillTask_0912@KillTaskCompleted
                 QuestSuccess:
-                    - InqOwnsItems: 72627, 6
+                    - InqOwnsItems: 46729, 6
                         TestSuccess:
-                            - TakeItems: 72627, -1
+                            - TakeItems: 46729, -1
                             - StampQuest: TanadaSlaughterFinished_0912
                             - EraseQuest: TanadaSlaughterKillTask_0912
                             - AwardNoShareXP: 300,000,000
