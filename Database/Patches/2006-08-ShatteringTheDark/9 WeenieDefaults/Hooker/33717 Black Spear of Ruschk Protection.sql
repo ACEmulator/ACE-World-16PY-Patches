@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33717;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33717, 'ace33717-blackspearofruschkprotection', 1, '2019-02-10 00:00:00') /* Generic */;
+VALUES (33717, 'ace33717-blackspearofruschkprotection', 64, '2019-02-10 00:00:00') /* Hooker */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33717,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,9 @@ VALUES (33717,   1,        128) /* ItemType - Misc */
      , (33717,  18,          1) /* UiEffects - Magical */
      , (33717,  19,      10000) /* Value */
      , (33717,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33717, 151,          9) /* HookType - Floor, Yard */;
+     , (33717, 150,        103) /* HookPlacement - Hook */
+     , (33717, 151,          9) /* HookType - Floor, Yard */
+     , (33717, 197,          1) /* HookGroup - NoisemakingItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33717,  22, True ) /* Inscribable */;
