@@ -113,8 +113,8 @@ VALUES (87569,  0,  4,  0,    0,  400,  360,  200,  440,  320,  200,  400,  320,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (87569,  3807,   2.02)  /* Force Ring */
-     , (87569,  3987,   2.02)  /* Black Spear Strike */
      , (87569,  3949,   2.03)  /* Force Wave */
+     , (87569,  3987,   2.02)  /* Black Spear Strike */
      , (87569,  4006,   2.03)  /* Blade Wave */
      , (87569,  4011,   2.02)  /* Shock Waves */;
 
@@ -196,7 +196,7 @@ VALUES (87569, 2, 87570,  1, 0, 1, False) /* Create Black Spear (87570) for Wiel
      , (87569, 9, 87567,  1, 0, 1, False) /* Create Dericost Chest Key (87567) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87569, 1, 87571, 5, 2, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Homing Fire Ball (87571) (x2 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87569, 1, 87571, 5, 2, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Homing Fire Ball (87571) (x2 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87569, 1, 87571, 5, 2, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Homing Fire Ball (87571) (x2 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (87569, 1, 87571, 5, 2, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Homing Fire Ball (87571) (x2 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+VALUES (87569, -1, 87571, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Homing Fire Ball (87571) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87569, -1, 87571, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Homing Fire Ball (87571) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87569, -1, 87571, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Homing Fire Ball (87571) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87569, -1, 87571, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Homing Fire Ball (87571) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
