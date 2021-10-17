@@ -12,6 +12,8 @@ VALUES (43480,   1,         16) /* ItemType - Creature */
      , (43480,   7,         20) /* ContainersCapacity */
      , (43480,   8,        120) /* Mass */
      , (43480,  16,          1) /* ItemUseable - No */
+     , (43480,  23,         68) /* TotalSkillCredits */
+     , (43480,  24,          0) /* AvailableSkillCredits */
      , (43480,  25,        180) /* Level */
      , (43480,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (43480, 133,          4) /* ShowableOnRadar - ShowAlways */

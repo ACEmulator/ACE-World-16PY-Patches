@@ -12,6 +12,8 @@ VALUES (43493,   1,         16) /* ItemType - Creature */
      , (43493,   7,         20) /* ContainersCapacity */
      , (43493,   8,        120) /* Mass */
      , (43493,  16,          1) /* ItemUseable - No */
+     , (43493,  23,         52) /* TotalSkillCredits */
+     , (43493,  24,          0) /* AvailableSkillCredits */
      , (43493,  25,        180) /* Level */
      , (43493,  32,       2047) /* ChannelsActive - QA1, QA2, ValidChans */
      , (43493,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
