@@ -17,6 +17,7 @@ VALUES (43494,   1,         16) /* ItemType - Creature */
      , (43494,  25,        180) /* Level */
      , (43494,  32,       2047) /* ChannelsActive - QA1, QA2, ValidChans */
      , (43494,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (43494,  99,          1) /* PkLevelModifier */
      , (43494, 112,          7) /* AdvocateLevel */
      , (43494, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (43494, 134,          4) /* PlayerKillerStatus - PK */
@@ -34,7 +35,8 @@ VALUES (43494,   1, True ) /* Stuck */
      , (43494,  68, False) /* SpellComponentsRequired */
      , (43494, 124, True ) /* NoHeldItemShown */
      , (43494, 125, True ) /* LoginAtLifestone */
-     , (43494, 129, True ) /* NoOlthoiTalk */;
+     , (43494, 129, True ) /* NoOlthoiTalk */
+     , (43494, 126, True ) /* OlthoiPk */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43494,   1,       5) /* HeartbeatInterval */
