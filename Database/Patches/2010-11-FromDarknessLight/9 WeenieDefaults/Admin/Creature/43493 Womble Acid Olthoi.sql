@@ -35,8 +35,8 @@ VALUES (43493,   1, True ) /* Stuck */
      , (43493,  68, False) /* SpellComponentsRequired */
      , (43493, 124, True ) /* NoHeldItemShown */
      , (43493, 125, True ) /* LoginAtLifestone */
-     , (43493, 129, True ) /* NoOlthoiTalk */
-     , (43493, 126, True ) /* OlthoiPk */;
+     , (43493, 126, True ) /* OlthoiPk */
+     , (43493, 129, True ) /* NoOlthoiTalk */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43493,   1,       5) /* HeartbeatInterval */
