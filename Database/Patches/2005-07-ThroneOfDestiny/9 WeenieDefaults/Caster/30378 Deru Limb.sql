@@ -20,30 +20,25 @@ VALUES (30378,   1,      32768) /* ItemType - Caster */
      , (30378, 106,        350) /* ItemSpellcraft */
      , (30378, 107,       6000) /* ItemCurMana */
      , (30378, 108,       6000) /* ItemMaxMana */
-     , (30378, 109,          0) /* ItemDifficulty */
-     , (30378, 110,          0) /* ItemAllegianceRankLimit */
      , (30378, 117,         30) /* ItemManaCost */
      , (30378, 151,          2) /* HookType - Wall */
      , (30378, 169,  118162702) /* TsysMutationData */
      , (30378, 179,        512) /* ImbuedEffect - FireRending */
      , (30378, 265,         41) /* EquipmentSetId - RareDamageBoost */
      , (30378, 319,         50) /* ItemMaxLevel */
-     , (30378, 320,          1) /* ItemXpStyle - Fixed */
-     , (30378, 353,          0) /* WeaponType - Undef */;
+     , (30378, 320,          1) /* ItemXpStyle - Fixed */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30378,   4,          0) /* ItemTotalXp */
      , (30378,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30378,  22, True ) /* Inscribable */
-     , (30378,  23, True ) /* DestroyOnSell */;
+VALUES (30378,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30378,   5, -0.033) /* ManaRate */
      , (30378,  12,   0.66) /* Shade */
      , (30378,  29,    1.2) /* WeaponDefense */
-     , (30378,  39,    1.2) /* DefaultScale */
      , (30378, 136,      2) /* CriticalMultiplier */
      , (30378, 144,    0.2) /* ManaConversionMod */;
 
