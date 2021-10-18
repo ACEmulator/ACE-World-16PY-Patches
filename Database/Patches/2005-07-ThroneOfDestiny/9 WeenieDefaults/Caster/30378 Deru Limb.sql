@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30378;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30378, 'wandrarederulimb', 35, '2019-02-04 06:52:23') /* Caster */;
+VALUES (30378, 'wandrarederulimb', 35, '2021-10-18 00:00:00') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30378,   1,      32768) /* ItemType - Caster */
@@ -9,14 +9,12 @@ VALUES (30378,   1,      32768) /* ItemType - Caster */
      , (30378,   5,        100) /* EncumbranceVal */
      , (30378,   8,         90) /* Mass */
      , (30378,   9,   16777216) /* ValidLocations - Held */
-     , (30378,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
+     , (30378,  16,     655364) /* ItemUseable */
      , (30378,  17,        188) /* RareId */
      , (30378,  18,         32) /* UiEffects - Fire */
      , (30378,  19,      50000) /* Value */
      , (30378,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
-     , (30378,  45,          2) /* DamageType - Pierce */
      , (30378,  46,        512) /* DefaultCombatStyle - Magic */
-     , (30378,  52,          1) /* ParentLocation */
      , (30378,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30378,  94,         16) /* TargetType - Creature */
      , (30378, 106,        350) /* ItemSpellcraft */
@@ -38,20 +36,16 @@ VALUES (30378,   4,          0) /* ItemTotalXp */
      , (30378,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30378,  11, True ) /* IgnoreCollisions */
-     , (30378,  13, True ) /* Ethereal */
-     , (30378,  14, True ) /* GravityStatus */
-     , (30378,  19, True ) /* Attackable */
-     , (30378,  22, True ) /* Inscribable */
-     , (30378, 100, False) /* Dyable */;
+VALUES (30378,  22, True ) /* Inscribable */
+     , (30378,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30378,   5, -0.0333333015441895) /* ManaRate */
-     , (30378,  12, 0.660000026226044) /* Shade */
-     , (30378,  29, 1.20000004768372) /* WeaponDefense */
-     , (30378,  39, 1.20000004768372) /* DefaultScale */
-     , (30378, 136,       1) /* CriticalMultiplier */
-     , (30378, 144, 0.200000002980232) /* ManaConversionMod */;
+VALUES (30378,   5, -0.033) /* ManaRate */
+     , (30378,  12,   0.66) /* Shade */
+     , (30378,  29,    1.2) /* WeaponDefense */
+     , (30378,  39,    1.2) /* DefaultScale */
+     , (30378, 136,      2) /* CriticalMultiplier */
+     , (30378, 144,    0.2) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30378,   1, 'Deru Limb') /* Name */
