@@ -5,12 +5,12 @@ VALUES (43631, 'ace43631-acidpit', 10, '2021-05-24 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43631,   1,         16) /* ItemType - Creature */
+     , (43631,   2,          1) /* CreatureType - Olthoi */
      , (43631,   5,        400) /* EncumbranceVal */
      , (43631,   6,         -1) /* ItemsCapacity */
      , (43631,   7,         -1) /* ContainersCapacity */
      , (43631,  16,         32) /* ItemUseable - Remote */
      , (43631,  19,          0) /* Value */
-     , (43631,  67,         40) /* Tolerance - Provoke, Target */
      , (43631,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (43631,  95,          3) /* RadarBlipColor - White */;
 
@@ -29,11 +29,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43631,   1, 'Acid Pit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43631,   1,   33558391) /* Setup */
-     , (43631,   2,  150995147) /* MotionTable */
-     , (43631,   3,  536870932) /* SoundTable */
-     , (43631,   8,  100675552) /* Icon */
-     , (43631,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43631,   1, 0x02000F77) /* Setup */
+     , (43631,   2, 0x090000CB) /* MotionTable */
+     , (43631,   3, 0x20000014) /* SoundTable */
+     , (43631,   8, 0x06002FE0) /* Icon */
+     , (43631,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (43631, 7 /* Use */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
