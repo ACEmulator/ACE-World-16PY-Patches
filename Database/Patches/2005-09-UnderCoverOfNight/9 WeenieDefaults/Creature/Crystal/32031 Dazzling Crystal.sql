@@ -98,12 +98,12 @@ VALUES (32031,  0,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000
      , (32031, 17,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31879) for ContainTreasure */
-     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31879) for ContainTreasure */
-     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31879) for ContainTreasure */
-     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31879) for ContainTreasure */
-     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31879) for ContainTreasure */
-     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31879) for ContainTreasure */
-     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31879) for ContainTreasure */
-     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31879) for ContainTreasure */
-     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31879) for ContainTreasure */;
+VALUES (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31880) for ContainTreasure */
+     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31880) for ContainTreasure */
+     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31880) for ContainTreasure */
+     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31880) for ContainTreasure */
+     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31880) for ContainTreasure */
+     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31880) for ContainTreasure */
+     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31880) for ContainTreasure */
+     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31880) for ContainTreasure */
+     , (32031, 9, 31880,  1, 0, 0, False) /* Create Dazzling Shard (31880) for ContainTreasure */;
