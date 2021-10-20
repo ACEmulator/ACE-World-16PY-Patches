@@ -98,12 +98,12 @@ VALUES (32030,  0,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000
      , (32030, 17,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31879) for ContainTreasure */
-     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31879) for ContainTreasure */
-     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31879) for ContainTreasure */
-     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31879) for ContainTreasure */
-     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31879) for ContainTreasure */
-     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31879) for ContainTreasure */
-     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31879) for ContainTreasure */
-     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31879) for ContainTreasure */
-     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31879) for ContainTreasure */;
+VALUES (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31881) for ContainTreasure */
+     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31881) for ContainTreasure */
+     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31881) for ContainTreasure */
+     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31881) for ContainTreasure */
+     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31881) for ContainTreasure */
+     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31881) for ContainTreasure */
+     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31881) for ContainTreasure */
+     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31881) for ContainTreasure */
+     , (32030, 9, 31881,  1, 0, 0, False) /* Create Brilliant Shard (31881) for ContainTreasure */;
