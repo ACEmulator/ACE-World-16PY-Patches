@@ -38,5 +38,6 @@ Refuse: 46622
     - AwardNoShareXP: 300,000,000
     - AwardLuminance: 31,000
     - Give: 38992
+    - Give: Trade Note (250,000) (20630), 35
     - AddCharacterTitle: Captain
     - DirectBroadcast: You have earned the title of "Captain".
