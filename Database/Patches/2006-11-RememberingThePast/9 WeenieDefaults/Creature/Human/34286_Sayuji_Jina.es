@@ -68,6 +68,7 @@ Give: Sealed Missive (87671)
 	- AwardXP: 25,500,000
 	- Give: 34341
 	- StampQuest: TanadaHouseofEarthCompleted
+	- StampQuest: TanadaHouseofWaterQuest_Flag
 	- EraseQuest: TanadaHouseofEarthStarted
 	- EraseQuest: TanadaHouseofEarth_Flag
 	- EraseQuest: TanadaHouseofStone_Flag
