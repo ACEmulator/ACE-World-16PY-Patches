@@ -1,2 +1,0 @@
-Activation:
-    - Motion: Twitch1

@@ -1,1 +1,0 @@
-UPDATE `event` SET `state` = '4' WHERE (`name` = 'TormentWard1Up');

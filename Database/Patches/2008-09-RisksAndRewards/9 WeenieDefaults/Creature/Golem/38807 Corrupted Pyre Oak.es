@@ -1,2 +1,0 @@
-Death:
-    - StartEvent: LordGrymarWin
