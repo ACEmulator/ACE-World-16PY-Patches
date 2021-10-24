@@ -25,6 +25,7 @@ VALUES (0x717B2004, 0x717B2003, '2005-02-09 10:00:00') /* Ling Xiao the Collecto
      , (0x717B2004, 0x717B2007, '2005-02-09 10:00:00') /* Behdo Yii (10842) */
      , (0x717B2004, 0x717B200F, '2005-02-09 10:00:00') /* Town Crier (5772) */
      , (0x717B2004, 0x717B2010, '2005-02-09 10:00:00') /* Bachus Flufens (11322) */
+     , (0x717B2004, 0x717B2011, '2005-02-09 10:00:00') /* Afra bint Abbas (31648) */
      , (0x717B2004, 0x717B2013, '2005-02-09 10:00:00') /* Guard Liaza (37440) */
      , (0x717B2004, 0x717B2014, '2005-02-09 10:00:00') /* Piero Cenizzi (32069) */
      , (0x717B2004, 0x717B2015, '2005-02-09 10:00:00') /* Susana du Loc (32109) */
@@ -73,7 +74,7 @@ VALUES (0x717B2010, 11322, 0x17B20000, 127.606, 65.2235, 49.205, -0.531658, 0, 0
 /* @teleloc 0x17B20000 [127.606003 65.223503 49.205002] -0.531658 0.000000 0.000000 -0.846959 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x717B2011, 31648, 0x17B2002B, 135.931, 70.4125, 44.005, -0.992339, 0, 0, 0.123543, False, '2019-03-23 02:20:17'); /* Afra bint Abbas */
+VALUES (0x717B2011, 31648, 0x17B2002B, 135.931, 70.4125, 44.005, -0.992339, 0, 0, 0.123543, True, '2019-03-23 02:20:17'); /* Afra bint Abbas */
 /* @teleloc 0x17B2002B [135.931000 70.412498 44.005001] -0.992339 0.000000 0.000000 0.123543 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
