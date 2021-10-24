@@ -23,8 +23,7 @@ VALUES (43274,   1,          2) /* ItemType - Armor */
      , (43274, 114,          0) /* Attuned - Normal */
      , (43274, 158,          7) /* WieldRequirements - Level */
      , (43274, 159,          1) /* WieldSkillType - Axe */
-     , (43274, 160,        180) /* WieldDifficulty */
-     , (43274, 9013,     81664) /* VisualClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */;
+     , (43274, 160,        180) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43274,  22, True ) /* Inscribable */
@@ -33,15 +32,15 @@ VALUES (43274,  22, True ) /* Inscribable */
      , (43274, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43274,   5, -0.5) /* ManaRate */
-     , (43274,  13,  0.6) /* ArmorModVsSlash */
-     , (43274,  14,  0.6) /* ArmorModVsPierce */
-     , (43274,  15,  0.6) /* ArmorModVsBludgeon */
-     , (43274,  16,  0.6) /* ArmorModVsCold */
-     , (43274,  17,  0.6) /* ArmorModVsFire */
-     , (43274,  18,  0.6) /* ArmorModVsAcid */
-     , (43274,  19,  0.6) /* ArmorModVsElectric */
-     , (43274, 165,    1) /* ArmorModVsNether */;
+VALUES (43274,   5,    -0.5) /* ManaRate */
+     , (43274,  13,     0.6) /* ArmorModVsSlash */
+     , (43274,  14,     0.6) /* ArmorModVsPierce */
+     , (43274,  15,     0.6) /* ArmorModVsBludgeon */
+     , (43274,  16,     0.6) /* ArmorModVsCold */
+     , (43274,  17,     0.6) /* ArmorModVsFire */
+     , (43274,  18,     0.6) /* ArmorModVsAcid */
+     , (43274,  19,     0.6) /* ArmorModVsElectric */
+     , (43274, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43274,   1, 'Empyrean Over-robe') /* Name */
@@ -52,21 +51,21 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43274,   1,   33554854) /* Setup */
      , (43274,   3,  536870932) /* SoundTable */
      , (43274,   6,   67108990) /* PaletteBase */
-     , (43274,   7,  268436460) /* ClothingBase */
+     , (43274,   7,  268437178) /* ClothingBase */
      , (43274,   8,  100689362) /* Icon */
      , (43274,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43274,  2624,      2)  /* Major Mana Gain */
+VALUES (43274,  2350,      2)  /* Greater Decay Durance */
+     , (43274,  2351,      2)  /* Greater Consumption Durance */
+     , (43274,  2352,      2)  /* Greater Stasis Durance */
+     , (43274,  2353,      2)  /* Greater Stimulation Durance */
+     , (43274,  2623,      2)  /* Major Health Gain */
+     , (43274,  2624,      2)  /* Major Mana Gain */
      , (43274,  2625,      2)  /* Major Stamina Gain */
-     , (43274,  4226,      2)  /* Epic Endurance */
      , (43274,  2960,      2)  /* Greater Bludgeoning Durance */
      , (43274,  2961,      2)  /* Greater Piercing Durance */
      , (43274,  2962,      2)  /* Greater Slashing Durance */
      , (43274,  4059,      2)  /* Endurance Other Incantation */
      , (43274,  4062,      2)  /* Empyrean Aegis */
-     , (43274,  2350,      2)  /* Greater Decay Durance */
-     , (43274,  2351,      2)  /* Greater Consumption Durance */
-     , (43274,  2352,      2)  /* Greater Stasis Durance */
-     , (43274,  2353,      2)  /* Greater Stimulation Durance */
-     , (43274,  2623,      2)  /* Major Health Gain */;
+     , (43274,  4226,      2)  /* Epic Endurance */;
