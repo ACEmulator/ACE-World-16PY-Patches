@@ -41,3 +41,16 @@ Not as adept in the culinary arts but almost as deserving of mention:
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5412,   1, 0x02000153) /* Setup */
      , (5412,   8, 0x060012D5) /* Icon */;
+
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (5412, 1, 2000);
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (5412, 0, 4294967295, ' ', 'prewritten', False, 'The Confectioners
+
+Cooking is both an art and a science, easy to understand and yet difficult to master.  This book is dedicated to those cooks that have graced the land of Dereth with succulent cuisine fit for Asheron himself.
+
+%S
+
+This list of cooks was last updated on %D
+');

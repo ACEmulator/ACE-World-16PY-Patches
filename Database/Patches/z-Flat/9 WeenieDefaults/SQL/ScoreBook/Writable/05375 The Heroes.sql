@@ -45,3 +45,18 @@ followed by:
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5375,   1, 0x02000290) /* Setup */
      , (5375,   8, 0x060012D3) /* Icon */;
+
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (5375, 2, 2000);
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (5375, 0, 4294967295, ' ', 'prewritten', False, 'The Heroes
+
+No one will argue that experience in adventuring is the key to survival in the hostilities of Dereth.  Having faced an Olthoi and lived to tell the tale greatly increases one''s chance of living through a second encounter.  In that sense, the most powerful ones that walk the land are the ones that have seen the most, felt the most, and done the most.  The pages of this book contain the names of the most revered men and women in Dereth .. those who have seen and done what most can only dream of.
+
+(more)
+')
+     , (5375, 1, 4294967295, '', 'prewritten', False, '
+As of %D, %S
+
+');

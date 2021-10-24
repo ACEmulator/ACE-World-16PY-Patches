@@ -37,6 +37,10 @@ VALUES (72059,   1, 0x02000450) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (72059,  16, 0x00000000) /* ActivationTarget */;
 
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (72059, 31, 0, 3, 0, 999, 0, 1640.91) /* CreatureEnchantment Specialized */
+     , (72059, 33, 0, 3, 0, 999, 0, 1640.91) /* LifeMagic           Specialized */;
+
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (72059,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

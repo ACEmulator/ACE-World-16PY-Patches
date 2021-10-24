@@ -43,3 +43,17 @@ Even after their bodies have desiccated, these great minds shall live on in the 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5410,   1, 0x02000153) /* Setup */
      , (5410,   8, 0x060012D5) /* Icon */;
+
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (5410, 1, 2000);
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (5410, 0, 4294967295, ' ', 'prewritten', False, 'The Wise
+
+As one travels through Dereth, one quickly learns the value of a sharp mind and its ability to concentrate.  Those who have honed their mental prowess to be sharper than the finest sword deserve mention for their achievements.
+
+%S
+
+So it be this %D
+
+');

@@ -41,9 +41,9 @@ INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`
 VALUES (35672, 67111920, 0, 0);
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (35672, 0, 83886709, 83886709)
-     , (35672, 0, 83888778, 83888778)
-     , (35672, 0, 83889235, 83889235);
+VALUES (35672, 0, 83889235, 83889235)
+     , (35672, 0, 83886709, 83886709)
+     , (35672, 0, 83888778, 83888778);
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (35672, 0, 16784608);
