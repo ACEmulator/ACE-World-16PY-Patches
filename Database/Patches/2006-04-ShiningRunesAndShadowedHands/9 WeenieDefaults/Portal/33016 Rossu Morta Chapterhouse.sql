@@ -24,9 +24,13 @@ VALUES (33016,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33016,   1, 'Rossu Morta Chapterhouse') /* Name */
-     , (33016,  38, 'Rossu Morta Chapterhouse') /* AppraisalPortalDestination */;
+     , (33016,  37, 'RossuMortaChapterhouse_Flag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33016,   1,   33554867) /* Setup */
      , (33016,   2,  150994947) /* MotionTable */
      , (33016,   8,  100667499) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (33016, 2, 8388904, 80, -10, 0.005, 0, 0, 0, -1) /* Destination */
+/* @teleloc 0x00800128 [80.000000 -10.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */;
