@@ -1,0 +1,30 @@
+DELETE FROM `weenie` WHERE `class_Id` = 87287;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (87287, 'ace87287-NorthCataUpperGurukGen', 1, '2019-03-27 00:06:48') /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (87287,  81,          2) /* MaxGeneratedObjects */
+     , (87287,  82,          2) /* InitGeneratedObjects */
+     , (87287,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (87287,   1, True ) /* Stuck */
+     , (87287,  11, True ) /* IgnoreCollisions */
+     , (87287,  18, True ) /* Visibility */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (87287,  41,     300) /* RegenerationInterval */
+     , (87287,  43,       3) /* GeneratorRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (87287,   1, 'Northern Catacombs Upper Guruk Generator') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (87287,   1,   33555051) /* Setup */
+     , (87287,   8,  100667494) /* Icon */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (87287, 0.25, 34833, 900, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blue Glow Mushroom (34833) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87287, 0.99, 34791, 900, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Guruk Marauder (34791) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (87287, 0.99, 34788, 900, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Guruk Hatchling (34788) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
