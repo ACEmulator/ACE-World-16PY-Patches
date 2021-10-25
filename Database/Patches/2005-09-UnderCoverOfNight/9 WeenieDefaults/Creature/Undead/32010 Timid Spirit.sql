@@ -23,7 +23,7 @@ VALUES (32010,   1, True ) /* Stuck */
      , (32010,  41, True ) /* ReportCollisionsAsEnvironment */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32010,  12,       0) /* Shade */
+VALUES (32010,  12,     0.9) /* Shade */
      , (32010,  76, 0.899999976158142) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

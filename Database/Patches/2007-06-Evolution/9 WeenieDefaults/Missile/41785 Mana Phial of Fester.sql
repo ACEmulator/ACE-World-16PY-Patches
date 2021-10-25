@@ -49,7 +49,7 @@ VALUES (41785,  21,       0) /* WeaponLength */
      , (41785,  63,       1) /* DamageMod */
      , (41785,  78,       1) /* Friction */
      , (41785,  79,       0) /* Elasticity */
-	 , (41785, 156,       1) /* ProcSpellRate */;
+     , (41785, 156,       1) /* ProcSpellRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41785,   1, 'Mana Phial of Fester') /* Name */
@@ -64,7 +64,7 @@ VALUES (41785,   1,   33560312) /* Setup */
      , (41785,   8,  100690318) /* Icon */
      , (41785,  22,  872415275) /* PhysicsEffectTable */
      , (41785,  50,  100690194) /* IconOverlay */
-     , (41785,  55,       2178) /* ProcSpell - FesterOther7 */;
+     , (41785,  55,       2178) /* ProcSpell - Decrepitude's Grasp */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41785,  4017,      2) /* Phial's Accuracy */;
+VALUES (41785,  4017,      2)  /* Phial's Accuracy */;

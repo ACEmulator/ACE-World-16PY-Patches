@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70021;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70021, 'ace70021-greenbloodgemfragment', 44, '2019-03-27 07:14:36') /* CraftTool */;
+VALUES (70021, 'ace70021-greenbloodgemfragment', 44, '2021-09-03 04:12:33') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70021,   1,        128) /* ItemType - Misc */
@@ -25,7 +25,7 @@ VALUES (70021,  39,       1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (70021,   1, 'Green Blood Gem Fragment') /* Name */
-     , (70021,  14, 'Combine the Green Blood Gem Fragment with the Large Blood Gem Fragment.') /* Use */
+     , (70021,  14, 'Combine the Green Blood Gem Fragment with the Blue Bood Gem Fragment.') /* Use */
      , (70021,  16, 'A green fragment of the Blood Gem of Rikt Zir.') /* LongDesc */
      , (70021,  33, 'greenbloodgem') /* Quest */;
 
@@ -36,3 +36,4 @@ VALUES (70021,   1,   33554809) /* Setup */
      , (70021,   7,  268435723) /* ClothingBase */
      , (70021,   8,  100687776) /* Icon */
      , (70021,  22,  872415275) /* PhysicsEffectTable */;
+

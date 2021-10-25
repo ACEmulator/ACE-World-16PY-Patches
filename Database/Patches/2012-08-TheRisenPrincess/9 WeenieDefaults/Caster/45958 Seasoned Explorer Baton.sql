@@ -59,4 +59,4 @@ VALUES (45958,  2560,      2)  /* Minor Mana Conversion Prowess */
      , (45958,  1605,      2)  /* Aura of Defender Self VI */
      , (45958,  2569,      2)  /* Minor War Magic Aptitude */
      , (45958,   664,      2)  /* Mana Conversion Mastery Other VI */
-     , (45958,  2158,      2)  /* Aura of Spirit Drinker Self VI */;
+     , (45958,  3258,      2)  /* Aura of Spirit Drinker Self VI */;

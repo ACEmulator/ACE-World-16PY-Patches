@@ -5,10 +5,10 @@ VALUES (36738, 'ace36738-concentratedslashinginfusion', 44, '2019-05-26 00:00:00
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36738,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
-     , (36738,   5,         10) /* EncumbranceVal */
+     , (36738,   5,          0) /* EncumbranceVal */
      , (36738,  11,        100) /* MaxStackSize */
      , (36738,  12,          1) /* StackSize */
-     , (36738,  13,         10) /* StackUnitEncumbrance */
+     , (36738,  13,          0) /* StackUnitEncumbrance */
      , (36738,  15,        500) /* StackUnitValue */
      , (36738,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36738,  19,        500) /* Value */
@@ -24,7 +24,7 @@ VALUES (36738,   1, False) /* Stuck */
      , (36738,  13, True ) /* Ethereal */
      , (36738,  14, True ) /* GravityStatus */
      , (36738,  19, True ) /* Attackable */
-	 , (36738,  69, False) /* IsSellable */;
+     , (36738,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36738,   1, 'Concentrated Slashing Infusion') /* Name */

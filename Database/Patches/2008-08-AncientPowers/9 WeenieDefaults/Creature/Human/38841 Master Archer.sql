@@ -15,7 +15,7 @@ VALUES (38841,   1,         16) /* ItemType - Creature */
      , (38841, 101,     524288) /* AiAllowedCombatStyle - StubbornMissile */
      , (38841, 113,          1) /* Gender - Male */
      , (38841, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (38841, 146,    1400000) /* XpOverride */
+     , (38841, 146,          0) /* XpOverride */
      , (38841, 188,          1) /* HeritageGroup - Aluvian */
      , (38841, 281,          4) /* Faction1Bits */
      , (38841, 289,       1001) /* SocietyRankRadblo */;

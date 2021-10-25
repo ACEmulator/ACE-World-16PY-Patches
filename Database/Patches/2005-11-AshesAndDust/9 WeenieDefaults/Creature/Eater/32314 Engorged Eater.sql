@@ -1,12 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32314;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32314, 'ace32314-eaterengorged', 10, '2019-11-21 00:00:00') /* Creature */;
+VALUES (32314, 'ace32314-eaterengorged', 10, '2020-03-20 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32314,   1,         16) /* ItemType - Creature */
      , (32314,   2,         79) /* CreatureType - Eater */
-     , (32314,   3,         13) /* PaletteTemplate - Purple */
+     , (32314,   3,         77) /* PaletteTemplate - BlueGreen */
      , (32314,   6,         -1) /* ItemsCapacity */
      , (32314,   7,         -1) /* ContainersCapacity */
      , (32314,  16,          1) /* ItemUseable - No */
@@ -19,35 +19,32 @@ VALUES (32314,   1,         16) /* ItemType - Creature */
      , (32314, 146,      30000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32314,   1, True ) /* Stuck */
-     , (32314,  11, False) /* IgnoreCollisions */
-     , (32314,  12, True ) /* ReportCollisions */
-     , (32314,  13, False) /* Ethereal */;
+VALUES (32314,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32314,   1,       5) /* HeartbeatInterval */
      , (32314,   2,       0) /* HeartbeatTimestamp */
-     , (32314,   3, 0.0670000016689301) /* HealthRate */
+     , (32314,   3,   0.067) /* HealthRate */
      , (32314,   4,       3) /* StaminaRate */
      , (32314,   5,       1) /* ManaRate */
      , (32314,  12,     0.5) /* Shade */
-     , (32314,  13, 0.699999988079071) /* ArmorModVsSlash */
-     , (32314,  14, 0.699999988079071) /* ArmorModVsPierce */
-     , (32314,  15, 1.39999997615814) /* ArmorModVsBludgeon */
+     , (32314,  13,     0.7) /* ArmorModVsSlash */
+     , (32314,  14,     0.7) /* ArmorModVsPierce */
+     , (32314,  15,     1.4) /* ArmorModVsBludgeon */
      , (32314,  16,       1) /* ArmorModVsCold */
      , (32314,  17,       1) /* ArmorModVsFire */
-     , (32314,  18, 1.39999997615814) /* ArmorModVsAcid */
+     , (32314,  18,     1.4) /* ArmorModVsAcid */
      , (32314,  19,       1) /* ArmorModVsElectric */
      , (32314,  31,      12) /* VisualAwarenessRange */
      , (32314,  34,       1) /* PowerupTime */
      , (32314,  36,       1) /* ChargeSpeed */
-     , (32314,  39,       1) /* DefaultScale */
-     , (32314,  64, 1.20000004768372) /* ResistSlash */
-     , (32314,  65, 1.20000004768372) /* ResistPierce */
-     , (32314,  66, 0.600000023841858) /* ResistBludgeon */
+     , (32314,  39,     1.1) /* DefaultScale */
+     , (32314,  64,     1.2) /* ResistSlash */
+     , (32314,  65,     1.2) /* ResistPierce */
+     , (32314,  66,     0.6) /* ResistBludgeon */
      , (32314,  67,       1) /* ResistFire */
      , (32314,  68,       1) /* ResistCold */
-     , (32314,  69, 0.600000023841858) /* ResistAcid */
+     , (32314,  69,     0.6) /* ResistAcid */
      , (32314,  70,       1) /* ResistElectric */
      , (32314,  71,       1) /* ResistHealthBoost */
      , (32314,  72,       1) /* ResistStaminaDrain */
@@ -87,8 +84,8 @@ VALUES (32314,   1,   200, 0, 0, 380) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (32314,  6, 0, 3, 0, 175, 0, 0) /* MeleeDefense        Specialized */
      , (32314,  7, 0, 3, 0, 300, 0, 0) /* MissileDefense      Specialized */
-     , (32314, 45, 0, 3, 0, 165, 0, 0) /* LightWeapons        Specialized */
-     , (32314, 15, 0, 3, 0, 215, 0, 0) /* MagicDefense        Specialized */;
+     , (32314, 15, 0, 3, 0, 215, 0, 0) /* MagicDefense        Specialized */
+     , (32314, 45, 0, 3, 0, 165, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (32314,  0,  2, 90,    0,  400,  280,  280,  560,  400,  400,  560,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

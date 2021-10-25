@@ -119,3 +119,7 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51750,  2074,   2.05)  /* Gossamer Flesh */
      , (51750,  2172,   2.053)  /* Astyrrian's Gift */
      , (51750,  3989,   2.056)  /* Dark Lightning */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51750, 8, 51854,  1, 0, 0.03, False) /* Mask for Treasure */
+	 , (51750, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

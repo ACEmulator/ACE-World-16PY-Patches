@@ -16,14 +16,16 @@ VALUES (30368,   1,          2) /* ItemType - Armor */
      , (30368,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30368,  27,          2) /* ArmorType - Leather */
      , (30368,  28,        500) /* ArmorLevel */
-     , (30368,  53,        101) /* PlacementPosition - Resting */
+     , (30368,  44,          6) /* Damage */
+     , (30368,  45,          4) /* DamageType - Bludgeon */
      , (30368,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30368, 106,        650) /* ItemSpellcraft */
      , (30368, 107,       2400) /* ItemCurMana */
      , (30368, 108,       2400) /* ItemMaxMana */
      , (30368, 109,          0) /* ItemDifficulty */
      , (30368, 110,          0) /* ItemAllegianceRankLimit */
-     , (30368, 151,          2) /* HookType - Wall */
+     , (30368, 150,        103) /* HookPlacement - Hook */
+     , (30368, 151,          1) /* HookType - Floor */
      , (30368, 169,  118162702) /* TsysMutationData */
      , (30368, 265,         40) /* EquipmentSetId - RareDamageResistance */
      , (30368, 319,         50) /* ItemMaxLevel */
@@ -34,24 +36,19 @@ VALUES (30368,   4,          0) /* ItemTotalXp */
      , (30368,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30368,  11, True ) /* IgnoreCollisions */
-     , (30368,  13, True ) /* Ethereal */
-     , (30368,  14, True ) /* GravityStatus */
-     , (30368,  19, True ) /* Attackable */
-     , (30368,  22, True ) /* Inscribable */
+VALUES (30368,  22, True ) /* Inscribable */
      , (30368, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30368,   5, -0.0333333015441895) /* ManaRate */
-     , (30368,  12, 0.660000026226044) /* Shade */
-     , (30368,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (30368,  14, 0.899999976158142) /* ArmorModVsPierce */
-     , (30368,  15, 1.29999995231628) /* ArmorModVsBludgeon */
+VALUES (30368,   5,  -0.033) /* ManaRate */
+     , (30368,  13,     1.3) /* ArmorModVsSlash */
+     , (30368,  14,     0.9) /* ArmorModVsPierce */
+     , (30368,  15,     1.3) /* ArmorModVsBludgeon */
      , (30368,  16,       1) /* ArmorModVsCold */
-     , (30368,  17, 0.899999976158142) /* ArmorModVsFire */
-     , (30368,  18, 0.899999976158142) /* ArmorModVsAcid */
-     , (30368,  19, 0.899999976158142) /* ArmorModVsElectric */
-     , (30368, 110, 1.66999995708466) /* BulkMod */
+     , (30368,  17,     0.9) /* ArmorModVsFire */
+     , (30368,  18,     0.9) /* ArmorModVsAcid */
+     , (30368,  19,     0.9) /* ArmorModVsElectric */
+     , (30368, 110,    1.67) /* BulkMod */
      , (30368, 111,       1) /* SizeMod */
      , (30368, 165,       1) /* ArmorModVsNether */;
 

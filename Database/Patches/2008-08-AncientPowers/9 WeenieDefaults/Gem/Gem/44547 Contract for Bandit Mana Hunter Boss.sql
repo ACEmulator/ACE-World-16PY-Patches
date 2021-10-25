@@ -27,6 +27,7 @@ VALUES (44547, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44547,   1, 'Contract for Bandit Mana Hunter Boss') /* Name */
+     , (44547,  14, 'Recommended Level: 180') /* Use */
      , (44547,  16, 'The Bandit Mana Hunter Boss must be slain.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

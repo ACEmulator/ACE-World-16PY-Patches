@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38651;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38651, 'ace38651-blightedmuckymoarsman', 10, '2020-07-23 03:33:40') /* Creature */;
+VALUES (38651, 'ace38651-blightedmuckymoarsman', 10, '2021-07-27 03:33:40') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38651,   1,         16) /* ItemType - Creature */
@@ -14,7 +14,7 @@ VALUES (38651,   1,         16) /* ItemType - Creature */
      , (38651,  27,          0) /* ArmorType - None */
      , (38651,  40,          2) /* CombatMode - Melee */
      , (38651,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
-     , (38651,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (38651,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (38651, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (38651, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (38651, 140,          1) /* AiOptions - CanOpenDoors */

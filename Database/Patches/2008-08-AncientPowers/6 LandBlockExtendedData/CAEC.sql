@@ -116,12 +116,7 @@ VALUES (0x7CAEC002,  1154, 0xCAEC0009, 41.6688, 10.7998, 98.68282, -0.832131, 0,
 /* @teleloc 0xCAEC0009 [41.668800 10.799800 98.682820] -0.832131 0.000000 0.000000 -0.554579 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAEC002, 0x7CAEC003, '2019-02-10 00:00:00') /* Exploration Marker (39776) */
-     , (0x7CAEC002, 0x7CAEC004, '2019-02-10 00:00:00') /* Rock (38777) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CAEC003, 39776, 0xCAEC0009, 41.6688, 10.7998, 98.68282, -0.832131, 0, 0, -0.554579,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
-/* @teleloc 0xCAEC0009 [41.668800 10.799800 98.682820] -0.832131 0.000000 0.000000 -0.554579 */
+VALUES (0x7CAEC002, 0x7CAEC004, '2019-02-10 00:00:00') /* Rock (38777) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAEC004, 38777, 0xCAEC0009, 29.1335, 14.5971, 102.2888, 0.0736817, 0, 0, -0.997282,  True, '2019-02-10 00:00:00'); /* Rock */

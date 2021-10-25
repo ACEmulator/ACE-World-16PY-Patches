@@ -17,8 +17,7 @@ VALUES (52309,   1,         16) /* ItemType - Creature */
      , (52309, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (52309, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (52309, 140,          1) /* AiOptions - CanOpenDoors */
-     , (52309, 146,    2200000) /* XpOverride */
-     , (52309, 332,        120) /* LuminanceAward */;
+     , (52309, 146,    2200000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52309,   1, True ) /* Stuck */
@@ -46,7 +45,6 @@ VALUES (52309,   1,       5) /* HeartbeatInterval */
      , (52309,  31,      25) /* VisualAwarenessRange */
      , (52309,  34,       1) /* PowerupTime */
      , (52309,  36,       1) /* ChargeSpeed */
-     , (52309,  55,      75) /* HomeRadius */
      , (52309,  64,    0.58) /* ResistSlash */
      , (52309,  65,    0.58) /* ResistPierce */
      , (52309,  66,    0.66) /* ResistBludgeon */
@@ -54,7 +52,6 @@ VALUES (52309,   1,       5) /* HeartbeatInterval */
      , (52309,  68,     0.3) /* ResistCold */
      , (52309,  69,    0.42) /* ResistAcid */
      , (52309,  70,     0.4) /* ResistElectric */
-     , (52309, 166,    0.82) /* ResistNether */
      , (52309,  71,       1) /* ResistHealthBoost */
      , (52309,  72,       1) /* ResistStaminaDrain */
      , (52309,  73,       1) /* ResistStaminaBoost */
@@ -63,7 +60,8 @@ VALUES (52309,   1,       5) /* HeartbeatInterval */
      , (52309,  80,       1) /* AiUseMagicDelay */
      , (52309, 104,      10) /* ObviousRadarRange */
      , (52309, 122,       2) /* AiAcquireHealth */
-     , (52309, 125,       1) /* ResistHealthDrain */;
+     , (52309, 125,       1) /* ResistHealthDrain */
+     , (52309, 166,    0.82) /* ResistNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52309,   1, 'Pyre Champion') /* Name */
@@ -78,7 +76,7 @@ VALUES (52309,   1,   33560229) /* Setup */
      , (52309,   7,  268437008) /* ClothingBase */
      , (52309,   8,  100669124) /* Icon */
      , (52309,  22,  872415269) /* PhysicsEffectTable */
-     , (52309,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
+     , (52309,  35,       1015) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (52309,   1, 500, 0, 0) /* Strength */
@@ -125,10 +123,10 @@ VALUES (52309,  2170,    2.05)  /* Inferno's Gift */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52309, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */
      , (52309, 2, 52142,  1, 0, 0, False) /* Create Round Shield (52142) for Wield */
-     , (52309, 9, 38714,  0, 0, 0.20, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
-     , (52309, 9,     0,  0, 0, 0.80, False) /* Create nothing for ContainTreasure */
-     , (52309, 9, 35105,  1, 0, 0.20, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (52309, 9,     0,  0, 0, 0.80, False) /* Create nothing for ContainTreasure */
+     , (52309, 9, 38714,  0, 0, 1, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
+     , (52309, 9, 35105,  0, 0, 1, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (52309, 9, 35105,  1, 0, 0.3, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (52309, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */
      , (52309, 9, 48908,  0, 0, 0.06, False) /* Create Shattered Legendary Key (48908) for ContainTreasure */
      , (52309, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */
      , (52309, 9, 35383,  0, 0, 0.02, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */

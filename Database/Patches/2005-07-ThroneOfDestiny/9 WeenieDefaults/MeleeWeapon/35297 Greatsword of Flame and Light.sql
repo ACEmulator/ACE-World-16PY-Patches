@@ -19,8 +19,6 @@ VALUES (35297,   1,          1) /* ItemType - MeleeWeapon */
      , (35297,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (35297,  49,          1) /* WeaponTime */
      , (35297,  51,          1) /* CombatUse - Melee */
-     , (35297,  52,          1) /* ParentLocation */
-     , (35297,  53,          1) /* PlacementPosition */
      , (35297,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35297, 106,        400) /* ItemSpellcraft */
      , (35297, 108,       2000) /* ItemMaxMana */
@@ -34,20 +32,17 @@ VALUES (35297,   1,          1) /* ItemType - MeleeWeapon */
      , (35297, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35297,  11, True ) /* IgnoreCollisions */
-     , (35297,  13, True ) /* Ethereal */
-     , (35297,  14, True ) /* GravityStatus */
-     , (35297,  19, True ) /* Attackable */
-     , (35297,  69, False) /* IsSellable */;
+VALUES (35297,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35297,   5, -0.0500000007450581) /* ManaRate */
+VALUES (35297,   5,   -0.05) /* ManaRate */
      , (35297,  21,       2) /* WeaponLength */
      , (35297,  22,     0.5) /* DamageVariance */
      , (35297,  26,       0) /* MaximumVelocity */
-     , (35297,  29, 1.17999994754791) /* WeaponDefense */
-     , (35297,  62, 1.48000001907349) /* WeaponOffense */
-     , (35297,  63,       1) /* DamageMod */;
+     , (35297,  29,    1.18) /* WeaponDefense */
+     , (35297,  62,    1.48) /* WeaponOffense */
+     , (35297,  63,       1) /* DamageMod */
+     , (35297, 138,       3) /* SlayerDamageBonus */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35297,   1, 'Greatsword of Flame and Light') /* Name */

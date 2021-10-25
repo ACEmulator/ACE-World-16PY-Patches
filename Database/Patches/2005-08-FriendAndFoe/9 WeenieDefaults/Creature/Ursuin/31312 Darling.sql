@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31312;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31312, 'ace31312-darling', 10, '2019-04-09 23:37:09') /* Creature */;
+VALUES (31312, 'ace31312-darling', 10, '2021-03-20 23:37:09') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31312,   1,         16) /* ItemType - Creature */
@@ -21,12 +21,7 @@ VALUES (31312,   1,         16) /* ItemType - Creature */
      , (31312, 146,     500000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31312,   1, True ) /* Stuck */
-     , (31312,  11, False) /* IgnoreCollisions */
-     , (31312,  12, True ) /* ReportCollisions */
-     , (31312,  13, False) /* Ethereal */
-     , (31312,  14, True ) /* GravityStatus */
-     , (31312,  19, True ) /* Attackable */;
+VALUES (31312,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31312,   1,       5) /* HeartbeatInterval */
@@ -35,24 +30,24 @@ VALUES (31312,   1,       5) /* HeartbeatInterval */
      , (31312,   4,      20) /* StaminaRate */
      , (31312,   5,       1) /* ManaRate */
      , (31312,  12,       0) /* Shade */
-     , (31312,  13, 0.560000002384186) /* ArmorModVsSlash */
-     , (31312,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (31312,  15, 0.560000002384186) /* ArmorModVsBludgeon */
-     , (31312,  16, 0.560000002384186) /* ArmorModVsCold */
-     , (31312,  17, 0.730000019073486) /* ArmorModVsFire */
-     , (31312,  18, 0.560000002384186) /* ArmorModVsAcid */
-     , (31312,  19, 0.560000002384186) /* ArmorModVsElectric */
+     , (31312,  13,    0.56) /* ArmorModVsSlash */
+     , (31312,  14,     0.8) /* ArmorModVsPierce */
+     , (31312,  15,    0.56) /* ArmorModVsBludgeon */
+     , (31312,  16,    0.56) /* ArmorModVsCold */
+     , (31312,  17,    0.73) /* ArmorModVsFire */
+     , (31312,  18,    0.56) /* ArmorModVsAcid */
+     , (31312,  19,    0.56) /* ArmorModVsElectric */
      , (31312,  31,      24) /* VisualAwarenessRange */
      , (31312,  34,       1) /* PowerupTime */
      , (31312,  36,       1) /* ChargeSpeed */
-     , (31312,  39, 1.20000004768372) /* DefaultScale */
-     , (31312,  64, 0.579999983310699) /* ResistSlash */
+     , (31312,  39,     1.8) /* DefaultScale */
+     , (31312,  64,    0.58) /* ResistSlash */
      , (31312,  65,       1) /* ResistPierce */
-     , (31312,  66, 0.579999983310699) /* ResistBludgeon */
-     , (31312,  67, 0.860000014305115) /* ResistFire */
-     , (31312,  68, 0.579999983310699) /* ResistCold */
-     , (31312,  69, 0.579999983310699) /* ResistAcid */
-     , (31312,  70, 0.579999983310699) /* ResistElectric */
+     , (31312,  66,    0.58) /* ResistBludgeon */
+     , (31312,  67,    0.86) /* ResistFire */
+     , (31312,  68,    0.58) /* ResistCold */
+     , (31312,  69,    0.58) /* ResistAcid */
+     , (31312,  70,    0.58) /* ResistElectric */
      , (31312,  71,       1) /* ResistHealthBoost */
      , (31312,  72,       1) /* ResistStaminaDrain */
      , (31312,  73,       1) /* ResistStaminaBoost */

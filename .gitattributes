@@ -15,3 +15,6 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+*.sql linguist-language=SQL linguist-detectable=true
+*.es linguist-language=YML linguist-detectable=true

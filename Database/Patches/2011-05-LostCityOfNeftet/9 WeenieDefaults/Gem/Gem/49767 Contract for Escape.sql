@@ -12,14 +12,14 @@ VALUES (49767,   1,       2048) /* ItemType - Gem */
      , (49767,  16,          8) /* ItemUseable - Contained */
      , (49767,  18,          2) /* UiEffects - Poisoned */
      , (49767,  19,        100) /* Value */
-	 , (49767,  33,          1) /* Bonded - Bonded */
+     , (49767,  33,          1) /* Bonded - Bonded */
      , (49767,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (49767,  94,         16) /* TargetType - Creature */
-	 , (49767, 114,          1) /* Attuned - Attuned */
-	 , (49767, 279,          1) /* Unique */
+     , (49767, 114,          1) /* Attuned - Attuned */
+     , (49767, 279,          1) /* Unique */
      , (49767, 280,        100) /* SharedCooldown */
-     , (49767, 349,        276) /* UseCreatesContractId */;
-	 
+     , (49767, 349,        276) /* UseCreatesContractId - Contract_276_Escape */;
+
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49767,   1, False) /* Stuck */
      , (49767,  11, True ) /* IgnoreCollisions */
@@ -34,6 +34,7 @@ VALUES (49767, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49767,   1, 'Contract for Escape') /* Name */
+     , (49767,  14, 'Recommended Level: 200') /* Use */
      , (49767,  16, 'Investigate the disturbance in Neftet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -41,6 +42,3 @@ VALUES (49767,   1,   33557625) /* Setup */
      , (49767,   3,  536870932) /* SoundTable */
      , (49767,   8,  100691928) /* Icon */
      , (49767,  22,  872415275) /* PhysicsEffectTable */;
-	 
-
-

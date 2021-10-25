@@ -11,7 +11,7 @@ VALUES (51968,   1,          1) /* ItemType - MeleeWeapon */
      , (51968,  18,          1) /* UiEffects - Magical */
      , (51968,  19,          0) /* Value */
      , (51968,  33,          1) /* Bonded - Bonded */
-     , (51968,  44,         65) /* Damage */
+     , (51968,  44,         41) /* Damage */
      , (51968,  45,         16) /* DamageType - Fire */
      , (51968,  46,          8) /* DefaultCombatStyle - TwoHanded */
      , (51968,  47,          2) /* AttackType - Thrust */

@@ -14,8 +14,6 @@ VALUES (24207,   1,      32768) /* ItemType - Caster */
      , (24207,  33,          1) /* Bonded - Bonded */
      , (24207,  36,       9999) /* ResistMagic */
      , (24207,  46,        512) /* DefaultCombatStyle - Magic */
-     , (24207,  52,          1) /* ParentLocation */
-     , (24207,  53,        101) /* PlacementPosition */
      , (24207,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24207,  94,         16) /* TargetType - Creature */
      , (24207, 106,        325) /* ItemSpellcraft */
@@ -29,25 +27,19 @@ VALUES (24207,   1,      32768) /* ItemType - Caster */
      , (24207, 158,          2) /* WieldRequirements - RawSkill */
      , (24207, 159,         33) /* WieldSkillType - LifeMagic */
      , (24207, 160,        300) /* WieldDifficulty */
-     , (24207, 166,         31) /* SlayerCreatureType - Human */
-     , (24207, 353,          0) /* WeaponType - Undef */;
+     , (24207, 166,         31) /* SlayerCreatureType - Human */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24207,  11, True ) /* IgnoreCollisions */
-     , (24207,  13, True ) /* Ethereal */
-     , (24207,  14, True ) /* GravityStatus */
-     , (24207,  19, True ) /* Attackable */
-     , (24207,  22, True ) /* Inscribable */
-     , (24207,  23, True ) /* DestroyOnSell */
+VALUES (24207,  22, True ) /* Inscribable */
      , (24207,  69, False) /* IsSellable */
      , (24207,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24207,   5, -0.025000000372529) /* ManaRate */
+VALUES (24207,   5,  -0.025) /* ManaRate */
      , (24207,  29,       1) /* WeaponDefense */
      , (24207,  39,       1) /* DefaultScale */
-     , (24207, 138, 1.39999997615814) /* SlayerDamageBonus */
-     , (24207, 144, 0.0199999995529652) /* ManaConversionMod */;
+     , (24207, 138,     1.4) /* SlayerDamageBonus */
+     , (24207, 144,    0.02) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24207,   1, 'Weeping Wand') /* Name */

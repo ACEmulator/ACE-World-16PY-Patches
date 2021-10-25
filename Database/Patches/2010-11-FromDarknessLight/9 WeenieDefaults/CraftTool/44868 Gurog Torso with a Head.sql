@@ -5,12 +5,12 @@ VALUES (44868, 'ace44868-gurogtorsowithahead', 44, '2019-02-10 00:00:00') /* Cra
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44868,   1,        128) /* ItemType - Misc */
-     , (44868,   5,        600) /* EncumbranceVal */
+     , (44868,   5,        200) /* EncumbranceVal */
      , (44868,   8,        800) /* Mass */
      , (44868,   9,          0) /* ValidLocations - None */
      , (44868,  11,          1) /* MaxStackSize */
      , (44868,  12,          1) /* StackSize */
-     , (44868,  13,        600) /* StackUnitEncumbrance */
+     , (44868,  13,        200) /* StackUnitEncumbrance */
      , (44868,  14,        800) /* StackUnitMass */
      , (44868,  15,          0) /* StackUnitValue */
      , (44868,  16,          1) /* ItemUseable - No */

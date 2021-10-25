@@ -9,7 +9,6 @@ VALUES (28763,   1,        128) /* ItemType - Misc */
      , (28763,  16,          1) /* ItemUseable - No */
      , (28763,  19,          0) /* Value */
      , (28763,  33,          1) /* Bonded - Bonded */
-     , (28763,  53,        101) /* PlacementPosition */
      , (28763,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -23,7 +22,7 @@ VALUES (28763,  11, True ) /* IgnoreCollisions */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28763,   1, 'Lorca Sammel''s Necklace') /* Name */
      , (28763,  15, 'A rather plain looking necklace. ') /* ShortDesc */
-     , (28763,  33, 'LorcaNecklace') /* Quest */;
+     , (28763,  33, 'LorcaSammelNecklaceAcquired') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28763,   1,   33554689) /* Setup */

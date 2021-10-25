@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44396;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44396, 'ace44396-contractforauggemluminance', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (44396, 'ace44396-contractforauggemluminance', 38, '2021-03-20 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44396,   1,       2048) /* ItemType - Gem */
@@ -28,7 +28,7 @@ VALUES (44396, 167,       2) /* CooldownDuration */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44396,   1, 'Contract for Aug Gem: Luminance') /* Name */
      , (44396,  14, 'Recommended Level: 200') /* Use */
-     , (44396,  16, 'Purchase a Blank Augmentation Gem with Luminance.') /* LongDesc */;
+     , (44396,  16, 'Purchase an Augmentation Gem with Luminance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44396,   1,   33554773) /* Setup */

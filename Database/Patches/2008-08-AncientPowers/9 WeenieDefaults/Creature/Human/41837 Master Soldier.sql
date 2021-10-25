@@ -11,12 +11,12 @@ VALUES (41837,   1,         16) /* ItemType - Creature */
      , (41837,  16,          1) /* ItemUseable - No */
      , (41837,  25,        215) /* Level */
      , (41837,  40,          2) /* CombatMode - Melee */
-     , (41837,  68,   13) /* TargetingTactic - Random, LastDamager, TopDamager */
+     , (41837,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (41837,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41837, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (41837, 113,          1) /* Gender - Male */
      , (41837, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (41837, 146,    1300000) /* XpOverride */
+     , (41837, 146,          0) /* XpOverride */
      , (41837, 188,          1) /* HeritageGroup - Aluvian */
      , (41837, 281,          4) /* Faction1Bits */
      , (41837, 289,       1001) /* SocietyRankRadblo */;

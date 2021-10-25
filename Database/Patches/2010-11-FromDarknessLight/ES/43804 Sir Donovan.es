@@ -63,7 +63,7 @@ Give: 70363 (Research Notes)
     - Delay: 1.5, DirectBroadcast: Sir Donovan mumbles a few words, while tracing a finger through the transcribed array. Then he reaches out and touches your forehead. A jolt of power passes through your body, making your hands and feet go numb for a moment.
     - Tell: Well, that seemed to work. Let us hope Kuyiza transcribed it properly...
     - Tell: Good luck!
-    - StampQuest: CanEnterBloodstoneFactory
+    - StampQuest: BloodstoneFactoryStarted_0211
     
 Give: 43826 (Shattered Master Bloodstone Shard)
     - TurnToTarget    
@@ -75,23 +75,28 @@ Give: 43826 (Shattered Master Bloodstone Shard)
     - AwardLuminance: 40,000
     - AddCharacterTitle: 713
     - EraseQuest: CanEnterLordKastellarsLab
-    - EraseQuest: CanEnterBloodstoneFactory
+    - EraseQuest: BloodstoneFactoryStarted_0211
+    - StampQuest: BloodstoneFactoryCompleted_0211
     - Give: 48746 (Aged Legendary Key)
     - Give: 43814 (Delicate Bloodstone Wand)
+	- Give: 45681 (Contract for Bloodstone Factory)
+    - Give: Trade Note (250,000) (20630), 11
     - Tell: If you are not specialized in the use of Life Magics, I can reinforce the wand to make it a bit less delicate, but it'll weaken its effects slightly. Just hand it back to me and I'll do so.
     - Tell: Also, if you wish a reward other than the wand, hand me back the reinforced wand, and I'll release the Luminance trapped within the crystal and channel it into you.
-
+    - InqQuestBitsOn: LegendaryQuestsA, 0x4000 
+        QuestFailure:
+            - SetQuestBitsOn: LegendaryQuestsA, 0x4000 
+            - StampQuest: LegendaryQuestCounter_0913
+            
 Refuse: 43814 (Delicate Bloodstone Wand)
-	- InqOwnsItems: 43814 (Delicate Bloodstone Wand)
-		TestSuccess:
-			- Tell: You do not wish to keep the Delicate Bloodstone Wand?
-			- InqYesNo: Exchange Delicate Bloodstone Wand?
-				TestSuccess:
-					- TakeItems: 43814 (Delicate Bloodstone Wand)
-					- Tell: Very well. This will only take a moment.
-					- Give: Sturdy Bloodstone Wand (43813)
-				TestFailure:
-					- Tell: Come back when you are ready to make a decision.
+    - TurnToTarget
+    - InqOwnsItems: 43814 (Delicate Bloodstone Wand)
+        TestSuccess:
+            - TakeItems: 43814 (Delicate Bloodstone Wand)
+            - Tell: Very well. This will only take a moment.
+            - Give: Sturdy Bloodstone Wand (43813)
+        TestFailure:
+            - Tell: You no longer have the wand in your posession.
 
 Give: 43813 (Sturdy Bloodstone Wand)
     - TurnToTarget    
@@ -99,4 +104,3 @@ Give: 43813 (Sturdy Bloodstone Wand)
     - Delay: 1.5, DirectBroadcast: Sir Donovan concentrates, and the wand in his hands disintegrates. Then he reaches out and touches your forehead.
     - Tell: There. That worked pretty well.
     - AwardLuminance: 5,000
-  

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31698;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31698, 'ace31698-fineleatherscraps', 1, '2019-02-19 23:43:22') /* Generic */;
+VALUES (31698, 'ace31698-fineleatherscraps', 1, '2021-08-06 05:00:16') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31698,   1,        128) /* ItemType - Misc */
@@ -20,10 +20,11 @@ VALUES (31698,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31698,   1, 'Fine Leather Scraps') /* Name */
-     , (31698,  33, 'FineLeatherScrapsPickup') /* Quest */;
+     , (31698,  33, 'IceCampLeatherMaterialsPickedUp0805') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31698,   1,   33554817) /* Setup */
      , (31698,   3,  536870932) /* SoundTable */
      , (31698,   8,  100687784) /* Icon */
      , (31698,  22,  872415275) /* PhysicsEffectTable */;
+
