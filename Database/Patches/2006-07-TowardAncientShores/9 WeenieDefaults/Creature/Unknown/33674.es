@@ -121,6 +121,7 @@ Refuse: Lesser Corrupted Essence (44469)
                                                                 TestSuccess:
                                                                     - Goto: Has1LesserEssence
                 QuestFailure:
+                    - EraseQuest: CorruptedEssenceCount
                     - InqOwnsItems: Lesser Corrupted Essence (44469), 100
                         TestSuccess:
                             - InqYesNo: Would you like to turn in 100 Corrupted Essences?

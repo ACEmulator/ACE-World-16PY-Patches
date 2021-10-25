@@ -3,7 +3,7 @@ Give: 36784
     - MoveToPos: 0x01EE04D5 [97.5623 -192.179 -5.995] -0.099833 0 0 0.995004
     - Say: Thorsten?  Where are you?  I cannot see what has happened in here..., Extent: 25
     - Delay: 15, Say: Thorsten! No...no..., Extent: 25
-    - Delay: 3, Motion: -2147483585
+    - Delay: 3, Motion: BowCombat
     - Sound: BowPull
     - Say: You! Die, now!, Extent: 25
     - Delay: 2, Sound: BowRelease
