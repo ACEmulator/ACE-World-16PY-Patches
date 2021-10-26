@@ -23,7 +23,7 @@ INSERT INTO `recipe_mods_int` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`
 VALUES (@parent_id, 0, 166, 89, 1, 1) /* SlayerCreatureType */;
 
 INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
-VALUES (@parent_id, 0,  138, 2, 1, 1) /* SlayerDamageBonus */;
+VALUES (@parent_id, 0,  138, 1.75, 1, 1) /* SlayerDamageBonus */;
 
 INSERT INTO `recipe_mods_d_i_d` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enum`, `source`)
 VALUES (@parent_id, 0,  50, 100689030, 1, 1) /* IconOverlay */;

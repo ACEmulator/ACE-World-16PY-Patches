@@ -43,8 +43,8 @@ VALUES (42932,   5,   -0.05) /* ManaRate */
      , (42932,  39,     1.1) /* DefaultScale */
      , (42932,  62,     1.2) /* WeaponOffense */
      , (42932,  63,    1.08) /* DamageMod */
-     , (42932, 147,    1.15) /* CriticalFrequency */
-     , (42932, 157,     1.2) /* ResistanceModifier */;
+     , (42932, 147,    1.32) /* CriticalFrequency */
+     , (42932, 157,    1.67) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42932,   1, 'Well-Balanced Lugian Greataxe') /* Name */
@@ -52,10 +52,10 @@ VALUES (42932,   1, 'Well-Balanced Lugian Greataxe') /* Name */
      , (42932,  33, 'WellBalancedLugianGreataxePickupTimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42932,   1,   33558379) /* Setup */
-     , (42932,   3,  536870932) /* SoundTable */
-     , (42932,   8,  100691239) /* Icon */
-     , (42932,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42932,   1, 0x02000F6B) /* Setup */
+     , (42932,   3, 0x20000014) /* SoundTable */
+     , (42932,   8, 0x06006D27) /* Icon */
+     , (42932,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42932,  2101,      2)  /* Aura of Cragstone's Will */
