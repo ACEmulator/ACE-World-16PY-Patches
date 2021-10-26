@@ -5,10 +5,10 @@ VALUES (36737, 'ace36737-concentratedpiercinginfusion', 44, '2019-05-26 00:00:00
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36737,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
-     , (36737,   5,         10) /* EncumbranceVal */
+     , (36737,   5,          0) /* EncumbranceVal */
      , (36737,  11,        100) /* MaxStackSize */
      , (36737,  12,          1) /* StackSize */
-     , (36737,  13,         10) /* StackUnitEncumbrance */
+     , (36737,  13,          0) /* StackUnitEncumbrance */
      , (36737,  15,        500) /* StackUnitValue */
      , (36737,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36737,  19,        500) /* Value */
@@ -24,7 +24,7 @@ VALUES (36737,   1, False) /* Stuck */
      , (36737,  13, True ) /* Ethereal */
      , (36737,  14, True ) /* GravityStatus */
      , (36737,  19, True ) /* Attackable */
-	 , (36737,  69, False) /* IsSellable */;
+     , (36737,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36737,   1, 'Concentrated Piercing Infusion') /* Name */

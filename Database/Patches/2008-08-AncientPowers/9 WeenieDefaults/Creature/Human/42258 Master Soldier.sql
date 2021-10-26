@@ -15,7 +15,7 @@ VALUES (42258,   1,         16) /* ItemType - Creature */
      , (42258, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (42258, 113,          1) /* Gender - Male */
      , (42258, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (42258, 146,    1400000) /* XpOverride */
+     , (42258, 146,          0) /* XpOverride */
      , (42258, 188,          1) /* HeritageGroup - Aluvian */
      , (42258, 281,          2) /* Faction1Bits */
      , (42258, 288,       1001) /* SocietyRankEldweb */;

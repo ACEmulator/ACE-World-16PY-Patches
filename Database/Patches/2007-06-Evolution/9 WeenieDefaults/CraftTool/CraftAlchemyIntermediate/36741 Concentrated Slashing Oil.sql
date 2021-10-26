@@ -5,10 +5,10 @@ VALUES (36741, 'ace36741-concentratedslashingoil', 44, '2019-05-26 00:00:00') /*
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36741,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
-     , (36741,   5,         10) /* EncumbranceVal */
+     , (36741,   5,          0) /* EncumbranceVal */
      , (36741,  11,        100) /* MaxStackSize */
      , (36741,  12,          1) /* StackSize */
-     , (36741,  13,         10) /* StackUnitEncumbrance */
+     , (36741,  13,          0) /* StackUnitEncumbrance */
      , (36741,  15,        750) /* StackUnitValue */
      , (36741,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36741,  19,        750) /* Value */

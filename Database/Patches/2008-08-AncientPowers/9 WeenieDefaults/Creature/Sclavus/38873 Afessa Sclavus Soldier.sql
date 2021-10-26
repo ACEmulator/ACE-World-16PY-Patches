@@ -72,8 +72,7 @@ VALUES (38873,  1,  33560596) /* Setup */
      , (38873,  7, 268435727) /* ClothingBase */
      , (38873,  8, 100669120) /* Icon */
      , (38873, 22, 872415280) /* PhysicsEffectTable */
-     , (38873, 32,      4006) /* WieldedTreasureType */
-     , (38873, 35,      1000) /* DeathTreasureType - Loot Tier: 7 */;
+     , (38873, 32,      4006) /* WieldedTreasureType */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38873, 8040, 4163960833, 6.025108, 16.77123, 55.29729, 0.7378213, 0, 0, -0.6749961) /* PCAPRecordedLocation */
@@ -110,16 +109,6 @@ VALUES (38873,    2176,  2.02)  /* Enervation */
      , (38873,    4451,  2.02)  /* Incantation of Lightning Bolt */
      , (38873,    4453,  2.02)  /* Incantation of Lightning Volley */
      , (38873,    4487,  2.02)  /* Incantation of Exhaustion Other */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38873, 9, 39030,  0, 0, 0.05, False) /* Create Armored Sclavus Head (39030) for ContainTreasure */
-     , (38873, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
-     , (38873, 9,  9259,  0, 0, 0.02, False) /* Create Large Sclavus Hide (9259) for ContainTreasure */
-     , (38873, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (38873, 9, 20861,  0, 0, 0.04, False) /* Create Moons Stamp (20861) for ContainTreasure */
-     , (38873, 9,     0,  0, 0, 0.96, False) /* Create nothing for ContainTreasure */
-     , (38873, 9, 41979,  1, 0, 0.05, False) /* Create Shattered Mana Forge Key (41979) for ContainTreasure */
-     , (38873, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (38873,  31, 0, 2, 0, 375, 0, 0) /* CreatureMagic */

@@ -17,7 +17,7 @@ VALUES (87174,   1,         16) /* ItemType - Creature */
      , (87174, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (87174, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (87174, 140,          1) /* AiOptions - CanOpenDoors */
-     , (87174, 146,    1400000) /* XpOverride */;
+     , (87174, 146,    2200000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87174,   1, True ) /* Stuck */
@@ -76,7 +76,7 @@ VALUES (87174,   1,   33560229) /* Setup */
      , (87174,   7,  268437008) /* ClothingBase */
      , (87174,   8,  100669124) /* Icon */
      , (87174,  22,  872415269) /* PhysicsEffectTable */
-     , (87174,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
+     , (87174,  35,       1015) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (87174,   1, 500, 0, 0) /* Strength */
@@ -131,7 +131,7 @@ VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'KilledMe', NULL, NUL
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (87174, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */
      , (87174, 2, 52142,  1, 0, 0, False) /* Create Round Shield (52142) for Wield */
-     , (87174, 9, 38714,  0, 0, 0.085, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
-     , (87174, 9,     0,  0, 0, 0.915, False) /* Create nothing for ContainTreasure */
-     , (87174, 9, 35105,  1, 0, 0.06, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (87174, 9,     0,  0, 0, 0.94, False) /* Create nothing for ContainTreasure */;
+     , (87174, 9, 38714,  0, 0, 1, False) /* Create Pyre Skeleton Jaw (38714) for ContainTreasure */
+     , (87174, 9, 35105,  0, 0, 1, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (87174, 9, 35105,  1, 0, 0.3, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (87174, 9,     0,  0, 0, 0.7, False) /* Create nothing for ContainTreasure */;

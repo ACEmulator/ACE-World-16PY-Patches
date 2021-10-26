@@ -15,7 +15,7 @@ VALUES (38845,   1,         16) /* ItemType - Creature */
      , (38845, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (38845, 113,          1) /* Gender - Male */
      , (38845, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (38845, 146,    1300000) /* XpOverride */
+     , (38845, 146,          0) /* XpOverride */
      , (38845, 188,          1) /* HeritageGroup - Aluvian */
      , (38845, 281,          1) /* Faction1Bits */
      , (38845, 287,       1001) /* SocietyRankCelhan */;

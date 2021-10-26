@@ -15,6 +15,7 @@ VALUES (71290,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71290,   1, 'Twelve Cards from the Deck of Eyes') /* Name */
+     , (71290,  14, 'Combine these cards with the other cards from the Deck of Eyes to complete the deck.') /* Use */
      , (71290,  20, 'Sets of Twelve Cards from the Deck of Eyes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
