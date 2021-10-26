@@ -1,3 +1,20 @@
+Refuse: 34268
+    - TurnToTarget
+    - DirectBroadcast: Fanzen San examines the collar in fascination.
+    - Delay: 1, Tell: This looks like Falatacot workmanship. This could be a pet's collar or something similar.
+    - Delay: 1, Tell: Yes, this symbol on the collar is definitely Falatacot. I believe it means "Unity". No actually this marking on the triangle represents a single person or a name. This translates better as "One of Three". Very interesting...
+    - Delay: 1, Tell: My my, look here, there is some writing on the inside too. Hehe, sortof a "If found please return to..." It gives a set of coordinates. Let me see...
+    - Motion: Reading
+    - Delay: 1, DirectBroadcast: Fanzen San opens a map of Dereth and drags his fingers along its length to rest in the Osteth Mountain range.
+    - Motion: Ready
+    - Delay: 1, Tell: Yes, here it is in the Osteth Mountains. There's nothing marked there on the map, but that doesn't mean there isn't something there. The coordinates are 70.6N, 14.5W.
+
+Refuse: 47190
+    - TurnToTarget
+    - TakeItems: 47190
+    - Delay: 1, Tell: How disturbing! Animating timber and mineral? A curious venture.
+    - Give: 47192
+
 Refuse: Orders for Zrikux (47190)
 	- TurnToTarget
 	- TakeItems: 47190, 1
@@ -320,6 +337,12 @@ Give: Falatacot Tome (25593)
 	- Delay: 2, Give: A Poorly Translated Journal (25592)
 	- Delay: 0.5, AwardLevelProportionalXP: 100%
 
+    - TurnToTarget
+    - Tell: This appears to be Falatacot in nature, but the language is older. I'm not familiar with the dialect, though some words appear to be very close with many of the writings that I have translated in the past.
+    - Delay: 4, Tell: Here, I translated as much as I could. I find it rather disturbing.
+    - Delay: 2, Give: A Poorly Translated Journal (25592)
+    - Delay: 0.5, AwardLevelProportionalXP: 100%, 0 - 18,000,000
+
 Give: Scrap of Paper (25594)
 	- TurnToTarget
 	- Tell: This is the Faltacot command for open. That is strange.
@@ -333,6 +356,7 @@ Give: The Moars (27792)
 	- Delay: 1, Tell: I know! Since you are here, would you mind going back to the Vesayen Islands and look for information for me? I can't leave this building, but I can read as much as I want!
 
 Give: Muddy Tome (27791)
+
 	- TurnToTarget
 	- Tell: This book appears to be a text regarding the eating habits of the Moarsmen and some creature call the Moars. I am unfamiliar with what the Moar are exactly, but it seems there is some relation between them and the Moarsmen.
 	- Delay: 1, Tell: Unfortunately, the text is in horrible condition and I am unable to translate it completely. The best I can do is create a summary of the bits I understand.
@@ -341,45 +365,44 @@ Give: Muddy Tome (27791)
 	- AwardXP: 500,000
 
 Give: Decaying Tome (27787)
-	- TurnToTarget
-	- Tell: This book appears to be a text regarding the hunting habits of the Moarsmen and what seems to be their less advance counterparts, the Moar. The text claims them to be vicious hunters, always on the roam.
-	- Delay: 1, Tell: The years have not been kind to this text. There are so many pages that I simply cannot comprehend because of their poor condition. The best I can do for this tome is to create a summary of the legible bits.
-	- Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
-	- Give: Hunting Habits of the Moars (27786)
-	- AwardXP: 1,000,000
+    - TurnToTarget
+    - Tell: This book appears to be a text regarding the hunting habits of the Moarsmen and what seems to be their less advance counterparts, the Moar. The text claims them to be vicious hunters, always on the roam.
+    - Delay: 1, Tell: The years have not been kind to this text. There are so many pages that I simply cannot comprehend because of their poor condition. The best I can do for this tome is to create a summary of the legible bits.
+    - Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
+    - Give: Hunting Habits of the Moars (27786)
+    - AwardXP: 1,000,000
 
 Give: Filthy Tome (27789)
-	- TurnToTarget
-	- Tell: Finally! Something with substance. As much as I enjoyed reading about the Moarsmen, those tomes pale compared to this one. This looks to be a history of the Moarsmen on Dereth. Hmm... this also seems to only be one part of the history. A second tome may contain the conclusion of the account.
-	- Delay: 1, Tell: Sadly, the pages dissolve as I attempt to read them, so I was only able to construct a high level summary. The finer details of the text were gone before I could transcribe them.
-	- Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
-	- Give: History of the Moars on Dereth, Part I (27788)
-	- AwardXP: 4,000,000
+    - TurnToTarget
+    - Tell: Finally! Something with substance. As much as I enjoyed reading about the Moarsmen, those tomes pale compared to this one. This looks to be a history of the Moarsmen on Dereth. Hmm... this also seems to only be one part of the history. A second tome may contain the conclusion of the account.
+    - Delay: 1, Tell: Sadly, the pages dissolve as I attempt to read them, so I was only able to construct a high level summary. The finer details of the text were gone before I could transcribe them.
+    - Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
+    - Give: History of the Moars on Dereth Part I (27788)
+    - AwardXP: 4,000,000
 
 Give: Rotting Tome (27785)
-	- TurnToTarget
-	- Tell: Had I not seen the first piece of this text, I would have had difficult understanding the context of it. This is the second part of history of the moarsmen on Dereth. Very interesting indeed.
-	- Delay: 1, Tell: It is a shame that there were no better reproductions of this tome where ever it was you procured this. I will do my best to summarize it, but the text is very difficult to read through the mud caked pages.
-	- Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
-	- Give: History of the Moars on Dereth, Part II (27784)
-	- AwardXP: 8,000,000
+    - TurnToTarget
+    - Tell: Had I not seen the first piece of this text, I would have had difficult understanding the context of it. This is the second part of history of the moarsmen on Dereth. Very interesting indeed.
+    - Delay: 1, Tell: It is a shame that there were no better reproductions of this tome where ever it was you procured this. I will do my best to summarize it, but the text is very difficult to read through the mud caked pages.
+    - Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
+    - Give: History of the Moars on Dereth Part II (27784)
+    - AwardXP: 8,000,000
 
 Give: Blackened Tome (27783)
-	- TurnToTarget
-	- Tell: This is a refreshing change of pace. I have been receiving so many ancient texts that resemble encyclopedias. This appears to be the story of a young Falatacot Priestess and the Falatacot's first encounter with the Moar.
-	- Delay: 1, Tell: This story seems to be written in a confusing poetic style. Many of the concepts and actions are interposed, which make it difficult for even a scholar to discern. I will do my best to simplify it into a form that we can easily understand.
-	- Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
-	- Give: Origin of the Moar (27782)
-	- AwardXP: 15,000,000
+    - TurnToTarget
+    - Tell: This is a refreshing change of pace. I have been receiving so many ancient texts that resemble encyclopedias. This appears to be the story of a young Falatacot Priestess and the Falatacot's first encounter with the Moar.
+    - Delay: 1, Tell: This story seems to be written in a confusing poetic style. Many of the concepts and actions are interposed, which make it difficult for even a scholar to discern. I will do my best to simplify it into a form that we can easily understand.
+    - Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
+    - Give: Origin of the Moar (27782)
+    - AwardXP: 15,000,000
 
 Give: 34310
-	- TurnToTarget
-	- Tell: What's this now? Oh mercy! What terrible things this note portends! Where did you get this? Never mind, it's not my purpose... Here, take this translation, and bring it to the proper authorities!
-	- Give: 34316
+    - TurnToTarget
+    - Tell: What's this now? Oh mercy! What terrible things this note portends! Where did you get this? Never mind, it's not my purpose... Here, take this translation, and bring it to the proper authorities!
+    - Give: 34316
 
 Use:
-	- Motion: Ready
-	- TurnToTarget
-	- Motion: BowDeep
-	- Tell: I am a scholar of the Empyrean culture that lived in the ruins found throughout the swamps and even the desert.	 They were apparently called the Falatacot.	 If you have a text of that culture, I may be able to help you.
-
+    - Motion: Ready
+    - TurnToTarget
+    - Motion: BowDeep
+    - Tell: I am a scholar of the Empyrean culture that lived in the ruins found throughout the swamps and even the desert.  They were apparently called the Falatacot.  If you have a text of that culture, I may be able to help you.
