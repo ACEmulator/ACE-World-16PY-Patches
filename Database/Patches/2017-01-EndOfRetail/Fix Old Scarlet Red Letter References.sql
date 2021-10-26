@@ -10,7 +10,7 @@ WHERE `object_Id` > 0 AND `weenie_Class_Id` = 8702;
 
 UPDATE weenie_properties_emote
 	SET `weenie_Class_Id` = 45876
-WHERE `object_Id` > 0 AND `object_Id` != 3917 AND `object_Id` != 3918 AND `object_Id` != 3920 AND `object_Id` != 21338 AND object_Id` != 24573 AND `object_Id` != 28707 AND `weenie_Class_Id` = 8702;
+WHERE `object_Id` > 0 AND `object_Id` != 3917 AND `object_Id` != 3918 AND `object_Id` != 3920 AND `object_Id` != 21338 AND `object_Id` != 24573 AND `object_Id` != 28707 AND `weenie_Class_Id` = 8702;
 
 UPDATE weenie_properties_emote_action
 	SET `weenie_Class_Id` = 45876
