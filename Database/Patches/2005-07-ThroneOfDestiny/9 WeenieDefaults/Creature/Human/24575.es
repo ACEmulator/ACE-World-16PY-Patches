@@ -291,23 +291,23 @@ Give: Carenzi Fangs (25897)
     - Give: Needletooth (25905)
     - Tell: They seem to have been magically enchanted while within the beast. I find this strange and somewhat frightening.
 
+Give: Giant Monouga Rib (35751)
+    - TurnToTarget
+    - Tell: See the curve on this rib? It will allow superior launching of projectiles, and the nature of the bone itself will naturally attune itself to slaying the mighty monouga. Here, try this out.
+    - Delay: 1, Give: Eyeslayer (Giant) (35766)
+
+Give: Large Monouga Rib (87365)
+    - TurnToTarget
+    - Tell: See the curve on this rib? It will allow superior launching of projectiles, and the nature of the bone itself will naturally attune itself to slaying the mighty monouga. Here, try this out.
+    - Delay: 1, Give: Eyeslayer (Large) (35764)
+
+Give: Huge Monouga Rib (87366)
+    - TurnToTarget
+    - Tell: See the curve on this rib? It will allow superior launching of projectiles, and the nature of the bone itself will naturally attune itself to slaying the mighty monouga. Here, try this out.
+    - Delay: 1, Give: Eyeslayer (Huge) (35765)
+
 Use:
     - Motion: Ready
     - TurnToTarget
-    - Delay: 1, Motion: BowDeep
+    - Delay: 1, Motion: Salute
     - Delay: 1, Tell: I am interested in various teeth, horns, shells, and skulls.  For those I will reward you with useful items I make myself.
-
-Give: Giant Monouga Rib (35751)
-	- TurnToTarget
-	- Tell: See the curve on this rib? It will allow superior launching of projectiles, and the nature of the bone itself will naturally attune itself to slaying the mighty monouga. Here, try this out.
-	- Delay: 1, Give: 35766
-
-Give: Large Monouga Rib (87365)
-	- TurnToTarget
-	- Tell: See the curve on this rib? It will allow superior launching of projectiles, and the nature of the bone itself will naturally attune itself to slaying the mighty monouga. Here, try this out.
-	- Delay: 1, Give: 35764
-
-Give: Huge Monouga Rib (87366)
-	- TurnToTarget
-	- Tell: See the curve on this rib? It will allow superior launching of projectiles, and the nature of the bone itself will naturally attune itself to slaying the mighty monouga. Here, try this out.
-	- Delay: 1, Give: 35765
