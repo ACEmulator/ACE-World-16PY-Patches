@@ -6,6 +6,7 @@ VALUES (30048, 'fiunweaponsmith', 12, '2019-04-09 02:19:52') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30048,   1,         16) /* ItemType - Creature */
      , (30048,   2,         78) /* CreatureType - Fiun */
+     , (30048,   3,         63) /* PaletteTemplate - GreenBrown */
      , (30048,   6,         -1) /* ItemsCapacity */
      , (30048,   7,         -1) /* ContainersCapacity */
      , (30048,  16,         32) /* ItemUseable - Remote */
@@ -68,6 +69,7 @@ VALUES (30048,   1,   33559124) /* Setup */
      , (30048,   2,  150994945) /* MotionTable */
      , (30048,   3,  536870913) /* SoundTable */
      , (30048,   6,   67115466) /* PaletteBase */
+     , (30048,   7,  268436944) /* ClothingBase */
      , (30048,   8,  100677369) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -158,28 +160,26 @@ VALUES (30048, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for 
      , (30048, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30048, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30048, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30048, 4, 28618, -1, 0, 0, False) /* Create Diforsa Helm (28618) for Shop */
-     , (30048, 4, 28632, -1, 0, 0, False) /* Create Diforsa Gauntlets (28632) for Shop */
-     , (30048, 4, 28627, -1, 0, 0, False) /* Create Diforsa Bracers (28627) for Shop */
-     , (30048, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
-     , (30048, 4, 28628, -1, 0, 0, False) /* Create Diforsa Breastplate (28628) for Shop */
-     , (30048, 4, 28630, -1, 0, 0, False) /* Create Diforsa Cuirass (28630) for Shop */
-     , (30048, 4, 28633, -1, 0, 0, False) /* Create Diforsa Girth (28633) for Shop */
-     , (30048, 4, 28626, -1, 0, 0, False) /* Create Diforsa Tassets (28626) for Shop */
-     , (30048, 4, 28634, -1, 0, 0, False) /* Create Diforsa Greaves (28634) for Shop */
-     , (30048, 4, 30948, -1, 0, 0, False) /* Create Diforsa Hauberk (30948) for Shop */
-     , (30048, 4, 28621, -1, 0, 0, False) /* Create Diforsa Leggings (28621) for Shop */
-     , (30048, 4, 30949, -1, 0, 0, False) /* Create Diforsa Sleeves (30949) for Shop */
-     , (30048, 4, 28625, -1, 0, 0, False) /* Create Diforsa Sollerets (28625) for Shop */
-     , (30048, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for Shop */
-     , (30048, 4, 45411, -1, 0, 0, False) /* Create Spada (45411) for Shop */
+     , (30048, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
      , (30048, 4, 30556, -1, 0, 0, False) /* Create Hatchet (30556) for Shop */
      , (30048, 4, 30581, -1, 0, 0, False) /* Create Mazule (30581) for Shop */
-     , (30048, 4, 29972, -1, 0, 0, False) /* Create Partizan (29972) for Shop */
+     , (30048, 4, 30591, -1, 0, 0, False) /* Create Partizan (30591) for Shop */
      , (30048, 4, 30611, -1, 0, 0, False) /* Create Knuckles (30611) for Shop */
      , (30048, 4, 30606, -1, 0, 0, False) /* Create Bastone (30606) for Shop */
-     , (30048, 4, 30591, -1, 0, 0, False) /* Create Partizan (30591) for Shop */
+     , (30048, 4, 30596, -1, 0, 0, False) /* Create Poniard (30596) for Shop */
      , (30048, 4, 30625, -1, 0, 0, False) /* Create War Bow (30625) for Shop */
      , (30048, 4, 30616, -1, 0, 0, False) /* Create Arbalest (30616) for Shop */
      , (30048, 4, 30746, -1, 0, 0, False) /* Create Dart Flinger (30746) for Shop */
-     , (30048, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */;
+     , (30048, 4, 28618, -1, 0, 0, False) /* Create Diforsa Helm (28618) for Shop */
+     , (30048, 4, 28627, -1, 0, 0, False) /* Create Diforsa Bracers (28627) for Shop */
+     , (30048, 4, 28628, -1, 0, 0, False) /* Create Diforsa Breastplate (28628) for Shop */
+     , (30048, 4, 28630, -1, 0, 0, False) /* Create Diforsa Cuirass (28630) for Shop */
+     , (30048, 4, 28632, -1, 0, 0, False) /* Create Diforsa Gauntlets (28632) for Shop */
+     , (30048, 4, 28633, -1, 0, 0, False) /* Create Diforsa Girth (28633) for Shop */
+     , (30048, 4, 28634, -1, 0, 0, False) /* Create Diforsa Greaves (28634) for Shop */
+     , (30048, 4, 28626, -1, 0, 0, False) /* Create Diforsa Tassets (28626) for Shop */
+     , (30048, 4, 30948, -1, 0, 0, False) /* Create Diforsa Hauberk (30948) for Shop */
+     , (30048, 4, 28621, -1, 0, 0, False) /* Create Diforsa Leggings (28621) for Shop */
+     , (30048, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
+     , (30048, 4, 30949, -1, 0, 0, False) /* Create Diforsa Sleeves (30949) for Shop */
+     , (30048, 4, 28625, -1, 0, 0, False) /* Create Diforsa Sollerets (28625) for Shop */;

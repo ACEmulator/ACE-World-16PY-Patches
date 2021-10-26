@@ -28,15 +28,15 @@ VALUES (45960,  22, True ) /* Inscribable */
      , (45960, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45960,   5, -0.025000000372529) /* ManaRate */
+VALUES (45960,   5, -0.025) /* ManaRate */
      , (45960,  12, 0.672699987888336) /* Shade */
      , (45960,  13,       1) /* ArmorModVsSlash */
      , (45960,  14,       1) /* ArmorModVsPierce */
      , (45960,  15,       1) /* ArmorModVsBludgeon */
-     , (45960,  16, 0.0599999986588955) /* ArmorModVsCold */
-     , (45960,  17, 0.0599999986588955) /* ArmorModVsFire */
-     , (45960,  18, 0.0599999986588955) /* ArmorModVsAcid */
-     , (45960,  19, 0.0599999986588955) /* ArmorModVsElectric */
+     , (45960,  16, 0.6) /* ArmorModVsCold */
+     , (45960,  17, 0.6) /* ArmorModVsFire */
+     , (45960,  18, 0.6) /* ArmorModVsAcid */
+     , (45960,  19, 0.6) /* ArmorModVsElectric */
      , (45960, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

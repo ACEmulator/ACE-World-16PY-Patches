@@ -15,7 +15,7 @@ VALUES (38839,   1,         16) /* ItemType - Creature */
      , (38839, 101,     524288) /* AiAllowedCombatStyle - StubbornMissile */
      , (38839, 113,          1) /* Gender - Male */
      , (38839, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (38839, 146,    1400000) /* XpOverride */
+     , (38839, 146,          0) /* XpOverride */
      , (38839, 188,          1) /* HeritageGroup - Aluvian */
      , (38839, 281,          1) /* Faction1Bits */
      , (38839, 287,       1001) /* SocietyRankCelhan */;

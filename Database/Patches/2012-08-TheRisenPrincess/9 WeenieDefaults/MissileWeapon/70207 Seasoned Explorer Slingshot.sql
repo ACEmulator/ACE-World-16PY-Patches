@@ -49,7 +49,7 @@ VALUES (70207,   5, -0.025000000372529) /* ManaRate */
      , (70207, 157,     1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (70207,   1, 'Amateur Explorer Slingshot') /* Name */;
+VALUES (70207,   1, 'Seasoned Explorer Slingshot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (70207,   1,   33559694) /* Setup */
