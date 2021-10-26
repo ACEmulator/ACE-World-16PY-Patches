@@ -11,7 +11,7 @@ if not defined APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH set APPVEYOR_PULL_REQUEST_
 set patch_name=%APPVEYOR_PULL_REQUEST_NUMBER%-%APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH%
 
 :deapost
-FOR /f "tokens=1* delims='" %%i IN ("%patch_name%") DO (
+FOR /f "tokens=1* delims='/" %%i IN ("%patch_name%") DO (
    SET patch_name=%%j
    IF DEFINED patch_name (
       SET patch_name=%%i%%j
