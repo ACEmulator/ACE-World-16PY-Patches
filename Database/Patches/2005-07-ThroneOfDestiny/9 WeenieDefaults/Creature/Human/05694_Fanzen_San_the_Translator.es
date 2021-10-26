@@ -1,33 +1,33 @@
 Refuse: Messengers Collar (34268)
-	- TurnToTarget
-	- DirectBroadcast: Fanzen San examines the collar in fascination.
-	- Delay: 1, Tell: This looks like Falatacot workmanship. This could be a pet's collar or something similar.
-	- Delay: 1, Tell: Yes, this symbol on the collar is definitely Falatacot. I believe it means "Unity". No actually this marking on the triangle represents a single person or a name. This translates better as "One of Three". Very interesting...
-	- Delay: 1, Tell: My my, look here, there is some writing on the inside too. Hehe, sortof a "If found please return to..." It gives a set of coordinates. Let me see...
-	- Motion: Reading
-	- Delay: 1, DirectBroadcast: Fanzen San opens a map of Dereth and drags his fingers along its length to rest in the Osteth Mountain range.
-	- Motion: Ready
-	- Delay: 1, Tell: Yes, here it is in the Osteth Mountains. There's nothing marked there on the map, but that doesn't mean there isn't something there. The coordinates are 70.6N, 14.5W.
+    - TurnToTarget
+    - DirectBroadcast: Fanzen San examines the collar in fascination.
+    - Delay: 1, Tell: This looks like Falatacot workmanship. This could be a pet's collar or something similar.
+    - Delay: 1, Tell: Yes, this symbol on the collar is definitely Falatacot. I believe it means "Unity". No actually this marking on the triangle represents a single person or a name. This translates better as "One of Three". Very interesting...
+    - Delay: 1, Tell: My my, look here, there is some writing on the inside too. Hehe, sortof a "If found please return to..." It gives a set of coordinates. Let me see...
+    - Motion: Reading
+    - Delay: 1, DirectBroadcast: Fanzen San opens a map of Dereth and drags his fingers along its length to rest in the Osteth Mountain range.
+    - Motion: Ready
+    - Delay: 1, Tell: Yes, here it is in the Osteth Mountains. There's nothing marked there on the map, but that doesn't mean there isn't something there. The coordinates are 70.6N, 14.5W.
 
 Give: Falatacot Tome (87637)
-	- TurnToTarget
-	- InqQuest: MessengersCollar_Repeat
-		QuestSuccess:
-			- Tell: Ah, another copy of the book you found in the Faltacot's Meeting Place. Thank you, I may be able to find more clues :about the High Matriarch in this.
-			- AwardLevelProportionalXP: 28%, 0 - 45,000,000
-			- Give: 34278
-		QuestFailure:
-			- Tell: This High Matriarch, this "One of Three", must have sent the burun messenger you intercepted.
-			- Delay: 1, Tell: She may have something to do with the other recent Falatacot activities I've heard about. I may send a message to the Royal Guard concerning this. Thank you for your help friend.
-			- AwardLevelProportionalXP: 37.5%, 0 - 60,000,000
-			- StampQuest: MessengersCollar_Repeat
-			- Give: 34278
-
-Refuse: 47190
     - TurnToTarget
-    - TakeItems: 47190
+    - InqQuest: MessengersCollar_Repeat
+        QuestSuccess:
+            - Tell: Ah, another copy of the book you found in the Faltacot's Meeting Place. Thank you, I may be able to find more clues :about the High Matriarch in this.
+            - AwardLevelProportionalXP: 28%, 0 - 45,000,000
+            - Give: Words of the High Matriarch (34278)
+        QuestFailure:
+            - Tell: This High Matriarch, this "One of Three", must have sent the burun messenger you intercepted.
+            - Delay: 1, Tell: She may have something to do with the other recent Falatacot activities I've heard about. I may send a message to the Royal Guard concerning this. Thank you for your help friend.
+            - AwardLevelProportionalXP: 37.5%, 0 - 60,000,000
+            - StampQuest: MessengersCollar_Repeat
+            - Give: Words of the High Matriarch (34278)
+
+Refuse: Orders for Zrikux (47190)
+    - TurnToTarget
+    - TakeItems: Orders for Zrikux (47190)
     - Delay: 1, Tell: How disturbing! Animating timber and mineral? A curious venture.
-    - Give: 47192
+    - Give: Translated Orders for Zrikux (47192)
 
 Refuse: Adjanite Gem (27772)
     - TurnToTarget
@@ -52,11 +52,13 @@ Refuse: Aquamarine Prisms (27767)
     - InqQuest: ReceivedToolOnyxCutting
         QuestSuccess:
             - Tell: I never knew that Aquamarine could be such a prismatic gem. I always thought it was opaque.
+            - Delay: 1, Tell: None the less, this is an interesting Adjanite Artifact, to be certain. Though I cannot say for certain what it is exactly. My library on the Adjanites is thin in comparison to what I have regarding the Falatacot.
             - Delay: 1, Tell: I do recall, though, that some adventurers can come across a device that these gems could be fitted into.
             - Delay: 1, Tell: You may want to return to the Vesayen Islands and search for that contraption. . I did, at one point, possess an interesting cutting tool. Alas, I have already given it away. Come back to me in a few days and I might have found another one.
             - Delay: 1, Tell: But what you do if completely up to your decision.
         QuestFailure:
             - Tell: I never knew that Aquamarine could be such a prismatic gem. I always thought it was opaque.
+            - Delay: 1, Tell: None the less, this is an interesting Adjanite Artifact, to be certain. Though I cannot say for certain what it is exactly. My library on the Adjanites is thin in comparison to what I have regarding the Falatacot.
             - Delay: 1, Tell: I do recall, though, that some adventurers can come across a device that these gems could be fitted into.
             - Delay: 1, Tell: You may want to return to the Vesayen Islands and search for that contraption. If you don't, I found an interesting cutting tool that you could use to break this cluster of prisms from each other.
             - Delay: 1, Tell: But what you do is completely up to your decision.
@@ -378,7 +380,7 @@ Give: Filthy Tome (27789)
     - Tell: Finally! Something with substance. As much as I enjoyed reading about the Moarsmen, those tomes pale compared to this one. This looks to be a history of the Moarsmen on Dereth. Hmm... this also seems to only be one part of the history. A second tome may contain the conclusion of the account.
     - Delay: 1, Tell: Sadly, the pages dissolve as I attempt to read them, so I was only able to construct a high level summary. The finer details of the text were gone before I could transcribe them.
     - Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
-    - Give: History of the Moars on Dereth Part I (27788)
+    - Give: History of the Moars on Dereth, Part I (27788)
     - AwardXP: 4,000,000
 
 Give: Rotting Tome (27785)
@@ -386,7 +388,7 @@ Give: Rotting Tome (27785)
     - Tell: Had I not seen the first piece of this text, I would have had difficult understanding the context of it. This is the second part of history of the moarsmen on Dereth. Very interesting indeed.
     - Delay: 1, Tell: It is a shame that there were no better reproductions of this tome where ever it was you procured this. I will do my best to summarize it, but the text is very difficult to read through the mud caked pages.
     - Delay: 1, Tell: Since you have helped me further my understanding of the Moarsmen and the Falatacot, I will help you.
-    - Give: History of the Moars on Dereth Part II (27784)
+    - Give: History of the Moars on Dereth, Part II (27784)
     - AwardXP: 8,000,000
 
 Give: Blackened Tome (27783)
@@ -397,14 +399,13 @@ Give: Blackened Tome (27783)
     - Give: Origin of the Moar (27782)
     - AwardXP: 15,000,000
 
-Give: 34310
+Give: Soul Hunter's Untranslated Orders (34310)
     - TurnToTarget
     - Tell: What's this now? Oh mercy! What terrible things this note portends! Where did you get this? Never mind, it's not my purpose... Here, take this translation, and bring it to the proper authorities!
-    - Give: 34316
+    - Give: Soul Hunter's Orders (34316)
 
 Use:
     - Motion: Ready
     - TurnToTarget
     - Motion: BowDeep
     - Tell: I am a scholar of the Empyrean culture that lived in the ruins found throughout the swamps and even the desert.  They were apparently called the Falatacot.  If you have a text of that culture, I may be able to help you.
-
