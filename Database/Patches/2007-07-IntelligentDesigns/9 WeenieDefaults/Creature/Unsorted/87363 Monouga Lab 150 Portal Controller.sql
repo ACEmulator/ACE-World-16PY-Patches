@@ -12,16 +12,11 @@ VALUES (87363,   1,         16) /* ItemType - Creature */
      , (87363,  16,         32) /* ItemUseable - Remote */
      , (87363,  25,        200) /* Level */
      , (87363,  27,          0) /* ArmorType - None */
-     , (87363,  40,          2) /* CombatMode - Melee */
-     , (87363,  68,          9) /* TargetingTactic - Random, TopDamager */
      , (87363,  83,       2048) /* ActivationResponse - Emote */
      , (87363,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (87363,  95,          8) /* RadarBlipColor - Yellow */
-     , (87363, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (87363, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (87363, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (87363, 290,          1) /* HearLocalSignals */
-     , (87363, 291,         60) /* HearLocalSignalsRadius */;
+     , (87363, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87363,   1, True ) /* Stuck */
