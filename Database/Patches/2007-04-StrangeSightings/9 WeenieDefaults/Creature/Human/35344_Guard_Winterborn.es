@@ -32,6 +32,7 @@ Give: Shard of Harraag's Dagger (87338)
 	- EraseQuest: AerbaxsProdigalBanderling_Start
 	- EraseQuest: HarraagsLairFlag
 	- StampQuest: AerbaxsProdigalBanderling_Wait
+	- StampQuest: GuardWinterbornFlag
 	- Delay: 1, Tell: If you have no need for the Dagger, give it back to me and I can send it along with the information you have brought me, for further study into this situation.
 
 Give: Shard of Harraag's Dagger (35345)
