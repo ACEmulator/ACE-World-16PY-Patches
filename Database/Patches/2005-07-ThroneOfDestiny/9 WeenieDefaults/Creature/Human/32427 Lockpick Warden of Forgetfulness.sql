@@ -26,6 +26,8 @@ VALUES (32427,   1, True ) /* Stuck */
      , (32427,  19, False) /* Attackable */
      , (32427,  41, True ) /* ReportCollisionsAsEnvironment */
      , (32427,  42, True ) /* AllowEdgeSlide */
+     , (32427,  52, True ) /* AiImmobile */
+     , (32427,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (32427,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
