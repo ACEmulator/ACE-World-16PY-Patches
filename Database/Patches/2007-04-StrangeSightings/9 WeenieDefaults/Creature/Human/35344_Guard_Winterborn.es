@@ -26,19 +26,18 @@ Give: Shard of Harraag's Dagger (87338)
 	- Delay: 1, Tell: As for this shard...
 	- Delay: 1, DirectBroadcast: Guard Winterborn pulls out some salvaged metal, chants softly, and quickly fits the shard into a newly crafted hilt.
 	- Delay: 1, Tell: Another Dagger from the shards of another. Here you go.
-	- AwardLevelProportionalXP: 5%, Max: 16,241,572
+	- AwardLevelProportionalXP: 5%, 0 - 16,241,572
 	- AwardLuminance: 12,000
 	- Give: Shard of Harraag's Dagger (35345)
 	- EraseQuest: AerbaxsProdigalBanderling_Start
 	- EraseQuest: HarraagsLairFlag
 	- StampQuest: AerbaxsProdigalBanderling_Wait
-	- StampQuest: GuardWinterbornFlag
 	- Delay: 1, Tell: If you have no need for the Dagger, give it back to me and I can send it along with the information you have brought me, for further study into this situation.
 
 Give: Shard of Harraag's Dagger (35345)
 	- TurnToTarget
 	- Tell: Very well, I will send this one along for further study. Here, accept this reward in its place.
-	- AwardLevelProportionalXP: 2%, Max: 6,496,629
+	- AwardLevelProportionalXP: 2%, 0 - 6,496,629
 	
 Refuse: Observations_ Harraag (35565)
 	- TurnToTarget

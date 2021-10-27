@@ -1,6 +1,6 @@
 Use:
 	- TurnToTarget
-	- InqQuest: GuardWinterbornFlag
+	- InqQuest: AerbaxsProdigalBanderling_Start
 		QuestSuccess:
 			- InqFellowQuest: AerbaxsProdigalBanderling_Fellow
 				QuestNoFellow:
@@ -25,7 +25,7 @@ Use:
 Give: Sack of Banderling Artifacts (87337)
 	- TurnToTarget
 	- Tell: Thank you again. With the stolen artifacts returned, Haraag cannot use to get other Tribes to follow him. Please, accept reward for help you have given us.
-	- AwardLevelProportionalXP: 20%, Max: 64,966,287
+	- AwardLevelProportionalXP: 20%, 0 - 64,966,287
 	
 Refuse: Shard of Harraag's Dagger (87338)
 	- TurnToTarget
