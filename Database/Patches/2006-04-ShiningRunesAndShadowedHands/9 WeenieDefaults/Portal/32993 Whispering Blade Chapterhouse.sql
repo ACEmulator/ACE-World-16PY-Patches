@@ -24,7 +24,7 @@ VALUES (32993,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32993,   1, 'Whispering Blade Chapterhouse') /* Name */
-     , (32993,  38, 'Whispering Blade Chapterhouse') /* AppraisalPortalDestination */;
+     , (32993,  37, 'WhisperingBladeChapterhouse_Flag') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32993,   1,   33554867) /* Setup */
@@ -32,5 +32,5 @@ VALUES (32993,   1,   33554867) /* Setup */
      , (32993,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32993, 2, 8454440, 80, -10, 0.005, 0, 0, 0, 0) /* Destination */
-/* @teleloc 0x00810128 [80.000000 -10.000000 0.005000] 0.000000 0.000000 0.000000 0.000000 */;
+VALUES (32993, 2, 8454440, 80, -10, 0.005, 0, 0, 0, -1) /* Destination */
+/* @teleloc 0x00810128 [80.000000 -10.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */;
