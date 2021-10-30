@@ -91,10 +91,13 @@ VALUES (33894,  0, 32, 150,  0.5,  300,  300,  300,  150,  150, 3000,  192,  150
      , (33894, 17, 32, 150, 0.75,  300,  300,  300,  150,  150, 3000,  192,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Tail */
      , (33894, 21, 32,  0,    0,  300,  300,  300,  150,  150, 3000,  192,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
-INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (33894,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-
-SET @parent_id = LAST_INSERT_ID();
-
-INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  88 /* LocalSignal */, 0, 1, NULL, 'DropShard', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */
+     , (33894, 9, 33883,  1, 0, 0, False) /* Create Shard of the Abyssal Totem (33883) for ContainTreasure */;

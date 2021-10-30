@@ -25,6 +25,7 @@ VALUES (35801,  54, -0.100000001490116) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35801,   1, 'Temple of the Three, Ritual Chambers') /* Name */
      , (35801,  16, 'A bypass portal, created by Asheron for those who are helping defend him from the Ritual of the Three Matriarchs.  This portal seems to be warded against those who are not attuned to its destination.') /* LongDesc */
+     , (35801,  37, 'RitualChambersFlag') /* QuestRestriction */
      , (35801,  38, 'Temple of the Three, Ritual Chambers') /* AppraisalPortalDestination */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -80,6 +80,7 @@ Give: 43826 (Shattered Master Bloodstone Shard)
     - Give: 48746 (Aged Legendary Key)
     - Give: 43814 (Delicate Bloodstone Wand)
 	- Give: 45681 (Contract for Bloodstone Factory)
+    - Give: Trade Note (250,000) (20630), 11
     - Tell: If you are not specialized in the use of Life Magics, I can reinforce the wand to make it a bit less delicate, but it'll weaken its effects slightly. Just hand it back to me and I'll do so.
     - Tell: Also, if you wish a reward other than the wand, hand me back the reinforced wand, and I'll release the Luminance trapped within the crystal and channel it into you.
     - InqQuestBitsOn: LegendaryQuestsA, 0x4000 
@@ -88,16 +89,14 @@ Give: 43826 (Shattered Master Bloodstone Shard)
             - StampQuest: LegendaryQuestCounter_0913
             
 Refuse: 43814 (Delicate Bloodstone Wand)
+    - TurnToTarget
     - InqOwnsItems: 43814 (Delicate Bloodstone Wand)
         TestSuccess:
-            - Tell: You do not wish to keep the Delicate Bloodstone Wand?
-            - InqYesNo: Exchange Delicate Bloodstone Wand?
-                TestSuccess:
-                    - TakeItems: 43814 (Delicate Bloodstone Wand)
-                    - Tell: Very well. This will only take a moment.
-                    - Give: Sturdy Bloodstone Wand (43813)
-                TestFailure:
-                    - Tell: Come back when you are ready to make a decision.
+            - TakeItems: 43814 (Delicate Bloodstone Wand)
+            - Tell: Very well. This will only take a moment.
+            - Give: Sturdy Bloodstone Wand (43813)
+        TestFailure:
+            - Tell: You no longer have the wand in your posession.
 
 Give: 43813 (Sturdy Bloodstone Wand)
     - TurnToTarget    
@@ -105,4 +104,3 @@ Give: 43813 (Sturdy Bloodstone Wand)
     - Delay: 1.5, DirectBroadcast: Sir Donovan concentrates, and the wand in his hands disintegrates. Then he reaches out and touches your forehead.
     - Tell: There. That worked pretty well.
     - AwardLuminance: 5,000
-  
