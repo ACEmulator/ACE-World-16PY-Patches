@@ -12,6 +12,7 @@ VALUES (35950,   1,      32768) /* ItemType - Caster */
      , (35950,  19,          1) /* Value */
      , (35950,  33,          1) /* Bonded - Bonded */
      , (35950,  45,          4) /* DamageType - Bludgeon */
+     , (35950,  46,        512) /* DefaultCombatStyle - Magic */
      , (35950,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35950,  94,         16) /* TargetType - Creature */
      , (35950, 106,        350) /* ItemSpellcraft */
