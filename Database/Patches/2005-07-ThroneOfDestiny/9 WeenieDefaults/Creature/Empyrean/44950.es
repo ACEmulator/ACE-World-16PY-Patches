@@ -219,8 +219,8 @@ GotoSet: CheckUsedAttributeReset9
             - Goto: CheckUsedAttributeReset10
 
 GotoSet: CheckUsedAttributeReset10
-    - InqQuestSolves: UsedAttributeReset, 10 - 10
-        QuestSuccess:
+    #- InqQuestSolves: UsedAttributeReset, 10 - 10
+        #QuestSuccess:
             - InqYesNo: Would you like to reset your attributes for 100 MMDs and 1,000,000 Luminance?
                 TestSuccess:
                     - InqOwnsItems: Trade Note (250,000) (20630), 100

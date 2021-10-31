@@ -221,8 +221,8 @@ GotoSet: CheckUsedSkillReset1
             - Goto: CheckUsedSkillReset10
 
 GotoSet: CheckUsedSkillReset10
-    - InqQuestSolves: UsedSkillReset, 10 - 10
-        QuestSuccess:
+    #- InqQuestSolves: UsedSkillReset, 10 - 10
+        #QuestSuccess:
             - InqYesNo: Would you like to reset your skills for 100 MMDs and 1,000,000 Luminance?
                 TestSuccess:
                     - InqOwnsItems: Trade Note (250,000) (20630), 100
