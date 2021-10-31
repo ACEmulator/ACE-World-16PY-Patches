@@ -40,7 +40,7 @@ GotoSet: CheckUsedSkillReset1
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedSkillReset2
 
@@ -62,7 +62,7 @@ GotoSet: CheckUsedSkillReset2
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedSkillReset3
 
@@ -84,7 +84,7 @@ GotoSet: CheckUsedSkillReset3
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedSkillReset4
 
@@ -106,7 +106,7 @@ GotoSet: CheckUsedSkillReset4
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedSkillReset5
 
@@ -128,7 +128,7 @@ GotoSet: CheckUsedSkillReset1
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedSkillReset6
 
@@ -150,7 +150,7 @@ GotoSet: CheckUsedSkillReset1
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedSkillReset7
 
@@ -172,7 +172,7 @@ GotoSet: CheckUsedSkillReset7
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedSkillReset8
 
@@ -194,7 +194,7 @@ GotoSet: CheckUsedSkillReset8
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedSkillReset9
 
@@ -216,7 +216,7 @@ GotoSet: CheckUsedSkillReset1
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedSkillReset10
 
@@ -238,7 +238,7 @@ GotoSet: CheckUsedSkillReset10
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         #QuestFailure:
             #- Goto: CheckUsedSkillReset1
 

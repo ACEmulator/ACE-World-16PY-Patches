@@ -46,7 +46,7 @@ GotoSet: CheckUsedAttributeReset1
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedAttributeReset2
 
@@ -67,7 +67,7 @@ GotoSet: CheckUsedAttributeReset2
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedAttributeReset3
 
@@ -88,7 +88,7 @@ GotoSet: CheckUsedAttributeReset3
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedAttributeReset4
 
@@ -109,7 +109,7 @@ GotoSet: CheckUsedAttributeReset4
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedAttributeReset5
 
@@ -130,7 +130,7 @@ GotoSet: CheckUsedAttributeReset5
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedAttributeReset6
 
@@ -151,7 +151,7 @@ GotoSet: CheckUsedAttributeReset6
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedAttributeReset7
 
@@ -172,7 +172,7 @@ GotoSet: CheckUsedAttributeReset7
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedAttributeReset8
 
@@ -193,7 +193,7 @@ GotoSet: CheckUsedAttributeReset8
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedAttributeReset9
 
@@ -214,7 +214,7 @@ GotoSet: CheckUsedAttributeReset9
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         QuestFailure:
             - Goto: CheckUsedAttributeReset10
 
@@ -235,7 +235,7 @@ GotoSet: CheckUsedAttributeReset10
                         TestFailure:
                             - Delay: 1, Tell: You don't have enough MMDs.
                 TestFailure:
-                    - Delay: 1, Tell: Let me know if you change your mind
+                    - Delay: 1, Tell: Let me know if you change your mind.
         #QuestFailure:
             #- Goto: CheckUsedAttributeReset1
 
