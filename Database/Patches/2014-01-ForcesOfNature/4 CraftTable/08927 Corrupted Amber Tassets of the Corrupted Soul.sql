@@ -52,4 +52,6 @@ VALUES (8927, 53024 /* Corrupted Amber: Tassets of the Corrupted Soul */,   108 
 	 , (8927, 53024 /* Corrupted Amber: Tassets of the Corrupted Soul */, 37202 /* Olthoi Celdon Leggings */, '2005-02-09 10:00:00')
 	 , (8927, 53024 /* Corrupted Amber: Tassets of the Corrupted Soul */, 37203 /* Olthoi Koujia Leggings */, '2005-02-09 10:00:00')
 	 , (8927, 53024 /* Corrupted Amber: Tassets of the Corrupted Soul */, 37201 /* Olthoi Amuli Leggings */, '2005-02-09 10:00:00')
-	 , (8927, 53024 /* Corrupted Amber: Tassets of the Corrupted Soul */, 25650 /* Leather Shorts */, '2005-02-09 10:00:00');
+	 , (8927, 53024 /* Corrupted Amber: Tassets of the Corrupted Soul */, 25650 /* Leather Shorts */, '2005-02-09 10:00:00')
+     , (8927, 53024 /* Corrupted Amber: Tassets of the Corrupted Soul */, 30515 /* Gelidite Tassets */, '2005-02-09 10:00:00')
+	 , (8927, 53024 /* Corrupted Amber: Tassets of the Corrupted Soul */, 30516 /* Tassets of Leikotha's Tears */, '2005-02-09 10:00:00');

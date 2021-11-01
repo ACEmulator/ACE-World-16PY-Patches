@@ -51,4 +51,6 @@ VALUES (8918, 53070 /* Empowered Amber: Graves of Life */,    65 /* Leather Grea
 	 , (8918, 53070 /* Empowered Amber: Graves of Life */, 28622 /* Tenassa Leggings */, '2005-02-09 10:00:00')
 	 , (8918, 53070 /* Empowered Amber: Graves of Life */, 37202 /* Olthoi Celdon Leggings */, '2005-02-09 10:00:00')
 	 , (8918, 53070 /* Empowered Amber: Graves of Life */, 37203 /* Olthoi Koujia Leggings */, '2005-02-09 10:00:00')
-	 , (8918, 53070 /* Empowered Amber: Graves of Life */, 37201 /* Olthoi Amuli Leggings */, '2005-02-09 10:00:00');
+	 , (8918, 53070 /* Empowered Amber: Graves of Life */, 37201 /* Olthoi Amuli Leggings */, '2005-02-09 10:00:00')
+     , (8918, 53070 /* Empowered Amber: Graves of Life */, 30514 /* Gelidite Greaves */, '2005-02-09 10:00:00')
+	 , (8918, 53070 /* Empowered Amber: Graves of Life */, 30513 /* Greaves of Leikotha's Tears */, '2005-02-09 10:00:00');

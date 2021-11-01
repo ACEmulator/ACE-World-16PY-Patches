@@ -38,4 +38,8 @@ VALUES (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */,    55 /* Chain
 	 , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 37189 /* Olthoi Celdon Gauntlets */, '2005-02-09 10:00:00')
 	 , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 37190 /* Olthoi Koujia Gauntlets */, '2005-02-09 10:00:00')
 	 , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 37188 /* Olthoi Amuli Gauntlets */, '2005-02-09 10:00:00')
-	 , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 43049 /* Knorr Academy Gauntlets */, '2005-02-09 10:00:00');
+	 , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 43049 /* Knorr Academy Gauntlets */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 30510 /* Adept's Fervor' */, '2005-02-09 10:00:00')
+	 , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 30534 /* Gauntlets of the Crimson Star */, '2005-02-09 10:00:00')
+     , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 30526 /* Gelidite Gauntlets */, '2005-02-09 10:00:00')
+	 , (8904, 53299 /* Luminous Amber: Gauntlets of the Storm */, 30525 /* Gauntlets of Leikotha's Tears */, '2005-02-09 10:00:00');

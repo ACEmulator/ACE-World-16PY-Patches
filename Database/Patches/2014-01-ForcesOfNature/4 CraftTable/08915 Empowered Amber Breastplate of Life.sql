@@ -61,4 +61,6 @@ VALUES (8915, 53067 /* Empowered Amber: Breastplate of Life */,    39 /* Leather
 	 , (8915, 53067 /* Empowered Amber: Breastplate of Life */, 37214 /* Olthoi Celdon Breastplate */, '2005-02-09 10:00:00')
 	 , (8915, 53067 /* Empowered Amber: Breastplate of Life */, 37215 /* Olthoi Koujia Breastplate */, '2005-02-09 10:00:00')
 	 , (8915, 53067 /* Empowered Amber: Breastplate of Life */, 37299 /* Olthoi Amuli Coat */, '2005-02-09 10:00:00')
-	 , (8915, 53067 /* Empowered Amber: Breastplate of Life */, 43048 /* Knorr Academy Breastplate */, '2005-02-09 10:00:00');
+	 , (8915, 53067 /* Empowered Amber: Breastplate of Life */, 43048 /* Knorr Academy Breastplate */, '2005-02-09 10:00:00')
+     , (8915, 53067 /* Empowered Amber: Breastplate of Life */, 30519 /* Gelidite Breastplate */, '2005-02-09 10:00:00')
+	 , (8915, 53067 /* Empowered Amber: Breastplate of Life */, 30520 /* Breastplate of Leikotha's Tears */, '2005-02-09 10:00:00');

@@ -55,4 +55,6 @@ VALUES (8911, 53298 /* Luminous Amber: Girth of the Bulwark */,    60 /* Leather
 	 , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 37202 /* Olthoi Celdon Leggings */, '2005-02-09 10:00:00')
 	 , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 37203 /* Olthoi Koujia Leggings */, '2005-02-09 10:00:00')
 	 , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 37201 /* Olthoi Amuli Leggings */, '2005-02-09 10:00:00')
-	 , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 25650 /* Leather Shorts */, '2005-02-09 10:00:00');
+	 , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 25650 /* Leather Shorts */, '2005-02-09 10:00:00')
+     , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 30517 /* Gelidite Girth */, '2005-02-09 10:00:00')
+	 , (8911, 53298 /* Luminous Amber: Girth of the Bulwark */, 30518 /* Girth of Leikotha's Tears */, '2005-02-09 10:00:00');

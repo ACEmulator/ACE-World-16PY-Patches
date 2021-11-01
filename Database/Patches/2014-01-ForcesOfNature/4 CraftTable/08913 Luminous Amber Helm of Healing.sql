@@ -63,4 +63,8 @@ VALUES (8913, 53301 /* Luminous Amber: Helm of Healing */,    35 /* Chainmail Ba
 	 , (8913, 53301 /* Luminous Amber: Helm of Healing */, 31866 /* Coronet */, '2005-02-09 10:00:00')
 	 , (8913, 53301 /* Luminous Amber: Helm of Healing */, 31867 /* Diadem */, '2005-02-09 10:00:00')
 	 , (8913, 53301 /* Luminous Amber: Helm of Healing */, 31868 /* Signet Crown */, '2005-02-09 10:00:00')
-	 , (8913, 53301 /* Luminous Amber: Helm of Healing */, 31864 /* Teardrop Crown */, '2005-02-09 10:00:00');
+	 , (8913, 53301 /* Luminous Amber: Helm of Healing */, 31864 /* Teardrop Crown */, '2005-02-09 10:00:00')
+     , (8913, 53301 /* Luminous Amber: Helm of Healing */, 30512 /* Imperial Chevaird's Helm */, '2005-02-09 10:00:00')
+	 , (8913, 53301 /* Luminous Amber: Helm of Healing */, 30527 /* Valkeer's Helm */, '2005-02-09 10:00:00')
+	 , (8913, 53301 /* Luminous Amber: Helm of Healing */, 30511 /* Gelidite Mitre */, '2005-02-09 10:00:00')
+	 , (8913, 53301 /* Luminous Amber: Helm of Healing */, 30528 /* Helm of Leikotha's Tears */, '2005-02-09 10:00:00');

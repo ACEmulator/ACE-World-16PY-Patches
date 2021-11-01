@@ -56,4 +56,6 @@ VALUES (8925, 53019 /* Corrupted Amber: Pauldrons of the Corrupted Heart */,    
 	 , (8925, 53019 /* Corrupted Amber: Pauldrons of the Corrupted Heart */, 30949 /* Diforsa Sleeves */, '2005-02-09 10:00:00')
 	 , (8925, 53019 /* Corrupted Amber: Pauldrons of the Corrupted Heart */, 28624 /* Tenassa Sleeves */, '2005-02-09 10:00:00')
 	 , (8925, 53019 /* Corrupted Amber: Pauldrons of the Corrupted Heart */, 37205 /* Olthoi Celdon Sleeves */, '2005-02-09 10:00:00')
-	 , (8925, 53019 /* Corrupted Amber: Pauldrons of the Corrupted Heart */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00');
+	 , (8925, 53019 /* Corrupted Amber: Pauldrons of the Corrupted Heart */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00')
+     , (8925, 53019 /* Corrupted Amber: Pauldrons of the Corrupted Heart */, 30522 /* Gelidite Pauldrons */, '2005-02-09 10:00:00')
+	 , (8925, 53019 /* Corrupted Amber: Pauldrons of the Corrupted Heart */, 30521 /* Pauldrons of Leikotha's Tears */, '2005-02-09 10:00:00');

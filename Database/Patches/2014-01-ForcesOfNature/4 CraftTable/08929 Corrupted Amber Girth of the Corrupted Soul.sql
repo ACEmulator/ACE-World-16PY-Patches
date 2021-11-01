@@ -55,4 +55,6 @@ VALUES (8929, 53022 /* Corrupted Amber: Girth of the Corrupted Soul */,    60 /*
 	 , (8929, 53022 /* Corrupted Amber: Girth of the Corrupted Soul */, 37202 /* Olthoi Celdon Leggings */, '2005-02-09 10:00:00')
 	 , (8929, 53022 /* Corrupted Amber: Girth of the Corrupted Soul */, 37203 /* Olthoi Koujia Leggings */, '2005-02-09 10:00:00')
 	 , (8929, 53022 /* Corrupted Amber: Girth of the Corrupted Soul */, 37201 /* Olthoi Amuli Leggings */, '2005-02-09 10:00:00')
-	 , (8929, 53022 /* Corrupted Amber: Girth of the Corrupted Soul */, 25650 /* Leather Shorts */, '2005-02-09 10:00:00');
+	 , (8929, 53022 /* Corrupted Amber: Girth of the Corrupted Soul */, 25650 /* Leather Shorts */, '2005-02-09 10:00:00')
+     , (8929, 53022 /* Corrupted Amber: Girth of the Corrupted Soul */, 30517 /* Gelidite Girth */, '2005-02-09 10:00:00')
+	 , (8929, 53022 /* Corrupted Amber: Girth of the Corrupted Soul */, 30518 /* Girth of Leikotha's Tears */, '2005-02-09 10:00:00');

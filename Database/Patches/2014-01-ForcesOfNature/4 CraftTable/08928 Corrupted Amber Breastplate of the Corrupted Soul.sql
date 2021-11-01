@@ -61,4 +61,6 @@ VALUES (8928, 53021 /* Corrupted Amber: Breastplate of the Corrupted Soul */,   
 	 , (8928, 53021 /* Corrupted Amber: Breastplate of the Corrupted Soul */, 37214 /* Olthoi Celdon Breastplate */, '2005-02-09 10:00:00')
 	 , (8928, 53021 /* Corrupted Amber: Breastplate of the Corrupted Soul */, 37215 /* Olthoi Koujia Breastplate */, '2005-02-09 10:00:00')
 	 , (8928, 53021 /* Corrupted Amber: Breastplate of the Corrupted Soul */, 37299 /* Olthoi Amuli Coat */, '2005-02-09 10:00:00')
-	 , (8928, 53021 /* Corrupted Amber: Breastplate of the Corrupted Soul */, 43048 /* Knorr Academy Breastplate */, '2005-02-09 10:00:00');
+	 , (8928, 53021 /* Corrupted Amber: Breastplate of the Corrupted Soul */, 43048 /* Knorr Academy Breastplate */, '2005-02-09 10:00:00'),
+     , (8928, 53021 /* Corrupted Amber: Breastplate of the Corrupted Soul */, 30519 /* Gelidite Breastplate */, '2005-02-09 10:00:00')
+	 , (8928, 53021 /* Corrupted Amber: Breastplate of the Corrupted Soul */, 30520 /* Breastplate of Leikotha's Tears */, '2005-02-09 10:00:00');

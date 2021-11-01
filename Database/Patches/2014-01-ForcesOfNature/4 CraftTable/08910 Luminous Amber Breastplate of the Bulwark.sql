@@ -61,4 +61,6 @@ VALUES (8910, 53297 /* Luminous Amber: Breastplate of the Bulwark */,    39 /* L
 	 , (8910, 53297 /* Luminous Amber: Breastplate of the Bulwark */, 37214 /* Olthoi Celdon Breastplate */, '2005-02-09 10:00:00')
 	 , (8910, 53297 /* Luminous Amber: Breastplate of the Bulwark */, 37215 /* Olthoi Koujia Breastplate */, '2005-02-09 10:00:00')
 	 , (8910, 53297 /* Luminous Amber: Breastplate of the Bulwark */, 37299 /* Olthoi Amuli Coat */, '2005-02-09 10:00:00')
-	 , (8910, 53297 /* Luminous Amber: Breastplate of the Bulwark */, 43048 /* Knorr Academy Breastplate */, '2005-02-09 10:00:00');
+	 , (8910, 53297 /* Luminous Amber: Breastplate of the Bulwark */, 43048 /* Knorr Academy Breastplate */, '2005-02-09 10:00:00')
+     , (8910, 53297 /* Luminous Amber: Breastplate of the Bulwark */, 30519 /* Gelidite Breastplate */, '2005-02-09 10:00:00')
+	 , (8910, 53297 /* Luminous Amber: Breastplate of the Bulwark */, 30520 /* Breastplate of Leikotha's Tears */, '2005-02-09 10:00:00');

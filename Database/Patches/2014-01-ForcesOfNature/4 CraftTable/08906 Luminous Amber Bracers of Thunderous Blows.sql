@@ -48,4 +48,6 @@ VALUES (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */,    36 /* 
 	 , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 30949 /* Diforsa Sleeves */, '2005-02-09 10:00:00')
 	 , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 28624 /* Tenassa Sleeves */, '2005-02-09 10:00:00')
 	 , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 37205 /* Olthoi Celdon Sleeves */, '2005-02-09 10:00:00')
-	 , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00');
+	 , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00')
+     , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 30524 /* Gelidite Bracers */, '2005-02-09 10:00:00')
+	 , (8906, 53293 /* Luminous Amber: Bracers of Thunderous Blows */, 30523 /* Bracers of Leikotha's Tears' */, '2005-02-09 10:00:00');

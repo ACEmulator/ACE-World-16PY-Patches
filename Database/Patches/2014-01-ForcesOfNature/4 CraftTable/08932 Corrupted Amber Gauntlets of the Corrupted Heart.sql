@@ -38,4 +38,8 @@ VALUES (8932, 53017 /* Corrupted Amber: Gauntlets of the Corrupted Heart */,    
 	 , (8932, 53017 /* Corrupted Amber: Gauntlets of the Corrupted Heart */, 37189 /* Olthoi Celdon Gauntlets */, '2005-02-09 10:00:00')
 	 , (8932, 53017 /* Corrupted Amber: Gauntlets of the Corrupted Heart */, 37190 /* Olthoi Koujia Gauntlets */, '2005-02-09 10:00:00')
 	 , (8932, 53017 /* Corrupted Amber: Gauntlets of the Corrupted Heart */, 37188 /* Olthoi Amuli Gauntlets */, '2005-02-09 10:00:00')
-	 , (8932, 53017 /* Corrupted Amber: Gauntlets of the Corrupted Heart */, 43049 /* Knorr Academy Gauntlets */, '2005-02-09 10:00:00');
+	 , (8932, 53017 /* Corrupted Amber: Gauntlets of the Corrupted Heart */, 43049 /* Knorr Academy Gauntlets */, '2005-02-09 10:00:00')
+     , (8932, 53017 /* Corrupted Amber: Gauntlets of the Corrupted Heart */, 30510 /* Adept's Fervor' */, '2005-02-09 10:00:00')
+	 , (8932, 53017 /* Corrupted Amber: Gauntlets of the Corrupted Heart */, 30534 /* Gauntlets of the Crimson Star */, '2005-02-09 10:00:00')
+	 , (8932, 53017 /* Corrupted Amber: Gauntlets of the Corrupted Heart */, 30526 /* Gelidite Gauntlets */, '2005-02-09 10:00:00')
+	 , (8932, 53017 /* Corrupted Amber: Gauntlets of the Corrupted Heart */, 30525 /* Gauntlets of Leikotha's Tears */, '2005-02-09 10:00:00');

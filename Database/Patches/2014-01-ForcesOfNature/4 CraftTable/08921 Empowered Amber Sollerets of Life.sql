@@ -43,4 +43,8 @@ VALUES (8921, 53073 /* Empowered Amber: Sollerets of Life */,   107 /* Sollerets
 	 , (8921, 53073 /* Empowered Amber: Sollerets of Life */, 31249 /* Viamontian Laced Boots */, '2005-02-09 10:00:00')
 	 , (8921, 53073 /* Empowered Amber: Sollerets of Life */, 28610 /* Loafers */, '2005-02-09 10:00:00')
 	 , (8921, 53073 /* Empowered Amber: Sollerets of Life */, 31237 /* Loafers */, '2005-02-09 10:00:00')
-	 , (8921, 53073 /* Empowered Amber: Sollerets of Life */, 133 /* Slippers */, '2005-02-09 10:00:00');
+	 , (8921, 53073 /* Empowered Amber: Sollerets of Life */, 133 /* Slippers */, '2005-02-09 10:00:00')
+     , (8921, 53073 /* Empowered Amber: Sollerets of Life */, 30367 /* Footman's Boots */, '2005-02-09 10:00:00')
+	 , (8921, 53073 /* Empowered Amber: Sollerets of Life */, 30368 /* Steel Wall Boots */, '2005-02-09 10:00:00')
+	 , (8921, 53073 /* Empowered Amber: Sollerets of Life */, 30369 /* Tracker Boots */, '2005-02-09 10:00:00')
+	 , (8921, 53073 /* Empowered Amber: Sollerets of Life */, 30529 /* Gelidite Boots */, '2005-02-09 10:00:00');

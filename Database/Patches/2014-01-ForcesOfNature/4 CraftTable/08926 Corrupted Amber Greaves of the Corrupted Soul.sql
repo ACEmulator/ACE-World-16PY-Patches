@@ -51,4 +51,6 @@ VALUES (8926, 53023 /* Corrupted Amber: Greaves of the Corrupted Soul */,    65 
 	 , (8926, 53023 /* Corrupted Amber: Greaves of the Corrupted Soul */, 28622 /* Tenassa Leggings */, '2005-02-09 10:00:00')
 	 , (8926, 53023 /* Corrupted Amber: Greaves of the Corrupted Soul */, 37202 /* Olthoi Celdon Leggings */, '2005-02-09 10:00:00')
 	 , (8926, 53023 /* Corrupted Amber: Greaves of the Corrupted Soul */, 37203 /* Olthoi Koujia Leggings */, '2005-02-09 10:00:00')
-	 , (8926, 53023 /* Corrupted Amber: Greaves of the Corrupted Soul */, 37201 /* Olthoi Amuli Leggings */, '2005-02-09 10:00:00');
+	 , (8926, 53023 /* Corrupted Amber: Greaves of the Corrupted Soul */, 37201 /* Olthoi Amuli Leggings */, '2005-02-09 10:00:00')
+     , (8926, 53023 /* Corrupted Amber: Greaves of the Corrupted Soul */, 30514 /* Gelidite Greaves */, '2005-02-09 10:00:00')
+	 , (8926, 53023 /* Corrupted Amber: Greaves of the Corrupted Soul */, 30513 /* Greaves of Leikotha's Tears */, '2005-02-09 10:00:00');

@@ -54,4 +54,6 @@ VALUES (8908, 53295 /* Luminous Amber: Graves of the Tower */,    65 /* Leather 
 	 , (8908, 53295 /* Luminous Amber: Graves of the Tower */, 28622 /* Tenassa Leggings */, '2005-02-09 10:00:00')
 	 , (8908, 53295 /* Luminous Amber: Graves of the Tower */, 37202 /* Olthoi Celdon Leggings */, '2005-02-09 10:00:00')
 	 , (8908, 53295 /* Luminous Amber: Graves of the Tower */, 37203 /* Olthoi Koujia Leggings */, '2005-02-09 10:00:00')
-	 , (8908, 53295 /* Luminous Amber: Graves of the Tower */, 37201 /* Olthoi Amuli Leggings */, '2005-02-09 10:00:00');
+	 , (8908, 53295 /* Luminous Amber: Graves of the Tower */, 37201 /* Olthoi Amuli Leggings */, '2005-02-09 10:00:00')
+     , (8908, 53295 /* Luminous Amber: Graves of the Tower */, 30514 /* Gelidite Greaves */, '2005-02-09 10:00:00')
+	 , (8908, 53295 /* Luminous Amber: Graves of the Tower */, 30513 /* Greaves of Leikotha's Tears */, '2005-02-09 10:00:00');

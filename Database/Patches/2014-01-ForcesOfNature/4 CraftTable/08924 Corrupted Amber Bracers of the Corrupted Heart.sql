@@ -45,4 +45,6 @@ VALUES (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */,    36
 	 , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 30949 /* Diforsa Sleeves */, '2005-02-09 10:00:00')
 	 , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 28624 /* Tenassa Sleeves */, '2005-02-09 10:00:00')
 	 , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 37205 /* Olthoi Celdon Sleeves */, '2005-02-09 10:00:00')
-	 , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00');
+	 , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00')
+     , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 30524 /* Gelidite Bracers */, '2005-02-09 10:00:00')
+     , (8924, 53016 /* Corrupted Amber: Bracers of the Corrupted Heart */, 30523 /* Bracers of Leikotha's Tears' */, '2005-02-09 10:00:00');

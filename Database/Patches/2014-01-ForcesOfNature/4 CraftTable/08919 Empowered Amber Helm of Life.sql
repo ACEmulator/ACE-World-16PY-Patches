@@ -64,4 +64,8 @@ VALUES (8919, 53071 /* Empowered Amber: Helm of Life */,    35 /* Chainmail Basi
 	 , (8919, 53071 /* Empowered Amber: Helm of Life */, 31866 /* Coronet */, '2005-02-09 10:00:00')
 	 , (8919, 53071 /* Empowered Amber: Helm of Life */, 31867 /* Diadem */, '2005-02-09 10:00:00')
 	 , (8919, 53071 /* Empowered Amber: Helm of Life */, 31868 /* Signet Crown */, '2005-02-09 10:00:00')
-	 , (8919, 53071 /* Empowered Amber: Helm of Life */, 31864 /* Teardrop Crown */, '2005-02-09 10:00:00');
+	 , (8919, 53071 /* Empowered Amber: Helm of Life */, 31864 /* Teardrop Crown */, '2005-02-09 10:00:00')
+     , (8919, 53071 /* Empowered Amber: Helm of Life */, 30512 /* Imperial Chevaird's Helm */, '2005-02-09 10:00:00')
+	 , (8919, 53071 /* Empowered Amber: Helm of Life */, 30527 /* Valkeer's Helm */, '2005-02-09 10:00:00')
+	 , (8919, 53071 /* Empowered Amber: Helm of Life */, 30511 /* Gelidite Mitre */, '2005-02-09 10:00:00')
+	 , (8919, 53071 /* Empowered Amber: Helm of Life */, 30528 /* Helm of Leikotha's Tears */, '2005-02-09 10:00:00');

@@ -55,4 +55,6 @@ VALUES (8909, 53296 /* Luminous Amber: Tassets of the Tower */,   108 /* Chainma
 	 , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 37202 /* Olthoi Celdon Leggings */, '2005-02-09 10:00:00')
 	 , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 37203 /* Olthoi Koujia Leggings */, '2005-02-09 10:00:00')
 	 , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 37201 /* Olthoi Amuli Leggings */, '2005-02-09 10:00:00')
-	 , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 25650 /* Leather Shorts */, '2005-02-09 10:00:00');
+	 , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 25650 /* Leather Shorts */, '2005-02-09 10:00:00')
+     , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 30515 /* Gelidite Tassets */, '2005-02-09 10:00:00')
+	 , (8909, 53296 /* Luminous Amber: Tassets of the Tower */, 30516 /* Tassets of Leikotha's Tears */, '2005-02-09 10:00:00');

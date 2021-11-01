@@ -64,4 +64,8 @@ VALUES (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */,    35 /*
 	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 31866 /* Coronet */, '2005-02-09 10:00:00')
 	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 31867 /* Diadem */, '2005-02-09 10:00:00')
 	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 31868 /* Signet Crown */, '2005-02-09 10:00:00')
-	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 31864 /* Teardrop Crown */, '2005-02-09 10:00:00');
+	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 31864 /* Teardrop Crown */, '2005-02-09 10:00:00')
+     , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 30512 /* Imperial Chevaird's Helm */, '2005-02-09 10:00:00')
+	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 30527 /* Valkeer's Helm */, '2005-02-09 10:00:00')
+	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 30511 /* Gelidite Mitre */, '2005-02-09 10:00:00')
+	 , (8931, 53018 /* Corrupted Amber: Helm of the Corrupted Heart */, 30528 /* Helm of Leikotha's Tears */, '2005-02-09 10:00:00');

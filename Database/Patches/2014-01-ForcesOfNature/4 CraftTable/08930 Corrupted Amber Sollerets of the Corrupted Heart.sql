@@ -43,4 +43,8 @@ VALUES (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */,   1
 	 , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 31249 /* Viamontian Laced Boots */, '2005-02-09 10:00:00')
 	 , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 28610 /* Loafers */, '2005-02-09 10:00:00')
 	 , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 31237 /* Loafers */, '2005-02-09 10:00:00')
-	 , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 133 /* Slippers */, '2005-02-09 10:00:00');
+	 , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 133 /* Slippers */, '2005-02-09 10:00:00')
+     , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 30367 /* Footman's Boots */, '2005-02-09 10:00:00')
+	 , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 30368 /* Steel Wall Boots */, '2005-02-09 10:00:00')
+	 , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 30369 /* Tracker Boots */, '2005-02-09 10:00:00')
+	 , (8930, 53020 /* Corrupted Amber: Sollerets of the Corrupted Heart */, 30529 /* Gelidite Boots */, '2005-02-09 10:00:00');

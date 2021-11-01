@@ -52,4 +52,6 @@ VALUES (8922, 53074 /* Empowered Amber: Tassets of Life */,   108 /* Chainmail T
 	 , (8922, 53074 /* Empowered Amber: Tassets of Life */, 37202 /* Olthoi Celdon Leggings */, '2005-02-09 10:00:00')
 	 , (8922, 53074 /* Empowered Amber: Tassets of Life */, 37203 /* Olthoi Koujia Leggings */, '2005-02-09 10:00:00')
 	 , (8922, 53074 /* Empowered Amber: Tassets of Life */, 37201 /* Olthoi Amuli Leggings */, '2005-02-09 10:00:00')
-	 , (8922, 53074 /* Empowered Amber: Tassets of Life */, 25650 /* Leather Shorts */, '2005-02-09 10:00:00');
+	 , (8922, 53074 /* Empowered Amber: Tassets of Life */, 25650 /* Leather Shorts */, '2005-02-09 10:00:00')
+     , (8922, 53074 /* Empowered Amber: Tassets of Life */, 30515 /* Gelidite Tassets */, '2005-02-09 10:00:00')
+	 , (8922, 53074 /* Empowered Amber: Tassets of Life */, 30516 /* Tassets of Leikotha's Tears */, '2005-02-09 10:00:00');

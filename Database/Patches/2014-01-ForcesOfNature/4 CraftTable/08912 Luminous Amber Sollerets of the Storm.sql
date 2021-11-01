@@ -43,4 +43,8 @@ VALUES (8912, 53300 /* Luminous Amber: Sollerets of the Storm */,   107 /* Solle
 	 , (8912, 53300 /* Luminous Amber: Sollerets of the Storm */, 31249 /* Viamontian Laced Boots */, '2005-02-09 10:00:00')
 	 , (8912, 53300 /* Luminous Amber: Sollerets of the Storm */, 28610 /* Loafers */, '2005-02-09 10:00:00')
 	 , (8912, 53300 /* Luminous Amber: Sollerets of the Storm */, 31237 /* Loafers */, '2005-02-09 10:00:00')
-	 , (8912, 53300 /* Luminous Amber: Sollerets of the Storm */, 133 /* Slippers */, '2005-02-09 10:00:00');
+	 , (8912, 53300 /* Luminous Amber: Sollerets of the Storm */, 133 /* Slippers */, '2005-02-09 10:00:00')
+     , (8912, 53300 /* Luminous Amber: Sollerets of the Storm */, 30367 /* Footman's Boots */, '2005-02-09 10:00:00')
+	 , (8912, 53300 /* Luminous Amber: Sollerets of the Storm */, 30368 /* Steel Wall Boots */, '2005-02-09 10:00:00')
+	 , (8912, 53300 /* Luminous Amber: Sollerets of the Storm */, 30369 /* Tracker Boots */, '2005-02-09 10:00:00')
+	 , (8912, 53300 /* Luminous Amber: Sollerets of the Storm */, 30529 /* Gelidite Boots */, '2005-02-09 10:00:00');

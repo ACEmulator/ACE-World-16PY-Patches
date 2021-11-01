@@ -45,4 +45,6 @@ VALUES (8905, 53066 /* Empowered Amber: Bracers of Life */,    36 /* Leather Bra
 	 , (8905, 53066 /* Empowered Amber: Bracers of Life */, 30949 /* Diforsa Sleeves */, '2005-02-09 10:00:00')
 	 , (8905, 53066 /* Empowered Amber: Bracers of Life */, 28624 /* Tenassa Sleeves */, '2005-02-09 10:00:00')
 	 , (8905, 53066 /* Empowered Amber: Bracers of Life */, 37205 /* Olthoi Celdon Sleeves */, '2005-02-09 10:00:00')
-	 , (8905, 53066 /* Empowered Amber: Bracers of Life */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00');
+	 , (8905, 53066 /* Empowered Amber: Bracers of Life */, 37206 /* Olthoi Koujia Sleeves */, '2005-02-09 10:00:00')
+     , (8905, 53066 /* Empowered Amber: Bracers of Life */, 30524 /* Gelidite Bracers */, '2005-02-09 10:00:00')
+	 , (8905, 53066 /* Empowered Amber: Bracers of Life */, 30523 /* Bracers of Leikotha's Tears' */, '2005-02-09 10:00:00');
