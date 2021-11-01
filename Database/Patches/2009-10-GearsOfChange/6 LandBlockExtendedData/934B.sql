@@ -11,3 +11,7 @@ VALUES (0x7934B07F, 42601, 0x934B000B, 31.11, 49.6178, 14.1433, 1, 0, 0, 0, Fals
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7934B080, 42618, 0x934B000B, 24.9083, 49.3562, 14.118016, 0.92387974, 0, 0, -0.38268292, False, '2020-04-09 00:06:24'); /* Merkitz ibn'Akadh */
 /* @teleloc 0x934B000B [24.908300 49.356201 14.118016] 0.923880 0.000000 0.000000 -0.382683 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7934B431, 42116, 0x934B000B, 32.5096, 51.1108, 14.2642, 1, 0, 0, 0, False, '2021-10-31 04:35:19'); /* Master Craftsman Takahume */
+/* @teleloc 0x934B000B [32.509602 51.110802 14.264200] 1.000000 0.000000 0.000000 0.000000 */
