@@ -26,7 +26,7 @@ VALUES (41233,  54, -0.100000001490116) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41233,   1, 'Reaving Facility') /* Name */
      , (41233,  16, 'This portal leads to the Apostate Reaving Facility.') /* LongDesc */
-     , (41233,  38, 'Reaving Facility') /* AppraisalPortalDestination */;
+     , (41233,  37, 'UnleashGearKnightStart0909') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41233,   1,   33555925) /* Setup */
@@ -35,4 +35,4 @@ VALUES (41233,   1,   33555925) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (41233, 2, 1068564853, 276, -229, -39.595, 0, 0, 0, -1) /* Destination */
-/* @teleloc 0x3FB10175 [276.000000 -229.000000 -39.595000] 0.000000 0.000000 0.000000 -1.000000 */;
+/* @teleloc 0x3FB10175 [276.000000 -229.000000 -39.595001] 0.000000 0.000000 0.000000 -1.000000 */;

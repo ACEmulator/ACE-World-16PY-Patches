@@ -16,8 +16,7 @@ VALUES (43252,   1,         16) /* ItemType - Creature */
      , (43252,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (43252, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (43252, 146,    1250000) /* XpOverride */
-     , (43252, 307,          2) /* DamageRating */
-     , (43252, 332,        100) /* LuminanceAward */;
+     , (43252, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43252,   1, True ) /* Stuck */
@@ -71,14 +70,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43252,   1, 'Undead Commander') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43252,   1,   33558541) /* Setup */
-     , (43252,   2,  150994967) /* MotionTable */
-     , (43252,   3,  536870934) /* SoundTable */
-     , (43252,   4,  805306368) /* CombatTable */
-     , (43252,   6,   67114692) /* PaletteBase */
-     , (43252,   7,  268436726) /* ClothingBase */
-     , (43252,   8,  100667942) /* Icon */
-     , (43252,  22,  872415272) /* PhysicsEffectTable */
+VALUES (43252,   1, 0x0200100D) /* Setup */
+     , (43252,   2, 0x09000017) /* MotionTable */
+     , (43252,   3, 0x20000016) /* SoundTable */
+     , (43252,   4, 0x30000000) /* CombatTable */
+     , (43252,   6, 0x040016C4) /* PaletteBase */
+     , (43252,   7, 0x100004F6) /* ClothingBase */
+     , (43252,   8, 0x06001226) /* Icon */
+     , (43252,  22, 0x34000028) /* PhysicsEffectTable */
      , (43252,  35,       2000) /* DeathTreasureType - Loot Tier: 8 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

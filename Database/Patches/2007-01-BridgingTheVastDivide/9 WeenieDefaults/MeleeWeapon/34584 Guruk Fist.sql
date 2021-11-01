@@ -11,7 +11,7 @@ VALUES (34584,   1,          1) /* ItemType - MeleeWeapon */
      , (34584,  19,         50) /* Value */
      , (34584,  44,          4) /* Damage */
      , (34584,  45,          4) /* DamageType - Bludgeon */
-     , (34584,  46,          1) /* DefaultCombatStyle */
+     , (34584,  46,          1) /* DefaultCombatStyle - Unarmed */
      , (34584,  47,          1) /* AttackType - Punch */
      , (34584,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (34584,  49,         20) /* WeaponTime */
