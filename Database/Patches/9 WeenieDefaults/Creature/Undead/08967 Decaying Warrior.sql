@@ -1,0 +1,178 @@
+DELETE FROM `weenie` WHERE `class_Id` = 8967;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8967, 'undeaddecayingwarrior', 10, '2019-09-13 00:00:00') /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (8967,   1,         16) /* ItemType - Creature */
+     , (8967,   2,         14) /* CreatureType - Undead */
+     , (8967,   3,         67) /* PaletteTemplate - GreenSlime */
+     , (8967,   6,         -1) /* ItemsCapacity */
+     , (8967,   7,         -1) /* ContainersCapacity */
+     , (8967,  16,          1) /* ItemUseable - No */
+     , (8967,  25,         60) /* Level */
+     , (8967,  27,          0) /* ArmorType - None */
+     , (8967,  40,          1) /* CombatMode - NonCombat */
+     , (8967,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
+     , (8967,  72,         30) /* FriendType - Skeleton */
+     , (8967,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (8967, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
+     , (8967, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (8967, 140,          1) /* AiOptions - CanOpenDoors */
+     , (8967, 146,      17500) /* XpOverride */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (8967,   1, True ) /* Stuck */
+     , (8967,   6, True ) /* AiUsesMana */
+     , (8967,  11, False) /* IgnoreCollisions */
+     , (8967,  12, True ) /* ReportCollisions */
+     , (8967,  13, False) /* Ethereal */
+     , (8967,  14, True ) /* GravityStatus */
+     , (8967,  19, True ) /* Attackable */
+     , (8967,  42, True ) /* AllowEdgeSlide */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8967,   1,       5) /* HeartbeatInterval */
+     , (8967,   2,       0) /* HeartbeatTimestamp */
+     , (8967,   3,     0.3) /* HealthRate */
+     , (8967,   4,     0.5) /* StaminaRate */
+     , (8967,   5,       2) /* ManaRate */
+     , (8967,  12,     0.5) /* Shade */
+     , (8967,  13,     0.8) /* ArmorModVsSlash */
+     , (8967,  14,     0.3) /* ArmorModVsPierce */
+     , (8967,  15,    0.55) /* ArmorModVsBludgeon */
+     , (8967,  16,    0.18) /* ArmorModVsCold */
+     , (8967,  17,     0.5) /* ArmorModVsFire */
+     , (8967,  18,    0.55) /* ArmorModVsAcid */
+     , (8967,  19,    0.67) /* ArmorModVsElectric */
+     , (8967,  31,      14) /* VisualAwarenessRange */
+     , (8967,  34,     0.8) /* PowerupTime */
+     , (8967,  36,       1) /* ChargeSpeed */
+     , (8967,  39,     1.1) /* DefaultScale */
+     , (8967,  64,       1) /* ResistSlash */
+     , (8967,  65,    0.52) /* ResistPierce */
+     , (8967,  66,    0.75) /* ResistBludgeon */
+     , (8967,  67,       1) /* ResistFire */
+     , (8967,  68,     0.2) /* ResistCold */
+     , (8967,  69,    0.75) /* ResistAcid */
+     , (8967,  70,    0.86) /* ResistElectric */
+     , (8967,  71,       1) /* ResistHealthBoost */
+     , (8967,  72,       1) /* ResistStaminaDrain */
+     , (8967,  73,       1) /* ResistStaminaBoost */
+     , (8967,  74,       1) /* ResistManaDrain */
+     , (8967,  75,       1) /* ResistManaBoost */
+     , (8967,  80,     2.6) /* AiUseMagicDelay */
+     , (8967, 104,      10) /* ObviousRadarRange */
+     , (8967, 122,       2) /* AiAcquireHealth */
+     , (8967, 125,       1) /* ResistHealthDrain */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8967,   1, 'Decaying Warrior') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8967,   1, 0x02000197) /* Setup */
+     , (8967,   2, 0x09000017) /* MotionTable */
+     , (8967,   3, 0x20000016) /* SoundTable */
+     , (8967,   4, 0x30000000) /* CombatTable */
+     , (8967,   6, 0x04000742) /* PaletteBase */
+     , (8967,   7, 0x10000066) /* ClothingBase */
+     , (8967,   8, 0x06001226) /* Icon */
+     , (8967,  22, 0x34000028) /* PhysicsEffectTable */
+     , (8967,  32,        248) /* WieldedTreasureType - 
+                                   Wield 6x Throwing Axe (304) | Probability: 10%
+                                   Wield Nayin (334) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Longbow (306) | Probability: 10%
+                                   Wield 20x Arrow (300) | Probability: 100%
+                                   Wield Yumi (363) | Probability: 10%
+                                   Wield 14x Arrow (300) | Probability: 100%
+                                   Wield Heavy Crossbow (311) | Probability: 60.000004%
+                                   Wield 15x Quarrel (305) | Probability: 100%
+                                   Wield Battle Axe (301) | Probability: 14%
+                                   Wield Broad Sword (350) | Probability: 7%
+                                   Wield Kaskara (324) | Probability: 6%
+                                   Wield Ken (327) | Probability: 6%
+                                   Wield Long Sword (351) | Probability: 6%
+                                   Wield Morning Star (332) | Probability: 10%
+                                   Wield Scimitar (339) | Probability: 6%
+                                   Wield Shamshir (340) | Probability: 6%
+                                   Wield Ono (336) | Probability: 13%
+                                   Wield Silifi (344) | Probability: 13%
+                                   Wield Tachi (353) | Probability: 6%
+                                   Wield Takuba (354) | Probability: 6%
+                                   Wield Large Kite Shield (92) | Probability: 30.000002%
+                                   Wield Kite Shield (91) | Probability: 20%
+                                   Wield Large Round Shield (94) | Probability: 20% */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (8967,   1, 100, 0, 0) /* Strength */
+     , (8967,   2, 110, 0, 0) /* Endurance */
+     , (8967,   3,  80, 0, 0) /* Quickness */
+     , (8967,   4, 140, 0, 0) /* Coordination */
+     , (8967,   5, 175, 0, 0) /* Focus */
+     , (8967,   6, 165, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (8967,   1,   180, 0, 0, 235) /* MaxHealth */
+     , (8967,   3,   220, 0, 0, 330) /* MaxStamina */
+     , (8967,   5,   150, 0, 0, 315) /* MaxMana */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (8967,  6, 0, 2, 0, 120, 0, 0) /* MeleeDefense        Trained */
+     , (8967,  7, 0, 2, 0, 100, 0, 0) /* MissileDefense      Trained */
+     , (8967, 14, 0, 2, 0, 150, 0, 0) /* ArcaneLore          Trained */
+     , (8967, 15, 0, 2, 0, 115, 0, 0) /* MagicDefense        Trained */
+     , (8967, 20, 0, 2, 0,  50, 0, 0) /* Deception           Trained */
+     , (8967, 31, 0, 2, 0, 130, 0, 0) /* CreatureEnchantment Trained */
+     , (8967, 33, 0, 2, 0, 130, 0, 0) /* LifeMagic           Trained */
+     , (8967, 34, 0, 2, 0, 150, 0, 0) /* WarMagic            Trained */
+     , (8967, 44, 0, 3, 0, 110, 0, 0) /* HeavyWeapons        Specialized */
+     , (8967, 45, 0, 3, 0, 100, 0, 0) /* LightWeapons        Specialized */
+     , (8967, 46, 0, 3, 0,  90, 0, 0) /* FinesseWeapons      Specialized */
+     , (8967, 47, 0, 3, 0, 100, 0, 0) /* MissileWeapons      Specialized */
+     , (8967, 48, 0, 3, 0, 100, 0, 0) /* Shield              Specialized */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (8967,  0,  4,  0,    0,   70,   56,   21,   39,   13,   35,   39,   47,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
+     , (8967,  1,  4,  0,    0,   80,   64,   24,   44,   14,   40,   44,   54,    0, 2, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0, 0.44, 0.17,    0) /* Chest */
+     , (8967,  2,  4,  0,    0,   80,   64,   24,   44,   14,   40,   44,   54,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
+     , (8967,  3,  4,  0,    0,   70,   56,   21,   39,   13,   35,   39,   47,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
+     , (8967,  4,  4,  0,    0,   80,   64,   24,   44,   14,   40,   44,   54,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
+     , (8967,  5,  4,  2, 0.75,   80,   64,   24,   44,   14,   40,   44,   54,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (8967,  6,  4,  0,    0,   90,   72,   27,   50,   16,   45,   50,   60,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
+     , (8967,  7,  4,  0,    0,   90,   72,   27,   50,   16,   45,   50,   60,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
+     , (8967,  8,  4,  3, 0.75,   90,   72,   27,   50,   16,   45,   50,   60,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (8967,    60,  2.029)  /* Acid Stream III */
+     , (8967,    61,  2.011)  /* Acid Stream IV */
+     , (8967,    66,  2.029)  /* Shock Wave III */
+     , (8967,    67,  2.011)  /* Shock Wave IV */
+     , (8967,    71,  2.029)  /* Frost Bolt III */
+     , (8967,    72,  2.011)  /* Frost Bolt IV */
+     , (8967,    77,  2.029)  /* Lightning Bolt III */
+     , (8967,    78,  2.011)  /* Lightning Bolt IV */
+     , (8967,    82,  2.029)  /* Flame Bolt III */
+     , (8967,    83,  2.011)  /* Flame Bolt IV */
+     , (8967,    88,  2.029)  /* Force Bolt III */
+     , (8967,    89,  2.011)  /* Force Bolt IV */
+     , (8967,    94,  2.029)  /* Whirling Blade III */
+     , (8967,    95,  2.011)  /* Whirling Blade IV */
+     , (8967,   173,  2.009)  /* Fester Other III */
+     , (8967,  1239,   2.02)  /* Drain Health Other III */
+     , (8967,  1251,   2.02)  /* Drain Stamina Other III */
+     , (8967,  1262,   2.02)  /* Drain Mana Other III */
+     , (8967,  1340,  2.009)  /* Weakness Other III */
+     , (8967,  1369,  2.009)  /* Frailty Other III */
+     , (8967,  1393,  2.009)  /* Clumsiness Other III */
+     , (8967,  1417,  2.009)  /* Slowness Other III */
+     , (8967,  1441,  2.009)  /* Bafflement Other III */
+     , (8967,  1466,  2.009)  /* Feeblemind Other IV */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (8967,  5 /* HeartBeat */,   0.05, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000091 /* Cringe */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0x00000000, 0, 0, 0, 0, 0, 0, 0);

@@ -1,5 +1,0 @@
-DELETE FROM `landblock_instance` WHERE `guid` = 2103791621; /* Shoushi West Training Academy Portal */
-/* @teleloc 0xD6550000 [107.927000 74.467000 52.005000] 1.000000 0.000000 0.000000 0.000000 */
-
-DELETE FROM `landblock_instance` WHERE `guid` = 2103791630; /* IMPORTANT SIGN  */
-/* @teleloc 0xD6550000 [107.622000 71.027700 52.005000] -0.998231 0.000000 0.000000 0.059449 */
