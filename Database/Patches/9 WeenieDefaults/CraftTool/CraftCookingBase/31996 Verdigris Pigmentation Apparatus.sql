@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31996;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31996, 'ace31996-verdigrispigmentationapparatus', 44, '2019-05-28 05:23:14') /* CraftTool */;
+VALUES (31996, 'ace31996-verdigrispigmentationapparatus', 44, '2021-11-01 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31996,   1,    4194304) /* ItemType - CraftCookingBase */

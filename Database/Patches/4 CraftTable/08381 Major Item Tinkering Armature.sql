@@ -1,7 +1,7 @@
 DELETE FROM `recipe` WHERE `id` = 8381;
 
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
-VALUES (8381, 0, 18 /* ItemTinkering */, 0, 2, 0, 0, 'You apply the Gromnie hide prepared Major Item Tinkering Armature.', 0, 0, 'You apply the Gromnie hide prepared Major Item Tinkering Armature, but in the process you destroy the target.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2020-02-28 10:00:00');
+VALUES (8381, 0, 18 /* ItemTinkering */, 0, 2, 0, 0, 'You apply the Gromnie hide prepared Major Item Tinkering Armature.', 0, 0, 'You apply the Gromnie hide prepared Major Item Tinkering Armature, but in the process you destroy the target.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2021-11-01 00:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8381, 0, 105, 1, 2, 'The target item cannot be tinkered!') /* Target.ItemWorkmanship LessThan 1 */
@@ -39,9 +39,9 @@ VALUES (@parent_id, 0,  52, 100676437, 1, 1) /* On Source.SuccessTarget SetValue
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8381;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8381, 41499 /* Major Item Tinkering Armature */, 41483 /* Compass */, '2020-02-28 10:00:00')
-     , (8381, 41499 /* Major Item Tinkering Armature */, 41484 /* Goggles */, '2020-02-28 10:00:00')
-     , (8381, 41499 /* Major Item Tinkering Armature */, 41485 /* Pocket Watch */, '2020-02-28 10:00:00')
-     , (8381, 41499 /* Major Item Tinkering Armature */, 41486 /* Puzzle Box */, '2020-02-28 10:00:00')
-     , (8381, 41499 /* Major Item Tinkering Armature */, 41487 /* Mechanical Scarab */, '2020-02-28 10:00:00')
-     , (8381, 41499 /* Major Item Tinkering Armature */, 41488 /* Top */, '2020-02-28 10:00:00');
+VALUES (8381, 41499 /* Major Item Tinkering Armature */, 41483 /* Compass */, '2021-11-01 00:00:00')
+     , (8381, 41499 /* Major Item Tinkering Armature */, 41484 /* Goggles */, '2021-11-01 00:00:00')
+     , (8381, 41499 /* Major Item Tinkering Armature */, 41485 /* Pocket Watch */, '2021-11-01 00:00:00')
+     , (8381, 41499 /* Major Item Tinkering Armature */, 41486 /* Puzzle Box */, '2021-11-01 00:00:00')
+     , (8381, 41499 /* Major Item Tinkering Armature */, 41487 /* Mechanical Scarab */, '2021-11-01 00:00:00')
+     , (8381, 41499 /* Major Item Tinkering Armature */, 41488 /* Top */, '2021-11-01 00:00:00');

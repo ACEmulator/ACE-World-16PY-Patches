@@ -1,7 +1,7 @@
 DELETE FROM `recipe` WHERE `id` = 4274;
 
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
-VALUES (4274, 0, 0, 0, 0, 23094 /* Granite Key */, 1, 'You remove one key from the keyring.', 0, 0, 'You fail to remove a key from the keyring. Impossible!', 0, 0, NULL, 0, 0, NULL, 0, 0, NULL, 0, 0, NULL, 0, '2005-02-09 10:00:00');
+VALUES (4274, 0, 0, 0, 0, 23094 /* Granite Key */, 1, 'You remove one key from the keyring.', 0, 0, 'You fail to remove a key from the keyring. Impossible!', 0, 0, NULL, 0, 0, NULL, 0, 0, NULL, 0, 0, NULL, 0, '2021-11-01 00:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (4274, 0, 193, 0, 1, 'This keyring is already empty!') /* Target.NumKeys LessThanEqual 0 */;
@@ -17,4 +17,4 @@ VALUES (@parent_id, 0, 193, -1, 2, 0) /* On Player.SuccessTarget Add NumKeys -1 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 4274;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (4274, 9295 /* Intricate Carving Tool */, 23198 /* Granite Keyring */, '2005-02-09 10:00:00');
+VALUES (4274, 9295 /* Intricate Carving Tool */, 23198 /* Granite Keyring */, '2021-11-01 00:00:00');

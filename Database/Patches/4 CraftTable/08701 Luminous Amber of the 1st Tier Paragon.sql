@@ -1,7 +1,7 @@
 DELETE FROM `recipe` WHERE `id` = 8701;
 
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
-VALUES (8701, 0, 0, 0, 0, 0, 0, 'You successfully imbue the weapon with the magics of the Paragon!', 0, 0, 'You fail to imbue the weapon with the magics of the Paragon.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 0, 0, NULL, 0, '2005-02-09 10:00:00');
+VALUES (8701, 0, 0, 0, 0, 0, 0, 'You successfully imbue the weapon with the magics of the Paragon!', 0, 0, 'You fail to imbue the weapon with the magics of the Paragon.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 0, 0, NULL, 0, '2021-11-01 00:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8701, 0, 265, 138, 3, 'The target is already imbued with the magics of the Paragon!') /* Target.EquipmentSetId - ParagonMissile GreaterThanEqual 138 */
@@ -36,4 +36,4 @@ VALUES (@parent_id, 3,  25, NULL, 3, 0) /* On Player.SuccessResult CopyFromSourc
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8701;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8701, 53145 /* Luminous Amber of the 1st Tier Paragon */,   293 /* Torch */, '2005-02-09 10:00:00');
+VALUES (8701, 53145 /* Luminous Amber of the 1st Tier Paragon */,   293 /* Torch */, '2021-11-01 00:00:00');

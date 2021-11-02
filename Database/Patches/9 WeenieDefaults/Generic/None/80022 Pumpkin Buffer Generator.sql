@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80022;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80022, 'ace80022-generatorpumpkinbuffer', 1, '2019-10-30 00:00:00') /* Generic */;
+VALUES (80022, 'ace80022-generatorpumpkinbuffer', 1, '2021-11-01 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80022,  81,          1) /* MaxGeneratedObjects */

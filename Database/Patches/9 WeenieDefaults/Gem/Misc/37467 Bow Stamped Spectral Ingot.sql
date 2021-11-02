@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37467;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37467, 'ace37467-bowstampedspectralingot', 38, '2020-10-29 05:01:31') /* Gem */;
+VALUES (37467, 'ace37467-bowstampedspectralingot', 38, '2021-11-01 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37467,   1,        128) /* ItemType - Misc */

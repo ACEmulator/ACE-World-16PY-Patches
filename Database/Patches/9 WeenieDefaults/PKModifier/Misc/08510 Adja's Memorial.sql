@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8510;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8510, 'npkswitch2', 27, '2019-08-06 10:00:00') /* PKModifier */;
+VALUES (8510, 'npkswitch2', 27, '2021-11-01 00:00:00') /* PKModifier */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8510,   1,        128) /* ItemType - Misc */

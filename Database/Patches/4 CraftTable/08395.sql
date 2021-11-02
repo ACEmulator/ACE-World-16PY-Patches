@@ -1,7 +1,7 @@
 DELETE FROM `recipe` WHERE `id` = 8395;
 
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
-VALUES (8395, 0, 18 /* ItemTinkering */, 0, 1, 0, 0, 'You apply the Gromnie hide.', 0, 0, 'You apply the Gromnie hide, but in the process you destroy the target.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2020-02-28 10:00:00');
+VALUES (8395, 0, 18 /* ItemTinkering */, 0, 1, 0, 0, 'You apply the Gromnie hide.', 0, 0, 'You apply the Gromnie hide, but in the process you destroy the target.', 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 1, 1, NULL, 0, '2021-11-01 00:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (8395, 1,  92, 100, 2, 'The material is not complete!') /* Source.Structure LessThan 100 */
@@ -36,5 +36,5 @@ VALUES (@parent_id, 0,  52, 100676437, 1, 1) /* On Source.SuccessTarget SetValue
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8395;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (8395, 21052 /* Salvaged Gromnie Hide */, 41498 /* Moderate Item Tinkering Armature */, '2020-02-28 10:00:00')
-     , (8395, 41777 /* Salvage */, 41498 /* Moderate Item Tinkering Armature */, '2020-03-31 00:00:00');
+VALUES (8395, 21052 /* Salvaged Gromnie Hide */, 41498 /* Moderate Item Tinkering Armature */, '2021-11-01 00:00:00')
+     , (8395, 41777 /* Salvage */, 41498 /* Moderate Item Tinkering Armature */, '2021-11-01 00:00:00');

@@ -1,4 +1,4 @@
 DELETE FROM `event` WHERE `name` = 'HaltDericostRitualEvent';
 
 INSERT INTO `event` (`name`, `start_Time`, `end_Time`, `state`, `last_Modified`)
-VALUES ('HaltDericostRitualEvent', -1, -1, 3, '2021-01-28 00:00:00');
+VALUES ('HaltDericostRitualEvent', -1, -1, 3, '2021-11-01 00:00:00');

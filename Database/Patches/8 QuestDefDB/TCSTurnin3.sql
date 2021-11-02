@@ -1,4 +1,4 @@
 DELETE FROM `quest` WHERE `name` = 'TCSTurnin3';
 
 INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
-VALUES ('TCSTurnin3', 0, 1, 'Player has turned in a piece of torn scrap', '2021-05-24 06:51:50');
+VALUES ('TCSTurnin3', 0, 1, 'Player has turned in a piece of torn scrap', '2021-11-01 00:00:00');

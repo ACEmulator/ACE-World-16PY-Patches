@@ -1,7 +1,7 @@
 DELETE FROM `recipe` WHERE `id` = 6800;
 
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
-VALUES (6800, 0, 0, 0, 0, 0, 0, 'Your integrator forges the piece into gear plating for a Gear Knight.', 0, 0, '', 0, 0, '', 0, 0, '', 0, 0, '', 0, 0, '', 0, '2019-04-23 05:27:10');
+VALUES (6800, 0, 0, 0, 0, 0, 0, 'Your integrator forges the piece into gear plating for a Gear Knight.', 0, 0, '', 0, 0, '', 0, 0, '', 0, 0, '', 0, 0, '', 0, '2021-11-01 00:00:00');
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `enum`, `message`)
 VALUES (6800, 0, 324, 0, 4, 'This armor has already been integrated into gear plating.') /* Target.HeritageSpecificArmor - Invalid NotEqual 0 */;
@@ -24,4 +24,4 @@ VALUES (@parent_id, 0,  14, 'This Aetherium core plating installs into the frame
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6800;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6800, 42979 /* Core Plating Integrator */,    35 /* Chainmail Basinet */, '2019-04-23 05:27:10');
+VALUES (6800, 42979 /* Core Plating Integrator */,    35 /* Chainmail Basinet */, '2021-11-01 00:00:00');

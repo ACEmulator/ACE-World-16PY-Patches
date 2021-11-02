@@ -1,4 +1,4 @@
 DELETE FROM `quest` WHERE `name` = 'GaerlanSwordTurnin';
 
 INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
-VALUES ('GaerlanSwordTurnin', 72000, -1, 'Player can only turn in the sword 1 time every 1 days', '2019-03-14 20:34:27');
+VALUES ('GaerlanSwordTurnin', 72000, -1, 'Player can only turn in the sword 1 time every 1 days', '2021-11-01 00:00:00');
