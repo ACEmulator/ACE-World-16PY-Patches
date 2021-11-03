@@ -1,0 +1,55 @@
+DELETE FROM `weenie` WHERE `class_Id` = 30950;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30950, 'bootsalduressa', 2, '2021-11-01 00:00:00') /* Clothing */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (30950,   1,          2) /* ItemType - Armor */
+     , (30950,   3,         20) /* PaletteTemplate - Silver */
+     , (30950,   4,      65536) /* ClothingPriority - Feet */
+     , (30950,   5,        420) /* EncumbranceVal */
+     , (30950,   8,        140) /* Mass */
+     , (30950,   9,        256) /* ValidLocations - FootWear */
+     , (30950,  16,          1) /* ItemUseable - No */
+     , (30950,  19,         70) /* Value */
+     , (30950,  27,          2) /* ArmorType - Leather */
+     , (30950,  28,        130) /* ArmorLevel */
+     , (30950,  44,          1) /* Damage */
+     , (30950,  45,          4) /* DamageType - Bludgeon */
+     , (30950,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (30950, 124,          3) /* Version */
+     , (30950, 169,  185271566) /* TsysMutationData */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (30950,  11, True ) /* IgnoreCollisions */
+     , (30950,  13, True ) /* Ethereal */
+     , (30950,  14, True ) /* GravityStatus */
+     , (30950,  19, True ) /* Attackable */
+     , (30950,  22, True ) /* Inscribable */
+     , (30950, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30950,  12,     0.1) /* Shade */
+     , (30950,  13,       1) /* ArmorModVsSlash */
+     , (30950,  14,     0.8) /* ArmorModVsPierce */
+     , (30950,  15,       1) /* ArmorModVsBludgeon */
+     , (30950,  16,     0.5) /* ArmorModVsCold */
+     , (30950,  17,     0.5) /* ArmorModVsFire */
+     , (30950,  18,     0.3) /* ArmorModVsAcid */
+     , (30950,  19,     0.6) /* ArmorModVsElectric */
+     , (30950,  22,    0.75) /* DamageVariance */
+     , (30950, 110,    1.67) /* BulkMod */
+     , (30950, 111,       2) /* SizeMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30950,   1, 'Alduressa Boots') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30950,   1, 0x02001330) /* Setup */
+     , (30950,   3, 0x20000014) /* SoundTable */
+     , (30950,   6, 0x0400007E) /* PaletteBase */
+     , (30950,   7, 0x100005D3) /* ClothingBase */
+     , (30950,   8, 0x060059FE) /* Icon */
+     , (30950,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30950,  36, 0x0E000012) /* MutateFilter */
+     , (30950,  46, 0x38000032) /* TsysMutationFilter */;

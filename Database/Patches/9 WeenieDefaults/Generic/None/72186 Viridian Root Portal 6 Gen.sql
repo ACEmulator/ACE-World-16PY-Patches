@@ -1,0 +1,39 @@
+DELETE FROM `weenie` WHERE `class_Id` = 72186;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (72186, 'ace72186-viridianrootportal6gen', 1, '2021-11-01 00:00:00') /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (72186,  81,          1) /* MaxGeneratedObjects */
+     , (72186,  82,          0) /* InitGeneratedObjects */
+     , (72186,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (72186, 103,          2) /* GeneratorDestructionType - Destroy */
+     , (72186, 145,          2) /* GeneratorEndDestructionType - Destroy */
+     , (72186, 290,          1) /* HearLocalSignals */
+     , (72186, 291,          5) /* HearLocalSignalsRadius */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (72186,   1, True ) /* Stuck */
+     , (72186,  11, True ) /* IgnoreCollisions */
+     , (72186,  18, True ) /* Visibility */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (72186,  41,       0) /* RegenerationInterval */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (72186,   1, 'Viridian Root Portal 6 Gen') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (72186,   1, 0x0200026B) /* Setup */
+     , (72186,   8, 0x06001066) /* Icon */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (72186, 37 /* ReceiveLocalSignal */,      1, NULL, NULL, NULL, 'viridianroot', NULL, NULL, NULL);
+
+SET @parent_id = LAST_INSERT_ID();
+
+INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (@parent_id,  1,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (72186, -1, 53233, 0, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Viridian Portal (53233) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;
