@@ -1,0 +1,42 @@
+DELETE FROM `weenie` WHERE `class_Id` = 37192;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37192, 'ace37192-olthoiceldongirth', 2, '2021-11-01 00:00:00') /* Clothing */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (37192,   1,          2) /* ItemType - Armor */
+     , (37192,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
+     , (37192,   5,        820) /* EncumbranceVal */
+     , (37192,   9,       1024) /* ValidLocations - AbdomenArmor */
+     , (37192,  16,          1) /* ItemUseable - No */
+     , (37192,  27,         32) /* ArmorType - Metal */
+     , (37192,  28,        110) /* ArmorLevel */
+     , (37192,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37192, 124,          3) /* Version */
+     , (37192, 151,          2) /* HookType - Wall */
+     , (37192, 169,  118096132) /* TsysMutationData */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (37192,  22, True ) /* Inscribable */
+     , (37192, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (37192,  13,     1.3) /* ArmorModVsSlash */
+     , (37192,  14,       1) /* ArmorModVsPierce */
+     , (37192,  15,       1) /* ArmorModVsBludgeon */
+     , (37192,  16,     0.4) /* ArmorModVsCold */
+     , (37192,  17,     0.4) /* ArmorModVsFire */
+     , (37192,  18,     0.6) /* ArmorModVsAcid */
+     , (37192,  19,     0.4) /* ArmorModVsElectric */
+     , (37192, 165,       1) /* ArmorModVsNether */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (37192,   1, 'Olthoi Celdon Girth') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (37192,   1, 0x020000D7) /* Setup */
+     , (37192,   3, 0x20000014) /* SoundTable */
+     , (37192,   6, 0x0400007E) /* PaletteBase */
+     , (37192,   7, 0x100006FA) /* ClothingBase */
+     , (37192,   8, 0x06002C5A) /* Icon */
+     , (37192,  22, 0x3400002B) /* PhysicsEffectTable */;

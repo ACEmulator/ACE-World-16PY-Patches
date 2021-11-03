@@ -1,0 +1,28 @@
+DELETE FROM `weenie` WHERE `class_Id` = 31358;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31358, 'ace31358-phyntosstinger', 51, '2021-11-01 00:00:00') /* Stackable */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (31358,   1,        128) /* ItemType - Misc */
+     , (31358,   5,        100) /* EncumbranceVal */
+     , (31358,  11,        100) /* MaxStackSize */
+     , (31358,  12,          1) /* StackSize */
+     , (31358,  13,        100) /* StackUnitEncumbrance */
+     , (31358,  14,          1) /* StackUnitMass */
+     , (31358,  15,      10000) /* StackUnitValue */
+     , (31358,  16,          1) /* ItemUseable - No */
+     , (31358,  19,      10000) /* Value */
+     , (31358,  33,          1) /* Bonded - Bonded */
+     , (31358,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (31358, 114,          1) /* Attuned - Attuned */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (31358,   1, 'Phyntos Stinger') /* Name */
+     , (31358,  16, 'A perfectly intact stinger from an Agitated Phyntos Wasp.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (31358,   1, 0x02000181) /* Setup */
+     , (31358,   3, 0x20000014) /* SoundTable */
+     , (31358,   8, 0x06005F4D) /* Icon */
+     , (31358,  22, 0x3400002B) /* PhysicsEffectTable */;
