@@ -1,3 +1,11 @@
+Refuse: 41187
+    - TurnToTarget
+    - TakeItems: 41187
+    - DirectBroadcast: Diyas stares into the fragment of crystal for a moment, and he spends a long time seeming to sort through everything he's learning.
+    - Delay: 1, Tell: Ah, so Felizio sent you to get something translated. I don't trust that one myself, but the invasion of Gharu'n by the blue-skinned dogs was a fresh wound in my heart when I first came here. Still, he works for the Arcanum, and on this world, Isparian differences are best put aside...
+    - Delay: 1, Tell: This is simply fascinating. Not only are these Apostate Virindi trying to construct their own New Singularity, but they are experimenting in strange and unpredictable elements, like this Aetherium ore. Well, I could go on all day about what's in this note, but maybe you should get it to Felizio as soon as you can.
+    - Give: 41189
+
 Give: Virindi Message Shard (35561)
 	- TurnToTarget
 	- Tell: Fascinating...
