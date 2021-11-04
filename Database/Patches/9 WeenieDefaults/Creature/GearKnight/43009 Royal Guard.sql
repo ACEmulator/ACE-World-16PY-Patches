@@ -63,7 +63,7 @@ VALUES (43009,   1, 'Royal Guard') /* Name */
      , (43009,   5, 'Borelean''s Royal Guard') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43009,   1, 0x02001B31) /* Setup */
+VALUES (43009,   1, 0x0200190B) /* Setup */
      , (43009,   2, 0x090001A8) /* MotionTable */
      , (43009,   3, 0x20000015) /* SoundTable */
      , (43009,   6, 0x0400007E) /* PaletteBase */
