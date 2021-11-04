@@ -6,12 +6,10 @@ VALUES (43008, 'ace43008-royalguard', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43008,   1,         16) /* ItemType - Creature */
      , (43008,   2,         31) /* CreatureType - Human */
-     , (43008,   3,          9) /* PaletteTemplate - Grey */
      , (43008,   6,         -1) /* ItemsCapacity */
      , (43008,   7,         -1) /* ContainersCapacity */
      , (43008,  16,         32) /* ItemUseable - Remote */
      , (43008,  25,        275) /* Level */
-     , (43008,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */
      , (43008,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (43008,  95,          8) /* RadarBlipColor - Yellow */
      , (43008, 113,          2) /* Gender - Female */
@@ -62,7 +60,6 @@ VALUES (43008,   1, 0x0200004E) /* Setup */
      , (43008,   3, 0x20000002) /* SoundTable */
      , (43008,   4, 0x30000000) /* CombatTable */
      , (43008,   6, 0x0400007E) /* PaletteBase */
-     , (43008,   7, 0x100006C7) /* ClothingBase */
      , (43008,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -140,3 +137,14 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43008, 2, 24611,  1, 0, 0, False) /* Create Sword of Lost Light (24611) for Wield */
      , (43008, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */;
+     , (43008, 2,  2587,  0, 14, 1, False) /* Create Shirt (2587) for Wield */
+     , (43008, 2,  2601,  0, 14, 1, False) /* Create Pants (2601) for Wield */
+     , (43008, 2, 21150,  0, 93, 1, False) /* Create Covenant Sollerets (21150) for Wield */
+     , (43008, 2, 21151,  0, 93, 1, False) /* Create Covenant Bracers (21151) for Wield */
+     , (43008, 2, 21152,  0, 93, 1, False) /* Create Covenant Breastplate (21152) for Wield */
+     , (43008, 2, 21153,  0, 93, 1, False) /* Create Covenant Gauntlets (21153) for Wield */
+     , (43008, 2, 21154,  0, 93, 1, False) /* Create Covenant Girth (21154) for Wield */
+     , (43008, 2, 21155,  0, 93, 1, False) /* Create Covenant Greaves (21155) for Wield */
+     , (43008, 2, 21156,  0, 93, 1, False) /* Create Covenant Helm (21156) for Wield */
+     , (43008, 2, 21157,  0, 93, 1, False) /* Create Covenant Pauldrons (21157) for Wield */
+     , (43008, 2, 21159,  0, 93, 1, False) /* Create Covenant Tassets (21159) for Wield */;

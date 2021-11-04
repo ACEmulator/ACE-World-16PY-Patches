@@ -6,7 +6,6 @@ VALUES (43010, 'ace43010-royalguard', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43010,   1,         16) /* ItemType - Creature */
      , (43010,   2,         31) /* CreatureType - Human */
-     , (43010,   3,          9) /* PaletteTemplate - Grey */
      , (43010,   6,         -1) /* ItemsCapacity */
      , (43010,   7,         -1) /* ContainersCapacity */
      , (43010,  16,         32) /* ItemUseable - Remote */
@@ -22,14 +21,7 @@ VALUES (43010,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43010,   1, True ) /* Stuck */
-     , (43010,  11, True ) /* IgnoreCollisions */
-     , (43010,  12, True ) /* ReportCollisions */
-     , (43010,  13, False) /* Ethereal */
-     , (43010,  14, True ) /* GravityStatus */
-     , (43010,  19, False) /* Attackable */
-     , (43010,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (43010,  42, True ) /* AllowEdgeSlide */
-     , (43010,  52, True ) /* AiImmobile */;
+     , (43010,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43010,   1,       5) /* HeartbeatInterval */
@@ -63,11 +55,10 @@ VALUES (43010,   1, 'Royal Guard') /* Name */
      , (43010,   5, 'Borelean''s Royal Guard') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43010,   1, 0x0200004E) /* Setup */
+VALUES (43010,   1, 0x0200196D) /* Setup */
      , (43010,   2, 0x09000001) /* MotionTable */
      , (43010,   3, 0x20000002) /* SoundTable */
      , (43010,   6, 0x0400007E) /* PaletteBase */
-     , (43010,   7, 0x100006C7) /* ClothingBase */
      , (43010,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -143,5 +134,16 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0.5, 1, NULL, 'Greetings, citizen.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43010, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
-     , (43010, 2, 24611,  1, 0, 0, False) /* Create Sword of Lost Light (24611) for Wield */;
+VALUES (43010, 2, 24611,  1, 0, 0, False) /* Create Sword of Lost Light (24611) for Wield */
+     , (43010, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */;
+     , (43010, 2,  2587,  0, 14, 1, False) /* Create Shirt (2587) for Wield */
+     , (43010, 2,  2601,  0, 14, 1, False) /* Create Pants (2601) for Wield */
+     , (43010, 2, 21150,  0, 93, 1, False) /* Create Covenant Sollerets (21150) for Wield */
+     , (43010, 2, 21151,  0, 93, 1, False) /* Create Covenant Bracers (21151) for Wield */
+     , (43010, 2, 21152,  0, 93, 1, False) /* Create Covenant Breastplate (21152) for Wield */
+     , (43010, 2, 21153,  0, 93, 1, False) /* Create Covenant Gauntlets (21153) for Wield */
+     , (43010, 2, 21154,  0, 93, 1, False) /* Create Covenant Girth (21154) for Wield */
+     , (43010, 2, 21155,  0, 93, 1, False) /* Create Covenant Greaves (21155) for Wield */
+     , (43010, 2, 21156,  0, 93, 1, False) /* Create Covenant Helm (21156) for Wield */
+     , (43010, 2, 21157,  0, 93, 1, False) /* Create Covenant Pauldrons (21157) for Wield */
+     , (43010, 2, 21159,  0, 93, 1, False) /* Create Covenant Tassets (21159) for Wield */;

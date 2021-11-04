@@ -6,7 +6,6 @@ VALUES (43009, 'ace43009-royalguard', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43009,   1,         16) /* ItemType - Creature */
      , (43009,   2,         99) /* CreatureType - GearKnight */
-     , (43009,   3,         21) /* PaletteTemplate - Gold */
      , (43009,   6,         -1) /* ItemsCapacity */
      , (43009,   7,         -1) /* ContainersCapacity */
      , (43009,  16,         32) /* ItemUseable - Remote */
@@ -35,7 +34,6 @@ VALUES (43009,   1,       5) /* HeartbeatInterval */
      , (43009,   3,    0.15) /* HealthRate */
      , (43009,   4,       5) /* StaminaRate */
      , (43009,   5,       1) /* ManaRate */
-     , (43009,  12,   0.708) /* Shade */
      , (43009,  13,    0.89) /* ArmorModVsSlash */
      , (43009,  14,       1) /* ArmorModVsPierce */
      , (43009,  15,     1.1) /* ArmorModVsBludgeon */
@@ -66,10 +64,9 @@ VALUES (43009,   1, 'Royal Guard') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43009,   1, 0x02001B31) /* Setup */
-     , (43009,   2, 0x09000001) /* MotionTable */
-     , (43009,   3, 0x20000001) /* SoundTable */
+     , (43009,   2, 0x090001A8) /* MotionTable */
+     , (43009,   3, 0x20000015) /* SoundTable */
      , (43009,   6, 0x0400007E) /* PaletteBase */
-     , (43009,   7, 0x1000018F) /* ClothingBase */
      , (43009,   8, 0x06002B2E) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
