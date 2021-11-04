@@ -1,0 +1,4 @@
+DELETE FROM `quest` WHERE `name` = 'ScrollofEarth_Pickup';
+
+INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
+VALUES ('ScrollofEarth_Pickup', 72000, -1, 'Player has picked up the Scroll of Earth', '2021-10-26 06:51:50');

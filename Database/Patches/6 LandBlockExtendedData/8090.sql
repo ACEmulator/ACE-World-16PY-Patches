@@ -402,3 +402,7 @@ VALUES (0x780900AD, 40807, 0x80900163, 107.086, 34.143, 123.705, -0.982551, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x780900AE, 40488, 0x80900012, 60, 40, 124.005, 0.96673, 0, 0, -0.255798, False, '2021-11-01 00:00:00'); /* Aruq ibn Balthar */
 /* @teleloc 0x80900012 [60.000000 40.000000 124.004997] 0.966730 0.000000 0.000000 -0.255798 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x780900AF, 35308, 0x8090000E, 44, 140, 124.005, 0.12995, 0, 0, -0.991521, False, '2021-10-25 13:43:24'); /* Meshenq */
+/* @teleloc 0x8090000E [44.000000 140.000000 124.005005] 0.129950 0.000000 0.000000 -0.991521 */
