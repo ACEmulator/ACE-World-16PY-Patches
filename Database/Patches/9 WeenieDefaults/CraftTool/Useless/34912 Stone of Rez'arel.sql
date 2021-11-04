@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34912;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34912, 'ace34912-stoneofrezarel', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (34912, 'ace34912-stoneofrezarel', 44, '2019-02-10 00:00:00') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34912,   1,       1024) /* ItemType - Useless */
@@ -28,7 +28,8 @@ VALUES (34912,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34912,   1, 'Stone of Rez''arel') /* Name */
      , (34912,  14, 'Use this on an Empyrean Sun Stone.') /* Use */
-     , (34912,  16, 'One of three mysterious empyrean stones required to create an Empyrean Golem Stone.') /* LongDesc */;
+     , (34912,  16, 'One of three mysterious empyrean stones required to create an Empyrean Golem Stone.') /* LongDesc */
+     , (34912,  33, 'StoneofRezarel_Pickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34912,   1, 0x02001692) /* Setup */
