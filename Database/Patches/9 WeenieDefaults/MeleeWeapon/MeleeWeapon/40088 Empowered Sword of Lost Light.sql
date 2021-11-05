@@ -42,7 +42,7 @@ VALUES (40088,   5,  -0.033) /* ManaRate */
      , (40088,  39,     1.3) /* DefaultScale */
      , (40088,  62,    1.18) /* WeaponOffense */
      , (40088,  63,       1) /* DamageMod */
-     , (40088, 147,       1) /* CriticalFrequency */;
+     , (40088, 147,    0.34) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40088,   1, 'Empowered Sword of Lost Light') /* Name */
