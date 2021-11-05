@@ -105,3 +105,7 @@ VALUES (0x7F222022, 43067, 0xF2220030, 129.227, 190.397, 18.198, -0.836909, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F222099, 87227, 0xF2220129, 107.259, 84.4235, 14.006, 0.699785, 0, 0, 0.714354, False, '2021-11-01 00:00:00'); /* Gift Box Generator */
 /* @teleloc 0xF2220129 [107.259003 84.423500 14.006000] 0.699785 0.000000 0.000000 0.714354 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F22209A, 35605, 0xF2220119, 151.168, 185.992, 18.005, 0.102976, 0, 0, -0.994684, False, '2021-11-05 15:11:37'); /* Researcher Tharin */
+/* @teleloc 0xF2220119 [151.167999 185.992004 18.004999] 0.102976 0.000000 0.000000 -0.994684 */
