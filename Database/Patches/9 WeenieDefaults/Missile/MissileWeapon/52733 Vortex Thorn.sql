@@ -44,7 +44,7 @@ VALUES (52733,   5,   -0.05) /* ManaRate */
      , (52733,  63,       1) /* DamageMod */
      , (52733,  78,       1) /* Friction */
      , (52733,  79,       0) /* Elasticity */
-     , (52733, 147,       1) /* CriticalFrequency */;
+     , (52733, 147,    0.33) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52733,   1, 'Vortex Thorn') /* Name */
