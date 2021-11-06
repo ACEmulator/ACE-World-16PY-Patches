@@ -1,3 +1,9 @@
+Give: Black Water Watcher's Shard (35864)
+	- TurnToTarget
+	- Tell: Well, this is disturbing...
+	- Delay: 1, Tell: These Tanada from the House of Water seem to have become the pawns of forces greater than themselves. Here, have a look for yourself.
+	- Give: 35866
+
 Give: Tanada Consul's Message Shard (87679)
 	- TurnToTarget
 	- Tell: Ah, a message shard from a Virindi Consul found in the southern land bridge? Most intriguing... Let me see if I can translate it for you...
