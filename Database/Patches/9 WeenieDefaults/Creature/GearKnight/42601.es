@@ -13,7 +13,7 @@ Use:
     - Delay: 0.5, Tell: If you wish to assist us, just bring me whatever Aetherium Cores, pieces of Aetherium Ore, or Gear Knight Gears you find, and we will reward you when you've contributed different set amounts of parts.
     - Delay: 0.5, Tell: Also, if you are willing, I have a secondary task for you. The Iron Blade invasion in the Direlands will have a storage box placed deep in their defenses. It is common for their House to hide updates, orders, etc. in these boxes, where they will go unnoticed by invading forces.
     - Delay: 0.5, Tell: Acquisition for me one of these boxes, and I will see what we can learn about their plans and reasonings in this invasion.
-    
+
 Give: 41528
     - Goto: TurnInFive
 
@@ -22,13 +22,13 @@ Give: 41540
 
 Give: 42114
     - Goto: TurnInFive
-    
+
 Give: 41564
     - Goto: TurnInThree
 
 Give: 41565
     - Goto: TurnInThree
-    
+
 Give: 41566
     - Goto: TurnInOne
 
@@ -44,11 +44,7 @@ GotoSet: TurnInFive
         QuestSuccess:
             - Goto DefaultText
         QuestFailure:
-            - StampQuest: GearKnightConstructionTurnInsKaytin
-            - StampQuest: GearKnightConstructionTurnInsKaytin
-            - StampQuest: GearKnightConstructionTurnInsKaytin
-            - StampQuest: GearKnightConstructionTurnInsKaytin
-            - StampQuest: GearKnightConstructionTurnInsKaytin
+            - IncrementQuest: GearKnightConstructionTurnInsKaytin, 5
             - Tell: Thank you for your assistance.
             - InqQuestSolves: GearKnightConstructionTurnInsKaytin@200-204_5, 200 - 204
                 QuestSuccess:
@@ -67,16 +63,14 @@ GotoSet: TurnInFive
                                             Goto Award50
                                         QuestFailure:
                                             Goto DefaultText
-                                            
+
 GotoSet: TurnInThree
     - TurnToTarget
     - InqQuest: GearKnightConstructionCompletedKaytin
         QuestSuccess:
             - Goto DefaultText
         QuestFailure:
-            - StampQuest: GearKnightConstructionTurnInsKaytin
-            - StampQuest: GearKnightConstructionTurnInsKaytin
-            - StampQuest: GearKnightConstructionTurnInsKaytin
+            - IncrementQuest: GearKnightConstructionTurnInsKaytin, 3
             - Tell: Thank you for your assistance.
             - InqQuestSolves: GearKnightConstructionTurnInsKaytin@200-202_5, 200 - 202
                 QuestSuccess:
@@ -95,7 +89,7 @@ GotoSet: TurnInThree
                                             Goto Award50
                                         QuestFailure:
                                             Goto DefaultText
-                
+
 GotoSet: TurnInOne
     - TurnToTarget
     - InqQuest: GearKnightConstructionCompletedKaytin
@@ -121,7 +115,7 @@ GotoSet: TurnInOne
                                             Goto Award50
                                         QuestFailure:
                                             Goto DefaultText
-                                            
+
 GotoSet: DefaultText
     - Tell: The stockpiling progresses well. Please find me more Aetherium Ore, Power Cores and parts from the Gear Knights invading Dereth.
 
