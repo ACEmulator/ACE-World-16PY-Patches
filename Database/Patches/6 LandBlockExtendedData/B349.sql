@@ -33,8 +33,8 @@ VALUES (0x7B349048, 53209, 0xB349001C, 72.5, 92.4, 61.9, 0.258819, 0, 0, -0.9659
 /* @teleloc 0xB349001C [72.500000 92.400002 61.900002] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B349049, 53208, 0xB349001C, 82.1, 95.9, 64.6, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Guardian of Hickory */
-/* @teleloc 0xB349001C [82.099998 95.900002 64.599998] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7B349049, 53208, 0xB349001C, 82.1, 95.9, 64.6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Guardian of Hickory */
+/* @teleloc 0xB349001C [82.099998 95.900002 64.599998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B34904A, 53207, 0xB349001C, 91.5, 92.9, 66.7, -0.258819, 0, 0, -0.965926, False, '2021-11-01 00:00:00'); /* Guardian of Cedar */

@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31982, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31982, 0, 4294967295, 'Branwyn of Arwic', '', False, 'Most kind adventurers,
+VALUES (31982, 0, 0xFFFFFFFF, 'Branwyn of Arwic', '', False, 'Most kind adventurers,
 
 Weeks have passed since my beloved husband Geowulf left our cottage in Arwic. I hoped he would return, but he has not and I worry for him. He likely left for the coast near the Haliana settlement, that region is amongst his favorite to visit.
 

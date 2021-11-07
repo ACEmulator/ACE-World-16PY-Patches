@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (35294, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (35294, 0, 4294967295, 'Asheron', 'prewritten', False, 'These are the resources I need to build the golem to protect my castle. I''ve assigned a basic point system for each resource that correlates to its value to the construction. I will reward those who help me by turning in (50), (100) and (200) points worth of resources.
+VALUES (35294, 0, 0xFFFFFFFF, 'Asheron', 'prewritten', False, 'These are the resources I need to build the golem to protect my castle. I''ve assigned a basic point system for each resource that correlates to its value to the construction. I will reward those who help me by turning in (50), (100) and (200) points worth of resources.
 
 Pyreal:
 Pyreal Mote (1)
@@ -40,7 +40,7 @@ Imprinting Mote (2)
 Quality Imprinting Mote (4)
 Superb Imprinting Mote (6)
 ')
-     , (35294, 1, 4294967295, 'Constructor Golem', 'prewritten', False, 'Crystal:
+     , (35294, 1, 0xFFFFFFFF, 'Constructor Golem', 'prewritten', False, 'Crystal:
 Cracked Shard (5)
 Tiny Shard (10)
 Small Shard (20)

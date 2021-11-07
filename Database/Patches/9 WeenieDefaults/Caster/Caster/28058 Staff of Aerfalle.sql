@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28058;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28058, 'ace28058-staffaerfallenew', 35, '2005-02-09 10:00:00') /* Caster */;
+VALUES (28058, 'ace28058-staffaerfallenew', 35, '2021-11-07 08:12:46') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28058,   1,      32768) /* ItemType - Caster */
@@ -46,15 +46,15 @@ VALUES (28058,   1, 'Staff of Aerfalle') /* Name */
      , (28058,  33, 'AerfalleStaffObtained') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28058,   1,   33556630) /* Setup */
-     , (28058,   3,  536870932) /* SoundTable */
-     , (28058,   6,   67111919) /* PaletteBase */
-     , (28058,   7,  268436016) /* ClothingBase */
-     , (28058,   8,  100670752) /* Icon */
-     , (28058,  22,  872415275) /* PhysicsEffectTable */
-     , (28058,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (28058,   1, 0x02000896) /* Setup */
+     , (28058,   3, 0x20000014) /* SoundTable */
+     , (28058,   6, 0x04000BEF) /* PaletteBase */
+     , (28058,   7, 0x10000230) /* ClothingBase */
+     , (28058,   8, 0x06001D20) /* Icon */
+     , (28058,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28058,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (28058,  28,        130) /* Spell - Acid Volley VI */
-     , (28058,  36,  234881046) /* MutateFilter */
+     , (28058,  36, 0x0E000016) /* MutateFilter */
      , (28058,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

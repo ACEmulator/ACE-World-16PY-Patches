@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34933;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34933, 'ace34933-findingimprintingmotes', 8, '2021-10-28 02:51:58') /* Book */;
+VALUES (34933, 'ace34933-findingimprintingmotes', 8, '2021-11-07 08:12:46') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34933,   1,       8192) /* ItemType - Writable */
@@ -27,14 +27,14 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (34933, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (34933, 0, 4294967295, 'Constructor Golem', 'prewritten', False, 'The Empyreans used motes to imprint specific skills and knowledge in golems. There are still places where these motes may be obtained. Search these locations and you may find one of the Imprinting Motes you need.
+VALUES (34933, 0, 0xFFFFFFFF, 'Constructor Golem', 'prewritten', False, 'The Empyreans used motes to imprint specific skills and knowledge in golems. There are still places where these motes may be obtained. Search these locations and you may find one of the Imprinting Motes you need.
 
 Imprinting Mote: Golem Sanctum (somewhere in the Floating City)
 
 Quality Imprinting Mote: Crystal Mine Extreme (Assist Anasha in Arwic 33.4N, 56.6E to gain access to the floating platforms where the portal lies.)
 
 Superb Imprinting Mote: Ancient Masonry (88.1N, 47.6E)')
-     , (34933, 1, 4294967295, 'Constructor Golem', 'prewritten', False, 'Once you have your Imprinting Mote you may buy a Sigil from the Sigil Keeper and attempt to imprint you knowledge onto it. Using successfully Imprinted Motes you can upgrade your Inactive Golems.
+     , (34933, 1, 0xFFFFFFFF, 'Constructor Golem', 'prewritten', False, 'Once you have your Imprinting Mote you may buy a Sigil from the Sigil Keeper and attempt to imprint you knowledge onto it. Using successfully Imprinted Motes you can upgrade your Inactive Golems.
 
 You must teach your golem in stages by using the Imprinted Motes in order. First imprint your golem with an Imprinted Mote, then with a Quality Imprinted Mote of the same skill and finally with a Superb Imprinted Mote of the same skill. Each golem may only learn one type of skill.
 

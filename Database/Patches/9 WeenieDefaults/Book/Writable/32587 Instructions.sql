@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (32587, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (32587, 0, 4294967295, 'Ler Rhan', '', False, 'Black Ferah,
+VALUES (32587, 0, 0xFFFFFFFF, 'Ler Rhan', '', False, 'Black Ferah,
 
 Contained with this missive are the stones the Master wishes to be placed in this Isle. These stones will twist the purpose of the Empyrean Weapons forged by Atlan to our use.
 

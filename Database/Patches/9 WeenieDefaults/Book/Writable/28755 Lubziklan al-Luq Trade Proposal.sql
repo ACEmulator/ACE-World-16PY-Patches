@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28755, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28755, 0, 4294967295, 'Anton Sillezi', 'prewritten', False, 'Greetings Lubziklan al-Luq
+VALUES (28755, 0, 0xFFFFFFFF, 'Anton Sillezi', 'prewritten', False, 'Greetings Lubziklan al-Luq
 
 My name is Anton Silezzi and I represent a consortium of merchants in Sanamar. It is with great pride that I invite you to join with us to establish trade between our two great cities.
 

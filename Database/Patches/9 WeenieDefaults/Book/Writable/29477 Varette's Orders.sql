@@ -34,6 +34,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (29477, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29477, 0, 4294967295, 'King Varicci II', 'prewritten', True, 'Captain Varette,
+VALUES (29477, 0, 0xFFFFFFFF, 'King Varicci II', 'prewritten', True, 'Captain Varette,
 We have received reports of the assassin Oswald. We have it on good authority that he plans to visit the ice folk in one of their frozen forts. Bring a hundred strong swords with you to the Ruschk ice fortress at 87.3N, 51.8W . Surround the portal to make sure Oswald has no escape. You yourself are ordered to go into the fortress with as many men as you see fit to arrest and capture Oswald. Bring him to our most secure prison, on the Isle of Ruin.
 Do not fail me as your cousin Lugo did, Captain.');

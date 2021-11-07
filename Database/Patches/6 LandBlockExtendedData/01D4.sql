@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x01D4;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701D4000,   374, 0x01D40100, 20, -10, 0, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x01D40100 [20.000000 -10.000000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701D4000,   374, 0x01D40100, 20, -10, 0, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x01D40100 [20.000000 -10.000000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D4002,   374, 0x01D40123, 60, -50, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
@@ -323,8 +323,8 @@ VALUES (0x701D4056,  9256, 0x01D4020C, 40.1074, -34.8585, 102.005, 0.99907, 0, 0
 /* @teleloc 0x01D4020C [40.107399 -34.858501 102.004997] 0.999070 0.000000 0.000000 -0.043111 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701D4057,  9256, 0x01D40211, 29.9814, -49.9638, 105.145, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Dune Reaver */
-/* @teleloc 0x01D40211 [29.981400 -49.963799 105.144997] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x701D4057,  9256, 0x01D40211, 29.9814, -49.9638, 105.145, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Dune Reaver */
+/* @teleloc 0x01D40211 [29.981400 -49.963799 105.144997] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D4058,  9256, 0x01D40216, 49.6134, -53.4752, 107.252, 0.995873, 0, 0, -0.090757,  True, '2021-11-01 00:00:00'); /* Dune Reaver */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40930;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40930, 'ace40930-chestaerfalleextreme', 20, '2019-02-10 00:00:00') /* Chest */;
+VALUES (40930, 'ace40930-chestaerfalleextreme', 20, '2021-11-07 08:12:46') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40930,   1,        512) /* ItemType - Container */
@@ -39,16 +39,16 @@ VALUES (40930,   1, 'Lady of Aerlinthe''s Embossed Chest') /* Name */
      , (40930,  16, 'A beautifully detailed chest made of ebony wood and polished, embossed gold. The entirety of the chest is inscribed with Dericostian runes. There is a suspicious glow near the lock.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40930,   1,   33558394) /* Setup */
-     , (40930,   2,  150994948) /* MotionTable */
-     , (40930,   3,  536870945) /* SoundTable */
-     , (40930,   7,  268436839) /* ClothingBase */
-     , (40930,   8,  100676682) /* Icon */
-     , (40930,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40930,   1, 0x02000F7A) /* Setup */
+     , (40930,   2, 0x09000004) /* MotionTable */
+     , (40930,   3, 0x20000021) /* SoundTable */
+     , (40930,   7, 0x10000567) /* ClothingBase */
+     , (40930,   8, 0x0600344A) /* Icon */
+     , (40930,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40930, 8040, 3052405009, 140.129, -96.675, -81.2, -0.2956039, 0, 0, 0.9553106) /* PCAPRecordedLocation */
-/* @teleloc 0xB5F00111 [140.129000 -96.675000 -81.200000] -0.295604 0.000000 0.000000 0.955311 */;
+VALUES (40930, 8040, 0xB5F00111, 140.129, -96.675, -81.2, -0.295604, 0, 0, 0.955311) /* PCAPRecordedLocation */
+/* @teleloc 0xB5F00111 [140.128998 -96.675003 -81.199997] -0.295604 0.000000 0.000000 0.955311 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40930, -1, 9010, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unreadable Scroll (9010) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
@@ -57,4 +57,4 @@ VALUES (40930, -1, 9010, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Gene
      , (40930, -1, 40908, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Reforged Ashbane (40908) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (40930, -1, 40912, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Aerfalle's Embossed Token (40912) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (40930, -1, 46035, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Enhanced Black Fire Atlan Stone (46035) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (40930, -1,  2001, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 8 from Death Treasure Table id: 2001 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
+     , (40930, -1, 2001, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 8 from Death Treasure Table id: 2001 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

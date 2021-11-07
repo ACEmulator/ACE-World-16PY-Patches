@@ -25,7 +25,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (33955, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (33955, 0, 4294967295, 'Belinda du Loc', 'prewritten', False, '
+VALUES (33955, 0, 0xFFFFFFFF, 'Belinda du Loc', 'prewritten', False, '
 
 List of Rare Game:
 Dark Sorcerer

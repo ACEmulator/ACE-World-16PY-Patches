@@ -100,7 +100,7 @@ VALUES (0x7F83B015, 38402, 0xF83B0146, 238.518, 74.6789, -34.445, 0.945767, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F83B016, 38402, 0xF83B0145, 241.367, 69.4414, -34.445, 0.998734, 0, 0, -0.050296,  True, '2021-11-01 00:00:00'); /* Bandit Mana Hunter */
-/* @teleloc 0xF83B0145 [241.367004 69.441399 -34.445000] 0.998734 0.000000 0.000000 -0.050295 */
+/* @teleloc 0xF83B0145 [241.367004 69.441399 -34.445000] 0.998734 0.000000 0.000000 -0.050296 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F83B017, 38412, 0xF83B0136, 244.677, 94.1062, -34.45, -0.786129, 0, 0, -0.618062,  True, '2021-11-01 00:00:00'); /* Sclavus Acolyte of T'thuun */

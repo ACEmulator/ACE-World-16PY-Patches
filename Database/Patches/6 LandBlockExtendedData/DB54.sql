@@ -27,36 +27,36 @@ VALUES (0x7DB54003, 0x7DB54004, '2005-02-09 10:00:00') /* Sho Low-Stakes Gamesma
      , (0x7DB54003, 0x7DB54012, '2019-02-10 00:00:00') /* Rare Exchanger (40464) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54004,  9500, 0xDB540100, 101.04, 139.199, 20.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Sho Low-Stakes Gamesmaster */
-/* @teleloc 0xDB540100 [101.040001 139.199005 20.004999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7DB54004,  9500, 0xDB540100, 101.04, 139.199, 20.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Sho Low-Stakes Gamesmaster */
+/* @teleloc 0xDB540100 [101.040001 139.199005 20.004999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54005,  9494, 0xDB540100, 101.993, 134.724, 20.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Mi Gan-Zo */
-/* @teleloc 0xDB540100 [101.992996 134.723999 20.004999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7DB54005,  9494, 0xDB540100, 101.993, 134.724, 20.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Mi Gan-Zo */
+/* @teleloc 0xDB540100 [101.992996 134.723999 20.004999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB54006, 10706, 0xDB540000, 95, 127, 20.005, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Wheel of Fortune */
 /* @teleloc 0xDB540000 [95.000000 127.000000 20.004999] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54007,  9497, 0xDB540100, 113, 139.2, 20.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Sho High-Stakes Gamesmaster */
-/* @teleloc 0xDB540100 [113.000000 139.199997 20.004999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7DB54007,  9497, 0xDB540100, 113, 139.2, 20.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Sho High-Stakes Gamesmaster */
+/* @teleloc 0xDB540100 [113.000000 139.199997 20.004999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54008,  9497, 0xDB540100, 111, 139.2, 20.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Sho High-Stakes Gamesmaster */
-/* @teleloc 0xDB540100 [111.000000 139.199997 20.004999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7DB54008,  9497, 0xDB540100, 111, 139.2, 20.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Sho High-Stakes Gamesmaster */
+/* @teleloc 0xDB540100 [111.000000 139.199997 20.004999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54009,  9503, 0xDB540100, 108, 139.2, 20.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Sho Mid-Stakes Gamesmaster */
-/* @teleloc 0xDB540100 [108.000000 139.199997 20.004999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7DB54009,  9503, 0xDB540100, 108, 139.2, 20.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Sho Mid-Stakes Gamesmaster */
+/* @teleloc 0xDB540100 [108.000000 139.199997 20.004999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5400A,  9503, 0xDB540100, 106, 139.2, 20.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Sho Mid-Stakes Gamesmaster */
-/* @teleloc 0xDB540100 [106.000000 139.199997 20.004999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7DB5400A,  9503, 0xDB540100, 106, 139.2, 20.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Sho Mid-Stakes Gamesmaster */
+/* @teleloc 0xDB540100 [106.000000 139.199997 20.004999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5400B,  9500, 0xDB540100, 103, 139.2, 20.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Sho Low-Stakes Gamesmaster */
-/* @teleloc 0xDB540100 [103.000000 139.199997 20.004999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7DB5400B,  9500, 0xDB540100, 103, 139.2, 20.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Sho Low-Stakes Gamesmaster */
+/* @teleloc 0xDB540100 [103.000000 139.199997 20.004999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB5400C,  9462, 0xDB540102, 112, 132, 19.505, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Gan-Zo's Golden Chest */
@@ -79,8 +79,8 @@ VALUES (0x7DB54010, 28709, 0xDB54000D, 36, 108, 19.7902, 0.92388, 0, 0, -0.38268
 /* @teleloc 0xDB54000D [36.000000 108.000000 19.790199] 0.923880 0.000000 0.000000 -0.382683 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54011, 38942, 0xDB540100, 105.007, 125.037, 20, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Grand Casino Chest */
-/* @teleloc 0xDB540100 [105.007004 125.037003 20.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7DB54011, 38942, 0xDB540100, 105.007, 125.037, 20, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Grand Casino Chest */
+/* @teleloc 0xDB540100 [105.007004 125.037003 20.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB54012, 40464, 0xDB540105, 105.546, 133.005, 25.605, -0.430098, 0, 0, 0.902782,  True, '2021-11-01 00:00:00'); /* Rare Exchanger */

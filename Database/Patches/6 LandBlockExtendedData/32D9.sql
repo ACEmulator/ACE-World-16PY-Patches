@@ -49,8 +49,8 @@ VALUES (0x732D900E,   412, 0x32D90036, 161.086, 126.279, 56.082, 0.707107, 0, 0,
 /* @teleloc 0x32D90036 [161.085999 126.278999 56.082001] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x732D900F,   143, 0x32D90120, 127.415, 127.864, 56, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chest */
-/* @teleloc 0x32D90120 [127.415001 127.863998 56.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x732D900F,   143, 0x32D90120, 127.415, 127.864, 56, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chest */
+/* @teleloc 0x32D90120 [127.415001 127.863998 56.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x732D9010, 30025, 0x32D90121, 123.97, 140.312, 52, -0.038784, 0, 0, -0.999248, False, '2021-11-01 00:00:00'); /* Journeyman Scrivener of Creature Magic */
@@ -93,12 +93,12 @@ VALUES (0x732D901B, 30032, 0x32D90139, 124.247, 36.735, 52.005, 0.872912, 0, 0, 
 /* @teleloc 0x32D90139 [124.247002 36.735001 52.005001] 0.872912 0.000000 0.000000 -0.487878 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x732D901C,   143, 0x32D9013F, 131.857, 32.4426, 58, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chest */
-/* @teleloc 0x32D9013F [131.856995 32.442600 58.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x732D901C,   143, 0x32D9013F, 131.857, 32.4426, 58, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chest */
+/* @teleloc 0x32D9013F [131.856995 32.442600 58.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x732D901D,   143, 0x32D9013F, 130.595, 32.4694, 58, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chest */
-/* @teleloc 0x32D9013F [130.595001 32.469398 58.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x732D901D,   143, 0x32D9013F, 130.595, 32.4694, 58, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chest */
+/* @teleloc 0x32D9013F [130.595001 32.469398 58.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x732D901E, 30038, 0x32D9013E, 132.198, 36.9837, 55.005, -0.925486, 0, 0, -0.378781, False, '2021-11-01 00:00:00'); /* Archmage Luchessa du Lamiere */
@@ -117,16 +117,16 @@ VALUES (0x732D9027,   412, 0x32D9013A, 124.84, 32.0111, 52.082, 1, 0, 0, 0, Fals
 /* @teleloc 0x32D9013A [124.839996 32.011101 52.082001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x732D9028,   412, 0x32D9013B, 131.163, 41.4899, 52.082, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x32D9013B [131.162994 41.489899 52.082001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x732D9028,   412, 0x32D9013B, 131.163, 41.4899, 52.082, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x32D9013B [131.162994 41.489899 52.082001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x732D9029,   412, 0x32D90033, 148.616, 61.2369, 52.082, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x32D90033 [148.615997 61.236900 52.082001] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x732D902A,   412, 0x32D90033, 152.834, 65.2632, 52.082, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x32D90033 [152.834000 65.263199 52.082001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x732D902A,   412, 0x32D90033, 152.834, 65.2632, 52.082, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x32D90033 [152.834000 65.263199 52.082001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x732D902B,   412, 0x32D9002C, 129.855, 80.9885, 52.082, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
@@ -141,8 +141,8 @@ VALUES (0x732D902D,   412, 0x32D90124, 124.685, 134.762, 52.082, 0.707107, 0, 0,
 /* @teleloc 0x32D90124 [124.684998 134.761993 52.082001] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x732D902E,   412, 0x32D9010E, 158.644, 139.547, 52.082, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x32D9010E [158.643997 139.546997 52.082001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x732D902E,   412, 0x32D9010E, 158.644, 139.547, 52.082, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x32D9010E [158.643997 139.546997 52.082001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x732D903B,  4179, 0x32D90032, 155.867, 25.8664, 52.95, 0.083368, 0, 0, -0.996519, False, '2021-11-01 00:00:00'); /* Bonfire */
@@ -161,8 +161,8 @@ VALUES (0x732D903E,   143, 0x32D90144, 161.454, 33.6788, 52.0946, -0.707107, 0, 
 /* @teleloc 0x32D90144 [161.453995 33.678799 52.094601] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x732D903F, 30938, 0x32D90032, 163.528, 36.0184, 52.1779, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x32D90032 [163.528000 36.018398 52.177898] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x732D903F, 30938, 0x32D90032, 163.528, 36.0184, 52.1779, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x32D90032 [163.528000 36.018398 52.177898] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x732D9040, 30010, 0x32D9010A, 157.338, 138.145, 56, 0.671526, 0, 0, -0.740981, False, '2021-11-01 00:00:00'); /* Apprentice Scrivener of Item and War Magic */
@@ -174,7 +174,7 @@ VALUES (0x732D9057, 42852, 0x32D90034, 155.562, 83.545, 52.198, -0.353031, 0, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x732D9058, 43354, 0x32D9010A, 159.14, 136.566, 56.005, 0.999706, 0, 0, -0.024251, False, '2021-11-01 00:00:00'); /* Scrivener of Void Magic */
-/* @teleloc 0x32D9010A [159.139999 136.565994 56.005001] 0.999706 0.000000 0.000000 -0.024250 */
+/* @teleloc 0x32D9010A [159.139999 136.565994 56.005001] 0.999706 0.000000 0.000000 -0.024251 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x732D9059, 20210, 0x32D90120, 123.625, 136.855, 56.005, 0.664213, 0, 0, -0.747544, False, '2021-11-01 00:00:00'); /* Scrivener of Creature Magic */
@@ -240,4 +240,4 @@ VALUES (0x732D907A, 30266, 0x32D9002D, 126.004, 109.671, 52.005, 0.69579, 0, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x732D907B, 32820, 0x32D9002D, 142, 110, 52.005, -0.012165, 0, 0, -0.999926,  True, '2021-11-01 00:00:00'); /* Giordonni */
-/* @teleloc 0x32D9002D [142.000000 110.000000 52.005001] -0.012164 0.000000 0.000000 -0.999926 */
+/* @teleloc 0x32D9002D [142.000000 110.000000 52.005001] -0.012165 0.000000 0.000000 -0.999926 */

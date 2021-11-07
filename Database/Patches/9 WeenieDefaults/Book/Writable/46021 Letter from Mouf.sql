@@ -26,4 +26,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (46021, 1, 100);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (46021, 1, 4294967295, 'Mouf', 'prewritten', False, '[This page has two small footprints made in black ink.] ');
+VALUES (46021, 1, 0xFFFFFFFF, 'Mouf', 'prewritten', False, '[This page has two small footprints made in black ink.] ');

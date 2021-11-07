@@ -77,20 +77,20 @@ VALUES (0x70088025, 35735, 0x008802EA, 96.2417, -20, -36, -0.649614, 0, 0, -0.76
 /* @teleloc 0x008802EA [96.241699 -20.000000 -36.000000] -0.649614 0.000000 0.000000 -0.760264 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70088027, 35735, 0x00880235, 40, -100, -36, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Warrior Nymph */
-/* @teleloc 0x00880235 [40.000000 -100.000000 -36.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70088027, 35735, 0x00880235, 40, -100, -36, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Warrior Nymph */
+/* @teleloc 0x00880235 [40.000000 -100.000000 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70088028, 35735, 0x00880236, 40, -110, -36, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Warrior Nymph */
-/* @teleloc 0x00880236 [40.000000 -110.000000 -36.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70088028, 35735, 0x00880236, 40, -110, -36, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Warrior Nymph */
+/* @teleloc 0x00880236 [40.000000 -110.000000 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70088029, 35735, 0x008802A6, 70, -110, -36, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Warrior Nymph */
-/* @teleloc 0x008802A6 [70.000000 -110.000000 -36.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70088029, 35735, 0x008802A6, 70, -110, -36, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Warrior Nymph */
+/* @teleloc 0x008802A6 [70.000000 -110.000000 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008802A, 35735, 0x008802A5, 70, -100, -36, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Warrior Nymph */
-/* @teleloc 0x008802A5 [70.000000 -100.000000 -36.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7008802A, 35735, 0x008802A5, 70, -100, -36, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Warrior Nymph */
+/* @teleloc 0x008802A5 [70.000000 -100.000000 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7008802C, 35735, 0x008802A6, 69.0015, -106.258, -36, -0.690344, 0, 0, -0.723482,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Warrior Nymph */
@@ -241,44 +241,44 @@ VALUES (0x70088059, 35733, 0x00880175, 19.9464, -53.5261, -54.0128, -0.006763, 0
 /* @teleloc 0x00880175 [19.946400 -53.526100 -54.012798] -0.006763 0.000000 0.000000 -0.999977 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008805A, 35733, 0x0088017B, 20, -66.3913, -54.0128, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
-/* @teleloc 0x0088017B [20.000000 -66.391296 -54.012798] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7008805A, 35733, 0x0088017B, 20, -66.3913, -54.0128, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
+/* @teleloc 0x0088017B [20.000000 -66.391296 -54.012798] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7008805B, 35733, 0x0088017C, 30, -53.9213, -54.0128, -0.053426, 0, 0, -0.998572,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
 /* @teleloc 0x0088017C [30.000000 -53.921299 -54.012798] -0.053426 0.000000 0.000000 -0.998572 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008805C, 35733, 0x00880182, 30, -66.3424, -54.0128, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
-/* @teleloc 0x00880182 [30.000000 -66.342400 -54.012798] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7008805C, 35733, 0x00880182, 30, -66.3424, -54.0128, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
+/* @teleloc 0x00880182 [30.000000 -66.342400 -54.012798] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008805D, 35733, 0x00880189, 40, -66.3813, -54.0128, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
-/* @teleloc 0x00880189 [40.000000 -66.381302 -54.012798] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7008805D, 35733, 0x00880189, 40, -66.3813, -54.0128, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
+/* @teleloc 0x00880189 [40.000000 -66.381302 -54.012798] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7008805E, 35733, 0x00880183, 40, -53.8824, -54.0128, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
 /* @teleloc 0x00880183 [40.000000 -53.882401 -54.012798] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70088061, 35733, 0x00880197, 60, -66.3902, -54.0128, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
-/* @teleloc 0x00880197 [60.000000 -66.390198 -54.012798] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70088061, 35733, 0x00880197, 60, -66.3902, -54.0128, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
+/* @teleloc 0x00880197 [60.000000 -66.390198 -54.012798] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70088062, 35733, 0x00880191, 60, -54.0857, -54.0128, -0.041767, 0, 0, -0.999127,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
 /* @teleloc 0x00880191 [60.000000 -54.085701 -54.012798] -0.041767 0.000000 0.000000 -0.999127 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70088063, 35733, 0x0088019E, 70, -66.3813, -54.0128, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
-/* @teleloc 0x0088019E [70.000000 -66.381302 -54.012798] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70088063, 35733, 0x0088019E, 70, -66.3813, -54.0128, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
+/* @teleloc 0x0088019E [70.000000 -66.381302 -54.012798] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70088064, 35733, 0x00880198, 70, -53.8217, -54.0128, 0.006764, 0, 0, -0.999977,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
 /* @teleloc 0x00880198 [70.000000 -53.821701 -54.012798] 0.006764 0.000000 0.000000 -0.999977 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70088065, 35733, 0x008801A5, 80, -66.1869, -54.0128, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
-/* @teleloc 0x008801A5 [80.000000 -66.186897 -54.012798] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70088065, 35733, 0x008801A5, 80, -66.1869, -54.0128, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
+/* @teleloc 0x008801A5 [80.000000 -66.186897 -54.012798] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70088066, 35733, 0x0088019F, 80, -53.8046, -54.0128, -0.018434, 0, 0, -0.99983,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
@@ -309,8 +309,8 @@ VALUES (0x7008806D, 35733, 0x0088023A, 50.6394, -10.0639, -36.0128, -0.741441, 0
 /* @teleloc 0x0088023A [50.639400 -10.063900 -36.012798] -0.741441 0.000000 0.000000 -0.671018 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008806E, 35733, 0x00880190, 50, -66.1869, -54.0128, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
-/* @teleloc 0x00880190 [50.000000 -66.186897 -54.012798] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7008806E, 35733, 0x00880190, 50, -66.1869, -54.0128, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
+/* @teleloc 0x00880190 [50.000000 -66.186897 -54.012798] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7008806F, 35733, 0x0088018A, 50, -54.2324, -54.0128, -0.030103, 0, 0, -0.999547,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
@@ -425,16 +425,16 @@ VALUES (0x7008808D,  6122, 0x00880312, 50, -90, -18.602, 1, 0, 0, 0, False, '202
 /* @teleloc 0x00880312 [50.000000 -90.000000 -18.601999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008808E,  6122, 0x00880315, 60, -90, -18.602, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Acid */
-/* @teleloc 0x00880315 [60.000000 -90.000000 -18.601999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7008808E,  6122, 0x00880315, 60, -90, -18.602, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Acid */
+/* @teleloc 0x00880315 [60.000000 -90.000000 -18.601999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7008808F,  6122, 0x00880313, 50, -100, -18.602, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Acid */
 /* @teleloc 0x00880313 [50.000000 -100.000000 -18.601999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70088090,  6122, 0x00880316, 60, -100, -18.602, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Acid */
-/* @teleloc 0x00880316 [60.000000 -100.000000 -18.601999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70088090,  6122, 0x00880316, 60, -100, -18.602, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Acid */
+/* @teleloc 0x00880316 [60.000000 -100.000000 -18.601999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70088091,  6122, 0x008801BD, 50, -60, -36.535, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Acid */
@@ -445,8 +445,8 @@ VALUES (0x70088092,  6122, 0x008801BC, 50, -50, -36.535, 1, 0, 0, 0, False, '202
 /* @teleloc 0x008801BC [50.000000 -50.000000 -36.535000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70088093,  6122, 0x008801BF, 60, -60, -36.535, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Acid */
-/* @teleloc 0x008801BF [60.000000 -60.000000 -36.535000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70088093,  6122, 0x008801BF, 60, -60, -36.535, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Acid */
+/* @teleloc 0x008801BF [60.000000 -60.000000 -36.535000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70088094,  6122, 0x008801BE, 60, -50, -36.535, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Acid */

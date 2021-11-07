@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (37506, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (37506, 0, 4294967295, 'Hurmel the Smith', 'prewritten', False, '- Finish sorting through the old armor. Most of it is in bad shape.
+VALUES (37506, 0, 0xFFFFFFFF, 'Hurmel the Smith', 'prewritten', False, '- Finish sorting through the old armor. Most of it is in bad shape.
 - Try to convince that hot headed golem to give me more metal.
 - Forge another sword for Lord Cynreft. Sell failures to the living.
 - Craft some more of the gems the outsiders like so much.

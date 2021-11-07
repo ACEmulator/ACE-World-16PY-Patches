@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40909;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40909, 'ace40909-manainfusedacidwarstaffofaerfalle', 35, '2019-02-10 00:00:00') /* Caster */;
+VALUES (40909, 'ace40909-manainfusedacidwarstaffofaerfalle', 35, '2021-11-07 08:12:46') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40909,   1,      32768) /* ItemType - Caster */
@@ -50,18 +50,18 @@ VALUES (40909,   1, 'Mana-infused Acid War Staff of Aerfalle') /* Name */
      , (40909,  33, 'ExtremeAerfalleStaffObtained') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40909,   1,   33556630) /* Setup */
-     , (40909,   3,  536870932) /* SoundTable */
-     , (40909,   6,   67111919) /* PaletteBase */
-     , (40909,   7,  268436016) /* ClothingBase */
-     , (40909,   8,  100670752) /* Icon */
-     , (40909,  22,  872415275) /* PhysicsEffectTable */
-     , (40909,  28,       4434) /* Spell - AcidVolley8 */;
+VALUES (40909,   1, 0x02000896) /* Setup */
+     , (40909,   3, 0x20000014) /* SoundTable */
+     , (40909,   6, 0x04000BEF) /* PaletteBase */
+     , (40909,   7, 0x10000230) /* ClothingBase */
+     , (40909,   8, 0x06001D20) /* Icon */
+     , (40909,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (40909,  28,       4434) /* Spell - Incantation of Acid Volley */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40909,  2262,      2)  /* LeadershipMasteryOther7 */
-     , (40909,  2266,      2)  /* LifeMagicMasteryOther7 */
+VALUES (40909,  2262,      2)  /* Ar-Pei's Boon */
+     , (40909,  2266,      2)  /* Harlune's Boon */
      , (40909,  2519,      2)  /* Major Leadership */
      , (40909,  2520,      2)  /* Major Life Magic Aptitude */
-     , (40909,  4637,      2)  /* WarMagicMasteryOther8 */
+     , (40909,  4637,      2)  /* Incantation of War Magic Mastery Other */
      , (40909,  4715,      2)  /* Epic War Magic Aptitude */;

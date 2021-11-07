@@ -49,8 +49,8 @@ VALUES (0x7001F000, 0x7001F003, '2019-03-23 02:20:17') /* Sword Swallower (30937
      , (0x7001F000, 0x7001F02C, '2019-03-23 02:20:17') /* Famished Eater (31225) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001F001, 29497, 0x001F0284, 110, -256, 0.143, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x001F0284 [110.000000 -256.000000 0.143000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7001F001, 29497, 0x001F0284, 110, -256, 0.143, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x001F0284 [110.000000 -256.000000 0.143000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001F002, 29497, 0x001F0100, 193, -50, -53.995, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Surface */

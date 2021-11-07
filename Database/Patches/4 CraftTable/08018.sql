@@ -9,7 +9,7 @@ VALUES (8018, 0, 105, 1, 2, 'The target item cannot be tinkered!') /* Target.Ite
      , (8018, 1,  92, 100, 2, 'The material is not complete!') /* Source.Structure LessThan 100 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (8018, True, 0, 0, 0, False, 939524113, 0, 0);
+VALUES (8018, True, 0, 0, 0, False, 0x38000011, 0, 0);
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (8018, True, 0, 0, 0, False, 0, 0, 0);

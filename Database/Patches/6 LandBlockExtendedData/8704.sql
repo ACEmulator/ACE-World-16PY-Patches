@@ -423,8 +423,8 @@ VALUES (0x7870416A, 40428, 0x87040288, 29.2419, -19.987, -107.995, 0.726686, 0, 
 /* @teleloc 0x87040288 [29.241899 -19.987000 -107.995003] 0.726686 0.000000 0.000000 -0.686970 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7870416B, 40430, 0x870402BE, 60, -30, -102.001, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Pillar */
-/* @teleloc 0x870402BE [60.000000 -30.000000 -102.000999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7870416B, 40430, 0x870402BE, 60, -30, -102.001, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Pillar */
+/* @teleloc 0x870402BE [60.000000 -30.000000 -102.000999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7870416C, 40430, 0x870402B2, 40, -10, -102.001, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Pillar */
@@ -503,8 +503,8 @@ VALUES (0x7870417E, 40428, 0x87040150, 99.05, -14.75, -155.995, 1, 0, 0, 0,  Tru
 /* @teleloc 0x87040150 [99.050003 -14.750000 -155.994995] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7870417F, 40428, 0x87040159, 99.6112, -27.6794, -155.995, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
-/* @teleloc 0x87040159 [99.611198 -27.679399 -155.994995] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7870417F, 40428, 0x87040159, 99.6112, -27.6794, -155.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
+/* @teleloc 0x87040159 [99.611198 -27.679399 -155.994995] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78704180, 40428, 0x8704015B, 99.05, -44.75, -155.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
@@ -535,8 +535,8 @@ VALUES (0x78704186, 40428, 0x8704020E, 125.25, -60.95, -155.995, 1, 0, 0, 0,  Tr
 /* @teleloc 0x8704020E [125.250000 -60.950001 -155.994995] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78704187, 40428, 0x87040164, 99.6112, -57.6794, -155.995, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
-/* @teleloc 0x87040164 [99.611198 -57.679401 -155.994995] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x78704187, 40428, 0x87040164, 99.6112, -57.6794, -155.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
+/* @teleloc 0x87040164 [99.611198 -57.679401 -155.994995] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78704188, 40428, 0x8704010F, 79.05, -44.75, -155.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
@@ -563,12 +563,12 @@ VALUES (0x7870418D, 40428, 0x87040210, 125.25, -70.95, -155.995, 1, 0, 0, 0,  Tr
 /* @teleloc 0x87040210 [125.250000 -70.949997 -155.994995] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7870418E, 40428, 0x8704023A, 139.611, -57.6794, -155.995, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
-/* @teleloc 0x8704023A [139.610992 -57.679401 -155.994995] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7870418E, 40428, 0x8704023A, 139.611, -57.6794, -155.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
+/* @teleloc 0x8704023A [139.610992 -57.679401 -155.994995] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7870418F, 40428, 0x8704016F, 99.6112, -87.6794, -155.995, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
-/* @teleloc 0x8704016F [99.611198 -87.679398 -155.994995] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7870418F, 40428, 0x8704016F, 99.6112, -87.6794, -155.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
+/* @teleloc 0x8704016F [99.611198 -87.679398 -155.994995] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78704190, 40428, 0x87040116, 79.05, -74.75, -155.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
@@ -599,8 +599,8 @@ VALUES (0x78704196, 40428, 0x8704014E, 85.25, -120.95, -155.995, 1, 0, 0, 0,  Tr
 /* @teleloc 0x8704014E [85.250000 -120.949997 -155.994995] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78704197, 40428, 0x87040245, 139.611, -87.6794, -155.995, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
-/* @teleloc 0x87040245 [139.610992 -87.679398 -155.994995] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x78704197, 40428, 0x87040245, 139.611, -87.6794, -155.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
+/* @teleloc 0x87040245 [139.610992 -87.679398 -155.994995] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78704198, 40428, 0x8704021B, 125.25, -100.95, -155.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
@@ -623,8 +623,8 @@ VALUES (0x7870419C, 40428, 0x87040267, 145.25, -100.95, -155.995, 1, 0, 0, 0,  T
 /* @teleloc 0x87040267 [145.250000 -100.949997 -155.994995] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7870419D, 40428, 0x87040250, 139.611, -117.679, -155.995, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
-/* @teleloc 0x87040250 [139.610992 -117.679001 -155.994995] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7870419D, 40428, 0x87040250, 139.611, -117.679, -155.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
+/* @teleloc 0x87040250 [139.610992 -117.679001 -155.994995] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7870419E, 40429, 0x8704026A, 150, -110, -155.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Intense Aggregate Crystalline Wisp */
@@ -812,7 +812,7 @@ VALUES (0x787041CB, 40428, 0x870402AD, 30.9999, -1.58223, -101.995, 0.122865, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787041CC, 40428, 0x8704028A, 31.134, -39.7656, -107.995, -0.039491, 0, 0, 0.99922,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */
-/* @teleloc 0x8704028A [31.134001 -39.765598 -107.995003] -0.039490 0.000000 0.000000 0.999220 */
+/* @teleloc 0x8704028A [31.134001 -39.765598 -107.995003] -0.039491 0.000000 0.000000 0.999220 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787041CD, 40428, 0x87040169, 98.1993, -77.1912, -155.995, 0.94294, 0, 0, -0.332963,  True, '2021-11-01 00:00:00'); /* Intense Shivering Crystalline Wisp */

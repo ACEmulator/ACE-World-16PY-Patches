@@ -57,8 +57,8 @@ VALUES (0x75879032, 72129, 0x58790370, 40, -20, -17.995, 1, 0, 0, 0, False, '202
 /* @teleloc 0x58790370 [40.000000 -20.000000 -17.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879034, 51822, 0x5879052C, 130, -116.345, -0.063, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x5879052C [130.000000 -116.345001 -0.063000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75879034, 51822, 0x5879052C, 130, -116.345, -0.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x5879052C [130.000000 -116.345001 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75879035, 72129, 0x587904B3, 70, -70, -5.971, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Rynthid Path Dungeon Gen */
@@ -205,8 +205,8 @@ VALUES (0x758790F4, 51719, 0x587903B7, 80, -99.9504, -17.8672, 1, 0, 0, 0, False
 /* @teleloc 0x587903B7 [80.000000 -99.950401 -17.867201] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x758790F5, 51719, 0x587903EC, 230, -126.409, -18.063, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Platforms of Torment */
-/* @teleloc 0x587903EC [230.000000 -126.408997 -18.063000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x758790F5, 51719, 0x587903EC, 230, -126.409, -18.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Platforms of Torment */
+/* @teleloc 0x587903EC [230.000000 -126.408997 -18.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758790F6, 51720, 0x587902C3, 359.987, -184.138, -30.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Platforms of Rage */
@@ -333,8 +333,8 @@ VALUES (0x75879186, 72127, 0x587901B5, 219.731, -160.064, -41.945, 0.713526, 0, 
 /* @teleloc 0x587901B5 [219.731003 -160.063995 -41.945000] 0.713526 0.000000 0.000000 0.700628 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879187, 72127, 0x58790197, 200.225, -210.845, -41.945, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Sorrows Dungeon Gen */
-/* @teleloc 0x58790197 [200.225006 -210.845001 -41.945000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75879187, 72127, 0x58790197, 200.225, -210.845, -41.945, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Sorrows Dungeon Gen */
+/* @teleloc 0x58790197 [200.225006 -210.845001 -41.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75879188, 72127, 0x58790177, 184.712, -233.399, -41.945, -0.914996, 0, 0, 0.403464, False, '2021-11-01 00:00:00'); /* Sorrows Dungeon Gen */

@@ -39,12 +39,12 @@ VALUES (0x77E64007, 0x77E64005, '2005-02-09 10:00:00') /* Gharu'ndim Mid-Stakes 
      , (0x77E64007, 0x77E64016, '2019-02-10 00:00:00') /* Rare Exchanger (40462) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77E64008,  9499, 0x7E640111, 109, 114, 12.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Gharu'ndim Low-Stakes Gamesmaster */
-/* @teleloc 0x7E640111 [109.000000 114.000000 12.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x77E64008,  9499, 0x7E640111, 109, 114, 12.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Gharu'ndim Low-Stakes Gamesmaster */
+/* @teleloc 0x7E640111 [109.000000 114.000000 12.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77E64009,  9499, 0x7E640111, 107, 114, 12.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Gharu'ndim Low-Stakes Gamesmaster */
-/* @teleloc 0x7E640111 [107.000000 114.000000 12.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x77E64009,  9499, 0x7E640111, 107, 114, 12.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Gharu'ndim Low-Stakes Gamesmaster */
+/* @teleloc 0x7E640111 [107.000000 114.000000 12.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E6400A,  9496, 0x7E640113, 109, 102, 12.005, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Gharu'ndim High-Stakes Gamesmaster */
@@ -87,5 +87,5 @@ VALUES (0x77E64016, 40462, 0x7E640025, 112.432, 114.926, 12.005, 0.910013, 0, 0,
 /* @teleloc 0x7E640025 [112.431999 114.926003 12.005000] 0.910013 0.000000 0.000000 -0.414579 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77E64017, 52032, 0x7E640114, 107.984, 99.654, 15.2, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Exquisite Casino Chest */
-/* @teleloc 0x7E640114 [107.984001 99.653999 15.200000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x77E64017, 52032, 0x7E640114, 107.984, 99.654, 15.2, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Exquisite Casino Chest */
+/* @teleloc 0x7E640114 [107.984001 99.653999 15.200000] 0.000000 0.000000 0.000000 -1.000000 */

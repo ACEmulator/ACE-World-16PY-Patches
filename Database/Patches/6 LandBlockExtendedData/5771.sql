@@ -81,16 +81,16 @@ VALUES (0x75771013, 46409, 0x577101D2, 110, -120, -35.995, 0.696707, 0, 0, -0.71
 /* @teleloc 0x577101D2 [110.000000 -120.000000 -35.994999] 0.696707 0.000000 0.000000 -0.717356 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75771014, 46412, 0x577101E6, 120, -150, -35.9917, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Decayed Wight */
-/* @teleloc 0x577101E6 [120.000000 -150.000000 -35.991699] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75771014, 46412, 0x577101E6, 120, -150, -35.9917, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Decayed Wight */
+/* @teleloc 0x577101E6 [120.000000 -150.000000 -35.991699] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75771015, 46412, 0x577101CF, 110, -90, -35.9917, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Decayed Wight */
 /* @teleloc 0x577101CF [110.000000 -90.000000 -35.991699] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75771016, 46409, 0x577101E3, 120, -100, -35.995, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Carcass Swarm */
-/* @teleloc 0x577101E3 [120.000000 -100.000000 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75771016, 46409, 0x577101E3, 120, -100, -35.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Carcass Swarm */
+/* @teleloc 0x577101E3 [120.000000 -100.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75771017, 46412, 0x577101BC, 100, -140, -35.9917, 0.696707, 0, 0, -0.717356,  True, '2021-11-01 00:00:00'); /* Decayed Wight */
@@ -101,8 +101,8 @@ VALUES (0x75771018, 46409, 0x5771021F, 160, -100, -35.995, 1, 0, 0, 0,  True, '2
 /* @teleloc 0x5771021F [160.000000 -100.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75771019, 46412, 0x5771021E, 160, -90, -35.9917, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Decayed Wight */
-/* @teleloc 0x5771021E [160.000000 -90.000000 -35.991699] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75771019, 46412, 0x5771021E, 160, -90, -35.9917, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Decayed Wight */
+/* @teleloc 0x5771021E [160.000000 -90.000000 -35.991699] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7577101A, 46409, 0x5771017A, 60, -140, -35.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Carcass Swarm */
@@ -221,8 +221,8 @@ VALUES (0x7577103B, 46412, 0x57710239, 200, -80, -35.9917, -0.707107, 0, 0, -0.7
 /* @teleloc 0x57710239 [200.000000 -80.000000 -35.991699] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7577103C, 46412, 0x57710242, 220, -90, -35.9917, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Decayed Wight */
-/* @teleloc 0x57710242 [220.000000 -90.000000 -35.991699] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7577103C, 46412, 0x57710242, 220, -90, -35.9917, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Decayed Wight */
+/* @teleloc 0x57710242 [220.000000 -90.000000 -35.991699] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75771049, 46411, 0x57710240, 210, -200, -35.9935, 0.714421, 0, 0, 0.699716,  True, '2021-11-01 00:00:00'); /* Rotting Mu-miyah */
@@ -285,8 +285,8 @@ VALUES (0x75771057, 46410, 0x57710255, 260, -160, -35.9956, -0.004204, 0, 0, 0.9
 /* @teleloc 0x57710255 [260.000000 -160.000000 -35.995602] -0.004204 0.000000 0.000000 0.999991 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75771058, 46410, 0x5771027C, 280, -240, -35.9956, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Giant Maggot */
-/* @teleloc 0x5771027C [280.000000 -240.000000 -35.995602] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75771058, 46410, 0x5771027C, 280, -240, -35.9956, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Giant Maggot */
+/* @teleloc 0x5771027C [280.000000 -240.000000 -35.995602] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75771059, 46411, 0x57710253, 250, -230, -35.9935, 0.696707, 0, 0, -0.717356,  True, '2021-11-01 00:00:00'); /* Rotting Mu-miyah */
@@ -369,8 +369,8 @@ VALUES (0x7577106D,   278, 0x577102EB, 364.75, -250, -36, -0.707107, 0, 0, -0.70
 /* @teleloc 0x577102EB [364.750000 -250.000000 -36.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7577106E, 46410, 0x577102B2, 320, -270, -35.9956, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Giant Maggot */
-/* @teleloc 0x577102B2 [320.000000 -270.000000 -35.995602] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7577106E, 46410, 0x577102B2, 320, -270, -35.9956, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Giant Maggot */
+/* @teleloc 0x577102B2 [320.000000 -270.000000 -35.995602] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7577106F, 46411, 0x577102A9, 310, -270, -35.9935, 0.714421, 0, 0, -0.699716,  True, '2021-11-01 00:00:00'); /* Rotting Mu-miyah */
@@ -648,8 +648,8 @@ VALUES (0x757710B7, 46430, 0x577102CE, 330, -305.282, -35.992, 1, 0, 0, 0,  True
 /* @teleloc 0x577102CE [330.000000 -305.282013 -35.992001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x757710B8, 46412, 0x5771023B, 209.971, -18.8841, -35.9917, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Decayed Wight */
-/* @teleloc 0x5771023B [209.970993 -18.884100 -35.991699] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x757710B8, 46412, 0x5771023B, 209.971, -18.8841, -35.9917, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Decayed Wight */
+/* @teleloc 0x5771023B [209.970993 -18.884100 -35.991699] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757710B9, 46428, 0x57710101, 4.37647, -220.018, -41.995, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Ronin Shimakawa */
@@ -664,8 +664,8 @@ VALUES (0x757710BB, 46411, 0x577102AB, 318.93, -149.97, -35.9935, 0.707107, 0, 0
 /* @teleloc 0x577102AB [318.929993 -149.970001 -35.993500] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x757710BC, 46410, 0x577102B6, 329.979, -139.856, -35.9967, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Giant Maggot */
-/* @teleloc 0x577102B6 [329.979004 -139.856003 -35.996700] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x757710BC, 46410, 0x577102B6, 329.979, -139.856, -35.9967, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Giant Maggot */
+/* @teleloc 0x577102B6 [329.979004 -139.856003 -35.996700] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757710BD, 72471, 0x57710399, 169.995, -108.934, -11.945, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Crypt Eidolon Gen */

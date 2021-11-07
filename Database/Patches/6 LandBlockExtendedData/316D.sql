@@ -14,4 +14,4 @@ VALUES (0x7316D047, 40097, 0x316D003A, 173.842, 44.6097, 290.005, -0.40074, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7316D048, 40103, 0x316D003A, 177.805, 45.8655, 290.005, -0.012325, 0, 0, 0.999924, False, '2021-11-01 00:00:00'); /* Oorjit */
-/* @teleloc 0x316D003A [177.804993 45.865501 290.005005] -0.012324 0.000000 0.000000 0.999924 */
+/* @teleloc 0x316D003A [177.804993 45.865501 290.005005] -0.012325 0.000000 0.000000 0.999924 */

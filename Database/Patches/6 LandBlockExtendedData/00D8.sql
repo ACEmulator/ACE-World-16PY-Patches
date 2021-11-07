@@ -182,7 +182,7 @@ VALUES (0x700D8020, 37177, 0x00D80111, 172.944, -34.1189, -11.995, 0.15752, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D8021, 37177, 0x00D8010E, 170.206, -9.32125, -11.995, -0.068926, 0, 0, -0.997622,  True, '2021-11-01 00:00:00'); /* Blood Priestess */
-/* @teleloc 0x00D8010E [170.205994 -9.321250 -11.995000] -0.068925 0.000000 0.000000 -0.997622 */
+/* @teleloc 0x00D8010E [170.205994 -9.321250 -11.995000] -0.068926 0.000000 0.000000 -0.997622 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D8022, 37177, 0x00D8012E, 205.577, -6.26372, -11.995, -0.393611, 0, 0, -0.919277,  True, '2021-11-01 00:00:00'); /* Blood Priestess */

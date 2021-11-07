@@ -110,8 +110,8 @@ VALUES (0x70046039, 28638, 0x00460171, 80, -350, 6, 0.640997, 0, 0, 0.767543,  T
 /* @teleloc 0x00460171 [80.000000 -350.000000 6.000000] 0.640997 0.000000 0.000000 0.767543 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7004603A, 28638, 0x0046017B, 80, -367.723, 6, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Repugnant Eater */
-/* @teleloc 0x0046017B [80.000000 -367.722992 6.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7004603A, 28638, 0x0046017B, 80, -367.723, 6, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Repugnant Eater */
+/* @teleloc 0x0046017B [80.000000 -367.722992 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004603B, 28638, 0x00460180, 87.4815, -339.286, 6, 0.7485, 0, 0, 0.663135,  True, '2021-11-01 00:00:00'); /* Repugnant Eater */
@@ -174,8 +174,8 @@ VALUES (0x70046049, 24305, 0x00460282, 400.397, -271.013, 18, 0.843515, 0, 0, 0.
 /* @teleloc 0x00460282 [400.397003 -271.013000 18.000000] 0.843515 0.000000 0.000000 0.537106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7004604A, 24305, 0x0046027E, 391.521, -280.022, 18, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Olthoi Swarm Warrior */
-/* @teleloc 0x0046027E [391.520996 -280.022003 18.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7004604A, 24305, 0x0046027E, 391.521, -280.022, 18, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Olthoi Swarm Warrior */
+/* @teleloc 0x0046027E [391.520996 -280.022003 18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004604B, 28638, 0x004601AC, 136.608, -321.168, 6, 0.748499, 0, 0, 0.663136,  True, '2021-11-01 00:00:00'); /* Repugnant Eater */

@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (51584, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (51584, 0, 4294967295, 'Geraine', 'prewritten', False, '(The beginning of the page has been torn off)
+VALUES (51584, 0, 0xFFFFFFFF, 'Geraine', 'prewritten', False, '(The beginning of the page has been torn off)
 
 ... have become more powerful after their transformation. I feel this race is ready to be unleashed on the world and begin the destruction I have foreseen. I must now turn my attention to the other races which are crucial to my cause. Once I have their allegiance I can continue on with ...
 

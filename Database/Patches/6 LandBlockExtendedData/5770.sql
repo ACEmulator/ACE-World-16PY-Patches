@@ -90,8 +90,8 @@ VALUES (0x75770033, 45706, 0x577001C8, 19.3324, -10.1823, 12.0033, -0.691563, 0,
 /* @teleloc 0x577001C8 [19.332399 -10.182300 12.003300] -0.691563 0.000000 0.000000 -0.722316 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75770034, 45706, 0x577001C4, 10, -40, 12.0033, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Glacial Guard */
-/* @teleloc 0x577001C4 [10.000000 -40.000000 12.003300] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75770034, 45706, 0x577001C4, 10, -40, 12.0033, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Glacial Guard */
+/* @teleloc 0x577001C4 [10.000000 -40.000000 12.003300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75770035, 45706, 0x57700133, 62.3784, -22.0049, -11.9967, -0.260722, 0, 0, -0.965414,  True, '2021-11-01 00:00:00'); /* Glacial Guard */

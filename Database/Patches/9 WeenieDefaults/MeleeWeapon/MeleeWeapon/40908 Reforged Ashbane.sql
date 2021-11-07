@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40908;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40908, 'ace40908-reforgedashbane', 6, '2019-02-10 00:00:00') /* MeleeWeapon */;
+VALUES (40908, 'ace40908-reforgedashbane', 6, '2021-11-07 08:12:46') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40908,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,7 @@ VALUES (40908,   1,          1) /* ItemType - MeleeWeapon */
      , (40908,  48,         45) /* WeaponSkill - LightWeapons */
      , (40908,  49,         20) /* WeaponTime */
      , (40908,  51,          1) /* CombatUse - Melee */
-     , (40908,  53,        101) /* PlacementPosition */
+     , (40908,  53,        101) /* PlacementPosition - Resting */
      , (40908,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40908, 114,          1) /* Attuned - Attuned */
      , (40908, 151,          2) /* HookType - Wall */
@@ -50,7 +50,7 @@ VALUES (40908,   1, 'Reforged Ashbane') /* Name */
      , (40908,  16, 'A heavily enchanted flaming sword, wrought from magically-reinforced silver.  The magics are so elegantly inlaid into the weapon that there is no visible enchantment on the blade.  Its ivory haft is inscribed ''Ashbane,'' and bears the name of Leikotha Arenir.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40908,   1,   33558823) /* Setup */
-     , (40908,   3,  536870932) /* SoundTable */
-     , (40908,   8,  100671001) /* Icon */
-     , (40908,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40908,   1, 0x02001127) /* Setup */
+     , (40908,   3, 0x20000014) /* SoundTable */
+     , (40908,   8, 0x06001E19) /* Icon */
+     , (40908,  22, 0x3400002B) /* PhysicsEffectTable */;

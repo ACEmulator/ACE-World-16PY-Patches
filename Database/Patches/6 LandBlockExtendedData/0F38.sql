@@ -54,8 +54,8 @@ VALUES (0x70F3802C, 37406, 0x0F38019B, 219.637, 210.029, -17.5936, 0.889293, 0, 
 /* @teleloc 0x0F38019B [219.636993 210.029007 -17.593599] 0.889293 0.000000 0.000000 0.457338 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70F3802D, 37405, 0x0F3801AB, 237.633, 167, -17.5936, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Blighted Miry Moarsman */
-/* @teleloc 0x0F3801AB [237.632996 167.000000 -17.593599] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70F3802D, 37405, 0x0F3801AB, 237.633, 167, -17.5936, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Blighted Miry Moarsman */
+/* @teleloc 0x0F3801AB [237.632996 167.000000 -17.593599] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F3802E, 37405, 0x0F3801A3, 230.863, 168.23, -17.5936, 0.937453, 0, 0, -0.348111,  True, '2021-11-01 00:00:00'); /* Blighted Miry Moarsman */

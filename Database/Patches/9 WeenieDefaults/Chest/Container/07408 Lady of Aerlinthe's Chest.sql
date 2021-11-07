@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7408;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (7408, 'chestaerfalle', 20, '2005-02-09 10:00:00') /* Chest */;
+VALUES (7408, 'chestaerfalle', 20, '2021-11-07 08:12:46') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7408,   1,        512) /* ItemType - Container */
@@ -43,11 +43,11 @@ VALUES (7408,   1, 'Lady of Aerlinthe''s Chest') /* Name */
      , (7408,  16, 'A rusty old chest, inscribed with Dericostian runes. There is a suspicious glow near the lock.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7408,   1,   33554556) /* Setup */
-     , (7408,   2,  150994948) /* MotionTable */
-     , (7408,   3,  536870945) /* SoundTable */
-     , (7408,   8,  100667424) /* Icon */
-     , (7408,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7408,   1, 0x0200007C) /* Setup */
+     , (7408,   2, 0x09000004) /* MotionTable */
+     , (7408,   3, 0x20000021) /* SoundTable */
+     , (7408,   8, 0x06001020) /* Icon */
+     , (7408,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7408, -1, 9010, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unreadable Scroll (9010) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

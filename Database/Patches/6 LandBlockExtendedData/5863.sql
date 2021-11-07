@@ -111,8 +111,8 @@ VALUES (0x7586307E, 48822, 0x586301AF, 60, -40, -53.944, -0.699716, 0, 0, -0.714
 /* @teleloc 0x586301AF [60.000000 -40.000000 -53.944000] -0.699716 0.000000 0.000000 -0.714421 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586307F, 48822, 0x5863020F, 190, -70, 0.061, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Statue of Creeping Death */
-/* @teleloc 0x5863020F [190.000000 -70.000000 0.061000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7586307F, 48822, 0x5863020F, 190, -70, 0.061, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Statue of Creeping Death */
+/* @teleloc 0x5863020F [190.000000 -70.000000 0.061000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75863080, 48822, 0x58630215, 210, -10, 0.056, 0.007301, 0, 0, -0.999973, False, '2021-11-01 00:00:00'); /* Statue of Creeping Death */
@@ -151,12 +151,12 @@ VALUES (0x7586308B, 48802, 0x586301AC, 60, -24.0272, -53.939, 1, 0, 0, 0,  True,
 /* @teleloc 0x586301AC [60.000000 -24.027201 -53.938999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586308C, 48802, 0x58630198, 36.2154, -70, -53.939, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Ensorcelled Weapon */
-/* @teleloc 0x58630198 [36.215401 -70.000000 -53.938999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7586308C, 48802, 0x58630198, 36.2154, -70, -53.939, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Ensorcelled Weapon */
+/* @teleloc 0x58630198 [36.215401 -70.000000 -53.938999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586308D, 48802, 0x58630194, 33.8457, -120, -53.939, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Ensorcelled Weapon */
-/* @teleloc 0x58630194 [33.845699 -120.000000 -53.938999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7586308D, 48802, 0x58630194, 33.8457, -120, -53.939, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Ensorcelled Weapon */
+/* @teleloc 0x58630194 [33.845699 -120.000000 -53.938999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586308E, 48802, 0x5863015C, 120, -120, -83.939, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Ensorcelled Weapon */

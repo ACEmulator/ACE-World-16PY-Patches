@@ -9,8 +9,8 @@ VALUES (0x700E703A, 43031, 0x00E70285, 80.0221, -84.1441, 48, 0, 0, 0, -1, False
 /* @teleloc 0x00E70285 [80.022102 -84.144096 48.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700E703B, 43031, 0x00E7028C, 100.032, -84.094, 48, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Lord of Menilesh's Engraved Chest */
-/* @teleloc 0x00E7028C [100.031998 -84.094002 48.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x700E703B, 43031, 0x00E7028C, 100.032, -84.094, 48, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Lord of Menilesh's Engraved Chest */
+/* @teleloc 0x00E7028C [100.031998 -84.094002 48.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700E703C,  4219, 0x00E70284, 80, -67, 48.0083, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
@@ -111,8 +111,8 @@ VALUES (0x700E7048, 38076, 0x00E701CE, 140, -180, 6.00825, 1, 0, 0, 0,  True, '2
 /* @teleloc 0x00E701CE [140.000000 -180.000000 6.008250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700E7049, 38076, 0x00E701C7, 130.08, -201.338, 6.00825, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Lost Menilesh Denizen */
-/* @teleloc 0x00E701C7 [130.080002 -201.337997 6.008250] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700E7049, 38076, 0x00E701C7, 130.08, -201.338, 6.00825, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lost Menilesh Denizen */
+/* @teleloc 0x00E701C7 [130.080002 -201.337997 6.008250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700E704A, 38076, 0x00E70108, 53.1749, -153.336, 0.00825, 0.997189, 0, 0, 0.074929,  True, '2021-11-01 00:00:00'); /* Lost Menilesh Denizen */

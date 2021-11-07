@@ -30,7 +30,7 @@ VALUES (0x77AE8014, 43495, 0x7AE80002, 9.15501, 32.0927, 120.005, 0.008364, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AE8015, 52286, 0x7AE80001, 15.4563, 11.149, 120.005, -0.996408, 0, 0, 0.084685, False, '2021-11-01 00:00:00'); /* Boone */
-/* @teleloc 0x7AE80001 [15.456300 11.149000 120.004997] -0.996408 0.000000 0.000000 0.084684 */
+/* @teleloc 0x7AE80001 [15.456300 11.149000 120.004997] -0.996408 0.000000 0.000000 0.084685 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AE8016, 51960, 0x7AE80001, 18.4127, 13.3427, 120.005, -0.72952, 0, 0, -0.68396, False, '2021-11-01 00:00:00'); /* Kumiko */

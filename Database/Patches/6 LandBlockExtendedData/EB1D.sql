@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xEB1D;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EB1D0D6,   278, 0xEB1D0253, 186, 203.03, -19.2, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0xEB1D0253 [186.000000 203.029999 -19.200001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7EB1D0D6,   278, 0xEB1D0253, 186, 203.03, -19.2, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0xEB1D0253 [186.000000 203.029999 -19.200001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB1D0D7,  4219, 0xEB1D0102, 130.012, 133.584, 15.7066, -0.240582, 0, 0, -0.970629, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
@@ -175,7 +175,7 @@ VALUES (0x7EB1D0F4, 35389, 0xEB1D0038, 167.164, 168.072, 16.0066, 0.917737, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB1D0F5, 35389, 0xEB1D003E, 170.862, 140.146, 16.0066, 0.999349, 0, 0, -0.036064,  True, '2021-11-01 00:00:00'); /* Mosswart Townsfolk */
-/* @teleloc 0xEB1D003E [170.862000 140.145996 16.006599] 0.999349 0.000000 0.000000 -0.036063 */
+/* @teleloc 0xEB1D003E [170.862000 140.145996 16.006599] 0.999349 0.000000 0.000000 -0.036064 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB1D0F6, 35389, 0xEB1D003E, 170.312, 129.731, 16.0066, 0.937985, 0, 0, 0.346677,  True, '2021-11-01 00:00:00'); /* Mosswart Townsfolk */

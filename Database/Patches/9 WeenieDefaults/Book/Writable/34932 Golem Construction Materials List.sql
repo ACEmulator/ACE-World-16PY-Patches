@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34932;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34932, 'ace34932-golemconstructionmaterialslist', 8, '2021-10-28 03:34:40') /* Book */;
+VALUES (34932, 'ace34932-golemconstructionmaterialslist', 8, '2021-11-07 08:12:46') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34932,   1,       8192) /* ItemType - Writable */
@@ -28,6 +28,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (34932, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (34932, 0, 4294967295, 'Unknown', 'prewritten', False, 'Mines of Despair: Empyrean Sun Stone
+VALUES (34932, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, 'Mines of Despair: Empyrean Sun Stone
 Colier Mines: Stone of Rez''arel
 Arwic Mines: Stone of Alb''arel');

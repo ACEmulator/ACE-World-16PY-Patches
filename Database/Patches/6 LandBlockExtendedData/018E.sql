@@ -223,8 +223,8 @@ VALUES (0x7018E009,   278, 0x018E02DD, 84.75, -230, -6, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x018E02DD [84.750000 -230.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018E00A,   278, 0x018E0294, 60, -194.75, -6, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x018E0294 [60.000000 -194.750000 -6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7018E00A,   278, 0x018E0294, 60, -194.75, -6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x018E0294 [60.000000 -194.750000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018E00B,   278, 0x018E0301, 90, -194.75, -6, 0, 0, 0, 1, False, '2021-11-01 00:00:00'); /* Door */
@@ -307,8 +307,8 @@ VALUES (0x7018E01E,   278, 0x018E0321, 100, -75.25, -6, -1, 0, 0, 0, False, '202
 /* @teleloc 0x018E0321 [100.000000 -75.250000 -6.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018E01F,   278, 0x018E031B, 100, -64.75, -6, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x018E031B [100.000000 -64.750000 -6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7018E01F,   278, 0x018E031B, 100, -64.75, -6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x018E031B [100.000000 -64.750000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018E020, 31300, 0x018E0112, 227.21, -7.11909, -23.95, 0.652483, 0, 0, -0.757804, False, '2021-11-01 00:00:00'); /* Pool of Glacial Water */

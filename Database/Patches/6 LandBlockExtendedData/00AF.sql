@@ -86,16 +86,16 @@ VALUES (0x700AF112, 0x700AF114, '2019-02-10 00:00:00') /* Master Arbitrator (344
      , (0x700AF112, 0x700AF11C, '2019-02-10 00:00:00') /* Arena of the Pumpkin King (36532) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AF113, 71705, 0x00AF0117, 38, 4.4, 0, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Colo Arena One Stopgap Generator */
-/* @teleloc 0x00AF0117 [38.000000 4.400000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x700AF113, 71705, 0x00AF0117, 38, 4.4, 0, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Colo Arena One Stopgap Generator */
+/* @teleloc 0x00AF0117 [38.000000 4.400000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF114, 34441, 0x00AF0117, 40, 0, 0.0075, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Master Arbitrator */
 /* @teleloc 0x00AF0117 [40.000000 0.000000 0.007500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AF115, 34442, 0x00AF0139, 50, -13, 0.0065, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Colosseum Ticket Vendor */
-/* @teleloc 0x00AF0139 [50.000000 -13.000000 0.006500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700AF115, 34442, 0x00AF0139, 50, -13, 0.0065, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Colosseum Ticket Vendor */
+/* @teleloc 0x00AF0139 [50.000000 -13.000000 0.006500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF116, 35869, 0x00AF0142, 60, -37.3, 0.008, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Gladiator Diemos */
@@ -106,20 +106,20 @@ VALUES (0x700AF117, 35870, 0x00AF0133, 42.5, -70, 0, -0.707107, 0, 0, -0.707107,
 /* @teleloc 0x00AF0133 [42.500000 -70.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AF118, 71511, 0x00AF0117, 39, 4.4, 0, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Colo Arena Two Stopgap Generator */
-/* @teleloc 0x00AF0117 [39.000000 4.400000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x700AF118, 71511, 0x00AF0117, 39, 4.4, 0, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Colo Arena Two Stopgap Generator */
+/* @teleloc 0x00AF0117 [39.000000 4.400000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AF119, 71512, 0x00AF0117, 40, 4.39999, 0, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Colo Arena Three Stopgap Generator */
-/* @teleloc 0x00AF0117 [40.000000 4.399990 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x700AF119, 71512, 0x00AF0117, 40, 4.39999, 0, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Colo Arena Three Stopgap Generator */
+/* @teleloc 0x00AF0117 [40.000000 4.399990 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AF11A, 71513, 0x00AF0117, 41, 4.4, 0, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Colo Arena Four Stopgap Generator */
-/* @teleloc 0x00AF0117 [41.000000 4.400000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x700AF11A, 71513, 0x00AF0117, 41, 4.4, 0, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Colo Arena Four Stopgap Generator */
+/* @teleloc 0x00AF0117 [41.000000 4.400000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700AF11B, 71514, 0x00AF0117, 42, 4.4, 0, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Colo Arena Five Stopgap Generator */
-/* @teleloc 0x00AF0117 [42.000000 4.400000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x700AF11B, 71514, 0x00AF0117, 42, 4.4, 0, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Colo Arena Five Stopgap Generator */
+/* @teleloc 0x00AF0117 [42.000000 4.400000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF11C, 36532, 0x00AF0152, 140, -42.528, 0, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Arena of the Pumpkin King */
@@ -139,11 +139,11 @@ VALUES (0x700AF11F, 71069, 0x00AF0165, 290.575, -39.7691, 0.161, -0.017498, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF120, 71072, 0x00AF016E, 381.308, -40.0852, 0.161, -0.015454, 0, 0, -0.999881, False, '2021-11-01 00:00:00'); /* PumpkinKingWave1 */
-/* @teleloc 0x00AF016E [381.308014 -40.085201 0.161000] -0.015453 0.000000 0.000000 -0.999881 */
+/* @teleloc 0x00AF016E [381.308014 -40.085201 0.161000] -0.015454 0.000000 0.000000 -0.999881 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF122, 71073, 0x00AF016E, 380.019, -40.0453, 0.161, -0.015454, 0, 0, -0.999881, False, '2021-11-01 00:00:00'); /* PumpkinKingBossStart */
-/* @teleloc 0x00AF016E [380.019012 -40.045300 0.161000] -0.015453 0.000000 0.000000 -0.999881 */
+/* @teleloc 0x00AF016E [380.019012 -40.045300 0.161000] -0.015454 0.000000 0.000000 -0.999881 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF123, 71074, 0x00AF016E, 378.55, -40.4212, 0.11, -0.052058, 0, 0, -0.998644, False, '2021-11-01 00:00:00'); /* Pumpkin King Event Watcher */
@@ -159,7 +159,7 @@ VALUES (0x700AF125, 71076, 0x00AF015C, 198.573, -39.7959, 0.161, -0.010279, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF126, 71078, 0x00AF015C, 199.817, -38.8083, 0.11, -0.01028, 0, 0, -0.999947, False, '2021-11-01 00:00:00'); /* VeryMadCow Event Watcher */
-/* @teleloc 0x00AF015C [199.817001 -38.808300 0.110000] -0.010279 0.000000 0.000000 -0.999947 */
+/* @teleloc 0x00AF015C [199.817001 -38.808300 0.110000] -0.010280 0.000000 0.000000 -0.999947 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF127, 71075, 0x00AF015C, 201.016, -39.8285, 0.161, 0.01472, 0, 0, -0.999892, False, '2021-11-01 00:00:00'); /* VeryMadCowWave1 */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72378;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72378, 'ace72378-aerfallesanctumgen', 1, '2019-03-26 20:02:53') /* Generic */;
+VALUES (72378, 'ace72378-aerfallesanctumgen', 1, '2021-11-07 08:12:46') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72378,  81,          1) /* MaxGeneratedObjects */
@@ -25,8 +25,8 @@ VALUES (72378,   1, 'Aerfalle Sanctum Gen') /* Name */
      , (72378,  34, 'AerfalleExtremeGen') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72378,   1,   33555051) /* Setup */
-     , (72378,   8,  100667494) /* Icon */;
+VALUES (72378,   1, 0x0200026B) /* Setup */
+     , (72378,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72378, -1, 40931, 120, 1, 1, 1, 4, -1, 0, 0, 0x01F50102, 189.863, -1.158, -42.20983, 1, 0, 0, 0) /* Generate Aerfalle's Sanctum (40931) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (72378, -1, 40931, 120, 1, 1, 1, 4, -1, 0, 0, 0x01F50102, 189.863, -1.158, -42.2098, 1, 0, 0, 0) /* Generate Aerfalle's Sanctum (40931) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

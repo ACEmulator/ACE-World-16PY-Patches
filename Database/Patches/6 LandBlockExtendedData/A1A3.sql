@@ -17,8 +17,8 @@ VALUES (0x7A1A300C, 44351, 0xA1A30102, 148.49, 129.385, 36.8167, -0.382683, 0, 0
 /* @teleloc 0xA1A30102 [148.490005 129.384995 36.816700] -0.382683 0.000000 0.000000 0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A1A300D,  5086, 0xA1A30131, 88.8657, 149.142, 48.737, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Linkable Monster Gen - 30 sec. */
-/* @teleloc 0xA1A30131 [88.865700 149.141998 48.737000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7A1A300D,  5086, 0xA1A30131, 88.8657, 149.142, 48.737, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Linkable Monster Gen - 30 sec. */
+/* @teleloc 0xA1A30131 [88.865700 149.141998 48.737000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7A1A300D, 0x7A1A300E, '2019-11-03 10:00:00') /* Cavern (44075) */
@@ -28,8 +28,8 @@ VALUES (0x7A1A300D, 0x7A1A300E, '2019-11-03 10:00:00') /* Cavern (44075) */
      , (0x7A1A300D, 0x7A1A3012, '2019-11-03 10:00:00') /* Pyreal Target Drudge (24888) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A1A300E, 44075, 0xA1A30131, 88.8657, 149.142, 48.737, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Cavern */
-/* @teleloc 0xA1A30131 [88.865700 149.141998 48.737000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7A1A300E, 44075, 0xA1A30131, 88.8657, 149.142, 48.737, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Cavern */
+/* @teleloc 0xA1A30131 [88.865700 149.141998 48.737000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A300F, 30467, 0xA1A30118, 109.949, 139.008, 36.8, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Fletching Forge */

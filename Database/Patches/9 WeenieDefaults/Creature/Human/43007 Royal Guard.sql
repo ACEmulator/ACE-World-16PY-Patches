@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43007;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43007, 'ace43007-royalguard', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (43007, 'ace43007-royalguard', 10, '2021-11-07 08:12:46') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43007,   1,         16) /* ItemType - Creature */
@@ -139,7 +139,7 @@ VALUES (43007, 2, 24611,  1, 0, 0, False) /* Create Sword of Lost Light (24611) 
      , (43007, 2,  2601,  0, 14, 0.5, False) /* Create Pants (2601) for Wield */
      , (43007, 2, 21150,  0, 93, 1, False) /* Create Covenant Sollerets (21150) for Wield */
      , (43007, 2, 21151,  0, 93, 1, False) /* Create Covenant Bracers (21151) for Wield */
-     , (43007, 2, 80226,  0, 93, 1, False) /* Create Covenant Breastplate (80226) for Wield */
+     , (43007, 2, 80226,  0, 93, 1, False) /* Create Cloaked Covenant Breastplate (80226) for Wield */
      , (43007, 2, 21153,  0, 93, 1, False) /* Create Covenant Gauntlets (21153) for Wield */
      , (43007, 2, 21154,  0, 93, 1, False) /* Create Covenant Girth (21154) for Wield */
      , (43007, 2, 21155,  0, 93, 1, False) /* Create Covenant Greaves (21155) for Wield */

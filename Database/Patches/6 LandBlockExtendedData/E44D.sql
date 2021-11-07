@@ -41,20 +41,20 @@ VALUES (0x7E44D009, 38457, 0xE44D0100, 184.952, 126.165, 17.655, 1, 0, 0, 0, Fal
 /* @teleloc 0xE44D0100 [184.951996 126.165001 17.655001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E44D00A, 38444, 0xE44D0100, 180.092, 110.096, 17.655, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Armor Chest */
-/* @teleloc 0xE44D0100 [180.091995 110.096001 17.655001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7E44D00A, 38444, 0xE44D0100, 180.092, 110.096, 17.655, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Armor Chest */
+/* @teleloc 0xE44D0100 [180.091995 110.096001 17.655001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E44D00B, 38443, 0xE44D0100, 185.395, 114.04, 17.655, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Mana Forge Mixed Equipment Chest */
 /* @teleloc 0xE44D0100 [185.395004 114.040001 17.655001] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E44D00C, 38444, 0xE44D0100, 182.099, 110.115, 17.655, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Armor Chest */
-/* @teleloc 0xE44D0100 [182.098999 110.114998 17.655001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7E44D00C, 38444, 0xE44D0100, 182.099, 110.115, 17.655, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Armor Chest */
+/* @teleloc 0xE44D0100 [182.098999 110.114998 17.655001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E44D00D, 38444, 0xE44D0100, 178.112, 110.104, 17.655, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Armor Chest */
-/* @teleloc 0xE44D0100 [178.112000 110.103996 17.655001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7E44D00D, 38444, 0xE44D0100, 178.112, 110.104, 17.655, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Armor Chest */
+/* @teleloc 0xE44D0100 [178.112000 110.103996 17.655001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E44D00E, 38443, 0xE44D0100, 185.381, 112.115, 17.655, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Mana Forge Mixed Equipment Chest */
@@ -77,8 +77,8 @@ VALUES (0x7E44D012, 38446, 0xE44D0100, 174.682, 115.936, 17.655, -0.707107, 0, 0
 /* @teleloc 0xE44D0100 [174.682007 115.935997 17.655001] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E44D013, 38457, 0xE44D0103, 182.457, 129.168, 24.0529, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Chest */
-/* @teleloc 0xE44D0103 [182.457001 129.167999 24.052900] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7E44D013, 38457, 0xE44D0103, 182.457, 129.168, 24.0529, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Chest */
+/* @teleloc 0xE44D0103 [182.457001 129.167999 24.052900] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E44D014, 38457, 0xE44D0103, 177.751, 129.352, 24.049, -0.009652, 0, 0, -0.999953, False, '2021-11-01 00:00:00'); /* Mana Forge Chest */

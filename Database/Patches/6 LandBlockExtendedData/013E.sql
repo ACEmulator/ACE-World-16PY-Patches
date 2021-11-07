@@ -9,8 +9,8 @@ VALUES (0x7013E001,   568, 0x013E0102, 34.75, -200, -18, 0.707107, 0, 0, -0.7071
 /* @teleloc 0x013E0102 [34.750000 -200.000000 -18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7013E002,  4139, 0x013E0106, 50, -202.162, -18, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x013E0106 [50.000000 -202.162003 -18.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7013E002,  4139, 0x013E0106, 50, -202.162, -18, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x013E0106 [50.000000 -202.162003 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7013E002, 0x7013E009, '2005-02-09 10:00:00') /* Lever (285) */
@@ -21,8 +21,8 @@ VALUES (0x7013E006,  4829, 0x013E0108, 53.638, -222.044, -18, -0.707107, 0, 0, -
 /* @teleloc 0x013E0108 [53.638000 -222.044006 -18.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7013E009,   285, 0x013E0108, 49.526, -224.872, -16.4084, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Lever */
-/* @teleloc 0x013E0108 [49.526001 -224.871994 -16.408400] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7013E009,   285, 0x013E0108, 49.526, -224.872, -16.4084, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Lever */
+/* @teleloc 0x013E0108 [49.526001 -224.871994 -16.408400] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013E00A,   278, 0x013E010A, 55.25, -190, -18, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -121,8 +121,8 @@ VALUES (0x7013E039,  2611, 0x013E011A, 13.6087, -176.588, -11.985, 0.441656, 0, 
 /* @teleloc 0x013E011A [13.608700 -176.587997 -11.985000] 0.441656 0.000000 0.000000 0.897184 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7013E03A,  7822, 0x013E0121, 12.7489, -187.333, -11.9975, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Skeleton Lord */
-/* @teleloc 0x013E0121 [12.748900 -187.332993 -11.997500] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7013E03A,  7822, 0x013E0121, 12.7489, -187.333, -11.9975, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Skeleton Lord */
+/* @teleloc 0x013E0121 [12.748900 -187.332993 -11.997500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013E03B,  1630, 0x013E0128, 17.7947, -136.997, -11.9925, 0.304882, 0, 0, -0.95239,  True, '2021-11-01 00:00:00'); /* Lich Lord */
@@ -193,12 +193,12 @@ VALUES (0x7013E04B,  1626, 0x013E01B5, 53.5334, -182.623, -11.988, -0.713752, 0,
 /* @teleloc 0x013E01B5 [53.533401 -182.623001 -11.988000] -0.713752 0.000000 0.000000 -0.700399 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7013E04C,  1762, 0x013E01B6, 51.7435, -177.824, -11.995, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Skeleton Lord */
-/* @teleloc 0x013E01B6 [51.743500 -177.824005 -11.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7013E04C,  1762, 0x013E01B6, 51.7435, -177.824, -11.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Skeleton Lord */
+/* @teleloc 0x013E01B6 [51.743500 -177.824005 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7013E04D,  1762, 0x013E01B6, 48.3916, -177.824, -11.995, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Skeleton Lord */
-/* @teleloc 0x013E01B6 [48.391602 -177.824005 -11.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7013E04D,  1762, 0x013E01B6, 48.3916, -177.824, -11.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Skeleton Lord */
+/* @teleloc 0x013E01B6 [48.391602 -177.824005 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013E04E,  1630, 0x013E01BC, 50.0871, -196.807, -11.9925, 0.030102, 0, 0, -0.999547,  True, '2021-11-01 00:00:00'); /* Lich Lord */
@@ -217,8 +217,8 @@ VALUES (0x7013E051,  1759, 0x013E01D6, 56.4622, -226.395, -11.995, -0.31544, 0, 
 /* @teleloc 0x013E01D6 [56.462200 -226.395004 -11.995000] -0.315440 0.000000 0.000000 0.948946 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7013E052,  7822, 0x013E01DD, 59.4322, -251.047, -11.9975, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Skeleton Lord */
-/* @teleloc 0x013E01DD [59.432201 -251.046997 -11.997500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7013E052,  7822, 0x013E01DD, 59.4322, -251.047, -11.9975, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Skeleton Lord */
+/* @teleloc 0x013E01DD [59.432201 -251.046997 -11.997500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013E053,  1759, 0x013E01DD, 64.0181, -253.56, -11.995, 0.958378, 0, 0, 0.285504,  True, '2021-11-01 00:00:00'); /* Skeleton */

@@ -207,8 +207,8 @@ VALUES (0x75D47413, 32467, 0x5D47016B, 35.5286, -2.10159, 18, 0.707107, 0, 0, -0
 /* @teleloc 0x5D47016B [35.528599 -2.101590 18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75D47414, 32440, 0x5D47016B, 42.0952, 4.46678, 18, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Melee Defense Warden of Enlightenment */
-/* @teleloc 0x5D47016B [42.095200 4.466780 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75D47414, 32440, 0x5D47016B, 42.0952, 4.46678, 18, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Melee Defense Warden of Enlightenment */
+/* @teleloc 0x5D47016B [42.095200 4.466780 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D47415, 32454, 0x5D47016B, 35.5804, -4.39044, 18, 0.92388, 0, 0, -0.382683, False, '2021-11-01 00:00:00'); /* Light Weapons Warden of Enlightenment */
@@ -223,16 +223,16 @@ VALUES (0x75D47417, 32470, 0x5D47016B, 35.5387, 2.95043, 18, 0.707107, 0, 0, -0.
 /* @teleloc 0x5D47016B [35.538700 2.950430 18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75D47418, 32437, 0x5D47016B, 37.1245, 4.46189, 18, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Magic Defense Warden of Enlightenment */
-/* @teleloc 0x5D47016B [37.124500 4.461890 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75D47418, 32437, 0x5D47016B, 37.1245, 4.46189, 18, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Magic Defense Warden of Enlightenment */
+/* @teleloc 0x5D47016B [37.124500 4.461890 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D47419, 32441, 0x5D47016B, 44.4276, 4.3781, 18, -0.382683, 0, 0, -0.92388, False, '2021-11-01 00:00:00'); /* Missile Defense Warden of Enlightenment */
 /* @teleloc 0x5D47016B [44.427601 4.378100 18.000000] -0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75D4741A, 32439, 0x5D47016B, 39.6385, 4.46611, 18, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Conversion Warden of Enlightenment */
-/* @teleloc 0x5D47016B [39.638500 4.466110 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75D4741A, 32439, 0x5D47016B, 39.6385, 4.46611, 18, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Conversion Warden of Enlightenment */
+/* @teleloc 0x5D47016B [39.638500 4.466110 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4741B,   201, 0x5D470100, -2.63825, -50.4166, 0.01, 0.840773, 0, 0, 0.541387,  True, '2021-11-01 00:00:00'); /* Obsidian Golem */

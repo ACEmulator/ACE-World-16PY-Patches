@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30043, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30043, 0, 4294967295, '', 'prewritten', False, '
+VALUES (30043, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 To commemorate the founding of our new home and our conquests to follow.
 
 Built in the first year of the reign of our monarch, King Varicci di Corcosi, second of his name.

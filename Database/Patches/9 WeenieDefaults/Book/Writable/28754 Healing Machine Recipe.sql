@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28754, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28754, 0, 4294967295, 'Fiun Scorus', 'prewritten', False, 'Use Lavus on Tihn.
+VALUES (28754, 0, 0xFFFFFFFF, 'Fiun Scorus', 'prewritten', False, 'Use Lavus on Tihn.
 Use Lavuhn on Pedestal.
 Use Base on Hook.
 Use Hooked Base on Orb.

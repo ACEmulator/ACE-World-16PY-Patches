@@ -34,6 +34,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (29390, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29390, 0, 4294967295, 'General Corcima', 'prewritten', True, 'Captain Ramelle, 
+VALUES (29390, 0, 0xFFFFFFFF, 'General Corcima', 'prewritten', True, 'Captain Ramelle, 
 
 I am pleased to be able to count on you in the coming days, as we bring our war, at last, to the Bloodless, and to the capital city of the desert folk. I remember well your own exploits as a newly fledged Ferran in the siege of Tirethas. You will be asked to again sow disorder in the ranks of the enemy, but this time as a commander, instead of as a siege-breaker. To you, Captain Ramelle, most junior of my commanders, is given the task of unleashing the Eaters.');

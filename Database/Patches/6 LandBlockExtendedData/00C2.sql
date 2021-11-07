@@ -291,19 +291,19 @@ VALUES (0x700C2013, 37417, 0x00C20315, 129.672, -80.1548, -29.9948, -0.713273, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C2014, 37417, 0x00C20302, 97.2962, -60.4321, -29.9948, 0.016643, 0, 0, 0.999861,  True, '2021-11-01 00:00:00'); /* Blighted Disgusting Moarsman */
-/* @teleloc 0x00C20302 [97.296204 -60.432098 -29.994801] 0.016642 0.000000 0.000000 0.999861 */
+/* @teleloc 0x00C20302 [97.296204 -60.432098 -29.994801] 0.016643 0.000000 0.000000 0.999861 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C2015, 37417, 0x00C20302, 98.3233, -55.6776, -29.9948, 0.016643, 0, 0, 0.999861,  True, '2021-11-01 00:00:00'); /* Blighted Disgusting Moarsman */
-/* @teleloc 0x00C20302 [98.323303 -55.677601 -29.994801] 0.016642 0.000000 0.000000 0.999861 */
+/* @teleloc 0x00C20302 [98.323303 -55.677601 -29.994801] 0.016643 0.000000 0.000000 0.999861 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C2016, 37417, 0x00C20302, 103.691, -60.6451, -29.9948, 0.016643, 0, 0, 0.999861,  True, '2021-11-01 00:00:00'); /* Blighted Disgusting Moarsman */
-/* @teleloc 0x00C20302 [103.691002 -60.645100 -29.994801] 0.016642 0.000000 0.000000 0.999861 */
+/* @teleloc 0x00C20302 [103.691002 -60.645100 -29.994801] 0.016643 0.000000 0.000000 0.999861 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C2017, 37417, 0x00C20302, 103.85, -55.8733, -29.9948, 0.016643, 0, 0, 0.999861,  True, '2021-11-01 00:00:00'); /* Blighted Disgusting Moarsman */
-/* @teleloc 0x00C20302 [103.849998 -55.873299 -29.994801] 0.016642 0.000000 0.000000 0.999861 */
+/* @teleloc 0x00C20302 [103.849998 -55.873299 -29.994801] 0.016643 0.000000 0.000000 0.999861 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C2018, 37417, 0x00C20306, 100.512, -98.4401, -29.9948, -0.99785, 0, 0, 0.06554,  True, '2021-11-01 00:00:00'); /* Blighted Disgusting Moarsman */
@@ -686,8 +686,8 @@ VALUES (0x700C2076, 37417, 0x00C20170, 138.18, -141.285, -65.9948, -0.997987, 0,
 /* @teleloc 0x00C20170 [138.179993 -141.285004 -65.994797] -0.997987 0.000000 0.000000 0.063420 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C2077, 37417, 0x00C201FF, 130, -140, -53.9948, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Blighted Disgusting Moarsman */
-/* @teleloc 0x00C201FF [130.000000 -140.000000 -53.994801] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700C2077, 37417, 0x00C201FF, 130, -140, -53.9948, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Blighted Disgusting Moarsman */
+/* @teleloc 0x00C201FF [130.000000 -140.000000 -53.994801] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C2078, 37417, 0x00C20149, 121.757, -139.669, -65.9948, 0.687301, 0, 0, -0.726373,  True, '2021-11-01 00:00:00'); /* Blighted Disgusting Moarsman */
@@ -746,12 +746,12 @@ VALUES (0x700C2085, 37417, 0x00C201D9, 98.018, -120.87, -53.9948, 0.026647, 0, 0
 /* @teleloc 0x00C201D9 [98.017998 -120.870003 -53.994801] 0.026647 0.000000 0.000000 -0.999645 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C2086, 37417, 0x00C201DF, 97.648, -180, -53.9948, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Blighted Disgusting Moarsman */
-/* @teleloc 0x00C201DF [97.648003 -180.000000 -53.994801] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700C2086, 37417, 0x00C201DF, 97.648, -180, -53.9948, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Blighted Disgusting Moarsman */
+/* @teleloc 0x00C201DF [97.648003 -180.000000 -53.994801] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C2087, 37417, 0x00C201DF, 100, -180, -53.9948, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Blighted Disgusting Moarsman */
-/* @teleloc 0x00C201DF [100.000000 -180.000000 -53.994801] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700C2087, 37417, 0x00C201DF, 100, -180, -53.9948, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Blighted Disgusting Moarsman */
+/* @teleloc 0x00C201DF [100.000000 -180.000000 -53.994801] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C2088, 37417, 0x00C20104, 69.8383, -134.753, -65.9948, -0.665491, 0, 0, 0.746406,  True, '2021-11-01 00:00:00'); /* Blighted Disgusting Moarsman */

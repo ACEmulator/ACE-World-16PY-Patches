@@ -5,8 +5,8 @@ VALUES (0x75876003, 51670, 0x587601C9, 420, -136.928, -18.063, 1, 0, 0, 0, False
 /* @teleloc 0x587601C9 [420.000000 -136.927994 -18.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75876004, 51670, 0x587601C7, 420, -123.045, -18.063, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x587601C7 [420.000000 -123.044998 -18.063000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75876004, 51670, 0x587601C7, 420, -123.045, -18.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x587601C7 [420.000000 -123.044998 -18.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75876005, 51670, 0x58760110, 16.9714, -160, -42.063, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Surface */
@@ -165,8 +165,8 @@ VALUES (0x7587602B, 51678, 0x5876017E, 220, -75.643, -17.9935, 0, 0, 0, -1, Fals
 /* @teleloc 0x5876017E [220.000000 -75.642998 -17.993500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587602C, 51678, 0x5876018C, 240, -114.376, -17.9935, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Inanimate Gear Knight */
-/* @teleloc 0x5876018C [240.000000 -114.375999 -17.993500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7587602C, 51678, 0x5876018C, 240, -114.376, -17.9935, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Inanimate Gear Knight */
+/* @teleloc 0x5876018C [240.000000 -114.375999 -17.993500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587602D, 51678, 0x58760181, 220, -114.34, -17.9935, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Inanimate Gear Knight */
@@ -189,8 +189,8 @@ VALUES (0x75876031, 51678, 0x58760101, -4.376, -143.122, -41.9935, 0.707107, 0, 
 /* @teleloc 0x58760101 [-4.376000 -143.121994 -41.993500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75876032, 51678, 0x5876010F, 20, -154.376, -41.9935, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Inanimate Gear Knight */
-/* @teleloc 0x5876010F [20.000000 -154.376007 -41.993500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75876032, 51678, 0x5876010F, 20, -154.376, -41.9935, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Inanimate Gear Knight */
+/* @teleloc 0x5876010F [20.000000 -154.376007 -41.993500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75876033, 51678, 0x5876010F, 24.191, -146.244, -41.9935, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Inanimate Gear Knight */
@@ -201,8 +201,8 @@ VALUES (0x75876034, 51678, 0x5876010F, 24.191, -149.366, -41.9935, -0.707107, 0,
 /* @teleloc 0x5876010F [24.191000 -149.365997 -41.993500] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75876035, 51678, 0x58760102, -0, -154.376, -41.9935, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Inanimate Gear Knight */
-/* @teleloc 0x58760102 [-0.000000 -154.376007 -41.993500] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x75876035, 51678, 0x58760102, 0, -154.376, -41.9935, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Inanimate Gear Knight */
+/* @teleloc 0x58760102 [0.000000 -154.376007 -41.993500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75876036, 51678, 0x58760102, -4.376, -146.244, -41.9935, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Inanimate Gear Knight */
@@ -277,8 +277,8 @@ VALUES (0x75876048,  5625, 0x58760170, 190, -185.25, -18, -1, 0, 0, 0, False, '2
 /* @teleloc 0x58760170 [190.000000 -185.250000 -18.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75876049,  5625, 0x58760170, 190, -194.75, -18, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x58760170 [190.000000 -194.750000 -18.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75876049,  5625, 0x58760170, 190, -194.75, -18, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x58760170 [190.000000 -194.750000 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587604A, 51673, 0x58760109, 10, -184.75, -42, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
@@ -325,8 +325,8 @@ VALUES (0x75876056, 51609, 0x587601AE, 290, -130, -17.971, 0.707107, 0, 0, -0.70
 /* @teleloc 0x587601AE [290.000000 -130.000000 -17.971001] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75876057, 51609, 0x5876015C, 190, -50, -17.971, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Corrupt Slayer */
-/* @teleloc 0x5876015C [190.000000 -50.000000 -17.971001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75876057, 51609, 0x5876015C, 190, -50, -17.971, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Corrupt Slayer */
+/* @teleloc 0x5876015C [190.000000 -50.000000 -17.971001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75876058, 51609, 0x5876017B, 210, -200, -17.971, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Corrupt Slayer */
@@ -385,8 +385,8 @@ VALUES (0x7587611E, 51663, 0x58760157, 179.848, -130, -17.9935, 0.707107, 0, 0, 
 /* @teleloc 0x58760157 [179.848007 -130.000000 -17.993500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75876122, 51661, 0x58760123, 100, -212.039, -41.9935, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Corrupt Gear Sentry */
-/* @teleloc 0x58760123 [100.000000 -212.039001 -41.993500] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75876122, 51661, 0x58760123, 100, -212.039, -41.9935, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Corrupt Gear Sentry */
+/* @teleloc 0x58760123 [100.000000 -212.039001 -41.993500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75876161, 51662, 0x5876021D, 270.977, -210.487, 6, -0.382684, 0, 0, -0.923879,  True, '2021-11-01 00:00:00'); /* Chorizite Chest */

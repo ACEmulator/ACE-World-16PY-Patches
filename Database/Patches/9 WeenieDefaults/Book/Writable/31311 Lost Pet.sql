@@ -27,6 +27,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31311, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31311, 0, 4294967295, 'Xsao Lann', '', False, '**REWARD**
+VALUES (31311, 0, 0xFFFFFFFF, 'Xsao Lann', '', False, '**REWARD**
 
 Lost pet. Responds to the name Darling. If you see her please contact Xsao Lann at 1.5N 71.6W.');

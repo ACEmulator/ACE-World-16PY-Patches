@@ -53,12 +53,12 @@ VALUES (0x7009F062, 36641, 0x009F01AB, 72.9767, -302.918, -30, 0.916787, 0, 0, 0
 /* @teleloc 0x009F01AB [72.976700 -302.917999 -30.000000] 0.916787 0.000000 0.000000 0.399376 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7009F06A, 36699, 0x009F01EC, 130, -217.435, -12.063, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Trial of the Arm */
-/* @teleloc 0x009F01EC [130.000000 -217.434998 -12.063000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7009F06A, 36699, 0x009F01EC, 130, -217.435, -12.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Trial of the Arm */
+/* @teleloc 0x009F01EC [130.000000 -217.434998 -12.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7009F06B, 30287, 0x009F0212, 70, -214.173, -6, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x009F0212 [70.000000 -214.173004 -6.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7009F06B, 30287, 0x009F0212, 70, -214.173, -6, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x009F0212 [70.000000 -214.173004 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009F06C,  4219, 0x009F01FF, 18, -299.75, -5.99, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
@@ -437,11 +437,11 @@ VALUES (0x7009F0F7, 87448, 0x009F010D, 99.7703, -61.2605, -53.945, -0.004502, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009F0F8, 87450, 0x009F0118, 113.931, -70.7809, -53.945, -0.01989, 0, 0, 0.999802, False, '2021-11-01 00:00:00'); /* Trial of the Heart Energy Cage Event Gen */
-/* @teleloc 0x009F0118 [113.931000 -70.780899 -53.945000] -0.019889 0.000000 0.000000 0.999802 */
+/* @teleloc 0x009F0118 [113.931000 -70.780899 -53.945000] -0.019890 0.000000 0.000000 0.999802 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009F0F9, 87451, 0x009F0118, 113.838, -68.4468, -53.945, -0.01989, 0, 0, 0.999802, False, '2021-11-01 00:00:00'); /* Trial of the Heart Lord Kresovus Event Gen */
-/* @teleloc 0x009F0118 [113.837997 -68.446800 -53.945000] -0.019889 0.000000 0.000000 0.999802 */
+/* @teleloc 0x009F0118 [113.837997 -68.446800 -53.945000] -0.019890 0.000000 0.000000 0.999802 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009F0FA, 87454, 0x009F0109, 100, -15.8021, -53.945, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Trials Graduation Wave 1 Gen */

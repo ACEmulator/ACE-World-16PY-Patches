@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x576E;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576E002, 45693, 0x576E0103, 10, -94.2518, -6, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x576E0103 [10.000000 -94.251801 -6.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7576E002, 45693, 0x576E0103, 10, -94.2518, -6, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x576E0103 [10.000000 -94.251801 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576E003, 45693, 0x576E0104, 10, -102.315, -6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
@@ -40,8 +40,8 @@ VALUES (0x7576E007, 45705, 0x576E017D, 70, -30, -0.5, 1, 0, 0, 0,  True, '2021-1
 /* @teleloc 0x576E017D [70.000000 -30.000000 -0.500000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576E008, 45705, 0x576E0182, 80, -10, -0.5, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Formless Shadow */
-/* @teleloc 0x576E0182 [80.000000 -10.000000 -0.500000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7576E008, 45705, 0x576E0182, 80, -10, -0.5, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Formless Shadow */
+/* @teleloc 0x576E0182 [80.000000 -10.000000 -0.500000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576E009, 43856, 0x576E016A, 50, -50.2412, 0.0065, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Panumbris Shadow */
@@ -52,8 +52,8 @@ VALUES (0x7576E00A, 45705, 0x576E016B, 50, -60, -0.5, 1, 0, 0, 0,  True, '2021-1
 /* @teleloc 0x576E016B [50.000000 -60.000000 -0.500000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576E00B, 45705, 0x576E0117, 40, -50, -6.5, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Formless Shadow */
-/* @teleloc 0x576E0117 [40.000000 -50.000000 -6.500000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7576E00B, 45705, 0x576E0117, 40, -50, -6.5, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Formless Shadow */
+/* @teleloc 0x576E0117 [40.000000 -50.000000 -6.500000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576E00C, 45705, 0x576E0160, 40, -50, -0.5, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Formless Shadow */

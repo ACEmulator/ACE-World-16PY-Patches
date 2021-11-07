@@ -129,4 +129,4 @@ VALUES (@parent_id,  0,  15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, 
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (72487, 0.5, 72492, 180, 1, 1, 1, 4, 0, 0, 0, 0x665E0162, 338.819, -160.8, -8.03281, 0.707107, 0, 0, -0.707107) /* Generate Vicar Blade Master (72492) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (72487, 1, 72492, 180, 1, 1, 1, 4, 0, 0, 0, 0x665E01E6, 299.386, -120.36, -5.97781, -0, 0, 0, -1) /* Generate Vicar Blade Master (72492) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (72487, 1, 72492, 180, 1, 1, 1, 4, 0, 0, 0, 0x665E01E6, 299.386, -120.36, -5.97781, 0, 0, 0, -1) /* Generate Vicar Blade Master (72492) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

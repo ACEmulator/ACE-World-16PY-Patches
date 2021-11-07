@@ -238,7 +238,7 @@ VALUES (0x7C7B7060, 35880, 0xC7B701C6, -65.277, 76.6988, 132.4, 0.853834, 0, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7B7061, 35880, 0xC7B701B6, -74.2848, 86.2327, 132.4, 0.044001, 0, 0, 0.999031,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Slasher */
-/* @teleloc 0xC7B701B6 [-74.284798 86.232697 132.399994] 0.044000 0.000000 0.000000 0.999031 */
+/* @teleloc 0xC7B701B6 [-74.284798 86.232697 132.399994] 0.044001 0.000000 0.000000 0.999031 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7B7062, 35880, 0xC7B701F3, -53.1063, 60.5666, 132.4, 0.559036, 0, 0, 0.829143,  True, '2021-11-01 00:00:00'); /* Paradox-touched Olthoi Slasher */

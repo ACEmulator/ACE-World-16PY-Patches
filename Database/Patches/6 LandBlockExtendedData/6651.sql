@@ -13,8 +13,8 @@ VALUES (0x76651002, 72473, 0x6651010B, 20.3677, -29.9893, 6.055, 0.707107, 0, 0,
 /* @teleloc 0x6651010B [20.367701 -29.989300 6.055000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76651003, 72473, 0x66510114, -0.000982, -20.0448, 18.055, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x66510114 [-0.000982 -20.044800 18.055000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x76651003, 72473, 0x66510114, -0.000982, -20.0448, 18.055, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x66510114 [-0.000982 -20.044800 18.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76651004, 15759, 0x6651011D, 11.9522, -10.7574, 24.055, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Item Generator */
@@ -112,20 +112,20 @@ VALUES (0x7665101A, 72474, 0x6651011D, 11.6, -13.3, 24.949, 0, 0, 0, -1,  True, 
 /* @teleloc 0x6651011D [11.600000 -13.300000 24.948999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7665101B, 46641, 0x6651011D, 8.04019, -13.3454, 24.8875, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Reinforced Shou-jen Jika-Tabi */
-/* @teleloc 0x6651011D [8.040190 -13.345400 24.887501] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7665101B, 46641, 0x6651011D, 8.04019, -13.3454, 24.8875, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Reinforced Shou-jen Jika-Tabi */
+/* @teleloc 0x6651011D [8.040190 -13.345400 24.887501] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7665101C, 46645, 0x6651011D, 10.58, -13.4715, 24.9225, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Reinforced Shou-jen Shozoku Mask */
-/* @teleloc 0x6651011D [10.580000 -13.471500 24.922501] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7665101C, 46645, 0x6651011D, 10.58, -13.4715, 24.9225, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Reinforced Shou-jen Shozoku Mask */
+/* @teleloc 0x6651011D [10.580000 -13.471500 24.922501] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7665101D, 48742, 0x66510118, 1.3, -4, 24.055, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Magic Chest */
-/* @teleloc 0x66510118 [1.300000 -4.000000 24.055000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7665101D, 48742, 0x66510118, 1.3, -4, 24.055, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Magic Chest */
+/* @teleloc 0x66510118 [1.300000 -4.000000 24.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7665101E, 48742, 0x66510118, 3.3, -4, 24.055, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Magic Chest */
-/* @teleloc 0x66510118 [3.300000 -4.000000 24.055000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7665101E, 48742, 0x66510118, 3.3, -4, 24.055, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Magic Chest */
+/* @teleloc 0x66510118 [3.300000 -4.000000 24.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7665101F, 48742, 0x66510118, 1.3, 4, 24.055, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Legendary Magic Chest */
@@ -136,20 +136,20 @@ VALUES (0x76651020, 48742, 0x66510118, 3.3, 4, 24.055, 1, 0, 0, 0, False, '2021-
 /* @teleloc 0x66510118 [3.300000 4.000000 24.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76651021, 48741, 0x6651011C, 6, -4, 24.055, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Armor Chest */
-/* @teleloc 0x6651011C [6.000000 -4.000000 24.055000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x76651021, 48741, 0x6651011C, 6, -4, 24.055, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Armor Chest */
+/* @teleloc 0x6651011C [6.000000 -4.000000 24.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76651022, 48741, 0x6651011C, 8, -4, 24.055, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Armor Chest */
-/* @teleloc 0x6651011C [8.000000 -4.000000 24.055000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x76651022, 48741, 0x6651011C, 8, -4, 24.055, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Armor Chest */
+/* @teleloc 0x6651011C [8.000000 -4.000000 24.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76651023, 48741, 0x6651011C, 10, -4, 24.055, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Armor Chest */
-/* @teleloc 0x6651011C [10.000000 -4.000000 24.055000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x76651023, 48741, 0x6651011C, 10, -4, 24.055, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Armor Chest */
+/* @teleloc 0x6651011C [10.000000 -4.000000 24.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76651024, 48741, 0x6651011C, 12, -4, 24.055, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Armor Chest */
-/* @teleloc 0x6651011C [12.000000 -4.000000 24.055000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x76651024, 48741, 0x6651011C, 12, -4, 24.055, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Armor Chest */
+/* @teleloc 0x6651011C [12.000000 -4.000000 24.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76651025, 48744, 0x6651011C, 6, 4, 24.055, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Legendary Weapon Chest */

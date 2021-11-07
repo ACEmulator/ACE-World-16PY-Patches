@@ -34,6 +34,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (29391, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29391, 0, 4294967295, 'General Corcima', 'prewritten', True, 'Captain Aurachon,
+VALUES (29391, 0, 0xFFFFFFFF, 'General Corcima', 'prewritten', True, 'Captain Aurachon,
 
 The King and I have entrusted you with perhaps the most sensitive of assignments. You will serve as our liaison with the Virindi, the Cloaked Wind. We are still uncertain of the motivations of these beings. You, as our most accomplished scholar, seem to have developed as much of a rapport with their envoys as seems possible. You must ensure that our portal network remains secure, and that all the other Captains have enough of the "portal gems" to keep in constant contact with me here at Castle Corcosa. Do not let me down, Captain.');

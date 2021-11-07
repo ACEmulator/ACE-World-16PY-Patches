@@ -1,23 +1,23 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40923;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40923, 'ace40923-boundspectralhandmaiden', 10, '2020-07-23 03:33:44') /* Creature */;
+VALUES (40923, 'ace40923-boundspectralhandmaiden', 10, '2021-11-07 08:12:46') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (40923,   1,      16) /* ItemType - Creature */
-     , (40923,   2,      77) /* CreatureType - Ghost */
-     , (40923,   3,       8) /* PaletteTemplate - Green */
-     , (40923,   6,      -1) /* ItemsCapacity */
-     , (40923,   7,      -1) /* ContainersCapacity */
-     , (40923,  16,       1) /* ItemUseable - No */
-     , (40923,  25,     215) /* Level */
-     , (40923,  27,       0) /* ArmorType - None */
-     , (40923,  40,       2) /* CombatMode - Melee */
-     , (40923,  68,       3) /* TargetingTactic - Random, Focused */
-     , (40923,  93,    1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (40923, 133,       2) /* ShowableOnRadar - ShowMovement */
-     , (40923, 140,       1) /* AiOptions - CanOpenDoors */
-     , (40923, 146, 1300000) /* XpOverride */;
+VALUES (40923,   1,         16) /* ItemType - Creature */
+     , (40923,   2,         77) /* CreatureType - Ghost */
+     , (40923,   3,          8) /* PaletteTemplate - Green */
+     , (40923,   6,         -1) /* ItemsCapacity */
+     , (40923,   7,         -1) /* ContainersCapacity */
+     , (40923,  16,          1) /* ItemUseable - No */
+     , (40923,  25,        215) /* Level */
+     , (40923,  27,          0) /* ArmorType - None */
+     , (40923,  40,          2) /* CombatMode - Melee */
+     , (40923,  68,          3) /* TargetingTactic - Random, Focused */
+     , (40923,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (40923, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (40923, 140,          1) /* AiOptions - CanOpenDoors */
+     , (40923, 146,    1300000) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40923,   1, True ) /* Stuck */
@@ -68,18 +68,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40923,   1, 'Bound Spectral Handmaiden') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40923,  1,  33558816) /* Setup */
-     , (40923,  2, 150995302) /* MotionTable */
-     , (40923,  3, 536871094) /* SoundTable */
-     , (40923,  4, 805306368) /* CombatTable */
-     , (40923,  6,  67115251) /* PaletteBase */
-     , (40923,  7, 268436835) /* ClothingBase */
-     , (40923,  8, 100676679) /* Icon */
-     , (40923, 22, 872415403) /* PhysicsEffectTable */;
+VALUES (40923,   1, 0x02001120) /* Setup */
+     , (40923,   2, 0x09000166) /* MotionTable */
+     , (40923,   3, 0x200000B6) /* SoundTable */
+     , (40923,   4, 0x30000000) /* CombatTable */
+     , (40923,   6, 0x040018F3) /* PaletteBase */
+     , (40923,   7, 0x10000563) /* ClothingBase */
+     , (40923,   8, 0x06003447) /* Icon */
+     , (40923,  22, 0x340000AB) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40923, 8040, 3052405035, 97.84459, -36.18274, -81.3868, 0.9959748, 0, 0, -0.08963408) /* PCAPRecordedLocation */
-/* @teleloc 0xB5F0012B [97.844590 -36.182740 -81.386800] 0.995975 0.000000 0.000000 -0.089634 */;
+VALUES (40923, 8040, 0xB5F0012B, 97.8446, -36.1827, -81.3868, 0.995975, 0, 0, -0.089634) /* PCAPRecordedLocation */
+/* @teleloc 0xB5F0012B [97.844597 -36.182701 -81.386803] 0.995975 0.000000 0.000000 -0.089634 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40923,   1, 350, 0, 0) /* Strength */
@@ -90,9 +90,9 @@ VALUES (40923,   1, 350, 0, 0) /* Strength */
      , (40923,   6, 340, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40923,   1,   390, 0, 0,  490) /* MaxHealth */
-     , (40923,   3,     0, 0, 0,  200) /* MaxStamina */
-     , (40923,   5,   350, 0, 0,  690) /* MaxMana */;
+VALUES (40923,   1,   390, 0, 0, 490) /* MaxHealth */
+     , (40923,   3,     0, 0, 0, 200) /* MaxStamina */
+     , (40923,   5,   350, 0, 0, 690) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (40923,  6, 0, 3, 0, 400, 0, 0) /* MeleeDefense        Specialized */
@@ -115,10 +115,10 @@ VALUES (40923,  0,  1,  0,    0,  250,  125,  125,  125,  125,  125,  125,  125,
      , (40923,  5,  8, 800, 0.75,  250,  125,  125,  125,  125,  125,  125,  125,    0, 2,    0,  0.2,  0.3,    0,  0.2,  0.2,    0,  0.2,    0,    0,  0.2,    0) /* Hand */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (40923, 3 /* Death */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (40923,  3 /* Death */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id, 0, 17 /* LocalBroadcast */, 0, 1, NULL, 'The Spectral Handmaiden shatters into deadly ice shards!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 1, 19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1787 /* Halo of Frost */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 1, NULL, 'The Spectral Handmaiden shatters into deadly ice shards!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1787 /* Halo of Frost */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

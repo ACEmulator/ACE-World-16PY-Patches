@@ -13,8 +13,8 @@ VALUES (0x75862025, 48799, 0x5862016F, 134.75, -140, -12, 0.707107, 0, 0, -0.707
 /* @teleloc 0x5862016F [134.750000 -140.000000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75862028, 48798, 0x5862038F, 240, -374.75, -0, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x5862038F [240.000000 -374.750000 -0.000000] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75862028, 48798, 0x5862038F, 240, -374.75, 0, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x5862038F [240.000000 -374.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586203D, 48742, 0x58620110, 268.033, -16.846, -30, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Legendary Magic Chest */
@@ -131,8 +131,8 @@ VALUES (0x75862077, 48763, 0x586201F2, 60, -390, -5.9975, 0.707107, 0, 0, -0.707
 /* @teleloc 0x586201F2 [60.000000 -390.000000 -5.997500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75862078, 48755, 0x586201E4, 50, -366.495, -5.99175, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Wight Frost Mage */
-/* @teleloc 0x586201E4 [50.000000 -366.494995 -5.991750] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75862078, 48755, 0x586201E4, 50, -366.495, -5.99175, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Wight Frost Mage */
+/* @teleloc 0x586201E4 [50.000000 -366.494995 -5.991750] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75862079, 48756, 0x586201E2, 50, -354.166, -5.99175, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Raging Wight */
@@ -151,8 +151,8 @@ VALUES (0x7586207C, 48755, 0x586201AF, 10, -300, -5.99175, 0, 0, 0, -1,  True, '
 /* @teleloc 0x586201AF [10.000000 -300.000000 -5.991750] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586207D, 48753, 0x586201DF, 51.1012, -329.227, -5.9768, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Roused Spirit */
-/* @teleloc 0x586201DF [51.101200 -329.226990 -5.976800] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7586207D, 48753, 0x586201DF, 51.1012, -329.227, -5.9768, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Roused Spirit */
+/* @teleloc 0x586201DF [51.101200 -329.226990 -5.976800] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586207E, 48756, 0x586201D7, 40, -300, -5.99175, 0.900447, 0, 0, 0.434966,  True, '2021-11-01 00:00:00'); /* Raging Wight */
@@ -261,8 +261,8 @@ VALUES (0x7586209A, 48796, 0x5862013A, 173.497, -70, -23.995, -0.707107, 0, 0, -
 /* @teleloc 0x5862013A [173.496994 -70.000000 -23.995001] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586209B, 48797, 0x5862010C, 262.52, -23.174, -29.995, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Grularr Wa'ydo */
-/* @teleloc 0x5862010C [262.519989 -23.174000 -29.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7586209B, 48797, 0x5862010C, 262.52, -23.174, -29.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Grularr Wa'ydo */
+/* @teleloc 0x5862010C [262.519989 -23.174000 -29.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586209C,  1542, 0x58620338, 85.9808, -277.447, 0, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Linkable Item Generator */

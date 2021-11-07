@@ -140,8 +140,8 @@ VALUES (0x702D6000, 0x702D6004, '2019-02-15 14:34:36') /* Vile Ruschk (28667) */
      , (0x702D6000, 0x702D6088, '2019-02-15 14:34:36') /* Cursed Bones (7178) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702D6001, 28787, 0x02D602D1, 9.90574, -70.4894, -0.063, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x02D602D1 [9.905740 -70.489403 -0.063000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702D6001, 28787, 0x02D602D1, 9.90574, -70.4894, -0.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x02D602D1 [9.905740 -70.489403 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D6002, 28787, 0x02D6025B, 333.137, -199.924, -12.063, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Surface */

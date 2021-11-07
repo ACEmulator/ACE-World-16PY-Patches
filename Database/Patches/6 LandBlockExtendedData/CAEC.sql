@@ -48,7 +48,7 @@ VALUES (0x7CAEC006, 38412, 0xCAEC01E1, 53.9174, 6.12825, 88, 0.711217, 0, 0, 0.7
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAEC007, 38412, 0xCAEC01D5, 72.1269, 13.7427, 82, 0.026534, 0, 0, 0.999648,  True, '2021-11-01 00:00:00'); /* Sclavus Acolyte of T'thuun */
-/* @teleloc 0xCAEC01D5 [72.126900 13.742700 82.000000] 0.026533 0.000000 0.000000 0.999648 */
+/* @teleloc 0xCAEC01D5 [72.126900 13.742700 82.000000] 0.026534 0.000000 0.000000 0.999648 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAEC008, 38412, 0xCAEC01D0, 82.0314, 26.1076, 82, 0.024874, 0, 0, 0.999691,  True, '2021-11-01 00:00:00'); /* Sclavus Acolyte of T'thuun */
@@ -115,8 +115,8 @@ VALUES (0x7CAEC017, 31901, 0xCAEC0120, 101.94, -18.966, 64, -0.999924, 0, 0, 0.0
 /* @teleloc 0xCAEC0120 [101.940002 -18.966000 64.000000] -0.999924 0.000000 0.000000 0.012313 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CAEC018, 31901, 0xCAEC0132, 142, -33.58, 70, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Fanatical Mukkir */
-/* @teleloc 0xCAEC0132 [142.000000 -33.580002 70.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7CAEC018, 31901, 0xCAEC0132, 142, -33.58, 70, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Fanatical Mukkir */
+/* @teleloc 0xCAEC0132 [142.000000 -33.580002 70.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAEC019, 31901, 0xCAEC0157, 102, -3.58001, 70, 0.734547, 0, 0, -0.678557,  True, '2021-11-01 00:00:00'); /* Fanatical Mukkir */

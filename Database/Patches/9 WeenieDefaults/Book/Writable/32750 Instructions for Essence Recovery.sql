@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (32750, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (32750, 0, 4294967295, 'Ciandra, Arcanum Alchemist', '', False, 'Instructions:
+VALUES (32750, 0, 0xFFFFFFFF, 'Ciandra, Arcanum Alchemist', '', False, 'Instructions:
 Travel to the Arcanum Research Facility outside of Al-Jalima and collect four Enchanted Decanters.
 
 Important Note: Do not use the Nullified Essence potion that Ciandra gives you if you wish to fight the Essences. The Essence Chamber is inaccessible once the Harbinger''s link to them is broken by the Nullification Barrier the potion creates.

@@ -33,5 +33,5 @@ VALUES (0x7C9E33EF, 32051, 0xC9E30015, 55.4592, 97.332, 24.0055, 0.00329, 0, 0, 
 /* @teleloc 0xC9E30015 [55.459202 97.332001 24.005501] 0.003290 0.000000 0.000000 0.999995 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C9E33F0,  8377, 0xC9E3000B, 28.247, 55.475, 14.81, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Beer Keg */
-/* @teleloc 0xC9E3000B [28.247000 55.474998 14.810000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7C9E33F0,  8377, 0xC9E3000B, 28.247, 55.475, 14.81, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Beer Keg */
+/* @teleloc 0xC9E3000B [28.247000 55.474998 14.810000] 0.000000 0.000000 0.000000 -1.000000 */

@@ -30,4 +30,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (49618, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (49618, 0, 4294967295, 'Gerloc the Defender', 'prewritten', False, 'Grevena, Gersan and myself have moved to Al-Arqas. To continue our search for gems of great power, we have traveled to a more stable location.');
+VALUES (49618, 0, 0xFFFFFFFF, 'Gerloc the Defender', 'prewritten', False, 'Grevena, Gersan and myself have moved to Al-Arqas. To continue our search for gems of great power, we have traveled to a more stable location.');

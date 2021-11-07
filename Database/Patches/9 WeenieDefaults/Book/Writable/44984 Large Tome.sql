@@ -34,4 +34,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (44984, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (44984, 0, 4294967295, 'Unknown', '', True, '[You cannot translate this text]');
+VALUES (44984, 0, 0xFFFFFFFF, 'Unknown', '', True, '[You cannot translate this text]');

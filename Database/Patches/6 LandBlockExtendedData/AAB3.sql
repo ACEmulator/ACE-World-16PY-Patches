@@ -44,7 +44,7 @@ VALUES (0x7AAB3007, 0x7AAB3006, '2005-02-09 10:00:00') /* Sentry (12725) */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB3008, 27268, 0xAAB30000, 33.1758, 82.3987, 124.805, 0.999938, 0, 0, -0.01112,  True, '2021-11-01 00:00:00'); /* Aun Kielerea */
-/* @teleloc 0xAAB30000 [33.175800 82.398697 124.805000] 0.999938 0.000000 0.000000 -0.011119 */
+/* @teleloc 0xAAB30000 [33.175800 82.398697 124.805000] 0.999938 0.000000 0.000000 -0.011120 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB3009,  3955, 0xAAB30000, 33.4366, 80.6756, 124.805, 0.934569, 0, 0, -0.355783, False, '2021-11-01 00:00:00'); /* Linkable Monster Gen (15 min.) */

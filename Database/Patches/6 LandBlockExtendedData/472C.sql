@@ -30,7 +30,7 @@ VALUES (0x7472C1D0, 72220, 0x472C001B, 91.6084, 57.5633, 3.64888, 0.951731, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7472C1D1, 72223, 0x472C0014, 69.1435, 74.9034, 6.29304, 0.996813, 0, 0, -0.079776, False, '2021-11-01 00:00:00'); /* GY Night Pyre Skeleton Camp Gen */
-/* @teleloc 0x472C0014 [69.143501 74.903397 6.293040] 0.996813 0.000000 0.000000 -0.079775 */
+/* @teleloc 0x472C0014 [69.143501 74.903397 6.293040] 0.996813 0.000000 0.000000 -0.079776 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7472C1D2, 72220, 0x472C0014, 58.4956, 83.6135, 7.18037, 0.997534, 0, 0, -0.07018, False, '2021-11-01 00:00:00'); /* GY Day Rat Camp Gen */

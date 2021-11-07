@@ -69,16 +69,16 @@ VALUES (0x7BB9F011, 38447, 0xBB9F0114, 133.898, 105.626, 63.655, -0.707107, 0, 0
 /* @teleloc 0xBB9F0114 [133.897995 105.625999 63.654999] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9F012, 38443, 0xBB9F0114, 137.941, 102.495, 63.655, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Mixed Equipment Chest */
-/* @teleloc 0xBB9F0114 [137.940994 102.495003 63.654999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7BB9F012, 38443, 0xBB9F0114, 137.941, 102.495, 63.655, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Mixed Equipment Chest */
+/* @teleloc 0xBB9F0114 [137.940994 102.495003 63.654999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9F013, 38443, 0xBB9F0114, 135.965, 102.474, 63.655, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Mixed Equipment Chest */
-/* @teleloc 0xBB9F0114 [135.964996 102.473999 63.654999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7BB9F013, 38443, 0xBB9F0114, 135.965, 102.474, 63.655, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Mixed Equipment Chest */
+/* @teleloc 0xBB9F0114 [135.964996 102.473999 63.654999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9F014, 38443, 0xBB9F0114, 139.847, 102.502, 63.655, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Mixed Equipment Chest */
-/* @teleloc 0xBB9F0114 [139.847000 102.501999 63.654999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7BB9F014, 38443, 0xBB9F0114, 139.847, 102.502, 63.655, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Mixed Equipment Chest */
+/* @teleloc 0xBB9F0114 [139.847000 102.501999 63.654999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB9F015, 38445, 0xBB9F0114, 147.261, 102.592, 63.655, 0.007779, 0, 0, 0.99997, False, '2021-11-01 00:00:00'); /* Mana Forge Magic Chest */

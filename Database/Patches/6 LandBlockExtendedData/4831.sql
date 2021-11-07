@@ -124,8 +124,8 @@ VALUES (0x74831017, 38009, 0x48310036, 160.863, 125.582, 1.81665, -0.517204, 0, 
 /* @teleloc 0x48310036 [160.863007 125.582001 1.816650] -0.517204 0.000000 0.000000 0.855862 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74831018, 38012, 0x48310037, 156.342, 159.178, 0.072, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* K'nath Mother */
-/* @teleloc 0x48310037 [156.341995 159.177994 0.072000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x74831018, 38012, 0x48310037, 156.342, 159.178, 0.072, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* K'nath Mother */
+/* @teleloc 0x48310037 [156.341995 159.177994 0.072000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74831019, 38010, 0x4831003E, 188.731, 134.93, 0.0324, -0.996664, 0, 0, 0.081609,  True, '2021-11-01 00:00:00'); /* K'nath R'ajed */

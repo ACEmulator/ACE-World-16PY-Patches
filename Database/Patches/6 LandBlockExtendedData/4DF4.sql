@@ -24,4 +24,4 @@ VALUES (0x74DF4004, 33513, 0x4DF40100, 60.124, 146.761, -5.1934, -0.033028, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74DF4005, 28660, 0x4DF40016, 58.9527, 126.552, 0.004018, 0.027626, 0, 0, 0.999618,  True, '2021-11-01 00:00:00'); /* Uber Penguin */
-/* @teleloc 0x4DF40016 [58.952702 126.552002 0.004018] 0.027625 0.000000 0.000000 0.999618 */
+/* @teleloc 0x4DF40016 [58.952702 126.552002 0.004018] 0.027626 0.000000 0.000000 0.999618 */
