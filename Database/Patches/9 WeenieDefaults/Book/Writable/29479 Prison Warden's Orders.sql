@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (29479, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29479, 0, 4294967295, 'King Varicci II', 'prewritten', True, 'Warden,
+VALUES (29479, 0, 0xFFFFFFFF, 'King Varicci II', 'prewritten', True, 'Warden,
 
 If it truly is the assassin Oswald that you have captured, and I am reluctant to believe so until I have throttled him with my own hands, then guard him most carefully. If my spies are to be believed, he is as legendary an infiltrator and killer on this world as he was on the previous one. He seems, in fact, to have picked up even more talents. But do make sure he is held there until I can visit and interview him myself. I would dearly love to know how exactly he wormed through our defenses at the royal castle back in Viamont. I would also like to know if he has any remaining ties to the wretched Bellenesse.')
-     , (29479, 1, 4294967295, 'King Varicci II', 'prewritten', True, 'Hold him in your most secure cell, and keep the torture chamber and Eater pit ready.');
+     , (29479, 1, 0xFFFFFFFF, 'King Varicci II', 'prewritten', True, 'Hold him in your most secure cell, and keep the torture chamber and Eater pit ready.');

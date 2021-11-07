@@ -7,7 +7,7 @@ INSERT INTO `recipe_requirements_int` (`recipe_Id`, `index`, `stat`, `value`, `e
 VALUES (6172, 0, 179, 536870912, 3, 'This weapon has already been empowered with the Fetish of the Dark Idols!') /* Target.ImbuedEffect - IgnoreSomeMagicProjectileDamage GreaterThanEqual 536870912 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (6172, True, 0, 0, 0, False, 939524166, 1, 0);
+VALUES (6172, True, 0, 0, 0, False, 0x38000046, 1, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 

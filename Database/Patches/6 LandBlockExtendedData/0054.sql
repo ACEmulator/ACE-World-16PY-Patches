@@ -135,8 +135,8 @@ VALUES (0x7005406B, 33130, 0x005404B5, 100, -450, -30, 1, 0, 0, 0,  True, '2021-
 /* @teleloc 0x005404B5 [100.000000 -450.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005406C, 33038, 0x005404C1, 99.452, -487.087, -30, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Coruscating Mukkir */
-/* @teleloc 0x005404C1 [99.452003 -487.087006 -30.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7005406C, 33038, 0x005404C1, 99.452, -487.087, -30, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Coruscating Mukkir */
+/* @teleloc 0x005404C1 [99.452003 -487.087006 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7005406D, 31897, 0x005404A4, 99.7534, -412.967, -30, 0.04578, 0, 0, -0.998952,  True, '2021-11-01 00:00:00'); /* Barbaric Mukkir */
@@ -195,8 +195,8 @@ VALUES (0x7005407A, 31897, 0x00540201, 170, -220, -66, 0.385543, 0, 0, 0.92269, 
 /* @teleloc 0x00540201 [170.000000 -220.000000 -66.000000] 0.385543 0.000000 0.000000 0.922690 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005407B, 33539, 0x0054033F, 160, -199.917, -59.9934, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Decaying Ruschk Laktar */
-/* @teleloc 0x0054033F [160.000000 -199.917007 -59.993401] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7005407B, 33539, 0x0054033F, 160, -199.917, -59.9934, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Decaying Ruschk Laktar */
+/* @teleloc 0x0054033F [160.000000 -199.917007 -59.993401] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7005407C, 33539, 0x005402F5, 130, -200, -59.9934, 0.020795, 0, 0, -0.999784,  True, '2021-11-01 00:00:00'); /* Decaying Ruschk Laktar */

@@ -61,8 +61,8 @@ VALUES (0x7011C00E, 23091, 0x011C0124, 103.239, -132.723, -41.995, -0.809044, 0,
 /* @teleloc 0x011C0124 [103.238998 -132.723007 -41.994999] -0.809044 0.000000 0.000000 -0.587749 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011C00F,  6115, 0x011C012E, 20, -69, -35.995, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x011C012E [20.000000 -69.000000 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7011C00F,  6115, 0x011C012E, 20, -69, -35.995, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x011C012E [20.000000 -69.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011C010, 23091, 0x011C013C, 52.0077, -60.3417, -35.995, 0.73699, 0, 0, -0.675903,  True, '2021-11-01 00:00:00'); /* Shadow Wraith */
@@ -205,8 +205,8 @@ VALUES (0x7011C032, 23091, 0x011C025D, 190.133, -88.0104, -35.995, -0.999481, 0,
 /* @teleloc 0x011C025D [190.132996 -88.010399 -35.994999] -0.999481 0.000000 0.000000 -0.032207 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011C033,  1947, 0x011C025E, 190, -101, -35.995, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chest */
-/* @teleloc 0x011C025E [190.000000 -101.000000 -35.994999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7011C033,  1947, 0x011C025E, 190, -101, -35.995, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chest */
+/* @teleloc 0x011C025E [190.000000 -101.000000 -35.994999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011C034, 23091, 0x011C025E, 190.285, -96.3128, -35.995, -0.995513, 0, 0, 0.094626,  True, '2021-11-01 00:00:00'); /* Shadow Wraith */

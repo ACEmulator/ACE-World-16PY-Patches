@@ -30,7 +30,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (38338, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (38338, 0, 4294967295, '', 'prewritten', False, 'In the Dark Season, 585 spawn were set forth into the pools to be blessed by the Whispering One. During the Dark Season when the spawns were set forth, 2 spawn out of every 5 spawn that were set into the pools were weak and destroyed by their siblings. Of those strong spawn that survived, for every 3 spawn that remained in the pools, the Whispering One demanded 2 be sacrificed to his glory.
+VALUES (38338, 0, 0xFFFFFFFF, '', 'prewritten', False, 'In the Dark Season, 585 spawn were set forth into the pools to be blessed by the Whispering One. During the Dark Season when the spawns were set forth, 2 spawn out of every 5 spawn that were set into the pools were weak and destroyed by their siblings. Of those strong spawn that survived, for every 3 spawn that remained in the pools, the Whispering One demanded 2 be sacrificed to his glory.
 
 Know how many spawn survived and you will know where the staff must be placed.
 ');

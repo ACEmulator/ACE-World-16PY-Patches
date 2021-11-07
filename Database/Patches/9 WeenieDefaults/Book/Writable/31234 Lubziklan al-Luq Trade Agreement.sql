@@ -38,7 +38,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31234, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31234, 0, 4294967295, 'Lubziklan al-Luq', 'prewritten', True, 'Greetings and salutations Anton Sillezi
+VALUES (31234, 0, 0xFFFFFFFF, 'Lubziklan al-Luq', 'prewritten', True, 'Greetings and salutations Anton Sillezi
 
 I most graciously accept your offer of a trade alliance. Preparations for my first shipment of Cove Apple Wine are underway as we speak.
 

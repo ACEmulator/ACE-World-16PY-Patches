@@ -181,15 +181,15 @@ VALUES (0x700A0018, 22910, 0x00A00192, 48.9877, -52.7172, -5.9935, 0.077291, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A0019, 22910, 0x00A00186, 31.9257, -63.9144, -5.9935, 0.999861, 0, 0, -0.016687,  True, '2021-11-01 00:00:00'); /* Pandemonium Shadow */
-/* @teleloc 0x00A00186 [31.925699 -63.914398 -5.993500] 0.999861 0.000000 0.000000 -0.016686 */
+/* @teleloc 0x00A00186 [31.925699 -63.914398 -5.993500] 0.999861 0.000000 0.000000 -0.016687 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A001A, 22910, 0x00A00187, 31.7914, -67.9355, -5.9935, 0.999861, 0, 0, -0.016687,  True, '2021-11-01 00:00:00'); /* Pandemonium Shadow */
-/* @teleloc 0x00A00187 [31.791401 -67.935501 -5.993500] 0.999861 0.000000 0.000000 -0.016686 */
+/* @teleloc 0x00A00187 [31.791401 -67.935501 -5.993500] 0.999861 0.000000 0.000000 -0.016687 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A001B, 22910, 0x00A00187, 27.3279, -68.4356, -5.9935, 0.999861, 0, 0, -0.016687,  True, '2021-11-01 00:00:00'); /* Pandemonium Shadow */
-/* @teleloc 0x00A00187 [27.327900 -68.435600 -5.993500] 0.999861 0.000000 0.000000 -0.016686 */
+/* @teleloc 0x00A00187 [27.327900 -68.435600 -5.993500] 0.999861 0.000000 0.000000 -0.016687 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A001C, 22910, 0x00A0017A, 22.9966, -67.7898, -5.9935, 0.9983, 0, 0, 0.05828,  True, '2021-11-01 00:00:00'); /* Pandemonium Shadow */

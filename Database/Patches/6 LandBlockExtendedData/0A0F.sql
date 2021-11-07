@@ -33,8 +33,8 @@ VALUES (0x70A0F001,   412, 0x0A0F0107, 130.24, 60.95, 223.403, 0.707107, 0, 0, -
 /* @teleloc 0x0A0F0107 [130.240005 60.950001 223.403000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70A0F002, 31411, 0x0A0F0033, 156, 59.989, 281, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Nightmare Gate */
-/* @teleloc 0x0A0F0033 [156.000000 59.988998 281.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70A0F002, 31411, 0x0A0F0033, 156, 59.989, 281, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Nightmare Gate */
+/* @teleloc 0x0A0F0033 [156.000000 59.988998 281.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70A0F003, 32584, 0x0A0F0027, 113.812, 152.044, 247.565, -0.483938, 0, 0, -0.875102, False, '2021-11-01 00:00:00'); /* Repository */

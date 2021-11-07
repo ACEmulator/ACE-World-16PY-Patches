@@ -72,12 +72,12 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x70037001, 0x70037004, '2019-03-23 02:20:17') /* Untranslated Dreams of Salt and Ash (31426) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70037002, 31433, 0x003701AE, 20, -8, -0.063, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x003701AE [20.000000 -8.000000 -0.063000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70037002, 31433, 0x003701AE, 20, -8, -0.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x003701AE [20.000000 -8.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70037003, 31433, 0x00370310, 450, -450, 23.937, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x00370310 [450.000000 -450.000000 23.937000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70037003, 31433, 0x00370310, 450, -450, 23.937, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x00370310 [450.000000 -450.000000 23.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70037004, 31426, 0x003703E7, 431.052, -350.412, 42.005, 0.015521, 0, 0, 0.99988,  True, '2021-11-01 00:00:00'); /* Untranslated Dreams of Salt and Ash */

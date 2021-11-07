@@ -30,6 +30,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (80078, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (80078, 0, 4294967295, 'Pon Mi', 'prewritten', False, '
+VALUES (80078, 0, 0xFFFFFFFF, 'Pon Mi', 'prewritten', False, '
 I just want to apologize to Ji''s mom and Fushido''s mom and my mom and I''m sorry to everyone. I thought that we could make a quick pyreal by stealing some baking supplies and combining them with that mucor stuff to make really tasty food, and we could blame the theft on the Tanada. I didn''t realize that combining mucor with food supplies would do what it did, make so many monsters. I didn''t realize that the Tanada would take things so seriously, and keep killing us time after time after time. I didn''t realize that Chow Doun would send adventurer after adventurer after me to try to reclaim his supplies, even though he''s already received my confession countless times. Please stop killing me.
 ');

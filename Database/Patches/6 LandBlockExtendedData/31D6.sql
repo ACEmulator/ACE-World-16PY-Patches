@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x31D6;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x731D6000,   412, 0x31D6014B, 28.7737, 132.974, 90.082, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x31D6014B [28.773701 132.973999 90.082001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x731D6000,   412, 0x31D6014B, 28.7737, 132.974, 90.082, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x31D6014B [28.773701 132.973999 90.082001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x731D6001,   412, 0x31D60142, 28.7862, 112.01, 90.082, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
@@ -29,8 +29,8 @@ VALUES (0x731D6006,  1286, 0x31D60119, 104.919, 116.06, 90.082, -0.707107, 0, 0,
 /* @teleloc 0x31D60119 [104.918999 116.059998 90.082001] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x731D6007,  1286, 0x31D60106, 115.193, 132.974, 90.082, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x31D60106 [115.193001 132.973999 90.082001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x731D6007,  1286, 0x31D60106, 115.193, 132.974, 90.082, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x31D60106 [115.193001 132.973999 90.082001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x731D6008, 28713, 0x31D6000D, 44, 98, 79.937, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Viamontian Torture Chamber */

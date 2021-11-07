@@ -21,8 +21,8 @@ VALUES (0x75954004, 72076, 0x595402AE, 240.359, -129.895, -42, 0.707107, 0, 0, 0
 /* @teleloc 0x595402AE [240.358994 -129.895004 -42.000000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7595400F, 51822, 0x59540818, 360, -175.974, -0.063, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x59540818 [360.000000 -175.973999 -0.063000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7595400F, 51822, 0x59540818, 360, -175.974, -0.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x59540818 [360.000000 -175.973999 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75954010, 51822, 0x5954015D, 113.953, -60, -42.063, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Surface */
@@ -153,8 +153,8 @@ VALUES (0x7595403C, 72076, 0x5954059C, 279.808, -60.2577, -29.971, -0.784914, 0,
 /* @teleloc 0x5954059C [279.808014 -60.257702 -29.971001] -0.784914 0.000000 0.000000 -0.619604 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7595403D, 72076, 0x595401B3, 170, -79.7155, -41.971, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
-/* @teleloc 0x595401B3 [170.000000 -79.715500 -41.971001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7595403D, 72076, 0x595401B3, 170, -79.7155, -41.971, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
+/* @teleloc 0x595401B3 [170.000000 -79.715500 -41.971001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7595403E, 72076, 0x59540232, 205.643, -80.2592, -42, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
@@ -189,12 +189,12 @@ VALUES (0x75954047, 72076, 0x595404BD, 190.035, -70.4476, -29.971, -0.999226, 0,
 /* @teleloc 0x595404BD [190.035004 -70.447601 -29.971001] -0.999226 0.000000 0.000000 -0.039346 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75954048, 72076, 0x595401EB, 193.105, -40.0912, -42, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
-/* @teleloc 0x595401EB [193.104996 -40.091202 -42.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75954048, 72076, 0x595401EB, 193.105, -40.0912, -42, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
+/* @teleloc 0x595401EB [193.104996 -40.091202 -42.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7595404A, 72076, 0x5954021B, 200, -99.7155, -41.971, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
-/* @teleloc 0x5954021B [200.000000 -99.715500 -41.971001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7595404A, 72076, 0x5954021B, 200, -99.7155, -41.971, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
+/* @teleloc 0x5954021B [200.000000 -99.715500 -41.971001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7595404B, 72076, 0x59540285, 230, -110, -41.971, -0.930995, 0, 0, -0.365031, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
@@ -209,8 +209,8 @@ VALUES (0x7595404D, 72076, 0x59540443, 140.387, -129.99, -29.9925, -0.698137, 0,
 /* @teleloc 0x59540443 [140.386993 -129.990005 -29.992500] -0.698137 0.000000 0.000000 -0.715964 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7595404E, 72076, 0x5954016C, 130.181, -119.719, -41.9925, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
-/* @teleloc 0x5954016C [130.181000 -119.719002 -41.992500] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7595404E, 72076, 0x5954016C, 130.181, -119.719, -41.9925, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
+/* @teleloc 0x5954016C [130.181000 -119.719002 -41.992500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7595404F, 72076, 0x595407DD, 300.209, -159.977, 0.0075, -0.666763, 0, 0, -0.745269, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
@@ -237,8 +237,8 @@ VALUES (0x75954054, 72076, 0x5954018B, 150, -140, -41.971, -0.957143, 0, 0, -0.2
 /* @teleloc 0x5954018B [150.000000 -140.000000 -41.971001] -0.957143 0.000000 0.000000 -0.289615 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75954055, 72076, 0x5954016B, 130, -110, -41.971, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
-/* @teleloc 0x5954016B [130.000000 -110.000000 -41.971001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75954055, 72076, 0x5954016B, 130, -110, -41.971, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
+/* @teleloc 0x5954016B [130.000000 -110.000000 -41.971001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75954064, 30764, 0x59540113, 30, -40, -48, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* "Mag-Ma!" */
@@ -249,8 +249,8 @@ VALUES (0x75954065, 30764, 0x59540104, 20, -40, -48, 1, 0, 0, 0, False, '2021-11
 /* @teleloc 0x59540104 [20.000000 -40.000000 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75954066, 30764, 0x59540118, 40, -40, -48, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* "Mag-Ma!" */
-/* @teleloc 0x59540118 [40.000000 -40.000000 -48.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75954066, 30764, 0x59540118, 40, -40, -48, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* "Mag-Ma!" */
+/* @teleloc 0x59540118 [40.000000 -40.000000 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75954067, 30764, 0x59540112, 30, -30, -48, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* "Mag-Ma!" */
@@ -281,8 +281,8 @@ VALUES (0x7595406D, 30764, 0x59540100, 20, -10, -48, 1, 0, 0, 0, False, '2021-11
 /* @teleloc 0x59540100 [20.000000 -10.000000 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7595406E, 30764, 0x59540105, 30, 0, -48, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* "Mag-Ma!" */
-/* @teleloc 0x59540105 [30.000000 0.000000 -48.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7595406E, 30764, 0x59540105, 30, 0, -48, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* "Mag-Ma!" */
+/* @teleloc 0x59540105 [30.000000 0.000000 -48.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759540AA, 48744, 0x59540146, 44.1857, -8.73504, -42, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Legendary Weapon Chest */
@@ -399,12 +399,12 @@ VALUES (0x75954182, 51990, 0x59540147, 43.4083, -19.9002, -41.9, -0.707107, 0, 0
 /* @teleloc 0x59540147 [43.408298 -19.900200 -41.900002] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75954183, 51991, 0x59540147, 40.0392, -22.6486, -41.9, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Nether-attuned Rynthid Tentacle Wand */
-/* @teleloc 0x59540147 [40.039200 -22.648600 -41.900002] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75954183, 51991, 0x59540147, 40.0392, -22.6486, -41.9, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Nether-attuned Rynthid Tentacle Wand */
+/* @teleloc 0x59540147 [40.039200 -22.648600 -41.900002] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75954184, 51988, 0x59540147, 40, -16.9495, -41.9, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Rynthid Tentacle Bow */
-/* @teleloc 0x59540147 [40.000000 -16.949499 -41.900002] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75954184, 51988, 0x59540147, 40, -16.9495, -41.9, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Rynthid Tentacle Bow */
+/* @teleloc 0x59540147 [40.000000 -16.949499 -41.900002] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75954185, 52010, 0x59540132, 33.1989, -6.74712, -41.976, -0.923613, 0, 0, 0.383326,  True, '2021-11-01 00:00:00'); /* Legendary Key */
@@ -503,12 +503,12 @@ VALUES (0x7595419C, 72076, 0x59540626, 129.921, -179.996, -23.945, 0.707107, 0, 
 /* @teleloc 0x59540626 [129.921005 -179.996002 -23.945000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7595419D, 72076, 0x595405FA, 109.903, -160.643, -23.945, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
-/* @teleloc 0x595405FA [109.903000 -160.643005 -23.945000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7595419D, 72076, 0x595405FA, 109.903, -160.643, -23.945, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
+/* @teleloc 0x595405FA [109.903000 -160.643005 -23.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7595419E, 72076, 0x595405F7, 109.997, -133.001, -23.945, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
-/* @teleloc 0x595405F7 [109.997002 -133.001007 -23.945000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7595419E, 72076, 0x595405F7, 109.997, -133.001, -23.945, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
+/* @teleloc 0x595405F7 [109.997002 -133.001007 -23.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7595419F, 72076, 0x59540619, 132.995, -139.944, -23.945, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
@@ -540,7 +540,7 @@ VALUES (0x759541A5, 72076, 0x595403DD, 110.118, -120.317, -29.945, 0.005182, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759541A6, 72076, 0x595403CE, 109.831, -90.1701, -29.945, -0.002766, 0, 0, 0.999996, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
-/* @teleloc 0x595403CE [109.831001 -90.170097 -29.945000] -0.002765 0.000000 0.000000 0.999996 */
+/* @teleloc 0x595403CE [109.831001 -90.170097 -29.945000] -0.002766 0.000000 0.000000 0.999996 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759541A7, 72076, 0x59540529, 229.993, -109.376, -29.945, -0.999999, 0, 0, -0.001158, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
@@ -567,8 +567,8 @@ VALUES (0x759541AC, 72076, 0x5954050D, 223.641, -66.2738, -29.945, -0.909618, 0,
 /* @teleloc 0x5954050D [223.641006 -66.273804 -29.945000] -0.909618 0.000000 0.000000 0.415445 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x759541AD, 72076, 0x5954059D, 279.942, -70.9081, -29.945, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
-/* @teleloc 0x5954059D [279.941986 -70.908096 -29.945000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x759541AD, 72076, 0x5954059D, 279.942, -70.9081, -29.945, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
+/* @teleloc 0x5954059D [279.941986 -70.908096 -29.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759541AE, 72076, 0x59540244, 219.629, -40.0499, -41.945, 0.707376, 0, 0, -0.706838, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
@@ -624,8 +624,8 @@ VALUES (0x759541B9, 51984, 0x5954015E, 122.745, -53.5149, -41.971, 0.199519, 0, 
 /* @teleloc 0x5954015E [122.745003 -53.514900 -41.971001] 0.199519 0.000000 0.000000 -0.979894 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x759541BC, 72076, 0x595403EE, 109.542, -169.999, -29.945, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
-/* @teleloc 0x595403EE [109.542000 -169.998993 -29.945000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x759541BC, 72076, 0x595403EE, 109.542, -169.999, -29.945, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
+/* @teleloc 0x595403EE [109.542000 -169.998993 -29.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759541BD, 72076, 0x595403AA, 89.8525, -169.742, -29.945, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
@@ -636,16 +636,16 @@ VALUES (0x759541BE, 72076, 0x59540381, 69.8664, -159.718, -29.945, 1, 0, 0, 0, F
 /* @teleloc 0x59540381 [69.866402 -159.718002 -29.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x759541BF, 72076, 0x5954039D, 90.0455, -117.859, -29.945, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
-/* @teleloc 0x5954039D [90.045502 -117.859001 -29.945000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x759541BF, 72076, 0x5954039D, 90.0455, -117.859, -29.945, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
+/* @teleloc 0x5954039D [90.045502 -117.859001 -29.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x759541C0, 72076, 0x5954039A, 90.0164, -91.6023, -29.945, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
-/* @teleloc 0x5954039A [90.016403 -91.602303 -29.945000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x759541C0, 72076, 0x5954039A, 90.0164, -91.6023, -29.945, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
+/* @teleloc 0x5954039A [90.016403 -91.602303 -29.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x759541C1, 72076, 0x595403FC, 119.996, -60.5656, -29.945, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
-/* @teleloc 0x595403FC [119.996002 -60.565601 -29.945000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x759541C1, 72076, 0x595403FC, 119.996, -60.5656, -29.945, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Torment Dungeon Gen */
+/* @teleloc 0x595403FC [119.996002 -60.565601 -29.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759541C3, 72077, 0x59540517, 220.069, -134.097, -30, 1, 0, 0, 0, False, '2021-11-01 00:00:00');

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46629;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46629, 'ace46629-greaterdeadlylightningarrow', 5, '2021-11-01 00:00:00') /* Ammunition */;
+VALUES (46629, 'ace46629-greaterdeadlylightningarrow', 5, '2021-11-07 08:12:46') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46629,   1,        256) /* ItemType - MissileWeapon */
@@ -17,6 +17,7 @@ VALUES (46629,   1,        256) /* ItemType - MissileWeapon */
      , (46629,  19,          1) /* Value */
      , (46629,  33,         -2) /* Bonded - Destroy */
      , (46629,  44,         40) /* Damage */
+     , (46629,  45,         64) /* DamageType - Electric */
      , (46629,  50,          1) /* AmmoType - Arrow */
      , (46629,  51,          3) /* CombatUse - Ammo */
      , (46629,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */

@@ -20,7 +20,7 @@ VALUES (0x740E8000, 0x740E8002, '2019-02-15 14:34:36') /* Platinum Legion Castle
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740E8001,  1032, 0x40E8001D, 80, 104, 199.79, 0.999798, 0, 0, -0.020114, False, '2021-11-01 00:00:00'); /* Destroyed Portal to Zaikhal */
-/* @teleloc 0x40E8001D [80.000000 104.000000 199.789993] 0.999798 0.000000 0.000000 -0.020113 */
+/* @teleloc 0x40E8001D [80.000000 104.000000 199.789993] 0.999798 0.000000 0.000000 -0.020114 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740E8002, 29410, 0x40E80025, 104.292, 98.2253, 200.005, -0.030333, 0, 0, -0.99954,  True, '2021-11-01 00:00:00'); /* Platinum Legion Castle Guard */

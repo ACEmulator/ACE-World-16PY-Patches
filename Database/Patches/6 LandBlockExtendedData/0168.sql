@@ -9,8 +9,8 @@ VALUES (0x70168001, 22933, 0x01680104, 8.61491, -68.4458, -5.99668, -0.932285, 0
 /* @teleloc 0x01680104 [8.614910 -68.445801 -5.996680] -0.932285 0.000000 0.000000 -0.361724 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70168002,  1400, 0x01680104, 7.81592, -69.4865, -6, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Item Fish Generator */
-/* @teleloc 0x01680104 [7.815920 -69.486504 -6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70168002,  1400, 0x01680104, 7.81592, -69.4865, -6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Item Fish Generator */
+/* @teleloc 0x01680104 [7.815920 -69.486504 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70168003, 22933, 0x0168010D, 50.0576, -119.993, -5.5685, -0.997654, 0, 0, -0.068455,  True, '2021-11-01 00:00:00'); /* Mist Golem */
@@ -89,8 +89,8 @@ VALUES (0x70168015, 22933, 0x01680156, 58.6255, -62.7029, 0.003325, 0.91965, 0, 
 /* @teleloc 0x01680156 [58.625500 -62.702900 0.003325] 0.919650 0.000000 0.000000 -0.392738 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70168016,   165, 0x01680156, 60, -60, 0.05, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Pool */
-/* @teleloc 0x01680156 [60.000000 -60.000000 0.050000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70168016,   165, 0x01680156, 60, -60, 0.05, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Pool */
+/* @teleloc 0x01680156 [60.000000 -60.000000 0.050000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70168017,   278, 0x01680161, 59.9932, -91.8992, 0, -1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */

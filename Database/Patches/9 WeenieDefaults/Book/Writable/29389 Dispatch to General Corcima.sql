@@ -34,6 +34,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (29389, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29389, 0, 4294967295, 'King Varicci II', 'prewritten', False, 'To our honored cousin, General Corcima di Corcosa, 
+VALUES (29389, 0, 0xFFFFFFFF, 'King Varicci II', 'prewritten', False, 'To our honored cousin, General Corcima di Corcosa, 
 
 The pieces have been assembled. The necessary alliances have been negotiated, the soldiers and beasts-of-war are ready. We have confidence in the sub-commanders that you have appointed to their places. We expect success because the blood of the Corcosi, the descendants of Karlun, has never failed. We remember well your defeat of Bellenesse in our last campaign in Viamont. It was only those accursed portals which saved the Duke from our retribution. Here, in this new realm, you will carry forth our newest campaign, cousin. Make the blood of Karlun proud.');

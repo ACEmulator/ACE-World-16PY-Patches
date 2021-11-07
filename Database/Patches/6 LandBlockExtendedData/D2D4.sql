@@ -260,16 +260,16 @@ VALUES (0x7D2D40A6, 31405, 0xD2D402EC, 52, 209.303, -35.595, 0.921061, 0, 0, -0.
 /* @teleloc 0xD2D402EC [52.000000 209.302994 -35.595001] 0.921061 0.000000 0.000000 -0.389418 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D2D40A7, 31405, 0xD2D40270, 65.2702, 173, -41.595, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Raven Hunter */
-/* @teleloc 0xD2D40270 [65.270203 173.000000 -41.595001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7D2D40A7, 31405, 0xD2D40270, 65.2702, 173, -41.595, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Raven Hunter */
+/* @teleloc 0xD2D40270 [65.270203 173.000000 -41.595001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D2D40A8, 31405, 0xD2D40270, 58.53, 173, -41.595, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Raven Hunter */
-/* @teleloc 0xD2D40270 [58.529999 173.000000 -41.595001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7D2D40A8, 31405, 0xD2D40270, 58.53, 173, -41.595, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Raven Hunter */
+/* @teleloc 0xD2D40270 [58.529999 173.000000 -41.595001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D2D40A9, 33139, 0xD2D40270, 62, 175.546, -41.595, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Archon Merille */
-/* @teleloc 0xD2D40270 [62.000000 175.546005 -41.595001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7D2D40A9, 33139, 0xD2D40270, 62, 175.546, -41.595, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Archon Merille */
+/* @teleloc 0xD2D40270 [62.000000 175.546005 -41.595001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2D40AA, 31405, 0xD2D40317, 71.6047, 208.548, -35.595, 0.930507, 0, 0, 0.366273,  True, '2021-11-01 00:00:00'); /* Raven Hunter */
@@ -292,12 +292,12 @@ VALUES (0x7D2D40AE, 31403, 0xD2D40255, 38.8982, 190.161, -41.595, 0.939373, 0, 0
 /* @teleloc 0xD2D40255 [38.898201 190.160995 -41.595001] 0.939373 0.000000 0.000000 -0.342898 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D2D40AF, 25665, 0xD2D40252, 32, 123, -41.5935, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Wretched */
-/* @teleloc 0xD2D40252 [32.000000 123.000000 -41.593498] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7D2D40AF, 25665, 0xD2D40252, 32, 123, -41.5935, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Wretched */
+/* @teleloc 0xD2D40252 [32.000000 123.000000 -41.593498] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D2D40B0, 25665, 0xD2D402AC, 92, 123, -41.5935, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Wretched */
-/* @teleloc 0xD2D402AC [92.000000 123.000000 -41.593498] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7D2D40B0, 25665, 0xD2D402AC, 92, 123, -41.5935, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Wretched */
+/* @teleloc 0xD2D402AC [92.000000 123.000000 -41.593498] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2D40B1, 25665, 0xD2D40257, 42, 123, -41.5935, 0.714421, 0, 0, 0.699716,  True, '2021-11-01 00:00:00'); /* Wretched */
@@ -462,7 +462,7 @@ VALUES (0x7D2D40E4, 87516, 0xD2D401F6, 61.3356, 51.6485, -59.593, 0.079949, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2D40E5, 31830, 0xD2D401E2, 51.4528, 52.3118, -59.5967, 0.088841, 0, 0, -0.996046,  True, '2021-11-01 00:00:00'); /* Tenebrous Knight */
-/* @teleloc 0xD2D401E2 [51.452801 52.311798 -59.596699] 0.088840 0.000000 0.000000 -0.996046 */
+/* @teleloc 0xD2D401E2 [51.452801 52.311798 -59.596699] 0.088841 0.000000 0.000000 -0.996046 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2D40E6, 31830, 0xD2D40208, 72.3163, 52.5079, -59.5967, 0.154413, 0, 0, 0.988006,  True, '2021-11-01 00:00:00'); /* Tenebrous Knight */

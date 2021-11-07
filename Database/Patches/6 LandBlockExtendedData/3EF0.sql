@@ -14,7 +14,7 @@ VALUES (0x73EF0000, 0x73EF0004, '2021-11-01 16:16:26') /* Ruschk Sadist (29344) 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EF0001, 31301, 0x3EF00039, 168.733, 10.4421, 4, 0.050973, 0, 0, -0.9987, False, '2021-11-01 00:00:00'); /* Ruschk Fire */
-/* @teleloc 0x3EF00039 [168.733002 10.442100 4.000000] 0.050972 0.000000 0.000000 -0.998700 */
+/* @teleloc 0x3EF00039 [168.733002 10.442100 4.000000] 0.050973 0.000000 0.000000 -0.998700 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EF0002, 31301, 0x3EF00039, 175.853, 5.68698, 4, 0.286525, 0, 0, 0.958073, False, '2021-11-01 00:00:00'); /* Ruschk Fire */

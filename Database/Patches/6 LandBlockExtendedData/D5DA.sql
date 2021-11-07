@@ -29,12 +29,12 @@ VALUES (0x7D5DA3EE, 31986, 0xD5DA003D, 190.696, 109.74, 115.997, -0.707107, 0, 0
 /* @teleloc 0xD5DA003D [190.695999 109.739998 115.997002] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D5DA3EF, 31986, 0xD5DA0028, 109.681, 190.954, 115.997, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Xik Minru's Reserve */
-/* @teleloc 0xD5DA0028 [109.681000 190.953995 115.997002] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D5DA3EF, 31986, 0xD5DA0028, 109.681, 190.954, 115.997, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Xik Minru's Reserve */
+/* @teleloc 0xD5DA0028 [109.681000 190.953995 115.997002] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D5DA3F0, 31986, 0xD5DA0028, 105.829, 190.925, 115.997, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Xik Minru's Reserve */
-/* @teleloc 0xD5DA0028 [105.829002 190.925003 115.997002] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D5DA3F0, 31986, 0xD5DA0028, 105.829, 190.925, 115.997, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Xik Minru's Reserve */
+/* @teleloc 0xD5DA0028 [105.829002 190.925003 115.997002] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D5DA3F1, 31986, 0xD5DA0022, 106.188, 25.418, 115.997, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Xik Minru's Reserve */

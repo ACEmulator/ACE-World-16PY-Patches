@@ -423,7 +423,7 @@ VALUES (0x7587706D, 51684, 0x58770185, 122.959, -65.0899, 0.01, 0.001808, 0, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587706E, 51684, 0x587701E9, 176.149, -15.671, 0.01, -0.049156, 0, 0, 0.998791,  True, '2021-11-01 00:00:00'); /* Corrupt Lugian */
-/* @teleloc 0x587701E9 [176.149002 -15.671000 0.010000] -0.049155 0.000000 0.000000 0.998791 */
+/* @teleloc 0x587701E9 [176.149002 -15.671000 0.010000] -0.049156 0.000000 0.000000 0.998791 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587706F, 51684, 0x587701E8, 178.293, -13.4985, 0.01, -0.716781, 0, 0, 0.697298,  True, '2021-11-01 00:00:00'); /* Corrupt Lugian */

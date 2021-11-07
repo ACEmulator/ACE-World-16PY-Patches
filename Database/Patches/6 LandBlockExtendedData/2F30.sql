@@ -17,8 +17,8 @@ VALUES (0x72F3000D, 36969, 0x2F30002C, 132, 76, 10.029, 1, 0, 0, 0,  True, '2021
 /* @teleloc 0x2F30002C [132.000000 76.000000 10.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72F30092,  1542, 0x2F300030, 135.061, 183.285, 20, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0x2F300030 [135.061005 183.285004 20.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x72F30092,  1542, 0x2F300030, 135.061, 183.285, 20, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x2F300030 [135.061005 183.285004 20.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x72F30092, 0x72F30094, '2019-02-10 00:00:00') /* Aerbax Harm Hotspot (37056) */

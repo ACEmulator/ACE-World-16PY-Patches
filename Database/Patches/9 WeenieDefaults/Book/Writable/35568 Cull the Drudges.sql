@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (35568, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (35568, 0, 4294967295, 'Jarvis Hammerstone', 'prewritten', False, '
+VALUES (35568, 0, 0xFFFFFFFF, 'Jarvis Hammerstone', 'prewritten', False, '
 The Town Council has put together this list of drudges who have caused us losses again and again. You must reduce their numberes. Return to me when you finish any of these tasks.
 
 100 Drudge Lurkers

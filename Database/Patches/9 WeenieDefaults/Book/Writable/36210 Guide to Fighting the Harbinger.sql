@@ -26,14 +26,14 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (36210, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (36210, 0, 4294967295, 'Ciandra, Arcanum Alchemist', '', False, 'Gather a group of warriors and mages and decide which Harbinger you wish to fight.
+VALUES (36210, 0, 0xFFFFFFFF, 'Ciandra, Arcanum Alchemist', '', False, 'Gather a group of warriors and mages and decide which Harbinger you wish to fight.
 
 Weakened Harbinger - Weakened by cutting off his connection to the Essences of Magic.
 
 Essenceless Harbinger - Weakened by destroying the Essences of Magic.
 
 Empowered Harbinger - Harbinger with his full powers and drawing on the power of the Essences.')
-     , (36210, 1, 4294967295, 'Ciandra, Arcanum Alchemist', '', False, 'Weakened Harbinger Fight:
+     , (36210, 1, 0xFFFFFFFF, 'Ciandra, Arcanum Alchemist', '', False, 'Weakened Harbinger Fight:
 
 Purchase a Decanter of Nullified Essence from Beldin in the burned out mage tower in Old Yanshi.
 Use the Nullified Essence on the Stone of Yanshi in the center of Old Yanshi.
@@ -43,7 +43,7 @@ Pay either Vincadi or Issk what they require to enter the Tunnels to the Harbing
 Fight your way down through the tunnels, paying close attention to the jumps you need to make. Some of the jumps can be tricky.
 Arrive at the pit that leads to the Harbinger. Prepare for battle and jump into the Harbinger''s Lair.
 If you die you may return to the fight by using the Tunnels to the Harbinger portal.')
-     , (36210, 2, 4294967295, 'Ciandra, Arcanum Alchemist', '', False, 'Essenceless Harbinger Fight:
+     , (36210, 2, 0xFFFFFFFF, 'Ciandra, Arcanum Alchemist', '', False, 'Essenceless Harbinger Fight:
 
 Pay either Vincadi or Issk what they require to enter the Tunnels to the Harbinger portal
 Fight your way down through the tunnels, paying close attention to the jumps you need to make. Some of the jumps can be tricky.
@@ -52,7 +52,7 @@ Fight each of the Essences until they have all been defeated.
 A portal to the Harbinger''s Lair will appear in the hallways of the Essence Chambers.
 Use the portal and fight the weakened Harbinger,
 If you die you may return to the fight by using the Tunnels to the Harbinger portal.')
-     , (36210, 3, 4294967295, 'Ciandra, Arcanum Alchemist', '', False, 'Empowered Harbinger Fight:
+     , (36210, 3, 0xFFFFFFFF, 'Ciandra, Arcanum Alchemist', '', False, 'Empowered Harbinger Fight:
 
 Pay either Vincadi or Issk what they require to enter the Tunnels to the Harbinger portal
 Fight your way down through the tunnels, paying close attention to the jumps you need to make. Some of the jumps can be tricky.

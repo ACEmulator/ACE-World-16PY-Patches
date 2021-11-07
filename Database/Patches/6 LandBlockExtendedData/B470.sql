@@ -77,8 +77,8 @@ VALUES (0x7B4703F9,   720, 0xB4700135, 128.032, 41.4592, 42, 0, 0, 0, -1, False,
 /* @teleloc 0xB4700135 [128.031998 41.459202 42.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B4703FA,   720, 0xB4700166, 131.98, 139.3, 42, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Sliding Door */
-/* @teleloc 0xB4700166 [131.979996 139.300003 42.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7B4703FA,   720, 0xB4700166, 131.98, 139.3, 42, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Sliding Door */
+/* @teleloc 0xB4700166 [131.979996 139.300003 42.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4703FB,   720, 0xB4700167, 132.045, 124.745, 42, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Sliding Door */
@@ -101,8 +101,8 @@ VALUES (0x7B4703FF,   720, 0xB4700171, 124.75, 131.975, 47.6, 0.707107, 0, 0, -0
 /* @teleloc 0xB4700171 [124.750000 131.975006 47.599998] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B470400,   720, 0xB4700172, 131.975, 139.305, 47.6, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Sliding Door */
-/* @teleloc 0xB4700172 [131.975006 139.304993 47.599998] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7B470400,   720, 0xB4700172, 131.975, 139.305, 47.6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Sliding Door */
+/* @teleloc 0xB4700172 [131.975006 139.304993 47.599998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B470401,   720, 0xB4700173, 132.04, 124.745, 47.6, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Sliding Door */
@@ -161,16 +161,16 @@ VALUES (0x7B47040E,   720, 0xB470001D, 84, 100.45, 53, 1, 0, 0, 0, False, '2021-
 /* @teleloc 0xB470001D [84.000000 100.449997 53.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B47040F,  8377, 0xB470014F, 134.734, 82.937, 42.31, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Beer Keg */
-/* @teleloc 0xB470014F [134.733994 82.936996 42.310001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7B47040F,  8377, 0xB470014F, 134.734, 82.937, 42.31, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Beer Keg */
+/* @teleloc 0xB470014F [134.733994 82.936996 42.310001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B470410, 32562, 0xB4700021, 112, 10, 42, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Yanshi */
-/* @teleloc 0xB4700021 [112.000000 10.000000 42.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7B470410, 32562, 0xB4700021, 112, 10, 42, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Yanshi */
+/* @teleloc 0xB4700021 [112.000000 10.000000 42.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B470411,  5777, 0xB4700021, 112.168, 12.26, 42.005, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Town Crier */
-/* @teleloc 0xB4700021 [112.167999 12.260000 42.005001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7B470411,  5777, 0xB4700021, 112.168, 12.26, 42.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Town Crier */
+/* @teleloc 0xB4700021 [112.167999 12.260000 42.005001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B470412, 34365, 0xB4700154, 137.887, 86.9697, 47.605, 0.911776, 0, 0, 0.410688, False, '2021-11-01 00:00:00'); /* Ookami Kiri */

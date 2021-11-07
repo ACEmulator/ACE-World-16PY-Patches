@@ -59,7 +59,7 @@ VALUES (0x7DC58007, 33804, 0xDC5801AB, 159.38, 44.4081, -7.6, 0.952138, 0, 0, 0.
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC58008, 33804, 0xDC580187, 140.335, 31.389, -7.6, 0.999912, 0, 0, -0.013235,  True, '2021-11-01 00:00:00'); /* Small Fledgling Mukkir */
-/* @teleloc 0xDC580187 [140.335007 31.389000 -7.600000] 0.999912 0.000000 0.000000 -0.013234 */
+/* @teleloc 0xDC580187 [140.335007 31.389000 -7.600000] 0.999912 0.000000 0.000000 -0.013235 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC58009, 33804, 0xDC5801A0, 154.839, 19.4311, -7.6, 0.93668, 0, 0, 0.350185,  True, '2021-11-01 00:00:00'); /* Small Fledgling Mukkir */

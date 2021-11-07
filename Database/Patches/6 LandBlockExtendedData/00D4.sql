@@ -109,7 +109,7 @@ VALUES (0x700D42A6, 87300, 0x00D4058F, 148.11, -35.8981, -11.945, 0.721077, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D42A7, 87300, 0x00D40518, 123.425, -80.828, -11.945, -0.022498, 0, 0, 0.999747, False, '2021-11-01 00:00:00'); /* Southern Catacombs Upper Generator */
-/* @teleloc 0x00D40518 [123.425003 -80.828003 -11.945000] -0.022497 0.000000 0.000000 0.999747 */
+/* @teleloc 0x00D40518 [123.425003 -80.828003 -11.945000] -0.022498 0.000000 0.000000 0.999747 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700D42A8, 87300, 0x00D404F0, 107.799, -82.9879, -11.945, -0.014802, 0, 0, 0.99989, False, '2021-11-01 00:00:00'); /* Southern Catacombs Upper Generator */

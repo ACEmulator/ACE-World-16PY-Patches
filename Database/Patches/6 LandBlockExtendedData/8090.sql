@@ -276,16 +276,16 @@ VALUES (0x78090058, 41525, 0x80900015, 58.2231, 114.318, 132.805, 0.240812, 0, 0
 /* @teleloc 0x80900015 [58.223099 114.318001 132.804993] 0.240812 0.000000 0.000000 -0.970572 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78090059, 38447, 0x8090015E, 12.0963, 13.8803, 117.655, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Advanced Equipment Chest */
-/* @teleloc 0x8090015E [12.096300 13.880300 117.654999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78090059, 38447, 0x8090015E, 12.0963, 13.8803, 117.655, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Advanced Equipment Chest */
+/* @teleloc 0x8090015E [12.096300 13.880300 117.654999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7809005A, 38447, 0x8090015E, 9.39006, 13.8432, 117.655, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Advanced Equipment Chest */
-/* @teleloc 0x8090015E [9.390060 13.843200 117.654999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7809005A, 38447, 0x8090015E, 9.39006, 13.8432, 117.655, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Advanced Equipment Chest */
+/* @teleloc 0x8090015E [9.390060 13.843200 117.654999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7809005B, 38447, 0x8090015E, 14.9082, 13.8858, 117.655, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Advanced Equipment Chest */
-/* @teleloc 0x8090015E [14.908200 13.885800 117.654999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7809005B, 38447, 0x8090015E, 14.9082, 13.8858, 117.655, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Advanced Equipment Chest */
+/* @teleloc 0x8090015E [14.908200 13.885800 117.654999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7809005C, 38443, 0x8090015E, 17.517, 18.12, 117.655, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Mana Forge Mixed Equipment Chest */
@@ -352,12 +352,12 @@ VALUES (0x7809006B, 38457, 0x8090015E, 16.5013, 30.6595, 117.655, 1, 0, 0, 0, Fa
 /* @teleloc 0x8090015E [16.501301 30.659500 117.654999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7809006C, 38457, 0x80900161, 14.3817, 33.0173, 124.05, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Chest */
-/* @teleloc 0x80900161 [14.381700 33.017300 124.050003] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7809006C, 38457, 0x80900161, 14.3817, 33.0173, 124.05, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Chest */
+/* @teleloc 0x80900161 [14.381700 33.017300 124.050003] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7809006D, 38457, 0x80900161, 9.72385, 33.0282, 124.05, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Chest */
-/* @teleloc 0x80900161 [9.723850 33.028198 124.050003] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7809006D, 38457, 0x80900161, 9.72385, 33.0282, 124.05, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Forge Chest */
+/* @teleloc 0x80900161 [9.723850 33.028198 124.050003] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7809006E, 34726, 0x8090015E, 6.7585, 14.1265, 117.655, 0.92388, 0, 0, -0.382683, False, '2021-11-01 00:00:00'); /* Garbage Barrel */

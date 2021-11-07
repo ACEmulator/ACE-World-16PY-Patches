@@ -385,7 +385,7 @@ VALUES (0x72F2F072, 87087, 0x2F2F003B, 177.824, 60.8382, 146.055, 0.709867, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2F073, 87087, 0x2F2F0029, 131.986, 13.1635, 146.055, 0.042198, 0, 0, 0.999109, False, '2021-11-01 00:00:00'); /* Virindi Protector Gen */
-/* @teleloc 0x2F2F0029 [131.985992 13.163500 146.054993] 0.042197 0.000000 0.000000 0.999109 */
+/* @teleloc 0x2F2F0029 [131.985992 13.163500 146.054993] 0.042198 0.000000 0.000000 0.999109 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2F074, 87087, 0x2F2F001B, 84.1857, 60.4117, 146.055, 0.702739, 0, 0, 0.711448, False, '2021-11-01 00:00:00'); /* Virindi Protector Gen */

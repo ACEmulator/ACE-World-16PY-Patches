@@ -27,6 +27,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (33159, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (33159, 0, 4294967295, 'Isin Dule', 'prewritten', False, 'There is an Isparian, known as High Archon Kraest of the Raven Hand, who foolishly seeks to awaken Targor from his long sleep. He has sent those loyal to him to attempt this. We will not allow this to happen. If they gain hold of Targor, they may be able to use him to awaken the Black Spear.
+VALUES (33159, 0, 0xFFFFFFFF, 'Isin Dule', 'prewritten', False, 'There is an Isparian, known as High Archon Kraest of the Raven Hand, who foolishly seeks to awaken Targor from his long sleep. He has sent those loyal to him to attempt this. We will not allow this to happen. If they gain hold of Targor, they may be able to use him to awaken the Black Spear.
 
 Stop them. Take whatever resources you need, including those more enlightened Raven Hand who have recently joined us. If you cannot stop them from gaining access to Targor, destroy him. His death may awaken some of the other Mukkir who still sleep, but Targor will awaken them all, if they can push him to it. Perhaps even the Black Spear himself. This cannot be allowed to come to pass.');

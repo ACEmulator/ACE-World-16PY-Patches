@@ -53,16 +53,16 @@ VALUES (0x70020000, 0x70020005, '2019-02-15 14:34:36') /* Raving Fiun (28647) */
      , (0x70020000, 0x70020032, '2019-02-15 14:34:36') /* Sir Coretto (29490) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70020001, 29499, 0x002002CD, 60, 0, -0.063, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x002002CD [60.000000 0.000000 -0.063000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70020001, 29499, 0x002002CD, 60, 0, -0.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x002002CD [60.000000 0.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70020002, 29499, 0x00200101, 528, -450, -54.063, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Surface */
 /* @teleloc 0x00200101 [528.000000 -450.000000 -54.063000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70020003,  2609, 0x0020023C, 250, -107.5, -12, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Lever */
-/* @teleloc 0x0020023C [250.000000 -107.500000 -12.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70020003,  2609, 0x0020023C, 250, -107.5, -12, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lever */
+/* @teleloc 0x0020023C [250.000000 -107.500000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70020004,  2179, 0x0020022B, 266, -130, -18, 0.707088, 0, 0, -0.707125, False, '2021-11-01 00:00:00'); /* Door */

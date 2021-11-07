@@ -38,16 +38,16 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31980, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31980, 0, 4294967295, 'Geowulf', '', True, 'Journal Log 3
+VALUES (31980, 0, 0xFFFFFFFF, 'Geowulf', '', True, 'Journal Log 3
 
 I awoke mid morning after a late evening of Angry Ale and fireworks. Arranging my hiking gear into my packs and trading my heavier wool wear for something more fitting of a shoreline stroll, I left Haliana and walked east along the coast.
 
 Afternoon soon fell upon me and my stomach rumbled with hunger. I sat upon a dune and began to prepare a hearty ration or two. As I did this, I heard a rumbling coming from out to sea. The weather out to sea must be fierce.')
-     , (31980, 1, 4294967295, 'Geowulf', '', True, 'Journal Log 4
+     , (31980, 1, 0xFFFFFFFF, 'Geowulf', '', True, 'Journal Log 4
 
 I write this by a waning taper within the gullet of some monstrosity. The rumbling I heard wasn''t that of weather, but of some great leviathan. I carelessly wandered the edge of the shore when a great winged beast rose from the surf and beached itself in front of me. Shocked, I attempted to backpedal, but was met with the maw of the beast.
 
 Oh Brawyn! Had we not argued, this would not be my fate. Consumed whole within the belly of some unknown')
-     , (31980, 2, 4294967295, 'Geowulf', '', True, 'leviathan, waiting death and digestion. Luckily, there has been enough debris in here to keep me out of the acids of its gut, though I know not how long that fortune will last.
+     , (31980, 2, 0xFFFFFFFF, 'Geowulf', '', True, 'leviathan, waiting death and digestion. Luckily, there has been enough debris in here to keep me out of the acids of its gut, though I know not how long that fortune will last.
 
 My supply of tapers and luminous gems is steadily decreasing. I must find a way out from here.');

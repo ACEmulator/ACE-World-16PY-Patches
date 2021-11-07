@@ -5,8 +5,8 @@ VALUES (0x73960006, 41195, 0x39600105, 46, 17, -15.663, 1, 0, 0, 0, False, '2021
 /* @teleloc 0x39600105 [46.000000 17.000000 -15.663000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7396001D, 41194, 0x39600158, 266, -111, -15.6, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Excavation Master's Laboratory */
-/* @teleloc 0x39600158 [266.000000 -111.000000 -15.600000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7396001D, 41194, 0x39600158, 266, -111, -15.6, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Excavation Master's Laboratory */
+/* @teleloc 0x39600158 [266.000000 -111.000000 -15.600000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7396002A, 41196, 0x3960018B, 286, -275, -15.663, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Surface */
@@ -166,8 +166,8 @@ VALUES (0x73960041, 40492, 0x3960010D, 146.877, -22.194, -15.588, 0.999614, 0, 0
 /* @teleloc 0x3960010D [146.876999 -22.194000 -15.588000] 0.999614 0.000000 0.000000 -0.027774 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73960042, 40492, 0x3960010D, 146, -25, -15.588, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Gotrok Aetherium Miner */
-/* @teleloc 0x3960010D [146.000000 -25.000000 -15.588000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x73960042, 40492, 0x3960010D, 146, -25, -15.588, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Gotrok Aetherium Miner */
+/* @teleloc 0x3960010D [146.000000 -25.000000 -15.588000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73960043, 40492, 0x39600115, 174.611, -48.062, -15.588, -0.730924, 0, 0, -0.682459,  True, '2021-11-01 00:00:00'); /* Gotrok Aetherium Miner */
@@ -222,8 +222,8 @@ VALUES (0x7396004F, 40492, 0x39600169, 274.47, -43.771, -15.588, 0.901652, 0, 0,
 /* @teleloc 0x39600169 [274.470001 -43.771000 -15.588000] 0.901652 0.000000 0.000000 0.432463 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73960050, 40492, 0x3960016A, 273.755, -56.286, -15.588, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Gotrok Aetherium Miner */
-/* @teleloc 0x3960016A [273.755005 -56.285999 -15.588000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x73960050, 40492, 0x3960016A, 273.755, -56.286, -15.588, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Gotrok Aetherium Miner */
+/* @teleloc 0x3960016A [273.755005 -56.285999 -15.588000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73960051, 40492, 0x39600156, 268.402, -95.957, -15.588, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Gotrok Aetherium Miner */

@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (80302, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (80302, 0, 4294967295, 'Jawaq ibn Janath', 'prewritten', False, '
+VALUES (80302, 0, 0xFFFFFFFF, 'Jawaq ibn Janath', 'prewritten', False, '
 Commander,
 
 The person who brings you this note has proven quite useful to me in the matter of the Blight Lictor''s bounty. I may have had some trouble collecting the head without such assistance. I feel that this fellow Isparian has proven to be courageous and skillful in the field, and may be worthy of induction to the Radiant Blood some day, when we are ready to make our bid for primacy in Dereth. Perhaps it would behoove you to share a copy of our Tenets with this person.

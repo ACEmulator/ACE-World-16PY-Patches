@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52733;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52733, 'ace52733-vortexthorn', 4, '2021-11-01 00:00:00') /* Missile */;
+VALUES (52733, 'ace52733-vortexthorn', 4, '2021-11-07 08:12:46') /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52733,   1,        256) /* ItemType - MissileWeapon */
@@ -44,7 +44,7 @@ VALUES (52733,   5,   -0.05) /* ManaRate */
      , (52733,  63,       1) /* DamageMod */
      , (52733,  78,       1) /* Friction */
      , (52733,  79,       0) /* Elasticity */
-     , (52733, 147,       1) /* CriticalFrequency */;
+     , (52733, 147,    0.33) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52733,   1, 'Vortex Thorn') /* Name */

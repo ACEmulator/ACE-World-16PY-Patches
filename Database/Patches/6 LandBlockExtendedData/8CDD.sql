@@ -1,16 +1,16 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x8CDD;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78CDD000,   143, 0x8CDD010C, 113.21, 154.38, 75.02, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chest */
-/* @teleloc 0x8CDD010C [113.209999 154.380005 75.019997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78CDD000,   143, 0x8CDD010C, 113.21, 154.38, 75.02, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chest */
+/* @teleloc 0x8CDD010C [113.209999 154.380005 75.019997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78CDD001,   143, 0x8CDD010C, 110, 154.45, 75.02, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chest */
-/* @teleloc 0x8CDD010C [110.000000 154.449997 75.019997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78CDD001,   143, 0x8CDD010C, 110, 154.45, 75.02, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chest */
+/* @teleloc 0x8CDD010C [110.000000 154.449997 75.019997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78CDD002,   412, 0x8CDD0000, 110.06, 161.615, 72, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x8CDD0000 [110.059998 161.615005 72.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78CDD002,   412, 0x8CDD0000, 110.06, 161.615, 72, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x8CDD0000 [110.059998 161.615005 72.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CDD003,   412, 0x8CDD0000, 113.79, 149.655, 72, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */

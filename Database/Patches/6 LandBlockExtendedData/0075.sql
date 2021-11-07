@@ -186,7 +186,7 @@ VALUES (0x7007502D, 87604, 0x007501EB, 80.6175, -95.0226, -83.945, -0.719376, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007502E, 87604, 0x00750260, 92.2899, -109.844, -77.945, 0.998427, 0, 0, 0.056066, False, '2021-11-01 00:00:00'); /* Shadow-Infested Black Spear Temple Generator */
-/* @teleloc 0x00750260 [92.289902 -109.844002 -77.945000] 0.998427 0.000000 0.000000 0.056065 */
+/* @teleloc 0x00750260 [92.289902 -109.844002 -77.945000] 0.998427 0.000000 0.000000 0.056066 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007502F, 87604, 0x007501E6, 80.0501, -70.41, -83.945, 0.999667, 0, 0, 0.025789, False, '2021-11-01 00:00:00'); /* Shadow-Infested Black Spear Temple Generator */
@@ -214,7 +214,7 @@ VALUES (0x70075034, 87604, 0x007501B1, 40.6625, -90.0626, -89.945, -0.733616, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70075035, 87604, 0x0075013F, 19.5186, -15.163, -107.945, 0.999998, 0, 0, -0.001768, False, '2021-11-01 00:00:00'); /* Shadow-Infested Black Spear Temple Generator */
-/* @teleloc 0x0075013F [19.518600 -15.163000 -107.945000] 0.999998 0.000000 0.000000 -0.001767 */
+/* @teleloc 0x0075013F [19.518600 -15.163000 -107.945000] 0.999998 0.000000 0.000000 -0.001768 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70075036, 87604, 0x0075016A, 49.8577, -5.5561, -95.945, 0.055618, 0, 0, -0.998452, False, '2021-11-01 00:00:00'); /* Shadow-Infested Black Spear Temple Generator */
@@ -242,7 +242,7 @@ VALUES (0x7007503B, 87604, 0x0075041D, 152.4, -14.9858, -11.945, 0.042068, 0, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007503C, 87604, 0x0075042F, 170.14, -20.2386, -11.945, -0.054484, 0, 0, -0.998515, False, '2021-11-01 00:00:00'); /* Shadow-Infested Black Spear Temple Generator */
-/* @teleloc 0x0075042F [170.139999 -20.238600 -11.945000] -0.054483 0.000000 0.000000 -0.998515 */
+/* @teleloc 0x0075042F [170.139999 -20.238600 -11.945000] -0.054484 0.000000 0.000000 -0.998515 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007503D, 87604, 0x007503C4, 120.56, -58.3468, -29.945, -0.020935, 0, 0, -0.999781, False, '2021-11-01 00:00:00'); /* Shadow-Infested Black Spear Temple Generator */
@@ -258,7 +258,7 @@ VALUES (0x7007503F, 87607, 0x0075040C, 49.8375, -75.5386, -11.995, -0.999034, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70075040, 87608, 0x00750408, 40.0995, -64.3693, -11.995, -0.025372, 0, 0, 0.999678, False, '2021-11-01 00:00:00'); /* Rock */
-/* @teleloc 0x00750408 [40.099499 -64.369301 -11.995000] -0.025371 0.000000 0.000000 0.999678 */
+/* @teleloc 0x00750408 [40.099499 -64.369301 -11.995000] -0.025372 0.000000 0.000000 0.999678 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70075041, 87609, 0x00750401, 24.3967, -59.7259, -11.995, 0.660331, 0, 0, -0.750974, False, '2021-11-01 00:00:00'); /* Rock */

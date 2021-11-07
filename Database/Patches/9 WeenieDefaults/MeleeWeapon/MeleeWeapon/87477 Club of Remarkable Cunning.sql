@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87477;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87477, 'ace87477-clubofremarkablecunning', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (87477, 'ace87477-clubofremarkablecunning', 6, '2021-11-07 08:12:46') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87477,   1,          1) /* ItemType - MeleeWeapon */
@@ -44,7 +44,7 @@ VALUES (87477,   5,  -0.033) /* ManaRate */
      , (87477,  62,    1.15) /* WeaponOffense */
      , (87477,  63,       1) /* DamageMod */
      , (87477, 136,    1.24) /* CriticalMultiplier */
-     , (87477, 147,    1.23) /* CriticalFrequency */;
+     , (87477, 147,    0.31) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87477,   1, 'Club of Remarkable Cunning') /* Name */

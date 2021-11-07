@@ -102,8 +102,8 @@ VALUES (0x70038001, 0x70038006, '2019-03-23 02:20:17') /* Great Revenant (24320)
      , (0x70038001, 0x70038059, '2019-03-23 02:20:17') /* Elite Revenant (25809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70038002, 31671, 0x00380298, 40, -40, -0.063, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x00380298 [40.000000 -40.000000 -0.063000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70038002, 31671, 0x00380298, 40, -40, -0.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x00380298 [40.000000 -40.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70038003,   568, 0x00380115, 260, -514.752, -17.995, -0.019099, 0, 0, -0.999818, False, '2021-11-01 00:00:00'); /* Door */

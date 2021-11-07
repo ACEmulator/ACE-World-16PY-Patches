@@ -144,8 +144,8 @@ VALUES (0x7028A3F9,   213, 0x028A010E, 59.1076, -63.8899, -53.995, -0.91164, 0, 
 /* @teleloc 0x028A010E [59.107601 -63.889900 -53.994999] -0.911640 0.000000 0.000000 -0.410991 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7028A3FA,   212, 0x028A0117, 70.093, -87.0589, -53.995, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Olthoi Noble */
-/* @teleloc 0x028A0117 [70.093002 -87.058899 -53.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7028A3FA,   212, 0x028A0117, 70.093, -87.0589, -53.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Olthoi Noble */
+/* @teleloc 0x028A0117 [70.093002 -87.058899 -53.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7028A3FB,   212, 0x028A0118, 83.1233, -70.5202, -53.995, 0.323446, 0, 0, 0.946247,  True, '2021-11-01 00:00:00'); /* Olthoi Noble */

@@ -17,12 +17,12 @@ VALUES (0x70062004, 35114, 0x00620103, 50, -30, -72, 1, 0, 0, 0, False, '2021-11
 /* @teleloc 0x00620103 [50.000000 -30.000000 -72.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70062005, 35114, 0x00620104, 50, -40, -72, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* "Mag-Ma!" */
-/* @teleloc 0x00620104 [50.000000 -40.000000 -72.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70062005, 35114, 0x00620104, 50, -40, -72, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* "Mag-Ma!" */
+/* @teleloc 0x00620104 [50.000000 -40.000000 -72.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70062006, 35114, 0x00620105, 50, -50, -72, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* "Mag-Ma!" */
-/* @teleloc 0x00620105 [50.000000 -50.000000 -72.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70062006, 35114, 0x00620105, 50, -50, -72, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* "Mag-Ma!" */
+/* @teleloc 0x00620105 [50.000000 -50.000000 -72.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70062007,  4219, 0x0062027C, 91.1104, -71.0036, -12, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */

@@ -13,8 +13,8 @@ VALUES (0x74BE1002,   722, 0x4BE10001, 12.017, 6.5137, 66, 1, 0, 0, 0, False, '2
 /* @teleloc 0x4BE10001 [12.017000 6.513700 66.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74BE1003,   722, 0x4BE10001, 12.017, 17.5637, 66, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x4BE10001 [12.017000 17.563700 66.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x74BE1003,   722, 0x4BE10001, 12.017, 17.5637, 66, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x4BE10001 [12.017000 17.563700 66.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BE1004,   720, 0x4BE10011, 60.95, 18.7439, 70, -0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Sliding Door */
@@ -45,12 +45,12 @@ VALUES (0x74BE100A,   720, 0x4BE1003A, 180, 28.49, 78, 1, 0, 0, 0, False, '2021-
 /* @teleloc 0x4BE1003A [180.000000 28.490000 78.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74BE100B,   720, 0x4BE1003A, 180, 43.51, 83.6, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Sliding Door */
-/* @teleloc 0x4BE1003A [180.000000 43.509998 83.599998] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x74BE100B,   720, 0x4BE1003A, 180, 43.51, 83.6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Sliding Door */
+/* @teleloc 0x4BE1003A [180.000000 43.509998 83.599998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74BE100C,   720, 0x4BE1003A, 180, 43.51, 78, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Sliding Door */
-/* @teleloc 0x4BE1003A [180.000000 43.509998 78.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x74BE100C,   720, 0x4BE1003A, 180, 43.51, 78, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Sliding Door */
+/* @teleloc 0x4BE1003A [180.000000 43.509998 78.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BE100D,   720, 0x4BE1003A, 187.51, 36, 83.6, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Sliding Door */
@@ -179,8 +179,8 @@ VALUES (0x74BE1087, 46505, 0x4BE1003A, 181.696, 42.0782, 89.4226, 0.764943, 0, 0
 /* @teleloc 0x4BE1003A [181.695999 42.078201 89.422600] 0.764943 0.000000 0.000000 -0.644098 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74BE1089, 46687, 0x4BE10023, 107.527, 54.2369, 85.412, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Voidmage */
-/* @teleloc 0x4BE10023 [107.527000 54.236900 85.412003] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x74BE1089, 46687, 0x4BE10023, 107.527, 54.2369, 85.412, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Voidmage */
+/* @teleloc 0x4BE10023 [107.527000 54.236900 85.412003] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BE108B, 46505, 0x4BE10023, 106.466, 63.2022, 87.1883, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Spectral Archer */

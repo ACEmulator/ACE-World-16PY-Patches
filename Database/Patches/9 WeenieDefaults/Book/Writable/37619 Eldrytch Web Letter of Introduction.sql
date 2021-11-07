@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (37619, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (37619, 0, 4294967295, 'Kousu Temo', 'prewritten', False, '
+VALUES (37619, 0, 0xFFFFFFFF, 'Kousu Temo', 'prewritten', False, '
 To my esteemed field minder,
 
 The bearer of this note helped me to retrieve the scepter that you and your own superiors seemed to covet so greatly. Perhaps this person could be useful. In time, when the Eldrytch Web sees fit to recruit more Isparians into its ranks, we would do well to consider this person for membership. In the meantime, perhaps you could pass along a copy of the Canon so our potential recruit can learn of our organization and make an informed decision when the time comes.

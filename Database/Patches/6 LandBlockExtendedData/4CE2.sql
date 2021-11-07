@@ -9,8 +9,8 @@ VALUES (0x74CE2001,   720, 0x4CE2010B, 80.95, 184.925, 68.5, -0.707107, 0, 0, -0
 /* @teleloc 0x4CE2010B [80.949997 184.925003 68.500000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74CE2002,   720, 0x4CE20020, 84, 190.525, 66, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Sliding Door */
-/* @teleloc 0x4CE20020 [84.000000 190.524994 66.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x74CE2002,   720, 0x4CE20020, 84, 190.525, 66, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Sliding Door */
+/* @teleloc 0x4CE20020 [84.000000 190.524994 66.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CE2003, 46619, 0x4CE2003C, 175.314, 84.202, 120.053, 0.723383, 0, 0, -0.690447, False, '2021-11-01 00:00:00'); /* Hoshino Tower */

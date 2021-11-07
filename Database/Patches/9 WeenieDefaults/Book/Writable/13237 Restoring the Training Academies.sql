@@ -29,11 +29,11 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (13237, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (13237, 0, 4294967295, 'Einrik Gaul, Leader of the Society', 'prewritten', False, 'With the arrival of the Viamontians, Queen Elysa has called all of her forces to active duty. She can no longer afford to maintain the Training Academies as she once did. However, I was able to come to an agreement with her whereby the Dereth Exploration Society assumes full ownership of the Academies. 
+VALUES (13237, 0, 0xFFFFFFFF, 'Einrik Gaul, Leader of the Society', 'prewritten', False, 'With the arrival of the Viamontians, Queen Elysa has called all of her forces to active duty. She can no longer afford to maintain the Training Academies as she once did. However, I was able to come to an agreement with her whereby the Dereth Exploration Society assumes full ownership of the Academies. 
  
 As you know, this is a great victory for our small society. As new arrivals appear through the portals, we have a chance to teach them the ways of this strange world. The hope, of course, is that these Isparians will fill our libraries with the knowledge they accrue on their adventures.
 ')
-     , (13237, 1, 4294967295, 'Einrik Gaul, Leader of the Society', 'prewritten', False, 'Many of us have discussed how we should handle the Viamontian arrivals. Should we offer them the same training that we offer Aluvian, Gharu''ndim, and Sho? There are some who feel we should turn our backs on the Viamontians. But the Queen feels - and I agree - that the Dereth Exploration Society should remain a neutral body in this conflict. We have never professed an allegiance to the Queen, nor shall we do so to this Viamontian King.
+     , (13237, 1, 0xFFFFFFFF, 'Einrik Gaul, Leader of the Society', 'prewritten', False, 'Many of us have discussed how we should handle the Viamontian arrivals. Should we offer them the same training that we offer Aluvian, Gharu''ndim, and Sho? There are some who feel we should turn our backs on the Viamontians. But the Queen feels - and I agree - that the Dereth Exploration Society should remain a neutral body in this conflict. We have never professed an allegiance to the Queen, nor shall we do so to this Viamontian King.
 ')
-     , (13237, 2, 4294967295, 'Einrik Gaul, Leader of the Society', 'prewritten', False, 'We will train all who come to our doors. Let none be turned away.
+     , (13237, 2, 0xFFFFFFFF, 'Einrik Gaul, Leader of the Society', 'prewritten', False, 'We will train all who come to our doors. Let none be turned away.
 ');

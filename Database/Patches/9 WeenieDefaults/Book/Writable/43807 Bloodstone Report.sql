@@ -39,7 +39,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (43807, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (43807, 0, 4294967295, 'Lord Kastellar', 'prewritten', True, 'My dear Lord Gregor,
+VALUES (43807, 0, 0xFFFFFFFF, 'Lord Kastellar', 'prewritten', True, 'My dear Lord Gregor,
 
 As you have requested, here is an update on my progress with the creation of the Bloodstones. As you have seen with the Bloodstones already released in the area held by the Gurog above, the Bloodstones themselves are a success. At the behest of the Archons, I have also experimented in the creation of smaller varieties, with a focus on speeding the process. Progress on these goes well, and already a number of smaller Bloodstone Shards and Fragments have been completed.
 

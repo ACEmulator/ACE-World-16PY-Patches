@@ -217,8 +217,8 @@ VALUES (0x7007A0AB, 34787, 0x007A0251, 180, -60, -24, 0.696707, 0, 0, 0.717356, 
 /* @teleloc 0x007A0251 [180.000000 -60.000000 -24.000000] 0.696707 0.000000 0.000000 0.717356 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007A0B0, 34791, 0x007A0263, 200, -40, -24, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Guruk Marauder */
-/* @teleloc 0x007A0263 [200.000000 -40.000000 -24.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7007A0B0, 34791, 0x007A0263, 200, -40, -24, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Guruk Marauder */
+/* @teleloc 0x007A0263 [200.000000 -40.000000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007A0B1, 34799, 0x007A0270, 213.71, -62.2321, -24, 0.91768, 0, 0, -0.39732,  True, '2021-11-01 00:00:00'); /* Guruk Spore Seeker */

@@ -12,7 +12,7 @@ VALUES (6827, 0, 105, 1, 2, 'The target item cannot be enchanted!') /* Target.It
      , (6827, 0, 179, 536870912, 3, 'You have already empowered this weapon with the ability to slay creatures and it cannot be further modified.') /* Target.ImbuedEffect - IgnoreSomeMagicProjectileDamage GreaterThanEqual 536870912 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (6827, True, 0, 0, 0, False, 939524166, 1, 0);
+VALUES (6827, True, 0, 0, 0, False, 0x38000046, 1, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 

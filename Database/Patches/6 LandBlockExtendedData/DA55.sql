@@ -410,8 +410,8 @@ VALUES (0x7DA55089, 44893, 0xDA55017C, 129.117, 103.376, 25.605, -0.635647, 0, 0
 /* @teleloc 0xDA55017C [129.117004 103.375999 25.605000] -0.635647 0.000000 0.000000 0.771980 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DA5508A, 33614, 0xDA55001D, 82, 102, 20.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Pathwarden Koro Ijida */
-/* @teleloc 0xDA55001D [82.000000 102.000000 20.004999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7DA5508A, 33614, 0xDA55001D, 82, 102, 20.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Pathwarden Koro Ijida */
+/* @teleloc 0xDA55001D [82.000000 102.000000 20.004999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA5508B, 38045, 0xDA550192, 81.415, 63.2578, 20.045, -0.703308, 0, 0, 0.710886, False, '2021-11-01 00:00:00'); /* Hiro Ishigame */
@@ -455,4 +455,4 @@ VALUES (0x7DA55099, 44187, 0xDA550177, 126.366, 113.351, 20.005, -0.04714, 0, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA5509A, 44208, 0xDA550177, 128.587, 113.54, 20.005, 0.042533, 0, 0, -0.999095, False, '2021-11-01 00:00:00'); /* Ohayashi Hiroshi */
-/* @teleloc 0xDA550177 [128.587006 113.540001 20.004999] 0.042532 0.000000 0.000000 -0.999095 */
+/* @teleloc 0xDA550177 [128.587006 113.540001 20.004999] 0.042533 0.000000 0.000000 -0.999095 */

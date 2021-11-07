@@ -18,7 +18,7 @@ INSERT INTO `recipe_requirements_float` (`recipe_Id`, `index`, `stat`, `value`, 
 VALUES (8751, 0,  22, 0, 1, 'The target item cannot be empowered!') /* Target.DamageVariance LessThanEqual 0 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (8751, True, 0, 0, 0, False, 939524124, 0, 0);
+VALUES (8751, True, 0, 0, 0, False, 0x3800001C, 0, 0);
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (8751, True, 0, 0, 0, False, 0, 0, 0);

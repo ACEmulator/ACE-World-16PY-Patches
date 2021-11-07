@@ -30,7 +30,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (72168, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (72168, 0, 4294967295, 'Diyas al-Yat', 'prewritten', False, 'So ordinary..So average...Yet this world holds rather surprising potential. The tests will begin right away. The sooner I can enlighten these lesser beings the sooner an untarnished world can be revealed.
+VALUES (72168, 0, 0xFFFFFFFF, 'Diyas al-Yat', 'prewritten', False, 'So ordinary..So average...Yet this world holds rather surprising potential. The tests will begin right away. The sooner I can enlighten these lesser beings the sooner an untarnished world can be revealed.
 
 The species are many and diverse, filtering through will be a lengthy yet gratifying process. The creatures are quite simple-minded and they might not be capable of fully comprehending the journey I will lead them on. In time though, with my assistance, all will understand the beautiful utopia I will have created for them.
 

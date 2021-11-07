@@ -46,13 +46,13 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5409, 2, 2000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5409, 0, 4294967295, ' ', 'prewritten', False, 'The Champions
+VALUES (5409, 0, 0xFFFFFFFF, ' ', 'prewritten', False, 'The Champions
 
 Physical prowess has long been the "true metric" by which heroes are measured.  Those whose physical ability is far beyond that of the average denizen of Dereth shall here be acclaimed for their bodies, if not for their deeds.  The physical ratings used herein are based on the candidates'' strength, quickness, endurance, and coordination, each given equal weight.
 
 (more)
 ')
-     , (5409, 1, 4294967295, '', 'prewritten', False, '%S
+     , (5409, 1, 0xFFFFFFFF, '', 'prewritten', False, '%S
 
 These pages were penned on %D and reflect the most up-to-date information at the time.
 

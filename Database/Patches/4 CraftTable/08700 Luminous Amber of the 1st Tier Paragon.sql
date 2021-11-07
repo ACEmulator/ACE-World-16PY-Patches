@@ -8,7 +8,7 @@ VALUES (8700, 0, 265, 138, 3, 'The target is already imbued with the magics of t
      , (8700, 0, 265, 0, 8, 'The target cannot be imbued with the magics of the Paragon!') /* Target.EquipmentSetId - Invalid Exist 0 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (8700, True, 0, 0, 0, False, 956301312, 0, 0);
+VALUES (8700, True, 0, 0, 0, False, 0x39000000, 0, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 
