@@ -13,13 +13,13 @@ Give: 41540
 
 Give: 42114
     - Goto: TurnInFive
-    
+
 Give: 41564
     - Goto: TurnInThree
 
 Give: 41565
     - Goto: TurnInThree
-    
+
 Give: 41566
     - Goto: TurnInOne
 
@@ -35,11 +35,7 @@ GotoSet: TurnInFive
         QuestSuccess:
             - Goto DefaultText
         QuestFailure:
-            - StampQuest: GearKnightConstructionTurnInsTakahume
-            - StampQuest: GearKnightConstructionTurnInsTakahume
-            - StampQuest: GearKnightConstructionTurnInsTakahume
-            - StampQuest: GearKnightConstructionTurnInsTakahume
-            - StampQuest: GearKnightConstructionTurnInsTakahume
+            - IncrementQuest: GearKnightConstructionTurnInsTakahume, 5
             - Tell: Thank you for your help.
             - InqQuestSolves: GearKnightConstructionTurnInsTakahume@200-204_5, 200 - 204
                 QuestSuccess:
@@ -58,16 +54,14 @@ GotoSet: TurnInFive
                                             Goto Award50
                                         QuestFailure:
                                             Goto DefaultText
-                                            
+
 GotoSet: TurnInThree
     - TurnToTarget
     - InqQuest: GearKnightConstructionCompletedTakahume
         QuestSuccess:
             - Goto DefaultText
         QuestFailure:
-            - StampQuest: GearKnightConstructionTurnInsTakahume
-            - StampQuest: GearKnightConstructionTurnInsTakahume
-            - StampQuest: GearKnightConstructionTurnInsTakahume
+            - IncrementQuest: GearKnightConstructionTurnInsTakahume, 3
             - Tell: Thank you for your help.
             - InqQuestSolves: GearKnightConstructionTurnInsTakahume@200-202_5, 200 - 202
                 QuestSuccess:
@@ -86,7 +80,7 @@ GotoSet: TurnInThree
                                             Goto Award50
                                         QuestFailure:
                                             Goto DefaultText
-                
+
 GotoSet: TurnInOne
     - TurnToTarget
     - InqQuest: GearKnightConstructionCompletedTakahume
@@ -112,7 +106,7 @@ GotoSet: TurnInOne
                                             Goto Award50
                                         QuestFailure:
                                             Goto DefaultText
-                                            
+
 GotoSet: DefaultText
     - Tell: The work progresses well. Please find me more Aetherium Ore, Power Cores and parts from the Gear Knights invading Dereth.
 
