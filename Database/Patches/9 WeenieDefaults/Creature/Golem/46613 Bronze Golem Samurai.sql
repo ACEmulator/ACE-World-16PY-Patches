@@ -36,7 +36,7 @@ VALUES (46613,   1,       5) /* HeartbeatInterval */
      , (46613,  17,       1) /* ArmorModVsFire */
      , (46613,  18,       1) /* ArmorModVsAcid */
      , (46613,  19,     0.9) /* ArmorModVsElectric */
-     , (46613,  31,      17) /* VisualAwarenessRange */
+     , (46613,  31,      35) /* VisualAwarenessRange */
      , (46613,  34,     2.3) /* PowerupTime */
      , (46613,  39,     1.2) /* DefaultScale */
      , (46613,  64,     0.1) /* ResistSlash */

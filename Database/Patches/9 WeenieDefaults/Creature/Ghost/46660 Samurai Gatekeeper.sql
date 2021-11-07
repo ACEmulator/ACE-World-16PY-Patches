@@ -33,7 +33,7 @@ VALUES (46660,  12,   0.429) /* Shade */
      , (46660,  17,     100) /* ArmorModVsFire */
      , (46660,  18,    0.74) /* ArmorModVsAcid */
      , (46660,  19,    0.74) /* ArmorModVsElectric */
-     , (46660,  31,      16) /* VisualAwarenessRange */
+     , (46660,  31,      35) /* VisualAwarenessRange */
      , (46660,  34,       1) /* PowerupTime */
      , (46660,  36,       1) /* ChargeSpeed */
      , (46660,  64,    0.45) /* ResistSlash */

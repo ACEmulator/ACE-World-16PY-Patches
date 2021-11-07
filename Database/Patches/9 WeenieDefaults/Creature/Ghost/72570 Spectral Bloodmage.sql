@@ -40,7 +40,7 @@ VALUES (72570,   1,       5) /* HeartbeatInterval */
      , (72570,  17,       1) /* ArmorModVsFire */
      , (72570,  18,       1) /* ArmorModVsAcid */
      , (72570,  19,       1) /* ArmorModVsElectric */
-     , (72570,  31,      30) /* VisualAwarenessRange */
+     , (72570,  31,      35) /* VisualAwarenessRange */
      , (72570,  34,       1) /* PowerupTime */
      , (72570,  36,       1) /* ChargeSpeed */
      , (72570,  54,       5) /* UseRadius */

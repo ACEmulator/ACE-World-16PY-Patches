@@ -39,7 +39,7 @@ VALUES (72555,   1,       5) /* HeartbeatInterval */
      , (72555,  17,    0.95) /* ArmorModVsFire */
      , (72555,  18,       1) /* ArmorModVsAcid */
      , (72555,  19,       1) /* ArmorModVsElectric */
-     , (72555,  31,      18) /* VisualAwarenessRange */
+     , (72555,  31,      35) /* VisualAwarenessRange */
      , (72555,  64,    0.45) /* ResistSlash */
      , (72555,  65,    0.35) /* ResistPierce */
      , (72555,  66,     0.6) /* ResistBludgeon */

@@ -33,7 +33,7 @@ VALUES (72532,   1,       5) /* HeartbeatInterval */
      , (72532,  17,       1) /* ArmorModVsFire */
      , (72532,  18,    0.85) /* ArmorModVsAcid */
      , (72532,  19,       1) /* ArmorModVsElectric */
-     , (72532,  31,      25) /* VisualAwarenessRange */
+     , (72532,  31,      35) /* VisualAwarenessRange */
      , (72532,  34,       1) /* PowerupTime */
      , (72532,  36,       1) /* ChargeSpeed */
      , (72532,  39,     1.2) /* DefaultScale */

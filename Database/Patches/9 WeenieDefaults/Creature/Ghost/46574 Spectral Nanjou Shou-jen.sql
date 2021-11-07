@@ -43,7 +43,7 @@ VALUES (46574,   1,       5) /* HeartbeatInterval */
      , (46574,  17,       1) /* ArmorModVsFire */
      , (46574,  18,       1) /* ArmorModVsAcid */
      , (46574,  19,       1) /* ArmorModVsElectric */
-     , (46574,  31,      18) /* VisualAwarenessRange */
+     , (46574,  31,      35) /* VisualAwarenessRange */
      , (46574,  39,       1) /* DefaultScale */
      , (46574,  64,    0.45) /* ResistSlash */
      , (46574,  65,    0.35) /* ResistPierce */
