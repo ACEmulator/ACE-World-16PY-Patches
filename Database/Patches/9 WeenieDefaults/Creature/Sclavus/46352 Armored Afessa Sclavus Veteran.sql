@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46352;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46352, 'ace46352-armoredafessasclavusveteran', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (46352, 'ace46352-armoredafessasclavusveteran', 10, '2021-11-08 06:01:47') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46352,   1,         16) /* ItemType - Creature */
@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46352,   1, 'Armored Afessa Sclavus Veteran') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46352,   1,   33560596) /* Setup */
-     , (46352,   2,  150995368) /* MotionTable */
-     , (46352,   3,  536870977) /* SoundTable */
-     , (46352,   4,  805306393) /* CombatTable */
-     , (46352,   6,   67111936) /* PaletteBase */
-     , (46352,   7,  268435727) /* ClothingBase */
-     , (46352,   8,  100669120) /* Icon */
-     , (46352,  22,  872415280) /* PhysicsEffectTable */
+VALUES (46352,   1, 0x02001814) /* Setup */
+     , (46352,   2, 0x090001A8) /* MotionTable */
+     , (46352,   3, 0x20000041) /* SoundTable */
+     , (46352,   4, 0x30000019) /* CombatTable */
+     , (46352,   6, 0x04000C00) /* PaletteBase */
+     , (46352,   7, 0x1000010F) /* ClothingBase */
+     , (46352,   8, 0x060016C0) /* Icon */
+     , (46352,  22, 0x34000030) /* PhysicsEffectTable */
      , (46352,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
@@ -117,5 +117,5 @@ VALUES (46352,  4300,   2.02)  /* Incantation of Enfeeble Other */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46352, 2, 46405,  1, 0, 0, False) /* Create T'thuun Sword (46405) for Wield */
      , (46352, 2, 40266,  1, 0, 0, False) /* Create T'thuun Aegis (40266) for Wield */
-     , (46352, 9, 34963,  0, 0, 0.02, False) /* Create  (34963) for ContainTreasure */
+     , (46352, 9, 34963,  0, 0, 0.02, False) /* Create Misshapen Bone Fragment (34963) for ContainTreasure */
      , (46352, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

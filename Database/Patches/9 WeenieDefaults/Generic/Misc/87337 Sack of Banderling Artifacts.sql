@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87337;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87337, 'ace87337-SackofBanderlingArtifacts', 1, '2020-09-18 13:29:54') /* Generic */;
+VALUES (87337, 'ace87337-SackofBanderlingArtifacts', 1, '2021-11-08 06:01:47') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87337,   1,        128) /* ItemType - Misc */
@@ -21,5 +21,5 @@ VALUES (87337,   1, 'Sack of Banderling Artifacts') /* Name */
      , (87337,  33, 'SackofBanderlingArtifactsPickupTimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87337,   1,   33554817) /* Setup */
-     , (87337,   8,  100670082) /* Icon */;
+VALUES (87337,   1, 0x02000181) /* Setup */
+     , (87337,   8, 0x06001A82) /* Icon */;

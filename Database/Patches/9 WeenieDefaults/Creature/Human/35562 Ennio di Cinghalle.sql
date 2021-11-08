@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35562;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35562, 'ace35562-enniodicinghalle', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (35562, 'ace35562-enniodicinghalle', 10, '2021-11-08 06:01:47') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35562,   1,         16) /* ItemType - Creature */
@@ -30,11 +30,11 @@ VALUES (35562,   1, 'Ennio di Cinghalle') /* Name */
      , (35562,   5, 'Royal Investigator') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35562,   1,   33554433) /* Setup */
-     , (35562,   2,  150994945) /* MotionTable */
-     , (35562,   3,  536870913) /* SoundTable */
-     , (35562,   6,   67108990) /* PaletteBase */
-     , (35562,   8,  100667377) /* Icon */;
+VALUES (35562,   1, 0x02000001) /* Setup */
+     , (35562,   2, 0x09000001) /* MotionTable */
+     , (35562,   3, 0x20000001) /* SoundTable */
+     , (35562,   6, 0x0400007E) /* PaletteBase */
+     , (35562,   8, 0x06000FF1) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35562,   1, 230, 0, 0) /* Strength */
@@ -148,7 +148,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Ahh, the translation. Thank you for this. I will forward this on to my superiors, and those to whom I am aiding in this investigation. Here, take a copy of this for yourself, and also, the reward I''ve promised you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,   2 /* AwardXP */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 96549429, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 35566 /* Observations: Harraag */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  3,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 506, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  3,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 506 /* RoyalInvestigator */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  18 /* DirectBroadcast */, 1, 1, NULL, 'Ennio di Cinghalle awards you the title, "Royal Investigator".', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,  22 /* StampQuest */, 0, 1, NULL, 'TheArchivist_Repeat', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

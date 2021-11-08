@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35561;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35561, 'ace35561-virindimessageshard', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (35561, 'ace35561-virindimessageshard', 38, '2021-11-08 06:01:47') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35561,   1,       2048) /* ItemType - Gem */
@@ -31,7 +31,7 @@ VALUES (35561,   1, 'Virindi Message Shard') /* Name */
      , (35561,  33, 'VirindiMessageShardPickupTimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35561,   1,   33555391) /* Setup */
-     , (35561,   3,  536870932) /* SoundTable */
-     , (35561,   8,  100671395) /* Icon */
-     , (35561,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35561,   1, 0x020003BF) /* Setup */
+     , (35561,   3, 0x20000014) /* SoundTable */
+     , (35561,   8, 0x06001FA3) /* Icon */
+     , (35561,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46347;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46347, 'ace46347-partiallyrestoredpage', 51, '2019-02-10 00:00:00') /* Stackable */;
+VALUES (46347, 'ace46347-partiallyrestoredpage', 51, '2021-11-08 06:01:47') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46347,   1,        128) /* ItemType - Misc */
@@ -25,7 +25,7 @@ VALUES (46347,   1, 'Partially Restored Page') /* Name */
      , (46347,  16, 'Two combined pieces of a torn page. The right-most edge still seems to be missing. The page itself is covered in ancient Falatacot symbols.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46347,   1,   33554773) /* Setup */
-     , (46347,   3,  536870932) /* SoundTable */
-     , (46347,   8,  100692695) /* Icon */
-     , (46347,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46347,   1, 0x02000155) /* Setup */
+     , (46347,   3, 0x20000014) /* SoundTable */
+     , (46347,   8, 0x060072D7) /* Icon */
+     , (46347,  22, 0x3400002B) /* PhysicsEffectTable */;

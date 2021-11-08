@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87628;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87628, 'ace87628-TotBSmukkirgen', 1, '2021-10-13 00:06:48') /* Generic */;
+VALUES (87628, 'ace87628-TotBSmukkirgen', 1, '2021-11-08 06:01:47') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87628,  81,          1) /* MaxGeneratedObjects */
@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87628,   1, 'TotBS Mukkir Generator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87628,   1,   33555051) /* Setup */
-     , (87628,   8,  100667494) /* Icon */;
+VALUES (87628,   1, 0x0200026B) /* Setup */
+     , (87628,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (87628, 0.33, 31897, 1, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Barbaric Mukkir (31897) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46354;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46354, 'ace46354-falatacotbloodprophetess', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (46354, 'ace46354-falatacotbloodprophetess', 10, '2021-11-08 06:01:47') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46354,   1,         16) /* ItemType - Creature */
@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46354,   1, 'Falatacot Blood Prophetess') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46354,   1,   33558437) /* Setup */
-     , (46354,   2,  150994967) /* MotionTable */
-     , (46354,   3,  536870934) /* SoundTable */
-     , (46354,   4,  805306368) /* CombatTable */
-     , (46354,   6,   67114480) /* PaletteBase */
-     , (46354,   7,  268436672) /* ClothingBase */
-     , (46354,   8,  100674805) /* Icon */
-     , (46354,  22,  872415272) /* PhysicsEffectTable */
+VALUES (46354,   1, 0x02000FA5) /* Setup */
+     , (46354,   2, 0x09000017) /* MotionTable */
+     , (46354,   3, 0x20000016) /* SoundTable */
+     , (46354,   4, 0x30000000) /* CombatTable */
+     , (46354,   6, 0x040015F0) /* PaletteBase */
+     , (46354,   7, 0x100004C0) /* ClothingBase */
+     , (46354,   8, 0x06002CF5) /* Icon */
+     , (46354,  22, 0x34000028) /* PhysicsEffectTable */
      , (46354,  35,       1012) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

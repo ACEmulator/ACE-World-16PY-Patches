@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87679;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87679, 'ace87679-tanadaconsulsmessageshard', 8, '2021-10-25 09:51:00') /* Book */;
+VALUES (87679, 'ace87679-tanadaconsulsmessageshard', 8, '2021-11-08 06:01:47') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87679,   1,        128) /* ItemType - Misc */
@@ -36,4 +36,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (87679, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (87679, 0, 4294967295, 'Unknown', 'prewritten', False, '[You cannot understand the writing on this.]');
+VALUES (87679, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '[You cannot understand the writing on this.]');

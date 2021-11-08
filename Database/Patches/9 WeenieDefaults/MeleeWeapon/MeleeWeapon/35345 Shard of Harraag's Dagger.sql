@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35345;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35345, 'ace35345-shardofharraagsdagger', 6, '2019-02-10 00:00:00') /* MeleeWeapon */;
+VALUES (35345, 'ace35345-shardofharraagsdagger', 6, '2021-11-08 06:01:47') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35345,   1,          1) /* ItemType - MeleeWeapon */
@@ -54,10 +54,10 @@ VALUES (35345,   1, 'Shard of Harraag''s Dagger') /* Name */
      , (35345,  16, 'A crystalline dagger, crafted from a shard of the dagger carried by the strangely altered Banderling, Harraag.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35345,   1,   33560291) /* Setup */
-     , (35345,   3,  536870932) /* SoundTable */
-     , (35345,   8,  100671865) /* Icon */
-     , (35345,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35345,   1, 0x020016E3) /* Setup */
+     , (35345,   3, 0x20000014) /* SoundTable */
+     , (35345,   8, 0x06002179) /* Icon */
+     , (35345,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35345,  55,       1788) /* ProcSpell - Eye of the Storm */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

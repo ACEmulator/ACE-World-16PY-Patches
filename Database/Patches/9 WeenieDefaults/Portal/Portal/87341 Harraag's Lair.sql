@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87341;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87341, 'ace87341-harraagslair', 7, '2019-02-10 00:00:00') /* Portal */;
+VALUES (87341, 'ace87341-harraagslair', 7, '2021-11-08 06:01:47') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87341,   1,      65536) /* ItemType - Portal */
@@ -25,11 +25,11 @@ VALUES (87341,   1, 'Harraag''s Lair') /* Name */
      , (87341,  33, 'HarraagsLairFlag') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87341,   1,   33555925) /* Setup */
-     , (87341,   2,  150994947) /* MotionTable */
-     , (87341,   3,  536870932) /* SoundTable */
-     , (87341,   8,  100667499) /* Icon */;
+VALUES (87341,   1, 0x020005D5) /* Setup */
+     , (87341,   2, 0x09000003) /* MotionTable */
+     , (87341,   3, 0x20000014) /* SoundTable */
+     , (87341,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (87341, 2, 6292671, 120, -20, 0, -0.923879, 0, 0, -0.382684) /* Destination */
+VALUES (87341, 2, 0x006004BF, 120, -20, 0, -0.923879, 0, 0, -0.382684) /* Destination */
 /* @teleloc 0x006004BF [120.000000 -20.000000 0.000000] -0.923879 0.000000 0.000000 -0.382684 */;

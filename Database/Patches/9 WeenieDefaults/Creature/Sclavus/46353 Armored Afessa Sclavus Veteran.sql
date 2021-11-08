@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46353;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46353, 'ace46353-armoredafessasclavusveteran', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (46353, 'ace46353-armoredafessasclavusveteran', 10, '2021-11-08 06:01:47') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46353,   1,         16) /* ItemType - Creature */
@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46353,   1, 'Armored Afessa Sclavus Veteran') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46353,   1,   33560597) /* Setup */
-     , (46353,   2,  150995368) /* MotionTable */
-     , (46353,   3,  536870977) /* SoundTable */
-     , (46353,   4,  805306393) /* CombatTable */
-     , (46353,   6,   67111936) /* PaletteBase */
-     , (46353,   7,  268435727) /* ClothingBase */
-     , (46353,   8,  100669120) /* Icon */
-     , (46353,  22,  872415280) /* PhysicsEffectTable */
+VALUES (46353,   1, 0x02001815) /* Setup */
+     , (46353,   2, 0x090001A8) /* MotionTable */
+     , (46353,   3, 0x20000041) /* SoundTable */
+     , (46353,   4, 0x30000019) /* CombatTable */
+     , (46353,   6, 0x04000C00) /* PaletteBase */
+     , (46353,   7, 0x1000010F) /* ClothingBase */
+     , (46353,   8, 0x060016C0) /* Icon */
+     , (46353,  22, 0x34000030) /* PhysicsEffectTable */
      , (46353,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46285;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46285, 'ace46285-desertflower', 51, '2019-02-10 00:00:00') /* Stackable */;
+VALUES (46285, 'ace46285-desertflower', 51, '2021-11-08 06:01:47') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46285,   1,        128) /* ItemType - Misc */
@@ -29,7 +29,7 @@ VALUES (46285,   1, 'Desert Flower') /* Name */
      , (46285,  15, 'A small, delicate cactus flower found only in the Lost City of Neftet.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46285,   1,   33561458) /* Setup */
-     , (46285,   3,  536870932) /* SoundTable */
-     , (46285,   8,  100692657) /* Icon */
-     , (46285,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46285,   1, 0x02001B72) /* Setup */
+     , (46285,   3, 0x20000014) /* SoundTable */
+     , (46285,   8, 0x060072B1) /* Icon */
+     , (46285,  22, 0x3400002B) /* PhysicsEffectTable */;

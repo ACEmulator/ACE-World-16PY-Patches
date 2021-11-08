@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46389;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46389, 'ace46389-bloodlettingdagger', 6, '2019-02-10 00:00:00') /* MeleeWeapon */;
+VALUES (46389, 'ace46389-bloodlettingdagger', 6, '2021-11-08 06:01:47') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46389,   1,          1) /* ItemType - MeleeWeapon */
@@ -31,11 +31,11 @@ VALUES (46389,  11, True ) /* IgnoreCollisions */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46389,  12,     0.5) /* Shade */
-     , (46389,  21, 0.400000005960464) /* WeaponLength */
-     , (46389,  22, 0.600000023841858) /* DamageVariance */
+     , (46389,  21,     0.4) /* WeaponLength */
+     , (46389,  22,     0.6) /* DamageVariance */
      , (46389,  26,       0) /* MaximumVelocity */
-     , (46389,  29, 1.04999995231628) /* WeaponDefense */
-     , (46389,  62, 1.04999995231628) /* WeaponOffense */
+     , (46389,  29,    1.05) /* WeaponDefense */
+     , (46389,  62,    1.05) /* WeaponOffense */
      , (46389,  63,     1.2) /* DamageMod */
      , (46389,  76,     0.5) /* Translucency */;
 
@@ -43,9 +43,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46389,   1, 'Bloodletting Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46389,   1,   33560633) /* Setup */
-     , (46389,   3,  536870932) /* SoundTable */
-     , (46389,   6,   67114956) /* PaletteBase */
-     , (46389,   7,  268436792) /* ClothingBase */
-     , (46389,   8,  100675921) /* Icon */
-     , (46389,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46389,   1, 0x02001839) /* Setup */
+     , (46389,   3, 0x20000014) /* SoundTable */
+     , (46389,   6, 0x040017CC) /* PaletteBase */
+     , (46389,   7, 0x10000538) /* ClothingBase */
+     , (46389,   8, 0x06003151) /* Icon */
+     , (46389,  22, 0x3400002B) /* PhysicsEffectTable */;

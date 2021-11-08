@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87336;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87336, 'ace87336-harraagsdagger', 6, '2019-02-10 00:00:00') /* MeleeWeapon */;
+VALUES (87336, 'ace87336-harraagsdagger', 6, '2021-11-08 06:01:47') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87336,   1,          1) /* ItemType - MeleeWeapon */
@@ -51,14 +51,14 @@ VALUES (87336,   5,   -0.05) /* ManaRate */
      , (87336, 149,     1.1) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (87336,   1, 'Harraag''s Crystalline Dagger ') /* Name */
+VALUES (87336,   1, 'Harraag''s Crystalline Dagger') /* Name */
      , (87336,  16, 'What appears to be an enlarged Virindi Scalpel, crackling with violent energies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87336,   1,   33560291) /* Setup */
-     , (87336,   3,  536870932) /* SoundTable */
-     , (87336,   8,  100671865) /* Icon */
-     , (87336,  22,  872415275) /* PhysicsEffectTable */
+VALUES (87336,   1, 0x020016E3) /* Setup */
+     , (87336,   3, 0x20000014) /* SoundTable */
+     , (87336,   8, 0x06002179) /* Icon */
+     , (87336,  22, 0x3400002B) /* PhysicsEffectTable */
      , (87336,  55,       1788) /* ProcSpell - Eye of the Storm */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

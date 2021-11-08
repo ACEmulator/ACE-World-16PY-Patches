@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35559;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35559, 'ace35559-tempestshadow', 10, '2019-02-10 00:00:00') /* Creature */;
+VALUES (35559, 'ace35559-tempestshadow', 10, '2021-11-08 06:01:47') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35559,   1,         16) /* ItemType - Creature */
@@ -69,14 +69,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35559,   1, 'Tempest Shadow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35559,   1,   33558345) /* Setup */
-     , (35559,   2,  150995091) /* MotionTable */
-     , (35559,   3,  536870914) /* SoundTable */
-     , (35559,   4,  805306368) /* CombatTable */
-     , (35559,   6,   67108990) /* PaletteBase */
-     , (35559,   7,  268436623) /* ClothingBase */
-     , (35559,   8,  100670398) /* Icon */
-     , (35559,  22,  872415331) /* PhysicsEffectTable */
+VALUES (35559,   1, 0x02000F49) /* Setup */
+     , (35559,   2, 0x09000093) /* MotionTable */
+     , (35559,   3, 0x20000002) /* SoundTable */
+     , (35559,   4, 0x30000000) /* CombatTable */
+     , (35559,   6, 0x0400007E) /* PaletteBase */
+     , (35559,   7, 0x1000048F) /* ClothingBase */
+     , (35559,   8, 0x06001BBE) /* Icon */
+     , (35559,  22, 0x34000063) /* PhysicsEffectTable */
      , (35559,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

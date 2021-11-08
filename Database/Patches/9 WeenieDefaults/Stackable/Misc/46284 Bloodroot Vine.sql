@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46284;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46284, 'ace46284-bloodrootvine', 51, '2019-02-10 00:00:00') /* Stackable */;
+VALUES (46284, 'ace46284-bloodrootvine', 51, '2021-11-08 06:01:47') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46284,   1,        128) /* ItemType - Misc */
@@ -29,7 +29,7 @@ VALUES (46284,   1, 'Bloodroot Vine') /* Name */
      , (46284,  15, 'A small, spiky vine with blood-red roots, found only in the Valley of Death.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46284,   1,   33561457) /* Setup */
-     , (46284,   3,  536870932) /* SoundTable */
-     , (46284,   8,  100692656) /* Icon */
-     , (46284,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46284,   1, 0x02001B71) /* Setup */
+     , (46284,   3, 0x20000014) /* SoundTable */
+     , (46284,   8, 0x060072B0) /* Icon */
+     , (46284,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87338;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87338, 'ace87338-shardofharraagsdaggerquestitem', 1, '2019-02-10 00:00:00') /* Generic */;
+VALUES (87338, 'ace87338-shardofharraagsdaggerquestitem', 1, '2021-11-08 06:01:47') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87338,   1,        128) /* ItemType - Misc */
@@ -31,8 +31,8 @@ VALUES (87338,   1, 'Shard of Harraag''s Dagger') /* Name */
      , (87338,  33, 'shardofharraagsdaggerPickupTimer') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87338,   1,   33556406) /* Setup */
-     , (87338,   3,  536870932) /* SoundTable */
-     , (87338,   6,   67111919) /* PaletteBase */
-     , (87338,   8,  100689363) /* Icon */
-     , (87338,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (87338,   1, 0x020007B6) /* Setup */
+     , (87338,   3, 0x20000014) /* SoundTable */
+     , (87338,   6, 0x04000BEF) /* PaletteBase */
+     , (87338,   8, 0x060065D3) /* Icon */
+     , (87338,  22, 0x3400002B) /* PhysicsEffectTable */;

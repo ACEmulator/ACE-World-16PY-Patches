@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87680;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87680, 'ace87680-tanadahouseofwaterorders', 8, '2021-10-25 10:12:57') /* Book */;
+VALUES (87680, 'ace87680-tanadahouseofwaterorders', 8, '2021-11-08 06:01:47') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87680,   1,        128) /* ItemType - Misc */
@@ -31,4 +31,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (87680, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (87680, 0, 4294967295, 'Unknown', 'prewritten', False, 'Your portion of the Directive is to assume control of the human Tanada assassins in the facility they call "House of Water". By some artifact of their abstracted devotion to the physical properties of liquid, they are more malleable to manipulation than their associates. Once the House of Water has been turned, we may be able to use them to bind the other Tanada more completely to our cause, at least in two cases. The fourth House may require total eradication, but that will not be your portion of the Directive. We anticipate your success with what may be described as "eagerness" for a more complete conjunction between our goals and the blades of the Tanada. We warn you that the humans, especially those devoted to an entity known as "Ben Ten", will strive to disrupt your plans with their customary crudeness. Prepare your assassins to repulse the inevitable assault.');
+VALUES (87680, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, 'Your portion of the Directive is to assume control of the human Tanada assassins in the facility they call "House of Water". By some artifact of their abstracted devotion to the physical properties of liquid, they are more malleable to manipulation than their associates. Once the House of Water has been turned, we may be able to use them to bind the other Tanada more completely to our cause, at least in two cases. The fourth House may require total eradication, but that will not be your portion of the Directive. We anticipate your success with what may be described as "eagerness" for a more complete conjunction between our goals and the blades of the Tanada. We warn you that the humans, especially those devoted to an entity known as "Ben Ten", will strive to disrupt your plans with their customary crudeness. Prepare your assassins to repulse the inevitable assault.');

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48779;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48779, 'ace48779-contractforlostlore', 38, '2019-02-10 00:00:00') /* Gem */;
+VALUES (48779, 'ace48779-contractforlostlore', 38, '2021-11-08 06:01:47') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48779,   1,       2048) /* ItemType - Gem */
@@ -31,7 +31,7 @@ VALUES (48779,   1, 'Contract for Lost Lore') /* Name */
      , (48779,  16, 'Find the Lost Lore of the Three Sisters.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48779,   1,   33557625) /* Setup */
-     , (48779,   3,  536870932) /* SoundTable */
-     , (48779,   8,  100691930) /* Icon */
-     , (48779,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48779,   1, 0x02000C79) /* Setup */
+     , (48779,   3, 0x20000014) /* SoundTable */
+     , (48779,   8, 0x06006FDA) /* Icon */
+     , (48779,  22, 0x3400002B) /* PhysicsEffectTable */;
