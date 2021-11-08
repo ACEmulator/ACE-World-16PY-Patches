@@ -20,9 +20,7 @@ VALUES (24024,   1, True ) /* Stuck */
      , (24024,  13, True ) /* Ethereal */
      , (24024,  14, False) /* GravityStatus */
      , (24024,  15, True ) /* LightsStatus */
-     , (24024,  19, True ) /* Attackable */
      , (24024,  24, False) /* UiHidden */
-     , (24024,  88, True ) /* PortalShowDestination */
      , (24024,  89, True ) /* PortalIgnoresPkAttackTimer */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

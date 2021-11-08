@@ -14,9 +14,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29339,   1, True ) /* Stuck */
      , (29339,  12, True ) /* ReportCollisions */
      , (29339,  13, True ) /* Ethereal */
-     , (29339,  14, True ) /* GravityStatus */
-     , (29339,  15, True ) /* LightsStatus */
-     , (29339,  19, True ) /* Attackable */;
+     , (29339,  15, True ) /* LightsStatus */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29339,  54,    -0.1) /* UseRadius */;
