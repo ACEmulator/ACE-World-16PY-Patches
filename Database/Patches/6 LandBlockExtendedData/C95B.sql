@@ -312,3 +312,7 @@ VALUES (0x7C95B06E, 33828, 0xC95B0131, 116.491, 56.7709, 13.2, 1, 0, 0, 0, False
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C95B06F, 37089, 0xC95B001E, 78, 121, 12.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Nomendar al-Rakh */
 /* @teleloc 0xC95B001E [78.000000 121.000000 12.005000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C95B070, 35853, 0xC95B002C, 134, 80, 12.005, 0.707107, 0, 0, -0.707107, False, '2021-10-25 15:14:18'); /* Pau Yajin */
+/* @teleloc 0xC95B002C [134.000000 80.000000 12.004999] 0.707107 0.000000 0.000000 -0.707107 */
