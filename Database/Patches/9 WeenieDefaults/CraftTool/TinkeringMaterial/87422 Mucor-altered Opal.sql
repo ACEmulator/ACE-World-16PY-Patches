@@ -35,5 +35,5 @@ VALUES (87422,   1, 0x02000181) /* Setup */
      , (87422,   7, 0x100003CE) /* ClothingBase */
      , (87422,   8, 0x060026BE) /* Icon */
      , (87422,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (87422,  50, 0x060026D7) /* IconOverlay */
+     , (87422,  50, 0x06002708) /* IconOverlay */
      , (87422,  52, 0x06003358) /* IconUnderlay */;

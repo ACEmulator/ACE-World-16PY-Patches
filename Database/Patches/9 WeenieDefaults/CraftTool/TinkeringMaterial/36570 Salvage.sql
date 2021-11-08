@@ -41,4 +41,5 @@ VALUES (36570,   1, 0x02000181) /* Setup */
      , (36570,   6, 0x04000BEF) /* PaletteBase */
      , (36570,   7, 0x100003CE) /* ClothingBase */
      , (36570,   8, 0x060066F1) /* Icon */
-     , (36570,  22, 0x3400002B) /* PhysicsEffectTable */;
+     , (36570,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36570,  50, 0x060026C9) /* IconOverlay */;
