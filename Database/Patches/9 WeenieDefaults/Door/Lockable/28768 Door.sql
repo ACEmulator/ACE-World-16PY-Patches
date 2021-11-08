@@ -4,11 +4,11 @@ INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
 VALUES (28768, 'doorruschkiceberg', 19, '2021-11-01 00:00:00') /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28768,   1,     131072) /* ItemType - Lockable */
+VALUES (28768,   1,        128) /* ItemType - Misc */
      , (28768,  16,         32) /* ItemUseable - Remote */
      , (28768,  19,          0) /* Value */
      , (28768,  38,       9999) /* ResistLockpick */
-     , (28768,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */;
+     , (28768,  93,          8) /* PhysicsState - ReportCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28768,   1, True ) /* Stuck */
