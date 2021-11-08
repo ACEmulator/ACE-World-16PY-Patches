@@ -38,7 +38,7 @@ VALUES (46502,   1,       5) /* HeartbeatInterval */
      , (46502,  17,    0.95) /* ArmorModVsFire */
      , (46502,  18,       1) /* ArmorModVsAcid */
      , (46502,  19,       1) /* ArmorModVsElectric */
-     , (46502,  31,      18) /* VisualAwarenessRange */
+     , (46502,  31,      35) /* VisualAwarenessRange */
      , (46502,  64,    0.45) /* ResistSlash */
      , (46502,  65,    0.35) /* ResistPierce */
      , (46502,  66,     0.6) /* ResistBludgeon */

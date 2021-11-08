@@ -40,7 +40,7 @@ VALUES (46529,   1,       5) /* HeartbeatInterval */
      , (46529,  17,    0.95) /* ArmorModVsFire */
      , (46529,  18,       1) /* ArmorModVsAcid */
      , (46529,  19,       1) /* ArmorModVsElectric */
-     , (46529,  31,      16) /* VisualAwarenessRange */
+     , (46529,  31,      35) /* VisualAwarenessRange */
      , (46529,  34,       1) /* PowerupTime */
      , (46529,  36,       1) /* ChargeSpeed */
      , (46529,  64,     0.5) /* ResistSlash */
