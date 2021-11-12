@@ -86,47 +86,10 @@ GotoSet: LevelCheck
 											- Goto: CounterReset
 
 GotoSet: CounterReset
-	- InqQuestSolves: DiseasedPolarLiver_Counter, 1 - 5
-		QuestSuccess:
-			- EraseQuest: DiseasedPolarLiver_Counter
-			- Goto: StalkerCheck
-		QuestFailure:
-			- Goto: StalkerCheck
-
-GotoSet: StalkerCheck
-	- InqQuestSolves: DiseasedStalkerLiver_Counter, 1 - 35
-		QuestSuccess:
-			- EraseQuest: DiseasedStalkerLiver_Counter
-			- Goto: FeralCheck
-		QuestFailure:
-			- Goto: FeralCheck
-
-GotoSet: FeralCheck
-	- InqQuestSolves: DiseasedFeralLiver_Counter, 1 - 30
-		QuestSuccess:
-			- EraseQuest: DiseasedFeralLiver_Counter
-			- Goto: CarnivorousCheck
-		QuestFailure:
-			- Goto: CarnivorousCheck
-
-GotoSet: CarnivorousCheck
-	- InqQuestSolves: DiseasedCarnivorousLiver_Counter, 1 - 15
-		QuestSuccess:
-			- EraseQuest: DiseasedCarnivorousLiver_Counter
-			- Goto: MangyCheck
-		QuestFailure:
-			- Goto: MangyCheck
-
-GotoSet: MangyCheck
-	- InqQuestSolves: DiseasedMangyLiver_Counter, 1 - 20
-		QuestSuccess:
-			- EraseQuest: DiseasedMangyLiver_Counter
-			- Goto: TaintedCheck
-		QuestFailure:
-			- Goto: TaintedCheck	
-
-GotoSet: TaintedCheck
-	- InqQuestSolves: DiseasedTaintedLiver_Counter, 1 - 13
-		QuestSuccess:
-			- EraseQuest: DiseasedTaintedLiver_Counter
+	- EraseQuest: DiseasedPolarLiver_Counter
+	- EraseQuest: DiseasedStalkerLiver_Counter
+	- EraseQuest: DiseasedFeralLiver_Counter
+	- EraseQuest: DiseasedCarnivorousLiver_Counter
+	- EraseQuest: DiseasedMangyLiver_Counter
+	- EraseQuest: DiseasedTaintedLiver_Counter
 			
