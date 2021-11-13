@@ -1,0 +1,3 @@
+DELETE FROM `event` WHERE `name` = 'HiveQueenVirindiTest';
+INSERT INTO `event` (`name`, `start_Time`, `end_Time`, `state`, `last_Modified`)
+VALUES ('HiveQueenVirindiTest', -1, -1, 3, '2020-01-24 19:57:17');
