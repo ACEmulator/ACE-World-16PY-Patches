@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (70007, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (70007, 0, 4294967295, 'Big Chief Hagra', '', False, 'To Big ''Rok with spear:
+VALUES (70007, 0, 0xFFFFFFFF, 'Big Chief Hagra', '', False, 'To Big ''Rok with spear:
 
 We no fight you! We sorry to steal! We stop stealing if we trade with you! You give us food, we give you tasty herbs for good dreaming.
 

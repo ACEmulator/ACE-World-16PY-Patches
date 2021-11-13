@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x004D;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7004D0CF, 33295, 0x004D06E5, 90.0652, -253.351, -0.063, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Temple of N'cthail */
-/* @teleloc 0x004D06E5 [90.065201 -253.350998 -0.063000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7004D0CF, 33295, 0x004D06E5, 90.0652, -253.351, -0.063, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Temple of N'cthail */
+/* @teleloc 0x004D06E5 [90.065201 -253.350998 -0.063000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D0D0,  4219, 0x004D06E0, 90, -210, -0.018, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */
@@ -255,7 +255,7 @@ VALUES (0x7004D101, 0x7004D102, '2020-12-16 08:36:55') /* Lever (285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D102,   285, 0x004D0311, 70.839, -361.557, -34.426, 0.018123, 0, 0, -0.999836,  True, '2021-11-01 00:00:00'); /* Lever */
-/* @teleloc 0x004D0311 [70.838997 -361.557007 -34.425999] 0.018122 0.000000 0.000000 -0.999836 */
+/* @teleloc 0x004D0311 [70.838997 -361.557007 -34.425999] 0.018123 0.000000 0.000000 -0.999836 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004D103, 28104, 0x004D032F, 90.0007, -375.162, -35.945, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Guardian */
@@ -694,8 +694,8 @@ VALUES (0x7004D155, 25572, 0x004D072C, 150.055, -140.359, 0, -0.682821, 0, 0, 0.
 /* @teleloc 0x004D072C [150.054993 -140.358994 0.000000] -0.682821 0.000000 0.000000 0.730586 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7004D156,  8548, 0x004D06F5, 99.9378, -164.943, -0, 0.409191, 0, 0, -0.912449, False, '2021-11-01 00:00:00'); /* Magic trap */
-/* @teleloc 0x004D06F5 [99.937798 -164.942993 -0.000000] 0.409191 0.000000 0.000000 -0.912449 */
+VALUES (0x7004D156,  8548, 0x004D06F5, 99.9378, -164.943, 0, 0.409191, 0, 0, -0.912449, False, '2021-11-01 00:00:00'); /* Magic trap */
+/* @teleloc 0x004D06F5 [99.937798 -164.942993 0.000000] 0.409191 0.000000 0.000000 -0.912449 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7004D156, 0x7004D157, '2020-12-16 10:30:10') /* Pressure Plate (2131) */;
@@ -705,8 +705,8 @@ VALUES (0x7004D157,  2131, 0x004D06F5, 99.7664, -164.697, 0, -0.343696, 0, 0, 0.
 /* @teleloc 0x004D06F5 [99.766403 -164.697006 0.000000] -0.343696 0.000000 0.000000 0.939081 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7004D158,  7562, 0x004D06EC, 101.138, -114.175, -0, -0.939791, 0, 0, 0.341749, False, '2021-11-01 00:00:00'); /* Magic trap */
-/* @teleloc 0x004D06EC [101.138000 -114.175003 -0.000000] -0.939791 0.000000 0.000000 0.341749 */
+VALUES (0x7004D158,  7562, 0x004D06EC, 101.138, -114.175, 0, -0.939791, 0, 0, 0.341749, False, '2021-11-01 00:00:00'); /* Magic trap */
+/* @teleloc 0x004D06EC [101.138000 -114.175003 0.000000] -0.939791 0.000000 0.000000 0.341749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7004D158, 0x7004D159, '2020-12-16 10:30:10') /* Pressure Plate (2131) */;

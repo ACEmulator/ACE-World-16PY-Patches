@@ -94,8 +94,8 @@ VALUES (0x70032002, 31515, 0x0032022D, 10, -30, 29.937, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x0032022D [10.000000 -30.000000 29.937000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70032003,   278, 0x0032017A, 50.02, -55.259, 6, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x0032017A [50.020000 -55.258999 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70032003,   278, 0x0032017A, 50.02, -55.259, 6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x0032017A [50.020000 -55.258999 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70032004, 25510, 0x00320151, 14.75, -50, 6, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Reinforced Door */

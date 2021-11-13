@@ -96,11 +96,11 @@ VALUES (0x7004700B, 31398, 0x004702A9, 39.8106, -188.635, -12.0024, 0.017767, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004700C, 31402, 0x004702B9, 57.0455, -183.317, -11.995, 0.999879, 0, 0, -0.015554,  True, '2021-11-01 00:00:00'); /* Raven Augur */
-/* @teleloc 0x004702B9 [57.045502 -183.317001 -11.995000] 0.999879 0.000000 0.000000 -0.015553 */
+/* @teleloc 0x004702B9 [57.045502 -183.317001 -11.995000] 0.999879 0.000000 0.000000 -0.015554 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004700D, 31402, 0x004702B9, 62.6666, -183.502, -11.995, 0.999879, 0, 0, -0.015554,  True, '2021-11-01 00:00:00'); /* Raven Augur */
-/* @teleloc 0x004702B9 [62.666599 -183.501999 -11.995000] 0.999879 0.000000 0.000000 -0.015553 */
+/* @teleloc 0x004702B9 [62.666599 -183.501999 -11.995000] 0.999879 0.000000 0.000000 -0.015554 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7004700E, 31398, 0x004702C2, 66.7747, -155.834, -12.0024, 0.019635, 0, 0, 0.999807,  True, '2021-11-01 00:00:00'); /* Penumbral Horror */
@@ -188,7 +188,7 @@ VALUES (0x70047024, 31398, 0x00470276, 127.967, -81.631, -18.0024, -0.466725, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70047025, 31399, 0x0047024F, 109.997, -40.085, -18.0024, 0.049437, 0, 0, -0.998777,  True, '2021-11-01 00:00:00'); /* Greater Penumbral Horror */
-/* @teleloc 0x0047024F [109.997002 -40.084999 -18.002399] 0.049436 0.000000 0.000000 -0.998777 */
+/* @teleloc 0x0047024F [109.997002 -40.084999 -18.002399] 0.049437 0.000000 0.000000 -0.998777 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70047026, 31399, 0x004701F2, 67.5095, -60.6569, -18.0024, 0.29613, 0, 0, -0.955148,  True, '2021-11-01 00:00:00'); /* Greater Penumbral Horror */

@@ -54,7 +54,7 @@ VALUES (0x72D3040B, 72143, 0x2D300029, 132.042, 11.6768, 180.065, 0.661435, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D3040C, 72143, 0x2D300039, 179.969, 11.4934, 170.065, 0.998167, 0, 0, -0.060529, False, '2021-11-01 00:00:00'); /* Rynthid Platforms 2 Gen */
-/* @teleloc 0x2D300039 [179.968994 11.493400 170.065002] 0.998167 0.000000 0.000000 -0.060528 */
+/* @teleloc 0x2D300039 [179.968994 11.493400 170.065002] 0.998167 0.000000 0.000000 -0.060529 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D3040D, 72143, 0x2D30003B, 179.881, 60.2296, 160.065, 0.487934, 0, 0, 0.872881, False, '2021-11-01 00:00:00'); /* Rynthid Platforms 2 Gen */

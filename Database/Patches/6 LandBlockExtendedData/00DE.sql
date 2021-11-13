@@ -45,20 +45,20 @@ VALUES (0x700DE02A, 29940, 0x00DE0203, 134.76, -100, 6, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x00DE0203 [134.759995 -100.000000 6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DE02B, 29940, 0x00DE0205, 130, -104.778, 6, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Reinforced Door */
-/* @teleloc 0x00DE0205 [130.000000 -104.778000 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x700DE02B, 29940, 0x00DE0205, 130, -104.778, 6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Reinforced Door */
+/* @teleloc 0x00DE0205 [130.000000 -104.778000 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DE02C, 38653, 0x00DE010B, 120, -70, -36.063, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x00DE010B [120.000000 -70.000000 -36.063000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700DE02C, 38653, 0x00DE010B, 120, -70, -36.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x00DE010B [120.000000 -70.000000 -36.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DE02D, 38653, 0x00DE0110, 120, -110, -36.063, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Surface */
 /* @teleloc 0x00DE0110 [120.000000 -110.000000 -36.063000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DE02E,  7924, 0x00DE0200, 132.694, -97.986, 6.0066, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
-/* @teleloc 0x00DE0200 [132.694000 -97.986000 6.006600] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x700DE02E,  7924, 0x00DE0200, 132.694, -97.986, 6.0066, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+/* @teleloc 0x00DE0200 [132.694000 -97.986000 6.006600] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x700DE02E, 0x700DE02F, '2020-09-12 00:00:00') /* Putrid Moarsman (4248) */
@@ -86,8 +86,8 @@ VALUES (0x700DE02E, 0x700DE02F, '2020-09-12 00:00:00') /* Putrid Moarsman (4248)
      , (0x700DE02E, 0x700DE045, '2020-09-12 00:00:00') /* Blind Keeper (38349) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DE02F,  4248, 0x00DE0200, 132.694, -97.986, 6.0066, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Putrid Moarsman */
-/* @teleloc 0x00DE0200 [132.694000 -97.986000 6.006600] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x700DE02F,  4248, 0x00DE0200, 132.694, -97.986, 6.0066, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Putrid Moarsman */
+/* @teleloc 0x00DE0200 [132.694000 -97.986000 6.006600] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DE030, 27857, 0x00DE0200, 128.276, -98.4574, 6.006, 0.303553, 0, 0, -0.952815,  True, '2021-11-01 00:00:00'); /* Muck Glutton */
@@ -118,8 +118,8 @@ VALUES (0x700DE036, 27857, 0x00DE01F9, 128.609, -81.5496, 6.006, 0.905866, 0, 0,
 /* @teleloc 0x00DE01F9 [128.608994 -81.549599 6.006000] 0.905866 0.000000 0.000000 -0.423565 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DE037, 27853, 0x00DE0186, 120, -60, -5.9948, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Disgusting Moarsman */
-/* @teleloc 0x00DE0186 [120.000000 -60.000000 -5.994800] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x700DE037, 27853, 0x00DE0186, 120, -60, -5.9948, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Disgusting Moarsman */
+/* @teleloc 0x00DE0186 [120.000000 -60.000000 -5.994800] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DE038,  4248, 0x00DE01EC, 111.621, -102.08, 6.0066, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Putrid Moarsman */

@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x0098;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70098008, 33910, 0x00980142, 140, -60, -12.063, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x00980142 [140.000000 -60.000000 -12.063000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70098008, 33910, 0x00980142, 140, -60, -12.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x00980142 [140.000000 -60.000000 -12.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70098010, 33910, 0x009801BD, 10, -549, -0.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
@@ -179,7 +179,7 @@ VALUES (0x70098031, 33894, 0x00980107, 110, -10, -18, 1, 0, 0, 0,  True, '2021-1
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70098032, 33133, 0x00980106, 109.965, -1.51402, -18, -0.012027, 0, 0, -0.999928,  True, '2021-11-01 00:00:00'); /* Mukkir Draktehn */
-/* @teleloc 0x00980106 [109.964996 -1.514020 -18.000000] -0.012026 0.000000 0.000000 -0.999928 */
+/* @teleloc 0x00980106 [109.964996 -1.514020 -18.000000] -0.012027 0.000000 0.000000 -0.999928 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70098033, 33131, 0x0098010F, 126.869, -18.5703, -18, -0.691326, 0, 0, -0.722543,  True, '2021-11-01 00:00:00'); /* Mukkir Laktar */

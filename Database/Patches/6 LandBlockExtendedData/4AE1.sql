@@ -25,16 +25,16 @@ VALUES (0x74AE1005,   720, 0x4AE10022, 108, 28.45, 63, 0, 0, 0, -1, False, '2021
 /* @teleloc 0x4AE10022 [108.000000 28.450001 63.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE1006,   722, 0x4AE10029, 132.928, 21.0538, 58, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x4AE10029 [132.927994 21.053801 58.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x74AE1006,   722, 0x4AE10029, 132.928, 21.0538, 58, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x4AE10029 [132.927994 21.053801 58.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE1007,   721, 0x4AE10029, 130.928, 21.0538, 58, -1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
 /* @teleloc 0x4AE10029 [130.927994 21.053801 58.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AE100A, 46545, 0x4AE10118, 131.972, 6.75137, 57.437, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Nanjou Shou-jen Academy */
-/* @teleloc 0x4AE10118 [131.972000 6.751370 57.437000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x74AE100A, 46545, 0x4AE10118, 131.972, 6.75137, 57.437, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Nanjou Shou-jen Academy */
+/* @teleloc 0x4AE10118 [131.972000 6.751370 57.437000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE100B,  1154, 0x4AE10100, 105.863, 58.367, 62.405, 0.418158, 0, 0, -0.908374, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */

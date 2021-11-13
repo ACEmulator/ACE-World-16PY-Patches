@@ -73,8 +73,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x70036001, 0x70036004, '2019-03-23 02:20:17') /* Untranslated Grael Rebellion (31427) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70036002, 31437, 0x00360139, 0, 0, -0.063, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x00360139 [0.000000 0.000000 -0.063000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70036002, 31437, 0x00360139, 0, 0, -0.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x00360139 [0.000000 0.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70036003, 31437, 0x003601BE, 430, -390, -0.063, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Surface */

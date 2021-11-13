@@ -264,7 +264,7 @@ VALUES (0x700EE012,  7091, 0x00EE0357, 138.509, -119.736, 0.00455, 0.829925, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700EE013, 10776, 0x00EE0355, 140.286, -96.3521, 0.00455, 0.999571, 0, 0, 0.0293,  True, '2021-11-01 00:00:00'); /* Unconquered Drudge */
-/* @teleloc 0x00EE0355 [140.285995 -96.352097 0.004550] 0.999571 0.000000 0.000000 0.029299 */
+/* @teleloc 0x00EE0355 [140.285995 -96.352097 0.004550] 0.999571 0.000000 0.000000 0.029300 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700EE014, 24279, 0x00EE032A, 130.166, -89.2505, 0.003325, 0.708316, 0, 0, -0.705895,  True, '2021-11-01 00:00:00'); /* Gloom Drudge */

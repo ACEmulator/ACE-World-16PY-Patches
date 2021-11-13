@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28825;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28825, 'portalabayarlaboratory', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (28825, 'portalabayarlaboratory', 7, '2021-11-08 06:01:47') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28825,   1,      65536) /* ItemType - Portal */
@@ -16,8 +16,7 @@ VALUES (28825,   1, True ) /* Stuck */
      , (28825,  11, False) /* IgnoreCollisions */
      , (28825,  12, True ) /* ReportCollisions */
      , (28825,  13, True ) /* Ethereal */
-     , (28825,  15, True ) /* LightsStatus */
-     , (28825,  88, True ) /* PortalShowDestination */;
+     , (28825,  15, True ) /* LightsStatus */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28825,  54,    -0.1) /* UseRadius */;

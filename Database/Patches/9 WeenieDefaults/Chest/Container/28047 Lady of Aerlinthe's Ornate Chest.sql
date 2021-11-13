@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28047;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28047, 'chestaerfalleuber', 20, '2021-11-01 00:00:00') /* Chest */;
+VALUES (28047, 'chestaerfalleuber', 20, '2021-11-07 08:12:46') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28047,   1,        512) /* ItemType - Container */
@@ -14,8 +14,8 @@ VALUES (28047,   1,        512) /* ItemType - Container */
      , (28047,  19,       2500) /* Value */
      , (28047,  37,        240) /* ResistItemAppraisal */
      , (28047,  38,       5000) /* ResistLockpick */
-     , (28047,  81,          5) /* MaxGeneratedObjects */
-     , (28047,  82,          5) /* InitGeneratedObjects */
+     , (28047,  81,          6) /* MaxGeneratedObjects */
+     , (28047,  82,          6) /* InitGeneratedObjects */
      , (28047,  83,          2) /* ActivationResponse - Use */
      , (28047,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (28047,  96,        500) /* EncumbranceCapacity */
@@ -57,4 +57,5 @@ VALUES (28047, -1, 9010, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Gen
      , (28047, -1, 28059, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate War Staff of Aerfalle (28059) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (28047, -1, 28046, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Aerfalle's Supreme Pallium (28046) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (28047, -1, 28067, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Superior Ashbane (28067) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (28047, -1, 40914, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Aerfalle's Ornate Token (40914) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (28047, -1, 317, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 5 from Death Treasure Table id: 317 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

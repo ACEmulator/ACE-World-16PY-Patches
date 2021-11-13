@@ -128,16 +128,16 @@ VALUES (0x79302013, 72319, 0x9302013E, 24.75, -120, 0.055, 0.707107, 0, 0, -0.70
 /* @teleloc 0x9302013E [24.750000 -120.000000 0.055000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79302014, 72318, 0x9302011D, 80, -164.75, -11.945, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x9302011D [80.000000 -164.750000 -11.945000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x79302014, 72318, 0x9302011D, 80, -164.75, -11.945, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x9302011D [80.000000 -164.750000 -11.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79302015, 72318, 0x93020114, 70, -164.75, -11.945, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x93020114 [70.000000 -164.750000 -11.945000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x79302015, 72318, 0x93020114, 70, -164.75, -11.945, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x93020114 [70.000000 -164.750000 -11.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79302016, 72318, 0x9302010C, 60, -164.75, -11.945, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x9302010C [60.000000 -164.750000 -11.945000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x79302016, 72318, 0x9302010C, 60, -164.75, -11.945, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x9302010C [60.000000 -164.750000 -11.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79302017, 72318, 0x93020111, 60, -195.25, -11.945, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
@@ -156,8 +156,8 @@ VALUES (0x7930201A,   278, 0x93020102, 35, -180, -11.945, 0.707107, 0, 0, -0.707
 /* @teleloc 0x93020102 [35.000000 -180.000000 -11.945000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7930201B, 72326, 0x93020100, 26.5, -180, -12, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chorizite Chest */
-/* @teleloc 0x93020100 [26.500000 -180.000000 -12.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7930201B, 72326, 0x93020100, 26.5, -180, -12, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Chorizite Chest */
+/* @teleloc 0x93020100 [26.500000 -180.000000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7930201C, 72325, 0x93020100, 30.3938, -179.975, -11.9917, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Frozen Wight Captain */
@@ -251,16 +251,16 @@ VALUES (0x7930203A, 48742, 0x93020154, 86.5, 0.05, 0.055, 0.707107, 0, 0, 0.7071
 /* @teleloc 0x93020154 [86.500000 0.050000 0.055000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7930203B, 48742, 0x9302014A, 80, -13.5, 0.055, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Magic Chest */
-/* @teleloc 0x9302014A [80.000000 -13.500000 0.055000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7930203B, 48742, 0x9302014A, 80, -13.5, 0.055, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Magic Chest */
+/* @teleloc 0x9302014A [80.000000 -13.500000 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7930203C, 48742, 0x9302014D, 80, -23.5, 0.055, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Magic Chest */
-/* @teleloc 0x9302014D [80.000000 -23.500000 0.055000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7930203C, 48742, 0x9302014D, 80, -23.5, 0.055, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Magic Chest */
+/* @teleloc 0x9302014D [80.000000 -23.500000 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7930203D, 48742, 0x93020150, 80, -33.5, 0.055, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Magic Chest */
-/* @teleloc 0x93020150 [80.000000 -33.500000 0.055000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7930203D, 48742, 0x93020150, 80, -33.5, 0.055, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Magic Chest */
+/* @teleloc 0x93020150 [80.000000 -33.500000 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7930203E, 48742, 0x9302018C, 120, -26.5, 0.055, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Legendary Magic Chest */
@@ -295,16 +295,16 @@ VALUES (0x79302045, 48744, 0x93020150, 80, -26.5, 0.055, 1, 0, 0, 0, False, '202
 /* @teleloc 0x93020150 [80.000000 -26.500000 0.055000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79302046, 48744, 0x9302018C, 120, -33.5, 0.055, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Weapon Chest */
-/* @teleloc 0x9302018C [120.000000 -33.500000 0.055000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x79302046, 48744, 0x9302018C, 120, -33.5, 0.055, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Weapon Chest */
+/* @teleloc 0x9302018C [120.000000 -33.500000 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79302047, 48744, 0x93020189, 120, -23.5, 0.055, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Weapon Chest */
-/* @teleloc 0x93020189 [120.000000 -23.500000 0.055000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x79302047, 48744, 0x93020189, 120, -23.5, 0.055, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Weapon Chest */
+/* @teleloc 0x93020189 [120.000000 -23.500000 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79302048, 48744, 0x93020186, 120, -13.5, 0.055, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Weapon Chest */
-/* @teleloc 0x93020186 [120.000000 -13.500000 0.055000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x79302048, 48744, 0x93020186, 120, -13.5, 0.055, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Legendary Weapon Chest */
+/* @teleloc 0x93020186 [120.000000 -13.500000 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7930206E, 72332, 0x93020143, 50.4396, -107.261, 0.00825, -0.543194, 0, 0, 0.839607,  True, '2021-11-01 00:00:00'); /* Frozen Wight Captain */
@@ -380,7 +380,7 @@ VALUES (0x79302081, 72336, 0x93020195, 152.844, -128.343, 0.005, -0.660558, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79302082, 72335, 0x930201BC, 161.085, -112.244, 6.005, 0.088222, 0, 0, 0.996101,  True, '2021-11-01 00:00:00'); /* Cultist Cohort */
-/* @teleloc 0x930201BC [161.085007 -112.244003 6.005000] 0.088221 0.000000 0.000000 0.996101 */
+/* @teleloc 0x930201BC [161.085007 -112.244003 6.005000] 0.088222 0.000000 0.000000 0.996101 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79302083, 72333, 0x930201BC, 159.985, -107.683, 6.00825, 0.013336, 0, 0, 0.999911,  True, '2021-11-01 00:00:00'); /* Frozen Wight Sorcerer */
@@ -451,8 +451,8 @@ VALUES (0x79302094, 72328, 0x93020116, 69.938, -179.836, -11.9935, -0.004758, 0,
 /* @teleloc 0x93020116 [69.938004 -179.835999 -11.993500] -0.004758 0.000000 0.000000 0.999989 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7930209B, 72334, 0x93020166, 100.033, -58.388, 0.00975, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Renselm */
-/* @teleloc 0x93020166 [100.032997 -58.388000 0.009750] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7930209B, 72334, 0x93020166, 100.033, -58.388, 0.00975, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Renselm */
+/* @teleloc 0x93020166 [100.032997 -58.388000 0.009750] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7930209C, 72328, 0x9302015A, 90.6726, -60.8765, 0.0065, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Gurog Henchman */

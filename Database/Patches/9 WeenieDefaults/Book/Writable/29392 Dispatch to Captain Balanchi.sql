@@ -34,6 +34,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (29392, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29392, 0, 4294967295, 'General Corcima', 'prewritten', True, 'My friend, 
+VALUES (29392, 0, 0xFFFFFFFF, 'General Corcima', 'prewritten', True, 'My friend, 
 
 Nothing gives me greater pleasure than the prospect of another conquest of the lands of the Bloodless with you as my right hand. The other Captains are accomplished warriors and leaders, but you are the only one I can completely trust. To you I give the field command of the invasion itself, and to you I entrust the distribution of supplies and wealth. All supplies will be routed through your command. Give to the other Captains what they need to maintain their efforts. And bring us victory on Invasion Day.');

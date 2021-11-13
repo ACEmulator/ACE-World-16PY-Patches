@@ -25,8 +25,8 @@ VALUES (0x75872032, 51434, 0x5872011F, 23.9, -140, 0, 1, 0, 0, 0, False, '2021-1
 /* @teleloc 0x5872011F [23.900000 -140.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75872033, 51434, 0x58720120, 16.1, -150, 0, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
-/* @teleloc 0x58720120 [16.100000 -150.000000 0.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75872033, 51434, 0x58720120, 16.1, -150, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
+/* @teleloc 0x58720120 [16.100000 -150.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75872034, 51434, 0x58720120, 23.9, -150, 0, 0.978329, 0, 0, -0.207058, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
@@ -37,24 +37,24 @@ VALUES (0x75872035, 51434, 0x5872015E, 103.5, 0, 0, 1, 0, 0, 0, False, '2021-11-
 /* @teleloc 0x5872015E [103.500000 0.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75872036, 51434, 0x5872015F, 103.5, -10, 0, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
-/* @teleloc 0x5872015F [103.500000 -10.000000 0.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75872036, 51434, 0x5872015F, 103.5, -10, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
+/* @teleloc 0x5872015F [103.500000 -10.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75872037, 51434, 0x58720160, 103.5, -20, 0, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
-/* @teleloc 0x58720160 [103.500000 -20.000000 0.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75872037, 51434, 0x58720160, 103.5, -20, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
+/* @teleloc 0x58720160 [103.500000 -20.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75872038, 51434, 0x58720161, 103.5, -30, 0, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
-/* @teleloc 0x58720161 [103.500000 -30.000000 0.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75872038, 51434, 0x58720161, 103.5, -30, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
+/* @teleloc 0x58720161 [103.500000 -30.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75872039, 51434, 0x58720162, 103.5, -40, 0, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
-/* @teleloc 0x58720162 [103.500000 -40.000000 0.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75872039, 51434, 0x58720162, 103.5, -40, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
+/* @teleloc 0x58720162 [103.500000 -40.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587203A, 51434, 0x58720163, 103.5, -50, 0, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
-/* @teleloc 0x58720163 [103.500000 -50.000000 0.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7587203A, 51434, 0x58720163, 103.5, -50, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
+/* @teleloc 0x58720163 [103.500000 -50.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587203B, 51434, 0x58720170, 110, -160, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
@@ -77,12 +77,12 @@ VALUES (0x7587203F, 51434, 0x5872017B, 130, -160, 0, 1, 0, 0, 0, False, '2021-11
 /* @teleloc 0x5872017B [130.000000 -160.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75872040, 51434, 0x5872017C, 130, -170, 0, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
-/* @teleloc 0x5872017C [130.000000 -170.000000 0.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75872040, 51434, 0x5872017C, 130, -170, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
+/* @teleloc 0x5872017C [130.000000 -170.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75872041, 51434, 0x5872017D, 130, -180, 0, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
-/* @teleloc 0x5872017D [130.000000 -180.000000 0.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75872041, 51434, 0x5872017D, 130, -180, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Chorizite Pillar */
+/* @teleloc 0x5872017D [130.000000 -180.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75872042,  7924, 0x5872011D, 20, -110, 0.029, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
@@ -153,12 +153,12 @@ VALUES (0x7587204B, 51555, 0x5872015E, 100, 0, 0.029, -0.707107, 0, 0, -0.707107
 /* @teleloc 0x5872015E [100.000000 0.000000 0.029000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587204C, 51599, 0x58720160, 100, -20, -0.003343, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Pillar of Lightning */
-/* @teleloc 0x58720160 [100.000000 -20.000000 -0.003343] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7587204C, 51599, 0x58720160, 100, -20, -0.003343, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Pillar of Lightning */
+/* @teleloc 0x58720160 [100.000000 -20.000000 -0.003343] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587204D, 51599, 0x58720161, 100, -30, -0.003343, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Pillar of Lightning */
-/* @teleloc 0x58720161 [100.000000 -30.000000 -0.003343] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7587204D, 51599, 0x58720161, 100, -30, -0.003343, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Pillar of Lightning */
+/* @teleloc 0x58720161 [100.000000 -30.000000 -0.003343] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587204E, 51555, 0x58720163, 100, -50, 0.029, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Virindi Confer */
@@ -177,8 +177,8 @@ VALUES (0x75872051, 51599, 0x5872015B, 90, -110, -0.003343, 1, 0, 0, 0,  True, '
 /* @teleloc 0x5872015B [90.000000 -110.000000 -0.003343] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75872052, 51555, 0x58720168, 100, -120, 0.029, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Virindi Confer */
-/* @teleloc 0x58720168 [100.000000 -120.000000 0.029000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75872052, 51555, 0x58720168, 100, -120, 0.029, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Virindi Confer */
+/* @teleloc 0x58720168 [100.000000 -120.000000 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75872054, 51575, 0x5872017E, 135, -190, -0.068, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Door */

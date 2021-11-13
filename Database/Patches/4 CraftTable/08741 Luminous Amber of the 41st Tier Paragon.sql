@@ -9,7 +9,7 @@ VALUES (8741, 0, 265, 138, 2, 'The target is not imbued with the magics of the P
      , (8741, 0, 319, 40, 2, 'The target is not yet imbued with the magics of the Paragon that this gem requires!') /* Target.ItemMaxLevel LessThan 40 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (8741, True, 0, 0, 0, False, 956301312, 0, 0);
+VALUES (8741, True, 0, 0, 0, False, 0x39000000, 0, 0);
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 8741;
 

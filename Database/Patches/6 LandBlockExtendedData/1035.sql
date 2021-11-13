@@ -64,8 +64,8 @@ VALUES (0x71035033, 38969, 0x10350034, 159.474, 82.9942, 72, 0.92388, 0, 0, -0.3
 /* @teleloc 0x10350034 [159.473999 82.994202 72.000000] 0.923880 0.000000 0.000000 -0.382683 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71035034, 38978, 0x10350034, 166.852, 93.22, 72.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Carenzi Race Announcer */
-/* @teleloc 0x10350034 [166.852005 93.220001 72.004997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x71035034, 38978, 0x10350034, 166.852, 93.22, 72.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Carenzi Race Announcer */
+/* @teleloc 0x10350034 [166.852005 93.220001 72.004997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71035035, 38946, 0x10350034, 151, 93.5, 72, 0.999981, 0, 0, -0.006187,  True, '2021-11-01 00:00:00'); /* Carenzi Racer */
@@ -114,8 +114,8 @@ VALUES (0x7103503D, 0x7103502C, '2019-02-10 00:00:00') /* Carenzi Racer (38976) 
      , (0x7103503D, 0x71035033, '2019-02-10 00:00:00') /* Carenzi Racer (38969) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7103503E, 80013, 0x10350034, 166.852, 93.22, 72.005, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Linkable Race Announcer Generator */
-/* @teleloc 0x10350034 [166.852005 93.220001 72.004997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7103503E, 80013, 0x10350034, 166.852, 93.22, 72.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Linkable Race Announcer Generator */
+/* @teleloc 0x10350034 [166.852005 93.220001 72.004997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7103503E, 0x71035034, '2019-02-10 00:00:00') /* Carenzi Race Announcer (38978) */;

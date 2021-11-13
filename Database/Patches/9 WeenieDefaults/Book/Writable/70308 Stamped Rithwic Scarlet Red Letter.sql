@@ -36,9 +36,9 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (70308, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (70308, 0, 4294967295, '', 'prewritten', False, 'Once this Red Letter is stamped with a Town Stamp, it can be turned into an authorized Society Agent for a reward. Look in the Book of Quests for New Explorers to start on your way. Any of the Society Agents who are catering to new arrivals  in the nine Nexus towns maybe be contacted to obtain this guide.
+VALUES (70308, 0, 0xFFFFFFFF, '', 'prewritten', False, 'Once this Red Letter is stamped with a Town Stamp, it can be turned into an authorized Society Agent for a reward. Look in the Book of Quests for New Explorers to start on your way. Any of the Society Agents who are catering to new arrivals  in the nine Nexus towns maybe be contacted to obtain this guide.
 ')
-     , (70308, 1, 4294967295, '', 'prewritten', False, '"Of course I encouraged Malif in his strange passion for Ursuin wrestling.  It was the only way I could manage to be alone with the delectable Akada."
+     , (70308, 1, 0xFFFFFFFF, '', 'prewritten', False, '"Of course I encouraged Malif in his strange passion for Ursuin wrestling.  It was the only way I could manage to be alone with the delectable Akada."
 
 -- Sir Saladur ibn Andoun, Explorer of the Society 
 ');

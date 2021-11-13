@@ -51,16 +51,16 @@ VALUES (0x7D699005, 32464, 0xD6990006, 14.9, 139, 374, 0.707107, 0, 0, -0.707107
 /* @teleloc 0xD6990006 [14.900000 139.000000 374.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D699006, 32466, 0xD6990006, 2.5, 129.027, 374, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Jump Warden of Enlightenment */
-/* @teleloc 0xD6990006 [2.500000 129.026993 374.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D699006, 32466, 0xD6990006, 2.5, 129.027, 374, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Jump Warden of Enlightenment */
+/* @teleloc 0xD6990006 [2.500000 129.026993 374.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D699007, 32446, 0xD6990006, 14.9, 142.5, 374, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Heavy Weapons Warden of Enlightenment */
 /* @teleloc 0xD6990006 [14.900000 142.500000 374.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D699008, 32465, 0xD6990006, 5.5, 129, 374, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Item Enchantment Warden of Enlightenment */
-/* @teleloc 0xD6990006 [5.500000 129.000000 374.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D699008, 32465, 0xD6990006, 5.5, 129, 374, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Item Enchantment Warden of Enlightenment */
+/* @teleloc 0xD6990006 [5.500000 129.000000 374.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D699009, 32463, 0xD6990007, 14.9, 146, 374, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Healing Warden of Enlightenment */
@@ -111,12 +111,12 @@ VALUES (0x7D699014, 44917, 0xD6990008, 5.68263, 176.201, 374, 0.999966, 0, 0, -0
 /* @teleloc 0xD6990008 [5.682630 176.201004 374.000000] 0.999966 0.000000 0.000000 -0.008265 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D699015, 44910, 0xD6990007, 3.96713, 164.644, 374, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Warden of Lowering Self */
-/* @teleloc 0xD6990007 [3.967130 164.643997 374.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D699015, 44910, 0xD6990007, 3.96713, 164.644, 374, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Warden of Lowering Self */
+/* @teleloc 0xD6990007 [3.967130 164.643997 374.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D699016, 44908, 0xD6990007, 6.109, 164.795, 374, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Warden of Lowering Focus */
-/* @teleloc 0xD6990007 [6.109000 164.794998 374.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D699016, 44908, 0xD6990007, 6.109, 164.795, 374, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Warden of Lowering Focus */
+/* @teleloc 0xD6990007 [6.109000 164.794998 374.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D699017, 44919, 0xD6990008, 8.385, 170.325, 374, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Warden of Lowering Endurance */

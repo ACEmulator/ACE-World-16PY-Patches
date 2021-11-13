@@ -21,8 +21,8 @@ VALUES (0x7D599006, 24516, 0xD599014C, 154.045, 174.304, 374, 0.059005, 0, 0, 0.
 /* @teleloc 0xD599014C [154.044998 174.304001 374.000000] 0.059005 0.000000 0.000000 0.998258 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D599039,  4453, 0xD5990040, 176.984, 190.118, 374, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0xD5990040 [176.983994 190.117996 374.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D599039,  4453, 0xD5990040, 176.984, 190.118, 374, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0xD5990040 [176.983994 190.117996 374.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D59903A,  1154, 0xD599003F, 180, 155, 374.015, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
@@ -98,44 +98,44 @@ VALUES (0x7D599044, 32455, 0xD5990036, 153, 141.5, 374, -0.707107, 0, 0, -0.7071
 /* @teleloc 0xD5990036 [153.000000 141.500000 374.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D599045, 32438, 0xD599003E, 170, 129, 374, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Magic Item Tinkering Warden of Enlightenment */
-/* @teleloc 0xD599003E [170.000000 129.000000 374.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D599045, 32438, 0xD599003E, 170, 129, 374, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Magic Item Tinkering Warden of Enlightenment */
+/* @teleloc 0xD599003E [170.000000 129.000000 374.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D599046, 32437, 0xD599003E, 173.5, 129, 374, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Magic Defense Warden of Enlightenment */
-/* @teleloc 0xD599003E [173.500000 129.000000 374.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D599046, 32437, 0xD599003E, 173.5, 129, 374, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Magic Defense Warden of Enlightenment */
+/* @teleloc 0xD599003E [173.500000 129.000000 374.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D599047, 32441, 0xD5990036, 153, 138, 374, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Missile Defense Warden of Enlightenment */
 /* @teleloc 0xD5990036 [153.000000 138.000000 374.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D599048, 32440, 0xD5990036, 163, 129, 374, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Melee Defense Warden of Enlightenment */
-/* @teleloc 0xD5990036 [163.000000 129.000000 374.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D599048, 32440, 0xD5990036, 163, 129, 374, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Melee Defense Warden of Enlightenment */
+/* @teleloc 0xD5990036 [163.000000 129.000000 374.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D599049, 32439, 0xD5990036, 166.5, 129, 374, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Mana Conversion Warden of Enlightenment */
-/* @teleloc 0xD5990036 [166.500000 129.000000 374.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D599049, 32439, 0xD5990036, 166.5, 129, 374, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Mana Conversion Warden of Enlightenment */
+/* @teleloc 0xD5990036 [166.500000 129.000000 374.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D59904A, 32470, 0xD599003E, 177, 129, 374, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Loyalty Warden of Enlightenment */
-/* @teleloc 0xD599003E [177.000000 129.000000 374.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D59904A, 32470, 0xD599003E, 177, 129, 374, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Loyalty Warden of Enlightenment */
+/* @teleloc 0xD599003E [177.000000 129.000000 374.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D59904B, 32469, 0xD599003E, 180.5, 129, 374, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Lockpick Warden of Enlightenment */
-/* @teleloc 0xD599003E [180.500000 129.000000 374.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D59904B, 32469, 0xD599003E, 180.5, 129, 374, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Lockpick Warden of Enlightenment */
+/* @teleloc 0xD599003E [180.500000 129.000000 374.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D59904C, 32454, 0xD599003E, 184, 129, 374, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Light Weapons Warden of Enlightenment */
-/* @teleloc 0xD599003E [184.000000 129.000000 374.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D59904C, 32454, 0xD599003E, 184, 129, 374, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Light Weapons Warden of Enlightenment */
+/* @teleloc 0xD599003E [184.000000 129.000000 374.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D59904D, 32468, 0xD599003E, 187.5, 129, 374, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Life Magic Warden of Enlightenment */
-/* @teleloc 0xD599003E [187.500000 129.000000 374.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D59904D, 32468, 0xD599003E, 187.5, 129, 374, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Life Magic Warden of Enlightenment */
+/* @teleloc 0xD599003E [187.500000 129.000000 374.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D59904E, 32467, 0xD599003E, 191, 129, 374, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Leadership Warden of Enlightenment */
-/* @teleloc 0xD599003E [191.000000 129.000000 374.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D59904E, 32467, 0xD599003E, 191, 129, 374, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Leadership Warden of Enlightenment */
+/* @teleloc 0xD599003E [191.000000 129.000000 374.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D59904F, 32452, 0xD5990040, 189.5, 183, 374, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Arcane Lore Warden of Enlightenment */

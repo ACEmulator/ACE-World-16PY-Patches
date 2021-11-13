@@ -41,8 +41,8 @@ VALUES (0x74CE1009,   722, 0x4CE1002E, 131, 122.95, 54, 1, 0, 0, 0, False, '2021
 /* @teleloc 0x4CE1002E [131.000000 122.949997 54.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74CE100A,   721, 0x4CE1002E, 133, 122.95, 54, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x4CE1002E [133.000000 122.949997 54.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x74CE100A,   721, 0x4CE1002E, 133, 122.95, 54, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x4CE1002E [133.000000 122.949997 54.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CE100B,   720, 0x4CE10035, 156, 105.025, 55.6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Sliding Door */
@@ -134,7 +134,7 @@ VALUES (0x74CE1015, 46511, 0x4CE1010B, 81.5371, 81.8355, 54.005, -0.976855, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CE1018, 46533, 0x4CE10102, 81.5663, 128.617, 54.005, 0.013114, 0, 0, -0.999914,  True, '2021-11-01 00:00:00'); /* Spectral Nanjou Shou-jen */
-/* @teleloc 0x4CE10102 [81.566299 128.617004 54.005001] 0.013113 0.000000 0.000000 -0.999914 */
+/* @teleloc 0x4CE10102 [81.566299 128.617004 54.005001] 0.013114 0.000000 0.000000 -0.999914 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CE1019, 46521, 0x4CE10116, 110.444, 112.022, 56.005, -0.515887, 0, 0, 0.856657,  True, '2021-11-01 00:00:00'); /* Spectral Claw Adept */

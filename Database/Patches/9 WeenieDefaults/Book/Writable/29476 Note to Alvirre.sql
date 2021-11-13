@@ -34,6 +34,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (29476, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29476, 0, 4294967295, 'O', 'prewritten', False, 'Dear Alvirre,
+VALUES (29476, 0, 0xFFFFFFFF, 'O', 'prewritten', False, 'Dear Alvirre,
 
 I wish to compliment you on your competent and discreet service. There is one more favor that I will ask of you. I know that you have some access to the royal archives in the princeling''s gaudy new palace. I know that the princeling sent many of his minions on exploratory expeditions all over the islands, and that all notes from these expeditions end up in those archives. I would consider it a great favor if you could dig up any notes on the expeditions that went to the Ruschk fortress located at 87.3N, 51.8W.');

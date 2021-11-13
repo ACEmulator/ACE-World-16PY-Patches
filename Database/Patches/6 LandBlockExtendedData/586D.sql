@@ -293,7 +293,7 @@ VALUES (0x7586D024, 51212, 0x586D0148, 114.351, -182.001, -24.0176, 0.842584, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586D025, 51212, 0x586D0130, 93.2013, -189.206, -24.0176, -0.999063, 0, 0, -0.043284,  True, '2021-11-01 00:00:00'); /* Olthoi Hive Eviscerator */
-/* @teleloc 0x586D0130 [93.201302 -189.205994 -24.017599] -0.999063 0.000000 0.000000 -0.043283 */
+/* @teleloc 0x586D0130 [93.201302 -189.205994 -24.017599] -0.999063 0.000000 0.000000 -0.043284 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586D026, 51212, 0x586D0130, 86.3107, -188.668, -24.0176, -0.983537, 0, 0, 0.180705,  True, '2021-11-01 00:00:00'); /* Olthoi Hive Eviscerator */
@@ -425,7 +425,7 @@ VALUES (0x7586D045, 51314, 0x586D01A8, 126.99, -210.067, -17.971, 0.706691, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586D046, 51314, 0x586D0184, 89.975, -173.223, -17.971, -0.010391, 0, 0, 0.999946,  True, '2021-11-01 00:00:00'); /* Virindi Sentry */
-/* @teleloc 0x586D0184 [89.974998 -173.223007 -17.971001] -0.010390 0.000000 0.000000 0.999946 */
+/* @teleloc 0x586D0184 [89.974998 -173.223007 -17.971001] -0.010391 0.000000 0.000000 0.999946 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586D047, 51314, 0x586D016C, 53.1027, -179.974, -17.971, 0.695627, 0, 0, -0.718404,  True, '2021-11-01 00:00:00'); /* Virindi Sentry */
@@ -469,7 +469,7 @@ VALUES (0x7586D050, 51212, 0x586D0393, 166.101, -232.807, -6.0176, 0.863747, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586D051, 51212, 0x586D0385, 149.444, -227.229, -6.0176, -0.036728, 0, 0, 0.999325,  True, '2021-11-01 00:00:00'); /* Olthoi Hive Eviscerator */
-/* @teleloc 0x586D0385 [149.444000 -227.229004 -6.017600] -0.036727 0.000000 0.000000 0.999325 */
+/* @teleloc 0x586D0385 [149.444000 -227.229004 -6.017600] -0.036728 0.000000 0.000000 0.999325 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586D052, 51212, 0x586D01CF, 67.2656, -229.935, -12.0176, -0.699532, 0, 0, 0.714602,  True, '2021-11-01 00:00:00'); /* Olthoi Hive Eviscerator */

@@ -809,12 +809,12 @@ VALUES (0x700C80A2, 31006, 0x00C80105, 22.4352, -121.826, -59.995, 0.591574, 0, 
 /* @teleloc 0x00C80105 [22.435200 -121.825996 -59.994999] 0.591574 0.000000 0.000000 -0.806251 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C86A5,  1154, 0x00C8010C, 25.059, -125.081, -60, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
-/* @teleloc 0x00C8010C [25.059000 -125.081001 -60.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700C86A5,  1154, 0x00C8010C, 25.059, -125.081, -60, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator */
+/* @teleloc 0x00C8010C [25.059000 -125.081001 -60.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x700C86A5, 0x700C86A6, '2020-01-30 00:00:00') /* Exploration Marker (39839) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C86A6, 39839, 0x00C8010C, 25.059, -125.081, -60, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Exploration Marker */
-/* @teleloc 0x00C8010C [25.059000 -125.081001 -60.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700C86A6, 39839, 0x00C8010C, 25.059, -125.081, -60, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Exploration Marker */
+/* @teleloc 0x00C8010C [25.059000 -125.081001 -60.000000] 1.000000 0.000000 0.000000 0.000000 */

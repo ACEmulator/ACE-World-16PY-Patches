@@ -503,8 +503,8 @@ VALUES (0x75E45088, 23990, 0x5E45027B, 111.972, -66.8729, -5.995, 0.417254, 0, 0
 /* @teleloc 0x5E45027B [111.972000 -66.872902 -5.995000] 0.417254 0.000000 0.000000 0.908790 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75E45089,  7923, 0x5E45027C, 110, -80, -5.995, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 3 Min.) */
-/* @teleloc 0x5E45027C [110.000000 -80.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75E45089,  7923, 0x5E45027C, 110, -80, -5.995, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 3 Min.) */
+/* @teleloc 0x5E45027C [110.000000 -80.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x75E45089, 0x75E45071, '2005-02-09 10:00:00') /* Olthoi Warrior (23482) */

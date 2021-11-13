@@ -27,4 +27,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (49643, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (49643, 1, 4294967295, 'Unknown', 'prewritten', False, 'The dream started with a river of red running through the village. The townsfolk cried out in fear and pain as the blood flowed. The third vision we found salvation. The blue skies above showed the way to tranquility.');
+VALUES (49643, 1, 0xFFFFFFFF, 'Unknown', 'prewritten', False, 'The dream started with a river of red running through the village. The townsfolk cried out in fear and pain as the blood flowed. The third vision we found salvation. The blue skies above showed the way to tranquility.');

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48925;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48925, 'ace48925-bronzegolemkachi', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (48925, 'ace48925-bronzegolemkachi', 10, '2021-11-08 06:01:47') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48925,   1,         16) /* ItemType - Creature */
@@ -34,7 +34,7 @@ VALUES (48925,   1,       5) /* HeartbeatInterval */
      , (48925,  17,       1) /* ArmorModVsFire */
      , (48925,  18,       1) /* ArmorModVsAcid */
      , (48925,  19,     0.9) /* ArmorModVsElectric */
-     , (48925,  31,      17) /* VisualAwarenessRange */
+     , (48925,  31,      35) /* VisualAwarenessRange */
      , (48925,  34,     2.3) /* PowerupTime */
      , (48925,  39,     1.2) /* DefaultScale */
      , (48925,  64,     0.1) /* ResistSlash */
@@ -71,7 +71,7 @@ VALUES (48925,   1, 520, 0, 0) /* Strength */
      , (48925,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48925,   1,     0, 0, 0, 7750) /* MaxHealth */
+VALUES (48925,   1,  7500, 0, 0, 7750) /* MaxHealth */
      , (48925,   3,  3600, 0, 0, 4100) /* MaxStamina */
      , (48925,   5,  2700, 0, 0, 3000) /* MaxMana */;
 

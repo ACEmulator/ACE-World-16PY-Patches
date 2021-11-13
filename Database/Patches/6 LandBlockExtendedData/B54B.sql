@@ -24,8 +24,8 @@ VALUES (0x7B54B003, 53101, 0xB54B003C, 188, 95.7, 116.1, -0.707107, 0, 0, -0.707
 /* @teleloc 0xB54B003C [188.000000 95.699997 116.099998] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B54B004, 53102, 0xB54B0040, 173.1, 185.9, 113.1, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Ancient Statue of the Viridian Rise */
-/* @teleloc 0xB54B0040 [173.100006 185.899994 113.099998] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7B54B004, 53102, 0xB54B0040, 173.1, 185.9, 113.1, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Ancient Statue of the Viridian Rise */
+/* @teleloc 0xB54B0040 [173.100006 185.899994 113.099998] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B54B005, 53099, 0xB54B0020, 91, 187, 116.1, -0.461749, 0, 0, -0.887011,  True, '2021-11-01 00:00:00'); /* Ancient Statue of the Viridian Rise */

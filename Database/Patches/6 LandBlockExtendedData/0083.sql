@@ -25,16 +25,16 @@ VALUES (0x7008300B,  6122, 0x0083013E, 100, -30, -30, 1, 0, 0, 0, False, '2021-1
 /* @teleloc 0x0083013E [100.000000 -30.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008300C,  6122, 0x0083013F, 100, -40, -30, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Acid */
-/* @teleloc 0x0083013F [100.000000 -40.000000 -30.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7008300C,  6122, 0x0083013F, 100, -40, -30, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Acid */
+/* @teleloc 0x0083013F [100.000000 -40.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008300D,  6122, 0x00830140, 100, -50, -30, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Acid */
-/* @teleloc 0x00830140 [100.000000 -50.000000 -30.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7008300D,  6122, 0x00830140, 100, -50, -30, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Acid */
+/* @teleloc 0x00830140 [100.000000 -50.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70083038, 33254, 0x0083026F, 20, -370, -0.063, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x0083026F [20.000000 -370.000000 -0.063000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70083038, 33254, 0x0083026F, 20, -370, -0.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x0083026F [20.000000 -370.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70083039,  7924, 0x00830264, 99.2591, -259.23, -5.995, -0.679426, 0, 0, -0.733744, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */

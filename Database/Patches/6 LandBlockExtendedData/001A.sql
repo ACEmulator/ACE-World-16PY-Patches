@@ -174,11 +174,11 @@ VALUES (0x7001A026, 28652, 0x001A0181, 188.285, -139.557, 0.005, -0.999645, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001A027, 28656, 0x001A01A2, 250.238, -447.191, 0.005, -0.998932, 0, 0, 0.04621,  True, '2021-11-01 00:00:00'); /* Viamontian Lord */
-/* @teleloc 0x001A01A2 [250.238007 -447.191010 0.005000] -0.998932 0.000000 0.000000 0.046209 */
+/* @teleloc 0x001A01A2 [250.238007 -447.191010 0.005000] -0.998932 0.000000 0.000000 0.046210 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001A028, 28656, 0x001A01A2, 248.315, -447.013, 0.005, -0.998932, 0, 0, 0.04621,  True, '2021-11-01 00:00:00'); /* Viamontian Lord */
-/* @teleloc 0x001A01A2 [248.315002 -447.013000 0.005000] -0.998932 0.000000 0.000000 0.046209 */
+/* @teleloc 0x001A01A2 [248.315002 -447.013000 0.005000] -0.998932 0.000000 0.000000 0.046210 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001A029, 29303, 0x001A01A3, 248.826, -451.211, 0.005, -0.998932, 0, 0, 0.046209,  True, '2021-11-01 00:00:00'); /* Royal Thaumaturge */

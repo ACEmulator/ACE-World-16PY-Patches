@@ -27,6 +27,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (34281, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (34281, 0, 4294967295, 'Madam Ainea Besu, Explorer of the Society', 'prewritten', False, 'For those of an adventurous mind. I have been asked to explore a new structure found in the Direland Swamps. I am told that it lies somewhere near 41.5s, 49.5w. I will have set an Explorer Society Marker at this location if you wish to follow in my footsteps.
+VALUES (34281, 0, 0xFFFFFFFF, 'Madam Ainea Besu, Explorer of the Society', 'prewritten', False, 'For those of an adventurous mind. I have been asked to explore a new structure found in the Direland Swamps. I am told that it lies somewhere near 41.5s, 49.5w. I will have set an Explorer Society Marker at this location if you wish to follow in my footsteps.
 
 As a poet once said, "Who knows what treasures lost lie beneath the muck of ages?');

@@ -9,8 +9,8 @@ VALUES (0x700E0012, 38637, 0x00E0016F, 130, -314.5, -6, 0, 0, 0, -1, False, '202
 /* @teleloc 0x00E0016F [130.000000 -314.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700E0019, 38639, 0x00E001A7, 160, -236, -0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Silver-Locked Door */
-/* @teleloc 0x00E001A7 [160.000000 -236.000000 -0.000000] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x700E0019, 38639, 0x00E001A7, 160, -236, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Silver-Locked Door */
+/* @teleloc 0x00E001A7 [160.000000 -236.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700E001A, 38647, 0x00E001AF, 170, -240, -0.063, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Surface */
@@ -179,8 +179,8 @@ VALUES (0x700E0032, 37179, 0x00E00209, 72.7585, -179.65, 6.00825, 0.694425, 0, 0
 /* @teleloc 0x00E00209 [72.758499 -179.649994 6.008250] 0.694425 0.000000 0.000000 -0.719565 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700E0033, 37180, 0x00E00200, 49.94, -206.948, 6.00825, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Imperial Archivist */
-/* @teleloc 0x00E00200 [49.939999 -206.947998 6.008250] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700E0033, 37180, 0x00E00200, 49.94, -206.948, 6.00825, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Imperial Archivist */
+/* @teleloc 0x00E00200 [49.939999 -206.947998 6.008250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700E0034, 37179, 0x00E001F6, 40.133, -199.264, 6.00825, 0.966817, 0, 0, -0.25547,  True, '2021-11-01 00:00:00'); /* Imperial Guard */
@@ -291,12 +291,12 @@ VALUES (0x700E004E, 37179, 0x00E00105, 100.308, -350.856, -11.9917, 1, 0, 0, 0, 
 /* @teleloc 0x00E00105 [100.307999 -350.855988 -11.991700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700E004F, 37180, 0x00E00106, 98.2908, -362.031, -11.9917, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Imperial Archivist */
-/* @teleloc 0x00E00106 [98.290802 -362.031006 -11.991700] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700E004F, 37180, 0x00E00106, 98.2908, -362.031, -11.9917, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Imperial Archivist */
+/* @teleloc 0x00E00106 [98.290802 -362.031006 -11.991700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700E0050, 37180, 0x00E00107, 98.2908, -367.514, -11.9917, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Imperial Archivist */
-/* @teleloc 0x00E00107 [98.290802 -367.514008 -11.991700] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700E0050, 37180, 0x00E00107, 98.2908, -367.514, -11.9917, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Imperial Archivist */
+/* @teleloc 0x00E00107 [98.290802 -367.514008 -11.991700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700E0051, 37179, 0x00E00112, 140.803, -368.901, -11.9917, 0.731689, 0, 0, 0.681639,  True, '2021-11-01 00:00:00'); /* Imperial Guard */

@@ -10,7 +10,7 @@ INSERT INTO `recipe_requirements_bool` (`recipe_Id`, `index`, `stat`, `value`, `
 VALUES (9070, 0,  91, True, 6, 'The target is already retained!') /* Target.Retained Equal True */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (9070, True, 0, 0, 0, False, 939524163, 0, 0);
+VALUES (9070, True, 0, 0, 0, False, 0x38000043, 0, 0);
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 9070;
 

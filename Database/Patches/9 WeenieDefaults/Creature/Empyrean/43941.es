@@ -23,7 +23,7 @@ Use:
                         - Delay: 1, Tell: Let me know if you change your mind.
 
 GotoSet: CheckUsedSkillReset1
-    - InqQuestSolves: UsedSkillReset, 1 - 1
+    - InqQuestSolves: UsedSkillReset, 0 - 1
         QuestSuccess:
             - InqYesNo: Would you like to reset your skills for 10 MMDs and 100,000 Luminance?
                 TestSuccess:

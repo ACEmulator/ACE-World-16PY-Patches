@@ -126,12 +126,12 @@ VALUES (0x7200F17A, 42922, 0x200F03CC, 60, -347, -59.592, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x200F03CC [60.000000 -347.000000 -59.591999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7200F17B, 42922, 0x200F04AD, 90, -397, -59.592, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Water Elemental */
-/* @teleloc 0x200F04AD [90.000000 -397.000000 -59.591999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7200F17B, 42922, 0x200F04AD, 90, -397, -59.592, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Water Elemental */
+/* @teleloc 0x200F04AD [90.000000 -397.000000 -59.591999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7200F17C, 42922, 0x200F05E8, 170, -447, -59.592, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Water Elemental */
-/* @teleloc 0x200F05E8 [170.000000 -447.000000 -59.591999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7200F17C, 42922, 0x200F05E8, 170, -447, -59.592, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Water Elemental */
+/* @teleloc 0x200F05E8 [170.000000 -447.000000 -59.591999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7200F17D, 42922, 0x200F0616, 193.166, -444.656, -59.592, 0.502735, 0, 0, 0.86444,  True, '2021-11-01 00:00:00'); /* Water Elemental */

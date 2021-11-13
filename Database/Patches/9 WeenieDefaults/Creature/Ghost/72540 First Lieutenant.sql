@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72540;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72540, 'ace72540-firstlieutenant', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (72540, 'ace72540-firstlieutenant', 10, '2021-11-08 06:01:47') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72540,   1,         16) /* ItemType - Creature */
@@ -41,7 +41,7 @@ VALUES (72540,   1,       5) /* HeartbeatInterval */
      , (72540,  17,       1) /* ArmorModVsFire */
      , (72540,  18,       1) /* ArmorModVsAcid */
      , (72540,  19,       1) /* ArmorModVsElectric */
-     , (72540,  31,      16) /* VisualAwarenessRange */
+     , (72540,  31,      20) /* VisualAwarenessRange */
      , (72540,  34,       1) /* PowerupTime */
      , (72540,  36,       1) /* ChargeSpeed */
      , (72540,  64,     0.5) /* ResistSlash */
@@ -155,8 +155,8 @@ VALUES (72540, -1, 72472, 180, 1, 1, 1, 4, 0, 0, 0, 0x66510100, 6.1, -12.25, 0.0
      , (72540, -1, 72472, 180, 1, 1, 1, 4, 0, 0, 0, 0x66510100, 12.1, -6.1, 0.005, 0.707107, 0, 0, 0.707107) /* Generate Trap (72472) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (72540, -1, 72472, 180, 1, 1, 1, 4, 0, 0, 0, 0x66510102, 17.8, -6.1, 0.005, 0.707107, 0, 0, -0.707107) /* Generate Trap (72472) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (72540, -1, 72472, 180, 1, 1, 1, 4, 0, 0, 0, 0x66510102, 23.9, -12.25, 0.005, 1, 0, 0, 0) /* Generate Trap (72472) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (72540, -1, 72472, 180, 1, 1, 1, 4, 0, 0, 0, 0x66510103, 23.9, -17.7, 0.005, -0, 0, 0, -1) /* Generate Trap (72472) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (72540, -1, 72472, 180, 1, 1, 1, 4, 0, 0, 0, 0x66510103, 23.9, -17.7, 0.005, 0, 0, 0, -1) /* Generate Trap (72472) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (72540, -1, 72472, 180, 1, 1, 1, 4, 0, 0, 0, 0x66510103, 17.8, -23.9, 0.005, 0.707107, 0, 0, -0.707107) /* Generate Trap (72472) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (72540, -1, 72472, 180, 1, 1, 1, 4, 0, 0, 0, 0x66510101, 12.1, -23.9, 0.005, 0.707107, 0, 0, 0.707107) /* Generate Trap (72472) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (72540, -1, 72472, 180, 1, 1, 1, 4, 0, 0, 0, 0x66510101, 6.1, -17.7, 0.005, -0, 0, 0, -1) /* Generate Trap (72472) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (72540, -1, 72472, 180, 1, 1, 1, 4, 0, 0, 0, 0x66510101, 6.1, -17.7, 0.005, 0, 0, 0, -1) /* Generate Trap (72472) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (72540, -1, 72476, 180, 1, 1, 1, 4, 0, 0, 0, 0x66510102, 15, -15, 0.005, 1, 0, 0, 0) /* Generate Hoshino Tower Guards Gen (72476) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

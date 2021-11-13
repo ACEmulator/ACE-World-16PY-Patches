@@ -58,4 +58,4 @@ VALUES (0x790D000C, 28921, 0x90D0010D, 90.7358, 96.4374, 277.205, -0.416252, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790D000D, 42852, 0x90D00014, 69.1709, 82.6791, 282.198, 0.999955, 0, 0, 0.009455, False, '2021-11-01 00:00:00'); /* Portal to Town Network */
-/* @teleloc 0x90D00014 [69.170898 82.679100 282.197998] 0.999955 0.000000 0.000000 0.009454 */
+/* @teleloc 0x90D00014 [69.170898 82.679100 282.197998] 0.999955 0.000000 0.000000 0.009455 */

@@ -9,5 +9,5 @@ VALUES (0x7B86F001,   933, 0xB86F0000, 85.444, 79.944, 11.771, 0.707107, 0, 0, -
 /* @teleloc 0xB86F0000 [85.444000 79.944000 11.771000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B86F002, 33249, 0xB86F003C, 180.1, 85.4444, 12.005, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Beldin the Gem Dealer */
-/* @teleloc 0xB86F003C [180.100006 85.444397 12.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7B86F002, 33249, 0xB86F003C, 180.1, 85.4444, 12.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Beldin the Gem Dealer */
+/* @teleloc 0xB86F003C [180.100006 85.444397 12.005000] 0.000000 0.000000 0.000000 -1.000000 */

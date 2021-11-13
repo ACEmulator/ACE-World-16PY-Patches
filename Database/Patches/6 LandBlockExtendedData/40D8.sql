@@ -13,8 +13,8 @@ VALUES (0x740D8003, 30764, 0x40D80106, 82, 83, -61.6, 1, 0, 0, 0, False, '2021-1
 /* @teleloc 0x40D80106 [82.000000 83.000000 -61.599998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x740D8005, 30764, 0x40D80107, 82, 73, -61.6, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* "Mag-Ma!" */
-/* @teleloc 0x40D80107 [82.000000 73.000000 -61.599998] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x740D8005, 30764, 0x40D80107, 82, 73, -61.6, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* "Mag-Ma!" */
+/* @teleloc 0x40D80107 [82.000000 73.000000 -61.599998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740D8006,  7932, 0x40D80003, 22.9043, 65.5183, 0.545138, -0.178348, 0, 0, -0.983967, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 4 Min.) */
@@ -82,8 +82,8 @@ VALUES (0x740D800D,  7983, 0x40D8023E, 142, 63, -19.6022, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x40D8023E [142.000000 63.000000 -19.602200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x740D800E,  7983, 0x40D8022A, 122, 93, -19.6022, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Bane Grievver */
-/* @teleloc 0x40D8022A [122.000000 93.000000 -19.602200] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x740D800E,  7983, 0x40D8022A, 122, 93, -19.6022, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Bane Grievver */
+/* @teleloc 0x40D8022A [122.000000 93.000000 -19.602200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740D800F,  7983, 0x40D801F2, 82, 73, -19.6022, -0.004204, 0, 0, -0.999991,  True, '2021-11-01 00:00:00'); /* Bane Grievver */
@@ -198,8 +198,8 @@ VALUES (0x740D8034,  5710, 0x40D80105, 67.48, 69.6209, -61.595, 0.915959, 0, 0, 
 /* @teleloc 0x40D80105 [67.480003 69.620903 -61.595001] 0.915959 0.000000 0.000000 -0.401273 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x740D8035, 30756, 0x40D8011F, 82, 13, -43.6022, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Ripper Grievver */
-/* @teleloc 0x40D8011F [82.000000 13.000000 -43.602200] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x740D8035, 30756, 0x40D8011F, 82, 13, -43.6022, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Ripper Grievver */
+/* @teleloc 0x40D8011F [82.000000 13.000000 -43.602200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740D8036, 30756, 0x40D8013C, 102, 13, -43.6022, 0.696707, 0, 0, 0.717356,  True, '2021-11-01 00:00:00'); /* Ripper Grievver */
@@ -226,8 +226,8 @@ VALUES (0x740D803B, 28641, 0x40D80161, 131.507, 41.9769, -43.6, 0.42225, 0, 0, 0
 /* @teleloc 0x40D80161 [131.507004 41.976898 -43.599998] 0.422250 0.000000 0.000000 0.906479 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x740D8041,  7983, 0x40D801ED, 72, 53, -19.6022, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Bane Grievver */
-/* @teleloc 0x40D801ED [72.000000 53.000000 -19.602200] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x740D8041,  7983, 0x40D801ED, 72, 53, -19.6022, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Bane Grievver */
+/* @teleloc 0x40D801ED [72.000000 53.000000 -19.602200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740D8042,  7983, 0x40D801E8, 62, 33, -19.6022, 0.731689, 0, 0, -0.681639,  True, '2021-11-01 00:00:00'); /* Bane Grievver */

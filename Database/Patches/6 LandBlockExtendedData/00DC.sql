@@ -308,5 +308,5 @@ VALUES (0x700DC07D, 38432, 0x00DC02B4, 217.022, -187.161, -5.9936, 0.067177, 0, 
 /* @teleloc 0x00DC02B4 [217.022003 -187.160995 -5.993600] 0.067177 0.000000 0.000000 -0.997741 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DC07E, 38360, 0x00DC0167, 200, -196.155, -11.996, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Prior Kothmox */
-/* @teleloc 0x00DC0167 [200.000000 -196.154999 -11.996000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700DC07E, 38360, 0x00DC0167, 200, -196.155, -11.996, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Prior Kothmox */
+/* @teleloc 0x00DC0167 [200.000000 -196.154999 -11.996000] 1.000000 0.000000 0.000000 0.000000 */
