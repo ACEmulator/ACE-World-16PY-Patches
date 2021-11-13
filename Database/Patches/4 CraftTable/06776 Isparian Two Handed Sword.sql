@@ -6,4 +6,4 @@ VALUES (6776, 0, 0, 0, 0, 46194 /* Isparian Two Handed Sword */, 1, 'You remove 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6776;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6776, 20023 /* Isparian Weapons Modifying Tool */, 46248, '2021-11-01 00:00:00');
+VALUES (6776, 20023 /* Isparian Weapons Modifying Tool */, 71214 /* Enhanced Dissolving Isparian Two Handed Sword */, '2021-11-01 00:00:00');

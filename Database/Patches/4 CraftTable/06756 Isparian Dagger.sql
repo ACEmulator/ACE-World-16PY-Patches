@@ -6,4 +6,4 @@ VALUES (6756, 0, 0, 0, 0, 46154 /* Isparian Dagger */, 1, 'You remove the stones
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6756;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6756, 20023 /* Isparian Weapons Modifying Tool */, 46228, '2021-11-01 00:00:00');
+VALUES (6756, 20023 /* Isparian Weapons Modifying Tool */, 71218 /* Enhanced Coruscating Isparian Dagger */, '2021-11-01 00:00:00');
