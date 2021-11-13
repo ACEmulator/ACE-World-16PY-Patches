@@ -11,6 +11,7 @@ VALUES (33998,   1,        256) /* ItemType - MissileWeapon */
      , (33998,  16,          1) /* ItemUseable - No */
      , (33998,  18,          1) /* UiEffects - Magical */
      , (33998,  19,        375) /* Value */
+     , (33998,  33,          1) /* Bonded - Bonded */
      , (33998,  44,         10) /* Damage */
      , (33998,  45,          0) /* DamageType - Undef */
      , (33998,  46,         32) /* DefaultCombatStyle - Crossbow */
@@ -23,6 +24,7 @@ VALUES (33998,   1,        256) /* ItemType - MissileWeapon */
      , (33998, 107,       1200) /* ItemCurMana */
      , (33998, 108,       1200) /* ItemMaxMana */
      , (33998, 109,        250) /* ItemDifficulty */
+     , (33998, 114,          1) /* Attuned - Attuned */
      , (33998, 151,          2) /* HookType - Wall */
      , (33998, 158,          2) /* WieldRequirements - RawSkill */
      , (33998, 159,         47) /* WieldSkillType - MissileWeapons */

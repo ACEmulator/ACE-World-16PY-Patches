@@ -11,6 +11,7 @@ VALUES (33991,   1,        256) /* ItemType - MissileWeapon */
      , (33991,  16,          1) /* ItemUseable - No */
      , (33991,  18,          1) /* UiEffects - Magical */
      , (33991,  19,        400) /* Value */
+     , (33991,  33,          1) /* Bonded - Bonded */
      , (33991,  44,          4) /* Damage */
      , (33991,  45,          0) /* DamageType - Undef */
      , (33991,  46,         16) /* DefaultCombatStyle - Bow */
@@ -23,6 +24,7 @@ VALUES (33991,   1,        256) /* ItemType - MissileWeapon */
      , (33991, 107,        800) /* ItemCurMana */
      , (33991, 108,        800) /* ItemMaxMana */
      , (33991, 109,        190) /* ItemDifficulty */
+     , (33991, 114,          1) /* Attuned - Attuned */
      , (33991, 151,          2) /* HookType - Wall */
      , (33991, 158,          2) /* WieldRequirements - RawSkill */
      , (33991, 159,         47) /* WieldSkillType - MissileWeapons */
