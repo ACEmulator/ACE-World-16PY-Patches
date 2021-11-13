@@ -9,11 +9,11 @@ VALUES (33111,   1,        256) /* ItemType - MissileWeapon */
      , (33111,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (33111,  16,          1) /* ItemUseable - No */
      , (33111,  19,      20000) /* Value */
-     , (33111,  44,         34) /* Damage */
+     , (33111,  44,         12) /* Damage */
      , (33111,  45,          0) /* DamageType - Undef */
      , (33111,  46,       1024) /* DefaultCombatStyle - Atlatl */
      , (33111,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (33111,  49,          0) /* WeaponTime */
+     , (33111,  49,         50) /* WeaponTime */
      , (33111,  50,          4) /* AmmoType - Atlatl */
      , (33111,  51,          2) /* CombatUse - Missile */
      , (33111,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -36,7 +36,7 @@ VALUES (33111,   5,   -0.05) /* ManaRate */
      , (33111,  21,       0) /* WeaponLength */
      , (33111,  22,       0) /* DamageVariance */
      , (33111,  26,    24.9) /* MaximumVelocity */
-     , (33111,  29,    1.32) /* WeaponDefense */
+     , (33111,  29,    1.15) /* WeaponDefense */
      , (33111,  62,       1) /* WeaponOffense */
      , (33111,  63,    2.65) /* DamageMod */
      , (33111, 136,       2) /* CriticalMultiplier */
