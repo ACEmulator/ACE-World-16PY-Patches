@@ -9,8 +9,8 @@ VALUES (46070,   1,        256) /* ItemType - MissileWeapon */
      , (46070,   5,        980) /* EncumbranceVal */
      , (46070,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (46070,  16,          1) /* ItemUseable - No */
-     , (46070,  18,       1024) /* UiEffects - Slashing */
-     , (46070,  19,        100) /* Value */
+     , (46070,  18,          1) /* UiEffects - Magical */
+     , (46070,  19,       8000) /* Value */
      , (46070,  33,          1) /* Bonded - Bonded */
      , (46070,  44,          8) /* Damage */
      , (46070,  45,         32) /* DamageType - Acid */
@@ -33,13 +33,8 @@ VALUES (46070,   1,        256) /* ItemType - MissileWeapon */
      , (46070, 263,         32) /* ResistanceModifierType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46070,  11, True ) /* IgnoreCollisions */
-     , (46070,  13, True ) /* Ethereal */
-     , (46070,  14, True ) /* GravityStatus */
-     , (46070,  19, True ) /* Attackable */
-     , (46070,  22, True ) /* Inscribable */
+VALUES (46070,  22, True ) /* Inscribable */
      , (46070,  69, False) /* IsSellable */
-     , (46070,  85, True ) /* AppraisalHasAllowedWielder */
      , (46070,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

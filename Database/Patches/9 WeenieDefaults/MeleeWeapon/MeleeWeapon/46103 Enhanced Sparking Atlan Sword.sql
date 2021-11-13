@@ -32,11 +32,7 @@ VALUES (46103,   1,          1) /* ItemType - MeleeWeapon */
      , (46103, 263,         64) /* ResistanceModifierType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46103,  11, True ) /* IgnoreCollisions */
-     , (46103,  13, True ) /* Ethereal */
-     , (46103,  14, True ) /* GravityStatus */
-     , (46103,  19, True ) /* Attackable */
-     , (46103,  22, True ) /* Inscribable */
+VALUES (46103,  22, True ) /* Inscribable */
      , (46103,  69, False) /* IsSellable */
      , (46103,  99, True ) /* Ivoryable */;
 

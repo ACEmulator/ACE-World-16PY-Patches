@@ -22,8 +22,6 @@ VALUES (46138,   1,      32768) /* ItemType - Caster */
      , (46138, 108,        500) /* ItemMaxMana */
      , (46138, 109,        250) /* ItemDifficulty */
      , (46138, 114,          1) /* Attuned - Attuned */
-     , (46138, 115,        250) /* ItemSkillLevelLimit */
-     , (46138, 150,        103) /* HookPlacement - Hook */
      , (46138, 151,          2) /* HookType - Wall */
      , (46138, 158,          2) /* WieldRequirements - RawSkill */
      , (46138, 159,         34) /* WieldSkillType - WarMagic */
@@ -32,7 +30,6 @@ VALUES (46138,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46138,  22, True ) /* Inscribable */
-     , (46138,  23, True ) /* DestroyOnSell */
      , (46138,  69, False) /* IsSellable */
      , (46138,  99, True ) /* Ivoryable */;
 

@@ -19,7 +19,6 @@ VALUES (46104,   1,          1) /* ItemType - MeleeWeapon */
      , (46104,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (46104,  49,         35) /* WeaponTime */
      , (46104,  51,          1) /* CombatUse - Melee */
-     , (46104,  52,          1) /* ParentLocation - RightHand */
      , (46104,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46104, 106,        350) /* ItemSpellcraft */
      , (46104, 107,        750) /* ItemCurMana */
@@ -33,11 +32,7 @@ VALUES (46104,   1,          1) /* ItemType - MeleeWeapon */
      , (46104, 263,         32) /* ResistanceModifierType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46104,  11, True ) /* IgnoreCollisions */
-     , (46104,  13, True ) /* Ethereal */
-     , (46104,  14, True ) /* GravityStatus */
-     , (46104,  19, True ) /* Attackable */
-     , (46104,  22, True ) /* Inscribable */
+VALUES (46104,  22, True ) /* Inscribable */
      , (46104,  69, False) /* IsSellable */
      , (46104,  99, True ) /* Ivoryable */;
 
