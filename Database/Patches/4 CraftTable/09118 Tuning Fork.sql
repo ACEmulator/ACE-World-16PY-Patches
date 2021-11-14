@@ -6,4 +6,4 @@ VALUES (9118, 0, 0, 0, 0, 51157 /* Tuning Fork */, 1, 'The metal pipe attaches e
 DELETE FROM `cook_book` WHERE `recipe_Id` = 9118;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (9118, 51095 /* Metal Pipe */, 72417 /* Bar of Curved Metal */, '2021-06-23 10:00:00');
+VALUES (9118, 51095 /* Metal Pipe */, 72738 /* Bar of Curved Metal */, '2021-06-23 10:00:00');
