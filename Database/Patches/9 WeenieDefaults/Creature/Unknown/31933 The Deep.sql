@@ -23,6 +23,8 @@ VALUES (31933,   1, True ) /* Stuck */
      , (31933,  19, False) /* Attackable */
      , (31933,  41, True ) /* ReportCollisionsAsEnvironment */
      , (31933,  42, True ) /* AllowEdgeSlide */
+     , (31933,  52, True ) /* AiImmobile */
+     , (31933,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (31933,  83, True ) /* NpcLooksLikeObject */
      , (31933, 118, True ) /* NeverAttack */;
 

@@ -5,8 +5,8 @@ VALUES (53487, 'ace53487-swiftsmarker', 10, '2021-11-01 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53487,   1,         16) /* ItemType - Creature */
-     , (53487,   6,        255) /* ItemsCapacity */
-     , (53487,   7,        255) /* ContainersCapacity */
+     , (53487,   6,         -1) /* ItemsCapacity */
+     , (53487,   7,         -1) /* ContainersCapacity */
      , (53487,  16,         32) /* ItemUseable - Remote */
      , (53487,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53487,  95,          8) /* RadarBlipColor - Yellow */

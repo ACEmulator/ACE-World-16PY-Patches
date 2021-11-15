@@ -50,6 +50,3 @@ VALUES (30157,   1, 0x020009A7) /* Setup */
      , (30157,  28,       4596) /* Spell - Incantation of Magic Resistance Self */
      , (30157,  50, 0x06005B4F) /* IconOverlay */
      , (30157,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30157,  4596,      2)  /* Incantation of Magic Resistance Self */;

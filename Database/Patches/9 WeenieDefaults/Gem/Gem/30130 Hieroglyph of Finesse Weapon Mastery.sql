@@ -50,6 +50,3 @@ VALUES (30130,   1, 0x020009A7) /* Setup */
      , (30130,  28,       4538) /* Spell - Incantation of Finesse Weapon Mastery Self */
      , (30130,  50, 0x06005B34) /* IconOverlay */
      , (30130,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30130,  4538,      2)  /* Incantation of Finesse Weapon Mastery Self */;

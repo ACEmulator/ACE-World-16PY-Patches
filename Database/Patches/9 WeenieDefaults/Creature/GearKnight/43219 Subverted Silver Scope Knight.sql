@@ -6,8 +6,8 @@ VALUES (43219, 'ace43219-subvertedsilverscopeknight', 10, '2021-11-01 00:00:00')
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43219,   1,         16) /* ItemType - Creature */
      , (43219,   2,         99) /* CreatureType - GearKnight */
-     , (43219,   6,        255) /* ItemsCapacity */
-     , (43219,   7,        255) /* ContainersCapacity */
+     , (43219,   6,         -1) /* ItemsCapacity */
+     , (43219,   7,         -1) /* ContainersCapacity */
      , (43219,  16,          1) /* ItemUseable - No */
      , (43219,  25,        185) /* Level */
      , (43219,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

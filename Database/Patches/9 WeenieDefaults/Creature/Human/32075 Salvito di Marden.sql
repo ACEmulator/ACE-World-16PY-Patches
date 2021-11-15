@@ -6,8 +6,8 @@ VALUES (32075, 'ace32075-salvitodimarden', 10, '2021-11-01 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32075,   1,         16) /* ItemType - Creature */
      , (32075,   2,         31) /* CreatureType - Human */
-     , (32075,   6,        255) /* ItemsCapacity */
-     , (32075,   7,        255) /* ContainersCapacity */
+     , (32075,   6,         -1) /* ItemsCapacity */
+     , (32075,   7,         -1) /* ContainersCapacity */
      , (32075,  16,         32) /* ItemUseable - Remote */
      , (32075,  25,        124) /* Level */
      , (32075,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

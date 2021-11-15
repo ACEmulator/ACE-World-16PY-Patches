@@ -6,8 +6,7 @@ VALUES (52908, 'ace52908-gauntletstage6', 7, '2021-11-01 00:00:00') /* Portal */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52908,   1,      65536) /* ItemType - Portal */
      , (52908,  16,         32) /* ItemUseable - Remote */
-     , (52908,  93,      66576) /* PhysicsState - IgnoreCollisions, Gravity, HasPhysicsBSP */
-     , (52908,  98, 1485828731) /* CreationTimestamp */
+     , (52908,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (52908, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (52908, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52908, 267,         60) /* Lifespan */;
@@ -16,8 +15,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52908,   1, True ) /* Stuck */
      , (52908,  11, True ) /* IgnoreCollisions */
      , (52908,  14, True ) /* GravityStatus */
-     , (52908,  19, True ) /* Attackable */
-     , (52908,  88, True ) /* PortalShowDestination */;
+     , (52908,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52908,  54,     0.3) /* UseRadius */;

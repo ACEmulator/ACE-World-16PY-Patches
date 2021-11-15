@@ -32,6 +32,3 @@ VALUES (3167,   1, 0x0200018A) /* Setup */
      , (3167,   8, 0x06007119) /* Icon */
      , (3167,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3167,  28,        297) /* Spell - Light Weapon Mastery Other VI */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3167,   297,      2)  /* Light Weapon Mastery Other VI */;

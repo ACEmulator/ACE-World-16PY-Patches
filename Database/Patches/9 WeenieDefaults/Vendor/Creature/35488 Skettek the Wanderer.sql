@@ -6,8 +6,8 @@ VALUES (35488, 'ace35488-skettekthewanderer', 12, '2021-11-01 00:00:00') /* Vend
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35488,   1,         16) /* ItemType - Creature */
      , (35488,   2,         31) /* CreatureType - Human */
-     , (35488,   6,        255) /* ItemsCapacity */
-     , (35488,   7,        255) /* ContainersCapacity */
+     , (35488,   6,         -1) /* ItemsCapacity */
+     , (35488,   7,         -1) /* ContainersCapacity */
      , (35488,  16,         32) /* ItemUseable - Remote */
      , (35488,  25,        150) /* Level */
      , (35488,  74, 1077936047) /* MerchandiseItemTypes - Food, Useless, SpellComponents, Writable, Key, Portal, Lockable, PromissoryNote, ItemEnchantableTarget, Service, MagicWieldable, TinkeringMaterial */

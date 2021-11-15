@@ -6,8 +6,8 @@ VALUES (36535, 'ace36535-guardalfric', 10, '2021-11-01 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36535,   1,         16) /* ItemType - Creature */
      , (36535,   2,         31) /* CreatureType - Human */
-     , (36535,   6,        255) /* ItemsCapacity */
-     , (36535,   7,        255) /* ContainersCapacity */
+     , (36535,   6,         -1) /* ItemsCapacity */
+     , (36535,   7,         -1) /* ContainersCapacity */
      , (36535,  16,         32) /* ItemUseable - Remote */
      , (36535,  25,        108) /* Level */
      , (36535,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

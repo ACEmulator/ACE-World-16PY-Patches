@@ -50,6 +50,3 @@ VALUES (30149,   1, 0x020009A7) /* Setup */
      , (30149,  28,       4578) /* Spell - Incantation of Leadership Mastery Self */
      , (30149,  50, 0x06005B47) /* IconOverlay */
      , (30149,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30149,  4578,      2)  /* Incantation of Leadership Mastery Self */;

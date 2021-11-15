@@ -6,8 +6,8 @@ VALUES (33918, 'ace33918-petbabydrudge', 69, '2021-11-01 00:00:00') /* Pet */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33918,   1,         16) /* ItemType - Creature */
      , (33918,   2,          3) /* CreatureType - Drudge */
-     , (33918,   6,        255) /* ItemsCapacity */
-     , (33918,   7,        255) /* ContainersCapacity */
+     , (33918,   6,         -1) /* ItemsCapacity */
+     , (33918,   7,         -1) /* ContainersCapacity */
      , (33918,  16,          1) /* ItemUseable - No */
      , (33918,  25,          4) /* Level */
      , (33918,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

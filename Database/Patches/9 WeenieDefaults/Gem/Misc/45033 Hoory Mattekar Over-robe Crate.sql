@@ -11,7 +11,7 @@ VALUES (45033,   1,        128) /* ItemType - Misc */
      , (45033,  16,          8) /* ItemUseable - Contained */
      , (45033,  19,     250000) /* Value */
      , (45033,  33,          1) /* Bonded - Bonded */
-     , (45033,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (45033,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45033,  94,         16) /* TargetType - Creature */
      , (45033, 114,          1) /* Attuned - Attuned */
      , (45033, 269,          1) /* UseCreateQuantity */;

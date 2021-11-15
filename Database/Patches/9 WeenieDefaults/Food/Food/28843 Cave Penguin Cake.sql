@@ -37,6 +37,3 @@ VALUES (28843,   1, 0x020002F9) /* Setup */
      , (28843,   8, 0x06005A3D) /* Icon */
      , (28843,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28843,  28,       3569) /* Spell - Mana Boost */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28843,  3569,      2)  /* Mana Boost */;

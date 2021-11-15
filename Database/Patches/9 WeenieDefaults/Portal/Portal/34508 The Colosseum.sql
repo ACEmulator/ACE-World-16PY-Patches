@@ -6,7 +6,7 @@ VALUES (34508, 'ace34508-thecolosseum', 7, '2021-11-01 00:00:00') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34508,   1,      65536) /* ItemType - Portal */
      , (34508,  16,         32) /* ItemUseable - Remote */
-     , (34508,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (34508,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34508, 111,          1) /* PortalBitmask - Unrestricted */
      , (34508, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

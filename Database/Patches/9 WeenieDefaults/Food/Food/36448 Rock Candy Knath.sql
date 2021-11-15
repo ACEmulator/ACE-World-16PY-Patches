@@ -44,6 +44,3 @@ VALUES (36448,   1, 0x020004AE) /* Setup */
      , (36448,   8, 0x06006707) /* Icon */
      , (36448,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36448,  28,       4210) /* Spell - The Jitters */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36448,  4210,      2)  /* The Jitters */;

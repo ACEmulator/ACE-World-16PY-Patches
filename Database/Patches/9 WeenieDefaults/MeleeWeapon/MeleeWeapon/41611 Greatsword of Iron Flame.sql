@@ -54,6 +54,3 @@ VALUES (41611,   1, 0x02001923) /* Setup */
      , (41611,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41611,  36, 0x0E000014) /* MutateFilter */
      , (41611,  55,       1785) /* ProcSpell - Cassius' Ring of Fire */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41611,  1785,      2)  /* Cassius' Ring of Fire */;

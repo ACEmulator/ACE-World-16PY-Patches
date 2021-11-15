@@ -49,6 +49,3 @@ VALUES (30123,   1, 0x020009A7) /* Setup */
      , (30123,  28,       4397) /* Spell - Incantation of Bludgeon Bane */
      , (30123,  50, 0x06005B2C) /* IconOverlay */
      , (30123,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30123,  4397,      2)  /* Incantation of Bludgeon Bane */;

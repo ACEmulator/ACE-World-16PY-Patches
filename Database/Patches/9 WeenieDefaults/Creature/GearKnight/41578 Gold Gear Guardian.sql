@@ -6,8 +6,8 @@ VALUES (41578, 'ace41578-goldgearguardian', 10, '2021-11-01 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41578,   1,         16) /* ItemType - Creature */
      , (41578,   2,         99) /* CreatureType - GearKnight */
-     , (41578,   6,        255) /* ItemsCapacity */
-     , (41578,   7,        255) /* ContainersCapacity */
+     , (41578,   6,         -1) /* ItemsCapacity */
+     , (41578,   7,         -1) /* ContainersCapacity */
      , (41578,  16,          1) /* ItemUseable - No */
      , (41578,  25,         80) /* Level */
      , (41578,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (41532, 'ace41532-invadingbronzegauntletphalanx', 10, '2021-11-01 00:00:0
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41532,   1,         16) /* ItemType - Creature */
      , (41532,   2,         99) /* CreatureType - GearKnight */
-     , (41532,   6,        255) /* ItemsCapacity */
-     , (41532,   7,        255) /* ContainersCapacity */
+     , (41532,   6,         -1) /* ItemsCapacity */
+     , (41532,   7,         -1) /* ContainersCapacity */
      , (41532,  16,          1) /* ItemUseable - No */
      , (41532,  25,        135) /* Level */
      , (41532,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

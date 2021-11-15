@@ -50,6 +50,3 @@ VALUES (30179,   1, 0x020009A7) /* Setup */
      , (30179,  28,       4638) /* Spell - Incantation of War Magic Mastery Self */
      , (30179,  50, 0x06005B65) /* IconOverlay */
      , (30179,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30179,  4638,      2)  /* Incantation of War Magic Mastery Self */;

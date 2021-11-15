@@ -38,13 +38,13 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (70049, 0, 0);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (70049, 0, 0xFFFFFFFF, 'Enrico di Bellenesse', '', False, 'It grieves me to send you this letter, cousin. In all the years I have served my King, I have never betrayed my oaths as a loyal subject of Viamont. When you and your father began your rebellion, my heart was cleaved in twain. I am a member of the house of Bellenesse. But more importantly, I am a soldier in the King''s army.
+VALUES (70049, 0, 0xFFFFFFFF, 'Enrico di Bellenesse', 'prewritten', False, 'It grieves me to send you this letter, cousin. In all the years I have served my King, I have never betrayed my oaths as a loyal subject of Viamont. When you and your father began your rebellion, my heart was cleaved in twain. I am a member of the house of Bellenesse. But more importantly, I am a soldier in the King''s army.
 
 Which is what makes this letter so hard to write.')
-     , (70049, 1, 0xFFFFFFFF, 'Enrico di Bellenesse', '', False, 'You are being tricked. Your capture of Sir Binwas Loc was orchestrated. Loc and the Grand Knight planned Loc''s capture in the hopes that Loc could infiltrate Silyun. And now that he has, he plans to lead you to your death.
+     , (70049, 1, 0xFFFFFFFF, 'Enrico di Bellenesse', 'prewritten', False, 'You are being tricked. Your capture of Sir Binwas Loc was orchestrated. Loc and the Grand Knight planned Loc''s capture in the hopes that Loc could infiltrate Silyun. And now that he has, he plans to lead you to your death.
 
 He is supposedly leading you to a man who bears a portal gem to the King''s private chambers, is he not? I tell you, this is a lie. Loc is leading you to your death. The King will be there along with a dozen knights and mages. They will trap you and kill you.')
-     , (70049, 2, 0xFFFFFFFF, 'Enrico di Bellenesse', '', False, 'Do not let them do this thing. Do not trust Loc. If you have any sense, you must slay that man immediately. He is poison, and he will find some way to kill you if you let him live.
+     , (70049, 2, 0xFFFFFFFF, 'Enrico di Bellenesse', 'prewritten', False, 'Do not let them do this thing. Do not trust Loc. If you have any sense, you must slay that man immediately. He is poison, and he will find some way to kill you if you let him live.
 
 Do not tell your uncle of this letter. Do not tell anyone. Writing this letter is a betrayal of my oaths to the King. But I simply cannot watch as my dearest cousin is led to her doom by my bitterest rival.
 

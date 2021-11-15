@@ -6,8 +6,8 @@ VALUES (49000, 'ace49000-zombie', 71, '2021-11-01 00:00:00') /* CombatPet */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49000,   1,         16) /* ItemType - Creature */
      , (49000,   2,         14) /* CreatureType - Undead */
-     , (49000,   6,        255) /* ItemsCapacity */
-     , (49000,   7,        255) /* ContainersCapacity */
+     , (49000,   6,         -1) /* ItemsCapacity */
+     , (49000,   7,         -1) /* ContainersCapacity */
      , (49000,  16,          1) /* ItemUseable - No */
      , (49000,  25,         50) /* Level */
      , (49000,  40,          1) /* CombatMode - NonCombat */

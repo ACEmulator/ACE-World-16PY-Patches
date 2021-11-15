@@ -6,8 +6,8 @@ VALUES (33922, 'ace33922-petursuincub', 69, '2021-11-01 00:00:00') /* Pet */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33922,   1,         16) /* ItemType - Creature */
      , (33922,   2,         46) /* CreatureType - Ursuin */
-     , (33922,   6,        255) /* ItemsCapacity */
-     , (33922,   7,        255) /* ContainersCapacity */
+     , (33922,   6,         -1) /* ItemsCapacity */
+     , (33922,   7,         -1) /* ContainersCapacity */
      , (33922,  16,          1) /* ItemUseable - No */
      , (33922,  25,          2) /* Level */
      , (33922,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

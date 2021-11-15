@@ -49,6 +49,3 @@ VALUES (30127,   1, 0x020009A7) /* Setup */
      , (30127,  28,       4297) /* Spell - Incantation of Coordination Self */
      , (30127,  50, 0x06005B31) /* IconOverlay */
      , (30127,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30127,  4297,      2)  /* Incantation of Coordination Self */;

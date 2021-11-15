@@ -38,6 +38,3 @@ VALUES (52701,   1, 0x020000AB) /* Setup */
      , (52701,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52701,  28,       6171) /* Spell - Honeyed Mana Mead */
      , (52701,  52, 0x0600679F) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52701,  6171,      2)  /* Honeyed Mana Mead */;

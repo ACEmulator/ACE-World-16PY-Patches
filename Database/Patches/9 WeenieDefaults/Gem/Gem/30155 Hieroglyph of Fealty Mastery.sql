@@ -50,6 +50,3 @@ VALUES (30155,   1, 0x020009A7) /* Setup */
      , (30155,  28,       4548) /* Spell - Incantation of Fealty Self */
      , (30155,  50, 0x06005B4D) /* IconOverlay */
      , (30155,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30155,  4548,      2)  /* Incantation of Fealty Self */;

@@ -63,5 +63,4 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34993,  2096,      2)  /* Aura of Infected Caress */
      , (34993,  2101,      2)  /* Aura of Cragstone's Will */
      , (34993,  2106,      2)  /* Aura of Elysa's Sight */
-     , (34993,  2116,      2)  /* Aura of Atlan's Alacrity */
-     , (34993,  4069,      2)  /* Mucor Jolt */;
+     , (34993,  2116,      2)  /* Aura of Atlan's Alacrity */;

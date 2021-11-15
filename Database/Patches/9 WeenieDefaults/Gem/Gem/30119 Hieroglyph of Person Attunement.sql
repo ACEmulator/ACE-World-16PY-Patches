@@ -50,6 +50,3 @@ VALUES (30119,   1, 0x020009A7) /* Setup */
      , (30119,  28,       4608) /* Spell - Incantation of Person Attunement Self */
      , (30119,  50, 0x06005B28) /* IconOverlay */
      , (30119,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30119,  4608,      2)  /* Incantation of Person Attunement Self */;

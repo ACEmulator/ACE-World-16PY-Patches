@@ -50,6 +50,3 @@ VALUES (30120,   1, 0x020009A7) /* Setup */
      , (30120,  28,       4518) /* Spell - Incantation of Light Weapon Mastery Self */
      , (30120,  50, 0x06007112) /* IconOverlay */
      , (30120,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30120,  4518,      2)  /* Incantation of Light Weapon Mastery Self */;

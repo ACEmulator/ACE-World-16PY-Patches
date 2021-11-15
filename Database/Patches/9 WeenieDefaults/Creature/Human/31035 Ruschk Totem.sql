@@ -31,6 +31,7 @@ VALUES (31035,   1, True ) /* Stuck */
      , (31035,  42, True ) /* AllowEdgeSlide */
      , (31035,  50, True ) /* NeverFailCasting */
      , (31035,  52, True ) /* AiImmobile */
+     , (31035,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (31035,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

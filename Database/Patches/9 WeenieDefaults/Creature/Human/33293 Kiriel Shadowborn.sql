@@ -6,8 +6,8 @@ VALUES (33293, 'ace33293-kirielshadowborn', 10, '2021-11-01 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33293,   1,         16) /* ItemType - Creature */
      , (33293,   2,         31) /* CreatureType - Human */
-     , (33293,   6,        255) /* ItemsCapacity */
-     , (33293,   7,        255) /* ContainersCapacity */
+     , (33293,   6,         -1) /* ItemsCapacity */
+     , (33293,   7,         -1) /* ContainersCapacity */
      , (33293,  16,         32) /* ItemUseable - Remote */
      , (33293,  25,        150) /* Level */
      , (33293,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

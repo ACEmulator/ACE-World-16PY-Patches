@@ -32,6 +32,3 @@ VALUES (3179,   1, 0x0200018A) /* Setup */
      , (3179,   8, 0x06003362) /* Icon */
      , (3179,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3179,  28,        463) /* Spell - Missile Weapon Mastery Other III */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3179,   463,      2)  /* Missile Weapon Mastery Other III */;

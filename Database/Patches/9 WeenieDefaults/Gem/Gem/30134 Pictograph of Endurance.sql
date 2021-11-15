@@ -49,6 +49,3 @@ VALUES (30134,   1, 0x020009A7) /* Setup */
      , (30134,  28,       4299) /* Spell - Incantation of Endurance Self */
      , (30134,  50, 0x06005B38) /* IconOverlay */
      , (30134,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30134,  4299,      2)  /* Incantation of Endurance Self */;

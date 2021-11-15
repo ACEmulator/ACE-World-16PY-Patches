@@ -49,6 +49,3 @@ VALUES (30145,   1, 0x020009A7) /* Setup */
      , (30145,  28,       4407) /* Spell - Incantation of Impenetrability */
      , (30145,  50, 0x06005B43) /* IconOverlay */
      , (30145,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30145,  4407,      2)  /* Incantation of Impenetrability */;

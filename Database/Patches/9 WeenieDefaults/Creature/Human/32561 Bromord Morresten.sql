@@ -6,8 +6,8 @@ VALUES (32561, 'ace32561-bromordmorresten', 10, '2021-11-01 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32561,   1,         16) /* ItemType - Creature */
      , (32561,   2,         31) /* CreatureType - Human */
-     , (32561,   6,        255) /* ItemsCapacity */
-     , (32561,   7,        255) /* ContainersCapacity */
+     , (32561,   6,         -1) /* ItemsCapacity */
+     , (32561,   7,         -1) /* ContainersCapacity */
      , (32561,  16,         32) /* ItemUseable - Remote */
      , (32561,  25,        100) /* Level */
      , (32561,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

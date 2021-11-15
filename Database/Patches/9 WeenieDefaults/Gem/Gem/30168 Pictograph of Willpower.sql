@@ -49,6 +49,3 @@ VALUES (30168,   1, 0x020009A7) /* Setup */
      , (30168,  28,       4329) /* Spell - Incantation of Willpower Self */
      , (30168,  50, 0x06005B5A) /* IconOverlay */
      , (30168,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30168,  4329,      2)  /* Incantation of Willpower Self */;

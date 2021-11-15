@@ -6,8 +6,8 @@ VALUES (33015, 'ace33015-meeranadurenari', 10, '2021-11-01 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33015,   1,         16) /* ItemType - Creature */
      , (33015,   2,         31) /* CreatureType - Human */
-     , (33015,   6,        255) /* ItemsCapacity */
-     , (33015,   7,        255) /* ContainersCapacity */
+     , (33015,   6,         -1) /* ItemsCapacity */
+     , (33015,   7,         -1) /* ContainersCapacity */
      , (33015,  16,         32) /* ItemUseable - Remote */
      , (33015,  25,        100) /* Level */
      , (33015,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

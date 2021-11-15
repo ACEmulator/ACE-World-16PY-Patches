@@ -55,6 +55,3 @@ VALUES (51384,   1, 0x02001915) /* Setup */
      , (51384,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51384,  30,         88) /* PhysicsScript - Create */
      , (51384,  55,       1788) /* ProcSpell - Eye of the Storm */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51384,  1788,      2)  /* Eye of the Storm */;

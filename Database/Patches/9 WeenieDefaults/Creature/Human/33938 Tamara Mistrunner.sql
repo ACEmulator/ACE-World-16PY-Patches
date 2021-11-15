@@ -6,8 +6,8 @@ VALUES (33938, 'ace33938-tamaramistrunner', 10, '2021-11-01 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33938,   1,         16) /* ItemType - Creature */
      , (33938,   2,         31) /* CreatureType - Human */
-     , (33938,   6,        255) /* ItemsCapacity */
-     , (33938,   7,        255) /* ContainersCapacity */
+     , (33938,   6,         -1) /* ItemsCapacity */
+     , (33938,   7,         -1) /* ContainersCapacity */
      , (33938,  16,         32) /* ItemUseable - Remote */
      , (33938,  25,         17) /* Level */
      , (33938,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

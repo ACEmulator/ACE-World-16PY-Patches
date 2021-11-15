@@ -50,6 +50,3 @@ VALUES (30159,   1, 0x020009A7) /* Setup */
      , (30159,  28,       4602) /* Spell - Incantation of Mana Conversion Mastery Self */
      , (30159,  50, 0x06005B51) /* IconOverlay */
      , (30159,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30159,  4602,      2)  /* Incantation of Mana Conversion Mastery Self */;

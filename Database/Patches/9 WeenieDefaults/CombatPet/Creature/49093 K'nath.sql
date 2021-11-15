@@ -6,8 +6,8 @@ VALUES (49093, 'ace49093-tsoct', 71, '2021-11-01 00:00:00') /* CombatPet */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49093,   1,         16) /* ItemType - Creature */
      , (49093,   2,         21) /* CreatureType - Knathtead */
-     , (49093,   6,        255) /* ItemsCapacity */
-     , (49093,   7,        255) /* ContainersCapacity */
+     , (49093,   6,         -1) /* ItemsCapacity */
+     , (49093,   7,         -1) /* ContainersCapacity */
      , (49093,  16,          1) /* ItemUseable - No */
      , (49093,  25,        200) /* Level */
      , (49093,  68,         64) /* TargetingTactic - Nearest */

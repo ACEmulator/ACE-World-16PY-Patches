@@ -6,8 +6,8 @@ VALUES (33675, 'ace33675-francoisditerli', 10, '2021-11-01 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33675,   1,         16) /* ItemType - Creature */
      , (33675,   2,         31) /* CreatureType - Human */
-     , (33675,   6,        255) /* ItemsCapacity */
-     , (33675,   7,        255) /* ContainersCapacity */
+     , (33675,   6,         -1) /* ItemsCapacity */
+     , (33675,   7,         -1) /* ContainersCapacity */
      , (33675,  16,         32) /* ItemUseable - Remote */
      , (33675,  25,        151) /* Level */
      , (33675,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

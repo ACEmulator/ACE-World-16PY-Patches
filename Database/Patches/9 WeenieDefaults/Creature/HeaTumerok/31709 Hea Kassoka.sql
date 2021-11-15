@@ -6,8 +6,8 @@ VALUES (31709, 'ace31709-heakassoka', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31709,   1,         16) /* ItemType - Creature */
      , (31709,   2,         58) /* CreatureType - HeaTumerok */
-     , (31709,   6,        255) /* ItemsCapacity */
-     , (31709,   7,        255) /* ContainersCapacity */
+     , (31709,   6,         -1) /* ItemsCapacity */
+     , (31709,   7,         -1) /* ContainersCapacity */
      , (31709,  16,         32) /* ItemUseable - Remote */
      , (31709,  25,         40) /* Level */
      , (31709,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

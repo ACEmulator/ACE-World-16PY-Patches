@@ -6,8 +6,8 @@ VALUES (33013, 'ace33013-melaverre', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33013,   1,         16) /* ItemType - Creature */
      , (33013,   2,         31) /* CreatureType - Human */
-     , (33013,   6,        255) /* ItemsCapacity */
-     , (33013,   7,        255) /* ContainersCapacity */
+     , (33013,   6,         -1) /* ItemsCapacity */
+     , (33013,   7,         -1) /* ContainersCapacity */
      , (33013,  16,         32) /* ItemUseable - Remote */
      , (33013,  25,        100) /* Level */
      , (33013,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

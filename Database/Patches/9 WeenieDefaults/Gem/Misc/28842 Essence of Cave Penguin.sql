@@ -40,6 +40,3 @@ VALUES (28842,   1, 0x020000AB) /* Setup */
      , (28842,   8, 0x06005A3C) /* Icon */
      , (28842,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28842,  28,       3571) /* Spell - Health Boost */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28842,  3571,      2)  /* Health Boost */;

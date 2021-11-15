@@ -7,8 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49517,   1,         16) /* ItemType - Creature */
      , (49517,   2,         51) /* CreatureType - Empyrean */
      , (49517,   3,          8) /* PaletteTemplate - Green */
-     , (49517,   6,        255) /* ItemsCapacity */
-     , (49517,   7,        255) /* ContainersCapacity */
+     , (49517,   6,         -1) /* ItemsCapacity */
+     , (49517,   7,         -1) /* ContainersCapacity */
      , (49517,  16,         32) /* ItemUseable - Remote */
      , (49517,  25,          7) /* Level */
      , (49517,  74,    2656384) /* MerchandiseItemTypes - Misc, Gem, Caster, ManaStone, MagicWieldable */

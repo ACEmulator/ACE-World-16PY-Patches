@@ -9,7 +9,6 @@ VALUES (39029,   1,          2) /* ItemType - Armor */
      , (39029,   4,      16384) /* ClothingPriority - Head */
      , (39029,   5,        200) /* EncumbranceVal */
      , (39029,   9,          1) /* ValidLocations - HeadWear */
-     , (39029,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (39029,  19,        500) /* Value */
      , (39029,  28,         10) /* ArmorLevel */
      , (39029, 107,          0) /* ItemCurMana */

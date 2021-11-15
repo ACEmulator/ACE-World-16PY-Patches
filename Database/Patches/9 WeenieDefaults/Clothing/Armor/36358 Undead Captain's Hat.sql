@@ -9,7 +9,6 @@ VALUES (36358,   1,          2) /* ItemType - Armor */
      , (36358,   4,      16384) /* ClothingPriority - Head */
      , (36358,   5,        150) /* EncumbranceVal */
      , (36358,   9,          1) /* ValidLocations - HeadWear */
-     , (36358,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (36358,  19,        200) /* Value */
      , (36358,  28,         10) /* ArmorLevel */
      , (36358, 151,          2) /* HookType - Wall */;

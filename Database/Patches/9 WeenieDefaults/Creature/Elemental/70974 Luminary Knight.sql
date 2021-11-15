@@ -7,8 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70974,   1,         16) /* ItemType - Creature */
      , (70974,   2,         62) /* CreatureType - Elemental */
      , (70974,   3,         21) /* PaletteTemplate - Gold */
-     , (70974,   6,        255) /* ItemsCapacity */
-     , (70974,   7,        255) /* ContainersCapacity */
+     , (70974,   6,         -1) /* ItemsCapacity */
+     , (70974,   7,         -1) /* ContainersCapacity */
      , (70974,  16,         32) /* ItemUseable - Remote */
      , (70974,  25,        165) /* Level */
      , (70974,  27,          0) /* ArmorType - None */

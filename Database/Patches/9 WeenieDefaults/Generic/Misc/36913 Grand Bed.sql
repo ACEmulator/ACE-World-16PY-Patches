@@ -8,7 +8,7 @@ VALUES (36913,   1,        128) /* ItemType - Misc */
      , (36913,   5,       2000) /* EncumbranceVal */
      , (36913,  16,          1) /* ItemUseable - No */
      , (36913,  19,       5000) /* Value */
-     , (36913,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (36913,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36913, 150,        103) /* HookPlacement - Hook */
      , (36913, 151,          1) /* HookType - Floor */;
 

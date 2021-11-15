@@ -5,10 +5,10 @@ VALUES (53273, 'ace53273-doriathazaarshorde', 10, '2021-11-01 00:00:00') /* Crea
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53273,   1,         16) /* ItemType - Creature */
-     , (53273,   6,        255) /* ItemsCapacity */
-     , (53273,   7,        255) /* ContainersCapacity */
+     , (53273,   6,         -1) /* ItemsCapacity */
+     , (53273,   7,         -1) /* ContainersCapacity */
      , (53273,  16,         32) /* ItemUseable - Remote */
-     , (53273,  93,    4260884) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP, EdgeSlide */
+     , (53273,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (53273,  95,          8) /* RadarBlipColor - Yellow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

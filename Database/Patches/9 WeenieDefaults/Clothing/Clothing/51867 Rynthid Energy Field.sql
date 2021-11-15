@@ -55,6 +55,3 @@ VALUES (51867,   1, 0x02001B2A) /* Setup */
      , (51867,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51867,  50, 0x06006C37) /* IconOverlay */
      , (51867,  55,       6151) /* ProcSpell - Crimson Storm */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51867,  6151,      2)  /* Crimson Storm */;

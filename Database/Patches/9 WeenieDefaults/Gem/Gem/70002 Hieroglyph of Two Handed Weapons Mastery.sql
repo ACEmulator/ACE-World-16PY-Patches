@@ -49,6 +49,3 @@ VALUES (70002,   1, 0x020009A7) /* Setup */
      , (70002,  28,       5032) /* Spell - Incantation of Two Handed Combat Mastery Self */
      , (70002,  50, 0x06006B03) /* IconOverlay */
      , (70002,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (70002,  5032,      2)  /* Incantation of Two Handed Combat Mastery Self */;

@@ -32,6 +32,3 @@ VALUES (1687,   1, 0x0200018A) /* Setup */
      , (1687,   8, 0x06003362) /* Icon */
      , (1687,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1687,  28,        467) /* Spell - Missile Weapon Mastery Self I */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1687,   467,      2)  /* Missile Weapon Mastery Self I */;

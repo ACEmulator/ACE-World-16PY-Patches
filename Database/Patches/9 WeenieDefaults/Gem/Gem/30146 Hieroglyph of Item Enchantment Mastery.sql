@@ -50,6 +50,3 @@ VALUES (30146,   1, 0x020009A7) /* Setup */
      , (30146,  28,       4564) /* Spell - Incantation of Item Enchantment Mastery Self */
      , (30146,  50, 0x06005B44) /* IconOverlay */
      , (30146,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30146,  4564,      2)  /* Incantation of Item Enchantment Mastery Self */;

@@ -6,8 +6,8 @@ VALUES (42601, 'ace42601-kaytin', 10, '2021-11-07 08:12:46') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42601,   1,         16) /* ItemType - Creature */
      , (42601,   2,         99) /* CreatureType - GearKnight */
-     , (42601,   6,        255) /* ItemsCapacity */
-     , (42601,   7,        255) /* ContainersCapacity */
+     , (42601,   6,         -1) /* ItemsCapacity */
+     , (42601,   7,         -1) /* ContainersCapacity */
      , (42601,  16,         32) /* ItemUseable - Remote */
      , (42601,  25,        550) /* Level */
      , (42601,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

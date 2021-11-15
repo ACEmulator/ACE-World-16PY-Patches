@@ -50,6 +50,3 @@ VALUES (30141,   1, 0x020009A7) /* Setup */
      , (30141,  28,       4311) /* Spell - Incantation of Heal Self */
      , (30141,  50, 0x06005B3F) /* IconOverlay */
      , (30141,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30141,  4311,      2)  /* Incantation of Heal Self */;

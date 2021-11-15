@@ -6,8 +6,8 @@ VALUES (31940, 'ace31940-jedetheckhart', 10, '2021-11-01 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31940,   1,         16) /* ItemType - Creature */
      , (31940,   2,         31) /* CreatureType - Human */
-     , (31940,   6,        255) /* ItemsCapacity */
-     , (31940,   7,        255) /* ContainersCapacity */
+     , (31940,   6,         -1) /* ItemsCapacity */
+     , (31940,   7,         -1) /* ContainersCapacity */
      , (31940,  16,         32) /* ItemUseable - Remote */
      , (31940,  25,        110) /* Level */
      , (31940,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

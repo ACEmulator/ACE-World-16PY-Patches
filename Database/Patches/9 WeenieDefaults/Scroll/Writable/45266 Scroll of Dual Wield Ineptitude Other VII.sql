@@ -30,6 +30,3 @@ VALUES (45266,   1, 0x0200018A) /* Setup */
      , (45266,   8, 0x0600711B) /* Icon */
      , (45266,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45266,  28,       5793) /* Spell - Dual Wield Ineptitude Other VII */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45266,  5793,      2)  /* Dual Wield Ineptitude Other VII */;

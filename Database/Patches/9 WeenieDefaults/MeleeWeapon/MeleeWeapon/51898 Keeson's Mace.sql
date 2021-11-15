@@ -56,6 +56,3 @@ VALUES (51898,   1, 0x0200141B) /* Setup */
      , (51898,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51898,  30,         88) /* PhysicsScript - Create */
      , (51898,  55,       2166) /* ProcSpell - Tusker's Gift */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51898,  2166,      2)  /* Tusker's Gift */;

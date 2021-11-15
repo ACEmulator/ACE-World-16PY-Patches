@@ -10,7 +10,7 @@ VALUES (51410,   1,        128) /* ItemType - Misc */
      , (51410,  19,          0) /* Value */
      , (51410,  44,         40) /* Damage */
      , (51410,  45,         64) /* DamageType - Electric */
-     , (51410,  93,      66572) /* PhysicsState - Ethereal, ReportCollisions, Gravity, HasPhysicsBSP */
+     , (51410,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (51410, 119,          0) /* Active */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

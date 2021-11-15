@@ -6,8 +6,8 @@ VALUES (33963, 'ace33963-petbabythrungus', 10, '2021-11-01 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33963,   1,         16) /* ItemType - Creature */
      , (33963,   2,         82) /* CreatureType - Thrungus */
-     , (33963,   6,        255) /* ItemsCapacity */
-     , (33963,   7,        255) /* ContainersCapacity */
+     , (33963,   6,         -1) /* ItemsCapacity */
+     , (33963,   7,         -1) /* ContainersCapacity */
      , (33963,  16,          1) /* ItemUseable - No */
      , (33963,  25,          5) /* Level */
      , (33963,  93,    2098184) /* PhysicsState - ReportCollisions, Gravity, ReportCollisionsAsEnvironment */

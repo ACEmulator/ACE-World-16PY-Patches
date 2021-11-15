@@ -6,8 +6,8 @@ VALUES (70382, 'ace70382-captive', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70382,   1,         16) /* ItemType - Creature */
      , (70382,   2,         31) /* CreatureType - Human */
-     , (70382,   6,        255) /* ItemsCapacity */
-     , (70382,   7,        255) /* ContainersCapacity */
+     , (70382,   6,         -1) /* ItemsCapacity */
+     , (70382,   7,         -1) /* ContainersCapacity */
      , (70382,  16,         32) /* ItemUseable - Remote */
      , (70382,  25,         90) /* Level */
      , (70382,  27,          0) /* ArmorType - None */

@@ -49,6 +49,3 @@ VALUES (30165,   1, 0x020009A7) /* Setup */
      , (30165,  28,       2645) /* Spell - Portal Recall */
      , (30165,  50, 0x06005B57) /* IconOverlay */
      , (30165,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30165,  2645,      2)  /* Portal Recall */;

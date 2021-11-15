@@ -5,10 +5,10 @@ VALUES (31975, 'ace31975-shrinetoxikminru', 10, '2021-11-01 00:00:00') /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31975,   1,         16) /* ItemType - Creature */
-     , (31975,   6,        255) /* ItemsCapacity */
-     , (31975,   7,        255) /* ContainersCapacity */
+     , (31975,   6,         -1) /* ItemsCapacity */
+     , (31975,   7,         -1) /* ContainersCapacity */
      , (31975,  16,         32) /* ItemUseable - Remote */
-     , (31975,  93,    6358040) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (31975,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31975,  95,          3) /* RadarBlipColor - White */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -19,6 +19,8 @@ VALUES (31975,   1, True ) /* Stuck */
      , (31975,  19, False) /* Attackable */
      , (31975,  41, True ) /* ReportCollisionsAsEnvironment */
      , (31975,  42, True ) /* AllowEdgeSlide */
+     , (31975,  52, True ) /* AiImmobile */
+     , (31975,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (31975,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

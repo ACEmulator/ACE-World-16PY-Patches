@@ -12,7 +12,6 @@ VALUES (46429,   1,        128) /* ItemType - Misc */
      , (46429,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46429, 114,          1) /* Attuned - Attuned */
      , (46429, 267,       7200) /* Lifespan */
-     , (46429, 268,       7200) /* RemainingLifespan */
      , (46429, 279,          1) /* Unique */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

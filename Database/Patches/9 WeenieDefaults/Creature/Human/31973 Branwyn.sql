@@ -6,8 +6,8 @@ VALUES (31973, 'ace31973-branwyn', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31973,   1,         16) /* ItemType - Creature */
      , (31973,   2,         31) /* CreatureType - Human */
-     , (31973,   6,        255) /* ItemsCapacity */
-     , (31973,   7,        255) /* ContainersCapacity */
+     , (31973,   6,         -1) /* ItemsCapacity */
+     , (31973,   7,         -1) /* ContainersCapacity */
      , (31973,  16,         32) /* ItemUseable - Remote */
      , (31973,  25,        127) /* Level */
      , (31973,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

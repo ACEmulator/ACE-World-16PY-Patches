@@ -49,6 +49,3 @@ VALUES (70001,   1, 0x020009A7) /* Setup */
      , (70001,  28,       5418) /* Spell - Incantation of Void Magic Mastery Self */
      , (70001,  50, 0x06006E6F) /* IconOverlay */
      , (70001,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (70001,  5418,      2)  /* Incantation of Void Magic Mastery Self */;

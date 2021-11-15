@@ -32,6 +32,3 @@ VALUES (3525,   1, 0x0200018A) /* Setup */
      , (3525,   8, 0x0600711E) /* Icon */
      , (3525,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3525,  28,        421) /* Spell - Heavy Weapon Mastery Self IV */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3525,   421,      2)  /* Heavy Weapon Mastery Self IV */;

@@ -32,6 +32,3 @@ VALUES (3232,   1, 0x0200018A) /* Setup */
      , (3232,   8, 0x0600711A) /* Icon */
      , (3232,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3232,  28,        327) /* Spell - Finesse Weapon Mastery Self VI */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3232,   327,      2)  /* Finesse Weapon Mastery Self VI */;

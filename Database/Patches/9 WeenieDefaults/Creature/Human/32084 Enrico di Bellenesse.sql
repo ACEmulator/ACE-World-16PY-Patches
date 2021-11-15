@@ -6,8 +6,8 @@ VALUES (32084, 'ace32084-enricodibellenesse', 10, '2021-11-01 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32084,   1,         16) /* ItemType - Creature */
      , (32084,   2,         31) /* CreatureType - Human */
-     , (32084,   6,        255) /* ItemsCapacity */
-     , (32084,   7,        255) /* ContainersCapacity */
+     , (32084,   6,         -1) /* ItemsCapacity */
+     , (32084,   7,         -1) /* ContainersCapacity */
      , (32084,  16,         32) /* ItemUseable - Remote */
      , (32084,  25,        215) /* Level */
      , (32084,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

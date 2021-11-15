@@ -30,6 +30,3 @@ VALUES (72003,   1, 0x0200018A) /* Setup */
      , (72003,   8, 0x06003441) /* Icon */
      , (72003,  22, 0x3400002B) /* PhysicsEffectTable */
      , (72003,  28,       6322) /* Spell - Viridian Rise Great Tree Recall */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72003,  6322,      2)  /* Viridian Rise Great Tree Recall */;

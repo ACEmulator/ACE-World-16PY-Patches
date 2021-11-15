@@ -13,8 +13,7 @@ VALUES (34845,   1,      65536) /* ItemType - Portal */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34845,   1, True ) /* Stuck */
      , (34845,  11, False) /* IgnoreCollisions */
-     , (34845,  19, True ) /* Attackable */
-     , (34845,  88, True ) /* PortalShowDestination */;
+     , (34845,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34845,  54,    -0.1) /* UseRadius */;

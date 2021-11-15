@@ -56,6 +56,3 @@ VALUES (34999,   1, 0x0200166E) /* Setup */
      , (34999,   8, 0x060030B2) /* Icon */
      , (34999,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34999,  55,       4069) /* ProcSpell - Mucor Jolt */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34999,  4069,      2)  /* Mucor Jolt */;

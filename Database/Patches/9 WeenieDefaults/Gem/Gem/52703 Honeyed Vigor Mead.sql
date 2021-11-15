@@ -38,6 +38,3 @@ VALUES (52703,   1, 0x020000AB) /* Setup */
      , (52703,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52703,  28,       6172) /* Spell - Honeyed Vigor Mead */
      , (52703,  52, 0x060067A2) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52703,  6172,      2)  /* Honeyed Vigor Mead */;

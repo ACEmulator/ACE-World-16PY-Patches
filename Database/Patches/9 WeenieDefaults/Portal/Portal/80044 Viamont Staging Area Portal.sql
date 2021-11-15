@@ -13,8 +13,7 @@ VALUES (80044,   1,      65536) /* ItemType - Portal */
      , (80044, 267,        300) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (80044,   1, True ) /* Stuck */
-     , (80044,  88, True ) /* PortalShowDestination */;
+VALUES (80044,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (80044,  54,    -0.1) /* UseRadius */;

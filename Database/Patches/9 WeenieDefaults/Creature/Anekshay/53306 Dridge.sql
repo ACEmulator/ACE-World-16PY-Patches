@@ -6,8 +6,8 @@ VALUES (53306, 'ace53306-dridge', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53306,   1,         16) /* ItemType - Creature */
      , (53306,   2,        101) /* CreatureType - Anekshay */
-     , (53306,   6,        255) /* ItemsCapacity */
-     , (53306,   7,        255) /* ContainersCapacity */
+     , (53306,   6,         -1) /* ItemsCapacity */
+     , (53306,   7,         -1) /* ContainersCapacity */
      , (53306,  16,         32) /* ItemUseable - Remote */
      , (53306,  25,        200) /* Level */
      , (53306,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

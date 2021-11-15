@@ -38,4 +38,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31661, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31661, 0, 0xFFFFFFFF, 'Agents of the Arcanum', '', False, 'Let it be known that there is a critical shortage of Niffis Pearls. The Agents of the Arcanum will now pay double the normal reward for Niffis Pearls.');
+VALUES (31661, 0, 0xFFFFFFFF, 'Agents of the Arcanum', 'prewritten', False, 'Let it be known that there is a critical shortage of Niffis Pearls. The Agents of the Arcanum will now pay double the normal reward for Niffis Pearls.');

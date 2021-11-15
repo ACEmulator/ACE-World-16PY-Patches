@@ -6,8 +6,8 @@ VALUES (33244, 'ace33244-talartheapprentice', 10, '2021-11-01 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33244,   1,         16) /* ItemType - Creature */
      , (33244,   2,         31) /* CreatureType - Human */
-     , (33244,   6,        255) /* ItemsCapacity */
-     , (33244,   7,        255) /* ContainersCapacity */
+     , (33244,   6,         -1) /* ItemsCapacity */
+     , (33244,   7,         -1) /* ContainersCapacity */
      , (33244,  16,         32) /* ItemUseable - Remote */
      , (33244,  25,         32) /* Level */
      , (33244,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

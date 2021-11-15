@@ -34,4 +34,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31305, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31305, 0, 0xFFFFFFFF, 'Fiun Gaya', '', False, 'For years have I tended the fires of Lunnum''s Pyre. But now the curse of time has taken its toll upon my body. The fires for which I have cared for so long have now begun to dim. I ask for your help in keeping the light of Lunnum''s Pyre forever burning. Seek me out on the Isle of Ruin at 89.1N 47.6W.');
+VALUES (31305, 0, 0xFFFFFFFF, 'Fiun Gaya', 'prewritten', False, 'For years have I tended the fires of Lunnum''s Pyre. But now the curse of time has taken its toll upon my body. The fires for which I have cared for so long have now begun to dim. I ask for your help in keeping the light of Lunnum''s Pyre forever burning. Seek me out on the Isle of Ruin at 89.1N 47.6W.');

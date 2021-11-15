@@ -8,7 +8,6 @@ VALUES (46604,   1,          1) /* ItemType - MeleeWeapon */
      , (46604,   3,         39) /* PaletteTemplate - Black */
      , (46604,   5,        675) /* EncumbranceVal */
      , (46604,   9,   33554432) /* ValidLocations - TwoHanded */
-     , (46604,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (46604,  16,          1) /* ItemUseable - No */
      , (46604,  19,        260) /* Value */
      , (46604,  33,         -2) /* Bonded - Destroy */

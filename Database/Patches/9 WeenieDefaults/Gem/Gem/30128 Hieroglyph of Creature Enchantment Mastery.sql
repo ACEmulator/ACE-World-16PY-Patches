@@ -50,6 +50,3 @@ VALUES (30128,   1, 0x020009A7) /* Setup */
      , (30128,  28,       4530) /* Spell - Incantation of Creature Enchantment Mastery Self */
      , (30128,  50, 0x06005B32) /* IconOverlay */
      , (30128,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30128,  4530,      2)  /* Incantation of Creature Enchantment Mastery Self */;

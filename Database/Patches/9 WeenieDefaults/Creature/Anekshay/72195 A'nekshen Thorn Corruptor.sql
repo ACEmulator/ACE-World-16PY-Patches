@@ -6,8 +6,8 @@ VALUES (72195, 'ace72195-anekshenthorncorruptor', 10, '2021-11-01 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72195,   1,         16) /* ItemType - Creature */
      , (72195,   2,        101) /* CreatureType - Anekshay */
-     , (72195,   6,        255) /* ItemsCapacity */
-     , (72195,   7,        255) /* ContainersCapacity */
+     , (72195,   6,         -1) /* ItemsCapacity */
+     , (72195,   7,         -1) /* ContainersCapacity */
      , (72195,  16,          1) /* ItemUseable - No */
      , (72195,  25,        300) /* Level */
      , (72195,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */

@@ -7,8 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46450,   1,        128) /* ItemType - Misc */
      , (46450,  16,          1) /* ItemUseable - No */
      , (46450,  93,       2068) /* PhysicsState - Ethereal, IgnoreCollisions, LightingOn */
-     , (46450, 267,         20) /* Lifespan */
-     , (46450, 268,         20) /* RemainingLifespan */;
+     , (46450, 267,         20) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46450,   1, True ) /* Stuck */

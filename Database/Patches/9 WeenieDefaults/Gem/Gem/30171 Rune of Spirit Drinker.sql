@@ -49,6 +49,3 @@ VALUES (30171,   1, 0x020009A7) /* Setup */
      , (30171,  28,       4414) /* Spell - Aura of Incantation of Spirit Drinker Self */
      , (30171,  50, 0x06005B5D) /* IconOverlay */
      , (30171,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30171,  4414,      2)  /* Aura of Incantation of Spirit Drinker Self */;

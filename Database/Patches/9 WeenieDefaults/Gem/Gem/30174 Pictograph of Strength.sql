@@ -50,6 +50,3 @@ VALUES (30174,   1, 0x020009A7) /* Setup */
      , (30174,  50, 0x06005B60) /* IconOverlay */
      , (30174,  51, 0x06005B60) /* IconOverlaySecondary */
      , (30174,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30174,  4325,      2)  /* Incantation of Strength Self */;

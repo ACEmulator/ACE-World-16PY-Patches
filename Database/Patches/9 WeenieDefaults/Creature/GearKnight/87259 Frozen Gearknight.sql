@@ -6,8 +6,8 @@ VALUES (87259, 'ace87259-frozengearknight', 10, '2021-11-01 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87259,   1,         16) /* ItemType - Creature */
      , (87259,   2,         99) /* CreatureType - GearKnight */
-     , (87259,   6,        255) /* ItemsCapacity */
-     , (87259,   7,        255) /* ContainersCapacity */
+     , (87259,   6,         -1) /* ItemsCapacity */
+     , (87259,   7,         -1) /* ContainersCapacity */
      , (87259,  16,          1) /* ItemUseable - No */
      , (87259,  25,        275) /* Level */
      , (87259,  81,          1) /* MaxGeneratedObjects */

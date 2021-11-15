@@ -6,8 +6,8 @@ VALUES (41546, 'ace41546-dametrielle', 10, '2021-11-01 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41546,   1,         16) /* ItemType - Creature */
      , (41546,   2,         31) /* CreatureType - Human */
-     , (41546,   6,        255) /* ItemsCapacity */
-     , (41546,   7,        255) /* ContainersCapacity */
+     , (41546,   6,         -1) /* ItemsCapacity */
+     , (41546,   7,         -1) /* ContainersCapacity */
      , (41546,  16,         32) /* ItemUseable - Remote */
      , (41546,  25,        275) /* Level */
      , (41546,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

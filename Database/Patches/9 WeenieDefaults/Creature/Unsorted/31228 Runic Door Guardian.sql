@@ -21,6 +21,8 @@ VALUES (31228,   1, True ) /* Stuck */
      , (31228,  41, True ) /* ReportCollisionsAsEnvironment */
      , (31228,  42, True ) /* AllowEdgeSlide */
      , (31228,  52, False) /* AiImmobile */
+     , (31228,  52, True ) /* AiImmobile */
+     , (31228,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (31228,  83, True ) /* NpcLooksLikeObject */
      , (31228, 118, True ) /* NeverAttack */;
 
