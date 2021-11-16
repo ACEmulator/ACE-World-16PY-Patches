@@ -27,6 +27,7 @@ VALUES (71211,   1,        256) /* ItemType - MissileWeapon */
      , (71211, 108,        400) /* ItemMaxMana */
      , (71211, 109,        250) /* ItemDifficulty */
      , (71211, 114,          1) /* Attuned - Attuned */
+     , (71211, 151,          2) /* HookType - Wall */
      , (71211, 158,          2) /* WieldRequirements - RawSkill */
      , (71211, 159,         47) /* WieldSkillType - MissileWeapons */
      , (71211, 160,        360) /* WieldDifficulty */
