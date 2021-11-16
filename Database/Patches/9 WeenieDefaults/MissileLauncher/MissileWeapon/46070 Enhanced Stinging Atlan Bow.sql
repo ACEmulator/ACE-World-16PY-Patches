@@ -41,7 +41,6 @@ VALUES (46070,  11, True ) /* IgnoreCollisions */
      , (46070,  19, True ) /* Attackable */
      , (46070,  22, True ) /* Inscribable */
      , (46070,  69, False) /* IsSellable */
-     , (46070,  85, True ) /* AppraisalHasAllowedWielder */
      , (46070,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

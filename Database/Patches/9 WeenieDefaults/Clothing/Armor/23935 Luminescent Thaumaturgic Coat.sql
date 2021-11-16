@@ -31,8 +31,7 @@ VALUES (23935,  11, True ) /* IgnoreCollisions */
      , (23935,  14, True ) /* GravityStatus */
      , (23935,  19, True ) /* Attackable */
      , (23935,  22, True ) /* Inscribable */
-     , (23935,  69, False) /* IsSellable */
-     , (23935,  94, True ) /* AppraisalHasAllowedActivator */;
+     , (23935,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23935,   5,    -0.5) /* ManaRate */
