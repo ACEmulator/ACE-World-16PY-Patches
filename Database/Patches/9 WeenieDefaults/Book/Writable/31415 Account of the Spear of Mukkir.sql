@@ -9,7 +9,6 @@ VALUES (31415,   1,       8192) /* ItemType - Writable */
      , (31415,  16,          8) /* ItemUseable - Contained */
      , (31415,  19,          0) /* Value */
      , (31415,  22,       1000) /* AvailableCharacter */
-     , (31415,  53,        101) /* PlacementPosition - Resting */
      , (31415,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31415, 114,          0) /* Attuned - Normal */;
 

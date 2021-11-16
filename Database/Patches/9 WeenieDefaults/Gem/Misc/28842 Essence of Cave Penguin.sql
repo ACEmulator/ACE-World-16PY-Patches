@@ -13,7 +13,6 @@ VALUES (28842,   1,        128) /* ItemType - Misc */
      , (28842,  15,       1000) /* StackUnitValue */
      , (28842,  16,          8) /* ItemUseable - Contained */
      , (28842,  19,       1000) /* Value */
-     , (28842,  53,        101) /* PlacementPosition - Resting */
      , (28842,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28842, 106,        111) /* ItemSpellcraft */
      , (28842, 107,        100) /* ItemCurMana */

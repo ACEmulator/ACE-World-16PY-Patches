@@ -18,8 +18,6 @@ VALUES (48065,   1,        256) /* ItemType - MissileWeapon */
      , (48065,  49,         -1) /* WeaponTime */
      , (48065,  50,          2) /* AmmoType - Bolt */
      , (48065,  51,          3) /* CombatUse - Ammo */
-     , (48065,  52,          1) /* ParentLocation - RightHand */
-     , (48065,  53,          1) /* PlacementPosition - RightHandCombat */
      , (48065,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (48065, 151,          2) /* HookType - Wall */;
 

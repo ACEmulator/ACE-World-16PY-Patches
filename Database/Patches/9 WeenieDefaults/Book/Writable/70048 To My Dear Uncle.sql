@@ -9,7 +9,6 @@ VALUES (70048,   1,       8192) /* ItemType - Writable */
      , (70048,  16,          8) /* ItemUseable - Contained */
      , (70048,  19,          0) /* Value */
      , (70048,  33,          1) /* Bonded - Bonded */
-     , (70048,  53,        101) /* PlacementPosition - Resting */
      , (70048,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70048, 114,          1) /* Attuned - Attuned */;
 

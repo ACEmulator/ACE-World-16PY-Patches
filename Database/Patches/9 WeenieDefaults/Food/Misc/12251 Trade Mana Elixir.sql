@@ -15,7 +15,6 @@ VALUES (12251,   1,        128) /* ItemType - Misc */
      , (12251,  15,         10) /* StackUnitValue */
      , (12251,  16,          8) /* ItemUseable - Contained */
      , (12251,  19,         10) /* Value */
-     , (12251,  53,        101) /* PlacementPosition - Resting */
      , (12251,  89,          6) /* BoosterEnum - Mana */
      , (12251,  90,         70) /* BoostValue */
      , (12251,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

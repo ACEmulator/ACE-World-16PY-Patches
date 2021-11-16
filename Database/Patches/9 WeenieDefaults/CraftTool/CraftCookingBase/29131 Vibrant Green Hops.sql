@@ -12,7 +12,6 @@ VALUES (29131,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29131,  15,         30) /* StackUnitValue */
      , (29131,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29131,  19,         30) /* Value */
-     , (29131,  53,        101) /* PlacementPosition - Resting */
      , (29131,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29131,  94,    4194336) /* TargetType - Food, CraftCookingBase */
      , (29131, 151,          2) /* HookType - Wall */;

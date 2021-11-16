@@ -9,7 +9,6 @@ VALUES (32020,   1,       2048) /* ItemType - Gem */
      , (32020,   8,        100) /* Mass */
      , (32020,  19,          0) /* Value */
      , (32020,  33,          1) /* Bonded - Bonded */
-     , (32020,  53,        101) /* PlacementPosition - Resting */
      , (32020,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32020, 114,          1) /* Attuned - Attuned */;
 

@@ -13,8 +13,6 @@ VALUES (30360,   1,          8) /* ItemType - Jewelry */
      , (30360,  17,        231) /* RareId */
      , (30360,  19,      50000) /* Value */
      , (30360,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
-     , (30360,  52,          2) /* ParentLocation - LeftHand */
-     , (30360,  53,        101) /* PlacementPosition - Resting */
      , (30360,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30360, 106,        350) /* ItemSpellcraft */
      , (30360, 107,       3000) /* ItemCurMana */

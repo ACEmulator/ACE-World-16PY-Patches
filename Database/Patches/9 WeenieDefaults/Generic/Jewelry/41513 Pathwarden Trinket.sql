@@ -9,7 +9,6 @@ VALUES (41513,   1,          8) /* ItemType - Jewelry */
      , (41513,   9,   67108864) /* ValidLocations - TrinketOne */
      , (41513,  16,          1) /* ItemUseable - No */
      , (41513,  19,         50) /* Value */
-     , (41513,  53,        101) /* PlacementPosition - Resting */
      , (41513,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41513, 106,         50) /* ItemSpellcraft */
      , (41513, 107,       6000) /* ItemCurMana */

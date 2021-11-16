@@ -11,7 +11,6 @@ VALUES (46035,   1,       2048) /* ItemType - Gem */
      , (46035,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (46035,  19,       5000) /* Value */
      , (46035,  33,          1) /* Bonded - Bonded */
-     , (46035,  53,        101) /* PlacementPosition - Resting */
      , (46035,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46035,  94,      33155) /* TargetType - Armor, Misc, WeaponOrCaster */
      , (46035, 114,          1) /* Attuned - Attuned */;

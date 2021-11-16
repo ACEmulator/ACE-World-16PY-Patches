@@ -19,8 +19,6 @@ VALUES (48323,   1,        256) /* ItemType - MissileWeapon */
      , (48323,  49,         -1) /* WeaponTime */
      , (48323,  50,          1) /* AmmoType - Arrow */
      , (48323,  51,          3) /* CombatUse - Ammo */
-     , (48323,  52,          1) /* ParentLocation - RightHand */
-     , (48323,  53,          1) /* PlacementPosition - RightHandCombat */
      , (48323,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (48323, 151,          2) /* HookType - Wall */;
 

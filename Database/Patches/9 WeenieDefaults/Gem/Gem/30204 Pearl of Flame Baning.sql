@@ -19,7 +19,6 @@ VALUES (30204,   1,       2048) /* ItemType - Gem */
      , (30204,  19,          0) /* Value */
      , (30204,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30204,  33,         -1) /* Bonded - Slippery */
-     , (30204,  53,        101) /* PlacementPosition - Resting */
      , (30204,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30204,  94,         16) /* TargetType - Creature */
      , (30204, 106,        325) /* ItemSpellcraft */

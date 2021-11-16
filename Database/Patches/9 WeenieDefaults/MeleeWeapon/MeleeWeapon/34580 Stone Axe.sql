@@ -16,7 +16,6 @@ VALUES (34580,   1,          1) /* ItemType - MeleeWeapon */
      , (34580,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (34580,  49,         60) /* WeaponTime */
      , (34580,  51,          1) /* CombatUse - Melee */
-     , (34580,  53,        101) /* PlacementPosition - Resting */
      , (34580,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34580, 151,          2) /* HookType - Wall */
      , (34580, 353,          3) /* WeaponType - Axe */;

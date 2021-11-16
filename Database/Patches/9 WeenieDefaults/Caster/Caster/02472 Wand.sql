@@ -12,7 +12,6 @@ VALUES (2472,   1,      32768) /* ItemType - Caster */
      , (2472,  16,          1) /* ItemUseable - No */
      , (2472,  19,        200) /* Value */
      , (2472,  46,        512) /* DefaultCombatStyle - Magic */
-     , (2472,  53,        101) /* PlacementPosition - Resting */
      , (2472,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2472,  94,         16) /* TargetType - Creature */
      , (2472, 150,        103) /* HookPlacement - Hook */

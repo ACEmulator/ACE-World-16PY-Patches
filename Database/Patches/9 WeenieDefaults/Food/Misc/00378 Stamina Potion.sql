@@ -15,7 +15,6 @@ VALUES (378,   1,        128) /* ItemType - Misc */
      , (378,  15,         75) /* StackUnitValue */
      , (378,  16,          8) /* ItemUseable - Contained */
      , (378,  19,         75) /* Value */
-     , (378,  53,        101) /* PlacementPosition - Resting */
      , (378,  89,          4) /* BoosterEnum - Stamina */
      , (378,  90,         25) /* BoostValue */
      , (378,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

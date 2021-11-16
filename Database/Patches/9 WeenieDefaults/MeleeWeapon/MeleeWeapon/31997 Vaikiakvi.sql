@@ -18,8 +18,6 @@ VALUES (31997,   1,          1) /* ItemType - MeleeWeapon */
      , (31997,  47,          6) /* AttackType - Thrust, Slash */
      , (31997,  49,          5) /* WeaponTime */
      , (31997,  51,          1) /* CombatUse - Melee */
-     , (31997,  52,          1) /* ParentLocation - RightHand */
-     , (31997,  53,          1) /* PlacementPosition - RightHandCombat */
      , (31997,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31997, 114,          1) /* Attuned - Attuned */
      , (31997, 158,         11) /* WieldRequirements - CreatureType */

@@ -12,7 +12,6 @@ VALUES (29189,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29189,  15,         75) /* StackUnitValue */
      , (29189,  16,          1) /* ItemUseable - No */
      , (29189,  19,         75) /* Value */
-     , (29189,  53,        101) /* PlacementPosition - Resting */
      , (29189,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

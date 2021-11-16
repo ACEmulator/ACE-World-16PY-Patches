@@ -13,7 +13,6 @@ VALUES (41510,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41510,  15,         10) /* StackUnitValue */
      , (41510,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41510,  19,         10) /* Value */
-     , (41510,  53,        101) /* PlacementPosition - Resting */
      , (41510,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41510,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
      , (41510, 151,          9) /* HookType - Floor, Yard */;

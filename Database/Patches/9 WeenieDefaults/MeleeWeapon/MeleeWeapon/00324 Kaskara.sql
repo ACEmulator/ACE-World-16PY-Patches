@@ -18,7 +18,6 @@ VALUES (324,   1,          1) /* ItemType - MeleeWeapon */
      , (324,  48,         45) /* WeaponSkill - LightWeapons */
      , (324,  49,         35) /* WeaponTime */
      , (324,  51,          1) /* CombatUse - Melee */
-     , (324,  53,        101) /* PlacementPosition - Resting */
      , (324,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (324, 150,        103) /* HookPlacement - Hook */
      , (324, 151,          2) /* HookType - Wall */

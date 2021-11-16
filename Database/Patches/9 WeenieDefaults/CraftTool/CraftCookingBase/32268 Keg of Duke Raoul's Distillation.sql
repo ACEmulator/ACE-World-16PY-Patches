@@ -12,7 +12,6 @@ VALUES (32268,   1,    4194304) /* ItemType - CraftCookingBase */
      , (32268,  15,        100) /* StackUnitValue */
      , (32268,  16,          1) /* ItemUseable - No */
      , (32268,  19,        100) /* Value */
-     , (32268,  53,        101) /* PlacementPosition - Resting */
      , (32268,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32268, 151,          1) /* HookType - Floor */;
 

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43520,   1,       8192) /* ItemType - Writable */
      , (43520,   5,         25) /* EncumbranceVal */
      , (43520,  16,          8) /* ItemUseable - Contained */
-     , (43520,  53,        101) /* PlacementPosition - Resting */
      , (43520,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

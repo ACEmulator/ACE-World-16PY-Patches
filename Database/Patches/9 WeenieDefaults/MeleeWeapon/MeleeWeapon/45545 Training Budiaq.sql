@@ -16,7 +16,6 @@ VALUES (45545,   1,          1) /* ItemType - MeleeWeapon */
      , (45545,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (45545,  49,         25) /* WeaponTime */
      , (45545,  51,          1) /* CombatUse - Melee */
-     , (45545,  53,        101) /* PlacementPosition - Resting */
      , (45545,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45545, 151,          2) /* HookType - Wall */
      , (45545, 353,          5) /* WeaponType - Spear */;

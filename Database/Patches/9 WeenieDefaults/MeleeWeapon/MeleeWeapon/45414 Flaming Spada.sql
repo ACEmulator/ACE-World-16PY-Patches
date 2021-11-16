@@ -18,7 +18,6 @@ VALUES (45414,   1,          1) /* ItemType - MeleeWeapon */
      , (45414,  48,         45) /* WeaponSkill - LightWeapons */
      , (45414,  49,         30) /* WeaponTime */
      , (45414,  51,          1) /* CombatUse - Melee */
-     , (45414,  53,        101) /* PlacementPosition - Resting */
      , (45414,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45414, 151,          2) /* HookType - Wall */
      , (45414, 169,  101255170) /* TsysMutationData */

@@ -9,7 +9,6 @@ VALUES (28006,   1,       8192) /* ItemType - Writable */
      , (28006,   8,         90) /* Mass */
      , (28006,  16,          8) /* ItemUseable - Contained */
      , (28006,  19,        200) /* Value */
-     , (28006,  53,        101) /* PlacementPosition - Resting */
      , (28006,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

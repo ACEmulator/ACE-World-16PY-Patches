@@ -18,8 +18,6 @@ VALUES (45536,   1,          1) /* ItemType - MeleeWeapon */
      , (45536,  48,         45) /* WeaponSkill - LightWeapons */
      , (45536,  49,         15) /* WeaponTime */
      , (45536,  51,          1) /* CombatUse - Melee */
-     , (45536,  52,          1) /* ParentLocation - RightHand */
-     , (45536,  53,          1) /* PlacementPosition - RightHandCombat */
      , (45536,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45536, 151,          2) /* HookType - Wall */
      , (45536, 353,          6) /* WeaponType - Dagger */;

@@ -16,7 +16,6 @@ VALUES (133,   1,          4) /* ItemType - Clothing */
      , (133,  28,         20) /* ArmorLevel */
      , (133,  44,          1) /* Damage */
      , (133,  45,          4) /* DamageType - Bludgeon */
-     , (133,  53,        101) /* PlacementPosition - Resting */
      , (133,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (133, 169,  301991184) /* TsysMutationData */;
 

@@ -10,7 +10,6 @@ VALUES (31414,   1,        128) /* ItemType - Misc */
      , (31414,  19,          0) /* Value */
      , (31414,  22,       1000) /* AvailableCharacter */
      , (31414,  33,          1) /* Bonded - Bonded */
-     , (31414,  53,        101) /* PlacementPosition - Resting */
      , (31414,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31414, 114,          1) /* Attuned - Attuned */;
 

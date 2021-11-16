@@ -16,8 +16,6 @@ VALUES (30371,   1,          2) /* ItemType - Armor */
      , (30371,  27,          2) /* ArmorType - Leather */
      , (30371,  28,        480) /* ArmorLevel */
      , (30371,  51,          4) /* CombatUse - Shield */
-     , (30371,  52,          3) /* ParentLocation - Shield */
-     , (30371,  53,        101) /* PlacementPosition - Resting */
      , (30371,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30371, 106,        350) /* ItemSpellcraft */
      , (30371, 107,       3200) /* ItemCurMana */

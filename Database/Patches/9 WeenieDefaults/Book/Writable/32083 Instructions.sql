@@ -10,7 +10,6 @@ VALUES (32083,   1,       8192) /* ItemType - Writable */
      , (32083,  19,          0) /* Value */
      , (32083,  22,       1000) /* AvailableCharacter */
      , (32083,  33,          0) /* Bonded - Normal */
-     , (32083,  53,        101) /* PlacementPosition - Resting */
      , (32083,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32083, 114,          0) /* Attuned - Normal */;
 

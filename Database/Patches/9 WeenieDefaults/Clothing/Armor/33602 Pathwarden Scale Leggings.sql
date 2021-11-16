@@ -13,7 +13,6 @@ VALUES (33602,   1,          2) /* ItemType - Armor */
      , (33602,  19,          0) /* Value */
      , (33602,  28,         95) /* ArmorLevel */
      , (33602,  33,          1) /* Bonded - Bonded */
-     , (33602,  53,        101) /* PlacementPosition - Resting */
      , (33602,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33602, 106,        100) /* ItemSpellcraft */
      , (33602, 107,       1000) /* ItemCurMana */

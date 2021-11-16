@@ -20,8 +20,6 @@ VALUES (7575,   1,          1) /* ItemType - MeleeWeapon */
      , (7575,  48,         45) /* WeaponSkill - LightWeapons */
      , (7575,  49,         30) /* WeaponTime */
      , (7575,  51,          1) /* CombatUse - Melee */
-     , (7575,  52,          1) /* ParentLocation - RightHand */
-     , (7575,  53,          1) /* PlacementPosition - RightHandCombat */
      , (7575,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7575, 114,          1) /* Attuned - Attuned */
      , (7575, 353,          2) /* WeaponType - Sword */;

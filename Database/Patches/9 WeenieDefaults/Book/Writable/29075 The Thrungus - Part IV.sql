@@ -9,7 +9,6 @@ VALUES (29075,   1,       8192) /* ItemType - Writable */
      , (29075,  16,          8) /* ItemUseable - Contained */
      , (29075,  19,          5) /* Value */
      , (29075,  33,          0) /* Bonded - Normal */
-     , (29075,  53,        101) /* PlacementPosition - Resting */
      , (29075,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29075, 114,          0) /* Attuned - Normal */;
 

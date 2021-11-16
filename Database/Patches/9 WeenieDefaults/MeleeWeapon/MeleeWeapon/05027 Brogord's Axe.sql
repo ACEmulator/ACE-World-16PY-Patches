@@ -19,8 +19,6 @@ VALUES (5027,   1,          1) /* ItemType - MeleeWeapon */
      , (5027,  48,         45) /* WeaponSkill - LightWeapons */
      , (5027,  49,         60) /* WeaponTime */
      , (5027,  51,          1) /* CombatUse - Melee */
-     , (5027,  52,          1) /* ParentLocation - RightHand */
-     , (5027,  53,        101) /* PlacementPosition - Resting */
      , (5027,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5027, 114,          1) /* Attuned - Attuned */
      , (5027, 353,          3) /* WeaponType - Axe */;

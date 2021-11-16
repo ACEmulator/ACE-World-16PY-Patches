@@ -18,8 +18,6 @@ VALUES (9598,   1,          1) /* ItemType - MeleeWeapon */
      , (9598,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (9598,  49,         20) /* WeaponTime */
      , (9598,  51,          1) /* CombatUse - Melee */
-     , (9598,  52,          1) /* ParentLocation - RightHand */
-     , (9598,  53,          1) /* PlacementPosition - RightHandCombat */
      , (9598,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (9598, 106,        400) /* ItemSpellcraft */
      , (9598, 107,       1000) /* ItemCurMana */

@@ -13,7 +13,6 @@ VALUES (30094,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (30094,  17,        180) /* RareId */
      , (30094,  19,         30) /* Value */
      , (30094,  33,          1) /* Bonded - Bonded */
-     , (30094,  53,        101) /* PlacementPosition - Resting */
      , (30094,  91,        100) /* MaxStructure */
      , (30094,  92,        100) /* Structure */
      , (30094,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

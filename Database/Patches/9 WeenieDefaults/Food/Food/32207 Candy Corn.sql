@@ -11,7 +11,6 @@ VALUES (32207,   1,         32) /* ItemType - Food */
      , (32207,  16,          8) /* ItemUseable - Contained */
      , (32207,  18,          1) /* UiEffects - Magical */
      , (32207,  19,         10) /* Value */
-     , (32207,  53,        101) /* PlacementPosition - Resting */
      , (32207,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32207,  94,         16) /* TargetType - Creature */
      , (32207, 106,        300) /* ItemSpellcraft */

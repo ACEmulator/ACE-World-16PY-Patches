@@ -18,6 +18,7 @@ VALUES (31496,   1,        256) /* ItemType - MissileWeapon */
      , (31496,  50,          2) /* AmmoType - Bolt */
      , (31496,  51,          2) /* CombatUse - Missile */
      , (31496,  52,          2) /* ParentLocation - LeftHand */
+     , (31496,  53,          3) /* PlacementPosition - LeftHand */
      , (31496,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31496, 106,        300) /* ItemSpellcraft */
      , (31496, 107,       1200) /* ItemCurMana */

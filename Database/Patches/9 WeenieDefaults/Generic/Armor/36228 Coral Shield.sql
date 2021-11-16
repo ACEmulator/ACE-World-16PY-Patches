@@ -11,7 +11,6 @@ VALUES (36228,   1,          2) /* ItemType - Armor */
      , (36228,  19,       7213) /* Value */
      , (36228,  28,        196) /* ArmorLevel */
      , (36228,  51,          4) /* CombatUse - Shield */
-     , (36228,  53,        101) /* PlacementPosition - Resting */
      , (36228,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36228, 151,          2) /* HookType - Wall */
      , (36228, 158,          7) /* WieldRequirements - Level */

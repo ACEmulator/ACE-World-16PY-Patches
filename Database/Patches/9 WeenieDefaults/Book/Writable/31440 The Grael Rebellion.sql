@@ -9,7 +9,6 @@ VALUES (31440,   1,       8192) /* ItemType - Writable */
      , (31440,  16,          8) /* ItemUseable - Contained */
      , (31440,  19,         10) /* Value */
      , (31440,  22,       1000) /* AvailableCharacter */
-     , (31440,  53,        101) /* PlacementPosition - Resting */
      , (31440,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31440, 114,          0) /* Attuned - Normal */;
 

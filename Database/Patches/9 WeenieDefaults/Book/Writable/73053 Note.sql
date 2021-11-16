@@ -11,7 +11,6 @@ VALUES (73053,   1,       8192) /* ItemType - Writable */
      , (73053,  16,          8) /* ItemUseable - Contained */
      , (73053,  19,          0) /* Value */
      , (73053,  22,       1000) /* AvailableCharacter */
-     , (73053,  53,        101) /* PlacementPosition - Resting */
      , (73053,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

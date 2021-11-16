@@ -10,7 +10,6 @@ VALUES (32201,   1,    4194304) /* ItemType - CraftCookingBase */
      , (32201,  12,          1) /* StackSize */
      , (32201,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (32201,  19,         25) /* Value */
-     , (32201,  53,        101) /* PlacementPosition - Resting */
      , (32201,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32201,  94,    4194592) /* TargetType - Food, MissileWeapon, CraftCookingBase */
      , (32201, 151,          2) /* HookType - Wall */;

@@ -14,7 +14,6 @@ VALUES (28843,   1,         32) /* ItemType - Food */
      , (28843,  15,       1000) /* StackUnitValue */
      , (28843,  16,          8) /* ItemUseable - Contained */
      , (28843,  19,       1000) /* Value */
-     , (28843,  53,        101) /* PlacementPosition - Resting */
      , (28843,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28843, 109,          0) /* ItemDifficulty */;
 

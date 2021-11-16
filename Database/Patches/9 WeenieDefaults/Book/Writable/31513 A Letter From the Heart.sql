@@ -10,7 +10,6 @@ VALUES (31513,   1,       8192) /* ItemType - Writable */
      , (31513,  19,          0) /* Value */
      , (31513,  22,       1000) /* AvailableCharacter */
      , (31513,  33,          1) /* Bonded - Bonded */
-     , (31513,  53,        101) /* PlacementPosition - Resting */
      , (31513,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31513, 114,          1) /* Attuned - Attuned */;
 

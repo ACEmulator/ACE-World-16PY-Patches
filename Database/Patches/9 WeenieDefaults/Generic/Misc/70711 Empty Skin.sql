@@ -12,7 +12,6 @@ VALUES (70711,   1,        128) /* ItemType - Misc */
      , (70711,  16,          1) /* ItemUseable - No */
      , (70711,  19,          0) /* Value */
      , (70711,  33,          1) /* Bonded - Bonded */
-     , (70711,  53,        101) /* PlacementPosition - Resting */
      , (70711,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70711, 114,          1) /* Attuned - Attuned */;
 

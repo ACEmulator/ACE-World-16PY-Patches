@@ -20,7 +20,6 @@ VALUES (41611,   1,          1) /* ItemType - MeleeWeapon */
      , (41611,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41611,  49,          0) /* WeaponTime */
      , (41611,  51,          5) /* CombatUse - TwoHanded */
-     , (41611,  52,          1) /* ParentLocation - RightHand */
      , (41611,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41611, 292,          5) /* Cleaving */
      , (41611, 353,         11) /* WeaponType - TwoHanded */;

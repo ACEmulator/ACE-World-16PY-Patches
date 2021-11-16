@@ -13,7 +13,6 @@ VALUES (41452,   1,       2048) /* ItemType - Gem */
      , (41452,  16,          8) /* ItemUseable - Contained */
      , (41452,  18,         16) /* UiEffects - BoostStamina */
      , (41452,  19,          0) /* Value */
-     , (41452,  53,        101) /* PlacementPosition - Resting */
      , (41452,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41452,  94,         16) /* TargetType - Creature */
      , (41452, 151,         11) /* HookType - Floor, Wall, Yard */

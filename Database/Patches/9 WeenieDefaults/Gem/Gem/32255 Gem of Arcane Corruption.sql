@@ -11,7 +11,6 @@ VALUES (32255,   1,       2048) /* ItemType - Gem */
      , (32255,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (32255,  19,          0) /* Value */
      , (32255,  33,          1) /* Bonded - Bonded */
-     , (32255,  53,        101) /* PlacementPosition - Resting */
      , (32255,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32255,  94,       2050) /* TargetType - Armor, Gem */
      , (32255, 114,          1) /* Attuned - Attuned */

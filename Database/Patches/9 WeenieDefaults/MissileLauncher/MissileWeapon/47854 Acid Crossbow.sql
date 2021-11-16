@@ -18,7 +18,7 @@ VALUES (47854,   1,        256) /* ItemType - MissileWeapon */
      , (47854,  50,          2) /* AmmoType - Bolt */
      , (47854,  51,          2) /* CombatUse - Missile */
      , (47854,  52,          2) /* ParentLocation - LeftHand */
-     , (47854,  53,        101) /* PlacementPosition - Resting */
+     , (47854,  53,          3) /* PlacementPosition - LeftHand */
      , (47854,  60,        192) /* WeaponRange */
      , (47854,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (47854, 151,          2) /* HookType - Wall */

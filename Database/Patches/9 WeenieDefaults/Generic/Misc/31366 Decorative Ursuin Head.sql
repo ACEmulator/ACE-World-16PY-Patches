@@ -9,7 +9,6 @@ VALUES (31366,   1,        128) /* ItemType - Misc */
      , (31366,  16,         32) /* ItemUseable - Remote */
      , (31366,  19,      10000) /* Value */
      , (31366,  33,          1) /* Bonded - Bonded */
-     , (31366,  53,        101) /* PlacementPosition - Resting */
      , (31366,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31366, 150,        103) /* HookPlacement - Hook */
      , (31366, 151,          2) /* HookType - Wall */;

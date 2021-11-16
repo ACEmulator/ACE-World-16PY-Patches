@@ -16,7 +16,6 @@ VALUES (8974,   1,       2048) /* ItemType - Gem */
      , (8974,  16,          8) /* ItemUseable - Contained */
      , (8974,  18,          1) /* UiEffects - Magical */
      , (8974,  19,       1000) /* Value */
-     , (8974,  53,        101) /* PlacementPosition - Resting */
      , (8974,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (8974,  94,         16) /* TargetType - Creature */
      , (8974, 106,        210) /* ItemSpellcraft */

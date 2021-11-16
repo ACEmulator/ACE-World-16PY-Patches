@@ -14,8 +14,6 @@ VALUES (46131,   1,      32768) /* ItemType - Caster */
      , (46131,  33,          1) /* Bonded - Bonded */
      , (46131,  45,         64) /* DamageType - Electric */
      , (46131,  46,        512) /* DefaultCombatStyle - Magic */
-     , (46131,  52,          1) /* ParentLocation - RightHand */
-     , (46131,  53,          1) /* PlacementPosition - RightHandCombat */
      , (46131,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46131,  94,         16) /* TargetType - Creature */
      , (46131, 106,        275) /* ItemSpellcraft */

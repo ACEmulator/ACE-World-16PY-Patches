@@ -18,7 +18,6 @@ VALUES (8473,   1,          1) /* ItemType - MeleeWeapon */
      , (8473,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (8473,  49,         40) /* WeaponTime */
      , (8473,  51,          1) /* CombatUse - Melee */
-     , (8473,  53,        101) /* PlacementPosition - Resting */
      , (8473,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8473, 150,        103) /* HookPlacement - Hook */
      , (8473, 151,          2) /* HookType - Wall */

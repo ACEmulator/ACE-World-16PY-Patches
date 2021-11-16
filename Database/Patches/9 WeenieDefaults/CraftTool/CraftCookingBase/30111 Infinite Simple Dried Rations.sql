@@ -16,7 +16,6 @@ VALUES (30111,   1,    4194304) /* ItemType - CraftCookingBase */
      , (30111,  17,        154) /* RareId */
      , (30111,  19,          0) /* Value */
      , (30111,  33,         -1) /* Bonded - Slippery */
-     , (30111,  53,        101) /* PlacementPosition - Resting */
      , (30111,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -19,7 +19,6 @@ VALUES (11258,   1,          1) /* ItemType - MeleeWeapon */
      , (11258,  48,         45) /* WeaponSkill - LightWeapons */
      , (11258,  49,         20) /* WeaponTime */
      , (11258,  51,          1) /* CombatUse - Melee */
-     , (11258,  53,        101) /* PlacementPosition - Resting */
      , (11258,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11258, 106,        250) /* ItemSpellcraft */
      , (11258, 107,       8000) /* ItemCurMana */

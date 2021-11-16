@@ -12,7 +12,6 @@ VALUES (31031,   1,          8) /* ItemType - Jewelry */
      , (31031,  19,      30000) /* Value */
      , (31031,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (31031,  33,          1) /* Bonded - Bonded */
-     , (31031,  53,        101) /* PlacementPosition - Resting */
      , (31031,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31031, 106,        325) /* ItemSpellcraft */
      , (31031, 107,       2000) /* ItemCurMana */

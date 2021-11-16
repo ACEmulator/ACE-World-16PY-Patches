@@ -11,7 +11,6 @@ VALUES (73043,   1,        128) /* ItemType - Misc */
      , (73043,  16,          8) /* ItemUseable - Contained */
      , (73043,  19,          0) /* Value */
      , (73043,  33,          1) /* Bonded - Bonded */
-     , (73043,  53,        101) /* PlacementPosition - Resting */
      , (73043,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (73043, 114,          1) /* Attuned - Attuned */;
 

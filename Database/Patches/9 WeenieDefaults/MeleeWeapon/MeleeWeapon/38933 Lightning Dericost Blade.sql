@@ -19,7 +19,6 @@ VALUES (38933,   1,          1) /* ItemType - MeleeWeapon */
      , (38933,  48,         45) /* WeaponSkill - LightWeapons */
      , (38933,  49,         30) /* WeaponTime */
      , (38933,  51,          1) /* CombatUse - Melee */
-     , (38933,  53,        101) /* PlacementPosition - Resting */
      , (38933,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38933, 169,  101254914) /* TsysMutationData */
      , (38933, 353,          2) /* WeaponType - Sword */;

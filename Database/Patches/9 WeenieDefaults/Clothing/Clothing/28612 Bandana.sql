@@ -13,7 +13,6 @@ VALUES (28612,   1,          4) /* ItemType - Clothing */
      , (28612,  19,          5) /* Value */
      , (28612,  27,          1) /* ArmorType - Cloth */
      , (28612,  28,         20) /* ArmorLevel */
-     , (28612,  53,        101) /* PlacementPosition - Resting */
      , (28612,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28612, 150,        103) /* HookPlacement - Hook */
      , (28612, 151,          2) /* HookType - Wall */

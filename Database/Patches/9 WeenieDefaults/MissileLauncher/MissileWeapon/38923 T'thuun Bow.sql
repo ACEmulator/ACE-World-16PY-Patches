@@ -14,6 +14,8 @@ VALUES (38923,   1,        256) /* ItemType - MissileWeapon */
      , (38923,  48,         47) /* WeaponSkill - MissileWeapons */
      , (38923,  50,          1) /* AmmoType - Arrow */
      , (38923,  51,          2) /* CombatUse - Missile */
+     , (38923,  52,          2) /* ParentLocation - LeftHand */
+     , (38923,  53,          3) /* PlacementPosition - LeftHand */
      , (38923,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38923, 353,          8) /* WeaponType - Bow */;
 

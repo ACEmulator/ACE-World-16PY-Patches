@@ -20,8 +20,6 @@ VALUES (7569,   1,          1) /* ItemType - MeleeWeapon */
      , (7569,  48,         45) /* WeaponSkill - LightWeapons */
      , (7569,  49,         30) /* WeaponTime */
      , (7569,  51,          1) /* CombatUse - Melee */
-     , (7569,  52,          1) /* ParentLocation - RightHand */
-     , (7569,  53,          1) /* PlacementPosition - RightHandCombat */
      , (7569,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7569, 114,          1) /* Attuned - Attuned */
      , (7569, 353,          4) /* WeaponType - Mace */;

@@ -8,7 +8,6 @@ VALUES (39030,   1,        128) /* ItemType - Misc */
      , (39030,   5,        400) /* EncumbranceVal */
      , (39030,  16,          1) /* ItemUseable - No */
      , (39030,  19,          0) /* Value */
-     , (39030,  53,        101) /* PlacementPosition - Resting */
      , (39030,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39030, 151,          9) /* HookType - Floor, Yard */;
 

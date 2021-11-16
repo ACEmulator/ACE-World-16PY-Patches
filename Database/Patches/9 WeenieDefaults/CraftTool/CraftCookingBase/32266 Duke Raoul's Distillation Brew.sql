@@ -13,7 +13,6 @@ VALUES (32266,   1,    4194304) /* ItemType - CraftCookingBase */
      , (32266,  16,          1) /* ItemUseable - No */
      , (32266,  19,         75) /* Value */
      , (32266,  33,          0) /* Bonded - Normal */
-     , (32266,  53,        101) /* PlacementPosition - Resting */
      , (32266,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32266, 114,          0) /* Attuned - Normal */;
 

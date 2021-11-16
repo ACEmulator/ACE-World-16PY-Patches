@@ -15,6 +15,8 @@ VALUES (42303,   1,        256) /* ItemType - MissileWeapon */
      , (42303,  49,         60) /* WeaponTime */
      , (42303,  50,          2) /* AmmoType - Bolt */
      , (42303,  51,          2) /* CombatUse - Missile */
+     , (42303,  52,          2) /* ParentLocation - LeftHand */
+     , (42303,  53,          3) /* PlacementPosition - LeftHand */
      , (42303,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42303, 106,        400) /* ItemSpellcraft */
      , (42303, 107,        800) /* ItemCurMana */

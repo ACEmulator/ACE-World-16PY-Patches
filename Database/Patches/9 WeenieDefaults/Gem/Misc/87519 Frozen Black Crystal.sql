@@ -9,7 +9,6 @@ VALUES (87519,   1,        128) /* ItemType - Misc */
      , (87519,  16,          1) /* ItemUseable - No */
      , (87519,  19,          0) /* Value */
      , (87519,  33,          1) /* Bonded - Bonded */
-     , (87519,  53,        101) /* PlacementPosition - Resting */
      , (87519,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87519, 114,          1) /* Attuned - Attuned */;
 

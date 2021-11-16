@@ -14,7 +14,6 @@ VALUES (25637,   1,          2) /* ItemType - Armor */
      , (25637,  19,         30) /* Value */
      , (25637,  27,          2) /* ArmorType - Leather */
      , (25637,  28,         90) /* ArmorLevel */
-     , (25637,  53,        101) /* PlacementPosition - Resting */
      , (25637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25637, 124,          3) /* Version */
      , (25637, 169,  118162702) /* TsysMutationData */;

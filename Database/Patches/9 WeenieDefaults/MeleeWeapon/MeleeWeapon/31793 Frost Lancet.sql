@@ -18,7 +18,6 @@ VALUES (31793,   1,          1) /* ItemType - MeleeWeapon */
      , (31793,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (31793,  49,         35) /* WeaponTime */
      , (31793,  51,          1) /* CombatUse - Melee */
-     , (31793,  53,        101) /* PlacementPosition - Resting */
      , (31793,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31793, 151,          2) /* HookType - Wall */
      , (31793, 169,  101254914) /* TsysMutationData */

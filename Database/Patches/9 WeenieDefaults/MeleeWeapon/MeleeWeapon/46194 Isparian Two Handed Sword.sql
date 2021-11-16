@@ -19,7 +19,6 @@ VALUES (46194,   1,          1) /* ItemType - MeleeWeapon */
      , (46194,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46194,  49,         20) /* WeaponTime */
      , (46194,  51,          5) /* CombatUse - TwoHanded */
-     , (46194,  53,        101) /* PlacementPosition - Resting */
      , (46194,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46194, 151,          2) /* HookType - Wall */
      , (46194, 292,          2) /* Cleaving */;

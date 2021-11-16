@@ -15,7 +15,6 @@ VALUES (2017,   1,          2) /* ItemType - Armor */
      , (2017,  27,         32) /* ArmorType - Metal */
      , (2017,  28,        180) /* ArmorLevel */
      , (2017,  33,          1) /* Bonded - Bonded */
-     , (2017,  53,        101) /* PlacementPosition - Resting */
      , (2017,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2017, 106,        110) /* ItemSpellcraft */
      , (2017, 107,        320) /* ItemCurMana */

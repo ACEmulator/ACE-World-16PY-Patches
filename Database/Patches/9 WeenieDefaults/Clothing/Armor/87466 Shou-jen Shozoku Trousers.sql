@@ -13,7 +13,6 @@ VALUES (87466,   1,          2) /* ItemType - Armor */
      , (87466,  18,          1) /* UiEffects - Magical */
      , (87466,  19,      18000) /* Value */
      , (87466,  28,          0) /* ArmorLevel */
-     , (87466,  53,        101) /* PlacementPosition - Resting */
      , (87466,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

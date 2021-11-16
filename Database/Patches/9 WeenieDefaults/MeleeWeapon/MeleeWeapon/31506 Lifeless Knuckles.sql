@@ -17,7 +17,6 @@ VALUES (31506,   1,          1) /* ItemType - MeleeWeapon */
      , (31506,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (31506,  49,         20) /* WeaponTime */
      , (31506,  51,          1) /* CombatUse - Melee */
-     , (31506,  53,        101) /* PlacementPosition - Resting */
      , (31506,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31506, 106,        300) /* ItemSpellcraft */
      , (31506, 107,        300) /* ItemCurMana */

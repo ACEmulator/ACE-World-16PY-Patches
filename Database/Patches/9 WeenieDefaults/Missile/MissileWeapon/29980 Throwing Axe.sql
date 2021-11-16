@@ -23,7 +23,6 @@ VALUES (29980,   1,        256) /* ItemType - MissileWeapon */
      , (29980,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29980,  49,         20) /* WeaponTime */
      , (29980,  51,          2) /* CombatUse - Missile */
-     , (29980,  52,          1) /* ParentLocation - RightHand */
      , (29980,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (29980, 353,         10) /* WeaponType - Thrown */;
 

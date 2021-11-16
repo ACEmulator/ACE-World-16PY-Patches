@@ -13,7 +13,6 @@ VALUES (29138,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29138,  16,          1) /* ItemUseable - No */
      , (29138,  19,        100) /* Value */
      , (29138,  33,          0) /* Bonded - Normal */
-     , (29138,  53,        101) /* PlacementPosition - Resting */
      , (29138,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29138, 114,          0) /* Attuned - Normal */
      , (29138, 151,          1) /* HookType - Floor */;

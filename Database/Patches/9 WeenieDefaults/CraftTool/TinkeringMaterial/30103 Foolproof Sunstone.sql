@@ -13,7 +13,6 @@ VALUES (30103,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (30103,  17,        175) /* RareId */
      , (30103,  19,         30) /* Value */
      , (30103,  33,          1) /* Bonded - Bonded */
-     , (30103,  53,        101) /* PlacementPosition - Resting */
      , (30103,  91,        100) /* MaxStructure */
      , (30103,  92,        100) /* Structure */
      , (30103,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

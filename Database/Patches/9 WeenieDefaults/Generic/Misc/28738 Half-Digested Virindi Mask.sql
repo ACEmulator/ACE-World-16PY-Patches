@@ -10,7 +10,6 @@ VALUES (28738,   1,        128) /* ItemType - Misc */
      , (28738,  16,          1) /* ItemUseable - No */
      , (28738,  19,          0) /* Value */
      , (28738,  33,          1) /* Bonded - Bonded */
-     , (28738,  53,        101) /* PlacementPosition - Resting */
      , (28738,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28738, 114,          0) /* Attuned - Normal */
      , (28738, 151,          2) /* HookType - Wall */;

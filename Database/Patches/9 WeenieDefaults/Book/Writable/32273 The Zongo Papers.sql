@@ -9,7 +9,6 @@ VALUES (32273,   1,       8192) /* ItemType - Writable */
      , (32273,  16,          8) /* ItemUseable - Contained */
      , (32273,  19,        500) /* Value */
      , (32273,  22,       1000) /* AvailableCharacter */
-     , (32273,  53,        101) /* PlacementPosition - Resting */
      , (32273,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32273, 151,          2) /* HookType - Wall */;
 

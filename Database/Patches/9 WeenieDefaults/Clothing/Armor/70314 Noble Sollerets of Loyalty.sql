@@ -14,7 +14,6 @@ VALUES (70314,   1,          2) /* ItemType - Armor */
      , (70314,  19,       8000) /* Value */
      , (70314,  27,          2) /* ArmorType - Leather */
      , (70314,  28,        400) /* ArmorLevel */
-     , (70314,  53,        101) /* PlacementPosition - Resting */
      , (70314,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70314, 106,        400) /* ItemSpellcraft */
      , (70314, 107,        800) /* ItemCurMana */

@@ -14,8 +14,6 @@ VALUES (87462,   1,      32768) /* ItemType - Caster */
      , (87462,  19,       2000) /* Value */
      , (87462,  45,          4) /* DamageType - Bludgeon */
      , (87462,  46,        512) /* DefaultCombatStyle - Magic */
-     , (87462,  52,          1) /* ParentLocation - RightHand */
-     , (87462,  53,          1) /* PlacementPosition - RightHandCombat */
      , (87462,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87462,  94,         16) /* TargetType - Creature */
      , (87462, 106,        230) /* ItemSpellcraft */

@@ -11,7 +11,6 @@ VALUES (29511,   1,          8) /* ItemType - Jewelry */
      , (29511,  19,          0) /* Value */
      , (29511,  33,          1) /* Bonded - Bonded */
      , (29511,  36,       9999) /* ResistMagic */
-     , (29511,  53,        101) /* PlacementPosition - Resting */
      , (29511,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29511, 106,        250) /* ItemSpellcraft */
      , (29511, 107,        400) /* ItemCurMana */

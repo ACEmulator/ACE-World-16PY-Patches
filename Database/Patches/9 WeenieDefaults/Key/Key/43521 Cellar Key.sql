@@ -8,7 +8,6 @@ VALUES (43521,   1,      16384) /* ItemType - Key */
      , (43521,   5,         50) /* EncumbranceVal */
      , (43521,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (43521,  19,         50) /* Value */
-     , (43521,  53,        101) /* PlacementPosition - Resting */
      , (43521,  91,          2) /* MaxStructure */
      , (43521,  92,          2) /* Structure */
      , (43521,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

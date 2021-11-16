@@ -17,6 +17,8 @@ VALUES (53310,   1,        256) /* ItemType - MissileWeapon */
      , (53310,  49,         45) /* WeaponTime */
      , (53310,  50,          2) /* AmmoType - Bolt */
      , (53310,  51,          2) /* CombatUse - Missile */
+     , (53310,  52,          2) /* ParentLocation - LeftHand */
+     , (53310,  53,          3) /* PlacementPosition - LeftHand */
      , (53310,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (53310, 105,          8) /* ItemWorkmanship */
      , (53310, 106,        450) /* ItemSpellcraft */

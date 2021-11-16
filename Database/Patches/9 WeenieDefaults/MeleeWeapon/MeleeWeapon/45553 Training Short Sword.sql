@@ -16,7 +16,6 @@ VALUES (45553,   1,          1) /* ItemType - MeleeWeapon */
      , (45553,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (45553,  49,         35) /* WeaponTime */
      , (45553,  51,          1) /* CombatUse - Melee */
-     , (45553,  53,        101) /* PlacementPosition - Resting */
      , (45553,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45553, 151,          2) /* HookType - Wall */
      , (45553, 353,          2) /* WeaponType - Sword */;

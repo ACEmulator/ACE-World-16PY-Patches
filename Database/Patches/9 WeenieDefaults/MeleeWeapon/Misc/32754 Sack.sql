@@ -16,7 +16,6 @@ VALUES (32754,   1,        128) /* ItemType - Misc */
      , (32754,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (32754,  49,         -1) /* WeaponTime */
      , (32754,  51,          1) /* CombatUse - Melee */
-     , (32754,  52,          1) /* ParentLocation - RightHand */
      , (32754,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32754, 353,          4) /* WeaponType - Mace */;
 

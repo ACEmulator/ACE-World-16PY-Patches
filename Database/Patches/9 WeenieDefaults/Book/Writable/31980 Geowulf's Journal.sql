@@ -9,7 +9,6 @@ VALUES (31980,   1,       8192) /* ItemType - Writable */
      , (31980,  16,          8) /* ItemUseable - Contained */
      , (31980,  19,          0) /* Value */
      , (31980,  33,          1) /* Bonded - Bonded */
-     , (31980,  53,        101) /* PlacementPosition - Resting */
      , (31980,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31980, 114,          1) /* Attuned - Attuned */;
 

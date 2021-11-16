@@ -8,7 +8,6 @@ VALUES (45264,   1,       8192) /* ItemType - Writable */
      , (45264,   5,         30) /* EncumbranceVal */
      , (45264,  16,          8) /* ItemUseable - Contained */
      , (45264,  19,        200) /* Value */
-     , (45264,  53,        101) /* PlacementPosition - Resting */
      , (45264,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

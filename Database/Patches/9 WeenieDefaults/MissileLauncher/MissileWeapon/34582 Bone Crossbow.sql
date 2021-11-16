@@ -16,6 +16,8 @@ VALUES (34582,   1,        256) /* ItemType - MissileWeapon */
      , (34582,  49,        120) /* WeaponTime */
      , (34582,  50,          2) /* AmmoType - Bolt */
      , (34582,  51,          2) /* CombatUse - Missile */
+     , (34582,  52,          2) /* ParentLocation - LeftHand */
+     , (34582,  53,          3) /* PlacementPosition - LeftHand */
      , (34582,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34582, 151,          2) /* HookType - Wall */
      , (34582, 353,          9) /* WeaponType - Crossbow */;

@@ -10,7 +10,6 @@ VALUES (4616,   1,     524288) /* ItemType - ManaStone */
      , (4616,  16,     655368) /* ItemUseable - SourceContainedTargetSelfOrContained */
      , (4616,  18,          1) /* UiEffects - Magical */
      , (4616,  19,       5500) /* Value */
-     , (4616,  53,        101) /* PlacementPosition - Resting */
      , (4616,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4616,  94,      35103) /* TargetType - Jewelry, Creature, Gem, RedirectableItemEnchantmentTarget */
      , (4616, 107,       1000) /* ItemCurMana */

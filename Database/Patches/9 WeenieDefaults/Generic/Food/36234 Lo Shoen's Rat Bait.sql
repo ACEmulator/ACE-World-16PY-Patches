@@ -11,7 +11,6 @@ VALUES (36234,   1,         32) /* ItemType - Food */
      , (36234,  16,          8) /* ItemUseable - Contained */
      , (36234,  19,          0) /* Value */
      , (36234,  33,          1) /* Bonded - Bonded */
-     , (36234,  53,        101) /* PlacementPosition - Resting */
      , (36234,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36234, 114,          1) /* Attuned - Attuned */;
 

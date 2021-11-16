@@ -10,7 +10,6 @@ VALUES (43131,   1,          2) /* ItemType - Armor */
      , (43131,  16,          1) /* ItemUseable - No */
      , (43131,  33,         -2) /* Bonded - Destroy */
      , (43131,  51,          4) /* CombatUse - Shield */
-     , (43131,  52,          3) /* ParentLocation - Shield */
      , (43131,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43131, 151,          2) /* HookType - Wall */;
 

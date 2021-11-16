@@ -10,7 +10,6 @@ VALUES (38456,   1,      16384) /* ItemType - Key */
      , (38456,  18,         64) /* UiEffects - Lightning */
      , (38456,  19,      10000) /* Value */
      , (38456,  33,          0) /* Bonded - Normal */
-     , (38456,  53,        101) /* PlacementPosition - Resting */
      , (38456,  91,          1) /* MaxStructure */
      , (38456,  92,          1) /* Structure */
      , (38456,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

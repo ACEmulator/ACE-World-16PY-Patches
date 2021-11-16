@@ -12,7 +12,6 @@ VALUES (28753,   1,       8192) /* ItemType - Writable */
      , (28753,  19,         10) /* Value */
      , (28753,  22,       1000) /* AvailableCharacter */
      , (28753,  33,          0) /* Bonded - Normal */
-     , (28753,  53,        101) /* PlacementPosition - Resting */
      , (28753,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28753, 114,          0) /* Attuned - Normal */;
 

@@ -17,6 +17,8 @@ VALUES (80126,   1,        256) /* ItemType - MissileWeapon */
      , (80126,  49,         10) /* WeaponTime */
      , (80126,  50,          1) /* AmmoType - Arrow */
      , (80126,  51,          2) /* CombatUse - Missile */
+     , (80126,  52,          2) /* ParentLocation - LeftHand */
+     , (80126,  53,          3) /* PlacementPosition - LeftHand */
      , (80126,  60,        175) /* WeaponRange */
      , (80126,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (80126, 106,        300) /* ItemSpellcraft */

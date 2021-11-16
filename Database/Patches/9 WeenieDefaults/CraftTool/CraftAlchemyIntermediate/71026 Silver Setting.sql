@@ -11,7 +11,6 @@ VALUES (71026,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (71026,  15,         10) /* StackUnitValue */
      , (71026,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (71026,  19,         10) /* Value */
-     , (71026,  53,        101) /* PlacementPosition - Resting */
      , (71026,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71026,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
      , (71026, 151,          9) /* HookType - Floor, Yard */;

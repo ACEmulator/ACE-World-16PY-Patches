@@ -16,7 +16,6 @@ VALUES (30268,   1,       2048) /* ItemType - Gem */
      , (30268,  16,          8) /* ItemUseable - Contained */
      , (30268,  18,          1) /* UiEffects - Magical */
      , (30268,  19,        500) /* Value */
-     , (30268,  53,        101) /* PlacementPosition - Resting */
      , (30268,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (30268,  94,         16) /* TargetType - Creature */
      , (30268, 106,        210) /* ItemSpellcraft */

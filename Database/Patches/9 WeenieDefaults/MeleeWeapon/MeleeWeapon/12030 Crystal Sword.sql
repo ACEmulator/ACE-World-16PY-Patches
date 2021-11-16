@@ -18,7 +18,6 @@ VALUES (12030,   1,          1) /* ItemType - MeleeWeapon */
      , (12030,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (12030,  49,         40) /* WeaponTime */
      , (12030,  51,          1) /* CombatUse - Melee */
-     , (12030,  53,        101) /* PlacementPosition - Resting */
      , (12030,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12030, 106,        200) /* ItemSpellcraft */
      , (12030, 107,       1500) /* ItemCurMana */
