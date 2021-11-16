@@ -17,6 +17,7 @@ VALUES (35008,   1, True ) /* Stuck */
      , (35008,  19, True ) /* Attackable */
      , (35008,  29, True ) /* NoCorpse */
      , (35008,  52, True ) /* AiImmobile */
+     , (35008,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (35008,  83, True ) /* NpcLooksLikeObject */
      , (35008, 118, True ) /* NeverAttack */;
 

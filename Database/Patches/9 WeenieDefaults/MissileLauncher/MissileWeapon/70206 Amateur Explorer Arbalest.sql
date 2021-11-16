@@ -18,6 +18,8 @@ VALUES (70206,   1,        256) /* ItemType - MissileWeapon */
      , (70206,  49,        120) /* WeaponTime */
      , (70206,  50,          2) /* AmmoType - Bolt */
      , (70206,  51,          2) /* CombatUse - Missile */
+     , (70206,  52,          2) /* ParentLocation - LeftHand */
+     , (70206,  53,          3) /* PlacementPosition - LeftHand */
      , (70206,  60,         80) /* WeaponRange */
      , (70206,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70206, 106,        250) /* ItemSpellcraft */

@@ -15,7 +15,6 @@ VALUES (27320,   1,        128) /* ItemType - Misc */
      , (27320,  15,       2000) /* StackUnitValue */
      , (27320,  16,          8) /* ItemUseable - Contained */
      , (27320,  19,       2000) /* Value */
-     , (27320,  53,        101) /* PlacementPosition - Resting */
      , (27320,  89,          2) /* BoosterEnum - Health */
      , (27320,  90,         85) /* BoostValue */
      , (27320,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

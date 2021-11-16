@@ -6,8 +6,8 @@ VALUES (53280, 'ace53280-brellegia', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53280,   1,         16) /* ItemType - Creature */
      , (53280,   2,        101) /* CreatureType - Anekshay */
-     , (53280,   6,        255) /* ItemsCapacity */
-     , (53280,   7,        255) /* ContainersCapacity */
+     , (53280,   6,         -1) /* ItemsCapacity */
+     , (53280,   7,         -1) /* ContainersCapacity */
      , (53280,  16,         32) /* ItemUseable - Remote */
      , (53280,  25,        200) /* Level */
      , (53280,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -6,8 +6,8 @@ VALUES (33021, 'ace33021-venarabasalleno', 12, '2021-11-01 00:00:00') /* Vendor 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33021,   1,         16) /* ItemType - Creature */
      , (33021,   2,         31) /* CreatureType - Human */
-     , (33021,   6,        255) /* ItemsCapacity */
-     , (33021,   7,        255) /* ContainersCapacity */
+     , (33021,   6,         -1) /* ItemsCapacity */
+     , (33021,   7,         -1) /* ContainersCapacity */
      , (33021,  16,         32) /* ItemUseable - Remote */
      , (33021,  25,          8) /* Level */
      , (33021,  74,  134508463) /* MerchandiseItemTypes - Vestements, Jewelry, Food, Weapon, LockableMagicTarget, Useless, Gem, Writable, Key, PromissoryNote, CraftFletchingIntermediate */

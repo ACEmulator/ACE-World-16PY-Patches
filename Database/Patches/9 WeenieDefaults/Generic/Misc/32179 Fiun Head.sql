@@ -8,7 +8,6 @@ VALUES (32179,   1,        128) /* ItemType - Misc */
      , (32179,   5,        200) /* EncumbranceVal */
      , (32179,  16,          1) /* ItemUseable - No */
      , (32179,  19,          0) /* Value */
-     , (32179,  53,        101) /* PlacementPosition - Resting */
      , (32179,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32179, 151,          9) /* HookType - Floor, Yard */;
 

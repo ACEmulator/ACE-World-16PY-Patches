@@ -6,8 +6,8 @@ VALUES (49085, 'ace49085-knath', 71, '2021-11-01 00:00:00') /* CombatPet */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49085,   1,         16) /* ItemType - Creature */
      , (49085,   2,         21) /* CreatureType - Knathtead */
-     , (49085,   6,        255) /* ItemsCapacity */
-     , (49085,   7,        255) /* ContainersCapacity */
+     , (49085,   6,         -1) /* ItemsCapacity */
+     , (49085,   7,         -1) /* ContainersCapacity */
      , (49085,  16,          1) /* ItemUseable - No */
      , (49085,  25,        180) /* Level */
      , (49085,  68,         64) /* TargetingTactic - Nearest */

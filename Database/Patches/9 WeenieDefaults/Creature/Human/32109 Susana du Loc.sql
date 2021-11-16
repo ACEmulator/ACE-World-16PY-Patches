@@ -6,8 +6,8 @@ VALUES (32109, 'ace32109-susanaduloc', 10, '2021-11-01 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32109,   1,         16) /* ItemType - Creature */
      , (32109,   2,         31) /* CreatureType - Human */
-     , (32109,   6,        255) /* ItemsCapacity */
-     , (32109,   7,        255) /* ContainersCapacity */
+     , (32109,   6,         -1) /* ItemsCapacity */
+     , (32109,   7,         -1) /* ContainersCapacity */
      , (32109,  16,         32) /* ItemUseable - Remote */
      , (32109,  25,         40) /* Level */
      , (32109,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

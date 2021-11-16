@@ -9,7 +9,6 @@ VALUES (32022,   1,       2048) /* ItemType - Gem */
      , (32022,   8,        100) /* Mass */
      , (32022,  19,          0) /* Value */
      , (32022,  33,          1) /* Bonded - Bonded */
-     , (32022,  53,        101) /* PlacementPosition - Resting */
      , (32022,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32022, 114,          1) /* Attuned - Attuned */;
 

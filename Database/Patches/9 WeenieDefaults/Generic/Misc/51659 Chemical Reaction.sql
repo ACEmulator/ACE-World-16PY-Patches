@@ -9,8 +9,7 @@ VALUES (51659,   1,        128) /* ItemType - Misc */
      , (51659,  16,          1) /* ItemUseable - No */
      , (51659,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (51659,  95,          8) /* RadarBlipColor - Yellow */
-     , (51659, 267,         20) /* Lifespan */
-     , (51659, 268,         -4) /* RemainingLifespan */;
+     , (51659, 267,         20) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51659,   1, True ) /* Stuck */

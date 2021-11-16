@@ -9,7 +9,6 @@ VALUES (87513,   1,      16384) /* ItemType - Key */
      , (87513,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (87513,  19,          0) /* Value */
      , (87513,  33,          1) /* Bonded - Bonded */
-     , (87513,  53,        101) /* PlacementPosition - Resting */
      , (87513,  91,          1) /* MaxStructure */
      , (87513,  92,          1) /* Structure */
      , (87513,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

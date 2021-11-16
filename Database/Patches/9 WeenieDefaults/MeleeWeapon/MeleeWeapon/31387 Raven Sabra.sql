@@ -20,7 +20,6 @@ VALUES (31387,   1,          1) /* ItemType - MeleeWeapon */
      , (31387,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (31387,  49,          0) /* WeaponTime */
      , (31387,  51,          1) /* CombatUse - Melee */
-     , (31387,  52,          1) /* ParentLocation - RightHand */
      , (31387,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31387, 114,          1) /* Attuned - Attuned */
      , (31387, 353,          2) /* WeaponType - Sword */;

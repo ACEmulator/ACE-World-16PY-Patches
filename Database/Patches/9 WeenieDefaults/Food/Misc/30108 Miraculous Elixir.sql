@@ -16,7 +16,6 @@ VALUES (30108,   1,        128) /* ItemType - Misc */
      , (30108,  16,          8) /* ItemUseable - Contained */
      , (30108,  17,         69) /* RareId */
      , (30108,  19,          0) /* Value */
-     , (30108,  53,        101) /* PlacementPosition - Resting */
      , (30108,  89,          6) /* BoosterEnum - Mana */
      , (30108,  90,        500) /* BoostValue */
      , (30108,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

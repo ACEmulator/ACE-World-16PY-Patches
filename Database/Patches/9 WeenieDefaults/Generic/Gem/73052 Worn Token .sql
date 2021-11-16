@@ -11,7 +11,6 @@ VALUES (73052,   1,       2048) /* ItemType - Gem */
      , (73052,  16,          1) /* ItemUseable - No */
      , (73052,  19,          0) /* Value */
      , (73052,  33,          1) /* Bonded - Bonded */
-     , (73052,  53,        101) /* PlacementPosition - Resting */
      , (73052,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (73052, 114,          1) /* Attuned - Attuned */;
 

@@ -22,6 +22,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52283,   1, True ) /* Stuck */
      , (52283,  29, True ) /* NoCorpse */
      , (52283,  52, True ) /* AiImmobile */
+     , (52283,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (52283,  83, True ) /* NpcLooksLikeObject */
      , (52283, 103, True ) /* NonProjectileMagicImmune */
      , (52283, 118, True ) /* NeverAttack */;

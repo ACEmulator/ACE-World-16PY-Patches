@@ -21,6 +21,8 @@ VALUES (35251,   1, True ) /* Stuck */
      , (35251,  13, False) /* Ethereal */
      , (35251,  14, True ) /* GravityStatus */
      , (35251,  19, True ) /* Attackable */
+     , (35251,  52, True ) /* AiImmobile */
+     , (35251,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (35251,  83, True ) /* NpcLooksLikeObject */
      , (35251, 103, True ) /* NonProjectileMagicImmune */
      , (35251, 118, True ) /* NeverAttack */;

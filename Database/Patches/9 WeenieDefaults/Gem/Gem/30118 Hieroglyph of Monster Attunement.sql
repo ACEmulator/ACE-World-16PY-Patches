@@ -50,6 +50,3 @@ VALUES (30118,   1, 0x020009A7) /* Setup */
      , (30118,  28,       4604) /* Spell - Incantation of Monster Attunement Self */
      , (30118,  50, 0x06005B27) /* IconOverlay */
      , (30118,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30118,  4604,      2)  /* Incantation of Monster Attunement Self */;

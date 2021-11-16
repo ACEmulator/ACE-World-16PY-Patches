@@ -49,6 +49,3 @@ VALUES (30139,   1, 0x020009A7) /* Setup */
      , (30139,  28,       4403) /* Spell - Incantation of Frost Bane */
      , (30139,  50, 0x06005B3D) /* IconOverlay */
      , (30139,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30139,  4403,      2)  /* Incantation of Frost Bane */;

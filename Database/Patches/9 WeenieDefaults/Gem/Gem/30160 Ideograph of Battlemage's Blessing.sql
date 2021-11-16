@@ -49,6 +49,3 @@ VALUES (30160,   1, 0x020009A7) /* Setup */
      , (30160,  28,       4494) /* Spell - Incantation of Mana Renewal Self */
      , (30160,  50, 0x06005B52) /* IconOverlay */
      , (30160,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30160,  4494,      2)  /* Incantation of Mana Renewal Self */;

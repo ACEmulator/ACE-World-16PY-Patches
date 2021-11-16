@@ -6,8 +6,8 @@ VALUES (36232, 'ace36232-solange', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36232,   1,         16) /* ItemType - Creature */
      , (36232,   2,         31) /* CreatureType - Human */
-     , (36232,   6,        255) /* ItemsCapacity */
-     , (36232,   7,        255) /* ContainersCapacity */
+     , (36232,   6,         -1) /* ItemsCapacity */
+     , (36232,   7,         -1) /* ContainersCapacity */
      , (36232,  16,         32) /* ItemUseable - Remote */
      , (36232,  25,        135) /* Level */
      , (36232,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

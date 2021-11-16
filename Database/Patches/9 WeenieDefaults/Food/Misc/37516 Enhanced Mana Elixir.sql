@@ -17,7 +17,6 @@ VALUES (37516,   1,        128) /* ItemType - Misc */
      , (37516,  18,          1) /* UiEffects - Magical */
      , (37516,  19,       1000) /* Value */
      , (37516,  33,          1) /* Bonded - Bonded */
-     , (37516,  53,        101) /* PlacementPosition - Resting */
      , (37516,  89,          6) /* BoosterEnum - Mana */
      , (37516,  90,        200) /* BoostValue */
      , (37516,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

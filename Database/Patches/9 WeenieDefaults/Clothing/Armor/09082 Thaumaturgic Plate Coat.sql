@@ -15,7 +15,6 @@ VALUES (9082,   1,          2) /* ItemType - Armor */
      , (9082,  19,       8000) /* Value */
      , (9082,  27,         32) /* ArmorType - Metal */
      , (9082,  28,          0) /* ArmorLevel */
-     , (9082,  53,        101) /* PlacementPosition - Resting */
      , (9082,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9082, 106,        270) /* ItemSpellcraft */
      , (9082, 107,          0) /* ItemCurMana */

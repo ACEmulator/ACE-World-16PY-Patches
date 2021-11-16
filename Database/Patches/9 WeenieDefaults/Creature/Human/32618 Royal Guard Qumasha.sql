@@ -6,8 +6,8 @@ VALUES (32618, 'ace32618-royalguardqumasha', 10, '2021-11-01 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32618,   1,         16) /* ItemType - Creature */
      , (32618,   2,         31) /* CreatureType - Human */
-     , (32618,   6,        255) /* ItemsCapacity */
-     , (32618,   7,        255) /* ContainersCapacity */
+     , (32618,   6,         -1) /* ItemsCapacity */
+     , (32618,   7,         -1) /* ContainersCapacity */
      , (32618,  16,         32) /* ItemUseable - Remote */
      , (32618,  25,        100) /* Level */
      , (32618,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

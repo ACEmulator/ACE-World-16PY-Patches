@@ -20,7 +20,6 @@ VALUES (21357,   1,          1) /* ItemType - MeleeWeapon */
      , (21357,  48,         45) /* WeaponSkill - LightWeapons */
      , (21357,  49,         40) /* WeaponTime */
      , (21357,  51,          1) /* CombatUse - Melee */
-     , (21357,  53,        101) /* PlacementPosition - Resting */
      , (21357,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21357, 114,          1) /* Attuned - Attuned */
      , (21357, 150,        103) /* HookPlacement - Hook */

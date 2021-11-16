@@ -8,7 +8,6 @@ VALUES (31384,   1,       8192) /* ItemType - Writable */
      , (31384,   5,          5) /* EncumbranceVal */
      , (31384,  16,          8) /* ItemUseable - Contained */
      , (31384,  19,         10) /* Value */
-     , (31384,  53,        101) /* PlacementPosition - Resting */
      , (31384,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31384, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31384, 0, 0xFFFFFFFF, 'Sarkin Killcrane', '', False, 'Greetings,
+VALUES (31384, 0, 0xFFFFFFFF, 'Sarkin Killcrane', 'prewritten', False, 'Greetings,
 
 I am Sarkin Killcrane, member of the Knights of the Golden Flame. Our High Queen, the Lady Elysa Strathelar has bid me call for those willing to aid in my task. I dare not go deep into detail with this entreatment, for you never know who might be floating about the pub. If interested, you can find my station within the Jojiist town of Wai Jhou on the eastern fringes of the Obsidian Plains.
 

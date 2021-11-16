@@ -49,6 +49,3 @@ VALUES (30121,   1, 0x020009A7) /* Setup */
      , (30121,  28,       4393) /* Spell - Incantation of Blade Bane */
      , (30121,  50, 0x06005B2A) /* IconOverlay */
      , (30121,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30121,  4393,      2)  /* Incantation of Blade Bane */;

@@ -13,7 +13,6 @@ VALUES (31688,   1,        128) /* ItemType - Misc */
      , (31688,  15,        100) /* StackUnitValue */
      , (31688,  16,          1) /* ItemUseable - No */
      , (31688,  19,        100) /* Value */
-     , (31688,  53,        101) /* PlacementPosition - Resting */
      , (31688,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31688, 151,          9) /* HookType - Floor, Yard */;
 

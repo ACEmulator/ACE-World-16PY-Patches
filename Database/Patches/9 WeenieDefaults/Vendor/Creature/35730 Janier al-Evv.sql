@@ -6,8 +6,8 @@ VALUES (35730, 'ace35730-janieralevv', 12, '2021-11-01 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35730,   1,         16) /* ItemType - Creature */
      , (35730,   2,         31) /* CreatureType - Human */
-     , (35730,   6,        255) /* ItemsCapacity */
-     , (35730,   7,        255) /* ContainersCapacity */
+     , (35730,   6,         -1) /* ItemsCapacity */
+     , (35730,   7,         -1) /* ContainersCapacity */
      , (35730,  16,         32) /* ItemUseable - Remote */
      , (35730,  25,        200) /* Level */
      , (35730,  74, 1619271680) /* MerchandiseItemTypes - Writable, PromissoryNote, CraftAlchemyBase, TinkeringTool, TinkeringMaterial */

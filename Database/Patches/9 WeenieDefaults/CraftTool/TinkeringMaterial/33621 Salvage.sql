@@ -13,7 +13,6 @@ VALUES (33621,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (33621,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (33621,  19,         10) /* Value */
      , (33621,  33,          1) /* Bonded - Bonded */
-     , (33621,  53,        101) /* PlacementPosition - Resting */
      , (33621,  91,        100) /* MaxStructure */
      , (33621,  92,        100) /* Structure */
      , (33621,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

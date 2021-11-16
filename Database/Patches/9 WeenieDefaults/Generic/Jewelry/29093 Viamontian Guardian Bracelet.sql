@@ -12,7 +12,6 @@ VALUES (29093,   1,          8) /* ItemType - Jewelry */
      , (29093,  16,          1) /* ItemUseable - No */
      , (29093,  18,          1) /* UiEffects - Magical */
      , (29093,  19,       1000) /* Value */
-     , (29093,  53,        101) /* PlacementPosition - Resting */
      , (29093,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29093, 106,         50) /* ItemSpellcraft */
      , (29093, 107,        400) /* ItemCurMana */

@@ -18,7 +18,6 @@ VALUES (31765,   1,          1) /* ItemType - MeleeWeapon */
      , (31765,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (31765,  49,         50) /* WeaponTime */
      , (31765,  51,          1) /* CombatUse - Melee */
-     , (31765,  53,        101) /* PlacementPosition - Resting */
      , (31765,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31765, 151,          2) /* HookType - Wall */
      , (31765, 169,  101189386) /* TsysMutationData */

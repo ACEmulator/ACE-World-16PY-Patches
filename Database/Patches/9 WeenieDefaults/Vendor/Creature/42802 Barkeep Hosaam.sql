@@ -6,8 +6,8 @@ VALUES (42802, 'ace42802-barkeephosaam', 12, '2021-11-01 00:00:00') /* Vendor */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42802,   1,         16) /* ItemType - Creature */
      , (42802,   2,         31) /* CreatureType - Human */
-     , (42802,   6,        255) /* ItemsCapacity */
-     , (42802,   7,        255) /* ContainersCapacity */
+     , (42802,   6,         -1) /* ItemsCapacity */
+     , (42802,   7,         -1) /* ContainersCapacity */
      , (42802,  16,         32) /* ItemUseable - Remote */
      , (42802,  25,          5) /* Level */
      , (42802,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */

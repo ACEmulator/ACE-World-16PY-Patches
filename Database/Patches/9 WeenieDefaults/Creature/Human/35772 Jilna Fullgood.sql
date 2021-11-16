@@ -6,8 +6,8 @@ VALUES (35772, 'ace35772-jilnafullgood', 10, '2021-11-01 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35772,   1,         16) /* ItemType - Creature */
      , (35772,   2,         31) /* CreatureType - Human */
-     , (35772,   6,        255) /* ItemsCapacity */
-     , (35772,   7,        255) /* ContainersCapacity */
+     , (35772,   6,         -1) /* ItemsCapacity */
+     , (35772,   7,         -1) /* ContainersCapacity */
      , (35772,  16,         32) /* ItemUseable - Remote */
      , (35772,  25,        142) /* Level */
      , (35772,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -19,6 +19,7 @@ VALUES (35772,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35772,   1, True ) /* Stuck */
+     , (35772,   8, True ) /* AllowGive */
      , (35772,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

@@ -49,6 +49,3 @@ VALUES (30132,   1, 0x020009A7) /* Setup */
      , (30132,  28,       4400) /* Spell - Aura of Incantation of Defender Self */
      , (30132,  50, 0x06005B36) /* IconOverlay */
      , (30132,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30132,  4400,      2)  /* Aura of Incantation of Defender Self */;

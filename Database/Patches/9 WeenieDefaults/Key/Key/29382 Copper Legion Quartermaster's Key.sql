@@ -9,7 +9,6 @@ VALUES (29382,   1,      16384) /* ItemType - Key */
      , (29382,   8,         20) /* Mass */
      , (29382,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (29382,  19,          0) /* Value */
-     , (29382,  53,        101) /* PlacementPosition - Resting */
      , (29382,  91,          1) /* MaxStructure */
      , (29382,  92,          1) /* Structure */
      , (29382,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

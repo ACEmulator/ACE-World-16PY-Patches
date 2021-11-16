@@ -10,7 +10,6 @@ VALUES (31620,   1,        128) /* ItemType - Misc */
      , (31620,  16,          1) /* ItemUseable - No */
      , (31620,  19,          0) /* Value */
      , (31620,  33,          1) /* Bonded - Bonded */
-     , (31620,  53,        101) /* PlacementPosition - Resting */
      , (31620,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31620, 114,          1) /* Attuned - Attuned */
      , (31620, 150,        103) /* HookPlacement - Hook */

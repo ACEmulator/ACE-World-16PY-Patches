@@ -6,8 +6,8 @@ VALUES (43144, 'ace43144-lintareal', 12, '2021-11-01 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43144,   1,         16) /* ItemType - Creature */
      , (43144,   2,         99) /* CreatureType - GearKnight */
-     , (43144,   6,        255) /* ItemsCapacity */
-     , (43144,   7,        255) /* ContainersCapacity */
+     , (43144,   6,         -1) /* ItemsCapacity */
+     , (43144,   7,         -1) /* ContainersCapacity */
      , (43144,  16,         32) /* ItemUseable - Remote */
      , (43144,  25,        250) /* Level */
      , (43144,  74,          0) /* MerchandiseItemTypes - None */

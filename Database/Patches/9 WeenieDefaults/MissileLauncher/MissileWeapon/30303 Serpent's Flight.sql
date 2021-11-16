@@ -22,7 +22,7 @@ VALUES (30303,   1,        256) /* ItemType - MissileWeapon */
      , (30303,  50,          1) /* AmmoType - Arrow */
      , (30303,  51,          2) /* CombatUse - Missile */
      , (30303,  52,          2) /* ParentLocation - LeftHand */
-     , (30303,  53,        101) /* PlacementPosition - Resting */
+     , (30303,  53,          3) /* PlacementPosition - LeftHand */
      , (30303,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30303, 106,        400) /* ItemSpellcraft */
      , (30303, 107,       2000) /* ItemCurMana */

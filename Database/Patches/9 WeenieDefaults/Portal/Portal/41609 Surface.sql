@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41609,   1,      65536) /* ItemType - Portal */
      , (41609,  16,         32) /* ItemUseable - Remote */
      , (41609,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (41609,  98, 1485456158) /* CreationTimestamp */
      , (41609, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (41609, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (41609, 267,         60) /* Lifespan */;
@@ -18,8 +17,7 @@ VALUES (41609,   1, True ) /* Stuck */
      , (41609,  13, True ) /* Ethereal */
      , (41609,  14, True ) /* GravityStatus */
      , (41609,  15, True ) /* LightsStatus */
-     , (41609,  19, True ) /* Attackable */
-     , (41609,  88, True ) /* PortalShowDestination */;
+     , (41609,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41609,  54,    -0.1) /* UseRadius */;

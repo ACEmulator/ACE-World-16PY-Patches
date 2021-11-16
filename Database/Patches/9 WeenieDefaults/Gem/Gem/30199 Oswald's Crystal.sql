@@ -18,7 +18,6 @@ VALUES (30199,   1,       2048) /* ItemType - Gem */
      , (30199,  18,          1) /* UiEffects - Magical */
      , (30199,  19,          0) /* Value */
      , (30199,  33,         -1) /* Bonded - Slippery */
-     , (30199,  53,        101) /* PlacementPosition - Resting */
      , (30199,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30199,  94,         16) /* TargetType - Creature */
      , (30199, 106,        325) /* ItemSpellcraft */

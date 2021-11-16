@@ -6,8 +6,8 @@ VALUES (42801, 'ace42801-barkeepercreighton', 12, '2021-11-01 00:00:00') /* Vend
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42801,   1,         16) /* ItemType - Creature */
      , (42801,   2,         31) /* CreatureType - Human */
-     , (42801,   6,        255) /* ItemsCapacity */
-     , (42801,   7,        255) /* ContainersCapacity */
+     , (42801,   6,         -1) /* ItemsCapacity */
+     , (42801,   7,         -1) /* ContainersCapacity */
      , (42801,  16,         32) /* ItemUseable - Remote */
      , (42801,  25,          5) /* Level */
      , (42801,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */

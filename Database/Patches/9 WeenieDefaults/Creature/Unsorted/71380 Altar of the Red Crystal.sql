@@ -5,10 +5,10 @@ VALUES (71380, 'ace71380-altaroftheredcrystal', 10, '2021-11-01 00:00:00') /* Cr
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71380,   1,         16) /* ItemType - Creature */
-     , (71380,   6,        255) /* ItemsCapacity */
-     , (71380,   7,        255) /* ContainersCapacity */
+     , (71380,   6,         -1) /* ItemsCapacity */
+     , (71380,   7,         -1) /* ContainersCapacity */
      , (71380,  16,         32) /* ItemUseable - Remote */
-     , (71380,  93,    4260884) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP, EdgeSlide */
+     , (71380,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (71380,  95,          8) /* RadarBlipColor - Yellow */
      , (71380, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
@@ -19,6 +19,8 @@ VALUES (71380,   1, True ) /* Stuck */
      , (71380,  14, True ) /* GravityStatus */
      , (71380,  19, False) /* Attackable */
      , (71380,  42, True ) /* AllowEdgeSlide */
+     , (71380,  52, True ) /* AiImmobile */
+     , (71380,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (71380,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

@@ -15,7 +15,6 @@ VALUES (13230,   1,        128) /* ItemType - Misc */
      , (13230,  15,         75) /* StackUnitValue */
      , (13230,  16,          8) /* ItemUseable - Contained */
      , (13230,  19,         75) /* Value */
-     , (13230,  53,        101) /* PlacementPosition - Resting */
      , (13230,  89,          6) /* BoosterEnum - Mana */
      , (13230,  90,         25) /* BoostValue */
      , (13230,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

@@ -28,6 +28,7 @@ VALUES (87140,   1, True ) /* Stuck */
      , (87140,  19, False) /* Attackable */
      , (87140,  29, True ) /* NoCorpse */
      , (87140,  52, True ) /* AiImmobile */
+     , (87140,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (87140,  83, True ) /* NpcLooksLikeObject */
      , (87140, 103, True ) /* NonProjectileMagicImmune */
      , (87140, 118, True ) /* NeverAttack */;

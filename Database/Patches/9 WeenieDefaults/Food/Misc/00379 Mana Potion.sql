@@ -15,7 +15,6 @@ VALUES (379,   1,        128) /* ItemType - Misc */
      , (379,  15,        170) /* StackUnitValue */
      , (379,  16,          8) /* ItemUseable - Contained */
      , (379,  19,        170) /* Value */
-     , (379,  53,        101) /* PlacementPosition - Resting */
      , (379,  89,          6) /* BoosterEnum - Mana */
      , (379,  90,         25) /* BoostValue */
      , (379,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

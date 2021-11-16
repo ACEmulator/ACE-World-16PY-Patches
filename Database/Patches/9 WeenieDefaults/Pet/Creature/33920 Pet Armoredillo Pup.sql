@@ -6,8 +6,8 @@ VALUES (33920, 'ace33920-petarmoredillopup', 69, '2021-11-01 00:00:00') /* Pet *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33920,   1,         16) /* ItemType - Creature */
      , (33920,   2,         17) /* CreatureType - Armoredillo */
-     , (33920,   6,        255) /* ItemsCapacity */
-     , (33920,   7,        255) /* ContainersCapacity */
+     , (33920,   6,         -1) /* ItemsCapacity */
+     , (33920,   7,         -1) /* ContainersCapacity */
      , (33920,  16,          1) /* ItemUseable - No */
      , (33920,  25,         16) /* Level */
      , (33920,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */

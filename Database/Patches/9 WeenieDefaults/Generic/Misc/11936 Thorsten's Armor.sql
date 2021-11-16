@@ -10,7 +10,6 @@ VALUES (11936,   1,        128) /* ItemType - Misc */
      , (11936,   9,          0) /* ValidLocations - None */
      , (11936,  16,          1) /* ItemUseable - No */
      , (11936,  19,      15000) /* Value */
-     , (11936,  53,        101) /* PlacementPosition - Resting */
      , (11936,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11936, 150,        103) /* HookPlacement - Hook */
      , (11936, 151,          9) /* HookType - Floor, Yard */;

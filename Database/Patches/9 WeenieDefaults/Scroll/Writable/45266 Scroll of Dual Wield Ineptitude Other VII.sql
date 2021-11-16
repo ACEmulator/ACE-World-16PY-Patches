@@ -8,7 +8,6 @@ VALUES (45266,   1,       8192) /* ItemType - Writable */
      , (45266,   5,         30) /* EncumbranceVal */
      , (45266,  16,          8) /* ItemUseable - Contained */
      , (45266,  19,       2000) /* Value */
-     , (45266,  53,        101) /* PlacementPosition - Resting */
      , (45266,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,6 +29,3 @@ VALUES (45266,   1, 0x0200018A) /* Setup */
      , (45266,   8, 0x0600711B) /* Icon */
      , (45266,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45266,  28,       5793) /* Spell - Dual Wield Ineptitude Other VII */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45266,  5793,      2)  /* Dual Wield Ineptitude Other VII */;

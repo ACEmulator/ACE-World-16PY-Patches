@@ -46,6 +46,3 @@ VALUES (39110,   1, 0x0200003D) /* Setup */
      , (39110,   8, 0x06006706) /* Icon */
      , (39110,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39110,  28,       4211) /* Spell - Licorice Leap */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39110,  4211,      2)  /* Licorice Leap */;

@@ -5,8 +5,8 @@ VALUES (31411, 'ace31411-nightmaregate', 10, '2021-11-01 00:00:00') /* Creature 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31411,   1,         16) /* ItemType - Creature */
-     , (31411,   6,        255) /* ItemsCapacity */
-     , (31411,   7,        255) /* ContainersCapacity */
+     , (31411,   6,         -1) /* ItemsCapacity */
+     , (31411,   7,         -1) /* ContainersCapacity */
      , (31411,  16,         32) /* ItemUseable - Remote */
      , (31411,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31411,  95,          8) /* RadarBlipColor - Yellow */
@@ -15,6 +15,7 @@ VALUES (31411,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31411,   1, True ) /* Stuck */
+     , (31411,   8, True ) /* AllowGive */
      , (31411,  19, False) /* Attackable */
      , (31411,  52, True ) /* AiImmobile */
      , (31411,  82, True ) /* DontTurnOrMoveWhenGiving */

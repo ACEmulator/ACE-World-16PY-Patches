@@ -11,7 +11,6 @@ VALUES (44970,   1,        128) /* ItemType - Misc */
      , (44970,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44970,  19,          0) /* Value */
      , (44970,  33,          1) /* Bonded - Bonded */
-     , (44970,  53,        101) /* PlacementPosition - Resting */
      , (44970,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44970,  94,        128) /* TargetType - Misc */
      , (44970, 114,          1) /* Attuned - Attuned */

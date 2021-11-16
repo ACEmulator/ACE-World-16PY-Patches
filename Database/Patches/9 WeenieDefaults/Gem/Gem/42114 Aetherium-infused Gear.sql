@@ -12,7 +12,6 @@ VALUES (42114,   1,       2048) /* ItemType - Gem */
      , (42114,  18,          1) /* UiEffects - Magical */
      , (42114,  19,          0) /* Value */
      , (42114,  33,          1) /* Bonded - Bonded */
-     , (42114,  53,        101) /* PlacementPosition - Resting */
      , (42114,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42114, 114,          1) /* Attuned - Attuned */;
 

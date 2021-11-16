@@ -11,7 +11,6 @@ VALUES (36547,   1,       2048) /* ItemType - Gem */
      , (36547,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36547,  19,       1500) /* Value */
      , (36547,  33,          1) /* Bonded - Bonded */
-     , (36547,  53,        101) /* PlacementPosition - Resting */
      , (36547,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36547,  94,        128) /* TargetType - Misc */
      , (36547, 114,          1) /* Attuned - Attuned */;

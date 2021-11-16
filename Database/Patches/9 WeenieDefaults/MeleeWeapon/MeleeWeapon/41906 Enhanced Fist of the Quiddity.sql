@@ -15,8 +15,6 @@ VALUES (41906,   1,          1) /* ItemType - MeleeWeapon */
      , (41906,  47,          1) /* AttackType - Punch */
      , (41906,  49,         20) /* WeaponTime */
      , (41906,  51,          1) /* CombatUse - Melee */
-     , (41906,  52,          1) /* ParentLocation - RightHand */
-     , (41906,  53,          1) /* PlacementPosition - RightHandCombat */
      , (41906,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41906, 106,        400) /* ItemSpellcraft */
      , (41906, 107,       1000) /* ItemCurMana */

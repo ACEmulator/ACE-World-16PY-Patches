@@ -18,7 +18,6 @@ VALUES (30190,   1,       2048) /* ItemType - Gem */
      , (30190,  18,          1) /* UiEffects - Magical */
      , (30190,  19,          0) /* Value */
      , (30190,  33,         -1) /* Bonded - Slippery */
-     , (30190,  53,        101) /* PlacementPosition - Resting */
      , (30190,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30190,  94,         16) /* TargetType - Creature */
      , (30190, 150,        103) /* HookPlacement - Hook */

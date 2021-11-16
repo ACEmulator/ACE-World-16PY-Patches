@@ -16,7 +16,6 @@ VALUES (31392,   1,          2) /* ItemType - Armor */
      , (31392,  36,       9999) /* ResistMagic */
      , (31392,  37,       9999) /* ResistItemAppraisal */
      , (31392,  51,          4) /* CombatUse - Shield */
-     , (31392,  52,          3) /* ParentLocation - Shield */
      , (31392,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31392, 151,          2) /* HookType - Wall */
      , (31392, 179,  536870912) /* ImbuedEffect - IgnoreSomeMagicProjectileDamage */;

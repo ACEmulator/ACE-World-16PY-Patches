@@ -12,7 +12,6 @@ VALUES (30247,   1,        128) /* ItemType - Misc */
      , (30247,  17,        146) /* RareId */
      , (30247,  19,          0) /* Value */
      , (30247,  33,         -1) /* Bonded - Slippery */
-     , (30247,  53,        101) /* PlacementPosition - Resting */
      , (30247,  89,          2) /* BoosterEnum - Health */
      , (30247,  90,        100) /* BoostValue */
      , (30247,  92,         -1) /* Structure */

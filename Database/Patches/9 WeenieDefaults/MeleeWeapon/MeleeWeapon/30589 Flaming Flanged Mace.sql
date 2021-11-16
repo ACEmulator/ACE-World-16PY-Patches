@@ -19,7 +19,6 @@ VALUES (30589,   1,          1) /* ItemType - MeleeWeapon */
      , (30589,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (30589,  49,         40) /* WeaponTime */
      , (30589,  51,          1) /* CombatUse - Melee */
-     , (30589,  53,        101) /* PlacementPosition - Resting */
      , (30589,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30589, 150,        103) /* HookPlacement - Hook */
      , (30589, 151,          2) /* HookType - Wall */

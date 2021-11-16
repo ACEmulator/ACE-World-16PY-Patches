@@ -14,7 +14,6 @@ VALUES (32166,   1,          2) /* ItemType - Armor */
      , (32166,  19,        200) /* Value */
      , (32166,  27,          2) /* ArmorType - Leather */
      , (32166,  28,         10) /* ArmorLevel */
-     , (32166,  53,        101) /* PlacementPosition - Resting */
      , (32166,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32166, 150,        103) /* HookPlacement - Hook */
      , (32166, 151,          2) /* HookType - Wall */;

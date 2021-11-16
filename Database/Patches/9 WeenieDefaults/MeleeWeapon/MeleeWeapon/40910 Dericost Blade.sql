@@ -19,7 +19,6 @@ VALUES (40910,   1,          1) /* ItemType - MeleeWeapon */
      , (40910,  48,         45) /* WeaponSkill - LightWeapons */
      , (40910,  49,         30) /* WeaponTime */
      , (40910,  51,          1) /* CombatUse - Melee */
-     , (40910,  53,        101) /* PlacementPosition - Resting */
      , (40910,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40910, 151,          2) /* HookType - Wall */
      , (40910, 353,          2) /* WeaponType - Sword */;

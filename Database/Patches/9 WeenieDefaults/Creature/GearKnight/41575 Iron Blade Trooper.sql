@@ -6,8 +6,8 @@ VALUES (41575, 'ace41575-ironbladetrooper', 10, '2021-11-01 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41575,   1,         16) /* ItemType - Creature */
      , (41575,   2,         99) /* CreatureType - GearKnight */
-     , (41575,   6,        255) /* ItemsCapacity */
-     , (41575,   7,        255) /* ContainersCapacity */
+     , (41575,   6,         -1) /* ItemsCapacity */
+     , (41575,   7,         -1) /* ContainersCapacity */
      , (41575,  16,          1) /* ItemUseable - No */
      , (41575,  25,         80) /* Level */
      , (41575,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -6,8 +6,8 @@ VALUES (34037, 'ace34037-commanderrylanedicinghalle', 10, '2021-11-01 00:00:00')
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34037,   1,         16) /* ItemType - Creature */
      , (34037,   2,         31) /* CreatureType - Human */
-     , (34037,   6,        255) /* ItemsCapacity */
-     , (34037,   7,        255) /* ContainersCapacity */
+     , (34037,   6,         -1) /* ItemsCapacity */
+     , (34037,   7,         -1) /* ContainersCapacity */
      , (34037,  16,         32) /* ItemUseable - Remote */
      , (34037,  25,        150) /* Level */
      , (34037,  67,         40) /* Tolerance - Provoke, Target */
@@ -20,6 +20,7 @@ VALUES (34037,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34037,   1, True ) /* Stuck */
+     , (34037,   8, True ) /* AllowGive */
      , (34037,  11, True ) /* IgnoreCollisions */
      , (34037,  12, True ) /* ReportCollisions */
      , (34037,  14, True ) /* GravityStatus */

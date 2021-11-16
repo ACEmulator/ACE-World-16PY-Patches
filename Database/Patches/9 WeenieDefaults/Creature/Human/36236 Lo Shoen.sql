@@ -6,8 +6,8 @@ VALUES (36236, 'ace36236-loshoen', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36236,   1,         16) /* ItemType - Creature */
      , (36236,   2,         31) /* CreatureType - Human */
-     , (36236,   6,        255) /* ItemsCapacity */
-     , (36236,   7,        255) /* ContainersCapacity */
+     , (36236,   6,         -1) /* ItemsCapacity */
+     , (36236,   7,         -1) /* ContainersCapacity */
      , (36236,  16,         32) /* ItemUseable - Remote */
      , (36236,  25,        155) /* Level */
      , (36236,  81,          1) /* MaxGeneratedObjects */

@@ -12,8 +12,7 @@ VALUES (32623,   1,      65536) /* ItemType - Portal */
      , (32623, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32623,   1, True ) /* Stuck */
-     , (32623,  88, True ) /* PortalShowDestination */;
+VALUES (32623,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32623,  54,    -0.1) /* UseRadius */;

@@ -49,6 +49,3 @@ VALUES (30169,   1, 0x020009A7) /* Setup */
      , (30169,  28,       4462) /* Spell - Incantation of Blade Protection Self */
      , (30169,  50, 0x06005B5B) /* IconOverlay */
      , (30169,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30169,  4462,      2)  /* Incantation of Blade Protection Self */;

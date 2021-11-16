@@ -6,8 +6,8 @@ VALUES (32110, 'ace32110-robertgutsmasher', 10, '2021-11-01 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32110,   1,         16) /* ItemType - Creature */
      , (32110,   2,         31) /* CreatureType - Human */
-     , (32110,   6,        255) /* ItemsCapacity */
-     , (32110,   7,        255) /* ContainersCapacity */
+     , (32110,   6,         -1) /* ItemsCapacity */
+     , (32110,   7,         -1) /* ContainersCapacity */
      , (32110,  16,         32) /* ItemUseable - Remote */
      , (32110,  25,         60) /* Level */
      , (32110,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

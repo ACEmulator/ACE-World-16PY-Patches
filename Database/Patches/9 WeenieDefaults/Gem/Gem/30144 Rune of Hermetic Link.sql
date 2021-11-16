@@ -49,6 +49,3 @@ VALUES (30144,   1, 0x020009A7) /* Setup */
      , (30144,  28,       4418) /* Spell - Aura of Incantation of Hermetic Link Self */
      , (30144,  50, 0x06005B42) /* IconOverlay */
      , (30144,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30144,  4418,      2)  /* Aura of Incantation of Hermetic Link Self */;

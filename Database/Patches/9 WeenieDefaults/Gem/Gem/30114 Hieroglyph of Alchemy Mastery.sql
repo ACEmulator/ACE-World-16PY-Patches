@@ -50,6 +50,3 @@ VALUES (30114,   1, 0x020009A7) /* Setup */
      , (30114,  28,       4506) /* Spell - Incantation of Alchemy Mastery Self */
      , (30114,  50, 0x06005B23) /* IconOverlay */
      , (30114,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30114,  4506,      2)  /* Incantation of Alchemy Mastery Self */;

@@ -30,6 +30,7 @@ VALUES (80094,   1, True ) /* Stuck */
      , (80094,  19, False) /* Attackable */
      , (80094,  41, True ) /* ReportCollisionsAsEnvironment */
      , (80094,  52, True ) /* AiImmobile */
+     , (80094,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (80094,  83, True ) /* NpcLooksLikeObject */
      , (80094,  90, True ) /* NpcInteractsSilently */
      , (80094, 118, True ) /* NeverAttack */;

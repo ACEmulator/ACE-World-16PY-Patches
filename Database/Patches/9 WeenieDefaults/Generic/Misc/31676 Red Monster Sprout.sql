@@ -10,7 +10,6 @@ VALUES (31676,   1,        128) /* ItemType - Misc */
      , (31676,  12,          1) /* StackSize */
      , (31676,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31676,  19,        100) /* Value */
-     , (31676,  53,        101) /* PlacementPosition - Resting */
      , (31676,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31676,  94,    4194336) /* TargetType - Food, CraftCookingBase */
      , (31676, 151,          9) /* HookType - Floor, Yard */;

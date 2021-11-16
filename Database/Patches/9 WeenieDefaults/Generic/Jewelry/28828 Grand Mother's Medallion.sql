@@ -11,7 +11,6 @@ VALUES (28828,   1,          8) /* ItemType - Jewelry */
      , (28828,  19,          0) /* Value */
      , (28828,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (28828,  33,          1) /* Bonded - Bonded */
-     , (28828,  53,        101) /* PlacementPosition - Resting */
      , (28828,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28828, 106,        300) /* ItemSpellcraft */
      , (28828, 108,        700) /* ItemMaxMana */

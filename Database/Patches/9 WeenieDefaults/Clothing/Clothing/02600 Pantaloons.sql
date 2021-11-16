@@ -14,7 +14,6 @@ VALUES (2600,   1,          4) /* ItemType - Clothing */
      , (2600,  19,         30) /* Value */
      , (2600,  27,          1) /* ArmorType - Cloth */
      , (2600,  28,          0) /* ArmorLevel */
-     , (2600,  53,        101) /* PlacementPosition - Resting */
      , (2600,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2600, 169,  201326864) /* TsysMutationData */;
 

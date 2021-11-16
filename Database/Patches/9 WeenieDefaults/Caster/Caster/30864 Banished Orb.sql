@@ -11,7 +11,6 @@ VALUES (30864,   1,      32768) /* ItemType - Caster */
      , (30864,  16,          1) /* ItemUseable - No */
      , (30864,  19,       8000) /* Value */
      , (30864,  46,        512) /* DefaultCombatStyle - Magic */
-     , (30864,  52,          1) /* ParentLocation - RightHand */
      , (30864,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30864,  94,         16) /* TargetType - Creature */
      , (30864, 106,        250) /* ItemSpellcraft */

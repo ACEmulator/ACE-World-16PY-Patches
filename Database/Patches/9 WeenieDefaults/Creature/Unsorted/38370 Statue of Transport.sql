@@ -19,6 +19,8 @@ VALUES (38370,   1, True ) /* Stuck */
      , (38370,  19, False) /* Attackable */
      , (38370,  41, True ) /* ReportCollisionsAsEnvironment */
      , (38370,  42, True ) /* AllowEdgeSlide */
+     , (38370,  52, True ) /* AiImmobile */
+     , (38370,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (38370,  83, True ) /* NpcLooksLikeObject */
      , (38370,  90, True ) /* NpcInteractsSilently */
      , (38370, 118, True ) /* NeverAttack */;

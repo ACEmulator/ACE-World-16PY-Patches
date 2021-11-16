@@ -19,7 +19,6 @@ VALUES (5016,   1,          1) /* ItemType - MeleeWeapon */
      , (5016,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (5016,  49,         20) /* WeaponTime */
      , (5016,  51,          1) /* CombatUse - Melee */
-     , (5016,  53,        101) /* PlacementPosition - Resting */
      , (5016,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5016, 114,          1) /* Attuned - Attuned */
      , (5016, 150,        103) /* HookPlacement - Hook */

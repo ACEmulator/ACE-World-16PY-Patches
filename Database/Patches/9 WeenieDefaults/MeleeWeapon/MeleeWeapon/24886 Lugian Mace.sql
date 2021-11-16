@@ -18,8 +18,6 @@ VALUES (24886,   1,          1) /* ItemType - MeleeWeapon */
      , (24886,  48,          5) /* WeaponSkill - Mace */
      , (24886,  49,         80) /* WeaponTime */
      , (24886,  51,          1) /* CombatUse - Melee */
-     , (24886,  52,          1) /* ParentLocation - RightHand */
-     , (24886,  53,          1) /* PlacementPosition - RightHandCombat */
      , (24886,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24886, 106,        250) /* ItemSpellcraft */
      , (24886, 107,        500) /* ItemCurMana */

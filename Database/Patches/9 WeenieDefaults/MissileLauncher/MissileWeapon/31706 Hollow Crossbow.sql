@@ -21,7 +21,7 @@ VALUES (31706,   1,        256) /* ItemType - MissileWeapon */
      , (31706,  50,        128) /* AmmoType - BoltChorizite */
      , (31706,  51,          2) /* CombatUse - Missile */
      , (31706,  52,          2) /* ParentLocation - LeftHand */
-     , (31706,  53,        101) /* PlacementPosition - Resting */
+     , (31706,  53,          3) /* PlacementPosition - LeftHand */
      , (31706,  60,        192) /* WeaponRange */
      , (31706,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (31706, 114,          1) /* Attuned - Attuned */

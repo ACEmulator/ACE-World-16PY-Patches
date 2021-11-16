@@ -10,7 +10,6 @@ VALUES (70324,   1,        128) /* ItemType - Misc */
      , (70324,   9,          0) /* ValidLocations - None */
      , (70324,  16,          1) /* ItemUseable - No */
      , (70324,  19,          0) /* Value */
-     , (70324,  53,        101) /* PlacementPosition - Resting */
      , (70324,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70324, 150,        103) /* HookPlacement - Hook */
      , (70324, 151,          9) /* HookType - Floor, Yard */;

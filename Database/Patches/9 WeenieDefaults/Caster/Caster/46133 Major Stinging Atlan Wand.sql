@@ -14,8 +14,6 @@ VALUES (46133,   1,      32768) /* ItemType - Caster */
      , (46133,  33,          1) /* Bonded - Bonded */
      , (46133,  45,         32) /* DamageType - Acid */
      , (46133,  46,        512) /* DefaultCombatStyle - Magic */
-     , (46133,  52,          1) /* ParentLocation - RightHand */
-     , (46133,  53,          1) /* PlacementPosition - RightHandCombat */
      , (46133,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46133,  94,         16) /* TargetType - Creature */
      , (46133, 106,        300) /* ItemSpellcraft */

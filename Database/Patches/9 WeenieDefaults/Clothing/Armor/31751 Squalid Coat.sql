@@ -14,7 +14,6 @@ VALUES (31751,   1,          2) /* ItemType - Armor */
      , (31751,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (31751,  28,        280) /* ArmorLevel */
      , (31751,  33,          0) /* Bonded - Normal */
-     , (31751,  53,        101) /* PlacementPosition - Resting */
      , (31751,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31751, 106,        300) /* ItemSpellcraft */
      , (31751, 107,       2204) /* ItemCurMana */

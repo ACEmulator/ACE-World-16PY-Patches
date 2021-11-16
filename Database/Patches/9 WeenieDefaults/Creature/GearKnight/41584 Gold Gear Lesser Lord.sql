@@ -6,8 +6,8 @@ VALUES (41584, 'ace41584-goldgearlesserlord', 10, '2021-11-01 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41584,   1,         16) /* ItemType - Creature */
      , (41584,   2,         99) /* CreatureType - GearKnight */
-     , (41584,   6,        255) /* ItemsCapacity */
-     , (41584,   7,        255) /* ContainersCapacity */
+     , (41584,   6,         -1) /* ItemsCapacity */
+     , (41584,   7,         -1) /* ContainersCapacity */
      , (41584,  16,          1) /* ItemUseable - No */
      , (41584,  25,         80) /* Level */
      , (41584,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */

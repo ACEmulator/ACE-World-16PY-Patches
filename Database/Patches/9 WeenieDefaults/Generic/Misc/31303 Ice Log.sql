@@ -10,7 +10,6 @@ VALUES (31303,   1,        128) /* ItemType - Misc */
      , (31303,  19,          0) /* Value */
      , (31303,  22,       1000) /* AvailableCharacter */
      , (31303,  33,          1) /* Bonded - Bonded */
-     , (31303,  53,        101) /* PlacementPosition - Resting */
      , (31303,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31303,  94,        128) /* TargetType - Misc */
      , (31303, 114,          1) /* Attuned - Attuned */;

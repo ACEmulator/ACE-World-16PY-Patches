@@ -49,6 +49,3 @@ VALUES (30140,   1, 0x020009A7) /* Setup */
      , (30140,  28,       4466) /* Spell - Incantation of Cold Protection Self */
      , (30140,  50, 0x06005B3E) /* IconOverlay */
      , (30140,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30140,  4466,      2)  /* Incantation of Cold Protection Self */;

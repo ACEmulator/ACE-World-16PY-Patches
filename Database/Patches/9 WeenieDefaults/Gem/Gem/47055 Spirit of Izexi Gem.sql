@@ -11,7 +11,6 @@ VALUES (47055,   1,       2048) /* ItemType - Gem */
      , (47055,  16,          8) /* ItemUseable - Contained */
      , (47055,  18,          1) /* UiEffects - Magical */
      , (47055,  19,          3) /* Value */
-     , (47055,  53,        101) /* PlacementPosition - Resting */
      , (47055,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (47055,  94,      32768) /* TargetType - Caster */
      , (47055, 106,        210) /* ItemSpellcraft */

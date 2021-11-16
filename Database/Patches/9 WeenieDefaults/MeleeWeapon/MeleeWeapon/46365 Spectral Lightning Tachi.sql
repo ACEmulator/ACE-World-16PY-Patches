@@ -8,7 +8,6 @@ VALUES (46365,   1,          1) /* ItemType - MeleeWeapon */
      , (46365,   3,         39) /* PaletteTemplate - Black */
      , (46365,   5,        150) /* EncumbranceVal */
      , (46365,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (46365,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (46365,  16,          1) /* ItemUseable - No */
      , (46365,  18,         64) /* UiEffects - Lightning */
      , (46365,  19,        340) /* Value */

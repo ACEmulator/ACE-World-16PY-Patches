@@ -14,7 +14,6 @@ VALUES (6127,   1,        128) /* ItemType - Misc */
      , (6127,  15,       5000) /* StackUnitValue */
      , (6127,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6127,  19,       5000) /* Value */
-     , (6127,  53,        101) /* PlacementPosition - Resting */
      , (6127,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6127,  94,      33155) /* TargetType - Armor, Misc, WeaponOrCaster */;
 

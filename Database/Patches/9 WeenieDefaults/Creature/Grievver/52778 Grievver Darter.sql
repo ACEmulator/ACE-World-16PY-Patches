@@ -6,8 +6,8 @@ VALUES (52778, 'ace52778-grievverdarter', 10, '2021-11-01 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52778,   1,         16) /* ItemType - Creature */
      , (52778,   2,         44) /* CreatureType - Grievver */
-     , (52778,   6,        255) /* ItemsCapacity */
-     , (52778,   7,        255) /* ContainersCapacity */
+     , (52778,   6,         -1) /* ItemsCapacity */
+     , (52778,   7,         -1) /* ContainersCapacity */
      , (52778,  16,          1) /* ItemUseable - No */
      , (52778,  25,        265) /* Level */
      , (52778,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

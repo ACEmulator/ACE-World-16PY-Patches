@@ -8,7 +8,7 @@ VALUES (34727,   1,         16) /* ItemType - Creature */
      , (34727,   6,         -1) /* ItemsCapacity */
      , (34727,   7,         -1) /* ContainersCapacity */
      , (34727,  16,         32) /* ItemUseable - Remote */
-     , (34727,  93,    6360088) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, HasPhysicsBSP, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (34727,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34727,  95,          4) /* RadarBlipColor - Purple */
      , (34727, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

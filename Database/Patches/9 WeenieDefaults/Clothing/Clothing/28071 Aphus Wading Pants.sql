@@ -14,7 +14,6 @@ VALUES (28071,   1,          4) /* ItemType - Clothing */
      , (28071,  19,       6000) /* Value */
      , (28071,  27,          1) /* ArmorType - Cloth */
      , (28071,  28,          0) /* ArmorLevel */
-     , (28071,  53,        101) /* PlacementPosition - Resting */
      , (28071,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28071, 106,        350) /* ItemSpellcraft */
      , (28071, 107,       1000) /* ItemCurMana */

@@ -14,7 +14,6 @@ VALUES (30532,   1,          2) /* ItemType - Armor */
      , (30532,  19,      50000) /* Value */
      , (30532,  27,          4) /* ArmorType - StuddedLeather */
      , (30532,  28,        500) /* ArmorLevel */
-     , (30532,  53,        101) /* PlacementPosition - Resting */
      , (30532,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30532, 106,        350) /* ItemSpellcraft */
      , (30532, 107,       2000) /* ItemCurMana */

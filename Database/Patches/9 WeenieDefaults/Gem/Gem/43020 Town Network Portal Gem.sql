@@ -13,7 +13,6 @@ VALUES (43020,   1,       2048) /* ItemType - Gem */
      , (43020,  16,          8) /* ItemUseable - Contained */
      , (43020,  18,          1) /* UiEffects - Magical */
      , (43020,  19,        500) /* Value */
-     , (43020,  53,        101) /* PlacementPosition - Resting */
      , (43020,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (43020,  94,         16) /* TargetType - Creature */
      , (43020, 106,        210) /* ItemSpellcraft */

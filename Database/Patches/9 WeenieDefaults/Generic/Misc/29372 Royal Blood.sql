@@ -9,7 +9,6 @@ VALUES (29372,   1,        128) /* ItemType - Misc */
      , (29372,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29372,  19,          0) /* Value */
      , (29372,  33,          1) /* Bonded - Bonded */
-     , (29372,  53,        101) /* PlacementPosition - Resting */
      , (29372,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29372,  94,          2) /* TargetType - Armor */
      , (29372, 114,          1) /* Attuned - Attuned */;

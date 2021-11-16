@@ -9,7 +9,6 @@ VALUES (42104,   1,        128) /* ItemType - Misc */
      , (42104,  16,          1) /* ItemUseable - No */
      , (42104,  19,          0) /* Value */
      , (42104,  33,          1) /* Bonded - Bonded */
-     , (42104,  53,        101) /* PlacementPosition - Resting */
      , (42104,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42104, 114,          1) /* Attuned - Attuned */;
 

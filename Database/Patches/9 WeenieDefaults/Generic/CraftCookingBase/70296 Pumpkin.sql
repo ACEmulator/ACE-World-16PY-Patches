@@ -15,7 +15,6 @@ VALUES (70296,   1,    4194304) /* ItemType - CraftCookingBase */
      , (70296,  15,         10) /* StackUnitValue */
      , (70296,  16,          1) /* ItemUseable - No */
      , (70296,  19,         10) /* Value */
-     , (70296,  53,        101) /* PlacementPosition - Resting */
      , (70296,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70296, 150,        103) /* HookPlacement - Hook */
      , (70296, 151,         11) /* HookType - Floor, Wall, Yard */;

@@ -6,8 +6,8 @@ VALUES (42220, 'ace42220-masterenchanter', 12, '2021-11-01 00:00:00') /* Vendor 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42220,   1,         16) /* ItemType - Creature */
      , (42220,   2,         31) /* CreatureType - Human */
-     , (42220,   6,        255) /* ItemsCapacity */
-     , (42220,   7,        255) /* ContainersCapacity */
+     , (42220,   6,         -1) /* ItemsCapacity */
+     , (42220,   7,         -1) /* ContainersCapacity */
      , (42220,  16,         32) /* ItemUseable - Remote */
      , (42220,  25,        130) /* Level */
      , (42220,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */

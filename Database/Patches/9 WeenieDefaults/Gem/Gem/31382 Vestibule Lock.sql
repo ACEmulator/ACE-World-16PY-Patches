@@ -11,7 +11,6 @@ VALUES (31382,   1,       2048) /* ItemType - Gem */
      , (31382,  18,         32) /* UiEffects - Fire */
      , (31382,  19,          0) /* Value */
      , (31382,  33,          1) /* Bonded - Bonded */
-     , (31382,  53,        101) /* PlacementPosition - Resting */
      , (31382,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31382, 114,          1) /* Attuned - Attuned */;
 

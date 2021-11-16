@@ -6,7 +6,7 @@ VALUES (34535, 'ace34535-lockeddoor', 7, '2021-11-01 00:00:00') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34535,   1,      65536) /* ItemType - Portal */
      , (34535,  16,         32) /* ItemUseable - Remote */
-     , (34535,  93,      66576) /* PhysicsState - IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (34535,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (34535,  95,          8) /* RadarBlipColor - Yellow */
      , (34535, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (34535, 133,          4) /* ShowableOnRadar - ShowAlways */;

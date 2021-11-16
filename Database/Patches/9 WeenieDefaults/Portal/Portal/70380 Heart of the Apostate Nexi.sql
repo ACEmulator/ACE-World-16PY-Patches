@@ -18,8 +18,7 @@ VALUES (70380,   1, True ) /* Stuck */
      , (70380,  12, False) /* ReportCollisions */
      , (70380,  13, True ) /* Ethereal */
      , (70380,  14, False) /* GravityStatus */
-     , (70380,  15, True ) /* LightsStatus */
-     , (70380,  88, True ) /* PortalShowDestination */;
+     , (70380,  15, True ) /* LightsStatus */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (70380,  12,     0.5) /* Shade */

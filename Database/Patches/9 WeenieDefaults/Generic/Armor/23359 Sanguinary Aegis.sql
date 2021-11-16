@@ -16,7 +16,6 @@ VALUES (23359,   1,          2) /* ItemType - Armor */
      , (23359,  33,          1) /* Bonded - Bonded */
      , (23359,  36,       9999) /* ResistMagic */
      , (23359,  51,          4) /* CombatUse - Shield */
-     , (23359,  53,        101) /* PlacementPosition - Resting */
      , (23359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23359, 114,          0) /* Attuned - Normal */
      , (23359, 150,        103) /* HookPlacement - Hook */

@@ -13,7 +13,6 @@ VALUES (31992,   1,    4194304) /* ItemType - CraftCookingBase */
      , (31992,  15,      10000) /* StackUnitValue */
      , (31992,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31992,  19,      10000) /* Value */
-     , (31992,  53,        101) /* PlacementPosition - Resting */
      , (31992,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31992,  94,          2) /* TargetType - Armor */;
 

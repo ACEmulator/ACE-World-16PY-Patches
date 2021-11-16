@@ -8,7 +8,6 @@ VALUES (20506,   1,       8192) /* ItemType - Writable */
      , (20506,   5,         30) /* EncumbranceVal */
      , (20506,  16,          8) /* ItemUseable - Contained */
      , (20506,  19,       2000) /* Value */
-     , (20506,  53,        101) /* PlacementPosition - Resting */
      , (20506,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -32,6 +31,3 @@ VALUES (20506,   1, 0x0200018A) /* Setup */
      , (20506,   8, 0x06007119) /* Icon */
      , (20506,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20506,  28,       2203) /* Spell - Light Weapon Mastery Self VII */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20506,  2203,      2)  /* Light Weapon Mastery Self VII */;

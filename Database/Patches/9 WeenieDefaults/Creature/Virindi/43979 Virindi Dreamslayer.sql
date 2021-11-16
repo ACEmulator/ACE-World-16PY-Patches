@@ -6,8 +6,8 @@ VALUES (43979, 'ace43979-virindidreamslayer', 10, '2021-11-01 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43979,   1,         16) /* ItemType - Creature */
      , (43979,   2,         19) /* CreatureType - Virindi */
-     , (43979,   6,        255) /* ItemsCapacity */
-     , (43979,   7,        255) /* ContainersCapacity */
+     , (43979,   6,         -1) /* ItemsCapacity */
+     , (43979,   7,         -1) /* ContainersCapacity */
      , (43979,  16,          1) /* ItemUseable - No */
      , (43979,  25,        265) /* Level */
      , (43979,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

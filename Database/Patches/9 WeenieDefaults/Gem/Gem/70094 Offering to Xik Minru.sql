@@ -8,7 +8,6 @@ VALUES (70094,   1,       2048) /* ItemType - Gem */
      , (70094,   5,         50) /* EncumbranceVal */
      , (70094,   8,        100) /* Mass */
      , (70094,  19,          0) /* Value */
-     , (70094,  53,        101) /* PlacementPosition - Resting */
      , (70094,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -15,7 +15,6 @@ VALUES (48986,   1,          1) /* ItemType - MeleeWeapon */
      , (48986,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (48986,  47,          4) /* AttackType - Slash */
      , (48986,  51,          1) /* CombatUse - Melee */
-     , (48986,  52,          1) /* ParentLocation - RightHand */
      , (48986,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

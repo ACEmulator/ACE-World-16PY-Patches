@@ -6,8 +6,8 @@ VALUES (35811, 'ace35811-peviloibndjimin', 12, '2021-11-01 00:00:00') /* Vendor 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35811,   1,         16) /* ItemType - Creature */
      , (35811,   2,         31) /* CreatureType - Human */
-     , (35811,   6,        255) /* ItemsCapacity */
-     , (35811,   7,        255) /* ContainersCapacity */
+     , (35811,   6,         -1) /* ItemsCapacity */
+     , (35811,   7,         -1) /* ContainersCapacity */
      , (35811,  16,         32) /* ItemUseable - Remote */
      , (35811,  25,        216) /* Level */
      , (35811,  74,          0) /* MerchandiseItemTypes - None */

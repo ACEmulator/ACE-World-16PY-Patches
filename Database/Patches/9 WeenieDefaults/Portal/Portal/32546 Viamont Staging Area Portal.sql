@@ -18,8 +18,7 @@ VALUES (32546,   1, True ) /* Stuck */
      , (32546,  12, True ) /* ReportCollisions */
      , (32546,  13, True ) /* Ethereal */
      , (32546,  14, True ) /* GravityStatus */
-     , (32546,  15, True ) /* LightsStatus */
-     , (32546,  88, True ) /* PortalShowDestination */;
+     , (32546,  15, True ) /* LightsStatus */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32546,  41,      60) /* RegenerationInterval */

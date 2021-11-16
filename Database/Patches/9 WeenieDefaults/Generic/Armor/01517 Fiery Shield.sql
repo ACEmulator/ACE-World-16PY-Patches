@@ -14,7 +14,6 @@ VALUES (1517,   1,          2) /* ItemType - Armor */
      , (1517,  27,          2) /* ArmorType - Leather */
      , (1517,  28,        100) /* ArmorLevel */
      , (1517,  51,          4) /* CombatUse - Shield */
-     , (1517,  52,          3) /* ParentLocation - Shield */
      , (1517,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (1517, 106,        162) /* ItemSpellcraft */
      , (1517, 107,        248) /* ItemCurMana */

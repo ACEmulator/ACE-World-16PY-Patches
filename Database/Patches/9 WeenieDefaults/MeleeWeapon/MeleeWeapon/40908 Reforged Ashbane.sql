@@ -19,7 +19,6 @@ VALUES (40908,   1,          1) /* ItemType - MeleeWeapon */
      , (40908,  48,         45) /* WeaponSkill - LightWeapons */
      , (40908,  49,         20) /* WeaponTime */
      , (40908,  51,          1) /* CombatUse - Melee */
-     , (40908,  53,        101) /* PlacementPosition - Resting */
      , (40908,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40908, 114,          1) /* Attuned - Attuned */
      , (40908, 151,          2) /* HookType - Wall */

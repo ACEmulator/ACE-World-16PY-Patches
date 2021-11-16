@@ -15,7 +15,6 @@ VALUES (5913,   1,          4) /* ItemType - Clothing */
      , (5913,  19,       8000) /* Value */
      , (5913,  27,          1) /* ArmorType - Cloth */
      , (5913,  28,          0) /* ArmorLevel */
-     , (5913,  53,        101) /* PlacementPosition - Resting */
      , (5913,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5913, 106,        270) /* ItemSpellcraft */
      , (5913, 107,        216) /* ItemCurMana */

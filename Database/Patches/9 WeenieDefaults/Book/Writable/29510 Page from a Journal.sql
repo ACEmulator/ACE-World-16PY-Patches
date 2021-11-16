@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (29510, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29510, 0, 0xFFFFFFFF, 'Unknown', '', True, 'Never underestimate the importance of practice on live targets. After that hopped-up princeling let slip to me the peculiar relationship between Fiun glands and the attention of the Eaters, it seemed like a natural step to me to practice how quickly I could slice the gland out of a Fiun''s head. It turns out that I am pretty good at it. 
+VALUES (29510, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', True, 'Never underestimate the importance of practice on live targets. After that hopped-up princeling let slip to me the peculiar relationship between Fiun glands and the attention of the Eaters, it seemed like a natural step to me to practice how quickly I could slice the gland out of a Fiun''s head. It turns out that I am pretty good at it. 
 
 I know overconfidence is a fatal flaw to someone in my line of work, but sometimes, I just have to marvel at what a rare and beautiful gift I have...
 

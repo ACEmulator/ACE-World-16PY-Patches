@@ -7,8 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33746,   1,         16) /* ItemType - Creature */
      , (33746,   2,         22) /* CreatureType - Shadow */
      , (33746,   3,         39) /* PaletteTemplate - Black */
-     , (33746,   6,        255) /* ItemsCapacity */
-     , (33746,   7,        255) /* ContainersCapacity */
+     , (33746,   6,         -1) /* ItemsCapacity */
+     , (33746,   7,         -1) /* ContainersCapacity */
      , (33746,  16,         32) /* ItemUseable - Remote */
      , (33746,  25,        200) /* Level */
      , (33746,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -19,6 +19,7 @@ VALUES (33746,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33746,   1, True ) /* Stuck */
+     , (33746,   8, True ) /* AllowGive */
      , (33746,  11, True ) /* IgnoreCollisions */
      , (33746,  12, True ) /* ReportCollisions */
      , (33746,  14, True ) /* GravityStatus */

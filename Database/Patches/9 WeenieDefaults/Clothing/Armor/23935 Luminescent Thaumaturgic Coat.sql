@@ -16,7 +16,6 @@ VALUES (23935,   1,          2) /* ItemType - Armor */
      , (23935,  27,         32) /* ArmorType - Metal */
      , (23935,  28,        200) /* ArmorLevel */
      , (23935,  36,       9999) /* ResistMagic */
-     , (23935,  53,        101) /* PlacementPosition - Resting */
      , (23935,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23935, 106,        300) /* ItemSpellcraft */
      , (23935, 107,       4000) /* ItemCurMana */

@@ -6,8 +6,8 @@ VALUES (31951, 'ace31951-arica', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31951,   1,         16) /* ItemType - Creature */
      , (31951,   2,         31) /* CreatureType - Human */
-     , (31951,   6,        255) /* ItemsCapacity */
-     , (31951,   7,        255) /* ContainersCapacity */
+     , (31951,   6,         -1) /* ItemsCapacity */
+     , (31951,   7,         -1) /* ContainersCapacity */
      , (31951,  16,         32) /* ItemUseable - Remote */
      , (31951,  25,         34) /* Level */
      , (31951,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -13,14 +13,14 @@ VALUES (36759,   1,         16) /* ItemType - Creature */
      , (36759,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (36759,  95,          4) /* RadarBlipColor - Purple */
      , (36759, 103,          3) /* GeneratorDestructionType - Kill */
-     , (36759, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (36759, 315,          0) /* CritResistRating */;
+     , (36759, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36759,   1, True ) /* Stuck */
      , (36759,  19, True ) /* Attackable */
      , (36759,  29, True ) /* NoCorpse */
      , (36759,  52, True ) /* AiImmobile */
+     , (36759,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (36759,  83, True ) /* NpcLooksLikeObject */
      , (36759, 103, True ) /* NonProjectileMagicImmune */
      , (36759, 118, True ) /* NeverAttack */;

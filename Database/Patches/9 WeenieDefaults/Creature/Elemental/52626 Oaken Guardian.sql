@@ -6,8 +6,8 @@ VALUES (52626, 'ace52626-oakenguardian', 10, '2021-11-01 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52626,   1,         16) /* ItemType - Creature */
      , (52626,   2,         62) /* CreatureType - Elemental */
-     , (52626,   6,        255) /* ItemsCapacity */
-     , (52626,   7,        255) /* ContainersCapacity */
+     , (52626,   6,         -1) /* ItemsCapacity */
+     , (52626,   7,         -1) /* ContainersCapacity */
      , (52626,  16,          1) /* ItemUseable - No */
      , (52626,  25,        320) /* Level */
      , (52626,  40,          2) /* CombatMode - Melee */

@@ -10,7 +10,6 @@ VALUES (30251,   1,        128) /* ItemType - Misc */
      , (30251,  16,    2228232) /* ItemUseable - SourceContainedTargetRemoteOrSelf */
      , (30251,  17,         72) /* RareId */
      , (30251,  19,          0) /* Value */
-     , (30251,  53,        101) /* PlacementPosition - Resting */
      , (30251,  89,          6) /* BoosterEnum - Mana */
      , (30251,  90,        500) /* BoostValue */
      , (30251,  91,         25) /* MaxStructure */

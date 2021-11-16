@@ -11,7 +11,6 @@ VALUES (32262,   1,      32768) /* ItemType - Caster */
      , (32262,  18,          1) /* UiEffects - Magical */
      , (32262,  19,       2500) /* Value */
      , (32262,  46,        512) /* DefaultCombatStyle - Magic */
-     , (32262,  53,        101) /* PlacementPosition - Resting */
      , (32262,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32262,  94,         16) /* TargetType - Creature */
      , (32262, 106,        250) /* ItemSpellcraft */

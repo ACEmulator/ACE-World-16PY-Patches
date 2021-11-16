@@ -10,7 +10,6 @@ VALUES (70006,   1,        128) /* ItemType - Misc */
      , (70006,  19,          0) /* Value */
      , (70006,  22,       1000) /* AvailableCharacter */
      , (70006,  33,          1) /* Bonded - Bonded */
-     , (70006,  53,        101) /* PlacementPosition - Resting */
      , (70006,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70006, 114,          1) /* Attuned - Attuned */;
 

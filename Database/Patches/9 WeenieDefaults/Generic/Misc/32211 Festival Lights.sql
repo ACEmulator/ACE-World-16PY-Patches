@@ -8,7 +8,6 @@ VALUES (32211,   1,        128) /* ItemType - Misc */
      , (32211,   5,         50) /* EncumbranceVal */
      , (32211,  16,          1) /* ItemUseable - No */
      , (32211,  19,       5000) /* Value */
-     , (32211,  53,        101) /* PlacementPosition - Resting */
      , (32211,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32211, 151,          6) /* HookType - Wall, Ceiling */;
 

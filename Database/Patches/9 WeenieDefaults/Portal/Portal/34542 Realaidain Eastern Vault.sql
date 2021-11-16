@@ -13,8 +13,7 @@ VALUES (34542,   1,      65536) /* ItemType - Portal */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34542,   1, True ) /* Stuck */
-     , (34542,  15, True ) /* LightsStatus */
-     , (34542,  88, True ) /* PortalShowDestination */;
+     , (34542,  15, True ) /* LightsStatus */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34542,  54,    -0.1) /* UseRadius */;

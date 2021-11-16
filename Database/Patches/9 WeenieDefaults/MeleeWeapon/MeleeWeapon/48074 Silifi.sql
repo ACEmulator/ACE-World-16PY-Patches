@@ -19,8 +19,6 @@ VALUES (48074,   1,          1) /* ItemType - MeleeWeapon */
      , (48074,  48,         45) /* WeaponSkill - LightWeapons */
      , (48074,  49,         25) /* WeaponTime */
      , (48074,  51,          1) /* CombatUse - Melee */
-     , (48074,  52,          1) /* ParentLocation - RightHand */
-     , (48074,  53,          1) /* PlacementPosition - RightHandCombat */
      , (48074,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48074, 151,          2) /* HookType - Wall */
      , (48074, 353,          3) /* WeaponType - Axe */;

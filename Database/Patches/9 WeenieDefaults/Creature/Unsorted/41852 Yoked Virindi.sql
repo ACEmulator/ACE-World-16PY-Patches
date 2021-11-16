@@ -5,8 +5,8 @@ VALUES (41852, 'ace41852-yokedvirindi', 10, '2021-11-01 00:00:00') /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41852,   1,         16) /* ItemType - Creature */
-     , (41852,   6,        255) /* ItemsCapacity */
-     , (41852,   7,        255) /* ContainersCapacity */
+     , (41852,   6,         -1) /* ItemsCapacity */
+     , (41852,   7,         -1) /* ContainersCapacity */
      , (41852,  16,         32) /* ItemUseable - Remote */
      , (41852,  67,         40) /* Tolerance - Provoke, Target */
      , (41852,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -15,6 +15,7 @@ VALUES (41852,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41852,   1, True ) /* Stuck */
+     , (41852,   8, True ) /* AllowGive */
      , (41852,  11, True ) /* IgnoreCollisions */
      , (41852,  12, True ) /* ReportCollisions */
      , (41852,  14, True ) /* GravityStatus */

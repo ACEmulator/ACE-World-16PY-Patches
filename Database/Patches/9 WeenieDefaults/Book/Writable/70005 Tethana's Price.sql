@@ -9,7 +9,6 @@ VALUES (70005,   1,       8192) /* ItemType - Writable */
      , (70005,  16,          8) /* ItemUseable - Contained */
      , (70005,  19,          0) /* Value */
      , (70005,  33,          1) /* Bonded - Bonded */
-     , (70005,  53,        101) /* PlacementPosition - Resting */
      , (70005,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70005, 114,          1) /* Attuned - Attuned */;
 
@@ -35,4 +34,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (70005, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (70005, 0, 0xFFFFFFFF, 'Lieutenant Commander Arwyth Margyle', '', False, 'Although I freely acknowledge that what the Viamontians did to Commander Kurth was abhorrent, you have little to be proud of yourself. Men under my command die daily in defense against an enemy that you seem to have forgotten in lieu of your war with the Viamontians. When Elysa remembers that there is a war being waged here and sends us reinforcements, we may remember our oath of fealty.');
+VALUES (70005, 0, 0xFFFFFFFF, 'Lieutenant Commander Arwyth Margyle', 'prewritten', False, 'Although I freely acknowledge that what the Viamontians did to Commander Kurth was abhorrent, you have little to be proud of yourself. Men under my command die daily in defense against an enemy that you seem to have forgotten in lieu of your war with the Viamontians. When Elysa remembers that there is a war being waged here and sends us reinforcements, we may remember our oath of fealty.');

@@ -13,7 +13,6 @@ VALUES (43022,   1,       2048) /* ItemType - Gem */
      , (43022,  19,         10) /* Value */
      , (43022,  28,          0) /* ArmorLevel */
      , (43022,  33,          1) /* Bonded - Bonded */
-     , (43022,  53,        101) /* PlacementPosition - Resting */
      , (43022,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43022,  94,          6) /* TargetType - Vestements */
      , (43022, 114,          0) /* Attuned - Normal */;

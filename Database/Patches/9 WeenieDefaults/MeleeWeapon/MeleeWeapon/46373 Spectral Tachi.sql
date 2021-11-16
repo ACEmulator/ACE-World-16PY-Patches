@@ -8,7 +8,6 @@ VALUES (46373,   1,          1) /* ItemType - MeleeWeapon */
      , (46373,   3,         39) /* PaletteTemplate - Black */
      , (46373,   5,        150) /* EncumbranceVal */
      , (46373,   9,    2097152) /* ValidLocations - Shield */
-     , (46373,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (46373,  16,          1) /* ItemUseable - No */
      , (46373,  19,        340) /* Value */
      , (46373,  33,         -2) /* Bonded - Destroy */

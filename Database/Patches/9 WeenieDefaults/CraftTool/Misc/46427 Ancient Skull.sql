@@ -17,7 +17,6 @@ VALUES (46427,   1,        128) /* ItemType - Misc */
      , (46427,  94,        128) /* TargetType - Misc */
      , (46427, 114,          1) /* Attuned - Attuned */
      , (46427, 267,       7200) /* Lifespan */
-     , (46427, 268,       7200) /* RemainingLifespan */
      , (46427, 279,          1) /* Unique */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

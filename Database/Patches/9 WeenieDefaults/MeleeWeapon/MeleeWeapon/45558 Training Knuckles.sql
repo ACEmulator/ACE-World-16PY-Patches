@@ -16,8 +16,6 @@ VALUES (45558,   1,          1) /* ItemType - MeleeWeapon */
      , (45558,  48,         45) /* WeaponSkill - LightWeapons */
      , (45558,  49,         25) /* WeaponTime */
      , (45558,  51,          1) /* CombatUse - Melee */
-     , (45558,  52,          1) /* ParentLocation - RightHand */
-     , (45558,  53,          1) /* PlacementPosition - RightHandCombat */
      , (45558,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45558, 151,          2) /* HookType - Wall */
      , (45558, 353,          1) /* WeaponType - Unarmed */;

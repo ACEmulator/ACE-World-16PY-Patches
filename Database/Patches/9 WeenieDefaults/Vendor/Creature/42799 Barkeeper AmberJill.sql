@@ -6,8 +6,8 @@ VALUES (42799, 'ace42799-barkeeperamberjill', 12, '2021-11-01 00:00:00') /* Vend
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42799,   1,         16) /* ItemType - Creature */
      , (42799,   2,         31) /* CreatureType - Human */
-     , (42799,   6,        255) /* ItemsCapacity */
-     , (42799,   7,        255) /* ContainersCapacity */
+     , (42799,   6,         -1) /* ItemsCapacity */
+     , (42799,   7,         -1) /* ContainersCapacity */
      , (42799,  16,         32) /* ItemUseable - Remote */
      , (42799,  25,          5) /* Level */
      , (42799,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */

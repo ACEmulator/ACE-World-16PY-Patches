@@ -11,8 +11,7 @@ VALUES (53245,   1,         16) /* ItemType - Creature */
      , (53245,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53245,  95,          4) /* RadarBlipColor - Purple */
      , (53245, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (53245, 267,         20) /* Lifespan */
-     , (53245, 268,         20) /* RemainingLifespan */;
+     , (53245, 267,         20) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53245,   1, True ) /* Stuck */

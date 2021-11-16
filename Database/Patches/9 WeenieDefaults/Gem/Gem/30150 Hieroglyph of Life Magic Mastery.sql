@@ -50,6 +50,3 @@ VALUES (30150,   1, 0x020009A7) /* Setup */
      , (30150,  28,       4582) /* Spell - Incantation of Life Magic Mastery Self */
      , (30150,  50, 0x06005B48) /* IconOverlay */
      , (30150,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30150,  4582,      2)  /* Incantation of Life Magic Mastery Self */;

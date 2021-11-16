@@ -11,7 +11,6 @@ VALUES (31976,   1,          8) /* ItemType - Jewelry */
      , (31976,  16,          1) /* ItemUseable - No */
      , (31976,  19,       1000) /* Value */
      , (31976,  33,          1) /* Bonded - Bonded */
-     , (31976,  53,        101) /* PlacementPosition - Resting */
      , (31976,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31976, 114,          1) /* Attuned - Attuned */;
 

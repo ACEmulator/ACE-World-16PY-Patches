@@ -49,6 +49,3 @@ VALUES (30135,   1, 0x020009A7) /* Setup */
      , (30135,  28,       4468) /* Spell - Incantation of Fire Protection Self */
      , (30135,  50, 0x06005B39) /* IconOverlay */
      , (30135,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30135,  4468,      2)  /* Incantation of Fire Protection Self */;

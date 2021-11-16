@@ -10,7 +10,6 @@ VALUES (32588,   1,        128) /* ItemType - Misc */
      , (32588,  16,         32) /* ItemUseable - Remote */
      , (32588,  19,      10000) /* Value */
      , (32588,  33,          0) /* Bonded - Normal */
-     , (32588,  53,        101) /* PlacementPosition - Resting */
      , (32588,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (32588, 114,          0) /* Attuned - Normal */
      , (32588, 150,        103) /* HookPlacement - Hook */

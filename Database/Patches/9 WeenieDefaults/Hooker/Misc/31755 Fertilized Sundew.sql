@@ -8,7 +8,6 @@ VALUES (31755,   1,        128) /* ItemType - Misc */
      , (31755,   5,        100) /* EncumbranceVal */
      , (31755,  16,         32) /* ItemUseable - Remote */
      , (31755,  19,        100) /* Value */
-     , (31755,  53,        101) /* PlacementPosition - Resting */
      , (31755,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31755, 150,        103) /* HookPlacement - Hook */
      , (31755, 151,          9) /* HookType - Floor, Yard */

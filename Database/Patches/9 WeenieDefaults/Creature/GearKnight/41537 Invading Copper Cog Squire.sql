@@ -6,8 +6,8 @@ VALUES (41537, 'ace41537-invadingcoppercogsquire', 10, '2021-11-01 00:00:00') /*
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41537,   1,         16) /* ItemType - Creature */
      , (41537,   2,         99) /* CreatureType - GearKnight */
-     , (41537,   6,        255) /* ItemsCapacity */
-     , (41537,   7,        255) /* ContainersCapacity */
+     , (41537,   6,         -1) /* ItemsCapacity */
+     , (41537,   7,         -1) /* ContainersCapacity */
      , (41537,  16,          1) /* ItemUseable - No */
      , (41537,  25,        160) /* Level */
      , (41537,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -50,6 +50,3 @@ VALUES (30162,   1, 0x020009A7) /* Setup */
      , (30162,  28,       4558) /* Spell - Incantation of Impregnability Self */
      , (30162,  50, 0x06005B54) /* IconOverlay */
      , (30162,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30162,  4558,      2)  /* Incantation of Impregnability Self */;

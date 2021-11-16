@@ -49,6 +49,3 @@ VALUES (30152,   1, 0x020009A7) /* Setup */
      , (30152,  28,       4409) /* Spell - Incantation of Lightning Bane */
      , (30152,  50, 0x06005B4A) /* IconOverlay */
      , (30152,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30152,  4409,      2)  /* Incantation of Lightning Bane */;

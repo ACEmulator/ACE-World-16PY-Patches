@@ -49,6 +49,3 @@ VALUES (30116,   1, 0x020009A7) /* Setup */
      , (30116,  28,       4291) /* Spell - Incantation of Armor Self */
      , (30116,  50, 0x06005B25) /* IconOverlay */
      , (30116,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30116,  4291,      2)  /* Incantation of Armor Self */;

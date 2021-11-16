@@ -19,7 +19,6 @@ VALUES (35096,   1,          1) /* ItemType - MeleeWeapon */
      , (35096,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (35096,  49,         15) /* WeaponTime */
      , (35096,  51,          1) /* CombatUse - Melee */
-     , (35096,  52,          1) /* ParentLocation - RightHand */
      , (35096,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35096, 114,          1) /* Attuned - Attuned */
      , (35096, 353,          2) /* WeaponType - Sword */;

@@ -6,8 +6,8 @@ VALUES (29320, 'academyguardtrainingmaster', 10, '2021-11-01 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29320,   1,         16) /* ItemType - Creature */
      , (29320,   2,         31) /* CreatureType - Human */
-     , (29320,   6,        255) /* ItemsCapacity */
-     , (29320,   7,        255) /* ContainersCapacity */
+     , (29320,   6,         -1) /* ItemsCapacity */
+     , (29320,   7,         -1) /* ContainersCapacity */
      , (29320,  16,         32) /* ItemUseable - Remote */
      , (29320,  25,         45) /* Level */
      , (29320,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

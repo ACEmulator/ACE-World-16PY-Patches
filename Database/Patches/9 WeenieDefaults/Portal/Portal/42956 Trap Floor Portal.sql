@@ -6,7 +6,7 @@ VALUES (42956, 'ace42956-trapfloorportal', 7, '2021-11-01 00:00:00') /* Portal *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42956,   1,      65536) /* ItemType - Portal */
      , (42956,  16,          1) /* ItemUseable - No */
-     , (42956,  93,      67596) /* PhysicsState - Ethereal, ReportCollisions, LightingOn, HasPhysicsBSP */
+     , (42956,  93,       2060) /* PhysicsState - Ethereal, ReportCollisions, LightingOn */
      , (42956, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -15,8 +15,7 @@ VALUES (42956,   1, True ) /* Stuck */
      , (42956,  13, True ) /* Ethereal */
      , (42956,  15, True ) /* LightsStatus */
      , (42956,  19, True ) /* Attackable */
-     , (42956,  24, True ) /* UiHidden */
-     , (42956,  88, True ) /* PortalShowDestination */;
+     , (42956,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42956,  39,       2) /* DefaultScale */;

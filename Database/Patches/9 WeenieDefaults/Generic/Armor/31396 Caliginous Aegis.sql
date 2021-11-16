@@ -12,7 +12,6 @@ VALUES (31396,   1,          2) /* ItemType - Armor */
      , (31396,  28,        440) /* ArmorLevel */
      , (31396,  36,       9999) /* ResistMagic */
      , (31396,  51,          4) /* CombatUse - Shield */
-     , (31396,  52,          3) /* ParentLocation - Shield */
      , (31396,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31396, 106,        350) /* ItemSpellcraft */
      , (31396, 107,       3000) /* ItemCurMana */

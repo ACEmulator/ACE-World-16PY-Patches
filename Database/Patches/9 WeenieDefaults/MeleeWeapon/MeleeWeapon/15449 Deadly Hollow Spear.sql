@@ -20,8 +20,6 @@ VALUES (15449,   1,          1) /* ItemType - MeleeWeapon */
      , (15449,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (15449,  49,         30) /* WeaponTime */
      , (15449,  51,          1) /* CombatUse - Melee */
-     , (15449,  52,          1) /* ParentLocation - RightHand */
-     , (15449,  53,          1) /* PlacementPosition - RightHandCombat */
      , (15449,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (15449, 114,          1) /* Attuned - Attuned */
      , (15449, 150,        103) /* HookPlacement - Hook */

@@ -8,7 +8,6 @@ VALUES (31372,   1,       8192) /* ItemType - Writable */
      , (31372,   5,          5) /* EncumbranceVal */
      , (31372,  16,          8) /* ItemUseable - Contained */
      , (31372,  19,         10) /* Value */
-     , (31372,  53,        101) /* PlacementPosition - Resting */
      , (31372,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,4 +33,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31372, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31372, 0, 0xFFFFFFFF, 'Farmer Kao', '', False, 'I am looking for adventurers to help me hunt down the creature that is terrorizing my farm. Visit my farm at 51.3N 7.5E, and I will give you further instructions. Please help!');
+VALUES (31372, 0, 0xFFFFFFFF, 'Farmer Kao', 'prewritten', False, 'I am looking for adventurers to help me hunt down the creature that is terrorizing my farm. Visit my farm at 51.3N 7.5E, and I will give you further instructions. Please help!');

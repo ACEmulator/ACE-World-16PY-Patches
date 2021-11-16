@@ -14,7 +14,6 @@ VALUES (46707,   1,          2) /* ItemType - Armor */
      , (46707,  33,         -2) /* Bonded - Destroy */
      , (46707,  37,       9999) /* ResistItemAppraisal */
      , (46707,  51,          4) /* CombatUse - Shield */
-     , (46707,  52,          3) /* ParentLocation - Shield */
      , (46707,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46707, 114,          1) /* Attuned - Attuned */;
 

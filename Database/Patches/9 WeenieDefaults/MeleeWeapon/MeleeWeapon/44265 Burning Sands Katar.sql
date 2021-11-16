@@ -20,7 +20,6 @@ VALUES (44265,   1,          1) /* ItemType - MeleeWeapon */
      , (44265,  48,         45) /* WeaponSkill - LightWeapons */
      , (44265,  49,         20) /* WeaponTime */
      , (44265,  51,          1) /* CombatUse - Melee */
-     , (44265,  52,          1) /* ParentLocation - RightHand */
      , (44265,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44265, 114,          1) /* Attuned - Attuned */
      , (44265, 353,          1) /* WeaponType - Unarmed */;

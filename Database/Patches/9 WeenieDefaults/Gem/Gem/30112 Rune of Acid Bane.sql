@@ -49,6 +49,3 @@ VALUES (30112,   1, 0x020009A7) /* Setup */
      , (30112,  28,       4391) /* Spell - Incantation of Acid Bane */
      , (30112,  50, 0x06005B1F) /* IconOverlay */
      , (30112,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30112,  4391,      2)  /* Incantation of Acid Bane */;

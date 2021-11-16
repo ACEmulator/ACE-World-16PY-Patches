@@ -29,6 +29,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (70971, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (70971, 0, 0xFFFFFFFF, 'The Black Knight', '', False, 'Hashina,
+VALUES (70971, 0, 0xFFFFFFFF, 'The Black Knight', 'prewritten', False, 'Hashina,
 
 The supplicant who brings you this note has been approved to enter the Whispering Blade as an Initiate. Please make the appropriate accomodations.');

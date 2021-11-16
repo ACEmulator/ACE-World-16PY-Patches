@@ -12,7 +12,6 @@ VALUES (28753,   1,       8192) /* ItemType - Writable */
      , (28753,  19,         10) /* Value */
      , (28753,  22,       1000) /* AvailableCharacter */
      , (28753,  33,          0) /* Bonded - Normal */
-     , (28753,  53,        101) /* PlacementPosition - Resting */
      , (28753,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28753, 114,          0) /* Attuned - Normal */;
 
@@ -39,18 +38,19 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28753, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28753, 0, 0xFFFFFFFF, 'Fiun Scorus', '', True, 'Beings who graced this land prior created a machine which may make our maddened kin maddened no more. Return this machine to me and you shall have Fiun gratitude never-ending.
+VALUES (28753, 0, 0xFFFFFFFF, 'Fiun Scorus', 'prewritten', False, 'Beings who graced this land prior created a machine which may make our maddened kin maddened no more. Return this machine to me and you shall have Fiun gratitude never-ending.
+
 ')
-     , (28753, 1, 0xFFFFFFFF, 'Fiun Scorus', '', True, 'Pieces of the machine may be found at these locations. dfsdg
-xz
-Small Empyrean Vault is located at 80.4N, 74.0W. dfg
-Remote Empyrean Vault is located at 81.7N, 71.2W. 
-Hidden City is located at 94.4N, 70.0W. 
-Frozen Library is located at 90.7N, 56.4W. 
-Ruschk Iceberg is located at 96.3N, 60.0W. 
-K''nath Lair is located at 49.7S, 56.3W. 
-Undead Temple is located at 90.9N 43.2W. 
+     , (28753, 1, 0xFFFFFFFF, 'Fiun Scorus', 'prewritten', False, 'Pieces of the machine may be found at these locations.
+
+Small Empyrean Vault is located at 80.4N, 74.0W.
+Remote Empyrean Vault is located at 81.7N, 71.2W.
+Hidden City is located at 94.4N, 70.0W.
+Frozen Library is located at 90.7N, 56.4W.
+Ruschk Iceberg is located at 96.3N, 60.0W.
+K''nath Lair is located at 49.7S, 56.3W.
+Undead Temple is located at 90.9N 43.2W.
 
 
-
-Should you happen across artifacts which puzzle your mind, bring them to me. You must help, friend. The Slayer has hurt us much.');
+Should you happen across artifacts which puzzle your mind, bring them to me. You must help, friend. The Slayer has hurt us much.
+');

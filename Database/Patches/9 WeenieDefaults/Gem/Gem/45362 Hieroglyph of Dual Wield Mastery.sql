@@ -49,6 +49,3 @@ VALUES (45362,   1, 0x020009A7) /* Setup */
      , (45362,  28,       5810) /* Spell - Incantation of Dual Wield Mastery Self */
      , (45362,  50, 0x06007115) /* IconOverlay */
      , (45362,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45362,  5810,      2)  /* Incantation of Dual Wield Mastery Self */;

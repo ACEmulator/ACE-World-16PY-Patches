@@ -10,7 +10,6 @@ VALUES (41979,   1,        128) /* ItemType - Misc */
      , (41979,  18,         64) /* UiEffects - Lightning */
      , (41979,  19,          0) /* Value */
      , (41979,  33,          1) /* Bonded - Bonded */
-     , (41979,  53,        101) /* PlacementPosition - Resting */
      , (41979,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41979, 114,          1) /* Attuned - Attuned */
      , (41979, 267,      86400) /* Lifespan */;

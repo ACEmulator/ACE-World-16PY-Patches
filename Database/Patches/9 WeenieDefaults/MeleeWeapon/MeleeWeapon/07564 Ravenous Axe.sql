@@ -21,7 +21,6 @@ VALUES (7564,   1,          1) /* ItemType - MeleeWeapon */
      , (7564,  48,         45) /* WeaponSkill - LightWeapons */
      , (7564,  49,         50) /* WeaponTime */
      , (7564,  51,          1) /* CombatUse - Melee */
-     , (7564,  53,        101) /* PlacementPosition - Resting */
      , (7564,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7564, 114,          1) /* Attuned - Attuned */
      , (7564, 158,          2) /* WieldRequirements - RawSkill */

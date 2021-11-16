@@ -6,8 +6,8 @@ VALUES (31950, 'ace31950-antonia', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31950,   1,         16) /* ItemType - Creature */
      , (31950,   2,         31) /* CreatureType - Human */
-     , (31950,   6,        255) /* ItemsCapacity */
-     , (31950,   7,        255) /* ContainersCapacity */
+     , (31950,   6,         -1) /* ItemsCapacity */
+     , (31950,   7,         -1) /* ContainersCapacity */
      , (31950,  16,         32) /* ItemUseable - Remote */
      , (31950,  25,         34) /* Level */
      , (31950,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

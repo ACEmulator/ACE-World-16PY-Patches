@@ -16,7 +16,6 @@ VALUES (30515,   1,          2) /* ItemType - Armor */
      , (30515,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30515,  27,          2) /* ArmorType - Leather */
      , (30515,  28,        525) /* ArmorLevel */
-     , (30515,  53,        101) /* PlacementPosition - Resting */
      , (30515,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30515, 106,        325) /* ItemSpellcraft */
      , (30515, 107,       6000) /* ItemCurMana */

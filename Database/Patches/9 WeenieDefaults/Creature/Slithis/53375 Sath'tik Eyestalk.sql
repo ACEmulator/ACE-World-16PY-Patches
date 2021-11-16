@@ -6,8 +6,8 @@ VALUES (53375, 'ace53375-sathtikeyestalk', 10, '2021-11-01 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53375,   1,         16) /* ItemType - Creature */
      , (53375,   2,         36) /* CreatureType - Slithis */
-     , (53375,   6,        255) /* ItemsCapacity */
-     , (53375,   7,        255) /* ContainersCapacity */
+     , (53375,   6,         -1) /* ItemsCapacity */
+     , (53375,   7,         -1) /* ContainersCapacity */
      , (53375,  16,          1) /* ItemUseable - No */
      , (53375,  25,        215) /* Level */
      , (53375,  27,          0) /* ArmorType - None */

@@ -53,6 +53,3 @@ VALUES (33026,   1, 0x020014F5) /* Setup */
      , (33026,   8, 0x060030BD) /* Icon */
      , (33026,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33026,  55,       3911) /* ProcSpell - Spiral of Souls */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33026,  3911,      0)  /* Spiral of Souls */;

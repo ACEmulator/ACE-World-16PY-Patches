@@ -9,7 +9,6 @@ VALUES (71300,   1,      16384) /* ItemType - Key */
      , (71300,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (71300,  19,          0) /* Value */
      , (71300,  33,          1) /* Bonded - Bonded */
-     , (71300,  53,        101) /* PlacementPosition - Resting */
      , (71300,  91,          1) /* MaxStructure */
      , (71300,  92,          1) /* Structure */
      , (71300,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

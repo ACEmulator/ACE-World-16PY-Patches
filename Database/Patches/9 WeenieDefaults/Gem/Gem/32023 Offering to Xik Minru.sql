@@ -9,7 +9,6 @@ VALUES (32023,   1,       2048) /* ItemType - Gem */
      , (32023,   8,        100) /* Mass */
      , (32023,  19,          0) /* Value */
      , (32023,  33,          1) /* Bonded - Bonded */
-     , (32023,  53,        101) /* PlacementPosition - Resting */
      , (32023,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32023, 114,          1) /* Attuned - Attuned */;
 

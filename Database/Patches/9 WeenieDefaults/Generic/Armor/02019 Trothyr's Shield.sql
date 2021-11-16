@@ -14,7 +14,6 @@ VALUES (2019,   1,          2) /* ItemType - Armor */
      , (2019,  27,          2) /* ArmorType - Leather */
      , (2019,  28,        135) /* ArmorLevel */
      , (2019,  51,          4) /* CombatUse - Shield */
-     , (2019,  53,        101) /* PlacementPosition - Resting */
      , (2019,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2019, 150,        103) /* HookPlacement - Hook */
      , (2019, 151,          2) /* HookType - Wall */;

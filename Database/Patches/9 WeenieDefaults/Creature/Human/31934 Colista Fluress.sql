@@ -6,8 +6,8 @@ VALUES (31934, 'ace31934-colistafluress', 10, '2021-11-01 00:00:00') /* Creature
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31934,   1,         16) /* ItemType - Creature */
      , (31934,   2,         31) /* CreatureType - Human */
-     , (31934,   6,        255) /* ItemsCapacity */
-     , (31934,   7,        255) /* ContainersCapacity */
+     , (31934,   6,         -1) /* ItemsCapacity */
+     , (31934,   7,         -1) /* ContainersCapacity */
      , (31934,  16,         32) /* ItemUseable - Remote */
      , (31934,  25,        140) /* Level */
      , (31934,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -14,7 +14,6 @@ VALUES (29058,   1,          2) /* ItemType - Armor */
      , (29058,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (29058,  27,         32) /* ArmorType - Metal */
      , (29058,  28,        350) /* ArmorLevel */
-     , (29058,  53,        101) /* PlacementPosition - Resting */
      , (29058,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29058, 106,        325) /* ItemSpellcraft */
      , (29058, 107,        850) /* ItemCurMana */

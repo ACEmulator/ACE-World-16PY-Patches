@@ -9,7 +9,6 @@ VALUES (45030,   1,          2) /* ItemType - Armor */
      , (45030,   4,       1024) /* ClothingPriority - OuterwearChest */
      , (45030,   5,        500) /* EncumbranceVal */
      , (45030,   9,        512) /* ValidLocations - ChestArmor */
-     , (45030,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (45030,  16,          1) /* ItemUseable - No */
      , (45030,  19,       6000) /* Value */
      , (45030,  28,        180) /* ArmorLevel */

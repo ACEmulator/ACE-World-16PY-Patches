@@ -16,7 +16,6 @@ VALUES (30074,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (30074,  17,        155) /* RareId */
      , (30074,  19,          0) /* Value */
      , (30074,  33,         -1) /* Bonded - Slippery */
-     , (30074,  53,        101) /* PlacementPosition - Resting */
      , (30074,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30074,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 

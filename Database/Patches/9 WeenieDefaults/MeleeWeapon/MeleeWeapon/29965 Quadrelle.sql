@@ -20,7 +20,6 @@ VALUES (29965,   1,          1) /* ItemType - MeleeWeapon */
      , (29965,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (29965,  49,          0) /* WeaponTime */
      , (29965,  51,          1) /* CombatUse - Melee */
-     , (29965,  52,          1) /* ParentLocation - RightHand */
      , (29965,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29965, 150,        103) /* HookPlacement - Hook */
      , (29965, 151,          2) /* HookType - Wall */

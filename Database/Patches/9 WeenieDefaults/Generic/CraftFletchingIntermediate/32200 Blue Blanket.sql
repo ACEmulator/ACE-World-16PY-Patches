@@ -10,7 +10,6 @@ VALUES (32200,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (32200,  12,          1) /* StackSize */
      , (32200,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (32200,  19,          0) /* Value */
-     , (32200,  53,        101) /* PlacementPosition - Resting */
      , (32200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32200,  94,       1024) /* TargetType - Useless */;
 
