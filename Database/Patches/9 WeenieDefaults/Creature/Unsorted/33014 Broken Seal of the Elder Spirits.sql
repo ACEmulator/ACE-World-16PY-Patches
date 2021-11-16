@@ -14,6 +14,7 @@ VALUES (33014,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33014,   1, True ) /* Stuck */
+     , (33014,   8, True ) /* AllowGive */
      , (33014,  19, False) /* Attackable */
      , (33014,  52, True ) /* AiImmobile */
      , (33014,  82, True ) /* DontTurnOrMoveWhenGiving */
