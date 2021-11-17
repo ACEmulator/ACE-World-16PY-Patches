@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33983;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33983, 'ace33983-superbbonehandle', 44, '2019-02-10 00:00:00') /* CraftTool */;
+VALUES (33983, 'ace33983-superbbonehandle', 44, '2021-11-17 05:44:31') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33983,   1,        128) /* ItemType - Misc */
@@ -18,7 +18,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33983,   1, 'Superb Bone Handle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33983,   1,   33556603) /* Setup */
-     , (33983,   3,  536870932) /* SoundTable */
-     , (33983,   8,  100689103) /* Icon */
-     , (33983,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33983,   1, 0x0200087B) /* Setup */
+     , (33983,   3, 0x20000014) /* SoundTable */
+     , (33983,   8, 0x060064CF) /* Icon */
+     , (33983,  22, 0x3400002B) /* PhysicsEffectTable */;

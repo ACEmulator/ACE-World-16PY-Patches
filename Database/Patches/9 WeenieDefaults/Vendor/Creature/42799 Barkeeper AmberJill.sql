@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42799;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42799, 'ace42799-barkeeperamberjill', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (42799, 'ace42799-barkeeperamberjill', 12, '2021-11-17 05:44:31') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42799,   1,         16) /* ItemType - Creature */
@@ -81,7 +81,7 @@ VALUES (42799, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (42799, 4, 44398, -1, 0, 0, False) /* Create  (44398) for Shop */
      , (42799, 4, 44400, -1, 0, 0, False) /* Create Contract for Empyrean Rescue (44400) for Shop */
      , (42799, 4, 44396, -1, 0, 0, False) /* Create Contract for Aug Gem: Luminance (44396) for Shop */
-     , (42799, 4, 44654, -1, 0, 0, False) /* Create  (44654) for Shop */
+     , (42799, 4, 44654, -1, 0, 0, False) /* Create Contract for Vision Quest (44654) for Shop */
      , (42799, 4, 44819, -1, 0, 0, False) /* Create Contract for Aerbax's Prodigal Monouga (44819) for Shop */
      , (42799, 4, 49570, -1, 0, 0, False) /* Create  (49570) for Shop */
      , (42799, 4, 51606, -1, 0, 0, False) /* Create Contract for Snow Tusker Leader Tusk (51606) for Shop */

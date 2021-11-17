@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87625;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87625, 'ace87625-whitetotem', 10, '2021-10-15 14:13:01') /* Creature */;
+VALUES (87625, 'ace87625-whitetotem', 10, '2021-11-17 05:44:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87625,   1,         16) /* ItemType - Creature */
@@ -65,12 +65,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87625,   1, 'White Totem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87625,   1,   33560093) /* Setup */
-     , (87625,   2,  150995373) /* MotionTable */
-     , (87625,   3,  536870933) /* SoundTable */
-     , (87625,   4,  805306372) /* CombatTable */
-     , (87625,   8,  100689080) /* Icon */
-     , (87625,  22,  872415328) /* PhysicsEffectTable */;
+VALUES (87625,   1, 0x0200161D) /* Setup */
+     , (87625,   2, 0x090001AD) /* MotionTable */
+     , (87625,   3, 0x20000015) /* SoundTable */
+     , (87625,   4, 0x30000004) /* CombatTable */
+     , (87625,   8, 0x060064B8) /* Icon */
+     , (87625,  22, 0x34000060) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (87625,   1,   1, 0, 0) /* Strength */

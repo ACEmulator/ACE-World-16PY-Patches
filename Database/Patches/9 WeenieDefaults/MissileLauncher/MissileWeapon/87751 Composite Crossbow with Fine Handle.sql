@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87751;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87751, 'ace87751-compositecrossbowwithfinehandle', 3, '2021-11-11 02:51:28') /* MissileLauncher */;
+VALUES (87751, 'ace87751-compositecrossbowwithfinehandle', 3, '2021-11-17 05:44:31') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87751,   1,        256) /* ItemType - MissileWeapon */
@@ -19,6 +19,8 @@ VALUES (87751,   1,        256) /* ItemType - MissileWeapon */
      , (87751,  49,         60) /* WeaponTime */
      , (87751,  50,          2) /* AmmoType - Bolt */
      , (87751,  51,          2) /* CombatUse - Missile */
+     , (87751,  52,          2) /* ParentLocation - LeftHand */
+     , (87751,  53,          3) /* PlacementPosition - LeftHand */
      , (87751,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87751, 106,        400) /* ItemSpellcraft */
      , (87751, 107,       1000) /* ItemCurMana */

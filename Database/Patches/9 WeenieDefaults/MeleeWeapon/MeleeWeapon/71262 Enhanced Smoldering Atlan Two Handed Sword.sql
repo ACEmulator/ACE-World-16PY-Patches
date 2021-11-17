@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71262;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71262, 'ace71262-enhancedsmolderingatlantwohandedsword', 6, '2021-08-03 00:51:21') /* MeleeWeapon */;
+VALUES (71262, 'ace71262-enhancedsmolderingatlantwohandedsword', 6, '2021-11-17 05:44:31') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71262,   1,          1) /* ItemType - MeleeWeapon */
@@ -52,12 +52,12 @@ VALUES (71262,   1, 'Enhanced Smoldering Atlan Two Handed Sword') /* Name */
      , (71262,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (71262,   1,   33556377) /* Setup */
-     , (71262,   3,  536870932) /* SoundTable */
-     , (71262,   6,   67111919) /* PaletteBase */
-     , (71262,   7,  268435956) /* ClothingBase */
-     , (71262,   8,  100692939) /* Icon */
-     , (71262,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (71262,   1, 0x02000799) /* Setup */
+     , (71262,   3, 0x20000014) /* SoundTable */
+     , (71262,   6, 0x04000BEF) /* PaletteBase */
+     , (71262,   7, 0x100001F4) /* ClothingBase */
+     , (71262,   8, 0x060073CB) /* Icon */
+     , (71262,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (71262,  2087,      2)  /* Might of the Lugians */

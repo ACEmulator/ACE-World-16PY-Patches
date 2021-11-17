@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33887;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33887, 'ace33887-helmofthewhitetotem', 2, '2021-10-15 13:26:53') /* Clothing */;
+VALUES (33887, 'ace33887-helmofthewhitetotem', 2, '2021-11-17 05:44:31') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33887,   1,          2) /* ItemType - Armor */
@@ -9,7 +9,6 @@ VALUES (33887,   1,          2) /* ItemType - Armor */
      , (33887,   4,      16384) /* ClothingPriority - Head */
      , (33887,   5,        400) /* EncumbranceVal */
      , (33887,   9,          1) /* ValidLocations - HeadWear */
-     , (33887,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (33887,  18,          1) /* UiEffects - Magical */
      , (33887,  19,       6000) /* Value */
      , (33887,  28,        350) /* ArmorLevel */
@@ -43,12 +42,12 @@ VALUES (33887,   1, 'Helm of the White Totem') /* Name */
      , (33887,  16, 'A helm of powerful enchantments, granted as a reward for the destruction of the White Totem of Grael.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33887,   1,   33556856) /* Setup */
-     , (33887,   3,  536870932) /* SoundTable */
-     , (33887,   6,   67108990) /* PaletteBase */
-     , (33887,   7,  268437060) /* ClothingBase */
-     , (33887,   8,  100688253) /* Icon */
-     , (33887,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33887,   1, 0x02000978) /* Setup */
+     , (33887,   3, 0x20000014) /* SoundTable */
+     , (33887,   6, 0x0400007E) /* PaletteBase */
+     , (33887,   7, 0x10000644) /* ClothingBase */
+     , (33887,   8, 0x0600617D) /* Icon */
+     , (33887,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33887,  2092,      2)  /* Olthoi's Bane */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87615;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87615, 'ace87615-hastarsessence', 1, '2021-10-14 13:55:44') /* Generic */;
+VALUES (87615, 'ace87615-hastarsessence', 1, '2021-11-17 05:44:31') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87615,   1,        128) /* ItemType - Misc */
@@ -22,5 +22,5 @@ VALUES (87615,   1, 'Hastar''s Essence') /* Name */
      , (87615,  37, 'SplitGraelMidStarted0806') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87615,   1,   33554817) /* Setup */
-     , (87615,   8,  100689077) /* Icon */;
+VALUES (87615,   1, 0x02000181) /* Setup */
+     , (87615,   8, 0x060064B5) /* Icon */;

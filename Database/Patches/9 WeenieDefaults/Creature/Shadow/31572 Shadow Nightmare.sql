@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31572;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31572, 'ace31572-shadownightmare', 10, '2020-07-23 03:33:26') /* Creature */;
+VALUES (31572, 'ace31572-shadownightmare', 10, '2021-11-17 05:44:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31572,   1,         16) /* ItemType - Creature */
@@ -41,7 +41,7 @@ VALUES (31572,   1,       5) /* HeartbeatInterval */
      , (31572,  12,       0) /* Shade */
      , (31572,  13,       1) /* ArmorModVsSlash */
      , (31572,  14,     0.8) /* ArmorModVsPierce */
-     , (31572,  15,     0.85) /* ArmorModVsBludgeon */
+     , (31572,  15,    0.85) /* ArmorModVsBludgeon */
      , (31572,  16,     0.6) /* ArmorModVsCold */
      , (31572,  17,     1.1) /* ArmorModVsFire */
      , (31572,  18,     0.7) /* ArmorModVsAcid */
@@ -74,14 +74,14 @@ VALUES (31572,   1, 'Shadow Nightmare') /* Name */
      , (31572,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31572,   1,   33556251) /* Setup */
-     , (31572,   2,  150995091) /* MotionTable */
-     , (31572,   3,  536870914) /* SoundTable */
-     , (31572,   4,  805306408) /* CombatTable */
-     , (31572,   6,   67108990) /* PaletteBase */
-     , (31572,   7,  268435871) /* ClothingBase */
-     , (31572,   8,  100670398) /* Icon */
-     , (31572,  22,  872415331) /* PhysicsEffectTable */
+VALUES (31572,   1, 0x0200071B) /* Setup */
+     , (31572,   2, 0x09000093) /* MotionTable */
+     , (31572,   3, 0x20000002) /* SoundTable */
+     , (31572,   4, 0x30000028) /* CombatTable */
+     , (31572,   6, 0x0400007E) /* PaletteBase */
+     , (31572,   7, 0x1000019F) /* ClothingBase */
+     , (31572,   8, 0x06001BBE) /* Icon */
+     , (31572,  22, 0x34000063) /* PhysicsEffectTable */
      , (31572,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -98,17 +98,17 @@ VALUES (31572,   1,   490, 0, 0, 580) /* MaxHealth */
      , (31572,   5,   500, 0, 0, 630) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (31572, 45, 0, 3, 0, 313, 0, 0) /* LightWeapons        Specialized */
-     , (31572, 46, 0, 3, 0, 303, 0, 0) /* FinesseWeapons      Specialized */
-     , (31572,  6, 0, 3, 0, 325, 0, 0) /* MeleeDefense        Specialized */
+VALUES (31572,  6, 0, 3, 0, 325, 0, 0) /* MeleeDefense        Specialized */
      , (31572,  7, 0, 3, 0, 425, 0, 0) /* MissileDefense      Specialized */
-     , (31572, 44, 0, 3, 0, 313, 0, 0) /* HeavyWeapons        Specialized */
      , (31572, 14, 0, 3, 0, 320, 0, 0) /* ArcaneLore          Specialized */
      , (31572, 15, 0, 3, 0, 253, 0, 0) /* MagicDefense        Specialized */
      , (31572, 20, 0, 3, 0, 150, 0, 0) /* Deception           Specialized */
      , (31572, 31, 0, 3, 0, 225, 0, 0) /* CreatureEnchantment Specialized */
      , (31572, 33, 0, 3, 0, 225, 0, 0) /* LifeMagic           Specialized */
-     , (31572, 34, 0, 3, 0, 225, 0, 0) /* WarMagic            Specialized */;
+     , (31572, 34, 0, 3, 0, 225, 0, 0) /* WarMagic            Specialized */
+     , (31572, 44, 0, 3, 0, 313, 0, 0) /* HeavyWeapons        Specialized */
+     , (31572, 45, 0, 3, 0, 313, 0, 0) /* LightWeapons        Specialized */
+     , (31572, 46, 0, 3, 0, 303, 0, 0) /* FinesseWeapons      Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (31572,  0,  4,  0,    0,  480,  480,  384,  408,  288,  528,  336,  360,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

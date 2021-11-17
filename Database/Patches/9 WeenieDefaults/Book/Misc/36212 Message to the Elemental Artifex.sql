@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36212;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36212, 'ace36212-messagetotheelementalartifex', 8, '2019-02-10 00:00:00') /* Book */;
+VALUES (36212, 'ace36212-messagetotheelementalartifex', 8, '2021-11-17 05:44:31') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36212,   1,        128) /* ItemType - Misc */
@@ -21,13 +21,13 @@ VALUES (36212,   1, 'Message to the Elemental Artifex') /* Name */
      , (36212,  15, 'This Virindi message shard was taken from the Artifex of the Elements.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36212,   1,   33555391) /* Setup */
-     , (36212,   3,  536870932) /* SoundTable */
-     , (36212,   8,  100671183) /* Icon */
-     , (36212,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36212,   1, 0x020003BF) /* Setup */
+     , (36212,   3, 0x20000014) /* SoundTable */
+     , (36212,   8, 0x06001ECF) /* Icon */
+     , (36212,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (36212, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (36212, 0, 4294967295, '', 'prewritten', False, '[You cannot understand the writing on this.]');
+VALUES (36212, 0, 0xFFFFFFFF, '', 'prewritten', False, '[You cannot understand the writing on this.]');

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36036;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36036, 'ace36036-aerbax', 10, '2021-06-18 05:09:27') /* Creature */;
+VALUES (36036, 'ace36036-aerbax', 10, '2021-11-17 05:44:31') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36036,   1,         16) /* ItemType - Creature */
@@ -68,16 +68,32 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36036,   1, 'Aerbax') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36036,   1,   33560393) /* Setup */
-     , (36036,   2,  150995409) /* MotionTable */
-     , (36036,   3,  536870930) /* SoundTable */
-     , (36036,   4,  805306381) /* CombatTable */
-     , (36036,   8,  100667943) /* Icon */
-     , (36036,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (36036,   1, 0x02001749) /* Setup */
+     , (36036,   2, 0x090001D1) /* MotionTable */
+     , (36036,   3, 0x20000012) /* SoundTable */
+     , (36036,   4, 0x3000000D) /* CombatTable */
+     , (36036,   8, 0x06001227) /* Icon */
+     , (36036,  22, 0x34000029) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36036,8040, 10682857, 348.7802, -139.8865, -12, 1, 0, 0, 0) /* PCAPRecordedLocation */
-/* @teleloc 0xA301E9 [348.780212 -139.886505 -12.000000] 1.000000 0.000000 0.000000 0.000000 */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (36036,   1, 500, 0, 0) /* Strength */
+     , (36036,   2, 500, 0, 0) /* Endurance */
+     , (36036,   3, 500, 0, 0) /* Quickness */
+     , (36036,   4, 500, 0, 0) /* Coordination */
+     , (36036,   5, 500, 0, 0) /* Focus */
+     , (36036,   6, 500, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (36036,   1, 99950, 0, 0, 100200) /* MaxHealth */
+     , (36036,   3,  5000, 0, 0, 5500) /* MaxStamina */
+     , (36036,   5, 10000, 0, 0, 10500) /* MaxMana */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (36036,  6, 0, 2, 0, 600, 0, 0) /* MeleeDefense        Trained */
+     , (36036,  7, 0, 2, 0, 600, 0, 0) /* MissileDefense      Trained */
+     , (36036, 15, 0, 2, 0, 600, 0, 0) /* MagicDefense        Trained */
+     , (36036, 20, 0, 2, 0, 999, 0, 0) /* Deception           Trained */
+     , (36036, 45, 0, 2, 0, 400, 0, 0) /* LightWeapons        Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (36036,  0, 64,  0,    0, 1000,  500,  500,  500,  500,  500,  500,  500,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -89,23 +105,3 @@ VALUES (36036,  0, 64,  0,    0, 1000,  500,  500,  500,  500,  500,  500,  500,
      , (36036,  6, 64,  0,    0, 1000,  500,  500,  500,  500,  500,  500,  500,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (36036,  7, 64,  0,    0, 1000,  500,  500,  500,  500,  500,  500,  500,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (36036,  8, 64, 50,  0.5, 1000,  500,  500,  500,  500,  500,  500,  500,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (36036,   1, 500, 0, 0) /* Strength */
-     , (36036,   2, 500, 0, 0) /* Endurance */
-     , (36036,   3, 500, 0, 0) /* Quickness */
-     , (36036,   4, 500, 0, 0) /* Coordination */
-     , (36036,   5, 500, 0, 0) /* Focus */
-     , (36036,   6, 500, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36036,   1, 99950, 0, 0,100200) /* MaxHealth */
-     , (36036,   3,  5000, 0, 0, 5500) /* MaxStamina */
-     , (36036,   5, 10000, 0, 0,10500) /* MaxMana */;
-
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (36036, 45, 0, 2, 0, 400, 0, 0) /* LightWeapons */
-     , (36036, 15, 0, 2, 0, 600, 0, 0) /* MagicDefense */
-     , (36036,  6, 0, 2, 0, 600, 0, 0) /* MeleeDefense */
-     , (36036,  7, 0, 2, 0, 600, 0, 0) /* MissileDefense */
-     , (36036, 20, 0, 2, 0, 999, 0, 0) /* Deception    */;
