@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71219;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71219, 'ace71219-enhancedshimmeringispariandagger', 6, '2021-11-17 05:44:31') /* MeleeWeapon */;
+VALUES (71219, 'ace71219-enhancedshimmeringispariandagger', 6, '2021-08-03 00:51:21') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71219,   1,          1) /* ItemType - MeleeWeapon */
@@ -53,11 +53,11 @@ VALUES (71219,   1, 'Enhanced Shimmering Isparian Dagger') /* Name */
      , (71219,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (71219,   1, 0x02000CF2) /* Setup */
-     , (71219,   3, 0x20000014) /* SoundTable */
-     , (71219,   7, 0x100003C5) /* ClothingBase */
-     , (71219,   8, 0x060026B6) /* Icon */
-     , (71219,  22, 0x3400002B) /* PhysicsEffectTable */;
+VALUES (71219,   1,   33557746) /* Setup */
+     , (71219,   3,  536870932) /* SoundTable */
+     , (71219,   7,  268436421) /* ClothingBase */
+     , (71219,   8,  100673206) /* Icon */
+     , (71219,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (71219,  2096,      2)  /* Aura of Infected Caress */

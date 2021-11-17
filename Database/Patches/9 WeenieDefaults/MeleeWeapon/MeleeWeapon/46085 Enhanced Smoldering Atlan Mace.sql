@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46085;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46085, 'ace46085-enhancedsmolderingatlanmace', 6, '2021-11-17 05:44:31') /* MeleeWeapon */;
+VALUES (46085, 'ace46085-enhancedsmolderingatlanmace', 6, '2021-08-03 00:51:21') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46085,   1,          1) /* ItemType - MeleeWeapon */
@@ -49,12 +49,12 @@ VALUES (46085,   1, 'Enhanced Smoldering Atlan Mace') /* Name */
      , (46085,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46085,   1, 0x0200078D) /* Setup */
-     , (46085,   3, 0x20000014) /* SoundTable */
-     , (46085,   6, 0x04000BEF) /* PaletteBase */
-     , (46085,   7, 0x100001E8) /* ClothingBase */
-     , (46085,   8, 0x06001C51) /* Icon */
-     , (46085,  22, 0x3400002B) /* PhysicsEffectTable */;
+VALUES (46085,   1,   33556365) /* Setup */
+     , (46085,   3,  536870932) /* SoundTable */
+     , (46085,   6,   67111919) /* PaletteBase */
+     , (46085,   7,  268435944) /* ClothingBase */
+     , (46085,   8,  100670545) /* Icon */
+     , (46085,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46085,  2087,      2)  /* Might of the Lugians */

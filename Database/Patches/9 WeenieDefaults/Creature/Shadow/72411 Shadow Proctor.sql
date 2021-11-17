@@ -1,28 +1,28 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72411;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72411, 'ace72411-shadowproctor', 10, '2021-11-17 05:44:31') /* Creature */;
+VALUES (72411, 'ace72411-shadowproctor', 10, '2021-06-16 08:21:13') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (72411,   1,         16) /* ItemType - Creature */
-     , (72411,   2,         22) /* CreatureType - Shadow */
-     , (72411,   3,         39) /* PaletteTemplate - Black */
-     , (72411,   6,         -1) /* ItemsCapacity */
-     , (72411,   7,         -1) /* ContainersCapacity */
-     , (72411,   8,         90) /* Mass */
-     , (72411,  16,          1) /* ItemUseable - No */
-     , (72411,  25,        160) /* Level */
-     , (72411,  27,          0) /* ArmorType - None */
-     , (72411,  68,          3) /* TargetingTactic - Random, Focused */
-     , (72411,  81,          5) /* MaxGeneratedObjects */
-     , (72411,  82,          5) /* InitGeneratedObjects */
-     , (72411,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (72411, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
-     , (72411, 113,          2) /* Gender - Female */
-     , (72411, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (72411, 140,          1) /* AiOptions - CanOpenDoors */
-     , (72411, 146,     500000) /* XpOverride */
-     , (72411, 188,          1) /* HeritageGroup - Aluvian */;
+VALUES (72411,   1,      16) /* ItemType - Creature */
+     , (72411,   2,      22) /* CreatureType - Shadow */
+     , (72411,   3,      39) /* PaletteTemplate - Black */
+     , (72411,   6,      -1) /* ItemsCapacity */
+     , (72411,   7,      -1) /* ContainersCapacity */
+     , (72411,   8,      90) /* Mass */
+     , (72411,  16,       1) /* ItemUseable - No */
+     , (72411,  25,     160) /* Level */
+     , (72411,  27,       0) /* ArmorType - None */
+     , (72411,  68,       3) /* TargetingTactic - Random, Focused */
+     , (72411,  81,       5) /* MaxGeneratedObjects */
+     , (72411,  82,       5) /* InitGeneratedObjects */
+     , (72411,  93, 4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (72411, 101,     183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
+     , (72411, 113,       2) /* Gender - Female */
+     , (72411, 133,       2) /* ShowableOnRadar - ShowMovement */
+     , (72411, 140,       1) /* AiOptions - CanOpenDoors */
+     , (72411, 146,  500000) /* XpOverride */
+     , (72411, 188,       1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72411,   1, True ) /* Stuck */
@@ -79,40 +79,15 @@ VALUES (72411,   1, 'Shadow Proctor') /* Name */
      , (72411,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72411,   1, 0x0200071B) /* Setup */
-     , (72411,   2, 0x09000093) /* MotionTable */
-     , (72411,   3, 0x20000002) /* SoundTable */
-     , (72411,   4, 0x30000028) /* CombatTable */
-     , (72411,   6, 0x0400007E) /* PaletteBase */
-     , (72411,   7, 0x1000019F) /* ClothingBase */
-     , (72411,   8, 0x06001BBE) /* Icon */
-     , (72411,  22, 0x34000063) /* PhysicsEffectTable */
+VALUES (72411,   1,   33556251) /* Setup */
+     , (72411,   2,  150995091) /* MotionTable */
+     , (72411,   3,  536870914) /* SoundTable */
+     , (72411,   4,  805306408) /* CombatTable */
+     , (72411,   6,   67108990) /* PaletteBase */
+     , (72411,   7,  268435871) /* ClothingBase */
+     , (72411,   8,  100670398) /* Icon */
+     , (72411,  22,  872415331) /* PhysicsEffectTable */
      , (72411,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (72411,   1, 160, 0, 0) /* Strength */
-     , (72411,   2, 260, 0, 0) /* Endurance */
-     , (72411,   3, 260, 0, 0) /* Quickness */
-     , (72411,   4, 250, 0, 0) /* Coordination */
-     , (72411,   5, 370, 0, 0) /* Focus */
-     , (72411,   6, 370, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (72411,   1,  1670, 0, 0, 1800) /* MaxHealth */
-     , (72411,   3,  5260, 0, 0, 5000) /* MaxStamina */
-     , (72411,   5,  5000, 0, 0, 5370) /* MaxMana */;
-
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (72411,  6, 0, 2, 0, 450, 0, 0) /* MeleeDefense        Trained */
-     , (72411,  7, 0, 2, 0, 480, 0, 0) /* MissileDefense      Trained */
-     , (72411, 15, 0, 2, 0, 300, 0, 0) /* MagicDefense        Trained */
-     , (72411, 16, 0, 2, 0, 300, 0, 0) /* ManaConversion      Trained */
-     , (72411, 31, 0, 2, 0, 300, 0, 0) /* CreatureEnchantment Trained */
-     , (72411, 33, 0, 2, 0, 300, 0, 0) /* LifeMagic           Trained */
-     , (72411, 34, 0, 2, 0, 300, 0, 0) /* WarMagic            Trained */
-     , (72411, 44, 0, 2, 0, 450, 0, 0) /* HeavyWeapons        Trained */
-     , (72411, 45, 0, 2, 0, 450, 0, 0) /* LightWeapons        Trained */
-     , (72411, 46, 0, 2, 0, 450, 0, 0) /* FinesseWeapons      Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (72411,  0,  4,  0,    0,  230,  115,  115,  115,  115,  115,  115,  115,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -125,17 +100,42 @@ VALUES (72411,  0,  4,  0,    0,  230,  115,  115,  115,  115,  115,  115,  115,
      , (72411,  7,  4,  0,    0,  230,  115,  115,  115,  115,  115,  115,  115,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (72411,  8,  4, 45, 0.75,  230,  115,  115,  115,  115,  115,  115,  115,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (72411, 1, 160, 0, 0) /* Strength */
+     , (72411, 2, 260, 0, 0) /* Endurance */
+     , (72411, 3, 260, 0, 0) /* Quickness */
+     , (72411, 4, 250, 0, 0) /* Coordination */
+     , (72411, 5, 370, 0, 0) /* Focus */
+     , (72411, 6, 370, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (72411, 1, 1670, 0, 0, 1800) /* MaxHealth */
+     , (72411, 3, 5260, 0, 0, 5000) /* MaxStamina */
+     , (72411, 5, 5000, 0, 0, 5370) /* MaxMana */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (72411, 31, 0, 2, 0, 300, 0, 0) /* CreatureMagic */
+     , (72411, 46, 0, 2, 0, 450, 0, 0) /* FinesseWeapons */
+     , (72411, 44, 0, 2, 0, 450, 0, 0) /* HeavyWeapons */
+     , (72411, 33, 0, 2, 0, 300, 0, 0) /* LifeMagic */
+     , (72411, 45, 0, 2, 0, 450, 0, 0) /* LightWeapons */
+     , (72411, 15, 0, 2, 0, 300, 0, 0) /* MagicDefense */
+     , (72411, 16, 0, 2, 0, 300, 0, 0) /* ManaConversion */
+     , (72411,  6, 0, 2, 0, 450, 0, 0) /* MeleeDefense */
+     , (72411,  7, 0, 2, 0, 480, 0, 0) /* MissileDefense */
+     , (72411, 34, 0, 2, 0, 300, 0, 0) /* WarMagic */;
+
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (72411,  2132,   2.05)  /* The Spike */
-     , (72411,  2136,   2.05)  /* Icy Torment */
-     , (72411,  2137,   2.05)  /* Sudden Frost */
-     , (72411,  2172,   2.05)  /* Astyrrian's Gift */
-     , (72411,  2174,   2.05)  /* Archer's Gift */
-     , (72411,  2282,   2.05)  /* Futility */
-     , (72411,  2318,   2.05)  /* Gravity Well */;
+VALUES (72411,  2132,   2.05) /* The Spike */
+     , (72411,  2136,   2.05) /* Icy Torment */
+     , (72411,  2137,   2.05) /* Sudden Frost */
+     , (72411,  2172,   2.05) /* Astyrrian's Gift */
+     , (72411,  2174,   2.05) /* Archer's Gift */
+     , (72411,  2282,   2.05) /* Futility */
+     , (72411,  2318,   2.05) /* Gravity Well */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (72411, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
-     , (72411, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
+VALUES (72411, 2, 33080,  1, 0,    0, False) /* Create Shadow Blade (33080) for Wield */
+     , (72411, 2, 33106,  1, 0,    0, False) /* Create Shield of Isin Dule (33106) for Wield */
      , (72411, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (72411, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72392;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72392, 'ace72392-witnessinghistorygen', 1, '2021-11-17 05:44:31') /* Generic */;
+VALUES (72392, 'ace72392-witnessinghistorygen', 1, '2019-06-23 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72392,  81,          3) /* MaxGeneratedObjects */
@@ -25,8 +25,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72392,   1, 'Claude Ambush Gen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72392,   1, 0x0200026B) /* Setup */
-     , (72392,   8, 0x06001066) /* Icon */;
+VALUES (72392,   1,   33555051) /* Setup */
+     , (72392,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (72392, 37 /* ReceiveLocalSignal */,      1, NULL, NULL, NULL, 'Ambush', NULL, NULL, NULL);

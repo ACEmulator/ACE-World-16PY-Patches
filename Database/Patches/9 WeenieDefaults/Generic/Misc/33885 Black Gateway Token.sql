@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33885;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33885, 'ace33885-blackgatewaytoken', 1, '2021-11-17 05:44:31') /* Generic */;
+VALUES (33885, 'ace33885-blackgatewaytoken', 1, '2021-10-14 18:08:32') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33885,   1,        128) /* ItemType - Misc */
@@ -20,5 +20,5 @@ VALUES (33885,   1, 'Black Gateway Token') /* Name */
      , (33885,  16, 'A token enchanted to gain you entrance to the Black Totem Temple.  Give it to the Black Totem Gateway to gain entrance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33885,   1, 0x020003E0) /* Setup */
-     , (33885,   8, 0x060064AC) /* Icon */;
+VALUES (33885,   1,   33555424) /* Setup */
+     , (33885,   8,  100689068) /* Icon */;

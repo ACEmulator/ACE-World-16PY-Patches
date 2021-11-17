@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35618;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35618, 'ace35618-pieceofpaper', 8, '2021-11-17 05:44:31') /* Book */;
+VALUES (35618, 'ace35618-pieceofpaper', 8, '2021-11-05 14:28:50') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35618,   1,       8192) /* ItemType - Writable */
@@ -29,4 +29,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (35618, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (35618, 0, 0xFFFFFFFF, 'Illegible', 'prewritten', False, '(This writing is neither Roulean nor Mosswart...it is incomprehensible to you.)');
+VALUES (35618, 0, 4294967295, 'Illegible', 'prewritten', False, '(This writing is neither Roulean nor Mosswart...it is incomprehensible to you.)');

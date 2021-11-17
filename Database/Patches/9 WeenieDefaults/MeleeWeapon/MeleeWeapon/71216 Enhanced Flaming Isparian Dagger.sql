@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71216;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71216, 'ace71216-enhancedflamingispariandagger', 6, '2021-11-17 05:44:31') /* MeleeWeapon */;
+VALUES (71216, 'ace71216-enhancedflamingispariandagger', 6, '2021-08-03 00:51:21') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71216,   1,          1) /* ItemType - MeleeWeapon */
@@ -52,12 +52,12 @@ VALUES (71216,   1, 'Enhanced Flaming Isparian Dagger') /* Name */
      , (71216,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (71216,   1, 0x02000CE8) /* Setup */
-     , (71216,   3, 0x20000014) /* SoundTable */
-     , (71216,   6, 0x04000BEF) /* PaletteBase */
-     , (71216,   7, 0x1000039A) /* ClothingBase */
-     , (71216,   8, 0x0600260C) /* Icon */
-     , (71216,  22, 0x3400002B) /* PhysicsEffectTable */;
+VALUES (71216,   1,   33557736) /* Setup */
+     , (71216,   3,  536870932) /* SoundTable */
+     , (71216,   6,   67111919) /* PaletteBase */
+     , (71216,   7,  268436378) /* ClothingBase */
+     , (71216,   8,  100673036) /* Icon */
+     , (71216,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (71216,  2087,      2)  /* Might of the Lugians */

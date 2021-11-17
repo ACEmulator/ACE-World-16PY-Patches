@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45848;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45848, 'ace45848-contractforsplittinggraellow', 38, '2021-11-17 05:44:31') /* Gem */;
+VALUES (45848, 'ace45848-contractforsplittinggraellow', 38, '2019-02-10 00:00:00') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45848,   1,       2048) /* ItemType - Gem */
@@ -31,7 +31,7 @@ VALUES (45848,   1, 'Contract for Splitting Grael (Low)') /* Name */
      , (45848,  16, 'Assist Lamorda in splitting Grael.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45848,   1, 0x02000C79) /* Setup */
-     , (45848,   3, 0x20000014) /* SoundTable */
-     , (45848,   8, 0x06006FD6) /* Icon */
-     , (45848,  22, 0x3400002B) /* PhysicsEffectTable */;
+VALUES (45848,   1,   33557625) /* Setup */
+     , (45848,   3,  536870932) /* SoundTable */
+     , (45848,   8,  100691926) /* Icon */
+     , (45848,  22,  872415275) /* PhysicsEffectTable */;

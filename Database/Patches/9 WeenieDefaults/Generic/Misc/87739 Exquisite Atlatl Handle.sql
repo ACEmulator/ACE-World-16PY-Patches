@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87739;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87739, 'ace87739-exquisiteatlatlhandle', 1, '2021-11-17 05:44:31') /* Generic */;
+VALUES (87739, 'ace87739-exquisiteatlatlhandle', 1, '2021-11-08 15:20:21') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87739,   1,        128) /* ItemType - Misc */
@@ -27,7 +27,7 @@ VALUES (87739,   1, 'Exquisite Atlatl Handle') /* Name */
      , (87739,  16, 'A beautifully crafted bone handle. It glows with an inner radiance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87739,   1, 0x0200087B) /* Setup */
-     , (87739,   3, 0x20000014) /* SoundTable */
-     , (87739,   8, 0x060066B1) /* Icon */
-     , (87739,  22, 0x3400002B) /* PhysicsEffectTable */;
+VALUES (87739,   1,   33556603) /* Setup */
+     , (87739,   3,  536870932) /* SoundTable */
+     , (87739,   8,  100689585) /* Icon */
+     , (87739,  22,  872415275) /* PhysicsEffectTable */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87740;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87740, 'ace87740-carvedgreatmattekarhorn', 44, '2021-11-17 05:44:31') /* CraftTool */;
+VALUES (87740, 'ace87740-carvedgreatmattekarhorn', 44, '2021-11-08 15:58:54') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87740,   1,        128) /* ItemType - Misc */
@@ -33,9 +33,9 @@ VALUES (87740,   1, 'Carved Great Mattekar Horn') /* Name */
      , (87740,  15, 'The horn of a departed Great Mattekar, carved into a useful shape by Havala bint Mylos.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87740,   1, 0x02000872) /* Setup */
-     , (87740,   3, 0x20000014) /* SoundTable */
-     , (87740,   6, 0x04000FA5) /* PaletteBase */
-     , (87740,   7, 0x1000021F) /* ClothingBase */
-     , (87740,   8, 0x060066B0) /* Icon */
-     , (87740,  22, 0x3400002B) /* PhysicsEffectTable */;
+VALUES (87740,   1,   33556594) /* Setup */
+     , (87740,   3,  536870932) /* SoundTable */
+     , (87740,   6,   67112869) /* PaletteBase */
+     , (87740,   7,  268435999) /* ClothingBase */
+     , (87740,   8,  100689584) /* Icon */
+     , (87740,  22,  872415275) /* PhysicsEffectTable */;

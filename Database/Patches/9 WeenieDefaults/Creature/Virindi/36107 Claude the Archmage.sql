@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36107;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36107, 'ace36107-claudethearchmage', 10, '2021-11-17 05:44:31') /* Creature */;
+VALUES (36107, 'ace36107-claudethearchmage', 10, '2021-06-18 01:46:32') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36107,   1,         16) /* ItemType - Creature */
@@ -29,15 +29,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36107,   1, 'Claude the Archmage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36107,   1, 0x02000041) /* Setup */
-     , (36107,   2, 0x09000028) /* MotionTable */
-     , (36107,   3, 0x20000012) /* SoundTable */
-     , (36107,   6, 0x040009B2) /* PaletteBase */
-     , (36107,   8, 0x06001227) /* Icon */;
+VALUES (36107,   1,   33554497) /* Setup */
+     , (36107,   2,  150994984) /* MotionTable */
+     , (36107,   3,  536870930) /* SoundTable */
+     , (36107,   6,   67111346) /* PaletteBase */
+     , (36107,   8,  100667943) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36107, 0, 0x00000000, 0, 0, 0, 0, 0, 0, 0) /* Undef */
-/* @teleloc 0x00000000 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
+VALUES (36107,  0, 0, 0, 0, 0, 0, 0, 0, 0) /**/
+/* @teleloc 0x0 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36107,   1, 140, 0, 0) /* Strength */
@@ -48,19 +48,19 @@ VALUES (36107,   1, 140, 0, 0) /* Strength */
      , (36107,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36107,   1,    40, 0, 0, 115) /* MaxHealth */
-     , (36107,   3,     0, 0, 0, 150) /* MaxStamina */
-     , (36107,   5,   250, 0, 0, 440) /* MaxMana */;
+VALUES (36107,   1,    40, 0, 0,  115) /* MaxHealth */
+     , (36107,   3,     0, 0, 0,  150) /* MaxStamina */
+     , (36107,   5,   250, 0, 0,  440) /* MaxMana */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (36107,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (36107, 7 /* Use */, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 1, NULL, 'Claude hovers limply before you. You hear the angry, yet triumphant, voice of Aerbax clearly through the silence.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  17 /* LocalBroadcast */, 2, 1, NULL, 'The voice says, "Arise...my child. Leave behind your foolish Quiddity and become one with me instead!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  2,  72 /* Generate */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id, 0, 17 /* LocalBroadcast */, 0, 1, NULL, 'Claude hovers limply before you. You hear the angry, yet triumphant, voice of Aerbax clearly through the silence.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 1, 17 /* LocalBroadcast */, 2, 1, NULL, 'The voice says, "Arise...my child. Leave behind your foolish Quiddity and become one with me instead!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 2, 72 /* Generate */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36107, -1, 36044, 1800, 1, 1, 1, 1, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Claude the Dark Archmage (36044) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: OnTop */;

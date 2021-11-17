@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36034;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36034, 'ace36034-nightmarishmarionette', 10, '2021-11-17 05:44:31') /* Creature */;
+VALUES (36034, 'ace36034-nightmarishmarionette', 10, '2020-07-23 03:33:34') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36034,   1,         16) /* ItemType - Creature */
@@ -28,7 +28,7 @@ VALUES (36034,   1, True ) /* Stuck */
      , (36034,  12, True ) /* ReportCollisions */
      , (36034,  13, False) /* Ethereal */
      , (36034,  50, True ) /* NeverFailCasting */;
-
+     
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36034,   1,       5) /* HeartbeatInterval */
      , (36034,   2,       0) /* HeartbeatTimestamp */
@@ -68,13 +68,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36034,   1, 'Nightmarish Marionette') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36034,   1, 0x0200100E) /* Setup */
-     , (36034,   2, 0x0900009B) /* MotionTable */
-     , (36034,   3, 0x20000070) /* SoundTable */
-     , (36034,   4, 0x3000002A) /* CombatTable */
-     , (36034,   7, 0x100004F6) /* ClothingBase */
-     , (36034,   8, 0x06001FBC) /* Icon */
-     , (36034,  22, 0x3400008C) /* PhysicsEffectTable */;
+VALUES (36034,  1,  33558542) /* Setup */
+     , (36034,  2, 150995099) /* MotionTable */
+     , (36034,  3, 536871024) /* SoundTable */
+     , (36034,  4, 805306410) /* CombatTable */
+     , (36034,  7, 268436726) /* ClothingBase */
+     , (36034,  8, 100671420) /* Icon */
+     , (36034, 22, 872415372) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36034,   1, 400, 0, 0) /* Strength */
@@ -89,24 +89,24 @@ VALUES (36034,   1,  7760, 0, 0, 8000) /* MaxHealth */
      , (36034,   3,  7520, 0, 0, 8000) /* MaxStamina */
      , (36034,   5,  7620, 0, 0, 8000) /* MaxMana */;
 
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (36034,  6, 0, 2, 0, 365, 0, 0) /* MeleeDefense        Trained */
-     , (36034,  7, 0, 2, 0, 470, 0, 0) /* MissileDefense      Trained */
-     , (36034, 15, 0, 2, 0, 285, 0, 0) /* MagicDefense        Trained */
-     , (36034, 16, 0, 2, 0, 205, 0, 0) /* ManaConversion      Trained */
-     , (36034, 31, 0, 2, 0, 205, 0, 0) /* CreatureEnchantment Trained */
-     , (36034, 33, 0, 2, 0, 205, 0, 0) /* LifeMagic           Trained */
-     , (36034, 34, 0, 2, 0, 205, 0, 0) /* WarMagic            Trained */
-     , (36034, 44, 0, 2, 0, 315, 0, 0) /* HeavyWeapons        Trained */
-     , (36034, 45, 0, 2, 0, 315, 0, 0) /* LightWeapons        Trained */
-     , (36034, 46, 0, 2, 0, 315, 0, 0) /* FinesseWeapons      Trained */;
-
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (36034,  0,  4, 160, 0.75,  700,  630,  560,  525,  525,  665,  665,  560,    0, 1, 0.44,  0.3,    0,  0.4,  0.1,    0, 0.44,  0.3,    0,  0.4,  0.1,    0) /* Head */
      , (36034, 16,  4, 160,    0,  700,  630,  560,  525,  525,  665,  665,  560,    0, 2,  0.5, 0.48,  0.1,  0.5,  0.6,  0.1,  0.5, 0.48,  0.1,  0.5,  0.6, 0.22) /* Torso */
      , (36034, 21,  4,  0,    0,  700,  630,  560,  525,  525,  665,  665,  560,    0, 2,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0, 0.28) /* Wings */
      , (36034, 24,  4, 160,    0,  700,  630,  560,  525,  525,  665,  665,  560,    0, 2, 0.06, 0.22,  0.3,  0.1,  0.2,  0.3, 0.06, 0.22,  0.3,  0.1,  0.2, 0.22) /* UpperTentacle */
      , (36034, 25,  4, 160, 0.75,  700,  630,  560,  525,  525,  665,  665,  560,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (36034,  31, 0, 2, 0, 205, 0, 0) /* CreatureMagic */
+     , (36034,  46, 0, 2, 0, 315, 0, 0) /* FinesseWeapons */
+     , (36034,  44, 0, 2, 0, 315, 0, 0) /* HeavyWeapons */
+     , (36034,  33, 0, 2, 0, 205, 0, 0) /* LifeMagic */
+     , (36034,  45, 0, 2, 0, 315, 0, 0) /* LightWeapons */
+     , (36034,  15, 0, 2, 0, 285, 0, 0) /* MagicDefense */
+     , (36034,  16, 0, 2, 0, 205, 0, 0) /* ManaConversion */
+     , (36034,   6, 0, 2, 0, 365, 0, 0) /* MeleeDefense */
+     , (36034,   7, 0, 2, 0, 470, 0, 0) /* MissileDefense */
+     , (36034,  34, 0, 2, 0, 205, 0, 0) /* WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36034,    69,   2.04)  /* Shock Wave VI */

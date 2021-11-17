@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46232;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46232, 'ace46232-enhanceddissolvingispariandagger', 6, '2021-11-17 05:44:31') /* MeleeWeapon */;
+VALUES (46232, 'ace46232-enhanceddissolvingispariandagger', 6, '2021-08-03 00:51:21') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46232,   1,          1) /* ItemType - MeleeWeapon */
@@ -53,12 +53,12 @@ VALUES (46232,   1, 'Enhanced Dissolving Isparian Dagger') /* Name */
      , (46232,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46232,   1, 0x02000CE5) /* Setup */
-     , (46232,   3, 0x20000014) /* SoundTable */
-     , (46232,   6, 0x04000BEF) /* PaletteBase */
-     , (46232,   7, 0x1000039A) /* ClothingBase */
-     , (46232,   8, 0x0600260B) /* Icon */
-     , (46232,  22, 0x3400002B) /* PhysicsEffectTable */;
+VALUES (46232,   1,   33557733) /* Setup */
+     , (46232,   3,  536870932) /* SoundTable */
+     , (46232,   6,   67111919) /* PaletteBase */
+     , (46232,   7,  268436378) /* ClothingBase */
+     , (46232,   8,  100673035) /* Icon */
+     , (46232,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46232,  2059,      2)  /* Honed Control */

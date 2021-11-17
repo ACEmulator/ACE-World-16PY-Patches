@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35615;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35615, 'ace35615-blessedspearofthemosswartgods', 6, '2021-11-17 05:44:31') /* MeleeWeapon */;
+VALUES (35615, 'ace35615-blessedspearofthemosswartgods', 6, '2021-11-05 21:00:46') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35615,   1,          1) /* ItemType - MeleeWeapon */
@@ -16,6 +16,7 @@ VALUES (35615,   1,          1) /* ItemType - MeleeWeapon */
      , (35615,  47,          2) /* AttackType - Thrust */
      , (35615,  49,         20) /* WeaponTime */
      , (35615,  51,          1) /* CombatUse - Melee */
+     , (35615,  53,        101) /* PlacementPosition - Resting */
      , (35615,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35615, 106,        400) /* ItemSpellcraft */
      , (35615, 107,        800) /* ItemCurMana */

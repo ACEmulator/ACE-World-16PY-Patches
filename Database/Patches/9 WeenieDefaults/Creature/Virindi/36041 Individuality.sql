@@ -1,20 +1,20 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36041;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36041, 'ace36041-individuality', 10, '2021-11-17 05:44:31') /* Creature */;
+VALUES (36041, 'ace36041-individuality', 10, '2020-07-23 03:33:34') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (36041,   1,         16) /* ItemType - Creature */
-     , (36041,   2,         19) /* CreatureType - Virindi */
-     , (36041,   3,         39) /* PaletteTemplate - Black */
-     , (36041,   6,         -1) /* ItemsCapacity */
-     , (36041,   7,         -1) /* ContainersCapacity */
-     , (36041,  16,          1) /* ItemUseable - No */
-     , (36041,  25,        185) /* Level */
-     , (36041,  68,          3) /* TargetingTactic - Random, Focused */
-     , (36041,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (36041, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36041, 146,          0) /* XpOverride */;
+VALUES (36041,   1,      16) /* ItemType - Creature */
+     , (36041,   2,      19) /* CreatureType - Virindi */
+     , (36041,   3,      39) /* PaletteTemplate */
+     , (36041,   6,      -1) /* ItemsCapacity */
+     , (36041,   7,      -1) /* ContainersCapacity */
+     , (36041,  16,       1) /* ItemUseable - No */
+     , (36041,  25,     185) /* Level */
+     , (36041,  68,       3) /* TargetingTactic - Random, Focused */
+     , (36041,  93,    1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (36041, 133,       2) /* ShowableOnRadar - ShowMovement */
+     , (36041, 146,       0) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36041,   1, True ) /* Stuck */
@@ -26,14 +26,14 @@ VALUES (36041,   1,       5) /* HeartbeatInterval */
      , (36041,   3,     0.6) /* HealthRate */
      , (36041,   4,     0.5) /* StaminaRate */
      , (36041,   5,       2) /* ManaRate */
-     , (36041,  12,   0.333) /* Shade */
+     , (36041,  12,  0.3333) /* Shade */
      , (36041,  13,    0.85) /* ArmorModVsSlash */
      , (36041,  14,     0.9) /* ArmorModVsPierce */
      , (36041,  15,    0.95) /* ArmorModVsBludgeon */
-     , (36041,  16,       1) /* ArmorModVsCold */
+     , (36041,  16,     1.0) /* ArmorModVsCold */
      , (36041,  17,    0.85) /* ArmorModVsFire */
      , (36041,  18,     0.9) /* ArmorModVsAcid */
-     , (36041,  19,       1) /* ArmorModVsElectric */
+     , (36041,  19,     1.0) /* ArmorModVsElectric */
      , (36041,  31,      18) /* VisualAwarenessRange */
      , (36041,  34,       1) /* PowerupTime */
      , (36041,  36,       1) /* ChargeSpeed */
@@ -54,39 +54,31 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36041,   1, 'Individuality') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36041,   1, 0x020009F6) /* Setup */
-     , (36041,   2, 0x09000028) /* MotionTable */
-     , (36041,   3, 0x20000012) /* SoundTable */
-     , (36041,   4, 0x3000000D) /* CombatTable */
-     , (36041,   6, 0x040009B2) /* PaletteBase */
-     , (36041,   7, 0x10000854) /* ClothingBase */
-     , (36041,   8, 0x06002B13) /* Icon */
-     , (36041,  22, 0x34000029) /* PhysicsEffectTable */;
+VALUES (36041,  1,  33556982) /* Setup */
+     , (36041,  2, 150994984) /* MotionTable */
+     , (36041,  3, 536870930) /* SoundTable */
+     , (36041,  4, 805306381) /* CombatTable */
+     , (36041,  6,  67111346) /* PaletteBase */
+     , (36041,  7, 268437588) /* ClothingBase */
+     , (36041,  8, 100674323) /* Icon */
+     , (36041, 22, 872415273) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (36041, 8040, 10682758, 66.80842, -177.506, -17.971, 1, 0, 0, 0) /* PCAPRecordedLocation */
+/* @teleloc 0x00A30186 [66.808420 -177.506000 -17.971000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (36041,   1, 320, 0, 0) /* Strength */
-     , (36041,   2, 270, 0, 0) /* Endurance */
-     , (36041,   3, 360, 0, 0) /* Quickness */
-     , (36041,   4, 370, 0, 0) /* Coordination */
-     , (36041,   5, 400, 0, 0) /* Focus */
-     , (36041,   6, 400, 0, 0) /* Self */;
+VALUES (36041, 1, 320, 0, 0) /* Strength */
+     , (36041, 2, 270, 0, 0) /* Endurance */
+     , (36041, 3, 360, 0, 0) /* Quickness */
+     , (36041, 4, 370, 0, 0) /* Coordination */
+     , (36041, 5, 400, 0, 0) /* Focus */
+     , (36041, 6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36041,   1,   365, 0, 0, 500) /* MaxHealth */
-     , (36041,   3,  1000, 0, 0, 730) /* MaxStamina */
-     , (36041,   5,  3600, 0, 0, 4000) /* MaxMana */;
-
-INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (36041,  6, 0, 2, 0, 450, 0, 0) /* MeleeDefense        Trained */
-     , (36041,  7, 0, 2, 0, 500, 0, 0) /* MissileDefense      Trained */
-     , (36041, 15, 0, 2, 0, 350, 0, 0) /* MagicDefense        Trained */
-     , (36041, 16, 0, 2, 0, 360, 0, 0) /* ManaConversion      Trained */
-     , (36041, 31, 0, 2, 0, 360, 0, 0) /* CreatureEnchantment Trained */
-     , (36041, 33, 0, 2, 0, 360, 0, 0) /* LifeMagic           Trained */
-     , (36041, 34, 0, 2, 0, 360, 0, 0) /* WarMagic            Trained */
-     , (36041, 44, 0, 2, 0, 450, 0, 0) /* HeavyWeapons        Trained */
-     , (36041, 45, 0, 2, 0, 450, 0, 0) /* LightWeapons        Trained */
-     , (36041, 46, 0, 2, 0, 450, 0, 0) /* FinesseWeapons      Trained */;
+VALUES (36041, 1,  365, 0, 0,  500) /* MaxHealth */
+     , (36041, 3, 1000, 0, 0,  730) /* MaxStamina */
+     , (36041, 5, 3600, 0, 0, 4000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (36041,  0,  1,  0,    0,  500,  500,  500,  500,  360,  500,  500,  360,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -99,11 +91,23 @@ VALUES (36041,  0,  1,  0,    0,  500,  500,  500,  500,  360,  500,  500,  360,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36041,  1784,   2.06)  /* Horizon's Blades */
-     , (36041,  1785,  2.064)  /* Cassius' Ring of Fire */
-     , (36041,  2074,  2.068)  /* Gossamer Flesh */
-     , (36041,  2129,  2.073)  /* Sizzling Fury */
-     , (36041,  2147,  2.079)  /* Rending Wind */;
+     , (36041,  1785,   2.064)  /* Cassius' Ring of Fire */
+     , (36041,  2074,   2.068)  /* Gossamer Flesh */
+     , (36041,  2129,   2.073)  /* Sizzling Fury */
+     , (36041,  2147,   2.079)  /* Rending Wind */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (36041,  31, 0, 2, 0, 360, 0, 0) /* CreatureMagic */
+     , (36041,  46, 0, 2, 0, 450, 0, 0) /* FinesseWeapons */
+     , (36041,  44, 0, 2, 0, 450, 0, 0) /* HeavyWeapons */
+     , (36041,  33, 0, 2, 0, 360, 0, 0) /* LifeMagic */
+     , (36041,  45, 0, 2, 0, 450, 0, 0) /* LightWeapons */
+     , (36041,  15, 0, 2, 0, 350, 0, 0) /* MagicDefense */
+     , (36041,  16, 0, 2, 0, 360, 0, 0) /* ManaConversion */
+     , (36041,  6, 0, 2, 0,  450, 0, 0) /* MeleeDefense */
+     , (36041,  7, 0, 2, 0,  500, 0, 0) /* MissileDefense */
+     , (36041,  34, 0, 2, 0, 360, 0, 0) /* WarMagic */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36041, 9, 36069,  1, 0, 1, False) /* Create Essence of Conformity (36069) for ContainTreasure */
-     , (36041, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;
+VALUES (36041, 9, 36069,  1, 0,    1, False) /* Create Essence of Conformity (36069) for ContainTreasure */
+     , (36041, 9,     0,  0, 0,    0, False) /* Create nothing for ContainTreasure */;

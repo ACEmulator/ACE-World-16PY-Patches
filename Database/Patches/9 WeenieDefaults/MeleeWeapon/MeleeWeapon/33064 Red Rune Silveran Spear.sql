@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33064;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33064, 'ace33064-redrunesilveranspear', 6, '2021-11-17 05:44:31') /* MeleeWeapon */;
+VALUES (33064, 'ace33064-redrunesilveranspear', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33064,   1,          1) /* ItemType - MeleeWeapon */
@@ -37,7 +37,7 @@ VALUES (33064,   5,   -0.05) /* ManaRate */
      , (33064,  21,       0) /* WeaponLength */
      , (33064,  22,     0.5) /* DamageVariance */
      , (33064,  26,       0) /* MaximumVelocity */
-     , (33064,  29,     1.1) /* WeaponDefense */
+     , (33064,  29,    1.10) /* WeaponDefense */
      , (33064,  62,    1.15) /* WeaponOffense */
      , (33064,  63,       1) /* DamageMod */
      , (33064, 136,    1.99) /* CriticalMultiplier */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36216;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36216, 'ace36216-artifexoftheelements', 10, '2021-11-17 05:44:31') /* Creature */;
+VALUES (36216, 'ace36216-artifexoftheelements', 10, '2020-07-23 03:33:35') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36216,   1,         16) /* ItemType - Creature */
@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36216,   1, 'Artifex of the Elements') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36216,   1, 0x02000F47) /* Setup */
-     , (36216,   2, 0x09000028) /* MotionTable */
-     , (36216,   3, 0x20000012) /* SoundTable */
-     , (36216,   4, 0x3000000D) /* CombatTable */
-     , (36216,   6, 0x0400150A) /* PaletteBase */
-     , (36216,   7, 0x10000481) /* ClothingBase */
-     , (36216,   8, 0x06002B13) /* Icon */
-     , (36216,  22, 0x34000029) /* PhysicsEffectTable */
+VALUES (36216,   1,   33558343) /* Setup */
+     , (36216,   2,  150994984) /* MotionTable */
+     , (36216,   3,  536870930) /* SoundTable */
+     , (36216,   4,  805306381) /* CombatTable */
+     , (36216,   6,   67114250) /* PaletteBase */
+     , (36216,   7,  268436609) /* ClothingBase */
+     , (36216,   8,  100674323) /* Icon */
+     , (36216,  22,  872415273) /* PhysicsEffectTable */
      , (36216,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -91,14 +91,14 @@ VALUES (36216,   1,  4840, 0, 0, 5000) /* MaxHealth */
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (36216,  6, 0, 3, 0, 300, 0, 0) /* MeleeDefense        Specialized */
      , (36216,  7, 0, 3, 0, 425, 0, 0) /* MissileDefense      Specialized */
+     , (36216, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */
      , (36216, 14, 0, 3, 0, 300, 0, 0) /* ArcaneLore          Specialized */
      , (36216, 15, 0, 3, 0, 315, 0, 0) /* MagicDefense        Specialized */
      , (36216, 20, 0, 3, 0, 250, 0, 0) /* Deception           Specialized */
      , (36216, 24, 0, 3, 0,  90, 0, 0) /* Run                 Specialized */
      , (36216, 31, 0, 3, 0, 250, 0, 0) /* CreatureEnchantment Specialized */
      , (36216, 33, 0, 3, 0, 250, 0, 0) /* LifeMagic           Specialized */
-     , (36216, 34, 0, 3, 0, 250, 0, 0) /* WarMagic            Specialized */
-     , (36216, 45, 0, 3, 0, 300, 0, 0) /* LightWeapons        Specialized */;
+     , (36216, 34, 0, 3, 0, 250, 0, 0) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (36216,  0,  1,  0,    0,  600,  600,  600,  600,  600,  600,  600,  600,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
