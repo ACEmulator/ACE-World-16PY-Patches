@@ -6,8 +6,8 @@ VALUES (32512, 'ace32512-underminer', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32512,   1,         16) /* ItemType - Creature */
      , (32512,   2,         31) /* CreatureType - Human */
-     , (32512,   6,        255) /* ItemsCapacity */
-     , (32512,   7,        255) /* ContainersCapacity */
+     , (32512,   6,         -1) /* ItemsCapacity */
+     , (32512,   7,         -1) /* ContainersCapacity */
      , (32512,   8,        120) /* Mass */
      , (32512,  16,          1) /* ItemUseable - No */
      , (32512,  25,        135) /* Level */

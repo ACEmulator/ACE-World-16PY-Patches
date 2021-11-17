@@ -10,7 +10,6 @@ VALUES (44283,   1,          8) /* ItemType - Jewelry */
      , (44283,   9,     196608) /* ValidLocations - WristWear */
      , (44283,  16,          1) /* ItemUseable - No */
      , (44283,  19,         20) /* Value */
-     , (44283,  53,        101) /* PlacementPosition - Resting */
      , (44283,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44283, 106,        450) /* ItemSpellcraft */
      , (44283, 107,       3000) /* ItemCurMana */

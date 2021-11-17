@@ -17,8 +17,6 @@ VALUES (34993,   1,          1) /* ItemType - MeleeWeapon */
      , (34993,  48,         45) /* WeaponSkill - LightWeapons */
      , (34993,  49,         20) /* WeaponTime */
      , (34993,  51,          1) /* CombatUse - Melee */
-     , (34993,  52,          1) /* ParentLocation - RightHand */
-     , (34993,  53,          1) /* PlacementPosition - RightHandCombat */
      , (34993,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34993, 106,        800) /* ItemSpellcraft */
      , (34993, 107,       3000) /* ItemCurMana */
@@ -63,5 +61,4 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34993,  2096,      2)  /* Aura of Infected Caress */
      , (34993,  2101,      2)  /* Aura of Cragstone's Will */
      , (34993,  2106,      2)  /* Aura of Elysa's Sight */
-     , (34993,  2116,      2)  /* Aura of Atlan's Alacrity */
-     , (34993,  4069,      2)  /* Mucor Jolt */;
+     , (34993,  2116,      2)  /* Aura of Atlan's Alacrity */;

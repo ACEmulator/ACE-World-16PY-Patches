@@ -17,6 +17,7 @@ VALUES (31391,   1,        256) /* ItemType - MissileWeapon */
      , (31391,  50,          1) /* AmmoType - Arrow */
      , (31391,  51,          2) /* CombatUse - Missile */
      , (31391,  52,          2) /* ParentLocation - LeftHand */
+     , (31391,  53,          3) /* PlacementPosition - LeftHand */
      , (31391,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31391, 353,          8) /* WeaponType - Bow */;
 

@@ -6,8 +6,8 @@ VALUES (33277, 'ace33277-riordinnightbane', 10, '2021-11-01 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33277,   1,         16) /* ItemType - Creature */
      , (33277,   2,         31) /* CreatureType - Human */
-     , (33277,   6,        255) /* ItemsCapacity */
-     , (33277,   7,        255) /* ContainersCapacity */
+     , (33277,   6,         -1) /* ItemsCapacity */
+     , (33277,   7,         -1) /* ContainersCapacity */
      , (33277,  16,         32) /* ItemUseable - Remote */
      , (33277,  25,         90) /* Level */
      , (33277,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -19,6 +19,7 @@ VALUES (33277,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33277,   1, True ) /* Stuck */
+     , (33277,   8, True ) /* AllowGive */
      , (33277,  11, True ) /* IgnoreCollisions */
      , (33277,  12, True ) /* ReportCollisions */
      , (33277,  14, True ) /* GravityStatus */

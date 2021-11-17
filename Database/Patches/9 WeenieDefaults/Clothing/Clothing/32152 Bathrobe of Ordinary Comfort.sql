@@ -12,7 +12,6 @@ VALUES (32152,   1,          4) /* ItemType - Clothing */
      , (32152,  16,          1) /* ItemUseable - No */
      , (32152,  19,       1000) /* Value */
      , (32152,  28,         50) /* ArmorLevel */
-     , (32152,  53,        101) /* PlacementPosition - Resting */
      , (32152,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32152, 151,          2) /* HookType - Wall */;
 

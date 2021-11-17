@@ -6,8 +6,8 @@ VALUES (32991, 'ace32991-harkwullthediscreet', 10, '2021-11-01 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32991,   1,         16) /* ItemType - Creature */
      , (32991,   2,         31) /* CreatureType - Human */
-     , (32991,   6,        255) /* ItemsCapacity */
-     , (32991,   7,        255) /* ContainersCapacity */
+     , (32991,   6,         -1) /* ItemsCapacity */
+     , (32991,   7,         -1) /* ContainersCapacity */
      , (32991,  16,         32) /* ItemUseable - Remote */
      , (32991,  25,        100) /* Level */
      , (32991,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -19,6 +19,7 @@ VALUES (32991,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32991,   1, True ) /* Stuck */
+     , (32991,   8, True ) /* AllowGive */
      , (32991,  11, True ) /* IgnoreCollisions */
      , (32991,  12, True ) /* ReportCollisions */
      , (32991,  14, True ) /* GravityStatus */

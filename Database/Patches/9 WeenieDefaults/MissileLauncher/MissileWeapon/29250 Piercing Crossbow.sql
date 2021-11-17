@@ -20,7 +20,7 @@ VALUES (29250,   1,        256) /* ItemType - MissileWeapon */
      , (29250,  50,          2) /* AmmoType - Bolt */
      , (29250,  51,          2) /* CombatUse - Missile */
      , (29250,  52,          2) /* ParentLocation - LeftHand */
-     , (29250,  53,        101) /* PlacementPosition - Resting */
+     , (29250,  53,          3) /* PlacementPosition - LeftHand */
      , (29250,  60,        192) /* WeaponRange */
      , (29250,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29250, 150,        103) /* HookPlacement - Hook */

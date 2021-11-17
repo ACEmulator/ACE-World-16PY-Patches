@@ -5,14 +5,13 @@ VALUES (70837, 'ace70837-viridianportal', 10, '2021-11-01 00:00:00') /* Creature
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70837,   1,         16) /* ItemType - Creature */
-     , (70837,   6,        255) /* ItemsCapacity */
-     , (70837,   7,        255) /* ContainersCapacity */
+     , (70837,   6,         -1) /* ItemsCapacity */
+     , (70837,   7,         -1) /* ContainersCapacity */
      , (70837,  16,         32) /* ItemUseable - Remote */
      , (70837,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (70837,  95,          4) /* RadarBlipColor - Purple */
      , (70837, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (70837, 267,         20) /* Lifespan */
-     , (70837, 268,         20) /* RemainingLifespan */;
+     , (70837, 267,         20) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (70837,   1, True ) /* Stuck */

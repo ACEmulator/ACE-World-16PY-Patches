@@ -49,6 +49,3 @@ VALUES (30138,   1, 0x020009A7) /* Setup */
      , (30138,  28,       4305) /* Spell - Incantation of Focus Self */
      , (30138,  50, 0x06005B3C) /* IconOverlay */
      , (30138,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30138,  4305,      2)  /* Incantation of Focus Self */;

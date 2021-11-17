@@ -50,6 +50,3 @@ VALUES (30125,   1, 0x020009A7) /* Setup */
      , (30125,  28,       4522) /* Spell - Incantation of Missile Weapon Mastery Self */
      , (30125,  50, 0x06005B2E) /* IconOverlay */
      , (30125,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30125,  4522,      2)  /* Incantation of Missile Weapon Mastery Self */;

@@ -11,8 +11,6 @@ VALUES (34194,   1,      32768) /* ItemType - Caster */
      , (34194,  16,          1) /* ItemUseable - No */
      , (34194,  19,         10) /* Value */
      , (34194,  46,        512) /* DefaultCombatStyle - Magic */
-     , (34194,  52,          1) /* ParentLocation - RightHand */
-     , (34194,  53,        101) /* PlacementPosition - Resting */
      , (34194,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34194,  94,         16) /* TargetType - Creature */
      , (34194, 151,          2) /* HookType - Wall */;

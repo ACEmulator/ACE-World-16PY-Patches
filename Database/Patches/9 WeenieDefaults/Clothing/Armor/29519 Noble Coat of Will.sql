@@ -14,7 +14,6 @@ VALUES (29519,   1,          2) /* ItemType - Armor */
      , (29519,  19,       8000) /* Value */
      , (29519,  27,          2) /* ArmorType - Leather */
      , (29519,  28,        400) /* ArmorLevel */
-     , (29519,  53,        101) /* PlacementPosition - Resting */
      , (29519,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29519, 106,        400) /* ItemSpellcraft */
      , (29519, 107,        800) /* ItemCurMana */

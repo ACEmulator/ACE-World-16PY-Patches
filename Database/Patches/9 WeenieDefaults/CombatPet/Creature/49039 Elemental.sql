@@ -6,8 +6,8 @@ VALUES (49039, 'ace49039-elemental', 71, '2021-11-01 00:00:00') /* CombatPet */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49039,   1,         16) /* ItemType - Creature */
      , (49039,   2,         62) /* CreatureType - Elemental */
-     , (49039,   6,        255) /* ItemsCapacity */
-     , (49039,   7,        255) /* ContainersCapacity */
+     , (49039,   6,         -1) /* ItemsCapacity */
+     , (49039,   7,         -1) /* ContainersCapacity */
      , (49039,  16,          1) /* ItemUseable - No */
      , (49039,  25,         80) /* Level */
      , (49039,  68,         64) /* TargetingTactic - Nearest */

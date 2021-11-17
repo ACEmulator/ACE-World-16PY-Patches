@@ -14,7 +14,6 @@ VALUES (41448,   0,         36) /* Undef */
      , (41448,  16,          8) /* ItemUseable - Contained */
      , (41448,  18,         16) /* UiEffects - BoostStamina */
      , (41448,  19,          0) /* Value */
-     , (41448,  53,        101) /* PlacementPosition - Resting */
      , (41448,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41448,  94,         16) /* TargetType - Creature */
      , (41448, 151,         11) /* HookType - Floor, Wall, Yard */

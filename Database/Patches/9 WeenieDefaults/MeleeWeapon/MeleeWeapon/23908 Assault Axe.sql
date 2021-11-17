@@ -19,7 +19,6 @@ VALUES (23908,   1,          1) /* ItemType - MeleeWeapon */
      , (23908,  48,          1) /* WeaponSkill - Axe */
      , (23908,  49,         40) /* WeaponTime */
      , (23908,  51,          1) /* CombatUse - Melee */
-     , (23908,  53,        101) /* PlacementPosition - Resting */
      , (23908,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (23908, 106,        400) /* ItemSpellcraft */
      , (23908, 107,        600) /* ItemCurMana */

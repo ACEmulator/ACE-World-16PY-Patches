@@ -6,8 +6,8 @@ VALUES (42429, 'ace42429-iqbal', 12, '2021-11-01 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42429,   1,         16) /* ItemType - Creature */
      , (42429,   2,         31) /* CreatureType - Human */
-     , (42429,   6,        255) /* ItemsCapacity */
-     , (42429,   7,        255) /* ContainersCapacity */
+     , (42429,   6,         -1) /* ItemsCapacity */
+     , (42429,   7,         -1) /* ContainersCapacity */
      , (42429,  16,         32) /* ItemUseable - Remote */
      , (42429,  25,        135) /* Level */
      , (42429,  74,          0) /* MerchandiseItemTypes - None */

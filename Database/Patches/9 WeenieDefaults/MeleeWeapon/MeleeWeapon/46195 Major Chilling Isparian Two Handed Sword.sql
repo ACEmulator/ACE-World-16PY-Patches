@@ -19,7 +19,6 @@ VALUES (46195,   1,          1) /* ItemType - MeleeWeapon */
      , (46195,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46195,  49,         50) /* WeaponTime */
      , (46195,  51,          1) /* CombatUse - Melee */
-     , (46195,  53,        101) /* PlacementPosition - Resting */
      , (46195,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46195, 106,        300) /* ItemSpellcraft */
      , (46195, 107,        750) /* ItemCurMana */

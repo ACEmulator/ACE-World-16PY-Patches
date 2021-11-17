@@ -45,6 +45,3 @@ VALUES (45364,   1, 0x020009A7) /* Setup */
      , (45364,  28,       5858) /* Spell - Incantation of Shield Mastery Self */
      , (45364,  50, 0x06007116) /* IconOverlay */
      , (45364,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45364,  5858,      2)  /* Incantation of Shield Mastery Self */;

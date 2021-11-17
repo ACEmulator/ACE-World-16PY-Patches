@@ -6,8 +6,8 @@ VALUES (72001, 'ace72001-norshuntyr', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72001,   1,         16) /* ItemType - Creature */
      , (72001,   2,         62) /* CreatureType - Elemental */
-     , (72001,   6,        255) /* ItemsCapacity */
-     , (72001,   7,        255) /* ContainersCapacity */
+     , (72001,   6,         -1) /* ItemsCapacity */
+     , (72001,   7,         -1) /* ContainersCapacity */
      , (72001,  16,          1) /* ItemUseable - No */
      , (72001,  25,        400) /* Level */
      , (72001,  40,          2) /* CombatMode - Melee */

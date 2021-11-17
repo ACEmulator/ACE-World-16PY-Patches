@@ -6,8 +6,8 @@ VALUES (42431, 'ace42431-ciriaco', 12, '2021-11-01 00:00:00') /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42431,   1,         16) /* ItemType - Creature */
      , (42431,   2,         31) /* CreatureType - Human */
-     , (42431,   6,        255) /* ItemsCapacity */
-     , (42431,   7,        255) /* ContainersCapacity */
+     , (42431,   6,         -1) /* ItemsCapacity */
+     , (42431,   7,         -1) /* ContainersCapacity */
      , (42431,  16,         32) /* ItemUseable - Remote */
      , (42431,  25,        135) /* Level */
      , (42431,  74,          0) /* MerchandiseItemTypes - None */

@@ -19,7 +19,6 @@ VALUES (30312,   1,          1) /* ItemType - MeleeWeapon */
      , (30312,  48,         45) /* WeaponSkill - LightWeapons */
      , (30312,  49,         50) /* WeaponTime */
      , (30312,  51,          1) /* CombatUse - Melee */
-     , (30312,  52,          1) /* ParentLocation - RightHand */
      , (30312,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30312, 106,        350) /* ItemSpellcraft */
      , (30312, 107,       1500) /* ItemCurMana */

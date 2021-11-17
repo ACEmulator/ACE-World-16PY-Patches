@@ -12,8 +12,6 @@ VALUES (27116,   1,      32768) /* ItemType - Caster */
      , (27116,  18,          1) /* UiEffects - Magical */
      , (27116,  19,        700) /* Value */
      , (27116,  46,        512) /* DefaultCombatStyle - Magic */
-     , (27116,  52,          1) /* ParentLocation - RightHand */
-     , (27116,  53,          1) /* PlacementPosition - RightHandCombat */
      , (27116,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (27116,  94,         16) /* TargetType - Creature */
      , (27116, 106,        150) /* ItemSpellcraft */

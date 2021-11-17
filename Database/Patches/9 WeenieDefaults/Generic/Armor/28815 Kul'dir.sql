@@ -11,7 +11,6 @@ VALUES (28815,   1,          2) /* ItemType - Armor */
      , (28815,  19,       1200) /* Value */
      , (28815,  28,         95) /* ArmorLevel */
      , (28815,  51,          4) /* CombatUse - Shield */
-     , (28815,  52,          3) /* ParentLocation - Shield */
      , (28815,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28815, 106,        150) /* ItemSpellcraft */
      , (28815, 107,        700) /* ItemCurMana */

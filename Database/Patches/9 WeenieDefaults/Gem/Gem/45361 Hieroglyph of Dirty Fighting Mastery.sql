@@ -49,6 +49,3 @@ VALUES (45361,   1, 0x020009A7) /* Setup */
      , (45361,  28,       5786) /* Spell - Incantation of Dirty Fighting Mastery Self */
      , (45361,  50, 0x06007114) /* IconOverlay */
      , (45361,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45361,  5786,      2)  /* Incantation of Dirty Fighting Mastery Self */;

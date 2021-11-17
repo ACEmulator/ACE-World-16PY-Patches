@@ -26,6 +26,7 @@ VALUES (70702,   1, True ) /* Stuck */
      , (70702,  29, True ) /* NoCorpse */
      , (70702,  42, True ) /* AllowEdgeSlide */
      , (70702,  52, True ) /* AiImmobile */
+     , (70702,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (70702,  83, True ) /* NpcLooksLikeObject */
      , (70702, 103, True ) /* NonProjectileMagicImmune */;
 

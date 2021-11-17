@@ -16,7 +16,6 @@ VALUES (28323,   1,          2) /* ItemType - Armor */
      , (28323,  28,        300) /* ArmorLevel */
      , (28323,  36,       9999) /* ResistMagic */
      , (28323,  51,          4) /* CombatUse - Shield */
-     , (28323,  53,        101) /* PlacementPosition - Resting */
      , (28323,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28323, 106,        150) /* ItemSpellcraft */
      , (28323, 107,        450) /* ItemCurMana */

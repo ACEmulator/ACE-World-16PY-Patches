@@ -13,7 +13,6 @@ VALUES (32687,   1,          2) /* ItemType - Armor */
      , (32687,  18,          1) /* UiEffects - Magical */
      , (32687,  19,       5000) /* Value */
      , (32687,  28,        300) /* ArmorLevel */
-     , (32687,  53,        101) /* PlacementPosition - Resting */
      , (32687,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32687, 106,        325) /* ItemSpellcraft */
      , (32687, 107,       4000) /* ItemCurMana */

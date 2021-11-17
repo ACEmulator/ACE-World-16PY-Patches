@@ -9,7 +9,6 @@ VALUES (46272,   1,        128) /* ItemType - Misc */
      , (46272,  16,          1) /* ItemUseable - No */
      , (46272,  19,       5000) /* Value */
      , (46272,  33,          1) /* Bonded - Bonded */
-     , (46272,  53,        101) /* PlacementPosition - Resting */
      , (46272,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46272, 114,          1) /* Attuned - Attuned */;
 

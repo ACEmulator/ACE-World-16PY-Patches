@@ -20,7 +20,6 @@ VALUES (41611,   1,          1) /* ItemType - MeleeWeapon */
      , (41611,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41611,  49,          0) /* WeaponTime */
      , (41611,  51,          5) /* CombatUse - TwoHanded */
-     , (41611,  52,          1) /* ParentLocation - RightHand */
      , (41611,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41611, 292,          5) /* Cleaving */
      , (41611, 353,         11) /* WeaponType - TwoHanded */;
@@ -54,6 +53,3 @@ VALUES (41611,   1, 0x02001923) /* Setup */
      , (41611,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41611,  36, 0x0E000014) /* MutateFilter */
      , (41611,  55,       1785) /* ProcSpell - Cassius' Ring of Fire */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41611,  1785,      2)  /* Cassius' Ring of Fire */;

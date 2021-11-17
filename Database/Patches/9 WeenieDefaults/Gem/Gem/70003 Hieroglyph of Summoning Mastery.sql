@@ -49,6 +49,3 @@ VALUES (70003,   1, 0x020009A7) /* Setup */
      , (70003,  28,       6123) /* Spell - Incantation of Summoning Mastery Self */
      , (70003,  50, 0x06007411) /* IconOverlay */
      , (70003,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (70003,  6123,      2)  /* Incantation of Summoning Mastery Self */;

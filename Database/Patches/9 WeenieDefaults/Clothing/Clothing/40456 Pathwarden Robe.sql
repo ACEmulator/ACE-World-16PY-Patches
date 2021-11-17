@@ -13,7 +13,6 @@ VALUES (40456,   1,          4) /* ItemType - Clothing */
      , (40456,  19,          0) /* Value */
      , (40456,  28,         50) /* ArmorLevel */
      , (40456,  33,          1) /* Bonded - Bonded */
-     , (40456,  53,        101) /* PlacementPosition - Resting */
      , (40456,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40456, 106,        100) /* ItemSpellcraft */
      , (40456, 107,       1000) /* ItemCurMana */

@@ -15,7 +15,6 @@ VALUES (27754,   1,        128) /* ItemType - Misc */
      , (27754,  15,          0) /* StackUnitValue */
      , (27754,  16,          8) /* ItemUseable - Contained */
      , (27754,  19,          0) /* Value */
-     , (27754,  53,        101) /* PlacementPosition - Resting */
      , (27754,  89,          6) /* BoosterEnum - Mana */
      , (27754,  90,         25) /* BoostValue */
      , (27754,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

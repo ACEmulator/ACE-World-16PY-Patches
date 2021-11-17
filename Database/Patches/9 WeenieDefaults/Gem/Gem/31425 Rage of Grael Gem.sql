@@ -14,7 +14,6 @@ VALUES (31425,   1,       2048) /* ItemType - Gem */
      , (31425,  16,          8) /* ItemUseable - Contained */
      , (31425,  18,          1) /* UiEffects - Magical */
      , (31425,  19,          0) /* Value */
-     , (31425,  53,        101) /* PlacementPosition - Resting */
      , (31425,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31425,  94,         16) /* TargetType - Creature */
      , (31425, 106,        210) /* ItemSpellcraft */
@@ -43,6 +42,3 @@ VALUES (31425,   1, 0x02000179) /* Setup */
      , (31425,   8, 0x06006011) /* Icon */
      , (31425,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31425,  28,       3828) /* Spell - Rage of Grael */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31425,  3828,      2)  /* Rage of Grael */;

@@ -13,7 +13,6 @@ VALUES (42979,   1,       2048) /* ItemType - Gem */
      , (42979,  19,         10) /* Value */
      , (42979,  28,          0) /* ArmorLevel */
      , (42979,  33,          1) /* Bonded - Bonded */
-     , (42979,  53,        101) /* PlacementPosition - Resting */
      , (42979,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42979,  94,          6) /* TargetType - Vestements */
      , (42979, 114,          0) /* Attuned - Normal */;

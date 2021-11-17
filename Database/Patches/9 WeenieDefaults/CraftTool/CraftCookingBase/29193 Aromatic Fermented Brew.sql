@@ -13,7 +13,6 @@ VALUES (29193,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29193,  16,          1) /* ItemUseable - No */
      , (29193,  19,         75) /* Value */
      , (29193,  33,          0) /* Bonded - Normal */
-     , (29193,  53,        101) /* PlacementPosition - Resting */
      , (29193,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29193, 114,          0) /* Attuned - Normal */;
 

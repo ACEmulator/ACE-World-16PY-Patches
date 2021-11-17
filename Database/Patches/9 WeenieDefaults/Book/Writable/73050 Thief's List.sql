@@ -12,7 +12,6 @@ VALUES (73050,   1,       8192) /* ItemType - Writable */
      , (73050,  19,         10) /* Value */
      , (73050,  22,         32) /* AvailableCharacter */
      , (73050,  33,          1) /* Bonded - Bonded */
-     , (73050,  53,        101) /* PlacementPosition - Resting */
      , (73050,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -39,7 +38,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (73050, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (73050, 0, 0xFFFFFFFF, 'Janda Sulifiya', '', True, 'Ruschk Head 
+VALUES (73050, 0, 0xFFFFFFFF, 'Janda Sulifiya', 'prewritten', True, 'Ruschk Head 
 Ursuin Hide 
 Glowing Red Fungus 
 Mattekar Teeth 

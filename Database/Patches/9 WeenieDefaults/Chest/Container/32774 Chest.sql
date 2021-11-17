@@ -16,7 +16,7 @@ VALUES (32774,   1,        512) /* ItemType - Container */
      , (32774,  81,          2) /* MaxGeneratedObjects */
      , (32774,  82,          2) /* InitGeneratedObjects */
      , (32774,  83,          2) /* ActivationResponse - Use */
-     , (32774,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */
+     , (32774,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
      , (32774, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

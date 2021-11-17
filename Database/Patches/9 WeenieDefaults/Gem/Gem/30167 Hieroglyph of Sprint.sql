@@ -50,6 +50,3 @@ VALUES (30167,   1, 0x020009A7) /* Setup */
      , (30167,  28,       4616) /* Spell - Incantation of Sprint Self */
      , (30167,  50, 0x06005B59) /* IconOverlay */
      , (30167,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30167,  4616,      2)  /* Incantation of Sprint Self */;

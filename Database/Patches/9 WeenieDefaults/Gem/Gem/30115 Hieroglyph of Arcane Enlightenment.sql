@@ -50,6 +50,3 @@ VALUES (30115,   1, 0x020009A7) /* Setup */
      , (30115,  28,       4510) /* Spell - Incantation of Arcane Enlightenment Self */
      , (30115,  50, 0x06005B24) /* IconOverlay */
      , (30115,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30115,  4510,      2)  /* Incantation of Arcane Enlightenment Self */;

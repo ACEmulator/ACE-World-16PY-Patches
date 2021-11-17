@@ -10,7 +10,6 @@ VALUES (30252,   1,        128) /* ItemType - Misc */
      , (30252,  16,    2228232) /* ItemUseable - SourceContainedTargetRemoteOrSelf */
      , (30252,  17,         71) /* RareId */
      , (30252,  19,          0) /* Value */
-     , (30252,  53,        101) /* PlacementPosition - Resting */
      , (30252,  89,          4) /* BoosterEnum - Stamina */
      , (30252,  90,        500) /* BoostValue */
      , (30252,  91,         25) /* MaxStructure */

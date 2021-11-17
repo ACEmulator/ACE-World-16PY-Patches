@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30334;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30334, 'uararefistthreeprinciples', 3, '2021-11-01 00:00:00') /* MissileLauncher */;
+VALUES (30334, 'uararefistthreeprinciples', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30334,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,8 +20,6 @@ VALUES (30334,   1,          1) /* ItemType - MeleeWeapon */
      , (30334,  48,         45) /* WeaponSkill - LightWeapons */
      , (30334,  49,         20) /* WeaponTime */
      , (30334,  51,          1) /* CombatUse - Melee */
-     , (30334,  52,          2) /* ParentLocation - LeftHand */
-     , (30334,  53,          3) /* PlacementPosition - LeftHand */
      , (30334,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30334, 106,        350) /* ItemSpellcraft */
      , (30334, 107,       2000) /* ItemCurMana */
@@ -41,12 +39,7 @@ VALUES (30334,   4,          0) /* ItemTotalXp */
      , (30334,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30334,  11, True ) /* IgnoreCollisions */
-     , (30334,  13, True ) /* Ethereal */
-     , (30334,  14, True ) /* GravityStatus */
-     , (30334,  19, True ) /* Attackable */
-     , (30334,  22, True ) /* Inscribable */
-     , (30334, 100, False) /* Dyable */;
+VALUES (30334,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30334,   5,  -0.033) /* ManaRate */
@@ -54,7 +47,6 @@ VALUES (30334,   5,  -0.033) /* ManaRate */
      , (30334,  21,       1) /* WeaponLength */
      , (30334,  22,   0.205) /* DamageVariance */
      , (30334,  29,    1.18) /* WeaponDefense */
-     , (30334,  39,       1) /* DefaultScale */
      , (30334,  62,    1.18) /* WeaponOffense */
      , (30334, 155,       1) /* IgnoreArmor */;
 

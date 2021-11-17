@@ -6,4 +6,4 @@ VALUES (6748, 0, 0, 0, 0, 46145 /* Isparian Crossbow */, 1, 'You remove the ston
 DELETE FROM `cook_book` WHERE `recipe_Id` = 6748;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (6748, 20023 /* Isparian Weapons Modifying Tool */, 46220 /* Blackfire Dissolving Isparian Wand */, '2021-11-01 00:00:00');
+VALUES (6748, 20023 /* Isparian Weapons Modifying Tool */, 71212 /* Enhanced Flaming Isparian Crossbow */, '2021-11-01 00:00:00');

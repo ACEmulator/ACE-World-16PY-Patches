@@ -17,8 +17,6 @@ VALUES (87423,   1,          1) /* ItemType - MeleeWeapon */
      , (87423,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (87423,  49,         10) /* WeaponTime */
      , (87423,  51,          1) /* CombatUse - Melee */
-     , (87423,  52,          1) /* ParentLocation - RightHand */
-     , (87423,  53,          1) /* PlacementPosition - RightHandCombat */
      , (87423,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87423, 106,        800) /* ItemSpellcraft */
      , (87423, 107,       3000) /* ItemCurMana */

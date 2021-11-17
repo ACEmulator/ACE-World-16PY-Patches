@@ -9,8 +9,7 @@ VALUES (72339,  81,          8) /* MaxGeneratedObjects */
      , (72339,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (72339, 103,          2) /* GeneratorDestructionType - Destroy */
      , (72339, 145,          2) /* GeneratorEndDestructionType - Destroy */
-     , (72339, 267,        300) /* Lifespan */
-     , (72339, 268,        300) /* RemainingLifespan */;
+     , (72339, 267,        300) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72339,   1, True ) /* Stuck */

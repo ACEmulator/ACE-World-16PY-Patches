@@ -6,8 +6,8 @@ VALUES (33000, 'ace33000-mudrisibnhadram', 12, '2021-11-01 00:00:00') /* Vendor 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33000,   1,         16) /* ItemType - Creature */
      , (33000,   2,         31) /* CreatureType - Human */
-     , (33000,   6,        255) /* ItemsCapacity */
-     , (33000,   7,        255) /* ContainersCapacity */
+     , (33000,   6,         -1) /* ItemsCapacity */
+     , (33000,   7,         -1) /* ContainersCapacity */
      , (33000,  16,         32) /* ItemUseable - Remote */
      , (33000,  25,         22) /* Level */
      , (33000,  74,     833536) /* MerchandiseItemTypes - Gem, SpellComponents, Writable, Caster, PromissoryNote, ManaStone */

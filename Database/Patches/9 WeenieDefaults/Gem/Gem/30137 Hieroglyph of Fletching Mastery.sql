@@ -50,6 +50,3 @@ VALUES (30137,   1, 0x020009A7) /* Setup */
      , (30137,  28,       4552) /* Spell - Incantation of Fletching Mastery Self */
      , (30137,  50, 0x06005B3B) /* IconOverlay */
      , (30137,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30137,  4552,      2)  /* Incantation of Fletching Mastery Self */;

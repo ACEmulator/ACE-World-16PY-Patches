@@ -8,7 +8,6 @@ VALUES (3178,   1,       8192) /* ItemType - Writable */
      , (3178,   5,         30) /* EncumbranceVal */
      , (3178,  16,          8) /* ItemUseable - Contained */
      , (3178,  19,          5) /* Value */
-     , (3178,  53,        101) /* PlacementPosition - Resting */
      , (3178,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -32,6 +31,3 @@ VALUES (3178,   1, 0x0200018A) /* Setup */
      , (3178,   8, 0x06003362) /* Icon */
      , (3178,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3178,  28,        462) /* Spell - Missile Weapon Mastery Other II */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3178,   462,      2)  /* Missile Weapon Mastery Other II */;

@@ -10,7 +10,6 @@ VALUES (41618,   1,        128) /* ItemType - Misc */
      , (41618,  12,          1) /* StackSize */
      , (41618,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41618,  19,       5000) /* Value */
-     , (41618,  53,        101) /* PlacementPosition - Resting */
      , (41618,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41618,  94,        128) /* TargetType - Misc */
      , (41618, 151,         11) /* HookType - Floor, Wall, Yard */;

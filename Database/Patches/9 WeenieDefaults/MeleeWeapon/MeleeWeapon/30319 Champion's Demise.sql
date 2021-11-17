@@ -20,7 +20,6 @@ VALUES (30319,   1,          1) /* ItemType - MeleeWeapon */
      , (30319,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (30319,  49,         40) /* WeaponTime */
      , (30319,  51,          1) /* CombatUse - Melee */
-     , (30319,  52,          1) /* ParentLocation - RightHand */
      , (30319,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30319, 106,        325) /* ItemSpellcraft */
      , (30319, 107,       2100) /* ItemCurMana */

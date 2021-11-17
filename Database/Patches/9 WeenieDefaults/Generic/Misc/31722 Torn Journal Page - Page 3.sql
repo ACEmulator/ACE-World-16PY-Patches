@@ -11,7 +11,6 @@ VALUES (31722,   1,        128) /* ItemType - Misc */
      , (31722,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31722,  19,          0) /* Value */
      , (31722,  33,          1) /* Bonded - Bonded */
-     , (31722,  53,        101) /* PlacementPosition - Resting */
      , (31722,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31722,  94,        128) /* TargetType - Misc */
      , (31722, 114,          1) /* Attuned - Attuned */;

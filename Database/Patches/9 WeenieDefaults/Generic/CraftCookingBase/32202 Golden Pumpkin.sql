@@ -11,7 +11,6 @@ VALUES (32202,   1,    4194304) /* ItemType - CraftCookingBase */
      , (32202,  12,          1) /* StackSize */
      , (32202,  16,          1) /* ItemUseable - No */
      , (32202,  19,         10) /* Value */
-     , (32202,  53,        101) /* PlacementPosition - Resting */
      , (32202,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32202, 151,         11) /* HookType - Floor, Wall, Yard */;
 

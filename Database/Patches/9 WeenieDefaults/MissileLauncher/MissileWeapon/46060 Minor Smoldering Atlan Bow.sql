@@ -20,6 +20,7 @@ VALUES (46060,   1,        256) /* ItemType - MissileWeapon */
      , (46060,  50,          1) /* AmmoType - Arrow */
      , (46060,  51,          2) /* CombatUse - Missile */
      , (46060,  52,          2) /* ParentLocation - LeftHand */
+     , (46060,  53,          3) /* PlacementPosition - LeftHand */
      , (46060,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46060, 106,        275) /* ItemSpellcraft */
      , (46060, 107,        400) /* ItemCurMana */

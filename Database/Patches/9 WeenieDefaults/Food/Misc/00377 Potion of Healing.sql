@@ -15,7 +15,6 @@ VALUES (377,   1,        128) /* ItemType - Misc */
      , (377,  15,        170) /* StackUnitValue */
      , (377,  16,          8) /* ItemUseable - Contained */
      , (377,  19,        170) /* Value */
-     , (377,  53,        101) /* PlacementPosition - Resting */
      , (377,  89,          2) /* BoosterEnum - Health */
      , (377,  90,         25) /* BoostValue */
      , (377,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

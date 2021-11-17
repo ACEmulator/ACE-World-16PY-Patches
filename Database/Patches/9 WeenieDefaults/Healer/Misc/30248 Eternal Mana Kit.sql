@@ -11,7 +11,6 @@ VALUES (30248,   1,        128) /* ItemType - Misc */
      , (30248,  17,        148) /* RareId */
      , (30248,  19,          0) /* Value */
      , (30248,  33,         -1) /* Bonded - Slippery */
-     , (30248,  53,        101) /* PlacementPosition - Resting */
      , (30248,  89,          6) /* BoosterEnum - Mana */
      , (30248,  90,        100) /* BoostValue */
      , (30248,  92,         -1) /* Structure */

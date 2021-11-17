@@ -15,10 +15,8 @@ VALUES (51658,   1,        128) /* ItemType - Misc */
      , (51658,  19,          0) /* Value */
      , (51658,  33,          1) /* Bonded - Bonded */
      , (51658,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (51658,  98, 1484702371) /* CreationTimestamp */
      , (51658, 114,          1) /* Attuned - Attuned */
-     , (51658, 267,      86400) /* Lifespan */
-     , (51658, 268,      86400) /* RemainingLifespan */;
+     , (51658, 267,      86400) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51658,  69, False) /* IsSellable */;

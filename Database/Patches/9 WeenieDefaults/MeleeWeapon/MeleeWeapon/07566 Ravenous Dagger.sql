@@ -21,7 +21,6 @@ VALUES (7566,   1,          1) /* ItemType - MeleeWeapon */
      , (7566,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (7566,  49,         10) /* WeaponTime */
      , (7566,  51,          1) /* CombatUse - Melee */
-     , (7566,  53,        101) /* PlacementPosition - Resting */
      , (7566,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7566, 114,          1) /* Attuned - Attuned */
      , (7566, 158,          2) /* WieldRequirements - RawSkill */

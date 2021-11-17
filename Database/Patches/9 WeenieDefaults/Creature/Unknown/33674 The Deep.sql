@@ -17,12 +17,15 @@ VALUES (33674,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33674,   1, True ) /* Stuck */
+     , (33674,   8, True ) /* AllowGive */
      , (33674,  11, True ) /* IgnoreCollisions */
      , (33674,  12, True ) /* ReportCollisions */
      , (33674,  14, True ) /* GravityStatus */
      , (33674,  19, False) /* Attackable */
      , (33674,  41, True ) /* ReportCollisionsAsEnvironment */
      , (33674,  42, True ) /* AllowEdgeSlide */
+     , (33674,  52, True ) /* AiImmobile */
+     , (33674,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (33674,  83, True ) /* NpcLooksLikeObject */
      , (33674, 118, True ) /* NeverAttack */;
 

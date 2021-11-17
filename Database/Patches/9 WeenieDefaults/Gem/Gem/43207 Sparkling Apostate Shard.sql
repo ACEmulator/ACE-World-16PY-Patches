@@ -12,7 +12,6 @@ VALUES (43207,   1,       2048) /* ItemType - Gem */
      , (43207,  18,          1) /* UiEffects - Magical */
      , (43207,  19,          0) /* Value */
      , (43207,  33,          1) /* Bonded - Bonded */
-     , (43207,  53,        101) /* PlacementPosition - Resting */
      , (43207,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43207,  94,         16) /* TargetType - Creature */
      , (43207, 114,          1) /* Attuned - Attuned */

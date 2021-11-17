@@ -5,13 +5,12 @@ VALUES (34250, 'ace34250-diseasedpolarcarenziliver', 10, '2021-11-01 00:00:00') 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34250,   1,         16) /* ItemType - Creature */
-     , (34250,   6,        255) /* ItemsCapacity */
-     , (34250,   7,        255) /* ContainersCapacity */
+     , (34250,   6,         -1) /* ItemsCapacity */
+     , (34250,   7,         -1) /* ContainersCapacity */
      , (34250,  16,         32) /* ItemUseable - Remote */
      , (34250,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34250,  95,          3) /* RadarBlipColor - White */
-     , (34250, 267,        240) /* Lifespan */
-     , (34250, 268,        240) /* RemainingLifespan */;
+     , (34250, 267,        240) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34250,   1, True ) /* Stuck */
@@ -21,6 +20,8 @@ VALUES (34250,   1, True ) /* Stuck */
      , (34250,  19, False) /* Attackable */
      , (34250,  41, True ) /* ReportCollisionsAsEnvironment */
      , (34250,  42, True ) /* AllowEdgeSlide */
+     , (34250,  52, True ) /* AiImmobile */
+     , (34250,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (34250,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

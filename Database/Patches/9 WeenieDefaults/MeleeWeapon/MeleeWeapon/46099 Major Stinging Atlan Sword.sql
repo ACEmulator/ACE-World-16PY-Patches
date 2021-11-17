@@ -19,7 +19,6 @@ VALUES (46099,   1,          1) /* ItemType - MeleeWeapon */
      , (46099,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (46099,  49,         35) /* WeaponTime */
      , (46099,  51,          1) /* CombatUse - Melee */
-     , (46099,  52,          1) /* ParentLocation - RightHand */
      , (46099,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46099, 106,        300) /* ItemSpellcraft */
      , (46099, 107,        750) /* ItemCurMana */

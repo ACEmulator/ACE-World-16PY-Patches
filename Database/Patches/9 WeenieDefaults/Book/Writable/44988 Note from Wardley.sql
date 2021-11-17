@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (44988, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (44988, 0, 0xFFFFFFFF, 'Wardley', 'Password is cheese', False, '
+VALUES (44988, 0, 0xFFFFFFFF, 'Wardley', 'prewritten', False, '
 The wights seem to be gathering together in this area. They seem to be heading into a cave to the west of here. 
 
 This can''t be a good sign. I am going in for a closer look. If you find this note it can only mean I did not make it back out. 

@@ -13,7 +13,6 @@ VALUES (44071,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44071,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44071,  19,       1000) /* Value */
      , (44071,  33,          1) /* Bonded - Bonded */
-     , (44071,  53,        101) /* PlacementPosition - Resting */
      , (44071,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44071,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 

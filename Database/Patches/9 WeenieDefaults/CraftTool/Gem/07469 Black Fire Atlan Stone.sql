@@ -16,7 +16,6 @@ VALUES (7469,   1,       2048) /* ItemType - Gem */
      , (7469,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7469,  19,       5000) /* Value */
      , (7469,  33,          1) /* Bonded - Bonded */
-     , (7469,  53,        101) /* PlacementPosition - Resting */
      , (7469,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7469,  94,      33155) /* TargetType - Armor, Misc, WeaponOrCaster */
      , (7469, 114,          1) /* Attuned - Attuned */;

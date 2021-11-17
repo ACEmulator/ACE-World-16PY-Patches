@@ -5,10 +5,10 @@ VALUES (71354, 'ace71354-altarofthewhitecrystal', 10, '2021-11-01 00:00:00') /* 
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71354,   1,         16) /* ItemType - Creature */
-     , (71354,   6,        255) /* ItemsCapacity */
-     , (71354,   7,        255) /* ContainersCapacity */
+     , (71354,   6,         -1) /* ItemsCapacity */
+     , (71354,   7,         -1) /* ContainersCapacity */
      , (71354,  16,         32) /* ItemUseable - Remote */
-     , (71354,  93,    4260884) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP, EdgeSlide */
+     , (71354,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (71354,  95,          8) /* RadarBlipColor - Yellow */
      , (71354, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
@@ -19,6 +19,8 @@ VALUES (71354,   1, True ) /* Stuck */
      , (71354,  14, True ) /* GravityStatus */
      , (71354,  19, False) /* Attackable */
      , (71354,  42, True ) /* AllowEdgeSlide */
+     , (71354,  52, True ) /* AiImmobile */
+     , (71354,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (71354,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

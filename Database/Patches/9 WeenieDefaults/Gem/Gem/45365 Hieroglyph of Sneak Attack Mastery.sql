@@ -49,6 +49,3 @@ VALUES (45365,   1, 0x020009A7) /* Setup */
      , (45365,  28,       5882) /* Spell - Incantation of Sneak Attack Mastery Self */
      , (45365,  50, 0x06007117) /* IconOverlay */
      , (45365,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45365,  5882,      2)  /* Incantation of Sneak Attack Mastery Self */;

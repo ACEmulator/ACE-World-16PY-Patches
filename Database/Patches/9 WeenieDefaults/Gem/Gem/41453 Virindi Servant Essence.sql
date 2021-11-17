@@ -11,7 +11,6 @@ VALUES (41453,   1,       2048) /* ItemType - Gem */
      , (41453,  16,          8) /* ItemUseable - Contained */
      , (41453,  18,          1) /* UiEffects - Magical */
      , (41453,  19,          0) /* Value */
-     , (41453,  53,        101) /* PlacementPosition - Resting */
      , (41453,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41453,  94,         16) /* TargetType - Creature */
      , (41453, 151,         11) /* HookType - Floor, Wall, Yard */

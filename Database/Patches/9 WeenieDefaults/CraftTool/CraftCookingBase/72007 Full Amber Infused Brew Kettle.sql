@@ -14,7 +14,6 @@ VALUES (72007,   1,    4194304) /* ItemType - CraftCookingBase */
      , (72007,  18,          1) /* UiEffects - Magical */
      , (72007,  19,          0) /* Value */
      , (72007,  33,          1) /* Bonded - Bonded */
-     , (72007,  53,        101) /* PlacementPosition - Resting */
      , (72007,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (72007, 114,          0) /* Attuned - Normal */
      , (72007, 151,          1) /* HookType - Floor */;

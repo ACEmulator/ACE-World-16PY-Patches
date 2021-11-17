@@ -50,6 +50,3 @@ VALUES (30131,   1, 0x020009A7) /* Setup */
      , (30131,  28,       4542) /* Spell - Incantation of Deception Mastery Self */
      , (30131,  50, 0x06005B35) /* IconOverlay */
      , (30131,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30131,  4542,      2)  /* Incantation of Deception Mastery Self */;

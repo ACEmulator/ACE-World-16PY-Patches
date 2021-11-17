@@ -14,10 +14,8 @@ VALUES (42019,   1,        128) /* ItemType - Misc */
      , (42019,  19,          0) /* Value */
      , (42019,  33,          1) /* Bonded - Bonded */
      , (42019,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (42019,  98, 1483951618) /* CreationTimestamp */
      , (42019, 114,          1) /* Attuned - Attuned */
-     , (42019, 267,        300) /* Lifespan */
-     , (42019, 268,        300) /* RemainingLifespan */;
+     , (42019, 267,        300) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42019,  23, True ) /* DestroyOnSell */

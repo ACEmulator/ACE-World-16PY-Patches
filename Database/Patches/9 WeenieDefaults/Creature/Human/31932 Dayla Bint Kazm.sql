@@ -6,8 +6,8 @@ VALUES (31932, 'ace31932-daylabintkazm', 10, '2021-11-01 00:00:00') /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31932,   1,         16) /* ItemType - Creature */
      , (31932,   2,         31) /* CreatureType - Human */
-     , (31932,   6,        255) /* ItemsCapacity */
-     , (31932,   7,        255) /* ContainersCapacity */
+     , (31932,   6,         -1) /* ItemsCapacity */
+     , (31932,   7,         -1) /* ContainersCapacity */
      , (31932,  16,         32) /* ItemUseable - Remote */
      , (31932,  25,        130) /* Level */
      , (31932,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

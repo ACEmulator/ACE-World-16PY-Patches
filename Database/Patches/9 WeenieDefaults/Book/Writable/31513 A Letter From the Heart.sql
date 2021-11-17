@@ -10,7 +10,6 @@ VALUES (31513,   1,       8192) /* ItemType - Writable */
      , (31513,  19,          0) /* Value */
      , (31513,  22,       1000) /* AvailableCharacter */
      , (31513,  33,          1) /* Bonded - Bonded */
-     , (31513,  53,        101) /* PlacementPosition - Resting */
      , (31513,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31513, 114,          1) /* Attuned - Attuned */;
 
@@ -46,10 +45,10 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31513, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31513, 0, 0xFFFFFFFF, 'Asheron Realaidain', '', False, 'Silvia,
+VALUES (31513, 0, 0xFFFFFFFF, 'Asheron Realaidain', 'prewritten', False, 'Silvia,
 
 There was a time when I viewed your obsession with a certain level of flattery. To know that I, but a humble servant of the light, should inspire such feelings in your heart did indeed fill me with a measure of pride. But any good will I may have once held for you is no more! When you tricked Elysa into delivering the poisoned basket of fruit to me, I said nothing. When you spent those thirty nights on my doorstep, I said nothing. When you threw your raiment over the walls of my home in the middle')
-     , (31513, 1, 0xFFFFFFFF, 'Asheron Realaidain', '', False, 'of one of my stern lectures to Borelean, I said not a word! But this! This time you have gone too far, woman!
+     , (31513, 1, 0xFFFFFFFF, 'Asheron Realaidain', 'prewritten', False, 'of one of my stern lectures to Borelean, I said not a word! But this! This time you have gone too far, woman!
 
 The white rabbit may be a terrible, vengeful beast, but he does not deserve to end up in some cookpot like a common hare! He is a noble beast, and ought to be treated as such. I cannot condone such actions, and I will no longer respond to your demonstrations of "affection." I''ve a mind to cast you into portal space, but out of respect for Queen Elysa, I''ll not harm her subjects thus. Consider this my farewell to you, you loon of an Isparian.')
-     , (31513, 2, 0xFFFFFFFF, 'Asheron Realaidain', '', False, 'And by the way, your son was born on Ispar. Consider that a clue.');
+     , (31513, 2, 0xFFFFFFFF, 'Asheron Realaidain', 'prewritten', False, 'And by the way, your son was born on Ispar. Consider that a clue.');

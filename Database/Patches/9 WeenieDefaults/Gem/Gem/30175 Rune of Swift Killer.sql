@@ -49,6 +49,3 @@ VALUES (30175,   1, 0x020009A7) /* Setup */
      , (30175,  28,       4417) /* Spell - Aura of Incantation of Swift Killer Self */
      , (30175,  50, 0x06005B61) /* IconOverlay */
      , (30175,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30175,  4417,      2)  /* Aura of Incantation of Swift Killer Self */;

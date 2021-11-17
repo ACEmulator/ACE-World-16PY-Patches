@@ -18,8 +18,6 @@ VALUES (51910,   1,          1) /* ItemType - MeleeWeapon */
      , (51910,  48,          5) /* WeaponSkill - Mace */
      , (51910,  49,         80) /* WeaponTime */
      , (51910,  51,          1) /* CombatUse - Melee */
-     , (51910,  52,          1) /* ParentLocation - RightHand */
-     , (51910,  53,          1) /* PlacementPosition - RightHandCombat */
      , (51910,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51910, 109,          0) /* ItemDifficulty */
      , (51910, 150,        103) /* HookPlacement - Hook */

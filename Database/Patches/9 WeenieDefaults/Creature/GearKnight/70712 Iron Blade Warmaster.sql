@@ -6,8 +6,8 @@ VALUES (70712, 'ace70712-ironbladewarmaster', 10, '2021-11-01 00:00:00') /* Crea
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70712,   1,         16) /* ItemType - Creature */
      , (70712,   2,         99) /* CreatureType - GearKnight */
-     , (70712,   6,        255) /* ItemsCapacity */
-     , (70712,   7,        255) /* ContainersCapacity */
+     , (70712,   6,         -1) /* ItemsCapacity */
+     , (70712,   7,         -1) /* ContainersCapacity */
      , (70712,  16,          1) /* ItemUseable - No */
      , (70712,  25,        185) /* Level */
      , (70712,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -10,7 +10,6 @@ VALUES (31460,   1,        128) /* ItemType - Misc */
      , (31460,  12,          1) /* StackSize */
      , (31460,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31460,  19,          0) /* Value */
-     , (31460,  53,        101) /* PlacementPosition - Resting */
      , (31460,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31460,  94,        128) /* TargetType - Misc */;
 

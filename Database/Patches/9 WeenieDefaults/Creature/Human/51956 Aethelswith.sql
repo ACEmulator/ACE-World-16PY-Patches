@@ -6,8 +6,8 @@ VALUES (51956, 'ace51956-aethelswith', 10, '2021-11-01 00:00:00') /* Creature */
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51956,   1,         16) /* ItemType - Creature */
      , (51956,   2,         31) /* CreatureType - Human */
-     , (51956,   6,        255) /* ItemsCapacity */
-     , (51956,   7,        255) /* ContainersCapacity */
+     , (51956,   6,         -1) /* ItemsCapacity */
+     , (51956,   7,         -1) /* ContainersCapacity */
      , (51956,  16,         32) /* ItemUseable - Remote */
      , (51956,  25,        200) /* Level */
      , (51956,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

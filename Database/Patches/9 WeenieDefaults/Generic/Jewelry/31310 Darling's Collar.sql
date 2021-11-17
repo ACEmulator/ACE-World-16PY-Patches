@@ -10,7 +10,6 @@ VALUES (31310,   1,          8) /* ItemType - Jewelry */
      , (31310,  16,          1) /* ItemUseable - No */
      , (31310,  19,      10000) /* Value */
      , (31310,  33,          0) /* Bonded - Normal */
-     , (31310,  53,        101) /* PlacementPosition - Resting */
      , (31310,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31310, 106,        500) /* ItemSpellcraft */
      , (31310, 107,      10000) /* ItemCurMana */

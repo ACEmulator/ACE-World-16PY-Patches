@@ -10,7 +10,6 @@ VALUES (50000,   1,        128) /* ItemType - Misc */
      , (50000,  16,          1) /* ItemUseable - No */
      , (50000,  19,          0) /* Value */
      , (50000,  33,          0) /* Bonded - Normal */
-     , (50000,  53,        101) /* PlacementPosition - Resting */
      , (50000,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (50000, 114,          0) /* Attuned - Normal */;
 

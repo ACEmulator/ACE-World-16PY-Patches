@@ -12,7 +12,6 @@ VALUES (30258,   1,      16384) /* ItemType - Key */
      , (30258,  19,          0) /* Value */
      , (30258,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30258,  33,         -1) /* Bonded - Slippery */
-     , (30258,  53,        101) /* PlacementPosition - Resting */
      , (30258,  91,          1) /* MaxStructure */
      , (30258,  92,          1) /* Structure */
      , (30258,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

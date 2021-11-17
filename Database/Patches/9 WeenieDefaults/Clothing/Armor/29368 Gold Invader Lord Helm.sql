@@ -13,7 +13,6 @@ VALUES (29368,   1,          2) /* ItemType - Armor */
      , (29368,  19,       3500) /* Value */
      , (29368,  28,        260) /* ArmorLevel */
      , (29368,  33,          0) /* Bonded - Normal */
-     , (29368,  53,        101) /* PlacementPosition - Resting */
      , (29368,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29368, 106,        250) /* ItemSpellcraft */
      , (29368, 107,        900) /* ItemCurMana */

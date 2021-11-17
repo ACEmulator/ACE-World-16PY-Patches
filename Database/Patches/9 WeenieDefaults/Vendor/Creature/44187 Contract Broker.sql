@@ -6,8 +6,8 @@ VALUES (44187, 'ace44187-contractbroker-shoushi', 12, '2021-11-01 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44187,   1,         16) /* ItemType - Creature */
      , (44187,   2,         31) /* CreatureType - Human */
-     , (44187,   6,        255) /* ItemsCapacity */
-     , (44187,   7,        255) /* ContainersCapacity */
+     , (44187,   6,         -1) /* ItemsCapacity */
+     , (44187,   7,         -1) /* ContainersCapacity */
      , (44187,  16,         32) /* ItemUseable - Remote */
      , (44187,  25,         11) /* Level */
      , (44187,  74, 1074005767) /* MerchandiseItemTypes - Vestements, Weapon, Container, Useless, PromissoryNote, TinkeringMaterial */

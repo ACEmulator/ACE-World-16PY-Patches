@@ -49,6 +49,3 @@ VALUES (45363,   1, 0x020009A7) /* Setup */
      , (45363,  28,       5834) /* Spell - Incantation of Recklessness Mastery Self */
      , (45363,  50, 0x06005B29) /* IconOverlay */
      , (45363,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45363,  5834,      2)  /* Incantation of Recklessness Mastery Self */;

@@ -18,8 +18,6 @@ VALUES (45539,   1,          1) /* ItemType - MeleeWeapon */
      , (45539,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (45539,  49,         35) /* WeaponTime */
      , (45539,  51,          1) /* CombatUse - Melee */
-     , (45539,  52,          8) /* ParentLocation - LeftWeapon */
-     , (45539,  53,          1) /* PlacementPosition - RightHandCombat */
      , (45539,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45539, 151,          2) /* HookType - Wall */
      , (45539, 353,          4) /* WeaponType - Mace */;

@@ -9,7 +9,7 @@ VALUES (33064,   1,          1) /* ItemType - MeleeWeapon */
      , (33064,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (33064,  16,          1) /* ItemUseable - No */
      , (33064,  19,      20000) /* Value */
-     , (33064,  44,         84) /* Damage */
+     , (33064,  44,         62) /* Damage */
      , (33064,  45,          2) /* DamageType - Pierce */
      , (33064,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (33064,  47,          2) /* AttackType - Thrust */
@@ -37,8 +37,8 @@ VALUES (33064,   5,   -0.05) /* ManaRate */
      , (33064,  21,       0) /* WeaponLength */
      , (33064,  22,     0.5) /* DamageVariance */
      , (33064,  26,       0) /* MaximumVelocity */
-     , (33064,  29,    1.27) /* WeaponDefense */
-     , (33064,  62,    1.35) /* WeaponOffense */
+     , (33064,  29,    1.10) /* WeaponDefense */
+     , (33064,  62,    1.15) /* WeaponOffense */
      , (33064,  63,       1) /* DamageMod */
      , (33064, 136,    1.99) /* CriticalMultiplier */
      , (33064, 147,    0.33) /* CriticalFrequency */

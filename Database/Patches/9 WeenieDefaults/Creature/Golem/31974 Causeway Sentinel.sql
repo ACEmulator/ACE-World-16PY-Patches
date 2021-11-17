@@ -6,8 +6,8 @@ VALUES (31974, 'ace31974-causewaysentinel', 10, '2021-11-01 00:00:00') /* Creatu
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31974,   1,         16) /* ItemType - Creature */
      , (31974,   2,         13) /* CreatureType - Golem */
-     , (31974,   6,        255) /* ItemsCapacity */
-     , (31974,   7,        255) /* ContainersCapacity */
+     , (31974,   6,         -1) /* ItemsCapacity */
+     , (31974,   7,         -1) /* ContainersCapacity */
      , (31974,  16,         32) /* ItemUseable - Remote */
      , (31974,  25,        500) /* Level */
      , (31974,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -17,6 +17,7 @@ VALUES (31974,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31974,   1, True ) /* Stuck */
+     , (31974,   8, True ) /* AllowGive */
      , (31974,  11, True ) /* IgnoreCollisions */
      , (31974,  12, True ) /* ReportCollisions */
      , (31974,  14, True ) /* GravityStatus */

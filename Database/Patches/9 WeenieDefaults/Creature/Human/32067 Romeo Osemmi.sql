@@ -7,8 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32067,   1,         16) /* ItemType - Creature */
      , (32067,   2,         31) /* CreatureType - Human */
      , (32067,   3,         20) /* PaletteTemplate - Silver */
-     , (32067,   6,        255) /* ItemsCapacity */
-     , (32067,   7,        255) /* ContainersCapacity */
+     , (32067,   6,         -1) /* ItemsCapacity */
+     , (32067,   7,         -1) /* ContainersCapacity */
      , (32067,  16,         32) /* ItemUseable - Remote */
      , (32067,  25,        187) /* Level */
      , (32067,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

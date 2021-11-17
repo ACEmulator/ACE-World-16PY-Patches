@@ -20,7 +20,6 @@ VALUES (21355,   1,          1) /* ItemType - MeleeWeapon */
      , (21355,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (21355,  49,         20) /* WeaponTime */
      , (21355,  51,          1) /* CombatUse - Melee */
-     , (21355,  52,          1) /* ParentLocation - RightHand */
      , (21355,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21355, 114,          1) /* Attuned - Attuned */
      , (21355, 150,        103) /* HookPlacement - Hook */

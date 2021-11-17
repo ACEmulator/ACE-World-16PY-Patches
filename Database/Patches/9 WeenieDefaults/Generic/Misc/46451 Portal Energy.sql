@@ -9,9 +9,7 @@ VALUES (46451,   1,        128) /* ItemType - Misc */
      , (46451,  16,          1) /* ItemUseable - No */
      , (46451,  19,          0) /* Value */
      , (46451,  93,       2068) /* PhysicsState - Ethereal, IgnoreCollisions, LightingOn */
-     , (46451,  98, 1485859215) /* CreationTimestamp */
-     , (46451, 267,         20) /* Lifespan */
-     , (46451, 268,         20) /* RemainingLifespan */;
+     , (46451, 267,         20) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46451,   1, True ) /* Stuck */

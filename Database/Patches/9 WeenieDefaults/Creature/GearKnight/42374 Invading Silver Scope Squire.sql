@@ -6,8 +6,8 @@ VALUES (42374, 'ace42374-invadingsilverscopesquire', 10, '2021-11-01 00:00:00') 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42374,   1,         16) /* ItemType - Creature */
      , (42374,   2,         99) /* CreatureType - GearKnight */
-     , (42374,   6,        255) /* ItemsCapacity */
-     , (42374,   7,        255) /* ContainersCapacity */
+     , (42374,   6,         -1) /* ItemsCapacity */
+     , (42374,   7,         -1) /* ContainersCapacity */
      , (42374,  16,          1) /* ItemUseable - No */
      , (42374,  25,        160) /* Level */
      , (42374,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -19,8 +19,7 @@ VALUES (72529,   1, True ) /* Stuck */
      , (72529,  13, True ) /* Ethereal */
      , (72529,  14, True ) /* GravityStatus */
      , (72529,  15, True ) /* LightsStatus */
-     , (72529,  19, True ) /* Attackable */
-     , (72529,  88, True ) /* PortalShowDestination */;
+     , (72529,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72529,  39,    0.75) /* DefaultScale */

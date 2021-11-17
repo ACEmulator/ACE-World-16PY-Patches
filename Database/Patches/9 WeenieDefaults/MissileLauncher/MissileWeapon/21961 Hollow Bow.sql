@@ -20,7 +20,7 @@ VALUES (21961,   1,        256) /* ItemType - MissileWeapon */
      , (21961,  50,         64) /* AmmoType - ArrowChorizite */
      , (21961,  51,          2) /* CombatUse - Missile */
      , (21961,  52,          2) /* ParentLocation - LeftHand */
-     , (21961,  53,        101) /* PlacementPosition - Resting */
+     , (21961,  53,          3) /* PlacementPosition - LeftHand */
      , (21961,  60,        175) /* WeaponRange */
      , (21961,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21961, 114,          1) /* Attuned - Attuned */

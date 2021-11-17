@@ -49,6 +49,3 @@ VALUES (30173,   1, 0x020009A7) /* Setup */
      , (30173,  28,       4498) /* Spell - Incantation of Rejuvenation Self */
      , (30173,  50, 0x06005B5F) /* IconOverlay */
      , (30173,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30173,  4498,      2)  /* Incantation of Rejuvenation Self */;

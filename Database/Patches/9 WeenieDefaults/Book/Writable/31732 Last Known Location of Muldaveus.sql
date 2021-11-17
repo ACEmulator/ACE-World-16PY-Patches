@@ -9,7 +9,6 @@ VALUES (31732,   1,       8192) /* ItemType - Writable */
      , (31732,  16,          8) /* ItemUseable - Contained */
      , (31732,  19,         10) /* Value */
      , (31732,  33,          1) /* Bonded - Bonded */
-     , (31732,  53,        101) /* PlacementPosition - Resting */
      , (31732,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31732, 114,          1) /* Attuned - Attuned */;
 
@@ -35,6 +34,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31732, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31732, 0, 0xFFFFFFFF, 'Mancanza', '', False, 'The reconstructed journal of Muldaveus has given us a clue to his last known location. It appears that he was recently exploring an icy dungeon on the Haleatan Islands.
+VALUES (31732, 0, 0xFFFFFFFF, 'Mancanza', 'prewritten', False, 'The reconstructed journal of Muldaveus has given us a clue to his last known location. It appears that he was recently exploring an icy dungeon on the Haleatan Islands.
 
 The dungeon can be found at 89.5N, 56.3W on the Isle of Ruin.');

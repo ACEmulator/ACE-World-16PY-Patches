@@ -17,7 +17,6 @@ VALUES (25904,   1,          1) /* ItemType - MeleeWeapon */
      , (25904,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (25904,  49,         15) /* WeaponTime */
      , (25904,  51,          1) /* CombatUse - Melee */
-     , (25904,  53,        101) /* PlacementPosition - Resting */
      , (25904,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25904, 106,        400) /* ItemSpellcraft */
      , (25904, 107,        800) /* ItemCurMana */

@@ -20,8 +20,6 @@ VALUES (7573,   1,          1) /* ItemType - MeleeWeapon */
      , (7573,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (7573,  49,         30) /* WeaponTime */
      , (7573,  51,          1) /* CombatUse - Melee */
-     , (7573,  52,          1) /* ParentLocation - RightHand */
-     , (7573,  53,          1) /* PlacementPosition - RightHandCombat */
      , (7573,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7573, 114,          1) /* Attuned - Attuned */
      , (7573, 353,          5) /* WeaponType - Spear */;

@@ -17,6 +17,8 @@ VALUES (71762,   1,        256) /* ItemType - MissileWeapon */
      , (71762,  49,         60) /* WeaponTime */
      , (71762,  50,          2) /* AmmoType - Bolt */
      , (71762,  51,          2) /* CombatUse - Missile */
+     , (71762,  52,          2) /* ParentLocation - LeftHand */
+     , (71762,  53,          3) /* PlacementPosition - LeftHand */
      , (71762,  60,        195) /* WeaponRange */
      , (71762,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71762, 106,        300) /* ItemSpellcraft */

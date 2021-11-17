@@ -13,7 +13,6 @@ VALUES (70281,   1,          2) /* ItemType - Armor */
      , (70281,  19,       6500) /* Value */
      , (70281,  28,        250) /* ArmorLevel */
      , (70281,  33,          0) /* Bonded - Normal */
-     , (70281,  53,        101) /* PlacementPosition - Resting */
      , (70281,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70281, 106,        250) /* ItemSpellcraft */
      , (70281, 107,       5000) /* ItemCurMana */

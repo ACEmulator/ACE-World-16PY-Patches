@@ -13,7 +13,6 @@ VALUES (28613,   1,          4) /* ItemType - Clothing */
      , (28613,  19,       1500) /* Value */
      , (28613,  27,          1) /* ArmorType - Cloth */
      , (28613,  28,          0) /* ArmorLevel */
-     , (28613,  53,        101) /* PlacementPosition - Resting */
      , (28613,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

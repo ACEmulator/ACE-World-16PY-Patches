@@ -20,8 +20,6 @@ VALUES (7563,   1,          1) /* ItemType - MeleeWeapon */
      , (7563,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (7563,  49,         30) /* WeaponTime */
      , (7563,  51,          1) /* CombatUse - Melee */
-     , (7563,  52,          1) /* ParentLocation - RightHand */
-     , (7563,  53,          1) /* PlacementPosition - RightHandCombat */
      , (7563,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7563, 114,          1) /* Attuned - Attuned */
      , (7563, 353,          3) /* WeaponType - Axe */;

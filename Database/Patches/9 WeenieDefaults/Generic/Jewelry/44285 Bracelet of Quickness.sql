@@ -10,7 +10,6 @@ VALUES (44285,   1,          8) /* ItemType - Jewelry */
      , (44285,   9,     196608) /* ValidLocations - WristWear */
      , (44285,  16,          1) /* ItemUseable - No */
      , (44285,  19,         20) /* Value */
-     , (44285,  53,        101) /* PlacementPosition - Resting */
      , (44285,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44285, 106,        450) /* ItemSpellcraft */
      , (44285, 107,       3000) /* ItemCurMana */

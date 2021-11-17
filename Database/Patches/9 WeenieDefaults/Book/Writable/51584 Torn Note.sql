@@ -8,7 +8,6 @@ VALUES (51584,   1,       8192) /* ItemType - Writable */
      , (51584,   5,         25) /* EncumbranceVal */
      , (51584,  16,          8) /* ItemUseable - Contained */
      , (51584,  33,          1) /* Bonded - Bonded */
-     , (51584,  53,        101) /* PlacementPosition - Resting */
      , (51584,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51584, 114,          1) /* Attuned - Attuned */;
 

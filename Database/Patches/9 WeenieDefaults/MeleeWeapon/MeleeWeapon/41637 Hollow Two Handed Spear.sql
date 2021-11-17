@@ -18,8 +18,6 @@ VALUES (41637,   1,          1) /* ItemType - MeleeWeapon */
      , (41637,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41637,  49,         30) /* WeaponTime */
      , (41637,  51,          5) /* CombatUse - TwoHanded */
-     , (41637,  52,          1) /* ParentLocation - RightHand */
-     , (41637,  53,          1) /* PlacementPosition - RightHandCombat */
      , (41637,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41637, 114,          1) /* Attuned - Attuned */
      , (41637, 353,         11) /* WeaponType - TwoHanded */;

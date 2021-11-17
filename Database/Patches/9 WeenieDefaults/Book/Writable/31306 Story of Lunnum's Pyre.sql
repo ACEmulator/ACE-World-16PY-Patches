@@ -8,7 +8,6 @@ VALUES (31306,   1,       8192) /* ItemType - Writable */
      , (31306,   5,          5) /* EncumbranceVal */
      , (31306,  16,          8) /* ItemUseable - Contained */
      , (31306,  19,          0) /* Value */
-     , (31306,  53,        101) /* PlacementPosition - Resting */
      , (31306,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -35,13 +34,13 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31306, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31306, 0, 0xFFFFFFFF, 'Gaya', '', False, 'Many years ago when the Fiun escaped to Dereth, only one Fiun female fled with them. Her name was Fiun Lunnum and with her rested the fate of all the Fiun. For as long as Lunnum survived there remained hope that the Fiun race would somehow survive and rebuild. Unfortunately, hope soon turned to horror as one day Lunnum was found brutally murdered by one of their own.')
-     , (31306, 1, 0xFFFFFFFF, 'Gaya', '', False, 'A note lay next to her that read:
+VALUES (31306, 0, 0xFFFFFFFF, 'Gaya', 'prewritten', False, 'Many years ago when the Fiun escaped to Dereth, only one Fiun female fled with them. Her name was Fiun Lunnum and with her rested the fate of all the Fiun. For as long as Lunnum survived there remained hope that the Fiun race would somehow survive and rebuild. Unfortunately, hope soon turned to horror as one day Lunnum was found brutally murdered by one of their own.')
+     , (31306, 1, 0xFFFFFFFF, 'Gaya', 'prewritten', False, 'A note lay next to her that read:
 
 "For our arrogance."
 
 Lunnum''s Pyre commemorates the passing of the last Fiun female. Its pure fire burns eternally and is maintained by the ever vigilant Gaya.')
-     , (31306, 2, 0xFFFFFFFF, 'Gaya', '', False, 'These rituals must be observed to preserve the purity of Lunnum''s Pyre.
+     , (31306, 2, 0xFFFFFFFF, 'Gaya', 'prewritten', False, 'These rituals must be observed to preserve the purity of Lunnum''s Pyre.
 
 Seek the Great Frost Tree at 92.1N 42.2W and cut a branch from the tree with the Fiun Hatchet.
 

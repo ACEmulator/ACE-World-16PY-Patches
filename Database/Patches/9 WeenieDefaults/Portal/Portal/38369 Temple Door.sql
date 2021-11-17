@@ -10,8 +10,7 @@ VALUES (38369,   1,      65536) /* ItemType - Portal */
      , (38369,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (38369, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (38369, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (38369, 267,        300) /* Lifespan */
-     , (38369, 268,        300) /* RemainingLifespan */;
+     , (38369, 267,        300) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38369,   1, True ) /* Stuck */;

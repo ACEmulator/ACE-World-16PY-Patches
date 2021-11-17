@@ -9,7 +9,6 @@ VALUES (44996,   1,       8192) /* ItemType - Writable */
      , (44996,  16,          8) /* ItemUseable - Contained */
      , (44996,  19,          0) /* Value */
      , (44996,  33,          1) /* Bonded - Bonded */
-     , (44996,  53,        101) /* PlacementPosition - Resting */
      , (44996,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44996, 114,          1) /* Attuned - Attuned */;
 

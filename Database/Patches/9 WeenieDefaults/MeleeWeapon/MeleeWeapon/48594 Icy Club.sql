@@ -19,7 +19,6 @@ VALUES (48594,   1,          1) /* ItemType - MeleeWeapon */
      , (48594,  48,         45) /* WeaponSkill - LightWeapons */
      , (48594,  49,         40) /* WeaponTime */
      , (48594,  51,          1) /* CombatUse - Melee */
-     , (48594,  52,          1) /* ParentLocation - RightHand */
      , (48594,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48594, 151,          2) /* HookType - Wall */
      , (48594, 353,          4) /* WeaponType - Mace */;

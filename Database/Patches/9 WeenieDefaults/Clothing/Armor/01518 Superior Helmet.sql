@@ -15,7 +15,6 @@ VALUES (1518,   1,          2) /* ItemType - Armor */
      , (1518,  19,       5500) /* Value */
      , (1518,  27,         32) /* ArmorType - Metal */
      , (1518,  28,        200) /* ArmorLevel */
-     , (1518,  53,        101) /* PlacementPosition - Resting */
      , (1518,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (1518, 106,        133) /* ItemSpellcraft */
      , (1518, 107,        336) /* ItemCurMana */

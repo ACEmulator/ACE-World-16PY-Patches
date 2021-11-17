@@ -20,8 +20,6 @@ VALUES (7571,   1,          1) /* ItemType - MeleeWeapon */
      , (7571,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (7571,  49,         20) /* WeaponTime */
      , (7571,  51,          1) /* CombatUse - Melee */
-     , (7571,  52,          1) /* ParentLocation - RightHand */
-     , (7571,  53,          1) /* PlacementPosition - RightHandCombat */
      , (7571,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7571, 114,          1) /* Attuned - Attuned */
      , (7571, 353,          7) /* WeaponType - Staff */;

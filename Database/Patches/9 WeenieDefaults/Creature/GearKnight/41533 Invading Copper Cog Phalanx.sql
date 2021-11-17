@@ -6,8 +6,8 @@ VALUES (41533, 'ace41533-invadingcoppercogphalanx', 10, '2021-11-01 00:00:00') /
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41533,   1,         16) /* ItemType - Creature */
      , (41533,   2,         99) /* CreatureType - GearKnight */
-     , (41533,   6,        255) /* ItemsCapacity */
-     , (41533,   7,        255) /* ContainersCapacity */
+     , (41533,   6,         -1) /* ItemsCapacity */
+     , (41533,   7,         -1) /* ContainersCapacity */
      , (41533,  16,          1) /* ItemUseable - No */
      , (41533,  25,        135) /* Level */
      , (41533,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */

@@ -50,6 +50,3 @@ VALUES (30147,   1, 0x020009A7) /* Setup */
      , (30147,  28,       4566) /* Spell - Incantation of Item Tinkering Expertise Self */
      , (30147,  50, 0x06005B45) /* IconOverlay */
      , (30147,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30147,  4566,      2)  /* Incantation of Item Tinkering Expertise Self */;

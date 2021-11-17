@@ -10,7 +10,6 @@ VALUES (32209,   1,         32) /* ItemType - Food */
      , (32209,  12,          1) /* StackSize */
      , (32209,  16,          8) /* ItemUseable - Contained */
      , (32209,  19,          1) /* Value */
-     , (32209,  53,        101) /* PlacementPosition - Resting */
      , (32209,  89,          4) /* BoosterEnum - Stamina */
      , (32209,  90,         40) /* BoostValue */
      , (32209,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

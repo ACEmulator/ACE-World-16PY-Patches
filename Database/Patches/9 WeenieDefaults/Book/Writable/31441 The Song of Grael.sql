@@ -9,7 +9,6 @@ VALUES (31441,   1,       8192) /* ItemType - Writable */
      , (31441,  16,          8) /* ItemUseable - Contained */
      , (31441,  19,         10) /* Value */
      , (31441,  22,       1000) /* AvailableCharacter */
-     , (31441,  53,        101) /* PlacementPosition - Resting */
      , (31441,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31441, 114,          0) /* Attuned - Normal */;
 
@@ -36,37 +35,37 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31441, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31441, 0, 0xFFFFFFFF, 'Unknown author', '', False, 'Grael was once a Spear of the Mukkir
+VALUES (31441, 0, 0xFFFFFFFF, 'Unknown author', 'prewritten', False, 'Grael was once a Spear of the Mukkir
 He was a Blood-Warrior of Chief Daemal
 His arm was the strongest of the Blood-Warriors
 His beads of victory were many
 He took many wives and many slaves
 He fought at the Chief''s left hand as they sang songs of rage')
-     , (31441, 1, 0xFFFFFFFF, 'Unknown author', '', False, 'Grael failed Chief Daemal
+     , (31441, 1, 0xFFFFFFFF, 'Unknown author', 'prewritten', False, 'Grael failed Chief Daemal
 The Shining Ones from the south attacked the Mukkir
 Chief Daemal led the Blood-Warriors to battle
 Grael was overwhelmed by sorcerous light
 He failed to protect the back of his Chief
 He saw his Chief fall, singing a song of rage')
-     , (31441, 2, 0xFFFFFFFF, 'Unknown author', '', False, 'Grael became a prisoner of the Shining Ones
+     , (31441, 2, 0xFFFFFFFF, 'Unknown author', 'prewritten', False, 'Grael became a prisoner of the Shining Ones
 In their Great Circle, his war became their sport
 Every day, he raged for the fall of his Chief
 He slew all who came before him
 He took their heads and ate their hearts
 Every night, among the slaves, he sang songs of rage')
-     , (31441, 3, 0xFFFFFFFF, 'Unknown author', '', False, 'Grael took his vengeance upon the Shining Ones
+     , (31441, 3, 0xFFFFFFFF, 'Unknown author', 'prewritten', False, 'Grael took his vengeance upon the Shining Ones
 He took their slaves as his Blood-Warriors
 His Blood-Warriors killed thousands who came for sport
 The blood of the Shining Ones flooded their Great Circle
 Grael ate the hearts of his slave-takers
 He offered heads to the shade of his chief as he sang songs of rage')
-     , (31441, 4, 0xFFFFFFFF, 'Unknown author', '', False, 'Grael fought three days against the Shining Ones
+     , (31441, 4, 0xFFFFFFFF, 'Unknown author', 'prewritten', False, 'Grael fought three days against the Shining Ones
 The streets of their city choked on blood
 Slaves fought Shining Ones everywhere
 The Shining Ones were many and fought with sorcery
 The slaves were few and had no sorcery
 The slaves fell and Grael fled, singing songs of rage')
-     , (31441, 5, 0xFFFFFFFF, 'Unknown author', '', False, 'Grael sought Darkness to fight the Shining Ones
+     , (31441, 5, 0xFFFFFFFF, 'Unknown author', 'prewritten', False, 'Grael sought Darkness to fight the Shining Ones
 He swore oaths with the Dark that speaks
 He spilled blood for the Dark that drinks
 He learned to move within the Dark that walks

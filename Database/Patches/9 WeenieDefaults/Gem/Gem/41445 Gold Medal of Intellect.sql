@@ -11,7 +11,6 @@ VALUES (41445,   1,       2048) /* ItemType - Gem */
      , (41445,  16,          8) /* ItemUseable - Contained */
      , (41445,  18,          8) /* UiEffects - BoostMana */
      , (41445,  19,          0) /* Value */
-     , (41445,  53,        101) /* PlacementPosition - Resting */
      , (41445,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41445,  94,         16) /* TargetType - Creature */
      , (41445, 151,         11) /* HookType - Floor, Wall, Yard */

@@ -12,7 +12,6 @@ VALUES (45964,   1,          2) /* ItemType - Armor */
      , (45964,  16,          1) /* ItemUseable - No */
      , (45964,  19,        100) /* Value */
      , (45964,  28,        240) /* ArmorLevel */
-     , (45964,  53,        101) /* PlacementPosition - Resting */
      , (45964,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45964, 106,        250) /* ItemSpellcraft */
      , (45964, 107,        400) /* ItemCurMana */

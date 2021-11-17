@@ -20,8 +20,6 @@ VALUES (34017,   1,          1) /* ItemType - MeleeWeapon */
      , (34017,  48,         11) /* WeaponSkill - Sword */
      , (34017,  49,         25) /* WeaponTime */
      , (34017,  51,          1) /* CombatUse - Melee */
-     , (34017,  52,          1) /* ParentLocation - RightHand */
-     , (34017,  53,        101) /* PlacementPosition - Resting */
      , (34017,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34017, 353,          2) /* WeaponType - Sword */;
 

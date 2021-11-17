@@ -49,6 +49,3 @@ VALUES (30151,   1, 0x020009A7) /* Setup */
      , (30151,  28,       1635) /* Spell - Lifestone Recall */
      , (30151,  50, 0x06005B49) /* IconOverlay */
      , (30151,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30151,  1635,      2)  /* Lifestone Recall */;

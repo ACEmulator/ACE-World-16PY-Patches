@@ -12,8 +12,6 @@ VALUES (32488,   1,      32768) /* ItemType - Caster */
      , (32488,  19,       2300) /* Value */
      , (32488,  33,          1) /* Bonded - Bonded */
      , (32488,  46,        512) /* DefaultCombatStyle - Magic */
-     , (32488,  52,          1) /* ParentLocation - RightHand */
-     , (32488,  53,          1) /* PlacementPosition - RightHandCombat */
      , (32488,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (32488,  94,         16) /* TargetType - Creature */
      , (32488, 106,        250) /* ItemSpellcraft */

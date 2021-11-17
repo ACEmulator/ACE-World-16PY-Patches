@@ -6,8 +6,8 @@ VALUES (33020, 'ace33020-sandinomontegarre', 10, '2021-11-01 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33020,   1,         16) /* ItemType - Creature */
      , (33020,   2,         31) /* CreatureType - Human */
-     , (33020,   6,        255) /* ItemsCapacity */
-     , (33020,   7,        255) /* ContainersCapacity */
+     , (33020,   6,         -1) /* ItemsCapacity */
+     , (33020,   7,         -1) /* ContainersCapacity */
      , (33020,  16,         32) /* ItemUseable - Remote */
      , (33020,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (33020, 113,          1) /* Gender - Male */

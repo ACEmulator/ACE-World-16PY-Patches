@@ -49,6 +49,3 @@ VALUES (30153,   1, 0x020009A7) /* Setup */
      , (30153,  28,       4470) /* Spell - Incantation of Lightning Protection Self */
      , (30153,  50, 0x06005B4B) /* IconOverlay */
      , (30153,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30153,  4470,      2)  /* Incantation of Lightning Protection Self */;

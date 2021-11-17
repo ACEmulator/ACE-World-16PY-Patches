@@ -9,7 +9,6 @@ VALUES (28774,   1,      16384) /* ItemType - Key */
      , (28774,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (28774,  19,          0) /* Value */
      , (28774,  33,          1) /* Bonded - Bonded */
-     , (28774,  53,        101) /* PlacementPosition - Resting */
      , (28774,  91,          3) /* MaxStructure */
      , (28774,  92,          3) /* Structure */
      , (28774,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

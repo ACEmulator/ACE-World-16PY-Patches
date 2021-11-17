@@ -49,6 +49,3 @@ VALUES (30124,   1, 0x020009A7) /* Setup */
      , (30124,  28,       4464) /* Spell - Incantation of Bludgeoning Protection Self */
      , (30124,  50, 0x06005B2D) /* IconOverlay */
      , (30124,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30124,  4464,      2)  /* Incantation of Bludgeoning Protection Self */;

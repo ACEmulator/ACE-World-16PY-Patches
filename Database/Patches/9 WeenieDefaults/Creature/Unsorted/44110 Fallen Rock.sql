@@ -5,14 +5,16 @@ VALUES (44110, 'ace44110-fallenrock', 10, '2021-11-01 00:00:00') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44110,   1,         16) /* ItemType - Creature */
-     , (44110,   6,        255) /* ItemsCapacity */
-     , (44110,   7,        255) /* ContainersCapacity */
+     , (44110,   6,         -1) /* ItemsCapacity */
+     , (44110,   7,         -1) /* ContainersCapacity */
      , (44110,  16,          1) /* ItemUseable - No */
      , (44110,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44110,   1, True ) /* Stuck */
      , (44110,  19, False) /* Attackable */
+     , (44110,  52, True ) /* AiImmobile */
+     , (44110,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (44110,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

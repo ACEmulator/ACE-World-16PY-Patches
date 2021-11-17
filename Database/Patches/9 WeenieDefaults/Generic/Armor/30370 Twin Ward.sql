@@ -16,8 +16,6 @@ VALUES (30370,   1,          2) /* ItemType - Armor */
      , (30370,  27,          8) /* ArmorType - Scalemail */
      , (30370,  28,        480) /* ArmorLevel */
      , (30370,  51,          4) /* CombatUse - Shield */
-     , (30370,  52,          3) /* ParentLocation - Shield */
-     , (30370,  53,        101) /* PlacementPosition - Resting */
      , (30370,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30370, 106,        350) /* ItemSpellcraft */
      , (30370, 107,       4000) /* ItemCurMana */

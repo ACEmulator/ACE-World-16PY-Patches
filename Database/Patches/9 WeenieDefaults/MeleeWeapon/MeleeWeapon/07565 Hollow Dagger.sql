@@ -20,7 +20,6 @@ VALUES (7565,   1,          1) /* ItemType - MeleeWeapon */
      , (7565,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (7565,  49,         20) /* WeaponTime */
      , (7565,  51,          1) /* CombatUse - Melee */
-     , (7565,  52,          1) /* ParentLocation - RightHand */
      , (7565,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7565, 114,          1) /* Attuned - Attuned */
      , (7565, 151,          2) /* HookType - Wall */

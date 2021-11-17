@@ -17,8 +17,7 @@ VALUES (31892,   1, True ) /* Stuck */
      , (31892,  13, True ) /* Ethereal */
      , (31892,  14, True ) /* GravityStatus */
      , (31892,  15, True ) /* LightsStatus */
-     , (31892,  19, True ) /* Attackable */
-     , (31892,  88, True ) /* PortalShowDestination */;
+     , (31892,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31892,  54,    -0.1) /* UseRadius */;

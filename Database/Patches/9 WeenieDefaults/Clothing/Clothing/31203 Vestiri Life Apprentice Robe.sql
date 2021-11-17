@@ -13,7 +13,6 @@ VALUES (31203,   1,          4) /* ItemType - Clothing */
      , (31203,  19,       1120) /* Value */
      , (31203,  27,          1) /* ArmorType - Cloth */
      , (31203,  28,          0) /* ArmorLevel */
-     , (31203,  53,        101) /* PlacementPosition - Resting */
      , (31203,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31203, 106,        270) /* ItemSpellcraft */
      , (31203, 107,        250) /* ItemCurMana */

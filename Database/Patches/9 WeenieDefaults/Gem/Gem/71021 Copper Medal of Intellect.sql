@@ -11,7 +11,6 @@ VALUES (71021,   1,       2048) /* ItemType - Gem */
      , (71021,  16,          8) /* ItemUseable - Contained */
      , (71021,  18,          8) /* UiEffects - BoostMana */
      , (71021,  19,          0) /* Value */
-     , (71021,  53,        101) /* PlacementPosition - Resting */
      , (71021,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71021,  94,         16) /* TargetType - Creature */
      , (71021, 151,         11) /* HookType - Floor, Wall, Yard */

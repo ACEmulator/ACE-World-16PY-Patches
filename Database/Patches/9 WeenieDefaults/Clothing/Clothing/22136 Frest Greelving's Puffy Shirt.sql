@@ -15,7 +15,6 @@ VALUES (22136,   1,          4) /* ItemType - Clothing */
      , (22136,  27,          1) /* ArmorType - Cloth */
      , (22136,  28,          0) /* ArmorLevel */
      , (22136,  33,          1) /* Bonded - Bonded */
-     , (22136,  53,        101) /* PlacementPosition - Resting */
      , (22136,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22136, 114,          1) /* Attuned - Attuned */
      , (22136, 169,  201328144) /* TsysMutationData */;

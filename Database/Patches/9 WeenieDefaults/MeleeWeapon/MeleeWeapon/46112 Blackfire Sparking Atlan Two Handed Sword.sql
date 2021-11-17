@@ -19,8 +19,6 @@ VALUES (46112,   1,          1) /* ItemType - MeleeWeapon */
      , (46112,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46112,  49,         50) /* WeaponTime */
      , (46112,  51,          5) /* CombatUse - TwoHanded */
-     , (46112,  52,          1) /* ParentLocation - RightHand */
-     , (46112,  53,          1) /* PlacementPosition - RightHandCombat */
      , (46112,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46112, 106,        325) /* ItemSpellcraft */
      , (46112, 107,        400) /* ItemCurMana */

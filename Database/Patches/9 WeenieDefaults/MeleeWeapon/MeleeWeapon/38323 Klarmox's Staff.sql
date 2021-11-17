@@ -20,8 +20,6 @@ VALUES (38323,   1,          1) /* ItemType - MeleeWeapon */
      , (38323,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (38323,  49,         20) /* WeaponTime */
      , (38323,  51,          1) /* CombatUse - Melee */
-     , (38323,  52,          1) /* ParentLocation - RightHand */
-     , (38323,  53,          1) /* PlacementPosition - RightHandCombat */
      , (38323,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (38323, 114,          1) /* Attuned - Attuned */
      , (38323, 353,          7) /* WeaponType - Staff */;

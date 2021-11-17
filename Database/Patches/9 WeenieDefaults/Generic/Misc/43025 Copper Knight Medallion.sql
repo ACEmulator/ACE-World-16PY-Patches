@@ -9,7 +9,6 @@ VALUES (43025,   1,        128) /* ItemType - Misc */
      , (43025,  16,          1) /* ItemUseable - No */
      , (43025,  19,          0) /* Value */
      , (43025,  33,          1) /* Bonded - Bonded */
-     , (43025,  53,        101) /* PlacementPosition - Resting */
      , (43025,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43025, 114,          1) /* Attuned - Attuned */;
 

@@ -17,7 +17,6 @@ VALUES (30092,   1,        128) /* ItemType - Misc */
      , (30092,  17,        151) /* RareId */
      , (30092,  19,          0) /* Value */
      , (30092,  33,         -1) /* Bonded - Slippery */
-     , (30092,  53,        101) /* PlacementPosition - Resting */
      , (30092,  92,        100) /* Structure */
      , (30092,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30092,  94,      35215) /* TargetType - Jewelry, Misc, Gem, RedirectableItemEnchantmentTarget */

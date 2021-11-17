@@ -14,7 +14,6 @@ VALUES (30085,   1,    4194304) /* ItemType - CraftCookingBase */
      , (30085,  17,        163) /* RareId */
      , (30085,  19,          0) /* Value */
      , (30085,  33,         -1) /* Bonded - Slippery */
-     , (30085,  53,        101) /* PlacementPosition - Resting */
      , (30085,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30085,  94,        134) /* TargetType - Vestements, Misc */;
 

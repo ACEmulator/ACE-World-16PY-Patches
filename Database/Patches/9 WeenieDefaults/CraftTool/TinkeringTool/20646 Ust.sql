@@ -15,7 +15,6 @@ VALUES (20646,   1,  536870912) /* ItemType - TinkeringTool */
      , (20646,  15,         10) /* StackUnitValue */
      , (20646,  16,          8) /* ItemUseable - Contained */
      , (20646,  19,         10) /* Value */
-     , (20646,  53,        101) /* PlacementPosition - Resting */
      , (20646,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20646, 150,        103) /* HookPlacement - Hook */
      , (20646, 151,          2) /* HookType - Wall */;

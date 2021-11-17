@@ -6,8 +6,8 @@ VALUES (52587, 'ace52587-anekshenthorndancer', 10, '2021-11-01 00:00:00') /* Cre
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52587,   1,         16) /* ItemType - Creature */
      , (52587,   2,        101) /* CreatureType - Anekshay */
-     , (52587,   6,        255) /* ItemsCapacity */
-     , (52587,   7,        255) /* ContainersCapacity */
+     , (52587,   6,         -1) /* ItemsCapacity */
+     , (52587,   7,         -1) /* ContainersCapacity */
      , (52587,  16,          1) /* ItemUseable - No */
      , (52587,  25,        300) /* Level */
      , (52587,  68,         13) /* TargetingTactic - Random, LastDamager, TopDamager */

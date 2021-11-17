@@ -11,7 +11,6 @@ VALUES (70288,   1,        128) /* ItemType - Misc */
      , (70288,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (70288,  19,          0) /* Value */
      , (70288,  33,          1) /* Bonded - Bonded */
-     , (70288,  53,        101) /* PlacementPosition - Resting */
      , (70288,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70288,  94,       1024) /* TargetType - Useless */
      , (70288, 114,          1) /* Attuned - Attuned */;

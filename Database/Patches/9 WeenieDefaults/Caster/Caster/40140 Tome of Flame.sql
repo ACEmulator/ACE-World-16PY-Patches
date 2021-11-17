@@ -11,7 +11,6 @@ VALUES (40140,   1,      32768) /* ItemType - Caster */
      , (40140,  19,         10) /* Value */
      , (40140,  45,         16) /* DamageType - Fire */
      , (40140,  46,        512) /* DefaultCombatStyle - Magic */
-     , (40140,  52,          1) /* ParentLocation - RightHand */
      , (40140,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40140,  94,         16) /* TargetType - Creature */
      , (40140, 106,        460) /* ItemSpellcraft */

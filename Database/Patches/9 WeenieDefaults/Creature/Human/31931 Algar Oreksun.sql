@@ -6,8 +6,8 @@ VALUES (31931, 'ace31931-algaroreksun', 10, '2021-11-01 00:00:00') /* Creature *
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31931,   1,         16) /* ItemType - Creature */
      , (31931,   2,         31) /* CreatureType - Human */
-     , (31931,   6,        255) /* ItemsCapacity */
-     , (31931,   7,        255) /* ContainersCapacity */
+     , (31931,   6,         -1) /* ItemsCapacity */
+     , (31931,   7,         -1) /* ContainersCapacity */
      , (31931,  16,         32) /* ItemUseable - Remote */
      , (31931,  25,        130) /* Level */
      , (31931,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

@@ -15,7 +15,6 @@ VALUES (45368,   1,       2048) /* ItemType - Gem */
      , (45368,  18,          1) /* UiEffects - Magical */
      , (45368,  19,          0) /* Value */
      , (45368,  33,         -1) /* Bonded - Slippery */
-     , (45368,  53,        101) /* PlacementPosition - Resting */
      , (45368,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45368,  94,         16) /* TargetType - Creature */
      , (45368, 106,        325) /* ItemSpellcraft */

@@ -11,7 +11,6 @@ VALUES (31379,   1,       2048) /* ItemType - Gem */
      , (31379,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31379,  19,          0) /* Value */
      , (31379,  33,          1) /* Bonded - Bonded */
-     , (31379,  53,        101) /* PlacementPosition - Resting */
      , (31379,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31379,  94,       2048) /* TargetType - Gem */
      , (31379, 114,          1) /* Attuned - Attuned */;

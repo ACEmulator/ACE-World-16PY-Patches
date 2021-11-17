@@ -6,8 +6,8 @@ VALUES (49417, 'ace49417-spectre', 71, '2021-11-01 00:00:00') /* CombatPet */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49417,   1,         16) /* ItemType - Creature */
      , (49417,   2,         77) /* CreatureType - Ghost */
-     , (49417,   6,        255) /* ItemsCapacity */
-     , (49417,   7,        255) /* ContainersCapacity */
+     , (49417,   6,         -1) /* ItemsCapacity */
+     , (49417,   7,         -1) /* ContainersCapacity */
      , (49417,  16,          1) /* ItemUseable - No */
      , (49417,  25,        100) /* Level */
      , (49417,  68,         64) /* TargetingTactic - Nearest */

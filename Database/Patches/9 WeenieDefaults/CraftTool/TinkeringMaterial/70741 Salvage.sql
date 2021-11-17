@@ -16,7 +16,6 @@ VALUES (70741,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (70741,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (70741,  19,         10) /* Value */
      , (70741,  33,          1) /* Bonded - Bonded */
-     , (70741,  53,        101) /* PlacementPosition - Resting */
      , (70741,  91,        100) /* MaxStructure */
      , (70741,  92,        100) /* Structure */
      , (70741,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

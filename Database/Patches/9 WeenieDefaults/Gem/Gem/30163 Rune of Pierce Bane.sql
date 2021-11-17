@@ -49,6 +49,3 @@ VALUES (30163,   1, 0x020009A7) /* Setup */
      , (30163,  28,       4412) /* Spell - Incantation of Piercing Bane */
      , (30163,  50, 0x06005B55) /* IconOverlay */
      , (30163,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30163,  4412,      2)  /* Incantation of Piercing Bane */;

@@ -6,8 +6,8 @@ VALUES (70708, 'ace70708-bronzegauntletknightcommander', 10, '2021-11-01 00:00:0
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70708,   1,         16) /* ItemType - Creature */
      , (70708,   2,         99) /* CreatureType - GearKnight */
-     , (70708,   6,        255) /* ItemsCapacity */
-     , (70708,   7,        255) /* ContainersCapacity */
+     , (70708,   6,         -1) /* ItemsCapacity */
+     , (70708,   7,         -1) /* ContainersCapacity */
      , (70708,  16,         32) /* ItemUseable - Remote */
      , (70708,  25,        195) /* Level */
      , (70708,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

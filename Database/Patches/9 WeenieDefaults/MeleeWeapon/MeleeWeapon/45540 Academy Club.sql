@@ -19,8 +19,6 @@ VALUES (45540,   1,          1) /* ItemType - MeleeWeapon */
      , (45540,  48,         45) /* WeaponSkill - LightWeapons */
      , (45540,  49,         35) /* WeaponTime */
      , (45540,  51,          1) /* CombatUse - Melee */
-     , (45540,  52,          1) /* ParentLocation - RightHand */
-     , (45540,  53,        101) /* PlacementPosition - Resting */
      , (45540,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45540, 150,        103) /* HookPlacement - Hook */
      , (45540, 151,          2) /* HookType - Wall */

@@ -6,8 +6,8 @@ VALUES (42618, 'ace42618-merkitzibnakadh', 10, '2021-11-01 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42618,   1,         16) /* ItemType - Creature */
      , (42618,   2,         31) /* CreatureType - Human */
-     , (42618,   6,        255) /* ItemsCapacity */
-     , (42618,   7,        255) /* ContainersCapacity */
+     , (42618,   6,         -1) /* ItemsCapacity */
+     , (42618,   7,         -1) /* ContainersCapacity */
      , (42618,  16,         32) /* ItemUseable - Remote */
      , (42618,  25,        275) /* Level */
      , (42618,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -19,6 +19,7 @@ VALUES (42618,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42618,   1, True ) /* Stuck */
+     , (42618,   8, True ) /* AllowGive */
      , (42618,  11, True ) /* IgnoreCollisions */
      , (42618,  12, True ) /* ReportCollisions */
      , (42618,  14, True ) /* GravityStatus */

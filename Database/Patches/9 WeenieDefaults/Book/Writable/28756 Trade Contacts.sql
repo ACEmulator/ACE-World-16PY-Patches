@@ -8,7 +8,6 @@ VALUES (28756,   1,       8192) /* ItemType - Writable */
      , (28756,   5,         25) /* EncumbranceVal */
      , (28756,  16,          8) /* ItemUseable - Contained */
      , (28756,  19,          5) /* Value */
-     , (28756,  53,        101) /* PlacementPosition - Resting */
      , (28756,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28756, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28756, 0, 0xFFFFFFFF, 'Anton Sillezi', '', True, 'Deliver trade proposals to the following people, then return to me with their answers. I suggest you pursue these merchants in the order in which they are listed herein:
+VALUES (28756, 0, 0xFFFFFFFF, 'Anton Sillezi', 'prewritten', True, 'Deliver trade proposals to the following people, then return to me with their answers. I suggest you pursue these merchants in the order in which they are listed herein:
 
 Name: Lubziklan al-Luq
 Location: Yaraq

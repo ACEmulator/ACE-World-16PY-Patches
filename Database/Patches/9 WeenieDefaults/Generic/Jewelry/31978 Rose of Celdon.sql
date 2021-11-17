@@ -11,8 +11,6 @@ VALUES (31978,   1,          8) /* ItemType - Jewelry */
      , (31978,  18,          1) /* UiEffects - Magical */
      , (31978,  19,      16000) /* Value */
      , (31978,  33,          1) /* Bonded - Bonded */
-     , (31978,  52,          2) /* ParentLocation - LeftHand */
-     , (31978,  53,        101) /* PlacementPosition - Resting */
      , (31978,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31978, 106,        300) /* ItemSpellcraft */
      , (31978, 107,       8000) /* ItemCurMana */

@@ -19,6 +19,7 @@ VALUES (29468,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29468,   1, True ) /* Stuck */
+     , (29468,   8, True ) /* AllowGive */
      , (29468,  11, True ) /* IgnoreCollisions */
      , (29468,  12, True ) /* ReportCollisions */
      , (29468,  14, True ) /* GravityStatus */

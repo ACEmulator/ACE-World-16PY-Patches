@@ -56,5 +56,4 @@ VALUES (35297,   1, 0x020016D4) /* Setup */
      , (35297,  55,       3911) /* ProcSpell - Spiral of Souls */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35297,  2694,      2)  /* Moderate Heavy Weapon Aptitude */
-     , (35297,  3911,      2)  /* Spiral of Souls */;
+VALUES (35297,  2694,      2)  /* Moderate Heavy Weapon Aptitude */;

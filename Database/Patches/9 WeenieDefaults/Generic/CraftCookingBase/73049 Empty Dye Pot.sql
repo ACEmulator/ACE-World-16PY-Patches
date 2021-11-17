@@ -15,7 +15,6 @@ VALUES (73049,   1,    4194304) /* ItemType - CraftCookingBase */
      , (73049,  15,        100) /* StackUnitValue */
      , (73049,  16,          1) /* ItemUseable - No */
      , (73049,  19,        100) /* Value */
-     , (73049,  53,        101) /* PlacementPosition - Resting */
      , (73049,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (73049,  94,        134) /* TargetType - Vestements, Misc */
      , (73049, 150,        103) /* HookPlacement - Hook */

@@ -18,8 +18,6 @@ VALUES (11237,   1,          1) /* ItemType - MeleeWeapon */
      , (11237,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (11237,  49,         80) /* WeaponTime */
      , (11237,  51,          1) /* CombatUse - Melee */
-     , (11237,  52,          8) /* ParentLocation - LeftWeapon */
-     , (11237,  53,          1) /* PlacementPosition - RightHandCombat */
      , (11237,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11237, 114,          1) /* Attuned - Attuned */
      , (11237, 353,          4) /* WeaponType - Mace */;

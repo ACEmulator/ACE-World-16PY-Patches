@@ -10,7 +10,6 @@ VALUES (30250,   1,        128) /* ItemType - Misc */
      , (30250,  16,    2228232) /* ItemUseable - SourceContainedTargetRemoteOrSelf */
      , (30250,  17,         70) /* RareId */
      , (30250,  19,          0) /* Value */
-     , (30250,  53,        101) /* PlacementPosition - Resting */
      , (30250,  89,          2) /* BoosterEnum - Health */
      , (30250,  90,        500) /* BoostValue */
      , (30250,  91,         25) /* MaxStructure */

@@ -14,6 +14,7 @@ VALUES (35869,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35869,   1, True ) /* Stuck */
+     , (35869,   8, True ) /* AllowGive */
      , (35869,  11, True ) /* IgnoreCollisions */
      , (35869,  12, True ) /* ReportCollisions */
      , (35869,  13, False) /* Ethereal */

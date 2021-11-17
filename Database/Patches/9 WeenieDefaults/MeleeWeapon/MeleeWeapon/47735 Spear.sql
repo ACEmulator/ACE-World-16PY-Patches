@@ -17,8 +17,6 @@ VALUES (47735,   1,          1) /* ItemType - MeleeWeapon */
      , (47735,  48,         45) /* WeaponSkill - LightWeapons */
      , (47735,  49,         25) /* WeaponTime */
      , (47735,  51,          1) /* CombatUse - Melee */
-     , (47735,  52,          1) /* ParentLocation - RightHand */
-     , (47735,  53,        101) /* PlacementPosition - Resting */
      , (47735,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (47735, 151,          2) /* HookType - Wall */
      , (47735, 353,          5) /* WeaponType - Spear */;

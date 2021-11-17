@@ -49,6 +49,3 @@ VALUES (30143,   1, 0x020009A7) /* Setup */
      , (30143,  28,       4405) /* Spell - Aura of Incantation of Heart Seeker Self */
      , (30143,  50, 0x06005B41) /* IconOverlay */
      , (30143,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30143,  4405,      2)  /* Aura of Incantation of Heart Seeker Self */;

@@ -6,8 +6,8 @@ VALUES (41567, 'ace41567-lieutenantgrenlin', 10, '2021-11-01 00:00:00') /* Creat
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41567,   1,         16) /* ItemType - Creature */
      , (41567,   2,         31) /* CreatureType - Human */
-     , (41567,   6,        255) /* ItemsCapacity */
-     , (41567,   7,        255) /* ContainersCapacity */
+     , (41567,   6,         -1) /* ItemsCapacity */
+     , (41567,   7,         -1) /* ContainersCapacity */
      , (41567,  16,         32) /* ItemUseable - Remote */
      , (41567,  25,         85) /* Level */
      , (41567,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

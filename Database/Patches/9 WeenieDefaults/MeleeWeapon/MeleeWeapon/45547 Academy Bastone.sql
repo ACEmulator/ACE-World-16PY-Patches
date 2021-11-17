@@ -19,8 +19,6 @@ VALUES (45547,   1,          1) /* ItemType - MeleeWeapon */
      , (45547,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (45547,  49,         25) /* WeaponTime */
      , (45547,  51,          1) /* CombatUse - Melee */
-     , (45547,  52,          1) /* ParentLocation - RightHand */
-     , (45547,  53,        101) /* PlacementPosition - Resting */
      , (45547,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45547, 150,        103) /* HookPlacement - Hook */
      , (45547, 151,          2) /* HookType - Wall */

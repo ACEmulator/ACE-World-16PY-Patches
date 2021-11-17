@@ -18,8 +18,6 @@ VALUES (45531,   1,          1) /* ItemType - MeleeWeapon */
      , (45531,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (45531,  49,         25) /* WeaponTime */
      , (45531,  51,          1) /* CombatUse - Melee */
-     , (45531,  52,          1) /* ParentLocation - RightHand */
-     , (45531,  53,          1) /* PlacementPosition - RightHandCombat */
      , (45531,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45531, 151,          2) /* HookType - Wall */
      , (45531, 353,          3) /* WeaponType - Axe */;

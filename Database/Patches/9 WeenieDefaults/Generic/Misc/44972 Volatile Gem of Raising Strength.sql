@@ -9,7 +9,6 @@ VALUES (44972,   1,        128) /* ItemType - Misc */
      , (44972,  11,          1) /* MaxStackSize */
      , (44972,  12,          1) /* StackSize */
      , (44972,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (44972,  53,        101) /* PlacementPosition - Resting */
      , (44972,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44972,  94,        128) /* TargetType - Misc */
      , (44972, 114,          1) /* Attuned - Attuned */

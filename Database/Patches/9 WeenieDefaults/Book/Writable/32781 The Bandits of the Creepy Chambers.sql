@@ -29,6 +29,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (32781, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (32781, 0, 0x00000000, 'Unknown', '', False, '"Bandits have established a base south of the Obsidian Rim, near 80S 60W, in an old dungeon called the Creepy Chambers. Supposedly they are stockpiling treasure there to finance some nefarious deeds. No one knows quite what they are up to, but it seems to involve the creatures of Dereth, both native and imported.
+VALUES (32781, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '"Bandits have established a base south of the Obsidian Rim, near 80S 60W, in an old dungeon called the Creepy Chambers. Supposedly they are stockpiling treasure there to finance some nefarious deeds. No one knows quite what they are up to, but it seems to involve the creatures of Dereth, both native and imported.
 
 Xanda Har of Wai Jhou is very interested in learning more about these bandits."');

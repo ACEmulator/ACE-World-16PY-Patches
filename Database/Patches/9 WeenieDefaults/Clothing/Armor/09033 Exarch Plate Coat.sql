@@ -15,7 +15,6 @@ VALUES (9033,   1,          2) /* ItemType - Armor */
      , (9033,  19,       8000) /* Value */
      , (9033,  27,         32) /* ArmorType - Metal */
      , (9033,  28,          0) /* ArmorLevel */
-     , (9033,  53,        101) /* PlacementPosition - Resting */
      , (9033,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9033, 106,        270) /* ItemSpellcraft */
      , (9033, 107,          0) /* ItemCurMana */
@@ -28,8 +27,7 @@ VALUES (9033,  11, True ) /* IgnoreCollisions */
      , (9033,  14, True ) /* GravityStatus */
      , (9033,  19, True ) /* Attackable */
      , (9033,  22, True ) /* Inscribable */
-     , (9033,  69, False) /* IsSellable */
-     , (9033,  94, True ) /* AppraisalHasAllowedActivator */;
+     , (9033,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9033,   5,  -0.125) /* ManaRate */

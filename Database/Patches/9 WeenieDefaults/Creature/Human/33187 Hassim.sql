@@ -6,8 +6,8 @@ VALUES (33187, 'ace33187-hassim', 10, '2021-11-01 00:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33187,   1,         16) /* ItemType - Creature */
      , (33187,   2,         31) /* CreatureType - Human */
-     , (33187,   6,        255) /* ItemsCapacity */
-     , (33187,   7,        255) /* ContainersCapacity */
+     , (33187,   6,         -1) /* ItemsCapacity */
+     , (33187,   7,         -1) /* ContainersCapacity */
      , (33187,  16,         32) /* ItemUseable - Remote */
      , (33187,  25,        120) /* Level */
      , (33187,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -19,6 +19,7 @@ VALUES (33187,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33187,   1, True ) /* Stuck */
+     , (33187,   8, True ) /* AllowGive */
      , (33187,  11, True ) /* IgnoreCollisions */
      , (33187,  12, True ) /* ReportCollisions */
      , (33187,  14, True ) /* GravityStatus */

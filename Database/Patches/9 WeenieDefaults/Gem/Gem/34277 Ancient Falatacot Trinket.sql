@@ -12,7 +12,6 @@ VALUES (34277,   1,       2048) /* ItemType - Gem */
      , (34277,  15,      10000) /* StackUnitValue */
      , (34277,  16,          1) /* ItemUseable - No */
      , (34277,  19,      10000) /* Value */
-     , (34277,  53,        101) /* PlacementPosition - Resting */
      , (34277,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

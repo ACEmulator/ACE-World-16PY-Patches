@@ -20,8 +20,6 @@ VALUES (41708,   1,          1) /* ItemType - MeleeWeapon */
      , (41708,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41708,  49,         30) /* WeaponTime */
      , (41708,  51,          1) /* CombatUse - Melee */
-     , (41708,  52,          1) /* ParentLocation - RightHand */
-     , (41708,  53,        101) /* PlacementPosition - Resting */
      , (41708,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41708, 114,          1) /* Attuned - Attuned */
      , (41708, 150,        103) /* HookPlacement - Hook */

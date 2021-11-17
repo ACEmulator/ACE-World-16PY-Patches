@@ -6,8 +6,8 @@ VALUES (49196, 'ace49196-wisp', 71, '2021-11-01 00:00:00') /* CombatPet */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49196,   1,         16) /* ItemType - Creature */
      , (49196,   2,         20) /* CreatureType - Wisp */
-     , (49196,   6,        255) /* ItemsCapacity */
-     , (49196,   7,        255) /* ContainersCapacity */
+     , (49196,   6,         -1) /* ItemsCapacity */
+     , (49196,   7,         -1) /* ContainersCapacity */
      , (49196,  16,          1) /* ItemUseable - No */
      , (49196,  25,        150) /* Level */
      , (49196,  68,         64) /* TargetingTactic - Nearest */

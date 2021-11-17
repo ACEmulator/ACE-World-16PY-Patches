@@ -6,8 +6,8 @@ VALUES (32650, 'ace32650-lieutenantrothe', 10, '2021-11-01 00:00:00') /* Creatur
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32650,   1,         16) /* ItemType - Creature */
      , (32650,   2,         31) /* CreatureType - Human */
-     , (32650,   6,        255) /* ItemsCapacity */
-     , (32650,   7,        255) /* ContainersCapacity */
+     , (32650,   6,         -1) /* ItemsCapacity */
+     , (32650,   7,         -1) /* ContainersCapacity */
      , (32650,  16,         32) /* ItemUseable - Remote */
      , (32650,  25,        102) /* Level */
      , (32650,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

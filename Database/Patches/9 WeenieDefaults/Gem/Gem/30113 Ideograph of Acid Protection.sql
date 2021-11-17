@@ -49,6 +49,3 @@ VALUES (30113,   1, 0x020009A7) /* Setup */
      , (30113,  28,       4460) /* Spell - Incantation of Acid Protection Self */
      , (30113,  50, 0x06005B21) /* IconOverlay */
      , (30113,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30113,  4460,      2)  /* Incantation of Acid Protection Self */;
