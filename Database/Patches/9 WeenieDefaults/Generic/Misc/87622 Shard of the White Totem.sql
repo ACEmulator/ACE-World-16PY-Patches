@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87622;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87622, 'ace87622-shardofthewhitetotem', 1, '2021-10-15 13:26:53') /* Generic */;
+VALUES (87622, 'ace87622-shardofthewhitetotem', 1, '2021-11-17 07:21:29') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87622,   1,        128) /* ItemType - Misc */
@@ -24,5 +24,5 @@ VALUES (87622,   1, 'Shard of the White Totem') /* Name */
      , (87622,  33, 'WhiteTotemShard_Pickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87622,   1,   33556108) /* Setup */
-     , (87622,   8,  100689070) /* Icon */;
+VALUES (87622,   1, 0x0200068C) /* Setup */
+     , (87622,   8, 0x060064AE) /* Icon */;

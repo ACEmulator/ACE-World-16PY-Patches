@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46121;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46121, 'ace46121-enhancedstingingatlantwohandedsword', 6, '2021-08-03 00:51:21') /* MeleeWeapon */;
+VALUES (46121, 'ace46121-enhancedstingingatlantwohandedsword', 6, '2021-11-17 07:21:29') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46121,   1,          1) /* ItemType - MeleeWeapon */
@@ -52,12 +52,12 @@ VALUES (46121,   1, 'Enhanced Stinging Atlan Two Handed Sword') /* Name */
      , (46121,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46121,   1,   33556375) /* Setup */
-     , (46121,   3,  536870932) /* SoundTable */
-     , (46121,   6,   67111919) /* PaletteBase */
-     , (46121,   7,  268435954) /* ClothingBase */
-     , (46121,   8,  100692941) /* Icon */
-     , (46121,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46121,   1, 0x02000797) /* Setup */
+     , (46121,   3, 0x20000014) /* SoundTable */
+     , (46121,   6, 0x04000BEF) /* PaletteBase */
+     , (46121,   7, 0x100001F2) /* ClothingBase */
+     , (46121,   8, 0x060073CD) /* Icon */
+     , (46121,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46121,  2059,      2)  /* Honed Control */

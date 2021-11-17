@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71267;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71267, 'ace71267-enhancedsparkingatlanaxe', 6, '2020-11-25 23:48:00') /* MeleeWeapon */;
+VALUES (71267, 'ace71267-enhancedsparkingatlanaxe', 6, '2021-11-17 07:21:29') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71267,   1,          1) /* ItemType - MeleeWeapon */
@@ -48,12 +48,12 @@ VALUES (71267,   1, 'Enhanced Sparking Atlan Axe') /* Name */
      , (71267,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (71267,   1,   33556352) /* Setup */
-     , (71267,   3,  536870932) /* SoundTable */
-     , (71267,   6,   67111919) /* PaletteBase */
-     , (71267,   7,  268435931) /* ClothingBase */
-     , (71267,   8,  100670511) /* Icon */
-     , (71267,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (71267,   1, 0x02000780) /* Setup */
+     , (71267,   3, 0x20000014) /* SoundTable */
+     , (71267,   6, 0x04000BEF) /* PaletteBase */
+     , (71267,   7, 0x100001DB) /* ClothingBase */
+     , (71267,   8, 0x06001C2F) /* Icon */
+     , (71267,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (71267,  2061,      2)  /* Perseverance */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71213;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71213, 'ace71213-enhancedchillingispariantwohandedsword', 6, '2021-08-03 00:51:21') /* MeleeWeapon */;
+VALUES (71213, 'ace71213-enhancedchillingispariantwohandedsword', 6, '2021-11-17 07:21:29') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71213,   1,          1) /* ItemType - MeleeWeapon */
@@ -54,12 +54,12 @@ VALUES (71213,   1, 'Enhanced Chilling Isparian Two Handed Sword') /* Name */
      , (71213,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (71213,   1,   33556385) /* Setup */
-     , (71213,   3,  536870932) /* SoundTable */
-     , (71213,   6,   67111919) /* PaletteBase */
-     , (71213,   7,  268436385) /* ClothingBase */
-     , (71213,   8,  100692938) /* Icon */
-     , (71213,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (71213,   1, 0x020007A1) /* Setup */
+     , (71213,   3, 0x20000014) /* SoundTable */
+     , (71213,   6, 0x04000BEF) /* PaletteBase */
+     , (71213,   7, 0x100003A1) /* ClothingBase */
+     , (71213,   8, 0x060073CA) /* Icon */
+     , (71213,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (71213,  2081,      2)  /* Hastening */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46084;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46084, 'ace46084-enhancedshiveringatlanmace', 6, '2021-08-03 00:51:21') /* MeleeWeapon */;
+VALUES (46084, 'ace46084-enhancedshiveringatlanmace', 6, '2021-11-17 07:21:29') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46084,   1,          1) /* ItemType - MeleeWeapon */
@@ -49,12 +49,12 @@ VALUES (46084,   1, 'Enhanced Shivering Atlan Mace') /* Name */
      , (46084,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46084,   1,   33556382) /* Setup */
-     , (46084,   3,  536870932) /* SoundTable */
-     , (46084,   6,   67111919) /* PaletteBase */
-     , (46084,   7,  268435961) /* ClothingBase */
-     , (46084,   8,  100670538) /* Icon */
-     , (46084,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46084,   1, 0x0200079E) /* Setup */
+     , (46084,   3, 0x20000014) /* SoundTable */
+     , (46084,   6, 0x04000BEF) /* PaletteBase */
+     , (46084,   7, 0x100001F9) /* ClothingBase */
+     , (46084,   8, 0x06001C4A) /* Icon */
+     , (46084,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46084,  2081,      2)  /* Hastening */

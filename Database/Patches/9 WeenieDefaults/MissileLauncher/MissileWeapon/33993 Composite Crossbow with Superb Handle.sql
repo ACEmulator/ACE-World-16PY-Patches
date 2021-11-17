@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33993;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33993, 'ace33993-compositecrossbowwithsuperbhandle', 3, '2021-11-11 02:51:28') /* MissileLauncher */;
+VALUES (33993, 'ace33993-compositecrossbowwithsuperbhandle', 3, '2021-11-17 07:21:29') /* MissileLauncher */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33993,   1,        256) /* ItemType - MissileWeapon */
@@ -19,6 +19,8 @@ VALUES (33993,   1,        256) /* ItemType - MissileWeapon */
      , (33993,  49,         60) /* WeaponTime */
      , (33993,  50,          2) /* AmmoType - Bolt */
      , (33993,  51,          2) /* CombatUse - Missile */
+     , (33993,  52,          2) /* ParentLocation - LeftHand */
+     , (33993,  53,          3) /* PlacementPosition - LeftHand */
      , (33993,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33993, 106,        400) /* ItemSpellcraft */
      , (33993, 107,       1000) /* ItemCurMana */
@@ -61,7 +63,6 @@ VALUES (33993,   1, 0x02000874) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33993,  2058,      2)  /* Boon of Refinement */
      , (33993,  2096,      2)  /* Aura of Infected Caress */
-     , (33993,  2100,      2)  /* Tattercoat */
      , (33993,  2101,      2)  /* Aura of Cragstone's Will */
      , (33993,  2116,      2)  /* Aura of Atlan's Alacrity */
      , (33993,  2206,      2)  /* Missile Weapon Mastery Other VII */

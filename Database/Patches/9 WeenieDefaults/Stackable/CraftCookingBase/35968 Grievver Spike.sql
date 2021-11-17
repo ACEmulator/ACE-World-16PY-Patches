@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35968;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35968, 'ace35968-grievverspike', 51, '2019-02-10 00:00:00') /* Stackable */;
+VALUES (35968, 'ace35968-grievverspike', 51, '2021-11-17 07:21:29') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35968,   1,    4194304) /* ItemType - CraftCookingBase */
@@ -27,7 +27,7 @@ VALUES (35968,   1, 'Grievver Spike') /* Name */
      , (35968,  16, 'A small Grievver spine.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35968,   1,   33557721) /* Setup */
-     , (35968,   3,  536870932) /* SoundTable */
-     , (35968,   8,  100689580) /* Icon */
-     , (35968,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35968,   1, 0x02000CD9) /* Setup */
+     , (35968,   3, 0x20000014) /* SoundTable */
+     , (35968,   8, 0x060066AC) /* Icon */
+     , (35968,  22, 0x3400002B) /* PhysicsEffectTable */;

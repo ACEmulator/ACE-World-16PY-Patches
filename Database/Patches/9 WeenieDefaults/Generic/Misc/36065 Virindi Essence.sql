@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36065;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36065, 'ace36065-virindiessence', 1, '2019-02-10 00:00:00') /* Generic */;
+VALUES (36065, 'ace36065-virindiessence', 1, '2021-11-17 07:21:29') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36065,   1,        128) /* ItemType - Misc */
@@ -21,7 +21,7 @@ VALUES (36065,   1, 'Virindi Essence') /* Name */
      , (36065,  16, 'Looking into this vaguely gem-like object, you perceive the swirling eddies of portal space and, within them, the vague image of Ayan Baqur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36065,   1,   33556769) /* Setup */
-     , (36065,   3,  536870932) /* SoundTable */
-     , (36065,   8,  100689641) /* Icon */
-     , (36065,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36065,   1, 0x02000921) /* Setup */
+     , (36065,   3, 0x20000014) /* SoundTable */
+     , (36065,   8, 0x060066E9) /* Icon */
+     , (36065,  22, 0x3400002B) /* PhysicsEffectTable */;

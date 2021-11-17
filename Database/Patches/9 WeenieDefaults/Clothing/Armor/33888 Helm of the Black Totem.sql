@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33888;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33888, 'ace33888-helmoftheblacktotem', 2, '2021-10-14 20:45:10') /* Clothing */;
+VALUES (33888, 'ace33888-helmoftheblacktotem', 2, '2021-11-17 07:21:29') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33888,   1,          2) /* ItemType - Armor */
@@ -43,12 +43,12 @@ VALUES (33888,   1, 'Helm of the Black Totem') /* Name */
      , (33888,  16, 'A helm of powerful enchantments, granted as a reward for the destruction of the Black Totem of Grael.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33888,   1,   33556856) /* Setup */
-     , (33888,   3,  536870932) /* SoundTable */
-     , (33888,   6,   67108990) /* PaletteBase */
-     , (33888,   7,  268437060) /* ClothingBase */
-     , (33888,   8,  100688246) /* Icon */
-     , (33888,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33888,   1, 0x02000978) /* Setup */
+     , (33888,   3, 0x20000014) /* SoundTable */
+     , (33888,   6, 0x0400007E) /* PaletteBase */
+     , (33888,   7, 0x10000644) /* ClothingBase */
+     , (33888,   8, 0x06006176) /* Icon */
+     , (33888,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33888,  2092,      2)  /* Olthoi's Bane */

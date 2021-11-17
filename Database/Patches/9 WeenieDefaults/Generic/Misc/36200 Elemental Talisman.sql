@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36200;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36200, 'ace36200-elementaltalisman', 1, '2019-02-10 00:00:00') /* Generic */;
+VALUES (36200, 'ace36200-elementaltalisman', 1, '2021-11-17 07:21:29') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36200,   1,        128) /* ItemType - Misc */
@@ -22,7 +22,7 @@ VALUES (36200,   1, 'Elemental Talisman') /* Name */
      , (36200,  16, 'A small diamond shaped talisman of stone with four gems set into it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36200,   1,   33557973) /* Setup */
-     , (36200,   3,  536870932) /* SoundTable */
-     , (36200,   8,  100673500) /* Icon */
-     , (36200,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36200,   1, 0x02000DD5) /* Setup */
+     , (36200,   3, 0x20000014) /* SoundTable */
+     , (36200,   8, 0x060027DC) /* Icon */
+     , (36200,  22, 0x3400002B) /* PhysicsEffectTable */;

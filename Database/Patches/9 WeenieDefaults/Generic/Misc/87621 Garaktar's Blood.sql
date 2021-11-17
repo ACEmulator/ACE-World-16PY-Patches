@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87621;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87621, 'ace87621-garaktarsblood', 1, '2021-10-15 13:26:53') /* Generic */;
+VALUES (87621, 'ace87621-garaktarsblood', 1, '2021-11-17 07:21:29') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87621,   1,        128) /* ItemType - Misc */
@@ -25,5 +25,5 @@ VALUES (87621,   1, 'Garaktar''s Blood') /* Name */
      , (87621,  37, 'SplitGraelLowStarted0806') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87621,   1,   33554817) /* Setup */
-     , (87621,   8,  100689075) /* Icon */;
+VALUES (87621,   1, 0x02000181) /* Setup */
+     , (87621,   8, 0x060064B3) /* Icon */;

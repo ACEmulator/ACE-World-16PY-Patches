@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72391;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72391, 'ace72391-claudeportalgen', 1, '2019-06-23 00:00:00') /* Generic */;
+VALUES (72391, 'ace72391-claudeportalgen', 1, '2021-11-17 07:21:29') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72391,  81,          1) /* MaxGeneratedObjects */
@@ -25,8 +25,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72391,   1, 'Claude Portal Gen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72391,   1,   33555051) /* Setup */
-     , (72391,   8,  100667494) /* Icon */;
+VALUES (72391,   1, 0x0200026B) /* Setup */
+     , (72391,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (72391, 37 /* ReceiveLocalSignal */,      1, NULL, NULL, NULL, 'SpawnPortal', NULL, NULL, NULL);
@@ -37,4 +37,4 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  1,  72 /* Generate */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72391, -1, 36170, 180, 1, 1, 1, 4, 0, 0, 0, 0x00A30146, 250, -188.932, -29.971, 1, 0, 0, 0) /* Generate Path to More Recent Times (36170) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (72391, -1, 36170, 180, 1, 1, 1, 4, 0, 0, 0, 0x00A30146, 250, -188.932, -29.971, 1, 0, 0, 0) /* Generate The Path to More Recent Times (36170) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
