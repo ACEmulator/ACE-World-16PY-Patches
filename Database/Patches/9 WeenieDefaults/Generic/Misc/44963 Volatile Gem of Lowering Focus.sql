@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44963;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44963, 'ace44963-volatilegemofloweringfocus', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (44963, 'ace44963-volatilegemofloweringfocus', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44963,   1,        128) /* ItemType - Misc */
@@ -11,7 +11,6 @@ VALUES (44963,   1,        128) /* ItemType - Misc */
      , (44963,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44963,  19,          0) /* Value */
      , (44963,  33,          1) /* Bonded - Bonded */
-     , (44963,  53,        101) /* PlacementPosition - Resting */
      , (44963,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44963,  94,        128) /* TargetType - Misc */
      , (44963, 114,          1) /* Attuned - Attuned */

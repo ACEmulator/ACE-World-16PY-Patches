@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 73049;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (73049, 'ace73049-emptydyepot', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (73049, 'ace73049-emptydyepot', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (73049,   1,    4194304) /* ItemType - CraftCookingBase */
@@ -15,7 +15,6 @@ VALUES (73049,   1,    4194304) /* ItemType - CraftCookingBase */
      , (73049,  15,        100) /* StackUnitValue */
      , (73049,  16,          1) /* ItemUseable - No */
      , (73049,  19,        100) /* Value */
-     , (73049,  53,        101) /* PlacementPosition - Resting */
      , (73049,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (73049,  94,        134) /* TargetType - Vestements, Misc */
      , (73049, 150,        103) /* HookPlacement - Hook */

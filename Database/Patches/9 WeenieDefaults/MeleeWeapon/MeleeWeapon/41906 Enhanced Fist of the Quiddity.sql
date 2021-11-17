@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41906;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41906, 'ace41906-enhancedfistofthequiddity', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (41906, 'ace41906-enhancedfistofthequiddity', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41906,   1,          1) /* ItemType - MeleeWeapon */
@@ -15,8 +15,6 @@ VALUES (41906,   1,          1) /* ItemType - MeleeWeapon */
      , (41906,  47,          1) /* AttackType - Punch */
      , (41906,  49,         20) /* WeaponTime */
      , (41906,  51,          1) /* CombatUse - Melee */
-     , (41906,  52,          1) /* ParentLocation - RightHand */
-     , (41906,  53,          1) /* PlacementPosition - RightHandCombat */
      , (41906,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41906, 106,        400) /* ItemSpellcraft */
      , (41906, 107,       1000) /* ItemCurMana */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30341;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30341, 'axerarecanfieldcleaver', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (30341, 'axerarecanfieldcleaver', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30341,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,6 @@ VALUES (30341,   1,          1) /* ItemType - MeleeWeapon */
      , (30341,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (30341,  49,         65) /* WeaponTime */
      , (30341,  51,          1) /* CombatUse - Melee */
-     , (30341,  52,          1) /* ParentLocation - RightHand */
      , (30341,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30341, 106,        350) /* ItemSpellcraft */
      , (30341, 107,       2100) /* ItemCurMana */

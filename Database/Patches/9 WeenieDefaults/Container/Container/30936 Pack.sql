@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30936;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30936, 'backpackrare', 21, '2021-11-01 00:00:00') /* Container */;
+VALUES (30936, 'backpackrare', 21, '2021-11-17 16:56:08') /* Container */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30936,   1,        512) /* ItemType - Container */
@@ -12,7 +12,6 @@ VALUES (30936,   1,        512) /* ItemType - Container */
      , (30936,  17,        186) /* RareId */
      , (30936,  18,          1) /* UiEffects - Magical */
      , (30936,  19,         65) /* Value */
-     , (30936,  53,        101) /* PlacementPosition - Resting */
      , (30936,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

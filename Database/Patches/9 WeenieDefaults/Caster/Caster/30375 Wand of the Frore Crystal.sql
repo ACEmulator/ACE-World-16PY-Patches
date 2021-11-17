@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30375;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30375, 'wandrarefrorecrystal', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (30375, 'wandrarefrorecrystal', 35, '2021-11-17 16:56:08') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30375,   1,      32768) /* ItemType - Caster */
@@ -16,8 +16,6 @@ VALUES (30375,   1,      32768) /* ItemType - Caster */
      , (30375,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30375,  45,          8) /* DamageType - Cold */
      , (30375,  46,        512) /* DefaultCombatStyle - Magic */
-     , (30375,  52,          1) /* ParentLocation - RightHand */
-     , (30375,  53,        101) /* PlacementPosition - Resting */
      , (30375,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (30375,  94,         16) /* TargetType - Creature */
      , (30375, 106,        335) /* ItemSpellcraft */

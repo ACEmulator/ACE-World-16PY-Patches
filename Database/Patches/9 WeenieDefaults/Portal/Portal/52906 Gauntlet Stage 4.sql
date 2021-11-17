@@ -1,13 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52906;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52906, 'ace52906-gauntletstage4', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (52906, 'ace52906-gauntletstage4', 7, '2021-11-17 16:56:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52906,   1,      65536) /* ItemType - Portal */
      , (52906,  16,         32) /* ItemUseable - Remote */
-     , (52906,  93,      66576) /* PhysicsState - IgnoreCollisions, Gravity, HasPhysicsBSP */
-     , (52906,  98, 1485828454) /* CreationTimestamp */
+     , (52906,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (52906, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (52906, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52906, 267,         60) /* Lifespan */;
@@ -16,8 +15,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52906,   1, True ) /* Stuck */
      , (52906,  11, True ) /* IgnoreCollisions */
      , (52906,  14, True ) /* GravityStatus */
-     , (52906,  19, True ) /* Attackable */
-     , (52906,  88, True ) /* PortalShowDestination */;
+     , (52906,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52906,  54,     0.3) /* UseRadius */;

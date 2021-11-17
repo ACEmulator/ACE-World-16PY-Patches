@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31012;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31012, 'ghosteidolonhighyield', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (31012, 'ghosteidolonhighyield', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31012,   1,         16) /* ItemType - Creature */
      , (31012,   2,         77) /* CreatureType - Ghost */
      , (31012,   3,          8) /* PaletteTemplate - Green */
-     , (31012,   6,        255) /* ItemsCapacity */
-     , (31012,   7,        255) /* ContainersCapacity */
+     , (31012,   6,         -1) /* ItemsCapacity */
+     , (31012,   7,         -1) /* ContainersCapacity */
      , (31012,  16,          1) /* ItemUseable - No */
      , (31012,  25,        160) /* Level */
      , (31012,  72,         77) /* FriendType - Ghost */

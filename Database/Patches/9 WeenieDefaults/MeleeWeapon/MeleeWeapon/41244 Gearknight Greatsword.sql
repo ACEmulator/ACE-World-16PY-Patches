@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41244;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41244, 'ace41244-gearknightgreatsword', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (41244, 'ace41244-gearknightgreatsword', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41244,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,7 +20,6 @@ VALUES (41244,   1,          1) /* ItemType - MeleeWeapon */
      , (41244,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (41244,  49,          0) /* WeaponTime */
      , (41244,  51,          5) /* CombatUse - TwoHanded */
-     , (41244,  52,          1) /* ParentLocation - RightHand */
      , (41244,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41244, 292,          2) /* Cleaving */
      , (41244, 353,         11) /* WeaponType - TwoHanded */;

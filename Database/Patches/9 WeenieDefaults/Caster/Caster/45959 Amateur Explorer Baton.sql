@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45959;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45959, 'ace45959-amateurexplorerbaton', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (45959, 'ace45959-amateurexplorerbaton', 35, '2021-11-17 16:56:08') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45959,   1,      32768) /* ItemType - Caster */
      , (45959,   3,          2) /* PaletteTemplate - Blue */
      , (45959,   5,         50) /* EncumbranceVal */
      , (45959,   9,   16777216) /* ValidLocations - Held */
-     , (45959,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (45959,  16,          1) /* ItemUseable - No */
      , (45959,  18,       1024) /* UiEffects - Slashing */
      , (45959,  19,        100) /* Value */

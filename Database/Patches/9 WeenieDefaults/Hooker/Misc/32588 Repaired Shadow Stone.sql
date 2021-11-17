@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32588;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32588, 'ace32588-repairedshadowstone', 64, '2021-11-01 00:00:00') /* Hooker */;
+VALUES (32588, 'ace32588-repairedshadowstone', 64, '2021-11-17 16:56:08') /* Hooker */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32588,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (32588,   1,        128) /* ItemType - Misc */
      , (32588,  16,         32) /* ItemUseable - Remote */
      , (32588,  19,      10000) /* Value */
      , (32588,  33,          0) /* Bonded - Normal */
-     , (32588,  53,        101) /* PlacementPosition - Resting */
      , (32588,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
      , (32588, 114,          0) /* Attuned - Normal */
      , (32588, 150,        103) /* HookPlacement - Hook */

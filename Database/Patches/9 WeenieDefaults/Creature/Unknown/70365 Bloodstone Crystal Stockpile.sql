@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70365;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70365, 'ace70365-brightaetheriumorestockpile', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (70365, 'ace70365-brightaetheriumorestockpile', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70365,   1,         16) /* ItemType - Creature */
@@ -26,6 +26,7 @@ VALUES (70365,   1, True ) /* Stuck */
      , (70365,  29, True ) /* NoCorpse */
      , (70365,  42, True ) /* AllowEdgeSlide */
      , (70365,  52, True ) /* AiImmobile */
+     , (70365,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (70365,  83, True ) /* NpcLooksLikeObject */
      , (70365, 103, True ) /* NonProjectileMagicImmune */;
 

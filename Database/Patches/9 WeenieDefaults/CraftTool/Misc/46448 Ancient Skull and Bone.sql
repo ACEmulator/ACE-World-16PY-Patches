@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46448;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46448, 'ace46448-ancientskullandbone', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (46448, 'ace46448-ancientskullandbone', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46448,   1,        128) /* ItemType - Misc */
@@ -16,8 +16,7 @@ VALUES (46448,   1,        128) /* ItemType - Misc */
      , (46448,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46448,  94,        128) /* TargetType - Misc */
      , (46448, 114,          1) /* Attuned - Attuned */
-     , (46448, 267,       7200) /* Lifespan */
-     , (46448, 268,       7200) /* RemainingLifespan */;
+     , (46448, 267,       7200) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46448,  22, True ) /* Inscribable */;

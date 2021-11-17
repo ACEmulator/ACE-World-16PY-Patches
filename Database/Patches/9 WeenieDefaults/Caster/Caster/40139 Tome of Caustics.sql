@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40139;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40139, 'ace40139-tomeofcaustics', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (40139, 'ace40139-tomeofcaustics', 35, '2021-11-17 16:56:08') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40139,   1,      32768) /* ItemType - Caster */
@@ -11,7 +11,6 @@ VALUES (40139,   1,      32768) /* ItemType - Caster */
      , (40139,  19,         10) /* Value */
      , (40139,  45,         32) /* DamageType - Acid */
      , (40139,  46,        512) /* DefaultCombatStyle - Magic */
-     , (40139,  52,          1) /* ParentLocation - RightHand */
      , (40139,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40139,  94,         16) /* TargetType - Creature */
      , (40139, 106,        460) /* ItemSpellcraft */

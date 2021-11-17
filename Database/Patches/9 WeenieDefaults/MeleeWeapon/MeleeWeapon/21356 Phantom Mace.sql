@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21356;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (21356, 'macephantom', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (21356, 'macephantom', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21356,   1,          1) /* ItemType - MeleeWeapon */
@@ -20,7 +20,6 @@ VALUES (21356,   1,          1) /* ItemType - MeleeWeapon */
      , (21356,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (21356,  49,         30) /* WeaponTime */
      , (21356,  51,          1) /* CombatUse - Melee */
-     , (21356,  53,        101) /* PlacementPosition - Resting */
      , (21356,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21356, 114,          1) /* Attuned - Attuned */
      , (21356, 150,        103) /* HookPlacement - Hook */

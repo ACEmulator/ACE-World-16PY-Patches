@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87275;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87275, 'ace87275-QudditySeedTimesUpStopgap', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (87275, 'ace87275-QudditySeedTimesUpStopgap', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87275,   1,         16) /* ItemType - Creature */
@@ -26,6 +26,7 @@ VALUES (87275,   1, True ) /* Stuck */
      , (87275,  19, True ) /* Attackable */
      , (87275,  29, True ) /* NoCorpse */
      , (87275,  52, True ) /* AiImmobile */
+     , (87275,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (87275,  83, True ) /* NpcLooksLikeObject */
      , (87275, 103, True ) /* NonProjectileMagicImmune */
      , (87275, 118, True ) /* NeverAttack */;

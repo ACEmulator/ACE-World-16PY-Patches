@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20646;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (20646, 'tinkeringtool', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (20646, 'tinkeringtool', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20646,   1,  536870912) /* ItemType - TinkeringTool */
@@ -15,7 +15,6 @@ VALUES (20646,   1,  536870912) /* ItemType - TinkeringTool */
      , (20646,  15,         10) /* StackUnitValue */
      , (20646,  16,          8) /* ItemUseable - Contained */
      , (20646,  19,         10) /* Value */
-     , (20646,  53,        101) /* PlacementPosition - Resting */
      , (20646,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20646, 150,        103) /* HookPlacement - Hook */
      , (20646, 151,          2) /* HookType - Wall */;

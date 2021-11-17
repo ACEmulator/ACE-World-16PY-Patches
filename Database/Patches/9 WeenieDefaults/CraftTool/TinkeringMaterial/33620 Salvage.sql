@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33620;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33620, 'ace33620-salvagedgranite', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (33620, 'ace33620-salvagedgranite', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33620,   1, 1073741824) /* ItemType - TinkeringMaterial */
@@ -16,7 +16,6 @@ VALUES (33620,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (33620,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (33620,  19,         10) /* Value */
      , (33620,  33,          1) /* Bonded - Bonded */
-     , (33620,  53,        101) /* PlacementPosition - Resting */
      , (33620,  91,        100) /* MaxStructure */
      , (33620,  92,        100) /* Structure */
      , (33620,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

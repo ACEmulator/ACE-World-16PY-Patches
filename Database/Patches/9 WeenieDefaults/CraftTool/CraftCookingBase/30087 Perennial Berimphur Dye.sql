@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30087;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30087, 'dyerareeternalfoolproofdarkyellow', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (30087, 'dyerareeternalfoolproofdarkyellow', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30087,   1,    4194304) /* ItemType - CraftCookingBase */
@@ -14,7 +14,6 @@ VALUES (30087,   1,    4194304) /* ItemType - CraftCookingBase */
      , (30087,  17,        165) /* RareId */
      , (30087,  19,          0) /* Value */
      , (30087,  33,         -1) /* Bonded - Slippery */
-     , (30087,  53,        101) /* PlacementPosition - Resting */
      , (30087,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30087,  94,        134) /* TargetType - Vestements, Misc */;
 

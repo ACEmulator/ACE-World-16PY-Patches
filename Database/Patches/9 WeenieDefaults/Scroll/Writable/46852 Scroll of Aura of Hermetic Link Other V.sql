@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46852;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46852, 'ace46852-scrollofauraofhermeticlinkotherv', 34, '2021-11-01 00:00:00') /* Scroll */;
+VALUES (46852, 'ace46852-scrollofauraofhermeticlinkotherv', 34, '2021-11-17 16:56:08') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46852,   1,       8192) /* ItemType - Writable */
@@ -9,7 +9,6 @@ VALUES (46852,   1,       8192) /* ItemType - Writable */
      , (46852,   8,         90) /* Mass */
      , (46852,  16,          8) /* ItemUseable - Contained */
      , (46852,  19,        200) /* Value */
-     , (46852,  53,        101) /* PlacementPosition - Resting */
      , (46852,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

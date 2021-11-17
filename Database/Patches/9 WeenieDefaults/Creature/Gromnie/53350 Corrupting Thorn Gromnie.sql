@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53350;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (53350, 'ace53350-corruptingthorngromnie', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (53350, 'ace53350-corruptingthorngromnie', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53350,   1,         16) /* ItemType - Creature */
      , (53350,   2,         15) /* CreatureType - Gromnie */
      , (53350,   3,          9) /* PaletteTemplate - Grey */
-     , (53350,   6,        255) /* ItemsCapacity */
-     , (53350,   7,        255) /* ContainersCapacity */
+     , (53350,   6,         -1) /* ItemsCapacity */
+     , (53350,   7,         -1) /* ContainersCapacity */
      , (53350,  16,          1) /* ItemUseable - No */
      , (53350,  25,        280) /* Level */
      , (53350,  27,          0) /* ArmorType - None */

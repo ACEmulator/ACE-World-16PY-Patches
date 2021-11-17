@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30126;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30126, 'gemrareeternalcooking', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (30126, 'gemrareeternalcooking', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30126,   1,       2048) /* ItemType - Gem */
@@ -50,6 +50,3 @@ VALUES (30126,   1, 0x020009A7) /* Setup */
      , (30126,  28,       4526) /* Spell - Incantation of Cooking Mastery Self */
      , (30126,  50, 0x06005B2F) /* IconOverlay */
      , (30126,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30126,  4526,      2)  /* Incantation of Cooking Mastery Self */;

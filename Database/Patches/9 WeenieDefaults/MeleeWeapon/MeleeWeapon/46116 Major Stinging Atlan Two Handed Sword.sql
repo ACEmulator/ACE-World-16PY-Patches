@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46116;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46116, 'ace46116-majorstingingatlantwohandedsword', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (46116, 'ace46116-majorstingingatlantwohandedsword', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46116,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,8 +19,6 @@ VALUES (46116,   1,          1) /* ItemType - MeleeWeapon */
      , (46116,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46116,  49,         50) /* WeaponTime */
      , (46116,  51,          5) /* CombatUse - TwoHanded */
-     , (46116,  52,          1) /* ParentLocation - RightHand */
-     , (46116,  53,          1) /* PlacementPosition - RightHandCombat */
      , (46116,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46116, 106,        300) /* ItemSpellcraft */
      , (46116, 107,        400) /* ItemCurMana */

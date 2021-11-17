@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23935;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23935, 'coatluminred', 2, '2021-11-01 00:00:00') /* Clothing */;
+VALUES (23935, 'coatluminred', 2, '2021-11-17 16:56:08') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23935,   1,          2) /* ItemType - Armor */
@@ -16,7 +16,6 @@ VALUES (23935,   1,          2) /* ItemType - Armor */
      , (23935,  27,         32) /* ArmorType - Metal */
      , (23935,  28,        200) /* ArmorLevel */
      , (23935,  36,       9999) /* ResistMagic */
-     , (23935,  53,        101) /* PlacementPosition - Resting */
      , (23935,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23935, 106,        300) /* ItemSpellcraft */
      , (23935, 107,       4000) /* ItemCurMana */
@@ -32,8 +31,7 @@ VALUES (23935,  11, True ) /* IgnoreCollisions */
      , (23935,  14, True ) /* GravityStatus */
      , (23935,  19, True ) /* Attackable */
      , (23935,  22, True ) /* Inscribable */
-     , (23935,  69, False) /* IsSellable */
-     , (23935,  94, True ) /* AppraisalHasAllowedActivator */;
+     , (23935,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23935,   5,    -0.5) /* ManaRate */

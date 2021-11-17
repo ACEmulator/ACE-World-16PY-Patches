@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41618;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41618, 'ace41618-twohandedspearglyph', 51, '2021-11-01 00:00:00') /* Stackable */;
+VALUES (41618, 'ace41618-twohandedspearglyph', 51, '2021-11-17 16:56:08') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41618,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (41618,   1,        128) /* ItemType - Misc */
      , (41618,  12,          1) /* StackSize */
      , (41618,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (41618,  19,       5000) /* Value */
-     , (41618,  53,        101) /* PlacementPosition - Resting */
      , (41618,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41618,  94,        128) /* TargetType - Misc */
      , (41618, 151,         11) /* HookType - Floor, Wall, Yard */;

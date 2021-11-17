@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34851;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34851, 'ace34851-nimeruuk', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (34851, 'ace34851-nimeruuk', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34851,   1,         16) /* ItemType - Creature */
      , (34851,   2,         75) /* CreatureType - Burun */
      , (34851,   3,         58) /* PaletteTemplate - BrownGreen */
-     , (34851,   6,        255) /* ItemsCapacity */
-     , (34851,   7,        255) /* ContainersCapacity */
+     , (34851,   6,         -1) /* ItemsCapacity */
+     , (34851,   7,         -1) /* ContainersCapacity */
      , (34851,  16,         32) /* ItemUseable - Remote */
      , (34851,  25,         20) /* Level */
      , (34851,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
@@ -18,6 +18,7 @@ VALUES (34851,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34851,   1, True ) /* Stuck */
+     , (34851,   8, True ) /* AllowGive */
      , (34851,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

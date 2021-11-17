@@ -1,13 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45999;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45999, 'ace45999-seasonedexplorerbraceletofstrength', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (45999, 'ace45999-seasonedexplorerbraceletofstrength', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45999,   1,          8) /* ItemType - Jewelry */
      , (45999,   5,         60) /* EncumbranceVal */
      , (45999,   9,     196608) /* ValidLocations - WristWear */
-     , (45999,  10,      65536) /* CurrentWieldedLocation - WristWearLeft */
      , (45999,  16,          1) /* ItemUseable - No */
      , (45999,  18,          1) /* UiEffects - Magical */
      , (45999,  19,        100) /* Value */

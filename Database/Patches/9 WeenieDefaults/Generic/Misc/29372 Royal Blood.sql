@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29372;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29372, 'trophybloodcorcima', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (29372, 'trophybloodcorcima', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29372,   1,        128) /* ItemType - Misc */
@@ -9,7 +9,6 @@ VALUES (29372,   1,        128) /* ItemType - Misc */
      , (29372,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29372,  19,          0) /* Value */
      , (29372,  33,          1) /* Bonded - Bonded */
-     , (29372,  53,        101) /* PlacementPosition - Resting */
      , (29372,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29372,  94,          2) /* TargetType - Armor */
      , (29372, 114,          1) /* Attuned - Attuned */;

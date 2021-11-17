@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46101;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46101, 'ace46101-enhancedshiveringatlansword', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (46101, 'ace46101-enhancedshiveringatlansword', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46101,   1,          1) /* ItemType - MeleeWeapon */
@@ -32,11 +32,7 @@ VALUES (46101,   1,          1) /* ItemType - MeleeWeapon */
      , (46101, 263,          8) /* ResistanceModifierType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46101,  11, True ) /* IgnoreCollisions */
-     , (46101,  13, True ) /* Ethereal */
-     , (46101,  14, True ) /* GravityStatus */
-     , (46101,  19, True ) /* Attackable */
-     , (46101,  22, True ) /* Inscribable */
+VALUES (46101,  22, True ) /* Inscribable */
      , (46101,  69, False) /* IsSellable */
      , (46101,  99, True ) /* Ivoryable */;
 

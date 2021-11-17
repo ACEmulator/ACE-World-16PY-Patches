@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46427;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46427, 'ace46427-ancientskull', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (46427, 'ace46427-ancientskull', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46427,   1,        128) /* ItemType - Misc */
@@ -17,7 +17,6 @@ VALUES (46427,   1,        128) /* ItemType - Misc */
      , (46427,  94,        128) /* TargetType - Misc */
      , (46427, 114,          1) /* Attuned - Attuned */
      , (46427, 267,       7200) /* Lifespan */
-     , (46427, 268,       7200) /* RemainingLifespan */
      , (46427, 279,          1) /* Unique */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

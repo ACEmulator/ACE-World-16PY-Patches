@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87504;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87504, 'ace87504-EmpyreanRescueQuestStopgap', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (87504, 'ace87504-EmpyreanRescueQuestStopgap', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87504,   1,         16) /* ItemType - Creature */
@@ -24,6 +24,7 @@ VALUES (87504,   1, True ) /* Stuck */
      , (87504,  19, False) /* Attackable */
      , (87504,  29, True ) /* NoCorpse */
      , (87504,  52, True ) /* AiImmobile */
+     , (87504,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (87504,  83, True ) /* NpcLooksLikeObject */
      , (87504, 103, True ) /* NonProjectileMagicImmune */
      , (87504, 118, True ) /* NeverAttack */;

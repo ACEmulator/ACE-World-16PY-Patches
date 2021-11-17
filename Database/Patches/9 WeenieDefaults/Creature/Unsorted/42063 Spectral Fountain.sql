@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42063;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42063, 'ace42063-spectralfountain', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (42063, 'ace42063-spectralfountain', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42063,   1,         16) /* ItemType - Creature */
@@ -11,11 +11,11 @@ VALUES (42063,   1,         16) /* ItemType - Creature */
      , (42063,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (42063,  95,          8) /* RadarBlipColor - Yellow */
      , (42063, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (42063, 267,       1800) /* Lifespan */
-     , (42063, 268,       1800) /* RemainingLifespan */;
+     , (42063, 267,       1800) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42063,   1, True ) /* Stuck */
+     , (42063,   8, True ) /* AllowGive */
      , (42063,  19, False) /* Attackable */
      , (42063,  52, True ) /* AiImmobile */
      , (42063,  82, True ) /* DontTurnOrMoveWhenGiving */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38087;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38087, 'ace38087-surface', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (38087, 'ace38087-surface', 7, '2021-11-17 16:56:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38087,   1,      65536) /* ItemType - Portal */
@@ -16,8 +16,7 @@ VALUES (38087,   1, True ) /* Stuck */
      , (38087,  13, True ) /* Ethereal */
      , (38087,  14, True ) /* GravityStatus */
      , (38087,  15, True ) /* LightsStatus */
-     , (38087,  19, True ) /* Attackable */
-     , (38087,  88, True ) /* PortalShowDestination */;
+     , (38087,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38087,  54,    -0.1) /* UseRadius */;

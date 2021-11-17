@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38255;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38255, 'ace38255-shrineoftheeyeoftthuun', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (38255, 'ace38255-shrineoftheeyeoftthuun', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38255,   1,         16) /* ItemType - Creature */
@@ -14,6 +14,7 @@ VALUES (38255,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38255,   1, True ) /* Stuck */
      , (38255,  19, False) /* Attackable */
+     , (38255,  52, True ) /* AiImmobile */
      , (38255,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (38255,  83, True ) /* NpcLooksLikeObject */
      , (38255,  90, True ) /* NpcInteractsSilently */

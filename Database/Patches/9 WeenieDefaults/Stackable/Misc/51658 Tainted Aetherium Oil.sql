@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51658;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51658, 'ace51658-taintedaetheriumoil', 51, '2021-11-01 00:00:00') /* Stackable */;
+VALUES (51658, 'ace51658-taintedaetheriumoil', 51, '2021-11-17 16:56:08') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51658,   1,        128) /* ItemType - Misc */
@@ -15,10 +15,8 @@ VALUES (51658,   1,        128) /* ItemType - Misc */
      , (51658,  19,          0) /* Value */
      , (51658,  33,          1) /* Bonded - Bonded */
      , (51658,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (51658,  98, 1484702371) /* CreationTimestamp */
      , (51658, 114,          1) /* Attuned - Attuned */
-     , (51658, 267,      86400) /* Lifespan */
-     , (51658, 268,      86400) /* RemainingLifespan */;
+     , (51658, 267,      86400) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51658,  69, False) /* IsSellable */;

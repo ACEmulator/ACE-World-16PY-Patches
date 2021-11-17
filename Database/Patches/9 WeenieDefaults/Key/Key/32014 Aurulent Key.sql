@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32014;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32014, 'ace32014-aurulentkey', 22, '2021-11-01 00:00:00') /* Key */;
+VALUES (32014, 'ace32014-aurulentkey', 22, '2021-11-17 16:56:08') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32014,   1,      16384) /* ItemType - Key */
@@ -9,7 +9,6 @@ VALUES (32014,   1,      16384) /* ItemType - Key */
      , (32014,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (32014,  19,          0) /* Value */
      , (32014,  33,          1) /* Bonded - Bonded */
-     , (32014,  53,        101) /* PlacementPosition - Resting */
      , (32014,  91,          1) /* MaxStructure */
      , (32014,  92,          1) /* Structure */
      , (32014,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

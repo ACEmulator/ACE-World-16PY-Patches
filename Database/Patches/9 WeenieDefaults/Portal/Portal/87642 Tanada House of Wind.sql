@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87642;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87642, 'ace87642-tanadahouseofwind', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (87642, 'ace87642-tanadahouseofwind', 7, '2021-11-17 16:56:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87642,   1,      65536) /* ItemType - Portal */
@@ -12,8 +12,7 @@ VALUES (87642,   1,      65536) /* ItemType - Portal */
      , (87642, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (87642,   1, True ) /* Stuck */
-     , (87642,  88, True ) /* PortalShowDestination */;
+VALUES (87642,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (87642,  54,    -0.1) /* UseRadius */;

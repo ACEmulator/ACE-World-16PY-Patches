@@ -1,13 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33105;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33105, 'ace33105-shieldofisindule', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (33105, 'ace33105-shieldofisindule', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33105,   1,          2) /* ItemType - Armor */
      , (33105,   5,        300) /* EncumbranceVal */
      , (33105,   9,    2097152) /* ValidLocations - Shield */
-     , (33105,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (33105,  16,          1) /* ItemUseable - No */
      , (33105,  19,      23000) /* Value */
      , (33105,  28,        190) /* ArmorLevel */

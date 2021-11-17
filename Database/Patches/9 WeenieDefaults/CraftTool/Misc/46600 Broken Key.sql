@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46600;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46600, 'ace46600-brokenupperkey', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (46600, 'ace46600-brokenupperkey', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46600,   1,        128) /* ItemType - Misc */
@@ -14,8 +14,7 @@ VALUES (46600,   1,        128) /* ItemType - Misc */
      , (46600,  19,          0) /* Value */
      , (46600,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46600,  94,        128) /* TargetType - Misc */
-     , (46600, 267,       3600) /* Lifespan */
-     , (46600, 268,       3600) /* RemainingLifespan */;
+     , (46600, 267,       3600) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46600,  22, True ) /* Inscribable */

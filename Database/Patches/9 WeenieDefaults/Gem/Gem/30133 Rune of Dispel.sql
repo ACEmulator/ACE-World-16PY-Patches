@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30133;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30133, 'gemrareeternaldispel', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (30133, 'gemrareeternaldispel', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30133,   1,       2048) /* ItemType - Gem */
@@ -49,6 +49,3 @@ VALUES (30133,   1, 0x020009A7) /* Setup */
      , (30133,  28,       4330) /* Spell - Incantation of Nullify All Magic Other */
      , (30133,  50, 0x06005B37) /* IconOverlay */
      , (30133,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30133,  4330,      2)  /* Incantation of Nullify All Magic Other */;

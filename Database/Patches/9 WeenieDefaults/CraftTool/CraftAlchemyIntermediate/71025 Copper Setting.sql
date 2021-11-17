@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71025;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71025, 'ace71025-coppersetting', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (71025, 'ace71025-coppersetting', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71025,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
@@ -11,7 +11,6 @@ VALUES (71025,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (71025,  15,         10) /* StackUnitValue */
      , (71025,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (71025,  19,         10) /* Value */
-     , (71025,  53,        101) /* PlacementPosition - Resting */
      , (71025,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (71025,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
      , (71025, 151,          9) /* HookType - Floor, Yard */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45033;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45033, 'ace45033-hoorymattekaroverrobecrate', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (45033, 'ace45033-hoorymattekaroverrobecrate', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45033,   1,        128) /* ItemType - Misc */
@@ -11,7 +11,7 @@ VALUES (45033,   1,        128) /* ItemType - Misc */
      , (45033,  16,          8) /* ItemUseable - Contained */
      , (45033,  19,     250000) /* Value */
      , (45033,  33,          1) /* Bonded - Bonded */
-     , (45033,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (45033,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45033,  94,         16) /* TargetType - Creature */
      , (45033, 114,          1) /* Attuned - Attuned */
      , (45033, 269,          1) /* UseCreateQuantity */;

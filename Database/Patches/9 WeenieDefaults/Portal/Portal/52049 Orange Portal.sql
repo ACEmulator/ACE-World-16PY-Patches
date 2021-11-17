@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52049;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52049, 'ace52049-orangeportal', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (52049, 'ace52049-orangeportal', 7, '2021-11-17 16:56:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52049,   1,      65536) /* ItemType - Portal */
      , (52049,  16,         32) /* ItemUseable - Remote */
      , (52049,  86,        180) /* MinLevel */
      , (52049,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (52049,  98, 1484704798) /* CreationTimestamp */
      , (52049, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (52049, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52049, 267,        600) /* Lifespan */;
@@ -19,8 +18,7 @@ VALUES (52049,   1, True ) /* Stuck */
      , (52049,  13, True ) /* Ethereal */
      , (52049,  14, True ) /* GravityStatus */
      , (52049,  15, True ) /* LightsStatus */
-     , (52049,  19, True ) /* Attackable */
-     , (52049,  88, True ) /* PortalShowDestination */;
+     , (52049,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52049,  54,    -0.1) /* UseRadius */;

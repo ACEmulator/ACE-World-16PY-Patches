@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40930;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40930, 'ace40930-chestaerfalleextreme', 20, '2021-11-07 08:12:46') /* Chest */;
+VALUES (40930, 'ace40930-chestaerfalleextreme', 20, '2021-11-17 16:56:08') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40930,   1,        512) /* ItemType - Container */
@@ -45,10 +45,6 @@ VALUES (40930,   1, 0x02000F7A) /* Setup */
      , (40930,   7, 0x10000567) /* ClothingBase */
      , (40930,   8, 0x0600344A) /* Icon */
      , (40930,  22, 0x3400002B) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40930, 8040, 0xB5F00111, 140.129, -96.675, -81.2, -0.295604, 0, 0, 0.955311) /* PCAPRecordedLocation */
-/* @teleloc 0xB5F00111 [140.128998 -96.675003 -81.199997] -0.295604 0.000000 0.000000 0.955311 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40930, -1, 9010, 0, 1, 1, 2, 8, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unreadable Scroll (9010) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
