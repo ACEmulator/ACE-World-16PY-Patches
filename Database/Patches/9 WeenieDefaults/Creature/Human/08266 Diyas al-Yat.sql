@@ -59,7 +59,7 @@ VALUES (8266,   1,       5) /* HeartbeatInterval */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8266,   1, 'Diyas al-Yat') /* Name */
      , (8266,   3, 'Male') /* Sex */
-     , (8266,   4, "Gharu''ndim") /* HeritageGroup */
+     , (8266,   4, 'Gharu''ndim') /* HeritageGroup */
      , (8266,   5, 'Scholar') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
