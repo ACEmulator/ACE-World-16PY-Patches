@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53484;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (53484, 'ace53484-viridiankeyofthesixthportal', 51, '2021-11-17 07:21:29') /* Stackable */;
+VALUES (53484, 'ace53484-viridiankeyofthesixthportal', 51, '2021-11-17 16:56:08') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53484,   1,        128) /* ItemType - Misc */
