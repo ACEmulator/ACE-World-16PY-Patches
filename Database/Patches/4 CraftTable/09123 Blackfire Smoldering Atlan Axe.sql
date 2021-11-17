@@ -1,9 +1,9 @@
-DELETE FROM `recipe` WHERE `id` = 7816;
+DELETE FROM `recipe` WHERE `id` = 9123;
 
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
-VALUES (7816, 0, 0, 0, 0,  46055 /* Blackfire Shivering Atlan Bow */, 1, 'The gem slips out of the weapon altering its properties.', 46055 /* Blackfire Shivering Atlan Bow */, 1, 'The gem slips out of the weapon altering its properties.', 0, 0, NULL, 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 0, '2021-11-01 00:00:00');
+VALUES (9123, 0, 0, 0, 0,  46041 /* Blackfire Smoldering Atlan Axe */, 1, 'The gem slips out of the weapon altering its properties.', 46041 /* Blackfire Smoldering Atlan Axe */, 1, 'The gem slips out of the weapon altering its properties.', 0, 0, NULL, 1, 1, NULL, 0, 0, NULL, 1, 1, NULL, 0, '2021-11-01 00:00:00');
 
-DELETE FROM `cook_book` WHERE `recipe_Id` = 7816;
+DELETE FROM `cook_book` WHERE `recipe_Id` = 9123;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7816, 6127 /* Stone Tool */, 71260 /* Enhanced Shivering Atlan Bow */, '2021-11-13 00:00:00');
+VALUES (9123, 6127 /* Stone Tool */, 71266 /* Enhanced Smoldering Atlan Axe */, '2021-08-03 00:43:12');
