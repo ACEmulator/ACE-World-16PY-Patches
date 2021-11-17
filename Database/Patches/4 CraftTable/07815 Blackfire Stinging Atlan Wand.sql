@@ -6,4 +6,4 @@ VALUES (7815, 0, 0, 0, 0, 46132 /* Blackfire Stinging Atlan Wand */, 1, 'The gem
 DELETE FROM `cook_book` WHERE `recipe_Id` = 7815;
 
 INSERT INTO `cook_book` (`recipe_Id`, `source_W_C_I_D`, `target_W_C_I_D`, `last_Modified`)
-VALUES (7815, 6127 /* Stone Tool */, 46136 /* Enhanced Smoldering Atlan Wand */, '2021-11-17 07:21:29');
+VALUES (7815, 6127 /* Stone Tool */, 46138 /* Enhanced Stinging Atlan Wand */, '2021-11-17 07:21:29');
