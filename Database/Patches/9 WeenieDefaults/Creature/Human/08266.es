@@ -317,6 +317,18 @@ Give: Thief of Dreams Message Shard (36930)
     - Delay: 0.5, Give: 87040
     - Delay: 0.5, Tell: A fascinating message. With your permission, I have made a copy of this myself, for my own... illumination.
 
+Give: 36212
+    - TurnToTarget
+    - Tell: Most fascinating. There is a resonance to this message shard that you do not see in those that come from most Virindi... A sympathetic resonance that is almost human...
+    - Delay: 1, Tell: This shard came from Aerbax, did it not? Forgive me, I should not ask such questions. I remember what happened the last time I delved too deeply into the affairs of that one. Here is your translation.
+    - Give: 36225
+
+Give: 36213
+    - TurnToTarget
+    - Tell: Most fascinating. There is a resonance to this message shard that you do not see in those that come from most Virindi... A sympathetic resonance that is almost human...
+    - Delay: 1, Tell: This shard came from Aerbax, did it not? Forgive me, I should not ask such questions. I remember what happened the last time I delved too deeply into the affairs of that one. Here is your translation.
+    - Give: 36226
+
 Use:
     - Motion: Ready
     - TurnToTarget
