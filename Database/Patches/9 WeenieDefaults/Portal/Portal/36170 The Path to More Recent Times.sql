@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36170;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36170, 'ace36170-thepathtomorerecenttimes', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (36170, 'ace36170-thepathtomorerecenttimes', 7, '2019-02-10 00:00:00') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36170,   1,      65536) /* ItemType - Portal */
@@ -11,12 +11,7 @@ VALUES (36170,   1,      65536) /* ItemType - Portal */
      , (36170, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36170,   1, True ) /* Stuck */
-     , (36170,  12, True ) /* ReportCollisions */
-     , (36170,  13, True ) /* Ethereal */
-     , (36170,  14, True ) /* GravityStatus */
-     , (36170,  15, True ) /* LightsStatus */
-     , (36170,  19, True ) /* Attackable */;
+VALUES (36170,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36170,  54,    -0.1) /* UseRadius */;
@@ -25,6 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36170,   1, 'The Path to More Recent Times') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36170,   1, 0x020001B3) /* Setup */
-     , (36170,   2, 0x09000003) /* MotionTable */
-     , (36170,   8, 0x0600106B) /* Icon */;
+VALUES (36170,   1,   33554867) /* Setup */
+     , (36170,   2,  150994947) /* MotionTable */
+     , (36170,   8,  100667499) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (36170, 2, 10682863, 360.000000, -130.014999, -11.914400, 1.000000, 0.000000, 0.000000, 0.000000) /* Destination */
+/* @teleloc 0x00A301EF [360.000000 -130.014999 -11.914400] 1.000000 0.000000 0.000000 0.000000 */;
