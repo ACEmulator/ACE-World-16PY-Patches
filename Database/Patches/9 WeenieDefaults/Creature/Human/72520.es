@@ -1,0 +1,13 @@
+Generation: 
+    - StopEvent: KhirathiDefended
+    - StopEvent: RhianiDefended
+    - StopEvent: DanalithDefended
+    - StopEvent: DecayWardDown
+    - StopEvent: BlightWardDown
+    - StopEvent: DarknessWardDown
+    - StopEvent: DecayWardUp
+    - StopEvent: BlightWardUp
+    - StopEvent: DarknessWardUp
+    - StopEvent: HoshinoPhase1
+    - StopEvent: HoshinoPhase2
+    - StopEvent: HoshinoGuards

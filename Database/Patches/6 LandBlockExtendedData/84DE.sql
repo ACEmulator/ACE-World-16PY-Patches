@@ -1,0 +1,5 @@
+DELETE FROM `landblock_instance` WHERE `landblock` = 0x84DE;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x784DE000, 34544, 0x84DE0101, 156, 33, 107.937, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Realaidain Northern Vault */
+/* @teleloc 0x84DE0101 [156.000000 33.000000 107.936996] 0.000000 0.000000 0.000000 -1.000000 */

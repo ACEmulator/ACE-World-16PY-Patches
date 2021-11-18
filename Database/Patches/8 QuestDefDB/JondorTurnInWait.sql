@@ -1,0 +1,4 @@
+DELETE FROM `quest` WHERE `name` = 'JondorTurnInWait';
+
+INSERT INTO `quest` (`name`, `min_Delta`, `max_Solves`, `message`, `last_Modified`)
+VALUES ('JondorTurnInWait', 72000, -1, 'Cooldown for Jondor Book Set Turn In', '2021-11-01 00:00:00');

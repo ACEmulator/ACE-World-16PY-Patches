@@ -1,0 +1,3 @@
+ReceiveLocalSignal: BloodstoneDead
+	- DeleteSelf
+	
