@@ -168,4 +168,4 @@ VALUES (32394, 2,   130,  0,14,    1, False) /* Create Shirt (130) for Wield */
      , (32394, 2, 21157,  0,86,    0, False) /* Create Covenant Pauldrons (21157) for Wield */
      , (32394, 2, 21151,  0,86,    0, False) /* Create Covenant Bracers (21151) for Wield */
      , (32394, 2, 21159,  0,86,    0, False) /* Create Covenant Tassets (21159) for Wield */
-     , (32394, 2, 21155,  0,86,    0, False) /* Create Covenant Greaves (21155) for Wield */
+     , (32394, 2, 21155,  0,86,    0, False) /* Create Covenant Greaves (21155) for Wield */;
