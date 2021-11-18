@@ -140,3 +140,43 @@ VALUES (0x7DC5801B, 33804, 0xDC580149, 140.257, -20.5021, -25.6, -0.199725, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC5801C, 33804, 0xDC580178, 190.15, -34.7339, -13.6, -0.998378, 0, 0, 0.056936,  True, '2021-11-01 00:00:00'); /* Small Fledgling Mukkir */
 /* @teleloc 0xDC580178 [190.149994 -34.733898 -13.600000] -0.998378 0.000000 0.000000 0.056936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DC5801D, 27891, 0xDC580008, 7.268, 189.672, 5.9, 1, 0, 0, 0, False, '2021-11-18 14:18:29'); /* Mosswart Chest */
+/* @teleloc 0xDC580008 [7.268000 189.671997 5.900000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DC5801E, 27893, 0xDC580008, 6.60019, 187.981, 5.9042, -0.130032, 0, 0, -0.99151, True, '2021-11-18 14:18:51'); /* Drudge Prowler */
+/* @teleloc 0xDC580008 [6.600190 187.981003 5.904200] -0.130032 0.000000 0.000000 -0.991510 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DC5801F,   192, 0xDC580008, 9.22418, 186.943, 5.9042, -0.068576, 0, 0, -0.997646, True, '2021-11-18 14:19:19'); /* Drudge Prowler */
+/* @teleloc 0xDC580008 [9.224180 186.942993 5.904200] -0.068576 0.000000 0.000000 -0.997646 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DC58020,   193, 0xDC580008, 8.69701, 184.134, 5.90333, -0.81904, 0, 0, -0.573736, True, '2021-11-18 14:19:33'); /* Drudge Slinker */
+/* @teleloc 0xDC580008 [8.697010 184.134003 5.903330] -0.819040 0.000000 0.000000 -0.573736 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DC58021,   193, 0xDC580008, 3.12555, 184.55, 5.90333, -0.824067, 0, 0, 0.566492, True, '2021-11-18 14:19:49'); /* Drudge Slinker */
+/* @teleloc 0xDC580008 [3.125550 184.550003 5.903330] -0.824067 0.000000 0.000000 0.566492 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DC58022,   940, 0xDC580008, 6.41984, 182.805, 5.9042, -0.999923, 0, 0, -0.012368, True, '2021-11-18 14:20:03'); /* Drudge Sneaker */
+/* @teleloc 0xDC580008 [6.419840 182.804993 5.904200] -0.999923 0.000000 0.000000 -0.012368 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DC58023,     7, 0xDC580008, 4.65566, 187.654, 5.90333, -0.241588, 0, 0, 0.970379, True, '2021-11-18 14:20:17'); /* Drudge Skulker */
+/* @teleloc 0xDC580008 [4.655660 187.654007 5.903330] -0.241588 0.000000 0.000000 0.970379 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DC58024,  7932, 0xDC580008, 8.87614, 188.428, 5.960001, 0.223343, 0, 0, 0.97474, False, '2021-11-18 14:20:38'); /* Linkable Monster Generator ( 4 Min.) */
+/* @teleloc 0xDC580008 [8.876140 188.427994 5.960001] 0.223343 0.000000 0.000000 0.974740 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7DC58024, 0x7DC5801E, '2005-02-09 10:00:00') /* Drudge Prowler (27893) */
+     , (0x7DC58024, 0x7DC5801F, '2005-02-09 10:00:00') /* Drudge Prowler (192) */
+     , (0x7DC58024, 0x7DC58020, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x7DC58024, 0x7DC58021, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
+     , (0x7DC58024, 0x7DC58022, '2005-02-09 10:00:00') /* Drudge Sneaker (940) */
+     , (0x7DC58024, 0x7DC58023, '2005-02-09 10:00:00') /* Drudge Skulker (7) */;
