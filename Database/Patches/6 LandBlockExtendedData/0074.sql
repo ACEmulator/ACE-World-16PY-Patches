@@ -126,7 +126,7 @@ VALUES (0x7007401E, 87577, 0x00740313, 97.1043, -68.9888, -53.945, 0.916259, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007401F, 87577, 0x007402E1, 60.5968, -79.6688, -59.945, 0.995486, 0, 0, -0.094908, False, '2021-11-01 00:00:00'); /* Black Spear Temple Generator */
-/* @teleloc 0x007402E1 [60.596802 -79.668800 -59.945000] 0.995486 0.000000 0.000000 -0.094907 */
+/* @teleloc 0x007402E1 [60.596802 -79.668800 -59.945000] 0.995486 0.000000 0.000000 -0.094908 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70074020, 87577, 0x007402E5, 58.8528, -111.056, -59.945, -0.771223, 0, 0, 0.636565, False, '2021-11-01 00:00:00'); /* Black Spear Temple Generator */

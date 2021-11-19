@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35407;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35407, 'ace35407-burnjasboardwithnails', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (35407, 'ace35407-burnjasboardwithnails', 6, '2021-11-07 08:12:46') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35407,   1,          1) /* ItemType - MeleeWeapon */
@@ -39,7 +39,7 @@ VALUES (35407,   5,    -0.1) /* ManaRate */
      , (35407,  29,    1.12) /* WeaponDefense */
      , (35407,  62,    1.14) /* WeaponOffense */
      , (35407,  63,       1) /* DamageMod */
-     , (35407, 147,       1) /* CriticalFrequency */
+     , (35407, 147,    0.33) /* CriticalFrequency */
      , (35407, 155,    1.35) /* IgnoreArmor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

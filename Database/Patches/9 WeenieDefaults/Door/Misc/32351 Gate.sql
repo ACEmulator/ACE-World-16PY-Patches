@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32351;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32351, 'ace32351-gate', 19, '2021-11-01 00:00:00') /* Door */;
+VALUES (32351, 'ace32351-gate', 19, '2021-11-17 16:56:08') /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32351,   1,        128) /* ItemType - Misc */
@@ -9,7 +9,7 @@ VALUES (32351,   1,        128) /* ItemType - Misc */
      , (32351,  16,          1) /* ItemUseable - No */
      , (32351,  19,          0) /* Value */
      , (32351,  83,          2) /* ActivationResponse - Use */
-     , (32351,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */;
+     , (32351,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32351,   1, True ) /* Stuck */

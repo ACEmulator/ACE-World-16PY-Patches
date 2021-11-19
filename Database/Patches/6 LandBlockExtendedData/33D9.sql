@@ -5,12 +5,12 @@ VALUES (0x733D9000, 28793, 0x33D90039, 185.137, 11.9241, 35.0555, -0.943814, 0, 
 /* @teleloc 0x33D90039 [185.136993 11.924100 35.055500] -0.943814 0.000000 0.000000 -0.330478 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733D9001,  1020, 0x33D90027, 106.687, 145.913, 51.7902, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Destroyed Portal to Holtburg */
-/* @teleloc 0x33D90027 [106.686996 145.912994 51.790199] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x733D9001,  1020, 0x33D90027, 106.687, 145.913, 51.7902, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Destroyed Portal to Holtburg */
+/* @teleloc 0x33D90027 [106.686996 145.912994 51.790199] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733D9002, 30043, 0x33D90013, 59.3836, 59.4684, 52, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Statue of King Varicci II */
-/* @teleloc 0x33D90013 [59.383598 59.468399 52.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x733D9002, 30043, 0x33D90013, 59.3836, 59.4684, 52, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Statue of King Varicci II */
+/* @teleloc 0x33D90013 [59.383598 59.468399 52.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733D9003,  8377, 0x33D90109, 90.011, 35.425, 52.915, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Beer Keg */
@@ -53,8 +53,8 @@ VALUES (0x733D9010, 30033, 0x33D90106, 14.2797, 36.9754, 52.005, 0.718102, 0, 0,
 /* @teleloc 0x33D90106 [14.279700 36.975399 52.005001] 0.718102 0.000000 0.000000 -0.695938 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733D9020,   412, 0x33D90002, 12.1779, 39.8661, 52.082, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x33D90002 [12.177900 39.866100 52.082001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x733D9020,   412, 0x33D90002, 12.1779, 39.8661, 52.082, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x33D90002 [12.177900 39.866100 52.082001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733D9021,   412, 0x33D90002, 8.03356, 35.8078, 52.082, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -65,8 +65,8 @@ VALUES (0x733D9022, 30938, 0x33D9001A, 82.7275, 28.5096, 52.082, 0.707107, 0, 0,
 /* @teleloc 0x33D9001A [82.727501 28.509600 52.082001] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733D9023, 30938, 0x33D9001A, 89.2822, 35.7282, 55.2719, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x33D9001A [89.282204 35.728199 55.271900] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x733D9023, 30938, 0x33D9001A, 89.2822, 35.7282, 55.2719, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x33D9001A [89.282204 35.728199 55.271900] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733D9024,  4179, 0x33D9010D, 93.1015, 28.4261, 52.1, -0.688729, 0, 0, 0.725019, False, '2021-11-01 00:00:00'); /* Bonfire */
@@ -93,8 +93,8 @@ VALUES (0x733D9030,  1027, 0x33D90027, 106.865, 165.795, 51.7902, 1, 0, 0, 0, Fa
 /* @teleloc 0x33D90027 [106.864998 165.794998 51.790199] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733D9039, 33612, 0x33D90014, 50, 88, 52, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Viamontian Pathwarden Chest */
-/* @teleloc 0x33D90014 [50.000000 88.000000 52.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x733D9039, 33612, 0x33D90014, 50, 88, 52, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Viamontian Pathwarden Chest */
+/* @teleloc 0x33D90014 [50.000000 88.000000 52.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733D9040, 42431, 0x33D90106, 15.0214, 34.0996, 52.005, -0.796727, 0, 0, -0.604339, False, '2021-11-01 00:00:00'); /* Ciriaco */
@@ -177,7 +177,7 @@ VALUES (0x733D907C, 29094, 0x33D90015, 62.8582, 96.6625, 52.005, -0.949316, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733D907D, 28707, 0x33D9000C, 33.1298, 77.3124, 52.005, 0.016489, 0, 0, -0.999864,  True, '2021-11-01 00:00:00'); /* Collector */
-/* @teleloc 0x33D9000C [33.129799 77.312401 52.005001] 0.016488 0.000000 0.000000 -0.999864 */
+/* @teleloc 0x33D9000C [33.129799 77.312401 52.005001] 0.016489 0.000000 0.000000 -0.999864 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733D907E, 28701, 0x33D9000A, 45.756, 26.9935, 52.005, 0.941397, 0, 0, -0.337301,  True, '2021-11-01 00:00:00'); /* Elena Du Furza */

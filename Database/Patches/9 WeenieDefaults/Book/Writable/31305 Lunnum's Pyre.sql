@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31305;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31305, 'ace31305-lunnumspyre', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (31305, 'ace31305-lunnumspyre', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31305,   1,       8192) /* ItemType - Writable */
      , (31305,   5,          5) /* EncumbranceVal */
      , (31305,  16,          8) /* ItemUseable - Contained */
      , (31305,  19,         10) /* Value */
-     , (31305,  53,        101) /* PlacementPosition - Resting */
      , (31305,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,4 +33,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31305, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31305, 0, 4294967295, 'Fiun Gaya', '', False, 'For years have I tended the fires of Lunnum''s Pyre. But now the curse of time has taken its toll upon my body. The fires for which I have cared for so long have now begun to dim. I ask for your help in keeping the light of Lunnum''s Pyre forever burning. Seek me out on the Isle of Ruin at 89.1N 47.6W.');
+VALUES (31305, 0, 0xFFFFFFFF, 'Fiun Gaya', 'prewritten', False, 'For years have I tended the fires of Lunnum''s Pyre. But now the curse of time has taken its toll upon my body. The fires for which I have cared for so long have now begun to dim. I ask for your help in keeping the light of Lunnum''s Pyre forever burning. Seek me out on the Isle of Ruin at 89.1N 47.6W.');

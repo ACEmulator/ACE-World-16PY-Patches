@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52701;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52701, 'ace52701-honeyedmanamead', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (52701, 'ace52701-honeyedmanamead', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52701,   1,       2048) /* ItemType - Gem */
@@ -38,6 +38,3 @@ VALUES (52701,   1, 0x020000AB) /* Setup */
      , (52701,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52701,  28,       6171) /* Spell - Honeyed Mana Mead */
      , (52701,  52, 0x0600679F) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52701,  6171,      2)  /* Honeyed Mana Mead */;

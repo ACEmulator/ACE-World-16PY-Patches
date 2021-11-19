@@ -5,8 +5,8 @@ VALUES (0x7586F000, 51428, 0x586F0103, 230, -230.05, -17.8675, 1, 0, 0, 0,  True
 /* @teleloc 0x586F0103 [230.000000 -230.050003 -17.867500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586F001, 51426, 0x586F017D, 80, -66.7141, -0.063, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Surface */
-/* @teleloc 0x586F017D [80.000000 -66.714104 -0.063000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7586F001, 51426, 0x586F017D, 80, -66.7141, -0.063, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Surface */
+/* @teleloc 0x586F017D [80.000000 -66.714104 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586F002, 51435, 0x586F02B1, 290, -140, 0.0044, -0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Snow Tuskie */
@@ -17,16 +17,16 @@ VALUES (0x7586F003, 51435, 0x586F02A2, 270, -120, 0.0044, 0.707107, 0, 0, -0.707
 /* @teleloc 0x586F02A2 [270.000000 -120.000000 0.004400] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586F004, 51435, 0x586F023A, 200, -150, 0.0044, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Snow Tuskie */
-/* @teleloc 0x586F023A [200.000000 -150.000000 0.004400] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7586F004, 51435, 0x586F023A, 200, -150, 0.0044, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Snow Tuskie */
+/* @teleloc 0x586F023A [200.000000 -150.000000 0.004400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586F005, 51435, 0x586F0286, 250, -120, 0.0044, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Snow Tuskie */
 /* @teleloc 0x586F0286 [250.000000 -120.000000 0.004400] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586F00B, 51435, 0x586F01BC, 120, -100, 0.0044, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Snow Tuskie */
-/* @teleloc 0x586F01BC [120.000000 -100.000000 0.004400] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7586F00B, 51435, 0x586F01BC, 120, -100, 0.0044, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Snow Tuskie */
+/* @teleloc 0x586F01BC [120.000000 -100.000000 0.004400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586F00C, 51435, 0x586F014D, 50, -140, 0.0044, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Snow Tuskie */

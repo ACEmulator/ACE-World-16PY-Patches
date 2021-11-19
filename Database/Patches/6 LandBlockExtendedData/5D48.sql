@@ -223,12 +223,12 @@ VALUES (0x75D48417, 32427, 0x5D48016B, 35.5286, -2.086, 18, 0.707107, 0, 0, -0.7
 /* @teleloc 0x5D48016B [35.528599 -2.086000 18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75D48418, 32433, 0x5D48016B, 42.111, 4.47136, 18, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Melee Defense Warden of Forgetfulness */
-/* @teleloc 0x5D48016B [42.111000 4.471360 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75D48418, 32433, 0x5D48016B, 42.111, 4.47136, 18, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Melee Defense Warden of Forgetfulness */
+/* @teleloc 0x5D48016B [42.111000 4.471360 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75D48419, 32432, 0x5D48016B, 39.569, 4.47136, 18, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Conversion Warden of Forgetfulness */
-/* @teleloc 0x5D48016B [39.569000 4.471360 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75D48419, 32432, 0x5D48016B, 39.569, 4.47136, 18, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Mana Conversion Warden of Forgetfulness */
+/* @teleloc 0x5D48016B [39.569000 4.471360 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4841A, 32434, 0x5D48016B, 44.3774, 4.36711, 18, -0.382683, 0, 0, -0.92388, False, '2021-11-01 00:00:00'); /* Missile Defense Warden of Forgetfulness */
@@ -239,8 +239,8 @@ VALUES (0x75D4841B, 32430, 0x5D48016B, 35.5392, 2.92996, 18, 0.707107, 0, 0, -0.
 /* @teleloc 0x5D48016B [35.539200 2.929960 18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75D4841C, 32431, 0x5D48016B, 37.0332, 4.45966, 18, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Magic Item Tinkering Warden of Forgetfulness */
-/* @teleloc 0x5D48016B [37.033199 4.459660 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75D4841C, 32431, 0x5D48016B, 37.0332, 4.45966, 18, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Magic Item Tinkering Warden of Forgetfulness */
+/* @teleloc 0x5D48016B [37.033199 4.459660 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4841D, 32428, 0x5D48016B, 35.5366, 0.444585, 18, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Loyalty Warden of Forgetfulness */

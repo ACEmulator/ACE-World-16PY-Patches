@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53011;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (53011, 'ace53011-ambercrystal', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (53011, 'ace53011-ambercrystal', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53011,   1,         16) /* ItemType - Creature */
@@ -10,10 +10,8 @@ VALUES (53011,   1,         16) /* ItemType - Creature */
      , (53011,  16,         32) /* ItemUseable - Remote */
      , (53011,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53011,  95,          8) /* RadarBlipColor - Yellow */
-     , (53011,  98, 1485848528) /* CreationTimestamp */
      , (53011, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (53011, 267,       3600) /* Lifespan */
-     , (53011, 268,       3600) /* RemainingLifespan */;
+     , (53011, 267,       3600) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53011,   1, True ) /* Stuck */

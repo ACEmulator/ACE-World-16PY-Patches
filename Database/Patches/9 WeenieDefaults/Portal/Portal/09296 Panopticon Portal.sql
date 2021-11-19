@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9296;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9296, 'portalpanopticon', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (9296, 'portalpanopticon', 7, '2021-11-08 06:01:47') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9296,   1,      65536) /* ItemType - Portal */
@@ -16,10 +16,7 @@ VALUES (9296,   1, True ) /* Stuck */
      , (9296,  11, False) /* IgnoreCollisions */
      , (9296,  12, True ) /* ReportCollisions */
      , (9296,  13, True ) /* Ethereal */
-     , (9296,  14, True ) /* GravityStatus */
-     , (9296,  15, True ) /* LightsStatus */
-     , (9296,  19, True ) /* Attackable */
-     , (9296,  88, True ) /* PortalShowDestination */;
+     , (9296,  15, True ) /* LightsStatus */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9296,  54,    -0.1) /* UseRadius */;
@@ -33,5 +30,5 @@ VALUES (9296,   1, 0x020005D6) /* Setup */
      , (9296,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9296, 2, 0x02A10166, 260, 0, -36, -0, 0, 0, -1) /* Destination */
-/* @teleloc 0x02A10166 [260.000000 0.000000 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */;
+VALUES (9296, 2, 0x02A10166, 260, 0, -36, 0, 0, 0, -1) /* Destination */
+/* @teleloc 0x02A10166 [260.000000 0.000000 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */;

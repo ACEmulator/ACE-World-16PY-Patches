@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30358;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30358, 'necklacerareiniquity', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (30358, 'necklacerareiniquity', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30358,   1,          8) /* ItemType - Jewelry */
@@ -13,8 +13,6 @@ VALUES (30358,   1,          8) /* ItemType - Jewelry */
      , (30358,  17,        237) /* RareId */
      , (30358,  19,      50000) /* Value */
      , (30358,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
-     , (30358,  52,          2) /* ParentLocation - LeftHand */
-     , (30358,  53,        101) /* PlacementPosition - Resting */
      , (30358,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30358, 106,        350) /* ItemSpellcraft */
      , (30358, 107,       3000) /* ItemCurMana */

@@ -49,13 +49,13 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5411, 2, 2000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5411, 0, 4294967295, ' ', 'prewritten', False, 'The Blademasters
+VALUES (5411, 0, 0xFFFFFFFF, ' ', 'prewritten', False, 'The Blademasters
 
 It is largely believed that anyone with a sword skill above 200 is a true master of the blade.  This book records for posterity those great warriors of Dereth who have dedicated their lives to the study of the sword, honoring them with eternal remembrance.
 
 (more)
 ')
-     , (5411, 1, 4294967295, '', 'prewritten', False, '
+     , (5411, 1, 0xFFFFFFFF, '', 'prewritten', False, '
 As of %D, %S
 
 ');

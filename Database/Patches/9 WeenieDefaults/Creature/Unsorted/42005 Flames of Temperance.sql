@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42005;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42005, 'ace42005-flamesoftemperance', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (42005, 'ace42005-flamesoftemperance', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42005,   1,         16) /* ItemType - Creature */
@@ -10,31 +10,7 @@ VALUES (42005,   1,         16) /* ItemType - Creature */
      , (42005,  16,         32) /* ItemUseable - Remote */
      , (42005,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (42005,  95,          8) /* RadarBlipColor - Yellow */
-     , (42005, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (42005, 307,          0) /* DamageRating */
-     , (42005, 308,          0) /* DamageResistRating */
-     , (42005, 313,          0) /* CritRating */
-     , (42005, 314,          0) /* CritDamageRating */
-     , (42005, 315,          0) /* CritResistRating */
-     , (42005, 316,          0) /* CritDamageResistRating */
-     , (42005, 370,          0) /* GearDamage */
-     , (42005, 371,          0) /* GearDamageResist */
-     , (42005, 372,          0) /* GearCrit */
-     , (42005, 373,          0) /* GearCritResist */
-     , (42005, 374,          0) /* GearCritDamage */
-     , (42005, 375,          0) /* GearCritDamageResist */
-     , (42005, 376,          0) /* GearHealingBoost */
-     , (42005, 377,          0) /* GearNetherResist */
-     , (42005, 378,          0) /* GearLifeResist */
-     , (42005, 379,          0) /* GearMaxHealth */
-     , (42005, 381,          0) /* PKDamageRating */
-     , (42005, 382,          0) /* PKDamageResistRating */
-     , (42005, 383,          0) /* GearPKDamageRating */
-     , (42005, 384,          0) /* GearPKDamageResistRating */
-     , (42005, 386,          0) /* Overpower */
-     , (42005, 387,          0) /* OverpowerResist */
-     , (42005, 388,          0) /* GearOverpower */
-     , (42005, 389,          0) /* GearOverpowerResist */;
+     , (42005, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42005,   1, True ) /* Stuck */

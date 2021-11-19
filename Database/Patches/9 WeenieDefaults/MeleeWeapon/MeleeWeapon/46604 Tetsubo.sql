@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46604;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46604, 'ace46604-tetsubo', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (46604, 'ace46604-tetsubo', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46604,   1,          1) /* ItemType - MeleeWeapon */
      , (46604,   3,         39) /* PaletteTemplate - Black */
      , (46604,   5,        675) /* EncumbranceVal */
      , (46604,   9,   33554432) /* ValidLocations - TwoHanded */
-     , (46604,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (46604,  16,          1) /* ItemUseable - No */
      , (46604,  19,        260) /* Value */
      , (46604,  33,         -2) /* Bonded - Destroy */

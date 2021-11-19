@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41175;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41175, 'ace41175-masterstatueoffreebooterisletransport', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (41175, 'ace41175-masterstatueoffreebooterisletransport', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41175,   1,         16) /* ItemType - Creature */
@@ -14,6 +14,8 @@ VALUES (41175,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41175,   1, True ) /* Stuck */
      , (41175,  19, False) /* Attackable */
+     , (41175,  52, True ) /* AiImmobile */
+     , (41175,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (41175,  83, True ) /* NpcLooksLikeObject */
      , (41175,  90, True ) /* NpcInteractsSilently */
      , (41175, 118, True ) /* NeverAttack */;

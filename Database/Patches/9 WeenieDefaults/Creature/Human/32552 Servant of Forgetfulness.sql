@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32552;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32552, 'ace32552-servantofforgetfulness', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (32552, 'ace32552-servantofforgetfulness', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32552,   1,         16) /* ItemType - Creature */
@@ -26,6 +26,8 @@ VALUES (32552,   1, True ) /* Stuck */
      , (32552,  19, False) /* Attackable */
      , (32552,  41, True ) /* ReportCollisionsAsEnvironment */
      , (32552,  42, True ) /* AllowEdgeSlide */
+     , (32552,  52, True ) /* AiImmobile */
+     , (32552,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (32552,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

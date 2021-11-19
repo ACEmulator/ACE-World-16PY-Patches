@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42802;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42802, 'ace42802-barkeephosaam', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (42802, 'ace42802-barkeephosaam', 12, '2021-11-17 16:56:08') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42802,   1,         16) /* ItemType - Creature */
      , (42802,   2,         31) /* CreatureType - Human */
-     , (42802,   6,        255) /* ItemsCapacity */
-     , (42802,   7,        255) /* ContainersCapacity */
+     , (42802,   6,         -1) /* ItemsCapacity */
+     , (42802,   7,         -1) /* ContainersCapacity */
      , (42802,  16,         32) /* ItemUseable - Remote */
      , (42802,  25,          5) /* Level */
      , (42802,  74,     262176) /* MerchandiseItemTypes - Food, PromissoryNote */
@@ -79,7 +79,7 @@ VALUES (42802, 2,  2598,  0, 17, 0.9818, False) /* Create Pants (2598) for Wield
      , (42802, 4, 44395, -1, 0, 0, False) /* Create Contract for Aug Gem: Diemos (44395) for Shop */
      , (42802, 4, 44392, -1, 0, 0, False) /* Create Contract for Tumerok Salted Meat (44392) for Shop */
      , (42802, 4, 44655, -1, 0, 0, False) /* Create Contract for Gear Knight Excavation (44655) for Shop */
-     , (42802, 4, 48779, -1, 0, 0, False) /* Create  (48779) for Shop */
+     , (42802, 4, 48779, -1, 0, 0, False) /* Create Contract for Lost Lore (48779) for Shop */
      , (42802, 4, 48780, -1, 0, 0, False) /* Create  (48780) for Shop */
      , (42802, 4, 48781, -1, 0, 0, False) /* Create  (48781) for Shop */
      , (42802, 4, 48782, -1, 0, 0, False) /* Create  (48782) for Shop */

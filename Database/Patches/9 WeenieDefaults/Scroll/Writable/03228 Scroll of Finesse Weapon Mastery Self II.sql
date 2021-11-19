@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3228;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3228, 'scrolldaggermasteryself2', 34, '2021-11-01 00:00:00') /* Scroll */;
+VALUES (3228, 'scrolldaggermasteryself2', 34, '2021-11-17 16:56:08') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3228,   1,       8192) /* ItemType - Writable */
      , (3228,   5,         30) /* EncumbranceVal */
      , (3228,  16,          8) /* ItemUseable - Contained */
      , (3228,  19,          5) /* Value */
-     , (3228,  53,        101) /* PlacementPosition - Resting */
      , (3228,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -32,6 +31,3 @@ VALUES (3228,   1, 0x0200018A) /* Setup */
      , (3228,   8, 0x0600711A) /* Icon */
      , (3228,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3228,  28,        323) /* Spell - Finesse Weapon Mastery Self II */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3228,   323,      2)  /* Finesse Weapon Mastery Self II */;

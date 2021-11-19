@@ -33,10 +33,10 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (46283, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (46283, 0, 4294967295, 'Explorer Scribe', 'prewritten', False, 'Atlan Weapons
+VALUES (46283, 0, 0xFFFFFFFF, 'Explorer Scribe', 'prewritten', False, 'Atlan Weapons
 
 Atlan weapons have become sought after once again. These ancient weapons grant great power to those who wield them, but in order to wield them, one must first construct them.')
-     , (46283, 1, 4294967295, 'Explorer Scribe', 'prewritten', False, 'Step One:
+     , (46283, 1, 0xFFFFFFFF, 'Explorer Scribe', 'prewritten', False, 'Step One:
 
 Many pyreal motes, found on the golems of Dereth, will be required to continue on the journey towards and Atlan weapon.
 
@@ -45,7 +45,7 @@ Two Pyreal Slivers creates a Pyreal Nugget.
 Two Pyreal Nuggets create a Pyreal Bar.
 And two Pyreal Bars are needed to create a Quality Pyreal Ingot. Make sure to seek out an alchemist before attempting this final step for proper results.
 ')
-     , (46283, 2, 4294967295, 'Explorer Scribe', 'prewritten', False, 'Step Two:
+     , (46283, 2, 0xFFFFFFFF, 'Explorer Scribe', 'prewritten', False, 'Step Two:
 
 Venture to Crater Lake Village and seek out Silencia the Archmage. She has glyphs for sale that will be needed in this next step.
 
@@ -55,7 +55,7 @@ Those who possess enough knowledge in their preferred form of combat will be abl
 
 Give the Infused Ingot to the Magma Golem (fear not, he is a controlled beast) and you shall be rewarded with an Atlan Weapon
 ')
-     , (46283, 3, 4294967295, 'Explorer Scribe', 'prewritten', False, 'Improving Your Weapon:
+     , (46283, 3, 0xFFFFFFFF, 'Explorer Scribe', 'prewritten', False, 'Improving Your Weapon:
 
 Now that you have obtained an Atlan Weapon you will likely wish to improve its power.
 

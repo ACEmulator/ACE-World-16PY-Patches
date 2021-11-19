@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70921;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70921, 'ace70921-atlanscodednotebook', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (70921, 'ace70921-atlanscodednotebook', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70921,   1,       8192) /* ItemType - Writable */
@@ -30,4 +30,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (70921, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (70921, 0, 4294967295, 'Atlan', '', False, '[ This book is filled with nonsensical code ]');
+VALUES (70921, 0, 0xFFFFFFFF, 'Atlan', 'prewritten', False, '[ This book is filled with nonsensical code ]');

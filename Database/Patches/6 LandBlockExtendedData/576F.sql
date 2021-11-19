@@ -5,8 +5,8 @@ VALUES (0x7576F010, 45736, 0x576F011F, 14.7395, -80, -18, 0.707107, 0, 0, -0.707
 /* @teleloc 0x576F011F [14.739500 -80.000000 -18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576F012, 45736, 0x576F01FB, 40, -105.254, -0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x576F01FB [40.000000 -105.253998 -0.000000] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x7576F012, 45736, 0x576F01FB, 40, -105.254, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x576F01FB [40.000000 -105.253998 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576F013, 45736, 0x576F0210, 30, -64.7231, 6, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
@@ -57,5 +57,5 @@ VALUES (0x7576F06B, 72377, 0x576F010F, 35, -85, -23.945, 1, 0, 0, 0, False, '202
 /* @teleloc 0x576F010F [35.000000 -85.000000 -23.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576F06C, 72388, 0x576F021E, 39.2814, -82.321, 6.44101, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door Reset Stopgap Gen */
-/* @teleloc 0x576F021E [39.281399 -82.320999 6.441010] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7576F06C, 72388, 0x576F021E, 39.2814, -82.321, 6.44101, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door Reset Stopgap Gen */
+/* @teleloc 0x576F021E [39.281399 -82.320999 6.441010] 0.000000 0.000000 0.000000 -1.000000 */

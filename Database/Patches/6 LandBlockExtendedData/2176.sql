@@ -98,11 +98,11 @@ VALUES (0x72176025, 42606, 0x21760034, 153.048, 85.3865, 146.782, 0.004987, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72176026, 42606, 0x21760034, 159.12, 85.3243, 146.74, -0.020012, 0, 0, 0.9998,  True, '2021-11-01 00:00:00'); /* Gear Hunter Mage */
-/* @teleloc 0x21760034 [159.119995 85.324303 146.740005] -0.020011 0.000000 0.000000 0.999800 */
+/* @teleloc 0x21760034 [159.119995 85.324303 146.740005] -0.020012 0.000000 0.000000 0.999800 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72176027, 42606, 0x21760034, 155.925, 81.32, 146.85, -0.020012, 0, 0, 0.9998,  True, '2021-11-01 00:00:00'); /* Gear Hunter Mage */
-/* @teleloc 0x21760034 [155.925003 81.320000 146.850006] -0.020011 0.000000 0.000000 0.999800 */
+/* @teleloc 0x21760034 [155.925003 81.320000 146.850006] -0.020012 0.000000 0.000000 0.999800 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72176028, 70715, 0x2176010D, 22.1224, 154.908, 90.405, 0.999956, 0, 0, -0.009428,  True, '2021-11-01 00:00:00'); /* General Tarkaris */

@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29393;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29393, 'noteinvadersilver', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (29393, 'noteinvadersilver', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29393,   1,       8192) /* ItemType - Writable */
      , (29393,   5,          5) /* EncumbranceVal */
      , (29393,  16,          8) /* ItemUseable - Contained */
      , (29393,  19,          0) /* Value */
-     , (29393,  53,        101) /* PlacementPosition - Resting */
      , (29393,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,6 +33,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (29393, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29393, 0, 4294967295, 'General Corcima', 'prewritten', True, 'Captain Argenne, 
+VALUES (29393, 0, 0xFFFFFFFF, 'General Corcima', 'prewritten', True, 'Captain Argenne, 
 
 All of us from the old Council of Generals remember the effectiveness of your siegecraft when we broke the walls of the city of Tirethas. In the coming days, you will have a similar mission of engineering. You are hereby commanded to establish a network of underground fortifications to serve as our immediate base of operations around the desert dwellers'' capital city. To aid you in this task, our King has negotiated an arrangement with the grey giants, the Lugians. They, too, are a race of warriors, and worthy of our respect. You are responsible for the management of our alliance, and for directly supervising the excavations. I trust you will do a fine job in preparing our tunnels.');

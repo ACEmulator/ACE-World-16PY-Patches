@@ -463,7 +463,7 @@ VALUES (0x733F405F, 87265, 0x33F40141, 140.192, 112.213, -105.145, 0.400041, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733F4060, 87265, 0x33F40142, 135.362, 102.308, -105.145, -0.067705, 0, 0, 0.997705, False, '2021-11-01 00:00:00'); /* Cold Air */
-/* @teleloc 0x33F40142 [135.362000 102.307999 -105.144997] -0.067704 0.000000 0.000000 0.997705 */
+/* @teleloc 0x33F40142 [135.362000 102.307999 -105.144997] -0.067705 0.000000 0.000000 0.997705 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733F4061, 87265, 0x33F4014C, 141.988, 90.9338, -105.145, -0.362655, 0, 0, 0.931924, False, '2021-11-01 00:00:00'); /* Cold Air */

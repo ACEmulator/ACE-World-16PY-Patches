@@ -29,5 +29,5 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (87541, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (87541, 0, 4294967295, 'Master', 'prewritten', False, 'Herren,
+VALUES (87541, 0, 0xFFFFFFFF, 'Master', 'prewritten', False, 'Herren,
 I have a very important task for you. You must intercept a messenger of the Ordina Rossu Morta who should be moving through your area very soon. I have reason to believe that the most unholy of alliances has finally come about: Dardante is cooperating with the Raven Hand, and this messenger may be carrying information critical to their mutual interest in Grael. Even if you must compromise the security of your base, we need to have a look at what this messenger carries. This is more responsibility than I would have wished to put upon you, but you are the one who is best prepared to carry out this operation right now.');

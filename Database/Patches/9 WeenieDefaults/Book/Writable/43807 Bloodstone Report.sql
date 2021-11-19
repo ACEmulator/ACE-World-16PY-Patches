@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43807;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43807, 'ace43807-bloodstonereport', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (43807, 'ace43807-bloodstonereport', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43807,   1,       8192) /* ItemType - Writable */
@@ -10,7 +10,6 @@ VALUES (43807,   1,       8192) /* ItemType - Writable */
      , (43807,  19,          0) /* Value */
      , (43807,  22,       1000) /* AvailableCharacter */
      , (43807,  33,          1) /* Bonded - Bonded */
-     , (43807,  53,        101) /* PlacementPosition - Resting */
      , (43807,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43807, 114,          1) /* Attuned - Attuned */;
 
@@ -39,7 +38,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (43807, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (43807, 0, 4294967295, 'Lord Kastellar', 'prewritten', True, 'My dear Lord Gregor,
+VALUES (43807, 0, 0xFFFFFFFF, 'Lord Kastellar', 'prewritten', True, 'My dear Lord Gregor,
 
 As you have requested, here is an update on my progress with the creation of the Bloodstones. As you have seen with the Bloodstones already released in the area held by the Gurog above, the Bloodstones themselves are a success. At the behest of the Archons, I have also experimented in the creation of smaller varieties, with a focus on speeding the process. Progress on these goes well, and already a number of smaller Bloodstone Shards and Fragments have been completed.
 

@@ -46,7 +46,7 @@ VALUES (0x7007100A, 87565, 0x007102AB, 110.133, -180.212, -17.945, 0.026041, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007100B, 87565, 0x00710289, 100.23, -170.37, -17.945, -0.024359, 0, 0, -0.999703, False, '2021-11-01 00:00:00'); /* Dericost Vault Generator */
-/* @teleloc 0x00710289 [100.230003 -170.369995 -17.945000] -0.024358 0.000000 0.000000 -0.999703 */
+/* @teleloc 0x00710289 [100.230003 -170.369995 -17.945000] -0.024359 0.000000 0.000000 -0.999703 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7007100C, 87565, 0x0071027B, 89.3108, -179.337, -17.945, -0.425788, 0, 0, 0.904823, False, '2021-11-01 00:00:00'); /* Dericost Vault Generator */
@@ -90,7 +90,7 @@ VALUES (0x70071015, 87565, 0x00710176, 49.062, -179.956, -29.945, 0.703673, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70071016, 87565, 0x00710156, 30.3392, -163.615, -29.945, 0.018727, 0, 0, 0.999825, False, '2021-11-01 00:00:00'); /* Dericost Vault Generator */
-/* @teleloc 0x00710156 [30.339199 -163.615005 -29.945000] 0.018726 0.000000 0.000000 0.999825 */
+/* @teleloc 0x00710156 [30.339199 -163.615005 -29.945000] 0.018727 0.000000 0.000000 0.999825 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70071017, 87565, 0x0071015C, 39.143, -120.133, -29.945, -0.171527, 0, 0, 0.985179, False, '2021-11-01 00:00:00'); /* Dericost Vault Generator */

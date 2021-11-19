@@ -21,8 +21,8 @@ VALUES (0x776E9047, 43518, 0x76E901C2, 156.18, 280.264, 94.8, -0.826436, 0, 0, -
 /* @teleloc 0x76E901C2 [156.179993 280.264008 94.800003] -0.826436 0.000000 0.000000 -0.563030 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x776E9048,  5624, 0x76E90184, 128, 154.523, 88.8, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0x76E90184 [128.000000 154.522995 88.800003] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x776E9048,  5624, 0x76E90184, 128, 154.523, 88.8, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0x76E90184 [128.000000 154.522995 88.800003] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776E9049, 43524, 0x76E901B1, 139.36, 331.079, 94.737, 0.976574, 0, 0, -0.215182, False, '2021-11-01 00:00:00'); /* Frozen Tomb */

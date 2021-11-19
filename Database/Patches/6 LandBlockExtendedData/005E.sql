@@ -37,12 +37,12 @@ VALUES (0x7005E009, 14804, 0x005E010B, 175.25, -4.75, -156, 0.707107, 0, 0, -0.7
 /* @teleloc 0x005E010B [175.250000 -4.750000 -156.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005E00A,  6122, 0x005E010C, 180, -10, -156, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Acid */
-/* @teleloc 0x005E010C [180.000000 -10.000000 -156.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7005E00A,  6122, 0x005E010C, 180, -10, -156, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Acid */
+/* @teleloc 0x005E010C [180.000000 -10.000000 -156.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005E00B, 14804, 0x005E010D, 175.179, -24.6793, -156, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Acid */
-/* @teleloc 0x005E010D [175.179001 -24.679300 -156.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7005E00B, 14804, 0x005E010D, 175.179, -24.6793, -156, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Acid */
+/* @teleloc 0x005E010D [175.179001 -24.679300 -156.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7005E00C,  5489, 0x005E010E, 130, -30, -150, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* "Mag-Ma!" */
@@ -1808,7 +1808,7 @@ VALUES (0x7005E1AD, 24868, 0x005E0297, 33.3573, -60.7748, -18.008, 0.999997, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7005E1AE, 24868, 0x005E0297, 27.4678, -59.2688, -18.008, 0.997051, 0, 0, -0.076748,  True, '2021-11-01 00:00:00'); /* Sishalti Tendril */
-/* @teleloc 0x005E0297 [27.467800 -59.268799 -18.007999] 0.997051 0.000000 0.000000 -0.076747 */
+/* @teleloc 0x005E0297 [27.467800 -59.268799 -18.007999] 0.997051 0.000000 0.000000 -0.076748 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7005E1AF, 24868, 0x005E02A1, 31.1633, -75.2465, -18.0229, -0.999126, 0, 0, -0.041805,  True, '2021-11-01 00:00:00'); /* Sishalti Tendril */

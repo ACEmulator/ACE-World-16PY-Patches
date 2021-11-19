@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31234;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31234, 'ace31234-lubziklanalluqtradeagreement', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (31234, 'ace31234-lubziklanalluqtradeagreement', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31234,   1,       8192) /* ItemType - Writable */
@@ -9,7 +9,6 @@ VALUES (31234,   1,       8192) /* ItemType - Writable */
      , (31234,  16,          8) /* ItemUseable - Contained */
      , (31234,  19,          0) /* Value */
      , (31234,  33,          1) /* Bonded - Bonded */
-     , (31234,  53,        101) /* PlacementPosition - Resting */
      , (31234,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31234, 114,          1) /* Attuned - Attuned */;
 
@@ -38,7 +37,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31234, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31234, 0, 4294967295, 'Lubziklan al-Luq', 'prewritten', True, 'Greetings and salutations Anton Sillezi
+VALUES (31234, 0, 0xFFFFFFFF, 'Lubziklan al-Luq', 'prewritten', True, 'Greetings and salutations Anton Sillezi
 
 I most graciously accept your offer of a trade alliance. Preparations for my first shipment of Cove Apple Wine are underway as we speak.
 

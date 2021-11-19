@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46597;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46597, 'ace46597-falatacottemple', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (46597, 'ace46597-falatacottemple', 7, '2021-11-17 16:56:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46597,   1,      65536) /* ItemType - Portal */
@@ -17,8 +17,7 @@ VALUES (46597,   1, True ) /* Stuck */
      , (46597,  13, True ) /* Ethereal */
      , (46597,  14, True ) /* GravityStatus */
      , (46597,  15, True ) /* LightsStatus */
-     , (46597,  19, True ) /* Attackable */
-     , (46597,  88, True ) /* PortalShowDestination */;
+     , (46597,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46597,  54,    -0.1) /* UseRadius */;
@@ -33,4 +32,4 @@ VALUES (46597,   1, 0x020005D5) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46597, 2, 0x665E021E, 30, -130.78, 0.019191, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x665E021E [30.000000 -130.779999 0.019190] 1.000000 0.000000 0.000000 0.000000 */;
+/* @teleloc 0x665E021E [30.000000 -130.779999 0.019191] 1.000000 0.000000 0.000000 0.000000 */;

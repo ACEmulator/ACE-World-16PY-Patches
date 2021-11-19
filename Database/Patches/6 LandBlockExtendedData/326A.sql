@@ -2,7 +2,7 @@ DELETE FROM `landblock_instance` WHERE `landblock` = 0x326A;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326A003, 40156, 0x326A0032, 164.486, 35.9064, 299.937, -0.999547, 0, 0, -0.030107, False, '2021-11-01 00:00:00'); /* Crystalline Portal */
-/* @teleloc 0x326A0032 [164.485992 35.906399 299.937012] -0.999547 0.000000 0.000000 -0.030106 */
+/* @teleloc 0x326A0032 [164.485992 35.906399 299.937012] -0.999547 0.000000 0.000000 -0.030107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326A004,  4219, 0x326A001A, 89.1244, 27.3514, 259.998, 0.866025, 0, 0, -0.5, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 7 Min.) */

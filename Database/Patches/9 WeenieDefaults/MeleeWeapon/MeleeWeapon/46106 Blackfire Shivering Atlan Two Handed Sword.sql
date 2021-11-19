@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46106;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46106, 'ace46106-blackfireshiveringatlantwohandedsword', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (46106, 'ace46106-blackfireshiveringatlantwohandedsword', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46106,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,8 +19,6 @@ VALUES (46106,   1,          1) /* ItemType - MeleeWeapon */
      , (46106,  48,         41) /* WeaponSkill - TwoHandedCombat */
      , (46106,  49,         50) /* WeaponTime */
      , (46106,  51,          5) /* CombatUse - TwoHanded */
-     , (46106,  52,          1) /* ParentLocation - RightHand */
-     , (46106,  53,          1) /* PlacementPosition - RightHandCombat */
      , (46106,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46106, 106,        325) /* ItemSpellcraft */
      , (46106, 107,        400) /* ItemCurMana */

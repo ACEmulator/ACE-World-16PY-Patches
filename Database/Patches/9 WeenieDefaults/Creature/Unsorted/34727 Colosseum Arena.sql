@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34727;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34727, 'ace34727-colosseumarena', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (34727, 'ace34727-colosseumarena', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34727,   1,         16) /* ItemType - Creature */
      , (34727,   6,         -1) /* ItemsCapacity */
      , (34727,   7,         -1) /* ContainersCapacity */
      , (34727,  16,         32) /* ItemUseable - Remote */
-     , (34727,  93,    6360088) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, HasPhysicsBSP, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (34727,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34727,  95,          4) /* RadarBlipColor - Purple */
      , (34727, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

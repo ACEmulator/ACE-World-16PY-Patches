@@ -37,6 +37,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (29475, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29475, 0, 4294967295, 'O', 'prewritten', False, 'Yuan Hanzu
+VALUES (29475, 0, 0xFFFFFFFF, 'O', 'prewritten', False, 'Yuan Hanzu
 
 (This book is written in an unintelligible script, probably an elaborate code.)');

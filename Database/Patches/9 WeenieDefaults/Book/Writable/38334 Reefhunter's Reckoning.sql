@@ -30,7 +30,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (38334, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (38334, 0, 4294967295, '', 'prewritten', False, 'During the Tidal Surge, the hunters set forth with their nets to capture the Reefshark and bring food to the city. They captured 231 Reefsharks for the pens. For every 3 Reefsharks captured 1 was slaughtered to feed the ravenous Brood Mothers. Of the remaining Reefsharks, 3 out of every 11 were sacrificed to the Whispering One, may he bless us with his wisdom.
+VALUES (38334, 0, 0xFFFFFFFF, '', 'prewritten', False, 'During the Tidal Surge, the hunters set forth with their nets to capture the Reefshark and bring food to the city. They captured 231 Reefsharks for the pens. For every 3 Reefsharks captured 1 was slaughtered to feed the ravenous Brood Mothers. Of the remaining Reefsharks, 3 out of every 11 were sacrificed to the Whispering One, may he bless us with his wisdom.
 
 Know the number of Reefsharks left to feed the city and you shall know where to place the staff.
 ');

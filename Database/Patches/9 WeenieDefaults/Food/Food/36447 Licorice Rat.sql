@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36447;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36447, 'ace36447-licoricerat', 18, '2021-11-01 00:00:00') /* Food */;
+VALUES (36447, 'ace36447-licoricerat', 18, '2021-11-17 16:56:08') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36447,   1,         32) /* ItemType - Food */
@@ -45,6 +45,3 @@ VALUES (36447,   1, 0x0200003D) /* Setup */
      , (36447,   8, 0x06006706) /* Icon */
      , (36447,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36447,  28,       4211) /* Spell - Licorice Leap */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36447,  4211,      2)  /* Licorice Leap */;

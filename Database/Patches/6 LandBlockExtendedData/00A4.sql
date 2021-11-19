@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x00A4;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A4005, 36602, 0x00A40114, 70, -64.75, -36, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Lab Door */
-/* @teleloc 0x00A40114 [70.000000 -64.750000 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x700A4005, 36602, 0x00A40114, 70, -64.75, -36, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Lab Door */
+/* @teleloc 0x00A40114 [70.000000 -64.750000 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A403D, 36602, 0x00A4028A, 10, -74.75, 0, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Lab Door */
@@ -226,8 +226,8 @@ VALUES (0x700A4080, 30447, 0x00A401CD, 79.1263, -69.9818, -17.971, 0.714421, 0, 
 /* @teleloc 0x00A401CD [79.126297 -69.981796 -17.971001] 0.714421 0.000000 0.000000 0.699716 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A4081, 30447, 0x00A4024B, 70, -90, -11.971, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Virindi Desecrator */
-/* @teleloc 0x00A4024B [70.000000 -90.000000 -11.971000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700A4081, 30447, 0x00A4024B, 70, -90, -11.971, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Virindi Desecrator */
+/* @teleloc 0x00A4024B [70.000000 -90.000000 -11.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A4082, 25882, 0x00A40246, 70, -59.7787, -11.9925, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Schism */
@@ -238,8 +238,8 @@ VALUES (0x700A4083, 25882, 0x00A4023A, 60, -50, -11.9925, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x00A4023A [60.000000 -50.000000 -11.992500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A4084, 25882, 0x00A40256, 80, -70, -11.9925, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Schism */
-/* @teleloc 0x00A40256 [80.000000 -70.000000 -11.992500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700A4084, 25882, 0x00A40256, 80, -70, -11.9925, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Schism */
+/* @teleloc 0x00A40256 [80.000000 -70.000000 -11.992500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A4085, 31313, 0x00A40141, 40, -69.8748, -23.9857, -0.004204, 0, 0, -0.999991,  True, '2021-11-01 00:00:00'); /* Stomper */
@@ -286,8 +286,8 @@ VALUES (0x700A408F, 36597, 0x00A40157, 57.2672, -81.4473, -23.9975, 0.678557, 0,
 /* @teleloc 0x00A40157 [57.267200 -81.447304 -23.997499] 0.678557 0.000000 0.000000 0.734547 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A4090, 30447, 0x00A4011A, 70, -120, -35.971, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Virindi Desecrator */
-/* @teleloc 0x00A4011A [70.000000 -120.000000 -35.971001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700A4090, 30447, 0x00A4011A, 70, -120, -35.971, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Virindi Desecrator */
+/* @teleloc 0x00A4011A [70.000000 -120.000000 -35.971001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A4091, 31313, 0x00A4011F, 80, -100, -35.9857, -0.004204, 0, 0, -0.999991,  True, '2021-11-01 00:00:00'); /* Stomper */
@@ -318,8 +318,8 @@ VALUES (0x700A4097, 36599, 0x00A40106, 40, -40, -35.995, 0.714421, 0, 0, -0.6997
 /* @teleloc 0x00A40106 [40.000000 -40.000000 -35.994999] 0.714421 0.000000 0.000000 -0.699716 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A4098, 36599, 0x00A40105, 30, -80, -35.995, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Paradox Simulacrum War Mage */
-/* @teleloc 0x00A40105 [30.000000 -80.000000 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700A4098, 36599, 0x00A40105, 30, -80, -35.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox Simulacrum War Mage */
+/* @teleloc 0x00A40105 [30.000000 -80.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A4099, 36598, 0x00A40136, 20, -90, -23.995, 0.020795, 0, 0, -0.999784,  True, '2021-11-01 00:00:00'); /* Paradox Simulacrum */
@@ -366,12 +366,12 @@ VALUES (0x700A40A3, 36598, 0x00A40212, 20, -10, -11.995, 1, 0, 0, 0,  True, '202
 /* @teleloc 0x00A40212 [20.000000 -10.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A40A4, 36598, 0x00A40217, 20, -40, -11.995, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Paradox Simulacrum */
-/* @teleloc 0x00A40217 [20.000000 -40.000000 -11.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700A40A4, 36598, 0x00A40217, 20, -40, -11.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox Simulacrum */
+/* @teleloc 0x00A40217 [20.000000 -40.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A40A5, 36598, 0x00A4021C, 20, -70, -11.995, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Paradox Simulacrum */
-/* @teleloc 0x00A4021C [20.000000 -70.000000 -11.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700A40A5, 36598, 0x00A4021C, 20, -70, -11.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox Simulacrum */
+/* @teleloc 0x00A4021C [20.000000 -70.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A40A6, 36598, 0x00A40221, 20, -100, -11.995, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox Simulacrum */
@@ -502,8 +502,8 @@ VALUES (0x700A40C6, 36597, 0x00A40451, 35.9425, -35.9334, 24.0025, 0.385543, 0, 
 /* @teleloc 0x00A40451 [35.942501 -35.933399 24.002501] 0.385543 0.000000 0.000000 -0.922690 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A40C7, 36598, 0x00A40464, 60, -50, 24.005, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Paradox Simulacrum */
-/* @teleloc 0x00A40464 [60.000000 -50.000000 24.004999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700A40C7, 36598, 0x00A40464, 60, -50, 24.005, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Paradox Simulacrum */
+/* @teleloc 0x00A40464 [60.000000 -50.000000 24.004999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A40C8, 36599, 0x00A40449, 30, -30, 24.005, 0.540303, 0, 0, -0.841471,  True, '2021-11-01 00:00:00'); /* Paradox Simulacrum War Mage */

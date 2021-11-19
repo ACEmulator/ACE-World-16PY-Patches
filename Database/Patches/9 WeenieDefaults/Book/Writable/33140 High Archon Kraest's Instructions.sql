@@ -27,4 +27,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (33140, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (33140, 0, 4294967295, 'High Archon Kraest', 'prewritten', False, 'Go, my Archon, to the ruin I have identified the location for. There is no portal, so you will have to gain entry through more mundane means. Once you have gained entry, find this Mukkir, this "Targor". Capture it, bring it to me. I need this Mukkir alive. Let nothing stand in your way.');
+VALUES (33140, 0, 0xFFFFFFFF, 'High Archon Kraest', 'prewritten', False, 'Go, my Archon, to the ruin I have identified the location for. There is no portal, so you will have to gain entry through more mundane means. Once you have gained entry, find this Mukkir, this "Targor". Capture it, bring it to me. I need this Mukkir alive. Let nothing stand in your way.');

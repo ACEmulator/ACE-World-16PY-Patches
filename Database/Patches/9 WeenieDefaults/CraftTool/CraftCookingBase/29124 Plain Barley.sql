@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29124;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29124, 'barleyplain', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (29124, 'barleyplain', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29124,   1,    4194304) /* ItemType - CraftCookingBase */
@@ -12,7 +12,6 @@ VALUES (29124,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29124,  15,         20) /* StackUnitValue */
      , (29124,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29124,  19,         20) /* Value */
-     , (29124,  53,        101) /* PlacementPosition - Resting */
      , (29124,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29124,  94,    4194336) /* TargetType - Food, CraftCookingBase */
      , (29124, 151,          2) /* HookType - Wall */;

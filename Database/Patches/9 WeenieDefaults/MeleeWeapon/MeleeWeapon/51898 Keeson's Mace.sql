@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51898;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51898, 'ace51898-keesonsmace', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (51898, 'ace51898-keesonsmace', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51898,   1,          1) /* ItemType - MeleeWeapon */
@@ -18,8 +18,6 @@ VALUES (51898,   1,          1) /* ItemType - MeleeWeapon */
      , (51898,  48,          5) /* WeaponSkill - Mace */
      , (51898,  49,         80) /* WeaponTime */
      , (51898,  51,          1) /* CombatUse - Melee */
-     , (51898,  52,          1) /* ParentLocation - RightHand */
-     , (51898,  53,          1) /* PlacementPosition - RightHandCombat */
      , (51898,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51898, 106,        450) /* ItemSpellcraft */
      , (51898, 107,       1000) /* ItemCurMana */
@@ -56,6 +54,3 @@ VALUES (51898,   1, 0x0200141B) /* Setup */
      , (51898,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51898,  30,         88) /* PhysicsScript - Create */
      , (51898,  55,       2166) /* ProcSpell - Tusker's Gift */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51898,  2166,      2)  /* Tusker's Gift */;

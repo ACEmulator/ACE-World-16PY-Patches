@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43594;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43594, 'ace43594-snowtuskerleader', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (43594, 'ace43594-snowtuskerleader', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43594,   1,         16) /* ItemType - Creature */
      , (43594,   2,          8) /* CreatureType - Tusker */
      , (43594,   3,          8) /* PaletteTemplate - Green */
-     , (43594,   6,        255) /* ItemsCapacity */
-     , (43594,   7,        255) /* ContainersCapacity */
+     , (43594,   6,         -1) /* ItemsCapacity */
+     , (43594,   7,         -1) /* ContainersCapacity */
      , (43594,  16,          1) /* ItemUseable - No */
      , (43594,  25,        240) /* Level */
      , (43594,  27,          0) /* ArmorType - None */

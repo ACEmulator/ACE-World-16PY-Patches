@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71381;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71381, 'ace71381-ancientincendiaryguardian', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (71381, 'ace71381-ancientincendiaryguardian', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71381,   1,         16) /* ItemType - Creature */
      , (71381,   2,         62) /* CreatureType - Elemental */
      , (71381,   3,         14) /* PaletteTemplate - Red */
-     , (71381,   6,        255) /* ItemsCapacity */
-     , (71381,   7,        255) /* ContainersCapacity */
+     , (71381,   6,         -1) /* ItemsCapacity */
+     , (71381,   7,         -1) /* ContainersCapacity */
      , (71381,  16,          1) /* ItemUseable - No */
      , (71381,  25,        220) /* Level */
      , (71381,  27,          0) /* ArmorType - None */

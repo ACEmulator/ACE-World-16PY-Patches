@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37516;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37516, 'ace37516-enhancedmanaelixir', 18, '2021-11-01 00:00:00') /* Food */;
+VALUES (37516, 'ace37516-enhancedmanaelixir', 18, '2021-11-17 16:56:08') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37516,   1,        128) /* ItemType - Misc */
@@ -17,7 +17,6 @@ VALUES (37516,   1,        128) /* ItemType - Misc */
      , (37516,  18,          1) /* UiEffects - Magical */
      , (37516,  19,       1000) /* Value */
      , (37516,  33,          1) /* Bonded - Bonded */
-     , (37516,  53,        101) /* PlacementPosition - Resting */
      , (37516,  89,          6) /* BoosterEnum - Mana */
      , (37516,  90,        200) /* BoostValue */
      , (37516,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (37618, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (37618, 0, 4294967295, 'Candrus Steady-Hand', 'prewritten', False, '
+VALUES (37618, 0, 0xFFFFFFFF, 'Candrus Steady-Hand', 'prewritten', False, '
 Honored Shunja,
 
 The bearer of this note has proven to be immensely helpful in the task of keeping down the infestation of Blight Spirits here at my station by the Empyrean graveyard. I would suggest that you pass on to the bearer a copy of the Principles of the Celestial Hand. In time, we may find this person worthy of recruitment into the organization, at least when we decide to start accepting new members.

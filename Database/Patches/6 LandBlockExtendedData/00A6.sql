@@ -145,12 +145,12 @@ VALUES (0x700A601A, 37084, 0x00A6021A, 118.398, -98.617, 0.005, 1, 0, 0, 0,  Tru
 /* @teleloc 0x00A6021A [118.398003 -98.616997 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A601B, 37085, 0x00A6020A, 111.41, -122.028, 0.005, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Tanada Burrows Enforcer */
-/* @teleloc 0x00A6020A [111.410004 -122.028000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700A601B, 37085, 0x00A6020A, 111.41, -122.028, 0.005, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Tanada Burrows Enforcer */
+/* @teleloc 0x00A6020A [111.410004 -122.028000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A601C, 37085, 0x00A6020A, 110, -120, 0.005, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Tanada Burrows Enforcer */
-/* @teleloc 0x00A6020A [110.000000 -120.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700A601C, 37085, 0x00A6020A, 110, -120, 0.005, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Tanada Burrows Enforcer */
+/* @teleloc 0x00A6020A [110.000000 -120.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A601D, 37084, 0x00A6023E, 152.066, -109.845, 0.005, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Tanada Burrows Sapper */
@@ -194,4 +194,4 @@ VALUES (0x700A6026, 37085, 0x00A60157, 31.2341, -40.9225, 0.005, 1, 0, 0, 0,  Tr
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A6027, 37084, 0x00A601AD, 78.4509, -48.097, 0.042079, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Tanada Burrows Sapper */
-/* @teleloc 0x00A601AD [78.450897 -48.097000 0.042078] 1.000000 0.000000 0.000000 0.000000 */
+/* @teleloc 0x00A601AD [78.450897 -48.097000 0.042079] 1.000000 0.000000 0.000000 0.000000 */

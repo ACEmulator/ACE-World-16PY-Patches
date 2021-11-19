@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29373;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29373, 'doorinvaderkeepsilver', 19, '2021-11-01 00:00:00') /* Door */;
+VALUES (29373, 'doorinvaderkeepsilver', 19, '2021-11-17 16:56:08') /* Door */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29373,   1,        128) /* ItemType - Misc */
@@ -9,7 +9,7 @@ VALUES (29373,   1,        128) /* ItemType - Misc */
      , (29373,  16,         32) /* ItemUseable - Remote */
      , (29373,  19,          0) /* Value */
      , (29373,  38,       1000) /* ResistLockpick */
-     , (29373,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */;
+     , (29373,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29373,   1, True ) /* Stuck */

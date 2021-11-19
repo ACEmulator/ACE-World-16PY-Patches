@@ -1,16 +1,16 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x576A;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576A000, 72356, 0x576A01AC, 40.146, -238.823, 0.005, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
-/* @teleloc 0x576A01AC [40.146000 -238.822998 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7576A000, 72356, 0x576A01AC, 40.146, -238.823, 0.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
+/* @teleloc 0x576A01AC [40.146000 -238.822998 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576A002, 72356, 0x576A0186, 31.1617, -219.933, 0.005, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
 /* @teleloc 0x576A0186 [31.161699 -219.932999 0.005000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576A004, 72356, 0x576A01A2, 39.9846, -158.815, 0.005, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
-/* @teleloc 0x576A01A2 [39.984600 -158.815002 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7576A004, 72356, 0x576A01A2, 39.9846, -158.815, 0.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
+/* @teleloc 0x576A01A2 [39.984600 -158.815002 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576A005, 72356, 0x576A017C, 28.8144, -169.966, 0.005, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
@@ -21,56 +21,56 @@ VALUES (0x7576A007, 72356, 0x576A0178, 31.1837, -140.061, 0.005, 0.707107, 0, 0,
 /* @teleloc 0x576A0178 [31.183701 -140.061005 0.005000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576A008, 72356, 0x576A0148, 20.0781, -118.836, 0.005, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
-/* @teleloc 0x576A0148 [20.078100 -118.835999 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7576A008, 72356, 0x576A0148, 20.0781, -118.836, 0.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
+/* @teleloc 0x576A0148 [20.078100 -118.835999 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576A009, 72356, 0x576A0198, 40.0325, -78.8285, 0.005, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
-/* @teleloc 0x576A0198 [40.032501 -78.828499 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7576A009, 72356, 0x576A0198, 40.0325, -78.8285, 0.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
+/* @teleloc 0x576A0198 [40.032501 -78.828499 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576A00A, 72356, 0x576A016E, 28.8444, -89.8898, 0.005, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
 /* @teleloc 0x576A016E [28.844400 -89.889801 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576A00B, 72356, 0x576A01C5, 50.0912, -78.8153, 0.005, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
-/* @teleloc 0x576A01C5 [50.091202 -78.815300 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7576A00B, 72356, 0x576A01C5, 50.0912, -78.8153, 0.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
+/* @teleloc 0x576A01C5 [50.091202 -78.815300 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576A00C, 72356, 0x576A016A, 31.1621, -60.0513, 0.005, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
 /* @teleloc 0x576A016A [31.162100 -60.051300 0.005000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576A00D, 72356, 0x576A013D, 20.0608, -38.8221, 0.005, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
-/* @teleloc 0x576A013D [20.060801 -38.822102 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7576A00D, 72356, 0x576A013D, 20.0608, -38.8221, 0.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
+/* @teleloc 0x576A013D [20.060801 -38.822102 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576A00E, 72356, 0x576A018E, 40.0811, 1.18491, 0.005, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
-/* @teleloc 0x576A018E [40.081100 1.184910 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7576A00E, 72356, 0x576A018E, 40.0811, 1.18491, 0.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
+/* @teleloc 0x576A018E [40.081100 1.184910 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576A00F, 72356, 0x576A0160, 28.8399, -9.96473, 0.005, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
 /* @teleloc 0x576A0160 [28.839899 -9.964730 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576A010, 72356, 0x576A0208, 70.0726, -38.8224, 0.005, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
-/* @teleloc 0x576A0208 [70.072601 -38.822399 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7576A010, 72356, 0x576A0208, 70.0726, -38.8224, 0.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
+/* @teleloc 0x576A0208 [70.072601 -38.822399 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576A011, 72356, 0x576A01C1, 48.8349, -49.9084, 0.005, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
 /* @teleloc 0x576A01C1 [48.834900 -49.908401 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576A013, 72356, 0x576A0210, 69.9884, -118.816, 0.005, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
-/* @teleloc 0x576A0210 [69.988403 -118.816002 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7576A013, 72356, 0x576A0210, 69.9884, -118.816, 0.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
+/* @teleloc 0x576A0210 [69.988403 -118.816002 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576A014, 72356, 0x576A01CF, 48.8168, -129.928, 0.005, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
 /* @teleloc 0x576A01CF [48.816799 -129.927994 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576A015, 72356, 0x576A0218, 70.1215, -198.818, 0.005, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
-/* @teleloc 0x576A0218 [70.121498 -198.817993 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7576A015, 72356, 0x576A0218, 70.1215, -198.818, 0.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
+/* @teleloc 0x576A0218 [70.121498 -198.817993 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576A016, 72356, 0x576A01DD, 48.816, -209.872, 0.005, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
@@ -81,8 +81,8 @@ VALUES (0x7576A017, 72356, 0x576A018A, 28.8272, -249.913, 0.005, 0.707107, 0, 0,
 /* @teleloc 0x576A018A [28.827200 -249.912994 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576A018, 72356, 0x576A0153, 19.9647, -198.82, 0.005, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
-/* @teleloc 0x576A0153 [19.964701 -198.820007 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7576A018, 72356, 0x576A0153, 19.9647, -198.82, 0.005, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Geraine Bodies Bolt Caster */
+/* @teleloc 0x576A0153 [19.964701 -198.820007 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576A019, 45693, 0x576A0110, 55.25, -80, -11.945, 0.707107, 0, 0, 0.707107, False, '2021-11-01 00:00:00'); /* Door */

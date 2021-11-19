@@ -30,4 +30,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (51921, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (51921, 1, 4294967295, 'Unknown', 'prewritten', False, 'A message for Commander Presk.');
+VALUES (51921, 1, 0xFFFFFFFF, 'Unknown', 'prewritten', False, 'A message for Commander Presk.');

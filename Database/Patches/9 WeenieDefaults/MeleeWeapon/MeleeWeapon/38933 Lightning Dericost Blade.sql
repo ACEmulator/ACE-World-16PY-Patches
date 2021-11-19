@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38933;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38933, 'ace38933-lightningdericostblade', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (38933, 'ace38933-lightningdericostblade', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38933,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,6 @@ VALUES (38933,   1,          1) /* ItemType - MeleeWeapon */
      , (38933,  48,         45) /* WeaponSkill - LightWeapons */
      , (38933,  49,         30) /* WeaponTime */
      , (38933,  51,          1) /* CombatUse - Melee */
-     , (38933,  53,        101) /* PlacementPosition - Resting */
      , (38933,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38933, 169,  101254914) /* TsysMutationData */
      , (38933, 353,          2) /* WeaponType - Sword */;

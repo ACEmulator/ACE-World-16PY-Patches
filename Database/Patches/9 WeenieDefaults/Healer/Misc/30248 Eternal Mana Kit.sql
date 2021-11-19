@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30248;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30248, 'healingkitrareeternalmana', 28, '2021-11-01 00:00:00') /* Healer */;
+VALUES (30248, 'healingkitrareeternalmana', 28, '2021-11-17 16:56:08') /* Healer */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30248,   1,        128) /* ItemType - Misc */
@@ -11,7 +11,6 @@ VALUES (30248,   1,        128) /* ItemType - Misc */
      , (30248,  17,        148) /* RareId */
      , (30248,  19,          0) /* Value */
      , (30248,  33,         -1) /* Bonded - Slippery */
-     , (30248,  53,        101) /* PlacementPosition - Resting */
      , (30248,  89,          6) /* BoosterEnum - Mana */
      , (30248,  90,        100) /* BoostValue */
      , (30248,  92,         -1) /* Structure */

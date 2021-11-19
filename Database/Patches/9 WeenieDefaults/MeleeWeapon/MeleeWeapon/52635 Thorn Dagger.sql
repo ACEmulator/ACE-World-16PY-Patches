@@ -1,13 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52635;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52635, 'ace52635-thorndagger', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (52635, 'ace52635-thorndagger', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52635,   1,          1) /* ItemType - MeleeWeapon */
      , (52635,   5,        450) /* EncumbranceVal */
      , (52635,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (52635,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (52635,  16,          1) /* ItemUseable - No */
      , (52635,  18,          1) /* UiEffects - Magical */
      , (52635,  19,        460) /* Value */

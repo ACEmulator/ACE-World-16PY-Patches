@@ -117,4 +117,4 @@ VALUES (@parent_id,  0,  15 /* Activate */, 0, 1, NULL, NULL, NULL, NULL, NULL, 
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (72488, 0.5, 72491, 180, 1, 1, 1, 4, 0, 0, 0, 0x665E0163, 339.428, -209.04, -7.99999, 0.707107, 0, 0, 0.707107) /* Generate Vicar Minion (72491) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (72488, 1, 72491, 180, 1, 1, 1, 4, 0, 0, 0, 0x665E01AC, 219.952, -120.363, -5.97781, -0, 0, 0, -1) /* Generate Vicar Minion (72491) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (72488, 1, 72491, 180, 1, 1, 1, 4, 0, 0, 0, 0x665E01AC, 219.952, -120.363, -5.97781, 0, 0, 0, -1) /* Generate Vicar Minion (72491) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

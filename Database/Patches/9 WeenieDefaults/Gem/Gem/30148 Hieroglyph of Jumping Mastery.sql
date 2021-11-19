@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30148;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30148, 'gemrareeternaljump', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (30148, 'gemrareeternaljump', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30148,   1,       2048) /* ItemType - Gem */
@@ -50,6 +50,3 @@ VALUES (30148,   1, 0x020009A7) /* Setup */
      , (30148,  28,       4572) /* Spell - Incantation of Jumping Mastery Self */
      , (30148,  50, 0x06005B46) /* IconOverlay */
      , (30148,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30148,  4572,      2)  /* Incantation of Jumping Mastery Self */;

@@ -291,8 +291,8 @@ VALUES (0x7665E0A4, 46510, 0x665E0156, 176.126, -159.763, -8.03171, 1, 0, 0, 0, 
 /* @teleloc 0x665E0156 [176.126007 -159.763000 -8.031710] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7665E0A5, 46528, 0x665E01A6, 200.08, -160.728, -5.93081, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Minion */
-/* @teleloc 0x665E01A6 [200.080002 -160.727997 -5.930810] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7665E0A5, 46528, 0x665E01A6, 200.08, -160.728, -5.93081, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Minion */
+/* @teleloc 0x665E01A6 [200.080002 -160.727997 -5.930810] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7665E0A6, 46524, 0x665E01B6, 239.233, -138.949, -5.93081, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Spectral Minion */
@@ -303,12 +303,12 @@ VALUES (0x7665E0A7, 46528, 0x665E01B3, 230.128, -141.137, -5.93081, 0.707107, 0,
 /* @teleloc 0x665E01B3 [230.128006 -141.136993 -5.930810] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7665E0A9, 46530, 0x665E01AD, 221.437, -129.765, -5.93081, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Minion */
-/* @teleloc 0x665E01AD [221.436996 -129.764999 -5.930810] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7665E0A9, 46530, 0x665E01AD, 221.437, -129.765, -5.93081, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Minion */
+/* @teleloc 0x665E01AD [221.436996 -129.764999 -5.930810] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7665E0AA, 46526, 0x665E01AD, 218.873, -131.541, -5.93081, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Minion */
-/* @teleloc 0x665E01AD [218.873001 -131.541000 -5.930810] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7665E0AA, 46526, 0x665E01AD, 218.873, -131.541, -5.93081, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Minion */
+/* @teleloc 0x665E01AD [218.873001 -131.541000 -5.930810] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7665E0AF, 46532, 0x665E01E6, 301.562, -120.279, -5.98081, -0.199746, 0, 0, -0.979848,  True, '2021-11-01 00:00:00'); /* Spectral Nanjou Shou-jen */
@@ -327,8 +327,8 @@ VALUES (0x7665E0B5, 46534, 0x665E0168, 359.18, -159.871, -8.00572, 0.707107, 0, 
 /* @teleloc 0x665E0168 [359.179993 -159.871002 -8.005720] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7665E0B6, 46536, 0x665E01F0, 319.892, -158.909, -5.93081, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Samurai */
-/* @teleloc 0x665E01F0 [319.891998 -158.908997 -5.930810] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7665E0B6, 46536, 0x665E01F0, 319.892, -158.909, -5.93081, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Samurai */
+/* @teleloc 0x665E01F0 [319.891998 -158.908997 -5.930810] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7665E0B9, 46510, 0x665E015F, 329.424, -212.435, -8.02703, -0.731268, 0, 0, -0.68209,  True, '2021-11-01 00:00:00'); /* Spectral Bloodmage */
@@ -367,12 +367,12 @@ VALUES (0x7665E0C3, 46506, 0x665E01E4, 294.127, -171.393, -5.93081, 0.707107, 0,
 /* @teleloc 0x665E01E4 [294.127014 -171.393005 -5.930810] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7665E0C4, 46518, 0x665E01D5, 268.841, -149.198, -5.93081, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Bushi */
-/* @teleloc 0x665E01D5 [268.841003 -149.197998 -5.930810] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7665E0C4, 46518, 0x665E01D5, 268.841, -149.198, -5.93081, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Bushi */
+/* @teleloc 0x665E01D5 [268.841003 -149.197998 -5.930810] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7665E0C5, 46534, 0x665E01D5, 271.11, -147.177, -5.93081, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Samurai */
-/* @teleloc 0x665E01D5 [271.109985 -147.177002 -5.930810] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7665E0C5, 46534, 0x665E01D5, 271.11, -147.177, -5.93081, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Samurai */
+/* @teleloc 0x665E01D5 [271.109985 -147.177002 -5.930810] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7665E0C6, 46526, 0x665E01DC, 282.548, -138.913, -5.93081, 0.707107, 0, 0, 0.707107,  True, '2021-11-01 00:00:00'); /* Spectral Minion */
@@ -406,16 +406,16 @@ VALUES (0x7665E0D1, 46510, 0x665E01BE, 252.708, -97.8233, -2.03347, -0.165413, 0
 /* @teleloc 0x665E01BE [252.707993 -97.823303 -2.033470] -0.165413 0.000000 0.000000 0.986224 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7665E0D2, 72538, 0x665E01C8, 260.044, -92.6919, -2.02973, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Exarch Nanjou Shou-jen */
-/* @teleloc 0x665E01C8 [260.044006 -92.691902 -2.029730] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7665E0D2, 72538, 0x665E01C8, 260.044, -92.6919, -2.02973, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Exarch Nanjou Shou-jen */
+/* @teleloc 0x665E01C8 [260.044006 -92.691902 -2.029730] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7665E0D3, 46532, 0x665E01C8, 262.484, -94.8107, -2.03253, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Nanjou Shou-jen */
-/* @teleloc 0x665E01C8 [262.484009 -94.810699 -2.032530] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7665E0D3, 46532, 0x665E01C8, 262.484, -94.8107, -2.03253, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Nanjou Shou-jen */
+/* @teleloc 0x665E01C8 [262.484009 -94.810699 -2.032530] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7665E0D4, 46532, 0x665E01C8, 256.866, -94.8606, -2.03254, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Nanjou Shou-jen */
-/* @teleloc 0x665E01C8 [256.865997 -94.860603 -2.032540] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7665E0D4, 46532, 0x665E01C8, 256.866, -94.8606, -2.03254, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Spectral Nanjou Shou-jen */
+/* @teleloc 0x665E01C8 [256.865997 -94.860603 -2.032540] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7665E0D5, 72489, 0x665E01C6, 247.66, -202.014, -5.865, 0.999994, 0, 0, -0.003513, False, '2021-11-01 00:00:00'); /* Falatacot Temple Counter Gen */

@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x5952;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75952005, 51938, 0x5952024B, 210, -276.953, 0.029, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Tormented Sorcerer */
-/* @teleloc 0x5952024B [210.000000 -276.953003 0.029000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75952005, 51938, 0x5952024B, 210, -276.953, 0.029, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Tormented Sorcerer */
+/* @teleloc 0x5952024B [210.000000 -276.953003 0.029000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75952006, 51938, 0x595202D8, 369.763, -229.707, 0.029, 0.307874, 0, 0, -0.951427,  True, '2021-11-01 00:00:00'); /* Tormented Sorcerer */
@@ -37,8 +37,8 @@ VALUES (0x75952022, 51936, 0x595202B2, 337.191, -235.24, 0.029, -0.516996, 0, 0,
 /* @teleloc 0x595202B2 [337.191010 -235.240005 0.029000] -0.516996 0.000000 0.000000 -0.855988 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75952023, 51936, 0x5952028F, 280, -249.451, 0.029, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Tormented Minion */
-/* @teleloc 0x5952028F [280.000000 -249.451004 0.029000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75952023, 51936, 0x5952028F, 280, -249.451, 0.029, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Tormented Minion */
+/* @teleloc 0x5952028F [280.000000 -249.451004 0.029000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75952024, 51936, 0x5952028B, 280, -230, 0.029, 0.454329, 0, 0, -0.890834,  True, '2021-11-01 00:00:00'); /* Tormented Minion */
@@ -69,12 +69,12 @@ VALUES (0x7595202A, 51936, 0x595202DA, 379.746, -150.368, 0.029, 0.827829, 0, 0,
 /* @teleloc 0x595202DA [379.746002 -150.367996 0.029000] 0.827829 0.000000 0.000000 -0.560980 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75952030, 52031, 0x595202D6, 370, -210, 0.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Corrupted Warrior */
-/* @teleloc 0x595202D6 [370.000000 -210.000000 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75952030, 52031, 0x595202D6, 370, -210, 0.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Corrupted Warrior */
+/* @teleloc 0x595202D6 [370.000000 -210.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75952031, 52028, 0x595202C7, 370, -100, 0.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Corrupted Warrior */
-/* @teleloc 0x595202C7 [370.000000 -100.000000 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75952031, 52028, 0x595202C7, 370, -100, 0.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Corrupted Warrior */
+/* @teleloc 0x595202C7 [370.000000 -100.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75952033, 52031, 0x59520272, 241.652, -239.959, 0.005, -0.701758, 0, 0, -0.712415,  True, '2021-11-01 00:00:00'); /* Corrupted Warrior */
@@ -280,7 +280,7 @@ VALUES (0x759521E5, 51938, 0x5952025A, 218.291, -92.8682, 0.029, 0.802539, 0, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759521E7, 52027, 0x5952027D, 255.976, -98.02, 0.005, -0.043043, 0, 0, 0.999073,  True, '2021-11-01 00:00:00'); /* Corrupted Shaman */
-/* @teleloc 0x5952027D [255.975998 -98.019997 0.005000] -0.043042 0.000000 0.000000 0.999073 */
+/* @teleloc 0x5952027D [255.975998 -98.019997 0.005000] -0.043043 0.000000 0.000000 0.999073 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759521EB, 72042, 0x59520204, 107.247, -42.7145, 0.055, 0.921143, 0, 0, -0.389224, False, '2021-11-01 00:00:00'); /* Tower Gateway Gen */

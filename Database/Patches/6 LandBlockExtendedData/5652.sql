@@ -124,7 +124,7 @@ VALUES (0x75652018, 87172, 0x5652029E, 112.788, -80.9222, -29.9973, 0.243927, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75652019, 87176, 0x5652033B, 69.3851, -78.6934, -17.9918, -0.047119, 0, 0, 0.998889,  True, '2021-11-01 00:00:00'); /* Frozen Wight */
-/* @teleloc 0x5652033B [69.385101 -78.693398 -17.991800] -0.047118 0.000000 0.000000 0.998889 */
+/* @teleloc 0x5652033B [69.385101 -78.693398 -17.991800] -0.047119 0.000000 0.000000 0.998889 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7565201A, 87176, 0x565202F5, 70.5805, -103.492, -23.9918, 0.998481, 0, 0, -0.055096,  True, '2021-11-01 00:00:00'); /* Frozen Wight */
@@ -219,7 +219,7 @@ VALUES (0x7565202A, 87179, 0x56520155, -0.845661, -120.417, -83.9902, 0.802963, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7565202B, 87174, 0x56520161, 19.8351, -90.4248, -83.9975, 0.036028, 0, 0, -0.999351,  True, '2021-11-01 00:00:00'); /* Pyre Champion */
-/* @teleloc 0x56520161 [19.835100 -90.424797 -83.997498] 0.036027 0.000000 0.000000 -0.999351 */
+/* @teleloc 0x56520161 [19.835100 -90.424797 -83.997498] 0.036028 0.000000 0.000000 -0.999351 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7565202C, 87174, 0x56520195, 79.7041, -61.921, -83.9975, 0.048526, 0, 0, -0.998822,  True, '2021-11-01 00:00:00'); /* Pyre Champion */
@@ -401,7 +401,7 @@ VALUES (0x75652057, 48742, 0x56520120, 86.2806, -34.5158, -101.945, 0, 0, 0, -1,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75652058, 87166, 0x56520117, 80.0464, -103.245, -101.945, 0.999907, 0, 0, 0.013629, False, '2021-11-01 00:00:00'); /* Hidden Treasury Gen */
-/* @teleloc 0x56520117 [80.046402 -103.245003 -101.945000] 0.999907 0.000000 0.000000 0.013628 */
+/* @teleloc 0x56520117 [80.046402 -103.245003 -101.945000] 0.999907 0.000000 0.000000 0.013629 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75652059, 15759, 0x56520195, 83.7938, -59.4863, -83.945, 0.014585, 0, 0, -0.999894, False, '2021-11-01 00:00:00'); /* Linkable Item Generator */

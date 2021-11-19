@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23361;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23361, 'choriziteformula', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (23361, 'choriziteformula', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23361,   1,    8388608) /* ItemType - CraftAlchemyBase */
@@ -16,7 +16,6 @@ VALUES (23361,   1,    8388608) /* ItemType - CraftAlchemyBase */
      , (23361,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (23361,  19,         50) /* Value */
      , (23361,  33,          1) /* Bonded - Bonded */
-     , (23361,  53,        101) /* PlacementPosition - Resting */
      , (23361,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23361,  94,        130) /* TargetType - Armor, Misc */
      , (23361, 114,          1) /* Attuned - Attuned */;

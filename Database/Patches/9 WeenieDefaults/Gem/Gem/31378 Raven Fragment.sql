@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31378;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31378, 'ace31378-ravenfragment', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (31378, 'ace31378-ravenfragment', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31378,   1,       2048) /* ItemType - Gem */
@@ -10,7 +10,6 @@ VALUES (31378,   1,       2048) /* ItemType - Gem */
      , (31378,  16,          1) /* ItemUseable - No */
      , (31378,  19,          0) /* Value */
      , (31378,  33,          1) /* Bonded - Bonded */
-     , (31378,  53,        101) /* PlacementPosition - Resting */
      , (31378,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31378, 114,          1) /* Attuned - Attuned */;
 

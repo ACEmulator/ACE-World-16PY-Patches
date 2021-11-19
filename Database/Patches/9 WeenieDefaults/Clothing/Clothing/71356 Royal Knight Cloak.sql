@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71356;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71356, 'ace71356-royalknightcloak', 2, '2021-11-01 00:00:00') /* Clothing */;
+VALUES (71356, 'ace71356-royalknightcloak', 2, '2021-11-17 16:56:08') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71356,   1,          4) /* ItemType - Clothing */
@@ -43,8 +43,7 @@ VALUES (71356,  13,     0.8) /* ArmorModVsSlash */
      , (71356,  17,     0.2) /* ArmorModVsFire */
      , (71356,  18,     0.1) /* ArmorModVsAcid */
      , (71356,  19,     0.2) /* ArmorModVsElectric */
-     , (71356, 165,       1) /* ArmorModVsNether */
-     , (71356, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (71356, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71356,   1, 'Royal Knight Cloak') /* Name */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30250;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30250, 'healingkitrarevolatilehealth', 28, '2021-11-01 00:00:00') /* Healer */;
+VALUES (30250, 'healingkitrarevolatilehealth', 28, '2021-11-17 16:56:08') /* Healer */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30250,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (30250,   1,        128) /* ItemType - Misc */
      , (30250,  16,    2228232) /* ItemUseable - SourceContainedTargetRemoteOrSelf */
      , (30250,  17,         70) /* RareId */
      , (30250,  19,          0) /* Value */
-     , (30250,  53,        101) /* PlacementPosition - Resting */
      , (30250,  89,          2) /* BoosterEnum - Health */
      , (30250,  90,        500) /* BoostValue */
      , (30250,  91,         25) /* MaxStructure */

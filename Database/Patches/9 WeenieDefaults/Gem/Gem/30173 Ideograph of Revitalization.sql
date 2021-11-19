@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30173;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30173, 'gemrareeternalstaminaregeneration', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (30173, 'gemrareeternalstaminaregeneration', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30173,   1,       2048) /* ItemType - Gem */
@@ -49,6 +49,3 @@ VALUES (30173,   1, 0x020009A7) /* Setup */
      , (30173,  28,       4498) /* Spell - Incantation of Rejuvenation Self */
      , (30173,  50, 0x06005B5F) /* IconOverlay */
      , (30173,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30173,  4498,      2)  /* Incantation of Rejuvenation Self */;

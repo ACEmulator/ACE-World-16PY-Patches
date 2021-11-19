@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41809;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41809, 'ace41809-damagedcelestialhandcommendationribbon', 51, '2021-11-01 00:00:00') /* Stackable */;
+VALUES (41809, 'ace41809-damagedcelestialhandcommendationribbon', 51, '2021-11-17 16:56:08') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41809,   1,        128) /* ItemType - Misc */
@@ -13,7 +13,6 @@ VALUES (41809,   1,        128) /* ItemType - Misc */
      , (41809,  16,          1) /* ItemUseable - No */
      , (41809,  19,          0) /* Value */
      , (41809,  33,          1) /* Bonded - Bonded */
-     , (41809,  53,        101) /* PlacementPosition - Resting */
      , (41809,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41809, 114,          1) /* Attuned - Attuned */;
 

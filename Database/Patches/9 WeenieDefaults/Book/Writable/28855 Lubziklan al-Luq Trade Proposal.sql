@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28855;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28855, 'noteletterlubziklanproposal', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (28855, 'noteletterlubziklanproposal', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28855,   1,       8192) /* ItemType - Writable */
@@ -10,7 +10,6 @@ VALUES (28855,   1,       8192) /* ItemType - Writable */
      , (28855,  19,          0) /* Value */
      , (28855,  22,       1000) /* AvailableCharacter */
      , (28855,  33,          1) /* Bonded - Bonded */
-     , (28855,  53,        101) /* PlacementPosition - Resting */
      , (28855,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28855, 114,          1) /* Attuned - Attuned */;
 
@@ -39,7 +38,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28855, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28855, 0, 4294967295, 'Anton Silezzi', 'prewritten', False, 'Greetings Lubziklan al-Luq
+VALUES (28855, 0, 0xFFFFFFFF, 'Anton Silezzi', 'prewritten', False, 'Greetings Lubziklan al-Luq
 
 My name is Anton Silezzi and I represent a consortium of merchants in Sanamar. It is with great pride that I invite you to join with us to establish trade between our two great cities. 
 

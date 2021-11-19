@@ -33,23 +33,23 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (39330, 7, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (39330, 0, 4294967295, '', 'prewritten', False, 'Welcome, my friend, to an exciting breakthrough in the new world of Alchemy! Contained within these pages are the latest discoveries on the creation of throwable phials that will aid you greatly in combating the dangers of this world! Read on, my friend, and learn those secrets of Alchemy that I wish to now share with you.
+VALUES (39330, 0, 0xFFFFFFFF, '', 'prewritten', False, 'Welcome, my friend, to an exciting breakthrough in the new world of Alchemy! Contained within these pages are the latest discoveries on the creation of throwable phials that will aid you greatly in combating the dangers of this world! Read on, my friend, and learn those secrets of Alchemy that I wish to now share with you.
 
 - Janier al-Evv
 ')
-     , (39330, 1, 4294967295, '', 'prewritten', False, 'Overview:
+     , (39330, 1, 0xFFFFFFFF, '', 'prewritten', False, 'Overview:
 
 For those who have not yet done so, I highly recommend reading my other work, "A Treatise on the Combat Uses of Alchemical Phials", which covers, in far greater detail, the creation of these wonderous items.
 
 For the rest, to recap. Using many previously existing oils, along with a couple newly created oils and a set of specially crafted Phials (Available exclusively from Janier al-Evv), a number of combat effective and throwable phials may be created. At this point in the development of these phials, several effects similar to the Vulnerability Spells used in Life Magic may be duplicated. 
 ')
-     , (39330, 2, 4294967295, '', 'prewritten', False, 'Latest Discoveries:
+     , (39330, 2, 0xFFFFFFFF, '', 'prewritten', False, 'Latest Discoveries:
 
 Using the wonderful, new Mana Forges and the equally impressive Mana Scarabs, I have finally been able to capture the strength of the seventh ''tier'' of magics within a Phial! After ages of valiant research and experimentation, the creation of an Enchanted Mana Phial has become possible. These newly crafted Phials (Available exclusively from Janier al-Evv), allow the replication of spell effects once believed to be too complex for the alchemical matrix used to match. 
 ')
-     , (39330, 3, 4294967295, '', 'prewritten', False, 'This research also leads me to believe that the materials used to create the scarabs used for spellcasting, while making these alchemical processes possible, also reach a point where they are not strong enough to contain an effect of the same power in which they would allow a skilled magus to cast a spell. What this means to you is simply thus: No material has yet been identified that would allow for the replication of the Incantations some few have been able to master, but the previously impossible to replicate strength of the seventh tier of magics is now within the grasp of the truly masterful alchemists of Dereth! 
+     , (39330, 3, 0xFFFFFFFF, '', 'prewritten', False, 'This research also leads me to believe that the materials used to create the scarabs used for spellcasting, while making these alchemical processes possible, also reach a point where they are not strong enough to contain an effect of the same power in which they would allow a skilled magus to cast a spell. What this means to you is simply thus: No material has yet been identified that would allow for the replication of the Incantations some few have been able to master, but the previously impossible to replicate strength of the seventh tier of magics is now within the grasp of the truly masterful alchemists of Dereth! 
 ')
-     , (39330, 4, 4294967295, 'Janier al-Evv', 'prewritten', False, 'Notes on the Enchanted Mana Phials:
+     , (39330, 4, 0xFFFFFFFF, 'Janier al-Evv', 'prewritten', False, 'Notes on the Enchanted Mana Phials:
 
 Creation of the Mana Phials works in the same manner as the crafting of its lesser cousins. One difference noted is, that for the first time in the creation of these phials, the act of creating the final, throwable phial is actually notably more difficult than the raw ability required to handle and throw one effectively. Raw skill alone may not be enough to manufacture these phials for yourself, so be warned.
 

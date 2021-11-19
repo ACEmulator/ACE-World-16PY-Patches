@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31231, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31231, 0, 4294967295, 'Eleonora du Bellenesse', 'prewritten', True, 'They have tortured for me for days. Yet they ask no questions. I am sure they plan to kill me.
+VALUES (31231, 0, 0xFFFFFFFF, 'Eleonora du Bellenesse', 'prewritten', True, 'They have tortured for me for days. Yet they ask no questions. I am sure they plan to kill me.
 
 I miss my father. I miss Viamont. I miss Ispar. But I regret nothing. Though I am sure I will not live to see daylight again, I believe in our cause. People have a right to freedom. Those of Varicci''s ilk must be cleansed from the world - or else there is no justice.
 

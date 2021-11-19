@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40088;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40088, 'ace40088-empoweredswordoflostlight', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (40088, 'ace40088-empoweredswordoflostlight', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40088,   1,          1) /* ItemType - MeleeWeapon */
@@ -30,8 +30,7 @@ VALUES (40088,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40088,  22, True ) /* Inscribable */
-     , (40088,  69, False) /* IsSellable */
-     , (40088,  85, True ) /* AppraisalHasAllowedWielder */;
+     , (40088,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40088,   5,  -0.033) /* ManaRate */
@@ -42,7 +41,7 @@ VALUES (40088,   5,  -0.033) /* ManaRate */
      , (40088,  39,     1.3) /* DefaultScale */
      , (40088,  62,    1.18) /* WeaponOffense */
      , (40088,  63,       1) /* DamageMod */
-     , (40088, 147,       1) /* CriticalFrequency */;
+     , (40088, 147,    0.34) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40088,   1, 'Empowered Sword of Lost Light') /* Name */

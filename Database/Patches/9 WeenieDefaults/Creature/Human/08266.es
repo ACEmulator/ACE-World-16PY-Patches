@@ -1,18 +1,43 @@
-Give: Virindi Message Shard (36613)
-    - TurnToTarget
-    - Tell: Fascinating...
-    - Delay: 1, DirectBroadcast: Diyas al-Yat shudders.
-    - Delay: 1, Tell: This seems to be the research notes on the creation of a "Prodigal Human". It seems Aerbax was trying to create another Martine, but one with more potential, and bound directly to a shard of his own essence! Is this what his recent creations all are? Shards of his essence, given form?
-    - Delay: 1, Tell: Here, see for yourself.
-    - Give: 87273
+Give: Black Water Watcher's Shard (35864)
+	- TurnToTarget
+	- Tell: Well, this is disturbing...
+	- Delay: 1, Tell: These Tanada from the House of Water seem to have become the pawns of forces greater than themselves. Here, have a look for yourself.
+	- Give: Translated Black Water Watcher's Shard (35866)
 
-Refuse: Excavation Master's Message Shard (41187)
+Give: Tanada Consul's Message Shard (87679)
+	- TurnToTarget
+	- Tell: Ah, a message shard from a Virindi Consul found in the southern land bridge? Most intriguing... Let me see if I can translate it for you...
+	- Motion: Reading
+	- Delay: 1, DirectBroadcast: A strange, cold light emanates from the eyes of Diyas al-Yat as he concentrates on the message shard.
+	- Motion: Ready
+	- Give: Tanada House of Water Orders (87680)
+	- Delay: 1, Tell: I have translated the shard for you. You should bring that translation to Meshenq. He will know what to do with such dire news. Imagine, Nanjou Shou-Jen corrupted by the chaos Virindi! Such an abomination!
+	- Delay: 1, Tell: Also, Meshenq has told me he gave you a medallion he took from the Tanada who attacked him. The medallion is attuned to the corrupted spirits of the House of Water Tanada. If you give it to me, I can channel its magic to make it useful to you, but I am afraid it will lose the property that grants you access to the House of Water. Not that you need to go to that foul place any more...
+
+Give: Tanada Gate Medallion (35309)
+	- TurnToTarget
+	- Give: Channeled Tanada Medallion (35313)
+	- Tell: Yes, as I may have mentioned, this medallion is attuned to the corrupted life-force of the Nanjou Shou-Jen who have given themselves to the dominion of the chaotic Virindi... Truly tragic. I can channel the magic in this medallion to be useful to you, but it will no longer grant you access to the House of Water. I can't imagine why you'd want to go back in there, though.
+	- Delay: 1 Tell: If you don't find this channeled medallion useful, you can just give it to me and I'll compensate you with general training.
+
+Give: Channeled Tanada Medallion (35313)
+	- TurnToTarget
+	- Tell: Ah, you don't find this useful? A pity. The patterns are so mesmerizing...
+	- AwardLevelProportionalXP: 5%, 0 - 6,891,063
+
+Give: Virindi Message Shard (35561)
+	- TurnToTarget
+	- Tell: Fascinating...
+	- Delay: 1, Tell: It seems this is some sort of continuation of other experiments I've translated shards for. It seems they are trying to create some sort of penultimate creature, or something along those lines.
+	- Give: Observations: Harraag (35565)
+
+Refuse: Excavation Masters Message Shard (41187)
     - TurnToTarget
-    - TakeItems: 41187, 1
+    - TakeItems: Excavation Masters Message Shard (41187), 1
     - DirectBroadcast: Diyas stares into the fragment of crystal for a moment, and he spends a long time seeming to sort through everything he's learning.
     - Delay: 1, Tell: Ah, so Felizio sent you to get something translated. I don't trust that one myself, but the invasion of Gharu'n by the blue-skinned dogs was a fresh wound in my heart when I first came here. Still, he works for the Arcanum, and on this world, Isparian differences are best put aside...
     - Delay: 1, Tell: This is simply fascinating. Not only are these Apostate Virindi trying to construct their own New Singularity, but they are experimenting in strange and unpredictable elements, like this Aetherium ore. Well, I could go on all day about what's in this note, but maybe you should get it to Felizio as soon as you can.
-    - Give: 41189
+    - Give: Apostate Excavation Master's Orders (41189)
 
 Refuse: Virindi Mask (8153)
     - TurnToTarget
@@ -46,52 +71,60 @@ Refuse: Virindi Consul Mask (25335)
     - TurnToTarget
     - Tell: Ugh. I don't want that!
 
-Refuse: 51391
+Refuse: Dulled Message Shard (51391)
     - TurnToTarget
-    - TakeItems: 51391
+    - TakeItems: Dulled Message Shard (51391), 1
     - Tell: Interesting. I've never seen a Virindi crystal quite like this.
     - DirectBroadcast: As Diyas gazes into the Message Shard a horrified look washes over his face.
     - Delay: 1, Tell: The message encoded within is quite disturbing. I have translated it as best I could, but much of the message I was unable to comprehend.
-    - Give: 72168
+    - Give: Translated Dulled Message Shard (72168)
 
-Refuse: 51411
+Refuse: Faded Message Shard (51411)
     - TurnToTarget
-    - TakeItems: 51411
+    - TakeItems: Faded Message Shard (51411), 1
     - Tell: Interesting...very interesting.
     - DirectBroadcast: Diyas grasps the Shard tightly. Suddenly he shrieks in pain and drops the Message Shard to the ground.
     - Delay: 1, Tell: Did I say interesting? I meant disturbing. Disturbing and painful! It was almost as if I could feel the emotions of whatever twisted creature compiled this shard. Take this, it was the best I was able to do.
-    - Give: 72169
+    - Give: Translated Faded Message Shard (72169)
 
-Refuse: 51385
+Refuse: Cracked Message Shard (51385)
     - TurnToTarget
-    - TakeItems: 51385
+    - TakeItems: Cracked Message Shard (51385), 1
     - Tell: You need something translated? Let's see what we have here...
     - DirectBroadcast: Diyas stares into the crystal for a moment. He looks puzzled as he hands a note to you.
     - Delay: 1, Tell: A strange piece of writing, but little surprises me with the Virindi these days.
-    - Give: 51388
+    - Give: Translated Cracked Message Shard (51388)
 
-Refuse: 51386
+Refuse: Chipped Message Shard (51386)
     - TurnToTarget
-    - TakeItems: 51386
+    - TakeItems: Chipped Message Shard (51386), 1
     - Tell: Another Virindi crystal? Fantastic!
     - Delay: 1, Tell: Those Virindi with their tests and their experiments. Why can't we all just get along?
-    - Give: 51389
+    - Give: Translated Chipped Message Shard (51389)
 
-Refuse: 51387
+Refuse: Fractured Message Shard (51387)
     - TurnToTarget
-    - TakeItems: 51387
+    - TakeItems: Fractured Message Shard (51387), 1
     - Tell: I never tire of translating the soapbox ramblings of the arrogant Virindi.
     - DirectBroadcast: Diyas looks into the Fractured Message Shard. He quickly writes on a parchment and places it into your pack.
     - Delay: 1, Tell: Surprise, surprise. Another Virindi with a serious superiority complex.
-    - Give: 72170
+    - Give: Translated Fractured Message Shard (72170)
 
 Refuse: Apostate Message Shard (40489)
     - TurnToTarget
     - Tell: I heard that Aruq sent you off to that new fortress in the Direlands. Is this the shard you found there? Fascinating... Let me have a look...
-    - TakeItems: 40489, 1
+    - TakeItems: Apostate Message Shard (40489), 1
     - Delay: 1, DirectBroadcast: Diyas stares into the fragment of crystal for a moment, and his eyes widen with horror.
     - Delay: 1, Tell: The Virindi rebels are gathering their allies again! They seek to step into the gap left by T'thuun's defeat! Quick, take this translation to Aruq, he will make sure the proper people are notified.
-    - Give: 40491
+    - Give: Apostate Orders (40491)
+
+Give: Virindi Message Shard (36613)
+    - TurnToTarget
+    - Tell: Fascinating...
+    - Delay: 1, DirectBroadcast: Diyas al-Yat shudders.
+    - Delay: 1, Tell: This seems to be the research notes on the creation of a "Prodigal Human". It seems Aerbax was trying to create another Martine, but one with more potential, and bound directly to a shard of his own essence! Is this what his recent creations all are? Shards of his essence, given form?
+    - Delay: 1, Tell: Here, see for yourself.
+    - Give: Observations and Instructions: Dojiro Sangi (87273)
 
 Give: Sotiris Obsidian Shard (8261)
     - TurnToTarget
@@ -284,9 +317,22 @@ Give: Thief of Dreams Message Shard (36930)
     - Delay: 0.5, Give: 87040
     - Delay: 0.5, Tell: A fascinating message. With your permission, I have made a copy of this myself, for my own... illumination.
 
+Give: 36212
+    - TurnToTarget
+    - Tell: Most fascinating. There is a resonance to this message shard that you do not see in those that come from most Virindi... A sympathetic resonance that is almost human...
+    - Delay: 1, Tell: This shard came from Aerbax, did it not? Forgive me, I should not ask such questions. I remember what happened the last time I delved too deeply into the affairs of that one. Here is your translation.
+    - Give: 36225
+
+Give: 36213
+    - TurnToTarget
+    - Tell: Most fascinating. There is a resonance to this message shard that you do not see in those that come from most Virindi... A sympathetic resonance that is almost human...
+    - Delay: 1, Tell: This shard came from Aerbax, did it not? Forgive me, I should not ask such questions. I remember what happened the last time I delved too deeply into the affairs of that one. Here is your translation.
+    - Give: 36226
+
 Use:
     - Motion: Ready
     - TurnToTarget
     - Tell: Hello! I am studying those most enigmatic beings, the Virindi. I think I can translate their language. Do not ask me how I acquired such knowledge.
     - Motion: Shiver
     - Delay: 1, Tell: I have also been in touch with Leopold, in Ayan Baqur, and he has given me some repaired Virindi masks to trade for broken ones.
+

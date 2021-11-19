@@ -38,7 +38,7 @@ VALUES (0x7482E023,   412, 0x482E014F, 58.24, 156.95, 91.4359, 0.707107, 0, 0, -
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7482E029, 35467, 0x482E011F, 59.6443, 51.0975, -10.7821, 0.056372, 0, 0, -0.99841, False, '2021-11-01 00:00:00'); /* Sealed Vault */
-/* @teleloc 0x482E011F [59.644299 51.097500 -10.782100] 0.056371 0.000000 0.000000 -0.998410 */
+/* @teleloc 0x482E011F [59.644299 51.097500 -10.782100] 0.056372 0.000000 0.000000 -0.998410 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7482E03D, 37489, 0x482E0140, 16.0681, 82.6739, 3.592, -0.691406, 0, 0, -0.722466, False, '2021-11-01 00:00:00'); /* Mhoire Armory */
@@ -325,7 +325,7 @@ VALUES (0x7482E400, 72226, 0x482E0016, 48.1336, 143.176, 16.055, 0.741104, 0, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7482E401, 72227, 0x482E0004, 9.6201, 83.1517, 7.65835, -0.003276, 0, 0, 0.999995, False, '2021-11-01 00:00:00'); /* GY Night Wisp Wanderer Gen */
-/* @teleloc 0x482E0004 [9.620100 83.151703 7.658350] -0.003275 0.000000 0.000000 0.999995 */
+/* @teleloc 0x482E0004 [9.620100 83.151703 7.658350] -0.003276 0.000000 0.000000 0.999995 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7482E402, 72227, 0x482E0016, 70.0173, 143.914, 16.055, -0.69017, 0, 0, -0.723647, False, '2021-11-01 00:00:00'); /* GY Night Wisp Wanderer Gen */

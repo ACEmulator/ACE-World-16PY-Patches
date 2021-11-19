@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9193;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9193, 'gemdispelhigh', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (9193, 'gemdispelhigh', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9193,   1,       2048) /* ItemType - Gem */
@@ -16,7 +16,6 @@ VALUES (9193,   1,       2048) /* ItemType - Gem */
      , (9193,  16,          8) /* ItemUseable - Contained */
      , (9193,  18,          1) /* UiEffects - Magical */
      , (9193,  19,       1000) /* Value */
-     , (9193,  53,        101) /* PlacementPosition - Resting */
      , (9193,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9193,  94,         16) /* TargetType - Creature */
      , (9193, 106,        210) /* ItemSpellcraft */

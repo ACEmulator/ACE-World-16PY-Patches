@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34502;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (34502, 'ace34502-easternvaultnotes', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (34502, 'ace34502-easternvaultnotes', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34502,   1,       8192) /* ItemType - Writable */
@@ -27,4 +27,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (34502, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (34502, 0, 4294967295, 'Ardry the Dubious', '', False, 'In following Asheron''s trail, I have managed to uncover a previously undiscovered vault in the foothills near the Colier mine. It seems to be a repository of a great number of Empyrean artifacts. There was a Golem there, standing guard over a room full of necklaces, but before I could approach the Golem, I was assaulted by a wave of Sclavus. I am pretty sure there was some kind of twisted Falatacot directing them. After they drove me off, they went after the Golem. I do not know what became of the Golem after I left. If you are curious, the vault is located at 52.5 N, 38.9 E.');
+VALUES (34502, 0, 0xFFFFFFFF, 'Ardry the Dubious', 'prewritten', False, 'In following Asheron''s trail, I have managed to uncover a previously undiscovered vault in the foothills near the Colier mine. It seems to be a repository of a great number of Empyrean artifacts. There was a Golem there, standing guard over a room full of necklaces, but before I could approach the Golem, I was assaulted by a wave of Sclavus. I am pretty sure there was some kind of twisted Falatacot directing them. After they drove me off, they went after the Golem. I do not know what became of the Golem after I left. If you are curious, the vault is located at 52.5 N, 38.9 E.');

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52466;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (52466, 'ace52466-acidicmist', 13, '2021-11-01 00:00:00') /* HotSpot */;
+VALUES (52466, 'ace52466-acidicmist', 13, '2021-11-17 16:56:08') /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52466,   1,        128) /* ItemType - Misc */
@@ -12,8 +12,7 @@ VALUES (52466,   1,        128) /* ItemType - Misc */
      , (52466,  45,         32) /* DamageType - Acid */
      , (52466,  93,         12) /* PhysicsState - Ethereal, ReportCollisions */
      , (52466, 119,          0) /* Active */
-     , (52466, 267,         20) /* Lifespan */
-     , (52466, 268,         20) /* RemainingLifespan */;
+     , (52466, 267,         20) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52466,   1, True ) /* Stuck */

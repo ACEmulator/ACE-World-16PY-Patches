@@ -21,8 +21,8 @@ VALUES (0x7A9B2005,   412, 0xA9B20000, 84, 73.99, 94, 1, 0, 0, 0, False, '2021-1
 /* @teleloc 0xA9B20000 [84.000000 73.989998 94.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B2006,   412, 0xA9B20000, 84, 95.01, 94, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
-/* @teleloc 0xA9B20000 [84.000000 95.010002 94.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7A9B2006,   412, 0xA9B20000, 84, 95.01, 94, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Door */
+/* @teleloc 0xA9B20000 [84.000000 95.010002 94.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B2007,   412, 0xA9B20000, 78.985, 84.01, 97.5, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Door */
@@ -47,32 +47,32 @@ VALUES (0x7A9B2009, 0x7A9B200B, '2005-02-09 10:00:00') /* Aluvian High-Stakes Ga
      , (0x7A9B2009, 0x7A9B2016, '2019-02-10 00:00:00') /* Rare Exchanger (40463) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B200A,  9460, 0xA9B20117, 84, 83, 97.505, -0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Monty's Golden Chest */
-/* @teleloc 0xA9B20117 [84.000000 83.000000 97.504997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7A9B200A,  9460, 0xA9B20117, 84, 83, 97.505, 0, 0, 0, -1, False, '2021-11-01 00:00:00'); /* Monty's Golden Chest */
+/* @teleloc 0xA9B20117 [84.000000 83.000000 97.504997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B200B,  9495, 0xA9B20106, 82, 85.5, 94.005, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Aluvian High-Stakes Gamesmaster */
 /* @teleloc 0xA9B20106 [82.000000 85.500000 94.004997] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B200C,  9495, 0xA9B20106, 82, 82.5, 94.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Aluvian High-Stakes Gamesmaster */
-/* @teleloc 0xA9B20106 [82.000000 82.500000 94.004997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7A9B200C,  9495, 0xA9B20106, 82, 82.5, 94.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Aluvian High-Stakes Gamesmaster */
+/* @teleloc 0xA9B20106 [82.000000 82.500000 94.004997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B200D,  9501, 0xA9B20106, 84, 85.5, 94.005, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Aluvian Mid-Stakes Gamesmaster */
 /* @teleloc 0xA9B20106 [84.000000 85.500000 94.004997] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B200E,  9501, 0xA9B20106, 84, 82.5, 94.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Aluvian Mid-Stakes Gamesmaster */
-/* @teleloc 0xA9B20106 [84.000000 82.500000 94.004997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7A9B200E,  9501, 0xA9B20106, 84, 82.5, 94.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Aluvian Mid-Stakes Gamesmaster */
+/* @teleloc 0xA9B20106 [84.000000 82.500000 94.004997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B200F,  9498, 0xA9B20106, 86, 85.5, 94.005, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Aluvian Low-Stakes Gamesmaster */
 /* @teleloc 0xA9B20106 [86.000000 85.500000 94.004997] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B2010,  9498, 0xA9B20106, 86, 82.5, 94.005, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Aluvian Low-Stakes Gamesmaster */
-/* @teleloc 0xA9B20106 [86.000000 82.500000 94.004997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7A9B2010,  9498, 0xA9B20106, 86, 82.5, 94.005, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Aluvian Low-Stakes Gamesmaster */
+/* @teleloc 0xA9B20106 [86.000000 82.500000 94.004997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B2011, 12308, 0xA9B20114, 80.5, 75, 94.005, -0.996622, 0, 0, -0.08213, False, '2021-11-01 00:00:00'); /* Pawn Shopkeep */

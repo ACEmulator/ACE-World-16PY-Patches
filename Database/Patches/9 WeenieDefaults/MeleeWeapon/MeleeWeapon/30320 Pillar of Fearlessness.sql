@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30320;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30320, 'spearrarepillarfearlessness', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (30320, 'spearrarepillarfearlessness', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30320,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,6 @@ VALUES (30320,   1,          1) /* ItemType - MeleeWeapon */
      , (30320,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (30320,  49,         30) /* WeaponTime */
      , (30320,  51,          1) /* CombatUse - Melee */
-     , (30320,  52,          1) /* ParentLocation - RightHand */
      , (30320,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30320, 106,        350) /* ItemSpellcraft */
      , (30320, 107,       2000) /* ItemCurMana */

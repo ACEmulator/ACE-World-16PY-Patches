@@ -211,12 +211,12 @@ VALUES (0x75864033, 49522, 0x58640138, 127.723, -200.668, -5.9935, -0.707107, 0,
 /* @teleloc 0x58640138 [127.723000 -200.667999 -5.993500] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75864034, 48929, 0x58640143, 139.965, -213.433, -5.994, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Bronze Golem Sekkou */
-/* @teleloc 0x58640143 [139.964996 -213.432999 -5.994000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75864034, 48929, 0x58640143, 139.965, -213.433, -5.994, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Bronze Golem Sekkou */
+/* @teleloc 0x58640143 [139.964996 -213.432999 -5.994000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75864035, 48931, 0x5864012B, 100, -170, -5.994, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Iron Golem Sekkou */
-/* @teleloc 0x5864012B [100.000000 -170.000000 -5.994000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75864035, 48931, 0x5864012B, 100, -170, -5.994, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Iron Golem Sekkou */
+/* @teleloc 0x5864012B [100.000000 -170.000000 -5.994000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75864036, 48931, 0x58640127, 90, -160, -5.994, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Iron Golem Sekkou */
@@ -283,16 +283,16 @@ VALUES (0x75864047, 49480, 0x58640254, 194.808, -80, -0.068, -0.707107, 0, 0, -0
 /* @teleloc 0x58640254 [194.807999 -80.000000 -0.068000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75864048, 48929, 0x58640254, 185.124, -75.41, 0.006, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Bronze Golem Sekkou */
-/* @teleloc 0x58640254 [185.123993 -75.410004 0.006000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75864048, 48929, 0x58640254, 185.124, -75.41, 0.006, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Bronze Golem Sekkou */
+/* @teleloc 0x58640254 [185.123993 -75.410004 0.006000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75864049, 49522, 0x58640260, 217.723, -70.6685, 0.0065, -0.707107, 0, 0, 0.707107,  True, '2021-11-01 00:00:00'); /* Dormant Samurai */
 /* @teleloc 0x58640260 [217.723007 -70.668503 0.006500] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586404A, 48929, 0x58640264, 220, -100, 0.006, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Bronze Golem Sekkou */
-/* @teleloc 0x58640264 [220.000000 -100.000000 0.006000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7586404A, 48929, 0x58640264, 220, -100, 0.006, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Bronze Golem Sekkou */
+/* @teleloc 0x58640264 [220.000000 -100.000000 0.006000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586404B, 48929, 0x5864025D, 218.586, -50, 0.006, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Bronze Golem Sekkou */
@@ -311,8 +311,8 @@ VALUES (0x7586404E, 49522, 0x58640236, 169.332, -97.723, 0.0065, 0, 0, 0, -1,  T
 /* @teleloc 0x58640236 [169.332001 -97.723000 0.006500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75864052,  7924, 0x5864011B, 162.837, -289.107, -11.9935, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
-/* @teleloc 0x5864011B [162.837006 -289.106995 -11.993500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75864052,  7924, 0x5864011B, 162.837, -289.107, -11.9935, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+/* @teleloc 0x5864011B [162.837006 -289.106995 -11.993500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x75864052, 0x75864017, '2019-02-10 00:00:00') /* Dormant Samurai (49522) */
@@ -346,8 +346,8 @@ VALUES (0x75864052, 0x75864017, '2019-02-10 00:00:00') /* Dormant Samurai (49522
      , (0x75864052, 0x7586406E, '2021-08-23 10:20:36') /* Dormant Samurai (49522) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75864053, 48921, 0x5864011B, 162.837, -289.107, -11.9935, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Lieutenant Karul */
-/* @teleloc 0x5864011B [162.837006 -289.106995 -11.993500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75864053, 48921, 0x5864011B, 162.837, -289.107, -11.9935, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Lieutenant Karul */
+/* @teleloc 0x5864011B [162.837006 -289.106995 -11.993500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75864055, 72576, 0x586401C4, 110.006, -0.061923, 0, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Dormant Samurai */
@@ -398,12 +398,12 @@ VALUES (0x75864060, 72576, 0x5864014A, 150.011, -200.022, -6, 1, 0, 0, 0, False,
 /* @teleloc 0x5864014A [150.011002 -200.022003 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75864061, 49522, 0x58640236, 170.698, -97.7024, 0.0065, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Dormant Samurai */
-/* @teleloc 0x58640236 [170.697998 -97.702400 0.006500] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75864061, 49522, 0x58640236, 170.698, -97.7024, 0.0065, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Dormant Samurai */
+/* @teleloc 0x58640236 [170.697998 -97.702400 0.006500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75864062, 49522, 0x586401D3, 110.74, -97.7004, 0.0065, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Dormant Samurai */
-/* @teleloc 0x586401D3 [110.739998 -97.700401 0.006500] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75864062, 49522, 0x586401D3, 110.74, -97.7004, 0.0065, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Dormant Samurai */
+/* @teleloc 0x586401D3 [110.739998 -97.700401 0.006500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75864063, 49522, 0x5864019A, 62.307, -70.7168, 0.0065, 0.707107, 0, 0, 0.707107,  True, '2021-11-01 00:00:00'); /* Dormant Samurai */
@@ -422,16 +422,16 @@ VALUES (0x75864066, 49522, 0x5864014B, 152.278, -200.774, -5.9935, 0.707107, 0, 
 /* @teleloc 0x5864014B [152.278000 -200.774002 -5.993500] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75864067, 49522, 0x5864022C, 170.788, -27.6711, 0.0065, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Dormant Samurai */
-/* @teleloc 0x5864022C [170.787994 -27.671101 0.006500] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75864067, 49522, 0x5864022C, 170.788, -27.6711, 0.0065, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Dormant Samurai */
+/* @teleloc 0x5864022C [170.787994 -27.671101 0.006500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75864068, 49522, 0x58640228, 169.304, -2.29101, 0.0065, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Dormant Samurai */
 /* @teleloc 0x58640228 [169.304001 -2.291010 0.006500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75864069, 49522, 0x586401C9, 110.751, -27.7726, 0.0065, -0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Dormant Samurai */
-/* @teleloc 0x586401C9 [110.750999 -27.772600 0.006500] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75864069, 49522, 0x586401C9, 110.751, -27.7726, 0.0065, 0, 0, 0, -1,  True, '2021-11-01 00:00:00'); /* Dormant Samurai */
+/* @teleloc 0x586401C9 [110.750999 -27.772600 0.006500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7586406A, 49522, 0x586401C5, 109.19, -2.30294, 0.0065, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Dormant Samurai */

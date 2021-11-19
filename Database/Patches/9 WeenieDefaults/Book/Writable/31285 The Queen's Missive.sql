@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31285;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31285, 'ace31285-thequeensmissive', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (31285, 'ace31285-thequeensmissive', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31285,   1,       8192) /* ItemType - Writable */
@@ -9,7 +9,6 @@ VALUES (31285,   1,       8192) /* ItemType - Writable */
      , (31285,  16,          8) /* ItemUseable - Contained */
      , (31285,  19,          0) /* Value */
      , (31285,  33,          1) /* Bonded - Bonded */
-     , (31285,  53,        101) /* PlacementPosition - Resting */
      , (31285,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31285, 114,          1) /* Attuned - Attuned */;
 
@@ -35,6 +34,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31285, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31285, 0, 4294967295, 'Emmisary Jin Ghao', '', True, 'You think to treat with the Viamontians without your Queen hearing of it? You owe your allegiance to Queen Elysa, and you will not throw it at the feet of this self-styled king. We realize the threat under which you live, but you must understand, the Queen has done what she can.
+VALUES (31285, 0, 0xFFFFFFFF, 'Emmisary Jin Ghao', 'prewritten', True, 'You think to treat with the Viamontians without your Queen hearing of it? You owe your allegiance to Queen Elysa, and you will not throw it at the feet of this self-styled king. We realize the threat under which you live, but you must understand, the Queen has done what she can.
 
  Do you not realize what Kurth''s fate was? Do you want to end up like that?');

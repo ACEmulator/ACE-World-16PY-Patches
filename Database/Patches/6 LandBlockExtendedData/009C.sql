@@ -21,8 +21,8 @@ VALUES (0x7009C009, 34771, 0x009C01D2, 373, -90, -24.2098, 0.707107, 0, 0, -0.70
 /* @teleloc 0x009C01D2 [373.000000 -90.000000 -24.209801] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7009C00A, 34829, 0x009C01F4, 390, -37, -24.2098, 1, 0, 0, -0, False, '2021-11-01 00:00:00'); /* Northern Catacombs */
-/* @teleloc 0x009C01F4 [390.000000 -37.000000 -24.209801] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7009C00A, 34829, 0x009C01F4, 390, -37, -24.2098, 1, 0, 0, 0, False, '2021-11-01 00:00:00'); /* Northern Catacombs */
+/* @teleloc 0x009C01F4 [390.000000 -37.000000 -24.209801] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7009C00B, 34827, 0x009C01F9, 393, -70, -24.2098, 0.707107, 0, 0, -0.707107, False, '2021-11-01 00:00:00'); /* Southern Catacombs */

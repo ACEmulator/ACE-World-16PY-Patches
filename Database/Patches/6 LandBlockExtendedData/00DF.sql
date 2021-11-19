@@ -176,7 +176,7 @@ VALUES (0x700DF015, 71103, 0x00DF0313, 107.472, -79.2789, 6.0044, 0.883309, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DF016, 71102, 0x00DF02FC, 129.849, -58.4801, 0, 0.03769, 0, 0, -0.99929,  True, '2021-11-01 00:00:00'); /* Temple Guardian */
-/* @teleloc 0x00DF02FC [129.848999 -58.480099 0.000000] 0.037689 0.000000 0.000000 -0.999290 */
+/* @teleloc 0x00DF02FC [129.848999 -58.480099 0.000000] 0.037690 0.000000 0.000000 -0.999290 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DF017, 71101, 0x00DF0327, 131.601, -81.5398, 6, 0.328141, 0, 0, -0.944629,  True, '2021-11-01 00:00:00'); /* Temple Guardian */
@@ -324,7 +324,7 @@ VALUES (0x700DF03A, 71103, 0x00DF0182, 79.8888, -128.511, -41.9956, -0.997971, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DF03B, 71102, 0x00DF017D, 78.7188, -84.2199, -42, -0.999782, 0, 0, 0.020897,  True, '2021-11-01 00:00:00'); /* Temple Guardian */
-/* @teleloc 0x00DF017D [78.718803 -84.219902 -42.000000] -0.999782 0.000000 0.000000 0.020896 */
+/* @teleloc 0x00DF017D [78.718803 -84.219902 -42.000000] -0.999782 0.000000 0.000000 0.020897 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DF03C, 71102, 0x00DF017D, 82.6959, -84.2152, -42, -0.999577, 0, 0, -0.029098,  True, '2021-11-01 00:00:00'); /* Temple Guardian */

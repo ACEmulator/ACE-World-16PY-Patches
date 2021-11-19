@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41798;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41798, 'ace41798-killerphyntoshive', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (41798, 'ace41798-killerphyntoshive', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41798,   1,         16) /* ItemType - Creature */
@@ -29,6 +29,7 @@ VALUES (41798,   1, True ) /* Stuck */
      , (41798,  19, True ) /* Attackable */
      , (41798,  29, True ) /* NoCorpse */
      , (41798,  52, True ) /* AiImmobile */
+     , (41798,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (41798,  83, True ) /* NpcLooksLikeObject */
      , (41798, 103, True ) /* NonProjectileMagicImmune */;
 

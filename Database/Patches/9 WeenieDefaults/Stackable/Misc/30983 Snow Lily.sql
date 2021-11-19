@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30983;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30983, 'snowlily', 51, '2021-11-01 00:00:00') /* Stackable */;
+VALUES (30983, 'snowlily', 51, '2021-11-17 16:56:08') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30983,   1,        128) /* ItemType - Misc */
@@ -12,7 +12,6 @@ VALUES (30983,   1,        128) /* ItemType - Misc */
      , (30983,  15,        165) /* StackUnitValue */
      , (30983,  16,          1) /* ItemUseable - No */
      , (30983,  19,        165) /* Value */
-     , (30983,  53,        101) /* PlacementPosition - Resting */
      , (30983,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30983, 151,          9) /* HookType - Floor, Yard */;
 

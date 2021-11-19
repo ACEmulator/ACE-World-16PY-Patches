@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29390;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (29390, 'noteinvadercopper', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (29390, 'noteinvadercopper', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29390,   1,       8192) /* ItemType - Writable */
      , (29390,   5,          5) /* EncumbranceVal */
      , (29390,  16,          8) /* ItemUseable - Contained */
      , (29390,  19,          0) /* Value */
-     , (29390,  53,        101) /* PlacementPosition - Resting */
      , (29390,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,6 +33,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (29390, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29390, 0, 4294967295, 'General Corcima', 'prewritten', True, 'Captain Ramelle, 
+VALUES (29390, 0, 0xFFFFFFFF, 'General Corcima', 'prewritten', True, 'Captain Ramelle, 
 
 I am pleased to be able to count on you in the coming days, as we bring our war, at last, to the Bloodless, and to the capital city of the desert folk. I remember well your own exploits as a newly fledged Ferran in the siege of Tirethas. You will be asked to again sow disorder in the ranks of the enemy, but this time as a commander, instead of as a siege-breaker. To you, Captain Ramelle, most junior of my commanders, is given the task of unleashing the Eaters.');

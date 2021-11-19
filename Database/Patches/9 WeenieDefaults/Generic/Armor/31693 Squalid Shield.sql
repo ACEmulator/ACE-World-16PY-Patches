@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31693;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31693, 'ace31693-squalidshield', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (31693, 'ace31693-squalidshield', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31693,   1,          2) /* ItemType - Armor */
@@ -11,7 +11,6 @@ VALUES (31693,   1,          2) /* ItemType - Armor */
      , (31693,  19,       8500) /* Value */
      , (31693,  28,        230) /* ArmorLevel */
      , (31693,  51,          4) /* CombatUse - Shield */
-     , (31693,  52,          3) /* ParentLocation - Shield */
      , (31693,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31693, 106,        300) /* ItemSpellcraft */
      , (31693, 107,       2000) /* ItemCurMana */

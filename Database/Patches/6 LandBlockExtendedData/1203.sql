@@ -591,7 +591,7 @@ VALUES (0x712030E5, 28737, 0x12030023, 108.217, 59.2959, 1.1, 0.687971, 0, 0, -0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x712030E6,  9394, 0x12030025, 116.139, 99.7486, 1.115, 0.999539, 0, 0, -0.030355,  True, '2021-11-01 00:00:00'); /* Lugian Pauldron */
-/* @teleloc 0x12030025 [116.139000 99.748596 1.115000] 0.999539 0.000000 0.000000 -0.030354 */
+/* @teleloc 0x12030025 [116.139000 99.748596 1.115000] 0.999539 0.000000 0.000000 -0.030355 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x712030E7,  9394, 0x12030025, 114.624, 105.685, 1.115, 0.719439, 0, 0, -0.694556,  True, '2021-11-01 00:00:00'); /* Lugian Pauldron */
@@ -615,7 +615,7 @@ VALUES (0x712030EB,  9468, 0x12030023, 111.776, 54.0506, 1.175, -0.934206, 0, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x712030EC,  9468, 0x12030023, 108.863, 52.8462, 1.175, -0.998187, 0, 0, 0.060196,  True, '2021-11-01 00:00:00'); /* Blade of the Heart */
-/* @teleloc 0x12030023 [108.862999 52.846199 1.175000] -0.998187 0.000000 0.000000 0.060195 */
+/* @teleloc 0x12030023 [108.862999 52.846199 1.175000] -0.998187 0.000000 0.000000 0.060196 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x712030ED,  9468, 0x12030025, 106.33, 115.145, 1.175, -0.814853, 0, 0, -0.579667,  True, '2021-11-01 00:00:00'); /* Blade of the Heart */

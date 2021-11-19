@@ -414,6 +414,35 @@ Give: Unreadable Dericost Tome (31412)
     - Delay: 1, Tell: You are working for the Shadow Hunter Killcrane, yes? Quickly, take this directly to him. Don't dawdle. What is in this tome is of great import.
     - Give: Translated Dericost Tome (31413)
 
+Give: Aerfalle's Embossed Token (40912)
+    - Motion: Ready
+    - DirectBroadcast: Kuyiza bint Zayi squints as she reads the inscription on the token.
+    - Delay: 1, Tell: This seems to be an inscription from Rytheran to Aerfalle, promising his undying love.
+    - DirectBroadcast: Kuyiza bint Zayi the Translator snickers.
+    - Delay: 1, Tell: Undying love indeed...
+    - Tell: I know people who would be interested in this. Please, allow me to reward you for bringing this to me.
+    - AwardNoShareXP: 125,000,000
+    - Give: Trade Note (250,000) (20630), 12
+    - Give: 38918
+
+Give: Aerfalle's Token (40913)
+    - Motion: Ready
+    - DirectBroadcast: Kuyiza bint Zayi squints as she reads the inscription on the token.
+    - Delay: 1, Tell: This seems to be an inscription from Rytheran to Aerfalle, promising his undying love.
+    - DirectBroadcast: Kuyiza bint Zayi the Translator snickers.
+    - Delay: 1, Tell: Undying love indeed...
+    - Tell: I know people who would be interested in this. Please, allow me to reward you for bringing this to me.
+    - AwardNoShareXP: 15,000,000
+
+Give: Aerfalle's Ornate Token (40914)
+    - Motion: Ready
+    - DirectBroadcast: Kuyiza bint Zayi squints as she reads the inscription on the token.
+    - Delay: 1, Tell: This seems to be an inscription from Rytheran to Aerfalle, promising his undying love.
+    - DirectBroadcast: Kuyiza bint Zayi the Translator snickers.
+    - Delay: 1, Tell: Undying love indeed...
+    - Tell: I know people who would be interested in this. Please, allow me to reward you for bringing this to me.
+    - AwardNoShareXP: 55,000,000
+
 Give: Ancient Journal (41931)
     - Motion: Ready
     - TurnToTarget

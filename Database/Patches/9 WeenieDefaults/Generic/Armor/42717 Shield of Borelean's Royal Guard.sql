@@ -1,13 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42717;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42717, 'ace42717-shieldofboreleansroyalguard', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (42717, 'ace42717-shieldofboreleansroyalguard', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42717,   1,          2) /* ItemType - Armor */
      , (42717,   5,        600) /* EncumbranceVal */
      , (42717,   9,    2097152) /* ValidLocations - Shield */
-     , (42717,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (42717,  16,          1) /* ItemUseable - No */
      , (42717,  18,          1) /* UiEffects - Magical */
      , (42717,  19,       6000) /* Value */

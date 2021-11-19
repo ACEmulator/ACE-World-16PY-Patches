@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72285;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72285, 'ace72285-mhoirecastleportalgen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (72285, 'ace72285-mhoirecastleportalgen', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72285,  81,          1) /* MaxGeneratedObjects */
@@ -9,8 +9,7 @@ VALUES (72285,  81,          1) /* MaxGeneratedObjects */
      , (72285,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (72285, 103,          2) /* GeneratorDestructionType - Destroy */
      , (72285, 145,          2) /* GeneratorEndDestructionType - Destroy */
-     , (72285, 267,         20) /* Lifespan */
-     , (72285, 268,         20) /* RemainingLifespan */;
+     , (72285, 267,         20) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72285,   1, True ) /* Stuck */

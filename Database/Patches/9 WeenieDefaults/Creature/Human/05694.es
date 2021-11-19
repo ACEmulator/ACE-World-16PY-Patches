@@ -1,3 +1,24 @@
+Give: Complete Page of Lost Lore (46346)
+    - TurnToTarget
+    - Tell: An interesting page to translate. The text is Falatacot, but of a different dialect. Very strange.
+    - Delay: 1, Tell: A pity the whole story isn't here. I'd be fascinated to see if there are any differences in their lore.
+    - Goto: RollForBook
+
+GotoSet: RollForBook, Probability: 0.2
+    - Give: The Story of the Lost Sisters (46360)
+
+GotoSet: RollForBook, Probability: 0.4
+    - Give: The Story of the Lost Sisters (46361)
+
+GotoSet: RollForBook, Probability: 0.6
+    - Give: The Story of the Lost Sisters (46362)
+
+GotoSet: RollForBook, Probability: 0.8
+    - Give: The Story of the Lost Sisters (87467)
+
+GotoSet: RollForBook, Probability: 1
+    - Give: The Story of the Lost Sisters (87468)
+
 Refuse: Messengers Collar (34268)
     - TurnToTarget
     - DirectBroadcast: Fanzen San examines the collar in fascination.

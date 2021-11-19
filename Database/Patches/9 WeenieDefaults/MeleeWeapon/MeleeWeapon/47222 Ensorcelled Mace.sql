@@ -1,13 +1,12 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47222;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (47222, 'ace47222-ensorcelledmace', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (47222, 'ace47222-ensorcelledmace', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47222,   1,          1) /* ItemType - MeleeWeapon */
      , (47222,   5,        350) /* EncumbranceVal */
      , (47222,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (47222,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (47222,  16,          1) /* ItemUseable - No */
      , (47222,  18,          1) /* UiEffects - Magical */
      , (47222,  19,        340) /* Value */

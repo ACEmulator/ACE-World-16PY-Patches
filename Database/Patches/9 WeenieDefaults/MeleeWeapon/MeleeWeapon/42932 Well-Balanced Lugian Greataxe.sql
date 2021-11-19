@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42932;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42932, 'ace42932-wellbalancedlugiangreataxe', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (42932, 'ace42932-wellbalancedlugiangreataxe', 6, '2021-11-07 08:12:46') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42932,   1,          1) /* ItemType - MeleeWeapon */
@@ -43,7 +43,7 @@ VALUES (42932,   5,   -0.05) /* ManaRate */
      , (42932,  39,     1.1) /* DefaultScale */
      , (42932,  62,     1.2) /* WeaponOffense */
      , (42932,  63,    1.08) /* DamageMod */
-     , (42932, 147,    1.32) /* CriticalFrequency */
+     , (42932, 147,    0.32) /* CriticalFrequency */
      , (42932, 157,    1.67) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

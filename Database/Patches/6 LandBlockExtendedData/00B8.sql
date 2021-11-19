@@ -212,7 +212,7 @@ VALUES (0x700B8055, 51272, 0x00B8026D, 153.932, -42.3455, -17.995, 0.149669, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B8056, 38309, 0x00B8026D, 147.607, -43.2072, -17.995, -0.998481, 0, 0, -0.055104,  True, '2021-11-01 00:00:00'); /* Istonia Charson */
-/* @teleloc 0x00B8026D [147.606995 -43.207199 -17.995001] -0.998481 0.000000 0.000000 -0.055103 */
+/* @teleloc 0x00B8026D [147.606995 -43.207199 -17.995001] -0.998481 0.000000 0.000000 -0.055104 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B8057, 38372, 0x00B8026D, 149.161, -43.0852, -17.995, 0.999997, 0, 0, -0.002316,  True, '2021-11-01 00:00:00'); /* Hizuki Tama */

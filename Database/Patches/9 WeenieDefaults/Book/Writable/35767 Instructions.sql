@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (35767, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (35767, 0, 4294967295, 'Bonecrunch', 'prewritten', False, 'Instructions for Care and Feeding of Monougas
+VALUES (35767, 0, 0xFFFFFFFF, 'Bonecrunch', 'prewritten', False, 'Instructions for Care and Feeding of Monougas
 1. DO NOT go into the monouga''s cavern or it will eat you.
 2. Ring bell.
 3. Watch attendant drudge hurl food into pit.

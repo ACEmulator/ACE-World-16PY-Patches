@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (33954, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (33954, 0, 4294967295, 'Hadiya bint Anan', 'prewritten', True, 'Caution is advised in trying to reach the known Kilif Zefir sites, the journey may be dangerous.
+VALUES (33954, 0, 0xFFFFFFFF, 'Hadiya bint Anan', 'prewritten', True, 'Caution is advised in trying to reach the known Kilif Zefir sites, the journey may be dangerous.
 
 36.2S 65.0E at an overrun temple
 60.5N 15.7E inside Crater Pathway

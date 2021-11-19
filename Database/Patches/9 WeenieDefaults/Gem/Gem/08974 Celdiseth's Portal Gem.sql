@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8974;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8974, 'gemportalceldiseth', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (8974, 'gemportalceldiseth', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8974,   1,       2048) /* ItemType - Gem */
@@ -16,7 +16,6 @@ VALUES (8974,   1,       2048) /* ItemType - Gem */
      , (8974,  16,          8) /* ItemUseable - Contained */
      , (8974,  18,          1) /* UiEffects - Magical */
      , (8974,  19,       1000) /* Value */
-     , (8974,  53,        101) /* PlacementPosition - Resting */
      , (8974,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (8974,  94,         16) /* TargetType - Creature */
      , (8974, 106,        210) /* ItemSpellcraft */

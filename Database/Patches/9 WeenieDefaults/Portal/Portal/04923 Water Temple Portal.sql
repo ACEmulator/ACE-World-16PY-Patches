@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4923;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (4923, 'portalwatertemple', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (4923, 'portalwatertemple', 7, '2021-11-08 06:01:47') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4923,   1,      65536) /* ItemType - Portal */
@@ -16,10 +16,7 @@ VALUES (4923,   1, True ) /* Stuck */
      , (4923,  11, False) /* IgnoreCollisions */
      , (4923,  12, True ) /* ReportCollisions */
      , (4923,  13, True ) /* Ethereal */
-     , (4923,  14, True ) /* GravityStatus */
-     , (4923,  15, True ) /* LightsStatus */
-     , (4923,  19, True ) /* Attackable */
-     , (4923,  88, True ) /* PortalShowDestination */;
+     , (4923,  15, True ) /* LightsStatus */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4923,  54,    -0.1) /* UseRadius */;

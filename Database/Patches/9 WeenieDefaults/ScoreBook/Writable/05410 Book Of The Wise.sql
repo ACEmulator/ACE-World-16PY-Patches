@@ -48,7 +48,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5410, 1, 2000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5410, 0, 4294967295, ' ', 'prewritten', False, 'The Wise
+VALUES (5410, 0, 0xFFFFFFFF, ' ', 'prewritten', False, 'The Wise
 
 As one travels through Dereth, one quickly learns the value of a sharp mind and its ability to concentrate.  Those who have honed their mental prowess to be sharper than the finest sword deserve mention for their achievements.
 

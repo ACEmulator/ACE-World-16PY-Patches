@@ -29,8 +29,8 @@ VALUES (0x70165006,  1930, 0x01650116, 11.0822, -26.5005, -12, 0.325671, 0, 0, -
 /* @teleloc 0x01650116 [11.082200 -26.500500 -12.000000] 0.325671 0.000000 0.000000 -0.945483 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70165007,  7089, 0x01650116, 9.59314, -26.1475, -11.9967, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Altered Drudge */
-/* @teleloc 0x01650116 [9.593140 -26.147499 -11.996700] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70165007,  7089, 0x01650116, 9.59314, -26.1475, -11.9967, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Altered Drudge */
+/* @teleloc 0x01650116 [9.593140 -26.147499 -11.996700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70165008,  1610, 0x0165011A, 18.5289, -24.961, -11.9967, -0.991769, 0, 0, -0.128039,  True, '2021-11-01 00:00:00'); /* Drudge Ravener */
@@ -53,8 +53,8 @@ VALUES (0x7016500C,  1610, 0x0165012B, 30, -60, -11.9967, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x0165012B [30.000000 -60.000000 -11.996700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7016500D,  7090, 0x0165012C, 25.8465, -67.3446, -11.9967, 1, 0, 0, -0,  True, '2021-11-01 00:00:00'); /* Augmented Drudge */
-/* @teleloc 0x0165012C [25.846500 -67.344597 -11.996700] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7016500D,  7090, 0x0165012C, 25.8465, -67.3446, -11.9967, 1, 0, 0, 0,  True, '2021-11-01 00:00:00'); /* Augmented Drudge */
+/* @teleloc 0x0165012C [25.846500 -67.344597 -11.996700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7016500E,  1610, 0x01650137, 7.31445, 0.129179, -5.99668, 0.707107, 0, 0, -0.707107,  True, '2021-11-01 00:00:00'); /* Drudge Ravener */
