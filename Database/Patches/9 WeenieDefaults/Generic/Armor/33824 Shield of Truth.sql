@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33824;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33824, 'ace33824-shieldoftruth', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (33824, 'ace33824-shieldoftruth', 1, '2021-11-19 10:59:05') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33824,   1,          2) /* ItemType - Armor */
+     , (33824,   3,          8) /* PaletteTemplate */
      , (33824,   5,        600) /* EncumbranceVal */
      , (33824,   9,    2097152) /* ValidLocations - Shield */
      , (33824,  16,          1) /* ItemUseable - No */
@@ -39,18 +40,20 @@ VALUES (33824,   5,  -0.033) /* ManaRate */
      , (33824, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33824,   1, 'Shield of Truth') /* Name */
-     , (33824,  16, '"My teaching is the shield of truth, which, if held by a true seeker, will stop the deadly sword of ignorance."     -Master Jojii') /* LongDesc */;
+VALUES (33824,   0, '') /*  */
+     , (33824,   1, 'Shield of Truth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33824,   1, 0x02000162) /* Setup */
      , (33824,   3, 0x20000014) /* SoundTable */
      , (33824,   6, 0x04000BEF) /* PaletteBase */
+     , (33824,   7, 0x1000015F) /* Clothingbase */
      , (33824,   8, 0x06001426) /* Icon */
      , (33824,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33824,  2585,      2)  /* Major Acid Bane */
-     , (33824,  2589,      2)  /* Major Flame Bane */
-     , (33824,  2590,      2)  /* Major Frost Bane */
-     , (33824,  2595,      2)  /* Major Storm Bane */;
+VALUES (33824,  2585,      2) /* Major Acid Bane */
+     , (33824,  2589,      2) /* Major Flame Bane */
+     , (33824,  2590,      2) /* Major Frost Bane */
+     , (33824,  2595,      2) /* Major Storm Bane */;
+
