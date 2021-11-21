@@ -38,11 +38,15 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (37062, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (37062, 0, 4294967295, 'Asheron', 'prewritten', False, 'I have been studying Aerbax''s recent movements. He has set up a series of gate structures on the Obsidian Plain to channel the exposed energies there.
-
-You must gain access to these gates somehow. I believe you will find a device of Virindi construction within. The fluctuations in the ley lines tell me Aerbax is using a mixture of raw planar energy and the dark energies to power his Gates. If you can feed his device enough excess dark energy you may be able to destabilize it and then destroy it, thus shutting down that Gate.')
-     , (37062, 1, 4294967295, 'Asheron', 'prewritten', False, 'I have done all I can for now, the rest lies with your people. Aerbax''s disturbance in the planar tides of this planet are so great that I fear for my people trapped in portal space. I must do my best to insure they are not set adrift and lost. I have sent a group of my servants to attempt to disable the final South Gate. They may be of some help to you.')
-     , (37062, 2, 4294967295, 'Asheron', 'prewritten', False, 'One last note. If my instruments are correct, Aerbax will have enough power to focus his will through his Prodigal Children, weakened as they are, and enslave most of the sentient races in Dereth. Failure is not an option.
-
-Good luck friend,
-Asheron Realadain');
+VALUES (37062, 0, 4294967295, 'Asheron', 'prewritten', False, '
+   I have been studying Aerbax''s recent movements. He has set up a series of gate structures on the Obsidian Plain to channel the exposed energies there.
+You must gain access to these gates somehow. I believe you will find a device of Virindi construction within. The fluctuations in the ley lines tell me Aerbax is using a mixture of raw planar energy and the dark energies to power his Gates. If you can feed his device enough excess dark energy you may be able to destabilize it and then destroy it, thus shutting down that Gate.
+')
+     , (37062, 1, 4294967295, 'Asheron', 'prewritten', False, '
+I have done all I can for now, the rest lies with your people. Aerbax''s disturbance in the planar tides of this planet are so great that I fear for my people trapped in portal space. I must do my best to insure they are not set adrift and lost. I have sent a group of my servants to attempt to disable the final South Gate. They may be of some help to you.
+')
+     , (37062, 2, 4294967295, 'Asheron', 'prewritten', False, '
+One last note. If my instruments are correct, Aerbax will have enough power to focus his will through his Prodigal Children, weakened as they are, and enslave most of the sentient races in Dereth. Failure is not an option.
+Good luck friend, 
+Asheron Realadain
+');
