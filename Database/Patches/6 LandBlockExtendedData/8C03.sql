@@ -1475,3 +1475,7 @@ VALUES (0x78C0354B, 48744, 0x8C030124, 101.624, -56.8324, -5.945, 1, 0, 0, 0, Fa
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C0354C, 42017, 0x8C0307EE, 216.108, -192.774, 24.003, 0.371739, 0, 0, 0.928337,  True, '2021-11-01 00:00:00'); /* Flame Guardian */
 /* @teleloc 0x8C0307EE [216.108002 -192.774002 24.003000] 0.371739 0.000000 0.000000 0.928337 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78C0354D, 72742, 0x8C03037E, 97.7396, -111.204, 0.005, 1, 0, 0, 0, False, '2021-11-14 13:08:07'); /* Floating Tower Stopgap */
+/* @teleloc 0x8C03037E [97.739601 -111.204002 0.005000] 1.000000 0.000000 0.000000 0.000000 */
