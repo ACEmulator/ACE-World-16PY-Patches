@@ -36,7 +36,6 @@ VALUES (87254,   1,       5) /* HeartbeatInterval */
      , (87254,  17,    0.99) /* ArmorModVsFire */
      , (87254,  18,    0.55) /* ArmorModVsAcid */
      , (87254,  19,    0.54) /* ArmorModVsElectric */
-     , (87254,  27,    5.01) /* RotationSpeed */
      , (87254,  31,      15) /* VisualAwarenessRange */
      , (87254,  34,       1) /* PowerupTime */
      , (87254,  36,       1) /* ChargeSpeed */
