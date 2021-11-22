@@ -159,13 +159,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'I''m sorry, you must be more experienced before you can help me with the Viamontian threat. If you wish to help, Londigul, the Armorer, may have a task for you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32395, 2,   130,  0,14,    1, False) /* Create Shirt (130) for Wield */
-     , (32395, 2,   127,  0,14,    1, False) /* Create Pants (127) for Wield */
-     , (32395, 2, 21153,  0,86,    0, False) /* Create Covenant Gauntlets (21153) for Wield */
-     , (32395, 2, 21150,  0,86,    0, False) /* Create Covenant Sollerets (21150) for Wield */
-     , (32395, 2, 21154,  0,86,    0, False) /* Create Covenant Girth (21154) for Wield */
-     , (32395, 2, 21152,  0,86,    0, False) /* Create Covenant Breastplate (21152) for Wield */
-     , (32395, 2, 21157,  0,86,    0, False) /* Create Covenant Pauldrons (21157) for Wield */
-     , (32395, 2, 21151,  0,86,    0, False) /* Create Covenant Bracers (21151) for Wield */
-     , (32395, 2, 21159,  0,86,    0, False) /* Create Covenant Tassets (21159) for Wield */
-     , (32395, 2, 21155,  0,86,    0, False) /* Create Covenant Greaves (21155) for Wield */;
+VALUES (32395, 2,   130,  0, 14, 1, False) /* Create Shirt (130) for Wield */
+     , (32395, 2,   127,  0, 14, 1, False) /* Create Pants (127) for Wield */
+     , (32395, 2, 21153,  0, 86, 0, False) /* Create Covenant Gauntlets (21153) for Wield */
+     , (32395, 2, 21150,  0, 86, 0, False) /* Create Covenant Sollerets (21150) for Wield */
+     , (32395, 2, 21154,  0, 86, 0, False) /* Create Covenant Girth (21154) for Wield */
+     , (32395, 2, 21152,  0, 86, 0, False) /* Create Covenant Breastplate (21152) for Wield */
+     , (32395, 2, 21157,  0, 86, 0, False) /* Create Covenant Pauldrons (21157) for Wield */
+     , (32395, 2, 21151,  0, 86, 0, False) /* Create Covenant Bracers (21151) for Wield */
+     , (32395, 2, 21159,  0, 86, 0, False) /* Create Covenant Tassets (21159) for Wield */
+     , (32395, 2, 21155,  0, 86, 0, False) /* Create Covenant Greaves (21155) for Wield */;

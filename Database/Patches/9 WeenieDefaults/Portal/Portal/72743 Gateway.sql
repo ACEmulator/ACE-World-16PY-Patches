@@ -19,8 +19,7 @@ VALUES (72743,   1, True ) /* Stuck */
      , (72743,  12, False) /* ReportCollisions */
      , (72743,  13, True ) /* Ethereal */
      , (72743,  14, False) /* GravityStatus */
-     , (72743,  15, True ) /* LightsStatus */
-     , (72743,  88, True ) /* PortalShowDestination */;
+     , (72743,  15, True ) /* LightsStatus */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72743,  12,     0.5) /* Shade */
@@ -38,6 +37,5 @@ VALUES (72743,   1, 0x020006F4) /* Setup */
      , (72743,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (72743,  2, 1177485345, 109, 13, 228.81, 1, 0, 0, 0) /*Destination*/
+VALUES (72743, 2, 0x462F0021, 109, 13, 228.81, 1, 0, 0, 0) /* Destination */
 /* @teleloc 0x462F0021 [109.000000 13.000000 228.809998] 1.000000 0.000000 0.000000 0.000000 */;
-

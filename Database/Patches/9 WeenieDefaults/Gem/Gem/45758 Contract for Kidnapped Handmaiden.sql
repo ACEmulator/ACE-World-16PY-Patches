@@ -16,7 +16,7 @@ VALUES (45758,   1,       2048) /* ItemType - Gem */
      , (45758,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (45758,  94,         16) /* TargetType - Creature */
      , (45758, 280,        100) /* SharedCooldown */
-     , (45758, 349,        219) /* UseCreatesContractId */;
+     , (45758, 349,        219) /* UseCreatesContractId - Contract_219_Kidnapped_Handmaiden */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45758,  22, True ) /* Inscribable */
