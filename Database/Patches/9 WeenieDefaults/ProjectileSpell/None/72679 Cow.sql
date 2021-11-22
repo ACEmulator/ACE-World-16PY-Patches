@@ -27,8 +27,8 @@ VALUES (72679,   1, 'Cow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (72679,   1, 0x020017DB) /* Setup */
-     , (72679,   3, 0x2000003B) /* SoundTable */
+     , (72679,   3, 0x200000CE) /* SoundTable */
      , (72679,   8, 0x06001066) /* Icon */
      , (72679,  22, 0x34000009) /* PhysicsEffectTable */
      , (72679,  28,       4267) /* Spell - Cow */
-     , (72679,  30,         89) /* PhysicsScript - Destroy */;
+     , (72679,  30,         90) /* PhysicsScript - Destroy */;
