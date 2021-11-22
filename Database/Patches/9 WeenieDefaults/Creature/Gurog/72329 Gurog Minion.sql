@@ -39,7 +39,6 @@ VALUES (72329,   1,       5) /* HeartbeatInterval */
      , (72329,  17,    0.55) /* ArmorModVsFire */
      , (72329,  18,       1) /* ArmorModVsAcid */
      , (72329,  19,       1) /* ArmorModVsElectric */
-     , (72329,  27,       5) /* RotationSpeed */
      , (72329,  31,      16) /* VisualAwarenessRange */
      , (72329,  34,       1) /* PowerupTime */
      , (72329,  36,       1) /* ChargeSpeed */

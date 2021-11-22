@@ -39,7 +39,6 @@ VALUES (44047,   1,       5) /* HeartbeatInterval */
      , (44047,  17,    0.95) /* ArmorModVsFire */
      , (44047,  18,    0.95) /* ArmorModVsAcid */
      , (44047,  19,       1) /* ArmorModVsElectric */
-     , (44047,  27,    5.01) /* RotationSpeed */
      , (44047,  31,      32) /* VisualAwarenessRange */
      , (44047,  34,       1) /* PowerupTime */
      , (44047,  36,       1) /* ChargeSpeed */

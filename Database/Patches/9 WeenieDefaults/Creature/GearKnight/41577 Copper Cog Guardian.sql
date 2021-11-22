@@ -28,7 +28,6 @@ VALUES (41577,  13,       1) /* ArmorModVsSlash */
      , (41577,  17,     1.5) /* ArmorModVsFire */
      , (41577,  18,     0.5) /* ArmorModVsAcid */
      , (41577,  19,    0.75) /* ArmorModVsElectric */
-     , (41577,  27,    5.01) /* RotationSpeed */
      , (41577,  31,      33) /* VisualAwarenessRange */
      , (41577,  34,       1) /* PowerupTime */
      , (41577,  36,       1) /* ChargeSpeed */
