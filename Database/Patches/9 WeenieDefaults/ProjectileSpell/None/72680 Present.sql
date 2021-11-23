@@ -32,4 +32,4 @@ VALUES (72680,   1, 0x020017DA) /* Setup */
      , (72680,   8, 0x06001066) /* Icon */
      , (72680,  22, 0x34000008) /* PhysicsEffectTable */
      , (72680,  28,       4269) /* Spell - Present */
-     , (72680,  30,         89) /* PhysicsScript - Destroy */;
+     , (72680,  30,         90) /* PhysicsScript - Destroy */;
