@@ -7,7 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72680,   8,         25) /* Mass */
      , (72680,   9,          0) /* ValidLocations - None */
      , (72680,  66,          0) /* CheckpointStatus */
-     , (72680,  93,     167496) /* PhysicsState - ReportCollisions, Missile, PathClipped, Gravity, LightingOn, ScriptedCollision, Inelastic */;
+     , (72680,  93,     134164) /* PhysicsState - ReportCollisions, Missile, PathClipped, Gravity, LightingOn, ScriptedCollision, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72680,   1, True ) /* Stuck */
@@ -20,7 +20,8 @@ VALUES (72680,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72680,  26,      15) /* MaximumVelocity */
      , (72680,  78,       1) /* Friction */
-     , (72680,  79,       0) /* Elasticity */;
+     , (72680,  79,       0) /* Elasticity */
+     , (72680,  27,       1) /* RotationSpeed */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72680,   1, 'Present') /* Name */;
