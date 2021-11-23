@@ -31,4 +31,4 @@ VALUES (72682,   1, 0x020017DD) /* Setup */
      , (72682,   8, 0x06001066) /* Icon */
      , (72682,  22, 0x3400000C) /* PhysicsEffectTable */
      , (72682,  28,       4276) /* Spell - Jester's Malevolent Eye */
-     , (72682,  30,         89) /* PhysicsScript - Destroy */;
+     , (72682,  30,         90) /* PhysicsScript - Destroy */;
