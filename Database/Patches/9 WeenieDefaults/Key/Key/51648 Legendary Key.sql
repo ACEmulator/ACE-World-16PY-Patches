@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51648;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51648, 'ace51648-legendarykey', 22, '2021-11-01 00:00:00') /* Key */;
+VALUES (51648, 'ace51648-legendarykey', 22, '2021-11-17 16:56:08') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51648,   1,      16384) /* ItemType - Key */
@@ -16,7 +16,6 @@ VALUES (51648,   1,      16384) /* ItemType - Key */
      , (51648,  94,        640) /* TargetType - LockableMagicTarget */
      , (51648, 114,          0) /* Attuned - Normal */
      , (51648, 267,      86400) /* Lifespan */
-     , (51648, 268,      86400) /* RemainingLifespan */
      , (51648, 369,        150) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

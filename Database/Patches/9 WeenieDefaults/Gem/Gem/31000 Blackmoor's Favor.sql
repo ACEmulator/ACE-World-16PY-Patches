@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31000;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31000, 'gemactdpurchaserewardarmor', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (31000, 'gemactdpurchaserewardarmor', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31000,   1,       2048) /* ItemType - Gem */
@@ -14,7 +14,6 @@ VALUES (31000,   1,       2048) /* ItemType - Gem */
      , (31000,  18,          1) /* UiEffects - Magical */
      , (31000,  19,          0) /* Value */
      , (31000,  33,          1) /* Bonded - Bonded */
-     , (31000,  53,        101) /* PlacementPosition - Resting */
      , (31000,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31000,  94,         16) /* TargetType - Creature */
      , (31000, 114,          1) /* Attuned - Attuned */

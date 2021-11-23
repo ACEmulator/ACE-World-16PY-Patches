@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 73053;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (73053, 'ace73053-note', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (73053, 'ace73053-note', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (73053,   1,       8192) /* ItemType - Writable */
@@ -11,7 +11,6 @@ VALUES (73053,   1,       8192) /* ItemType - Writable */
      , (73053,  16,          8) /* ItemUseable - Contained */
      , (73053,  19,          0) /* Value */
      , (73053,  22,       1000) /* AvailableCharacter */
-     , (73053,  53,        101) /* PlacementPosition - Resting */
      , (73053,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -38,4 +37,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (73053, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (73053, 0, 0xFFFFFFFF, 'Andrilos', '', False, 'Gone hunting in the Thrungal Den');
+VALUES (73053, 0, 0xFFFFFFFF, 'Andrilos', 'prewritten', False, 'Gone hunting in the Thrungal Den');

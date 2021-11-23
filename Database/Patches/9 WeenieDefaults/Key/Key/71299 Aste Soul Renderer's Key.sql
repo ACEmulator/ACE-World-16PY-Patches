@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 71299;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (71299, 'ace71299-astesoulrendererskey', 22, '2021-11-01 00:00:00') /* Key */;
+VALUES (71299, 'ace71299-astesoulrendererskey', 22, '2021-11-17 16:56:08') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (71299,   1,      16384) /* ItemType - Key */
@@ -9,7 +9,6 @@ VALUES (71299,   1,      16384) /* ItemType - Key */
      , (71299,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (71299,  19,          0) /* Value */
      , (71299,  33,          1) /* Bonded - Bonded */
-     , (71299,  53,        101) /* PlacementPosition - Resting */
      , (71299,  91,          1) /* MaxStructure */
      , (71299,  92,          1) /* Structure */
      , (71299,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

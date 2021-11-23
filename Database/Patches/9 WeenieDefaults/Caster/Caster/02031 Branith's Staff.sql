@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2031;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2031, 'quarterstaffbranith', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (2031, 'quarterstaffbranith', 35, '2021-11-17 16:56:08') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2031,   1,      32768) /* ItemType - Caster */
@@ -12,7 +12,6 @@ VALUES (2031,   1,      32768) /* ItemType - Caster */
      , (2031,  18,          1) /* UiEffects - Magical */
      , (2031,  19,       1500) /* Value */
      , (2031,  46,        512) /* DefaultCombatStyle - Magic */
-     , (2031,  53,        101) /* PlacementPosition - Resting */
      , (2031,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2031,  94,         16) /* TargetType - Creature */
      , (2031, 106,        200) /* ItemSpellcraft */

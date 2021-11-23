@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46233;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46233, 'ace46233-blackfiredissolvingispariandagger', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (46233, 'ace46233-blackfiredissolvingispariandagger', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46233,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,6 @@ VALUES (46233,   1,          1) /* ItemType - MeleeWeapon */
      , (46233,  48,         46) /* WeaponSkill - FinesseWeapons */
      , (46233,  49,         55) /* WeaponTime */
      , (46233,  51,          1) /* CombatUse - Melee */
-     , (46233,  53,        101) /* PlacementPosition - Resting */
      , (46233,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46233, 106,        325) /* ItemSpellcraft */
      , (46233, 107,        750) /* ItemCurMana */

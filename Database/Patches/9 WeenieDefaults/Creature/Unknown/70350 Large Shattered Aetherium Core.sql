@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70350;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70350, 'ace70350-largeshatteredaetheriumcore', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (70350, 'ace70350-largeshatteredaetheriumcore', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70350,   1,         16) /* ItemType - Creature */
      , (70350,   2,         40) /* CreatureType - Unknown */
      , (70350,   5,          0) /* EncumbranceVal */
-     , (70350,   6,        255) /* ItemsCapacity */
-     , (70350,   7,        255) /* ContainersCapacity */
+     , (70350,   6,         -1) /* ItemsCapacity */
+     , (70350,   7,         -1) /* ContainersCapacity */
      , (70350,  16,         32) /* ItemUseable - Remote */
      , (70350,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (70350,  95,          3) /* RadarBlipColor - White */
@@ -23,6 +23,8 @@ VALUES (70350,   1, True ) /* Stuck */
      , (70350,  14, True ) /* GravityStatus */
      , (70350,  19, False) /* Attackable */
      , (70350,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (70350,  52, True ) /* AiImmobile */
+     , (70350,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (70350,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32207;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32207, 'ace32207-candycorn', 18, '2021-11-01 00:00:00') /* Food */;
+VALUES (32207, 'ace32207-candycorn', 18, '2021-11-17 16:56:08') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32207,   1,         32) /* ItemType - Food */
@@ -11,7 +11,6 @@ VALUES (32207,   1,         32) /* ItemType - Food */
      , (32207,  16,          8) /* ItemUseable - Contained */
      , (32207,  18,          1) /* UiEffects - Magical */
      , (32207,  19,         10) /* Value */
-     , (32207,  53,        101) /* PlacementPosition - Resting */
      , (32207,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32207,  94,         16) /* TargetType - Creature */
      , (32207, 106,        300) /* ItemSpellcraft */

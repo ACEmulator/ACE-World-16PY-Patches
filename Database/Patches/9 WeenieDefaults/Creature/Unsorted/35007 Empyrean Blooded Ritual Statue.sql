@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35007;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35007, 'ace35007-empyreanbloodedritualstatue', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (35007, 'ace35007-empyreanbloodedritualstatue', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35007,   1,         16) /* ItemType - Creature */
@@ -17,6 +17,7 @@ VALUES (35007,   1, True ) /* Stuck */
      , (35007,  19, True ) /* Attackable */
      , (35007,  29, True ) /* NoCorpse */
      , (35007,  52, True ) /* AiImmobile */
+     , (35007,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (35007,  83, True ) /* NpcLooksLikeObject */
      , (35007, 118, True ) /* NeverAttack */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35297;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (35297, 'ace35297-greatswordofflameandlight', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (35297, 'ace35297-greatswordofflameandlight', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35297,   1,          1) /* ItemType - MeleeWeapon */
@@ -56,5 +56,4 @@ VALUES (35297,   1, 0x020016D4) /* Setup */
      , (35297,  55,       3911) /* ProcSpell - Spiral of Souls */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35297,  2694,      2)  /* Moderate Heavy Weapon Aptitude */
-     , (35297,  3911,      2)  /* Spiral of Souls */;
+VALUES (35297,  2694,      2)  /* Moderate Heavy Weapon Aptitude */;

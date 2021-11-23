@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48599;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48599, 'ace48599-icyclub', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (48599, 'ace48599-icyclub', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48599,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,6 @@ VALUES (48599,   1,          1) /* ItemType - MeleeWeapon */
      , (48599,  48,         45) /* WeaponSkill - LightWeapons */
      , (48599,  49,         40) /* WeaponTime */
      , (48599,  51,          1) /* CombatUse - Melee */
-     , (48599,  52,          1) /* ParentLocation - RightHand */
      , (48599,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48599, 151,          2) /* HookType - Wall */
      , (48599, 353,          4) /* WeaponType - Mace */;

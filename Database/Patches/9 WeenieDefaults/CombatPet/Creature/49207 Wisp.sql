@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49207;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49207, 'ace49207-wisp', 71, '2021-11-01 00:00:00') /* CombatPet */;
+VALUES (49207, 'ace49207-wisp', 71, '2021-11-17 16:56:08') /* CombatPet */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49207,   1,         16) /* ItemType - Creature */
      , (49207,   2,         20) /* CreatureType - Wisp */
-     , (49207,   6,        255) /* ItemsCapacity */
-     , (49207,   7,        255) /* ContainersCapacity */
+     , (49207,   6,         -1) /* ItemsCapacity */
+     , (49207,   7,         -1) /* ContainersCapacity */
      , (49207,  16,          1) /* ItemUseable - No */
      , (49207,  25,         80) /* Level */
      , (49207,  68,         64) /* TargetingTactic - Nearest */

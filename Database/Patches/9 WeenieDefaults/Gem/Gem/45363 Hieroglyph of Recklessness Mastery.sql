@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45363;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45363, 'ace45363-hieroglyphofrecklessnessmastery', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (45363, 'ace45363-hieroglyphofrecklessnessmastery', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45363,   1,       2048) /* ItemType - Gem */
@@ -49,6 +49,3 @@ VALUES (45363,   1, 0x020009A7) /* Setup */
      , (45363,  28,       5834) /* Spell - Incantation of Recklessness Mastery Self */
      , (45363,  50, 0x06005B29) /* IconOverlay */
      , (45363,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45363,  5834,      2)  /* Incantation of Recklessness Mastery Self */;

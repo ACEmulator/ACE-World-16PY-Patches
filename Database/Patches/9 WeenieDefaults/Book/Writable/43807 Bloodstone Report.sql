@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43807;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43807, 'ace43807-bloodstonereport', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (43807, 'ace43807-bloodstonereport', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43807,   1,       8192) /* ItemType - Writable */
@@ -10,7 +10,6 @@ VALUES (43807,   1,       8192) /* ItemType - Writable */
      , (43807,  19,          0) /* Value */
      , (43807,  22,       1000) /* AvailableCharacter */
      , (43807,  33,          1) /* Bonded - Bonded */
-     , (43807,  53,        101) /* PlacementPosition - Resting */
      , (43807,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43807, 114,          1) /* Attuned - Attuned */;
 

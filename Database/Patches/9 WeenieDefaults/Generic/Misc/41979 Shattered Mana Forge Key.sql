@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41979;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41979, 'ace41979-shatteredmanaforgekey', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (41979, 'ace41979-shatteredmanaforgekey', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41979,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (41979,   1,        128) /* ItemType - Misc */
      , (41979,  18,         64) /* UiEffects - Lightning */
      , (41979,  19,          0) /* Value */
      , (41979,  33,          1) /* Bonded - Bonded */
-     , (41979,  53,        101) /* PlacementPosition - Resting */
      , (41979,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41979, 114,          1) /* Attuned - Attuned */
      , (41979, 267,      86400) /* Lifespan */;

@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31955;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31955, 'ace31955-janusromatheshopkeep', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (31955, 'ace31955-janusromatheshopkeep', 12, '2021-11-17 16:56:08') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31955,   1,         16) /* ItemType - Creature */
      , (31955,   2,         31) /* CreatureType - Human */
      , (31955,   3,          9) /* PaletteTemplate - Grey */
-     , (31955,   6,        255) /* ItemsCapacity */
-     , (31955,   7,        255) /* ContainersCapacity */
+     , (31955,   6,         -1) /* ItemsCapacity */
+     , (31955,   7,         -1) /* ContainersCapacity */
      , (31955,  16,         32) /* ItemUseable - Remote */
      , (31955,  25,          8) /* Level */
      , (31955,  74, 1078223008) /* MerchandiseItemTypes - Food, Misc, Writable, Key, PromissoryNote, CraftCookingBase, TinkeringMaterial */

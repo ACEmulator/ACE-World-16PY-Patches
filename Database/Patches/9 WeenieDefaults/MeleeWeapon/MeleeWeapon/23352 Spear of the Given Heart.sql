@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23352;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (23352, 'spearofthegivenheart', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (23352, 'spearofthegivenheart', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23352,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,8 +19,6 @@ VALUES (23352,   1,          1) /* ItemType - MeleeWeapon */
      , (23352,  48,         45) /* WeaponSkill - LightWeapons */
      , (23352,  49,         20) /* WeaponTime */
      , (23352,  51,          1) /* CombatUse - Melee */
-     , (23352,  52,          1) /* ParentLocation - RightHand */
-     , (23352,  53,          1) /* PlacementPosition - RightHandCombat */
      , (23352,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23352, 106,        300) /* ItemSpellcraft */
      , (23352, 107,        600) /* ItemCurMana */

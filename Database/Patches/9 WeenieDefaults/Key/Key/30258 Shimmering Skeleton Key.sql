@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30258;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30258, 'keyrarevolatileuniversal', 22, '2021-11-01 00:00:00') /* Key */;
+VALUES (30258, 'keyrarevolatileuniversal', 22, '2021-11-17 16:56:08') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30258,   1,      16384) /* ItemType - Key */
@@ -12,7 +12,6 @@ VALUES (30258,   1,      16384) /* ItemType - Key */
      , (30258,  19,          0) /* Value */
      , (30258,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30258,  33,         -1) /* Bonded - Slippery */
-     , (30258,  53,        101) /* PlacementPosition - Resting */
      , (30258,  91,          1) /* MaxStructure */
      , (30258,  92,          1) /* Structure */
      , (30258,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

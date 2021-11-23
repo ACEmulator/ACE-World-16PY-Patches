@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28770;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28770, 'keysmallempvault', 22, '2021-11-01 00:00:00') /* Key */;
+VALUES (28770, 'keysmallempvault', 22, '2021-11-17 16:56:08') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28770,   1,      16384) /* ItemType - Key */
@@ -9,7 +9,6 @@ VALUES (28770,   1,      16384) /* ItemType - Key */
      , (28770,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (28770,  19,          0) /* Value */
      , (28770,  33,          1) /* Bonded - Bonded */
-     , (28770,  53,        101) /* PlacementPosition - Resting */
      , (28770,  91,          3) /* MaxStructure */
      , (28770,  92,          3) /* Structure */
      , (28770,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31377;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31377, 'ace31377-twilightfragment', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (31377, 'ace31377-twilightfragment', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31377,   1,       2048) /* ItemType - Gem */
@@ -11,7 +11,6 @@ VALUES (31377,   1,       2048) /* ItemType - Gem */
      , (31377,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31377,  19,          0) /* Value */
      , (31377,  33,          1) /* Bonded - Bonded */
-     , (31377,  53,        101) /* PlacementPosition - Resting */
      , (31377,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31377,  94,       2048) /* TargetType - Gem */
      , (31377, 114,          1) /* Attuned - Attuned */;

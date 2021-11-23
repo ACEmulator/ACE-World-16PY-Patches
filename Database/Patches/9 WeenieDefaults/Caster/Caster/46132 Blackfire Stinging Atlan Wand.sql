@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46132;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46132, 'ace46132-blackfirestingingatlanwand', 35, '2021-11-01 00:00:00') /* Caster */;
+VALUES (46132, 'ace46132-blackfirestingingatlanwand', 35, '2021-11-17 16:56:08') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46132,   1,      32768) /* ItemType - Caster */
@@ -14,8 +14,6 @@ VALUES (46132,   1,      32768) /* ItemType - Caster */
      , (46132,  33,          1) /* Bonded - Bonded */
      , (46132,  45,         32) /* DamageType - Acid */
      , (46132,  46,        512) /* DefaultCombatStyle - Magic */
-     , (46132,  52,          1) /* ParentLocation - RightHand */
-     , (46132,  53,          1) /* PlacementPosition - RightHandCombat */
      , (46132,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46132,  94,         16) /* TargetType - Creature */
      , (46132, 106,        325) /* ItemSpellcraft */

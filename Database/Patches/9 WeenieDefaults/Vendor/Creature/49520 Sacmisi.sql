@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49520;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49520, 'ace49520-sacmisi', 12, '2021-11-01 00:00:00') /* Vendor */;
+VALUES (49520, 'ace49520-sacmisi', 12, '2021-11-17 16:56:08') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49520,   1,         16) /* ItemType - Creature */
      , (49520,   2,         51) /* CreatureType - Empyrean */
      , (49520,   3,         22) /* PaletteTemplate - Aqua */
-     , (49520,   6,        255) /* ItemsCapacity */
-     , (49520,   7,        255) /* ContainersCapacity */
+     , (49520,   6,         -1) /* ItemsCapacity */
+     , (49520,   7,         -1) /* ContainersCapacity */
      , (49520,  16,         32) /* ItemUseable - Remote */
      , (49520,  25,          7) /* Level */
      , (49520,  74,    2656384) /* MerchandiseItemTypes - Misc, Gem, Caster, ManaStone, MagicWieldable */

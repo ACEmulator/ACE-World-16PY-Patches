@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45364;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45364, 'ace45364-hieroglyphofshieldmastery', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (45364, 'ace45364-hieroglyphofshieldmastery', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45364,   1,       2048) /* ItemType - Gem */
@@ -45,6 +45,3 @@ VALUES (45364,   1, 0x020009A7) /* Setup */
      , (45364,  28,       5858) /* Spell - Incantation of Shield Mastery Self */
      , (45364,  50, 0x06007116) /* IconOverlay */
      , (45364,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45364,  5858,      2)  /* Incantation of Shield Mastery Self */;

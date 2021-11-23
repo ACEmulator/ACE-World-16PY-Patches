@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43025;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43025, 'ace43025-copperknightmedallion', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (43025, 'ace43025-copperknightmedallion', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43025,   1,        128) /* ItemType - Misc */
@@ -9,7 +9,6 @@ VALUES (43025,   1,        128) /* ItemType - Misc */
      , (43025,  16,          1) /* ItemUseable - No */
      , (43025,  19,          0) /* Value */
      , (43025,  33,          1) /* Bonded - Bonded */
-     , (43025,  53,        101) /* PlacementPosition - Resting */
      , (43025,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43025, 114,          1) /* Attuned - Attuned */;
 

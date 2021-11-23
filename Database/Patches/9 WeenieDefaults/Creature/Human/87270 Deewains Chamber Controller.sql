@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 87270;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (87270, 'ace87270-DeewainsChamberController', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (87270, 'ace87270-DeewainsChamberController', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87270,   1,         16) /* ItemType - Creature */
@@ -28,6 +28,7 @@ VALUES (87270,   1, True ) /* Stuck */
      , (87270,  19, False) /* Attackable */
      , (87270,  29, True ) /* NoCorpse */
      , (87270,  52, True ) /* AiImmobile */
+     , (87270,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (87270,  83, True ) /* NpcLooksLikeObject */
      , (87270, 103, True ) /* NonProjectileMagicImmune */
      , (87270, 118, True ) /* NeverAttack */;

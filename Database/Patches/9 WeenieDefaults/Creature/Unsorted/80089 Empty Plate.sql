@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 80089;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (80089, 'EmptyPlate', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (80089, 'EmptyPlate', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (80089,   1,         16) /* ItemType - Creature */
@@ -16,6 +16,8 @@ VALUES (80089,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80089,   1, True ) /* Stuck */
      , (80089,  19, False) /* Attackable */
+     , (80089,  52, True ) /* AiImmobile */
+     , (80089,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (80089,  83, True ) /* NpcLooksLikeObject */
      , (80089,  90, True ) /* NpcInteractsSilently */;
 

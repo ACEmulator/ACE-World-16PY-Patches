@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1895;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1895, 'scrollswiftkiller', 34, '2021-11-01 00:00:00') /* Scroll */;
+VALUES (1895, 'scrollswiftkiller', 34, '2021-11-17 16:56:08') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1895,   1,       8192) /* ItemType - Writable */
@@ -9,7 +9,6 @@ VALUES (1895,   1,       8192) /* ItemType - Writable */
      , (1895,   8,         90) /* Mass */
      , (1895,  16,          8) /* ItemUseable - Contained */
      , (1895,  19,          1) /* Value */
-     , (1895,  53,        101) /* PlacementPosition - Resting */
      , (1895,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

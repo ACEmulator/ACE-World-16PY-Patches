@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 85001;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (85001, 'ace85001-bookcase', 7, '2021-11-01 00:00:00') /* Portal */;
+VALUES (85001, 'ace85001-bookcase', 7, '2021-11-17 16:56:08') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (85001,   1,      65536) /* ItemType - Portal */
      , (85001,  16,         32) /* ItemUseable - Remote */
      , (85001,  86,        120) /* MinLevel */
-     , (85001,  93,      68612) /* PhysicsState - Ethereal, Gravity, LightingOn, HasPhysicsBSP */
+     , (85001,  93,       3076) /* PhysicsState - Ethereal, Gravity, LightingOn */
      , (85001,  95,          3) /* RadarBlipColor - White */
      , (85001, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */;
 

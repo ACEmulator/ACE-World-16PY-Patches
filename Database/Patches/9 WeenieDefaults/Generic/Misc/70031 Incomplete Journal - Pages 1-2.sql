@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 70031;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (70031, 'ace70031-incompletejournalpages12', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (70031, 'ace70031-incompletejournalpages12', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (70031,   1,        128) /* ItemType - Misc */
@@ -9,7 +9,6 @@ VALUES (70031,   1,        128) /* ItemType - Misc */
      , (70031,  16,          1) /* ItemUseable - No */
      , (70031,  19,          0) /* Value */
      , (70031,  33,          1) /* Bonded - Bonded */
-     , (70031,  53,        101) /* PlacementPosition - Resting */
      , (70031,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (70031, 114,          1) /* Attuned - Attuned */;
 

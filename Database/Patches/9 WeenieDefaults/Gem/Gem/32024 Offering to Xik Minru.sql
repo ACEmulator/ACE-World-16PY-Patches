@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32024;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32024, 'ace32024-offeringtoxikminru', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (32024, 'ace32024-offeringtoxikminru', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32024,   1,       2048) /* ItemType - Gem */
@@ -9,7 +9,6 @@ VALUES (32024,   1,       2048) /* ItemType - Gem */
      , (32024,   8,        100) /* Mass */
      , (32024,  19,          0) /* Value */
      , (32024,  33,          1) /* Bonded - Bonded */
-     , (32024,  53,        101) /* PlacementPosition - Resting */
      , (32024,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32024, 114,          1) /* Attuned - Attuned */;
 

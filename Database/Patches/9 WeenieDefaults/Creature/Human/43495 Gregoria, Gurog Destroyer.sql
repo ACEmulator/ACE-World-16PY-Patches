@@ -1,13 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43495;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43495, 'ace43495-gregoriagurogdestroyer', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (43495, 'ace43495-gregoriagurogdestroyer', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43495,   1,         16) /* ItemType - Creature */
      , (43495,   2,         31) /* CreatureType - Human */
-     , (43495,   6,        255) /* ItemsCapacity */
-     , (43495,   7,        255) /* ContainersCapacity */
+     , (43495,   6,         -1) /* ItemsCapacity */
+     , (43495,   7,         -1) /* ContainersCapacity */
      , (43495,  16,         32) /* ItemUseable - Remote */
      , (43495,  25,        150) /* Level */
      , (43495,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */

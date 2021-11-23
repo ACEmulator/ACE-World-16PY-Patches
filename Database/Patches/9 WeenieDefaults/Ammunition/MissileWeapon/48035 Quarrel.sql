@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48035;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (48035, 'ACE48035-QUARREL', 5, '2021-11-01 00:00:00') /* Ammunition */;
+VALUES (48035, 'ACE48035-QUARREL', 5, '2021-11-17 16:56:08') /* Ammunition */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48035,   1,        256) /* ItemType - MissileWeapon */
@@ -23,8 +23,6 @@ VALUES (48035,   1,        256) /* ItemType - MissileWeapon */
      , (48035,  49,         -1) /* WeaponTime */
      , (48035,  50,          2) /* AmmoType - Bolt */
      , (48035,  51,          3) /* CombatUse - Ammo */
-     , (48035,  52,          1) /* ParentLocation - RightHand */
-     , (48035,  53,          1) /* PlacementPosition - RightHandCombat */
      , (48035,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (48035, 150,        103) /* HookPlacement - Hook */
      , (48035, 151,          2) /* HookType - Wall */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30109;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30109, 'potionrarevolatilestamina', 18, '2021-11-01 00:00:00') /* Food */;
+VALUES (30109, 'potionrarevolatilestamina', 18, '2021-11-17 16:56:08') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30109,   1,        128) /* ItemType - Misc */
@@ -16,7 +16,6 @@ VALUES (30109,   1,        128) /* ItemType - Misc */
      , (30109,  16,          8) /* ItemUseable - Contained */
      , (30109,  17,         68) /* RareId */
      , (30109,  19,          0) /* Value */
-     , (30109,  53,        101) /* PlacementPosition - Resting */
      , (30109,  89,          4) /* BoosterEnum - Stamina */
      , (30109,  90,        500) /* BoostValue */
      , (30109,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

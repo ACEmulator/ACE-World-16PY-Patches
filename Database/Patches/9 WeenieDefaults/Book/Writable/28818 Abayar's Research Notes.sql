@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28818;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (28818, 'scrollabayar', 8, '2021-11-01 00:00:00') /* Book */;
+VALUES (28818, 'scrollabayar', 8, '2021-11-17 16:56:08') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28818,   1,       8192) /* ItemType - Writable */
@@ -9,7 +9,6 @@ VALUES (28818,   1,       8192) /* ItemType - Writable */
      , (28818,  16,          8) /* ItemUseable - Contained */
      , (28818,  19,          0) /* Value */
      , (28818,  33,          1) /* Bonded - Bonded */
-     , (28818,  53,        101) /* PlacementPosition - Resting */
      , (28818,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28818, 114,          1) /* Attuned - Attuned */;
 
@@ -38,6 +37,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28818, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28818, 0, 0xFFFFFFFF, 'Fiun Abayar', '', False, 'Sheaves of neatly penned notes and sketches of the Eater.
+VALUES (28818, 0, 0xFFFFFFFF, 'Fiun Abayar', 'prewritten', False, 'Sheaves of neatly penned notes and sketches of the Eater.
 
 ** Deliver to Senior Sage Shibak **');

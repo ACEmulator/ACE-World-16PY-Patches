@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44070;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44070, 'ace44070-bundleofprismaticarrowheads', 44, '2021-11-01 00:00:00') /* CraftTool */;
+VALUES (44070, 'ace44070-bundleofprismaticarrowheads', 44, '2021-11-17 16:56:08') /* CraftTool */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44070,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
@@ -14,7 +14,6 @@ VALUES (44070,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44070,  15,        100) /* StackUnitValue */
      , (44070,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44070,  19,        100) /* Value */
-     , (44070,  53,        101) /* PlacementPosition - Resting */
      , (44070,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44070,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 

@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45281;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45281, 'ace45281-scrollofdualwieldmasteryselfvi', 34, '2021-11-01 00:00:00') /* Scroll */;
+VALUES (45281, 'ace45281-scrollofdualwieldmasteryselfvi', 34, '2021-11-17 16:56:08') /* Scroll */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45281,   1,       8192) /* ItemType - Writable */
      , (45281,   5,         30) /* EncumbranceVal */
      , (45281,  16,          8) /* ItemUseable - Contained */
      , (45281,  19,       1000) /* Value */
-     , (45281,  53,        101) /* PlacementPosition - Resting */
      , (45281,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

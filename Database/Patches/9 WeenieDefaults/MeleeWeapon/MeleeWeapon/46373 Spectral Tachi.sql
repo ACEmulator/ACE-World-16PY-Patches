@@ -1,14 +1,13 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46373;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46373, 'ace46373-spectraltachi', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (46373, 'ace46373-spectraltachi', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46373,   1,          1) /* ItemType - MeleeWeapon */
      , (46373,   3,         39) /* PaletteTemplate - Black */
      , (46373,   5,        150) /* EncumbranceVal */
      , (46373,   9,    2097152) /* ValidLocations - Shield */
-     , (46373,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (46373,  16,          1) /* ItemUseable - No */
      , (46373,  19,        340) /* Value */
      , (46373,  33,         -2) /* Bonded - Destroy */

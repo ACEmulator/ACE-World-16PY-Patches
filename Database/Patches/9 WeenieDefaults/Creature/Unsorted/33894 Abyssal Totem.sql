@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33894;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33894, 'ace33894-abyssaltotem', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (33894, 'ace33894-abyssaltotem', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33894,   1,         16) /* ItemType - Creature */
@@ -17,6 +17,7 @@ VALUES (33894,   1, True ) /* Stuck */
      , (33894,  19, True ) /* Attackable */
      , (33894,  29, True ) /* NoCorpse */
      , (33894,  52, True ) /* AiImmobile */
+     , (33894,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (33894,  83, True ) /* NpcLooksLikeObject */
      , (33894, 103, True ) /* NonProjectileMagicImmune */
      , (33894, 118, True ) /* NeverAttack */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31392;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (31392, 'ace31392-ravenhandaegis', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (31392, 'ace31392-ravenhandaegis', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31392,   1,          2) /* ItemType - Armor */
@@ -16,7 +16,6 @@ VALUES (31392,   1,          2) /* ItemType - Armor */
      , (31392,  36,       9999) /* ResistMagic */
      , (31392,  37,       9999) /* ResistItemAppraisal */
      , (31392,  51,          4) /* CombatUse - Shield */
-     , (31392,  52,          3) /* ParentLocation - Shield */
      , (31392,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31392, 151,          2) /* HookType - Wall */
      , (31392, 179,  536870912) /* ImbuedEffect - IgnoreSomeMagicProjectileDamage */;

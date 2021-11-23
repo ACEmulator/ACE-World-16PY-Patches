@@ -1,14 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49120;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (49120, 'ace49120-moar', 71, '2021-11-01 00:00:00') /* CombatPet */;
+VALUES (49120, 'ace49120-moar', 71, '2021-11-17 16:56:08') /* CombatPet */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49120,   1,         16) /* ItemType - Creature */
      , (49120,   2,         86) /* CreatureType - Moar */
      , (49120,   3,         29) /* PaletteTemplate - DarkRedMetal */
-     , (49120,   6,        255) /* ItemsCapacity */
-     , (49120,   7,        255) /* ContainersCapacity */
+     , (49120,   6,         -1) /* ItemsCapacity */
+     , (49120,   7,         -1) /* ContainersCapacity */
      , (49120,  16,          1) /* ItemUseable - No */
      , (49120,  25,        180) /* Level */
      , (49120,  68,         64) /* TargetingTactic - Nearest */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 72470;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (72470, 'ace72470-hoshinofortsurfacegen', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (72470, 'ace72470-hoshinofortsurfacegen', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72470,  81,          8) /* MaxGeneratedObjects */
@@ -9,8 +9,7 @@ VALUES (72470,  81,          8) /* MaxGeneratedObjects */
      , (72470,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (72470, 103,          2) /* GeneratorDestructionType - Destroy */
      , (72470, 145,          2) /* GeneratorEndDestructionType - Destroy */
-     , (72470, 267,        180) /* Lifespan */
-     , (72470, 268,        180) /* RemainingLifespan */;
+     , (72470, 267,        180) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72470,   1, True ) /* Stuck */

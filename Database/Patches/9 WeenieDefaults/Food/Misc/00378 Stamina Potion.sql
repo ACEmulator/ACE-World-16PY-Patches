@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 378;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (378, 'staminapotion', 18, '2021-11-01 00:00:00') /* Food */;
+VALUES (378, 'staminapotion', 18, '2021-11-17 16:56:08') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (378,   1,        128) /* ItemType - Misc */
@@ -15,7 +15,6 @@ VALUES (378,   1,        128) /* ItemType - Misc */
      , (378,  15,         75) /* StackUnitValue */
      , (378,  16,          8) /* ItemUseable - Contained */
      , (378,  19,         75) /* Value */
-     , (378,  53,        101) /* PlacementPosition - Resting */
      , (378,  89,          4) /* BoosterEnum - Stamina */
      , (378,  90,         25) /* BoostValue */
      , (378,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

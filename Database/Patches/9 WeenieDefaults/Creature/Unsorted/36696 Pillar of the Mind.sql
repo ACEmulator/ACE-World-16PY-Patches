@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36696;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (36696, 'ace36696-pillarofthemind', 10, '2021-11-01 00:00:00') /* Creature */;
+VALUES (36696, 'ace36696-pillarofthemind', 10, '2021-11-17 16:56:08') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36696,   1,         16) /* ItemType - Creature */
@@ -15,6 +15,8 @@ VALUES (36696,   1,         16) /* ItemType - Creature */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36696,   1, True ) /* Stuck */
      , (36696,  19, False) /* Attackable */
+     , (36696,  52, True ) /* AiImmobile */
+     , (36696,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (36696,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

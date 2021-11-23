@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30155;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30155, 'gemrareeternalloyalty', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (30155, 'gemrareeternalloyalty', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30155,   1,       2048) /* ItemType - Gem */
@@ -50,6 +50,3 @@ VALUES (30155,   1, 0x020009A7) /* Setup */
      , (30155,  28,       4548) /* Spell - Incantation of Fealty Self */
      , (30155,  50, 0x06005B4D) /* IconOverlay */
      , (30155,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30155,  4548,      2)  /* Incantation of Fealty Self */;

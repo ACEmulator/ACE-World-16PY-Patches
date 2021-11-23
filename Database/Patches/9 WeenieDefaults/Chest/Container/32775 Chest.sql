@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32775;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32775, 'ace32775-chest', 20, '2021-11-01 00:00:00') /* Chest */;
+VALUES (32775, 'ace32775-chest', 20, '2021-11-17 16:56:08') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32775,   1,        512) /* ItemType - Container */
@@ -16,7 +16,7 @@ VALUES (32775,   1,        512) /* ItemType - Container */
      , (32775,  81,          1) /* MaxGeneratedObjects */
      , (32775,  82,          1) /* InitGeneratedObjects */
      , (32775,  83,          2) /* ActivationResponse - Use */
-     , (32775,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */
+     , (32775,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
      , (32775, 100,          1) /* GeneratorType - Relative */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

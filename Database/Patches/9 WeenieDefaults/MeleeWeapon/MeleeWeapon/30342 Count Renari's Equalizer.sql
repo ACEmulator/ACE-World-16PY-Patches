@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30342;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30342, 'axerarecountrenarisequalizer', 6, '2021-11-01 00:00:00') /* MeleeWeapon */;
+VALUES (30342, 'axerarecountrenarisequalizer', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30342,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,6 @@ VALUES (30342,   1,          1) /* ItemType - MeleeWeapon */
      , (30342,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (30342,  49,         65) /* WeaponTime */
      , (30342,  51,          1) /* CombatUse - Melee */
-     , (30342,  52,          1) /* ParentLocation - RightHand */
      , (30342,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30342, 106,        350) /* ItemSpellcraft */
      , (30342, 107,       2700) /* ItemCurMana */

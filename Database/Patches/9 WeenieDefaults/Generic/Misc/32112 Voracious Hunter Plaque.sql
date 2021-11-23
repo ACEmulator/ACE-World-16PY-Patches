@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32112;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (32112, 'ace32112-voracioushunterplaque', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (32112, 'ace32112-voracioushunterplaque', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32112,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (32112,   1,        128) /* ItemType - Misc */
      , (32112,  16,          1) /* ItemUseable - No */
      , (32112,  19,          0) /* Value */
      , (32112,  33,          1) /* Bonded - Bonded */
-     , (32112,  53,        101) /* PlacementPosition - Resting */
      , (32112,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32112, 114,          1) /* Attuned - Attuned */
      , (32112, 150,        103) /* HookPlacement - Hook */

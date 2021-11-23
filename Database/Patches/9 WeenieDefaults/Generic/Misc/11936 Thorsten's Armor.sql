@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11936;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11936, 'decorationthorstenarmor_xp', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (11936, 'decorationthorstenarmor_xp', 1, '2021-11-17 16:56:08') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11936,   1,        128) /* ItemType - Misc */
@@ -10,7 +10,6 @@ VALUES (11936,   1,        128) /* ItemType - Misc */
      , (11936,   9,          0) /* ValidLocations - None */
      , (11936,  16,          1) /* ItemUseable - No */
      , (11936,  19,      15000) /* Value */
-     , (11936,  53,        101) /* PlacementPosition - Resting */
      , (11936,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11936, 150,        103) /* HookPlacement - Hook */
      , (11936, 151,          9) /* HookType - Floor, Yard */;

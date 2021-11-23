@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45362;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45362, 'ace45362-hieroglyphofdualwieldmastery', 38, '2021-11-01 00:00:00') /* Gem */;
+VALUES (45362, 'ace45362-hieroglyphofdualwieldmastery', 38, '2021-11-17 16:56:08') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45362,   1,       2048) /* ItemType - Gem */
@@ -49,6 +49,3 @@ VALUES (45362,   1, 0x020009A7) /* Setup */
      , (45362,  28,       5810) /* Spell - Incantation of Dual Wield Mastery Self */
      , (45362,  50, 0x06007115) /* IconOverlay */
      , (45362,  52, 0x06005B0C) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45362,  5810,      2)  /* Incantation of Dual Wield Mastery Self */;
