@@ -7,7 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72679,   8,         25) /* Mass */
      , (72679,   9,          0) /* ValidLocations - None */
      , (72679,  66,          0) /* CheckpointStatus */
-     , (72679,  93,    7273528) /* PhysicsState - ReportCollisions, Missile, AlignPath, PathClipped, LightingOn, ScriptedCollision, Inelastic */;
+     , (72679,  93,     134164) /* PhysicsState - ReportCollisions, Missile, AlignPath, PathClipped, LightingOn, ScriptedCollision, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72679,   1, True ) /* Stuck */
@@ -20,7 +20,8 @@ VALUES (72679,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72679,  26,      15) /* MaximumVelocity */
      , (72679,  78,       1) /* Friction */
-     , (72679,  79,       0) /* Elasticity */;
+     , (72679,  79,       0) /* Elasticity */
+     , (72679,  27,       1) /* RotationSpeed */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72679,   1, 'Cow') /* Name */;
