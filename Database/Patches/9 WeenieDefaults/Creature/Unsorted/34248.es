@@ -34,7 +34,7 @@ Use:
 								QuestSuccess:
 									- DirectBroadcast: You look closely at this liver, and realize that it is too late! The plague has spread too far, and you have condemned a portion of the carenzi population to horrible, slow, painful deaths.
 								QuestFailure:
-									- DirectBroadcast: As you examine this liver more closely, you are convinced that the local population of Carenzi has fallen ill. They are going to die no matter what, but the damage can be mitigated to the rest of the carenzi population if you were to kill the ill ones in the area within two hours. Culling 4 additional Carenzi with diseased livers should solve the problem.
+									- DirectBroadcast: As you examine this liver more closely, you are convinced that the local population of Carenzi has fallen ill. They are going to die no matter what, but the damage can be mitigated to the rest of the carenzi population if you were to kill the ill ones in the area within two hours. Culling 19 additional Carenzi with diseased livers should solve the problem.
 									- IncrementQuest: DiseasedMangyLiver_Counter, 1
 									- StampQuest: CarenziPlagueStarted
 									- DeleteSelf
