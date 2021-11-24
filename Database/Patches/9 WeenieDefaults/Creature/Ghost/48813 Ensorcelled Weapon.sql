@@ -36,7 +36,6 @@ VALUES (48813,  13,       1) /* ArmorModVsSlash */
      , (48813,  17,       1) /* ArmorModVsFire */
      , (48813,  18,    0.67) /* ArmorModVsAcid */
      , (48813,  19,       1) /* ArmorModVsElectric */
-     , (48813,  27,    5.01) /* RotationSpeed */
      , (48813,  31,      22) /* VisualAwarenessRange */
      , (48813,  34,       1) /* PowerupTime */
      , (48813,  36,       1) /* ChargeSpeed */

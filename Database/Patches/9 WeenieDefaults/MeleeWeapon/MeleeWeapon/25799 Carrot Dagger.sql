@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25799;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (25799, 'daggercarrot', 6, '2021-11-17 16:56:08') /* MeleeWeapon */;
+VALUES (25799, 'daggercarrot', 6, '2021-11-19 10:49:00') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25799,   1,          1) /* ItemType - MeleeWeapon */
@@ -11,7 +11,7 @@ VALUES (25799,   1,          1) /* ItemType - MeleeWeapon */
      , (25799,  16,          1) /* ItemUseable - No */
      , (25799,  18,        128) /* UiEffects - Frost */
      , (25799,  19,        300) /* Value */
-     , (25799,  44,         12) /* Damage */
+     , (25799,  44,         31) /* Damage */
      , (25799,  45,          8) /* DamageType - Cold */
      , (25799,  46,          2) /* DefaultCombatStyle - OneHanded */
      , (25799,  47,          6) /* AttackType - Thrust, Slash */

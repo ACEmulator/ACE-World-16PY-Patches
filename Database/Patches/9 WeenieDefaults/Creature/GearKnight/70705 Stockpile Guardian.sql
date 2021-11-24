@@ -29,7 +29,6 @@ VALUES (70705,  13,       1) /* ArmorModVsSlash */
      , (70705,  17,     1.5) /* ArmorModVsFire */
      , (70705,  18,     0.5) /* ArmorModVsAcid */
      , (70705,  19,    0.75) /* ArmorModVsElectric */
-     , (70705,  27,    5.01) /* RotationSpeed */
      , (70705,  31,      33) /* VisualAwarenessRange */
      , (70705,  34,       1) /* PowerupTime */
      , (70705,  36,       1) /* ChargeSpeed */

@@ -1,10 +1,11 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33824;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (33824, 'ace33824-shieldoftruth', 1, '2021-11-01 00:00:00') /* Generic */;
+VALUES (33824, 'ace33824-shieldoftruth', 1, '2021-11-19 11:04:11') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33824,   1,          2) /* ItemType - Armor */
+     , (33824,   3,          8) /* PaletteTemplate - Green */
      , (33824,   5,        600) /* EncumbranceVal */
      , (33824,   9,    2097152) /* ValidLocations - Shield */
      , (33824,  16,          1) /* ItemUseable - No */
@@ -46,6 +47,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33824,   1, 0x02000162) /* Setup */
      , (33824,   3, 0x20000014) /* SoundTable */
      , (33824,   6, 0x04000BEF) /* PaletteBase */
+     , (33824,   7, 0x1000015F) /* ClothingBase */
      , (33824,   8, 0x06001426) /* Icon */
      , (33824,  22, 0x3400002B) /* PhysicsEffectTable */;
 
