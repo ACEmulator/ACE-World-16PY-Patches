@@ -136,7 +136,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7008B034, 0x7008B052, '2021-11-03 10:00:00') /* Door (2180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B035,  2180, 0x008B0151, 50, -185.25, 0, 1, 0, 0, 0, False, '2021-11-07 08:12:46'); /* Door */
+VALUES (0x7008B035,  2180, 0x008B0151, 50, -185.25, 0, 1, 0, 0, 0, True, '2021-11-07 08:12:46'); /* Door */
 /* @teleloc 0x008B0151 [50.000000 -185.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
