@@ -1,556 +1,556 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x0051;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051000, 34603, 0x005106BC, 41.1065, -41.3331, -0.063, 0.382683, 0, 0, -0.92388, False, '2021-11-18 13:36:28'); /* Portal Summoning Site */
+VALUES (0x70051000, 34603, 0x005106BC, 41.1065, -41.3331, -0.063, 0.382683, 0, 0, -0.92388, False, '2021-11-29 06:19:28'); /* Portal Summoning Site */
 /* @teleloc 0x005106BC [41.106499 -41.333099 -0.063000] 0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051001, 87767, 0x00510638, 59.8957, -54.9767, -5.945, 0.00974, 0, 0, 0.999953, False, '2021-11-19 16:45:04'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051001, 87767, 0x00510638, 59.8957, -54.9767, -5.945, 0.00974, 0, 0, 0.999953, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510638 [59.895699 -54.976700 -5.945000] 0.009740 0.000000 0.000000 0.999953 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051002, 87767, 0x00510461, 19.9033, -27.5262, -17.945, -0.000375, 0, 0, -1, False, '2021-11-19 16:45:32'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051002, 87767, 0x00510461, 19.9033, -27.5262, -17.945, -0.000375, 0, 0, -1, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510461 [19.903299 -27.526199 -17.945000] -0.000375 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051003, 87767, 0x0051046E, 40.1355, -0.107022, -17.945, -0.005149, 0, 0, 0.999987, False, '2021-11-19 16:45:45'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051003, 87767, 0x0051046E, 40.1355, -0.107022, -17.945, -0.005149, 0, 0, 0.999987, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x0051046E [40.135502 -0.107022 -17.945000] -0.005149 0.000000 0.000000 0.999987 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051004, 87767, 0x00510492, 40.1607, -39.8149, -17.945, 0.999944, 0, 0, 0.010561, False, '2021-11-19 16:45:55'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051004, 87767, 0x00510492, 40.1607, -39.8149, -17.945, 0.999944, 0, 0, 0.010561, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510492 [40.160702 -39.814899 -17.945000] 0.999944 0.000000 0.000000 0.010561 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051005, 87767, 0x0051049B, 50.0602, -0.497022, -17.945, -0.021045, 0, 0, -0.999779, False, '2021-11-19 16:46:03'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051005, 87767, 0x0051049B, 50.0602, -0.497022, -17.945, -0.021045, 0, 0, -0.999779, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x0051049B [50.060200 -0.497022 -17.945000] -0.021045 0.000000 0.000000 -0.999779 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051006, 87767, 0x005104BF, 50.2309, -38.9312, -17.945, -0.999919, 0, 0, 0.01275, False, '2021-11-19 16:46:10'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051006, 87767, 0x005104BF, 50.2309, -38.9312, -17.945, -0.999919, 0, 0, 0.01275, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005104BF [50.230900 -38.931198 -17.945000] -0.999919 0.000000 0.000000 0.012750 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051007, 87767, 0x005104C2, 59.8067, -0.790371, -17.945, -0.006626, 0, 0, 0.999978, False, '2021-11-19 16:46:20'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051007, 87767, 0x005104C2, 59.8067, -0.790371, -17.945, -0.006626, 0, 0, 0.999978, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005104C2 [59.806702 -0.790371 -17.945000] -0.006626 0.000000 0.000000 0.999978 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051008, 87767, 0x005104E6, 60.0517, -39.0379, -17.945, 1, 0, 0, -0.000461, False, '2021-11-19 16:46:26'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051008, 87767, 0x005104E6, 60.0517, -39.0379, -17.945, 1, 0, 0, -0.000461, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005104E6 [60.051701 -39.037899 -17.945000] 1.000000 0.000000 0.000000 -0.000461 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051009, 87767, 0x005104EF, 70.038, -0.665724, -17.945, 0.00737, 0, 0, -0.999973, False, '2021-11-19 16:46:34'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051009, 87767, 0x005104EF, 70.038, -0.665724, -17.945, 0.00737, 0, 0, -0.999973, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005104EF [70.038002 -0.665724 -17.945000] 0.007370 0.000000 0.000000 -0.999973 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005100A, 87767, 0x00510513, 70.0067, -39.6369, -17.945, -0.999325, 0, 0, 0.036725, False, '2021-11-19 16:46:41'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005100A, 87767, 0x00510513, 70.0067, -39.6369, -17.945, -0.999325, 0, 0, 0.036725, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510513 [70.006699 -39.636902 -17.945000] -0.999325 0.000000 0.000000 0.036725 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005100B, 87767, 0x0051051D, 89.5059, -19.9561, -17.945, -0.711177, 0, 0, -0.703013, False, '2021-11-19 16:46:48'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005100B, 87767, 0x0051051D, 89.5059, -19.9561, -17.945, -0.711177, 0, 0, -0.703013, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x0051051D [89.505898 -19.956100 -17.945000] -0.711177 0.000000 0.000000 -0.703013 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005100C, 87767, 0x00510497, 39.9588, -110.607, -17.945, -0.999998, 0, 0, -0.002226, False, '2021-11-19 16:47:15'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005100C, 87767, 0x00510497, 39.9588, -110.607, -17.945, -0.999998, 0, 0, -0.002226, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510497 [39.958801 -110.607002 -17.945000] -0.999998 0.000000 0.000000 -0.002226 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005100D, 87768, 0x00510640, 59.983, -129.01, -5.945, -0.054732, 0, 0, 0.998501, False, '2021-11-19 16:47:30'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x7005100D, 87768, 0x00510640, 59.983, -129.01, -5.945, -0.054732, 0, 0, 0.998501, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x00510640 [59.983002 -129.009995 -5.945000] -0.054732 0.000000 0.000000 0.998501 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005100E, 87768, 0x005105A9, 96.74, -120.21, -11.945, -0.710833, 0, 0, -0.703361, False, '2021-11-19 16:47:43'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x7005100E, 87768, 0x005105A9, 96.74, -120.21, -11.945, -0.710833, 0, 0, -0.703361, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x005105A9 [96.739998 -120.209999 -11.945000] -0.710833 0.000000 0.000000 -0.703361 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005100F, 87767, 0x00510440, 128.499, -160.09, -23.945, -0.7142, 0, 0, -0.699942, False, '2021-11-19 16:47:55'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005100F, 87767, 0x00510440, 128.499, -160.09, -23.945, -0.7142, 0, 0, -0.699942, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510440 [128.498993 -160.089996 -23.945000] -0.714200 0.000000 0.000000 -0.699942 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051010, 87767, 0x005103A1, 91.3415, -160.13, -23.945, 0.709404, 0, 0, -0.704803, False, '2021-11-19 16:48:00'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051010, 87767, 0x005103A1, 91.3415, -160.13, -23.945, 0.709404, 0, 0, -0.704803, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005103A1 [91.341499 -160.130005 -23.945000] 0.709404 0.000000 0.000000 -0.704803 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051011, 87767, 0x00510443, 129.843, -169.938, -23.945, -0.692672, 0, 0, -0.721253, False, '2021-11-19 16:48:09'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051011, 87767, 0x00510443, 129.843, -169.938, -23.945, -0.692672, 0, 0, -0.721253, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510443 [129.843002 -169.938004 -23.945000] -0.692672 0.000000 0.000000 -0.721253 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051012, 87767, 0x005103A4, 90.5479, -170.118, -23.945, -0.708906, 0, 0, 0.705303, False, '2021-11-19 16:48:16'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051012, 87767, 0x005103A4, 90.5479, -170.118, -23.945, -0.708906, 0, 0, 0.705303, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005103A4 [90.547897 -170.117996 -23.945000] -0.708906 0.000000 0.000000 0.705303 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051013, 87767, 0x00510446, 129.294, -180.2, -23.945, 0.740424, 0, 0, 0.67214, False, '2021-11-19 16:48:22'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051013, 87767, 0x00510446, 129.294, -180.2, -23.945, 0.740424, 0, 0, 0.67214, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510446 [129.294006 -180.199997 -23.945000] 0.740424 0.000000 0.000000 0.672140 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051014, 87767, 0x005103A7, 90.8951, -179.935, -23.945, -0.723657, 0, 0, 0.690159, False, '2021-11-19 16:48:29'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051014, 87767, 0x005103A7, 90.8951, -179.935, -23.945, -0.723657, 0, 0, 0.690159, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005103A7 [90.895103 -179.934998 -23.945000] -0.723657 0.000000 0.000000 0.690159 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051015, 87767, 0x00510449, 130.411, -190.136, -23.945, -0.714882, 0, 0, -0.699246, False, '2021-11-19 16:48:38'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051015, 87767, 0x00510449, 130.411, -190.136, -23.945, -0.714882, 0, 0, -0.699246, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510449 [130.410995 -190.136002 -23.945000] -0.714882 0.000000 0.000000 -0.699246 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051016, 87767, 0x005103AA, 89.6694, -189.848, -23.945, 0.704295, 0, 0, -0.709908, False, '2021-11-19 16:48:45'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051016, 87767, 0x005103AA, 89.6694, -189.848, -23.945, 0.704295, 0, 0, -0.709908, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005103AA [89.669403 -189.848007 -23.945000] 0.704295 0.000000 0.000000 -0.709908 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051017, 87767, 0x0051027F, 99.9682, -180.071, -35.945, -0.016788, 0, 0, 0.999859, False, '2021-11-19 16:48:56'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051017, 87767, 0x0051027F, 99.9682, -180.071, -35.945, -0.016788, 0, 0, 0.999859, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x0051027F [99.968201 -180.070999 -35.945000] -0.016788 0.000000 0.000000 0.999859 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051018, 87767, 0x005102D9, 120.078, -199.326, -35.945, 0.999484, 0, 0, -0.032116, False, '2021-11-19 16:49:03'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051018, 87767, 0x005102D9, 120.078, -199.326, -35.945, 0.999484, 0, 0, -0.032116, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005102D9 [120.078003 -199.326004 -35.945000] 0.999484 0.000000 0.000000 -0.032116 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051019, 87767, 0x005102B5, 119.723, -160.175, -35.945, -0.004594, 0, 0, -0.999989, False, '2021-11-19 16:49:09'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051019, 87767, 0x005102B5, 119.723, -160.175, -35.945, -0.004594, 0, 0, -0.999989, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005102B5 [119.723000 -160.175003 -35.945000] -0.004594 0.000000 0.000000 -0.999989 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005101A, 87767, 0x00510305, 130.001, -199.817, -35.945, 0.999978, 0, 0, -0.006642, False, '2021-11-19 16:49:16'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005101A, 87767, 0x00510305, 130.001, -199.817, -35.945, 0.999978, 0, 0, -0.006642, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510305 [130.001007 -199.817001 -35.945000] 0.999978 0.000000 0.000000 -0.006642 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005101B, 87767, 0x005102E0, 130.336, -160.789, -35.945, 0.014938, 0, 0, 0.999888, False, '2021-11-19 16:49:24'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005101B, 87767, 0x005102E0, 130.336, -160.789, -35.945, 0.014938, 0, 0, 0.999888, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005102E0 [130.335999 -160.789001 -35.945000] 0.014938 0.000000 0.000000 0.999888 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005101C, 87767, 0x0051032C, 139.875, -199.333, -35.945, -0.999286, 0, 0, -0.037797, False, '2021-11-19 16:49:36'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005101C, 87767, 0x0051032C, 139.875, -199.333, -35.945, -0.999286, 0, 0, -0.037797, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x0051032C [139.875000 -199.332993 -35.945000] -0.999286 0.000000 0.000000 -0.037797 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005101D, 87767, 0x00510308, 139.901, -159.615, -35.945, -0.023989, 0, 0, 0.999712, False, '2021-11-19 16:49:43'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005101D, 87767, 0x00510308, 139.901, -159.615, -35.945, -0.023989, 0, 0, 0.999712, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510308 [139.901001 -159.615005 -35.945000] -0.023989 0.000000 0.000000 0.999712 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005101E, 87767, 0x00510354, 149.71, -200.862, -35.945, 0.999047, 0, 0, -0.043659, False, '2021-11-19 16:49:50'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005101E, 87767, 0x00510354, 149.71, -200.862, -35.945, 0.999047, 0, 0, -0.043659, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510354 [149.710007 -200.862000 -35.945000] 0.999047 0.000000 0.000000 -0.043659 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005101F, 87767, 0x00510330, 149.954, -160.79, -35.945, 0.01078, 0, 0, -0.999942, False, '2021-11-19 16:49:58'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005101F, 87767, 0x00510330, 149.954, -160.79, -35.945, 0.01078, 0, 0, -0.999942, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510330 [149.953995 -160.789993 -35.945000] 0.010780 0.000000 0.000000 -0.999942 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051020, 87767, 0x00510374, 160.177, -199.384, -35.945, 0.999295, 0, 0, 0.037556, False, '2021-11-19 16:50:07'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051020, 87767, 0x00510374, 160.177, -199.384, -35.945, 0.999295, 0, 0, 0.037556, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510374 [160.177002 -199.384003 -35.945000] 0.999295 0.000000 0.000000 0.037556 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051021, 87767, 0x00510357, 159.578, -159.032, -35.945, 0.0199, 0, 0, -0.999802, False, '2021-11-19 16:50:13'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051021, 87767, 0x00510357, 159.578, -159.032, -35.945, 0.0199, 0, 0, -0.999802, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510357 [159.578003 -159.031998 -35.945000] 0.019900 0.000000 0.000000 -0.999802 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051022, 87767, 0x00510140, 112.571, -150.076, -47.945, -0.729278, 0, 0, 0.684217, False, '2021-11-19 16:50:28'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051022, 87767, 0x00510140, 112.571, -150.076, -47.945, -0.729278, 0, 0, 0.684217, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510140 [112.570999 -150.076004 -47.945000] -0.729278 0.000000 0.000000 0.684217 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051023,   278, 0x00510356, 150.014, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-22 14:05:19'); /* Door */
+VALUES (0x70051023,   278, 0x00510356, 150.014, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x00510356 [150.014008 -195.250000 -35.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051024,   278, 0x00510307, 130.013, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-22 14:06:34'); /* Door */
+VALUES (0x70051024,   278, 0x00510307, 130.013, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x00510307 [130.013000 -195.250000 -35.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051025,   278, 0x0051024E, 79.9995, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-22 14:08:26'); /* Door */
+VALUES (0x70051025,   278, 0x0051024E, 79.9995, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x0051024E [79.999496 -195.250000 -35.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051026,   278, 0x005102DB, 120.013, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-22 14:09:36'); /* Door */
+VALUES (0x70051026,   278, 0x005102DB, 120.013, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x005102DB [120.013000 -195.250000 -35.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051027,   278, 0x0051030A, 139.987, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-22 14:10:27'); /* Door */
+VALUES (0x70051027,   278, 0x0051030A, 139.987, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x0051030A [139.987000 -164.750000 -35.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051028,   278, 0x00510257, 89.9861, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-22 14:11:47'); /* Door */
+VALUES (0x70051028,   278, 0x00510257, 89.9861, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x00510257 [89.986099 -164.750000 -35.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051029,   278, 0x0051028E, 109.987, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-22 14:13:14'); /* Door */
+VALUES (0x70051029,   278, 0x0051028E, 109.987, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x0051028E [109.987000 -164.750000 -35.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005102A,   278, 0x005105D9, 19.9995, -14.75, -5.945, 0, 0, 0, -1, False, '2021-11-22 14:14:07'); /* Door */
+VALUES (0x7005102A,   278, 0x005105D9, 19.9995, -14.75, -5.945, 0, 0, 0, -1, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x005105D9 [19.999500 -14.750000 -5.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005102B,   278, 0x00510200, 69.9873, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-22 14:15:00'); /* Door */
+VALUES (0x7005102B,   278, 0x00510200, 69.9873, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x00510200 [69.987297 -164.750000 -35.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005102C,   278, 0x00510653, 79.9995, -14.75, -5.945, 0, 0, 0, -1, False, '2021-11-22 14:16:34'); /* Door */
+VALUES (0x7005102C,   278, 0x00510653, 79.9995, -14.75, -5.945, 0, 0, 0, -1, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x00510653 [79.999496 -14.750000 -5.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005102D, 87761, 0x00510154, 125.25, -130, -47.945, -0.707107, 0, 0, -0.707107, False, '2021-11-22 14:17:48'); /* Door */
+VALUES (0x7005102D, 87761, 0x00510154, 125.25, -130, -47.945, -0.707107, 0, 0, -0.707107, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x00510154 [125.250000 -130.000000 -47.945000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7005102D, 0x70051048, '2021-11-03 10:00:00') /* Lever (2609) */;
+VALUES (0x7005102D, 0x70051048, '2021-11-29 06:19:28') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005102E,   278, 0x00510359, 159.987, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-22 14:19:36'); /* Door */
+VALUES (0x7005102E,   278, 0x00510359, 159.987, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x00510359 [159.987000 -164.750000 -35.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005102F, 87761, 0x0051015D, 144.749, -130, -47.945, 0.707107, 0, 0, 0.707107, False, '2021-11-22 14:21:19'); /* Door */
+VALUES (0x7005102F, 87761, 0x0051015D, 144.749, -130, -47.945, 0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x0051015D [144.748993 -130.000000 -47.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7005102F, 0x70051049, '2021-11-03 10:00:00') /* Lever (2609) */;
+VALUES (0x7005102F, 0x70051049, '2021-11-29 06:19:28') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051030,   278, 0x00510332, 149.988, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-22 14:23:39'); /* Door */
+VALUES (0x70051030,   278, 0x00510332, 149.988, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x00510332 [149.988007 -164.750000 -35.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051031,   278, 0x005106BB, 95.2504, -60, -5.945, 0.707107, 0, 0, 0.707107, False, '2021-11-22 14:25:00'); /* Door */
+VALUES (0x70051031,   278, 0x005106BB, 95.2504, -60, -5.945, 0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x005106BB [95.250397 -60.000000 -5.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051032,   278, 0x00510224, 70.0129, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-22 14:25:42'); /* Door */
+VALUES (0x70051032,   278, 0x00510224, 70.0129, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x00510224 [70.012901 -195.250000 -35.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051033,   278, 0x005105AB, 109.999, -114.75, -11.945, 1, 0, 0, 0, False, '2021-11-22 14:26:52'); /* Door */
+VALUES (0x70051033,   278, 0x005105AB, 109.999, -114.75, -11.945, 1, 0, 0, 0, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x005105AB [109.999001 -114.750000 -11.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051034,   278, 0x005102B2, 110.012, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-22 14:28:01'); /* Door */
+VALUES (0x70051034,   278, 0x005102B2, 110.012, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x005102B2 [110.012001 -195.250000 -35.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051035,   278, 0x0051027B, 90.0135, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-22 14:28:25'); /* Door */
+VALUES (0x70051035,   278, 0x0051027B, 90.0135, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x0051027B [90.013496 -195.250000 -35.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051036,   278, 0x0051032E, 140.012, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-22 14:28:50'); /* Door */
+VALUES (0x70051036,   278, 0x0051032E, 140.012, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x0051032E [140.011993 -195.250000 -35.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051037,   278, 0x005102B7, 119.988, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-22 14:29:21'); /* Door */
+VALUES (0x70051037,   278, 0x005102B7, 119.988, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x005102B7 [119.987999 -164.750000 -35.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051038,   278, 0x00510376, 160.013, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-22 14:30:37'); /* Door */
+VALUES (0x70051038,   278, 0x00510376, 160.013, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x00510376 [160.013000 -195.250000 -35.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051039,   278, 0x005102E3, 130, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-22 14:31:17'); /* Door */
+VALUES (0x70051039,   278, 0x005102E3, 130, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x005102E3 [130.000000 -164.750000 -35.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005103A,   278, 0x00510124, 74.7499, -130, -48.0043, 0.707107, 0, 0, -0.707107, False, '2021-11-22 14:32:21'); /* Door */
+VALUES (0x7005103A,   278, 0x00510124, 74.7499, -130, -48.0043, 0.707107, 0, 0, -0.707107, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x00510124 [74.749901 -130.000000 -48.004299] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005103B,   278, 0x005101FD, 60.0135, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-22 14:33:35'); /* Door */
+VALUES (0x7005103B,   278, 0x005101FD, 60.0135, -195.25, -35.945, 1, 0, 0, 0, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x005101FD [60.013500 -195.250000 -35.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005103C,   278, 0x00510229, 79.9867, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-22 14:33:57'); /* Door */
+VALUES (0x7005103C,   278, 0x00510229, 79.9867, -164.75, -35.945, 0, 0, 0, -1, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x00510229 [79.986702 -164.750000 -35.945000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005103D,   278, 0x00510137, 100, -135.25, -47.945, 1, 0, 0, 0, False, '2021-11-22 14:34:33'); /* Door */
+VALUES (0x7005103D,   278, 0x00510137, 100, -135.25, -47.945, 1, 0, 0, 0, False, '2021-11-29 06:19:28'); /* Door */
 /* @teleloc 0x00510137 [100.000000 -135.250000 -47.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005103E, 25572, 0x005106BF, 50.0283, -54.5879, 0, -0.016703, 0, 0, 0.999861, False, '2021-11-22 14:37:22'); /* Dispel All Trap */
+VALUES (0x7005103E, 25572, 0x005106BF, 50.0283, -54.5879, 0, -0.016703, 0, 0, 0.999861, False, '2021-11-29 06:19:28'); /* Dispel All Trap */
 /* @teleloc 0x005106BF [50.028301 -54.587898 0.000000] -0.016703 0.000000 0.000000 0.999861 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005103F, 25572, 0x005103CA, 109.993, -152.675, -24, -0.008122, 0, 0, -0.999967, False, '2021-11-22 14:40:13'); /* Dispel All Trap */
+VALUES (0x7005103F, 25572, 0x005103CA, 109.993, -152.675, -24, -0.008122, 0, 0, -0.999967, False, '2021-11-29 06:19:28'); /* Dispel All Trap */
 /* @teleloc 0x005103CA [109.992996 -152.675003 -24.000000] -0.008122 0.000000 0.000000 -0.999967 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051040, 15759, 0x0051039B, 162.736, -66.2724, -29.945, -0.999999, 0, 0, 0.001289, False, '2021-11-22 14:48:49'); /* Linkable Item Generator */
+VALUES (0x70051040, 15759, 0x0051039B, 162.736, -66.2724, -29.945, -0.999999, 0, 0, 0.001289, False, '2021-11-29 06:19:28'); /* Linkable Item Generator */
 /* @teleloc 0x0051039B [162.735992 -66.272400 -29.945000] -0.999999 0.000000 0.000000 0.001289 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70051040, 0x70051041, '2021-11-22 14:49:07') /* Shard of the Eastern Pedestal (87756) */
-     , (0x70051040, 0x70051042, '2021-11-22 14:49:10') /* Shard of the Eastern Pedestal (87756) */
-     , (0x70051040, 0x70051043, '2021-11-22 14:49:12') /* Shard of the Eastern Pedestal (87756) */
-     , (0x70051040, 0x70051044, '2021-11-22 14:49:14') /* Shard of the Eastern Pedestal (87756) */
-     , (0x70051040, 0x70051045, '2021-11-22 14:49:16') /* Shard of the Eastern Pedestal (87756) */
-     , (0x70051040, 0x70051046, '2021-11-22 14:49:21') /* Shard of the Eastern Pedestal (87756) */
-     , (0x70051040, 0x70051047, '2021-11-22 14:49:26') /* Shard of the Eastern Pedestal (87756) */;
+VALUES (0x70051040, 0x70051041, '2021-11-29 06:19:28') /* Shard of the Eastern Pedestal (87756) */
+     , (0x70051040, 0x70051042, '2021-11-29 06:19:28') /* Shard of the Eastern Pedestal (87756) */
+     , (0x70051040, 0x70051043, '2021-11-29 06:19:28') /* Shard of the Eastern Pedestal (87756) */
+     , (0x70051040, 0x70051044, '2021-11-29 06:19:28') /* Shard of the Eastern Pedestal (87756) */
+     , (0x70051040, 0x70051045, '2021-11-29 06:19:28') /* Shard of the Eastern Pedestal (87756) */
+     , (0x70051040, 0x70051046, '2021-11-29 06:19:28') /* Shard of the Eastern Pedestal (87756) */
+     , (0x70051040, 0x70051047, '2021-11-29 06:19:28') /* Shard of the Eastern Pedestal (87756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051041, 87756, 0x0051039B, 157.398, -71.507, -30, -0.211817, 0, 0, -0.977309,  True, '2021-11-22 14:49:07'); /* Shard of the Eastern Pedestal */
+VALUES (0x70051041, 87756, 0x0051039B, 157.398, -71.507, -30, -0.211817, 0, 0, -0.977309,  True, '2021-11-29 06:19:28'); /* Shard of the Eastern Pedestal */
 /* @teleloc 0x0051039B [157.397995 -71.507004 -30.000000] -0.211817 0.000000 0.000000 -0.977309 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051042, 87756, 0x00510398, 149.512, -77.0966, -30, -0.709923, 0, 0, -0.704279,  True, '2021-11-22 14:49:10'); /* Shard of the Eastern Pedestal */
+VALUES (0x70051042, 87756, 0x00510398, 149.512, -77.0966, -30, -0.709923, 0, 0, -0.704279,  True, '2021-11-29 06:19:28'); /* Shard of the Eastern Pedestal */
 /* @teleloc 0x00510398 [149.511993 -77.096603 -30.000000] -0.709923 0.000000 0.000000 -0.704279 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051043, 87756, 0x00510394, 137.872, -74.4063, -30, -0.920999, 0, 0, -0.389566,  True, '2021-11-22 14:49:12'); /* Shard of the Eastern Pedestal */
+VALUES (0x70051043, 87756, 0x00510394, 137.872, -74.4063, -30, -0.920999, 0, 0, -0.389566,  True, '2021-11-29 06:19:28'); /* Shard of the Eastern Pedestal */
 /* @teleloc 0x00510394 [137.871994 -74.406303 -30.000000] -0.920999 0.000000 0.000000 -0.389566 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051044, 87756, 0x00510391, 128.584, -68.929, -30, -0.749672, 0, 0, -0.66181,  True, '2021-11-22 14:49:14'); /* Shard of the Eastern Pedestal */
+VALUES (0x70051044, 87756, 0x00510391, 128.584, -68.929, -30, -0.749672, 0, 0, -0.66181,  True, '2021-11-29 06:19:28'); /* Shard of the Eastern Pedestal */
 /* @teleloc 0x00510391 [128.584000 -68.929001 -30.000000] -0.749672 0.000000 0.000000 -0.661810 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051045, 87756, 0x00510392, 129.159, -76.6446, -30, 0.02839, 0, 0, -0.999597,  True, '2021-11-22 14:49:16'); /* Shard of the Eastern Pedestal */
+VALUES (0x70051045, 87756, 0x00510392, 129.159, -76.6446, -30, 0.02839, 0, 0, -0.999597,  True, '2021-11-29 06:19:28'); /* Shard of the Eastern Pedestal */
 /* @teleloc 0x00510392 [129.158997 -76.644600 -30.000000] 0.028390 0.000000 0.000000 -0.999597 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051046, 87756, 0x00510397, 150.945, -67.078, -30, 0.692283, 0, 0, 0.721626,  True, '2021-11-22 14:49:21'); /* Shard of the Eastern Pedestal */
+VALUES (0x70051046, 87756, 0x00510397, 150.945, -67.078, -30, 0.692283, 0, 0, 0.721626,  True, '2021-11-29 06:19:28'); /* Shard of the Eastern Pedestal */
 /* @teleloc 0x00510397 [150.945007 -67.078003 -30.000000] 0.692283 0.000000 0.000000 0.721626 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051047, 87756, 0x0051039C, 163.93, -81.5001, -30, -0.205983, 0, 0, 0.978556,  True, '2021-11-22 14:49:26'); /* Shard of the Eastern Pedestal */
+VALUES (0x70051047, 87756, 0x0051039C, 163.93, -81.5001, -30, -0.205983, 0, 0, 0.978556,  True, '2021-11-29 06:19:28'); /* Shard of the Eastern Pedestal */
 /* @teleloc 0x0051039C [163.929993 -81.500099 -30.000000] -0.205983 0.000000 0.000000 0.978556 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051048,  2609, 0x0051012B, 90.0569, -90.0631, -47.945, 1, 0, 0, 0,  True, '2021-11-22 15:58:59'); /* Lever */
+VALUES (0x70051048,  2609, 0x0051012B, 90.0569, -90.0631, -47.945, 1, 0, 0, 0,  True, '2021-11-29 06:19:28'); /* Lever */
 /* @teleloc 0x0051012B [90.056900 -90.063103 -47.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051049,  2609, 0x0051013B, 109.999, -90.0727, -47.945, 1, 0, 0, 0,  True, '2021-11-22 16:00:13'); /* Lever */
+VALUES (0x70051049,  2609, 0x0051013B, 109.999, -90.0727, -47.945, 1, 0, 0, 0,  True, '2021-11-29 06:19:28'); /* Lever */
 /* @teleloc 0x0051013B [109.999001 -90.072701 -47.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005104A, 87762, 0x0051012B, 90.0569, -90.0631, -47.89, -1, 0, 0, 0, False, '2021-11-22 17:07:06'); /* Cold Air */
+VALUES (0x7005104A, 87762, 0x0051012B, 90.0569, -90.0631, -47.89, -1, 0, 0, 0, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x0051012B [90.056900 -90.063103 -47.889999] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005104B, 87762, 0x0051013B, 109.999, -90.0727, -47.89, 1, 0, 0, 0, False, '2021-11-22 17:08:06'); /* Cold Air */
+VALUES (0x7005104B, 87762, 0x0051013B, 109.999, -90.0727, -47.89, 1, 0, 0, 0, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x0051013B [109.999001 -90.072701 -47.889999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005104C, 87762, 0x00510107, 100.049, -90.4422, -59.945, -0.707107, 0, 0, -0.707107, False, '2021-11-22 17:08:25'); /* Cold Air */
+VALUES (0x7005104C, 87762, 0x00510107, 100.049, -90.4422, -59.945, -0.707107, 0, 0, -0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x00510107 [100.049004 -90.442200 -59.945000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005104D, 87762, 0x00510108, 100.112, -100.284, -59.945, -0.707107, 0, 0, -0.707107, False, '2021-11-22 17:08:32'); /* Cold Air */
+VALUES (0x7005104D, 87762, 0x00510108, 100.112, -100.284, -59.945, -0.707107, 0, 0, -0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x00510108 [100.112000 -100.283997 -59.945000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005104E, 87762, 0x0051010E, 111.219, -100.563, -59.945, -0.707107, 0, 0, 0.707107, False, '2021-11-22 17:08:39'); /* Cold Air */
+VALUES (0x7005104E, 87762, 0x0051010E, 111.219, -100.563, -59.945, -0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x0051010E [111.219002 -100.563004 -59.945000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005104F, 87762, 0x00510110, 120.086, -90.3814, -59.945, -0.707107, 0, 0, 0.707107, False, '2021-11-22 17:08:47'); /* Cold Air */
+VALUES (0x7005104F, 87762, 0x00510110, 120.086, -90.3814, -59.945, -0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x00510110 [120.085999 -90.381401 -59.945000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051050, 87762, 0x00510111, 122.896, -100.115, -59.945, -0.707107, 0, 0, -0.707107, False, '2021-11-22 17:08:55'); /* Cold Air */
+VALUES (0x70051050, 87762, 0x00510111, 122.896, -100.115, -59.945, -0.707107, 0, 0, -0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x00510111 [122.896004 -100.114998 -59.945000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051051, 87762, 0x00510104, 89.6248, -99.6312, -59.945, -0.707107, 0, 0, -0.707107, False, '2021-11-22 17:08:59'); /* Cold Air */
+VALUES (0x70051051, 87762, 0x00510104, 89.6248, -99.6312, -59.945, -0.707107, 0, 0, -0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x00510104 [89.624802 -99.631203 -59.945000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051052, 87762, 0x00510100, 80.6294, -87.6679, -59.945, -0.707107, 0, 0, 0.707107, False, '2021-11-22 17:09:02'); /* Cold Air */
+VALUES (0x70051052, 87762, 0x00510100, 80.6294, -87.6679, -59.945, -0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x00510100 [80.629402 -87.667900 -59.945000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051053, 87762, 0x00510101, 79.0867, -99.8289, -59.945, -0.707107, 0, 0, 0.707107, False, '2021-11-22 17:09:07'); /* Cold Air */
+VALUES (0x70051053, 87762, 0x00510101, 79.0867, -99.8289, -59.945, -0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x00510101 [79.086700 -99.828903 -59.945000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051054, 87762, 0x00510112, 120.155, -120.195, -59.945, 0.707107, 0, 0, 0.707107, False, '2021-11-22 17:13:52'); /* Cold Air */
+VALUES (0x70051054, 87762, 0x00510112, 120.155, -120.195, -59.945, 0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x00510112 [120.154999 -120.195000 -59.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051055, 87762, 0x0051010F, 108.403, -119.652, -59.945, 0.707107, 0, 0, 0.707107, False, '2021-11-22 17:13:54'); /* Cold Air */
+VALUES (0x70051055, 87762, 0x0051010F, 108.403, -119.652, -59.945, 0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x0051010F [108.403000 -119.652000 -59.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051056, 87762, 0x0051010A, 96.5271, -120.141, -59.945, 0.707107, 0, 0, 0.707107, False, '2021-11-22 17:13:55'); /* Cold Air */
+VALUES (0x70051056, 87762, 0x0051010A, 96.5271, -120.141, -59.945, 0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x0051010A [96.527100 -120.140999 -59.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051057, 87762, 0x00510102, 80.8893, -119.753, -59.945, 0.707107, 0, 0, 0.707107, False, '2021-11-22 17:13:59'); /* Cold Air */
+VALUES (0x70051057, 87762, 0x00510102, 80.8893, -119.753, -59.945, 0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x00510102 [80.889297 -119.752998 -59.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051058, 87762, 0x0051014C, 116.509, -130.234, -47.945, -0.707107, 0, 0, 0.707107, False, '2021-11-22 17:15:06'); /* Cold Air */
+VALUES (0x70051058, 87762, 0x0051014C, 116.509, -130.234, -47.945, -0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x0051014C [116.509003 -130.233994 -47.945000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051059, 87762, 0x00510136, 104.396, -130.47, -47.945, -0.707107, 0, 0, 0.707107, False, '2021-11-22 17:15:09'); /* Cold Air */
+VALUES (0x70051059, 87762, 0x00510136, 104.396, -130.47, -47.945, -0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x00510136 [104.396004 -130.470001 -47.945000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005105A, 87762, 0x0051012F, 93.0669, -130.7, -47.945, -0.707107, 0, 0, 0.707107, False, '2021-11-22 17:15:11'); /* Cold Air */
+VALUES (0x7005105A, 87762, 0x0051012F, 93.0669, -130.7, -47.945, -0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x0051012F [93.066902 -130.699997 -47.945000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005105B, 87762, 0x0051012A, 81.7776, -130.918, -47.945, -0.707107, 0, 0, 0.707107, False, '2021-11-22 17:15:13'); /* Cold Air */
+VALUES (0x7005105B, 87762, 0x0051012A, 81.7776, -130.918, -47.945, -0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x0051012A [81.777603 -130.917999 -47.945000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005105C, 87762, 0x00510128, 80.0775, -109.743, -47.945, 0.707107, 0, 0, 0.707107, False, '2021-11-22 18:56:38'); /* Cold Air */
+VALUES (0x7005105C, 87762, 0x00510128, 80.0775, -109.743, -47.945, 0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x00510128 [80.077499 -109.742996 -47.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005105D, 87762, 0x0051012D, 93.3549, -110.058, -47.945, 0.707107, 0, 0, 0.707107, False, '2021-11-22 18:56:42'); /* Cold Air */
+VALUES (0x7005105D, 87762, 0x0051012D, 93.3549, -110.058, -47.945, 0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x0051012D [93.354897 -110.057999 -47.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005105E, 87762, 0x0051013D, 105.084, -110.003, -47.945, 0.707107, 0, 0, 0.707107, False, '2021-11-22 18:56:44'); /* Cold Air */
+VALUES (0x7005105E, 87762, 0x0051013D, 105.084, -110.003, -47.945, 0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x0051013D [105.084000 -110.002998 -47.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005105F, 87762, 0x0051014A, 115.705, -110.1, -47.945, 0.707107, 0, 0, 0.707107, False, '2021-11-22 18:56:46'); /* Cold Air */
+VALUES (0x7005105F, 87762, 0x0051014A, 115.705, -110.1, -47.945, 0.707107, 0, 0, 0.707107, False, '2021-11-29 06:19:28'); /* Cold Air */
 /* @teleloc 0x0051014A [115.705002 -110.099998 -47.945000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051060, 87767, 0x005106B9, 99.0212, -59.7113, -5.945, 0.726761, 0, 0, 0.686891, False, '2021-11-23 08:42:35'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051060, 87767, 0x005106B9, 99.0212, -59.7113, -5.945, 0.726761, 0, 0, 0.686891, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005106B9 [99.021202 -59.711300 -5.945000] 0.726761 0.000000 0.000000 0.686891 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051061, 87767, 0x005106B6, 98.2591, -49.9598, -5.945, 0.736907, 0, 0, 0.675994, False, '2021-11-23 08:42:46'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051061, 87767, 0x005106B6, 98.2591, -49.9598, -5.945, 0.736907, 0, 0, 0.675994, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005106B6 [98.259102 -49.959801 -5.945000] 0.736907 0.000000 0.000000 0.675994 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051062, 87767, 0x005106B3, 98.6182, -39.5816, -5.945, 0.722438, 0, 0, 0.691436, False, '2021-11-23 08:42:53'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051062, 87767, 0x005106B3, 98.6182, -39.5816, -5.945, 0.722438, 0, 0, 0.691436, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005106B3 [98.618202 -39.581600 -5.945000] 0.722438 0.000000 0.000000 0.691436 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051063, 87767, 0x005106B0, 97.9903, -30.0525, -5.945, 0.683819, 0, 0, 0.729652, False, '2021-11-23 08:43:02'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051063, 87767, 0x005106B0, 97.9903, -30.0525, -5.945, 0.683819, 0, 0, 0.729652, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005106B0 [97.990303 -30.052500 -5.945000] 0.683819 0.000000 0.000000 0.729652 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051064, 87767, 0x00510651, 79.5946, -12.0506, -5.945, -0.000869, 0, 0, 1, False, '2021-11-23 08:43:08'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051064, 87767, 0x00510651, 79.5946, -12.0506, -5.945, -0.000869, 0, 0, 1, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510651 [79.594597 -12.050600 -5.945000] -0.000869 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051065, 87767, 0x0051059A, 94.3846, -79.86, -11.945, -0.677269, 0, 0, -0.735736, False, '2021-11-23 08:44:00'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051065, 87767, 0x0051059A, 94.3846, -79.86, -11.945, -0.677269, 0, 0, -0.735736, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x0051059A [94.384598 -79.860001 -11.945000] -0.677269 0.000000 0.000000 -0.735736 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051066, 87767, 0x005105A1, 90.2977, -106.348, -11.945, -0.007038, 0, 0, -0.999975, False, '2021-11-23 08:44:06'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051066, 87767, 0x005105A1, 90.2977, -106.348, -11.945, -0.007038, 0, 0, -0.999975, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005105A1 [90.297699 -106.348000 -11.945000] -0.007038 0.000000 0.000000 -0.999975 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051067, 87767, 0x00510279, 89.7929, -200.255, -35.945, -0.999884, 0, 0, -0.015221, False, '2021-11-23 08:45:00'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051067, 87767, 0x00510279, 89.7929, -200.255, -35.945, -0.999884, 0, 0, -0.015221, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510279 [89.792900 -200.255005 -35.945000] -0.999884 0.000000 0.000000 -0.015221 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051068, 87767, 0x00510255, 89.8057, -160.695, -35.945, -0.060834, 0, 0, -0.998148, False, '2021-11-23 08:45:10'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051068, 87767, 0x00510255, 89.8057, -160.695, -35.945, -0.060834, 0, 0, -0.998148, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510255 [89.805702 -160.695007 -35.945000] -0.060834 0.000000 0.000000 -0.998148 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051069, 87767, 0x005102B0, 110, -199.16, -35.945, 0.999986, 0, 0, 0.005342, False, '2021-11-23 08:45:25'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051069, 87767, 0x005102B0, 110, -199.16, -35.945, 0.999986, 0, 0, 0.005342, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005102B0 [110.000000 -199.160004 -35.945000] 0.999986 0.000000 0.000000 0.005342 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005106A, 87767, 0x0051028C, 109.893, -160.76, -35.945, -0.012321, 0, 0, -0.999924, False, '2021-11-23 08:45:33'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005106A, 87767, 0x0051028C, 109.893, -160.76, -35.945, -0.012321, 0, 0, -0.999924, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x0051028C [109.892998 -160.759995 -35.945000] -0.012321 0.000000 0.000000 -0.999924 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005106B, 87767, 0x00510227, 80.055, -160.71, -35.945, -0.011973, 0, 0, 0.999928, False, '2021-11-23 08:45:45'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005106B, 87767, 0x00510227, 80.055, -160.71, -35.945, -0.011973, 0, 0, 0.999928, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510227 [80.055000 -160.710007 -35.945000] -0.011973 0.000000 0.000000 0.999928 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005106C, 87767, 0x0051024B, 79.7933, -199.855, -35.945, 0.99937, 0, 0, -0.035491, False, '2021-11-23 09:11:13'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005106C, 87767, 0x0051024B, 79.7933, -199.855, -35.945, 0.99937, 0, 0, -0.035491, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x0051024B [79.793297 -199.854996 -35.945000] 0.999370 0.000000 0.000000 -0.035491 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005106D, 87767, 0x005101FE, 70.0094, -160.308, -35.945, 0.090303, 0, 0, 0.995914, False, '2021-11-23 09:11:23'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005106D, 87767, 0x005101FE, 70.0094, -160.308, -35.945, 0.090303, 0, 0, 0.995914, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005101FE [70.009399 -160.307999 -35.945000] 0.090303 0.000000 0.000000 0.995914 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005106E, 87767, 0x00510222, 70.2712, -199.428, -35.945, -0.999979, 0, 0, 0.006419, False, '2021-11-23 09:11:35'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005106E, 87767, 0x00510222, 70.2712, -199.428, -35.945, -0.999979, 0, 0, 0.006419, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510222 [70.271202 -199.427994 -35.945000] -0.999979 0.000000 0.000000 0.006419 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005106F, 87767, 0x005101D7, 60.0669, -161.697, -35.945, -0.007968, 0, 0, -0.999968, False, '2021-11-23 09:11:47'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005106F, 87767, 0x005101D7, 60.0669, -161.697, -35.945, -0.007968, 0, 0, -0.999968, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005101D7 [60.066898 -161.697006 -35.945000] -0.007968 0.000000 0.000000 -0.999968 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051070, 87767, 0x005101FB, 59.8393, -199.369, -35.945, -1, 0, 0, 0.000627, False, '2021-11-23 09:11:55'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051070, 87767, 0x005101FB, 59.8393, -199.369, -35.945, -1, 0, 0, 0.000627, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005101FB [59.839298 -199.369003 -35.945000] -1.000000 0.000000 0.000000 0.000627 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051071, 87767, 0x005101B0, 49.5793, -162.232, -35.945, -0.011331, 0, 0, -0.999936, False, '2021-11-23 09:12:02'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051071, 87767, 0x005101B0, 49.5793, -162.232, -35.945, -0.011331, 0, 0, -0.999936, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005101B0 [49.579300 -162.231995 -35.945000] -0.011331 0.000000 0.000000 -0.999936 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051072, 87767, 0x005101D4, 50.573, -200.001, -35.945, 0.999586, 0, 0, -0.02876, False, '2021-11-23 09:12:08'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051072, 87767, 0x005101D4, 50.573, -200.001, -35.945, 0.999586, 0, 0, -0.02876, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005101D4 [50.573002 -200.001007 -35.945000] 0.999586 0.000000 0.000000 -0.028760 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051073, 87767, 0x00510190, 40.0465, -160.944, -35.945, 0.014474, 0, 0, 0.999895, False, '2021-11-23 09:12:20'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051073, 87767, 0x00510190, 40.0465, -160.944, -35.945, 0.014474, 0, 0, 0.999895, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510190 [40.046501 -160.944000 -35.945000] 0.014474 0.000000 0.000000 0.999895 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051074, 87767, 0x005101AD, 40.4894, -200.697, -35.945, 0.999908, 0, 0, 0.013534, False, '2021-11-23 09:12:27'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x70051074, 87767, 0x005101AD, 40.4894, -200.697, -35.945, 0.999908, 0, 0, 0.013534, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x005101AD [40.489399 -200.697006 -35.945000] 0.999908 0.000000 0.000000 0.013534 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051075, 87768, 0x00510146, 110.552, -234.708, -47.945, 0.991409, 0, 0, -0.130797, False, '2021-11-23 09:13:08'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x70051075, 87768, 0x00510146, 110.552, -234.708, -47.945, 0.991409, 0, 0, -0.130797, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x00510146 [110.552002 -234.707993 -47.945000] 0.991409 0.000000 0.000000 -0.130797 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051076, 87768, 0x00510155, 130.105, -183.718, -47.945, 0.025681, 0, 0, -0.99967, False, '2021-11-23 09:13:19'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x70051076, 87768, 0x00510155, 130.105, -183.718, -47.945, 0.025681, 0, 0, -0.99967, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x00510155 [130.104996 -183.718002 -47.945000] 0.025681 0.000000 0.000000 -0.999670 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051077, 87768, 0x00510164, 152.404, -210.281, -47.945, -0.754941, 0, 0, -0.655793, False, '2021-11-23 09:13:32'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x70051077, 87768, 0x00510164, 152.404, -210.281, -47.945, -0.754941, 0, 0, -0.655793, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x00510164 [152.404007 -210.281006 -47.945000] -0.754941 0.000000 0.000000 -0.655793 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051078, 87768, 0x00510160, 143.693, -220, -47.945, -0.719197, 0, 0, -0.694806, False, '2021-11-23 09:13:56'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x70051078, 87768, 0x00510160, 143.693, -220, -47.945, -0.719197, 0, 0, -0.694806, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x00510160 [143.692993 -220.000000 -47.945000] -0.719197 0.000000 0.000000 -0.694806 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051079, 87768, 0x00510393, 129.026, -88.8251, -29.945, 0.586477, 0, 0, -0.809966, False, '2021-11-23 09:15:00'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x70051079, 87768, 0x00510393, 129.026, -88.8251, -29.945, 0.586477, 0, 0, -0.809966, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x00510393 [129.026001 -88.825104 -29.945000] 0.586477 0.000000 0.000000 -0.809966 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005107A, 87768, 0x005103A0, 167.159, -87.9975, -29.945, -0.564826, 0, 0, -0.82521, False, '2021-11-23 09:15:06'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x7005107A, 87768, 0x005103A0, 167.159, -87.9975, -29.945, -0.564826, 0, 0, -0.82521, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x005103A0 [167.158997 -87.997498 -29.945000] -0.564826 0.000000 0.000000 -0.825210 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005107B, 87768, 0x0051039E, 167.423, -73.6301, -29.945, -0.564826, 0, 0, -0.82521, False, '2021-11-23 09:15:11'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x7005107B, 87768, 0x0051039E, 167.423, -73.6301, -29.945, -0.564826, 0, 0, -0.82521, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x0051039E [167.423004 -73.630096 -29.945000] -0.564826 0.000000 0.000000 -0.825210 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005107C, 87768, 0x00510391, 129.762, -70.3734, -29.945, 0.231316, 0, 0, -0.972879, False, '2021-11-23 09:15:17'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x7005107C, 87768, 0x00510391, 129.762, -70.3734, -29.945, 0.231316, 0, 0, -0.972879, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x00510391 [129.761993 -70.373398 -29.945000] 0.231316 0.000000 0.000000 -0.972879 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005107D, 87767, 0x00510392, 133.928, -81.7884, -29.945, 0.015641, 0, 0, -0.999878, False, '2021-11-23 09:15:29'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005107D, 87767, 0x00510392, 133.928, -81.7884, -29.945, 0.015641, 0, 0, -0.999878, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510392 [133.927994 -81.788399 -29.945000] 0.015641 0.000000 0.000000 -0.999878 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005107E, 87767, 0x00510398, 145.114, -81.4384, -29.945, 0.015641, 0, 0, -0.999878, False, '2021-11-23 09:15:33'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005107E, 87767, 0x00510398, 145.114, -81.4384, -29.945, 0.015641, 0, 0, -0.999878, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x00510398 [145.113998 -81.438400 -29.945000] 0.015641 0.000000 0.000000 -0.999878 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005107F, 87767, 0x0051039C, 160.445, -80.9587, -29.945, 0.015641, 0, 0, -0.999878, False, '2021-11-23 09:15:37'); /* Eastern Pedestal Dungeon Generator */
+VALUES (0x7005107F, 87767, 0x0051039C, 160.445, -80.9587, -29.945, 0.015641, 0, 0, -0.999878, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Generator */
 /* @teleloc 0x0051039C [160.445007 -80.958702 -29.945000] 0.015641 0.000000 0.000000 -0.999878 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051080, 87768, 0x00510539, 40.0073, -103.621, -11.945, 0.999959, 0, 0, -0.009112, False, '2021-11-23 09:20:00'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x70051080, 87768, 0x00510539, 40.0073, -103.621, -11.945, 0.999959, 0, 0, -0.009112, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x00510539 [40.007301 -103.621002 -11.945000] 0.999959 0.000000 0.000000 -0.009112 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051081, 87768, 0x005104EC, 59.626, -126.567, -17.945, -0.999924, 0, 0, -0.012303, False, '2021-11-23 09:20:11'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x70051081, 87768, 0x005104EC, 59.626, -126.567, -17.945, -0.999924, 0, 0, -0.012303, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x005104EC [59.625999 -126.567001 -17.945000] -0.999924 0.000000 0.000000 -0.012303 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051082, 87768, 0x00510102, 84.0612, -119.375, -59.945, 0.400219, 0, 0, -0.916419, False, '2021-11-23 09:22:22'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x70051082, 87768, 0x00510102, 84.0612, -119.375, -59.945, 0.400219, 0, 0, -0.916419, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x00510102 [84.061203 -119.375000 -59.945000] 0.400219 0.000000 0.000000 -0.916419 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051083, 87768, 0x0051010F, 114.856, -119.997, -59.945, -0.377235, 0, 0, -0.926118, False, '2021-11-23 09:22:31'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x70051083, 87768, 0x0051010F, 114.856, -119.997, -59.945, -0.377235, 0, 0, -0.926118, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x0051010F [114.856003 -119.997002 -59.945000] -0.377235 0.000000 0.000000 -0.926118 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051084, 87768, 0x00510100, 80.5067, -91.7511, -59.945, -0.058623, 0, 0, 0.99828, False, '2021-11-23 09:22:40'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x70051084, 87768, 0x00510100, 80.5067, -91.7511, -59.945, -0.058623, 0, 0, 0.99828, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x00510100 [80.506699 -91.751099 -59.945000] -0.058623 0.000000 0.000000 0.998280 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051085, 87768, 0x00510107, 100.446, -91.8399, -59.945, -0.012, 0, 0, 0.999928, False, '2021-11-23 09:22:45'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x70051085, 87768, 0x00510107, 100.446, -91.8399, -59.945, -0.012, 0, 0, 0.999928, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x00510107 [100.445999 -91.839897 -59.945000] -0.012000 0.000000 0.000000 0.999928 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70051086, 87768, 0x00510110, 119.919, -91.508, -59.945, -0.106301, 0, 0, -0.994334, False, '2021-11-23 09:22:55'); /* Eastern Pedestal Dungeon Ghost Generator */
+VALUES (0x70051086, 87768, 0x00510110, 119.919, -91.508, -59.945, -0.106301, 0, 0, -0.994334, False, '2021-11-29 06:19:28'); /* Eastern Pedestal Dungeon Ghost Generator */
 /* @teleloc 0x00510110 [119.918999 -91.508003 -59.945000] -0.106301 0.000000 0.000000 -0.994334 */
