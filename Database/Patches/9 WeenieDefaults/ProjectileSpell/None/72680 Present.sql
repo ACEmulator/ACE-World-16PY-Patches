@@ -7,7 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (72680,   8,         25) /* Mass */
      , (72680,   9,          0) /* ValidLocations - None */
      , (72680,  66,          0) /* CheckpointStatus */
-     , (72680,  93,     134164) /* PhysicsState - ReportCollisions, Missile, PathClipped, Gravity, LightingOn, ScriptedCollision, Inelastic */;
+     , (72680,  93,     134164) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (72680,   1, True ) /* Stuck */
@@ -19,9 +19,9 @@ VALUES (72680,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (72680,  26,      15) /* MaximumVelocity */
+     , (72680,  27,       1) /* RotationSpeed */
      , (72680,  78,       1) /* Friction */
-     , (72680,  79,       0) /* Elasticity */
-     , (72680,  27,       1) /* RotationSpeed */;
+     , (72680,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72680,   1, 'Present') /* Name */;
@@ -32,4 +32,4 @@ VALUES (72680,   1, 0x020017DA) /* Setup */
      , (72680,   8, 0x06001066) /* Icon */
      , (72680,  22, 0x34000008) /* PhysicsEffectTable */
      , (72680,  28,       4269) /* Spell - Present */
-     , (72680,  30,         90) /* PhysicsScript - Destroy */;
+     , (72680,  30,         90) /* PhysicsScript - ProjectileCollision */;

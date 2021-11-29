@@ -552,5 +552,5 @@ VALUES (0x70063085, 87760, 0x00630107, 100.446, -91.8399, -59.945, -0.012, 0, 0,
 /* @teleloc 0x00630107 [100.445999 -91.839897 -59.945000] -0.012000 0.000000 0.000000 0.999928 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70063086, 87760, 0x00630110, 119.9188, -91.50801, -59.945, -0.106301, 0, 0, -0.994334, False, '2021-11-23 09:22:55'); /* Northern Pedestal Dungeon Ghost Generator */
-/* @teleloc 0x00630110 [119.918800 -91.508011 -59.945000] -0.106301 0.000000 0.000000 -0.994334 */
+VALUES (0x70063086, 87760, 0x00630110, 119.919, -91.508, -59.945, -0.106301, 0, 0, -0.994334, False, '2021-11-23 09:22:55'); /* Northern Pedestal Dungeon Ghost Generator */
+/* @teleloc 0x00630110 [119.918999 -91.508003 -59.945000] -0.106301 0.000000 0.000000 -0.994334 */

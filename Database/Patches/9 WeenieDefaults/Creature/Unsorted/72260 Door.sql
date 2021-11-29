@@ -64,11 +64,11 @@ VALUES (72260,   1, 'Door') /* Name */
      , (72260,  15, 'A locked door, impossible to pick.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72260,   1,   33560529) /* Setup */
-     , (72260,   2,  150995288) /* MotionTable */
-     , (72260,   3,  536871001) /* SoundTable */
-     , (72260,   8,  100673480) /* Icon */
-     , (72260,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (72260,   1, 0x020017D1) /* Setup */
+     , (72260,   2, 0x09000158) /* MotionTable */
+     , (72260,   3, 0x20000059) /* SoundTable */
+     , (72260,   8, 0x060027C8) /* Icon */
+     , (72260,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (72260,   1,   1, 0, 0) /* Strength */
@@ -93,4 +93,3 @@ VALUES (72260,  0,  4,  0,    0,  200,  100,  100,  100,  100,  100,  100,  100,
      , (72260,  6,  4,  0,    0,  200,  100,  100,  100,  100,  100,  100,  100,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (72260,  7,  4,  0,    0,  200,  100,  100,  100,  100,  100,  100,  100,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
      , (72260,  8,  4, 60, 0.75,  200,  100,  100,  100,  100,  100,  100,  100,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
-     

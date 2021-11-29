@@ -26,8 +26,8 @@ VALUES (37126,   1, 'Arcane Pyramid') /* Name */
      , (37126,  16, 'A pyramid with arcane runes etched into it. One side appears to be hinged.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37126,   1,   33560535) /* Setup */
-     , (37126,   3,  536870932) /* SoundTable */
-     , (37126,   8,  100689841) /* Icon */
-     , (37126,  22,  872415275) /* PhysicsEffectTable */
-     , (37126,  38,      37117) /* UseCreateItem - Dark Scarab */;
+VALUES (37126,   1, 0x020017D7) /* Setup */
+     , (37126,   3, 0x20000014) /* SoundTable */
+     , (37126,   8, 0x060067B1) /* Icon */
+     , (37126,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37126,  38,      37117) /* UseCreateItem */;

@@ -13,7 +13,7 @@ VALUES (87757,   1,        128) /* ItemType - Misc */
      , (87757,  18,         64) /* UiEffects - Lightning */
      , (87757,  19,          0) /* Value */
      , (87757,  33,          1) /* Bonded - Bonded */
-     , (87757,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (87757,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87757, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

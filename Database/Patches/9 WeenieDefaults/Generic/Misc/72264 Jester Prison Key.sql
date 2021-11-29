@@ -23,7 +23,7 @@ VALUES (72264,   1, 'Jester Prison Key') /* Name */
      , (72264,  16, 'A very old key with an M inscribed along its edge.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72264,   1,   33554784) /* Setup */
-     , (72264,   3,  536870932) /* SoundTable */
-     , (72264,   8,  100667485) /* Icon */
-     , (72264,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (72264,   1, 0x02000160) /* Setup */
+     , (72264,   3, 0x20000014) /* SoundTable */
+     , (72264,   8, 0x0600105D) /* Icon */
+     , (72264,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -13,7 +13,7 @@ VALUES (87755,   1,        128) /* ItemType - Misc */
      , (87755,  18,         64) /* UiEffects - Lightning */
      , (87755,  19,          0) /* Value */
      , (87755,  33,          1) /* Bonded - Bonded */
-     , (87755,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (87755,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (87755, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -26,7 +26,7 @@ VALUES (87755,   1, 'Shard of the Western Pedestal') /* Name */
      , (87755,  33, 'WesternPedestalShard_Pickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87755,   1,   33558564) /* Setup */
-     , (87755,   3,  536870913) /* SoundTable */
-     , (87755,   8,  100675645) /* Icon */
-     , (87755,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (87755,   1, 0x02001024) /* Setup */
+     , (87755,   3, 0x20000001) /* SoundTable */
+     , (87755,   8, 0x0600303D) /* Icon */
+     , (87755,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -6,8 +6,8 @@ VALUES (87758, 'ace87758-northernpedestaldungeon', 7, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (87758,   1,      65536) /* ItemType - Portal */
      , (87758,  16,         32) /* ItemUseable - Remote */
-     , (87758,  86,         40) /* ItemUseable - Remote */
-     , (87758,  87,         79) /* ItemUseable - Remote */
+     , (87758,  86,         40) /* MinLevel */
+     , (87758,  87,         79) /* MaxLevel */
      , (87758,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (87758, 133,          4) /* ShowableOnRadar - ShowAlways */;
 

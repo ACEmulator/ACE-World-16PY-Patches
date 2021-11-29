@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72274,   1, 'Jester Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72274,   1,   33560543) /* Setup */
-     , (72274,   2,  150995434) /* MotionTable */
-     , (72274,   3,  536870933) /* SoundTable */
-     , (72274,   8,  100675788) /* Icon */;
+VALUES (72274,   1, 0x020017DF) /* Setup */
+     , (72274,   2, 0x090001EA) /* MotionTable */
+     , (72274,   3, 0x20000015) /* SoundTable */
+     , (72274,   8, 0x060030CC) /* Icon */;

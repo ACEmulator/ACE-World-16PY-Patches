@@ -24,6 +24,8 @@ VALUES (72269,   1, True ) /* Stuck */
      , (72269,  11, False) /* IgnoreCollisions */
      , (72269,  12, True ) /* ReportCollisions */
      , (72269,  13, False) /* Ethereal */
+     , (72269,  52, True ) /* AiImmobile */
+     , (72269,  82, True ) /* DontTurnOrMoveWhenGiving */
      , (72269,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -64,37 +66,37 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (72269,   1, 'Guardian Statue') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72269,   1,   33560265) /* Setup */
-     , (72269,   2,  150995334) /* MotionTable */
-     , (72269,   3,  536870933) /* SoundTable */
-     , (72269,   4,  805306368) /* CombatTable */
-     , (72269,   7,  268437287) /* ClothingBase */
-     , (72269,   8,  100674350) /* Icon */
-     , (72269,  22,  872415269) /* PhysicsEffectTable */
+VALUES (72269,   1, 0x020016C9) /* Setup */
+     , (72269,   2, 0x09000186) /* MotionTable */
+     , (72269,   3, 0x20000015) /* SoundTable */
+     , (72269,   4, 0x30000000) /* CombatTable */
+     , (72269,   7, 0x10000727) /* ClothingBase */
+     , (72269,   8, 0x06002B2E) /* Icon */
+     , (72269,  22, 0x34000025) /* PhysicsEffectTable */
      , (72269,  35,       1000) /* DeathTreasureType - Loot Tier: 7 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (72269, 1, 480, 0, 0) /* Strength */
-     , (72269, 2, 500, 0, 0) /* Endurance */
-     , (72269, 3, 420, 0, 0) /* Quickness */
-     , (72269, 4, 450, 0, 0) /* Coordination */
-     , (72269, 5, 400, 0, 0) /* Focus */
-     , (72269, 6, 400, 0, 0) /* Self */;
+VALUES (72269,   1, 480, 0, 0) /* Strength */
+     , (72269,   2, 500, 0, 0) /* Endurance */
+     , (72269,   3, 420, 0, 0) /* Quickness */
+     , (72269,   4, 450, 0, 0) /* Coordination */
+     , (72269,   5, 400, 0, 0) /* Focus */
+     , (72269,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (72269, 1, 7750, 0, 0, 8000) /* MaxHealth */
-     , (72269, 3, 5000, 0, 0, 4500) /* MaxStamina */
-     , (72269, 5, 4600, 0, 0, 5000) /* MaxMana */;
+VALUES (72269,   1,  7750, 0, 0, 8000) /* MaxHealth */
+     , (72269,   3,  5000, 0, 0, 4500) /* MaxStamina */
+     , (72269,   5,  4600, 0, 0, 5000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (72269,  6, 0, 3, 0, 340, 0, 0) /* MeleeDefense        Specialized */
      , (72269,  7, 0, 3, 0, 420, 0, 0) /* MissileDefense      Specialized */
-     , (72269, 45, 0, 3, 0, 340, 0, 0) /* LightWeapons        Specialized */
      , (72269, 15, 0, 3, 0, 340, 0, 0) /* MagicDefense        Specialized */
      , (72269, 31, 0, 3, 0, 300, 0, 0) /* CreatureEnchantment Specialized */
      , (72269, 32, 0, 3, 0, 300, 0, 0) /* ItemEnchantment     Specialized */
      , (72269, 33, 0, 3, 0, 300, 0, 0) /* LifeMagic           Specialized */
-     , (72269, 34, 0, 3, 0, 300, 0, 0) /* WarMagic            Specialized */;
+     , (72269, 34, 0, 3, 0, 300, 0, 0) /* WarMagic            Specialized */
+     , (72269, 45, 0, 3, 0, 340, 0, 0) /* LightWeapons        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (72269,  0,  4,  0,    0,  650,  720,  720,  720,  560,  480,  430,  600,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -102,10 +104,10 @@ VALUES (72269,  0,  4,  0,    0,  650,  720,  720,  720,  560,  480,  430,  600,
      , (72269,  2,  4,  0,    0,  650,  720,  720,  720,  560,  480,  430,  600,    0, 3,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0,    0, 0.17,    0) /* Abdomen */
      , (72269,  3,  4,  0,    0,  650,  720,  720,  720,  560,  480,  430,  600,    0, 1, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0, 0.23, 0.03,    0) /* UpperArm */
      , (72269,  4,  4,  0,    0,  650,  720,  720,  720,  560,  480,  430,  600,    0, 2,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0,    0,  0.3,    0) /* LowerArm */
-     , (72269,  5,  4,  500, 0.75,  650,  720,  720,  720,  560,  480,  430,  600,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
+     , (72269,  5,  4, 500, 0.75,  650,  720,  720,  720,  560,  480,  430,  600,    0, 2,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0,    0,  0.2,    0) /* Hand */
      , (72269,  6,  4,  0,    0,  650,  720,  720,  720,  560,  480,  430,  600,    0, 3,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18,    0, 0.13, 0.18) /* UpperLeg */
      , (72269,  7,  4,  0,    0,  650,  720,  720,  720,  560,  480,  430,  600,    0, 3,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6,    0,    0,  0.6) /* LowerLeg */
-     , (72269,  8,  4,  500, 0.75,  650,  720,  720,  720,  560,  480,  430,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
+     , (72269,  8,  4, 500, 0.75,  650,  720,  720,  720,  560,  480,  430,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (72269, 9,  6353,  0, 0, 0.04, False) /* Create Pyreal Mote (6353) for ContainTreasure */
