@@ -61,10 +61,6 @@ VALUES (37146,   1, 0x0200004E) /* Setup */
      , (37146,   8, 0x06003447) /* Icon */
      , (37146,  22, 0x340000AB) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37146, 0, 0x00000000, 0, 0, 0, 0, 0, 0, 0) /* Undef */
-/* @teleloc 0x00000000 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (37146,   1,  50, 0, 0) /* Strength */
      , (37146,   2,  50, 0, 0) /* Endurance */

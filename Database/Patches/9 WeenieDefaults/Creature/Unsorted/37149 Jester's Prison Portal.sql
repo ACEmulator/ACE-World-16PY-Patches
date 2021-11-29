@@ -33,10 +33,6 @@ VALUES (37149,   1, 0x020005D5) /* Setup */
      , (37149,   3, 0x20000014) /* SoundTable */
      , (37149,   8, 0x0600106B) /* Icon */;
 
-INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37149, 0, 0x00000000, 0, 0, 0, 0, 0, 0, 0) /* Undef */
-/* @teleloc 0x00000000 [0.000000 0.000000 0.000000] 0.000000 0.000000 0.000000 0.000000 */;
-
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (37149,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

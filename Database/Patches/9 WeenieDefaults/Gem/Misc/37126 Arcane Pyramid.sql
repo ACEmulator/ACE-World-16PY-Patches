@@ -30,4 +30,4 @@ VALUES (37126,   1, 0x020017D7) /* Setup */
      , (37126,   3, 0x20000014) /* SoundTable */
      , (37126,   8, 0x060067B1) /* Icon */
      , (37126,  22, 0x3400002B) /* PhysicsEffectTable */
-     , (37126,  38,      37117) /* UseCreateItem */;
+     , (37126,  38,      37117) /* UseCreateItem - Dark Scarab */;

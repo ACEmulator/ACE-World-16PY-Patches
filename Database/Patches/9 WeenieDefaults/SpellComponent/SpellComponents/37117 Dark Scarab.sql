@@ -29,8 +29,8 @@ VALUES (37117,   1, 'Dark Scarab') /* Name */
      , (37117,  20, 'Dark Scarabs') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37117,   1,   33555211) /* Setup */
-     , (37117,   3,  536870932) /* SoundTable */
-     , (37117,   8,  100689827) /* Icon */
-     , (37117,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37117,   1, 0x0200030B) /* Setup */
+     , (37117,   3, 0x20000014) /* SoundTable */
+     , (37117,   8, 0x060067A3) /* Icon */
+     , (37117,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37117,  29,        192) /* SpellComponent */;
